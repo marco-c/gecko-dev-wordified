@@ -5610,15 +5610,6 @@ nsIURI
 aURI
 )
 ;
-virtual
-nsStyleSet
-:
-:
-sheetType
-GetAttrSheetType
-(
-)
-;
 void
 FillStyleSet
 (

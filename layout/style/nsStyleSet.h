@@ -1629,7 +1629,6 @@ eAgentSheet
 /
 /
 CSS
-ePresHintSheet
 eUserSheet
 /
 /
@@ -2369,7 +2368,7 @@ useful
 for
 the
 preshint
-levels
+level
 .
 void
 AssertNoCSSRules
