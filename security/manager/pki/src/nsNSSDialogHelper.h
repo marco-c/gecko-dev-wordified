@@ -495,12 +495,6 @@ nsNSSDialogHelper
 {
 public
 :
-const
-static
-char
-*
-kDefaultOpenWindowParam
-;
 /
 /
 The
@@ -530,6 +524,10 @@ url
 nsISupports
 *
 params
+PRBool
+modal
+=
+PR_TRUE
 )
 ;
 }

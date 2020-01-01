@@ -1209,6 +1209,7 @@ crlImportDialog
 xul
 "
 block
+PR_FALSE
 )
 ;
 return
@@ -2849,6 +2850,7 @@ certViewer
 xul
 "
 block
+PR_FALSE
 )
 ;
 return
