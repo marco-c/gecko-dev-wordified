@@ -241,12 +241,8 @@ kNameSpaceID_SVG
 10
 #
 define
-kNameSpaceID_XMLEvents
-11
-#
-define
 kNameSpaceID_LastBuiltin
-11
+10
 /
 /
 last
