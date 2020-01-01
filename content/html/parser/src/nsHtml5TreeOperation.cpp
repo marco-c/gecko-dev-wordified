@@ -634,6 +634,7 @@ RemoveChildAt
 (
 pos
 PR_TRUE
+PR_FALSE
 )
 ;
 NS_ENSURE_SUCCESS

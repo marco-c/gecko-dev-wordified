@@ -1101,9 +1101,6 @@ NODE_HAS_SLOW_SELECTOR
 NODE_HAS_EDGE_CHILD_SELECTOR
 |
 NODE_HAS_SLOW_SELECTOR_NOAPPEND
-NODE_MAY_HAVE_CONTENT_EDITABLE_ATTR
-=
-0x00040000U
 /
 /
 Four
@@ -1116,7 +1113,7 @@ type
 ID
 NODE_SCRIPT_TYPE_OFFSET
 =
-19
+18
 NODE_SCRIPT_TYPE_SIZE
 =
 4
@@ -3079,6 +3076,15 @@ has
 *
 occurred
 *
+param
+aMutationEvent
+whether
+to
+fire
+a
+mutation
+event
+*
 *
 Note
 :
@@ -3106,6 +3112,10 @@ PRUint32
 aIndex
 PRBool
 aNotify
+PRBool
+aMutationEvent
+=
+PR_TRUE
 )
 =
 0

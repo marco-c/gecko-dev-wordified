@@ -1471,6 +1471,15 @@ aVisitor
 )
 ;
 virtual
+void
+SetFocus
+(
+nsPresContext
+*
+aPresContext
+)
+;
+virtual
 PRBool
 IsHTMLFocusable
 (
@@ -1503,6 +1512,10 @@ PRUint32
 aIndex
 PRBool
 aNotify
+PRBool
+aMutationEvent
+=
+PR_TRUE
 )
 ;
 /
