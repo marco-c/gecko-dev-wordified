@@ -484,7 +484,11 @@ z
 ev
 #
 include
-__FILE__
+"
+StartupTimeline
+.
+h
+"
 #
 undef
 mozilla_StartupTimeline_Event
