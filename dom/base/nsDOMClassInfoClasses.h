@@ -614,6 +614,10 @@ element
 classes
 DOMCI_CLASS
 (
+HTMLElement
+)
+DOMCI_CLASS
+(
 HTMLAnchorElement
 )
 DOMCI_CLASS
