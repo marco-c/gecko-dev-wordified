@@ -5618,6 +5618,17 @@ inherited
 from
 nsIDocument
 .
+virtual
+nsIDOMNode
+*
+AsDOMNode
+(
+)
+{
+return
+this
+;
+}
 protected
 :
 friend

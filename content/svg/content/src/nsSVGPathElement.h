@@ -682,6 +682,17 @@ GetClassInfo
 )
 ;
 virtual
+nsIDOMNode
+*
+AsDOMNode
+(
+)
+{
+return
+this
+;
+}
+virtual
 SVGAnimatedPathSegList
 *
 GetAnimPathSegList

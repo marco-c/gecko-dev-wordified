@@ -567,6 +567,17 @@ nsIContent
 aNextSibling
 )
 ;
+virtual
+nsIDOMNode
+*
+AsDOMNode
+(
+)
+{
+return
+this
+;
+}
 #
 ifdef
 DEBUG
