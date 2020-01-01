@@ -791,7 +791,7 @@ WebGLUniformLocation
 class
 WebGLExtension
 ;
-class
+struct
 WebGLVertexAttribData
 ;
 class

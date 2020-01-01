@@ -98,7 +98,7 @@ endif
 namespace
 base
 {
-class
+struct
 FileDescriptor
 ;
 }
