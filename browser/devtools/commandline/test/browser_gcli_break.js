@@ -57,7 +57,7 @@ browser
 /
 devtools
 /
-shared
+commandline
 /
 test
 /
