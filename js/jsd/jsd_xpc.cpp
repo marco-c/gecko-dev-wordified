@@ -6542,7 +6542,9 @@ later
 .
 *
 /
-mPPLineMap
+PCMapEntry
+*
+lineMap
 =
 static_cast
 <
@@ -6567,7 +6569,7 @@ PCMapEntry
 ;
 if
 (
-mPPLineMap
+lineMap
 )
 {
 mPCMapSize
@@ -6650,7 +6652,7 @@ scriptExtent
 mPCMapSize
 )
 {
-mPPLineMap
+lineMap
 =
 static_cast
 <
@@ -6661,6 +6663,8 @@ PCMapEntry
 PR_Realloc
 (
 mPPLineMap
+=
+lineMap
 mPCMapSize
 *
 sizeof
@@ -6668,6 +6672,16 @@ sizeof
 PCMapEntry
 )
 )
+)
+;
+if
+(
+!
+lineMap
+)
+PR_Free
+(
+mPPLineMap
 )
 ;
 }
@@ -6684,6 +6698,8 @@ script
 ;
 return
 mPPLineMap
+=
+lineMap
 ;
 }
 PRUint32
@@ -7999,7 +8015,7 @@ CreatePPLineMap
 )
 )
 return
-NS_ERROR_FAILURE
+NS_ERROR_OUT_OF_MEMORY
 ;
 *
 _rval
