@@ -3934,11 +3934,12 @@ return
 _nIns
 ;
 }
-void
+NIns
+*
 Assembler
 :
 :
-asm_branch_xov
+asm_branch_ov
 (
 LOpcode
 NIns
@@ -3947,8 +3948,11 @@ NIns
 {
 TODO
 (
-asm_branch_xov
+asm_branch_ov
 )
+;
+return
+_nIns
 ;
 }
 void
