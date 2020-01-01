@@ -941,6 +941,9 @@ aKidFrame
 nsReflowStatus
 &
 aStatus
+nsRect
+*
+aChildBounds
 )
 ;
 protected
