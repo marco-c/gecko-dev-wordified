@@ -1297,6 +1297,7 @@ if
 FoldConstants
 (
 cx
+&
 pn
 &
 parser
