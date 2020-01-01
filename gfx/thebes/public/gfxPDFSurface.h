@@ -437,6 +437,13 @@ gfxASurface
 .
 h
 "
+#
+include
+"
+gfxContext
+.
+h
+"
 /
 *
 for
