@@ -523,7 +523,7 @@ mParamCount
 PRUint32
 mResultColumnCount
 ;
-nsStringArray
+nsCStringArray
 mColumnNames
 ;
 PRBool
