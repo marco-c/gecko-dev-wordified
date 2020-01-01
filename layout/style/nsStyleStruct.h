@@ -724,6 +724,17 @@ See
 nsStyleContext
 :
 :
+RelevantLinkIsVisited
+#
+define
+NS_STYLE_RELEVANT_LINK_VISITED
+0x04000000
+/
+/
+See
+nsStyleContext
+:
+:
 GetPseudoEnum
 #
 define
