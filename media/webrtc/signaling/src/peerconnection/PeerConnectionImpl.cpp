@@ -3593,11 +3593,13 @@ aRetval
 #
 ifdef
 MOZILLA_INTERNAL_API
+nsRefPtr
+<
 mozilla
 :
 :
 DataChannel
-*
+>
 dataChannel
 ;
 mozilla
@@ -3700,6 +3702,10 @@ return
 NS_NewDOMDataChannel
 (
 dataChannel
+.
+forget
+(
+)
 mWindow
 aRetval
 )
