@@ -444,7 +444,9 @@ jsgc_barrier_inl_h___
 #
 include
 "
-jsgcmark
+gc
+/
+Barrier
 .
 h
 "
@@ -453,7 +455,7 @@ include
 "
 gc
 /
-Barrier
+Marking
 .
 h
 "
