@@ -6390,6 +6390,14 @@ if
 trans
 )
 {
+trans
+-
+>
+Init
+(
+nsnull
+)
+;
 bool
 isUrl
 =

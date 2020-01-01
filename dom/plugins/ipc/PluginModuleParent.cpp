@@ -103,7 +103,7 @@ MPL
 /
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 #
 include
 <
@@ -4781,7 +4781,7 @@ elif
 !
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 bool
 PluginModuleParent

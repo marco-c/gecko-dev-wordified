@@ -6200,6 +6200,8 @@ script
 jsbytecode
 *
 pc
+JSProtoKey
+key
 )
 ;
 /

@@ -9701,10 +9701,7 @@ scope
 const
 {
 return
-Wrapper
-:
-:
-wrappedObject
+GetProxyTargetObject
 (
 this
 )

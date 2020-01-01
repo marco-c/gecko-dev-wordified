@@ -5549,7 +5549,7 @@ char
 TypedArray
 :
 :
-getDataOffset
+viewData
 (
 obj
 )
@@ -18931,7 +18931,7 @@ global
 (
 )
 &
-Wrapper
+DirectWrapper
 :
 :
 singleton
@@ -19050,7 +19050,7 @@ uintptr_t
 TypedArray
 :
 :
-getDataOffset
+viewData
 (
 array
 )
@@ -19068,7 +19068,7 @@ js_memcpy
 TypedArray
 :
 :
-getDataOffset
+viewData
 (
 array
 )
@@ -19182,7 +19182,7 @@ if
 TypedArray
 :
 :
-getByteLength
+byteLength
 (
 obj
 )
@@ -19217,7 +19217,7 @@ uintptr_t
 TypedArray
 :
 :
-getDataOffset
+viewData
 (
 obj
 )
@@ -19255,14 +19255,14 @@ uint64_t
 TypedArray
 :
 :
-getDataOffset
+viewData
 (
 obj
 )
 TypedArray
 :
 :
-getByteLength
+byteLength
 (
 obj
 )

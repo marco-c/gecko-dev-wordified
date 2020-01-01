@@ -3889,6 +3889,9 @@ clipboardHelper
 copyString
 (
 text
+this
+.
+doc
 )
 ;
 if
@@ -4047,6 +4050,9 @@ value
 "
 ;
 "
+this
+.
+doc
 )
 ;
 }
@@ -4167,6 +4173,9 @@ copyString
 node
 .
 textContent
+this
+.
+doc
 )
 ;
 }
@@ -4287,6 +4296,9 @@ copyString
 node
 .
 textContent
+this
+.
+doc
 )
 ;
 }

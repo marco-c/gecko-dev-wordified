@@ -290,7 +290,7 @@ X
 ray
 wrapper
 .
-Wrapper
+DirectWrapper
 WaiveXrayWrapperWrapper
 (
 WrapperFactory

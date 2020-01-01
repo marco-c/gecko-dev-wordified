@@ -17476,7 +17476,7 @@ GetProto
 )
 -
 >
-TraceJS
+TraceSelf
 (
 trc
 )

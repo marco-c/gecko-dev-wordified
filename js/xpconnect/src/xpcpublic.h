@@ -2148,6 +2148,12 @@ rv
 /
 namespace
 xpc
+nsCycleCollectionParticipant
+*
+xpc_JSCompartmentParticipant
+(
+)
+;
 namespace
 mozilla
 {

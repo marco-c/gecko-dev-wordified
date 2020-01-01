@@ -305,7 +305,7 @@ endif
 #
 include
 "
-TextLeafAccessible
+TextLeafAccessibleWrap
 .
 h
 "
@@ -2436,7 +2436,7 @@ Accessible
 accessible
 =
 new
-TextLeafAccessible
+TextLeafAccessibleWrap
 (
 aContent
 GetDocAccessible

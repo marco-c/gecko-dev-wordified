@@ -11232,6 +11232,11 @@ copyString
 this
 .
 selectedText
+this
+.
+contentWindow
+.
+document
 )
 ;
 sendAsyncMessage

@@ -800,6 +800,10 @@ PRInt32
 aExtraForgetSkippableCalls
 =
 0
+bool
+aForced
+=
+true
 )
 ;
 static
