@@ -508,6 +508,10 @@ nsWindowsDllInterceptor
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 if
 defined
