@@ -50158,6 +50158,14 @@ MarkLayersActive
 nsChangeHint_UpdateTransformLayer
 )
 ;
+aFrame
+-
+>
+AddStateBits
+(
+NS_FRAME_TRANSFORM_CHANGED
+)
+;
 /
 /
 If
