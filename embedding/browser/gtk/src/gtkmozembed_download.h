@@ -839,7 +839,7 @@ GTKMOZEMBED_API
 (
 GtkObject
 *
-gtk_moz_embed_download_get_lastest_object
+gtk_moz_embed_download_get_latest_object
 (
 void
 )

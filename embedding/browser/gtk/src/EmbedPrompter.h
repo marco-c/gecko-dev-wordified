@@ -485,6 +485,13 @@ nsString
 h
 "
 #
+include
+"
+nsReadableUtils
+.
+h
+"
+#
 else
 #
 include

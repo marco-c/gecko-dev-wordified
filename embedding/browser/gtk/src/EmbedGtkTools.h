@@ -594,16 +594,6 @@ nsIContentViewer
 aViewer
 )
 ;
-PRUnichar
-*
-LocaleToUnicode
-(
-const
-char
-*
-locStr
-)
-;
 #
 endif
 /
