@@ -933,7 +933,7 @@ void
 guard_0
 (
 bool
-ok
+expected
 void
 *
 a
@@ -946,7 +946,7 @@ void
 guard_h
 (
 bool
-ok
+expected
 void
 *
 a
@@ -959,7 +959,7 @@ void
 guard_ov
 (
 bool
-ok
+expected
 void
 *
 a
