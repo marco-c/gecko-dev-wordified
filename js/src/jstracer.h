@@ -10573,6 +10573,15 @@ double
 slot
 )
 ;
+extern
+bool
+InCustomIterNextTryRegion
+(
+jsbytecode
+*
+pc
+)
+;
 #
 ifdef
 MOZ_TRACEVIS
