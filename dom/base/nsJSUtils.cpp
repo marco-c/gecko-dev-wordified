@@ -1193,9 +1193,10 @@ JS
 :
 CompileOptions
 &
-aOptions
-bool
-aCoerceToString
+aCompileOptions
+EvaluateOptions
+&
+aEvaluateOptions
 JS
 :
 :
@@ -1216,10 +1217,10 @@ EvaluateString
 ;
 MOZ_ASSERT_IF
 (
-aOptions
+aCompileOptions
 .
 versionSet
-aOptions
+aCompileOptions
 .
 version
 !
@@ -1229,7 +1230,9 @@ JSVERSION_UNKNOWN
 ;
 MOZ_ASSERT_IF
 (
-aCoerceToString
+aEvaluateOptions
+.
+coerceToString
 aRetValue
 )
 ;
@@ -1344,7 +1347,7 @@ aScopeObject
 )
 )
 ;
-aOptions
+aCompileOptions
 .
 setPrincipals
 (
@@ -1443,7 +1446,7 @@ Evaluate
 (
 aCx
 rootedScope
-aOptions
+aCompileOptions
 PromiseFlatString
 (
 aScript
@@ -1465,7 +1468,9 @@ if
 ok
 &
 &
-aCoerceToString
+aEvaluateOptions
+.
+coerceToString
 &
 &
 !
