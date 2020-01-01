@@ -2655,6 +2655,10 @@ mutators
 If
 reserve
 (
+length
+(
+)
++
 N
 )
 succeeds
