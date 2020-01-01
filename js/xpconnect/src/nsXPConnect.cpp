@@ -12801,7 +12801,6 @@ scope
 aClassInfo
 &
 sciProto
-false
 OBJ_IS_NOT_GLOBAL
 )
 ;
