@@ -1050,10 +1050,7 @@ str
 v
 }
 ;
-js
-:
-:
-AutoArrayRooter
+JSAutoTempValueRooter
 tvr
 (
 cx
@@ -1247,10 +1244,7 @@ return
 nsnull
 ;
 }
-js
-:
-:
-AutoValueRooter
+JSAutoTempValueRooter
 tvr
 (
 cx
@@ -1410,10 +1404,7 @@ from
 garbage
 collection
 .
-js
-:
-:
-AutoValueRooter
+JSAutoTempValueRooter
 tvr
 (
 cx

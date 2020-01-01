@@ -1165,10 +1165,7 @@ JS_GetFunctionObject
 fun
 )
 ;
-js
-:
-:
-AutoValueRooter
+JSAutoTempValueRooter
 tvr
 (
 cx
@@ -1328,10 +1325,7 @@ JSVAL_NULL
 JSVAL_NULL
 }
 ;
-js
-:
-:
-AutoArrayRooter
+JSAutoTempValueRooter
 tvr
 (
 cx

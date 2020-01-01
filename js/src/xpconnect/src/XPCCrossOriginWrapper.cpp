@@ -483,10 +483,7 @@ h
 /
 /
 For
-js
-:
-:
-AutoValueRooter
+JSAutoTempValueRooter
 .
 #
 include
@@ -5047,10 +5044,7 @@ return
 nsnull
 ;
 }
-js
-:
-:
-AutoValueRooter
+JSAutoTempValueRooter
 tvr
 (
 cx
@@ -7023,10 +7017,7 @@ return
 nsnull
 ;
 }
-js
-:
-:
-AutoValueRooter
+JSAutoTempValueRooter
 tvr
 (
 cx

@@ -1376,10 +1376,7 @@ might
 be
 :
 *
-js
-:
-:
-AutoValueRooter
+JSAutoTempValueRooter
 tvr
 (
 cx
@@ -1398,10 +1395,7 @@ accidentally
 write
 :
 *
-js
-:
-:
-AutoValueRooter
+JSAutoTempValueRooter
 (
 cx
 1
