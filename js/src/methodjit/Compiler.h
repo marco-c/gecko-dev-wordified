@@ -1886,7 +1886,7 @@ outer
 ;
 JSScript
 *
-script
+script_
 ;
 analyze
 :

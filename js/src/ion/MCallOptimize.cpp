@@ -707,7 +707,7 @@ oracle
 >
 returnTypeSet
 (
-script
+script_
 pc
 &
 barrier
@@ -781,7 +781,7 @@ oracle
 >
 getCallArg
 (
-script
+script_
 argc
 arg
 pc
@@ -1564,6 +1564,13 @@ unhandledFlags
 return
 InliningStatus_NotInlined
 ;
+RootedScript
+script
+(
+cx
+script_
+)
+;
 if
 (
 types
@@ -1800,6 +1807,13 @@ OBJECT_FLAG_NON_DENSE_ARRAY
 )
 return
 InliningStatus_NotInlined
+;
+RootedScript
+script
+(
+cx
+script_
+)
 ;
 if
 (

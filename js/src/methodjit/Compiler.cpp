@@ -585,7 +585,7 @@ outer
 (
 NULL
 )
-script
+script_
 (
 NULL
 )
@@ -3208,7 +3208,7 @@ Compile_Error
 this
 -
 >
-script
+script_
 =
 script
 ;
@@ -3308,7 +3308,7 @@ parent
 this
 -
 >
-script
+script_
 =
 a
 -
@@ -3323,7 +3323,7 @@ analysis
 this
 -
 >
-script
+script_
 -
 >
 analysis
@@ -3723,7 +3723,7 @@ sps
 .
 setPushed
 (
-script
+script_
 )
 ;
 CHECK_STATUS
@@ -7541,7 +7541,7 @@ interpreter
 /
 if
 (
-script
+script_
 -
 >
 function
@@ -7620,7 +7620,7 @@ storePtr
 (
 ImmPtr
 (
-script
+script_
 -
 >
 function
@@ -7710,7 +7710,7 @@ Equal
 JSParamReg_Argc
 Imm32
 (
-script
+script_
 -
 >
 function
@@ -7770,7 +7770,7 @@ storePtr
 (
 ImmPtr
 (
-script
+script_
 -
 >
 function
@@ -7915,7 +7915,7 @@ storePtr
 (
 ImmPtr
 (
-script
+script_
 -
 >
 function
@@ -8026,7 +8026,7 @@ nvals
 =
 VALUES_PER_STACK_FRAME
 +
-script
+script_
 -
 >
 nslots
@@ -8272,7 +8272,7 @@ frames
 if
 (
 !
-script
+script_
 -
 >
 function
@@ -8336,7 +8336,7 @@ StackFrame
 :
 offsetOfCallee
 (
-script
+script_
 -
 >
 function
@@ -8469,7 +8469,7 @@ underflow
 /
 if
 (
-script
+script_
 -
 >
 argumentsHasVarBinding
@@ -8518,7 +8518,7 @@ void
 (
 size_t
 )
-script
+script_
 -
 >
 function
@@ -8583,7 +8583,7 @@ ifdef
 DEBUG
 if
 (
-script
+script_
 -
 >
 function
@@ -8628,13 +8628,13 @@ prologue
 /
 if
 (
-script
+script_
 -
 >
 isActiveEval
 &
 &
-script
+script_
 -
 >
 strictModeCode
@@ -8661,7 +8661,7 @@ REJOIN_EVAL_PROLOGUE
 else
 if
 (
-script
+script_
 -
 >
 function
@@ -8671,7 +8671,7 @@ function
 {
 if
 (
-script
+script_
 -
 >
 function
@@ -8789,7 +8789,7 @@ i
 =
 0
 ;
-script
+script_
 -
 >
 function
@@ -8799,7 +8799,7 @@ function
 &
 i
 <
-script
+script_
 -
 >
 function
@@ -8897,7 +8897,7 @@ slot
 =
 LocalSlot
 (
-script
+script_
 i
 )
 ;
@@ -9051,7 +9051,7 @@ i
 ;
 i
 <
-script
+script_
 -
 >
 nfixed
@@ -9089,14 +9089,14 @@ for
 uint32_t
 i
 =
-script
+script_
 -
 >
 nfixed
 ;
 i
 <
-script
+script_
 -
 >
 nslots
@@ -10142,7 +10142,7 @@ JS_ASSERT
 outerScript
 =
 =
-script
+script_
 )
 ;
 chunk
@@ -10194,7 +10194,7 @@ result
 ;
 if
 (
-script
+script_
 -
 >
 function
@@ -11348,7 +11348,7 @@ chunkIndex
 0
 &
 &
-script
+script_
 -
 >
 function
@@ -12584,7 +12584,7 @@ i
 .
 jumpTarget
 -
-script
+script_
 -
 >
 code
@@ -13236,7 +13236,7 @@ to
 .
 strictMode
 =
-script
+script_
 -
 >
 strictModeCode
@@ -14079,7 +14079,7 @@ if
 (
 bytecodeInChunk
 (
-script
+script_
 -
 >
 code
@@ -14507,7 +14507,7 @@ op
 =
 JSOp
 (
-script
+script_
 -
 >
 code
@@ -15014,21 +15014,21 @@ init
 ;
 \
 RootedScript
-script_
+script
 (
 cx
-script
+script_
 )
 ;
 \
 js_Disassemble1
 (
 cx
-script_
+script
 PC
 PC
 -
-script
+script_
 -
 >
 code
@@ -15220,7 +15220,7 @@ if
 !
 bytecodeInChunk
 (
-script
+script_
 -
 >
 code
@@ -15253,13 +15253,13 @@ generateMethod
 SrcNoteLineScanner
 scanner
 (
-script
+script_
 -
 >
 notes
 (
 )
-script
+script_
 -
 >
 lineno
@@ -15316,7 +15316,7 @@ chunkBegin
 0
 chunkEnd
 =
-script
+script_
 -
 >
 length
@@ -15362,7 +15362,7 @@ while
 PC
 !
 =
-script
+script_
 -
 >
 code
@@ -15445,7 +15445,7 @@ slot
 <
 TotalSlots
 (
-script
+script_
 )
 )
 {
@@ -15508,7 +15508,7 @@ slot
 =
 GetBytecodeSlot
 (
-script
+script_
 PC
 )
 ;
@@ -15631,7 +15631,7 @@ JSTRAP_NONE
 ;
 if
 (
-script
+script_
 -
 >
 hasBreakpointsAt
@@ -15714,12 +15714,12 @@ if
 PC
 >
 =
-script
+script_
 -
 >
 code
 +
-script
+script_
 -
 >
 length
@@ -15732,7 +15732,7 @@ advanceTo
 (
 PC
 -
-script
+script_
 -
 >
 code
@@ -15740,7 +15740,7 @@ code
 ;
 if
 (
-script
+script_
 -
 >
 stepModeEnabled
@@ -15960,7 +15960,7 @@ if
 PC
 >
 =
-script
+script_
 -
 >
 code
@@ -16261,7 +16261,7 @@ inlineIndex
 +
 lastPC
 -
-script
+script_
 -
 >
 code
@@ -16392,7 +16392,7 @@ uint32_t
 (
 PC
 -
-script
+script_
 -
 >
 code
@@ -16532,7 +16532,7 @@ uint32_t
 (
 PC
 -
-script
+script_
 -
 >
 code
@@ -16700,7 +16700,7 @@ jsbytecode
 *
 backedge
 =
-script
+script_
 -
 >
 code
@@ -16739,7 +16739,7 @@ slot
 <
 TotalSlots
 (
-script
+script_
 )
 ;
 slot
@@ -17036,7 +17036,7 @@ JSVAL_TYPE_UNKNOWN
 ;
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -17060,10 +17060,10 @@ if
 (
 GetUseCount
 (
-script
+script_
 PC
 -
-script
+script_
 -
 >
 code
@@ -17248,7 +17248,7 @@ for
 /
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -17495,7 +17495,7 @@ JSOP_RETURN
 )
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -17541,10 +17541,10 @@ targetOffset
 FollowBranch
 (
 cx
-script
+script_
 PC
 -
-script
+script_
 -
 >
 code
@@ -17554,7 +17554,7 @@ jsbytecode
 *
 target
 =
-script
+script_
 -
 >
 code
@@ -17796,7 +17796,7 @@ JSOP_ARGUMENTS
 )
 if
 (
-script
+script_
 -
 >
 needsArgsObj
@@ -18167,7 +18167,7 @@ JSOP_NE
 {
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -18266,7 +18266,7 @@ JSOP_NOP
 {
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -19142,6 +19142,13 @@ DoubleType
 )
 )
 {
+RootedScript
+script
+(
+cx
+script_
+)
+;
 types
 :
 :
@@ -19214,7 +19221,7 @@ PropertyName
 *
 name
 =
-script
+script_
 -
 >
 getName
@@ -19280,7 +19287,7 @@ PropertyName
 *
 name
 =
-script
+script_
 -
 >
 getName
@@ -19314,7 +19321,7 @@ INLINE_STUBCALL
 (
 STRICT_VARIANT
 (
-script
+script_
 stubs
 :
 :
@@ -19356,7 +19363,7 @@ INLINE_STUBCALL
 (
 STRICT_VARIANT
 (
-script
+script_
 stubs
 :
 :
@@ -19438,7 +19445,7 @@ if
 !
 jsop_getprop
 (
-script
+script_
 -
 >
 getName
@@ -19471,7 +19478,7 @@ JSOP_CALLELEM
 )
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -19528,7 +19535,7 @@ JSOP_SETELEM
 {
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -19791,7 +19798,7 @@ status
 ;
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -19910,7 +19917,7 @@ PropertyName
 *
 name
 =
-script
+script_
 -
 >
 getName
@@ -19965,7 +19972,7 @@ PropertyName
 *
 name
 =
-script
+script_
 -
 >
 getName
@@ -20026,7 +20033,7 @@ move
 (
 ImmPtr
 (
-script
+script_
 -
 >
 getName
@@ -20072,7 +20079,7 @@ JSOP_DOUBLE
 double
 d
 =
-script
+script_
 -
 >
 getConst
@@ -20115,7 +20122,7 @@ push
 (
 StringValue
 (
-script
+script_
 -
 >
 getAtom
@@ -20350,7 +20357,7 @@ fixed
 /
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -20474,7 +20481,7 @@ JSOP_LOOKUPSWITCH
 )
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -20621,7 +20628,7 @@ JSOP_STRICTNE
 )
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -20695,7 +20702,7 @@ IFNEX
 /
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -20852,7 +20859,7 @@ singleton
 else
 if
 (
-script
+script_
 -
 >
 argsObjAliasesFormals
@@ -20943,7 +20950,7 @@ PC
 ;
 if
 (
-script
+script_
 -
 >
 argsObjAliasesFormals
@@ -21421,7 +21428,7 @@ JSOP_ARGDEC
 )
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -21481,7 +21488,7 @@ Compile_Retry
 ;
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -21536,7 +21543,7 @@ JSOP_LOCALDEC
 )
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -21596,7 +21603,7 @@ Compile_Retry
 ;
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -21639,7 +21646,7 @@ JSOP_BINDNAME
 )
 jsop_bindname
 (
-script
+script_
 -
 >
 getName
@@ -21697,7 +21704,7 @@ if
 !
 jsop_setprop
 (
-script
+script_
 -
 >
 getName
@@ -21760,7 +21767,7 @@ if
 !
 jsop_setprop
 (
-script
+script_
 -
 >
 getName
@@ -22055,7 +22062,7 @@ JSFunction
 *
 innerFun
 =
-script
+script_
 -
 >
 getFunction
@@ -22092,7 +22099,7 @@ INLINE_STUBCALL
 (
 STRICT_VARIANT
 (
-script
+script_
 stubs
 :
 :
@@ -22119,7 +22126,7 @@ PropertyName
 *
 name
 =
-script
+script_
 -
 >
 getName
@@ -22175,7 +22182,7 @@ PropertyName
 *
 name
 =
-script
+script_
 -
 >
 getName
@@ -22231,7 +22238,7 @@ JSFunction
 *
 fun
 =
-script
+script_
 -
 >
 getFunction
@@ -22383,7 +22390,7 @@ peek
 .
 name
 =
-script
+script_
 -
 >
 getName
@@ -22438,7 +22445,7 @@ if
 !
 jsop_setgname
 (
-script
+script_
 -
 >
 getName
@@ -22486,7 +22493,7 @@ JSObject
 *
 object
 =
-script
+script_
 -
 >
 getObject
@@ -22563,7 +22570,7 @@ JSOP_STOP
 )
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -22596,7 +22603,7 @@ if
 !
 jsop_xname
 (
-script
+script_
 -
 >
 getName
@@ -22630,7 +22637,7 @@ JSOP_ENTERLET1
 enterBlock
 (
 &
-script
+script_
 -
 >
 getObject
@@ -22984,10 +22991,10 @@ nuses
 =
 GetUseCount
 (
-script
+script_
 lastPC
 -
-script
+script_
 -
 >
 code
@@ -22998,10 +23005,10 @@ ndefs
 =
 GetDefCount
 (
-script
+script_
 lastPC
 -
-script
+script_
 -
 >
 code
@@ -23079,7 +23086,7 @@ pushedTypes
 (
 lastPC
 -
-script
+script_
 -
 >
 code
@@ -23091,7 +23098,7 @@ i
 }
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -23237,10 +23244,10 @@ fe
 (
 GetDefCount
 (
-script
+script_
 lastPC
 -
-script
+script_
 -
 >
 code
@@ -23368,7 +23375,7 @@ inlineIndex
 +
 lastPC
 -
-script
+script_
 -
 >
 code
@@ -23432,7 +23439,7 @@ updated
 {
 JS_ASSERT
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -23505,7 +23512,7 @@ inlineIndex
 +
 pc
 -
-script
+script_
 -
 >
 code
@@ -23589,7 +23596,7 @@ addressOfTop
 PCCounts
 counts
 =
-script
+script_
 -
 >
 getPCCounts
@@ -23965,7 +23972,7 @@ fe
 {
 JS_ASSERT
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -24066,7 +24073,7 @@ reg
 PCCounts
 counts
 =
-script
+script_
 -
 >
 getPCCounts
@@ -24779,7 +24786,7 @@ secondUseType
 {
 JS_ASSERT
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -25002,7 +25009,7 @@ masm
 bumpCount
 (
 &
-script
+script_
 -
 >
 getPCCounts
@@ -25047,7 +25054,7 @@ id
 {
 JS_ASSERT
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -25071,7 +25078,7 @@ reg
 PCCounts
 counts
 =
-script
+script_
 -
 >
 getPCCounts
@@ -25408,7 +25415,7 @@ masm
 bumpCount
 (
 &
-script
+script_
 -
 >
 getPCCounts
@@ -25577,7 +25584,7 @@ JS_ASSERT
 pc
 >
 =
-script
+script_
 -
 >
 code
@@ -25587,13 +25594,13 @@ uint32_t
 (
 pc
 -
-script
+script_
 -
 >
 code
 )
 <
-script
+script_
 -
 >
 length
@@ -25619,7 +25626,7 @@ uint32_t
 (
 pc
 -
-script
+script_
 -
 >
 code
@@ -26240,7 +26247,7 @@ StackFrame
 :
 offsetOfThis
 (
-script
+script_
 -
 >
 function
@@ -27111,7 +27118,7 @@ fe
 JS_ASSERT_IF
 (
 !
-script
+script_
 -
 >
 function
@@ -27824,7 +27831,7 @@ masm
 .
 bumpStubCount
 (
-script
+script_
 PC
 Registers
 :
@@ -28362,7 +28369,7 @@ uint32_t
 *
 useCountAddress
 =
-script
+script_
 -
 >
 addressOfUseCount
@@ -28444,7 +28451,7 @@ void
 ionScriptAddress
 =
 &
-script
+script_
 -
 >
 ion
@@ -28900,7 +28907,7 @@ uint32_t
 *
 addr
 =
-script
+script_
 -
 >
 addressOfUseCount
@@ -29231,7 +29238,7 @@ sps
 .
 pushManual
 (
-script
+script_
 masm
 reg
 )
@@ -29288,7 +29295,7 @@ sps
 push
 (
 cx
-script
+script_
 masm
 reg
 )
@@ -30756,6 +30763,13 @@ IsLowerableFunCallOrApply
 PC
 )
 ;
+RootedScript
+script
+(
+cx
+script_
+)
+;
 bool
 newType
 =
@@ -31346,7 +31360,7 @@ PC
 ;
 if
 (
-script
+script_
 =
 =
 outerScript
@@ -31365,7 +31379,7 @@ append
 (
 PC
 -
-script
+script_
 -
 >
 code
@@ -31384,7 +31398,7 @@ append
 (
 PC
 -
-script
+script_
 -
 >
 code
@@ -33139,7 +33153,7 @@ PC
 {
 JSScript
 *
-script
+script_
 =
 ssa
 .
@@ -33154,12 +33168,12 @@ inlineCallees
 .
 append
 (
-script
+script_
 )
 ;
 if
 (
-script
+script_
 -
 >
 analysis
@@ -34152,11 +34166,11 @@ d
 \
 n
 "
-script
+script_
 -
 >
 filename
-script
+script_
 -
 >
 lineno
@@ -35064,7 +35078,7 @@ shimmy
 ;
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -35184,7 +35198,7 @@ JSVAL_TYPE_UNKNOWN
 ;
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -35671,7 +35685,7 @@ reg
 ;
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -35824,7 +35838,7 @@ fe
 ;
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -36073,7 +36087,7 @@ result
 ;
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -36341,7 +36355,7 @@ reg
 ;
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -36553,7 +36567,7 @@ singleton
 ;
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -36707,7 +36721,7 @@ fe
 ;
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -37079,7 +37093,7 @@ pop
 ;
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -37183,7 +37197,7 @@ true
 }
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -39625,7 +39639,7 @@ pushreg
 ;
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -40202,7 +40216,7 @@ Changes
 ;
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -40223,7 +40237,7 @@ true
 }
 if
 (
-script
+script_
 -
 >
 hasScriptCounts
@@ -40336,7 +40350,7 @@ PC
 {
 if
 (
-script
+script_
 =
 =
 outerScript
@@ -40347,7 +40361,7 @@ append
 (
 PC
 -
-script
+script_
 -
 >
 code
@@ -42844,7 +42858,7 @@ shape
 =
 ScopeCoordinateToStaticScope
 (
-script
+script_
 PC
 )
 .
@@ -43195,7 +43209,7 @@ object
 /
 if
 (
-script
+script_
 -
 >
 function
@@ -43204,14 +43218,14 @@ function
 &
 &
 !
-script
+script_
 -
 >
 strictModeCode
 &
 &
 !
-script
+script_
 -
 >
 function
@@ -43376,7 +43390,7 @@ TypeScript
 :
 ThisTypes
 (
-script
+script_
 )
 -
 >
@@ -45746,7 +45760,7 @@ PropertyName
 *
 name
 =
-script
+script_
 -
 >
 getName
@@ -46741,7 +46755,7 @@ PC
 {
 if
 (
-script
+script_
 =
 =
 outerScript
@@ -46752,7 +46766,7 @@ append
 (
 PC
 -
-script
+script_
 -
 >
 code
@@ -47760,7 +47774,7 @@ INLINE_STUBCALL
 (
 STRICT_VARIANT
 (
-script
+script_
 stubs
 :
 :
@@ -48839,7 +48853,7 @@ baseobj
 =
 globalObj
 ?
-script
+script_
 -
 >
 getObject
@@ -48961,6 +48975,13 @@ types
 .
 *
 /
+RootedScript
+script
+(
+cx
+script_
+)
+;
 RootedTypeObject
 type
 (
@@ -49377,7 +49398,7 @@ JSObject
 *
 obj
 =
-script
+script_
 -
 >
 getRegExp
@@ -49662,7 +49683,7 @@ PushedValue
 (
 PC
 -
-script
+script_
 -
 >
 code
@@ -49710,7 +49731,7 @@ jsbytecode
 *
 use
 =
-script
+script_
 -
 >
 code
@@ -50181,7 +50202,7 @@ typeInferenceEnabled
 )
 &
 &
-script
+script_
 =
 =
 outerScript
@@ -50433,7 +50454,7 @@ uint32_t
 (
 head
 -
-script
+script_
 -
 >
 code
@@ -50444,7 +50465,7 @@ jsbytecode
 *
 entryTarget
 =
-script
+script_
 -
 >
 code
@@ -50552,7 +50573,7 @@ unsigned
 (
 head
 -
-script
+script_
 -
 >
 code
@@ -50792,7 +50813,7 @@ pcOffset
 =
 head
 -
-script
+script_
 -
 >
 code
@@ -50939,7 +50960,7 @@ slot
 <
 TotalSlots
 (
-script
+script_
 )
 ;
 slot
@@ -51079,7 +51100,7 @@ uint32_t
 (
 head
 -
-script
+script_
 -
 >
 code
@@ -51107,7 +51128,7 @@ slot
 <
 TotalSlots
 (
-script
+script_
 )
 )
 ;
@@ -51976,7 +51997,7 @@ inlineIndex
 +
 PC
 -
-script
+script_
 -
 >
 code
@@ -52158,7 +52179,7 @@ enterBlock
 (
 StackDefs
 (
-script
+script_
 PC
 )
 )
@@ -52209,7 +52230,7 @@ n
 =
 StackUses
 (
-script
+script_
 PC
 )
 ;
@@ -52313,7 +52334,7 @@ RootedFunction
 fun
 (
 cx
-script
+script_
 -
 >
 function
@@ -52500,7 +52521,7 @@ TypeScript
 :
 ThisTypes
 (
-script
+script_
 )
 -
 >
@@ -53342,7 +53363,7 @@ source
 =
 originalPC
 -
-script
+script_
 -
 >
 code
@@ -53357,7 +53378,7 @@ originalPC
 target
 )
 -
-script
+script_
 -
 >
 code
@@ -54481,7 +54502,7 @@ uint32_t
 (
 target
 -
-script
+script_
 -
 >
 code
@@ -54517,7 +54538,7 @@ slot
 <
 TotalSlots
 (
-script
+script_
 )
 )
 ;
@@ -54876,7 +54897,7 @@ slot
 =
 GetBytecodeSlot
 (
-script
+script_
 PC
 )
 ;
@@ -55052,7 +55073,7 @@ slot
 <
 TotalSlots
 (
-script
+script_
 )
 )
 {
@@ -55205,7 +55226,7 @@ slot
 =
 GetBytecodeSlot
 (
-script
+script_
 PC
 )
 ;
@@ -55219,7 +55240,7 @@ analyze
 :
 TotalSlots
 (
-script
+script_
 )
 )
 return
@@ -57097,7 +57118,7 @@ append
 (
 PC
 -
-script
+script_
 -
 >
 code

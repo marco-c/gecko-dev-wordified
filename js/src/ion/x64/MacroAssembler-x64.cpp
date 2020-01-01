@@ -133,6 +133,13 @@ IonFrames
 .
 h
 "
+#
+include
+"
+jsscriptinlines
+.
+h
+"
 using
 namespace
 js

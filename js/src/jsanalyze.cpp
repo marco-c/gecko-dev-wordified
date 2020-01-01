@@ -623,7 +623,7 @@ JS_ASSERT
 (
 offset
 <
-script
+script_
 -
 >
 length
@@ -945,13 +945,13 @@ numSlots
 =
 TotalSlots
 (
-script
+script_
 )
 ;
 unsigned
 length
 =
-script
+script_
 -
 >
 length
@@ -1137,7 +1137,7 @@ numSlots
 bool
 allVarsAliased
 =
-script
+script_
 -
 >
 compartment
@@ -1155,7 +1155,7 @@ allArgsAliased
 allVarsAliased
 |
 |
-script
+script_
 -
 >
 argumentsHasVarBinding
@@ -1167,7 +1167,7 @@ for
 BindingIter
 bi
 (
-script
+script_
 -
 >
 bindings
@@ -1219,7 +1219,7 @@ escapedSlots
 [
 LocalSlot
 (
-script
+script_
 bi
 .
 frameIndex
@@ -1280,7 +1280,7 @@ true
 bool
 heavyweight
 =
-script
+script_
 -
 >
 function
@@ -1288,7 +1288,7 @@ function
 )
 &
 &
-script
+script_
 -
 >
 function
@@ -1313,7 +1313,7 @@ if
 heavyweight
 |
 |
-script
+script_
 -
 >
 argumentsHasVarBinding
@@ -1532,7 +1532,7 @@ TypeSet
 *
 typeArray
 =
-script
+script_
 -
 >
 types
@@ -1625,7 +1625,7 @@ jsbytecode
 *
 pc
 =
-script
+script_
 -
 >
 code
@@ -1819,7 +1819,7 @@ true
 ;
 if
 (
-script
+script_
 -
 >
 hasBreakpointsAt
@@ -1917,7 +1917,7 @@ nuses
 =
 GetUseCount
 (
-script
+script_
 offset
 )
 ;
@@ -1926,7 +1926,7 @@ ndefs
 =
 GetDefCount
 (
-script
+script_
 offset
 )
 ;
@@ -2049,7 +2049,7 @@ if
 (
 nTypeSets
 <
-script
+script_
 -
 >
 nTypeSets
@@ -2680,7 +2680,7 @@ JSTryNote
 *
 tn
 =
-script
+script_
 -
 >
 trynotes
@@ -2696,7 +2696,7 @@ tnlimit
 =
 tn
 +
-script
+script_
 -
 >
 trynotes
@@ -2721,7 +2721,7 @@ tn
 unsigned
 startOffset
 =
-script
+script_
 -
 >
 mainOffset
@@ -2919,7 +2919,7 @@ if
 local
 >
 =
-script
+script_
 -
 >
 nfixed
@@ -2968,7 +2968,7 @@ if
 local
 >
 =
-script
+script_
 -
 >
 nfixed
@@ -3516,7 +3516,7 @@ JS_ASSERT
 (
 successorOffset
 <
-script
+script_
 -
 >
 length
@@ -3706,7 +3706,7 @@ logic
 if
 (
 !
-script
+script_
 -
 >
 analyzedArgsUsage
@@ -3830,7 +3830,7 @@ barriers
 )
 jit
 =
-script
+script_
 -
 >
 getJIT
@@ -4216,7 +4216,7 @@ NULL
 uint32_t
 offset
 =
-script
+script_
 -
 >
 length
@@ -4227,7 +4227,7 @@ while
 (
 offset
 <
-script
+script_
 -
 >
 length
@@ -4276,7 +4276,7 @@ jsbytecode
 *
 pc
 =
-script
+script_
 -
 >
 code
@@ -4518,7 +4518,7 @@ JSTryNote
 *
 tn
 =
-script
+script_
 -
 >
 trynotes
@@ -4534,7 +4534,7 @@ tnlimit
 =
 tn
 +
-script
+script_
 -
 >
 trynotes
@@ -4559,7 +4559,7 @@ tn
 unsigned
 startOffset
 =
-script
+script_
 -
 >
 mainOffset
@@ -4680,7 +4680,7 @@ slot
 =
 GetBytecodeSlot
 (
-script
+script_
 pc
 )
 ;
@@ -4719,7 +4719,7 @@ slot
 =
 GetBytecodeSlot
 (
-script
+script_
 pc
 )
 ;
@@ -4776,7 +4776,7 @@ slot
 =
 GetBytecodeSlot
 (
-script
+script_
 pc
 )
 ;
@@ -5103,7 +5103,7 @@ targetOffset
 FollowBranch
 (
 cx
-script
+script_
 offset
 )
 ;
@@ -5202,7 +5202,7 @@ nop
 =
 JSOp
 (
-script
+script_
 -
 >
 code
@@ -5460,7 +5460,7 @@ jsbytecode
 *
 entrypc
 =
-script
+script_
 -
 >
 code
@@ -5536,7 +5536,7 @@ targetOffset
 }
 JS_ASSERT
 (
-script
+script_
 -
 >
 code
@@ -5551,7 +5551,7 @@ entry
 JSOP_LOOPHEAD
 |
 |
-script
+script_
 -
 >
 code
@@ -7368,7 +7368,7 @@ i
 ;
 i
 <
-script
+script_
 -
 >
 length
@@ -7612,12 +7612,12 @@ analysisLifoAlloc
 unsigned
 maxDepth
 =
-script
+script_
 -
 >
 nslots
 -
-script
+script_
 -
 >
 nfixed
@@ -7903,7 +7903,7 @@ while
 (
 offset
 <
-script
+script_
 -
 >
 length
@@ -7913,7 +7913,7 @@ jsbytecode
 *
 pc
 =
-script
+script_
 -
 >
 code
@@ -9068,7 +9068,7 @@ nuses
 =
 GetUseCount
 (
-script
+script_
 offset
 )
 ;
@@ -9077,7 +9077,7 @@ ndefs
 =
 GetDefCount
 (
-script
+script_
 offset
 )
 ;
@@ -9227,7 +9227,7 @@ slot
 =
 GetBytecodeSlot
 (
-script
+script_
 pc
 )
 ;
@@ -9518,7 +9518,7 @@ slot
 =
 GetBytecodeSlot
 (
-script
+script_
 pc
 )
 ;
@@ -9587,7 +9587,7 @@ slot
 =
 GetBytecodeSlot
 (
-script
+script_
 pc
 )
 ;
@@ -10167,7 +10167,7 @@ JSTryNote
 *
 tn
 =
-script
+script_
 -
 >
 trynotes
@@ -10183,7 +10183,7 @@ tnlimit
 =
 tn
 +
-script
+script_
 -
 >
 trynotes
@@ -10208,7 +10208,7 @@ tn
 unsigned
 startOffset
 =
-script
+script_
 -
 >
 mainOffset
@@ -10310,7 +10310,7 @@ targetOffset
 FollowBranch
 (
 cx
-script
+script_
 offset
 )
 ;
@@ -10404,14 +10404,14 @@ object
 if
 (
 !
-script
+script_
 -
 >
 analyzedArgsUsage
 (
 )
 )
-script
+script_
 -
 >
 setNeedsArgsObj
@@ -11472,7 +11472,7 @@ slot
 =
 StackSlot
 (
-script
+script_
 i
 )
 ;
@@ -12546,7 +12546,7 @@ jsbytecode
 *
 pc
 =
-script
+script_
 -
 >
 code
@@ -12743,7 +12743,7 @@ slot
 =
 GetBytecodeSlot
 (
-script
+script_
 pc
 )
 ;
@@ -12837,7 +12837,7 @@ cx
 {
 JS_ASSERT
 (
-script
+script_
 -
 >
 argumentsHasVarBinding
@@ -12887,13 +12887,13 @@ also
 /
 if
 (
-script
+script_
 -
 >
 bindingsAccessedDynamically
 |
 |
-script
+script_
 -
 >
 funHasAnyAliasedFormal
@@ -12915,7 +12915,7 @@ debugMode
 )
 |
 |
-script
+script_
 -
 >
 isGenerator
@@ -12928,14 +12928,14 @@ true
 unsigned
 pcOff
 =
-script
+script_
 -
 >
 argumentsBytecode
 (
 )
 -
-script
+script_
 -
 >
 code
@@ -13593,7 +13593,7 @@ offset
 ;
 offset
 <
-script
+script_
 -
 >
 length
@@ -13623,7 +13623,7 @@ jsbytecode
 *
 pc
 =
-script
+script_
 -
 >
 code
@@ -13633,7 +13633,7 @@ offset
 PrintBytecode
 (
 cx
-script
+script_
 pc
 )
 ;
@@ -13788,7 +13788,7 @@ nuses
 =
 GetUseCount
 (
-script
+script_
 offset
 )
 ;
@@ -14002,7 +14002,7 @@ JS_ASSERT
 (
 !
 !
-script
+script_
 -
 >
 compartment

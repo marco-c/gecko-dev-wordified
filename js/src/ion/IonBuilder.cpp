@@ -230,15 +230,6 @@ temp
 graph
 info
 )
-script
-(
-info
--
->
-script
-(
-)
-)
 recompileInfo
 (
 cx
@@ -281,7 +272,12 @@ inliningDepth
 )
 failedBoundsCheck_
 (
+info
+-
+>
 script
+(
+)
 -
 >
 failedBoundsCheck
@@ -291,6 +287,18 @@ lazyArguments_
 NULL
 )
 {
+script_
+.
+init
+(
+info
+-
+>
+script
+(
+)
+)
+;
 pc
 =
 info
@@ -378,13 +386,13 @@ s
 %
 d
 "
-script
+script_
 -
 >
 filename
 PCToLineNumber
 (
-script
+script_
 pc
 )
 )
@@ -434,13 +442,13 @@ s
 d
 "
 message
-script
+script_
 -
 >
 filename
 PCToLineNumber
 (
-script
+script_
 pc
 )
 )
@@ -919,6 +927,8 @@ oracle
 getCallTarget
 (
 script
+(
+)
 argc
 pc
 )
@@ -998,7 +1008,7 @@ oracle
 >
 getCallTarget
 (
-script
+script_
 argc
 pc
 )
@@ -1162,7 +1172,7 @@ getParent
 !
 =
 &
-script
+script_
 -
 >
 global
@@ -1257,6 +1267,8 @@ builder
 -
 >
 script
+(
+)
 =
 =
 inlineScript
@@ -1315,7 +1327,7 @@ veto
 %
 d
 "
-script
+script_
 -
 >
 lineno
@@ -1574,11 +1586,11 @@ maxloopcount
 d
 )
 "
-script
+script_
 -
 >
 filename
-script
+script_
 -
 >
 lineno
@@ -1586,11 +1598,11 @@ lineno
 void
 *
 )
-script
+script_
 (
 int
 )
-script
+script_
 -
 >
 getUseCount
@@ -1599,7 +1611,7 @@ getUseCount
 (
 int
 )
-script
+script_
 -
 >
 getMaxLoopCount
@@ -1616,7 +1628,7 @@ graph
 .
 addScript
 (
-script
+script_
 )
 )
 return
@@ -1831,7 +1843,7 @@ MFunctionBoundary
 :
 New
 (
-script
+script_
 MFunctionBoundary
 :
 :
@@ -2203,7 +2215,7 @@ insertRecompileCheck
 ;
 if
 (
-script
+script_
 -
 >
 argumentsHasVarBinding
@@ -2538,11 +2550,11 @@ d
 p
 )
 "
-script
+script_
 -
 >
 filename
-script
+script_
 -
 >
 lineno
@@ -2550,7 +2562,7 @@ lineno
 void
 *
 )
-script
+script_
 )
 ;
 if
@@ -2562,7 +2574,7 @@ graph
 .
 addScript
 (
-script
+script_
 )
 )
 return
@@ -2727,7 +2739,7 @@ MFunctionBoundary
 :
 New
 (
-script
+script_
 MFunctionBoundary
 :
 :
@@ -2884,7 +2896,7 @@ chain
 JS_ASSERT
 (
 !
-script
+script_
 -
 >
 analysis
@@ -3585,7 +3597,7 @@ oracle
 >
 thisTypeSet
 (
-script
+script_
 )
 )
 ;
@@ -3647,7 +3659,7 @@ oracle
 >
 parameterTypeSet
 (
-script
+script_
 i
 )
 )
@@ -3720,7 +3732,7 @@ earlier
 if
 (
 !
-script
+script_
 -
 >
 analysis
@@ -3795,7 +3807,7 @@ value
 if
 (
 !
-script
+script_
 -
 >
 compileAndGo
@@ -3942,7 +3954,7 @@ New
 (
 ObjectValue
 (
-script
+script_
 -
 >
 global
@@ -5026,10 +5038,10 @@ analyze
 :
 GetUseCount
 (
-script
+script_
 pc
 -
-script
+script_
 -
 >
 code
@@ -5909,7 +5921,7 @@ pushConstant
 (
 ObjectValue
 (
-script
+script_
 -
 >
 global
@@ -14633,7 +14645,7 @@ i
 Value
 rval
 =
-script
+script_
 -
 >
 getConst
@@ -16457,7 +16469,7 @@ MFunctionBoundary
 :
 New
 (
-script
+script_
 MFunctionBoundary
 :
 :
@@ -16696,7 +16708,7 @@ oracle
 >
 unaryTypes
 (
-script
+script_
 pc
 )
 )
@@ -16906,7 +16918,7 @@ oracle
 >
 binaryTypes
 (
-script
+script_
 pc
 )
 )
@@ -16969,7 +16981,7 @@ oracle
 >
 binaryOp
 (
-script
+script_
 pc
 )
 ;
@@ -17173,7 +17185,7 @@ oracle
 >
 binaryTypes
 (
-script
+script_
 pc
 )
 ;
@@ -17281,7 +17293,7 @@ oracle
 >
 unaryOp
 (
-script
+script_
 pc
 )
 ;
@@ -18491,7 +18503,7 @@ smallFunctionUsesBeforeInlining
 ;
 if
 (
-script
+script_
 -
 >
 getUseCount
@@ -18526,7 +18538,7 @@ oracle
 >
 canInlineCall
 (
-script
+script_
 pc
 )
 )
@@ -22566,7 +22578,7 @@ CallObject
 createTemplateObject
 (
 cx
-script
+script_
 )
 )
 ;
@@ -22772,7 +22784,7 @@ for
 AliasedFormalIter
 i
 (
-script
+script_
 )
 ;
 i
@@ -23635,7 +23647,7 @@ oracle
 >
 getCallArg
 (
-script
+script_
 argc
 0
 pc
@@ -24000,7 +24012,7 @@ oracle
 >
 getCallArg
 (
-script
+script_
 argc
 2
 pc
@@ -24188,7 +24200,7 @@ oracle
 >
 getCallArg
 (
-script
+script_
 argc
 0
 pc
@@ -24485,7 +24497,7 @@ oracle
 >
 returnTypeSet
 (
-script
+script_
 pc
 &
 barrier
@@ -24830,7 +24842,7 @@ oracle
 >
 returnTypeSet
 (
-script
+script_
 pc
 &
 barrier
@@ -25048,7 +25060,7 @@ if
 GetBuiltinRegExpTest
 (
 cx
-script
+script_
 &
 newTarget
 )
@@ -25714,7 +25726,7 @@ oracle
 >
 returnTypeSet
 (
-script
+script_
 pc
 &
 barrier
@@ -25789,7 +25801,7 @@ oracle
 >
 incslot
 (
-script
+script_
 pc
 )
 ;
@@ -26192,7 +26204,7 @@ oracle
 >
 binaryTypes
 (
-script
+script_
 pc
 )
 )
@@ -26249,6 +26261,13 @@ templateObject
 )
 return
 NULL
+;
+RootedScript
+script
+(
+cx
+script_
+)
 ;
 if
 (
@@ -26336,7 +26355,7 @@ count
 {
 JS_ASSERT
 (
-script
+script_
 -
 >
 compileAndGo
@@ -26421,7 +26440,7 @@ scripts
 .
 JS_ASSERT
 (
-script
+script_
 -
 >
 compileAndGo
@@ -26478,6 +26497,13 @@ templateObject
 )
 return
 false
+;
+RootedScript
+script
+(
+cx
+script_
+)
 ;
 if
 (
@@ -26599,7 +26625,7 @@ oracle
 >
 propertyWriteCanSpecialize
 (
-script
+script_
 pc
 )
 )
@@ -26611,7 +26637,7 @@ oracle
 >
 elementWriteIsDenseArray
 (
-script
+script_
 pc
 )
 )
@@ -26897,7 +26923,7 @@ oracle
 >
 propertyWriteCanSpecialize
 (
-script
+script_
 pc
 )
 )
@@ -27058,7 +27084,7 @@ oracle
 >
 binaryTypes
 (
-script
+script_
 pc
 )
 ;
@@ -29127,7 +29153,7 @@ inlining
 .
 if
 (
-script
+script_
 -
 >
 getUseCount
@@ -29181,7 +29207,7 @@ minUses
 =
 UsesBeforeIonRecompile
 (
-script
+script_
 pc
 )
 ;
@@ -30847,7 +30873,7 @@ globalObj
 (
 cx
 &
-script
+script_
 -
 >
 global
@@ -30962,7 +30988,7 @@ oracle
 >
 globalPropertyTypeSet
 (
-script
+script_
 pc
 id
 )
@@ -31049,7 +31075,7 @@ oracle
 >
 propertyReadBarrier
 (
-script
+script_
 pc
 )
 ;
@@ -31065,7 +31091,7 @@ oracle
 >
 propertyRead
 (
-script
+script_
 pc
 )
 ;
@@ -31411,7 +31437,7 @@ globalObj
 (
 cx
 &
-script
+script_
 -
 >
 global
@@ -31454,7 +31480,7 @@ oracle
 >
 globalPropertyWrite
 (
-script
+script_
 pc
 id
 &
@@ -32083,7 +32109,7 @@ New
 (
 ObjectValue
 (
-script
+script_
 -
 >
 global
@@ -32218,7 +32244,7 @@ oracle
 >
 propertyReadBarrier
 (
-script
+script_
 pc
 )
 ;
@@ -32234,7 +32260,7 @@ oracle
 >
 propertyRead
 (
-script
+script_
 pc
 )
 ;
@@ -32266,7 +32292,7 @@ name
 {
 JS_ASSERT
 (
-script
+script_
 -
 >
 analysis
@@ -32301,7 +32327,7 @@ New
 (
 scopeChain
 name
-script
+script_
 pc
 )
 ;
@@ -32343,7 +32369,7 @@ oracle
 >
 elementReadIsDenseArray
 (
-script
+script_
 pc
 )
 )
@@ -32367,7 +32393,7 @@ oracle
 >
 elementReadIsTypedArray
 (
-script
+script_
 pc
 &
 arrayType
@@ -32386,7 +32412,7 @@ oracle
 >
 elementReadIsString
 (
-script
+script_
 pc
 )
 )
@@ -32403,7 +32429,7 @@ oracle
 >
 elementReadMagicArguments
 (
-script
+script_
 pc
 )
 ;
@@ -32534,7 +32560,7 @@ oracle
 >
 elementReadGeneric
 (
-script
+script_
 pc
 &
 cacheable
@@ -32609,7 +32635,7 @@ oracle
 >
 propertyReadBarrier
 (
-script
+script_
 pc
 )
 ;
@@ -32625,7 +32651,7 @@ oracle
 >
 propertyRead
 (
-script
+script_
 pc
 )
 ;
@@ -32690,7 +32716,7 @@ oracle
 >
 propertyReadBarrier
 (
-script
+script_
 pc
 )
 ;
@@ -32706,7 +32732,7 @@ oracle
 >
 propertyRead
 (
-script
+script_
 pc
 )
 ;
@@ -32719,7 +32745,7 @@ oracle
 >
 elementReadIsPacked
 (
-script
+script_
 pc
 )
 ;
@@ -33360,7 +33386,7 @@ oracle
 >
 propertyReadBarrier
 (
-script
+script_
 pc
 )
 ;
@@ -33376,7 +33402,7 @@ oracle
 >
 propertyRead
 (
-script
+script_
 pc
 )
 ;
@@ -34098,7 +34124,7 @@ oracle
 >
 propertyWriteCanSpecialize
 (
-script
+script_
 pc
 )
 )
@@ -34110,7 +34136,7 @@ oracle
 >
 elementWriteIsDenseArray
 (
-script
+script_
 pc
 )
 )
@@ -34134,7 +34160,7 @@ oracle
 >
 elementWriteIsTypedArray
 (
-script
+script_
 pc
 &
 arrayType
@@ -34155,7 +34181,7 @@ oracle
 >
 elementWriteMagicArguments
 (
-script
+script_
 pc
 )
 ;
@@ -34300,7 +34326,7 @@ oracle
 >
 elementWrite
 (
-script
+script_
 pc
 )
 ;
@@ -34312,7 +34338,7 @@ oracle
 >
 elementWriteIsPacked
 (
-script
+script_
 pc
 )
 ;
@@ -34458,7 +34484,7 @@ oracle
 >
 setElementHasWrittenHoles
 (
-script
+script_
 pc
 )
 )
@@ -34603,7 +34629,7 @@ oracle
 >
 elementWriteNeedsBarrier
 (
-script
+script_
 pc
 )
 )
@@ -34930,7 +34956,7 @@ oracle
 >
 unaryTypes
 (
-script
+script_
 pc
 )
 ;
@@ -35289,7 +35315,7 @@ oracle
 >
 propertyReadBarrier
 (
-script
+script_
 pc
 )
 ;
@@ -35305,7 +35331,7 @@ oracle
 >
 propertyRead
 (
-script
+script_
 pc
 )
 ;
@@ -38479,6 +38505,8 @@ builder
 -
 >
 script
+(
+)
 -
 >
 invalidatedIdempotentCache
@@ -38551,7 +38579,7 @@ oracle
 >
 propertyReadBarrier
 (
-script
+script_
 pc
 )
 ;
@@ -38567,7 +38595,7 @@ oracle
 >
 propertyRead
 (
-script
+script_
 pc
 )
 ;
@@ -38934,7 +38962,7 @@ oracle
 >
 propertyReadMagicArguments
 (
-script
+script_
 pc
 )
 ;
@@ -39019,7 +39047,7 @@ oracle
 >
 propertyReadBarrier
 (
-script
+script_
 pc
 )
 ;
@@ -39035,7 +39063,7 @@ oracle
 >
 propertyRead
 (
-script
+script_
 pc
 )
 ;
@@ -39050,7 +39078,7 @@ oracle
 >
 unaryOp
 (
-script
+script_
 pc
 )
 ;
@@ -39065,7 +39093,7 @@ oracle
 >
 unaryTypes
 (
-script
+script_
 pc
 )
 ;
@@ -39112,7 +39140,7 @@ global
 (
 cx
 &
-script
+script_
 -
 >
 global
@@ -39641,7 +39669,7 @@ mjit
 GetPICSingleShape
 (
 cx
-script
+script_
 pc
 info
 (
@@ -39895,7 +39923,7 @@ oracle
 >
 propertyReadIdempotent
 (
-script
+script_
 pc
 id
 )
@@ -40057,7 +40085,7 @@ oracle
 >
 propertyWriteCanSpecialize
 (
-script
+script_
 pc
 )
 ;
@@ -40072,7 +40100,7 @@ oracle
 >
 binaryTypes
 (
-script
+script_
 pc
 )
 ;
@@ -40427,7 +40455,7 @@ oracle
 >
 binaryOp
 (
-script
+script_
 pc
 )
 ;
@@ -40450,7 +40478,7 @@ New
 obj
 value
 name
-script
+script_
 -
 >
 strictModeCode
@@ -40474,7 +40502,7 @@ mjit
 GetPICSingleShape
 (
 cx
-script
+script_
 pc
 info
 (
@@ -40627,7 +40655,7 @@ oracle
 >
 propertyWriteNeedsBarrier
 (
-script
+script_
 pc
 typeId
 )
@@ -40661,7 +40689,7 @@ New
 obj
 value
 name
-script
+script_
 -
 >
 strictModeCode
@@ -40789,7 +40817,7 @@ JSObject
 *
 prototype
 =
-script
+script_
 -
 >
 global
@@ -40906,7 +40934,7 @@ fun
 {
 JS_ASSERT
 (
-script
+script_
 -
 >
 analysis
@@ -40975,7 +41003,7 @@ fun
 {
 JS_ASSERT
 (
-script
+script_
 -
 >
 analysis
@@ -41080,7 +41108,7 @@ PropertyName
 *
 name
 =
-script
+script_
 -
 >
 getName
@@ -41125,7 +41153,7 @@ ScopeChain
 .
 JS_ASSERT
 (
-script
+script_
 -
 >
 analysis
@@ -41216,7 +41244,7 @@ JSFunction
 ;
 if
 (
-script
+script_
 -
 >
 strictModeCode
@@ -41252,7 +41280,7 @@ oracle
 >
 thisTypeSet
 (
-script
+script_
 )
 ;
 if
@@ -41366,7 +41394,7 @@ oracle
 >
 unaryOp
 (
-script
+script_
 pc
 )
 ;
@@ -41466,7 +41494,7 @@ oracle
 >
 unaryOp
 (
-script
+script_
 pc
 )
 ;
@@ -41867,7 +41895,7 @@ oracle
 >
 aliasedVarBarrier
 (
-script
+script_
 pc
 &
 barrier
@@ -41890,7 +41918,7 @@ shape
 cx
 ScopeCoordinateToStaticScope
 (
-script
+script_
 pc
 )
 .
@@ -42089,7 +42117,7 @@ shape
 cx
 ScopeCoordinateToStaticScope
 (
-script
+script_
 pc
 )
 .

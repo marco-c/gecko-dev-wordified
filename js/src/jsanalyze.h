@@ -4682,7 +4682,7 @@ Bytecode
 ;
 JSScript
 *
-script
+script_
 ;
 Bytecode
 *
@@ -4876,7 +4876,7 @@ this
 this
 -
 >
-script
+script_
 =
 script
 ;
@@ -4888,7 +4888,7 @@ this
 >
 originalDebugMode_
 =
-script
+script_
 -
 >
 compartment
@@ -5039,7 +5039,7 @@ isInlineable
 argc
 =
 =
-script
+script_
 -
 >
 function
@@ -5240,7 +5240,7 @@ stack
 (
 above
 *
-script
+script_
 -
 >
 nfixed
@@ -5278,7 +5278,7 @@ JS_ASSERT
 (
 offset
 <
-script
+script_
 -
 >
 length
@@ -5315,7 +5315,7 @@ getCode
 (
 pc
 -
-script
+script_
 -
 >
 code
@@ -5334,7 +5334,7 @@ JS_ASSERT
 (
 offset
 <
-script
+script_
 -
 >
 length
@@ -5362,7 +5362,7 @@ maybeCode
 (
 pc
 -
-script
+script_
 -
 >
 code
@@ -5380,7 +5380,7 @@ JS_ASSERT
 (
 offset
 <
-script
+script_
 -
 >
 length
@@ -5416,7 +5416,7 @@ jumpTarget
 (
 pc
 -
-script
+script_
 -
 >
 code
@@ -5548,7 +5548,7 @@ JS_ASSERT
 (
 offset
 <
-script
+script_
 -
 >
 length
@@ -5560,14 +5560,14 @@ which
 <
 GetUseCount
 (
-script
+script_
 offset
 )
 +
 (
 ExtendedUse
 (
-script
+script_
 -
 >
 code
@@ -5611,7 +5611,7 @@ poppedValue
 (
 pc
 -
-script
+script_
 -
 >
 code
@@ -5632,7 +5632,7 @@ JS_ASSERT
 (
 offset
 <
-script
+script_
 -
 >
 length
@@ -5663,7 +5663,7 @@ newValues
 (
 pc
 -
-script
+script_
 -
 >
 code
@@ -5689,7 +5689,7 @@ JS_ASSERT
 (
 offset
 <
-script
+script_
 -
 >
 length
@@ -5701,14 +5701,14 @@ which
 <
 GetDefCount
 (
-script
+script_
 offset
 )
 +
 (
 ExtendedDef
 (
-script
+script_
 -
 >
 code
@@ -5767,7 +5767,7 @@ pushedTypes
 (
 pc
 -
-script
+script_
 -
 >
 code
@@ -5856,7 +5856,7 @@ typeBarriers
 cx
 pc
 -
-script
+script_
 -
 >
 code
@@ -6103,7 +6103,7 @@ TypeScript
 :
 SlotTypes
 (
-script
+script_
 v
 .
 varSlot
@@ -6479,7 +6479,7 @@ pushedUses
 [
 GetDefCount
 (
-script
+script_
 v
 .
 varOffset
@@ -6515,7 +6515,7 @@ JS_ASSERT
 (
 offset
 <
-script
+script_
 -
 >
 length
@@ -6549,7 +6549,7 @@ getAllocation
 (
 pc
 -
-script
+script_
 -
 >
 code
@@ -6568,7 +6568,7 @@ JS_ASSERT
 (
 offset
 <
-script
+script_
 -
 >
 length
@@ -6598,7 +6598,7 @@ getLoop
 (
 pc
 -
-script
+script_
 -
 >
 code
@@ -6648,7 +6648,7 @@ PushedValue
 (
 pc
 -
-script
+script_
 -
 >
 code
@@ -6671,7 +6671,7 @@ JS_ASSERT
 (
 js_CodeSpec
 [
-script
+script_
 -
 >
 code
@@ -6689,7 +6689,7 @@ JOF_INVOKE
 )
 ;
 return
-script
+script_
 -
 >
 code
@@ -6794,7 +6794,7 @@ slot
 {
 JS_ASSERT
 (
-script
+script_
 -
 >
 compartment
@@ -6908,7 +6908,7 @@ slot
 {
 JS_ASSERT
 (
-script
+script_
 -
 >
 compartment

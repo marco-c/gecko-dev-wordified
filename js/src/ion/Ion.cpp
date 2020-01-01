@@ -753,6 +753,8 @@ builder
 -
 >
 script
+(
+)
 -
 >
 isIonCompilingOffThread
@@ -771,6 +773,8 @@ builder
 -
 >
 script
+(
+)
 -
 >
 compartment
@@ -799,6 +803,8 @@ builder
 -
 >
 script
+(
+)
 -
 >
 ion
@@ -5239,6 +5245,8 @@ builder
 -
 >
 script
+(
+)
 -
 >
 ion
@@ -5262,6 +5270,8 @@ builder
 -
 >
 script
+(
+)
 )
 ;
 if
@@ -5295,6 +5305,8 @@ builder
 -
 >
 script
+(
+)
 -
 >
 ion
@@ -5508,6 +5520,8 @@ builder
 -
 >
 script
+(
+)
 ;
 IonContext
 ictx

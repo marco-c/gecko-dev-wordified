@@ -190,9 +190,12 @@ cx
 this
 -
 >
+script_
+.
+init
+(
 script
-=
-script
+)
 ;
 return
 script
@@ -361,7 +364,7 @@ script
 this
 -
 >
-script
+script_
 )
 ;
 UnaryTypes
@@ -432,7 +435,7 @@ script
 this
 -
 >
-script
+script_
 )
 ;
 JSOp
@@ -771,7 +774,7 @@ script
 this
 -
 >
-script
+script_
 )
 ;
 Unary
@@ -848,7 +851,7 @@ script
 this
 -
 >
-script
+script_
 )
 ;
 JSOp
@@ -1028,7 +1031,7 @@ script
 this
 -
 >
-script
+script_
 )
 ;
 return
@@ -1072,7 +1075,7 @@ JSOP_LOOPENTRY
 ;
 JS_ASSERT
 (
-script
+script_
 -
 >
 code
@@ -1084,12 +1087,12 @@ JS_ASSERT
 (
 osrPc
 <
-script
+script_
 -
 >
 code
 +
-script
+script_
 -
 >
 length
@@ -1117,7 +1120,7 @@ resize
 (
 TotalSlots
 (
-script
+script_
 )
 )
 )
@@ -1137,7 +1140,7 @@ slot
 <
 TotalSlots
 (
-script
+script_
 )
 ;
 slot
@@ -1154,7 +1157,7 @@ TypeScript
 :
 SlotTypes
 (
-script
+script_
 slot
 )
 ;
@@ -1162,7 +1165,7 @@ jsbytecode
 *
 pc
 =
-script
+script_
 -
 >
 code
@@ -1171,7 +1174,7 @@ ScriptAnalysis
 *
 analysis
 =
-script
+script_
 -
 >
 analysis
@@ -1283,7 +1286,7 @@ slot
 <
 TotalSlots
 (
-script
+script_
 )
 )
 slotTypeSets
@@ -1329,7 +1332,7 @@ slot
 =
 GetBytecodeSlot
 (
-script
+script_
 pc
 )
 ;
@@ -1460,7 +1463,7 @@ stackDepth
 endif
 if
 (
-script
+script_
 -
 >
 function
@@ -1479,7 +1482,7 @@ length
 =
 TotalSlots
 (
-script
+script_
 )
 +
 stackDepth
@@ -1498,7 +1501,7 @@ i
 <
 TotalSlots
 (
-script
+script_
 )
 ;
 i
@@ -1532,7 +1535,7 @@ length
 =
 TotalSlots
 (
-script
+script_
 )
 +
 stackDepth
@@ -1554,7 +1557,7 @@ i
 <
 TotalSlots
 (
-script
+script_
 )
 ;
 i
@@ -1603,7 +1606,7 @@ script
 this
 -
 >
-script
+script_
 )
 ;
 return
@@ -3200,6 +3203,13 @@ arrayPrototypeHasIndexedProperty
 (
 )
 {
+RootedScript
+script
+(
+cx
+script_
+)
+;
 return
 ArrayPrototypeHasIndexedProperty
 (
@@ -3217,7 +3227,7 @@ canInlineCalls
 )
 {
 return
-script
+script_
 -
 >
 analysis
@@ -3405,7 +3415,7 @@ caller
 this
 -
 >
-script
+script_
 )
 ;
 JS_ASSERT
@@ -3435,7 +3445,7 @@ ScriptAnalysis
 *
 analysis
 =
-script
+script_
 -
 >
 analysis

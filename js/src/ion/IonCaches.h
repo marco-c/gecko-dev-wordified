@@ -1269,9 +1269,7 @@ pc
 void
 getScriptedLocation
 (
-JSScript
-*
-*
+MutableHandleScript
 pscript
 jsbytecode
 *
@@ -1279,10 +1277,12 @@ jsbytecode
 ppc
 )
 {
-*
 pscript
-=
+.
+set
+(
 script
+)
 ;
 *
 ppc

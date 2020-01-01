@@ -1105,7 +1105,7 @@ bumpStubCount
 (
 cc
 .
-script
+script_
 cc
 .
 PC

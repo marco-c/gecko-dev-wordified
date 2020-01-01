@@ -7721,10 +7721,10 @@ asCall
 (
 )
 ;
-JSScript
-*
+RootedScript
 script
-=
+(
+cx
 callobj
 .
 callee
@@ -7733,6 +7733,7 @@ callee
 .
 script
 (
+)
 )
 ;
 if

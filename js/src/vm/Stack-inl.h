@@ -3471,11 +3471,11 @@ beginsIonActivation
 )
 )
 {
-JSScript
-*
+RootedScript
 script
-=
-NULL
+(
+cx_
+)
 ;
 ion
 :

@@ -1204,9 +1204,8 @@ JSContext
 *
 cx
 ;
-JSScript
-*
-script
+HeapPtrScript
+script_
 ;
 MIRType
 getMIRType
@@ -1240,7 +1239,7 @@ cx
 (
 NULL
 )
-script
+script_
 (
 NULL
 )
