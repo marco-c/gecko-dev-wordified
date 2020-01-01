@@ -6948,11 +6948,7 @@ NS_SUCCEEDED
 mInternalState
 )
 ?
-aScanner
-.
-FillBuffer
-(
-)
+kEOF
 :
 NS_OK
 ;
