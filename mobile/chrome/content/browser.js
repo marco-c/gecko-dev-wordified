@@ -16256,9 +16256,7 @@ we
 re
 still
 loading
-this
-.
-_browserView
+bv
 .
 beginBatchOperation
 (
