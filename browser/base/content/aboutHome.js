@@ -1476,6 +1476,13 @@ engine
 ]
 )
 ;
+if
+(
+!
+gSearchEngine
+)
+return
+;
 /
 /
 Look
