@@ -500,7 +500,7 @@ TestCase
 (
 SECTION
 "
-ToString
+ConvertToString
 .
 call
 (
@@ -509,7 +509,7 @@ this
 )
 "
 GLOBAL
-ToString
+ConvertToString
 .
 call
 (
@@ -523,7 +523,7 @@ TestCase
 (
 SECTION
 "
-ToString
+ConvertToString
 .
 call
 (
@@ -536,7 +536,7 @@ prototype
 "
 false
 "
-ToString
+ConvertToString
 .
 call
 (
@@ -552,7 +552,7 @@ TestCase
 (
 SECTION
 "
-ToString
+ConvertToString
 .
 call
 (
@@ -569,7 +569,7 @@ valueOf
 "
 false
 "
-ToString
+ConvertToString
 .
 call
 (
@@ -589,7 +589,7 @@ test
 )
 ;
 function
-ToString
+ConvertToString
 (
 obj
 )
