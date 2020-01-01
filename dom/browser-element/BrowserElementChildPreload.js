@@ -5245,9 +5245,7 @@ visible
 sendAsyncMsg
 (
 '
-visibility
--
-change
+visibilitychange
 '
 {
 visible
