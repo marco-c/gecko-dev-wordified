@@ -1237,7 +1237,7 @@ os
 .
 path
 .
-exists
+isfile
 (
 newpath
 )
@@ -1335,7 +1335,7 @@ os
 .
 path
 .
-exists
+isfile
 (
 newpath
 )
