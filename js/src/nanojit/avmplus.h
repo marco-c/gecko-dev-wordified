@@ -1096,6 +1096,7 @@ MISMATCH_EXIT
 OOM_EXIT
 OVERFLOW_EXIT
 UNSTABLE_LOOP_EXIT
+TIMEOUT_EXIT
 }
 ;
 struct
@@ -1113,7 +1114,15 @@ GuardRecord
 {
 void
 *
-jmp
+jmpToStub
+;
+void
+*
+stubEntry
+;
+void
+*
+jmpToTarget
 ;
 GuardRecord
 *
