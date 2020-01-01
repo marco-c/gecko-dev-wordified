@@ -214,6 +214,7 @@ int
 sGfxLogLevel
 ;
 static
+inline
 void
 OutputMessage
 (
