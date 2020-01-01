@@ -22349,7 +22349,7 @@ GetScriptHandlingObjectInternal
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mScriptGlobalObject
@@ -22553,7 +22553,7 @@ GetWindowInternal
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mWindow
@@ -22614,7 +22614,7 @@ GetInnerWindowInternal
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mRemovedFromDocShell
 "
