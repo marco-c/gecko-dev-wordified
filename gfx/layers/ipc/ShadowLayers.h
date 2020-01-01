@@ -2821,6 +2821,9 @@ mTxn
 bool
 mIsFirstPaint
 ;
+bool
+mDrawColoredBorders
+;
 }
 ;
 class
