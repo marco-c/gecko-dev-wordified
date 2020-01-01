@@ -230,9 +230,6 @@ class
 DOMSVGAnimatedPreserveAspectRatio
 ;
 class
-DOMSVGMatrix
-;
-class
 DOMSVGTransform
 ;
 class
@@ -243,6 +240,9 @@ dom
 {
 class
 SVGAngle
+;
+class
+SVGMatrix
 ;
 class
 SVGViewElement
@@ -475,7 +475,7 @@ nsISVGPoint
 >
 MatrixTransform
 (
-DOMSVGMatrix
+SVGMatrix
 &
 matrix
 )
@@ -1705,7 +1705,7 @@ CreateSVGPoint
 ;
 already_AddRefed
 <
-DOMSVGMatrix
+SVGMatrix
 >
 CreateSVGMatrix
 (
@@ -1733,7 +1733,7 @@ DOMSVGTransform
 >
 CreateSVGTransformFromMatrix
 (
-DOMSVGMatrix
+SVGMatrix
 &
 matrix
 )

@@ -110,7 +110,11 @@ h
 #
 include
 "
-DOMSVGMatrix
+mozilla
+/
+dom
+/
+SVGMatrix
 .
 h
 "
@@ -2120,7 +2124,10 @@ DOMSVGTransformList
 :
 CreateSVGTransformFromMatrix
 (
-DOMSVGMatrix
+dom
+:
+:
+SVGMatrix
 &
 matrix
 )

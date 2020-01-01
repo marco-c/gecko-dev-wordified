@@ -122,7 +122,11 @@ h
 #
 include
 "
-DOMSVGMatrix
+mozilla
+/
+dom
+/
+SVGMatrix
 .
 h
 "
@@ -182,11 +186,15 @@ h
 namespace
 mozilla
 {
+using
+namespace
+dom
+;
 static
 nsSVGAttrTearoffTable
 <
 DOMSVGTransform
-DOMSVGMatrix
+SVGMatrix
 >
 sSVGMatrixTearoffTable
 ;
@@ -842,7 +850,7 @@ Type
 }
 already_AddRefed
 <
-DOMSVGMatrix
+SVGMatrix
 >
 DOMSVGTransform
 :
@@ -853,7 +861,7 @@ Matrix
 {
 nsRefPtr
 <
-DOMSVGMatrix
+SVGMatrix
 >
 wrapper
 =
@@ -873,7 +881,7 @@ wrapper
 wrapper
 =
 new
-DOMSVGMatrix
+SVGMatrix
 (
 *
 this
@@ -921,7 +929,7 @@ DOMSVGTransform
 :
 SetMatrix
 (
-DOMSVGMatrix
+SVGMatrix
 &
 aMatrix
 ErrorResult
@@ -1861,7 +1869,7 @@ DEBUG
 /
 Interface
 for
-DOMSVGMatrix
+SVGMatrix
 '
 s
 use

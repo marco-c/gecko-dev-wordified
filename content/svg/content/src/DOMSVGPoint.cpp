@@ -148,7 +148,11 @@ NS_ENSURE_FINITE
 #
 include
 "
-DOMSVGMatrix
+mozilla
+/
+dom
+/
+SVGMatrix
 .
 h
 "
@@ -686,7 +690,10 @@ DOMSVGPoint
 :
 MatrixTransform
 (
-DOMSVGMatrix
+dom
+:
+:
+SVGMatrix
 &
 matrix
 )

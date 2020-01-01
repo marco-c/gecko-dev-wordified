@@ -475,10 +475,10 @@ up
 /
 #
 ifndef
-MOZILLA_DOMSVGMATRIX_H__
+mozilla_dom_SVGMatrix_h
 #
 define
-MOZILLA_DOMSVGMATRIX_H__
+mozilla_dom_SVGMatrix_h
 #
 include
 "
@@ -600,6 +600,9 @@ MOZILLA_DOMSVGMATRIX_IID
 namespace
 mozilla
 {
+namespace
+dom
+{
 /
 *
 *
@@ -614,7 +617,7 @@ matrix
 *
 /
 class
-DOMSVGMatrix
+SVGMatrix
 MOZ_FINAL
 :
 public
@@ -631,7 +634,7 @@ MOZILLA_DOMSVGMATRIX_IID
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-DOMSVGMatrix
+SVGMatrix
 )
 /
 *
@@ -639,7 +642,7 @@ DOMSVGMatrix
 *
 Ctor
 for
-DOMSVGMatrix
+SVGMatrix
 objects
 that
 belong
@@ -649,7 +652,7 @@ DOMSVGTransform
 .
 *
 /
-DOMSVGMatrix
+SVGMatrix
 (
 DOMSVGTransform
 &
@@ -673,7 +676,7 @@ SetIsDOMBinding
 *
 Ctors
 for
-DOMSVGMatrix
+SVGMatrix
 objects
 created
 independently
@@ -693,7 +696,7 @@ will
 produce
 identity
 mx
-DOMSVGMatrix
+SVGMatrix
 (
 )
 {
@@ -702,7 +705,7 @@ SetIsDOMBinding
 )
 ;
 }
-DOMSVGMatrix
+SVGMatrix
 (
 const
 gfxMatrix
@@ -949,18 +952,18 @@ rv
 ;
 already_AddRefed
 <
-DOMSVGMatrix
+SVGMatrix
 >
 Multiply
 (
-DOMSVGMatrix
+SVGMatrix
 &
 aMatrix
 )
 ;
 already_AddRefed
 <
-DOMSVGMatrix
+SVGMatrix
 >
 Inverse
 (
@@ -971,7 +974,7 @@ aRv
 ;
 already_AddRefed
 <
-DOMSVGMatrix
+SVGMatrix
 >
 Translate
 (
@@ -983,7 +986,7 @@ y
 ;
 already_AddRefed
 <
-DOMSVGMatrix
+SVGMatrix
 >
 Scale
 (
@@ -993,7 +996,7 @@ scaleFactor
 ;
 already_AddRefed
 <
-DOMSVGMatrix
+SVGMatrix
 >
 ScaleNonUniform
 (
@@ -1005,7 +1008,7 @@ scaleFactorY
 ;
 already_AddRefed
 <
-DOMSVGMatrix
+SVGMatrix
 >
 Rotate
 (
@@ -1015,7 +1018,7 @@ angle
 ;
 already_AddRefed
 <
-DOMSVGMatrix
+SVGMatrix
 >
 RotateFromVector
 (
@@ -1030,7 +1033,7 @@ aRv
 ;
 already_AddRefed
 <
-DOMSVGMatrix
+SVGMatrix
 >
 FlipX
 (
@@ -1038,7 +1041,7 @@ FlipX
 ;
 already_AddRefed
 <
-DOMSVGMatrix
+SVGMatrix
 >
 FlipY
 (
@@ -1046,7 +1049,7 @@ FlipY
 ;
 already_AddRefed
 <
-DOMSVGMatrix
+SVGMatrix
 >
 SkewX
 (
@@ -1059,7 +1062,7 @@ rv
 ;
 already_AddRefed
 <
-DOMSVGMatrix
+SVGMatrix
 >
 SkewY
 (
@@ -1163,9 +1166,14 @@ mMatrix
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
 (
-DOMSVGMatrix
+SVGMatrix
 MOZILLA_DOMSVGMATRIX_IID
 )
+}
+/
+/
+namespace
+dom
 }
 /
 /
@@ -1175,4 +1183,4 @@ mozilla
 endif
 /
 /
-MOZILLA_DOMSVGMATRIX_H__
+mozilla_dom_SVGMatrix_h

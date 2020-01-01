@@ -193,7 +193,11 @@ h
 #
 include
 "
-DOMSVGMatrix
+mozilla
+/
+dom
+/
+SVGMatrix
 .
 h
 "
@@ -598,7 +602,7 @@ DOMVal
 :
 MatrixTransform
 (
-DOMSVGMatrix
+SVGMatrix
 &
 matrix
 )
@@ -3253,7 +3257,7 @@ forget
 }
 /
 *
-DOMSVGMatrix
+SVGMatrix
 createSVGMatrix
 (
 )
@@ -3289,7 +3293,7 @@ NS_OK
 }
 already_AddRefed
 <
-DOMSVGMatrix
+SVGMatrix
 >
 SVGSVGElement
 :
@@ -3300,12 +3304,12 @@ CreateSVGMatrix
 {
 nsRefPtr
 <
-DOMSVGMatrix
+SVGMatrix
 >
 matrix
 =
 new
-DOMSVGMatrix
+SVGMatrix
 (
 )
 ;
@@ -3458,7 +3462,7 @@ DOMSVGTransform
 createSVGTransformFromMatrix
 (
 in
-DOMSVGMatrix
+SVGMatrix
 matrix
 )
 ;
@@ -3481,7 +3485,7 @@ _retval
 {
 nsCOMPtr
 <
-DOMSVGMatrix
+SVGMatrix
 >
 domItem
 =
@@ -3526,7 +3530,7 @@ SVGSVGElement
 :
 CreateSVGTransformFromMatrix
 (
-DOMSVGMatrix
+SVGMatrix
 &
 matrix
 )
