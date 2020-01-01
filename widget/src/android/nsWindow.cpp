@@ -1843,6 +1843,13 @@ RemoveElement
 this
 )
 ;
+nsBaseWidget
+:
+:
+OnDestroy
+(
+)
+;
 return
 NS_OK
 ;
