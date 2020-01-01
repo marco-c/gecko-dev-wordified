@@ -18928,6 +18928,16 @@ label
 (
 )
 ;
+stubcc
+.
+linkExitDirect
+(
+j
+pic
+.
+slowPathStart
+)
+;
 frame
 .
 sync
