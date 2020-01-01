@@ -28868,6 +28868,7 @@ atomState
 .
 classPrototypeAtom
 false
+false
 )
 )
 return
