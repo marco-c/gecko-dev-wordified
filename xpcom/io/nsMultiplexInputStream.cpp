@@ -416,6 +416,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+DEBUG
 static
 bool
 SeekableStreamAtBeginning
@@ -471,6 +474,8 @@ return
 true
 ;
 }
+#
+endif
 /
 *
 void
