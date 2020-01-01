@@ -1572,6 +1572,10 @@ strcpy
 define
 VMPI_sprintf
 sprintf
+#
+define
+VMPI_memset
+memset
 extern
 void
 VMPI_setPageProtection
