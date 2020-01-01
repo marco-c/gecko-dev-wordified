@@ -1777,7 +1777,7 @@ else
 TerminateThread
 (
 handler_thread_
-1
+44
 )
 ;
 #
