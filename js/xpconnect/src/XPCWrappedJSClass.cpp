@@ -1000,7 +1000,7 @@ code
 )
 )
 return
-JS_FALSE
+false
 ;
 switch
 (
@@ -1041,11 +1041,11 @@ case
 NS_BASE_STREAM_WOULD_BLOCK
 :
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -1608,7 +1608,7 @@ retObj
 JSBool
 success
 =
-JS_FALSE
+false
 ;
 jsid
 funid
@@ -2549,7 +2549,7 @@ ccx
 aResult
 val
 type
-JS_TRUE
+true
 &
 NS_GET_IID
 (
@@ -5910,7 +5910,7 @@ rv
 )
 )
 return
-JS_FALSE
+false
 ;
 const
 nsXPTParamInfo
@@ -6021,7 +6021,7 @@ val
 u32
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -6095,7 +6095,7 @@ result
 )
 {
 return
-JS_TRUE
+true
 ;
 }
 }
@@ -6139,7 +6139,7 @@ rv
 )
 )
 return
-JS_FALSE
+false
 ;
 const
 nsXPTParamInfo
@@ -6219,7 +6219,7 @@ p
 p
 )
 return
-JS_FALSE
+false
 ;
 *
 result
@@ -6254,7 +6254,7 @@ if
 p
 )
 return
-JS_FALSE
+false
 ;
 *
 result
@@ -6264,12 +6264,12 @@ p
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 }
 return
-JS_FALSE
+false
 ;
 }
 void
@@ -7864,7 +7864,7 @@ success
 JSBool
 readyToDoTheCall
 =
-JS_FALSE
+false
 ;
 nsID
 param_iid
@@ -9180,7 +9180,7 @@ isSizedString
 =
 isArray
 ?
-JS_FALSE
+false
 :
 type
 .
@@ -9592,7 +9592,7 @@ val
 }
 readyToDoTheCall
 =
-JS_TRUE
+true
 ;
 pre_call_clean_up
 :
@@ -10137,7 +10137,7 @@ sz
 ;
 success
 =
-JS_FALSE
+false
 ;
 }
 }
@@ -10293,7 +10293,7 @@ ordering
 .
 foundDependentParam
 =
-JS_FALSE
+false
 ;
 for
 (
@@ -10384,7 +10384,7 @@ IsDependent
 {
 foundDependentParam
 =
-JS_TRUE
+true
 ;
 continue
 ;
@@ -10682,7 +10682,7 @@ isSizedString
 =
 isArray
 ?
-JS_FALSE
+false
 :
 type
 .
@@ -10947,7 +10947,7 @@ pv
 val
 val
 type
-JS_TRUE
+true
 &
 param_iid
 nsnull

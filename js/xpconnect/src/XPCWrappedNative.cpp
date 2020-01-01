@@ -2528,7 +2528,7 @@ FindTearOff
 (
 ccx
 Interface
-JS_FALSE
+false
 &
 rv
 )
@@ -2932,12 +2932,12 @@ newParentVal_markable
 JSBool
 needsSOW
 =
-JS_FALSE
+false
 ;
 JSBool
 needsCOW
 =
-JS_FALSE
+false
 ;
 JSAutoEnterCompartment
 ac
@@ -2999,7 +2999,7 @@ NS_SUCCESS_CHROME_ACCESS_ONLY
 )
 needsSOW
 =
-JS_TRUE
+true
 ;
 rv
 =
@@ -3284,7 +3284,7 @@ FindTearOff
 (
 ccx
 Interface
-JS_FALSE
+false
 &
 rv
 )
@@ -3436,7 +3436,7 @@ GetGlobalJSObject
 {
 needsCOW
 =
-JS_TRUE
+true
 ;
 }
 }
@@ -3526,7 +3526,7 @@ Scope
 info
 &
 sciProto
-JS_FALSE
+false
 isGlobal
 )
 ;
@@ -3736,7 +3736,7 @@ FindTearOff
 (
 ccx
 Interface
-JS_FALSE
+false
 &
 rv
 )
@@ -4884,7 +4884,7 @@ FindTearOff
 (
 ccx
 Interface
-JS_FALSE
+false
 &
 rv
 )
@@ -5201,7 +5201,7 @@ FindTearOff
 (
 ccx
 Interface
-JS_FALSE
+false
 &
 rv
 )
@@ -7047,7 +7047,7 @@ if
 mScriptableInfo
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -7348,7 +7348,7 @@ protoJSObject
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 mFlatJSObject
@@ -7368,7 +7368,7 @@ if
 mFlatJSObject
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -7449,7 +7449,7 @@ mFlatJSObject
 nsnull
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
@@ -7552,7 +7552,7 @@ mFlatJSObject
 nsnull
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -7574,7 +7574,7 @@ JSVAL_VOID
 )
 )
 return
-JS_FALSE
+false
 ;
 mScriptableInfo
 =
@@ -7738,7 +7738,7 @@ mFlatJSObject
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 #
@@ -7799,7 +7799,7 @@ this
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 #
@@ -7833,7 +7833,7 @@ XPCWrappedNative
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
@@ -11563,7 +11563,7 @@ if
 newSet
 )
 return
-JS_FALSE
+false
 ;
 mSet
 =
@@ -11580,7 +11580,7 @@ GetProto
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 XPCWrappedNativeTearOff
@@ -11711,7 +11711,7 @@ needJSObject
 /
 *
 =
-JS_FALSE
+false
 *
 /
 nsresult
@@ -13529,7 +13529,7 @@ to
 )
 )
 return
-JS_FALSE
+false
 ;
 to
 -
@@ -13540,7 +13540,7 @@ obj
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -13641,7 +13641,7 @@ ccx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -14334,7 +14334,7 @@ value
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 nsIXPCSecurityManager
@@ -14429,7 +14429,7 @@ an
 exception
 .
 return
-JS_FALSE
+false
 ;
 }
 return
@@ -14509,7 +14509,7 @@ mCallContext
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -14520,7 +14520,7 @@ InitializeDispatchParams
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -14575,7 +14575,7 @@ ordering
 JSBool
 foundDependentParam
 =
-JS_FALSE
+false
 ;
 if
 (
@@ -14587,7 +14587,7 @@ foundDependentParam
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -14600,7 +14600,7 @@ ConvertDependentParams
 )
 )
 return
-JS_FALSE
+false
 ;
 nsresult
 invokeResult
@@ -14636,7 +14636,7 @@ mCallContext
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -14648,7 +14648,7 @@ mCallContext
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 return
@@ -15087,7 +15087,7 @@ val
 u32
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -15279,7 +15279,7 @@ p
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -15446,12 +15446,12 @@ mCallContext
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -15588,7 +15588,7 @@ isSizedString
 =
 isArray
 ?
-JS_FALSE
+false
 :
 type
 .
@@ -15646,7 +15646,7 @@ mCallContext
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -15674,7 +15674,7 @@ array_count
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 nsID
@@ -15699,7 +15699,7 @@ param_iid
 )
 )
 return
-JS_FALSE
+false
 ;
 uintN
 err
@@ -15766,7 +15766,7 @@ mCallContext
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -15812,7 +15812,7 @@ mCallContext
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -15850,7 +15850,7 @@ mCallContext
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -15984,7 +15984,7 @@ mCallContext
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -16012,7 +16012,7 @@ argument
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -16060,7 +16060,7 @@ mCallContext
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 const
@@ -16122,7 +16122,7 @@ mCallContext
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 nsresult
@@ -16218,7 +16218,7 @@ mCallContext
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 jsval
@@ -16272,7 +16272,7 @@ mCallContext
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 mCallContext
@@ -16283,7 +16283,7 @@ v
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -16452,7 +16452,7 @@ mCallContext
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -16679,7 +16679,7 @@ requiredArgs
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -16748,7 +16748,7 @@ IsDependent
 *
 foundDependentParam
 =
-JS_TRUE
+true
 ;
 else
 if
@@ -16760,11 +16760,11 @@ i
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -16962,7 +16962,7 @@ j
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -17071,7 +17071,7 @@ src
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -17110,7 +17110,7 @@ IsIn
 )
 )
 return
-JS_TRUE
+true
 ;
 /
 /
@@ -17295,7 +17295,7 @@ mCallContext
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 uintN
@@ -17317,7 +17317,7 @@ dp
 val
 src
 type
-JS_TRUE
+true
 &
 param_iid
 &
@@ -17333,11 +17333,11 @@ mCallContext
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -17412,11 +17412,11 @@ i
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -17475,7 +17475,7 @@ isSizedString
 =
 isArray
 ?
-JS_FALSE
+false
 :
 type
 .
@@ -17549,7 +17549,7 @@ mCallContext
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 NS_ABORT_IF_FALSE
@@ -17770,7 +17770,7 @@ src
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -17809,7 +17809,7 @@ IsIn
 )
 )
 return
-JS_TRUE
+true
 ;
 /
 /
@@ -17958,7 +17958,7 @@ param_iid
 )
 )
 return
-JS_FALSE
+false
 ;
 uintN
 err
@@ -17982,7 +17982,7 @@ array_count
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -18041,7 +18041,7 @@ mCallContext
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -18087,7 +18087,7 @@ mCallContext
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -18110,7 +18110,7 @@ dp
 val
 src
 type
-JS_TRUE
+true
 &
 param_iid
 &
@@ -18126,12 +18126,12 @@ mCallContext
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -18904,7 +18904,7 @@ mCallContext
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -18930,7 +18930,7 @@ SetValNeedsCleanup
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 nsresult
@@ -21412,7 +21412,7 @@ proto
 *
 printedHeader
 =
-JS_TRUE
+true
 ;
 }
 }
@@ -21723,7 +21723,7 @@ IsConstant
 )
 )
 return
-JS_FALSE
+false
 ;
 const
 nsXPTConstant
@@ -21876,7 +21876,7 @@ IsReadOnlyAttribute
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 const
@@ -22225,7 +22225,7 @@ static
 bool
 warned
 =
-JS_FALSE
+false
 ;
 if
 (
@@ -22305,13 +22305,13 @@ n
 ;
 warned
 =
-JS_TRUE
+true
 ;
 }
 bool
 quit
 =
-JS_FALSE
+false
 ;
 char
 *
@@ -22369,7 +22369,7 @@ className
 {
 quit
 =
-JS_TRUE
+true
 ;
 break
 ;
@@ -22420,7 +22420,7 @@ other
 JSBool
 printedHeader
 =
-JS_FALSE
+false
 ;
 jsval
 QIName
@@ -23074,9 +23074,9 @@ n
 xpc_DumpJSStack
 (
 ccx
-JS_TRUE
-JS_TRUE
-JS_TRUE
+true
+true
+true
 )
 ;
 printf
@@ -23779,7 +23779,7 @@ hook
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -23822,7 +23822,7 @@ refused
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -23857,7 +23857,7 @@ compartment
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSAutoEnterCompartment
@@ -23888,7 +23888,7 @@ compartment
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -23931,7 +23931,7 @@ origins
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -23995,7 +23995,7 @@ wrapper
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 PRUint32
@@ -24029,7 +24029,7 @@ ccx
 JSBool
 isGlobal
 =
-JS_FALSE
+false
 ;
 xpcproto
 =
@@ -24043,7 +24043,7 @@ xpcScope
 classInfoHelper
 &
 sciProto
-JS_FALSE
+false
 isGlobal
 )
 ;
@@ -24053,7 +24053,7 @@ if
 xpcproto
 )
 return
-JS_FALSE
+false
 ;
 xpcproto
 -
@@ -24091,7 +24091,7 @@ if
 jsclazz
 )
 return
-JS_FALSE
+false
 ;
 wrapper
 =
@@ -24141,7 +24141,7 @@ get
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -24211,6 +24211,6 @@ wrapper
 )
 ;
 return
-JS_TRUE
+true
 ;
 }

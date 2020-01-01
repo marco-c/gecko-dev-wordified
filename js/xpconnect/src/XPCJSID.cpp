@@ -1727,7 +1727,7 @@ static
 JSBool
 gClassObjectsWereInited
 =
-JS_FALSE
+false
 ;
 #
 define
@@ -1803,7 +1803,7 @@ gSharedScriptableHelperForJSIID
 }
 gClassObjectsWereInited
 =
-JS_TRUE
+true
 ;
 }
 void
@@ -1834,7 +1834,7 @@ gSharedScriptableHelperForJSIID
 ;
 gClassObjectsWereInited
 =
-JS_FALSE
+false
 ;
 }
 /
@@ -2765,7 +2765,7 @@ _retval
 *
 bp
 =
-JS_FALSE
+false
 ;
 nsresult
 rv
@@ -2874,7 +2874,7 @@ iid
 *
 bp
 =
-JS_TRUE
+true
 ;
 return
 NS_OK
@@ -3089,7 +3089,7 @@ iid
 *
 bp
 =
-JS_TRUE
+true
 ;
 return
 NS_OK
@@ -3152,7 +3152,7 @@ FindTearOff
 (
 ccx
 iface
-JS_FALSE
+false
 &
 findResult
 )
@@ -3160,7 +3160,7 @@ findResult
 *
 bp
 =
-JS_TRUE
+true
 ;
 if
 (
@@ -4453,7 +4453,7 @@ ccxp
 >
 SetReturnValueWasSet
 (
-JS_TRUE
+true
 )
 ;
 return
@@ -4884,7 +4884,7 @@ ccxp
 >
 SetReturnValueWasSet
 (
-JS_TRUE
+true
 )
 ;
 return
@@ -5068,7 +5068,7 @@ _retval
 *
 bp
 =
-JS_FALSE
+false
 ;
 nsresult
 rv

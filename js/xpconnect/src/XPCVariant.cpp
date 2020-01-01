@@ -634,7 +634,7 @@ proto
 else
 mReturnRawObject
 =
-JS_FALSE
+false
 ;
 }
 XPCTraceableVariant
@@ -1533,7 +1533,7 @@ val
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -1956,11 +1956,11 @@ state
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -1982,7 +1982,7 @@ GetJSContext
 (
 )
 return
-JS_FALSE
+false
 )
 ;
 jsval
@@ -2156,7 +2156,7 @@ str
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -2271,7 +2271,7 @@ if
 chars
 )
 return
-JS_FALSE
+false
 ;
 mData
 .
@@ -2336,7 +2336,7 @@ nsIDataType
 VTYPE_WSTRING_SIZE_IS
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -2469,7 +2469,7 @@ mData
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 nsXPTType
@@ -2496,7 +2496,7 @@ id
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -2524,7 +2524,7 @@ nsnull
 )
 )
 return
-JS_FALSE
+false
 ;
 mData
 .
@@ -2578,7 +2578,7 @@ TagPart
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -2753,7 +2753,7 @@ type
 )
 )
 return
-JS_FALSE
+false
 ;
 jsval
 realVal
@@ -2834,7 +2834,7 @@ realVal
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 pJSVal
@@ -2842,7 +2842,7 @@ pJSVal
 realVal
 ;
 return
-JS_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -2912,7 +2912,7 @@ realVal
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 pJSVal
@@ -2920,7 +2920,7 @@ pJSVal
 realVal
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -3182,7 +3182,7 @@ d
 )
 )
 return
-JS_FALSE
+false
 ;
 return
 JS_NewNumberValue
@@ -3230,7 +3230,7 @@ b
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 pJSVal
@@ -3245,7 +3245,7 @@ b
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 case
@@ -3273,7 +3273,7 @@ c
 )
 )
 return
-JS_FALSE
+false
 ;
 xpctvar
 .
@@ -3311,7 +3311,7 @@ wc
 )
 )
 return
-JS_FALSE
+false
 ;
 xpctvar
 .
@@ -3345,7 +3345,7 @@ iid
 )
 )
 return
-JS_FALSE
+false
 ;
 xpctvar
 .
@@ -3391,7 +3391,7 @@ astring
 )
 )
 return
-JS_FALSE
+false
 ;
 xpctvar
 .
@@ -3437,7 +3437,7 @@ astring
 )
 )
 return
-JS_FALSE
+false
 ;
 xpctvar
 .
@@ -3483,7 +3483,7 @@ cString
 )
 )
 return
-JS_FALSE
+false
 ;
 xpctvar
 .
@@ -3529,7 +3529,7 @@ utf8String
 )
 )
 return
-JS_FALSE
+false
 ;
 xpctvar
 .
@@ -3585,7 +3585,7 @@ p
 )
 )
 return
-JS_FALSE
+false
 ;
 xpctvar
 .
@@ -3640,7 +3640,7 @@ p
 )
 )
 return
-JS_FALSE
+false
 ;
 xpctvar
 .
@@ -3693,7 +3693,7 @@ p
 )
 )
 return
-JS_FALSE
+false
 ;
 xpctvar
 .
@@ -3748,7 +3748,7 @@ p
 )
 )
 return
-JS_FALSE
+false
 ;
 xpctvar
 .
@@ -3809,7 +3809,7 @@ p
 )
 )
 return
-JS_FALSE
+false
 ;
 iid
 =
@@ -3929,7 +3929,7 @@ rv
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -3954,7 +3954,7 @@ VTYPE_ARRAY
 ;
 success
 =
-JS_FALSE
+false
 ;
 nsXPTType
 conversionType
@@ -4321,7 +4321,7 @@ if
 array
 )
 return
-JS_FALSE
+false
 ;
 *
 pJSVal
@@ -4332,7 +4332,7 @@ array
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 case
@@ -4347,7 +4347,7 @@ pJSVal
 JSVAL_VOID
 ;
 return
-JS_TRUE
+true
 ;
 case
 nsIDataType
@@ -4361,7 +4361,7 @@ pJSVal
 JSVAL_NULL
 ;
 return
-JS_TRUE
+true
 ;
 default
 :
@@ -4377,7 +4377,7 @@ variant
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /

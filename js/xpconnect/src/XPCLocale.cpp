@@ -821,7 +821,7 @@ src
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 nsAutoString
@@ -863,7 +863,7 @@ ucstr
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 *
@@ -875,7 +875,7 @@ ucstr
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -1564,7 +1564,7 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 *
@@ -1576,7 +1576,7 @@ str
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -1709,7 +1709,7 @@ rv
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -1740,7 +1740,7 @@ src2
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 PRInt32
@@ -1781,7 +1781,7 @@ rv
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 *
@@ -1793,7 +1793,7 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -2042,7 +2042,7 @@ runtime
 JSBool
 ok
 =
-JS_TRUE
+true
 ;
 if
 (
@@ -2059,7 +2059,7 @@ contextOp
 {
 ok
 =
-JS_FALSE
+false
 ;
 /
 /

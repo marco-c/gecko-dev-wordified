@@ -671,7 +671,7 @@ wrapper
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 /

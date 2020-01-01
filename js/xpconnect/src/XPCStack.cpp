@@ -1244,7 +1244,7 @@ stack
 JSBool
 failed
 =
-JS_FALSE
+false
 ;
 XPCJSStackFrame
 *
@@ -1267,7 +1267,7 @@ self
 else
 failed
 =
-JS_TRUE
+true
 ;
 if
 (
@@ -1339,7 +1339,7 @@ mFilename
 )
 failed
 =
-JS_TRUE
+true
 ;
 }
 if
@@ -1391,7 +1391,7 @@ mFunname
 )
 failed
 =
-JS_TRUE
+true
 ;
 }
 if

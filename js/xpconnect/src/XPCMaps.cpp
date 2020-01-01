@@ -2170,7 +2170,7 @@ Set1
 Set2
 )
 return
-JS_TRUE
+true
 ;
 PRUint16
 count
@@ -2195,7 +2195,7 @@ GetInterfaceCount
 )
 )
 return
-JS_FALSE
+false
 ;
 XPCNativeInterface
 *
@@ -2255,11 +2255,11 @@ Current2
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 XPCNativeSet
@@ -2471,7 +2471,7 @@ Set
 SetInTable
 )
 return
-JS_TRUE
+true
 ;
 PRUint16
 count
@@ -2504,7 +2504,7 @@ GetInterfaceCount
 )
 )
 return
-JS_FALSE
+false
 ;
 PRUint16
 Position
@@ -2580,7 +2580,7 @@ CurrentInTable
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -2603,12 +2603,12 @@ CurrentInTable
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 struct
@@ -3310,7 +3310,7 @@ GetInterfacesBitmap
 )
 )
 return
-JS_FALSE
+false
 ;
 const
 char
@@ -3545,7 +3545,7 @@ if
 entry
 )
 return
-JS_FALSE
+false
 ;
 XPCNativeScriptableShared
 *
@@ -3587,7 +3587,7 @@ if
 shared
 )
 return
-JS_FALSE
+false
 ;
 shared
 -
@@ -3607,7 +3607,7 @@ shared
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 /

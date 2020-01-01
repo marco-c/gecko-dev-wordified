@@ -791,12 +791,12 @@ p
 format
 ;
 return
-JS_TRUE
+true
 ;
 }
 }
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -2366,7 +2366,7 @@ nsXPCException
 :
 sEverMadeOneFromFactory
 =
-JS_FALSE
+false
 ;
 /
 /
@@ -2519,7 +2519,7 @@ XPC_EXCEPTION_CONTRACTID
 ;
 sEverMadeOneFromFactory
 =
-JS_TRUE
+true
 ;
 }
 nsresult

@@ -2193,7 +2193,7 @@ GetRuntime
 JSBool
 release_root
 =
-JS_FALSE
+false
 ;
 map
 =
@@ -2605,7 +2605,7 @@ return_wrapper
 ;
 release_root
 =
-JS_TRUE
+true
 ;
 {
 /

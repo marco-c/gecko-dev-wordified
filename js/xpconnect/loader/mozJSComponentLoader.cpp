@@ -1465,7 +1465,7 @@ if
 argc
 )
 return
-JS_TRUE
+true
 ;
 str
 =
@@ -1488,7 +1488,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 size_t
 length
@@ -1512,7 +1512,7 @@ if
 chars
 )
 return
-JS_FALSE
+false
 ;
 NS_ConvertUTF16toUTF8
 utf8str
@@ -1562,7 +1562,7 @@ stdout
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -1593,7 +1593,7 @@ vp
 #
 else
 return
-JS_TRUE
+true
 ;
 #
 endif
@@ -1618,7 +1618,7 @@ if
 argc
 )
 return
-JS_TRUE
+true
 ;
 return
 nsXPConnect
@@ -1664,7 +1664,7 @@ if
 argc
 )
 return
-JS_TRUE
+true
 ;
 return
 nsXPConnect
@@ -1723,7 +1723,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -1763,7 +1763,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -1822,7 +1822,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 nsXPConnect
@@ -1852,7 +1852,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -1913,7 +1913,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JS_SET_RVAL
@@ -1924,7 +1924,7 @@ retval
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static

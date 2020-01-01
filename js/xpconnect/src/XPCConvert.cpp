@@ -746,7 +746,7 @@ flags
 )
 )
 return
-JS_FALSE
+false
 ;
 for
 (
@@ -836,11 +836,11 @@ nsXPTType
 T_VOID
 )
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -999,11 +999,11 @@ obj
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -1181,11 +1181,11 @@ sXPCOMUCStringFinalizerIndex
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -1821,7 +1821,7 @@ if
 p
 )
 return
-JS_FALSE
+false
 ;
 #
 ifdef
@@ -1865,7 +1865,7 @@ p
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 d
@@ -1901,7 +1901,7 @@ if
 p
 )
 return
-JS_FALSE
+false
 ;
 JSString
 *
@@ -1922,7 +1922,7 @@ p
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 d
@@ -1964,7 +1964,7 @@ d
 )
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -2016,7 +2016,7 @@ supported
 )
 ;
 return
-JS_FALSE
+false
 ;
 case
 nsXPTType
@@ -2070,7 +2070,7 @@ iid2
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 d
@@ -2164,7 +2164,7 @@ str
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -2315,7 +2315,7 @@ p
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 d
@@ -2374,7 +2374,7 @@ p
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 d
@@ -2453,7 +2453,7 @@ if
 p
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -2470,7 +2470,7 @@ AddXPCOMUCStringFinalizer
 )
 )
 return
-JS_FALSE
+false
 ;
 JSString
 *
@@ -2499,7 +2499,7 @@ p
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 *
@@ -2571,7 +2571,7 @@ if
 unicodeString
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -2588,7 +2588,7 @@ AddXPCOMUCStringFinalizer
 )
 )
 return
-JS_FALSE
+false
 ;
 JSString
 *
@@ -2626,7 +2626,7 @@ unicodeString
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 *
@@ -2704,7 +2704,7 @@ if
 variant
 )
 return
-JS_FALSE
+false
 ;
 return
 XPCVariant
@@ -2798,7 +2798,7 @@ pErr
 )
 )
 return
-JS_FALSE
+false
 ;
 #
 ifdef
@@ -2869,12 +2869,12 @@ type
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -3109,7 +3109,7 @@ tb
 JSBool
 isDOMString
 =
-JS_TRUE
+true
 ;
 if
 (
@@ -3147,7 +3147,7 @@ ti
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 (
@@ -3183,7 +3183,7 @@ ti
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 (
@@ -3222,7 +3222,7 @@ d
 )
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -3252,7 +3252,7 @@ ti
 )
 )
 return
-JS_FALSE
+false
 ;
 LL_I2L
 (
@@ -3282,7 +3282,7 @@ td
 )
 )
 return
-JS_FALSE
+false
 ;
 LL_D2L
 (
@@ -3318,7 +3318,7 @@ tu
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 (
@@ -3354,7 +3354,7 @@ tu
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 (
@@ -3393,7 +3393,7 @@ d
 )
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -3423,7 +3423,7 @@ tu
 )
 )
 return
-JS_FALSE
+false
 ;
 LL_UI2L
 (
@@ -3453,7 +3453,7 @@ td
 )
 )
 return
-JS_FALSE
+false
 ;
 #
 ifdef
@@ -3528,7 +3528,7 @@ td
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 (
@@ -3567,7 +3567,7 @@ d
 )
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -3622,7 +3622,7 @@ str
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 size_t
@@ -3648,7 +3648,7 @@ chars
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 jschar
@@ -3716,7 +3716,7 @@ s
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 size_t
@@ -3742,7 +3742,7 @@ chars
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -3853,7 +3853,7 @@ supported
 )
 ;
 return
-JS_FALSE
+false
 ;
 case
 nsXPTType
@@ -3901,7 +3901,7 @@ d
 nsnull
 ;
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -3966,7 +3966,7 @@ nsID
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 *
@@ -3983,7 +3983,7 @@ d
 pid
 ;
 return
-JS_TRUE
+true
 ;
 }
 case
@@ -3995,7 +3995,7 @@ T_ASTRING
 {
 isDOMString
 =
-JS_FALSE
+false
 ;
 /
 /
@@ -4084,7 +4084,7 @@ nsnull
 JSBool
 isNewString
 =
-JS_FALSE
+false
 ;
 PRUint32
 length
@@ -4154,7 +4154,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 length
 =
@@ -4185,7 +4185,7 @@ if
 chars
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -4199,7 +4199,7 @@ s
 )
 isNewString
 =
-JS_TRUE
+true
 ;
 }
 else
@@ -4258,7 +4258,7 @@ if
 strChars
 )
 return
-JS_FALSE
+false
 ;
 XPCReadableJSStringWrapper
 *
@@ -4278,7 +4278,7 @@ if
 wrapper
 )
 return
-JS_FALSE
+false
 ;
 *
 (
@@ -4318,7 +4318,7 @@ if
 wrapper
 )
 return
-JS_FALSE
+false
 ;
 *
 (
@@ -4361,7 +4361,7 @@ if
 rs
 )
 return
-JS_FALSE
+false
 ;
 *
 (
@@ -4442,7 +4442,7 @@ length
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 case
@@ -4479,7 +4479,7 @@ d
 nsnull
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSString
@@ -4499,7 +4499,7 @@ str
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 #
@@ -4614,7 +4614,7 @@ size_t
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 char
@@ -4645,7 +4645,7 @@ buffer
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 JS_EncodeStringToBuffer
@@ -4678,7 +4678,7 @@ d
 buffer
 ;
 return
-JS_TRUE
+true
 ;
 }
 case
@@ -4726,7 +4726,7 @@ d
 nsnull
 ;
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -4744,7 +4744,7 @@ s
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -4762,7 +4762,7 @@ str
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 int
@@ -4818,7 +4818,7 @@ should
 report
 error
 return
-JS_FALSE
+false
 ;
 }
 jschar
@@ -4850,7 +4850,7 @@ len
 0
 ;
 return
-JS_TRUE
+true
 ;
 }
 case
@@ -4906,7 +4906,7 @@ if
 rs
 )
 return
-JS_FALSE
+false
 ;
 rs
 -
@@ -4962,7 +4962,7 @@ true
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -5005,7 +5005,7 @@ str
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 length
@@ -5044,7 +5044,7 @@ if
 rs
 )
 return
-JS_FALSE
+false
 ;
 *
 (
@@ -5108,7 +5108,7 @@ rs
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 case
@@ -5152,7 +5152,7 @@ if
 rs
 )
 return
-JS_FALSE
+false
 ;
 rs
 -
@@ -5208,7 +5208,7 @@ true
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -5241,7 +5241,7 @@ str
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 size_t
@@ -5266,7 +5266,7 @@ size_t
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 nsACString
@@ -5291,7 +5291,7 @@ if
 rs
 )
 return
-JS_FALSE
+false
 ;
 *
 (
@@ -5350,7 +5350,7 @@ length
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 JS_EncodeStringToBuffer
@@ -5366,7 +5366,7 @@ length
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 case
@@ -5434,7 +5434,7 @@ if
 variant
 )
 return
-JS_FALSE
+false
 ;
 *
 (
@@ -5456,7 +5456,7 @@ variant
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 else
@@ -5535,7 +5535,7 @@ pErr
 NS_ERROR_XPC_BAD_CONVERT_JS_NULL_REF
 ;
 return
-JS_FALSE
+false
 ;
 }
 PRUint32
@@ -5626,7 +5626,7 @@ d
 nsnull
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -5679,7 +5679,7 @@ pErr
 NS_ERROR_XPC_BAD_CONVERT_JS_ZERO_ISNOT_NULL
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
@@ -5710,12 +5710,12 @@ type
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 inline
@@ -5761,7 +5761,7 @@ if
 objHolder
 )
 return
-JS_FALSE
+false
 ;
 NS_ADDREF
 (
@@ -5781,7 +5781,7 @@ obj
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -5952,7 +5952,7 @@ if
 src
 )
 return
-JS_TRUE
+true
 ;
 if
 (
@@ -6130,7 +6130,7 @@ if
 xpcscope
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -6295,7 +6295,7 @@ IsValid
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -6332,7 +6332,7 @@ flat
 triedToWrap
 )
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -6351,7 +6351,7 @@ flat
 )
 )
 return
-JS_FALSE
+false
 ;
 return
 CreateHolderIfNeeded
@@ -6416,7 +6416,7 @@ flat
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 }
@@ -6481,7 +6481,7 @@ IsValid
 )
 )
 return
-JS_FALSE
+false
 ;
 jsval
 slim
@@ -6504,7 +6504,7 @@ d
 slim
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -6513,7 +6513,7 @@ Even
 if
 ConstructSlimWrapper
 returns
-JS_FALSE
+false
 it
 might
 have
@@ -6678,7 +6678,7 @@ IsValid
 )
 )
 return
-JS_FALSE
+false
 ;
 iface
 .
@@ -6719,7 +6719,7 @@ if
 iface
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -6798,7 +6798,7 @@ IsValid
 )
 )
 return
-JS_FALSE
+false
 ;
 rv
 =
@@ -6939,7 +6939,7 @@ GetXPCCallContext
 (
 )
 iface
-JS_FALSE
+false
 &
 rv
 )
@@ -6989,7 +6989,7 @@ IsValid
 )
 )
 return
-JS_FALSE
+false
 ;
 SLIM_LOG
 (
@@ -7090,7 +7090,7 @@ rv
 wrapper
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -7183,7 +7183,7 @@ pErr
 NS_OK
 ;
 return
-JS_TRUE
+true
 ;
 }
 XPCCallContext
@@ -7206,7 +7206,7 @@ IsValid
 )
 )
 return
-JS_FALSE
+false
 ;
 JSObject
 *
@@ -7225,7 +7225,7 @@ flat
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -7328,7 +7328,7 @@ if
 locationWrapper
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -7430,7 +7430,7 @@ if
 sowWrapper
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -7579,7 +7579,7 @@ if
 objHolder
 )
 return
-JS_FALSE
+false
 ;
 *
 dest
@@ -7606,7 +7606,7 @@ pErr
 NS_OK
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -7954,7 +7954,7 @@ pErr
 NS_ERROR_XPC_SECURITY_MANAGER_VETO
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -8081,7 +8081,7 @@ src
 JSTYPE_XML
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -8120,7 +8120,7 @@ dest
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -8276,7 +8276,7 @@ else
 .
 .
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -9440,7 +9440,7 @@ number
 JSBool
 isResult
 =
-JS_FALSE
+false
 ;
 if
 (
@@ -9469,7 +9469,7 @@ rv
 )
 isResult
 =
-JS_TRUE
+true
 ;
 else
 number
@@ -9537,7 +9537,7 @@ rv
 )
 isResult
 =
-JS_TRUE
+true
 ;
 }
 }
@@ -10209,7 +10209,7 @@ IsValid
 )
 )
 return
-JS_FALSE
+false
 ;
 JSContext
 *
@@ -10296,7 +10296,7 @@ if
 array
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -10786,12 +10786,12 @@ pErr
 NS_OK
 ;
 return
-JS_TRUE
+true
 ;
 failure
 :
 return
-JS_FALSE
+false
 ;
 #
 undef
@@ -10943,7 +10943,7 @@ pErr
 NS_ERROR_XPC_NOT_ENOUGH_ELEMENTS_IN_ARRAY
 ;
 return
-JS_FALSE
+false
 ;
 }
 *
@@ -10952,7 +10952,7 @@ d
 nsnull
 ;
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -10974,7 +10974,7 @@ pErr
 NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY
 ;
 return
-JS_FALSE
+false
 ;
 }
 jsarray
@@ -11004,7 +11004,7 @@ pErr
 NS_ERROR_XPC_CANT_CONVERT_OBJECT_TO_ARRAY
 ;
 return
-JS_FALSE
+false
 ;
 }
 jsuint
@@ -11037,7 +11037,7 @@ pErr
 NS_ERROR_XPC_NOT_ENOUGH_ELEMENTS_IN_ARRAY
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -11168,7 +11168,7 @@ initedCount
 current
 type
 \
-JS_TRUE
+true
 iid
 pErr
 )
@@ -11598,7 +11598,7 @@ pErr
 NS_OK
 ;
 return
-JS_TRUE
+true
 ;
 failure
 :
@@ -11743,7 +11743,7 @@ array
 ;
 }
 return
-JS_FALSE
+false
 ;
 #
 undef
@@ -11862,7 +11862,7 @@ count
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 d
@@ -11922,7 +11922,7 @@ count
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 d
@@ -11953,11 +11953,11 @@ type
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -12080,7 +12080,7 @@ pErr
 NS_ERROR_XPC_NOT_ENOUGH_CHARS_IN_STRING
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -12128,10 +12128,10 @@ len
 )
 )
 return
-JS_FALSE
+false
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -12153,7 +12153,7 @@ d
 nsnull
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSString
@@ -12173,7 +12173,7 @@ str
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 size_t
@@ -12198,7 +12198,7 @@ size_t
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -12218,7 +12218,7 @@ pErr
 NS_ERROR_XPC_NOT_ENOUGH_CHARS_IN_STRING
 ;
 return
-JS_FALSE
+false
 ;
 }
 len
@@ -12278,7 +12278,7 @@ buffer
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 JS_EncodeStringToBuffer
@@ -12311,7 +12311,7 @@ d
 buffer
 ;
 return
-JS_TRUE
+true
 ;
 }
 case
@@ -12364,7 +12364,7 @@ pErr
 NS_ERROR_XPC_NOT_ENOUGH_CHARS_IN_STRING
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -12412,10 +12412,10 @@ len
 )
 )
 return
-JS_FALSE
+false
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -12438,7 +12438,7 @@ d
 nsnull
 ;
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -12456,7 +12456,7 @@ s
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 len
@@ -12483,7 +12483,7 @@ pErr
 NS_ERROR_XPC_NOT_ENOUGH_CHARS_IN_STRING
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -12511,7 +12511,7 @@ str
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 JSUint32
@@ -12559,7 +12559,7 @@ should
 report
 error
 return
-JS_FALSE
+false
 ;
 }
 memcpy
@@ -12595,7 +12595,7 @@ count
 0
 ;
 return
-JS_TRUE
+true
 ;
 }
 default
@@ -12616,7 +12616,7 @@ type
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }

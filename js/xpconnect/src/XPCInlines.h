@@ -2134,7 +2134,7 @@ PRUint16
 i
 ;
 return
-JS_TRUE
+true
 ;
 }
 }
@@ -2207,12 +2207,12 @@ PRUint16
 i
 ;
 return
-JS_TRUE
+true
 ;
 }
 }
 return
-JS_FALSE
+false
 ;
 }
 inline
@@ -2250,7 +2250,7 @@ index
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 pInterface
@@ -2261,7 +2261,7 @@ index
 ]
 ;
 return
-JS_TRUE
+true
 ;
 }
 inline
@@ -2315,7 +2315,7 @@ Interface
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 pMember
@@ -2382,7 +2382,7 @@ Member
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 inline
@@ -2582,11 +2582,11 @@ aInterface
 pp
 )
 return
-JS_TRUE
+true
 ;
 }
 return
-JS_FALSE
+false
 ;
 }
 inline
@@ -2689,7 +2689,7 @@ iid
 )
 )
 return
-JS_TRUE
+true
 ;
 /
 /
@@ -2715,7 +2715,7 @@ return
 true
 ;
 return
-JS_FALSE
+false
 ;
 }
 inline
@@ -2817,7 +2817,7 @@ pp2
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -2827,11 +2827,11 @@ cur
 iface
 )
 return
-JS_TRUE
+true
 ;
 }
 return
-JS_FALSE
+false
 ;
 }
 inline
@@ -3482,10 +3482,10 @@ prop
 )
 )
 return
-JS_FALSE
+false
 ;
 return
-JS_TRUE
+true
 ;
 }
 inline
@@ -3698,7 +3698,7 @@ ccx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 inline

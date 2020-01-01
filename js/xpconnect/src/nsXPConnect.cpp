@@ -655,7 +655,7 @@ nsXPConnect
 :
 gOnceAliveNowDead
 =
-JS_FALSE
+false
 ;
 PRUint32
 nsXPConnect
@@ -671,7 +671,7 @@ nsXPConnect
 :
 gDebugMode
 =
-JS_FALSE
+false
 ;
 JSBool
 nsXPConnect
@@ -679,7 +679,7 @@ nsXPConnect
 :
 gDesiredDebugMode
 =
-JS_FALSE
+false
 ;
 /
 /
@@ -946,11 +946,11 @@ mDefaultSecurityManagerFlags
 )
 mShuttingDown
 (
-JS_FALSE
+false
 )
 mNeedGCBeforeCC
 (
-JS_TRUE
+true
 )
 mCycleCollectionContext
 (
@@ -1118,7 +1118,7 @@ CleanupAllThreads
 ;
 mShuttingDown
 =
-JS_TRUE
+true
 ;
 if
 (
@@ -1196,7 +1196,7 @@ nsnull
 ;
 gOnceAliveNowDead
 =
-JS_TRUE
+true
 ;
 }
 /
@@ -2650,7 +2650,7 @@ traversed
 .
 mNeedGCBeforeCC
 =
-JS_FALSE
+false
 ;
 XPCCallContext
 ccx
@@ -6072,7 +6072,7 @@ trc
 .
 eagerlyTraceWeakMaps
 =
-JS_FALSE
+false
 ;
 JS_TraceChildren
 (
@@ -7375,7 +7375,7 @@ trc
 >
 ok
 =
-JS_TRUE
+true
 ;
 return
 ;
@@ -7642,7 +7642,7 @@ trc
 .
 ok
 =
-JS_FALSE
+false
 ;
 JS_TraceChildren
 (
@@ -13320,7 +13320,7 @@ scope
 aClassInfo
 &
 sciProto
-JS_FALSE
+false
 OBJ_IS_NOT_GLOBAL
 )
 ;
@@ -13531,7 +13531,7 @@ ccx
 >
 SetDestroyJSContextInDestructor
 (
-JS_TRUE
+true
 )
 ;
 return
@@ -15657,14 +15657,14 @@ gDesiredDebugMode
 JS_SetRuntimeDebugMode
 (
 rt
-JS_FALSE
+false
 )
 ;
 gDesiredDebugMode
 =
 gDebugMode
 =
-JS_FALSE
+false
 ;
 }
 NS_EXPORT_
@@ -16717,7 +16717,7 @@ IsValid
 )
 )
 return
-JS_FALSE
+false
 ;
 nsCAutoString
 result
@@ -16751,7 +16751,7 @@ data
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSString
@@ -16779,7 +16779,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 *
 out
@@ -16790,7 +16790,7 @@ str
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -17170,7 +17170,7 @@ IsValid
 )
 )
 return
-JS_FALSE
+false
 ;
 nsCAutoString
 result
@@ -17204,7 +17204,7 @@ string
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSString
@@ -17232,7 +17232,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 *
 out
@@ -17243,7 +17243,7 @@ str
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 NS_IMETHODIMP
