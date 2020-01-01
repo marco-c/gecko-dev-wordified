@@ -4165,6 +4165,16 @@ customizedByUserPrefs
 wheelEvent
 -
 >
+isPixelOnlyDevice
+=
+oldWheelEvent
+-
+>
+isPixelOnlyDevice
+;
+wheelEvent
+-
+>
 lineOrPageDeltaX
 =
 oldWheelEvent
