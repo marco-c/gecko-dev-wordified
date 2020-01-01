@@ -239,7 +239,7 @@ input
 happyURL
 "
 "
-https
+http
 :
 /
 /
@@ -263,7 +263,7 @@ input
 sadURL
 "
 "
-https
+http
 :
 /
 /
