@@ -30266,6 +30266,7 @@ if
 widget
 &
 &
+(
 widget
 -
 >
@@ -30275,6 +30276,15 @@ GetTransparencyMode
 !
 =
 eTransparencyOpaque
+|
+|
+widget
+-
+>
+WidgetPaintsBackground
+(
+)
+)
 )
 {
 /
