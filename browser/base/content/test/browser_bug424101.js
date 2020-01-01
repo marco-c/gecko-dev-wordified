@@ -272,7 +272,7 @@ testInput
 "
 button
 "
-false
+true
 )
 ;
 testInput
@@ -280,7 +280,7 @@ testInput
 "
 submit
 "
-false
+true
 )
 ;
 testInput
@@ -288,7 +288,7 @@ testInput
 "
 reset
 "
-false
+true
 )
 ;
 testInput
@@ -296,7 +296,7 @@ testInput
 "
 checkbox
 "
-false
+true
 )
 ;
 testInput
@@ -304,7 +304,7 @@ testInput
 "
 radio
 "
-false
+true
 )
 ;
 testElement
@@ -312,7 +312,7 @@ testElement
 "
 button
 "
-false
+true
 )
 ;
 testElement
@@ -320,7 +320,7 @@ testElement
 "
 select
 "
-false
+true
 )
 ;
 testElement
@@ -328,7 +328,7 @@ testElement
 "
 option
 "
-false
+true
 )
 ;
 testElement
@@ -336,7 +336,7 @@ testElement
 "
 optgroup
 "
-false
+true
 )
 ;
 /
