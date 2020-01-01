@@ -15223,8 +15223,6 @@ obj
 JSObject
 *
 proto
-;
-proto
 =
 JS_InitClass
 (
