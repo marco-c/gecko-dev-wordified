@@ -2748,6 +2748,12 @@ GetPresContext
 NS_ERROR_NOT_AVAILABLE
 )
 ;
+if
+(
+!
+mPseudo
+)
+{
 mOuterFrame
 =
 mContent
@@ -2764,10 +2770,6 @@ mOuterFrame
 if
 (
 mOuterFrame
-&
-&
-!
-mPseudo
 )
 {
 nsIAtom
@@ -2857,10 +2859,10 @@ have
 just
 one
 child
+"
+"
 the
 inner
-"
-"
 table
 "
 )
@@ -2887,6 +2889,7 @@ context
 "
 )
 ;
+}
 }
 if
 (
