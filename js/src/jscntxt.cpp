@@ -8836,6 +8836,15 @@ thisDuringConstruction
 busyArrays
 (
 )
+#
+ifdef
+DEBUG
+stackIterAssertionEnabled
+(
+true
+)
+#
+endif
 {
 }
 JSContext
