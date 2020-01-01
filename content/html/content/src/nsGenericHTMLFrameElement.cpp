@@ -843,7 +843,7 @@ blocker
 "
 )
 ;
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 nsGenericHTMLFrameElement

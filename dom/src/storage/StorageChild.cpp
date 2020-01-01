@@ -748,7 +748,7 @@ nsresult
 rv
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 StorageChild

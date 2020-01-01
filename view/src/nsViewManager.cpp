@@ -4108,7 +4108,7 @@ nsEventStatus
 aStatus
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 event

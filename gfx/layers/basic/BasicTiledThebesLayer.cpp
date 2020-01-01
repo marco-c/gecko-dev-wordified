@@ -707,7 +707,7 @@ GetBounds
 )
 ;
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 BasicTiledLayerBuffer
@@ -852,7 +852,7 @@ PR_IntervalNow
 ;
 #
 endif
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 BasicTiledLayerBuffer
@@ -1033,7 +1033,7 @@ PR_IntervalNow
 ;
 #
 endif
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 BasicTiledLayerBuffer
@@ -1535,7 +1535,7 @@ nsIntRegion
 aDirtyRegion
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 BasicTiledLayerBuffer
@@ -2086,7 +2086,7 @@ drawingLowPrecision
 )
 )
 {
-PROFILER_MARKER
+SAMPLE_MARKER
 (
 "
 Abort

@@ -3334,7 +3334,7 @@ EndTransactionFlags
 aFlags
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 BasicLayerManager

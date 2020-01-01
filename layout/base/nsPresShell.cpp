@@ -22609,7 +22609,7 @@ flushTypeNames
 )
 )
 ;
-PROFILER_LABEL_PRINTF
+SAMPLE_LABEL_PRINTF
 (
 "
 layout
@@ -33356,7 +33356,7 @@ uint32_t
 aFlags
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 Paint
@@ -47553,7 +47553,7 @@ GetSpec
 docURL
 )
 ;
-PROFILER_LABEL_PRINTF
+SAMPLE_LABEL_PRINTF
 (
 "
 layout

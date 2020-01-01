@@ -372,7 +372,7 @@ uint32_t
 aCount
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 ImageDecoder

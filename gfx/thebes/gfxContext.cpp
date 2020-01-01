@@ -1543,7 +1543,7 @@ Fill
 (
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 gfxContext
@@ -7794,7 +7794,7 @@ gfxPoint
 offset
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 gfxContext
@@ -7952,7 +7952,7 @@ gfxFloat
 alpha
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 gfxContext

@@ -3517,7 +3517,7 @@ int64_t
 aItemId
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 bookmarks
@@ -6270,7 +6270,7 @@ int64_t
 aFolderId
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 bookmarks
@@ -15197,7 +15197,7 @@ nsISupports
 aUserData
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 bookmarks

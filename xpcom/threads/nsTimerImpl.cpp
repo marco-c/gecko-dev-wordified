@@ -2768,7 +2768,7 @@ mCanceled
 )
 return
 ;
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 Timer

@@ -1491,7 +1491,7 @@ EditReply
 aReplies
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 ShadowLayerForwarder

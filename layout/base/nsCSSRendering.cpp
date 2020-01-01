@@ -3765,7 +3765,7 @@ int
 aSkipSides
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 nsCSSRendering
@@ -10316,7 +10316,7 @@ int32_t
 aLayer
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 nsCSSRendering
@@ -10538,7 +10538,7 @@ uint32_t
 aFlags
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 nsCSSRendering
@@ -13897,7 +13897,7 @@ nsRect
 aFillArea
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 nsCSSRendering

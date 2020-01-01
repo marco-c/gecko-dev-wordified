@@ -2579,7 +2579,7 @@ this
 )
 )
 ;
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 Input
@@ -2781,7 +2781,7 @@ OnStateStart
 (
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 nsInputStreamPump
@@ -2964,7 +2964,7 @@ OnStateTransfer
 (
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 Input
@@ -3775,7 +3775,7 @@ OnStateStop
 (
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 Input

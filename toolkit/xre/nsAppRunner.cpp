@@ -5469,7 +5469,7 @@ DoShutdown
 (
 )
 ;
-PROFILER_MARKER
+SAMPLE_MARKER
 (
 "
 Shutdown
@@ -23000,7 +23000,7 @@ MOZ_INSTRUMENT_EVENT_LOOP
 )
 |
 |
-profiler_is_active
+SAMPLER_IS_ACTIVE
 (
 )
 )
@@ -23095,11 +23095,11 @@ nsXREAppData
 aAppData
 )
 {
-profiler_init
+SAMPLER_INIT
 (
 )
 ;
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 Startup
@@ -23590,7 +23590,7 @@ mGdkDisplay
 ;
 #
 endif
-profiler_shutdown
+SAMPLER_SHUTDOWN
 (
 )
 ;
@@ -23681,7 +23681,7 @@ XRE_DeinitCommandLine
 (
 )
 ;
-profiler_shutdown
+SAMPLER_SHUTDOWN
 (
 )
 ;
@@ -23990,11 +23990,11 @@ nsXREAppData
 aAppData
 )
 {
-profiler_init
+SAMPLER_INIT
 (
 )
 ;
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 Startup
@@ -24187,7 +24187,7 @@ exiting
 "
 )
 ;
-profiler_shutdown
+SAMPLER_SHUTDOWN
 (
 )
 ;

@@ -732,7 +732,7 @@ gfxMatrix
 aMaskTransform
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 ThebesLayerBuffer
