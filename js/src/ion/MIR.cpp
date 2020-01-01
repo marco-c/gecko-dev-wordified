@@ -1112,6 +1112,11 @@ use
 )
 )
 ;
+if
+(
+ins
+)
+{
 setOperand
 (
 save
@@ -1131,6 +1136,7 @@ linkUse
 save
 )
 ;
+}
 return
 result
 ;
