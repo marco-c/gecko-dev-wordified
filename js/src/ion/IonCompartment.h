@@ -476,6 +476,11 @@ namespace
 ion
 {
 typedef
+void
+*
+CalleeToken
+;
+typedef
 JSBool
 (
 *
@@ -493,6 +498,8 @@ argv
 Value
 *
 vp
+CalleeToken
+calleeToken
 )
 ;
 class
