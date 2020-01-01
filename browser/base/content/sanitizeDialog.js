@@ -1172,7 +1172,7 @@ if
 (
 this
 .
-hasCustomizedItemSelection
+hasNonSelectedItems
 (
 )
 )
@@ -1653,7 +1653,7 @@ status
 .
 *
 /
-hasCustomizedItemSelection
+hasNonSelectedItems
 :
 function
 (
@@ -1716,14 +1716,10 @@ preference
 ;
 if
 (
+!
 pref
 .
 value
-!
-=
-pref
-.
-defaultValue
 )
 return
 true
