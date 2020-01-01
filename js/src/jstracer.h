@@ -5822,6 +5822,12 @@ clearFrameSlotsFromCache
 )
 ;
 JS_REQUIRES_STACK
+void
+putArguments
+(
+)
+;
+JS_REQUIRES_STACK
 JSRecordingStatus
 guardCallee
 (
