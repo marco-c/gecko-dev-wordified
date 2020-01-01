@@ -1397,6 +1397,8 @@ exitInfo
 -
 >
 snapshotOffset
+(
+)
 ;
 return
 FrameRecovery

@@ -499,7 +499,7 @@ refactor
 class
 IonCommonFrameLayout
 {
-void
+uint8
 *
 returnAddress_
 ;
@@ -605,16 +605,8 @@ returnAddress
 )
 const
 {
-JS_NOT_REACHED
-(
-"
-ReturnAddress
-NYI
-"
-)
-;
 return
-NULL
+returnAddress_
 ;
 }
 uint8
@@ -845,6 +837,10 @@ IonExitFrameLayout
 public
 IonCommonFrameLayout
 {
+void
+*
+padding2
+;
 }
 ;
 }
