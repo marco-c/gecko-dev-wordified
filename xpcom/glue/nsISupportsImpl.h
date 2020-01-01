@@ -1130,17 +1130,10 @@ purple
 )
 )
 {
-if
-(
-!
 nsCycleCollector_suspect
 (
 owner
 )
-)
-shouldBePurple
-=
-PR_FALSE
 ;
 }
 else
