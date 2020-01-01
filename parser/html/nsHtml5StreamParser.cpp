@@ -3904,7 +3904,8 @@ if
 (
 mCharsetSource
 <
-kCharsetFromChannel
+=
+kCharsetFromMetaPrescan
 )
 {
 /
@@ -4686,7 +4687,7 @@ return
 rv
 ;
 }
-void
+PRBool
 nsHtml5StreamParser
 :
 :
@@ -4768,6 +4769,7 @@ the
 HTML5
 spec
 return
+PR_FALSE
 ;
 }
 if
@@ -4776,6 +4778,7 @@ mReparseForbidden
 )
 {
 return
+PR_FALSE
 ;
 /
 /
@@ -4896,6 +4899,7 @@ available
 )
 ;
 return
+PR_FALSE
 ;
 }
 PRBool
@@ -4935,6 +4939,7 @@ failed
 )
 ;
 return
+PR_FALSE
 ;
 }
 if
@@ -4951,6 +4956,7 @@ kCharsetFromMetaTag
 become
 confident
 return
+PR_FALSE
 ;
 }
 /
@@ -4993,6 +4999,7 @@ name
 is
 bogus
 return
+PR_FALSE
 ;
 }
 if
@@ -5143,6 +5150,7 @@ rough
 ASCII
 superset
 return
+PR_FALSE
 ;
 }
 mTreeBuilder
@@ -5195,6 +5203,9 @@ the
 request
 failed
 .
+return
+PR_TRUE
+;
 }
 void
 nsHtml5StreamParser

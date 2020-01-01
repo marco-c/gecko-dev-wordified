@@ -874,7 +874,7 @@ charset
 >
 *
 /
-void
+PRBool
 internalEncodingDeclaration
 (
 nsString

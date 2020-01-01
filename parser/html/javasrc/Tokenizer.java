@@ -34965,7 +34965,7 @@ true
 NOCPP
 ]
 public
-void
+boolean
 internalEncodingDeclaration
 (
 String
@@ -34982,6 +34982,7 @@ encodingDeclarationHandler
 null
 )
 {
+return
 encodingDeclarationHandler
 .
 internalEncodingDeclaration
@@ -34990,6 +34991,9 @@ internalCharset
 )
 ;
 }
+return
+false
+;
 }
 /
 *

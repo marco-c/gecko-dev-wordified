@@ -438,12 +438,3 @@ nsACString
 charset
 )
 ;
-nsHtml5MetaScanner
-(
-)
-;
-~
-nsHtml5MetaScanner
-(
-)
-;

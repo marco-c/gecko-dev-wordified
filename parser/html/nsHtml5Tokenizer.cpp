@@ -16365,7 +16365,7 @@ systemIdentifier
 nsnull
 ;
 }
-void
+PRBool
 nsHtml5Tokenizer
 :
 :
@@ -16381,6 +16381,7 @@ if
 encodingDeclarationHandler
 )
 {
+return
 encodingDeclarationHandler
 -
 >
@@ -16390,6 +16391,9 @@ internalCharset
 )
 ;
 }
+return
+PR_FALSE
+;
 }
 void
 nsHtml5Tokenizer
