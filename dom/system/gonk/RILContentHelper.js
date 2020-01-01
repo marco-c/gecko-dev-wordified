@@ -664,7 +664,7 @@ IccExchangeAPDU
 "
 RIL
 :
-IccUpdateContact
+UpdateIccContact
 "
 ]
 ;
@@ -3747,7 +3747,7 @@ sendAsyncMessage
 "
 RIL
 :
-IccUpdateContact
+UpdateIccContact
 "
 {
 requestId
@@ -6224,12 +6224,12 @@ case
 "
 RIL
 :
-IccUpdateContact
+UpdateIccContact
 "
 :
 this
 .
-handleIccUpdateContact
+handleUpdateIccContact
 (
 msg
 .
@@ -6891,10 +6891,10 @@ result
 ;
 }
 }
-handleIccUpdateContact
+handleUpdateIccContact
 :
 function
-handleIccUpdateContact
+handleUpdateIccContact
 (
 message
 )
