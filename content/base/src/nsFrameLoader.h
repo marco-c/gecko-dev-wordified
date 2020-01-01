@@ -1158,6 +1158,12 @@ mRemoteFrame
 /
 XXX
 leaking
+nsCOMPtr
+<
+nsIObserver
+>
+mChildHost
+;
 mozilla
 :
 :
