@@ -2645,9 +2645,11 @@ JSObject
 obj
 )
 {
-+
-+
+JS_ATOMIC_INCREMENT
+(
+&
 finalizeCount
+)
 ;
 }
 static
