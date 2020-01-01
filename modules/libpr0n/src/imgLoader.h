@@ -1207,6 +1207,12 @@ ClearImageCache
 )
 ;
 static
+void
+MinimizeCaches
+(
+)
+;
+static
 nsresult
 InitCache
 (
@@ -1638,6 +1644,12 @@ EvictEntries
 imgCacheTable
 &
 aCacheToClear
+)
+;
+static
+nsresult
+EvictEntries
+(
 imgCacheQueue
 &
 aQueueToClear
