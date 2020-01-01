@@ -490,13 +490,6 @@ nsStyledElement
 .
 h
 "
-#
-include
-"
-nsDOMMemoryReporter
-.
-h
-"
 class
 nsMappedAttributes
 ;
@@ -548,11 +541,6 @@ aNodeInfo
 }
 public
 :
-NS_DECL_AND_IMPL_DOM_MEMORY_REPORTER_SIZEOF
-(
-nsMappedAttributeElement
-nsMappedAttributeElementBase
-)
 virtual
 nsresult
 BindToTree

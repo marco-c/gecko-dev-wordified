@@ -822,17 +822,6 @@ nsChannelPolicy
 h
 "
 #
-include
-"
-mozilla
-/
-dom
-/
-Element
-.
-h
-"
-#
 ifdef
 PR_LOGGING
 static
