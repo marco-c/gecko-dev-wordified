@@ -2172,7 +2172,7 @@ IsOmxEnabled
 ;
 static
 bool
-IsH264Type
+IsOmxSupportedType
 (
 const
 nsACString
@@ -2183,9 +2183,9 @@ aType
 static
 const
 char
-gH264Types
+gOmxTypes
 [
-3
+5
 ]
 [
 16
