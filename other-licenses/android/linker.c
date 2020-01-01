@@ -6568,7 +6568,16 @@ si
 >
 name
 pbase
+(
 len
++
+PAGE_MASK
+)
+&
+(
+~
+PAGE_MASK
+)
 phdr
 -
 >
