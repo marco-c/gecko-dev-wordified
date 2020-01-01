@@ -1004,9 +1004,9 @@ GetLocationProperty
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
-JSHandleId
+HandleId
 id
 MutableHandleValue
 vp
@@ -5101,9 +5101,9 @@ env_setProperty
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
-JSHandleId
+HandleId
 id
 JSBool
 strict
@@ -5472,7 +5472,7 @@ env_enumerate
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
 )
 {
@@ -5631,9 +5631,9 @@ env_resolve
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
-JSHandleId
+HandleId
 id
 unsigned
 flags

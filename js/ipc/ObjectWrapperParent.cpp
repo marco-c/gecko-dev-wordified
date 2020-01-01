@@ -2004,9 +2004,9 @@ CPOW_AddProperty
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
-JSHandleId
+HandleId
 id
 MutableHandleValue
 vp
@@ -2150,9 +2150,9 @@ CPOW_GetProperty
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
-JSHandleId
+HandleId
 id
 MutableHandleValue
 vp
@@ -2303,9 +2303,9 @@ CPOW_SetProperty
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
-JSHandleId
+HandleId
 id
 JSBool
 strict
@@ -2475,9 +2475,9 @@ CPOW_DelProperty
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
-JSHandleId
+HandleId
 id
 JSBool
 *
@@ -2864,7 +2864,7 @@ CPOW_NewEnumerate
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
 JSIterateOp
 enum_op
@@ -3009,9 +3009,9 @@ CPOW_NewResolve
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
-JSHandleId
+HandleId
 id
 unsigned
 flags
@@ -3207,7 +3207,7 @@ CPOW_Convert
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
 JSType
 type
@@ -3845,7 +3845,7 @@ CPOW_HasInstance
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
 MutableHandleValue
 v
