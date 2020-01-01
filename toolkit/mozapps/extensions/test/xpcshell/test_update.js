@@ -591,7 +591,6 @@ dest
 ;
 startupManager
 (
-1
 )
 ;
 do_test_pending
@@ -1040,7 +1039,6 @@ id
 ;
 startupManager
 (
-1
 )
 ;
 do_check_true
@@ -1137,7 +1135,6 @@ uninstall
 ;
 restartManager
 (
-0
 )
 ;
 run_test_3
@@ -1296,7 +1293,6 @@ a2
 ;
 restartManager
 (
-0
 )
 ;
 check_test_3
@@ -1753,7 +1749,6 @@ sawUpdate
 ;
 restartManager
 (
-0
 )
 ;
 check_test_5
@@ -1833,7 +1828,6 @@ uninstall
 ;
 restartManager
 (
-0
 )
 ;
 run_test_6
@@ -1956,7 +1950,6 @@ dest
 ;
 restartManager
 (
-1
 )
 ;
 prepare_test
@@ -2086,7 +2079,6 @@ install
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -2154,7 +2146,6 @@ uninstall
 ;
 restartManager
 (
-0
 )
 ;
 run_test_7
@@ -3578,7 +3569,6 @@ dest
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -3606,7 +3596,6 @@ true
 ;
 restartManager
 (
-0
 )
 ;
 testserver
@@ -4212,7 +4201,6 @@ uninstall
 ;
 restartManager
 (
-0
 )
 ;
 run_test_9
@@ -4504,7 +4492,6 @@ dest
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -4720,7 +4707,6 @@ run_test_12
 {
 restartManager
 (
-0
 )
 ;
 AddonManager
@@ -4933,7 +4919,6 @@ dest
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -5059,7 +5044,6 @@ isCompatible
 ;
 restartManager
 (
-0
 )
 ;
 check_test_13
@@ -5139,7 +5123,6 @@ uninstall
 ;
 restartManager
 (
-0
 )
 ;
 run_test_14
@@ -5395,7 +5378,6 @@ dest
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -5735,7 +5717,6 @@ install
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -5818,7 +5799,6 @@ uninstall
 ;
 restartManager
 (
-0
 )
 ;
 end_test

@@ -64,7 +64,6 @@ XPCShell
 ;
 startupManager
 (
-1
 )
 ;
 run_test_1

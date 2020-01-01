@@ -448,7 +448,6 @@ dest
 ;
 startupManager
 (
-1
 )
 ;
 run_test_1
@@ -827,7 +826,6 @@ false
 ;
 restartManager
 (
-0
 )
 ;
 AddonManager
@@ -949,7 +947,6 @@ false
 ;
 restartManager
 (
-1
 "
 2
 .
@@ -1076,7 +1073,6 @@ true
 ;
 restartManager
 (
-0
 )
 ;
 AddonManager

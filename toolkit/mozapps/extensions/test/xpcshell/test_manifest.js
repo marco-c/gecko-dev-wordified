@@ -1640,7 +1640,6 @@ do_test_pending
 ;
 startupManager
 (
-1
 )
 ;
 AddonManager

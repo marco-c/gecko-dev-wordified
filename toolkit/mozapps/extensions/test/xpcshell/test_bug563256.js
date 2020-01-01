@@ -280,7 +280,6 @@ dest
 ;
 startupManager
 (
-1
 )
 ;
 do_check_eq
@@ -788,7 +787,6 @@ classic
 ;
 restartManager
 (
-0
 )
 ;
 run_test_2
@@ -1435,7 +1433,6 @@ classic
 ;
 restartManager
 (
-0
 )
 ;
 check_test_2
@@ -1759,7 +1756,6 @@ alternate
 ;
 restartManager
 (
-0
 )
 ;
 do_check_eq

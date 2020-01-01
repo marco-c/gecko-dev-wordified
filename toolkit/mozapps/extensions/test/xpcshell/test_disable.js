@@ -235,7 +235,6 @@ XPCShell
 ;
 startupManager
 (
-1
 )
 ;
 AddonManager
@@ -343,7 +342,6 @@ dest
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -696,7 +694,6 @@ org
 ;
 restartManager
 (
-0
 )
 ;
 AddonManager
@@ -975,7 +972,6 @@ org
 ;
 restartManager
 (
-0
 )
 ;
 AddonManager
@@ -1257,7 +1253,6 @@ ensure_test_completed
 ;
 restartManager
 (
-0
 )
 ;
 AddonManager

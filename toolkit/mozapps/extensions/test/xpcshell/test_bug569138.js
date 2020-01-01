@@ -697,7 +697,6 @@ dest
 ;
 startupManager
 (
-1
 )
 ;
 AddonManager

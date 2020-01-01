@@ -83,7 +83,6 @@ XPCShell
 ;
 startupManager
 (
-1
 )
 ;
 AddonManager

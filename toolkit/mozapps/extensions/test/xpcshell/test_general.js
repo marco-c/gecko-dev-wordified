@@ -117,7 +117,6 @@ count
 ;
 startupManager
 (
-1
 )
 ;
 AddonManager
@@ -151,7 +150,6 @@ run_test_1
 {
 restartManager
 (
-0
 )
 ;
 AddonManager
@@ -212,7 +210,6 @@ shutdownManager
 ;
 startupManager
 (
-0
 false
 )
 ;
@@ -249,7 +246,6 @@ run_test_3
 {
 restartManager
 (
-0
 )
 ;
 AddonManager

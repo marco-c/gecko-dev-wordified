@@ -193,7 +193,6 @@ dest
 ;
 startupManager
 (
-1
 )
 ;
 do_test_pending
@@ -301,7 +300,6 @@ check_test_1
 {
 startupManager
 (
-1
 false
 )
 ;

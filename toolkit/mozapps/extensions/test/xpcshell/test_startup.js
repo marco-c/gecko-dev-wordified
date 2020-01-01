@@ -554,7 +554,6 @@ do_test_pending
 ;
 startupManager
 (
-1
 )
 ;
 AddonManager
@@ -888,7 +887,6 @@ dest
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -1621,7 +1619,6 @@ true
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -2086,7 +2083,6 @@ dest
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -2496,7 +2492,6 @@ SCOPE_SYSTEM
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -2743,7 +2738,6 @@ SCOPE_USER
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -3053,7 +3047,6 @@ enabledScopes
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -3422,7 +3415,6 @@ true
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -3800,7 +3792,6 @@ enabledScopes
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -4147,7 +4138,6 @@ dest
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -4572,7 +4562,6 @@ dest
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -4973,7 +4962,6 @@ true
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager

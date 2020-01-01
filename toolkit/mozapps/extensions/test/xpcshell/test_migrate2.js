@@ -971,7 +971,6 @@ databaseSchema
 ;
 startupManager
 (
-1
 )
 ;
 AddonManager

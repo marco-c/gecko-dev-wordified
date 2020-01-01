@@ -685,7 +685,6 @@ dest
 ;
 startupManager
 (
-1
 )
 ;
 Application

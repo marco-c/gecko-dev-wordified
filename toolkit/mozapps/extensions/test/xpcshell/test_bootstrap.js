@@ -80,7 +80,7 @@ ons
 can
 be
 used
-with
+without
 restarts
 .
 Components
@@ -252,7 +252,6 @@ XPCShell
 ;
 startupManager
 (
-1
 )
 ;
 run_test_1
@@ -1010,7 +1009,6 @@ ADDON_DISABLE
 ;
 startupManager
 (
-0
 false
 )
 ;
@@ -1401,7 +1399,6 @@ org
 ;
 startupManager
 (
-0
 false
 )
 ;
@@ -1947,7 +1944,6 @@ null
 ;
 restartManager
 (
-0
 )
 ;
 AddonManager
@@ -2152,7 +2148,6 @@ close
 ;
 startupManager
 (
-0
 false
 )
 ;
@@ -2271,13 +2266,9 @@ as
 removed
 during
 startup
-don
-'
-t
-force
-an
-EM
-restart
+get
+removed
+properly
 function
 run_test_9
 (
@@ -2319,7 +2310,6 @@ true
 ;
 startupManager
 (
-0
 false
 )
 ;
@@ -3175,14 +3165,16 @@ correctly
 loaded
 even
 if
-an
-EM
-restart
-/
-/
+the
+app
 is
-necessary
-.
+/
+/
+upgraded
+at
+the
+same
+time
 function
 run_test_12
 (
@@ -3326,7 +3318,6 @@ close
 ;
 startupManager
 (
-1
 true
 )
 ;
@@ -3435,7 +3426,6 @@ uninstall
 ;
 restartManager
 (
-0
 )
 ;
 run_test_13
@@ -3890,7 +3880,6 @@ uninstall
 ;
 restartManager
 (
-0
 )
 ;
 run_test_14
@@ -4073,7 +4062,6 @@ close
 ;
 startupManager
 (
-0
 false
 )
 ;

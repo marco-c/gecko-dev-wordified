@@ -380,7 +380,6 @@ path
 ;
 startupManager
 (
-1
 )
 ;
 AddonManager
@@ -573,7 +572,6 @@ null
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -717,7 +715,6 @@ path
 ;
 restartManager
 (
-0
 )
 ;
 AddonManager
@@ -779,7 +776,6 @@ EM
 restart
 restartManager
 (
-0
 )
 ;
 run_test_4
@@ -876,7 +872,6 @@ null
 ;
 restartManager
 (
-0
 )
 ;
 MockRegistry
@@ -915,7 +910,6 @@ path
 ;
 restartManager
 (
-1
 )
 ;
 MockRegistry
@@ -992,7 +986,6 @@ addon1Dir
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
