@@ -4083,9 +4083,7 @@ aRect
 ContentOffsets
 GetCharacterOffsetAtFramePointInternal
 (
-const
 nsPoint
-&
 aPoint
 bool
 aForInsertionPoint
