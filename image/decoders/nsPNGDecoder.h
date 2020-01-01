@@ -218,11 +218,6 @@ format
 )
 ;
 void
-SetAnimFrameInfo
-(
-)
-;
-void
 EndImageFrame
 (
 )
