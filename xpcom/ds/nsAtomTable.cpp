@@ -1833,7 +1833,10 @@ mLength
 1
 )
 *
-2
+sizeof
+(
+PRUnichar
+)
 "
 correct
 storage
