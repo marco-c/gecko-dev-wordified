@@ -936,7 +936,15 @@ aOffset
 offset
 ;
 return
+offset
+!
+=
+-
+1
+?
 S_OK
+:
+S_FALSE
 ;
 }
 __except
