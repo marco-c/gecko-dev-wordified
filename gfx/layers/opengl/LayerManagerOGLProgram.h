@@ -224,7 +224,6 @@ enum
 ShaderProgramType
 {
 RGBALayerProgramType
-RGBALayerExternalProgramType
 BGRALayerProgramType
 RGBXLayerProgramType
 BGRXLayerProgramType
@@ -376,7 +375,7 @@ FORMAT_R8G8B8A8
 )
 ;
 return
-RGBALayerExternalProgramType
+RGBAExternalLayerProgramType
 ;
 case
 LOCAL_GL_TEXTURE_RECTANGLE_ARB
