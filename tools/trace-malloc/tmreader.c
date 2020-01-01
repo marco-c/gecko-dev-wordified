@@ -554,7 +554,7 @@ tmreader
 h
 "
 #
-define
+undef
 DEBUG_tmreader
 static
 int
