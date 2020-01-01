@@ -1597,6 +1597,8 @@ public
 nsITouchEventReceiver
 public
 nsIInlineEventHandlers
+public
+nsIWindowCrypto
 {
 public
 :
@@ -1812,6 +1814,10 @@ NS_DECL_NSITOUCHEVENTRECEIVER
 /
 nsIInlineEventHandlers
 NS_DECL_NSIINLINEEVENTHANDLERS
+/
+/
+nsIWindowCrypto
+NS_DECL_NSIWINDOWCRYPTO
 /
 /
 nsPIDOMWindow
@@ -4539,6 +4545,11 @@ aOutTitle
 ;
 bool
 CanMoveResizeWindows
+(
+)
+;
+bool
+GetBlurSuppression
 (
 )
 ;
