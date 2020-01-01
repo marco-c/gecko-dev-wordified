@@ -383,6 +383,8 @@ cairo_quartz_surface_create_cg_layer
 cairo_surface_t
 *
 surface
+cairo_content_t
+content
 unsigned
 int
 width
