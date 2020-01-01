@@ -3275,7 +3275,7 @@ fpu_
 ;
 }
 void
-maybeTake
+takeUnchecked
 (
 Register
 reg
@@ -3290,7 +3290,7 @@ reg
 ;
 }
 void
-maybeTake
+takeUnchecked
 (
 FloatRegister
 reg
@@ -3305,7 +3305,7 @@ reg
 ;
 }
 void
-maybeTake
+takeUnchecked
 (
 AnyRegister
 reg
@@ -3344,7 +3344,7 @@ gpr
 ;
 }
 void
-maybeTake
+takeUnchecked
 (
 ValueOperand
 value
@@ -3359,7 +3359,7 @@ value
 ;
 }
 void
-maybeTake
+takeUnchecked
 (
 TypedOrValueRegister
 reg
@@ -3373,7 +3373,7 @@ hasValue
 (
 )
 )
-maybeTake
+takeUnchecked
 (
 reg
 .
@@ -3391,7 +3391,7 @@ hasTyped
 (
 )
 )
-maybeTake
+takeUnchecked
 (
 reg
 .
