@@ -454,7 +454,7 @@ BLOCK
 #
 include
 "
-mozStorageVariant
+Variant
 .
 h
 "

@@ -435,6 +435,13 @@ _MOZSTORAGEHELPER_H_
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 mozIStorageConnection
 .
 h
