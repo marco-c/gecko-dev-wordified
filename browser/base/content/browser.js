@@ -9153,9 +9153,6 @@ interested
 in
 if
 (
-content
-&
-&
 event
 .
 target

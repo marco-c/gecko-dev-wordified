@@ -3203,7 +3203,7 @@ NS_ERROR_XPC_BAD_CONVERT_JS
 )
 ;
 }
-nsIJSID
+nsIJSIID
 *
 iid
 ;
@@ -3216,7 +3216,7 @@ NS_FAILED
 (
 xpc_qsUnwrapArg
 <
-nsIJSID
+nsIJSIID
 >
 (
 cx
