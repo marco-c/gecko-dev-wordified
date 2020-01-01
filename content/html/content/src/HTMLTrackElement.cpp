@@ -270,13 +270,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsIHttpChannel
 .
 h

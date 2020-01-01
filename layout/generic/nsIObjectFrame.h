@@ -119,12 +119,15 @@ nsIObjectFrame_h___
 #
 include
 "
-nsIFrame
+nsQueryFrame
 .
 h
 "
 class
 nsNPAPIPluginInstance
+;
+class
+nsIWidget
 ;
 class
 nsIObjectFrame

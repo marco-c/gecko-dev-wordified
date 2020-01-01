@@ -265,13 +265,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsIListControlFrame
 .
 h
