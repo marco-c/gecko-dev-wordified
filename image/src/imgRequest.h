@@ -191,13 +191,6 @@ h
 #
 include
 "
-nsTObserverArray
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h
@@ -1179,13 +1172,6 @@ nsCOMPtr
 nsIInterfaceRequestor
 >
 mPrevChannelSink
-;
-nsTObserverArray
-<
-imgRequestProxy
-*
->
-mObservers
 ;
 nsCOMPtr
 <
