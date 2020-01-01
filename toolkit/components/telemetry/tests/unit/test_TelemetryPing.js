@@ -455,7 +455,7 @@ mozilla
 .
 org
 "
-vesion
+version
 :
 "
 1
