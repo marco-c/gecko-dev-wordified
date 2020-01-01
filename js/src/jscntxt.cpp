@@ -3112,16 +3112,6 @@ lrs
 }
 #
 ifdef
-JS_TRACER
-js_DestroyJIT
-(
-cx
-)
-;
-#
-endif
-#
-ifdef
 JS_THREADSAFE
 js_ClearContextThread
 (
