@@ -6218,14 +6218,12 @@ true
 .
 *
 /
-#
-ifdef
-DEBUG
+DebugOnly
+<
 JSBool
+>
 callbackStatus
 =
-#
-endif
 cxCallback
 (
 cx

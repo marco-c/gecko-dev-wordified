@@ -23570,14 +23570,12 @@ now
 :
 PR_INTERVAL_NO_TIMEOUT
 ;
-#
-ifdef
-DEBUG
+DebugOnly
+<
 PRStatus
+>
 status
 =
-#
-endif
 PR_WaitCondVar
 (
 gWatchdogWakeup

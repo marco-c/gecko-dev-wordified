@@ -1658,14 +1658,12 @@ uintN
 1
 )
 ;
-#
-ifdef
-DEBUG
+DebugOnly
+<
 BindingKind
+>
 kind
 =
-#
-endif
 lookup
 (
 cx
