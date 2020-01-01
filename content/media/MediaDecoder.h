@@ -5592,7 +5592,7 @@ IsGStreamerEnabled
 endif
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_OMX_DECODER
 static
 bool
 IsOmxEnabled

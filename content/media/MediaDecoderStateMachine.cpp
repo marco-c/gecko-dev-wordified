@@ -2847,7 +2847,7 @@ thread
 if
 defined
 (
-MOZ_WIDGET_GONK
+MOZ_OMX_DECODER
 )
 |
 |

@@ -1950,7 +1950,7 @@ forget
 }
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_OMX_DECODER
 VideoData
 *
 VideoData
@@ -2357,7 +2357,7 @@ forget
 endif
 /
 /
-MOZ_WIDGET_GONK
+MOZ_OMX_DECODER
 void
 *
 MediaDecoderReader

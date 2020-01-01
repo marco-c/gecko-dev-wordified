@@ -284,7 +284,7 @@ h
 endif
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_OMX_DECODER
 #
 include
 "
@@ -975,7 +975,7 @@ nullptr
 endif
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_OMX_DECODER
 static
 const
 char
@@ -1675,7 +1675,7 @@ CANPLAY_MAYBE
 endif
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_OMX_DECODER
 if
 (
 IsOmxSupportedType
@@ -2005,7 +2005,7 @@ WaveDecoder
 endif
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_OMX_DECODER
 if
 (
 IsOmxSupportedType
@@ -2393,7 +2393,7 @@ else
 endif
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_OMX_DECODER
 if
 (
 IsOmxSupportedType
@@ -2564,7 +2564,7 @@ aType
 endif
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_OMX_DECODER
 IsOmxSupportedType
 (
 aType
