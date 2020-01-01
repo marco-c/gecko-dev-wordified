@@ -3882,8 +3882,7 @@ aCh
 ;
 }
 static
-unsigned
-int
+hb_unicode_combining_class_t
 HBGetCombiningClass
 (
 hb_unicode_funcs_t
@@ -3897,9 +3896,12 @@ user_data
 )
 {
 return
+hb_unicode_combining_class_t
+(
 GetCombiningClass
 (
 aCh
+)
 )
 ;
 }
