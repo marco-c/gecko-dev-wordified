@@ -17532,13 +17532,12 @@ supports
 )
 )
 {
-nsContentUtils
-:
-:
+node
+-
+>
 PreserveWrapper
 (
 supports
-node
 )
 ;
 return

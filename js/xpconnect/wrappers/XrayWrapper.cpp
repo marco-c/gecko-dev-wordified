@@ -8130,13 +8130,12 @@ if
 (
 cache
 )
-nsContentUtils
-:
-:
+cache
+-
+>
 PreserveWrapper
 (
 identity
-cache
 )
 ;
 }
