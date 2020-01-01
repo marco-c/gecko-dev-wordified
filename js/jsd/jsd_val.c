@@ -4531,13 +4531,10 @@ jsdval
 >
 className
 =
-JS_GetClass
+JS_GetDebugClassName
 (
 obj
 )
--
->
-name
 ;
 JS_LeaveCrossCompartmentCall
 (

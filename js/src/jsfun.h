@@ -2037,6 +2037,12 @@ js
 StackFrame
 *
 fp
+js
+:
+:
+CallObject
+&
+callobj
 )
 ;
 namespace
