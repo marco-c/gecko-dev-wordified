@@ -35084,14 +35084,9 @@ cx
 if
 (
 !
-pobj
--
->
-getProxyHandler
-(
-)
--
->
+JSProxy
+:
+:
 getPropertyDescriptor
 (
 cx
