@@ -710,7 +710,7 @@ short
 SelectionType
 ;
 typedef
-PRUint32
+PRUint64
 nsFrameState
 ;
 namespace

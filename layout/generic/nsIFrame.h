@@ -1207,7 +1207,7 @@ frames
 *
 /
 typedef
-PRUint32
+PRUint64
 nsFrameState
 ;
 #
@@ -2272,12 +2272,18 @@ The
 lower
 20
 bits
+and
+upper
+32
+bits
 of
 the
 frame
 state
 are
 reserved
+/
+/
 by
 this
 API
