@@ -6401,7 +6401,7 @@ appended
 .
 *
 /
-extern
+inline
 bool
 ValueToStringBuffer
 (
