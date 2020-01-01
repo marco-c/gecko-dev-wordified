@@ -7447,6 +7447,10 @@ DOM_CLASSINFO_MAP_ENTRY
 (
 nsIMozNavigatorVoicemail
 )
+DOM_CLASSINFO_MAP_ENTRY
+(
+nsIMozNavigatorIccManager
+)
 #
 endif
 #
