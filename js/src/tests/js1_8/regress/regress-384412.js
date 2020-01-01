@@ -2052,9 +2052,8 @@ arguments
 "
 )
 ;
-version
+revertVersion
 (
-v
 )
 ;
 expect
@@ -2065,8 +2064,6 @@ f
 )
 )
 ;
-/
-/
 expect
 (
 150
@@ -2098,9 +2095,8 @@ f
 )
 )
 ;
-version
+revertVersion
 (
-v
 )
 ;
 }

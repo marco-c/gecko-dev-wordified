@@ -7264,6 +7264,16 @@ EVAL_CACHE_METER
 probe
 )
 ;
+JSVersion
+version
+=
+cx
+-
+>
+findVersion
+(
+)
+;
 while
 (
 (
@@ -7300,9 +7310,6 @@ script
 version
 =
 =
-cx
--
->
 version
 &
 &
