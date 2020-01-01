@@ -840,6 +840,17 @@ aCreate
 )
 ;
 void
+RemoveEntries
+(
+nsIURI
+*
+aURI
+nsIPrincipal
+*
+aPrincipal
+)
+;
+void
 Clear
 (
 )
