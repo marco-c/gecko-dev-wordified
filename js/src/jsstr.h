@@ -4139,9 +4139,6 @@ JSString
 str
 )
 ;
-#
-ifdef
-__cplusplus
 /
 *
 *
@@ -4173,7 +4170,7 @@ things
 *
 /
 extern
-bool
+JSBool
 JS_FASTCALL
 js_EqualStrings
 (
@@ -4185,8 +4182,6 @@ JSString
 str2
 )
 ;
-#
-endif
 /
 *
 *
