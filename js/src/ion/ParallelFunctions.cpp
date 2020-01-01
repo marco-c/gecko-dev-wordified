@@ -1189,9 +1189,6 @@ object
 parExtendDenseElements
 (
 slice
--
->
-allocator
 &
 args
 -
@@ -1249,9 +1246,6 @@ array
 parExtendDenseElements
 (
 slice
--
->
-allocator
 NULL
 length
 )
@@ -3177,9 +3171,6 @@ res
 parExtendDenseElements
 (
 slice
--
->
-allocator
 rest
 length
 )

@@ -1130,6 +1130,9 @@ JS
 namespace
 js
 {
+struct
+ThreadSafeContext
+;
 class
 Allocator
 ;

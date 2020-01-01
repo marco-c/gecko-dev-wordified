@@ -169,6 +169,15 @@ Shape
 .
 h
 "
+#
+include
+"
+vm
+/
+ForkJoin
+.
+h
+"
 namespace
 js
 {
