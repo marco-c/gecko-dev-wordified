@@ -8751,10 +8751,9 @@ vp
 >
 setBoolean
 (
-prop
 !
-=
-NULL
+!
+prop
 )
 ;
 return
