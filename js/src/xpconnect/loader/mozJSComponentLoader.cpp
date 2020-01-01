@@ -6872,7 +6872,7 @@ nativePath
 get
 (
 )
-0
+1
 )
 ;
 PR_MemUnmap
