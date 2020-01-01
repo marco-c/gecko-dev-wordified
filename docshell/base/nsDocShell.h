@@ -5402,9 +5402,6 @@ mInEnsureScriptEnv
 ;
 #
 endif
-bool
-mAffectPrivateSessionLifetime
-;
 uint64_t
 mHistoryID
 ;
