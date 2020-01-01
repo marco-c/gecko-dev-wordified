@@ -995,10 +995,12 @@ if
 aData
 -
 >
-mSID
-=
-=
-eStyleStruct_List
+mSIDs
+&
+NS_STYLE_INHERIT_BIT
+(
+List
+)
 )
 {
 if

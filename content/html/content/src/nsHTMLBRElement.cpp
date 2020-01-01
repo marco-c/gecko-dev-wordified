@@ -777,10 +777,12 @@ if
 aData
 -
 >
-mSID
-=
-=
-eStyleStruct_Display
+mSIDs
+&
+NS_STYLE_INHERIT_BIT
+(
+Display
+)
 )
 {
 if

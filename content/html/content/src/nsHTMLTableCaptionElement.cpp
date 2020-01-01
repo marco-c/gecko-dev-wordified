@@ -777,10 +777,12 @@ if
 aData
 -
 >
-mSID
-=
-=
-eStyleStruct_TableBorder
+mSIDs
+&
+NS_STYLE_INHERIT_BIT
+(
+TableBorder
+)
 )
 {
 if
