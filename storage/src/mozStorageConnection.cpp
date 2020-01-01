@@ -2568,8 +2568,6 @@ Preload
 (
 )
 {
-/
-*
 int
 srv
 =
@@ -2584,18 +2582,6 @@ ConvertResultCode
 srv
 )
 ;
-*
-/
-return
-NS_OK
-;
-/
-/
-XXX
-restore
-after
-sqlite
-upgrade
 }
 /
 *
