@@ -889,6 +889,14 @@ aModType
 nsSVGOuterSVGFrame
 methods
 :
+void
+InvalidateCoveredRegion
+(
+nsIFrame
+*
+aFrame
+)
+;
 /
 *
 Invalidate
@@ -901,7 +909,7 @@ pixel
 coordinates
 *
 /
-nsresult
+void
 InvalidateRect
 (
 nsRect
