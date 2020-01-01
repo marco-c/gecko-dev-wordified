@@ -614,9 +614,10 @@ _cexit
 ;
 #
 endif
-FatalAppExit
+FatalAppExitW
 (
 0
+L
 "
 lcms
 is
