@@ -404,12 +404,6 @@ GetContext
 JS
 :
 :
-NullPtr
-(
-)
-JS
-:
-:
 NullValue
 (
 )

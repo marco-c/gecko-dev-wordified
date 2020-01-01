@@ -914,12 +914,6 @@ aCx
 JS
 :
 :
-NullPtr
-(
-)
-JS
-:
-:
 NullValue
 (
 )
