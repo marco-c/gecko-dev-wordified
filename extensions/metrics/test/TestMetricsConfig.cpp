@@ -488,17 +488,12 @@ nsILocalFile
 h
 "
 #
-ifndef
-MOZILLA_1_8_BRANCH
-#
 include
 "
 nsIClassInfoImpl
 .
 h
 "
-#
-endif
 #
 include
 <
