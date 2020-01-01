@@ -18029,11 +18029,7 @@ JS_ASSERT
 fun
 -
 >
-script
-(
-)
-.
-unsafeGet
+hasScript
 (
 )
 )
@@ -32893,11 +32889,7 @@ if
 fun
 -
 >
-script
-(
-)
-.
-unsafeGet
+hasScript
 (
 )
 )
