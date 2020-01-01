@@ -6393,7 +6393,7 @@ ShouldDoubleBuffer
 {
 #
 ifdef
-ANDROID
+MOZ_JAVA_COMPOSITOR
 /
 *
 Enable
