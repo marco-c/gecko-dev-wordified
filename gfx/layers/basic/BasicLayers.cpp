@@ -16410,12 +16410,6 @@ DestroySharedSurface
 mFrontBufferDescriptor
 )
 ;
-mFrontBufferDescriptor
-=
-SurfaceDescriptor
-(
-)
-;
 }
 }
 virtual
@@ -17301,9 +17295,7 @@ Disconnect
 (
 )
 {
-mFrontBuffer
-=
-SurfaceDescriptor
+DestroyFrontBuffer
 (
 )
 ;
@@ -17817,10 +17809,6 @@ BasicShadowCanvasLayer
 (
 )
 {
-DestroyFrontBuffer
-(
-)
-;
 MOZ_COUNT_DTOR
 (
 BasicShadowCanvasLayer
@@ -17833,9 +17821,7 @@ Disconnect
 (
 )
 {
-mFrontSurface
-=
-SurfaceDescriptor
+DestroyFrontBuffer
 (
 )
 ;
