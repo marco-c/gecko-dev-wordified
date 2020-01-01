@@ -1430,16 +1430,6 @@ imgFrame
 aFrame
 )
 ;
-void
-FrameUpdated
-(
-uint32_t
-aFrameNum
-nsIntRect
-&
-aUpdatedRect
-)
-;
 /
 *
 notification
