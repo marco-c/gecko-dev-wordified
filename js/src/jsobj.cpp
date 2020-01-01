@@ -31348,15 +31348,6 @@ slot
 value
 )
 ;
-/
-*
-XXXbe
-called
-with
-lock
-held
-*
-/
 if
 (
 !
