@@ -678,6 +678,9 @@ showAddress
 bool
 showThreads
 ;
+bool
+cleo
+;
 u_int
 stackDepth
 ;
