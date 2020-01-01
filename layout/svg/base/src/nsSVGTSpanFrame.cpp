@@ -1028,6 +1028,15 @@ nsGkAtoms
 :
 :
 dy
+|
+|
+aAttribute
+=
+=
+nsGkAtoms
+:
+:
+rotate
 )
 )
 {
