@@ -5383,6 +5383,8 @@ JS_NOT_REACHED
 VMCalls
 with
 double
+-
+size
 value
 arguments
 is
