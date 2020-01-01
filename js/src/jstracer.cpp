@@ -64844,10 +64844,9 @@ JS_ASSERT
 scope
 -
 >
-object
-=
-=
-obj
+owned
+(
+)
 )
 ;
 JS_ASSERT
