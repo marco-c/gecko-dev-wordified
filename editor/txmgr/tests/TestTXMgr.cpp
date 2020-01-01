@@ -5760,8 +5760,7 @@ printf
 "
 ERROR
 :
-~
-SimpleTransaction
+DoTransaction
 expected
 %
 d
@@ -5921,8 +5920,7 @@ printf
 "
 ERROR
 :
-~
-SimpleTransaction
+UndoTransaction
 expected
 %
 d
@@ -6082,8 +6080,7 @@ printf
 "
 ERROR
 :
-~
-SimpleTransaction
+RedoTransaction
 expected
 %
 d
