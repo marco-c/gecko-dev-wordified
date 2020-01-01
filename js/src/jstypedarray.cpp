@@ -1685,7 +1685,7 @@ obj
 >
 getFixedSlot
 (
-BufferView
+ArrayBufferViewObject
 :
 :
 NEXT_VIEW_SLOT
@@ -3371,7 +3371,7 @@ view
 >
 getFixedSlot
 (
-BufferView
+ArrayBufferViewObject
 :
 :
 NEXT_BUFFER_SLOT
@@ -3400,7 +3400,7 @@ view
 >
 setFixedSlot
 (
-BufferView
+ArrayBufferViewObject
 :
 :
 NEXT_BUFFER_SLOT
@@ -3574,7 +3574,7 @@ view
 >
 setFixedSlot
 (
-BufferView
+ArrayBufferViewObject
 :
 :
 NEXT_VIEW_SLOT
@@ -3588,7 +3588,7 @@ views
 WeakObjectSlotBarrierPost
 (
 view
-BufferView
+ArrayBufferViewObject
 :
 :
 NEXT_VIEW_SLOT
@@ -3642,7 +3642,7 @@ UNSET_BUFFER_LINK
 WeakObjectSlotBarrierPost
 (
 view
-BufferView
+ArrayBufferViewObject
 :
 :
 NEXT_BUFFER_SLOT
@@ -4856,7 +4856,7 @@ prior
 >
 setFixedSlot
 (
-BufferView
+ArrayBufferViewObject
 :
 :
 NEXT_VIEW_SLOT
@@ -5296,7 +5296,7 @@ view
 >
 setFixedSlot
 (
-BufferView
+ArrayBufferViewObject
 :
 :
 NEXT_VIEW_SLOT
@@ -8365,14 +8365,14 @@ because
 some
 of
 an
-ArrayBufferView
+ArrayBufferViewObject
 '
 s
 reserved
 slots
 are
-weak
 *
+weak
 references
 and
 some
@@ -8408,7 +8408,7 @@ obj
 >
 getReservedSlotRef
 (
-BufferView
+ArrayBufferViewObject
 :
 :
 BUFFER_SLOT
@@ -8467,7 +8467,7 @@ obj
 >
 getReservedSlot
 (
-BufferView
+ArrayBufferViewObject
 :
 :
 BYTEOFFSET_SLOT
@@ -8510,7 +8510,7 @@ obj
 >
 getReservedSlotRef
 (
-BufferView
+ArrayBufferViewObject
 :
 :
 NEXT_VIEW_SLOT
@@ -25987,7 +25987,7 @@ obj
 >
 getFixedSlot
 (
-BufferView
+ArrayBufferViewObject
 :
 :
 BUFFER_SLOT

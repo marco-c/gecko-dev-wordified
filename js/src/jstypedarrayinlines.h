@@ -156,12 +156,12 @@ value
 used
 to
 initialize
-ArrayBufferViews
+ArrayBufferViewObjects
 '
 NEXT_BUFFER_SLOTs
+/
+/
 to
-/
-/
 show
 that
 they
