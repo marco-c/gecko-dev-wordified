@@ -584,6 +584,10 @@ gfxFontStyle
 {
 gfxFontStyle
 (
+)
+;
+gfxFontStyle
+(
 PRUint8
 aStyle
 PRUint16
