@@ -555,7 +555,7 @@ RegExpStatics
 *
 res
 RegExpObject
-*
+&
 reobj
 JSLinearString
 *
@@ -585,10 +585,9 @@ cx
 RegExpStatics
 *
 res
-const
-RegExpMatcher
+RegExpShared
 &
-matcher
+shared
 JSLinearString
 *
 input
