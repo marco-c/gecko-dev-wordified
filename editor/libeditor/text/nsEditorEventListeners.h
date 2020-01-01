@@ -1382,7 +1382,7 @@ aDragEvent
 )
 ;
 nsresult
-DragStart
+DragGesture
 (
 nsIDOMDragEvent
 *

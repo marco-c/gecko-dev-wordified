@@ -2709,12 +2709,12 @@ eventType
 EqualsLiteral
 (
 "
-dragstart
+draggesture
 "
 )
 )
 return
-DragStart
+DragGesture
 (
 dragEvent
 )
@@ -2796,7 +2796,7 @@ nsresult
 nsTextEditorDragListener
 :
 :
-DragStart
+DragGesture
 (
 nsIDOMDragEvent
 *

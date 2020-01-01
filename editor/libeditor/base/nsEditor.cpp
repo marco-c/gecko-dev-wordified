@@ -2083,6 +2083,18 @@ if
 target
 )
 {
+/
+/
+See
+bug
+455215
+we
+cannot
+use
+the
+standard
+dragstart
+yet
 rv
 |
 =
@@ -2094,7 +2106,7 @@ AddEventListener
 NS_LITERAL_STRING
 (
 "
-dragstart
+draggesture
 "
 )
 mDragListenerP
@@ -2420,7 +2432,7 @@ RemoveEventListener
 NS_LITERAL_STRING
 (
 "
-dragstart
+draggesture
 "
 )
 mDragListenerP
