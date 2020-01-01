@@ -5636,7 +5636,7 @@ unknownProperties
 )
 )
 {
-HeapTypeSet
+TypeSet
 *
 bufferIndexTypes
 =
@@ -5650,7 +5650,7 @@ JSID_VOID
 false
 )
 ;
-HeapTypeSet
+TypeSet
 *
 resultIndexTypes
 =

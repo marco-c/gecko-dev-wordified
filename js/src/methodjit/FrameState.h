@@ -4646,7 +4646,7 @@ initObject
 types
 :
 :
-StackTypeSet
+TypeSet
 *
 types
 ;

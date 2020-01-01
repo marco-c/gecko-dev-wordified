@@ -264,18 +264,6 @@ a
 >
 parent
 ;
-if
-(
-a
--
->
-script
--
->
-hasAnalysis
-(
-)
-)
 a
 -
 >
@@ -3854,7 +3842,7 @@ alloc
 cx
 -
 >
-analysisLifoAlloc
+typeLifoAlloc
 (
 )
 .
@@ -4357,7 +4345,7 @@ fe
 types
 :
 :
-StackTypeSet
+TypeSet
 *
 types
 =
@@ -4382,6 +4370,7 @@ types
 >
 getKnownTypeTag
 (
+cx
 )
 !
 =
@@ -6175,7 +6164,7 @@ alloc
 cx
 -
 >
-analysisLifoAlloc
+typeLifoAlloc
 (
 )
 .
