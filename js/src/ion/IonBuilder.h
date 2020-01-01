@@ -1545,7 +1545,10 @@ MBasicBlock
 header
 jsbytecode
 *
-pc
+loopHead
+jsbytecode
+*
+loopEntry
 )
 ;
 MBasicBlock
