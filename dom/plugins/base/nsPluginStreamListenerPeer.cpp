@@ -4818,7 +4818,7 @@ NS_NATIVE_PLUGIN_PORT
 }
 #
 endif
-mOwner
+owner
 -
 >
 SetWindow
