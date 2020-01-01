@@ -607,7 +607,7 @@ true
 )
 ;
 virtual
-nsresult
+void
 DoneAddingChildren
 (
 bool
@@ -951,7 +951,7 @@ aNullParent
 )
 ;
 }
-nsresult
+void
 nsHTMLTitleElement
 :
 :
@@ -973,9 +973,6 @@ false
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 nsHTMLTitleElement

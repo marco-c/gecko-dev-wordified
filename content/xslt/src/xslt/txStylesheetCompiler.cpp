@@ -1428,7 +1428,7 @@ mElementContext
 >
 mPreserveWhitespace
 =
-MB_TRUE
+true
 ;
 }
 else
@@ -1452,7 +1452,7 @@ mElementContext
 >
 mPreserveWhitespace
 =
-MB_FALSE
+false
 ;
 }
 else
@@ -1829,7 +1829,7 @@ mElementContext
 >
 mForwardsCompatibleParsing
 =
-MB_FALSE
+false
 ;
 }
 else
@@ -1839,7 +1839,7 @@ mElementContext
 >
 mForwardsCompatibleParsing
 =
-MB_TRUE
+true
 ;
 }
 }
@@ -1853,10 +1853,10 @@ elementhandler
 and
 execute
 it
-MBool
+bool
 isInstruction
 =
-MB_FALSE
+false
 ;
 PRInt32
 count
@@ -1901,7 +1901,7 @@ aNamespaceID
 {
 isInstruction
 =
-MB_TRUE
+true
 ;
 break
 ;

@@ -22676,16 +22676,6 @@ nsIContent
 >
 content
 ;
-PRInt32
-ns
-=
-newNodeInfo
--
->
-NamespaceID
-(
-)
-;
 nsCOMPtr
 <
 nsINodeInfo
@@ -22702,7 +22692,6 @@ getter_AddRefs
 (
 content
 )
-ns
 newNodeInfo
 .
 forget

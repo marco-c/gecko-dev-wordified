@@ -594,7 +594,7 @@ xsl
 number
 *
 /
-MBool
+bool
 txUnionPattern
 :
 :
@@ -650,12 +650,12 @@ aContext
 )
 {
 return
-MB_TRUE
+true
 ;
 }
 }
 return
-MB_FALSE
+false
 ;
 }
 txPattern
@@ -908,7 +908,7 @@ return
 NS_OK
 ;
 }
-MBool
+bool
 txLocPathPattern
 :
 :
@@ -1108,7 +1108,7 @@ aContext
 )
 )
 return
-MB_FALSE
+false
 ;
 txXPathTreeWalker
 walker
@@ -1139,7 +1139,7 @@ if
 pos
 )
 return
-MB_TRUE
+true
 ;
 /
 /
@@ -1180,7 +1180,7 @@ aContext
 )
 )
 return
-MB_FALSE
+false
 ;
 /
 /
@@ -1232,7 +1232,7 @@ if
 hasParent
 )
 return
-MB_FALSE
+false
 ;
 /
 /
@@ -1373,7 +1373,7 @@ walker
 }
 }
 return
-MB_TRUE
+true
 ;
 }
 /
@@ -1648,7 +1648,7 @@ or
 '
 *
 /
-MBool
+bool
 txRootPattern
 :
 :
@@ -1869,7 +1869,7 @@ atom
 ;
 }
 }
-MBool
+bool
 txIdPattern
 :
 :
@@ -2176,7 +2176,7 @@ argument
 .
 *
 /
-MBool
+bool
 txKeyPattern
 :
 :
@@ -2451,7 +2451,7 @@ a
 StepPattern
 *
 /
-MBool
+bool
 txStepPattern
 :
 :
@@ -2488,7 +2488,7 @@ aContext
 )
 )
 return
-MB_FALSE
+false
 ;
 txXPathTreeWalker
 walker
@@ -2526,7 +2526,7 @@ moveToParent
 )
 {
 return
-MB_FALSE
+false
 ;
 }
 if
@@ -2537,7 +2537,7 @@ isEmpty
 )
 {
 return
-MB_TRUE
+true
 ;
 }
 /
@@ -2610,7 +2610,7 @@ member
 of
 newNodes
 return
-MB_FALSE
+false
 *
 nodes
 =
@@ -2687,7 +2687,7 @@ nodes
 NS_ENSURE_SUCCESS
 (
 rv
-MB_FALSE
+false
 )
 ;
 bool
@@ -2794,7 +2794,7 @@ newNodes
 NS_ENSURE_SUCCESS
 (
 rv
-MB_FALSE
+false
 )
 ;
 PRUint32
@@ -2829,10 +2829,10 @@ clear
 (
 )
 ;
-MBool
+bool
 contextIsInPredicate
 =
-MB_FALSE
+false
 ;
 txNodeSetContext
 predContext
@@ -2953,7 +2953,7 @@ aNode
 )
 contextIsInPredicate
 =
-MB_TRUE
+true
 ;
 newNodes
 -
@@ -2998,7 +2998,7 @@ aNode
 )
 contextIsInPredicate
 =
-MB_TRUE
+true
 ;
 newNodes
 -
@@ -3045,7 +3045,7 @@ contextIsInPredicate
 )
 {
 return
-MB_FALSE
+false
 ;
 }
 predicate

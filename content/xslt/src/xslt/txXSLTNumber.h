@@ -618,7 +618,7 @@ aWalker
 )
 ;
 static
-MBool
+bool
 isAlphaNumeric
 (
 PRUnichar

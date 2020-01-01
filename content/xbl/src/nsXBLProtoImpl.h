@@ -580,7 +580,7 @@ nsIXPConnectJSObjectHolder
 *
 *
 aScriptObjectHolder
-void
+JSObject
 *
 *
 aTargetClassObject
@@ -836,7 +836,7 @@ class
 .
 protected
 :
-void
+JSObject
 *
 mClassObject
 ;

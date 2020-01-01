@@ -488,6 +488,13 @@ jsgcinlines
 .
 h
 "
+#
+include
+"
+jsobjinlines
+.
+h
+"
 using
 namespace
 mozilla

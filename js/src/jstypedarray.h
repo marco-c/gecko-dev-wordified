@@ -465,6 +465,15 @@ jsclass
 .
 h
 "
+#
+include
+"
+gc
+/
+Barrier
+.
+h
+"
 typedef
 struct
 JSProperty

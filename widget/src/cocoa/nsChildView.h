@@ -3127,9 +3127,6 @@ CaptureRollupEvents
 nsIRollupListener
 *
 aListener
-nsIMenuRollup
-*
-aMenuRollup
 bool
 aDoCapture
 bool

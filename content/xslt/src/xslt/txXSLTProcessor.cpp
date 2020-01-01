@@ -491,7 +491,7 @@ TX_LG_IMPL
 static
 *
 /
-MBool
+bool
 txXSLTProcessor
 :
 :
@@ -512,7 +512,7 @@ init
 )
 )
 return
-MB_FALSE
+false
 ;
 extern
 bool
@@ -528,10 +528,10 @@ TX_InitEXSLTFunction
 )
 )
 return
-MB_FALSE
+false
 ;
 return
-MB_TRUE
+true
 ;
 }
 /

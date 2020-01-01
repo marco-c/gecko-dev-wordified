@@ -9421,10 +9421,11 @@ load32
 Address
 (
 T0
-offsetof
-(
 JSObject
-initializedLength
+:
+:
+offsetOfInitializedLength
+(
 )
 )
 T0

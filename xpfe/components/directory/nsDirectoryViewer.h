@@ -469,9 +469,6 @@ nsIContentViewer
 h
 "
 #
-ifdef
-MOZ_RDF
-#
 include
 "
 nsIHTTPIndex
@@ -499,8 +496,6 @@ nsIRDFLiteral
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -576,9 +571,6 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOCUMENTLOADERFACTORY
 }
 ;
-#
-ifdef
-MOZ_RDF
 class
 nsHTTPIndex
 :
@@ -948,8 +940,6 @@ nsIHTTPIndex
 )
 }
 ;
-#
-endif
 /
 /
 {

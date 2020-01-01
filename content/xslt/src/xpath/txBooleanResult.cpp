@@ -463,13 +463,13 @@ value
 of
 the
 given
-MBool
+bool
 parameter
 *
 param
 boolean
 the
-MBool
+bool
 to
 use
 for
@@ -633,7 +633,7 @@ return
 nsnull
 ;
 }
-MBool
+bool
 BooleanResult
 :
 :

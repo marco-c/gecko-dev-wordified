@@ -1002,7 +1002,7 @@ be
 made
 *
 return
-MB_TRUE
+true
 if
 a
 successful
@@ -1018,11 +1018,11 @@ be
 made
 *
 otherwise
-MB_FALSE
+false
 *
 *
 /
-MBool
+bool
 hasNext
 (
 )
@@ -1048,7 +1048,7 @@ be
 made
 *
 return
-MB_TRUE
+true
 if
 a
 successful
@@ -1064,11 +1064,11 @@ be
 made
 *
 otherwise
-MB_FALSE
+false
 *
 *
 /
-MBool
+bool
 hasPrevious
 (
 )
@@ -1286,7 +1286,7 @@ end
 of
 the
 list
-MBool
+bool
 atEndOfList
 ;
 }

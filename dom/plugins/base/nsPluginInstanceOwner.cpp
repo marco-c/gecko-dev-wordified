@@ -929,7 +929,7 @@ h
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -8051,7 +8051,7 @@ PARAM
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 /
 /
 Flash
@@ -10309,7 +10309,7 @@ endif
 }
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 void
 nsPluginInstanceOwner
 :
@@ -10534,7 +10534,7 @@ aFocusEvent
 {
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 {
 ANPEvent
 event
@@ -15612,7 +15612,7 @@ nsEventStatus_eConsumeNoDefault
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 /
 /
 this
@@ -16992,7 +16992,7 @@ true
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 RemovePluginView
 (
 )
@@ -17594,7 +17594,7 @@ nsnull
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 void
 nsPluginInstanceOwner
 :
@@ -22344,7 +22344,7 @@ height
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 if
 (
 mInstance
@@ -22414,7 +22414,7 @@ bottom
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 if
 (
 mInstance

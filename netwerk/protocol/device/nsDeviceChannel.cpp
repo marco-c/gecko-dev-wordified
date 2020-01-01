@@ -463,7 +463,7 @@ h
 "
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -1019,7 +1019,7 @@ bpp
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 capture
 =
 GetAndroidCaptureProvider
@@ -1196,7 +1196,7 @@ frameLimit
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 /
 /
 only

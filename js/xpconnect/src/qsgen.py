@@ -4372,6 +4372,7 @@ wstring
 :
         
 "
+const
 PRUnichar
 *
 {

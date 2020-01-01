@@ -8184,6 +8184,8 @@ aRequest
 nsIURI
 *
 aUri
+PRUint32
+aFlags
 )
 {
 /
@@ -8350,6 +8352,7 @@ OnLocationChange
 aWebProgress
 aRequest
 aUri
+aFlags
 )
 ;
 }
@@ -8384,6 +8387,7 @@ FireOnLocationChange
 aWebProgress
 aRequest
 aUri
+aFlags
 )
 ;
 }

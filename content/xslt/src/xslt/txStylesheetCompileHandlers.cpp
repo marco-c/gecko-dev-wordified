@@ -6117,7 +6117,7 @@ new
 txText
 (
 aStr
-MB_FALSE
+false
 )
 )
 ;
@@ -10449,7 +10449,7 @@ aState
 .
 mDOE
 =
-MB_FALSE
+false
 ;
 aState
 .
@@ -13195,7 +13195,7 @@ nsnull
 /
 /
 static
-MBool
+bool
 txHandlerTable
 :
 :
@@ -13289,7 +13289,7 @@ Fallback
 )
 ;
 return
-MB_TRUE
+true
 ;
 }
 /

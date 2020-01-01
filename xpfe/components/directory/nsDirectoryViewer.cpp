@@ -574,9 +574,6 @@ nsIEnumerator
 h
 "
 #
-ifdef
-MOZ_RDF
-#
 include
 "
 nsIRDFService
@@ -597,8 +594,6 @@ rdf
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -881,9 +876,6 @@ Common
 CIDs
 /
 /
-#
-ifdef
-MOZ_RDF
 static
 NS_DEFINE_CID
 (
@@ -891,8 +883,6 @@ kRDFServiceCID
 NS_RDFSERVICE_CID
 )
 ;
-#
-endif
 /
 /
 Various
@@ -995,9 +985,6 @@ ftp
 nsHTTPIndex
 /
 /
-#
-ifdef
-MOZ_RDF
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsHTTPIndex
@@ -7474,13 +7461,6 @@ rv
 )
 ;
 }
-#
-endif
-/
-*
-MOZ_RDF
-*
-/
 /
 /
 -
@@ -7639,9 +7619,6 @@ source
 0
 )
 ;
-#
-ifdef
-MOZ_RDF
 if
 (
 !
@@ -8129,8 +8106,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 /
 /
 setup

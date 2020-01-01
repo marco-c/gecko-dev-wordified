@@ -451,7 +451,7 @@ txTextHandler
 :
 txTextHandler
 (
-MBool
+bool
 aOnlyText
 )
 :

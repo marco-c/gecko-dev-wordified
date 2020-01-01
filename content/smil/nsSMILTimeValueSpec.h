@@ -882,6 +882,15 @@ nsSMILTimeContainer
 aSrcContainer
 )
 ;
+bool
+ApplyOffset
+(
+nsSMILTimeValue
+&
+aTime
+)
+const
+;
 nsSMILTimedElement
 *
 mOwner

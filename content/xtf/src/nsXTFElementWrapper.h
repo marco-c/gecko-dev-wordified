@@ -795,7 +795,7 @@ BeginAddingChildren
 )
 ;
 virtual
-nsresult
+void
 DoneAddingChildren
 (
 bool

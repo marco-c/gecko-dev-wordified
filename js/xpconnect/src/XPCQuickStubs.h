@@ -2712,6 +2712,7 @@ v
 jsval
 *
 pval
+const
 PRUnichar
 *
 *

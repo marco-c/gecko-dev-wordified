@@ -642,10 +642,10 @@ aSelectExpr
 /
 /
 Order
-MBool
+bool
 ascending
 =
-MB_TRUE
+true
 ;
 if
 (
@@ -686,7 +686,7 @@ descending
 {
 ascending
 =
-MB_FALSE
+false
 ;
 }
 else
@@ -805,7 +805,7 @@ rv
 Case
 -
 order
-MBool
+bool
 upperFirst
 =
 false

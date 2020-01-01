@@ -459,6 +459,15 @@ jswrapper_h___
 #
 include
 "
+mozilla
+/
+Types
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -559,6 +568,7 @@ PropertyDescriptor
 *
 desc
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -578,6 +588,7 @@ PropertyDescriptor
 *
 desc
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -595,6 +606,7 @@ PropertyDescriptor
 *
 desc
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -610,6 +622,7 @@ AutoIdVector
 &
 props
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -627,6 +640,7 @@ bool
 *
 bp
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -642,6 +656,7 @@ AutoIdVector
 &
 props
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -657,6 +672,7 @@ Value
 *
 vp
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -684,6 +700,7 @@ bool
 *
 bp
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -701,6 +718,7 @@ bool
 *
 bp
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -721,6 +739,7 @@ Value
 *
 vp
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -743,6 +762,7 @@ Value
 *
 vp
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -758,6 +778,7 @@ AutoIdVector
 &
 props
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -775,6 +796,7 @@ Value
 *
 vp
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -799,6 +821,7 @@ Value
 *
 vp
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -819,6 +842,7 @@ Value
 *
 rval
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -838,6 +862,7 @@ native
 CallArgs
 args
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -857,6 +882,7 @@ bool
 *
 bp
 )
+MOZ_OVERRIDE
 ;
 virtual
 JSType
@@ -869,6 +895,7 @@ JSObject
 *
 proxy
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -883,6 +910,7 @@ JSContext
 *
 cx
 )
+MOZ_OVERRIDE
 ;
 virtual
 JSString
@@ -896,6 +924,7 @@ JSObject
 *
 wrapper
 )
+MOZ_OVERRIDE
 ;
 virtual
 JSString
@@ -911,6 +940,7 @@ wrapper
 uintN
 indent
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -928,6 +958,7 @@ Value
 *
 vp
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -940,6 +971,7 @@ JSObject
 *
 wrapper
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1122,6 +1154,7 @@ PropertyDescriptor
 *
 desc
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1141,6 +1174,7 @@ PropertyDescriptor
 *
 desc
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1158,6 +1192,7 @@ PropertyDescriptor
 *
 desc
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1173,6 +1208,7 @@ AutoIdVector
 &
 props
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1190,6 +1226,7 @@ bool
 *
 bp
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1205,6 +1242,7 @@ AutoIdVector
 &
 props
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1232,6 +1270,7 @@ bool
 *
 bp
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1249,6 +1288,7 @@ bool
 *
 bp
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1269,6 +1309,7 @@ Value
 *
 vp
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1291,6 +1332,7 @@ Value
 *
 vp
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1306,6 +1348,7 @@ AutoIdVector
 &
 props
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1323,6 +1366,7 @@ Value
 *
 vp
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1347,6 +1391,7 @@ Value
 *
 vp
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1367,6 +1412,7 @@ Value
 *
 rval
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1386,6 +1432,7 @@ native
 CallArgs
 args
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1405,6 +1452,7 @@ bool
 *
 bp
 )
+MOZ_OVERRIDE
 ;
 virtual
 JSString
@@ -1418,6 +1466,7 @@ JSObject
 *
 wrapper
 )
+MOZ_OVERRIDE
 ;
 virtual
 JSString
@@ -1433,6 +1482,7 @@ wrapper
 uintN
 indent
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1450,6 +1500,7 @@ Value
 *
 vp
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1462,6 +1513,7 @@ JSObject
 *
 wrapper
 )
+MOZ_OVERRIDE
 ;
 static
 CrossCompartmentWrapper
@@ -1585,6 +1637,7 @@ native
 CallArgs
 args
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1599,6 +1652,7 @@ JSContext
 *
 cx
 )
+MOZ_OVERRIDE
 ;
 }
 ;

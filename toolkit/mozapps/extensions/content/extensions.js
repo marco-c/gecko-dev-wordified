@@ -11384,6 +11384,7 @@ function
 aWebProgress
 aRequest
 aLocation
+aFlags
 )
 {
 /
@@ -17841,6 +17842,14 @@ _addon
 optionsURL
 false
 )
+;
+xhr
+.
+responseType
+=
+"
+document
+"
 ;
 xhr
 .

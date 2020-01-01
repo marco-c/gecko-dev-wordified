@@ -910,13 +910,10 @@ WINAPI
 DWriteCreateFactoryFunc
 )
 (
-__in
 DWRITE_FACTORY_TYPE
 factoryType
-__in
 REFIID
 iid
-__out
 IUnknown
 *
 *

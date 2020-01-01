@@ -975,10 +975,6 @@ get
 )
 mLineNumber
 JSVERSION_LATEST
-(
-void
-*
-)
 &
 result
 &
@@ -992,9 +988,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 if
 (
 undefined

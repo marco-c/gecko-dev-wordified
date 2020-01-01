@@ -948,13 +948,11 @@ this
 parser
 *
 /
-NS_IMETHOD
-GetStreamListener
-(
+virtual
 nsIStreamListener
 *
-*
-aListener
+GetStreamListener
+(
 )
 ;
 /

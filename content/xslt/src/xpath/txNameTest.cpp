@@ -672,7 +672,7 @@ _asterix
 mPrefix
 )
 return
-MB_TRUE
+true
 ;
 /
 /
@@ -710,7 +710,7 @@ aNode
 )
 )
 return
-MB_FALSE
+false
 ;
 /
 /
@@ -728,7 +728,7 @@ nsGkAtoms
 _asterix
 )
 return
-MB_TRUE
+true
 ;
 /
 /

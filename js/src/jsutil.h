@@ -1081,6 +1081,8 @@ AlreadyIncRefed
 RefCountable
 *
 obj
+=
+NULL
 )
 :
 obj
@@ -1199,6 +1201,8 @@ NeedsIncRef
 RefCountable
 *
 obj
+=
+NULL
 )
 :
 obj

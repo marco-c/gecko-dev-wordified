@@ -2499,6 +2499,13 @@ document
 NS_ERROR_NOT_AVAILABLE
 )
 ;
+document
+-
+>
+FlushPendingLinkUpdates
+(
+)
+;
 nsCSSProperty
 prop
 =

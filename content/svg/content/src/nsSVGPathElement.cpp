@@ -3182,7 +3182,7 @@ gfxFloat
 nsSVGPathElement
 :
 :
-GetScale
+GetPathLengthScale
 (
 )
 {

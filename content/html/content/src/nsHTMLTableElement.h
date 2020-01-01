@@ -716,6 +716,14 @@ tfoot
 )
 ;
 }
+already_AddRefed
+<
+nsIDOMHTMLTableCaptionElement
+>
+GetCaption
+(
+)
+;
 nsContentList
 *
 TBodies

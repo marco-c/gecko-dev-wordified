@@ -10939,13 +10939,13 @@ location
 loadInSidebar
 "
 "
-folderPicker
-"
-"
 keyword
 "
 ]
 }
+window
+.
+top
 )
 ;
 }
@@ -10970,6 +10970,9 @@ itemId
 :
 itemId
 }
+window
+.
+top
 )
 ;
 }

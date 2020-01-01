@@ -2110,7 +2110,7 @@ len
 (
 tests
 )
-16
+24
 )
         
 except
@@ -2123,6 +2123,10 @@ failures
 =
 [
 ]
+    
+timeouts
+=
+0
     
 complete
 =
@@ -2202,6 +2206,15 @@ code
 timed_out
 ]
 )
+            
+if
+timed_out
+:
+                
+timeouts
++
+=
+1
             
 if
 OPTIONS
@@ -2326,6 +2339,9 @@ label
 |
 %
 4d
+|
+%
+4d
 ]
 '
 %
@@ -2340,6 +2356,7 @@ len
 (
 failures
 )
+timeouts
 n
 )
                 

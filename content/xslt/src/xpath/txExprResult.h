@@ -711,7 +711,7 @@ to
 a
 Boolean
 (
-MBool
+bool
 )
 value
 *
@@ -723,7 +723,7 @@ value
 *
 /
 virtual
-MBool
+bool
 booleanValue
 (
 )
@@ -827,14 +827,14 @@ public
 :
 BooleanResult
 (
-MBool
+bool
 aValue
 )
 ;
 TX_DECL_EXPRRESULT
 private
 :
-MBool
+bool
 value
 ;
 }

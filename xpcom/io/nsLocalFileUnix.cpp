@@ -886,7 +886,7 @@ h
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -10227,7 +10227,7 @@ NS_ERROR_FAILURE
 elif
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 /
 /

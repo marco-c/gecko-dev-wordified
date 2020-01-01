@@ -18964,7 +18964,6 @@ CompileScript
 (
 aText
 aTextLength
-nsnull
 /
 /
 Use

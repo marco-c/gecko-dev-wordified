@@ -1127,6 +1127,11 @@ OnDiscard
 (
 )
 ;
+void
+OnImageIsAnimated
+(
+)
+;
 /
 *
 non

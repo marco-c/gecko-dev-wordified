@@ -10702,6 +10702,12 @@ blockFrame
 frameType
 &
 &
+rs
+-
+>
+parentReflowState
+&
+&
 nsGkAtoms
 :
 :
