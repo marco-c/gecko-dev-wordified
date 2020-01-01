@@ -41375,7 +41375,11 @@ parentFrame
 >
 RemoveStateBits
 (
-0xffffffff
+~
+nsFrameState
+(
+0
+)
 )
 ;
 parentFrame
