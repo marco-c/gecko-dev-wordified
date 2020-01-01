@@ -660,6 +660,17 @@ manually
 escape
 them
 .
+/
+/
+This
+replacement
+should
+be
+removed
+in
+bug
+#
+473280
 escPath
 .
 ReplaceSubstring
