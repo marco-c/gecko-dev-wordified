@@ -568,7 +568,7 @@ newsize
 ;
 virtual
 bool
-AnswerNPP_StreamAsFile
+RecvNPP_StreamAsFile
 (
 const
 nsCString
@@ -1049,6 +1049,12 @@ mDestroyPending
 ;
 bool
 mNotifyPending
+;
+bool
+mStreamAsFilePending
+;
+nsCString
+mStreamAsFileName
 ;
 /
 /
