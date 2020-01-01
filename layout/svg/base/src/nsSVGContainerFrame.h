@@ -639,7 +639,6 @@ NS_DECLARE_FRAME_ACCESSOR
 (
 nsSVGDisplayContainerFrame
 )
-;
 NS_DECL_QUERYFRAME
 /
 /
