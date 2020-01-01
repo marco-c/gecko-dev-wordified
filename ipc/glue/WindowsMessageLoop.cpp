@@ -1668,6 +1668,9 @@ case
 WM_SYSCOMMAND
 :
 case
+WM_DISPLAYCHANGE
+:
+case
 WM_SHOWWINDOW
 :
 /
