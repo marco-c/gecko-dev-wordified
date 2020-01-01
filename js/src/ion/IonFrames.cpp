@@ -2813,17 +2813,10 @@ masm
 {
 returnPointDisplacement_
 =
-(
-uint32
-)
 masm
 .
 actualOffset
 (
-(
-uint8
-*
-)
 returnPointDisplacement_
 )
 ;

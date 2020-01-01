@@ -11250,10 +11250,6 @@ masm
 .
 actualOffset
 (
-(
-uint8
-*
-)
 invalidate_
 .
 offset

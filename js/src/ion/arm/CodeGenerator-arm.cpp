@@ -777,10 +777,6 @@ masm
 >
 actualOffset
 (
-(
-uint8
-*
-)
 offset
 )
 )
