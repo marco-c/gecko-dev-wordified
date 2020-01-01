@@ -620,6 +620,15 @@ index
 ;
 void
 JS_FASTCALL
+GetProp
+(
+VMFrame
+&
+f
+)
+;
+void
+JS_FASTCALL
 GetElem
 (
 VMFrame
