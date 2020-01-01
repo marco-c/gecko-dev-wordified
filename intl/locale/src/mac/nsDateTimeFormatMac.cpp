@@ -163,13 +163,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsUnicharUtils
 .
 h

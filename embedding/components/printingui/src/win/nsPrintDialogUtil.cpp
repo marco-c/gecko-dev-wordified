@@ -299,13 +299,6 @@ lib
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 plstr
 .
 h

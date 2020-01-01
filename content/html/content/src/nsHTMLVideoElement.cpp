@@ -194,13 +194,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsXPCOMStrings
 .
 h

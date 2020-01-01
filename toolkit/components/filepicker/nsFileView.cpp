@@ -168,13 +168,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsPrintfCString
 .
 h

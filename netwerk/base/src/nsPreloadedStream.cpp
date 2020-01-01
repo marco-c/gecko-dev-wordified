@@ -121,13 +121,6 @@ nsAlgorithm
 .
 h
 "
-#
-include
-"
-prmem
-.
-h
-"
 namespace
 mozilla
 {

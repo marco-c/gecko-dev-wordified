@@ -199,13 +199,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsDOMCID
 .
 h

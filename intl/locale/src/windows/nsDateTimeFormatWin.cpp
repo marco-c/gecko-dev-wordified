@@ -157,13 +157,6 @@ nsCOMPtr
 h
 "
 #
-include
-"
-prmem
-.
-h
-"
-#
 define
 NSDATETIMEFORMAT_BUFFER_LEN
 80

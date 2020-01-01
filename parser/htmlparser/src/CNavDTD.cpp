@@ -270,13 +270,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h

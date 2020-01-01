@@ -93,13 +93,6 @@ MPL
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 gfxAlphaRecovery
 .
 h
