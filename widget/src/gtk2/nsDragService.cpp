@@ -10003,11 +10003,7 @@ return
 }
 }
 }
-/
-*
 static
-*
-/
 void
 invisibleSourceDragDataGet
 (
@@ -10062,11 +10058,7 @@ aTime
 )
 ;
 }
-/
-*
 static
-*
-/
 gboolean
 invisibleSourceDragFailed
 (
@@ -10207,11 +10199,7 @@ return
 FALSE
 ;
 }
-/
-*
 static
-*
-/
 void
 invisibleSourceDragEnd
 (
