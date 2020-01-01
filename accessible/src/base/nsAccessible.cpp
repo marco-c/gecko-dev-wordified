@@ -12768,11 +12768,13 @@ nsCOMPtr
 nsIContent
 >
 content
-(
-do_QueryInterface
+=
+nsCoreUtils
+:
+:
+GetRoleContent
 (
 mDOMNode
-)
 )
 ;
 NS_ENSURE_STATE
