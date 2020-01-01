@@ -14570,11 +14570,7 @@ shift
 ;
 ShiftFromRef
 (
-queryLen
--
-mQuery
-.
-mLen
+shift
 )
 ;
 }
