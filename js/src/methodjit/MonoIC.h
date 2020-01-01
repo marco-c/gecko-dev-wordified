@@ -649,7 +649,7 @@ load
 JSC
 :
 :
-CodeLocationDataLabelPtr
+CodeLocationDataLabel32
 shape
 ;
 JSC
@@ -1043,6 +1043,17 @@ endif
 JS_CPU_X86
 *
 /
+void
+PurgeMICs
+(
+JSContext
+*
+cx
+JSScript
+*
+script
+)
+;
 }
 /
 *
