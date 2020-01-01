@@ -3993,8 +3993,8 @@ height
 0
 .
 0f
-&
-&
+|
+|
 viewBox
 .
 width
