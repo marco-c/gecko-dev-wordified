@@ -45,7 +45,7 @@ services
 -
 sync
 /
-AddonsReconciler
+addonsreconciler
 .
 js
 "
