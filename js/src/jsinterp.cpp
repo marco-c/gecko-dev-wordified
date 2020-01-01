@@ -6601,9 +6601,10 @@ here
 .
 *
 /
-static
-inline
 bool
+js
+:
+:
 IteratorMore
 (
 JSContext
@@ -6711,9 +6712,10 @@ return
 true
 ;
 }
-static
-inline
 bool
+js
+:
+:
 IteratorNext
 (
 JSContext
