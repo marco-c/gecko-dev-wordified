@@ -13585,7 +13585,7 @@ aTagName
 nsGkAtoms
 :
 :
-generic
+generic_
 )
 {
 return
