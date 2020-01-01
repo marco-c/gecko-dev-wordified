@@ -4023,8 +4023,6 @@ errno
 )
 )
 ;
-return
-;
 }
 hal
 :
