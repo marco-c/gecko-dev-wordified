@@ -10210,10 +10210,6 @@ RasterImage
 :
 NewSourceData
 (
-const
-char
-*
-aMimeType
 )
 {
 nsresult
@@ -10450,13 +10446,6 @@ false
 mHasSourceData
 =
 false
-;
-mSourceDataMimeType
-.
-Assign
-(
-aMimeType
-)
 ;
 /
 /

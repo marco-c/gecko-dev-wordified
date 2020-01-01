@@ -1836,10 +1836,6 @@ add
 nsresult
 NewSourceData
 (
-const
-char
-*
-aMimeType
 )
 ;
 /

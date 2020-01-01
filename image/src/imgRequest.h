@@ -377,6 +377,9 @@ char
 buf
 uint32_t
 len
+nsACString
+&
+newType
 )
 ;
 /
@@ -1381,6 +1384,11 @@ mIsInCache
 ;
 bool
 mBlockingOnload
+:
+1
+;
+bool
+mResniffMimeType
 :
 1
 ;
