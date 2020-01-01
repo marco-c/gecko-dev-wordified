@@ -244,8 +244,6 @@ about
 :
 memory
 ?
-verbose
-&
 diff
 "
 .
