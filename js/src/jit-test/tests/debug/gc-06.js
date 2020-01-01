@@ -58,8 +58,7 @@ getDebuggees
 .
 length
 <
-=
-4
+10
 true
 )
 ;
