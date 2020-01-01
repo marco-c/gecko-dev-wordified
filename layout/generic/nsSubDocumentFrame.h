@@ -656,6 +656,11 @@ GetSubdocumentRootFrame
 (
 )
 ;
+nsIntSize
+GetSubdocumentSize
+(
+)
+;
 /
 /
 nsIReflowCallback
