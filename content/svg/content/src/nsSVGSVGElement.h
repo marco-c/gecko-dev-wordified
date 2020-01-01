@@ -1539,9 +1539,7 @@ PRUint16
 aValue
 )
 ;
-const
 PRUint16
-*
 GetZoomAndPanProperty
 (
 )
@@ -2213,9 +2211,6 @@ mPreviousTranslate
 float
 mPreviousScale
 ;
-PRInt32
-mRedrawSuspendCount
-;
 /
 /
 For
@@ -2293,6 +2288,9 @@ mIsPaintingSVGImageElement
 ;
 bool
 mHasChildrenOnlyTransform
+;
+bool
+mUseCurrentView
 ;
 }
 ;
