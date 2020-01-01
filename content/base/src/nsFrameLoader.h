@@ -510,6 +510,9 @@ nsIContent
 class
 nsIURI
 ;
+#
+ifdef
+MOZ_IPC
 namespace
 mozilla
 {
@@ -521,6 +524,8 @@ TabParent
 ;
 }
 }
+#
+endif
 class
 nsFrameLoader
 :
@@ -560,6 +565,9 @@ mInSwap
 (
 PR_FALSE
 )
+#
+ifdef
+MOZ_IPC
 mChildProcess
 (
 nsnull
@@ -568,6 +576,8 @@ mTriedNewProcess
 (
 PR_FALSE
 )
+#
+endif
 {
 }
 ~
@@ -714,6 +724,9 @@ nsIURI
 aURI
 )
 ;
+#
+ifdef
+MOZ_IPC
 /
 /
 True
@@ -731,6 +744,8 @@ TryNewProcess
 (
 )
 ;
+#
+endif
 nsCOMPtr
 <
 nsIDocShell
@@ -775,6 +790,9 @@ mInSwap
 :
 1
 ;
+#
+ifdef
+MOZ_IPC
 /
 /
 XXX
@@ -792,6 +810,8 @@ mChildProcess
 PRBool
 mTriedNewProcess
 ;
+#
+endif
 }
 ;
 #

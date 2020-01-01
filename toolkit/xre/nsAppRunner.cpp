@@ -1352,6 +1352,9 @@ reporter
 #
 endif
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 base
@@ -1416,6 +1419,8 @@ ipc
 :
 GeckoThread
 ;
+#
+endif
 /
 /
 on
@@ -17225,6 +17230,9 @@ MOZ_SPLASHSCREEN_UPDATE
 20
 )
 ;
+#
+ifdef
+MOZ_IPC
 /
 /
 Set
@@ -17249,6 +17257,8 @@ gArgv
 MessageLoopForUI
 mainMessageLoop
 ;
+#
+endif
 {
 nsXREDirProvider
 dirProvider
@@ -20153,6 +20163,9 @@ NS_ERROR_FAILURE
 }
 #
 endif
+#
+ifdef
+MOZ_IPC
 scoped_ptr
 <
 base
@@ -20224,6 +20237,8 @@ return
 NS_ERROR_FAILURE
 ;
 }
+#
+endif
 NS_TIMELINE_ENTER
 (
 "
