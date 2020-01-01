@@ -439,7 +439,7 @@ nsDOMString_h___
 #
 include
 "
-nsStringGlue
+nsAString
 .
 h
 "
