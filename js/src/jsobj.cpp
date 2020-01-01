@@ -8277,13 +8277,6 @@ script
 return
 false
 ;
-script
--
->
-isCachedEval
-=
-true
-;
 }
 assertSameCompartment
 (
@@ -8364,6 +8357,13 @@ js_CallDestroyScriptHook
 cx
 script
 )
+;
+script
+-
+>
+isCachedEval
+=
+true
 ;
 script
 -
