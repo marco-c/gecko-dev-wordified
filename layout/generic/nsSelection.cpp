@@ -6205,8 +6205,6 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-false
-false
 )
 ;
 return
@@ -6276,8 +6274,6 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-false
-false
 )
 ;
 return
@@ -7165,8 +7161,6 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-false
-false
 )
 ;
 }
@@ -26718,8 +26712,6 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-false
-false
 )
 ;
 }
