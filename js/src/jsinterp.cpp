@@ -18436,12 +18436,15 @@ JS_BEGIN_MACRO
 METER_OP_PAIR
 (
 op
+JSOp
+(
 regs
 .
 pc
 [
 n
 ]
+)
 )
 ;
 \
