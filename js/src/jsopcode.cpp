@@ -11853,6 +11853,12 @@ int
 localSlot
 )
 {
+*
+localSlot
+=
+-
+1
+;
 if
 (
 JOF_OPTYPE
