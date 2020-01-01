@@ -1115,6 +1115,9 @@ CaptureRollupEvents
 nsIRollupListener
 *
 aListener
+nsIMenuRollup
+*
+aMenuRollup
 PRBool
 aDoCapture
 PRBool
@@ -2890,6 +2893,11 @@ static
 nsIRollupListener
 *
 sRollupListener
+;
+static
+nsIMenuRollup
+*
+sMenuRollup
 ;
 /
 /

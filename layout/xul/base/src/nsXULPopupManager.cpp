@@ -989,13 +989,12 @@ nsnull
 ;
 }
 }
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS4
 (
 nsXULPopupManager
 nsIDOMKeyListener
 nsIDOMEventListener
 nsIMenuRollup
-nsIRollupListener
 nsITimerCallback
 )
 nsXULPopupManager
@@ -9213,6 +9212,7 @@ mWidget
 CaptureRollupEvents
 (
 this
+this
 PR_FALSE
 PR_FALSE
 )
@@ -9265,6 +9265,7 @@ widget
 >
 CaptureRollupEvents
 (
+this
 this
 PR_TRUE
 popup
