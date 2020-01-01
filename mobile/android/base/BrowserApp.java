@@ -950,13 +950,13 @@ handleClearHistory
 (
 )
 {
-updateAboutHomeTopSites
-(
-)
-;
 super
 .
 handleClearHistory
+(
+)
+;
+updateAboutHomeTopSites
 (
 )
 ;
