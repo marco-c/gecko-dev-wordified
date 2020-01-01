@@ -32205,6 +32205,15 @@ view
 "
 )
 ;
+if
+(
+!
+mIsActive
+)
+{
+return
+;
+}
 nsAutoNotifyDidPaint
 notifyDidPaint
 (
