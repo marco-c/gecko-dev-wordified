@@ -449,16 +449,6 @@ nsIThread
 target
 )
 ;
-void
-IncrementEventloopNestingLevel
-(
-)
-;
-void
-DecrementEventloopNestingLevel
-(
-)
-;
 /
 *
 *
