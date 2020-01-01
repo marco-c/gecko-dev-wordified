@@ -14961,8 +14961,7 @@ icon
 ?
 icon
 :
-"
-"
+null
 ;
 document
 .

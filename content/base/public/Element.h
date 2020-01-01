@@ -3106,7 +3106,7 @@ true
 }
 nsDOMTokenList
 *
-GetClassList
+ClassList
 (
 )
 ;
