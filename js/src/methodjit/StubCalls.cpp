@@ -6311,13 +6311,6 @@ toObject
 (
 )
 ;
-l
--
->
-assertSpecialEqualitySynced
-(
-)
-;
 if
 (
 JSEqualityOp

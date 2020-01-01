@@ -636,13 +636,6 @@ scopeChain
 return
 NULL
 ;
-obj
--
->
-makeVarObj
-(
-)
-;
 #
 ifdef
 DEBUG

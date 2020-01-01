@@ -768,6 +768,10 @@ cx
 CallClass
 NULL
 kind
+BaseShape
+:
+:
+VAROBJ
 )
 ;
 if

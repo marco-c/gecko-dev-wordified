@@ -7299,15 +7299,14 @@ JSObject
 obj
 )
 {
+return
 obj
 -
 >
 setSystem
 (
+cx
 )
-;
-return
-true
 ;
 }
 /

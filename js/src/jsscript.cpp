@@ -1132,6 +1132,10 @@ base
 &
 CallClass
 NULL
+BaseShape
+:
+:
+VAROBJ
 attrs
 getter
 setter
