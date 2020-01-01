@@ -8300,7 +8300,7 @@ interpreter
 .
 *
 /
-ExecuteFrameGuard
+FrameGuard
 frame
 ;
 if

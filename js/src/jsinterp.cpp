@@ -5492,7 +5492,7 @@ after
 JSFrameRegs
 regs
 ;
-ExecuteFrameGuard
+FrameGuard
 frame
 ;
 if
