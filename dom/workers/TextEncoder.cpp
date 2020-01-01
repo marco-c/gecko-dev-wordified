@@ -121,7 +121,7 @@ mozilla
 dom
 :
 :
-WorkerGlobalObject
+GlobalObject
 ;
 void
 TextEncoder
@@ -174,7 +174,7 @@ TextEncoder
 Constructor
 (
 const
-WorkerGlobalObject
+GlobalObject
 &
 aGlobal
 const

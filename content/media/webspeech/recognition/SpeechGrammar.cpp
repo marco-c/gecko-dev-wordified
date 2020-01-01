@@ -219,7 +219,7 @@ SpeechGrammar
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 )

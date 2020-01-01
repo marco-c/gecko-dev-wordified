@@ -146,7 +146,7 @@ TextEncoder
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 )

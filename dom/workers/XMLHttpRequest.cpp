@@ -6622,7 +6622,7 @@ XMLHttpRequest
 Constructor
 (
 const
-WorkerGlobalObject
+GlobalObject
 &
 aGlobal
 const

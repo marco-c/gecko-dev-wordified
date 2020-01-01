@@ -196,7 +196,7 @@ TextEncoder
 Constructor
 (
 const
-WorkerGlobalObject
+GlobalObject
 &
 aGlobal
 const

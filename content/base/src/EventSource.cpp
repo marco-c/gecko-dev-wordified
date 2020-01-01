@@ -1697,7 +1697,7 @@ Init
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 aURL

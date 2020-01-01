@@ -148,7 +148,7 @@ txtDecoder
 new
 TextDecoder
 (
-aGlobal
+aGlobalAsSupports
 .
 Get
 (

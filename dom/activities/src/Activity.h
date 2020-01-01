@@ -231,7 +231,7 @@ Initialize
 (
 aOwner
 .
-Get
+GetAsSupports
 (
 )
 aOptions

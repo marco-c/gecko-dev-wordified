@@ -319,7 +319,7 @@ GetParsingInfo
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 info
@@ -400,7 +400,7 @@ GetParsingInfo
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 info

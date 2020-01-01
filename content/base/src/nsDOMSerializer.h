@@ -213,7 +213,7 @@ nsDOMSerializer
 (
 aOwner
 .
-Get
+GetAsSupports
 (
 )
 )

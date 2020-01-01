@@ -309,9 +309,6 @@ const
 GlobalObject
 &
 aGlobal
-JSContext
-*
-aCx
 PromiseInit
 &
 aInit

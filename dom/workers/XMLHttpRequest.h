@@ -365,7 +365,7 @@ XMLHttpRequest
 Constructor
 (
 const
-WorkerGlobalObject
+GlobalObject
 &
 aGlobal
 const
@@ -383,7 +383,7 @@ XMLHttpRequest
 Constructor
 (
 const
-WorkerGlobalObject
+GlobalObject
 &
 aGlobal
 const

@@ -246,7 +246,7 @@ FileReaderSync
 Constructor
 (
 const
-WorkerGlobalObject
+GlobalObject
 &
 aGlobal
 ErrorResult

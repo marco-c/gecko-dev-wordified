@@ -188,7 +188,7 @@ CreateObjectURLInternal
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 aBlob
@@ -237,7 +237,7 @@ CreateObjectURLInternal
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 &
@@ -281,7 +281,7 @@ CreateObjectURLInternal
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 &
@@ -495,7 +495,7 @@ do_QueryInterface
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 )

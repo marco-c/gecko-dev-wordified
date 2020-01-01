@@ -210,7 +210,7 @@ SpeechGrammarList
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 )

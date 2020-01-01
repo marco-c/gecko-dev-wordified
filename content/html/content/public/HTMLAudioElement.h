@@ -280,14 +280,14 @@ Audio
 const
 GlobalObject
 &
-global
+aGlobal
 const
 Optional
 <
 nsAString
 >
 &
-src
+aSrc
 ErrorResult
 &
 aRv

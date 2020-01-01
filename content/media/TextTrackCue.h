@@ -253,7 +253,7 @@ TextTrackCue
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 aStartTime

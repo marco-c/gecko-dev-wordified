@@ -794,7 +794,7 @@ nsFormData
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 )
