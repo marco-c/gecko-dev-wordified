@@ -2903,6 +2903,12 @@ suffix
 /
 ParseNode
 *
+moduleDecl
+(
+)
+;
+ParseNode
+*
 functionStmt
 (
 )

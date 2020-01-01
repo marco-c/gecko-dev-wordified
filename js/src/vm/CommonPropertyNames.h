@@ -810,6 +810,15 @@ message
 \
 macro
 (
+module
+module
+"
+module
+"
+)
+\
+macro
+(
 multiline
 multiline
 "
