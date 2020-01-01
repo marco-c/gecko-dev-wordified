@@ -3674,7 +3674,10 @@ if
 (
 typeMonitored
 )
-js_free
+UnwantedForeground
+:
+:
+free_
 (
 rhsTypes
 )
