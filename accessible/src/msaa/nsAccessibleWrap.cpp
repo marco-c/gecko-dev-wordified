@@ -9788,10 +9788,7 @@ iTInfo
 0
 )
 return
-ResultFromScode
-(
 DISP_E_BADINDEX
-)
 ;
 ITypeInfo
 *

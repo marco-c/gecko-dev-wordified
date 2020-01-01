@@ -6414,10 +6414,7 @@ NULL
 ppEnum
 )
 return
-ResultFromScode
-(
 E_FAIL
-)
 ;
 (
 *
@@ -7265,10 +7262,7 @@ clipboard
 )
 ;
 return
-ResultFromScode
-(
 result
-)
 ;
 }
 /
@@ -9876,10 +9870,7 @@ if
 len
 )
 return
-ResultFromScode
-(
 E_FAIL
-)
 ;
 nsPrimitiveHelpers
 :
@@ -9899,10 +9890,7 @@ if
 data
 )
 return
-ResultFromScode
-(
 E_FAIL
-)
 ;
 HGLOBAL
 hGlobalMemory
@@ -10186,10 +10174,7 @@ text
 )
 ;
 return
-ResultFromScode
-(
 S_OK
-)
 ;
 }
 }
@@ -10349,10 +10334,7 @@ HTML
 )
 ;
 return
-ResultFromScode
-(
 S_OK
-)
 ;
 }
 }
@@ -10504,10 +10486,7 @@ data
 )
 ;
 return
-ResultFromScode
-(
 S_OK
-)
 ;
 }
 /
