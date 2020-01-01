@@ -1335,6 +1335,13 @@ GetUsedPadding
 )
 const
 ;
+virtual
+nsMargin
+GetUsedMargin
+(
+)
+const
+;
 /
 /
 Get
