@@ -1163,6 +1163,12 @@ gBrowser
 addTab
 (
 )
+.
+linkedBrowser
+.
+stop
+(
+)
 ;
 gBrowser
 .
