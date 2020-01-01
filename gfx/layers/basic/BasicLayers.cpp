@@ -4831,6 +4831,18 @@ PHASE_NONE
 )
 #
 endif
+mXResolution
+(
+1
+.
+0
+)
+mYResolution
+(
+1
+.
+0
+)
 mWidget
 (
 aWidget
@@ -7002,6 +7014,8 @@ ThebesLayerAttributes
 GetValidRegion
 (
 )
+mXResolution
+mYResolution
 )
 ;
 }
