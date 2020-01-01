@@ -505,6 +505,13 @@ h
 #
 include
 "
+imgIOnloadBlocker
+.
+h
+"
+#
+include
+"
 mozilla
 /
 CORSMode
@@ -566,6 +573,8 @@ nsImageLoadingContent
 :
 public
 nsIImageLoadingContent
+public
+imgIOnloadBlocker
 {
 /
 *
@@ -587,6 +596,7 @@ nsImageLoadingContent
 NS_DECL_IMGICONTAINEROBSERVER
 NS_DECL_IMGIDECODEROBSERVER
 NS_DECL_NSIIMAGELOADINGCONTENT
+NS_DECL_IMGIONLOADBLOCKER
 protected
 :
 /
