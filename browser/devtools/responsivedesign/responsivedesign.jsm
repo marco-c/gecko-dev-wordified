@@ -5033,6 +5033,12 @@ false
 ;
 this
 .
+ignoreX
+=
+false
+;
+this
+.
 isResizing
 =
 false
