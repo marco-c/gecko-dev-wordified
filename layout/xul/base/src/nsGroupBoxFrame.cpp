@@ -1202,7 +1202,10 @@ aRenderingContext
 this
 aDirtyRect
 rect
-0
+nsCSSRendering
+:
+:
+PAINTBG_SYNC_DECODE_IMAGES
 )
 ;
 if

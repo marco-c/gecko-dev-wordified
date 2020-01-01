@@ -36700,7 +36700,7 @@ FRAME_CURRENT
 imgIContainer
 :
 :
-FLAG_NONE
+FLAG_SYNC_DECODE
 getter_AddRefs
 (
 currentFrame

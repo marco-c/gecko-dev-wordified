@@ -3697,6 +3697,12 @@ PresContext
 aCtx
 aDirtyRect
 pt
+aBuilder
+-
+>
+GetBackgroundPaintFlags
+(
+)
 )
 ;
 painter

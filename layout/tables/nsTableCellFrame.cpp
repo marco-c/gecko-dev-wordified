@@ -2298,6 +2298,8 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
+PRUint32
+aFlags
 )
 {
 nsRect
@@ -2321,7 +2323,7 @@ aRenderingContext
 this
 aDirtyRect
 rect
-0
+aFlags
 )
 ;
 }
@@ -2345,6 +2347,8 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
+PRUint32
+aFlags
 )
 {
 if
@@ -2366,6 +2370,7 @@ PaintBackground
 aRenderingContext
 aDirtyRect
 aPt
+aFlags
 )
 ;
 }
@@ -2503,6 +2508,12 @@ aBuilder
 ToReferenceFrame
 (
 mFrame
+)
+aBuilder
+-
+>
+GetBackgroundPaintFlags
+(
 )
 )
 ;
@@ -7066,6 +7077,8 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
+PRUint32
+aFlags
 )
 {
 /
@@ -7177,7 +7190,7 @@ GetStyleBackground
 (
 )
 myBorder
-0
+aFlags
 nsnull
 )
 ;

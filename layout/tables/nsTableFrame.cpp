@@ -7760,6 +7760,12 @@ ToReferenceFrame
 (
 mFrame
 )
+aBuilder
+-
+>
+GetBackgroundPaintFlags
+(
+)
 )
 ;
 }
@@ -8829,6 +8835,8 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
+PRUint32
+aBGPaintFlags
 )
 {
 nsPresContext
@@ -8851,6 +8859,7 @@ presContext
 aRenderingContext
 aDirtyRect
 aPt
+aBGPaintFlags
 )
 ;
 nsMargin

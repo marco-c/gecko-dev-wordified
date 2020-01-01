@@ -2519,7 +2519,12 @@ GetSize
 (
 )
 )
-0
+aBuilder
+-
+>
+GetBackgroundPaintFlags
+(
+)
 &
 bgClipRect
 )

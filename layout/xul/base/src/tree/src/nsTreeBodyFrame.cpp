@@ -24689,7 +24689,10 @@ aRect
 myColor
 *
 myBorder
-0
+nsCSSRendering
+:
+:
+PAINTBG_SYNC_DECODE_IMAGES
 )
 ;
 nsCSSRendering

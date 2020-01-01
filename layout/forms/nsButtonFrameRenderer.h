@@ -547,6 +547,8 @@ const
 nsRect
 &
 aRect
+PRUint32
+aBGFlags
 )
 ;
 void
