@@ -6864,8 +6864,7 @@ hidden
 {
 /
 /
-Now
-mark
+Mark
 the
 page
 as
