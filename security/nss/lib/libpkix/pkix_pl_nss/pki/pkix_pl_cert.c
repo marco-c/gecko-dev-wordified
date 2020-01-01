@@ -8280,8 +8280,13 @@ NULL
 PKIX_UInt32
 myVersion
 =
-1
+0
 ;
+/
+*
+v1
+*
+/
 PKIX_ENTER
 (
 CERT
@@ -8314,7 +8319,10 @@ nssCert
 >
 version
 .
-data
+len
+!
+=
+0
 )
 {
 myVersion

@@ -5496,6 +5496,12 @@ MAX_VIRT_SERVER_NAME_ARRAY_INDEX
 ]
 ;
 static
+int
+virtServerNameIndex
+=
+1
+;
+static
 const
 char
 stopCmd
@@ -10458,6 +10464,13 @@ compression
 ;
 }
 }
+if
+(
+virtServerNameIndex
+>
+1
+)
+{
 rv
 =
 SSL_SNISocketConfigHook
@@ -10490,6 +10503,7 @@ extension
 "
 )
 ;
+}
 }
 for
 (
@@ -11735,11 +11749,6 @@ pwdata
 PW_NONE
 0
 }
-;
-int
-virtServerNameIndex
-=
-1
 ;
 char
 *

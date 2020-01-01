@@ -1393,7 +1393,7 @@ pw
 If
 the
 token
-does
+doesn
 '
 t
 need
@@ -1405,7 +1405,7 @@ t
 try
 to
 relogin
-beause
+because
 the
 *
 effect

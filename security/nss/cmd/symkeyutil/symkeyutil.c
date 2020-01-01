@@ -5622,8 +5622,6 @@ activated
 )
 certPrefix
 =
-strdup
-(
 symKeyUtil
 .
 options
@@ -5632,7 +5630,6 @@ opt_dbPrefix
 ]
 .
 arg
-)
 ;
 /
 *

@@ -799,6 +799,7 @@ SECSuccess
 int
 padLength
 ;
+unsigned
 int
 i
 ;
