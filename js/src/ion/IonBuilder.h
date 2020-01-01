@@ -2180,6 +2180,11 @@ length
 )
 ;
 bool
+invalidatedIdempotentCache
+(
+)
+;
+bool
 jsop_add
 (
 MDefinition
