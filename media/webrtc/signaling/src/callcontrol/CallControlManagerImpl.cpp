@@ -214,7 +214,7 @@ ConnectionStatusEnum
 eIdle
 )
 {
-CSFLogInfoS
+CSFLogInfo
 (
 logTag
 "
@@ -233,7 +233,7 @@ CallControlManagerImpl
 (
 )
 {
-CSFLogInfoS
+CSFLogInfo
 (
 logTag
 "
@@ -257,7 +257,7 @@ destroy
 (
 )
 {
-CSFLogInfoS
+CSFLogInfo
 (
 logTag
 "
@@ -321,7 +321,7 @@ observer
 NULL
 )
 {
-CSFLogErrorS
+CSFLogError
 (
 logTag
 "
@@ -409,7 +409,7 @@ observer
 NULL
 )
 {
-CSFLogErrorS
+CSFLogError
 (
 logTag
 "
@@ -549,7 +549,7 @@ string
 authString
 )
 {
-CSFLogInfoS
+CSFLogInfo
 (
 logTag
 "
@@ -771,7 +771,7 @@ ConnectionStatusEnum
 eReady
 )
 ;
-CSFLogErrorS
+CSFLogError
 (
 logTag
 "
@@ -935,7 +935,7 @@ ConnectionStatusEnum
 eReady
 )
 ;
-CSFLogErrorS
+CSFLogError
 (
 logTag
 "
@@ -1065,7 +1065,7 @@ startSDPMode
 (
 )
 {
-CSFLogInfoS
+CSFLogInfo
 (
 logTag
 "
@@ -1182,7 +1182,7 @@ disconnect
 (
 )
 {
-CSFLogInfoS
+CSFLogInfo
 (
 logTag
 "
@@ -1768,7 +1768,7 @@ tmpString
 11
 ]
 ;
-CSFLogInfoS
+CSFLogInfo
 (
 logTag
 "

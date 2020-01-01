@@ -104,9 +104,6 @@ CSFLogStream
 .
 h
 "
-#
-ifdef
-DEBUG
 static
 const
 char
@@ -117,8 +114,6 @@ logTag
 CC_SIPCCCallInfo
 "
 ;
-#
-endif
 using
 namespace
 std
@@ -1312,7 +1307,7 @@ getStreamStatistics
 (
 )
 {
-CSFLogErrorS
+CSFLogError
 (
 logTag
 "

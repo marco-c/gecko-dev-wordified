@@ -8360,7 +8360,7 @@ call_handle
 CC_NO_CALL_ID
 )
 {
-CSFLogDebugS
+CSFLogDebug
 (
 logTag
 "
@@ -8867,7 +8867,7 @@ ToneType_SECUREWARNING_TONE
 ;
 default
 :
-CSFLogDebugS
+CSFLogDebug
 (
 logTag
 "
@@ -13477,7 +13477,7 @@ rcap
 NULL
 )
 {
-CSFLogDebugS
+CSFLogDebug
 (
 logTag
 "

@@ -465,7 +465,7 @@ if
 pVideo
 )
 {
-CSFLogWarnS
+CSFLogWarn
 (
 logTag
 "
@@ -617,7 +617,7 @@ if
 pVideo
 )
 {
-CSFLogWarnS
+CSFLogWarn
 (
 logTag
 "
@@ -1298,7 +1298,7 @@ break
 }
 else
 {
-CSFLogWarnS
+CSFLogWarn
 (
 logTag
 "
@@ -1951,7 +1951,7 @@ true
 }
 else
 {
-CSFLogWarnS
+CSFLogWarn
 (
 logTag
 "
@@ -2132,7 +2132,7 @@ true
 }
 else
 {
-CSFLogWarnS
+CSFLogWarn
 (
 logTag
 "
@@ -2325,7 +2325,7 @@ remoteWindow
 }
 else
 {
-CSFLogInfoS
+CSFLogInfo
 (
 logTag
 "
@@ -2368,7 +2368,7 @@ extRenderer
 }
 else
 {
-CSFLogInfoS
+CSFLogInfo
 (
 logTag
 "
