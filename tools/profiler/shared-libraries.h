@@ -932,6 +932,16 @@ return
 mEnd
 ;
 }
+uintptr_t
+GetOffset
+(
+)
+const
+{
+return
+mOffset
+;
+}
 #
 ifdef
 XP_WIN
