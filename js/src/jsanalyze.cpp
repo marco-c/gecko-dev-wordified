@@ -3431,6 +3431,7 @@ format
 JOF_DECOMPOSE
 )
 )
+{
 isJaegerCompileable
 =
 false
@@ -3441,6 +3442,7 @@ isIonInlineable
 =
 false
 ;
+}
 break
 ;
 }
