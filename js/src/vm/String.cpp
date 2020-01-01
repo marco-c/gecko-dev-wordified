@@ -622,7 +622,7 @@ size_t
 JSString
 :
 :
-charsHeapSize
+sizeOfExcludingThis
 (
 JSMallocSizeOfFun
 mallocSizeOf

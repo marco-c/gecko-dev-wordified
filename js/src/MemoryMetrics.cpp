@@ -1081,7 +1081,7 @@ stringChars
 str
 -
 >
-charsHeapSize
+sizeOfExcludingThis
 (
 data
 -
