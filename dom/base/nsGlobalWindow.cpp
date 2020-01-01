@@ -17214,7 +17214,7 @@ parent
 mDocShell
 -
 >
-GetParentIgnoreBrowserFrame
+GetSameTypeParentIgnoreBrowserAndAppBoundaries
 (
 getter_AddRefs
 (
@@ -37971,7 +37971,7 @@ parent
 mDocShell
 -
 >
-GetParentIgnoreBrowserFrame
+GetSameTypeParentIgnoreBrowserAndAppBoundaries
 (
 getter_AddRefs
 (
