@@ -3784,8 +3784,6 @@ if
 treeItem
 )
 {
-if
-(
 mAccessibleCache
 .
 Put
@@ -3793,8 +3791,7 @@ Put
 key
 treeItem
 )
-)
-{
+;
 if
 (
 Document
@@ -3818,7 +3815,6 @@ Remove
 key
 )
 ;
-}
 }
 return
 nsnull

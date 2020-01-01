@@ -789,9 +789,6 @@ time
 :
 -
 )
-if
-(
-!
 mHash
 .
 Init
@@ -803,9 +800,6 @@ gEntries
 -
 1
 )
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 nsresult
 rv

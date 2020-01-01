@@ -1992,9 +1992,6 @@ mPropertyTable
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-if
-(
-!
 mPropertyTable
 -
 >
@@ -2002,16 +1999,7 @@ Init
 (
 8
 )
-)
-{
-mPropertyTable
-=
-nsnull
 ;
-return
-NS_ERROR_FAILURE
-;
-}
 }
 nsDependentString
 propertyName
@@ -2019,9 +2007,6 @@ propertyName
 aPropertyName
 )
 ;
-if
-(
-!
 mPropertyTable
 -
 >
@@ -2030,9 +2015,6 @@ Put
 propertyName
 aValue
 )
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 return
 NS_OK

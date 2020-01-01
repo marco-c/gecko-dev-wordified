@@ -594,14 +594,10 @@ Initialize
 the
 hash
 table
-NS_ENSURE_TRUE
-(
 mNameHashtable
 .
 Init
 (
-)
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 /

@@ -6067,9 +6067,7 @@ IMAGE_LOAD_TYPE_COUNT
 +
 i
 )
-if
-(
-!
+{
 mImageLoaders
 [
 i
@@ -6078,10 +6076,8 @@ i
 Init
 (
 )
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
+}
 mEventManager
 =
 new

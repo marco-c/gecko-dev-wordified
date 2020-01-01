@@ -6249,9 +6249,10 @@ if
 (
 !
 gCharsetMap
-|
-|
-!
+)
+return
+NS_ERROR_OUT_OF_MEMORY
+;
 gCharsetMap
 -
 >
@@ -6259,9 +6260,6 @@ Init
 (
 NUM_CHARSETS
 )
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (

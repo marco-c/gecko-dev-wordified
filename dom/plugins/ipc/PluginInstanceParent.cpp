@@ -968,14 +968,14 @@ Init
 (
 )
 {
-return
-!
-!
 mScriptableObjects
 .
 Init
 (
 )
+;
+return
+true
 ;
 }
 void
@@ -8040,9 +8040,6 @@ entry
 "
 )
 ;
-return
-!
-!
 mScriptableObjects
 .
 Put
@@ -8050,6 +8047,9 @@ Put
 aObject
 aActor
 )
+;
+return
+true
 ;
 }
 void

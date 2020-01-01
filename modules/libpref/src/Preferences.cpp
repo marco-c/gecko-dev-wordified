@@ -8323,7 +8323,6 @@ rv
 rv
 )
 ;
-return
 gObserverTable
 -
 >
@@ -8332,10 +8331,9 @@ Put
 observer
 observer
 )
-?
+;
+return
 NS_OK
-:
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 /

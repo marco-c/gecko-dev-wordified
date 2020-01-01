@@ -1800,7 +1800,6 @@ Length
 )
 )
 ;
-return
 mQNames
 .
 Put
@@ -1808,10 +1807,9 @@ Put
 aResource
 qname
 )
-?
+;
+return
 NS_OK
-:
-NS_ERROR_FAILURE
 ;
 }
 /
@@ -1909,7 +1907,6 @@ thing
 .
 .
 .
-return
 mQNames
 .
 Put
@@ -1917,10 +1914,9 @@ Put
 aResource
 uri
 )
-?
+;
+return
 NS_OK
-:
-NS_ERROR_FAILURE
 ;
 }
 }
@@ -2014,7 +2010,6 @@ i
 )
 )
 ;
-return
 mQNames
 .
 Put
@@ -2022,10 +2017,9 @@ Put
 aResource
 qname
 )
-?
+;
+return
 NS_OK
-:
-NS_ERROR_FAILURE
 ;
 }
 nsresult

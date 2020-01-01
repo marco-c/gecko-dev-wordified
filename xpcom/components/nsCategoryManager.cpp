@@ -1343,9 +1343,6 @@ node
 return
 nsnull
 ;
-if
-(
-!
 node
 -
 >
@@ -1354,15 +1351,7 @@ mTable
 Init
 (
 )
-)
-{
-delete
-node
 ;
-return
-nsnull
-;
-}
 return
 node
 ;
