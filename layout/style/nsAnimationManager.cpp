@@ -2459,7 +2459,7 @@ SetProperty
 propName
 ea
 ElementAnimationsPropertyDtor
-nullptr
+false
 )
 ;
 if

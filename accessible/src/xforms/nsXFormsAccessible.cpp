@@ -2061,7 +2061,7 @@ aDoc
 )
 mIsSelect1Element
 (
-nullptr
+false
 )
 {
 mIsSelect1Element

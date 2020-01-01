@@ -4112,7 +4112,7 @@ FrameLayerBuilder
 :
 sWidgetManagerSecondary
 =
-nullptr
+false
 ;
 /
 *
