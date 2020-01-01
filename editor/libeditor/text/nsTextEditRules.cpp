@@ -339,11 +339,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-NodeIterator
+nsNodeIterator
 .
 h
 "
@@ -2876,13 +2872,7 @@ dom
 NodeFilterHolder
 filter
 ;
-mozilla
-:
-:
-dom
-:
-:
-NodeIterator
+nsNodeIterator
 iter
 (
 node
