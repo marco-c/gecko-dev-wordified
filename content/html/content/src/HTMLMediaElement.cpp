@@ -17055,6 +17055,10 @@ being
 paused
 .
 return
+!
+mPausedForInactiveDocumentOrChannel
+&
+&
 mAutoplaying
 &
 &
