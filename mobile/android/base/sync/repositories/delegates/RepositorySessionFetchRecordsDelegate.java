@@ -539,8 +539,9 @@ public
 void
 onFetchCompleted
 (
+final
 long
-end
+fetchEnd
 )
 ;
 /
@@ -568,8 +569,9 @@ Record
 [
 ]
 records
+final
 long
-end
+fetchEnd
 )
 ;
 public

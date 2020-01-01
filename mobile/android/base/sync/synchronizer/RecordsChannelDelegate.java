@@ -414,7 +414,9 @@ onFlowCompleted
 RecordsChannel
 recordsChannel
 long
-end
+fetchEnd
+long
+storeEnd
 )
 ;
 public

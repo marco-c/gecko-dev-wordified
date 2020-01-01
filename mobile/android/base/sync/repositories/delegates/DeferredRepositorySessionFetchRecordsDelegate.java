@@ -532,7 +532,7 @@ Record
 records
 final
 long
-end
+fetchEnd
 )
 {
 executor
@@ -556,7 +556,7 @@ inner
 onFetchSucceeded
 (
 records
-end
+fetchEnd
 )
 ;
 }
@@ -613,7 +613,7 @@ onFetchCompleted
 (
 final
 long
-end
+fetchEnd
 )
 {
 executor
@@ -636,7 +636,7 @@ inner
 .
 onFetchCompleted
 (
-end
+fetchEnd
 )
 ;
 }
