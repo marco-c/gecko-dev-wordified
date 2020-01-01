@@ -2413,6 +2413,7 @@ aEvent
 .
 isTrusted
 )
+{
 gPluginHandler
 .
 activateSinglePlugin
@@ -2429,6 +2430,19 @@ top
 aPlugin
 )
 ;
+aEvent
+.
+stopPropagation
+(
+)
+;
+aEvent
+.
+preventDefault
+(
+)
+;
+}
 }
 true
 )
