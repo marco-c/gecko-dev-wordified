@@ -503,6 +503,9 @@ vprof
 h
 "
 #
+ifndef
+MIN
+#
 define
 MIN
 (
@@ -524,6 +527,11 @@ x
 y
 )
 #
+endif
+#
+ifndef
+MAX
+#
 define
 MAX
 (
@@ -544,6 +552,8 @@ x
 :
 y
 )
+#
+endif
 #
 ifndef
 MAXINT
