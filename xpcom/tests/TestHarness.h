@@ -529,6 +529,10 @@ stdarg
 .
 h
 >
+static
+PRBool
+gFailCount
+;
 /
 *
 *
@@ -629,6 +633,10 @@ putchar
 n
 '
 )
+;
++
++
+gFailCount
 ;
 }
 /
