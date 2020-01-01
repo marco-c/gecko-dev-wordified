@@ -690,12 +690,6 @@ PR_FALSE
 }
 {
 "
-gopher
-"
-PR_FALSE
-}
-{
-"
 chrome
 "
 PR_FALSE
