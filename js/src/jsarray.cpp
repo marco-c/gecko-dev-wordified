@@ -8648,9 +8648,9 @@ obj
 *
 Elements
 beyond
-'
-capacity
-'
+the
+initialized
+length
 are
 '
 undefined
@@ -8686,7 +8686,7 @@ length
 obj
 -
 >
-getDenseArrayCapacity
+getDenseArrayInitializedLength
 (
 )
 )
