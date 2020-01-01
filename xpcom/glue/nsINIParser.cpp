@@ -1348,6 +1348,10 @@ if
 (
 !
 e
+|
+|
+!
+token
 )
 continue
 ;
