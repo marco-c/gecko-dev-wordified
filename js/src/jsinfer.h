@@ -5740,6 +5740,13 @@ NewScript
 BinaryData
 }
 ;
+TypeObjectAddendum
+(
+Kind
+kind
+)
+;
+const
 Kind
 kind
 ;
@@ -5952,6 +5959,10 @@ TypeNewScript
 public
 TypeObjectAddendum
 {
+TypeNewScript
+(
+)
+;
 HeapPtrFunction
 fun
 ;
