@@ -212,7 +212,7 @@ CONNECTED
 /
 virtual
 void
-OnConnectSuccess
+OnSocketConnectSuccess
 (
 BluetoothSocket
 *
@@ -246,7 +246,7 @@ fails
 /
 virtual
 void
-OnConnectError
+OnSocketConnectError
 (
 BluetoothSocket
 *
@@ -298,7 +298,7 @@ DISCONNECTED
 /
 virtual
 void
-OnDisconnect
+OnSocketDisconnect
 (
 BluetoothSocket
 *
