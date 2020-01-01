@@ -2135,6 +2135,11 @@ nsHttpTransaction
 *
 )
 ;
+nsresult
+EnsureSocketThreadTargetIfOnline
+(
+)
+;
 /
 /
 message
