@@ -9249,6 +9249,8 @@ MUnbox
 :
 public
 MUnaryInstruction
+public
+BoxInputsPolicy
 {
 public
 :
@@ -9449,6 +9451,16 @@ ins
 type
 mode
 )
+;
+}
+TypePolicy
+*
+typePolicy
+(
+)
+{
+return
+this
 ;
 }
 Mode
