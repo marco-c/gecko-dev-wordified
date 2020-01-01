@@ -2389,7 +2389,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 popupMargin
 =
 10
@@ -2398,9 +2398,14 @@ bookmarkPopup
 .
 top
 =
+Math
+.
+round
+(
 starRect
 .
 top
+)
 +
 popupMargin
 ;
