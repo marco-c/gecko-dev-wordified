@@ -130,6 +130,17 @@ options
 topsrcdir
 )
 ;
+include
+(
+'
+string
+-
+format
+.
+js
+'
+)
+;
 let
 modules
 =
