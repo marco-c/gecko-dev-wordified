@@ -470,7 +470,7 @@ ACCESSIBILITY
 #
 include
 "
-nsIAccessibilityService
+nsAccessibilityService
 .
 h
 "
