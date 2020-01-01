@@ -5844,9 +5844,7 @@ createDefaultProfileForApp
 (
 this
 .
-installDir
-.
-leafName
+uniqueName
 null
 null
 )
