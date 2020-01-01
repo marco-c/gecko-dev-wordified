@@ -491,6 +491,11 @@ nspr
 .
 h
 "
+extern
+"
+C
+"
+{
 #
 include
 <
@@ -498,6 +503,7 @@ proxy
 .
 h
 >
+}
 class
 nsUnixSystemProxySettings
 :
