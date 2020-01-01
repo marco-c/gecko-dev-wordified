@@ -21174,7 +21174,7 @@ cx
 )
 ;
 return
-js_GetOwnPropertyDescriptor
+GetOwnPropertyDescriptor
 (
 cx
 obj
