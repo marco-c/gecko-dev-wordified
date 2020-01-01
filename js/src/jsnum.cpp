@@ -629,6 +629,13 @@ h
 #
 include
 "
+jslibmath
+.
+h
+"
+#
+include
+"
 jsinterpinlines
 .
 h
