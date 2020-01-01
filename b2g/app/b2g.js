@@ -2944,7 +2944,7 @@ image
 .
 allow_locking
 "
-false
+true
 )
 ;
 pref
