@@ -3104,6 +3104,13 @@ arrays
 .
 *
 /
+code
+-
+>
+unconditional
+=
+true
+;
 for
 (
 unsigned

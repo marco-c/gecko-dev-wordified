@@ -10266,14 +10266,14 @@ next
 types
 :
 :
-TypeResult
+TypeIntermediate
 *
 result
 =
 script
 -
 >
-typeResults
+intermediateTypes
 ;
 while
 (
@@ -10283,7 +10283,7 @@ result
 types
 :
 :
-TypeResult
+TypeIntermediate
 *
 next
 =
@@ -10295,7 +10295,7 @@ next
 cx
 -
 >
-free_
+delete_
 (
 result
 )
