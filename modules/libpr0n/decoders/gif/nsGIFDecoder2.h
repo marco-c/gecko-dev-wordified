@@ -657,6 +657,8 @@ EndGIF
 void
 BeginImageFrame
 (
+gfx_depth
+aDepth
 )
 ;
 void
@@ -755,7 +757,7 @@ mCurrentRow
 PRInt32
 mLastFlushedRow
 ;
-PRUint32
+PRUint8
 *
 mImageData
 ;
@@ -766,7 +768,10 @@ to
 image
 data
 in
+either
 Cairo
+or
+8bit
 format
 PRUint32
 *

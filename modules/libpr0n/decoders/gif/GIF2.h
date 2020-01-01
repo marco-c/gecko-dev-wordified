@@ -757,7 +757,7 @@ at
 zero
 *
 /
-PRUint32
+PRUint8
 *
 rowp
 ;
@@ -911,11 +911,11 @@ PRUintn
 screen_height
 ;
 PRUint32
-global_colormap_size
+global_colormap_depth
 ;
 /
 *
-Size
+Depth
 of
 global
 colormap
