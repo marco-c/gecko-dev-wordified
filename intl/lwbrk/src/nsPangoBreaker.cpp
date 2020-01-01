@@ -752,8 +752,6 @@ gfx
 /
 thebes
 /
-src
-/
 gfxPangoFonts
 .
 cpp

@@ -570,7 +570,7 @@ nscoord
 in
 gfx
 /
-idl
+src
 /
 gfxidltypes
 .
