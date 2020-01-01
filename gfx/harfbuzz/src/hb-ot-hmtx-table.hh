@@ -3,6 +3,7 @@
 *
 Copyright
 2011
+2012
 Google
 Inc
 .
@@ -311,7 +312,10 @@ work
 *
 /
 return
+TRACE_RETURN
+(
 true
+)
 ;
 }
 private

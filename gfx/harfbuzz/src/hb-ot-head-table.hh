@@ -8,6 +8,12 @@ Hat
 Inc
 .
 *
+Copyright
+2012
+Google
+Inc
+.
+*
 *
 This
 is
@@ -193,6 +199,15 @@ s
 Behdad
 Esfahbod
 *
+Google
+Author
+(
+s
+)
+:
+Behdad
+Esfahbod
+*
 /
 #
 ifndef
@@ -315,6 +330,8 @@ TRACE_SANITIZE
 )
 ;
 return
+TRACE_RETURN
+(
 c
 -
 >
@@ -332,6 +349,7 @@ major
 =
 =
 1
+)
 )
 ;
 }

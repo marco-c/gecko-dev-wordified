@@ -3,6 +3,7 @@
 *
 Copyright
 2011
+2012
 Google
 Inc
 .
@@ -390,6 +391,8 @@ string
 *
 /
 return
+TRACE_RETURN
+(
 c
 -
 >
@@ -416,6 +419,7 @@ int
 length
 +
 offset
+)
 )
 ;
 }
@@ -718,10 +722,16 @@ string_pool
 )
 )
 return
+TRACE_RETURN
+(
 false
+)
 ;
 return
+TRACE_RETURN
+(
 true
+)
 ;
 }
 inline
@@ -738,6 +748,8 @@ TRACE_SANITIZE
 )
 ;
 return
+TRACE_RETURN
+(
 c
 -
 >
@@ -781,6 +793,7 @@ count
 sanitize_records
 (
 c
+)
 )
 ;
 }

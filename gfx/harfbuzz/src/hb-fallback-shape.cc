@@ -229,9 +229,11 @@ const
 hb_feature_t
 *
 features
+HB_UNUSED
 unsigned
 int
 num_features
+HB_UNUSED
 )
 {
 buffer
