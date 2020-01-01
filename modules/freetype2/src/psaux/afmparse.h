@@ -403,7 +403,7 @@ AFM_Parser
 parser
 AFM_Value
 vals
-FT_Int
+FT_UInt
 n
 )
 ;
@@ -432,7 +432,7 @@ AFM_Parser
 parser
 FT_Bool
 line
-FT_UInt
+FT_Offset
 *
 len
 )

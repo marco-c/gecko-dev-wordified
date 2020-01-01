@@ -114,6 +114,7 @@ Copyright
 2005
 2006
 2008
+2009
 by
 *
 /
@@ -1263,7 +1264,7 @@ The
 border
 index
 .
-FT_STROKER_BORDER_LEFT
+FT_STROKER_BORDER_RIGHT
 for
 empty
 or
@@ -1725,7 +1726,7 @@ in
 the
 same
 units
-that
+as
 the
 outline
 *
@@ -2078,8 +2079,7 @@ path
 and
 the
 stroker
-will
-generate
+generates
 two
 distinct
 border
@@ -2106,8 +2106,7 @@ and
 the
 *
 stroker
-will
-generate
+generates
 a
 single
 stroke
@@ -2465,8 +2464,7 @@ opened
 '
 this
 function
-will
-draw
+draws
 '
 a
 *
@@ -3140,8 +3138,7 @@ the
 stroker
 .
 It
-will
-return
+returns
 the
 number
 of
@@ -3440,8 +3437,7 @@ Note
 that
 this
 function
-will
-append
+appends
 the
 border
 points
@@ -3452,7 +3448,7 @@ to
 your
 outline
 but
-will
+does
 not
 try
 to
@@ -3896,7 +3892,6 @@ FT_Stroker_GetBorderCounts
 to
 *
 export
-the
 all
 borders
 to
@@ -3911,8 +3906,7 @@ Note
 that
 this
 function
-will
-append
+appends
 the
 border
 points
@@ -3923,7 +3917,7 @@ to
 your
 outline
 but
-will
+does
 not
 try
 to

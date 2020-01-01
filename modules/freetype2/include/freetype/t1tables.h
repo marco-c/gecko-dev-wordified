@@ -128,6 +128,7 @@ Copyright
 2004
 2006
 2008
+2009
 by
 *
 /
@@ -3456,8 +3457,7 @@ string
 pointers
 within
 the
-font
-info
+PS_PrivateRec
 structure
 are
 owned
@@ -3492,9 +3492,8 @@ PostScript
 based
 this
 function
-will
+returns
 *
-return
 the
 FT_Err_Invalid_Argument
 '

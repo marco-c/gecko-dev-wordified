@@ -612,7 +612,7 @@ FT_Bytes
 table
 FT_Bytes
 limit
-FT_UInt
+FT_ULong
 nFeatureFlags
 GXV_Validator
 valid

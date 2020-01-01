@@ -111,6 +111,7 @@ body
 Copyright
 2002
 2007
+2009
 by
 *
 /
@@ -297,9 +298,6 @@ pfrobjs
 .
 h
 "
-#
-include
-FT_INTERNAL_DEBUG_H
 #
 include
 "
@@ -571,7 +569,7 @@ return
 }
 FT_CALLBACK_DEF
 (
-FT_UInt
+FT_UInt32
 )
 pfr_cmap_char_next
 (

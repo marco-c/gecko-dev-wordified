@@ -861,7 +861,7 @@ cid_registry
 FT_UInt
 cid_ordering
 ;
-FT_ULong
+FT_Long
 cid_supplement
 ;
 FT_Long

@@ -299,6 +299,13 @@ h
 #
 include
 "
+sfntpic
+.
+c
+"
+#
+include
+"
 ttload
 .
 c

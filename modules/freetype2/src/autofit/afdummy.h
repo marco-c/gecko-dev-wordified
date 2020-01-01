@@ -340,11 +340,10 @@ glyphs
 !
 *
 /
-FT_CALLBACK_TABLE
-const
-AF_ScriptClassRec
+AF_DECLARE_SCRIPT_CLASS
+(
 af_dummy_script_class
-;
+)
 /
 *
 *

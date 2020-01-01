@@ -117,6 +117,7 @@ Copyright
 2006
 2007
 2008
+2009
 by
 *
 /
@@ -909,7 +910,8 @@ level
 varformat
 )
 do
-;
+{
+}
 while
 (
 0
@@ -1908,7 +1910,8 @@ FT_ERROR
 varformat
 )
 do
-;
+{
+}
 while
 (
 0
@@ -2157,7 +2160,8 @@ FT_ASSERT
 condition
 )
 do
-;
+{
+}
 while
 (
 0

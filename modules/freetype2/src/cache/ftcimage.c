@@ -612,7 +612,7 @@ cache
 }
 FT_LOCAL_DEF
 (
-FT_ULong
+FT_Offset
 )
 ftc_inode_weight
 (
@@ -630,7 +630,7 @@ FTC_INode
 )
 ftcinode
 ;
-FT_ULong
+FT_Offset
 size
 =
 0
@@ -776,7 +776,7 @@ if
 0
 FT_LOCAL_DEF
 (
-FT_ULong
+FT_Offset
 )
 FTC_INode_Weight
 (

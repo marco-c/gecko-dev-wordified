@@ -112,7 +112,12 @@ body
 *
 Copyright
 2005
+2008
 by
+*
+/
+/
+*
 suzuki
 toshiya
 Masatake
@@ -741,10 +746,10 @@ coverage
 FT_ULong
 subFeatureFlags
 ;
-FT_UInt
+FT_ULong
 type
 ;
-FT_UInt
+FT_ULong
 rest
 ;
 GXV_LIMIT_CHECK
@@ -1037,7 +1042,7 @@ if
 nSubtables
 >
 =
-0x10000
+0x10000L
 )
 FT_INVALID_DATA
 ;

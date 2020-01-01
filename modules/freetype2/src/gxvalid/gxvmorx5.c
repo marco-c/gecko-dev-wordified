@@ -1013,8 +1013,8 @@ FT_UShort
 state
 FT_UShort
 flags
-GXV_StateTable_GlyphOffsetDesc
-glyphOffset
+GXV_StateTable_GlyphOffsetCPtr
+glyphOffset_p
 FT_Bytes
 table
 FT_Bytes
@@ -1175,8 +1175,9 @@ currentInsertList
 FT_Byte
 )
 (
-glyphOffset
-.
+glyphOffset_p
+-
+>
 ul
 >
 >
@@ -1189,8 +1190,9 @@ markedInsertList
 FT_UShort
 )
 (
-glyphOffset
-.
+glyphOffset_p
+-
+>
 ul
 )
 ;

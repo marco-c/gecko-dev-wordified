@@ -220,7 +220,7 @@ unsigned
 char
 *
 buf
-int
+size_t
 nbytes
 )
 ;
@@ -234,7 +234,7 @@ unsigned
 char
 *
 buf
-int
+size_t
 nbytes
 )
 ;
@@ -248,7 +248,7 @@ unsigned
 char
 *
 buf
-int
+size_t
 nbytes
 )
 ;

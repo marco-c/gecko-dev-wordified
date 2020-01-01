@@ -299,6 +299,13 @@ h
 #
 include
 "
+rastpic
+.
+c
+"
+#
+include
+"
 ftraster
 .
 c

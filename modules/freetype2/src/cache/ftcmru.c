@@ -111,6 +111,7 @@ Copyright
 2003
 2004
 2006
+2009
 by
 *
 /
@@ -372,7 +373,6 @@ FTC_MruNode_Prepend
 :
 invalid
 action
-!
 \
 n
 "
@@ -540,7 +540,6 @@ FTC_MruNode_Up
 :
 invalid
 action
-!
 \
 n
 "
@@ -702,7 +701,6 @@ FTC_MruNode_Remove
 :
 invalid
 action
-!
 \
 n
 "

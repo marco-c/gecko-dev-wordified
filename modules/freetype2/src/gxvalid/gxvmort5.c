@@ -1064,7 +1064,7 @@ FT_Byte
 state
 FT_UShort
 flags
-GXV_StateTable_GlyphOffsetDesc
+GXV_StateTable_GlyphOffsetCPtr
 glyphOffset
 FT_Bytes
 table
@@ -1227,7 +1227,8 @@ FT_UShort
 )
 (
 glyphOffset
-.
+-
+>
 ul
 >
 >
@@ -1241,7 +1242,8 @@ FT_UShort
 )
 (
 glyphOffset
-.
+-
+>
 ul
 )
 ;

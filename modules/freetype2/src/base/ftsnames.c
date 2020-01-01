@@ -81,7 +81,7 @@
 /
 /
 *
-ftnames
+ftsnames
 .
 c
 *
@@ -151,6 +151,7 @@ Copyright
 -
 2001
 2002
+2009
 by
 *
 /
@@ -347,7 +348,7 @@ TT_CONFIG_OPTION_SFNT_NAMES
 documentation
 is
 in
-ftnames
+ftsnames
 .
 h
 *
@@ -391,7 +392,7 @@ num_names
 documentation
 is
 in
-ftnames
+ftsnames
 .
 h
 *

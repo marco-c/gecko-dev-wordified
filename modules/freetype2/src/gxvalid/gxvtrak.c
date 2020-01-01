@@ -2484,7 +2484,7 @@ limit
 =
 0
 ;
-FT_UInt
+FT_Offset
 table_size
 ;
 GXV_ValidatorRec

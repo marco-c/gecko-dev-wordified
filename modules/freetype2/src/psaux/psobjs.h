@@ -1159,7 +1159,7 @@ parser
 FT_Byte
 *
 bytes
-FT_Long
+FT_Offset
 max_bytes
 FT_Long
 *

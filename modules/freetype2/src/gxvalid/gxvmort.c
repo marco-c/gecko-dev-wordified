@@ -662,6 +662,7 @@ f
 >
 featureType
 >
+=
 gxv_feat_registry_length
 )
 {
@@ -943,7 +944,7 @@ nFeatureFlags
 is
 typed
 to
-FT_UInt
+FT_ULong
 to
 accept
 that
@@ -973,7 +974,7 @@ FT_Bytes
 table
 FT_Bytes
 limit
-FT_UInt
+FT_ULong
 nFeatureFlags
 GXV_Validator
 valid
@@ -984,7 +985,7 @@ p
 =
 table
 ;
-FT_UInt
+FT_ULong
 i
 ;
 GXV_mort_featureRec

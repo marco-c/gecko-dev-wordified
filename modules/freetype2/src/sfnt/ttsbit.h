@@ -120,6 +120,7 @@ Copyright
 2005
 2006
 2007
+2008
 by
 *
 /
@@ -366,8 +367,7 @@ metrics
 )
 ;
 #
-if
-defined
+ifdef
 FT_CONFIG_OPTION_OLD_INTERNALS
 FT_LOCAL
 (

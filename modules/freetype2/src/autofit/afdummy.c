@@ -357,12 +357,9 @@ return
 0
 ;
 }
-FT_CALLBACK_TABLE_DEF
-const
-AF_ScriptClassRec
+AF_DEFINE_SCRIPT_CLASS
+(
 af_dummy_script_class
-=
-{
 AF_SCRIPT_NONE
 NULL
 sizeof
@@ -389,8 +386,7 @@ af_dummy_hints_init
 AF_Script_ApplyHintsFunc
 )
 af_dummy_hints_apply
-}
-;
+)
 /
 *
 END

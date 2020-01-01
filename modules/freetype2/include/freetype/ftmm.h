@@ -116,6 +116,7 @@ Copyright
 2003
 2004
 2006
+2009
 by
 *
 /
@@ -2513,6 +2514,9 @@ amaster
 The
 Multiple
 Masters
+/
+GX
+var
 descriptor
 .
 *

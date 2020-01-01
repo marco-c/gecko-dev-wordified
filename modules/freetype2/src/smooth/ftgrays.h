@@ -317,6 +317,15 @@ h
 >
 #
 include
+FT_CONFIG_CONFIG_H
+/
+*
+for
+FT_CONFIG_OPTION_PIC
+*
+/
+#
+include
 FT_IMAGE_H
 #
 endif

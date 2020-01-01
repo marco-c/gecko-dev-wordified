@@ -656,8 +656,8 @@ FT_UShort
 state
 FT_UShort
 flags
-GXV_XStateTable_GlyphOffsetDesc
-glyphOffset
+GXV_XStateTable_GlyphOffsetCPtr
+glyphOffset_p
 FT_Bytes
 table
 FT_Bytes
@@ -688,7 +688,7 @@ state
 ;
 FT_UNUSED
 (
-glyphOffset
+glyphOffset_p
 )
 ;
 FT_UNUSED

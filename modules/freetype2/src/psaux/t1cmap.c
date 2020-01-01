@@ -935,7 +935,7 @@ result
 }
 FT_CALLBACK_DEF
 (
-FT_UInt
+FT_UInt32
 )
 t1_cmap_std_char_next
 (
@@ -1510,8 +1510,6 @@ cmap
 -
 >
 first
-+
-1
 )
 ;
 cmap
@@ -1647,7 +1645,7 @@ result
 }
 FT_CALLBACK_DEF
 (
-FT_UInt
+FT_UInt32
 )
 t1_cmap_custom_char_next
 (
@@ -2306,7 +2304,7 @@ char_code
 }
 FT_CALLBACK_DEF
 (
-FT_UInt
+FT_UInt32
 )
 t1_cmap_unicode_char_next
 (

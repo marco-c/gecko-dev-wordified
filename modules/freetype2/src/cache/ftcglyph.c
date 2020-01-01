@@ -118,6 +118,7 @@ Copyright
 2003
 2004
 2006
+2009
 by
 *
 /
@@ -310,12 +311,6 @@ h
 #
 include
 FT_ERRORS_H
-#
-include
-FT_INTERNAL_OBJECTS_H
-#
-include
-FT_INTERNAL_DEBUG_H
 #
 include
 "

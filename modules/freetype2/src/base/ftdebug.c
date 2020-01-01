@@ -624,11 +624,8 @@ FT_FREETYPE_H
 include
 FT_INTERNAL_DEBUG_H
 #
-if
-defined
-(
+ifdef
 FT_DEBUG_LEVEL_ERROR
-)
 /
 *
 documentation

@@ -8,6 +8,8 @@ c
 2006
 2007
 2008
+2009
+#
 David
 Turner
 <
@@ -1207,7 +1209,7 @@ that
 s
 it
 we
-finised
+finished
 the
 code
 sequence
@@ -2217,7 +2219,8 @@ self
 :
         
 #
-lookup
+look
+up
 one
 block
 that
@@ -3660,7 +3663,37 @@ end
 -
 1
         
+if
+start
+=
+=
+end
+and
+not
+string
+.
+strip
+(
 source
+[
+start
+]
+)
+:
+            
+self
+.
+code
+=
+[
+]
+        
+else
+:
+            
+self
+.
+code
 =
 source
 [
@@ -3670,12 +3703,6 @@ end
 +
 1
 ]
-        
-self
-.
-code
-=
-source
     
 def
 location

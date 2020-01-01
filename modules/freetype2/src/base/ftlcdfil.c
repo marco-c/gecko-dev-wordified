@@ -116,6 +116,7 @@ body
 Copyright
 2006
 2008
+2009
 by
 *
 /
@@ -1865,7 +1866,7 @@ endif
 USE_LEGACY
 *
 /
-FT_EXPORT
+FT_EXPORT_DEF
 (
 FT_Error
 )
@@ -1996,7 +1997,7 @@ defined
 (
 FT_FORCE_LIGHT_LCD_FILTER
 )
-memcpy
+ft_memcpy
 (
 library
 -
@@ -2022,7 +2023,7 @@ lcd_extra
 ;
 #
 else
-memcpy
+ft_memcpy
 (
 library
 -
@@ -2053,7 +2054,7 @@ break
 case
 FT_LCD_FILTER_LIGHT
 :
-memcpy
+ft_memcpy
 (
 library
 -
@@ -2128,7 +2129,7 @@ else
 FT_CONFIG_OPTION_SUBPIXEL_RENDERING
 *
 /
-FT_EXPORT
+FT_EXPORT_DEF
 (
 FT_Error
 )

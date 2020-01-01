@@ -116,7 +116,12 @@ Copyright
 2006
 2007
 2008
+2009
 by
+*
+/
+/
+*
 Roberto
 Alameda
 .
@@ -299,9 +304,6 @@ FT_INTERNAL_DEBUG_H
 #
 include
 FT_INTERNAL_STREAM_H
-#
-include
-FT_LIST_H
 #
 include
 FT_INTERNAL_POSTSCRIPT_AUX_H
@@ -596,6 +598,28 @@ T1_FIELD_NUM
 UnderlineThickness
 "
 underline_thickness
+0
+)
+#
+undef
+FT_STRUCTURE
+#
+define
+FT_STRUCTURE
+PS_FontExtraRec
+#
+undef
+T1CODE
+#
+define
+T1CODE
+T1_FIELD_LOCATION_FONT_EXTRA
+T1_FIELD_NUM
+(
+"
+FSType
+"
+fs_type
 0
 )
 #
@@ -2200,7 +2224,6 @@ t42_parse_encoding
 out
 of
 bounds
-!
 \
 n
 "
@@ -3184,7 +3207,6 @@ t42_parse_encoding
 :
 invalid
 token
-!
 \
 n
 "
@@ -3443,7 +3465,6 @@ begin
 of
 sfnts
 vector
-!
 \
 n
 "
@@ -3665,7 +3686,6 @@ binary
 and
 hex
 strings
-!
 \
 n
 "
@@ -3764,7 +3784,6 @@ too
 many
 binary
 data
-!
 \
 n
 "
@@ -3797,7 +3816,6 @@ data
 in
 sfnts
 array
-!
 \
 n
 "
@@ -3870,7 +3888,6 @@ t42_parse_sfnts
 :
 invalid
 string
-!
 \
 n
 "
@@ -4198,7 +4215,6 @@ too
 many
 binary
 data
-!
 \
 n
 "
@@ -4402,7 +4418,6 @@ t42_parse_charstrings
 out
 of
 bounds
-!
 \
 n
 "
@@ -4646,7 +4661,6 @@ t42_parse_charstrings
 :
 invalid
 token
-!
 \
 n
 "
@@ -4683,7 +4697,6 @@ t42_parse_charstrings
 out
 of
 bounds
-!
 \
 n
 "
@@ -4984,7 +4997,6 @@ t42_parse_charstrings
 out
 of
 bounds
-!
 \
 n
 "
@@ -5168,7 +5180,6 @@ t42_parse_charstrings
 out
 of
 bounds
-!
 \
 n
 "
@@ -5271,7 +5282,6 @@ no
 .
 notdef
 glyph
-!
 \
 n
 "
@@ -5806,6 +5816,21 @@ face
 type1
 .
 font_info
+;
+break
+;
+case
+T1_FIELD_LOCATION_FONT_EXTRA
+:
+dummy_object
+=
+&
+face
+-
+>
+type1
+.
+font_extra
 ;
 break
 ;

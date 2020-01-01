@@ -114,6 +114,7 @@ Copyright
 2002
 2003
 2006
+2008
 by
 Roberto
 Alameda
@@ -323,11 +324,16 @@ void
 *
 psaux
 ;
+#
+if
+0
 const
 void
 *
 afm_data
 ;
+#
+endif
 FT_Byte
 *
 ttf_data
@@ -363,7 +369,7 @@ FT_END_HEADER
 endif
 /
 *
-__T1TYPES_H__
+__T42TYPES_H__
 *
 /
 /

@@ -1241,6 +1241,11 @@ outline_processing
 /
 /
 *
+quick_advance
+*
+/
+/
+*
 bitmap_handling
 *
 /

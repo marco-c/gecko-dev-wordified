@@ -118,6 +118,8 @@ Copyright
 2003
 2004
 2006
+2008
+2009
 by
 *
 /
@@ -727,8 +729,13 @@ face
 >
 units_per_EM
 '
-.
 *
+for
+non
+-
+PFR
+fonts
+.
 Optional
 (
 parameter
@@ -822,6 +829,7 @@ can
 be
 NULL
 )
+.
 *
 *
 ametrics_y_scale
@@ -846,6 +854,7 @@ can
 be
 NULL
 )
+.
 *
 *
 return

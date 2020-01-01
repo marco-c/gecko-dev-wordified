@@ -3509,6 +3509,12 @@ Z_BUF_ERROR
 )
 {
 #
+if
+0
+{
+#
+endif
+#
 ifdef
 PKZIP_BUG_WORKAROUND
 r

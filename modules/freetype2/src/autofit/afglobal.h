@@ -122,6 +122,7 @@ Copyright
 2004
 2005
 2007
+2009
 by
 *
 /
@@ -716,6 +717,18 @@ af_face_globals_free
 (
 AF_FaceGlobals
 globals
+)
+;
+FT_LOCAL_DEF
+(
+FT_Bool
+)
+af_face_globals_is_digit
+(
+AF_FaceGlobals
+globals
+FT_UInt
+gindex
 )
 ;
 /

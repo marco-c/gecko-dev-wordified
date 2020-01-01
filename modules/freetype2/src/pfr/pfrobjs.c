@@ -115,6 +115,7 @@ Copyright
 2005
 2006
 2007
+2008
 by
 *
 /
@@ -705,6 +706,15 @@ PFR_Face
 pfrface
 ;
 FT_Memory
+memory
+;
+if
+(
+!
+face
+)
+return
+;
 memory
 =
 pfrface

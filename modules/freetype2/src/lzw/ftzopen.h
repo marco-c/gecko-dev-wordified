@@ -901,7 +901,7 @@ buf_size
 FT_Bool
 buf_clear
 ;
-FT_Int
+FT_Offset
 buf_total
 ;
 FT_UInt
@@ -1051,7 +1051,7 @@ stack
 FT_UInt
 stack_top
 ;
-FT_UInt
+FT_Offset
 stack_size
 ;
 FT_Byte

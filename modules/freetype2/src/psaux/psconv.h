@@ -366,7 +366,7 @@ limit
 FT_Byte
 *
 buffer
-FT_UInt
+FT_Offset
 n
 )
 ;
@@ -388,7 +388,7 @@ limit
 FT_Byte
 *
 buffer
-FT_UInt
+FT_Offset
 n
 )
 ;
@@ -408,7 +408,7 @@ limit
 FT_Byte
 *
 buffer
-FT_UInt
+FT_Offset
 n
 FT_UShort
 *

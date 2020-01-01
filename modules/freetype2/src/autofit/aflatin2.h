@@ -314,11 +314,10 @@ script
 class
 *
 /
-FT_CALLBACK_TABLE
-const
-AF_ScriptClassRec
+AF_DECLARE_SCRIPT_CLASS
+(
 af_latin2_script_class
-;
+)
 /
 *
 *
