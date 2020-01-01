@@ -505,7 +505,7 @@ h
 >
 #
 ifdef
-NS_OSSO
+NS_MAEMO_LOCATION
 #
 include
 "
@@ -2622,7 +2622,7 @@ NS_GEOLOCATION_PROVIDER_CONTRACTID
 /
 /
 if
-NS_OSSO
+NS_MAEMO_LOCATION
 see
 if
 we
@@ -2634,7 +2634,7 @@ location
 provider
 #
 ifdef
-NS_OSSO
+NS_MAEMO_LOCATION
 if
 (
 !
