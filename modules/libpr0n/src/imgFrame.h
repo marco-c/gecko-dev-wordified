@@ -937,6 +937,16 @@ EstimateMemoryUsed
 )
 const
 ;
+PRUint8
+GetPaletteDepth
+(
+)
+const
+{
+return
+mPaletteDepth
+;
+}
 private
 :
 /
