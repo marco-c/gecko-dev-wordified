@@ -511,6 +511,14 @@ MTableSwitch
 tableswitch
 )
 ;
+bool
+visitRecompileCheck
+(
+MRecompileCheck
+*
+ins
+)
+;
 }
 ;
 }

@@ -770,6 +770,14 @@ MGuardShape
 ins
 )
 ;
+bool
+visitRecompileCheck
+(
+MRecompileCheck
+*
+ins
+)
+;
 }
 ;
 typedef

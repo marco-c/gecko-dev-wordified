@@ -515,6 +515,11 @@ CheckOverRecursed
 \
 _
 (
+RecompileCheck
+)
+\
+_
+(
 PrepareCall
 )
 \
