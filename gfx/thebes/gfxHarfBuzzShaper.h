@@ -906,8 +906,7 @@ Whether
 the
 font
 implements
-hinted
-widths
+GetGlyphWidth
 or
 we
 should
@@ -921,7 +920,7 @@ get
 ideal
 widths
 PRPackedBool
-mUseHintedWidths
+mUseFontGlyphWidths
 ;
 }
 ;

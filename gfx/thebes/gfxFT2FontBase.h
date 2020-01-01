@@ -605,7 +605,7 @@ variation_selector
 ;
 virtual
 PRBool
-ProvidesHintedWidths
+ProvidesGlyphWidths
 (
 )
 const
@@ -616,7 +616,7 @@ PR_TRUE
 }
 virtual
 PRInt32
-GetHintedGlyphWidth
+GetGlyphWidth
 (
 gfxContext
 *

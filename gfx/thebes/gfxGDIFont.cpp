@@ -3095,7 +3095,7 @@ PRInt32
 gfxGDIFont
 :
 :
-GetHintedGlyphWidth
+GetGlyphWidth
 (
 gfxContext
 *

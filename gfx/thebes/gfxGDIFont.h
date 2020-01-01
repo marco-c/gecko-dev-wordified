@@ -639,7 +639,7 @@ anAAOption
 ;
 virtual
 PRBool
-ProvidesHintedWidths
+ProvidesGlyphWidths
 (
 )
 const
@@ -666,7 +666,7 @@ point
 value
 virtual
 PRInt32
-GetHintedGlyphWidth
+GetGlyphWidth
 (
 gfxContext
 *

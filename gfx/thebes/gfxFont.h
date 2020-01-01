@@ -6627,7 +6627,10 @@ return
 subclasses
 may
 provide
+(
+possibly
 hinted
+)
 glyph
 widths
 (
@@ -6658,7 +6661,7 @@ font
 tables
 virtual
 PRBool
-ProvidesHintedWidths
+ProvidesGlyphWidths
 (
 )
 const
@@ -6690,7 +6693,7 @@ format
 .
 virtual
 PRInt32
-GetHintedGlyphWidth
+GetGlyphWidth
 (
 gfxContext
 *

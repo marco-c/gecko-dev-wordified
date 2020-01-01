@@ -755,12 +755,12 @@ ProvidesGetGlyph
 (
 )
 )
-mUseHintedWidths
+mUseFontGlyphWidths
 (
 aFont
 -
 >
-ProvidesHintedWidths
+ProvidesGlyphWidths
 (
 )
 )
@@ -1346,7 +1346,7 @@ const
 {
 if
 (
-mUseHintedWidths
+mUseFontGlyphWidths
 )
 {
 *
@@ -1355,7 +1355,7 @@ x_advance
 mFont
 -
 >
-GetHintedGlyphWidth
+GetGlyphWidth
 (
 aContext
 glyph
@@ -4407,7 +4407,7 @@ mCmapTable
 if
 (
 !
-mUseHintedWidths
+mUseFontGlyphWidths
 )
 {
 /
@@ -4418,8 +4418,7 @@ doesn
 '
 t
 implement
-hinted
-widths
+GetGlyphWidth
 we
 will
 be
@@ -4681,7 +4680,7 @@ mCmapFormat
 |
 (
 !
-mUseHintedWidths
+mUseFontGlyphWidths
 &
 &
 !
