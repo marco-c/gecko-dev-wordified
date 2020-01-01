@@ -716,6 +716,13 @@ int_types
 h
 >
 #
+include
+<
+stdint
+.
+h
+>
+#
 elif
 defined
 (
