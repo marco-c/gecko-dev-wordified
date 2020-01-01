@@ -1193,7 +1193,6 @@ interpolate
 between
 *
 /
-static
 void
 ProcessInterpolateMatrix
 (
