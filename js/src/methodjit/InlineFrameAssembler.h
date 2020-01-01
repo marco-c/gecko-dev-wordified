@@ -864,11 +864,6 @@ funObjReg
 )
 ;
 }
-void
-assemble
-(
-)
-{
 struct
 AdjustedFrame
 {
@@ -906,6 +901,11 @@ offset
 }
 }
 ;
+void
+assemble
+(
+)
+{
 RegisterID
 t0
 =
