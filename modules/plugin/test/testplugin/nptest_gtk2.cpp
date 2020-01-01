@@ -1092,6 +1092,11 @@ window
 .
 height
 ;
+notifyDidPaint
+(
+instanceData
+)
+;
 if
 (
 instanceData
@@ -1130,11 +1135,6 @@ width
 invalidRect
 .
 height
-)
-;
-notifyDidPaint
-(
-instanceData
 )
 ;
 return
@@ -1421,11 +1421,6 @@ pangoTextLayout
 g_object_unref
 (
 gdkContext
-)
-;
-notifyDidPaint
-(
-instanceData
 )
 ;
 }

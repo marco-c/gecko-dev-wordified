@@ -495,6 +495,9 @@ npnNewStream
 bool
 throwOnNextInvoke
 ;
+bool
+runScriptOnPaint
+;
 uint32_t
 timerID
 [
