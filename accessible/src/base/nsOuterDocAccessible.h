@@ -477,14 +477,6 @@ aShell
 )
 ;
 NS_IMETHOD
-GetName
-(
-nsAString
-&
-aName
-)
-;
-NS_IMETHOD
 GetRole
 (
 PRUint32
