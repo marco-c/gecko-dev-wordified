@@ -512,10 +512,6 @@ PRFileDesc
 *
 mTmpFile
 ;
-char
-*
-mTmpFilePath
-;
 /
 /
 simulated
