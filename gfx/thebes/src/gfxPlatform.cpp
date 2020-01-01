@@ -1212,6 +1212,10 @@ release
 builds
 #
 if
+MOZ_TREE_CAIRO
+&
+&
+(
 defined
 (
 DEBUG
@@ -1227,6 +1231,7 @@ NS_BUILD_REFCNT_LOGGING
 defined
 (
 NS_TRACE_MALLOC
+)
 )
 cairo_debug_reset_static_data
 (
