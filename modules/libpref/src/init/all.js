@@ -4410,11 +4410,13 @@ https
 :
 /
 /
-data
+incoming
+.
+telemetry
 .
 mozilla
 .
-com
+org
 "
 )
 ;
