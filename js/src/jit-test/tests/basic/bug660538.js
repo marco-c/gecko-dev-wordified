@@ -1,3 +1,14 @@
+/
+/
+|
+jit
+-
+test
+|
+error
+:
+SyntaxError
+;
 Error
 .
 prototype

@@ -4506,12 +4506,6 @@ js_options
 {
 {
 "
-anonfunfix
-"
-JSOPTION_ANONFUNFIX
-}
-{
-"
 atline
 "
 JSOPTION_ATLINE

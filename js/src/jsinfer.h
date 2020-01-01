@@ -469,6 +469,13 @@ jsinfer_h___
 #
 include
 "
+jsalloc
+.
+h
+"
+#
+include
+"
 jsarena
 .
 h

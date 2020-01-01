@@ -11470,7 +11470,6 @@ FrameRegsIter
 iter
 (
 cx
-FRAME_EXPAND_NONE
 )
 ;
 !
@@ -19713,7 +19712,6 @@ FrameRegsIter
 iter
 (
 cx
-FRAME_EXPAND_ALL
 )
 ;
 !
@@ -20071,7 +20069,7 @@ if
 (
 seg
 .
-currentFrame
+maybefp
 (
 )
 =

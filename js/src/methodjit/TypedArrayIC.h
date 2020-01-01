@@ -454,6 +454,13 @@ jstypedarray
 .
 h
 "
+#
+include
+"
+jsnuminlines
+.
+h
+"
 namespace
 js
 {
