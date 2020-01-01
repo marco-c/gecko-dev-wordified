@@ -4473,7 +4473,7 @@ if
 nsNPAPIPluginInstance
 :
 :
-InPluginCall
+InPluginCallUnsafeForReentry
 (
 )
 )
