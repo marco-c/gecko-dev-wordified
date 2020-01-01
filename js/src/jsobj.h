@@ -2231,13 +2231,6 @@ hasShapeTable
 const
 ;
 inline
-size_t
-computedSizeOfThisSlotsElements
-(
-)
-const
-;
-inline
 void
 sizeOfExcludingThis
 (
