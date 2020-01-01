@@ -617,6 +617,16 @@ nsIRadioInterfaceLayer
 .
 CALL_STATE_INCOMING
 ;
+case
+RIL
+.
+CALL_STATE_BUSY
+:
+return
+nsIRadioInterfaceLayer
+.
+CALL_STATE_BUSY
+;
 default
 :
 throw
