@@ -1082,6 +1082,11 @@ int
 height
 )
 ;
+void
+ForceComposition
+(
+)
+;
 /
 /
 Sample
@@ -1732,6 +1737,13 @@ mResumeCompositionMonitor
 ;
 uint64_t
 mCompositorID
+;
+bool
+mOverrideComposeReadiness
+;
+CancelableTask
+*
+mForceCompositionTask
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
