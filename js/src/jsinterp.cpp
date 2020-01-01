@@ -17381,9 +17381,11 @@ ENABLE_TRACER
 flag
 )
 (
+(
 void
 )
 0
+)
 #
 endif
 /
@@ -17534,9 +17536,11 @@ ENABLE_TRACER
 flag
 )
 (
+(
 void
 )
 0
+)
 #
 endif
 /
