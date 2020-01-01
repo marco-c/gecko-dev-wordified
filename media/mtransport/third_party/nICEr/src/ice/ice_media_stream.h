@@ -729,6 +729,16 @@ char
 attr
 )
 ;
+int
+nr_ice_media_stream_disable_component
+(
+nr_ice_media_stream
+*
+stream
+int
+component_id
+)
+;
 #
 ifdef
 __cplusplus
