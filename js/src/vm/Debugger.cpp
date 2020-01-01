@@ -25339,11 +25339,7 @@ nargs
 0
 )
 {
-Vector
-<
-JSAtom
-*
->
+BindingNames
 names
 (
 cx
@@ -25399,6 +25395,8 @@ names
 [
 i
 ]
+.
+maybeAtom
 ;
 result
 -
