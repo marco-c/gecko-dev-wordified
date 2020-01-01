@@ -1699,6 +1699,10 @@ compositionPauseRequested
 void
 compositionResumeRequested
 (
+int
+width
+int
+height
 )
 ;
 void

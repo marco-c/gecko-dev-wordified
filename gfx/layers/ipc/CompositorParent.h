@@ -806,6 +806,10 @@ SchedulePauseOnCompositorThread
 void
 ScheduleResumeOnCompositorThread
 (
+int
+width
+int
+height
 )
 ;
 protected
@@ -840,6 +844,15 @@ PauseComposition
 void
 ResumeComposition
 (
+)
+;
+void
+ResumeCompositionAndResize
+(
+int
+width
+int
+height
 )
 ;
 void

@@ -1091,6 +1091,8 @@ JNIEnv
 *
 jenv
 jclass
+jint
+jint
 )
 ;
 #
@@ -4395,6 +4397,10 @@ Java_org_mozilla_gecko_GeckoAppShell_scheduleResumeComposition
 JNIEnv
 *
 jclass
+jint
+width
+jint
+height
 )
 {
 nsWindow
@@ -4402,6 +4408,8 @@ nsWindow
 :
 ScheduleResumeComposition
 (
+width
+height
 )
 ;
 }
