@@ -1320,7 +1320,7 @@ nsDocumentFragment
 nsIDOMNode
 nsIDOMDocumentFragment
 )
-NS_INTERFACE_MAP_ENTRY_CONTENT_CLASSINFO
+NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
 DocumentFragment
 )

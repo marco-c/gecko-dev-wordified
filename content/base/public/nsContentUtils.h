@@ -10303,17 +10303,6 @@ result
 )
 #
 define
-NS_INTERFACE_MAP_ENTRY_CONTENT_CLASSINFO
-(
-_class
-)
-\
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-_class
-)
-#
-define
 NS_INTERFACE_MAP_ENTRY_TEAROFF
 (
 _interface
