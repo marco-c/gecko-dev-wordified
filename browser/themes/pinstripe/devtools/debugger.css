@@ -124,11 +124,10 @@ inc
 body
 {
 background
+-
+color
 :
--
-moz
--
-dialog
+white
 ;
 }
 /
