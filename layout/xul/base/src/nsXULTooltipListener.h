@@ -911,16 +911,9 @@ ShowTooltip
 (
 )
 ;
-nsresult
+void
 LaunchTooltip
 (
-nsIContent
-*
-aTarget
-PRInt32
-aX
-PRInt32
-aY
 )
 ;
 nsresult
