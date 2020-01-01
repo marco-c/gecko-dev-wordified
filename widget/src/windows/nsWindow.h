@@ -1172,6 +1172,13 @@ HasPendingInputEvent
 (
 )
 ;
+virtual
+LayerManager
+*
+GetLayerManager
+(
+)
+;
 gfxASurface
 *
 GetThebesSurface
