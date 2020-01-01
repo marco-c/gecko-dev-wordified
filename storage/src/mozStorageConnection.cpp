@@ -2910,7 +2910,7 @@ gStorageLog
 PR_LOG_NOTICE
 (
 "
-Opening
+Closing
 connection
 to
 '
