@@ -7502,6 +7502,12 @@ defined
 (
 XP_MACOSX
 )
+|
+|
+defined
+(
+ANDROID
+)
 PRBool
 accelerateByDefault
 =
