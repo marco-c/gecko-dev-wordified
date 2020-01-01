@@ -8473,12 +8473,6 @@ label
 regs
 )
 ;
-/
-/
-asm_align_code
-(
-)
-;
 label
 -
 >

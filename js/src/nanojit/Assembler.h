@@ -2332,13 +2332,6 @@ file
 void
 nInit
 (
-uint32_t
-flags
-)
-;
-void
-nInit
-(
 AvmCore
 *
 )

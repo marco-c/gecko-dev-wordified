@@ -870,6 +870,11 @@ AvmCore
 core
 )
 {
+(
+void
+)
+core
+;
 OSDep
 :
 :
