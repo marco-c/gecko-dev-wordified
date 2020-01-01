@@ -765,7 +765,7 @@ global
 /
 skin
 /
-headsUpDisplay
+webConsole
 .
 css
 "
