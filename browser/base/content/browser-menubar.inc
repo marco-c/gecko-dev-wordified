@@ -3600,7 +3600,7 @@ if
 url
 )
 {
-PlacesUIUtils
+PlacesUtils
 .
 markPageAsTyped
 (

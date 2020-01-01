@@ -17745,7 +17745,7 @@ not
 a
 valid
 URL
-PlacesUIUtils
+PlacesUtils
 .
 showMinimalAddBookmarkUI
 (
@@ -21148,7 +21148,7 @@ indexOf
 1
 )
 {
-PlacesUIUtils
+PlacesUtils
 .
 markPageAsTyped
 (
@@ -32618,7 +32618,7 @@ the
 sidebar
 panel
 .
-PlacesUIUtils
+PlacesUtils
 .
 showMinimalAddBookmarkUI
 (
@@ -39256,7 +39256,7 @@ join
 var
 description
 =
-PlacesUIUtils
+PlacesUtils
 .
 getDescriptionFromDocument
 (
@@ -39265,7 +39265,7 @@ node
 ownerDocument
 )
 ;
-PlacesUIUtils
+PlacesUtils
 .
 showMinimalAddBookmarkUI
 (
