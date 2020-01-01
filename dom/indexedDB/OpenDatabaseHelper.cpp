@@ -12378,6 +12378,10 @@ SetTransaction
 nsnull
 )
 ;
+mOpenRequest
+=
+nsnull
+;
 rv
 =
 mOpenHelper
