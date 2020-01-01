@@ -120,6 +120,13 @@ h
 #
 include
 "
+jsautooplen
+.
+h
+"
+#
+include
+"
 jslibmath
 .
 h
