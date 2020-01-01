@@ -5981,6 +5981,7 @@ child
 .
 close
 (
+true
 )
 ;
 if
