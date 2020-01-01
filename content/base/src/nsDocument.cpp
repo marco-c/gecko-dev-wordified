@@ -10929,7 +10929,7 @@ NS_ENSURE_TRUE
 (
 mPresShells
 .
-AppendObserver
+AppendObserverUnlessExists
 (
 shell
 )
@@ -13802,7 +13802,7 @@ the
 list
 mObservers
 .
-AppendObserver
+AppendObserverUnlessExists
 (
 aObserver
 )

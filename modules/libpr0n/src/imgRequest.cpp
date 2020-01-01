@@ -900,7 +900,7 @@ proxy
 return
 mObservers
 .
-AppendObserver
+AppendObserverUnlessExists
 (
 proxy
 )
