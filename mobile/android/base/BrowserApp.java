@@ -3285,6 +3285,12 @@ tab
 getFaviconURL
 (
 )
+!
+tab
+.
+isPrivate
+(
+)
 new
 Favicons
 .
