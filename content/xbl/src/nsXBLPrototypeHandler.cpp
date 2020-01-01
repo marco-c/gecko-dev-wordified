@@ -5613,8 +5613,6 @@ uri
 =
 mPrototypeBinding
 ?
-uri
-=
 mPrototypeBinding
 -
 >
