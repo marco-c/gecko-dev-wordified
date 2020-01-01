@@ -838,6 +838,8 @@ aClosure
 PRTime
 GetExpirationTimeAgo
 (
+PRInt32
+aExpireDays
 )
 ;
 }
