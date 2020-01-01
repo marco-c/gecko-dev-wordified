@@ -1090,7 +1090,14 @@ print
 print
 version
 :
-null
+function
+(
+)
+{
+return
+185
+;
+}
 }
 ;
 /
