@@ -5621,11 +5621,10 @@ them
 again
 .
 for
-each
 (
 let
 bp
-in
+of
 DebuggerController
 .
 Breakpoints
