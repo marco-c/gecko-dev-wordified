@@ -2255,6 +2255,9 @@ mComposingWindow
 nsString
 mCompositionString
 ;
+nsString
+mLastDispatchedCompositionString
+;
 nsTArray
 <
 PRUint32
