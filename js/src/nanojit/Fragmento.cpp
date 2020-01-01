@@ -4308,6 +4308,13 @@ blacklistLevel
 =
 5
 ;
+f
+-
+>
+recordAttempts
+=
+0
+;
 return
 f
 ;
