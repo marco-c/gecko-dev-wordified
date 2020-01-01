@@ -3594,10 +3594,6 @@ filename
 =
 module
 .
-sourceDesc
-(
-)
-.
 scriptSource
 (
 )
@@ -3770,10 +3766,6 @@ char
 filename
 =
 module
-.
-sourceDesc
-(
-)
 .
 scriptSource
 (
