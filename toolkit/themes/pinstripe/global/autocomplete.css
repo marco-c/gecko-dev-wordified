@@ -1082,8 +1082,6 @@ important
 .
 autocomplete
 -
-richlistbox
->
 richlistitem
 [
 selected
@@ -1222,6 +1220,9 @@ padding
 0
 ;
 }
+html
+|
+*
 .
 ac
 -
