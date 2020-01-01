@@ -875,7 +875,7 @@ virtual
 void
 LocalizedName
 (
-nsString
+nsAString
 &
 aLocalizedName
 )
@@ -1251,7 +1251,7 @@ virtual
 void
 LocalizedName
 (
-nsString
+nsAString
 &
 aLocalizedName
 )
@@ -1405,6 +1405,18 @@ aFontName
 nsAString
 &
 aResolvedFontName
+)
+;
+PRBool
+GetStandardFamilyName
+(
+const
+nsAString
+&
+aFontName
+nsAString
+&
+aFamilyName
 )
 ;
 void

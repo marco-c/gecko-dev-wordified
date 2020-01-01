@@ -1359,7 +1359,7 @@ kFontNameFmtSansSerif
 type
 :
 "
-unichar
+fontname
 "
 element
 :
