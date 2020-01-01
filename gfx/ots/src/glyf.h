@@ -48,6 +48,11 @@ OTS_GLYF_H_
 #
 include
 <
+new
+>
+#
+include
+<
 utility
 >
 /
