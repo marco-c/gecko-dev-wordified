@@ -845,7 +845,7 @@ key
 l10n
 (
 "
-cmd
+webConsole
 .
 commandkey
 "
