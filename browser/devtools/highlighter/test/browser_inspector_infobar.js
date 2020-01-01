@@ -36,10 +36,6 @@ waitForExplicitFinish
 (
 )
 ;
-ignoreAllUncaughtExceptions
-(
-)
-;
 let
 doc
 ;

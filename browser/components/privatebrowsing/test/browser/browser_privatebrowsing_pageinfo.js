@@ -825,8 +825,4 @@ waitForExplicitFinish
 (
 )
 ;
-ignoreAllUncaughtExceptions
-(
-)
-;
 }

@@ -102,10 +102,6 @@ waitForExplicitFinish
 (
 )
 ;
-ignoreAllUncaughtExceptions
-(
-)
-;
 var
 triggers
 =

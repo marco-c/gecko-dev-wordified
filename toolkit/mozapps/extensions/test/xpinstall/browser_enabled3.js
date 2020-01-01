@@ -95,10 +95,6 @@ test
 (
 )
 {
-ignoreAllUncaughtExceptions
-(
-)
-;
 Harness
 .
 installDisabledCallback

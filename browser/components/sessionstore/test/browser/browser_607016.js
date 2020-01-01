@@ -493,10 +493,6 @@ waitForExplicitFinish
 (
 )
 ;
-ignoreAllUncaughtExceptions
-(
-)
-;
 /
 /
 Set

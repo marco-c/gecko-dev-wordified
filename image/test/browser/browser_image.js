@@ -1444,10 +1444,6 @@ test
 (
 )
 {
-ignoreAllUncaughtExceptions
-(
-)
-;
 nextTest
 (
 )
