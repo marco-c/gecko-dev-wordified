@@ -365,7 +365,7 @@ main
 thread
 only
 .
-nsDecoderStateMachine
+nsBuiltinDecoderStateMachine
 *
 CreateStateMachine
 (

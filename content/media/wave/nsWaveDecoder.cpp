@@ -133,7 +133,7 @@ nsWaveDecoder
 .
 h
 "
-nsDecoderStateMachine
+nsBuiltinDecoderStateMachine
 *
 nsWaveDecoder
 :
