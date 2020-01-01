@@ -3602,8 +3602,6 @@ cinst1
 "
 VP8
 "
-640
-480
 )
 ;
 mozilla
@@ -3616,8 +3614,6 @@ cinst2
 "
 I420
 "
-640
-480
 )
 ;
 std
@@ -4459,8 +4455,6 @@ cinst1
 "
 VP8
 "
-640
-480
 )
 ;
 mozilla
@@ -4473,8 +4467,6 @@ cinst2
 "
 VP8
 "
-640
-480
 )
 ;
 rcvCodecList
@@ -4707,8 +4699,6 @@ cinst3
 "
 I4201234tttttthhhyyyy89087987y76t567r7756765rr6u6676
 "
-352
-288
 )
 ;
 mozilla
@@ -4720,8 +4710,6 @@ cinst4
 124
 "
 "
-352
-288
 )
 ;
 rcvCodecList
