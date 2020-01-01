@@ -476,7 +476,7 @@ Ltd
 .
 *
 /
-NS_METHOD
+nsresult
 nsBIG5HKSCSToUnicodeConstructor
 (
 nsISupports

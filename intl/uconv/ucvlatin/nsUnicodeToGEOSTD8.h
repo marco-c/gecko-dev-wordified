@@ -449,7 +449,7 @@ GEOSTD8
 *
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToGEOSTD8Constructor
 (
 nsISupports

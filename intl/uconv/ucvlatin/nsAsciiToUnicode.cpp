@@ -574,7 +574,7 @@ ut
 "
 }
 ;
-NS_METHOD
+nsresult
 nsAsciiToUnicodeConstructor
 (
 nsISupports

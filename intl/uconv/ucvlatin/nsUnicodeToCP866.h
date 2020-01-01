@@ -465,7 +465,7 @@ CATA
 ]
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToCP866Constructor
 (
 nsISupports

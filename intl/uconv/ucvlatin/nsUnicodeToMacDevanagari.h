@@ -450,7 +450,7 @@ MacDevanagari
 .
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToMacDevanagariConstructor
 (
 nsISupports

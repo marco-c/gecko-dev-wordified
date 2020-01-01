@@ -451,7 +451,7 @@ Johab
 *
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToJohabConstructor
 (
 nsISupports

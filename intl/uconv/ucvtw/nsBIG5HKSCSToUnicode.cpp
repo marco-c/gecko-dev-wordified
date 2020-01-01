@@ -670,7 +670,7 @@ nsBIG5HKSCSToUnicode
 [
 implementation
 ]
-NS_METHOD
+nsresult
 nsBIG5HKSCSToUnicodeConstructor
 (
 nsISupports

@@ -534,7 +534,7 @@ uf
 "
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToCP1258Constructor
 (
 nsISupports

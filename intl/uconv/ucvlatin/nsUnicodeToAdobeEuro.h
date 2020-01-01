@@ -489,7 +489,7 @@ details
 *
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToAdobeEuroConstructor
 (
 nsISupports

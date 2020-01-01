@@ -630,7 +630,7 @@ nsUnicodeToBIG5
 [
 implementation
 ]
-NS_METHOD
+nsresult
 nsUnicodeToBIG5Constructor
 (
 nsISupports

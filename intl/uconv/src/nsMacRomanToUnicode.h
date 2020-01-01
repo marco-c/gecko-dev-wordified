@@ -542,7 +542,7 @@ CATA
 ]
 *
 /
-NS_METHOD
+nsresult
 nsMacRomanToUnicodeConstructor
 (
 nsISupports

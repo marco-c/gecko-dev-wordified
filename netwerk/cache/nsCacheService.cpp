@@ -4508,7 +4508,7 @@ LogCacheStatistics
 endif
 }
 }
-NS_METHOD
+nsresult
 nsCacheService
 :
 :

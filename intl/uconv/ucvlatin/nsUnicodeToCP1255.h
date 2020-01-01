@@ -465,7 +465,7 @@ CATA
 ]
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToCP1255Constructor
 (
 nsISupports

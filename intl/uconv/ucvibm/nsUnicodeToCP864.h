@@ -522,7 +522,7 @@ CP864
 .
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToCP864Constructor
 (
 nsISupports

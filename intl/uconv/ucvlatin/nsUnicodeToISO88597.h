@@ -465,7 +465,7 @@ CATA
 ]
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToISO88597Constructor
 (
 nsISupports

@@ -451,7 +451,7 @@ Symbol
 *
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToSymbolConstructor
 (
 nsISupports

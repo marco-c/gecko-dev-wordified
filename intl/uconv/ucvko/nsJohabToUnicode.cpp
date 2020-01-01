@@ -690,7 +690,7 @@ nsJohabToUnicode
 [
 implementation
 ]
-NS_METHOD
+nsresult
 nsJohabToUnicodeConstructor
 (
 nsISupports

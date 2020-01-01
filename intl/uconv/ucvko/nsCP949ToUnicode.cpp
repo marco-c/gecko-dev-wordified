@@ -729,7 +729,7 @@ g_CP949HighMapping
 g_CP949LowMapping
 }
 ;
-NS_METHOD
+nsresult
 nsCP949ToUnicodeConstructor
 (
 nsISupports

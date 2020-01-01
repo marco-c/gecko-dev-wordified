@@ -522,7 +522,7 @@ CP862
 .
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToCP862Constructor
 (
 nsISupports

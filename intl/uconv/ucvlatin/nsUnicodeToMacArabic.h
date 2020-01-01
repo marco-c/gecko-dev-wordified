@@ -450,7 +450,7 @@ MacArabic
 .
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToMacArabicConstructor
 (
 nsISupports

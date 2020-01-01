@@ -534,7 +534,7 @@ uf
 "
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToTCVN5712Constructor
 (
 nsISupports

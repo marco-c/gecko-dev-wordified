@@ -522,7 +522,7 @@ CP850
 .
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToCP850Constructor
 (
 nsISupports

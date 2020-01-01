@@ -490,7 +490,7 @@ nsIRDFXMLParser
 public
 :
 static
-NS_IMETHODIMP
+nsresult
 Create
 (
 nsISupports

@@ -512,6 +512,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIPlatformCharset
 .
 h

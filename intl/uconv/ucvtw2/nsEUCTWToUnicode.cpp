@@ -682,7 +682,7 @@ nsEUCTWToUnicode
 [
 implementation
 ]
-NS_METHOD
+nsresult
 nsEUCTWToUnicodeConstructor
 (
 nsISupports

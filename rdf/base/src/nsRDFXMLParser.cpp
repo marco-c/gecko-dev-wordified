@@ -490,7 +490,7 @@ NS_IMPL_ISUPPORTS1
 nsRDFXMLParser
 nsIRDFXMLParser
 )
-NS_IMETHODIMP
+nsresult
 nsRDFXMLParser
 :
 :

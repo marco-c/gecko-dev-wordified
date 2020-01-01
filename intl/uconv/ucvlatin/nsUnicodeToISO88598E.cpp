@@ -524,7 +524,7 @@ data
 [
 declaration
 ]
-NS_METHOD
+nsresult
 nsUnicodeToISO88598EConstructor
 (
 nsISupports

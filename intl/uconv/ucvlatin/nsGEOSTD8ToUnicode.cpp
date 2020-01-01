@@ -532,7 +532,7 @@ ut
 "
 }
 ;
-NS_METHOD
+nsresult
 nsGEOSTD8ToUnicodeConstructor
 (
 nsISupports

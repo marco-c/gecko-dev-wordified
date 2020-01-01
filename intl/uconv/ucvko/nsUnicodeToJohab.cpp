@@ -643,7 +643,7 @@ nsUnicodeToJohab
 [
 implementation
 ]
-NS_METHOD
+nsresult
 nsUnicodeToJohabConstructor
 (
 nsISupports

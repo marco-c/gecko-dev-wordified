@@ -564,7 +564,7 @@ NS_IMPL_THREADSAFE_ISUPPORTS1
 nsSOCKSSocketProvider
 nsISocketProvider
 )
-NS_METHOD
+nsresult
 nsSOCKSSocketProvider
 :
 :
@@ -621,7 +621,7 @@ return
 rv
 ;
 }
-NS_METHOD
+nsresult
 nsSOCKSSocketProvider
 :
 :

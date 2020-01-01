@@ -522,7 +522,7 @@ CP852
 .
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToCP852Constructor
 (
 nsISupports

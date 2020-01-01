@@ -443,7 +443,7 @@ nsUCConstructors
 .
 h
 "
-NS_METHOD
+nsresult
 nsEUCKRToUnicodeConstructor
 (
 nsISupports

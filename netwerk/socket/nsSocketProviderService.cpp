@@ -536,7 +536,7 @@ h
 /
 /
 /
-NS_METHOD
+nsresult
 nsSocketProviderService
 :
 :

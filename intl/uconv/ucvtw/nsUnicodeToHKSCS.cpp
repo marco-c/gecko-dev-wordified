@@ -626,7 +626,7 @@ nsUnicodeToHKSCS
 [
 implementation
 ]
-NS_METHOD
+nsresult
 nsUnicodeToHKSCSConstructor
 (
 nsISupports

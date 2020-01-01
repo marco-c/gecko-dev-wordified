@@ -582,7 +582,7 @@ uf
 "
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToAdobeEuroConstructor
 (
 nsISupports

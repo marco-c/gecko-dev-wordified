@@ -533,7 +533,7 @@ CATA
 ]
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToISO88591Constructor
 (
 nsISupports

@@ -451,7 +451,7 @@ ZapfDingbat
 *
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToZapfDingbatConstructor
 (
 nsISupports

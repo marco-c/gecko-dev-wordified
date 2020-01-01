@@ -450,7 +450,7 @@ MacFarsi
 .
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToMacFarsiConstructor
 (
 nsISupports

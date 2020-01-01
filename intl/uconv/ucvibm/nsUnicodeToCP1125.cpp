@@ -499,7 +499,7 @@ uf
 "
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToCP1125Constructor
 (
 nsISupports

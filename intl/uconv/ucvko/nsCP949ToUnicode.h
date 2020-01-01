@@ -463,7 +463,7 @@ CATA
 ]
 *
 /
-NS_METHOD
+nsresult
 nsCP949ToUnicodeConstructor
 (
 nsISupports

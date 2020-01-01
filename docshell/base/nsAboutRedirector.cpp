@@ -1341,7 +1341,7 @@ return
 NS_ERROR_ILLEGAL_VALUE
 ;
 }
-NS_METHOD
+nsresult
 nsAboutRedirector
 :
 :

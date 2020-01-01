@@ -566,7 +566,7 @@ u2BytesChar
 )
 }
 ;
-NS_METHOD
+nsresult
 nsT61ToUnicodeConstructor
 (
 nsISupports

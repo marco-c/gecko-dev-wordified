@@ -532,7 +532,7 @@ uf
 "
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToGEOSTD8Constructor
 (
 nsISupports

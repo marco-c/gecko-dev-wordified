@@ -538,7 +538,7 @@ uf
 "
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToISOIR111Constructor
 (
 nsISupports

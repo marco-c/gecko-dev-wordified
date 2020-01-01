@@ -605,7 +605,7 @@ ut
 "
 }
 ;
-NS_METHOD
+nsresult
 nsCP862ToUnicodeConstructor
 (
 nsISupports

@@ -578,7 +578,7 @@ nsCP1131ToUnicode
 [
 implementation
 ]
-NS_METHOD
+nsresult
 nsCP1131ToUnicodeConstructor
 (
 nsISupports

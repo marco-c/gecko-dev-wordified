@@ -667,7 +667,7 @@ Clear
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 NS_NewXULControllers
 (
 nsISupports

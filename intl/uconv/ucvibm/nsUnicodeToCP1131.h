@@ -415,7 +415,7 @@ CP1131
 .
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToCP1131Constructor
 (
 nsISupports

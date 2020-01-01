@@ -450,7 +450,7 @@ MacGujarati
 .
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToMacGujaratiConstructor
 (
 nsISupports

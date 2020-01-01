@@ -422,7 +422,7 @@ decoder
 bug
 127755
 )
-NS_METHOD
+nsresult
 nsISO885911ToUnicodeConstructor
 (
 nsISupports

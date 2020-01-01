@@ -531,7 +531,7 @@ d36949d48268
 \
 }
 extern
-NS_METHOD
+nsresult
 nsMIMEInputStreamConstructor
 (
 nsISupports

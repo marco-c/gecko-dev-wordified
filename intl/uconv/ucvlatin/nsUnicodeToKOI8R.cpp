@@ -534,7 +534,7 @@ uf
 "
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToKOI8RConstructor
 (
 nsISupports

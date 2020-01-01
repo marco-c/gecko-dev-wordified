@@ -495,7 +495,7 @@ uf
 "
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToCP869Constructor
 (
 nsISupports

@@ -457,7 +457,7 @@ nsAboutBlank
 {
 }
 static
-NS_METHOD
+nsresult
 Create
 (
 nsISupports

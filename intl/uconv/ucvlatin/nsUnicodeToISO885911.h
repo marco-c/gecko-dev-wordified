@@ -444,7 +444,7 @@ nsISupports
 .
 h
 "
-NS_METHOD
+nsresult
 nsUnicodeToISO885911Constructor
 (
 nsISupports

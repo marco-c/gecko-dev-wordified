@@ -450,7 +450,7 @@ Unicode
 .
 *
 /
-NS_METHOD
+nsresult
 nsMacHebrewToUnicodeConstructor
 (
 nsISupports

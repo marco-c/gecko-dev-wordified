@@ -536,7 +536,7 @@ ut
 "
 }
 ;
-NS_METHOD
+nsresult
 nsISO88592ToUnicodeConstructor
 (
 nsISupports

@@ -1637,7 +1637,7 @@ by
 do_CreateInstance
 *
 /
-NS_METHOD
+nsresult
 nsMIMEInputStreamConstructor
 (
 nsISupports

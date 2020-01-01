@@ -640,7 +640,7 @@ nsUnicodeToEUCTW
 [
 implementation
 ]
-NS_METHOD
+nsresult
 nsUnicodeToEUCTWConstructor
 (
 nsISupports

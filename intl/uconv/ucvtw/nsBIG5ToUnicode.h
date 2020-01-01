@@ -465,7 +465,7 @@ CATA
 ]
 *
 /
-NS_METHOD
+nsresult
 nsBIG5ToUnicodeConstructor
 (
 nsISupports

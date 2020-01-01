@@ -684,7 +684,7 @@ nsCP850ToUnicode
 [
 implementation
 ]
-NS_METHOD
+nsresult
 nsCP850ToUnicodeConstructor
 (
 nsISupports

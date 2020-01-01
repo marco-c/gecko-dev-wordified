@@ -473,7 +473,7 @@ ftang
 ]
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToTIS620Constructor
 (
 nsISupports

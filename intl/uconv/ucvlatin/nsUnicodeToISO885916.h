@@ -465,7 +465,7 @@ ftang
 ]
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToISO885916Constructor
 (
 nsISupports

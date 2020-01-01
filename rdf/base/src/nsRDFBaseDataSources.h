@@ -496,7 +496,7 @@ in
 nsInMemoryDataSource
 .
 cpp
-NS_IMETHODIMP
+nsresult
 NS_NewRDFInMemoryDataSource
 (
 nsISupports

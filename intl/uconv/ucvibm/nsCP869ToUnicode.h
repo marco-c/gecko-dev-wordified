@@ -411,7 +411,7 @@ Unicode
 .
 *
 /
-NS_METHOD
+nsresult
 nsCP869ToUnicodeConstructor
 (
 nsISupports

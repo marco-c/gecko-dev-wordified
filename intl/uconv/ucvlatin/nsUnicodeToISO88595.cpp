@@ -536,7 +536,7 @@ uf
 "
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToISO88595Constructor
 (
 nsISupports

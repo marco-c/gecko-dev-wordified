@@ -534,7 +534,7 @@ ut
 "
 }
 ;
-NS_METHOD
+nsresult
 nsMacTurkishToUnicodeConstructor
 (
 nsISupports

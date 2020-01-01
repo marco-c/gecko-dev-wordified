@@ -1642,7 +1642,7 @@ nsIInputStream
 nsIBufferedInputStream
 nsIStreamBufferAccess
 )
-NS_METHOD
+nsresult
 nsBufferedInputStream
 :
 :
@@ -2803,7 +2803,7 @@ NS_INTERFACE_MAP_END_INHERITING
 (
 nsBufferedStream
 )
-NS_METHOD
+nsresult
 nsBufferedOutputStream
 :
 :

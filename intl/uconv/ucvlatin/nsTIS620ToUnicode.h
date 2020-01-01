@@ -457,7 +457,7 @@ decoder
 bug
 127755
 )
-NS_METHOD
+nsresult
 nsTIS620ToUnicodeConstructor
 (
 nsISupports

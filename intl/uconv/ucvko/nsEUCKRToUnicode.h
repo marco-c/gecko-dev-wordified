@@ -478,7 +478,7 @@ decoder
 .
 bug
 131388
-NS_METHOD
+nsresult
 nsEUCKRToUnicodeConstructor
 (
 nsISupports

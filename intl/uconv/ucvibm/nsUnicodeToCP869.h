@@ -411,7 +411,7 @@ CP869
 .
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToCP869Constructor
 (
 nsISupports

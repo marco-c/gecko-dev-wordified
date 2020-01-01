@@ -535,7 +535,7 @@ g_ufMappingTable
 0x0000
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToAsciiConstructor
 (
 nsISupports

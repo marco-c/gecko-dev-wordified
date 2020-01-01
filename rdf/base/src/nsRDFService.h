@@ -632,7 +632,7 @@ gRDFService
 NS_VISIBILITY_HIDDEN
 ;
 static
-NS_METHOD
+nsresult
 CreateSingleton
 (
 nsISupports

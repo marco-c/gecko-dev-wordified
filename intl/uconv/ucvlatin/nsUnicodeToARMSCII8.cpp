@@ -534,7 +534,7 @@ uf
 "
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToARMSCII8Constructor
 (
 nsISupports

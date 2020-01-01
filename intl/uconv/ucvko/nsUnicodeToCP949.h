@@ -467,7 +467,7 @@ Jungshik
 Shin
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToCP949Constructor
 (
 nsISupports

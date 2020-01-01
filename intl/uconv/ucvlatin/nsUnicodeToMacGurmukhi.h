@@ -450,7 +450,7 @@ MacGurmukhi
 .
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToMacGurmukhiConstructor
 (
 nsISupports

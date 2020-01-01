@@ -751,7 +751,7 @@ a
 factory
 :
 static
-NS_METHOD
+nsresult
 Create
 (
 nsISupports

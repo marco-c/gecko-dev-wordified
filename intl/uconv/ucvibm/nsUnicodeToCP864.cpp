@@ -606,7 +606,7 @@ uf
 "
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToCP864Constructor
 (
 nsISupports

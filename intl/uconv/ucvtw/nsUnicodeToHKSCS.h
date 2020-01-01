@@ -451,7 +451,7 @@ HKSCS
 *
 *
 /
-NS_METHOD
+nsresult
 nsUnicodeToHKSCSConstructor
 (
 nsISupports
