@@ -497,7 +497,7 @@ fp
 extern
 JS_FRIEND_API
 (
-void
+JSBool
 )
 JS_SplicePrototype
 (

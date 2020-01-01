@@ -6325,9 +6325,7 @@ types
 MarkTypePropertyConfigured
 (
 cx
-getType
-(
-)
+this
 shape
 -
 >
@@ -6350,9 +6348,7 @@ types
 AddTypePropertyId
 (
 cx
-getType
-(
-)
+this
 shape
 -
 >
@@ -6360,7 +6356,12 @@ propid
 types
 :
 :
-TYPE_UNKNOWN
+Type
+:
+:
+UnknownType
+(
+)
 )
 ;
 if

@@ -6108,7 +6108,7 @@ target
 types
 :
 :
-jstype
+Type
 type
 )
 ;
@@ -6220,7 +6220,7 @@ which
 types
 :
 :
-jstype
+Type
 type
 )
 ;

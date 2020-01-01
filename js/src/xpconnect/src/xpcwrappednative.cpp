@@ -18852,6 +18852,9 @@ get
 return
 NS_OK
 ;
+if
+(
+!
 JS_SplicePrototype
 (
 ccx
@@ -18864,6 +18867,12 @@ newProto
 GetJSProtoObject
 (
 )
+)
+)
+return
+UnexpectedFailure
+(
+NS_ERROR_FAILURE
 )
 ;
 SetProto

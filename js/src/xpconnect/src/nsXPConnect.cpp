@@ -7633,6 +7633,9 @@ protoJSObject
 globalJSObj
 )
 ;
+if
+(
+!
 JS_SplicePrototype
 (
 aJSContext
@@ -7643,6 +7646,12 @@ scope
 GetPrototypeJSObject
 (
 )
+)
+)
+return
+UnexpectedFailure
+(
+NS_ERROR_FAILURE
 )
 ;
 }

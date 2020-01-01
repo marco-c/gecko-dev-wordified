@@ -4212,10 +4212,11 @@ nj
 :
 LIR_ldp
 obj
-offsetof
-(
 JSObject
-type
+:
+:
+offsetOfType
+(
 )
 ACCSET_OBJ_TYPE
 )

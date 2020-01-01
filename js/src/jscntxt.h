@@ -12075,9 +12075,9 @@ mjit
 void
 ExpandInlineFrames
 (
-JSContext
+JSCompartment
 *
-cx
+compartment
 bool
 all
 )
@@ -12211,6 +12211,9 @@ mjit
 ExpandInlineFrames
 (
 cx
+-
+>
+compartment
 expand
 =
 =

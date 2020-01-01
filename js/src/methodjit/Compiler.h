@@ -1313,7 +1313,7 @@ typeMonitored
 types
 :
 :
-ClonedTypeSet
+TypeSet
 *
 rhsTypes
 ;

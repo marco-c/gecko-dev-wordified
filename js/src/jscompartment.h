@@ -2543,14 +2543,6 @@ types
 TypeCompartment
 types
 ;
-bool
-condenseTypes
-(
-JSContext
-*
-cx
-)
-;
 /
 *
 Data
