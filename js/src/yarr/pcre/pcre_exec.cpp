@@ -3740,6 +3740,9 @@ during
 jumps
 *
 /
+bool
+minSatisfied
+;
 MatchStack
 stack
 (
@@ -4251,7 +4254,6 @@ currentFrame
 .
 *
 /
-bool
 minSatisfied
 =
 stack
@@ -15643,7 +15645,6 @@ currentFrame
 .
 *
 /
-bool
 minSatisfied
 =
 stack
@@ -17854,12 +17855,6 @@ returnCode
 =
 =
 JSRegExpErrorHitLimit
-|
-|
-returnCode
-=
-=
-JSRegExpErrorNoMemory
 )
 ;
 DPRINTF
@@ -17946,6 +17941,14 @@ matchBlock
 startSubject
 ;
 }
+JS_ASSERT
+(
+returnCode
+>
+=
+0
+)
+;
 DPRINTF
 (
 (

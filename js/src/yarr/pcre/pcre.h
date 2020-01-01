@@ -559,13 +559,6 @@ JSRegExpErrorHitLimit
 ;
 const
 int
-JSRegExpErrorNoMemory
-=
--
-3
-;
-const
-int
 JSRegExpErrorInternal
 =
 -
