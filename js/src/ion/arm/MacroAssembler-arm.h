@@ -7435,6 +7435,15 @@ dest
 )
 ;
 void
+orPtr
+(
+Register
+src
+Register
+dest
+)
+;
+void
 andPtr
 (
 Imm32
