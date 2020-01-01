@@ -876,11 +876,6 @@ RenderLayer
 (
 int
 aPreviousFrameBuffer
-DrawThebesLayerCallback
-aCallback
-void
-*
-aCallbackData
 )
 {
 /
@@ -1363,8 +1358,6 @@ layerToRender
 RenderLayer
 (
 frameBuffer
-aCallback
-aCallbackData
 )
 ;
 layerToRender
