@@ -346,12 +346,6 @@ mObserver
 ;
 nsCOMPtr
 <
-nsISupports
->
-mObserverContext
-;
-nsCOMPtr
-<
 nsIEventTarget
 >
 mTarget

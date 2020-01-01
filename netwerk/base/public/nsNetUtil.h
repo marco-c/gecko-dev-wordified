@@ -3524,6 +3524,9 @@ result
 nsIRequestObserver
 *
 observer
+nsISupports
+*
+context
 )
 {
 nsresult
@@ -3558,6 +3561,7 @@ proxy
 Init
 (
 observer
+context
 )
 ;
 if

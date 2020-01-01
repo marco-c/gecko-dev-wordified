@@ -184,6 +184,12 @@ nsIRequestObserver
 >
 mObserver
 ;
+nsCOMPtr
+<
+nsISupports
+>
+mContext
+;
 friend
 class
 nsOnStartRequestEvent
@@ -206,8 +212,6 @@ nsARequestObserverEvent
 (
 nsIRequest
 *
-nsISupports
-*
 )
 ;
 protected
@@ -224,12 +228,6 @@ nsCOMPtr
 nsIRequest
 >
 mRequest
-;
-nsCOMPtr
-<
-nsISupports
->
-mContext
 ;
 }
 ;
