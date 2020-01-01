@@ -2424,6 +2424,8 @@ Bitmap
 bitmap
 )
 {
+try
+{
 ContentResolver
 resolver
 =
@@ -2604,6 +2606,17 @@ close
 (
 )
 ;
+}
+catch
+(
+IllegalArgumentException
+e
+)
+{
+/
+/
+ignore
+}
 }
 private
 class
