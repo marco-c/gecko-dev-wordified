@@ -167,12 +167,7 @@ hg
 )
 :
     
-(
-junk
-repo
-path
-rev
-)
+bits
 =
 name
 .
@@ -183,6 +178,25 @@ split
 "
 )
     
+if
+len
+(
+bits
+)
+=
+=
+4
+:
+      
+(
+junk
+repo
+path
+rev
+)
+=
+bits
+      
 #
 We
 could
@@ -201,7 +215,7 @@ annotate
 like
 this
 :
-    
+      
 #
 return
 "
@@ -228,7 +242,7 @@ repo
 rev
 path
 )
-    
+      
 return
 path
 +
@@ -243,7 +257,7 @@ name
 :
 "
 class
-readSymbolFile
+SymbolFile
 :
   
 def
@@ -811,6 +825,39 @@ d1
 )
 :
     
+fn
+=
+fn
++
+"
+.
+pdb
+"
+    
+d1
+=
+os
+.
+path
+.
+join
+(
+symbolsDir
+fn
+)
+    
+if
+not
+os
+.
+path
+.
+exists
+(
+d1
+)
+:
+      
 return
 None
   
@@ -868,6 +915,27 @@ for
 fn
 )
   
+if
+fn
+.
+endswith
+(
+"
+.
+pdb
+"
+)
+:
+    
+fn
+=
+fn
+[
+:
+-
+4
+]
+  
 return
 os
 .
@@ -892,10 +960,9 @@ parsedSymbolFiles
 {
 }
 def
-addressToSymbol
+getSymbolFile
 (
 file
-address
 symbolsDir
 )
 :
@@ -925,7 +992,7 @@ symfile
       
 p
 =
-readSymbolFile
+SymbolFile
 (
 symfile
 )
@@ -953,6 +1020,25 @@ parsedSymbolFiles
 [
 file
 ]
+  
+return
+p
+def
+addressToSymbol
+(
+file
+address
+symbolsDir
+)
+:
+  
+p
+=
+getSymbolFile
+(
+file
+symbolsDir
+)
   
 if
 p
@@ -1006,7 +1092,7 @@ F
 ]
 {
 1
-8
+16
 }
 )
 \
@@ -1177,7 +1263,7 @@ n
   
 else
 :
-      
+    
 return
 line
 if
