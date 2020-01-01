@@ -372,13 +372,6 @@ h
 #
 include
 "
-nsChildIterator
-.
-h
-"
-#
-include
-"
 nsITheme
 .
 h

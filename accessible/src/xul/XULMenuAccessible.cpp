@@ -2882,7 +2882,7 @@ do_QueryInterface
 mContent
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 )
@@ -3098,7 +3098,7 @@ content
 content
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 ;

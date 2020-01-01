@@ -226,6 +226,13 @@ h
 #
 include
 "
+ChildIterator
+.
+h
+"
+#
+include
+"
 nsComputedDOMStyle
 .
 h
@@ -248,6 +255,13 @@ h
 include
 "
 nsRange
+.
+h
+"
+#
+include
+"
+nsContentList
 .
 h
 "

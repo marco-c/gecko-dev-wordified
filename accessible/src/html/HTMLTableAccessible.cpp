@@ -2400,6 +2400,14 @@ otherwise
 /
 rowheader
 .
+/
+/
+This
+should
+iterate
+the
+flattened
+tree
 nsIContent
 *
 parentContent

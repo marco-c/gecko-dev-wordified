@@ -999,6 +999,9 @@ GetContent
 (
 )
 ;
+*
+aResult
+=
 aShell
 -
 >
@@ -1010,8 +1013,12 @@ FrameConstructor
 GetInsertionPoint
 (
 aFrame
+-
+>
+GetContent
+(
+)
 child
-aResult
 )
 ;
 }

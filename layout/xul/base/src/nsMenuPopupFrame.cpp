@@ -10771,8 +10771,6 @@ nsIFrame
 *
 immediateParent
 =
-nullptr
-;
 PresContext
 (
 )
@@ -10790,10 +10788,10 @@ FrameConstructor
 >
 GetInsertionPoint
 (
-this
+GetContent
+(
+)
 nullptr
-&
-immediateParent
 )
 ;
 if
