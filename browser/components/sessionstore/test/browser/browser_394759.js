@@ -1040,6 +1040,7 @@ openWindowRec
 (
 windowsToOpen
 expectedResults
+recCallback
 )
 {
 /
@@ -1199,7 +1200,7 @@ cleanup
 return
 executeSoon
 (
-callback
+recCallback
 )
 ;
 return
@@ -1409,6 +1410,7 @@ openWindowRec
 (
 windowsToOpen
 expectedResults
+recCallback
 )
 ;
 }

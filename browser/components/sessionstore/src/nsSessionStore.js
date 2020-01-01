@@ -20841,6 +20841,8 @@ _closedWindows
 length
 &
 &
+!
+!
 this
 .
 _closedWindows
