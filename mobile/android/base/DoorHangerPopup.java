@@ -113,15 +113,6 @@ Context
 import
 android
 .
-content
-.
-res
-.
-Resources
-;
-import
-android
-.
 graphics
 .
 drawable

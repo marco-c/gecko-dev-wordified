@@ -149,13 +149,6 @@ util
 .
 AttributeSet
 ;
-import
-android
-.
-util
-.
-Log
-;
 class
 MultiChoicePreference
 extends

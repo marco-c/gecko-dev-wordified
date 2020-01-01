@@ -308,13 +308,6 @@ Date
 import
 org
 .
-json
-.
-JSONArray
-;
-import
-org
-.
 mozilla
 .
 gecko

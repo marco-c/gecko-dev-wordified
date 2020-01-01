@@ -108,13 +108,6 @@ AttributeSet
 import
 android
 .
-util
-.
-Log
-;
-import
-android
-.
 view
 .
 KeyEvent
@@ -146,13 +139,6 @@ android
 view
 .
 View
-;
-import
-android
-.
-view
-.
-ViewGroup
 ;
 import
 android

@@ -250,17 +250,6 @@ mozilla
 .
 gecko
 .
-gfx
-.
-PointUtils
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 PropertyAnimator
 .
 Property

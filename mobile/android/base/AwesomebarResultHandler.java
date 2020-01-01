@@ -64,15 +64,6 @@ mozilla
 gecko
 ;
 import
-java
-.
-util
-.
-concurrent
-.
-SynchronousQueue
-;
-import
 android
 .
 content

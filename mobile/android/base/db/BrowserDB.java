@@ -128,15 +128,6 @@ drawable
 .
 BitmapDrawable
 ;
-import
-org
-.
-mozilla
-.
-gecko
-.
-GeckoProfile
-;
 public
 class
 BrowserDB

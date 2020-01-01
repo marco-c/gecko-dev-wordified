@@ -128,17 +128,6 @@ gecko
 .
 gfx
 .
-FloatSize
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-gfx
-.
 LayerController
 ;
 import

@@ -122,13 +122,6 @@ Context
 import
 android
 .
-graphics
-.
-PointF
-;
-import
-android
-.
 os
 .
 SystemClock

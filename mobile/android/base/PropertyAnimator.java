@@ -128,13 +128,6 @@ TimerTask
 import
 android
 .
-os
-.
-Handler
-;
-import
-android
-.
 view
 .
 animation

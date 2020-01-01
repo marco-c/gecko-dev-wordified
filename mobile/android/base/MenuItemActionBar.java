@@ -82,13 +82,6 @@ android
 .
 graphics
 .
-Color
-;
-import
-android
-.
-graphics
-.
 drawable
 .
 Drawable
@@ -106,13 +99,6 @@ android
 util
 .
 DisplayMetrics
-;
-import
-android
-.
-util
-.
-Log
 ;
 import
 android

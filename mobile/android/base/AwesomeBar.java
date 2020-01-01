@@ -208,13 +208,6 @@ android
 .
 util
 .
-AttributeSet
-;
-import
-android
-.
-util
-.
 Log
 ;
 import
