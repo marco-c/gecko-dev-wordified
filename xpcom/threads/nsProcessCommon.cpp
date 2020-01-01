@@ -3572,6 +3572,11 @@ NS_ERROR_FAILURE
 else
 if
 (
+!
+mProcess
+|
+|
+(
 PR_KillProcess
 (
 mProcess
@@ -3579,6 +3584,7 @@ mProcess
 !
 =
 PR_SUCCESS
+)
 )
 return
 NS_ERROR_FAILURE
