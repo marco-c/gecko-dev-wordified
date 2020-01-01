@@ -10519,8 +10519,6 @@ a
 /
 /
 floating
-xul
-:
 panel
 .
 hud
@@ -14695,8 +14693,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 hbox
 "
 )
@@ -14710,8 +14706,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 label
 "
 )
@@ -14761,8 +14755,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 hbox
 "
 )
@@ -14827,8 +14819,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 label
 "
 )
@@ -14942,8 +14932,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 label
 "
 )
@@ -18097,8 +18085,6 @@ a
 reference
 to
 the
-xul
-:
 tab
 object
 and
@@ -21177,8 +21163,6 @@ return
 nsIDOMNode
 *
 The
-xul
-:
 toolbarbutton
 which
 holds
@@ -32391,8 +32375,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 vbox
 "
 )
@@ -32449,8 +32431,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 image
 "
 )
@@ -32496,8 +32476,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 spacer
 "
 )
@@ -32545,8 +32523,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 description
 "
 )
@@ -32670,8 +32646,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 hbox
 "
 )
@@ -32697,8 +32671,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 label
 "
 )
@@ -32752,8 +32724,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 label
 "
 )
@@ -32876,8 +32846,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 richlistitem
 "
 )
@@ -33403,8 +33371,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 label
 "
 )
@@ -34312,8 +34278,6 @@ childNodes
 ]
 is
 the
-xul
-:
 description
 element
 if
