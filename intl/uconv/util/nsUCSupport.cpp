@@ -1229,6 +1229,7 @@ mBufferLength
 >
 0
 )
+{
 if
 (
 dest
@@ -1243,6 +1244,7 @@ NS_OK_UDEC_MOREOUTPUT
 ;
 }
 else
+{
 for
 (
 ;
@@ -1512,6 +1514,8 @@ break
 ;
 }
 }
+}
+}
 if
 (
 res
@@ -1612,6 +1616,8 @@ buffer
 is
 growing
 out
+/
+/
 of
 control
 res
