@@ -1379,6 +1379,13 @@ endif
 /
 /
 MOZ_SMIL
+#
+include
+"
+nsRefreshDriver
+.
+h
+"
 /
 /
 FOR

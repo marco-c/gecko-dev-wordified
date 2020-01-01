@@ -1311,6 +1311,13 @@ h
 "
 #
 endif
+#
+include
+"
+nsRefreshDriver
+.
+h
+"
 /
 /
 Drag
