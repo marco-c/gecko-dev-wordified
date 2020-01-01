@@ -815,6 +815,10 @@ DOMCI_CLASS
 (
 LockedFile
 )
+DOMCI_CLASS
+(
+CSSFontFeatureValuesRule
+)
 #
 ifdef
 MOZ_TIME_MANAGER
@@ -827,5 +831,9 @@ endif
 #
 ifdef
 MOZ_WEBRTC
+DOMCI_CLASS
+(
+DataChannel
+)
 #
 endif
