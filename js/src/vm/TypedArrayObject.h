@@ -2215,6 +2215,15 @@ NULL
 )
 ;
 void
+copyTypedArrayElement
+(
+uint32_t
+index
+MutableHandleValue
+vp
+)
+;
+void
 neuter
 (
 )
