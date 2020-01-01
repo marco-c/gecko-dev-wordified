@@ -23926,7 +23926,7 @@ newBit
 *
 alphas
 >
-0
+0x7f
 ;
 alphas
 +
@@ -24091,7 +24091,7 @@ newBit
 *
 alphas
 >
-0
+0x7f
 ;
 alphas
 +
