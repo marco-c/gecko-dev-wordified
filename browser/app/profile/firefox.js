@@ -2958,7 +2958,7 @@ general
 .
 smoothScroll
 "
-false
+true
 )
 ;
 #
