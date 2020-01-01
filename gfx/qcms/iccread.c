@@ -5713,7 +5713,7 @@ return
 ;
 else
 return
-floor
+floorf
 (
 a
 *
