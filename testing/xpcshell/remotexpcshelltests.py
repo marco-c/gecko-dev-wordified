@@ -77,6 +77,8 @@ from
 automationutils
 import
 *
+from
+mozdevice
 import
 devicemanager
 devicemanagerADB
