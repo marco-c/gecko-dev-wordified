@@ -154,7 +154,6 @@ enableLogging
 (
 "
 tree
-stack
 "
 )
 ;
