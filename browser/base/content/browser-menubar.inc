@@ -3904,7 +3904,7 @@ maxResults
 tooltip
 =
 "
-btTooltip
+bhTooltip
 "
 >
 <
@@ -4349,7 +4349,7 @@ event
 tooltip
 =
 "
-btTooltip
+bhTooltip
 "
 >
 <
