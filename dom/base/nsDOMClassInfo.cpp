@@ -3592,6 +3592,17 @@ BindingUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+HTMLCollectionBinding
+.
+h
+"
 using
 namespace
 mozilla
