@@ -870,6 +870,9 @@ return
 want
 ;
 }
+#
+ifdef
+JS_METHODJIT
 void
 Probes
 :
@@ -1097,6 +1100,8 @@ size
 )
 ;
 }
+#
+endif
 /
 *
 ICs

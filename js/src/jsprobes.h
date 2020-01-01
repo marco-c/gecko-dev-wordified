@@ -1700,6 +1700,9 @@ granularityRequested
 =
 0
 ;
+#
+ifdef
+JS_METHODJIT
 virtual
 void
 registerMJITCode
@@ -1797,6 +1800,8 @@ size
 =
 0
 ;
+#
+endif
 virtual
 void
 discardExecutableRegion
@@ -1927,6 +1932,9 @@ JITGranularityRequested
 (
 )
 ;
+#
+ifdef
+JS_METHODJIT
 /
 *
 *
@@ -2051,6 +2059,13 @@ size_t
 size
 )
 ;
+#
+endif
+/
+*
+JS_METHODJIT
+*
+/
 /
 *
 *
