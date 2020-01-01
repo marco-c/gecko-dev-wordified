@@ -1971,7 +1971,7 @@ self
 .
 _devicemanager
 .
-checkCmdAs
+_checkCmdAs
 (
 [
 '
@@ -2002,7 +2002,7 @@ self
 .
 _devicemanager
 .
-checkCmdAs
+_checkCmdAs
 (
 [
 '
@@ -2043,7 +2043,7 @@ self
 .
 _devicemanager
 .
-checkCmdAs
+_checkCmdAs
 (
 [
 '
@@ -3519,7 +3519,7 @@ self
 .
 _devicemanager
 .
-checkCmdAs
+_checkCmdAs
 (
 [
 '
@@ -3557,7 +3557,7 @@ self
 .
 _devicemanager
 .
-checkCmdAs
+_checkCmdAs
 (
 [
 '
@@ -3598,7 +3598,7 @@ self
 .
 _devicemanager
 .
-checkCmdAs
+_checkCmdAs
 (
 [
 '
