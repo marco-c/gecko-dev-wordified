@@ -481,10 +481,10 @@ h
 define
 DEBUG_SPELLCHECK
 class
-nsIDOMRange
+nsIRange
 ;
 class
-nsIDOMNode
+nsINode
 ;
 /
 *
@@ -692,7 +692,7 @@ public
 struct
 NodeOffset
 {
-nsIDOMNode
+nsINode
 *
 mNode
 ;
@@ -701,7 +701,7 @@ mOffset
 ;
 NodeOffset
 (
-nsIDOMNode
+nsINode
 *
 aNode
 PRInt32
@@ -759,7 +759,7 @@ aWeakEditor
 nsresult
 SetEnd
 (
-nsIDOMNode
+nsINode
 *
 aEndNode
 PRInt32
@@ -801,7 +801,7 @@ start
 nsresult
 SetPosition
 (
-nsIDOMNode
+nsINode
 *
 aNode
 PRInt32
@@ -929,7 +929,7 @@ nsIDOMNode
 aWordNode
 PRInt32
 aWordOffset
-nsIDOMRange
+nsIRange
 *
 *
 aRange
@@ -1009,7 +1009,7 @@ GetNextWord
 nsAString
 &
 aText
-nsIDOMRange
+nsIRange
 *
 *
 aRange
@@ -1071,7 +1071,7 @@ return
 mDocument
 ;
 }
-nsIDOMNode
+nsINode
 *
 GetRootNode
 (
@@ -1127,8 +1127,10 @@ range
 to
 check
 see
-SetRange
-nsIDOMNode
+SetPosition
+and
+SetEnd
+nsINode
 *
 mRootNode
 ;
@@ -1617,7 +1619,7 @@ NodeOffset
 aBegin
 NodeOffset
 aEnd
-nsIDOMRange
+nsIRange
 *
 *
 aRange
@@ -1630,7 +1632,7 @@ const
 RealWord
 &
 aWord
-nsIDOMRange
+nsIRange
 *
 *
 aRange

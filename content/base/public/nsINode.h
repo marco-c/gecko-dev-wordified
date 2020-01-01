@@ -529,6 +529,13 @@ nsDOMMemoryReporter
 .
 h
 "
+#
+include
+"
+nsIVariant
+.
+h
+"
 /
 /
 Including
@@ -611,9 +618,6 @@ nsNodeSupportsWeakRefTearoff
 ;
 class
 nsIEditor
-;
-class
-nsIVariant
 ;
 class
 nsIDOMUserDataHandler

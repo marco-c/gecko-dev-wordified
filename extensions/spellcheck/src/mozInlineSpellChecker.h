@@ -459,7 +459,7 @@ h
 #
 include
 "
-nsIDOMRange
+nsIRange
 .
 h
 "
@@ -636,7 +636,7 @@ InitForSelection
 nsresult
 InitForRange
 (
-nsIDOMRange
+nsIRange
 *
 aRange
 )
@@ -779,7 +779,7 @@ range
 .
 nsCOMPtr
 <
-nsIDOMRange
+nsIRange
 >
 mRange
 ;
@@ -840,7 +840,7 @@ NULL
 .
 nsCOMPtr
 <
-nsIDOMRange
+nsIRange
 >
 mNoCheckRange
 ;
@@ -1736,7 +1736,7 @@ nsIDOMNode
 aEndNode
 PRInt32
 aEndOffset
-nsIDOMRange
+nsIRange
 *
 *
 aRange
