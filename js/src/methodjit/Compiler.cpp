@@ -3596,9 +3596,7 @@ singleStepMode
 script
 -
 >
-stepModeEnabled
-(
-)
+singleStepMode
 ;
 if
 (
@@ -7481,9 +7479,7 @@ if
 script
 -
 >
-stepModeEnabled
-(
-)
+singleStepMode
 &
 &
 scanner
