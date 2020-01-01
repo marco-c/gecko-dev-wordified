@@ -1665,6 +1665,11 @@ id
 "
 menu_tabview
 "
+key
+=
+"
+key_tabview
+"
 label
 =
 "
