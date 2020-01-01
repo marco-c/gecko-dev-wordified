@@ -5711,6 +5711,9 @@ uint32_t
 numGlyphRuns
 ;
 const
+gfxTextRun
+:
+:
 GlyphRun
 *
 glyphRuns
