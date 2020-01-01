@@ -507,9 +507,14 @@ JSObject
 global
 (
 mCx
-JS_GetGlobalObject
+JS_GetGlobalForObject
 (
 mCx
+mCallback
+.
+ToJSObject
+(
+)
 )
 )
 ;
