@@ -446,6 +446,13 @@ jsapi
 .
 h
 "
+#
+include
+"
+jspubtd
+.
+h
+"
 /
 *
 *
@@ -466,6 +473,9 @@ OBJ_TO_OUTER_OBJECT
 cx
 obj
 )
+\
+do
+{
 \
 JSClass
 *
@@ -521,6 +531,12 @@ obj
 ;
 \
 }
+\
+}
+while
+(
+0
+)
 #
 ifdef
 DEBUG
