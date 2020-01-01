@@ -8875,10 +8875,14 @@ arguments
 var
 isLoadingBlank
 =
-isBlankPageURL
-(
 uriToLoad
-)
+=
+=
+"
+about
+:
+blank
+"
 ;
 var
 mustLoadSidebar
@@ -8894,14 +8898,8 @@ if
 uriToLoad
 &
 &
-uriToLoad
 !
-=
-"
-about
-:
-blank
-"
+isLoadingBlank
 )
 {
 if
@@ -40810,7 +40808,6 @@ button
 2
 )
 return
-true
 ;
 let
 [
@@ -40887,7 +40884,6 @@ preventDefault
 ;
 }
 return
-true
 ;
 }
 /
@@ -41103,7 +41099,6 @@ data
 "
 )
 return
-true
 ;
 try
 {
@@ -41137,7 +41132,6 @@ preventDefault
 )
 ;
 return
-true
 ;
 }
 let
@@ -41161,7 +41155,6 @@ if
 url
 )
 return
-true
 ;
 loadURI
 (
@@ -41180,7 +41173,6 @@ preventDefault
 )
 ;
 return
-true
 ;
 }
 if
@@ -41301,7 +41293,6 @@ preventDefault
 )
 ;
 return
-true
 ;
 }
 }
@@ -41391,9 +41382,6 @@ URIs
 *
 /
 }
-return
-true
-;
 }
 /
 *

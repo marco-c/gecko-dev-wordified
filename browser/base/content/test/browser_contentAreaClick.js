@@ -1546,9 +1546,6 @@ linkId
 panellink
 "
 ;
-let
-returnValue
-=
 gTestWin
 .
 contentAreaClick
