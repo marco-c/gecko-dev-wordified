@@ -3756,8 +3756,6 @@ r
 :
 ShiftAmount
 (
-r
-.
 ShiftAmount
 )
 {

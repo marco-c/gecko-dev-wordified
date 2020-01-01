@@ -8025,7 +8025,7 @@ mir
 (
 )
 ;
-size_t
+int
 numCases
 =
 mir
