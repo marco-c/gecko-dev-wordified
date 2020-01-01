@@ -2382,6 +2382,10 @@ window
 height
 *
 4
+SharedMemory
+:
+:
+TYPE_BASIC
 &
 mShSurface
 )
