@@ -775,7 +775,7 @@ JS_ASSERT
 (
 entry
 .
-isValid
+isSet
 (
 )
 )
