@@ -1331,6 +1331,7 @@ x
 enabled
 x
 )
+;
 \
 updateEnabled
 :
@@ -1343,6 +1344,7 @@ x
 updateEnabled
 x
 )
+;
 \
 install
 :
@@ -1355,6 +1357,7 @@ x
 install
 x
 )
+;
 \
 installChrome
 :
@@ -1367,6 +1370,7 @@ x
 installChrome
 x
 )
+;
 \
 startSoftwareUpdate
 :
@@ -1379,6 +1383,7 @@ x
 startSoftwareUpdate
 x
 )
+;
 \
 }
 ;
