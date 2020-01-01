@@ -460,6 +460,11 @@ UnlockImage
 )
 ;
 nsresult
+StartDecoding
+(
+)
+;
+nsresult
 RequestDecode
 (
 )

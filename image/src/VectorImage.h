@@ -357,7 +357,11 @@ void
 NS_IMETHOD
 RequestDecode
 (
-void
+)
+;
+NS_IMETHOD
+StartDecoding
+(
 )
 ;
 NS_IMETHOD

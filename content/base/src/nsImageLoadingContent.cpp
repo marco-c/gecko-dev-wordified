@@ -1623,7 +1623,7 @@ IsPaintingSuppressed
 mCurrentRequest
 -
 >
-RequestDecode
+StartDecoding
 (
 )
 ;
