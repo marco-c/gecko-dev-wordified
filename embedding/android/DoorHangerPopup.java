@@ -581,6 +581,11 @@ BitmapDrawable
 )
 )
 ;
+setOutsideTouchable
+(
+true
+)
+;
 setWindowLayoutMode
 (
 ViewGroup
