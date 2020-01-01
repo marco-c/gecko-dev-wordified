@@ -227,6 +227,12 @@ types
 .
 *
 /
+struct
+_cairo_freelist
+;
+struct
+_cairo_freelist_node
+;
 typedef
 struct
 _cairo_freelist

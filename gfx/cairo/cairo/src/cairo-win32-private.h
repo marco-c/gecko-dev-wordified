@@ -376,7 +376,7 @@ SB_NONE
 #
 endif
 #
-ifdef
+if
 MOZILLA_CAIRO_NOT_DEFINED
 #
 define
@@ -664,6 +664,12 @@ _cairo_surface_is_win32
 cairo_surface_t
 *
 surface
+)
+;
+void
+_cairo_win32_initialize
+(
+void
 )
 ;
 #

@@ -203,7 +203,7 @@ Inc
 #
 include
 "
-pixmanint
+icint
 .
 h
 "
