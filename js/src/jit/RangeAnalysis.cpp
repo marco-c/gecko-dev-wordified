@@ -9260,6 +9260,17 @@ iterationBound
 iter
 )
 ;
+if
+(
+!
+mir
+-
+>
+compilingAsmJS
+(
+)
+)
+{
 /
 /
 Try
@@ -9525,6 +9536,7 @@ discard
 ins
 )
 ;
+}
 }
 graph_
 .
