@@ -105,6 +105,10 @@ None
 test_name
 =
 None
+                      
+quiet
+=
+False
 )
 :
     
@@ -317,6 +321,28 @@ function
 will
 be
 used
+.
+    
+If
+quiet
+is
+set
+no
+PROCESS
+-
+CRASH
+message
+will
+be
+printed
+to
+stdout
+if
+a
+    
+crash
+is
+detected
 .
     
 Returns
@@ -1074,6 +1100,11 @@ top
 frame
 "
             
+if
+not
+quiet
+:
+                
 print
 "
 PROCESS
@@ -1095,7 +1126,7 @@ s
 test_name
 top_frame
 )
-            
+                
 print
 '
 \

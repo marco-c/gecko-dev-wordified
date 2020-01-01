@@ -433,6 +433,10 @@ stackwalk_binary
 self
 .
 stackwalk
+                                                    
+quiet
+=
+True
 )
 )
     
@@ -529,6 +533,10 @@ stackwalk_binary
 self
 .
 stackwalk
+                                                
+quiet
+=
+True
 )
 )
     
@@ -630,6 +638,10 @@ tempdir
 '
 symbols_path
 '
+                                                
+quiet
+=
+True
 )
 )
         
@@ -757,6 +769,10 @@ stackwalk
 dump_save_path
 =
 save_path
+                                                
+quiet
+=
+True
 )
 )
         
@@ -900,6 +916,10 @@ stackwalk
 dump_save_path
 =
 save_path
+                                                
+quiet
+=
+True
 )
 )
         
@@ -1067,6 +1087,10 @@ stackwalk
 dump_save_path
 =
 save_path
+                                                
+quiet
+=
+True
 )
 )
         
@@ -1220,6 +1244,10 @@ stackwalk_binary
 self
 .
 stackwalk
+                                                
+quiet
+=
+True
 )
 )
         
@@ -1506,6 +1534,10 @@ stackwalk_binary
 self
 .
 stackwalk
+                                                
+quiet
+=
+True
 )
 )
 if
