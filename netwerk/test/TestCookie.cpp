@@ -5212,12 +5212,7 @@ cookie
 get
 (
 )
-MUST_EQUAL
-"
-test
-=
-expiry
-"
+MUST_BE_NULL
 )
 ;
 SetACookie
