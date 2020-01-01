@@ -704,6 +704,9 @@ parentid
 parentName
 "
 "
+predecessorid
+"
+"
 type
 "
 ]
@@ -950,9 +953,6 @@ description
 "
 "
 title
-"
-"
-children
 "
 ]
 )
