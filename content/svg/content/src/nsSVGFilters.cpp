@@ -3969,15 +3969,15 @@ PRInt32
 aStartMinor
 PRInt32
 aEndMinor
-PRUint32
+PRInt32
 aLeftLobe
-PRUint32
+PRInt32
 aRightLobe
 PRBool
 aAlphaOnly
 )
 {
-PRUint32
+PRInt32
 boxSize
 =
 aLeftLobe
@@ -3986,7 +3986,7 @@ aRightLobe
 +
 1
 ;
-PRUint32
+PRInt32
 scaledDivisor
 =
 ComputeScaledDivisor
@@ -3994,7 +3994,7 @@ ComputeScaledDivisor
 boxSize
 )
 ;
-PRUint32
+PRInt32
 sums
 [
 4
@@ -4009,7 +4009,7 @@ sums
 ;
 for
 (
-PRUint32
+PRInt32
 i
 =
 0
@@ -19912,6 +19912,9 @@ if
 (
 tileY
 <
+(
+PRUint32
+)
 surfaceRect
 .
 height
@@ -19962,6 +19965,9 @@ if
 (
 tileX
 <
+(
+PRUint32
+)
 surfaceRect
 .
 width
