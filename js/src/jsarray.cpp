@@ -20896,9 +20896,6 @@ JSSLOT_ARRAY_LENGTH
 JSSLOT_ARRAY_COUNT
 )
 ;
-#
-ifdef
-JS_TRACER
 JSObject
 *
 FASTCALL
@@ -21055,6 +21052,9 @@ return
 obj
 ;
 }
+#
+ifdef
+JS_TRACER
 JS_DEFINE_CALLINFO_2
 (
 extern
@@ -21065,6 +21065,8 @@ OBJECT
 0
 0
 )
+#
+endif
 JSObject
 *
 FASTCALL
@@ -21130,6 +21132,9 @@ return
 obj
 ;
 }
+#
+ifdef
+JS_TRACER
 JS_DEFINE_CALLINFO_3
 (
 extern
@@ -21143,11 +21148,6 @@ UINT32
 )
 #
 endif
-/
-*
-JS_TRACER
-*
-/
 JSObject
 *
 js_InitArrayClass
