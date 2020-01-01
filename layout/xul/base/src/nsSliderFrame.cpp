@@ -755,12 +755,12 @@ behavior
 immediately
 .
 static
-PRInt32
+PRBool
 GetScrollToClick
 (
 )
 {
-PRInt32
+PRBool
 scrollToClick
 =
 PR_FALSE
