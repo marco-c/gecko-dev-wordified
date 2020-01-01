@@ -1372,6 +1372,16 @@ GetTagsFolder
 (
 )
 ;
+mozIStorageStatement
+*
+DBGetIsVisited
+(
+)
+{
+return
+mDBIsPageVisited
+;
+}
 /
 /
 Constants
