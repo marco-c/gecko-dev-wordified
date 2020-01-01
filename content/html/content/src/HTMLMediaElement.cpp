@@ -578,6 +578,13 @@ h
 "
 #
 include
+"
+nsRange
+.
+h
+"
+#
+include
 <
 algorithm
 >

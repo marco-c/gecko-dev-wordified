@@ -7199,9 +7199,6 @@ single
 line
 )
 class
-SingleLineCrossAxisPositionTracker
-;
-class
 MOZ_STACK_CLASS
 CrossAxisPositionTracker
 :

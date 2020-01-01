@@ -122,13 +122,6 @@ h
 #
 include
 "
-nsHTMLParts
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h
@@ -176,13 +169,6 @@ SELECTION
 include
 "
 nsIContent
-.
-h
-"
-#
-include
-"
-nsFrameSelection
 .
 h
 "

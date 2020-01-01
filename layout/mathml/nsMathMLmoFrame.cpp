@@ -145,6 +145,13 @@ h
 #
 include
 "
+nsFrameSelection
+.
+h
+"
+#
+include
+"
 nsMathMLmoFrame
 .
 h
