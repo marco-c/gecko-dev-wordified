@@ -3934,7 +3934,12 @@ rt
 nsXPConnect
 :
 :
-GetRuntimeInstance
+FastGetXPConnect
+(
+)
+-
+>
+GetRuntime
 (
 )
 ;
