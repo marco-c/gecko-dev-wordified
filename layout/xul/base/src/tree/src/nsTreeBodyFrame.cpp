@@ -21171,7 +21171,12 @@ DrawSingleUnscaledImage
 &
 aRenderingContext
 image
+gfxPattern
+:
+:
+FILTER_NEAREST
 pt
+&
 aDirtyRect
 imgIContainer
 :
@@ -23369,7 +23374,12 @@ DrawSingleUnscaledImage
 &
 aRenderingContext
 image
+gfxPattern
+:
+:
+FILTER_NEAREST
 pt
+&
 aDirtyRect
 imgIContainer
 :
