@@ -2010,6 +2010,7 @@ function
 aItemId
 aParentId
 aIndex
+aItemType
 )
 {
 /
@@ -2050,14 +2051,7 @@ this
 _inBatchMode
 &
 &
-this
-.
-_bs
-.
-getItemType
-(
-aItemId
-)
+aItemType
 =
 =
 this
@@ -2084,7 +2078,9 @@ DBFlush_onItemChanged
 aItemId
 aProperty
 aIsAnnotationProperty
-aValue
+aNewValue
+aLastModified
+aItemType
 )
 {
 if
