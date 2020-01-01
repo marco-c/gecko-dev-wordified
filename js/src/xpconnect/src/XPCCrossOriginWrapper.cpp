@@ -1424,10 +1424,7 @@ JS_SetReservedSlot
 (
 cx
 xow
-XPCWrapper
-:
-:
-sNumSlots
+XPC_XOW_ScopeSlot
 PRIVATE_TO_JSVAL
 (
 newScope
@@ -6369,10 +6366,7 @@ JS_SetReservedSlot
 (
 cx
 wrapperIter
-XPCWrapper
-:
-:
-sNumSlots
+XPC_XOW_ScopeSlot
 PRIVATE_TO_JSVAL
 (
 nsnull
