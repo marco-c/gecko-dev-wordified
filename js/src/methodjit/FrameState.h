@@ -4861,7 +4861,8 @@ Assembler
 masm
 Registers
 avail
-uint32
+FrameEntry
+*
 resumeAt
 FrameEntry
 *
@@ -5038,6 +5039,7 @@ FrameEntry
 *
 fe
 )
+const
 {
 return
 uint32
