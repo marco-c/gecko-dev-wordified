@@ -572,7 +572,7 @@ mozilla_sampler_get_profile
 ;
 #
 define
-SAMPLE_CHECKPOINT
+SAMPLE_LABEL
 (
 name_space
 info
