@@ -3732,8 +3732,6 @@ case
 HASHABLEVALUE
 :
 {
-/
-*
 HashableValue
 :
 :
@@ -3761,8 +3759,6 @@ trace
 trc
 )
 ;
-*
-/
 return
 ;
 }
