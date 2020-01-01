@@ -1463,7 +1463,6 @@ kSetIntervalStr
 kSetTimeoutStr
 )
 ;
-return
 ncc
 -
 >
@@ -1471,6 +1470,9 @@ SetExceptionWasThrown
 (
 PR_TRUE
 )
+;
+return
+NS_ERROR_DOM_TYPE_ERR
 ;
 }
 if
@@ -1519,7 +1521,6 @@ kSetIntervalStr
 kSetTimeoutStr
 )
 ;
-return
 ncc
 -
 >
@@ -1527,6 +1528,9 @@ SetExceptionWasThrown
 (
 PR_TRUE
 )
+;
+return
+NS_ERROR_DOM_TYPE_ERR
 ;
 }
 switch
