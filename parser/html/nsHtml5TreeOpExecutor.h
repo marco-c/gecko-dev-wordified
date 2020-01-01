@@ -1100,15 +1100,6 @@ FlushTags
 ;
 virtual
 void
-PostEvaluateScript
-(
-nsIScriptElement
-*
-aElement
-)
-;
-virtual
-void
 ContinueInterruptedParsingAsync
 (
 )
