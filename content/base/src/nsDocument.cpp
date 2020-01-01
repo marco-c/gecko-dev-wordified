@@ -7791,7 +7791,6 @@ html
 )
 NULL
 kNameSpaceID_XHTML
-false
 getter_AddRefs
 (
 root
@@ -7842,7 +7841,6 @@ head
 )
 NULL
 kNameSpaceID_XHTML
-false
 getter_AddRefs
 (
 head
@@ -7893,7 +7891,6 @@ title
 )
 NULL
 kNameSpaceID_XHTML
-false
 getter_AddRefs
 (
 title
@@ -8006,7 +8003,6 @@ body
 )
 NULL
 kNameSpaceID_XHTML
-false
 getter_AddRefs
 (
 body
@@ -22984,7 +22980,6 @@ lcTagName
 aTagName
 nsnull
 mDefaultElementType
-false
 aReturn
 )
 ;
@@ -34146,8 +34141,6 @@ nsIAtom
 aPrefix
 PRInt32
 aNamespaceID
-bool
-aDocumentDefaultType
 nsIContent
 *
 *
@@ -34297,15 +34290,6 @@ aResult
 =
 nsnull
 ;
-PRInt32
-elementType
-=
-aDocumentDefaultType
-?
-mDefaultElementType
-:
-aNamespaceID
-;
 nsCOMPtr
 <
 nsINodeInfo
@@ -34340,7 +34324,7 @@ return
 NS_NewElement
 (
 aResult
-elementType
+aNamespaceID
 nodeInfo
 .
 forget
