@@ -257,6 +257,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsINode
+.
+h
+"
 /
 /
 dbeabbfa
@@ -288,9 +295,6 @@ NS_ICSSDECLARATION_IID
 0x1f
 }
 }
-class
-nsINode
-;
 class
 nsICSSDeclaration
 :

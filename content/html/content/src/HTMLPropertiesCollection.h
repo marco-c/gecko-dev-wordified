@@ -206,9 +206,13 @@ nsRefPtrHashtable
 .
 h
 "
-class
+#
+include
+"
 nsGenericHTMLElement
-;
+.
+h
+"
 class
 nsIDocument
 ;

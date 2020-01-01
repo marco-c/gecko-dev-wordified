@@ -152,9 +152,13 @@ nsAutoPtr
 .
 h
 "
-class
+#
+include
+"
 nsPIDOMWindow
-;
+.
+h
+"
 class
 nsMimeType
 ;
