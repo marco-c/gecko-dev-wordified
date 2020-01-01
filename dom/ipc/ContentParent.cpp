@@ -711,13 +711,6 @@ URIUtils
 h
 "
 #
-include
-"
-nsGeolocation
-.
-h
-"
-#
 ifdef
 ANDROID
 #
@@ -13019,7 +13012,7 @@ highAccuracy
 {
 nsCOMPtr
 <
-nsIGeolocation
+nsIDOMGeoGeolocation
 >
 geo
 =

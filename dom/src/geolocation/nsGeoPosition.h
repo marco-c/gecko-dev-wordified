@@ -699,6 +699,16 @@ Timestamp
 )
 const
 ;
+nsIDOMGeoPosition
+*
+GetWrappedGeoPosition
+(
+)
+{
+return
+mGeoPosition
+;
+}
 private
 :
 nsRefPtr
