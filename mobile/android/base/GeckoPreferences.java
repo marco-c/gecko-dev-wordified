@@ -709,7 +709,7 @@ R
 .
 xml
 .
-preferences_nonfragment
+preferences
 )
 ;
 }
@@ -930,7 +930,7 @@ putString
 (
 INTENT_EXTRA_RESOURCES
 "
-preferences_main
+preferences
 "
 )
 ;
