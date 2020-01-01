@@ -455,7 +455,7 @@ JS_METHODJIT
 &
 &
 defined
-JS_32BIT
+JS_NUNBOX32
 #
 define
 jsjaeger_assembler_h__

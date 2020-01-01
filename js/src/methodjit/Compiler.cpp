@@ -16958,7 +16958,7 @@ label
 #
 if
 defined
-JS_32BIT
+JS_NUNBOX32
 Jump
 j
 =
@@ -16985,7 +16985,7 @@ ImmPtr
 #
 elif
 defined
-JS_64BIT
+JS_PUNBOX64
 masm
 .
 loadPayload
@@ -17300,7 +17300,7 @@ jsval
 #
 if
 defined
-JS_32BIT
+JS_NUNBOX32
 Jump
 j
 =
@@ -17327,7 +17327,7 @@ ImmPtr
 #
 elif
 defined
-JS_64BIT
+JS_PUNBOX64
 masm
 .
 loadPayload

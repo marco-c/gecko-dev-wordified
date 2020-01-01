@@ -2994,7 +2994,7 @@ else
 #
 if
 defined
-JS_32BIT
+JS_NUNBOX32
 masm
 .
 storePayload
@@ -3014,7 +3014,7 @@ to
 #
 elif
 defined
-JS_64BIT
+JS_PUNBOX64
 masm
 .
 storePayload
