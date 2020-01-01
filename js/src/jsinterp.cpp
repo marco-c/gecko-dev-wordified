@@ -7328,6 +7328,11 @@ s
 \
 JS_BEGIN_MACRO
 \
+EnterAssertNoGCScope
+(
+)
+;
+\
 script
 =
 (
@@ -7371,6 +7376,11 @@ script
 hasAnyBreakpointsOrStepMode
 (
 )
+)
+;
+\
+LeaveAssertNoGCScope
+(
 )
 ;
 \

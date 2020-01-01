@@ -2649,6 +2649,9 @@ gcSavedRoots
 bool
 gcRelaxRootChecks
 ;
+int
+gcAssertNoGCDepth
+;
 #
 endif
 /
@@ -11995,7 +11998,10 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
-AutoAssertNoException
+AutoAssertNoGCOrException
+:
+public
+AutoAssertNoGC
 {
 #
 ifdef
@@ -12011,7 +12017,7 @@ hadException
 endif
 public
 :
-AutoAssertNoException
+AutoAssertNoGCOrException
 (
 JSContext
 *
@@ -12039,7 +12045,7 @@ endif
 {
 }
 ~
-AutoAssertNoException
+AutoAssertNoGCOrException
 (
 )
 {
