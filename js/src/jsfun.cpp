@@ -19516,6 +19516,7 @@ CloneFunctionObject
 cx
 fun
 scopeChain
+true
 )
 ;
 if
