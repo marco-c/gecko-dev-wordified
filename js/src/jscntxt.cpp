@@ -3439,13 +3439,14 @@ code
 ;
 warning
 with
-strict
+extra
+warnings
 option
 ;
 okay
+*
 otherwise
 .
-*
 We
 assume
 that
@@ -3459,9 +3460,9 @@ native
 then
 it
 is
+*
 strict
 if
-*
 the
 nearest
 scripted
@@ -3510,7 +3511,7 @@ if
 cx
 -
 >
-hasStrictOption
+hasExtraWarningsOption
 (
 )
 )
@@ -3554,7 +3555,7 @@ if
 cx
 -
 >
-hasStrictOption
+hasExtraWarningsOption
 (
 )
 )

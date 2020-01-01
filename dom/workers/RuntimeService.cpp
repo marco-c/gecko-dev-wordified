@@ -1512,7 +1512,7 @@ strict
 commonOptions
 |
 =
-JSOPTION_STRICT
+JSOPTION_EXTRA_WARNINGS
 ;
 }
 if
@@ -1769,7 +1769,7 @@ debug
 chromeOptions
 |
 =
-JSOPTION_STRICT
+JSOPTION_EXTRA_WARNINGS
 ;
 }
 #

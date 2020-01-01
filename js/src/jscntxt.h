@@ -10071,7 +10071,7 @@ opt
 ;
 }
 bool
-hasStrictOption
+hasExtraWarningsOption
 (
 )
 const
@@ -10079,7 +10079,7 @@ const
 return
 hasOption
 (
-JSOPTION_STRICT
+JSOPTION_EXTRA_WARNINGS
 )
 ;
 }

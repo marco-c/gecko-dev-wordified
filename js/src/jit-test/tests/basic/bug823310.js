@@ -28,7 +28,7 @@ one
 since
 /
 /
-JSOPTION_STRICT
+JSOPTION_EXTRA_WARNINGS
 isn
 '
 t
