@@ -28002,9 +28002,11 @@ true
 }
 /
 *
-Insist
-if
-setting
+If
+modifying
+the
+slot
+insist
 on
 obj
 being
