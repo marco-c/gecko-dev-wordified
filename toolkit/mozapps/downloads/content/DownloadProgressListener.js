@@ -678,7 +678,7 @@ Ci
 .
 nsIDownloadManager
 .
-DOWNLOAD_NOTSTARTED
+DOWNLOAD_QUEUED
 :
 /
 /
