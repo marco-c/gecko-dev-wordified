@@ -1483,6 +1483,14 @@ pref
 )
 ;
 nsresult
+setEnabledTLSVersions
+(
+nsIPrefBranch
+*
+pref
+)
+;
+nsresult
 InitializePIPNSSBundle
 (
 )
