@@ -433,13 +433,6 @@ main
 -
 menubar
 "
-statusbar
-=
-"
-statusbar
--
-display
-"
 style
 =
 "
