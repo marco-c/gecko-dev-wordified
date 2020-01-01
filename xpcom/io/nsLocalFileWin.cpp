@@ -12179,7 +12179,6 @@ GetLastError
 ;
 }
 FILETIME
-lft
 ft
 ;
 SYSTEMTIME
@@ -12201,7 +12200,7 @@ PR_ExplodeTime
 aLastModifiedTime
 *
 PR_USEC_PER_MSEC
-PR_LocalTimeParameters
+PR_GMTParameters
 &
 pret
 )
@@ -12317,18 +12316,6 @@ SystemTimeToFileTime
 (
 &
 st
-&
-lft
-)
-!
-=
-0
-&
-&
-LocalFileTimeToFileTime
-(
-&
-lft
 &
 ft
 )
