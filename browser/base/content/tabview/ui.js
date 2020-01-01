@@ -1862,6 +1862,13 @@ isDOMWindowClosing
 =
 true
 ;
+Storage
+.
+saveActiveGroupName
+(
+gWindow
+)
+;
 if
 (
 self
