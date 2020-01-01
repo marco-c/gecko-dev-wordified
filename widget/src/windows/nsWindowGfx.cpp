@@ -4248,7 +4248,9 @@ for
 nsIntRegionRectIterator
 iter
 (
-paintRgn
+event
+.
+region
 )
 ;
 (
