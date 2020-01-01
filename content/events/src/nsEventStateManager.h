@@ -599,7 +599,7 @@ XP_MACOSX
 |
 defined
 (
-NS_HILDON
+MOZ_PLATFORM_HILDON
 )
 #
 define
