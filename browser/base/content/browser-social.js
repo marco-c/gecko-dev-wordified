@@ -5483,6 +5483,14 @@ frame
 .
 docShell
 .
+isActive
+=
+false
+;
+frame
+.
+docShell
+.
 QueryInterface
 (
 Ci
