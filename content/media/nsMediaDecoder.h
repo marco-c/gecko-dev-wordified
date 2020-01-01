@@ -2082,7 +2082,7 @@ resource
 in
 units
 of
-milliseconds
+seconds
 .
 /
 /
@@ -2120,7 +2120,7 @@ virtual
 void
 SetDuration
 (
-PRInt64
+double
 aDuration
 )
 =
