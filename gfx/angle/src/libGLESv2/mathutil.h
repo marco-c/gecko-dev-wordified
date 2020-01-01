@@ -80,13 +80,11 @@ h
 >
 #
 include
-"
-common
-/
-system
+<
+windows
 .
 h
-"
+>
 namespace
 gl
 {

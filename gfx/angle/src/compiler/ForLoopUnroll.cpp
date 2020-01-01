@@ -8,7 +8,7 @@ c
 )
 2002
 -
-2013
+2011
 The
 ANGLE
 Project
@@ -1468,9 +1468,13 @@ return
 node
 -
 >
+getUnionArrayPointer
+(
+)
+-
+>
 getIConst
 (
-0
 )
 ;
 }

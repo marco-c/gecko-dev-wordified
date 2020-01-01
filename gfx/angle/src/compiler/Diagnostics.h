@@ -57,7 +57,7 @@ compiler
 /
 preprocessor
 /
-DiagnosticsBase
+Diagnostics
 .
 h
 "

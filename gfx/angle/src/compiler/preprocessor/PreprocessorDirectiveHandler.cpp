@@ -47,7 +47,7 @@ file
 #
 include
 "
-DirectiveHandlerBase
+DirectiveHandler
 .
 h
 "

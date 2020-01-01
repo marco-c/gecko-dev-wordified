@@ -2750,7 +2750,7 @@ std
 :
 vector
 <
-size_t
+int
 >
 ParamIndex
 ;

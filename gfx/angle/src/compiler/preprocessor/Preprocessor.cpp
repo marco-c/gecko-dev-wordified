@@ -64,7 +64,7 @@ sstream
 #
 include
 "
-DiagnosticsBase
+Diagnostics
 .
 h
 "
@@ -205,7 +205,7 @@ Preprocessor
 :
 init
 (
-size_t
+int
 count
 const
 char
