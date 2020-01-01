@@ -662,6 +662,16 @@ NS_THEME_TEXTFIELD_CARET
 /
 /
 A
+multiline
+text
+field
+#
+define
+NS_THEME_TEXTFIELD_MULTILINE
+97
+/
+/
+A
 dropdown
 list
 .
