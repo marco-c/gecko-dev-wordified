@@ -3379,7 +3379,8 @@ rt
 claimAttempts
 )
 ;
-JS_LOCK_GC
+AutoLockGC
+lock
 (
 rt
 )
@@ -3737,11 +3738,6 @@ title
 ownercx
 =
 cx
-;
-JS_UNLOCK_GC
-(
-rt
-)
 ;
 JS_RUNTIME_METER
 (
@@ -4121,11 +4117,6 @@ titleToShare
 NULL
 ;
 }
-JS_UNLOCK_GC
-(
-rt
-)
-;
 return
 JS_FALSE
 ;
