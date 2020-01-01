@@ -5590,6 +5590,16 @@ node
 from
 the
 treepanel
+if
+(
+this
+.
+treePanel
+.
+isOpen
+(
+)
+)
 this
 .
 treePanel
