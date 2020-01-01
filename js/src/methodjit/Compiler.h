@@ -2781,6 +2781,11 @@ popActiveFrame
 (
 )
 ;
+void
+generateInlinePrologue
+(
+)
+;
 /
 *
 Analysis
