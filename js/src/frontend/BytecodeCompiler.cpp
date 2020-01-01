@@ -773,6 +773,7 @@ JSScript
 Create
 (
 cx
+noScriptRval
 )
 ;
 if
@@ -792,7 +793,6 @@ parser
 sc
 script
 lineno
-noScriptRval
 needScriptGlobal
 )
 ;
@@ -1787,6 +1787,13 @@ JSScript
 Create
 (
 cx
+/
+*
+noScriptRval
+=
+*
+/
+false
 )
 ;
 if
@@ -1806,13 +1813,6 @@ parser
 funsc
 script
 lineno
-/
-*
-noScriptRval
-=
-*
-/
-false
 /
 *
 needsScriptGlobal

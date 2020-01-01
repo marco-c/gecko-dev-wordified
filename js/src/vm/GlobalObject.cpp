@@ -723,6 +723,13 @@ JSScript
 Create
 (
 cx
+/
+*
+noScriptRval
+=
+*
+/
+true
 )
 ;
 if

@@ -511,8 +511,6 @@ script
 unsigned
 lineno
 bool
-noScriptRval
-bool
 needScriptGlobal
 )
 :
@@ -602,10 +600,6 @@ context
 typesetCount
 (
 0
-)
-noScriptRval
-(
-noScriptRval
 )
 needScriptGlobal
 (
@@ -33171,6 +33165,13 @@ JSScript
 Create
 (
 cx
+/
+*
+noScriptRval
+=
+*
+/
+false
 )
 ;
 if
@@ -33199,13 +33200,6 @@ pn_pos
 begin
 .
 lineno
-/
-*
-noScriptRval
-=
-*
-/
-false
 /
 *
 needsScriptGlobal
@@ -35443,6 +35437,9 @@ JS_ASSERT
 bce
 -
 >
+script
+-
+>
 noScriptRval
 )
 ;
@@ -35455,6 +35452,9 @@ wantval
 =
 !
 bce
+-
+>
+script
 -
 >
 noScriptRval
