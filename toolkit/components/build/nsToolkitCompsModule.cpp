@@ -462,9 +462,6 @@ just
 yet
 #
 ifdef
-MOZ_XPINSTALL
-#
-ifdef
 MOZ_RDF
 #
 include
@@ -480,8 +477,6 @@ nsDownloadProxy
 .
 h
 "
-#
-endif
 #
 endif
 #
@@ -647,9 +642,6 @@ just
 yet
 #
 ifdef
-MOZ_XPINSTALL
-#
-ifdef
 MOZ_RDF
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
@@ -660,8 +652,6 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsDownloadProxy
 )
-#
-endif
 #
 endif
 #
@@ -841,9 +831,6 @@ just
 yet
 #
 ifdef
-MOZ_XPINSTALL
-#
-ifdef
 MOZ_RDF
 {
 "
@@ -862,8 +849,6 @@ NS_DOWNLOAD_CID
 NS_TRANSFER_CONTRACTID
 nsDownloadProxyConstructor
 }
-#
-endif
 #
 endif
 #
