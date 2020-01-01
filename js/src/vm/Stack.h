@@ -11491,6 +11491,10 @@ JSScript
 script
 InitialFrameFlags
 initial
+MaybeReportError
+report
+=
+REPORT_ERROR
 )
 ;
 bool
