@@ -285,6 +285,15 @@ aAccOrElmOrID
 )
 ;
 var
+context
+=
+new
+PivotContext
+(
+accessible
+)
+;
+var
 output
 =
 aGenerator
@@ -292,6 +301,7 @@ aGenerator
 genForObject
 (
 accessible
+context
 )
 ;
 var
