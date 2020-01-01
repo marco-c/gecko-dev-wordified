@@ -4373,6 +4373,11 @@ if
 DBSchemaVersion
 >
 2
+&
+&
+DBSchemaVersion
+<
+6
 )
 {
 /
