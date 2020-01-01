@@ -4232,9 +4232,10 @@ downloadStrings
 ;
 gDownloadManager
 .
-listener
-=
+addListener
+(
 gDownloadListener
+)
 ;
 /
 /
@@ -4787,9 +4788,10 @@ Shutdown
 {
 gDownloadManager
 .
-listener
-=
-null
+removeListener
+(
+gDownloadListener
+)
 ;
 var
 pbi

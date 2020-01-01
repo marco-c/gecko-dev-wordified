@@ -1481,9 +1481,10 @@ d
 ;
 dm
 .
+addListener
+(
 listener
-=
-listener
+)
 ;
 print
 (
