@@ -3723,7 +3723,7 @@ urlclassifier
 .
 randomizeclient
 "
-false
+true
 )
 ;
 /
@@ -6316,6 +6316,6 @@ jsloader
 .
 reuseGlobal
 "
-false
+true
 )
 ;
