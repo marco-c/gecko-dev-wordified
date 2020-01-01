@@ -1752,7 +1752,7 @@ Decoder
 :
 PostFrameStop
 (
-RasterImage
+FrameBlender
 :
 :
 FrameAlpha
@@ -1760,13 +1760,13 @@ aFrameAlpha
 /
 *
 =
-RasterImage
+FrameBlender
 :
 :
 kFrameHasAlpha
 *
 /
-RasterImage
+FrameBlender
 :
 :
 FrameDisposalMethod
@@ -1774,7 +1774,7 @@ aDisposalMethod
 /
 *
 =
-RasterImage
+FrameBlender
 :
 :
 kDisposeKeep
@@ -1788,7 +1788,7 @@ aTimeout
 0
 *
 /
-RasterImage
+FrameBlender
 :
 :
 FrameBlendMethod
@@ -1796,7 +1796,7 @@ aBlendMethod
 /
 *
 =
-RasterImage
+FrameBlender
 :
 :
 kBlendOver
@@ -1860,7 +1860,7 @@ if
 aFrameAlpha
 =
 =
-RasterImage
+FrameBlender
 :
 :
 kFrameOpaque

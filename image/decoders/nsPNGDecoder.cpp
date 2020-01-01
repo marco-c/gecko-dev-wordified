@@ -297,14 +297,14 @@ AnimFrameInfo
 :
 mDispose
 (
-RasterImage
+FrameBlender
 :
 :
 kDisposeKeep
 )
 mBlend
 (
-RasterImage
+FrameBlender
 :
 :
 kBlendOver
@@ -334,14 +334,14 @@ aInfo
 :
 mDispose
 (
-RasterImage
+FrameBlender
 :
 :
 kDisposeKeep
 )
 mBlend
 (
-RasterImage
+FrameBlender
 :
 :
 kBlendOver
@@ -502,7 +502,7 @@ PNG_DISPOSE_OP_PREVIOUS
 {
 mDispose
 =
-RasterImage
+FrameBlender
 :
 :
 kDisposeRestorePrevious
@@ -519,7 +519,7 @@ PNG_DISPOSE_OP_BACKGROUND
 {
 mDispose
 =
-RasterImage
+FrameBlender
 :
 :
 kDisposeClear
@@ -529,7 +529,7 @@ else
 {
 mDispose
 =
-RasterImage
+FrameBlender
 :
 :
 kDisposeKeep
@@ -545,7 +545,7 @@ PNG_BLEND_OP_SOURCE
 {
 mBlend
 =
-RasterImage
+FrameBlender
 :
 :
 kBlendSource
@@ -555,7 +555,7 @@ else
 {
 mBlend
 =
-RasterImage
+FrameBlender
 :
 :
 kBlendOver
@@ -1032,7 +1032,7 @@ mNumFrames
 +
 +
 ;
-RasterImage
+FrameBlender
 :
 :
 FrameAlpha
@@ -1044,7 +1044,7 @@ mFrameHasNoAlpha
 )
 alpha
 =
-RasterImage
+FrameBlender
 :
 :
 kFrameOpaque
@@ -1052,7 +1052,7 @@ kFrameOpaque
 else
 alpha
 =
-RasterImage
+FrameBlender
 :
 :
 kFrameHasAlpha

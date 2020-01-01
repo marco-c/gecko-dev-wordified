@@ -1748,13 +1748,13 @@ EndImageFrame
 (
 )
 {
-RasterImage
+FrameBlender
 :
 :
 FrameAlpha
 alpha
 =
-RasterImage
+FrameBlender
 :
 :
 kFrameHasAlpha
@@ -1898,7 +1898,7 @@ mSawTransparency
 {
 alpha
 =
-RasterImage
+FrameBlender
 :
 :
 kFrameOpaque
@@ -2075,7 +2075,7 @@ frame
 PostFrameStop
 (
 alpha
-RasterImage
+FrameBlender
 :
 :
 FrameDisposalMethod

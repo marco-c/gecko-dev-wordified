@@ -505,13 +505,13 @@ aInfo
 ;
 #
 endif
-RasterImage
+FrameBlender
 :
 :
 FrameDisposalMethod
 mDispose
 ;
-RasterImage
+FrameBlender
 :
 :
 FrameBlendMethod

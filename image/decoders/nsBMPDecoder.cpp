@@ -848,7 +848,7 @@ mUseAlphaData
 {
 PostFrameStop
 (
-RasterImage
+FrameBlender
 :
 :
 kFrameHasAlpha
@@ -859,7 +859,7 @@ else
 {
 PostFrameStop
 (
-RasterImage
+FrameBlender
 :
 :
 kFrameOpaque
