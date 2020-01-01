@@ -4992,7 +4992,7 @@ compileAndGoGlobal
 script
 -
 >
-global
+uninlinedGlobal
 (
 )
 )
