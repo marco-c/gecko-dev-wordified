@@ -452,7 +452,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -614,7 +614,11 @@ SortZOrderBackToFront
 (
 )
 ;
-nsVoidArray
+nsTArray
+<
+nsAppShellWindowEnumerator
+*
+>
 mEnumeratorList
 ;
 nsWindowInfo
