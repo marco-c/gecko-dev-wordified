@@ -116,8 +116,7 @@ array
 *
 /
 const
-unsigned
-char
+JSAMPLE
 static_range_table
 [
 (
