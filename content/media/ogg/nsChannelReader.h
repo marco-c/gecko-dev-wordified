@@ -484,7 +484,7 @@ the
 reader
 with
 the
-edia
+media
 stream
 .
 *
