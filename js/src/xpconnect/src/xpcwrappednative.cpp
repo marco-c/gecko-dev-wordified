@@ -11943,6 +11943,7 @@ JS_TRUE
 /
 /
 static
+NS_SUPPRESS_STACK_CHECK
 JSBool
 XPCWrappedNative
 :
