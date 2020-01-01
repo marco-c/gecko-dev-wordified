@@ -734,13 +734,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 xpcpublic
 .
 h

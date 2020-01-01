@@ -616,6 +616,13 @@ h
 #
 include
 "
+nsLayoutStatics
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h
