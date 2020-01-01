@@ -420,9 +420,7 @@ mStreamOffset
 )
 mStreamLength
 (
-LL_MaxUint
-(
-)
+UINT64_MAX
 )
 mStatus
 (
