@@ -22572,9 +22572,18 @@ p
 otherProcessVar
 (
 )
-ExprLiteral
-.
-ZERO
+ExprCall
+(
+ExprVar
+(
+'
+base
+:
+:
+GetCurrentProcessHandle
+'
+)
+)
 )
 )
                 
