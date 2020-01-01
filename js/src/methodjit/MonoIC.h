@@ -944,6 +944,11 @@ uintN
 traceEpoch
 ;
 bool
+initialized
+:
+1
+;
+bool
 hasSlowTraceHint
 :
 1
