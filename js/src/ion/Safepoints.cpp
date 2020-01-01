@@ -1122,6 +1122,9 @@ if
 (
 nentries
 )
+{
+/
+/
 JS_NOT_REACHED
 (
 "
@@ -1141,6 +1144,9 @@ calls
 "
 )
 ;
+return
+;
+}
 }
 void
 SafepointWriter
