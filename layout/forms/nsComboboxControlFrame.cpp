@@ -7760,6 +7760,7 @@ getter_AddRefs
 mButtonContent
 )
 nodeInfo
+PR_FALSE
 )
 ;
 if

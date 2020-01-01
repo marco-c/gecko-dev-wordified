@@ -5893,6 +5893,7 @@ getter_AddRefs
 content
 )
 nodeInfo
+PR_FALSE
 )
 ;
 NS_ENSURE_SUCCESS

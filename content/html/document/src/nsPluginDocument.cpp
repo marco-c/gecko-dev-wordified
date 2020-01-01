@@ -1431,6 +1431,7 @@ getter_AddRefs
 mPluginContent
 )
 nodeInfo
+PR_FALSE
 )
 ;
 NS_ENSURE_SUCCESS

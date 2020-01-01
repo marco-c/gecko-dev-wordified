@@ -10312,6 +10312,7 @@ result
 )
 aNameSpaceID
 nodeInfo
+PR_FALSE
 )
 ;
 if

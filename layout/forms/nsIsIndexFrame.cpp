@@ -1327,6 +1327,7 @@ getter_AddRefs
 mPreHr
 )
 hrInfo
+PR_FALSE
 )
 ;
 if
@@ -1443,6 +1444,7 @@ getter_AddRefs
 mInputContent
 )
 inputInfo
+PR_FALSE
 )
 ;
 if
@@ -1521,6 +1523,7 @@ getter_AddRefs
 mPostHr
 )
 hrInfo
+PR_FALSE
 )
 ;
 if

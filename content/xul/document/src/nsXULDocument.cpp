@@ -21562,6 +21562,7 @@ NamespaceID
 (
 )
 newNodeInfo
+PR_FALSE
 )
 ;
 if

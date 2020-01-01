@@ -2860,6 +2860,7 @@ mOpenedElement
 )
 aElemType
 ni
+PR_FALSE
 )
 ;
 /
@@ -5362,6 +5363,7 @@ NS_NewHTMLElement
 (
 aResult
 ni
+PR_FALSE
 )
 ;
 }

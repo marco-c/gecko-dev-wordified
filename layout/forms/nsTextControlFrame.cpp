@@ -9229,6 +9229,7 @@ getter_AddRefs
 mAnonymousDiv
 )
 nodeInfo
+PR_FALSE
 )
 ;
 NS_ENSURE_SUCCESS

@@ -1666,6 +1666,7 @@ NS_NewHTMLElement
 (
 aResult
 ni
+PR_FALSE
 )
 ;
 }
