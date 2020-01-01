@@ -7478,8 +7478,6 @@ availSpace
 ;
 nsReflowStatus
 frameStatus
-=
-NS_FRAME_COMPLETE
 ;
 /
 /
