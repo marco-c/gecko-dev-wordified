@@ -6176,6 +6176,12 @@ defined
 (
 JS_CPU_X86
 )
+|
+|
+defined
+(
+JS_CPU_X64
+)
 FrameEntry
 *
 lhs
@@ -6296,6 +6302,12 @@ if
 defined
 (
 JS_CPU_X86
+)
+|
+|
+defined
+(
+JS_CPU_X64
 )
 if
 (
