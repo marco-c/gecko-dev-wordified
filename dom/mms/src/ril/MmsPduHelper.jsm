@@ -7768,8 +7768,6 @@ A
 clause
 7
 .
-3
-.
 4
 *
 /
@@ -8839,6 +8837,14 @@ number
 entry
 ;
 }
+/
+/
+Encoding
+Version
+:
+1
+.
+2
 add
 (
 "
