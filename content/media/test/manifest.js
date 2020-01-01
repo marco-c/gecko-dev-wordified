@@ -457,7 +457,7 @@ duration
 /
 Ogg
 stream
-with
+without
 eof
 marker
 {
