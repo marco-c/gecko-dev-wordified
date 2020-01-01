@@ -7785,8 +7785,11 @@ already
 does
 xpc_UnmarkGrayObject
 .
+DebugOnly
+<
 JSObject
 *
+>
 o
 =
 f
