@@ -5418,6 +5418,14 @@ rv
 =
 NS_OK
 ;
+if
+(
+!
+current
+)
+return
+NS_ERROR_NULL_POINTER
+;
 switch
 (
 current
