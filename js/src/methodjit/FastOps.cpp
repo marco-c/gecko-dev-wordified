@@ -15683,7 +15683,7 @@ if
 types
 -
 >
-isLazyArguments
+isMagicArguments
 (
 cx
 )

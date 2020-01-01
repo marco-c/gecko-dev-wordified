@@ -498,10 +498,6 @@ yieldCount
 (
 0
 )
-argumentsCount
-(
-0
-)
 topStmt
 (
 NULL

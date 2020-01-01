@@ -6900,9 +6900,11 @@ script
 >
 bindings
 .
-hasLocalNames
+count
 (
 )
+>
+0
 )
 {
 jp
@@ -11236,7 +11238,7 @@ script
 >
 bindings
 .
-countLocalNames
+count
 (
 )
 NULL
@@ -31452,9 +31454,11 @@ script
 >
 bindings
 .
-hasLocalNames
+count
 (
 )
+>
+0
 )
 {
 innerLocalNames

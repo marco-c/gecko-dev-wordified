@@ -4977,6 +4977,14 @@ TreeContext
 tc
 )
 ;
+inline
+PropertyName
+*
+atom
+(
+)
+const
+;
 /
 *
 *

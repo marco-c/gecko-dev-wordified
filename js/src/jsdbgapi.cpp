@@ -2665,9 +2665,11 @@ script
 >
 bindings
 .
-hasLocalNames
+count
 (
 )
+>
+0
 ;
 }
 extern
