@@ -1847,6 +1847,17 @@ GetThebesSurface
 (
 )
 ;
+virtual
+void
+DrawOver
+(
+LayerManager
+*
+aManager
+nsIntRect
+aRect
+)
+;
 /
 /
 be

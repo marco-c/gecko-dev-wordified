@@ -2682,6 +2682,17 @@ GetThebesSurface
 (
 )
 ;
+virtual
+void
+DrawOver
+(
+LayerManager
+*
+aManager
+nsIntRect
+aRect
+)
+;
 NS_IMETHOD
 BeginSecureKeyboardInput
 (
