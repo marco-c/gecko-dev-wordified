@@ -23610,7 +23610,7 @@ clone
 fun
 -
 >
-countInterpretedReserveSlots
+countInterpretedReservedSlots
 (
 )
 )

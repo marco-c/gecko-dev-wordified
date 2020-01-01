@@ -11475,7 +11475,7 @@ uint32
 JSFunction
 :
 :
-countInterpretedReserveSlots
+countInterpretedReservedSlots
 (
 )
 const
@@ -11621,7 +11621,7 @@ fun
 fun
 -
 >
-countInterpretedReserveSlots
+countInterpretedReservedSlots
 (
 )
 :
@@ -15503,7 +15503,7 @@ that
 fun
 -
 >
-countInterpretedReserveSlots
+countInterpretedReservedSlots
 returns
 0
 when
@@ -15581,7 +15581,7 @@ closure
 fun
 -
 >
-countInterpretedReserveSlots
+countInterpretedReservedSlots
 (
 )
 )
