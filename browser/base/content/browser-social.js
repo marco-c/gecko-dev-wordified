@@ -2625,11 +2625,14 @@ aMode
 {
 if
 (
+!
 this
 .
 isAvailable
 )
-{
+return
+false
+;
 this
 .
 chatbar
@@ -2694,7 +2697,9 @@ focus
 (
 )
 ;
-}
+return
+true
+;
 }
 update
 :
