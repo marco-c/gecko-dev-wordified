@@ -1206,6 +1206,17 @@ self
 .
 remoteBinDir
 )
+        
+self
+.
+device
+.
+chmodDir
+(
+self
+.
+remoteBinDir
+)
     
 def
 setupTestDir
