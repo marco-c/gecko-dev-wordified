@@ -3742,13 +3742,13 @@ inPrivateBrowsing
 &
 gDownloadLastDir
 .
-path
+file
 )
 lastDir
 =
 gDownloadLastDir
 .
-path
+file
 ;
 else
 lastDir
@@ -4092,7 +4092,7 @@ inPrivateBrowsing
 )
 gDownloadLastDir
 .
-path
+file
 =
 directory
 ;
