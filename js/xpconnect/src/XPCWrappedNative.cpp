@@ -3485,7 +3485,7 @@ compartments
 js
 :
 :
-AutoDeadCompartmentGC
+AutoMaybeTouchDeadCompartments
 agc
 (
 parent
@@ -11898,10 +11898,10 @@ compartments
 js
 :
 :
-AutoDeadCompartmentGC
+AutoMaybeTouchDeadCompartments
 agc
 (
-parentobj
+parentObj
 )
 ;
 /
@@ -25004,7 +25004,7 @@ compartments
 js
 :
 :
-AutoDeadCompartmentGC
+AutoMaybeTouchDeadCompartments
 agc
 (
 parent
