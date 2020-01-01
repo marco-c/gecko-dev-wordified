@@ -1009,7 +1009,7 @@ eSystemFont_Button
 :
 fontID
 =
-kThemePushButtonFont
+kThemeSmallSystemFont
 ;
 break
 ;
