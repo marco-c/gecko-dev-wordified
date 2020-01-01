@@ -1217,7 +1217,7 @@ getter
 )
 JS_DATA_TO_FUNC_PTR
 (
-JSPropertyOp
+JSStrictPropertyOp
 setter
 )
 mJSAttributes

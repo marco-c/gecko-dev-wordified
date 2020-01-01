@@ -1200,6 +1200,8 @@ JSObject
 obj
 jsid
 idval
+JSBool
+strict
 jsval
 *
 vp
@@ -1317,6 +1319,8 @@ JSObject
 obj
 jsid
 idval
+JSBool
+strict
 jsval
 *
 vp
@@ -1417,6 +1421,8 @@ JSObject
 obj
 jsid
 idval
+JSBool
+strict
 jsval
 *
 vp
@@ -1667,6 +1673,8 @@ JSObject
 obj
 jsid
 idval
+JSBool
+strict
 jsval
 *
 vp
@@ -2215,7 +2223,7 @@ CTYPESGLOBAL_SLOTS
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
@@ -2238,7 +2246,7 @@ CABI_SLOTS
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
@@ -2306,7 +2314,7 @@ CTYPEPROTO_SLOTS
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
@@ -2369,7 +2377,7 @@ CData
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
@@ -2394,7 +2402,7 @@ JSCLASS_MARK_IS_TRACE
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
@@ -2489,7 +2497,7 @@ JSCLASS_MARK_IS_TRACE
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
@@ -3149,7 +3157,7 @@ Int64
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
@@ -3169,7 +3177,7 @@ UInt64
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
@@ -3192,7 +3200,7 @@ INT64_SLOTS
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
@@ -3218,7 +3226,7 @@ INT64_SLOTS
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
@@ -6690,7 +6698,7 @@ OBJECT_TO_JSVAL
 ctypes
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -23881,6 +23889,8 @@ JSObject
 obj
 jsid
 idval
+JSBool
+strict
 jsval
 *
 vp
@@ -26704,6 +26714,8 @@ JSObject
 obj
 jsid
 idval
+JSBool
+strict
 jsval
 *
 vp
@@ -31335,6 +31347,8 @@ JSObject
 obj
 jsid
 idval
+JSBool
+strict
 jsval
 *
 vp
@@ -39365,6 +39379,8 @@ JSObject
 obj
 jsid
 idval
+JSBool
+strict
 jsval
 *
 vp

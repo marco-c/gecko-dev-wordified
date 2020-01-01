@@ -9079,7 +9079,7 @@ found
 JSPropertyOp
 getter
 ;
-JSPropertyOp
+JSStrictPropertyOp
 setter
 ;
 if
