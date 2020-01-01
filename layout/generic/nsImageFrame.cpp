@@ -8767,7 +8767,7 @@ PopState
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsImageFrame
 :
 :
@@ -8795,7 +8795,6 @@ aBuilder
 )
 )
 return
-NS_OK
 ;
 /
 /
@@ -9279,9 +9278,6 @@ aBuilder
 replacedContent
 aLists
 )
-;
-return
-NS_OK
 ;
 }
 bool

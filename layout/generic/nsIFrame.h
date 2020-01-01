@@ -8878,7 +8878,8 @@ frame
 coordinates
 *
 /
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -8894,9 +8895,6 @@ nsDisplayListSet
 aLists
 )
 {
-return
-NS_OK
-;
 }
 /
 *
@@ -8944,7 +8942,7 @@ repainting
 .
 *
 /
-nsresult
+void
 DisplayCaret
 (
 nsDisplayListBuilder
@@ -9172,7 +9170,7 @@ frame
 coordinates
 *
 /
-nsresult
+void
 BuildDisplayListForStackingContext
 (
 nsDisplayListBuilder
@@ -9409,7 +9407,7 @@ and
 DISPLAY_CHILD_INLINE
 *
 /
-nsresult
+void
 BuildDisplayListForChild
 (
 nsDisplayListBuilder

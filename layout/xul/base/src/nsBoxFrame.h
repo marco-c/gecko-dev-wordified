@@ -988,7 +988,8 @@ nsMenuFrame
 can
 override
 it
-NS_IMETHOD
+virtual
+void
 BuildDisplayListForChildren
 (
 nsDisplayListBuilder
@@ -1004,7 +1005,8 @@ nsDisplayListSet
 aLists
 )
 ;
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -1105,7 +1107,7 @@ events
 .
 *
 /
-nsresult
+void
 WrapListsInRedirector
 (
 nsDisplayListBuilder

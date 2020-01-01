@@ -2303,7 +2303,8 @@ mScreenYPos
 )
 ;
 }
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder

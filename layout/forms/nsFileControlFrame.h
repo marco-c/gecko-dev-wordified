@@ -189,7 +189,8 @@ nsIFrame
 aPrevInFlow
 )
 ;
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -204,6 +205,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS

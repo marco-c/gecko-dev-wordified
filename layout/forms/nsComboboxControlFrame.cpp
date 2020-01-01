@@ -8791,7 +8791,8 @@ nsReflowStatus
 aStatus
 )
 ;
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -8806,6 +8807,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -8985,7 +8987,7 @@ aStatus
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsComboboxDisplayFrame
 :
 :
@@ -9055,9 +9057,6 @@ MoveTo
 (
 aLists
 )
-;
-return
-NS_OK
 ;
 }
 nsIFrame
@@ -10183,7 +10182,7 @@ ToReferenceFrame
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsComboboxControlFrame
 :
 :
@@ -10467,9 +10466,6 @@ Content
 (
 )
 )
-;
-return
-NS_OK
 ;
 }
 void

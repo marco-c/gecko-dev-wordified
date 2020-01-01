@@ -7277,7 +7277,7 @@ aPt
 }
 #
 endif
-nsresult
+void
 nsBoxFrame
 :
 :
@@ -7693,11 +7693,8 @@ masterList
 )
 ;
 }
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 nsBoxFrame
 :
 :
@@ -7795,9 +7792,6 @@ GetNextSibling
 )
 ;
 }
-return
-NS_OK
-;
 }
 /
 /
@@ -12005,7 +11999,7 @@ mTargetFrame
 ;
 }
 ;
-nsresult
+void
 nsBoxFrame
 :
 :
@@ -12030,7 +12024,6 @@ wrapper
 this
 )
 ;
-return
 wrapper
 .
 WrapLists

@@ -8658,7 +8658,7 @@ frame
 *
 *
 /
-nsresult
+void
 nsFrame
 :
 :
@@ -8689,7 +8689,6 @@ aBuilder
 )
 )
 return
-NS_OK
 ;
 nsPresContext
 *
@@ -8716,7 +8715,6 @@ if
 shell
 )
 return
-NS_OK
 ;
 int16_t
 displaySelection
@@ -8738,7 +8736,6 @@ aContentType
 )
 )
 return
-NS_OK
 ;
 const
 nsFrameSelection
@@ -8770,7 +8767,6 @@ nsISelectionController
 SELECTION_HIDDEN
 )
 return
-NS_OK
 ;
 /
 /
@@ -8874,7 +8870,6 @@ if
 details
 )
 return
-NS_OK
 ;
 bool
 normal
@@ -8956,7 +8951,6 @@ primary
 selection
 .
 return
-NS_OK
 ;
 }
 aList
@@ -8976,11 +8970,8 @@ selectionValue
 )
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 nsFrame
 :
 :
@@ -9010,7 +9001,6 @@ GetOutlineStyle
 NS_STYLE_BORDER_STYLE_NONE
 )
 return
-NS_OK
 ;
 aLists
 .
@@ -9032,11 +9022,8 @@ this
 )
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 nsFrame
 :
 :
@@ -9060,7 +9047,6 @@ aBuilder
 )
 )
 return
-NS_OK
 ;
 DisplayOutlineUnconditional
 (
@@ -9068,11 +9054,8 @@ aBuilder
 aLists
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 nsIFrame
 :
 :
@@ -9099,7 +9082,6 @@ aBuilder
 )
 )
 return
-NS_OK
 ;
 aList
 -
@@ -9122,9 +9104,6 @@ GetCaret
 )
 )
 )
-;
-return
-NS_OK
 ;
 }
 nscolor
@@ -9152,7 +9131,7 @@ GetStyleColor
 mColor
 ;
 }
-nsresult
+void
 nsFrame
 :
 :
@@ -9257,11 +9236,8 @@ aBackground
 )
 ;
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 nsFrame
 :
 :
@@ -9318,7 +9294,6 @@ aBuilder
 )
 )
 return
-NS_OK
 ;
 nsCSSShadowArray
 *
@@ -9493,9 +9468,6 @@ DisplayOutlineUnconditional
 aBuilder
 aLists
 )
-;
-return
-NS_OK
 ;
 }
 inline
@@ -10578,7 +10550,7 @@ aToSet
 ;
 }
 static
-nsresult
+void
 BuildDisplayListWithOverflowClip
 (
 nsDisplayListBuilder
@@ -10645,9 +10617,6 @@ aSet
 aClipRect
 aClipRadii
 )
-;
-return
-NS_OK
 ;
 }
 #
@@ -11498,7 +11467,7 @@ return
 rv
 ;
 }
-nsresult
+void
 nsIFrame
 :
 :
@@ -11525,7 +11494,6 @@ GetStateBits
 NS_FRAME_TOO_DEEP_IN_FRAME_TREE
 )
 return
-NS_OK
 ;
 /
 /
@@ -11559,7 +11527,6 @@ aBuilder
 )
 )
 return
-NS_OK
 ;
 nsRect
 clipPropClip
@@ -11678,7 +11645,6 @@ eCSSProperty_opacity
 )
 {
 return
-NS_OK
 ;
 }
 bool
@@ -11924,7 +11890,6 @@ GetVisualOverflowRectRelativeToSelf
 )
 {
 return
-NS_OK
 ;
 }
 }
@@ -12727,14 +12692,6 @@ this
 resultList
 )
 ;
-if
-(
-!
-item
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 /
 /
 resultList
@@ -12742,7 +12699,7 @@ was
 emptied
 resultList
 .
-AppendToTop
+AppendNewToTop
 (
 item
 )
@@ -13100,9 +13057,6 @@ AppendToTop
 resultList
 )
 ;
-return
-NS_OK
-;
 }
 static
 bool
@@ -13136,7 +13090,7 @@ IsScrollingActive
 )
 ;
 }
-nsresult
+void
 nsIFrame
 :
 :
@@ -13195,7 +13149,6 @@ IsBackgroundOnly
 )
 )
 return
-NS_OK
 ;
 nsIFrame
 *
@@ -13215,7 +13168,6 @@ GetStateBits
 NS_FRAME_TOO_DEEP_IN_FRAME_TREE
 )
 return
-NS_OK
 ;
 bool
 isSVG
@@ -13479,7 +13431,6 @@ NS_FRAME_IS_PUSHED_FLOAT
 )
 )
 return
-NS_OK
 ;
 /
 /
@@ -13541,7 +13492,6 @@ GetStateBits
 NS_FRAME_TOO_DEEP_IN_FRAME_TREE
 )
 return
-NS_OK
 ;
 nsRect
 *
@@ -13751,7 +13701,6 @@ IsSelected
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -13930,7 +13879,6 @@ GetVisualOverflowRect
 )
 )
 return
-NS_OK
 ;
 /
 /
@@ -14080,7 +14028,6 @@ mAppearance
 )
 )
 return
-NS_OK
 ;
 /
 /
@@ -14572,7 +14519,6 @@ aLists
 #
 endif
 return
-NS_OK
 ;
 }
 nsDisplayList
@@ -15298,9 +15244,6 @@ AppendToTop
 &
 extraPositionedDescendants
 )
-;
-return
-NS_OK
 ;
 }
 void

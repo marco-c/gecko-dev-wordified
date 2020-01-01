@@ -3334,7 +3334,7 @@ mFrame
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsTableRowFrame
 :
 :
@@ -3480,9 +3480,6 @@ aDirtyRect
 aLists
 item
 )
-;
-return
-NS_OK
 ;
 }
 int
