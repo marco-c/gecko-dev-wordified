@@ -6057,6 +6057,16 @@ mIMETextRangeList
 =
 aTextRangeList
 ;
+nsAutoPlaceHolderBatch
+batch
+(
+this
+nsGkAtoms
+:
+:
+IMETxnName
+)
+;
 SetIsIMEComposing
 (
 )
