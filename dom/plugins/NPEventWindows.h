@@ -456,7 +456,12 @@ npapi
 h
 "
 #
-warning
+pragma
+message
+(
+__FILE__
+"
+:
 This
 is
 only
@@ -465,6 +470,11 @@ stub
 implementation
 IMPLEMENT
 ME
+"
+)
+namespace
+IPC
+{
 template
 <
 >
@@ -532,6 +542,11 @@ aLog
 }
 }
 ;
+}
+/
+/
+namespace
+IPC
 #
 endif
 /
