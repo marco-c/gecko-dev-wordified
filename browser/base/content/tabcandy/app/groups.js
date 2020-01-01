@@ -1647,7 +1647,9 @@ padding
 left
 "
 :
-1
+"
+1px
+"
 }
 {
 duration
