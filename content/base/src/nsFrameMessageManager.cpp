@@ -6033,7 +6033,7 @@ false
 ;
 JSContext
 *
-cx
+cx_
 =
 JS_NewContext
 (
@@ -6043,8 +6043,14 @@ rt
 ;
 NS_ENSURE_TRUE
 (
-cx
+cx_
 false
+)
+;
+AutoPushJSContext
+cx
+(
+cx_
 )
 ;
 mCx
