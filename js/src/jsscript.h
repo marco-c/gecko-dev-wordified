@@ -1148,9 +1148,6 @@ length
 }
 JSConstArray
 ;
-struct
-JSArenaPool
-;
 namespace
 js
 {

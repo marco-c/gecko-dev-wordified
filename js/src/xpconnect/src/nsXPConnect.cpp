@@ -1753,10 +1753,10 @@ nsIInterfaceInfo
 info
 )
 {
-PRBool
+bool
 found
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1858,7 +1858,7 @@ found
 *
 /
 typedef
-PRBool
+bool
 (
 *
 InfoTester
@@ -1878,7 +1878,7 @@ info
 )
 ;
 static
-PRBool
+bool
 IIDTester
 (
 nsIInterfaceInfoManager
@@ -1918,7 +1918,7 @@ info
 ;
 }
 static
-PRBool
+bool
 NameTester
 (
 nsIInterfaceInfoManager
@@ -2001,7 +2001,7 @@ ask
 additional
 managers
 .
-PRBool
+bool
 yes
 ;
 nsCOMPtr
@@ -2046,7 +2046,7 @@ list
 list
 )
 {
-PRBool
+bool
 more
 ;
 nsCOMPtr
@@ -4780,7 +4780,7 @@ HasExternalReference
 ;
 }
 }
-PRBool
+bool
 isMarked
 ;
 #
@@ -7355,7 +7355,7 @@ SetScopeForNewJSObjects
 tempGlobal
 )
 ;
-PRBool
+bool
 system
 =
 (
@@ -7995,7 +7995,7 @@ const
 nsIID
 *
 aIID
-PRBool
+bool
 aAllowWrapping
 jsval
 *
@@ -8287,7 +8287,7 @@ const
 nsIID
 *
 aIID
-PRBool
+bool
 aAllowWrapping
 jsval
 *
@@ -12264,7 +12264,7 @@ cx
 nsIXPConnectJSObjectHolder
 *
 sandbox
-PRBool
+bool
 returnStringOnly
 jsval
 *
@@ -12524,7 +12524,7 @@ in
 JSContextPtr
 aJSContext
 in
-PRBool
+bool
 noGC
 )
 ;
@@ -12539,7 +12539,7 @@ ReleaseJSContext
 JSContext
 *
 aJSContext
-PRBool
+bool
 noGC
 )
 {
@@ -13252,13 +13252,13 @@ void
 debugDumpJSStack
 (
 in
-PRBool
+bool
 showArgs
 in
-PRBool
+bool
 showLocals
 in
-PRBool
+bool
 showThisProps
 )
 ;
@@ -13270,11 +13270,11 @@ nsXPConnect
 :
 DebugDumpJSStack
 (
-PRBool
+bool
 showArgs
-PRBool
+bool
 showLocals
-PRBool
+bool
 showThisProps
 )
 {
@@ -13350,11 +13350,11 @@ nsXPConnect
 :
 DebugPrintJSStack
 (
-PRBool
+bool
 showArgs
-PRBool
+bool
 showLocals
-PRBool
+bool
 showThisProps
 )
 {
@@ -13781,7 +13781,7 @@ OnProcessNextEvent
 nsIThreadInternal
 *
 aThread
-PRBool
+bool
 aMayWait
 PRUint32
 aRecursionDepth
@@ -13934,7 +13934,7 @@ nsXPConnect
 :
 SetReportAllJSExceptions
 (
-PRBool
+bool
 newval
 )
 {
@@ -13973,7 +13973,7 @@ NS_OK
 noscript
 notxpcom
 ]
-PRBool
+bool
 defineDOMQuickStubs
 (
 in
@@ -14004,7 +14004,7 @@ interfaceArray
 /
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsXPConnect
 :
@@ -15148,7 +15148,7 @@ GetPrincipal
 JSObject
 *
 obj
-PRBool
+bool
 allowShortCircuit
 )
 const
@@ -16331,7 +16331,7 @@ nsXPConnect
 :
 SetDebugModeWhenPossible
 (
-PRBool
+bool
 mode
 )
 {
