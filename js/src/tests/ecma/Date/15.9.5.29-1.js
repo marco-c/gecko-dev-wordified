@@ -3,7 +3,7 @@
 |
 reftest
 |
-fails
+random
 -
 if
 (
