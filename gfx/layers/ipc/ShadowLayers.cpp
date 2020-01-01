@@ -2554,7 +2554,7 @@ if
 front
 -
 >
-Init
+InitUnsafe
 (
 mShadowManager
 aSize
@@ -2567,7 +2567,7 @@ shmemType
 back
 -
 >
-Init
+InitUnsafe
 (
 mShadowManager
 aSize
