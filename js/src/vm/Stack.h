@@ -12945,6 +12945,12 @@ ion
 IonFrameIterator
 ionFrames_
 ;
+ion
+:
+:
+InlineFrameIterator
+ionInlineFrames_
+;
 #
 endif
 void
