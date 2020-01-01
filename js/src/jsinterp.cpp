@@ -43017,6 +43017,9 @@ jsopcode
 tbl
 "
 #
+undef
+OPDEF
+#
 if
 !
 JS_THREADED_INTERP
