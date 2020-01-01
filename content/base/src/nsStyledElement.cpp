@@ -234,13 +234,6 @@ h
 #
 include
 "
-nsIDOMSVGStylable
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

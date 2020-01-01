@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsSVGStylableElement
+nsSVGElement
 .
 h
 "
@@ -211,7 +211,7 @@ Gradients
 -
 -
 typedef
-nsSVGStylableElement
+nsSVGElement
 nsSVGGradientElementBase
 ;
 class
