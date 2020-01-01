@@ -482,6 +482,10 @@ aCallState
 const
 nsAString
 &
+aError
+const
+nsAString
+&
 aNumber
 const
 bool
