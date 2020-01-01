@@ -792,7 +792,7 @@ if
 ent
 )
 return
-NULL
+nullptr
 ;
 nsCOMPtr
 <
