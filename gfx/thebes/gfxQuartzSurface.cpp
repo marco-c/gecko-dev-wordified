@@ -802,6 +802,12 @@ if
 (
 !
 surface
+|
+|
+cairo_surface_status
+(
+surface
+)
 )
 return
 nullptr
