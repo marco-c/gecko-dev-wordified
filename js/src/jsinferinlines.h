@@ -2289,7 +2289,6 @@ strlen
 (
 name
 )
-0
 )
 ;
 if

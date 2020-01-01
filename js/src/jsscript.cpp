@@ -1654,7 +1654,6 @@ cx
 array
 "
 6
-0
 )
 )
 {
@@ -11735,11 +11734,9 @@ return
 fun
 -
 >
-u
-.
-i
-.
 script
+(
+)
 -
 >
 lineno

@@ -6879,6 +6879,12 @@ defined
 (
 JS_CPU_X86
 )
+|
+|
+defined
+(
+JS_CPU_X64
+)
 JSValueType
 type
 =
@@ -7118,6 +7124,12 @@ if
 defined
 (
 JS_CPU_X86
+)
+|
+|
+defined
+(
+JS_CPU_X64
 )
 if
 (

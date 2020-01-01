@@ -1032,11 +1032,6 @@ JSSecurityCallbacks
 ;
 typedef
 struct
-JSONParser
-JSONParser
-;
-typedef
-struct
 JSCompartment
 JSCompartment
 ;
