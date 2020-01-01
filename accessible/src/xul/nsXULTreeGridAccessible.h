@@ -631,6 +631,14 @@ NativeRole
 (
 )
 ;
+NS_IMETHOD
+GetName
+(
+nsAString
+&
+aName
+)
+;
 virtual
 nsAccessible
 *
