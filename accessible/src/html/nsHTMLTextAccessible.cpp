@@ -1415,7 +1415,7 @@ nsAString
 aBulletText
 )
 :
-nsHyperTextAccessibleWrap
+nsLinkableAccessible
 (
 aDOMNode
 aShell
@@ -1501,7 +1501,7 @@ Shutdown
 nsresult
 rv
 =
-nsHyperTextAccessibleWrap
+nsLinkableAccessible
 :
 :
 Shutdown
@@ -2015,16 +2015,6 @@ NS_ENSURE_SUCCESS
 rv
 rv
 )
-;
-*
-aState
-&
-=
-~
-nsIAccessibleStates
-:
-:
-STATE_FOCUSABLE
 ;
 *
 aState

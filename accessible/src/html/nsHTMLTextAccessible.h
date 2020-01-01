@@ -462,6 +462,13 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+nsBaseWidgetAccessible
+.
+h
+"
 class
 nsIWeakReference
 ;
@@ -996,7 +1003,7 @@ class
 nsHTMLLIAccessible
 :
 public
-nsHyperTextAccessibleWrap
+nsLinkableAccessible
 {
 public
 :
