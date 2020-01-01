@@ -682,16 +682,6 @@ mPreservesPitch
 ;
 /
 /
-The
-current
-playback
-rate
-.
-double
-mPlaybackRate
-;
-/
-/
 True
 if
 we
