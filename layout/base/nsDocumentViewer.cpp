@@ -24388,6 +24388,16 @@ if
 aIsPrintPreview
 )
 {
+if
+(
+mPresShell
+)
+{
+DestroyPresShell
+(
+)
+;
+}
 mWindow
 =
 nsnull
