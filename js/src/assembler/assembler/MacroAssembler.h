@@ -1578,6 +1578,8 @@ AbsoluteAddress
 left
 ImmPtr
 right
+RegisterID
+scratch
 )
 {
 return
