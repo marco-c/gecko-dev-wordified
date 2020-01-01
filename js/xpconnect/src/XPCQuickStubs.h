@@ -118,13 +118,6 @@ qsObjectHelper
 .
 h
 "
-#
-include
-"
-jsatom
-.
-h
-"
 /
 *
 XPCQuickStubs

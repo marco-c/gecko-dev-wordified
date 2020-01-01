@@ -142,13 +142,6 @@ h
 #
 include
 "
-jsatom
-.
-h
-"
-#
-include
-"
 jsfriendapi
 .
 h
