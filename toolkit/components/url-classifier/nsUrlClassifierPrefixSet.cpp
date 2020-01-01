@@ -1886,7 +1886,7 @@ empty
 )
 ;
 return
-NS_ERROR_FAILURE
+NS_OK
 ;
 }
 if
@@ -2039,7 +2039,7 @@ loading
 )
 ;
 return
-NS_ERROR_FAILURE
+NS_ERROR_FILE_CORRUPTED
 ;
 }
 LOG
