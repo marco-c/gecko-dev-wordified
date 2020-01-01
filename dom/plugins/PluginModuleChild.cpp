@@ -5465,7 +5465,7 @@ NS_LOG_ADDREF
 newObject
 1
 "
-ChildNPObject
+NPObject
 "
 sizeof
 (
@@ -5513,7 +5513,7 @@ NS_LOG_ADDREF
 aNPObj
 refCnt
 "
-ChildNPObject
+NPObject
 "
 sizeof
 (
@@ -5559,7 +5559,7 @@ NS_LOG_RELEASE
 aNPObj
 refCnt
 "
-ChildNPObject
+NPObject
 "
 )
 ;

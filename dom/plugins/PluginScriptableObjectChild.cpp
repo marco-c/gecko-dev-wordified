@@ -3228,7 +3228,7 @@ NS_LOG_RELEASE
 object
 0
 "
-ChildNPObject
+NPObject
 "
 )
 ;
