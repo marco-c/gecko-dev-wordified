@@ -7839,10 +7839,7 @@ NULL
 array_dropProperty
 NULL
 NULL
-NULL
 js_HasInstance
-js_SetProtoOrParent
-js_SetProtoOrParent
 array_trace
 NULL
 NULL
