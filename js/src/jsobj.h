@@ -635,9 +635,8 @@ op
 )
 {
 return
-ObjectValue
+ObjectOrNullValue
 (
-*
 CastAsObject
 (
 op
