@@ -1072,15 +1072,6 @@ aURI
 )
 ;
 nsresult
-GetKeyURI
-(
-nsIURI
-*
-*
-aURI
-)
-;
-nsresult
 GetSecurityInfo
 (
 nsISupports
