@@ -1150,13 +1150,6 @@ PropDesc
 >
 PropDescArray
 ;
-void
-MeterEntryCount
-(
-uintN
-count
-)
-;
 }
 /
 *
