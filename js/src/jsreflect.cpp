@@ -4298,13 +4298,10 @@ if
 array
 -
 >
-setProperty
+setElement
 (
 cx
-INT_TO_JSID
-(
 i
-)
 &
 val
 false

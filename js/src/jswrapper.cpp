@@ -1628,7 +1628,7 @@ wrapper
 )
 -
 >
-setProperty
+setGeneric
 (
 cx
 id
