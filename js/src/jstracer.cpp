@@ -5929,7 +5929,7 @@ messenger
 .
 *
 /
-ssize_t
+ptrdiff_t
 offset
 =
 -
