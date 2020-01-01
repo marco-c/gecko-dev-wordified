@@ -904,14 +904,14 @@ content
 =
 aFrame
 ?
-nsnull
-:
 aFrame
 -
 >
 GetContent
 (
 )
+:
+nsnull
 ;
 if
 (
