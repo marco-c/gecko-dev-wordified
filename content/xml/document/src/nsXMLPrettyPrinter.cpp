@@ -542,11 +542,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-Element
+nsIContent
 .
 h
 "
@@ -564,13 +560,6 @@ nsBindingManager
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-dom
-;
 NS_IMPL_ISUPPORTS2
 (
 nsXMLPrettyPrinter
@@ -1600,9 +1589,9 @@ AttributeChanged
 nsIDocument
 *
 aDocument
-Element
+nsIContent
 *
-aElement
+aContent
 PRInt32
 aNameSpaceID
 nsIAtom
@@ -1614,7 +1603,7 @@ aModType
 {
 MaybeUnhook
 (
-aElement
+aContent
 )
 ;
 }
