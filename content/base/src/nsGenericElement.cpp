@@ -2533,6 +2533,12 @@ GetEditorRootContent
 editor
 )
 ;
+NS_ENSURE_TRUE
+(
+editorRoot
+nsnull
+)
+;
 return
 nsContentUtils
 :
@@ -2756,6 +2762,12 @@ the
 content
 simply
 .
+NS_ENSURE_TRUE
+(
+content
+nsnull
+)
+;
 return
 nsContentUtils
 :
