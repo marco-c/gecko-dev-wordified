@@ -448,10 +448,6 @@ DOMCI_CLASS
 (
 SVGNumber
 )
-DOMCI_CLASS
-(
-SVGRect
-)
 /
 /
 Canvas
