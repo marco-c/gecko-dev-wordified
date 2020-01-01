@@ -990,6 +990,9 @@ rectangles
 .
 *
 /
+#
+ifndef
+MOZ_GFX_OPTIMIZE_MOBILE
 static
 void
 DrawHexChar
@@ -1095,6 +1098,11 @@ Fill
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_GFX_OPTIMIZE_MOBILE
 void
 gfxFontMissingGlyphs
 :

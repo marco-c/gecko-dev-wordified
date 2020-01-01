@@ -1516,6 +1516,9 @@ XP_WIN
 #
 endif
 }
+#
+ifndef
+MOZ_GFX_OPTIMIZE_MOBILE
 /
 /
 EXTEND_PAD
@@ -1953,6 +1956,12 @@ forget
 )
 ;
 }
+#
+endif
+/
+/
+!
+MOZ_GFX_OPTIMIZE_MOBILE
 /
 /
 working
