@@ -987,6 +987,8 @@ FieldSetDisabledChanged
 (
 PRInt32
 aStates
+PRBool
+aNotify
 )
 ;
 /

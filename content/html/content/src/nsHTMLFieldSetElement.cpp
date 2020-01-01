@@ -781,6 +781,7 @@ i
 FieldSetDisabledChanged
 (
 0
+aNotify
 )
 ;
 }
@@ -1101,6 +1102,7 @@ firstLegendHasChanged
 {
 NotifyElementsForFirstLegendChange
 (
+aNotify
 )
 ;
 }
@@ -1233,6 +1235,7 @@ firstLegendHasChanged
 {
 NotifyElementsForFirstLegendChange
 (
+aNotify
 )
 ;
 }
@@ -1246,6 +1249,8 @@ nsHTMLFieldSetElement
 :
 NotifyElementsForFirstLegendChange
 (
+PRBool
+aNotify
 )
 {
 /
@@ -1368,6 +1373,7 @@ i
 >
 FieldSetFirstLegendChanged
 (
+aNotify
 )
 ;
 }

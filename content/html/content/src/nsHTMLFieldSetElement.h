@@ -670,6 +670,8 @@ changed
 void
 NotifyElementsForFirstLegendChange
 (
+PRBool
+aNotify
 )
 ;
 /

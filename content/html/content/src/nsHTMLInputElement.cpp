@@ -23327,6 +23327,8 @@ FieldSetDisabledChanged
 (
 PRInt32
 aStates
+PRBool
+aNotify
 )
 {
 UpdateValueMissingValidityState
@@ -23350,6 +23352,7 @@ nsGenericHTMLFormElement
 FieldSetDisabledChanged
 (
 aStates
+aNotify
 )
 ;
 }

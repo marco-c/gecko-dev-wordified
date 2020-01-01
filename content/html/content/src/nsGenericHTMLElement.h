@@ -5563,11 +5563,15 @@ FieldSetDisabledChanged
 (
 PRInt32
 aStates
+PRBool
+aNotify
 )
 ;
 void
 FieldSetFirstLegendChanged
 (
+PRBool
+aNotify
 )
 {
 UpdateFieldSet
@@ -5599,6 +5603,7 @@ anymore
 FieldSetDisabledChanged
 (
 0
+aNotify
 )
 ;
 }
