@@ -141,6 +141,7 @@ updateEnabledEngines
 *
 /
 syncTabs
+syncPasswords
 syncBookmarks
 syncHistory
 syncFormHistory
