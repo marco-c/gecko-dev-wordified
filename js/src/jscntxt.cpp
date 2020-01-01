@@ -440,6 +440,9 @@ BLOCK
 *
 *
 /
+#
+define
+__STDC_LIMIT_MACROS
 /
 *
 *
@@ -475,9 +478,6 @@ string
 .
 h
 >
-#
-define
-__STDC_LIMIT_MACROS
 #
 include
 "
