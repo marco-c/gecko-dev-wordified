@@ -2308,7 +2308,10 @@ ArePreservingSelection
 void
 PreserveSelectionAcrossActions
 (
-nsISelection
+mozilla
+:
+:
+Selection
 *
 aSel
 )

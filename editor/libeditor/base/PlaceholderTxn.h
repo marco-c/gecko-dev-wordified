@@ -337,7 +337,7 @@ aName
 nsSelectionState
 *
 aSelState
-nsIEditor
+nsEditor
 *
 aEditor
 )
@@ -549,7 +549,7 @@ exist
 nsSelectionState
 mEndSel
 ;
-nsIEditor
+nsEditor
 *
 mEditor
 ;
