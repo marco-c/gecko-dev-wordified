@@ -10634,6 +10634,12 @@ self
 =
 this
 ;
+BrowserUI
+.
+lockToolbar
+(
+)
+;
 Browser
 .
 forceChromeReflow
@@ -10673,6 +10679,12 @@ BH_hide
 (
 )
 {
+BrowserUI
+.
+unlockToolbar
+(
+)
+;
 BrowserUI
 .
 updateStar
