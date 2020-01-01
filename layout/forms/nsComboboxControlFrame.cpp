@@ -721,13 +721,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsGUIEvent
 .
 h
