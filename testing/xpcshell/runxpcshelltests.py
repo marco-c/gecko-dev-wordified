@@ -6535,10 +6535,19 @@ abort
 "
         
 #
-Enable
-crash
+Crash
 reporting
+interferes
+with
+debugging
         
+if
+not
+self
+.
+debuggerInfo
+:
+            
 self
 .
 env
