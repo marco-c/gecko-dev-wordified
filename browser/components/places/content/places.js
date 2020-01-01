@@ -8762,6 +8762,12 @@ init
 (
 )
 ;
+this
+.
+_setupView
+(
+)
+;
 }
 /
 *
