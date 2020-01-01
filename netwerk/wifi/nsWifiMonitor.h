@@ -560,7 +560,7 @@ aListener
 ;
 mHasSentData
 =
-PR_FALSE
+false
 ;
 }
 ~

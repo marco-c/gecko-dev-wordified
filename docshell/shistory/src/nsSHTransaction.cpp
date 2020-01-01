@@ -615,7 +615,7 @@ nsSHTransaction
 :
 mPersist
 (
-PR_TRUE
+true
 )
 mPrev
 (

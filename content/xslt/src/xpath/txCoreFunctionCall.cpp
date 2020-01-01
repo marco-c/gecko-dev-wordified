@@ -437,6 +437,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 txExpr
 .
 h
@@ -504,6 +513,10 @@ txXMLUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 struct
 txCoreFunctionDescriptor
 {
@@ -1943,7 +1956,7 @@ recycler
 >
 getBoolResult
 (
-PR_TRUE
+true
 aResult
 )
 ;
@@ -2257,7 +2270,7 @@ IsEmpty
 {
 result
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3877,7 +3890,7 @@ recycler
 >
 getBoolResult
 (
-PR_FALSE
+false
 aResult
 )
 ;
@@ -3952,7 +3965,7 @@ recycler
 >
 getBoolResult
 (
-PR_FALSE
+false
 aResult
 )
 ;
@@ -4106,7 +4119,7 @@ recycler
 >
 getBoolResult
 (
-PR_TRUE
+true
 aResult
 )
 ;
@@ -4352,7 +4365,7 @@ here
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -4383,7 +4396,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 descriptTable
 )
@@ -4418,12 +4431,12 @@ i
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 #

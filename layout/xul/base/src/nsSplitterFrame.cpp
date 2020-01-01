@@ -714,7 +714,7 @@ aSplitter
 ;
 mPressed
 =
-PR_FALSE
+false
 ;
 }
 virtual
@@ -1707,7 +1707,7 @@ mInner
 >
 mDragging
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1819,7 +1819,7 @@ NS_LITERAL_STRING
 vertical
 "
 )
-PR_FALSE
+false
 )
 ;
 nsStyleContext
@@ -2388,7 +2388,7 @@ needed
 ?
 mDragging
 =
-PR_FALSE
+false
 ;
 State
 newState
@@ -2432,12 +2432,12 @@ state
 EmptyString
 (
 )
-PR_TRUE
+true
 )
 ;
 mPressed
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2658,12 +2658,12 @@ Grow
 )
 bounded
 =
-PR_FALSE
+false
 ;
 else
 bounded
 =
-PR_TRUE
+true
 ;
 int
 i
@@ -2933,7 +2933,7 @@ NS_LITERAL_STRING
 after
 "
 )
-PR_TRUE
+true
 )
 ;
 outer
@@ -2952,7 +2952,7 @@ NS_LITERAL_STRING
 collapsed
 "
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -3007,7 +3007,7 @@ NS_LITERAL_STRING
 before
 "
 )
-PR_TRUE
+true
 )
 ;
 outer
@@ -3026,7 +3026,7 @@ NS_LITERAL_STRING
 collapsed
 "
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -3084,7 +3084,7 @@ NS_LITERAL_STRING
 dragging
 "
 )
-PR_TRUE
+true
 )
 ;
 AdjustChildren
@@ -3095,7 +3095,7 @@ aPresContext
 }
 mDidDrag
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3127,8 +3127,8 @@ mouseup
 "
 )
 this
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 mOuter
@@ -3148,8 +3148,8 @@ mousedown
 "
 )
 this
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 mOuter
@@ -3169,8 +3169,8 @@ mousemove
 "
 )
 this
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 mOuter
@@ -3190,8 +3190,8 @@ mouseout
 "
 )
 this
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -3225,7 +3225,7 @@ mouseup
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 mOuter
@@ -3245,7 +3245,7 @@ mousedown
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 mOuter
@@ -3265,7 +3265,7 @@ mousemove
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 mOuter
@@ -3285,7 +3285,7 @@ mouseout
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 }
@@ -3399,7 +3399,7 @@ NS_OK
 ;
 mPressed
 =
-PR_FALSE
+false
 ;
 nsIPresShell
 :
@@ -3698,11 +3698,11 @@ mCurrentPos
 ;
 mPressed
 =
-PR_TRUE
+true
 ;
 mDidDrag
 =
-PR_FALSE
+false
 ;
 EnsureOrient
 (
@@ -4718,7 +4718,7 @@ NS_LITERAL_STRING
 dragging
 "
 )
-PR_TRUE
+true
 )
 ;
 RemoveListener
@@ -4727,7 +4727,7 @@ RemoveListener
 ;
 mDragging
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4883,11 +4883,11 @@ case
 2
 :
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -5786,7 +5786,7 @@ SetAttr
 kNameSpaceID_None
 attribute
 prefValue
-PR_TRUE
+true
 )
 ;
 ENSURE_TRUE

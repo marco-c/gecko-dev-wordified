@@ -933,7 +933,7 @@ crl
 ;
 importSuccessful
 =
-PR_TRUE
+true
 ;
 goto
 done
@@ -942,7 +942,7 @@ loser
 :
 importSuccessful
 =
-PR_FALSE
+false
 ;
 errorCode
 =
@@ -1691,7 +1691,7 @@ updateTimeStr
 get
 (
 )
-PR_TRUE
+true
 &
 nextTime
 )
@@ -1710,7 +1710,7 @@ PR_Now
 {
 toBeRescheduled
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1954,7 +1954,7 @@ rv
 *
 res
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -1982,7 +1982,7 @@ rv
 *
 res
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1990,7 +1990,7 @@ else
 *
 res
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -2216,7 +2216,7 @@ crlsArray
 AppendElement
 (
 entry
-PR_FALSE
+false
 )
 ;
 }
@@ -2226,7 +2226,7 @@ head
 -
 >
 arena
-PR_FALSE
+false
 )
 ;
 }
@@ -2424,7 +2424,7 @@ head
 -
 >
 arena
-PR_FALSE
+false
 )
 ;
 }

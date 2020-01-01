@@ -1549,7 +1549,7 @@ do
 {
 isNewPrefix
 =
-PR_TRUE
+true
 ;
 qname
 .
@@ -2096,7 +2096,7 @@ aProperty
 kRDF_instanceOf
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -2106,7 +2106,7 @@ aProperty
 kRDF_nextVal
 )
 return
-PR_TRUE
+true
 ;
 bool
 isOrdinal
@@ -2128,10 +2128,10 @@ if
 isOrdinal
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3414,7 +3414,7 @@ GetTargets
 (
 aResource
 aProperty
-PR_TRUE
+true
 getter_AddRefs
 (
 assertions
@@ -3614,7 +3614,7 @@ r
 {
 needsChild
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3744,7 +3744,7 @@ GetTarget
 (
 aResource
 kRDF_type
-PR_TRUE
+true
 getter_AddRefs
 (
 typeNode
@@ -4290,7 +4290,7 @@ SerializeProperty
 aStream
 aResource
 property
-PR_TRUE
+true
 &
 skipped
 )
@@ -4570,7 +4570,7 @@ SerializeProperty
 aStream
 aResource
 property
-PR_FALSE
+false
 &
 skipped
 )
@@ -5490,7 +5490,7 @@ else
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 huh
 ?
@@ -6208,7 +6208,7 @@ aContainer
 ;
 wroteDescription
 =
-PR_TRUE
+true
 ;
 }
 NS_RELEASE
@@ -7220,7 +7220,7 @@ HasAssertion
 aResource
 kRDF_instanceOf
 aType
-PR_TRUE
+true
 &
 result
 )
@@ -7233,7 +7233,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 result

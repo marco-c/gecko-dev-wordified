@@ -753,7 +753,7 @@ NULL_TOKEN
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -914,7 +914,7 @@ CNAME
 ;
 isToken
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1450,7 +1450,7 @@ mPosition
 ;
 isToken
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -1731,7 +1731,7 @@ mPosition
 ;
 isToken
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -2211,7 +2211,7 @@ FUNCTION_NAME_AND_PAREN
 }
 isToken
 =
-PR_FALSE
+false
 ;
 }
 else

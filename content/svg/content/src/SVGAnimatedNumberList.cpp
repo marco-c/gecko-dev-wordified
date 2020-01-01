@@ -640,7 +640,7 @@ notifying
 .
 mIsBaseSet
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -760,7 +760,7 @@ Clear
 ;
 mIsBaseSet
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1328,7 +1328,7 @@ val
 }
 aPreventCachingOfSandwich
 =
-PR_FALSE
+false
 ;
 return
 rv

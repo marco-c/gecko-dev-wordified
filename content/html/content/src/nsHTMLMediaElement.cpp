@@ -453,6 +453,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLMediaElement
 .
 h
@@ -8788,7 +8797,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gRawTypes
 )
@@ -8963,7 +8972,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gOggTypes
 )
@@ -9169,7 +9178,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gWaveTypes
 )
@@ -9312,7 +9321,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gWebMTypes
 )

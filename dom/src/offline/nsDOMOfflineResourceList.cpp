@@ -875,7 +875,7 @@ aScriptContext
 :
 mInitialized
 (
-PR_FALSE
+false
 )
 mManifestURI
 (
@@ -977,7 +977,7 @@ CheckSameOriginURI
 (
 mManifestURI
 mDocumentURI
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1199,7 +1199,7 @@ update
 -
 added
 "
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1225,7 +1225,7 @@ update
 -
 completed
 "
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1236,7 +1236,7 @@ rv
 ;
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1598,7 +1598,7 @@ NS_ERROR_CACHE_KEY_NOT_FOUND
 *
 aExists
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3271,8 +3271,8 @@ event
 InitEvent
 (
 aEventName
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 /
@@ -3292,7 +3292,7 @@ privevent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -3927,7 +3927,7 @@ mCacheUpdate
 AddObserver
 (
 this
-PR_TRUE
+true
 )
 ;
 return

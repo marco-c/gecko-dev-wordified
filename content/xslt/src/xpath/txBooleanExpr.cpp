@@ -591,7 +591,7 @@ recycler
 >
 getBoolResult
 (
-PR_TRUE
+true
 aResult
 )
 ;
@@ -621,7 +621,7 @@ recycler
 >
 getBoolResult
 (
-PR_FALSE
+false
 aResult
 )
 ;

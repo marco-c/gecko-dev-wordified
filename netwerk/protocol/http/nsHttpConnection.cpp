@@ -796,7 +796,7 @@ mMaxBytesRead
 )
 mKeepAlive
 (
-PR_TRUE
+true
 )
 /
 /
@@ -809,11 +809,11 @@ by
 default
 mKeepAliveMask
 (
-PR_TRUE
+true
 )
 mSupportsPipelining
 (
-PR_FALSE
+false
 )
 /
 /
@@ -824,19 +824,19 @@ grade
 server
 mIsReused
 (
-PR_FALSE
+false
 )
 mCompletedProxyConnect
 (
-PR_FALSE
+false
 )
 mLastTransactionExpectedNoContent
 (
-PR_FALSE
+false
 )
 mIdleMonitoring
 (
-PR_FALSE
+false
 )
 {
 LOG
@@ -1288,7 +1288,7 @@ Monitor
 ;
 mIdleMonitoring
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1520,7 +1520,7 @@ reason
 }
 mKeepAlive
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1821,7 +1821,7 @@ dataSize
 ;
 canReuse
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -1877,7 +1877,7 @@ if
 mSocketTransport
 )
 return
-PR_FALSE
+false
 ;
 bool
 alive
@@ -1903,7 +1903,7 @@ rv
 )
 alive
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1940,7 +1940,7 @@ n
 ;
 alive
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -2023,7 +2023,7 @@ servers
 .
 .
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2070,7 +2070,7 @@ if
 val
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -2431,7 +2431,7 @@ pipelining
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -2448,7 +2448,7 @@ to
 this
 server
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2780,7 +2780,7 @@ NS_ERROR_NET_RESET
 *
 reset
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2882,7 +2882,7 @@ checked
 )
 mSupportsPipelining
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2941,12 +2941,12 @@ alive
 )
 mKeepAlive
 =
-PR_TRUE
+true
 ;
 else
 mKeepAlive
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2979,13 +2979,13 @@ close
 )
 mKeepAlive
 =
-PR_FALSE
+false
 ;
 else
 {
 mKeepAlive
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -3367,7 +3367,7 @@ false
 *
 reset
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -3426,7 +3426,7 @@ rv
 }
 mCompletedProxyConnect
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -3677,7 +3677,7 @@ if
 mIsReused
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -3685,7 +3685,7 @@ if
 mConsiderReusedAfterInterval
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -4217,7 +4217,7 @@ this
 ;
 mIdleMonitoring
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -4317,7 +4317,7 @@ this
 ;
 mIdleMonitoring
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4679,7 +4679,7 @@ instead
 )
 mIsReused
 =
-PR_TRUE
+true
 ;
 }
 NS_METHOD
@@ -5151,7 +5151,7 @@ NS_OK
 ;
 again
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -5194,7 +5194,7 @@ mSocketOutCondition
 ;
 again
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -5302,7 +5302,7 @@ start
 reading
 again
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -5563,7 +5563,7 @@ long
 .
 mKeepAliveMask
 =
-PR_FALSE
+false
 ;
 gHttpHandler
 -
@@ -5653,7 +5653,7 @@ NS_OK
 ;
 again
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -5710,7 +5710,7 @@ mSocketInCondition
 ;
 again
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -6049,7 +6049,7 @@ request
 Flatten
 (
 buf
-PR_FALSE
+false
 )
 ;
 buf

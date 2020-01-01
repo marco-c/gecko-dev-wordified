@@ -710,7 +710,7 @@ InternalState_Disconnected
 ;
 gConnectionCallbackInvoked
 =
-PR_TRUE
+true
 ;
 mon
 .
@@ -743,7 +743,7 @@ NS_IsMainThread
 gConnection
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -785,7 +785,7 @@ gReentrantMonitor
 ;
 gConnectionCallbackInvoked
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -838,10 +838,10 @@ gInternalState
 InternalState_Connected
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -905,7 +905,7 @@ if
 gConnection
 )
 return
-PR_TRUE
+true
 ;
 gReentrantMonitor
 =
@@ -923,7 +923,7 @@ if
 gReentrantMonitor
 )
 return
-PR_FALSE
+false
 ;
 DBusError
 error
@@ -1002,7 +1002,7 @@ gReentrantMonitor
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 g_signal_connect
@@ -1036,12 +1036,12 @@ connection
 -
 events
 "
-PR_TRUE
+true
 nsnull
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

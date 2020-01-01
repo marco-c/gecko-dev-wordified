@@ -745,7 +745,7 @@ aType
 )
 mIsBoundToChrome
 (
-PR_FALSE
+false
 )
 {
 }
@@ -920,7 +920,7 @@ aKeyEvent
 ;
 executed
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1041,7 +1041,7 @@ ExecuteMatchedHandlers
 (
 key
 0
-PR_FALSE
+false
 )
 ;
 return

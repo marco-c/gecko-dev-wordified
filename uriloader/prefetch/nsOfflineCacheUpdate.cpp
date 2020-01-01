@@ -1610,7 +1610,7 @@ offline
 resource
 "
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -2136,7 +2136,7 @@ mManifestHash
 >
 Finish
 (
-PR_TRUE
+true
 manifestHash
 )
 ;
@@ -3233,7 +3233,7 @@ offline
 resource
 "
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -3260,7 +3260,7 @@ cachingChannel
 >
 SetCacheForOfflineUse
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4447,7 +4447,7 @@ newCachingChannel
 >
 SetCacheForOfflineUse
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4594,7 +4594,7 @@ offline
 resource
 "
 )
-PR_FALSE
+false
 )
 ;
 mChannel
@@ -4929,7 +4929,7 @@ succeeded
 *
 succeeded
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -5061,7 +5061,7 @@ NS_OK
 *
 succeeded
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -5530,11 +5530,11 @@ PARSE_INIT
 )
 mNeedsUpdate
 (
-PR_TRUE
+true
 )
 mManifestHashInitialized
 (
-PR_FALSE
+false
 )
 {
 ReadStrictFileOriginPolicyPref
@@ -5820,7 +5820,7 @@ manifest
 >
 mManifestHashInitialized
 =
-PR_TRUE
+true
 ;
 manifest
 -
@@ -6214,7 +6214,7 @@ mNamespaces
 AppendElement
 (
 ns
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7430,7 +7430,7 @@ mManifestHash
 >
 Finish
 (
-PR_TRUE
+true
 mManifestHashValue
 )
 ;
@@ -7527,7 +7527,7 @@ identical
 ;
 mNeedsUpdate
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -8054,7 +8054,7 @@ specified
 )
 mNeedsUpdate
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -8436,19 +8436,19 @@ nsnull
 )
 mAddedItems
 (
-PR_FALSE
+false
 )
 mPartialUpdate
 (
-PR_FALSE
+false
 )
 mSucceeded
 (
-PR_TRUE
+true
 )
 mObsolete
 (
-PR_FALSE
+false
 )
 mCurrentItem
 (
@@ -8626,7 +8626,7 @@ this
 ;
 mPartialUpdate
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -8888,7 +8888,7 @@ this
 ;
 mPartialUpdate
 =
-PR_TRUE
+true
 ;
 mClientID
 =
@@ -9063,7 +9063,7 @@ pessimistic
 *
 aDoUpdate
 =
-PR_FALSE
+false
 ;
 bool
 succeeded
@@ -9365,7 +9365,7 @@ rv
 *
 aDoUpdate
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -9533,11 +9533,11 @@ status
 {
 mSucceeded
 =
-PR_FALSE
+false
 ;
 mObsolete
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -9588,7 +9588,7 @@ doUpdate
 {
 mSucceeded
 =
-PR_FALSE
+false
 ;
 NotifyState
 (
@@ -9613,7 +9613,7 @@ doUpdate
 {
 mSucceeded
 =
-PR_FALSE
+false
 ;
 AssociateDocuments
 (
@@ -9696,7 +9696,7 @@ rv
 {
 mSucceeded
 =
-PR_FALSE
+false
 ;
 NotifyState
 (
@@ -9834,7 +9834,7 @@ ITEM_FALLBACK
 {
 mSucceeded
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -9867,7 +9867,7 @@ rv
 {
 mSucceeded
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -10015,7 +10015,7 @@ aStatus
 {
 mSucceeded
 =
-PR_FALSE
+false
 ;
 NotifyState
 (
@@ -10220,7 +10220,7 @@ newUpdate
 AddObserver
 (
 this
-PR_FALSE
+false
 )
 ;
 newUpdate
@@ -10424,7 +10424,7 @@ STATE_CANCELLED
 ;
 mSucceeded
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -11046,7 +11046,7 @@ Begin
 {
 mSucceeded
 =
-PR_FALSE
+false
 ;
 NotifyState
 (
@@ -11780,7 +11780,7 @@ STATE_ERROR
 ;
 mSucceeded
 =
-PR_FALSE
+false
 ;
 }
 rv
@@ -11810,7 +11810,7 @@ STATE_ERROR
 ;
 mSucceeded
 =
-PR_FALSE
+false
 ;
 }
 AssociateDocuments
@@ -12545,7 +12545,7 @@ item
 ;
 mAddedItems
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

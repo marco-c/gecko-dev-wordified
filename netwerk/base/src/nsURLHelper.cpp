@@ -888,7 +888,7 @@ gStdURLParser
 }
 gInitialized
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -918,7 +918,7 @@ gStdURLParser
 ;
 gInitialized
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -3868,7 +3868,7 @@ case
 :
 stop
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -3969,7 +3969,7 @@ RFind
 "
 /
 "
-PR_FALSE
+false
 offset
 )
 ;
@@ -4048,7 +4048,7 @@ name
 ;
 needsDelim
 =
-PR_TRUE
+true
 ;
 }
 name
@@ -4630,7 +4630,7 @@ scheme
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -4709,11 +4709,11 @@ scheme
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -4814,7 +4814,7 @@ n
 {
 writing
 =
-PR_TRUE
+true
 ;
 str
 =
@@ -4924,7 +4924,7 @@ found_colon
 {
 writing
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -5000,7 +5000,7 @@ case
 :
 found_colon
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -5034,7 +5034,7 @@ a
 scheme
 found_colon
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -5160,7 +5160,7 @@ we
 finish
 found_colon
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -5214,7 +5214,7 @@ p
 {
 writing
 =
-PR_TRUE
+true
 ;
 p
 -
@@ -5341,7 +5341,7 @@ s
 {
 writing
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -6184,7 +6184,7 @@ stringEnd
 }
 while
 (
-PR_TRUE
+true
 )
 ;
 NS_NOTREACHED
@@ -6400,7 +6400,7 @@ again
 }
 while
 (
-PR_TRUE
+true
 )
 ;
 NS_NOTREACHED
@@ -6727,7 +6727,7 @@ curParamEnd
 ;
 typeHasCharset
 =
-PR_TRUE
+true
 ;
 charsetParamStart
 =
@@ -7110,7 +7110,7 @@ typeHasCharset
 *
 aHadCharset
 =
-PR_TRUE
+true
 ;
 aContentCharset
 .
@@ -7500,7 +7500,7 @@ stream
 *
 aHadCharset
 =
-PR_FALSE
+false
 ;
 const
 nsCString
@@ -7824,7 +7824,7 @@ _
 end
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -7955,7 +7955,7 @@ octet
 invalid
 octet
 return
-PR_FALSE
+false
 ;
 }
 octet
@@ -8001,7 +8001,7 @@ is
 not
 allowed
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -8048,7 +8048,7 @@ octet
 255
 )
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -8059,7 +8059,7 @@ else
 invalid
 character
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -8220,7 +8220,7 @@ if
 haveZeros
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -8231,7 +8231,7 @@ is
 allowed
 haveZeros
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -8245,7 +8245,7 @@ in
 a
 row
 return
-PR_FALSE
+false
 ;
 }
 colons
@@ -8337,7 +8337,7 @@ a
 single
 colon
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -8352,7 +8352,7 @@ too
 many
 digits
 return
-PR_FALSE
+false
 ;
 colons
 =
@@ -8405,7 +8405,7 @@ digits
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 (
@@ -8437,7 +8437,7 @@ else
 invalid
 character
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -8456,7 +8456,7 @@ a
 single
 colon
 return
-PR_FALSE
+false
 ;
 if
 (

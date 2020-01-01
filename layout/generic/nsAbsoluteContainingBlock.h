@@ -1015,7 +1015,7 @@ protected
 /
 /
 Returns
-PR_TRUE
+true
 if
 the
 position

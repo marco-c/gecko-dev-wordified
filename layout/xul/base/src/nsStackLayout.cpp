@@ -1823,7 +1823,7 @@ GetChildBox
 ;
 grow
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -2496,7 +2496,7 @@ LeftRight
 ;
 grow
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -2532,7 +2532,7 @@ TopBottom
 ;
 grow
 =
-PR_TRUE
+true
 ;
 }
 }

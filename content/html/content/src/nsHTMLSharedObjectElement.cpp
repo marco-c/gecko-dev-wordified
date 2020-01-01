@@ -439,6 +439,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsGenericHTMLElement
 .
 h
@@ -545,6 +554,10 @@ undef
 GetObject
 #
 endif
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -884,7 +897,7 @@ StartObjectLoad
 {
 StartObjectLoad
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1193,7 +1206,7 @@ mIsDoneAddingChildren
 {
 mIsDoneAddingChildren
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1729,7 +1742,7 @@ LoadObject
 aValue
 aNotify
 type
-PR_TRUE
+true
 )
 ;
 }
@@ -1822,7 +1835,7 @@ aTabIndex
 *
 aIsFocusable
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1834,7 +1847,7 @@ so
 override
 .
 return
-PR_TRUE
+true
 ;
 }
 return
@@ -2109,7 +2122,7 @@ aResult
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -2323,7 +2336,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -2461,7 +2474,7 @@ type
 }
 SetIsNetworkCreated
 (
-PR_FALSE
+false
 )
 ;
 }

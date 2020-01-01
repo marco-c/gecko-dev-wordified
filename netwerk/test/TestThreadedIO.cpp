@@ -955,7 +955,7 @@ TestListener
 :
 mDone
 (
-PR_FALSE
+false
 )
 mThreadNo
 (
@@ -1146,7 +1146,7 @@ mFile
 ;
 mDone
 =
-PR_TRUE
+true
 ;
 return
 rv

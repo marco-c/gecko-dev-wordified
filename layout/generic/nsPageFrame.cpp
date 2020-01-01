@@ -1041,7 +1041,7 @@ mFlags
 .
 mIsTopOfPage
 =
-PR_TRUE
+true
 ;
 kidReflowState
 .
@@ -1049,7 +1049,7 @@ mFlags
 .
 mTableIsSplittable
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -4387,7 +4387,7 @@ aContext
 )
 mHaveReflowed
 (
-PR_FALSE
+false
 )
 {
 }
@@ -4574,7 +4574,7 @@ call
 .
 mHaveReflowed
 =
-PR_TRUE
+true
 ;
 aStatus
 =

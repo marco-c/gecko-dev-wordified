@@ -1319,7 +1319,7 @@ else
 {
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 Syncbase
 or
@@ -2388,7 +2388,7 @@ target
 >
 GetListenerManager
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2610,7 +2610,7 @@ nothing
 to
 check
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -2658,7 +2658,7 @@ DOMTimeEvent
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -2734,7 +2734,7 @@ DOMKeyEvent
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -2818,7 +2818,7 @@ isCtrl
 isMeta
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 code
@@ -2933,7 +2933,7 @@ isAlt
 isShift
 )
 return
-PR_FALSE
+false
 ;
 keyEvent
 -
@@ -3022,7 +3022,7 @@ mRepeatIterationOrAccessKey
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 }

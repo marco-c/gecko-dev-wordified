@@ -555,7 +555,7 @@ has
 finished
 .
 Return
-PR_TRUE
+true
 if
 *
 you

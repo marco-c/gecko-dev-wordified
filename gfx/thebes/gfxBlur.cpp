@@ -562,7 +562,7 @@ faster
 .
 mHasDirtyRect
 =
-PR_TRUE
+true
 ;
 mDirtyRect
 =
@@ -602,7 +602,7 @@ else
 {
 mHasDirtyRect
 =
-PR_FALSE
+false
 ;
 }
 /

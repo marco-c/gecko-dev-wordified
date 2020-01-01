@@ -823,7 +823,7 @@ eReplaced
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 nsBoxFrame
@@ -978,7 +978,7 @@ nsBoxFrame
 (
 aShell
 aContext
-PR_TRUE
+true
 )
 {
 mPopupSetFrame
@@ -1430,7 +1430,7 @@ DisplayBorderBackgroundOutline
 (
 aBuilder
 aLists
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS

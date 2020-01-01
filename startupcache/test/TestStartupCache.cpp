@@ -1472,7 +1472,7 @@ objectOutput
 WriteObject
 (
 objQI
-PR_TRUE
+true
 )
 ;
 if
@@ -1694,7 +1694,7 @@ objectInput
 >
 ReadObject
 (
-PR_TRUE
+true
 getter_AddRefs
 (
 deserialized

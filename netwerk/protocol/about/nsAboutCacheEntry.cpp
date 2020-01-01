@@ -1723,7 +1723,7 @@ session
 >
 SetDoomEntriesIfExpired
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -1748,7 +1748,7 @@ nsICache
 :
 :
 ACCESS_READ
-PR_FALSE
+false
 result
 )
 ;
@@ -3838,7 +3838,7 @@ n
 *
 keepGoing
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

@@ -704,7 +704,7 @@ h
 #
 include
 "
-xpcquickstubs
+XPCQuickStubs
 .
 h
 "
@@ -2111,7 +2111,7 @@ mResult
 .
 SetIsVoid
 (
-PR_FALSE
+false
 )
 ;
 FreeFileData

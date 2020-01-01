@@ -1236,7 +1236,7 @@ AddObserver
 (
 IDLE_TIMEOUT_PREF
 this
-PR_TRUE
+true
 )
 ;
 if
@@ -1292,7 +1292,7 @@ AddObserver
 (
 QOS_DATA_PREF
 this
-PR_TRUE
+true
 )
 ;
 if
@@ -1345,7 +1345,7 @@ AddObserver
 (
 QOS_CONTROL_PREF
 this
-PR_TRUE
+true
 )
 ;
 if
@@ -1399,7 +1399,7 @@ go
 -
 offline
 "
-PR_TRUE
+true
 )
 ;
 observerService
@@ -1417,7 +1417,7 @@ active
 -
 logins
 "
-PR_TRUE
+true
 )
 ;
 }
@@ -2157,7 +2157,7 @@ key
 {
 found
 =
-PR_TRUE
+true
 ;
 mRootConnectionList
 .

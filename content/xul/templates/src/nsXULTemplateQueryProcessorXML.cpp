@@ -769,7 +769,7 @@ else
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1236,7 +1236,7 @@ nsnull
 *
 aShouldDelayBuilding
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -1493,7 +1493,7 @@ GET
 "
 )
 uriStr
-PR_TRUE
+true
 EmptyString
 (
 )
@@ -1534,7 +1534,7 @@ load
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1557,7 +1557,7 @@ error
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1593,7 +1593,7 @@ req
 *
 aShouldDelayBuilding
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1733,7 +1733,7 @@ Done
 {
 mGenerationStarted
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2135,7 +2135,7 @@ NS_ERROR_INVALID_ARG
 ;
 mGenerationStarted
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <

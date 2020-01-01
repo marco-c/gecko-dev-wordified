@@ -759,11 +759,11 @@ NS_OK
 )
 mIsPending
 (
-PR_FALSE
+false
 )
 mAllowHead
 (
-PR_TRUE
+true
 )
 {
 }
@@ -783,7 +783,7 @@ aStatus
 ;
 mIsPending
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1064,7 +1064,7 @@ httpChannel
 {
 mAllowHead
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1520,7 +1520,7 @@ mAllowHead
 {
 mAllowHead
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1696,7 +1696,7 @@ borkage
 .
 mAllowHead
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1798,7 +1798,7 @@ fire
 .
 mIsPending
 =
-PR_TRUE
+true
 ;
 mObserver
 =

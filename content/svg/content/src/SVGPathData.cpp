@@ -1203,7 +1203,7 @@ Clear
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 i
@@ -1244,7 +1244,7 @@ corrupt
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1472,7 +1472,7 @@ length
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1512,7 +1512,7 @@ corrupt
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 PRUint32
@@ -2365,7 +2365,7 @@ Z
 :
 subpathContainsNonArc
 =
-PR_TRUE
+true
 ;
 MAYBE_APPROXIMATE_ZERO_LENGTH_SUBPATH_SQUARE_CAPS
 ;
@@ -2418,11 +2418,11 @@ segEnd
 ;
 subpathHasLength
 =
-PR_FALSE
+false
 ;
 subpathContainsNonArc
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -2464,11 +2464,11 @@ segEnd
 ;
 subpathHasLength
 =
-PR_FALSE
+false
 ;
 subpathContainsNonArc
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -2520,7 +2520,7 @@ segStart
 }
 subpathContainsNonArc
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2574,7 +2574,7 @@ segStart
 }
 subpathContainsNonArc
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2676,7 +2676,7 @@ cp2
 }
 subpathContainsNonArc
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2784,7 +2784,7 @@ cp2
 }
 subpathContainsNonArc
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2904,7 +2904,7 @@ cp1
 }
 subpathContainsNonArc
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3028,7 +3028,7 @@ cp1
 }
 subpathContainsNonArc
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3260,7 +3260,7 @@ segStart
 }
 subpathContainsNonArc
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3311,7 +3311,7 @@ segStart
 }
 subpathContainsNonArc
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3360,7 +3360,7 @@ segStart
 }
 subpathContainsNonArc
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3411,7 +3411,7 @@ segStart
 }
 subpathContainsNonArc
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3513,7 +3513,7 @@ cp2
 }
 subpathContainsNonArc
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3619,7 +3619,7 @@ cp2
 }
 subpathContainsNonArc
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3739,7 +3739,7 @@ cp1
 }
 subpathContainsNonArc
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3861,7 +3861,7 @@ cp1
 }
 subpathContainsNonArc
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -6535,7 +6535,7 @@ wrong
 .
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 Unknown
 segment

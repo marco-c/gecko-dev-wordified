@@ -1398,7 +1398,7 @@ file
 >
 Delete
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -2280,7 +2280,7 @@ localFile
 >
 Delete
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -2752,7 +2752,7 @@ localFile
 >
 Delete
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -6290,7 +6290,7 @@ localFile
 >
 Delete
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -6486,7 +6486,7 @@ StressTest
 (
 localFile
 15
-PR_FALSE
+false
 )
 ;
 if
@@ -8233,7 +8233,7 @@ StressTest
 (
 localFile
 19
-PR_FALSE
+false
 )
 ;
 if

@@ -948,7 +948,7 @@ ps
 CheckQName
 (
 aQName
-PR_TRUE
+true
 aColon
 )
 )

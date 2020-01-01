@@ -1355,7 +1355,7 @@ mFrameConstructor
 >
 mInStyleRefresh
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1648,7 +1648,7 @@ data
 }
 mHaveLaterSiblingRestyles
 =
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -2035,7 +2035,7 @@ mFrameConstructor
 >
 mInStyleRefresh
 =
-PR_FALSE
+false
 ;
 mFrameConstructor
 -
@@ -2136,7 +2136,7 @@ bit
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -2306,7 +2306,7 @@ mRestyleBits
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 }

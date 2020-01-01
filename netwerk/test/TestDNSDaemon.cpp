@@ -1767,7 +1767,7 @@ n
 ;
 notDone
 =
-PR_FALSE
+false
 ;
 }
 else

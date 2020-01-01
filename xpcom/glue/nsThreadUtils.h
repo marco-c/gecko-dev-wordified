@@ -969,7 +969,7 @@ thread
 *
 *
 returns
-PR_TRUE
+true
 if
 the
 current
@@ -979,7 +979,7 @@ the
 main
 thread
 and
-PR_FALSE
+false
 *
 otherwise
 .
@@ -1289,7 +1289,7 @@ This
 function
 will
 return
-PR_FALSE
+false
 if
 called
 from
@@ -1388,7 +1388,7 @@ function
 will
 simply
 return
-PR_FALSE
+false
 if
 called
 *

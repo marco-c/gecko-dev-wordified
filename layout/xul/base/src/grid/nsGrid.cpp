@@ -1022,7 +1022,7 @@ nsnull
 )
 mNeedsRebuild
 (
-PR_TRUE
+true
 )
 mRowCount
 (
@@ -1046,7 +1046,7 @@ nsnull
 )
 mMarkingDirty
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -1147,7 +1147,7 @@ dirty
 them
 mNeedsRebuild
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1240,7 +1240,7 @@ return
 ;
 mNeedsRebuild
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1602,7 +1602,7 @@ mRowsBox
 rowCount
 &
 mRows
-PR_TRUE
+true
 )
 ;
 BuildRows
@@ -1611,7 +1611,7 @@ mColumnsBox
 columnCount
 &
 mColumns
-PR_FALSE
+false
 )
 ;
 /
@@ -1655,7 +1655,7 @@ mRows
 mColumns
 mRowCount
 mColumnCount
-PR_TRUE
+true
 )
 ;
 PopulateCellMap
@@ -1664,7 +1664,7 @@ mColumns
 mRows
 mColumnCount
 mRowCount
-PR_FALSE
+false
 )
 ;
 }
@@ -2275,7 +2275,7 @@ i
 Init
 (
 nsnull
-PR_FALSE
+false
 )
 ;
 row
@@ -2332,7 +2332,7 @@ i
 Init
 (
 nsnull
-PR_FALSE
+false
 )
 ;
 row
@@ -2822,7 +2822,7 @@ things
 .
 mMarkingDirty
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -2871,7 +2871,7 @@ aState
 }
 mMarkingDirty
 =
-PR_FALSE
+false
 ;
 }
 nsGridRow
@@ -3109,12 +3109,12 @@ aIsHorizontal
 if
 aIsHorizontal
 is
-PR_TRUE
+true
 .
 If
 you
 pass
-PR_FALSE
+false
 you
 will
 get
@@ -4812,12 +4812,12 @@ if
 *
 aIsHorizontal
 is
-PR_TRUE
+true
 .
 If
 you
 pass
-PR_FALSE
+false
 you
 will
 get
@@ -6011,7 +6011,7 @@ if
 part
 )
 return
-PR_FALSE
+false
 ;
 nsGridLayout2
 *
@@ -6029,10 +6029,10 @@ if
 grid
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 /

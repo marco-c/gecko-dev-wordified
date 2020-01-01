@@ -1700,7 +1700,7 @@ aValue
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1723,7 +1723,7 @@ aMathMLmstyleFrame
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIFrame
@@ -2378,7 +2378,7 @@ Length
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -2855,7 +2855,7 @@ IsLengthUnit
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -2885,11 +2885,11 @@ eCSSUnit_EM
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /

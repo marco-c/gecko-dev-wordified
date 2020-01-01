@@ -1099,7 +1099,7 @@ Init
 ;
 mOtherFamilyNamesInitialized
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1123,7 +1123,7 @@ Init
 }
 mFaceNamesInitialized
 =
-PR_FALSE
+false
 ;
 mPrefFonts
 .
@@ -1246,7 +1246,7 @@ Clear
 ;
 mOtherFamilyNamesInitialized
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1268,7 +1268,7 @@ Clear
 }
 mFaceNamesInitialized
 =
-PR_FALSE
+false
 ;
 mPrefFonts
 .
@@ -1369,7 +1369,7 @@ InitOtherFamilyNames
 {
 mOtherFamilyNamesInitialized
 =
-PR_TRUE
+true
 ;
 Telemetry
 :
@@ -1466,7 +1466,7 @@ InitFaceNameLists
 {
 mFaceNamesInitialized
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1871,11 +1871,11 @@ Name
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 struct
@@ -3163,7 +3163,7 @@ aFamily
 ;
 aNeedsBold
 =
-PR_FALSE
+false
 ;
 if
 (

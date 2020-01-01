@@ -1226,7 +1226,7 @@ mIsPainting
 *
 mIsPainting
 =
-PR_TRUE
+true
 ;
 *
 *

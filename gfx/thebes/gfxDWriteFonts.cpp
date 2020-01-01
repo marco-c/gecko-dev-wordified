@@ -912,7 +912,7 @@ nsnull
 )
 mNeedsOblique
 (
-PR_FALSE
+false
 )
 mNeedsBold
 (
@@ -920,11 +920,11 @@ aNeedsBold
 )
 mUseSubpixelPositions
 (
-PR_FALSE
+false
 )
 mAllowManualShowGlyphs
 (
-PR_TRUE
+true
 )
 {
 gfxDWriteFontEntry
@@ -996,7 +996,7 @@ simulation
 .
 mNeedsOblique
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -1034,7 +1034,7 @@ rv
 {
 mIsValid
 =
-PR_FALSE
+false
 ;
 return
 ;
@@ -1221,7 +1221,7 @@ mFontEntry
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsRefPtr
@@ -1269,7 +1269,7 @@ aFontMetrics
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -1432,7 +1432,7 @@ kAntialiasSubpixel
 {
 mUseSubpixelPositions
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1504,7 +1504,7 @@ mAdjustedSize
 ;
 mUseSubpixelPositions
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1570,7 +1570,7 @@ creation
 .
 mAllowManualShowGlyphs
 =
-PR_FALSE
+false
 ;
 }
 mMetrics
@@ -2729,7 +2729,7 @@ hr
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -3040,7 +3040,7 @@ hasStrike
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -3115,7 +3115,7 @@ hr
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 while
@@ -3261,7 +3261,7 @@ aSize
 {
 hasStrike
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3386,7 +3386,7 @@ further
 drawing
 .
 return
-PR_FALSE
+false
 ;
 }
 cairo_set_scaled_font
@@ -3401,7 +3401,7 @@ scaledFont
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool

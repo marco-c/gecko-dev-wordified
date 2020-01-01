@@ -1148,14 +1148,14 @@ is
 a
 child
 return
-PR_TRUE
+true
 ;
 }
 /
 /
 Argument
 of
-PR_FALSE
+false
 indicates
 we
 don
@@ -1169,7 +1169,7 @@ for
 /
 menuitems
 return
-PR_FALSE
+false
 ;
 }
 PRUint8

@@ -938,7 +938,7 @@ hasMore
 *
 _hasMoreResults
 =
-PR_FALSE
+false
 ;
 (
 void
@@ -1286,7 +1286,7 @@ mParamCount
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_ERROR_FAILURE
@@ -1366,7 +1366,7 @@ variant
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_ERROR_INVALID_ARG
@@ -1408,7 +1408,7 @@ JSVAL_TRUE
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

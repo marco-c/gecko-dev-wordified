@@ -2355,7 +2355,7 @@ UpdateScrollbars
 Invalidate
 aNeedsFullInvalidation
 if
-PR_TRUE
+true
 /
 /
 InvalidateScrollbars
@@ -2366,7 +2366,7 @@ CheckOverflow
 /
 /
 returns
-PR_TRUE
+true
 if
 the
 frame

@@ -566,7 +566,7 @@ when
 aPersist
 =
 =
-PR_FALSE
+false
 .
 The
 strings

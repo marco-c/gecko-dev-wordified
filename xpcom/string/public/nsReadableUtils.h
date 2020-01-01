@@ -1939,7 +1939,7 @@ aDest
 *
 Returns
 |
-PR_TRUE
+true
 |
 if
 |
@@ -1989,7 +1989,7 @@ aString
 *
 Returns
 |
-PR_TRUE
+true
 |
 if
 |
@@ -2039,7 +2039,7 @@ aString
 *
 Returns
 |
-PR_TRUE
+true
 |
 if
 |
@@ -2460,7 +2460,7 @@ aSearchEnd
 *
 Returns
 |
-PR_TRUE
+true
 |
 if
 a
@@ -2490,7 +2490,7 @@ was
 found
 returns
 |
-PR_FALSE
+false
 |
 and
 makes
@@ -2756,7 +2756,7 @@ aPattern
 *
 Returns
 |
-PR_TRUE
+true
 |
 if
 a
@@ -2786,7 +2786,7 @@ was
 found
 returns
 |
-PR_FALSE
+false
 |
 and
 makes
@@ -2883,7 +2883,7 @@ aSearchEnd
 *
 Returns
 |
-PR_TRUE
+true
 |
 if
 a
@@ -2909,7 +2909,7 @@ was
 found
 returns
 |
-PR_FALSE
+false
 |
 and
 *

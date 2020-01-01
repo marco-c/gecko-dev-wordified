@@ -957,7 +957,7 @@ arena
 PORT_FreeArena
 (
 arena
-PR_FALSE
+false
 )
 ;
 }
@@ -2316,8 +2316,8 @@ MapGenMechToAlgoMech
 (
 aMechanism
 )
-PR_TRUE
-PR_TRUE
+true
+true
 m_ctx
 )
 ;
@@ -2506,7 +2506,7 @@ PK11_GetNextSafe
 (
 slotList
 slotElement
-PR_FALSE
+false
 )
 ;
 if
@@ -2755,7 +2755,7 @@ PK11_GetNextSafe
 (
 slotList
 slotElement
-PR_FALSE
+false
 )
 ;
 }
@@ -3191,7 +3191,7 @@ primeBits
 {
 found_match
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3690,7 +3690,7 @@ sec_rv
 PK11_Authenticate
 (
 slot
-PR_TRUE
+true
 m_ctx
 )
 ;
@@ -3770,8 +3770,8 @@ keyGenMechanism
 params
 &
 publicKey
-PR_TRUE
-PR_TRUE
+true
+true
 m_ctx
 )
 ;
@@ -3786,8 +3786,8 @@ SetParams
 slot
 keyGenMechanism
 params
-PR_TRUE
-PR_TRUE
+true
+true
 m_ctx
 )
 ;
@@ -4287,7 +4287,7 @@ arena
 PORT_FreeArena
 (
 arena
-PR_TRUE
+true
 )
 ;
 }

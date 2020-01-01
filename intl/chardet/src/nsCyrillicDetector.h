@@ -722,7 +722,7 @@ i
 ;
 mDone
 =
-PR_FALSE
+false
 ;
 }
 virtual

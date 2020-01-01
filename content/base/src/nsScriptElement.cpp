@@ -589,7 +589,7 @@ nsEventStatus_eIgnore
 nsScriptErrorEvent
 event
 (
-PR_TRUE
+true
 NS_LOAD_ERROR
 )
 ;
@@ -740,7 +740,7 @@ NS_LOAD_ERROR
 nsEvent
 event
 (
-PR_TRUE
+true
 type
 )
 ;
@@ -971,7 +971,7 @@ FreezeUriAsyncDefer
 ;
 mAlreadyStarted
 =
-PR_TRUE
+true
 ;
 nsIDocument
 *

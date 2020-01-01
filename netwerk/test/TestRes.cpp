@@ -1497,7 +1497,7 @@ str
 }
 gDone
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

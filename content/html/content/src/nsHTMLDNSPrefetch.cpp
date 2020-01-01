@@ -837,7 +837,7 @@ InitNeckoChild
 ;
 sInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -871,7 +871,7 @@ NS_OK
 }
 sInitialized
 =
-PR_FALSE
+false
 ;
 NS_IF_RELEASE
 (
@@ -1571,7 +1571,7 @@ mActiveLoaderCount
 )
 mTimerArmed
 (
-PR_FALSE
+false
 )
 {
 mTimer
@@ -1608,7 +1608,7 @@ mTimerArmed
 {
 mTimerArmed
 =
-PR_FALSE
+false
 ;
 mTimer
 -
@@ -1787,7 +1787,7 @@ mTimer
 {
 mTimerArmed
 =
-PR_TRUE
+true
 ;
 mTimer
 -
@@ -1995,7 +1995,7 @@ mTimerArmed
 {
 mTimerArmed
 =
-PR_FALSE
+false
 ;
 mTimer
 -
@@ -2102,7 +2102,7 @@ xpcom
 -
 shutdown
 "
-PR_TRUE
+true
 )
 ;
 }
@@ -2181,7 +2181,7 @@ self
 >
 mTimerArmed
 =
-PR_FALSE
+false
 ;
 /
 /

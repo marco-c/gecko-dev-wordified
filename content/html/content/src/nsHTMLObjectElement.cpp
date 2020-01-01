@@ -439,6 +439,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -534,6 +543,10 @@ nsIConstraintValidation
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -756,7 +769,7 @@ IsDisabled
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 virtual
@@ -864,7 +877,7 @@ StartObjectLoad
 {
 StartObjectLoad
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1006,7 +1019,7 @@ validation
 .
 SetBarredFromConstraintValidation
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -1067,7 +1080,7 @@ aHaveNotified
 {
 mIsDoneAddingChildren
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1577,7 +1590,7 @@ NS_ConvertUTF16toUTF8
 (
 type
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -1791,10 +1804,10 @@ aTabIndex
 *
 aIsFocusable
 =
-PR_FALSE
+false
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1900,10 +1913,10 @@ aTabIndex
 *
 aIsFocusable
 =
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1980,7 +1993,7 @@ GetIntegerValue
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -2431,7 +2444,7 @@ aResult
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -2544,7 +2557,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -2674,7 +2687,7 @@ ctype
 }
 SetIsNetworkCreated
 (
-PR_FALSE
+false
 )
 ;
 }

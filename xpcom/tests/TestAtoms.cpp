@@ -425,6 +425,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIAtom
 .
 h
@@ -457,6 +466,10 @@ nsStaticAtom
 .
 h
 "
+using
+namespace
+mozilla
+;
 namespace
 TestAtoms
 {
@@ -475,7 +488,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 ValidStrings
 )
@@ -540,7 +553,7 @@ str8
 )
 )
 return
-PR_FALSE
+false
 ;
 nsString
 tmp16
@@ -584,7 +597,7 @@ tmp8
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -605,7 +618,7 @@ str16
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -645,11 +658,11 @@ str8
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -667,7 +680,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 ValidStrings
 )
@@ -717,11 +730,11 @@ atom16
 atom8
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -815,7 +828,7 @@ strCut
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -906,7 +919,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 Invalid16Strings
 )
@@ -960,7 +973,7 @@ m16
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -973,7 +986,7 @@ NS_GetNumberOfAtoms
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -986,7 +999,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 Invalid8Strings
 )
@@ -1062,7 +1075,7 @@ m16
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1075,7 +1088,7 @@ NS_GetNumberOfAtoms
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1119,7 +1132,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 Malformed8Strings
 )
@@ -1166,13 +1179,13 @@ NS_GetNumberOfAtoms
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 #
 endif
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -1435,7 +1448,7 @@ thirdNonPerm
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1453,12 +1466,12 @@ count
 1
 )
 return
-PR_FALSE
+false
 ;
 NS_RegisterStaticAtoms
 (
 sAtoms_info
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sAtoms_info
 )
@@ -1611,7 +1624,7 @@ first
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1655,7 +1668,7 @@ first
 first_p
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1693,7 +1706,7 @@ second_p
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1734,7 +1747,7 @@ second
 second_p
 )
 return
-PR_FALSE
+false
 ;
 }
 return

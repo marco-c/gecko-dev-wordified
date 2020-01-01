@@ -961,7 +961,7 @@ aFrame1
 aFrame2
 )
 return
-PR_TRUE
+true
 ;
 aFrame1
 =
@@ -978,7 +978,7 @@ iterations
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1036,7 +1036,7 @@ aFrame1
 aFrame2
 )
 return
-PR_TRUE
+true
 ;
 aFrame1
 =
@@ -1053,7 +1053,7 @@ iterations
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 #

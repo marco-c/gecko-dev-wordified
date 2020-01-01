@@ -514,11 +514,11 @@ mReentrantMonitor
 )
 mIPCOpen
 (
-PR_TRUE
+true
 )
 mDrained
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -553,7 +553,7 @@ aWhy
 {
 mIPCOpen
 =
-PR_FALSE
+false
 ;
 }
 bool
@@ -600,7 +600,7 @@ mAudioReentrantMonitor
 ;
 mDrained
 =
-PR_TRUE
+true
 ;
 mAudioReentrantMonitor
 .

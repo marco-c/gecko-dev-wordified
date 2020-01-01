@@ -3191,7 +3191,7 @@ list
 .
 *
 return
-PR_TRUE
+true
 if
 any
 lines
@@ -4200,14 +4200,14 @@ frame
 *
 param
 aMadeNewFrame
-PR_TRUE
+true
 if
 a
 new
 frame
 was
 created
-PR_FALSE
+false
 if
 not
 *
@@ -4578,7 +4578,7 @@ kludge
 If
 this
 returns
-PR_TRUE
+true
 the
 block
 it

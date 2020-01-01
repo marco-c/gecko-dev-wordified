@@ -891,7 +891,7 @@ nsDependentString
 (
 path
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -1203,7 +1203,7 @@ nsDependentString
 path
 len
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -1496,7 +1496,7 @@ nsDependentString
 path
 len
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -1556,7 +1556,7 @@ nsDependentCString
 (
 pHome
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -1574,7 +1574,7 @@ translate_vms
 pHome
 )
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -1620,7 +1620,7 @@ HOME
 "
 )
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -2630,7 +2630,7 @@ nsDependentCString
 (
 dir
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 file
@@ -2776,7 +2776,7 @@ nsDependentCString
 (
 myDocs
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 file
@@ -2978,7 +2978,7 @@ nsDependentString
 (
 path
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -3033,7 +3033,7 @@ nsDependentCString
 (
 path
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -3113,7 +3113,7 @@ nsDependentString
 (
 path
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -3184,7 +3184,7 @@ nsDependentCString
 (
 buffer
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -3200,7 +3200,7 @@ nsDependentCString
 /
 "
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -3244,7 +3244,7 @@ nsDependentString
 path
 len
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -3347,7 +3347,7 @@ Find
 "
 /
 "
-PR_FALSE
+false
 0
 -
 1
@@ -3372,7 +3372,7 @@ return
 NS_NewNativeLocalFile
 (
 tString
-PR_TRUE
+true
 aFile
 )
 ;
@@ -3493,7 +3493,7 @@ nsDependentCString
 (
 tPath
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -3581,7 +3581,7 @@ nsDependentString
 path
 len
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -3657,7 +3657,7 @@ nsDependentString
 path
 len
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -3774,7 +3774,7 @@ nsDependentString
 path
 len
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -3915,7 +3915,7 @@ nsDependentString
 path
 len
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -4302,7 +4302,7 @@ rv
 =
 GetRegWindowsAppDataFolder
 (
-PR_FALSE
+false
 aFile
 )
 ;
@@ -4334,7 +4334,7 @@ rv
 =
 GetRegWindowsAppDataFolder
 (
-PR_TRUE
+true
 aFile
 )
 ;
@@ -4371,7 +4371,7 @@ netscape
 /
 "
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -4395,7 +4395,7 @@ netscape
 /
 "
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -4510,7 +4510,7 @@ nsDependentCString
 (
 buffer
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -4578,7 +4578,7 @@ nsDependentCString
 (
 buffer
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -4698,7 +4698,7 @@ nsDependentCString
 (
 tPath
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -4824,7 +4824,7 @@ nsDependentCString
 (
 szPath
 )
-PR_TRUE
+true
 aFile
 )
 ;
@@ -4896,7 +4896,7 @@ NS_NewLocalFile
 EmptyString
 (
 )
-PR_TRUE
+true
 localFile
 )
 ;

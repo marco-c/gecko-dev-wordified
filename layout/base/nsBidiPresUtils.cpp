@@ -948,7 +948,7 @@ IsXUL
 {
 mIsVisual
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -1633,11 +1633,11 @@ frame
 aFrame
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -1945,7 +1945,7 @@ level
 {
 hasRTLFrames
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2018,7 +2018,7 @@ i
 {
 isReordered
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2292,7 +2292,7 @@ parent
 grandparent
 &
 newParent
-PR_FALSE
+false
 )
 ;
 if
@@ -3496,7 +3496,7 @@ block
 begin_lines
 (
 )
-PR_FALSE
+false
 )
 ;
 bpd
@@ -3970,7 +3970,7 @@ SUBSTITUTE
 /
 isTextFrame
 =
-PR_FALSE
+false
 ;
 fragmentLength
 =
@@ -4159,7 +4159,7 @@ start
 ;
 isTextFrame
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -6339,12 +6339,12 @@ CreateContinuation
 frame
 &
 next
-PR_TRUE
+true
 )
 ;
 createdContinuation
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -7394,7 +7394,7 @@ continuation
 chain
 aIsLeftMost
 =
-PR_FALSE
+false
 ;
 firstFrameState
 =
@@ -7535,14 +7535,14 @@ isLTR
 {
 aIsRightMost
 =
-PR_FALSE
+false
 ;
 }
 else
 {
 aIsLeftMost
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -7570,14 +7570,14 @@ isLTR
 {
 aIsLeftMost
 =
-PR_FALSE
+false
 ;
 }
 else
 {
 aIsRightMost
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -8774,7 +8774,7 @@ CreateContinuation
 (
 aFrame
 aNewFrame
-PR_FALSE
+false
 )
 ;
 }
@@ -9856,7 +9856,7 @@ charType
 ;
 strongTypeFound
 =
-PR_TRUE
+true
 ;
 aCharType
 =
@@ -11367,7 +11367,7 @@ mCtx
 >
 SetTextRunRTL
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -11827,7 +11827,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsBidiDirection
@@ -11871,7 +11871,7 @@ NSBIDI_LTR
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -11897,7 +11897,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -11951,7 +11951,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 src
@@ -12064,7 +12064,7 @@ copied
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

@@ -572,7 +572,7 @@ unoptimizable
 as
 possible
 return
-PR_TRUE
+true
 ;
 }
 #

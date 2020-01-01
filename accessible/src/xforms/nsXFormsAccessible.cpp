@@ -1590,7 +1590,7 @@ GetAllowsAnonChildAccessibles
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1800,7 +1800,7 @@ GetAllowsAnonChildAccessibles
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2524,7 +2524,7 @@ selectedItems
 AppendElement
 (
 item
-PR_FALSE
+false
 )
 ;
 nsIMutableArray
@@ -2672,7 +2672,7 @@ selectedItems
 AppendElement
 (
 item
-PR_FALSE
+false
 )
 ;
 }
@@ -3814,7 +3814,7 @@ if
 content
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -3969,6 +3969,6 @@ DOMNode
 }
 }
 return
-PR_FALSE
+false
 ;
 }

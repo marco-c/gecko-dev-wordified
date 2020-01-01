@@ -1462,7 +1462,7 @@ eCSSUnit_DummyInherit
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -1784,7 +1784,7 @@ mFloat
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 double
@@ -3956,7 +3956,7 @@ eCSSUnit_Function
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCSSValue
@@ -4944,7 +4944,7 @@ aResult
 ;
 mark
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -8501,7 +8501,7 @@ aOriginPrincipal
 )
 mURIResolved
 (
-PR_TRUE
+true
 )
 {
 NS_ABORT_IF_FALSE
@@ -8564,7 +8564,7 @@ aOriginPrincipal
 )
 mURIResolved
 (
-PR_FALSE
+false
 )
 {
 NS_ABORT_IF_FALSE
@@ -8908,7 +8908,7 @@ mURIResolved
 {
 mURIResolved
 =
-PR_TRUE
+true
 ;
 /
 /

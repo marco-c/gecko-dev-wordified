@@ -605,7 +605,7 @@ nsSyncLoader
 :
 mLoading
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1006,7 +1006,7 @@ q
 1
 "
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -1173,7 +1173,7 @@ getter_AddRefs
 (
 listener
 )
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1220,7 +1220,7 @@ nsCORSListenerProxy
 listener
 aLoaderPrincipal
 mChannel
-PR_FALSE
+false
 &
 rv
 )
@@ -1395,7 +1395,7 @@ finished
 .
 mLoading
 =
-PR_TRUE
+true
 ;
 nsIThread
 *
@@ -1426,7 +1426,7 @@ thread
 >
 ProcessNextEvent
 (
-PR_TRUE
+true
 &
 processedEvent
 )
@@ -1530,7 +1530,7 @@ rv
 ;
 mLoading
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -1546,7 +1546,7 @@ mChannel
 ;
 mLoading
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -1646,7 +1646,7 @@ rv
 }
 mLoading
 =
-PR_FALSE
+false
 ;
 return
 rv

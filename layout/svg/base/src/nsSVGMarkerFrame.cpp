@@ -923,7 +923,7 @@ mContent
 ;
 mInUse2
 =
-PR_TRUE
+true
 ;
 gfxMatrix
 markedTM
@@ -937,7 +937,7 @@ GetCanvasTM
 ;
 mInUse2
 =
-PR_FALSE
+false
 ;
 gfxMatrix
 markerTM
@@ -1904,7 +1904,7 @@ mFrame
 >
 mInUse
 =
-PR_TRUE
+true
 ;
 mFrame
 -
@@ -1976,6 +1976,6 @@ mFrame
 >
 mInUse
 =
-PR_FALSE
+false
 ;
 }

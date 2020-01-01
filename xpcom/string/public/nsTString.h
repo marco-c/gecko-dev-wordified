@@ -1706,7 +1706,7 @@ return
 Compare
 (
 aString
-PR_TRUE
+true
 aCount
 )
 =

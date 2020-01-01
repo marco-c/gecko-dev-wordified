@@ -654,7 +654,7 @@ bug
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1239,7 +1239,7 @@ failure
 get
 (
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -1314,7 +1314,7 @@ failure
 get
 (
 )
-PR_FALSE
+false
 )
 ;
 }

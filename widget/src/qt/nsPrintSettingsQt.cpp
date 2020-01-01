@@ -978,7 +978,7 @@ LastPageFirst
 *
 aPrintReversed
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -986,7 +986,7 @@ else
 *
 aPrintReversed
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -1073,7 +1073,7 @@ Color
 *
 aPrintInColor
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1081,7 +1081,7 @@ else
 *
 aPrintInColor
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -1318,7 +1318,7 @@ nsDependentString
 (
 aToFileName
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 file

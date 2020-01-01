@@ -1877,11 +1877,11 @@ nsnull
 )
 mIsStyleBinding
 (
-PR_TRUE
+true
 )
 mMarkedForDeath
 (
-PR_FALSE
+false
 )
 {
 NS_ASSERTION
@@ -2743,7 +2743,7 @@ HasStyleSheets
 )
 )
 return
-PR_TRUE
+true
 ;
 return
 mNextBinding
@@ -2755,7 +2755,7 @@ HasStyleSheets
 (
 )
 :
-PR_FALSE
+false
 ;
 }
 struct
@@ -3639,7 +3639,7 @@ nsNodeUtils
 Clone
 (
 defContent
-PR_TRUE
+true
 document
 -
 >
@@ -4358,7 +4358,7 @@ _template
 {
 hasContent
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -4391,7 +4391,7 @@ nsNodeUtils
 Clone
 (
 content
-PR_TRUE
+true
 doc
 -
 >
@@ -5297,7 +5297,7 @@ GetPrefix
 (
 )
 value2
-PR_FALSE
+false
 )
 ;
 }
@@ -5325,7 +5325,7 @@ UnsetAttr
 (
 namespaceID
 name
-PR_FALSE
+false
 )
 ;
 }
@@ -5394,7 +5394,7 @@ mBoundElement
 >
 GetListenerManager
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -6194,7 +6194,7 @@ mBoundElement
 >
 GetListenerManager
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -7526,7 +7526,7 @@ InheritsStyle
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -8680,7 +8680,7 @@ GetAllowScripts
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -8738,7 +8738,7 @@ mgr
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIDocument
@@ -8763,7 +8763,7 @@ doc
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIScriptGlobalObject
@@ -8784,7 +8784,7 @@ global
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -8807,7 +8807,7 @@ context
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 JSContext
@@ -8874,7 +8874,7 @@ canExecute
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -8923,7 +8923,7 @@ haveCert
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -9152,7 +9152,7 @@ list
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -9167,7 +9167,7 @@ HasInsertionParent
 aParent
 )
 :
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -9413,7 +9413,7 @@ aMultipleInsertionPoints
 *
 aMultipleInsertionPoints
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -9534,7 +9534,7 @@ obj
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -9554,7 +9554,7 @@ obj
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -9567,7 +9567,7 @@ MarkForDeath
 {
 mMarkedForDeath
 =
-PR_TRUE
+true
 ;
 ExecuteDetachedHandler
 (

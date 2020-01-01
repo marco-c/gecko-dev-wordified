@@ -473,7 +473,7 @@ aEvent
 new
 nsCommandEvent
 (
-PR_FALSE
+false
 nsnull
 nsnull
 nsnull
@@ -496,14 +496,14 @@ aEvent
 {
 mEventIsInternal
 =
-PR_FALSE
+false
 ;
 }
 else
 {
 mEventIsInternal
 =
-PR_TRUE
+true
 ;
 }
 }

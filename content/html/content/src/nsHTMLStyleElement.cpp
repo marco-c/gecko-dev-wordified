@@ -969,7 +969,7 @@ else
 *
 aDisabled
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -1469,7 +1469,7 @@ nsContentUtils
 GetNodeTextContent
 (
 this
-PR_FALSE
+false
 aInnerHTML
 )
 ;
@@ -1491,7 +1491,7 @@ aInnerHTML
 {
 SetEnableUpdates
 (
-PR_FALSE
+false
 )
 ;
 nsresult
@@ -1504,12 +1504,12 @@ SetNodeTextContent
 (
 this
 aInnerHTML
-PR_TRUE
+true
 )
 ;
 SetEnableUpdates
 (
-PR_TRUE
+true
 )
 ;
 UpdateStyleSheetInternal
@@ -1538,7 +1538,7 @@ aIsInline
 *
 aIsInline
 =
-PR_TRUE
+true
 ;
 return
 nsnull
@@ -1585,7 +1585,7 @@ Truncate
 *
 aIsAlternate
 =
-PR_FALSE
+false
 ;
 nsAutoString
 title

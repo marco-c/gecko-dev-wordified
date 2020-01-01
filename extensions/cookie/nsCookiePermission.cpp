@@ -1012,7 +1012,7 @@ MOZ_MAIL_NEWS
 /
 /
 returns
-PR_TRUE
+true
 if
 URI
 appears
@@ -1113,11 +1113,11 @@ result
 result
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -1225,7 +1225,7 @@ AddObserver
 (
 kCookiesLifetimePolicy
 this
-PR_FALSE
+false
 )
 ;
 prefBranch
@@ -1235,7 +1235,7 @@ AddObserver
 (
 kCookiesLifetimeDays
 this
-PR_FALSE
+false
 )
 ;
 prefBranch
@@ -1245,7 +1245,7 @@ AddObserver
 (
 kCookiesAlwaysAcceptSession
 this
-PR_FALSE
+false
 )
 ;
 PrefChanged
@@ -1420,7 +1420,7 @@ prefBranch
 SetBoolPref
 (
 kCookiesPrefsMigrated
-PR_TRUE
+true
 )
 ;
 }
@@ -1951,7 +1951,7 @@ ACCESS_SESSION
 *
 aIsSession
 =
-PR_TRUE
+true
 ;
 case
 nsIPermissionManager
@@ -1965,7 +1965,7 @@ ACCESS_ALLOW
 *
 aResult
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1981,7 +1981,7 @@ ACCESS_DENY
 *
 aResult
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -2066,7 +2066,7 @@ ACCEPT_NORMALLY
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2179,7 +2179,7 @@ InPrivateBrowsing
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2199,7 +2199,7 @@ fails
 *
 aResult
 =
-PR_FALSE
+false
 ;
 nsCAutoString
 hostPort
@@ -2670,7 +2670,7 @@ notifications
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 rv
@@ -2737,7 +2737,7 @@ ACCEPT_SESSION_COOKIE
 *
 aIsSession
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2898,7 +2898,7 @@ session
 *
 aIsSession
 =
-PR_TRUE
+true
 ;
 }
 else

@@ -751,7 +751,7 @@ allowPlugins
 )
 allowPlugins
 =
-PR_FALSE
+false
 ;
 return
 allowPlugins

@@ -2186,7 +2186,7 @@ GetElementTransitions
 (
 aElement
 pseudoType
-PR_FALSE
+false
 )
 ;
 if
@@ -4532,7 +4532,7 @@ aNewStyleContext
 GetPseudoType
 (
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -4705,7 +4705,7 @@ hint
 *
 aStartedAny
 =
-PR_TRUE
+true
 ;
 aWhichStarted
 -
@@ -5006,7 +5006,7 @@ aData
 >
 mElement
 aPseudoType
-PR_FALSE
+false
 )
 ;
 if
@@ -5379,7 +5379,7 @@ aElement
 )
 mEvent
 (
-PR_TRUE
+true
 NS_TRANSITION_END
 NS_ConvertUTF8toUTF16
 (
@@ -5438,7 +5438,7 @@ mElement
 )
 mEvent
 (
-PR_TRUE
+true
 NS_TRANSITION_END
 aOther
 .

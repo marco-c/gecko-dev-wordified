@@ -8571,7 +8571,7 @@ if
 NS_ProcessNextEvent
 (
 currentThread
-PR_FALSE
+false
 )
 )
 {
@@ -9832,7 +9832,7 @@ if
 NS_ProcessNextEvent
 (
 currentThread
-PR_FALSE
+false
 )
 )
 {
@@ -10747,13 +10747,13 @@ entry
 *
 _retval
 =
-PR_TRUE
+true
 ;
 else
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

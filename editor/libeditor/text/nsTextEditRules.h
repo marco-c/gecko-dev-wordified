@@ -1340,7 +1340,7 @@ aOutCancel
 if
 set
 to
-PR_TRUE
+true
 the
 caller
 should
@@ -1585,7 +1585,7 @@ IsPasswordEditor
 (
 )
 :
-PR_FALSE
+false
 ;
 }
 bool
@@ -1604,7 +1604,7 @@ IsSingleLineEditor
 (
 )
 :
-PR_FALSE
+false
 ;
 }
 bool
@@ -1623,7 +1623,7 @@ IsPlaintextEditor
 (
 )
 :
-PR_FALSE
+false
 ;
 }
 bool
@@ -1642,7 +1642,7 @@ IsReadonly
 (
 )
 :
-PR_FALSE
+false
 ;
 }
 bool
@@ -1661,7 +1661,7 @@ IsDisabled
 (
 )
 :
-PR_FALSE
+false
 ;
 }
 bool
@@ -1680,7 +1680,7 @@ IsMailEditor
 (
 )
 :
-PR_FALSE
+false
 ;
 }
 bool
@@ -1699,7 +1699,7 @@ DontEchoPassword
 (
 )
 :
-PR_FALSE
+false
 ;
 }
 /
@@ -1900,11 +1900,11 @@ eNext
 )
 bOrdered
 (
-PR_FALSE
+false
 )
 entireList
 (
-PR_FALSE
+false
 )
 bulletType
 (
@@ -2140,7 +2140,7 @@ mRules
 >
 mLockRulesSniffing
 =
-PR_TRUE
+true
 ;
 }
 ~
@@ -2157,7 +2157,7 @@ mRules
 >
 mLockRulesSniffing
 =
-PR_FALSE
+false
 ;
 }
 protected
@@ -2290,7 +2290,7 @@ mEnabled
 *
 mEnabled
 =
-PR_FALSE
+false
 ;
 }
 }

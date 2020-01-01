@@ -782,7 +782,7 @@ fillRect
 .
 height
 )
-PR_TRUE
+true
 )
 ;
 gfxPoint
@@ -1268,7 +1268,7 @@ destBufferRect
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 contentType
@@ -1971,7 +1971,7 @@ result
 .
 mDidSelfCopy
 =
-PR_TRUE
+true
 ;
 /
 /

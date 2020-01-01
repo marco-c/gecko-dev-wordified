@@ -560,7 +560,7 @@ nsGkAtoms
 :
 _class
 aValue
-PR_TRUE
+true
 )
 ;
 }
@@ -800,7 +800,7 @@ val
 ;
 aPreventCachingOfSandwich
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

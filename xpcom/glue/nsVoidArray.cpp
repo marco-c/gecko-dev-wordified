@@ -1434,7 +1434,7 @@ PRInt32
 oldsize
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -1520,7 +1520,7 @@ nsAutoVoidArray
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -1567,7 +1567,7 @@ resize
 to
 mCount
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -1617,7 +1617,7 @@ if
 newImpl
 )
 return
-PR_FALSE
+false
 ;
 #
 if
@@ -1706,12 +1706,12 @@ newImpl
 -
 >
 mCount
-PR_TRUE
+true
 hasAuto
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -1742,7 +1742,7 @@ Impl
 anyway
 .
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1793,7 +1793,7 @@ if
 newImpl
 )
 return
-PR_FALSE
+false
 ;
 #
 if
@@ -1875,7 +1875,7 @@ NumberOfSize
 ;
 mIsAuto
 =
-PR_TRUE
+true
 ;
 #
 endif
@@ -1938,7 +1938,7 @@ mImpl
 mCount
 :
 0
-PR_TRUE
+true
 hasAuto
 )
 ;
@@ -1954,7 +1954,7 @@ ReplaceElementAt
 if
 needed
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -2187,10 +2187,10 @@ newCapacity
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsVoidArray
@@ -2223,7 +2223,7 @@ mMaxSize
 ;
 mIsAuto
 =
-PR_FALSE
+false
 ;
 ADD_TO_STATS
 (
@@ -2273,7 +2273,7 @@ mMaxSize
 ;
 mIsAuto
 =
-PR_FALSE
+false
 ;
 MaxElements
 [
@@ -2649,7 +2649,7 @@ aNewCount
 0
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2664,7 +2664,7 @@ Clear
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2713,7 +2713,7 @@ growDelta
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2880,7 +2880,7 @@ mCount
 #
 endif
 return
-PR_TRUE
+true
 ;
 }
 PRInt32
@@ -3044,7 +3044,7 @@ append
 )
 .
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3066,7 +3066,7 @@ GrowArrayBy
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3217,7 +3217,7 @@ mCount
 #
 endif
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -3319,7 +3319,7 @@ append
 )
 .
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3342,7 +3342,7 @@ otherCount
 )
 )
 return
-PR_FALSE
+false
 ;
 ;
 }
@@ -3531,7 +3531,7 @@ mCount
 #
 endif
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -3569,7 +3569,7 @@ aIndex
 0
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -3645,7 +3645,7 @@ growDelta
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 mImpl
@@ -3888,7 +3888,7 @@ mCount
 endif
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -3922,7 +3922,7 @@ aTo
 aFrom
 )
 return
-PR_TRUE
+true
 ;
 NS_ASSERTION
 (
@@ -3982,7 +3982,7 @@ mImpl
 =
 null
 return
-PR_FALSE
+false
 ;
 }
 tempElement
@@ -4133,7 +4133,7 @@ tempElement
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -4195,7 +4195,7 @@ replace
 to
 fail
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -4304,7 +4304,7 @@ mCount
 aCount
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -4341,7 +4341,7 @@ theIndex
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -4993,7 +4993,7 @@ if
 DEBUG_VOIDARRAY
 mIsAuto
 =
-PR_TRUE
+true
 ;
 ADD_TO_STATS
 (
@@ -5570,7 +5570,7 @@ if
 string
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -5584,13 +5584,13 @@ aIndex
 )
 )
 return
-PR_TRUE
+true
 ;
 delete
 string
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -5640,11 +5640,11 @@ string
 aCString
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -5683,7 +5683,7 @@ index
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -5725,7 +5725,7 @@ index
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -5769,11 +5769,11 @@ delete
 string
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -6656,7 +6656,7 @@ aElement
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -6668,7 +6668,7 @@ EnsureArray
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -6788,7 +6788,7 @@ FastElementAt
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -6800,7 +6800,7 @@ EnsureArray
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -6880,7 +6880,7 @@ aElement
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -6892,7 +6892,7 @@ EnsureArray
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -6957,7 +6957,7 @@ aElement
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -6969,7 +6969,7 @@ EnsureArray
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -7017,11 +7017,11 @@ mImpl
 nsnull
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -7066,11 +7066,11 @@ mImpl
 nsnull
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -7125,11 +7125,11 @@ nsnull
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -7221,7 +7221,7 @@ mImpl
 nsnull
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -7233,7 +7233,7 @@ aMin
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -7268,7 +7268,7 @@ single
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 AsArray
@@ -7282,7 +7282,7 @@ single
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -7455,7 +7455,7 @@ HasSingle
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -7490,10 +7490,10 @@ single
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }

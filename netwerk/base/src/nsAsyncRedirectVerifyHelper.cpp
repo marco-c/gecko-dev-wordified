@@ -645,7 +645,7 @@ nsAsyncRedirectVerifyHelper
 :
 mCallbackInitiated
 (
-PR_FALSE
+false
 )
 mExpectedCallbacks
 (
@@ -757,7 +757,7 @@ synchronize
 )
 mWaitingForRedirectCallback
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -1321,7 +1321,7 @@ return
 }
 mCallbackInitiated
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1333,7 +1333,7 @@ one
 callback
 mWaitingForRedirectCallback
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1499,7 +1499,7 @@ mResult
 ;
 mCallbackInitiated
 =
-PR_TRUE
+true
 ;
 /
 /

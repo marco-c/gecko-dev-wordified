@@ -762,7 +762,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -905,7 +905,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1436,7 +1436,7 @@ name
 )
 doTagRemoval
 =
-PR_TRUE
+true
 ;
 else
 {
@@ -1761,7 +1761,7 @@ aParams
 SetBooleanValue
 (
 STATE_ENABLED
-PR_TRUE
+true
 )
 ;
 if
@@ -1913,7 +1913,7 @@ editor
 MakeOrChangeList
 (
 listType
-PR_FALSE
+false
 EmptyString
 (
 )
@@ -2505,7 +2505,7 @@ outCmdEnabled
 =
 bMixed
 ?
-PR_TRUE
+true
 :
 (
 tagStr
@@ -2532,7 +2532,7 @@ NS_OK
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2711,7 +2711,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2935,7 +2935,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3142,7 +3142,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -4010,7 +4010,7 @@ aParams
 SetBooleanValue
 (
 STATE_ENABLED
-PR_TRUE
+true
 )
 ;
 return
@@ -4807,7 +4807,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -5332,7 +5332,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -5408,7 +5408,7 @@ aParams
 SetBooleanValue
 (
 STATE_MIXED
-PR_FALSE
+false
 )
 ;
 aParams
@@ -5473,7 +5473,7 @@ aParams
 SetBooleanValue
 (
 STATE_MIXED
-PR_FALSE
+false
 )
 ;
 aParams
@@ -5587,7 +5587,7 @@ htmlEditor
 >
 AbsolutePositionSelection
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -5600,7 +5600,7 @@ htmlEditor
 >
 AbsolutePositionSelection
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -5682,7 +5682,7 @@ positionedElement
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -6113,7 +6113,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -6292,7 +6292,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -6471,7 +6471,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -6645,7 +6645,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -6905,7 +6905,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -7014,7 +7014,7 @@ editor
 InsertElementAtSelection
 (
 domElem
-PR_TRUE
+true
 )
 ;
 }
@@ -7324,7 +7324,7 @@ editor
 InsertElementAtSelection
 (
 domElem
-PR_TRUE
+true
 )
 ;
 }
@@ -7479,7 +7479,7 @@ nsnull
 *
 aMixed
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <

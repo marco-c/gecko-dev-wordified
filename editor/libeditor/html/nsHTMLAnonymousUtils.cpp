@@ -1260,7 +1260,7 @@ BindToTree
 doc
 parentContent
 parentContent
-PR_TRUE
+true
 )
 ;
 if
@@ -2410,7 +2410,7 @@ focusTagAtom
 )
 mResizedObjectIsAnImage
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2697,7 +2697,7 @@ absolutely
 positioned
 mResizedObjectIsAbsolutelyPositioned
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -2897,7 +2897,7 @@ else
 {
 mResizedObjectIsAbsolutelyPositioned
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <

@@ -529,7 +529,7 @@ mCheckedChanged
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -552,7 +552,7 @@ mExcludeElement
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsRefPtr
@@ -596,7 +596,7 @@ GetCheckedChanged
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -619,7 +619,7 @@ mExcludeElement
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsHTMLInputElement
@@ -656,6 +656,6 @@ true
 )
 ;
 return
-PR_TRUE
+true
 ;
 }

@@ -1915,7 +1915,7 @@ height
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1967,7 +1967,7 @@ limit
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -2027,7 +2027,7 @@ limit
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -2088,7 +2088,7 @@ overflow
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -2142,11 +2142,11 @@ overflow
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2390,7 +2390,7 @@ if
 mSurfaceValid
 )
 return
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -2407,7 +2407,7 @@ CAIRO_SUBPIXEL_ANTIALIASING_ENABLED
 #
 else
 return
-PR_TRUE
+true
 ;
 #
 endif

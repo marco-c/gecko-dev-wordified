@@ -452,6 +452,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLTextAreaElement
 .
 h
@@ -743,6 +752,10 @@ nsTextEditorState
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -1517,7 +1530,7 @@ adding
 children
 (
 always
-PR_TRUE
+true
 if
 not
 created
@@ -2013,11 +2026,11 @@ aNodeInfo
 )
 mValueChanged
 (
-PR_FALSE
+false
 )
 mHandlingSelect
 (
-PR_FALSE
+false
 )
 mDoneAddingChildren
 (
@@ -2036,15 +2049,15 @@ FROM_PARSER_FRAGMENT
 )
 mDisabledChanged
 (
-PR_FALSE
+false
 )
 mCanShowInvalidUI
 (
-PR_TRUE
+true
 )
 mCanShowValidUI
 (
-PR_TRUE
+true
 )
 mState
 (
@@ -2364,7 +2377,7 @@ nsEventStatus_eIgnore
 nsGUIEvent
 event
 (
-PR_TRUE
+true
 NS_FORM_SELECTED
 nsnull
 )
@@ -2532,7 +2545,7 @@ formControlFrame
 =
 GetFormControlFrame
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -2589,7 +2602,7 @@ aTabIndex
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2608,7 +2621,7 @@ IsDisabled
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_IMPL_BOOL_ATTR
@@ -2717,7 +2730,7 @@ aValue
 GetValueInternal
 (
 aValue
-PR_TRUE
+true
 )
 ;
 return
@@ -3042,7 +3055,7 @@ needed
 .
 SetValueChanged
 (
-PR_TRUE
+true
 )
 ;
 mState
@@ -3074,7 +3087,7 @@ return
 SetValueInternal
 (
 aValue
-PR_FALSE
+false
 )
 ;
 }
@@ -3108,7 +3121,7 @@ NS_ERROR_DOM_SECURITY_ERR
 SetValueInternal
 (
 aValue
-PR_TRUE
+true
 )
 ;
 return
@@ -3192,7 +3205,7 @@ nsContentUtils
 GetNodeTextContent
 (
 this
-PR_FALSE
+false
 aDefaultValue
 )
 ;
@@ -3222,7 +3235,7 @@ SetNodeTextContent
 (
 this
 aDefaultValue
-PR_TRUE
+true
 )
 ;
 if
@@ -3501,7 +3514,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -3539,7 +3552,7 @@ formControlFrame
 =
 GetFormControlFrame
 (
-PR_FALSE
+false
 )
 ;
 nsIFrame
@@ -3565,7 +3578,7 @@ aVisitor
 .
 mCanHandle
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3628,7 +3641,7 @@ NS_OK
 }
 mHandlingSelect
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -3849,7 +3862,7 @@ NS_FORM_SELECTED
 {
 mHandlingSelect
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -3965,11 +3978,11 @@ else
 NS_BLUR_CONTENT
 mCanShowInvalidUI
 =
-PR_TRUE
+true
 ;
 mCanShowValidUI
 =
-PR_TRUE
+true
 ;
 }
 UpdateState
@@ -4084,7 +4097,7 @@ this
 }
 mDoneAddingChildren
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4593,7 +4606,7 @@ formControlFrame
 =
 GetFormControlFrame
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -4744,7 +4757,7 @@ formControlFrame
 =
 GetFormControlFrame
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -4995,7 +5008,7 @@ formControlFrame
 =
 GetFormControlFrame
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -5180,7 +5193,7 @@ rv
 ;
 SetValueChanged
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -5279,7 +5292,7 @@ value
 GetValueInternal
 (
 value
-PR_FALSE
+false
 )
 ;
 /
@@ -5361,7 +5374,7 @@ value
 GetValueInternal
 (
 value
-PR_TRUE
+true
 )
 ;
 rv
@@ -5574,7 +5587,7 @@ GetDisabled
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsEventStates
@@ -6159,7 +6172,7 @@ kNameSpaceID_None
 {
 mDisabledChanged
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -6629,7 +6642,7 @@ value
 GetValueInternal
 (
 value
-PR_TRUE
+true
 )
 ;
 return
@@ -6698,7 +6711,7 @@ mValueChanged
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -6733,7 +6746,7 @@ maxLength
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -6783,7 +6796,7 @@ IsMutable
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -7057,7 +7070,7 @@ IsSingleLineTextControl
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP_
@@ -7073,7 +7086,7 @@ IsTextArea
 const
 {
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP_
@@ -7102,7 +7115,7 @@ or
 CSS
 .
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP_
@@ -7118,7 +7131,7 @@ IsPasswordTextControl
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP_

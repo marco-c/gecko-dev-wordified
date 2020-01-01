@@ -737,10 +737,10 @@ enum
 {
 kHashEnumerateStop
 =
-PR_FALSE
+false
 kHashEnumerateNext
 =
-PR_TRUE
+true
 }
 ;
 typedef

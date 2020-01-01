@@ -893,7 +893,7 @@ TestApp
 :
 mFailed
 (
-PR_FALSE
+false
 )
 {
 }
@@ -4396,11 +4396,11 @@ mRefCnt
 )
 mTextChanged
 (
-PR_FALSE
+false
 )
 mSelChanged
 (
-PR_FALSE
+false
 )
 {
 mAttrProp
@@ -5206,7 +5206,7 @@ pChange
 {
 mTextChanged
 =
-PR_TRUE
+true
 ;
 mTextChangeData
 =
@@ -5225,7 +5225,7 @@ void
 {
 mSelChanged
 =
-PR_TRUE
+true
 ;
 return
 S_OK
@@ -6314,7 +6314,7 @@ mRefCnt
 )
 mDeactivated
 (
-PR_FALSE
+false
 )
 mFocusedDocument
 (
@@ -6506,7 +6506,7 @@ void
 {
 mDeactivated
 =
-PR_TRUE
+true
 ;
 return
 S_OK
@@ -7633,7 +7633,6 @@ nsIAppShellService
 SIZE_TO_CONTENT
 *
 /
-mAppShell
 getter_AddRefs
 (
 mWindow
@@ -7767,7 +7766,7 @@ properly
 ;
 mFailed
 =
-PR_TRUE
+true
 ;
 }
 mMgr
@@ -8628,7 +8627,7 @@ widget
 >
 Show
 (
-PR_TRUE
+true
 )
 ;
 widget
@@ -8916,7 +8915,7 @@ TestApp
 :
 :
 TestFocus
-PR_FALSE
+false
 )
 )
 passed
@@ -8982,7 +8981,7 @@ clustering
 ;
 mFailed
 =
-PR_TRUE
+true
 ;
 }
 printf
@@ -9144,7 +9143,7 @@ TestApp
 :
 :
 TestNotification
-PR_FALSE
+false
 )
 )
 passed
@@ -9174,7 +9173,7 @@ input
 ;
 mFailed
 =
-PR_TRUE
+true
 ;
 }
 printf
@@ -9341,7 +9340,7 @@ TestApp
 :
 :
 TestNotification
-PR_FALSE
+false
 )
 )
 passed
@@ -9371,7 +9370,7 @@ textarea
 ;
 mFailed
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -9386,7 +9385,7 @@ initialization
 ;
 mFailed
 =
-PR_TRUE
+true
 ;
 }
 Term
@@ -9563,7 +9562,7 @@ set
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rv
@@ -9625,7 +9624,7 @@ changed
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rv
@@ -9688,11 +9687,11 @@ changed
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -9778,7 +9777,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -9852,7 +9851,7 @@ SetText
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 TsViewCookie
@@ -9893,7 +9892,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 hr
@@ -9933,7 +9932,7 @@ GetActiveView
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -9961,7 +9960,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -10022,7 +10021,7 @@ letter
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -10050,7 +10049,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -10111,7 +10110,7 @@ accent
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -10139,7 +10138,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -10194,7 +10193,7 @@ whole
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nonEmpty
@@ -10242,11 +10241,11 @@ rect
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -10306,7 +10305,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 sel
@@ -10384,7 +10383,7 @@ continueTest
 =
 succeeded
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -10417,7 +10416,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 hr
@@ -10489,7 +10488,7 @@ aTestName
 ;
 succeeded
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -10594,7 +10593,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 HRESULT
@@ -10646,7 +10645,7 @@ GetSelection
 ;
 succeeded
 =
-PR_FALSE
+false
 ;
 }
 const
@@ -10687,7 +10686,7 @@ SELECTION1_SELEND
 {
 succeeded
 =
-PR_FALSE
+false
 ;
 }
 const
@@ -10730,7 +10729,7 @@ SELECTION2_SELEND
 {
 succeeded
 =
-PR_FALSE
+false
 ;
 }
 const
@@ -10773,7 +10772,7 @@ SELECTION3_SELEND
 {
 succeeded
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -10922,7 +10921,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -11017,7 +11016,7 @@ GetText
 ;
 succeeded
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -11045,7 +11044,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -11172,7 +11171,7 @@ GetText
 ;
 succeeded
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -11200,7 +11199,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -11256,7 +11255,7 @@ string
 ;
 continueTest
 =
-PR_TRUE
+true
 ;
 hr
 =
@@ -11348,7 +11347,7 @@ continueTest
 =
 succeeded
 =
-PR_FALSE
+false
 ;
 }
 const
@@ -11411,7 +11410,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 hr
@@ -11489,7 +11488,7 @@ continueTest
 =
 succeeded
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -11594,7 +11593,7 @@ SetText
 ;
 succeeded
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -11623,7 +11622,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -11639,7 +11638,7 @@ mTestString
 )
 continueTest
 =
-PR_TRUE
+true
 ;
 hr
 =
@@ -11730,7 +11729,7 @@ continueTest
 =
 succeeded
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -11781,7 +11780,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 hr
@@ -11863,7 +11862,7 @@ continueTest
 =
 succeeded
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -11930,7 +11929,7 @@ SetText
 ;
 succeeded
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -11972,7 +11971,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 TS_SELECTION_ACP
@@ -12058,7 +12057,7 @@ nsISelectionController
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 selCon
@@ -12074,7 +12073,7 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-PR_TRUE
+true
 )
 ;
 nsCOMPtr
@@ -12106,7 +12105,7 @@ nsIDOMWindow
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 RECT
@@ -12231,7 +12230,7 @@ failed
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -12259,7 +12258,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 hr
@@ -12299,7 +12298,7 @@ GetActiveView
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -12327,7 +12326,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -12385,7 +12384,7 @@ GetWnd
 ;
 succeeded
 =
-PR_FALSE
+false
 ;
 }
 :
@@ -12421,7 +12420,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 hr
@@ -12517,7 +12516,7 @@ GetScreenExt
 ;
 succeeded
 =
-PR_FALSE
+false
 ;
 }
 const
@@ -12565,7 +12564,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 hr
@@ -12679,7 +12678,7 @@ GETTEXTEXT1_END
 ;
 succeeded
 =
-PR_FALSE
+false
 ;
 }
 const
@@ -12727,7 +12726,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 hr
@@ -12841,7 +12840,7 @@ GETTEXTEXT2_END
 ;
 succeeded
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -12898,7 +12897,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 hr
@@ -13047,7 +13046,7 @@ GETTEXTEXT3_END
 ;
 succeeded
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -13097,7 +13096,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 TS_SELECTION_ACP
@@ -13177,7 +13176,7 @@ aTestName
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -13250,7 +13249,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 hr
@@ -13333,7 +13332,7 @@ aTestName
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 acpCurrent
@@ -13390,11 +13389,11 @@ aTestName
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -13431,7 +13430,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsRefPtr
@@ -13481,7 +13480,7 @@ QueryInterface
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -13576,7 +13575,7 @@ composition
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -13604,7 +13603,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 TS_TEXTCHANGE
@@ -13704,7 +13703,7 @@ InsertTextAtSelection
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 sel
@@ -13740,7 +13739,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mMgr
@@ -13803,7 +13802,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mMgr
@@ -13867,7 +13866,7 @@ OnStartComposition
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -13895,7 +13894,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_NAMED_LITERAL_STRING
@@ -14009,7 +14008,7 @@ SetText
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 sel
@@ -14059,7 +14058,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -14209,7 +14208,7 @@ SetText
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 sel
@@ -14337,7 +14336,7 @@ referenceString
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -14364,7 +14363,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -14438,7 +14437,7 @@ composition
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -14466,7 +14465,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mMgr
@@ -14519,7 +14518,7 @@ OnEndComposition
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -14542,7 +14541,7 @@ referenceString
 )
 )
 return
-PR_FALSE
+false
 ;
 const
 LONG
@@ -14605,7 +14604,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mMgr
@@ -14672,7 +14671,7 @@ composition
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -14700,7 +14699,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mMgr
@@ -14757,7 +14756,7 @@ composition
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -14786,10 +14785,10 @@ referenceString
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -14863,7 +14862,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mMgr
@@ -14876,7 +14875,7 @@ GetFocusedContext
 >
 mTextChanged
 =
-PR_FALSE
+false
 ;
 nsresult
 nsr
@@ -15038,7 +15037,7 @@ nsISelectionController
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsr
@@ -15048,8 +15047,8 @@ selCon
 >
 CompleteMove
 (
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 if
@@ -15073,7 +15072,7 @@ CompleteMove
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -15101,7 +15100,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mMgr
@@ -15114,7 +15113,7 @@ GetFocusedContext
 >
 mSelChanged
 =
-PR_FALSE
+false
 ;
 nsr
 =
@@ -15123,8 +15122,8 @@ selCon
 >
 CharacterMove
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 if
@@ -15159,7 +15158,7 @@ CharacterMove
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -15187,7 +15186,7 @@ null
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mMgr
@@ -15200,7 +15199,7 @@ GetFocusedContext
 >
 mSelChanged
 =
-PR_FALSE
+false
 ;
 nsr
 =
@@ -15209,8 +15208,8 @@ selCon
 >
 CharacterMove
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 if
@@ -15248,7 +15247,7 @@ extend
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -15280,7 +15279,7 @@ nsIWidget
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_NAMED_LITERAL_STRING
@@ -15369,7 +15368,7 @@ change
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -15426,7 +15425,7 @@ change
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -15483,11 +15482,11 @@ change
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -15603,7 +15602,7 @@ nsIWidget
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 HWND
@@ -15649,7 +15648,7 @@ EM_CANUNDO
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -15677,7 +15676,7 @@ EM_CANREDO
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -15706,7 +15705,7 @@ EM_UNDO
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsAutoString
@@ -15768,7 +15767,7 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -15797,7 +15796,7 @@ EM_CANREDO
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -15826,7 +15825,7 @@ EM_REDO
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mTextArea
@@ -15885,7 +15884,7 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 TS_SELECTION_ACP
@@ -15962,7 +15961,7 @@ SetSelection
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 :
@@ -16028,7 +16027,7 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 :
@@ -16094,7 +16093,7 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 :
@@ -16171,7 +16170,7 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 sel
@@ -16226,7 +16225,7 @@ SetSelection
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 :
@@ -16292,7 +16291,7 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 sel
@@ -16347,7 +16346,7 @@ SetSelection
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 :
@@ -16411,7 +16410,7 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -16440,7 +16439,7 @@ EM_CANPASTE
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -16469,7 +16468,7 @@ EM_CANPASTE
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -16498,7 +16497,7 @@ EM_CANPASTE
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 :
@@ -16564,7 +16563,7 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 sel
@@ -16619,7 +16618,7 @@ SetSelection
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 :
@@ -16690,7 +16689,7 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 :
@@ -16756,11 +16755,11 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -16904,7 +16903,7 @@ EmptyString
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -16952,7 +16951,7 @@ EmptyString
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -17023,7 +17022,7 @@ EmptyString
 ;
 \
 return
-PR_FALSE
+false
 ;
 \
 }
@@ -17102,7 +17101,7 @@ EmptyString
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -17206,7 +17205,7 @@ EmptyString
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 prevX
@@ -17324,7 +17323,7 @@ EmptyString
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 prevX
@@ -17430,7 +17429,7 @@ EmptyString
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 prevX
@@ -17536,7 +17535,7 @@ EmptyString
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 prevX
@@ -17642,7 +17641,7 @@ EmptyString
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 prevX
@@ -17858,7 +17857,7 @@ EmptyString
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 prevX
@@ -17964,7 +17963,7 @@ EmptyString
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 prevX
@@ -18070,7 +18069,7 @@ EmptyString
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 prevX
@@ -18176,7 +18175,7 @@ EmptyString
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 prevX
@@ -18462,7 +18461,7 @@ EmptyString
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 prevX
@@ -18568,7 +18567,7 @@ EmptyString
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 prevX
@@ -18649,7 +18648,7 @@ EmptyString
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -18697,7 +18696,7 @@ docShell
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -18732,7 +18731,7 @@ presShell
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -18755,7 +18754,7 @@ viewManager
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 rv

@@ -944,7 +944,7 @@ nsProxyObjectManager
 mProxyObjectMap
 (
 256
-PR_FALSE
+false
 )
 mProxyCreationLock
 (

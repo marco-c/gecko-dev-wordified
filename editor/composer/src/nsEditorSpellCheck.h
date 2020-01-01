@@ -660,7 +660,7 @@ BeginUpdateDictionary
 {
 mUpdateDictionaryRunning
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -670,7 +670,7 @@ EndUpdateDictionary
 {
 mUpdateDictionaryRunning
 =
-PR_FALSE
+false
 ;
 }
 }

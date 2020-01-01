@@ -425,6 +425,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLTableCellElement
 .
 h
@@ -520,6 +529,10 @@ celldata
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsHTMLTableCellElement
 :
@@ -1093,7 +1106,7 @@ i
 ;
 found
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1370,7 +1383,7 @@ nsGkAtoms
 :
 align
 aValue
-PR_TRUE
+true
 )
 ;
 }
@@ -1780,7 +1793,7 @@ ParseEnumValue
 (
 aValue
 kCellScopeTable
-PR_FALSE
+false
 )
 ;
 }
@@ -2639,7 +2652,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

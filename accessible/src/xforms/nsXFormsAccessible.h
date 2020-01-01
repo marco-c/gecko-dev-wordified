@@ -712,7 +712,7 @@ by
 /
 always
 returning
-PR_FALSE
+false
 value
 .
 virtual
@@ -1045,7 +1045,7 @@ by
 /
 always
 returning
-PR_TRUE
+true
 value
 .
 virtual

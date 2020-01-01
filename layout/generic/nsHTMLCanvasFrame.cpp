@@ -650,7 +650,7 @@ aForceTransparentSurface
 *
 aForceTransparentSurface
 =
-PR_FALSE
+false
 ;
 }
 nsIFrame

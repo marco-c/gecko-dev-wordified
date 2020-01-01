@@ -461,6 +461,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIconChannel
 .
 h
@@ -647,6 +656,10 @@ wchar
 .
 h
 >
+using
+namespace
+mozilla
+;
 struct
 ICONFILEHEADER
 {
@@ -1301,7 +1314,7 @@ return
 MakeInputStream
 (
 _retval
-PR_FALSE
+false
 )
 ;
 }
@@ -1507,7 +1520,7 @@ getter_AddRefs
 (
 inStream
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -1545,7 +1558,7 @@ PRInt64
 )
 0
 0
-PR_FALSE
+false
 )
 ;
 if
@@ -1671,7 +1684,7 @@ get
 (
 )
 fileNativePath
-NS_ARRAY_LENGTH
+ArrayLength
 (
 fileNativePath
 )
@@ -1721,7 +1734,7 @@ GetShortPathNameW
 (
 specialNativePath
 specialNativePath
-NS_ARRAY_LENGTH
+ArrayLength
 (
 specialNativePath
 )

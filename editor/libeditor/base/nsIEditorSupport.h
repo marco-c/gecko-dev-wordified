@@ -678,7 +678,7 @@ aExistingRightNode
 param
 aNodeToKeepIsFirst
 if
-PR_TRUE
+true
 the
 contents
 |

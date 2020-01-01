@@ -783,7 +783,7 @@ nsProfileLock
 :
 mHaveLock
 (
-PR_FALSE
+false
 )
 #
 if
@@ -845,9 +845,9 @@ MOZ_DISABLE_SIG_HANDLER
 "
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 #
 endif
@@ -895,7 +895,7 @@ rhs
 .
 mHaveLock
 =
-PR_FALSE
+false
 ;
 #
 if
@@ -1154,7 +1154,7 @@ held
 .
 RemovePidLockFiles
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -1700,7 +1700,7 @@ NS_ERROR_FAILURE
 else
 mHaveLock
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1910,7 +1910,7 @@ must
 be
 gone
 return
-PR_TRUE
+true
 ;
 }
 char
@@ -1971,7 +1971,7 @@ if
 stuck
 .
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -2058,7 +2058,7 @@ Mozilla
 "
 protocol
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -2066,7 +2066,7 @@ PR_FALSE
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -2382,7 +2382,7 @@ NS_OK
 ;
 mHaveLock
 =
-PR_TRUE
+true
 ;
 mPidLockFileName
 =
@@ -2988,7 +2988,7 @@ rv
 LockWithSymlink
 (
 filePath
-PR_FALSE
+false
 )
 ;
 }
@@ -3469,7 +3469,7 @@ rv
 LockWithSymlink
 (
 oldFilePath
-PR_TRUE
+true
 )
 ;
 /
@@ -3621,7 +3621,7 @@ rv
 LockWithSymlink
 (
 oldFilePath
-PR_FALSE
+false
 )
 ;
 }
@@ -3881,7 +3881,7 @@ NS_ERROR_FAILURE
 endif
 mHaveLock
 =
-PR_TRUE
+true
 ;
 return
 rv
@@ -4107,7 +4107,7 @@ it
 endif
 mHaveLock
 =
-PR_FALSE
+false
 ;
 }
 return

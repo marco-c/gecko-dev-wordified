@@ -741,7 +741,7 @@ nsObserverService
 :
 mShuttingDown
 (
-PR_FALSE
+false
 )
 {
 mObserverTopicTable
@@ -775,7 +775,7 @@ Shutdown
 {
 mShuttingDown
 =
-PR_TRUE
+true
 ;
 if
 (

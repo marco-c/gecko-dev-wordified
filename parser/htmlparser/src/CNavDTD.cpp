@@ -443,6 +443,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -620,6 +629,10 @@ h
 "
 #
 endif
+using
+namespace
+mozilla
+;
 /
 *
 *
@@ -834,7 +847,7 @@ mTempContext
 )
 mCountLines
 (
-PR_TRUE
+true
 )
 mTokenizer
 (
@@ -950,7 +963,7 @@ PARSE_LOGFILE
 ;
 checkForPath
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -996,7 +1009,7 @@ gLoggingSink
 SetOutputStream
 (
 theLogFile
-PR_TRUE
+true
 )
 ;
 theSink
@@ -1957,7 +1970,7 @@ return
 BuildModel
 (
 mTokenizer
-PR_FALSE
+false
 mCountLines
 0
 )
@@ -2331,7 +2344,7 @@ mBodyContext
 Last
 (
 )
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2598,7 +2611,7 @@ of
 .
 *
 return
-PR_TRUE
+true
 if
 aToken
 does
@@ -2852,7 +2865,7 @@ HIDDEN
 {
 result
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2863,7 +2876,7 @@ else
 {
 result
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3244,7 +3257,7 @@ GetValue
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3318,12 +3331,12 @@ aType
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -3505,7 +3518,7 @@ FindTagInSet
 (
 theTag
 gLegalElements
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gLegalElements
 )
@@ -3704,7 +3717,7 @@ FindTagInSet
 (
 theParentTag
 gLegalElements
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gLegalElements
 )
@@ -3880,7 +3893,7 @@ eHTMLTag_html
 SectionContains
 (
 theTag
-PR_FALSE
+false
 )
 )
 {
@@ -4099,7 +4112,7 @@ stack
 .
 theChildBelongsInHead
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -5144,14 +5157,14 @@ CanContainSelf
 {
 result
 =
-PR_TRUE
+true
 ;
 }
 else
 {
 result
 =
-PR_FALSE
+false
 ;
 static
 eHTMLTags
@@ -5263,7 +5276,7 @@ theParentTag
 {
 result
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -5276,7 +5289,7 @@ FindTagInSet
 (
 theParentTag
 gTableElements
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gTableElements
 )
@@ -5299,7 +5312,7 @@ bug
 .
 result
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -5494,7 +5507,7 @@ FindTagInSet
 (
 theParentTag
 sTableElements
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sTableElements
 )
@@ -5712,7 +5725,7 @@ eNormalOp
 :
 theChildAgrees
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -6359,7 +6372,7 @@ bug
 .
 theParentContains
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -6368,7 +6381,7 @@ CloseContainersTo
 (
 theIndex
 aChildTag
-PR_TRUE
+true
 )
 ;
 }
@@ -6419,7 +6432,7 @@ theParentContains
 =
 theChildAgrees
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -6766,7 +6779,7 @@ mBodyContext
 Last
 (
 )
-PR_FALSE
+false
 )
 ;
 -
@@ -7147,7 +7160,7 @@ mContextTopIndex
 {
 pushToken
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -7207,7 +7220,7 @@ kSaveMisplaced
 ;
 pushToken
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -7785,7 +7798,7 @@ case
 eHTMLTag_noembed
 :
 return
-PR_TRUE
+true
 ;
 case
 eHTMLTag_noscript
@@ -7819,7 +7832,7 @@ NS_IPARSER_FLAG_FRAMES_ENABLED
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -7993,7 +8006,7 @@ theChildTag
 ;
 isTokenHandled
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -8018,7 +8031,7 @@ theChildTag
 ;
 isTokenHandled
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -8048,7 +8061,7 @@ theNode
 ;
 isTokenHandled
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -8091,7 +8104,7 @@ mOpenMapCount
 {
 isTokenHandled
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -8117,7 +8130,7 @@ theNode
 ;
 isTokenHandled
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -8149,7 +8162,7 @@ theNode
 ;
 isTokenHandled
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -8530,7 +8543,7 @@ for
 containership
 *
 return
-PR_TRUE
+true
 if
 given
 tag
@@ -8734,7 +8747,7 @@ be
 tested
 *
 return
-PR_TRUE
+true
 if
 autoclosure
 should
@@ -9190,7 +9203,7 @@ HasCloseablePeerAboveRoot
 theRootTags
 aContext
 aCurrentTag
-PR_TRUE
+true
 )
 )
 {
@@ -9508,13 +9521,13 @@ be
 handled
 *
 return
-PR_TRUE
+true
 if
 all
 went
 well
 ;
-PR_FALSE
+false
 if
 error
 occurred
@@ -9630,7 +9643,7 @@ result
 CloseContainersTo
 (
 eHTMLTag_head
-PR_FALSE
+false
 )
 ;
 }
@@ -9650,7 +9663,7 @@ result
 CloseContainer
 (
 eHTMLTag_form
-PR_FALSE
+false
 )
 ;
 break
@@ -10155,7 +10168,7 @@ FindTagInSet
 (
 theParentTag
 gBarriers
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gBarriers
 )
@@ -10526,7 +10539,7 @@ result
 CloseContainersTo
 (
 theTarget
-PR_FALSE
+false
 )
 ;
 }
@@ -11303,7 +11316,7 @@ TagAt
 (
 theTopIndex
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -11469,13 +11482,13 @@ be
 handled
 *
 return
-PR_TRUE
+true
 if
 all
 went
 well
 ;
-PR_FALSE
+false
 if
 error
 occurred
@@ -11781,13 +11794,13 @@ be
 handled
 *
 return
-PR_TRUE
+true
 if
 all
 went
 well
 ;
-PR_FALSE
+false
 if
 error
 occurred
@@ -11924,13 +11937,13 @@ be
 handled
 *
 return
-PR_TRUE
+true
 if
 all
 went
 well
 ;
-PR_FALSE
+false
 if
 error
 occurred
@@ -12014,13 +12027,13 @@ be
 handled
 *
 return
-PR_TRUE
+true
 if
 all
 went
 well
 ;
-PR_FALSE
+false
 if
 error
 occurred
@@ -12135,13 +12148,13 @@ be
 handled
 *
 return
-PR_TRUE
+true
 if
 all
 went
 well
 ;
-PR_FALSE
+false
 if
 error
 occurred
@@ -12719,7 +12732,7 @@ child
 container
 *
 return
-PR_TRUE
+true
 if
 parent
 can
@@ -12782,7 +12795,7 @@ eHTMLTag_nobr
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -12840,7 +12853,7 @@ eHTMLTag_unknown
 )
 *
 return
-PR_TRUE
+true
 if
 this
 tag
@@ -12992,7 +13005,7 @@ eHTMLTag_unknown
 )
 *
 return
-PR_TRUE
+true
 if
 this
 tag
@@ -13154,7 +13167,7 @@ child
 container
 *
 return
-PR_TRUE
+true
 if
 propagation
 should
@@ -13330,7 +13343,7 @@ mPropagateRange
 {
 result
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -13383,7 +13396,7 @@ param
 aParentContains
 *
 return
-PR_TRUE
+true
 if
 given
 tag
@@ -13433,7 +13446,7 @@ theAncestor
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 theAncestor
@@ -13515,7 +13528,7 @@ aChild
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -13567,7 +13580,7 @@ aParent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -13607,7 +13620,7 @@ t
 contain
 .
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -13670,7 +13683,7 @@ kSaveMisplaced
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -13712,11 +13725,11 @@ drop
 them
 .
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -13760,7 +13773,7 @@ a
 container
 *
 return
-PR_TRUE
+true
 if
 given
 tag
@@ -14123,12 +14136,12 @@ aCount
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 eHTMLTags
@@ -15041,7 +15054,7 @@ nsCParserNode
 aNode
 )
 0
-PR_FALSE
+false
 )
 ;
 }
@@ -15178,7 +15191,7 @@ opened
 CloseContainer
 (
 eHTMLTag_head
-PR_FALSE
+false
 )
 ;
 /
@@ -15228,7 +15241,7 @@ nsCParserNode
 aNode
 )
 0
-PR_FALSE
+false
 )
 ;
 mTokenizer
@@ -15533,7 +15546,7 @@ NS_DTD_FLAG_HAS_OPEN_HEAD
 ;
 done
 =
-PR_FALSE
+false
 ;
 }
 break
@@ -15583,7 +15596,7 @@ else
 {
 done
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -15598,7 +15611,7 @@ mOpenMapCount
 ;
 done
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -15669,7 +15682,7 @@ frameset
 CloseContainer
 (
 eHTMLTag_head
-PR_FALSE
+false
 )
 ;
 /
@@ -15694,7 +15707,7 @@ NS_DTD_FLAG_HAD_FRAMESET
 ;
 done
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -15713,7 +15726,7 @@ content
 .
 done
 =
-PR_FALSE
+false
 ;
 mFlags
 |
@@ -15749,7 +15762,7 @@ it
 here
 done
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -15801,7 +15814,7 @@ eHTMLTag_noframes
 :
 done
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -15822,7 +15835,7 @@ default
 :
 done
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -16151,7 +16164,7 @@ tag
 }
 done
 =
-PR_FALSE
+false
 ;
 }
 break
@@ -16170,7 +16183,7 @@ mOpenMapCount
 ;
 done
 =
-PR_FALSE
+false
 ;
 }
 break
@@ -16193,7 +16206,7 @@ NS_DTD_FLAG_HAS_OPEN_FORM
 ;
 done
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -16248,7 +16261,7 @@ cases
 CloseResidualStyleTags
 (
 eHTMLTag_form
-PR_FALSE
+false
 )
 ;
 }
@@ -16297,7 +16310,7 @@ default
 :
 done
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -16395,7 +16408,7 @@ headresult
 CloseContainer
 (
 eHTMLTag_head
-PR_FALSE
+false
 )
 ;
 /
@@ -16638,7 +16651,7 @@ result
 CloseContainer
 (
 theTag
-PR_FALSE
+false
 )
 ;
 bool
@@ -18438,7 +18451,7 @@ if
 HasOpenContainer
 (
 gNoXTags
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gNoXTags
 )
@@ -18568,7 +18581,7 @@ it
 CloseContainer
 (
 eHTMLTag_head
-PR_FALSE
+false
 )
 ;
 }
@@ -18661,7 +18674,7 @@ nsCParserNode
 aNode
 )
 nsnull
-PR_FALSE
+false
 )
 ;
 }

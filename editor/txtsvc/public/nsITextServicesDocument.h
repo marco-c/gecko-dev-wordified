@@ -1221,7 +1221,7 @@ set
 aIsDone
 =
 =
-PR_FALSE
+false
 unless
 *
 the

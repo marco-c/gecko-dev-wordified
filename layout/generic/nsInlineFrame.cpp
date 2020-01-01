@@ -811,7 +811,7 @@ eCompatibility_FullStandards
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -1129,11 +1129,11 @@ firstCont
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1153,7 +1153,7 @@ IsSelfEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -1191,11 +1191,11 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1310,7 +1310,7 @@ startOffset
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -1889,7 +1889,7 @@ ancestorBlockChild
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 ourBlock
@@ -1900,7 +1900,7 @@ ReparentFloats
 aFrame
 frameBlock
 isOverflow
-PR_FALSE
+false
 )
 ;
 if
@@ -2442,7 +2442,7 @@ prevOverflowFrames
 ;
 lazilySetParentPointer
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2479,7 +2479,7 @@ prevOverflowFrames
 FirstChild
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -3017,7 +3017,7 @@ an
 inline
 frame
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -3566,7 +3566,7 @@ irs
 .
 mLineContainer
 frame
-PR_FALSE
+false
 )
 ;
 }
@@ -3774,7 +3774,7 @@ irs
 .
 mLineContainer
 nextInFlow
-PR_FALSE
+false
 )
 ;
 }
@@ -4080,7 +4080,7 @@ rv
 {
 done
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -4107,7 +4107,7 @@ aStatus
 {
 done
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -4292,7 +4292,7 @@ rv
 {
 done
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -4319,7 +4319,7 @@ aStatus
 {
 done
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -5249,7 +5249,7 @@ aFrame
 GetNextSibling
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -5772,7 +5772,7 @@ irs
 .
 mLineContainer
 frame
-PR_FALSE
+false
 )
 ;
 }
@@ -5866,7 +5866,7 @@ frame
 ;
 isComplete
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -7276,7 +7276,7 @@ prevOverflowFrames
 FirstChild
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -7907,7 +7907,7 @@ mLineLayout
 >
 SetInFirstLine
 (
-PR_TRUE
+true
 )
 ;
 rv
@@ -7928,7 +7928,7 @@ mLineLayout
 >
 SetInFirstLine
 (
-PR_FALSE
+false
 )
 ;
 ReflowAbsoluteFrames

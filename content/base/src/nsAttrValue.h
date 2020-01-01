@@ -2549,7 +2549,7 @@ const
 aStrict
 is
 set
-PR_TRUE
+true
 if
 stringifying
 the
@@ -3032,7 +3032,7 @@ if
 m
 )
 return
-PR_FALSE
+false
 ;
 aMargin
 =
@@ -3040,7 +3040,7 @@ aMargin
 m
 ;
 return
-PR_TRUE
+true
 ;
 }
 inline

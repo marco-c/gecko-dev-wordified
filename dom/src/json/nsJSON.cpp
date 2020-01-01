@@ -822,7 +822,7 @@ aJSON
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2118,7 +2118,7 @@ mBufferCount
 )
 mDidWrite
 (
-PR_FALSE
+false
 )
 mEncoder
 (
@@ -2150,7 +2150,7 @@ mBufferCount
 )
 mDidWrite
 (
-PR_FALSE
+false
 )
 mEncoder
 (
@@ -2312,7 +2312,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 mDidWrite
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -2564,7 +2564,7 @@ destBuf
 ;
 mDidWrite
 =
-PR_TRUE
+true
 ;
 return
 rv
@@ -2658,7 +2658,7 @@ DecodeInternal
 (
 stream
 len
-PR_FALSE
+false
 )
 ;
 }
@@ -2680,7 +2680,7 @@ DecodeInternal
 (
 aStream
 aContentLength
-PR_TRUE
+true
 )
 ;
 }
@@ -3177,7 +3177,7 @@ cc
 >
 SetReturnValueWasSet
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3258,7 +3258,7 @@ DecodeInternal
 (
 stream
 len
-PR_FALSE
+false
 LEGACY
 )
 ;
@@ -3281,7 +3281,7 @@ DecodeInternal
 (
 aStream
 aContentLength
-PR_TRUE
+true
 LEGACY
 )
 ;

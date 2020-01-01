@@ -891,7 +891,7 @@ aCloseSource
 or
 aCloseSink
 to
-PR_FALSE
+false
 .
 *
 *

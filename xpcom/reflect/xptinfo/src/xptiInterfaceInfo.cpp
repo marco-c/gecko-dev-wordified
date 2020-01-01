@@ -871,7 +871,7 @@ resolvedState
 FULLY_RESOLVED
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -881,7 +881,7 @@ resolvedState
 RESOLVE_FAILED
 )
 return
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -970,7 +970,7 @@ RESOLVE_FAILED
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mParent
@@ -1031,7 +1031,7 @@ FULLY_RESOLVED
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -3069,7 +3069,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -3106,7 +3106,7 @@ iid
 *
 _retval
 =
-PR_TRUE
+true
 ;
 break
 ;

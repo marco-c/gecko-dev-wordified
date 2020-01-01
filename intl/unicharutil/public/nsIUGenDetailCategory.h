@@ -1510,7 +1510,7 @@ a
 nsUGenDetailCategory
 *
 return
-PR_TRUE
+true
 if
 the
 Unichar
@@ -1520,7 +1520,7 @@ that
 category
 *
 return
-PR_FALSE
+false
 otherwise
 *
 /

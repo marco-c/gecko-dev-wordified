@@ -927,7 +927,7 @@ AppUnitsPerDevPixel
 ;
 doDefault
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -955,7 +955,7 @@ break
 ;
 doDefault
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1070,7 +1070,7 @@ re
 tracking
 mTrackingMouseMove
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1157,7 +1157,7 @@ tracking
 .
 mTrackingMouseMove
 =
-PR_FALSE
+false
 ;
 nsIPresShell
 :
@@ -1170,7 +1170,7 @@ nsnull
 ;
 doDefault
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -2102,7 +2102,7 @@ x
 rect
 .
 y
-PR_TRUE
+true
 )
 ;
 }
@@ -2126,7 +2126,7 @@ width
 rect
 .
 height
-PR_TRUE
+true
 )
 ;
 /
@@ -2138,7 +2138,7 @@ repaint
 }
 doDefault
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -3002,7 +3002,7 @@ width
 aSizeInfo
 .
 width
-PR_TRUE
+true
 )
 ;
 }
@@ -3026,7 +3026,7 @@ height
 aSizeInfo
 .
 height
-PR_TRUE
+true
 )
 ;
 }
@@ -3809,7 +3809,7 @@ NS_IS_TRUSTED_EVENT
 aEvent
 )
 :
-PR_FALSE
+false
 )
 ;
 }

@@ -629,7 +629,7 @@ nsnull
 )
 mEnabled
 (
-PR_FALSE
+false
 )
 mProvider
 (
@@ -813,7 +813,7 @@ EventUnregister
 }
 mEnabled
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -948,7 +948,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -957,7 +957,7 @@ mEnabled
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -977,7 +977,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1035,7 +1035,7 @@ WPCFLAG_WEB_SETTING_DOWNLOADSBLOCKED
 *
 aResult
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -1056,7 +1056,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1119,7 +1119,7 @@ enabled
 *
 aResult
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -1309,7 +1309,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1488,7 +1488,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 if
 (

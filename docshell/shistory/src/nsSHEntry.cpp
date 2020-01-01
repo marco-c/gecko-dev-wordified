@@ -740,7 +740,7 @@ mScrollPositionY
 )
 mURIWasModified
 (
-PR_FALSE
+false
 )
 {
 mShared
@@ -876,7 +876,7 @@ nsnull
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsSHEntry
@@ -2404,7 +2404,7 @@ mShared
 >
 mIsFrameNavigation
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2418,7 +2418,7 @@ mShared
 >
 mSaveLayoutState
 =
-PR_TRUE
+true
 ;
 mShared
 -
@@ -2441,7 +2441,7 @@ mShared
 >
 mExpired
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -4311,7 +4311,7 @@ aAdded
 *
 aAdded
 =
-PR_FALSE
+false
 ;
 for
 (

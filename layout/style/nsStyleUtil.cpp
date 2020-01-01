@@ -432,6 +432,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsStyleUtil
 .
 h
@@ -520,6 +529,10 @@ nsCSSProps
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 -
@@ -3195,7 +3208,7 @@ attributeLen
 {
 result
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -3273,7 +3286,7 @@ text
 )
 result
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -3440,7 +3453,7 @@ nsTextFormatter
 snprintf
 (
 buf
-NS_ARRAY_LENGTH
+ArrayLength
 (
 buf
 )
@@ -3833,7 +3846,7 @@ end
 in
 first
 =
-PR_FALSE
+false
 )
 {
 if
@@ -3974,7 +3987,7 @@ nsTextFormatter
 snprintf
 (
 buf
-NS_ARRAY_LENGTH
+ArrayLength
 (
 buf
 )
@@ -4466,7 +4479,7 @@ ePROCESSING_INSTRUCTION
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return

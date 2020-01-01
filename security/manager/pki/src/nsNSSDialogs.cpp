@@ -762,7 +762,7 @@ rv
 *
 _canceled
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -906,9 +906,9 @@ status
 0
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 return
 rv
@@ -942,7 +942,7 @@ rv
 *
 _canceled
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1094,9 +1094,9 @@ status
 0
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 if
 (
@@ -1209,7 +1209,7 @@ crlImportDialog
 xul
 "
 block
-PR_FALSE
+false
 )
 ;
 return
@@ -1242,7 +1242,7 @@ rv
 *
 _retval
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1508,9 +1508,9 @@ status
 0
 )
 ?
-PR_FALSE
+false
 :
-PR_TRUE
+true
 ;
 return
 rv
@@ -1647,7 +1647,7 @@ i
 *
 canceled
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1991,9 +1991,9 @@ status
 0
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 if
 (
@@ -2061,7 +2061,7 @@ i
 *
 canceled
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2308,9 +2308,9 @@ status
 0
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 if
 (
@@ -2358,7 +2358,7 @@ rv
 *
 _retval
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -2480,9 +2480,9 @@ status
 0
 )
 ?
-PR_FALSE
+false
 :
-PR_TRUE
+true
 ;
 if
 (
@@ -2560,7 +2560,7 @@ rv
 *
 _retval
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -2682,9 +2682,9 @@ status
 0
 )
 ?
-PR_FALSE
+false
 :
-PR_TRUE
+true
 ;
 if
 (
@@ -2850,7 +2850,7 @@ certViewer
 xul
 "
 block
-PR_FALSE
+false
 )
 ;
 return
@@ -2956,7 +2956,7 @@ i
 *
 aCanceled
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3135,9 +3135,9 @@ status
 0
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 if
 (
@@ -3196,7 +3196,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -3311,7 +3311,7 @@ status
 *
 _retval
 =
-PR_TRUE
+true
 ;
 }
 return

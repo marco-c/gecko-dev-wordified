@@ -1044,11 +1044,11 @@ mFrameIcon
 ;
 mChromeHidden
 =
-PR_FALSE
+false
 ;
 mNeedActivation
 =
-PR_FALSE
+false
 ;
 mPrevFrameProc
 =
@@ -1384,7 +1384,7 @@ shown
 .
 SetWindowListVisibility
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -3458,7 +3458,7 @@ nsSizeMode_Minimized
 {
 mNeedActivation
 =
-PR_FALSE
+false
 ;
 DEBUGFOCUS
 (
@@ -4082,7 +4082,7 @@ HWND_OBJECT
 ;
 mChromeHidden
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -4093,7 +4093,7 @@ mFrameWnd
 ;
 mChromeHidden
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -5113,7 +5113,7 @@ height
 ;
 doConstrain
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5946,7 +5946,7 @@ mp2
 ;
 isDone
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -5968,7 +5968,7 @@ SWP_RESTORE
 nsSizeModeEvent
 event
 (
-PR_TRUE
+true
 NS_SIZEMODE
 mOwner
 )
@@ -6315,7 +6315,7 @@ FALSE
 ;
 isDone
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -6365,7 +6365,7 @@ WS_MINIMIZED
 {
 isDone
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -6425,14 +6425,14 @@ mp1
 {
 mNeedActivation
 =
-PR_TRUE
+true
 ;
 }
 else
 {
 mNeedActivation
 =
-PR_FALSE
+false
 ;
 DEBUGFOCUS
 (

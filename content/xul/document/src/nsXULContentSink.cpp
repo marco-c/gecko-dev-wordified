@@ -1491,7 +1491,7 @@ mTextSize
 )
 mConstrainSize
 (
-PR_TRUE
+true
 )
 mState
 (
@@ -2442,11 +2442,11 @@ r
 continue
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -3679,7 +3679,7 @@ script
 >
 mOutOfLine
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3704,7 +3704,7 @@ mPrototype
 }
 FlushText
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -4258,7 +4258,7 @@ error
 *
 _retval
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -4830,7 +4830,7 @@ unknown
 }
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -6033,7 +6033,7 @@ i
 {
 isJavaScript
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -7083,7 +7083,7 @@ script
 ;
 mConstrainSize
 =
-PR_FALSE
+false
 ;
 mContextStack
 .

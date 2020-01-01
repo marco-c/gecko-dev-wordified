@@ -660,7 +660,7 @@ NS_ERROR_NULL_POINTER
 *
 aIsBatch
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <

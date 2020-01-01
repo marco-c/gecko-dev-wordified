@@ -828,7 +828,7 @@ status
 .
 aPushedFrame
 is
-PR_TRUE
+true
 /
 /
 if
@@ -1094,13 +1094,13 @@ NS_ASSERTION
 aValue
 =
 =
-PR_FALSE
+false
 |
 |
 aValue
 =
 =
-PR_TRUE
+true
 "
 bad
 value
@@ -1591,7 +1591,7 @@ SetDirtyNextLine
 SetFlag
 (
 LL_DIRTYNEXTLINE
-PR_TRUE
+true
 )
 ;
 }
@@ -1886,7 +1886,7 @@ gfxBreakPriority
 *
 *
 return
-PR_TRUE
+true
 if
 we
 are
@@ -2114,7 +2114,7 @@ ClearOptionalBreakPosition
 SetFlag
 (
 LL_NEEDBACKUP
-PR_FALSE
+false
 )
 ;
 mLastOptionalBreakContent
@@ -2940,13 +2940,13 @@ NS_ASSERTION
 aValue
 =
 =
-PR_FALSE
+false
 |
 |
 aValue
 =
 =
-PR_TRUE
+true
 "
 bad
 value

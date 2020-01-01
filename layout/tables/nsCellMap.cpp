@@ -1886,7 +1886,7 @@ GetNextSibling
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -2011,7 +2011,7 @@ GetRowSpan
 (
 rowIndex
 aColIndex
-PR_TRUE
+true
 )
 ;
 }
@@ -3907,7 +3907,7 @@ nsnull
 -
 1
 0
-PR_FALSE
+false
 aDamageArea
 )
 ;
@@ -4057,7 +4057,7 @@ nsnull
 -
 1
 0
-PR_FALSE
+false
 aDamageArea
 )
 ;
@@ -5355,7 +5355,7 @@ GetNextSibling
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -5431,7 +5431,7 @@ GetNextSibling
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -5446,7 +5446,7 @@ mTableFrame
 .
 SetNeedColSpanExpansion
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -5459,7 +5459,7 @@ mTableFrame
 .
 SetHasZeroColSpans
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -5753,7 +5753,7 @@ bcData
 >
 SetTopStart
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -6033,7 +6033,7 @@ AppendCell
 this
 nsnull
 rgYPos
-PR_FALSE
+false
 damageArea
 )
 ;
@@ -6158,7 +6158,7 @@ AppendCell
 this
 nsnull
 0
-PR_FALSE
+false
 damageArea
 )
 ;
@@ -6712,7 +6712,7 @@ AppendCell
 this
 nsnull
 rgYPos
-PR_FALSE
+false
 damageArea
 )
 ;
@@ -6816,7 +6816,7 @@ AppendCell
 this
 nsnull
 0
-PR_FALSE
+false
 damageArea
 )
 ;
@@ -8730,7 +8730,7 @@ mTableFrame
 .
 SetHasZeroColSpans
 (
-PR_TRUE
+true
 )
 ;
 aMap
@@ -8739,7 +8739,7 @@ mTableFrame
 .
 SetNeedColSpanExpansion
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -8818,7 +8818,7 @@ this
 newCellArray
 aRowIndex
 startColIndex
-PR_TRUE
+true
 aDamageArea
 )
 ;
@@ -9298,7 +9298,7 @@ cellData
 >
 SetZeroRowSpan
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -9343,7 +9343,7 @@ cellData
 >
 SetOverlap
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -9367,7 +9367,7 @@ cellData
 >
 SetZeroColSpan
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -9436,7 +9436,7 @@ cellData
 >
 SetZeroRowSpan
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -9468,7 +9468,7 @@ cellData
 >
 SetZeroColSpan
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -9653,7 +9653,7 @@ aRowIndex
 aColIndex
 *
 aOrigData
-PR_TRUE
+true
 )
 ;
 NS_ASSERTION
@@ -9980,7 +9980,7 @@ numNewRows
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -9996,13 +9996,13 @@ GetNextSibling
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 /
 /
 return
-PR_TRUE
+true
 if
 any
 cells
@@ -10220,7 +10220,7 @@ IsRowSpan
 )
 {
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -10274,7 +10274,7 @@ IsZeroRowSpan
 )
 {
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -10337,7 +10337,7 @@ IsRowSpan
 )
 {
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -10387,7 +10387,7 @@ numRows
 )
 {
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -10454,7 +10454,7 @@ IsColSpan
 )
 {
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -10493,7 +10493,7 @@ IsColSpan
 )
 {
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -10510,7 +10510,7 @@ region
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -10837,7 +10837,7 @@ rowSpan2
 {
 spansCauseRebuild
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -10882,7 +10882,7 @@ rowSpan
 {
 spansCauseRebuild
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -10923,7 +10923,7 @@ this
 aCellFrames
 aRowIndex
 startColIndex
-PR_TRUE
+true
 aDamageArea
 )
 ;
@@ -11140,7 +11140,7 @@ AppendCell
 aMap
 cellFrame
 rowX
-PR_FALSE
+false
 aDamageArea
 &
 colIndex
@@ -11366,7 +11366,7 @@ mTableFrame
 .
 SetHasZeroColSpans
 (
-PR_TRUE
+true
 )
 ;
 aMap
@@ -11375,7 +11375,7 @@ mTableFrame
 .
 SetNeedColSpanExpansion
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -11680,7 +11680,7 @@ data
 >
 SetZeroRowSpan
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -11712,7 +11712,7 @@ data
 >
 SetZeroColSpan
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -12338,7 +12338,7 @@ const
 {
 aIsZeroColSpan
 =
-PR_FALSE
+false
 ;
 PRInt32
 colSpan
@@ -12374,7 +12374,7 @@ expanded
 later
 aIsZeroColSpan
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -12412,7 +12412,7 @@ GetColCount
 ;
 aZeroColSpan
 =
-PR_FALSE
+false
 ;
 PRInt32
 colSpan
@@ -12671,7 +12671,7 @@ IsZeroColSpan
 {
 aZeroColSpan
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -12708,7 +12708,7 @@ const
 {
 aIsZeroRowSpan
 =
-PR_FALSE
+false
 ;
 PRInt32
 rowSpan
@@ -12767,7 +12767,7 @@ aRowIndex
 ;
 aIsZeroRowSpan
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -12873,11 +12873,11 @@ count
 1
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -13144,7 +13144,7 @@ GetRowSpan
 (
 aRowIndex
 aColIndex
-PR_FALSE
+false
 )
 ;
 PRUint32
@@ -13210,7 +13210,7 @@ mTableFrame
 .
 SetNeedColSpanExpansion
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -14135,7 +14135,7 @@ GetCellFrame
 (
 )
 rowX
-PR_FALSE
+false
 aDamageArea
 )
 ;
@@ -14251,7 +14251,7 @@ AppendCell
 aMap
 cellFrame
 rowX
-PR_FALSE
+false
 aDamageArea
 )
 ;
@@ -14430,7 +14430,7 @@ GetCellFrame
 (
 )
 rowX
-PR_FALSE
+false
 aDamageArea
 )
 ;
@@ -14816,7 +14816,7 @@ AppendCell
 aMap
 cell
 rowX
-PR_FALSE
+false
 aDamageArea
 )
 ;
@@ -14883,7 +14883,7 @@ GetCellFrame
 (
 )
 rowX
-PR_FALSE
+false
 aDamageArea
 )
 ;
@@ -14967,7 +14967,7 @@ AppendCell
 aMap
 cell
 aRowIndex
-PR_FALSE
+false
 aDamageArea
 )
 ;
@@ -15242,7 +15242,7 @@ GetRowSpan
 (
 aRowIndex
 startColIndex
-PR_FALSE
+false
 )
 ;
 /
@@ -15366,7 +15366,7 @@ GetColSpan
 )
 spansCauseRebuild
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -15381,7 +15381,7 @@ this
 nsnull
 aRowIndex
 startColIndex
-PR_FALSE
+false
 aDamageArea
 )
 ;
@@ -15595,7 +15595,7 @@ mTableFrame
 .
 SetHasZeroColSpans
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -15901,7 +15901,7 @@ newData
 >
 SetZeroColSpan
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -15930,7 +15930,7 @@ newData
 >
 SetZeroRowSpan
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -16247,7 +16247,7 @@ rowIndex
 colIndex
 *
 cd
-PR_TRUE
+true
 )
 ;
 printf
@@ -16276,7 +16276,7 @@ rowIndex
 colIndex
 *
 cd
-PR_FALSE
+false
 )
 ;
 printf
@@ -17074,7 +17074,7 @@ aOriginates
 *
 aOriginates
 =
-PR_FALSE
+false
 ;
 }
 CellData
@@ -17124,7 +17124,7 @@ aOriginates
 *
 aOriginates
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -17137,7 +17137,7 @@ aRowX
 aColX
 *
 data
-PR_TRUE
+true
 )
 ;
 }
@@ -17211,7 +17211,7 @@ mContentRowCount
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -17299,7 +17299,7 @@ aRowIndex
 colIndex
 *
 cd
-PR_TRUE
+true
 )
 )
 {
@@ -17311,14 +17311,14 @@ the
 last
 check
 return
-PR_TRUE
+true
 ;
 }
 }
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -17352,7 +17352,7 @@ mContentRowCount
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -17479,12 +17479,12 @@ aRowIndex
 colIndex
 *
 cd2
-PR_TRUE
+true
 )
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -17492,7 +17492,7 @@ PR_TRUE
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -18157,7 +18157,7 @@ mCurMapRow
 mCol
 *
 cellData
-PR_FALSE
+false
 )
 ;
 NS_ASSERTION

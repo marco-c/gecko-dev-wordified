@@ -1354,7 +1354,7 @@ aListID
 {
 generateReflowCommand
 =
-PR_FALSE
+false
 ;
 }
 #
@@ -1530,7 +1530,7 @@ PresContext
 (
 )
 aOldFrame
-PR_TRUE
+true
 )
 ;
 aOldFrame
@@ -2428,7 +2428,7 @@ IsLeaf
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -2482,7 +2482,7 @@ container
 frame
 .
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -2538,7 +2538,7 @@ container
 frame
 .
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3130,7 +3130,7 @@ with
 aAbove
 =
 =
-PR_FALSE
+false
 to
 insert
 at
@@ -5090,7 +5090,7 @@ ResizeView
 (
 aView
 aVisualOverflowArea
-PR_TRUE
+true
 )
 ;
 }
@@ -5297,7 +5297,7 @@ isPositioned
 {
 autoZIndex
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -5368,7 +5368,7 @@ eStyleUnit_Auto
 {
 autoZIndex
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -6532,7 +6532,7 @@ DeleteNextInFlowChild
 (
 aPresContext
 kidNextInFlow
-PR_TRUE
+true
 )
 ;
 }
@@ -7436,8 +7436,8 @@ tracker
 (
 aPresContext
 this
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 bool
@@ -8339,7 +8339,7 @@ aChild
 {
 removed
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -9296,7 +9296,7 @@ No
 such
 list
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -9336,7 +9336,7 @@ aProperty
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -9390,7 +9390,7 @@ aProperty
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -9899,14 +9899,14 @@ mapping
 *
 *
 return
-PR_TRUE
+true
 if
 any
 frames
 were
 moved
 and
-PR_FALSE
+false
 otherwise
 *
 /
@@ -10071,7 +10071,7 @@ prevOverflowFrames
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -10134,7 +10134,7 @@ overflowFrames
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -10878,7 +10878,7 @@ NS_FRAME_IS_OVERFLOW_CONTAINER
 ;
 convertedToOverflowContainer
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -12027,7 +12027,7 @@ aIndent
 }
 outputOneList
 =
-PR_TRUE
+true
 ;
 fputs
 (

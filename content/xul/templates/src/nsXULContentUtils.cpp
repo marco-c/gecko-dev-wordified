@@ -511,6 +511,15 @@ code
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -732,6 +741,10 @@ nsEscape
 .
 h
 "
+using
+namespace
+mozilla
+;
 static
 NS_DEFINE_CID
 (
@@ -1556,7 +1569,7 @@ nsFixedString
 id
 (
 buf
-NS_ARRAY_LENGTH
+ArrayLength
 (
 buf
 )
@@ -2567,7 +2580,7 @@ nsFixedString
 uri
 (
 buf
-NS_ARRAY_LENGTH
+ArrayLength
 (
 buf
 )

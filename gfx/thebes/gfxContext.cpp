@@ -1400,7 +1400,7 @@ if
 UserToDevicePixelSnapped
 (
 snappedRect
-PR_TRUE
+true
 )
 )
 {
@@ -1653,7 +1653,7 @@ gfxPoint
 )
 size
 )
-PR_TRUE
+true
 )
 ;
 cairo_fill
@@ -2308,7 +2308,7 @@ GetFlags
 FLAG_DISABLE_SNAPPING
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -2446,7 +2446,7 @@ yx
 )
 )
 return
-PR_FALSE
+false
 ;
 #
 undef
@@ -2679,11 +2679,11 @@ Y
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -2709,7 +2709,7 @@ GetFlags
 FLAG_DISABLE_SNAPPING
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -2814,7 +2814,7 @@ yx
 )
 )
 return
-PR_FALSE
+false
 ;
 pt
 =
@@ -2830,7 +2830,7 @@ Round
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -3873,7 +3873,7 @@ aRect
 {
 result
 =
-PR_TRUE
+true
 ;
 break
 ;

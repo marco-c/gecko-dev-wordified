@@ -464,6 +464,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsMathMLElement
 .
 h
@@ -557,6 +566,10 @@ mozAutoDocUpdate
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 -
@@ -1287,7 +1300,7 @@ FindAttributeDependence
 (
 aAttribute
 tokenMap
-NS_ARRAY_LENGTH
+ArrayLength
 (
 tokenMap
 )
@@ -1317,7 +1330,7 @@ FindAttributeDependence
 (
 aAttribute
 mstyleMap
-NS_ARRAY_LENGTH
+ArrayLength
 (
 mstyleMap
 )
@@ -1537,7 +1550,7 @@ FindAttributeDependence
 (
 aAttribute
 commonPresMap
-NS_ARRAY_LENGTH
+ArrayLength
 (
 commonPresMap
 )
@@ -1545,7 +1558,7 @@ commonPresMap
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsMapRuleToAttributesFunc
@@ -1843,7 +1856,7 @@ if
 stringLength
 )
 return
-PR_FALSE
+false
 ;
 nsAutoString
 number
@@ -1971,7 +1984,7 @@ c
 '
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -1990,7 +2003,7 @@ c
 )
 gotDot
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -2083,7 +2096,7 @@ errorCode
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2100,7 +2113,7 @@ PARSE_ALLOW_NEGATIVE
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCSSUnit
 cssUnit
@@ -2191,7 +2204,7 @@ floatValue
 0
 )
 return
-PR_FALSE
+false
 ;
 cssUnit
 =
@@ -2224,7 +2237,7 @@ floatValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -2361,7 +2374,7 @@ else
 unexpected
 unit
 return
-PR_FALSE
+false
 ;
 aCSSValue
 .
@@ -2372,7 +2385,7 @@ cssUnit
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -2869,7 +2882,7 @@ value
 {
 parseSizeKeywords
 =
-PR_FALSE
+false
 ;
 value
 =
@@ -3007,7 +3020,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sizes
 )
@@ -3529,7 +3542,7 @@ eTabFocus_linksMask
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -3545,7 +3558,7 @@ aTabIndex
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -3657,7 +3670,7 @@ aURI
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -3723,7 +3736,7 @@ precedence
 "
 hasHref
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3845,7 +3858,7 @@ Either
 way
 we
 return
-PR_FALSE
+false
 .
 static
 nsIContent
@@ -4006,7 +4019,7 @@ ATTR_VALUE_NO_MATCH
 {
 hasHref
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4081,7 +4094,7 @@ aURI
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 void

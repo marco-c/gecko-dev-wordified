@@ -438,6 +438,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsClipboardPrivacyHandler
 .
 h
@@ -529,6 +538,10 @@ h
 >
 #
 endif
+using
+namespace
+mozilla
+;
 #
 define
 NS_MOZ_DATA_FROM_PRIVATEBROWSING
@@ -589,7 +602,7 @@ AddObserver
 (
 this
 NS_PRIVATE_BROWSING_SWITCH_TOPIC
-PR_TRUE
+true
 )
 ;
 }
@@ -668,7 +681,7 @@ data
 >
 SetData
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -806,7 +819,7 @@ clipboard
 HasDataMatchingFlavors
 (
 flavors
-NS_ARRAY_LENGTH
+ArrayLength
 (
 flavors
 )

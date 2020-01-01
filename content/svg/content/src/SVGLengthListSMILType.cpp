@@ -600,7 +600,7 @@ lengthList
 >
 SetCanZeroPadList
 (
-PR_TRUE
+true
 )
 ;
 aValue
@@ -1861,7 +1861,7 @@ should
 "
 "
 return
-PR_TRUE
+true
 for
 CanZeroPadList
 (
@@ -2533,7 +2533,7 @@ should
 "
 "
 return
-PR_TRUE
+true
 for
 CanZeroPadList
 (

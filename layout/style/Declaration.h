@@ -1231,7 +1231,7 @@ will
 fail
 (
 returning
-PR_FALSE
+false
 )
 if
 |
@@ -1259,7 +1259,7 @@ level
 If
 it
 returns
-PR_TRUE
+true
 it
 erases
 the
@@ -1276,7 +1276,7 @@ aChanged
 is
 set
 to
-PR_TRUE
+true
 if
 the
 declaration
@@ -1290,7 +1290,7 @@ the
 call
 and
 to
-PR_FALSE
+false
 otherwise
 .
 *
@@ -1338,10 +1338,10 @@ aProperty
 *
 aChanged
 =
-PR_FALSE
+false
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsCSSCompressedDataBlock
@@ -1369,10 +1369,10 @@ block
 *
 aChanged
 =
-PR_FALSE
+false
 ;
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -1598,7 +1598,7 @@ const
 {
 mImmutable
 =
-PR_TRUE
+true
 ;
 }
 /

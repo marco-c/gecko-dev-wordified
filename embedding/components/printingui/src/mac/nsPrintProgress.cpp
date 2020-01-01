@@ -522,11 +522,11 @@ nsPrintProgress
 {
 m_closeProgress
 =
-PR_FALSE
+false
 ;
 m_processCanceled
 =
-PR_FALSE
+false
 ;
 m_pendingStateFlags
 =
@@ -783,7 +783,7 @@ rv
 *
 notifyOnOpen
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -815,7 +815,7 @@ forceClose
 {
 m_closeProgress
 =
-PR_TRUE
+true
 ;
 return
 OnStateChange
@@ -937,7 +937,7 @@ nsIWebProgressListener
 :
 :
 STATE_STOP
-PR_FALSE
+false
 )
 ;
 return

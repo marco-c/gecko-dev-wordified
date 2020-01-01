@@ -637,7 +637,7 @@ aNodeInfo
 )
 mWriteOnly
 (
-PR_FALSE
+false
 )
 {
 }
@@ -2007,7 +2007,7 @@ parseOptions
 ;
 usingCustomParseOptions
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3113,9 +3113,9 @@ propval
 =
 JSVAL_TRUE
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 )
 ;
 }
@@ -3253,7 +3253,7 @@ Thebes
 context
 forceThebes
 =
-PR_TRUE
+true
 ;
 continue
 ;
@@ -3409,7 +3409,7 @@ rv
 GetContextHelper
 (
 aContextId
-PR_FALSE
+false
 getter_AddRefs
 (
 mCurrentContext
@@ -3437,7 +3437,7 @@ mCurrentContext
 >
 SetIsIPC
 (
-PR_TRUE
+true
 )
 ;
 rv
@@ -3699,7 +3699,7 @@ SetWriteOnly
 {
 mWriteOnly
 =
-PR_TRUE
+true
 ;
 }
 void

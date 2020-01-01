@@ -439,6 +439,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -2876,7 +2885,7 @@ nsFocusManager
 GetFocusedDescendant
 (
 windowToCheck
-PR_TRUE
+true
 getter_AddRefs
 (
 focusedWindow
@@ -2996,7 +3005,7 @@ IsHTML
 {
 isLink
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3293,7 +3302,7 @@ nsContentUtils
 DispatchXULCommand
 (
 handlerElement
-PR_TRUE
+true
 nsnull
 nsnull
 isControl
@@ -3672,7 +3681,7 @@ mDetail
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -3719,7 +3728,7 @@ cAllModifiers
 0
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -3762,7 +3771,7 @@ mDetail
 )
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 clickcount
@@ -3792,7 +3801,7 @@ mMisc
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 ModifiersMatchMask
@@ -5760,7 +5769,7 @@ nsContentUtils
 eXBL_PROPERTIES
 aMessageName
 params
-NS_ARRAY_LENGTH
+ArrayLength
 (
 params
 )
@@ -5867,7 +5876,7 @@ cMeta
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5918,7 +5927,7 @@ cShift
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5965,7 +5974,7 @@ cAlt
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -6012,10 +6021,10 @@ cControl
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }

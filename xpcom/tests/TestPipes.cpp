@@ -930,7 +930,7 @@ PR_IntervalNow
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 rv
@@ -1496,7 +1496,7 @@ total
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 /
@@ -2172,7 +2172,7 @@ count
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 rv
@@ -3116,7 +3116,7 @@ trace
 )
 gTrace
 =
-PR_TRUE
+true
 ;
 rv
 =

@@ -442,6 +442,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -665,6 +674,10 @@ h
 -
 -
 -
+using
+namespace
+mozilla
+;
 class
 nsHTMLBodyElement
 ;
@@ -3446,7 +3459,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

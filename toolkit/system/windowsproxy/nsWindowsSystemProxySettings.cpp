@@ -908,7 +908,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 NS_ConvertUTF16toUTF8
 cbuf
@@ -1137,7 +1137,7 @@ EqualsLiteral
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -1151,7 +1151,7 @@ override
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -1172,7 +1172,7 @@ delimiter
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1257,7 +1257,7 @@ tokenStart
 {
 star
 =
-PR_TRUE
+true
 ;
 tokenStart
 +
@@ -1375,11 +1375,11 @@ offset
 )
 )
 return
-PR_FALSE
+false
 ;
 star
 =
-PR_FALSE
+false
 ;
 tokenStart
 =

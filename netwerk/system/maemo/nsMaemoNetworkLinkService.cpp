@@ -704,7 +704,7 @@ xpcom
 -
 shutdown
 "
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS

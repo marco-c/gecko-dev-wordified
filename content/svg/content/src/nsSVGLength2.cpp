@@ -454,6 +454,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSVGLength2
 .
 h
@@ -532,6 +541,10 @@ endif
 /
 /
 MOZ_SMIL
+using
+namespace
+mozilla
+;
 NS_SVG_VAL_IMPL_CYCLE_COLLECTION
 (
 nsSVGLength2
@@ -792,10 +805,10 @@ nsIDOMSVGLength
 SVG_LENGTHTYPE_PC
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -906,7 +919,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 unitMap
 )
@@ -1771,7 +1784,7 @@ aValue
 ;
 mIsBaseSet
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1805,7 +1818,7 @@ aSVGElement
 DidChangeLength
 (
 mAttrEnum
-PR_TRUE
+true
 )
 ;
 }
@@ -1899,7 +1912,7 @@ valueInSpecifiedUnits
 ;
 mIsBaseSet
 =
-PR_TRUE
+true
 ;
 mSpecifiedUnitType
 =
@@ -1940,7 +1953,7 @@ aSVGElement
 DidChangeLength
 (
 mAttrEnum
-PR_TRUE
+true
 )
 ;
 return
@@ -2185,7 +2198,7 @@ value
 ;
 mIsBaseSet
 =
-PR_TRUE
+true
 ;
 mSpecifiedUnitType
 =
@@ -2316,7 +2329,7 @@ aValue
 ;
 mIsAnimated
 =
-PR_TRUE
+true
 ;
 aSVGElement
 -
@@ -2668,7 +2681,7 @@ mVal
 >
 mIsAnimated
 =
-PR_FALSE
+false
 ;
 }
 }

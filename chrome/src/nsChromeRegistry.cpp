@@ -1305,7 +1305,7 @@ this
 ;
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2672,10 +2672,10 @@ isChrome
 isChrome
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -2974,7 +2974,7 @@ document
 LoadChromeSheetSync
 (
 uri
-PR_TRUE
+true
 getter_AddRefs
 (
 newSheet
@@ -3298,7 +3298,7 @@ document
 LoadChromeSheetSync
 (
 uri
-PR_FALSE
+false
 getter_AddRefs
 (
 newSheet
@@ -3624,7 +3624,7 @@ location
 >
 Reload
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -3688,7 +3688,7 @@ rv
 *
 aResult
 =
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -3777,7 +3777,7 @@ skin
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3803,7 +3803,7 @@ rv
 *
 aResult
 =
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -3962,7 +3962,7 @@ if
 chromeURL
 )
 return
-PR_FALSE
+false
 ;
 bool
 isChrome
@@ -3996,7 +3996,7 @@ rv
 isChrome
 )
 return
-PR_FALSE
+false
 ;
 nsCAutoString
 package
@@ -4019,7 +4019,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 flags

@@ -543,11 +543,11 @@ aCtxType
 ;
 mIsAnimated
 =
-PR_FALSE
+false
 ;
 mIsBaseSet
 =
-PR_FALSE
+false
 ;
 }
 nsSVGLength2
@@ -780,7 +780,7 @@ mSpecifiedUnitType
 /
 /
 Returns
-PR_TRUE
+true
 if
 the
 animated
@@ -819,7 +819,7 @@ a
 DOM
 call
 )
-PR_FALSE
+false
 otherwise
 .
 /
@@ -827,7 +827,7 @@ otherwise
 If
 this
 returns
-PR_FALSE
+false
 the
 animated
 value
@@ -1390,7 +1390,7 @@ SetBaseValueString
 (
 aValue
 mSVGElement
-PR_TRUE
+true
 )
 ;
 }

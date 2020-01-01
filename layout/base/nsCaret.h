@@ -669,11 +669,11 @@ linking
 *
 param
 inMakeVisible
-PR_TRUE
+true
 it
 is
 shown
-PR_FALSE
+false
 it
 is
 hidden
@@ -714,12 +714,12 @@ caret
 *
 param
 inMakeVisible
-PR_TRUE
+true
 to
 show
 the
 caret
-PR_FALSE
+false
 to
 hide
 it
@@ -745,7 +745,7 @@ caret
 *
 param
 inMakeReadonly
-PR_TRUE
+true
 to
 show
 the
@@ -758,7 +758,7 @@ only
 '
 state
 *
-PR_FALSE
+false
 to
 show
 the
@@ -788,7 +788,7 @@ the
 caret
 *
 return
-PR_TRUE
+true
 if
 the
 caret
@@ -802,7 +802,7 @@ state
 otherwise
 *
 returns
-PR_FALSE
+false
 *
 /
 bool
@@ -1312,7 +1312,7 @@ nodes
 *
 param
 aIgnoreUserModify
-PR_TRUE
+true
 to
 have
 the
@@ -1322,7 +1322,7 @@ in
 all
 nodes
 *
-PR_FALSE
+false
 to
 have
 it
@@ -2135,7 +2135,7 @@ aSelCon
 :
 mWasVisible
 (
-PR_FALSE
+false
 )
 mCaret
 (
@@ -2165,7 +2165,7 @@ mCaret
 >
 SetCaretVisible
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2187,7 +2187,7 @@ mCaret
 >
 SetCaretVisible
 (
-PR_TRUE
+true
 )
 ;
 /

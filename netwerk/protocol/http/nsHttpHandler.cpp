@@ -1469,7 +1469,7 @@ a
 referrer
 mFastFallbackToIPv4
 (
-PR_FALSE
+false
 )
 mIdleTimeout
 (
@@ -1521,7 +1521,7 @@ mQoSBits
 )
 mPipeliningOverSSL
 (
-PR_FALSE
+false
 )
 mInPrivateBrowsingMode
 (
@@ -1559,27 +1559,27 @@ Gecko
 )
 mUserAgentIsDirty
 (
-PR_TRUE
+true
 )
 mUseCache
 (
-PR_TRUE
+true
 )
 mPromptTempRedirect
 (
-PR_TRUE
+true
 )
 mSendSecureXSiteReferrer
 (
-PR_TRUE
+true
 )
 mEnablePersistentHttpsCaching
 (
-PR_FALSE
+false
 )
 mDoNotTrackEnabled
 (
-PR_FALSE
+false
 )
 {
 #
@@ -1866,7 +1866,7 @@ AddObserver
 (
 HTTP_PREF_PREFIX
 this
-PR_TRUE
+true
 )
 ;
 prefBranch
@@ -1876,7 +1876,7 @@ AddObserver
 (
 UA_PREF_PREFIX
 this
-PR_TRUE
+true
 )
 ;
 prefBranch
@@ -1886,7 +1886,7 @@ AddObserver
 (
 INTL_ACCEPT_LANGUAGES
 this
-PR_TRUE
+true
 )
 ;
 prefBranch
@@ -1896,7 +1896,7 @@ AddObserver
 (
 NETWORK_ENABLEIDN
 this
-PR_TRUE
+true
 )
 ;
 prefBranch
@@ -1911,7 +1911,7 @@ disk_cache_ssl
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 prefBranch
@@ -1921,7 +1921,7 @@ AddObserver
 (
 DONOTTRACK_HEADER_ENABLED
 this
-PR_TRUE
+true
 )
 ;
 PrefsChanged
@@ -2446,7 +2446,7 @@ net
 -
 teardown
 "
-PR_TRUE
+true
 )
 ;
 mObserverService
@@ -2464,7 +2464,7 @@ net
 -
 restore
 "
-PR_TRUE
+true
 )
 ;
 mObserverService
@@ -2474,7 +2474,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_TRUE
+true
 )
 ;
 mObserverService
@@ -2492,7 +2492,7 @@ active
 -
 logins
 "
-PR_TRUE
+true
 )
 ;
 mObserverService
@@ -2502,7 +2502,7 @@ AddObserver
 (
 this
 NS_PRIVATE_BROWSING_SWITCH_TOPIC
-PR_TRUE
+true
 )
 ;
 mObserverService
@@ -2520,7 +2520,7 @@ dead
 -
 connections
 "
-PR_TRUE
+true
 )
 ;
 }
@@ -3054,7 +3054,7 @@ if
 enc
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -3360,7 +3360,7 @@ cacheSession
 >
 SetDoomEntriesIfExpired
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -4095,7 +4095,7 @@ BuildUserAgent
 ;
 mUserAgentIsDirty
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -5168,7 +5168,7 @@ buf
 endif
 mUserAgentIsDirty
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -5347,7 +5347,7 @@ Truncate
 }
 mUserAgentIsDirty
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -5389,7 +5389,7 @@ mUserAgentOverride
 ;
 mUserAgentIsDirty
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -7154,7 +7154,7 @@ disk_cache_ssl
 {
 cVar
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -7445,7 +7445,7 @@ DONOTTRACK_HEADER_ENABLED
 {
 cVar
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -8732,7 +8732,7 @@ anything
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -10374,7 +10374,7 @@ anything
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

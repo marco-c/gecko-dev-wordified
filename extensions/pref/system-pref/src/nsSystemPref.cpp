@@ -571,11 +571,11 @@ defaultValue
 .
 boolVal
 =
-PR_FALSE
+false
 ;
 isLocked
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -730,7 +730,7 @@ nsnull
 )
 mEnabled
 (
-PR_FALSE
+false
 )
 mSysPrefs
 (
@@ -752,7 +752,7 @@ nsnull
 ;
 mEnabled
 =
-PR_FALSE
+false
 ;
 delete
 [
@@ -1008,7 +1008,7 @@ AddObserver
 (
 this
 NS_PREFSERVICE_READ_TOPIC_ID
-PR_FALSE
+false
 )
 ;
 rv
@@ -1026,7 +1026,7 @@ before
 -
 change
 "
-PR_FALSE
+false
 )
 ;
 SYSPREF_LOG
@@ -1444,7 +1444,7 @@ AddObserver
 (
 sSysPrefString
 this
-PR_TRUE
+true
 )
 ;
 if
@@ -1822,7 +1822,7 @@ UseMozillaPrefs
 ;
 mEnabled
 =
-PR_FALSE
+false
 ;
 mSysPrefService
 =
@@ -2227,7 +2227,7 @@ index
 .
 prefName
 this
-PR_TRUE
+true
 )
 ;
 }

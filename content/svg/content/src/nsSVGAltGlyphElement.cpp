@@ -416,6 +416,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -455,6 +464,10 @@ nsContentUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 typedef
 nsSVGTextPositioningElement
 nsSVGAltGlyphElementBase
@@ -658,7 +671,7 @@ nsGkAtoms
 :
 href
 kNameSpaceID_XLink
-PR_FALSE
+false
 }
 }
 ;
@@ -1193,7 +1206,7 @@ nsGkAtoms
 :
 glyphRef
 aGlyphRef
-PR_TRUE
+true
 )
 ;
 }
@@ -1251,7 +1264,7 @@ nsGkAtoms
 :
 format
 aFormat
-PR_TRUE
+true
 )
 ;
 }
@@ -1369,7 +1382,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -1499,7 +1512,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )

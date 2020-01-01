@@ -765,7 +765,7 @@ nsnull
 )
 mXAttached
 (
-PR_FALSE
+false
 )
 {
 mInfo

@@ -425,6 +425,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLBRElement
 .
 h
@@ -471,6 +480,10 @@ nsRuleData
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsHTMLBRElement
 :
@@ -756,7 +769,7 @@ ParseEnumValue
 (
 aValue
 kClearTable
-PR_FALSE
+false
 )
 ;
 }
@@ -938,7 +951,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

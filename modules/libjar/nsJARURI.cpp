@@ -1108,7 +1108,7 @@ aInputStream
 >
 ReadObject
 (
-PR_TRUE
+true
 getter_AddRefs
 (
 mJARFile
@@ -1128,7 +1128,7 @@ aInputStream
 >
 ReadObject
 (
-PR_TRUE
+true
 getter_AddRefs
 (
 mJAREntry
@@ -1181,7 +1181,7 @@ NS_GET_IID
 (
 nsIURI
 )
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1202,7 +1202,7 @@ NS_GET_IID
 (
 nsIURL
 )
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2473,7 +2473,7 @@ FormatSpec
 (
 entrySpec
 aPath
-PR_FALSE
+false
 )
 ;
 }
@@ -2642,7 +2642,7 @@ result
 *
 result
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2818,9 +2818,9 @@ jar
 i_Scheme
 )
 ?
-PR_FALSE
+false
 :
-PR_TRUE
+true
 ;
 }
 else
@@ -2828,7 +2828,7 @@ else
 *
 o_Equals
 =
-PR_FALSE
+false
 ;
 }
 return

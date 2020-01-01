@@ -537,7 +537,7 @@ aIsContainer
 *
 aIsContainer
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -557,7 +557,7 @@ aIsEmpty
 *
 aIsEmpty
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -577,7 +577,7 @@ aMayProcessChildren
 *
 aMayProcessChildren
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

@@ -3449,10 +3449,10 @@ PRUint32
 *
 aErr
 =
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -3483,10 +3483,10 @@ PRUint32
 *
 aErr
 =
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3504,7 +3504,7 @@ point
 *
 aErr
 =
-PR_FALSE
+false
 ;
 return
 leftChar

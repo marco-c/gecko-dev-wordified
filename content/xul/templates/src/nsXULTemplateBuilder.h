@@ -973,7 +973,7 @@ RunnableLoadAndRebuild
 {
 Uninit
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -1056,7 +1056,7 @@ UninitFalse
 {
 Uninit
 (
-PR_FALSE
+false
 )
 ;
 mRoot
@@ -1071,7 +1071,7 @@ UninitTrue
 {
 Uninit
 (
-PR_TRUE
+true
 )
 ;
 mRoot

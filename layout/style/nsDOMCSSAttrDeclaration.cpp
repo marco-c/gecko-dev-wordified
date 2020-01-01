@@ -728,7 +728,7 @@ oldRule
 DeclarationChanged
 (
 aDecl
-PR_FALSE
+false
 )
 ;
 if
@@ -753,7 +753,7 @@ mElement
 SetSMILOverrideStyleRule
 (
 newRule
-PR_TRUE
+true
 )
 :
 #
@@ -767,7 +767,7 @@ mElement
 SetInlineStyleRule
 (
 newRule
-PR_TRUE
+true
 )
 ;
 }
@@ -1057,7 +1057,7 @@ mElement
 SetSMILOverrideStyleRule
 (
 newRule
-PR_FALSE
+false
 )
 ;
 else
@@ -1074,7 +1074,7 @@ mElement
 SetInlineStyleRule
 (
 newRule
-PR_FALSE
+false
 )
 ;
 if

@@ -964,7 +964,7 @@ if
 gEnvHash
 )
 return
-PR_TRUE
+true
 ;
 gEnvHash
 =
@@ -977,7 +977,7 @@ if
 gEnvHash
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -989,7 +989,7 @@ Init
 )
 )
 return
-PR_TRUE
+true
 ;
 delete
 gEnvHash
@@ -999,7 +999,7 @@ gEnvHash
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP

@@ -614,27 +614,27 @@ mAnimationConsumers
 )
 mCanceled
 (
-PR_FALSE
+false
 )
 mIsInLoadGroup
 (
-PR_FALSE
+false
 )
 mListenerIsStrongRef
 (
-PR_FALSE
+false
 )
 mDecodeRequested
 (
-PR_FALSE
+false
 )
 mDeferNotifications
 (
-PR_FALSE
+false
 )
 mSentStartContainer
 (
-PR_FALSE
+false
 )
 {
 /
@@ -795,7 +795,7 @@ mCanceled
 {
 mCanceled
 =
-PR_TRUE
+true
 ;
 /
 *
@@ -870,7 +870,7 @@ RemoveProxy
 (
 this
 NS_OK
-PR_FALSE
+false
 )
 ;
 }
@@ -993,7 +993,7 @@ mListener
 {
 mListenerIsStrongRef
 =
-PR_TRUE
+true
 ;
 NS_ADDREF
 (
@@ -1283,7 +1283,7 @@ STATUS_FRAME_COMPLETE
 {
 wasDecoded
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -1311,7 +1311,7 @@ RemoveProxy
 (
 this
 NS_IMAGELIB_CHANGING_OWNER
-PR_FALSE
+false
 )
 ;
 /
@@ -1467,7 +1467,7 @@ nsnull
 ;
 mIsInLoadGroup
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1555,7 +1555,7 @@ NS_OK
 ;
 mIsInLoadGroup
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1722,7 +1722,7 @@ Cancel
 ;
 mCanceled
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -1783,7 +1783,7 @@ RemoveProxy
 (
 this
 status
-PR_FALSE
+false
 )
 ;
 NullOutListener
@@ -1833,7 +1833,7 @@ CancelAndForgetObserver
 ;
 mCanceled
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1855,7 +1855,7 @@ mIsInLoadGroup
 ;
 mIsInLoadGroup
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1886,7 +1886,7 @@ RemoveProxy
 (
 this
 aStatus
-PR_FALSE
+false
 )
 ;
 mIsInLoadGroup
@@ -1970,7 +1970,7 @@ owner
 changes
 mDecodeRequested
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -3228,7 +3228,7 @@ data
 *
 hasData
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -3456,7 +3456,7 @@ image
 ;
 mSentStartContainer
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4314,7 +4314,7 @@ mListener
 ;
 mListenerIsStrongRef
 =
-PR_FALSE
+false
 ;
 NS_RELEASE
 (
@@ -4388,7 +4388,7 @@ mListener
 ;
 mListenerIsStrongRef
 =
-PR_FALSE
+false
 ;
 }
 else

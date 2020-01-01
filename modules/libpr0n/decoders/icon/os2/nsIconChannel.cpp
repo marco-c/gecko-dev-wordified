@@ -1576,7 +1576,7 @@ return
 MakeInputStream
 (
 _retval
-PR_FALSE
+false
 )
 ;
 }
@@ -1609,7 +1609,7 @@ getter_AddRefs
 (
 inStream
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -1647,7 +1647,7 @@ PRInt64
 )
 0
 0
-PR_FALSE
+false
 )
 ;
 if
@@ -3372,7 +3372,7 @@ hRtn
 *
 fWpsIcon
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3452,7 +3452,7 @@ rwsSvc
 )
 sUseRws
 =
-PR_FALSE
+false
 ;
 else
 {
@@ -3471,7 +3471,7 @@ file
 get
 (
 )
-PR_FALSE
+false
 fMini
 (
 PRUint32
@@ -3550,7 +3550,7 @@ hRtn
 *
 fWpsIcon
 =
-PR_TRUE
+true
 ;
 return
 hRtn

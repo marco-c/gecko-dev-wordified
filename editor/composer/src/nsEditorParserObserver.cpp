@@ -491,7 +491,7 @@ nsEditorParserObserver
 :
 mBadTagFound
 (
-PR_FALSE
+false
 )
 {
 }
@@ -669,7 +669,7 @@ Notify
 {
 mBadTagFound
 =
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP

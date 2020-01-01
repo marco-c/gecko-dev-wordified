@@ -1240,7 +1240,7 @@ list
 *
 param
 aIsForEvents
-PR_TRUE
+true
 if
 we
 '
@@ -1312,7 +1312,7 @@ nsDisplayListBuilder
 *
 *
 return
-PR_TRUE
+true
 if
 the
 display
@@ -1351,7 +1351,7 @@ EVENT_DELIVERY
 *
 *
 return
-PR_TRUE
+true
 if
 the
 display
@@ -1385,7 +1385,7 @@ PLUGIN_GEOMETRY
 *
 *
 return
-PR_TRUE
+true
 if
 the
 display
@@ -1415,7 +1415,7 @@ PAINTING
 *
 *
 return
-PR_TRUE
+true
 if
 "
 painting
@@ -1484,7 +1484,7 @@ mIsBackgroundOnly
 *
 *
 return
-PR_TRUE
+true
 if
 the
 currently
@@ -1874,7 +1874,7 @@ SetIncludeAllOutOfFlows
 {
 mIncludeAllOutOfFlows
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -1918,7 +1918,7 @@ SetSelectedFramesOnly
 {
 mSelectedFramesOnly
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -1964,7 +1964,7 @@ SetAccurateVisibleRegions
 {
 mAccurateVisibleRegions
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -2011,7 +2011,7 @@ IgnorePaintSuppression
 {
 mIgnoreSuppression
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -2489,7 +2489,7 @@ SetHasFixedItems
 {
 mHasFixedItems
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -2568,7 +2568,7 @@ aSnappingEnabled
 *
 *
 return
-PR_TRUE
+true
 if
 images
 have
@@ -4715,7 +4715,7 @@ aForceTransparentSurface
 *
 aForceTransparentSurface
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -4742,7 +4742,7 @@ uniform
 color
 *
 return
-PR_TRUE
+true
 if
 the
 item
@@ -4787,7 +4787,7 @@ false
 *
 *
 return
-PR_FALSE
+false
 if
 the
 painting
@@ -4838,7 +4838,7 @@ translation
 *
 It
 return
-PR_TRUE
+true
 for
 all
 wrapped
@@ -4859,7 +4859,7 @@ aFrame
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -4867,7 +4867,7 @@ PR_FALSE
 *
 *
 return
-PR_TRUE
+true
 if
 the
 contents
@@ -4921,7 +4921,7 @@ aBuilder
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -5523,13 +5523,13 @@ visible
 *
 *
 return
-PR_TRUE
+true
 if
 the
 item
 is
 visible
-PR_FALSE
+false
 if
 no
 part
@@ -5646,7 +5646,7 @@ correctness
 .
 *
 return
-PR_TRUE
+true
 if
 the
 merge
@@ -5674,7 +5674,7 @@ aItem
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -5693,7 +5693,7 @@ lists
 may
 *
 return
-PR_TRUE
+true
 here
 to
 flatten
@@ -5731,7 +5731,7 @@ aBuilder
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -6358,7 +6358,7 @@ nsDisplayList
 :
 mIsOpaque
 (
-PR_FALSE
+false
 )
 {
 mTop
@@ -6377,7 +6377,7 @@ ifdef
 DEBUG
 mDidComputeVisibility
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -10449,7 +10449,7 @@ aOutTransparentBackground
 *
 aOutTransparentBackground
 =
-PR_FALSE
+false
 ;
 }
 nsRegion
@@ -10496,7 +10496,7 @@ aColor
 mColor
 ;
 return
-PR_TRUE
+true
 ;
 }
 virtual
@@ -11560,7 +11560,7 @@ flattened
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_DISPLAY_DECL_NAME
@@ -12196,7 +12196,7 @@ its
 own
 layer
 return
-PR_FALSE
+false
 ;
 }
 NS_DISPLAY_DECL_NAME

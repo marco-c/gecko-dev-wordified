@@ -1417,7 +1417,7 @@ imgDoc
 >
 mObservingImageLoader
 =
-PR_TRUE
+true
 ;
 imageLoader
 -
@@ -1620,7 +1620,7 @@ mResizeImageByDefault
 ;
 mFirstResize
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1779,7 +1779,7 @@ click
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 /
@@ -1948,7 +1948,7 @@ resize
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 target
@@ -1963,7 +1963,7 @@ keypress
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 }
@@ -2062,7 +2062,7 @@ click
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 }
@@ -2085,7 +2085,7 @@ resize
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 target
@@ -2100,7 +2100,7 @@ keypress
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 }
@@ -2167,7 +2167,7 @@ aImageResizingEnabled
 *
 aImageResizingEnabled
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2416,7 +2416,7 @@ ScrollImageTo
 (
 0
 0
-PR_FALSE
+false
 )
 ;
 imageContent
@@ -2442,12 +2442,12 @@ zoom
 in
 "
 )
-PR_TRUE
+true
 )
 ;
 mImageIsResized
 =
-PR_TRUE
+true
 ;
 UpdateTitleAndCharset
 (
@@ -2474,7 +2474,7 @@ ScrollImageTo
 (
 aX
 aY
-PR_TRUE
+true
 )
 ;
 }
@@ -2654,7 +2654,7 @@ nsGkAtoms
 :
 :
 width
-PR_TRUE
+true
 )
 ;
 imageContent
@@ -2667,7 +2667,7 @@ nsGkAtoms
 :
 :
 height
-PR_TRUE
+true
 )
 ;
 if
@@ -2698,7 +2698,7 @@ zoom
 out
 "
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -2714,13 +2714,13 @@ nsGkAtoms
 :
 :
 style
-PR_TRUE
+true
 )
 ;
 }
 mImageIsResized
 =
-PR_FALSE
+false
 ;
 UpdateTitleAndCharset
 (
@@ -2740,7 +2740,7 @@ ToggleImageSize
 {
 mShouldResize
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2749,7 +2749,7 @@ mImageIsResized
 {
 mShouldResize
 =
-PR_FALSE
+false
 ;
 ResetZoomLevel
 (
@@ -2882,7 +2882,7 @@ imageLoader
 {
 mObservingImageLoader
 =
-PR_FALSE
+false
 ;
 imageLoader
 -
@@ -2991,7 +2991,7 @@ nsGkAtoms
 :
 alt
 errorMsg
-PR_FALSE
+false
 )
 ;
 }
@@ -3035,7 +3035,7 @@ resize
 {
 CheckOverflowing
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -3061,7 +3061,7 @@ ResetZoomLevel
 ;
 mShouldResize
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3162,7 +3162,7 @@ top
 }
 mShouldResize
 =
-PR_FALSE
+false
 ;
 RestoreImageTo
 (
@@ -3277,7 +3277,7 @@ altKey
 {
 mShouldResize
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3321,7 +3321,7 @@ altKey
 {
 mShouldResize
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3561,7 +3561,7 @@ head
 AppendChildTo
 (
 styleContent
-PR_FALSE
+false
 )
 ;
 /
@@ -3747,7 +3747,7 @@ imageLoader
 >
 SetLoadingEnabled
 (
-PR_FALSE
+false
 )
 ;
 mImageContent
@@ -3761,7 +3761,7 @@ nsGkAtoms
 :
 src
 srcString
-PR_FALSE
+false
 )
 ;
 mImageContent
@@ -3775,7 +3775,7 @@ nsGkAtoms
 :
 alt
 srcString
-PR_FALSE
+false
 )
 ;
 body
@@ -3784,7 +3784,7 @@ body
 AppendChildTo
 (
 mImageContent
-PR_FALSE
+false
 )
 ;
 imageLoader
@@ -3792,7 +3792,7 @@ imageLoader
 >
 SetLoadingEnabled
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -4105,7 +4105,7 @@ RestoreImage
 }
 mFirstResize
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

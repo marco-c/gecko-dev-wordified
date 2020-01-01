@@ -937,7 +937,7 @@ mBundle
 ;
 mExpectAbsLoc
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -1739,7 +1739,7 @@ lfile
 >
 SetFollowLinks
 (
-PR_TRUE
+true
 )
 ;
 nsCAutoString

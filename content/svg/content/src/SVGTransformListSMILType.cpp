@@ -939,7 +939,7 @@ Length
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1012,7 +1012,7 @@ i
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1023,7 +1023,7 @@ no
 differences
 .
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -2963,7 +2963,7 @@ Length
 )
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -3020,7 +3020,7 @@ i
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -3102,7 +3102,7 @@ Length
 )
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -3160,6 +3160,6 @@ ToSVGTransform
 ;
 }
 return
-PR_TRUE
+true
 ;
 }

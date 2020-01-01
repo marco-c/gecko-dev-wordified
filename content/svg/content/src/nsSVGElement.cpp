@@ -438,6 +438,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSVGElement
 .
 h
@@ -1865,7 +1874,7 @@ ParseStyleAttribute
 (
 stringValue
 attrValue
-PR_TRUE
+true
 )
 ;
 /
@@ -2236,7 +2245,7 @@ SetBaseValueString
 (
 aValue
 this
-PR_FALSE
+false
 )
 ;
 if
@@ -2257,7 +2266,7 @@ i
 }
 foundMatch
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2347,7 +2356,7 @@ i
 }
 foundMatch
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2438,7 +2447,7 @@ i
 }
 foundMatch
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2527,7 +2536,7 @@ ClearBaseValue
 }
 foundMatch
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2614,7 +2623,7 @@ ClearBaseValue
 }
 foundMatch
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2704,7 +2713,7 @@ i
 }
 foundMatch
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2796,7 +2805,7 @@ i
 }
 foundMatch
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2888,7 +2897,7 @@ i
 }
 foundMatch
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2980,7 +2989,7 @@ i
 }
 foundMatch
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3052,7 +3061,7 @@ SetBaseValueString
 (
 aValue
 this
-PR_FALSE
+false
 )
 ;
 if
@@ -3073,7 +3082,7 @@ i
 }
 foundMatch
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3165,7 +3174,7 @@ i
 }
 foundMatch
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3257,7 +3266,7 @@ i
 }
 foundMatch
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3329,7 +3338,7 @@ Init
 }
 foundMatch
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -3393,7 +3402,7 @@ Init
 }
 foundMatch
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -3455,7 +3464,7 @@ ClearBaseValue
 }
 foundMatch
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -3497,7 +3506,7 @@ SetBaseValue
 (
 aValue
 this
-PR_FALSE
+false
 )
 ;
 aResult
@@ -3508,7 +3517,7 @@ aValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -3591,12 +3600,12 @@ SetBaseValue
 (
 aValue
 this
-PR_FALSE
+false
 )
 ;
 foundMatch
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3626,7 +3635,7 @@ aValue
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 aResult
@@ -3637,7 +3646,7 @@ aValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
@@ -3735,7 +3744,7 @@ manager
 =
 GetListenerManager
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -3826,7 +3835,7 @@ i
 DidChangeLength
 (
 i
-PR_FALSE
+false
 )
 ;
 return
@@ -3896,7 +3905,7 @@ i
 DidChangeLengthList
 (
 i
-PR_FALSE
+false
 )
 ;
 return
@@ -3966,7 +3975,7 @@ i
 DidChangeNumberList
 (
 i
-PR_FALSE
+false
 )
 ;
 return
@@ -4064,7 +4073,7 @@ ClearBaseValue
 ;
 DidChangePathSegList
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -4133,7 +4142,7 @@ i
 DidChangeNumber
 (
 i
-PR_FALSE
+false
 )
 ;
 return
@@ -4203,7 +4212,7 @@ i
 DidChangeNumberPair
 (
 i
-PR_FALSE
+false
 )
 ;
 return
@@ -4272,7 +4281,7 @@ i
 DidChangeInteger
 (
 i
-PR_FALSE
+false
 )
 ;
 return
@@ -4342,7 +4351,7 @@ i
 DidChangeIntegerPair
 (
 i
-PR_FALSE
+false
 )
 ;
 return
@@ -4411,7 +4420,7 @@ i
 DidChangeAngle
 (
 i
-PR_FALSE
+false
 )
 ;
 return
@@ -4480,7 +4489,7 @@ i
 DidChangeBoolean
 (
 i
-PR_FALSE
+false
 )
 ;
 return
@@ -4549,7 +4558,7 @@ i
 DidChangeEnum
 (
 i
-PR_FALSE
+false
 )
 ;
 return
@@ -4600,7 +4609,7 @@ Init
 ;
 DidChangeViewBox
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -4651,7 +4660,7 @@ Init
 ;
 DidChangePreserveAspectRatio
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -4702,7 +4711,7 @@ ClearBaseValue
 ;
 DidChangeTransformList
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -6362,7 +6371,7 @@ nsGkAtoms
 :
 id
 aId
-PR_TRUE
+true
 )
 ;
 }
@@ -6918,7 +6927,7 @@ mParser
 .
 SetSVGMode
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -7048,7 +7057,7 @@ mNodePrincipal
 mDecl
 &
 changed
-PR_FALSE
+false
 )
 ;
 }
@@ -7223,7 +7232,7 @@ aName
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -8394,7 +8403,7 @@ aAttrEnum
 mName
 nsnull
 attrValue
-PR_TRUE
+true
 )
 ;
 }
@@ -8791,7 +8800,7 @@ aAttrEnum
 mName
 nsnull
 attrValue
-PR_TRUE
+true
 )
 ;
 }
@@ -9179,7 +9188,7 @@ aAttrEnum
 mName
 nsnull
 attrValue
-PR_TRUE
+true
 )
 ;
 }
@@ -9292,7 +9301,7 @@ aAttrEnum
 }
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 Bad
 attrEnum
@@ -9369,7 +9378,7 @@ i
 }
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 Bad
 caller
@@ -9444,7 +9453,7 @@ GetPointListAttrName
 )
 nsnull
 attrValue
-PR_TRUE
+true
 )
 ;
 }
@@ -9550,7 +9559,7 @@ GetPathDataAttrName
 )
 nsnull
 attrValue
-PR_TRUE
+true
 )
 ;
 }
@@ -9752,7 +9761,7 @@ aAttrEnum
 mName
 nsnull
 attrValue
-PR_TRUE
+true
 )
 ;
 }
@@ -10063,7 +10072,7 @@ aAttrEnum
 mName
 nsnull
 attrValue
-PR_TRUE
+true
 )
 ;
 }
@@ -10264,7 +10273,7 @@ aAttrEnum
 mName
 nsnull
 attrValue
-PR_TRUE
+true
 )
 ;
 }
@@ -10575,7 +10584,7 @@ aAttrEnum
 mName
 nsnull
 attrValue
-PR_TRUE
+true
 )
 ;
 }
@@ -10782,7 +10791,7 @@ aAttrEnum
 mName
 nsnull
 attrValue
-PR_TRUE
+true
 )
 ;
 }
@@ -10983,7 +10992,7 @@ aAttrEnum
 mName
 nsnull
 attrValue
-PR_TRUE
+true
 )
 ;
 }
@@ -11185,7 +11194,7 @@ aAttrEnum
 mName
 nsnull
 attrValue
-PR_TRUE
+true
 )
 ;
 }
@@ -11320,7 +11329,7 @@ nsGkAtoms
 viewBox
 nsnull
 attrValue
-PR_TRUE
+true
 )
 ;
 }
@@ -11441,7 +11450,7 @@ nsGkAtoms
 preserveAspectRatio
 nsnull
 attrValue
-PR_TRUE
+true
 )
 ;
 }
@@ -11552,7 +11561,7 @@ GetTransformListAttrName
 )
 nsnull
 attrValue
-PR_TRUE
+true
 )
 ;
 }
@@ -11821,7 +11830,7 @@ aAttrEnum
 .
 mName
 aValue
-PR_TRUE
+true
 )
 ;
 }
@@ -11997,7 +12006,7 @@ aDocument
 AttributeParseWarning
 "
 strings
-NS_ARRAY_LENGTH
+ArrayLength
 (
 strings
 )
@@ -12114,7 +12123,7 @@ GetEventNameForAttr
 attr
 )
 value
-PR_TRUE
+true
 )
 ;
 }

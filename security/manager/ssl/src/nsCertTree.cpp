@@ -742,7 +742,7 @@ mCritInit
 i
 ]
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -842,7 +842,7 @@ entry
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 entryPtr
@@ -860,7 +860,7 @@ void
 key
 ;
 return
-PR_TRUE
+true
 ;
 }
 PR_STATIC_CALLBACK
@@ -952,7 +952,7 @@ ob_None
 )
 mIsTemporary
 (
-PR_TRUE
+true
 )
 {
 }
@@ -3135,7 +3135,7 @@ them
 .
 addOverrides
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3196,7 +3196,7 @@ unknown
 .
 wantThisCertIfNoOverrides
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3246,7 +3246,7 @@ show
 it
 wantThisCert
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -3268,7 +3268,7 @@ them
 .
 addOverrides
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3374,7 +3374,7 @@ cert
 .
 addOverrides
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3480,7 +3480,7 @@ cert
 .
 wantThisCertIfNoOverrides
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3494,7 +3494,7 @@ aWantedType
 {
 wantThisCert
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3545,13 +3545,13 @@ mOverrideService
 IsCertUsedForOverrides
 (
 pipCert
-PR_TRUE
+true
 /
 /
 we
 want
 temporaries
-PR_TRUE
+true
 /
 /
 we
@@ -3589,7 +3589,7 @@ this
 cert
 wantThisCert
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3621,7 +3621,7 @@ this
 cert
 wantThisCert
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3827,7 +3827,7 @@ certdi
 >
 mIsTemporary
 =
-PR_FALSE
+false
 ;
 mDispInfo
 .
@@ -4453,7 +4453,7 @@ i
 .
 open
 =
-PR_TRUE
+true
 ;
 mTreeArray
 [
@@ -4947,7 +4947,7 @@ it
 .
 canRemoveEntry
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5098,7 +5098,7 @@ else
 {
 canRemoveEntry
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5800,7 +5800,7 @@ el
 *
 _retval
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -5808,7 +5808,7 @@ else
 *
 _retval
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -5871,7 +5871,7 @@ open
 *
 _retval
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -5879,7 +5879,7 @@ else
 *
 _retval
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -5949,7 +5949,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -6185,7 +6185,7 @@ NS_OK
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -6903,7 +6903,7 @@ cert
 >
 GetUsagesString
 (
-PR_FALSE
+false
 &
 verified
 theUsages
@@ -7649,7 +7649,7 @@ ReplaceElementAt
 (
 text
 arrayIndex
-PR_FALSE
+false
 )
 ;
 }
@@ -7897,7 +7897,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -7937,7 +7937,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -8421,7 +8421,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -8481,7 +8481,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -8533,7 +8533,7 @@ mCritInit
 level
 ]
 =
-PR_TRUE
+true
 ;
 nsXPIDLString
 &

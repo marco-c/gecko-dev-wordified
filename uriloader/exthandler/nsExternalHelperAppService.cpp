@@ -506,6 +506,35 @@ basictypes
 .
 h
 "
+/
+*
+This
+must
+occur
+*
+after
+*
+base
+/
+basictypes
+.
+h
+to
+avoid
+typedefs
+conflicts
+.
+*
+/
+#
+include
+"
+mozilla
+/
+Util
+.
+h
+"
 #
 include
 "
@@ -1960,7 +1989,7 @@ DISPOSITION_ATTACHMENT
 )
 handleExternally
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -2095,7 +2124,7 @@ Trim
 "
 .
 "
-PR_FALSE
+false
 )
 ;
 }
@@ -2250,7 +2279,7 @@ Trim
 "
 .
 "
-PR_FALSE
+false
 )
 ;
 /
@@ -2663,7 +2692,7 @@ nsDependentCString
 (
 downloadDir
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 ldir
@@ -3763,7 +3792,7 @@ nsExternalHelperAppService
 :
 mInPrivateBrowsing
 (
-PR_FALSE
+false
 )
 {
 gExtProtSvc
@@ -3882,7 +3911,7 @@ before
 -
 change
 "
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3899,7 +3928,7 @@ AddObserver
 (
 this
 NS_PRIVATE_BROWSING_SWITCH_TOPIC
-PR_TRUE
+true
 )
 ;
 }
@@ -4612,7 +4641,7 @@ rv
 )
 isHTTP
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -4637,7 +4666,7 @@ rv
 )
 isHTTPS
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -5219,7 +5248,7 @@ aApplyDecoding
 *
 aApplyDecoding
 =
-PR_TRUE
+true
 ;
 PRUint32
 i
@@ -5232,7 +5261,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 nonDecodableExtensions
 )
@@ -5273,7 +5302,7 @@ mMimeType
 *
 aApplyDecoding
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -5327,7 +5356,7 @@ rv
 NS_NewLocalFile
 (
 platformAppPath
-PR_TRUE
+true
 &
 localFile
 )
@@ -5783,7 +5812,7 @@ length
 *
 aHandlerExists
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -6908,7 +6937,7 @@ localFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -7470,7 +7499,7 @@ someData
 )
 mInPrivateBrowsing
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -7488,7 +7517,7 @@ someData
 {
 mInPrivateBrowsing
 =
-PR_FALSE
+false
 ;
 ExpungeTemporaryPrivateFiles
 (
@@ -7796,23 +7825,23 @@ aForceSave
 )
 mCanceled
 (
-PR_FALSE
+false
 )
 mShouldCloseWindow
 (
-PR_FALSE
+false
 )
 mReceivedDispositionInfo
 (
-PR_FALSE
+false
 )
 mStopRequestIssued
 (
-PR_FALSE
+false
 )
 mProgressListenerInitialized
 (
-PR_FALSE
+false
 )
 mReason
 (
@@ -7833,7 +7862,7 @@ nsnull
 )
 mKeepRequestAlive
 (
-PR_FALSE
+false
 )
 mRequest
 (
@@ -8014,7 +8043,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 unsafeBidiCharacters
 )
@@ -8196,7 +8225,7 @@ mReceivedDispositionInfo
 )
 mProgressListenerInitialized
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -9621,7 +9650,7 @@ dummyFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -9741,7 +9770,7 @@ mTempFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -10134,7 +10163,7 @@ IsEmpty
 {
 mShouldCloseWindow
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -10483,7 +10512,7 @@ rv
 {
 mCanceled
 =
-PR_TRUE
+true
 ;
 request
 -
@@ -10557,7 +10586,7 @@ httpInternal
 >
 SetChannelIsForDownload
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -10933,7 +10962,7 @@ all
 .
 alwaysAsk
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -10988,7 +11017,7 @@ all
 .
 alwaysAsk
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -11106,7 +11135,7 @@ mForceSave
 {
 alwaysAsk
 =
-PR_FALSE
+false
 ;
 action
 =
@@ -11157,11 +11186,11 @@ it
 .
 mReceivedDispositionInfo
 =
-PR_FALSE
+false
 ;
 mKeepRequestAlive
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -11273,7 +11302,7 @@ else
 {
 mReceivedDispositionInfo
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -11556,7 +11585,7 @@ rv
 LaunchWithApplication
 (
 nsnull
-PR_FALSE
+false
 )
 ;
 }
@@ -11575,7 +11604,7 @@ rv
 SaveToDisk
 (
 nsnull
-PR_FALSE
+false
 )
 ;
 }
@@ -12382,7 +12411,7 @@ copy
 {
 readError
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -12441,7 +12470,7 @@ count
 ;
 readError
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -12710,7 +12739,7 @@ aStatus
 {
 mStopRequestIssued
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -13992,7 +14021,7 @@ fileToUse
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -14324,7 +14353,7 @@ do
 .
 mReceivedDispositionInfo
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -15274,7 +15303,7 @@ ProcessAnyRefreshTags
 ;
 mReceivedDispositionInfo
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -15796,7 +15825,7 @@ the
 reason
 mCanceled
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -15923,7 +15952,7 @@ mTempFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 mTempFile
@@ -15957,7 +15986,7 @@ mFinalFileDestination
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 mFinalFileDestination
@@ -16230,7 +16259,7 @@ pref
 string
 .
 return
-PR_TRUE
+true
 ;
 }
 NS_UnescapeURL
@@ -17886,7 +17915,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 defaultMimeEntries
 )
@@ -18876,7 +18905,7 @@ MIMEType
 PRInt32
 numEntries
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 extraMimeEntries
 )
@@ -19059,7 +19088,7 @@ iter
 PRInt32
 numEntries
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 extraMimeEntries
 )
@@ -19152,7 +19181,7 @@ index
 mMimeType
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -19175,6 +19204,6 @@ iter
 }
 }
 return
-PR_FALSE
+false
 ;
 }

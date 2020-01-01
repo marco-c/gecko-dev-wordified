@@ -1274,7 +1274,7 @@ SetCertIssuerBlacklisted
 {
 mIsCertIssuerBlacklisted
 =
-PR_TRUE
+true
 ;
 }
 protected

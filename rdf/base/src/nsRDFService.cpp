@@ -2132,7 +2132,7 @@ length
 *
 aEquals
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2143,7 +2143,7 @@ NS_OK
 *
 aEquals
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3167,7 +3167,7 @@ NS_NOINTERFACE
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3644,7 +3644,7 @@ else
 *
 result
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -4152,7 +4152,7 @@ else
 *
 result
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -6761,7 +6761,7 @@ uri
 *
 _result
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -6769,7 +6769,7 @@ else
 *
 _result
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -7827,7 +7827,7 @@ return
 GetDataSource
 (
 aURI
-PR_FALSE
+false
 aDataSource
 )
 ;
@@ -7863,7 +7863,7 @@ return
 GetDataSource
 (
 aURI
-PR_TRUE
+true
 aDataSource
 )
 ;

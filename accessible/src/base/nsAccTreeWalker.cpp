@@ -1335,7 +1335,7 @@ if
 nextToLastState
 )
 return
-PR_FALSE
+false
 ;
 nextToLastState
 -
@@ -1349,6 +1349,6 @@ mState
 nextToLastState
 ;
 return
-PR_TRUE
+true
 ;
 }

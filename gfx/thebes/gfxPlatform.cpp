@@ -3622,7 +3622,7 @@ Preferences
 GetRootBranch
 (
 )
-PR_FALSE
+false
 )
 ;
 PRUint32
@@ -3776,7 +3776,7 @@ aClosure
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3957,8 +3957,8 @@ fontName
 .
 CompressWhitespace
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 if
@@ -3975,7 +3975,7 @@ aClosure
 )
 )
 return
-PR_FALSE
+false
 ;
 p
 +
@@ -3985,7 +3985,7 @@ p
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 eFontPrefLang
@@ -4365,12 +4365,12 @@ case
 eFontPrefLang_CJKSet
 :
 return
-PR_TRUE
+true
 ;
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -4674,8 +4674,8 @@ lang
 .
 CompressWhitespace
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 eFontPrefLang
@@ -5204,12 +5204,12 @@ if
 gCMSInitialized
 =
 =
-PR_FALSE
+false
 )
 {
 gCMSInitialized
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -6362,7 +6362,7 @@ eCMSMode_Off
 ;
 gCMSInitialized
 =
-PR_FALSE
+false
 ;
 }
 static
@@ -6597,8 +6597,8 @@ extendCluster
 .
 SetComplex
 (
-PR_FALSE
-PR_TRUE
+false
+true
 0
 )
 ;
@@ -6693,7 +6693,7 @@ i
 ;
 surrogatePair
 =
-PR_TRUE
+true
 ;
 }
 PRUint8

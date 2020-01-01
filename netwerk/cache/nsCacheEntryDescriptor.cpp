@@ -2663,7 +2663,7 @@ rv
 ;
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2851,7 +2851,7 @@ NS_BASE_STREAM_WOULD_BLOCK
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3311,7 +3311,7 @@ stream
 ;
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3565,7 +3565,7 @@ NS_BASE_STREAM_WOULD_BLOCK
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

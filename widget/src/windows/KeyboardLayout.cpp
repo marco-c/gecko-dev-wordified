@@ -430,6 +430,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 KeyboardLayout
 .
 h
@@ -795,7 +804,7 @@ NS_ASSERTION
 (
 aShiftState
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 mShiftStates
 )
@@ -869,7 +878,7 @@ index
 PRUint32
 len
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 mShiftStates
 [
@@ -929,7 +938,7 @@ NS_ASSERTION
 (
 aShiftState
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 mShiftStates
 )
@@ -1296,7 +1305,7 @@ index
 PRUint32
 len
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 mShiftStates
 [
@@ -2280,7 +2289,7 @@ PRUint32
 vki
 )
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 mVirtualKeys
 )
@@ -2310,7 +2319,7 @@ kbdState
 LPWSTR
 )
 uniChars
-NS_ARRAY_LENGTH
+ArrayLength
 (
 uniChars
 )
@@ -2376,7 +2385,7 @@ kbdState
 LPWSTR
 )
 deadChar
-NS_ARRAY_LENGTH
+ArrayLength
 (
 deadChar
 )
@@ -2584,7 +2593,7 @@ virtualKey
 kbdState
 shiftStatesWithBaseChars
 deadKeyArray
-NS_ARRAY_LENGTH
+ArrayLength
 (
 deadKeyArray
 )
@@ -3984,7 +3993,7 @@ aDeadKeyKbdState
 LPWSTR
 )
 dummyChars
-NS_ARRAY_LENGTH
+ArrayLength
 (
 dummyChars
 )
@@ -4466,7 +4475,7 @@ kbdState
 LPWSTR
 )
 compositeChars
-NS_ARRAY_LENGTH
+ArrayLength
 (
 compositeChars
 )
@@ -4563,7 +4572,7 @@ kbdState
 LPWSTR
 )
 baseChars
-NS_ARRAY_LENGTH
+ArrayLength
 (
 baseChars
 )

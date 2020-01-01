@@ -866,14 +866,14 @@ eIntID_ScrollButtonRightMouseButtonAction
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -909,7 +909,7 @@ pressedButtonAction
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -940,7 +940,7 @@ scrollbar
 nsnull
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -1029,7 +1029,7 @@ direction
 ;
 else
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -1166,7 +1166,7 @@ repeat
 =
 smoothScroll
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -1202,7 +1202,7 @@ s
 action
 .
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1238,7 +1238,7 @@ NS_LITERAL_STRING
 true
 "
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -1265,7 +1265,7 @@ StartRepeat
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -1303,7 +1303,7 @@ nsGkAtoms
 :
 :
 active
-PR_TRUE
+true
 )
 ;
 StopRepeat
@@ -1355,7 +1355,7 @@ scrolling
 .
 DoButtonAction
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1621,7 +1621,7 @@ NS_LITERAL_STRING
 true
 "
 )
-PR_FALSE
+false
 )
 ;
 content
@@ -1635,7 +1635,7 @@ nsGkAtoms
 :
 curpos
 curposStr
-PR_TRUE
+true
 )
 ;
 if
@@ -1652,7 +1652,7 @@ nsGkAtoms
 :
 :
 smooth
-PR_FALSE
+false
 )
 ;
 }

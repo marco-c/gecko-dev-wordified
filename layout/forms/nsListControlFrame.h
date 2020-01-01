@@ -1688,7 +1688,7 @@ FireOnChange
 .
 *
 Returns
-PR_FALSE
+false
 if
 calling
 it
@@ -2129,11 +2129,11 @@ not
 .
 *
 return
-PR_TRUE
+true
 if
 it
 is
-PR_FALSE
+false
 if
 it
 is
@@ -2580,7 +2580,7 @@ Reflow
 *
 Set
 to
-PR_FALSE
+false
 at
 the
 end

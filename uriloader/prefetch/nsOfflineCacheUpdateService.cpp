@@ -2002,11 +2002,11 @@ nsOfflineCacheUpdateService
 :
 mDisabled
 (
-PR_FALSE
+false
 )
 mUpdateRunning
 (
-PR_FALSE
+false
 )
 {
 }
@@ -2094,7 +2094,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2549,7 +2549,7 @@ RemoveElementAt
 ;
 mUpdateRunning
 =
-PR_FALSE
+false
 ;
 ProcessNextUpdate
 (
@@ -2784,7 +2784,7 @@ Length
 {
 mUpdateRunning
 =
-PR_TRUE
+true
 ;
 return
 mUpdates
@@ -3580,7 +3580,7 @@ Cancel
 ;
 mDisabled
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -3823,7 +3823,7 @@ aAllowed
 *
 aAllowed
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4042,7 +4042,7 @@ NS_OK
 *
 aAllowed
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

@@ -836,7 +836,7 @@ page
 ;
 firstTime
 =
-PR_FALSE
+false
 ;
 }
 CheckedUint32

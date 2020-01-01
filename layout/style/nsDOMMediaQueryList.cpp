@@ -490,7 +490,7 @@ nsMediaList
 )
 mMatchesValid
 (
-PR_FALSE
+false
 )
 {
 PR_INIT_CLIST
@@ -509,7 +509,7 @@ aMediaQueryList
 nsnull
 0
 mMediaList
-PR_FALSE
+false
 )
 ;
 }
@@ -821,7 +821,7 @@ nsnull
 ;
 mMatchesValid
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -837,7 +837,7 @@ aListenersToNotify
 {
 mMatchesValid
 =
-PR_FALSE
+false
 ;
 if
 (

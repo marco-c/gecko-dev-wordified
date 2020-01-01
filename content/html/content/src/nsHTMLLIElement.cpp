@@ -425,6 +425,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLLIElement
 .
 h
@@ -471,6 +480,10 @@ nsRuleData
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsHTMLLIElement
 :
@@ -828,7 +841,7 @@ ParseEnumValue
 (
 aValue
 kOrderedListItemTypeTable
-PR_TRUE
+true
 )
 |
 |
@@ -838,7 +851,7 @@ ParseEnumValue
 (
 aValue
 kUnorderedListItemTypeTable
-PR_FALSE
+false
 )
 ;
 }
@@ -1046,7 +1059,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

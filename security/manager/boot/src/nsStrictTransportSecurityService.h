@@ -639,7 +639,7 @@ flag
 (
 boolean
 default
-PR_FALSE
+false
 )
 /
 /
@@ -649,7 +649,7 @@ flag
 (
 boolean
 default
-PR_FALSE
+false
 )
 /
 /
@@ -1001,7 +1001,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_FALSE
+false
 }
 ;
 }

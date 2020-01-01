@@ -681,7 +681,7 @@ fAggregated
 \
 *
 Returns
-PR_TRUE
+true
 if
 this
 object

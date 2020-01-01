@@ -477,6 +477,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 necko
 -
 config
@@ -1176,11 +1185,11 @@ nsCacheProfilePrefObserver
 :
 mHaveProfile
 (
-PR_FALSE
+false
 )
 mDiskCacheEnabled
 (
-PR_FALSE
+false
 )
 mDiskCacheCapacity
 (
@@ -1202,7 +1211,7 @@ limit
 "
 mOfflineCacheEnabled
 (
-PR_FALSE
+false
 )
 mOfflineCacheCapacity
 (
@@ -1210,7 +1219,7 @@ mOfflineCacheCapacity
 )
 mMemoryCacheEnabled
 (
-PR_TRUE
+true
 )
 mMemoryCacheCapacity
 (
@@ -1233,7 +1242,7 @@ limit
 "
 mInPrivateBrowsing
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1617,7 +1626,7 @@ rv
 )
 smartSizeEnabled
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1938,7 +1947,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 observerList
 )
@@ -1960,7 +1969,7 @@ observerList
 [
 i
 ]
-PR_FALSE
+false
 )
 ;
 if
@@ -2009,7 +2018,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 prefList
 )
@@ -2031,7 +2040,7 @@ prefList
 i
 ]
 this
-PR_FALSE
+false
 )
 ;
 if
@@ -2176,7 +2185,7 @@ rv
 )
 mHaveProfile
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -2240,7 +2249,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 observerList
 )
@@ -2298,7 +2307,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 prefList
 )
@@ -2464,7 +2473,7 @@ before
 change
 mHaveProfile
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2517,7 +2526,7 @@ after
 change
 mHaveProfile
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -3445,7 +3454,7 @@ get
 {
 mInPrivateBrowsing
 =
-PR_TRUE
+true
 ;
 nsCacheService
 :
@@ -3456,7 +3465,7 @@ OnEnterExitPrivateBrowsing
 ;
 mDiskCacheEnabled
 =
-PR_FALSE
+false
 ;
 nsCacheService
 :
@@ -3470,7 +3479,7 @@ DiskCacheEnabled
 ;
 mOfflineCacheEnabled
 =
-PR_FALSE
+false
 ;
 nsCacheService
 :
@@ -3500,7 +3509,7 @@ get
 {
 mInPrivateBrowsing
 =
-PR_FALSE
+false
 ;
 nsCacheService
 :
@@ -3534,7 +3543,7 @@ rv
 ;
 mDiskCacheEnabled
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -3566,7 +3575,7 @@ DiskCacheEnabled
 ;
 mOfflineCacheEnabled
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -4119,7 +4128,7 @@ rv
 )
 userSet
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -4185,7 +4194,7 @@ branch
 SetBoolPref
 (
 DISK_CACHE_SMART_SIZE_ENABLED_PREF
-PR_FALSE
+false
 )
 ;
 return
@@ -4291,7 +4300,7 @@ mInPrivateBrowsing
 {
 mDiskCacheEnabled
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -4574,8 +4583,8 @@ exists
 DeleteDir
 (
 profDir
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -4667,7 +4676,7 @@ rv
 )
 firstSmartSizeRun
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4827,7 +4836,7 @@ branch
 SetBoolPref
 (
 DISK_CACHE_SMART_SIZE_FIRST_RUN_PREF
-PR_FALSE
+false
 )
 ;
 if
@@ -4867,7 +4876,7 @@ mInPrivateBrowsing
 {
 mOfflineCacheEnabled
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -5313,7 +5322,7 @@ mDiskCacheParentDirectory
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 mDiskCacheEnabled
@@ -5343,7 +5352,7 @@ mOfflineCacheParentDirectory
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 mOfflineCacheEnabled
@@ -5365,7 +5374,7 @@ mMemoryCacheCapacity
 0
 )
 return
-PR_FALSE
+false
 ;
 return
 mMemoryCacheEnabled
@@ -6122,7 +6131,7 @@ gService
 ProcessRequest
 (
 mRequest
-PR_FALSE
+false
 nsnull
 )
 ;
@@ -6406,15 +6415,15 @@ mCondVar
 )
 mInitialized
 (
-PR_FALSE
+false
 )
 mEnableMemoryDevice
 (
-PR_TRUE
+true
 )
 mEnableDiskDevice
 (
-PR_TRUE
+true
 )
 mMemoryDevice
 (
@@ -6699,7 +6708,7 @@ MemoryCacheEnabled
 ;
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -6748,7 +6757,7 @@ mInitialized
 {
 mInitialized
 =
-PR_FALSE
+false
 ;
 mObserver
 -
@@ -7514,7 +7523,7 @@ STORE_IN_MEMORY
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -7555,7 +7564,7 @@ STORE_ON_DISK_AS_FILE
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -7576,11 +7585,11 @@ STORE_OFFLINE
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -8055,7 +8064,7 @@ n
 endif
 mEnableDiskDevice
 =
-PR_FALSE
+false
 ;
 delete
 mDiskDevice
@@ -8222,7 +8231,7 @@ n
 ;
 mEnableOfflineDevice
 =
-PR_FALSE
+false
 ;
 NS_RELEASE
 (
@@ -9691,7 +9700,7 @@ gService
 ProcessRequest
 (
 request
-PR_TRUE
+true
 result
 )
 ;
@@ -10419,7 +10428,7 @@ mMemoryDevice
 *
 collision
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -11687,7 +11696,7 @@ gService
 >
 mEnableDiskDevice
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -11734,7 +11743,7 @@ gService
 >
 mEnableOfflineDevice
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -11940,7 +11949,7 @@ gService
 >
 mEnableDiskDevice
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -12053,7 +12062,7 @@ gService
 >
 mEnableOfflineDevice
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -13590,7 +13599,7 @@ if
 mInitialized
 =
 =
-PR_FALSE
+false
 /
 /
 then
@@ -14004,7 +14013,7 @@ ACCESS_READ_WRITE
 {
 newWriter
 =
-PR_TRUE
+true
 ;
 CACHE_LOG_DEBUG
 (
@@ -14229,7 +14238,7 @@ rv
 ProcessRequest
 (
 request
-PR_FALSE
+false
 nsnull
 )
 ;

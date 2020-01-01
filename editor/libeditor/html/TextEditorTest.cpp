@@ -1486,7 +1486,7 @@ result
 ;
 NS_ASSERTION
 (
-PR_FALSE
+false
 =
 =
 first
@@ -1500,7 +1500,7 @@ false
 ;
 NS_ASSERTION
 (
-PR_FALSE
+false
 =
 =
 any
@@ -1514,7 +1514,7 @@ false
 ;
 NS_ASSERTION
 (
-PR_FALSE
+false
 =
 =
 all
@@ -1574,7 +1574,7 @@ result
 ;
 NS_ASSERTION
 (
-PR_TRUE
+true
 =
 =
 first
@@ -1588,7 +1588,7 @@ true
 ;
 NS_ASSERTION
 (
-PR_TRUE
+true
 =
 =
 any
@@ -1602,7 +1602,7 @@ true
 ;
 NS_ASSERTION
 (
-PR_TRUE
+true
 =
 =
 all
@@ -1693,7 +1693,7 @@ result
 ;
 NS_ASSERTION
 (
-PR_FALSE
+false
 =
 =
 first
@@ -1707,7 +1707,7 @@ false
 ;
 NS_ASSERTION
 (
-PR_FALSE
+false
 =
 =
 any
@@ -1721,7 +1721,7 @@ false
 ;
 NS_ASSERTION
 (
-PR_FALSE
+false
 =
 =
 all
@@ -1853,7 +1853,7 @@ result
 ;
 NS_ASSERTION
 (
-PR_TRUE
+true
 =
 =
 first
@@ -1867,7 +1867,7 @@ true
 ;
 NS_ASSERTION
 (
-PR_TRUE
+true
 =
 =
 any
@@ -1881,7 +1881,7 @@ true
 ;
 NS_ASSERTION
 (
-PR_TRUE
+true
 =
 =
 all
@@ -1956,7 +1956,7 @@ result
 ;
 NS_ASSERTION
 (
-PR_TRUE
+true
 =
 =
 first
@@ -1970,7 +1970,7 @@ true
 ;
 NS_ASSERTION
 (
-PR_TRUE
+true
 =
 =
 any
@@ -1984,7 +1984,7 @@ true
 ;
 NS_ASSERTION
 (
-PR_TRUE
+true
 =
 =
 all
@@ -2024,7 +2024,7 @@ result
 ;
 NS_ASSERTION
 (
-PR_TRUE
+true
 =
 =
 first
@@ -2038,7 +2038,7 @@ true
 ;
 NS_ASSERTION
 (
-PR_TRUE
+true
 =
 =
 any
@@ -2052,7 +2052,7 @@ true
 ;
 NS_ASSERTION
 (
-PR_TRUE
+true
 =
 =
 all
@@ -2270,7 +2270,7 @@ result
 ;
 NS_ASSERTION
 (
-PR_TRUE
+true
 =
 =
 first
@@ -2284,7 +2284,7 @@ true
 ;
 NS_ASSERTION
 (
-PR_TRUE
+true
 =
 =
 any
@@ -2298,7 +2298,7 @@ true
 ;
 NS_ASSERTION
 (
-PR_TRUE
+true
 =
 =
 all

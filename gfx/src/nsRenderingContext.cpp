@@ -1008,7 +1008,7 @@ mThebes
 UserToDevicePixelSnapped
 (
 clipRect
-PR_TRUE
+true
 )
 )
 {
@@ -1218,7 +1218,7 @@ rect
 >
 height
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -1786,7 +1786,7 @@ GFX_RECT_FROM_TWIPS_RECT
 (
 aRect
 )
-PR_TRUE
+true
 )
 ;
 mThebes
@@ -1853,7 +1853,7 @@ coordinates
 *
 *
 Returns
-PR_FALSE
+false
 if
 the
 rectangle
@@ -1863,7 +1863,7 @@ out
 of
 bounds
 *
-PR_TRUE
+true
 otherwise
 .
 *
@@ -1937,7 +1937,7 @@ screen
 -
 -
 *
-PR_FALSE
+false
 is
 returned
 .
@@ -2037,7 +2037,7 @@ is
 drawn
 -
 -
-PR_FALSE
+false
 is
 returned
 .
@@ -2077,7 +2077,7 @@ equal
 to
 CAIRO_COORD_MAX
 and
-PR_TRUE
+true
 is
 returned
 .
@@ -2148,7 +2148,7 @@ Y
 CAIRO_COORD_MAX
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2185,7 +2185,7 @@ width
 0
 )
 return
-PR_FALSE
+false
 ;
 r
 .
@@ -2257,7 +2257,7 @@ Height
 0
 )
 return
-PR_FALSE
+false
 ;
 r
 .
@@ -2293,7 +2293,7 @@ Y
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -2438,7 +2438,7 @@ mThebes
 Rectangle
 (
 r
-PR_TRUE
+true
 )
 ;
 mThebes
@@ -2470,7 +2470,7 @@ mThebes
 Rectangle
 (
 r
-PR_TRUE
+true
 )
 ;
 mThebes

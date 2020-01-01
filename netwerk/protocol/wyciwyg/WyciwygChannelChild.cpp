@@ -488,7 +488,7 @@ NS_OK
 )
 mIsPending
 (
-PR_FALSE
+false
 )
 mCanceled
 (
@@ -1649,7 +1649,7 @@ WCC_ONSTOP
 ;
 mIsPending
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3135,7 +3135,7 @@ aContext
 ;
 mIsPending
 =
-PR_TRUE
+true
 ;
 if
 (

@@ -794,7 +794,7 @@ aDataNode
 *
 aReturn
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -986,7 +986,7 @@ tr
 *
 aReturn
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -1770,7 +1770,7 @@ PrototypeBinding
 BindingURI
 (
 )
-PR_FALSE
+false
 )
 ;
 binding

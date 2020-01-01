@@ -790,7 +790,7 @@ aEventType
 mEventName
 )
 return
-PR_FALSE
+false
 ;
 return
 KeyEventMatched
@@ -829,7 +829,7 @@ aEventType
 mEventName
 )
 return
-PR_FALSE
+false
 ;
 return
 MouseEventMatched
@@ -1004,7 +1004,7 @@ HasAllowUntrustedEventsAttr
 returns
 /
 /
-PR_TRUE
+true
 .
 bool
 AllowUntrustedEvents

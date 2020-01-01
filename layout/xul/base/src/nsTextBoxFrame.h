@@ -665,7 +665,7 @@ nsAsyncAccesskeyUpdate
 /
 /
 Returns
-PR_TRUE
+true
 if
 accesskey
 was

@@ -429,6 +429,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsNativeKeyBindings
 .
 h
@@ -488,6 +497,10 @@ gdk
 .
 h
 >
+using
+namespace
+mozilla
+;
 static
 nsINativeKeyBindings
 :
@@ -816,7 +829,7 @@ del_type
 )
 >
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sDeleteCommands
 )
@@ -1345,7 +1358,7 @@ step
 )
 >
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sMoveCommands
 )

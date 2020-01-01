@@ -675,7 +675,7 @@ if
 mLibrary
 )
 return
-PR_FALSE
+false
 ;
 gShockproofGetAccelerometerData
 =
@@ -706,11 +706,11 @@ mLibrary
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void

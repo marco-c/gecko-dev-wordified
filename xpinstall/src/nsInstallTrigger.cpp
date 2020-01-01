@@ -1067,7 +1067,7 @@ rv
 )
 useReferrer
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -2158,7 +2158,7 @@ prefBranch
 )
 {
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -2195,7 +2195,7 @@ globally
 turned
 off
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -2376,7 +2376,7 @@ DENY_ACTION
 {
 xpiEnabled
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2396,7 +2396,7 @@ ALLOW_ACTION
 {
 xpiEnabled
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -2580,7 +2580,7 @@ otherwise
 *
 aReturn
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2660,7 +2660,7 @@ aReturn
 *
 aReturn
 =
-PR_FALSE
+false
 ;
 nsXPInstallManager
 *
@@ -2700,7 +2700,7 @@ aReturn
 *
 aReturn
 =
-PR_TRUE
+true
 ;
 return
 rv

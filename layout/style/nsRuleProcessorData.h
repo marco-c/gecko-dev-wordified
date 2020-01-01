@@ -665,7 +665,7 @@ called
 ;
 mHaveRelevantLink
 =
-PR_FALSE
+false
 ;
 mVisitedHandling
 =
@@ -695,7 +695,7 @@ called
 ;
 mHaveRelevantLink
 =
-PR_FALSE
+false
 ;
 mVisitedHandling
 =
@@ -712,7 +712,7 @@ SetHaveRelevantLink
 {
 mHaveRelevantLink
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -1042,7 +1042,7 @@ aForStyling
 )
 mHaveRelevantLink
 (
-PR_FALSE
+false
 )
 mVisitedHandling
 (

@@ -860,7 +860,7 @@ xpcom
 -
 shutdown
 "
-PR_FALSE
+false
 )
 ;
 }
@@ -3463,7 +3463,7 @@ gAppShell
 >
 ProcessNextNativeEvent
 (
-PR_TRUE
+true
 )
 ?
 true

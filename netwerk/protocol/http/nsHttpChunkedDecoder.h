@@ -483,11 +483,11 @@ mChunkRemaining
 )
 mReachedEOF
 (
-PR_FALSE
+false
 )
 mWaitEOF
 (
-PR_FALSE
+false
 )
 {
 }

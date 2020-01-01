@@ -931,7 +931,7 @@ aCapacity
 )
 )
 :
-PR_TRUE
+true
 ;
 }
 private
@@ -1714,7 +1714,7 @@ callback
 function
 .
 Return
-PR_FALSE
+false
 to
 stop
 /

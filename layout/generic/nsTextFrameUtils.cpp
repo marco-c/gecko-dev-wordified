@@ -618,7 +618,7 @@ nsTextFrameUtils
 TEXT_HAS_SHY
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -641,7 +641,7 @@ Bidi
 control
 character
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -680,11 +680,11 @@ nsTextFrameUtils
 TEXT_HAS_SHY
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 PRUnichar
@@ -975,7 +975,7 @@ i
 {
 nowInWhitespace
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1061,7 +1061,7 @@ continue
 }
 nowInWhitespace
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1693,7 +1693,7 @@ if
 mRemainingLength
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 length
@@ -1727,6 +1727,6 @@ mSkipped
 )
 ;
 return
-PR_TRUE
+true
 ;
 }

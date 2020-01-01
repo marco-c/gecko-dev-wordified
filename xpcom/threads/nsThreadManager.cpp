@@ -1091,7 +1091,7 @@ Main
 endif
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1168,7 +1168,7 @@ now
 /
 mInitialized
 =
-PR_FALSE
+false
 ;
 /
 /

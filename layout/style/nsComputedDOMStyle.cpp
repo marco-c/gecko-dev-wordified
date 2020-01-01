@@ -525,6 +525,15 @@ getComputedStyle
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsComputedDOMStyle
 .
 h
@@ -753,17 +762,13 @@ h
 using
 namespace
 mozilla
-:
-:
-dom
 ;
+using
 namespace
-css
-=
 mozilla
 :
 :
-css
+dom
 ;
 #
 if
@@ -1005,7 +1010,7 @@ nsnull
 )
 mExposeVisitedStyle
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1358,7 +1363,7 @@ start
 ;
 haveTwoColons
 =
-PR_FALSE
+false
 ;
 }
 mPseudo
@@ -3907,7 +3912,7 @@ GetStyleColumn
 -
 >
 mColumnWidth
-PR_TRUE
+true
 )
 ;
 return
@@ -3982,7 +3987,7 @@ GetStyleColumn
 -
 >
 mColumnGap
-PR_TRUE
+true
 )
 ;
 }
@@ -4241,7 +4246,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_FALSE
+false
 )
 ;
 for
@@ -4801,7 +4806,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_FALSE
+false
 )
 ;
 for
@@ -4991,7 +4996,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -5030,7 +5035,7 @@ mTransformOrigin
 [
 0
 ]
-PR_FALSE
+false
 &
 nsComputedDOMStyle
 :
@@ -5064,7 +5069,7 @@ mTransformOrigin
 [
 1
 ]
-PR_FALSE
+false
 &
 nsComputedDOMStyle
 :
@@ -5132,7 +5137,7 @@ mTransformOrigin
 [
 2
 ]
-PR_FALSE
+false
 nsnull
 )
 ;
@@ -5220,7 +5225,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -5259,7 +5264,7 @@ mPerspectiveOrigin
 [
 0
 ]
-PR_FALSE
+false
 &
 nsComputedDOMStyle
 :
@@ -5293,7 +5298,7 @@ mPerspectiveOrigin
 [
 1
 ]
-PR_FALSE
+false
 &
 nsComputedDOMStyle
 :
@@ -5384,7 +5389,7 @@ GetStyleDisplay
 -
 >
 mChildPerspective
-PR_FALSE
+false
 )
 ;
 }
@@ -6318,7 +6323,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_FALSE
+false
 )
 ;
 for
@@ -6494,7 +6499,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_FALSE
+false
 )
 ;
 for
@@ -7447,7 +7452,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_TRUE
+true
 )
 ;
 for
@@ -7995,7 +8000,7 @@ aString
 ;
 needSep
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -8037,7 +8042,7 @@ aString
 ;
 needSep
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -8163,7 +8168,7 @@ unit
 }
 needSep
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -8251,7 +8256,7 @@ aString
 }
 needSep
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -8368,7 +8373,7 @@ aString
 }
 needSep
 =
-PR_TRUE
+true
 ;
 }
 delete
@@ -8433,7 +8438,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -8509,7 +8514,7 @@ Get
 (
 side
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -8795,7 +8800,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_TRUE
+true
 )
 ;
 for
@@ -8962,7 +8967,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_TRUE
+true
 )
 ;
 for
@@ -8993,7 +8998,7 @@ itemList
 =
 GetROCSSValueList
 (
-PR_FALSE
+false
 )
 ;
 valueList
@@ -9281,7 +9286,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_TRUE
+true
 )
 ;
 for
@@ -9422,7 +9427,7 @@ itemList
 =
 GetROCSSValueList
 (
-PR_FALSE
+false
 )
 ;
 valueList
@@ -9965,7 +9970,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_FALSE
+false
 )
 ;
 nsROCSSPrimitiveValue
@@ -10334,7 +10339,7 @@ GetStyleBorder
 >
 mBorderRadius
 NS_CORNER_BOTTOM_LEFT
-PR_TRUE
+true
 )
 ;
 }
@@ -10357,7 +10362,7 @@ GetStyleBorder
 >
 mBorderRadius
 NS_CORNER_BOTTOM_RIGHT
-PR_TRUE
+true
 )
 ;
 }
@@ -10380,7 +10385,7 @@ GetStyleBorder
 >
 mBorderRadius
 NS_CORNER_TOP_LEFT
-PR_TRUE
+true
 )
 ;
 }
@@ -10403,7 +10408,7 @@ GetStyleBorder
 >
 mBorderRadius
 NS_CORNER_TOP_RIGHT
-PR_TRUE
+true
 )
 ;
 }
@@ -10665,7 +10670,7 @@ GetStyleContent
 -
 >
 mMarkerOffset
-PR_FALSE
+false
 )
 ;
 return
@@ -10947,7 +10952,7 @@ GetStyleOutline
 >
 mOutlineRadius
 NS_CORNER_BOTTOM_LEFT
-PR_FALSE
+false
 )
 ;
 }
@@ -10970,7 +10975,7 @@ GetStyleOutline
 >
 mOutlineRadius
 NS_CORNER_BOTTOM_RIGHT
-PR_FALSE
+false
 )
 ;
 }
@@ -10993,7 +10998,7 @@ GetStyleOutline
 >
 mOutlineRadius
 NS_CORNER_TOP_LEFT
-PR_FALSE
+false
 )
 ;
 }
@@ -11016,7 +11021,7 @@ GetStyleOutline
 >
 mOutlineRadius
 NS_CORNER_TOP_RIGHT
-PR_FALSE
+false
 )
 ;
 }
@@ -11145,7 +11150,7 @@ radii
 NS_FULL_TO_HALF_CORNER
 (
 aFullCorner
-PR_FALSE
+false
 )
 ]
 )
@@ -11159,7 +11164,7 @@ radii
 NS_FULL_TO_HALF_CORNER
 (
 aFullCorner
-PR_TRUE
+true
 )
 ]
 )
@@ -11176,7 +11181,7 @@ Get
 NS_FULL_TO_HALF_CORNER
 (
 aFullCorner
-PR_FALSE
+false
 )
 )
 ;
@@ -11189,7 +11194,7 @@ Get
 NS_FULL_TO_HALF_CORNER
 (
 aFullCorner
-PR_TRUE
+true
 )
 )
 ;
@@ -11230,7 +11235,7 @@ nsComputedDOMStyle
 :
 GetFrameBorderRectWidth
 0
-PR_TRUE
+true
 )
 ;
 radiusX
@@ -11251,7 +11256,7 @@ nsComputedDOMStyle
 :
 GetFrameBorderRectHeight
 0
-PR_TRUE
+true
 )
 ;
 radiusY
@@ -11297,7 +11302,7 @@ SetValueToCoord
 (
 val
 radiusX
-PR_TRUE
+true
 )
 ;
 return
@@ -11310,7 +11315,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_FALSE
+false
 )
 ;
 nsROCSSPrimitiveValue
@@ -11349,14 +11354,14 @@ SetValueToCoord
 (
 valX
 radiusX
-PR_TRUE
+true
 )
 ;
 SetValueToCoord
 (
 valY
 radiusY
-PR_TRUE
+true
 )
 ;
 return
@@ -11493,7 +11498,7 @@ shadowValuesWithSpread
 ;
 shadowValuesLength
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 shadowValuesWithSpread
 )
@@ -11507,7 +11512,7 @@ shadowValuesNoSpread
 ;
 shadowValuesLength
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 shadowValuesNoSpread
 )
@@ -11519,7 +11524,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_TRUE
+true
 )
 ;
 for
@@ -11562,7 +11567,7 @@ itemList
 =
 GetROCSSValueList
 (
-PR_FALSE
+false
 )
 ;
 valueList
@@ -11775,7 +11780,7 @@ GetStyleColor
 -
 >
 mColor
-PR_TRUE
+true
 )
 ;
 }
@@ -11805,7 +11810,7 @@ GetStylePosition
 -
 >
 mZIndex
-PR_FALSE
+false
 )
 ;
 return
@@ -12241,7 +12246,7 @@ GetStyleText
 -
 >
 mLineHeight
-PR_TRUE
+true
 nsnull
 nsCSSProps
 :
@@ -12280,7 +12285,7 @@ GetStyleTextReset
 -
 >
 mVerticalAlign
-PR_FALSE
+false
 &
 nsComputedDOMStyle
 :
@@ -12952,7 +12957,7 @@ GetStyleText
 -
 >
 mTextIndent
-PR_FALSE
+false
 &
 nsComputedDOMStyle
 :
@@ -12984,21 +12989,31 @@ GetStyleTextReset
 ;
 nsROCSSPrimitiveValue
 *
-left
+first
 =
 GetROCSSPrimitiveValue
 (
 )
 ;
-if
-(
+const
+nsStyleTextOverflowSide
+*
+side
+=
 style
 -
 >
 mTextOverflow
 .
-mLeft
-.
+GetFirstValue
+(
+)
+;
+if
+(
+side
+-
+>
 mType
 =
 =
@@ -13013,18 +13028,14 @@ nsStyleUtil
 :
 AppendEscapedCSSString
 (
-style
+side
 -
 >
-mTextOverflow
-.
-mLeft
-.
 mString
 str
 )
 ;
-left
+first
 -
 >
 SetString
@@ -13035,7 +13046,7 @@ str
 }
 else
 {
-left
+first
 -
 >
 SetIdent
@@ -13045,13 +13056,9 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-style
+side
 -
 >
-mTextOverflow
-.
-mLeft
-.
 mType
 nsCSSProps
 :
@@ -13061,31 +13068,30 @@ kTextOverflowKTable
 )
 ;
 }
+side
+=
+style
+-
+>
+mTextOverflow
+.
+GetSecondValue
+(
+)
+;
 if
 (
-style
--
->
-mTextOverflow
-.
-mLeft
-=
-=
-style
--
->
-mTextOverflow
-.
-mRight
+!
+side
 )
 {
 return
-left
+first
 ;
 }
 nsROCSSPrimitiveValue
 *
-right
+second
 =
 GetROCSSPrimitiveValue
 (
@@ -13093,13 +13099,9 @@ GetROCSSPrimitiveValue
 ;
 if
 (
-style
+side
 -
 >
-mTextOverflow
-.
-mRight
-.
 mType
 =
 =
@@ -13114,18 +13116,14 @@ nsStyleUtil
 :
 AppendEscapedCSSString
 (
-style
+side
 -
 >
-mTextOverflow
-.
-mRight
-.
 mString
 str
 )
 ;
-right
+second
 -
 >
 SetString
@@ -13136,7 +13134,7 @@ str
 }
 else
 {
-right
+second
 -
 >
 SetIdent
@@ -13146,13 +13144,9 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-style
+side
 -
 >
-mTextOverflow
-.
-mRight
-.
 mType
 nsCSSProps
 :
@@ -13168,7 +13162,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_FALSE
+false
 )
 ;
 valueList
@@ -13176,7 +13170,7 @@ valueList
 >
 AppendCSSValue
 (
-left
+first
 )
 ;
 valueList
@@ -13184,7 +13178,7 @@ valueList
 >
 AppendCSSValue
 (
-right
+second
 )
 ;
 return
@@ -13215,7 +13209,7 @@ GetStyleColor
 -
 >
 mColor
-PR_FALSE
+false
 )
 ;
 }
@@ -13323,7 +13317,7 @@ GetStyleText
 -
 >
 mLetterSpacing
-PR_FALSE
+false
 )
 ;
 return
@@ -13731,7 +13725,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_TRUE
+true
 )
 ;
 const
@@ -13781,7 +13775,7 @@ itemList
 =
 GetROCSSValueList
 (
-PR_FALSE
+false
 )
 ;
 valueList
@@ -14333,7 +14327,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -14423,7 +14417,7 @@ Get
 (
 side
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -15635,7 +15629,7 @@ mInnerFrame
 {
 calcHeight
 =
-PR_TRUE
+true
 ;
 const
 nsStyleDisplay
@@ -15674,7 +15668,7 @@ eReplaced
 {
 calcHeight
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -15729,7 +15723,7 @@ nsComputedDOMStyle
 :
 GetCBContentHeight
 0
-PR_TRUE
+true
 )
 ;
 nscoord
@@ -15747,7 +15741,7 @@ nsComputedDOMStyle
 :
 GetCBContentHeight
 nscoord_MAX
-PR_TRUE
+true
 )
 ;
 SetValueToCoord
@@ -15757,7 +15751,7 @@ positionData
 -
 >
 mHeight
-PR_TRUE
+true
 nsnull
 nsnull
 minHeight
@@ -15798,7 +15792,7 @@ mInnerFrame
 {
 calcWidth
 =
-PR_TRUE
+true
 ;
 const
 nsStyleDisplay
@@ -15837,7 +15831,7 @@ eReplaced
 {
 calcWidth
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -15892,7 +15886,7 @@ nsComputedDOMStyle
 :
 GetCBContentWidth
 0
-PR_TRUE
+true
 )
 ;
 nscoord
@@ -15910,7 +15904,7 @@ nsComputedDOMStyle
 :
 GetCBContentWidth
 nscoord_MAX
-PR_TRUE
+true
 )
 ;
 SetValueToCoord
@@ -15920,7 +15914,7 @@ positionData
 -
 >
 mWidth
-PR_TRUE
+true
 nsnull
 nsCSSProps
 :
@@ -15961,7 +15955,7 @@ GetStylePosition
 -
 >
 mMaxHeight
-PR_TRUE
+true
 &
 nsComputedDOMStyle
 :
@@ -15999,7 +15993,7 @@ GetStylePosition
 -
 >
 mMaxWidth
-PR_TRUE
+true
 &
 nsComputedDOMStyle
 :
@@ -16041,7 +16035,7 @@ GetStylePosition
 -
 >
 mMinHeight
-PR_TRUE
+true
 &
 nsComputedDOMStyle
 :
@@ -16079,7 +16073,7 @@ GetStylePosition
 -
 >
 mMinWidth
-PR_TRUE
+true
 &
 nsComputedDOMStyle
 :
@@ -16198,7 +16192,7 @@ new
 nsDOMCSSValueList
 (
 aCommaDelimited
-PR_TRUE
+true
 )
 ;
 NS_ASSERTION
@@ -16958,7 +16952,7 @@ StyleCoordToNSCoord
 coord
 baseGetter
 0
-PR_FALSE
+false
 )
 )
 ;
@@ -17005,7 +16999,7 @@ Get
 (
 aSide
 )
-PR_FALSE
+false
 )
 ;
 return
@@ -17057,7 +17051,7 @@ Get
 (
 aSide
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -17133,7 +17127,7 @@ if
 mInnerFrame
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -17273,7 +17267,7 @@ TextZoom
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsIDOMCSSValue
@@ -17333,7 +17327,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_FALSE
+false
 )
 ;
 do
@@ -17593,7 +17587,7 @@ Get
 (
 aSide
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -18372,7 +18366,7 @@ mOuterFrame
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIFrame
@@ -18391,7 +18385,7 @@ container
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 AssertFlushedPendingReflows
@@ -18410,7 +18404,7 @@ GetContentRect
 width
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -18431,7 +18425,7 @@ mOuterFrame
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIFrame
@@ -18450,7 +18444,7 @@ container
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 AssertFlushedPendingReflows
@@ -18469,7 +18463,7 @@ GetContentRect
 height
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -18490,7 +18484,7 @@ mInnerFrame
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 AssertFlushedPendingReflows
@@ -18509,7 +18503,7 @@ GetSize
 width
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -18530,7 +18524,7 @@ mInnerFrame
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 AssertFlushedPendingReflows
@@ -18549,7 +18543,7 @@ GetSize
 height
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -18580,7 +18574,7 @@ mInnerFrame
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 AssertFlushedPendingReflows
@@ -18614,7 +18608,7 @@ HasTransform
 )
 )
 return
-PR_FALSE
+false
 ;
 aWidth
 =
@@ -18629,7 +18623,7 @@ mInnerFrame
 width
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -18660,7 +18654,7 @@ mInnerFrame
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 AssertFlushedPendingReflows
@@ -18694,7 +18688,7 @@ HasTransform
 )
 )
 return
-PR_FALSE
+false
 ;
 aHeight
 =
@@ -18709,7 +18703,7 @@ mInnerFrame
 height
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsIDOMCSSValue
@@ -18822,7 +18816,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_FALSE
+false
 )
 ;
 valueList
@@ -18892,7 +18886,7 @@ DoGetFill
 return
 GetSVGPaintFor
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -18908,7 +18902,7 @@ DoGetStroke
 return
 GetSVGPaintFor
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -19143,7 +19137,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_TRUE
+true
 )
 ;
 for
@@ -19191,7 +19185,7 @@ mStrokeDasharray
 [
 i
 ]
-PR_TRUE
+true
 )
 ;
 }
@@ -19225,7 +19219,7 @@ GetStyleSVG
 -
 >
 mStrokeDashoffset
-PR_FALSE
+false
 )
 ;
 return
@@ -19258,7 +19252,7 @@ GetStyleSVG
 -
 >
 mStrokeWidth
-PR_TRUE
+true
 )
 ;
 return
@@ -20210,7 +20204,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_TRUE
+true
 )
 ;
 NS_ABORT_IF_FALSE
@@ -20329,7 +20323,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_TRUE
+true
 )
 ;
 NS_ABORT_IF_FALSE
@@ -20448,7 +20442,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_TRUE
+true
 )
 ;
 NS_ABORT_IF_FALSE
@@ -20877,7 +20871,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_TRUE
+true
 )
 ;
 NS_ABORT_IF_FALSE
@@ -20961,7 +20955,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_TRUE
+true
 )
 ;
 NS_ABORT_IF_FALSE
@@ -21122,7 +21116,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_TRUE
+true
 )
 ;
 NS_ABORT_IF_FALSE
@@ -21241,7 +21235,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_TRUE
+true
 )
 ;
 NS_ABORT_IF_FALSE
@@ -21360,7 +21354,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_TRUE
+true
 )
 ;
 NS_ABORT_IF_FALSE
@@ -21444,7 +21438,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_TRUE
+true
 )
 ;
 NS_ABORT_IF_FALSE
@@ -21565,7 +21559,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_TRUE
+true
 )
 ;
 NS_ABORT_IF_FALSE
@@ -21686,7 +21680,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_TRUE
+true
 )
 ;
 NS_ABORT_IF_FALSE
@@ -21879,7 +21873,7 @@ valueList
 =
 GetROCSSValueList
 (
-PR_TRUE
+true
 )
 ;
 NS_ABORT_IF_FALSE
@@ -21997,7 +21991,7 @@ DoGet
 #
 #
 _method
-PR_FALSE
+false
 }
 #
 define
@@ -22020,7 +22014,7 @@ DoGet
 #
 #
 _method
-PR_TRUE
+true
 }
 const
 nsComputedDOMStyle
@@ -23591,7 +23585,7 @@ TextRendering
 *
 aLength
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

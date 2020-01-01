@@ -699,7 +699,7 @@ mFrame
 >
 mLoopFlag
 =
-PR_TRUE
+true
 ;
 }
 ~
@@ -712,7 +712,7 @@ mFrame
 >
 mLoopFlag
 =
-PR_FALSE
+false
 ;
 }
 private
@@ -814,11 +814,11 @@ aContext
 )
 mLoopFlag
 (
-PR_FALSE
+false
 )
 mNoHRefURI
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1092,7 +1092,7 @@ HrefProperty
 ;
 mNoHRefURI
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3229,7 +3229,7 @@ IsEmpty
 {
 mNoHRefURI
 =
-PR_TRUE
+true
 ;
 return
 nsnull

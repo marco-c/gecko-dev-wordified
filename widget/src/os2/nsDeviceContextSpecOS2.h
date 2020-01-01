@@ -741,7 +741,7 @@ job
 param
 aIsPrintPreview
 if
-PR_TRUE
+true
 creating
 Spec
 for

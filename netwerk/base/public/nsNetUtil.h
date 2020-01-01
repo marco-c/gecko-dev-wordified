@@ -2375,7 +2375,7 @@ if
 idnSrv
 )
 return
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -2397,10 +2397,10 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -5718,7 +5718,7 @@ PRInt64
 -
 1
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 inTransport
@@ -5865,7 +5865,7 @@ PRInt64
 -
 1
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 inTransport
@@ -6293,7 +6293,7 @@ rv
 NS_NewNativeLocalFile
 (
 data
-PR_FALSE
+false
 getter_AddRefs
 (
 file
@@ -8268,7 +8268,7 @@ mutableObj
 >
 SetMutable
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -9110,7 +9110,7 @@ aTargetURI
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -9124,7 +9124,7 @@ aSourceURI
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -9232,7 +9232,7 @@ sourceBaseURI
 targetBaseURI
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -9292,7 +9292,7 @@ if
 schemes
 differ
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -9333,7 +9333,7 @@ if
 aStrictFileOriginPolicy
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -9369,7 +9369,7 @@ sourceFileURL
 targetFileURL
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -9410,7 +9410,7 @@ sourceFile
 targetFile
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -9582,7 +9582,7 @@ sourceHost
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -9620,7 +9620,7 @@ sourceURL
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -9656,7 +9656,7 @@ CaseInsensitiveCompare
 endif
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -9700,7 +9700,7 @@ REDIRECT_INTERNAL
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -9743,7 +9743,7 @@ newURI
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -10072,7 +10072,7 @@ result
 *
 result
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -10583,14 +10583,14 @@ chrome
 )
 compatible
 =
-PR_FALSE
+false
 ;
 }
 else
 {
 compatible
 =
-PR_FALSE
+false
 ;
 }
 *
@@ -10946,7 +10946,7 @@ aHeader
 "
 "
 fallbackCharset
-PR_TRUE
+true
 nsnull
 dispToken
 )
@@ -11167,7 +11167,7 @@ aDisposition
 filename
 "
 fallbackCharset
-PR_TRUE
+true
 nsnull
 aFilename
 )
@@ -11208,7 +11208,7 @@ aDisposition
 name
 "
 fallbackCharset
-PR_TRUE
+true
 nsnull
 aFilename
 )

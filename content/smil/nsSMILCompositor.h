@@ -626,7 +626,7 @@ aKey
 )
 mForceCompositing
 (
-PR_FALSE
+false
 )
 {
 }
@@ -652,7 +652,7 @@ mAnimationFunctions
 )
 mForceCompositing
 (
-PR_FALSE
+false
 )
 {
 }
@@ -709,7 +709,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_FALSE
+false
 }
 ;
 /
@@ -831,7 +831,7 @@ ToggleForceCompositing
 {
 mForceCompositing
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -1121,14 +1121,14 @@ compose
 .
 Initialized
 to
-PR_FALSE
+false
 but
 /
 /
 gets
 flipped
 to
-PR_TRUE
+true
 if
 we
 detect

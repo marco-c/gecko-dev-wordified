@@ -595,7 +595,7 @@ value
 )
 ;
 return
-PR_TRUE
+true
 ;
 /
 /

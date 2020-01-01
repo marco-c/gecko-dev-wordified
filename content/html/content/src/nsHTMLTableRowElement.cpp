@@ -425,6 +425,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLTableRowElement
 .
 h
@@ -520,6 +529,10 @@ nsContentUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsHTMLTableRowElement
 :
@@ -1077,7 +1090,7 @@ i
 ;
 found
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1231,7 +1244,7 @@ i
 ;
 found
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1334,10 +1347,10 @@ nsnull
 /
 closure
 data
-PR_FALSE
+false
 nsnull
 kNameSpaceID_XHTML
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -2437,7 +2450,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

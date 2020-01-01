@@ -1008,7 +1008,7 @@ aData
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1110,7 +1110,7 @@ aPresContext
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -1257,7 +1257,7 @@ t
 know
 .
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1275,7 +1275,7 @@ IsApplicable
 const
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1317,7 +1317,7 @@ IsComplete
 const
 {
 return
-PR_TRUE
+true
 ;
 }
 /

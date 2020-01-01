@@ -627,7 +627,7 @@ a
 path
 *
 return
-PR_FALSE
+false
 to
 skip
 rendering
@@ -645,7 +645,7 @@ aContext
 *
 *
 return
-PR_FALSE
+false
 if
 there
 is
@@ -719,7 +719,7 @@ a
 path
 *
 return
-PR_FALSE
+false
 to
 skip
 rendering

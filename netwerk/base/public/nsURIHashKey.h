@@ -602,7 +602,7 @@ eq
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -666,7 +666,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 protected

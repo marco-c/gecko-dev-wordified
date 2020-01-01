@@ -813,7 +813,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 private
@@ -1269,7 +1269,7 @@ SetNamedItem
 (
 aWithNS
 =
-PR_FALSE
+false
 )
 and
 SetNamedItemNS
@@ -1279,7 +1279,7 @@ SetNamedItemNS
 aWithNS
 =
 *
-PR_TRUE
+true
 )
 implementation
 .

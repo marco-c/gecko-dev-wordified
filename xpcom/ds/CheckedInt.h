@@ -3104,7 +3104,7 @@ mValue
 *
 \
 returns
-PR_TRUE
+true
 if
 the
 checked

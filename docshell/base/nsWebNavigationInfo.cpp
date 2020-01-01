@@ -744,7 +744,7 @@ pluginHost
 {
 /
 /
-PR_FALSE
+false
 will
 ensure
 that
@@ -765,7 +765,7 @@ pluginHost
 >
 ReloadPlugins
 (
-PR_FALSE
+false
 )
 ;
 if

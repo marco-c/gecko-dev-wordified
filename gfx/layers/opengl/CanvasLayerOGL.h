@@ -514,7 +514,7 @@ mTexture
 )
 mDelayedUpdates
 (
-PR_FALSE
+false
 )
 #
 if

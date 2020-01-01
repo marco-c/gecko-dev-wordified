@@ -468,6 +468,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -2967,9 +2976,9 @@ PR_APPEND
 osflags
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3547,7 +3556,7 @@ d
 >
 firstEntry
 =
-PR_TRUE
+true
 ;
 *
 dir
@@ -3604,7 +3613,7 @@ dir
 >
 firstEntry
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -4205,7 +4214,7 @@ nsnull
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -4693,11 +4702,11 @@ nsLocalFile
 :
 mDirty
 (
-PR_TRUE
+true
 )
 mFollowSymlinks
 (
-PR_FALSE
+false
 )
 {
 }
@@ -5129,7 +5138,7 @@ other
 :
 mDirty
 (
-PR_TRUE
+true
 )
 mFollowSymlinks
 (
@@ -5525,7 +5534,7 @@ mWorkingPath
 {
 mDirty
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -5635,7 +5644,7 @@ rv
 ;
 mDirty
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -6922,7 +6931,7 @@ PromiseFlatString
 (
 node
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -6954,7 +6963,7 @@ PromiseFlatString
 (
 node
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -10947,7 +10956,7 @@ rv
 =
 Remove
 (
-PR_FALSE
+false
 /
 *
 recursive
@@ -11071,8 +11080,8 @@ CopyMove
 (
 newParentDir
 newName
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -11096,8 +11105,8 @@ CopyMove
 (
 newParentDir
 newName
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 }
@@ -11121,8 +11130,8 @@ CopyMove
 (
 newParentDir
 newName
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 }
@@ -11188,7 +11197,7 @@ nsTraceRefcntImpl
 :
 SetActivityIsLegal
 (
-PR_FALSE
+false
 )
 ;
 #
@@ -11231,7 +11240,7 @@ nsTraceRefcntImpl
 :
 SetActivityIsLegal
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -11490,7 +11499,7 @@ rv
 ;
 isDir
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -11746,7 +11755,7 @@ mFollowSymlinks
 /
 /
 If
-PR_TRUE
+true
 then
 this
 will
@@ -11987,7 +11996,7 @@ mFollowSymlinks
 /
 /
 If
-PR_TRUE
+true
 then
 this
 will
@@ -12422,7 +12431,7 @@ mFollowSymlinks
 /
 /
 If
-PR_TRUE
+true
 then
 this
 will
@@ -12716,7 +12725,7 @@ mFollowSymlinks
 /
 /
 If
-PR_TRUE
+true
 then
 this
 will
@@ -13721,7 +13730,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 MakeDirty
 (
@@ -13829,7 +13838,7 @@ NS_ERROR_FILE_ACCESS_DENIED
 *
 aIsWritable
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -13920,7 +13929,7 @@ NS_ERROR_FILE_ACCESS_DENIED
 *
 aIsWritable
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -14127,7 +14136,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -14149,7 +14158,7 @@ rv
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -14186,7 +14195,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -14853,7 +14862,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 executableExts
 )
@@ -14890,7 +14899,7 @@ quit
 *
 _retval
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -15169,7 +15178,7 @@ mWorkingPath
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -15302,7 +15311,7 @@ lf
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -15379,7 +15388,7 @@ CHECK_mWorkingPath
 *
 _retval
 =
-PR_FALSE
+false
 ;
 nsAutoString
 myFilePath
@@ -15498,7 +15507,7 @@ myFilePathLen
 *
 _retval
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -17999,7 +18008,7 @@ get
 (
 )
 shortPath
-NS_ARRAY_LENGTH
+ArrayLength
 (
 shortPath
 )
@@ -18057,7 +18066,7 @@ lengthNeeded
 &
 lengthNeeded
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 shortPath
 )
@@ -18116,7 +18125,7 @@ otherfile
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -18761,7 +18770,7 @@ rv
 NS_NewLocalFile
 (
 drive
-PR_FALSE
+false
 &
 file
 )

@@ -725,7 +725,7 @@ textAcc
 >
 GetTextAttributes
 (
-PR_TRUE
+true
 aOffset
 &
 startOffset
@@ -2709,7 +2709,7 @@ __try
 return
 GetModifiedText
 (
-PR_TRUE
+true
 aNewText
 )
 ;
@@ -2753,7 +2753,7 @@ __try
 return
 GetModifiedText
 (
-PR_FALSE
+false
 aOldText
 )
 ;

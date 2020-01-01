@@ -2310,7 +2310,7 @@ bAsciiURI
 )
 bUseNonDefaultCharsetForURI
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -2980,7 +2980,7 @@ GetRootBranch
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3005,7 +3005,7 @@ true
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3048,7 +3048,7 @@ isHttp
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3088,7 +3088,7 @@ IsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCAutoString
@@ -3405,7 +3405,7 @@ else
 Do
 nothing
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -3416,7 +3416,7 @@ else
 Do
 nothing
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3429,7 +3429,7 @@ IsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3452,7 +3452,7 @@ newHost
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -3617,7 +3617,7 @@ iter
 {
 likelyFTP
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3835,7 +3835,7 @@ Last
 {
 attemptFixup
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -3871,7 +3871,7 @@ First
 {
 attemptFixup
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -4333,7 +4333,7 @@ NS_LossyConvertUTF16toASCII
 (
 in
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 filePath
@@ -4353,7 +4353,7 @@ rv
 NS_NewLocalFile
 (
 in
-PR_FALSE
+false
 getter_AddRefs
 (
 filePath
@@ -4771,7 +4771,7 @@ iterEnd
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -4821,7 +4821,7 @@ a
 hostname
 !
 return
-PR_FALSE
+false
 ;
 }
 +
@@ -4848,7 +4848,7 @@ is
 no
 colon
 return
-PR_FALSE
+false
 ;
 }
 +
@@ -4945,7 +4945,7 @@ a
 port
 !
 return
-PR_FALSE
+false
 ;
 }
 +
@@ -4980,7 +4980,7 @@ would
 have
 .
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -4996,7 +4996,7 @@ host
 port
 url
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -5125,7 +5125,7 @@ iter
 0x00FF
 )
 return
-PR_TRUE
+true
 ;
 +
 +
@@ -5133,7 +5133,7 @@ iter
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 const

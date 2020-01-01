@@ -594,7 +594,7 @@ const
 return
 Clone
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -747,7 +747,7 @@ const
 return
 Clone
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1155,7 +1155,7 @@ const
 return
 Clone
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1295,8 +1295,8 @@ const
 return
 Clone
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 }
@@ -2084,7 +2084,7 @@ const
 return
 Clone
 (
-PR_TRUE
+true
 )
 ;
 }

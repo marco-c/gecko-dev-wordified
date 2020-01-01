@@ -542,7 +542,7 @@ nsScriptableUnicodeConverter
 :
 mIsInternal
 (
-PR_FALSE
+false
 )
 {
 PR_ATOMIC_INCREMENT

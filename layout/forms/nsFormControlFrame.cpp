@@ -533,7 +533,7 @@ nsIFrame
 (
 this
 )
-PR_FALSE
+false
 )
 ;
 nsLeafFrame
@@ -832,7 +832,7 @@ nsIFrame
 (
 this
 )
-PR_TRUE
+true
 )
 ;
 }

@@ -665,7 +665,7 @@ LL_MAXUINT
 )
 mIsByteRangeRequest
 (
-PR_FALSE
+false
 )
 mByteRangeStart
 (
@@ -681,7 +681,7 @@ aPartID
 )
 mIsLastPart
 (
-PR_FALSE
+false
 )
 {
 mMultipartChannel
@@ -745,7 +745,7 @@ aEnd
 {
 mIsByteRangeRequest
 =
-PR_TRUE
+true
 ;
 mByteRangeStart
 =
@@ -2393,7 +2393,7 @@ server
 .
 mFirstOnData
 =
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -2478,7 +2478,7 @@ called
 .
 mFirstOnData
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2651,7 +2651,7 @@ done
 {
 mProcessingHeaders
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -2860,7 +2860,7 @@ parse
 headers
 mNewPart
 =
-PR_FALSE
+false
 ;
 cursor
 =
@@ -2939,7 +2939,7 @@ later
 .
 mProcessingHeaders
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2949,7 +2949,7 @@ else
 {
 mNewPart
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -2985,7 +2985,7 @@ Truncate
 ;
 mIsByteRangeRequest
 =
-PR_FALSE
+false
 ;
 mByteRangeStart
 =
@@ -3371,7 +3371,7 @@ ctxt
 ;
 mFirstOnData
 =
-PR_TRUE
+true
 ;
 mTotalSent
 =
@@ -3925,7 +3925,7 @@ mTokenLen
 ;
 mNewPart
 =
-PR_TRUE
+true
 ;
 mContentLength
 =
@@ -3941,7 +3941,7 @@ mBufLen
 ;
 mProcessingHeaders
 =
-PR_FALSE
+false
 ;
 mByteRangeStart
 =
@@ -3957,7 +3957,7 @@ mTotalSent
 ;
 mIsByteRangeRequest
 =
-PR_FALSE
+false
 ;
 }
 nsMultiMixedConv
@@ -5087,7 +5087,7 @@ lineFeedIncrement
 ;
 done
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -5488,7 +5488,7 @@ tmpPtr
 }
 mIsByteRangeRequest
 =
-PR_TRUE
+true
 ;
 if
 (

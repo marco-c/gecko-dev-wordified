@@ -1418,7 +1418,7 @@ str
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 return

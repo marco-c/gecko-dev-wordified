@@ -1502,7 +1502,7 @@ sample
 .
 aPreventCachingOfSandwich
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -1571,7 +1571,7 @@ SVG_LENGTHTYPE_EXS
 {
 aPreventCachingOfSandwich
 =
-PR_TRUE
+true
 ;
 break
 ;

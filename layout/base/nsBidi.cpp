@@ -1422,11 +1422,11 @@ Init
 ;
 mMayAllocateText
 =
-PR_TRUE
+true
 ;
 mMayAllocateRuns
 =
-PR_TRUE
+true
 ;
 }
 nsBidi
@@ -1460,7 +1460,7 @@ pointers
 NULL
 all
 flags
-PR_FALSE
+false
 all
 sizes
 0
@@ -1529,11 +1529,11 @@ NULL
 ;
 mMayAllocateText
 =
-PR_FALSE
+false
 ;
 mMayAllocateRuns
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -1555,7 +1555,7 @@ or
 aMayAllocate
 =
 =
-PR_TRUE
+true
 for
 each
 array
@@ -1693,7 +1693,7 @@ aMayAllocate
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -1721,7 +1721,7 @@ aSize
 aSizeNeeded
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -1732,7 +1732,7 @@ aSize
 0
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1779,7 +1779,7 @@ allocate
 *
 /
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -1836,7 +1836,7 @@ aSize
 aSizeNeeded
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -1850,7 +1850,7 @@ grow
 *
 /
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1871,7 +1871,7 @@ allocate
 *
 /
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -10403,7 +10403,7 @@ GetRuns
 (
 )
 returns
-PR_TRUE
+true
 runCount
 is
 guaranteed
@@ -10909,7 +10909,7 @@ mRunsMemory
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -11364,7 +11364,7 @@ limit
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -12873,7 +12873,7 @@ aLength
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -12925,7 +12925,7 @@ NSBIDI_MAX_EXPLICIT_LEVEL
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -12996,7 +12996,7 @@ start
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 #

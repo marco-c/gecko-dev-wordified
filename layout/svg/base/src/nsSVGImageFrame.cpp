@@ -1675,7 +1675,7 @@ nativeHeight
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 imageTransform
@@ -1697,7 +1697,7 @@ IsSingular
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1770,7 +1770,7 @@ pageZoomFactor
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2420,7 +2420,7 @@ svg
 {
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 missing
 or
@@ -2437,7 +2437,7 @@ node
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /

@@ -474,7 +474,7 @@ aString
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }

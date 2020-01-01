@@ -1329,7 +1329,7 @@ IsCallerTrustedForWrite
 )
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -1371,11 +1371,11 @@ here
 for
 developers
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -1442,7 +1442,7 @@ aFocused
 *
 aFocused
 =
-PR_FALSE
+false
 ;
 nsTreeBodyFrame
 *
@@ -2592,7 +2592,7 @@ aIsCropped
 *
 aIsCropped
 =
-PR_FALSE
+false
 ;
 nsTreeBodyFrame
 *

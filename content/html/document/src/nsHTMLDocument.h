@@ -1042,7 +1042,7 @@ DisableCookieAccess
 {
 mDisableCookieAccess
 =
-PR_TRUE
+true
 ;
 }
 class

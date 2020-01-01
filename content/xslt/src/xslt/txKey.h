@@ -664,7 +664,7 @@ aKey
 )
 mIndexed
 (
-PR_FALSE
+false
 )
 {
 }
@@ -778,12 +778,12 @@ use
 expression
 *
 return
-PR_FALSE
+false
 if
 an
 error
 occurred
-PR_TRUE
+true
 otherwise
 *
 /

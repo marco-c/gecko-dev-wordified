@@ -2654,7 +2654,7 @@ TextEvent
 nsCompositionEvent
 start
 (
-PR_TRUE
+true
 NS_COMPOSITION_START
 mReceiver
 )
@@ -2671,7 +2671,7 @@ start
 nsTextEvent
 text
 (
-PR_TRUE
+true
 NS_TEXT_TEXT
 mReceiver
 )
@@ -2710,7 +2710,7 @@ text
 nsCompositionEvent
 end
 (
-PR_TRUE
+true
 NS_COMPOSITION_END
 mReceiver
 )

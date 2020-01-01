@@ -633,7 +633,7 @@ PR_FREEIF
 Both
 functions
 return
-PR_FALSE
+false
 in
 case
 of

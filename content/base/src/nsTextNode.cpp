@@ -700,7 +700,7 @@ UpdateText
 {
 UpdateText
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1769,7 +1769,7 @@ point
 .
 UpdateText
 (
-PR_FALSE
+false
 )
 ;
 return

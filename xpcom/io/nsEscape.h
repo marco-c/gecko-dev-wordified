@@ -1448,7 +1448,7 @@ if
 esc
 )
 return
-PR_FALSE
+false
 ;
 aEscaped
 .
@@ -1458,7 +1458,7 @@ esc
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /

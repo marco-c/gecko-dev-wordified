@@ -764,7 +764,7 @@ IsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIDocument
@@ -878,7 +878,7 @@ content
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 mPosition
@@ -907,7 +907,7 @@ Clear
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -929,7 +929,7 @@ isContent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -971,7 +971,7 @@ isAttribute
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -1036,7 +1036,7 @@ total
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -1103,12 +1103,12 @@ mIndex
 index
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1135,7 +1135,7 @@ isContent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -1192,12 +1192,12 @@ mIndex
 i
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1218,7 +1218,7 @@ isAttribute
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 NS_ASSERTION
@@ -1304,7 +1304,7 @@ child
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 mPosition
@@ -1351,7 +1351,7 @@ mCurrentIndex
 0
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1372,7 +1372,7 @@ isAttribute
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 NS_ASSERTION
@@ -1457,7 +1457,7 @@ total
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 mPosition
@@ -1504,7 +1504,7 @@ total
 1
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1526,7 +1526,7 @@ isContent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -1555,7 +1555,7 @@ isContent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -1584,7 +1584,7 @@ isDocument
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1606,7 +1606,7 @@ txXPathNode
 eContent
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsINode
@@ -1629,7 +1629,7 @@ parent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -1702,7 +1702,7 @@ mNode
 parent
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1753,7 +1753,7 @@ parent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1827,7 +1827,7 @@ newChild
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 mPosition
@@ -1841,7 +1841,7 @@ mCurrentIndex
 newIndex
 ;
 return
-PR_TRUE
+true
 ;
 }
 txXPathNode
@@ -1968,7 +1968,7 @@ isAttribute
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -2924,7 +2924,7 @@ AppendNodeTextContent
 aNode
 .
 mNode
-PR_TRUE
+true
 aResult
 )
 ;

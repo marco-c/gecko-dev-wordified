@@ -970,7 +970,7 @@ CertsToUse
 ;
 selectionFound
 =
-PR_TRUE
+true
 ;
 }
 }

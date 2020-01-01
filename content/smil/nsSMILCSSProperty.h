@@ -651,7 +651,7 @@ Utility
 method
 -
 returns
-PR_TRUE
+true
 if
 the
 given
@@ -677,7 +677,7 @@ support
 .
 *
 return
-PR_TRUE
+true
 if
 the
 given
@@ -689,7 +689,7 @@ SMIL
 animation
 or
 *
-PR_FALSE
+false
 otherwise
 *
 /

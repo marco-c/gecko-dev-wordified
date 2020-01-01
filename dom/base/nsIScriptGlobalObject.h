@@ -895,7 +895,7 @@ HandleScriptError
 /
 /
 Returns
-PR_TRUE
+true
 if
 HandleDOMEvent
 was

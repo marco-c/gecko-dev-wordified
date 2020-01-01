@@ -763,7 +763,7 @@ buffer
 *
 err
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -776,7 +776,7 @@ end
 *
 err
 =
-PR_TRUE
+true
 ;
 return
 0
@@ -864,7 +864,7 @@ strings
 *
 err
 =
-PR_TRUE
+true
 ;
 return
 0
@@ -888,7 +888,7 @@ end
 *
 err
 =
-PR_TRUE
+true
 ;
 return
 0
@@ -915,7 +915,7 @@ ucs4
 *
 err
 =
-PR_TRUE
+true
 ;
 return
 0
@@ -1182,11 +1182,11 @@ minUcs4
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1236,11 +1236,11 @@ c
 shift
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1372,7 +1372,7 @@ err
 *
 err
 =
-PR_TRUE
+true
 ;
 return
 0
@@ -1418,7 +1418,7 @@ err
 *
 err
 =
-PR_FALSE
+false
 ;
 *
 buffer
@@ -1504,7 +1504,7 @@ err
 *
 err
 =
-PR_TRUE
+true
 ;
 *
 buffer
@@ -1586,7 +1586,7 @@ err
 *
 err
 =
-PR_FALSE
+false
 ;
 *
 buffer
@@ -1747,7 +1747,7 @@ err
 *
 err
 =
-PR_TRUE
+true
 ;
 *
 buffer
@@ -1832,7 +1832,7 @@ err
 *
 err
 =
-PR_TRUE
+true
 ;
 *
 buffer
@@ -1850,7 +1850,7 @@ err
 *
 err
 =
-PR_TRUE
+true
 ;
 return
 0
@@ -1917,7 +1917,7 @@ aBuffer
 )
 mErrorEncountered
 (
-PR_FALSE
+false
 )
 {
 }
@@ -2041,7 +2041,7 @@ err
 {
 mErrorEncountered
 =
-PR_TRUE
+true
 ;
 mBuffer
 =
@@ -2188,7 +2188,7 @@ mLength
 )
 mErrorEncountered
 (
-PR_FALSE
+false
 )
 {
 }
@@ -2881,7 +2881,7 @@ it
 .
 mErrorEncountered
 =
-PR_TRUE
+true
 ;
 }
 }

@@ -485,7 +485,7 @@ mRefCnt
 )
 mGenericState
 (
-PR_FALSE
+false
 )
 mUseCount
 (
@@ -565,7 +565,7 @@ mRefCnt
 )
 mGenericState
 (
-PR_FALSE
+false
 )
 mUseCount
 (
@@ -774,7 +774,7 @@ based
 token
 mGenericState
 =
-PR_FALSE
+false
 ;
 mUseCount
 =

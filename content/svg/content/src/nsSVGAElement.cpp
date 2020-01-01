@@ -436,6 +436,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSVGAElement
 .
 h
@@ -496,6 +505,10 @@ nsContentUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsSVGElement
 :
 :
@@ -516,7 +529,7 @@ nsGkAtoms
 :
 href
 kNameSpaceID_XLink
-PR_TRUE
+true
 }
 {
 &
@@ -525,7 +538,7 @@ nsGkAtoms
 :
 target
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -1397,7 +1410,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -1469,7 +1482,7 @@ eTabFocus_linksMask
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -1485,7 +1498,7 @@ aTabIndex
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1618,7 +1631,7 @@ Either
 way
 we
 return
-PR_FALSE
+false
 .
 static
 nsIContent
@@ -1849,7 +1862,7 @@ aURI
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -2350,7 +2363,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )

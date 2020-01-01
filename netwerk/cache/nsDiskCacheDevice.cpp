@@ -719,7 +719,7 @@ binding
 :
 mCanceled
 (
-PR_FALSE
+false
 )
 mEntry
 (
@@ -794,7 +794,7 @@ CancelEvent
 {
 mCanceled
 =
-PR_TRUE
+true
 ;
 }
 private
@@ -1324,7 +1324,7 @@ binding
 >
 mDoomed
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -3336,7 +3336,7 @@ limit
 "
 mInitialized
 (
-PR_FALSE
+false
 )
 {
 }
@@ -3449,7 +3449,7 @@ mCacheMap
 .
 Close
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -3458,7 +3458,7 @@ rv
 }
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3499,7 +3499,7 @@ rv
 =
 Shutdown_Private
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -3571,8 +3571,8 @@ exists
 DeleteDir
 (
 trashDir
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 }
@@ -3716,7 +3716,7 @@ Reset
 ;
 mInitialized
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -3838,7 +3838,7 @@ get
 *
 collision
 =
-PR_FALSE
+false
 ;
 binding
 =
@@ -3876,7 +3876,7 @@ key
 *
 collision
 =
-PR_TRUE
+true
 ;
 return
 nsnull
@@ -4073,7 +4073,7 @@ Key
 *
 collision
 =
-PR_TRUE
+true
 ;
 return
 nsnull
@@ -4408,7 +4408,7 @@ binding
 >
 mDoomed
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -5420,7 +5420,7 @@ binding
 >
 mDoomed
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -5965,7 +5965,7 @@ nsDiskCache
 :
 :
 kData
-PR_FALSE
+false
 getter_AddRefs
 (
 file
@@ -7125,8 +7125,8 @@ rv
 DeleteDir
 (
 mCacheDirectory
-PR_TRUE
-PR_FALSE
+true
+false
 60000
 )
 ;
@@ -7142,11 +7142,11 @@ rv
 ;
 exists
 =
-PR_FALSE
+false
 ;
 trashing
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -7338,8 +7338,8 @@ leftover
 DeleteDir
 (
 trashDir
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -7373,7 +7373,7 @@ rv
 =
 Shutdown_Private
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -7428,8 +7428,8 @@ rv
 DeleteDir
 (
 mCacheDirectory
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 if
@@ -7570,7 +7570,7 @@ Initialized
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Cannot
 switch

@@ -785,7 +785,7 @@ nsDOMEvent
 Serialize
 (
 aMsg
-PR_FALSE
+false
 )
 ;
 float
@@ -889,7 +889,7 @@ Deserialize
 aMsg
 aIter
 )
-PR_FALSE
+false
 )
 ;
 float
@@ -910,7 +910,7 @@ aIter
 &
 x
 )
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -925,7 +925,7 @@ aIter
 &
 y
 )
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -940,7 +940,7 @@ aIter
 &
 width
 )
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -955,7 +955,7 @@ aIter
 &
 height
 )
-PR_FALSE
+false
 )
 ;
 mClientArea
@@ -969,7 +969,7 @@ height
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult

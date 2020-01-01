@@ -779,7 +779,7 @@ true
 *
 We
 return
-PR_TRUE
+true
 if
 we
 changed

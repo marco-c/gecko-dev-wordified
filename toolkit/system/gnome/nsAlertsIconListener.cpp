@@ -633,7 +633,7 @@ nsAlertsIconListener
 :
 mLoadedFrame
 (
-PR_FALSE
+false
 )
 mNotification
 (
@@ -1045,7 +1045,7 @@ imagePixbuf
 ;
 mLoadedFrame
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1840,7 +1840,7 @@ actions
 {
 gHasActions
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1917,7 +1917,7 @@ quit
 -
 application
 "
-PR_TRUE
+true
 )
 ;
 /

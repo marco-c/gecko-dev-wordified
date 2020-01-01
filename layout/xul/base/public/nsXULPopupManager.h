@@ -1332,11 +1332,11 @@ aIsContext
 )
 mOnMenuBar
 (
-PR_FALSE
+false
 )
 mIgnoreKeys
 (
-PR_FALSE
+false
 )
 mParent
 (
@@ -3534,7 +3534,7 @@ return
 GetLastTriggerNode
 (
 aDocument
-PR_FALSE
+false
 )
 ;
 }
@@ -3553,7 +3553,7 @@ return
 GetLastTriggerNode
 (
 aDocument
-PR_TRUE
+true
 )
 ;
 }

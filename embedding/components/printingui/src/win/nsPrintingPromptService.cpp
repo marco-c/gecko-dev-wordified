@@ -1831,7 +1831,7 @@ notifyOnOpen
 *
 notifyOnOpen
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2696,7 +2696,7 @@ mPrintProgress
 >
 CloseProgressDialog
 (
-PR_TRUE
+true
 )
 ;
 }

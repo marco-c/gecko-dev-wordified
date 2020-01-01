@@ -616,7 +616,7 @@ elm
 =
 GetListenerManager
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -686,7 +686,7 @@ set
 "
 aWantsUntrusted
 to
-PR_FALSE
+false
 or
 make
 the
@@ -765,7 +765,7 @@ elm
 =
 GetListenerManager
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_STATE
@@ -867,7 +867,7 @@ RemoveEventListener
 (
 aType
 aCurrent
-PR_FALSE
+false
 )
 ;
 aCurrent
@@ -901,7 +901,7 @@ AddEventListener
 (
 aType
 aCurrent
-PR_FALSE
+false
 )
 ;
 }
@@ -978,7 +978,7 @@ aVisitor
 .
 mCanHandle
 =
-PR_TRUE
+true
 ;
 aVisitor
 .

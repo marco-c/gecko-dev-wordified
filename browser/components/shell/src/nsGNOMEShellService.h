@@ -452,11 +452,11 @@ nsGNOMEShellService
 :
 mCheckedThisSession
 (
-PR_FALSE
+false
 )
 mAppIsInPath
 (
-PR_FALSE
+false
 )
 {
 }

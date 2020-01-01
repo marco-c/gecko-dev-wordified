@@ -1074,7 +1074,7 @@ wrong
 *
 identityInvalid
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

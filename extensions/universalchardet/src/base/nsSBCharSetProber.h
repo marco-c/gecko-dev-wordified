@@ -594,7 +594,7 @@ model
 )
 mReversed
 (
-PR_FALSE
+false
 )
 mNameProber
 (
@@ -708,7 +708,7 @@ contain
 this
 parameter
 as
-PR_FALSE
+false
 .
 No
 one

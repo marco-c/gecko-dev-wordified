@@ -923,7 +923,7 @@ eStyleUnit_Coord
 {
 hasSpecifiedWidth
 =
-PR_TRUE
+true
 ;
 nscoord
 w
@@ -1682,7 +1682,7 @@ GetWidthInfo
 (
 aRenderingContext
 aCellFrame
-PR_TRUE
+true
 )
 ;
 }
@@ -1704,7 +1704,7 @@ GetWidthInfo
 (
 aRenderingContext
 aFrame
-PR_FALSE
+false
 )
 ;
 }
@@ -2279,9 +2279,9 @@ mTableFrame
 >
 Dump
 (
-PR_FALSE
-PR_TRUE
-PR_FALSE
+false
+true
+false
 )
 ;
 #
@@ -3010,9 +3010,9 @@ mTableFrame
 >
 Dump
 (
-PR_FALSE
-PR_TRUE
-PR_FALSE
+false
+true
+false
 )
 ;
 #
@@ -3751,7 +3751,7 @@ width
 0
 colCount
 BTLS_FINAL_WIDTH
-PR_FALSE
+false
 )
 ;
 #
@@ -3772,9 +3772,9 @@ mTableFrame
 >
 Dump
 (
-PR_FALSE
-PR_TRUE
-PR_FALSE
+false
+true
+false
 )
 ;
 #

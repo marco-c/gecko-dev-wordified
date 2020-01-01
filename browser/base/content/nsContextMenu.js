@@ -7127,7 +7127,7 @@ toDataURL
 "
 image
 /
-jpg
+jpeg
 "
 "
 "

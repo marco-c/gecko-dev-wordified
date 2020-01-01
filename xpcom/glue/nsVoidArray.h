@@ -508,7 +508,7 @@ callback
 function
 .
 Return
-PR_FALSE
+false
 to
 stop
 typedef
@@ -1368,8 +1368,8 @@ mAutoBuf
 )
 kAutoBufSize
 0
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 }

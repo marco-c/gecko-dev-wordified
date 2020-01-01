@@ -693,7 +693,7 @@ mTailByte
 =
 mLastLChar
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -766,7 +766,7 @@ mTailByte
 )
 mTailByte
 =
-PR_FALSE
+false
 ;
 else
 {
@@ -919,14 +919,14 @@ mLWordLength
 ;
 mLastLChar
 =
-PR_FALSE
+false
 ;
 }
 }
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -1345,7 +1345,7 @@ mNumOfLChar
 ;
 mTailByte
 =
-PR_FALSE
+false
 ;
 mLWordHi
 =
@@ -1400,7 +1400,7 @@ mTailByte
 )
 mTailByte
 =
-PR_FALSE
+false
 ;
 else
 {
@@ -1474,7 +1474,7 @@ mNumOfLChar
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 void

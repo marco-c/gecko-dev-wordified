@@ -557,7 +557,7 @@ nsnull
 ;
 mStop
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -864,7 +864,7 @@ DoIt
 if
 we
 return
-PR_TRUE
+true
 in
 oDontFeedMe
 "
@@ -917,7 +917,7 @@ oDontFeedMe
 =
 mStop
 =
-PR_TRUE
+true
 ;
 Report
 (
@@ -948,7 +948,7 @@ oDontFeedMe
 =
 mStop
 =
-PR_TRUE
+true
 ;
 Report
 (
@@ -962,7 +962,7 @@ oDontFeedMe
 =
 mStop
 =
-PR_FALSE
+false
 ;
 }
 return

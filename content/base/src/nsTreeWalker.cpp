@@ -1032,7 +1032,7 @@ _retval
 return
 FirstChildInternal
 (
-PR_FALSE
+false
 _retval
 )
 ;
@@ -1061,7 +1061,7 @@ _retval
 return
 FirstChildInternal
 (
-PR_TRUE
+true
 _retval
 )
 ;
@@ -1090,7 +1090,7 @@ _retval
 return
 NextSiblingInternal
 (
-PR_TRUE
+true
 _retval
 )
 ;
@@ -1119,7 +1119,7 @@ _retval
 return
 NextSiblingInternal
 (
-PR_FALSE
+false
 _retval
 )
 ;

@@ -775,7 +775,7 @@ aSpanHasSpecifiedWidth
 :
 Should
 be
-PR_TRUE
+true
 iff
 :
 /

@@ -1314,11 +1314,11 @@ NS_OK
 )
 mIsPending
 (
-PR_FALSE
+false
 )
 mDidOnStartRequest
 (
-PR_FALSE
+false
 )
 mLastProgressUpdate
 (
@@ -1472,7 +1472,7 @@ NS_OK
 ;
 mDidOnStartRequest
 =
-PR_TRUE
+true
 ;
 return
 mObserver
@@ -1532,7 +1532,7 @@ rv
 ;
 mIsPending
 =
-PR_FALSE
+false
 ;
 mObserver
 -
@@ -1813,7 +1813,7 @@ Range
 "
 )
 range
-PR_FALSE
+false
 )
 ;
 if
@@ -2679,7 +2679,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_TRUE
+true
 )
 ;
 nsresult
@@ -2738,7 +2738,7 @@ if
 null
 mIsPending
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4139,7 +4139,7 @@ NS_LITERAL_CSTRING
 "
 "
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -4306,7 +4306,7 @@ SetRequestHeader
 (
 rangeHdr
 rangeVal
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS

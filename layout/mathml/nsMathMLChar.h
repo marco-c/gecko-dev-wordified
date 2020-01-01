@@ -1025,7 +1025,7 @@ mScaleY
 ;
 mDrawNormal
 =
-PR_TRUE
+true
 ;
 }
 ~
@@ -1498,7 +1498,7 @@ in
 app
 units
 (
-PR_TRUE
+true
 )
 or
 a
@@ -1508,7 +1508,7 @@ the
 base
 size
 (
-PR_FALSE
+false
 )
 .
 nscoord

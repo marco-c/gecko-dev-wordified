@@ -792,7 +792,7 @@ EqualsLiteral
 )
 )
 return
-PR_TRUE
+true
 ;
 noProxy
 .
@@ -1038,7 +1038,7 @@ nsCaseInsensitiveCStringComparator
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 pos
@@ -1047,7 +1047,7 @@ nextPos
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -1816,7 +1816,7 @@ addr
 PR_SUCCESS
 )
 return
-PR_FALSE
+false
 ;
 PRIPv6Addr
 ipv6
@@ -1898,11 +1898,11 @@ PRIPv6Addr
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1932,7 +1932,7 @@ nsCaseInsensitiveCStringComparator
 )
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -1962,7 +1962,7 @@ nsCaseInsensitiveCStringComparator
 )
 )
 return
-PR_TRUE
+true
 ;
 PRInt32
 mask
@@ -2099,7 +2099,7 @@ hostAddr
 )
 )
 return
-PR_FALSE
+false
 ;
 proxy_MaskIPv6Addr
 (

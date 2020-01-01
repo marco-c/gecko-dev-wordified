@@ -698,7 +698,7 @@ used
 when
 this
 is
-PR_FALSE
+false
 bool
 mDirty
 ;
@@ -726,7 +726,7 @@ MakeDirty
 {
 mDirty
 =
-PR_TRUE
+true
 ;
 }
 nsresult

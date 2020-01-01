@@ -2220,7 +2220,7 @@ aRows
 Init
 (
 aBox
-PR_FALSE
+false
 )
 ;
 return

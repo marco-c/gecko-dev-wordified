@@ -716,7 +716,7 @@ aSortState
 -
 >
 sort
-PR_TRUE
+true
 )
 ;
 nsAutoString
@@ -772,7 +772,7 @@ nsGkAtoms
 :
 sortDirection
 direction
-PR_TRUE
+true
 )
 ;
 /
@@ -1041,7 +1041,7 @@ NS_LITERAL_STRING
 true
 "
 )
-PR_TRUE
+true
 )
 ;
 child
@@ -1055,7 +1055,7 @@ nsGkAtoms
 :
 sortDirection
 sortDirection
-PR_TRUE
+true
 )
 ;
 /
@@ -1104,7 +1104,7 @@ nsGkAtoms
 :
 :
 sortActive
-PR_TRUE
+true
 )
 ;
 child
@@ -1117,7 +1117,7 @@ nsGkAtoms
 :
 :
 sortDirection
-PR_TRUE
+true
 )
 ;
 }
@@ -2274,7 +2274,7 @@ parent
 RemoveChildAt
 (
 index
-PR_TRUE
+true
 )
 ;
 }
@@ -2337,7 +2337,7 @@ parent
 AppendChildTo
 (
 child
-PR_TRUE
+true
 )
 ;
 /
@@ -2641,14 +2641,14 @@ aSortState
 >
 lastWasFirst
 =
-PR_FALSE
+false
 ;
 aSortState
 -
 >
 lastWasLast
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -3041,7 +3041,7 @@ twostate
 )
 noNaturalState
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -3100,7 +3100,7 @@ aSortState
 >
 invertSort
 =
-PR_FALSE
+false
 ;
 nsAutoString
 existingsort
@@ -3181,7 +3181,7 @@ aSortState
 >
 invertSort
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3211,7 +3211,7 @@ aSortState
 >
 invertSort
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3285,7 +3285,7 @@ aSortState
 >
 initialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

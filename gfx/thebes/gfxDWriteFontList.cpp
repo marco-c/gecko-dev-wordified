@@ -425,6 +425,15 @@ BLOCK
 *
 /
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
 ifdef
 MOZ_LOGGING
 #
@@ -812,7 +821,7 @@ return
 }
 mHasStyles
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -1773,7 +1782,7 @@ IsSymbolFont
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -2220,7 +2229,7 @@ NS_OK
 ;
 mCmapInitialized
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -2714,9 +2723,9 @@ FAILED
 hr
 )
 ?
-PR_FALSE
+false
 :
-PR_TRUE
+true
 )
 ;
 }
@@ -2742,7 +2751,7 @@ mIsCJK
 }
 mIsCJK
 =
-PR_FALSE
+false
 ;
 const
 PRUint32
@@ -2952,7 +2961,7 @@ CJK_CODEPAGE_BITS
 {
 mIsCJK
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3052,7 +3061,7 @@ gfxDWriteFontList
 :
 mInitialized
 (
-PR_FALSE
+false
 )
 mForceGDIClassicMaxFontSize
 (
@@ -3908,7 +3917,7 @@ start
 ;
 mInitialized
 =
-PR_FALSE
+false
 ;
 LARGE_INTEGER
 frequency
@@ -5047,7 +5056,7 @@ SetOtherFamilyNamesInitialized
 }
 mOtherFamilyNamesInitialized
 =
-PR_TRUE
+true
 ;
 GetFontSubstitutes
 (
@@ -5340,7 +5349,7 @@ Bold
 {
 allUltraBold
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -6138,7 +6147,7 @@ aliasName
 ;
 lenAlias
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 aliasName
 )
@@ -6421,7 +6430,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sDirectWriteSubs
 )
@@ -6593,11 +6602,11 @@ aFamilyName
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 gfxFontFamily
@@ -6621,7 +6630,7 @@ mInitialized
 {
 mInitialized
 =
-PR_TRUE
+true
 ;
 DelayedInitFontList
 (
@@ -6663,7 +6672,7 @@ mInitialized
 {
 mInitialized
 =
-PR_TRUE
+true
 ;
 DelayedInitFontList
 (
@@ -6703,7 +6712,7 @@ mInitialized
 {
 mInitialized
 =
-PR_TRUE
+true
 ;
 DelayedInitFontList
 (
@@ -6749,7 +6758,7 @@ Name
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -6763,7 +6772,7 @@ keyName
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return

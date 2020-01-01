@@ -2196,7 +2196,7 @@ variant
 >
 SetWritable
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS

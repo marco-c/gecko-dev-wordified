@@ -669,7 +669,7 @@ rv
 NS_NewNativeLocalFile
 (
 path
-PR_TRUE
+true
 (
 nsILocalFile
 *
@@ -853,7 +853,7 @@ leafstr
 *
 aPersist
 =
-PR_TRUE
+true
 ;
 NS_ADDREF
 (
@@ -1800,9 +1800,9 @@ aResult
 =
 mNext
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 return
 NS_OK

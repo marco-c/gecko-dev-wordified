@@ -1661,7 +1661,7 @@ aNode
 |
 |
 aParent
-PR_FALSE
+false
 )
 ;
 if
@@ -1672,7 +1672,7 @@ aNode
 aParent
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1707,7 +1707,7 @@ parent
 NS_ENSURE_SUCCESS
 (
 res
-PR_FALSE
+false
 )
 ;
 if
@@ -1766,7 +1766,7 @@ cCon
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 node
@@ -1780,7 +1780,7 @@ parent
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -2104,7 +2104,7 @@ enumerator
 NS_ENSURE_TRUE
 (
 enumerator
-PR_TRUE
+true
 )
 ;
 bool
@@ -2211,12 +2211,12 @@ OnPasteOrDrop
 NS_ENSURE_TRUE
 (
 doInsert
-PR_FALSE
+false
 )
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }

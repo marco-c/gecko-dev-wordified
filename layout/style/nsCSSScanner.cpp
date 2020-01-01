@@ -449,6 +449,15 @@ math
 .
 h
 >
+#
+include
+"
+mozilla
+/
+Util
+.
+h
+"
 /
 *
 tokenization
@@ -1967,7 +1976,7 @@ NS_OK
 )
 mSVGMode
 (
-PR_FALSE
+false
 )
 #
 ifdef
@@ -1975,7 +1984,7 @@ CSS_REPORT_PARSE_ERRORS
 mError
 (
 mErrorBuf
-NS_ARRAY_LENGTH
+ArrayLength
 (
 mErrorBuf
 )
@@ -1987,7 +1996,7 @@ mInnerWindowID
 )
 mWindowIDCached
 (
-PR_FALSE
+false
 )
 mSheet
 (
@@ -2011,7 +2020,7 @@ mLocalPushback
 ;
 mPushbackSize
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 mLocalPushback
 )
@@ -2213,7 +2222,7 @@ gConsoleService
 gScriptErrorFactory
 )
 return
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -2228,7 +2237,7 @@ gConsoleService
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 rv
@@ -2243,7 +2252,7 @@ gScriptErrorFactory
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 NS_ASSERTION
@@ -2279,7 +2288,7 @@ nsnull
 #
 endif
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2802,7 +2811,7 @@ InnerWindowID
 }
 mWindowIDCached
 =
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -2915,7 +2924,7 @@ if
 gStringBundle
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -2939,7 +2948,7 @@ if
 sbs
 )
 return
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -2979,11 +2988,11 @@ gStringBundle
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -3197,7 +3206,7 @@ get
 (
 )
 params
-NS_ARRAY_LENGTH
+ArrayLength
 (
 params
 )
@@ -3290,7 +3299,7 @@ get
 (
 )
 params
-NS_ARRAY_LENGTH
+ArrayLength
 (
 params
 )
@@ -3371,7 +3380,7 @@ ReportUnexpectedParams
 (
 aMessage
 params
-NS_ARRAY_LENGTH
+ArrayLength
 (
 params
 )
@@ -3556,7 +3565,7 @@ mInnerWindowID
 ;
 mWindowIDCached
 =
-PR_FALSE
+false
 ;
 mSheet
 =
@@ -3587,7 +3596,7 @@ mLocalPushback
 ;
 mPushbackSize
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 mLocalPushback
 )
@@ -3618,7 +3627,7 @@ mOffset
 mCount
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -3626,7 +3635,7 @@ if
 mInputStream
 )
 return
-PR_FALSE
+false
 ;
 mOffset
 =
@@ -3664,7 +3673,7 @@ rv
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -4177,7 +4186,7 @@ ch
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -4189,7 +4198,7 @@ aChar
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 Pushback
@@ -4198,7 +4207,7 @@ ch
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -4226,7 +4235,7 @@ ch
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -4238,7 +4247,7 @@ aChar
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 Pushback
@@ -4247,7 +4256,7 @@ ch
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -4367,7 +4376,7 @@ ch
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -4709,7 +4718,7 @@ EatWhiteSpace
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -4851,7 +4860,7 @@ SkipCComment
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 continue
@@ -4932,7 +4941,7 @@ AssignLiteral
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 Pushback
@@ -5009,7 +5018,7 @@ AssignLiteral
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 Pushback
@@ -5195,7 +5204,7 @@ eCSSToken_Containsmatch
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -5227,7 +5236,7 @@ mSymbol
 ch
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -5261,7 +5270,7 @@ ch
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -5401,7 +5410,7 @@ eCSSToken_Bad_URL
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -5624,13 +5633,13 @@ if
 ParseAndAppendEscape
 (
 ident
-PR_FALSE
+false
 )
 )
 {
 ok
 =
-PR_FALSE
+false
 ;
 Pushback
 (
@@ -5744,7 +5753,7 @@ URL
 spec
 ok
 =
-PR_FALSE
+false
 ;
 Pushback
 (
@@ -5846,7 +5855,7 @@ eCSSToken_URL
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -5906,7 +5915,7 @@ ch
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -6264,7 +6273,7 @@ ch
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -6361,7 +6370,7 @@ ch
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -6404,7 +6413,7 @@ ch
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -6545,12 +6554,12 @@ if
 ParseAndAppendEscape
 (
 aIdent
-PR_FALSE
+false
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -6732,7 +6741,7 @@ if
 ParseAndAppendEscape
 (
 aIdent
-PR_FALSE
+false
 )
 )
 {
@@ -6777,7 +6786,7 @@ break
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -6835,7 +6844,7 @@ ch
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -6922,7 +6931,7 @@ mType
 type
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -6954,7 +6963,7 @@ ch
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -7008,7 +7017,7 @@ mSymbol
 aChar
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsCSSTokenType
@@ -7081,7 +7090,7 @@ we
 read
 something
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -7092,7 +7101,7 @@ mType
 tokenType
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -7153,7 +7162,7 @@ PRUnichar
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -7785,7 +7794,7 @@ nextChar
 {
 gotE
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -7928,7 +7937,7 @@ aToken
 .
 mIntegerValid
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -8079,7 +8088,7 @@ aToken
 .
 mIntegerValid
 =
-PR_TRUE
+true
 ;
 }
 nsString
@@ -8166,7 +8175,7 @@ aToken
 .
 mIntegerValid
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -8200,7 +8209,7 @@ mType
 type
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -8253,7 +8262,7 @@ LookAhead
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -8264,7 +8273,7 @@ PECommentEOF
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -8601,7 +8610,7 @@ ParseAndAppendEscape
 aToken
 .
 mIdent
-PR_TRUE
+true
 )
 )
 {
@@ -8734,7 +8743,7 @@ ch
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -9214,7 +9223,7 @@ haveQues
 {
 valid
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -9254,7 +9263,7 @@ else
 {
 haveQues
 =
-PR_TRUE
+true
 ;
 low
 =
@@ -9299,7 +9308,7 @@ haveQues
 {
 valid
 =
-PR_FALSE
+false
 ;
 }
 aResult
@@ -9405,6 +9414,6 @@ mType
 eCSSToken_URange
 ;
 return
-PR_TRUE
+true
 ;
 }

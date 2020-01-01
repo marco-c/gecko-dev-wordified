@@ -1662,11 +1662,11 @@ stack
 *
 *
 return
-PR_TRUE
+true
 if
 found
 else
-PR_FALSE
+false
 *
 /
 NS_IMETHOD_

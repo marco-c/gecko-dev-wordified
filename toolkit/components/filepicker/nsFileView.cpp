@@ -789,7 +789,7 @@ First
 NS_NewLocalFile
 (
 parent
-PR_TRUE
+true
 getter_AddRefs
 (
 directory
@@ -809,7 +809,7 @@ NS_FAILED
 NS_NewLocalFile
 (
 aSearchParam
-PR_TRUE
+true
 getter_AddRefs
 (
 directory
@@ -1623,15 +1623,15 @@ mTotalRows
 )
 mShowHiddenFiles
 (
-PR_FALSE
+false
 )
 mDirectoryFilter
 (
-PR_FALSE
+false
 )
 mReverseSort
 (
-PR_FALSE
+false
 )
 {
 }
@@ -2471,7 +2471,7 @@ end
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 /
@@ -2902,7 +2902,7 @@ fileArray
 AppendElement
 (
 curFile
-PR_FALSE
+false
 )
 ;
 }
@@ -3104,7 +3104,7 @@ aIsContainer
 *
 aIsContainer
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3126,7 +3126,7 @@ aIsOpen
 *
 aIsOpen
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3148,7 +3148,7 @@ aIsEmpty
 *
 aIsEmpty
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3170,7 +3170,7 @@ aIsSeparator
 *
 aIsSeparator
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3222,7 +3222,7 @@ aCanDrop
 *
 aCanDrop
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3443,7 +3443,7 @@ dirCount
 {
 isDirectory
 =
-PR_TRUE
+true
 ;
 curFile
 =
@@ -3464,7 +3464,7 @@ mTotalRows
 {
 isDirectory
 =
-PR_FALSE
+false
 ;
 curFile
 =
@@ -3737,7 +3737,7 @@ aIsEditable
 *
 aIsEditable
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3762,7 +3762,7 @@ aIsSelectable
 *
 aIsSelectable
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -4083,7 +4083,7 @@ ElementAt
 (
 j
 )
-PR_TRUE
+true
 )
 =
 =

@@ -849,7 +849,7 @@ This
 method
 can
 return
-PR_FALSE
+false
 to
 indicate
 that
@@ -877,7 +877,7 @@ in
 pixels
 and
 return
-PR_TRUE
+true
 .
 *
 *
@@ -983,7 +983,7 @@ This
 method
 can
 return
-PR_FALSE
+false
 to
 indicate
 that
@@ -1021,7 +1021,7 @@ frame
 origin
 and
 return
-PR_TRUE
+true
 .
 *
 *
@@ -1107,7 +1107,7 @@ aOverflowRect
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /

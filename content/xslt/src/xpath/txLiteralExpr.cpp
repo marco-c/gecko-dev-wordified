@@ -586,7 +586,7 @@ aContext
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 #

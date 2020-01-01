@@ -645,7 +645,7 @@ OnDonePrinting
 *
 *
 Returns
-PR_TRUE
+true
 is
 InitializeForPrintPreview
 (

@@ -838,7 +838,7 @@ else
 {
 done
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -875,7 +875,7 @@ text
 html
 "
 )
-PR_TRUE
+true
 )
 ;
 PR_Close

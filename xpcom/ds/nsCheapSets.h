@@ -1050,7 +1050,7 @@ aVal
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 private

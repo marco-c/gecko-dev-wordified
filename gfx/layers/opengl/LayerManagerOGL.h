@@ -2826,7 +2826,7 @@ aManager
 )
 mDestroyed
 (
-PR_FALSE
+false
 )
 {
 }

@@ -1109,7 +1109,7 @@ load
 .
 If
 *
-PR_TRUE
+true
 is
 returned
 nothing
@@ -1120,7 +1120,7 @@ be
 done
 ;
 if
-PR_FALSE
+false
 *
 is
 returned
@@ -2495,7 +2495,7 @@ DISPOSITION_ATTACHMENT
 )
 forceExternalHandling
 =
-PR_TRUE
+true
 ;
 LOG
 (
@@ -3677,7 +3677,7 @@ DoContent
 mContentType
 request
 m_originalContext
-PR_FALSE
+false
 getter_AddRefs
 (
 m_targetStreamListener
@@ -4333,7 +4333,7 @@ mContentType
 get
 (
 )
-PR_FALSE
+false
 getter_Copies
 (
 typeToUse
@@ -4362,7 +4362,7 @@ interested
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -4713,7 +4713,7 @@ m_targetStreamListener
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -4802,7 +4802,7 @@ point
 on
 .
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -5254,7 +5254,7 @@ IS_CONTENT_PREFERRED
 :
 0
 aWindowContext
-PR_FALSE
+false
 getter_AddRefs
 (
 loader
@@ -6103,7 +6103,7 @@ pending
 {
 pending
 =
-PR_FALSE
+false
 ;
 }
 return

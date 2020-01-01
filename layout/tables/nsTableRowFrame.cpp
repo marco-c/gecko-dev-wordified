@@ -892,7 +892,7 @@ height
 {
 SetHasFixedHeight
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -968,7 +968,7 @@ height
 {
 SetHasPctHeight
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2382,7 +2382,7 @@ InvalidateFrame
 cellFrame
 cellRect
 cellVisualOverflow
-PR_FALSE
+false
 )
 ;
 }
@@ -2937,12 +2937,12 @@ aFixedHeight
 {
 SetHasFixedHeight
 (
-PR_FALSE
+false
 )
 ;
 SetHasPctHeight
 (
-PR_FALSE
+false
 )
 ;
 SetFixedHeight
@@ -3014,7 +3014,7 @@ aCellFrame
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 invalid
 call
@@ -5081,7 +5081,7 @@ nsSize
 0
 0
 )
-PR_FALSE
+false
 )
 ;
 InitChildReflowState
@@ -5093,7 +5093,7 @@ nsSize
 0
 0
 )
-PR_FALSE
+false
 kidReflowState
 )
 ;
@@ -5181,7 +5181,7 @@ mSpecialHeightReflow
 )
 doReflowChild
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -5240,7 +5240,7 @@ cellFrame
 {
 doReflowChild
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -5376,7 +5376,7 @@ iter
 IsLeftToRight
 (
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -5705,7 +5705,7 @@ aPresContext
 aReflowState
 kidFrame
 kidAvailSize
-PR_FALSE
+false
 )
 ;
 InitChildReflowState
@@ -6402,7 +6402,7 @@ honor
 it
 SetHasUnpaginatedHeight
 (
-PR_TRUE
+true
 )
 ;
 SetUnpaginatedHeight
@@ -6653,7 +6653,7 @@ tableFrame
 >
 SetNeedToCollapse
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -6964,7 +6964,7 @@ aPresContext
 aReflowState
 aCellFrame
 availSize
-PR_FALSE
+false
 )
 ;
 InitChildReflowState
@@ -7222,7 +7222,7 @@ tableFrame
 >
 SetNeedToCollapse
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -7328,7 +7328,7 @@ GetFirstCell
 ;
 aDidCollapse
 =
-PR_TRUE
+true
 ;
 shift
 =
@@ -7691,7 +7691,7 @@ iter
 IsLeftToRight
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -7899,7 +7899,7 @@ colX
 ;
 isVisible
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -8248,7 +8248,7 @@ InvalidateFrame
 cellFrame
 oldCellRect
 oldCellVisualOverflow
-PR_FALSE
+false
 )
 ;
 }
@@ -8321,7 +8321,7 @@ InvalidateFrame
 this
 oldRect
 oldVisualOverflow
-PR_FALSE
+false
 )
 ;
 return

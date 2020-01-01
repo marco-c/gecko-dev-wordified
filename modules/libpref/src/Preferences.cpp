@@ -453,6 +453,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h
@@ -926,7 +935,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 nsCString
@@ -1210,7 +1219,7 @@ nsnull
 ;
 InitStaticMembers
 (
-PR_TRUE
+true
 )
 ;
 NS_IF_ADDREF
@@ -1329,7 +1338,7 @@ nsPrefBranch
 (
 "
 "
-PR_FALSE
+false
 )
 ;
 NS_ADDREF
@@ -1344,7 +1353,7 @@ nsPrefBranch
 (
 "
 "
-PR_TRUE
+true
 )
 ;
 NS_ADDREF
@@ -1394,7 +1403,7 @@ sPreferences
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 gCacheData
@@ -1429,7 +1438,7 @@ Init
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1451,7 +1460,7 @@ sShutdown
 {
 sShutdown
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1842,7 +1851,7 @@ array
 [
 index
 ]
-PR_TRUE
+true
 )
 ;
 }
@@ -2032,7 +2041,7 @@ before
 -
 change
 "
-PR_TRUE
+true
 )
 ;
 if
@@ -2057,7 +2066,7 @@ do
 -
 change
 "
-PR_TRUE
+true
 )
 ;
 observerService
@@ -2073,7 +2082,7 @@ extension
 -
 defaults
 "
-PR_TRUE
+true
 )
 ;
 return
@@ -2171,7 +2180,7 @@ mCurrentFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 mCurrentFile
@@ -2846,7 +2855,7 @@ pref_SetPrefTuple
 (
 *
 aPref
-PR_TRUE
+true
 )
 ;
 }
@@ -3031,7 +3040,7 @@ new
 nsPrefBranch
 (
 aPrefRoot
-PR_FALSE
+false
 )
 ;
 if
@@ -3140,7 +3149,7 @@ new
 nsPrefBranch
 (
 aPrefRoot
-PR_TRUE
+true
 )
 ;
 if
@@ -3614,7 +3623,7 @@ newFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4387,7 +4396,7 @@ rv
 }
 gDirty
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -4988,7 +4997,7 @@ i
 {
 shouldParse
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -6386,7 +6395,7 @@ pref_LoadPrefsInDir
 (
 defaultPrefDir
 specialFiles
-NS_ARRAY_LENGTH
+ArrayLength
 (
 specialFiles
 )
@@ -7688,7 +7697,7 @@ NS_ENSURE_TRUE
 InitStaticMembers
 (
 )
-PR_FALSE
+false
 )
 ;
 bool
@@ -7716,7 +7725,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -7757,7 +7766,7 @@ AddObserver
 (
 aPref
 aObserver
-PR_FALSE
+false
 )
 ;
 }
@@ -7795,7 +7804,7 @@ AddObserver
 (
 aPref
 aObserver
-PR_TRUE
+true
 )
 ;
 }

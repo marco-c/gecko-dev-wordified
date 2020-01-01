@@ -833,7 +833,7 @@ set
 *
 it
 to
-PR_FALSE
+false
 to
 unblock
 an
@@ -945,7 +945,7 @@ It
 is
 set
 to
-PR_TRUE
+true
 while
 a
 nested
@@ -986,7 +986,7 @@ We
 force
 mBlockNativeEvent
 to
-PR_FALSE
+false
 in
 case
 handling
@@ -1140,7 +1140,7 @@ variable
 is
 set
 to
-PR_FALSE
+false
 in
 OnProcessNextEvent
 prior
@@ -1156,7 +1156,7 @@ It
 is
 set
 to
-PR_TRUE
+true
 by
 *
 NativeEventCallback

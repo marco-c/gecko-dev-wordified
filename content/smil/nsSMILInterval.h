@@ -871,7 +871,7 @@ IsFixed
 (
 )
 returns
-PR_TRUE
+true
 )
 .
 This
@@ -918,7 +918,7 @@ mBegin
 /
 EndFixed
 is
-PR_TRUE
+true
 then
 BOTH
 the

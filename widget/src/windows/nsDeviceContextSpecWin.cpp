@@ -425,6 +425,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsDeviceContextSpecWin
 .
 h
@@ -661,6 +670,10 @@ _p1
 )
 #
 endif
+using
+namespace
+mozilla
+;
 /
 /
 -
@@ -8060,7 +8073,7 @@ L
 "
 "
 szDefaultPrinterName
-NS_ARRAY_LENGTH
+ArrayLength
 (
 szDefaultPrinterName
 )
@@ -8320,7 +8333,7 @@ device
 "
 0
 szDefaultPrinterName
-NS_ARRAY_LENGTH
+ArrayLength
 (
 szDefaultPrinterName
 )

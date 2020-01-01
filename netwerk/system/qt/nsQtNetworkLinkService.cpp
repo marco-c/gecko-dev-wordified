@@ -710,7 +710,7 @@ xpcom
 -
 shutdown
 "
-PR_FALSE
+false
 )
 ;
 if
@@ -742,7 +742,7 @@ close
 -
 granted
 "
-PR_FALSE
+false
 )
 ;
 if

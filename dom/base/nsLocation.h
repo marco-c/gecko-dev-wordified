@@ -763,7 +763,7 @@ Pass
 in
 /
 /
-PR_TRUE
+true
 for
 aGetInnermostURI
 when

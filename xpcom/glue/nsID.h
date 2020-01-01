@@ -533,7 +533,7 @@ return
 <
 b
 >
-PR_TRUE
+true
 <
 /
 b
@@ -546,7 +546,7 @@ same
 <
 b
 >
-PR_FALSE
+false
 <
 /
 b

@@ -817,7 +817,7 @@ return
 IndexOf
 (
 aContent
-PR_TRUE
+true
 )
 ;
 }
@@ -1997,7 +1997,7 @@ aDeep
 )
 mFuncMayDependOnAttr
 (
-PR_FALSE
+false
 )
 {
 NS_ASSERTION
@@ -2046,14 +2046,14 @@ asterix
 ;
 mMatchAll
 =
-PR_TRUE
+true
 ;
 }
 else
 {
 mMatchAll
 =
-PR_FALSE
+false
 ;
 }
 mRootNode
@@ -2232,7 +2232,7 @@ LIST_DIRTY
 )
 mMatchAll
 (
-PR_FALSE
+false
 )
 mDeep
 (
@@ -2831,7 +2831,7 @@ return
 IndexOf
 (
 aContent
-PR_TRUE
+true
 )
 ;
 }
@@ -2909,7 +2909,7 @@ aLength
 =
 Length
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -2984,7 +2984,7 @@ content
 NamedItem
 (
 aName
-PR_TRUE
+true
 )
 ;
 if
@@ -3024,7 +3024,7 @@ return
 Item
 (
 aIndex
-PR_TRUE
+true
 )
 ;
 }
@@ -3057,7 +3057,7 @@ item
 NamedItem
 (
 aName
-PR_TRUE
+true
 )
 ;
 return
@@ -3527,7 +3527,7 @@ ourCount
 {
 appendToList
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3581,7 +3581,7 @@ aFirstNewContent
 {
 appendToList
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4140,7 +4140,7 @@ if
 mXMLMatchAtom
 )
 return
-PR_FALSE
+false
 ;
 nsINodeInfo
 *
@@ -4376,7 +4376,7 @@ IsElement
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -4392,7 +4392,7 @@ AsElement
 )
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -4400,7 +4400,7 @@ if
 mDeep
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -4450,12 +4450,12 @@ AsElement
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -5221,7 +5221,7 @@ index
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 if

@@ -789,7 +789,7 @@ gAppShell
 >
 ProcessNextNativeEvent
 (
-PR_FALSE
+false
 )
 ;
 }

@@ -672,7 +672,7 @@ nsnull
 )
 mAutodialEnabled
 (
-PR_FALSE
+false
 )
 mLock
 (
@@ -685,11 +685,11 @@ mLock
 )
 mInitialized
 (
-PR_FALSE
+false
 )
 mShuttingDown
 (
-PR_FALSE
+false
 )
 mActiveListSize
 (
@@ -2257,7 +2257,7 @@ toAdd
 1
 )
 return
-PR_FALSE
+false
 ;
 mActiveListSize
 +
@@ -2303,7 +2303,7 @@ mActiveListSize
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -2338,7 +2338,7 @@ toAdd
 1
 )
 return
-PR_FALSE
+false
 ;
 mIdleListSize
 +
@@ -2363,7 +2363,7 @@ mIdleListSize
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 PRIntervalTime
@@ -3114,7 +3114,7 @@ AddObserver
 (
 SEND_BUFFER_PREF
 this
-PR_FALSE
+false
 )
 ;
 UpdatePrefs
@@ -3130,7 +3130,7 @@ UpdatePrefs
 ;
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3204,7 +3204,7 @@ to
 shutdown
 mShuttingDown
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3291,11 +3291,11 @@ this
 ;
 mInitialized
 =
-PR_FALSE
+false
 ;
 mShuttingDown
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3714,7 +3714,7 @@ thread
 ;
 pendingEvents
 =
-PR_FALSE
+false
 ;
 thread
 -

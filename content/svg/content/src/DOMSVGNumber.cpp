@@ -782,7 +782,7 @@ mAttrEnum
 )
 mIsAnimValItem
 (
-PR_FALSE
+false
 )
 mValue
 (
@@ -834,7 +834,7 @@ HasOwner
 )
 =
 =
-PR_FALSE
+false
 }
 #
 endif
@@ -901,7 +901,7 @@ Element
 DidChangeNumberList
 (
 mAttrEnum
-PR_TRUE
+true
 )
 ;
 #
@@ -1030,7 +1030,7 @@ nsnull
 ;
 mIsAnimValItem
 =
-PR_FALSE
+false
 ;
 }
 float

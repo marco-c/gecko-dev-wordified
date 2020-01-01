@@ -425,6 +425,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLOListElement
 .
 h
@@ -485,6 +494,10 @@ nsRuleData
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsHTMLSharedListElement
 :
@@ -1051,7 +1064,7 @@ ParseEnumValue
 (
 aValue
 kListTypeTable
-PR_FALSE
+false
 )
 |
 |
@@ -1061,7 +1074,7 @@ ParseEnumValue
 (
 aValue
 kOldListTypeTable
-PR_TRUE
+true
 )
 ;
 }
@@ -1309,7 +1322,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

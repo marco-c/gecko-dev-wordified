@@ -1135,7 +1135,7 @@ if
 prefs
 )
 return
-PR_FALSE
+false
 ;
 bool
 val
@@ -6328,7 +6328,7 @@ ctxt
 PK11_DestroyContext
 (
 ctxt
-PR_TRUE
+true
 )
 ;
 if
@@ -6347,7 +6347,7 @@ param
 SECITEM_FreeItem
 (
 param
-PR_TRUE
+true
 )
 ;
 if
@@ -6516,7 +6516,7 @@ resultLen
 PK11_DestroyContext
 (
 ctxt
-PR_TRUE
+true
 )
 ;
 }

@@ -1030,7 +1030,7 @@ s
 PK11_Authenticate
 (
 slot
-PR_TRUE
+true
 ctx
 )
 ;
@@ -1290,7 +1290,7 @@ if
 PK11_Authenticate
 (
 slot
-PR_TRUE
+true
 ctx
 )
 !

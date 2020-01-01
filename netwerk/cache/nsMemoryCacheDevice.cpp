@@ -647,7 +647,7 @@ nsMemoryCacheDevice
 :
 mInitialized
 (
-PR_FALSE
+false
 )
 mEvictionThreshold
 (
@@ -1032,7 +1032,7 @@ entries
 ;
 mInitialized
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

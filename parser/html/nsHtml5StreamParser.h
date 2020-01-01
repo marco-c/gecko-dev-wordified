@@ -489,7 +489,7 @@ h
 #
 include
 "
-nsHtml5UTF16Buffer
+nsHtml5OwningUTF16Buffer
 .
 h
 "
@@ -1098,7 +1098,7 @@ mTerminatedMutex
 ;
 mTerminated
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -1134,6 +1134,11 @@ ret
 }
 #
 endif
+void
+MarkAsBroken
+(
+)
+;
 /
 *
 *
@@ -1205,7 +1210,7 @@ mTerminatedMutex
 ;
 mInterrupted
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -1253,7 +1258,7 @@ stronger
 .
 mInterrupted
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -2080,7 +2085,7 @@ queue
 /
 nsRefPtr
 <
-nsHtml5UTF16Buffer
+nsHtml5OwningUTF16Buffer
 >
 mFirstBuffer
 ;
@@ -2101,7 +2106,7 @@ buffer
 queue
 *
 /
-nsHtml5UTF16Buffer
+nsHtml5OwningUTF16Buffer
 *
 mLastBuffer
 ;

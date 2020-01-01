@@ -976,7 +976,7 @@ imgContent
 >
 ForceImageState
 (
-PR_TRUE
+true
 0
 )
 ;
@@ -1003,7 +1003,7 @@ res
 =
 UpdatePosterSource
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1179,7 +1179,7 @@ IsLeaf
 const
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -3742,7 +3742,7 @@ HasVideoElement
 )
 )
 return
-PR_FALSE
+false
 ;
 nsHTMLVideoElement
 *
@@ -3774,7 +3774,7 @@ HasVideoData
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -3790,7 +3790,7 @@ mPosterImage
 NS_ENSURE_TRUE
 (
 imgContent
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -3830,7 +3830,7 @@ request
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -3867,10 +3867,10 @@ STATUS_ERROR
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsSize
@@ -4278,7 +4278,7 @@ res
 =
 UpdatePosterSource
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4342,7 +4342,7 @@ HasVideoElement
 )
 )
 return
-PR_FALSE
+false
 ;
 nsHTMLVideoElement
 *

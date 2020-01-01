@@ -6075,7 +6075,7 @@ aString
 Length
 (
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -6183,7 +6183,7 @@ aString
 Length
 (
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -6567,7 +6567,7 @@ compare
 mData
 aString
 compareCount
-PR_TRUE
+true
 )
 ;
 if

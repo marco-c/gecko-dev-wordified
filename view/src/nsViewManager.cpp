@@ -914,11 +914,11 @@ here
 .
 mHasPendingUpdates
 =
-PR_FALSE
+false
 ;
 mRecursiveRefreshPending
 =
-PR_FALSE
+false
 ;
 mUpdateBatchFlags
 =
@@ -1293,7 +1293,7 @@ v
 SetDimensions
 (
 dim
-PR_FALSE
+false
 )
 ;
 }
@@ -1460,9 +1460,9 @@ mRootView
 >
 SetZIndex
 (
-PR_FALSE
+false
 0
-PR_FALSE
+false
 )
 ;
 }
@@ -1650,8 +1650,8 @@ mRootView
 SetDimensions
 (
 newDim
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 if
@@ -1804,7 +1804,7 @@ aHeight
 ;
 FlushDelayedResize
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2507,7 +2507,7 @@ RootViewManager
 >
 mRecursiveRefreshPending
 =
-PR_TRUE
+true
 ;
 return
 ;
@@ -2518,7 +2518,7 @@ scriptBlocker
 ;
 SetPainting
 (
-PR_TRUE
+true
 )
 ;
 RenderViews
@@ -2527,13 +2527,13 @@ aView
 aWidget
 damageRegion
 aRegion
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 SetPainting
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2578,7 +2578,7 @@ RootViewManager
 >
 mRecursiveRefreshPending
 =
-PR_FALSE
+false
 ;
 UpdateAllViews
 (
@@ -2734,9 +2734,9 @@ aView
 >
 ResetWidgetBounds
 (
-PR_FALSE
-PR_FALSE
-PR_TRUE
+false
+false
+true
 )
 ;
 }
@@ -3299,7 +3299,7 @@ rootVM
 >
 mHasPendingUpdates
 =
-PR_TRUE
+true
 ;
 rootVM
 -
@@ -3905,7 +3905,7 @@ aWidget
 Invalidate
 (
 bounds
-PR_FALSE
+false
 )
 ;
 }
@@ -3951,7 +3951,7 @@ ShouldIgnoreInvalidation
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsView
@@ -3985,7 +3985,7 @@ nsnull
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -4478,7 +4478,7 @@ eWindowType_popup
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -5185,7 +5185,7 @@ vm
 >
 FlushDelayedResize
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -5207,7 +5207,7 @@ NS_VMREFRESH_NO_SYNC
 ;
 didResize
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -5608,7 +5608,7 @@ rootVM
 ProcessPendingUpdates
 (
 mRootView
-PR_FALSE
+false
 )
 ;
 }
@@ -5739,7 +5739,7 @@ event
 -
 >
 region
-PR_TRUE
+true
 event
 -
 >
@@ -6153,7 +6153,7 @@ HandleEvent
 (
 aView
 aEvent
-PR_FALSE
+false
 aStatus
 )
 ;
@@ -6584,7 +6584,7 @@ HandleEvent
 (
 aView
 aEvent
-PR_FALSE
+false
 &
 status
 )
@@ -7691,7 +7691,7 @@ child
 >
 SetFloating
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -7797,9 +7797,9 @@ method
 SetViewZIndex
 (
 aChild
-PR_FALSE
+false
 aZIndex
-PR_FALSE
+false
 )
 ;
 return
@@ -7808,7 +7808,7 @@ InsertChild
 aParent
 aChild
 nsnull
-PR_TRUE
+true
 )
 ;
 }
@@ -8319,7 +8319,7 @@ y
 aCutOut
 .
 y
-PR_FALSE
+false
 )
 ;
 }
@@ -8350,7 +8350,7 @@ aCutOut
 YMost
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -8385,7 +8385,7 @@ aRect
 YMost
 (
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -8491,7 +8491,7 @@ view
 SetDimensions
 (
 aRect
-PR_FALSE
+false
 )
 ;
 }
@@ -8535,7 +8535,7 @@ view
 SetDimensions
 (
 aRect
-PR_TRUE
+true
 )
 ;
 nsViewManager
@@ -9099,7 +9099,7 @@ aView
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -9117,7 +9117,7 @@ nsnull
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -9155,7 +9155,7 @@ aView
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 view
@@ -9169,7 +9169,7 @@ GetNextSibling
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -10015,12 +10015,12 @@ mHasPendingUpdates
 ProcessPendingUpdates
 (
 mRootView
-PR_TRUE
+true
 )
 ;
 mHasPendingUpdates
 =
-PR_FALSE
+false
 ;
 }
 }

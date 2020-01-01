@@ -2193,7 +2193,7 @@ of
 mRootNode
 *
 return
-PR_TRUE
+true
 if
 children
 or
@@ -2207,7 +2207,7 @@ our
 criterion
 .
 *
-PR_FALSE
+false
 otherwise
 .
 *

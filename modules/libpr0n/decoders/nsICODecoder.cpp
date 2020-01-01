@@ -816,7 +816,7 @@ mRowBytes
 ;
 mIsPNG
 =
-PR_FALSE
+false
 ;
 mRow
 =
@@ -980,7 +980,7 @@ Data
 /
 /
 Returns
-PR_TRUE
+true
 if
 successful
 bool
@@ -1079,7 +1079,7 @@ PRUint16
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 dataOffset
@@ -1166,7 +1166,7 @@ dataOffset
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2768,7 +2768,7 @@ bmpDecoder
 >
 SetUseAlphaData
 (
-PR_TRUE
+true
 )
 ;
 mContainedDecoder

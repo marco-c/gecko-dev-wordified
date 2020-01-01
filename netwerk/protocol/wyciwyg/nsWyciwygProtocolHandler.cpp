@@ -913,7 +913,7 @@ anything
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

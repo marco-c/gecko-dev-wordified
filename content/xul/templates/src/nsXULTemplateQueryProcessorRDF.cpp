@@ -1158,11 +1158,11 @@ nsnull
 )
 mQueryProcessorRDFInited
 (
-PR_FALSE
+false
 )
 mGenerationStarted
 (
-PR_FALSE
+false
 )
 mUpdateBatchNest
 (
@@ -1495,7 +1495,7 @@ nsnull
 *
 aShouldDelayBuilding
 =
-PR_FALSE
+false
 ;
 NS_ENSURE_TRUE
 (
@@ -1606,7 +1606,7 @@ compDB
 >
 SetCoalesceDuplicateArcs
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -1633,7 +1633,7 @@ compDB
 >
 SetAllowNegativeAssertions
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -2192,7 +2192,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 mQueryProcessorRDFInited
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -2301,7 +2301,7 @@ nsnull
 ;
 mGenerationStarted
 =
-PR_FALSE
+false
 ;
 mUpdateBatchNest
 =
@@ -2818,7 +2818,7 @@ NS_ERROR_INVALID_ARG
 ;
 mGenerationStarted
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -3333,7 +3333,7 @@ Propagate
 (
 *
 instantiations
-PR_FALSE
+false
 owned
 )
 ;
@@ -5593,7 +5593,7 @@ Propagate
 (
 *
 instantiations
-PR_TRUE
+true
 owned
 )
 ;
@@ -6433,7 +6433,7 @@ container
 .
 isContainer
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -6518,7 +6518,7 @@ mDB
 *
 aIsEmpty
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -6562,7 +6562,7 @@ GetTarget
 aResource
 *
 property
-PR_TRUE
+true
 getter_AddRefs
 (
 dummy
@@ -6577,7 +6577,7 @@ dummy
 *
 aIsEmpty
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -6636,7 +6636,7 @@ HasAssertion
 aResource
 kRDF_type
 kNC_BookmarkSeparator
-PR_TRUE
+true
 aIsSeparator
 )
 ;
@@ -10709,7 +10709,7 @@ GetTarget
 (
 source
 aSortPredicate
-PR_TRUE
+true
 getter_AddRefs
 (
 value
@@ -10741,7 +10741,7 @@ GetTarget
 (
 source
 aPredicate
-PR_TRUE
+true
 getter_AddRefs
 (
 value

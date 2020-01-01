@@ -990,7 +990,7 @@ aLoaded
 *
 aLoaded
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1916,7 +1916,7 @@ GetTargets
 (
 aSource
 arc
-PR_TRUE
+true
 getter_AddRefs
 (
 targetEnumerator

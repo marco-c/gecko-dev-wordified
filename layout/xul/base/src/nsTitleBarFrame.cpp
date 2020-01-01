@@ -612,12 +612,12 @@ nsBoxFrame
 (
 aPresShell
 aContext
-PR_FALSE
+false
 )
 {
 mTrackingMouseMove
 =
-PR_FALSE
+false
 ;
 UpdateMouseThrough
 (
@@ -863,7 +863,7 @@ tracking
 .
 mTrackingMouseMove
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -904,7 +904,7 @@ nsEventStatus_eConsumeNoDefault
 ;
 doDefault
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -957,7 +957,7 @@ tracking
 .
 mTrackingMouseMove
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -979,7 +979,7 @@ nsEventStatus_eConsumeNoDefault
 ;
 doDefault
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1127,7 +1127,7 @@ y
 nsMoveBy
 .
 y
-PR_FALSE
+false
 )
 ;
 }
@@ -1187,7 +1187,7 @@ nsEventStatus_eConsumeNoDefault
 ;
 doDefault
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1269,7 +1269,7 @@ NS_IS_TRUSTED_EVENT
 aEvent
 )
 :
-PR_FALSE
+false
 )
 ;
 }

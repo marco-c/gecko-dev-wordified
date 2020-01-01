@@ -814,7 +814,7 @@ element
 >
 SetAutoplay
 (
-PR_TRUE
+true
 )
 ;
 element
@@ -822,7 +822,7 @@ element
 >
 SetControls
 (
-PR_TRUE
+true
 )
 ;
 element
@@ -905,7 +905,7 @@ height
 %
 "
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -1109,7 +1109,7 @@ head
 AppendChildTo
 (
 styleContent
-PR_FALSE
+false
 )
 ;
 }
@@ -1120,7 +1120,7 @@ body
 AppendChildTo
 (
 element
-PR_FALSE
+false
 )
 ;
 }

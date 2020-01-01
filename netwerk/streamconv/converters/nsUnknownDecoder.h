@@ -651,7 +651,7 @@ sniffer
 functions
 .
 Returning
-PR_TRUE
+true
 means
 that
 a
@@ -661,7 +661,7 @@ type
 was
 determined
 ;
-PR_FALSE
+false
 means
 no
 luck
@@ -852,7 +852,7 @@ it
 sets
 mContentType
 *
-PR_FALSE
+false
 otherwise
 *
 /

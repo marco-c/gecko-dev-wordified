@@ -1389,7 +1389,7 @@ aRetVal
 *
 aRetVal
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1611,7 +1611,7 @@ aVisibility
 *
 aVisibility
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1766,7 +1766,7 @@ FocusNextElement
 {
 SendMoveFocus
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -1783,7 +1783,7 @@ FocusPrevElement
 {
 SendMoveFocus
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -1897,7 +1897,7 @@ NS_ERROR_NOT_AVAILABLE
 *
 aWindowIsNew
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -2562,7 +2562,7 @@ mTabChildGlobal
 >
 GetListenerManager
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -2844,7 +2844,7 @@ baseWindow
 >
 SetVisibility
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -2901,7 +2901,7 @@ nsIWebBrowserSetup
 :
 :
 SETUP_ALLOW_DNS_PREFETCH
-PR_TRUE
+true
 )
 ;
 }
@@ -3074,7 +3074,7 @@ width
 size
 .
 height
-PR_TRUE
+true
 )
 ;
 nsCOMPtr
@@ -3101,7 +3101,7 @@ width
 size
 .
 height
-PR_TRUE
+true
 )
 ;
 return
@@ -4157,7 +4157,7 @@ nsIDOMEventTarget
 mTabChildGlobal
 )
 aMessage
-PR_FALSE
+false
 aJSON
 nsnull
 nsnull
@@ -4233,8 +4233,8 @@ NS_LITERAL_STRING
 unload
 "
 )
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 nsCOMPtr
@@ -4254,7 +4254,7 @@ privateEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 bool
@@ -5142,7 +5142,7 @@ mMessageManager
 new
 nsFrameMessageManager
 (
-PR_FALSE
+false
 SendSyncMessageToParent
 SendAsyncMessageToParent
 nsnull

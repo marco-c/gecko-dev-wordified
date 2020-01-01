@@ -795,7 +795,7 @@ aCantHandleYet
 *
 aCantHandleYet
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1254,7 +1254,7 @@ index
 )
 isconsistent
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -1386,7 +1386,7 @@ containerRes
 *
 property
 memberValue
-PR_TRUE
+true
 &
 hasAssertion
 )
@@ -1433,7 +1433,7 @@ parent
 .
 isconsistent
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2134,7 +2134,7 @@ GetSources
 (
 property
 memberValue
-PR_TRUE
+true
 getter_AddRefs
 (
 sources
@@ -2453,7 +2453,7 @@ GetTargets
 containerRes
 *
 property
-PR_TRUE
+true
 getter_AddRefs
 (
 results
@@ -2473,7 +2473,7 @@ GetSources
 *
 property
 memberValue
-PR_TRUE
+true
 getter_AddRefs
 (
 results
@@ -2899,7 +2899,7 @@ NS_ERROR_UNEXPECTED
 *
 aCantHandleYet
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2988,7 +2988,7 @@ if
 rdfc
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -3018,7 +3018,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -3177,11 +3177,11 @@ aTarget
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void

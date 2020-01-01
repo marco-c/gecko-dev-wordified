@@ -1430,7 +1430,7 @@ const
 /
 /
 Returns
-PR_TRUE
+true
 if
 we
 should
@@ -1832,7 +1832,7 @@ InvalidateTransformNotifyFrame
 /
 /
 Returns
-PR_TRUE
+true
 if
 we
 have

@@ -443,6 +443,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -544,7 +553,7 @@ nsGkAtoms
 :
 pathLength
 0
-PR_FALSE
+false
 }
 ;
 NS_IMPL_NS_NEW_SVG_ELEMENT
@@ -2724,7 +2733,7 @@ GetDOMWrapper
 (
 key
 this
-PR_FALSE
+false
 )
 .
 get
@@ -2806,7 +2815,7 @@ GetDOMWrapper
 (
 key
 this
-PR_TRUE
+true
 )
 .
 get
@@ -2957,7 +2966,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -3117,7 +3126,7 @@ IsMarkable
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 void

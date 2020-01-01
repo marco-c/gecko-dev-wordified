@@ -620,7 +620,7 @@ aProcessor
 )
 mSimple
 (
-PR_FALSE
+false
 )
 mRoot
 (
@@ -907,7 +907,7 @@ SetSimple
 {
 mSimple
 =
-PR_TRUE
+true
 ;
 }
 /

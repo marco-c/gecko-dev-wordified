@@ -1625,7 +1625,7 @@ nsNSSShutDownObject
 {
 mAlreadyShutDown
 =
-PR_FALSE
+false
 ;
 nsNSSShutDownList
 :
@@ -1707,7 +1707,7 @@ virtualDestroyNSSReference
 }
 mAlreadyShutDown
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1749,7 +1749,7 @@ nsOnPK11LogoutCancelObject
 :
 mIsLoggedOut
 (
-PR_FALSE
+false
 )
 {
 nsNSSShutDownList
@@ -1828,7 +1828,7 @@ to
 .
 mIsLoggedOut
 =
-PR_TRUE
+true
 ;
 }
 bool

@@ -1622,7 +1622,7 @@ to
 test
 *
 return
-PR_TRUE
+true
 if
 there
 is

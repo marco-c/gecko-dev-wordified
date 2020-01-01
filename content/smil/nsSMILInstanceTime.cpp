@@ -563,7 +563,7 @@ mFlags
 )
 mVisited
 (
-PR_FALSE
+false
 )
 mFixedEndpointRefCnt
 (
@@ -897,7 +897,7 @@ mVisited
 ;
 mVisited
 =
-PR_TRUE
+true
 ;
 nsRefPtr
 <
@@ -1194,7 +1194,7 @@ if
 mVisited
 )
 return
-PR_FALSE
+false
 ;
 const
 nsSMILInstanceTime
@@ -1211,7 +1211,7 @@ if
 myBaseTime
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1222,7 +1222,7 @@ myBaseTime
 aOther
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -1263,7 +1263,7 @@ this
 >
 mVisited
 =
-PR_TRUE
+true
 ;
 return
 myBaseTime

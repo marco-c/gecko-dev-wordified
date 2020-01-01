@@ -1784,7 +1784,7 @@ start
 end
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -1821,11 +1821,11 @@ idx
 ]
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 const
@@ -2061,7 +2061,7 @@ r
 overflow
 ?
 return
-PR_FALSE
+false
 ;
 *
 r
@@ -2086,7 +2086,7 @@ nothing
 parsed
 ?
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2098,6 +2098,6 @@ next
 input
 ;
 return
-PR_TRUE
+true
 ;
 }

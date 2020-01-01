@@ -535,7 +535,7 @@ mSpaceGlyph
 )
 mHasMetrics
 (
-PR_FALSE
+false
 )
 {
 cairo_scaled_font_reference
@@ -1180,7 +1180,7 @@ SanitizeMetrics
 (
 &
 mMetrics
-PR_FALSE
+false
 )
 ;
 #
@@ -1424,7 +1424,7 @@ subscriptOffset
 endif
 mHasMetrics
 =
-PR_TRUE
+true
 ;
 return
 mMetrics
@@ -1787,7 +1787,7 @@ further
 drawing
 .
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -2014,6 +2014,6 @@ cairoFont
 )
 ;
 return
-PR_TRUE
+true
 ;
 }

@@ -496,7 +496,7 @@ aEvent
 new
 nsMouseEvent
 (
-PR_FALSE
+false
 0
 nsnull
 nsMouseEvent
@@ -552,14 +552,14 @@ aEvent
 {
 mEventIsInternal
 =
-PR_FALSE
+false
 ;
 }
 else
 {
 mEventIsInternal
 =
-PR_TRUE
+true
 ;
 mEvent
 -

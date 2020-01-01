@@ -743,7 +743,7 @@ key
 key
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -758,7 +758,7 @@ key
 key
 )
 return
-PR_FALSE
+false
 ;
 const
 char
@@ -1351,7 +1351,7 @@ called
 while
 gCallbacksInProgress
 is
-PR_TRUE
+true
 !
 "
 )
@@ -2588,7 +2588,7 @@ gHashTable
 ops
 )
 return
-PR_FALSE
+false
 ;
 PrefHashEntry
 *
@@ -2605,7 +2605,7 @@ if
 pref
 )
 return
-PR_FALSE
+false
 ;
 /
 *
@@ -3511,7 +3511,7 @@ get
 ;
 gDirty
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3594,7 +3594,7 @@ pref_name
 ;
 gDirty
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -3708,7 +3708,7 @@ nsnull
 ;
 gDirty
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3776,7 +3776,7 @@ PREF_LOCKED
 ;
 gIsAnyPrefLocked
 =
-PR_TRUE
+true
 ;
 pref_DoCallback
 (
@@ -3991,7 +3991,7 @@ newValue
 }
 gDirty
 =
-PR_TRUE
+true
 ;
 }
 PrefHashEntry
@@ -4304,7 +4304,7 @@ pref
 )
 valueChanged
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4391,7 +4391,7 @@ pref
 )
 valueChanged
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4445,7 +4445,7 @@ pref
 )
 valueChanged
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4461,7 +4461,7 @@ valueChanged
 {
 gDirty
 =
-PR_TRUE
+true
 ;
 nsresult
 rv2
@@ -4612,7 +4612,7 @@ pref
 )
 result
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -4816,7 +4816,7 @@ list
 while
 gCallbacksInProgress
 is
-PR_TRUE
+true
 "
 )
 ;
@@ -4983,7 +4983,7 @@ nsnull
 ;
 gShouldCleanupDeadNodes
 =
-PR_TRUE
+true
 ;
 prev_node
 =
@@ -5059,7 +5059,7 @@ gCallbacksInProgress
 ;
 gCallbacksInProgress
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -5071,7 +5071,7 @@ deleted
 while
 gCallbacksInProgress
 is
-PR_TRUE
+true
 .
 /
 /
@@ -5259,7 +5259,7 @@ next
 }
 gShouldCleanupDeadNodes
 =
-PR_FALSE
+false
 ;
 }
 return

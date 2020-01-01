@@ -536,7 +536,7 @@ key
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -951,7 +951,7 @@ be
 pessimistic
 and
 return
-PR_TRUE
+true
 .
 /
 /
@@ -975,7 +975,7 @@ been
 freed
 and
 returning
-PR_TRUE
+true
 would
 bring
 up
@@ -986,7 +986,7 @@ unnecessary
 warning
 .
 return
-PR_FALSE
+false
 ;
 }
 MutexAutoLock
@@ -1051,7 +1051,7 @@ bunch
 of
 PRBools
 to
-PR_TRUE
+true
 .
 /
 /
@@ -1528,7 +1528,7 @@ mBlockingUICounter
 )
 mIsUIForbidden
 (
-PR_FALSE
+false
 )
 mNSSRestrictedThread
 (
@@ -1741,7 +1741,7 @@ evaporate
 .
 retval
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1760,7 +1760,7 @@ UI
 .
 mIsUIForbidden
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1821,7 +1821,7 @@ mNSSActivityStateLock
 ;
 mIsUIForbidden
 =
-PR_FALSE
+false
 ;
 }
 PRStatus
@@ -1937,7 +1937,7 @@ nsnull
 ;
 mIsUIForbidden
 =
-PR_FALSE
+false
 ;
 mNSSActivityChanged
 .
@@ -2105,7 +2105,7 @@ if
 state
 )
 return
-PR_FALSE
+false
 ;
 return
 state

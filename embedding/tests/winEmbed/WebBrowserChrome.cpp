@@ -411,7 +411,7 @@ nsnull
 ;
 mSizeSet
 =
-PR_FALSE
+false
 ;
 }
 WebBrowserChrome
@@ -1477,7 +1477,7 @@ aHeight
 ;
 mSizeSet
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1502,12 +1502,12 @@ AppCallbacks
 EnableChromeWindow
 (
 mDependentParent
-PR_FALSE
+false
 )
 ;
 mContinueModalLoop
 =
-PR_TRUE
+true
 ;
 AppCallbacks
 :
@@ -1527,7 +1527,7 @@ AppCallbacks
 EnableChromeWindow
 (
 mDependentParent
-PR_TRUE
+true
 )
 ;
 return
@@ -1548,7 +1548,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -1566,7 +1566,7 @@ aStatus
 {
 mContinueModalLoop
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2000,7 +2000,7 @@ WebBrowserChromeUI
 UpdateBusyState
 (
 this
-PR_TRUE
+true
 )
 ;
 }
@@ -2026,7 +2026,7 @@ WebBrowserChromeUI
 UpdateBusyState
 (
 this
-PR_FALSE
+false
 )
 ;
 WebBrowserChromeUI
@@ -2145,7 +2145,7 @@ topDomWindow
 )
 isSubFrameLoad
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -2428,7 +2428,7 @@ continue
 *
 aContinue
 =
-PR_TRUE
+true
 ;
 return
 SendHistoryStatusMessage
@@ -2465,7 +2465,7 @@ continue
 *
 aContinue
 =
-PR_TRUE
+true
 ;
 return
 SendHistoryStatusMessage
@@ -2504,7 +2504,7 @@ continue
 *
 aContinue
 =
-PR_TRUE
+true
 ;
 return
 SendHistoryStatusMessage
@@ -2544,7 +2544,7 @@ continue
 *
 aContinue
 =
-PR_TRUE
+true
 ;
 return
 SendHistoryStatusMessage
@@ -2591,7 +2591,7 @@ continue
 *
 aContinue
 =
-PR_FALSE
+false
 ;
 return
 SendHistoryStatusMessage
@@ -3151,7 +3151,7 @@ WebBrowserChromeUI
 ShowWindow
 (
 this
-PR_TRUE
+true
 )
 ;
 }
@@ -3524,7 +3524,7 @@ aVisibility
 *
 aVisibility
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

@@ -631,7 +631,7 @@ lines
 *
 *
 return
-PR_TRUE
+true
 if
 the
 CSS
@@ -646,7 +646,7 @@ is
 rtl
 "
 otherwise
-PR_FALSE
+false
 *
 /
 virtual

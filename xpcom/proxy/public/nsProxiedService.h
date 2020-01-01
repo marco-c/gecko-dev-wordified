@@ -858,7 +858,7 @@ NS_GET_IID
 T
 )
 Q
-PR_FALSE
+false
 rvAddr
 )
 ;
@@ -903,7 +903,7 @@ NS_GET_IID
 T
 )
 Q
-PR_TRUE
+true
 rvAddr
 )
 ;

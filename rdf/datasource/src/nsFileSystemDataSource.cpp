@@ -785,7 +785,7 @@ uri
 {
 isFileURIFlag
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -836,7 +836,7 @@ rv
 )
 return
 (
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -868,7 +868,7 @@ rv
 )
 return
 (
-PR_FALSE
+false
 )
 ;
 bool
@@ -896,7 +896,7 @@ rv
 )
 return
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -2712,8 +2712,8 @@ rv
 GetFolderList
 (
 source
-PR_FALSE
-PR_TRUE
+false
+true
 getter_AddRefs
 (
 children
@@ -3104,8 +3104,8 @@ return
 GetFolderList
 (
 source
-PR_FALSE
-PR_FALSE
+false
+false
 targets
 )
 ;
@@ -3559,7 +3559,7 @@ source
 *
 hasAssertion
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3622,7 +3622,7 @@ mRDF_type
 *
 hasAssertion
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3661,7 +3661,7 @@ source
 *
 hasAssertion
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3696,7 +3696,7 @@ target
 *
 hasAssertion
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3816,7 +3816,7 @@ result
 *
 result
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3863,7 +3863,7 @@ mNC_pulse
 *
 result
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3891,7 +3891,7 @@ else
 *
 result
 =
-PR_TRUE
+true
 ;
 #
 endif
@@ -3956,7 +3956,7 @@ mRDF_type
 *
 result
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4872,7 +4872,7 @@ ieFavoritesDir
 {
 isValid
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -4889,8 +4889,8 @@ rv
 GetFolderList
 (
 source
-PR_TRUE
-PR_FALSE
+true
+false
 getter_AddRefs
 (
 folderEnum
@@ -4925,7 +4925,7 @@ hasMore
 {
 hasAny
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -5071,7 +5071,7 @@ ini
 {
 isValid
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -5084,7 +5084,7 @@ hasAny
 )
 isValid
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5247,7 +5247,7 @@ fileURL
 )
 return
 (
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -5308,7 +5308,7 @@ aDirLocal
 >
 SetFollowLinks
 (
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -5831,7 +5831,7 @@ fileURL
 )
 return
 (
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -5902,7 +5902,7 @@ aFileLocal
 >
 SetFollowLinks
 (
-PR_FALSE
+false
 )
 ;
 PRInt64
@@ -6079,7 +6079,7 @@ fileURL
 )
 return
 (
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -6150,7 +6150,7 @@ aFileLocal
 >
 SetFollowLinks
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -6359,7 +6359,7 @@ fileURL
 )
 return
 (
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -6430,7 +6430,7 @@ aFileLocal
 >
 SetFollowLinks
 (
-PR_FALSE
+false
 )
 ;
 nsAutoString
@@ -6979,7 +6979,7 @@ Find
 URL
 =
 "
-PR_TRUE
+true
 )
 =
 =
@@ -7023,7 +7023,7 @@ Find
 CDFURL
 =
 "
-PR_TRUE
+true
 )
 =
 =
@@ -7097,7 +7097,7 @@ isFavorite
 *
 isFavorite
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -7178,7 +7178,7 @@ isFavorite
 *
 isFavorite
 =
-PR_TRUE
+true
 ;
 rv
 =

@@ -555,7 +555,7 @@ aContext
 )
 mNeedsReflowCallback
 (
-PR_TRUE
+true
 )
 {
 }

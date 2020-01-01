@@ -704,7 +704,7 @@ else
 *
 aIsContainer
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -789,7 +789,7 @@ IsElement
 *
 aIsEmpty
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -800,7 +800,7 @@ NS_OK
 *
 aIsEmpty
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -820,7 +820,7 @@ aMayProcessChildren
 *
 aMayProcessChildren
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

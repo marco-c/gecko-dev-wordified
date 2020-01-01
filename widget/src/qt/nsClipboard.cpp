@@ -488,6 +488,15 @@ QBuffer
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsClipboard
 .
 h
@@ -555,6 +564,10 @@ gfxImageSurface
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_IMPL_ISUPPORTS1
 (
 nsClipboard
@@ -1569,7 +1582,7 @@ ptrPrimitive
 &
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 imageMimeTypes
 )
@@ -2939,7 +2952,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3134,7 +3147,7 @@ return
 *
 _retval
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3548,7 +3561,7 @@ supportsSelection
 *
 _retval
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -3563,7 +3576,7 @@ else
 *
 _retval
 =
-PR_FALSE
+false
 ;
 }
 return

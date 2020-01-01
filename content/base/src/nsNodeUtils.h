@@ -1031,7 +1031,7 @@ and
 if
 aDeep
 is
-PR_TRUE
+true
 its
 descendant
 nodes
@@ -1089,7 +1089,7 @@ clone
 param
 aDeep
 If
-PR_TRUE
+true
 the
 function
 will
@@ -1205,7 +1205,7 @@ return
 CloneAndAdopt
 (
 aNode
-PR_TRUE
+true
 aDeep
 aNewNodeInfoManager
 nsnull
@@ -1413,8 +1413,8 @@ rv
 CloneAndAdopt
 (
 aNode
-PR_FALSE
-PR_TRUE
+false
+true
 aNewNodeInfoManager
 aCx
 aNewScope
@@ -1454,7 +1454,7 @@ aNodesWithProperties
 If
 aCloned
 is
-PR_TRUE
+true
 aNodesWithProperties
 should
 *
@@ -1502,7 +1502,7 @@ them
 If
 aCloned
 is
-PR_TRUE
+true
 every
 *
 one
@@ -1548,7 +1548,7 @@ for
 param
 aCloned
 If
-PR_TRUE
+true
 aNodesWithProperties
 will
 contain
@@ -1765,7 +1765,7 @@ and
 if
 aDeep
 is
-PR_TRUE
+true
 its
 descendant
 nodes
@@ -1774,7 +1774,7 @@ nodes
 If
 aClone
 is
-PR_TRUE
+true
 the
 nodes
 will
@@ -1843,7 +1843,7 @@ clone
 param
 aClone
 If
-PR_TRUE
+true
 the
 node
 will
@@ -1863,7 +1863,7 @@ aResult
 param
 aDeep
 If
-PR_TRUE
+true
 the
 function
 will
@@ -1937,7 +1937,7 @@ null
 if
 aClone
 is
-PR_TRUE
+true
 or
 *
 if
@@ -1983,7 +1983,7 @@ If
 aClone
 is
 *
-PR_TRUE
+true
 every
 node
 will
@@ -2000,7 +2000,7 @@ aResult
 If
 aClone
 is
-PR_FALSE
+false
 then
 aResult
 must
@@ -2141,7 +2141,7 @@ aParent
 If
 aClone
 is
-PR_TRUE
+true
 the
 cloned
 node
@@ -2176,7 +2176,7 @@ aResult
 If
 aClone
 is
-PR_TRUE
+true
 then
 *
 aResult

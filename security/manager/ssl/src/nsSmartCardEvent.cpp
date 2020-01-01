@@ -662,7 +662,7 @@ mPrivate
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 }

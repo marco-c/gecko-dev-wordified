@@ -784,7 +784,7 @@ CheckFrameAssertions
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 virtual

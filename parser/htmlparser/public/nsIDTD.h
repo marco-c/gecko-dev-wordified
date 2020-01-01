@@ -888,7 +888,7 @@ child
 container
 *
 return
-PR_TRUE
+true
 if
 parent
 can
@@ -951,7 +951,7 @@ for
 containership
 *
 return
-PR_TRUE
+true
 if
 given
 tag

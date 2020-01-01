@@ -587,7 +587,7 @@ ScreenReferenceSurface
 )
 mHaveReceivedCommands
 (
-PR_FALSE
+false
 )
 {
 }

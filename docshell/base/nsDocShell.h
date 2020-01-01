@@ -2194,7 +2194,7 @@ aResult
 /
 /
 Returns
-PR_TRUE
+true
 if
 would
 have
@@ -2238,7 +2238,7 @@ In
 all
 other
 cases
-PR_FALSE
+false
 is
 returned
 .
@@ -2259,7 +2259,7 @@ true
 /
 /
 Returns
-PR_TRUE
+true
 if
 would
 have
@@ -2303,7 +2303,7 @@ In
 all
 other
 cases
-PR_FALSE
+false
 is
 returned
 .
@@ -3758,7 +3758,7 @@ aTargetTreeItem
 /
 /
 Returns
-PR_TRUE
+true
 if
 would
 have
@@ -3802,7 +3802,7 @@ In
 all
 other
 cases
-PR_FALSE
+false
 is
 returned
 .
@@ -4317,7 +4317,7 @@ Call
 BeginRestore
 (
 nsnull
-PR_FALSE
+false
 )
 for
 each

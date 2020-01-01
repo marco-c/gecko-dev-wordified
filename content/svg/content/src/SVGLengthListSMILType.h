@@ -599,7 +599,7 @@ set
 its
 mCanZeroPadList
 to
-PR_TRUE
+true
 despite
 *
 the
@@ -1000,7 +1000,7 @@ always
 sets
 mCanZeroPadList
 to
-PR_TRUE
+true
 .
 *
 *
@@ -1072,7 +1072,7 @@ CanZeroPadList
 (
 )
 returns
-PR_FALSE
+false
 *
 then
 they
@@ -1081,7 +1081,7 @@ set
 the
 flag
 to
-PR_FALSE
+false
 on
 the
 output

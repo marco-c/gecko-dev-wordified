@@ -1029,7 +1029,7 @@ nsFocusManager
 GetFocusedDescendant
 (
 rootWindow
-PR_TRUE
+true
 aWindow
 )
 ;
@@ -2651,7 +2651,7 @@ nsEventStatus_eIgnore
 nsEvent
 event
 (
-PR_TRUE
+true
 NS_XUL_COMMAND_UPDATE
 )
 ;
@@ -2703,7 +2703,7 @@ EqualsLiteral
 )
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -2732,7 +2732,7 @@ indx
 1
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -2811,7 +2811,7 @@ PRUnichar
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2867,11 +2867,11 @@ PRUnichar
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -2969,7 +2969,7 @@ aSuppressFocusScroll
 *
 aSuppressFocusScroll
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

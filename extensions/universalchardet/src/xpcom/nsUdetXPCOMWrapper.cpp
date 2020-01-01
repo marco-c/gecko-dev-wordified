@@ -1038,13 +1038,13 @@ mDetectedCharset
 *
 oDontFeedMe
 =
-PR_TRUE
+true
 ;
 }
 *
 oDontFeedMe
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

@@ -624,7 +624,7 @@ NS_LITERAL_STRING
 mozTableAddColumnBefore
 "
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 mAddColumnBeforeButton
@@ -646,7 +646,7 @@ NS_LITERAL_STRING
 mozTableRemoveColumn
 "
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 mRemoveColumnButton
@@ -668,7 +668,7 @@ NS_LITERAL_STRING
 mozTableAddColumnAfter
 "
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 mAddColumnAfterButton
@@ -690,7 +690,7 @@ NS_LITERAL_STRING
 mozTableAddRowBefore
 "
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 mAddRowBeforeButton
@@ -712,7 +712,7 @@ NS_LITERAL_STRING
 mozTableRemoveRow
 "
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 mRemoveRowButton
@@ -734,7 +734,7 @@ NS_LITERAL_STRING
 mozTableAddRowAfter
 "
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 mAddRowAfterButton
@@ -1145,7 +1145,7 @@ mozTableAddColumnBefore
 InsertTableColumn
 (
 1
-PR_FALSE
+false
 )
 ;
 else
@@ -1163,7 +1163,7 @@ mozTableAddColumnAfter
 InsertTableColumn
 (
 1
-PR_TRUE
+true
 )
 ;
 else
@@ -1181,7 +1181,7 @@ mozTableAddRowBefore
 InsertTableRow
 (
 1
-PR_FALSE
+false
 )
 ;
 else
@@ -1199,7 +1199,7 @@ mozTableAddRowAfter
 InsertTableRow
 (
 1
-PR_TRUE
+true
 )
 ;
 else
@@ -1335,7 +1335,7 @@ click
 "
 )
 mEventListener
-PR_TRUE
+true
 )
 ;
 }
@@ -1380,7 +1380,7 @@ click
 "
 )
 mEventListener
-PR_TRUE
+true
 )
 ;
 }

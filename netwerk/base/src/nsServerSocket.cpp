@@ -800,7 +800,7 @@ nsnull
 )
 mAttached
 (
-PR_FALSE
+false
 )
 {
 /
@@ -1381,7 +1381,7 @@ rv
 ;
 mAttached
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -2385,7 +2385,7 @@ value
 .
 reuse_addr
 =
-PR_TRUE
+true
 ;
 PR_SetSocketOption
 (
@@ -2406,7 +2406,7 @@ value
 .
 non_blocking
 =
-PR_TRUE
+true
 ;
 PR_SetSocketOption
 (

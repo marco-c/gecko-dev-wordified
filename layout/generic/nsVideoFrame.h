@@ -802,7 +802,7 @@ mPosterImage
 /
 /
 Returns
-PR_TRUE
+true
 if
 we
 should
@@ -869,7 +869,7 @@ protected
 /
 /
 Returns
-PR_TRUE
+true
 if
 we
 '
@@ -902,7 +902,7 @@ HasVideoElement
 /
 /
 Returns
-PR_TRUE
+true
 if
 there
 is

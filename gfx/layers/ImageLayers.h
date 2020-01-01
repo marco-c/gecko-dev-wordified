@@ -988,7 +988,7 @@ mPaintCount
 )
 mPreviousImagePainted
 (
-PR_FALSE
+false
 )
 {
 }
@@ -2008,7 +2008,7 @@ mPaintCount
 ;
 mPreviousImagePainted
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2079,7 +2079,7 @@ mPaintCount
 )
 mPreviousImagePainted
 (
-PR_FALSE
+false
 )
 {
 }

@@ -665,7 +665,7 @@ signal
 set
 aFatalSignal
 to
-PR_TRUE
+true
 .
 *
 /
@@ -722,7 +722,7 @@ RemovePidLockFilesExiting
 {
 RemovePidLockFiles
 (
-PR_FALSE
+false
 )
 ;
 }

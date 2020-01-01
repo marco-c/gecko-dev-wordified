@@ -1225,7 +1225,7 @@ clearing
 again
 needsClear
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1748,7 +1748,7 @@ FLAG_FORMAT_TRUETYPE
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1769,7 +1769,7 @@ aFormatFlags
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1784,7 +1784,7 @@ look
 at
 data
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -2189,7 +2189,7 @@ fe
 >
 mItalic
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2228,7 +2228,7 @@ fe
 >
 mItalic
 =
-PR_TRUE
+true
 ;
 }
 /

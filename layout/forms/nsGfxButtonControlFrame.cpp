@@ -662,7 +662,7 @@ We
 '
 ll
 return
-PR_TRUE
+true
 if
 type
 is
@@ -884,7 +884,7 @@ mTextContent
 SetText
 (
 label
-PR_FALSE
+false
 )
 ;
 if
@@ -1932,7 +1932,7 @@ mTextContent
 SetText
 (
 label
-PR_TRUE
+true
 )
 ;
 }
@@ -1978,7 +1978,7 @@ IsLeaf
 const
 {
 return
-PR_TRUE
+true
 ;
 }
 nsIFrame

@@ -703,7 +703,7 @@ mKey
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -737,7 +737,7 @@ both
 not
 equal
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -812,7 +812,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 protected
@@ -2048,8 +2048,8 @@ return
 LoadSheetSync
 (
 aURL
-PR_FALSE
-PR_FALSE
+false
+false
 aSheet
 )
 ;
@@ -2529,7 +2529,7 @@ this
 will
 *
 return
-PR_FALSE
+false
 if
 and
 only
@@ -2576,7 +2576,7 @@ HasPendingLoads
 *
 will
 return
-PR_TRUE
+true
 during
 notification
 for
@@ -2584,7 +2584,7 @@ the
 first
 one
 and
-PR_FALSE
+false
 *
 during
 notification

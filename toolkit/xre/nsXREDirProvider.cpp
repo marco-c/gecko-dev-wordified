@@ -830,7 +830,7 @@ nsXREDirProvider
 :
 mProfileNotified
 (
-PR_FALSE
+false
 )
 {
 gDirServiceProvider
@@ -1199,7 +1199,7 @@ case
 below
 gettingProfile
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -1318,7 +1318,7 @@ rv
 *
 aPersistent
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2044,7 +2044,7 @@ nsDependentCString
 (
 sysLExtDir
 )
-PR_FALSE
+false
 (
 nsILocalFile
 *
@@ -2360,7 +2360,7 @@ file
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2390,7 +2390,7 @@ file
 ;
 ensureFilePermissions
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2429,7 +2429,7 @@ file
 ;
 ensureFilePermissions
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3280,7 +3280,7 @@ manifest
 }
 while
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -4171,7 +4171,7 @@ NS_ERROR_FAILURE
 ;
 mProfileNotified
 =
-PR_TRUE
+true
 ;
 static
 const
@@ -4745,7 +4745,7 @@ kShutdownPersist
 }
 mProfileNotified
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -5841,7 +5841,7 @@ NS_NewNativeLocalFile
 EmptyCString
 (
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 localDir
@@ -5989,7 +5989,7 @@ rv
 NS_NewLocalFile
 (
 path
-PR_TRUE
+true
 getter_AddRefs
 (
 localDir
@@ -6105,7 +6105,7 @@ nsDependentCString
 (
 pHome
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 localDir
@@ -6168,7 +6168,7 @@ nsDependentCString
 (
 appDir
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 localDir
@@ -6215,7 +6215,7 @@ nsDependentCString
 (
 homeDir
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 localDir
@@ -6281,7 +6281,7 @@ getter_AddRefs
 (
 localDir
 )
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6397,7 +6397,7 @@ NS_NewNativeLocalFile
 EmptyCString
 (
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 localDir
@@ -6563,7 +6563,7 @@ nsDependentCString
 (
 sysSExtDir
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 localDir

@@ -1561,7 +1561,7 @@ SMIL_PREF_STR
 ;
 sInitialized
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -3405,7 +3405,7 @@ nsSVGElement
 (
 ancestor
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -6523,7 +6523,7 @@ isTrivialClip
 {
 complexEffects
 =
-PR_TRUE
+true
 ;
 gfx
 -
@@ -6909,7 +6909,7 @@ props
 mClipPath
 )
 return
-PR_TRUE
+true
 ;
 bool
 isOK
@@ -6960,7 +6960,7 @@ must
 fail
 .
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -7426,7 +7426,7 @@ height
 *
 aResultOverflows
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -7467,7 +7467,7 @@ IsSingular
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 gfxContext
@@ -8514,7 +8514,7 @@ svgPathGeometryFrame
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -8531,7 +8531,7 @@ mFilter
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -8564,7 +8564,7 @@ svgImageFrame
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 const
@@ -8600,7 +8600,7 @@ mMarkerEnd
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -8642,11 +8642,11 @@ HasStroke
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 float
@@ -9506,7 +9506,7 @@ aContext
 )
 mPaintingToWindow
 (
-PR_FALSE
+false
 )
 {
 mGfxContext
@@ -9539,7 +9539,7 @@ aContext
 )
 mPaintingToWindow
 (
-PR_FALSE
+false
 )
 {
 }
@@ -9559,7 +9559,7 @@ NORMAL
 )
 mPaintingToWindow
 (
-PR_FALSE
+false
 )
 {
 mGfxContext
@@ -9666,7 +9666,7 @@ svg
 {
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 Expecting
 an
@@ -9679,7 +9679,7 @@ node
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 const

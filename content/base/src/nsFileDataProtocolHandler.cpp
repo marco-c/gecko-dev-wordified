@@ -1253,7 +1253,7 @@ return
 NS_ReadOptionalObject
 (
 aStream
-PR_TRUE
+true
 getter_AddRefs
 (
 mPrincipal
@@ -1298,7 +1298,7 @@ NS_GET_IID
 (
 nsIPrincipal
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -1459,7 +1459,7 @@ aOther
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1492,7 +1492,7 @@ otherFileDataUri
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1527,7 +1527,7 @@ aRefHandlingMode
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2380,7 +2380,7 @@ anything
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

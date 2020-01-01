@@ -495,11 +495,11 @@ nsControllerCommandTable
 mCommandsTable
 (
 NUM_COMMANDS_BOUNDS
-PR_FALSE
+false
 )
 mMutable
 (
-PR_TRUE
+true
 )
 {
 }
@@ -529,7 +529,7 @@ void
 {
 mMutable
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -761,7 +761,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -964,7 +964,7 @@ states
 *
 aResult
 =
-PR_FALSE
+false
 ;
 /
 /

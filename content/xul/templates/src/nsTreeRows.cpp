@@ -1342,7 +1342,7 @@ fall
 through
 stringmode
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2558,7 +2558,7 @@ GetDepth
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2570,7 +2570,7 @@ GetDepth
 0
 )
 return
-PR_TRUE
+true
 ;
 return
 GetTop

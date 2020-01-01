@@ -769,7 +769,7 @@ visit
 -
 saved
 "
-PR_FALSE
+false
 )
 ;
 }
@@ -1006,7 +1006,7 @@ history
 .
 enabled
 "
-PR_TRUE
+true
 )
 ;
 do_check_success
@@ -2186,7 +2186,7 @@ AddObserver
 (
 this
 URI_VISITED_RESOLUTION_TOPIC
-PR_FALSE
+false
 )
 ;
 }

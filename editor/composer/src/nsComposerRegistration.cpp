@@ -849,7 +849,7 @@ nsComposeTxtSrvFilterConstructor
 aOuter
 aIID
 aResult
-PR_FALSE
+false
 )
 ;
 }
@@ -874,7 +874,7 @@ nsComposeTxtSrvFilterConstructor
 aOuter
 aIID
 aResult
-PR_TRUE
+true
 )
 ;
 }

@@ -977,7 +977,7 @@ setups
 the
 mNeedsUpdate
 to
-PR_FALSE
+false
 when
 hash
 value

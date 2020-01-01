@@ -976,7 +976,7 @@ _value
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1083,7 +1083,7 @@ _value
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }

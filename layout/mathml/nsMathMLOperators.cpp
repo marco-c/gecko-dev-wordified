@@ -1078,7 +1078,7 @@ lspace
 )
 isLeftSpace
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -1094,7 +1094,7 @@ rspace
 )
 isLeftSpace
 =
-PR_FALSE
+false
 ;
 else
 return
@@ -1275,7 +1275,7 @@ c
 '
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1316,7 +1316,7 @@ c
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1464,7 +1464,7 @@ A
 ;
 else
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1521,7 +1521,7 @@ if
 state
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -1578,7 +1578,7 @@ if
 aForm
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -2001,7 +2001,7 @@ end
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -2671,7 +2671,7 @@ InitGlobals
 {
 gInitialized
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -3146,12 +3146,12 @@ bits
 without
 overwriting
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void

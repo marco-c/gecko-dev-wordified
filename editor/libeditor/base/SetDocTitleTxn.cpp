@@ -502,7 +502,7 @@ EditTxn
 )
 mIsTransient
 (
-PR_FALSE
+false
 )
 {
 }
@@ -737,7 +737,7 @@ stack
 )
 mIsTransient
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -943,7 +943,7 @@ the
 title
 mIsTransient
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1100,7 +1100,7 @@ titleElement
 ;
 newTitleNode
 =
-PR_TRUE
+true
 ;
 /
 /

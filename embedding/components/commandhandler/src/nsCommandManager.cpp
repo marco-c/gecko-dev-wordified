@@ -1605,7 +1605,7 @@ is_caller_chrome
 *
 is_caller_chrome
 =
-PR_FALSE
+false
 ;
 nsresult
 rv

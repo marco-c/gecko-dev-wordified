@@ -1275,7 +1275,7 @@ aService
 )
 mStarted
 (
-PR_FALSE
+false
 )
 {
 Increment
@@ -1752,7 +1752,7 @@ queue
 .
 mStarted
 =
-PR_TRUE
+true
 ;
 mCurrent
 =
@@ -2331,7 +2331,7 @@ NS_LITERAL_CSTRING
 prefetch
 "
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -3717,7 +3717,7 @@ NS_LITERAL_CSTRING
 prefetch
 "
 )
-PR_FALSE
+false
 )
 ;
 mChannel
@@ -3921,11 +3921,11 @@ mStopCount
 )
 mHaveProcessed
 (
-PR_FALSE
+false
 )
 mDisabled
 (
-PR_TRUE
+true
 )
 {
 }
@@ -4074,7 +4074,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4916,7 +4916,7 @@ mCurrentNode
 {
 mHaveProcessed
 =
-PR_TRUE
+true
 ;
 ProcessNextURI
 (
@@ -7205,7 +7205,7 @@ EmptyQueue
 ;
 mDisabled
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -7250,7 +7250,7 @@ n
 ;
 mDisabled
 =
-PR_FALSE
+false
 ;
 AddProgressListener
 (
@@ -7288,7 +7288,7 @@ EmptyQueue
 ;
 mDisabled
 =
-PR_TRUE
+true
 ;
 RemoveProgressListener
 (

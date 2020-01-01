@@ -582,7 +582,7 @@ return
 ;
 initialized
 =
-PR_TRUE
+true
 ;
 PRLibrary
 *
@@ -662,7 +662,7 @@ always
 false
 .
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -1182,7 +1182,7 @@ aFontStyle
 >
 systemFont
 =
-PR_TRUE
+true
 ;
 g_free
 (
@@ -1368,7 +1368,7 @@ aFontStyle
 >
 systemFont
 =
-PR_TRUE
+true
 ;
 NS_NAMED_LITERAL_STRING
 (

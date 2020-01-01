@@ -1250,7 +1250,7 @@ targetElement
 )
 {
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -1268,7 +1268,7 @@ resultIndex
 +
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult

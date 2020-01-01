@@ -1768,7 +1768,7 @@ key
 ;
 \
 return
-PR_TRUE
+true
 ;
 \
 }

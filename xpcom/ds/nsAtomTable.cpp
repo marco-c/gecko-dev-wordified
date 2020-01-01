@@ -1044,7 +1044,7 @@ mLength
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -1258,7 +1258,7 @@ mAtom
 nsnull
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -2072,7 +2072,7 @@ IsPermanent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -2089,7 +2089,7 @@ IsPermanent
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -3536,6 +3536,6 @@ NS_SealStaticAtomTable
 {
 gStaticAtomTableSealed
 =
-PR_TRUE
+true
 ;
 }

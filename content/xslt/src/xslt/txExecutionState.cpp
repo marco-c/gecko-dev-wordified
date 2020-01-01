@@ -2008,7 +2008,7 @@ PRUint32
 )
 -
 1
-PR_FALSE
+false
 )
 ;
 bool

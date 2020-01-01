@@ -1174,7 +1174,7 @@ UTF
 codepoint
 *
 return
-PR_TRUE
+true
 if
 the
 codepoint
@@ -1194,7 +1194,7 @@ RLM
 )
 *
 return
-PR_FALSE
+false
 otherwise
 *
 /
@@ -1215,7 +1215,7 @@ nsString
 .
 *
 return
-PR_TRUE
+true
 if
 the
 string

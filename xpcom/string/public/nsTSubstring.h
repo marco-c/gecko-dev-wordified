@@ -3045,11 +3045,11 @@ mutable
 *
 *
 returns
-PR_TRUE
+true
 on
 success
 *
-PR_FALSE
+false
 on
 out
 -
@@ -4266,7 +4266,7 @@ mLength
 newTotalLen
 ;
 return
-PR_TRUE
+true
 ;
 }
 return

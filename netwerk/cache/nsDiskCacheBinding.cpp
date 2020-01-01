@@ -1531,7 +1531,7 @@ nsDiskCacheBindery
 :
 initialized
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1611,7 +1611,7 @@ table
 ;
 initialized
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -2656,7 +2656,7 @@ PL_DHASH_NEXT
 ActiveBindings
 :
 return
-PR_TRUE
+true
 if
 any
 bindings
@@ -2689,7 +2689,7 @@ if
 initialized
 )
 return
-PR_FALSE
+false
 ;
 bool
 activeBinding

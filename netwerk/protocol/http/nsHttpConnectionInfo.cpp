@@ -835,7 +835,7 @@ if
 mProxyInfo
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 resolveFlags
@@ -862,7 +862,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 resolveFlags

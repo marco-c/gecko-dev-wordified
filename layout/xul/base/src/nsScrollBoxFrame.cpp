@@ -882,7 +882,7 @@ be
 safe
 mTrustedEvent
 =
-PR_FALSE
+false
 ;
 break
 ;

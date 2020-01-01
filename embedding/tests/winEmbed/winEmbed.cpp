@@ -1698,7 +1698,7 @@ nsCString
 (
 path
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 xuldir
@@ -1737,7 +1737,7 @@ nsCString
 (
 path
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 appdir
@@ -2521,7 +2521,7 @@ bottom
 rect
 .
 top
-PR_TRUE
+true
 )
 ;
 webBrowserAsWin
@@ -2529,7 +2529,7 @@ webBrowserAsWin
 >
 SetVisibility
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -4272,7 +4272,7 @@ locProvider
 ;
 NS_NewProfileDirServiceProvider
 (
-PR_TRUE
+true
 getter_AddRefs
 (
 locProvider
@@ -6288,7 +6288,7 @@ ShowWindow
 (
 *
 aNewWindow
-PR_TRUE
+true
 )
 ;
 return
@@ -6401,7 +6401,7 @@ NULL
 WM_QUIT
 aRunCondition
 =
-PR_FALSE
+false
 ;
 break
 ;

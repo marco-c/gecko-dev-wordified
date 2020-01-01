@@ -3911,7 +3911,7 @@ pointer
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 int
@@ -4342,7 +4342,7 @@ i
 ;
 writing
 =
-PR_TRUE
+true
 ;
 }
 tempBuffer
@@ -4521,7 +4521,7 @@ pointer
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -4819,7 +4819,7 @@ p2
 ;
 writing
 =
-PR_TRUE
+true
 ;
 if
 (

@@ -443,6 +443,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -599,6 +608,10 @@ UNLOCK_DOC
 (
 doc
 )
+using
+namespace
+mozilla
+;
 class
 OffsetEntry
 {
@@ -633,11 +646,11 @@ aLength
 )
 mIsInsertedText
 (
-PR_FALSE
+false
 )
 mIsValid
 (
-PR_TRUE
+true
 )
 {
 if
@@ -685,7 +698,7 @@ mLength
 ;
 mIsValid
 =
-PR_FALSE
+false
 ;
 }
 nsIDOMNode
@@ -870,7 +883,7 @@ TS_ATOM
 NS_RegisterStaticAtoms
 (
 ts_atoms
-NS_ARRAY_LENGTH
+ArrayLength
 (
 ts_atoms
 )
@@ -1686,7 +1699,7 @@ above
 .
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Found
 a
@@ -3039,7 +3052,7 @@ SetSelectionInternal
 aSelOffset
 *
 aSelLength
-PR_FALSE
+false
 )
 ;
 }
@@ -3108,7 +3121,7 @@ CreateDocumentContentRootToNodeOffsetRange
 (
 parent
 offset
-PR_FALSE
+false
 getter_AddRefs
 (
 range
@@ -4046,7 +4059,7 @@ CreateDocumentContentRootToNodeOffsetRange
 (
 parent
 offset
-PR_FALSE
+false
 getter_AddRefs
 (
 range
@@ -4950,7 +4963,7 @@ NS_ERROR_NULL_POINTER
 *
 aIsDone
 =
-PR_FALSE
+false
 ;
 NS_ENSURE_TRUE
 (
@@ -4976,9 +4989,9 @@ nsTextServicesDocument
 eIsDone
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 UNLOCK_DOC
 (
@@ -5033,7 +5046,7 @@ SetSelectionInternal
 (
 aOffset
 aLength
-PR_TRUE
+true
 )
 ;
 UNLOCK_DOC
@@ -5748,7 +5761,7 @@ entry
 >
 mIsValid
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -5890,7 +5903,7 @@ entry
 >
 mIsValid
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -6082,7 +6095,7 @@ entry
 >
 mIsValid
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -6124,7 +6137,7 @@ entry
 >
 mIsValid
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -7317,7 +7330,7 @@ itEntry
 >
 mIsInsertedText
 =
-PR_TRUE
+true
 ;
 itEntry
 -
@@ -7616,7 +7629,7 @@ itEntry
 >
 mIsInsertedText
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -7914,7 +7927,7 @@ itEntry
 >
 mIsInsertedText
 =
-PR_TRUE
+true
 ;
 itEntry
 -
@@ -8572,7 +8585,7 @@ entry
 >
 mIsValid
 =
-PR_FALSE
+false
 ;
 }
 nodeIndex
@@ -8784,7 +8797,7 @@ type
 NS_ENSURE_SUCCESS
 (
 result
-PR_FALSE
+false
 )
 ;
 if
@@ -8832,7 +8845,7 @@ type
 NS_ENSURE_SUCCESS
 (
 result
-PR_FALSE
+false
 )
 ;
 if
@@ -10434,7 +10447,7 @@ node
 !
 foundEntry
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -10726,7 +10739,7 @@ block
 and
 bail
 with
-PR_TRUE
+true
 if
 (
 aFilteredIter
@@ -10759,12 +10772,12 @@ DidSkip
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -10847,7 +10860,7 @@ IsBlockNode
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsIAtom
@@ -11075,7 +11088,7 @@ p1
 p2
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -11156,7 +11169,7 @@ aContent
 NS_ENSURE_TRUE
 (
 aContent
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -11191,7 +11204,7 @@ aNode
 NS_ENSURE_TRUE
 (
 aNode
-PR_FALSE
+false
 )
 ;
 PRUint16
@@ -11212,7 +11225,7 @@ type
 NS_ENSURE_SUCCESS
 (
 result
-PR_FALSE
+false
 )
 ;
 return
@@ -11441,7 +11454,7 @@ strEndOffset
 )
 foundEntry
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -11565,7 +11578,7 @@ entry
 .
 foundEntry
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -13656,7 +13669,7 @@ SetSelectionInternal
 aSelOffset
 *
 aSelLength
-PR_TRUE
+true
 )
 ;
 return
@@ -14531,7 +14544,7 @@ p1
 {
 found
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -14583,7 +14596,7 @@ o1
 ;
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -14632,7 +14645,7 @@ p2
 {
 found
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -14707,7 +14720,7 @@ Length
 ;
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -14729,7 +14742,7 @@ NS_ERROR_FAILURE
 }
 found
 =
-PR_FALSE
+false
 ;
 *
 aSelLength
@@ -14945,7 +14958,7 @@ mNodeOffset
 }
 found
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -16026,7 +16039,7 @@ content
 )
 crossedBlockBoundary
 =
-PR_TRUE
+true
 ;
 aIterator
 -
@@ -16048,7 +16061,7 @@ aIterator
 )
 crossedBlockBoundary
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -16791,7 +16804,7 @@ rngStartOffset
 ;
 adjustStr
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -16811,7 +16824,7 @@ rngEndOffset
 ;
 adjustStr
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -17446,7 +17459,7 @@ aNode
 *
 aHasEntry
 =
-PR_TRUE
+true
 ;
 *
 aEntryIndex
@@ -17461,7 +17474,7 @@ NS_OK
 *
 aHasEntry
 =
-PR_FALSE
+false
 ;
 *
 aEntryIndex

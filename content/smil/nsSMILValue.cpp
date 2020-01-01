@@ -712,7 +712,7 @@ aVal
 this
 )
 return
-PR_TRUE
+true
 ;
 return
 mType

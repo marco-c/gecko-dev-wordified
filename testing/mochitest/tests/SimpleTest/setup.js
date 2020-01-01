@@ -998,10 +998,9 @@ closeWhenDone
 tells
 us
 to
-call
-quit
-.
-js
+close
+the
+browser
 when
 complete
 if
@@ -1015,7 +1014,9 @@ TestRunner
 .
 onComplete
 =
-goQuitApplication
+SpecialPowers
+.
+quit
 ;
 }
 /

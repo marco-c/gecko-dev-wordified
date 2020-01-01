@@ -633,7 +633,7 @@ ARGB32
 .
 *
 Returns
-PR_TRUE
+true
 on
 success
 .

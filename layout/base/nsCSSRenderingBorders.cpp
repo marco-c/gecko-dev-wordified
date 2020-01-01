@@ -1434,7 +1434,7 @@ mBorderRadii
 ;
 mAvoidStroke
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -2185,7 +2185,7 @@ i
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -2271,7 +2271,7 @@ SIDE_BIT_RIGHT
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -2307,7 +2307,7 @@ case
 NS_STYLE_BORDER_STYLE_SOLID
 :
 return
-PR_TRUE
+true
 ;
 case
 NS_STYLE_BORDER_STYLE_INSET
@@ -2361,7 +2361,7 @@ mOneUnitBorder
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -4049,7 +4049,7 @@ RoundedRectangle
 (
 aOuterRect
 aBorderRadii
-PR_TRUE
+true
 )
 ;
 /
@@ -4067,7 +4067,7 @@ RoundedRectangle
 (
 aInnerRect
 innerRadii
-PR_FALSE
+false
 )
 ;
 mContext
@@ -4737,7 +4737,7 @@ r
 [
 i
 ]
-PR_TRUE
+true
 )
 ;
 mContext
@@ -10119,7 +10119,7 @@ boundaries
 .
 mAvoidStroke
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -10991,7 +10991,7 @@ mNoBorderRadius
 )
 forceSeparateCorners
 =
-PR_TRUE
+true
 ;
 S
 (
@@ -11165,7 +11165,7 @@ dashed
 dotting
 allBordersSame
 =
-PR_FALSE
+false
 ;
 dashedSides
 |

@@ -425,6 +425,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLTableSectionElem
 .
 h
@@ -506,6 +515,10 @@ nsContentUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 you
@@ -797,7 +810,7 @@ nsGkAtoms
 :
 :
 tr
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -1743,7 +1756,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

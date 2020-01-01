@@ -873,7 +873,7 @@ AddObserver
 "
 "
 this
-PR_TRUE
+true
 )
 ;
 PrefChanged
@@ -1617,7 +1617,7 @@ aFromPrefs
 *
 aFromPrefs
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1651,7 +1651,7 @@ values
 *
 aPermission
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1757,7 +1757,7 @@ aContentType
 *
 aFromPrefs
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -1790,7 +1790,7 @@ BEHAVIOR_ACCEPT
 *
 aPermission
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1800,7 +1800,7 @@ BEHAVIOR_REJECT
 *
 aPermission
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -2127,7 +2127,7 @@ Length
 *
 aPermission
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2265,7 +2265,7 @@ firstTail
 *
 aPermission
 =
-PR_FALSE
+false
 ;
 }
 break

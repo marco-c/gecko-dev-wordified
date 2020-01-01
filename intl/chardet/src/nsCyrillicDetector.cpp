@@ -945,7 +945,7 @@ maxIdx
 ;
 mDone
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -1365,7 +1365,7 @@ aLen
 *
 oDontFeedMe
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1925,7 +1925,7 @@ nsnull
 ;
 mDone
 =
-PR_FALSE
+false
 ;
 this
 -

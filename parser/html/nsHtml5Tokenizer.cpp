@@ -2215,11 +2215,11 @@ c
 ;
 shouldSuspend
 =
-PR_FALSE
+false
 ;
 lastCR
 =
-PR_FALSE
+false
 ;
 PRInt32
 start
@@ -2326,7 +2326,7 @@ buffer
 getBuffer
 (
 )
-PR_FALSE
+false
 returnState
 buffer
 -
@@ -2428,7 +2428,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2637,7 +2637,7 @@ Z
 {
 endTag
 =
-PR_FALSE
+false
 ;
 clearStrBufAndAppend
 (
@@ -2682,7 +2682,7 @@ z
 {
 endTag
 =
-PR_FALSE
+false
 ;
 clearStrBufAndAppend
 (
@@ -2819,7 +2819,7 @@ NS_HTML5TOKENIZER_DATA
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -2974,7 +2974,7 @@ state
 =
 emitCurrentTagToken
 (
-PR_FALSE
+false
 pos
 )
 ;
@@ -3065,7 +3065,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -3175,7 +3175,7 @@ state
 =
 emitCurrentTagToken
 (
-PR_FALSE
+false
 pos
 )
 ;
@@ -3447,7 +3447,7 @@ state
 =
 emitCurrentTagToken
 (
-PR_FALSE
+false
 pos
 )
 ;
@@ -3663,7 +3663,7 @@ NS_HTML5TOKENIZER_ATTRIBUTE_VALUE_UNQUOTED
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -3706,7 +3706,7 @@ state
 =
 emitCurrentTagToken
 (
-PR_FALSE
+false
 pos
 )
 ;
@@ -3794,7 +3794,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -4068,7 +4068,7 @@ state
 =
 emitCurrentTagToken
 (
-PR_FALSE
+false
 pos
 )
 ;
@@ -4098,7 +4098,7 @@ NS_HTML5TOKENIZER_BEFORE_ATTRIBUTE_NAME
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -4155,7 +4155,7 @@ state
 =
 emitCurrentTagToken
 (
-PR_TRUE
+true
 pos
 )
 ;
@@ -4185,7 +4185,7 @@ NS_HTML5TOKENIZER_BEFORE_ATTRIBUTE_NAME
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -4212,7 +4212,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -4361,7 +4361,7 @@ state
 =
 emitCurrentTagToken
 (
-PR_FALSE
+false
 pos
 )
 ;
@@ -4572,7 +4572,7 @@ state
 =
 emitCurrentTagToken
 (
-PR_FALSE
+false
 pos
 )
 ;
@@ -4810,7 +4810,7 @@ NS_HTML5TOKENIZER_BOGUS_COMMENT
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -4905,7 +4905,7 @@ NS_HTML5TOKENIZER_BOGUS_COMMENT
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -5873,7 +5873,7 @@ NS_HTML5TOKENIZER_BOGUS_COMMENT
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -5900,7 +5900,7 @@ NS_HTML5TOKENIZER_CDATA_SECTION
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -5924,7 +5924,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -6121,7 +6121,7 @@ NS_HTML5TOKENIZER_CDATA_SECTION
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -6216,7 +6216,7 @@ NS_HTML5TOKENIZER_CDATA_SECTION
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -6243,7 +6243,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -6507,7 +6507,7 @@ returnState
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -6560,7 +6560,7 @@ returnState
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -6653,7 +6653,7 @@ returnState
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -6793,7 +6793,7 @@ returnState
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -7165,7 +7165,7 @@ returnState
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -7326,7 +7326,7 @@ returnState
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -7453,7 +7453,7 @@ returnState
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -7501,7 +7501,7 @@ value
 ;
 seenDigits
 =
-PR_FALSE
+false
 ;
 switch
 (
@@ -7543,7 +7543,7 @@ NS_HTML5TOKENIZER_DECIMAL_NRC_LOOP
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -7565,7 +7565,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -7631,7 +7631,7 @@ c
 {
 seenDigits
 =
-PR_TRUE
+true
 ;
 value
 *
@@ -7769,7 +7769,7 @@ returnState
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -7800,7 +7800,7 @@ NS_HTML5TOKENIZER_HANDLE_NCR_VALUE
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_BREAK
 (
@@ -7903,7 +7903,7 @@ c
 {
 seenDigits
 =
-PR_TRUE
+true
 ;
 value
 *
@@ -7943,7 +7943,7 @@ F
 {
 seenDigits
 =
-PR_TRUE
+true
 ;
 value
 *
@@ -7985,7 +7985,7 @@ f
 {
 seenDigits
 =
-PR_TRUE
+true
 ;
 value
 *
@@ -8125,7 +8125,7 @@ returnState
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -8156,7 +8156,7 @@ NS_HTML5TOKENIZER_HANDLE_NCR_VALUE
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -8184,7 +8184,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -8447,7 +8447,7 @@ z
 {
 endTag
 =
-PR_TRUE
+true
 ;
 clearStrBufAndAppend
 (
@@ -8501,7 +8501,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -8673,7 +8673,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -8882,7 +8882,7 @@ returnState
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -9011,7 +9011,7 @@ returnState
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -9035,7 +9035,7 @@ else
 {
 endTag
 =
-PR_TRUE
+true
 ;
 tagName
 =
@@ -9132,7 +9132,7 @@ state
 =
 emitCurrentTagToken
 (
-PR_FALSE
+false
 pos
 )
 ;
@@ -9229,7 +9229,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -9538,7 +9538,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -9780,7 +9780,7 @@ NS_HTML5TOKENIZER_SCRIPT_DATA
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -9858,7 +9858,7 @@ NS_HTML5TOKENIZER_SCRIPT_DATA
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -9936,7 +9936,7 @@ NS_HTML5TOKENIZER_SCRIPT_DATA
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -10130,7 +10130,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -10547,7 +10547,7 @@ pos
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 state
 =
@@ -10651,7 +10651,7 @@ index
 {
 reconsume
 =
-PR_TRUE
+true
 ;
 state
 =
@@ -10752,7 +10752,7 @@ default
 {
 reconsume
 =
-PR_TRUE
+true
 ;
 state
 =
@@ -10787,7 +10787,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -11282,7 +11282,7 @@ default
 {
 reconsume
 =
-PR_TRUE
+true
 ;
 state
 =
@@ -11386,7 +11386,7 @@ index
 {
 reconsume
 =
-PR_TRUE
+true
 ;
 state
 =
@@ -11487,7 +11487,7 @@ default
 {
 reconsume
 =
-PR_TRUE
+true
 ;
 state
 =
@@ -11600,7 +11600,7 @@ NS_HTML5TOKENIZER_BOGUS_COMMENT
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -11623,7 +11623,7 @@ NS_HTML5TOKENIZER_DOCTYPE
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_BREAK
 (
@@ -11653,7 +11653,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -11761,7 +11761,7 @@ NS_HTML5TOKENIZER_BEFORE_DOCTYPE_NAME
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_BREAK
 (
@@ -11792,7 +11792,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -11884,7 +11884,7 @@ case
 {
 forceQuirks
 =
-PR_TRUE
+true
 ;
 emitDoctypeToken
 (
@@ -12422,7 +12422,7 @@ NS_HTML5TOKENIZER_BOGUS_DOCTYPE
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -12445,7 +12445,7 @@ NS_HTML5TOKENIZER_AFTER_DOCTYPE_PUBLIC_KEYWORD
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_BREAK
 (
@@ -12475,7 +12475,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -12620,7 +12620,7 @@ case
 {
 forceQuirks
 =
-PR_TRUE
+true
 ;
 emitDoctypeToken
 (
@@ -12798,7 +12798,7 @@ case
 {
 forceQuirks
 =
-PR_TRUE
+true
 ;
 emitDoctypeToken
 (
@@ -12908,7 +12908,7 @@ case
 {
 forceQuirks
 =
-PR_TRUE
+true
 ;
 publicIdentifier
 =
@@ -13420,7 +13420,7 @@ case
 {
 forceQuirks
 =
-PR_TRUE
+true
 ;
 systemIdentifier
 =
@@ -13649,7 +13649,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -13837,7 +13837,7 @@ NS_HTML5TOKENIZER_BOGUS_DOCTYPE
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -13863,7 +13863,7 @@ NS_HTML5TOKENIZER_AFTER_DOCTYPE_SYSTEM_KEYWORD
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_BREAK
 (
@@ -13893,7 +13893,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -14038,7 +14038,7 @@ case
 {
 forceQuirks
 =
-PR_TRUE
+true
 ;
 emitDoctypeToken
 (
@@ -14216,7 +14216,7 @@ case
 {
 forceQuirks
 =
-PR_TRUE
+true
 ;
 emitDoctypeToken
 (
@@ -14326,7 +14326,7 @@ case
 {
 forceQuirks
 =
-PR_TRUE
+true
 ;
 systemIdentifier
 =
@@ -14476,7 +14476,7 @@ case
 {
 forceQuirks
 =
-PR_TRUE
+true
 ;
 publicIdentifier
 =
@@ -14632,7 +14632,7 @@ nsnull
 }
 forceQuirks
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -14770,7 +14770,7 @@ bogusDoctype
 {
 forceQuirks
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -14783,7 +14783,7 @@ bogusDoctypeWithoutQuirks
 {
 forceQuirks
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -15355,7 +15355,7 @@ nsnull
 }
 forceQuirks
 =
-PR_TRUE
+true
 ;
 emitDoctypeToken
 (
@@ -15453,7 +15453,7 @@ NS_HTML5TOKENIZER_BEFORE_DOCTYPE_NAME
 {
 forceQuirks
 =
-PR_TRUE
+true
 ;
 emitDoctypeToken
 (
@@ -15476,7 +15476,7 @@ strBufToDoctypeName
 ;
 forceQuirks
 =
-PR_TRUE
+true
 ;
 emitDoctypeToken
 (
@@ -15510,7 +15510,7 @@ NS_HTML5TOKENIZER_BEFORE_DOCTYPE_PUBLIC_IDENTIFIER
 {
 forceQuirks
 =
-PR_TRUE
+true
 ;
 emitDoctypeToken
 (
@@ -15532,7 +15532,7 @@ NS_HTML5TOKENIZER_DOCTYPE_PUBLIC_IDENTIFIER_SINGLE_QUOTED
 {
 forceQuirks
 =
-PR_TRUE
+true
 ;
 publicIdentifier
 =
@@ -15563,7 +15563,7 @@ NS_HTML5TOKENIZER_BETWEEN_DOCTYPE_PUBLIC_AND_SYSTEM_IDENTIFIERS
 {
 forceQuirks
 =
-PR_TRUE
+true
 ;
 emitDoctypeToken
 (
@@ -15585,7 +15585,7 @@ NS_HTML5TOKENIZER_DOCTYPE_SYSTEM_IDENTIFIER_SINGLE_QUOTED
 {
 forceQuirks
 =
-PR_TRUE
+true
 ;
 systemIdentifier
 =
@@ -15610,7 +15610,7 @@ NS_HTML5TOKENIZER_AFTER_DOCTYPE_SYSTEM_IDENTIFIER
 {
 forceQuirks
 =
-PR_TRUE
+true
 ;
 emitDoctypeToken
 (
@@ -16406,7 +16406,7 @@ internalCharset
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -16638,7 +16638,7 @@ requestSuspension
 {
 shouldSuspend
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -16680,7 +16680,7 @@ NS_HTML5TOKENIZER_DATA
 ;
 lastCR
 =
-PR_FALSE
+false
 ;
 index
 =
@@ -16688,7 +16688,7 @@ index
 ;
 forceQuirks
 =
-PR_FALSE
+false
 ;
 additional
 =
@@ -16735,15 +16735,15 @@ value
 ;
 seenDigits
 =
-PR_FALSE
+false
 ;
 endTag
 =
-PR_FALSE
+false
 ;
 shouldSuspend
 =
-PR_FALSE
+false
 ;
 initDoctypeFields
 (
@@ -17024,7 +17024,7 @@ endTag
 ;
 shouldSuspend
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -17263,7 +17263,7 @@ initializeWithoutStarting
 {
 confident
 =
-PR_FALSE
+false
 ;
 strBuf
 =

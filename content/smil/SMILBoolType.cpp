@@ -495,7 +495,7 @@ mU
 .
 mBool
 =
-PR_FALSE
+false
 ;
 aValue
 .
@@ -537,7 +537,7 @@ mU
 .
 mBool
 =
-PR_FALSE
+false
 ;
 aValue
 .

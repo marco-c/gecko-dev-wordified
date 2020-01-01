@@ -1267,7 +1267,7 @@ HasChanged
 {
 mForceCompositing
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -1357,7 +1357,7 @@ OOM
 ;
 mForceCompositing
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1387,7 +1387,7 @@ aBaseValue
 ;
 mForceCompositing
 =
-PR_TRUE
+true
 ;
 }
 }

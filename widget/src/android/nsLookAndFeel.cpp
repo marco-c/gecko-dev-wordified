@@ -640,7 +640,7 @@ mSystemColors
 ;
 mInitializedSystemColors
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -797,7 +797,7 @@ colorsCount
 ;
 mInitializedSystemColors
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2198,7 +2198,7 @@ mShowPassword
 }
 mInitializedShowPassword
 =
-PR_TRUE
+true
 ;
 }
 return

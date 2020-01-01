@@ -959,7 +959,7 @@ param
 aState
 set
 to
-PR_TRUE
+true
 if
 the
 checked
@@ -967,7 +967,7 @@ attribute
 is
 set
 *
-PR_FALSE
+false
 if
 the
 checked

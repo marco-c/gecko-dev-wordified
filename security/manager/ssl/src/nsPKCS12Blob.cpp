@@ -718,7 +718,7 @@ nsnull
 )
 mTokenSet
 (
-PR_FALSE
+false
 )
 {
 mUIContext
@@ -843,7 +843,7 @@ slot
 }
 mTokenSet
 =
-PR_TRUE
+true
 ;
 return
 rv
@@ -976,7 +976,7 @@ mToken
 >
 Login
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -1534,7 +1534,7 @@ SECITEM_ZfreeItem
 (
 &
 unicodePw
-PR_FALSE
+false
 )
 ;
 return
@@ -1810,7 +1810,7 @@ SECSuccess
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1855,7 +1855,7 @@ SECITEM_FreeItem
 (
 &
 value
-PR_FALSE
+false
 )
 ;
 return
@@ -2041,7 +2041,7 @@ mToken
 >
 Login
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -2494,7 +2494,7 @@ InformedUserNoSmartcardBackup
 {
 InformedUserNoSmartcardBackup
 =
-PR_TRUE
+true
 ;
 handleError
 (
@@ -2619,7 +2619,7 @@ CERT_GetDefaultCertDB
 XXX
 keySafe
 NULL
-PR_TRUE
+true
 &
 unicodePw
 SEC_OID_PKCS12_V2_PBE_WITH_SHA1_AND_3KEY_TRIPLE_DES_CBC
@@ -2728,7 +2728,7 @@ RFind
 .
 p12
 "
-PR_TRUE
+true
 -
 1
 4
@@ -2937,7 +2937,7 @@ SECITEM_ZfreeItem
 (
 &
 unicodePw
-PR_FALSE
+false
 )
 ;
 return
@@ -3675,7 +3675,7 @@ rv
 }
 while
 (
-PR_TRUE
+true
 )
 {
 rv
@@ -4439,7 +4439,7 @@ locker
 *
 cancel
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -5125,7 +5125,7 @@ inBufLen
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

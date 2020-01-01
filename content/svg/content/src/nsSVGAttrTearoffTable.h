@@ -747,7 +747,7 @@ nsnull
 {
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 There
 is

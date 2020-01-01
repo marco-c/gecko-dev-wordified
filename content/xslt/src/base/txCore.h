@@ -725,11 +725,11 @@ MBool
 #
 define
 MB_TRUE
-PR_TRUE
+true
 #
 define
 MB_FALSE
-PR_FALSE
+false
 /
 /
 XXX

@@ -994,7 +994,7 @@ drop
 "
 )
 mMouseListener
-PR_FALSE
+false
 )
 ;
 dragTarget
@@ -1009,7 +1009,7 @@ dragover
 "
 )
 mMouseListener
-PR_FALSE
+false
 )
 ;
 }
@@ -1054,7 +1054,7 @@ mBrowse
 >
 GetListenerManager
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -1091,7 +1091,7 @@ mTextContent
 >
 GetListenerManager
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -1226,7 +1226,7 @@ captureEnabled
 NS_ENSURE_SUCCESS
 (
 rv
-PR_TRUE
+true
 )
 ;
 if
@@ -1246,7 +1246,7 @@ nsICapturePicker
 MODE_STILL
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1287,7 +1287,7 @@ captureEnabled
 NS_ENSURE_SUCCESS
 (
 rv
-PR_TRUE
+true
 )
 ;
 if
@@ -1307,7 +1307,7 @@ nsICapturePicker
 MODE_AUDIO_CLIP
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1348,7 +1348,7 @@ captureEnabled
 NS_ENSURE_SUCCESS
 (
 rv
-PR_TRUE
+true
 )
 ;
 if
@@ -1368,7 +1368,7 @@ nsICapturePicker
 MODE_VIDEO_CLIP
 ;
 return
-PR_FALSE
+false
 ;
 }
 rv
@@ -1392,7 +1392,7 @@ captureEnabled
 NS_ENSURE_SUCCESS
 (
 rv
-PR_TRUE
+true
 )
 ;
 if
@@ -1412,12 +1412,12 @@ nsICapturePicker
 MODE_VIDEO_NO_SOUND_CLIP
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -1557,7 +1557,7 @@ NS_LITERAL_STRING
 text
 "
 )
-PR_FALSE
+false
 )
 ;
 nsHTMLInputElement
@@ -1675,7 +1675,7 @@ textControl
 >
 SetReadOnly
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -1732,7 +1732,7 @@ drop
 "
 )
 mMouseListener
-PR_FALSE
+false
 )
 ;
 dragTarget
@@ -1747,7 +1747,7 @@ dragover
 "
 )
 mMouseListener
-PR_FALSE
+false
 )
 ;
 NS_NAMED_LITERAL_STRING
@@ -1767,7 +1767,7 @@ mTextContent
 >
 GetListenerManager
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_STATE
@@ -1898,7 +1898,7 @@ NS_LITERAL_STRING
 button
 "
 )
-PR_FALSE
+false
 )
 ;
 /
@@ -2067,7 +2067,7 @@ NS_LITERAL_STRING
 button
 "
 )
-PR_FALSE
+false
 )
 ;
 mCapture
@@ -2086,7 +2086,7 @@ NS_LITERAL_STRING
 capture
 "
 )
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -2107,7 +2107,7 @@ AddEventListener
 (
 click
 mCaptureMouseListener
-PR_FALSE
+false
 )
 ;
 }
@@ -2234,7 +2234,7 @@ target
 >
 GetListenerManager
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_STATE
@@ -2398,7 +2398,7 @@ mouseEvent
 &
 &
 domNSEvent
-PR_FALSE
+false
 )
 ;
 bool
@@ -2421,7 +2421,7 @@ defaultPrevented
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRUint16
@@ -2449,7 +2449,7 @@ whichButton
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -2476,11 +2476,11 @@ clickCount
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2970,7 +2970,7 @@ mTextFrame
 >
 SetFireChangeEventState
 (
-PR_TRUE
+true
 )
 ;
 inputElement
@@ -3376,7 +3376,7 @@ mTextFrame
 >
 SetFireChangeEventState
 (
-PR_TRUE
+true
 )
 ;
 inputElement
@@ -3453,7 +3453,7 @@ dataTransfer
 NS_ENSURE_TRUE
 (
 dataTransfer
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -3476,7 +3476,7 @@ types
 NS_ENSURE_TRUE
 (
 types
-PR_FALSE
+false
 )
 ;
 /
@@ -3844,7 +3844,7 @@ SetAttr
 aNameSpaceID
 aAttribute
 value
-PR_TRUE
+true
 )
 ;
 }
@@ -3866,7 +3866,7 @@ SetAttr
 aNameSpaceID
 aAttribute
 value
-PR_TRUE
+true
 )
 ;
 }
@@ -3890,7 +3890,7 @@ UnsetAttr
 (
 aNameSpaceID
 aAttribute
-PR_TRUE
+true
 )
 ;
 }
@@ -3911,7 +3911,7 @@ UnsetAttr
 (
 aNameSpaceID
 aAttribute
-PR_TRUE
+true
 )
 ;
 }
@@ -3963,7 +3963,7 @@ disabled
 EmptyString
 (
 )
-PR_TRUE
+true
 )
 ;
 mBrowse
@@ -3979,7 +3979,7 @@ disabled
 EmptyString
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -3995,7 +3995,7 @@ nsGkAtoms
 :
 :
 disabled
-PR_TRUE
+true
 )
 ;
 mBrowse
@@ -4008,7 +4008,7 @@ nsGkAtoms
 :
 :
 disabled
-PR_TRUE
+true
 )
 ;
 }
@@ -4132,7 +4132,7 @@ IsLeaf
 const
 {
 return
-PR_TRUE
+true
 ;
 }
 #

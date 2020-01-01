@@ -1261,10 +1261,10 @@ eReservedMask
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2628,7 +2628,7 @@ mEntryCount
 )
 mIsDirty
 (
-PR_TRUE
+true
 )
 mRecordCount
 (
@@ -3035,7 +3035,7 @@ void
 )
 Close
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -3332,7 +3332,7 @@ mHeader
 .
 mIsDirty
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -3381,7 +3381,7 @@ mHeader
 .
 mIsDirty
 =
-PR_TRUE
+true
 ;
 }
 inline

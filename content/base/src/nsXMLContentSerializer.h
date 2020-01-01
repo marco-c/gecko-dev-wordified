@@ -1311,7 +1311,7 @@ handling
 *
 param
 aIsAttribute
-PR_TRUE
+true
 if
 we
 '
@@ -1325,7 +1325,7 @@ attribute
 .
 *
 return
-PR_TRUE
+true
 if
 we
 need
@@ -1533,12 +1533,12 @@ by
 setting
 aForceFormat
 to
-PR_TRUE
+true
 .
 *
 return
 boolean
-PR_TRUE
+true
 if
 the
 element
@@ -1707,12 +1707,12 @@ by
 setting
 aForceFormat
 to
-PR_TRUE
+true
 .
 *
 return
 boolean
-PR_TRUE
+true
 if
 the
 element
@@ -1790,7 +1790,7 @@ aStr
 *
 *
 Returns
-PR_TRUE
+true
 if
 a
 line
@@ -1821,7 +1821,7 @@ aName
 *
 *
 Returns
-PR_TRUE
+true
 if
 a
 line
@@ -1852,7 +1852,7 @@ aName
 *
 *
 Returns
-PR_TRUE
+true
 if
 a
 line
@@ -1883,7 +1883,7 @@ aName
 *
 *
 Returns
-PR_TRUE
+true
 if
 a
 line

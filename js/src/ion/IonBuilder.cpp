@@ -12137,7 +12137,7 @@ if
 obj
 -
 >
-lookupProperty
+lookupGeneric
 (
 cx
 id

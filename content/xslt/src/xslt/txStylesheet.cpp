@@ -760,7 +760,7 @@ new
 txValueOf
 (
 nodeExpr
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -1627,7 +1627,7 @@ frameCount
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 txXPathTreeWalker
@@ -1672,7 +1672,7 @@ moveToParent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -1699,7 +1699,7 @@ node
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1772,7 +1772,7 @@ node
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult

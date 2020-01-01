@@ -1288,7 +1288,7 @@ MutationFailed
 {
 mNeedsRebuild
 =
-PR_TRUE
+true
 ;
 }
 private
@@ -1342,7 +1342,7 @@ mSelect
 /
 *
 *
-PR_TRUE
+true
 if
 the
 current
@@ -1363,7 +1363,7 @@ mTopLevelMutation
 /
 *
 *
-PR_TRUE
+true
 if
 it
 is
@@ -3418,7 +3418,7 @@ multiple
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRInt32

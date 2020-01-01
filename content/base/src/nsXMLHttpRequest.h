@@ -1032,7 +1032,7 @@ DispatchProgressEvent
 (
 aTarget
 aType
-PR_FALSE
+false
 aLengthComputable
 aLoaded
 aTotal

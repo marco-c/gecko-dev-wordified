@@ -2700,7 +2700,7 @@ aObservesElement
 )
 mResolved
 (
-PR_FALSE
+false
 )
 {
 }
@@ -2809,7 +2809,7 @@ aOverlay
 )
 mResolved
 (
-PR_FALSE
+false
 )
 {
 }
@@ -3627,11 +3627,11 @@ aAttr
 )
 mSetAttr
 (
-PR_FALSE
+false
 )
 mNeedsAttrChange
 (
-PR_FALSE
+false
 )
 {
 }

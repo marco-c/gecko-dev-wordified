@@ -1489,7 +1489,7 @@ anything
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1827,7 +1827,7 @@ anything
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2003,7 +2003,7 @@ aStream
 >
 ReadObject
 (
-PR_TRUE
+true
 getter_AddRefs
 (
 supports
@@ -2216,7 +2216,7 @@ NS_GET_IID
 (
 nsISupports
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -2269,7 +2269,7 @@ aIter
 )
 )
 return
-PR_FALSE
+false
 ;
 IPC
 :
@@ -2289,14 +2289,14 @@ uri
 )
 )
 return
-PR_FALSE
+false
 ;
 mBaseURI
 =
 uri
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -2474,7 +2474,7 @@ url
 >
 SetMutable
 (
-PR_FALSE
+false
 )
 ;
 return

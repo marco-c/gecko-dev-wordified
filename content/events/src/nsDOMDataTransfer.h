@@ -862,7 +862,7 @@ SetReadOnly
 {
 mReadOnly
 =
-PR_TRUE
+true
 ;
 }
 /

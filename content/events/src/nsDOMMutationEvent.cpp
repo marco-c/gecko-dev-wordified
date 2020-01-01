@@ -476,7 +476,7 @@ aEvent
 new
 nsMutationEvent
 (
-PR_FALSE
+false
 0
 )
 )

@@ -679,7 +679,7 @@ nsSortState
 :
 initialized
 (
-PR_FALSE
+false
 )
 sortHints
 (

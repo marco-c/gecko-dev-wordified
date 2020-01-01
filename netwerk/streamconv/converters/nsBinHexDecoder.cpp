@@ -2663,7 +2663,7 @@ BINHEX_STATE_START
 {
 foundStart
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2738,7 +2738,7 @@ c
 {
 foundStart
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3536,8 +3536,8 @@ nsIOService
 :
 :
 gDefaultSegmentSize
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 /

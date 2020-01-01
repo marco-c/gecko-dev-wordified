@@ -480,6 +480,15 @@ themselves
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsNullPrincipal
 .
 h
@@ -547,6 +556,10 @@ nsScriptSecurityManager
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_IMPL_CLASSINFO
 (
 nsNullPrincipal
@@ -812,7 +825,7 @@ NSID_LENGTH
 PRUint32
 prefixLen
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 NS_NULLPRINCIPAL_PREFIX
 )
@@ -1000,7 +1013,7 @@ nsnull
 *
 aIsTrusted
 =
-PR_FALSE
+false
 ;
 return
 NS_ERROR_FAILURE
@@ -1340,7 +1353,7 @@ say
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1657,7 +1670,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

@@ -525,7 +525,7 @@ firefox
 /
 *
 return
-PR_TRUE
+true
 if
 any
 profiles

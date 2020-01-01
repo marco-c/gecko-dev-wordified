@@ -1178,13 +1178,13 @@ state
 *
 param
 aApplicable
-PR_TRUE
+true
 if
 the
 sheet
 is
 applicable
-PR_FALSE
+false
 if
 *
 it

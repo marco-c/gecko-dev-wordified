@@ -1157,12 +1157,12 @@ behavior
 is
 visual
 (
-PR_TRUE
+true
 )
 or
 logical
 (
-PR_FALSE
+false
 )
 .
 /
@@ -1279,7 +1279,7 @@ in
 .
 /
 /
-PR_FALSE
+false
 means
 "
 the
@@ -1294,7 +1294,7 @@ caret
 "
 /
 /
-PR_TRUE
+true
 means
 "
 the
@@ -3013,7 +3013,7 @@ visible
 param
 aForward
 if
-PR_TRUE
+true
 scroll
 forward
 if
@@ -3024,7 +3024,7 @@ backward
 param
 aExtend
 if
-PR_TRUE
+true
 extend
 selection
 to
@@ -3962,7 +3962,7 @@ node
 param
 aJumpLines
 If
-PR_TRUE
+true
 look
 across
 line
@@ -3970,7 +3970,7 @@ boundaries
 .
 *
 If
-PR_FALSE
+false
 behave
 as
 if

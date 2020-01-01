@@ -1090,7 +1090,7 @@ IsEmpty
 )
 match
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1833,7 +1833,7 @@ aResult
 )
 )
 return
-PR_FALSE
+false
 ;
 condition
 =
@@ -1904,7 +1904,7 @@ match
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1983,11 +1983,11 @@ aTargetVariable
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult

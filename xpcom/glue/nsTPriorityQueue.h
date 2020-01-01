@@ -752,7 +752,7 @@ b
 a
 )
 returns
-PR_TRUE
+true
 .
 (
 Since
@@ -780,7 +780,7 @@ b
 )
 returns
 *
-PR_FALSE
+false
 .
 )
 *
@@ -833,10 +833,10 @@ to
 add
 *
 return
-PR_TRUE
+true
 on
 success
-PR_FALSE
+false
 on
 out
 of
@@ -870,7 +870,7 @@ if
 elem
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -945,7 +945,7 @@ parent
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -998,7 +998,7 @@ b
 a
 )
 returns
-PR_TRUE
+true
 .
 *
 see

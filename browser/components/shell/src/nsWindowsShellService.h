@@ -491,7 +491,7 @@ nsWindowsShellService
 :
 mCheckedThisSession
 (
-PR_FALSE
+false
 )
 {
 }

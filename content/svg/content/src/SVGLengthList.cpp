@@ -895,7 +895,7 @@ Length
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -936,12 +936,12 @@ i
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 }

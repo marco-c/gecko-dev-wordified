@@ -1057,7 +1057,7 @@ nsnull
 ;
 mSetParentPointer
 =
-PR_FALSE
+false
 ;
 }
 }

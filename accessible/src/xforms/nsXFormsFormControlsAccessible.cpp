@@ -4450,7 +4450,7 @@ GetAllowsAnonChildAccessibles
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /

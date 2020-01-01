@@ -479,7 +479,7 @@ mCookiesLifetimePolicy
 ACCEPT_NORMALLY
 mCookiesAlwaysAcceptSession
 (
-PR_FALSE
+false
 )
 {
 }

@@ -527,7 +527,7 @@ SurfaceDescriptor
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -548,7 +548,7 @@ SurfaceDescriptor
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -585,7 +585,7 @@ SurfaceDescriptor
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -613,7 +613,7 @@ SurfaceDescriptor
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /

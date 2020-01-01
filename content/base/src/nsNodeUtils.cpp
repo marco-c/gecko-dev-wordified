@@ -1884,7 +1884,7 @@ aNode
 >
 ClearForm
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1931,7 +1931,7 @@ nsContentUtils
 GetListenerManager
 (
 aNode
-PR_FALSE
+false
 )
 ;
 if
@@ -2816,7 +2816,7 @@ nsIDOMUserDataHandler
 :
 :
 NODE_CLONED
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2985,7 +2985,7 @@ Then
 if
 aDeep
 is
-PR_TRUE
+true
 deal
 with
 aNode
@@ -3330,7 +3330,7 @@ get
 (
 )
 )
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3583,7 +3583,7 @@ aNode
 >
 GetListenerManager
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -4359,7 +4359,7 @@ CloneAndAdopt
 (
 cloneChild
 aClone
-PR_TRUE
+true
 nodeInfoManager
 aCx
 aNewScope

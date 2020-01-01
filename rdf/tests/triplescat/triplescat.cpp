@@ -1303,7 +1303,7 @@ remote
 >
 Refresh
 (
-PR_FALSE
+false
 )
 ;
 RETURN_IF_FAILED

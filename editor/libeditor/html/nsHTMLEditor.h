@@ -2596,7 +2596,7 @@ EndOperation
 *
 *
 returns
-PR_TRUE
+true
 if
 aParentTag
 can
@@ -2626,7 +2626,7 @@ aChildTag
 *
 *
 returns
-PR_TRUE
+true
 if
 aNode
 is
@@ -4005,7 +4005,7 @@ content
 based
 query
 returns
-PR_TRUE
+true
 if
 <
 aProperty
@@ -4134,7 +4134,7 @@ aIsSet
 [
 OUT
 ]
-PR_TRUE
+true
 if
 <
 aProperty
@@ -4172,7 +4172,7 @@ aIsSet
 is
 returned
 as
-PR_FALSE
+false
 ;
 *
 /

@@ -1215,7 +1215,7 @@ as
 .
 mMarked
 =
-PR_TRUE
+true
 ;
 }
 inline
@@ -1244,7 +1244,7 @@ as
 .
 mMarked
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -1470,7 +1470,7 @@ mRefCnt
 )
 mHashEntry
 (
-PR_TRUE
+true
 )
 {
 MOZ_COUNT_CTOR
@@ -1535,7 +1535,7 @@ mRefCnt
 )
 mHashEntry
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -1604,7 +1604,7 @@ as
 .
 mMarked
 =
-PR_FALSE
+false
 ;
 }
 Assertion
@@ -3161,7 +3161,7 @@ mValue
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3248,7 +3248,7 @@ mValue
 }
 foundIt
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -3351,7 +3351,7 @@ foundIt
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3361,7 +3361,7 @@ NS_OK
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -4207,7 +4207,7 @@ mCurrent
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4284,7 +4284,7 @@ itemCount
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4559,7 +4559,7 @@ next
 {
 alreadyReturned
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -4583,7 +4583,7 @@ mCurrent
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4593,7 +4593,7 @@ NS_OK
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -5052,7 +5052,7 @@ nsnull
 ;
 mPropagateChanges
 =
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -6544,7 +6544,7 @@ mTruthValue
 *
 hasAssertion
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -6643,7 +6643,7 @@ it
 *
 hasAssertion
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -6665,7 +6665,7 @@ assertion
 *
 hasAssertion
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -7800,7 +7800,7 @@ break
 }
 first
 =
-PR_FALSE
+false
 ;
 prev
 =
@@ -8188,7 +8188,7 @@ ifdef
 DEBUG
 foundReverseArc
 =
-PR_TRUE
+true
 ;
 #
 endif
@@ -8664,7 +8664,7 @@ LockedAssert
 aSource
 aProperty
 aNewTarget
-PR_TRUE
+true
 )
 ;
 if
@@ -8949,7 +8949,7 @@ LockedAssert
 aNewSource
 aProperty
 aTarget
-PR_TRUE
+true
 )
 ;
 if
@@ -9241,7 +9241,7 @@ aArc
 *
 result
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -9262,7 +9262,7 @@ mInvNext
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -9354,7 +9354,7 @@ val
 *
 result
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -9397,7 +9397,7 @@ aArc
 *
 result
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -9414,7 +9414,7 @@ mNext
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -9762,7 +9762,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -10688,7 +10688,7 @@ Mark
 *
 aDidMark
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -10814,7 +10814,7 @@ Mark
 *
 aDidMark
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -10852,7 +10852,7 @@ assertion
 *
 aDidMark
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -11845,7 +11845,7 @@ Visit
 subject
 nsnull
 nsnull
-PR_TRUE
+true
 )
 ;
 if

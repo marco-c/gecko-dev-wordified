@@ -1207,7 +1207,7 @@ frame
 =
 GetFrame
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -1650,7 +1650,7 @@ frame
 =
 GetFrame
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -2191,7 +2191,7 @@ propertyValue
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2299,7 +2299,7 @@ frame
 =
 GetFrame
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -2383,7 +2383,7 @@ frame
 =
 GetFrame
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -2478,7 +2478,7 @@ frame
 =
 GetFrame
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -2521,7 +2521,7 @@ frame
 =
 GetFrame
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -2616,7 +2616,7 @@ frame
 =
 GetFrame
 (
-PR_FALSE
+false
 )
 ;
 if

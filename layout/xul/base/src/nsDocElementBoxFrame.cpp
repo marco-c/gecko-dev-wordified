@@ -599,7 +599,7 @@ nsBoxFrame
 (
 aShell
 aContext
-PR_TRUE
+true
 )
 {
 }
@@ -662,7 +662,7 @@ eReplaced
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 nsBoxFrame
@@ -1054,7 +1054,7 @@ NS_LITERAL_STRING
 true
 "
 )
-PR_FALSE
+false
 )
 ;
 if

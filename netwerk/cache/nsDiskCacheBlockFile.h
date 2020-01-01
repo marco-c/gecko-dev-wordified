@@ -678,7 +678,7 @@ mFileSize
 )
 mBitMapDirty
 (
-PR_FALSE
+false
 )
 {
 }
@@ -692,7 +692,7 @@ void
 )
 Close
 (
-PR_TRUE
+true
 )
 ;
 }

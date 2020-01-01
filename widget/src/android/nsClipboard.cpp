@@ -959,7 +959,7 @@ NS_OUTPARAM
 *
 aHasText
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1041,7 +1041,7 @@ NS_OUTPARAM
 *
 aIsSupported
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

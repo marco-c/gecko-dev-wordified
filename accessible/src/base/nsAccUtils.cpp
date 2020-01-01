@@ -2046,11 +2046,11 @@ eCaseMatters
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsIAtom
@@ -3343,7 +3343,7 @@ off
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 ePoliteLiveAttr
@@ -3358,11 +3358,11 @@ polite
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -3427,7 +3427,7 @@ we
 need
 to
 return
-PR_TRUE
+true
 ;
 }
 PRInt32
@@ -3475,7 +3475,7 @@ child
 {
 foundText
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3509,11 +3509,11 @@ if
 text
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -4116,7 +4116,7 @@ cells
 AppendElement
 (
 cell
-PR_FALSE
+false
 )
 ;
 }

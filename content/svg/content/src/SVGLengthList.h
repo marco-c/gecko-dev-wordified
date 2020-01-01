@@ -847,7 +847,7 @@ may
 fail
 (
 return
-PR_FALSE
+false
 )
 on
 OOM
@@ -1535,7 +1535,7 @@ mAxis
 )
 mCanZeroPadList
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1730,7 +1730,7 @@ this
 method
 will
 return
-PR_TRUE
+true
 .
 If
 appending
@@ -1775,7 +1775,7 @@ this
 method
 will
 return
-PR_FALSE
+false
 .
 *
 *
@@ -1815,7 +1815,7 @@ If
 this
 method
 returns
-PR_TRUE
+true
 then
 it
 can

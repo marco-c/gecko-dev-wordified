@@ -450,6 +450,15 @@ BLOCK
 /
 #
 include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
+include
 <
 stdio
 .
@@ -931,6 +940,10 @@ Explorer
 SearchUrl
 "
 )
+using
+namespace
+mozilla
+;
 const
 int
 sInitialCookieBufferSize
@@ -2075,7 +2088,7 @@ skip
 false
 comma
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -2104,7 +2117,7 @@ source
 )
 skip
 =
-PR_FALSE
+false
 ;
 else
 if
@@ -2119,7 +2132,7 @@ source
 )
 skip
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3333,7 +3346,7 @@ aStartup
 {
 aReplace
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -3558,7 +3571,7 @@ exists
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3578,7 +3591,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -4222,7 +4235,7 @@ if
 regKey
 )
 return
-PR_FALSE
+false
 ;
 NS_NAMED_LITERAL_STRING
 (
@@ -4268,7 +4281,7 @@ ACCESS_QUERY_VALUE
 )
 )
 return
-PR_FALSE
+false
 ;
 nsAutoString
 iePath
@@ -4290,7 +4303,7 @@ iePath
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -4328,7 +4341,7 @@ bufLength
 /
 Error
 return
-PR_FALSE
+false
 ;
 nsAutoArrayPtr
 <
@@ -4349,7 +4362,7 @@ if
 destination
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4368,7 +4381,7 @@ bufLength
 )
 )
 return
-PR_FALSE
+false
 ;
 iePath
 =
@@ -4439,7 +4452,7 @@ lf
 NS_NewLocalFile
 (
 iePath
-PR_TRUE
+true
 getter_AddRefs
 (
 lf
@@ -4463,7 +4476,7 @@ if
 lfw
 )
 return
-PR_FALSE
+false
 ;
 nsAutoString
 ieVersion
@@ -4485,7 +4498,7 @@ ieVersion
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4518,7 +4531,7 @@ index
 0
 )
 return
-PR_FALSE
+false
 ;
 ieVersion
 .
@@ -4562,11 +4575,11 @@ greater
 major
 version
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -4638,7 +4651,7 @@ rv
 =
 CopyHistoryBatched
 (
-PR_FALSE
+false
 )
 ;
 break
@@ -4650,7 +4663,7 @@ rv
 =
 CopyHistoryBatched
 (
-PR_TRUE
+true
 )
 ;
 break
@@ -4662,7 +4675,7 @@ rv
 =
 CopyFavoritesBatched
 (
-PR_FALSE
+false
 )
 ;
 break
@@ -4674,7 +4687,7 @@ rv
 =
 CopyFavoritesBatched
 (
-PR_TRUE
+true
 )
 ;
 break
@@ -8376,7 +8389,7 @@ aKey
 )
 )
 return
-PR_FALSE
+false
 ;
 bool
 validScheme
@@ -8487,7 +8500,7 @@ validScheme
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -10846,7 +10859,7 @@ favoritesDirectory
 folder
 bms
 personalToolbarFolderName
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -11742,7 +11755,7 @@ rv
 NS_NewLocalFile
 (
 path
-PR_TRUE
+true
 getter_AddRefs
 (
 localFile
@@ -11995,7 +12008,7 @@ currFile
 folderId
 aBMS
 aPersonalToolbarFolderName
-PR_FALSE
+false
 )
 ;
 if
@@ -12186,9 +12199,7 @@ entry
 *
 endEntry
 =
-gRegEntries
-+
-NS_ARRAY_LENGTH
+ArrayEnd
 (
 gRegEntries
 )
@@ -12333,7 +12344,7 @@ Close
 ;
 regKeyOpen
 =
-PR_FALSE
+false
 ;
 }
 regKeyOpen
@@ -13740,7 +13751,7 @@ hostCopy
 )
 stringName
 stringPath
-PR_FALSE
+false
 )
 ;
 PRNetAddr
@@ -13762,7 +13773,7 @@ PR_SUCCESS
 )
 isIPAddress
 =
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -13809,11 +13820,11 @@ flagsValue
 /
 /
 isSecure
-PR_FALSE
+false
 /
 /
 isHttpOnly
-PR_FALSE
+false
 /
 /
 isSession
@@ -14846,7 +14857,7 @@ value
 5
 )
 &
-PR_TRUE
+true
 )
 ;
 aPrefs
@@ -14866,7 +14877,7 @@ value
 7
 )
 &
-PR_TRUE
+true
 )
 ;
 }
@@ -15183,7 +15194,7 @@ ftp
 =
 "
 4
-PR_FALSE
+false
 "
 network
 .
@@ -15205,7 +15216,7 @@ http
 =
 "
 5
-PR_FALSE
+false
 "
 network
 .
@@ -15227,7 +15238,7 @@ https
 =
 "
 6
-PR_FALSE
+false
 "
 network
 .
@@ -15249,7 +15260,7 @@ socks
 =
 "
 6
-PR_FALSE
+false
 "
 network
 .
@@ -15289,7 +15300,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data
 )
@@ -15327,7 +15338,7 @@ offset
 {
 foundSpecificProxy
 =
-PR_TRUE
+true
 ;
 data
 [
@@ -15336,7 +15347,7 @@ i
 .
 proxyConfigured
 =
-PR_TRUE
+true
 ;
 startIndex
 =
@@ -15462,7 +15473,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data
 )
@@ -15501,7 +15512,7 @@ proxy
 .
 share_proxy_settings
 "
-PR_TRUE
+true
 )
 ;
 }

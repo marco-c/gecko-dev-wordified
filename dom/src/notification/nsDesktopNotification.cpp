@@ -951,11 +951,11 @@ uri
 )
 mAllow
 (
-PR_FALSE
+false
 )
 mShowHasBeenCalled
 (
-PR_FALSE
+false
 )
 {
 mOwner
@@ -1053,7 +1053,7 @@ true
 {
 mAllow
 =
-PR_TRUE
+true
 ;
 return
 ;
@@ -1355,8 +1355,8 @@ event
 InitEvent
 (
 aName
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 if
@@ -1383,7 +1383,7 @@ privateEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 DispatchDOMEvent
@@ -1521,7 +1521,7 @@ Show
 {
 mShowHasBeenCalled
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2142,7 +2142,7 @@ mDesktopNotification
 >
 SetAllow
 (
-PR_FALSE
+false
 )
 ;
 mDesktopNotification
@@ -2166,7 +2166,7 @@ mDesktopNotification
 >
 SetAllow
 (
-PR_TRUE
+true
 )
 ;
 mDesktopNotification
