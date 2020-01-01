@@ -1428,6 +1428,14 @@ NaN
 NaNAtom
 *
 /
+"
+builder
+"
+/
+*
+builderAtom
+*
+/
 #
 if
 JS_HAS_XML_SUPPORT
