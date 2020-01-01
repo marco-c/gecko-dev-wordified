@@ -2054,12 +2054,9 @@ const
 MSG
 &
 aMsg
-LRESULT
-*
-aRetValue
-bool
+MSGResult
 &
-aCallDefWndProc
+aResult
 )
 ;
 LRESULT
