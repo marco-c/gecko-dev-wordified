@@ -1526,7 +1526,7 @@ widget
 >
 GetNativeData
 (
-NS_NATIVE_WINDOW
+NS_NATIVE_TMP_WINDOW
 )
 ;
 }
