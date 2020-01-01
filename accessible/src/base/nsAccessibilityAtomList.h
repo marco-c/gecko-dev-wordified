@@ -1358,6 +1358,13 @@ data
 )
 ACCESSIBILITY_ATOM
 (
+draggable
+"
+draggable
+"
+)
+ACCESSIBILITY_ATOM
+(
 droppable
 "
 droppable
