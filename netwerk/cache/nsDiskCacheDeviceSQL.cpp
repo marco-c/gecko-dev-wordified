@@ -7797,7 +7797,7 @@ mozilla
 Telemetry
 :
 :
-CACHE_OFFLINE_SEARCH
+CACHE_OFFLINE_SEARCH_2
 >
 timer
 ;
