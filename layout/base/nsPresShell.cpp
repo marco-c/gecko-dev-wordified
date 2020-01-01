@@ -16011,8 +16011,10 @@ void
 aPresShell
 )
 {
+nsRefPtr
+<
 PresShell
-*
+>
 self
 =
 static_cast
@@ -27098,6 +27100,9 @@ EnsureVisible
 (
 PR_FALSE
 )
+|
+|
+mHaveShutDown
 )
 {
 /
@@ -27291,6 +27296,10 @@ loads
 ;
 if
 (
+!
+mHaveShutDown
+&
+&
 mViewManager
 )
 mViewManager
