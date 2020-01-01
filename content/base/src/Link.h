@@ -954,6 +954,15 @@ return
 true
 ;
 }
+virtual
+size_t
+SizeOfExcludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+const
+;
 protected
 :
 virtual

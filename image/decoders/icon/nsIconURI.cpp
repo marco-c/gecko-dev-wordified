@@ -824,7 +824,7 @@ MOZICON_SCHEME
 /
 /
 /
-nsURI
+nsIURI
 methods
 :
 NS_IMETHODIMP
