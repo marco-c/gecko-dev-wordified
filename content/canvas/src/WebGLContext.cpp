@@ -3512,7 +3512,7 @@ NS_ERROR_FAILURE
 gl
 -
 >
-ReadPixelsIntoImageSurface
+ReadScreenIntoImageSurface
 (
 surf
 )
