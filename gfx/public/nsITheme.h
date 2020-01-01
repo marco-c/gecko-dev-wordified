@@ -673,7 +673,7 @@ aRect
 const
 nsRect
 &
-aClipRect
+aDirtyRect
 )
 =
 0
