@@ -483,13 +483,6 @@ h
 #
 include
 "
-nsIDOMText
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

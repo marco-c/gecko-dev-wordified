@@ -528,13 +528,6 @@ h
 #
 include
 "
-nsIDOMText
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

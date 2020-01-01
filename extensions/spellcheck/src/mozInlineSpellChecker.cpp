@@ -792,6 +792,13 @@ h
 #
 include
 "
+nsIDOMNode
+.
+h
+"
+#
+include
+"
 nsIDOMDocument
 .
 h
@@ -849,13 +856,6 @@ h
 include
 "
 nsIDOMRange
-.
-h
-"
-#
-include
-"
-nsIDOMText
 .
 h
 "

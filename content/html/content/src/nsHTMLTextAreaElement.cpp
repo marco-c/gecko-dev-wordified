@@ -662,13 +662,6 @@ h
 #
 include
 "
-nsIDOMText
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h

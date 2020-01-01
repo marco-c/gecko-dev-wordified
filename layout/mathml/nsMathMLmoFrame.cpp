@@ -537,13 +537,6 @@ h
 #
 include
 "
-nsIDOMText
-.
-h
-"
-#
-include
-"
 nsMathMLmoFrame
 .
 h

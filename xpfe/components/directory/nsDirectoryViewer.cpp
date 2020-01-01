@@ -749,13 +749,6 @@ h
 #
 include
 "
-nsIDOMText
-.
-h
-"
-#
-include
-"
 nsIStreamConverterService
 .
 h

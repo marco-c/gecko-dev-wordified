@@ -889,13 +889,6 @@ h
 #
 include
 "
-nsIDOMText
-.
-h
-"
-#
-include
-"
 nsDOMStringMap
 .
 h

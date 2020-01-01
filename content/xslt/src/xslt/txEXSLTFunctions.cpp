@@ -545,13 +545,6 @@ h
 #
 include
 "
-nsIDOMText
-.
-h
-"
-#
-include
-"
 txMozillaXMLOutput
 .
 h
