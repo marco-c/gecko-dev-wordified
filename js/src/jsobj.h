@@ -4773,6 +4773,9 @@ js_propertyIsEnumerable_str
 [
 ]
 ;
+#
+ifdef
+OLD_GETTER_SETTER_METHODS
 extern
 const
 char
@@ -4801,6 +4804,8 @@ js_lookupSetter_str
 [
 ]
 ;
+#
+endif
 extern
 JSObject
 *

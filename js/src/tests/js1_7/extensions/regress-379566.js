@@ -732,11 +732,8 @@ expect
 '
 +
 '
+get
 in
-getter
-:
-(
-function
 (
 )
 {
@@ -746,15 +743,11 @@ this
 for
 ;
 }
-)
 '
 +
 '
+set
 in
-setter
-:
-(
-function
 (
 value
 )
@@ -766,7 +759,6 @@ for
 value
 ;
 }
-)
 '
 +
 '

@@ -1935,10 +1935,6 @@ getAtom
 ;
 JSAtom
 *
-getterAtom
-;
-JSAtom
-*
 indexAtom
 ;
 JSAtom
@@ -1984,10 +1980,6 @@ protoAtom
 JSAtom
 *
 setAtom
-;
-JSAtom
-*
-setterAtom
 ;
 JSAtom
 *

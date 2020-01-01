@@ -566,10 +566,8 @@ var
 obj
 =
 {
+get
 elem
-getter
-:
-function
 (
 )
 {
@@ -577,10 +575,8 @@ return
 str_with_num
 ;
 }
+set
 elem
-setter
-:
-function
 (
 value
 )

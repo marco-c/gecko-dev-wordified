@@ -1135,12 +1135,6 @@ js_get_str
 getAtom
 *
 /
-js_getter_str
-/
-*
-getterAtom
-*
-/
 js_index_str
 /
 *
@@ -1211,12 +1205,6 @@ js_set_str
 /
 *
 setAtom
-*
-/
-js_setter_str
-/
-*
-setterAtom
 *
 /
 js_stack_str
