@@ -2892,6 +2892,7 @@ StringUtils
 isSearchQuery
 (
 suggestion
+false
 )
 )
 {
