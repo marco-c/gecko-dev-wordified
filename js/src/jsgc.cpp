@@ -11932,6 +11932,7 @@ cx
 >
 triggerGC
 (
+true
 )
 ;
 a
