@@ -1406,8 +1406,8 @@ createRecord
 function
 createRecord
 (
-guid
-uri
+id
+collection
 )
 {
 let
@@ -1416,12 +1416,13 @@ record
 new
 PrefRec
 (
-uri
+collection
+id
 )
 ;
 if
 (
-guid
+id
 =
 =
 Svc

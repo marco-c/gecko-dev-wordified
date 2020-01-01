@@ -1520,8 +1520,8 @@ createRecord
 function
 createRecord
 (
-guid
-uri
+id
+collection
 )
 {
 let
@@ -1530,7 +1530,8 @@ record
 new
 ClientsRec
 (
-uri
+collection
+id
 )
 ;
 /
@@ -1548,7 +1549,7 @@ local
 client
 if
 (
-guid
+id
 =
 =
 Clients
@@ -1590,7 +1591,7 @@ this
 .
 _remoteClients
 [
-guid
+id
 ]
 ;
 return

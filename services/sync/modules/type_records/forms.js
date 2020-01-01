@@ -467,7 +467,8 @@ js
 function
 FormRec
 (
-uri
+collection
+id
 )
 {
 CryptoWrapper
@@ -475,7 +476,8 @@ CryptoWrapper
 call
 (
 this
-uri
+collection
+id
 )
 ;
 }
