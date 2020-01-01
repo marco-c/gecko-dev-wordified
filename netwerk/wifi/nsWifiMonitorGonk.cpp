@@ -909,7 +909,7 @@ ac
 uint32_t
 resultCount
 =
-accessPoints
+mLastAccessPoints
 .
 Count
 (
@@ -935,7 +935,7 @@ ac
 .
 AppendElement
 (
-accessPoints
+mLastAccessPoints
 [
 i
 ]
