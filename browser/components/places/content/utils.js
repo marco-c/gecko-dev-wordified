@@ -9909,7 +9909,7 @@ a
 tag
 container
 var
-folder
+parent
 =
 this
 .
@@ -9922,7 +9922,7 @@ bk
 ;
 if
 (
-folder
+parent
 =
 =
 this
@@ -9933,7 +9933,7 @@ return
 bk
 ;
 var
-parent
+grandparent
 =
 this
 .
@@ -9941,11 +9941,12 @@ bookmarks
 .
 getFolderIdForItem
 (
-folder
+parent
 )
+;
 if
 (
-parent
+grandparent
 !
 =
 this
