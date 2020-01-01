@@ -1862,9 +1862,6 @@ value
 aValue
 .
 value
-autofocus
-:
-true
 }
 ]
 ;
@@ -1970,9 +1967,6 @@ value
 |
 "
 "
-autofocus
-:
-true
 }
 ]
 ;
@@ -2075,9 +2069,6 @@ value
 aUsername
 .
 value
-autofocus
-:
-true
 }
 {
 type
