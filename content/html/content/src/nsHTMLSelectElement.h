@@ -1455,6 +1455,14 @@ aState
 )
 ;
 virtual
+bool
+IsDisabledForEvents
+(
+uint32_t
+aMessage
+)
+;
+virtual
 void
 FieldSetDisabledChanged
 (
