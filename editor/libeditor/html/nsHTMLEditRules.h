@@ -692,7 +692,7 @@ nsEditor
 :
 OperationID
 aAction
-nsISelection
+nsTypedSelection
 *
 aSelection
 bool
@@ -726,7 +726,7 @@ aCancel
 nsresult
 WillInsertBreak
 (
-nsISelection
+nsTypedSelection
 *
 aSelection
 bool
@@ -776,7 +776,7 @@ aHandled
 nsresult
 WillDeleteSelection
 (
-nsISelection
+nsTypedSelection
 *
 aSelection
 nsIEditor

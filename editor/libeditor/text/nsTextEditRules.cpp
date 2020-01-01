@@ -2118,7 +2118,7 @@ nsTextEditRules
 :
 WillInsertBreak
 (
-nsISelection
+nsTypedSelection
 *
 aSelection
 bool
@@ -3352,7 +3352,7 @@ nsEditor
 :
 OperationID
 aAction
-nsISelection
+nsTypedSelection
 *
 aSelection
 bool
@@ -4327,19 +4327,7 @@ nsCRT
 :
 LF
 ;
-nsCOMPtr
-<
-nsISelectionPrivate
->
-selPrivate
-(
-do_QueryInterface
-(
 aSelection
-)
-)
-;
-selPrivate
 -
 >
 SetInterlinePosition
@@ -4568,7 +4556,7 @@ nsTextEditRules
 :
 WillDeleteSelection
 (
-nsISelection
+nsTypedSelection
 *
 aSelection
 nsIEditor
@@ -6733,7 +6721,7 @@ nsTextEditRules
 :
 TruncateInsertionIfNeeded
 (
-nsISelection
+nsTypedSelection
 *
 aSelection
 const
