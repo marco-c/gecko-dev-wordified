@@ -4795,6 +4795,9 @@ jsop_this
 case
 JSOP_GETPROP
 :
+case
+JSOP_CALLPROP
+:
 return
 jsop_getprop
 (
