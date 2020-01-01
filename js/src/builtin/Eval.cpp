@@ -2498,16 +2498,6 @@ fp
 ;
 JS_ASSERT
 (
-caller
--
->
-isScriptFrame
-(
-)
-)
-;
-JS_ASSERT
-(
 IsBuiltinEvalForScope
 (
 caller

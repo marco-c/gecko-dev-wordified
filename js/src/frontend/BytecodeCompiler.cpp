@@ -955,14 +955,6 @@ callerFrame
 callerFrame
 -
 >
-isScriptFrame
-(
-)
-&
-&
-callerFrame
--
->
 script
 (
 )

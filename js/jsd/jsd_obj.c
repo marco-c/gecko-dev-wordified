@@ -622,13 +622,6 @@ jsdobj
 -
 >
 ctorURL
-&
-&
-JS_IsScriptFrame
-(
-cx
-fp
-)
 )
 {
 script
