@@ -15807,7 +15807,12 @@ char
 data
 .
 pData
-CAIRO_CONTENT_COLOR_ALPHA
+d2dsurf
+-
+>
+base
+.
+content
 size
 .
 width
