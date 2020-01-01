@@ -528,6 +528,15 @@ protected
 :
 NS_OVERRIDE
 virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+why
+)
+;
+NS_OVERRIDE
+virtual
 bool
 RecvSendMessage
 (
