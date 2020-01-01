@@ -507,8 +507,8 @@ of
 the
 last
 activity
-NS_IMETHOD
-GetIdleTime
+bool
+PollIdleTime
 (
 PRUint32
 *
@@ -542,6 +542,13 @@ screensaver
 DLL
 ?
 )
+protected
+:
+bool
+UsePollMode
+(
+)
+;
 }
 ;
 #
