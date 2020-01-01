@@ -278,6 +278,13 @@ h
 #
 include
 "
+nsDOMJSUtils
+.
+h
+"
+#
+include
+"
 SandboxPrivate
 .
 h
@@ -9201,10 +9208,7 @@ JSObject
 *
 glob
 =
-js
-:
-:
-DefaultObjectForContextOrNull
+GetDefaultScopeFromJSContext
 (
 mJSCx
 )
