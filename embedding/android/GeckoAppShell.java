@@ -5681,9 +5681,9 @@ intent
 new
 Intent
 (
-Intent
+VideoPlayer
 .
-ACTION_MAIN
+VIDEO_ACTION
 )
 ;
 intent
