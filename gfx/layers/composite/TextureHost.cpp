@@ -421,12 +421,16 @@ aImage
 nsIntRegion
 *
 aRegion
+nsIntPoint
+*
+aOffset
 )
 {
 UpdateImpl
 (
 aImage
 aRegion
+aOffset
 )
 ;
 }
