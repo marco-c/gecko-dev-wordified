@@ -1705,6 +1705,16 @@ this
 tab
 |
 |
+this
+.
+tab
+.
+parentNode
+=
+=
+null
+|
+|
 !
 this
 .
