@@ -1632,6 +1632,8 @@ CacheSelectionAction
 aAction
 )
 ;
+public
+:
 /
 /
 Searches
@@ -1686,6 +1688,8 @@ nsIContent
 aElement
 )
 ;
+protected
+:
 /
 /
 Tries
