@@ -897,6 +897,15 @@ ForceNativeMenuReload
 used
 for
 testing
+static
+char
+GetLocalizedAccelKey
+(
+char
+*
+shortcutID
+)
+;
 protected
 :
 void
