@@ -1184,6 +1184,10 @@ runningInstalls
 =
 null
 ;
+if
+(
+callback
+)
 callback
 (
 count
@@ -1311,12 +1315,6 @@ document
 documentElement
 .
 cancelDialog
-(
-)
-;
-this
-.
-endTest
 (
 )
 ;

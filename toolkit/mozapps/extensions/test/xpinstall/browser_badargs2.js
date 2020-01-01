@@ -101,10 +101,6 @@ waitForExplicitFinish
 (
 )
 ;
-ignoreAllUncaughtExceptions
-(
-)
-;
 var
 triggers
 =
@@ -186,6 +182,10 @@ page_loaded
 ;
 }
 true
+)
+;
+expectUncaughtException
+(
 )
 ;
 gBrowser

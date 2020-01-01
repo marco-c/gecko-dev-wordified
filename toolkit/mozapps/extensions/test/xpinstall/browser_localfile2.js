@@ -106,10 +106,6 @@ waitForExplicitFinish
 (
 )
 ;
-ignoreAllUncaughtExceptions
-(
-)
-;
 var
 cr
 =
@@ -281,6 +277,10 @@ page_loaded
 ;
 }
 true
+)
+;
+expectUncaughtException
+(
 )
 ;
 gBrowser
