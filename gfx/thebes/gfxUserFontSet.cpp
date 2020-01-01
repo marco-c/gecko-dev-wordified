@@ -678,9 +678,9 @@ mItalic
 aItalicStyle
 &
 (
-FONT_STYLE_ITALIC
+NS_FONT_STYLE_ITALIC
 |
-FONT_STYLE_OBLIQUE
+NS_FONT_STYLE_OBLIQUE
 )
 )
 !
@@ -836,7 +836,7 @@ aWeight
 )
 aWeight
 =
-FONT_WEIGHT_NORMAL
+NS_FONT_WEIGHT_NORMAL
 ;
 /
 /
@@ -997,7 +997,7 @@ get
 (
 aItalicStyle
 &
-FONT_STYLE_ITALIC
+NS_FONT_STYLE_ITALIC
 ?
 "
 italic
@@ -1006,7 +1006,7 @@ italic
 (
 aItalicStyle
 &
-FONT_STYLE_OBLIQUE
+NS_FONT_STYLE_OBLIQUE
 ?
 "
 oblique
