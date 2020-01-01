@@ -892,6 +892,8 @@ alloc
 LirBufWriter
 (
 lirbuf
+*
+njConfig
 )
 ;
 #
