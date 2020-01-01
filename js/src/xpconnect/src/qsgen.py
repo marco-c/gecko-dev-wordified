@@ -4558,6 +4558,19 @@ XPCWrappedNative
 :
 CallMethod
 .
+The
+'
+jsval
+'
+type
+#
+however
+defaults
+to
+'
+undefined
+'
+.
 #
 def
 writeArgumentUnboxing
@@ -4717,6 +4730,13 @@ declared
 earlier
 .
     
+typeName
+=
+getBuiltinOrNativeTypeName
+(
+type
+)
+    
 isSetter
 =
 (
@@ -4746,6 +4766,32 @@ elif
 optional
 :
         
+if
+typeName
+=
+=
+"
+[
+jsval
+]
+"
+:
+            
+val
+=
+"
+JSVAL_VOID
+"
+        
+else
+:
+            
+val
+=
+"
+JSVAL_NULL
+"
+        
 argVal
 =
 "
@@ -4761,13 +4807,15 @@ argv
 d
 ]
 :
-JSVAL_NULL
+%
+s
 )
 "
 %
 (
 i
 i
+val
 )
         
 argPtr
@@ -4861,13 +4909,6 @@ DefaultUndefinedBehavior
 '
         
 }
-    
-typeName
-=
-getBuiltinOrNativeTypeName
-(
-type
-)
     
 if
 typeName
