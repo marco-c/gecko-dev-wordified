@@ -4974,6 +4974,16 @@ origobj
 =
 obj
 ;
+obj
+=
+obj
+-
+>
+wrappedObject
+(
+cx
+)
+;
 OBJ_TO_INNER_OBJECT
 (
 cx

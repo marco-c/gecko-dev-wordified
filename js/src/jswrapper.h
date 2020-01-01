@@ -996,7 +996,6 @@ JSObject
 *
 wrappedObject
 (
-const
 JSObject
 *
 wrapper

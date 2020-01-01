@@ -32037,15 +32037,6 @@ if
 obj
 -
 >
-isWrapper
-(
-)
-&
-&
-!
-obj
--
->
 getClass
 (
 )
@@ -32053,7 +32044,7 @@ getClass
 >
 ext
 .
-innerObject
+wrappedObject
 )
 return
 NS_ERROR_DOM_NOT_SUPPORTED_ERR

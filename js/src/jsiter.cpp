@@ -853,7 +853,7 @@ iterator_iterator
 NULL
 /
 *
-unused
+wrappedObject
 *
 /
 }
@@ -7808,7 +7808,7 @@ iterator_iterator
 NULL
 /
 *
-unused
+wrappedObject
 *
 /
 }
