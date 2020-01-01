@@ -1930,7 +1930,7 @@ initPluginsRow
 (
 )
 {
-var
+let
 vulnerableLabel
 =
 document
@@ -1945,7 +1945,9 @@ browserBundle
 getString
 (
 "
-vulnerableNoUpdatePluginWarning
+pluginActivateVulnerable
+.
+label
 "
 )
 ;

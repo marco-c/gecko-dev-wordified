@@ -3914,6 +3914,9 @@ notification
 )
 ;
 }
+.
+plugin
+-
 popupnotification
 -
 centeritem
@@ -3938,6 +3941,10 @@ urlbarBindings
 .
 xml
 #
+plugin
+-
+popupnotification
+-
 center
 -
 item
