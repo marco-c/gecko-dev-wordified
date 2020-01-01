@@ -3750,6 +3750,7 @@ nsString
 &
 allNames
 PRUint32
+&
 nameCount
 )
 {
@@ -3904,10 +3905,6 @@ IsEmpty
 )
 )
 {
-+
-+
-nameCount
-;
 allNames
 .
 Append
@@ -3920,6 +3917,10 @@ NS_LITERAL_STRING
 )
 ;
 }
++
++
+nameCount
+;
 allNames
 .
 Append
@@ -4109,10 +4110,6 @@ IsEmpty
 )
 )
 {
-+
-+
-nameCount
-;
 allNames
 .
 Append
@@ -4125,6 +4122,10 @@ NS_LITERAL_STRING
 )
 ;
 }
++
++
+nameCount
+;
 allNames
 .
 Append
