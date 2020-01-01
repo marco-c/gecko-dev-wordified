@@ -13617,6 +13617,7 @@ eURL
 eBlur
 eBrightness
 eContrast
+eHueRotate
 eInvert
 eOpacity
 eGrayscale
@@ -13632,8 +13633,14 @@ nsIURI
 mURL
 ;
 nsStyleCoord
-mCoord
+mFilterParameter
 ;
+/
+/
+coord
+percent
+factor
+angle
 /
 /
 FIXME
