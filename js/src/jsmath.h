@@ -462,9 +462,9 @@ extern
 void
 js_InitRandom
 (
-JSThreadData
+JSContext
 *
-data
+cx
 )
 ;
 extern

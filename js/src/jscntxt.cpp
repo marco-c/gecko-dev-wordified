@@ -866,11 +866,6 @@ traceMonitor
 ;
 #
 endif
-js_InitRandom
-(
-this
-)
-;
 }
 void
 JSThreadData
@@ -2911,6 +2906,11 @@ contextList
 JS_UNLOCK_GC
 (
 rt
+)
+;
+js_InitRandom
+(
+cx
 )
 ;
 /
