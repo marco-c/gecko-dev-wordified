@@ -1015,15 +1015,6 @@ responseBody
 /
 /
 attributes
-PRUint8
-Caps
-(
-)
-{
-return
-mCaps
-;
-}
 nsHttpConnectionInfo
 *
 ConnectionInfo
