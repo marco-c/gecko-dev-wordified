@@ -485,6 +485,13 @@ resident
 MEMORY_RESIDENT
 "
 "
+vsize
+"
+:
+"
+MEMORY_VSIZE
+"
+"
 storage
 -
 sqlite
