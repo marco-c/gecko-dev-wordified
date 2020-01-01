@@ -1926,6 +1926,8 @@ public
 nsIRollupListener
 public
 nsITimerCallback
+public
+nsIObserver
 {
 public
 :
@@ -1942,6 +1944,7 @@ class
 nsXULMenuCommandEvent
 ;
 NS_DECL_ISUPPORTS
+NS_DECL_NSIOBSERVER
 NS_DECL_NSITIMERCALLBACK
 /
 /
