@@ -49642,7 +49642,7 @@ nsIChannel
 :
 INHIBIT_CACHING
 |
-nsIChannel
+nsICachingChannel
 :
 :
 LOAD_NO_NETWORK_IO
