@@ -6706,7 +6706,6 @@ script
 ensureHasTypes
 (
 cx
-fun
 )
 )
 return
@@ -7207,7 +7206,6 @@ script
 ensureHasTypes
 (
 cx
-fun
 )
 )
 return

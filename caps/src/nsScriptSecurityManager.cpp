@@ -12380,10 +12380,12 @@ else
 if
 (
 !
-JS_GetScriptPrincipals
+js
+:
+:
+IsOriginalScriptFunction
 (
-cx
-script
+fun
 )
 )
 {

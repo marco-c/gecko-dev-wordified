@@ -2232,7 +2232,6 @@ ensureRanAnalysis
 (
 cx
 fun
-fun
 -
 >
 callScope
@@ -4929,23 +4928,6 @@ JSTracer
 trc
 )
 {
-if
-(
-function
-)
-gc
-:
-:
-MarkObject
-(
-trc
-*
-function
-"
-script_fun
-"
-)
-;
 if
 (
 hasScope
@@ -8704,9 +8686,6 @@ ensureHasTypes
 JSContext
 *
 cx
-JSFunction
-*
-fun
 )
 {
 return
@@ -8716,7 +8695,6 @@ types
 makeTypes
 (
 cx
-fun
 )
 ;
 }
@@ -8730,9 +8708,6 @@ ensureRanAnalysis
 JSContext
 *
 cx
-JSFunction
-*
-fun
 JSObject
 *
 scope
@@ -8744,7 +8719,6 @@ if
 ensureHasTypes
 (
 cx
-fun
 )
 )
 return
@@ -8832,6 +8806,7 @@ if
 ensureRanAnalysis
 (
 cx
+NULL
 )
 )
 return

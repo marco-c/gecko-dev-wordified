@@ -1487,7 +1487,9 @@ if
 outerScript
 -
 >
-hasFunction
+function
+(
+)
 )
 {
 if

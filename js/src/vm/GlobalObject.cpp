@@ -1102,9 +1102,9 @@ functionProto
 script
 -
 >
-hasFunction
+function_
 =
-true
+functionProto
 ;
 if
 (

@@ -1617,6 +1617,17 @@ JSObject
 obj
 )
 ;
+JS_FRIEND_API
+(
+bool
+)
+IsOriginalScriptFunction
+(
+JSFunction
+*
+fun
+)
+;
 inline
 JSObject
 *
