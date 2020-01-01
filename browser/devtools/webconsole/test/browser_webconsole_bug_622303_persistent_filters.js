@@ -66,6 +66,9 @@ exception
 "
 jswarn
 "
+"
+jslog
+"
 ]
 "
 logging
