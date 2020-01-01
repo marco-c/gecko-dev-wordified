@@ -1513,6 +1513,13 @@ unsync
 ;
 #
 endif
+fe
+-
+>
+clear
+(
+)
+;
 masm
 .
 storeTypeTag
