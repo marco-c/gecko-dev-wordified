@@ -532,7 +532,7 @@ kept
 in
 sync
 with
-mEventNames
+sEventNames
 in
 nsDOMEvent
 .
@@ -556,6 +556,7 @@ eDOMEvents_keypress
 eDOMEvents_focus
 eDOMEvents_blur
 eDOMEvents_load
+eDOMEvents_popstate
 eDOMEvents_beforeunload
 eDOMEvents_unload
 eDOMEvents_hashchange
