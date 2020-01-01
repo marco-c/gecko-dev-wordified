@@ -1143,7 +1143,7 @@ tag
 IDARRAY
 )
 ;
-TraceIds
+TraceBoxedWords
 (
 trc
 idArray
@@ -1388,7 +1388,7 @@ this
 >
 idArray
 ;
-TraceIds
+TraceBoxedWords
 (
 trc
 ida

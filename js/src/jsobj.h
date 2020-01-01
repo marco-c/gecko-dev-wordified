@@ -5142,10 +5142,10 @@ setSlot
 JSSLOT_BLOCK_DEPTH
 Value
 (
+Int32Tag
 (
-int32_t
-)
 depth
+)
 )
 )
 /
