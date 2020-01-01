@@ -479,6 +479,13 @@ TelephonyCall
 .
 h
 "
+#
+include
+"
+TelephonyCallArray
+.
+h
+"
 USING_TELEPHONY_NAMESPACE
 /
 /
