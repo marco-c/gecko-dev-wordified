@@ -2164,7 +2164,7 @@ return
 doc
 -
 >
-GetMozCurrentStateObject
+GetStateObject
 (
 aState
 )

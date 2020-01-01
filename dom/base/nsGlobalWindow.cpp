@@ -42085,10 +42085,11 @@ The
 object
 is
 serialized
-as
 /
 /
-JSON
+using
+structured
+clone
 .
 nsCOMPtr
 <
@@ -42101,7 +42102,7 @@ rv
 mDoc
 -
 >
-GetMozCurrentStateObject
+GetStateObject
 (
 getter_AddRefs
 (
