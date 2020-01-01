@@ -22042,10 +22042,7 @@ In
 the
 browser
 we
-don
-'
-t
-cap
+limit
 the
 amount
 of
@@ -22053,6 +22050,8 @@ GC
 -
 owned
 memory
+to
+512MB
 .
 *
 /
@@ -22077,7 +22076,11 @@ nsJSRuntime
 :
 sRuntime
 JSGC_MAX_BYTES
-0xffffffff
+512L
+*
+1024L
+*
+1024L
 )
 ;
 }

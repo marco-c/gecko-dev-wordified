@@ -18252,6 +18252,11 @@ phase
 .
 *
 /
+TIMESTAMP
+(
+startMark
+)
+;
 GCMarker
 gcmarker
 (
@@ -20532,11 +20537,6 @@ PreGCCleanup
 (
 cx
 gckind
-)
-;
-TIMESTAMP
-(
-startMark
 )
 ;
 firstRun
