@@ -1309,8 +1309,6 @@ PlacesUtils
 .
 toolbarFolderId
 SMART_BOOKMARKS_ON_TOOLBAR
-+
-1
 )
 ;
 do_check_true
@@ -1488,8 +1486,6 @@ PlacesUtils
 .
 toolbarFolderId
 SMART_BOOKMARKS_ON_TOOLBAR
-+
-1
 )
 ;
 do_check_true
