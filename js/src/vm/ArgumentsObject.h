@@ -1558,6 +1558,7 @@ i
 const
 ;
 inline
+const
 js
 :
 :
@@ -1567,18 +1568,6 @@ elements
 (
 )
 const
-;
-inline
-js
-:
-:
-Value
-*
-addressOfElement
-(
-uint32
-i
-)
 ;
 inline
 void

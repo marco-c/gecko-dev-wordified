@@ -1227,6 +1227,7 @@ JSContext
 cx
 uint
 length
+const
 Value
 *
 vp

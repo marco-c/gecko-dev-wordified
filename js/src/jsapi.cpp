@@ -22908,14 +22908,13 @@ pdata
 iterobj
 -
 >
-getSlotRef
+setSlot
 (
 JSSLOT_ITER_INDEX
-)
-.
-setInt32
+Int32Value
 (
 index
+)
 )
 ;
 return
