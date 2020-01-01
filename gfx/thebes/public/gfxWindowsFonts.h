@@ -2460,6 +2460,12 @@ UpdateFontList
 (
 )
 ;
+virtual
+gfxFloat
+GetUnderlineOffset
+(
+)
+;
 protected
 :
 void
