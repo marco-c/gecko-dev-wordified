@@ -9628,9 +9628,15 @@ ifdef
 XP_WIN
 if
 (
+(
 mQuirks
 &
 QUIRK_FLASH_HOOK_GETWINDOWINFO
+)
+&
+&
+!
+sGetWindowInfoPtrStub
 )
 {
 sUser32Intercept
