@@ -468,6 +468,17 @@ sbSubset
 Bug
 777705
 :
+sbMaster
+.
+Components
+=
+cu
+.
+getComponentsForScope
+(
+sbMaster
+)
+;
 Components
 .
 utils
