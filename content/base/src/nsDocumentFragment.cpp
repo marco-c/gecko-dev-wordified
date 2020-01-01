@@ -1300,9 +1300,8 @@ nsGenericElement
 aNodeInfo
 )
 {
-UnsetFlags
+ClearIsElement
 (
-NODE_IS_ELEMENT
 )
 ;
 }
