@@ -3761,10 +3761,10 @@ ImageTitleWithNeitherDimensionsNorFile
 ImageTitleWithoutDimensions
 "
 "
-ImageTitleWithDimensions
+ImageTitleWithDimensions2
 "
 "
-ImageTitleWithDimensionsAndFile
+ImageTitleWithDimensions2AndFile
 "
 }
 ;

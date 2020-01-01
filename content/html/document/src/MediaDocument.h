@@ -342,10 +342,10 @@ ImageTitleWithoutDimensions
 /
 /
 "
-ImageTitleWithDimesions
+ImageTitleWithDimesions2
 "
 "
-ImageTitleWithDimensionsAndFile
+ImageTitleWithDimensions2AndFile
 "
 .
 /
