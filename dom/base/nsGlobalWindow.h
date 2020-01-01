@@ -6334,6 +6334,12 @@ RefreshMIMEArray
 (
 )
 ;
+static
+bool
+HasDesktopNotificationSupport
+(
+)
+;
 protected
 :
 nsRefPtr
