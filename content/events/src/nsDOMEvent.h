@@ -551,6 +551,7 @@ eDOMEvents_click
 eDOMEvents_dblclick
 eDOMEvents_mouseover
 eDOMEvents_mouseout
+eDOMEvents_MozMouseHittest
 eDOMEvents_mousemove
 eDOMEvents_contextmenu
 eDOMEvents_keydown

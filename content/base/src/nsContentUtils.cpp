@@ -2874,6 +2874,15 @@ NS_MOUSE_EVENT
 nsGkAtoms
 :
 :
+onMozMouseHittest
+NS_MOUSE_MOZHITTEST
+EventNameType_None
+NS_MOUSE_EVENT
+}
+{
+nsGkAtoms
+:
+:
 onmousemove
 NS_MOUSE_MOVE
 EventNameType_All

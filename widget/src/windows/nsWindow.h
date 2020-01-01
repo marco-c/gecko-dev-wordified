@@ -2891,6 +2891,9 @@ mUnicodeWidget
 PRPackedBool
 mPainting
 ;
+PRPackedBool
+mExitToNonClientArea
+;
 PRUint32
 mBlurSuppressLevel
 ;
