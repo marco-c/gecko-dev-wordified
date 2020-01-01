@@ -2504,6 +2504,8 @@ _masterPasswordSet
 (
 )
 ;
+/
+/
 var
 button
 =
@@ -2516,6 +2518,8 @@ changeMasterPassword
 "
 )
 ;
+/
+/
 button
 .
 disabled
