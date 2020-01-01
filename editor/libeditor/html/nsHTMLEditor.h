@@ -4959,7 +4959,8 @@ aAttribute
 bool
 HasAttrVal
 (
-nsIDOMNode
+const
+nsIContent
 *
 aNode
 const
@@ -4968,7 +4969,7 @@ nsAString
 aAttribute
 const
 nsAString
-*
+&
 aValue
 )
 ;
