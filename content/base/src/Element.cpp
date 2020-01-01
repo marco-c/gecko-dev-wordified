@@ -10198,12 +10198,6 @@ nsIDOMNode
 ATTRIBUTE_NODE
 )
 ;
-NS_ENSURE_TRUE
-(
-ni
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 rv
 =
 mAttrsAndChildren

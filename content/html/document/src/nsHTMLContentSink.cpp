@@ -7370,12 +7370,6 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-NS_ENSURE_TRUE
-(
-nodeInfo
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 /
 /
 Make
@@ -7463,12 +7457,6 @@ nsIDOMNode
 :
 :
 ELEMENT_NODE
-)
-;
-NS_ENSURE_TRUE
-(
-nodeInfo
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 mHead

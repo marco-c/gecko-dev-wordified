@@ -2544,12 +2544,6 @@ nsIDOMNode
 ATTRIBUTE_NODE
 )
 ;
-NS_ENSURE_TRUE
-(
-ni
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 aName
 .
 SetTo
@@ -2805,12 +2799,6 @@ nsIDOMNode
 :
 :
 ELEMENT_NODE
-)
-;
-NS_ENSURE_TRUE
-(
-nodeInfo
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 nsresult

@@ -933,12 +933,6 @@ nsGkAtoms
 xml_stylesheet
 )
 ;
-NS_ENSURE_TRUE
-(
-ni
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 nsRefPtr
 <
 mozilla
