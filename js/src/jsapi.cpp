@@ -14739,17 +14739,6 @@ jsid
 idp
 )
 {
-JS_ASSERT
-(
-JSID_IS_OBJECT
-(
-(
-jsid
-)
-obj
-)
-)
-;
 *
 idp
 =
