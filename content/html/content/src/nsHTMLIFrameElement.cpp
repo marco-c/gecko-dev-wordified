@@ -441,7 +441,7 @@ h
 #
 include
 "
-nsGenericHTMLElement
+nsGenericHTMLFrameElement
 .
 h
 "
