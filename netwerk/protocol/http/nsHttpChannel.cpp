@@ -7376,10 +7376,6 @@ httpStatus
 )
 )
 ;
-UpdateInhibitPersistentCachingFlag
-(
-)
-;
 if
 (
 mTransaction
@@ -8848,6 +8844,10 @@ mCachedContentIsPartial
 false
 ;
 ClearBogusContentEncodingIfNeeded
+(
+)
+;
+UpdateInhibitPersistentCachingFlag
 (
 )
 ;
