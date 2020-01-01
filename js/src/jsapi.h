@@ -2151,6 +2151,13 @@ defined
 (
 __cplusplus
 )
+extern
+"
+C
++
++
+"
+{
 /
 *
 *
@@ -2231,6 +2238,7 @@ JSID_BITS
 rhs
 )
 ;
+}
 }
 #
 endif
