@@ -622,6 +622,16 @@ getContentResolver
 )
 )
 ;
+GeckoApp
+.
+mAppContext
+.
+mFavicons
+.
+clearFavicons
+(
+)
+;
 }
 }
 )
