@@ -649,6 +649,10 @@ h
 endif
 #
 endif
+using
+namespace
+mozilla
+;
 #
 ifdef
 CAIRO_HAS_D2D_SURFACE
@@ -680,10 +684,6 @@ nsMemory
 .
 h
 "
-using
-namespace
-mozilla
-;
 class
 D2DCacheReporter
 :
