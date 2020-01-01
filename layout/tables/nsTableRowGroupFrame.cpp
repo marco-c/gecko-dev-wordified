@@ -11737,6 +11737,16 @@ frame
 =
 nsnull
 ;
+PRInt32
+colCount
+=
+table
+-
+>
+GetColCount
+(
+)
+;
 for
 (
 PRInt32
@@ -11746,7 +11756,7 @@ i
 ;
 i
 <
-numCells
+colCount
 ;
 i
 +
