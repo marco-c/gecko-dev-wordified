@@ -3477,11 +3477,11 @@ compileAndGo
 ;
 /
 *
-script
-was
-compiled
-with
-TCF_COMPILE_N_GO
+see
+Parser
+:
+:
+compileAndGo
 *
 /
 bool

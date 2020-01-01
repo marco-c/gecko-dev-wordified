@@ -9382,12 +9382,10 @@ if
 bce
 -
 >
-sc
+parser
 -
 >
-flags
-&
-TCF_COMPILE_N_GO
+compileAndGo
 )
 {
 script
