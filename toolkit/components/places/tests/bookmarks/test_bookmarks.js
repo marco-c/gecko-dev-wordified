@@ -946,6 +946,13 @@ bookmarksRoot
 0
 )
 ;
+/
+/
+XXX
+bug
+381237
+/
+/
 do_check_true
 (
 bmsvc
