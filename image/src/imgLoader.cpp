@@ -12574,6 +12574,7 @@ inStr
 in
 unsigned
 long
+long
 sourceOffset
 in
 unsigned
@@ -12598,7 +12599,7 @@ ctxt
 nsIInputStream
 *
 inStr
-uint32_t
+uint64_t
 sourceOffset
 uint32_t
 count
@@ -13593,6 +13594,7 @@ inStr
 in
 unsigned
 long
+long
 sourceOffset
 in
 unsigned
@@ -13617,7 +13619,7 @@ ctxt
 nsIInputStream
 *
 inStr
-uint32_t
+uint64_t
 sourceOffset
 uint32_t
 count

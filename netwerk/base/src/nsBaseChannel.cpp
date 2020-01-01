@@ -4022,7 +4022,7 @@ ctxt
 nsIInputStream
 *
 stream
-uint32_t
+uint64_t
 offset
 uint32_t
 count
@@ -4061,10 +4061,7 @@ rv
 uint64_t
 prog
 =
-uint64_t
-(
 offset
-)
 +
 count
 ;

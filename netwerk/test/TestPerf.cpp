@@ -512,7 +512,7 @@ ctx
 nsIInputStream
 *
 stream
-uint32_t
+uint64_t
 offset
 uint32_t
 count

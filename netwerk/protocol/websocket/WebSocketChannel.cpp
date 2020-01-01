@@ -19187,7 +19187,7 @@ aContext
 nsIInputStream
 *
 aInputStream
-uint32_t
+uint64_t
 aOffset
 uint32_t
 aCount
@@ -19213,7 +19213,7 @@ p
 %
 p
 %
-u
+llu
 %
 u
 ]

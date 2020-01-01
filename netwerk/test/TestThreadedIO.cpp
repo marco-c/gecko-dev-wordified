@@ -830,7 +830,7 @@ aContext
 nsIInputStream
 *
 aStream
-uint32_t
+uint64_t
 offset
 uint32_t
 aLength

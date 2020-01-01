@@ -1755,7 +1755,7 @@ nsCString
 &
 aData
 const
-uint32_t
+uint64_t
 &
 aOffset
 const
@@ -1807,8 +1807,10 @@ mChild
 nsCString
 mData
 ;
-uint32_t
+uint64_t
 mOffset
+;
+uint32_t
 mCount
 ;
 }
@@ -1824,7 +1826,7 @@ nsCString
 &
 data
 const
-uint32_t
+uint64_t
 &
 offset
 const
@@ -1882,7 +1884,7 @@ nsCString
 &
 data
 const
-uint32_t
+uint64_t
 &
 offset
 const

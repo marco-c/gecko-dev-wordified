@@ -2859,17 +2859,7 @@ OnDataAvailable
 channel
 nullptr
 bufStream
-(
-uint32_t
-)
-NS_MIN
-(
 offset
-(
-uint64_t
-)
-PR_UINT32_MAX
-)
 (
 uint32_t
 )
@@ -6119,7 +6109,7 @@ ctxt
 nsIInputStream
 *
 inStr
-uint32_t
+uint64_t
 sourceOffset
 uint32_t
 count

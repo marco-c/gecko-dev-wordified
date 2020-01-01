@@ -488,7 +488,7 @@ ctx
 nsIInputStream
 *
 is
-uint32_t
+uint64_t
 offset
 uint32_t
 count
@@ -502,7 +502,7 @@ OnDataAvailable
 offset
 =
 %
-u
+llu
 count
 =
 %
