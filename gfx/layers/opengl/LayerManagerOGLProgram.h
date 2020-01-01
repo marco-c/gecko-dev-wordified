@@ -897,9 +897,6 @@ mTextureCount
 bool
 mHasMatrixProj
 ;
-bool
-mHasTextureTransform
-;
 private
 :
 ProgramProfileOGL
@@ -911,10 +908,6 @@ mTextureCount
 0
 )
 mHasMatrixProj
-(
-false
-)
-mHasTextureTransform
 (
 false
 )
@@ -1615,12 +1608,6 @@ gfx3DMatrix
 aMatrix
 )
 {
-if
-(
-mProfile
-.
-mHasTextureTransform
-)
 SetMatrixUniform
 (
 mProfile
@@ -1647,12 +1634,6 @@ Matrix4x4
 aMatrix
 )
 {
-if
-(
-mProfile
-.
-mHasTextureTransform
-)
 SetMatrixUniform
 (
 mProfile

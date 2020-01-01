@@ -2219,6 +2219,16 @@ transform
 rgb
 -
 >
+SetTextureTransform
+(
+gfx3DMatrix
+(
+)
+)
+;
+rgb
+-
+>
 SetLayerOpacity
 (
 opacity
