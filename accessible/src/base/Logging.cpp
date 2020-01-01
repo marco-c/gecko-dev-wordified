@@ -1845,6 +1845,8 @@ cache
 "
 )
 ;
+break
+;
 case
 LOAD_ERROR_PAGE
 :
