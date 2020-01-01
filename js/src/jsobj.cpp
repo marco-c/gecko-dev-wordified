@@ -10750,10 +10750,6 @@ vp
 =
 OBJECT_TO_JSVAL
 (
-(
-JSObject
-*
-)
 sprop
 -
 >
@@ -10897,10 +10893,6 @@ vp
 =
 OBJECT_TO_JSVAL
 (
-(
-JSObject
-*
-)
 sprop
 -
 >
