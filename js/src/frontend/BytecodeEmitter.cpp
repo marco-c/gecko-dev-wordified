@@ -23816,8 +23816,10 @@ isOp
 (
 JSOP_NEWINIT
 )
-&
-&
+)
+;
+JS_ASSERT
+(
 !
 (
 pn_xflags
