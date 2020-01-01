@@ -3257,6 +3257,12 @@ releaseContext
 (
 )
 ;
+bool
+hasAcquiredContext
+(
+)
+const
+;
 /
 /
 Check
@@ -3333,6 +3339,9 @@ ForkJoinShared
 *
 const
 shared
+;
+bool
+acquiredContext_
 ;
 }
 ;
@@ -3622,6 +3631,11 @@ false
 #
 endif
 }
+bool
+InSequentialOrExclusiveParallelSection
+(
+)
+;
 bool
 ParallelTestsShouldPass
 (

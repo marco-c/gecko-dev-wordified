@@ -2008,6 +2008,13 @@ zone
 )
 const
 {
+JS_ASSERT
+(
+InSequentialOrExclusiveParallelSection
+(
+)
+)
+;
 return
 shape_
 -

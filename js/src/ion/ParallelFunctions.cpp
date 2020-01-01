@@ -367,7 +367,7 @@ return
 !
 IsInsideNursery
 (
-object
+slice
 -
 >
 runtime
