@@ -6125,7 +6125,7 @@ argVp
 GetReservedSlot
 (
 obj
-DOM_PROTO_INSTANCE_CLASS_SLOT
+DOM_OBJECT_SLOT
 )
 .
 toPrivate
@@ -33198,7 +33198,7 @@ ObjectReg
 GetReservedSlot
 (
 obj
-DOM_PROTO_INSTANCE_CLASS_SLOT
+DOM_OBJECT_SLOT
 )
 .
 toPrivate
@@ -33609,7 +33609,7 @@ ObjectReg
 GetReservedSlot
 (
 obj
-DOM_PROTO_INSTANCE_CLASS_SLOT
+DOM_OBJECT_SLOT
 )
 .
 toPrivate
