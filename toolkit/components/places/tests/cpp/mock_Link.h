@@ -618,10 +618,8 @@ ResetLinkState
 )
 ;
 }
-already_AddRefed
-<
 nsIURI
->
+*
 Link
 :
 :
