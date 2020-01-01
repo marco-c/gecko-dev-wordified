@@ -260,7 +260,7 @@ addEventListener
 "
 Debugger
 :
-ScriptShown
+SourceShown
 "
 onScriptShown
 )
@@ -296,7 +296,7 @@ removeEventListener
 "
 Debugger
 :
-ScriptShown
+SourceShown
 "
 onScriptShown
 )
@@ -331,9 +331,9 @@ gDebugger
 .
 DebuggerView
 .
-Scripts
+Sources
 .
-_scripts
+_container
 ;
 is
 (

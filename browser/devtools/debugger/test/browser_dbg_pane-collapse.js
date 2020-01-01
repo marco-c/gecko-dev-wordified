@@ -109,7 +109,7 @@ testPanesState
 ;
 gView
 .
-toggleStackframesAndBreakpointsPane
+_toggleStackframesAndBreakpointsPane
 (
 {
 visible
@@ -120,7 +120,7 @@ true
 ;
 gView
 .
-toggleVariablesPane
+_toggleVariablesPane
 (
 {
 visible
@@ -441,7 +441,7 @@ visible
 ;
 gView
 .
-toggleStackframesAndBreakpointsPane
+_toggleStackframesAndBreakpointsPane
 (
 {
 visible
@@ -618,7 +618,7 @@ uncollapsing
 ;
 gView
 .
-toggleStackframesAndBreakpointsPane
+_toggleStackframesAndBreakpointsPane
 (
 {
 visible
@@ -927,7 +927,7 @@ visible
 ;
 gView
 .
-toggleVariablesPane
+_toggleVariablesPane
 (
 {
 visible
@@ -1092,7 +1092,7 @@ uncollapsing
 ;
 gView
 .
-toggleVariablesPane
+_toggleVariablesPane
 (
 {
 visible

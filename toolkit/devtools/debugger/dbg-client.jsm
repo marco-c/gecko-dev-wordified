@@ -2935,6 +2935,17 @@ Cu
 reportError
 (
 ex
+.
+message
++
+"
+\
+n
+"
++
+ex
+.
+stack
 )
 ;
 }

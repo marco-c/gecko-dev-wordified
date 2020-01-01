@@ -116,7 +116,7 @@ MPL
 *
 *
 *
-Scripts
+Sources
 searching
 *
 /
@@ -230,8 +230,8 @@ hidden
 *
 *
 *
-Properties
-elements
+Variables
+view
 *
 /
 #
@@ -253,6 +253,8 @@ property
 elements
 *
 /
+#
+variables
 .
 details
 {
@@ -261,6 +263,8 @@ display
 none
 ;
 }
+#
+variables
 .
 details
 [

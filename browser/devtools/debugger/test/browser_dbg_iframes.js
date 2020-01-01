@@ -188,7 +188,9 @@ DebuggerView
 .
 StackFrames
 .
-_frames
+_container
+.
+_list
 ;
 let
 childNodes
@@ -297,7 +299,7 @@ sendMouseEvent
 type
 :
 "
-click
+mousedown
 "
 }
 gDebugger

@@ -555,9 +555,9 @@ gDebugger
 .
 DebuggerView
 .
-Scripts
+Sources
 .
-_scripts
+_container
 ;
 is
 (
@@ -612,7 +612,7 @@ gDebugger
 .
 DebuggerView
 .
-Scripts
+Sources
 .
 containsLabel
 (
@@ -634,7 +634,7 @@ gDebugger
 .
 DebuggerView
 .
-Scripts
+Sources
 .
 containsLabel
 (
@@ -662,9 +662,9 @@ gDebugger
 .
 DebuggerView
 .
-Scripts
+Sources
 .
-_scripts
+_container
 ;
 is
 (
@@ -689,7 +689,7 @@ gDebugger
 .
 DebuggerView
 .
-Scripts
+Sources
 .
 containsLabel
 (

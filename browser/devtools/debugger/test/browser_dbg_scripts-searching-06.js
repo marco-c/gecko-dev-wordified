@@ -209,7 +209,7 @@ addEventListener
 "
 Debugger
 :
-ScriptShown
+SourceShown
 "
 function
 _onEvent
@@ -330,7 +330,7 @@ gDebugger
 .
 DebuggerView
 .
-Scripts
+Sources
 ;
 gSearchView
 =
@@ -342,7 +342,11 @@ GlobalSearch
 ;
 gSearchBox
 =
-gScripts
+gDebugger
+.
+DebuggerView
+.
+Filtering
 .
 _searchbox
 ;
@@ -399,7 +403,7 @@ n
 +
 gScripts
 .
-selected
+selectedValue
 +
 "
 \
@@ -435,7 +439,7 @@ url
 =
 gScripts
 .
-selected
+selectedValue
 ;
 if
 (
@@ -532,7 +536,7 @@ is
 (
 gScripts
 .
-visibleItemsCount
+visibleItems
 2
 "
 Not
@@ -646,7 +650,7 @@ n
 +
 gScripts
 .
-selected
+selectedValue
 +
 "
 \
@@ -682,7 +686,7 @@ url
 =
 gScripts
 .
-selected
+selectedValue
 ;
 if
 (
@@ -777,7 +781,7 @@ is
 (
 gScripts
 .
-visibleItemsCount
+visibleItems
 2
 "
 Not

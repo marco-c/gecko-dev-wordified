@@ -555,6 +555,8 @@ false
 ;
 window
 .
+content
+.
 focus
 (
 )

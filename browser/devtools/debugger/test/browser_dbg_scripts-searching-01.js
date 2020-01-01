@@ -190,7 +190,7 @@ addEventListener
 "
 Debugger
 :
-ScriptShown
+SourceShown
 "
 function
 _onEvent
@@ -285,11 +285,15 @@ gDebugger
 .
 DebuggerView
 .
-Scripts
+Sources
 ;
 gSearchBox
 =
-gScripts
+gDebugger
+.
+DebuggerView
+.
+Filtering
 .
 _searchbox
 ;
@@ -297,7 +301,7 @@ gMenulist
 =
 gScripts
 .
-_scripts
+_container
 ;
 write
 (
@@ -870,8 +874,6 @@ write
 "
 +
 token
-.
-length
 )
 ;
 ok
@@ -930,8 +932,6 @@ write
 "
 +
 token
-.
-length
 )
 ;
 ok
@@ -1736,7 +1736,7 @@ is
 (
 gScripts
 .
-visibleItemsCount
+visibleItems
 1
 "
 Not

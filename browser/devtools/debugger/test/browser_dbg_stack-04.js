@@ -152,7 +152,9 @@ DebuggerView
 .
 StackFrames
 .
-_frames
+_container
+.
+_list
 ;
 let
 childNodes
@@ -297,13 +299,13 @@ is
 childNodes
 .
 length
-1
+0
 "
 Should
 only
 have
-one
-child
+no
+children
 .
 "
 )
@@ -311,6 +313,8 @@ child
 is
 (
 frames
+.
+parentNode
 .
 querySelectorAll
 (

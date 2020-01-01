@@ -274,7 +274,7 @@ addEventListener
 "
 Debugger
 :
-ScriptShown
+SourceShown
 "
 onScriptShown
 )
@@ -306,7 +306,7 @@ removeEventListener
 "
 Debugger
 :
-ScriptShown
+SourceShown
 "
 onScriptShown
 )
@@ -344,7 +344,7 @@ gDebugger
 .
 DebuggerView
 .
-Scripts
+Sources
 ;
 is
 (
@@ -375,7 +375,7 @@ is
 (
 gScripts
 .
-_scripts
+_container
 .
 itemCount
 2
@@ -427,10 +427,10 @@ isnot
 (
 gScripts
 .
-selected
+selectedValue
 gScripts
 .
-scriptLocations
+values
 [
 0
 ]
@@ -528,7 +528,7 @@ url
 :
 gScripts
 .
-selected
+selectedValue
 line
 :
 6
@@ -725,7 +725,7 @@ location
 url
 gScripts
 .
-selected
+selectedValue
 "
 breakpoint1
 client
@@ -810,7 +810,7 @@ getBreakpoint
 (
 gScripts
 .
-selected
+selectedValue
 6
 )
 aBreakpointClient
@@ -887,7 +887,7 @@ aLocation
 url
 gScripts
 .
-selected
+selectedValue
 "
 breakpoint1
 remove
@@ -1087,7 +1087,7 @@ getBreakpoint
 (
 gScripts
 .
-selected
+selectedValue
 6
 )
 "
@@ -1107,7 +1107,7 @@ script0
 =
 gScripts
 .
-scriptLocations
+values
 [
 0
 ]
@@ -1117,7 +1117,7 @@ isnot
 script0
 gScripts
 .
-selected
+selectedValue
 "
 first
 script
@@ -1274,7 +1274,7 @@ location
 url
 gScripts
 .
-scriptLocations
+values
 [
 0
 ]
@@ -1358,7 +1358,7 @@ getBreakpoint
 (
 gScripts
 .
-scriptLocations
+values
 [
 0
 ]
@@ -1368,7 +1368,7 @@ aBreakpointClient
 "
 getBreakpoint
 (
-scriptLocations
+locations
 [
 0
 ]
@@ -1436,7 +1436,7 @@ script
 ;
 gScripts
 .
-_scripts
+_container
 .
 selectedIndex
 =
@@ -1455,7 +1455,7 @@ target
 :
 gScripts
 .
-_scripts
+_container
 }
 )
 ;
@@ -1902,7 +1902,7 @@ getBreakpoint
 (
 gScripts
 .
-scriptLocations
+values
 [
 0
 ]
@@ -1911,7 +1911,7 @@ scriptLocations
 "
 getBreakpoint
 (
-scriptLocations
+locations
 [
 0
 ]

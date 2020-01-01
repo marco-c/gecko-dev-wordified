@@ -172,7 +172,9 @@ DebuggerView
 .
 StackFrames
 .
-_frames
+_container
+.
+_list
 childNodes
 =
 frames
@@ -264,9 +266,9 @@ gDebugger
 .
 DebuggerView
 .
-Scripts
+Sources
 .
-selected
+selectedValue
 null
 "
 There
@@ -388,7 +390,7 @@ addEventListener
 "
 Debugger
 :
-ScriptShown
+SourceShown
 "
 function
 _onEvent
@@ -412,9 +414,9 @@ gDebugger
 .
 DebuggerView
 .
-Scripts
+Sources
 .
-selected
+selectedValue
 null
 "
 There
@@ -459,9 +461,9 @@ gDebugger
 .
 DebuggerView
 .
-Scripts
+Sources
 .
-_scripts
+_container
 ;
 let
 noScripts

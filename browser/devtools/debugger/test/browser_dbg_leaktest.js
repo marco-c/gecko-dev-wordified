@@ -231,7 +231,7 @@ addEventListener
 "
 Debugger
 :
-ScriptShown
+SourceShown
 "
 onScriptShown
 )
@@ -263,7 +263,7 @@ removeEventListener
 "
 Debugger
 :
-ScriptShown
+SourceShown
 "
 onScriptShown
 )

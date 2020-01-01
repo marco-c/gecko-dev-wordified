@@ -239,7 +239,7 @@ removeEventListener
 "
 Debugger
 :
-Connecting
+Connected
 "
 dbgConnected
 true
@@ -633,7 +633,7 @@ addEventListener
 "
 Debugger
 :
-Connecting
+Connected
 "
 dbgConnected
 true
