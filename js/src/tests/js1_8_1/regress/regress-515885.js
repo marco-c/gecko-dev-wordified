@@ -24,17 +24,6 @@ licenses
 publicdomain
 /
 var
-gTestfile
-=
-'
-regress
--
-515885
-.
-js
-'
-;
-var
 it
 =
 (

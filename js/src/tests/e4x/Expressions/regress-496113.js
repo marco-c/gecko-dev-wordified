@@ -451,16 +451,6 @@ Core_JavaScript_1
 Processing_XML_with_E4X
 #
 section_7
-gTestfile
-=
-'
-regress
--
-496113
-.
-js
-'
-;
 var
 summary
 =

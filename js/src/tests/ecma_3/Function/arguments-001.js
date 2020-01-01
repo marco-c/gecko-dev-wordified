@@ -548,17 +548,6 @@ id
 -
 -
 var
-gTestfile
-=
-'
-arguments
--
-001
-.
-js
-'
-;
-var
 UBound
 =
 0

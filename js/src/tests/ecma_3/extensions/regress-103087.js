@@ -605,17 +605,6 @@ regexp
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-103087
-.
-js
-'
-;
-var
 UBound
 =
 0

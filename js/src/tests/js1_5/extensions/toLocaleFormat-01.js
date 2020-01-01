@@ -431,17 +431,6 @@ BLOCK
 *
 *
 /
-var
-gTestfile
-=
-'
-toLocaleFormat
--
-01
-.
-js
-'
-;
 /
 /
 -

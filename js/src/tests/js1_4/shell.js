@@ -421,9 +421,3 @@ BLOCK
 *
 *
 /
-gTestsuite
-=
-'
-js1_4
-'
-;

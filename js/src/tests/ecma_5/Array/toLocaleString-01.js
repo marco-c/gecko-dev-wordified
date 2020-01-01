@@ -39,17 +39,6 @@ edu
 >
 *
 /
-var
-gTestfile
-=
-'
-toLocaleString
--
-01
-.
-js
-'
-;
 /
 /
 -

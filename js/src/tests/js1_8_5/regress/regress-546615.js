@@ -33,14 +33,6 @@ Jason
 Orendorff
 *
 /
-gTestfile
-=
-'
-regress
--
-546615
-'
-;
 try
 {
 <

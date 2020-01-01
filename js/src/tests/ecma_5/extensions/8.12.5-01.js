@@ -79,15 +79,6 @@ edu
 >
 *
 /
-var
-gTestfile
-=
-"
-template
-.
-js
-"
-;
 /
 /
 -

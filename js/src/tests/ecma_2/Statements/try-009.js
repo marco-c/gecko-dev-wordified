@@ -421,16 +421,6 @@ BLOCK
 *
 *
 /
-gTestfile
-=
-'
-try
--
-009
-.
-js
-'
-;
 /
 *
 *

@@ -439,14 +439,6 @@ BLOCK
 *
 *
 /
-var
-gTestfile
-=
-'
-lamport
-.
-js
-'
 /
 /
 -

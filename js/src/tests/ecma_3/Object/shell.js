@@ -679,12 +679,6 @@ Section
 -
 -
 -
-gTestsubsuite
-=
-'
-Object
-'
-;
 var
 cnNoObject
 =

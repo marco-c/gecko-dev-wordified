@@ -62,12 +62,6 @@ publicdomain
 /
 *
 /
-gTestsuite
-=
-'
-js1_8_5
-'
-;
 /
 /
 explicitly

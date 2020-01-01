@@ -67,17 +67,6 @@ Jason
 Orendorff
 *
 /
-var
-gTestfile
-=
-'
-regress
--
-479381
-.
-js
-'
-;
 /
 /
 -

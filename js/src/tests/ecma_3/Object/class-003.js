@@ -682,17 +682,6 @@ js
 -
 -
 var
-gTestfile
-=
-'
-class
--
-003
-.
-js
-'
-;
-var
 i
 =
 0

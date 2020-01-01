@@ -23,17 +23,6 @@ licenses
 /
 publicdomain
 /
-var
-gTestfile
-=
-'
-cyclic
--
-stringify
-.
-js
-'
-;
 /
 /
 -

@@ -662,17 +662,6 @@ not
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-187133
-.
-js
-'
-;
-var
 i
 =
 0

@@ -26,15 +26,6 @@ publicdomain
 *
 /
 var
-gTestfile
-=
-'
-trapflatclosure
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 549617

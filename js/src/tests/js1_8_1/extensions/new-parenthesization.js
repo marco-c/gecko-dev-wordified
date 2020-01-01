@@ -67,17 +67,6 @@ Jesse
 Ruderman
 *
 /
-var
-gTestfile
-=
-'
-new
--
-parenthesization
-.
-js
-'
-;
 /
 /
 -

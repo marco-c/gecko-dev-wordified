@@ -72,15 +72,6 @@ com
 >
 *
 /
-var
-gTestfile
-=
-'
-template
-.
-js
-'
-;
 /
 /
 -

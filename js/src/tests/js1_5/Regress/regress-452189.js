@@ -67,17 +67,6 @@ Geoff
 Garen
 *
 /
-var
-gTestfile
-=
-'
-regress
--
-452189
-.
-js
-'
-;
 /
 /
 -

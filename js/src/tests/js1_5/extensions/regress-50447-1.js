@@ -431,19 +431,6 @@ BLOCK
 *
 *
 /
-var
-gTestfile
-=
-'
-regress
--
-50447
--
-1
-.
-js
-'
-;
 /
 *
 *
@@ -1002,7 +989,7 @@ js
 ;
 reportCompare
 (
-95
+94
 e
 .
 lineNumber
@@ -1202,7 +1189,7 @@ pl
 var
 expectedLine
 =
-149
+148
 ;
 var
 expectedFileName
@@ -1637,7 +1624,7 @@ test4
 var
 expectedLine
 =
-208
+207
 ;
 var
 e

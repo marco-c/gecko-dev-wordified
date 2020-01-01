@@ -428,17 +428,6 @@ BLOCK
 *
 *
 /
-var
-gTestfile
-=
-'
-destructuring
--
-order
-.
-js
-'
-;
 /
 /
 -

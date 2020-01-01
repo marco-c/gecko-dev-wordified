@@ -426,12 +426,6 @@ BLOCK
 *
 *
 /
-gTestsuite
-=
-'
-ecma
-'
-;
 /
 *
 *
@@ -869,7 +863,7 @@ return
 *
 The
 date
-gTestcases
+testcases
 instantiate
 Date
 objects

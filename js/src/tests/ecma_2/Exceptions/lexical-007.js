@@ -421,16 +421,6 @@ BLOCK
 *
 *
 /
-gTestfile
-=
-'
-lexical
--
-007
-.
-js
-'
-;
 /
 *
 *

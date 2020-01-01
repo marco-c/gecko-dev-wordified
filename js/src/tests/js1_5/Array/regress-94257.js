@@ -574,17 +574,6 @@ arr
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-94257
-.
-js
-'
-;
-var
 UBound
 =
 0

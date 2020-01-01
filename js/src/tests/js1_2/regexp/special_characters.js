@@ -426,14 +426,6 @@ BLOCK
 *
 *
 /
-gTestfile
-=
-'
-special_characters
-.
-js
-'
-;
 /
 *
 *

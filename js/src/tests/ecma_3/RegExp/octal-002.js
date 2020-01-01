@@ -762,17 +762,6 @@ u0009
 -
 -
 var
-gTestfile
-=
-'
-octal
--
-002
-.
-js
-'
-;
-var
 i
 =
 0

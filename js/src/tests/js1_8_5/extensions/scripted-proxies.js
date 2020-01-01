@@ -30,15 +30,6 @@ Andreas
 Gal
 *
 /
-var
-gTestfile
-=
-'
-proxies
-.
-js
-'
-;
 /
 /
 -

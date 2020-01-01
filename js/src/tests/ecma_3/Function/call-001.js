@@ -746,17 +746,6 @@ object
 -
 -
 var
-gTestfile
-=
-'
-call
--
-001
-.
-js
-'
-;
-var
 UBound
 =
 0

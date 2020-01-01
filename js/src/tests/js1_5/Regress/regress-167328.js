@@ -437,17 +437,6 @@ BLOCK
 *
 *
 /
-var
-gTestfile
-=
-'
-regress
--
-167328
-.
-js
-'
-;
 /
 /
 -
@@ -574,7 +563,7 @@ expect
 '
 TypeError
 :
-53
+52
 '
 ;
 try

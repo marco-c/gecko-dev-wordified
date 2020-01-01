@@ -424,17 +424,6 @@ BLOCK
 *
 *
 /
-var
-gTestfile
-=
-'
-regress
--
-304376
-.
-js
-'
-;
 /
 /
 -

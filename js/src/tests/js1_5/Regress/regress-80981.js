@@ -726,17 +726,6 @@ codes
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-80981
-.
-js
-'
-;
-var
 i2
 =
 3011

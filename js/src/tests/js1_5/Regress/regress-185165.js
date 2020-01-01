@@ -556,17 +556,6 @@ id
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-185165
-.
-js
-'
-;
-var
 UBound
 =
 0

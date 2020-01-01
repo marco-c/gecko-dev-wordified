@@ -422,17 +422,6 @@ BLOCK
 *
 *
 /
-var
-gTestfile
-=
-'
-destructuring
--
-scope
-.
-js
-'
-;
 /
 /
 -

@@ -523,12 +523,6 @@ testing
 -
 -
 -
-gTestsubsuite
-=
-'
-extensions
-'
-;
 var
 MSG_PATTERN
 =

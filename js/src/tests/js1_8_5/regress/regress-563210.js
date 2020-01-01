@@ -33,14 +33,6 @@ Nicholas
 Nethercote
 *
 /
-gTestfile
-=
-'
-regress
--
-563210
-'
-;
 if
 (
 typeof

@@ -421,16 +421,6 @@ BLOCK
 *
 *
 /
-gTestfile
-=
-'
-dowhile
--
-003
-.
-js
-'
-;
 /
 *
 *

@@ -431,17 +431,6 @@ BLOCK
 *
 *
 /
-var
-gTestfile
-=
-'
-uc
--
-002
-.
-js
-'
-;
 test
 (
 )

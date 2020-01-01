@@ -426,14 +426,6 @@ BLOCK
 *
 *
 /
-gTestfile
-=
-'
-character_class
-.
-js
-'
-;
 /
 *
 *

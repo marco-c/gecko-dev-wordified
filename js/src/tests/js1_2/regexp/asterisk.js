@@ -426,14 +426,6 @@ BLOCK
 *
 *
 /
-gTestfile
-=
-'
-asterisk
-.
-js
-'
-;
 /
 *
 *

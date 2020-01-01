@@ -421,16 +421,6 @@ BLOCK
 *
 *
 /
-gTestfile
-=
-'
-StrictEquality
--
-001
-.
-js
-'
-;
 /
 *
 *

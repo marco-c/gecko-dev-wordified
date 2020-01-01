@@ -426,14 +426,6 @@ BLOCK
 *
 *
 /
-gTestfile
-=
-'
-Function_object
-.
-js
-'
-;
 /
 *
 *

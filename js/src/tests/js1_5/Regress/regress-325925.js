@@ -67,17 +67,6 @@ Blake
 Kaplan
 *
 /
-var
-gTestfile
-=
-'
-regress
--
-325925
-.
-js
-'
-;
 /
 /
 -

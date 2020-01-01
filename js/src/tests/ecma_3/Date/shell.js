@@ -426,12 +426,6 @@ BLOCK
 *
 *
 /
-gTestsubsuite
-=
-'
-Date
-'
-;
 /
 *
 *
@@ -808,7 +802,7 @@ return
 *
 The
 date
-gTestcases
+testcases
 instantiate
 Date
 objects

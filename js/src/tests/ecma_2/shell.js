@@ -421,12 +421,6 @@ BLOCK
 *
 *
 /
-gTestsuite
-=
-'
-ecma_2
-'
-;
 var
 TZ_DIFF
 =

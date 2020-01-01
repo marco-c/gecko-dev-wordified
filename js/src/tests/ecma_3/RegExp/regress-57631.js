@@ -570,17 +570,6 @@ does
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-57631
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 '

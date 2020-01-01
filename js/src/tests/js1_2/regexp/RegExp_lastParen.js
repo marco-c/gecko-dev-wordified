@@ -426,14 +426,6 @@ BLOCK
 *
 *
 /
-gTestfile
-=
-'
-RegExp_lastParen
-.
-js
-'
-;
 /
 *
 *

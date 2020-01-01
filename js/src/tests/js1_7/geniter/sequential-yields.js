@@ -420,17 +420,6 @@ BLOCK
 *
 *
 /
-var
-gTestfile
-=
-'
-sequential
--
-yields
-.
-js
-'
-;
 /
 /
 -

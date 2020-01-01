@@ -578,17 +578,6 @@ Rhino
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-123437
-.
-js
-'
-;
-var
 i
 =
 0

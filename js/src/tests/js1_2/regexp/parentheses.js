@@ -426,14 +426,6 @@ BLOCK
 *
 *
 /
-gTestfile
-=
-'
-parentheses
-.
-js
-'
-;
 /
 *
 *

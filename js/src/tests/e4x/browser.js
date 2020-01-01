@@ -550,7 +550,13 @@ testcase
 new
 TestCase
 (
-gTestfile
+"
+unknown
+-
+test
+-
+name
+"
 SUMMARY
 +
 DESCRIPTION

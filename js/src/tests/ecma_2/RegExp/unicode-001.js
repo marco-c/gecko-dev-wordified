@@ -421,16 +421,6 @@ BLOCK
 *
 *
 /
-gTestfile
-=
-'
-unicode
--
-001
-.
-js
-'
-;
 /
 *
 *

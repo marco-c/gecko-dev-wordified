@@ -924,7 +924,13 @@ testcase
 new
 TestCase
 (
-gTestfile
+"
+unknown
+-
+test
+-
+name
+"
 DESCRIPTION
 EXPECTED
 "

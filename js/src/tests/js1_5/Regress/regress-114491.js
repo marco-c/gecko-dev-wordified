@@ -611,17 +611,6 @@ crashed
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-114491
-.
-js
-'
-;
-var
 UBound
 =
 0

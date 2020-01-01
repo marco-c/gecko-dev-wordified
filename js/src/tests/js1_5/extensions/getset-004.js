@@ -542,17 +542,6 @@ extension
 -
 -
 var
-gTestfile
-=
-'
-getset
--
-004
-.
-js
-'
-;
-var
 UBound
 =
 0

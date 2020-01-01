@@ -426,14 +426,6 @@ BLOCK
 *
 *
 /
-gTestfile
-=
-'
-string_split
-.
-js
-'
-;
 /
 *
 *

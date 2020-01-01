@@ -622,17 +622,6 @@ Hello
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-57043
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 57043

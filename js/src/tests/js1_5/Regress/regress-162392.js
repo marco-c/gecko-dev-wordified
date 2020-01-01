@@ -67,17 +67,6 @@ Bob
 Clary
 *
 /
-var
-gTestfile
-=
-'
-regress
--
-162392
-.
-js
-'
-;
 /
 /
 -

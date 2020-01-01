@@ -601,17 +601,6 @@ layer
 -
 -
 var
-gTestfile
-=
-'
-getset
--
-006
-.
-js
-'
-;
-var
 UBound
 =
 0

@@ -75,14 +75,6 @@ dk
 >
 *
 /
-gTestfile
-=
-'
-template
-.
-js
-'
-;
 var
 summary
 =

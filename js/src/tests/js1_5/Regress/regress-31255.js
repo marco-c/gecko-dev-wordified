@@ -633,17 +633,6 @@ indicator
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-31255
-.
-js
-'
-;
-var
 UBound
 =
 0

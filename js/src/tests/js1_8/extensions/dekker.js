@@ -67,15 +67,6 @@ Jason
 Orendorff
 *
 /
-var
-gTestfile
-=
-'
-dekker
-.
-js
-'
-;
 /
 /
 -

@@ -559,17 +559,6 @@ overflow
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-89443
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 89443

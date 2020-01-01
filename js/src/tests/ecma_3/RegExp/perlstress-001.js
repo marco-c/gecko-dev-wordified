@@ -947,17 +947,6 @@ for
 -
 -
 var
-gTestfile
-=
-'
-perlstress
--
-001
-.
-js
-'
-;
-var
 i
 =
 0

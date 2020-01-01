@@ -431,17 +431,6 @@ BLOCK
 *
 *
 /
-var
-gTestfile
-=
-'
-getset
--
-001
-.
-js
-'
-;
 function
 TestObject
 (

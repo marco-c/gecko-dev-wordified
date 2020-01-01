@@ -715,17 +715,6 @@ n
 -
 -
 var
-gTestfile
-=
-'
-uc
--
-005
-.
-js
-'
-;
-var
 UBound
 =
 0

@@ -67,17 +67,6 @@ Robert
 Sayre
 *
 /
-var
-gTestfile
-=
-'
-regress
--
-366941
-.
-js
-'
-;
 /
 /
 -

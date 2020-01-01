@@ -65,15 +65,6 @@ Contributor
 :
 *
 /
-var
-gTestfile
-=
-'
-template
-.
-js
-'
-;
 /
 /
 -

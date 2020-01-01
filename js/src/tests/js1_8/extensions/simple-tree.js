@@ -67,17 +67,6 @@ Jason
 Orendorff
 *
 /
-var
-gTestfile
-=
-'
-simple
--
-tree
-.
-js
-'
-;
 /
 /
 -

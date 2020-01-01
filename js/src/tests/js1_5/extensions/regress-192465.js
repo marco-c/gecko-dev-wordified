@@ -730,17 +730,6 @@ time
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-192465
-.
-js
-'
-;
-var
 UBound
 =
 0

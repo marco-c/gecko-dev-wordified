@@ -570,17 +570,6 @@ variables
 -
 -
 var
-gTestfile
-=
-'
-getset
--
-005
-.
-js
-'
-;
-var
 UBound
 =
 0

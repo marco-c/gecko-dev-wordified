@@ -609,17 +609,6 @@ error
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-121658
-.
-js
-'
-;
-var
 UBound
 =
 0

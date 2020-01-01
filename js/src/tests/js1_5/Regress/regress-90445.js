@@ -558,17 +558,6 @@ crashing
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-90445
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 90445

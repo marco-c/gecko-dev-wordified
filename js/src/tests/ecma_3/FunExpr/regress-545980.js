@@ -26,17 +26,6 @@ publicdomain
 *
 /
 var
-gTestfile
-=
-'
-regress
--
-545980
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 518103

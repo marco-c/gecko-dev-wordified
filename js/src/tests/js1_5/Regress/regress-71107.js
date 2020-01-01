@@ -550,17 +550,6 @@ id
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-71107
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 71107

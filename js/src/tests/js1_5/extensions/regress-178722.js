@@ -759,17 +759,6 @@ bug
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-178722
-.
-js
-'
-;
-var
 UBound
 =
 0

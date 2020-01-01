@@ -73,17 +73,6 @@ dbc
 dk
 *
 /
-var
-gTestfile
-=
-'
-regress
--
-335051
-.
-js
-'
-;
 /
 /
 -

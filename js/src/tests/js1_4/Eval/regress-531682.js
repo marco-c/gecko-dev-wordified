@@ -60,17 +60,6 @@ publicdomain
 /
 *
 /
-var
-gTestfile
-=
-'
-regress
--
-531682
-.
-js
-'
-;
 /
 /
 -

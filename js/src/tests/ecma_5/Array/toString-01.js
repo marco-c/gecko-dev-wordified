@@ -39,17 +39,6 @@ edu
 >
 *
 /
-var
-gTestfile
-=
-'
-toString
--
-01
-.
-js
-'
-;
 /
 /
 -

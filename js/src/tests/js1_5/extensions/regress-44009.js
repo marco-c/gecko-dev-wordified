@@ -552,17 +552,6 @@ toSource
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-44009
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 44009

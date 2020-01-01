@@ -564,17 +564,6 @@ id
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-72964
-.
-js
-'
-;
-var
 i
 =
 0

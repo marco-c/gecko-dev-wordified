@@ -545,17 +545,6 @@ no
 -
 -
 var
-gTestfile
-=
-'
-array
--
-001
-.
-js
-'
-;
-var
 UBound
 =
 0

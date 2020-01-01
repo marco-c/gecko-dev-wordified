@@ -23,17 +23,6 @@ licenses
 /
 publicdomain
 /
-var
-gTestfile
-=
-'
-parseInt
--
-octal
-.
-js
-'
-;
 /
 /
 -

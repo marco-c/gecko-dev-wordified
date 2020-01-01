@@ -444,17 +444,6 @@ BLOCK
 *
 *
 /
-var
-gTestfile
-=
-'
-trace
--
-test
-.
-js
-'
-;
 /
 /
 -

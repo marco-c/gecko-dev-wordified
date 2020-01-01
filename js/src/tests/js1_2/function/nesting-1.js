@@ -426,16 +426,6 @@ BLOCK
 *
 *
 /
-gTestfile
-=
-'
-nesting
--
-1
-.
-js
-'
-;
 /
 *
 *

@@ -420,16 +420,6 @@ BLOCK
 *
 *
 /
-gTestfile
-=
-'
-regress
--
-350206
-.
-js
-'
-;
 var
 BUGNUMBER
 =

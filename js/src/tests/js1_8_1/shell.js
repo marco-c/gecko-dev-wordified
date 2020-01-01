@@ -424,12 +424,6 @@ BLOCK
 *
 *
 /
-gTestsuite
-=
-'
-js1_8_1
-'
-;
 /
 /
 explicitly

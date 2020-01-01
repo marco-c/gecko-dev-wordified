@@ -545,17 +545,6 @@ id
 -
 -
 var
-gTestfile
-=
-'
-octal
--
-001
-.
-js
-'
-;
-var
 i
 =
 0

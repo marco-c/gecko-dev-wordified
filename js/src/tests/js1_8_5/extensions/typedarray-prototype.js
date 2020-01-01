@@ -23,17 +23,6 @@ licenses
 /
 publicdomain
 /
-var
-gTestfile
-=
-'
-typedarray
--
-prototype
-.
-js
-'
-;
 /
 /
 -

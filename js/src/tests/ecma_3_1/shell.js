@@ -424,9 +424,3 @@ BLOCK
 *
 *
 /
-gTestsuite
-=
-'
-ecma_3_1
-'
-;

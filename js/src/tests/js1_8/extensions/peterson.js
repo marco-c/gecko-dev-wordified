@@ -430,15 +430,6 @@ BLOCK
 *
 *
 /
-var
-gTestfile
-=
-'
-peterson
-.
-js
-'
-;
 /
 /
 -

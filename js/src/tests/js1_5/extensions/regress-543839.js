@@ -67,17 +67,6 @@ Igor
 Bukanov
 *
 /
-var
-gTestfile
-=
-'
-regress
--
-543839
-.
-js
-'
-;
 /
 /
 -

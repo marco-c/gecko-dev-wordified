@@ -1094,17 +1094,6 @@ handled
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-179068
-.
-js
-'
-;
-var
 UBound
 =
 0

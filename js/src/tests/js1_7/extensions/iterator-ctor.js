@@ -445,17 +445,6 @@ Core_JavaScript_1
 5_Guide
 :
 Iterators_and_Generators
-var
-gTestfile
-=
-'
-iterator
--
-ctor
-.
-js
-'
-;
 /
 /
 -

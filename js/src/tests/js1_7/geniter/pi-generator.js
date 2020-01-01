@@ -420,17 +420,6 @@ BLOCK
 *
 *
 /
-var
-gTestfile
-=
-'
-pi
--
-generator
-.
-js
-'
-;
 /
 /
 -

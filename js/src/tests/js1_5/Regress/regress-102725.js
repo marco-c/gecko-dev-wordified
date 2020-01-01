@@ -568,17 +568,6 @@ strings
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-102725
-.
-js
-'
-;
-var
 UBound
 =
 0

@@ -62,13 +62,6 @@ publicdomain
 /
 *
 /
-var
-gTestsubsuite
-=
-'
-strict
-'
-;
 /
 *
 *

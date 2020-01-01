@@ -23,14 +23,6 @@ licenses
 /
 publicdomain
 /
-gTestfile
-=
-'
-regress
--
-524743
-'
-;
 if
 (
 typeof

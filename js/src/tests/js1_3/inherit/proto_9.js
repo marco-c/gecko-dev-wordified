@@ -426,14 +426,6 @@ BLOCK
 *
 *
 /
-gTestfile
-=
-'
-proto_9
-.
-js
-'
-;
 /
 *
 *

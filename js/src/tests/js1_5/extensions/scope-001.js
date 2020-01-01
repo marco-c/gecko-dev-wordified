@@ -426,17 +426,6 @@ BLOCK
 *
 *
 /
-var
-gTestfile
-=
-'
-scope
--
-001
-.
-js
-'
-;
 /
 /
 -

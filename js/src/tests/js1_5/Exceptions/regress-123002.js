@@ -680,17 +680,6 @@ below
 -
 -
 var
-gTestfile
-=
-'
-regress
--
-123002
-.
-js
-'
-;
-var
 LENGTH_RHINO
 =
 1

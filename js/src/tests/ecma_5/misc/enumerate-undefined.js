@@ -25,17 +25,6 @@ publicdomain
 /
 *
 /
-var
-gTestfile
-=
-'
-enumerate
--
-undefined
-.
-js
-'
-;
 /
 /
 -

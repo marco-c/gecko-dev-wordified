@@ -63,14 +63,6 @@ Contributor
 :
 *
 /
-gTestfile
-=
-'
-template
-.
-js
-'
-;
 var
 summary
 =

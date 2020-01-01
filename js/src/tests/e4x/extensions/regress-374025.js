@@ -420,16 +420,6 @@ BLOCK
 *
 *
 /
-gTestfile
-=
-'
-regress
--
-374025
-.
-js
-'
-;
 var
 summary
 =

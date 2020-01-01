@@ -428,16 +428,6 @@ BLOCK
 *
 *
 /
-gTestfile
-=
-'
-regress
--
-264369
-.
-js
-'
-;
 START
 (
 "
