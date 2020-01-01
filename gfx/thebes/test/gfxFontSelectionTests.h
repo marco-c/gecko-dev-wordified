@@ -1101,6 +1101,7 @@ western
 0
 PR_FALSE
 PR_FALSE
+PR_FALSE
 )
 ;
 gfxFontStyle
@@ -1122,6 +1123,7 @@ western
 0
 .
 0
+PR_FALSE
 PR_FALSE
 PR_FALSE
 )

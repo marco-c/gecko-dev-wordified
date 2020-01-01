@@ -789,6 +789,12 @@ float
 aScale
 )
 ;
+PRBool
+IsPrinterSurface
+(
+void
+)
+;
 nsNativeWidget
 GetWidget
 (
