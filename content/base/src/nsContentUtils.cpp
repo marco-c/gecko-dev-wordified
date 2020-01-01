@@ -34398,6 +34398,7 @@ JS_IsArrayBufferObject
 (
 *
 aResult
+aCx
 )
 "
 What
@@ -34412,6 +34413,7 @@ JS_GetArrayBufferData
 (
 *
 aResult
+aCx
 )
 aData
 .

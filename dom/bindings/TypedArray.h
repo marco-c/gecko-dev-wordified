@@ -192,6 +192,8 @@ JSObject
 *
 UnboxArray
 (
+JSContext
+*
 JSObject
 *
 uint32_t
@@ -206,6 +208,9 @@ TypedArray_base
 {
 TypedArray_base
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -215,6 +220,7 @@ mObj
 =
 UnboxArray
 (
+cx
 obj
 &
 mLength
@@ -319,11 +325,15 @@ GetData
 (
 JSObject
 *
+JSContext
+*
 )
 JSObject
 *
 UnboxArray
 (
+JSContext
+*
 JSObject
 *
 uint32_t
@@ -353,6 +363,9 @@ UnboxArray
 {
 TypedArray
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -364,6 +377,7 @@ T
 UnboxArray
 >
 (
+cx
 obj
 )
 {
@@ -464,6 +478,7 @@ T
 GetData
 (
 obj
+cx
 )
 )
 ;

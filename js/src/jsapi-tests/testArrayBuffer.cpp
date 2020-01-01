@@ -323,6 +323,7 @@ CHECK
 JS_IsArrayBufferObject
 (
 obj
+cx
 )
 )
 ;
@@ -331,6 +332,7 @@ CHECK_EQUAL
 JS_GetArrayBufferByteLength
 (
 obj
+cx
 )
 size
 )
@@ -396,6 +398,7 @@ data
 JS_GetArrayBufferData
 (
 obj
+cx
 )
 ;
 CHECK
@@ -491,6 +494,7 @@ CHECK_EQUAL
 JS_GetArrayBufferByteLength
 (
 obj
+cx
 )
 0
 )
@@ -592,6 +596,7 @@ CHECK_EQUAL
 JS_GetArrayBufferByteLength
 (
 obj
+cx
 )
 0
 )
@@ -641,6 +646,7 @@ CHECK
 JS_IsArrayBufferObject
 (
 dst
+cx
 )
 )
 ;
@@ -649,6 +655,7 @@ data
 JS_GetArrayBufferData
 (
 obj
+cx
 )
 ;
 js
@@ -681,6 +688,7 @@ CHECK_EQUAL
 JS_GetArrayBufferByteLength
 (
 dst
+cx
 )
 size
 )
@@ -690,6 +698,7 @@ data
 JS_GetArrayBufferData
 (
 dst
+cx
 )
 ;
 CHECK

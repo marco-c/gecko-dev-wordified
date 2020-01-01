@@ -8756,6 +8756,7 @@ if
 JS_IsArrayBufferObject
 (
 aBody
+cx
 )
 |
 |

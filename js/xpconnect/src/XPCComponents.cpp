@@ -16093,6 +16093,7 @@ js
 :
 UnwrapOneChecked
 (
+cx
 obj
 )
 ;
@@ -22758,6 +22759,7 @@ js
 :
 UnwrapObjectChecked
 (
+cx
 sandbox
 )
 ;
