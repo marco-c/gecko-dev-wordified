@@ -1859,6 +1859,8 @@ mSelectedType
 ;
 PRBool
 fileExists
+=
+PR_TRUE
 ;
 do
 {

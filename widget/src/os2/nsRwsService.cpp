@@ -1062,6 +1062,7 @@ IsDescendedFrom
 (
 PRUint32
 wpsFilePtr
+const
 char
 *
 pszClassname
@@ -5846,6 +5847,7 @@ IsDescendedFrom
 (
 PRUint32
 wpsFilePtr
+const
 char
 *
 pszClassname

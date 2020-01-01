@@ -826,7 +826,7 @@ PrnOpenDC
 PRTQUEUE
 *
 pPrintQueue
-PSZ
+PCSZ
 pszApplicationName
 int
 copies
