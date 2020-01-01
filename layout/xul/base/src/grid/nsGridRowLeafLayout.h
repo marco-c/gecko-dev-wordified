@@ -627,10 +627,6 @@ nsBoxSize
 *
 &
 aBoxSizes
-nsComputedBoxSize
-*
-&
-aComputedBoxSizes
 nscoord
 &
 aMinSize

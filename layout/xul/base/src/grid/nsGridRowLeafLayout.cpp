@@ -903,10 +903,6 @@ nsBoxSize
 *
 &
 aBoxSizes
-nsComputedBoxSize
-*
-&
-aComputedBoxSizes
 nscoord
 &
 aMinSize
@@ -1660,7 +1656,6 @@ PopulateBoxSizes
 aBox
 aState
 aBoxSizes
-aComputedBoxSizes
 aMinSize
 aMaxSize
 aFlexes
