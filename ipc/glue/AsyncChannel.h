@@ -912,6 +912,11 @@ OnChannelOpened
 )
 ;
 void
+OnTakeConnectedChannel
+(
+)
+;
+void
 OnEchoMessage
 (
 Message
