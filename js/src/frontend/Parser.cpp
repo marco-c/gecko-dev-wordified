@@ -960,9 +960,6 @@ bool
 foldConstants
 )
 :
-js
-:
-:
 AutoGCRooter
 (
 cx
@@ -1033,9 +1030,6 @@ activeCompilations
 +
 +
 ;
-js
-:
-:
 PodArrayZero
 (
 tempFreeList
@@ -1223,7 +1217,7 @@ principals
 prin
 ;
 }
-JSObjectBox
+ObjectBox
 *
 Parser
 :
@@ -1301,7 +1295,7 @@ function
 .
 *
 /
-JSObjectBox
+ObjectBox
 *
 objbox
 =
@@ -1314,7 +1308,7 @@ tempLifoAlloc
 .
 new_
 <
-JSObjectBox
+ObjectBox
 >
 (
 )
@@ -1370,7 +1364,7 @@ return
 objbox
 ;
 }
-JSFunctionBox
+FunctionBox
 *
 Parser
 :
@@ -1380,10 +1374,10 @@ newFunctionBox
 JSObject
 *
 obj
-JSParseNode
+ParseNode
 *
 fn
-JSTreeContext
+TreeContext
 *
 tc
 )
@@ -1464,7 +1458,7 @@ function
 .
 *
 /
-JSFunctionBox
+FunctionBox
 *
 funbox
 =
@@ -1477,7 +1471,7 @@ tempLifoAlloc
 .
 newPod
 <
-JSFunctionBox
+FunctionBox
 >
 (
 )
@@ -1616,7 +1610,7 @@ false
 ;
 for
 (
-JSStmtInfo
+StmtInfo
 *
 stmt
 =
@@ -1716,7 +1710,7 @@ JSTracer
 trc
 )
 {
-JSObjectBox
+ObjectBox
 *
 objbox
 =
@@ -1751,7 +1745,7 @@ isFunctionBox
 )
 static_cast
 <
-JSFunctionBox
+FunctionBox
 *
 >
 (
@@ -1776,7 +1770,7 @@ traceLink
 }
 for
 (
-JSTreeContext
+TreeContext
 *
 tc
 =
@@ -2113,13 +2107,13 @@ Parser
 :
 cleanFunctionList
 (
-JSFunctionBox
+FunctionBox
 *
 *
 funboxHead
 )
 {
-JSFunctionBox
+FunctionBox
 *
 *
 link
@@ -2128,7 +2122,7 @@ funboxHead
 ;
 while
 (
-JSFunctionBox
+FunctionBox
 *
 box
 =
@@ -2272,7 +2266,7 @@ list
 *
 /
 {
-JSParseNode
+ParseNode
 *
 *
 methodLink
@@ -2285,7 +2279,7 @@ methods
 ;
 while
 (
-JSParseNode
+ParseNode
 *
 method
 =
@@ -2440,10 +2434,10 @@ static
 bool
 GenerateBlockIdForStmtNode
 (
-JSParseNode
+ParseNode
 *
 pn
-JSTreeContext
+TreeContext
 *
 tc
 )
@@ -2535,7 +2529,7 @@ script
 .
 *
 /
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -2631,7 +2625,7 @@ reference
 .
 *
 /
-JSTreeContext
+TreeContext
 globaltc
 (
 this
@@ -2672,7 +2666,7 @@ bodyid
 return
 NULL
 ;
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -2717,7 +2711,7 @@ foldConstants
 if
 (
 !
-js_FoldConstants
+FoldConstants
 (
 context
 pn
@@ -2848,12 +2842,12 @@ static
 int
 HasFinalReturn
 (
-JSParseNode
+ParseNode
 *
 pn
 )
 {
-JSParseNode
+ParseNode
 *
 pn2
 *
@@ -3531,10 +3525,10 @@ ReportBadReturn
 JSContext
 *
 cx
-JSTreeContext
+TreeContext
 *
 tc
-JSParseNode
+ParseNode
 *
 pn
 uintN
@@ -3620,10 +3614,10 @@ CheckFinalReturn
 JSContext
 *
 cx
-JSTreeContext
+TreeContext
 *
 tc
-JSParseNode
+ParseNode
 *
 pn
 )
@@ -3699,10 +3693,10 @@ CheckStrictAssignment
 JSContext
 *
 cx
-JSTreeContext
+TreeContext
 *
 tc
-JSParseNode
+ParseNode
 *
 lhs
 )
@@ -3880,13 +3874,13 @@ CheckStrictBinding
 JSContext
 *
 cx
-JSTreeContext
+TreeContext
 *
 tc
 PropertyName
 *
 name
-JSParseNode
+ParseNode
 *
 pn
 )
@@ -4004,7 +3998,7 @@ ReportBadParameter
 JSContext
 *
 cx
-JSTreeContext
+TreeContext
 *
 tc
 JSAtom
@@ -4014,7 +4008,7 @@ uintN
 errorNumber
 )
 {
-JSDefinition
+Definition
 *
 dn
 =
@@ -4135,7 +4129,7 @@ CheckStrictParameters
 JSContext
 *
 cx
-JSTreeContext
+TreeContext
 *
 tc
 )
@@ -4529,7 +4523,7 @@ namespace
 js
 *
 /
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -4548,7 +4542,7 @@ inFunction
 )
 )
 ;
-JSStmtInfo
+StmtInfo
 stmtInfo
 ;
 js_PushStatement
@@ -4588,7 +4582,7 @@ TCF_RETURN_EXPR
 TCF_RETURN_VOID
 )
 ;
-JSParseNode
+ParseNode
 *
 pn
 ;
@@ -4836,7 +4830,7 @@ pn
 Create
 a
 placeholder
-JSDefinition
+Definition
 node
 for
 |
@@ -4846,24 +4840,24 @@ atom
 *
 /
 static
-JSDefinition
+Definition
 *
 MakePlaceholder
 (
-JSParseNode
+ParseNode
 *
 pn
-JSTreeContext
+TreeContext
 *
 tc
 )
 {
-JSDefinition
+Definition
 *
 dn
 =
 (
-JSDefinition
+Definition
 *
 )
 NameNode
@@ -4926,13 +4920,13 @@ static
 bool
 Define
 (
-JSParseNode
+ParseNode
 *
 pn
 JSAtom
 *
 atom
-JSTreeContext
+TreeContext
 *
 tc
 bool
@@ -4973,7 +4967,7 @@ foundLexdep
 =
 false
 ;
-JSDefinition
+Definition
 *
 dn
 =
@@ -5031,7 +5025,7 @@ dn
 pn
 )
 {
-JSParseNode
+ParseNode
 *
 *
 pnup
@@ -5042,7 +5036,7 @@ dn
 >
 dn_uses
 ;
-JSParseNode
+ParseNode
 *
 pnu
 ;
@@ -5099,7 +5093,7 @@ pnu
 pn_lexdef
 =
 (
-JSDefinition
+Definition
 *
 )
 pn
@@ -5196,12 +5190,12 @@ atom
 ;
 }
 }
-JSDefinition
+Definition
 *
 toAdd
 =
 (
-JSDefinition
+Definition
 *
 )
 pn
@@ -5282,7 +5276,7 @@ static
 void
 ForgetUse
 (
-JSParseNode
+ParseNode
 *
 pn
 )
@@ -5312,7 +5306,7 @@ isDefn
 return
 ;
 }
-JSParseNode
+ParseNode
 *
 *
 pnup
@@ -5328,7 +5322,7 @@ lexdef
 >
 dn_uses
 ;
-JSParseNode
+ParseNode
 *
 pnu
 ;
@@ -5370,22 +5364,22 @@ false
 ;
 }
 static
-JSParseNode
+ParseNode
 *
 MakeAssignment
 (
-JSParseNode
+ParseNode
 *
 pn
-JSParseNode
+ParseNode
 *
 rhs
-JSTreeContext
+TreeContext
 *
 tc
 )
 {
-JSParseNode
+ParseNode
 *
 lhs
 =
@@ -5418,7 +5412,7 @@ isUsed
 )
 )
 {
-JSDefinition
+Definition
 *
 dn
 =
@@ -5427,7 +5421,7 @@ pn
 >
 pn_lexdef
 ;
-JSParseNode
+ParseNode
 *
 *
 pnup
@@ -5547,20 +5541,20 @@ lhs
 ;
 }
 static
-JSParseNode
+ParseNode
 *
 MakeDefIntoUse
 (
-JSDefinition
+Definition
 *
 dn
-JSParseNode
+ParseNode
 *
 pn
 JSAtom
 *
 atom
-JSTreeContext
+TreeContext
 *
 tc
 )
@@ -5620,7 +5614,7 @@ isBindingForm
 )
 )
 {
-JSParseNode
+ParseNode
 *
 rhs
 =
@@ -5636,7 +5630,7 @@ if
 rhs
 )
 {
-JSParseNode
+ParseNode
 *
 lhs
 =
@@ -5667,7 +5661,7 @@ lhs
 dn
 =
 (
-JSDefinition
+Definition
 *
 )
 lhs
@@ -5711,7 +5705,7 @@ kind
 )
 =
 =
-JSDefinition
+Definition
 :
 :
 FUNCTION
@@ -5810,7 +5804,7 @@ atom
 ;
 for
 (
-JSParseNode
+ParseNode
 *
 pnu
 =
@@ -5856,7 +5850,7 @@ pnu
 pn_lexdef
 =
 (
-JSDefinition
+Definition
 *
 )
 pn
@@ -5917,7 +5911,7 @@ dn
 pn_lexdef
 =
 (
-JSDefinition
+Definition
 *
 )
 pn
@@ -5950,7 +5944,7 @@ js
 bool
 DefineArg
 (
-JSParseNode
+ParseNode
 *
 pn
 JSAtom
@@ -5958,12 +5952,12 @@ JSAtom
 atom
 uintN
 i
-JSTreeContext
+TreeContext
 *
 tc
 )
 {
-JSParseNode
+ParseNode
 *
 argpn
 *
@@ -6317,7 +6311,7 @@ data
 JSAtom
 *
 atom
-JSTreeContext
+TreeContext
 *
 tc
 )
@@ -6335,7 +6329,7 @@ true
 )
 {
 }
-JSParseNode
+ParseNode
 *
 pn
 ;
@@ -6397,10 +6391,10 @@ BindLocalVariable
 JSContext
 *
 cx
-JSTreeContext
+TreeContext
 *
 tc
-JSParseNode
+ParseNode
 *
 pn
 BindingKind
@@ -6539,7 +6533,7 @@ data
 JSAtom
 *
 atom
-JSTreeContext
+TreeContext
 *
 tc
 )
@@ -6674,7 +6668,7 @@ return
 JS_FALSE
 ;
 }
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -6938,7 +6932,7 @@ Parser
 :
 newFunction
 (
-JSTreeContext
+TreeContext
 *
 tc
 JSAtom
@@ -7227,7 +7221,7 @@ Parser
 :
 analyzeFunctions
 (
-JSTreeContext
+TreeContext
 *
 tc
 )
@@ -7626,12 +7620,12 @@ static
 uintN
 FindFunArgs
 (
-JSFunctionBox
+FunctionBox
 *
 funbox
 int
 level
-JSFunctionBoxQueue
+FunctionBoxQueue
 *
 queue
 )
@@ -7646,7 +7640,7 @@ FREE_LEVEL
 ;
 do
 {
-JSParseNode
+ParseNode
 *
 fn
 =
@@ -7856,7 +7850,7 @@ setFunArg
 ;
 for
 (
-JSFunctionBox
+FunctionBox
 *
 kid
 =
@@ -7930,7 +7924,7 @@ UpvarCookie
 :
 FREE_LEVEL
 ;
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -7998,7 +7992,7 @@ popFront
 )
 )
 {
-JSDefinition
+Definition
 *
 defn
 =
@@ -8012,7 +8006,7 @@ value
 (
 )
 ;
-JSDefinition
+Definition
 *
 lexdep
 =
@@ -8380,12 +8374,12 @@ Parser
 :
 markFunArgs
 (
-JSFunctionBox
+FunctionBox
 *
 funbox
 )
 {
-JSFunctionBoxQueue
+FunctionBoxQueue
 queue
 ;
 if
@@ -8433,7 +8427,7 @@ pull
 NULL
 )
 {
-JSParseNode
+ParseNode
 *
 fn
 =
@@ -8452,7 +8446,7 @@ isFunArg
 )
 )
 ;
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -8517,7 +8511,7 @@ popFront
 )
 )
 {
-JSDefinition
+Definition
 *
 defn
 =
@@ -8531,7 +8525,7 @@ value
 (
 )
 ;
-JSDefinition
+Definition
 *
 lexdep
 =
@@ -8571,7 +8565,7 @@ kind
 )
 =
 =
-JSDefinition
+Definition
 :
 :
 FUNCTION
@@ -8665,7 +8659,7 @@ setFunArg
 (
 )
 ;
-JSFunctionBox
+FunctionBox
 *
 afunbox
 ;
@@ -8890,7 +8884,7 @@ static
 uint32
 MinBlockId
 (
-JSParseNode
+ParseNode
 *
 fn
 uint32
@@ -8921,7 +8915,7 @@ isDefn
 {
 for
 (
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -8963,10 +8957,10 @@ inline
 bool
 CanFlattenUpvar
 (
-JSDefinition
+Definition
 *
 dn
-JSFunctionBox
+FunctionBox
 *
 funbox
 uint32
@@ -9116,7 +9110,7 @@ argument
 .
 *
 /
-JSFunctionBox
+FunctionBox
 *
 afunbox
 =
@@ -9648,7 +9642,7 @@ isInitialized
 return
 false
 ;
-JSDefinition
+Definition
 :
 :
 Kind
@@ -9666,7 +9660,7 @@ if
 dnKind
 !
 =
-JSDefinition
+Definition
 :
 :
 CONST
@@ -9793,7 +9787,7 @@ if
 dnKind
 =
 =
-JSDefinition
+Definition
 :
 :
 ARG
@@ -9873,7 +9867,7 @@ if
 dnKind
 !
 =
-JSDefinition
+Definition
 :
 :
 FUNCTION
@@ -10025,10 +10019,10 @@ static
 void
 FlagHeavyweights
 (
-JSDefinition
+Definition
 *
 dn
-JSFunctionBox
+FunctionBox
 *
 funbox
 uint32
@@ -10193,7 +10187,7 @@ static
 bool
 DeoptimizeUsesWithin
 (
-JSDefinition
+Definition
 *
 dn
 const
@@ -10209,7 +10203,7 @@ ndeoptimized
 ;
 for
 (
-JSParseNode
+ParseNode
 *
 pnu
 =
@@ -10302,7 +10296,7 @@ static
 void
 ConsiderUnbranding
 (
-JSFunctionBox
+FunctionBox
 *
 funbox
 )
@@ -10425,7 +10419,7 @@ TCF_RETURN_EXPR
 if
 JS_HAS_EXPR_CLOSURES
 {
-JSParseNode
+ParseNode
 *
 pn2
 =
@@ -10507,7 +10501,7 @@ slowMethodSets
 ;
 for
 (
-JSParseNode
+ParseNode
 *
 method
 =
@@ -10595,7 +10589,7 @@ Parser
 :
 setFunctionKinds
 (
-JSFunctionBox
+FunctionBox
 *
 funbox
 uint32
@@ -10616,7 +10610,7 @@ funbox
 siblings
 )
 {
-JSParseNode
+ParseNode
 *
 fn
 =
@@ -10625,7 +10619,7 @@ funbox
 >
 node
 ;
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -10831,7 +10825,7 @@ popFront
 )
 )
 {
-JSDefinition
+Definition
 *
 defn
 =
@@ -10845,7 +10839,7 @@ value
 (
 )
 ;
-JSDefinition
+Definition
 *
 lexdep
 =
@@ -11196,7 +11190,7 @@ popFront
 )
 )
 {
-JSDefinition
+Definition
 *
 defn
 =
@@ -11210,7 +11204,7 @@ value
 (
 )
 ;
-JSDefinition
+Definition
 *
 lexdep
 =
@@ -11263,7 +11257,7 @@ setJoinable
 *
 Walk
 the
-JSFunctionBox
+FunctionBox
 tree
 looking
 for
@@ -11380,7 +11374,7 @@ Parser
 :
 markExtensibleScopeDescendants
 (
-JSFunctionBox
+FunctionBox
 *
 funbox
 bool
@@ -11504,14 +11498,14 @@ scopeIsExtensible
 }
 }
 static
-JSFunctionBox
+FunctionBox
 *
 EnterFunction
 (
-JSParseNode
+ParseNode
 *
 fn
-JSTreeContext
+TreeContext
 *
 funtc
 JSAtom
@@ -11525,7 +11519,7 @@ kind
 Expression
 )
 {
-JSTreeContext
+TreeContext
 *
 tc
 =
@@ -11579,7 +11573,7 @@ GC
 .
 *
 /
-JSFunctionBox
+FunctionBox
 *
 funbox
 =
@@ -11692,10 +11686,10 @@ static
 bool
 LeaveFunction
 (
-JSParseNode
+ParseNode
 *
 fn
-JSTreeContext
+TreeContext
 *
 funtc
 PropertyName
@@ -11709,7 +11703,7 @@ kind
 Expression
 )
 {
-JSTreeContext
+TreeContext
 *
 tc
 =
@@ -11728,7 +11722,7 @@ funtc
 >
 blockidGen
 ;
-JSFunctionBox
+FunctionBox
 *
 funbox
 =
@@ -11926,7 +11920,7 @@ key
 (
 )
 ;
-JSDefinition
+Definition
 *
 dn
 =
@@ -12120,7 +12114,7 @@ price
 /
 for
 (
-JSParseNode
+ParseNode
 *
 pnu
 =
@@ -12174,7 +12168,7 @@ break
 }
 }
 }
-JSDefinition
+Definition
 *
 outer_dn
 =
@@ -12653,7 +12647,7 @@ dn
 outer_dn
 )
 {
-JSParseNode
+ParseNode
 *
 *
 pnup
@@ -12664,7 +12658,7 @@ dn
 >
 dn_uses
 ;
-JSParseNode
+ParseNode
 *
 pnu
 ;
@@ -12742,7 +12736,7 @@ to
 outer_dn
 .
 See
-JSDefinition
+Definition
 :
 :
 resolve
@@ -12840,7 +12834,7 @@ foundCallee
 0
 )
 {
-JSParseNode
+ParseNode
 *
 body
 =
@@ -13082,7 +13076,7 @@ funtc
 decls
 )
 ;
-JSDefinition
+Definition
 *
 dn
 ;
@@ -13110,7 +13104,7 @@ kind
 )
 =
 =
-JSDefinition
+Definition
 :
 :
 ARG
@@ -13166,10 +13160,10 @@ static
 bool
 DefineGlobal
 (
-JSParseNode
+ParseNode
 *
 pn
-JSCodeGenerator
+CodeGenerator
 *
 cg
 PropertyName
@@ -13235,13 +13229,13 @@ Parser
 :
 functionArguments
 (
-JSTreeContext
+TreeContext
 &
 funtc
-JSFunctionBox
+FunctionBox
 *
 funbox
-JSParseNode
+ParseNode
 *
 *
 listp
@@ -13295,7 +13289,7 @@ destructuringArg
 =
 false
 ;
-JSParseNode
+ParseNode
 *
 list
 =
@@ -13410,7 +13404,7 @@ binder
 =
 BindDestructuringArg
 ;
-JSParseNode
+ParseNode
 *
 lhs
 =
@@ -13505,7 +13499,7 @@ list
 .
 *
 /
-JSParseNode
+ParseNode
 *
 rhs
 =
@@ -13572,11 +13566,11 @@ pn_dflags
 =
 PND_BOUND
 ;
-JSParseNode
+ParseNode
 *
 item
 =
-JSParseNode
+ParseNode
 :
 :
 newBinaryOrAppend
@@ -13914,7 +13908,7 @@ if
 JS_HAS_DESTRUCTURING
 report_dup_and_destructuring
 :
-JSDefinition
+Definition
 *
 dn
 =
@@ -13979,7 +13973,7 @@ return
 true
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -14021,7 +14015,7 @@ TOK_FUNCTION
 JSOP_NOP
 )
 ;
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -14206,7 +14200,7 @@ Statement
 {
 if
 (
-JSDefinition
+Definition
 *
 dn
 =
@@ -14221,7 +14215,7 @@ funName
 )
 )
 {
-JSDefinition
+Definition
 :
 :
 Kind
@@ -14268,7 +14262,7 @@ hasStrictOption
 dn_kind
 =
 =
-JSDefinition
+Definition
 :
 :
 CONST
@@ -14297,7 +14291,7 @@ NULL
 dn_kind
 !
 =
-JSDefinition
+Definition
 :
 :
 CONST
@@ -14309,7 +14303,7 @@ JSREPORT_STRICT
 :
 JSREPORT_ERROR
 JSMSG_REDECLARED_VAR
-JSDefinition
+Definition
 :
 :
 kindString
@@ -14343,7 +14337,7 @@ updateFirst
 (
 funName
 (
-JSDefinition
+Definition
 *
 )
 pn
@@ -14441,7 +14435,7 @@ pn
 /
 if
 (
-JSDefinition
+Definition
 *
 fn
 =
@@ -14828,7 +14822,7 @@ default
 }
 }
 }
-JSTreeContext
+TreeContext
 *
 outertc
 =
@@ -14847,7 +14841,7 @@ destructuringExpr
 .
 *
 /
-JSTreeContext
+TreeContext
 funtc
 (
 tc
@@ -14869,7 +14863,7 @@ context
 return
 NULL
 ;
-JSFunctionBox
+FunctionBox
 *
 funbox
 =
@@ -14917,7 +14911,7 @@ nargs
 .
 *
 /
-JSParseNode
+ParseNode
 *
 prelude
 =
@@ -15051,7 +15045,7 @@ decls
 ;
 while
 (
-JSDefinition
+Definition
 *
 apn
 =
@@ -15224,7 +15218,7 @@ JSMSG_CURLY_BEFORE_BODY
 ;
 #
 endif
-JSParseNode
+ParseNode
 *
 body
 =
@@ -15555,7 +15549,7 @@ PN_LIST
 )
 )
 {
-JSParseNode
+ParseNode
 *
 block
 ;
@@ -15608,7 +15602,7 @@ body
 block
 ;
 }
-JSParseNode
+ParseNode
 *
 item
 =
@@ -16181,7 +16175,7 @@ return
 pn
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -16300,7 +16294,7 @@ Statement
 )
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -16512,7 +16506,7 @@ Parser
 :
 recognizeDirectivePrologue
 (
-JSParseNode
+ParseNode
 *
 pn
 bool
@@ -16539,7 +16533,7 @@ isDirectivePrologueMember
 return
 true
 ;
-JSParseNode
+ParseNode
 *
 kid
 =
@@ -16909,7 +16903,7 @@ after
 .
 *
 /
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -16918,7 +16912,7 @@ statements
 (
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 *
@@ -17338,7 +17332,7 @@ return
 pn
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -17347,7 +17341,7 @@ condition
 (
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 ;
@@ -17460,7 +17454,7 @@ cx
 TokenStream
 *
 ts
-JSParseNode
+ParseNode
 *
 pn
 )
@@ -17651,12 +17645,12 @@ data
 JSAtom
 *
 atom
-JSTreeContext
+TreeContext
 *
 tc
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 ;
@@ -17750,7 +17744,7 @@ blockChain
 (
 )
 ;
-JSDefinition
+Definition
 *
 dn
 =
@@ -18196,12 +18190,12 @@ static
 void
 PopStatement
 (
-JSTreeContext
+TreeContext
 *
 tc
 )
 {
-JSStmtInfo
+StmtInfo
 *
 stmt
 =
@@ -18348,10 +18342,10 @@ inline
 bool
 OuterLet
 (
-JSTreeContext
+TreeContext
 *
 tc
-JSStmtInfo
+StmtInfo
 *
 stmt
 JSAtom
@@ -18595,10 +18589,10 @@ static
 bool
 DefineGlobal
 (
-JSParseNode
+ParseNode
 *
 pn
-JSCodeGenerator
+CodeGenerator
 *
 cg
 PropertyName
@@ -18712,7 +18706,7 @@ prop
 return
 false
 ;
-JSFunctionBox
+FunctionBox
 *
 funbox
 =
@@ -19102,10 +19096,10 @@ cx
 BindData
 *
 data
-JSParseNode
+ParseNode
 *
 pn
-JSTreeContext
+TreeContext
 *
 tc
 )
@@ -19546,7 +19540,7 @@ data
 MultiDeclRange
 &
 mdl
-JSTreeContext
+TreeContext
 *
 tc
 )
@@ -19561,7 +19555,7 @@ inFunction
 )
 )
 ;
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -19837,7 +19831,7 @@ kind
 )
 =
 =
-JSDefinition
+Definition
 :
 :
 ARG
@@ -19878,12 +19872,12 @@ data
 JSAtom
 *
 atom
-JSTreeContext
+TreeContext
 *
 tc
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -19939,7 +19933,7 @@ pn
 return
 false
 ;
-JSStmtInfo
+StmtInfo
 *
 stmt
 =
@@ -20024,7 +20018,7 @@ empty
 )
 )
 {
-JSDefinition
+Definition
 *
 dn
 =
@@ -20042,7 +20036,7 @@ front
 (
 )
 ;
-JSDefinition
+Definition
 :
 :
 Kind
@@ -20057,7 +20051,7 @@ kind
 (
 )
 :
-JSDefinition
+Definition
 :
 :
 VAR
@@ -20067,7 +20061,7 @@ if
 dn_kind
 =
 =
-JSDefinition
+Definition
 :
 :
 ARG
@@ -20168,7 +20162,7 @@ JSOP_DEFCONST
 dn_kind
 =
 =
-JSDefinition
+Definition
 :
 :
 CONST
@@ -20178,7 +20172,7 @@ CONST
 dn_kind
 =
 =
-JSDefinition
+Definition
 :
 :
 LET
@@ -20222,7 +20216,7 @@ JSOP_DEFVAR
 dn_kind
 !
 =
-JSDefinition
+Definition
 :
 :
 VAR
@@ -20266,7 +20260,7 @@ JSREPORT_STRICT
 :
 JSREPORT_ERROR
 JSMSG_REDECLARED_VAR
-JSDefinition
+Definition
 :
 :
 kindString
@@ -20439,7 +20433,7 @@ x
 .
 *
 /
-JSDefinition
+Definition
 *
 dn
 =
@@ -20482,7 +20476,7 @@ dn
 .
 *
 /
-JSParseNode
+ParseNode
 *
 pnu
 =
@@ -20559,7 +20553,7 @@ kind
 )
 =
 =
-JSDefinition
+Definition
 :
 :
 LET
@@ -20612,7 +20606,7 @@ kind
 )
 =
 =
-JSDefinition
+Definition
 :
 :
 CONST
@@ -20702,7 +20696,7 @@ atom
 }
 else
 {
-JSParseNode
+ParseNode
 *
 pn2
 =
@@ -20782,7 +20776,7 @@ addHoist
 (
 atom
 (
-JSDefinition
+Definition
 *
 )
 pn
@@ -20862,10 +20856,10 @@ MakeSetCall
 JSContext
 *
 cx
-JSParseNode
+ParseNode
 *
 pn
-JSTreeContext
+TreeContext
 *
 tc
 uintN
@@ -20942,7 +20936,7 @@ msg
 return
 false
 ;
-JSParseNode
+ParseNode
 *
 pn2
 =
@@ -21013,10 +21007,10 @@ NoteLValue
 JSContext
 *
 cx
-JSParseNode
+ParseNode
 *
 pn
-JSTreeContext
+TreeContext
 *
 tc
 uintN
@@ -21035,7 +21029,7 @@ isUsed
 )
 )
 {
-JSDefinition
+Definition
 *
 dn
 =
@@ -21401,10 +21395,10 @@ cx
 BindData
 *
 data
-JSParseNode
+ParseNode
 *
 pn
-JSTreeContext
+TreeContext
 *
 tc
 )
@@ -21849,10 +21843,10 @@ BindDestructuringLHS
 JSContext
 *
 cx
-JSParseNode
+ParseNode
 *
 pn
-JSTreeContext
+TreeContext
 *
 tc
 )
@@ -22415,10 +22409,10 @@ cx
 BindData
 *
 data
-JSParseNode
+ParseNode
 *
 left
-JSTreeContext
+TreeContext
 *
 tc
 )
@@ -22469,7 +22463,7 @@ TOK_RB
 {
 for
 (
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -22645,7 +22639,7 @@ TOK_RC
 ;
 for
 (
-JSParseNode
+ParseNode
 *
 pair
 =
@@ -22675,7 +22669,7 @@ TOK_COLON
 )
 )
 ;
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -23193,14 +23187,14 @@ static
 void
 UndominateInitializers
 (
-JSParseNode
+ParseNode
 *
 left
 const
 TokenPtr
 &
 end
-JSTreeContext
+TreeContext
 *
 tc
 )
@@ -23218,7 +23212,7 @@ TOK_RB
 {
 for
 (
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -23329,7 +23323,7 @@ TOK_RC
 ;
 for
 (
-JSParseNode
+ParseNode
 *
 pair
 =
@@ -23359,7 +23353,7 @@ TOK_COLON
 )
 )
 ;
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -23407,7 +23401,7 @@ end
 }
 }
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -23421,10 +23415,6 @@ TokenKind
 tt
 )
 {
-JSParseNode
-*
-pn
-;
 tc
 -
 >
@@ -23433,6 +23423,8 @@ flags
 =
 TCF_DECL_DESTRUCTURING
 ;
+ParseNode
+*
 pn
 =
 primaryExpr
@@ -23483,7 +23475,7 @@ endif
 JS_HAS_DESTRUCTURING
 *
 /
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -23498,7 +23490,7 @@ TokenKind
 tt
 tt2
 ;
-JSParseNode
+ParseNode
 *
 pn
 *
@@ -23954,7 +23946,7 @@ pn
 ;
 }
 static
-JSParseNode
+ParseNode
 *
 PushLexicalScope
 (
@@ -23964,26 +23956,16 @@ cx
 TokenStream
 *
 ts
-JSTreeContext
+TreeContext
 *
 tc
-JSStmtInfo
+StmtInfo
 *
 stmt
 )
 {
-JSParseNode
+ParseNode
 *
-pn
-;
-JSObject
-*
-obj
-;
-JSObjectBox
-*
-blockbox
-;
 pn
 =
 LexicalScopeNode
@@ -24002,6 +23984,8 @@ pn
 return
 NULL
 ;
+JSObject
+*
 obj
 =
 js_NewBlockObject
@@ -24017,6 +24001,8 @@ obj
 return
 NULL
 ;
+ObjectBox
+*
 blockbox
 =
 tc
@@ -24118,7 +24104,7 @@ pn
 #
 if
 JS_HAS_BLOCK_SCOPE
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -24129,7 +24115,7 @@ JSBool
 statement
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 *
@@ -24137,7 +24123,7 @@ pnblock
 *
 pnlet
 ;
-JSStmtInfo
+StmtInfo
 stmtInfo
 ;
 JS_ASSERT
@@ -24566,12 +24552,12 @@ static
 bool
 PushBlocklikeStatement
 (
-JSStmtInfo
+StmtInfo
 *
 stmt
-JSStmtType
+StmtType
 type
-JSTreeContext
+TreeContext
 *
 tc
 )
@@ -24597,14 +24583,14 @@ blockid
 ;
 }
 static
-JSParseNode
+ParseNode
 *
 NewBindingNode
 (
 JSAtom
 *
 atom
-JSTreeContext
+TreeContext
 *
 tc
 bool
@@ -24613,7 +24599,7 @@ let
 false
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 ;
@@ -24925,7 +24911,7 @@ return
 pn
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -24934,7 +24920,7 @@ switchStatement
 (
 )
 {
-JSParseNode
+ParseNode
 *
 pn5
 *
@@ -24945,7 +24931,7 @@ seenDefault
 =
 JS_FALSE
 ;
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -24984,7 +24970,7 @@ discriminant
 .
 *
 /
-JSParseNode
+ParseNode
 *
 pn1
 =
@@ -25039,7 +25025,7 @@ blockid
 .
 *
 /
-JSStmtInfo
+StmtInfo
 stmtInfo
 ;
 js_PushStatement
@@ -25072,7 +25058,7 @@ pn_left
 NULL
 *
 /
-JSParseNode
+ParseNode
 *
 pn2
 =
@@ -25144,7 +25130,7 @@ getToken
 TOK_RC
 )
 {
-JSParseNode
+ParseNode
 *
 pn3
 ;
@@ -25294,7 +25280,7 @@ TOK_COLON
 JSMSG_COLON_AFTER_CASE
 )
 ;
-JSParseNode
+ParseNode
 *
 pn4
 =
@@ -25595,7 +25581,7 @@ return
 pn
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -25604,7 +25590,7 @@ forStatement
 (
 )
 {
-JSParseNode
+ParseNode
 *
 pnseq
 =
@@ -25613,13 +25599,13 @@ NULL
 #
 if
 JS_HAS_BLOCK_SCOPE
-JSParseNode
+ParseNode
 *
 pnlet
 =
 NULL
 ;
-JSStmtInfo
+StmtInfo
 blockInfo
 ;
 #
@@ -25643,7 +25629,7 @@ body
 .
 *
 /
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -25663,7 +25649,7 @@ pn
 return
 NULL
 ;
-JSStmtInfo
+StmtInfo
 stmtInfo
 ;
 js_PushStatement
@@ -25765,7 +25751,7 @@ false
 ;
 #
 endif
-JSParseNode
+ParseNode
 *
 pn1
 ;
@@ -26146,17 +26132,17 @@ TCF_IN_FOR_INIT
 flag
 in
 our
-JSTreeContext
+TreeContext
 .
 *
 /
-JSParseNode
+ParseNode
 *
 pn2
 *
 pn3
 ;
-JSParseNode
+ParseNode
 *
 pn4
 =
@@ -27300,7 +27286,7 @@ loop
 #
 if
 JS_HAS_BLOCK_SCOPE
-JSStmtInfo
+StmtInfo
 *
 save
 =
@@ -27693,7 +27679,7 @@ return
 pn
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -27702,7 +27688,7 @@ tryStatement
 (
 )
 {
-JSParseNode
+ParseNode
 *
 catchList
 *
@@ -27808,7 +27794,7 @@ lists
 .
 *
 /
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -27842,7 +27828,7 @@ TOK_LC
 JSMSG_CURLY_BEFORE_TRY
 )
 ;
-JSStmtInfo
+StmtInfo
 stmtInfo
 ;
 if
@@ -27950,7 +27936,7 @@ NULL
 ;
 do
 {
-JSParseNode
+ParseNode
 *
 pnblock
 ;
@@ -28087,7 +28073,7 @@ JS_HAS_CATCH_GUARD
 )
 *
 /
-JSParseNode
+ParseNode
 *
 pn2
 =
@@ -28194,7 +28180,7 @@ getToken
 (
 )
 ;
-JSParseNode
+ParseNode
 *
 pn3
 ;
@@ -28577,7 +28563,7 @@ return
 pn
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -28695,7 +28681,7 @@ return
 NULL
 ;
 }
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -28721,7 +28707,7 @@ TOK_LP
 JSMSG_PAREN_BEFORE_WITH
 )
 ;
-JSParseNode
+ParseNode
 *
 pn2
 =
@@ -28750,7 +28736,7 @@ pn_left
 =
 pn2
 ;
-JSParseNode
+ParseNode
 *
 oldWith
 =
@@ -28766,7 +28752,7 @@ innermostWith
 =
 pn
 ;
-JSStmtInfo
+StmtInfo
 stmtInfo
 ;
 js_PushStatement
@@ -28891,7 +28877,7 @@ popFront
 )
 )
 {
-JSDefinition
+Definition
 *
 defn
 =
@@ -28905,7 +28891,7 @@ value
 (
 )
 ;
-JSDefinition
+Definition
 *
 lexdep
 =
@@ -28933,7 +28919,7 @@ pn
 #
 if
 JS_HAS_BLOCK_SCOPE
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -28942,11 +28928,7 @@ letStatement
 (
 )
 {
-JSObjectBox
-*
-blockbox
-;
-JSParseNode
+ParseNode
 *
 pn
 ;
@@ -29052,8 +29034,8 @@ under
 a
 block
 per
-*
 the
+*
 proposed
 ES4
 specs
@@ -29086,7 +29068,7 @@ make
 the
 enclosing
 *
-JSStmtInfo
+StmtInfo
 be
 our
 scope
@@ -29097,8 +29079,8 @@ declarations
 in
 this
 block
-*
 will
+*
 find
 this
 scope
@@ -29134,7 +29116,7 @@ enclosing
 maybe
 -
 scope
-JSStmtInfo
+StmtInfo
 isn
 '
 t
@@ -29161,7 +29143,7 @@ TOK_LEXICALSCOPE
 .
 *
 /
-JSStmtInfo
+StmtInfo
 *
 stmt
 =
@@ -29467,6 +29449,8 @@ obj
 return
 NULL
 ;
+ObjectBox
+*
 blockbox
 =
 tc
@@ -29604,7 +29588,7 @@ blockbox
 #
 ifdef
 DEBUG
-JSParseNode
+ParseNode
 *
 tmp
 =
@@ -29645,7 +29629,7 @@ statements
 .
 *
 /
-JSParseNode
+ParseNode
 *
 pn1
 =
@@ -29786,7 +29770,7 @@ NULL
 }
 #
 endif
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -29801,7 +29785,7 @@ ungetToken
 (
 )
 ;
-JSParseNode
+ParseNode
 *
 pn2
 =
@@ -29863,7 +29847,7 @@ pn_atom
 ;
 for
 (
-JSStmtInfo
+StmtInfo
 *
 stmt
 =
@@ -29941,7 +29925,7 @@ statement
 .
 *
 /
-JSStmtInfo
+StmtInfo
 stmtInfo
 ;
 js_PushStatement
@@ -29960,7 +29944,7 @@ label
 =
 label
 ;
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -30083,7 +30067,7 @@ return
 pn2
 ;
 }
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -30406,7 +30390,7 @@ pn
 NULL
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -30415,7 +30399,7 @@ statement
 (
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 ;
@@ -30510,7 +30494,7 @@ pn
 return
 NULL
 ;
-JSParseNode
+ParseNode
 *
 pn1
 =
@@ -30526,7 +30510,7 @@ pn1
 return
 NULL
 ;
-JSStmtInfo
+StmtInfo
 stmtInfo
 ;
 js_PushStatement
@@ -30539,7 +30523,7 @@ STMT_IF
 1
 )
 ;
-JSParseNode
+ParseNode
 *
 pn2
 =
@@ -30555,7 +30539,7 @@ pn2
 return
 NULL
 ;
-JSParseNode
+ParseNode
 *
 pn3
 ;
@@ -30686,7 +30670,7 @@ pn
 return
 NULL
 ;
-JSStmtInfo
+StmtInfo
 stmtInfo
 ;
 js_PushStatement
@@ -30699,7 +30683,7 @@ STMT_WHILE_LOOP
 1
 )
 ;
-JSParseNode
+ParseNode
 *
 pn2
 =
@@ -30722,7 +30706,7 @@ pn_left
 =
 pn2
 ;
-JSParseNode
+ParseNode
 *
 pn3
 =
@@ -30790,7 +30774,7 @@ pn
 return
 NULL
 ;
-JSStmtInfo
+StmtInfo
 stmtInfo
 ;
 js_PushStatement
@@ -30803,7 +30787,7 @@ STMT_DO_LOOP
 1
 )
 ;
-JSParseNode
+ParseNode
 *
 pn2
 =
@@ -30832,7 +30816,7 @@ TOK_WHILE
 JSMSG_WHILE_AFTER_DO
 )
 ;
-JSParseNode
+ParseNode
 *
 pn3
 =
@@ -31062,7 +31046,7 @@ return
 NULL
 ;
 }
-JSParseNode
+ParseNode
 *
 pn2
 =
@@ -31186,7 +31170,7 @@ pn
 return
 NULL
 ;
-JSStmtInfo
+StmtInfo
 *
 stmt
 =
@@ -31372,7 +31356,7 @@ pn
 return
 NULL
 ;
-JSStmtInfo
+StmtInfo
 *
 stmt
 =
@@ -31397,7 +31381,7 @@ label
 {
 for
 (
-JSStmtInfo
+StmtInfo
 *
 stmt2
 =
@@ -31664,7 +31648,7 @@ oldflags
 ~
 TCF_HAS_FUNCTION_STMT
 ;
-JSStmtInfo
+StmtInfo
 stmtInfo
 ;
 if
@@ -32016,7 +32000,7 @@ flags
 =
 TCF_FUN_HEAVYWEIGHT
 ;
-JSParseNode
+ParseNode
 *
 pn2
 =
@@ -32111,7 +32095,7 @@ pn
 NULL
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -32128,14 +32112,14 @@ tt
 bool
 let
 ;
-JSStmtInfo
+StmtInfo
 *
 scopeStmt
 ;
 BindData
 data
 ;
-JSParseNode
+ParseNode
 *
 pn
 *
@@ -32248,7 +32232,7 @@ TCF_IN_FOR_INIT
 )
 )
 ;
-JSStmtInfo
+StmtInfo
 *
 save
 =
@@ -32627,7 +32611,7 @@ downScope
 }
 #
 endif
-JSParseNode
+ParseNode
 *
 init
 =
@@ -32682,7 +32666,7 @@ tc
 ;
 pn2
 =
-JSParseNode
+ParseNode
 :
 :
 newBinaryOrAppend
@@ -32882,7 +32866,7 @@ downScope
 }
 #
 endif
-JSParseNode
+ParseNode
 *
 init
 =
@@ -33155,7 +33139,7 @@ return
 NULL
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -33164,7 +33148,7 @@ expr
 (
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -33185,7 +33169,7 @@ TOK_COMMA
 )
 )
 {
-JSParseNode
+ParseNode
 *
 pn2
 =
@@ -33411,7 +33395,7 @@ name
 )
 \
 JS_ALWAYS_INLINE
-JSParseNode
+ParseNode
 *
 \
 Parser
@@ -33431,7 +33415,7 @@ name
 )
 \
 JS_NEVER_INLINE
-JSParseNode
+ParseNode
 *
 \
 Parser
@@ -33463,7 +33447,7 @@ mulExpr1
 TokenKind
 tt
 ;
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -33567,7 +33551,7 @@ t_op
 ;
 pn
 =
-JSParseNode
+ParseNode
 :
 :
 newBinaryOrAppend
@@ -33595,7 +33579,7 @@ BEGIN_EXPR_PARSER
 addExpr1
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -33644,7 +33628,7 @@ JSOP_SUB
 ;
 pn
 =
-JSParseNode
+ParseNode
 :
 :
 newBinaryOrAppend
@@ -33672,7 +33656,7 @@ BEGIN_EXPR_PARSER
 shiftExpr1
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -33706,7 +33690,7 @@ t_op
 ;
 pn
 =
-JSParseNode
+ParseNode
 :
 :
 newBinaryOrAppend
@@ -33778,7 +33762,7 @@ flags
 ~
 TCF_IN_FOR_INIT
 ;
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -33880,7 +33864,7 @@ t_op
 ;
 pn
 =
-JSParseNode
+ParseNode
 :
 :
 newBinaryOrAppend
@@ -33927,7 +33911,7 @@ BEGIN_EXPR_PARSER
 eqExpr1
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -33961,7 +33945,7 @@ t_op
 ;
 pn
 =
-JSParseNode
+ParseNode
 :
 :
 newBinaryOrAppend
@@ -33989,7 +33973,7 @@ BEGIN_EXPR_PARSER
 bitAndExpr1
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -34011,7 +33995,7 @@ TOK_BITAND
 )
 pn
 =
-JSParseNode
+ParseNode
 :
 :
 newBinaryOrAppend
@@ -34038,7 +34022,7 @@ BEGIN_EXPR_PARSER
 bitXorExpr1
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -34060,7 +34044,7 @@ TOK_BITXOR
 )
 pn
 =
-JSParseNode
+ParseNode
 :
 :
 newBinaryOrAppend
@@ -34087,7 +34071,7 @@ BEGIN_EXPR_PARSER
 bitOrExpr1
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -34109,7 +34093,7 @@ TOK_BITOR
 )
 pn
 =
-JSParseNode
+ParseNode
 :
 :
 newBinaryOrAppend
@@ -34136,7 +34120,7 @@ BEGIN_EXPR_PARSER
 andExpr1
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -34158,7 +34142,7 @@ TOK_AND
 )
 pn
 =
-JSParseNode
+ParseNode
 :
 :
 newBinaryOrAppend
@@ -34181,7 +34165,7 @@ END_EXPR_PARSER
 andExpr1
 )
 JS_ALWAYS_INLINE
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -34190,7 +34174,7 @@ orExpr1
 (
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -34212,7 +34196,7 @@ TOK_OR
 )
 pn
 =
-JSParseNode
+ParseNode
 :
 :
 newBinaryOrAppend
@@ -34231,7 +34215,7 @@ pn
 ;
 }
 JS_ALWAYS_INLINE
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -34240,7 +34224,7 @@ condExpr1
 (
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -34261,7 +34245,7 @@ TOK_HOOK
 )
 )
 {
-JSParseNode
+ParseNode
 *
 pn1
 =
@@ -34341,7 +34325,7 @@ flags
 ~
 TCF_IN_FOR_INIT
 ;
-JSParseNode
+ParseNode
 *
 pn2
 =
@@ -34379,7 +34363,7 @@ TOK_COLON
 JSMSG_COLON_IN_COND
 )
 ;
-JSParseNode
+ParseNode
 *
 pn3
 =
@@ -34473,7 +34457,7 @@ Parser
 :
 setAssignmentLhsOps
 (
-JSParseNode
+ParseNode
 *
 pn
 JSOp
@@ -34677,7 +34661,7 @@ return
 true
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -34714,7 +34698,7 @@ true
 ;
 #
 endif
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -34774,7 +34758,7 @@ op
 return
 NULL
 ;
-JSParseNode
+ParseNode
 *
 rhs
 =
@@ -34809,7 +34793,7 @@ isUsed
 )
 )
 {
-JSDefinition
+Definition
 *
 dn
 =
@@ -34924,7 +34908,7 @@ end
 }
 }
 return
-JSParseNode
+ParseNode
 :
 :
 newBinaryOrAppend
@@ -34938,7 +34922,7 @@ tc
 ;
 }
 static
-JSParseNode
+ParseNode
 *
 SetLvalKid
 (
@@ -34948,13 +34932,13 @@ cx
 TokenStream
 *
 ts
-JSTreeContext
+TreeContext
 *
 tc
-JSParseNode
+ParseNode
 *
 pn
-JSParseNode
+ParseNode
 *
 kid
 const
@@ -35143,13 +35127,13 @@ cx
 TokenStream
 *
 ts
-JSTreeContext
+TreeContext
 *
 tc
-JSParseNode
+ParseNode
 *
 pn
-JSParseNode
+ParseNode
 *
 kid
 TokenKind
@@ -35373,7 +35357,7 @@ return
 JS_TRUE
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -35382,7 +35366,7 @@ unaryExpr
 (
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 *
@@ -35677,7 +35661,7 @@ foldConstants
 &
 &
 !
-js_FoldConstants
+FoldConstants
 (
 context
 pn2
@@ -36213,11 +36197,11 @@ created
 class
 CompExprTransplanter
 {
-JSParseNode
+ParseNode
 *
 root
 ;
-JSTreeContext
+TreeContext
 *
 tc
 ;
@@ -36234,10 +36218,10 @@ public
 :
 CompExprTransplanter
 (
-JSParseNode
+ParseNode
 *
 pn
-JSTreeContext
+TreeContext
 *
 tc
 bool
@@ -36271,7 +36255,7 @@ funcLevel
 bool
 transplant
 (
-JSParseNode
+ParseNode
 *
 pn
 )
@@ -36474,7 +36458,7 @@ expression
 class
 GenexpGuard
 {
-JSTreeContext
+TreeContext
 *
 tc
 ;
@@ -36489,7 +36473,7 @@ public
 explicit
 GenexpGuard
 (
-JSTreeContext
+TreeContext
 *
 tc
 )
@@ -36565,7 +36549,7 @@ endBody
 bool
 checkValidBody
 (
-JSParseNode
+ParseNode
 *
 pn
 )
@@ -36573,7 +36557,7 @@ pn
 bool
 maybeNoteGenerator
 (
-JSParseNode
+ParseNode
 *
 pn
 )
@@ -36655,7 +36639,7 @@ GenexpGuard
 :
 checkValidBody
 (
-JSParseNode
+ParseNode
 *
 pn
 )
@@ -36670,7 +36654,7 @@ yieldCount
 startYieldCount
 )
 {
-JSParseNode
+ParseNode
 *
 errorNode
 =
@@ -36716,7 +36700,7 @@ argumentsCount
 startArgumentsCount
 )
 {
-JSParseNode
+ParseNode
 *
 errorNode
 =
@@ -36818,7 +36802,7 @@ GenexpGuard
 :
 maybeNoteGenerator
 (
-JSParseNode
+ParseNode
 *
 pn
 )
@@ -36966,10 +36950,10 @@ static
 bool
 BumpStaticLevel
 (
-JSParseNode
+ParseNode
 *
 pn
-JSTreeContext
+TreeContext
 *
 tc
 )
@@ -37069,12 +37053,12 @@ static
 void
 AdjustBlockId
 (
-JSParseNode
+ParseNode
 *
 pn
 uintN
 adjust
-JSTreeContext
+TreeContext
 *
 tc
 )
@@ -37148,7 +37132,7 @@ CompExprTransplanter
 :
 transplant
 (
-JSParseNode
+ParseNode
 *
 pn
 )
@@ -37176,7 +37160,7 @@ PN_LIST
 :
 for
 (
-JSParseNode
+ParseNode
 *
 pn2
 =
@@ -37444,7 +37428,7 @@ body
 .
 *
 /
-JSFunctionBox
+FunctionBox
 *
 funbox
 =
@@ -37478,7 +37462,7 @@ funcLevel
 genexp
 )
 {
-JSFunctionBox
+FunctionBox
 *
 parent
 =
@@ -37487,7 +37471,7 @@ tc
 >
 funbox
 ;
-JSFunctionBox
+FunctionBox
 *
 *
 funboxp
@@ -37664,7 +37648,7 @@ isFree
 )
 )
 ;
-JSDefinition
+Definition
 *
 dn
 =
@@ -37817,7 +37801,7 @@ pn_atom
 #
 ifdef
 DEBUG
-JSStmtInfo
+StmtInfo
 *
 stmt
 =
@@ -37953,7 +37937,7 @@ lexdeps
 .
 *
 /
-JSDefinition
+Definition
 *
 dn2
 =
@@ -38010,7 +37994,7 @@ dn2
 .
 *
 /
-JSParseNode
+ParseNode
 *
 *
 pnup
@@ -38021,7 +38005,7 @@ dn
 >
 dn_uses
 ;
-JSParseNode
+ParseNode
 *
 pnu
 ;
@@ -38360,14 +38344,14 @@ kid
 .
 *
 /
-JSParseNode
+ParseNode
 *
 Parser
 :
 :
 comprehensionTail
 (
-JSParseNode
+ParseNode
 *
 kid
 uintN
@@ -38383,7 +38367,7 @@ op
 uintN
 adjust
 ;
-JSParseNode
+ParseNode
 *
 pn
 *
@@ -38394,7 +38378,7 @@ pn3
 *
 pnp
 ;
-JSStmtInfo
+StmtInfo
 stmtInfo
 ;
 BindData
@@ -39088,7 +39072,7 @@ TOK_IN
 JSMSG_IN_AFTER_FOR_NAME
 )
 ;
-JSParseNode
+ParseNode
 *
 pn4
 =
@@ -39343,7 +39327,7 @@ work
 .
 *
 /
-JSParseNode
+ParseNode
 *
 vars
 =
@@ -39778,14 +39762,14 @@ application
 .
 *
 /
-JSParseNode
+ParseNode
 *
 Parser
 :
 :
 generatorExpr
 (
-JSParseNode
+ParseNode
 *
 kid
 )
@@ -39805,7 +39789,7 @@ kid
 .
 *
 /
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -39887,7 +39871,7 @@ function
 .
 *
 /
-JSParseNode
+ParseNode
 *
 genfn
 =
@@ -39940,13 +39924,13 @@ pn_dflags
 PND_FUNARG
 ;
 {
-JSTreeContext
+TreeContext
 *
 outertc
 =
 tc
 ;
-JSTreeContext
+TreeContext
 gentc
 (
 tc
@@ -39968,7 +39952,7 @@ context
 return
 NULL
 ;
-JSFunctionBox
+FunctionBox
 *
 funbox
 =
@@ -40188,7 +40172,7 @@ gentc
 .
 bodyid
 ;
-JSParseNode
+ParseNode
 *
 body
 =
@@ -40307,7 +40291,7 @@ object
 .
 *
 /
-JSParseNode
+ParseNode
 *
 result
 =
@@ -40400,7 +40384,7 @@ Parser
 :
 argumentList
 (
-JSParseNode
+ParseNode
 *
 listNode
 )
@@ -40431,7 +40415,7 @@ true
 ;
 do
 {
-JSParseNode
+ParseNode
 *
 argNode
 =
@@ -40668,11 +40652,11 @@ PND_FUNARG
 *
 /
 static
-JSParseNode
+ParseNode
 *
 CheckForImmediatelyAppliedLambda
 (
-JSParseNode
+ParseNode
 *
 pn
 )
@@ -40699,7 +40683,7 @@ PN_FUNC
 )
 )
 ;
-JSFunctionBox
+FunctionBox
 *
 funbox
 =
@@ -40755,7 +40739,7 @@ return
 pn
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -40766,7 +40750,7 @@ JSBool
 allowCallSyntax
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 *
@@ -41128,7 +41112,7 @@ deoptimization
 .
 *
 /
-JSParseNode
+ParseNode
 *
 oldWith
 =
@@ -41137,7 +41121,7 @@ tc
 >
 innermostWith
 ;
-JSStmtInfo
+StmtInfo
 stmtInfo
 ;
 if
@@ -42274,7 +42258,7 @@ return
 pn
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -42286,7 +42270,7 @@ bracketedExpr
 uintN
 oldflags
 ;
-JSParseNode
+ParseNode
 *
 pn
 ;
@@ -42371,7 +42355,7 @@ pn
 #
 if
 JS_HAS_XML_SUPPORT
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -42380,10 +42364,8 @@ endBracketedExpr
 (
 )
 {
-JSParseNode
+ParseNode
 *
-pn
-;
 pn
 =
 bracketedExpr
@@ -42635,7 +42617,7 @@ members
 .
 *
 /
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -42679,7 +42661,7 @@ type
 TOK_NAME
 )
 ;
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -42800,19 +42782,19 @@ return
 pn
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
 :
 qualifiedSuffix
 (
-JSParseNode
+ParseNode
 *
 pn
 )
 {
-JSParseNode
+ParseNode
 *
 pn2
 *
@@ -43093,7 +43075,7 @@ return
 pn2
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -43137,7 +43119,7 @@ type
 TOK_NAME
 )
 ;
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -43204,7 +43186,7 @@ return
 pn
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -43213,7 +43195,7 @@ attributeIdentifier
 (
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 *
@@ -43356,7 +43338,7 @@ expression
 .
 *
 /
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -43367,7 +43349,7 @@ JSBool
 inTag
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 *
@@ -43574,7 +43556,7 @@ tag
 .
 *
 /
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -43583,7 +43565,7 @@ xmlAtomNode
 (
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -43745,7 +43727,7 @@ TOK_LC
 .
 *
 /
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -43754,7 +43736,7 @@ xmlNameExpr
 (
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 *
@@ -44157,7 +44139,7 @@ expression
 .
 *
 /
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -44172,7 +44154,7 @@ JSAtom
 namep
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 *
@@ -44558,7 +44540,7 @@ Parser
 :
 xmlElementContent
 (
-JSParseNode
+ParseNode
 *
 pn
 )
@@ -44638,7 +44620,7 @@ scanned
 .
 *
 /
-JSParseNode
+ParseNode
 *
 pn2
 =
@@ -44701,7 +44683,7 @@ TOK_XMLETAGO
 )
 break
 ;
-JSParseNode
+ParseNode
 *
 pn2
 ;
@@ -44873,7 +44855,7 @@ Initialiser
 .
 *
 /
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -44884,7 +44866,7 @@ JSBool
 allowList
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 *
@@ -45789,7 +45771,7 @@ return
 pn
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -45875,7 +45857,7 @@ setXML
 true
 )
 ;
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -45895,7 +45877,7 @@ return
 pn
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -45950,7 +45932,7 @@ us
 .
 *
 /
-JSTreeContext
+TreeContext
 xmltc
 (
 this
@@ -46013,7 +45995,7 @@ getToken
 TSF_OPERAND
 )
 ;
-JSParseNode
+ParseNode
 *
 pn
 ;
@@ -46305,7 +46287,7 @@ BlockIdInScope
 (
 uintN
 blockid
-JSTreeContext
+TreeContext
 *
 tc
 )
@@ -46326,7 +46308,7 @@ false
 ;
 for
 (
-JSStmtInfo
+StmtInfo
 *
 stmt
 =
@@ -46365,7 +46347,7 @@ false
 }
 #
 endif
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -46378,7 +46360,7 @@ JSBool
 afterDot
 )
 {
-JSParseNode
+ParseNode
 *
 pn
 *
@@ -47143,7 +47125,7 @@ TOK_FOR
 )
 )
 {
-JSParseNode
+ParseNode
 *
 pnexp
 *
@@ -47328,7 +47310,7 @@ case
 TOK_LC
 :
 {
-JSParseNode
+ParseNode
 *
 pnval
 ;
@@ -47759,7 +47741,7 @@ Expression
 ;
 pn2
 =
-JSParseNode
+ParseNode
 :
 :
 newBinaryOrAppend
@@ -48077,7 +48059,7 @@ endif
 }
 pn2
 =
-JSParseNode
+ParseNode
 :
 :
 newBinaryOrAppend
@@ -49263,7 +49245,7 @@ pn
 )
 ;
 }
-JSStmtInfo
+StmtInfo
 *
 stmt
 =
@@ -49293,7 +49275,7 @@ pn
 pn_atom
 )
 ;
-JSDefinition
+Definition
 *
 dn
 ;
@@ -50235,7 +50217,7 @@ return
 pn
 ;
 }
-JSParseNode
+ParseNode
 *
 Parser
 :
@@ -50250,7 +50232,7 @@ genexp
 TokenPtr
 begin
 ;
-JSParseNode
+ParseNode
 *
 pn
 ;

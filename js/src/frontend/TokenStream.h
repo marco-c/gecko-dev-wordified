@@ -3490,7 +3490,7 @@ Mutators
 bool
 reportCompileErrorNumberVA
 (
-JSParseNode
+ParseNode
 *
 pn
 uintN
@@ -5478,7 +5478,7 @@ cx
 TokenStream
 *
 ts
-JSParseNode
+ParseNode
 *
 pn
 uintN
@@ -5591,7 +5591,7 @@ is
 *
 in
 the
-JSTreeContext
+TreeContext
 structure
 for
 that
@@ -5675,10 +5675,10 @@ cx
 TokenStream
 *
 ts
-JSTreeContext
+TreeContext
 *
 tc
-JSParseNode
+ParseNode
 *
 pn
 uintN

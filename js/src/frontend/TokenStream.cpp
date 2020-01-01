@@ -3099,7 +3099,7 @@ TokenStream
 :
 reportCompileErrorNumberVA
 (
-JSParseNode
+ParseNode
 *
 pn
 uintN
@@ -3988,10 +3988,10 @@ cx
 TokenStream
 *
 ts
-JSTreeContext
+TreeContext
 *
 tc
-JSParseNode
+ParseNode
 *
 pn
 uintN
@@ -4141,7 +4141,7 @@ cx
 TokenStream
 *
 ts
-JSParseNode
+ParseNode
 *
 pn
 uintN
@@ -4165,7 +4165,7 @@ don
 t
 accept
 a
-JSTreeContext
+TreeContext
 argument
 so
 we

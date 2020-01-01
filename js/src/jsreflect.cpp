@@ -1056,7 +1056,7 @@ NodeVector
 /
 *
 *
-JSParseNode
+ParseNode
 is
 a
 somewhat
@@ -9069,7 +9069,7 @@ a
 non
 -
 nullable
-JSParseNode
+ParseNode
 pointer
 .
 *
@@ -9146,7 +9146,7 @@ op
 bool
 statements
 (
-JSParseNode
+ParseNode
 *
 pn
 NodeVector
@@ -9157,7 +9157,7 @@ elts
 bool
 expressions
 (
-JSParseNode
+ParseNode
 *
 pn
 NodeVector
@@ -9168,7 +9168,7 @@ elts
 bool
 xmls
 (
-JSParseNode
+ParseNode
 *
 pn
 NodeVector
@@ -9179,7 +9179,7 @@ elts
 bool
 leftAssociate
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9190,16 +9190,16 @@ dst
 bool
 functionArgs
 (
-JSParseNode
+ParseNode
 *
 pn
-JSParseNode
+ParseNode
 *
 pnargs
-JSParseNode
+ParseNode
 *
 pndestruct
-JSParseNode
+ParseNode
 *
 pnbody
 NodeVector
@@ -9210,7 +9210,7 @@ args
 bool
 sourceElement
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9221,7 +9221,7 @@ dst
 bool
 declaration
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9232,7 +9232,7 @@ dst
 bool
 variableDeclaration
 (
-JSParseNode
+ParseNode
 *
 pn
 bool
@@ -9245,7 +9245,7 @@ dst
 bool
 variableDeclarator
 (
-JSParseNode
+ParseNode
 *
 pn
 VarDeclKind
@@ -9259,7 +9259,7 @@ dst
 bool
 letHead
 (
-JSParseNode
+ParseNode
 *
 pn
 NodeVector
@@ -9270,7 +9270,7 @@ dtors
 bool
 optStatement
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9307,7 +9307,7 @@ dst
 bool
 forInit
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9318,7 +9318,7 @@ dst
 bool
 statement
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9329,7 +9329,7 @@ dst
 bool
 blockStatement
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9340,7 +9340,7 @@ dst
 bool
 switchStatement
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9351,7 +9351,7 @@ dst
 bool
 switchCase
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9362,7 +9362,7 @@ dst
 bool
 tryStatement
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9373,7 +9373,7 @@ dst
 bool
 catchClause
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9384,7 +9384,7 @@ dst
 bool
 optExpression
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9421,7 +9421,7 @@ dst
 bool
 expression
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9432,7 +9432,7 @@ dst
 bool
 propertyName
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9443,7 +9443,7 @@ dst
 bool
 property
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9509,7 +9509,7 @@ dst
 bool
 identifier
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9520,7 +9520,7 @@ dst
 bool
 literal
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9531,7 +9531,7 @@ dst
 bool
 pattern
 (
-JSParseNode
+ParseNode
 *
 pn
 VarDeclKind
@@ -9545,7 +9545,7 @@ dst
 bool
 arrayPattern
 (
-JSParseNode
+ParseNode
 *
 pn
 VarDeclKind
@@ -9559,7 +9559,7 @@ dst
 bool
 objectPattern
 (
-JSParseNode
+ParseNode
 *
 pn
 VarDeclKind
@@ -9573,7 +9573,7 @@ dst
 bool
 function
 (
-JSParseNode
+ParseNode
 *
 pn
 ASTType
@@ -9586,7 +9586,7 @@ dst
 bool
 functionArgsAndBody
 (
-JSParseNode
+ParseNode
 *
 pn
 NodeVector
@@ -9600,7 +9600,7 @@ body
 bool
 functionBody
 (
-JSParseNode
+ParseNode
 *
 pn
 TokenPos
@@ -9614,7 +9614,7 @@ dst
 bool
 comprehensionBlock
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9625,7 +9625,7 @@ dst
 bool
 comprehension
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9636,7 +9636,7 @@ dst
 bool
 generatorExpression
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9647,7 +9647,7 @@ dst
 bool
 xml
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -9721,7 +9721,7 @@ p
 bool
 program
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -10105,7 +10105,7 @@ ASTSerializer
 :
 statements
 (
-JSParseNode
+ParseNode
 *
 pn
 NodeVector
@@ -10151,7 +10151,7 @@ false
 ;
 for
 (
-JSParseNode
+ParseNode
 *
 next
 =
@@ -10204,7 +10204,7 @@ ASTSerializer
 :
 expressions
 (
-JSParseNode
+ParseNode
 *
 pn
 NodeVector
@@ -10230,7 +10230,7 @@ false
 ;
 for
 (
-JSParseNode
+ParseNode
 *
 next
 =
@@ -10283,7 +10283,7 @@ ASTSerializer
 :
 xmls
 (
-JSParseNode
+ParseNode
 *
 pn
 NodeVector
@@ -10309,7 +10309,7 @@ false
 ;
 for
 (
-JSParseNode
+ParseNode
 *
 next
 =
@@ -10362,7 +10362,7 @@ ASTSerializer
 :
 blockStatement
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -10415,7 +10415,7 @@ ASTSerializer
 :
 program
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -10472,7 +10472,7 @@ ASTSerializer
 :
 sourceElement
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -10507,7 +10507,7 @@ ASTSerializer
 :
 declaration
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -10605,7 +10605,7 @@ ASTSerializer
 :
 variableDeclaration
 (
-JSParseNode
+ParseNode
 *
 pn
 bool
@@ -10774,7 +10774,7 @@ false
 ;
 for
 (
-JSParseNode
+ParseNode
 *
 next
 =
@@ -10841,7 +10841,7 @@ ASTSerializer
 :
 variableDeclarator
 (
-JSParseNode
+ParseNode
 *
 pn
 VarDeclKind
@@ -10884,11 +10884,11 @@ TOK_ASSIGN
 )
 )
 ;
-JSParseNode
+ParseNode
 *
 pnleft
 ;
-JSParseNode
+ParseNode
 *
 pnright
 ;
@@ -10995,7 +10995,7 @@ ASTSerializer
 :
 letHead
 (
-JSParseNode
+ParseNode
 *
 pn
 NodeVector
@@ -11026,7 +11026,7 @@ VARDECL_LET_HEAD
 ;
 for
 (
-JSParseNode
+ParseNode
 *
 next
 =
@@ -11116,7 +11116,7 @@ ASTSerializer
 :
 switchCase
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -11176,7 +11176,7 @@ ASTSerializer
 :
 switchStatement
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -11203,7 +11203,7 @@ disc
 return
 false
 ;
-JSParseNode
+ParseNode
 *
 listNode
 ;
@@ -11277,7 +11277,7 @@ false
 ;
 for
 (
-JSParseNode
+ParseNode
 *
 next
 =
@@ -11361,7 +11361,7 @@ ASTSerializer
 :
 catchClause
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -11431,7 +11431,7 @@ ASTSerializer
 :
 tryStatement
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -11493,7 +11493,7 @@ false
 ;
 for
 (
-JSParseNode
+ParseNode
 *
 next
 =
@@ -11580,7 +11580,7 @@ ASTSerializer
 :
 forInit
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -11650,7 +11650,7 @@ ASTSerializer
 :
 statement
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -12068,7 +12068,7 @@ case
 TOK_FOR
 :
 {
-JSParseNode
+ParseNode
 *
 head
 =
@@ -12280,7 +12280,7 @@ pn_count
 2
 )
 ;
-JSParseNode
+ParseNode
 *
 prelude
 =
@@ -12289,7 +12289,7 @@ pn
 >
 pn_head
 ;
-JSParseNode
+ParseNode
 *
 loop
 =
@@ -12335,7 +12335,7 @@ var
 return
 false
 ;
-JSParseNode
+ParseNode
 *
 head
 =
@@ -12659,7 +12659,7 @@ ASTSerializer
 :
 leftAssociate
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -12720,7 +12720,7 @@ tk
 TOK_AND
 )
 ;
-JSParseNode
+ParseNode
 *
 head
 =
@@ -12747,7 +12747,7 @@ false
 ;
 for
 (
-JSParseNode
+ParseNode
 *
 next
 =
@@ -12894,7 +12894,7 @@ ASTSerializer
 :
 comprehensionBlock
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -12913,7 +12913,7 @@ PN_BINARY
 )
 )
 ;
-JSParseNode
+ParseNode
 *
 in
 =
@@ -12996,7 +12996,7 @@ ASTSerializer
 :
 comprehension
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -13021,7 +13021,7 @@ blocks
 cx
 )
 ;
-JSParseNode
+ParseNode
 *
 next
 =
@@ -13214,7 +13214,7 @@ ASTSerializer
 :
 generatorExpression
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -13239,7 +13239,7 @@ blocks
 cx
 )
 ;
-JSParseNode
+ParseNode
 *
 next
 =
@@ -13404,7 +13404,7 @@ ASTSerializer
 :
 expression
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -14027,7 +14027,7 @@ dst
 ;
 #
 endif
-JSParseNode
+ParseNode
 *
 next
 =
@@ -14332,7 +14332,7 @@ false
 ;
 for
 (
-JSParseNode
+ParseNode
 *
 next
 =
@@ -14483,7 +14483,7 @@ false
 ;
 for
 (
-JSParseNode
+ParseNode
 *
 next
 =
@@ -14843,7 +14843,7 @@ PN_BINARY
 )
 )
 ;
-JSParseNode
+ParseNode
 *
 pnleft
 ;
@@ -14991,7 +14991,7 @@ TOK_AT
 Value
 expr
 ;
-JSParseNode
+ParseNode
 *
 kid
 =
@@ -15148,7 +15148,7 @@ ASTSerializer
 :
 xml
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -15643,7 +15643,7 @@ ASTSerializer
 :
 propertyName
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -15702,7 +15702,7 @@ ASTSerializer
 :
 property
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -15813,7 +15813,7 @@ ASTSerializer
 :
 literal
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -16028,7 +16028,7 @@ ASTSerializer
 :
 arrayPattern
 (
-JSParseNode
+ParseNode
 *
 pn
 VarDeclKind
@@ -16074,7 +16074,7 @@ false
 ;
 for
 (
-JSParseNode
+ParseNode
 *
 next
 =
@@ -16164,7 +16164,7 @@ ASTSerializer
 :
 objectPattern
 (
-JSParseNode
+ParseNode
 *
 pn
 VarDeclKind
@@ -16210,7 +16210,7 @@ false
 ;
 for
 (
-JSParseNode
+ParseNode
 *
 next
 =
@@ -16322,7 +16322,7 @@ ASTSerializer
 :
 pattern
 (
-JSParseNode
+ParseNode
 *
 pn
 VarDeclKind
@@ -16448,7 +16448,7 @@ ASTSerializer
 :
 identifier
 (
-JSParseNode
+ParseNode
 *
 pn
 Value
@@ -16506,7 +16506,7 @@ ASTSerializer
 :
 function
 (
-JSParseNode
+ParseNode
 *
 pn
 ASTType
@@ -16599,7 +16599,7 @@ args
 cx
 )
 ;
-JSParseNode
+ParseNode
 *
 argsAndBody
 =
@@ -16665,7 +16665,7 @@ ASTSerializer
 :
 functionArgsAndBody
 (
-JSParseNode
+ParseNode
 *
 pn
 NodeVector
@@ -16676,11 +16676,11 @@ Value
 body
 )
 {
-JSParseNode
+ParseNode
 *
 pnargs
 ;
-JSParseNode
+ParseNode
 *
 pnbody
 ;
@@ -16731,7 +16731,7 @@ pnbody
 pn
 ;
 }
-JSParseNode
+ParseNode
 *
 pndestruct
 ;
@@ -16765,7 +16765,7 @@ PNX_DESTRUCT
 )
 )
 {
-JSParseNode
+ParseNode
 *
 head
 =
@@ -16882,7 +16882,7 @@ args
 *
 /
 {
-JSParseNode
+ParseNode
 *
 pnstart
 =
@@ -16939,7 +16939,7 @@ closure
 *
 /
 {
-JSParseNode
+ParseNode
 *
 pnstart
 =
@@ -17007,16 +17007,16 @@ ASTSerializer
 :
 functionArgs
 (
-JSParseNode
+ParseNode
 *
 pn
-JSParseNode
+ParseNode
 *
 pnargs
-JSParseNode
+ParseNode
 *
 pndestruct
-JSParseNode
+ParseNode
 *
 pnbody
 NodeVector
@@ -17029,7 +17029,7 @@ i
 =
 0
 ;
-JSParseNode
+ParseNode
 *
 arg
 =
@@ -17042,7 +17042,7 @@ pn_head
 :
 NULL
 ;
-JSParseNode
+ParseNode
 *
 destruct
 =
@@ -17362,7 +17362,7 @@ ASTSerializer
 :
 functionBody
 (
-JSParseNode
+ParseNode
 *
 pn
 TokenPos
@@ -17405,7 +17405,7 @@ append
 /
 for
 (
-JSParseNode
+ParseNode
 *
 next
 =
@@ -18056,7 +18056,7 @@ setParser
 parser
 )
 ;
-JSParseNode
+ParseNode
 *
 pn
 =

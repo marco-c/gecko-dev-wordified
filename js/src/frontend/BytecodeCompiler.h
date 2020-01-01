@@ -543,9 +543,6 @@ fun
 JSPrincipals
 *
 principals
-js
-:
-:
 Bindings
 *
 bindings

@@ -591,7 +591,7 @@ staticLevel
 TokenKind
 tt
 ;
-JSParseNode
+ParseNode
 *
 pn
 ;
@@ -710,7 +710,7 @@ parser
 .
 tokenStream
 ;
-JSCodeGenerator
+CodeGenerator
 cg
 (
 &
@@ -730,7 +730,7 @@ cg
 init
 (
 cx
-JSTreeContext
+TreeContext
 :
 :
 USED_AS_TREE_CONTEXT
@@ -1090,7 +1090,7 @@ running
 .
 *
 /
-JSObjectBox
+ObjectBox
 *
 funbox
 =
@@ -1327,7 +1327,7 @@ out
 if
 (
 !
-js_FoldConstants
+FoldConstants
 (
 cx
 pn
@@ -2179,9 +2179,6 @@ shape
 slot
 ;
 }
-js
-:
-:
 Vector
 <
 JSScript
@@ -2701,7 +2698,7 @@ parser
 .
 tokenStream
 ;
-JSCodeGenerator
+CodeGenerator
 funcg
 (
 &
@@ -2721,7 +2718,7 @@ funcg
 init
 (
 cx
-JSTreeContext
+TreeContext
 :
 :
 USED_AS_TREE_CONTEXT
@@ -2806,7 +2803,7 @@ mungeCurrentToken
 TOK_NAME
 )
 ;
-JSParseNode
+ParseNode
 *
 fn
 =
@@ -3022,7 +3019,7 @@ mungeCurrentToken
 TOK_LC
 )
 ;
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -3087,7 +3084,7 @@ else
 if
 (
 !
-js_FoldConstants
+FoldConstants
 (
 cx
 pn
@@ -3098,7 +3095,7 @@ funcg
 {
 /
 *
-js_FoldConstants
+FoldConstants
 reported
 the
 error

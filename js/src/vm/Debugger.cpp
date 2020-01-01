@@ -14621,11 +14621,11 @@ frontPC
 )
 )
 {
-JSSrcNoteType
+SrcNoteType
 type
 =
 (
-JSSrcNoteType
+SrcNoteType
 )
 SN_TYPE
 (
