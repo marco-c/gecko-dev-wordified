@@ -713,7 +713,7 @@ gl
 )
 mReusableTileStore
 (
-nsnull
+nullptr
 )
 {
 mImplData
@@ -879,7 +879,7 @@ mReusableTileStore
 ;
 mReusableTileStore
 =
-nsnull
+nullptr
 ;
 }
 else

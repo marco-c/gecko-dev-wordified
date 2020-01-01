@@ -9902,7 +9902,7 @@ nsStyleText
 *
 aStyleText
 =
-nsnull
+nullptr
 )
 {
 if
@@ -9957,7 +9957,7 @@ nsStyleText
 *
 aStyleText
 =
-nsnull
+nullptr
 )
 {
 if

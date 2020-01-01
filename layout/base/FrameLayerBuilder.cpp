@@ -15213,7 +15213,7 @@ nsDisplayItem
 TYPE_TRANSFORM
 )
 return
-nsnull
+nullptr
 ;
 nsTArray
 <
@@ -15358,7 +15358,7 @@ child
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed

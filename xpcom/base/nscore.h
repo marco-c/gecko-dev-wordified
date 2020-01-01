@@ -2229,10 +2229,6 @@ HAVE_NULLPTR
 *
 /
 #
-define
-nsnull
-nullptr
-#
 include
 "
 nsError

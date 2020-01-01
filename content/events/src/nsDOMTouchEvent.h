@@ -478,7 +478,7 @@ mPoints
 SafeElementAt
 (
 aIndex
-nsnull
+nullptr
 )
 ;
 }

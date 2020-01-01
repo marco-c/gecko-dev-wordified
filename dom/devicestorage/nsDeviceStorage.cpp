@@ -4075,7 +4075,7 @@ result
 ;
 mRequest
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
