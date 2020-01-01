@@ -3901,14 +3901,14 @@ i
 )
 {
 nsCString
-prefix
+process
 =
 report
 [
 i
 ]
 .
-prefix
+process
 (
 )
 ;
@@ -3969,7 +3969,7 @@ r
 new
 nsMemoryReporter
 (
-prefix
+process
 path
 kind
 desc
