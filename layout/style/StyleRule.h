@@ -661,9 +661,6 @@ public
 :
 nsPseudoClassList
 (
-nsIAtom
-*
-aAtom
 nsCSSPseudoClasses
 :
 :
@@ -673,9 +670,6 @@ aType
 ;
 nsPseudoClassList
 (
-nsIAtom
-*
-aAtom
 nsCSSPseudoClasses
 :
 :
@@ -689,9 +683,6 @@ aString
 ;
 nsPseudoClassList
 (
-nsIAtom
-*
-aAtom
 nsCSSPseudoClasses
 :
 :
@@ -705,9 +696,6 @@ aIntPair
 ;
 nsPseudoClassList
 (
-nsIAtom
-*
-aAtom
 nsCSSPseudoClasses
 :
 :
@@ -766,12 +754,6 @@ PR_TRUE
 )
 ;
 }
-nsCOMPtr
-<
-nsIAtom
->
-mAtom
-;
 union
 {
 /
