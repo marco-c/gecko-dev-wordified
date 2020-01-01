@@ -977,7 +977,7 @@ aAlign
 mVal
 -
 >
-GetBaseValue
+GetAnimValue
 (
 )
 .
@@ -1014,7 +1014,7 @@ aMeetOrSlice
 mVal
 -
 >
-GetBaseValue
+GetAnimValue
 (
 )
 .
