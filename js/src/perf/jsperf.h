@@ -732,7 +732,8 @@ RegisterPerfMeasurement
 JSContext
 *
 cx
-JSRawObject
+JSObject
+*
 global
 )
 ;

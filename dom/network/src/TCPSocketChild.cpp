@@ -153,7 +153,8 @@ IPC
 bool
 DeserializeArrayBuffer
 (
-JSRawObject
+JSObject
+*
 aObj
 const
 InfallibleTArray

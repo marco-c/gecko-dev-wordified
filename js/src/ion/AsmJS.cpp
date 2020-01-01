@@ -14907,7 +14907,8 @@ AsmJSModuleObject_trace
 JSTracer
 *
 trc
-JSRawObject
+JSObject
+*
 obj
 )
 ;
@@ -15161,7 +15162,8 @@ AsmJSModuleObject_trace
 JSTracer
 *
 trc
-JSRawObject
+JSObject
+*
 obj
 )
 {

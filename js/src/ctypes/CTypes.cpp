@@ -8544,7 +8544,8 @@ void
 )
 JS_SetCTypesCallbacks
 (
-JSRawObject
+JSObject
+*
 ctypesObj
 JSCTypesCallbacks
 *

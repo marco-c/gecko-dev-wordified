@@ -7284,7 +7284,8 @@ JS_EnterCompartment
 JSContext
 *
 cx
-JSRawObject
+JSObject
+*
 target
 )
 {
@@ -7410,7 +7411,8 @@ JSAutoCompartment
 JSContext
 *
 cx
-JSRawObject
+JSObject
+*
 target
 )
 :
@@ -9422,7 +9424,8 @@ JS_SetGlobalObject
 JSContext
 *
 cx
-JSRawObject
+JSObject
+*
 obj
 )
 {
@@ -12040,7 +12043,8 @@ JS_GetClassObject
 JSContext
 *
 cx
-JSRawObject
+JSObject
+*
 obj
 JSProtoKey
 key
@@ -12207,7 +12211,8 @@ JS_GetObjectPrototype
 JSContext
 *
 cx
-JSRawObject
+JSObject
+*
 forObj
 )
 {
@@ -12246,7 +12251,8 @@ JS_GetFunctionPrototype
 JSContext
 *
 cx
-JSRawObject
+JSObject
+*
 forObj
 )
 {
@@ -12285,7 +12291,8 @@ JS_GetGlobalForObject
 JSContext
 *
 cx
-JSRawObject
+JSObject
+*
 obj
 )
 {
@@ -12317,7 +12324,8 @@ JSBool
 )
 JS_IsGlobalObject
 (
-JSRawObject
+JSObject
+*
 obj
 )
 {
@@ -18130,7 +18138,8 @@ JS_GetObjectId
 JSContext
 *
 cx
-JSRawObject
+JSObject
+*
 obj
 jsid
 *
@@ -18854,7 +18863,8 @@ JSBool
 )
 JS_IsExtensible
 (
-JSRawObject
+JSObject
+*
 obj
 )
 {
@@ -18873,7 +18883,8 @@ JSBool
 )
 JS_IsNative
 (
-JSRawObject
+JSObject
+*
 obj
 )
 {
@@ -18893,7 +18904,8 @@ JSRuntime
 )
 JS_GetObjectRuntime
 (
-JSRawObject
+JSObject
+*
 obj
 )
 {
@@ -26989,7 +27001,8 @@ cx
 JSObject
 *
 funobjArg
-JSRawObject
+JSObject
+*
 parentArg
 )
 {
@@ -27379,7 +27392,8 @@ JSBool
 )
 JS_IsNativeFunction
 (
-JSRawObject
+JSObject
+*
 funobj
 JSNative
 call
@@ -27471,7 +27485,8 @@ cx
 JSObject
 *
 targetArg
-JSRawObject
+JSObject
+*
 newThis
 )
 {
@@ -37225,7 +37240,8 @@ JS_ObjectIsDate
 JSContext
 *
 cx
-JSRawObject
+JSObject
+*
 objArg
 )
 {
@@ -39787,7 +39803,8 @@ JS_EncodeInterpretedFunction
 JSContext
 *
 cx
-JSRawObject
+JSObject
+*
 funobjArg
 uint32_t
 *
