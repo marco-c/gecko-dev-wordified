@@ -614,6 +614,12 @@ VersionComparisonOp
 op
 PRUint64
 driverVersion
+const
+char
+*
+suggestedVersion
+=
+nsnull
 bool
 ownDevices
 =
@@ -734,6 +740,11 @@ mDriverVersion
 ;
 PRUint64
 mDriverVersionMax
+;
+const
+char
+*
+mSuggestedVersion
 ;
 }
 ;
