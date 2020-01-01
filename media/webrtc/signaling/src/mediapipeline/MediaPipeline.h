@@ -1256,6 +1256,11 @@ description_
 ;
 private
 :
+nsresult
+Init_s
+(
+)
+;
 void
 DetachTransport
 (
