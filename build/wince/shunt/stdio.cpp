@@ -1069,13 +1069,13 @@ buffer
 if
 (
 mode
-|
+&
 O_RDWR
 |
 |
 (
 mode
-|
+&
 O_WRONLY
 )
 )
@@ -1092,7 +1092,7 @@ write
 if
 (
 mode
-|
+&
 O_CREAT
 )
 {
@@ -1110,7 +1110,7 @@ else
 if
 (
 mode
-|
+&
 O_APPEND
 )
 {
@@ -1128,7 +1128,7 @@ else
 if
 (
 mode
-|
+&
 O_TRUNC
 )
 {
@@ -1166,7 +1166,7 @@ else
 if
 (
 mode
-|
+&
 O_RDONLY
 )
 {
