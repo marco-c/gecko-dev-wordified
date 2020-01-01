@@ -1896,6 +1896,12 @@ too
 .
 if
 (
+!
+notification
+.
+dismissed
+&
+&
 browser
 =
 =
