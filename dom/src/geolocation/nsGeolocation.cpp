@@ -3920,7 +3920,7 @@ GetSingleton
 cpc
 -
 >
-SendGeolocationStart
+SendAddGeolocationListener
 (
 )
 ;
@@ -4136,7 +4136,7 @@ GetSingleton
 cpc
 -
 >
-SendGeolocationStop
+SendRemoveGeolocationListener
 (
 )
 ;
