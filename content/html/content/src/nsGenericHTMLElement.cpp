@@ -14138,7 +14138,7 @@ true
 .
 if
 (
-AcceptAutofocus
+IsAutofocusable
 (
 )
 &
