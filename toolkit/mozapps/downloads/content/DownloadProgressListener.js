@@ -862,6 +862,13 @@ nsIDownloadManager
 .
 DOWNLOAD_CANCELED
 :
+case
+Ci
+.
+nsIDownloadManager
+.
+DOWNLOAD_BLOCKED
+:
 downloadCompleted
 (
 aDownload
