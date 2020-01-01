@@ -1134,6 +1134,13 @@ uint32
 arg
 )
 ;
+void
+setSlot
+(
+uint32
+slot
+)
+;
 /
 /
 Rewrites
@@ -1199,6 +1206,13 @@ pushLocal
 (
 uint32
 local
+)
+;
+void
+pushSlot
+(
+uint32
+slot
 )
 ;
 /
