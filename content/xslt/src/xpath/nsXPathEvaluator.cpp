@@ -220,6 +220,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 /
 /
 txIParseContext
@@ -1064,8 +1071,9 @@ nsXPathEvaluator
 :
 Constructor
 (
-nsISupports
-*
+const
+GlobalObject
+&
 aGlobal
 ErrorResult
 &

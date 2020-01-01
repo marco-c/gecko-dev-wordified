@@ -332,8 +332,9 @@ AudioContext
 :
 Constructor
 (
-nsISupports
-*
+const
+GlobalObject
+&
 aGlobal
 ErrorResult
 &
@@ -349,6 +350,10 @@ window
 do_QueryInterface
 (
 aGlobal
+.
+Get
+(
+)
 )
 ;
 if
