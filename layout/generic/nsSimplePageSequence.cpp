@@ -2197,7 +2197,7 @@ GetNextInFlow
 ;
 if
 (
-NS_FRAME_IS_COMPLETE
+NS_FRAME_IS_FULLY_COMPLETE
 (
 status
 )

@@ -7757,6 +7757,7 @@ Reflow
 this
 aPresContext
 aReflowState
+aStatus
 containingBlockWidth
 containingBlockHeight
 PR_TRUE

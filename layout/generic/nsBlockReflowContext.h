@@ -568,6 +568,9 @@ aReflowState
 nsReflowStatus
 &
 aReflowStatus
+nsBlockReflowState
+&
+aState
 )
 ;
 PRBool

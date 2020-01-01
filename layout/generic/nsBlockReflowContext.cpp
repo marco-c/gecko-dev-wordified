@@ -1867,6 +1867,9 @@ aFrameRS
 nsReflowStatus
 &
 aFrameReflowStatus
+nsBlockReflowState
+&
+aState
 )
 {
 nsresult
@@ -2949,6 +2952,15 @@ this
 cast
 *
 /
+aState
+.
+mOverflowTracker
+.
+Finish
+(
+mFrame
+)
+;
 static_cast
 <
 nsHTMLContainerFrame
