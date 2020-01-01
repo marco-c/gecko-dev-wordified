@@ -1151,8 +1151,6 @@ END
 (
 )
 {
-debugger
-;
 }
 function
 compareSource
