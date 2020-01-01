@@ -709,7 +709,7 @@ jenv
 GetStringChars
 (
 jObserverKey
-NULL
+nullptr
 )
 ;
 nsString
@@ -4054,7 +4054,7 @@ static
 jmethodID
 jSurfaceBitsCtor
 =
-0
+nullptr
 ;
 static
 jfieldID
@@ -4812,7 +4812,7 @@ jMessagesField
 jNextMethod
 )
 return
-NULL
+nullptr
 ;
 jobject
 msg
