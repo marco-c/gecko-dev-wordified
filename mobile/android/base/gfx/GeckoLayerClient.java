@@ -290,6 +290,7 @@ boolean
 mRecordDrawTimes
 ;
 private
+final
 DrawTimingQueue
 mDrawTimingQueue
 ;
@@ -358,10 +359,6 @@ private
 ImmutableViewportMetrics
 mFrameMetrics
 ;
-private
-String
-mLastCheckerboardColor
-;
 /
 *
 Used
@@ -388,6 +385,7 @@ syncViewportInfo
 *
 /
 private
+final
 ViewTransform
 mCurrentViewTransform
 ;
