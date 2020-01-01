@@ -155,20 +155,12 @@ GetInt
 var
 bundle
 =
-srGetStrBundle
+document
+.
+getElementById
 (
 "
-chrome
-:
-/
-/
-pippki
-/
-locale
-/
-pippki
-.
-properties
+pippki_bundle
 "
 )
 ;
@@ -195,7 +187,7 @@ title
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 deleteUserCertTitle
@@ -206,7 +198,7 @@ confirm
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 deleteUserCertConfirm
@@ -217,7 +209,7 @@ impact
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 deleteUserCertImpact
@@ -240,7 +232,7 @@ title
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 deleteSslCertTitle3
@@ -251,7 +243,7 @@ confirm
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 deleteSslCertConfirm3
@@ -262,7 +254,7 @@ impact
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 deleteSslCertImpact3
@@ -285,7 +277,7 @@ title
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 deleteCaCertTitle2
@@ -296,7 +288,7 @@ confirm
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 deleteCaCertConfirm2
@@ -307,7 +299,7 @@ impact
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 deleteCaCertImpactX2
@@ -330,7 +322,7 @@ title
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 deleteEmailCertTitle
@@ -341,7 +333,7 @@ confirm
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 deleteEmailCertConfirm
@@ -352,7 +344,7 @@ impact
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 deleteEmailCertImpactDesc
@@ -375,7 +367,7 @@ title
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 deleteOrphanCertTitle
@@ -386,7 +378,7 @@ confirm
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 deleteOrphanCertConfirm

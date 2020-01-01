@@ -549,20 +549,12 @@ cert
 var
 bundle
 =
-srGetStrBundle
+document
+.
+getElementById
 (
 "
-chrome
-:
-/
-/
-pippki
-/
-locale
-/
-pippki
-.
-properties
+pippki_bundle
 "
 )
 ;
@@ -612,7 +604,7 @@ init
 parent
 bundle
 .
-GetStringFromName
+getString
 (
 "
 SaveCertAs
@@ -684,7 +676,7 @@ appendFilter
 (
 bundle
 .
-GetStringFromName
+getString
 (
 "
 CertFormatBase64
@@ -707,7 +699,7 @@ appendFilter
 (
 bundle
 .
-GetStringFromName
+getString
 (
 "
 CertFormatBase64Chain
@@ -730,7 +722,7 @@ appendFilter
 (
 bundle
 .
-GetStringFromName
+getString
 (
 "
 CertFormatDER
@@ -749,7 +741,7 @@ appendFilter
 (
 bundle
 .
-GetStringFromName
+getString
 (
 "
 CertFormatPKCS7
@@ -768,7 +760,7 @@ appendFilter
 (
 bundle
 .
-GetStringFromName
+getString
 (
 "
 CertFormatPKCS7Chain
@@ -1100,7 +1092,7 @@ msg
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 writeFileAccessDenied
@@ -1120,7 +1112,7 @@ msg
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 writeFileIsLocked
@@ -1147,7 +1139,7 @@ msg
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 writeFileNoDeviceSpace
@@ -1189,7 +1181,7 @@ msg
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 writeFileUnknownError
@@ -1200,7 +1192,7 @@ alertPromptService
 (
 bundle
 .
-GetStringFromName
+getString
 (
 "
 writeFileFailure
@@ -1208,7 +1200,7 @@ writeFileFailure
 )
 bundle
 .
-formatStringFromName
+getFormattedString
 (
 "
 writeFileFailed
@@ -1221,7 +1213,6 @@ file
 path
 msg
 ]
-2
 )
 )
 ;
