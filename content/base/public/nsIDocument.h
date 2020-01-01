@@ -10219,6 +10219,15 @@ PostVisibilityUpdateEvent
 =
 0
 ;
+bool
+IsSyntheticDocument
+(
+)
+{
+return
+mIsSyntheticDocument
+;
+}
 void
 SetNeedLayoutFlush
 (
