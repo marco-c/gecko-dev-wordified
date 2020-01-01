@@ -1167,8 +1167,12 @@ buffer
 {
 super
 (
-false
 image
+TileLayer
+.
+PaintMode
+.
+NORMAL
 )
 ;
 mVertical

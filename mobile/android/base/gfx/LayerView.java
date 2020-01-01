@@ -1446,9 +1446,7 @@ mPaintState
 ;
 }
 public
-GLSurfaceView
-.
-Renderer
+LayerRenderer
 getRenderer
 (
 )
