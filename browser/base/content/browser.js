@@ -3156,6 +3156,16 @@ true
 "
 )
 ;
+else
+blockedPopupAllowSite
+.
+removeAttribute
+(
+"
+disabled
+"
+)
+;
 var
 item
 =
