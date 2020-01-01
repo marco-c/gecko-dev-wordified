@@ -891,6 +891,14 @@ lir
 )
 ;
 bool
+visitNegD
+(
+LNegD
+*
+lir
+)
+;
+bool
 visitRandom
 (
 LRandom

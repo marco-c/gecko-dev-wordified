@@ -532,15 +532,6 @@ ins
 ;
 virtual
 bool
-visitNegD
-(
-LNegD
-*
-ins
-)
-;
-virtual
-bool
 visitAbsD
 (
 LAbsD
