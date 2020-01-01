@@ -758,7 +758,7 @@ aMouseEvent
 eventStructType
 =
 =
-NS_MOUSE_SCROLL_EVENT
+NS_WHEEL_EVENT
 |
 |
 aMouseEvent
