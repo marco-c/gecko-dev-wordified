@@ -2289,7 +2289,12 @@ frame
 setFrameDescriptor
 (
 callerFrameSize
-IonFrame_Exit
+frame
+-
+>
+prevType
+(
+)
 )
 ;
 }
