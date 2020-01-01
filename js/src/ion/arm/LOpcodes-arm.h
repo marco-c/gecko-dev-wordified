@@ -163,6 +163,11 @@ ModI
 \
 _
 (
+SoftModI
+)
+\
+_
+(
 ModPowTwoI
 )
 \
