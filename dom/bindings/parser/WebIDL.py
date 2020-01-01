@@ -16063,9 +16063,25 @@ __init__
 (
 self
 outputdir
+lexer
+=
+None
 )
 :
         
+if
+lexer
+:
+            
+self
+.
+lexer
+=
+lexer
+        
+else
+:
+            
 self
 .
 lexer
@@ -16077,17 +16093,17 @@ lex
 object
 =
 self
-                             
+                                 
 outputdir
 =
 outputdir
-                             
+                                 
 lextab
 =
 '
 webidllex
 '
-                             
+                                 
 reflags
 =
 re
@@ -22883,6 +22899,9 @@ outputdir
 =
 '
 '
+lexer
+=
+None
 )
 :
         
@@ -22892,6 +22911,7 @@ __init__
 (
 self
 outputdir
+lexer
 )
         
 self
@@ -22914,6 +22934,22 @@ tabmodule
 =
 '
 webidlyacc
+'
+                                
+errorlog
+=
+yacc
+.
+NullLogger
+(
+)
+                                
+picklefile
+=
+'
+WebIDLGrammar
+.
+pkl
 '
 )
         
@@ -23443,6 +23479,11 @@ self
 return
 Parser
 (
+lexer
+=
+self
+.
+lexer
 )
     
 #
