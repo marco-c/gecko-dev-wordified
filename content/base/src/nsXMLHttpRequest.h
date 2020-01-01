@@ -195,13 +195,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsIChannelEventSink
 .
 h

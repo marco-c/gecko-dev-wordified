@@ -254,6 +254,13 @@ MOZILLA_CLIENT
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 jshash
 .
 h
