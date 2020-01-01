@@ -8193,7 +8193,7 @@ cx
 compartment
 -
 >
-getDebuggers
+getDebuggees
 (
 )
 .
