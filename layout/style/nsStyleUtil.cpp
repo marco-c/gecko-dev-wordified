@@ -2375,6 +2375,12 @@ name
 /
 function
 params
+funcParams
+.
+Truncate
+(
+)
+;
 AppendEscapedCSSIdent
 (
 v
