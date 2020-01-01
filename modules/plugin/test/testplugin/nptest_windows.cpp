@@ -1403,6 +1403,13 @@ window
 ps
 )
 ;
++
++
+instanceData
+-
+>
+paintCount
+;
 }
 /
 *
