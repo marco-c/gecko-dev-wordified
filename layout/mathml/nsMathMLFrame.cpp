@@ -1235,12 +1235,12 @@ pseudoStyle
 aIsMutableChar
 )
 ?
-nsCSSAnonBoxes
+nsCSSPseudoElements
 :
 :
 mozMathStretchy
 :
-nsCSSAnonBoxes
+nsCSSPseudoElements
 :
 :
 mozMathAnonymous
