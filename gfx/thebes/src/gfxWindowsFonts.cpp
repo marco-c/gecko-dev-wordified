@@ -10350,9 +10350,9 @@ dc
 if
 (
 rv
-!
 =
-S_FALSE
+=
+S_OK
 )
 {
 aFontEntry
