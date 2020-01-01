@@ -970,7 +970,6 @@ Components
 .
 interfaces
 .
-.
 nsISupports
 ]
 ;
