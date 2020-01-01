@@ -2757,7 +2757,7 @@ accessible
 /
 virtual
 bool
-IsHyperLink
+IsLink
 (
 )
 ;
@@ -2842,7 +2842,7 @@ IsLinkValid
 {
 NS_PRECONDITION
 (
-IsHyperLink
+IsLink
 (
 )
 "
@@ -2961,7 +2961,7 @@ IsLinkSelected
 {
 NS_PRECONDITION
 (
-IsHyperlink
+IsLink
 (
 )
 "

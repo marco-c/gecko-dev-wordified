@@ -536,7 +536,7 @@ NativeState
 HyperLinkAccessible
 virtual
 bool
-IsHyperLink
+IsLink
 (
 )
 ;

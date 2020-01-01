@@ -1305,7 +1305,7 @@ nsIAccessibleHyperLink
 {
 if
 (
-IsHyperLink
+IsLink
 (
 )
 )
@@ -16701,7 +16701,7 @@ bool
 nsAccessible
 :
 :
-IsHyperLink
+IsLink
 (
 )
 {
@@ -16750,7 +16750,7 @@ StartOffset
 {
 NS_PRECONDITION
 (
-IsHyperLink
+IsLink
 (
 )
 "
@@ -16804,7 +16804,7 @@ EndOffset
 {
 NS_PRECONDITION
 (
-IsHyperLink
+IsLink
 (
 )
 "
@@ -16862,7 +16862,7 @@ AnchorCount
 {
 NS_PRECONDITION
 (
-IsHyperLink
+IsLink
 (
 )
 "
@@ -16894,7 +16894,7 @@ aAnchorIndex
 {
 NS_PRECONDITION
 (
-IsHyperLink
+IsLink
 (
 )
 "
@@ -16935,7 +16935,7 @@ aAnchorIndex
 {
 NS_PRECONDITION
 (
-IsHyperLink
+IsLink
 (
 )
 "

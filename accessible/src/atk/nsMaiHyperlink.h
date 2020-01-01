@@ -521,7 +521,6 @@ nsAccessible
 *
 GetAccHyperlink
 (
-void
 )
 {
 return
@@ -531,7 +530,7 @@ mHyperlink
 mHyperlink
 -
 >
-IsHyperLink
+IsLink
 (
 )
 ?

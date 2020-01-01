@@ -540,7 +540,7 @@ if
 thisObj
 -
 >
-IsHyperLink
+IsLink
 (
 )
 )
@@ -639,7 +639,7 @@ IsDefunct
 thisObj
 -
 >
-IsHyperLink
+IsLink
 (
 )
 )
@@ -841,7 +841,7 @@ IsDefunct
 thisObj
 -
 >
-IsHyperLink
+IsLink
 (
 )
 )
@@ -1069,7 +1069,7 @@ IsDefunct
 thisObj
 -
 >
-IsHyperLink
+IsLink
 (
 )
 )
@@ -1156,7 +1156,7 @@ IsDefunct
 thisObj
 -
 >
-IsHyperLink
+IsLink
 (
 )
 )
@@ -1243,7 +1243,7 @@ IsDefunct
 thisObj
 -
 >
-IsHyperLink
+IsLink
 (
 )
 )

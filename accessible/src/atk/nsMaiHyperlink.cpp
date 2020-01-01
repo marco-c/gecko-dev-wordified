@@ -917,7 +917,7 @@ if
 mHyperlink
 -
 >
-IsHyperLink
+IsLink
 (
 )
 )

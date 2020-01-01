@@ -2406,11 +2406,10 @@ MAI_INTERFACE_IMAGE
 HyperLinkAccessible
 if
 (
-IsHyperLink
+IsLink
 (
 )
 )
-{
 interfacesBits
 |
 =
@@ -2419,7 +2418,6 @@ interfacesBits
 <
 MAI_INTERFACE_HYPERLINK_IMPL
 ;
-}
 if
 (
 !
