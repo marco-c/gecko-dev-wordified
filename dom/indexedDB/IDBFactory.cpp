@@ -4645,6 +4645,7 @@ Create
 this
 context
 innerWindow
+nsnull
 )
 ;
 NS_ENSURE_TRUE
