@@ -14288,10 +14288,7 @@ JSString
 length
 )
 )
-lir
--
->
-insImm
+INS_CONST
 (
 JSSTRING_LENGTH_MASK
 )
@@ -23795,10 +23792,7 @@ sizeof
 jsval
 )
 )
-lir
--
->
-insImm
+INS_CONST
 (
 ~
 JSITER_ENUMERATE
