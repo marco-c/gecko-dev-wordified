@@ -2871,8 +2871,6 @@ nsIScriptObjectPrincipal
 public
 nsIRadioGroupContainer
 public
-nsIDOMNodeSelector
-public
 nsIApplicationCacheContainer
 public
 nsStubMutationObserver
@@ -4456,10 +4454,6 @@ NS_DECL_NSIDOM3EVENTTARGET
 /
 nsIDOMNSEventTarget
 NS_DECL_NSIDOMNSEVENTTARGET
-/
-/
-nsIDOMNodeSelector
-NS_DECL_NSIDOMNODESELECTOR
 /
 /
 nsIMutationObserver
