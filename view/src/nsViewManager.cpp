@@ -4201,9 +4201,6 @@ SAMPLE_LABEL
 event
 "
 "
-nsViewManager
-:
-:
 DispatchEvent
 "
 )
