@@ -2834,6 +2834,12 @@ mAssumeWheelIsZoomUntil
 PRUint32
 mPickerDisplayCount
 ;
+HICON
+mIconSmall
+;
+HICON
+mIconBig
+;
 static
 bool
 sDropShadowEnabled
