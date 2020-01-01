@@ -744,7 +744,7 @@ nv
 )
 {
 /
-/
+*
 Details
 on
 these
@@ -755,6 +755,8 @@ the
 manpage
 for
 atomic
+*
+/
 #
 if
 JS_BYTES_PER_WORD
