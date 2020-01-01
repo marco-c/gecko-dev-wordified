@@ -230,6 +230,8 @@ value
 list
 )
 and
+value
+and
 isinstance
 (
 value
