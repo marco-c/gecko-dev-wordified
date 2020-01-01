@@ -1548,6 +1548,11 @@ type
 ;
 }
 }
+SetOffscreenFormat
+(
+format
+)
+;
 mSize
 =
 size
