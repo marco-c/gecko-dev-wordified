@@ -1069,6 +1069,7 @@ vp
 {
 #
 if
+(
 !
 defined
 (
@@ -1080,6 +1081,7 @@ XP_WIN
 defined
 (
 XP_UNIX
+)
 )
 |
 |
