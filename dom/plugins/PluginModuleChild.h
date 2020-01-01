@@ -1628,6 +1628,11 @@ InitGraphics
 (
 )
 ;
+void
+DeinitGraphics
+(
+)
+;
 #
 if
 defined
