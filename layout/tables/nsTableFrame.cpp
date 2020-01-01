@@ -22728,14 +22728,14 @@ handle
 -
 moz
 -
-fill
+available
 and
 -
 moz
 -
-shrink
+fit
 -
-wrap
+content
 ?
 }
 return
@@ -22950,7 +22950,9 @@ width
 -
 moz
 -
-intrinsic
+max
+-
+content
 '
 must
 be
@@ -23017,7 +23019,7 @@ GetIntValue
 )
 =
 =
-NS_STYLE_WIDTH_INTRINSIC
+NS_STYLE_WIDTH_MAX_CONTENT
 )
 ;
 }

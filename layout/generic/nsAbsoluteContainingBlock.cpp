@@ -1533,7 +1533,7 @@ GetIntValue
 )
 =
 =
-NS_STYLE_WIDTH_INTRINSIC
+NS_STYLE_WIDTH_MAX_CONTENT
 |
 |
 aCoord
@@ -1543,7 +1543,7 @@ GetIntValue
 )
 =
 =
-NS_STYLE_WIDTH_MIN_INTRINSIC
+NS_STYLE_WIDTH_MIN_CONTENT
 )
 )
 ;
@@ -1939,7 +1939,7 @@ except
 -
 moz
 -
-fill
+available
 are
 ok
 too
