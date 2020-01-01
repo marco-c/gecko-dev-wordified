@@ -18157,8 +18157,10 @@ the
 end
 of
 range
+nsRefPtr
+<
 nsRange
-*
+>
 postOverlap
 =
 new
@@ -18299,8 +18301,10 @@ the
 start
 of
 aSubtract
+nsRefPtr
+<
 nsRange
-*
+>
 preOverlap
 =
 new
