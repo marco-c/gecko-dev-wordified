@@ -3301,7 +3301,7 @@ eNoRule
 /
 /
 ROLE_DOCUMENT_FRAME
-eNoRule
+eFromSubtreeIfRec
 /
 /
 ROLE_HEADING
