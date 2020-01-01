@@ -2340,6 +2340,12 @@ ThebesLayerD3D10
 return
 ;
 }
+mValidRegion
+.
+SetEmpty
+(
+)
+;
 }
 }
 if
