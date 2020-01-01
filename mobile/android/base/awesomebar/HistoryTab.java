@@ -1336,6 +1336,7 @@ viewHolder
 .
 faviconView
 favicon
+url
 )
 ;
 Integer
