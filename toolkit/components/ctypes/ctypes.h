@@ -107,6 +107,15 @@ nsIXPCScriptable
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -115,6 +124,7 @@ ctypes
 {
 class
 Module
+MOZ_FINAL
 :
 public
 nsIXPCScriptable
