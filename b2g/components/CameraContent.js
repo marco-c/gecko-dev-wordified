@@ -586,16 +586,6 @@ Ci
 nsIPermissionManager
 .
 ALLOW_ACTION
-|
-|
-from
-.
-schemeIs
-(
-"
-chrome
-"
-)
 ;
 Services
 .
