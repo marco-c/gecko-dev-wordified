@@ -1681,9 +1681,6 @@ of
 parent
 transforms
 .
-mozilla
-:
-:
 CSSPoint
 mScrollOffset
 ;
@@ -1846,9 +1843,6 @@ has
 no
 content
 .
-mozilla
-:
-:
 CSSRect
 mScrollableRect
 ;

@@ -5083,6 +5083,7 @@ FromCSSRectRoundOut
 (
 aCSSPageRect
 resolution
+resolution
 )
 ;
 metrics
@@ -5691,6 +5692,11 @@ aFrameMetrics
 .
 mCompositionBounds
 resolution
+.
+width
+resolution
+.
+height
 )
 ;
 CSSRect
@@ -6475,6 +6481,11 @@ aMetrics
 .
 mCompositionBounds
 resolution
+.
+width
+resolution
+.
+height
 )
 ;
 return
@@ -8827,6 +8838,11 @@ ToCSSIntRectRoundIn
 (
 compositionBounds
 resolution
+.
+width
+resolution
+.
+height
 )
 ;
 float
