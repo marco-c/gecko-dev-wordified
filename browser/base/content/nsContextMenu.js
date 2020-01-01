@@ -9733,7 +9733,7 @@ gNavigatorBundle
 getFormattedString
 (
 "
-contextMenuSearchText
+contextMenuSearch
 "
 [
 engineName
@@ -9774,7 +9774,7 @@ gNavigatorBundle
 getString
 (
 "
-contextMenuSearchText
+contextMenuSearch
 .
 accesskey
 "

@@ -2931,7 +2931,7 @@ label
 =
 "
 &
-spellCheckEnable
+spellCheckToggle
 .
 label
 ;
@@ -2945,7 +2945,7 @@ accesskey
 =
 "
 &
-spellCheckEnable
+spellCheckToggle
 .
 accesskey
 ;
