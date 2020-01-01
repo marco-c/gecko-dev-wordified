@@ -683,7 +683,7 @@ thumbnail
 ImageButton
 close
 ;
-LinearLayout
+ViewGroup
 info
 ;
 public
@@ -696,7 +696,7 @@ view
 info
 =
 (
-LinearLayout
+ViewGroup
 )
 view
 ;

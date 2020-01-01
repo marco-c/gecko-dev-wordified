@@ -877,6 +877,7 @@ show
 Panel
 .
 NORMAL_TABS
+false
 )
 ;
 else
@@ -892,6 +893,7 @@ show
 Panel
 .
 PRIVATE_TABS
+false
 )
 ;
 else
@@ -900,6 +902,7 @@ show
 Panel
 .
 REMOTE_TABS
+false
 )
 ;
 }
@@ -1842,6 +1845,23 @@ Panel
 panel
 )
 {
+show
+(
+panel
+true
+)
+;
+}
+public
+void
+show
+(
+Panel
+panel
+boolean
+shouldResize
+)
+{
 if
 (
 !
@@ -2040,6 +2060,11 @@ VISIBLE
 }
 if
 (
+shouldResize
+)
+{
+if
+(
 isSideBar
 (
 )
@@ -2098,6 +2123,7 @@ getWidth
 height
 )
 ;
+}
 }
 }
 public
