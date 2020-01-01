@@ -125,14 +125,14 @@ h
 #
 include
 "
-nsIFrame
+nsBoxLayoutState
 .
 h
 "
 #
 include
 "
-nsBoxLayoutState
+nsIFrame
 .
 h
 "

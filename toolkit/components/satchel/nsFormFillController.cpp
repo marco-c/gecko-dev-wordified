@@ -243,13 +243,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsRect
 .
 h

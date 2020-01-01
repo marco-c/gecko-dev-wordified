@@ -221,13 +221,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsStyleContext
 .
 h

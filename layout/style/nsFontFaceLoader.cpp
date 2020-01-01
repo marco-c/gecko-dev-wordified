@@ -235,13 +235,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h

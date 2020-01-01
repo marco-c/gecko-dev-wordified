@@ -153,13 +153,9 @@ children
 define
 NS_PAINT_FLAG_TABLE_CELL_BG_PASS
 0x00000002
-#
-include
-"
+class
 nsIFrame
-.
-h
-"
+;
 class
 nsTableFrame
 ;

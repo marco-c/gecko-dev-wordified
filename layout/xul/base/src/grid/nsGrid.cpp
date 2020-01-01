@@ -171,6 +171,13 @@ nsGridCell
 .
 h
 "
+#
+include
+"
+nsHTMLReflowState
+.
+h
+"
 /
 *
 The

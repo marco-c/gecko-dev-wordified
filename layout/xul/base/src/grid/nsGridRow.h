@@ -113,7 +113,7 @@ nsGridRow_h___
 #
 include
 "
-nsIFrame
+nsCoord
 .
 h
 "
@@ -122,6 +122,14 @@ nsGridLayout2
 ;
 class
 nsBoxLayoutState
+;
+class
+nsIFrame
+;
+typedef
+class
+nsIFrame
+nsIBox
 ;
 /
 *

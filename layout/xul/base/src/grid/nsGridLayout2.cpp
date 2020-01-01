@@ -157,6 +157,13 @@ nsSprocketLayout
 .
 h
 "
+#
+include
+"
+nsHTMLReflowState
+.
+h
+"
 nsresult
 NS_NewGridLayout2
 (

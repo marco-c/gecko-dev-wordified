@@ -151,13 +151,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsIDOMDocument
 .
 h

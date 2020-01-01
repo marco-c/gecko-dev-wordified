@@ -179,13 +179,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -261,6 +254,9 @@ nsDOMDataTransfer
 ;
 class
 MouseEnterLeaveDispatcher
+;
+class
+nsIFrame
 ;
 namespace
 mozilla

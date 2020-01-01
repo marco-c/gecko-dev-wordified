@@ -110,13 +110,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsBox
 .
 h

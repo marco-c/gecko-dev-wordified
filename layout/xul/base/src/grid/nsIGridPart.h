@@ -106,13 +106,6 @@ nsISupports
 .
 h
 "
-#
-include
-"
-nsFrame
-.
-h
-"
 class
 nsGridRowGroupLayout
 ;
