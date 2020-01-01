@@ -651,6 +651,13 @@ h
 #
 include
 "
+mozIStorageVacuumParticipant
+.
+h
+"
+#
+include
+"
 mozIStorageCompletionCallback
 .
 h
