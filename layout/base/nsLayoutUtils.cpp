@@ -6812,9 +6812,6 @@ if
 scrollableFrame
 )
 {
-nsPresContext
-:
-:
 ScrollbarStyles
 ss
 =
@@ -6968,9 +6965,6 @@ if
 scrollableFrame
 )
 {
-nsPresContext
-:
-:
 ScrollbarStyles
 ss
 =

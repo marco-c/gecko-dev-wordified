@@ -330,13 +330,9 @@ nsGfxScrollFrameInner
 (
 )
 ;
-typedef
-nsIScrollableFrame
+mozilla
 :
 :
-ScrollbarStyles
-ScrollbarStyles
-;
 ScrollbarStyles
 GetScrollbarStylesFromFrame
 (
@@ -3142,7 +3138,7 @@ GetScrolledFrame
 ;
 }
 virtual
-nsGfxScrollFrameInner
+mozilla
 :
 :
 ScrollbarStyles
@@ -4688,7 +4684,7 @@ GetScrolledFrame
 ;
 }
 virtual
-nsGfxScrollFrameInner
+mozilla
 :
 :
 ScrollbarStyles

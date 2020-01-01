@@ -1974,9 +1974,6 @@ return
 true
 ;
 }
-nsPresContext
-:
-:
 ScrollbarStyles
 ss
 =

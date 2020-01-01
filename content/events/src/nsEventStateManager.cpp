@@ -15640,9 +15640,6 @@ return
 frameToScroll
 ;
 }
-nsPresContext
-:
-:
 ScrollbarStyles
 ss
 =
@@ -16360,9 +16357,6 @@ style
 is
 hidden
 .
-nsPresContext
-:
-:
 ScrollbarStyles
 overflowStyle
 =
