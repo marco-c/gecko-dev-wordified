@@ -4659,6 +4659,11 @@ false
 else
 if
 (
+argc
+>
+0
+&
+&
 argv
 [
 0
