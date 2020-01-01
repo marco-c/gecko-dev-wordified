@@ -369,6 +369,13 @@ nsHtml5ByteReadable
 .
 h
 "
+#
+include
+"
+nsHtml5TreeOperation
+.
+h
+"
 class
 nsHtml5Parser
 ;
