@@ -85,6 +85,31 @@ now
 (
 )
     
+#
+close_fds
+is
+not
+supported
+on
+Windows
+and
+will
+cause
+a
+ValueError
+.
+    
+close_fds
+=
+sys
+.
+platform
+!
+=
+'
+win32
+'
+    
 p
 =
 Popen
@@ -101,7 +126,7 @@ stderr
 PIPE
 close_fds
 =
-True
+close_fds
 )
     
 l
