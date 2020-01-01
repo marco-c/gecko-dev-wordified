@@ -4516,6 +4516,8 @@ LIns
 base
 ptrdiff_t
 offset
+bool
+demote
 )
 ;
 JS_REQUIRES_STACK
@@ -4535,6 +4537,10 @@ bool
 initializing
 =
 false
+bool
+demote
+=
+true
 )
 ;
 JS_REQUIRES_STACK
