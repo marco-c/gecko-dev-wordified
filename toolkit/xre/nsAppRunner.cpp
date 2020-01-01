@@ -14996,6 +14996,10 @@ NS_BREAK
 endif
 SetupErrorHandling
 (
+argv
+[
+0
+]
 )
 ;
 #
@@ -21407,6 +21411,10 @@ endif
 void
 SetupErrorHandling
 (
+const
+char
+*
+progname
 )
 {
 #
@@ -21740,10 +21748,7 @@ XP_BEOS
 )
 InstallUnixSignalHandlers
 (
-argv
-[
-0
-]
+progname
 )
 ;
 #
