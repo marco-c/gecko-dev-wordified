@@ -784,7 +784,6 @@ aForRegion
 )
 {
 }
-;
 /
 *
 *
@@ -866,7 +865,6 @@ BeginTileIteration
 )
 {
 }
-;
 virtual
 bool
 NextTile
@@ -877,7 +875,6 @@ return
 false
 ;
 }
-;
 /
 /
 Function
@@ -957,7 +954,6 @@ aCallbackData
 )
 {
 }
-;
 virtual
 nsIntRect
 GetTileRect
@@ -976,7 +972,6 @@ mSize
 )
 ;
 }
-;
 virtual
 GLuint
 GetTextureID
@@ -995,7 +990,6 @@ return
 1
 ;
 }
-;
 /
 *
 *
@@ -1205,7 +1199,6 @@ ReleaseTexture
 )
 {
 }
-;
 void
 BindTextureAndApplyFilter
 (
@@ -1615,7 +1608,6 @@ mSize
 )
 ;
 }
-;
 nsIntSize
 mSize
 ;
@@ -1866,7 +1858,6 @@ return
 mTexture
 ;
 }
-;
 /
 /
 Returns
@@ -2186,7 +2177,6 @@ GetTextureID
 )
 ;
 }
-;
 virtual
 bool
 DirectUpdate
@@ -2221,7 +2211,6 @@ return
 mInUpdate
 ;
 }
-;
 virtual
 void
 BindTexture
@@ -6508,7 +6497,6 @@ return
 nsnull
 ;
 }
-;
 /
 *
 *
@@ -7508,7 +7496,6 @@ vertexCoords
 x
 ;
 }
-;
 float
 *
 texCoordPointer
@@ -7525,7 +7512,6 @@ texCoords
 u
 ;
 }
-;
 unsigned
 int
 elements
@@ -7540,7 +7526,6 @@ Length
 )
 ;
 }
-;
 typedef
 struct
 {
@@ -11746,7 +11731,6 @@ img
 AFTER_GL_CALL
 ;
 }
-;
 void
 fGetTexLevelParameteriv
 (
