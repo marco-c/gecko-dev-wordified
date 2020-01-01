@@ -351,13 +351,13 @@ CHECK
 savedCopy
 -
 >
-map
+lastProp
 =
 =
 obj
 -
 >
-map
+lastProp
 )
 ;
 CHECK

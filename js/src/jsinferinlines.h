@@ -1705,7 +1705,10 @@ typeInferenceEnabled
 )
 )
 {
-JSStackFrame
+js
+:
+:
+StackFrame
 *
 caller
 =
@@ -1886,7 +1889,10 @@ native
 .
 *
 /
-JSStackFrame
+js
+:
+:
+StackFrame
 *
 caller
 =

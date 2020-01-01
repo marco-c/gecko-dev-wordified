@@ -4952,7 +4952,10 @@ js_TraceStackFrame
 JSTracer
 *
 trc
-JSStackFrame
+js
+:
+:
+StackFrame
 *
 fp
 )
@@ -6507,9 +6510,6 @@ color
 ;
 public
 :
-jsuword
-stackLimit
-;
 /
 *
 See

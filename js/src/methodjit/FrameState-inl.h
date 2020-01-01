@@ -6312,7 +6312,7 @@ a
 locals
 )
 return
-JSStackFrame
+StackFrame
 :
 :
 offsetOfFixed
@@ -6339,7 +6339,7 @@ a
 args
 )
 return
-JSStackFrame
+StackFrame
 :
 :
 offsetOfFormalArg
@@ -6373,7 +6373,7 @@ a
 this_
 )
 return
-JSStackFrame
+StackFrame
 :
 :
 offsetOfThis
@@ -6398,7 +6398,7 @@ a
 callee_
 )
 return
-JSStackFrame
+StackFrame
 :
 :
 offsetOfCallee

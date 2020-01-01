@@ -1425,9 +1425,6 @@ shapeGuard
 )
 int32
 (
-JSObjectMap
-:
-:
 INVALID_SHAPE
 )
 )
@@ -3074,7 +3071,7 @@ setterOp
 =
 SetCallArg
 ?
-JSStackFrame
+StackFrame
 :
 :
 offsetOfFormalArg
@@ -3083,7 +3080,7 @@ fun
 slot
 )
 :
-JSStackFrame
+StackFrame
 :
 :
 offsetOfFixed
@@ -5755,9 +5752,6 @@ getFastShapeGuard
 )
 int32
 (
-JSObjectMap
-:
-:
 INVALID_SHAPE
 )
 )
@@ -6959,7 +6953,7 @@ thisv
 JSFrameReg
 sizeof
 (
-JSStackFrame
+StackFrame
 )
 +
 thisvOffset
@@ -9427,7 +9421,7 @@ loadPtr
 Address
 (
 JSFrameReg
-JSStackFrame
+StackFrame
 :
 :
 offsetOfScopeChain
@@ -9974,7 +9968,7 @@ loadPtr
 Address
 (
 JSFrameReg
-JSStackFrame
+StackFrame
 :
 :
 offsetOfScopeChain
@@ -10277,7 +10271,7 @@ kind
 =
 ARG
 ?
-JSStackFrame
+StackFrame
 :
 :
 offsetOfFormalArg
@@ -10286,7 +10280,7 @@ fun
 slot
 )
 :
-JSStackFrame
+StackFrame
 :
 :
 offsetOfFixed
@@ -11783,7 +11777,7 @@ loadPtr
 Address
 (
 JSFrameReg
-JSStackFrame
+StackFrame
 :
 :
 offsetOfScopeChain
@@ -13610,7 +13604,7 @@ f
 .
 cx
 ;
-JSFrameRegs
+FrameRegs
 &
 regs
 =
@@ -14189,7 +14183,7 @@ JS_UNLIKELY
 (
 rval
 .
-isUndefined
+isPrimitive
 (
 )
 )
@@ -15977,8 +15971,9 @@ cx
 -
 >
 regs
--
->
+(
+)
+.
 sp
 [
 -
@@ -15989,7 +15984,7 @@ Address
 thisSlot
 (
 JSFrameReg
-JSStackFrame
+StackFrame
 :
 :
 offsetOfFixed
@@ -18049,7 +18044,7 @@ sp
 2
 ]
 .
-isUndefined
+isPrimitive
 (
 )
 )

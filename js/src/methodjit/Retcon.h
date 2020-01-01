@@ -776,7 +776,7 @@ expandInlineFrames
 JSContext
 *
 cx
-JSStackFrame
+StackFrame
 *
 fp
 mjit
@@ -785,7 +785,7 @@ mjit
 CallSite
 *
 inlined
-JSStackFrame
+StackFrame
 *
 next
 VMFrame
@@ -899,14 +899,14 @@ natives
 )
 ;
 static
-JSStackFrame
+StackFrame
 *
 expandInlineFrameChain
 (
 JSContext
 *
 cx
-JSStackFrame
+StackFrame
 *
 outer
 InlineFrame

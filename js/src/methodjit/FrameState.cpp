@@ -19179,6 +19179,13 @@ resetUnsynced
 (
 )
 ;
+fe
+-
+>
+clear
+(
+)
+;
 regstate
 (
 typeReg

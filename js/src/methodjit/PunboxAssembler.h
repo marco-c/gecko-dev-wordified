@@ -2583,7 +2583,7 @@ ValueReg
 ;
 notHole
 =
-branch32
+branchPtr
 (
 Equal
 Registers

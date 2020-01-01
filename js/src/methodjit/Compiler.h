@@ -527,7 +527,7 @@ mjit
 struct
 PatchableFrame
 {
-JSStackFrame
+StackFrame
 *
 fp
 ;

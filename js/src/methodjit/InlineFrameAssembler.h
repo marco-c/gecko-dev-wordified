@@ -566,7 +566,7 @@ jit
 code
 equivalent
 to
-JSStackFrame
+StackFrame
 :
 :
 initCallFrameCallerHalf
@@ -830,7 +830,10 @@ JS_ASSERT
 flags
 &
 ~
-JSFRAME_CONSTRUCTING
+StackFrame
+:
+:
+CONSTRUCTING
 )
 =
 =
@@ -840,7 +843,7 @@ JSFRAME_CONSTRUCTING
 /
 *
 Generate
-JSStackFrame
+StackFrame
 :
 :
 initCallFrameCallerHalf
@@ -873,7 +876,7 @@ newfp
 (
 sizeof
 (
-JSStackFrame
+StackFrame
 )
 +
 frameDepth
@@ -891,7 +894,7 @@ newfp
 .
 addrOf
 (
-JSStackFrame
+StackFrame
 :
 :
 offsetOfFlags
@@ -905,7 +908,10 @@ store32
 (
 Imm32
 (
-JSFRAME_FUNCTION
+StackFrame
+:
+:
+FUNCTION
 |
 flags
 )
@@ -919,7 +925,7 @@ newfp
 .
 addrOf
 (
-JSStackFrame
+StackFrame
 :
 :
 offsetOfPrev
@@ -942,10 +948,10 @@ newfp
 .
 addrOf
 (
-JSStackFrame
+StackFrame
 :
 :
-offsetOfncode
+offsetOfNcode
 (
 )
 )
@@ -971,7 +977,7 @@ Imm32
 (
 sizeof
 (
-JSStackFrame
+StackFrame
 )
 +
 frameDepth
@@ -1101,7 +1107,7 @@ Address
 flagsAddr
 (
 newfp
-JSStackFrame
+StackFrame
 :
 :
 offsetOfFlags
@@ -1115,7 +1121,10 @@ store32
 (
 Imm32
 (
-JSFRAME_FUNCTION
+StackFrame
+:
+:
+FUNCTION
 |
 flags
 )
@@ -1126,7 +1135,7 @@ Address
 prevAddr
 (
 newfp
-JSStackFrame
+StackFrame
 :
 :
 offsetOfPrev
@@ -1146,10 +1155,10 @@ Address
 ncodeAddr
 (
 newfp
-JSStackFrame
+StackFrame
 :
 :
-offsetOfncode
+offsetOfNcode
 (
 )
 )

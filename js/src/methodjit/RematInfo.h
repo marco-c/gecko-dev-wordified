@@ -780,7 +780,7 @@ Value
 +
 sizeof
 (
-JSStackFrame
+StackFrame
 )
 /
 /
@@ -853,7 +853,7 @@ int32
 (
 sizeof
 (
-JSStackFrame
+StackFrame
 )
 )
 |

@@ -2485,7 +2485,7 @@ tmp
 uint32
 vcap
 ;
-JSStackFrame
+StackFrame
 *
 fp
 =

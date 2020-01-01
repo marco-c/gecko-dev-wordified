@@ -827,8 +827,9 @@ cx
 -
 >
 regs
--
->
+(
+)
+.
 pc
 =
 =
@@ -843,8 +844,9 @@ cx
 -
 >
 regs
--
->
+(
+)
+.
 pc
 +
 JSOP_EVAL_LENGTH
@@ -863,8 +865,9 @@ cx
 -
 >
 regs
--
->
+(
+)
+.
 pc
 +
 JSOP_EVAL_LENGTH
