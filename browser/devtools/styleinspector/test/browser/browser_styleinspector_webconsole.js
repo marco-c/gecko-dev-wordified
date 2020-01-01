@@ -1440,7 +1440,9 @@ stylePanels
 ]
 .
 state
-undefined
+"
+closed
+"
 "
 instance
 stylePanels
