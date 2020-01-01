@@ -33187,6 +33187,12 @@ hC
 TRUE
 )
 ;
+ImmReleaseContext
+(
+mWnd
+hC
+)
+;
 }
 #
 endif
@@ -33214,6 +33220,12 @@ ImmSetOpenStatus
 (
 hC
 FALSE
+)
+;
+ImmReleaseContext
+(
+mWnd
+hC
 )
 ;
 }
