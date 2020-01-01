@@ -5268,6 +5268,10 @@ PRBool
 aNullParent
 )
 {
+RemoveFromNameTable
+(
+)
+;
 if
 (
 GetContentEditableValue
@@ -14343,10 +14347,6 @@ before
 doing
 anything
 SaveState
-(
-)
-;
-RemoveFromNameTable
 (
 )
 ;
