@@ -24135,7 +24135,7 @@ traversing
 through
 the
 frames
-NS_IMETHODIMP
+nsresult
 nsTypedSelection
 :
 :
