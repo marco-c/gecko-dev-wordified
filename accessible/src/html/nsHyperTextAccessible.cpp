@@ -4167,7 +4167,7 @@ parent
 parent
 -
 >
-IsNativeAnonymous
+IsRootOfNativeAnonymousSubtree
 (
 )
 &

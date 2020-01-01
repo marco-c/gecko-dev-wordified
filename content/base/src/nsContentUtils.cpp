@@ -10793,15 +10793,7 @@ if
 aContent
 -
 >
-IsNativeAnonymous
-(
-)
-|
-|
-aContent
--
->
-GetBindingParent
+IsInAnonymousSubtree
 (
 )
 )

@@ -36921,7 +36921,7 @@ aReturn
 content
 -
 >
-IsNativeAnonymous
+IsRootOfNativeAnonymousSubtree
 (
 )
 ;

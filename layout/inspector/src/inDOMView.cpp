@@ -2095,7 +2095,7 @@ content
 content
 -
 >
-GetBindingParent
+IsInAnonymousSubtree
 (
 )
 )

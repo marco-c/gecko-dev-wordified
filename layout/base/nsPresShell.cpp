@@ -27584,7 +27584,7 @@ selectorFlags
 aContent
 -
 >
-IsNativeAnonymous
+IsRootOfNativeAnonymousSubtree
 (
 )
 )

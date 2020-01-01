@@ -36296,7 +36296,7 @@ GetContent
 content
 -
 >
-IsNativeAnonymous
+IsRootOfNativeAnonymousSubtree
 (
 )
 )
@@ -36953,7 +36953,7 @@ eHTML
 mContent
 -
 >
-IsNativeAnonymous
+IsRootOfNativeAnonymousSubtree
 (
 )
 &

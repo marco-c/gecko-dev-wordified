@@ -1850,16 +1850,14 @@ accService
 NS_ERROR_FAILURE
 )
 ;
-nsCOMPtr
-<
 nsIContent
->
+*
 parent
 =
 mContent
 -
 >
-GetBindingParent
+GetParent
 (
 )
 ;
@@ -1871,7 +1869,7 @@ parent
 parent
 -
 >
-IsNativeAnonymous
+IsRootOfNativeAnonymousSubtree
 (
 )
 &

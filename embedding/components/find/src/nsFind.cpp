@@ -2385,7 +2385,7 @@ NS_ASSERTION
 aContent
 -
 >
-IsNativeAnonymous
+IsRootOfNativeAnonymousSubtree
 (
 )
 "
