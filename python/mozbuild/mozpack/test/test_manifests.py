@@ -391,6 +391,15 @@ e_dest
 '
 )
         
+m
+.
+add_optional_exists
+(
+'
+o_dest
+'
+)
+        
 self
 .
 assertEqual
@@ -399,7 +408,7 @@ len
 (
 m
 )
-3
+4
 )
         
 self
@@ -428,6 +437,16 @@ assertIn
 (
 '
 e_dest
+'
+m
+)
+        
+self
+.
+assertIn
+(
+'
+o_dest
 '
 m
 )
@@ -491,6 +510,24 @@ add_required_exists
 e_dest
 '
 )
+        
+with
+self
+.
+assertRaises
+(
+ValueError
+)
+:
+            
+m
+.
+add_optional_exists
+(
+'
+o_dest
+'
+)
     
 def
 _get_test_manifest
@@ -545,6 +582,15 @@ add_required_exists
 (
 '
 e_dest
+'
+)
+        
+m
+.
+add_optional_exists
+(
+'
+o_dest
 '
 )
         
@@ -633,7 +679,7 @@ count
 n
 '
 )
-4
+5
 )
         
 lines
@@ -652,7 +698,7 @@ len
 (
 lines
 )
-4
+5
 )
         
 self
@@ -664,7 +710,7 @@ lines
 0
 ]
 '
-1
+2
 '
 )
         
@@ -719,6 +765,21 @@ assertEqual
 lines
 [
 3
+]
+'
+4
+\
+x1fo_dest
+'
+)
+        
+self
+.
+assertEqual
+(
+lines
+[
+4
 ]
 '
 1
@@ -842,7 +903,7 @@ len
 (
 r
 )
-3
+4
 )
         
 self
@@ -860,6 +921,9 @@ c_dest
 '
 '
 e_dest
+'
+'
+o_dest
 '
 '
 s_dest
@@ -936,7 +1000,7 @@ len
 (
 m1
 )
-5
+6
 )
         
 self
@@ -1088,6 +1152,27 @@ a
             
 pass
         
+with
+open
+(
+self
+.
+tmppath
+(
+'
+dest
+/
+o_dest
+'
+)
+'
+a
+'
+)
+:
+            
+pass
+        
 m
 =
 self
@@ -1182,6 +1267,29 @@ tmppath
 dest
 /
 e_dest
+'
+)
+)
+)
+        
+self
+.
+assertTrue
+(
+os
+.
+path
+.
+exists
+(
+self
+.
+tmppath
+(
+'
+dest
+/
+o_dest
 '
 )
 )
@@ -1326,6 +1434,16 @@ tmppath
 dest
 /
 e_dest
+'
+)
+self
+.
+tmppath
+(
+'
+dest
+/
+o_dest
 '
 )
 ]
