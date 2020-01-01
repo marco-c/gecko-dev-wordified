@@ -18943,6 +18943,12 @@ _isSelectElement
 (
 target
 )
+&
+&
+!
+target
+.
+disabled
 )
 {
 target
