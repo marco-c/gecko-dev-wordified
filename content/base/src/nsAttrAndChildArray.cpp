@@ -1340,6 +1340,7 @@ nsAttrAndChildArray
 :
 IndexOfChild
 (
+const
 nsINode
 *
 aPossibleChild

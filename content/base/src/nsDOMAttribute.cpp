@@ -2593,6 +2593,7 @@ nsDOMAttribute
 :
 IndexOf
 (
+const
 nsINode
 *
 aPossibleChild

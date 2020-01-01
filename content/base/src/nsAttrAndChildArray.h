@@ -429,6 +429,7 @@ aPos
 int32_t
 IndexOfChild
 (
+const
 nsINode
 *
 aPossibleChild

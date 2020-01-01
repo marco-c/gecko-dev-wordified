@@ -11806,6 +11806,7 @@ FragmentOrElement
 :
 IndexOf
 (
+const
 nsINode
 *
 aPossibleChild
