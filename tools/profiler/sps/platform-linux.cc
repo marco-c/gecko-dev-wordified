@@ -1865,9 +1865,10 @@ much
 better
 accuracy
 .
-active_
-=
+SetActive
+(
 true
+)
 ;
 if
 (
@@ -1927,9 +1928,10 @@ Stop
 (
 )
 {
-active_
-=
+SetActive
+(
 false
+)
 ;
 /
 /
