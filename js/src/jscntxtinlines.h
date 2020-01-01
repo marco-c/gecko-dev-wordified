@@ -4977,9 +4977,11 @@ cx
 ifdef
 JS_TRACER
 return
+JS_TRACE_MONITOR
+(
 cx
--
->
+)
+.
 bailExit
 !
 =
