@@ -7093,6 +7093,9 @@ aItems
 void
 AddTextItemIfNeeded
 (
+nsFrameConstructorState
+&
+aState
 nsIFrame
 *
 aParentFrame
