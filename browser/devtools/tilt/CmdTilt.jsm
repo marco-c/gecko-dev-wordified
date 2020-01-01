@@ -301,6 +301,16 @@ devtools
 -
 toolbarbutton
 "
+tooltipText
+:
+gcli
+.
+lookup
+(
+"
+tiltToggleTooltip
+"
+)
 hidden
 :
 true

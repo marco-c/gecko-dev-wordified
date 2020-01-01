@@ -124,6 +124,16 @@ devtools
 -
 toolbarbutton
 "
+tooltipText
+:
+gcli
+.
+lookup
+(
+"
+scratchpadOpenTooltip
+"
+)
 hidden
 :
 true
