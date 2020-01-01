@@ -11705,7 +11705,7 @@ NS_ENSURE_ARG_POINTER
 aStorageArea
 )
 ;
-NS_ADDREF
+NS_IF_ADDREF
 (
 *
 aStorageArea
