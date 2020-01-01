@@ -3385,6 +3385,12 @@ pluginState
 !
 =
 ePluginDisabled
+&
+&
+pluginState
+!
+=
+ePluginBlocklisted
 )
 {
 mTypeUnsupported
@@ -6225,6 +6231,12 @@ pluginState
 !
 =
 ePluginDisabled
+&
+&
+pluginState
+!
+=
+ePluginBlocklisted
 )
 {
 fallback
