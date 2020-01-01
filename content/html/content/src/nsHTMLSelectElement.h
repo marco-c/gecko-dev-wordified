@@ -1405,13 +1405,14 @@ aPresContext
 ;
 virtual
 PRBool
-IsFocusable
+IsHTMLFocusable
 (
+PRBool
+*
+aIsFocusable
 PRInt32
 *
 aTabIndex
-=
-nsnull
 )
 ;
 virtual
