@@ -3046,7 +3046,7 @@ bug
 is
 fixed
 .
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 SetAccAttrsForXULSelectControlItem

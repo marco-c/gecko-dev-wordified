@@ -4198,7 +4198,7 @@ set
 the
 group
 attributes
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 SetAccGroupAttrs
@@ -4236,7 +4236,7 @@ if
 isCycler
 )
 {
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 SetAccAttr

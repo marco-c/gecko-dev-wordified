@@ -465,7 +465,7 @@ nsIEventListenerManager
 h
 "
 void
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 GetAccAttr
@@ -503,7 +503,7 @@ aAttrValue
 ;
 }
 void
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 SetAccAttr
@@ -546,7 +546,7 @@ oldValue
 ;
 }
 void
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 GetAccGroupAttrs
@@ -722,7 +722,7 @@ sizeSet
 }
 }
 PRBool
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 HasAccGroupAttrs
@@ -779,7 +779,7 @@ PR_FALSE
 ;
 }
 void
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 SetAccGroupAttrs
@@ -878,7 +878,7 @@ value
 }
 }
 void
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 SetAccAttrsForXULSelectControlItem
@@ -971,7 +971,7 @@ itemsCount
 ;
 }
 PRBool
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 HasListener

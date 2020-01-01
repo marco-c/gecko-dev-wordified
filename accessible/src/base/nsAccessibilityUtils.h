@@ -471,7 +471,7 @@ nsIContent
 h
 "
 class
-nsAccessibilityUtils
+nsAccUtils
 {
 public
 :

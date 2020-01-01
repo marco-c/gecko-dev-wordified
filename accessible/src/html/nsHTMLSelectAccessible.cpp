@@ -3517,7 +3517,7 @@ increment
 posInSet
 }
 }
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 SetAccGroupAttrs

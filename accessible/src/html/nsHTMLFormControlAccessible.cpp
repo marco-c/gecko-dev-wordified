@@ -1307,7 +1307,7 @@ count
 ;
 }
 }
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 SetAccGroupAttrs

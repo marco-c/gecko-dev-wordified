@@ -1576,7 +1576,7 @@ break
 }
 if
 (
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 HasListener

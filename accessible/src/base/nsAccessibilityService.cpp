@@ -3347,7 +3347,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 HasListener
@@ -8540,7 +8540,7 @@ IsFocusable
 isHTML
 &
 &
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 HasListener
