@@ -34853,7 +34853,6 @@ masm
 clampIntToUint8
 (
 secondScratch
-secondScratch
 )
 ;
 Label

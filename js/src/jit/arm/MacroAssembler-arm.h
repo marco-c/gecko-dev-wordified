@@ -9720,9 +9720,7 @@ void
 clampIntToUint8
 (
 Register
-src
-Register
-dest
+reg
 )
 {
 /
@@ -9730,7 +9728,7 @@ dest
 look
 at
 (
-src
+reg
 >
 >
 8
@@ -9740,7 +9738,7 @@ it
 is
 0
 then
-src
+reg
 shouldn
 '
 t
@@ -9772,16 +9770,10 @@ as_mov
 ScratchRegister
 asr
 (
-src
+reg
 8
 )
 SetCond
-)
-;
-ma_mov
-(
-src
-dest
 )
 ;
 ma_mov
@@ -9790,7 +9782,7 @@ Imm32
 (
 0xff
 )
-dest
+reg
 NoSetCond
 NotEqual
 )
@@ -9801,7 +9793,7 @@ Imm32
 (
 0
 )
-dest
+reg
 NoSetCond
 Signed
 )
