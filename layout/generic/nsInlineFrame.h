@@ -864,6 +864,16 @@ PRBool
 aShrinkWrap
 )
 ;
+virtual
+nsRect
+ComputeTightBounds
+(
+gfxContext
+*
+aContext
+)
+const
+;
 NS_IMETHOD
 Reflow
 (
