@@ -734,9 +734,6 @@ aCompositionString
 nsIPrivateTextRangeList
 *
 aTextRange
-nsTextEventReply
-*
-aReply
 )
 ;
 /
@@ -777,9 +774,6 @@ methods
 NS_IMETHOD
 BeginComposition
 (
-nsTextEventReply
-*
-aReply
 )
 ;
 NS_IMETHOD

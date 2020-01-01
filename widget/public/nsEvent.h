@@ -607,9 +607,6 @@ nsSimpleGestureEvent
 class
 nsContentCommandEvent
 ;
-struct
-nsTextEventReply
-;
 #
 endif
 /
