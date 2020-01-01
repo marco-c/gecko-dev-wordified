@@ -20804,12 +20804,6 @@ GetJSContext
 exn
 )
 ;
-JSAutoRequest
-req
-(
-cx
-)
-;
 if
 (
 str
@@ -20854,10 +20848,7 @@ exn
 JS_SetPendingException
 (
 cx
-STRING_TO_JSVAL
-(
-str
-)
+exn
 )
 ;
 }
@@ -20889,12 +20880,6 @@ NS_ERROR_FAILURE
 }
 else
 {
-JSAutoRequest
-req
-(
-cx
-)
-;
 if
 (
 JS_WrapValue
