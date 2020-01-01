@@ -3911,7 +3911,7 @@ cwin
 =
 Browser
 .
-currentBrowser
+selectedBrowser
 .
 contentWindow
 ;
