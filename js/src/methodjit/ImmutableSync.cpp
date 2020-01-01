@@ -435,10 +435,6 @@ BLOCK
 *
 /
 #
-if
-defined
-JS_NUNBOX32
-#
 include
 "
 FrameEntry
@@ -1915,10 +1911,3 @@ reg
 ;
 }
 }
-#
-endif
-/
-*
-JS_NUNBOX32
-*
-/

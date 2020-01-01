@@ -5157,10 +5157,6 @@ uint32
 index
 )
 ;
-#
-if
-defined
-JS_NUNBOX32
 void
 syncFancy
 (
@@ -5178,8 +5174,6 @@ bottom
 )
 const
 ;
-#
-endif
 inline
 bool
 tryFastDoubleLoad
@@ -5565,16 +5559,10 @@ Assembler
 TotalRegisters
 ]
 ;
-#
-if
-defined
-JS_NUNBOX32
 mutable
 ImmutableSync
 reifier
 ;
-#
-endif
 JSPackedBool
 *
 closedVars
