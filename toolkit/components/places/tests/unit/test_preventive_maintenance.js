@@ -1073,7 +1073,11 @@ type
 parent
 keyword_id
 folder_type
+"
++
+"
 title
+guid
 )
 "
 +
@@ -1092,6 +1096,12 @@ keyword_id
 folder_type
 :
 title
+"
++
+"
+GENERATE_GUID
+(
+)
 )
 "
 )

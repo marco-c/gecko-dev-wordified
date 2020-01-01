@@ -208,8 +208,9 @@ Original
 Code
 is
 *
+the
 Mozilla
-Corporation
+Foundation
 .
 *
 Portions
@@ -1548,6 +1549,10 @@ fk
 parent
 position
 title
+"
++
+"
+guid
 )
 "
 +
@@ -1562,6 +1567,9 @@ NULL
 0
 :
 title
+GENERATE_GUID
+(
+)
 )
 "
 )
