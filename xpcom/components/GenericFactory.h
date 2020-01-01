@@ -492,14 +492,14 @@ typedef
 Module
 :
 :
-ConstructorProc
-ConstructorProc
+ConstructorProcPtr
+ConstructorProcPtr
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIFACTORY
 GenericFactory
 (
-ConstructorProc
+ConstructorProcPtr
 ctor
 )
 :
@@ -522,7 +522,7 @@ constructor
 }
 private
 :
-ConstructorProc
+ConstructorProcPtr
 mCtor
 ;
 }

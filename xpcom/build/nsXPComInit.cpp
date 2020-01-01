@@ -2828,10 +2828,6 @@ registers
 XPT
 files
 .
-nsIInterfaceInfoManager
-*
-iim
-=
 xptiInterfaceInfoManager
 :
 :
