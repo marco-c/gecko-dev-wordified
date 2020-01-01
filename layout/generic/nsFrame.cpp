@@ -23438,6 +23438,16 @@ if
 anyOutline
 )
 {
+r
+.
+UnionRect
+(
+GetOverflowRect
+(
+)
+r
+)
+;
 Invalidate
 (
 r

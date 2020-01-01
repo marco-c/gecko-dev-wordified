@@ -7750,12 +7750,6 @@ childBounds
 )
 ;
 }
-FinishAndStoreOverflow
-(
-&
-aMetrics
-)
-;
 /
 /
 Determine
@@ -7774,6 +7768,12 @@ CheckInvalidateSizeChange
 aPresContext
 aMetrics
 aReflowState
+)
+;
+FinishAndStoreOverflow
+(
+&
+aMetrics
 )
 ;
 /
