@@ -1613,6 +1613,15 @@ aRequest
 JS
 :
 :
+Handle
+<
+JSObject
+*
+>
+scopeChain
+JS
+:
+:
 CompileOptions
 *
 aOptions
