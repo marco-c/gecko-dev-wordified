@@ -3883,6 +3883,9 @@ __init__
 (
 self
 base
+find_executables
+=
+True
 *
 *
 kargs
@@ -3905,6 +3908,39 @@ base
 directory
 .
         
+The
+find_executables
+argument
+determines
+whether
+the
+finder
+needs
+to
+        
+try
+to
+guess
+whether
+files
+are
+executables
+.
+Disabling
+this
+guessing
+        
+when
+not
+necessary
+can
+speed
+up
+the
+finder
+significantly
+.
+        
 '
 '
 '
@@ -3919,6 +3955,12 @@ base
 *
 kargs
 )
+        
+self
+.
+find_executables
+=
+find_executables
     
 def
 _find
@@ -4252,6 +4294,10 @@ srcpath
 return
         
 if
+self
+.
+find_executables
+and
 is_executable
 (
 srcpath
