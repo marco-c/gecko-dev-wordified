@@ -992,12 +992,7 @@ PRBool
 IsDefunct
 (
 )
-{
-return
-!
-mDOMNode
 ;
-}
 /
 *
 *
