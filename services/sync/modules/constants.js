@@ -1487,6 +1487,15 @@ error
 .
 userabort
 "
+JPAKE_ERROR_DELAYUNSUPPORTED
+:
+"
+jpake
+.
+error
+.
+delayunsupported
+"
 /
 /
 info
