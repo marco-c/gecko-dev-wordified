@@ -889,6 +889,11 @@ virtual
 bool
 canEnterInlinedFunction
 (
+HandleScript
+caller
+jsbytecode
+*
+pc
 JSFunction
 *
 callee
@@ -1633,6 +1638,11 @@ pc
 bool
 canEnterInlinedFunction
 (
+HandleScript
+caller
+jsbytecode
+*
+pc
 JSFunction
 *
 callee
