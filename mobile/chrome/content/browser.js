@@ -4063,6 +4063,12 @@ notificationHandler
 false
 )
 ;
+BrowserUI
+.
+init
+(
+)
+;
 /
 /
 initialize
@@ -4074,12 +4080,6 @@ new
 InputHandler
 (
 container
-)
-;
-BrowserUI
-.
-init
-(
 )
 ;
 window
