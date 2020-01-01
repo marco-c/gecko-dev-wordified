@@ -614,6 +614,9 @@ finishTest
 waitForSuccess
 (
 {
+timeout
+:
+10000
 name
 :
 "
