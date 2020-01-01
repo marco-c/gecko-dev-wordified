@@ -1343,8 +1343,10 @@ ShowInputMethodPicker
 )
 ;
 void
-PreventPanning
+SetPreventPanning
 (
+bool
+aPreventPanning
 )
 ;
 void
@@ -2373,7 +2375,7 @@ jmethodID
 jShowInputMethodPicker
 ;
 jmethodID
-jPreventPanning
+jSetPreventPanning
 ;
 jmethodID
 jHideProgressDialog
