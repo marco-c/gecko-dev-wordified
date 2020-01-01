@@ -688,12 +688,6 @@ inCheckedElement
 void
 SetKeyEquiv
 (
-PRUint8
-aModifiers
-const
-nsString
-&
-aText
 )
 ;
 EMenuItemType

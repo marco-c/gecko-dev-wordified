@@ -1650,6 +1650,8 @@ accelerator
 void
 BuildAcceleratorText
 (
+PRBool
+aNotify
 )
 ;
 /
@@ -1804,6 +1806,18 @@ are
 we
 checked
 ?
+PRPackedBool
+mIgnoreAccelTextChange
+;
+/
+/
+temporarily
+set
+while
+determining
+the
+accelerator
+key
 nsMenuType
 mType
 ;
