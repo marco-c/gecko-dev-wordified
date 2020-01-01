@@ -220,11 +220,6 @@ hideMoveToGroupPopup
 ;
 hideTabView
 (
-function
-(
-)
-{
-}
 )
 ;
 let
@@ -254,11 +249,6 @@ groupItems
 [
 0
 ]
-function
-(
-)
-{
-}
 )
 ;
 }

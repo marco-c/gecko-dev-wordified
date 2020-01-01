@@ -53,11 +53,6 @@ function
 {
 hideTabView
 (
-function
-(
-)
-{
-}
 )
 ;
 }

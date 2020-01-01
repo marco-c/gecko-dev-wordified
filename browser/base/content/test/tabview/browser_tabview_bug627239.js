@@ -94,11 +94,6 @@ tabs
 ;
 hideTabView
 (
-function
-(
-)
-{
-}
 )
 ;
 contentWindow
