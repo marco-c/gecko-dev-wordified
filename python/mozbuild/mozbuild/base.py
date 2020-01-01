@@ -61,6 +61,8 @@ unicode_literals
 import
 logging
 import
+multiprocessing
+import
 os
 import
 subprocess
@@ -1077,12 +1079,10 @@ filename
 ]
 )
         
-#
 if
 allow_parallel
 :
-        
-#
+            
 args
 .
 append
@@ -1094,13 +1094,11 @@ j
 d
 '
 %
-self
+multiprocessing
 .
-settings
-.
-build
-.
-threads
+cpu_count
+(
+)
 )
         
 if
