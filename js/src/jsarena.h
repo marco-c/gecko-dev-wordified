@@ -2313,6 +2313,9 @@ JS_ARENAMETER
 *
 /
 JS_END_EXTERN_C
+#
+ifdef
+__cplusplus
 namespace
 js
 {
@@ -2732,6 +2735,13 @@ NULL
 *
 namespace
 js
+*
+/
+#
+endif
+/
+*
+__cplusplus
 *
 /
 #
