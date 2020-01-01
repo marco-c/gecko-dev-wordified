@@ -1935,6 +1935,15 @@ appearance
 :
 none
 ;
+-
+moz
+-
+window
+-
+shadow
+:
+none
+;
 }
 #
 autoscroller
