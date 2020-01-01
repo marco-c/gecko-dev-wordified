@@ -3663,15 +3663,13 @@ event
 .
 originalTarget
 ;
-ok
+is
 (
 event
 .
 target
 .
 label
-=
-=
 this
 .
 url
