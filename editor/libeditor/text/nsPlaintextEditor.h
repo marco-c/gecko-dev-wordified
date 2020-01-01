@@ -1089,6 +1089,15 @@ nsISelection
 aSelection
 )
 ;
+virtual
+nsresult
+HandleKeyPressEvent
+(
+nsIDOMKeyEvent
+*
+aKeyEvent
+)
+;
 /
 *
 -
