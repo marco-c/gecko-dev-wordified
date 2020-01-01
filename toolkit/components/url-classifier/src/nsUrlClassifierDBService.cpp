@@ -3763,6 +3763,10 @@ mLastPartialEntriesStatement
 =
 nsnull
 ;
+mRandomStatement
+=
+nsnull
+;
 mConnection
 =
 nsnull
