@@ -20427,6 +20427,7 @@ userSpaceToImageSpace
 aFill
 padding
 subimage
+aFlags
 )
 ;
 }
