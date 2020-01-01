@@ -941,6 +941,8 @@ aCallback
 void
 *
 aCallbackData
+float
+aOpacity
 )
 ;
 already_AddRefed
