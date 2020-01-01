@@ -13950,6 +13950,11 @@ JSGCCallback
 cb
 )
 {
+CHECK_REQUEST
+(
+cx
+)
+;
 return
 JS_SetGCCallbackRT
 (
