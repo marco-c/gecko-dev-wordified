@@ -220,6 +220,13 @@ h
 #
 include
 "
+ClientLayerManager
+.
+h
+"
+#
+include
+"
 LayerManagerOGL
 .
 h
@@ -8056,8 +8063,10 @@ LayerManager
 *
 lm
 =
-CreateBasicLayerManager
+new
+ClientLayerManager
 (
+this
 )
 ;
 MessageLoop
@@ -8588,7 +8597,7 @@ CreateBasicLayerManager
 {
 return
 new
-BasicShadowLayerManager
+BasicLayerManager
 (
 this
 )

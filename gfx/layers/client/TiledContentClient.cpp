@@ -124,7 +124,7 @@ h
 #
 include
 "
-BasicTiledThebesLayer
+ClientTiledThebesLayer
 .
 h
 "
@@ -453,10 +453,10 @@ TiledContentClient
 :
 TiledContentClient
 (
-BasicTiledThebesLayer
+ClientTiledThebesLayer
 *
 aThebesLayer
-BasicShadowLayerManager
+ClientLayerManager
 *
 aManager
 )
@@ -626,10 +626,10 @@ BasicTiledLayerBuffer
 :
 BasicTiledLayerBuffer
 (
-BasicTiledThebesLayer
+ClientTiledThebesLayer
 *
 aThebesLayer
-BasicShadowLayerManager
+ClientLayerManager
 *
 aManager
 )

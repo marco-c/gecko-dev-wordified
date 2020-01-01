@@ -115,7 +115,7 @@ h
 #
 include
 "
-BasicCanvasLayer
+ClientCanvasLayer
 .
 h
 "
@@ -314,7 +314,7 @@ gfx
 :
 IntSize
 aSize
-BasicCanvasLayer
+ClientCanvasLayer
 *
 aLayer
 )
@@ -400,20 +400,12 @@ LockSurface
 (
 )
 ;
-static_cast
-<
-BasicCanvasLayer
-*
->
-(
 aLayer
-)
 -
 >
 UpdateSurface
 (
 surface
-nullptr
 )
 ;
 mTextureClient
@@ -460,7 +452,7 @@ gfx
 :
 IntSize
 aSize
-BasicCanvasLayer
+ClientCanvasLayer
 *
 aLayer
 )

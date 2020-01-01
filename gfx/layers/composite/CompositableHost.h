@@ -139,7 +139,7 @@ h
 #
 include
 "
-BasicTiledThebesLayer
+ClientTiledThebesLayer
 .
 h
 "
