@@ -1279,7 +1279,7 @@ getAlpha
 )
 {
 return
-mTranslationX
+mAlpha
 ;
 }
 Override
