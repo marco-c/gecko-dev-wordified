@@ -156,7 +156,7 @@ include
 "
 jit
 /
-MIR
+AsmJS
 .
 h
 "
@@ -165,7 +165,7 @@ include
 "
 jit
 /
-AsmJS
+MIR
 .
 h
 "
