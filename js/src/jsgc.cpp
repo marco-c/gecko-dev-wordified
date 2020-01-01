@@ -1785,7 +1785,7 @@ free
 list
 in
 the
-compartment
+zone
 can
 mutate
 at
@@ -15896,7 +15896,7 @@ next
 *
 Assert
 that
-compartment
+zone
 state
 is
 as
@@ -15951,7 +15951,7 @@ i
 Set
 up
 which
-compartments
+zones
 will
 be
 collected
@@ -16019,7 +16019,7 @@ that
 at
 least
 one
-compartment
+zone
 is
 scheduled
 for
@@ -16054,7 +16054,7 @@ there
 are
 any
 *
-compartments
+zones
 that
 are
 not
@@ -16074,7 +16074,7 @@ the
 non
 -
 collected
-compartments
+zones
 could
 contain
 pointers
@@ -17754,7 +17754,7 @@ mark
 for
 all
 collecting
-compartments
+zones
 and
 record
 *
@@ -18260,7 +18260,7 @@ PHASE_SWEEP_MARK_WEAK
 /
 *
 Update
-compartment
+zone
 state
 for
 gray
@@ -18320,7 +18320,7 @@ runtime
 /
 *
 Restore
-compartment
+zone
 state
 .
 *
@@ -19205,7 +19205,7 @@ removeFront
 *
 *
 Group
-compartments
+zones
 that
 must
 be
@@ -22127,7 +22127,7 @@ GC
 things
 in
 all
-compartments
+zones
 for
 sweeping
 either
@@ -22521,7 +22521,7 @@ the
 GC
 state
 for
-compartments
+zones
 we
 have
 swept
@@ -23338,7 +23338,7 @@ to
 *
 newly
 created
-compartments
+zones
 .
 Can
 only
@@ -23428,14 +23428,14 @@ bits
 of
 all
 uncollected
-compartments
+zones
 or
 if
 a
 reset
 has
 occured
-compartments
+zones
 that
 *
 will
@@ -26493,7 +26493,7 @@ ResetIncrementalGC
 (
 rt
 "
-compartment
+zone
 change
 "
 )
@@ -27605,7 +27605,7 @@ re
 -
 schedule
 all
-compartments
+zones
 for
 GC
 .
@@ -27950,7 +27950,7 @@ full
 GC
 unless
 a
-compartment
+zone
 will
 already
 be
