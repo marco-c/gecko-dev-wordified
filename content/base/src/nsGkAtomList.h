@@ -12352,9 +12352,7 @@ OverflowProperty
 )
 /
 /
-list
-of
-nsIFrame
+nsFrameList
 *
 GK_ATOM
 (
