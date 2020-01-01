@@ -593,7 +593,6 @@ TlsAlloc
 )
 ;
 }
-;
 #
 else
 #
