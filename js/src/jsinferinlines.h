@@ -1700,11 +1700,6 @@ typeInferenceEnabled
 )
 {
 return
-compartment
--
->
-types
-.
 inferenceEnabled
 ;
 }

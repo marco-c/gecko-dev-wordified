@@ -10314,6 +10314,15 @@ JSCompartment
 *
 compartment
 ;
+inline
+void
+setCompartment
+(
+JSCompartment
+*
+compartment
+)
+;
 /
 *
 Currently
@@ -11978,6 +11987,9 @@ profilingEnabled
 ;
 #
 endif
+bool
+inferenceEnabled
+;
 /
 *
 Caller
