@@ -293,12 +293,6 @@ nsRefPtr
 <
 ID3D10ShaderResourceView
 >
-mUploadSRView
-;
-nsRefPtr
-<
-ID3D10ShaderResourceView
->
 mSRView
 ;
 bool
@@ -309,6 +303,9 @@ mNeedsYFlip
 ;
 bool
 mIsD2DTexture
+;
+bool
+mUsingSharedTexture
 ;
 bool
 mHasAlpha
