@@ -20552,12 +20552,6 @@ Browser
 .
 _browserView
 ;
-bv
-.
-invalidateEntireView
-(
-)
-;
 this
 .
 _startResizeAndPaint
@@ -20574,6 +20568,12 @@ Browser
 selectedTab
 )
 {
+bv
+.
+invalidateEntireView
+(
+)
+;
 bv
 .
 setAggressive
