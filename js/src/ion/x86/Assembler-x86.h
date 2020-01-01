@@ -654,12 +654,12 @@ different
 static
 const
 Register
-NonArgReturnVolatileReg1
+NonArgReturnVolatileReg0
 ;
 static
 const
 Register
-NonArgReturnVolatileReg2
+NonArgReturnVolatileReg1
 ;
 static
 const
