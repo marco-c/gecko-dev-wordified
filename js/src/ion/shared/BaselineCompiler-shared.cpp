@@ -229,8 +229,6 @@ script
 frame
 (
 cx
-*
-this
 script
 masm
 )
