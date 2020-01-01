@@ -1144,6 +1144,14 @@ cx
 ;
 if
 (
+e
+.
+cx
+!
+=
+cx
+&
+&
 JS_GetContextThread
 (
 e
