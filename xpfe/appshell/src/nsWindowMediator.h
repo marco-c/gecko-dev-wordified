@@ -548,8 +548,8 @@ Init
 (
 )
 ;
-NS_DECL_NSIWINDOWMEDIATOR
 NS_DECL_ISUPPORTS
+NS_DECL_NSIWINDOWMEDIATOR
 private
 :
 PRInt32
@@ -620,6 +620,8 @@ mEnumeratorList
 nsWindowInfo
 *
 mOldestWindow
+;
+nsWindowInfo
 *
 mTopmostWindow
 ;
@@ -638,10 +640,6 @@ nsCOMPtr
 nsISupportsArray
 >
 mListeners
-;
-static
-PRInt32
-gRefCnt
 ;
 }
 ;

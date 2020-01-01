@@ -512,7 +512,12 @@ nsAppShellService
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
+nsAbout
+)
+NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
+(
 nsWindowMediator
+Init
 )
 static
 const
@@ -546,10 +551,7 @@ kAboutModuleCID
 "
 NS_ABOUT_CID
 NS_ABOUT_MODULE_CONTRACTID_PREFIX
-nsAbout
-:
-:
-Create
+nsAboutConstructor
 }
 }
 ;
