@@ -488,6 +488,10 @@ nsIListBoxObject
 .
 idl
 \
+nsISliderListener
+.
+idl
+\
 (
 NULL
 )
