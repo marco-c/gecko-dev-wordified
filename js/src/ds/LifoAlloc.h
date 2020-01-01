@@ -2013,6 +2013,17 @@ mark
 )
 ;
 }
+LifoAlloc
+&
+alloc
+(
+)
+{
+return
+*
+lifoAlloc
+;
+}
 void
 releaseEarly
 (
