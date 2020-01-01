@@ -2649,12 +2649,10 @@ nsIObjectLoadingContent
 )
 ;
 return
-gPluginHandler
-.
-canActivatePlugin
-(
+!
 objLoadingContent
-)
+.
+activated
 ;
 }
 )
