@@ -82,8 +82,6 @@ time
 import
 platform
 import
-datazilla
-import
 xml
 .
 dom
@@ -707,6 +705,12 @@ printLogs
 test
 )
         
+if
+options
+.
+perf
+:
+            
 result
 .
 getPerfData
@@ -5011,6 +5015,15 @@ logcat_dir
 '
 logcat
 '
+    
+if
+options
+.
+perf
+:
+        
+import
+datazilla
     
 #
 check
