@@ -11252,7 +11252,7 @@ those
 cases
 too
 .
-PRBool
+PRUint32
 oldUpdates
 =
 mUpdatesInNotification
@@ -12195,7 +12195,7 @@ those
 cases
 too
 .
-PRBool
+PRUint32
 oldUpdates
 =
 mUpdatesInNotification
