@@ -1093,7 +1093,7 @@ _str
 "
 change
 .
-recovery
+recoverykey
 .
 acceptButton
 "
