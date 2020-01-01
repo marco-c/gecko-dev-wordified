@@ -4148,7 +4148,7 @@ s
 .
 hi
 =
-0x7ff80000
+JSDOUBLE_HI32_NAN
 ;
 u
 .
@@ -4156,7 +4156,7 @@ s
 .
 lo
 =
-0x00000000
+JSDOUBLE_LO32_NAN
 ;
 number_constants
 [
