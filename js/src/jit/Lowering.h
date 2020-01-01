@@ -1170,6 +1170,14 @@ object
 )
 ;
 bool
+visitOsrReturnValue
+(
+MOsrReturnValue
+*
+value
+)
+;
+bool
 visitToDouble
 (
 MToDouble

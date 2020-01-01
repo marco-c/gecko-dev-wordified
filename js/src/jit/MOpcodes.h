@@ -199,6 +199,11 @@ OsrScopeChain
 \
 _
 (
+OsrReturnValue
+)
+\
+_
+(
 ReturnFromCtor
 )
 \
