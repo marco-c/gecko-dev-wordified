@@ -2137,6 +2137,12 @@ workerAPI
 =
 null
 ;
+this
+.
+profile
+=
+undefined
+;
 }
 /
 *
