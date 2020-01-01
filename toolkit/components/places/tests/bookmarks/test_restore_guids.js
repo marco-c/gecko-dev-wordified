@@ -847,8 +847,6 @@ try
 {
 PlacesUtils
 .
-backups
-.
 restoreBookmarksFromJSONFile
 (
 jsonFile

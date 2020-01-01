@@ -1258,8 +1258,6 @@ try
 {
 PlacesUtils
 .
-backups
-.
 restoreBookmarksFromJSONFile
 (
 jsonFile
@@ -1344,8 +1342,6 @@ file
 try
 {
 PlacesUtils
-.
-backups
 .
 restoreBookmarksFromJSONFile
 (

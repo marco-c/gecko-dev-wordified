@@ -5073,8 +5073,6 @@ JSON
 backup
 PlacesUtils
 .
-backups
-.
 restoreBookmarksFromJSONFile
 (
 bookmarksBackupFile
