@@ -8390,7 +8390,12 @@ if
 addr
 !
 =
+JS_FUNC_TO_DATA_PTR
+(
+void
+*
 JaegerInterpoline
+)
 )
 *
 f
