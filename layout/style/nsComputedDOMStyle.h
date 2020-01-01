@@ -3111,6 +3111,8 @@ const
 nsStyleCoord
 &
 aCoord
+PRBool
+aClampNegativeCalc
 PercentageBaseGetter
 aPercentageBaseGetter
 =
@@ -3197,6 +3199,8 @@ PercentageBaseGetter
 aPercentageBaseGetter
 nscoord
 aDefaultValue
+PRBool
+aClampNegativeCalc
 )
 ;
 PRBool

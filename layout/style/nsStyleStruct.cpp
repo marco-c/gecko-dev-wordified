@@ -2129,6 +2129,16 @@ NS_FOR_CSS_SIDES
 side
 )
 {
+/
+/
+Clamp
+negative
+calc
+(
+)
+to
+0
+.
 mCachedPadding
 .
 side
@@ -2136,6 +2146,8 @@ side
 side
 )
 =
+NS_MAX
+(
 CalcCoord
 (
 mPadding
@@ -2145,6 +2157,8 @@ Get
 side
 )
 nsnull
+0
+)
 0
 )
 ;
