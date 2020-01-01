@@ -1749,13 +1749,13 @@ eOverrideSheet
 /
 /
 CSS
-eTransitionSheet
 #
 ifdef
 MOZ_CSS_ANIMATIONS
 eAnimationSheet
 #
 endif
+eTransitionSheet
 eSheetTypeCount
 /
 /
