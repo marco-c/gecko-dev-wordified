@@ -957,6 +957,8 @@ title
 and
 set
 the
+/
+/
 empty
 view
 if
@@ -982,7 +984,7 @@ setVisibility
 (
 View
 .
-VISIBLE
+GONE
 )
 ;
 }
