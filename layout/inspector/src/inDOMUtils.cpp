@@ -2343,7 +2343,7 @@ nsEventStates
 )
 }
 ;
-PR_STATIC_ASSERT
+MOZ_STATIC_ASSERT
 (
 NS_ARRAY_LENGTH
 (
@@ -2357,6 +2357,14 @@ nsCSSPseudoClasses
 ePseudoClass_NotPseudoClass
 +
 1
+"
+Length
+of
+PseudoClassStates
+array
+is
+incorrect
+"
 )
 ;
 nsCOMPtr

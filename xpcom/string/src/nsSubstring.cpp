@@ -2579,7 +2579,7 @@ nsXPCOMStrings
 .
 h
 "
-PR_STATIC_ASSERT
+MOZ_STATIC_ASSERT
 (
 sizeof
 (
@@ -2591,5 +2591,16 @@ sizeof
 (
 nsSubstring
 )
+"
+internal
+and
+external
+strings
+must
+have
+the
+same
+size
+"
 )
 ;

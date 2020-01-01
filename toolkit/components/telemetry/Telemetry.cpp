@@ -1508,7 +1508,7 @@ histogram_type
 b
 )
 \
-PR_STATIC_ASSERT
+MOZ_STATIC_ASSERT
 (
 nsITelemetry
 :
@@ -1558,6 +1558,14 @@ min
 =
 1
 )
+\
+"
+Incorrect
+histogram
+definitions
+were
+found
+"
 )
 ;
 #
