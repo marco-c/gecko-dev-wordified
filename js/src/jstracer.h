@@ -4463,10 +4463,6 @@ VMSideExit
 *
 innermostNestedGuardp
 ;
-void
-*
-stackMark
-;
 VMSideExit
 *
 innermost
