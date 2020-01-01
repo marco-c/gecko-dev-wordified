@@ -13365,6 +13365,8 @@ aParentRestyler
 nsIFrame
 *
 aFrame
+uint32_t
+aConstructorFlags
 )
 :
 mPresContext
@@ -18072,6 +18074,7 @@ oofRestyler
 *
 this
 outOfFlowFrame
+FOR_OUT_OF_FLOW_CHILD
 )
 ;
 oofRestyler
@@ -18135,6 +18138,7 @@ phRestyler
 *
 this
 child
+0
 )
 ;
 phRestyler
@@ -18166,6 +18170,7 @@ childRestyler
 *
 this
 child
+0
 )
 ;
 childRestyler

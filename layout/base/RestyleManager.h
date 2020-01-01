@@ -1747,6 +1747,17 @@ is
 being
 restyled
 .
+enum
+ConstructorFlags
+{
+FOR_OUT_OF_FLOW_CHILD
+=
+1
+<
+<
+0
+}
+;
 ElementRestyler
 (
 const
@@ -1756,6 +1767,8 @@ aParentRestyler
 nsIFrame
 *
 aFrame
+uint32_t
+aConstructorFlags
 )
 ;
 /
