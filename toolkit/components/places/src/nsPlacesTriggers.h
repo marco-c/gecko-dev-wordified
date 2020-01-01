@@ -485,6 +485,10 @@ EMBED
 -
 DOWNLOAD
 *
+7
+-
+FRAMED_LINK
+*
 *
 /
 #
@@ -494,6 +498,7 @@ EXCLUDED_VISIT_TYPES
 0
 4
 7
+8
 "
 /
 *

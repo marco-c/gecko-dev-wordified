@@ -3560,6 +3560,9 @@ RecentEventHash
 mRecentTyped
 ;
 RecentEventHash
+mRecentLink
+;
+RecentEventHash
 mRecentBookmark
 ;
 PRBool
@@ -3773,6 +3776,9 @@ mDefaultWeight
 ;
 PRInt32
 mEmbedVisitBonus
+;
+PRInt32
+mFramedLinkVisitBonus
 ;
 PRInt32
 mLinkVisitBonus
