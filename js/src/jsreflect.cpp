@@ -13942,7 +13942,7 @@ PNK_LP
 :
 {
 #
-ifdef
+if
 JS_HAS_GENERATOR_EXPRS
 if
 (
@@ -14585,7 +14585,7 @@ dst
 )
 ;
 #
-ifdef
+if
 JS_HAS_XML_SUPPORT
 case
 PNK_XMLUNARY
@@ -15003,7 +15003,7 @@ getKind
 )
 {
 #
-ifdef
+if
 JS_HAS_XML_SUPPORT
 case
 PNK_XMLCURLYEXPR
@@ -16349,7 +16349,7 @@ bool
 isGenerator
 =
 #
-ifdef
+if
 JS_HAS_GENERATORS
 pn
 -
@@ -16371,7 +16371,7 @@ bool
 isExpression
 =
 #
-ifdef
+if
 JS_HAS_EXPR_CLOSURES
 func
 -

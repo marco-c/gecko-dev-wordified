@@ -460,6 +460,9 @@ Heap
 .
 h
 "
+#
+if
+JS_HAS_XML_SUPPORT
 extern
 const
 char
@@ -1987,6 +1990,13 @@ cx
 *
 namespace
 js
+*
+/
+#
+endif
+/
+*
+JS_HAS_XML_SUPPORT
 *
 /
 #

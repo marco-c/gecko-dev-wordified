@@ -13078,6 +13078,9 @@ tmp
 return
 ;
 }
+#
+if
+JS_HAS_XML_SUPPORT
 case
 NAMESPACES
 :
@@ -13149,6 +13152,8 @@ xml
 ;
 return
 ;
+#
+endif
 case
 OBJECT
 :

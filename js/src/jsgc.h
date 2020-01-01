@@ -562,18 +562,6 @@ h
 struct
 JSCompartment
 ;
-extern
-void
-js_TraceXML
-(
-JSTracer
-*
-trc
-JSXML
-*
-thing
-)
-;
 #
 if
 JS_STACK_GROWTH_DIRECTION
@@ -5013,6 +5001,9 @@ type
 )
 ;
 }
+#
+if
+JS_HAS_XML_SUPPORT
 void
 pushXML
 (
@@ -5028,6 +5019,8 @@ xml
 )
 ;
 }
+#
+endif
 uint32_t
 getMarkColor
 (

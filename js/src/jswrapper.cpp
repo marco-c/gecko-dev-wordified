@@ -2679,6 +2679,9 @@ JS_ASSERT
 parent
 )
 ;
+#
+if
+JS_HAS_XML_SUPPORT
 if
 (
 obj
@@ -2701,6 +2704,8 @@ return
 NULL
 ;
 }
+#
+endif
 return
 NewProxyObject
 (
