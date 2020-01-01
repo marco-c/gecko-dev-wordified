@@ -995,6 +995,11 @@ jsop_neg
 (
 )
 ;
+void
+jsop_objtostr
+(
+)
+;
 #
 define
 STUB_CALL_TYPE
