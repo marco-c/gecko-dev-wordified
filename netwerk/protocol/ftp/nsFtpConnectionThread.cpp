@@ -6153,8 +6153,9 @@ InstallCacheListener
 mCacheEntry
 -
 >
-Doom
+AsyncDoom
 (
+nullptr
 )
 ;
 mCacheEntry
@@ -6492,8 +6493,9 @@ void
 mCacheEntry
 -
 >
-Doom
+AsyncDoom
 (
+nullptr
 )
 ;
 mCacheEntry
@@ -12817,8 +12819,9 @@ mCacheEntry
 mCacheEntry
 -
 >
-Doom
+AsyncDoom
 (
+nullptr
 )
 ;
 mCacheEntry
