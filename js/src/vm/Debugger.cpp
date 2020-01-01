@@ -23343,6 +23343,16 @@ thisobj
 fp
 )
 ;
+(
+void
+)
+fp
+;
+/
+/
+Silence
+GCC
+warning
 if
 (
 !
