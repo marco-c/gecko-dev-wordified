@@ -729,7 +729,7 @@ that
 immediately
 precede
 *
-duoblequotes
+doublequotes
 .
 *
 The
@@ -753,7 +753,7 @@ STDARGV
 C
 in
 the
-MSVC6
+MSVC
 CRT
 sources
 .
