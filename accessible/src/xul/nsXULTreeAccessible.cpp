@@ -5364,6 +5364,9 @@ if
 aRelationType
 =
 =
+nsIAccessibleRelation
+:
+:
 RELATION_NODE_CHILD_OF
 )
 {

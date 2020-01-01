@@ -5560,6 +5560,9 @@ NAVRELATION_CONTROLLED_BY
 :
 xpRelation
 =
+nsIAccessibleRelation
+:
+:
 RELATION_CONTROLLED_BY
 ;
 break
@@ -5569,6 +5572,9 @@ NAVRELATION_CONTROLLER_FOR
 :
 xpRelation
 =
+nsIAccessibleRelation
+:
+:
 RELATION_CONTROLLER_FOR
 ;
 break
@@ -5578,6 +5584,9 @@ NAVRELATION_LABEL_FOR
 :
 xpRelation
 =
+nsIAccessibleRelation
+:
+:
 RELATION_LABEL_FOR
 ;
 break
@@ -5587,6 +5596,9 @@ NAVRELATION_LABELLED_BY
 :
 xpRelation
 =
+nsIAccessibleRelation
+:
+:
 RELATION_LABELLED_BY
 ;
 break
@@ -5596,6 +5608,9 @@ NAVRELATION_MEMBER_OF
 :
 xpRelation
 =
+nsIAccessibleRelation
+:
+:
 RELATION_MEMBER_OF
 ;
 break
@@ -5605,6 +5620,9 @@ NAVRELATION_NODE_CHILD_OF
 :
 xpRelation
 =
+nsIAccessibleRelation
+:
+:
 RELATION_NODE_CHILD_OF
 ;
 break
@@ -5614,6 +5632,9 @@ NAVRELATION_FLOWS_TO
 :
 xpRelation
 =
+nsIAccessibleRelation
+:
+:
 RELATION_FLOWS_TO
 ;
 break
@@ -5623,6 +5644,9 @@ NAVRELATION_FLOWS_FROM
 :
 xpRelation
 =
+nsIAccessibleRelation
+:
+:
 RELATION_FLOWS_FROM
 ;
 break
@@ -5632,6 +5656,9 @@ NAVRELATION_SUBWINDOW_OF
 :
 xpRelation
 =
+nsIAccessibleRelation
+:
+:
 RELATION_SUBWINDOW_OF
 ;
 break
@@ -5641,6 +5668,9 @@ NAVRELATION_EMBEDS
 :
 xpRelation
 =
+nsIAccessibleRelation
+:
+:
 RELATION_EMBEDS
 ;
 break
@@ -5650,6 +5680,9 @@ NAVRELATION_EMBEDDED_BY
 :
 xpRelation
 =
+nsIAccessibleRelation
+:
+:
 RELATION_EMBEDDED_BY
 ;
 break
@@ -5659,6 +5692,9 @@ NAVRELATION_POPUP_FOR
 :
 xpRelation
 =
+nsIAccessibleRelation
+:
+:
 RELATION_POPUP_FOR
 ;
 break
@@ -5668,6 +5704,9 @@ NAVRELATION_PARENT_WINDOW_OF
 :
 xpRelation
 =
+nsIAccessibleRelation
+:
+:
 RELATION_PARENT_WINDOW_OF
 ;
 break
@@ -5677,6 +5716,9 @@ NAVRELATION_DEFAULT_BUTTON
 :
 xpRelation
 =
+nsIAccessibleRelation
+:
+:
 RELATION_DEFAULT_BUTTON
 ;
 break
@@ -5686,6 +5728,9 @@ NAVRELATION_DESCRIBED_BY
 :
 xpRelation
 =
+nsIAccessibleRelation
+:
+:
 RELATION_DESCRIBED_BY
 ;
 break
@@ -5695,6 +5740,9 @@ NAVRELATION_DESCRIPTION_FOR
 :
 xpRelation
 =
+nsIAccessibleRelation
+:
+:
 RELATION_DESCRIPTION_FOR
 ;
 break
