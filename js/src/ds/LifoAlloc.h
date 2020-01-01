@@ -452,6 +452,15 @@ LifoAlloc_h__
 #
 define
 LifoAlloc_h__
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 *
@@ -1284,6 +1293,7 @@ const
 LifoAlloc
 &
 )
+MOZ_DELETE
 ;
 LifoAlloc
 (
@@ -1291,6 +1301,7 @@ const
 LifoAlloc
 &
 )
+MOZ_DELETE
 ;
 /
 *

@@ -432,6 +432,15 @@ _GFXQUARTZNATIVEDRAWING_H_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 gfxContext
 .
 h
@@ -616,6 +625,7 @@ const
 gfxQuartzNativeDrawing
 &
 )
+MOZ_DELETE
 ;
 const
 gfxQuartzNativeDrawing
@@ -627,6 +637,7 @@ const
 gfxQuartzNativeDrawing
 &
 )
+MOZ_DELETE
 ;
 /
 /

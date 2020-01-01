@@ -457,6 +457,15 @@ mozilla_css_Declaration_h
 #
 define
 mozilla_css_Declaration_h
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 This
@@ -1674,14 +1683,6 @@ const
 endif
 private
 :
-/
-/
-Not
-implemented
-and
-not
-supported
-.
 Declaration
 &
 operator
@@ -1692,6 +1693,7 @@ Declaration
 &
 aCopy
 )
+MOZ_DELETE
 ;
 bool
 operator
@@ -1704,6 +1706,7 @@ Declaration
 aCopy
 )
 const
+MOZ_DELETE
 ;
 static
 void

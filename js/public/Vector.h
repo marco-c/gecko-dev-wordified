@@ -451,6 +451,15 @@ jsvector_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 TemplateLib
 .
 h
@@ -2219,6 +2228,7 @@ const
 Vector
 &
 )
+MOZ_DELETE
 ;
 Vector
 &
@@ -2229,6 +2239,7 @@ const
 Vector
 &
 )
+MOZ_DELETE
 ;
 /
 *

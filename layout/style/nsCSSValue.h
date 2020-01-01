@@ -443,6 +443,15 @@ nsCSSValue_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -3721,12 +3730,6 @@ mutable
 bool
 mURIResolved
 ;
-/
-/
-not
-to
-be
-implemented
 URL
 (
 const
@@ -3734,6 +3737,7 @@ URL
 &
 aOther
 )
+MOZ_DELETE
 ;
 URL
 &
@@ -3745,6 +3749,7 @@ URL
 &
 aOther
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -4629,12 +4634,6 @@ undef
 CSSVALUE_LIST_FOR_EXTRA_VALUES
 private
 :
-/
-/
-not
-to
-be
-implemented
 Array
 (
 const
@@ -4642,6 +4641,7 @@ Array
 &
 aOther
 )
+MOZ_DELETE
 ;
 Array
 &
@@ -4653,6 +4653,7 @@ Array
 &
 aOther
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -6801,12 +6802,6 @@ nsCSSValueGradient
 )
 private
 :
-/
-/
-not
-to
-be
-implemented
 nsCSSValueGradient
 (
 const
@@ -6814,6 +6809,7 @@ nsCSSValueGradient
 &
 aOther
 )
+MOZ_DELETE
 ;
 nsCSSValueGradient
 &
@@ -6825,6 +6821,7 @@ nsCSSValueGradient
 &
 aOther
 )
+MOZ_DELETE
 ;
 }
 ;

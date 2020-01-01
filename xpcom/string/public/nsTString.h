@@ -4124,13 +4124,6 @@ str
 ;
 private
 :
-/
-/
-NOT
-TO
-BE
-IMPLEMENTED
-.
 self_type
 &
 operator
@@ -4141,6 +4134,7 @@ char_type
 *
 data
 )
+MOZ_DELETE
 ;
 self_type
 &
@@ -4151,6 +4145,7 @@ char_type
 *
 data
 )
+MOZ_DELETE
 ;
 }
 ;
