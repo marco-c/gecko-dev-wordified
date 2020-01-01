@@ -8699,9 +8699,14 @@ if
 animContentStyleRule
 )
 {
+#
+ifdef
+DEBUG
 nsresult
 rv
 =
+#
+endif
 SetProperty
 (
 SMIL_MAPPED_ATTR_ANIMVAL

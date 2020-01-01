@@ -3892,9 +3892,14 @@ negative
 double
 curIntervalDist
 ;
+#
+ifdef
+DEBUG
 nsresult
 rv
 =
+#
+endif
 aValues
 [
 i
