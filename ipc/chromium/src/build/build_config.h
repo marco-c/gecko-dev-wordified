@@ -166,6 +166,12 @@ defined
 (
 __FreeBSD__
 )
+|
+|
+defined
+(
+__FreeBSD_kernel__
+)
 #
 define
 OS_FREEBSD

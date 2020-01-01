@@ -194,6 +194,13 @@ defined
 (
 OS_BSD
 )
+&
+&
+!
+defined
+(
+__GLIBC__
+)
 #
 include
 "
@@ -234,6 +241,13 @@ elif
 defined
 (
 OS_BSD
+)
+&
+&
+!
+defined
+(
+__GLIBC__
 )
 typedef
 DirReaderBSD
