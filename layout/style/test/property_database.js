@@ -16910,6 +16910,11 @@ other_values
 "
 5000
 "
+"
+1
+.
+1
+"
 ]
 invalid_values
 :
@@ -16928,6 +16933,12 @@ invalid_values
 "
 "
 3px
+"
+"
+-
+0
+.
+3
 "
 ]
 }
