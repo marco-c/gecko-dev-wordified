@@ -28747,6 +28747,15 @@ JSRESOLVE_ASSIGNING
 )
 &
 &
+cx
+-
+>
+fp
+-
+>
+regs
+&
+&
 (
 JSOp
 )
@@ -28755,6 +28764,9 @@ cx
 -
 >
 fp
+-
+>
+regs
 -
 >
 pc

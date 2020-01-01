@@ -785,6 +785,9 @@ state
 JSStackFrame
 frame
 ;
+JSFrameRegs
+savedRegs
+;
 JSArena
 arena
 ;
