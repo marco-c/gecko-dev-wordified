@@ -9183,14 +9183,9 @@ KeyPress
 let
 keyset
 =
-document
+Elements
 .
-getElementById
-(
-"
 mainKeyset
-"
-)
 ;
 keyset
 .
