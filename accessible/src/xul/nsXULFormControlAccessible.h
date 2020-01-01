@@ -614,6 +614,7 @@ protected
 /
 /
 nsAccessible
+virtual
 void
 CacheChildren
 (

@@ -724,14 +724,4 @@ for
 text
 accessible
 .
-mAccChildCount
-=
-IsDefunct
-(
-)
-?
-eChildCountUninitialized
-:
-0
-;
 }

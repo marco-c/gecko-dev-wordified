@@ -1390,14 +1390,4 @@ for
 aria
 accessible
 .
-mAccChildCount
-=
-IsDefunct
-(
-)
-?
-eChildCountUninitialized
-:
-0
-;
 }

@@ -2731,7 +2731,7 @@ object
 /
 static
 PRUint32
-GetSensiblecolumnCount
+GetSensibleColumnCount
 (
 nsITreeBoxObject
 *
