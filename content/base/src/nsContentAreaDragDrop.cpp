@@ -2590,6 +2590,17 @@ GetType
 !
 =
 NS_FORM_LABEL
+&
+&
+form
+-
+>
+GetType
+(
+)
+!
+=
+NS_FORM_OUTPUT
 )
 return
 NS_OK

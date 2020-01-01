@@ -791,6 +791,13 @@ button
 button
 "
 )
+EDITOR_ATOM
+(
+output
+"
+output
+"
+)
 /
 /
 block

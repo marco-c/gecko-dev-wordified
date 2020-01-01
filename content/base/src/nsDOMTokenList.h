@@ -450,7 +450,7 @@ DropReference
 (
 )
 ;
-private
+protected
 :
 ~
 nsDOMTokenList
