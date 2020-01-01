@@ -1427,6 +1427,15 @@ L
 MozillaDialogClass
 "
 ;
+const
+LPCWSTR
+kClassNameDropShadow
+=
+L
+"
+MozillaDropShadowWindowClass
+"
+;
 static
 const
 PRUint32
