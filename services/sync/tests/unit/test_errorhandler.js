@@ -8157,6 +8157,13 @@ clean
 (
 )
 ;
+server
+.
+stop
+(
+run_next_test
+)
+;
 }
 )
 ;
