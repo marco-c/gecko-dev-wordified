@@ -177,9 +177,6 @@ name
 ]
 ;
 uint16_t
-maxCount
-;
-uint16_t
 currentCount
 ;
 uint32_t
