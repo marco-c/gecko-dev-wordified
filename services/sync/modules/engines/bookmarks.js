@@ -2729,6 +2729,11 @@ items
 .
 try
 {
+delete
+this
+.
+_guidMap
+;
 return
 this
 .
