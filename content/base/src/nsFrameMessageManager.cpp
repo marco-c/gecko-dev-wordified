@@ -3228,6 +3228,10 @@ mCx
 =
 nsnull
 ;
+mGlobal
+=
+nsnull
+;
 }
 static
 PLDHashOperator
