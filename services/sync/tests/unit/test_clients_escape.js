@@ -150,15 +150,10 @@ example
 com
 "
 ;
-Svc
+Service
 .
-Prefs
-.
-set
-(
-"
 clusterURL
-"
+=
 "
 http
 :
@@ -167,7 +162,6 @@ http
 fakebase
 /
 "
-)
 ;
 let
 baseUri
