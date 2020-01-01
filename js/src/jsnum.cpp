@@ -3407,9 +3407,8 @@ MIN_VALUE
 }
 }
 ;
-static
 jsdouble
-NaN
+js_NaN
 ;
 #
 if
@@ -3581,7 +3580,7 @@ NC_NaN
 .
 dval
 =
-NaN
+js_NaN
 =
 u
 .
@@ -3595,7 +3594,7 @@ jsNaN
 js_NewWeaklyRootedDouble
 (
 cx
-NaN
+js_NaN
 )
 ;
 if

@@ -1299,6 +1299,10 @@ RVAL
 )
 #
 endif
+extern
+jsdouble
+js_NaN
+;
 /
 *
 Initialize
