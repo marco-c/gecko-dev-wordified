@@ -3155,12 +3155,12 @@ IDBObjectStore
 >
 objectStore
 =
-IDBObjectStore
-:
-:
-Create
-(
 transaction
+-
+>
+GetOrCreateObjectStore
+(
+aName
 objectStoreInfo
 )
 ;
