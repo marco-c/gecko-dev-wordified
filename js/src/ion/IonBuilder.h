@@ -2035,6 +2035,16 @@ count
 )
 ;
 bool
+jsop_initelem
+(
+)
+;
+bool
+jsop_initelem_dense
+(
+)
+;
+bool
 jsop_regexp
 (
 RegExpObject

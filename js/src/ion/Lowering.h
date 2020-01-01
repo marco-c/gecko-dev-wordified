@@ -1239,6 +1239,14 @@ ins
 )
 ;
 bool
+visitSetInitializedLength
+(
+MSetInitializedLength
+*
+ins
+)
+;
+bool
 visitBoundsCheck
 (
 MBoundsCheck
