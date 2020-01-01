@@ -3197,6 +3197,9 @@ JSOP_NAMEINC
 case
 JSOP_NAMEDEC
 :
+case
+JSOP_FORNAME
+:
 usesScope
 =
 true
@@ -3858,6 +3861,9 @@ break
 }
 case
 JSOP_SETLOCAL
+:
+case
+JSOP_FORLOCAL
 :
 {
 uint32
