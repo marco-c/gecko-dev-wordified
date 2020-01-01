@@ -7588,7 +7588,7 @@ and
 .
 *
 /
-JSBool
+bool
 ok
 =
 js_ConsumeJSONText
@@ -27030,9 +27030,9 @@ id
 =
 INT_TO_JSID
 (
+-
 jsint
 (
--
 index
 )
 )

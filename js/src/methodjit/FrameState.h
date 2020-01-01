@@ -1545,6 +1545,16 @@ type_
 ;
 }
 ;
+FrameState
+*
+thisFromCtor
+(
+)
+{
+return
+this
+;
+}
 public
 :
 FrameState
