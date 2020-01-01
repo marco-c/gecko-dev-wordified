@@ -5515,7 +5515,7 @@ Length
 +
 i
 )
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR_AMBIGUOUS
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mPendingRequests
 [
@@ -5523,7 +5523,6 @@ i
 ]
 .
 request
-nsIContentPermissionRequest
 )
 for
 (
@@ -5546,13 +5545,12 @@ Length
 +
 i
 )
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR_AMBIGUOUS
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mPendingCallbacks
 [
 i
 ]
-nsIContentPermissionRequest
 )
 for
 (
@@ -5575,13 +5573,12 @@ Length
 +
 i
 )
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR_AMBIGUOUS
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mWatchingCallbacks
 [
 i
 ]
-nsIContentPermissionRequest
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 nsGeolocation
