@@ -894,6 +894,13 @@ asGlobal
 globalObj
 -
 >
+makeVarObj
+(
+)
+;
+globalObj
+-
+>
 syncSpecialEquality
 (
 )

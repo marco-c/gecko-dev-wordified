@@ -6782,6 +6782,13 @@ bindings
 scopeChain
 )
 ;
+callobj
+-
+>
+makeVarObj
+(
+)
+;
 /
 *
 This
