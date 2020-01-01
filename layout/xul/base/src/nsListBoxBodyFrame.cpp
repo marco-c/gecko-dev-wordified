@@ -787,15 +787,6 @@ shot
 .
 *
 /
-#
-ifdef
-XP_MAC
-#
-pragma
-mark
--
-#
-endif
 /
 /
 the

@@ -1920,15 +1920,6 @@ rv
 /
 /
 ConvertPlatformPlainTextToUnicode
-#
-ifdef
-XP_MAC
-#
-pragma
-mark
--
-#
-endif
 /
 /
 /

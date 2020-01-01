@@ -17135,12 +17135,6 @@ JS_FALSE
 if
 defined
 (
-XP_MAC
-)
-|
-|
-defined
-(
 XP_MACOSX
 )
 /

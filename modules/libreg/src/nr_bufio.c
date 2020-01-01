@@ -1579,12 +1579,6 @@ found
 if
 defined
 (
-XP_MAC
-)
-|
-|
-defined
-(
 XP_MACOSX
 )
 case
@@ -1614,12 +1608,6 @@ use
 /
 #
 if
-defined
-(
-XP_MAC
-)
-|
-|
 defined
 (
 XP_MACOSX

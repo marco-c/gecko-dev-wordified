@@ -502,12 +502,6 @@ Mork
 %
 %
 %
-/
-/
-#
-define
-XP_MAC
-1
 #
 ifdef
 XP_MACOSX

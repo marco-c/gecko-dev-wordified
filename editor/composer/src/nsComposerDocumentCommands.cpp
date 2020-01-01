@@ -2639,15 +2639,6 @@ value
 *
 *
 /
-#
-ifdef
-XP_MAC
-#
-pragma
-mark
--
-#
-endif
 NS_IMETHODIMP
 nsDocumentStateCommand
 :
