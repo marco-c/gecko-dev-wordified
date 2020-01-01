@@ -288,12 +288,11 @@ slashes
 in
 token
 to
-back
-slashes
+backslashes
 *
 /
 void
-changeForwardSlashesTpBackSlashes
+changeForwardSlashesToBackSlashes
 (
 wchar_t
 *
@@ -828,7 +827,7 @@ arg
 *
 pArgv
 ;
-changeForwardSlashesTpBackSlashes
+changeForwardSlashesToBackSlashes
 (
 arg
 )
@@ -897,7 +896,7 @@ pTmpPath
 check
 if
 directory
-alreay
+already
 exists
 *
 /
@@ -939,13 +938,6 @@ tmpPath
 1
 )
 {
-/
-/
-while
-(
-waitForDebug
-)
-;
 printf
 (
 "
@@ -2000,7 +1992,7 @@ directory
 .
 *
 /
-changeForwardSlashesTpBackSlashes
+changeForwardSlashesToBackSlashes
 (
 *
 pDst
@@ -2483,7 +2475,7 @@ pSrc
 1
 )
 ;
-changeForwardSlashesTpBackSlashes
+changeForwardSlashesToBackSlashes
 (
 *
 pSrc
@@ -2640,7 +2632,7 @@ pSrc
 BOOL
 rv
 ;
-changeForwardSlashesTpBackSlashes
+changeForwardSlashesToBackSlashes
 (
 *
 pSrc
