@@ -1586,9 +1586,12 @@ r
 .
 Scale
 (
+gfxFloat
+(
 scaledSize
 .
 width
+)
 /
 aTarget
 -
@@ -1599,9 +1602,12 @@ mImage
 Width
 (
 )
+gfxFloat
+(
 scaledSize
 .
 height
+)
 /
 aTarget
 -
