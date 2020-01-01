@@ -7303,9 +7303,11 @@ cx
 fun_
 )
 ;
-fun
+JSObject
+*
+clone
 =
-CloneFunctionObjectIfNotSingleton
+Lambda
 (
 f
 .
@@ -7326,7 +7328,7 @@ scopeChain
 if
 (
 !
-fun
+clone
 )
 THROWV
 (
@@ -7334,7 +7336,7 @@ NULL
 )
 ;
 return
-fun
+clone
 ;
 }
 void
