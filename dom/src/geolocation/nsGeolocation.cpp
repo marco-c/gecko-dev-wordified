@@ -4582,7 +4582,14 @@ return
 true
 ;
 return
-false
+mPendingCallbacks
+.
+Length
+(
+)
+!
+=
+0
 ;
 }
 void
