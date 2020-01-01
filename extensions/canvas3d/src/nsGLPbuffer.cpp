@@ -1091,7 +1091,7 @@ available
 )
 ;
 return
-NS_ERROR_FAILURE
+PR_FALSE
 ;
 }
 int
@@ -1232,7 +1232,7 @@ mGlewDC
 )
 ;
 return
-NS_ERROR_FAILURE
+PR_FALSE
 ;
 }
 nsAutoArrayPtr
@@ -1570,7 +1570,7 @@ format
 )
 ;
 return
-NS_ERROR_FAILURE
+PR_FALSE
 ;
 }
 /
@@ -1646,7 +1646,7 @@ pbuffer
 )
 ;
 return
-NS_ERROR_FAILURE
+PR_FALSE
 ;
 }
 mPbufferDC
