@@ -4982,6 +4982,13 @@ GetIsTabModalPromptAllowed
 (
 )
 ;
+inline
+PRInt32
+DOMMinTimeoutValue
+(
+)
+const
+;
 /
 /
 When
