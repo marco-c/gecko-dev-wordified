@@ -1235,6 +1235,10 @@ NS_FAILED
 (
 result
 )
+|
+|
+!
+item
 )
 {
 return
@@ -1597,6 +1601,10 @@ NS_FAILED
 (
 result
 )
+|
+|
+!
+item
 )
 {
 return
