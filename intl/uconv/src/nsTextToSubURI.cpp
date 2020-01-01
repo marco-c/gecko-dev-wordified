@@ -724,7 +724,7 @@ pBuf
 char
 *
 )
-PR_Malloc
+NS_Alloc
 (
 outlen
 +
@@ -880,7 +880,7 @@ pBuf
 =
 buf
 )
-PR_Free
+NS_Free
 (
 pBuf
 )
@@ -950,15 +950,8 @@ char
 *
 unescaped
 =
-nsCRT
-:
-:
-strdup
+NS_strdup
 (
-(
-char
-*
-)
 text
 )
 ;
@@ -1086,7 +1079,7 @@ pBuf
 PRUnichar
 *
 )
-PR_Malloc
+NS_Alloc
 (
 (
 outlen
@@ -1149,7 +1142,7 @@ pBuf
 ;
 }
 else
-PR_Free
+NS_Free
 (
 pBuf
 )
@@ -1163,7 +1156,7 @@ decoder
 ;
 }
 }
-PR_Free
+NS_Free
 (
 unescaped
 )
@@ -1476,10 +1469,7 @@ ustr
 PRUnichar
 *
 )
-nsMemory
-:
-:
-Alloc
+NS_Alloc
 (
 dstLen
 *
@@ -1529,10 +1519,7 @@ ustr
 dstLen
 )
 ;
-nsMemory
-:
-:
-Free
+NS_Free
 (
 ustr
 )
