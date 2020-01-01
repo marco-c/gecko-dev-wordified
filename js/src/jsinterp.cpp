@@ -41947,6 +41947,7 @@ throwing
 /
 /
 Handle
+other
 exceptions
 as
 if
