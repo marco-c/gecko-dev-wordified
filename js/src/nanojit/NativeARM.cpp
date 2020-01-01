@@ -9773,7 +9773,7 @@ GpRegs
 }
 else
 {
-findRegFor2b
+findRegFor2
 (
 GpRegs
 value
@@ -9826,8 +9826,6 @@ asm_restore
 (
 LInsp
 i
-Reservation
-*
 Register
 r
 )
@@ -16593,7 +16591,7 @@ Register
 ra
 rb
 ;
-findRegFor2b
+findRegFor2
 (
 FpRegs
 lhs
@@ -16643,8 +16641,6 @@ Assembler
 :
 asm_prep_fcall
 (
-Reservation
-*
 LInsp
 )
 {
@@ -17762,7 +17758,7 @@ Register
 ra
 rb
 ;
-findRegFor2b
+findRegFor2
 (
 GpRegs
 lhs

@@ -4325,8 +4325,6 @@ asm_restore
 LIns
 *
 i
-Reservation
-*
 Register
 r
 )
@@ -4474,8 +4472,6 @@ Assembler
 :
 asm_prep_fcall
 (
-Reservation
-*
 LIns
 *
 ins
@@ -6258,7 +6254,7 @@ Register
 ra
 rb
 ;
-findRegFor2b
+findRegFor2
 (
 allow
 lhs

@@ -1017,7 +1017,9 @@ Each
 LIns
 has
 a
-Reservation
+"
+reservation
+"
 which
 includes
 a
@@ -1218,7 +1220,7 @@ in
 use
 /
 /
-Reservation
+reservation
 that
 names
 R
@@ -1239,7 +1241,7 @@ an
 in
 -
 use
-Reservation
+reservation
 that
 /
 /
@@ -1266,7 +1268,7 @@ an
 LIns
 '
 s
-Reservation
+reservation
 names
 '
 UnknownReg

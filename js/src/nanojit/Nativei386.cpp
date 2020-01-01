@@ -2795,13 +2795,6 @@ asm_restore
 (
 LInsp
 i
-Reservation
-*
-/
-*
-unused
-*
-/
 Register
 r
 )
@@ -3231,7 +3224,7 @@ UnknownReg
 }
 else
 {
-findRegFor2b
+findRegFor2
 (
 GpRegs
 value
@@ -5318,7 +5311,7 @@ Register
 ra
 rb
 ;
-findRegFor2b
+findRegFor2
 (
 GpRegs
 lhs
@@ -10187,13 +10180,6 @@ Assembler
 :
 asm_prep_fcall
 (
-Reservation
-*
-/
-*
-unused
-*
-/
 LInsp
 ins
 )
@@ -11446,7 +11432,7 @@ Register
 ra
 rb
 ;
-findRegFor2b
+findRegFor2
 (
 XmmRegs
 lhs
@@ -11622,7 +11608,7 @@ Register
 ra
 rb
 ;
-findRegFor2b
+findRegFor2
 (
 XmmRegs
 lhs
