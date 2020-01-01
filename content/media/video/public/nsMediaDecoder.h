@@ -512,7 +512,7 @@ h
 #
 include
 "
-prinrval
+nsTimeStamp
 .
 h
 "
@@ -592,6 +592,20 @@ nsIObserver
 {
 public
 :
+typedef
+mozilla
+:
+:
+TimeStamp
+TimeStamp
+;
+typedef
+mozilla
+:
+:
+TimeDuration
+TimeDuration
+;
 nsMediaDecoder
 (
 )
@@ -2133,7 +2147,7 @@ main
 thread
 only
 .
-PRIntervalTime
+TimeStamp
 mProgressTime
 ;
 /
@@ -2178,7 +2192,7 @@ PROGRESS_MS
 A
 value
 of
-0
+null
 indicates
 /
 /
@@ -2212,7 +2226,7 @@ main
 thread
 only
 .
-PRIntervalTime
+TimeStamp
 mDataTime
 ;
 /
