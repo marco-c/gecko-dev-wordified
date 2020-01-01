@@ -623,6 +623,12 @@ msg
 )
 PR_LOG
 (
+mozilla
+:
+:
+hal
+:
+:
 sHalLog
 PR_LOG_DEBUG
 msg
