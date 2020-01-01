@@ -1989,6 +1989,12 @@ exit
 in
 onXreExit
 .
+if
+(
+isFinishing
+(
+)
+)
 GeckoAppShell
 .
 sendEventToGecko
