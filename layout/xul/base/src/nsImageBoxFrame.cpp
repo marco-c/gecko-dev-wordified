@@ -2821,7 +2821,7 @@ NS_INTRINSICSIZE
 "
 non
 -
-nintrinsic
+intrinsic
 size
 expected
 "
@@ -2979,7 +2979,7 @@ NS_INTRINSICSIZE
 "
 non
 -
-nintrinsic
+intrinsic
 size
 expected
 "
