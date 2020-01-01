@@ -1498,9 +1498,6 @@ function
 #
 ifdef
 XP_WIN
-#
-ifndef
-WINCE
 const
 WINTASKBAR_CONTRACTID
 =
@@ -1604,8 +1601,6 @@ window
 }
 ;
 }
-#
-endif
 #
 endif
 return
