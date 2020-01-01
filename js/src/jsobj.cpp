@@ -23812,14 +23812,12 @@ nslots
 JS_INITIAL_NSLOTS
 )
 {
-cx
+obj
 -
 >
-free
+freeSlotsArray
 (
-slots
--
-1
+cx
 )
 ;
 obj
