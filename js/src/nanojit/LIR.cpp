@@ -4416,6 +4416,14 @@ CASE86
 LIR_mod
 :
 )
+#
+if
+defined
+NANOJIT_IA32
+|
+|
+defined
+NANOJIT_X64
 /
 /
 We
@@ -4464,6 +4472,8 @@ NanoAssert
 0
 )
 ;
+#
+endif
 default
 :
 ;
