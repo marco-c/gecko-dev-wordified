@@ -538,6 +538,8 @@ add
 '
 Fuz
 .
+prototype
+.
 add
 '
 )
