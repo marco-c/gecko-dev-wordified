@@ -719,10 +719,10 @@ pointSizeF
 *
 float
 (
-gfxPlatform
+gfxQtPlatform
 :
 :
-GetDPI
+GetPlatformDPI
 (
 )
 )
