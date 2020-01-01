@@ -809,8 +809,6 @@ en
 -
 US
 /
-firefox
-/
 about
 /
 #
