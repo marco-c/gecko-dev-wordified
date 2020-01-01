@@ -7315,7 +7315,7 @@ whether
 the
 accessible
 supports
-nsIAccessibleSelectable
+SelectAccessible
 .
 /
 /
