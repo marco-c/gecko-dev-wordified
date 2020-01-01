@@ -4675,8 +4675,11 @@ BluetoothOppManager
 :
 ReceiveSocketData
 (
+nsAutoPtr
+<
 UnixSocketRawData
-*
+>
+&
 aMessage
 )
 {

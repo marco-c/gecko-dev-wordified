@@ -178,6 +178,8 @@ Get
 void
 ReceiveSocketData
 (
+nsAutoPtr
+<
 mozilla
 :
 :
@@ -185,7 +187,8 @@ ipc
 :
 :
 UnixSocketRawData
-*
+>
+&
 aMessage
 )
 MOZ_OVERRIDE
