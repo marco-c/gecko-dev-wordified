@@ -17349,6 +17349,15 @@ message
 !
 =
 NS_MOUSE_BUTTON_UP
+&
+&
+aEvent
+-
+>
+message
+!
+=
+NS_MOUSE_BUTTON_DOWN
 )
 {
 return
