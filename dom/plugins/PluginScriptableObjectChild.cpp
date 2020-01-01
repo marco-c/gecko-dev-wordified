@@ -1322,10 +1322,10 @@ instance
 &
 &
 !
-instance
--
->
-CallPPluginScriptableObjectDestructor
+PPluginScriptableObjectChild
+:
+:
+Call__delete__
 (
 object
 -

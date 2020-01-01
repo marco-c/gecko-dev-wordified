@@ -657,6 +657,9 @@ plugins
 -
 -
 -
+class
+BrowserStreamParent
+;
 /
 *
 *
@@ -796,9 +799,6 @@ DeallocPPluginInstance
 PPluginInstanceParent
 *
 aActor
-NPError
-*
-_retval
 )
 ;
 public
