@@ -1578,15 +1578,6 @@ void
 string
 )
 ;
-size_t
-JsMallocSizeOf
-(
-const
-void
-*
-ptr
-)
-;
 }
 /
 /

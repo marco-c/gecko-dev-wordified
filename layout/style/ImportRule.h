@@ -603,6 +603,15 @@ nsCSSStyleSheet
 *
 )
 ;
+virtual
+size_t
+SizeOfIncludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+const
+;
 /
 /
 nsIDOMCSSRule

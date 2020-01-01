@@ -5530,6 +5530,15 @@ PostVisibilityUpdateEvent
 (
 )
 ;
+virtual
+size_t
+SizeOfStyleSheets
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+const
+;
 protected
 :
 friend
