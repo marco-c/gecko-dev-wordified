@@ -912,6 +912,7 @@ cx
 ;
 }
 static
+const
 ObjectElements
 emptyElementsHeader
 (
@@ -936,6 +937,7 @@ elements
 /
 HeapSlot
 *
+const
 js
 :
 :

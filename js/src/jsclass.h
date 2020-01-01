@@ -240,6 +240,7 @@ js
 :
 Class
 *
+const
 )
 FunctionClassPtr
 ;

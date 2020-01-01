@@ -7032,6 +7032,7 @@ elements
 extern
 HeapSlot
 *
+const
 emptyObjectElements
 ;
 struct

@@ -5513,6 +5513,7 @@ true
 ;
 }
 static
+const
 JSFunctionSpecWithHelp
 TestingFunctions
 [

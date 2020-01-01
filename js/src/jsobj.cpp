@@ -587,6 +587,7 @@ JS_FRIEND_DATA
 (
 Class
 *
+const
 )
 js
 :

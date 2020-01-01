@@ -19543,6 +19543,7 @@ JS_FRIEND_DATA
 (
 Class
 *
+const
 )
 js
 :
@@ -19715,6 +19716,7 @@ JS_FRIEND_DATA
 (
 Class
 *
+const
 )
 js
 :
@@ -19968,6 +19970,7 @@ JS_FRIEND_DATA
 (
 Class
 *
+const
 )
 js
 :

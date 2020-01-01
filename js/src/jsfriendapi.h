@@ -2102,6 +2102,7 @@ js
 :
 Class
 *
+const
 )
 FunctionProxyClassPtr
 ;
@@ -2113,6 +2114,7 @@ js
 :
 Class
 *
+const
 )
 ObjectProxyClassPtr
 ;
@@ -2124,6 +2126,7 @@ js
 :
 Class
 *
+const
 )
 OuterWindowProxyClassPtr
 ;
@@ -2168,6 +2171,7 @@ js
 :
 Class
 *
+const
 )
 ObjectClassPtr
 ;
