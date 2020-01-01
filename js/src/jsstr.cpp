@@ -2256,7 +2256,7 @@ JSString
 *
 str
 =
-js_ValueToSource
+ValueToSource
 (
 cx
 args
@@ -22845,7 +22845,7 @@ str
 (
 asSource
 ?
-js_ValueToSource
+ValueToSource
 :
 ToString
 )
@@ -23086,12 +23086,12 @@ return
 str
 ;
 }
-JS_FRIEND_API
-(
 JSString
 *
-)
-js_ValueToSource
+js
+:
+:
+ValueToSource
 (
 JSContext
 *
