@@ -13036,7 +13036,10 @@ scopeobj
 )
 ;
 extern
+JS_FRIEND_API
+(
 bool
+)
 IsBuiltinEvalFunction
 (
 JSFunction
