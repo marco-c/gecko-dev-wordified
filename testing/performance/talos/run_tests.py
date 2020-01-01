@@ -529,6 +529,10 @@ import
 getopt
 import
 utils
+from
+utils
+import
+talosError
 import
 post_file
 import
@@ -2984,7 +2988,9 @@ Started
 "
 )
     
-res
+try
+:
+      
 browser_dump
 counter_dump
 =
@@ -2999,9 +3005,9 @@ test
 ]
 )
     
-if
-not
-res
+except
+talosError
+e
 :
       
 utils
@@ -3022,14 +3028,21 @@ print
 '
 FAIL
 :
-failure
-to
-complete
-test
+Busted
 :
 '
 +
 test
+      
+print
+'
+FAIL
+:
+'
++
+e
+.
+msg
       
 sys
 .

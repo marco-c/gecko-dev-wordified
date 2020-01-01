@@ -415,6 +415,8 @@ win32file
 import
 win32pdhutil
 import
+win32pdh
+import
 win32pipe
 import
 msvcrt
@@ -699,6 +701,22 @@ process_names
     
 try
 :
+      
+#
+refresh
+list
+of
+processes
+      
+win32pdh
+.
+EnumObjects
+(
+None
+None
+0
+1
+)
       
 pids
 =
