@@ -2268,13 +2268,10 @@ activeWindow
 )
 w
 .
-content
-.
 focus
 (
 )
 ;
-else
 w
 .
 gBrowser
