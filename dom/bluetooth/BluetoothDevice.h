@@ -313,6 +313,9 @@ mAddress
 nsString
 mName
 ;
+nsString
+mIcon
+;
 uint32_t
 mClass
 ;
