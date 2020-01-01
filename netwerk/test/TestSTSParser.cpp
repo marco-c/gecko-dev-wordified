@@ -440,8 +440,8 @@ HEADER_HSTS
 dummyUri
 hdr
 0
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 EXPECT_FAILURE

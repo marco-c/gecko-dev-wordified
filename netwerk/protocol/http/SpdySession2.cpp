@@ -4229,7 +4229,7 @@ NS_LITERAL_CSTRING
 /
 /
 expand
-NULL
+nullptr
 bytes
 in
 the
@@ -14182,7 +14182,7 @@ setup
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 uint32_t

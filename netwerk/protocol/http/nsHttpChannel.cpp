@@ -8067,8 +8067,8 @@ get
 (
 )
 flags
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -10679,7 +10679,7 @@ can
 return
 NS_OK
 and
-NULL
+nullptr
 messageString
 .
 if

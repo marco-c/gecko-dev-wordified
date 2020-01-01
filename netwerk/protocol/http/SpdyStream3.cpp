@@ -10326,7 +10326,7 @@ NS_LITERAL_CSTRING
 /
 /
 expand
-NULL
+nullptr
 bytes
 in
 the

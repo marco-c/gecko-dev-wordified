@@ -927,7 +927,7 @@ num
 /
 /
 Prevent
-NULL
+nullptr
 Deref
 -
 Bug

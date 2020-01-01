@@ -1240,7 +1240,7 @@ Cancel
 ;
 mTimer
 =
-NULL
+nullptr
 ;
 }
 }

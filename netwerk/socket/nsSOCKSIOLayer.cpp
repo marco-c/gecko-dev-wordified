@@ -4755,7 +4755,7 @@ char
 *
 ip
 =
-NULL
+nullptr
 ;
 uint32_t
 len
@@ -4853,7 +4853,7 @@ NS_ABORT_IF_FALSE
 ip
 !
 =
-NULL
+nullptr
 "
 Unknown
 address
@@ -5349,7 +5349,7 @@ NS_ABORT_IF_FALSE
 mDataIoPtr
 =
 =
-NULL
+nullptr
 "
 WantRead
 (
@@ -5792,7 +5792,7 @@ if
 info
 =
 =
-NULL
+nullptr
 )
 return
 PR_FAILURE
@@ -6023,7 +6023,7 @@ if
 info
 =
 =
-NULL
+nullptr
 )
 return
 PR_FAILURE
@@ -6095,7 +6095,7 @@ if
 info
 =
 =
-NULL
+nullptr
 )
 return
 PR_FAILURE
@@ -6410,13 +6410,13 @@ if
 info
 !
 =
-NULL
+nullptr
 &
 &
 addr
 !
 =
-NULL
+nullptr
 )
 {
 NetAddr
@@ -6489,13 +6489,13 @@ if
 info
 !
 =
-NULL
+nullptr
 &
 &
 addr
 !
 =
-NULL
+nullptr
 )
 {
 NetAddr

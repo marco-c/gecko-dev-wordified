@@ -283,7 +283,7 @@ negotiated_version
 HANDLE
 wlan_handle
 =
-NULL
+nullptr
 ;
 /
 /
@@ -344,7 +344,7 @@ WlanOpenHandle
 )
 (
 kXpWlanClientVersion
-NULL
+nullptr
 &
 negotiated_version
 &
@@ -389,7 +389,7 @@ WLAN_INTERFACE_INFO_LIST
 *
 interface_list
 =
-NULL
+nullptr
 ;
 if
 (
@@ -399,7 +399,7 @@ WlanEnumInterfaces
 )
 (
 wlan_handle
-NULL
+nullptr
 &
 interface_list
 )
@@ -419,7 +419,7 @@ WlanCloseHandle
 )
 (
 wlan_handle
-NULL
+nullptr
 )
 ;
 return
@@ -489,7 +489,7 @@ i
 ]
 .
 InterfaceGuid
-NULL
+nullptr
 /
 /
 Use
@@ -503,7 +503,7 @@ false
 bSecurityEnabled
 -
 unused
-NULL
+nullptr
 /
 /
 reserved
@@ -658,7 +658,7 @@ WlanCloseHandle
 )
 (
 wlan_handle
-NULL
+nullptr
 )
 ;
 bool

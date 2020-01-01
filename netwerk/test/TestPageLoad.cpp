@@ -617,7 +617,7 @@ img
 )
 !
 =
-NULL
+nullptr
 |
 |
 (
@@ -633,7 +633,7 @@ script
 )
 !
 =
-NULL
+nullptr
 )
 {
 loc_t2
@@ -651,7 +651,7 @@ if
 loc_t2
 !
 =
-NULL
+nullptr
 )
 {
 loc_t2
@@ -756,7 +756,7 @@ link
 )
 !
 =
-NULL
+nullptr
 )
 {
 loc_t2
@@ -774,7 +774,7 @@ if
 loc_t2
 !
 =
-NULL
+nullptr
 )
 {
 loc_t2
@@ -874,7 +874,7 @@ background
 )
 !
 =
-NULL
+nullptr
 )
 {
 loc_t

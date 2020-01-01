@@ -1798,7 +1798,7 @@ AutoFree
 :
 mBuffer
 (
-NULL
+nullptr
 )
 {
 }

@@ -185,14 +185,14 @@ CameraStreamImpl
 *
 mCamera0
 =
-NULL
+nullptr
 ;
 static
 CameraStreamImpl
 *
 mCamera1
 =
-NULL
+nullptr
 ;
 /
 *
@@ -300,7 +300,7 @@ CameraStreamImpl
 *
 res
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -508,7 +508,7 @@ CloseCamera
 ;
 mCallback
 =
-NULL
+nullptr
 ;
 }
 }
