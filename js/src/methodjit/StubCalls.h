@@ -2009,6 +2009,15 @@ length
 ;
 void
 JS_FASTCALL
+ArrayConcatTwoArrays
+(
+VMFrame
+&
+f
+)
+;
+void
+JS_FASTCALL
 ArrayShift
 (
 VMFrame
