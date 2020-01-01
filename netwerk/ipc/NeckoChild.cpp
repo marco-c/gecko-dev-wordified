@@ -716,6 +716,9 @@ NeckoChild
 :
 AllocPHttpChannel
 (
+PIFrameEmbeddingChild
+*
+iframeEmbedding
 )
 {
 /

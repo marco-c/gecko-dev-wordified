@@ -464,6 +464,10 @@ include
 protocol
 PCookieService
 ;
+include
+protocol
+PIFrameEmbedding
+;
 namespace
 mozilla
 {
@@ -560,6 +564,8 @@ __delete__
 ;
 PHttpChannel
 (
+PIFrameEmbedding
+iframeEmbedding
 )
 ;
 PCookieService

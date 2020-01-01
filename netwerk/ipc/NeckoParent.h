@@ -513,6 +513,9 @@ PHttpChannelParent
 *
 AllocPHttpChannel
 (
+PIFrameEmbeddingParent
+*
+iframeEmbedding
 )
 ;
 virtual
