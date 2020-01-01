@@ -7117,6 +7117,9 @@ NS_SUCCEEDED
 (
 rv
 )
+&
+&
+originURI
 )
 innerOriginURI
 =
@@ -7149,6 +7152,9 @@ NS_SUCCEEDED
 (
 rv
 )
+&
+&
+targetURI
 )
 innerTargetURI
 =
