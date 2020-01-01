@@ -13556,7 +13556,7 @@ const
 JSScript
 *
 scr
-JSBool
+int
 entering
 )
 const
