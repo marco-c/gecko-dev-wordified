@@ -974,6 +974,9 @@ mLastMenu
 PRBool
 mIsTooSmall
 ;
+PRBool
+mIsDestroying
+;
 static
 nsIRollupListener
 *
