@@ -1815,6 +1815,10 @@ nsObjectLoadingContent
 (
 )
 :
+mPendingInstantiateEvent
+(
+nsnull
+)
 mChannel
 (
 nsnull
