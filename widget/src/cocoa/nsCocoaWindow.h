@@ -1817,13 +1817,6 @@ ResetInputState
 (
 )
 ;
-void
-MakeBackgroundTransparent
-(
-PRBool
-aTransparent
-)
-;
 NS_IMETHOD
 BeginSecureKeyboardInput
 (
