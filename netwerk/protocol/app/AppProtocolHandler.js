@@ -612,9 +612,7 @@ file
 +
 appInfo
 .
-basePath
-+
-appId
+path
 +
 "
 /
@@ -663,9 +661,7 @@ remoteopenfile
 +
 appInfo
 .
-basePath
-+
-appId
+path
 +
 "
 /
