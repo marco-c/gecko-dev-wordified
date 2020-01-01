@@ -3052,6 +3052,11 @@ breakStatement
 )
 ;
 Node
+returnStatementOrYieldExpression
+(
+)
+;
+Node
 withStatement
 (
 )
@@ -3300,13 +3305,6 @@ letBlock
 (
 LetContext
 letContext
-)
-;
-Node
-returnOrYield
-(
-bool
-useAssignExpr
 )
 ;
 Node
