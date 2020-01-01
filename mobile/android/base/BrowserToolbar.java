@@ -6654,6 +6654,14 @@ getURL
 (
 )
 ;
+if
+(
+!
+isEditing
+(
+)
+)
+{
 mUrlEditText
 .
 setText
@@ -6661,6 +6669,7 @@ setText
 url
 )
 ;
+}
 /
 /
 Setting
