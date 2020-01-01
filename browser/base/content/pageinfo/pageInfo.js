@@ -7317,10 +7317,9 @@ thepreviewimage
 ;
 newImage
 .
-mozLoadFrom
-(
-item
-)
+src
+=
+url
 ;
 newImage
 .
