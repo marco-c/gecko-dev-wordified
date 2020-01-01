@@ -5802,6 +5802,10 @@ rv
 )
 )
 {
+readError
+=
+PR_FALSE
+;
 cancel
 =
 PR_TRUE
