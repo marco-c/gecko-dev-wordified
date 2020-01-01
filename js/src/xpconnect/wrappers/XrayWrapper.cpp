@@ -1538,7 +1538,7 @@ desc
 >
 shortid
 =
-0
+NULL
 ;
 desc
 -
