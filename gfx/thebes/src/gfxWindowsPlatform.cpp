@@ -1299,6 +1299,15 @@ GroupOffsetEndCode
 ;
 NS_ENSURE_TRUE
 (
+aLength
+>
+=
+16
+NS_ERROR_FAILURE
+)
+;
+NS_ENSURE_TRUE
+(
 ReadShortAt
 (
 aBuf
@@ -1345,6 +1354,7 @@ NS_ENSURE_TRUE
 (
 tablelen
 >
+=
 16
 NS_ERROR_FAILURE
 )
