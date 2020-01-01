@@ -1985,17 +1985,6 @@ a
 break
 *
 /
-SRC_GENEXP
-=
-1
-/
-*
-JSOP_LAMBDA
-from
-generator
-expression
-*
-/
 SRC_IF_ELSE
 =
 2
