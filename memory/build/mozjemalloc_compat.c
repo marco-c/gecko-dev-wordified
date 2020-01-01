@@ -271,9 +271,7 @@ while
 0
 )
 MOZ_IMPORT_API
-(
 int
-)
 wrap
 (
 mallctl
@@ -292,9 +290,7 @@ size_t
 )
 ;
 MOZ_IMPORT_API
-(
 int
-)
 wrap
 (
 mallctlnametomib
@@ -313,9 +309,7 @@ miblenp
 )
 ;
 MOZ_IMPORT_API
-(
 int
-)
 wrap
 (
 mallctlbymib
@@ -340,10 +334,8 @@ size_t
 newlen
 )
 ;
-MOZ_EXPORT_API
-(
+MOZ_EXPORT
 void
-)
 jemalloc_stats
 (
 jemalloc_stats_t

@@ -5561,10 +5561,8 @@ entry
 points
 .
 Manifest
-MOZ_EXPORT_DATA
-(
+MOZ_EXPORT
 MPAPI_MANIFEST
-)
 {
 OmxPlugin
 :
