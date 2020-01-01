@@ -440,9 +440,6 @@ unused
 .
 h
 "
-#
-ifdef
-MOZ_IPC
 using
 mozilla
 :
@@ -923,5 +920,3 @@ dom
 /
 namespace
 mozilla
-#
-endif
