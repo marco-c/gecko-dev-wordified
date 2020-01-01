@@ -689,12 +689,6 @@ fp
 if
 (
 fp
-&
-&
-fp
--
->
-regs
 )
 return
 (
