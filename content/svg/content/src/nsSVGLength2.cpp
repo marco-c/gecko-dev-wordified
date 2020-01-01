@@ -1302,9 +1302,7 @@ GetMMPerPixel
 aCtx
 )
 *
-72
-.
-0f
+POINTS_PER_INCH_FLOAT
 /
 25
 .
@@ -1322,9 +1320,7 @@ GetMMPerPixel
 aCtx
 )
 *
-72
-.
-0f
+POINTS_PER_INCH_FLOAT
 /
 24
 .

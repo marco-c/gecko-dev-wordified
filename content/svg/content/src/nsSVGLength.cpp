@@ -1681,9 +1681,7 @@ mValueInSpecifiedUnits
 .
 4f
 /
-72
-.
-0f
+POINTS_PER_INCH_FLOAT
 /
 mmPerPixel
 (
@@ -1707,9 +1705,7 @@ mValueInSpecifiedUnits
 .
 0f
 /
-72
-.
-0f
+POINTS_PER_INCH_FLOAT
 /
 mmPerPixel
 (
@@ -1881,9 +1877,7 @@ mmPerPixel
 (
 )
 *
-72
-.
-0f
+POINTS_PER_INCH_FLOAT
 /
 25
 .
@@ -1902,9 +1896,7 @@ mmPerPixel
 (
 )
 *
-72
-.
-0f
+POINTS_PER_INCH_FLOAT
 /
 24
 .
