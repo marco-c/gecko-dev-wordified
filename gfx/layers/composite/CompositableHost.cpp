@@ -176,6 +176,10 @@ mLayer
 (
 nullptr
 )
+mAttached
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
