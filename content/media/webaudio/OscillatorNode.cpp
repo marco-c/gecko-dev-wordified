@@ -293,14 +293,10 @@ TRACK_TICKS_MAX
 Keep
 the
 default
-value
+values
 in
 sync
 with
-the
-default
-value
-in
 OscillatorNode
 :
 :
