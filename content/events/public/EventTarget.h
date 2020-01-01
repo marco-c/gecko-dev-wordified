@@ -149,7 +149,7 @@ template
 class
 T
 >
-class
+struct
 Nullable
 ;
 /

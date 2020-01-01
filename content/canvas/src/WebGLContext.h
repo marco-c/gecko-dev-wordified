@@ -499,7 +499,7 @@ template
 <
 typename
 >
-class
+struct
 Nullable
 ;
 }
