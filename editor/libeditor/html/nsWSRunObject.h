@@ -2982,7 +2982,7 @@ mStartNode
 /
 node
 /
-offet
+offset
 where
 ws
 starts
@@ -3033,7 +3033,7 @@ mEndNode
 /
 node
 /
-offet
+offset
 where
 ws
 ends
