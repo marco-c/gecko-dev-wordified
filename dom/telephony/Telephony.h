@@ -516,7 +516,6 @@ NS_DECL_EVENT_HANDLER
 (
 incoming
 )
-;
 TelephonyCall
 *
 mActiveCall
