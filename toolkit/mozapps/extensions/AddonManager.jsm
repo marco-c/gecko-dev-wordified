@@ -1208,7 +1208,7 @@ addonListeners
 let
 appChanged
 =
-true
+undefined
 ;
 try
 {
@@ -1240,6 +1240,10 @@ e
 if
 (
 appChanged
+!
+=
+=
+false
 )
 {
 LOG
