@@ -870,6 +870,13 @@ nsIPercentHeightObserver
 h
 "
 #
+include
+"
+nsStyleStructInlines
+.
+h
+"
+#
 ifdef
 IBMBIDI
 #
