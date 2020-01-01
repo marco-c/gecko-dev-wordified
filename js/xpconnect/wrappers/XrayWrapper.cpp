@@ -6170,8 +6170,12 @@ if
 (
 !
 wrapper
-|
-|
+)
+return
+false
+;
+if
+(
 !
 IsWrapper
 (
