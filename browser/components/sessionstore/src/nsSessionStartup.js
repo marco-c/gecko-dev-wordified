@@ -732,9 +732,14 @@ Components
 .
 results
 ;
+const
+Cu
+=
 Components
 .
 utils
+;
+Cu
 .
 import
 (
@@ -1216,9 +1221,7 @@ var
 s
 =
 new
-Components
-.
-utils
+Cu
 .
 Sandbox
 (
@@ -1232,9 +1235,7 @@ blank
 var
 initialState
 =
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (
@@ -2425,9 +2426,7 @@ catch
 ex
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (
