@@ -16732,9 +16732,12 @@ JSObject
 (
 mWrapperWord
 &
+(
+size_t
+)
 ~
 (
-PRWord
+size_t
 )
 FLAG_MASK
 )
@@ -16997,7 +17000,7 @@ LAST_FLAG
 NEEDS_XOW
 FLAG_MASK
 =
-0x3
+0x7
 }
 ;
 protected
