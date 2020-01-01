@@ -666,6 +666,8 @@ accessRequested
 nsICacheListener
 *
 listener
+bool
+noWait
 )
 {
 nsresult
@@ -681,10 +683,8 @@ OpenCacheEntry
 this
 key
 accessRequested
-nsICache
-:
-:
-BLOCKING
+!
+noWait
 listener
 nsnull
 )
