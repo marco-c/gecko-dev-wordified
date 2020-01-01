@@ -470,6 +470,13 @@ nsFormSigningDialog
 .
 h
 "
+#
+include
+"
+nsISSLCertErrorDialog
+.
+h
+"
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
 nsNSSDialogs
@@ -504,6 +511,12 @@ components
 ]
 =
 {
+{
+NSS_DIALOGS_DESCRIPTION
+NS_NSSDIALOGS_CID
+NS_SSLCERTERRORDIALOG_CONTRACTID
+nsNSSDialogsConstructor
+}
 {
 NSS_DIALOGS_DESCRIPTION
 NS_NSSDIALOGS_CID
