@@ -35711,7 +35711,6 @@ forcedTypeBarrier
 forPrototype
 &
 &
-(
 JSOp
 (
 *
@@ -35720,17 +35719,6 @@ PC
 =
 =
 JSOP_GETPROP
-|
-|
-JSOp
-(
-*
-PC
-)
-=
-=
-JSOP_LENGTH
-)
 &
 &
 analysis
