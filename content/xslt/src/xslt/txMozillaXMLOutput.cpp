@@ -5660,6 +5660,7 @@ aResult
 )
 &
 &
+(
 mScriptElements
 .
 Count
@@ -5672,6 +5673,7 @@ Count
 mPendingStylesheetCount
 >
 0
+)
 )
 )
 {
