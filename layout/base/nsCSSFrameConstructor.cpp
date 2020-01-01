@@ -53661,7 +53661,7 @@ nsIViewManager
 *
 viewManager
 =
-aPresContext
+shell
 -
 >
 GetViewManager
@@ -54209,6 +54209,11 @@ UpdateViewBatch
 batch
 (
 presContext
+-
+>
+GetPresShell
+(
+)
 -
 >
 GetViewManager

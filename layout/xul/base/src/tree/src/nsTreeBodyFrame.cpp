@@ -5814,6 +5814,11 @@ rootView
 presContext
 -
 >
+GetPresShell
+(
+)
+-
+>
 GetViewManager
 (
 )

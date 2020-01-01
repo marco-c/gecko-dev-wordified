@@ -4468,6 +4468,11 @@ PresContext
 )
 -
 >
+GetPresShell
+(
+)
+-
+>
 GetViewManager
 (
 )

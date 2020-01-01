@@ -10576,6 +10576,11 @@ viewManager
 aPresContext
 -
 >
+GetPresShell
+(
+)
+-
+>
 GetViewManager
 (
 )
