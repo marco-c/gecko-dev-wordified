@@ -15568,7 +15568,7 @@ wn
 XPCWrappedNative
 :
 :
-GetWrappedNativeOfJSObject
+GetAndMorphWrappedNativeOfJSObject
 (
 cx
 JSVAL_TO_OBJECT
