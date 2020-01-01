@@ -592,9 +592,9 @@ aModifyDatabase
 PR_TRUE
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsIIDBDatabaseRequest
+IDBDatabaseRequest
 >
 database
 =
