@@ -31126,8 +31126,8 @@ innerMostWindow
 aDragContext
 nsIntPoint
 (
-aX
-aY
+retx
+rety
 )
 aTime
 )
@@ -31507,8 +31507,8 @@ innerMostWindow
 aDragContext
 nsIntPoint
 (
-aX
-aY
+retx
+rety
 )
 aTime
 )
