@@ -219,7 +219,7 @@ gBrowser
 .
 selectedTab
 .
-responsiveUI
+__responsiveUI
 ;
 ok
 (

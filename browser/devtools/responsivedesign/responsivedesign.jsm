@@ -259,12 +259,12 @@ if
 (
 aTab
 .
-responsiveUI
+__responsiveUI
 )
 {
 aTab
 .
-responsiveUI
+__responsiveUI
 .
 close
 (
@@ -275,7 +275,7 @@ else
 {
 aTab
 .
-responsiveUI
+__responsiveUI
 =
 new
 ResponsiveUI
@@ -1426,7 +1426,7 @@ this
 .
 tab
 .
-responsiveUI
+__responsiveUI
 ;
 }
 /
