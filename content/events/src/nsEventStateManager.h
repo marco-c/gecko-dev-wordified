@@ -2713,12 +2713,14 @@ mTabbedThroughDocument
 ;
 /
 /
-Hashtable
+Array
 for
 accesskey
 support
-nsSupportsHashtable
-*
+nsCOMArray
+<
+nsIContent
+>
 mAccessKeys
 ;
 nsCOMArray
