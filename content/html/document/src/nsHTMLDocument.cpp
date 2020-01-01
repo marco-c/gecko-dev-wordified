@@ -10724,6 +10724,15 @@ PR_TRUE
 ;
 #
 endif
+/
+/
+Should
+this
+pass
+PR_TRUE
+for
+aForceReuseInnerWindow
+?
 rv
 =
 window
@@ -10733,6 +10742,7 @@ SetNewDocument
 (
 this
 nsnull
+PR_FALSE
 )
 ;
 NS_ENSURE_SUCCESS
