@@ -913,6 +913,16 @@ vp
 nsISupports
 *
 argRef
+=
+static_cast
+<
+nsIContent
+*
+>
+(
+*
+ppArgRef
+)
 ;
 \
 nsresult
