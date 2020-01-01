@@ -3442,7 +3442,10 @@ n
 if
 (
 !
-JS_ValueToECMAInt32
+JS
+:
+:
+ToInt32
 (
 cx
 {
@@ -3568,7 +3571,10 @@ n
 if
 (
 !
-JS_ValueToECMAInt32
+JS
+:
+:
+ToInt32
 (
 cx
 {
