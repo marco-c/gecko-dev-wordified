@@ -4390,7 +4390,11 @@ js_String_p_charCodeAt0_int
 )
 JS_DECLARE_CALLINFO
 (
-js_String_p_charCodeAt_int
+js_String_p_charCodeAt_double_int
+)
+JS_DECLARE_CALLINFO
+(
+js_String_p_charCodeAt_int_int
 )
 /
 *
