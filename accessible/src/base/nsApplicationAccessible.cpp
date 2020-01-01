@@ -1817,7 +1817,7 @@ calls
 .
 /
 /
-Basicly
+Basically
 children
 are
 kept
@@ -1862,7 +1862,7 @@ so
 that
 all
 root
-accessible
+accessibles
 are
 stored
 in

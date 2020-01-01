@@ -13623,7 +13623,7 @@ aCanCreate
 {
 nsRefPtr
 <
-nsAccessNode
+nsAccessible
 >
 acc
 =
