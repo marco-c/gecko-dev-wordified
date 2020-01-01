@@ -1162,7 +1162,7 @@ takes
 a
 string
 or
-nsIFile
+nsILocalFile
 argument
 "
 )
