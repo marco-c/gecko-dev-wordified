@@ -686,7 +686,7 @@ nsCertVerificationResult
 :
 mRV
 (
-0
+NS_OK
 )
 mVerified
 (

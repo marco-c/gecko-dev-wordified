@@ -990,7 +990,7 @@ NS_STYLE_DIRECTION_LTR
 nsAutoString
 value
 ;
-PRInt32
+nsresult
 error
 ;
 content

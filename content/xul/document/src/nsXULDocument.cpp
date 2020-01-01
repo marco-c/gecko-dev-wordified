@@ -26941,15 +26941,8 @@ posStr
 .
 ToInteger
 (
-reinterpret_cast
-<
-PRInt32
-*
->
-(
 &
 rv
-)
 )
 ;
 /

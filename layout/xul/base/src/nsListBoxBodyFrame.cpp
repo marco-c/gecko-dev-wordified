@@ -3106,7 +3106,7 @@ GetFixedRowSize
 (
 )
 {
-PRInt32
+nsresult
 dummy
 ;
 nsAutoString

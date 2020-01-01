@@ -18773,8 +18773,10 @@ tabindex
 tabIndexStr
 )
 ;
-PRInt32
+nsresult
 ec
+;
+PRInt32
 val
 =
 tabIndexStr
@@ -18919,8 +18921,10 @@ tabindex
 tabIndexStr
 )
 ;
-PRInt32
+nsresult
 ec
+;
+PRInt32
 val
 =
 tabIndexStr

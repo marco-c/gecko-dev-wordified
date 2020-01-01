@@ -5477,7 +5477,7 @@ files
 nsCAutoString
 timeString
 ;
-PRInt32
+nsresult
 error
 ;
 PRExplodedTime
@@ -13018,7 +13018,7 @@ get
 )
 )
 ;
-PRInt32
+nsresult
 err
 ;
 mServerType

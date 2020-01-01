@@ -5064,9 +5064,7 @@ if
 fileURL
 )
 return
-(
-false
-)
+NS_OK
 ;
 nsCOMPtr
 <
@@ -5633,9 +5631,7 @@ if
 fileURL
 )
 return
-(
-false
-)
+NS_OK
 ;
 nsCOMPtr
 <
@@ -5866,9 +5862,7 @@ if
 fileURL
 )
 return
-(
-false
-)
+NS_OK
 ;
 nsCOMPtr
 <
@@ -6131,9 +6125,7 @@ if
 fileURL
 )
 return
-(
-false
-)
+NS_OK
 ;
 nsCOMPtr
 <

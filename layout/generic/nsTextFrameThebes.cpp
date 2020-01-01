@@ -27422,8 +27422,10 @@ IsEmpty
 )
 )
 {
-PRInt32
+nsresult
 rv
+;
+PRInt32
 tabIndexVal
 =
 tabIndexStr

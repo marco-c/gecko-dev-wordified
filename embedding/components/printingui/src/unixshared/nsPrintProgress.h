@@ -201,7 +201,7 @@ m_pendingStatus
 PRInt32
 m_pendingStateFlags
 ;
-PRInt32
+nsresult
 m_pendingStateValue
 ;
 nsCOMPtr

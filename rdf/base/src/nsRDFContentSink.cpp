@@ -3894,10 +3894,10 @@ case
 eRDFContentSinkParseMode_Int
 :
 {
-PRInt32
-i
+nsresult
 err
 ;
+PRInt32
 i
 =
 value

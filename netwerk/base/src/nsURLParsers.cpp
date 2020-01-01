@@ -4152,7 +4152,7 @@ nondigit
 return
 NS_ERROR_MALFORMED_URI
 ;
-PRInt32
+nsresult
 err
 ;
 *

@@ -2329,7 +2329,7 @@ rv
 rv
 )
 ;
-PRInt32
+nsresult
 error
 =
 NS_OK
@@ -2398,7 +2398,7 @@ rv
 rv
 )
 ;
-PRInt32
+nsresult
 error
 =
 NS_OK
@@ -2467,7 +2467,7 @@ rv
 rv
 )
 ;
-PRInt32
+nsresult
 error
 =
 NS_OK
@@ -2536,7 +2536,7 @@ rv
 rv
 )
 ;
-PRInt32
+nsresult
 error
 =
 NS_OK

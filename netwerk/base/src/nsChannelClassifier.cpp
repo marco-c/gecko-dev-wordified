@@ -222,7 +222,7 @@ after
 a
 redirect
 )
-PRUint32
+nsresult
 status
 ;
 aChannel

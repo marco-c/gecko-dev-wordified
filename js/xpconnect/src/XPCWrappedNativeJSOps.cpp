@@ -263,7 +263,7 @@ static
 JSBool
 Throw
 (
-unsigned
+nsresult
 errNum
 JSContext
 *

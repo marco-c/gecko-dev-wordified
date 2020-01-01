@@ -323,7 +323,7 @@ msg
 undef
 XPC_MSG_DEF
 {
-0
+NS_OK
 0
 0
 }
@@ -707,7 +707,7 @@ nullptr
 )
 mResult
 (
-0
+NS_OK
 )
 mName
 (

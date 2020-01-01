@@ -515,7 +515,7 @@ domerr
 msg
 "
 {
-0
+NS_OK
 0
 nullptr
 nullptr
@@ -1061,7 +1061,7 @@ nsDOMException
 :
 GetResult
 (
-PRUint32
+nsresult
 *
 aResult
 )

@@ -6527,7 +6527,7 @@ currHeight
 =
 0
 ;
-PRInt32
+nsresult
 errorCode
 ;
 PRInt32
@@ -6899,7 +6899,7 @@ currHeight
 =
 0
 ;
-PRInt32
+nsresult
 errorCode
 ;
 PRInt32
@@ -7708,7 +7708,7 @@ Length
 0
 )
 {
-PRInt32
+nsresult
 errorCode
 ;
 PRUint32

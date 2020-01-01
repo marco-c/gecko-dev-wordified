@@ -5422,7 +5422,7 @@ doubleValue
 nsAutoString
 stringValue
 ;
-PRInt32
+nsresult
 ec
 ;
 GetValueInternal
@@ -5869,7 +5869,7 @@ min
 minStr
 )
 ;
-PRInt32
+nsresult
 ec
 ;
 double
@@ -5964,7 +5964,7 @@ max
 maxStr
 )
 ;
-PRInt32
+nsresult
 ec
 ;
 double
@@ -14581,7 +14581,7 @@ case
 NS_FORM_INPUT_NUMBER
 :
 {
-PRInt32
+nsresult
 ec
 ;
 PromiseFlatString
@@ -20495,7 +20495,7 @@ return
 kStepAny
 ;
 }
-PRInt32
+nsresult
 ec
 ;
 /

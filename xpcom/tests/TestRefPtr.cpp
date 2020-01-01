@@ -899,7 +899,7 @@ n
 )
 ;
 return
-0
+NS_OK
 ;
 }
 void
@@ -1361,7 +1361,7 @@ n
 )
 ;
 return
-0
+NS_OK
 ;
 }
 void

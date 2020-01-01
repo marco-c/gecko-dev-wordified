@@ -2773,7 +2773,7 @@ widthOffset
 length
 )
 ;
-PRInt32
+nsresult
 err
 ;
 PRInt32
@@ -3319,10 +3319,10 @@ startAttr
 )
 )
 {
-PRInt32
+nsresult
 rv
 =
-0
+NS_OK
 ;
 startVal
 =
@@ -3433,10 +3433,10 @@ valueAttr
 )
 )
 {
-PRInt32
+nsresult
 rv
 =
-0
+NS_OK
 ;
 PRInt32
 valueAttrVal

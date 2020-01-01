@@ -1583,10 +1583,10 @@ IsEmpty
 )
 )
 {
-PRInt32
+nsresult
 rv
 =
-0
+NS_OK
 ;
 startAttrVal
 =
@@ -5568,10 +5568,10 @@ found
 =
 true
 ;
-PRInt32
+nsresult
 rv
 =
-0
+NS_OK
 ;
 startVal
 =

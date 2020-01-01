@@ -2944,7 +2944,7 @@ aSortHints
 SORT_INTEGER
 )
 {
-PRInt32
+nsresult
 err
 ;
 PRInt32

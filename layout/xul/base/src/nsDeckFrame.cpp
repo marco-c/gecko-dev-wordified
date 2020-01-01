@@ -560,7 +560,7 @@ value
 )
 )
 {
-PRInt32
+nsresult
 error
 ;
 /

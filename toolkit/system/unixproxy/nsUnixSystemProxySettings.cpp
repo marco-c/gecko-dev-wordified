@@ -821,7 +821,7 @@ API
 s
 suck
 .
-PRInt32
+nsresult
 err
 ;
 port
@@ -2135,7 +2135,7 @@ maskStr2
 maskStr
 )
 ;
-PRInt32
+nsresult
 err
 ;
 mask

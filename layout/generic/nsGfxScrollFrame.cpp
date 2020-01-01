@@ -25337,7 +25337,7 @@ IsEmpty
 )
 )
 {
-PRInt32
+nsresult
 error
 ;
 /

@@ -949,7 +949,7 @@ IsEmpty
 )
 )
 {
-PRInt32
+nsresult
 errorCode
 ;
 selection

@@ -4397,7 +4397,7 @@ if
 child
 )
 return
-false
+NS_OK
 ;
 /
 /
@@ -6719,7 +6719,7 @@ if
 child
 )
 return
-false
+NS_OK
 ;
 /
 /

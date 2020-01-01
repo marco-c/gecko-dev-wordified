@@ -48152,7 +48152,7 @@ jsstr
 )
 {
 return
-JS_FALSE
+NS_OK
 ;
 }
 JSObject

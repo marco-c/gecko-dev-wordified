@@ -1569,7 +1569,7 @@ continue
 Ignore
 broken
 entries
-PRInt32
+nsresult
 portParseError
 ;
 nsCAutoString

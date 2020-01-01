@@ -7339,7 +7339,7 @@ weight
 =
 0
 ;
-PRInt32
+nsresult
 errorCode
 ;
 nsAutoString
