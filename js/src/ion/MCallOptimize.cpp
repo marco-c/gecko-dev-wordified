@@ -871,6 +871,10 @@ MNewArray
 (
 0
 type
+MNewArray
+:
+:
+NewArray_Unallocating
 )
 ;
 current
@@ -2136,6 +2140,10 @@ MNewArray
 (
 arg
 type
+MNewArray
+:
+:
+NewArray_Unallocating
 )
 ;
 current
