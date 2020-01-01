@@ -13460,9 +13460,7 @@ disown
 the
 widget
 .
-GetView
-(
-)
+mInnerView
 -
 >
 DetachWidgetEventHandler
