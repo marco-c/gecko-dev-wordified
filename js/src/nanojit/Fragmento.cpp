@@ -494,14 +494,14 @@ if
 (
 in
 >
-30
+32
 )
 return
-30
+32
 ;
 /
 /
-1GB
+4GB
 should
 be
 enough
