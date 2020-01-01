@@ -564,13 +564,12 @@ readers
 expect
 that
 .
-NS_IMPL_ISUPPORTS_INHERITED3
+NS_IMPL_ISUPPORTS_INHERITED2
 (
 nsTextAccessible
 nsAccessNode
 nsAccessible
 nsIAccessible
-nsPIAccessible
 )
 /
 *
@@ -690,7 +689,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTextAccessible
 :
 :

@@ -1151,14 +1151,6 @@ PRUint8
 index
 )
 ;
-NS_IMETHOD
-GetAllowsAnonChildAccessibles
-(
-PRBool
-*
-aAllowsAnonChildren
-)
-;
 /
 /
 nsIAccessibleEditableText
@@ -1193,6 +1185,12 @@ aState
 PRUint32
 *
 aExtraState
+)
+;
+virtual
+PRBool
+GetAllowsAnonChildAccessibles
+(
 )
 ;
 protected

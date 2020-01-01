@@ -1875,7 +1875,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsHTMLListBulletAccessible
 :
 :
@@ -1883,7 +1883,7 @@ SetParent
 (
 nsIAccessible
 *
-aParentAccessible
+aParent
 )
 {
 mParent
@@ -1892,10 +1892,7 @@ nsnull
 ;
 mWeakParent
 =
-aParentAccessible
-;
-return
-NS_OK
+aParent
 ;
 }
 NS_IMETHODIMP
@@ -1922,7 +1919,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLListBulletAccessible
 :
 :

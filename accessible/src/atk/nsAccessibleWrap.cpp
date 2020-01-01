@@ -5734,7 +5734,7 @@ return
 tmpAccWrap
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibleWrap
 :
 :

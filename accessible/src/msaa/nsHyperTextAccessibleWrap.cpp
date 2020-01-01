@@ -471,7 +471,7 @@ CAccessibleHypertext
 CAccessibleEditableText
 )
 ;
-NS_IMETHODIMP
+nsresult
 nsHyperTextAccessibleWrap
 :
 :

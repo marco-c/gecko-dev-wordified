@@ -2486,8 +2486,9 @@ puArgErr
 ;
 /
 /
-nsPIAccessible
-NS_IMETHOD
+nsAccessible
+virtual
+nsresult
 FireAccessibleEvent
 (
 nsIAccessibleEvent

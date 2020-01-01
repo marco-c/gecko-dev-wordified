@@ -9869,8 +9869,8 @@ NS_OK
 }
 /
 /
-nsPIAccessible
-NS_IMETHODIMP
+nsAccessible
+nsresult
 nsAccessibleWrap
 :
 :

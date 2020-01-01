@@ -524,8 +524,9 @@ nsISupports
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
-nsIAccessible
-NS_IMETHOD
+nsAccessible
+virtual
+nsresult
 FireAccessibleEvent
 (
 nsIAccessibleEvent

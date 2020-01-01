@@ -542,15 +542,10 @@ PRUint32
 aExtraState
 )
 ;
-/
-/
-nsPIAccessible
-NS_IMETHOD
+virtual
+PRBool
 GetAllowsAnonChildAccessibles
 (
-PRBool
-*
-aAllowsAnonChildren
 )
 ;
 protected
