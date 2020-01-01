@@ -705,6 +705,15 @@ f
 ;
 void
 JS_FASTCALL
+BitXor
+(
+VMFrame
+&
+f
+)
+;
+void
+JS_FASTCALL
 Lsh
 (
 VMFrame
