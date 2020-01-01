@@ -39382,14 +39382,13 @@ pad
 clipRect
 .
 width
->
->
-2
+/
+4
 ;
 if
 (
 pad
-<
+=
 =
 0
 )
