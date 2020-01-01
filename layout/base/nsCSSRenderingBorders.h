@@ -963,6 +963,9 @@ mOneUnitBorder
 PRPackedBool
 mNoBorderRadius
 ;
+PRPackedBool
+mAvoidStroke
+;
 /
 /
 For
