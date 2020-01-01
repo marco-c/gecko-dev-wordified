@@ -449,13 +449,6 @@ nsIObserver
 h
 "
 #
-include
-"
-nsIPrefBranch
-.
-h
-"
-#
 ifdef
 NS_DEBUG
 struct
@@ -844,9 +837,6 @@ InitFromPref
 nsLookAndFeelIntPref
 *
 aPref
-nsIPrefBranch
-*
-aPrefBranch
 )
 ;
 void
@@ -855,9 +845,6 @@ InitFromPref
 nsLookAndFeelFloatPref
 *
 aPref
-nsIPrefBranch
-*
-aPrefBranch
 )
 ;
 void
@@ -865,9 +852,6 @@ InitColorFromPref
 (
 PRInt32
 aIndex
-nsIPrefBranch
-*
-aPrefBranch
 )
 ;
 virtual
