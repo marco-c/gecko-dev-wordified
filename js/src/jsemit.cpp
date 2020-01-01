@@ -28645,11 +28645,11 @@ cg2
 >
 maxScopeDepth
 =
+uint16
 (
-uintN
-)
 -
 1
+)
 )
 ;
 if
