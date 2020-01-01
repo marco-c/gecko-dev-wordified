@@ -2823,7 +2823,7 @@ record
 .
 app
 .
-deleted
+hidden
 =
 true
 ;
