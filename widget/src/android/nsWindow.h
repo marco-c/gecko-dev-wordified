@@ -1291,6 +1291,9 @@ mIMEComposing
 nsString
 mIMEComposingText
 ;
+nsString
+mIMELastDispatchedComposingText
+;
 nsAutoTArray
 <
 nsTextRange
