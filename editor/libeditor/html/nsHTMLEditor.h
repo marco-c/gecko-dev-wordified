@@ -949,6 +949,15 @@ nsIDOMEvent
 aEvent
 )
 ;
+virtual
+bool
+IsEditable
+(
+nsIDOMNode
+*
+aNode
+)
+;
 /
 *
 -
