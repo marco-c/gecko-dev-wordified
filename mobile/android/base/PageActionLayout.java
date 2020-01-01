@@ -405,6 +405,10 @@ setNumberShown
 DEFAULT_PAGE_ACTIONS_SHOWN
 )
 ;
+refreshPageActionIcons
+(
+)
+;
 registerEventListener
 (
 "
