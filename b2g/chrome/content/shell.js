@@ -5249,6 +5249,8 @@ type
 headphones
 -
 status
+-
+changed
 '
 state
 :
@@ -5261,6 +5263,8 @@ aData
 headphones
 -
 status
+-
+changed
 "
 false
 )
