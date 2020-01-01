@@ -210,6 +210,7 @@ HandleCallStateChanged
 aCallIndex
 aCallState
 aNumber
+aIsOutgoing
 true
 )
 ;
@@ -259,6 +260,7 @@ HandleCallStateChanged
 aCallIndex
 aCallState
 aNumber
+aIsOutgoing
 false
 )
 ;
