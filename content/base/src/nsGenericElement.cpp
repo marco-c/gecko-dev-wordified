@@ -20092,7 +20092,7 @@ NS_KEY_EVENT
 {
 inputSource
 =
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_KEYBOARD

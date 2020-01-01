@@ -1165,7 +1165,7 @@ h
 #
 include
 "
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 .
 h
 "
@@ -41815,7 +41815,7 @@ touchEvent
 .
 inputSource
 =
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_TOUCH
@@ -41985,7 +41985,7 @@ event
 .
 inputSource
 =
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_TOUCH
@@ -42208,7 +42208,7 @@ event
 .
 inputSource
 =
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_TOUCH
@@ -42280,7 +42280,7 @@ GetMouseInputSource
 PRUint16
 inputSource
 =
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_MOUSE
@@ -42316,13 +42316,13 @@ TABLET_INK_TOUCH
 ?
 PRUint16
 (
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_TOUCH
 )
 :
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_PEN

@@ -456,13 +456,6 @@ nsDOMUIEvent
 .
 h
 "
-#
-include
-"
-nsIDOMNSMouseEvent
-.
-h
-"
 class
 nsIContent
 ;
@@ -475,7 +468,7 @@ nsDOMMouseEvent
 public
 nsDOMUIEvent
 public
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 {
 public
 :
@@ -501,11 +494,6 @@ NS_DECL_ISUPPORTS_INHERITED
 nsIDOMMouseEvent
 Interface
 NS_DECL_NSIDOMMOUSEEVENT
-/
-/
-nsIDOMNSMouseEvent
-Interface
-NS_DECL_NSIDOMNSMOUSEEVENT
 /
 /
 Forward

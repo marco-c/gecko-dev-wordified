@@ -668,6 +668,13 @@ nsUXThemeData
 .
 h
 "
+#
+include
+"
+nsIDOMMouseEvent
+.
+h
+"
 /
 *
 *
@@ -1464,7 +1471,7 @@ eLeftButton
 PRUint16
 aInputSource
 =
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_MOUSE

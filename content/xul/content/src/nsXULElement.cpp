@@ -4517,7 +4517,7 @@ elm
 >
 ClickWithInputSource
 (
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_KEYBOARD
@@ -12867,7 +12867,7 @@ Click
 return
 ClickWithInputSource
 (
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_UNKNOWN

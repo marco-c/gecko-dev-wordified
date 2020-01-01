@@ -1156,7 +1156,7 @@ Possible
 values
 are
 from
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 .
 PRUint16
 mInputSource

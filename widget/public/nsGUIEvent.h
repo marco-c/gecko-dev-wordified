@@ -537,7 +537,7 @@ h
 #
 include
 "
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 .
 h
 "
@@ -4665,7 +4665,7 @@ pressure
 )
 inputSource
 (
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_MOUSE
@@ -4715,7 +4715,7 @@ pressure
 Possible
 values
 at
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 PRUint16
 inputSource
 ;
