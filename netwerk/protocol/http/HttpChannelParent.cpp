@@ -377,14 +377,9 @@ http
 handler
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 handler
-"
-no
-http
-handler
-"
 )
 ;
 mTabParent

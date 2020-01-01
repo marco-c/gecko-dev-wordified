@@ -1110,7 +1110,7 @@ AddIPDLReference
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mIPCOpen
@@ -1143,7 +1143,7 @@ ReleaseIPDLReference
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mIPCOpen
 "
@@ -2262,7 +2262,7 @@ LOAD_BACKGROUND
 OnStatus
 /
 /
-NS_ASSERTION
+MOZ_ASSERT
 (
 status
 =
@@ -2274,11 +2274,6 @@ status
 =
 =
 NS_NET_STATUS_READING
-"
-unexpected
-status
-code
-"
 )
 ;
 nsAutoCString
@@ -2322,7 +2317,7 @@ progress
 0
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 progress
 <
@@ -3067,7 +3062,7 @@ progress
 0
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 progress
 <

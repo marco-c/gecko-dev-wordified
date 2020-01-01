@@ -380,7 +380,7 @@ cannot
 be
 null
 .
-NS_ASSERTION
+MOZ_ASSERT
 (
 aParam
 .
@@ -460,7 +460,7 @@ get
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aResult
 -

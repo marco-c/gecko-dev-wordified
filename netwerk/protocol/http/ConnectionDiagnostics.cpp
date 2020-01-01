@@ -200,7 +200,7 @@ void
 *
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -208,10 +208,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 nsCOMPtr

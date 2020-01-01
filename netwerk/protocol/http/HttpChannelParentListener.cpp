@@ -1847,7 +1847,7 @@ newChannel
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 newChannel
 "
@@ -1923,7 +1923,7 @@ do_QueryInterface
 mActiveChannel
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 activeRedirectingChannel
 "

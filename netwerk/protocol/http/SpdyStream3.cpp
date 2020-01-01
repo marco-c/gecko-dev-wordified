@@ -367,7 +367,7 @@ mTotalRead
 0
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -375,10 +375,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 LOG3
@@ -530,7 +526,7 @@ mUpstreamState
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -538,10 +534,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 nsresult
@@ -955,7 +947,7 @@ mSegmentReader
 =
 nullptr
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_FAILED
 (
@@ -1052,7 +1044,7 @@ break
 ;
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -1169,7 +1161,7 @@ mUpstreamState
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -1177,13 +1169,9 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mSegmentWriter
@@ -1314,7 +1302,7 @@ if
 they
 are
 complete
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -1322,22 +1310,14 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mUpstreamState
 =
 =
 GENERATING_SYN_STREAM
-"
-wrong
-state
-"
 )
 ;
 LOG3
@@ -1578,7 +1558,7 @@ RegisterStreamID
 this
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mStreamID
 &
@@ -2035,7 +2015,7 @@ mPriority
 5
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 (
@@ -2870,7 +2850,7 @@ mTxInlineFrameUsed
 8
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mTxInlineFrame
@@ -3560,7 +3540,7 @@ it
 as
 well
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mTxInlineFrameUsed
 "
@@ -3572,7 +3552,7 @@ transmit
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mSegmentReader
 "
@@ -3583,7 +3563,7 @@ mSegmentReader
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 (
 buf
@@ -3792,7 +3772,7 @@ rv
 NS_BASE_STREAM_WOULD_BLOCK
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 forceCommitment
@@ -3946,7 +3926,7 @@ transmittedCount
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 rv
 !
@@ -3970,7 +3950,7 @@ rv
 return
 rv
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 transmittedCount
 =
@@ -4028,7 +4008,7 @@ buf
 this
 cannot
 happen
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -4119,7 +4099,7 @@ transmittedCount
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 rv
 !
@@ -4143,7 +4123,7 @@ rv
 return
 rv
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 transmittedCount
 =
@@ -4291,7 +4271,7 @@ lastFrame
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -4299,13 +4279,9 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mTxInlineFrameUsed
@@ -4317,7 +4293,7 @@ empty
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mTxStreamFrameSize
@@ -4329,7 +4305,7 @@ empty
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 (
@@ -4391,7 +4367,7 @@ PR_htonl
 dataLength
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 (
@@ -4410,7 +4386,7 @@ unexpectedly
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mTxInlineFrame
@@ -10087,7 +10063,7 @@ mUpstreamState
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -10095,13 +10071,9 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mSegmentReader
 "
@@ -10266,7 +10238,7 @@ if
 mSynFrameComplete
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mTxInlineFrameUsed
 "
@@ -10300,7 +10272,7 @@ can
 '
 t
 happen
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -10328,7 +10300,7 @@ GENERATING_REQUEST_BODY
 break
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 *
 countRead
@@ -10542,7 +10514,7 @@ BREAK
 case
 SENDING_REQUEST_BODY
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mTxInlineFrameUsed
 "
@@ -10563,7 +10535,7 @@ countRead
 false
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_FAILED
 (
@@ -10705,7 +10677,7 @@ break
 case
 SENDING_FIN_STREAM
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -10723,7 +10695,7 @@ break
 ;
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -10947,7 +10919,7 @@ mUpstreamState
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -10955,13 +10927,9 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mSegmentWriter
 "

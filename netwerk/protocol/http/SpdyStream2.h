@@ -233,15 +233,10 @@ SetFullyOpen
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mFullyOpen
-"
-SetFullyOpen
-already
-open
-"
 )
 ;
 mFullyOpen
