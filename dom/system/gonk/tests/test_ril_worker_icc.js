@@ -2974,7 +2974,7 @@ testDisplayCondition
 123
 456
 true
-false
+true
 ]
 [
 0
@@ -2983,7 +2983,7 @@ false
 123
 456
 false
-false
+true
 ]
 [
 2
