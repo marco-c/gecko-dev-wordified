@@ -891,10 +891,7 @@ AddRefAtoms
 (
 )
 ;
-nsJSRuntime
-:
-:
-Startup
+StartupJSEnvironment
 (
 )
 ;
@@ -1787,10 +1784,7 @@ NS_NameSpaceManagerShutdown
 (
 )
 ;
-nsJSRuntime
-:
-:
-Shutdown
+ShutdownJSEnvironment
 (
 )
 ;
