@@ -1049,17 +1049,6 @@ successors
 "
 )
 ;
-MControlInstruction
-*
-last
-=
-block
--
->
-lastIns
-(
-)
-;
 for
 (
 uint32
@@ -1069,7 +1058,7 @@ i
 ;
 i
 <
-last
+block
 -
 >
 numSuccessors
@@ -1085,7 +1074,7 @@ MBasicBlock
 *
 successor
 =
-last
+block
 -
 >
 getSuccessor

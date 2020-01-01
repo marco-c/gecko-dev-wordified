@@ -503,6 +503,14 @@ MIRGraph
 graph
 )
 ;
+bool
+BuildPhiReverseMapping
+(
+MIRGraph
+&
+graph
+)
+;
 }
 /
 /
