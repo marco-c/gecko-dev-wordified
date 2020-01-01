@@ -6613,7 +6613,7 @@ tp
 ;
 }
 static
-JS_INLINE
+JS_ALWAYS_INLINE
 JSBool
 ScanAsSpace
 (

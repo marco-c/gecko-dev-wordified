@@ -1928,6 +1928,11 @@ JSSLOT_PRIVATE
 ;
 oldscript
 =
+(
+JSScript
+*
+)
+(
 !
 JSVAL_IS_VOID
 (
@@ -1940,6 +1945,7 @@ v
 )
 :
 NULL
+)
 ;
 LOCKED_OBJ_SET_SLOT
 (
@@ -5573,6 +5579,7 @@ cx
 js_ScriptClass
 NULL
 NULL
+0
 )
 ;
 if

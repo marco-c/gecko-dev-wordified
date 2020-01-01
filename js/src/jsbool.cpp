@@ -851,7 +851,6 @@ JS_FN
 js_toSource_str
 bool_toSource
 0
-0
 JSFUN_THISP_BOOLEAN
 )
 #
@@ -861,14 +860,12 @@ JS_FN
 js_toString_str
 bool_toString
 0
-0
 JSFUN_THISP_BOOLEAN
 )
 JS_FN
 (
 js_valueOf_str
 bool_valueOf
-0
 0
 JSFUN_THISP_BOOLEAN
 )
