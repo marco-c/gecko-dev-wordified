@@ -6224,10 +6224,6 @@ doc
 RemoveImage
 (
 mCurrentRequest
-nsIDocument
-:
-:
-REQUEST_DISCARD
 )
 ;
 if
@@ -6242,10 +6238,6 @@ doc
 RemoveImage
 (
 mPendingRequest
-nsIDocument
-:
-:
-REQUEST_DISCARD
 )
 ;
 }
