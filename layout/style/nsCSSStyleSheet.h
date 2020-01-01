@@ -1238,6 +1238,17 @@ counted
 *
 /
 }
+nsIDOMNode
+*
+GetOwningNode
+(
+)
+const
+{
+return
+mOwningNode
+;
+}
 void
 SetOwnerRule
 (
