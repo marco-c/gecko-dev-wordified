@@ -2419,9 +2419,7 @@ org
 LOCALE
 %
 /
-%
-APP
-%
+mobile
 /
 api
 /
