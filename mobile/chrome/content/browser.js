@@ -3076,6 +3076,10 @@ window
 .
 innerHeight
 -
+Math
+.
+floor
+(
 findbar
 .
 getBoundingClientRect
@@ -3083,6 +3087,7 @@ getBoundingClientRect
 )
 .
 height
+)
 ;
 }
 translatePhoneNumbers
