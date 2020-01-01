@@ -310,7 +310,6 @@ n
 )
 ;
 }
-;
 const
 RADIOINTERFACELAYER_CID
 =
