@@ -851,6 +851,16 @@ char
 aMessage
 )
 {
+*
+aName
+=
+nsnull
+;
+*
+aMessage
+=
+nsnull
+;
 ResultStruct
 *
 result_struct
