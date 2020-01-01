@@ -1759,7 +1759,6 @@ h
 #
 undef
 STYLE_STRUCT
-inline
 const
 void
 *
