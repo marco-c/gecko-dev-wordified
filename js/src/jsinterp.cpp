@@ -17987,8 +17987,7 @@ BEGIN_CASE
 JSOP_HEADER
 )
 {
-uint32
-index
+slot
 =
 GET_UINT24
 (
@@ -17999,12 +17998,12 @@ pc
 ;
 JS_ASSERT
 (
-index
+slot
 <
 rt
 -
 >
-loopTableIndexGen
+loopTableSlotGen
 )
 ;
 JSTraceMonitor
@@ -18019,7 +18018,7 @@ cx
 ;
 if
 (
-index
+slot
 >
 =
 tm
@@ -18032,7 +18031,7 @@ loopTableSize
 js_GrowLoopTable
 (
 cx
-index
+slot
 )
 )
 goto
@@ -18048,7 +18047,7 @@ cx
 .
 loopTable
 [
-index
+slot
 ]
 ;
 rval

@@ -967,6 +967,18 @@ invocation
 JSPropertyCache
 propertyCache
 ;
+/
+*
+Trace
+-
+tree
+recorder
+/
+interpreter
+state
+.
+*
+/
 JSTraceMonitor
 traceMonitor
 ;
@@ -2473,7 +2485,7 @@ environment
 *
 /
 uint32
-loopTableIndexGen
+loopTableSlotGen
 ;
 /
 *
