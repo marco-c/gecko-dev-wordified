@@ -569,6 +569,11 @@ nsIFrame
 :
 :
 eSVG
+|
+nsIFrame
+:
+:
+eSVGGeometry
 )
 )
 ;
