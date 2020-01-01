@@ -215,8 +215,6 @@ Destroy
 (
 )
 MOZ_OVERRIDE
-{
-}
 ;
 virtual
 TextureFactoryIdentifier
