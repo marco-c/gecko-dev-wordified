@@ -8546,6 +8546,17 @@ function
 (
 )
 {
+if
+(
+BrowserApp
+.
+selectedTab
+!
+=
+this
+)
+return
+;
 sendMessageToJava
 (
 {
