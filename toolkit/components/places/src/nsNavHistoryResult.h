@@ -4803,6 +4803,12 @@ nsACString
 aDynamicContainerType
 )
 ;
+virtual
+~
+nsNavHistoryFolderResultNode
+(
+)
+;
 NS_DECL_ISUPPORTS_INHERITED
 NS_FORWARD_COMMON_RESULTNODE_TO_BASE_NO_GETITEMMID
 NS_IMETHOD
@@ -5034,6 +5040,11 @@ PRUint32
 *
 aNodeIndex
 )
+;
+private
+:
+PRBool
+mIsRegisteredFolderObserver
 ;
 }
 ;
