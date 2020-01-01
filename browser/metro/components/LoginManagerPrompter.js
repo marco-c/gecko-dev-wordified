@@ -911,12 +911,14 @@ chrome
 :
 /
 /
-mozapps
+browser
 /
 skin
 /
-passwordmgr
+images
 /
+infobar
+-
 key
 .
 png
