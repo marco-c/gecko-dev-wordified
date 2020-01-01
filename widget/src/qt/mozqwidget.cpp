@@ -797,6 +797,7 @@ DoPaint
 (
 aPainter
 aOption
+aWidget
 )
 ;
 }

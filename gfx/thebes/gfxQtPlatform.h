@@ -529,6 +529,16 @@ backend
 RENDER_BUFFERED
 /
 *
+Direct
+rendering
+to
+Widget
+surface
+*
+/
+RENDER_DIRECT
+/
+*
 max
 *
 /
