@@ -43406,10 +43406,7 @@ bytes
 ;
 }
 }
-JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -43805,14 +43802,11 @@ Type
 }
 }
 }
-JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
-SizeOfObjectTypeInferenceData
+SizeOfTypeObjectExcludingThis
 (
 void
 *

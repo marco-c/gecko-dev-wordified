@@ -943,10 +943,7 @@ JS_THREADSAFE
 *
 /
 extern
-JS_PUBLIC_API
-(
 void
-)
 SizeOfCompartmentTypeInferenceData
 (
 JSContext
@@ -963,11 +960,8 @@ mallocSizeOf
 )
 ;
 extern
-JS_PUBLIC_API
-(
 void
-)
-SizeOfObjectTypeInferenceData
+SizeOfTypeObjectExcludingThis
 (
 /
 *
@@ -985,10 +979,7 @@ mallocSizeOf
 )
 ;
 extern
-JS_PUBLIC_API
-(
 size_t
-)
 SizeOfCompartmentShapeTable
 (
 JSCompartment
