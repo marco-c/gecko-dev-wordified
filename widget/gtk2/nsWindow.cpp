@@ -19545,6 +19545,8 @@ maximized
 /
 icon
 /
+fullscreen
+/
 /
 states
 if
@@ -19559,6 +19561,8 @@ changed_mask
 GDK_WINDOW_STATE_ICONIFIED
 |
 GDK_WINDOW_STATE_MAXIMIZED
+|
+GDK_WINDOW_STATE_FULLSCREEN
 )
 )
 =
