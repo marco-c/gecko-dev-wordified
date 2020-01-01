@@ -482,6 +482,15 @@ use
 +
 )
 {
+/
+/
+See
+#
+809485
+why
+this
+is
+allowed
 if
 (
 use
@@ -496,8 +505,7 @@ isResumePoint
 (
 )
 )
-return
-false
+continue
 ;
 MDefinition
 *
