@@ -468,7 +468,11 @@ h
 #
 include
 "
-nsICSSStyleRule
+mozilla
+/
+css
+/
+StyleRule
 .
 h
 "
@@ -645,7 +649,10 @@ nsAttrValue
 :
 nsAttrValue
 (
-nsICSSStyleRule
+css
+:
+:
+StyleRule
 *
 aValue
 const
@@ -1510,7 +1517,10 @@ nsAttrValue
 :
 SetTo
 (
-nsICSSStyleRule
+css
+:
+:
+StyleRule
 *
 aValue
 const

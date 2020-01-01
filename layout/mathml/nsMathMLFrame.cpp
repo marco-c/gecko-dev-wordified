@@ -512,13 +512,6 @@ h
 #
 include
 "
-nsICSSStyleRule
-.
-h
-"
-#
-include
-"
 nsStyleChangeList
 .
 h

@@ -715,7 +715,11 @@ h
 #
 include
 "
-nsICSSStyleRule
+mozilla
+/
+css
+/
+StyleRule
 .
 h
 "

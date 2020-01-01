@@ -477,9 +477,6 @@ class
 nsICSSRule
 ;
 class
-nsICSSStyleRule
-;
-class
 nsCSSStyleSheet
 ;
 class
@@ -508,6 +505,9 @@ Declaration
 ;
 class
 Loader
+;
+class
+StyleRule
 ;
 }
 }
@@ -931,7 +931,13 @@ aBaseURL
 nsIPrincipal
 *
 aNodePrincipal
-nsICSSStyleRule
+mozilla
+:
+:
+css
+:
+:
+StyleRule
 *
 *
 aResult
