@@ -608,7 +608,7 @@ web
 -
 install
 -
-confirm
+prompt
 ;
 1
 "
