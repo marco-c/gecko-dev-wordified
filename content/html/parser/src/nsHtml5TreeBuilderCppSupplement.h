@@ -627,6 +627,10 @@ documentModeHandler
 (
 aParser
 )
+scriptingEnabled
+(
+PR_FALSE
+)
 fragment
 (
 PR_FALSE
