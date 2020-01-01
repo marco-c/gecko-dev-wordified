@@ -26794,6 +26794,12 @@ result
 )
 )
 {
+ostream
+.
+close
+(
+)
+;
 Services
 .
 obs
