@@ -763,18 +763,6 @@ h
 #
 endif
 #
-ifdef
-__SYMBIAN32__
-#
-include
-<
-unistd
-.
-h
->
-#
-endif
-#
 include
 "
 nsIScriptSecurityManager
@@ -3177,9 +3165,9 @@ return
 false
 ;
 }
-JSObject
+JSScript
 *
-scriptObj
+script
 =
 JS_CompileFileHandleForPrincipals
 (
@@ -3202,7 +3190,7 @@ file
 if
 (
 !
-scriptObj
+script
 )
 return
 false
@@ -3221,7 +3209,7 @@ JS_ExecuteScript
 (
 cx
 obj
-scriptObj
+script
 &
 result
 )
@@ -6147,9 +6135,9 @@ JSBool
 forceTTY
 )
 {
-JSObject
+JSScript
 *
-scriptObj
+script
 ;
 jsval
 result
@@ -6346,7 +6334,7 @@ DoBeginRequest
 cx
 )
 ;
-scriptObj
+script
 =
 JS_CompileFileHandleForPrincipals
 (
@@ -6359,7 +6347,7 @@ gJSPrincipals
 ;
 if
 (
-scriptObj
+script
 &
 &
 !
@@ -6372,7 +6360,7 @@ JS_ExecuteScript
 (
 cx
 obj
-scriptObj
+script
 &
 result
 )
@@ -6570,7 +6558,7 @@ JS_ClearPendingException
 cx
 )
 ;
-scriptObj
+script
 =
 JS_CompileScriptForPrincipals
 (
@@ -6590,7 +6578,7 @@ startline
 ;
 if
 (
-scriptObj
+script
 )
 {
 JSErrorReporter
@@ -6608,7 +6596,7 @@ JS_ExecuteScript
 (
 cx
 obj
-scriptObj
+script
 &
 result
 )
