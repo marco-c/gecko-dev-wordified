@@ -2925,7 +2925,7 @@ the
 result
 after
 a
-succsesful
+successful
 call
 .
 *
