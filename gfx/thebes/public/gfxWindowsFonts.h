@@ -581,6 +581,10 @@ mHasStyles
 (
 PR_FALSE
 )
+mIsBadUnderlineFont
+(
+PR_FALSE
+)
 {
 }
 FontEntry
