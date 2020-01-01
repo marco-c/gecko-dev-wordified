@@ -701,7 +701,7 @@ is
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 null
 "
 There
@@ -721,7 +721,7 @@ is
 (
 gSources
 .
-selectedClient
+selectedBreakpointClient
 null
 "
 There
@@ -875,10 +875,10 @@ testBreakpoint
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 gSources
 .
-selectedClient
+selectedBreakpointClient
 url
 line
 true
@@ -1792,7 +1792,7 @@ is
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 null
 "
 There
@@ -1812,7 +1812,7 @@ is
 (
 gSources
 .
-selectedClient
+selectedBreakpointClient
 null
 "
 There
@@ -2088,7 +2088,7 @@ if
 (
 gSources
 .
-selectedClient
+selectedBreakpointClient
 !
 =
 =
@@ -2099,7 +2099,7 @@ expected
 (
 gSources
 .
-selectedClient
+selectedBreakpointClient
 |
 |
 bogusClient

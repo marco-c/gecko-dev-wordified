@@ -119,8 +119,6 @@ devtools
 .
 debugger
 .
-ui
-.
 pause
 -
 on
@@ -139,8 +137,6 @@ setBoolPref
 devtools
 .
 debugger
-.
-ui
 .
 pause
 -

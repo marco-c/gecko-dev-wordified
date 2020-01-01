@@ -1925,7 +1925,7 @@ gDebugger
 .
 DebuggerView
 .
-getEditorLine
+getEditorLineText
 (
 this
 .

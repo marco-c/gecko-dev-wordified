@@ -1412,9 +1412,9 @@ ChromeDebugger
 oncommand
 =
 "
-DebuggerUI
+BrowserDebuggerProcess
 .
-toggleChromeDebugger
+init
 (
 )
 ;
