@@ -518,6 +518,13 @@ ShadowLayerChild
 .
 h
 "
+#
+include
+"
+ShadowLayerUtils
+.
+h
+"
 using
 namespace
 mozilla
