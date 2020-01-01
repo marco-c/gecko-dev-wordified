@@ -3111,7 +3111,6 @@ vp
 !
 VALUE_IS_XML
 (
-cx
 *
 vp
 )
