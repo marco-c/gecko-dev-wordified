@@ -207,6 +207,12 @@ is
 effectively
 blocked
 .
+e
+.
+preventDefault
+(
+)
+;
 }
 )
 ;
