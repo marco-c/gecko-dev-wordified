@@ -2245,10 +2245,6 @@ return
 mRunToCompletionDepth
 ;
 }
-return
-true
-;
-}
 /
 *
 void
