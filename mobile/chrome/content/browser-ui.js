@@ -5437,11 +5437,9 @@ spec
 {
 this
 .
-_panel
-.
-hidden
-=
-true
+close
+(
+)
 ;
 BrowserUI
 .
