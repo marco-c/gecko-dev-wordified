@@ -336,7 +336,7 @@ T
 bool
 Validate
 (
-T
+uint32_t
 maxAllowed
 size_t
 first
