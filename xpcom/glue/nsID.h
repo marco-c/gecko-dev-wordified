@@ -639,13 +639,6 @@ for
 details
 .
 return
-this
-=
-=
-&
-other
-|
-|
 (
 (
 (
