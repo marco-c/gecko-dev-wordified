@@ -653,9 +653,6 @@ const
 nsAString
 &
 aMessage
-BluetoothReplyRunnable
-*
-aRunnable
 )
 MOZ_OVERRIDE
 ;

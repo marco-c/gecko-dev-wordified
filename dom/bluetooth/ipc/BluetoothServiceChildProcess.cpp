@@ -1545,9 +1545,6 @@ const
 nsAString
 &
 aMessage
-BluetoothReplyRunnable
-*
-aRunnable
 )
 {
 MOZ_CRASH
