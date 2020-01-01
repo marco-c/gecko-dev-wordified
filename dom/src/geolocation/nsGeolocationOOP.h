@@ -499,8 +499,10 @@ nsIDOMElement
 >
 mElement
 ;
+nsCOMPtr
+<
 nsGeolocationRequestProxy
-*
+>
 mProxy
 ;
 private
