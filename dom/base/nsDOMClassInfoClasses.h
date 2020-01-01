@@ -1105,10 +1105,6 @@ SVGStringList
 )
 DOMCI_CLASS
 (
-SVGTransform
-)
-DOMCI_CLASS
-(
 SVGZoomEvent
 )
 /

@@ -241,9 +241,6 @@ class
 nsIDOMSVGTests
 ;
 class
-nsIDOMSVGTransform
-;
-class
 nsIDOMWindow
 ;
 class

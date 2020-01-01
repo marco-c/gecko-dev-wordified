@@ -3329,7 +3329,7 @@ _retval
 }
 /
 *
-nsIDOMSVGTransform
+DOMSVGTransform
 createSVGTransform
 (
 )
@@ -3342,7 +3342,7 @@ nsSVGSVGElement
 :
 CreateSVGTransform
 (
-nsIDOMSVGTransform
+nsISupports
 *
 *
 _retval
@@ -3365,7 +3365,7 @@ NS_OK
 }
 /
 *
-nsIDOMSVGTransform
+DOMSVGTransform
 createSVGTransformFromMatrix
 (
 in
@@ -3384,7 +3384,7 @@ CreateSVGTransformFromMatrix
 nsIDOMSVGMatrix
 *
 matrix
-nsIDOMSVGTransform
+nsISupports
 *
 *
 _retval
