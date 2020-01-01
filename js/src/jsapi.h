@@ -9339,9 +9339,9 @@ rhs
 .
 asBits
 ;
+}
 #
 endif
-}
 }
 ;
 }
