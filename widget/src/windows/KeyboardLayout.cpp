@@ -808,7 +808,7 @@ index
 SetDeadKey
 (
 aShiftState
-PR_FALSE
+false
 )
 ;
 for
@@ -942,7 +942,7 @@ index
 SetDeadKey
 (
 aShiftState
-PR_TRUE
+true
 )
 ;
 mShiftStates
@@ -4133,7 +4133,7 @@ mDeadKeyShiftState
 ;
 EnsureDeadKeyActive
 (
-PR_FALSE
+false
 mActiveDeadKey
 kbdState
 )
@@ -4191,7 +4191,7 @@ aBaseChar
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -4214,7 +4214,7 @@ CompositeChar
 aCompositeChar
 ;
 return
-PR_TRUE
+true
 ;
 }
 PRUint32
@@ -4404,7 +4404,7 @@ deadKeyActive
 =
 EnsureDeadKeyActive
 (
-PR_TRUE
+true
 aDeadKey
 aDeadKeyKbdState
 )
@@ -4620,7 +4620,7 @@ entries
 }
 deadKeyActive
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -4671,7 +4671,7 @@ combination
 .
 deadKeyActive
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -4688,7 +4688,7 @@ deadKeyActive
 =
 EnsureDeadKeyActive
 (
-PR_FALSE
+false
 aDeadKey
 aDeadKeyKbdState
 )

@@ -901,7 +901,7 @@ NotifyEndStatusChange
 {
 sIsStatusChanged
 =
-PR_FALSE
+false
 ;
 }
 static

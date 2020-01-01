@@ -541,7 +541,7 @@ NULL
 )
 mRegistered
 (
-PR_FALSE
+false
 )
 {
 WindowHook
@@ -846,7 +846,7 @@ nsWindowGfx
 CreateIcon
 (
 icon
-PR_FALSE
+false
 0
 0
 nsWindowGfx
@@ -1016,7 +1016,7 @@ UpdateTaskbarProperties
 ;
 mRegistered
 =
-PR_TRUE
+true
 ;
 return
 rv
@@ -1059,7 +1059,7 @@ TaskbarPreview
 EnableCustomDrawing
 (
 mProxyWindow
-PR_TRUE
+true
 )
 ;
 return
@@ -1837,7 +1837,7 @@ NS_ERROR_FAILURE
 ;
 mRegistered
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1882,7 +1882,7 @@ void
 )
 SetVisible
 (
-PR_FALSE
+false
 )
 ;
 WindowHook
@@ -2013,7 +2013,7 @@ message
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void

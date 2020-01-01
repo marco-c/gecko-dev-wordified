@@ -758,7 +758,7 @@ aItem
 *
 aResult
 =
-PR_FALSE
+false
 ;
 PRInt16
 theType
@@ -808,7 +808,7 @@ NS_OK
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1105,7 +1105,7 @@ rv
 *
 aResult
 =
-PR_FALSE
+false
 ;
 PRInt16
 theType
@@ -1261,7 +1261,7 @@ mURI
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1289,7 +1289,7 @@ equals
 *
 aResult
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1514,7 +1514,7 @@ rv
 *
 aResult
 =
-PR_FALSE
+false
 ;
 PRInt16
 theType
@@ -1688,7 +1688,7 @@ mHandlerApp
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1716,7 +1716,7 @@ equals
 *
 aResult
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2027,7 +2027,7 @@ kSecondsPerDay
 ;
 alreadyObtained
 =
-PR_TRUE
+true
 ;
 return
 icoReCacheSecondsTimeout
@@ -3270,7 +3270,7 @@ iconUri
 {
 useUriIcon
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -3472,7 +3472,7 @@ get
 ;
 usedUriIcon
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3579,7 +3579,7 @@ aSame
 *
 aSame
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3878,7 +3878,7 @@ rv
 NS_NewLocalFile
 (
 filepath
-PR_FALSE
+false
 getter_AddRefs
 (
 file
@@ -4754,7 +4754,7 @@ if
 handlerApp
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -4803,7 +4803,7 @@ exists
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -4947,7 +4947,7 @@ aCryptoHash
 >
 Finish
 (
-PR_TRUE
+true
 aUriHash
 )
 ;

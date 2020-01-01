@@ -563,7 +563,7 @@ lParam
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -642,11 +642,11 @@ aShell
 )
 mCustomDrawing
 (
-PR_FALSE
+false
 )
 mHaveButtons
 (
-PR_FALSE
+false
 )
 mState
 (
@@ -678,7 +678,7 @@ void
 )
 SetVisible
 (
-PR_TRUE
+true
 )
 ;
 memset
@@ -949,7 +949,7 @@ mHaveButtons
 {
 mHaveButtons
 =
-PR_TRUE
+true
 ;
 WindowHook
 &
@@ -1720,7 +1720,7 @@ UpdateTaskbarProperties
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -1824,7 +1824,7 @@ for
 drawing
 SetEnableCustomDrawing
 (
-PR_FALSE
+false
 )
 ;
 WindowHook

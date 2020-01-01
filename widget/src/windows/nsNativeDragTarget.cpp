@@ -573,7 +573,7 @@ DROPEFFECT_NONE
 )
 mTookOwnRef
 (
-PR_FALSE
+false
 )
 mWindow
 (
@@ -1208,7 +1208,7 @@ status
 nsDragEvent
 event
 (
-PR_TRUE
+true
 aEventType
 mWindow
 )
@@ -1332,7 +1332,7 @@ event
 .
 isMeta
 =
-PR_FALSE
+false
 ;
 event
 .
@@ -1547,7 +1547,7 @@ currSession
 >
 SetCanDrop
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1667,7 +1667,7 @@ AddRef
 ;
 mTookOwnRef
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -2296,7 +2296,7 @@ mDragService
 >
 EndDragSession
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2341,7 +2341,7 @@ Release
 ;
 mTookOwnRef
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -2395,7 +2395,7 @@ mDragService
 >
 EndDragSession
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2415,7 +2415,7 @@ in
 DragEnter
 mTookOwnRef
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -2807,7 +2807,7 @@ serv
 >
 EndDragSession
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -2850,7 +2850,7 @@ Release
 ;
 mTookOwnRef
 =
-PR_FALSE
+false
 ;
 }
 return

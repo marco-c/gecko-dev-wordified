@@ -1093,7 +1093,7 @@ IsDeadKey
 mLastShiftState
 )
 :
-PR_FALSE
+false
 ;
 }
 void

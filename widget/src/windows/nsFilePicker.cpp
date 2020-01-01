@@ -1501,7 +1501,7 @@ parent
 >
 SuppressBlurEvents
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2789,8 +2789,8 @@ Trim
 "
 .
 "
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 /
@@ -2961,7 +2961,7 @@ mode
 }
 MOZ_SEH_EXCEPT
 (
-PR_TRUE
+true
 )
 {
 MessageBoxW
@@ -2986,7 +2986,7 @@ MB_ICONERROR
 ;
 result
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -3746,7 +3746,7 @@ parent
 >
 SuppressBlurEvents
 (
-PR_FALSE
+false
 )
 ;
 }

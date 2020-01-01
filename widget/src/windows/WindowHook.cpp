@@ -982,7 +982,7 @@ if
 data
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 length
@@ -1074,7 +1074,7 @@ if
 cb
 )
 return
-PR_FALSE
+false
 ;
 return
 cb

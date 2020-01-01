@@ -818,7 +818,7 @@ SUCCEEDED
 (
 hr
 )
-PR_FALSE
+false
 )
 ;
 mWindow
@@ -913,7 +913,7 @@ aWindow
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 mContext
@@ -926,7 +926,7 @@ NULL
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1074,7 +1074,7 @@ mWindow
 NULL
 ;
 return
-PR_TRUE
+true
 ;
 }
 STDMETHODIMP
@@ -1971,7 +1971,7 @@ info
 nsQueryContentEvent
 event
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 mWindow
 )
@@ -3211,7 +3211,7 @@ mLastDispatchedTextEvent
 new
 nsTextEvent
 (
-PR_TRUE
+true
 NS_TEXT_TEXT
 nsnull
 )
@@ -3657,7 +3657,7 @@ OnStartCompositionInternal
 (
 pComposition
 composingRange
-PR_TRUE
+true
 )
 ;
 PR_LOG
@@ -3782,7 +3782,7 @@ sysColor
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -3813,7 +3813,7 @@ cr
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 TF_CT_NONE
@@ -3821,7 +3821,7 @@ TF_CT_NONE
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -3852,7 +3852,7 @@ nsTextRangeStyle
 LINESTYLE_NONE
 ;
 return
-PR_TRUE
+true
 ;
 case
 TF_LS_SOLID
@@ -3865,7 +3865,7 @@ nsTextRangeStyle
 LINESTYLE_SOLID
 ;
 return
-PR_TRUE
+true
 ;
 case
 TF_LS_DOT
@@ -3878,7 +3878,7 @@ nsTextRangeStyle
 LINESTYLE_DOTTED
 ;
 return
-PR_TRUE
+true
 ;
 case
 TF_LS_DASH
@@ -3891,7 +3891,7 @@ nsTextRangeStyle
 LINESTYLE_DASHED
 ;
 return
-PR_TRUE
+true
 ;
 case
 TF_LS_SQUIGGLE
@@ -3904,12 +3904,12 @@ nsTextRangeStyle
 LINESTYLE_WAVY
 ;
 return
-PR_TRUE
+true
 ;
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -4073,7 +4073,7 @@ string
 nsTextEvent
 event
 (
-PR_TRUE
+true
 NS_TEXT_TEXT
 mWindow
 )
@@ -4944,7 +4944,7 @@ mLastDispatchedCompositionString
 nsCompositionEvent
 compositionUpdate
 (
-PR_TRUE
+true
 NS_COMPOSITION_UPDATE
 mWindow
 )
@@ -5187,7 +5187,7 @@ else
 nsSelectionEvent
 event
 (
-PR_TRUE
+true
 NS_SELECTION_SET
 mWindow
 )
@@ -5321,7 +5321,7 @@ return
 SetSelectionInternal
 (
 pSelection
-PR_TRUE
+true
 )
 ;
 }
@@ -5725,7 +5725,7 @@ content
 nsQueryContentEvent
 event
 (
-PR_TRUE
+true
 NS_QUERY_TEXT_CONTENT
 mWindow
 )
@@ -6463,7 +6463,7 @@ returned
 nsQueryContentEvent
 event
 (
-PR_TRUE
+true
 NS_QUERY_TEXT_CONTENT
 mWindow
 )
@@ -6686,7 +6686,7 @@ coordinates
 nsQueryContentEvent
 event
 (
-PR_TRUE
+true
 NS_QUERY_TEXT_RECT
 mWindow
 )
@@ -6832,7 +6832,7 @@ refWindow
 >
 GetTopLevelWindow
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -7027,7 +7027,7 @@ coordinates
 nsQueryContentEvent
 event
 (
-PR_TRUE
+true
 NS_QUERY_EDITOR_RECT
 mWindow
 )
@@ -7099,7 +7099,7 @@ refWindow
 >
 GetTopLevelWindow
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -7589,7 +7589,7 @@ text
 nsCompositionEvent
 compEvent
 (
-PR_TRUE
+true
 NS_COMPOSITION_START
 mWindow
 )
@@ -7667,7 +7667,7 @@ Destroyed
 nsTextEvent
 event
 (
-PR_TRUE
+true
 NS_TEXT_TEXT
 mWindow
 )
@@ -8020,7 +8020,7 @@ range
 nsSelectionEvent
 selEvent
 (
-PR_TRUE
+true
 NS_SELECTION_SET
 mWindow
 )
@@ -8055,7 +8055,7 @@ selEvent
 .
 mReversed
 =
-PR_FALSE
+false
 ;
 mWindow
 -
@@ -8082,7 +8082,7 @@ composition
 nsQueryContentEvent
 queryEvent
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 mWindow
 )
@@ -8160,7 +8160,7 @@ FALSE
 nsCompositionEvent
 event
 (
-PR_TRUE
+true
 NS_COMPOSITION_START
 mWindow
 )
@@ -8308,7 +8308,7 @@ OnStartCompositionInternal
 (
 pComposition
 range
-PR_FALSE
+false
 )
 ;
 if
@@ -8524,7 +8524,7 @@ mLastDispatchedCompositionString
 nsCompositionEvent
 compositionUpdate
 (
-PR_TRUE
+true
 NS_COMPOSITION_UPDATE
 mWindow
 )
@@ -8604,7 +8604,7 @@ string
 nsTextEvent
 textEvent
 (
-PR_TRUE
+true
 NS_TEXT_TEXT
 mWindow
 )
@@ -8787,7 +8787,7 @@ S_OK
 nsCompositionEvent
 event
 (
-PR_TRUE
+true
 NS_COMPOSITION_END
 mWindow
 )
@@ -9455,7 +9455,7 @@ if
 pUnk
 )
 return
-PR_FALSE
+false
 ;
 nsRefPtr
 <
@@ -9481,7 +9481,7 @@ if
 compMgr
 )
 return
-PR_FALSE
+false
 ;
 return
 SUCCEEDED
@@ -9612,7 +9612,7 @@ comp
 )
 )
 return
-PR_FALSE
+false
 ;
 VARIANT
 variant
@@ -9676,7 +9676,7 @@ vt
 =
 VT_I4
 return
-PR_FALSE
+false
 ;
 }
 void

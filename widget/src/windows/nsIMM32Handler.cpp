@@ -1199,7 +1199,7 @@ mComposingWindow
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 HWND
@@ -1222,7 +1222,7 @@ nsWindow
 GetTopLevelHWND
 (
 wnd
-PR_TRUE
+true
 )
 =
 =
@@ -2110,15 +2110,15 @@ mCompositionStart
 )
 mIsComposing
 (
-PR_FALSE
+false
 )
 mIsComposingOnPlugin
 (
-PR_FALSE
+false
 )
 mNativeCaretIsCreated
 (
-PR_FALSE
+false
 )
 {
 PR_LOG
@@ -2534,7 +2534,7 @@ aWindow
 >
 AssociateDefaultIMC
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2746,7 +2746,7 @@ aWindow
 >
 AssociateDefaultIMC
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2784,7 +2784,7 @@ aRetValue
 ;
 aEatMessage
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2893,7 +2893,7 @@ nsWindow
 too
 .
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3037,7 +3037,7 @@ message
 .
 sIsIMEOpening
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -3135,7 +3135,7 @@ if
 gIMM32Handler
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -3166,15 +3166,15 @@ IMEMOUSE_RDOWN
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aEatMessage
 =
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -3208,7 +3208,7 @@ aWindow
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 WM_IME_COMPOSITION
@@ -3230,7 +3230,7 @@ lParam
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 WM_IME_ENDCOMPOSITION
@@ -3250,7 +3250,7 @@ aWindow
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 WM_IME_CHAR
@@ -3265,7 +3265,7 @@ lParam
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 WM_IME_NOTIFY
@@ -3280,7 +3280,7 @@ lParam
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 WM_IME_REQUEST
@@ -3303,7 +3303,7 @@ aRetValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 WM_IME_SELECT
@@ -3318,7 +3318,7 @@ lParam
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 WM_IME_SETCONTEXT
@@ -3334,7 +3334,7 @@ aRetValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 WM_KEYDOWN
@@ -3358,7 +3358,7 @@ gIMM32Handler
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aEatMessage
@@ -3416,7 +3416,7 @@ aEatMessage
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 ;
@@ -3458,7 +3458,7 @@ aRetValue
 ;
 aEatMessage
 =
-PR_FALSE
+false
 ;
 switch
 (
@@ -3479,7 +3479,7 @@ DispatchPluginEvent
 msg
 wParam
 lParam
-PR_FALSE
+false
 )
 ;
 return
@@ -3512,7 +3512,7 @@ lParam
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 WM_IME_STARTCOMPOSITION
@@ -3534,7 +3534,7 @@ lParam
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 WM_IME_ENDCOMPOSITION
@@ -3556,7 +3556,7 @@ lParam
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 WM_IME_CHAR
@@ -3578,7 +3578,7 @@ lParam
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 WM_IME_SETCONTEXT
@@ -3594,7 +3594,7 @@ aRetValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 WM_IME_NOTIFY
@@ -3614,11 +3614,11 @@ being
 opening
 sIsIMEOpening
 =
-PR_FALSE
+false
 ;
 }
 return
-PR_FALSE
+false
 ;
 case
 WM_KEYDOWN
@@ -3683,7 +3683,7 @@ get
 ;
 }
 return
-PR_FALSE
+false
 ;
 case
 WM_CHAR
@@ -3695,7 +3695,7 @@ gIMM32Handler
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aEatMessage
@@ -3711,7 +3711,7 @@ lParam
 )
 ;
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -3751,15 +3751,15 @@ DispatchPluginEvent
 msg
 wParam
 lParam
-PR_FALSE
+false
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3998,7 +3998,7 @@ aWindow
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -4406,7 +4406,7 @@ DispatchTextEvent
 (
 aWindow
 IMEContext
-PR_FALSE
+false
 )
 ;
 HandleEndComposition
@@ -4549,7 +4549,7 @@ two
 WM_CHAR
 msgs
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -4599,7 +4599,7 @@ not
 implement
 yet
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -4965,7 +4965,7 @@ IMN_SETOPENSTATUS
 :
 sIsIMEOpening
 =
-PR_FALSE
+false
 ;
 PR_LOG
 (
@@ -5108,7 +5108,7 @@ NS_VK_ALT
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -5217,9 +5217,9 @@ here
 nsModifierKeyState
 modKeyState
 (
-PR_FALSE
-PR_FALSE
-PR_TRUE
+false
+false
+true
 )
 ;
 aWindow
@@ -5281,7 +5281,7 @@ not
 implement
 yet
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -5451,7 +5451,7 @@ wParam
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -5516,7 +5516,7 @@ not
 implement
 yet
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -5716,7 +5716,7 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -5896,12 +5896,12 @@ cancelComposition
 CancelComposition
 (
 aWindow
-PR_TRUE
+true
 )
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -5927,7 +5927,7 @@ IsIMECharRecordsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 WPARAM
@@ -6043,7 +6043,7 @@ ResetIMECharRecords
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -6083,7 +6083,7 @@ plug
 in
 .
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -6302,7 +6302,7 @@ FALSE
 ;
 mIsComposingOnPlugin
 =
-PR_TRUE
+true
 ;
 mComposingWindow
 =
@@ -6319,7 +6319,7 @@ DispatchPluginEvent
 WM_IME_STARTCOMPOSITION
 wParam
 lParam
-PR_FALSE
+false
 )
 ;
 return
@@ -6497,7 +6497,7 @@ lParam
 {
 mIsComposingOnPlugin
 =
-PR_FALSE
+false
 ;
 mComposingWindow
 =
@@ -6527,7 +6527,7 @@ lParam
 {
 mIsComposingOnPlugin
 =
-PR_TRUE
+true
 ;
 mComposingWindow
 =
@@ -6545,7 +6545,7 @@ DispatchPluginEvent
 WM_IME_COMPOSITION
 wParam
 lParam
-PR_TRUE
+true
 )
 ;
 return
@@ -6607,7 +6607,7 @@ FALSE
 ;
 mIsComposingOnPlugin
 =
-PR_FALSE
+false
 ;
 mComposingWindow
 =
@@ -6624,7 +6624,7 @@ DispatchPluginEvent
 WM_IME_ENDCOMPOSITION
 wParam
 lParam
-PR_FALSE
+false
 )
 ;
 return
@@ -6692,7 +6692,7 @@ DispatchPluginEvent
 WM_IME_CHAR
 wParam
 lParam
-PR_TRUE
+true
 )
 ;
 if
@@ -6925,7 +6925,7 @@ DispatchPluginEvent
 WM_IME_SETCONTEXT
 wParam
 lParam
-PR_FALSE
+false
 )
 ;
 /
@@ -7007,7 +7007,7 @@ bug
 491848
 )
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -7033,7 +7033,7 @@ IsIMECharRecordsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 WPARAM
@@ -7163,7 +7163,7 @@ by
 nsWindow
 .
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -7380,7 +7380,7 @@ focus
 nsQueryContentEvent
 selection
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 aWindow
 )
@@ -7458,7 +7458,7 @@ Truncate
 nsCompositionEvent
 event
 (
-PR_TRUE
+true
 NS_COMPOSITION_START
 aWindow
 )
@@ -7490,7 +7490,7 @@ aIMEContext
 ;
 mIsComposing
 =
-PR_TRUE
+true
 ;
 mComposingWindow
 =
@@ -7871,7 +7871,7 @@ DispatchTextEvent
 (
 aWindow
 aIMEContext
-PR_FALSE
+false
 )
 ;
 return
@@ -7943,7 +7943,7 @@ DispatchTextEvent
 (
 aWindow
 aIMEContext
-PR_FALSE
+false
 )
 ;
 HandleEndComposition
@@ -8456,7 +8456,7 @@ clauseArrayLength
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 /
@@ -9042,7 +9042,7 @@ attrArrayLength
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 attrArrayLength
@@ -9571,7 +9571,7 @@ n
 nsCompositionEvent
 event
 (
-PR_TRUE
+true
 NS_COMPOSITION_END
 aWindow
 )
@@ -9596,7 +9596,7 @@ DestroyCaret
 ;
 mNativeCaretIsCreated
 =
-PR_FALSE
+false
 ;
 }
 aWindow
@@ -9639,7 +9639,7 @@ event
 ;
 mIsComposing
 =
-PR_FALSE
+false
 ;
 mComposingWindow
 =
@@ -9840,7 +9840,7 @@ lParam
 nsQueryContentEvent
 selection
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 aWindow
 )
@@ -9899,7 +9899,7 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -9973,7 +9973,7 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 *
@@ -10004,7 +10004,7 @@ oResult
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -10050,7 +10050,7 @@ needSize
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 *
@@ -10176,7 +10176,7 @@ pReconv
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -10211,7 +10211,7 @@ Length
 *
 oResult
 =
-PR_FALSE
+false
 ;
 IMECHARPOSITION
 *
@@ -10254,7 +10254,7 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -10309,7 +10309,7 @@ IMECHARPOSITION
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -10369,7 +10369,7 @@ GetWindowHandle
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -10415,7 +10415,7 @@ len
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsIntRect
@@ -10437,7 +10437,7 @@ r
 NS_ENSURE_TRUE
 (
 ret
-PR_FALSE
+false
 )
 ;
 nsIntRect
@@ -10479,7 +10479,7 @@ aWindow
 >
 GetTopLevelWindow
 (
-PR_FALSE
+false
 )
 r
 nsnull
@@ -10566,7 +10566,7 @@ n
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -10633,7 +10633,7 @@ hasCompositionString
 nsQueryContentEvent
 selection
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 aWindow
 )
@@ -10685,7 +10685,7 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 targetOffset
@@ -10815,7 +10815,7 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -10831,7 +10831,7 @@ editor
 nsQueryContentEvent
 textContent
 (
-PR_TRUE
+true
 NS_QUERY_TEXT_CONTENT
 aWindow
 )
@@ -10891,7 +10891,7 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsAutoString
@@ -10942,7 +10942,7 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -10993,7 +10993,7 @@ RFind
 \
 n
 "
-PR_FALSE
+false
 targetOffset
 -
 1
@@ -11012,7 +11012,7 @@ Find
 \
 r
 "
-PR_FALSE
+false
 targetOffset
 +
 targetLength
@@ -11104,7 +11104,7 @@ oResult
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -11150,7 +11150,7 @@ needSize
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -11252,7 +11252,7 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 pReconv
@@ -11411,7 +11411,7 @@ pReconv
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -11438,7 +11438,7 @@ aWindow
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PR_LOG
@@ -11531,7 +11531,7 @@ DispatchTextEvent
 (
 mComposingWindow
 IMEContext
-PR_FALSE
+false
 )
 ;
 HandleEndComposition
@@ -11540,7 +11540,7 @@ mComposingWindow
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -11626,7 +11626,7 @@ default
 :
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 unknown
 attribute
@@ -11871,7 +11871,7 @@ mLastDispatchedCompositionString
 nsCompositionEvent
 compositionUpdate
 (
-PR_TRUE
+true
 NS_COMPOSITION_UPDATE
 aWindow
 )
@@ -11932,7 +11932,7 @@ aIMEContext
 nsTextEvent
 event
 (
-PR_TRUE
+true
 NS_TEXT_TEXT
 aWindow
 )
@@ -12018,7 +12018,7 @@ event
 .
 isMeta
 =
-PR_FALSE
+false
 ;
 event
 .
@@ -12750,13 +12750,13 @@ aLength
 NS_ENSURE_TRUE
 (
 aOffset
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
 (
 mIsComposing
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -12764,7 +12764,7 @@ NS_ENSURE_TRUE
 ShouldDrawCompositionStringOurselves
 (
 )
-PR_FALSE
+false
 )
 ;
 bool
@@ -12826,7 +12826,7 @@ i
 ;
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -12839,7 +12839,7 @@ aLength
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -12884,7 +12884,7 @@ Length
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 PRUint32
@@ -12958,7 +12958,7 @@ break
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -13012,7 +13012,7 @@ len
 >
 =
 0
-PR_FALSE
+false
 )
 ;
 if
@@ -13044,7 +13044,7 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 :
@@ -13080,7 +13080,7 @@ NULL
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -13109,7 +13109,7 @@ point
 nsQueryContentEvent
 selection
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 aWindow
 )
@@ -13166,7 +13166,7 @@ aOffset
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -13240,7 +13240,7 @@ NS_QUERY_IME_SELECTED_TEXT
 ?
 useCaretRect
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -13299,7 +13299,7 @@ useCaretRect
 nsQueryContentEvent
 charRect
 (
-PR_TRUE
+true
 NS_QUERY_TEXT_RECT
 aWindow
 )
@@ -13415,7 +13415,7 @@ height
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -13451,7 +13451,7 @@ point
 nsQueryContentEvent
 selection
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 aWindow
 )
@@ -13503,7 +13503,7 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -13518,7 +13518,7 @@ mOffset
 nsQueryContentEvent
 caretRect
 (
-PR_TRUE
+true
 NS_QUERY_CARET_RECT
 aWindow
 )
@@ -13577,7 +13577,7 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 aCaretRect
@@ -13637,7 +13637,7 @@ height
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -13690,7 +13690,7 @@ r
 NS_ENSURE_TRUE
 (
 ret
-PR_FALSE
+false
 )
 ;
 nsWindow
@@ -13702,7 +13702,7 @@ aWindow
 >
 GetTopLevelWindow
 (
-PR_FALSE
+false
 )
 ;
 nsIntRect
@@ -13996,7 +13996,7 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 ret
@@ -14013,7 +14013,7 @@ r
 NS_ENSURE_TRUE
 (
 ret
-PR_FALSE
+false
 )
 ;
 }
@@ -14049,7 +14049,7 @@ r
 NS_ENSURE_TRUE
 (
 ret
-PR_FALSE
+false
 )
 ;
 }
@@ -14289,7 +14289,7 @@ compForm
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -14385,7 +14385,7 @@ mIsComposing
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIntPoint
@@ -14404,7 +14404,7 @@ lParam
 nsQueryContentEvent
 charAtPt
 (
-PR_TRUE
+true
 NS_QUERY_CHARACTER_AT_POINT
 aWindow
 )
@@ -14474,7 +14474,7 @@ Length
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -14527,7 +14527,7 @@ aWindow
 >
 GetTopLevelWindow
 (
-PR_FALSE
+false
 )
 cursorInTopLevel
 )
@@ -14759,7 +14759,7 @@ lParam
 ;
 aEatMessage
 =
-PR_FALSE
+false
 ;
 switch
 (
@@ -14827,7 +14827,7 @@ get
 ;
 }
 return
-PR_FALSE
+false
 ;
 case
 VK_TAB
@@ -14972,17 +14972,17 @@ window
 CancelComposition
 (
 aWindow
-PR_FALSE
+false
 )
 ;
 }
 return
-PR_FALSE
+false
 ;
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 }

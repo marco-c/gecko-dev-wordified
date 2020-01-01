@@ -472,7 +472,7 @@ NULL
 )
 mNativeCallbackPending
 (
-PR_FALSE
+false
 )
 {
 }

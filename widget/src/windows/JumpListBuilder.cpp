@@ -677,7 +677,7 @@ mMaxItems
 )
 mHasCommit
 (
-PR_FALSE
+false
 )
 {
 :
@@ -775,7 +775,7 @@ aAvailable
 *
 aAvailable
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -784,7 +784,7 @@ mJumpListMgr
 *
 aAvailable
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -952,7 +952,7 @@ removedItems
 *
 _retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1020,12 +1020,12 @@ removedItems
 ;
 sBuildingList
 =
-PR_TRUE
+true
 ;
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1652,7 +1652,7 @@ currFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1716,7 +1716,7 @@ rv
 *
 _retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1984,7 +1984,7 @@ hr
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2015,7 +2015,7 @@ KDC_RECENT
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2046,7 +2046,7 @@ KDC_FREQUENT
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2387,7 +2387,7 @@ hr
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2434,7 +2434,7 @@ AbortList
 ;
 sBuildingList
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2463,7 +2463,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2485,7 +2485,7 @@ CommitList
 ;
 sBuildingList
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2510,11 +2510,11 @@ hr
 *
 _retval
 =
-PR_TRUE
+true
 ;
 mHasCommit
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -2544,7 +2544,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2599,7 +2599,7 @@ get
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2651,7 +2651,7 @@ type
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2664,10 +2664,10 @@ nsIJumpListItem
 JUMPLIST_ITEM_SEPARATOR
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -2923,7 +2923,7 @@ removedItems
 AppendElement
 (
 item
-PR_FALSE
+false
 )
 ;
 }
@@ -4005,7 +4005,7 @@ icoFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -4292,7 +4292,7 @@ currFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }

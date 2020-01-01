@@ -1142,7 +1142,7 @@ DMPAPER_LETTER
 11
 .
 0
-PR_TRUE
+true
 }
 {
 DMPAPER_LEGAL
@@ -1152,7 +1152,7 @@ DMPAPER_LEGAL
 14
 .
 0
-PR_TRUE
+true
 }
 {
 DMPAPER_A4
@@ -1162,7 +1162,7 @@ DMPAPER_A4
 297
 .
 0
-PR_FALSE
+false
 }
 {
 DMPAPER_B4
@@ -1172,7 +1172,7 @@ DMPAPER_B4
 354
 .
 0
-PR_FALSE
+false
 }
 {
 DMPAPER_B5
@@ -1182,7 +1182,7 @@ DMPAPER_B5
 257
 .
 0
-PR_FALSE
+false
 }
 {
 DMPAPER_TABLOID
@@ -1192,7 +1192,7 @@ DMPAPER_TABLOID
 17
 .
 0
-PR_TRUE
+true
 }
 {
 DMPAPER_LEDGER
@@ -1202,7 +1202,7 @@ DMPAPER_LEDGER
 11
 .
 0
-PR_TRUE
+true
 }
 {
 DMPAPER_STATEMENT
@@ -1212,7 +1212,7 @@ DMPAPER_STATEMENT
 8
 .
 5
-PR_TRUE
+true
 }
 {
 DMPAPER_EXECUTIVE
@@ -1222,7 +1222,7 @@ DMPAPER_EXECUTIVE
 10
 .
 5
-PR_TRUE
+true
 }
 {
 DMPAPER_A3
@@ -1232,7 +1232,7 @@ DMPAPER_A3
 420
 .
 0
-PR_FALSE
+false
 }
 {
 DMPAPER_A5
@@ -1242,7 +1242,7 @@ DMPAPER_A5
 210
 .
 0
-PR_FALSE
+false
 }
 {
 DMPAPER_CSHEET
@@ -1252,7 +1252,7 @@ DMPAPER_CSHEET
 22
 .
 0
-PR_TRUE
+true
 }
 {
 DMPAPER_DSHEET
@@ -1262,7 +1262,7 @@ DMPAPER_DSHEET
 34
 .
 0
-PR_TRUE
+true
 }
 {
 DMPAPER_ESHEET
@@ -1272,7 +1272,7 @@ DMPAPER_ESHEET
 44
 .
 0
-PR_TRUE
+true
 }
 {
 DMPAPER_LETTERSMALL
@@ -1282,7 +1282,7 @@ DMPAPER_LETTERSMALL
 11
 .
 0
-PR_TRUE
+true
 }
 {
 DMPAPER_A4SMALL
@@ -1292,7 +1292,7 @@ DMPAPER_A4SMALL
 297
 .
 0
-PR_FALSE
+false
 }
 {
 DMPAPER_FOLIO
@@ -1302,7 +1302,7 @@ DMPAPER_FOLIO
 13
 .
 0
-PR_TRUE
+true
 }
 {
 DMPAPER_QUARTO
@@ -1312,7 +1312,7 @@ DMPAPER_QUARTO
 275
 .
 0
-PR_FALSE
+false
 }
 {
 DMPAPER_10X14
@@ -1322,7 +1322,7 @@ DMPAPER_10X14
 14
 .
 0
-PR_TRUE
+true
 }
 {
 DMPAPER_11X17
@@ -1332,7 +1332,7 @@ DMPAPER_11X17
 17
 .
 0
-PR_TRUE
+true
 }
 {
 DMPAPER_NOTE
@@ -1342,7 +1342,7 @@ DMPAPER_NOTE
 11
 .
 0
-PR_TRUE
+true
 }
 {
 DMPAPER_ENV_9
@@ -1352,7 +1352,7 @@ DMPAPER_ENV_9
 8
 .
 875
-PR_TRUE
+true
 }
 {
 DMPAPER_ENV_10
@@ -1362,7 +1362,7 @@ DMPAPER_ENV_10
 9
 .
 5
-PR_TRUE
+true
 }
 {
 DMPAPER_ENV_11
@@ -1372,7 +1372,7 @@ DMPAPER_ENV_11
 10
 .
 375
-PR_TRUE
+true
 }
 {
 DMPAPER_ENV_12
@@ -1382,7 +1382,7 @@ DMPAPER_ENV_12
 11
 .
 0
-PR_TRUE
+true
 }
 {
 DMPAPER_ENV_14
@@ -1392,7 +1392,7 @@ DMPAPER_ENV_14
 11
 .
 5
-PR_TRUE
+true
 }
 {
 DMPAPER_ENV_DL
@@ -1402,7 +1402,7 @@ DMPAPER_ENV_DL
 220
 .
 0
-PR_FALSE
+false
 }
 {
 DMPAPER_ENV_C5
@@ -1412,7 +1412,7 @@ DMPAPER_ENV_C5
 229
 .
 0
-PR_FALSE
+false
 }
 {
 DMPAPER_ENV_C3
@@ -1422,7 +1422,7 @@ DMPAPER_ENV_C3
 458
 .
 0
-PR_FALSE
+false
 }
 {
 DMPAPER_ENV_C4
@@ -1432,7 +1432,7 @@ DMPAPER_ENV_C4
 324
 .
 0
-PR_FALSE
+false
 }
 {
 DMPAPER_ENV_C6
@@ -1442,7 +1442,7 @@ DMPAPER_ENV_C6
 162
 .
 0
-PR_FALSE
+false
 }
 {
 DMPAPER_ENV_C65
@@ -1452,7 +1452,7 @@ DMPAPER_ENV_C65
 229
 .
 0
-PR_FALSE
+false
 }
 {
 DMPAPER_ENV_B4
@@ -1462,7 +1462,7 @@ DMPAPER_ENV_B4
 353
 .
 0
-PR_FALSE
+false
 }
 {
 DMPAPER_ENV_B5
@@ -1472,7 +1472,7 @@ DMPAPER_ENV_B5
 250
 .
 0
-PR_FALSE
+false
 }
 {
 DMPAPER_ENV_B6
@@ -1482,7 +1482,7 @@ DMPAPER_ENV_B6
 125
 .
 0
-PR_FALSE
+false
 }
 {
 DMPAPER_ENV_ITALY
@@ -1492,7 +1492,7 @@ DMPAPER_ENV_ITALY
 230
 .
 0
-PR_FALSE
+false
 }
 {
 DMPAPER_ENV_MONARCH
@@ -1502,7 +1502,7 @@ DMPAPER_ENV_MONARCH
 7
 .
 5
-PR_TRUE
+true
 }
 {
 DMPAPER_ENV_PERSONAL
@@ -1512,7 +1512,7 @@ DMPAPER_ENV_PERSONAL
 6
 .
 5
-PR_TRUE
+true
 }
 {
 DMPAPER_FANFOLD_US
@@ -1522,7 +1522,7 @@ DMPAPER_FANFOLD_US
 11
 .
 0
-PR_TRUE
+true
 }
 {
 DMPAPER_FANFOLD_STD_GERMAN
@@ -1532,7 +1532,7 @@ DMPAPER_FANFOLD_STD_GERMAN
 12
 .
 0
-PR_TRUE
+true
 }
 {
 DMPAPER_FANFOLD_LGL_GERMAN
@@ -1542,7 +1542,7 @@ DMPAPER_FANFOLD_LGL_GERMAN
 13
 .
 0
-PR_TRUE
+true
 }
 }
 ;
@@ -2153,7 +2153,7 @@ aPrinterName
 {
 aIsFound
 =
-PR_TRUE
+true
 ;
 aIsFile
 =
@@ -2272,7 +2272,7 @@ false
 ;
 aIsFile
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -2791,7 +2791,7 @@ localFile
 >
 Remove
 (
-PR_FALSE
+false
 /
 *
 recursive
@@ -6149,7 +6149,7 @@ aPrintSettings
 >
 SetIsInitializedFromPrinter
 (
-PR_TRUE
+true
 )
 ;
 BOOL
@@ -6344,7 +6344,7 @@ aPrintSettings
 >
 SetShrinkToFit
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -6550,7 +6550,7 @@ kPaperSizeMillimeters
 ;
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
