@@ -478,7 +478,7 @@ malloc_usable_size
 (
 )
 that
-returns
+measures
 the
 *
 *
@@ -507,7 +507,7 @@ ptr
 *
 *
 *
-Return
+Measure
 all
 memory
 used
@@ -529,6 +529,7 @@ size_t
 )
 PL_SizeOfArenaPoolExcludingPool
 (
+const
 PLArenaPool
 *
 pool

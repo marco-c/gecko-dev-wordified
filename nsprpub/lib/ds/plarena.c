@@ -2314,6 +2314,7 @@ size_t
 )
 PL_SizeOfArenaPoolExcludingPool
 (
+const
 PLArenaPool
 *
 pool
@@ -2346,6 +2347,7 @@ are
 separate
 and
 must
+be
 measured
 .
 *
@@ -2355,6 +2357,7 @@ size
 =
 0
 ;
+const
 PLArena
 *
 arena
