@@ -734,6 +734,25 @@ self
 xpt_name
 )
             
+#
+We
+just
+recompile
+all
+xpidls
+because
+it
+'
+s
+easier
+and
+less
+error
+            
+#
+prone
+.
+            
 self
 .
 fh
@@ -786,7 +805,7 @@ config
 /
 makefiles
 /
-xpidl
+precompile
 \
 n
 '
@@ -805,15 +824,10 @@ NONRECURSIVE_TARGETS_export_xpidl_TARGETS
 '
                 
 '
-xpt
-/
-%
-s
+xpidl
+\
+n
 '
-%
-self
-.
-xpt_name
 )
         
 return
