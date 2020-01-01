@@ -3584,6 +3584,13 @@ stderr
 for
 errors
       
+if
+outerr
+[
+1
+]
+:
+        
 errl
 =
 outerr
@@ -3594,7 +3601,7 @@ outerr
 splitlines
 (
 )
-      
+        
 if
 (
 len
@@ -3606,7 +3613,7 @@ errl
 1
 )
 :
-        
+          
 if
 (
 (
@@ -3628,7 +3635,7 @@ denied
 -
 1
 )
-          
+            
 or
 (
 errl
@@ -3650,14 +3657,14 @@ exist
 1
 )
 )
-          
+            
 and
 self
 .
 useRunAs
 )
 :
-          
+            
 #
 If
 we
@@ -3674,7 +3681,7 @@ then
 we
 should
 try
-          
+            
 #
 to
 copy
@@ -3689,14 +3696,14 @@ location
 first
 before
 attempting
-          
+            
 #
 to
 pull
 it
 again
 .
-          
+            
 remoteTmpFile
 =
 self
@@ -3717,7 +3724,7 @@ basename
 (
 remoteFile
 )
-          
+            
 self
 .
 checkCmdAs
@@ -3743,7 +3750,7 @@ of
 remoteTmpFile
 ]
 )
-          
+            
 self
 .
 checkCmdAs
@@ -3761,7 +3768,7 @@ chmod
 remoteTmpFile
 ]
 )
-          
+            
 self
 .
 runCmd
@@ -3780,13 +3787,13 @@ stdout
 read
 (
 )
-          
+            
 #
 Clean
 up
 temporary
 file
-          
+            
 self
 .
 checkCmdAs
@@ -3825,7 +3832,6 @@ close
       
 return
 ret
-;
     
 except
 :
