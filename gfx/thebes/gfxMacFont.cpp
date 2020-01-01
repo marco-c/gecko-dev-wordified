@@ -506,6 +506,10 @@ fontOptions
 CAIRO_ANTIALIAS_NONE
 )
 ;
+mAntialiasOption
+=
+kAntialiasNone
+;
 }
 else
 if
@@ -520,6 +524,10 @@ cairo_font_options_set_antialias
 fontOptions
 CAIRO_ANTIALIAS_GRAY
 )
+;
+mAntialiasOption
+=
+kAntialiasGrayscale
 ;
 }
 mScaledFont
