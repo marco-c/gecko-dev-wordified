@@ -440,7 +440,7 @@ mThreadLimit
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mIdleCount
 <

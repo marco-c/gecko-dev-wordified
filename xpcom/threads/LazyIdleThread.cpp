@@ -1633,7 +1633,7 @@ SelfDestruct
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mRefCnt
 =
