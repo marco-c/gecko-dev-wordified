@@ -102,13 +102,6 @@ mozilla_dom_SVGClipPathElement_h
 #
 include
 "
-nsIDOMSVGClipPathElement
-.
-h
-"
-#
-include
-"
 nsIDOMSVGUnitTypes
 .
 h
@@ -165,7 +158,7 @@ MOZ_FINAL
 public
 SVGClipPathElementBase
 public
-nsIDOMSVGClipPathElement
+nsIDOMSVGElement
 public
 nsIDOMSVGUnitTypes
 {
@@ -229,7 +222,6 @@ public
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGCLIPPATHELEMENT
 /
 /
 xxx
@@ -263,13 +255,6 @@ aResult
 const
 ;
 virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
-;
-virtual
 nsIDOMNode
 *
 AsDOMNode
@@ -293,10 +278,6 @@ ClipPathUnits
 ;
 protected
 :
-/
-/
-nsIDOMSVGClipPathElement
-values
 enum
 {
 CLIPPATHUNITS

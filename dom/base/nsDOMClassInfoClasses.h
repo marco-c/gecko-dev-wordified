@@ -794,10 +794,6 @@ TimeEvent
 )
 DOMCI_CLASS
 (
-SVGClipPathElement
-)
-DOMCI_CLASS
-(
 SVGFEBlendElement
 )
 DOMCI_CLASS
