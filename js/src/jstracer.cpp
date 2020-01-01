@@ -493,9 +493,14 @@ NULL
 jsval
 result
 ;
+#
+ifdef
+DEBUG
 JSBool
 ok
 =
+#
+endif
 JS_ExecuteScript
 (
 cx
