@@ -7679,8 +7679,11 @@ fun
 gen
 -
 >
-frame
-.
+getFloatingFrame
+(
+)
+-
+>
 fun
 ;
 script
