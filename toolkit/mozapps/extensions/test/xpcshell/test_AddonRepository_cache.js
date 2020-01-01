@@ -1085,11 +1085,7 @@ html
 "
 contributionAmount
 :
-"
-11
-.
-12
-"
+null
 averageRating
 :
 2
@@ -2292,11 +2288,7 @@ html
 "
 contributionAmount
 :
-"
-11
-.
-12
-"
+null
 averageRating
 :
 2
