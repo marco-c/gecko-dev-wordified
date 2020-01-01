@@ -466,7 +466,7 @@ JS
 :
 :
 Value
-&
+*
 aRetValue
 )
 =

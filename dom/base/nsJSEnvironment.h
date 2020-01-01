@@ -311,7 +311,7 @@ JS
 :
 :
 Value
-&
+*
 aRetValue
 )
 ;
