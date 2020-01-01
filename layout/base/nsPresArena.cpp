@@ -1583,7 +1583,7 @@ void
 *
 Allocate
 (
-PRUnit32
+PRUint32
 /
 *
 unused
