@@ -219,7 +219,7 @@ GetChannel
 =
 0
 ;
-void
+bool
 GenerateLookupTable
 (
 uint8_t
