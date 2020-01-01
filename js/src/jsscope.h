@@ -5235,8 +5235,7 @@ getUserId
 JSContext
 *
 cx
-jsid
-*
+MutableHandleId
 idp
 )
 const

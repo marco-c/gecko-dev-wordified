@@ -2533,11 +2533,8 @@ IndexToId
 (
 cx
 index
+&
 id
-.
-address
-(
-)
 )
 )
 return
@@ -2714,11 +2711,8 @@ IndexToId
 (
 cx
 index
+&
 id
-.
-address
-(
-)
 )
 )
 return

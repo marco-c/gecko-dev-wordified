@@ -2775,11 +2775,8 @@ FetchElementId
 cx
 obj
 key
+&
 id
-.
-address
-(
-)
 &
 dummy
 )
