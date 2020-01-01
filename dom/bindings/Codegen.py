@@ -69942,6 +69942,18 @@ type
                             
 descriptorProvider
                             
+isEnforceRange
+=
+member
+.
+enforceRange
+                            
+isClamp
+=
+member
+.
+clamp
+                            
 isMember
 =
 "
