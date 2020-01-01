@@ -364,7 +364,7 @@ mLoopEnd
 (
 0
 )
-mSampleRate
+mBufferSampleRate
 (
 0
 )
@@ -517,7 +517,7 @@ GetValue
 0
 &
 &
-mSampleRate
+mBufferSampleRate
 =
 =
 IdealAudioRate
@@ -689,7 +689,7 @@ AudioBufferSourceNode
 :
 SAMPLE_RATE
 :
-mSampleRate
+mBufferSampleRate
 =
 aParam
 ;
@@ -830,7 +830,7 @@ mResampler
 speex_resampler_init
 (
 mChannels
-mSampleRate
+mBufferSampleRate
 ComputeFinalOutSampleRate
 (
 )
@@ -1074,7 +1074,7 @@ buffer
 according
 to
 |
-mSampleRate
+mBufferSampleRate
 |
 and
 /
@@ -1158,7 +1158,7 @@ static_cast
 double
 >
 (
-mSampleRate
+mBufferSampleRate
 )
 /
 ComputeFinalOutSampleRate
@@ -1908,7 +1908,7 @@ mDopplerShift
 0
 &
 &
-mSampleRate
+mBufferSampleRate
 =
 =
 IdealAudioRate
@@ -2575,7 +2575,7 @@ int32_t
 mLoopEnd
 ;
 int32_t
-mSampleRate
+mBufferSampleRate
 ;
 uint32_t
 mPosition
