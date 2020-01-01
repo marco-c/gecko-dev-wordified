@@ -61,6 +61,16 @@ clear
 (
 )
 ;
+if
+(
+typeof
+findReferences
+=
+=
+'
+function
+'
+)
 assertEq
 (
 referencesVia
