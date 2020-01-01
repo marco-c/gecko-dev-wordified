@@ -135,13 +135,6 @@ h
 #
 include
 "
-jsprf
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Util
