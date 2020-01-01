@@ -8516,6 +8516,8 @@ nsIContentSecurityPolicy
 aCSP
 bool
 aEvalAllowed
+bool
+aReportCSPViolations
 )
 :
 EventTarget
@@ -8618,6 +8620,10 @@ false
 mEvalAllowed
 (
 aEvalAllowed
+)
+mReportCSPViolations
+(
+aReportCSPViolations
 )
 {
 MOZ_COUNT_CTOR
@@ -11311,6 +11317,8 @@ aCSP
 bool
 aEvalAllowed
 bool
+aReportCSPViolations
+bool
 aXHRParamsAllowed
 )
 :
@@ -11333,6 +11341,7 @@ aPrincipal
 aChannel
 aCSP
 aEvalAllowed
+aReportCSPViolations
 )
 mJSContext
 (
@@ -11492,6 +11501,11 @@ bool
 evalAllowed
 =
 true
+;
+bool
+reportEvalViolations
+=
+false
 ;
 JSContext
 *
@@ -12557,6 +12571,8 @@ csp
 GetAllowsEval
 (
 &
+reportEvalViolations
+&
 evalAllowed
 )
 )
@@ -12828,6 +12844,7 @@ principal
 channel
 csp
 evalAllowed
+reportEvalViolations
 xhrParamsAllowed
 )
 ;
