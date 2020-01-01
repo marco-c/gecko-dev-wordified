@@ -2076,7 +2076,9 @@ pfx
 if
 (
 !
-mRoot
+GetRoot
+(
+)
 )
 {
 fprintf
@@ -2099,7 +2101,9 @@ get
 return
 ;
 }
-mRoot
+GetRoot
+(
+)
 -
 >
 Dump
@@ -2198,7 +2202,9 @@ pfx
 if
 (
 !
-mRoot
+GetRoot
+(
+)
 )
 {
 MOZ_LAYERS_LOG
@@ -2222,7 +2228,9 @@ get
 return
 ;
 }
-mRoot
+GetRoot
+(
+)
 -
 >
 Log
