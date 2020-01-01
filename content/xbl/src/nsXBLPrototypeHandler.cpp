@@ -2145,7 +2145,7 @@ it
 .
 nsCOMPtr
 <
-nsIDOMEventListener
+nsIJSEventListener
 >
 eventListener
 ;
@@ -2186,6 +2186,13 @@ eventListener
 HandleEvent
 (
 aEvent
+)
+;
+eventListener
+-
+>
+Disconnect
+(
 )
 ;
 return

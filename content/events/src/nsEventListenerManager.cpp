@@ -2536,7 +2536,7 @@ one
 .
 nsCOMPtr
 <
-nsIDOMEventListener
+nsIJSEventListener
 >
 scriptListener
 ;
