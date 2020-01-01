@@ -10707,9 +10707,7 @@ i
 {
 if
 (
-nsnull
-=
-=
+!
 PL_strcasecmp
 (
 tag
@@ -10731,9 +10729,7 @@ PR_FALSE
 ;
 if
 (
-nsnull
-=
-=
+!
 PL_strcasecmp
 (
 tag
@@ -10759,9 +10755,7 @@ PR_FALSE
 ;
 if
 (
-nsnull
-=
-=
+!
 PL_strcasecmp
 (
 tag
