@@ -1572,6 +1572,14 @@ for
 production
 use
 !
+This
+is
+called
+via
+reflection
+by
+robocop
+.
 *
 /
 public
