@@ -571,7 +571,7 @@ void
 Assembler
 :
 :
-flush
+finish
 (
 )
 {
