@@ -1163,7 +1163,7 @@ XULTreeItemAccessibleBase
 /
 nsAccessNode
 virtual
-bool
+void
 Init
 (
 )
