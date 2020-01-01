@@ -453,10 +453,10 @@ BLOCK
 /
 #
 ifndef
-__mozStorageRow_h__
+mozStorageRow_h
 #
 define
-__mozStorageRow_h__
+mozStorageRow_h
 #
 include
 "
@@ -620,4 +620,4 @@ mozilla
 endif
 /
 /
-__mozStorageRow_h__
+mozStorageRow_h

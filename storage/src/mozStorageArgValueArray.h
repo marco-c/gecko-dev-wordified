@@ -450,10 +450,10 @@ BLOCK
 /
 #
 ifndef
-_mozStorageArgValueArray_h_
+mozStorageArgValueArray_h
 #
 define
-_mozStorageArgValueArray_h_
+mozStorageArgValueArray_h
 #
 include
 "
@@ -520,4 +520,4 @@ mozilla
 endif
 /
 /
-_mozStorageArgValueArray_h_
+mozStorageArgValueArray_h

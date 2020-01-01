@@ -453,10 +453,10 @@ BLOCK
 /
 #
 ifndef
-_mozilla_storage_SQLCollations_h_
+mozilla_storage_SQLCollations_h
 #
 define
-_mozilla_storage_SQLCollations_h_
+mozilla_storage_SQLCollations_h
 #
 include
 "
@@ -2267,4 +2267,4 @@ mozilla
 endif
 /
 /
-_mozilla_storage_SQLCollations_h_
+mozilla_storage_SQLCollations_h

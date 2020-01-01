@@ -454,10 +454,10 @@ BLOCK
 /
 #
 ifndef
-_mozStorageAsyncStatementExecution_h_
+mozStorageAsyncStatementExecution_h
 #
 define
-_mozStorageAsyncStatementExecution_h_
+mozStorageAsyncStatementExecution_h
 #
 include
 "
@@ -1517,4 +1517,4 @@ mozilla
 endif
 /
 /
-_mozStorageAsyncStatementExecution_h_
+mozStorageAsyncStatementExecution_h

@@ -450,10 +450,10 @@ BLOCK
 /
 #
 ifndef
-_mozStorageStatement_h_
+mozStorageStatement_h
 #
 define
-_mozStorageStatement_h_
+mozStorageStatement_h
 #
 include
 "
@@ -885,4 +885,4 @@ mozilla
 endif
 /
 /
-_mozStorageStatement_h_
+mozStorageStatement_h

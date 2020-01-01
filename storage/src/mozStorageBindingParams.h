@@ -463,10 +463,10 @@ BLOCK
 /
 #
 ifndef
-_mozStorageBindingParams_h_
+mozStorageBindingParams_h
 #
 define
-_mozStorageBindingParams_h_
+mozStorageBindingParams_h
 #
 include
 "
@@ -1048,4 +1048,4 @@ mozilla
 endif
 /
 /
-_mozStorageBindingParams_h_
+mozStorageBindingParams_h

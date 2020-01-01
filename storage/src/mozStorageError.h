@@ -453,10 +453,10 @@ BLOCK
 /
 #
 ifndef
-__mozStorageError_h__
+mozStorageError_h
 #
 define
-__mozStorageError_h__
+mozStorageError_h
 #
 include
 "
@@ -521,4 +521,4 @@ mozilla
 endif
 /
 /
-__mozStorageError_h__
+mozStorageError_h
