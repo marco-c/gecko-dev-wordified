@@ -457,9 +457,9 @@ API
 #
 include
 "
-mozilla
+js
 /
-StdInt
+LegacyIntTypes
 .
 h
 "
