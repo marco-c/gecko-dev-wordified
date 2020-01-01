@@ -664,6 +664,12 @@ PROT_PhishingWarden
 =
 PROT_PhishingWarden
 ;
+this
+.
+PROT_MalwareWarden
+=
+PROT_MalwareWarden
+;
 /
 /
 Load

@@ -2504,6 +2504,17 @@ this
 tablesData
 )
 {
+if
+(
+this
+.
+tablesData
+[
+tableName
+]
+.
+needsUpdate
+)
 tableNames
 [
 tableName
