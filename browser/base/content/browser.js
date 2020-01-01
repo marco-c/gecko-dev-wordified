@@ -49822,6 +49822,7 @@ TabView
 .
 prepareUndoCloseTab
 (
+blankTabToRemove
 )
 ;
 tab
