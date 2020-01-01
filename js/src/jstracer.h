@@ -725,6 +725,13 @@ JSFrameRegs
 _entryState
 )
 ;
+void
+load
+(
+void
+*
+)
+;
 }
 ;
 /
