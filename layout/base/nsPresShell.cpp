@@ -7042,7 +7042,7 @@ gKeyDownTarget
 gKeyDownTarget
 -
 >
-OwnerDoc
+GetOwnerDoc
 (
 )
 =
@@ -30201,6 +30201,19 @@ PRUint32
 aFlags
 )
 {
+if
+(
+aBounds
+.
+IsEmpty
+(
+)
+)
+{
+return
+NS_OK
+;
+}
 /
 /
 We
@@ -37419,7 +37432,7 @@ eventTarget
 eventTarget
 -
 >
-OwnerDoc
+GetOwnerDoc
 (
 )
 :
@@ -38460,7 +38473,7 @@ doc
 aTarget
 -
 >
-OwnerDoc
+GetOwnerDoc
 (
 )
 )
@@ -38951,7 +38964,7 @@ NS_NewRunnableMethod
 mCurrentEventContent
 -
 >
-OwnerDoc
+GetOwnerDoc
 (
 )
 &
