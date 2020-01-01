@@ -4804,15 +4804,6 @@ off
 JS_ASSERT
 (
 off
->
-=
-0
-&
-&
-(
-size_t
-)
-off
 <
 size
 )

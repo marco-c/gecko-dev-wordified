@@ -17105,6 +17105,9 @@ rv
 )
 )
 {
+nsCAutoString
+preferred
+;
 rv
 =
 nsCharsetAlias
@@ -17113,7 +17116,7 @@ nsCharsetAlias
 GetPreferred
 (
 charsetVal
-aCharset
+preferred
 )
 ;
 if
@@ -17124,6 +17127,10 @@ rv
 )
 )
 {
+aCharset
+=
+preferred
+;
 aCharsetSource
 =
 kCharsetFromChannel

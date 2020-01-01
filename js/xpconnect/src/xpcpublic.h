@@ -1567,6 +1567,15 @@ Value
 rval
 )
 ;
+nsIPrincipal
+*
+GetCompartmentPrincipal
+(
+JSCompartment
+*
+compartment
+)
+;
 #
 ifdef
 DEBUG

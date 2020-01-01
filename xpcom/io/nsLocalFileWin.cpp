@@ -7077,7 +7077,7 @@ nsLocalFile
 :
 InitWithFile
 (
-nsILocalFile
+nsIFile
 *
 aFile
 )

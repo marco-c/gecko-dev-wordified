@@ -2123,9 +2123,9 @@ static
 void
 WeakMap_finalize
 (
-JSContext
+FreeOp
 *
-cx
+fop
 JSObject
 *
 obj
@@ -2179,7 +2179,7 @@ map
 )
 )
 ;
-cx
+fop
 -
 >
 free_
@@ -2189,7 +2189,7 @@ map
 ;
 #
 else
-cx
+fop
 -
 >
 delete_

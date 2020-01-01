@@ -1560,6 +1560,14 @@ ionScript
 decref
 (
 cx
+-
+>
+runtime
+-
+>
+defaultFreeOp
+(
+)
 )
 ;
 }

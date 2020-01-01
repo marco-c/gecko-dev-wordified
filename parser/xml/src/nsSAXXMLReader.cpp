@@ -3091,6 +3091,9 @@ rv
 )
 )
 {
+nsCAutoString
+preferred
+;
 if
 (
 NS_FAILED
@@ -3101,12 +3104,16 @@ nsCharsetAlias
 GetPreferred
 (
 charsetVal
-aCharset
+preferred
 )
 )
 )
 return
 false
+;
+aCharset
+=
+preferred
 ;
 aCharsetSource
 =

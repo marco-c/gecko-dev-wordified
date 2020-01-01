@@ -5407,7 +5407,7 @@ IsEmpty
 )
 mCacheConnection
 =
-PR_FALSE
+false
 ;
 nsCAutoString
 cwdStr

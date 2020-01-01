@@ -776,13 +776,6 @@ h
 #
 include
 "
-nsIDOMStorageList
-.
-h
-"
-#
-include
-"
 nsIDOMStorageEvent
 .
 h
@@ -3291,6 +3284,12 @@ FinalClose
 ;
 void
 FreeInnerObjects
+(
+)
+;
+JSObject
+*
+CallerGlobal
 (
 )
 ;

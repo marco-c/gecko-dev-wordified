@@ -811,11 +811,9 @@ trc
 void
 finalize
 (
-JSContext
+FreeOp
 *
-cx
-bool
-background
+fop
 )
 ;
 void
@@ -1698,9 +1696,9 @@ static
 void
 Destroy
 (
-JSContext
+FreeOp
 *
-cx
+fop
 IonScript
 *
 script
@@ -2358,9 +2356,9 @@ refcount_
 void
 decref
 (
-JSContext
+FreeOp
 *
-cx
+fop
 )
 {
 JS_ASSERT
@@ -2379,7 +2377,7 @@ refcount_
 )
 Destroy
 (
-cx
+fop
 this
 )
 ;
@@ -2401,8 +2399,6 @@ inline
 bool
 IsMarked
 (
-JSContext
-*
 const
 ion
 :

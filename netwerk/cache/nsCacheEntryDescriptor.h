@@ -1098,10 +1098,10 @@ mReadBufferLen
 z_stream
 mZstream
 ;
-PRBool
+bool
 mStreamInitialized
 ;
-PRBool
+bool
 mStreamEnded
 ;
 public
@@ -1131,11 +1131,11 @@ mReadBufferLen
 )
 mStreamInitialized
 (
-PR_FALSE
+false
 )
 mStreamEnded
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1512,7 +1512,7 @@ mWriteBufferLen
 z_stream
 mZstream
 ;
-PRBool
+bool
 mStreamInitialized
 ;
 PRUint32
@@ -1545,7 +1545,7 @@ mWriteBufferLen
 )
 mStreamInitialized
 (
-PR_FALSE
+false
 )
 mUncompressedCount
 (

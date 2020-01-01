@@ -811,9 +811,9 @@ static
 void
 Finalize
 (
-JSContext
+JSFreeOp
 *
-aCx
+aFop
 JSObject
 *
 aObj

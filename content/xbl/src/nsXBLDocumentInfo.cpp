@@ -1150,9 +1150,9 @@ static
 void
 nsXBLDocGlobalObject_finalize
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 obj

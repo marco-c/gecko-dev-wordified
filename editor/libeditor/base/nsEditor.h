@@ -4154,7 +4154,7 @@ eEditorDontEchoPassword
 0
 ;
 }
-PRBool
+bool
 ShouldSkipSpellCheck
 (
 )

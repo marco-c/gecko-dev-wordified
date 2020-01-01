@@ -661,9 +661,9 @@ value
 void
 sweep
 (
-JSContext
+FreeOp
 *
-cx
+fop
 )
 {
 /
@@ -709,7 +709,6 @@ gc
 :
 IsMarked
 (
-cx
 e
 .
 front
@@ -726,7 +725,6 @@ gc
 :
 IsMarked
 (
-cx
 e
 .
 front
@@ -803,7 +801,6 @@ gc
 :
 IsMarked
 (
-cx
 r
 .
 front
@@ -821,7 +818,6 @@ gc
 :
 IsMarked
 (
-cx
 r
 .
 front

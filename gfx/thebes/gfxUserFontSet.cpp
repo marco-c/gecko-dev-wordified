@@ -3393,7 +3393,7 @@ aProxyEntry
 currSrc
 )
 ;
-PRBool
+bool
 loadOK
 =
 NS_SUCCEEDED

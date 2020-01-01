@@ -1612,6 +1612,9 @@ mode
 class
 XDRState
 ;
+class
+FreeOp
+;
 }
 /
 *
@@ -1885,9 +1888,9 @@ void
 JSDestroyScriptHook
 )
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSScript
 *
 script

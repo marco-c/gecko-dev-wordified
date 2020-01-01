@@ -1279,11 +1279,6 @@ rejoinLabel
 )
 const
 {
-uint32
-i
-=
-0
-;
 uint8
 *
 ptr
@@ -1293,6 +1288,14 @@ initialJump_
 raw
 (
 )
+;
+#
+ifdef
+JS_CPU_ARM
+uint32
+i
+=
+0
 ;
 while
 (
@@ -1312,6 +1315,8 @@ ptr
 i
 )
 ;
+#
+endif
 return
 CodeLocationLabel
 (

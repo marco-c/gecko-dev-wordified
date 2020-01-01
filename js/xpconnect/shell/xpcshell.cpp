@@ -3626,7 +3626,6 @@ uint8_t
 zeal
 )
 JS_DEFAULT_ZEAL_FREQ
-false
 )
 ;
 JS_SET_RVAL

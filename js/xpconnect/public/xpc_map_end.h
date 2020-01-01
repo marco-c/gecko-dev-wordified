@@ -1389,9 +1389,9 @@ Finalize
 nsIXPConnectWrappedNative
 *
 wrapper
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 obj
