@@ -1387,6 +1387,9 @@ GroupItem
 bounds
 :
 box
+immediately
+:
+true
 }
 )
 ;

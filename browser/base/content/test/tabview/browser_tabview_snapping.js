@@ -570,6 +570,9 @@ GroupItem
 bounds
 :
 firstBox
+immediately
+:
+true
 }
 )
 ;
@@ -628,6 +631,9 @@ GroupItem
 bounds
 :
 secondBox
+immediately
+:
+true
 }
 )
 ;
@@ -716,15 +722,6 @@ function
 (
 )
 {
-dump
-(
-"
-END
-GAME
-!
-"
-)
-;
 firstGroup
 .
 container
@@ -904,6 +901,9 @@ GroupItem
 bounds
 :
 thirdBox
+immediately
+:
+true
 }
 )
 ;
