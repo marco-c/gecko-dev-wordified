@@ -7044,6 +7044,12 @@ frameRect
 twipsPerPixel
 )
 ;
+frameGfxRect
+.
+Round
+(
+)
+;
 gfxRect
 dirtyGfxRect
 =
@@ -7152,7 +7158,7 @@ twipsPerPixel
 ;
 shadowRect
 .
-RoundOut
+Round
 (
 )
 ;
