@@ -587,7 +587,7 @@ h
 #
 include
 "
-nsInspectorCSSUtils
+nsComputedDOMStyle
 .
 h
 "
@@ -10007,7 +10007,7 @@ canvas
 element
 parentContext
 =
-nsInspectorCSSUtils
+nsComputedDOMStyle
 :
 :
 GetStyleContextForContent
@@ -11878,7 +11878,7 @@ nsStyleContext
 >
 canvasStyle
 =
-nsInspectorCSSUtils
+nsComputedDOMStyle
 :
 :
 GetStyleContextForContent
