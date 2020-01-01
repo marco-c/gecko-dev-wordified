@@ -76043,7 +76043,7 @@ l10n
 lookup
 (
 '
-disconnectDesc
+disconnectDesc2
 '
 )
 manual
@@ -76053,7 +76053,7 @@ l10n
 lookup
 (
 '
-disconnectManual
+disconnectManual2
 '
 )
 params
