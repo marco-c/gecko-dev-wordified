@@ -5648,12 +5648,11 @@ NS_ERROR_FAILURE
 ;
 rootFrame
 =
-nsLayoutUtils
-:
-:
-GetFrameFor
-(
 view
+-
+>
+GetFrame
+(
 )
 ;
 NS_ENSURE_TRUE

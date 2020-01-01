@@ -33133,11 +33133,7 @@ rgStartY
 ;
 iterEndY
 =
-NS_MIN
-(
 dEndY
-rgStartY
-)
 ;
 }
 else

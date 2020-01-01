@@ -443,6 +443,12 @@ nsIDOMHTMLMenuItemElement
 {
 public
 :
+using
+nsGenericElement
+:
+:
+GetText
+;
 nsHTMLMenuItemElement
 (
 already_AddRefed

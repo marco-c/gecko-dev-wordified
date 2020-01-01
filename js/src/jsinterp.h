@@ -2430,9 +2430,11 @@ OnUnknownMethod
 JSContext
 *
 cx
-js
-:
-:
+JSObject
+*
+obj
+Value
+idval
 Value
 *
 vp

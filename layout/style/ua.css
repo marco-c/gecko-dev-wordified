@@ -1320,6 +1320,15 @@ rule
 :
 inherit
 ;
+-
+moz
+-
+column
+-
+fill
+:
+inherit
+;
 /
 *
 Do
