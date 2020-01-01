@@ -3272,6 +3272,10 @@ NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 nsStyleSheetService
 Init
 )
+NS_GENERIC_FACTORY_CONSTRUCTOR
+(
+nsJSURI
+)
 /
 /
 views
@@ -5813,6 +5817,15 @@ nsJSProtocolHandler
 :
 :
 Create
+}
+{
+"
+JavaScript
+URI
+"
+NS_JSURI_CID
+nsnull
+nsJSURIConstructor
 }
 {
 "
