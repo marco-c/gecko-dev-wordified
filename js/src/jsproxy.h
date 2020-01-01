@@ -2730,6 +2730,10 @@ ProxyCallable
 callable
 =
 ProxyNotCallable
+bool
+singleton
+=
+false
 )
 ;
 JSObject
