@@ -240,7 +240,7 @@ extensions
 :
             
 #
-Dir
+Directory
 immediately
 following
 extensions
