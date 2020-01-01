@@ -2799,10 +2799,6 @@ OS_READAHEAD
 0
 &
 fileFd
-.
-rwget
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3159,10 +3155,6 @@ PR_CREATE_FILE
 0644
 &
 fileFd
-.
-rwget
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS

@@ -1865,10 +1865,6 @@ PR_IRUSR
 PR_IWUSR
 &
 fd
-.
-rwget
-(
-)
 )
 ;
 if
