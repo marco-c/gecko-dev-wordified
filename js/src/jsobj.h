@@ -4689,6 +4689,15 @@ slotSpan
 )
 const
 ;
+inline
+bool
+containsSlot
+(
+uint32
+slot
+)
+const
+;
 void
 rollbackProperties
 (
