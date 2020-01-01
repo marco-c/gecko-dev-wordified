@@ -721,6 +721,13 @@ nsCSSRuleProcessor
 h
 "
 #
+include
+"
+nsXMLHttpRequest
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #
@@ -1749,6 +1756,13 @@ Shutdown
 ;
 #
 endif
+nsXMLHttpRequest
+:
+:
+ShutdownACCache
+(
+)
+;
 }
 void
 nsLayoutStatics
