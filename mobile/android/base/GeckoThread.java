@@ -521,6 +521,12 @@ app
 resourcePath
 )
 ;
+GeckoJavaSampler
+.
+setLibsLoaded
+(
+)
+;
 Locale
 .
 setDefault
