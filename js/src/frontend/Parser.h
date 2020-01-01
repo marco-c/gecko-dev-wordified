@@ -2915,8 +2915,6 @@ type
 FunctionSyntaxKind
 kind
 bool
-strict
-bool
 *
 becameStrict
 )
