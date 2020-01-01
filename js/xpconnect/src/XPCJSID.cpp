@@ -143,17 +143,6 @@ mozilla
 /
 dom
 /
-DOMJSClass
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 BindingUtils
 .
 h

@@ -110,17 +110,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-DOMJSClass
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
