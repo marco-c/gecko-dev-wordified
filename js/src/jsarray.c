@@ -5376,6 +5376,12 @@ dense
 /
 if
 (
+enum_op
+!
+=
+JSENUMERATE_INIT
+&
+&
 JSVAL_IS_BOOLEAN
 (
 *
