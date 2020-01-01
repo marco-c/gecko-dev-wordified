@@ -21634,7 +21634,7 @@ data
 container
 -
 >
-SetCurrentImage
+SetCurrentImageInTransaction
 (
 image
 )

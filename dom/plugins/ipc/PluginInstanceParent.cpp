@@ -3601,7 +3601,7 @@ ioData
 container
 -
 >
-SetCurrentImage
+SetCurrentImageInTransaction
 (
 ioImage
 )
@@ -3694,7 +3694,7 @@ cairoData
 container
 -
 >
-SetCurrentImage
+SetCurrentImageInTransaction
 (
 pluginImage
 )

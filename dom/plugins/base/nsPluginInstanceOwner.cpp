@@ -1140,7 +1140,7 @@ data
 container
 -
 >
-SetCurrentImage
+SetCurrentImageInTransaction
 (
 img
 )
@@ -10979,7 +10979,7 @@ data
 container
 -
 >
-SetCurrentImage
+SetCurrentImageInTransaction
 (
 img
 )
@@ -22870,7 +22870,7 @@ the
 current
 image
 in
-SetCurrentImage
+SetCurrentImageInTransaction
 (
 )
 .
@@ -22963,7 +22963,7 @@ Important
 Unlock
 here
 otherwise
-SetCurrentImage
+SetCurrentImageInTransaction
 will
 deadlock
 with
@@ -22988,7 +22988,7 @@ endif
 container
 -
 >
-SetCurrentImage
+SetCurrentImageInTransaction
 (
 nsnull
 )
