@@ -168,7 +168,7 @@ mozilla
 /
 dom
 /
-FileHandleBinding
+FileModeBinding
 .
 h
 "
