@@ -113,6 +113,15 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 *
@@ -132,6 +141,7 @@ thread
 /
 class
 UrlClassifierDBServiceWorkerProxy
+MOZ_FINAL
 :
 public
 nsIUrlClassifierDBServiceWorker
@@ -489,6 +499,7 @@ main
 thread
 class
 UrlClassifierLookupCallbackProxy
+MOZ_FINAL
 :
 public
 nsIUrlClassifierLookupCallback
@@ -571,6 +582,7 @@ mTarget
 ;
 class
 UrlClassifierCallbackProxy
+MOZ_FINAL
 :
 public
 nsIUrlClassifierCallback
@@ -647,6 +659,7 @@ mTarget
 ;
 class
 UrlClassifierUpdateObserverProxy
+MOZ_FINAL
 :
 public
 nsIUrlClassifierUpdateObserver

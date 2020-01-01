@@ -169,6 +169,15 @@ nsITimer
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 Forward
@@ -179,6 +188,7 @@ nsIURI
 ;
 class
 nsUrlClassifierStreamUpdater
+MOZ_FINAL
 :
 public
 nsIUrlClassifierStreamUpdater
