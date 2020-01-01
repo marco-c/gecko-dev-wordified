@@ -15743,7 +15743,6 @@ obj
 =
 JS_GetPrototype
 (
-cx
 obj
 )
 ;
@@ -17958,12 +17957,8 @@ to
 sandbox
 |
 .
-if
-(
-!
 JS_SetPrivate
 (
-cx
 sandbox
 sop
 .
@@ -17975,12 +17970,7 @@ get
 (
 )
 )
-)
-{
-return
-NS_ERROR_XPC_UNEXPECTED
 ;
-}
 rv
 =
 xpc

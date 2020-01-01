@@ -5010,9 +5010,6 @@ depth
 void
 SystemIsBeingShutDown
 (
-JSContext
-*
-cx
 )
 ;
 PRThread
@@ -9397,9 +9394,6 @@ static
 void
 SystemIsBeingShutDown
 (
-JSContext
-*
-cx
 )
 ;
 static
@@ -14139,9 +14133,6 @@ obj
 void
 SystemIsBeingShutDown
 (
-JSContext
-*
-cx
 )
 ;
 void
@@ -16269,17 +16260,11 @@ aWrapper
 void
 FlatJSObjectFinalized
 (
-JSContext
-*
-cx
 )
 ;
 void
 SystemIsBeingShutDown
 (
-JSContext
-*
-cx
 )
 ;
 enum

@@ -2065,7 +2065,6 @@ file
 :
 GetDOMFileFromJSObject
 (
-aCx
 aObj
 )
 ;
@@ -2130,7 +2129,6 @@ file
 :
 GetDOMBlobFromJSObject
 (
-aCx
 aObj
 )
 ;

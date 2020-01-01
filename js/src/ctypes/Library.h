@@ -532,9 +532,6 @@ PRLibrary
 *
 GetLibrary
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
