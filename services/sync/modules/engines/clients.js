@@ -1387,6 +1387,17 @@ isMobile
 id
 )
 {
+if
+(
+this
+.
+_store
+.
+_remoteClients
+[
+id
+]
+)
 return
 this
 .
@@ -1403,6 +1414,9 @@ type
 "
 mobile
 "
+;
+return
+false
 ;
 }
 /
