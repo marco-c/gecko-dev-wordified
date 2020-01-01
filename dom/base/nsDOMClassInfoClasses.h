@@ -1226,10 +1226,6 @@ MozSmsMessage
 )
 DOMCI_CLASS
 (
-MozSmsEvent
-)
-DOMCI_CLASS
-(
 MozSmsRequest
 )
 DOMCI_CLASS
