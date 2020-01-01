@@ -18690,8 +18690,10 @@ return
 nullptr
 ;
 }
+nsCOMPtr
+<
 nsIContent
-*
+>
 candidate
 =
 FindNextLeafNode
