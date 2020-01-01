@@ -2562,14 +2562,11 @@ win
 {
 node
 =
-do_QueryInterface
-(
 win
 -
 >
-GetExtantDocument
+GetExtantDoc
 (
-)
 )
 ;
 }

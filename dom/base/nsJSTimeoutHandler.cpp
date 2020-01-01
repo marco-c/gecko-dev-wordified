@@ -1335,14 +1335,11 @@ nsIDocument
 >
 doc
 =
-do_QueryInterface
-(
 aWindow
 -
 >
-GetExtantDocument
+GetExtantDoc
 (
-)
 )
 ;
 if

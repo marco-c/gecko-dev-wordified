@@ -2342,7 +2342,7 @@ Context
 *
 /
 static
-nsIDOMDocument
+nsIDocument
 *
 GetDocumentFromCaller
 (
@@ -2409,7 +2409,7 @@ context
 *
 /
 static
-nsIDOMDocument
+nsIDocument
 *
 GetDocumentFromContext
 (
