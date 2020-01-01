@@ -8458,6 +8458,11 @@ p
 )
 ;
 }
+bool
+isConstructing
+(
+)
+;
 private
 :
 /
