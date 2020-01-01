@@ -2372,24 +2372,6 @@ HEAD
 '
 )
         
-current_package_info
-[
-'
-mozprocess
-'
-]
-[
-'
-version
-'
-]
-=
-'
-0
-.
-9
-'
-        
 check_consistency
 (
 *
