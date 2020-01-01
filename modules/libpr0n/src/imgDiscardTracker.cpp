@@ -558,6 +558,9 @@ node
 nsresult
 rv
 ;
+#
+ifdef
+DEBUG
 PRBool
 isSentinel
 =
@@ -679,6 +682,8 @@ image
 "
 )
 ;
+#
+endif
 /
 /
 Initialize
