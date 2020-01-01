@@ -1002,6 +1002,14 @@ uint32
 index
 )
 ;
+void
+jsop_eleminc
+(
+JSOp
+op
+VoidStub
+)
+;
 /
 *
 Fast
