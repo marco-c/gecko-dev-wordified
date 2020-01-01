@@ -7997,8 +7997,6 @@ return
 1
 ;
 }
-namespace
-{
 struct
 MemCmp
 {
@@ -8142,7 +8140,6 @@ true
 }
 }
 ;
-}
 template
 <
 class

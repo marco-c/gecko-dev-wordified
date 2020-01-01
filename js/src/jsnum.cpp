@@ -923,8 +923,6 @@ endif
 JS_HAVE_STDINT_H
 *
 /
-namespace
-{
 /
 *
 *
@@ -970,6 +968,7 @@ answer
 .
 *
 /
+static
 bool
 ComputeAccurateDecimalInteger
 (
@@ -1637,6 +1636,7 @@ of
 .
 *
 /
+static
 jsdouble
 ComputeAccurateBinaryBaseInteger
 (
@@ -1884,10 +1884,6 @@ return
 value
 ;
 }
-}
-/
-/
-namespace
 namespace
 js
 {
@@ -2554,8 +2550,7 @@ d
 }
 #
 endif
-namespace
-{
+static
 bool
 ParseIntStringHelper
 (
@@ -3007,6 +3002,7 @@ return
 true
 ;
 }
+static
 jsdouble
 ParseIntDoubleHelper
 (
@@ -3055,10 +3051,6 @@ return
 0
 ;
 }
-}
-/
-/
-namespace
 /
 *
 See

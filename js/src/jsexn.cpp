@@ -1817,8 +1817,6 @@ stackDepth
 )
 ;
 }
-namespace
-{
 struct
 CopyTo
 {
@@ -1864,7 +1862,6 @@ src
 }
 }
 ;
-}
 static
 JSBool
 InitExnPrivate

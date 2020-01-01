@@ -12443,8 +12443,6 @@ print_iso_string
 )
 ;
 }
-namespace
-{
 /
 *
 ES5
@@ -12458,6 +12456,7 @@ ES5
 .
 *
 /
+static
 JSBool
 date_toJSON
 (
@@ -12722,7 +12721,6 @@ rval
 return
 true
 ;
-}
 }
 /
 *
