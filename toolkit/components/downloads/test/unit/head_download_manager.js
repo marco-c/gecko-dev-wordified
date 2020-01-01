@@ -928,6 +928,13 @@ no
 try
 catch
 block
+if
+(
+!
+aParams
+.
+isPrivate
+)
 var
 test
 =
