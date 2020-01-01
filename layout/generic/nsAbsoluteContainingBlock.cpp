@@ -660,7 +660,6 @@ t
 /
 change
 them
-return
 aDelegatingFrame
 -
 >
@@ -683,6 +682,9 @@ nsIPresShell
 eResize
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
+;
+return
+NS_OK
 ;
 }
 nsresult
@@ -786,7 +788,6 @@ t
 /
 change
 them
-return
 aDelegatingFrame
 -
 >
@@ -809,6 +810,9 @@ nsIPresShell
 eResize
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
+;
+return
+NS_OK
 ;
 }
 void

@@ -5539,7 +5539,6 @@ parent
 return
 NS_OK
 ;
-return
 frame
 -
 >
@@ -5562,6 +5561,9 @@ nsIPresShell
 eStyleChange
 NS_FRAME_IS_DIRTY
 )
+;
+return
+NS_OK
 ;
 }
 /
@@ -5978,7 +5980,6 @@ that
 cause
 changes
 !
-return
 PresContext
 (
 )
@@ -5998,6 +5999,9 @@ nsIPresShell
 eStyleChange
 NS_FRAME_IS_DIRTY
 )
+;
+return
+NS_OK
 ;
 }
 void
