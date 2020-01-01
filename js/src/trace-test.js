@@ -5444,6 +5444,7 @@ test
 (
 deep2
 )
+;
 var
 merge_type_maps_x
 =
