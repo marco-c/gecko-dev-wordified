@@ -1714,7 +1714,7 @@ ResourceMapping
 resource
 =
 {
-nsDependentCString
+nsCString
 (
 aKey
 )
