@@ -6630,6 +6630,13 @@ JSContext
 cx
 )
 {
+if
+(
+gcRunning
+)
+return
+NULL
+;
 /
 *
 *
