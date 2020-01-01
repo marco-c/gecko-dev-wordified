@@ -252,6 +252,7 @@ name
 |
 |
 "
+blob
 "
 contentType
 :
