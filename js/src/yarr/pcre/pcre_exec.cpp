@@ -584,8 +584,13 @@ namespace
 WTF
 ;
 #
-ifndef
+if
+!
 WTF_COMPILER_MSVC
+&
+&
+!
+WTF_COMPILER_SUNPRO
 #
 define
 USE_COMPUTED_GOTO_FOR_MATCH_RECURSION

@@ -9534,6 +9534,9 @@ address
 #
 if
 WTF_COMPILER_MSVC
+|
+|
+WTF_COMPILER_SUNPRO
 loadPtr
 (
 Address
