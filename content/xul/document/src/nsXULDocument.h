@@ -931,14 +931,6 @@ NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTEWILLCHANGE
 nsIXULDocument
 interface
 NS_IMETHOD
-AddElementForID
-(
-nsIContent
-*
-aElement
-)
-;
-NS_IMETHOD
 GetElementsForID
 (
 const
@@ -1073,9 +1065,6 @@ const
 nsAString
 &
 elementId
-nsresult
-*
-aResult
 )
 ;
 /

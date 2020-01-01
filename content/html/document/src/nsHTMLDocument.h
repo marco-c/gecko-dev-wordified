@@ -1417,9 +1417,6 @@ const
 nsAString
 &
 aElementId
-nsresult
-*
-aResult
 )
 {
 return
@@ -1429,7 +1426,6 @@ nsDocument
 GetElementById
 (
 aElementId
-aResult
 )
 ;
 }
