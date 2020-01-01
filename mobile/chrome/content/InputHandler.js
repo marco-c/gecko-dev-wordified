@@ -4274,6 +4274,18 @@ view
 =
 =
 window
+|
+|
+aEvent
+.
+target
+.
+tagName
+=
+=
+"
+browser
+"
 ;
 }
 /
@@ -9522,6 +9534,8 @@ this
 hide
 element
 highlight
+/
+/
 document
 .
 getElementById
