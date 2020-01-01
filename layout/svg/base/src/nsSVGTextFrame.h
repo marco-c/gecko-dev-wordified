@@ -625,11 +625,12 @@ GetOverrideCTM
 (
 )
 ;
-NS_IMETHOD
-NotifyCanvasTMChanged
+virtual
+void
+NotifySVGChanged
 (
-PRBool
-suppressInvalidation
+PRUint32
+aFlags
 )
 ;
 NS_IMETHOD
