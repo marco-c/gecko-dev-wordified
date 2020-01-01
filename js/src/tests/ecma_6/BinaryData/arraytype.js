@@ -240,7 +240,7 @@ assertEq
 (
 A
 .
-bytes
+byteLength
 10
 )
 ;
@@ -248,7 +248,7 @@ assertEq
 (
 A
 .
-toString
+toSource
 (
 )
 "

@@ -539,7 +539,7 @@ point
 .
 constructor
 .
-fields
+fieldTypes
 .
 x
 int32
@@ -551,7 +551,7 @@ point
 .
 constructor
 .
-fields
+fieldTypes
 .
 y
 int32
