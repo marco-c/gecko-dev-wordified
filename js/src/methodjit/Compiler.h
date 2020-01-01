@@ -1676,6 +1676,9 @@ pointer
 .
 *
 /
+SPSInstrumentation
+sps
+;
 Assembler
 masm
 ;
