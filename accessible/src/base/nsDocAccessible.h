@@ -2447,8 +2447,10 @@ nsIAtom
 *
 mRelAttr
 ;
+nsCOMPtr
+<
 nsIContent
-*
+>
 mContent
 ;
 private
