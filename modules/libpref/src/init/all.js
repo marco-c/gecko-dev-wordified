@@ -6791,7 +6791,7 @@ tracejit
 .
 chrome
 "
-false
+true
 )
 ;
 pref
