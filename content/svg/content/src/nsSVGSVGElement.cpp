@@ -6286,6 +6286,10 @@ Begin
 (
 )
 ;
+mStartAnimationOnBindToTree
+=
+PR_FALSE
+;
 }
 }
 return
