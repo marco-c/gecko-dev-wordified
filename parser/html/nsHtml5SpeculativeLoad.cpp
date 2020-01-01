@@ -498,7 +498,7 @@ aExecutor
 PreloadImage
 (
 mUrl
-mCharsetOrCrossOrigin
+mCrossOrigin
 )
 ;
 break
@@ -512,8 +512,9 @@ aExecutor
 PreloadScript
 (
 mUrl
-mCharsetOrCrossOrigin
+mCharset
 mTypeOrCharsetSource
+mCrossOrigin
 )
 ;
 break
@@ -527,7 +528,7 @@ aExecutor
 PreloadStyle
 (
 mUrl
-mCharsetOrCrossOrigin
+mCharset
 )
 ;
 break
@@ -554,7 +555,7 @@ narrowName
 ;
 CopyUTF16toUTF8
 (
-mCharsetOrCrossOrigin
+mCharset
 narrowName
 )
 ;
