@@ -11155,7 +11155,11 @@ self
 =
 this
 ;
-mMainHandler
+GeckoAppShell
+.
+getHandler
+(
+)
 .
 postDelayed
 (
