@@ -882,10 +882,10 @@ txResultStringComparator
 :
 compareValues
 (
-TxObject
+txObject
 *
 aVal1
-TxObject
+txObject
 *
 aVal2
 )
@@ -1443,7 +1443,7 @@ aExpr
 txIEvalContext
 *
 aContext
-TxObject
+txObject
 *
 &
 aResult
@@ -1526,10 +1526,10 @@ txResultNumberComparator
 :
 compareValues
 (
-TxObject
+txObject
 *
 aVal1
-TxObject
+txObject
 *
 aVal2
 )
@@ -1564,7 +1564,7 @@ mVal
 ;
 if
 (
-Double
+txDouble
 :
 :
 isNaN
@@ -1573,7 +1573,7 @@ dval1
 )
 )
 return
-Double
+txDouble
 :
 :
 isNaN
@@ -1588,7 +1588,7 @@ mAscending
 ;
 if
 (
-Double
+txDouble
 :
 :
 isNaN

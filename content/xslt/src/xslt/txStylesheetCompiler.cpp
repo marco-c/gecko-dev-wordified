@@ -3622,7 +3622,7 @@ txStylesheetCompilerState
 :
 pushObject
 (
-TxObject
+txObject
 *
 aObject
 )
@@ -3636,7 +3636,7 @@ aObject
 )
 ;
 }
-TxObject
+txObject
 *
 txStylesheetCompilerState
 :
@@ -3648,7 +3648,7 @@ popObject
 return
 static_cast
 <
-TxObject
+txObject
 *
 >
 (

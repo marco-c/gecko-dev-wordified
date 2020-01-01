@@ -545,7 +545,7 @@ txUnionPattern
 )
 ;
 return
-Double
+txDouble
 :
 :
 NaN

@@ -494,7 +494,7 @@ related
 constants
 const
 dpun
-Double
+txDouble
 :
 :
 NaN
@@ -506,7 +506,7 @@ ifdef
 IS_BIG_ENDIAN
 const
 dpun
-Double
+txDouble
 :
 :
 POSITIVE_INFINITY
@@ -520,7 +520,7 @@ DOUBLE_HI32_EXPMASK
 ;
 const
 dpun
-Double
+txDouble
 :
 :
 NEGATIVE_INFINITY
@@ -538,7 +538,7 @@ DOUBLE_HI32_SIGNBIT
 else
 const
 dpun
-Double
+txDouble
 :
 :
 POSITIVE_INFINITY
@@ -552,7 +552,7 @@ DOUBLE_HI32_EXPMASK
 ;
 const
 dpun
-Double
+txDouble
 :
 :
 NEGATIVE_INFINITY
@@ -585,7 +585,7 @@ inifinity
 *
 /
 bool
-Double
+txDouble
 :
 :
 isInfinite
@@ -631,7 +631,7 @@ NaN
 *
 /
 bool
-Double
+txDouble
 :
 :
 isNaN
@@ -660,7 +660,7 @@ negative
 *
 /
 bool
-Double
+txDouble
 :
 :
 isNeg
@@ -1115,7 +1115,7 @@ mBuffer
 )
 {
 return
-Double
+txDouble
 :
 :
 NaN
@@ -1165,7 +1165,7 @@ mSign
 }
 ;
 double
-Double
+txDouble
 :
 :
 toDouble
@@ -1243,7 +1243,7 @@ string
 *
 /
 void
-Double
+txDouble
 :
 :
 toString

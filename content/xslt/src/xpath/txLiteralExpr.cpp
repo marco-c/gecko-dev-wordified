@@ -688,7 +688,7 @@ txAExprResult
 NUMBER
 :
 {
-Double
+txDouble
 :
 :
 toString

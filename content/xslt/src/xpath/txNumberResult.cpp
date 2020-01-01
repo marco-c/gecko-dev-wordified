@@ -571,7 +571,7 @@ nsString
 aResult
 )
 {
-Double
+txDouble
 :
 :
 toString
@@ -652,7 +652,7 @@ value
 &
 &
 !
-Double
+txDouble
 :
 :
 isNaN

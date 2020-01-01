@@ -819,7 +819,7 @@ Special
 cases
 if
 (
-Double
+txDouble
 :
 :
 isNaN
@@ -852,7 +852,7 @@ if
 value
 =
 =
-Double
+txDouble
 :
 :
 POSITIVE_INFINITY
@@ -882,7 +882,7 @@ if
 value
 =
 =
-Double
+txDouble
 :
 :
 NEGATIVE_INFINITY
@@ -995,7 +995,7 @@ false
 ;
 if
 (
-Double
+txDouble
 :
 :
 isNeg

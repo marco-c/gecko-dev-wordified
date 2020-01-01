@@ -1555,7 +1555,7 @@ aNumber
 {
 aNumber
 =
-Double
+txDouble
 :
 :
 NaN
@@ -1592,7 +1592,7 @@ rv
 }
 aNumber
 =
-Double
+txDouble
 :
 :
 toDouble
@@ -1605,7 +1605,7 @@ mValue
 ;
 if
 (
-Double
+txDouble
 :
 :
 isNaN
@@ -2454,7 +2454,7 @@ nullExpr
 double
 prio
 =
-Double
+txDouble
 :
 :
 NaN
@@ -5145,7 +5145,7 @@ rv
 double
 prio
 =
-Double
+txDouble
 :
 :
 NaN

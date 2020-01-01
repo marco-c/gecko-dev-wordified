@@ -661,7 +661,7 @@ class
 Node
 :
 public
-TxObject
+txObject
 {
 public
 :
