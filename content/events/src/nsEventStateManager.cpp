@@ -1090,7 +1090,7 @@ h
 #
 include
 "
-nsIFrameFrame
+nsSubDocumentFrame
 .
 h
 "
@@ -22126,7 +22126,7 @@ moving
 out
 of
 it
-nsIFrameFrame
+nsSubDocumentFrame
 *
 subdocFrame
 =

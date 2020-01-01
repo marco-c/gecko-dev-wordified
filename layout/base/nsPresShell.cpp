@@ -43790,6 +43790,10 @@ ShouldIgnoreInvalidation
 {
 return
 mPaintingSuppressed
+|
+|
+!
+mIsActive
 ;
 }
 NS_IMETHODIMP_

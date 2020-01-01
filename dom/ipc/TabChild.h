@@ -1337,10 +1337,6 @@ nsCString
 &
 aMimeContentType
 const
-nsCString
-&
-aContentDisposition
-const
 bool
 &
 aForceSave
