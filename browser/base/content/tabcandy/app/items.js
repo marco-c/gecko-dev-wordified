@@ -3092,10 +3092,6 @@ top
 var
 bottom
 =
-20
-;
-/
-/
 TabItems
 .
 tabHeight
