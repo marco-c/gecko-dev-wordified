@@ -898,6 +898,9 @@ DNSPrefetch
 "
 Auth
 "
+"
+WindowControl
+"
 ]
 ;
 /
