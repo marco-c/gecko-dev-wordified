@@ -485,7 +485,7 @@ namespace
 mozilla
 :
 :
-imagelib
+image
 ;
 static
 nsresult

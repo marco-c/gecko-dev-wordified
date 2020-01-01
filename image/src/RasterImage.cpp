@@ -680,7 +680,7 @@ namespace
 mozilla
 :
 :
-imagelib
+image
 ;
 using
 namespace
@@ -1218,7 +1218,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 #
 ifndef
@@ -20252,7 +20252,7 @@ endif
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

@@ -620,7 +620,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 NS_IMPL_ISUPPORTS4
 (
@@ -2756,7 +2756,7 @@ rootElem
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

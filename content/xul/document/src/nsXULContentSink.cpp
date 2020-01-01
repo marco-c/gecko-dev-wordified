@@ -1922,7 +1922,7 @@ XULContentSinkImpl
 :
 SetParser
 (
-nsIParser
+nsParserBase
 *
 aParser
 )

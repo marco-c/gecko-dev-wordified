@@ -1053,7 +1053,7 @@ mParseError
 false
 )
 {
-mFragmentMode
+mRunsToCompletion
 =
 true
 ;
@@ -1186,9 +1186,9 @@ bool
 aTerminated
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIParser
+nsParserBase
 >
 kungFuDeathGrip
 (

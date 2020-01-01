@@ -1160,13 +1160,6 @@ h
 #
 include
 "
-nsIDOMMozBrowserFrameElement
-.
-h
-"
-#
-include
-"
 nsDOMStringMap
 .
 h
@@ -2493,6 +2486,13 @@ h
 include
 "
 nsIDOMXPathResult
+.
+h
+"
+#
+include
+"
+nsIDOMMozBrowserFrame
 .
 h
 "
@@ -12148,7 +12148,7 @@ nsIDOMHTMLFrameElement
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
-nsIDOMMozBrowserFrameElement
+nsIDOMMozBrowserFrame
 )
 DOM_CLASSINFO_GENERIC_HTML_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END
@@ -12222,7 +12222,7 @@ nsIDOMGetSVGDocument
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
-nsIDOMMozBrowserFrameElement
+nsIDOMMozBrowserFrame
 )
 DOM_CLASSINFO_GENERIC_HTML_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END

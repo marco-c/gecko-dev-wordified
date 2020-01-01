@@ -475,7 +475,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 class
 RasterImage
@@ -1352,7 +1352,7 @@ aCount
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

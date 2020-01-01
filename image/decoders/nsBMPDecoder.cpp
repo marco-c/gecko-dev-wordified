@@ -545,7 +545,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 #
 ifdef
@@ -5456,7 +5456,7 @@ important_colors
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

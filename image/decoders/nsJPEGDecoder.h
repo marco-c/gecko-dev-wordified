@@ -570,7 +570,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 typedef
 struct
@@ -844,7 +844,7 @@ mCMSMode
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

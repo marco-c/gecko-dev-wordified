@@ -488,7 +488,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 class
 RasterImage
@@ -1053,7 +1053,7 @@ mIsPNG
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

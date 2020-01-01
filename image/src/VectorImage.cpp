@@ -568,7 +568,7 @@ namespace
 dom
 ;
 namespace
-imagelib
+image
 {
 /
 /
@@ -5894,7 +5894,7 @@ FRAME_CURRENT
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

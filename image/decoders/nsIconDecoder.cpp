@@ -490,7 +490,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 nsIconDecoder
 :
@@ -997,7 +997,7 @@ break
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

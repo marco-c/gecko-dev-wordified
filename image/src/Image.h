@@ -453,7 +453,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 class
 Image
@@ -1050,7 +1050,7 @@ kDontAnimMode
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

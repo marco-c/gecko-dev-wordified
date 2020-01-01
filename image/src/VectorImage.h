@@ -483,7 +483,7 @@ ImageContainer
 ;
 }
 namespace
-imagelib
+image
 {
 class
 SVGDocumentWrapper
@@ -1028,7 +1028,7 @@ ExtractFrame
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

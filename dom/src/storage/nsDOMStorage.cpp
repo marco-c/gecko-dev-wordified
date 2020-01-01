@@ -5094,6 +5094,10 @@ CanUseChromePersist
 )
 )
 ;
+CacheKeysFromDB
+(
+)
+;
 PRInt32
 usage
 ;

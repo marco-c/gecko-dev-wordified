@@ -7590,10 +7590,6 @@ aTokenizer
 bool
 /
 /
-aCanInterrupt
-bool
-/
-/
 aCountLines
 const
 nsCString

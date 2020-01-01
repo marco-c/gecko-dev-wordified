@@ -600,7 +600,7 @@ void
 NS_IMETHOD
 SetParser
 (
-nsIParser
+nsParserBase
 *
 aParser
 )
@@ -1115,7 +1115,7 @@ exports
 on
 nsIParser
 :
-nsIParser
+nsParserBase
 *
 mParser
 ;

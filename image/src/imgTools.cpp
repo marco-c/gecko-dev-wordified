@@ -547,7 +547,7 @@ namespace
 mozilla
 :
 :
-imagelib
+image
 ;
 /
 *

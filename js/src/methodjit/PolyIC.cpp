@@ -8383,7 +8383,6 @@ Shape
 shape
 Label
 start
-const
 Vector
 <
 Jump
@@ -9638,7 +9637,6 @@ LinkerHelper
 buffer
 Label
 start
-const
 Vector
 <
 Jump

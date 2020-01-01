@@ -468,7 +468,7 @@ namespace
 mozilla
 :
 :
-imagelib
+image
 ;
 NS_IMPL_THREADSAFE_ISUPPORTS3
 (

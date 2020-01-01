@@ -3143,7 +3143,7 @@ EncodeFileHeader
 mozilla
 :
 :
-imagelib
+image
 :
 :
 BMPFILEHEADER
@@ -3340,7 +3340,7 @@ EncodeInfoHeader
 mozilla
 :
 :
-imagelib
+image
 :
 :
 BMPINFOHEADER

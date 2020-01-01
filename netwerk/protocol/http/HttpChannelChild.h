@@ -884,7 +884,7 @@ bool
 &
 useResponseHead
 const
-RequestHeaderTuples
+nsHttpHeaderArray
 &
 requestHeaders
 const
@@ -1050,7 +1050,7 @@ DoNotifyListenerCleanup
 private
 :
 RequestHeaderTuples
-mRequestHeaders
+mClientSetRequestHeaders
 ;
 nsCOMPtr
 <
@@ -1161,7 +1161,7 @@ bool
 &
 useResponseHead
 const
-RequestHeaderTuples
+nsHttpHeaderArray
 &
 requestHeaders
 const
