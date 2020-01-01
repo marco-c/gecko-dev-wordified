@@ -3317,7 +3317,7 @@ XEmbed_Extension_for_Mozilla_Plugins
 treats
 NPPVpluginNeedsXEmbed
 as
-bool
+PRBool
 (
 int
 )
@@ -3375,7 +3375,7 @@ the
 larger
 bool
 .
-PRUint32
+int
 needsXEmbed
 =
 0
