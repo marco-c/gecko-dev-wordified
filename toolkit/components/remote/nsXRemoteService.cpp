@@ -451,6 +451,7 @@ atoms
 at
 once
 static
+const
 char
 *
 XAtomNames
@@ -1573,6 +1574,7 @@ n
 desktopStartupID
 )
 ;
+const
 char
 *
 argv
@@ -1599,7 +1601,15 @@ cmdline
 Init
 (
 3
+const_cast
+<
+char
+*
+*
+>
+(
 argv
+)
 nullptr
 nsICommandLine
 :
@@ -2141,7 +2151,15 @@ mozilla
 DefaultXDisplay
 (
 )
+const_cast
+<
+char
+*
+*
+>
+(
 XAtomNames
+)
 ArrayLength
 (
 XAtomNames

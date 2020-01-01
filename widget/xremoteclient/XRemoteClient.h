@@ -397,9 +397,6 @@ mMozProfileAtom
 Atom
 mMozProgramAtom
 ;
-Atom
-mMozSupportsCLAtom
-;
 char
 *
 mLockData

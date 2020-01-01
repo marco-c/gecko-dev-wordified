@@ -554,6 +554,7 @@ X
 -
 server
 static
+const
 char
 *
 XAtomNames
@@ -643,7 +644,15 @@ atoms
 XInternAtoms
 (
 mDisplay
+const_cast
+<
+char
+*
+*
+>
+(
 XAtomNames
+)
 ARRAY_LENGTH
 (
 XAtomNames
