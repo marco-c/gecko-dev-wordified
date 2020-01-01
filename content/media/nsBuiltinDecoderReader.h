@@ -2329,6 +2329,7 @@ nsBuiltinDecoder
 aDecoder
 )
 ;
+virtual
 ~
 nsBuiltinDecoderReader
 (
