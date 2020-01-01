@@ -3968,7 +3968,7 @@ clipping
 /
 static
 bool
-ApplyOverflowClipping
+ShouldApplyOverflowClipping
 (
 const
 nsIFrame

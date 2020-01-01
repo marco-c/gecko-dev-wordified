@@ -12247,7 +12247,7 @@ height
 if
 (
 !
-ApplyOverflowClipping
+ShouldApplyOverflowClipping
 (
 this
 aReflowState
@@ -12391,7 +12391,7 @@ out
 if
 (
 !
-ApplyOverflowClipping
+ShouldApplyOverflowClipping
 (
 this
 StyleDisplay

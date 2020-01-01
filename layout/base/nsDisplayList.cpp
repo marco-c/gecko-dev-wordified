@@ -10900,6 +10900,9 @@ radii
 )
 |
 |
+nsLayoutUtils
+:
+:
 RoundedRectIntersectsRect
 (
 nsRect

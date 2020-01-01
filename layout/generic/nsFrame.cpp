@@ -9962,7 +9962,7 @@ if
 nsFrame
 :
 :
-ApplyOverflowClipping
+ShouldApplyOverflowClipping
 (
 aFrame
 aDisp
@@ -45037,7 +45037,7 @@ if
 nsFrame
 :
 :
-ApplyOverflowClipping
+ShouldApplyOverflowClipping
 (
 this
 disp
