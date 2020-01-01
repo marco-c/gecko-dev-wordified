@@ -206,13 +206,6 @@ function
 aEvent
 )
 {
-log
-(
-"
-DOMNodeInserted
-"
-)
-;
 input
 =
 notificationBox
