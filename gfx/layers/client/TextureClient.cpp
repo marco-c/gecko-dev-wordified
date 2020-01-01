@@ -1097,6 +1097,8 @@ gfx
 :
 IntSize
 aCbCrSize
+StereoMode
+aStereoMode
 )
 {
 size_t
@@ -1138,6 +1140,7 @@ InitializeBufferInfo
 (
 aYSize
 aCbCrSize
+aStereoMode
 )
 ;
 return
@@ -2775,6 +2778,10 @@ data
 -
 >
 mCbCrSize
+data
+-
+>
+mStereoMode
 )
 ;
 *

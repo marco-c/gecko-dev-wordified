@@ -3037,6 +3037,14 @@ boundary
 bool
 canHaveRotation
 =
+gfxPlatform
+:
+:
+BufferRotationEnabled
+(
+)
+&
+&
 !
 (
 aFlags
