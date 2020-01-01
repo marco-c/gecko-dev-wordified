@@ -596,7 +596,6 @@ end
 up
 calling
 SetSelectedInternal
-return
 selectInt
 -
 >
@@ -608,7 +607,6 @@ aValue
 false
 true
 true
-nullptr
 )
 ;
 }
@@ -619,9 +617,6 @@ SetSelectedInternal
 aValue
 true
 )
-;
-return
-NS_OK
 ;
 }
 return
@@ -1117,8 +1112,6 @@ t
 get
 confused
 .
-rv
-=
 selectInt
 -
 >
@@ -1130,7 +1123,6 @@ newSelected
 false
 true
 aNotify
-nullptr
 )
 ;
 /
@@ -1179,7 +1171,7 @@ mSelectedChanged
 is
 false
 return
-rv
+NS_OK
 ;
 }
 NS_IMETHODIMP

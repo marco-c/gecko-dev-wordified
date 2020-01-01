@@ -1776,7 +1776,7 @@ actually
 changed
 *
 /
-NS_IMETHOD
+bool
 SetOptionsSelectedByIndex
 (
 int32_t
@@ -1791,9 +1791,6 @@ bool
 aSetDisabled
 bool
 aNotify
-bool
-*
-aChangedSomething
 )
 ;
 /
