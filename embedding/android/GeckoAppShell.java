@@ -934,6 +934,8 @@ double
 aLevel
 boolean
 aCharging
+double
+aRemainingTime
 )
 ;
 /

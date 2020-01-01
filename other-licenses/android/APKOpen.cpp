@@ -1538,11 +1538,12 @@ SHELL_WRAPPER1
 cameraCallbackBridge
 jbyteArray
 )
-SHELL_WRAPPER2
+SHELL_WRAPPER3
 (
 notifyBatteryChange
 jdouble
 jboolean
+jdouble
 )
 ;
 static
