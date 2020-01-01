@@ -2927,6 +2927,14 @@ do_QueryInterface
 aDOMNode
 )
 ;
+if
+(
+!
+content
+)
+return
+nsnull
+;
 nsCOMPtr
 <
 nsIDocument
