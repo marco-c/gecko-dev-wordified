@@ -1965,6 +1965,7 @@ be
 implemented
 protected
 :
+virtual
 void
 ContinueInterruptedParsingAsync
 (

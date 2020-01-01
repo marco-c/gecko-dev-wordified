@@ -2304,6 +2304,12 @@ nsIRunnable
 >
 mExecutorFlusher
 ;
+nsCOMPtr
+<
+nsIRunnable
+>
+mLoadFlusher
+;
 /
 *
 *
