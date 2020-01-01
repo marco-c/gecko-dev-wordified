@@ -537,7 +537,7 @@ h
 #
 include
 "
-nsVoidArray
+nsCOMArray
 .
 h
 "
@@ -3698,7 +3698,10 @@ protected
 nsString
 mTopic
 ;
-nsVoidArray
+nsCOMArray
+<
+nsIElementObserver
+>
 *
 mObservers
 [
