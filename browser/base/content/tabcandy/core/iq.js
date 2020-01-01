@@ -8793,6 +8793,9 @@ mousedown
 mouseover
 '
 '
+mouseout
+'
+'
 mousemove
 '
 '
