@@ -802,16 +802,6 @@ PR_MemMap
 .
 *
 /
-/
-*
-See
-bug
-318077
-for
-WinCE
-.
-*
-/
 #
 if
 !
