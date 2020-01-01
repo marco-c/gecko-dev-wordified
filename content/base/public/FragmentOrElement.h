@@ -1767,6 +1767,14 @@ bool
 aIsXUL
 )
 ;
+size_t
+SizeOfIncludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+const
+;
 /
 *
 *
