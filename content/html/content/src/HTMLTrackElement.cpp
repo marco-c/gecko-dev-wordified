@@ -151,7 +151,7 @@ h
 #
 include
 "
-WebVTTListener
+WebVTTLoadListener
 .
 h
 "
@@ -578,7 +578,7 @@ nsGenericHTMLElement
 mTrack
 mChannel
 mMediaParent
-mListener
+mLoadListener
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
@@ -1338,17 +1338,17 @@ rv
 )
 )
 ;
-mListener
+mLoadListener
 =
 new
-WebVTTListener
+WebVTTLoadListener
 (
 this
 )
 ;
 rv
 =
-mListener
+mLoadListener
 -
 >
 LoadResource
@@ -1368,7 +1368,7 @@ channel
 >
 SetNotificationCallbacks
 (
-mListener
+mLoadListener
 )
 ;
 LOG
@@ -1390,7 +1390,7 @@ channel
 >
 AsyncOpen
 (
-mListener
+mLoadListener
 nullptr
 )
 ;
