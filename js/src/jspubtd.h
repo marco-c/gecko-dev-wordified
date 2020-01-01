@@ -1282,12 +1282,7 @@ JSTraceCallback
 .
 *
 /
-#
-ifdef
-JS_ION
 JSTRACE_IONCODE
-#
-endif
 #
 if
 JS_HAS_XML_SUPPORT

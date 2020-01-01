@@ -1584,9 +1584,6 @@ name
 )
 ;
 }
-#
-ifdef
-JS_ION
 void
 MarkIonCodeUnbarriered
 (
@@ -1628,11 +1625,6 @@ code
 )
 ;
 }
-#
-endif
-#
-ifdef
-JS_ION
 void
 MarkIonCode
 (
@@ -1665,8 +1657,6 @@ name
 )
 ;
 }
-#
-endif
 void
 MarkTypeObjectUnbarriered
 (
@@ -2221,9 +2211,6 @@ thing
 )
 ;
 }
-#
-ifdef
-JS_ION
 void
 PushMarkStack
 (
@@ -2294,8 +2281,6 @@ thing
 )
 ;
 }
-#
-endif
 void
 PushMarkStack
 (
@@ -3109,9 +3094,6 @@ type_stack
 ;
 break
 ;
-#
-ifdef
-JS_ION
 case
 JSTRACE_IONCODE
 :
@@ -3133,8 +3115,6 @@ thing
 ;
 break
 ;
-#
-endif
 #
 if
 JS_HAS_XML_SUPPORT
@@ -3793,9 +3773,6 @@ name
 )
 ;
 }
-#
-ifdef
-JS_ION
 void
 MarkRoot
 (
@@ -3822,8 +3799,6 @@ name
 )
 ;
 }
-#
-endif
 void
 MarkRoot
 (
@@ -6561,9 +6536,6 @@ type_function
 )
 ;
 }
-#
-ifdef
-JS_ION
 void
 MarkChildren
 (
@@ -6578,6 +6550,9 @@ IonCode
 code
 )
 {
+#
+ifdef
+JS_ION
 code
 -
 >
@@ -6586,9 +6561,9 @@ trace
 trc
 )
 ;
-}
 #
 endif
+}
 #
 ifdef
 JS_HAS_XML_SUPPORT
@@ -6854,9 +6829,6 @@ addr
 )
 )
 ;
-#
-ifdef
-JS_ION
 }
 else
 if
@@ -6872,9 +6844,6 @@ MarkChildren
 this
 reinterpret_cast
 <
-ion
-:
-:
 IonCode
 *
 >
@@ -6883,8 +6852,6 @@ addr
 )
 )
 ;
-#
-endif
 }
 else
 {
@@ -7458,9 +7425,6 @@ thing
 ;
 break
 ;
-#
-ifdef
-JS_ION
 case
 JSTRACE_IONCODE
 :
@@ -7482,8 +7446,6 @@ thing
 ;
 break
 ;
-#
-endif
 case
 JSTRACE_BASE_SHAPE
 :
