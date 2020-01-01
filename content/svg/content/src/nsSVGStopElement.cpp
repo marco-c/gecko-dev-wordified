@@ -1189,10 +1189,7 @@ rest
 float
 offset
 =
-static_cast
-<
 float
->
 (
 PR_strtod
 (
@@ -1208,6 +1205,12 @@ str
 !
 =
 rest
+&
+&
+NS_FloatIsFinite
+(
+offset
+)
 )
 {
 if

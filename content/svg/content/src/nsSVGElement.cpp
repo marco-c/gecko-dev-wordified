@@ -9141,6 +9141,13 @@ str
 =
 =
 rest
+|
+|
+!
+NS_FloatIsFinite
+(
+x
+)
 )
 {
 /
@@ -9216,6 +9223,13 @@ rest
 \
 0
 '
+|
+|
+!
+NS_FloatIsFinite
+(
+y
+)
 )
 {
 /

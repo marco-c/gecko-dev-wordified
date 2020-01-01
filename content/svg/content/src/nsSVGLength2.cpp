@@ -1046,6 +1046,13 @@ rest
 !
 =
 str
+&
+&
+NS_FloatIsFinite
+(
+*
+aValue
+)
 )
 {
 *

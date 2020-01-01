@@ -1617,6 +1617,13 @@ end
 get
 (
 )
+|
+|
+!
+NS_FloatIsFinite
+(
+f
+)
 )
 return
 -
