@@ -8582,7 +8582,8 @@ SingleByteRegs
 if
 defined
 JS_CPU_X86
-or
+|
+|
 defined
 JS_CPU_ARM
 JSValueTag
@@ -8968,7 +8969,8 @@ toBoolean
 if
 defined
 JS_CPU_X86
-or
+|
+|
 defined
 JS_CPU_ARM
 if
