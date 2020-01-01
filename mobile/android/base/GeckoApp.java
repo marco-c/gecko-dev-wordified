@@ -3256,6 +3256,12 @@ getScheme
 boolean
 enabled
 =
+scheme
+!
+=
+null
+&
+&
 !
 (
 scheme
