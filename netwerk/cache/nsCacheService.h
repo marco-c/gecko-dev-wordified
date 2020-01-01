@@ -930,6 +930,12 @@ nsCacheEntry
 entry
 )
 ;
+static
+PRInt32
+CacheCompressionLevel
+(
+)
+;
 /
 *
 *
@@ -1259,6 +1265,14 @@ static
 void
 SetMemoryCache
 (
+)
+;
+static
+void
+SetCacheCompressionLevel
+(
+PRInt32
+level
 )
 ;
 static
