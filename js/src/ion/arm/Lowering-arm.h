@@ -705,6 +705,14 @@ div
 )
 ;
 bool
+lowerModI
+(
+MMod
+*
+mod
+)
+;
+bool
 visitTableSwitch
 (
 MTableSwitch
