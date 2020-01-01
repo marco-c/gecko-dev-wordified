@@ -900,7 +900,7 @@ gfxFontEntry
 MakePlatformFont
 (
 const
-gfxFontEntry
+gfxProxyFontEntry
 *
 aProxyEntry
 const
@@ -928,6 +928,15 @@ a
 given
 font
 name
+/
+/
+(
+platforms
+may
+override
+eg
+Mac
+)
 virtual
 PRBool
 GetStandardFamilyName
@@ -940,8 +949,6 @@ nsAString
 &
 aFamilyName
 )
-=
-0
 ;
 protected
 :
