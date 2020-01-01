@@ -4153,7 +4153,7 @@ return
 cx
 -
 >
-hasRunOption
+hasOption
 (
 JSOPTION_UNROOTED_GLOBAL
 )

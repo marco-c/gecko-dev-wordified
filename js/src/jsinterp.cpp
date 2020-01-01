@@ -3542,7 +3542,7 @@ if
 cx
 -
 >
-hasRunOption
+hasOption
 (
 JSOPTION_VAROBJFIX
 )

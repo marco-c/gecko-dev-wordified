@@ -15080,7 +15080,7 @@ cx
 cx
 -
 >
-hasRunOption
+hasOption
 (
 JSOPTION_TYPE_INFERENCE
 )

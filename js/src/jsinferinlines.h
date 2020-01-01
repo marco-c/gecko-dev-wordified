@@ -6606,7 +6606,7 @@ analyze
 cx
 -
 >
-hasRunOption
+hasOption
 (
 JSOPTION_METHODJIT_ALWAYS
 )

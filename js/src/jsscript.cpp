@@ -3469,7 +3469,7 @@ version_
 VersionFlags
 :
 :
-FULL_MASK
+MASK
 )
 =
 =
@@ -5249,7 +5249,7 @@ if
 cx
 -
 >
-hasRunOption
+hasOption
 (
 JSOPTION_PCCOUNT
 )
@@ -11916,7 +11916,7 @@ if
 cx
 -
 >
-hasRunOption
+hasOption
 (
 JSOPTION_PCCOUNT
 )
@@ -15175,7 +15175,7 @@ if
 cx
 -
 >
-hasRunOption
+hasOption
 (
 JSOPTION_PCCOUNT
 )

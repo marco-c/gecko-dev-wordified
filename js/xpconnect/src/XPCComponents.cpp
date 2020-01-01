@@ -26278,7 +26278,7 @@ JS_SetOptions
 cx
 options
 &
-JSALLOPTION_MASK
+JSOPTION_MASK
 )
 ;
 return

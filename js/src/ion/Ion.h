@@ -1681,7 +1681,7 @@ return
 cx
 -
 >
-hasRunOption
+hasOption
 (
 JSOPTION_ION
 )
