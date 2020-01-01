@@ -4779,7 +4779,7 @@ rv
 htmlEditor
 -
 >
-SetCSSInlineProperty
+SetInlineProperty
 (
 fontAtom
 NS_LITERAL_STRING

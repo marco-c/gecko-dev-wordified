@@ -135,13 +135,6 @@ fontsize
 :
 true
 '
-hilitecolor
--
-0
-'
-:
-true
-'
 subscript
 -
 1
