@@ -121,6 +121,15 @@ jspubtd
 .
 h
 "
+#
+include
+"
+js
+/
+Utility
+.
+h
+"
 /
 *
 These
@@ -348,7 +357,7 @@ shadow
 struct
 ArenaHeader
 {
-js
+JS
 :
 :
 Zone
@@ -813,7 +822,7 @@ needsBarrier_
 return
 false
 ;
-js
+JS
 :
 :
 Zone
