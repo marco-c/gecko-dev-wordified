@@ -39508,12 +39508,12 @@ JSCompartment
 NewTypeObjectSet
 :
 :
-AddPtr
+Ptr
 p
 =
 table
 .
-lookupForAdd
+lookup
 (
 this
 )
