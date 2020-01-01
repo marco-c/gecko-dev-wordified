@@ -2365,7 +2365,7 @@ host
 throw
 (
 "
-Permision
+Permission
 denied
 to
 add
