@@ -1225,6 +1225,14 @@ PRBool
 aForce
 )
 ;
+NS_IMETHOD
+GetCanceled
+(
+PRBool
+*
+aCanceled
+)
+;
 /
 /
 nsISupportsPriority
@@ -1406,6 +1414,11 @@ PRUint8
 mRedirectionLimit
 ;
 PRUint8
+mCanceled
+:
+1
+;
+PRUint8
 mIsPending
 :
 1
@@ -1430,7 +1443,7 @@ mForceAllowThirdPartyCookie
 :
 1
 ;
-PRUint32
+PRUint8
 mUploadStreamHasHeaders
 :
 1

@@ -1438,7 +1438,7 @@ redirect
 observers
 .
 nsresult
-OnChannelRedirect
+AsyncOnChannelRedirect
 (
 nsIChannel
 *
