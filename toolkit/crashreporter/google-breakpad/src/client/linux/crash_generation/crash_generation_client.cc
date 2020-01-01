@@ -4,7 +4,7 @@ Copyright
 (
 c
 )
-2010
+2009
 Google
 Inc
 .
@@ -298,13 +298,6 @@ OF
 SUCH
 DAMAGE
 .
-#
-include
-<
-stdio
-.
-h
->
 #
 include
 <

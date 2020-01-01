@@ -4,7 +4,7 @@ Copyright
 (
 c
 )
-2010
+2009
 Google
 Inc
 .
@@ -359,6 +359,7 @@ client
 linux
 /
 handler
+/
 /
 exception_handler
 .
@@ -820,9 +821,6 @@ sizeof
 len
 )
 )
-(
-ssize_t
-)
 sizeof
 (
 len
@@ -832,9 +830,6 @@ len
 ASSERT_LT
 (
 len
-(
-uint32_t
-)
 2048
 )
 ;
@@ -1352,7 +1347,7 @@ handler
 (
 "
 /
-tmp1
+tmp
 "
 NULL
 NULL
