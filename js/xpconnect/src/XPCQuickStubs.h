@@ -3373,7 +3373,6 @@ template
 typename
 Op
 >
-static
 inline
 JSBool
 ApplyPropertyOp
