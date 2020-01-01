@@ -788,7 +788,6 @@ ACC_NONE
 namespace
 js
 {
-static
 jsdouble
 JS_ALWAYS_INLINE
 UnboxDoubleHelper
