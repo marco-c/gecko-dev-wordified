@@ -632,6 +632,9 @@ jsstr
 h
 "
 #
+ifdef
+JS_TRACER
+#
 include
 "
 jstracer
@@ -646,6 +649,8 @@ using
 namespace
 nanojit
 ;
+#
+endif
 typedef
 enum
 REOp
@@ -12794,6 +12799,9 @@ goto
 cleanup
 ;
 }
+#
+ifdef
+JS_TRACER
 typedef
 List
 <
@@ -14852,6 +14860,8 @@ cx
 )
 ;
 }
+#
+endif
 JSRegExp
 *
 js_NewRegExp
@@ -15308,6 +15318,9 @@ classList
 NULL
 ;
 }
+#
+ifdef
+JS_TRACER
 /
 *
 FIXME
@@ -15349,6 +15362,8 @@ JS_TRUE
 }
 else
 {
+#
+endif
 re
 -
 >
@@ -15532,7 +15547,12 @@ re
 tmp
 ;
 }
+#
+ifdef
+JS_TRACER
 }
+#
+endif
 re
 -
 >
@@ -18769,6 +18789,9 @@ nrefs
 0
 )
 {
+#
+ifdef
+JS_TRACER
 JS_TRACE_MONITOR
 (
 cx
@@ -18782,6 +18805,8 @@ clearFrag
 re
 )
 ;
+#
+endif
 if
 (
 re
@@ -24393,6 +24418,9 @@ cp2
 uintN
 j
 ;
+#
+ifdef
+JS_TRACER
 Fragment
 *
 fragment
@@ -24553,6 +24581,8 @@ return
 lr
 ;
 }
+#
+endif
 /
 *
 *
