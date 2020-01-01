@@ -10713,7 +10713,7 @@ GetInputEventTargetContent
 (
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 target
 )
@@ -11262,7 +11262,7 @@ EndIMEComposition
 (
 )
 {
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 mInIMEMode
 )
@@ -29233,7 +29233,7 @@ DetermineCurrentDirection
 (
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 rv
 )

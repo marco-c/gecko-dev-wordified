@@ -2426,7 +2426,7 @@ do_GetIOService
 )
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 io
 )
@@ -2454,7 +2454,7 @@ ph
 )
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 rv
 )
@@ -2535,7 +2535,7 @@ overrides
 mSelectedLocale
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 success
 )

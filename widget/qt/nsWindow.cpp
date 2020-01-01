@@ -3318,7 +3318,7 @@ QGraphicsItem
 aVisibleItem
 )
 {
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 aItem
 )
@@ -13884,7 +13884,7 @@ GetViewWidget
 )
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 widget
 )
@@ -14082,7 +14082,7 @@ GetViewWidget
 )
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 widget
 )
@@ -18349,7 +18349,7 @@ InputContextAction
 aAction
 )
 {
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 mWidget
 )

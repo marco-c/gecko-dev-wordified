@@ -1278,7 +1278,7 @@ GetWidget
 aPresContext
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 widget
 )
@@ -1298,7 +1298,7 @@ GetIsTrusted
 isTrusted
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 rv
 )
@@ -1332,7 +1332,7 @@ GetButton
 button
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 rv
 )
@@ -1370,7 +1370,7 @@ GetDetail
 clickCount
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 rv
 )
@@ -1861,7 +1861,7 @@ InputContextAction
 aAction
 )
 {
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 aWidget
 )

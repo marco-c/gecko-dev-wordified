@@ -466,7 +466,7 @@ GetSystemDefaultLCID
 (
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 win_lcid
 )
@@ -492,7 +492,7 @@ mSystemLocale
 )
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 rv
 )
@@ -513,7 +513,7 @@ GetUserDefaultLCID
 (
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 win_lcid
 )
@@ -538,7 +538,7 @@ mApplicationLocale
 )
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 rv
 )
@@ -570,7 +570,7 @@ nsLocale
 )
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 resultLocale
 )

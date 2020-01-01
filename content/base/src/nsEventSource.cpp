@@ -7755,7 +7755,7 @@ GetOwner
 )
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 sgo
 )
@@ -7771,7 +7771,7 @@ GetContext
 (
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 scriptContext
 )
@@ -7787,7 +7787,7 @@ GetNativeContext
 (
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 cx
 )
@@ -7871,7 +7871,7 @@ Length
 )
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 jsString
 )

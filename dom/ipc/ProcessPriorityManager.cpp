@@ -1031,7 +1031,7 @@ do_QueryInterface
 aOuterWindow
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 outerWindow
 )
@@ -1049,7 +1049,7 @@ GetCurrentInnerWindow
 (
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 innerWindow
 )
@@ -1084,7 +1084,7 @@ parentOuterWindow
 )
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 parentOuterWindow
 )
@@ -1111,7 +1111,7 @@ do_QueryInterface
 innerWindow
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 target
 )
@@ -1124,7 +1124,7 @@ do_GetWeakReference
 innerWindow
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 weakWin
 )

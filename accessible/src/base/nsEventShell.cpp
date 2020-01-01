@@ -299,7 +299,7 @@ GetAccessible
 (
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 accessible
 )
@@ -362,7 +362,7 @@ EIsFromUserInput
 aIsFromUserInput
 )
 {
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 aAccessible
 )
