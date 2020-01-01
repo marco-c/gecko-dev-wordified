@@ -36005,6 +36005,7 @@ offsets
 :
 length
 percent
+calc
 auto
 inherit
 nsStyleCoord
@@ -36051,6 +36052,8 @@ parentCoord
 SETCOORD_LPAH
 |
 SETCOORD_INITIAL_AUTO
+|
+SETCOORD_STORE_CALC
 aContext
 mPresContext
 canStoreInRuleTree

@@ -31857,6 +31857,8 @@ ParseVariant
 (
 aValue
 VARIANT_AHLP
+|
+VARIANT_CALC
 nsnull
 )
 ;
