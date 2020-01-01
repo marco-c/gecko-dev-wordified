@@ -2204,7 +2204,7 @@ PRInt32
 nsNavHistory
 :
 :
-kAutoCompleteIndex_ItemId
+kAutoCompleteIndex_ParentId
 =
 3
 ;
@@ -2213,7 +2213,7 @@ PRInt32
 nsNavHistory
 :
 :
-kAutoCompleteIndex_ParentId
+kAutoCompleteIndex_BookmarkTitle
 =
 4
 ;
@@ -2222,7 +2222,7 @@ PRInt32
 nsNavHistory
 :
 :
-kAutoCompleteIndex_BookmarkTitle
+kAutoCompleteIndex_Tags
 =
 5
 ;
