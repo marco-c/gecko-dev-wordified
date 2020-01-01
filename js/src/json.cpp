@@ -4772,7 +4772,7 @@ jp
 cx
 -
 >
-create
+new_
 <
 JSONParser
 >
@@ -5111,7 +5111,7 @@ vp
 cx
 -
 >
-destroy
+delete_
 (
 jp
 )

@@ -686,7 +686,7 @@ argc
 ;
 void
 JS_FASTCALL
-EnterScript
+ScriptDebugPrologue
 (
 VMFrame
 &
@@ -695,7 +695,7 @@ f
 ;
 void
 JS_FASTCALL
-LeaveScript
+ScriptDebugEpilogue
 (
 VMFrame
 &
@@ -944,15 +944,6 @@ f
 ;
 void
 JS_FASTCALL
-PutStrictEvalCallObject
-(
-VMFrame
-&
-f
-)
-;
-void
-JS_FASTCALL
 PutActivationObjects
 (
 VMFrame
@@ -962,7 +953,7 @@ f
 ;
 void
 JS_FASTCALL
-GetCallObject
+CreateFunCallObject
 (
 VMFrame
 &

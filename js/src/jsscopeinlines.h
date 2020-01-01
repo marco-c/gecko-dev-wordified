@@ -481,6 +481,20 @@ h
 #
 include
 "
+jsgc
+.
+h
+"
+#
+include
+"
+jsgcinlines
+.
+h
+"
+#
+include
+"
 jscntxtinlines
 .
 h
@@ -517,7 +531,7 @@ hasTable
 cx
 -
 >
-destroy
+delete_
 (
 getTable
 (
@@ -627,7 +641,7 @@ EmptyShape
 cx
 -
 >
-calloc
+calloc_
 (
 sizeof
 (
@@ -709,7 +723,7 @@ emptyShapes
 cx
 -
 >
-free
+free_
 (
 emptyShapes
 )

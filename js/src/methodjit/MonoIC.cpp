@@ -7122,7 +7122,8 @@ native
 js_regexp_exec
 &
 &
-IsCallResultUnusedOrTested
+!
+CallResultEscapes
 (
 f
 .
