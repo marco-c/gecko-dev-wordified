@@ -477,6 +477,13 @@ mozStorage
 .
 h
 "
+#
+include
+"
+nsPluginError
+.
+h
+"
 /
 *
 *

@@ -822,9 +822,9 @@ PRLibrary
 *
 mLibrary
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIPlugin
+nsNPAPIPlugin
 >
 mEntryPoint
 ;
