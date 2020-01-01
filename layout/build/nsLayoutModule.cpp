@@ -1650,7 +1650,7 @@ android
 #
 include
 "
-nsDeviceMotionSystem
+nsDeviceMotion
 .
 h
 "
@@ -1928,7 +1928,7 @@ android
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-nsDeviceMotionSystem
+nsDeviceMotion
 )
 #
 endif
@@ -6175,7 +6175,7 @@ android
 kNS_DEVICE_MOTION_CID
 false
 NULL
-nsDeviceMotionSystemConstructor
+nsDeviceMotionConstructor
 }
 #
 endif
