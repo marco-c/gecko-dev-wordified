@@ -542,6 +542,14 @@ void
 aData
 )
 ;
+NS_IMETHOD
+FireAccessibleEvent
+(
+nsIAccessibleEvent
+*
+aEvent
+)
+;
 protected
 :
 PRBool
