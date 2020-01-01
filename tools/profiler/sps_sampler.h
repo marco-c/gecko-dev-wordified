@@ -2811,6 +2811,13 @@ char
 aMarker
 )
 {
+if
+(
+!
+stack_key_initialized
+)
+return
+;
 ProfileStack
 *
 stack
