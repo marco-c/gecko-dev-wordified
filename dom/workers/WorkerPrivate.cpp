@@ -10325,6 +10325,12 @@ mPrincipal
 aDoomed
 )
 ;
+SwapToISupportsArray
+(
+mCSP
+aDoomed
+)
+;
 mMainThreadObjectsForgotten
 =
 true
