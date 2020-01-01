@@ -5966,7 +5966,7 @@ stackFrameStart
 frame
 -
 >
-formals
+argv
 (
 )
 -

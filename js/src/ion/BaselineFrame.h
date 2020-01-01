@@ -1038,7 +1038,7 @@ i
 )
 ;
 return
-formals
+argv
 (
 )
 [
@@ -1103,7 +1103,7 @@ i
 )
 ;
 return
-actuals
+argv
 (
 )
 [
@@ -1244,7 +1244,7 @@ offsetOfThis
 }
 Value
 *
-formals
+argv
 (
 )
 const
@@ -1276,19 +1276,6 @@ offsetOfArg
 (
 0
 )
-)
-;
-}
-Value
-*
-actuals
-(
-)
-const
-{
-return
-formals
-(
 )
 ;
 }
