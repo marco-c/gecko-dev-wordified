@@ -717,6 +717,12 @@ prefName
 newValue
 )
 ;
+if
+(
+preference
+instanceof
+ListPreference
+)
 (
 (
 ListPreference
