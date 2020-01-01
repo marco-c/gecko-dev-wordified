@@ -1246,7 +1246,7 @@ rv
 txMozillaXSLTProcessor
 :
 :
-Init
+Startup
 (
 )
 ;
