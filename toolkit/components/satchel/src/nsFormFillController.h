@@ -901,6 +901,14 @@ void
 aUserData
 )
 ;
+PRBool
+IsEventTrusted
+(
+nsIDOMEvent
+*
+aEvent
+)
+;
 /
 /
 members
