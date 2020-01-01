@@ -87984,7 +87984,7 @@ lengthAndFlags_ins
 JSString
 :
 :
-FLAGS_LENGTH_SHIFT
+LENGTH_SHIFT
 )
 )
 snapshot
@@ -88236,7 +88236,7 @@ lengthAndFlags_ins
 JSString
 :
 :
-FLAGS_LENGTH_SHIFT
+LENGTH_SHIFT
 )
 )
 ;

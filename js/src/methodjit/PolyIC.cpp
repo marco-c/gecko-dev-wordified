@@ -7049,10 +7049,11 @@ Address
 pic
 .
 objReg
-offsetof
-(
 JSString
-mLengthAndFlags
+:
+:
+offsetOfLengthAndFlags
+(
 )
 )
 pic
@@ -7093,7 +7094,7 @@ Imm32
 JSString
 :
 :
-FLAGS_LENGTH_SHIFT
+LENGTH_SHIFT
 )
 pic
 .

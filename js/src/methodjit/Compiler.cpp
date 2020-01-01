@@ -20130,10 +20130,11 @@ loadPtr
 Address
 (
 str
-offsetof
-(
 JSString
-mLengthAndFlags
+:
+:
+offsetOfLengthAndFlags
+(
 )
 )
 str
@@ -20148,7 +20149,7 @@ Imm32
 JSString
 :
 :
-FLAGS_LENGTH_SHIFT
+LENGTH_SHIFT
 )
 str
 )

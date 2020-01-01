@@ -3641,7 +3641,9 @@ ATOM_TMPSTR
 str
 -
 >
-mChars
+u
+.
+chars
 =
 NULL
 ;
