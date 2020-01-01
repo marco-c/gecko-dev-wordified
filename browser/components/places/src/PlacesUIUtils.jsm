@@ -2594,13 +2594,6 @@ PlacesUtils
 .
 history
 .
-QueryInterface
-(
-Ci
-.
-nsIBrowserHistory
-)
-.
 markPageAsTyped
 (
 this
@@ -2753,13 +2746,6 @@ aURL
 PlacesUtils
 .
 history
-.
-QueryInterface
-(
-Ci
-.
-nsIBrowserHistory
-)
 .
 markPageAsFollowedLink
 (

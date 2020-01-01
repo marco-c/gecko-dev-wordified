@@ -172,18 +172,6 @@ nsINavHistoryService
 )
 ;
 var
-bhist
-=
-histsvc
-.
-QueryInterface
-(
-Ci
-.
-nsIBrowserHistory
-)
-;
-var
 bmsvc
 =
 Cc
@@ -756,7 +744,7 @@ now
 }
 )
 ;
-bhist
+histsvc
 .
 markPageAsTyped
 (

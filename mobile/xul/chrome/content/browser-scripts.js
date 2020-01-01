@@ -1315,9 +1315,6 @@ service
 "
 nsINavHistoryService
 "
-"
-nsIBrowserHistory
-"
 )
 ;
 XPCOMUtils
