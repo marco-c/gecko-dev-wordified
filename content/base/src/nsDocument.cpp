@@ -9521,8 +9521,10 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 struct
 CustomPrototypeTraceArgs
 {
-TraceCallback
-callback
+const
+TraceCallbacks
+&
+callbacks
 ;
 void
 *
@@ -9540,6 +9542,7 @@ nsAString
 aName
 JSObject
 *
+&
 aObject
 void
 *
@@ -9576,8 +9579,11 @@ null
 traceArgs
 -
 >
-callback
+callbacks
+.
+Trace
 (
+&
 aObject
 "
 mCustomPrototypes
@@ -9601,7 +9607,7 @@ CustomPrototypeTraceArgs
 customPrototypeArgs
 =
 {
-aCallback
+aCallbacks
 aClosure
 }
 ;
@@ -9610,7 +9616,7 @@ tmp
 >
 mCustomPrototypes
 .
-EnumerateRead
+Enumerate
 (
 CustomPrototypeTrace
 &
@@ -9641,7 +9647,7 @@ nsINode
 Trace
 (
 tmp
-aCallback
+aCallbacks
 aClosure
 )
 ;

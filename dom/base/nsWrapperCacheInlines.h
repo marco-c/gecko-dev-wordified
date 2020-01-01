@@ -405,7 +405,10 @@ participant
 Trace
 (
 aThis
+TraceCallbackFunc
+(
 SearchGray
+)
 &
 hasGrayObjects
 )

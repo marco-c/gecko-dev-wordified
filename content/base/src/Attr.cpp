@@ -517,7 +517,7 @@ nsINode
 Trace
 (
 tmp
-aCallback
+aCallbacks
 aClosure
 )
 ;

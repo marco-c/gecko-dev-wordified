@@ -11284,7 +11284,9 @@ Trace
 nsINode
 *
 tmp
-TraceCallback
+const
+TraceCallbacks
+&
 cb
 void
 *
