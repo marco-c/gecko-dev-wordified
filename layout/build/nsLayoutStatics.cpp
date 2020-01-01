@@ -634,6 +634,13 @@ ProcessPriorityManager
 .
 h
 "
+#
+include
+"
+nsPermissionManager
+.
+h
+"
 extern
 void
 NS_ShutdownChainItemPool
@@ -1335,6 +1342,13 @@ Init
 )
 ;
 InitProcessPriorityManager
+(
+)
+;
+nsPermissionManager
+:
+:
+AppUninstallObserverInit
 (
 )
 ;

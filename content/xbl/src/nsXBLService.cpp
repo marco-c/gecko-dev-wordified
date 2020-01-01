@@ -588,7 +588,7 @@ NS_MAX_XBL_BINDING_RECURSION
 continue
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 aChildBindingURI
@@ -2963,7 +2963,7 @@ OwnerDoc
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 urlspec
 ;
 if
@@ -3153,7 +3153,7 @@ newBinding
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 spec
 ;
 aURL
@@ -3164,7 +3164,7 @@ GetSpec
 spec
 )
 ;
-nsCAutoString
+nsAutoCString
 str
 (
 NS_LITERAL_CSTRING
@@ -4616,7 +4616,7 @@ aURI
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 ref
 ;
 aURI
@@ -4697,7 +4697,7 @@ protoBinding
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 uriSpec
 ;
 aURI
@@ -4708,7 +4708,7 @@ GetSpec
 uriSpec
 )
 ;
-nsCAutoString
+nsAutoCString
 doc
 ;
 boundDocument
@@ -4724,7 +4724,7 @@ GetSpec
 doc
 )
 ;
-nsCAutoString
+nsAutoCString
 message
 (
 "
@@ -5009,7 +5009,7 @@ if
 equal
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 basespec
 ;

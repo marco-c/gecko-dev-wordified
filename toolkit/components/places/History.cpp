@@ -5388,7 +5388,7 @@ visitTime
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+false
 )
 ;
 scoper
@@ -5570,10 +5570,17 @@ stmt
 GetInt64
 (
 2
+reinterpret_cast
+<
+int64_t
+*
+>
+(
 &
 _place
 .
 visitTime
+)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7655,7 +7662,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 destinationURISpec
 ;
 rv
@@ -9277,7 +9284,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 guid
 (
 aPlace

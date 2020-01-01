@@ -816,7 +816,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 message
 ;
 rv
@@ -835,7 +835,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 warnMsg
 ;
 warnMsg

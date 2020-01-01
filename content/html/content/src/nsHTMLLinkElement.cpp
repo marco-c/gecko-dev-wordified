@@ -849,6 +849,12 @@ nsHTMLLinkElement
 Type
 type
 )
+NS_IMPL_STRING_ATTR
+(
+nsHTMLLinkElement
+CrossOrigin
+crossorigin
+)
 void
 nsHTMLLinkElement
 :

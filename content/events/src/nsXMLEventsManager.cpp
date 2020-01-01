@@ -314,7 +314,7 @@ hasHandlerURI
 =
 true
 ;
-nsCAutoString
+nsAutoCString
 handlerRef
 ;
 nsCOMPtr

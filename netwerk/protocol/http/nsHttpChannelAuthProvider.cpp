@@ -617,7 +617,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 challenges
 ;
 mProxyAuth
@@ -919,7 +919,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 creds
 ;
 rv
@@ -1232,7 +1232,7 @@ credentials
 should
 be
 sent
-nsCAutoString
+nsAutoCString
 path
 scheme
 ;
@@ -2399,7 +2399,7 @@ NTLM
 auth
 )
 .
-nsCAutoString
+nsAutoCString
 contractId
 ;
 contractId
@@ -2483,7 +2483,7 @@ REQUEST_BASED
 )
 )
 {
-nsCAutoString
+nsAutoCString
 challenges
 ;
 rv
@@ -2736,7 +2736,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 rv
@@ -2854,7 +2854,7 @@ nsIHttpAuthenticator
 >
 auth
 ;
-nsCAutoString
+nsAutoCString
 challenge
 ;
 nsCString
@@ -3724,7 +3724,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 realm
 ;
 ParseRealm
@@ -3844,7 +3844,7 @@ nsHttpAuthIdentity
 *
 ident
 ;
-nsCAutoString
+nsAutoCString
 path
 scheme
 ;
@@ -5015,7 +5015,7 @@ ToLowerCase
 authType
 )
 ;
-nsCAutoString
+nsAutoCString
 contractid
 ;
 contractid
@@ -5093,7 +5093,7 @@ passBuf
 /
 XXX
 i18n
-nsCAutoString
+nsAutoCString
 buf
 ;
 mURI
@@ -6050,7 +6050,7 @@ nsHttpAuthIdentity
 *
 ident
 ;
-nsCAutoString
+nsAutoCString
 path
 scheme
 ;
@@ -6085,7 +6085,7 @@ aContext
 false
 )
 ;
-nsCAutoString
+nsAutoCString
 realm
 ;
 ParseRealm
@@ -6241,7 +6241,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 unused
 ;
 nsCOMPtr
@@ -6442,7 +6442,7 @@ so
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 creds
 ;
 rv
@@ -6803,7 +6803,7 @@ LOAD_INITIAL_DOCUMENT_URI
 return
 true
 ;
-nsCAutoString
+nsAutoCString
 userPass
 ;
 rv
@@ -6934,7 +6934,7 @@ bundle
 return
 true
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 rv
@@ -6957,7 +6957,7 @@ rv
 return
 true
 ;
-nsCAutoString
+nsAutoCString
 user
 ;
 rv
@@ -7696,7 +7696,7 @@ nsIHttpAuthenticator
 >
 auth
 ;
-nsCAutoString
+nsAutoCString
 unused
 ;
 rv

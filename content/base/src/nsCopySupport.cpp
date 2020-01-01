@@ -1433,7 +1433,7 @@ if
 uri
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -2643,7 +2643,7 @@ nsIDocumentEncoder
 >
 docEncoder
 ;
-nsCAutoString
+nsAutoCString
 encoderContractID
 (
 NS_DOC_ENCODER_CONTRACTID_BASE
@@ -2901,7 +2901,7 @@ uri
 NS_ERROR_FAILURE
 )
 ;
-nsCAutoString
+nsAutoCString
 location
 ;
 rv

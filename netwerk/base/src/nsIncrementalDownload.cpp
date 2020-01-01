@@ -1387,7 +1387,7 @@ int64_t
 )
 )
 {
-nsCAutoString
+nsAutoCString
 range
 ;
 MakeRangeSpec
@@ -2812,7 +2812,7 @@ this
 download
 file
 .
-nsCAutoString
+nsAutoCString
 buf
 ;
 rv
@@ -3878,7 +3878,7 @@ a
 full
 download
 .
-nsCAutoString
+nsAutoCString
 rangeVal
 ;
 http

@@ -1068,7 +1068,7 @@ we
 need
 a
 charset
-nsCAutoString
+nsAutoCString
 originCharset
 ;
 nsresult
@@ -1764,7 +1764,7 @@ file
 .
 .
 .
-nsCAutoString
+nsAutoCString
 leafName
 ;
 url
@@ -3684,7 +3684,7 @@ aStreamListener
 nsAutoString
 fileName
 ;
-nsCAutoString
+nsAutoCString
 fileExtension
 ;
 uint32_t
@@ -4116,7 +4116,7 @@ if
 httpChan
 )
 {
-nsCAutoString
+nsAutoCString
 requestMethod
 ;
 httpChan
@@ -4219,7 +4219,7 @@ if
 url
 )
 {
-nsCAutoString
+nsAutoCString
 query
 ;
 /
@@ -4553,7 +4553,7 @@ nsCaseInsensitiveCStringComparator
 )
 )
 {
-nsCAutoString
+nsAutoCString
 mimeType
 ;
 if
@@ -4801,7 +4801,7 @@ to
 /
 /
 nsExternalAppHandler
-nsCAutoString
+nsAutoCString
 buf
 ;
 mimeInfo
@@ -5500,7 +5500,7 @@ the
 global
 setting
 .
-nsCAutoString
+nsAutoCString
 prefName
 (
 "
@@ -5732,7 +5732,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 aURI
@@ -5828,7 +5828,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 uri
@@ -5867,7 +5867,7 @@ say
 to
 do
 so
-nsCAutoString
+nsAutoCString
 externalPref
 (
 kExternalProtocolPrefPrefix
@@ -6934,7 +6934,7 @@ on
 the
 warning
 preference
-nsCAutoString
+nsAutoCString
 scheme
 ;
 aHandlerInfo
@@ -6945,7 +6945,7 @@ GetType
 scheme
 )
 ;
-nsCAutoString
+nsAutoCString
 warningPref
 (
 kExternalWarningPrefPrefix
@@ -8980,7 +8980,7 @@ conversion
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 tempLeafName
 (
 b64
@@ -9052,7 +9052,7 @@ append
 our
 extension
 .
-nsCAutoString
+nsAutoCString
 ext
 ;
 mMimeInfo
@@ -9391,7 +9391,7 @@ defined
 (
 __LP64__
 )
-nsCAutoString
+nsAutoCString
 contentType
 ;
 mMimeInfo
@@ -9727,7 +9727,7 @@ if
 httpChannel
 )
 {
-nsCAutoString
+nsAutoCString
 refreshHeader
 ;
 httpChannel
@@ -9921,7 +9921,7 @@ if
 sourceURL
 )
 {
-nsCAutoString
+nsAutoCString
 extension
 ;
 sourceURL
@@ -9989,7 +9989,7 @@ rv
 hasMore
 )
 {
-nsCAutoString
+nsAutoCString
 encType
 ;
 rv
@@ -10492,7 +10492,7 @@ handlerSvc
 mimeTypeIsInDatastore
 )
 {
-nsCAutoString
+nsAutoCString
 MIMEType
 ;
 mMimeInfo
@@ -13696,7 +13696,7 @@ if
 localFileOS2
 )
 {
-nsCAutoString
+nsAutoCString
 url
 ;
 mSourceUrl
@@ -16455,7 +16455,7 @@ type
 Get
 one
 .
-nsCAutoString
+nsAutoCString
 typeToUse
 (
 aMIMEType
@@ -16758,7 +16758,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 overrideType
 ;
 rv
@@ -17134,7 +17134,7 @@ should
 probably
 be
 localized
-nsCAutoString
+nsAutoCString
 desc
 (
 aFileExt
@@ -17301,7 +17301,7 @@ LOG_ENABLED
 )
 )
 {
-nsCAutoString
+nsAutoCString
 type
 ;
 (
@@ -17315,7 +17315,7 @@ GetMIMEType
 type
 )
 ;
-nsCAutoString
+nsAutoCString
 ext
 ;
 (
@@ -17780,7 +17780,7 @@ always
 stored
 as
 lowercase
-nsCAutoString
+nsAutoCString
 lowercaseFileExt
 (
 aFileExt
@@ -18072,7 +18072,7 @@ if
 url
 )
 {
-nsCAutoString
+nsAutoCString
 ext
 ;
 rv
@@ -18134,7 +18134,7 @@ raw
 spec
 a
 shot
-nsCAutoString
+nsAutoCString
 specStr
 ;
 rv
@@ -18329,7 +18329,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 fileExt
 ;
 if
@@ -18463,7 +18463,7 @@ matching
 mime
 type
 .
-nsCAutoString
+nsAutoCString
 MIMEType
 (
 aContentType
@@ -18580,7 +18580,7 @@ nsIMIMEInfo
 aMIMEInfo
 )
 {
-nsCAutoString
+nsAutoCString
 type
 ;
 bool

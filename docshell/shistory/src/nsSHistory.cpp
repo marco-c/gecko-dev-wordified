@@ -546,7 +546,7 @@ PR_LOG_DEBUG
 )
 {
 \
-nsCAutoString
+nsAutoCString
 _specStr
 (
 NS_LITERAL_CSTRING
@@ -3633,7 +3633,7 @@ title
 #
 if
 0
-nsCAutoString
+nsAutoCString
 url
 ;
 if

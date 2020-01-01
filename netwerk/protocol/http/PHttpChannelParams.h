@@ -394,7 +394,7 @@ value
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 value
 (
 aParam
@@ -428,7 +428,7 @@ paramType
 aResult
 )
 {
-nsCAutoString
+nsAutoCString
 value
 ;
 if

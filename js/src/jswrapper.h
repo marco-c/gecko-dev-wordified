@@ -2627,8 +2627,7 @@ UnwrapObjectChecked
 JSContext
 *
 cx
-JSObject
-*
+RawObject
 obj
 )
 ;
@@ -2670,8 +2669,7 @@ UnwrapOneChecked
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 ;

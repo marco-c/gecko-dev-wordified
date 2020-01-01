@@ -4789,7 +4789,7 @@ PK11SlotInfo
 *
 slot
 ;
-nsCAutoString
+nsAutoCString
 nickname
 ;
 nsresult
@@ -8532,7 +8532,7 @@ rv
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 username
 ;
 char
@@ -8567,7 +8567,7 @@ temp_un
 nullptr
 ;
 }
-nsCAutoString
+nsAutoCString
 caname
 ;
 char
@@ -8622,7 +8622,7 @@ nickFmt
 tmpNickFmt
 )
 ;
-nsCAutoString
+nsAutoCString
 baseName
 ;
 char

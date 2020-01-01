@@ -2434,7 +2434,7 @@ container
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 theURL
 ;
 if

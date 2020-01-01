@@ -7622,7 +7622,7 @@ kPublicIDs
 i
 )
 {
-nsCAutoString
+nsAutoCString
 lcPubID
 (
 kPublicIDs
@@ -7908,7 +7908,7 @@ ASCII
 lossy
 conversion
 .
-nsCAutoString
+nsAutoCString
 publicID
 ;
 publicID
@@ -11037,7 +11037,7 @@ if
 aURL
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult
@@ -13718,7 +13718,7 @@ nullptr
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 nsCOMPtr
@@ -16195,10 +16195,10 @@ mNeedCharsetCheck
 int32_t
 guessSource
 ;
-nsCAutoString
+nsAutoCString
 guess
 ;
-nsCAutoString
+nsAutoCString
 preferred
 ;
 pws

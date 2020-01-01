@@ -3106,7 +3106,7 @@ bndry
 =
 nullptr
 ;
-nsCAutoString
+nsAutoCString
 delimiter
 ;
 nsresult
@@ -3326,7 +3326,7 @@ attrib
 0
 '
 ;
-nsCAutoString
+nsAutoCString
 boundaryString
 (
 bndry
@@ -4891,7 +4891,7 @@ colon
 0
 '
 ;
-nsCAutoString
+nsAutoCString
 headerStr
 (
 cursor
@@ -4910,7 +4910,7 @@ colon
 :
 '
 ;
-nsCAutoString
+nsAutoCString
 headerVal
 (
 colon

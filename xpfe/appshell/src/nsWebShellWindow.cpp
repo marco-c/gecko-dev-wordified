@@ -3502,7 +3502,7 @@ if
 url
 )
 {
-nsCAutoString
+nsAutoCString
 search
 ;
 url

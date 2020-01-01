@@ -222,7 +222,7 @@ caused
 the
 error
 .
-nsCAutoString
+nsAutoCString
 message
 ;
 if
@@ -594,7 +594,7 @@ buffer
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 notes
 ;
 if

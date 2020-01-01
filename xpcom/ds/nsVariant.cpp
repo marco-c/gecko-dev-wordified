@@ -5089,7 +5089,7 @@ type_
 \
 {
 \
-nsCAutoString
+nsAutoCString
 str
 ;
 \
@@ -5543,7 +5543,7 @@ NS_OK
 default
 :
 {
-nsCAutoString
+nsAutoCString
 tempCString
 ;
 nsresult
@@ -6158,7 +6158,7 @@ NS_OK
 default
 :
 {
-nsCAutoString
+nsAutoCString
 tempCString
 ;
 nsresult
@@ -6317,7 +6317,7 @@ str
 nsAutoString
 tempString
 ;
-nsCAutoString
+nsAutoCString
 tempCString
 ;
 nsresult
@@ -6790,7 +6790,7 @@ str
 nsAutoString
 tempString
 ;
-nsCAutoString
+nsAutoCString
 tempCString
 ;
 nsresult

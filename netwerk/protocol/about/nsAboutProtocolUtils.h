@@ -230,7 +230,7 @@ URI
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 contractID
 ;
 nsresult

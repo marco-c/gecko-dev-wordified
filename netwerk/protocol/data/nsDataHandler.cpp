@@ -673,7 +673,7 @@ fully
 specified
 data
 URI
-nsCAutoString
+nsAutoCString
 contentType
 contentCharset
 dataBuffer

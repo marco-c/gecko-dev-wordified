@@ -1581,7 +1581,7 @@ Truncate
 return
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 linkURI
@@ -3016,7 +3016,7 @@ if
 imageURI
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 imageURI
@@ -3215,7 +3215,7 @@ if
 imgUrl
 )
 {
-nsCAutoString
+nsAutoCString
 extension
 ;
 imgUrl
@@ -3266,7 +3266,7 @@ if
 mimeInfo
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 imgUrl
@@ -3357,7 +3357,7 @@ do_QueryInterface
 imgUri
 )
 ;
-nsCAutoString
+nsAutoCString
 primaryExtension
 ;
 mimeInfo
@@ -3377,7 +3377,7 @@ primaryExtension
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 fileName
 ;
 imgUrl

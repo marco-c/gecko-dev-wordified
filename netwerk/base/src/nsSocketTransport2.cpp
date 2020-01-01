@@ -12584,7 +12584,7 @@ val
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 header
 ;
 header
@@ -12669,7 +12669,7 @@ val
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 header
 ;
 header

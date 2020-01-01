@@ -919,7 +919,7 @@ nsMenuEntry
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 mCharset
 ;
 nsAutoString
@@ -2323,7 +2323,7 @@ HasMore
 hasMore
 )
 ;
-nsCAutoString
+nsAutoCString
 value
 ;
 while
@@ -7675,7 +7675,7 @@ nsIRDFResource
 >
 node
 ;
-nsCAutoString
+nsAutoCString
 id
 ;
 if
@@ -8572,7 +8572,7 @@ aDecs
 .
 IndexOf
 (
-nsCAutoString
+nsAutoCString
 (
 p
 )
@@ -8700,7 +8700,7 @@ nsIRDFContainer
 aContainer
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 str
@@ -8956,10 +8956,10 @@ together
 the
 cache
 string
-nsCAutoString
+nsAutoCString
 cache
 ;
-nsCAutoString
+nsAutoCString
 sep
 (
 NS_LITERAL_CSTRING

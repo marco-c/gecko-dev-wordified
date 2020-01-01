@@ -1145,6 +1145,14 @@ return
 mHasChildrenOnlyTransform
 ;
 }
+enum
+ChildrenOnlyTransformChangedFlags
+{
+eDuringReflow
+=
+1
+}
+;
 /
 *
 *
@@ -1249,6 +1257,10 @@ changes
 void
 ChildrenOnlyTransformChanged
 (
+PRUint32
+aFlags
+=
+0
 )
 ;
 /

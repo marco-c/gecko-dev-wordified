@@ -381,7 +381,7 @@ i
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 msg
 (
 gSymName

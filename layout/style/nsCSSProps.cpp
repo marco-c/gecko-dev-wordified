@@ -877,7 +877,7 @@ eCSSProperty_COUNT
 index
 )
 {
-nsCAutoString
+nsAutoCString
 temp1
 (
 kCSSRawProperties
@@ -886,7 +886,7 @@ index
 ]
 )
 ;
-nsCAutoString
+nsAutoCString
 temp2
 (
 kCSSRawProperties
@@ -998,7 +998,7 @@ eCSSFontDesc_COUNT
 index
 )
 {
-nsCAutoString
+nsAutoCString
 temp1
 (
 kCSSRawFontDescs
@@ -1007,7 +1007,7 @@ index
 ]
 )
 ;
-nsCAutoString
+nsAutoCString
 temp2
 (
 kCSSRawFontDescs

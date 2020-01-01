@@ -822,7 +822,7 @@ US
 necko
 "
 ;
-nsCAutoString
+nsAutoCString
 value
 (
 text
@@ -968,7 +968,7 @@ jar
 /
 "
 ;
-nsCAutoString
+nsAutoCString
 value
 (
 text
@@ -1613,7 +1613,7 @@ jar
 /
 "
 ;
-nsCAutoString
+nsAutoCString
 value
 (
 text
@@ -3380,7 +3380,7 @@ aText
 =
 text
 ;
-nsCAutoString
+nsAutoCString
 result
 (
 fieldTextStr
@@ -5479,7 +5479,7 @@ hello
 world
 "
 ;
-nsCAutoString
+nsAutoCString
 str
 ;
 if
@@ -5774,7 +5774,7 @@ t
 int32_t
 result
 =
-nsCAutoString
+nsAutoCString
 (
 t
 -
@@ -5816,7 +5816,7 @@ false
 ;
 result
 =
-nsCAutoString
+nsAutoCString
 (
 t
 -

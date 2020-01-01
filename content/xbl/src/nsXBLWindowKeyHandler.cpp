@@ -663,7 +663,7 @@ if
 mUserHTMLBindings
 )
 {
-nsCAutoString
+nsAutoCString
 type
 (
 aType

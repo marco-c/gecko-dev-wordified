@@ -752,7 +752,7 @@ for
 the
 search
 service
-nsCAutoString
+nsAutoCString
 searchName
 ;
 aInput
@@ -764,7 +764,7 @@ i
 searchName
 )
 ;
-nsCAutoString
+nsAutoCString
 cid
 (
 searchCID
@@ -8748,7 +8748,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 if

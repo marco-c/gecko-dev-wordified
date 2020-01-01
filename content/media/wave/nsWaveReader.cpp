@@ -1159,7 +1159,7 @@ d
 if
 defined
 (
-MOZ_SAMPLE_TYPE_S16LE
+MOZ_SAMPLE_TYPE_S16
 )
 *
 s
@@ -1225,7 +1225,7 @@ mSampleFormat
 nsAudioStream
 :
 :
-FORMAT_S16_LE
+FORMAT_S16
 )
 {
 int16_t
@@ -1241,7 +1241,7 @@ d
 if
 defined
 (
-MOZ_SAMPLE_TYPE_S16LE
+MOZ_SAMPLE_TYPE_S16
 )
 *
 s
@@ -2982,7 +2982,7 @@ mSampleFormat
 nsAudioStream
 :
 :
-FORMAT_S16_LE
+FORMAT_S16
 ;
 }
 return

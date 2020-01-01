@@ -1563,6 +1563,19 @@ the
 current
 ParseContext
 chain
+(
+which
+stops
+at
+the
+top
+-
+level
+or
+an
+eval
+(
+)
 *
 /
 /
@@ -2356,9 +2369,6 @@ ParseContext
 *
 pc
 StrictMode
-:
-:
-StrictModeState
 sms
 )
 ;
@@ -2655,6 +2665,7 @@ context
 /
 JS_DECLARE_NEW_METHODS
 (
+new_
 allocParseNode
 inline
 )

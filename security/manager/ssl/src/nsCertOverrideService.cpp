@@ -1149,7 +1149,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 buffer
 ;
 bool
@@ -1519,7 +1519,7 @@ Length
 dbKeyIndex
 )
 ;
-nsCAutoString
+nsAutoCString
 host
 (
 tmp
@@ -1572,7 +1572,7 @@ entries
 nsresult
 portParseError
 ;
-nsCAutoString
+nsAutoCString
 portString
 (
 Substring
@@ -1710,7 +1710,7 @@ mIsTemporary
 return
 PL_DHASH_NEXT
 ;
-nsCAutoString
+nsAutoCString
 bits_string
 ;
 nsCertOverride
@@ -2763,7 +2763,7 @@ PR_FREEIF
 nickname
 )
 ;
-nsCAutoString
+nsAutoCString
 fpStr
 ;
 nsresult
@@ -3025,7 +3025,7 @@ nsCertOverride
 :
 ob_None
 ;
-nsCAutoString
+nsAutoCString
 hostPort
 ;
 GetHostWithPort
@@ -3093,7 +3093,7 @@ settings
 .
 mIsTemporary
 ;
-nsCAutoString
+nsAutoCString
 fpStr
 ;
 nsresult
@@ -3218,7 +3218,7 @@ nsCertOverride
 :
 ob_None
 ;
-nsCAutoString
+nsAutoCString
 hostPort
 ;
 GetHostWithPort
@@ -3349,7 +3349,7 @@ nsACString
 dbKey
 )
 {
-nsCAutoString
+nsAutoCString
 hostPort
 ;
 GetHostWithPort
@@ -3518,7 +3518,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 hostPort
 ;
 GetHostWithPort
@@ -3903,7 +3903,7 @@ get
 )
 )
 {
-nsCAutoString
+nsAutoCString
 cert_fingerprint
 ;
 nsresult
@@ -4196,7 +4196,7 @@ get
 )
 )
 {
-nsCAutoString
+nsAutoCString
 cert_fingerprint
 ;
 nsresult
@@ -4378,7 +4378,7 @@ nsACString
 _retval
 )
 {
-nsCAutoString
+nsAutoCString
 hostPort
 (
 aHostName

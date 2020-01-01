@@ -4019,7 +4019,7 @@ FILE
 *
 stream
 ;
-nsCAutoString
+nsAutoCString
 fname
 (
 value

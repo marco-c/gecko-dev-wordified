@@ -558,7 +558,8 @@ rv
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+-
+1
 )
 ;
 nsCOMPtr
@@ -587,7 +588,8 @@ rv
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+-
+1
 )
 ;
 int

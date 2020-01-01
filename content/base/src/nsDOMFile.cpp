@@ -2769,7 +2769,7 @@ Value
 aLastModifiedDate
 )
 {
-int64_t
+PRTime
 msecs
 ;
 mFile
@@ -2960,7 +2960,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 mimeType
 ;
 rv
@@ -3913,7 +3913,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 narrowUrl
 ;
 CopyUTF16toUTF8

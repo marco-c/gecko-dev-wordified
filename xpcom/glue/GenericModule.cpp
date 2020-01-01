@@ -490,7 +490,7 @@ do_GetService
 NS_CATEGORYMANAGER_CONTRACTID
 )
 ;
-nsCAutoString
+nsAutoCString
 r
 ;
 catman

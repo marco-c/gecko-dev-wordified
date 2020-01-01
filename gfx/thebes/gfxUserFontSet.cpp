@@ -3269,7 +3269,7 @@ LOG_ENABLED
 )
 )
 {
-nsCAutoString
+nsAutoCString
 fontURI
 ;
 currSrc
@@ -4330,7 +4330,7 @@ LOG_ENABLED
 )
 )
 {
-nsCAutoString
+nsAutoCString
 fontURI
 ;
 aProxy
@@ -4442,7 +4442,7 @@ LOG_ENABLED
 )
 )
 {
-nsCAutoString
+nsAutoCString
 fontURI
 ;
 aProxy

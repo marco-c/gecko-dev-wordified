@@ -3367,7 +3367,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 /

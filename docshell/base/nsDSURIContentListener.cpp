@@ -2739,7 +2739,7 @@ return
 true
 ;
 }
-nsCAutoString
+nsAutoCString
 xfoHeaderCValue
 ;
 httpChannel

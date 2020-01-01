@@ -378,7 +378,7 @@ NS_ERROR_FAILURE
 ifdef
 PR_LOGGING
 {
-nsCAutoString
+nsAutoCString
 location
 ;
 aContentLocation
@@ -617,7 +617,7 @@ ifdef
 PR_LOGGING
 else
 {
-nsCAutoString
+nsAutoCString
 uriSpec
 ;
 aContentLocation
@@ -878,7 +878,7 @@ ifdef
 PR_LOGGING
 else
 {
-nsCAutoString
+nsAutoCString
 uriSpec
 ;
 aContentLocation
@@ -1285,7 +1285,7 @@ if
 newUri
 )
 {
-nsCAutoString
+nsAutoCString
 newUriSpec
 (
 "
@@ -1499,7 +1499,7 @@ stop
 it
 now
 .
-nsCAutoString
+nsAutoCString
 newUriSpec
 ;
 rv

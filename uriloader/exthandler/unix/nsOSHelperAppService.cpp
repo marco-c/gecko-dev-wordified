@@ -1908,7 +1908,7 @@ netscapeFormat
 nsAutoString
 buf
 ;
-nsCAutoString
+nsAutoCString
 cBuf
 ;
 bool
@@ -2928,7 +2928,7 @@ mimeTypes
 bool
 netscapeFormat
 ;
-nsCAutoString
+nsAutoCString
 cBuf
 ;
 nsAutoString
@@ -5443,7 +5443,7 @@ nsString
 entry
 buffer
 ;
-nsCAutoString
+nsAutoCString
 cBuffer
 ;
 entry
@@ -6188,7 +6188,7 @@ test
 )
 )
 {
-nsCAutoString
+nsAutoCString
 testCommand
 ;
 rv
@@ -7029,7 +7029,7 @@ PATH
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 path
 (
 unixpath
@@ -7527,7 +7527,7 @@ return
 nullptr
 ;
 }
-nsCAutoString
+nsAutoCString
 mimeType
 (
 asciiMajorType

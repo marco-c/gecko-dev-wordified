@@ -1935,10 +1935,10 @@ pref
 return
 PL_DHASH_NEXT
 ;
-nsCAutoString
+nsAutoCString
 prefValue
 ;
-nsCAutoString
+nsAutoCString
 prefPrefix
 ;
 prefPrefix
@@ -2163,7 +2163,7 @@ true
 false
 "
 ;
-nsCAutoString
+nsAutoCString
 prefName
 ;
 str_escape
@@ -3432,7 +3432,7 @@ all
 .
 *
 /
-nsCAutoString
+nsAutoCString
 branch_dot
 (
 branch_name

@@ -29743,7 +29743,7 @@ GetData
 str
 )
 ;
-nsCAutoString
+nsAutoCString
 cstr
 ;
 LossyCopyUTF16toASCII

@@ -4898,7 +4898,7 @@ MOZ_QUIET
 )
 )
 {
-nsCAutoString
+nsAutoCString
 url
 ;
 if
@@ -12545,7 +12545,7 @@ GetDocumentURI
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -24935,7 +24935,7 @@ rv
 fixedURI
 )
 {
-nsCAutoString
+nsAutoCString
 host
 ;
 fixedURI
@@ -24993,7 +24993,7 @@ localized
 /
 generic
 string
-nsCAutoString
+nsAutoCString
 prepath
 ;
 fixedURI
@@ -36482,6 +36482,11 @@ aCallerWin
 )
 )
 ;
+if
+(
+sgo
+)
+{
 nsIScriptContext
 *
 scx
@@ -36504,6 +36509,7 @@ LeaveModalState
 (
 )
 ;
+}
 }
 if
 (
@@ -42887,7 +42893,7 @@ hashes
 are
 different
 .
-nsCAutoString
+nsAutoCString
 oldBeforeHash
 oldHash
 newBeforeHash
@@ -42934,7 +42940,7 @@ newHash
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 oldSpec
 newSpec
 ;
@@ -56712,7 +56718,7 @@ cpp
 .
 *
 /
-nsCAutoString
+nsAutoCString
 charset
 (
 NS_LITERAL_CSTRING
@@ -61034,7 +61040,7 @@ elm
 elm
 -
 >
-GetJSEventListener
+GetEventHandler
 (
 nsGkAtoms
 :
@@ -61133,7 +61139,7 @@ return
 elm
 -
 >
-SetJSEventListenerToJsval
+SetEventHandlerToJsval
 (
 nsGkAtoms
 :
@@ -61145,6 +61151,8 @@ name_
 cx
 obj
 v
+\
+true
 )
 ;
 \

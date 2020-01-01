@@ -593,7 +593,7 @@ NS_ENSURE_ARG_POINTER
 aUri
 )
 ;
-nsCAutoString
+nsAutoCString
 hash1
 hash2
 ;
@@ -3013,7 +3013,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv

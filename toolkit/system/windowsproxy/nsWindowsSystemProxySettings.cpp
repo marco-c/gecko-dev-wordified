@@ -333,7 +333,7 @@ nsIURI
 >
 uri
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 int32_t
@@ -693,7 +693,7 @@ cbuf
 buf
 )
 ;
-nsCAutoString
+nsAutoCString
 host
 (
 aHost
@@ -851,7 +851,7 @@ start
 )
 {
 const
-nsCAutoString
+nsAutoCString
 override
 (
 Substring
@@ -968,13 +968,13 @@ nsACString
 aOverride
 )
 {
-nsCAutoString
+nsAutoCString
 host
 (
 aHost
 )
 ;
-nsCAutoString
+nsAutoCString
 override
 (
 aOverride
@@ -1111,7 +1111,7 @@ tokenEnd
 =
 overrideLength
 ;
-nsCAutoString
+nsAutoCString
 token
 (
 Substring
@@ -1319,7 +1319,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 scheme
 ;
 rv
@@ -1338,7 +1338,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 rv
@@ -1380,7 +1380,7 @@ cbuf
 buf
 )
 ;
-nsCAutoString
+nsAutoCString
 prefix
 ;
 ToLowerCase
@@ -1398,13 +1398,13 @@ Append
 '
 )
 ;
-nsCAutoString
+nsAutoCString
 specificProxy
 ;
-nsCAutoString
+nsAutoCString
 defaultProxy
 ;
-nsCAutoString
+nsAutoCString
 socksProxy
 ;
 int32_t
@@ -1460,7 +1460,7 @@ start
 )
 {
 const
-nsCAutoString
+nsAutoCString
 proxy
 (
 Substring

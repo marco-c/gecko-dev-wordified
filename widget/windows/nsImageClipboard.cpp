@@ -1156,7 +1156,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 encoderCID
 (
 NS_LITERAL_CSTRING

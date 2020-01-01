@@ -1374,7 +1374,7 @@ nsIRDFResource
 aResource
 )
 {
-nsCAutoString
+nsAutoCString
 uri
 qname
 ;
@@ -2571,7 +2571,7 @@ aValue
 nullptr
 )
 {
-nsCAutoString
+nsAutoCString
 uri
 ;
 resource
@@ -2772,7 +2772,7 @@ GetValue
 value
 )
 ;
-nsCAutoString
+nsAutoCString
 n
 ;
 n
@@ -2853,7 +2853,7 @@ GetValue
 value
 )
 ;
-nsCAutoString
+nsAutoCString
 s
 ;
 rdf_FormatDate
@@ -3499,7 +3499,7 @@ typeQName
 ;
 }
 }
-nsCAutoString
+nsAutoCString
 uri
 ;
 rv
@@ -4558,7 +4558,7 @@ aMember
 nullptr
 )
 {
-nsCAutoString
+nsAutoCString
 uri
 ;
 resource
@@ -4787,7 +4787,7 @@ GetValue
 value
 )
 ;
-nsCAutoString
+nsAutoCString
 n
 ;
 n
@@ -4868,7 +4868,7 @@ GetValue
 value
 )
 ;
-nsCAutoString
+nsAutoCString
 s
 ;
 rdf_FormatDate
@@ -5049,7 +5049,7 @@ aContainer
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 tag
 ;
 /
@@ -5250,7 +5250,7 @@ it
 .
 .
 .
-nsCAutoString
+nsAutoCString
 uri
 ;
 if
@@ -6113,7 +6113,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 prefix
 ;
 entry
@@ -6171,7 +6171,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 uri
 (
 entry

@@ -8554,7 +8554,7 @@ Sheet
 out
 )
 ;
-nsCAutoString
+nsAutoCString
 urlSpec
 ;
 nsresult
@@ -9335,7 +9335,7 @@ mInner
 mOriginalSheetURI
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 mInner

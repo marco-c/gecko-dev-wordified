@@ -2123,7 +2123,7 @@ might
 be
 needed
 .
-nsCAutoString
+nsAutoCString
 hashString
 ;
 nsresult

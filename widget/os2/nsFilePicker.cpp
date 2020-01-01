@@ -873,7 +873,7 @@ result
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 fileBuffer
 ;
 char
@@ -941,7 +941,7 @@ ToNewCString
 mTitle
 )
 ;
-nsCAutoString
+nsAutoCString
 initialDir
 ;
 if
@@ -2433,7 +2433,7 @@ dir
 )
 )
 {
-nsCAutoString
+nsAutoCString
 newDir
 ;
 dir
@@ -3868,7 +3868,7 @@ fileSystemCharset
 )
 {
 static
-nsCAutoString
+nsAutoCString
 aCharset
 ;
 nsresult
@@ -4070,7 +4070,7 @@ nullptr
 mUnicodeEncoder
 )
 {
-nsCAutoString
+nsAutoCString
 fileSystemCharset
 ;
 GetFileSystemCharset
@@ -4382,7 +4382,7 @@ nullptr
 mUnicodeDecoder
 )
 {
-nsCAutoString
+nsAutoCString
 fileSystemCharset
 ;
 GetFileSystemCharset

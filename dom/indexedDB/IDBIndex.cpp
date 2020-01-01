@@ -7911,7 +7911,7 @@ keyRangeClause
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 directionClause
 (
 "
@@ -8203,7 +8203,7 @@ the
 next
 match
 .
-nsCAutoString
+nsAutoCString
 queryStart
 =
 NS_LITERAL_CSTRING
@@ -9498,7 +9498,7 @@ keyRangeClause
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 directionClause
 (
 "
@@ -9849,7 +9849,7 @@ the
 next
 match
 .
-nsCAutoString
+nsAutoCString
 queryStart
 =
 NS_LITERAL_CSTRING
@@ -11158,7 +11158,7 @@ value
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 keyRangeClause
 ;
 if

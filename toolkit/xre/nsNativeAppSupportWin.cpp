@@ -6753,7 +6753,7 @@ save
 a
 quote
 .
-nsCAutoString
+nsAutoCString
 outpt
 (
 NS_LITERAL_CSTRING
@@ -6784,7 +6784,7 @@ single
 byte
 ASCII
 string
-nsCAutoString
+nsAutoCString
 tmpNativeStr
 ;
 NS_CopyUnicodeToNative
@@ -8372,7 +8372,7 @@ char
 *
 p
 ;
-nsCAutoString
+nsAutoCString
 arg
 ;
 nsCOMPtr

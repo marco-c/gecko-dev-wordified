@@ -5638,7 +5638,7 @@ SECSuccess
 {
 AppendUTF8toUTF16
 (
-nsCAutoString
+nsAutoCString
 (
 (
 char

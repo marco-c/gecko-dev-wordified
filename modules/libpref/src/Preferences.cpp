@@ -2210,7 +2210,7 @@ more
 more
 )
 {
-nsCAutoString
+nsAutoCString
 entry
 ;
 rv
@@ -4098,7 +4098,7 @@ unused
 /
 )
 {
-nsCAutoString
+nsAutoCString
 filename1
 filename2
 ;
@@ -4342,7 +4342,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 leafName
 ;
 rv
@@ -4873,7 +4873,7 @@ path
 )
 continue
 ;
-nsCAutoString
+nsAutoCString
 leaf
 ;
 path
@@ -6666,7 +6666,7 @@ InitStaticMembers
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-nsCAutoString
+nsAutoCString
 result
 ;
 nsresult
@@ -6738,7 +6738,7 @@ InitStaticMembers
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-nsCAutoString
+nsAutoCString
 result
 ;
 nsresult
@@ -8624,7 +8624,7 @@ InitStaticMembers
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-nsCAutoString
+nsAutoCString
 result
 ;
 nsresult
@@ -8696,7 +8696,7 @@ InitStaticMembers
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-nsCAutoString
+nsAutoCString
 result
 ;
 nsresult

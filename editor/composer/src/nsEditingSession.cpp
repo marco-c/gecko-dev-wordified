@@ -2500,7 +2500,7 @@ nsIDOMDocument
 >
 doc
 ;
-nsCAutoString
+nsAutoCString
 mimeCType
 ;
 /
@@ -4638,7 +4638,7 @@ if
 channel
 )
 {
-nsCAutoString
+nsAutoCString
 contentType
 ;
 channel
@@ -8289,7 +8289,7 @@ get
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 contentType
 ;
 aChannel

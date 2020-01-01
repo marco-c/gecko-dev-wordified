@@ -12442,7 +12442,7 @@ PK11SlotInfo
 *
 slot
 ;
-nsCAutoString
+nsAutoCString
 localNick
 ;
 nsCOMPtr
@@ -15073,7 +15073,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 charset
 (
 document

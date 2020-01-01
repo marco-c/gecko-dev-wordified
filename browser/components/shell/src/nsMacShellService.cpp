@@ -1018,7 +1018,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-nsCAutoString
+nsAutoCString
 fileName
 ;
 imageURL
@@ -1412,7 +1412,7 @@ exists
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 nativePath
 ;
 mBackgroundFile

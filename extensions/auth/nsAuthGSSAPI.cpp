@@ -1449,7 +1449,7 @@ status2_string
 OM_uint32
 ret
 ;
-nsCAutoString
+nsAutoCString
 errorStr
 ;
 errorStr
@@ -2301,7 +2301,7 @@ GSS_C_NO_BUFFER
 gss_name_t
 server
 ;
-nsCAutoString
+nsAutoCString
 userbuf
 ;
 nsresult

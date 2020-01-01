@@ -1060,7 +1060,7 @@ stderr
 this
 &
 aRect
-nsCAutoString
+nsAutoCString
 (
 "
 PuppetWidget
@@ -1243,7 +1243,7 @@ event
 >
 widget
 event
-nsCAutoString
+nsAutoCString
 (
 "
 PuppetWidget
@@ -2374,7 +2374,7 @@ debug_DumpPaintEvent
 stderr
 this
 region
-nsCAutoString
+nsAutoCString
 (
 "
 PuppetWidget

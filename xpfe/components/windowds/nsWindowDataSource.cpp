@@ -973,7 +973,7 @@ nsIXULWindow
 window
 )
 {
-nsCAutoString
+nsAutoCString
 windowId
 (
 NS_LITERAL_CSTRING

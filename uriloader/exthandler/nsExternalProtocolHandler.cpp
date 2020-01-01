@@ -769,7 +769,7 @@ extProtService
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 urlScheme
 ;
 mUrl
@@ -1806,7 +1806,7 @@ if
 aURI
 )
 {
-nsCAutoString
+nsAutoCString
 scheme
 ;
 aURI

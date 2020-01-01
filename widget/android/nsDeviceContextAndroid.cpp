@@ -129,7 +129,7 @@ gfxASurface
 aSurface
 )
 {
-nsCAutoString
+nsAutoCString
 tmpDir
 (
 getenv
@@ -158,7 +158,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 filename
 (
 "

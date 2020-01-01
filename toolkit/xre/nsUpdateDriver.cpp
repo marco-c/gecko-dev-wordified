@@ -2706,7 +2706,7 @@ updaterPathW
 ;
 #
 else
-nsCAutoString
+nsAutoCString
 appFilePath
 ;
 #
@@ -2764,7 +2764,7 @@ return
 ;
 #
 endif
-nsCAutoString
+nsAutoCString
 updaterPath
 ;
 rv
@@ -2864,7 +2864,7 @@ defined
 (
 XP_MACOSX
 )
-nsCAutoString
+nsAutoCString
 applyToDir
 ;
 {
@@ -2995,7 +2995,7 @@ applyToDirW
 ;
 #
 else
-nsCAutoString
+nsAutoCString
 applyToDir
 ;
 rv
@@ -3080,7 +3080,7 @@ updateDirPathW
 ;
 #
 else
-nsCAutoString
+nsAutoCString
 updateDirPath
 ;
 rv
@@ -3175,7 +3175,7 @@ defined
 (
 USE_EXECV
 )
-nsCAutoString
+nsAutoCString
 pid
 (
 "
@@ -3185,7 +3185,7 @@ pid
 ;
 #
 else
-nsCAutoString
+nsAutoCString
 pid
 ;
 pid
@@ -4027,7 +4027,7 @@ updaterPathW
 ;
 #
 else
-nsCAutoString
+nsAutoCString
 appFilePath
 ;
 rv
@@ -4049,7 +4049,7 @@ rv
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 updaterPath
 ;
 rv
@@ -4149,7 +4149,7 @@ defined
 (
 XP_MACOSX
 )
-nsCAutoString
+nsAutoCString
 applyToDir
 ;
 {
@@ -4355,7 +4355,7 @@ applyToDirW
 ;
 #
 else
-nsCAutoString
+nsAutoCString
 applyToDir
 ;
 rv
@@ -4408,7 +4408,7 @@ updateDirPathW
 ;
 #
 else
-nsCAutoString
+nsAutoCString
 updateDirPath
 ;
 rv
@@ -4570,7 +4570,7 @@ by
 the
 updater
 .
-nsCAutoString
+nsAutoCString
 pid
 ;
 if
@@ -5352,7 +5352,7 @@ nsIFile
 >
 overrideDir
 ;
-nsCAutoString
+nsAutoCString
 path
 (
 updRootOverride
@@ -5431,7 +5431,7 @@ nsIFile
 >
 overrideDir
 ;
-nsCAutoString
+nsAutoCString
 path
 (
 appDirOverride
@@ -5737,7 +5737,7 @@ greDir
 appDir
 updRoot
 ;
-nsCAutoString
+nsAutoCString
 appVersion
 ;
 int
@@ -5753,7 +5753,7 @@ NS_ENSURE_ARG_POINTER
 aUpdate
 )
 ;
-nsCAutoString
+nsAutoCString
 binPath
 ;
 nsXREDirProvider

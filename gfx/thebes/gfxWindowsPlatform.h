@@ -1182,6 +1182,9 @@ kWindowsVista
 kWindows7
 =
 0x60001
+kWindows8
+=
+0x60002
 }
 ;
 static

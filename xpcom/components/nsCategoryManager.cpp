@@ -3167,7 +3167,7 @@ error
 we
 get
 .
-nsCAutoString
+nsAutoCString
 entryString
 ;
 if

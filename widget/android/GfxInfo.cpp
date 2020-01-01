@@ -1649,7 +1649,7 @@ socorro
 db
 *
 /
-nsCAutoString
+nsAutoCString
 note
 ;
 note

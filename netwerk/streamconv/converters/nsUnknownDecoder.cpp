@@ -2189,7 +2189,7 @@ nsISupportsCString
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 contractid
 ;
 nsresult
@@ -2979,7 +2979,7 @@ result
 uri
 )
 {
-nsCAutoString
+nsAutoCString
 type
 ;
 result
@@ -3962,7 +3962,7 @@ text
 /
 plain
 mess
-nsCAutoString
+nsAutoCString
 contentTypeHdr
 ;
 httpChannel
@@ -3981,7 +3981,7 @@ Type
 contentTypeHdr
 )
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 httpChannel
@@ -4249,7 +4249,7 @@ I
 m
 sure
 .
-nsCAutoString
+nsAutoCString
 contentEncoding
 ;
 httpChannel

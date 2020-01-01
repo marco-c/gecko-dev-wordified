@@ -780,7 +780,7 @@ rv
 /
 Encode
 name
-nsCAutoString
+nsAutoCString
 convName
 ;
 rv
@@ -1464,7 +1464,7 @@ if
 isMailto
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -1828,7 +1828,7 @@ mQueryString
 }
 else
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -1874,7 +1874,7 @@ FindChar
 '
 )
 ;
-nsCAutoString
+nsAutoCString
 namedAnchor
 ;
 if
@@ -2066,7 +2066,7 @@ convertedBuf
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsCAutoString
+nsAutoCString
 encodedBuf
 ;
 nsresult
@@ -2399,7 +2399,7 @@ aValue
 nsCString
 valueStr
 ;
-nsCAutoString
+nsAutoCString
 encodedVal
 ;
 nsresult
@@ -2443,7 +2443,7 @@ eLinebreakNet
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 nameStr
 ;
 rv
@@ -2587,7 +2587,7 @@ Encode
 the
 control
 name
-nsCAutoString
+nsAutoCString
 nameStr
 ;
 nsresult
@@ -3130,7 +3130,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 GetContentType
@@ -3639,7 +3639,7 @@ if
 isMailto
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -4077,7 +4077,7 @@ aCharset
 aOriginatingElement
 )
 {
-nsCAutoString
+nsAutoCString
 charset
 (
 aCharset
@@ -4942,7 +4942,7 @@ method
 /
 Get
 charset
-nsCAutoString
+nsAutoCString
 charset
 ;
 GetSubmitCharset

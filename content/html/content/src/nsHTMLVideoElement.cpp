@@ -774,7 +774,7 @@ nsIHttpChannel
 aChannel
 )
 {
-nsCAutoString
+nsAutoCString
 value
 (
 #

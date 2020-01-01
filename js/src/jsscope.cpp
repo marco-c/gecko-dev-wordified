@@ -852,10 +852,7 @@ self
 )
 )
 {
-rt
--
->
-free_
+js_free
 (
 table
 )
@@ -1577,10 +1574,7 @@ storage
 .
 *
 /
-cx
--
->
-free_
+js_free
 (
 oldTable
 )

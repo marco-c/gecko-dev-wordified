@@ -1305,7 +1305,7 @@ existingEntry
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 scriptName
 ;
 aURI
@@ -1316,7 +1316,7 @@ GetSpec
 scriptName
 )
 ;
-nsCAutoString
+nsAutoCString
 message
 (
 "
@@ -1599,7 +1599,7 @@ void
 aClosure
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 aKey
@@ -1660,7 +1660,7 @@ void
 aClosure
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 aSheet
@@ -2180,7 +2180,7 @@ nsIObjectInputStream
 stream
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 (
 kXULCachePrefix
@@ -2556,7 +2556,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 (
 kXULCachePrefix
@@ -2674,7 +2674,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 (
 kXULCachePrefix
@@ -2915,7 +2915,7 @@ nsresult
 rv
 tmp
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 aURI
@@ -3177,7 +3177,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 chromePath
 ;
 rv
@@ -3231,7 +3231,7 @@ URIs
 .
 .
 .
-nsCAutoString
+nsAutoCString
 package
 ;
 rv
@@ -3267,7 +3267,7 @@ NS_CHROMEREGISTRY_CONTRACTID
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 locale
 ;
 rv
@@ -3291,7 +3291,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 fileChromePath
 fileLocale
 ;

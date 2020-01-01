@@ -4432,7 +4432,7 @@ fputs
 out
 )
 ;
-nsCAutoString
+nsAutoCString
 str
 ;
 str
@@ -4544,7 +4544,7 @@ regexp
 break
 ;
 }
-nsCAutoString
+nsAutoCString
 escapedURL
 (
 url
@@ -5068,7 +5068,7 @@ GetDocumentURI
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 docURISpec
 ;
 if
@@ -5154,7 +5154,7 @@ case
 eDomain
 :
 {
-nsCAutoString
+nsAutoCString
 host
 ;
 if
@@ -6672,7 +6672,7 @@ GetArrayValue
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 buf
 ;
 NS_ABORT_IF_FALSE

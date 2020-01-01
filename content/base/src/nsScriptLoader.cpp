@@ -4334,7 +4334,7 @@ GetDocumentURI
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 asciiSpec
 ;
 uri
@@ -5648,7 +5648,7 @@ the
 script
 filename
 .
-nsCAutoString
+nsAutoCString
 url
 ;
 nsContentUtils
@@ -6628,7 +6628,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 characterSet
 ;
 nsresult

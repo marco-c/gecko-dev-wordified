@@ -4438,7 +4438,7 @@ uri
 as
 context
 .
-nsCAutoString
+nsAutoCString
 spec
 ;
 aUri

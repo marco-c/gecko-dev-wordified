@@ -5480,10 +5480,10 @@ s
 no
 host
 )
-nsCAutoString
+nsAutoCString
 host
 ;
-nsCAutoString
+nsAutoCString
 prepath
 ;
 tmpuri

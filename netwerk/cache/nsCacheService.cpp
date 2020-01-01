@@ -9936,7 +9936,7 @@ defined
 (
 PR_LOGGING
 )
-nsCAutoString
+nsAutoCString
 profilePath
 ;
 aProfileDir
@@ -10353,7 +10353,7 @@ null
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 key
 (
 *

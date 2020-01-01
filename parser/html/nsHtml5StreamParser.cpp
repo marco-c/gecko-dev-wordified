@@ -1286,7 +1286,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 detectorContractID
 ;
 detectorContractID
@@ -1591,7 +1591,7 @@ the
 /
 docshell
 .
-nsCAutoString
+nsAutoCString
 charset
 (
 aCharset
@@ -2575,7 +2575,7 @@ utf16
 aEncoding
 )
 ;
-nsCAutoString
+nsAutoCString
 utf8
 ;
 CopyUTF16toUTF8
@@ -6108,7 +6108,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 method
 ;
 httpChannel
@@ -7155,7 +7155,7 @@ nsACString
 aEncoding
 )
 {
-nsCAutoString
+nsAutoCString
 newEncoding
 (
 aEncoding
@@ -7392,7 +7392,7 @@ non
 IANA
 aliases
 here
-nsCAutoString
+nsAutoCString
 preferred
 ;
 rv
@@ -7658,7 +7658,7 @@ return
 false
 ;
 }
-nsCAutoString
+nsAutoCString
 newEncoding
 ;
 CopyUTF16toUTF8

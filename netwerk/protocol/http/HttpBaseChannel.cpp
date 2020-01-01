@@ -523,7 +523,7 @@ Construct
 connection
 info
 object
-nsCAutoString
+nsAutoCString
 host
 ;
 int32_t
@@ -729,7 +729,7 @@ Get
 Set
 request
 headers
-nsCAutoString
+nsAutoCString
 hostLine
 ;
 rv
@@ -1790,7 +1790,7 @@ mResponseHead
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-nsCAutoString
+nsAutoCString
 contentTypeBuf
 charsetBuf
 ;
@@ -2494,7 +2494,7 @@ if
 stream
 )
 {
-nsCAutoString
+nsAutoCString
 method
 ;
 bool
@@ -2886,7 +2886,7 @@ to
 chrome
 if
 HttpChannelChild
-nsCAutoString
+nsAutoCString
 contentLengthStr
 ;
 contentLengthStr
@@ -3252,7 +3252,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 contentEncoding
 ;
 char
@@ -3559,7 +3559,7 @@ nsIStreamListener
 >
 converter
 ;
-nsCAutoString
+nsAutoCString
 from
 (
 val
@@ -5548,7 +5548,7 @@ if
 match
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -5687,7 +5687,7 @@ fixed
 up
 URI
 .
-nsCAutoString
+nsAutoCString
 charset
 ;
 referrer
@@ -5983,10 +5983,10 @@ SendSecureXSiteReferrer
 )
 )
 {
-nsCAutoString
+nsAutoCString
 referrerHost
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 rv
@@ -6176,7 +6176,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv
@@ -8501,7 +8501,7 @@ size
 =
 LL_MAXUINT
 ;
-nsCAutoString
+nsAutoCString
 etag
 lastmod
 ;

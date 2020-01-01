@@ -236,7 +236,7 @@ aURI
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -299,7 +299,7 @@ pos
 0
 )
 {
-nsCAutoString
+nsAutoCString
 param
 ;
 (
@@ -613,7 +613,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 dumpFileName
 ;
 if

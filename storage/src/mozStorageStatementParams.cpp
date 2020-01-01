@@ -759,7 +759,7 @@ of
 our
 parameter
 .
-nsCAutoString
+nsAutoCString
 name
 ;
 nsresult

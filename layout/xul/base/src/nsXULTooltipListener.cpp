@@ -2236,7 +2236,7 @@ nsITreeColumn
 >
 col
 ;
-nsCAutoString
+nsAutoCString
 obj
 ;
 /

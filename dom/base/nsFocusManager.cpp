@@ -576,7 +576,7 @@ content
 \
 {
 \
-nsCAutoString
+nsAutoCString
 tag
 (
 NS_LITERAL_CSTRING
@@ -2559,7 +2559,7 @@ GetDocumentURI
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 doc
@@ -3539,7 +3539,7 @@ get
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsIDocument
@@ -4242,7 +4242,7 @@ get
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsIDocument
@@ -4952,7 +4952,7 @@ get
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsIDocument
@@ -5303,7 +5303,7 @@ get
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsIDocument

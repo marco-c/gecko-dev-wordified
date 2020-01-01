@@ -1715,7 +1715,7 @@ Count
 flavorCount
 )
 ;
-nsCAutoString
+nsAutoCString
 foundFlavor
 ;
 for
@@ -1842,7 +1842,7 @@ as
 text
 foundFlavor
 =
-nsCAutoString
+nsAutoCString
 (
 flavorStr
 )
@@ -2023,7 +2023,7 @@ text
 html
 foundFlavor
 =
-nsCAutoString
+nsAutoCString
 (
 flavorStr
 )

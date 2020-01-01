@@ -255,7 +255,7 @@ GetBaseURI
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri

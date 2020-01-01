@@ -2100,7 +2100,7 @@ mGlyphProperties
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 uriStr
 ;
 uriStr
@@ -2235,7 +2235,7 @@ chars
 in
 this
 table
-nsCAutoString
+nsAutoCString
 key
 ;
 nsAutoString
@@ -4321,7 +4321,7 @@ family
 .
 "
 ;
-nsCAutoString
+nsAutoCString
 extension
 ;
 switch
@@ -4387,7 +4387,7 @@ false
 \
 uNNNN
 key
-nsCAutoString
+nsAutoCString
 key
 ;
 key
@@ -4440,7 +4440,7 @@ extension
 \
 uNNNN
 key
-nsCAutoString
+nsAutoCString
 alternateKey
 ;
 alternateKey
@@ -4678,7 +4678,7 @@ below
 .
 *
 /
-nsCAutoString
+nsAutoCString
 key
 ;
 nsAutoString

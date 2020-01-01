@@ -1510,7 +1510,7 @@ if
 dateLiteral
 )
 {
-int64_t
+PRTime
 value
 ;
 rv
@@ -1554,10 +1554,7 @@ locale
 /
 kDateFormatShort
 kTimeFormatSeconds
-PRTime
-(
 value
-)
 str
 )
 ;
@@ -1868,7 +1865,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 ref
 ;
 NS_EscapeURL
@@ -2072,7 +2069,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 ref
 ;
 uri

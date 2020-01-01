@@ -3247,7 +3247,7 @@ colID
 )
 )
 {
-int64_t
+PRTime
 lastModTime
 ;
 curFile
@@ -4140,7 +4140,7 @@ const
 aElement2
 )
 ;
-int64_t
+PRTime
 time1
 time2
 ;

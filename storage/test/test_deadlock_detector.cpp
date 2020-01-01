@@ -1877,7 +1877,7 @@ Stupidest
 possible
 deadlock
 .
-nsresult
+int
 Sanity_Child
 (
 )
@@ -1907,7 +1907,7 @@ Lock
 )
 ;
 return
-NS_OK
+0
 ;
 /
 /
@@ -2057,7 +2057,7 @@ less
 stupid
 deadlock
 .
-nsresult
+int
 Sanity2_Child
 (
 )
@@ -2105,7 +2105,7 @@ Lock
 )
 ;
 return
-NS_OK
+0
 ;
 /
 /
@@ -2268,7 +2268,7 @@ detected
 ;
 }
 }
-nsresult
+int
 Sanity3_Child
 (
 )
@@ -2382,7 +2382,7 @@ Lock
 )
 ;
 return
-NS_OK
+0
 ;
 }
 nsresult
@@ -2558,7 +2558,7 @@ detected
 ;
 }
 }
-nsresult
+int
 Sanity4_Child
 (
 )
@@ -2609,7 +2609,7 @@ Enter
 )
 ;
 return
-NS_OK
+0
 ;
 }
 nsresult
@@ -2929,7 +2929,7 @@ Unlock
 ;
 }
 }
-nsresult
+int
 TwoThreads_Child
 (
 )
@@ -3021,7 +3021,7 @@ t2
 )
 ;
 return
-NS_OK
+0
 ;
 }
 nsresult
@@ -3289,7 +3289,7 @@ starti
 ;
 }
 }
-nsresult
+int
 ContentionNoDeadlock_Child
 (
 )
@@ -3422,7 +3422,7 @@ i
 ]
 ;
 return
-NS_OK
+0
 ;
 }
 nsresult
@@ -3942,14 +3942,25 @@ ContentionNoDeadlock_Child
 (
 )
 ;
-FAIL
+fail
 (
 "
+%
+s
+|
+%
+s
+-
 unknown
 child
 test
 "
+__FILE__
+__FUNCTION__
 )
+;
+return
+1
 ;
 }
 ScopedXPCOM

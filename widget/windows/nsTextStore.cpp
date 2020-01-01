@@ -2287,7 +2287,7 @@ TF_DISPLAYATTRIBUTE
 aDispAttr
 )
 {
-nsCAutoString
+nsAutoCString
 str
 tmp
 ;

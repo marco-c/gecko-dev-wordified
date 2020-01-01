@@ -462,7 +462,7 @@ WantDebugInfo
 )
 )
 {
-nsCAutoString
+nsAutoCString
 name
 (
 "

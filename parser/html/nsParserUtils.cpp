@@ -835,7 +835,7 @@ nsString
 >
 tagStack
 ;
-nsCAutoString
+nsAutoCString
 base
 spec
 ;

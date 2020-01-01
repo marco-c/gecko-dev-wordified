@@ -792,7 +792,7 @@ if
 plainText
 )
 {
-nsCAutoString
+nsAutoCString
 data
 ;
 plainText
@@ -985,7 +985,7 @@ NS_PLATFORMCHARSET_CONTRACTID
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 platformCharset
 ;
 if
@@ -1317,7 +1317,7 @@ hasConverter
 get
 the
 charset
-nsCAutoString
+nsAutoCString
 platformCharset
 ;
 nsCOMPtr

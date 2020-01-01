@@ -785,7 +785,7 @@ foo
 properties
 :
 keyname
-nsCAutoString
+nsAutoCString
 customStringsURLSpec
 ;
 rv
@@ -1029,7 +1029,7 @@ do_QueryInterface
 sup
 )
 ;
-nsCAutoString
+nsAutoCString
 key
 ;
 nsAutoString
@@ -1131,7 +1131,7 @@ the
 key
 to
 read
-nsCAutoString
+nsAutoCString
 combinedURL
 (
 aURL
@@ -1407,7 +1407,7 @@ if
 mCurrent
 )
 {
-nsCAutoString
+nsAutoCString
 curKey
 ;
 mCurrent

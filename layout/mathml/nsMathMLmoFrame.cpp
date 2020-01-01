@@ -706,6 +706,12 @@ false
 data
 )
 ;
+data
+.
+CompressWhitespace
+(
+)
+;
 int32_t
 length
 =

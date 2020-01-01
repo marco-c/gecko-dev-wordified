@@ -2404,7 +2404,7 @@ PR_LOG_DEBUG
 )
 )
 {
-nsCAutoString
+nsAutoCString
 name
 ;
 request
@@ -2858,7 +2858,7 @@ PR_LOG_DEBUG
 )
 )
 {
-nsCAutoString
+nsAutoCString
 name
 ;
 aRequest
@@ -4511,7 +4511,7 @@ defined
 (
 DEBUG
 )
-nsCAutoString
+nsAutoCString
 buffer
 ;
 GetURIStringFromRequest
@@ -4652,7 +4652,7 @@ defined
 (
 DEBUG
 )
-nsCAutoString
+nsAutoCString
 buffer
 ;
 GetURIStringFromRequest
@@ -4747,7 +4747,7 @@ defined
 (
 DEBUG
 )
-nsCAutoString
+nsAutoCString
 buffer
 ;
 GetURIStringFromRequest
@@ -4923,7 +4923,7 @@ defined
 (
 DEBUG
 )
-nsCAutoString
+nsAutoCString
 buffer
 ;
 GetURIStringFromRequest
@@ -6474,7 +6474,7 @@ defined
 (
 DEBUG
 )
-nsCAutoString
+nsAutoCString
 buffer
 ;
 GetURIStringFromRequest
@@ -6591,6 +6591,9 @@ nsIWebProgressListeners
 if
 (
 aStatus
+!
+=
+NS_OK
 )
 {
 /
@@ -7050,7 +7053,7 @@ defined
 (
 DEBUG
 )
-nsCAutoString
+nsAutoCString
 buffer
 ;
 GetURIStringFromRequest
@@ -7577,7 +7580,7 @@ defined
 (
 DEBUG
 )
-nsCAutoString
+nsAutoCString
 buffer
 ;
 GetURIStringFromRequest
@@ -9901,7 +9904,7 @@ defined
 (
 DEBUG
 )
-nsCAutoString
+nsAutoCString
 buffer
 ;
 nsresult

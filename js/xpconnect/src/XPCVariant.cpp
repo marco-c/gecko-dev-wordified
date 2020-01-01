@@ -2706,7 +2706,7 @@ iid
 nsAutoString
 astring
 ;
-nsCAutoString
+nsAutoCString
 cString
 ;
 nsUTF8String

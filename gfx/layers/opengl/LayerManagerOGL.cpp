@@ -6822,7 +6822,7 @@ result
 LOCAL_GL_FRAMEBUFFER_COMPLETE
 )
 {
-nsCAutoString
+nsAutoCString
 msg
 ;
 msg
@@ -7704,7 +7704,7 @@ result
 LOCAL_GL_FRAMEBUFFER_COMPLETE
 )
 {
-nsCAutoString
+nsAutoCString
 msg
 ;
 msg

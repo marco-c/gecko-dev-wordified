@@ -616,7 +616,7 @@ dumpImpl
 (
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 mURI
@@ -1208,7 +1208,7 @@ aOrigin
 =
 nullptr
 ;
-nsCAutoString
+nsAutoCString
 str
 ;
 nsresult

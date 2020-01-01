@@ -210,7 +210,7 @@ NS_ERROR_NOT_INITIALIZED
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv

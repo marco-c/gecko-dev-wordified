@@ -4396,7 +4396,7 @@ mozFile
 continue
 ;
 }
-nsCAutoString
+nsAutoCString
 processDir
 ;
 mozFile
@@ -7571,7 +7571,7 @@ as
 hashkey
 as
 well
-nsCAutoString
+nsAutoCString
 enabledPrefCString
 (
 *
@@ -7697,7 +7697,7 @@ tempTimeString
 PRTime
 tempTime
 ;
-nsCAutoString
+nsAutoCString
 timingPrefCString
 (
 updateTimePref
@@ -8120,7 +8120,7 @@ tempTime
 nearestUpdateTime
 )
 {
-nsCAutoString
+nsAutoCString
 urlPrefCString
 (
 updateURLPref
@@ -9678,7 +9678,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 profileStr
 ;
 nsCOMPtr
@@ -18269,13 +18269,13 @@ download
 Update
 failure
 history
-nsCAutoString
+nsAutoCString
 updateErrCntPrefStr
 (
 CRL_AUTOUPDATE_ERRCNT_PREF
 )
 ;
-nsCAutoString
+nsAutoCString
 updateErrDetailPrefStr
 (
 CRL_AUTOUPDATE_ERRDETAIL_PREF

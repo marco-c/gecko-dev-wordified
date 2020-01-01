@@ -2505,7 +2505,7 @@ native
 filesystem
 charset
 .
-nsCAutoString
+nsAutoCString
 passbuf
 ;
 NS_CopyUnicodeToNative
@@ -3971,7 +3971,7 @@ buffers
 for
 oem
 strings
-nsCAutoString
+nsAutoCString
 oemDomainBuf
 oemUserBuf
 oemHostBuf

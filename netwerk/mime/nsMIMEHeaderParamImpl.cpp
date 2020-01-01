@@ -627,7 +627,7 @@ decoding
 if
 necessary
 .
-nsCAutoString
+nsAutoCString
 str1
 ;
 rv
@@ -661,7 +661,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 str2
 ;
 nsCOMPtr
@@ -1687,7 +1687,7 @@ return
 false
 ;
 }
-nsCAutoString
+nsAutoCString
 tmpRaw
 ;
 tmpRaw
@@ -1697,7 +1697,7 @@ Assign
 aOctets
 )
 ;
-nsCAutoString
+nsAutoCString
 tmpDecoded
 ;
 nsresult
@@ -1970,7 +1970,7 @@ aLang
 =
 nullptr
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 bool
@@ -2833,6 +2833,14 @@ valueEnd
 \
 \
 '
+&
+&
+*
+(
+valueEnd
++
+1
+)
 )
 +
 +
@@ -2985,7 +2993,7 @@ jht
 29
 /
 98
-nsCAutoString
+nsAutoCString
 tempStr
 (
 valueStart
@@ -4461,7 +4469,7 @@ if
 aEatContinuations
 )
 {
-nsCAutoString
+nsAutoCString
 temp
 (
 aResult
@@ -4922,13 +4930,13 @@ nsAString
 aResult
 )
 {
-nsCAutoString
+nsAutoCString
 charset
 ;
-nsCAutoString
+nsAutoCString
 language
 ;
-nsCAutoString
+nsAutoCString
 value
 ;
 uint32_t
@@ -5360,7 +5368,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 utf8
 ;
 rv
@@ -5508,7 +5516,7 @@ PromiseFlatCString
 aParamValue
 )
 ;
-nsCAutoString
+nsAutoCString
 unQuoted
 ;
 nsACString
@@ -5712,7 +5720,7 @@ aResult
 =
 unQuoted
 ;
-nsCAutoString
+nsAutoCString
 decoded
 ;
 /
@@ -6746,7 +6754,7 @@ NS_UTF8CONVERTERSERVICE_CONTRACTID
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 utf8Text
 ;
 if
@@ -7790,7 +7798,7 @@ NS_UTF8CONVERTERSERVICE_CONTRACTID
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 utf8Text
 ;
 /
@@ -7921,7 +7929,7 @@ aDefaultCharset
 aResult
 )
 ;
-nsCAutoString
+nsAutoCString
 tempStr
 (
 aResult

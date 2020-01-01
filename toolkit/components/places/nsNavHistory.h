@@ -2385,7 +2385,7 @@ int32_t
 aTyped
 int32_t
 aVisitCount
-nsCAutoString
+nsAutoCString
 &
 aURL
 int32_t

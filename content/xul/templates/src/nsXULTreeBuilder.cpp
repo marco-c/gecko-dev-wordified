@@ -10085,7 +10085,7 @@ rv
 )
 )
 return
-rv
+0
 ;
 nsCOMPtr
 <

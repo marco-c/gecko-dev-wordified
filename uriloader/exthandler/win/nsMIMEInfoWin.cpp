@@ -954,7 +954,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 fileURLSpec
 ;
 NS_GetURLSpecFromFile
@@ -963,7 +963,7 @@ aApplication
 fileURLSpec
 )
 ;
-nsCAutoString
+nsAutoCString
 iconURLSpec
 ;
 iconURLSpec
@@ -1237,7 +1237,7 @@ spec
 from
 the
 url
-nsCAutoString
+nsAutoCString
 urlSpec
 ;
 aURL
@@ -1258,7 +1258,7 @@ characters
 in
 the
 URL
-nsCAutoString
+nsAutoCString
 urlCharset
 ;
 nsAutoString
@@ -3180,7 +3180,7 @@ nsString
 >
 trackList
 ;
-nsCAutoString
+nsAutoCString
 fileExt
 ;
 GetPrimaryExtension
@@ -3339,7 +3339,7 @@ a
 generic
 list
 .
-nsCAutoString
+nsAutoCString
 mimeType
 ;
 GetMIMEType

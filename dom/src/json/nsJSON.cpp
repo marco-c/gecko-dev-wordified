@@ -3207,7 +3207,7 @@ BOM
 or
 sniff
 charset
-nsCAutoString
+nsAutoCString
 charset
 ;
 if

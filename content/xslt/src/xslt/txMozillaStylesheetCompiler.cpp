@@ -423,7 +423,7 @@ uri
 return
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -1181,10 +1181,10 @@ charset
 .
 .
 .
-nsCAutoString
+nsAutoCString
 charsetVal
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 if
@@ -1263,7 +1263,7 @@ charset
 charsetSource
 )
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 channel
@@ -2358,7 +2358,7 @@ nsIPrincipal
 aCallerPrincipal
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 aUri
@@ -3251,7 +3251,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -3443,7 +3443,7 @@ uri
 NS_ERROR_FAILURE
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri

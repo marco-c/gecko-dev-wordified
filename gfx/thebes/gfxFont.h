@@ -11064,7 +11064,7 @@ gfxTextRunFactory
 TEXT_IS_8BIT
 )
 {
-nsCAutoString
+nsAutoCString
 narrowText
 ;
 LossyAppendUTF16toASCII

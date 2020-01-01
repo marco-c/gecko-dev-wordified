@@ -214,7 +214,7 @@ PR_LOG_DEBUG
 )
 )
 {
-nsCAutoString
+nsAutoCString
 props
 ;
 nsResourceSet

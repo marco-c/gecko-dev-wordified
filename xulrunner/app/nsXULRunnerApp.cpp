@@ -702,7 +702,7 @@ char
 argv0
 )
 {
-nsCAutoString
+nsAutoCString
 milestone
 ;
 GetGREVersion
@@ -1608,10 +1608,10 @@ version
 )
 )
 {
-nsCAutoString
+nsAutoCString
 milestone
 ;
-nsCAutoString
+nsAutoCString
 version
 ;
 GetGREVersion
@@ -1698,7 +1698,7 @@ argc
 1
 )
 {
-nsCAutoString
+nsAutoCString
 milestone
 ;
 rv

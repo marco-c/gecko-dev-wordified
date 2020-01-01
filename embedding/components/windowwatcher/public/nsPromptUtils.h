@@ -529,7 +529,7 @@ nsIProxyInfo
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 idnhost
 ;
 info

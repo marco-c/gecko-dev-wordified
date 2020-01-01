@@ -999,7 +999,7 @@ if
 mPrettyPrintXML
 )
 {
-nsCAutoString
+nsAutoCString
 command
 ;
 GetParser
@@ -3944,7 +3944,7 @@ mPrettyPrintXML
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 cmd
 ;
 if
@@ -6699,7 +6699,7 @@ sheet
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 uriStr
 ;
 uri

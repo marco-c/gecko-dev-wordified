@@ -2971,7 +2971,7 @@ nsString
 aStr
 )
 {
-nsCAutoString
+nsAutoCString
 text
 ;
 if
@@ -4053,7 +4053,7 @@ nsIntRect
 aRect
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 if

@@ -3126,7 +3126,7 @@ kAttrEntities
 :
 kEntities
 ;
-nsCAutoString
+nsAutoCString
 entityReplacement
 ;
 for

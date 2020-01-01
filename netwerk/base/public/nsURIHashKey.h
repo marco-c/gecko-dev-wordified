@@ -299,7 +299,7 @@ nsIURI
 aKey
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 const_cast

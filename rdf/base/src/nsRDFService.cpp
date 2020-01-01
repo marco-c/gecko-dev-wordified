@@ -5156,7 +5156,7 @@ BeginReading
 begin
 )
 ;
-nsCAutoString
+nsAutoCString
 contractID
 ;
 contractID
@@ -5598,7 +5598,7 @@ PR_Now
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 s
 ;
 do
@@ -7585,7 +7585,7 @@ protocol
 handler
 lookups
 .
-nsCAutoString
+nsAutoCString
 spec
 (
 aURI
@@ -7752,7 +7752,7 @@ a
 contract
 ID
 .
-nsCAutoString
+nsAutoCString
 contractID
 (
 NS_LITERAL_CSTRING

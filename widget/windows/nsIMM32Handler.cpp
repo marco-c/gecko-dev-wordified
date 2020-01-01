@@ -8554,7 +8554,7 @@ in
 Unicode
 string
 .
-nsCAutoString
+nsAutoCString
 compANSIStr
 ;
 if

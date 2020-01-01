@@ -9462,7 +9462,7 @@ nsresult
 nsGenericElement
 :
 :
-AddScriptEventListener
+SetEventHandler
 (
 nsIAtom
 *
@@ -9580,7 +9580,7 @@ agrees
 manager
 -
 >
-AddScriptEventListener
+SetEventHandler
 (
 aEventName
 aValue

@@ -679,7 +679,7 @@ aDocViewer
 #
 ifdef
 NS_FUNCTION_TIMER
-nsCAutoString
+nsAutoCString
 channelURL__
 (
 "
@@ -801,7 +801,7 @@ in
 the
 function
 .
-nsCAutoString
+nsAutoCString
 type
 ;
 /
@@ -2511,7 +2511,7 @@ imgILoader
 >
 loader
 (
-do_GetService
+do_CreateInstance
 (
 "
 mozilla

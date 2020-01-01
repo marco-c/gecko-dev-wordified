@@ -3695,7 +3695,7 @@ genericFlavor
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 flavorStr
 ;
 flavorWrapper
@@ -3981,7 +3981,7 @@ genericFlavor
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 flavorStr
 ;
 flavorWrapper

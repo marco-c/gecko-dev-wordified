@@ -3326,7 +3326,7 @@ localhost
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 hostACE
 ;
 if
@@ -3576,7 +3576,7 @@ hostname
 aHostname
 )
 ;
-nsCAutoString
+nsAutoCString
 hostACE
 ;
 if
@@ -3753,7 +3753,7 @@ localhost
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 hostACE
 ;
 if

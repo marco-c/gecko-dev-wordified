@@ -504,7 +504,7 @@ i
 domain
 )
 ;
-nsCAutoString
+nsAutoCString
 normalizedName
 (
 gEntries
@@ -655,7 +655,7 @@ NS_ENSURE_ARG_POINTER
 innerURI
 )
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 nsresult
@@ -757,7 +757,7 @@ NS_ENSURE_ARG_POINTER
 innerURI
 )
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 nsresult
@@ -871,7 +871,7 @@ includes
 invalid
 characters
 .
-nsCAutoString
+nsAutoCString
 normHostname
 (
 aHostname
@@ -995,7 +995,7 @@ includes
 invalid
 characters
 .
-nsCAutoString
+nsAutoCString
 normHostname
 (
 aHostname

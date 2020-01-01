@@ -4805,7 +4805,7 @@ Set
 filename
 *
 /
-nsCAutoString
+nsAutoCString
 filename
 ;
 if
@@ -5022,7 +5022,7 @@ endif
 SET_PRINTER_FEATURES_VIA_PREFS
 *
 /
-nsCAutoString
+nsAutoCString
 orientation
 ;
 if
@@ -5499,7 +5499,7 @@ endif
 SET_PRINTER_FEATURES_VIA_PREFS
 *
 /
-nsCAutoString
+nsAutoCString
 papername
 ;
 if
@@ -5881,7 +5881,7 @@ if
 hasSpoolerCmd
 )
 {
-nsCAutoString
+nsAutoCString
 command
 ;
 if

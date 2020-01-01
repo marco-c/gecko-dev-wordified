@@ -3787,7 +3787,7 @@ OnStartRequest
 #
 ifdef
 PR_LOGGING
-nsCAutoString
+nsAutoCString
 name
 ;
 GetName
@@ -3895,7 +3895,7 @@ lastPart
 #
 ifdef
 PR_LOGGING
-nsCAutoString
+nsAutoCString
 name
 ;
 GetName
@@ -4246,7 +4246,7 @@ BlockOnload
 #
 ifdef
 PR_LOGGING
-nsCAutoString
+nsAutoCString
 name
 ;
 GetName
@@ -4312,7 +4312,7 @@ UnblockOnload
 #
 ifdef
 PR_LOGGING
-nsCAutoString
+nsAutoCString
 name
 ;
 GetName

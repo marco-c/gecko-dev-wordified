@@ -299,7 +299,7 @@ aResult
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 stringToReverse
 ;
 rv
@@ -319,7 +319,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 result
 ;
 ReverseString
@@ -437,7 +437,7 @@ aResult
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 scope
 ;
 rv
@@ -457,7 +457,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 domain
 ;
 rv
@@ -3516,7 +3516,7 @@ scope
 stmt
 )
 ;
-nsCAutoString
+nsAutoCString
 subdomainsDBKey
 ;
 nsDOMStorageDBWrapper
@@ -3881,7 +3881,7 @@ i
 +
 )
 {
-nsCAutoString
+nsAutoCString
 quotaKey
 ;
 rv
@@ -3943,7 +3943,7 @@ AppendLiteral
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 paramName
 ;
 paramName
@@ -4129,7 +4129,7 @@ aUsage
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 quotadomainDBKey
 ;
 rv
@@ -4443,7 +4443,7 @@ scope
 stmt
 )
 ;
-nsCAutoString
+nsAutoCString
 scopeValue
 (
 aQuotaDomainDBKey

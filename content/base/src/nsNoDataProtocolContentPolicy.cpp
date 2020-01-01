@@ -335,7 +335,7 @@ be
 loaded
 anyway
 .
-nsCAutoString
+nsAutoCString
 scheme
 ;
 aContentLocation

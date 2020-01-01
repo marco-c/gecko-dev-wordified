@@ -1105,7 +1105,7 @@ affFile
 return
 NS_ERROR_FILE_NOT_FOUND
 ;
-nsCAutoString
+nsAutoCString
 dictFileName
 affFileName
 ;

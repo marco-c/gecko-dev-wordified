@@ -6074,7 +6074,7 @@ GetMaskLayer
 )
 )
 {
-nsCAutoString
+nsAutoCString
 pfx
 (
 aPrefix
@@ -6114,7 +6114,7 @@ GetFirstChild
 )
 )
 {
-nsCAutoString
+nsAutoCString
 pfx
 (
 aPrefix
@@ -6226,7 +6226,7 @@ char
 aPrefix
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 PrintInfo
@@ -6292,7 +6292,7 @@ GetFirstChild
 )
 )
 {
-nsCAutoString
+nsAutoCString
 pfx
 (
 aPrefix
@@ -6357,7 +6357,7 @@ IsLogEnabled
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 str
 ;
 PrintInfo
@@ -7266,7 +7266,7 @@ a
 }
 #
 endif
-nsCAutoString
+nsAutoCString
 pfx
 (
 aPrefix
@@ -7409,7 +7409,7 @@ char
 aPrefix
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 PrintInfo
@@ -7464,7 +7464,7 @@ LogSelf
 aPrefix
 )
 ;
-nsCAutoString
+nsAutoCString
 pfx
 (
 aPrefix
@@ -7532,7 +7532,7 @@ char
 aPrefix
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 PrintInfo

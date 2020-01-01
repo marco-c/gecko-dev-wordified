@@ -12195,7 +12195,7 @@ uri
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri

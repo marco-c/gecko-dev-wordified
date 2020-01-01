@@ -5170,7 +5170,7 @@ includes
 )
 )
 {
-nsCAutoString
+nsAutoCString
 message
 (
 "
@@ -5182,7 +5182,7 @@ URI
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 uri
 ;
 mPrototypeBinding
@@ -8765,7 +8765,7 @@ class
 is
 initialized
 .
-nsCAutoString
+nsAutoCString
 className
 (
 aClassName

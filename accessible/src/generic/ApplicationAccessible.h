@@ -409,13 +409,6 @@ Shutdown
 (
 )
 ;
-virtual
-bool
-IsPrimaryForNode
-(
-)
-const
-;
 /
 /
 Accessible

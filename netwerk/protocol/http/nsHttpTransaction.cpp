@@ -666,7 +666,7 @@ char
 lines
 )
 {
-nsCAutoString
+nsAutoCString
 buf
 ;
 char
@@ -7736,7 +7736,7 @@ n
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 headers
 ;
 mResponseHead
@@ -9349,7 +9349,7 @@ mReportedResponseHeader
 =
 true
 ;
-nsCAutoString
+nsAutoCString
 completeResponseHeaders
 ;
 mResponseHead

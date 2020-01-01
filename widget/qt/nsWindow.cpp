@@ -4404,7 +4404,7 @@ nsIFile
 >
 iconFile
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 nsTArray
@@ -16799,7 +16799,7 @@ aEvent
 >
 widget
 aEvent
-nsCAutoString
+nsAutoCString
 (
 "
 something

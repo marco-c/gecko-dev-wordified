@@ -722,13 +722,6 @@ Init
 (
 )
 ;
-virtual
-bool
-IsPrimaryForNode
-(
-)
-const
-;
 /
 /
 Accessible

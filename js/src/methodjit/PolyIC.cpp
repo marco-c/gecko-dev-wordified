@@ -17408,10 +17408,7 @@ cx
 )
 )
 ;
-cx
--
->
-free_
+js_free
 (
 chars
 )

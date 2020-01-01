@@ -1769,7 +1769,7 @@ the
 symlink
 if
 needed
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -3426,7 +3426,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 manifestFilename
 ;
 rv
@@ -3709,7 +3709,7 @@ its
 corresponding
 signature
 file
-nsCAutoString
+nsAutoCString
 sigFilename
 (
 manifestFilename
@@ -3764,7 +3764,7 @@ uint32_t
 sigLen
 ;
 {
-nsCAutoString
+nsAutoCString
 tempFilename
 (
 sigFilename
@@ -3802,7 +3802,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 tempFilename
 (
 sigFilename
@@ -4079,7 +4079,7 @@ nextLineStart
 =
 filebuf
 ;
-nsCAutoString
+nsAutoCString
 curLine
 ;
 int32_t
@@ -4221,10 +4221,10 @@ nsJARManifestItem
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-nsCAutoString
+nsAutoCString
 curItemName
 ;
-nsCAutoString
+nsAutoCString
 storedSectionDigest
 ;
 for
@@ -4798,7 +4798,7 @@ nextLineStart
 -
 1
 ;
-nsCAutoString
+nsAutoCString
 continuation
 (
 curPos
@@ -4870,7 +4870,7 @@ Break
 down
 the
 line
-nsCAutoString
+nsAutoCString
 lineName
 ;
 curLine
@@ -4881,7 +4881,7 @@ lineName
 colonPos
 )
 ;
-nsCAutoString
+nsAutoCString
 lineData
 ;
 curLine
@@ -7397,7 +7397,7 @@ mZipCacheLookups
 ;
 #
 endif
-nsCAutoString
+nsAutoCString
 uri
 ;
 rv
@@ -7655,7 +7655,7 @@ mZipCacheLookups
 ;
 #
 endif
-nsCAutoString
+nsAutoCString
 uri
 ;
 rv
@@ -8355,7 +8355,7 @@ endif
 remove
 from
 hashtable
-nsCAutoString
+nsAutoCString
 uri
 ;
 rv
@@ -8767,7 +8767,7 @@ file
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 uri
 ;
 if

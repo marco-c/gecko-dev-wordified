@@ -20819,7 +20819,7 @@ spec
 from
 the
 sheet
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv
@@ -27768,6 +27768,9 @@ bool
 aSuppressTransaction
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 nsresult
 res
 =

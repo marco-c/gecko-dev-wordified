@@ -2033,7 +2033,7 @@ executablePath
 0
 '
 ;
-nsCAutoString
+nsAutoCString
 bundlePath
 ;
 mPlugin
@@ -2176,7 +2176,7 @@ pathRef
 }
 #
 else
-nsCAutoString
+nsAutoCString
 bundlePath
 ;
 mPlugin
@@ -2699,7 +2699,7 @@ a
 bundle
 reference
 .
-nsCAutoString
+nsAutoCString
 path
 ;
 if
@@ -2757,7 +2757,7 @@ fill
 in
 file
 name
-nsCAutoString
+nsAutoCString
 fileName
 ;
 if

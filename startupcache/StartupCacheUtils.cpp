@@ -599,7 +599,7 @@ inline
 bool
 canonicalizeBase
 (
-nsCAutoString
+nsAutoCString
 &
 spec
 nsACString
@@ -615,7 +615,7 @@ Type
 aType
 )
 {
-nsCAutoString
+nsAutoCString
 base
 ;
 nsresult
@@ -1044,7 +1044,7 @@ uri
 =
 in
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 /
@@ -1365,7 +1365,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -1472,7 +1472,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -1514,7 +1514,7 @@ else
 /
 Very
 unlikely
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv

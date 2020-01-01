@@ -846,7 +846,7 @@ need
 to
 check
 .
-nsCAutoString
+nsAutoCString
 scheme
 ;
 aContentLocation
@@ -1630,7 +1630,7 @@ somewhere
 would
 be
 nice
-nsCAutoString
+nsAutoCString
 currentHost
 ;
 rv
@@ -1766,7 +1766,7 @@ Length
 dot
 )
 ;
-nsCAutoString
+nsAutoCString
 firstHost
 ;
 rv

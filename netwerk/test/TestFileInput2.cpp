@@ -1961,10 +1961,10 @@ rv
 uint32_t
 i
 ;
-nsCAutoString
+nsAutoCString
 inDir
 ;
-nsCAutoString
+nsAutoCString
 outDir
 ;
 (
@@ -2203,7 +2203,7 @@ rv
 goto
 done
 ;
-nsCAutoString
+nsAutoCString
 leafName
 ;
 rv

@@ -468,7 +468,7 @@ component_end
 directory_end
 )
 ;
-nsCAutoString
+nsAutoCString
 flatComponent
 (
 (
@@ -787,7 +787,7 @@ cpp
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 ePath
 ;
 /
@@ -819,7 +819,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 escPath
 ;
 NS_NAMED_LITERAL_CSTRING
@@ -1005,7 +1005,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 directory
 fileBaseName
 fileExtension
@@ -1119,7 +1119,7 @@ paths
 to
 POSIX
 .
-nsCAutoString
+nsAutoCString
 possibleVolName
 ;
 if

@@ -676,7 +676,7 @@ to
 the
 handler
 .
-nsCAutoString
+nsAutoCString
 spec
 ;
 aURI

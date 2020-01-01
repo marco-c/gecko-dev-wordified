@@ -377,7 +377,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 charset
 (
 aCharset
