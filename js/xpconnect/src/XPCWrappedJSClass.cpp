@@ -9662,7 +9662,7 @@ if
 !
 type
 .
-IsPointer
+deprecated_IsPointer
 (
 )
 )
@@ -9774,7 +9774,7 @@ datum_type
 &
 datum_type
 .
-IsPointer
+deprecated_IsPointer
 (
 )
 &
@@ -11049,7 +11049,7 @@ if
 !
 type
 .
-IsPointer
+deprecated_IsPointer
 (
 )
 )
@@ -11152,7 +11152,7 @@ datum_type
 &
 datum_type
 .
-IsPointer
+deprecated_IsPointer
 (
 )
 &
