@@ -5163,15 +5163,6 @@ PRMJ_NowShutdown
 (
 )
 ;
-#
-ifdef
-JS_TRACER
-js_ShutDownJIT
-(
-)
-;
-#
-endif
 }
 JS_PUBLIC_API
 (
