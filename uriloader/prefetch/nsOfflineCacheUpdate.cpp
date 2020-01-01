@@ -12493,7 +12493,6 @@ aURI
 {
 #
 if
-!
 defined
 (
 MOZ_IPC
