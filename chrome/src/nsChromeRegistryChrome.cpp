@@ -3017,7 +3017,8 @@ return
 isLocalResource
 ;
 }
-nsresult
+nsIURI
+*
 nsChromeRegistryChrome
 :
 :
@@ -3035,10 +3036,6 @@ const
 nsCString
 &
 aPath
-nsIURI
-*
-*
-aResult
 )
 {
 PackageEntry
@@ -3075,7 +3072,7 @@ if
 mInitialized
 )
 return
-NS_ERROR_NOT_INITIALIZED
+nsnull
 ;
 LogMessage
 (
@@ -3116,14 +3113,9 @@ get
 )
 ;
 return
-NS_ERROR_FAILURE
-;
-}
-*
-aResult
-=
 nsnull
 ;
+}
 if
 (
 aProvider
@@ -3136,9 +3128,7 @@ locale
 )
 )
 {
-*
-aResult
-=
+return
 entry
 -
 >
@@ -3167,9 +3157,7 @@ skin
 )
 )
 {
-*
-aResult
-=
+return
 entry
 -
 >
@@ -3198,9 +3186,7 @@ content
 )
 )
 {
-*
-aResult
-=
+return
 entry
 -
 >
@@ -3208,7 +3194,7 @@ baseURI
 ;
 }
 return
-NS_OK
+nsnull
 ;
 }
 nsresult
