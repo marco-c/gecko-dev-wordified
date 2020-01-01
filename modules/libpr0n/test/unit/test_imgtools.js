@@ -1385,6 +1385,12 @@ scaled
 PNG
 "
 ;
+if
+(
+!
+isWindows
+)
+{
 /
 /
 we
@@ -1497,6 +1503,7 @@ encodedBytes
 referenceBytes
 )
 ;
+}
 /
 *
 =
@@ -1536,6 +1543,12 @@ unscaled
 PNG
 "
 ;
+if
+(
+!
+isWindows
+)
+{
 /
 /
 we
@@ -1646,6 +1659,7 @@ encodedBytes
 referenceBytes
 )
 ;
+}
 /
 *
 =
