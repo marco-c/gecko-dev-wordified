@@ -14109,6 +14109,15 @@ globalObj
 &
 &
 !
+pn
+-
+>
+isDeoptimized
+(
+)
+&
+&
+!
 (
 cg
 -
