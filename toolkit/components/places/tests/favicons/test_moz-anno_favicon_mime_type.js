@@ -2071,7 +2071,7 @@ before
 opening
 fs
 .
-setFaviconDataFromDataURL
+replaceFaviconDataFromDataURL
 (
 testURI
 testFaviconData
