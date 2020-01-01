@@ -7441,9 +7441,6 @@ endif
 +
 gLogCounter
 ;
-#
-ifdef
-DEBUG
 /
 /
 Dump
@@ -7527,8 +7524,6 @@ fclose
 gcDumpFile
 )
 ;
-#
-endif
 /
 /
 Open
@@ -7619,9 +7614,6 @@ get
 )
 )
 ;
-#
-ifdef
-DEBUG
 cs
 -
 >
@@ -7637,8 +7629,6 @@ get
 )
 )
 ;
-#
-endif
 }
 return
 NS_OK

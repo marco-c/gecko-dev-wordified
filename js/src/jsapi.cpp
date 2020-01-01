@@ -13845,14 +13845,11 @@ kind
 )
 ;
 }
-#
-ifdef
-DEBUG
 JS_PUBLIC_API
 (
 void
 )
-JS_PrintTraceThingInfo
+JS_GetTraceThingInfo
 (
 char
 *
@@ -14539,6 +14536,9 @@ trc
 debugPrintArg
 ;
 }
+#
+ifdef
+DEBUG
 typedef
 struct
 JSHeapDumpNode
@@ -15112,7 +15112,7 @@ MAX_PARENTS_TO_PRINT
 10
 }
 ;
-JS_PrintTraceThingInfo
+JS_GetTraceThingInfo
 (
 dtrc
 -
@@ -15375,7 +15375,7 @@ false
 }
 else
 {
-JS_PrintTraceThingInfo
+JS_GetTraceThingInfo
 (
 dtrc
 -
