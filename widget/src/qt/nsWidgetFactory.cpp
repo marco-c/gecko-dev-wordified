@@ -1073,6 +1073,9 @@ bidikeyboard
 "
 nsBidiKeyboardConstructor
 }
+#
+ifdef
+Q_WS_X11
 {
 "
 Qt
@@ -1093,6 +1096,8 @@ idleservice
 "
 nsIdleServiceQtConstructor
 }
+#
+endif
 {
 "
 Qt
