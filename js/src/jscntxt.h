@@ -8560,16 +8560,6 @@ analysis
 /
 template
 <
-typename
-T
->
-struct
-RootMethods
-{
-}
-;
-template
-<
 >
 struct
 RootMethods
