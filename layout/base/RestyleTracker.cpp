@@ -1350,13 +1350,6 @@ BeginUpdate
 (
 )
 ;
-mFrameConstructor
--
->
-mInStyleRefresh
-=
-PR_TRUE
-;
 /
 /
 loop
