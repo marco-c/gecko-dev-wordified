@@ -5823,12 +5823,9 @@ overflow
 .
 if
 (
-LL_CMP
-(
 bytes
 >
 INT64_MAX
-)
 )
 bytes
 =

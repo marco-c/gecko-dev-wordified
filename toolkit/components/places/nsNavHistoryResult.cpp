@@ -459,12 +459,9 @@ b
 {
 if
 (
-LL_CMP
-(
 a
 <
 b
-)
 )
 return
 -
@@ -473,12 +470,9 @@ return
 else
 if
 (
-LL_CMP
-(
 a
 >
 b
-)
 )
 return
 1

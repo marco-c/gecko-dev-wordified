@@ -4449,12 +4449,9 @@ PR_Now
 ;
 if
 (
-LL_CMP
-(
 now
 >
 notAfter
-)
 )
 {
 timeToUse

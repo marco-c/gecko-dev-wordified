@@ -11773,8 +11773,6 @@ b
 const
 {
 return
-LL_CMP
-(
 GetPluginLastModifiedTime
 (
 a
@@ -11783,7 +11781,6 @@ a
 GetPluginLastModifiedTime
 (
 b
-)
 )
 ;
 }

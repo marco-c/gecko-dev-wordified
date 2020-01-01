@@ -3569,13 +3569,10 @@ NS_OK
 }
 if
 (
-LL_CMP
-(
 time
 <
 LL_Zero
 (
-)
 )
 )
 *

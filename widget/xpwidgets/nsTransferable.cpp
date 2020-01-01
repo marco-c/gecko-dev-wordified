@@ -1486,12 +1486,9 @@ fileSize
 ;
 if
 (
-LL_CMP
-(
 fileSize
 >
 max32
-)
 )
 return
 NS_ERROR_OUT_OF_MEMORY
