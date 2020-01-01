@@ -844,6 +844,11 @@ the
 zoom
 out
 .
+/
+/
+Zoom
+out
+!
 var
 tab
 =
@@ -996,7 +1001,7 @@ height
 :
 h
 }
-250
+350
 '
 '
 function
@@ -1025,6 +1030,15 @@ css
 overflow
 "
 overflow
+)
+;
+window
+.
+Groups
+.
+setActiveGroup
+(
+null
 )
 ;
 TabMirror

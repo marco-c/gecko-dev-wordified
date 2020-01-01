@@ -497,7 +497,7 @@ css
 const
 minFontSize
 =
-6
+8
 ;
 const
 maxFontSize
@@ -1376,7 +1376,8 @@ item
 {
 /
 /
-ZOOM
+Zoom
+in
 !
 var
 orig
@@ -1592,15 +1593,11 @@ group
 gID
 )
 ;
-UI
+Groups
 .
-tabBar
-.
-showOnlyTheseTabs
+setActiveGroup
 (
 group
-.
-_children
 )
 ;
 }
