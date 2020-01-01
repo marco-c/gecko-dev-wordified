@@ -1016,17 +1016,6 @@ aAttribute
 )
 const
 ;
-/
-/
-nsSVGElement
-interface
-virtual
-bool
-HasValidDimensions
-(
-)
-const
-;
 virtual
 nsSVGString
 &

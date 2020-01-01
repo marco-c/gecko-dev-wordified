@@ -574,13 +574,6 @@ eAllTransforms
 )
 const
 ;
-virtual
-bool
-HasValidDimensions
-(
-)
-const
-;
 /
 /
 nsIContent
