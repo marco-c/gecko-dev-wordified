@@ -6172,6 +6172,9 @@ atom
 ;
 if
 (
+name
+&
+&
 strcmp
 (
 name

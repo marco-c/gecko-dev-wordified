@@ -2628,6 +2628,13 @@ j
 if
 (
 !
+atom_name
+)
+continue
+;
+if
+(
+!
 strcmp
 (
 atom_name
