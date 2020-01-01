@@ -4970,6 +4970,21 @@ tests
 actually
 passed
             
+print
+"
+INFO
+|
+runtests
+.
+py
+|
+Test
+summary
+:
+start
+.
+"
+            
 overallResult
 =
 mochitest
@@ -4977,6 +4992,21 @@ mochitest
 printLog
 (
 )
+            
+print
+"
+INFO
+|
+runtests
+.
+py
+|
+Test
+summary
+:
+end
+.
+"
             
 if
 retVal
