@@ -185,6 +185,7 @@ group
 '
 name
 '
+null
 )
 undefined
 )
@@ -254,6 +255,7 @@ upload
 .
 lastDir
 '
+null
 )
 '
 someValue

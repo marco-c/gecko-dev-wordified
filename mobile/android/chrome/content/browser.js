@@ -43069,6 +43069,22 @@ parse
 aData
 )
 ;
+let
+privacyContext
+=
+BrowserApp
+.
+selectedBrowser
+.
+docShell
+.
+QueryInterface
+(
+Ci
+.
+nsILoadContext
+)
+;
 for
 (
 let
@@ -43116,6 +43132,7 @@ clearPermission
 (
 uri
 permissionType
+privacyContext
 )
 ;
 }
@@ -43397,6 +43414,7 @@ clearPermission
 (
 aURI
 aType
+aContext
 )
 {
 /
@@ -43547,6 +43565,7 @@ request
 .
 remember
 "
+aContext
 )
 ;
 }

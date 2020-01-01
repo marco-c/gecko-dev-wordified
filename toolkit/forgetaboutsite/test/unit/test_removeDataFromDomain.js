@@ -1903,6 +1903,7 @@ PREFERENCE_NAME
 "
 foo
 "
+null
 )
 ;
 check_preference_exists
@@ -2008,6 +2009,7 @@ hasPref
 (
 aURI
 PREFERENCE_NAME
+null
 )
 )
 ;
@@ -3267,6 +3269,7 @@ removePref
 (
 TEST_URI
 PREFERENCE_NAME
+null
 )
 ;
 check_preference_exists
