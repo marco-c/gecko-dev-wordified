@@ -10193,10 +10193,6 @@ p4
 )
 ;
 }
-#
-define
-_malloc_message
-malloc_message
 void
 (
 *
