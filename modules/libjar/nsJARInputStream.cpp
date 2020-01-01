@@ -1672,14 +1672,17 @@ mFd
 PRUint32
 count
 =
-PR_MIN
+NS_MIN
 (
 aCount
 mOutSize
 -
+PRUint32
+(
 mZs
 .
 total_out
+)
 )
 ;
 if
@@ -1944,7 +1947,7 @@ mZs
 .
 avail_out
 =
-PR_MIN
+NS_MIN
 (
 aCount
 (
@@ -2629,7 +2632,7 @@ const
 PRUint32
 writeLength
 =
-PR_MIN
+NS_MIN
 (
 aCount
 mBuffer
