@@ -1939,7 +1939,7 @@ popup
 :
 *
 /
-#
+.
 autoscroller
 {
 height
@@ -2012,7 +2012,7 @@ appearance
 none
 ;
 }
-#
+.
 autoscroller
 [
 scrolldir
@@ -2044,7 +2044,7 @@ center
 %
 endif
 }
-#
+.
 autoscroller
 [
 scrolldir
