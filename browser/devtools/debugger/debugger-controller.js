@@ -7709,6 +7709,9 @@ forced
 aOptions
 .
 forced
+tooltip
+:
+url
 attachment
 :
 aSource
