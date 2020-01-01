@@ -138,7 +138,7 @@ h
 #
 include
 "
-nsHTMLMenuItemElement
+HTMLMenuItemElement
 .
 h
 "
@@ -907,11 +907,11 @@ nsGkAtoms
 menuitem
 )
 {
-nsHTMLMenuItemElement
+HTMLMenuItemElement
 *
 menuitem
 =
-nsHTMLMenuItemElement
+HTMLMenuItemElement
 :
 :
 FromContent
