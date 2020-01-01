@@ -45196,7 +45196,7 @@ JSMSG_BAD_OBJECT_INIT
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 #
@@ -45237,21 +45237,13 @@ checkSingletonContext
 )
 )
 {
-if
-(
-!
+return
 EmitSingletonInitialiser
 (
 cx
 bce
 pn
 )
-)
-return
-JS_FALSE
-;
-return
-true
 ;
 }
 /
@@ -45373,7 +45365,7 @@ sharpnum
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -45459,7 +45451,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 }
 uintN
@@ -45543,7 +45535,7 @@ bce
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -45571,7 +45563,7 @@ pn_right
 )
 )
 return
-JS_FALSE
+false
 ;
 JSOp
 op
@@ -45613,7 +45605,7 @@ op
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -45660,7 +45652,7 @@ SRC_INITPROP
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -45674,7 +45666,7 @@ JSOP_INITELEM
 0
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -45719,7 +45711,7 @@ index
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -45960,7 +45952,7 @@ pn_count
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -46023,9 +46015,9 @@ if
 objbox
 )
 return
-JS_FALSE
+false
 ;
-unsigned
+uintN
 index
 =
 bce
