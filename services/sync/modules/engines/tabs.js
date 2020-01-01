@@ -1412,7 +1412,10 @@ __proto__
 __proto__
 .
 _init
+.
+call
 (
+this
 )
 ;
 }

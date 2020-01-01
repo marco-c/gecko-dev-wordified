@@ -1917,6 +1917,7 @@ as
 JSON
 "
 )
+;
 self
 .
 done
@@ -1957,6 +1958,7 @@ JSON
 data
 "
 )
+;
 self
 .
 done
@@ -2063,6 +2065,7 @@ Encrypting
 data
 "
 )
+;
 Crypto
 .
 PBEencrypt
@@ -2123,6 +2126,7 @@ Decrypting
 data
 "
 )
+;
 if
 (
 !
@@ -2248,7 +2252,10 @@ __proto__
 __proto__
 .
 _init
+.
+call
 (
+this
 this
 .
 _remote
@@ -2321,7 +2328,10 @@ __proto__
 __proto__
 .
 _init
+.
+call
 (
+this
 this
 .
 _remote
@@ -2524,7 +2534,10 @@ __proto__
 __proto__
 .
 _init
+.
+call
 (
+this
 this
 .
 _remote
@@ -2611,7 +2624,10 @@ __proto__
 __proto__
 .
 _init
+.
+call
 (
+this
 this
 .
 _remote
