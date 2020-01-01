@@ -2639,6 +2639,7 @@ max_exponent_
 max_exponent
 ;
 }
+static
 const
 int64_t
 RANGE_INF_MAX
@@ -2650,6 +2651,7 @@ JSVAL_INT_MAX
 +
 1
 ;
+static
 const
 int64_t
 RANGE_INF_MIN
