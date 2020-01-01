@@ -794,6 +794,8 @@ APP
 /
 discovery
 /
+pane
+/
 %
 VERSION
 %
