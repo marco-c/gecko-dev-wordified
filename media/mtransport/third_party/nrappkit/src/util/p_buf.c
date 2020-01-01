@@ -927,7 +927,7 @@ bytes
 to
 buffer
 %
-d
+p
 "
 towrite
 buf
