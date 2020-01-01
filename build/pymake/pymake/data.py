@@ -10052,6 +10052,14 @@ self
 defaulttarget
 is
 None
+and
+t
+!
+=
+'
+.
+PHONY
+'
 :
             
 self
