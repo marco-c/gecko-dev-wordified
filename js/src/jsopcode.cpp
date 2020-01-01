@@ -6615,6 +6615,8 @@ opcodes
 top
 ]
 =
+jsbytecode
+(
 (
 op
 =
@@ -6622,9 +6624,6 @@ op
 JSOP_GETPROP2
 )
 ?
-(
-jsbytecode
-)
 JSOP_GETPROP
 :
 (
@@ -6634,15 +6633,10 @@ op
 JSOP_GETELEM2
 )
 ?
-(
-jsbytecode
-)
 JSOP_GETELEM
 :
-(
-jsbytecode
-)
 op
+)
 ;
 ss
 -
