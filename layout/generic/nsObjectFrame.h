@@ -517,9 +517,6 @@ class
 nsPluginHost
 ;
 class
-nsIPluginInstance
-;
-class
 nsPresContext
 ;
 class
