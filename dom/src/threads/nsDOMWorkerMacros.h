@@ -959,13 +959,6 @@ Release
 ;
 }
 #
-define
-JSON_PRIMITIVE_PROPNAME
-\
-"
-primitive
-"
-#
 endif
 /
 *

@@ -813,10 +813,6 @@ nsAString
 &
 aMessage
 PRBool
-aIsJSON
-PRBool
-aIsPrimitive
-PRBool
 aToInner
 )
 ;
