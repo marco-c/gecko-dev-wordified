@@ -1409,7 +1409,6 @@ contained
 within
 /
 /
-the
 this
 rectangle
 .
