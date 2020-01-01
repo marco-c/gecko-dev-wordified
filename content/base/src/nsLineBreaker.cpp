@@ -1849,6 +1849,17 @@ mAfterBreakableSpace
 !
 isBreakableSpace
 )
+|
+|
+(
+mWordBreak
+=
+=
+nsILineBreaker
+:
+:
+kWordBreak_BreakAll
+)
 ?
 gfxTextRun
 :
