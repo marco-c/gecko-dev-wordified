@@ -1896,13 +1896,6 @@ null
 )
 *
 param
-aPresContext
-the
-current
-pres
-context
-*
-param
 aIndex
 the
 index
@@ -1967,9 +1960,6 @@ OnOptionSelected
 nsISelectControlFrame
 *
 aSelectFrame
-nsPresContext
-*
-aPresContext
 PRInt32
 aIndex
 PRBool
