@@ -953,6 +953,9 @@ mErrorMessageCached
 return
 *
 aText
+!
+=
+nullptr
 ?
 NS_OK
 :
@@ -1321,6 +1324,14 @@ PipUIContext
 (
 )
 ;
+if
+(
+!
+ir
+)
+return
+NS_ERROR_OUT_OF_MEMORY
+;
 rv
 =
 ir
@@ -1409,14 +1420,13 @@ lock
 mMutex
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsSSLStatus
 >
 status
-(
+=
 mSSLStatus
-)
 ;
 nsCOMPtr
 <
@@ -3415,7 +3425,7 @@ altNameExtension
 =
 {
 siBuffer
-nullptr
+NULL
 0
 }
 ;
@@ -3855,7 +3865,7 @@ CERTCertificate
 *
 nssCert
 =
-nullptr
+NULL
 ;
 CERTCertificateCleaner
 nssCertCleaner
@@ -5099,7 +5109,7 @@ n
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsIX509Cert
 >
@@ -5111,7 +5121,7 @@ sslStatus
 .
 GetServerCert
 (
-byRef
+getter_AddRefs
 (
 ix509
 )

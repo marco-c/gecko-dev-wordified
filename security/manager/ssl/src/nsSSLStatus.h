@@ -107,7 +107,7 @@ h
 #
 include
 "
-nsCOMPtr
+nsAutoPtr
 .
 h
 "

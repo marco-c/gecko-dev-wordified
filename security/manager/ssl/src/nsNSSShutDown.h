@@ -488,8 +488,9 @@ restriction
 /
 /
 if
-not
-null
+!
+=
+nullptr
 activity
 is
 only

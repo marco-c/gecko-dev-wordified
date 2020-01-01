@@ -110,6 +110,13 @@ h
 #
 include
 "
+nsMemory
+.
+h
+"
+#
+include
+"
 nsAlgorithm
 .
 h

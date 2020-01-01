@@ -131,7 +131,7 @@ CERT_SignatureDataTemplate
 {
 SEC_ASN1_SEQUENCE
 0
-nullptr
+NULL
 sizeof
 (
 CERTSignedData
@@ -511,8 +511,8 @@ sigData
 .
 signatureAlgorithm
 )
-nullptr
-nullptr
+NULL
+NULL
 )
 ;
 /

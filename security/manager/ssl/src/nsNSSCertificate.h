@@ -158,13 +158,6 @@ h
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 nsNSSShutDown
 .
 h

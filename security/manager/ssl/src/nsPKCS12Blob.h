@@ -140,6 +140,11 @@ nss
 .
 h
 "
+extern
+"
+C
+"
+{
 #
 include
 "
@@ -154,6 +159,7 @@ p12plcy
 .
 h
 "
+}
 class
 nsIX509Cert
 ;
