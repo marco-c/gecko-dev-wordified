@@ -13,7 +13,7 @@ tab
 -
 width
 :
-8
+4
 ;
 indent
 -
@@ -3026,17 +3026,6 @@ s
 ;
 break
 ;
-default
-:
-switch
-(
-type
-.
-TagPart
-(
-)
-)
-{
 case
 nsXPTType
 :
@@ -4914,7 +4903,6 @@ type
 return
 false
 ;
-}
 }
 return
 true
