@@ -1490,6 +1490,7 @@ SimpleRef
 operator
 =
 (
+*
 this
 )
 ;
