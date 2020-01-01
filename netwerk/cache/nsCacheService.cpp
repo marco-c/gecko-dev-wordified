@@ -8963,16 +8963,6 @@ request
 )
 )
 ;
-#
-if
-0
-/
-/
-Disabled
-because
-of
-bug
-589296
 /
 /
 Process
@@ -9076,8 +9066,6 @@ request
 ;
 }
 else
-#
-endif
 {
 rv
 =
