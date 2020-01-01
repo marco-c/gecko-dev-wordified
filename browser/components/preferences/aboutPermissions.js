@@ -4504,9 +4504,16 @@ filterValue
 -
 1
 ;
+(
+this
+.
+_listFragment
+|
+|
 this
 .
 sitesList
+)
 .
 appendChild
 (
