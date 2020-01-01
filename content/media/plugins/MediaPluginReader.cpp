@@ -131,7 +131,11 @@ h
 #
 include
 "
-nsTimeRanges
+mozilla
+/
+dom
+/
+TimeRanges
 .
 h
 "
@@ -2251,7 +2255,13 @@ MediaPluginReader
 :
 GetBuffered
 (
-nsTimeRanges
+mozilla
+:
+:
+dom
+:
+:
+TimeRanges
 *
 aBuffered
 int64_t

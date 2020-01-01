@@ -202,7 +202,11 @@ endif
 #
 include
 "
-nsTimeRanges
+mozilla
+/
+dom
+/
+TimeRanges
 .
 h
 "
@@ -12600,7 +12604,7 @@ OggReader
 :
 GetBuffered
 (
-nsTimeRanges
+TimeRanges
 *
 aBuffered
 int64_t

@@ -157,7 +157,11 @@ h
 #
 include
 "
-nsTimeRanges
+mozilla
+/
+dom
+/
+TimeRanges
 .
 h
 "
@@ -3106,7 +3110,7 @@ GStreamerReader
 :
 GetBuffered
 (
-nsTimeRanges
+TimeRanges
 *
 aBuffered
 int64_t

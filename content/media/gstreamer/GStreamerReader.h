@@ -116,7 +116,7 @@ MediaDecoderReader
 h
 "
 class
-nsTimeRanges
+TimeRanges
 ;
 namespace
 mozilla
@@ -208,7 +208,7 @@ virtual
 nsresult
 GetBuffered
 (
-nsTimeRanges
+TimeRanges
 *
 aBuffered
 int64_t

@@ -183,7 +183,11 @@ h
 #
 include
 "
-nsTimeRanges
+mozilla
+/
+dom
+/
+TimeRanges
 .
 h
 "
@@ -3027,7 +3031,7 @@ static
 bool
 IsInRanges
 (
-nsTimeRanges
+TimeRanges
 &
 aRanges
 double
@@ -3174,7 +3178,7 @@ value
 "
 )
 ;
-nsTimeRanges
+TimeRanges
 seekable
 ;
 nsresult
@@ -6916,7 +6920,7 @@ MediaDecoder
 :
 GetSeekable
 (
-nsTimeRanges
+TimeRanges
 *
 aSeekable
 )
@@ -7698,7 +7702,7 @@ MediaDecoder
 :
 GetBuffered
 (
-nsTimeRanges
+TimeRanges
 *
 aBuffered
 )

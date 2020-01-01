@@ -234,7 +234,11 @@ h
 #
 include
 "
-nsTimeRanges
+mozilla
+/
+dom
+/
+TimeRanges
 .
 h
 "
@@ -5161,7 +5165,13 @@ of
 time
 played
 .
-nsTimeRanges
+mozilla
+:
+:
+dom
+:
+:
+TimeRanges
 mPlayed
 ;
 /

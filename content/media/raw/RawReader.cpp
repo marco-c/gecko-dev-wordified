@@ -1748,7 +1748,7 @@ RawReader
 :
 GetBuffered
 (
-nsTimeRanges
+TimeRanges
 *
 aBuffered
 int64_t

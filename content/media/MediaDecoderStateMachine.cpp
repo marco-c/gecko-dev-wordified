@@ -161,7 +161,11 @@ h
 #
 include
 "
-nsTimeRanges
+mozilla
+/
+dom
+/
+TimeRanges
 .
 h
 "
@@ -10822,7 +10826,7 @@ such
 a
 lag
 .
-nsTimeRanges
+TimeRanges
 buffered
 ;
 if
@@ -12543,7 +12547,7 @@ work
 "
 )
 ;
-nsTimeRanges
+TimeRanges
 buffered
 ;
 nsresult
@@ -18778,7 +18782,7 @@ MediaDecoderStateMachine
 :
 GetBuffered
 (
-nsTimeRanges
+TimeRanges
 *
 aBuffered
 )

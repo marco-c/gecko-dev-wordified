@@ -171,7 +171,11 @@ engine
 #
 include
 "
-nsTimeRanges
+mozilla
+/
+dom
+/
+TimeRanges
 .
 h
 "
@@ -1910,7 +1914,7 @@ DASHReader
 :
 GetBuffered
 (
-nsTimeRanges
+TimeRanges
 *
 aBuffered
 int64_t
@@ -1934,7 +1938,7 @@ decoder
 =
 nullptr
 ;
-nsTimeRanges
+TimeRanges
 audioBuffered
 videoBuffered
 ;
@@ -2906,7 +2910,7 @@ NS_ERROR_ILLEGAL_VALUE
 /
 API
 for
-nsTimeRanges
+TimeRanges
 requires
 extending
 through

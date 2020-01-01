@@ -146,7 +146,7 @@ ReentrantMonitor
 h
 "
 class
-nsTimeRanges
+TimeRanges
 ;
 namespace
 mozilla

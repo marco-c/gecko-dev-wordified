@@ -73,7 +73,11 @@ h
 #
 include
 "
-nsTimeRanges
+mozilla
+/
+dom
+/
+TimeRanges
 .
 h
 "
@@ -357,7 +361,13 @@ MediaResource
 aStream
 int64_t
 aDurationUsecs
-nsTimeRanges
+mozilla
+:
+:
+dom
+:
+:
+TimeRanges
 *
 aOutBuffered
 )

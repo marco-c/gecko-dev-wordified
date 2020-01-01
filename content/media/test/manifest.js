@@ -3159,7 +3159,7 @@ Returns
 true
 if
 two
-nsTimeRanges
+TimeRanges
 are
 equal
 false
