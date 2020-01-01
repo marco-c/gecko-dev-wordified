@@ -2319,6 +2319,7 @@ nsGkAtoms
 :
 :
 menuBarFrame
+PR_FALSE
 )
 )
 ;
