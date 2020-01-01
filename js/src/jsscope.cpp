@@ -696,6 +696,10 @@ shapeGen
 =
 SHAPE_OVERFLOW_BIT
 ;
+shape
+=
+SHAPE_OVERFLOW_BIT
+;
 js_TriggerGC
 (
 cx
