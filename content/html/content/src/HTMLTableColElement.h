@@ -115,6 +115,13 @@ nsGenericHTMLElement
 .
 h
 "
+#
+include
+"
+nsIDOMHTMLTableColElement
+.
+h
+"
 namespace
 mozilla
 {
@@ -128,7 +135,7 @@ MOZ_FINAL
 public
 nsGenericHTMLElement
 public
-nsIDOMHTMLElement
+nsIDOMHTMLTableColElement
 {
 public
 :
@@ -169,6 +176,10 @@ NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 /
 nsIDOMHTMLElement
 NS_FORWARD_NSIDOMHTMLELEMENT_TO_GENERIC
+/
+/
+nsIDOMHTMLTableColElement
+NS_DECL_NSIDOMHTMLTABLECOLELEMENT
 uint32_t
 Span
 (
