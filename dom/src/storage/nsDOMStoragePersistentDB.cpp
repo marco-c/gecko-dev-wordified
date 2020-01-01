@@ -2434,7 +2434,7 @@ if
 aStorage
 -
 >
-GetQuotaDomainDBKey
+GetQuotaDBKey
 (
 )
 .
@@ -2722,7 +2722,7 @@ if
 aStorage
 -
 >
-GetQuotaDomainDBKey
+GetQuotaDBKey
 (
 )
 .
@@ -3035,7 +3035,7 @@ DomainMaybeCached
 aStorage
 -
 >
-GetQuotaDomainDBKey
+GetQuotaDBKey
 (
 )
 )
@@ -3315,7 +3315,7 @@ subdomainsDBKey
 nsDOMStorageDBWrapper
 :
 :
-CreateDomainScopeDBKey
+CreateReversedDomain
 (
 aOwner
 subdomainsDBKey
@@ -3488,7 +3488,7 @@ GetUsageInternal
 aStorage
 -
 >
-GetQuotaDomainDBKey
+GetQuotaDBKey
 (
 )
 aUsage
@@ -3514,17 +3514,17 @@ nsresult
 rv
 ;
 nsAutoCString
-quotadomainDBKey
+quotaDBKey
 ;
 rv
 =
 nsDOMStorageDBWrapper
 :
 :
-CreateQuotaDomainDBKey
+CreateQuotaDBKey
 (
 aDomain
-quotadomainDBKey
+quotaDBKey
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3536,7 +3536,7 @@ rv
 return
 GetUsageInternal
 (
-quotadomainDBKey
+quotaDBKey
 aUsage
 )
 ;
@@ -3550,7 +3550,7 @@ GetUsageInternal
 const
 nsACString
 &
-aQuotaDomainDBKey
+aQuotaDBKey
 int32_t
 *
 aUsage
@@ -3558,7 +3558,7 @@ aUsage
 {
 if
 (
-aQuotaDomainDBKey
+aQuotaDBKey
 =
 =
 mCachedOwner
@@ -3704,7 +3704,7 @@ stmt
 nsAutoCString
 scopeValue
 (
-aQuotaDomainDBKey
+aQuotaDBKey
 )
 ;
 scopeValue
@@ -3794,7 +3794,7 @@ rv
 if
 (
 !
-aQuotaDomainDBKey
+aQuotaDBKey
 .
 IsEmpty
 (
@@ -3803,7 +3803,7 @@ IsEmpty
 {
 mCachedOwner
 =
-aQuotaDomainDBKey
+aQuotaDBKey
 ;
 mCachedUsage
 =

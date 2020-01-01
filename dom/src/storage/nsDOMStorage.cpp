@@ -1750,7 +1750,7 @@ rv
 nsDOMStorageDBWrapper
 :
 :
-CreateDomainScopeDBKey
+CreateReversedDomain
 (
 aceDomain
 key
@@ -2527,11 +2527,11 @@ aThat
 .
 mScopeDBKey
 )
-mQuotaETLDplus1DomainDBKey
+mQuotaDBKey
 (
 aThat
 .
-mQuotaETLDplus1DomainDBKey
+mQuotaDBKey
 )
 mInPrivateBrowsing
 (
@@ -2775,7 +2775,7 @@ mDomain
 nsDOMStorageDBWrapper
 :
 :
-CreateOriginScopeDBKey
+CreateScopeDBKey
 (
 aDomainURI
 mScopeDBKey
@@ -2848,10 +2848,10 @@ IsEmpty
 nsDOMStorageDBWrapper
 :
 :
-CreateQuotaDomainDBKey
+CreateQuotaDBKey
 (
 mDomain
-mQuotaETLDplus1DomainDBKey
+mQuotaDBKey
 )
 ;
 mStorageType
@@ -3209,7 +3209,7 @@ aScopeDBKey
 const
 nsACString
 &
-aQuotaETLDplus1DomainDBKey
+aQuotaDBKey
 uint32_t
 aStorageType
 )
@@ -3234,9 +3234,9 @@ mScopeDBKey
 =
 aScopeDBKey
 ;
-mQuotaETLDplus1DomainDBKey
+mQuotaDBKey
 =
-aQuotaETLDplus1DomainDBKey
+aQuotaDBKey
 ;
 mStorageType
 =

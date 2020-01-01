@@ -1006,7 +1006,7 @@ nsresult
 nsDOMStorageDBWrapper
 :
 :
-CreateOriginScopeDBKey
+CreateScopeDBKey
 (
 nsIURI
 *
@@ -1021,7 +1021,7 @@ rv
 ;
 rv
 =
-CreateDomainScopeDBKey
+CreateReversedDomain
 (
 aUri
 aKey
@@ -1121,7 +1121,7 @@ nsresult
 nsDOMStorageDBWrapper
 :
 :
-CreateDomainScopeDBKey
+CreateReversedDomain
 (
 nsIURI
 *
@@ -1373,7 +1373,7 @@ rv
 }
 rv
 =
-CreateDomainScopeDBKey
+CreateReversedDomain
 (
 domainScope
 aKey
@@ -1393,7 +1393,7 @@ nsresult
 nsDOMStorageDBWrapper
 :
 :
-CreateDomainScopeDBKey
+CreateReversedDomain
 (
 const
 nsACString
@@ -1438,7 +1438,7 @@ nsresult
 nsDOMStorageDBWrapper
 :
 :
-CreateQuotaDomainDBKey
+CreateQuotaDBKey
 (
 const
 nsACString
@@ -1561,7 +1561,7 @@ rv
 rv
 )
 ;
-CreateDomainScopeDBKey
+CreateReversedDomain
 (
 eTLDplusOne
 subdomainsDBKey

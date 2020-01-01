@@ -289,7 +289,7 @@ aScopeDBKey
 const
 nsCString
 &
-aQuotaETLDplus1DomainDBKey
+aQuotaDBKey
 const
 uint32_t
 &
@@ -306,7 +306,7 @@ aSessionOnly
 aPrivate
 aDomain
 aScopeDBKey
-aQuotaETLDplus1DomainDBKey
+aQuotaDBKey
 aStorageType
 )
 ;

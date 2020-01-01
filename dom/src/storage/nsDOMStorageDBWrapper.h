@@ -894,7 +894,7 @@ a
 storage
 using
 its
-GetQuotaDomainDBKey
+GetQuotaDBKey
 (
 )
 as
@@ -1132,7 +1132,7 @@ number
 /
 static
 nsresult
-CreateOriginScopeDBKey
+CreateScopeDBKey
 (
 nsIURI
 *
@@ -1184,7 +1184,7 @@ dot
 /
 static
 nsresult
-CreateDomainScopeDBKey
+CreateReversedDomain
 (
 nsIURI
 *
@@ -1196,7 +1196,7 @@ aKey
 ;
 static
 nsresult
-CreateDomainScopeDBKey
+CreateReversedDomain
 (
 const
 nsACString
@@ -1251,7 +1251,7 @@ dot
 /
 static
 nsresult
-CreateQuotaDomainDBKey
+CreateQuotaDBKey
 (
 const
 nsACString

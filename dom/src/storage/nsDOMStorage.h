@@ -940,12 +940,12 @@ domain
 .
 nsCString
 &
-GetQuotaDomainDBKey
+GetQuotaDBKey
 (
 )
 {
 return
-mQuotaETLDplus1DomainDBKey
+mQuotaDBKey
 ;
 }
 virtual
@@ -1078,7 +1078,7 @@ nsCString
 mScopeDBKey
 ;
 nsCString
-mQuotaETLDplus1DomainDBKey
+mQuotaDBKey
 ;
 bool
 mInPrivateBrowsing
@@ -1538,7 +1538,7 @@ aScopeDBKey
 const
 nsACString
 &
-aQuotaETLDplus1DomainDBKey
+aQuotaDBKey
 uint32_t
 aStorageType
 )

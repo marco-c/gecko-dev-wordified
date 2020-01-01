@@ -496,7 +496,7 @@ a
 storage
 using
 its
-GetQuotaDomainDBKey
+GetQuotaDBKey
 (
 )
 as
@@ -797,7 +797,7 @@ GetUsageInternal
 const
 nsACString
 &
-aQuotaDomainDBKey
+aQuotaDBKey
 int32_t
 *
 aUsage

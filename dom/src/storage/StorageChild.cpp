@@ -472,7 +472,7 @@ mSessionOnly
 mInPrivateBrowsing
 mDomain
 mScopeDBKey
-mQuotaETLDplus1DomainDBKey
+mQuotaDBKey
 mStorageType
 )
 ;
@@ -1213,7 +1213,7 @@ mSessionOnly
 mInPrivateBrowsing
 mDomain
 mScopeDBKey
-mQuotaETLDplus1DomainDBKey
+mQuotaDBKey
 mStorageType
 )
 ;

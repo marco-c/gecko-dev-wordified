@@ -394,7 +394,7 @@ aScopeDBKey
 const
 nsCString
 &
-aQuotaETLDplus1DomainDBKey
+aQuotaDBKey
 const
 uint32_t
 &
