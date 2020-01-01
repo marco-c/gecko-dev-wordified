@@ -319,9 +319,6 @@ static
 bool
 SendRilRawData
 (
-unsigned
-long
-aClientId
 ipc
 :
 :
@@ -379,8 +376,6 @@ nsIWorkerHolder
 >
 mWifiWorker
 ;
-nsTArray
-<
 nsRefPtr
 <
 ipc
@@ -388,8 +383,7 @@ ipc
 :
 RilConsumer
 >
->
-mRilConsumers
+mRilConsumer
 ;
 bool
 mShutdown

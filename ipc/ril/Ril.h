@@ -164,9 +164,6 @@ public
 :
 RilConsumer
 (
-unsigned
-long
-aClientId
 mozilla
 :
 :
@@ -241,13 +238,6 @@ workers
 WorkerCrossThreadDispatcher
 >
 mDispatcher
-;
-unsigned
-long
-mClientId
-;
-nsCString
-mAddress
 ;
 bool
 mShutdown
