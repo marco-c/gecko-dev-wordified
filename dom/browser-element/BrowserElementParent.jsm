@@ -805,6 +805,13 @@ this
 .
 _fireEventFromMsg
 "
+resize
+"
+:
+this
+.
+_fireEventFromMsg
+"
 opensearch
 "
 :
