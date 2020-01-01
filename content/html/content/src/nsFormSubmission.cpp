@@ -676,15 +676,6 @@ eFORMS_PROPERTIES
 aWarningName
 aWarningArgs
 aWarningArgsLen
-aDocument
-?
-aDocument
--
->
-GetDocumentURI
-(
-)
-:
 nsnull
 EmptyString
 (
@@ -698,6 +689,7 @@ warningFlag
 "
 HTML
 "
+aDocument
 )
 ;
 }

@@ -1645,19 +1645,7 @@ eDOM_PROPERTIES
 aWarning
 nsnull
 0
-static_cast
-<
-nsIDocument
-*
->
-(
-aDoc
-)
--
->
-GetDocumentURI
-(
-)
+nsnull
 EmptyString
 (
 )
@@ -1671,6 +1659,7 @@ warningFlag
 DOM
 Events
 "
+aDoc
 )
 ;
 }
@@ -12189,6 +12178,7 @@ warningFlag
 DOM
 Events
 "
+this
 )
 ;
 return
@@ -12279,6 +12269,7 @@ warningFlag
 DOM
 Events
 "
+this
 )
 ;
 return

@@ -1590,7 +1590,7 @@ NS_ARRAY_LENGTH
 (
 params
 )
-mDocumentURI
+nsnull
 EmptyString
 (
 )
@@ -1617,6 +1617,7 @@ XBL
 Content
 Sink
 "
+mDocument
 )
 ;
 }
@@ -4130,7 +4131,7 @@ CommandNotInChrome
 "
 nsnull
 0
-mDocumentURI
+nsnull
 EmptyString
 (
 )
@@ -4157,6 +4158,7 @@ XBL
 Content
 Sink
 "
+mDocument
 )
 ;
 return

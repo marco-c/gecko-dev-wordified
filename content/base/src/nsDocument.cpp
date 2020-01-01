@@ -21101,9 +21101,6 @@ this
 )
 ;
 }
-/
-/
-static
 void
 nsDocument
 :
@@ -21139,6 +21136,7 @@ warningFlag
 "
 DOM
 "
+this
 )
 ;
 }
@@ -27135,19 +27133,7 @@ UseOfGetBoxObjectForWarning
 "
 nsnull
 0
-static_cast
-<
-nsIDocument
-*
->
-(
-this
-)
--
->
-GetDocumentURI
-(
-)
+nsnull
 EmptyString
 (
 )
@@ -27160,6 +27146,7 @@ warningFlag
 "
 BoxObjects
 "
+this
 )
 ;
 }

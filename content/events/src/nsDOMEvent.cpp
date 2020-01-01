@@ -2604,15 +2604,6 @@ NS_ARRAY_LENGTH
 (
 strings
 )
-doc
-?
-doc
--
->
-GetDocumentURI
-(
-)
-:
 nsnull
 EmptyString
 (
@@ -2627,6 +2618,7 @@ warningFlag
 DOM
 Events
 "
+doc
 )
 ;
 }

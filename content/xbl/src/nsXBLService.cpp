@@ -1059,12 +1059,7 @@ NS_ARRAY_LENGTH
 (
 params
 )
-aDocument
--
->
-GetDocumentURI
-(
-)
+nsnull
 EmptyString
 (
 )
@@ -1077,6 +1072,7 @@ warningFlag
 "
 XBL
 "
+aDocument
 )
 ;
 return
@@ -6221,12 +6217,7 @@ NS_ARRAY_LENGTH
 (
 params
 )
-doc
--
->
-GetDocumentURI
-(
-)
+nsnull
 EmptyString
 (
 )
@@ -6239,6 +6230,7 @@ errorFlag
 "
 XBL
 "
+doc
 )
 ;
 NS_ASSERTION
@@ -6461,12 +6453,7 @@ NS_ARRAY_LENGTH
 (
 params
 )
-boundDocument
--
->
-GetDocumentURI
-(
-)
+nsnull
 EmptyString
 (
 )
@@ -6479,6 +6466,7 @@ warningFlag
 "
 XBL
 "
+boundDocument
 )
 ;
 return

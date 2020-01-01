@@ -62328,12 +62328,7 @@ NS_ARRAY_LENGTH
 (
 params
 )
-mDocument
--
->
-GetDocumentURI
-(
-)
+nsnull
 EmptyString
 (
 )
@@ -62350,6 +62345,7 @@ warningFlag
 "
 FrameConstructor
 "
+mDocument
 )
 ;
 nsRefPtr

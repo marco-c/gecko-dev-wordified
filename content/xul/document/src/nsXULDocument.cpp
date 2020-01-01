@@ -20215,7 +20215,7 @@ NS_ARRAY_LENGTH
 (
 params
 )
-mDocumentURI
+nsnull
 EmptyString
 (
 )
@@ -20247,6 +20247,7 @@ warningFlag
 XUL
 Document
 "
+this
 )
 ;
 }

@@ -5366,7 +5366,6 @@ otherwise
 .
 *
 /
-static
 inline
 PRBool
 CheckGetElementByIdArg
@@ -5398,7 +5397,6 @@ return
 PR_TRUE
 ;
 }
-static
 void
 ReportEmptyGetElementByIdArg
 (
