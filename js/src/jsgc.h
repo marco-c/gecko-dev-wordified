@@ -8192,11 +8192,12 @@ key
 uint64_t
 bits
 =
-key
-.
-asRawBits
+JSVAL_TO_IMPL
 (
+key
 )
+.
+asBits
 ;
 return
 uint32_t

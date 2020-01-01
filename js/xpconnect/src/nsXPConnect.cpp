@@ -17208,11 +17208,12 @@ n
 long
 long
 )
-val
-.
-asRawBits
+JSVAL_TO_IMPL
 (
+val
 )
+.
+asBits
 )
 ;
 if
