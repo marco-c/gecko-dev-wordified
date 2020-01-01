@@ -78,13 +78,9 @@ GLUT
 .
 *
 /
-/
-*
 #
-undef
+define
 HAVE_GLUT
-*
-/
 /
 *
 Define
@@ -601,3 +597,6 @@ undef
 const
 *
 /
+#
+undef
+HAVE_GLUT
