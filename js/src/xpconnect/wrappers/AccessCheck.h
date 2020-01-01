@@ -522,7 +522,7 @@ JSContext
 cx
 JSObject
 *
-obj
+wrapper
 )
 ;
 static

@@ -460,6 +460,13 @@ h
 #
 include
 "
+WrapperFactory
+.
+h
+"
+#
+include
+"
 XPCWrapper
 .
 h
@@ -1202,7 +1209,10 @@ XOW
 :
 singleton
 (
-0
+WrapperFactory
+:
+:
+SCRIPT_ACCESS_ONLY_FLAG
 )
 ;
 template
@@ -1214,7 +1224,10 @@ NNXOW
 :
 singleton
 (
-0
+WrapperFactory
+:
+:
+SCRIPT_ACCESS_ONLY_FLAG
 )
 ;
 template

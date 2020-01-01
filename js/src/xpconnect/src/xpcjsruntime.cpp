@@ -679,6 +679,12 @@ __exposedProps__
 /
 /
 IDX_EXPOSEDPROPS
+"
+__scriptOnly__
+"
+/
+/
+IDX_SCRIPTONLY
 }
 ;
 /
