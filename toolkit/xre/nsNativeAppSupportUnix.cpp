@@ -1610,6 +1610,10 @@ GetMostRecentWindow
 EmptyString
 (
 )
+.
+get
+(
+)
 getter_AddRefs
 (
 window
