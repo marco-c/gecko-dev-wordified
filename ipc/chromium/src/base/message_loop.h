@@ -3353,6 +3353,9 @@ RunState
 *
 state_
 ;
+int
+run_depth_base_
+;
 #
 if
 defined
