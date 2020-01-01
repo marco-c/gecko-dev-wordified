@@ -28072,9 +28072,9 @@ nsContentUtils
 :
 IsNamedItem
 (
-nsIContent
+Element
 *
-aContent
+aElement
 )
 {
 /
@@ -28138,7 +28138,7 @@ nsGenericHTMLElement
 :
 FromContent
 (
-aContent
+aElement
 )
 ;
 if
