@@ -1791,9 +1791,7 @@ aType
 .
 AssignLiteral
 (
-"
-Unknown
-"
+DEVICESTORAGE_SDCARD
 )
 ;
 nsString
