@@ -7125,7 +7125,7 @@ work
 *
 /
 void
-ForcePluginGeometryUpdate
+SynchronousPluginGeometryUpdate
 (
 )
 ;
