@@ -4298,10 +4298,7 @@ frame
 TimeStamp
 mLastAsyncScrollTime
 ;
-gfx
-:
-:
-Point
+CSSPoint
 mLastAsyncScrollOffset
 ;
 /
@@ -4329,10 +4326,7 @@ for
 mozbrowserasyncscroll
 event
 .
-gfx
-:
-:
-Point
+CSSPoint
 mCurrentAsyncScrollOffset
 ;
 /
