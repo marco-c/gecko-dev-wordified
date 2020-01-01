@@ -574,7 +574,7 @@ signonsIntro
 "
 )
 .
-value
+textContent
 =
 kSignonBundle
 .
@@ -2112,7 +2112,7 @@ signonsIntro
 "
 )
 .
-value
+textContent
 =
 kSignonBundle
 .
@@ -2586,7 +2586,7 @@ signonsIntro
 "
 )
 .
-value
+textContent
 =
 kSignonBundle
 .
