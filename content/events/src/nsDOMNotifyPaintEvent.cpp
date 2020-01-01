@@ -524,7 +524,7 @@ nsDOMNotifyPaintEvent
 :
 GetPaintRequests
 (
-nsIDOMPaintRequestList
+nsISupports
 *
 *
 aResult
