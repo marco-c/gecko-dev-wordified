@@ -36479,6 +36479,7 @@ mContentViewer
 >
 PermitUnload
 (
+PR_FALSE
 &
 okToUnload
 )
@@ -47709,6 +47710,7 @@ mContentViewer
 >
 PermitUnload
 (
+PR_FALSE
 &
 okToUnload
 )
