@@ -2541,6 +2541,12 @@ numSlots
 =
 i
 ;
+PK11_FreeSlotListElement
+(
+slotList
+slotElement
+)
+;
 rv
 =
 NS_ERROR_OUT_OF_MEMORY
@@ -2733,6 +2739,12 @@ slotElement
 -
 >
 slot
+;
+PK11_FreeSlotListElement
+(
+slotList
+slotElement
+)
 ;
 break
 ;
