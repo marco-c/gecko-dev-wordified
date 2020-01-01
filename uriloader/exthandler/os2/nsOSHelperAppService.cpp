@@ -10218,7 +10218,7 @@ eProtocolInfo
 NS_ENSURE_TRUE
 (
 handlerInfo
-nsnull
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 NS_ADDREF
