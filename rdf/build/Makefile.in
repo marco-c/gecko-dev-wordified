@@ -523,6 +523,8 @@ util
 /
 src
 /
+internal
+/
 (
 LIB_PREFIX
 )
