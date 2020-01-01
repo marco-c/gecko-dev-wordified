@@ -2075,6 +2075,16 @@ valueNumber_
 ;
 }
 void
+clearValueNumberData
+(
+)
+{
+valueNumber_
+=
+NULL
+;
+}
+void
 setValueNumberData
 (
 ValueNumberData

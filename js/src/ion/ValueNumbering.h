@@ -466,6 +466,11 @@ analyze
 (
 )
 ;
+bool
+clear
+(
+)
+;
 }
 ;
 class
