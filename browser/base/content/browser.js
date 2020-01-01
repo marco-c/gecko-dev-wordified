@@ -34498,9 +34498,14 @@ to
 be
 precise
 by
-tab
--
+half
+the
 height
+/
+/
+of
+a
+tab
 )
 if
 (
@@ -34521,6 +34526,8 @@ dragData
 boxObject
 .
 height
+/
+2
 )
 {
 gBrowser
