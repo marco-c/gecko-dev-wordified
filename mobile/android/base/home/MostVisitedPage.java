@@ -598,6 +598,15 @@ list
 ;
 mList
 .
+setTag
+(
+HomePager
+.
+LIST_TAG_MOST_VISITED
+)
+;
+mList
+.
 setOnItemClickListener
 (
 new
