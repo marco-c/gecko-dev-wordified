@@ -3148,8 +3148,6 @@ execute
 key
 binding
 !
-\
-n
 "
 )
 ;

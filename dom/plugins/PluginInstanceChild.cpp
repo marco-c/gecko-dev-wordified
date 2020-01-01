@@ -3745,8 +3745,6 @@ NS_ERROR
 Invalid
 IOSurface
 .
-\
-n
 "
 )
 ;

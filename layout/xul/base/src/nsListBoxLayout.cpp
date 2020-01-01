@@ -1208,8 +1208,6 @@ t
 a
 listboxbody
 !
-\
-n
 "
 )
 ;

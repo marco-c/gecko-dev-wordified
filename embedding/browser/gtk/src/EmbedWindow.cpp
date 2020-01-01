@@ -2122,8 +2122,6 @@ window
 in
 hierarchy
 !
-\
-n
 "
 )
 ;

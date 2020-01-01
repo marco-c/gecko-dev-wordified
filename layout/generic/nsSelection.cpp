@@ -4164,8 +4164,6 @@ fetch
 desired
 X
 failed
-\
-n
 "
 )
 ;
