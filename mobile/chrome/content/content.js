@@ -6741,6 +6741,11 @@ if
 selection
 .
 rangeCount
+|
+|
+selection
+.
+isCollapsed
 )
 {
 /
@@ -6840,6 +6845,12 @@ if
 selection
 .
 rangeCount
+&
+&
+!
+selection
+.
+isCollapsed
 )
 break
 ;
