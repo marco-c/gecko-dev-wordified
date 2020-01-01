@@ -12174,6 +12174,17 @@ isArrayBuffer
 (
 )
 ;
+case
+ESClass_Date
+:
+return
+obj
+-
+>
+isDate
+(
+)
+;
 }
 JS_NOT_REACHED
 (
