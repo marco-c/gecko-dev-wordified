@@ -10545,13 +10545,13 @@ BeginUpdate
 (
 )
 ;
+rootFrame
+=
 mFrameConstructor
 -
 >
 ConstructRootFrame
 (
-&
-rootFrame
 )
 ;
 mFrameConstructor
