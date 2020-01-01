@@ -617,7 +617,6 @@ item
 insertItemAt
 :
 function
-BCW_insertItemAt
 (
 aIndex
 aContents
@@ -707,7 +706,6 @@ item
 getItemAtIndex
 :
 function
-BCW_getItemAtIndex
 (
 aIndex
 )
@@ -755,7 +753,6 @@ item
 removeChild
 :
 function
-BCW_removeChild
 (
 aChild
 )
@@ -806,7 +803,6 @@ container
 removeAllItems
 :
 function
-BCW_removeAllItems
 (
 )
 {
@@ -1054,7 +1050,6 @@ container
 _onUnderflow
 :
 function
-BCW__onUnderflow
 (
 {
 target
@@ -1119,7 +1114,6 @@ container
 _onOverflow
 :
 function
-BCW__onOverflow
 (
 {
 target

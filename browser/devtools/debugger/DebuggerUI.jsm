@@ -352,7 +352,6 @@ tabs
 listenToTabs
 :
 function
-DUI_listenToTabs
 (
 )
 {
@@ -460,7 +459,6 @@ state
 refreshCommand
 :
 function
-DUI_refreshCommand
 (
 )
 {
@@ -588,7 +586,6 @@ stopped
 toggleDebugger
 :
 function
-DUI_toggleDebugger
 (
 )
 {
@@ -680,7 +677,6 @@ stopped
 toggleRemoteDebugger
 :
 function
-DUI_toggleRemoteDebugger
 (
 )
 {
@@ -760,7 +756,6 @@ stopped
 toggleChromeDebugger
 :
 function
-DUI_toggleChromeDebugger
 (
 aOnClose
 aOnRun
@@ -836,7 +831,6 @@ otherwise
 findDebugger
 :
 function
-DUI_findDebugger
 (
 )
 {
@@ -938,7 +932,6 @@ otherwise
 getDebugger
 :
 function
-DUI_getDebugger
 (
 )
 {
@@ -992,7 +985,6 @@ otherwise
 getRemoteDebugger
 :
 function
-DUI_getRemoteDebugger
 (
 )
 {
@@ -1046,7 +1038,6 @@ otherwise
 getChromeDebugger
 :
 function
-DUI_getChromeDebugger
 (
 )
 {
@@ -1109,6 +1100,10 @@ debugger
 .
 *
 /
+this
+.
+DebuggerPane
+=
 function
 DebuggerPane
 (
@@ -1181,7 +1176,6 @@ server
 _initServer
 :
 function
-DP__initServer
 (
 )
 {
@@ -1226,7 +1220,6 @@ UI
 _create
 :
 function
-DP__create
 (
 )
 {
@@ -1512,7 +1505,6 @@ closes
 close
 :
 function
-DP_close
 (
 aCloseCallback
 )
@@ -1848,6 +1840,10 @@ debugger
 .
 *
 /
+this
+.
+RemoteDebuggerWindow
+=
 function
 RemoteDebuggerWindow
 (
@@ -1913,7 +1909,6 @@ UI
 _create
 :
 function
-DP__create
 (
 )
 {
@@ -2096,7 +2091,6 @@ necessary
 close
 :
 function
-DP_close
 (
 )
 {
@@ -2313,6 +2307,10 @@ running
 .
 *
 /
+this
+.
+ChromeDebuggerProcess
+=
 function
 ChromeDebuggerProcess
 (
@@ -2385,7 +2383,6 @@ server
 _initServer
 :
 function
-RDP__initServer
 (
 )
 {
@@ -2438,7 +2435,6 @@ process
 _initProfile
 :
 function
-RDP__initProfile
 (
 )
 {
@@ -2740,7 +2736,6 @@ debugger
 _create
 :
 function
-RDP__create
 (
 )
 {
@@ -2922,7 +2917,6 @@ process
 close
 :
 function
-RDP_close
 (
 )
 {
@@ -3092,7 +3086,6 @@ string
 getStr
 :
 function
-L10N_getStr
 (
 aName
 )

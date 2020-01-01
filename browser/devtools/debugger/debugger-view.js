@@ -325,7 +325,6 @@ initializing
 initialize
 :
 function
-DV_initialize
 (
 aCallback
 )
@@ -553,7 +552,6 @@ destroying
 destroy
 :
 function
-DV_destroy
 (
 aCallback
 )
@@ -686,7 +684,6 @@ window
 _initializeWindow
 :
 function
-DV__initializeWindow
 (
 )
 {
@@ -799,7 +796,6 @@ window
 _destroyWindow
 :
 function
-DV__destroyWindow
 (
 )
 {
@@ -877,7 +873,6 @@ panes
 _initializePanes
 :
 function
-DV__initializePanes
 (
 )
 {
@@ -1024,7 +1019,6 @@ panes
 _destroyPanes
 :
 function
-DV__destroyPanes
 (
 )
 {
@@ -1114,7 +1108,6 @@ initializing
 _initializeEditor
 :
 function
-DV__initializeEditor
 (
 aCallback
 )
@@ -1183,9 +1176,10 @@ init
 (
 placeholder
 config
-function
 (
 )
+=
+>
 {
 this
 .
@@ -1211,11 +1205,6 @@ aCallback
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }
@@ -1246,7 +1235,6 @@ operations
 _onEditorLoad
 :
 function
-DV__onEditorLoad
 (
 )
 {
@@ -1317,7 +1305,6 @@ operations
 _destroyEditor
 :
 function
-DV__destroyEditor
 (
 )
 {
@@ -1429,7 +1416,6 @@ content
 setEditorMode
 :
 function
-DV_setEditorMode
 (
 aUrl
 aContentType
@@ -2273,7 +2259,6 @@ line
 updateEditor
 :
 function
-DV_updateEditor
 (
 aUrl
 aLine
@@ -2700,7 +2685,6 @@ text
 getEditorLine
 :
 function
-DV_getEditorLine
 (
 aLine
 )
@@ -2787,7 +2771,6 @@ text
 getEditorSelection
 :
 function
-DV_getEditorSelection
 (
 )
 {
@@ -2933,7 +2916,6 @@ finishes
 toggleInstrumentsPane
 :
 function
-DV__toggleInstrumentsPane
 (
 aFlags
 )
@@ -3056,7 +3038,6 @@ finishes
 showInstrumentsPane
 :
 function
-DV__showInstrumentsPane
 (
 aCallback
 )
@@ -3104,7 +3085,6 @@ client
 _handleTabNavigation
 :
 function
-DV__handleTabNavigation
 (
 )
 {
@@ -3682,7 +3662,6 @@ item
 insertItemAt
 :
 function
-DVSL_insertItemAt
 (
 aIndex
 aLabel
@@ -3812,7 +3791,6 @@ item
 getItemAtIndex
 :
 function
-DVSL_getItemAtIndex
 (
 aIndex
 )
@@ -3861,7 +3839,6 @@ item
 removeChild
 :
 function
-DVSL__removeChild
 (
 aChild
 )
@@ -3932,7 +3909,6 @@ container
 removeAllItems
 :
 function
-DVSL_removeAllItems
 (
 )
 {
@@ -4268,7 +4244,6 @@ header
 _appendPermaNotice
 :
 function
-DVSL__appendPermaNotice
 (
 )
 {
@@ -4365,7 +4340,6 @@ empty
 _appendEmptyNotice
 :
 function
-DVSL__appendEmptyNotice
 (
 )
 {
@@ -4457,7 +4431,6 @@ empty
 _removeEmptyNotice
 :
 function
-DVSL__removeEmptyNotice
 (
 )
 {
@@ -5099,7 +5072,6 @@ it
 clearView
 :
 function
-RPC_clearView
 (
 )
 {
@@ -5148,7 +5120,6 @@ container
 focusNext
 :
 function
-RPC_focusNext
 (
 )
 {
@@ -5207,7 +5178,6 @@ container
 focusPrev
 :
 function
-RPC_focusPrev
 (
 )
 {
@@ -5283,7 +5253,6 @@ select
 select
 :
 function
-RPC_select
 (
 aItem
 )
@@ -5743,7 +5712,6 @@ request
 show
 :
 function
-RDP_show
 (
 aIsReconnectingFlag
 )

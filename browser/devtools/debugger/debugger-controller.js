@@ -118,25 +118,19 @@ strict
 "
 ;
 const
-Cc
-=
-Components
-.
+{
 classes
-;
-const
-Ci
-=
-Components
-.
+:
+Cc
 interfaces
-;
-const
+:
+Ci
+utils
+:
 Cu
+}
 =
 Components
-.
-utils
 ;
 const
 DBG_STRINGS_URI
@@ -514,7 +508,6 @@ controller
 initialize
 :
 function
-DC_initialize
 (
 )
 {
@@ -665,7 +658,6 @@ startup
 startupDebugger
 :
 function
-DC_startupDebugger
 (
 )
 {
@@ -819,7 +811,6 @@ shutdown
 shutdownDebugger
 :
 function
-DC__shutdownDebugger
 (
 )
 {
@@ -1025,7 +1016,6 @@ connecting
 connect
 :
 function
-DC_connect
 (
 )
 {
@@ -1285,7 +1275,6 @@ necessary
 disconnect
 :
 function
-DC_disconnect
 (
 )
 {
@@ -1438,7 +1427,6 @@ server
 _onTabNavigated
 :
 function
-DC__onTabNavigated
 (
 aType
 aPacket
@@ -1537,7 +1525,6 @@ closed
 _onTabDetached
 :
 function
-DC__onTabDetached
 (
 )
 {
@@ -1604,7 +1591,6 @@ thread
 _startDebuggingTab
 :
 function
-DC__startDebuggingTab
 (
 aClient
 aThreadActor
@@ -1756,7 +1742,6 @@ error
 _ensureResumptionOrder
 :
 function
-DC__ensureResumptionOrder
 (
 aResponse
 )
@@ -1844,7 +1829,6 @@ thread
 _startChromeDebugging
 :
 function
-DC__startChromeDebugging
 (
 aClient
 aChromeDebugger
@@ -2007,7 +1991,6 @@ again
 reconfigureThread
 :
 function
-DC_reconfigureThread
 (
 aUseSourceMaps
 )
@@ -2140,7 +2123,6 @@ allowed
 _quitApp
 :
 function
-DC__quitApp
 (
 )
 {
@@ -2317,7 +2299,6 @@ client
 connect
 :
 function
-TS_connect
 (
 )
 {
@@ -2393,7 +2374,6 @@ client
 disconnect
 :
 function
-TS_disconnect
 (
 )
 {
@@ -2471,7 +2451,6 @@ client
 _handleTabNavigation
 :
 function
-TS__handleTabNavigation
 (
 )
 {
@@ -2523,7 +2502,6 @@ change
 _update
 :
 function
-TS__update
 (
 aEvent
 )
@@ -2783,7 +2761,6 @@ client
 connect
 :
 function
-SF_connect
 (
 )
 {
@@ -2876,7 +2853,6 @@ client
 disconnect
 :
 function
-SF_disconnect
 (
 )
 {
@@ -2982,7 +2958,6 @@ client
 _handleTabNavigation
 :
 function
-SF__handleTabNavigation
 (
 )
 {
@@ -3055,7 +3030,6 @@ packet
 _onPaused
 :
 function
-SF__onPaused
 (
 aEvent
 aPacket
@@ -3196,7 +3170,6 @@ notification
 _onResumed
 :
 function
-SF__onResumed
 (
 )
 {
@@ -3260,7 +3233,6 @@ notification
 _onFrames
 :
 function
-SF__onFrames
 (
 )
 {
@@ -3834,7 +3806,6 @@ notification
 _onFramesCleared
 :
 function
-SF__onFramesCleared
 (
 )
 {
@@ -3962,7 +3933,6 @@ notification
 _afterFramesCleared
 :
 function
-SF__afterFramesCleared
 (
 )
 {
@@ -4081,7 +4051,6 @@ stack
 selectFrame
 :
 function
-SF_selectFrame
 (
 aDepth
 )
@@ -4654,7 +4623,6 @@ environment
 _addScopeExpander
 :
 function
-SF__addScopeExpander
 (
 aScope
 aEnv
@@ -4771,7 +4739,6 @@ variable
 _addVarExpander
 :
 function
-SF__addVarExpander
 (
 aVar
 aGrip
@@ -4950,7 +4917,6 @@ results
 _fetchWatchExpressions
 :
 function
-SF__fetchWatchExpressions
 (
 aScope
 aExp
@@ -5002,10 +4968,11 @@ aExp
 .
 getPrototypeAndProperties
 (
-function
 (
 aResponse
 )
+=
+>
 {
 let
 ownProperties
@@ -5159,11 +5126,6 @@ commitHierarchy
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }
@@ -5219,7 +5181,6 @@ into
 _fetchScopeVariables
 :
 function
-SF__fetchScopeVariables
 (
 aScope
 )
@@ -5295,10 +5256,11 @@ object
 .
 getPrototypeAndProperties
 (
-function
 (
 aResponse
 )
+=
+>
 {
 let
 {
@@ -5354,11 +5316,6 @@ commitHierarchy
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 break
@@ -5522,7 +5479,6 @@ from
 _insertScopeFrameReferences
 :
 function
-SF__insertScopeFrameReferences
 (
 aScope
 aFrame
@@ -5669,7 +5625,6 @@ into
 _insertScopeArguments
 :
 function
-SF__insertScopeArguments
 (
 aArguments
 aScope
@@ -5789,7 +5744,6 @@ into
 _insertScopeVariables
 :
 function
-SF__insertScopeVariables
 (
 aVariables
 aScope
@@ -5947,7 +5901,6 @@ into
 _fetchVarProperties
 :
 function
-SF__fetchVarProperties
 (
 aVar
 )
@@ -5994,10 +5947,11 @@ grip
 .
 getPrototypeAndProperties
 (
-function
 (
 aResponse
 )
+=
+>
 {
 let
 {
@@ -6204,11 +6158,6 @@ commitHierarchy
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }
@@ -6286,7 +6235,6 @@ object
 _mergeSafeGetterValues
 :
 function
-SF__mergeSafeGetterValues
 (
 aOwnProperties
 aSafeGetterValues
@@ -6407,7 +6355,6 @@ add
 _addFrame
 :
 function
-SF__addFrame
 (
 aFrame
 )
@@ -6484,7 +6431,6 @@ cache
 addMoreFrames
 :
 function
-SF_addMoreFrames
 (
 )
 {
@@ -6527,7 +6473,6 @@ pause
 syncWatchExpressions
 :
 function
-SF_syncWatchExpressions
 (
 )
 {
@@ -6935,7 +6880,6 @@ evaluation
 evaluate
 :
 function
-SF_evaluate
 (
 aExpression
 aFrame
@@ -7146,7 +7090,6 @@ client
 connect
 :
 function
-SS_connect
 (
 )
 {
@@ -7211,7 +7154,6 @@ client
 disconnect
 :
 function
-SS_disconnect
 (
 )
 {
@@ -7298,7 +7240,6 @@ client
 _handleTabNavigation
 :
 function
-SS__handleTabNavigation
 (
 )
 {
@@ -7393,7 +7334,6 @@ notification
 _onNewGlobal
 :
 function
-SS__onNewGlobal
 (
 aNotification
 aPacket
@@ -7440,7 +7380,6 @@ notification
 _onNewSource
 :
 function
-SS__onNewSource
 (
 aNotification
 aPacket
@@ -7733,7 +7672,6 @@ method
 _onSourcesAdded
 :
 function
-SS__onSourcesAdded
 (
 aResponse
 )
@@ -8071,7 +8009,6 @@ fetch
 getText
 :
 function
-SS_getText
 (
 aSource
 aCallback
@@ -8295,7 +8232,6 @@ sources
 getCache
 :
 function
-SS_getCache
 (
 )
 {
@@ -8361,7 +8297,6 @@ cache
 clearCache
 :
 function
-SS_clearCache
 (
 )
 {
@@ -8457,7 +8392,6 @@ fetched
 fetchSources
 :
 function
-SS_fetchSources
 (
 aUrls
 aCallbacks
@@ -8655,7 +8589,6 @@ thread
 _onFetch
 :
 function
-SS__onFetch
 (
 aSource
 )
@@ -8861,7 +8794,6 @@ thread
 _onTimeout
 :
 function
-SS__onTimeout
 (
 aSource
 )
@@ -8973,7 +8905,6 @@ fetched
 _onFinished
 :
 function
-SS__onFinished
 (
 )
 {
@@ -9312,7 +9243,6 @@ handlers
 initialize
 :
 function
-BP_initialize
 (
 )
 {
@@ -9354,7 +9284,6 @@ breakpoints
 destroy
 :
 function
-BP_destroy
 (
 )
 {
@@ -9444,7 +9373,6 @@ object
 _onEditorBreakpointChange
 :
 function
-BP__onEditorBreakpointChange
 (
 aEvent
 )
@@ -9530,7 +9458,6 @@ editor
 _onEditorBreakpointAdd
 :
 function
-BP__onEditorBreakpointAdd
 (
 aEditorBreakpoint
 )
@@ -9565,10 +9492,11 @@ line
 :
 line
 }
-function
 (
 aBreakpointClient
 )
+=
+>
 {
 /
 /
@@ -9648,11 +9576,6 @@ line
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 }
@@ -9692,7 +9615,6 @@ editor
 _onEditorBreakpointRemove
 :
 function
-BP__onEditorBreakpointRemove
 (
 aEditorBreakpoint
 )
@@ -9777,7 +9699,6 @@ changed
 updateEditorBreakpoints
 :
 function
-BP_updateEditorBreakpoints
 (
 )
 {
@@ -9872,7 +9793,6 @@ added
 updatePaneBreakpoints
 :
 function
-BP_updatePaneBreakpoints
 (
 )
 {
@@ -10104,7 +10024,6 @@ breakpoint
 addBreakpoint
 :
 function
-BP_addBreakpoint
 (
 aLocation
 aCallback
@@ -10163,11 +10082,12 @@ activeThread
 setBreakpoint
 (
 aLocation
-function
 (
 aResponse
 aBreakpointClient
 )
+=
+>
 {
 let
 {
@@ -10481,11 +10401,6 @@ error
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }
@@ -10567,7 +10482,6 @@ addBreakpoint
 removeBreakpoint
 :
 function
-BP_removeBreakpoint
 (
 aBreakpointClient
 aCallback
@@ -10629,9 +10543,10 @@ aBreakpointClient
 .
 remove
 (
-function
 (
 )
+=
+>
 {
 /
 /
@@ -10690,11 +10605,6 @@ location
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }
@@ -10746,7 +10656,6 @@ addBreakpoint
 _showBreakpoint
 :
 function
-BP__showBreakpoint
 (
 aBreakpointClient
 aFlags
@@ -10952,7 +10861,6 @@ addBreakpoint
 _hideBreakpoint
 :
 function
-BP__hideBreakpoint
 (
 aBreakpointClient
 aFlags
@@ -11111,7 +11019,6 @@ object
 getBreakpoint
 :
 function
-BP_getBreakpoint
 (
 aUrl
 aLine

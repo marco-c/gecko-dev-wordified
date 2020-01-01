@@ -392,7 +392,6 @@ started
 initialize
 :
 function
-DVS_initialize
 (
 )
 {
@@ -707,7 +706,6 @@ closed
 destroy
 :
 function
-DVS_destroy
 (
 )
 {
@@ -1003,7 +1001,6 @@ added
 addSource
 :
 function
-DVS_addSource
 (
 aSource
 aOptions
@@ -1221,7 +1218,6 @@ shown
 addBreakpoint
 :
 function
-DVS_addBreakpoint
 (
 aOptions
 )
@@ -1547,7 +1543,6 @@ number
 removeBreakpoint
 :
 function
-DVS_removeBreakpoint
 (
 aSourceLocation
 aLineNumber
@@ -1693,7 +1688,6 @@ otherwise
 getBreakpoint
 :
 function
-DVS_getBreakpoint
 (
 aSourceLocation
 aLineNumber
@@ -1852,7 +1846,6 @@ otherwise
 enableBreakpoint
 :
 function
-DVS_enableBreakpoint
 (
 aSourceLocation
 aLineNumber
@@ -2148,7 +2141,6 @@ otherwise
 disableBreakpoint
 :
 function
-DVS_disableBreakpoint
 (
 aSourceLocation
 aLineNumber
@@ -2377,7 +2369,6 @@ shown
 highlightBreakpoint
 :
 function
-DVS_highlightBreakpoint
 (
 aSourceLocation
 aLineNumber
@@ -2518,7 +2509,6 @@ container
 unhighlightBreakpoint
 :
 function
-DVS_unhighlightBreakpoint
 (
 )
 {
@@ -2652,7 +2642,6 @@ select
 _selectBreakpoint
 :
 function
-DVS__selectBreakpoint
 (
 aItem
 )
@@ -2732,7 +2721,6 @@ container
 _unselectBreakpoint
 :
 function
-DVS__unselectBreakpoint
 (
 )
 {
@@ -2778,7 +2766,6 @@ popup
 _openConditionalPopup
 :
 function
-DVS__openConditionalPopup
 (
 )
 {
@@ -2882,7 +2869,6 @@ popup
 _hideConditionalPopup
 :
 function
-DVS__hideConditionalPopup
 (
 )
 {
@@ -2983,7 +2969,6 @@ nodes
 _createBreakpointView
 :
 function
-DVS_createBreakpointView
 (
 aOptions
 )
@@ -3323,7 +3308,6 @@ ids
 _createContextMenu
 :
 function
-DVS__createContextMenu
 (
 aOptions
 )
@@ -3886,7 +3870,6 @@ ids
 _destroyContextMenu
 :
 function
-DVS__destroyContextMenu
 (
 aContextMenu
 )
@@ -3986,7 +3969,6 @@ item
 _onBreakpointRemoved
 :
 function
-DVS__onBreakpointRemoved
 (
 aItem
 )
@@ -4058,7 +4040,6 @@ editor
 _onEditorLoad
 :
 function
-DVS__onEditorLoad
 (
 {
 detail
@@ -4111,7 +4092,6 @@ editor
 _onEditorUnload
 :
 function
-DVS__onEditorUnload
 (
 {
 detail
@@ -4164,7 +4144,6 @@ editor
 _onEditorSelection
 :
 function
-DVS__onEditorSelection
 (
 e
 )
@@ -4268,7 +4247,6 @@ editor
 _onEditorContextMenu
 :
 function
-DVS__onEditorContextMenu
 (
 {
 x
@@ -4326,7 +4304,6 @@ container
 _onSourceMouseDown
 :
 function
-DVS__onSourceMouseDown
 (
 e
 )
@@ -4388,7 +4365,6 @@ container
 _onSourceSelect
 :
 function
-DVS__onSourceSelect
 (
 )
 {
@@ -4451,7 +4427,6 @@ container
 _onSourceClick
 :
 function
-DVS__onSourceClick
 (
 )
 {
@@ -4491,7 +4466,6 @@ container
 _onBreakpointClick
 :
 function
-DVS__onBreakpointClick
 (
 e
 )
@@ -4609,7 +4583,6 @@ checkbox
 _onBreakpointCheckboxClick
 :
 function
-DVS__onBreakpointCheckboxClick
 (
 e
 )
@@ -4726,7 +4699,6 @@ panel
 _onConditionalPopupShowing
 :
 function
-DVS__onConditionalPopupShowing
 (
 )
 {
@@ -4757,7 +4729,6 @@ panel
 _onConditionalPopupShown
 :
 function
-DVS__onConditionalPopupShown
 (
 )
 {
@@ -4798,7 +4769,6 @@ panel
 _onConditionalPopupHiding
 :
 function
-DVS__onConditionalPopupHiding
 (
 )
 {
@@ -4828,7 +4798,6 @@ textbox
 _onConditionalTextboxInput
 :
 function
-DVS__onConditionalTextboxInput
 (
 )
 {
@@ -4864,7 +4833,6 @@ textbox
 _onConditionalTextboxKeyPress
 :
 function
-DVS__onConditionalTextboxKeyPress
 (
 e
 )
@@ -4918,7 +4886,6 @@ pressed
 _onCmdAddBreakpoint
 :
 function
-BP__onCmdAddBreakpoint
 (
 )
 {
@@ -5120,7 +5087,6 @@ pressed
 _onCmdAddConditionalBreakpoint
 :
 function
-BP__onCmdAddConditionalBreakpoint
 (
 )
 {
@@ -5351,7 +5317,6 @@ etc
 _onSetConditional
 :
 function
-DVS__onSetConditional
 (
 aDetails
 )
@@ -5428,7 +5393,6 @@ etc
 _onEnableSelf
 :
 function
-DVS__onEnableSelf
 (
 aDetails
 )
@@ -5575,7 +5539,6 @@ etc
 _onDisableSelf
 :
 function
-DVS__onDisableSelf
 (
 aDetails
 )
@@ -5722,7 +5685,6 @@ etc
 _onDeleteSelf
 :
 function
-DVS__onDeleteSelf
 (
 aDetails
 )
@@ -5804,7 +5766,6 @@ etc
 _onEnableOthers
 :
 function
-DVS__onEnableOthers
 (
 aDetails
 )
@@ -5881,7 +5842,6 @@ etc
 _onDisableOthers
 :
 function
-DVS__onDisableOthers
 (
 aDetails
 )
@@ -5958,7 +5918,6 @@ etc
 _onDeleteOthers
 :
 function
-DVS__onDeleteOthers
 (
 aDetails
 )
@@ -6035,7 +5994,6 @@ etc
 _onEnableAll
 :
 function
-DVS__onEnableAll
 (
 aDetails
 )
@@ -6089,7 +6047,6 @@ etc
 _onDisableAll
 :
 function
-DVS__onDisableAll
 (
 aDetails
 )
@@ -6143,7 +6100,6 @@ etc
 _onDeleteAll
 :
 function
-DVS__onDeleteAll
 (
 aDetails
 )
@@ -6215,7 +6171,6 @@ identifier
 _getBreakpointKey
 :
 function
-DVS__getBreakpointKey
 (
 aSourceLocation
 aLineNumber
@@ -6342,7 +6297,6 @@ changes
 clearCache
 :
 function
-SU_clearCache
 (
 )
 {
@@ -6400,7 +6354,6 @@ label
 getSourceLabel
 :
 function
-SU_getSourceLabel
 (
 aUrl
 )
@@ -6514,7 +6467,6 @@ group
 getSourceGroup
 :
 function
-SU_getSourceGroup
 (
 aUrl
 )
@@ -6948,7 +6900,6 @@ url
 trimUrlLength
 :
 function
-SU_trimUrlLength
 (
 aUrl
 aLength
@@ -7108,7 +7059,6 @@ url
 trimUrlQuery
 :
 function
-SU_trimUrlQuery
 (
 aUrl
 )
@@ -7282,7 +7232,6 @@ step
 trimUrl
 :
 function
-SU_trimUrl
 (
 aUrl
 aLabel
@@ -8011,7 +7960,6 @@ started
 initialize
 :
 function
-DVWE_initialize
 (
 )
 {
@@ -8127,7 +8075,6 @@ closed
 destroy
 :
 function
-DVWE_destroy
 (
 )
 {
@@ -8189,7 +8136,6 @@ text
 addExpression
 :
 function
-DVWE_addExpression
 (
 aExpression
 =
@@ -8375,7 +8321,6 @@ expression
 removeExpressionAt
 :
 function
-DVWE_removeExpressionAt
 (
 aIndex
 )
@@ -8469,7 +8414,6 @@ text
 switchExpression
 :
 function
-DVWE_switchExpression
 (
 aVar
 aExpression
@@ -8659,7 +8603,6 @@ evaluation
 deleteExpression
 :
 function
-DVWE_deleteExpression
 (
 aVar
 )
@@ -8788,7 +8731,6 @@ string
 getExpression
 :
 function
-DVWE_getExpression
 (
 aIndex
 )
@@ -8839,7 +8781,6 @@ strings
 getExpressions
 :
 function
-DVWE_getExpressions
 (
 )
 {
@@ -8905,7 +8846,6 @@ object
 _createItemView
 :
 function
-DVWE__createItemView
 (
 aElementNode
 aAttachment
@@ -9132,7 +9072,6 @@ pressed
 _onCmdAddExpression
 :
 function
-BP__onCmdAddExpression
 (
 aText
 )
@@ -9210,7 +9149,6 @@ pressed
 _onCmdRemoveAllExpressions
 :
 function
-BP__onCmdRemoveAllExpressions
 (
 )
 {
@@ -9280,7 +9218,6 @@ container
 _onClick
 :
 function
-DVWE__onClick
 (
 e
 )
@@ -9374,7 +9311,6 @@ button
 _onClose
 :
 function
-DVWE__onClose
 (
 e
 )
@@ -9467,7 +9403,6 @@ textbox
 _onBlur
 :
 function
-DVWE__onBlur
 (
 {
 target
@@ -9648,7 +9583,6 @@ textbox
 _onKeyPress
 :
 function
-DVWE__onKeyPress
 (
 e
 )
@@ -9724,7 +9658,6 @@ count
 ;
 return
 function
-DVWE__generateId
 (
 )
 {
@@ -9903,7 +9836,6 @@ started
 initialize
 :
 function
-DVGS_initialize
 (
 )
 {
@@ -10013,7 +9945,6 @@ closed
 destroy
 :
 function
-DVGS_destroy
 (
 )
 {
@@ -10172,7 +10103,6 @@ container
 clearView
 :
 function
-DVGS_clearView
 (
 )
 {
@@ -10222,7 +10152,6 @@ editor
 focusNextMatch
 :
 function
-DVGS_focusNextMatch
 (
 )
 {
@@ -10301,7 +10230,6 @@ editor
 focusPrevMatch
 :
 function
-DVGS_focusPrevMatch
 (
 )
 {
@@ -10415,7 +10343,6 @@ for
 scheduleSearch
 :
 function
-DVGS_scheduleSearch
 (
 aQuery
 )
@@ -10523,7 +10450,6 @@ for
 performSearch
 :
 function
-DVGS_performSearch
 (
 aQuery
 )
@@ -10583,7 +10509,6 @@ for
 _startSearch
 :
 function
-DVGS__startSearch
 (
 aQuery
 )
@@ -10648,7 +10573,6 @@ number
 _performGlobalSearch
 :
 function
-DVGS__performGlobalSearch
 (
 )
 {
@@ -11200,7 +11124,6 @@ location
 _createGlobalResultsUI
 :
 function
-DVGS__createGlobalResultsUI
 (
 aGlobalResults
 )
@@ -11367,7 +11290,6 @@ results
 _createSourceResultsUI
 :
 function
-DVGS__createSourceResultsUI
 (
 aLocation
 aSourceResults
@@ -11513,7 +11435,6 @@ count
 _createItemView
 :
 function
-DVGS__createItemView
 (
 aElementNode
 aAttachment
@@ -11574,7 +11495,6 @@ header
 _onHeaderClick
 :
 function
-DVGS__onHeaderClick
 (
 e
 )
@@ -11618,7 +11538,6 @@ line
 _onLineClick
 :
 function
-DVGLS__onLineClick
 (
 e
 )
@@ -11666,7 +11585,6 @@ match
 _onMatchClick
 :
 function
-DVGLS__onMatchClick
 (
 e
 )
@@ -11841,7 +11759,6 @@ container
 _onScroll
 :
 function
-DVGS__onScroll
 (
 e
 )
@@ -11898,7 +11815,6 @@ item
 _expandResultsIfNeeded
 :
 function
-DVGS__expandResultsIfNeeded
 (
 aTarget
 )
@@ -12012,7 +11928,6 @@ view
 _scrollMatchIntoViewIfNeeded
 :
 function
-DVGS__scrollMatchIntoViewIfNeeded
 (
 aMatch
 )
@@ -12075,7 +11990,6 @@ for
 _bounceMatch
 :
 function
-DVGS__bounceMatch
 (
 aMatch
 )
@@ -12298,7 +12212,6 @@ source
 add
 :
 function
-GR_add
 (
 aLocation
 aSourceResults
@@ -12452,7 +12365,6 @@ line
 add
 :
 function
-SR_add
 (
 aLineNumber
 aLineResults
@@ -12512,7 +12424,6 @@ details
 expand
 :
 function
-SR_expand
 (
 )
 {
@@ -12562,7 +12473,6 @@ details
 collapse
 :
 function
-SR_collapse
 (
 )
 {
@@ -12614,7 +12524,6 @@ state
 toggle
 :
 function
-SR_toggle
 (
 e
 )
@@ -12895,7 +12804,6 @@ onMatchClick
 createView
 :
 function
-SR_createView
 (
 aElementNode
 aLocation
@@ -13409,7 +13317,6 @@ content
 add
 :
 function
-LC_add
 (
 aString
 aRange
@@ -13527,7 +13434,6 @@ onLineClick
 createView
 :
 function
-LR_createView
 (
 aContainer
 aLineNumber
@@ -13889,7 +13795,6 @@ aMatchChunk
 _entangleMatch
 :
 function
-LR__entangleMatch
 (
 aLineNumber
 aNode
@@ -13939,7 +13844,6 @@ aFirstMatch
 _entangleLine
 :
 function
-LR__entangleLine
 (
 aNode
 aFirstMatch
@@ -14077,7 +13981,6 @@ prototype
 __iterator__
 =
 function
-DVGS_iterator
 (
 )
 {
@@ -14149,7 +14052,6 @@ LineResults
 getItemForElement
 =
 function
-DVGS_getItemForElement
 (
 aElement
 )
@@ -14225,7 +14127,6 @@ LineResults
 getElementAtIndex
 =
 function
-DVGS_getElementAtIndex
 (
 aIndex
 )
@@ -14326,7 +14227,6 @@ LineResults
 indexOfElement
 =
 function
-DVGS_indexOFElement
 (
 aElement
 )
@@ -14425,7 +14325,6 @@ LineResults
 size
 =
 function
-DVGS_size
 (
 )
 {

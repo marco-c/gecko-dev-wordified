@@ -291,7 +291,6 @@ prototype
 create
 :
 function
-VH_create
 (
 {
 constructor
@@ -425,7 +424,6 @@ preventDefault
 dispatchEvent
 :
 function
-VH_dispatchEvent
 (
 aTarget
 aType
@@ -556,7 +554,6 @@ to
 delegateWidgetAttributeMethods
 :
 function
-VH_delegateWidgetAttributeMethods
 (
 aWidget
 aNode
@@ -657,7 +654,6 @@ to
 delegateWidgetEventMethods
 :
 function
-VH_delegateWidgetEventMethods
 (
 aWidget
 aNode
@@ -784,7 +780,6 @@ toggle
 togglePane
 :
 function
-VH_togglePane
 (
 aFlags
 aPane
@@ -1255,7 +1250,6 @@ ViewHelpers
 L10N
 =
 function
-L10N
 (
 aStringBundleName
 )
@@ -1346,7 +1340,6 @@ string
 getStr
 :
 function
-L10N_getStr
 (
 aName
 )
@@ -1387,7 +1380,6 @@ string
 getFormatStr
 :
 function
-L10N_getFormatStr
 (
 aName
 .
@@ -1474,7 +1466,6 @@ string
 numberWithDecimals
 :
 function
-L10N__numberWithDecimals
 (
 aNumber
 aDecimals
@@ -1793,7 +1784,6 @@ ViewHelpers
 Prefs
 =
 function
-Prefs
 (
 aPrefsRoot
 =
@@ -1878,7 +1868,6 @@ any
 _get
 :
 function
-P__get
 (
 aType
 aPrefName
@@ -1957,7 +1946,6 @@ aValue
 _set
 :
 function
-P__set
 (
 aType
 aPrefName
@@ -2026,7 +2014,6 @@ aPrefName
 map
 :
 function
-P_map
 (
 aAccessorName
 aType
@@ -2429,7 +2416,7 @@ element
 finalize
 :
 function
-called
+invoked
 when
 the
 child
@@ -2453,7 +2440,6 @@ element
 append
 :
 function
-MI_append
 (
 aElement
 aOptions
@@ -2595,7 +2581,6 @@ remove
 remove
 :
 function
-MI_remove
 (
 aItem
 )
@@ -2645,7 +2630,6 @@ selected
 markSelected
 :
 function
-MI_markSelected
 (
 )
 {
@@ -2691,7 +2675,6 @@ deselected
 markDeselected
 :
 function
-MI_markDeselected
 (
 )
 {
@@ -2771,7 +2754,6 @@ to
 setAttributes
 :
 function
-MI_setAttributes
 (
 aAttributes
 aElement
@@ -2849,7 +2831,6 @@ item
 _entangleItem
 :
 function
-MI__entangleItem
 (
 aItem
 aElement
@@ -2934,7 +2915,6 @@ element
 _untangleItem
 :
 function
-MI__untangleItem
 (
 aItem
 )
@@ -3022,7 +3002,6 @@ forget
 _unlinkItem
 :
 function
-MC__unlinkItem
 (
 aItem
 )
@@ -3058,7 +3037,6 @@ string
 toString
 :
 function
-MI_toString
 (
 )
 {
@@ -3824,7 +3802,7 @@ element
 finalize
 :
 function
-called
+invokde
 when
 the
 item
@@ -3865,7 +3843,6 @@ commit
 push
 :
 function
-MC_push
 (
 aContents
 aOptions
@@ -4082,7 +4059,6 @@ them
 commit
 :
 function
-MC_commit
 (
 aOptions
 =
@@ -4233,7 +4209,6 @@ otherwise
 refresh
 :
 function
-MC_refresh
 (
 )
 {
@@ -4338,7 +4313,6 @@ remove
 remove
 :
 function
-MC_remove
 (
 aItem
 )
@@ -4387,7 +4361,6 @@ container
 empty
 :
 function
-MC_empty
 (
 )
 {
@@ -4543,7 +4516,6 @@ tooltip
 setUnavailable
 :
 function
-MC_setUnavailable
 (
 )
 {
@@ -4669,7 +4641,6 @@ visibility
 toggleContents
 :
 function
-MC_toggleContents
 (
 aVisibleFlag
 )
@@ -4763,7 +4734,6 @@ label
 sortContents
 :
 function
-MC_sortContents
 (
 aPredicate
 =
@@ -4871,7 +4841,6 @@ swapped
 swapItems
 :
 function
-MC_swapItems
 (
 aFirst
 aSecond
@@ -5314,7 +5283,6 @@ swapped
 swapItemsAtIndices
 :
 function
-MC_swapItemsAtIndices
 (
 aFirst
 aSecond
@@ -5391,7 +5359,6 @@ otherwise
 containsLabel
 :
 function
-MC_containsLabel
 (
 aLabel
 )
@@ -5480,7 +5447,6 @@ otherwise
 containsValue
 :
 function
-MC_containsValue
 (
 aValue
 )
@@ -6047,7 +6013,6 @@ found
 getItemAtIndex
 :
 function
-MC_getItemAtIndex
 (
 aIndex
 )
@@ -6116,7 +6081,6 @@ found
 getItemByLabel
 :
 function
-MC_getItemByLabel
 (
 aLabel
 )
@@ -6180,7 +6144,6 @@ found
 getItemByValue
 :
 function
-MC_getItemByValue
 (
 aValue
 )
@@ -6245,7 +6208,6 @@ found
 getItemForElement
 :
 function
-MC_getItemForElement
 (
 aElement
 )
@@ -6337,7 +6299,6 @@ found
 indexOfItem
 :
 function
-MC_indexOfItem
 (
 aItem
 )
@@ -6403,7 +6364,6 @@ found
 _indexOfElement
 :
 function
-MC__indexOfElement
 (
 aElement
 )
@@ -6867,7 +6827,6 @@ otherwise
 isUnique
 :
 function
-MC_isUnique
 (
 aItem
 )
@@ -7031,7 +6990,6 @@ otherwise
 isEligible
 :
 function
-MC_isEligible
 (
 aItem
 )
@@ -7141,7 +7099,6 @@ index
 _findExpectedIndex
 :
 function
-MC__findExpectedIndex
 (
 aItem
 )
@@ -7315,7 +7272,6 @@ element
 finalize
 :
 function
-called
 when
 the
 item
@@ -7344,7 +7300,6 @@ rejected
 _insertItemAt
 :
 function
-MC__insertItemAt
 (
 aIndex
 aItem
@@ -7548,7 +7503,6 @@ item
 _entangleItem
 :
 function
-MC__entangleItem
 (
 aItem
 aElement
@@ -7631,7 +7585,6 @@ element
 _untangleItem
 :
 function
-MC__untangleItem
 (
 aItem
 )
@@ -7719,7 +7672,6 @@ forget
 _unlinkItem
 :
 function
-MI__unlinkItem
 (
 aItem
 )
@@ -7855,7 +7807,6 @@ aFirst
 _sortPredicate
 :
 function
-MC__sortPredicate
 (
 aFirst
 aSecond
@@ -7933,7 +7884,6 @@ prototype
 __iterator__
 =
 function
-VH_iterator
 (
 )
 {

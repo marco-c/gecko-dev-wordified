@@ -247,7 +247,6 @@ started
 initialize
 :
 function
-DVT_initialize
 (
 )
 {
@@ -662,7 +661,6 @@ closed
 destroy
 :
 function
-DVT_destroy
 (
 )
 {
@@ -787,7 +785,6 @@ attached
 toggleResumeButtonState
 :
 function
-DVT_toggleResumeButtonState
 (
 aState
 )
@@ -950,7 +947,6 @@ debuggee
 showResumeWarning
 :
 function
-DVT_showResumeWarning
 (
 aPausedUrl
 )
@@ -1035,7 +1031,6 @@ visibility
 toggleChromeGlobalsContainer
 :
 function
-DVT_toggleChromeGlobalsContainer
 (
 aVisibleFlag
 )
@@ -1071,7 +1066,6 @@ event
 _onTogglePanesPressed
 :
 function
-DVT__onTogglePanesPressed
 (
 )
 {
@@ -1114,7 +1108,6 @@ event
 _onResumePressed
 :
 function
-DVT__onResumePressed
 (
 )
 {
@@ -1174,7 +1167,6 @@ event
 _onStepOverPressed
 :
 function
-DVT__onStepOverPressed
 (
 )
 {
@@ -1215,7 +1207,6 @@ event
 _onStepInPressed
 :
 function
-DVT__onStepInPressed
 (
 )
 {
@@ -1256,7 +1247,6 @@ event
 _onStepOutPressed
 :
 function
-DVT__onStepOutPressed
 (
 )
 {
@@ -1437,7 +1427,6 @@ started
 initialize
 :
 function
-DVO_initialize
 (
 )
 {
@@ -1645,7 +1634,6 @@ closed
 destroy
 :
 function
-DVO_destroy
 (
 )
 {
@@ -1687,7 +1675,6 @@ event
 _onPopupShowing
 :
 function
-DVO__onPopupShowing
 (
 )
 {
@@ -1726,7 +1713,6 @@ event
 _onPopupHiding
 :
 function
-DVO__onPopupHiding
 (
 )
 {
@@ -1762,7 +1748,6 @@ command
 _togglePauseOnExceptions
 :
 function
-DVO__togglePauseOnExceptions
 (
 )
 {
@@ -1815,7 +1800,6 @@ command
 _toggleShowPanesOnStartup
 :
 function
-DVO__toggleShowPanesOnStartup
 (
 )
 {
@@ -1861,7 +1845,6 @@ command
 _toggleShowVariablesOnlyEnum
 :
 function
-DVO__toggleShowVariablesOnlyEnum
 (
 )
 {
@@ -1912,7 +1895,6 @@ command
 _toggleShowVariablesFilterBox
 :
 function
-DVO__toggleShowVariablesFilterBox
 (
 )
 {
@@ -1963,7 +1945,6 @@ command
 _toggleShowOriginalSource
 :
 function
-DVO__toggleShowOriginalSource
 (
 )
 {
@@ -2103,7 +2084,6 @@ started
 initialize
 :
 function
-DVCG_initialize
 (
 )
 {
@@ -2221,7 +2201,6 @@ closed
 destroy
 :
 function
-DVT_destroy
 (
 )
 {
@@ -2283,7 +2262,6 @@ container
 _onSelect
 :
 function
-DVCG__onSelect
 (
 )
 {
@@ -2332,7 +2310,6 @@ container
 _onClick
 :
 function
-DVCG__onClick
 (
 )
 {
@@ -2503,7 +2480,6 @@ started
 initialize
 :
 function
-DVSF_initialize
 (
 )
 {
@@ -2671,7 +2647,6 @@ closed
 destroy
 :
 function
-DVSF_destroy
 (
 )
 {
@@ -2804,7 +2779,6 @@ debugger
 addFrame
 :
 function
-DVSF_addFrame
 (
 aFrameTitle
 aSourceLocation
@@ -2991,7 +2965,6 @@ controller
 highlightFrame
 :
 function
-DVSF_highlightFrame
 (
 aDepth
 )
@@ -3176,7 +3149,6 @@ view
 _createFrameView
 :
 function
-DVSF__createFrameView
 (
 aFrameTitle
 aSourceLocation
@@ -3434,7 +3406,6 @@ item
 _createMenuEntry
 :
 function
-DVSF__createMenuEntry
 (
 aFrameTitle
 aSourceLocation
@@ -3776,7 +3747,6 @@ item
 _destroyMenuEntry
 :
 function
-DVSF__destroyMenuEntry
 (
 aMenuEntry
 )
@@ -3871,7 +3841,6 @@ item
 _onStackframeRemoved
 :
 function
-DVSF__onStackframeRemoved
 (
 aItem
 )
@@ -3932,7 +3901,6 @@ container
 _onClick
 :
 function
-DVSF__onClick
 (
 e
 )
@@ -4027,7 +3995,6 @@ container
 _onScroll
 :
 function
-DVSF__onScroll
 (
 )
 {
@@ -4097,7 +4064,6 @@ controller
 _afterScroll
 :
 function
-DVSF__afterScroll
 (
 )
 {
@@ -4238,7 +4204,6 @@ stack
 _selectFrame
 :
 function
-DVSF__selectFrame
 (
 aDepth
 )
@@ -4322,7 +4287,6 @@ label
 getFrameTitle
 :
 function
-SFU_getFrameTitle
 (
 aFrame
 )
@@ -4425,7 +4389,6 @@ label
 getScopeLabel
 :
 function
-SFU_getScopeLabel
 (
 aEnv
 )
@@ -4705,7 +4668,6 @@ started
 initialize
 :
 function
-DVF_initialize
 (
 )
 {
@@ -5337,7 +5299,6 @@ closed
 destroy
 :
 function
-DVF_destroy
 (
 )
 {
@@ -6029,7 +5990,6 @@ view
 clearSearch
 :
 function
-DVF_clearSearch
 (
 )
 {
@@ -6080,7 +6040,6 @@ for
 _performFileSearch
 :
 function
-DVF__performFileSearch
 (
 aFile
 )
@@ -6485,7 +6444,6 @@ to
 _performLineSearch
 :
 function
-DVF__performLineSearch
 (
 aLine
 )
@@ -6625,7 +6583,6 @@ find
 _performTokenSearch
 :
 function
-DVF__performTokenSearch
 (
 aToken
 )
@@ -6773,7 +6730,6 @@ container
 _onClick
 :
 function
-DVF__onClick
 (
 )
 {
@@ -6806,7 +6762,6 @@ container
 _onSearch
 :
 function
-DVF__onScriptsSearch
 (
 )
 {
@@ -7034,7 +6989,6 @@ container
 _onKeyPress
 :
 function
-DVF__onScriptsKeyPress
 (
 e
 )
@@ -7882,7 +7836,6 @@ container
 _onBlur
 :
 function
-DVF__onBlur
 (
 )
 {
@@ -7959,7 +7912,6 @@ filtering
 _doSearch
 :
 function
-DVF__doSearch
 (
 aOperator
 =
@@ -8024,7 +7976,6 @@ pressed
 _doFileSearch
 :
 function
-DVF__doFileSearch
 (
 )
 {
@@ -8066,7 +8017,6 @@ pressed
 _doGlobalSearch
 :
 function
-DVF__doGlobalSearch
 (
 )
 {
@@ -8106,7 +8056,6 @@ pressed
 _doFunctionSearch
 :
 function
-DVF__doFunctionSearch
 (
 )
 {
@@ -8146,7 +8095,6 @@ pressed
 _doTokenSearch
 :
 function
-DVF__doTokenSearch
 (
 )
 {
@@ -8186,7 +8134,6 @@ pressed
 _doLineSearch
 :
 function
-DVF__doLineSearch
 (
 )
 {
@@ -8226,7 +8173,6 @@ pressed
 _doVariableSearch
 :
 function
-DVF__doVariableSearch
 (
 )
 {
@@ -8275,7 +8221,6 @@ pressed
 _doVariablesFocus
 :
 function
-DVG__doVariablesFocus
 (
 )
 {
@@ -8462,7 +8407,6 @@ started
 initialize
 :
 function
-DVFS_initialize
 (
 )
 {
@@ -8507,7 +8451,6 @@ closed
 destroy
 :
 function
-DVFS_destroy
 (
 )
 {
@@ -8546,7 +8489,6 @@ container
 syncFileSearch
 :
 function
-DVFS_syncFileSearch
 (
 )
 {
@@ -8798,7 +8740,6 @@ container
 onClick
 :
 function
-DVFS_onClick
 (
 e
 )
@@ -8868,7 +8809,6 @@ select
 onSelect
 :
 function
-DVFS_onSelect
 (
 e
 )
@@ -9012,7 +8952,6 @@ started
 initialize
 :
 function
-DVFF_initialize
 (
 )
 {
@@ -9057,7 +8996,6 @@ closed
 destroy
 :
 function
-DVFF_destroy
 (
 )
 {
@@ -9130,7 +9068,6 @@ for
 scheduleSearch
 :
 function
-DVFF_scheduleSearch
 (
 aQuery
 )
@@ -9238,7 +9175,6 @@ for
 performSearch
 :
 function
-DVFF_performSearch
 (
 aQuery
 )
@@ -9298,7 +9234,6 @@ for
 _startSearch
 :
 function
-DVFF__startSearch
 (
 aQuery
 )
@@ -9360,7 +9295,6 @@ number
 _performFunctionSearch
 :
 function
-DVFF__performFunctionSearch
 (
 )
 {
@@ -9732,7 +9666,6 @@ source
 _syncFunctionSearch
 :
 function
-DVFF__syncFunctionSearch
 (
 aSearchResults
 )
@@ -10152,7 +10085,6 @@ container
 onClick
 :
 function
-DVFF_onClick
 (
 e
 )
@@ -10207,7 +10139,6 @@ container
 onSelect
 :
 function
-DVFF_onSelect
 (
 e
 )

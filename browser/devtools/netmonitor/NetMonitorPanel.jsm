@@ -217,6 +217,10 @@ js
 "
 )
 ;
+this
+.
+NetMonitorPanel
+=
 function
 NetMonitorPanel
 (
@@ -311,7 +315,6 @@ opening
 open
 :
 function
-NetMonitorPanel_open
 (
 )
 {

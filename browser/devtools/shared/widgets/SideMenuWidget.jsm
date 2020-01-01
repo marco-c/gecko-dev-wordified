@@ -770,7 +770,6 @@ item
 insertItemAt
 :
 function
-SMW_insertItemAt
 (
 aIndex
 aContents
@@ -854,7 +853,7 @@ group
 =
 this
 .
-_getGroupForName
+_getMenuGroupForName
 (
 aGroup
 )
@@ -864,7 +863,7 @@ item
 =
 this
 .
-_getItemForGroup
+_getMenuItemForGroup
 (
 group
 aContents
@@ -975,7 +974,6 @@ item
 getItemAtIndex
 :
 function
-SMW_getItemAtIndex
 (
 aIndex
 )
@@ -1021,7 +1019,6 @@ item
 removeChild
 :
 function
-SMW_removeChild
 (
 aChild
 )
@@ -1143,7 +1140,6 @@ container
 removeAllItems
 :
 function
-SMW_removeAllItems
 (
 )
 {
@@ -1415,7 +1411,6 @@ ensureElementIsVisible
 ensureSelectionIsVisible
 :
 function
-SMW_ensureSelectionIsVisible
 (
 aFlags
 )
@@ -1506,7 +1501,6 @@ visible
 ensureElementIsVisible
 :
 function
-SMW_ensureElementIsVisible
 (
 aElement
 aFlags
@@ -1644,7 +1638,6 @@ children
 showEmptyGroups
 :
 function
-SMW_showEmptyGroups
 (
 )
 {
@@ -1685,7 +1678,6 @@ children
 hideEmptyGroups
 :
 function
-SMW_hideEmptyGroups
 (
 )
 {
@@ -1804,7 +1796,6 @@ value
 getAttribute
 :
 function
-SMW_getAttribute
 (
 aName
 )
@@ -1864,7 +1855,6 @@ value
 setAttribute
 :
 function
-SMW_setAttribute
 (
 aName
 aValue
@@ -1926,7 +1916,6 @@ attribute
 removeAttribute
 :
 function
-SMW_removeAttribute
 (
 aName
 )
@@ -2039,7 +2028,6 @@ container
 _appendNotice
 :
 function
-DVSL__appendNotice
 (
 )
 {
@@ -2197,7 +2185,6 @@ container
 _removeNotice
 :
 function
-DVSL__removeNotice
 (
 )
 {
@@ -2285,10 +2272,9 @@ group
 .
 *
 /
-_getGroupForName
+_getMenuGroupForName
 :
 function
-SMW__getGroupForName
 (
 aName
 )
@@ -2377,7 +2363,7 @@ SideMenuWidget
 .
 prototype
 .
-_getGroupForName
+_getMenuGroupForName
 *
 *
 param
@@ -2426,10 +2412,9 @@ item
 .
 *
 /
-_getItemForGroup
+_getMenuItemForGroup
 :
 function
-SMW__getItemForGroup
 (
 aGroup
 aContents
@@ -2917,7 +2902,6 @@ group
 insertSelfAt
 :
 function
-SMG_insertSelfAt
 (
 aIndex
 )
@@ -3023,7 +3007,6 @@ index
 findExpectedIndexForSelf
 :
 function
-SMG_findExpectedIndexForSelf
 (
 )
 {
@@ -3536,7 +3519,6 @@ item
 insertSelfAt
 :
 function
-SMI_insertSelfAt
 (
 aIndex
 )
