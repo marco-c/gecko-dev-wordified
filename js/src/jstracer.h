@@ -736,7 +736,7 @@ uint32
 globalShape
 ;
 unsigned
-internedGlobalSlotCount
+ngslots
 ;
 uint8
 *
@@ -744,7 +744,7 @@ typeMap
 ;
 uint16
 *
-internedGlobalSlots
+gslots
 ;
 }
 ;
