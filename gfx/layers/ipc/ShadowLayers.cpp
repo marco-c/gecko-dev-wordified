@@ -230,6 +230,13 @@ mozilla
 :
 ipc
 ;
+using
+namespace
+mozilla
+:
+:
+gl
+;
 namespace
 mozilla
 {

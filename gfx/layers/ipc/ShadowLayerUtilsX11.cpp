@@ -158,6 +158,13 @@ xlib
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+gl
+;
 namespace
 mozilla
 {

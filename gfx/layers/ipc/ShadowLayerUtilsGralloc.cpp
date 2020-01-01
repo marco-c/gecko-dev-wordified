@@ -207,6 +207,13 @@ mozilla
 :
 layers
 ;
+using
+namespace
+mozilla
+:
+:
+gl
+;
 namespace
 IPC
 {

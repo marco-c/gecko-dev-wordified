@@ -136,6 +136,13 @@ ShadowLayers
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+gl
+;
 namespace
 mozilla
 {
