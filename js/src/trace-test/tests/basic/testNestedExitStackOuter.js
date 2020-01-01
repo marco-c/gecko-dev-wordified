@@ -171,6 +171,8 @@ return
 counter
 ;
 }
+/
+/
 assertEq
 (
 testNestedExitStackOuter
