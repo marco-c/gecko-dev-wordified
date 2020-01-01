@@ -530,12 +530,6 @@ PRUint32
 aCount
 )
 ;
-virtual
-void
-FinishInternal
-(
-)
-;
 void
 CreateFrame
 (
@@ -562,13 +556,6 @@ SetAnimFrameInfo
 void
 EndImageFrame
 (
-)
-;
-void
-NotifyDone
-(
-PRBool
-aSuccess
 )
 ;
 public
@@ -628,9 +615,6 @@ mFrameHasNoAlpha
 ;
 PRPackedBool
 mFrameIsHidden
-;
-PRPackedBool
-mNotifiedDone
 ;
 /
 *

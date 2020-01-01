@@ -703,8 +703,6 @@ FinishInternal
 void
 NotifyDone
 (
-PRBool
-aSuccess
 )
 ;
 protected
@@ -821,9 +819,6 @@ mTransform
 ;
 PRPackedBool
 mReading
-;
-PRPackedBool
-mNotifiedDone
 ;
 }
 ;
