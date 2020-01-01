@@ -134,7 +134,7 @@ h
 #
 include
 "
-UIAutomation
+uiautomation
 .
 h
 "
