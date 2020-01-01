@@ -571,12 +571,14 @@ to
 indicate
 a
 failure
-with
-proxy
-CONNECT
+at
+the
+SSL
+setup
+level
 virtual
 void
-SetProxyConnectFailed
+SetSSLConnectFailed
 (
 )
 =
@@ -1166,7 +1168,7 @@ reason
 ;
 \
 void
-SetProxyConnectFailed
+SetSSLConnectFailed
 (
 )
 ;

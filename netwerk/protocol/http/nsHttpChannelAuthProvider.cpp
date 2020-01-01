@@ -449,7 +449,7 @@ ProcessAuthentication
 PRUint32
 httpStatus
 bool
-ProxyConnectFailed
+SSLConnectFailed
 )
 {
 LOG
@@ -475,7 +475,7 @@ code
 =
 %
 u
-ProxyConnectFailed
+SSLConnectFailed
 =
 %
 d
@@ -486,7 +486,7 @@ n
 this
 mAuthChannel
 httpStatus
-ProxyConnectFailed
+SSLConnectFailed
 )
 )
 ;
@@ -784,8 +784,13 @@ NS_ERROR_UNEXPECTED
 }
 if
 (
+UsingSSL
+(
+)
+&
+&
 !
-ProxyConnectFailed
+SSLConnectFailed
 )
 {
 /
