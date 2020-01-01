@@ -1007,6 +1007,14 @@ contents
 NULL
 )
 ;
+void
+changeContents
+(
+ObjectElements
+*
+newHeader
+)
+;
 /
 *
 *
