@@ -1243,6 +1243,8 @@ whenBrowserLoaded
 (
 aBrowser
 aCallback
+=
+next
 )
 {
 aBrowser
@@ -1283,6 +1285,8 @@ whenWindowLoaded
 (
 aWindow
 aCallback
+=
+next
 )
 {
 aWindow
