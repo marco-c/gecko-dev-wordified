@@ -1137,7 +1137,7 @@ nullptr
 /
 )
 {
-CHECK_VALID_NODEINFO
+CheckValidNodeInfo
 (
 aNodeType
 aName
@@ -1341,7 +1341,7 @@ do_GetAtom
 aName
 )
 ;
-CHECK_VALID_NODEINFO
+CheckValidNodeInfo
 (
 aNodeType
 nameAtom
