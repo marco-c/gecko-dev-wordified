@@ -1230,13 +1230,6 @@ NEVER_ASK_FOR_OPEN_FILE_PREF
 openFile
 "
 ;
-static
-NS_DEFINE_CID
-(
-kPluginManagerCID
-NS_PLUGINMANAGER_CID
-)
-;
 /
 *
 *
@@ -17788,7 +17781,7 @@ pluginHost
 (
 do_GetService
 (
-kPluginManagerCID
+MOZ_PLUGIN_HOST_CONTRACTID
 &
 rv
 )

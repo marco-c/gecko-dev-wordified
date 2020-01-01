@@ -2620,14 +2620,6 @@ the
 browser
 :
 class
-nsIPluginManager
-;
-/
-/
-minimum
-browser
-requirements
-class
 nsIPluginInstancePeer
 ;
 /
