@@ -17608,6 +17608,7 @@ _buildSortedEngineList
 (
 )
 ;
+let
 selectedEngineName
 =
 getLocalizedPref
@@ -17848,8 +17849,6 @@ engine
 _file
 .
 parent
-.
-path
 ;
 if
 (
@@ -17857,6 +17856,8 @@ if
 cache
 [
 parent
+.
+path
 ]
 )
 {
@@ -17884,6 +17885,8 @@ engines
 cache
 [
 parent
+.
+path
 ]
 =
 cacheEntry
@@ -17892,6 +17895,8 @@ cacheEntry
 cache
 [
 parent
+.
+path
 ]
 .
 engines
