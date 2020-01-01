@@ -11578,7 +11578,6 @@ CompartmentPrivate
 (
 JS_GetCompartmentPrivate
 (
-cx
 compartment
 )
 )

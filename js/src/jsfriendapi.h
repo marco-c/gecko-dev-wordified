@@ -1408,12 +1408,8 @@ JS_FRIEND_API
 (
 bool
 )
-IsAtomsCompartmentFor
+IsAtomsCompartment
 (
-const
-JSContext
-*
-cx
 const
 JSCompartment
 *

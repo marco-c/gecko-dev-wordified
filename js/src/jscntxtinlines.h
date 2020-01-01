@@ -718,6 +718,10 @@ AutoGCRooter
 cx
 NAMESPACES
 )
+context
+(
+cx
+)
 {
 array
 .
@@ -751,8 +755,12 @@ array
 length
 ;
 }
-public
+private
 :
+JSContext
+*
+context
+;
 friend
 void
 AutoGCRooter
@@ -765,6 +773,8 @@ JSTracer
 trc
 )
 ;
+public
+:
 JSXMLArray
 <
 JSObject

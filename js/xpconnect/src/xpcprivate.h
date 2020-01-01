@@ -4942,9 +4942,6 @@ trc
 void
 AddXPConnectRoots
 (
-JSContext
-*
-cx
 nsCycleCollectionTraversalCallback
 &
 cb
@@ -5016,9 +5013,6 @@ static
 void
 SuspectWrappedNative
 (
-JSContext
-*
-cx
 XPCWrappedNative
 *
 wrapper
@@ -9442,9 +9436,6 @@ SuspectAllWrappers
 XPCJSRuntime
 *
 rt
-JSContext
-*
-cx
 nsCycleCollectionTraversalCallback
 &
 cb
@@ -9632,9 +9623,6 @@ XPCWrappedNativeScope
 *
 GetNativeScope
 (
-JSContext
-*
-cx
 JSObject
 *
 obj

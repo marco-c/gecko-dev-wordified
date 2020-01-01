@@ -1046,7 +1046,6 @@ CompartmentPrivate
 )
 JS_GetCompartmentPrivate
 (
-cx
 js
 :
 :
@@ -6552,7 +6551,6 @@ CompartmentPrivate
 )
 JS_GetCompartmentPrivate
 (
-cx
 js
 :
 :

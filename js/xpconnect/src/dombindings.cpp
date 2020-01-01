@@ -4679,7 +4679,7 @@ CompartmentPrivate
 *
 >
 (
-js_GetCompartmentPrivate
+JS_GetCompartmentPrivate
 (
 compartment
 )
