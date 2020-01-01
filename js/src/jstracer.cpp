@@ -18355,7 +18355,9 @@ record_JSOP_CALLVAR
 )
 {
 return
-false
+record_JSOP_GETVAR
+(
+)
 ;
 }
 bool
@@ -18367,7 +18369,9 @@ record_JSOP_CALLARG
 )
 {
 return
-false
+record_JSOP_GETARG
+(
+)
 ;
 }
 bool
