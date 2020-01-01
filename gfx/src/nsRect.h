@@ -3392,6 +3392,16 @@ aAppUnitsPerPixel
 )
 const
 ;
+nsIntRect
+&
+ScaleRoundOut
+(
+float
+aXScale
+float
+aYScale
+)
+;
 /
 /
 Returns
