@@ -2559,7 +2559,7 @@ if
 iter
 -
 >
-iter_flags
+flags
 &
 ITER_16
 )
@@ -2575,7 +2575,7 @@ if
 iter
 -
 >
-iter_flags
+flags
 &
 ITER_NARROW
 )
@@ -2607,7 +2607,7 @@ if
 iter
 -
 >
-iter_flags
+flags
 &
 ITER_16
 )
@@ -2624,7 +2624,7 @@ if
 iter
 -
 >
-iter_flags
+flags
 &
 ITER_NARROW
 )

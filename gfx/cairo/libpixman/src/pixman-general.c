@@ -721,7 +721,7 @@ component_alpha
 ;
 iter_flags_t
 narrow
-src_iter_flags
+src_flags
 ;
 iter_flags_t
 rgb16
@@ -952,7 +952,7 @@ src
 iter
 *
 /
-src_iter_flags
+src_flags
 =
 narrow
 |
@@ -979,10 +979,6 @@ src_y
 width
 height
 src_buffer
-src_iter_flags
-info
--
->
 src_flags
 )
 ;
@@ -995,7 +991,7 @@ iter
 if
 (
 (
-src_iter_flags
+src_flags
 &
 (
 ITER_IGNORE_ALPHA
@@ -1099,10 +1095,6 @@ component_alpha
 :
 ITER_IGNORE_RGB
 )
-info
--
->
-mask_flags
 )
 ;
 /
@@ -1135,10 +1127,6 @@ op
 dst
 |
 rgb16
-info
--
->
-dest_flags
 )
 ;
 compose
