@@ -1248,6 +1248,14 @@ ins
 )
 ;
 bool
+visitGuardString
+(
+MGuardString
+*
+ins
+)
+;
+bool
 visitCallGetProperty
 (
 MCallGetProperty
