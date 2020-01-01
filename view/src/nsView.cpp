@@ -2064,7 +2064,7 @@ if
 parentWidget
 &
 &
-Type
+aType
 =
 =
 eWindowType_popup
