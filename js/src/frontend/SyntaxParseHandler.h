@@ -1224,17 +1224,6 @@ return
 NULL
 ;
 }
-bool
-isEmptySemicolon
-(
-Node
-pn
-)
-{
-return
-false
-;
-}
 Node
 makeAssignment
 (
