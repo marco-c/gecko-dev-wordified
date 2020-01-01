@@ -525,16 +525,6 @@ rect
 clips
 .
 LAYER_ACTIVE_FORCE
-/
-/
-Special
-layer
-that
-is
-metadata
-only
-.
-LAYER_ACTIVE_EMPTY
 }
 ;
 /
