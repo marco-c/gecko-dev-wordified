@@ -99,10 +99,15 @@ NPAPIProtocol
 enum
 State
 {
+StateStart
+=
+0
+StateError
+StateLast
 }
 ;
 enum
-NPAPIProtocolMsgType
+MessageType
 {
 NPAPIProtocolStart
 =
