@@ -1395,7 +1395,7 @@ time
 stretcher
 .
 virtual
-void
+nsresult
 EnsureTimeStretcherInitialized
 (
 )
