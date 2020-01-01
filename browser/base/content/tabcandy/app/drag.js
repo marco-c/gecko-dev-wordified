@@ -1874,7 +1874,6 @@ return
 rect
 ;
 }
-else
 return
 false
 ;

@@ -4843,14 +4843,12 @@ index
 +
 1
 ;
-else
 return
 best
 .
 index
 ;
 }
-else
 return
 self
 .
