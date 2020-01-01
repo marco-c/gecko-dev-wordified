@@ -976,13 +976,6 @@ js_with_str
 [
 ]
 ;
-extern
-const
-char
-js_yield_str
-[
-]
-;
 namespace
 js
 {
