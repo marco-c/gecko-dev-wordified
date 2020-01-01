@@ -4584,6 +4584,8 @@ sizeof
 char
 *
 )
+NULL
+0
 )
 ;
 return
