@@ -55,6 +55,16 @@ MPL
 .
 /
 /
+This
+is
+the
+only
+implementation
+of
+nsIUrlListManager
+.
+/
+/
 A
 class
 that
