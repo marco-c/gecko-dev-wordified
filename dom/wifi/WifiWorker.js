@@ -12549,6 +12549,12 @@ ipAddress
 ;
 this
 .
+macAddress
+=
+null
+;
+this
+.
 _lastConnectionInfo
 =
 null
