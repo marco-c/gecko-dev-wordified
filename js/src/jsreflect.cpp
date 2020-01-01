@@ -1474,9 +1474,6 @@ atom
 if
 (
 !
-baseops
-:
-:
 GetPropertyDefault
 (
 cx
@@ -17494,9 +17491,6 @@ locAtom
 if
 (
 !
-baseops
-:
-:
 GetPropertyDefault
 (
 cx
@@ -17553,9 +17547,6 @@ sourceAtom
 if
 (
 !
-baseops
-:
-:
 GetPropertyDefault
 (
 cx
@@ -17683,9 +17674,6 @@ lineAtom
 if
 (
 !
-baseops
-:
-:
 GetPropertyDefault
 (
 cx
@@ -17743,9 +17731,6 @@ builderAtom
 if
 (
 !
-baseops
-:
-:
 GetPropertyDefault
 (
 cx

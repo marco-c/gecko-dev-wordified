@@ -1963,14 +1963,13 @@ return
 true
 ;
 }
-RootedVarObject
+JSObject
+*
 arr
-(
-cx
+=
 NewDenseEmptyArray
 (
 cx
-)
 )
 ;
 if

@@ -1060,9 +1060,10 @@ length_getter
 JSContext
 *
 cx
-JSHandleObject
+JSObject
+*
 obj
-JSHandleId
+jsid
 id
 jsval
 *

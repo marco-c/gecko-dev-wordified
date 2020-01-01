@@ -1890,7 +1890,8 @@ HasInstance
 JSContext
 *
 cx
-HandleObject
+JSObject
+*
 obj
 const
 js

@@ -74,10 +74,8 @@ my_convert
 JSContext
 *
 context
-JS
-:
-:
-HandleObject
+JSObject
+*
 obj
 JSType
 type

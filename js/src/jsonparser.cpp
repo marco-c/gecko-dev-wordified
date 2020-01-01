@@ -3651,10 +3651,9 @@ popCopy
 (
 )
 ;
-RootedVarId
+jsid
 propid
-(
-cx
+=
 AtomToId
 (
 &
@@ -3671,7 +3670,6 @@ toString
 >
 asAtom
 (
-)
 )
 )
 ;
@@ -3944,9 +3942,6 @@ if
 js_NewbornArrayPush
 (
 cx
-RootedVarObject
-(
-cx
 &
 valueStack
 .
@@ -3956,7 +3951,6 @@ back
 .
 toObject
 (
-)
 )
 v
 )

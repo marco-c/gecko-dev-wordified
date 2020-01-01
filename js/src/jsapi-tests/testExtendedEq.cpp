@@ -88,10 +88,8 @@ my_Equality
 JSContext
 *
 cx
-JS
-:
-:
-HandleObject
+JSObject
+*
 obj
 const
 jsval

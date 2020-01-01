@@ -8894,7 +8894,8 @@ XPC_WN_Equality
 JSContext
 *
 cx
-JSHandleObject
+JSObject
+*
 obj
 const
 jsval
@@ -8940,7 +8941,8 @@ XPC_WN_JSOp_Enumerate
 JSContext
 *
 cx
-JSHandleObject
+JSObject
+*
 obj
 JSIterateOp
 enum_op
@@ -8959,7 +8961,8 @@ XPC_WN_JSOp_TypeOf_Object
 JSContext
 *
 cx
-JSHandleObject
+JSObject
+*
 obj
 )
 ;
@@ -8970,7 +8973,8 @@ XPC_WN_JSOp_TypeOf_Function
 JSContext
 *
 cx
-JSHandleObject
+JSObject
+*
 obj
 )
 ;
@@ -8981,7 +8985,8 @@ XPC_WN_JSOp_Clear
 JSContext
 *
 cx
-JSHandleObject
+JSObject
+*
 obj
 )
 ;
@@ -8993,7 +8998,8 @@ XPC_WN_JSOp_ThisObject
 JSContext
 *
 cx
-JSHandleObject
+JSObject
+*
 obj
 )
 ;

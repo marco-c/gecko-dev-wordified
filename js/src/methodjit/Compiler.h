@@ -2042,11 +2042,8 @@ analyze
 CrossScriptSSA
 ssa
 ;
-RootedVar
-<
 GlobalObject
 *
->
 globalObj
 ;
 const
@@ -3218,9 +3215,10 @@ pc
 bool
 testSingletonProperty
 (
-HandleObject
+JSObject
+*
 obj
-HandleId
+jsid
 id
 )
 ;
@@ -3230,7 +3228,7 @@ testSingletonPropertyTypes
 FrameEntry
 *
 top
-HandleId
+jsid
 id
 bool
 *
