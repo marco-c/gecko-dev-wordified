@@ -550,6 +550,9 @@ isBase64
 nsCString
 &
 dataBuffer
+nsCString
+&
+hashRef
 )
 ;
 }
