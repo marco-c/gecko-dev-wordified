@@ -8315,7 +8315,7 @@ reply
 .
 this
 .
-_sendRequest
+_send
 (
 "
 unregister
