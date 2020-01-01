@@ -5391,6 +5391,7 @@ masm
 negDouble
 (
 fpreg
+fpreg
 )
 ;
 #
