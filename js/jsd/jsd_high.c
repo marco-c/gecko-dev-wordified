@@ -621,8 +621,6 @@ jsdc
 >
 dumbContext
 )
-|
-JSOPTION_ALLOW_XML
 )
 ;
 jsdc
