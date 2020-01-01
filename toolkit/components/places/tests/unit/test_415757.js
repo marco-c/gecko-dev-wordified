@@ -925,7 +925,7 @@ ex
 do_throw
 (
 "
-addPageWithDetails
+addVisit
 failed
 "
 )
