@@ -4233,8 +4233,6 @@ _stackDontDemote
 .
 set
 (
-&
-gc
 ORACLE_SIZE
 -
 1
@@ -4244,8 +4242,6 @@ _globalDontDemote
 .
 set
 (
-&
-gc
 ORACLE_SIZE
 -
 1
@@ -4291,8 +4287,6 @@ _globalDontDemote
 .
 set
 (
-&
-gc
 GlobalSlotHash
 (
 cx
@@ -4387,8 +4381,6 @@ _stackDontDemote
 .
 set
 (
-&
-gc
 StackSlotHash
 (
 cx
@@ -4479,8 +4471,6 @@ _pcDontDemote
 .
 set
 (
-&
-gc
 PCHash
 (
 pc

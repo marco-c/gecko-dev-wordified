@@ -4823,7 +4823,6 @@ StackFilter
 storefilter1
 (
 prev
-gc
 frag
 -
 >
@@ -4893,7 +4892,6 @@ StackFilter
 storefilter2
 (
 prev
-gc
 frag
 -
 >
