@@ -2395,6 +2395,11 @@ animation
 /
 return
 !
+mErrorFlags
+&
+&
+(
+!
 (
 IsAdditive
 (
@@ -2418,6 +2423,7 @@ mIsFrozen
 &
 !
 mHasChanged
+)
 )
 ;
 }
