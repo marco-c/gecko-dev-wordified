@@ -3621,6 +3621,7 @@ processed_characters_count
 bool
 read_as_double
 )
+const
 {
 const
 char

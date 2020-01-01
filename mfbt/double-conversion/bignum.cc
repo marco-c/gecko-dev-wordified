@@ -3530,14 +3530,13 @@ is
 extremely
 inefficient
 if
-the
 this
 divided
+by
 other
 /
 /
-might
-be
+is
 big
 .
 This
@@ -5479,10 +5478,6 @@ kChunkSize
 -
 1
 )
-;
-+
-+
-i
 ;
 }
 Clamp
