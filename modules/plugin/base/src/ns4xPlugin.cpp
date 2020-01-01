@@ -14621,9 +14621,11 @@ NPERR_NO_ERROR
 ;
 }
 else
+{
 return
 NPERR_GENERIC_ERROR
 ;
+}
 }
 case
 NPNVDOMElement
