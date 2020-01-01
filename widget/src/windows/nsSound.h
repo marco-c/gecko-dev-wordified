@@ -448,6 +448,13 @@ nsIStreamLoader
 .
 h
 "
+#
+include
+"
+nsThreadUtils
+.
+h
+"
 class
 nsSound
 :
@@ -483,6 +490,12 @@ private
 PRUint8
 *
 mLastSound
+;
+nsCOMPtr
+<
+nsIThread
+>
+mPlayerThread
 ;
 }
 ;
