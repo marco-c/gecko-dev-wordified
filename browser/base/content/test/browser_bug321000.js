@@ -1133,6 +1133,14 @@ focus
 (
 )
 ;
+gBrowser
+.
+selectedBrowser
+.
+focus
+(
+)
+;
 /
 /
 Focus
