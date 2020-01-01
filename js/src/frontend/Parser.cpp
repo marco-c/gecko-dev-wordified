@@ -12035,8 +12035,12 @@ sc
 isFunction
 )
 {
-JS_ASSERT
+JS_ASSERT_IF
 (
+pc
+-
+>
+parent
 pc
 -
 >
