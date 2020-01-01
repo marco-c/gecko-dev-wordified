@@ -497,15 +497,10 @@ _date
 =
 "
 +
-Math
-.
-floor
-(
 Date
 .
 now
 (
-)
 )
 ;
 function

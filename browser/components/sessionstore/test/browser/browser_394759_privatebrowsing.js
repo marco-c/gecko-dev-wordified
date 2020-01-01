@@ -1000,15 +1000,10 @@ manually
 let
 now
 =
-Math
-.
-floor
-(
 Date
 .
 now
 (
-)
 )
 ;
 const

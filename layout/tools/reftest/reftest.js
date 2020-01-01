@@ -5864,15 +5864,10 @@ path
 /
 "
 +
-Math
-.
-floor
-(
 Date
 .
 now
 (
-)
 )
 +
 "

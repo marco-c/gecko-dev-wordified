@@ -564,15 +564,10 @@ input
 ]
 "
 :
-Math
-.
-floor
-(
 Date
 .
 now
 (
-)
 )
 .
 toString

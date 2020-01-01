@@ -515,15 +515,10 @@ bug524745
 let
 uniqVal
 =
-Math
-.
-floor
-(
 Date
 .
 now
 (
-)
 )
 ;
 waitForExplicitFinish
