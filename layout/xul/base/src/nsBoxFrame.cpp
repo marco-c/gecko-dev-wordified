@@ -881,7 +881,7 @@ h
 #
 include
 "
-nsIBoxLayout
+nsBoxLayout
 .
 h
 "
@@ -1088,7 +1088,7 @@ nsStyleContext
 aContext
 PRBool
 aIsRoot
-nsIBoxLayout
+nsBoxLayout
 *
 aLayoutManager
 )
@@ -1148,7 +1148,7 @@ nsStyleContext
 aContext
 PRBool
 aIsRoot
-nsIBoxLayout
+nsBoxLayout
 *
 aLayoutManager
 )
@@ -1199,7 +1199,7 @@ sprocket
 layout
 nsCOMPtr
 <
-nsIBoxLayout
+nsBoxLayout
 >
 layout
 =

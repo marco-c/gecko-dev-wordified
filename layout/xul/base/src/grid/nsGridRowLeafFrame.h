@@ -602,7 +602,7 @@ nsStyleContext
 aContext
 PRBool
 aIsRoot
-nsIBoxLayout
+nsBoxLayout
 *
 aLayoutManager
 )

@@ -490,7 +490,7 @@ nsGridCell
 *
 *
 The
-nsIBoxLayout
+nsBoxLayout
 implementation
 for
 a
@@ -515,7 +515,7 @@ NS_NewGridLayout2
 nsIPresShell
 *
 aPresShell
-nsIBoxLayout
+nsBoxLayout
 *
 *
 aNewLayout

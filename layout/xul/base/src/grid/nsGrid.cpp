@@ -3349,7 +3349,7 @@ aBox
 return
 nsnull
 ;
-nsIBoxLayout
+nsBoxLayout
 *
 layout
 =

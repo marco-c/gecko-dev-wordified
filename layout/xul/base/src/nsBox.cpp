@@ -558,7 +558,7 @@ h
 #
 include
 "
-nsIBoxLayout
+nsBoxLayout
 .
 h
 "

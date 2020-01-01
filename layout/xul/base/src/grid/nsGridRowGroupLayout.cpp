@@ -509,13 +509,13 @@ h
 "
 already_AddRefed
 <
-nsIBoxLayout
+nsBoxLayout
 >
 NS_NewGridRowGroupLayout
 (
 )
 {
-nsIBoxLayout
+nsBoxLayout
 *
 layout
 =

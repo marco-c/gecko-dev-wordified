@@ -497,7 +497,7 @@ additional
 interface
 implemented
 by
-nsIBoxLayout
+nsBoxLayout
 implementations
 *
 for

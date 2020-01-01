@@ -826,7 +826,7 @@ nsIPresShell
 aPresShell
 nsCOMPtr
 <
-nsIBoxLayout
+nsBoxLayout
 >
 &
 aNewLayout
@@ -849,7 +849,7 @@ nsIPresShell
 aPresShell
 nsCOMPtr
 <
-nsIBoxLayout
+nsBoxLayout
 >
 &
 aNewLayout
@@ -1185,14 +1185,14 @@ can
 make
 a
 static
-on
+one
 and
 reuse
 it
 everywhere
 .
 static
-nsIBoxLayout
+nsBoxLayout
 *
 gInstance
 ;

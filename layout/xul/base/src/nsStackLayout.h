@@ -498,7 +498,7 @@ nsIPresShell
 aPresShell
 nsCOMPtr
 <
-nsIBoxLayout
+nsBoxLayout
 >
 &
 aNewLayout
@@ -521,7 +521,7 @@ nsIPresShell
 aPresShell
 nsCOMPtr
 <
-nsIBoxLayout
+nsBoxLayout
 >
 &
 aNewLayout
@@ -655,7 +655,7 @@ aMargin
 private
 :
 static
-nsIBoxLayout
+nsBoxLayout
 *
 gInstance
 ;

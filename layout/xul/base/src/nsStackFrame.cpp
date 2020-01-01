@@ -563,7 +563,7 @@ aContext
 {
 nsCOMPtr
 <
-nsIBoxLayout
+nsBoxLayout
 >
 layout
 ;

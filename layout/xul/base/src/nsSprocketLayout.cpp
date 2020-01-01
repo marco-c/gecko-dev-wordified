@@ -525,7 +525,7 @@ nsBoxFrame
 .
 h
 "
-nsIBoxLayout
+nsBoxLayout
 *
 nsSprocketLayout
 :
@@ -559,7 +559,7 @@ nsIPresShell
 aPresShell
 nsCOMPtr
 <
-nsIBoxLayout
+nsBoxLayout
 >
 &
 aNewLayout

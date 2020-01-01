@@ -538,7 +538,7 @@ nsGridRowGroupLayout
 /
 /
 /
-nsIBoxLayout
+nsBoxLayout
 /
 /
 /
@@ -1907,13 +1907,13 @@ Routines
 /
 already_AddRefed
 <
-nsIBoxLayout
+nsBoxLayout
 >
 NS_NewListBoxLayout
 (
 )
 {
-nsIBoxLayout
+nsBoxLayout
 *
 layout
 =

@@ -451,7 +451,7 @@ h
 *
 *
 The
-nsIBoxLayout
+nsBoxLayout
 implementation
 for
 nsGridRowGroupFrame
@@ -469,7 +469,7 @@ public
 friend
 already_AddRefed
 <
-nsIBoxLayout
+nsBoxLayout
 >
 NS_NewGridRowGroupLayout
 (

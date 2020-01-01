@@ -492,7 +492,7 @@ NS_NewGridLayout2
 nsIPresShell
 *
 aPresShell
-nsIBoxLayout
+nsBoxLayout
 *
 *
 aNewLayout

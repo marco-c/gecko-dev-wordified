@@ -458,7 +458,7 @@ h
 *
 *
 The
-nsIBoxLayout
+nsBoxLayout
 implementation
 for
 nsGridRowLeafFrame
@@ -497,7 +497,7 @@ public
 friend
 already_AddRefed
 <
-nsIBoxLayout
+nsBoxLayout
 >
 NS_NewGridRowLeafLayout
 (

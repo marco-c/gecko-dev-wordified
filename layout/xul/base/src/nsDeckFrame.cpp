@@ -602,7 +602,7 @@ mIndex
 {
 nsCOMPtr
 <
-nsIBoxLayout
+nsBoxLayout
 >
 layout
 ;

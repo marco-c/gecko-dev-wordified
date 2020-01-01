@@ -477,7 +477,7 @@ for
 nsGridRowLeafLayout
 (
 the
-nsIBoxLayout
+nsBoxLayout
 object
 *
 for
@@ -491,7 +491,7 @@ and
 nsGridRowGroupLayout
 (
 the
-nsIBoxLayout
+nsBoxLayout
 *
 object
 for

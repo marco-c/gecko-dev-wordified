@@ -483,7 +483,7 @@ nsListBoxLayout
 ;
 /
 /
-nsIBoxLayout
+nsBoxLayout
 NS_IMETHOD
 Layout
 (

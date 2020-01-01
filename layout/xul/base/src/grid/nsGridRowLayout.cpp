@@ -848,7 +848,7 @@ GetScrolledBox
 child
 )
 ;
-nsIBoxLayout
+nsBoxLayout
 *
 layout
 =
