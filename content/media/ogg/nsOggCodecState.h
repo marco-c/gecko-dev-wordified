@@ -1412,7 +1412,7 @@ float
 mFrameRate
 ;
 float
-mAspectRatio
+mPixelAspectRatio
 ;
 }
 ;

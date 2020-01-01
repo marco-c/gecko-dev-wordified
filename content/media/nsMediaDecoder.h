@@ -2004,7 +2004,7 @@ gfxIntSize
 &
 aSize
 float
-aAspectRatio
+aPixelAspectRatio
 Image
 *
 aImage
@@ -2367,7 +2367,7 @@ pixel
 height
 )
 float
-mAspectRatio
+mPixelAspectRatio
 ;
 /
 /

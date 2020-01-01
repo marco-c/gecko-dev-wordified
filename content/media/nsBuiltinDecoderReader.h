@@ -566,7 +566,7 @@ mFramerate
 .
 0
 )
-mAspectRatio
+mPixelAspectRatio
 (
 1
 .
@@ -610,7 +610,8 @@ mFramerate
 ;
 /
 /
-Aspect
+Pixel
+aspect
 ratio
 as
 stored
@@ -619,7 +620,7 @@ the
 metadata
 .
 float
-mAspectRatio
+mPixelAspectRatio
 ;
 /
 /

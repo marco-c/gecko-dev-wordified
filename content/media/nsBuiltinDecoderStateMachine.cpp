@@ -7153,7 +7153,7 @@ height
 )
 info
 .
-mAspectRatio
+mPixelAspectRatio
 image
 )
 ;
