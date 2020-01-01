@@ -21611,7 +21611,7 @@ false
 /
 If
 true
-Promise
+Future
 will
 be
 enabled
@@ -21623,7 +21623,7 @@ pref
 "
 dom
 .
-promise
+future
 .
 enabled
 "
@@ -21637,7 +21637,7 @@ pref
 "
 dom
 .
-promise
+future
 .
 enabled
 "
