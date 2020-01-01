@@ -8366,7 +8366,7 @@ oprnd1
 ins
 -
 >
-immdisp
+disp
 (
 )
 ins
@@ -8416,7 +8416,7 @@ dr
 ins
 -
 >
-immdisp
+disp
 (
 )
 ;
