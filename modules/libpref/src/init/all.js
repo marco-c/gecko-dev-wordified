@@ -2198,6 +2198,11 @@ hebrew
 (
 0x04
 )
++
+thai
+(
+0x40
+)
 pref
 (
 "
@@ -2209,7 +2214,7 @@ harfbuzz
 .
 scripts
 "
-7
+71
 )
 ;
 #
