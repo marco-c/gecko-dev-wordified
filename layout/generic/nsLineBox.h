@@ -898,6 +898,12 @@ single
 frame
 .
 *
+The
+allocation
+is
+infallible
+.
+*
 If
 the
 frame
@@ -981,6 +987,11 @@ are
 currently
 on
 aFromLine
+.
+The
+allocation
+is
+infallible
 .
 *
 /
