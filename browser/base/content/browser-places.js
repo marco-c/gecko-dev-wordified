@@ -2046,6 +2046,9 @@ SU_removeBookmarkButtonCommand
 (
 )
 {
+#
+ifdef
+ADVANCED_STARRING_UI
 /
 /
 In
@@ -2284,6 +2287,8 @@ focus
 )
 ;
 }
+#
+endif
 /
 /
 cache
@@ -2392,6 +2397,9 @@ txn
 )
 ;
 }
+#
+ifdef
+ADVANCED_STARRING_UI
 /
 /
 hidePopup
@@ -2416,6 +2424,8 @@ this
 .
 _batching
 )
+#
+endif
 this
 .
 panel
@@ -2996,6 +3006,9 @@ after_end
 "
 )
 ;
+#
+ifdef
+ADVANCED_STARRING_UI
 else
 StarUI
 .
@@ -3008,6 +3021,8 @@ after_end
 "
 )
 ;
+#
+endif
 return
 ;
 }
