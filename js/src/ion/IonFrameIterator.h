@@ -1544,6 +1544,7 @@ thisObject
 const
 ;
 InlineFrameIterator
+&
 operator
 +
 +
