@@ -1357,9 +1357,9 @@ mutated
 .
 *
 /
-nsCOMPtr
+nsRefPtr
 <
-nsISelectElement
+nsHTMLSelectElement
 >
 mSelect
 ;
