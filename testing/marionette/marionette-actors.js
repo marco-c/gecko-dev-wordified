@@ -7495,6 +7495,12 @@ sendString
 aRequest
 .
 value
+.
+join
+(
+"
+"
+)
 utils
 .
 window
