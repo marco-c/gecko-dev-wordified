@@ -478,6 +478,9 @@ nsStyleContext
 h
 "
 class
+nsISupportsArray
+;
+class
 nsDFAState
 :
 public

@@ -481,9 +481,6 @@ class
 nsString
 ;
 class
-nsISupportsArray
-;
-class
 nsITimer
 ;
 class
