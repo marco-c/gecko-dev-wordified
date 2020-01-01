@@ -517,7 +517,7 @@ if
 mTextureClient
 )
 {
-SetTextureClientForBuffer
+SetBufferProvider
 (
 mTextureClient
 )
@@ -564,7 +564,7 @@ draw
 was
 empty
 .
-SetTextureClientForBuffer
+SetBufferProvider
 (
 nullptr
 )
