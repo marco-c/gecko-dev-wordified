@@ -11572,6 +11572,7 @@ Length
 )
 )
 {
+return
 mElements
 [
 aIndex
