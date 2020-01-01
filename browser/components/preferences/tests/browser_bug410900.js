@@ -9,10 +9,10 @@ waitForExplicitFinish
 ;
 /
 /
-setup
+Setup
 a
 phony
-hander
+handler
 to
 ensure
 the
@@ -221,11 +221,6 @@ loaded
 )
 return
 ;
-runTest
-(
-win
-)
-;
 obs
 .
 removeObserver
@@ -240,6 +235,11 @@ pane
 -
 loaded
 "
+)
+;
+runTest
+(
+win
 )
 ;
 }
