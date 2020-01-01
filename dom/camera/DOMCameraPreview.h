@@ -260,7 +260,7 @@ preview
 is
 started
 void
-Stop
+StopPreview
 (
 )
 ;
