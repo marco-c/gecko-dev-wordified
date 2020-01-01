@@ -533,7 +533,7 @@ permMgr
 nullptr
 )
 ;
-PRUint32
+uint32_t
 permission
 =
 nsIPermissionManager
