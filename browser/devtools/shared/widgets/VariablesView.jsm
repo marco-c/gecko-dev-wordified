@@ -15082,9 +15082,7 @@ sealed
 extensible
 "
 "
-native
--
-getter
+WebIDL
 "
 ]
 ;
