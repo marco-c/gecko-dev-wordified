@@ -1398,16 +1398,6 @@ GetWindowRoot
 (
 )
 ;
-PRInt32
-GetDefaultNamespaceID
-(
-)
-const
-{
-return
-kNameSpaceID_XUL
-;
-}
 static
 NS_HIDDEN_
 (

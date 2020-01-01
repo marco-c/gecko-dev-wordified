@@ -5580,17 +5580,6 @@ IsSafeToFlush
 )
 const
 ;
-virtual
-PRInt32
-GetDefaultNamespaceID
-(
-)
-const
-{
-return
-kNameSpaceID_None
-;
-}
 void
 DispatchPageTransition
 (
@@ -6256,9 +6245,6 @@ mIsFullScreen
 ;
 PRUint8
 mXMLDeclarationBits
-;
-PRUint8
-mDefaultElementType
 ;
 nsInterfaceHashtable
 <
