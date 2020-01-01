@@ -323,13 +323,6 @@ mozIStorageAsyncStatement
 .
 h
 "
-#
-include
-"
-mozIStorageAsyncConnection
-.
-h
-"
 /
 /
 /

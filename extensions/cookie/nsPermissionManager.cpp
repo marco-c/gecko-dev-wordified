@@ -1498,9 +1498,6 @@ CloseDatabaseListener
 :
 Complete
 (
-nsresult
-nsISupports
-*
 )
 {
 /

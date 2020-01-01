@@ -4827,9 +4827,6 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 Complete
 (
-nsresult
-nsISupports
-*
 )
 {
 gCookieService

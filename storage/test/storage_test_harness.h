@@ -957,9 +957,6 @@ AsyncStatementSpinner
 :
 Complete
 (
-nsresult
-nsISupports
-*
 )
 {
 mCompleted
