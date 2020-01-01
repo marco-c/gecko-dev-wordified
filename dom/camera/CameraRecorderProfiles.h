@@ -1016,7 +1016,6 @@ mMaxQualityIndex
 }
 ;
 }
-;
 /
 /
 namespace
