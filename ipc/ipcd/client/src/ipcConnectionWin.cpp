@@ -1355,7 +1355,7 @@ MsgBuf
 (
 )
 ;
-SendMessage
+SendMessageA
 (
 ipcDaemonHwnd
 WM_COPYDATA

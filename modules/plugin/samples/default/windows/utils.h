@@ -446,8 +446,7 @@ HWND
 hWnd
 int
 iID
-wchar_t
-*
+LPSTR
 szText
 )
 ;

@@ -1499,9 +1499,8 @@ gmAccLib
 =
 :
 :
-LoadLibraryW
+LoadLibrary
 (
-L
 "
 OLEACC
 .

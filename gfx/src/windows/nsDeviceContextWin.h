@@ -783,6 +783,10 @@ ptrLogFont
 nsFont
 *
 aFont
+PRBool
+aIsWide
+=
+PR_FALSE
 )
 const
 ;
