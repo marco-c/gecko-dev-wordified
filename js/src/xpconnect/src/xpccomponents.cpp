@@ -19728,6 +19728,7 @@ rv
 =
 NS_OK
 ;
+{
 AutoJSRequestWithNoCallContext
 req
 (
@@ -20029,6 +20030,7 @@ STRING_TO_JSVAL
 str
 )
 ;
+}
 }
 if
 (
