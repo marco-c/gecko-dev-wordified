@@ -3954,7 +3954,12 @@ aAudio
 -
 >
 mFrames
-MOZ_AUDIO_DATA_FORMAT
+nsAudioStream
+:
+:
+Format
+(
+)
 )
 ;
 LOG
