@@ -1,3 +1,6 @@
+%
+if
+0
 /
 *
 *
@@ -415,7 +418,11 @@ BLOCK
 *
 *
 /
+%
+endif
 import
+url
+(
 "
 chrome
 :
@@ -426,6 +433,7 @@ global
 skin
 /
 "
+)
 ;
 /
 *
