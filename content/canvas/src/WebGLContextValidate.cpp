@@ -563,7 +563,10 @@ PR_FALSE
 }
 if
 (
+WebGLuint
+(
 currentProgram
+)
 !
 =
 mCurrentProgram
@@ -585,7 +588,7 @@ current
 program
 (
 %
-d
+u
 )
 doesn
 '
