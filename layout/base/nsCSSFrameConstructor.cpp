@@ -61291,9 +61291,6 @@ StyleChangeReflow
 nsIFrame
 *
 aFrame
-nsIAtom
-*
-aAttribute
 )
 {
 /
@@ -62190,7 +62187,6 @@ nsChangeHint_ReflowFrame
 StyleChangeReflow
 (
 frame
-nsnull
 )
 ;
 }

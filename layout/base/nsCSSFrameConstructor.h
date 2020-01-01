@@ -4118,9 +4118,6 @@ StyleChangeReflow
 nsIFrame
 *
 aFrame
-nsIAtom
-*
-aAttribute
 )
 ;
 /
