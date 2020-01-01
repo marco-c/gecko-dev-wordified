@@ -5576,7 +5576,6 @@ getClass
 )
 ;
 }
-;
 inline
 bool
 JSObject
