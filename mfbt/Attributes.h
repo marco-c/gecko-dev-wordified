@@ -528,12 +528,6 @@ MOZ_HAVE_CXX11_CONSTEXPR
 endif
 #
 if
-__cplusplus
->
-=
-201103L
-#
-if
 __has_extension
 (
 cxx_deleted_functions
@@ -556,8 +550,6 @@ MOZ_HAVE_CXX11_OVERRIDE
 define
 MOZ_HAVE_CXX11_FINAL
 final
-#
-endif
 #
 endif
 #
