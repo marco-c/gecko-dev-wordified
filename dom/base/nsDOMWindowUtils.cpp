@@ -13465,7 +13465,7 @@ float
 aX
 float
 aY
-PRUint32
+uint32_t
 aSelectBehavior
 bool
 *
@@ -13821,7 +13821,7 @@ LoadSheet
 nsIURI
 *
 aSheetURI
-PRUint32
+uint32_t
 aSheetType
 )
 {
@@ -13973,7 +13973,7 @@ RemoveSheet
 nsIURI
 *
 aSheetURI
-PRUint32
+uint32_t
 aSheetType
 )
 {

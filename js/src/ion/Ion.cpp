@@ -416,7 +416,7 @@ IonTLSInitialized
 false
 ;
 static
-PRUintn
+unsigned
 IonTLSIndex
 ;
 static
