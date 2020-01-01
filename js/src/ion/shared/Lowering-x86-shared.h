@@ -233,6 +233,14 @@ rhs
 )
 ;
 bool
+lowerDivI
+(
+MDiv
+*
+div
+)
+;
+bool
 lowerModI
 (
 MMod
