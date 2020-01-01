@@ -1235,6 +1235,13 @@ previous
 =
 activeFrame_
 ;
+f
+-
+>
+scratch
+=
+NULL
+;
 activeFrame_
 =
 f
