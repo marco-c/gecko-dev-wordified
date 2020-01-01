@@ -79907,6 +79907,16 @@ use_cmov
 }
 }
 }
+set
+(
+&
+vp
+[
+1
+]
+this_ins
+)
+;
 box_value_into
 (
 vp
