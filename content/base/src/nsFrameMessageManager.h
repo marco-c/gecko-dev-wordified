@@ -792,7 +792,7 @@ aObject
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aArgc
 ShouldBroadcast
 aBroadcast

@@ -2574,7 +2574,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 permMgrPermission
 ;
 rv
@@ -2958,7 +2958,7 @@ get
 )
 )
 ;
-PRUint32
+uint32_t
 offset
 =
 0
@@ -3318,7 +3318,7 @@ permMgrPermission
 STS_SET
 )
 {
-PRUint32
+uint32_t
 subdomainPermission
 ;
 rv

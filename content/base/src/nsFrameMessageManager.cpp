@@ -451,7 +451,7 @@ Clear
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 tmp
@@ -1060,7 +1060,7 @@ NS_ERROR_FAILURE
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1723,7 +1723,7 @@ aBroadcast
 BROADCAST
 )
 {
-PRInt32
+int32_t
 len
 =
 mChildManagers
@@ -1734,7 +1734,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
