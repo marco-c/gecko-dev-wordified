@@ -1263,6 +1263,10 @@ nsIntSize
 aSize
 )
 {
+mSize
+=
+aSize
+;
 nsIntRegion
 r
 (

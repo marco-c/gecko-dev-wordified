@@ -5001,6 +5001,10 @@ mTextureInited
 =
 PR_TRUE
 ;
+mSize
+=
+aSize
+;
 }
 PRBool
 GLContext
