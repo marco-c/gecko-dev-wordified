@@ -1013,7 +1013,7 @@ QueryInterface
 (
 Ci
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 os
@@ -4823,7 +4823,7 @@ QueryInterface
 (
 Ci
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 os

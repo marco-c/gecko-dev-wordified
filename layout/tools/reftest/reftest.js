@@ -1745,7 +1745,7 @@ Components
 .
 interfaces
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 try
@@ -2083,7 +2083,7 @@ Components
 .
 interfaces
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 }
@@ -2764,7 +2764,7 @@ Components
 .
 interfaces
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 }
@@ -3979,7 +3979,7 @@ getService
 (
 CI
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 try
@@ -7738,7 +7738,7 @@ Components
 .
 interfaces
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 var
@@ -11787,7 +11787,7 @@ Components
 .
 interfaces
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 gPrefsToRestore
