@@ -980,6 +980,15 @@ nsIDOMEvent
 aEvent
 )
 ;
+virtual
+already_AddRefed
+<
+nsIContent
+>
+GetInputEventTargetContent
+(
+)
+;
 /
 *
 -
