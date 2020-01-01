@@ -130,6 +130,13 @@ mozilla_android_signal_defs_h__
 #
 include
 <
+signal
+.
+h
+>
+#
+include
+<
 android
 /
 api
