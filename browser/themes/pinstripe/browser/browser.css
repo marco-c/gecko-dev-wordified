@@ -3555,6 +3555,10 @@ toolbarbutton
 -
 1
 #
+restore
+-
+button
+#
 back
 -
 forward
@@ -3668,6 +3672,10 @@ bar
 toolbarbutton
 -
 1
+#
+restore
+-
+button
 {
 padding
 -
