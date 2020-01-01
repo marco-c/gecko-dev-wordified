@@ -2507,6 +2507,8 @@ continue
 /
 /
 PR_POLL_EXCEPT
+PR_POLL_ERR
+PR_POLL_HUP
 handling
 if
 (
