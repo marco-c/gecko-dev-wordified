@@ -1032,15 +1032,6 @@ GetXPCOMSingleton
 (
 )
 ;
-static
-already_AddRefed
-<
-nsPermissionManager
->
-GetSingleton
-(
-)
-;
 nsresult
 Init
 (
