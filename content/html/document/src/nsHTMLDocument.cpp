@@ -3099,8 +3099,9 @@ if
 aCommand
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSERT
 (
+false
 "
 Command
 is
@@ -3117,8 +3118,9 @@ if
 aSink
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSERT
 (
+false
 "
 Got
 a
@@ -3145,8 +3147,9 @@ if
 mIsRegularHTML
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSERT
 (
+false
 "
 Must
 not
@@ -3240,8 +3243,9 @@ asData
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSERT
 (
+false
 "
 Bad
 parser
@@ -3370,8 +3374,9 @@ viewSource
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSERT
 (
+false
 "
 Channel
 with
