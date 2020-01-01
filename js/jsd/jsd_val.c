@@ -1384,7 +1384,8 @@ compartment
 /
 scopeObj
 =
-JSVAL_IS_OBJECT
+!
+JSVAL_IS_PRIMITIVE
 (
 jsdval
 -
