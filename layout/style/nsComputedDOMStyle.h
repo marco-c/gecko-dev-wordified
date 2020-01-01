@@ -2061,6 +2061,12 @@ DoGetMozTransformOrigin
 (
 )
 ;
+nsIDOMCSSValue
+*
+DoGetOrient
+(
+)
+;
 /
 *
 User

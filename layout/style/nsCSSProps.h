@@ -2759,6 +2759,13 @@ kListStyleKTable
 static
 const
 PRInt32
+kOrientKTable
+[
+]
+;
+static
+const
+PRInt32
 kOutlineStyleKTable
 [
 ]
