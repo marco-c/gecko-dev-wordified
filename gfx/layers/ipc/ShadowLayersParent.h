@@ -523,6 +523,11 @@ ShadowLayersParent
 (
 )
 ;
+void
+Destroy
+(
+)
+;
 ShadowLayerManager
 *
 layer_manager

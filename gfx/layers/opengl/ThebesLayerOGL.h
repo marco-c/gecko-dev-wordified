@@ -703,6 +703,12 @@ DestroyFrontBuffer
 (
 )
 ;
+virtual
+void
+Disconnect
+(
+)
+;
 /
 /
 LayerOGL
