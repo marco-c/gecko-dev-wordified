@@ -4759,7 +4759,7 @@ R
 .
 drawable
 .
-abouthome_topsite_placeholder
+tab_thumbnail_default
 )
 ;
 }
@@ -4818,7 +4818,7 @@ R
 .
 drawable
 .
-abouthome_topsite_placeholder
+tab_thumbnail_default
 )
 ;
 }
