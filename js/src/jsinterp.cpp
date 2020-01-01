@@ -19821,8 +19821,13 @@ ScriptEpilogue
 .
 *
 /
+#
+ifdef
+JS_METHODJIT
 jit_return
 :
+#
+endif
 Value
 *
 newsp
