@@ -851,7 +851,7 @@ Gecko
 bug
 :
 Async
-animation
+transition
 of
 pseudoelements
 not
