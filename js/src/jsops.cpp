@@ -22581,7 +22581,7 @@ BEGIN_CASE
 JSOP_NEWARRAY
 )
 {
-uint32
+jsint
 len
 =
 GET_UINT16
@@ -24781,7 +24781,7 @@ isInt32
 )
 )
 ;
-uint32
+jsint
 len
 =
 rval
@@ -26369,7 +26369,7 @@ PUSH_HOLE
 (
 )
 ;
-uint32
+jsint
 len
 =
 GET_JUMP_OFFSET
@@ -26521,7 +26521,7 @@ sp
 -
 -
 ;
-uint32
+jsint
 len
 =
 GET_JUMP_OFFSET
