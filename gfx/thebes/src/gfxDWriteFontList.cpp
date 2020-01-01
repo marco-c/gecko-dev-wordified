@@ -1819,11 +1819,7 @@ gfxFontStyle
 *
 aFontStyle
 PRBool
-/
-*
 aNeedsBold
-*
-/
 )
 {
 return
@@ -1832,6 +1828,7 @@ gfxDWriteFont
 (
 this
 aFontStyle
+aNeedsBold
 )
 ;
 }
