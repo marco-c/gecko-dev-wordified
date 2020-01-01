@@ -72715,16 +72715,7 @@ return
 false
 ;
 return
-!
-fp
--
->
-fun
--
->
-isHeavyweight
-(
-)
+true
 ;
 }
 JS_REQUIRES_STACK
