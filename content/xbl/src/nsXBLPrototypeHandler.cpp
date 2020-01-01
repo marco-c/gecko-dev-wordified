@@ -2240,7 +2240,7 @@ if
 pWindow
 )
 {
-void
+JSObject
 *
 cachedHandler
 =
@@ -2259,7 +2259,7 @@ cachedHandler
 {
 aHandler
 .
-set
+setObject
 (
 cachedHandler
 )

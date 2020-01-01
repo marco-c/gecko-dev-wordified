@@ -10425,12 +10425,8 @@ holder
 return
 aHandler
 .
-set
+setObject
 (
-(
-void
-*
-)
 handler
 )
 ;

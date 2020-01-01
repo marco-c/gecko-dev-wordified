@@ -37310,7 +37310,7 @@ mDummyJavaPluginOwner
 nsnull
 ;
 }
-void
+JSObject
 *
 nsGlobalWindow
 :
@@ -37348,7 +37348,14 @@ handler
 ;
 }
 return
+static_cast
+<
+JSObject
+*
+>
+(
 handler
+)
 ;
 }
 void
