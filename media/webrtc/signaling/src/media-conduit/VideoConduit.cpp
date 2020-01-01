@@ -700,7 +700,8 @@ CSFLogDebug
 logTag
 "
 %
-sEngine
+s
+Engine
 Created
 :
 Init
@@ -975,9 +976,12 @@ CSFLogError
 (
 logTag
 "
+%
+s
 Initialization
 Done
 "
+__FUNCTION__
 )
 ;
 return

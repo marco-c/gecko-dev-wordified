@@ -1458,6 +1458,7 @@ Failed
 %
 d
 "
+__FUNCTION__
 mPtrVoEBase
 -
 >
@@ -1816,11 +1817,14 @@ CSFLogError
 (
 logTag
 "
+%
+s
 StartReceive
 Failed
 %
 d
 "
+__FUNCTION__
 error
 )
 ;
@@ -1859,10 +1863,13 @@ CSFLogError
 (
 logTag
 "
+%
+s
 Starting
 playout
 Failed
 "
+__FUNCTION__
 )
 ;
 return
@@ -2193,6 +2200,8 @@ CSFLogError
 (
 logTag
 "
+%
+s
 Inserting
 audio
 data
@@ -2200,6 +2209,7 @@ Failed
 %
 d
 "
+__FUNCTION__
 error
 )
 ;
@@ -2452,6 +2462,8 @@ CSFLogError
 (
 logTag
 "
+%
+s
 Getting
 audio
 data
@@ -2459,6 +2471,7 @@ Failed
 %
 d
 "
+__FUNCTION__
 error
 )
 ;
@@ -2579,6 +2592,7 @@ Error
 %
 d
 "
+__FUNCTION__
 error
 )
 ;
@@ -2610,11 +2624,14 @@ CSFLogError
 (
 logTag
 "
+%
+s
 ReceivedRTPPacket
 :
 Engine
 Error
 "
+__FUNCTION__
 )
 ;
 return
@@ -2702,6 +2719,7 @@ Error
 %
 d
 "
+__FUNCTION__
 error
 )
 ;
@@ -2733,11 +2751,14 @@ CSFLogError
 (
 logTag
 "
+%
+s
 ReceivedRTPPacket
 :
 Engine
 Error
 "
+__FUNCTION__
 )
 ;
 return
