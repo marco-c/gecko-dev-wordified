@@ -1780,8 +1780,6 @@ obj
 )
 ;
 return
-ATOM_TO_STRING
-(
 cx
 -
 >
@@ -1800,7 +1798,6 @@ typeOf
 cx
 )
 ]
-)
 ;
 }
 JS_DEFINE_CALLINFO_2
@@ -1837,8 +1834,6 @@ unboxed
 )
 ;
 return
-ATOM_TO_STRING
-(
 cx
 -
 >
@@ -1851,7 +1846,6 @@ booleanAtoms
 [
 unboxed
 ]
-)
 ;
 }
 JS_DEFINE_CALLINFO_2

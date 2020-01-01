@@ -26217,10 +26217,7 @@ sp
 .
 setString
 (
-ATOM_TO_STRING
-(
 atom
-)
 )
 ;
 }
@@ -28942,10 +28939,7 @@ sp
 .
 setString
 (
-ATOM_TO_STRING
-(
 atom
-)
 )
 ;
 if
@@ -30210,10 +30204,10 @@ length
 {
 str
 =
-JSString
+JSAtom
 :
 :
-getUnitString
+getUnitStringForElement
 (
 cx
 str
@@ -32872,10 +32866,7 @@ atom
 ;
 PUSH_STRING
 (
-ATOM_TO_STRING
-(
 atom
-)
 )
 ;
 }
@@ -33876,6 +33867,7 @@ isString
 (
 str2
 =
+&
 rval
 .
 toString
@@ -33883,7 +33875,7 @@ toString
 )
 -
 >
-assertIsLinear
+asLinear
 (
 )
 )
@@ -40836,10 +40828,7 @@ atom
 ;
 PUSH_STRING
 (
-ATOM_TO_STRING
-(
 atom
-)
 )
 ;
 }
@@ -40867,10 +40856,7 @@ rval
 =
 StringValue
 (
-ATOM_TO_STRING
-(
 atom
-)
 )
 ;
 Value
@@ -42081,10 +42067,7 @@ JSString
 *
 str
 =
-ATOM_TO_STRING
-(
 atom
-)
 ;
 JSObject
 *
@@ -42136,10 +42119,7 @@ JSString
 *
 str
 =
-ATOM_TO_STRING
-(
 atom
-)
 ;
 JSObject
 *
@@ -42191,10 +42171,7 @@ JSString
 *
 str
 =
-ATOM_TO_STRING
-(
 atom
-)
 ;
 Value
 rval

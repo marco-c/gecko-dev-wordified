@@ -13512,13 +13512,10 @@ sp
 .
 setString
 (
-ATOM_TO_STRING
-(
 pic
 -
 >
 atom
-)
 )
 ;
 if
@@ -15274,8 +15271,9 @@ toString
 )
 -
 >
-nonRopeChars
+getChars
 (
+cx
 )
 v
 .

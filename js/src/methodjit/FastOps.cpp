@@ -5920,10 +5920,7 @@ push
 (
 StringValue
 (
-ATOM_TO_STRING
-(
 atom
-)
 )
 )
 ;

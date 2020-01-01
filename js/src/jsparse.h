@@ -5249,10 +5249,7 @@ JSString
 *
 str
 =
-ATOM_TO_STRING
-(
 pn_atom
-)
 ;
 /
 *

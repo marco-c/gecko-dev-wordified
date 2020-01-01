@@ -3567,11 +3567,6 @@ check
 str
 -
 >
-asCell
-(
-)
--
->
 compartment
 (
 )

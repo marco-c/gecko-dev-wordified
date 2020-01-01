@@ -469,14 +469,11 @@ JSRTS_UP
 )
 ;
 return
-ATOM_TO_STRING
-(
 rt
 -
 >
 atomState
 .
 anonymousAtom
-)
 ;
 }

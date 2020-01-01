@@ -11036,13 +11036,10 @@ fun
 >
 atom
 ?
-ATOM_TO_STRING
-(
 fun
 -
 >
 atom
-)
 :
 cx
 -
@@ -13434,13 +13431,10 @@ atom
 MarkString
 (
 trc
-ATOM_TO_STRING
-(
 fun
 -
 >
 atom
-)
 "
 atom
 "

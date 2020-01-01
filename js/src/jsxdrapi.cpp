@@ -4015,11 +4015,8 @@ JSString
 *
 str
 =
-ATOM_TO_STRING
-(
 *
 atomp
-)
 ;
 return
 JS_XDRString

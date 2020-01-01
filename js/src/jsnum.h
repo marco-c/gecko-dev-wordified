@@ -1289,7 +1289,7 @@ signature
 *
 /
 extern
-JSFlatString
+JSFixedString
 *
 NumberToString
 (

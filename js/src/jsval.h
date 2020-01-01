@@ -1993,6 +1993,17 @@ use
 }
 JSWhyMagic
 ;
+#
+ifdef
+__cplusplus
+class
+JSString
+;
+class
+JSFlatString
+;
+#
+else
 typedef
 struct
 JSString
@@ -2003,6 +2014,8 @@ struct
 JSFlatString
 JSFlatString
 ;
+#
+endif
 typedef
 struct
 JSObject

@@ -3064,10 +3064,11 @@ PutEscapedString
 buf
 sizeof
 buf
+&
 str
 -
 >
-assertIsLinear
+asLinear
 (
 )
 '

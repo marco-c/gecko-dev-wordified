@@ -1876,8 +1876,7 @@ isString
 )
 )
 ?
-STRING_TO_ATOM
-(
+&
 getSlot
 (
 METHOD_ATOM_SLOT
@@ -1886,6 +1885,10 @@ METHOD_ATOM_SLOT
 toString
 (
 )
+-
+>
+asAtom
+(
 )
 :
 NULL
@@ -1913,10 +1916,7 @@ METHOD_ATOM_SLOT
 .
 setString
 (
-ATOM_TO_STRING
-(
 atom
-)
 )
 ;
 }
@@ -3228,13 +3228,10 @@ bytes
 encode
 (
 cx
-ATOM_TO_STRING
-(
 fun
 -
 >
 atom
-)
 )
 ;
 return
