@@ -1690,9 +1690,6 @@ autoClose
 autoOpened
 &
 &
-gCanAutoClose
-&
-&
 !
 gUserInteracted
 )
