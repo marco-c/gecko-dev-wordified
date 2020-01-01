@@ -481,6 +481,9 @@ nsITreeBoxObject
 h
 "
 class
+nsTreeBodyFrame
+;
+class
 nsTreeBoxObject
 :
 public
@@ -501,13 +504,13 @@ nsTreeBoxObject
 (
 )
 ;
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 GetTreeBody
 (
 )
 ;
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 GetCachedTreeBody
 (
@@ -535,7 +538,7 @@ ClearCachedValues
 ;
 protected
 :
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 mTreeBody
 ;

@@ -540,6 +540,13 @@ nsDisplayList
 .
 h
 "
+#
+include
+"
+nsTreeBodyFrame
+.
+h
+"
 /
 /
 /
@@ -1367,7 +1374,7 @@ columns
 }
 else
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =

@@ -1049,16 +1049,35 @@ nsTreeBodyFrame
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsITreeBoxObject
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsICSSPseudoComparator
 )
 NS_INTERFACE_MAP_ENTRY
 (
 nsIScrollbarMediator
 )
+if
+(
+aIID
+.
+Equals
+(
+NS_GET_IID
+(
+nsTreeBodyFrame
+)
+)
+)
+{
+*
+aInstancePtr
+=
+this
+;
+return
+NS_OK
+;
+}
+else
 NS_INTERFACE_MAP_END_INHERITING
 (
 nsLeafBoxFrame
@@ -2222,7 +2241,7 @@ if
 realTreeBoxObject
 )
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 innerTreeBoxObject
 =
@@ -2253,14 +2272,7 @@ innerTreeBoxObject
 innerTreeBoxObject
 =
 =
-static_cast
-<
-nsITreeBoxObject
-*
->
-(
 this
-)
 )
 ;
 mTreeBoxObject
@@ -2814,7 +2826,7 @@ mReflowCallbackPosted
 PR_FALSE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -2862,7 +2874,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -3210,7 +3222,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -3230,7 +3242,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -3291,7 +3303,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -3345,7 +3357,7 @@ aElement
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -3369,7 +3381,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -3395,7 +3407,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -3426,7 +3438,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -3446,7 +3458,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -3468,7 +3480,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -3494,7 +3506,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -3514,7 +3526,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -3804,7 +3816,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -3827,7 +3839,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -3959,7 +3971,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -4061,7 +4073,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -4204,7 +4216,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -4386,7 +4398,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -5919,7 +5931,7 @@ y
 /
 /
 AdjustClientCoordsToBoxCoordSpace
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -6000,7 +6012,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -6434,7 +6446,7 @@ well
 .
 /
 /
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -10693,7 +10705,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -11044,7 +11056,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -11430,7 +11442,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -11446,7 +11458,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -24238,7 +24250,7 @@ aStyleContext
 /
 /
 Scrolling
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -24367,7 +24379,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -24603,7 +24615,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -24661,7 +24673,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -24771,7 +24783,7 @@ x
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -24823,7 +24835,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -24888,7 +24900,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -24952,7 +24964,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -26018,7 +26030,7 @@ return
 nsnull
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
