@@ -647,7 +647,7 @@ if
 aDocument
 -
 >
-GetNumberOfShells
+GetPrimaryShell
 (
 )
 )
