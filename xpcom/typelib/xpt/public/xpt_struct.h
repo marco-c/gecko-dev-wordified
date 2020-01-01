@@ -2571,6 +2571,9 @@ TD_CSTRING
 TD_ASTRING
 =
 25
+TD_JSVAL
+=
+26
 }
 ;
 struct

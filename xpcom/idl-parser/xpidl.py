@@ -3145,6 +3145,14 @@ astring
 nsAString
 '
         
+'
+jsval
+'
+:
+'
+jsval
+'
+        
 }
     
 def
