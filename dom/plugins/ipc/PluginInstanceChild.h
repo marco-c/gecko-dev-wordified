@@ -294,9 +294,11 @@ map
 >
 #
 if
-defined
 (
 MOZ_WIDGET_GTK
+=
+=
+2
 )
 #
 include
@@ -1653,9 +1655,11 @@ mWsInfo
 ;
 #
 if
-defined
 (
 MOZ_WIDGET_GTK
+=
+=
+2
 )
 bool
 mXEmbed
