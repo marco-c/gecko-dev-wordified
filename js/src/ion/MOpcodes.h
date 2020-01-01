@@ -500,6 +500,11 @@ Test
 \
 _
 (
+InlineFunctionGuard
+)
+\
+_
+(
 Compare
 )
 \

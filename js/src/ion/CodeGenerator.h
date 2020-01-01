@@ -714,6 +714,14 @@ lir
 )
 ;
 bool
+visitInlineFunctionGuard
+(
+LInlineFunctionGuard
+*
+lir
+)
+;
+bool
 visitIntToString
 (
 LIntToString
