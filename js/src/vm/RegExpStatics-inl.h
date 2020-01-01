@@ -124,6 +124,15 @@ h
 #
 include
 "
+gc
+/
+Marking
+.
+h
+"
+#
+include
+"
 vm
 /
 RegExpObject
@@ -1080,7 +1089,7 @@ statics
 matchesInput
 )
 {
-traceString
+MarkStringRoot
 (
 trc
 reinterpret_cast
@@ -1109,7 +1118,7 @@ statics
 lazySource
 )
 {
-traceString
+MarkStringRoot
 (
 trc
 reinterpret_cast
@@ -1138,7 +1147,7 @@ statics
 pendingInput
 )
 {
-traceString
+MarkStringRoot
 (
 trc
 reinterpret_cast
