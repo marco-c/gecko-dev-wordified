@@ -16726,7 +16726,7 @@ unstableLoopVariable
 3
 noCompatInnerTrees
 :
-1
+0
 }
 ;
 test

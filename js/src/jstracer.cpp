@@ -14625,12 +14625,6 @@ Fragment
 f
 )
 {
-JSTraceMonitor
-*
-tm
-=
-traceMonitor
-;
 uint16
 *
 gslots
@@ -20170,12 +20164,6 @@ kind
 LoopTrace
 )
 {
-JSTraceMonitor
-*
-tm
-=
-traceMonitor
-;
 TreeInfo
 *
 ti
