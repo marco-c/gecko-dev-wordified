@@ -155,9 +155,6 @@ FunctionBox
 *
 funbox
 StrictMode
-:
-:
-StrictModeState
 sms
 )
 :
