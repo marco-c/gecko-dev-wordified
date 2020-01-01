@@ -5657,7 +5657,9 @@ larger
 than
 /
 /
-half
+1
+/
+8
 the
 cache
 capacity
@@ -5688,7 +5690,7 @@ newSizeK
 >
 mCacheCapacity
 /
-2
+8
 )
 )
 {
