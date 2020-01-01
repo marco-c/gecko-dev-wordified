@@ -715,17 +715,6 @@ eExcludesIgnorableWhitespace
 )
 ;
 }
-virtual
-int
-GetSkipSides
-(
-)
-const
-{
-return
-0
-;
-}
 NS_IMETHOD
 AppendFrames
 (
