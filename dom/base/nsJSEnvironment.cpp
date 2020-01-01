@@ -11705,6 +11705,15 @@ ac
 enter
 (
 mContext
+funobj
+)
+|
+|
+!
+JS_WrapObject
+(
+mContext
+&
 target
 )
 )
