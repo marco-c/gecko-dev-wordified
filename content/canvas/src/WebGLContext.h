@@ -5302,6 +5302,9 @@ realGLboolean
 mDitherEnabled
 ;
 realGLboolean
+mRasterizerDiscardEnabled
+;
+realGLboolean
 mScissorTestEnabled
 ;
 bool
