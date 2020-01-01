@@ -2406,15 +2406,11 @@ oncommand
 "
 BrowserSearch
 .
-loadSearch
+loadSearchFromContext
 (
 getBrowserSelection
 (
 )
-true
-'
-contextmenu
-'
 )
 ;
 "
