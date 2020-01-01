@@ -694,6 +694,14 @@ return
 mCheckedDirty
 ;
 }
+void
+GetText
+(
+nsAString
+&
+aText
+)
+;
 protected
 :
 virtual
