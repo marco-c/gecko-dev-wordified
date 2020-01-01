@@ -71,7 +71,7 @@ stability
 "
 :
 "
-unstable
+stable
 "
 }
 ;
