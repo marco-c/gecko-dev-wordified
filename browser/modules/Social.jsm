@@ -1764,6 +1764,7 @@ uninstallProvider
 function
 (
 origin
+aCallback
 )
 {
 SocialService
@@ -1771,6 +1772,7 @@ SocialService
 uninstallProvider
 (
 origin
+aCallback
 )
 ;
 }

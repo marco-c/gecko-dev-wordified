@@ -5182,6 +5182,7 @@ uninstallProvider
 function
 (
 origin
+aCallback
 )
 {
 let
@@ -5207,6 +5208,7 @@ addon
 .
 uninstall
 (
+aCallback
 )
 ;
 }
@@ -8002,6 +8004,7 @@ removeAddon
 function
 (
 aAddon
+aCallback
 )
 {
 AddonManagerPrivate
@@ -8057,6 +8060,15 @@ callAddonListeners
 onUninstalled
 "
 aAddon
+)
+;
+if
+(
+aCallback
+)
+schedule
+(
+aCallback
 )
 ;
 }
@@ -8820,6 +8832,7 @@ uninstall
 :
 function
 (
+aCallback
 )
 {
 let
@@ -8878,6 +8891,7 @@ SocialAddonProvider
 removeAddon
 (
 this
+aCallback
 )
 ;
 }
@@ -8896,9 +8910,18 @@ SocialAddonProvider
 removeAddon
 (
 this
+aCallback
 )
 ;
 }
+}
+else
+{
+schedule
+(
+aCallback
+)
+;
 }
 }
 cancelUninstall
