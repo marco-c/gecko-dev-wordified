@@ -1854,9 +1854,11 @@ entityId
 /
 /
 Add
-xhtml11
+htmlmathml
+-
+f
 .
-dtd
+ent
 to
 prevent
 missing
@@ -1879,9 +1881,11 @@ res
 /
 dtd
 /
-xhtml11
+htmlmathml
+-
+f
 .
-dtd
+ent
 "
 )
 ;
