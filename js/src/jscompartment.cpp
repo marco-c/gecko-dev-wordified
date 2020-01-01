@@ -493,6 +493,17 @@ h
 #
 include
 "
+assembler
+/
+wtf
+/
+Platform
+.
+h
+"
+#
+include
+"
 methodjit
 /
 MethodJIT
