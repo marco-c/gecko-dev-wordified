@@ -800,6 +800,8 @@ ExpireHistoryParanoid
 mozIStorageConnection
 *
 aConnection
+PRInt32
+aMaxRecords
 )
 ;
 nsresult
