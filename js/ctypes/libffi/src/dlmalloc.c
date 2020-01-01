@@ -9109,7 +9109,7 @@ includes
 /
 #
 ifdef
-WIN32
+_MSC_VER
 #
 pragma
 warning
@@ -9131,7 +9131,7 @@ warnings
 endif
 /
 *
-WIN32
+_MSC_VER
 *
 /
 #
@@ -10379,7 +10379,7 @@ size
 MEM_RESERVE
 |
 MEM_COMMIT
-PAGE_READWRITE
+PAGE_EXECUTE_READWRITE
 )
 ;
 return
@@ -10429,7 +10429,7 @@ MEM_RESERVE
 MEM_COMMIT
 |
 MEM_TOP_DOWN
-PAGE_READWRITE
+PAGE_EXECUTE_READWRITE
 )
 ;
 return

@@ -1694,17 +1694,6 @@ FFI_TYPE_SINT32
 case
 FFI_TYPE_INT
 :
-#
-if
-FFI_SIZEOF_JAVA_RAW
-=
-=
-4
-case
-FFI_TYPE_POINTER
-:
-#
-endif
 *
 (
 SINT64
