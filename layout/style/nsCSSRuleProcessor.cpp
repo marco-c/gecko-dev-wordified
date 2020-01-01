@@ -15172,6 +15172,12 @@ data
 >
 mCacheKey
 )
+&
+&
+sheet
+-
+>
+mInner
 )
 {
 nsCSSStyleSheet
@@ -15179,6 +15185,9 @@ nsCSSStyleSheet
 child
 =
 sheet
+-
+>
+mInner
 -
 >
 mFirstChild
@@ -15204,14 +15213,6 @@ mNext
 }
 if
 (
-sheet
--
->
-mInner
-)
-{
-if
-(
 !
 sheet
 -
@@ -15230,7 +15231,6 @@ data
 return
 PR_FALSE
 ;
-}
 }
 return
 PR_TRUE
