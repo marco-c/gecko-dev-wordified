@@ -1168,6 +1168,35 @@ return
 rv
   
 def
+applyFilters
+(
+self
+aLine
+)
+:
+    
+for
+f
+in
+self
+.
+filters
+:
+      
+aLine
+=
+f
+[
+1
+]
+(
+aLine
+)
+    
+return
+aLine
+  
+def
 write
 (
 self
@@ -1288,20 +1317,11 @@ writtenLines
 =
 ln
     
-for
-f
-in
-self
-.
-filters
-:
-      
 aLine
 =
-f
-[
-1
-]
+self
+.
+applyFilters
 (
 aLine
 )
@@ -2260,6 +2280,10 @@ value
       
 val
 =
+self
+.
+applyFilters
+(
 m
 .
 group
@@ -2267,6 +2291,7 @@ group
 '
 value
 '
+)
 )
       
 try
@@ -3763,6 +3788,15 @@ try
 args
 =
 str
+(
+args
+)
+        
+args
+=
+self
+.
+applyFilters
 (
 args
 )
