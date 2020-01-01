@@ -636,6 +636,8 @@ const
 gfxIntSize
 &
 size
+int
+depth
 )
 :
 mPixmapTaken
@@ -684,6 +686,10 @@ width
 mSize
 .
 height
+depth
+?
+depth
+:
 DefaultDepth
 (
 dpy
