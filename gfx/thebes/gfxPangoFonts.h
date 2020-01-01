@@ -217,14 +217,6 @@ i
 )
 ;
 virtual
-nsString
-GetFamilyNameAt
-(
-int32_t
-i
-)
-;
-virtual
 void
 UpdateFontList
 (
