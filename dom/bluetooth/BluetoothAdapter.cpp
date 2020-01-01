@@ -887,7 +887,10 @@ bs
 >
 RegisterBluetoothSignalHandler
 (
-mPath
+NS_LITERAL_STRING
+(
+KEY_ADAPTER
+)
 this
 )
 ;
@@ -933,7 +936,10 @@ bs
 >
 UnregisterBluetoothSignalHandler
 (
-mPath
+NS_LITERAL_STRING
+(
+KEY_ADAPTER
+)
 this
 )
 ;
@@ -2070,7 +2076,6 @@ bs
 >
 StartDiscoveryInternal
 (
-mPath
 results
 )
 ;
@@ -2084,7 +2089,6 @@ bs
 >
 StopDiscoveryInternal
 (
-mPath
 results
 )
 ;
@@ -2797,7 +2801,7 @@ BluetoothVoidReplyRunnable
 req
 )
 ;
-nsString
+nsAutoString
 addr
 ;
 aDevice
@@ -2837,7 +2841,6 @@ bs
 >
 CreatePairedDeviceInternal
 (
-mPath
 addr
 kCreatePairedDeviceTimeout
 results
@@ -2853,7 +2856,6 @@ bs
 >
 RemoveDeviceInternal
 (
-mPath
 addr
 results
 )
@@ -3475,7 +3477,6 @@ bs
 Connect
 (
 aDeviceAddress
-mPath
 aProfileId
 results
 )

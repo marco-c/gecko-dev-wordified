@@ -385,7 +385,6 @@ bs
 SetProperty
 (
 mObjectType
-mPath
 aProperty
 task
 )

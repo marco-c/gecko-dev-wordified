@@ -130,6 +130,13 @@ h
 #
 include
 "
+BluetoothCommon
+.
+h
+"
+#
+include
+"
 BluetoothManager
 .
 h
@@ -723,9 +730,7 @@ signalPath
 =
 NS_LITERAL_STRING
 (
-"
-/
-"
+KEY_MANAGER
 )
 ;
 BluetoothSignal
@@ -1424,9 +1429,7 @@ key
 .
 EqualsLiteral
 (
-"
-/
-"
+KEY_MANAGER
 )
 )
 {
@@ -2042,7 +2045,7 @@ path
 .
 EqualsLiteral
 (
-LOCAL_AGENT_PATH
+KEY_LOCAL_AGENT
 )
 )
 {
@@ -2065,7 +2068,7 @@ path
 .
 EqualsLiteral
 (
-REMOTE_AGENT_PATH
+KEY_REMOTE_AGENT
 )
 )
 {

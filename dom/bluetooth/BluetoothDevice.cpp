@@ -364,7 +364,7 @@ bs
 >
 RegisterBluetoothSignalHandler
 (
-mPath
+mAddress
 this
 )
 ;
@@ -411,7 +411,7 @@ bs
 >
 UnregisterBluetoothSignalHandler
 (
-mPath
+mAddress
 this
 )
 ;
