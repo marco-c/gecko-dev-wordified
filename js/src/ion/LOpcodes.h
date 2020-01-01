@@ -650,6 +650,11 @@ CompareD
 \
 _
 (
+CompareS
+)
+\
+_
+(
 CompareV
 )
 \
