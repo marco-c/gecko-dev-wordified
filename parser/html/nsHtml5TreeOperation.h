@@ -404,6 +404,13 @@ nsHtml5TreeOperation_h__
 #
 include
 "
+nsIContent
+.
+h
+"
+#
+include
+"
 nsHtml5DocumentMode
 .
 h
@@ -422,9 +429,6 @@ nsXPCOMStrings
 .
 h
 "
-class
-nsIContent
-;
 class
 nsHtml5TreeOpExecutor
 ;
