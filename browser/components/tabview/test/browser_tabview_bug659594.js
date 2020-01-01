@@ -95,7 +95,7 @@ tabItem
 addSubscriber
 (
 "
-updated
+thumbnailUpdated
 "
 function
 onUpdated
@@ -107,7 +107,7 @@ tabItem
 removeSubscriber
 (
 "
-updated
+thumbnailUpdated
 "
 onUpdated
 )
@@ -132,7 +132,7 @@ contentWindow
 .
 TabItems
 .
-update
+addToUpdateQueue
 (
 tabItem
 .
