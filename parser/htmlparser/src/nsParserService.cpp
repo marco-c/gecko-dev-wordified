@@ -1238,7 +1238,8 @@ MOZ_EXPAT_INVALID_CHARACTER
 if
 (
 result
-&
+=
+=
 (
 1
 <
@@ -1248,7 +1249,8 @@ result
 |
 |
 result
-&
+=
+=
 (
 1
 <
