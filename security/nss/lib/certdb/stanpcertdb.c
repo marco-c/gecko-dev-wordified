@@ -237,7 +237,6 @@ const
 char
 *
 nickname
-const
 SECItem
 *
 derSubject
