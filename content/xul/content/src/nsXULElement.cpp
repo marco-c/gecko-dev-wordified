@@ -6444,7 +6444,7 @@ treeRows
 {
 newCurrentIndex
 =
-PR_MIN
+NS_MIN
 (
 (
 treeRows
