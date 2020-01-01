@@ -39,14 +39,14 @@ runTest
 (
 )
 {
-browserFrameHelpers
+browserElementTestHelpers
 .
 setEnabledPref
 (
 true
 )
 ;
-browserFrameHelpers
+browserElementTestHelpers
 .
 addToWhitelist
 (
@@ -129,7 +129,7 @@ iframe
 .
 src
 =
-browserFrameHelpers
+browserElementTestHelpers
 .
 emptyPage1
 ;
@@ -264,7 +264,7 @@ ok
 e
 .
 detail
-browserFrameHelpers
+browserElementTestHelpers
 .
 emptyPage1
 "
@@ -624,7 +624,7 @@ ok
 e
 .
 detail
-browserFrameHelpers
+browserElementTestHelpers
 .
 emptyPage2
 "
@@ -716,7 +716,7 @@ iframe
 .
 src
 =
-browserFrameHelpers
+browserElementTestHelpers
 .
 emptyPage2
 ;
