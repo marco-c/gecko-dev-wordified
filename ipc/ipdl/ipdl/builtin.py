@@ -490,6 +490,10 @@ serialize
 deserialize
     
 '
+nsresult
+'
+    
+'
 nsString
 '
     
