@@ -479,7 +479,7 @@ define
 XPC_QS_NULL_INDEX
 (
 (
-size_t
+uint16_t
 )
 -
 1
@@ -589,10 +589,10 @@ in
 the
 chain
 .
-size_t
+uint16_t
 parentInterface
 ;
-size_t
+uint16_t
 chain
 ;
 }
