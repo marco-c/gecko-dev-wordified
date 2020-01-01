@@ -7424,7 +7424,7 @@ gfxMatrix
 nsSVGSVGElement
 :
 :
-PrependLocalTransformTo
+PrependLocalTransformsTo
 (
 const
 gfxMatrix

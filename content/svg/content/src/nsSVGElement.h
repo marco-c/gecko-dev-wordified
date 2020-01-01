@@ -1017,7 +1017,7 @@ parent
 /
 virtual
 gfxMatrix
-PrependLocalTransformTo
+PrependLocalTransformsTo
 (
 const
 gfxMatrix

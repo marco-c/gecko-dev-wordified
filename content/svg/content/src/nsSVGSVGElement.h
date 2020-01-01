@@ -1190,7 +1190,7 @@ specializations
 :
 virtual
 gfxMatrix
-PrependLocalTransformTo
+PrependLocalTransformsTo
 (
 const
 gfxMatrix
