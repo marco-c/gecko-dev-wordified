@@ -626,10 +626,6 @@ write
 function
 (
 aData
-aOptions
-=
-{
-}
 )
 {
 return
@@ -638,7 +634,6 @@ SessionFileInternal
 write
 (
 aData
-aOptions
 )
 ;
 }
@@ -1535,7 +1530,6 @@ write
 function
 (
 aData
-aOptions
 )
 {
 let
@@ -1578,7 +1572,6 @@ write
 "
 [
 aData
-aOptions
 ]
 )
 ;
