@@ -3990,8 +3990,7 @@ Browser
 :
 ViewportMetadata
 "
-{
-}
+null
 )
 ;
 }

@@ -593,6 +593,15 @@ kBrowserViewZoomLevelPrecision
 =
 10000
 ;
+const
+kDefaultMetadata
+=
+{
+allowZoom
+:
+true
+}
+;
 /
 /
 Override
@@ -15497,8 +15506,7 @@ this
 metaData
 |
 |
-{
-}
+kDefaultMetadata
 ;
 if
 (
