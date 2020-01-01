@@ -7054,6 +7054,7 @@ aTab
 )
 ;
 }
+this
 )
 ;
 openWindows
