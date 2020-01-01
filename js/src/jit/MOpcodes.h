@@ -454,11 +454,6 @@ ToDouble
 \
 _
 (
-ToFloat32
-)
-\
-_
-(
 ToInt32
 )
 \
