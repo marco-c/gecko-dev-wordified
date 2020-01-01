@@ -6147,15 +6147,6 @@ frameType
 nsGkAtoms
 :
 :
-pageFrame
-|
-|
-frameType
-=
-=
-nsGkAtoms
-:
-:
 pageContentFrame
 |
 |
