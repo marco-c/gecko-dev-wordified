@@ -5816,6 +5816,11 @@ return
 result
 ;
 }
+PRBool
+IsRootContentDocument
+(
+)
+;
 protected
 :
 friend
