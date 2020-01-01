@@ -1593,10 +1593,6 @@ profiling_
 (
 profiling
 )
-synchronous_
-(
-profiling
-)
 active_
 (
 false
