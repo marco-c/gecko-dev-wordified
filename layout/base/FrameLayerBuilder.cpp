@@ -14506,6 +14506,16 @@ AppUnitsPerDevPixel
 (
 )
 ;
+if
+(
+!
+aRegionToInvalidate
+.
+IsEmpty
+(
+)
+)
+{
 nsRect
 r
 =
@@ -14555,6 +14565,7 @@ nsIFrame
 INVALIDATE_EXCLUDE_CURRENT_PAINT
 )
 ;
+}
 PRUint32
 i
 ;
