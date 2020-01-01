@@ -454,8 +454,6 @@ http
 /
 /
 localhost
-:
-4444
 /
 full1
 -
@@ -476,8 +474,6 @@ http
 /
 /
 localhost
-:
-4444
 /
 thumbnail1
 -
