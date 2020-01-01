@@ -92,6 +92,10 @@ responseText
 :
 "
 "
+statusText
+:
+"
+"
 responseXML
 :
 null
@@ -334,6 +338,13 @@ catch
 e
 )
 {
+delete
+(
+res
+.
+statusText
+)
+;
 }
 res
 .
