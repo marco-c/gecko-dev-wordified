@@ -2195,7 +2195,7 @@ nsINavBookmarkObserver
 |
 aIID
 .
-eqauls
+equals
 (
 Ci
 .
