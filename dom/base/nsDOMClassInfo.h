@@ -1972,9 +1972,6 @@ cx
 JSObject
 *
 obj
-nsIHTMLDocument
-*
-doc
 )
 ;
 static
