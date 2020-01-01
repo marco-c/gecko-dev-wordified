@@ -470,6 +470,13 @@ XRE_StringToChildProcessType
 "
 )
 ;
+XRE_GetProcessType
+(
+)
+;
+#
+ifdef
+MOZ_IPC
 XRE_InitChildProcess
 (
 0
@@ -483,10 +490,6 @@ XRE_InitParentProcess
 nsnull
 nsnull
 nsnull
-)
-;
-XRE_GetProcessType
-(
 )
 ;
 XRE_RunAppShell
@@ -505,4 +508,6 @@ nsnull
 nsnull
 )
 ;
+#
+endif
 }
