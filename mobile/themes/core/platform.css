@@ -2993,7 +2993,9 @@ box
 {
 border
 :
-none
+1px
+solid
+transparent
 ;
 }
 /
@@ -4035,6 +4037,15 @@ appearance
 none
 !
 important
+;
+-
+moz
+-
+user
+-
+focus
+:
+ignore
 ;
 min
 -
