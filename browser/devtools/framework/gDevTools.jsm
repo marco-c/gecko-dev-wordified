@@ -249,11 +249,13 @@ FORBIDDEN_IDS
 new
 Set
 (
+[
 "
 toolbox
 "
 "
 "
+]
 )
 ;
 /
