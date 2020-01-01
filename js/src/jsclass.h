@@ -1412,10 +1412,6 @@ JSConvertOp
 convert
 ;
 \
-FinalizeOp
-finalize
-;
-\
 \
 /
 *
@@ -1429,6 +1425,10 @@ here
 .
 *
 /
+\
+FinalizeOp
+finalize
+;
 \
 JSCheckAccessOp
 checkAccess
