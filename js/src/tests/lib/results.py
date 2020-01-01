@@ -903,6 +903,8 @@ options
 failed_only
 and
 result
+.
+result
 =
 =
 '
