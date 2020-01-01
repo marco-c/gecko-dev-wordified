@@ -4900,9 +4900,8 @@ cx
 oldSlot
 )
 ;
-JS_ATOMIC_INCREMENT
-(
-&
++
++
 cx
 -
 >
@@ -4910,7 +4909,6 @@ runtime
 -
 >
 propertyRemovals
-)
 ;
 }
 self
@@ -5704,9 +5702,8 @@ slot
 )
 )
 ;
-JS_ATOMIC_INCREMENT
-(
-&
++
++
 cx
 -
 >
@@ -5714,7 +5711,6 @@ runtime
 -
 >
 propertyRemovals
-)
 ;
 }
 /
@@ -6252,9 +6248,8 @@ shape
 )
 )
 ;
-JS_ATOMIC_INCREMENT
-(
-&
++
++
 cx
 -
 >
@@ -6262,7 +6257,6 @@ runtime
 -
 >
 propertyRemovals
-)
 ;
 checkShapeConsistency
 (
