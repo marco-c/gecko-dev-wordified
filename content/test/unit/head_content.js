@@ -665,6 +665,7 @@ nsILocalFile
 true
 )
 ;
+var
 fileStr
 =
 C

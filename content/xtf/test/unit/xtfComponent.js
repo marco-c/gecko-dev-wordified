@@ -1160,6 +1160,7 @@ location
 type
 )
 {
+var
 compReg
 =
 compMgr
