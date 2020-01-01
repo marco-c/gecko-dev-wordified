@@ -1044,6 +1044,10 @@ indicator
 #
 downloads
 -
+button
+#
+downloads
+-
 indicator
 {
 width
@@ -1786,6 +1790,9 @@ height
 ;
 margin
 :
+-
+3px
+0
 0
 ;
 color
@@ -1849,7 +1856,7 @@ width
 ;
 height
 :
-6px
+4px
 ;
 min
 -
