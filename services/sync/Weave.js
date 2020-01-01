@@ -541,12 +541,6 @@ startup
 true
 )
 ;
-this
-.
-addResourceAlias
-(
-)
-;
 break
 ;
 case
@@ -558,6 +552,12 @@ ui
 startup
 "
 :
+this
+.
+addResourceAlias
+(
+)
+;
 /
 /
 Force
