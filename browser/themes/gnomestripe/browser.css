@@ -21645,8 +21645,6 @@ notification
 -
 icon
 -
-stack
->
 image
 {
 margin
@@ -21654,8 +21652,10 @@ margin
 5px
 3px
 ;
-max
--
+width
+:
+16px
+;
 height
 :
 16px
