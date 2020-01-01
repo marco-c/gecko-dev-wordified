@@ -46782,7 +46782,7 @@ if
 (
 prologCount
 )
-memcpy
+PodCopy
 (
 notes
 bce
@@ -46791,13 +46791,10 @@ bce
 prolog
 .
 notes
-SRCNOTE_SIZE
-(
 prologCount
 )
-)
 ;
-memcpy
+PodCopy
 (
 notes
 +
@@ -46808,10 +46805,7 @@ bce
 main
 .
 notes
-SRCNOTE_SIZE
-(
 mainCount
-)
 )
 ;
 SN_MAKE_TERMINATOR

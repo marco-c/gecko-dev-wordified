@@ -3314,16 +3314,11 @@ goto
 out
 ;
 }
-memcpy
+PodCopy
 (
 linechars
 linebase
 linelength
-*
-sizeof
-(
-jschar
-)
 )
 ;
 linechars
