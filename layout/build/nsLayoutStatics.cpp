@@ -461,6 +461,13 @@ h
 #
 include
 "
+DisplayItemClip
+.
+h
+"
+#
+include
+"
 AudioChannelService
 .
 h
@@ -1991,6 +1998,13 @@ ShutDown
 )
 ;
 nsRefreshDriver
+:
+:
+Shutdown
+(
+)
+;
+DisplayItemClip
 :
 :
 Shutdown
