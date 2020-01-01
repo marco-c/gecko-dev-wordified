@@ -5624,7 +5624,7 @@ Services
 .
 search
 .
-getEngines
+getVisibleEngines
 (
 {
 }
