@@ -246,7 +246,12 @@ ApplyArgsGeneric
 \
 _
 (
-StackArg
+StackArgT
+)
+\
+_
+(
+StackArgV
 )
 \
 _
