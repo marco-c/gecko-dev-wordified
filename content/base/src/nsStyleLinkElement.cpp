@@ -1388,6 +1388,9 @@ clonedURI
 title
 media
 isAlternate
+GetCORSMode
+(
+)
 aObserver
 &
 isAlternate
