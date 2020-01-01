@@ -154,6 +154,9 @@ class
 CompositingRenderTargetOGL
 ;
 class
+GLManagerCompositor
+;
+class
 CompositorOGL
 :
 public
@@ -178,6 +181,10 @@ gl
 :
 ShaderProgramType
 ProgramType
+;
+friend
+class
+GLManagerCompositor
 ;
 public
 :
