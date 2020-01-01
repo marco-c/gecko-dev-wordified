@@ -939,6 +939,11 @@ height
 )
 ;
 NS_IMETHOD
+FlushDelayedResize
+(
+)
+;
+NS_IMETHOD
 Composite
 (
 void

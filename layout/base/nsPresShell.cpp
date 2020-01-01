@@ -27248,6 +27248,13 @@ RecalcQuotesAndCounters
 (
 )
 ;
+mViewManager
+-
+>
+FlushDelayedResize
+(
+)
+;
 ProcessReflowCommands
 (
 aInterruptibleReflow
