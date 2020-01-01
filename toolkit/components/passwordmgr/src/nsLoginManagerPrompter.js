@@ -4389,7 +4389,7 @@ _showChangeLoginNotification
 :
 function
 (
-notifyBox
+aNotifyBox
 aOldLogin
 aNewLogin
 )
