@@ -6094,6 +6094,17 @@ getBrandShortName
 )
 ;
 }
+else
+showView
+(
+window
+.
+arguments
+[
+0
+]
+)
+;
 }
 }
 else
