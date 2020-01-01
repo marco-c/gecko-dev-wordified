@@ -1394,6 +1394,14 @@ SAFE_OP
 (
 PolyInlineDispatch
 )
+SAFE_OP
+(
+FunctionDispatch
+)
+SAFE_OP
+(
+TypeObjectDispatch
+)
 UNSAFE_OP
 (
 EffectiveAddress
