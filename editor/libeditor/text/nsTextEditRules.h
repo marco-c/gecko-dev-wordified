@@ -1124,8 +1124,6 @@ aCancel
 PRBool
 *
 aHandled
-PRInt32
-aMaxLength
 )
 ;
 nsresult
@@ -1494,9 +1492,6 @@ nsAString
 aOutString
 PRInt32
 aMaxLength
-PRBool
-*
-aTruncated
 )
 ;
 /
@@ -1562,14 +1557,6 @@ aCancel
 nsresult
 HideLastPWInput
 (
-)
-;
-nsresult
-CollapseSelectionToTrailingBRIfNeeded
-(
-nsISelection
-*
-aSelection
 )
 ;
 PRBool

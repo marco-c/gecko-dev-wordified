@@ -3143,12 +3143,6 @@ ClearFrameOffsetCache
 (
 )
 ;
-virtual
-PRBool
-HasAnyNoncollapsedCharacters
-(
-)
-;
 }
 ;
 #
