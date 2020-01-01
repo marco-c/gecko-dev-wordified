@@ -878,15 +878,9 @@ isOnclick
 nsCoreUtils
 :
 :
-HasListener
+HasClickListener
 (
 content
-NS_LITERAL_STRING
-(
-"
-click
-"
-)
 )
 ;
 if
