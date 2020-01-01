@@ -299,7 +299,7 @@ IMPL_IUNKNOWN_QUERY_HEAD
 (
 XULListboxAccessibleWrap
 )
-IMPL_IUNKNOWN_QUERY_ENTRY_COND
+IMPL_IUNKNOWN_QUERY_CLASS_COND
 (
 CAccessibleTable
 IsMulticolumn
@@ -307,7 +307,7 @@ IsMulticolumn
 )
 )
 ;
-IMPL_IUNKNOWN_QUERY_ENTRY
+IMPL_IUNKNOWN_QUERY_CLASS
 (
 AccessibleWrap
 )
