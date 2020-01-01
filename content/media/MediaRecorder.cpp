@@ -1005,14 +1005,6 @@ MAX_ALLOW_MEMORY_BUFFER
 )
 ;
 }
-if
-(
-mEncoder
-=
-=
-nullptr
-)
-{
 mEncoder
 =
 MediaEncoder
@@ -1027,7 +1019,6 @@ NS_LITERAL_STRING
 )
 )
 ;
-}
 MOZ_ASSERT
 (
 mEncoder
