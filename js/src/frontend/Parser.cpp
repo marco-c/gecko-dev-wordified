@@ -5279,6 +5279,10 @@ pn_link
 }
 if
 (
+!
+pnu
+|
+|
 pnu
 !
 =
