@@ -2490,7 +2490,7 @@ request
 =
 store
 .
-getAll
+mozGetAll
 (
 messageId
 )
