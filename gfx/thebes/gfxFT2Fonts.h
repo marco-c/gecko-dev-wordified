@@ -867,6 +867,8 @@ const
 gfxFontStyle
 *
 aFontStyle
+PRBool
+aNeedsBold
 )
 ;
 virtual
@@ -902,6 +904,10 @@ const
 gfxFontStyle
 *
 aStyle
+PRBool
+aNeedsBold
+=
+PR_FALSE
 )
 ;
 static
@@ -918,6 +924,10 @@ const
 gfxFontStyle
 *
 aStyle
+PRBool
+aNeedsBold
+=
+PR_FALSE
 )
 ;
 struct
