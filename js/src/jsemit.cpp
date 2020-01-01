@@ -9952,9 +9952,11 @@ obj
 ;
 sprop
 =
-SCOPE_GET_PROPERTY
-(
 scope
+-
+>
+lookup
+(
 ATOM_TO_JSID
 (
 atom
