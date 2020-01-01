@@ -886,6 +886,8 @@ nsSVGElement
 aSVGElement
 )
 ;
+public
+:
 struct
 DOMBaseVal
 :
@@ -1410,8 +1412,6 @@ NS_ERROR_DOM_NO_MODIFICATION_ALLOWED_ERR
 }
 }
 ;
-public
-:
 struct
 DOMAnimatedLength
 :
