@@ -685,6 +685,14 @@ _default
 )
 ;
 }
+PRBool
+IsButtonTypeMenu
+(
+nsIFrame
+*
+aFrame
+)
+;
 /
 /
 checkbox
