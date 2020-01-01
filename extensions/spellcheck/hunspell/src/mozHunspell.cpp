@@ -3171,9 +3171,6 @@ utf16
 PRInt32
 inLength
 =
-nsCRT
-:
-:
 strlen
 (
 wlst
