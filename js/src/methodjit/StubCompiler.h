@@ -858,6 +858,11 @@ STUB_CALL_TYPE
 VoidPtrStubCallIC
 )
 ;
+STUB_CALL_TYPE
+(
+BoolStubEqualityIC
+)
+;
 #
 endif
 #
