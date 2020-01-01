@@ -4609,15 +4609,6 @@ requestedHelperThreadCount
 -
 1
 )
-#
-ifdef
-DEBUG
-enteredPolicy
-(
-NULL
-)
-#
-endif
 rngNonce
 (
 0
