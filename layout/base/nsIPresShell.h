@@ -7778,6 +7778,15 @@ return
 mIsFirstPaint
 ;
 }
+uint32_t
+GetPresShellId
+(
+)
+{
+return
+mPresShellId
+;
+}
 /
 *
 *
@@ -9487,6 +9496,9 @@ bool
 mScrollPositionClampingScrollPortSizeSet
 :
 1
+;
+uint32_t
+mPresShellId
 ;
 /
 /

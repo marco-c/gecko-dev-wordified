@@ -4410,6 +4410,10 @@ sSynthMouseMove
 =
 true
 ;
+static
+uint32_t
+sNextPresShellId
+;
 PresShell
 :
 :
@@ -4563,6 +4567,12 @@ true
 ;
 #
 endif
+mPresShellId
+=
+sNextPresShellId
++
++
+;
 mFrozen
 =
 false
