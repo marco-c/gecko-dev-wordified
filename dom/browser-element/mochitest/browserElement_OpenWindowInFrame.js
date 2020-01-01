@@ -253,7 +253,9 @@ detail
 .
 features
 "
-features
+dialog
+=
+1
 "
 )
 ;
@@ -429,7 +431,9 @@ html
 name
 '
 '
-features
+dialog
+=
+1
 '
 )
 *
