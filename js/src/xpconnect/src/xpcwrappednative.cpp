@@ -19982,12 +19982,6 @@ n
 ;
 xpc_DumpJSStack
 (
-1
-/
-*
-stdout
-*
-/
 ccx
 JS_TRUE
 JS_TRUE
