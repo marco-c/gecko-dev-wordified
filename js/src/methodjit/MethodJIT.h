@@ -741,10 +741,10 @@ stub
 /
 #
 if
-JS_BITS_PER_WORD
-=
-=
-32
+defined
+(
+JS_CPU_X86
+)
 void
 *
 unused0

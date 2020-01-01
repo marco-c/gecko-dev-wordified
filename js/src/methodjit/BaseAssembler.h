@@ -1202,7 +1202,7 @@ JSC
 ARMRegisters
 :
 :
-r4
+r5
 ;
 static
 const
@@ -1221,7 +1221,7 @@ JSC
 ARMRegisters
 :
 :
-r5
+r4
 ;
 static
 const
