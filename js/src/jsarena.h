@@ -539,7 +539,7 @@ h
 ifdef
 DEBUG
 const
-uint8
+uint8_t
 JS_FREE_PATTERN
 =
 0xDA
