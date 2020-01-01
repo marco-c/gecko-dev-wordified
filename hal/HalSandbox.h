@@ -484,5 +484,16 @@ Hal
 h
 "
 #
+include
+"
+mozilla
+/
+hal_sandbox
+/
+PHal
+.
+h
+"
+#
 undef
 MOZ_HAL_NAMESPACE
