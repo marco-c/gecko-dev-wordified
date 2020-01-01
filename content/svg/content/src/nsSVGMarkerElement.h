@@ -774,7 +774,7 @@ aModType
 /
 nsIContent
 interface
-NS_IMETHODIMP_
+NS_IMETHOD_
 (
 PRBool
 )

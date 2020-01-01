@@ -686,7 +686,7 @@ IntrinsicState
 )
 const
 ;
-NS_IMETHODIMP_
+NS_IMETHOD_
 (
 PRBool
 )
