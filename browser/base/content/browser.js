@@ -57148,7 +57148,7 @@ pinned
 ;
 /
 /
-Disable
+Hide
 "
 Move
 to
@@ -57171,7 +57171,7 @@ context_tabViewMenu
 "
 )
 .
-disabled
+hidden
 =
 this
 .
