@@ -4681,8 +4681,9 @@ worker
 IsChromeWorker
 (
 )
-&
-&
+)
+{
+if
 (
 !
 chromeworker
@@ -4703,15 +4704,8 @@ DefineChromeWorkerFunctions
 aCx
 global
 )
-)
-)
-{
-return
-NULL
-;
-}
-if
-(
+|
+|
 !
 DefineOSFileConstants
 (
@@ -4723,6 +4717,7 @@ global
 return
 NULL
 ;
+}
 }
 /
 /
