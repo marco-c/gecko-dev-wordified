@@ -269,10 +269,6 @@ mOK
 (
 true
 )
-mManageIOService
-(
-true
-)
 {
 }
 nsNetworkManagerListener
