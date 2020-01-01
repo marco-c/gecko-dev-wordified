@@ -1920,6 +1920,7 @@ frontend
 :
 :
 CompileError
+*
 >
 errors
 ;
