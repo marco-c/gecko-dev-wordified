@@ -408,8 +408,6 @@ hb_face_t
 face
 )
 {
-/
-/
 return
 likely
 (

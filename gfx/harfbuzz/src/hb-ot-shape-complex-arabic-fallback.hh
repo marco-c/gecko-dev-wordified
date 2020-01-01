@@ -353,6 +353,7 @@ const
 hb_ot_shape_plan_t
 *
 plan
+HB_UNUSED
 hb_font_t
 *
 font
@@ -718,6 +719,7 @@ const
 hb_ot_shape_plan_t
 *
 plan
+HB_UNUSED
 hb_font_t
 *
 font

@@ -370,6 +370,7 @@ base
 {
 TRACE_SANITIZE
 (
+this
 )
 ;
 /
@@ -674,6 +675,7 @@ c
 {
 TRACE_SANITIZE
 (
+this
 )
 ;
 char
@@ -748,6 +750,7 @@ c
 {
 TRACE_SANITIZE
 (
+this
 )
 ;
 return
@@ -895,9 +898,11 @@ nameRecord
 ;
 }
 /
-/
+*
 namespace
 OT
+*
+/
 #
 endif
 /

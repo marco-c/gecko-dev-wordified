@@ -229,6 +229,7 @@ _hb_fallback_shaper_face_data_create
 hb_face_t
 *
 face
+HB_UNUSED
 )
 {
 return
@@ -245,6 +246,7 @@ _hb_fallback_shaper_face_data_destroy
 hb_fallback_shaper_face_data_t
 *
 data
+HB_UNUSED
 )
 {
 }
@@ -268,6 +270,7 @@ _hb_fallback_shaper_font_data_create
 hb_font_t
 *
 font
+HB_UNUSED
 )
 {
 return
@@ -284,6 +287,7 @@ _hb_fallback_shaper_font_data_destroy
 hb_fallback_shaper_font_data_t
 *
 data
+HB_UNUSED
 )
 {
 }
@@ -349,6 +353,7 @@ _hb_fallback_shape
 hb_shape_plan_t
 *
 shape_plan
+HB_UNUSED
 hb_font_t
 *
 font

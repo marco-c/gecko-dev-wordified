@@ -298,6 +298,7 @@ unicode
 void
 *
 user_data
+HB_UNUSED
 )
 {
 return
@@ -323,6 +324,7 @@ unicode
 void
 *
 user_data
+HB_UNUSED
 )
 {
 int
@@ -364,6 +366,7 @@ unicode
 void
 *
 user_data
+HB_UNUSED
 )
 {
 return
@@ -388,6 +391,7 @@ unicode
 void
 *
 user_data
+HB_UNUSED
 )
 {
 return
@@ -409,6 +413,7 @@ unicode
 void
 *
 user_data
+HB_UNUSED
 )
 {
 return
@@ -438,6 +443,7 @@ ab
 void
 *
 user_data
+HB_UNUSED
 )
 {
 return
@@ -467,6 +473,7 @@ b
 void
 *
 user_data
+HB_UNUSED
 )
 {
 return
@@ -494,6 +501,7 @@ decomposed
 void
 *
 user_data
+HB_UNUSED
 )
 {
 return

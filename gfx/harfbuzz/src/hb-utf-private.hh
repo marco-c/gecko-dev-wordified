@@ -1029,6 +1029,7 @@ const
 uint32_t
 *
 end
+HB_UNUSED
 hb_codepoint_t
 *
 unicode
@@ -1061,6 +1062,7 @@ const
 uint32_t
 *
 start
+HB_UNUSED
 hb_codepoint_t
 *
 unicode

@@ -284,6 +284,7 @@ c
 {
 TRACE_SANITIZE
 (
+this
 )
 ;
 /
@@ -516,9 +517,11 @@ leftSideBearingX
 ;
 }
 /
-/
+*
 namespace
 OT
+*
+/
 #
 endif
 /

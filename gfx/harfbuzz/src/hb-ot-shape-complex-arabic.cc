@@ -2218,6 +2218,7 @@ buffer
 hb_font_t
 *
 font
+HB_UNUSED
 )
 {
 const
