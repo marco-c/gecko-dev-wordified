@@ -9807,8 +9807,12 @@ ComputeVisibility
 aBuilder
 &
 untransformedVisible
+aVisibleRegionBeforeMove
+?
 &
 untransformedVisibleBeforeMove
+:
+nsnull
 )
 ;
 return
