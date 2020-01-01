@@ -227,6 +227,13 @@ h
 #
 include
 "
+nsIDOMTouchEvent
+.
+h
+"
+#
+include
+"
 nsObjectLoadingContent
 .
 h
