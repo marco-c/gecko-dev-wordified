@@ -29947,9 +29947,8 @@ doc
 doc
 -
 >
-UpdateVisibilityState
+PostVisibilityUpdateEvent
 (
-false
 )
 ;
 }
