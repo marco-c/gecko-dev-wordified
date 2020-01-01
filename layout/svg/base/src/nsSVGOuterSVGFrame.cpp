@@ -4179,6 +4179,12 @@ currentTranslate
 properties
 if
 (
+mCurrentScale
+&
+&
+mCurrentTranslate
+&
+&
 svgElement
 -
 >
