@@ -569,6 +569,13 @@ nsIHashable
 h
 "
 #
+include
+"
+nsIClassInfoImpl
+.
+h
+"
+#
 define
 INCL_DOSFILEMGR
 #
@@ -613,6 +620,8 @@ public
 nsILocalFileOS2
 public
 nsIHashable
+public
+nsIClassInfo
 {
 public
 :
@@ -666,6 +675,11 @@ NS_DECL_NSILOCALFILEOS2
 nsIHashable
 interface
 NS_DECL_NSIHASHABLE
+/
+/
+nsIClassInfo
+interface
+NS_DECL_NSICLASSINFO
 public
 :
 static

@@ -512,6 +512,13 @@ h
 #
 include
 "
+nsIClassInfoImpl
+.
+h
+"
+#
+include
+"
 windows
 .
 h
@@ -579,6 +586,8 @@ public
 nsILocalFileWin
 public
 nsIHashable
+public
+nsIClassInfo
 {
 public
 :
@@ -632,6 +641,11 @@ NS_DECL_NSILOCALFILEWIN
 nsIHashable
 interface
 NS_DECL_NSIHASHABLE
+/
+/
+nsIClassInfo
+interface
+NS_DECL_NSICLASSINFO
 public
 :
 static
