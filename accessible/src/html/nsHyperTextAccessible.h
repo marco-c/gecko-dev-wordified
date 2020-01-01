@@ -1023,7 +1023,9 @@ aText
 *
 Used
 by
-GetPosAndText
+GetTextHelper
+(
+)
 to
 move
 backward
@@ -1033,6 +1035,7 @@ from
 a
 given
 point
+*
 by
 word
 /
@@ -1040,6 +1043,7 @@ line
 /
 etc
 .
+*
 *
 param
 aPresShell
@@ -1068,6 +1072,17 @@ aFromOffset
 the
 starting
 offset
+we
+'
+re
+moving
+from
+*
+param
+aFromAccessible
+the
+starting
+accessible
 we
 '
 re
@@ -1110,6 +1125,7 @@ we
 basing
 this
 on
+*
 the
 start
 or
@@ -1136,6 +1152,9 @@ nsIFrame
 aFromFrame
 PRInt32
 aFromOffset
+nsIAccessible
+*
+aFromAccessible
 nsSelectionAmount
 aAmount
 nsDirection
