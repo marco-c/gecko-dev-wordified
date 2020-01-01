@@ -642,8 +642,9 @@ c
 }
 }
 function
-getGreDir
+getDir
 (
+prop
 )
 {
 return
@@ -671,9 +672,7 @@ nsIProperties
 .
 get
 (
-"
-GreD
-"
+prop
 Ci
 .
 nsIFile
@@ -727,6 +726,7 @@ zipreader
 function
 populate_startupcache
 (
+prop
 omnijarName
 startupcacheName
 )
@@ -734,8 +734,9 @@ startupcacheName
 var
 file
 =
-getGreDir
+getDir
 (
+prop
 )
 ;
 file
@@ -755,8 +756,9 @@ file
 var
 scFile
 =
-getGreDir
+getDir
 (
+prop
 )
 ;
 scFile
