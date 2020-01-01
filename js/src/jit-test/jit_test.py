@@ -2294,6 +2294,9 @@ tc
 command
 (
 prefix
+jittests
+.
+LIB_DIR
 )
         
 subprocess
