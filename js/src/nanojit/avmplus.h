@@ -475,9 +475,6 @@ uint64_t
 define
 NJ_PAGE_SIZE
 4096
-#
-define
-AVMPLUS_IA32
 class
 GC
 {
