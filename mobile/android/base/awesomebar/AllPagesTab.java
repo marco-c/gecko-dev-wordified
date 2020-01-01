@@ -4318,6 +4318,15 @@ true
 ;
 mSuggestionsOptInPrompt
 .
+findViewById
+(
+R
+.
+id
+.
+prompt_container
+)
+.
 setAnimation
 (
 anim1
