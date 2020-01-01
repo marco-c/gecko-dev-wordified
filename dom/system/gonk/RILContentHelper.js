@@ -1943,6 +1943,7 @@ result
 additionalInformation
 ;
 }
+;
 DOMMMIResult
 .
 prototype
@@ -1992,6 +1993,7 @@ option
 m
 ;
 }
+;
 DOMCLIRStatus
 .
 prototype
@@ -2019,6 +2021,7 @@ DOMMMIError
 )
 {
 }
+;
 DOMMMIError
 .
 prototype
