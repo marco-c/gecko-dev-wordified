@@ -1230,7 +1230,7 @@ the
 new
 library
 before
-libmozglue
+libmozutils
 .
 so
 *
@@ -18512,7 +18512,7 @@ map
 >
 l_name
 "
-libmozglue
+libmozutils
 .
 so
 "
