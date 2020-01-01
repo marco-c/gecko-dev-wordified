@@ -40243,7 +40243,7 @@ return
 &
 i
 .
-fp
+scopeChain
 (
 )
 -

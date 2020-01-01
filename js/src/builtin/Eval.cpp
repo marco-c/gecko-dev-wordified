@@ -1361,6 +1361,17 @@ evalType
 DIRECT_EVAL
 )
 {
+JS_ASSERT
+(
+!
+caller
+-
+>
+runningInIon
+(
+)
+)
+;
 staticLevel
 =
 caller

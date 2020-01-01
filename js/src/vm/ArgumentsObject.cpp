@@ -224,7 +224,7 @@ JS_ASSERT
 fp
 -
 >
-beginsIonActivation
+runningInIon
 (
 )
 )
@@ -600,7 +600,7 @@ CopyStackFrameArguments
 (
 iter_
 .
-fp
+interpFrame
 (
 )
 dstBase
@@ -753,7 +753,7 @@ MaybeForwardToCallObject
 (
 iter_
 .
-fp
+interpFrame
 (
 )
 obj
