@@ -22935,9 +22935,6 @@ script
 nslots
 )
 ;
-vp
-=
-&
 fp
 -
 >
@@ -22945,9 +22942,6 @@ slots
 [
 slot
 ]
-;
-*
-vp
 =
 regs
 .
