@@ -690,6 +690,9 @@ demote
 loop
 variables
 .
+0
+=
+off
 *
 /
 #
@@ -8545,6 +8548,11 @@ them
 /
 if
 (
+DEMOTE_THRESHOLD
+>
+0
+&
+&
 guardCount
 >
 DEMOTE_THRESHOLD
