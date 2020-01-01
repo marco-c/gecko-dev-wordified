@@ -2791,6 +2791,13 @@ const
 ;
 public
 :
+static
+const
+uint32
+DENSE_ARRAY_FIXED_RESERVED_SLOTS
+=
+3
+;
 inline
 uint32
 getArrayLength
