@@ -145,11 +145,6 @@ graph
 )
 ;
 bool
-analyzeEarly
-(
-)
-;
-bool
 analyzeLate
 (
 )
