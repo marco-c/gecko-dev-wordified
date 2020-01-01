@@ -675,6 +675,13 @@ nsIPermissionManager
 .
 h
 "
+#
+include
+"
+nsContentTypeParser
+.
+h
+"
 using
 namespace
 mozilla
@@ -1847,9 +1854,12 @@ nsIScriptError
 :
 :
 warningFlag
+NS_LITERAL_CSTRING
+(
 "
 Media
 "
+)
 OwnerDoc
 (
 )

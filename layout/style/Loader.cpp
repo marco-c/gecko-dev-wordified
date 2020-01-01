@@ -5602,10 +5602,13 @@ nsContentUtils
 ReportToConsole
 (
 errorFlag
+NS_LITERAL_CSTRING
+(
 "
 CSS
 Loader
 "
+)
 mLoader
 -
 >

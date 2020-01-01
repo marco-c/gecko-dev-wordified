@@ -1858,10 +1858,13 @@ nsIScriptError
 :
 :
 warningFlag
+NS_LITERAL_CSTRING
+(
 "
 DOM3
 Load
 "
+)
 aDoc
 nsContentUtils
 :

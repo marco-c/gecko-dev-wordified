@@ -812,9 +812,12 @@ nsIScriptError
 :
 :
 warningFlag
+NS_LITERAL_CSTRING
+(
 "
 SVG
 "
+)
 doc
 nsContentUtils
 :

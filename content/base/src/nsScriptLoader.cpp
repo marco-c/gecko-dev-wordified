@@ -398,6 +398,13 @@ h
 #
 include
 "
+nsContentTypeParser
+.
+h
+"
+#
+include
+"
 mozilla
 /
 CORSMode

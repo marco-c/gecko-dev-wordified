@@ -377,9 +377,12 @@ nsIScriptError
 :
 :
 warningFlag
+NS_LITERAL_CSTRING
+(
 "
 HTML
 "
+)
 aDocument
 nsContentUtils
 :

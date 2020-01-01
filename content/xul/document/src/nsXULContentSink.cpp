@@ -460,6 +460,13 @@ nsIScriptError
 h
 "
 #
+include
+"
+nsContentTypeParser
+.
+h
+"
+#
 ifdef
 PR_LOGGING
 static

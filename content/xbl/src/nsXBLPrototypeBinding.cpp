@@ -9083,9 +9083,12 @@ nsIScriptError
 :
 :
 errorFlag
+NS_LITERAL_CSTRING
+(
 "
 XBL
 "
+)
 nullptr
 nsContentUtils
 :

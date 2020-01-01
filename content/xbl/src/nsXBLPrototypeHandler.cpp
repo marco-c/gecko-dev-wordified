@@ -5579,11 +5579,14 @@ nsIScriptError
 :
 :
 warningFlag
+NS_LITERAL_CSTRING
+(
 "
 XBL
 Prototype
 Handler
 "
+)
 doc
 nsContentUtils
 :

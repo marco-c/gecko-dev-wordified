@@ -4091,9 +4091,12 @@ nsIScriptError
 :
 :
 errorFlag
+NS_LITERAL_CSTRING
+(
 "
 Media
 "
+)
 doc
 nsContentUtils
 :

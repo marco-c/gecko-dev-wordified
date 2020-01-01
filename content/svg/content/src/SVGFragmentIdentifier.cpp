@@ -140,6 +140,13 @@ nsSVGAnimatedTransformList
 .
 h
 "
+#
+include
+"
+nsCharSeparatedTokenizer
+.
+h
+"
 using
 namespace
 mozilla

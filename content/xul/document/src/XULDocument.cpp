@@ -18436,10 +18436,13 @@ nsIScriptError
 :
 :
 warningFlag
+NS_LITERAL_CSTRING
+(
 "
 XUL
 Document
 "
+)
 nullptr
 nsContentUtils
 :
@@ -20228,10 +20231,13 @@ nsIScriptError
 :
 :
 warningFlag
+NS_LITERAL_CSTRING
+(
 "
 XUL
 Document
 "
+)
 this
 nsContentUtils
 :
