@@ -1571,6 +1571,11 @@ True
 optimize
 =
 True
+                 
+non_resources
+=
+[
+]
 )
 :
         
@@ -1606,6 +1611,12 @@ self
 _optimize
 =
 optimize
+        
+self
+.
+_non_resources
+=
+non_resources
     
 def
 _get_omnijar
@@ -2010,6 +2021,42 @@ path
 base
 )
 )
+        
+if
+any
+(
+mozpack
+.
+path
+.
+match
+(
+path
+p
+.
+replace
+(
+'
+*
+'
+'
+*
+*
+'
+)
+)
+               
+for
+p
+in
+self
+.
+_non_resources
+)
+:
+            
+return
+False
         
 if
 path
