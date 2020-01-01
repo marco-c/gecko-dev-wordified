@@ -1269,7 +1269,6 @@ ParseSpecialIntValue
 (
 aValue
 PR_TRUE
-PR_FALSE
 )
 ;
 }
