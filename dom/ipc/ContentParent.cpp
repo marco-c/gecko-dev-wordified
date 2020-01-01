@@ -8276,7 +8276,7 @@ AllocPSms
 if
 (
 !
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 this
 "
@@ -8368,7 +8368,7 @@ MOZ_B2G_BT
 if
 (
 !
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 this
 "

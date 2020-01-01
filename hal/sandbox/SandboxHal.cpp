@@ -2103,7 +2103,7 @@ MOZ_OVERRIDE
 if
 (
 !
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 this
 "
@@ -2144,7 +2144,7 @@ MOZ_OVERRIDE
 if
 (
 !
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 this
 "
@@ -2182,7 +2182,7 @@ MOZ_OVERRIDE
 if
 (
 !
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 this
 "
@@ -2223,7 +2223,7 @@ MOZ_OVERRIDE
 if
 (
 !
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 this
 "
@@ -2261,7 +2261,7 @@ MOZ_OVERRIDE
 if
 (
 !
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 this
 "
@@ -2302,7 +2302,7 @@ MOZ_OVERRIDE
 if
 (
 !
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 this
 "
@@ -2401,7 +2401,7 @@ here
 if
 (
 !
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 this
 "
@@ -2450,7 +2450,7 @@ MOZ_OVERRIDE
 if
 (
 !
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 this
 "
@@ -2493,7 +2493,7 @@ MOZ_OVERRIDE
 if
 (
 !
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 this
 "
@@ -2532,7 +2532,7 @@ MOZ_OVERRIDE
 if
 (
 !
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 this
 "
@@ -2570,7 +2570,7 @@ MOZ_OVERRIDE
 if
 (
 !
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 this
 "
@@ -2645,7 +2645,7 @@ MOZ_OVERRIDE
 if
 (
 !
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 this
 "
@@ -2679,7 +2679,7 @@ MOZ_OVERRIDE
 if
 (
 !
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 this
 "
@@ -2895,7 +2895,7 @@ MOZ_OVERRIDE
 if
 (
 !
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 this
 "

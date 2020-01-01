@@ -175,7 +175,7 @@ namespace
 mozilla
 {
 bool
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 PBrowserParent
 *
@@ -363,7 +363,7 @@ hasPermission
 ;
 }
 bool
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 PContentParent
 *
@@ -412,7 +412,7 @@ i
 {
 if
 (
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 browsers
 [
@@ -432,7 +432,7 @@ false
 ;
 }
 bool
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 PHalParent
 *
@@ -444,7 +444,7 @@ aPermission
 )
 {
 return
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 aActor
 -
