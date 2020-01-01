@@ -2039,7 +2039,7 @@ prev
 =
 JmpSrc
 (
-label
+target
 -
 >
 use
