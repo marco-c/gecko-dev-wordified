@@ -748,6 +748,9 @@ cjones
 :
 impl
 }
+#
+ifdef
+OS_WIN
 /
 /
 static
@@ -759,6 +762,8 @@ sInnerEventLoopDepth
 =
 0
 ;
+#
+endif
 bool
 RPCChannel
 :
