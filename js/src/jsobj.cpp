@@ -11778,13 +11778,6 @@ cx
 map
 )
 ;
-obj
--
->
-dslots
-=
-NULL
-;
 return
 true
 ;
@@ -12012,6 +12005,13 @@ js_ObjectOps
 )
 )
 return
+NULL
+;
+obj
+-
+>
+dslots
+=
 NULL
 ;
 return
