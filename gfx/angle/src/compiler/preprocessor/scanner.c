@@ -1242,6 +1242,7 @@ str_ungetch
 int
 ScanFromString
 (
+const
 char
 *
 s

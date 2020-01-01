@@ -1476,6 +1476,7 @@ Colorbuffer
 0
 0
 GL_RGBA4
+0
 )
 )
 ;

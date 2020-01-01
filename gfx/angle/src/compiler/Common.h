@@ -640,14 +640,6 @@ a
 }
 }
 ;
-typedef
-TMap
-<
-TString
-TString
->
-TPragmaTable
-;
 #
 endif
 /

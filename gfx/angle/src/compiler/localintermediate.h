@@ -386,7 +386,6 @@ postProcess
 (
 TIntermNode
 *
-EShLanguage
 )
 ;
 void

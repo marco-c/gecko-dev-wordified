@@ -864,6 +864,7 @@ we
 '
 re
 parsing
+const
 int
 *
 PaStrLen
@@ -888,8 +889,10 @@ strings
 in
 the
 array
+const
 char
 *
+const
 *
 PaArgv
 ;

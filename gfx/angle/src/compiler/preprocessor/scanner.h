@@ -710,6 +710,7 @@ scanner
 int
 ScanFromString
 (
+const
 char
 *
 )
