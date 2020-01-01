@@ -12417,6 +12417,9 @@ undefined
 }
 let
 reg
+=
+{
+}
 ;
 if
 (
@@ -12433,6 +12436,8 @@ content
 )
 {
 reg
+.
+id
 =
 this
 .
@@ -12467,6 +12472,8 @@ elementManager
 seenItems
 [
 reg
+.
+id
 ]
 =
 listenerWindow
@@ -12476,6 +12483,16 @@ listenerWindow
 add
 to
 seenItems
+reg
+.
+importedScripts
+=
+this
+.
+importedScripts
+.
+path
+;
 if
 (
 nullPrevious
@@ -12528,6 +12545,8 @@ this
 sendResponse
 (
 reg
+.
+id
 )
 ;
 }
