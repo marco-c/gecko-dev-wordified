@@ -4223,7 +4223,7 @@ sure
 to
 not
 create
-dependent
+modal
 windows
 if
 our
@@ -4287,7 +4287,7 @@ chromeFlags
 nsIWebBrowserChrome
 :
 :
-CHROME_DEPENDENT
+CHROME_MODAL
 )
 )
 {
