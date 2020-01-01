@@ -630,6 +630,13 @@ aStatus
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+UpdateOverflow
+(
+)
+MOZ_OVERRIDE
+;
 /
 *
 *
