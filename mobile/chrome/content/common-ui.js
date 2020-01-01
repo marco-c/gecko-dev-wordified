@@ -5996,6 +5996,10 @@ scroll
 =
 browser
 .
+getRootView
+(
+)
+.
 getPosition
 (
 )
