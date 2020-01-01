@@ -1136,9 +1136,6 @@ str
 }
 else
 {
-if
-(
-!
 cx
 -
 >
@@ -1149,9 +1146,6 @@ types
 :
 TYPE_UNDEFINED
 )
-)
-return
-JS_FALSE
 ;
 vp
 -
@@ -6729,8 +6723,7 @@ obj
 isArray
 (
 )
-?
-!
+)
 cx
 -
 >
@@ -6738,8 +6731,8 @@ fixArrayType
 (
 obj
 )
-:
-!
+;
+else
 cx
 -
 >
@@ -6747,9 +6740,6 @@ fixObjectType
 (
 obj
 )
-)
-return
-JS_FALSE
 ;
 if
 (

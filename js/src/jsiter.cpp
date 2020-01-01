@@ -2649,9 +2649,7 @@ flags
 &
 JSITER_OWNONLY
 )
-&
-&
-!
+)
 cx
 -
 >
@@ -2662,9 +2660,6 @@ types
 :
 TYPE_UNKNOWN
 )
-)
-return
-false
 ;
 /
 *
@@ -8377,9 +8372,6 @@ yieldpc
 JSOP_YIELD
 )
 ;
-if
-(
-!
 script
 -
 >
@@ -8388,9 +8380,6 @@ typeMonitorUnknown
 cx
 yieldpc
 )
-)
-return
-JS_FALSE
 ;
 /
 *
@@ -9761,9 +9750,6 @@ proto
 return
 NULL
 ;
-if
-(
-!
 cx
 -
 >
@@ -9782,9 +9768,6 @@ ObjectValue
 proto
 )
 )
-)
-return
-NULL
 ;
 return
 proto

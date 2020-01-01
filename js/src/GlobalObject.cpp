@@ -1003,9 +1003,7 @@ clasp
 ext
 .
 equality
-&
-&
-!
+)
 cx
 -
 >
@@ -1013,9 +1011,6 @@ markTypeObjectHasSpecialEquality
 (
 type
 )
-)
-return
-NULL
 ;
 type
 -
@@ -1095,9 +1090,6 @@ setFlags
 0
 )
 ;
-if
-(
-!
 cx
 -
 >
@@ -1109,9 +1101,6 @@ UndefinedValue
 (
 )
 )
-)
-return
-NULL
 ;
 return
 globalObj

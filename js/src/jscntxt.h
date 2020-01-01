@@ -7808,7 +7808,7 @@ value
 *
 /
 inline
-bool
+void
 markTypeCallerUnexpected
 (
 js
@@ -7822,7 +7822,7 @@ type
 )
 ;
 inline
-bool
+void
 markTypeCallerUnexpected
 (
 const
@@ -7835,7 +7835,7 @@ value
 )
 ;
 inline
-bool
+void
 markTypeCallerOverflow
 (
 )
@@ -7864,7 +7864,7 @@ interpreter
 *
 /
 inline
-bool
+void
 typeMonitorCall
 (
 const
@@ -7894,7 +7894,7 @@ script
 *
 /
 inline
-bool
+void
 typeMonitorAssign
 (
 JSObject
@@ -7927,7 +7927,7 @@ obj
 *
 /
 inline
-bool
+void
 addTypeProperty
 (
 js
@@ -7954,7 +7954,7 @@ type
 )
 ;
 inline
-bool
+void
 addTypeProperty
 (
 js
@@ -7980,7 +7980,7 @@ value
 )
 ;
 inline
-bool
+void
 addTypePropertyId
 (
 js
@@ -8005,7 +8005,7 @@ type
 )
 ;
 inline
-bool
+void
 addTypePropertyId
 (
 js
@@ -8029,7 +8029,7 @@ value
 )
 ;
 inline
-bool
+void
 addTypePropertyId
 (
 js
@@ -8097,7 +8097,7 @@ obj
 *
 /
 inline
-bool
+void
 aliasTypeProperties
 (
 js
@@ -8133,7 +8133,7 @@ dense
 *
 /
 inline
-bool
+void
 markTypeArrayNotPacked
 (
 js
@@ -8170,7 +8170,7 @@ accessed
 *
 /
 inline
-bool
+void
 markTypeFunctionUninlineable
 (
 js
@@ -8199,7 +8199,7 @@ unknown
 *
 /
 inline
-bool
+void
 markTypeObjectUnknownProperties
 (
 js
@@ -8228,7 +8228,7 @@ hooks
 *
 /
 inline
-bool
+void
 markTypeObjectHasSpecialEquality
 (
 js
@@ -8257,7 +8257,7 @@ reconfigured
 *
 /
 inline
-bool
+void
 markTypePropertyConfigured
 (
 js
@@ -8289,7 +8289,7 @@ reallocated
 *
 /
 inline
-bool
+void
 markGlobalReallocation
 (
 JSObject
@@ -8331,7 +8331,7 @@ contents
 *
 /
 inline
-bool
+void
 fixArrayType
 (
 JSObject
@@ -8340,7 +8340,7 @@ obj
 )
 ;
 inline
-bool
+void
 fixObjectType
 (
 JSObject
@@ -8351,7 +8351,7 @@ obj
 private
 :
 inline
-bool
+void
 addTypeFlags
 (
 js

@@ -1232,6 +1232,9 @@ ool
 bool
 entry
 ;
+unsigned
+patchIndex
+;
 /
 *
 Index
@@ -1240,16 +1243,9 @@ Compiler
 '
 s
 callSites
-or
-rejoinSites
+.
 *
 /
-unsigned
-patchIndex
-;
-bool
-patchCall
-;
 /
 *
 Any
@@ -1746,8 +1742,6 @@ bool
 entry
 unsigned
 patchIndex
-bool
-patchCall
 )
 ;
 uint32

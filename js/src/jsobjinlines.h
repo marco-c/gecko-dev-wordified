@@ -916,9 +916,6 @@ uintN
 attrsp
 )
 {
-if
-(
-!
 cx
 -
 >
@@ -929,9 +926,6 @@ getType
 )
 id
 )
-)
-return
-false
 ;
 js
 :
@@ -984,9 +978,6 @@ JSBool
 strict
 )
 {
-if
-(
-!
 cx
 -
 >
@@ -1004,13 +995,7 @@ types
 :
 TYPE_UNDEFINED
 )
-)
-return
-false
 ;
-if
-(
-!
 cx
 -
 >
@@ -1021,9 +1006,6 @@ getType
 )
 id
 )
-)
-return
-false
 ;
 js
 :
@@ -2806,9 +2788,6 @@ OBJECT_FLAG_NON_DENSE_ARRAY
 .
 *
 /
-if
-(
-!
 cx
 -
 >
@@ -2819,9 +2798,6 @@ getType
 )
 true
 )
-)
-return
-false
 ;
 jsid
 lengthId
@@ -2839,9 +2815,6 @@ atomState
 lengthAtom
 )
 ;
-if
-(
-!
 cx
 -
 >
@@ -2859,9 +2832,6 @@ types
 :
 TYPE_DOUBLE
 )
-)
-return
-false
 ;
 }
 setPrivate
@@ -9971,9 +9941,6 @@ proto
 )
 )
 ;
-if
-(
-!
 cx
 -
 >
@@ -9992,8 +9959,9 @@ ObjectValue
 ctor
 )
 )
-|
-|
+;
+if
+(
 !
 global
 -

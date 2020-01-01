@@ -14839,7 +14839,7 @@ obj
 extern
 JS_PUBLIC_API
 (
-JSBool
+void
 )
 JS_AddTypeProperty
 (
@@ -14860,7 +14860,7 @@ value
 extern
 JS_PUBLIC_API
 (
-JSBool
+void
 )
 JS_AddTypePropertyById
 (

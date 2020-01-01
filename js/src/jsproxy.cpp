@@ -7589,9 +7589,6 @@ proxies
 .
 *
 /
-if
-(
-!
 cx
 -
 >
@@ -7604,9 +7601,6 @@ getType
 (
 )
 )
-)
-return
-NULL
 ;
 return
 obj

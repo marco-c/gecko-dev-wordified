@@ -4894,7 +4894,7 @@ ObjectTypeTable
 *
 objectTypeTable
 ;
-bool
+void
 fixArrayType
 (
 JSContext
@@ -4905,7 +4905,7 @@ JSObject
 obj
 )
 ;
-bool
+void
 fixObjectType
 (
 JSContext
@@ -5230,7 +5230,7 @@ scripts
 .
 *
 /
-bool
+void
 dynamicPush
 (
 JSContext
@@ -5245,7 +5245,7 @@ jstype
 type
 )
 ;
-bool
+void
 dynamicAssign
 (
 JSContext
@@ -5262,7 +5262,7 @@ Value
 rval
 )
 ;
-bool
+void
 dynamicCall
 (
 JSContext
@@ -5279,7 +5279,7 @@ bool
 constructing
 )
 ;
-bool
+void
 nukeTypes
 (
 JSContext
@@ -5287,7 +5287,7 @@ JSContext
 cx
 )
 ;
-bool
+void
 processPendingRecompiles
 (
 JSContext

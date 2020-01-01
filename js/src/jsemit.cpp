@@ -28845,9 +28845,6 @@ idx
 pn_count
 )
 ;
-if
-(
-!
 cx
 -
 >
@@ -28855,9 +28852,6 @@ fixArrayType
 (
 obj
 )
-)
-return
-false
 ;
 vp
 -
@@ -29155,9 +29149,6 @@ false
 }
 }
 }
-if
-(
-!
 cx
 -
 >
@@ -29165,9 +29156,6 @@ fixObjectType
 (
 obj
 )
-)
-return
-false
 ;
 vp
 -
