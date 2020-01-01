@@ -405,6 +405,12 @@ defined
 (
 __ppc__
 )
+|
+|
+defined
+(
+__powerpc__
+)
 #
 define
 ARCH_CPU_PPC
