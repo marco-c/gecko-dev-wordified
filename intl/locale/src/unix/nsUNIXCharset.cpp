@@ -978,11 +978,6 @@ Init
 (
 )
 {
-nsresult
-res
-=
-NS_OK
-;
 /
 /
 /
