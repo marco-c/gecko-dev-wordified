@@ -9567,6 +9567,11 @@ RGB_SIGNATURE
 )
 return
 ;
+if
+(
+qcms_supports_iccv4
+)
+{
 /
 *
 don
@@ -9615,6 +9620,7 @@ mBA
 )
 return
 ;
+}
 /
 *
 don
