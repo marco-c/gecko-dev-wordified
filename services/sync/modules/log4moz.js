@@ -3009,7 +3009,7 @@ file
 formatter
 ONE_MEGABYTE
 *
-5
+2
 0
 )
 ;
