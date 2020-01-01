@@ -495,7 +495,7 @@ mMutex
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -786,7 +786,7 @@ OpRead
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -830,7 +830,7 @@ OpWrite
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -874,7 +874,7 @@ OpFSync
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

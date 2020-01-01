@@ -3765,7 +3765,7 @@ PLDHashOperator
 EnumGamepadsForGet
 (
 const
-PRUint32
+uint32_t
 &
 aKey
 mozilla
