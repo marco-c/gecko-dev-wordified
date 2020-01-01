@@ -496,8 +496,6 @@ nsNativeTypesConstructor
 ;
 NS_IMPL_NSGETMODULE
 (
-"
 jsctypes
-"
 components
 )
