@@ -38878,7 +38878,6 @@ collection
 GetNodeAt
 (
 aIndex
-aResult
 )
 ;
 return
@@ -39181,7 +39180,6 @@ list
 GetNodeAt
 (
 aIndex
-aResult
 )
 ;
 return
@@ -45022,9 +45020,6 @@ if
 options
 )
 {
-nsresult
-rv
-;
 nsISupports
 *
 node
@@ -45035,8 +45030,6 @@ options
 GetNodeAt
 (
 n
-&
-rv
 )
 ;
 if
@@ -45176,8 +45169,6 @@ options
 GetNodeAt
 (
 n
-&
-rv
 )
 ;
 rv
