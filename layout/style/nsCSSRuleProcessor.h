@@ -620,6 +620,12 @@ ClearRuleCascades
 (
 )
 ;
+static
+void
+Shutdown
+(
+)
+;
 /
 /
 nsIStyleRuleProcessor

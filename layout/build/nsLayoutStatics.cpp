@@ -714,6 +714,13 @@ nsTextFragment
 h
 "
 #
+include
+"
+nsCSSRuleProcessor
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #
@@ -1444,6 +1451,13 @@ Shutdown
 )
 ;
 CSSLoaderImpl
+:
+:
+Shutdown
+(
+)
+;
+nsCSSRuleProcessor
 :
 :
 Shutdown
