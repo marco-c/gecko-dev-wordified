@@ -3154,8 +3154,6 @@ crash
 c
 %
 c
-\
-n
 "
 kOutputSeparator
 kOutputSeparator
