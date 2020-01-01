@@ -2324,10 +2324,7 @@ restoreOrigLogName
 =
 strdup
 (
-PromiseFlatCString
-(
 setChildLogName
-)
 .
 get
 (
@@ -2393,10 +2390,7 @@ launched
 .
 PR_SetEnv
 (
-PromiseFlatCString
-(
 setChildLogName
-)
 .
 get
 (
