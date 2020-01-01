@@ -17664,7 +17664,6 @@ ReleaseDocument
 /
 static
 JSBool
-JS_DLL_CALLBACK
 nsWindowSH
 :
 :
@@ -17809,7 +17808,6 @@ JS_TRUE
 /
 static
 JSBool
-JS_DLL_CALLBACK
 nsWindowSH
 :
 :
@@ -17921,7 +17919,6 @@ rv
 /
 static
 JSBool
-JS_DLL_CALLBACK
 nsWindowSH
 :
 :
@@ -26135,7 +26132,6 @@ only
 .
 static
 JSBool
-JS_DLL_CALLBACK
 ContentWindowGetter
 (
 JSContext
@@ -33104,7 +33100,6 @@ PR_FALSE
 /
 static
 JSBool
-JS_DLL_CALLBACK
 nsEventReceiverSH
 :
 :
@@ -38179,7 +38174,6 @@ result
 /
 static
 JSBool
-JS_DLL_CALLBACK
 nsHTMLDocumentSH
 :
 :
@@ -39070,7 +39064,6 @@ nsnull
 ;
 }
 JSBool
-JS_DLL_CALLBACK
 nsHTMLDocumentSH
 :
 :
@@ -39575,7 +39568,6 @@ JS_TRUE
 ;
 }
 JSBool
-JS_DLL_CALLBACK
 nsHTMLDocumentSH
 :
 :
@@ -39970,7 +39962,6 @@ by
 sGlobalScopePolluterClass
 !
 void
-JS_DLL_CALLBACK
 nsHTMLDocumentSH
 :
 :
@@ -40007,7 +39998,6 @@ doc
 ;
 }
 JSBool
-JS_DLL_CALLBACK
 nsHTMLDocumentSH
 :
 :
@@ -40316,7 +40306,6 @@ obj
 ;
 }
 JSBool
-JS_DLL_CALLBACK
 nsHTMLDocumentSH
 :
 :
@@ -40674,7 +40663,6 @@ JS_TRUE
 ;
 }
 JSBool
-JS_DLL_CALLBACK
 nsHTMLDocumentSH
 :
 :
@@ -40772,7 +40760,6 @@ JS_TRUE
 ;
 }
 JSBool
-JS_DLL_CALLBACK
 nsHTMLDocumentSH
 :
 :
@@ -41968,7 +41955,6 @@ helper
 /
 static
 JSBool
-JS_DLL_CALLBACK
 nsHTMLElementSH
 :
 :
@@ -47272,7 +47258,6 @@ _retval
 ;
 }
 JSBool
-JS_DLL_CALLBACK
 nsHTMLOptionsCollectionSH
 :
 :

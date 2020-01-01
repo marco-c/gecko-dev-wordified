@@ -1059,7 +1059,6 @@ object
 .
 "
 void
-JS_DLL_CALLBACK
 mozJSLoaderErrorReporter
 (
 JSContext
@@ -1407,10 +1406,8 @@ message
 #
 endif
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 Dump
 (
 JSContext
@@ -1479,10 +1476,8 @@ return
 JS_TRUE
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 Debug
 (
 JSContext
@@ -1522,10 +1517,8 @@ JS_TRUE
 #
 endif
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 Atob
 (
 JSContext
@@ -1709,10 +1702,8 @@ return
 JS_TRUE
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 Btoa
 (
 JSContext

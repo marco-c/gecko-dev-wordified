@@ -1108,10 +1108,8 @@ JS_FALSE
 }
 #
 endif
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 SafeGlobalResolve
 (
 JSContext
@@ -1138,10 +1136,8 @@ resolved
 )
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 SafeFinalize
 (
 JSContext

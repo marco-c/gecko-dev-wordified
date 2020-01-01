@@ -1683,7 +1683,6 @@ data
 ;
 static
 JSBool
-JS_DLL_CALLBACK
 DOMOperationCallback
 (
 JSContext
@@ -2061,7 +2060,6 @@ prototypes
 *
 /
 void
-JS_DLL_CALLBACK
 NS_ScriptErrorReporter
 (
 JSContext

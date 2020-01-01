@@ -1472,7 +1472,6 @@ S_OK
 ;
 }
 void
-JS_DLL_CALLBACK
 xpcWrappedJSErrorReporter
 (
 JSContext

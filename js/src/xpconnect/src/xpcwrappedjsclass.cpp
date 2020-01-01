@@ -4553,7 +4553,6 @@ aJSObj
 ;
 }
 void
-JS_DLL_CALLBACK
 xpcWrappedJSErrorReporter
 (
 JSContext

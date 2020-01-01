@@ -597,7 +597,6 @@ identityHashCode
 *
 /
 JSJHashNumber
-JS_DLL_CALLBACK
 jsj_HashJavaObject
 (
 const
@@ -786,7 +785,6 @@ objects
 *
 /
 intN
-JS_DLL_CALLBACK
 jsj_JavaObjectComparator
 (
 const

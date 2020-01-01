@@ -1064,7 +1064,6 @@ typedef
 JSTrapStatus
 (
 *
-JS_DLL_CALLBACK
 JSTrapHandler
 )
 (
@@ -1089,7 +1088,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSWatchPointHandler
 )
 (
@@ -1124,7 +1122,6 @@ typedef
 void
 (
 *
-JS_DLL_CALLBACK
 JSNewScriptHook
 )
 (
@@ -1174,7 +1171,6 @@ typedef
 void
 (
 *
-JS_DLL_CALLBACK
 JSDestroyScriptHook
 )
 (
@@ -1193,7 +1189,6 @@ typedef
 void
 (
 *
-JS_DLL_CALLBACK
 JSSourceHandler
 )
 (
@@ -1504,7 +1499,6 @@ void
 *
 (
 *
-JS_DLL_CALLBACK
 JSInterpreterHook
 )
 (
@@ -1528,7 +1522,6 @@ typedef
 void
 (
 *
-JS_DLL_CALLBACK
 JSObjectHook
 )
 (
@@ -1549,7 +1542,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSDebugErrorHook
 )
 (
@@ -1676,7 +1668,6 @@ typedef
 void
 (
 *
-JS_DLL_CALLBACK
 JSTempValueTrace
 )
 (

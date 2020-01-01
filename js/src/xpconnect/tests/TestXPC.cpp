@@ -665,10 +665,8 @@ gErrFile
 =
 NULL
 ;
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 Print
 (
 JSContext
@@ -775,10 +773,8 @@ return
 JS_TRUE
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 Load
 (
 JSContext
@@ -974,10 +970,8 @@ JS_ConvertStub
 JS_FinalizeStub
 }
 ;
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 my_ErrorReporter
 (
 JSContext

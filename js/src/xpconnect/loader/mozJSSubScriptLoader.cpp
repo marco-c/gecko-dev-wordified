@@ -722,7 +722,6 @@ component
 loader
 extern
 void
-JS_DLL_CALLBACK
 mozJSLoaderErrorReporter
 (
 JSContext

@@ -923,7 +923,6 @@ typedef
 void
 (
 *
-JS_DLL_CALLBACK
 JSD_SetContextProc
 )
 (
@@ -2864,7 +2863,6 @@ typedef
 void
 (
 *
-JS_DLL_CALLBACK
 JSD_ScriptHookProc
 )
 (
@@ -4950,7 +4948,6 @@ typedef
 uintN
 (
 *
-JS_DLL_CALLBACK
 JSD_ExecutionHookProc
 )
 (
@@ -5092,7 +5089,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSD_CallHookProc
 )
 (
@@ -6835,7 +6831,6 @@ typedef
 uintN
 (
 *
-JS_DLL_CALLBACK
 JSD_ErrorReporter
 )
 (

@@ -2570,10 +2570,8 @@ jsj_DiscardJavaClassReflections
 below
 *
 /
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSIntn
-)
 enumerate_remove_java_class
 (
 JSJHashEntry

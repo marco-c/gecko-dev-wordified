@@ -4376,7 +4376,6 @@ jEnv
 ;
 extern
 JSBool
-JS_DLL_CALLBACK
 JavaObject_convert
 (
 JSContext
@@ -4798,7 +4797,6 @@ extern
 const
 JSErrorFormatString
 *
-JS_DLL_CALLBACK
 jsj_GetErrorMessage
 (
 void
@@ -4814,7 +4812,6 @@ errorNumber
 )
 ;
 JSJHashNumber
-JS_DLL_CALLBACK
 jsj_HashJavaObject
 (
 const
@@ -4827,7 +4824,6 @@ env
 )
 ;
 intN
-JS_DLL_CALLBACK
 jsj_JavaObjectComparator
 (
 const
@@ -4955,7 +4951,6 @@ jsj_env
 extern
 JSObjectMap
 *
-JS_DLL_CALLBACK
 jsj_wrapper_newObjectMap
 (
 JSContext
@@ -4976,7 +4971,6 @@ obj
 ;
 extern
 void
-JS_DLL_CALLBACK
 jsj_wrapper_destroyObjectMap
 (
 JSContext
@@ -4989,7 +4983,6 @@ map
 ;
 extern
 jsval
-JS_DLL_CALLBACK
 jsj_wrapper_getRequiredSlot
 (
 JSContext
@@ -5004,7 +4997,6 @@ slot
 ;
 extern
 JSBool
-JS_DLL_CALLBACK
 jsj_wrapper_setRequiredSlot
 (
 JSContext

@@ -496,7 +496,6 @@ typedef
 JSHashNumber
 (
 *
-JS_DLL_CALLBACK
 JSHashFunction
 )
 (
@@ -510,7 +509,6 @@ typedef
 intN
 (
 *
-JS_DLL_CALLBACK
 JSHashComparator
 )
 (
@@ -528,7 +526,6 @@ typedef
 intN
 (
 *
-JS_DLL_CALLBACK
 JSHashEnumerator
 )
 (

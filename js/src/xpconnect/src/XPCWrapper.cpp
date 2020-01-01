@@ -528,10 +528,8 @@ sEvalNative
 =
 nsnull
 ;
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 IteratorFinalize
 (
 JSContext
@@ -583,10 +581,8 @@ ida
 ;
 }
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 IteratorNext
 (
 JSContext

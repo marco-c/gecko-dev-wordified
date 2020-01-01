@@ -1684,7 +1684,6 @@ endif
 }
 void
 *
-JS_DLL_CALLBACK
 jsd_FunctionCallHook
 (
 JSContext
@@ -1790,7 +1789,6 @@ NULL
 }
 void
 *
-JS_DLL_CALLBACK
 jsd_TopLevelCallHook
 (
 JSContext

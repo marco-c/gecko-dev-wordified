@@ -2274,7 +2274,6 @@ void
 *
 (
 *
-JS_DLL_CALLBACK
 JSDHashAllocTable
 )
 (
@@ -2289,7 +2288,6 @@ typedef
 void
 (
 *
-JS_DLL_CALLBACK
 JSDHashFreeTable
 )
 (
@@ -2338,7 +2336,6 @@ typedef
 JSDHashNumber
 (
 *
-JS_DLL_CALLBACK
 JSDHashHashKey
 )
 (
@@ -2382,7 +2379,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSDHashMatchEntry
 )
 (
@@ -2464,7 +2460,6 @@ typedef
 void
 (
 *
-JS_DLL_CALLBACK
 JSDHashMoveEntry
 )
 (
@@ -2529,7 +2524,6 @@ typedef
 void
 (
 *
-JS_DLL_CALLBACK
 JSDHashClearEntry
 )
 (
@@ -2594,7 +2588,6 @@ typedef
 void
 (
 *
-JS_DLL_CALLBACK
 JSDHashFinalize
 )
 (
@@ -2673,7 +2666,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSDHashInitEntry
 )
 (
@@ -4854,7 +4846,6 @@ typedef
 JSDHashOperator
 (
 *
-JS_DLL_CALLBACK
 JSDHashEnumerator
 )
 (

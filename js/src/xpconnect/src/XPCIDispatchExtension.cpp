@@ -933,10 +933,8 @@ return
 JS_TRUE
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 COMObjectConstructor
 (
 JSContext
@@ -971,10 +969,8 @@ PR_FALSE
 )
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 ActiveXConstructor
 (
 JSContext
@@ -1009,10 +1005,8 @@ PR_TRUE
 )
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 ActiveXSupports
 (
 JSContext

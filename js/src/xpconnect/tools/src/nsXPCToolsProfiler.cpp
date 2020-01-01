@@ -998,10 +998,8 @@ script
 creation
 *
 /
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 xpctools_JSNewScriptHook
 (
 JSContext
@@ -1228,10 +1226,8 @@ script
 destruction
 *
 /
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 xpctools_JSDestroyScriptHook
 (
 JSContext
@@ -1304,11 +1300,9 @@ level
 scripts
 *
 /
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
 *
-)
 xpctools_InterpreterHook
 (
 JSContext

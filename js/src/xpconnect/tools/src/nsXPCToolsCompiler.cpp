@@ -561,10 +561,8 @@ return
 NS_OK
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 ErrorReporter
 (
 JSContext

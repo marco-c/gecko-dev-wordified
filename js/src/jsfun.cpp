@@ -14943,10 +14943,8 @@ endif
 }
 JSLocalNameEnumeratorArgs
 ;
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSDHashOperator
-)
 get_local_names_enumerator
 (
 JSDHashTable
@@ -15521,10 +15519,8 @@ return
 names
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSDHashOperator
-)
 trace_local_names_enumerator
 (
 JSDHashTable

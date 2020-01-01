@@ -778,10 +778,8 @@ return
 JavaMember_obj
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 JavaMember_finalize
 (
 JSContext
@@ -818,10 +816,8 @@ member_val
 )
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 JavaMember_convert
 (
 JSContext
@@ -1002,10 +998,8 @@ JavaMember_convert
 .
 *
 /
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 JavaMember_Call
 (
 JSContext
@@ -1033,10 +1027,8 @@ return
 JS_TRUE
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 JavaMember_trace
 (
 JSTracer

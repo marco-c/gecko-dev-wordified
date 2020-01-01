@@ -611,10 +611,8 @@ was
 retrieved
 *
 /
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 XPC_PP_GetProperty
 (
 JSContext
@@ -783,10 +781,8 @@ was
 retrieved
 *
 /
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 XPC_PP_SetProperty
 (
 JSContext
@@ -1071,10 +1067,8 @@ was
 retrieved
 *
 /
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 XPC_PP_Finalize
 (
 JSContext
@@ -1122,10 +1116,8 @@ being
 marked
 *
 /
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 XPC_PP_Trace
 (
 JSTracer

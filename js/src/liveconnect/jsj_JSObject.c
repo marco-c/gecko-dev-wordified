@@ -2723,10 +2723,8 @@ error
 .
 *
 /
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 capture_js_error_reports_for_java
 (
 JSContext

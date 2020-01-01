@@ -2304,7 +2304,6 @@ callbacks
 *
 /
 JSBool
-JS_DLL_CALLBACK
 DOMWorkerOperationCallback
 (
 JSContext
@@ -2754,7 +2753,6 @@ JS_TRUE
 ;
 }
 void
-JS_DLL_CALLBACK
 DOMWorkerErrorReporter
 (
 JSContext

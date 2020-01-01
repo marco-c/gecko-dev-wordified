@@ -2834,7 +2834,6 @@ Checks
 /
 /
 JSBool
-JS_DLL_CALLBACK
 nsScriptSecurityManager
 :
 :

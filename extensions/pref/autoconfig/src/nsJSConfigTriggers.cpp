@@ -809,10 +809,8 @@ JS_ConvertStub
 JS_FinalizeStub
 }
 ;
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 autoConfigErrorReporter
 (
 JSContext

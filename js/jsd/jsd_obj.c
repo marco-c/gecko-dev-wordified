@@ -1009,7 +1009,6 @@ jsdobj
 ;
 }
 void
-JS_DLL_CALLBACK
 jsd_ObjectHook
 (
 JSContext
@@ -1297,10 +1296,8 @@ jsdc
 )
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSHashNumber
-)
 _hash_root
 (
 const

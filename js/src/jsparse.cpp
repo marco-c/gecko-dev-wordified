@@ -11289,10 +11289,8 @@ pn_type
 TOK_NAME
 )
 )
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSDHashNumber
-)
 HashFindPropValKey
 (
 JSDHashTable
@@ -11362,10 +11360,8 @@ pn_atom
 )
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 MatchFindPropValEntry
 (
 JSDHashTable

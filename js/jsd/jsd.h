@@ -2398,10 +2398,8 @@ void
 callerdata
 )
 ;
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 jsd_DebugErrorHook
 (
 JSContext
@@ -2867,7 +2865,6 @@ pc
 ;
 extern
 void
-JS_DLL_CALLBACK
 jsd_NewScriptHookProc
 (
 JSContext
@@ -2910,7 +2907,6 @@ callerdata
 ;
 extern
 void
-JS_DLL_CALLBACK
 jsd_DestroyScriptHookProc
 (
 JSContext
@@ -3646,7 +3642,6 @@ jsdc
 ;
 extern
 JSTrapStatus
-JS_DLL_CALLBACK
 jsd_DebuggerHandler
 (
 JSContext
@@ -3668,7 +3663,6 @@ closure
 ;
 extern
 JSTrapStatus
-JS_DLL_CALLBACK
 jsd_ThrowHandler
 (
 JSContext
@@ -6088,7 +6082,6 @@ Functions
 extern
 void
 *
-JS_DLL_CALLBACK
 jsd_FunctionCallHook
 (
 JSContext
@@ -6110,7 +6103,6 @@ closure
 extern
 void
 *
-JS_DLL_CALLBACK
 jsd_TopLevelCallHook
 (
 JSContext
@@ -6207,7 +6199,6 @@ jsdc
 ;
 extern
 void
-JS_DLL_CALLBACK
 jsd_ObjectHook
 (
 JSContext
@@ -6730,7 +6721,6 @@ stop
 /
 extern
 void
-JS_DLL_CALLBACK
 jsdlw_AppHookProc
 (
 LWDBGApp

@@ -705,7 +705,6 @@ js_InitThreadPrivateIndex
 (
 void
 (
-JS_DLL_CALLBACK
 *
 ptr
 )
@@ -776,7 +775,6 @@ destroyed
 *
 /
 void
-JS_DLL_CALLBACK
 js_ThreadDestructorCB
 (
 void
@@ -3304,10 +3302,8 @@ return
 cx
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSDHashNumber
-)
 resolving_HashKey
 (
 JSDHashTable

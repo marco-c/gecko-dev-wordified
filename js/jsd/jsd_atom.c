@@ -596,10 +596,8 @@ atom4
 }
 #
 endif
-JS_STATIC_DLL_CALLBACK
-(
+static
 intN
-)
 _atom_smasher
 (
 JSHashEntry
@@ -689,10 +687,8 @@ return
 HT_ENUMERATE_NEXT
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 intN
-)
 _compareAtomKeys
 (
 const
@@ -726,10 +722,8 @@ v2
 )
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 intN
-)
 _compareAtoms
 (
 const

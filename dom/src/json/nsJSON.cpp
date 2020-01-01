@@ -4235,10 +4235,8 @@ return
 NS_OK
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 trace_json_stack
 (
 JSTracer
