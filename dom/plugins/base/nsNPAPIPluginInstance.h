@@ -1093,6 +1093,13 @@ PRUint32
 aModel
 )
 ;
+/
+/
+This
+stuff
+is
+for
+kSurface_ANPDrawingModel
 void
 *
 GetJavaSurface
