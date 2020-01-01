@@ -1200,7 +1200,7 @@ T
 typename
 U
 >
-inline
+MOZ_ALWAYS_INLINE
 nsresult
 UnwrapObject
 (
