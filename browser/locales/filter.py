@@ -69,7 +69,7 @@ re
   
 #
 ignore
-anyhting
+anything
 but
 Firefox
   
@@ -97,10 +97,16 @@ manager
 browser
 "
 "
+browser
+/
+metro
+"
+"
 extensions
 /
 reporter
 "
+                 
 "
 extensions
 /
