@@ -1169,6 +1169,12 @@ if
 this
 .
 isTextSelected
+&
+&
+!
+this
+.
+onLink
 )
 {
 /
