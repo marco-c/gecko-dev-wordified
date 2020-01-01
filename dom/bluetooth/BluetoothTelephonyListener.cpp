@@ -314,6 +314,13 @@ Get
 (
 )
 ;
+if
+(
+aCallIndex
+>
+0
+)
+{
 /
 /
 In
@@ -410,6 +417,7 @@ abnormally
 "
 )
 ;
+}
 NS_WARNING
 (
 NS_ConvertUTF16toUTF8
