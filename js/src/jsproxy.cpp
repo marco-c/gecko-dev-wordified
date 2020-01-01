@@ -17064,8 +17064,7 @@ proxy_Finalize
 FreeOp
 *
 fop
-JSObject
-*
+RawObject
 obj
 )
 {
