@@ -100,7 +100,7 @@ function
 (
 )
 {
-addVisits
+promiseAddVisits
 (
 {
 uri
@@ -159,7 +159,7 @@ function
 (
 )
 {
-addVisits
+promiseAddVisits
 (
 {
 uri
@@ -220,7 +220,7 @@ function
 (
 )
 {
-addVisits
+promiseAddVisits
 (
 {
 uri
@@ -283,7 +283,7 @@ function
 (
 )
 {
-addVisits
+promiseAddVisits
 (
 {
 uri
@@ -338,7 +338,7 @@ function
 (
 )
 {
-addVisits
+promiseAddVisits
 (
 {
 uri
@@ -391,7 +391,7 @@ function
 (
 )
 {
-addVisits
+promiseAddVisits
 (
 {
 uri

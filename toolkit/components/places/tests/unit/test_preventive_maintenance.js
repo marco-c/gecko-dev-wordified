@@ -11501,7 +11501,7 @@ function
 (
 )
 {
-addVisits
+promiseAddVisits
 (
 [
 {

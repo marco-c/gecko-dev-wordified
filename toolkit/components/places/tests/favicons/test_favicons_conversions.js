@@ -351,7 +351,7 @@ page
 aFileName
 )
 ;
-addVisits
+promiseAddVisits
 (
 {
 uri
@@ -361,6 +361,10 @@ transition
 :
 TRANSITION_TYPED
 }
+)
+.
+then
+(
 function
 (
 )
