@@ -8001,7 +8001,7 @@ mStyleData
 .
 Destroy
 (
-0
+mDependentBits
 mPresContext
 )
 ;
