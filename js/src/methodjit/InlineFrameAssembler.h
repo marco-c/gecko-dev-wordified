@@ -864,7 +864,6 @@ funObjReg
 )
 ;
 }
-inline
 void
 assemble
 (
