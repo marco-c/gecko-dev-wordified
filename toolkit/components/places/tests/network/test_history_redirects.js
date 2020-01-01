@@ -939,13 +939,13 @@ session
 +
 "
 FROM
-moz_historyvisits
+moz_historyvisits_view
 v
 "
 +
 "
 JOIN
-moz_places
+moz_places_view
 h
 on
 h
