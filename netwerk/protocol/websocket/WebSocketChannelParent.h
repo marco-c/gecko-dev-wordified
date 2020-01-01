@@ -575,11 +575,6 @@ RecvDeleteSelf
 (
 )
 ;
-bool
-CancelEarly
-(
-)
-;
 void
 ActorDestroy
 (
