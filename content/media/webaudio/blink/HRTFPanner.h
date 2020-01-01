@@ -291,8 +291,14 @@ HRTFPanner
 (
 float
 sampleRate
+mozilla
+:
+:
+TemporaryRef
+<
 HRTFDatabaseLoader
-*
+>
+databaseLoader
 )
 ;
 ~
