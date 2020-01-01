@@ -1602,6 +1602,14 @@ keyCode
 KeyEvent
 .
 KEYCODE_DPAD_CENTER
+|
+|
+keyCode
+=
+=
+KeyEvent
+.
+KEYCODE_DEL
 )
 {
 return
