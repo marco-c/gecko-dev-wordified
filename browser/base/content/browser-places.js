@@ -4588,9 +4588,8 @@ m
 /
 /
 "
-Open
+Restore
 All
-in
 Tabs
 "
 var
@@ -4648,7 +4647,7 @@ strings
 getString
 (
 "
-menuOpenAllInTabs
+menuRestoreAllTabs
 .
 label
 "
@@ -4667,7 +4666,7 @@ strings
 getString
 (
 "
-menuOpenAllInTabs
+menuRestoreAllTabs
 .
 accesskey
 "
