@@ -7,7 +7,7 @@ test
 |
 error
 :
-RangeError
+TypeError
 /
 /
 /
@@ -93,7 +93,7 @@ else
 {
 throw
 new
-RangeError
+TypeError
 (
 )
 ;
