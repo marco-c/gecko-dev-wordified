@@ -682,6 +682,8 @@ rules
 "
 )
 ;
+/
+/
 ok
 (
 propertyInfo
