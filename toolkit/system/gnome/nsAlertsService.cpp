@@ -434,6 +434,13 @@ nsAlertsIconListener
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 NS_IMPL_THREADSAFE_ADDREF
 (
 nsAlertsService
@@ -518,7 +525,7 @@ nsAString
 aAlertName
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsAlertsIconListener
 >
