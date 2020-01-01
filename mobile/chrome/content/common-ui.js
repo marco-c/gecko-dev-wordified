@@ -1787,11 +1787,6 @@ pdf
 "
 ;
 let
-displayName
-=
-fileName
-;
-let
 dm
 =
 Cc
@@ -1859,12 +1854,6 @@ file
 NORMAL_FILE_TYPE
 0666
 )
-;
-fileName
-=
-file
-.
-leafName
 ;
 #
 else
@@ -1982,6 +1971,12 @@ file
 ;
 #
 endif
+fileName
+=
+file
+.
+leafName
+;
 /
 /
 We
@@ -2058,7 +2053,7 @@ params
 .
 name
 =
-displayName
+fileName
 ;
 stmt
 .
