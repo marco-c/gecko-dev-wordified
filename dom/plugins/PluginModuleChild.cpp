@@ -34,6 +34,9 @@ offset
 *
 -
 *
+/
+/
+*
 vim
 :
 sw
@@ -44,6 +47,9 @@ ts
 4
 et
 :
+*
+/
+/
 *
 *
 *
@@ -804,6 +810,11 @@ mLibrary
 (
 0
 )
+mPluginFilename
+(
+"
+"
+)
 mQuirks
 (
 QUIRKS_NOT_INITIALIZED
@@ -815,11 +826,6 @@ mShutdownFunc
 mInitializeFunc
 (
 0
-)
-mPluginFilename
-(
-"
-"
 )
 #
 if
