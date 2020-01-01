@@ -483,6 +483,13 @@ h
 #
 include
 "
+nsThemeConstants
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -5982,7 +5989,7 @@ nsStyleDisplay
 {
 mAppearance
 =
-0
+NS_THEME_NONE
 ;
 mDisplay
 =
