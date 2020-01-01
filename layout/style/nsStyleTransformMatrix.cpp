@@ -2322,7 +2322,7 @@ aData
 >
 Item
 (
-5
+6
 )
 .
 GetPercentValue
