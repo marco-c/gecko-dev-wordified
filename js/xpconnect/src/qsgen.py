@@ -4792,9 +4792,6 @@ Totally
 custom
 .
             
-assert
-haveCcx
-            
 template
 =
 (
@@ -4821,7 +4818,7 @@ XPCVariant
 :
 newVariant
 (
-ccx
+cx
 {
 argVal
 }
@@ -4847,10 +4844,11 @@ n
 "
                 
 "
-xpc_qsThrowBadArgWithCcx
+xpc_qsThrowBadArg
 (
-ccx
-NS_ERROR_XPC_BAD_CONVERT_JS
+cx
+NS_ERROR_INVALID_ARG
+vp
 %
 d
 )
@@ -6460,26 +6458,6 @@ anyParamRequiresCcx
 member
 )
 :
-    
-for
-p
-in
-member
-.
-params
-:
-        
-if
-isVariantType
-(
-p
-.
-realtype
-)
-:
-            
-return
-True
     
 return
 False

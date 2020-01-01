@@ -1812,9 +1812,9 @@ nsXPCWrappedJS
 :
 GetNewOrUsed
 (
-XPCCallContext
-&
-ccx
+JSContext
+*
+cx
 JSObject
 *
 aJSObj
@@ -1859,9 +1859,10 @@ XPCJSRuntime
 *
 rt
 =
-ccx
-.
-GetRuntime
+nsXPConnect
+:
+:
+GetRuntimeInstance
 (
 )
 ;
@@ -1903,7 +1904,7 @@ nsXPCWrappedJSClass
 :
 GetNewOrUsed
 (
-ccx
+cx
 aIID
 &
 clazz
@@ -1944,7 +1945,7 @@ clazz
 >
 GetRootJSObject
 (
-ccx
+cx
 aJSObj
 )
 ;
@@ -2109,7 +2110,7 @@ root
 new
 nsXPCWrappedJS
 (
-ccx
+cx
 aJSObj
 clazz
 nullptr
@@ -2236,7 +2237,7 @@ nsXPCWrappedJSClass
 :
 GetNewOrUsed
 (
-ccx
+cx
 NS_GET_IID
 (
 nsISupports
@@ -2258,7 +2259,7 @@ root
 new
 nsXPCWrappedJS
 (
-ccx
+cx
 rootJSObj
 rootClazz
 nullptr
@@ -2418,7 +2419,7 @@ wrapper
 new
 nsXPCWrappedJS
 (
-ccx
+cx
 aJSObj
 clazz
 root
@@ -2524,9 +2525,9 @@ nsXPCWrappedJS
 :
 nsXPCWrappedJS
 (
-XPCCallContext
-&
-ccx
+JSContext
+*
+cx
 JSObject
 *
 aJSObj
