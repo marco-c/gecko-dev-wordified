@@ -2937,6 +2937,7 @@ PR_FALSE
 /
 *
 *
+*
 Get
 the
 rightmost
@@ -2955,7 +2956,7 @@ children
 .
 *
 /
-nsCOMPtr
+already_AddRefed
 <
 nsIDOMNode
 >
@@ -2971,6 +2972,7 @@ PR_FALSE
 )
 ;
 /
+*
 *
 *
 Get
@@ -2991,7 +2993,7 @@ children
 .
 *
 /
-nsCOMPtr
+already_AddRefed
 <
 nsIDOMNode
 >

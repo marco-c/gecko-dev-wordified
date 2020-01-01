@@ -1999,7 +1999,7 @@ nsEditor
 *
 /
 static
-nsCOMPtr
+already_AddRefed
 <
 nsIDOMNode
 >
@@ -2310,7 +2310,7 @@ aSections
 )
 ;
 static
-nsCOMPtr
+already_AddRefed
 <
 nsIDOMNode
 >
@@ -2907,7 +2907,7 @@ PRBool
 aNoEmptyNodes
 )
 ;
-nsCOMPtr
+already_AddRefed
 <
 nsIDOMNode
 >
