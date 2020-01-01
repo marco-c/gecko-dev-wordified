@@ -6544,6 +6544,15 @@ markSynced
 false
 )
 ;
+inline
+void
+forgetLoopReg
+(
+FrameEntry
+*
+fe
+)
+;
 private
 :
 inline

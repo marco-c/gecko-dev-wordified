@@ -48529,6 +48529,13 @@ ensureDouble
 fe
 )
 ;
+frame
+.
+forgetLoopReg
+(
+fe
+)
+;
 }
 else
 if
@@ -48631,6 +48638,13 @@ slot
 frame
 .
 syncAndForgetFe
+(
+fe
+)
+;
+frame
+.
+forgetLoopReg
 (
 fe
 )
