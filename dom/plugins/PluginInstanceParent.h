@@ -870,6 +870,16 @@ NPReason
 reason
 )
 ;
+virtual
+bool
+RecvNPN_InvalidateRect
+(
+const
+NPRect
+&
+rect
+)
+;
 NPError
 NPP_SetWindow
 (
