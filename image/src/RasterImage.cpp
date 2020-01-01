@@ -1715,7 +1715,6 @@ discardable_source_bytes
 )
 )
 ;
-}
 DiscardTracker
 :
 :
@@ -1725,6 +1724,7 @@ Remove
 mDiscardTrackerNode
 )
 ;
+}
 /
 /
 If
