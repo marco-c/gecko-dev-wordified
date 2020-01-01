@@ -4350,14 +4350,6 @@ jsop_newinit
 )
 ;
 bool
-jsop_regexp_stub
-(
-RegExpObject
-*
-reobj
-)
-;
-bool
 jsop_regexp
 (
 )
