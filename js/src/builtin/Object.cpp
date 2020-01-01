@@ -2250,7 +2250,7 @@ true
 }
 #
 if
-OLD_GETTER_SETTER_METHODS
+JS_OLD_GETTER_SETTER_METHODS
 enum
 DefineType
 {
@@ -3206,7 +3206,7 @@ true
 endif
 /
 *
-OLD_GETTER_SETTER_METHODS
+JS_OLD_GETTER_SETTER_METHODS
 *
 /
 /
@@ -6297,7 +6297,7 @@ obj_propertyIsEnumerable
 )
 #
 if
-OLD_GETTER_SETTER_METHODS
+JS_OLD_GETTER_SETTER_METHODS
 JS_FN
 (
 js_defineGetter_str

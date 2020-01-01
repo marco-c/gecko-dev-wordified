@@ -8091,7 +8091,7 @@ js_propertyIsEnumerable_str
 ;
 #
 ifdef
-OLD_GETTER_SETTER_METHODS
+JS_OLD_GETTER_SETTER_METHODS
 extern
 const
 char
