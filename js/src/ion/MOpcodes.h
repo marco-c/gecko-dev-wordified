@@ -510,11 +510,6 @@ Phi
 \
 _
 (
-Beta
-)
-\
-_
-(
 OsrValue
 )
 \
