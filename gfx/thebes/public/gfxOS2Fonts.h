@@ -826,6 +826,9 @@ aClosure
 ;
 private
 :
+PRBool
+mEnableKerning
+;
 }
 ;
 #
