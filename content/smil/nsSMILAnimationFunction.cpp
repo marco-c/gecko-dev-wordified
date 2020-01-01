@@ -1670,7 +1670,7 @@ error
 if
 (
 !
-IsActive
+IsActiveOrFrozen
 (
 )
 |
@@ -2095,7 +2095,7 @@ first
 if
 (
 !
-IsActive
+IsActiveOrFrozen
 (
 )
 &
@@ -2103,7 +2103,7 @@ IsActive
 aOther
 -
 >
-IsActive
+IsActiveOrFrozen
 (
 )
 )
@@ -2113,7 +2113,7 @@ return
 ;
 if
 (
-IsActive
+IsActiveOrFrozen
 (
 )
 &
@@ -2122,7 +2122,7 @@ IsActive
 aOther
 -
 >
-IsActive
+IsActiveOrFrozen
 (
 )
 )
