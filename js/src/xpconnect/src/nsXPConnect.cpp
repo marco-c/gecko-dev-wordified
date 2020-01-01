@@ -3226,6 +3226,14 @@ gOldJSGCCallback
 =
 nsnull
 ;
+XPCWrappedNativeScope
+:
+:
+SuspectAllWrappers
+(
+mRuntime
+)
+;
 #
 ifndef
 XPCONNECT_STANDALONE

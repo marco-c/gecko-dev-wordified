@@ -7477,6 +7477,15 @@ rt
 ;
 static
 void
+SuspectAllWrappers
+(
+XPCJSRuntime
+*
+rt
+)
+;
+static
+void
 FinishedMarkPhaseOfGC
 (
 JSContext
