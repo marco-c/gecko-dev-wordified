@@ -21140,6 +21140,7 @@ GetCompatibilityMode
 =
 eCompatibility_NavQuirks
 )
+PR_FALSE
 )
 ;
 }
@@ -21168,6 +21169,7 @@ GetCompatibilityMode
 =
 eCompatibility_NavQuirks
 )
+PR_FALSE
 )
 ;
 }

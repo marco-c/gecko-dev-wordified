@@ -1925,6 +1925,8 @@ PRInt32
 aContextNamespace
 PRBool
 aQuirks
+PRBool
+aPreventScriptExecution
 )
 =
 0
