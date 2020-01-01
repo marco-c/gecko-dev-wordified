@@ -434,7 +434,6 @@ buffer
 function
 createRandomBlob
 (
-mime
 )
 {
 return
@@ -451,7 +450,11 @@ getRandomBuffer
 {
 type
 :
-mime
+'
+binary
+/
+random
+'
 }
 )
 ;
