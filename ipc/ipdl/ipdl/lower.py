@@ -78,6 +78,7 @@ ipdl
 .
 type
 import
+Actor
 ActorType
 ProcessGraph
 TypeVisitor
@@ -4013,6 +4014,7 @@ def
 _allocMethod
 (
 ptype
+side
 )
 :
     
@@ -4023,16 +4025,20 @@ ExprVar
 Alloc
 '
 +
-ptype
-.
-name
+str
 (
+Actor
+(
+ptype
+side
+)
 )
 )
 def
 _deallocMethod
 (
 ptype
+side
 )
 :
     
@@ -4043,10 +4049,13 @@ ExprVar
 Dealloc
 '
 +
-ptype
-.
-name
+str
 (
+Actor
+(
+ptype
+side
+)
 )
 )
 #
@@ -21473,6 +21482,9 @@ MethodDecl
 _allocMethod
 (
 managed
+self
+.
+side
 )
 .
 name
@@ -21521,6 +21533,9 @@ MethodDecl
 _deallocMethod
 (
 managed
+self
+.
+side
 )
 .
 name
@@ -21606,6 +21621,9 @@ _allocMethod
 actor
 .
 ptype
+actor
+.
+side
 )
 .
 name
@@ -26728,6 +26746,9 @@ ExprCall
 _deallocMethod
 (
 managed
+self
+.
+side
 )
                                   
 args
@@ -30101,6 +30122,9 @@ ExprCall
 _deallocMethod
 (
 manageeipdltype
+self
+.
+side
 )
                                       
 args
@@ -31875,6 +31899,9 @@ _allocMethod
 actor
 .
 ptype
+actor
+.
+side
 )
                 
 args
@@ -37299,6 +37326,11 @@ retsems
 '
 out
 '
+side
+=
+self
+.
+side
 )
         
 helper
@@ -38270,6 +38302,11 @@ retsems
 '
 in
 '
+side
+=
+self
+.
+side
 )
 )
 )
@@ -40072,6 +40109,7 @@ callAllocActor
 self
 md
 retsems
+side
 )
 :
         
@@ -40090,6 +40128,7 @@ type
 constructedType
 (
 )
+side
 )
             
 args
