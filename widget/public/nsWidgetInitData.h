@@ -922,6 +922,10 @@ mUnicode
 (
 PR_TRUE
 )
+mRTL
+(
+PR_FALSE
+)
 {
 }
 nsWindowType
@@ -970,6 +974,9 @@ mListenForResizes
 ;
 PRPackedBool
 mUnicode
+;
+PRPackedBool
+mRTL
 ;
 }
 ;
