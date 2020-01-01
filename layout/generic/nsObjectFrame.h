@@ -733,6 +733,11 @@ Destroy
 )
 ;
 NS_IMETHOD
+DidSetStyleContext
+(
+)
+;
+NS_IMETHOD
 GetPluginInstance
 (
 nsIPluginInstance
