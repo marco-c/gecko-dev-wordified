@@ -2838,8 +2838,6 @@ const
 AutoNameVector
 &
 formals
-HandleScript
-script
 bool
 strict
 bool
