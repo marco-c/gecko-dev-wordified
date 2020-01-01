@@ -17361,7 +17361,7 @@ JSON
 .
 stringify
 as
-specificed
+specified
 by
 ES3
 .
@@ -17432,7 +17432,7 @@ JSON
 .
 parse
 as
-specificed
+specified
 by
 ES3
 .
