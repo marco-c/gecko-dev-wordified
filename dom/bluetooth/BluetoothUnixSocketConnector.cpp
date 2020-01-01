@@ -1193,8 +1193,9 @@ get_bdaddr_as_string
 bdaddr_t
 *
 )
-&
 aAddr
+.
+sa_data
 addr
 )
 ;
