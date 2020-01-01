@@ -7430,10 +7430,7 @@ s
 \
 n
 "
-PromiseFlatCString
-(
 logBuffer
-)
 .
 get
 (
