@@ -5670,10 +5670,6 @@ setSpecialAttributes
 nsnull
 /
 /
-deleteGeneric
-nsnull
-/
-/
 deleteProperty
 nsnull
 /

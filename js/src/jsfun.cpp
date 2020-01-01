@@ -2431,7 +2431,7 @@ cx
 )
 ;
 return
-js_DeleteProperty
+js_DeleteGeneric
 (
 cx
 &
@@ -3149,7 +3149,7 @@ cx
 )
 ;
 return
-js_DeleteProperty
+js_DeleteGeneric
 (
 cx
 &
@@ -6992,7 +6992,7 @@ mean
 the
 code
 in
-js_DeleteProperty
+js_DeleteGeneric
 could
 not
 find
