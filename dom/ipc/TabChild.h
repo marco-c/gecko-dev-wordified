@@ -1684,13 +1684,9 @@ nsString
 &
 aType
 const
-float
+CSSPoint
 &
-aX
-const
-float
-&
-aY
+aPoint
 const
 int32_t
 &
@@ -2316,7 +2312,7 @@ aMsg
 uint64_t
 aTime
 const
-nsIntPoint
+LayoutDevicePoint
 &
 aRefPoint
 )
@@ -2528,7 +2524,7 @@ of
 the
 touchstart
 .
-nsIntPoint
+LayoutDevicePoint
 mGestureDownPoint
 ;
 /
