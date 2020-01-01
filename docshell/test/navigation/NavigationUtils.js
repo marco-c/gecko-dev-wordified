@@ -1828,7 +1828,7 @@ frameWaitInterval
 setTimeout
 (
 callback
-1
+0
 )
 ;
 return
