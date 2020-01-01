@@ -468,13 +468,6 @@ h
 #
 include
 "
-nsSVGTransform
-.
-h
-"
-#
-include
-"
 nsSVGAngle
 .
 h
