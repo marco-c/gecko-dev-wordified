@@ -21577,7 +21577,7 @@ nsIDOMWindowUtils
 ;
 elem
 =
-ElementTouchHelper
+this
 .
 getClosest
 (
@@ -21867,7 +21867,6 @@ unclickableCache
 return
 target
 ;
-let
 target
 =
 null
