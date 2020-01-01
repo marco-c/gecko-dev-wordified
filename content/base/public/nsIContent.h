@@ -6047,7 +6047,7 @@ nsIFrame
 aFrame
 )
 {
-NS_WARN_IF_FALSE
+NS_PRECONDITION
 (
 !
 aFrame
