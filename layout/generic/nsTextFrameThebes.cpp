@@ -31494,6 +31494,8 @@ iter
 .
 SetOriginalOffset
 (
+aOffset
++
 nextClusterStart
 )
 ;
