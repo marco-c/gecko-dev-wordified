@@ -151,6 +151,15 @@ Nullable
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ErrorResult
+.
+h
+"
 using
 namespace
 mozilla
@@ -229,7 +238,7 @@ Nullable
 bool
 >
 aWantsUntrusted
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -246,7 +255,7 @@ JSObject
 aListener
 bool
 aCapture
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -257,7 +266,7 @@ DispatchEvent
 JSObject
 *
 aEvent
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -286,7 +295,7 @@ const
 nsAString
 &
 aType
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -302,7 +311,7 @@ aType
 JSObject
 *
 aListener
-nsresult
+ErrorResult
 &
 aRv
 )
