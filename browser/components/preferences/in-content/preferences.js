@@ -170,6 +170,12 @@ updateCommands
 (
 )
 ;
+gMainPane
+.
+init
+(
+)
+;
 var
 initFinished
 =
