@@ -15773,7 +15773,9 @@ JSLinearString
 str
 uint32_t
 limit
+const
 Matcher
+&
 splitMatch
 TypeObject
 *
@@ -16827,6 +16829,7 @@ SplitMatchResult
 *
 result
 )
+const
 {
 Value
 rval
@@ -16981,6 +16984,7 @@ SplitMatchResult
 *
 res
 )
+const
 {
 JS_ASSERT
 (
