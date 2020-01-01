@@ -471,7 +471,7 @@ PRUnichar
 aText
 PRUint32
 aLength
-PRPackedBool
+PRUint8
 *
 aBreakBefore
 )
@@ -500,7 +500,7 @@ aLength
 *
 sizeof
 (
-PRPackedBool
+PRUint8
 )
 )
 ;
