@@ -1877,8 +1877,6 @@ Layer
 aLayer
 uint64_t
 aLayersId
-gfx3DMatrix
-aTransform
 AsyncPanZoomController
 *
 aParent
