@@ -754,7 +754,7 @@ canonicalize
 the
 hostname
 .
-PRInt32
+int32_t
 index
 =
 buf

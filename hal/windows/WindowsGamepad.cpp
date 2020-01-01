@@ -229,7 +229,7 @@ device
 changes
 .
 const
-PRUint32
+uint32_t
 kDevicesChangedStableDelay
 =
 200

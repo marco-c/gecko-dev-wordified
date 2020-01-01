@@ -647,7 +647,7 @@ _retval
 =
 0
 ;
-PRInt32
+int32_t
 count
 =
 PR_SendTo
