@@ -8348,6 +8348,7 @@ aRemove
 )
 {
 AutoIntervalUpdateBatcher
+updateBatcher
 (
 *
 this
