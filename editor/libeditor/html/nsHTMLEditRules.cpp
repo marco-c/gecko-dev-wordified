@@ -16268,6 +16268,14 @@ of
 same
 type
 ?
+NS_ENSURE_STATE
+(
+leftParent
+&
+&
+rightParent
+)
+;
 /
 /
 are
