@@ -2003,6 +2003,17 @@ organizerScopeBar
 >
 toolbarbutton
 :
+not
+(
+[
+disabled
+=
+"
+true
+"
+]
+)
+:
 hover
 {
 color
