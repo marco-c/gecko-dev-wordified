@@ -3804,7 +3804,7 @@ a
 filename
 so
 use
-MOZ_APP_NAME
+ANDROID_PACKAGE_NAME
 to
 do
 that
@@ -3841,13 +3841,7 @@ Android
 nsCString
 package
 (
-"
-org
-.
-mozilla
-.
-"
-MOZ_APP_NAME
+ANDROID_PACKAGE_NAME
 "
 /
 .
