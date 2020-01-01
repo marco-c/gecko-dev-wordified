@@ -86,13 +86,6 @@ h
 #
 include
 "
-nsIThreadRetargetableStreamListener
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -132,8 +125,6 @@ MOZ_FINAL
 :
 public
 nsIStreamListener
-public
-nsIThreadRetargetableStreamListener
 {
 public
 :
@@ -174,7 +165,6 @@ mListener
 -
 >
 )
-NS_DECL_NSITHREADRETARGETABLESTREAMLISTENER
 private
 :
 ~
