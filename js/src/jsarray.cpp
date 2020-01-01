@@ -13778,7 +13778,7 @@ n
 return
 false
 ;
-int
+size_t
 cursor
 =
 0
