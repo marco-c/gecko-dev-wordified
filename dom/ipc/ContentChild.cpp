@@ -238,6 +238,17 @@ mozilla
 /
 ipc
 /
+GeckoChildProcessHost
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ipc
+/
 TestShellChild
 .
 h
