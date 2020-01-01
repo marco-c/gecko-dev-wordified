@@ -2443,6 +2443,7 @@ JSScript
 >
 SharedScriptData
 *
+uint32_t
 )
 ;
 template
@@ -4340,6 +4341,7 @@ SaveSharedScriptData
 cx
 script
 ssd
+nsrcnotes
 )
 )
 return
@@ -9386,6 +9388,8 @@ script
 SharedScriptData
 *
 ssd
+uint32_t
+nsrcnotes
 )
 {
 ASSERT
@@ -9623,12 +9627,7 @@ script
 -
 >
 length
-script
--
->
-numNotes
-(
-)
+nsrcnotes
 )
 ;
 return
@@ -12054,6 +12053,7 @@ SaveSharedScriptData
 cx
 script
 ssd
+1
 )
 ;
 }
@@ -12402,6 +12402,7 @@ SaveSharedScriptData
 cx
 script
 ssd
+nsrcnotes
 )
 )
 return
