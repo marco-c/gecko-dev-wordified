@@ -1644,7 +1644,7 @@ useRegister
 div
 -
 >
-lhs
+rhs
 (
 )
 )
