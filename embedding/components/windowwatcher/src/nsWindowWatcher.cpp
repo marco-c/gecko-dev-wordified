@@ -2580,7 +2580,7 @@ argc
 )
 ;
 return
-OpenWindowJSInternal
+OpenWindowInternal
 (
 aParent
 aUrl
@@ -2822,7 +2822,7 @@ aArguments
 )
 ;
 return
-OpenWindowJSInternal
+OpenWindowInternal
 (
 aParent
 aUrl
@@ -2840,7 +2840,7 @@ nsresult
 nsWindowWatcher
 :
 :
-OpenWindowJSInternal
+OpenWindowInternal
 (
 nsIDOMWindow
 *

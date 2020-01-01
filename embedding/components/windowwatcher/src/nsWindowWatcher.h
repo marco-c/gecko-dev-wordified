@@ -417,7 +417,7 @@ via
 OpenWindow
 .
 nsresult
-OpenWindowJSInternal
+OpenWindowInternal
 (
 nsIDOMWindow
 *
