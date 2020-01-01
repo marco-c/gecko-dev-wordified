@@ -10606,7 +10606,7 @@ this
 0
 )
 ;
-JS_CallTracer
+js_CallGCMarker
 (
 trc
 getterObject
@@ -10636,7 +10636,7 @@ this
 1
 )
 ;
-JS_CallTracer
+js_CallGCMarker
 (
 trc
 setterObject
@@ -10669,7 +10669,7 @@ this
 0
 )
 ;
-JS_CallTracer
+js_CallGCMarker
 (
 trc
 methodObject

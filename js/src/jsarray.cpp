@@ -7866,7 +7866,7 @@ array_dslots
 i
 )
 ;
-JS_CallTracer
+js_CallGCMarker
 (
 trc
 JSVAL_TO_TRACEABLE
