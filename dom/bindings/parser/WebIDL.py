@@ -14219,7 +14219,7 @@ identifier
 =
 =
 "
-SetterInfallible
+SetterThrows
 "
 and
 self
@@ -14242,7 +14242,7 @@ as
                               
 "
 [
-SetterInfallible
+SetterThrows
 ]
 "
                               
@@ -17859,7 +17859,7 @@ identifier
 =
 =
 "
-GetterInfallible
+GetterThrows
 "
 :
             
@@ -17877,7 +17877,7 @@ as
                               
 "
 [
-GetterInfallible
+GetterThrows
 ]
 "
                               
@@ -17896,7 +17896,7 @@ identifier
 =
 =
 "
-SetterInfallible
+SetterThrows
 "
 :
             
@@ -17914,7 +17914,7 @@ as
                               
 "
 [
-SetterInfallible
+SetterThrows
 ]
 "
                               
