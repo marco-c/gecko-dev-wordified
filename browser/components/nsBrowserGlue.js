@@ -11939,7 +11939,7 @@ GetStringFromName
 "
 geolocation
 .
-alwaysShare
+alwaysShareLocation
 "
 )
 accessKey
@@ -11951,7 +11951,7 @@ GetStringFromName
 "
 geolocation
 .
-alwaysShare
+alwaysShareLocation
 .
 accesskey
 "
@@ -12003,7 +12003,7 @@ GetStringFromName
 "
 geolocation
 .
-neverShare
+neverShareLocation
 "
 )
 accessKey
@@ -12015,7 +12015,7 @@ GetStringFromName
 "
 geolocation
 .
-neverShare
+neverShareLocation
 .
 accesskey
 "
