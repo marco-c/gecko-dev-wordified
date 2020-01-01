@@ -1545,6 +1545,10 @@ anonymousAtom
 ;
 JSAtom
 *
+applyAtom
+;
+JSAtom
+*
 argumentsAtom
 ;
 JSAtom
@@ -2207,6 +2211,13 @@ extern
 const
 char
 js_anonymous_str
+[
+]
+;
+extern
+const
+char
+js_apply_str
 [
 ]
 ;
