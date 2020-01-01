@@ -3648,9 +3648,9 @@ Shape
 *
 search
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 js
 :
 :
@@ -3765,9 +3765,9 @@ listp
 bool
 hashify
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 void
@@ -6249,9 +6249,9 @@ Shape
 :
 search
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 js
 :
 :
@@ -6320,7 +6320,7 @@ start
 >
 hashify
 (
-rt
+cx
 )
 )
 return

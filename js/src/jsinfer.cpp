@@ -5053,6 +5053,9 @@ Shape
 *
 GetSingletonShape
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -5070,6 +5073,7 @@ obj
 >
 nativeLookup
 (
+cx
 id
 )
 ;
@@ -5107,6 +5111,9 @@ ScriptAnalysis
 :
 pruneTypeBarriers
 (
+JSContext
+*
+cx
 uint32
 offset
 )
@@ -5206,6 +5213,7 @@ shape
 =
 GetSingletonShape
 (
+cx
 barrier
 -
 >
@@ -5416,6 +5424,7 @@ all
 {
 pruneTypeBarriers
 (
+cx
 offset
 )
 ;
@@ -6808,6 +6817,7 @@ shape
 =
 GetSingletonShape
 (
+cx
 object
 -
 >
@@ -18679,6 +18689,7 @@ singleton
 >
 nativeLookup
 (
+cx
 id
 )
 ;

@@ -2482,6 +2482,7 @@ if
 !
 HasDataProperty
 (
+cx
 obj
 methodid
 &
@@ -2520,6 +2521,7 @@ clasp
 !
 HasDataProperty
 (
+cx
 proto
 methodid
 &

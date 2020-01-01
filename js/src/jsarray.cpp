@@ -2655,6 +2655,7 @@ shape
 =
 nativeLookup
 (
+cx
 id
 )
 ;
@@ -7154,6 +7155,7 @@ obj
 >
 nativeLookup
 (
+cx
 lengthId
 )
 )

@@ -11195,6 +11195,13 @@ obj
 >
 nativeLookup
 (
+tc
+-
+>
+parser
+-
+>
+context
 ATOM_TO_JSID
 (
 atom
@@ -11604,6 +11611,7 @@ obj
 >
 nativeLookup
 (
+cx
 ATOM_TO_JSID
 (
 atom

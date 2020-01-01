@@ -10719,6 +10719,7 @@ obj
 >
 nativeContains
 (
+cx
 ATOM_TO_JSID
 (
 atom
@@ -11104,6 +11105,7 @@ obj
 >
 nativeContains
 (
+cx
 ATOM_TO_JSID
 (
 atom
@@ -18910,6 +18912,7 @@ obj
 >
 nativeContains
 (
+cx
 id
 )
 ;
