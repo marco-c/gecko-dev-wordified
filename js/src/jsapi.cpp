@@ -4671,12 +4671,6 @@ JS_DestroyRuntime
 JS_INIT_CLIST
 (
 &
-debuggerList
-)
-;
-JS_INIT_CLIST
-(
-&
 onNewGlobalObjectWatchers
 )
 ;

@@ -5668,13 +5668,13 @@ PHASE_SWEEP_TABLES_BREAKPOINT
 ;
 if
 (
-JS_CLIST_IS_EMPTY
-(
-&
 rt
 -
 >
 debuggerList
+.
+isEmpty
+(
 )
 )
 return

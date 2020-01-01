@@ -5186,7 +5186,16 @@ gcLock
 .
 *
 /
-JSCList
+mozilla
+:
+:
+LinkedList
+<
+js
+:
+:
+Debugger
+>
 debuggerList
 ;
 /
