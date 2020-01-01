@@ -482,7 +482,7 @@ h
 #
 include
 "
-nsHTMLImageAccessible
+nsHTMLImageAccessibleWrap
 .
 h
 "
@@ -3652,7 +3652,7 @@ domElement
 _retval
 =
 new
-nsHTMLImageAccessible
+nsHTMLImageAccessibleWrap
 (
 node
 weakShell
@@ -8543,7 +8543,7 @@ NS_OK
 aAccessible
 =
 new
-nsHTMLImageAccessible
+nsHTMLImageAccessibleWrap
 (
 aNode
 weakShell
