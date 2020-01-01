@@ -600,6 +600,12 @@ NS_DOCACCESSIBLE_IMPL_CID
 NS_DECL_NSIOBSERVER
 public
 :
+using
+nsAccessible
+:
+:
+GetParent
+;
 nsDocAccessible
 (
 nsIDocument

@@ -13,7 +13,7 @@ tab
 -
 width
 :
-4
+2
 ;
 indent
 -
@@ -29,7 +29,7 @@ basic
 -
 offset
 :
-4
+2
 -
 *
 -
@@ -43,11 +43,11 @@ expandtab
 :
 shiftwidth
 =
-4
+2
 :
 tabstop
 =
-4
+2
 :
 *
 /
@@ -583,6 +583,12 @@ nsIAccessibleApplication
 {
 public
 :
+using
+nsAccessible
+:
+:
+GetChildAtPoint
+;
 nsApplicationAccessible
 (
 )

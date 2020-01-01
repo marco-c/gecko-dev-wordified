@@ -519,6 +519,12 @@ nsAccessibleWrap
 {
 public
 :
+using
+nsAccessible
+:
+:
+GetChildAtPoint
+;
 nsLeafAccessible
 (
 nsIContent

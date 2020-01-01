@@ -10707,6 +10707,9 @@ nsIAccessibilityService
 :
 NODE_APPEND
 ;
+#
+ifdef
+DEBUG
 PRBool
 isChanging
 =
@@ -10727,6 +10730,8 @@ nsIAccessibilityService
 :
 FRAME_SIGNIFICANT_CHANGE
 ;
+#
+endif
 NS_ASSERTION
 (
 isChanging
