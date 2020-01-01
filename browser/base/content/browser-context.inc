@@ -2424,6 +2424,9 @@ toggleEnabled
 "
 /
 >
+#
+ifndef
+MOZ_WIDGET_COCOA
 <
 menuitem
 id
@@ -2467,6 +2470,8 @@ addDictionaries
 "
 /
 >
+#
+endif
 <
 menu
 id
@@ -2507,6 +2512,9 @@ dictionaries
 menu
 "
 >
+#
+ifndef
+MOZ_WIDGET_COCOA
 <
 menuseparator
 id
@@ -2561,6 +2569,8 @@ addDictionaries
 "
 /
 >
+#
+endif
 <
 /
 menupopup
