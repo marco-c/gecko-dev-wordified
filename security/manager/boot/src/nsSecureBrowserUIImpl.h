@@ -721,9 +721,6 @@ PRUint32
 mNewToplevelSecurityState
 ;
 PRPackedBool
-mInconsistency
-;
-PRPackedBool
 mNewToplevelIsEV
 ;
 PRPackedBool
@@ -789,8 +786,10 @@ nsresult
 TellTheWorld
 (
 PRBool
+&
 showWarning
 lockIconState
+&
 warnSecurityState
 nsIRequest
 *

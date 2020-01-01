@@ -1255,9 +1255,6 @@ nsIX509Cert
 >
 mPreviousCert
 ;
-/
-/
-DocShellDependent
 enum
 {
 blocking_state_unknown
@@ -1276,14 +1273,8 @@ nsString
 mErrorMessage
 ;
 PRPackedBool
-mDocShellDependentStuffKnown
-;
-PRPackedBool
 mExternalErrorReporting
 ;
-/
-/
-DocShellDependent
 PRPackedBool
 mForSTARTTLS
 ;
@@ -1331,11 +1322,6 @@ ActivateSSL
 nsSSLSocketThreadData
 *
 mThreadData
-;
-nsresult
-EnsureDocShellDependentStuffKnown
-(
-)
 ;
 private
 :
