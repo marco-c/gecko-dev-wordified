@@ -16,6 +16,7 @@ not
 a
 function
 function
+f
 (
 )
 {

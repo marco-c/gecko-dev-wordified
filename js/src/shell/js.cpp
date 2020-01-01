@@ -29486,7 +29486,7 @@ glob
 ;
 }
 int
-shell
+Shell
 (
 JSContext
 *
@@ -30315,6 +30315,17 @@ cx
 return
 1
 ;
+JS_SetOptions
+(
+cx
+JS_GetOptions
+(
+cx
+)
+|
+JSOPTION_ANONFUNFIX
+)
+;
 JS_SetGCParameterForThread
 (
 cx
@@ -30328,7 +30339,7 @@ JSGC_MAX_CODE_CACHE_BYTES
 ;
 result
 =
-shell
+Shell
 (
 cx
 argc
