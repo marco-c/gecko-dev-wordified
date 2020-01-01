@@ -909,6 +909,16 @@ aFocusChange
 ;
 virtual
 bool
+RecvRequestFocus
+(
+const
+bool
+&
+aCanFocus
+)
+;
+virtual
+bool
 RecvSetCursor
 (
 const
