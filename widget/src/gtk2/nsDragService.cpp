@@ -1603,7 +1603,7 @@ time
 nsWindow
 :
 :
-mLastButtonPressTime
+sLastButtonPressTime
 ;
 /
 /
