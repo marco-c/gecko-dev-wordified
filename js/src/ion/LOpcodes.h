@@ -505,6 +505,11 @@ Goto
 \
 _
 (
+BitNot
+)
+\
+_
+(
 BitOp
 )
 \

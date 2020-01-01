@@ -500,6 +500,11 @@ Phi
 \
 _
 (
+BitNot
+)
+\
+_
+(
 BitAnd
 )
 \

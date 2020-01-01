@@ -706,6 +706,15 @@ ins
 ;
 virtual
 bool
+visitBitNot
+(
+LBitNot
+*
+ins
+)
+;
+virtual
+bool
 visitBitOp
 (
 LBitOp
