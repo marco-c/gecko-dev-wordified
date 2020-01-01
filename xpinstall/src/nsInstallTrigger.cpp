@@ -2311,7 +2311,7 @@ prefBranch
 ;
 updatePermissions
 (
-XPINSTALL_WHITELIST_ADD_103
+XPINSTALL_WHITELIST_ADD_36
 nsIPermissionManager
 :
 :

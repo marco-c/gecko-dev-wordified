@@ -2818,7 +2818,7 @@ whitelist
 .
 add
 .
-103
+36
 "
 nsIPermissionManager
 .
