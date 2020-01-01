@@ -691,13 +691,6 @@ h
 #
 include
 "
-nsIDOMDragListener
-.
-h
-"
-#
-include
-"
 nsIDOMEventListener
 .
 h

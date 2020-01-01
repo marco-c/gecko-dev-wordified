@@ -725,13 +725,6 @@ h
 #
 include
 "
-nsIDOMDragListener
-.
-h
-"
-#
-include
-"
 nsIDOMContextMenuListener
 .
 h
