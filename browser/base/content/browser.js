@@ -40554,8 +40554,8 @@ xul
 PFSWindow
 "
 "
-modal
 chrome
+centerscreen
 resizable
 =
 yes
@@ -41407,8 +41407,8 @@ xul
 PFSWindow
 "
 "
-modal
 chrome
+centerscreen
 resizable
 =
 yes
