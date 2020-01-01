@@ -528,6 +528,15 @@ ARM
 .
 inline
 LAllocation
+useAny
+(
+MDefinition
+*
+mir
+)
+;
+inline
+LAllocation
 useAnyOrConstant
 (
 MDefinition
