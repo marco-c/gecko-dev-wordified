@@ -583,7 +583,7 @@ aPixelWidth
 )
 ;
 void
-StripAlpha
+ConvertRGBARow
 (
 const
 PRUint8
