@@ -1549,6 +1549,8 @@ ParseAndAppendEscape
 nsString
 &
 aOutput
+PRBool
+aInString
 )
 ;
 PRBool

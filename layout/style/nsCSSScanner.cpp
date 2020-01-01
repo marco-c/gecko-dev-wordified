@@ -5610,6 +5610,7 @@ CSS_ESCAPE
 ParseAndAppendEscape
 (
 ident
+PR_FALSE
 )
 ;
 }
@@ -5830,6 +5831,8 @@ ParseAndAppendEscape
 nsString
 &
 aOutput
+PRBool
+aInString
 )
 {
 PRInt32
@@ -6376,6 +6379,7 @@ CSS_ESCAPE
 ParseAndAppendEscape
 (
 aIdent
+PR_FALSE
 )
 ;
 }
@@ -6554,6 +6558,7 @@ CSS_ESCAPE
 ParseAndAppendEscape
 (
 aIdent
+PR_FALSE
 )
 ;
 }
@@ -8349,6 +8354,7 @@ ParseAndAppendEscape
 aToken
 .
 mIdent
+PR_TRUE
 )
 ;
 }
