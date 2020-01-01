@@ -746,7 +746,7 @@ cache
 .
 disk_cache_ssl
 "
-false
+true
 )
 ;
 /
