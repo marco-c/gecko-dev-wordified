@@ -4325,6 +4325,8 @@ GetChildCount
 (
 )
 ;
+rv
+=
 nsContentUtils
 :
 :
@@ -4674,6 +4676,9 @@ doc
 nsnull
 )
 ;
+nsresult
+rv
+;
 /
 /
 Parse
@@ -4839,6 +4844,8 @@ nsGkAtoms
 body
 ;
 }
+rv
+=
 nsContentUtils
 :
 :
@@ -4880,7 +4887,7 @@ oldChildCount
 )
 ;
 return
-NS_OK
+rv
 ;
 }
 /
@@ -4896,7 +4903,6 @@ nsIDOMDocumentFragment
 >
 df
 ;
-nsresult
 rv
 =
 nsContentUtils
