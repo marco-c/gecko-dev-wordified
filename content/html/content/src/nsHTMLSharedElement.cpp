@@ -1244,7 +1244,7 @@ NS_IF_ADDREF
 *
 aForm
 =
-FindForm
+FindAncestorForm
 (
 )
 )

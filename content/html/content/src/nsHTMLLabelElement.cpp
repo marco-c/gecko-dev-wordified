@@ -2008,7 +2008,7 @@ UnregAccessKey
 nsresult
 rv
 =
-nsGenericHTMLElement
+nsGenericHTMLFormElement
 :
 :
 SetAttr
@@ -2113,7 +2113,7 @@ NODE_HAS_ACCESSKEY
 ;
 }
 return
-nsGenericHTMLElement
+nsGenericHTMLFormElement
 :
 :
 UnsetAttr
