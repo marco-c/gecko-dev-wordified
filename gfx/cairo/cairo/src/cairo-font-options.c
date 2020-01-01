@@ -797,6 +797,7 @@ cairo_font_options_t
 object
 created
 with
+with
 *
 cairo_font_options_create
 (

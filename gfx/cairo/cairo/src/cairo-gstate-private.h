@@ -390,15 +390,6 @@ current
 CTM
 *
 /
-cairo_scaled_font_t
-*
-previous_scaled_font
-;
-/
-*
-holdover
-*
-/
 cairo_matrix_t
 font_matrix
 ;

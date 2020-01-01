@@ -557,9 +557,6 @@ now
 cairo_bool_t
 buggy_repeat
 ;
-cairo_bool_t
-buggy_pad_reflect
-;
 int
 width
 ;

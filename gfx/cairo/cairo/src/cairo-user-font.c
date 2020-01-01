@@ -551,7 +551,7 @@ CAIRO_CONTENT_ALPHA
 ;
 meta_surface
 =
-cairo_meta_surface_create
+_cairo_meta_surface_create
 (
 content
 -
@@ -602,17 +602,6 @@ scaled_font
 base
 .
 options
-)
-;
-cairo_set_source_rgb
-(
-cr
-1
-.
-1
-.
-1
-.
 )
 ;
 return
@@ -902,7 +891,7 @@ extent_scale
 ;
 status
 =
-cairo_meta_surface_replay
+_cairo_meta_surface_replay
 (
 meta_surface
 analysis_surface
@@ -1255,7 +1244,7 @@ y
 ;
 status
 =
-cairo_meta_surface_replay
+_cairo_meta_surface_replay
 (
 meta_surface
 surface

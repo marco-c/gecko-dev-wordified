@@ -4465,9 +4465,6 @@ ffont
 cgFont
 ;
 }
-#
-ifndef
-__LP64__
 /
 *
 *
@@ -4645,5 +4642,3 @@ font_id
 )
 ;
 }
-#
-endif

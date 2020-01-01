@@ -3741,7 +3741,7 @@ to
 for
 table
 checksum
-calculation
+calcualtion
 *
 /
 *
