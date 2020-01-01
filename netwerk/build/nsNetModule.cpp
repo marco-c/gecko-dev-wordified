@@ -4269,6 +4269,9 @@ Shutdown
 (
 )
 ;
+#
+ifdef
+NECKO_PROTOCOL_websocket
 /
 /
 Release
@@ -4289,6 +4292,11 @@ Shutdown
 (
 )
 ;
+#
+endif
+/
+/
+NECKO_PROTOCOL_websocket
 }
 NS_DEFINE_NAMED_CID
 (
