@@ -4198,7 +4198,7 @@ class
 ScriptedIndirectProxyHandler
 :
 public
-IndirectProxyHandler
+BaseProxyHandler
 {
 public
 :
@@ -4525,7 +4525,7 @@ ScriptedIndirectProxyHandler
 (
 )
 :
-IndirectProxyHandler
+BaseProxyHandler
 (
 &
 sScriptedIndirectProxyHandlerFamily
