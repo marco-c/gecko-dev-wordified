@@ -1544,17 +1544,6 @@ size
 ;
 if
 (
-mMetrics
--
->
-xHeight
-!
-=
-0
-.
-0
-&
-&
 GetStyle
 (
 )
