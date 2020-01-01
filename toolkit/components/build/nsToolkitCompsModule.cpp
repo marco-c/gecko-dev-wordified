@@ -544,6 +544,13 @@ h
 "
 #
 endif
+#
+include
+"
+nsBrowserStatusFilter
+.
+h
+"
 /
 /
 /
@@ -789,6 +796,10 @@ nsScriptableUnescapeHTML
 )
 #
 endif
+NS_GENERIC_FACTORY_CONSTRUCTOR
+(
+nsBrowserStatusFilter
+)
 /
 /
 /
@@ -1037,6 +1048,12 @@ nsScriptableUnescapeHTMLConstructor
 }
 #
 endif
+{
+NS_BROWSERSTATUSFILTER_CLASSNAME
+NS_BROWSERSTATUSFILTER_CID
+NS_BROWSERSTATUSFILTER_CONTRACTID
+nsBrowserStatusFilterConstructor
+}
 }
 ;
 NS_IMPL_NSGETMODULE
