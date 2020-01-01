@@ -236,17 +236,6 @@ FIT_CENTER
 }
 Override
 public
-View
-getLayout
-(
-)
-{
-return
-this
-;
-}
-Override
-public
 void
 setIcon
 (
