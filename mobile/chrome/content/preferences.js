@@ -775,7 +775,7 @@ getString
 "
 notificationRestart
 .
-label
+normal
 "
 )
 "
