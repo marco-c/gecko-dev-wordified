@@ -786,14 +786,6 @@ aFunctionObject
 )
 ;
 virtual
-void
-SetDefaultLanguageVersion
-(
-PRUint32
-aVersion
-)
-;
-virtual
 nsIScriptGlobalObject
 *
 GetGlobalObject
