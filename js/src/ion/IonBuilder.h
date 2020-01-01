@@ -2345,6 +2345,13 @@ uint32
 arg
 )
 ;
+InliningStatus
+inlineNanResult
+(
+int
+argc
+)
+;
 /
 /
 Array
