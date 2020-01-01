@@ -1702,6 +1702,11 @@ this
 .
 mRIL
 .
+getRadioInterface
+(
+0
+)
+.
 updateRILNetworkInterface
 (
 )
@@ -1891,6 +1896,11 @@ NETWORK_TYPE_WIFI
 this
 .
 mRIL
+.
+getRadioInterface
+(
+0
+)
 .
 updateRILNetworkInterface
 (
