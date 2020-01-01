@@ -5489,7 +5489,10 @@ caseInsensitiveNameTests
 nsAutoString
 lcname
 ;
-TX_ToLowerCase
+nsContentUtils
+:
+:
+ASCIIToLower
 (
 aQName
 lcname

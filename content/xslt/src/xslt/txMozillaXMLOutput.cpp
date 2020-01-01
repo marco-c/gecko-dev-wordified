@@ -1031,7 +1031,10 @@ kNameSpaceID_None
 nsAutoString
 lnameStr
 ;
-TX_ToLowerCase
+nsContentUtils
+:
+:
+ASCIIToLower
 (
 aLocalName
 lnameStr
@@ -2698,7 +2701,10 @@ kNameSpaceID_XHTML
 nsAutoString
 lnameStr
 ;
-TX_ToLowerCase
+nsContentUtils
+:
+:
+ASCIIToLower
 (
 aLocalName
 lnameStr
