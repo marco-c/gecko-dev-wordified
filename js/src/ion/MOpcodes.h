@@ -642,6 +642,11 @@ GetNameCache
 \
 _
 (
+CallGetIntrinsicValue
+)
+\
+_
+(
 CallGetElement
 )
 \
