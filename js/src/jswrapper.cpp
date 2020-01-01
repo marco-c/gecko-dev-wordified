@@ -2455,7 +2455,9 @@ cx
 fp
 -
 >
-scopeChain
+getScopeChain
+(
+)
 -
 >
 getGlobal
@@ -3285,13 +3287,14 @@ vp
 fp
 -
 >
-scopeChain
-=
+setScopeChain
+(
 obj
 -
 >
 getGlobal
 (
+)
 )
 ;
 fp

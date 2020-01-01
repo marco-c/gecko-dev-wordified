@@ -2139,7 +2139,9 @@ if
 fp
 -
 >
-blockChain
+hasBlockChain
+(
+)
 )
 return
 JS_FALSE
