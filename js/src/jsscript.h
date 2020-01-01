@@ -6568,8 +6568,9 @@ script
 source
 is
 ready
-compressedLength
->
+compressedLength_
+!
+=
 0
 implies
 /
@@ -6605,7 +6606,7 @@ uint32_t
 length_
 ;
 uint32_t
-compressedLength
+compressedLength_
 ;
 bool
 marked
@@ -6802,9 +6803,10 @@ compressed
 )
 {
 return
+compressedLength_
 !
-!
-compressedLength
+=
+0
 ;
 }
 void
