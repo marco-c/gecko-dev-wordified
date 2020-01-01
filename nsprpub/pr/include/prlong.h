@@ -416,7 +416,7 @@ PR_BYTES_PER_LONG
 !
 defined
 (
-__APPLE__
+PR_ALTERNATE_INT64_TYPEDEF
 )
 #
 define
