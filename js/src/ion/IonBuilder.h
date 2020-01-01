@@ -1043,7 +1043,7 @@ a
 block
 .
 uint32
-currentSuccessor
+currentBlock
 ;
 }
 tableswitch
