@@ -9960,7 +9960,7 @@ return
 NS_OK
 ;
 }
-nsISelection
+Selection
 *
 PresShell
 :

@@ -442,7 +442,10 @@ aSelection
 )
 ;
 virtual
-nsISelection
+mozilla
+:
+:
+Selection
 *
 GetCurrentSelection
 (

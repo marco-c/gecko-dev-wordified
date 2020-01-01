@@ -366,6 +366,15 @@ include
 "
 mozilla
 /
+Selection
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
