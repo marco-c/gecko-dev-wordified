@@ -2227,15 +2227,6 @@ aNode
 )
 ;
 void
-DumpContentToPPM
-(
-const
-char
-*
-aFileName
-)
-;
-void
 PrepareToStartLoad
 (
 void
