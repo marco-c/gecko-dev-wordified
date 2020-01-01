@@ -350,6 +350,10 @@ mStopIOThread
 (
 false
 )
+mWALModeEnabled
+(
+false
+)
 mDBReady
 (
 false
@@ -751,10 +755,10 @@ thread
 .
 if
 (
-mWALModeEnabled
-&
-&
 mDBReady
+&
+&
+mWALModeEnabled
 )
 {
 bool
