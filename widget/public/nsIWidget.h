@@ -8206,9 +8206,6 @@ aOverriddenDelta
 =
 0
 ;
-#
-ifdef
-MOZ_IPC
 /
 *
 *
@@ -8268,6 +8265,9 @@ UsePuppetWidgets
 (
 )
 {
+#
+ifdef
+MOZ_IPC
 return
 XRE_GetProcessType
 (
@@ -8276,7 +8276,17 @@ XRE_GetProcessType
 =
 GeckoProcessType_Content
 ;
+#
+else
+return
+PR_FALSE
+;
+#
+endif
 }
+#
+ifdef
+MOZ_IPC
 /
 *
 *

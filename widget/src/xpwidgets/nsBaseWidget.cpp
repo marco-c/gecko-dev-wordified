@@ -2166,6 +2166,12 @@ mWindowType
 =
 =
 eWindowType_invisible
+|
+|
+mWindowType
+=
+=
+eWindowType_child
 )
 "
 Can
@@ -2173,8 +2179,10 @@ Can
 t
 attach
 to
-child
-?
+window
+of
+that
+type
 "
 )
 ;
