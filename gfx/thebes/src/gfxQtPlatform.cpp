@@ -2107,6 +2107,9 @@ const
 gfxFontStyle
 *
 aStyle
+gfxUserFontSet
+*
+aUserFontSet
 )
 {
 return
