@@ -204,6 +204,17 @@ include
 "
 mozilla
 /
+plugins
+/
+PluginInstanceParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
