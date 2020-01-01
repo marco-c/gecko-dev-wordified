@@ -755,8 +755,6 @@ float
 aAngle
 )
 ;
-protected
-:
 static
 bool
 MatricesEqual
@@ -832,6 +830,8 @@ b
 y0
 ;
 }
+protected
+:
 gfxMatrix
 mMatrix
 ;
