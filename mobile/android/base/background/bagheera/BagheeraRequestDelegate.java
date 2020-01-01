@@ -85,6 +85,10 @@ handleSuccess
 (
 int
 status
+String
+namespace
+String
+id
 HttpResponse
 response
 )
@@ -101,6 +105,8 @@ handleFailure
 (
 int
 status
+String
+namespace
 HttpResponse
 response
 )
