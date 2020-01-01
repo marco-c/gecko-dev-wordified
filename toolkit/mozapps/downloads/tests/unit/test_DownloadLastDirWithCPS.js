@@ -1273,7 +1273,11 @@ hasPref
 (
 uri1
 "
-lastDownloadDirectory
+browser
+.
+download
+.
+lastDir
 "
 )
 false
