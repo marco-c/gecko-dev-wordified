@@ -524,13 +524,6 @@ h
 #
 include
 "
-SimpleBuffer
-.
-h
-"
-#
-include
-"
 jstypedarray
 .
 h
