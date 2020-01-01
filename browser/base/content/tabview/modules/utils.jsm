@@ -763,6 +763,7 @@ Point
 distance
 :
 function
+Point_distance
 (
 point
 )
@@ -1188,6 +1189,7 @@ Rect
 intersects
 :
 function
+Rect_intersects
 (
 rect
 )
@@ -1282,6 +1284,7 @@ intersect
 intersection
 :
 function
+Rect_intersection
 (
 rect
 )
@@ -1425,6 +1428,7 @@ Rect
 contains
 :
 function
+Rect_contains
 (
 rect
 )
@@ -1504,6 +1508,7 @@ rectangle
 center
 :
 function
+Rect_center
 (
 )
 {
@@ -1571,6 +1576,7 @@ rectangle
 size
 :
 function
+Rect_size
 (
 )
 {
@@ -1623,6 +1629,7 @@ rectangle
 position
 :
 function
+Rect_position
 (
 )
 {
@@ -1668,6 +1675,7 @@ rectangle
 area
 :
 function
+Rect_area
 (
 )
 {
@@ -1759,6 +1767,7 @@ y
 inset
 :
 function
+Rect_inset
 (
 a
 b
@@ -1872,6 +1881,7 @@ y
 offset
 :
 function
+Rect_offset
 (
 a
 b
@@ -1960,6 +1970,7 @@ Rect
 equals
 :
 function
+Rect_equals
 (
 rect
 )
@@ -2048,6 +2059,7 @@ Rect
 union
 :
 function
+Rect_union
 (
 a
 )
@@ -2167,6 +2179,7 @@ rectangle
 copy
 :
 function
+Rect_copy
 (
 a
 )
@@ -2302,6 +2315,7 @@ warnings
 css
 :
 function
+Rect_css
 (
 )
 {
@@ -2555,6 +2569,7 @@ Range
 contains
 :
 function
+Range_contains
 (
 value
 )
@@ -2721,6 +2736,7 @@ linear
 proportion
 :
 function
+Range_proportion
 (
 value
 smooth
@@ -2980,6 +2996,7 @@ in
 scale
 :
 function
+Range_scale
 (
 value
 )
@@ -3117,6 +3134,7 @@ necessary
 addSubscriber
 :
 function
+Subscribable_addSubscriber
 (
 refObject
 eventName
@@ -3351,6 +3369,7 @@ event
 removeSubscriber
 :
 function
+Subscribable_removeSubscriber
 (
 refObject
 eventName
@@ -3494,6 +3513,7 @@ events
 _sendToSubscribers
 :
 function
+Subscribable__sendToSubscribers
 (
 eventName
 eventInfo
@@ -3711,6 +3731,7 @@ all
 log
 :
 function
+Utils_log
 (
 )
 {
@@ -3826,6 +3847,7 @@ all
 error
 :
 function
+Utils_error
 (
 )
 {
@@ -3959,6 +3981,7 @@ all
 trace
 :
 function
+Utils_trace
 (
 )
 {
@@ -4216,6 +4239,7 @@ false
 assertThrow
 :
 function
+Utils_assertThrow
 (
 condition
 label
@@ -4347,6 +4371,7 @@ properties
 expandObject
 :
 function
+Utils_expandObject
 (
 obj
 )
@@ -4510,6 +4535,7 @@ string
 expandArgumentsForLog
 :
 function
+Utils_expandArgumentsForLog
 (
 args
 )
@@ -4601,6 +4627,7 @@ button
 isRightClick
 :
 function
+Utils_isRightClick
 (
 event
 )
@@ -4647,6 +4674,7 @@ element
 isDOMElement
 :
 function
+Utils_isDOMElement
 (
 object
 )
@@ -4691,6 +4719,7 @@ number
 isNumber
 :
 function
+Utils_isNumber
 (
 n
 )
@@ -4750,6 +4779,7 @@ Rect
 isRect
 :
 function
+Utils_isRect
 (
 r
 )
@@ -4838,6 +4868,7 @@ Range
 isRange
 :
 function
+Utils_isRange
 (
 r
 )
@@ -4906,6 +4937,7 @@ Point
 isPoint
 :
 function
+Utils_isPoint
 (
 p
 )
@@ -4982,6 +5014,7 @@ Object
 isPlainObject
 :
 function
+Utils_isPlainObject
 (
 obj
 )
@@ -5192,6 +5225,7 @@ members
 isEmptyObject
 :
 function
+Utils_isEmptyObject
 (
 obj
 )
@@ -5266,6 +5300,7 @@ reference
 copy
 :
 function
+Utils_copy
 (
 value
 )
@@ -5353,6 +5388,7 @@ it
 merge
 :
 function
+Utils_merge
 (
 first
 second
@@ -5420,6 +5456,7 @@ it
 extend
 :
 function
+Utils_extend
 (
 )
 {

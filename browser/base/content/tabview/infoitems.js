@@ -439,11 +439,6 @@ Title
 infoitems
 .
 js
-(
-function
-(
-)
-{
 /
 /
 #
@@ -585,11 +580,8 @@ creation
 default
 is
 false
-window
-.
-InfoItem
-=
 function
+InfoItem
 (
 bounds
 options
@@ -948,8 +940,6 @@ e
 -
 -
 -
-window
-.
 InfoItem
 .
 prototype
@@ -1000,6 +990,7 @@ item
 getStorageData
 :
 function
+InfoItem_getStorageData
 (
 )
 {
@@ -1079,6 +1070,7 @@ storage
 save
 :
 function
+InfoItem_save
 (
 )
 {
@@ -1163,6 +1155,7 @@ false
 setBounds
 :
 function
+InfoItem_setBounds
 (
 rect
 immediately
@@ -1477,6 +1470,7 @@ container
 setZ
 :
 function
+InfoItem_setZ
 (
 value
 )
@@ -1587,6 +1581,7 @@ item
 close
 :
 function
+InfoItem_close
 (
 )
 {
@@ -1689,6 +1684,7 @@ value
 html
 :
 function
+InfoItem_html
 (
 value
 )
@@ -1740,10 +1736,5 @@ e
 }
 }
 }
-)
-;
-}
-)
-(
 )
 ;

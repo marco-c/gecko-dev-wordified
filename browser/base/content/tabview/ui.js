@@ -448,13 +448,7 @@ Title
 ui
 .
 js
-(
-function
-(
-)
-{
-window
-.
+let
 Keys
 =
 {
@@ -479,7 +473,7 @@ false
 /
 Class
 :
-UIManager
+UI
 /
 /
 Singleton
@@ -489,8 +483,8 @@ level
 UI
 manager
 .
-var
-UIManager
+let
+UI
 =
 {
 /
@@ -749,6 +743,7 @@ created
 init
 :
 function
+UI_init
 (
 )
 {
@@ -1703,6 +1698,7 @@ e
 uninit
 :
 function
+UI_uninit
 (
 )
 {
@@ -1789,6 +1785,7 @@ TabItem
 getActiveTab
 :
 function
+UI_getActiveTab
 (
 )
 {
@@ -1889,6 +1886,7 @@ TabItem
 setActiveTab
 :
 function
+UI_setActiveTab
 (
 tab
 )
@@ -2015,6 +2013,7 @@ shown
 _isTabViewVisible
 :
 function
+UI__isTabViewVisible
 (
 )
 {
@@ -2075,6 +2074,7 @@ nothing
 showTabView
 :
 function
+UI_showTabView
 (
 zoomOut
 )
@@ -2395,6 +2395,7 @@ UI
 hideTabView
 :
 function
+UI_hideTabView
 (
 )
 {
@@ -2653,6 +2654,7 @@ color
 _setActiveTitleColor
 :
 function
+UI__setActiveTitleColor
 (
 set
 )
@@ -2736,6 +2738,7 @@ actions
 _addTabActionHandlers
 :
 function
+UI__addTabActionHandlers
 (
 )
 {
@@ -3150,6 +3153,7 @@ actions
 _removeTabActionHandlers
 :
 function
+UI__removeTabActionHandlers
 (
 )
 {
@@ -3214,6 +3218,7 @@ UI
 onTabSelect
 :
 function
+UI_onTabSelect
 (
 tab
 )
@@ -3514,6 +3519,7 @@ tabs
 setReorderTabsOnHide
 :
 function
+UI_setReorderTabsOnHide
 (
 groupItem
 )
@@ -3623,6 +3629,7 @@ items
 setReorderTabItemsOnShow
 :
 function
+UI_setReorderTabItemsOnShow
 (
 groupItem
 )
@@ -3704,6 +3711,7 @@ UI
 _setTabViewFrameKeyHandlers
 :
 function
+UI__setTabViewFrameKeyHandlers
 (
 )
 {
@@ -3731,8 +3739,6 @@ event
 .
 metaKey
 )
-window
-.
 Keys
 .
 meta
@@ -3760,8 +3766,6 @@ event
 .
 metaKey
 )
-window
-.
 Keys
 .
 meta
@@ -4590,6 +4594,7 @@ drag
 _createGroupItemOnDrag
 :
 function
+UI__createGroupItemOnDrag
 (
 e
 )
@@ -5427,6 +5432,7 @@ false
 _resize
 :
 function
+UI__resize
 (
 force
 )
@@ -6005,6 +6011,7 @@ UI
 _addDevMenu
 :
 function
+UI__addDevMenu
 (
 )
 {
@@ -6406,6 +6413,7 @@ state
 _reset
 :
 function
+UI__reset
 (
 )
 {
@@ -6458,6 +6466,7 @@ valid
 _storageSanity
 :
 function
+UI__storageSanity
 (
 data
 )
@@ -6549,6 +6558,7 @@ storage
 _save
 :
 function
+UI__save
 (
 )
 {
@@ -6626,6 +6636,7 @@ items
 _saveAll
 :
 function
+UI__saveAll
 (
 )
 {
@@ -6688,6 +6699,7 @@ domain
 _arrangeBySite
 :
 function
+UI__arrangeBySite
 (
 )
 {
@@ -6969,22 +6981,9 @@ arrange
 -
 -
 -
-window
-.
-UI
-=
-UIManager
-;
-window
-.
 UI
 .
 init
-(
-)
-;
-}
-)
 (
 )
 ;

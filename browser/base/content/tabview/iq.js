@@ -801,10 +801,8 @@ iQ
 (
 )
 .
-let
-iQClass
-=
 function
+iQClass
 (
 selector
 context
@@ -1563,6 +1561,7 @@ set
 each
 :
 function
+iQClass_each
 (
 callback
 )
@@ -1665,6 +1664,7 @@ receiver
 addClass
 :
 function
+iQClass_addClass
 (
 value
 )
@@ -1803,6 +1803,7 @@ receiver
 removeClass
 :
 function
+iQClass_removeClass
 (
 value
 )
@@ -1956,6 +1957,7 @@ class
 hasClass
 :
 function
+iQClass_hasClass
 (
 singleClassName
 )
@@ -2050,6 +2052,7 @@ selector
 find
 :
 function
+iQClass_find
 (
 selector
 )
@@ -2254,6 +2257,7 @@ DOM
 remove
 :
 function
+iQClass_remove
 (
 )
 {
@@ -2344,6 +2348,7 @@ DOM
 empty
 :
 function
+iQClass_empty
 (
 )
 {
@@ -2426,6 +2431,7 @@ receiver
 width
 :
 function
+iQClass_width
 (
 )
 {
@@ -2473,6 +2479,7 @@ receiver
 height
 :
 function
+iQClass_height
 (
 )
 {
@@ -2530,6 +2537,7 @@ properties
 position
 :
 function
+iQClass_position
 (
 )
 {
@@ -2589,6 +2597,7 @@ bounds
 bounds
 :
 function
+iQClass_bounds
 (
 )
 {
@@ -2715,6 +2724,7 @@ it
 data
 :
 function
+iQClass_data
 (
 key
 value
@@ -2891,6 +2901,7 @@ there
 html
 :
 function
+iQClass_html
 (
 value
 )
@@ -2997,6 +3008,7 @@ there
 text
 :
 function
+iQClass_text
 (
 value
 )
@@ -3124,6 +3136,7 @@ there
 val
 :
 function
+iQClass_val
 (
 value
 )
@@ -3222,6 +3235,7 @@ selector
 appendTo
 :
 function
+iQClass_appendTo
 (
 selector
 )
@@ -3300,6 +3314,7 @@ receiver
 append
 :
 function
+iQClass_append
 (
 selector
 )
@@ -3397,6 +3412,7 @@ s
 attr
 :
 function
+iQClass_attr
 (
 key
 value
@@ -3614,6 +3630,7 @@ b
 css
 :
 function
+iQClass_css
 (
 a
 b
@@ -4020,6 +4037,7 @@ animated
 animate
 :
 function
+iQClass_animate
 (
 css
 options
@@ -4458,6 +4476,7 @@ completion
 fadeOut
 :
 function
+iQClass_fadeOut
 (
 callback
 )
@@ -4581,6 +4600,7 @@ opacity
 fadeIn
 :
 function
+iQClass_fadeIn
 (
 )
 {
@@ -4642,6 +4662,7 @@ receiver
 hide
 :
 function
+iQClass_hide
 (
 )
 {
@@ -4691,6 +4712,7 @@ receiver
 show
 :
 function
+iQClass_show
 (
 )
 {
@@ -4767,6 +4789,7 @@ errors
 bind
 :
 function
+iQClass_bind
 (
 type
 func
@@ -4931,6 +4954,7 @@ once
 one
 :
 function
+iQClass_one
 (
 type
 func
@@ -5030,6 +5054,7 @@ type
 unbind
 :
 function
+iQClass_unbind
 (
 type
 func

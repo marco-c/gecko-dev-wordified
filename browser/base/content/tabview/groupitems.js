@@ -683,9 +683,6 @@ creation
 default
 is
 false
-let
-GroupItem
-=
 function
 GroupItem
 (
@@ -2125,8 +2122,6 @@ stack
 -
 -
 -
-window
-.
 GroupItem
 .
 prototype
@@ -2211,6 +2206,7 @@ groupItem
 setActiveTab
 :
 function
+GroupItem_setActiveTab
 (
 tab
 )
@@ -2273,6 +2269,7 @@ groupItem
 getActiveTab
 :
 function
+GroupItem_getActiveTab
 (
 )
 {
@@ -2315,6 +2312,7 @@ groupItem
 getStorageData
 :
 function
+GroupItem_getStorageData
 (
 )
 {
@@ -2416,6 +2414,7 @@ unnamed
 isEmpty
 :
 function
+GroupItem_isEmpty
 (
 )
 {
@@ -2465,6 +2464,7 @@ storage
 save
 :
 function
+GroupItem_save
 (
 )
 {
@@ -2543,6 +2543,7 @@ string
 getTitle
 :
 function
+GroupItem_getTitle
 (
 )
 {
@@ -2614,6 +2615,7 @@ string
 setTitle
 :
 function
+GroupItem_setTitle
 (
 value
 )
@@ -2673,6 +2675,7 @@ size
 adjustTitleSize
 :
 function
+GroupItem_adjustTitleSize
 (
 )
 {
@@ -2854,6 +2857,7 @@ etc
 getContentBounds
 :
 function
+GroupItem_getContentBounds
 (
 )
 {
@@ -3058,6 +3062,7 @@ false
 setBounds
 :
 function
+GroupItem_setBounds
 (
 rect
 immediately
@@ -3611,6 +3616,7 @@ children
 setZ
 :
 function
+GroupItem_setZ
 (
 value
 )
@@ -3775,6 +3781,7 @@ children
 close
 :
 function
+GroupItem_close
 (
 )
 {
@@ -3879,6 +3886,7 @@ children
 closeAll
 :
 function
+GroupItem_closeAll
 (
 )
 {
@@ -4066,6 +4074,7 @@ dontArrange
 add
 :
 function
+GroupItem_add
 (
 a
 dropPos
@@ -4798,6 +4807,7 @@ dontArrange
 remove
 :
 function
+GroupItem_remove
 (
 a
 options
@@ -5076,6 +5086,7 @@ children
 removeAll
 :
 function
+GroupItem_removeAll
 (
 )
 {
@@ -5157,6 +5168,7 @@ view
 hideExpandControl
 :
 function
+GroupItem_hideExpandControl
 (
 )
 {
@@ -5206,6 +5218,7 @@ view
 showExpandControl
 :
 function
+GroupItem_showExpandControl
 (
 )
 {
@@ -5415,6 +5428,7 @@ grid
 shouldStack
 :
 function
+GroupItem_shouldStack
 (
 count
 )
@@ -5531,6 +5545,7 @@ _stackArrange
 arrange
 :
 function
+GroupItem_arrange
 (
 options
 )
@@ -6105,6 +6120,7 @@ true
 _stackArrange
 :
 function
+GroupItem__stackArrange
 (
 bb
 options
@@ -6614,6 +6630,7 @@ _stackArrange
 _randRotate
 :
 function
+GroupItem__randRotate
 (
 spread
 index
@@ -6760,6 +6777,7 @@ complete
 childHit
 :
 function
+GroupItem_childHit
 (
 child
 )
@@ -6826,6 +6844,7 @@ true
 expand
 :
 function
+GroupItem_expand
 (
 )
 {
@@ -7422,6 +7441,7 @@ mode
 collapse
 :
 function
+GroupItem_collapse
 (
 )
 {
@@ -7614,6 +7634,7 @@ container
 _addHandlers
 :
 function
+GroupItem__addHandlers
 (
 container
 )
@@ -8070,6 +8091,7 @@ accordingly
 setResizable
 :
 function
+GroupItem_setResizable
 (
 value
 )
@@ -8160,6 +8182,7 @@ groupItem
 newTab
 :
 function
+GroupItem_newTab
 (
 url
 )
@@ -8482,6 +8505,7 @@ bar
 reorderTabItemsBasedOnTabOrder
 :
 function
+GroupItem_reorderTabItemsBasedOnTabOrder
 (
 )
 {
@@ -8563,6 +8587,7 @@ groupItem
 reorderTabsBasedOnTabItemOrder
 :
 function
+GroupItem_reorderTabsBasedOnTabItemOrder
 (
 )
 {
@@ -8756,6 +8781,7 @@ mode
 setTopChild
 :
 function
+GroupItem_setTopChild
 (
 topChild
 )
@@ -8861,6 +8887,7 @@ child
 getChild
 :
 function
+GroupItem_getChild
 (
 index
 )
@@ -8935,6 +8962,7 @@ children
 getChildren
 :
 function
+GroupItem_getChildren
 (
 )
 {
@@ -8975,8 +9003,7 @@ GroupItem
 >
 s
 .
-window
-.
+let
 GroupItems
 =
 {
@@ -9016,6 +9043,7 @@ init
 init
 :
 function
+GroupItems_init
 (
 )
 {
@@ -9040,6 +9068,7 @@ uninit
 uninit
 :
 function
+GroupItems_uninit
 (
 )
 {
@@ -9079,6 +9108,7 @@ ID
 getNextID
 :
 function
+GroupItems_getNextID
 (
 )
 {
@@ -9138,6 +9168,7 @@ storage
 getStorageData
 :
 function
+GroupItems_getStorageData
 (
 )
 {
@@ -9223,6 +9254,7 @@ groupItems
 saveAll
 :
 function
+GroupItems_saveAll
 (
 )
 {
@@ -9279,6 +9311,7 @@ state
 save
 :
 function
+GroupItems_save
 (
 )
 {
@@ -9546,6 +9579,7 @@ groupItem
 reconstitute
 :
 function
+GroupItems_reconstitute
 (
 groupItemsData
 groupItemData
@@ -9706,6 +9740,7 @@ damaged
 groupItemStorageSanity
 :
 function
+GroupItems_groupItemStorageSanity
 (
 groupItemData
 )
@@ -9834,6 +9869,7 @@ Bug
 getGroupItemWithTitle
 :
 function
+GroupItems_getGroupItemWithTitle
 (
 title
 )
@@ -9914,6 +9950,7 @@ tracking
 register
 :
 function
+GroupItems_register
 (
 groupItem
 )
@@ -10001,6 +10038,7 @@ tracking
 unregister
 :
 function
+GroupItems_unregister
 (
 groupItem
 )
@@ -10091,6 +10129,7 @@ ids
 groupItem
 :
 function
+GroupItems_groupItem
 (
 a
 )
@@ -10162,6 +10201,7 @@ grid
 arrange
 :
 function
+GroupItems_arrange
 (
 )
 {
@@ -10418,6 +10458,7 @@ groupItems
 removeAll
 :
 function
+GroupItems_removeAll
 (
 )
 {
@@ -10485,6 +10526,7 @@ groupItem
 newTab
 :
 function
+GroupItems_newTab
 (
 tabItem
 )
@@ -10654,6 +10696,7 @@ Bug
 positionNewTabAtBottom
 :
 function
+GroupItems_positionNewTabAtBottom
 (
 tabItem
 )
@@ -10749,6 +10792,7 @@ interface
 getActiveGroupItem
 :
 function
+GroupItems_getActiveGroupItem
 (
 )
 {
@@ -10838,6 +10882,7 @@ selected
 setActiveGroupItem
 :
 function
+GroupItems_setActiveGroupItem
 (
 groupItem
 )
@@ -10958,6 +11003,7 @@ groupItem
 getActiveOrphanTab
 :
 function
+GroupItems_getActiveOrphanTab
 (
 )
 {
@@ -11040,6 +11086,7 @@ null
 setActiveOrphanTab
 :
 function
+GroupItems_setActiveOrphanTab
 (
 tabItem
 )
@@ -11093,6 +11140,7 @@ tabItem
 _updateTabBar
 :
 function
+GroupItems__updateTabBar
 (
 )
 {
@@ -11218,6 +11266,7 @@ bar
 updateActiveGroupItemAndTabBar
 :
 function
+GroupItems_updateActiveGroupItemAndTabBar
 (
 tabItem
 )
@@ -11311,6 +11360,7 @@ groupItem
 getOrphanedTabs
 :
 function
+GroupItems_getOrphanedTabs
 (
 )
 {
@@ -11404,6 +11454,7 @@ null
 getNextGroupItemTab
 :
 function
+GroupItems_getNextGroupItemTab
 (
 reverse
 )
@@ -11745,6 +11796,7 @@ groupItem
 moveTabToGroupItem
 :
 function
+GroupItems_moveTabToGroupItem
 (
 tab
 groupItemId
@@ -12061,6 +12113,7 @@ therein
 killNewTabGroup
 :
 function
+GroupItems_killNewTabGroup
 (
 )
 {

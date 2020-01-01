@@ -498,11 +498,8 @@ a
 xul
 :
 tab
-window
-.
-TabItem
-=
 function
+TabItem
 (
 tab
 )
@@ -1587,8 +1584,6 @@ this
 ;
 }
 ;
-window
-.
 TabItem
 .
 prototype
@@ -1649,6 +1644,7 @@ called
 forceCanvasSize
 :
 function
+TabItem_forceCanvasSize
 (
 w
 h
@@ -1762,6 +1758,7 @@ all
 unforceCanvasSize
 :
 function
+TabItem_unforceCanvasSize
 (
 )
 {
@@ -1825,6 +1822,7 @@ avaliable
 showCachedData
 :
 function
+TabItem_showCachedData
 (
 tabData
 )
@@ -1949,6 +1947,7 @@ canvas
 hideCachedData
 :
 function
+TabItem_hideCachedData
 (
 )
 {
@@ -2057,6 +2056,7 @@ false
 getStorageData
 :
 function
+TabItem_getStorageData
 (
 getImageData
 )
@@ -2207,6 +2207,7 @@ false
 save
 :
 function
+TabItem_save
 (
 saveImageData
 )
@@ -2401,6 +2402,7 @@ false
 setBounds
 :
 function
+TabItem_setBounds
 (
 rect
 immediately
@@ -3264,6 +3266,7 @@ title
 getBoundsWithTitle
 :
 function
+TabItem_getBoundsWithTitle
 (
 )
 {
@@ -3375,6 +3378,7 @@ groupItem
 inStack
 :
 function
+TabItem_inStack
 (
 )
 {
@@ -3425,6 +3429,7 @@ item
 setZ
 :
 function
+TabItem_setZ
 (
 value
 )
@@ -3493,6 +3498,7 @@ item
 close
 :
 function
+TabItem_close
 (
 )
 {
@@ -3574,6 +3580,7 @@ element
 addClass
 :
 function
+TabItem_addClass
 (
 className
 )
@@ -3627,6 +3634,7 @@ element
 removeClass
 :
 function
+TabItem_removeClass
 (
 className
 )
@@ -3691,6 +3699,7 @@ appropriate
 setResizable
 :
 function
+TabItem_setResizable
 (
 value
 )
@@ -3809,6 +3818,7 @@ active
 makeActive
 :
 function
+TabItem_makeActive
 (
 )
 {
@@ -3894,6 +3904,7 @@ active
 makeDeactive
 :
 function
+TabItem_makeDeactive
 (
 )
 {
@@ -4010,6 +4021,7 @@ tab
 zoomIn
 :
 function
+TabItem_zoomIn
 (
 isNewBlankTab
 )
@@ -4431,6 +4443,7 @@ animation
 zoomOut
 :
 function
+TabItem_zoomOut
 (
 complete
 )
@@ -4653,6 +4666,7 @@ animation
 setZoomPrep
 :
 function
+TabItem_setZoomPrep
 (
 value
 )
@@ -4961,8 +4975,7 @@ managing
 TabItem
 >
 s
-window
-.
+let
 TabItems
 =
 {
@@ -5046,6 +5059,7 @@ s
 init
 :
 function
+TabItems_init
 (
 )
 {
@@ -5312,6 +5326,7 @@ uninit
 uninit
 :
 function
+TabItems_uninit
 (
 )
 {
@@ -5436,6 +5451,7 @@ tab
 update
 :
 function
+TabItems_update
 (
 tab
 )
@@ -5591,6 +5607,7 @@ tab
 _update
 :
 function
+TabItems__update
 (
 tab
 )
@@ -6033,6 +6050,7 @@ tab
 link
 :
 function
+TabItems_link
 (
 tab
 )
@@ -6125,6 +6143,7 @@ tab
 unlink
 :
 function
+TabItems_unlink
 (
 tab
 )
@@ -6300,6 +6319,7 @@ time
 heartbeat
 :
 function
+TabItems_heartbeat
 (
 )
 {
@@ -6456,6 +6476,7 @@ resumePainting
 pausePainting
 :
 function
+TabItems_pausePainting
 (
 )
 {
@@ -6547,6 +6568,7 @@ again
 resumePainting
 :
 function
+TabItems_resumePainting
 (
 )
 {
@@ -6628,6 +6650,7 @@ not
 isPaintingPaused
 :
 function
+TabItems_isPaintingPaused
 (
 )
 {
@@ -6672,6 +6695,7 @@ list
 register
 :
 function
+TabItems_register
 (
 item
 )
@@ -6763,6 +6787,7 @@ list
 unregister
 :
 function
+TabItems_unregister
 (
 item
 )
@@ -6833,6 +6858,7 @@ s
 getItems
 :
 function
+TabItems_getItems
 (
 )
 {
@@ -6902,6 +6928,7 @@ false
 saveAll
 :
 function
+TabItems_saveAll
 (
 saveImageData
 )
@@ -6989,6 +7016,7 @@ everything
 storageSanity
 :
 function
+TabItems_storageSanity
 (
 data
 )
@@ -7073,6 +7101,7 @@ storage
 reconnect
 :
 function
+TabItems_reconnect
 (
 item
 )
@@ -7423,10 +7452,8 @@ of
 tabitems
 .
 js
-var
-TabCanvas
-=
 function
+TabCanvas
 (
 tab
 canvas
@@ -7467,6 +7494,7 @@ init
 init
 :
 function
+TabCanvas_init
 (
 tab
 canvas
@@ -7543,6 +7571,7 @@ paint
 paint
 :
 function
+TabCanvas_paint
 (
 evt
 )
@@ -7734,6 +7763,7 @@ toImageData
 toImageData
 :
 function
+TabCanvas_toImageData
 (
 )
 {

@@ -580,11 +580,8 @@ subclass
 s
 constructor
 .
-window
-.
-Item
-=
 function
+Item
 (
 )
 {
@@ -1195,8 +1192,6 @@ false
 ;
 }
 ;
-window
-.
 Item
 .
 prototype
@@ -1259,6 +1254,7 @@ onscreen
 _init
 :
 function
+Item__init
 (
 container
 )
@@ -1955,6 +1951,7 @@ Rect
 getBounds
 :
 function
+Item_getBounds
 (
 )
 {
@@ -2023,6 +2020,7 @@ screen
 overlapsWithOtherItems
 :
 function
+Item_overlapsWithOtherItems
 (
 )
 {
@@ -2179,6 +2177,7 @@ immediately
 setPosition
 :
 function
+Item_setPosition
 (
 left
 top
@@ -2301,6 +2300,7 @@ immediately
 setSize
 :
 function
+Item_setSize
 (
 width
 height
@@ -2383,6 +2383,7 @@ chosen
 setUserSize
 :
 function
+Item_setUserSize
 (
 )
 {
@@ -2460,6 +2461,7 @@ Item
 getZ
 :
 function
+Item_getZ
 (
 )
 {
@@ -2501,6 +2503,7 @@ degrees
 setRotation
 :
 function
+Item_setRotation
 (
 degrees
 )
@@ -2585,6 +2588,7 @@ Item
 setParent
 :
 function
+Item_setParent
 (
 parent
 )
@@ -2641,6 +2645,7 @@ Item
 pushAway
 :
 function
+Item_pushAway
 (
 )
 {
@@ -4059,6 +4064,7 @@ property
 _updateDebugBounds
 :
 function
+Item__updateDebugBounds
 (
 )
 {
@@ -4120,6 +4126,7 @@ item
 setTrenches
 :
 function
+Item_setTrenches
 (
 rect
 )
@@ -4336,6 +4343,7 @@ item
 removeTrenches
 :
 function
+Item_removeTrenches
 (
 )
 {
@@ -4584,6 +4592,7 @@ item
 draggable
 :
 function
+Item_draggable
 (
 )
 {
@@ -5439,6 +5448,7 @@ item
 droppable
 :
 function
+Item_droppable
 (
 value
 )
@@ -5541,6 +5551,7 @@ item
 resizable
 :
 function
+Item_resizable
 (
 value
 )
@@ -6077,8 +6088,7 @@ of
 all
 Items
 .
-window
-.
+let
 Items
 =
 {
@@ -6149,6 +6159,7 @@ Item
 item
 :
 function
+Items_item
 (
 el
 )
@@ -6200,6 +6211,7 @@ groupItems
 getTopLevelItems
 :
 function
+Items_getTopLevelItems
 (
 )
 {
@@ -6326,6 +6338,7 @@ within
 getPageBounds
 :
 function
+Items_getPageBounds
 (
 )
 {
@@ -6407,6 +6420,7 @@ s
 getSafeWindowBounds
 :
 function
+Items_getSafeWindowBounds
 (
 )
 {
@@ -6714,6 +6728,7 @@ null
 arrange
 :
 function
+Items_arrange
 (
 items
 bounds
@@ -7308,6 +7323,7 @@ instance
 unsquish
 :
 function
+Items_unsquish
 (
 pairs
 ignore

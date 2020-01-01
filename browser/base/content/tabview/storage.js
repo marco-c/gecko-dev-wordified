@@ -506,6 +506,7 @@ object
 init
 :
 function
+Storage_init
 (
 )
 {
@@ -556,6 +557,7 @@ uninit
 uninit
 :
 function
+Storage_uninit
 (
 )
 {
@@ -598,6 +600,7 @@ objects
 wipe
 :
 function
+Storage_wipe
 (
 )
 {
@@ -740,6 +743,7 @@ tab
 saveTab
 :
 function
+Storage_saveTab
 (
 tab
 data
@@ -806,6 +810,7 @@ tab
 getTabData
 :
 function
+Storage_getTabData
 (
 tab
 )
@@ -926,6 +931,7 @@ window
 saveGroupItem
 :
 function
+Storage_saveGroupItem
 (
 win
 data
@@ -1008,6 +1014,7 @@ window
 deleteGroupItem
 :
 function
+Storage_deleteGroupItem
 (
 win
 id
@@ -1082,6 +1089,7 @@ window
 readGroupItemData
 :
 function
+Storage_readGroupItemData
 (
 win
 )
@@ -1187,6 +1195,7 @@ window
 saveGroupItemsData
 :
 function
+Storage_saveGroupItemsData
 (
 win
 data
@@ -1241,6 +1250,7 @@ window
 readGroupItemsData
 :
 function
+Storage_readGroupItemsData
 (
 win
 )
@@ -1294,6 +1304,7 @@ window
 saveUIData
 :
 function
+Storage_saveUIData
 (
 win
 data
@@ -1348,6 +1359,7 @@ window
 readUIData
 :
 function
+Storage_readUIData
 (
 win
 )
@@ -1395,6 +1407,7 @@ window
 saveData
 :
 function
+Storage_saveData
 (
 win
 id
@@ -1472,6 +1485,7 @@ window
 readData
 :
 function
+Storage_readData
 (
 win
 id

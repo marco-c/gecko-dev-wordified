@@ -609,10 +609,8 @@ when
 simply
 snapping
 .
-var
-Drag
-=
 function
+Drag
 (
 item
 event
@@ -2100,6 +2098,7 @@ event
 drag
 :
 function
+Drag_drag
 (
 event
 )
@@ -2214,6 +2213,7 @@ event
 stop
 :
 function
+Drag_stop
 (
 )
 {
