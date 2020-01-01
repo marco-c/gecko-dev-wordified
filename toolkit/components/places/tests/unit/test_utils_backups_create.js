@@ -327,9 +327,7 @@ folder
 var
 bookmarksBackupDir
 =
-PlacesUtils
-.
-backups
+PlacesBackups
 .
 folder
 ;
@@ -521,9 +519,7 @@ function
 )
 {
 yield
-PlacesUtils
-.
-backups
+PlacesBackups
 .
 create
 (
@@ -729,9 +725,7 @@ Recreate
 the
 folder
 .
-PlacesUtils
-.
-backups
+PlacesBackups
 .
 folder
 ;

@@ -131,9 +131,7 @@ directory
 var
 bookmarksBackupDir
 =
-PlacesUtils
-.
-backups
+PlacesBackups
 .
 folder
 ;
@@ -309,9 +307,7 @@ JSON
 var
 backupFilename
 =
-PlacesUtils
-.
-backups
+PlacesBackups
 .
 getFilenameForDate
 (
@@ -366,9 +362,7 @@ function
 )
 {
 yield
-PlacesUtils
-.
-backups
+PlacesBackups
 .
 create
 (

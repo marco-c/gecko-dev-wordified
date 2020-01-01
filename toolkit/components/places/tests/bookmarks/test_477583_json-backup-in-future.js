@@ -121,9 +121,7 @@ do_test_pending
 let
 bookmarksBackupDir
 =
-PlacesUtils
-.
-backups
+PlacesBackups
 .
 folder
 ;
@@ -211,9 +209,7 @@ getFullYear
 let
 name
 =
-PlacesUtils
-.
-backups
+PlacesBackups
 .
 getFilenameForDate
 (
@@ -313,9 +309,7 @@ exists
 ;
 do_check_eq
 (
-PlacesUtils
-.
-backups
+PlacesBackups
 .
 entries
 .
@@ -332,9 +326,7 @@ function
 )
 {
 yield
-PlacesUtils
-.
-backups
+PlacesBackups
 .
 create
 (
@@ -354,9 +346,7 @@ created
 .
 do_check_eq
 (
-PlacesUtils
-.
-backups
+PlacesBackups
 .
 entries
 .
@@ -367,9 +357,7 @@ length
 let
 mostRecentBackupFile
 =
-PlacesUtils
-.
-backups
+PlacesBackups
 .
 getMostRecent
 (
@@ -384,9 +372,7 @@ null
 let
 todayName
 =
-PlacesUtils
-.
-backups
+PlacesBackups
 .
 getFilenameForDate
 (
