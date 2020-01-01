@@ -10315,6 +10315,12 @@ true
 }
 )
 ;
+self
+.
+_isStacked
+=
+true
+;
 let
 angleAccum
 =
@@ -10415,12 +10421,6 @@ angleDelta
 ;
 }
 )
-;
-self
-.
-_isStacked
-=
-true
 ;
 }
 /
