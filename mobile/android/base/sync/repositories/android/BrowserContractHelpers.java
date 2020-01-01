@@ -430,7 +430,7 @@ Bookmarks
 URL
 Bookmarks
 .
-IS_FOLDER
+TYPE
 Bookmarks
 .
 PARENT
