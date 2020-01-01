@@ -627,14 +627,6 @@ char
 aPath
 )
 ;
-NS_IMETHOD
-GetPrintMethod
-(
-PrintMethod
-&
-aMethod
-)
-;
 static
 nsresult
 GetPrintMethod
