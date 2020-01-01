@@ -7071,6 +7071,12 @@ getDenseInitializedLength
 (
 )
 ;
+inline
+uint32_t
+getDenseCapacity
+(
+)
+;
 bool
 makeElementsSparse
 (
