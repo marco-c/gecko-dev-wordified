@@ -2258,11 +2258,11 @@ Mdb
 Factory
 nsCOMPtr
 <
-nsIMdbFactoryFactory
+nsIMdbFactoryService
 >
 mdbFactory
 =
-do_CreateInstance
+do_GetService
 (
 NS_MORK_CONTRACTID
 &
