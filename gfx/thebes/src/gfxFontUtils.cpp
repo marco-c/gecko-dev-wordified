@@ -2697,6 +2697,12 @@ i
 =
 =
 0
+|
+|
+startCount
+=
+=
+0xFFFF
 )
 &
 &
