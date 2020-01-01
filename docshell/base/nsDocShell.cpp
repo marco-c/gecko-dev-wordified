@@ -6675,6 +6675,9 @@ farther
 if
 (
 mEditorData
+&
+&
+aIsUnload
 )
 {
 mEditorData

@@ -5377,6 +5377,17 @@ nsIWebProgressListener
 :
 :
 STATE_IS_DOCUMENT
+&
+&
+!
+(
+aStateFlags
+&
+nsIWebProgressListener
+:
+:
+STATE_RESTORING
+)
 )
 {
 #
