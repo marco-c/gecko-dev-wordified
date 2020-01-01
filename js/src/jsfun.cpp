@@ -13415,9 +13415,6 @@ length
 =
 JS_ARGS_LENGTH_MAX
 ;
-return
-JS_FALSE
-;
 InvokeArgsGuard
 args
 ;
