@@ -1157,6 +1157,10 @@ aPrefBranch
 nsresult
 InitDB
 (
+PRBool
+aDeleteExistingDB
+=
+PR_FALSE
 )
 ;
 nsresult
