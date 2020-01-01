@@ -123,7 +123,7 @@ h
 #
 define
 NS_NUM_OF_KEYS
-54
+68
 #
 define
 VK_OEM_1
@@ -1656,14 +1656,6 @@ KeyboardLayout
 static
 bool
 IsPrintableCharKey
-(
-PRUint8
-aVirtualKey
-)
-;
-static
-bool
-IsNumpadKey
 (
 PRUint8
 aVirtualKey
