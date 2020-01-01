@@ -11557,9 +11557,6 @@ true
 ;
 #
 endif
-#
-ifdef
-MOZ_E10S_COMPAT
 pref
 (
 "
@@ -11569,11 +11566,9 @@ tabs
 .
 remote
 "
-true
+false
 )
 ;
-#
-endif
 /
 /
 This
