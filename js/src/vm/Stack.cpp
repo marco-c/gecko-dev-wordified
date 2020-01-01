@@ -9320,6 +9320,16 @@ NULL
 )
 ionInlineFrames_
 (
+(
+js
+:
+:
+ion
+:
+:
+IonFrameIterator
+*
+)
 NULL
 )
 #
