@@ -703,13 +703,14 @@ PluginProcessChild
 .
 h
 "
+#
 include
 "
 mozilla
 /
 dom
 /
-ContentProcessThread
+ContentProcessProcess
 .
 h
 "
@@ -869,7 +870,7 @@ mozilla
 dom
 :
 :
-ContentProcessThread
+ContentProcessProcess
 ;
 using
 mozilla
@@ -2017,7 +2018,7 @@ GeckoProcessType_Content
 process
 =
 new
-ContentProcessChild
+ContentProcessProcess
 (
 parentHandle
 )
