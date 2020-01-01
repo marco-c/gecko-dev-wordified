@@ -240,6 +240,15 @@ endif
 #
 include
 "
+mozilla
+/
+unused
+.
+h
+"
+#
+include
+"
 nsGUIEvent
 .
 h
@@ -1218,6 +1227,9 @@ DidComposite
 (
 )
 {
+unused
+<
+<
 SendNPP_DidComposite
 (
 )

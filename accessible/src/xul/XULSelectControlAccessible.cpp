@@ -705,7 +705,7 @@ itemElm
 xulMultiSelect
 -
 >
-GetSelectedItem
+MultiGetSelectedItem
 (
 index
 getter_AddRefs
@@ -888,7 +888,7 @@ multiSelectControl
 multiSelectControl
 -
 >
-GetSelectedItem
+MultiGetSelectedItem
 (
 aIndex
 getter_AddRefs

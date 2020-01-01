@@ -6632,8 +6632,10 @@ defined
 (
 ANDROID
 )
-#
-warning
+/
+/
+TODO
+:
 Need
 Android
 impl
@@ -6643,8 +6645,10 @@ defined
 (
 MOZ_WIDGET_QT
 )
-#
-warning
+/
+/
+TODO
+:
 Need
 QT
 -
@@ -19750,6 +19754,7 @@ mWindow
 width
 =
 =
+uint32_t
 (
 mWindow
 .
@@ -19770,6 +19775,7 @@ mWindow
 height
 =
 =
+uint32_t
 (
 mWindow
 .

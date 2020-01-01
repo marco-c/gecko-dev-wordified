@@ -1891,10 +1891,8 @@ ManagedPCrashReporterParent
 ;
 }
 #
-endif
-#
 ifdef
-MOZ_CRASHREPORTER
+MOZ_CRASHREPORTER_INJECTOR
 static
 void
 RemoveMinidump
@@ -1947,6 +1945,11 @@ true
 ;
 }
 }
+#
+endif
+/
+/
+MOZ_CRASHREPORTER_INJECTOR
 void
 PluginModuleParent
 :

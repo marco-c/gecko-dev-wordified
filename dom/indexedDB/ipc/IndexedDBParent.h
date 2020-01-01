@@ -3336,7 +3336,10 @@ ParamsUnionType
 Type
 RequestType
 ;
+DebugOnly
+<
 RequestType
+>
 mRequestType
 ;
 typedef
@@ -3709,7 +3712,10 @@ ParamsUnionType
 Type
 RequestType
 ;
+DebugOnly
+<
 RequestType
+>
 mRequestType
 ;
 typedef
@@ -4042,7 +4048,10 @@ ParamsUnionType
 Type
 RequestType
 ;
+DebugOnly
+<
 RequestType
+>
 mRequestType
 ;
 typedef
