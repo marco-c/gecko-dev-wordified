@@ -573,6 +573,10 @@ aFrame
 LayerManager
 *
 aManager
+const
+nsIntRect
+&
+aVisibleRect
 )
 ;
 protected
