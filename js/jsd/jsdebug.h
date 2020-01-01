@@ -3501,9 +3501,9 @@ JSD_ScriptDestroyed
 JSDContext
 *
 jsdc
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSScript
 *
 script
