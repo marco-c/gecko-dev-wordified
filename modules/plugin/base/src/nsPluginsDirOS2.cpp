@@ -1510,7 +1510,7 @@ PL_strfree
 (
 info
 .
-fFileVersion
+fVersion
 )
 ;
 if

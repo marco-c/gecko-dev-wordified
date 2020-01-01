@@ -1983,7 +1983,7 @@ PL_strfree
 (
 info
 .
-fFileVersion
+fVersion
 )
 ;
 return
