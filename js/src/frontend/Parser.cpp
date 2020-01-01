@@ -8781,7 +8781,7 @@ CompExprTransplanter
 :
 transplant
 the
-PN_FUNC
+PN_CODE
 /
 PN_NAME
 *
@@ -10328,7 +10328,7 @@ ParseNode
 *
 pn
 =
-FunctionNode
+CodeNode
 :
 :
 create
@@ -10753,7 +10753,7 @@ fn
 >
 setArity
 (
-PN_FUNC
+PN_CODE
 )
 ;
 fn
@@ -31098,7 +31098,7 @@ pn
 >
 isArity
 (
-PN_FUNC
+PN_CODE
 )
 |
 |
@@ -31416,7 +31416,7 @@ false
 break
 ;
 case
-PN_FUNC
+PN_CODE
 :
 case
 PN_NAME
@@ -33948,7 +33948,7 @@ ParseNode
 *
 genfn
 =
-FunctionNode
+CodeNode
 :
 :
 create
