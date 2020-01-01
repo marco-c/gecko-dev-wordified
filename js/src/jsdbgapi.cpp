@@ -3208,6 +3208,8 @@ wprop
 -
 >
 getter
+(
+)
 wp
 -
 >
@@ -4976,12 +4978,11 @@ JSObject
 *
 funobj
 =
-js_CastAsObject
-(
 sprop
 -
 >
-setter
+setterObject
+(
 )
 ;
 JSFunction
@@ -5008,7 +5009,9 @@ return
 sprop
 -
 >
-setter
+setterOp
+(
+)
 =
 =
 js_watch_set
@@ -5563,6 +5566,8 @@ sprop
 -
 >
 getter
+(
+)
 ;
 setter
 =
@@ -5570,6 +5575,8 @@ sprop
 -
 >
 setter
+(
+)
 ;
 attrs
 =
@@ -5789,6 +5796,8 @@ sprop
 -
 >
 setter
+(
+)
 )
 ;
 if
@@ -5862,6 +5871,8 @@ sprop
 -
 >
 setter
+(
+)
 !
 =
 js_watch_set
@@ -5882,6 +5893,8 @@ sprop
 -
 >
 setter
+(
+)
 ;
 wp
 -
@@ -5916,6 +5929,8 @@ sprop
 -
 >
 getter
+(
+)
 watcher
 )
 ;
@@ -9256,6 +9271,8 @@ sprop
 -
 >
 getter
+(
+)
 =
 =
 js_GetCallArg
@@ -9287,6 +9304,8 @@ sprop
 -
 >
 getter
+(
+)
 =
 =
 js_GetCallVar
