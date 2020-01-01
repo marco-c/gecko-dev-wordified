@@ -4622,6 +4622,15 @@ PR_NewLock
 ;
 #
 endif
+#
+ifdef
+WINCE
+_MD_InitTime
+(
+)
+;
+#
+endif
 }
 void
 _PR_CleanupTime
