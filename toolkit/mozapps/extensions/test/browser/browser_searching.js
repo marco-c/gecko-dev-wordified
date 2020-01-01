@@ -3089,7 +3089,7 @@ name
 "
 )
 .
-value
+textContent
 ;
 is
 (

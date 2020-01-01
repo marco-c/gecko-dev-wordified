@@ -11095,7 +11095,7 @@ name
 "
 )
 .
-value
+textContent
 =
 aAddon
 .
