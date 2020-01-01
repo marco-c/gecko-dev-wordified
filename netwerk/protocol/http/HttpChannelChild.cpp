@@ -3985,7 +3985,6 @@ uri
 newChannel
 !
 rewriteToGET
-false
 )
 ;
 if
