@@ -157,6 +157,13 @@ h
 #
 include
 "
+jsobj
+.
+h
+"
+#
+include
+"
 jsopcode
 .
 h
