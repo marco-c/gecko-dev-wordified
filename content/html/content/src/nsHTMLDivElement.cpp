@@ -473,13 +473,6 @@ nsMappedAttributes
 .
 h
 "
-#
-include
-"
-nsDOMMemoryReporter
-.
-h
-"
 using
 namespace
 mozilla

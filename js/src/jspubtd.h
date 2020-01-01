@@ -764,10 +764,6 @@ typedefs
 *
 /
 typedef
-int32_t
-jsint
-;
-typedef
 uint32_t
 jsuint
 ;

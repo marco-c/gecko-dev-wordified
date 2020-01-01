@@ -525,7 +525,7 @@ h
 #
 include
 "
-nsDOMMemoryReporter
+nsWindowMemoryReporter
 .
 h
 "

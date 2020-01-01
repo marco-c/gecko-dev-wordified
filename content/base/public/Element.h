@@ -462,13 +462,6 @@ nsEventStates
 .
 h
 "
-#
-include
-"
-nsDOMMemoryReporter
-.
-h
-"
 class
 nsEventStateManager
 ;

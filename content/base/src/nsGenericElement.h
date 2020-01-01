@@ -3348,7 +3348,7 @@ GetNextElementSibling
 (
 )
 ;
-nsIDOMDOMTokenList
+nsDOMTokenList
 *
 GetClassList
 (
