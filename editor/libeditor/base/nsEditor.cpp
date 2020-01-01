@@ -12354,8 +12354,6 @@ nsIDOMNode
 >
 possibleMozBRNode
 ;
-res
-=
 children
 -
 >
@@ -12371,10 +12369,7 @@ possibleMozBRNode
 ;
 if
 (
-NS_SUCCEEDED
-(
-res
-)
+possibleMozBRNode
 &
 &
 nsTextEditUtils
