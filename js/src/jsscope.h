@@ -858,7 +858,16 @@ a
 single
 object
 and
-mutable
+immutable
+except
+for
+their
+*
+links
+in
+the
+dictionary
+list
 .
 *
 *
