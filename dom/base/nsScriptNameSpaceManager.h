@@ -570,7 +570,7 @@ eTypeExternalConstructorAlias
 mType
 ;
 PRBool
-mPrivilegedOnly
+mChromeOnly
 ;
 union
 {
@@ -750,6 +750,8 @@ char
 aClassName
 PRInt32
 aDOMClassInfoID
+PRBool
+aPrivileged
 const
 PRUnichar
 *

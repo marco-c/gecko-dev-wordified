@@ -1898,6 +1898,10 @@ DOMCI_CLASS
 (
 Worker
 )
+DOMCI_CLASS
+(
+ChromeWorker
+)
 /
 /
 WebGL

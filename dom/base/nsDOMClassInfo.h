@@ -655,6 +655,9 @@ mHasClassInterface
 PRUint32
 mInterfacesBitmap
 ;
+PRBool
+mChromeOnly
+;
 #
 ifdef
 NS_DEBUG
