@@ -1281,6 +1281,7 @@ DwmDefWindowProc
 ;
 CheckForCompositor
 (
+PR_TRUE
 )
 ;
 }
