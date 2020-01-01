@@ -4135,6 +4135,8 @@ aSourceURI
 nsIURI
 *
 aTargetURI
+PRBool
+reportError
 )
 {
 if
@@ -4145,6 +4147,11 @@ SecurityCompareURIs
 aSourceURI
 aTargetURI
 )
+)
+{
+if
+(
+reportError
 )
 {
 ReportError
@@ -4160,6 +4167,7 @@ aSourceURI
 aTargetURI
 )
 ;
+}
 return
 NS_ERROR_DOM_BAD_URI
 ;

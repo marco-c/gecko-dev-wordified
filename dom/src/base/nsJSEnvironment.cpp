@@ -3073,6 +3073,7 @@ CheckSameOriginURI
 (
 errorURI
 codebase
+PR_TRUE
 )
 )
 ;

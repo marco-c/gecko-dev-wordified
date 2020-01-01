@@ -937,6 +937,7 @@ CheckSameOriginURI
 (
 mRequestingURI
 finalURI
+PR_FALSE
 )
 ;
 if
