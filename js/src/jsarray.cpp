@@ -2513,7 +2513,6 @@ getDenseArrayInitializedLength
 !
 js_PrototypeHasIndexedProperties
 (
-cx
 aobj
 )
 )
@@ -5304,7 +5303,6 @@ if
 (
 js_PrototypeHasIndexedProperties
 (
-cx
 obj
 )
 )
@@ -5582,7 +5580,6 @@ if
 (
 js_PrototypeHasIndexedProperties
 (
-cx
 obj
 )
 )
@@ -5759,9 +5756,6 @@ strict
 JSBool
 js_PrototypeHasIndexedProperties
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -8933,7 +8927,6 @@ isDenseArray
 !
 js_PrototypeHasIndexedProperties
 (
-cx
 obj
 )
 )
@@ -9975,7 +9968,6 @@ if
 (
 js_PrototypeHasIndexedProperties
 (
-cx
 obj
 )
 )
@@ -10398,7 +10390,6 @@ if
 (
 js_PrototypeHasIndexedProperties
 (
-cx
 obj
 )
 )
@@ -14640,7 +14631,6 @@ isDenseArray
 !
 js_PrototypeHasIndexedProperties
 (
-cx
 obj
 )
 &
@@ -15035,7 +15025,6 @@ if
 (
 js_PrototypeHasIndexedProperties
 (
-cx
 obj
 )
 )
@@ -15788,7 +15777,6 @@ return
 !
 js_PrototypeHasIndexedProperties
 (
-cx
 arr
 )
 &
@@ -18042,7 +18030,6 @@ getDenseArrayInitializedLength
 !
 js_PrototypeHasIndexedProperties
 (
-cx
 obj
 )
 )

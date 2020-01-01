@@ -4802,9 +4802,6 @@ slotp
 void
 freeSlot
 (
-JSContext
-*
-cx
 uint32_t
 slot
 )

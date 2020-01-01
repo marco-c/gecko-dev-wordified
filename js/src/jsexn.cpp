@@ -1541,9 +1541,6 @@ static
 void
 SetExnPrivate
 (
-JSContext
-*
-cx
 JSObject
 *
 exnObject
@@ -2195,7 +2192,6 @@ ulineno
 }
 SetExnPrivate
 (
-cx
 exnObject
 priv
 )
@@ -2406,9 +2402,6 @@ static
 void
 SetExnPrivate
 (
-JSContext
-*
-cx
 JSObject
 *
 exnObject
@@ -7568,7 +7561,6 @@ NULL
 ;
 SetExnPrivate
 (
-cx
 copyobj
 copy
 )

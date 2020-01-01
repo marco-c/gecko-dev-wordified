@@ -3324,7 +3324,6 @@ Probes
 :
 startExecution
 (
-cx
 script
 )
 ;
@@ -3347,7 +3346,6 @@ Probes
 :
 stopExecution
 (
-cx
 script
 )
 ;

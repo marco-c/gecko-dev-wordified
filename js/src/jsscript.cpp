@@ -6771,9 +6771,6 @@ JSScript
 :
 setScriptSource
 (
-JSContext
-*
-cx
 ScriptSource
 *
 ss
@@ -9805,7 +9802,6 @@ script
 >
 setScriptSource
 (
-cx
 ss
 )
 ;

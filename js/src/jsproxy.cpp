@@ -4005,9 +4005,6 @@ static
 bool
 IndicatePropertyNotFound
 (
-JSContext
-*
-cx
 PropertyDescriptor
 *
 desc
@@ -4028,9 +4025,6 @@ static
 bool
 ValueToBool
 (
-JSContext
-*
-cx
 const
 Value
 &
@@ -4649,9 +4643,6 @@ JSObject
 *
 GetIndirectProxyHandlerObject
 (
-JSContext
-*
-cx
 JSObject
 *
 proxy
@@ -4709,7 +4700,6 @@ handler
 cx
 GetIndirectProxyHandlerObject
 (
-cx
 proxy
 )
 )
@@ -4771,7 +4761,6 @@ isUndefined
 &
 IndicatePropertyNotFound
 (
-cx
 desc
 )
 )
@@ -4846,7 +4835,6 @@ handler
 cx
 GetIndirectProxyHandlerObject
 (
-cx
 proxy
 )
 )
@@ -4908,7 +4896,6 @@ isUndefined
 &
 IndicatePropertyNotFound
 (
-cx
 desc
 )
 )
@@ -4967,7 +4954,6 @@ handler
 cx
 GetIndirectProxyHandlerObject
 (
-cx
 proxy
 )
 )
@@ -5057,7 +5043,6 @@ handler
 cx
 GetIndirectProxyHandlerObject
 (
-cx
 proxy
 )
 )
@@ -5138,7 +5123,6 @@ handler
 cx
 GetIndirectProxyHandlerObject
 (
-cx
 proxy
 )
 )
@@ -5194,7 +5178,6 @@ address
 &
 ValueToBool
 (
-cx
 value
 bp
 )
@@ -5223,7 +5206,6 @@ handler
 cx
 GetIndirectProxyHandlerObject
 (
-cx
 proxy
 )
 )
@@ -5318,7 +5300,6 @@ handler
 cx
 GetIndirectProxyHandlerObject
 (
-cx
 proxy
 )
 )
@@ -5392,7 +5373,6 @@ address
 &
 ValueToBool
 (
-cx
 value
 bp
 )
@@ -5437,7 +5417,6 @@ handler
 cx
 GetIndirectProxyHandlerObject
 (
-cx
 proxy
 )
 )
@@ -5511,7 +5490,6 @@ address
 &
 ValueToBool
 (
-cx
 value
 bp
 )
@@ -5564,7 +5542,6 @@ handler
 cx
 GetIndirectProxyHandlerObject
 (
-cx
 proxy
 )
 )
@@ -5731,7 +5708,6 @@ handler
 cx
 GetIndirectProxyHandlerObject
 (
-cx
 proxy
 )
 )
@@ -5886,7 +5862,6 @@ handler
 cx
 GetIndirectProxyHandlerObject
 (
-cx
 proxy
 )
 )
@@ -5994,7 +5969,6 @@ handler
 cx
 GetIndirectProxyHandlerObject
 (
-cx
 proxy
 )
 )

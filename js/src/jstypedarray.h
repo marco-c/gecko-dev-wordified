@@ -945,9 +945,6 @@ bytes
 void
 addView
 (
-JSContext
-*
-cx
 RawObject
 view
 )
@@ -1682,9 +1679,6 @@ static
 bool
 isArrayIndex
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -1701,9 +1695,6 @@ static
 void
 neuter
 (
-JSContext
-*
-cx
 RawObject
 tarray
 )

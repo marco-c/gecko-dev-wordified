@@ -2650,9 +2650,6 @@ NULL
 void
 print
 (
-JSContext
-*
-cx
 )
 ;
 inline
@@ -6960,9 +6957,6 @@ false
 void
 print
 (
-JSContext
-*
-cx
 )
 ;
 inline

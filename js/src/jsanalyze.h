@@ -6309,9 +6309,6 @@ result
 bool
 integerOperation
 (
-JSContext
-*
-cx
 jsbytecode
 *
 pc

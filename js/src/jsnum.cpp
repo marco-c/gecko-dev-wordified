@@ -1106,9 +1106,6 @@ static
 double
 ComputeAccurateBinaryBaseInteger
 (
-JSContext
-*
-cx
 const
 jschar
 *
@@ -1664,7 +1661,6 @@ dp
 =
 ComputeAccurateBinaryBaseInteger
 (
-cx
 start
 s
 base

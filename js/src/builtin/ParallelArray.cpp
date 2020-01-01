@@ -685,7 +685,6 @@ getDenseArrayInitializedLength
 !
 js_PrototypeHasIndexedProperties
 (
-cx
 obj
 )
 )
@@ -915,7 +914,6 @@ isDenseArray
 !
 js_PrototypeHasIndexedProperties
 (
-cx
 source
 )
 )

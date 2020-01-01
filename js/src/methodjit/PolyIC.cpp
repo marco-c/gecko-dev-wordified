@@ -19679,7 +19679,6 @@ if
 (
 js_PrototypeHasIndexedProperties
 (
-cx
 obj
 )
 )

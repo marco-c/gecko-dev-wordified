@@ -1487,7 +1487,6 @@ asArrayBuffer
 .
 addView
 (
-cx
 &
 dvobj
 )

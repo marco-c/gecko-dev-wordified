@@ -3714,9 +3714,6 @@ scriptSource_
 void
 setScriptSource
 (
-JSContext
-*
-cx
 js
 :
 :

@@ -15220,9 +15220,6 @@ static
 bool
 PushBlockNames
 (
-JSContext
-*
-cx
 SprintStack
 *
 ss
@@ -15353,9 +15350,6 @@ static
 bool
 AssignBlockNamesToPushedSlots
 (
-JSContext
-*
-cx
 SprintStack
 *
 ss
@@ -15422,7 +15416,6 @@ JSOP_NOP
 return
 PushBlockNames
 (
-cx
 ss
 atoms
 )
@@ -15474,9 +15467,6 @@ static
 ptrdiff_t
 SprintLetBody
 (
-JSContext
-*
-cx
 JSPrinter
 *
 jp
@@ -21785,7 +21775,6 @@ atoms
 !
 PushBlockNames
 (
-cx
 ss
 atoms
 )
@@ -23374,7 +23363,6 @@ if
 !
 AssignBlockNamesToPushedSlots
 (
-cx
 ss
 atoms
 )
@@ -23525,7 +23513,6 @@ todo
 =
 SprintLetBody
 (
-cx
 jp
 ss
 pc
@@ -23870,7 +23857,6 @@ if
 !
 AssignBlockNamesToPushedSlots
 (
-cx
 ss
 atoms
 )
@@ -41721,9 +41707,6 @@ static
 int
 SimulateOp
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -42900,7 +42883,6 @@ if
 (
 SimulateOp
 (
-cx
 script
 op
 cs
@@ -42930,7 +42912,6 @@ if
 (
 SimulateOp
 (
-cx
 script
 op
 cs
