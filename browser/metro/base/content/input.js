@@ -3107,6 +3107,13 @@ if
 element
 is
 content
+(
+but
+not
+the
+startui
+page
+)
 get
 the
 browser
@@ -3114,6 +3121,12 @@ scroll
 interface
 if
 (
+!
+BrowserUI
+.
+isStartTabVisible
+&
+&
 elem
 .
 ownerDocument

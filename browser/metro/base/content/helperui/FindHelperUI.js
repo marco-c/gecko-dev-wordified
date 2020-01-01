@@ -650,9 +650,9 @@ findHelperShow
 {
 if
 (
-StartUI
+BrowserUI
 .
-isVisible
+isStartTabVisible
 |
 |
 this
