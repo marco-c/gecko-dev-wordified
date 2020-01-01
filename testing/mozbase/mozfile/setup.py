@@ -62,7 +62,7 @@ PACKAGE_VERSION
 '
 0
 .
-3
+7
 '
 setup
 (
@@ -205,6 +205,14 @@ False
 install_requires
 =
 [
+]
+      
+tests_require
+=
+[
+'
+mozhttpd
+'
 ]
       
 )

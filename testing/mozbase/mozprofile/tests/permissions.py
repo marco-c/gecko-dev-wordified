@@ -63,9 +63,21 @@ MPL
 /
 .
 import
+mozfile
+import
 os
 import
 shutil
+import
+tempfile
+import
+unittest
+from
+mozprofile
+.
+permissions
+import
+Permissions
 try
 :
     
@@ -81,16 +93,6 @@ import
 dbapi2
 as
 sqlite3
-import
-tempfile
-import
-unittest
-from
-mozprofile
-.
-permissions
-import
-Permissions
 class
 PermissionsTest
 (
@@ -177,7 +179,7 @@ self
 .
 locations_file
 =
-tempfile
+mozfile
 .
 NamedTemporaryFile
 (
@@ -1267,7 +1269,7 @@ mochi
 .
 test
 :
-9988
+4443
 '
 ;
 "

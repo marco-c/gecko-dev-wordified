@@ -63,6 +63,8 @@ MPL
 /
 .
 import
+mozfile
+import
 os
 import
 shutil
@@ -355,7 +357,7 @@ contents
         
 f
 =
-tempfile
+mozfile
 .
 NamedTemporaryFile
 (
