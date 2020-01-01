@@ -590,6 +590,12 @@ Proxy
 class
 JS_FRIEND_API
 (
+AutoEnterPolicy
+)
+;
+class
+JS_FRIEND_API
+(
 BaseProxyHandler
 )
 ;

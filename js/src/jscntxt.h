@@ -3662,12 +3662,6 @@ MarkingValidator
 /
 namespace
 gc
-class
-JS_FRIEND_API
-(
-AutoEnterPolicy
-)
-;
 typedef
 Vector
 <
