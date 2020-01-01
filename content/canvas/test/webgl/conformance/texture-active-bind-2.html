@@ -467,7 +467,7 @@ binding
 both
 TEXTURE_2D
 and
-TEXTURE_3D
+TEXTURE_CUBE_MAP
 to
 the
 same
@@ -582,7 +582,7 @@ program
 var
 programCube
 =
-loadProgram
+createProgram
 (
 gl
 "
@@ -591,7 +591,14 @@ vshader
 "
 fshaderCube
 "
-false
+[
+"
+vPosition
+"
+"
+texCoord0
+"
+]
 )
 ;
 gl
