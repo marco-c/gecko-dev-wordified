@@ -120,6 +120,13 @@ h
 #
 include
 "
+PerfSpewer
+.
+h
+"
+#
+include
+"
 CodeGenerator
 .
 h
