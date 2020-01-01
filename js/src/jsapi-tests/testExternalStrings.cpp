@@ -276,7 +276,7 @@ arrlen
 ;
 JS_GC
 (
-cx
+rt
 )
 ;
 /

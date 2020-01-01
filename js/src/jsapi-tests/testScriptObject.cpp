@@ -126,7 +126,7 @@ script
 ;
 JS_GC
 (
-cx
+rt
 )
 ;
 /

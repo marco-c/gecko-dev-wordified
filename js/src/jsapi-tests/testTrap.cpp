@@ -92,7 +92,10 @@ closure
 {
 JS_GC
 (
+JS_GetRuntime
+(
 cx
+)
 )
 ;
 if
@@ -377,7 +380,7 @@ trapClosure
 ;
 JS_GC
 (
-cx
+rt
 )
 ;
 CHECK
@@ -419,7 +422,7 @@ emptyTrapCallCount
 ;
 JS_GC
 (
-cx
+rt
 )
 ;
 CHECK

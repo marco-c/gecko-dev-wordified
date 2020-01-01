@@ -8690,9 +8690,9 @@ extern
 void
 GC
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 JSGCInvocationKind
 gckind
 js
@@ -8709,9 +8709,9 @@ extern
 void
 GCSlice
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 JSGCInvocationKind
 gckind
 js
@@ -8728,9 +8728,9 @@ extern
 void
 GCDebugSlice
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 bool
 limit
 int64_t

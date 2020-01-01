@@ -209,7 +209,7 @@ FinalizeCallback
 ;
 JS_GC
 (
-cx
+rt
 )
 ;
 CHECK
