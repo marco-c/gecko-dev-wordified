@@ -2111,7 +2111,7 @@ getScrollOffset
 content
 )
 ;
-sendSyncMessage
+sendAsyncMessage
 (
 "
 Browser
@@ -2458,7 +2458,7 @@ if
 sizeChange
 )
 {
-sendSyncMessage
+sendAsyncMessage
 (
 "
 Browser
@@ -2486,7 +2486,7 @@ this
 .
 _incremental
 )
-sendSyncMessage
+sendAsyncMessage
 (
 "
 Browser
@@ -2580,7 +2580,7 @@ have
 been
 dirtied
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 Browser
@@ -3470,7 +3470,7 @@ getContentClientRects
 element
 )
 ;
-sendSyncMessage
+sendAsyncMessage
 (
 "
 Browser
