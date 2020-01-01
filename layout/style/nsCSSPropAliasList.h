@@ -321,3 +321,16 @@ true
 *
 *
 /
+CSS_PROP_ALIAS
+(
+-
+moz
+-
+border
+-
+image
+border_image
+MozBorderImage
+"
+"
+)
