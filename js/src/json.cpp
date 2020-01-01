@@ -469,6 +469,13 @@ h
 #
 include
 "
+jsarena
+.
+h
+"
+#
+include
+"
 jsarray
 .
 h
