@@ -661,6 +661,12 @@ prtypes
 h
 "
 #
+ifdef
+CHROMIUM_MOZILLA_BUILD
+PR_BEGIN_EXTERN_C
+#
+endif
+#
 define
 PR_ASSERT
 DCHECK
@@ -2541,6 +2547,12 @@ PRTime
 result
 )
 ;
+#
+ifdef
+CHROMIUM_MOZILLA_BUILD
+PR_END_EXTERN_C
+#
+endif
 #
 endif
 /
