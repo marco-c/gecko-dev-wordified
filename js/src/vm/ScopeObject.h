@@ -4119,14 +4119,6 @@ DebugScopes
 (
 )
 ;
-void
-finalize
-(
-JSRuntime
-*
-rt
-)
-;
 private
 :
 bool
