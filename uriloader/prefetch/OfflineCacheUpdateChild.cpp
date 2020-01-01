@@ -808,13 +808,13 @@ mIPCActivated
 (
 false
 )
-mInBrowser
-(
-false
-)
 mAppID
 (
 NECKO_NO_APP_ID
+)
+mInBrowser
+(
+false
 )
 mWindow
 (
