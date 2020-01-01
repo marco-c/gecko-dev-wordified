@@ -1015,8 +1015,10 @@ offset
 from
 slowPathStart
 .
-uint8
+uint16
 callReturn
+:
+9
 ;
 /
 /
