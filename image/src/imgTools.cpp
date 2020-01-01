@@ -581,6 +581,7 @@ OnImageDataComplete
 nullptr
 nullptr
 NS_OK
+true
 )
 ;
 NS_ENSURE_SUCCESS
