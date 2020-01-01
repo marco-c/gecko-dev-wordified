@@ -10326,8 +10326,6 @@ Fragment
 frag
 LogControl
 *
-bool
-optimize
 )
 ;
 )
