@@ -7731,6 +7731,12 @@ body
 |
 |
 {
+scrollWidth
+:
+pageWidth
+scrollHeight
+:
+pageHeight
 }
 ;
 let
@@ -7742,6 +7748,12 @@ documentElement
 |
 |
 {
+scrollWidth
+:
+pageWidth
+scrollHeight
+:
+pageHeight
 }
 ;
 pageWidth
@@ -7753,9 +7765,6 @@ max
 body
 .
 scrollWidth
-|
-|
-1
 html
 .
 scrollWidth
@@ -7770,9 +7779,6 @@ max
 body
 .
 scrollHeight
-|
-|
-1
 html
 .
 scrollHeight
