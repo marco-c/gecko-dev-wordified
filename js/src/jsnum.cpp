@@ -7120,8 +7120,7 @@ js_InitNumberClass
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {

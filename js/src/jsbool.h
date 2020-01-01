@@ -126,8 +126,10 @@ js_InitBooleanClass
 JSContext
 *
 cx
-JSObject
-*
+js
+:
+:
+HandleObject
 obj
 )
 ;

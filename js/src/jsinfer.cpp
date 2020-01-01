@@ -12448,7 +12448,8 @@ return
 arrayType
 ;
 }
-RawObject
+JSObject
+*
 StackTypeSet
 :
 :
@@ -12483,7 +12484,8 @@ getSingleObject
 )
 ;
 }
-RawObject
+JSObject
+*
 HeapTypeSet
 :
 :

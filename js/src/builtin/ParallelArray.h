@@ -2884,8 +2884,10 @@ js_InitParallelArrayClass
 JSContext
 *
 cx
-JSObject
-*
+js
+:
+:
+HandleObject
 obj
 )
 ;

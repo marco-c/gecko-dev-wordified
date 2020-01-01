@@ -188,8 +188,10 @@ js_InitNumberClass
 JSContext
 *
 cx
-JSObject
-*
+js
+:
+:
+HandleObject
 obj
 )
 ;

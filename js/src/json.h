@@ -108,8 +108,10 @@ js_InitJSONClass
 JSContext
 *
 cx
-JSObject
-*
+js
+:
+:
+HandleObject
 obj
 )
 ;

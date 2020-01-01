@@ -5364,8 +5364,7 @@ js_InitExceptionClasses
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {

@@ -239,8 +239,10 @@ js_InitDateClass
 JSContext
 *
 cx
-JSObject
-*
+js
+:
+:
+HandleObject
 obj
 )
 ;

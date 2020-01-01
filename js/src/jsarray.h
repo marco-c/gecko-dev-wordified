@@ -263,8 +263,10 @@ js_InitArrayClass
 JSContext
 *
 cx
-JSObject
-*
+js
+:
+:
+HandleObject
 obj
 )
 ;

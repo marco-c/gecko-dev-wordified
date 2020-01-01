@@ -391,8 +391,10 @@ js_InitStringClass
 JSContext
 *
 cx
-JSObject
-*
+js
+:
+:
+HandleObject
 global
 )
 ;
