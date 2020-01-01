@@ -1545,7 +1545,7 @@ Matrix
 Filter
 aFilter
 =
-FILTER_LINEAR
+FILTER_GOOD
 )
 :
 mSurface

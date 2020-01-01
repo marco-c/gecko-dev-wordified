@@ -318,6 +318,12 @@ filter
 )
 {
 case
+FILTER_GOOD
+:
+return
+CAIRO_FILTER_GOOD
+;
+case
 FILTER_LINEAR
 :
 return
