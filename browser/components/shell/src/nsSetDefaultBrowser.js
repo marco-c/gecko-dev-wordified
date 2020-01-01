@@ -561,7 +561,7 @@ true
 ;
 }
 }
-helpText
+helpInfo
 :
 "
 -
