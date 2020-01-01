@@ -6743,6 +6743,12 @@ imm
 )
 ;
 }
+const
+uint8_t
+INT3_OP
+=
+0xcc
+;
 inline
 void
 Assembler
@@ -6806,7 +6812,7 @@ INT3
 {
 ALU0
 (
-0xcc
+INT3_OP
 )
 ;
 asm_output
