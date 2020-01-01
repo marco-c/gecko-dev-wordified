@@ -1070,6 +1070,14 @@ ins
 )
 ;
 bool
+visitParConcat
+(
+MParConcat
+*
+ins
+)
+;
+bool
 visitCharCodeAt
 (
 MCharCodeAt
