@@ -469,13 +469,6 @@ h
 #
 include
 "
-lcms
-.
-h
-"
-#
-include
-"
 gfxContext
 .
 h

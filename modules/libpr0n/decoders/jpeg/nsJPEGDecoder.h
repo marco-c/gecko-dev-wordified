@@ -493,7 +493,7 @@ h
 #
 include
 "
-lcms
+qcms
 .
 h
 "
@@ -798,10 +798,12 @@ mProfile
 PRUint32
 mProfileLength
 ;
-cmsHPROFILE
+qcms_profile
+*
 mInProfile
 ;
-cmsHTRANSFORM
+qcms_transform
+*
 mTransform
 ;
 PRPackedBool

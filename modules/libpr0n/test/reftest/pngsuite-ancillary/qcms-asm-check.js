@@ -9,7 +9,7 @@ bug
 465088
 that
 the
-lcms
+qcms
 assembly
 doesn
 '
@@ -25,7 +25,7 @@ assembly
 output
 .
 function
-check_lcms_has_assembly
+check_qcms_has_assembly
 (
 )
 {
@@ -178,9 +178,9 @@ false
 ;
 }
 var
-lcms_has_assembly
+qcms_has_assembly
 =
-check_lcms_has_assembly
+check_qcms_has_assembly
 (
 )
 ;
