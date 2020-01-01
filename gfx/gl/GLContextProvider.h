@@ -226,12 +226,6 @@ ANDROID
 |
 defined
 (
-MOZ_PLATFORM_MAEMO
-)
-|
-|
-defined
-(
 XP_WIN
 )
 #

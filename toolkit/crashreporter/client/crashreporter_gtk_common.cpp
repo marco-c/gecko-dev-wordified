@@ -337,10 +337,6 @@ From
 crashreporter_linux
 .
 cpp
-or
-crashreporter_maemo_gtk
-.
-cpp
 void
 SaveSettings
 (
@@ -1457,15 +1453,6 @@ gtk_widget_set_default_direction
 GTK_TEXT_DIR_RTL
 )
 ;
-#
-ifndef
-MOZ_PLATFORM_MAEMO
-TryInitGnome
-(
-)
-;
-#
-endif
 return
 true
 ;

@@ -124,13 +124,6 @@ h
 "
 #
 if
-!
-defined
-(
-MOZ_PLATFORM_MAEMO
-)
-&
-&
 defined
 (
 MOZ_X11
@@ -292,13 +285,6 @@ private
 :
 #
 if
-!
-defined
-(
-MOZ_PLATFORM_MAEMO
-)
-&
-&
 defined
 (
 MOZ_X11
