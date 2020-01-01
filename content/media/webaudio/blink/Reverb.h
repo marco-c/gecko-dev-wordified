@@ -305,6 +305,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+AudioSegment
+.
+h
+"
 namespace
 mozilla
 {
@@ -315,6 +322,12 @@ ThreadSharedFloatArrayBufferList
 namespace
 WebCore
 {
+class
+DirectConvolver
+;
+class
+FFTConvolver
+;
 /
 /
 Multi

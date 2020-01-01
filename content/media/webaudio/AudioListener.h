@@ -193,9 +193,6 @@ namespace
 dom
 {
 class
-AudioContext
-;
-class
 AudioListener
 MOZ_FINAL
 :

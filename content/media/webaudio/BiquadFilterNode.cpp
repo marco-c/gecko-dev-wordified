@@ -165,6 +165,13 @@ Preferences
 .
 h
 "
+#
+include
+"
+AudioParamTimeline
+.
+h
+"
 namespace
 mozilla
 {
