@@ -1004,7 +1004,7 @@ x
 (
 nscoord
 )
-NS_ceil
+ceil
 (
 (
 x
@@ -1239,7 +1239,7 @@ aFontGroup
 gfxFloat
 offset
 =
-NS_floor
+floor
 (
 -
 aFontGroup
@@ -1267,7 +1267,7 @@ underlineSize
 gfxFloat
 minDescent
 =
-NS_floor
+floor
 (
 offset
 +
@@ -1302,7 +1302,7 @@ aMetrics
 )
 {
 return
-NS_floor
+floor
 (
 aMetrics
 .

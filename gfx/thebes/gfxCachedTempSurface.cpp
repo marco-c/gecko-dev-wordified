@@ -799,7 +799,7 @@ gfxIntSize
 (
 PRInt32
 (
-NS_ceil
+ceil
 (
 aRect
 .
@@ -808,7 +808,7 @@ width
 )
 PRInt32
 (
-NS_ceil
+ceil
 (
 aRect
 .

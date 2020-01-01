@@ -675,7 +675,7 @@ snappedSize
 =
 NS_MAX
 (
-NS_floor
+floor
 (
 aSize
 +
@@ -717,7 +717,7 @@ Snap
 offset
 aOffset
 =
-NS_floor
+floor
 (
 offset
 +
@@ -2530,7 +2530,7 @@ aMetrics
 >
 emHeight
 =
-NS_floor
+floor
 (
 emHeight
 +
@@ -2564,7 +2564,7 @@ aMetrics
 >
 internalLeading
 =
-NS_floor
+floor
 (
 aMetrics
 -
@@ -2609,7 +2609,7 @@ example
 .
 lineHeight
 =
-NS_floor
+floor
 (
 NS_MAX
 (

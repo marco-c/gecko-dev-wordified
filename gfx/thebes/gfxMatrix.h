@@ -1389,7 +1389,7 @@ HasNonTranslation
 FuzzyEqual
 (
 x0
-NS_floor
+floor
 (
 x0
 +
@@ -1404,7 +1404,7 @@ x0
 FuzzyEqual
 (
 y0
-NS_floor
+floor
 (
 y0
 +
@@ -2027,7 +2027,7 @@ return
 FuzzyEqual
 (
 xx
-NS_floor
+floor
 (
 xx
 +
@@ -2042,7 +2042,7 @@ xx
 FuzzyEqual
 (
 yy
-NS_floor
+floor
 (
 yy
 +

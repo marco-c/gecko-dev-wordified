@@ -12983,7 +12983,7 @@ dimension
 double
 multiples
 =
-NS_floor
+floor
 (
 double
 (
@@ -13819,7 +13819,7 @@ stopDelta
 double
 instanceCount
 =
-NS_ceil
+ceil
 (
 -
 firstStop
@@ -24765,7 +24765,7 @@ const
 gfxFloat
 left
 =
-NS_floor
+floor
 (
 aPt
 .
@@ -24777,7 +24777,7 @@ x
 )
 right
 =
-NS_floor
+floor
 (
 aPt
 .
@@ -24834,7 +24834,7 @@ aAscent
 gfxFloat
 descentLimit
 =
-NS_floor
+floor
 (
 aDescentLimit
 )
@@ -25391,7 +25391,7 @@ lineHeight
 gfxFloat
 baseline
 =
-NS_floor
+floor
 (
 aPt
 .
@@ -25550,7 +25550,7 @@ NS_STYLE_TEXT_DECORATION_LINE_LINE_THROUGH
 gfxFloat
 extra
 =
-NS_floor
+floor
 (
 r
 .
@@ -25605,7 +25605,7 @@ y
 =
 baseline
 -
-NS_floor
+floor
 (
 offset
 +

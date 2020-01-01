@@ -10424,7 +10424,7 @@ eUnit_Integer
 PRInt32
 result
 =
-NS_floor
+floor
 (
 aCoeff1
 *
@@ -10597,7 +10597,7 @@ floor
 PRInt32
 result
 =
-NS_floor
+floor
 (
 aCoeff1
 *

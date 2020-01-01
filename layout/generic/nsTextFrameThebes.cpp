@@ -704,6 +704,13 @@ h
 #
 include
 "
+nsIDOMText
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h
@@ -19013,7 +19020,7 @@ CSS
 pixel
 ?
 return
-NS_ceil
+ceil
 (
 (
 aX
@@ -30088,7 +30095,7 @@ fontSize
 )
 ;
 return
-NS_ceil
+ceil
 (
 fontSize
 /

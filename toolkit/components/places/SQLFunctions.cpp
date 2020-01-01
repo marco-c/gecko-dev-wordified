@@ -4473,7 +4473,7 @@ visits
 /
 /
 Use
-NS_ceilf
+ceilf
 (
 )
 so
@@ -4511,11 +4511,11 @@ IntegerVariant
 (
 PRInt32
 )
-NS_ceilf
+ceilf
 (
 fullVisitCount
 *
-NS_ceilf
+ceilf
 (
 pointsForSampledVisits
 )
@@ -4778,7 +4778,7 @@ float
 /
 /
 use
-NS_ceilf
+ceilf
 (
 )
 so
@@ -4815,11 +4815,11 @@ IntegerVariant
 (
 PRInt32
 )
-NS_ceilf
+ceilf
 (
 fullVisitCount
 *
-NS_ceilf
+ceilf
 (
 pointsForSampledVisits
 )

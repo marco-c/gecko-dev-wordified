@@ -726,7 +726,7 @@ Round
 {
 x
 =
-NS_floor
+floor
 (
 x
 +
@@ -737,7 +737,7 @@ x
 ;
 y
 =
-NS_floor
+floor
 (
 y
 +

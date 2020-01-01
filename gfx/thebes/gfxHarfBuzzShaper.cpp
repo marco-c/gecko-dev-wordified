@@ -7008,7 +7008,7 @@ FixedToIntRound
 x_advance
 )
 :
-NS_floor
+floor
 (
 hb2appUnits
 *
@@ -7268,7 +7268,7 @@ FixedToIntRound
 x_offset
 )
 :
-NS_floor
+floor
 (
 hb2appUnits
 *
@@ -7306,7 +7306,7 @@ FixedToIntRound
 y_offset
 )
 :
-NS_floor
+floor
 (
 hb2appUnits
 *
@@ -7355,7 +7355,7 @@ FixedToIntRound
 y_advance
 )
 :
-NS_floor
+floor
 (
 hb2appUnits
 *
@@ -7400,7 +7400,7 @@ FixedToIntRound
 x_advance
 )
 :
-NS_floor
+floor
 (
 hb2appUnits
 *

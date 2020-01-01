@@ -2173,7 +2173,7 @@ return
 ScaleCoord
 (
 aValue
-NS_ceil
+ceil
 (
 aPresContext
 -
