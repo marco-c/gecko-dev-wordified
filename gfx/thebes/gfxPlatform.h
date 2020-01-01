@@ -3197,6 +3197,12 @@ GetPrefLayoutFrameRate
 (
 )
 ;
+static
+bool
+OffMainThreadCompositionRequired
+(
+)
+;
 /
 *
 *
