@@ -1081,8 +1081,9 @@ _s
 sa_stream_t
 *
 )
-malloc
+calloc
 (
+1
 sizeof
 (
 sa_stream_t
