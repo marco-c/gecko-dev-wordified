@@ -2851,6 +2851,9 @@ NULL
 ;
 #
 endif
+return
+NULL
+;
 }
 #
 endif
@@ -4063,6 +4066,9 @@ NULL
 ;
 #
 endif
+return
+NULL
+;
 }
 #
 endif
@@ -5417,6 +5423,9 @@ NULL
 ;
 #
 endif
+return
+NULL
+;
 }
 #
 endif
@@ -6670,6 +6679,9 @@ NULL
 ;
 #
 endif
+return
+NULL
+;
 }
 #
 endif
