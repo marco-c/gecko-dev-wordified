@@ -4950,9 +4950,6 @@ current
 (
 current
 +
-nsCRT
-:
-:
 strlen
 (
 current
@@ -4966,9 +4963,6 @@ current
 =
 current
 +
-nsCRT
-:
-:
 strlen
 (
 current

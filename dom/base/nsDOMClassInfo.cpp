@@ -19674,9 +19674,6 @@ mData
 >
 mNameUTF16
 )
-nsCRT
-:
-:
 strlen
 (
 mData
@@ -24613,9 +24610,6 @@ jschar
 (
 mClassName
 )
-nsCRT
-:
-:
 strlen
 (
 mClassName
