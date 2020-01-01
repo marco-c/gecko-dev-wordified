@@ -1694,7 +1694,7 @@ only
 static
 StateMachineTracker
 *
-mInstance
+sInstance
 ;
 /
 /
@@ -1844,7 +1844,7 @@ StateMachineTracker
 StateMachineTracker
 :
 :
-mInstance
+sInstance
 =
 nsnull
 ;
@@ -1860,7 +1860,7 @@ Instance
 if
 (
 !
-mInstance
+sInstance
 )
 {
 NS_ASSERTION
@@ -1878,7 +1878,7 @@ thread
 "
 )
 ;
-mInstance
+sInstance
 =
 new
 StateMachineTracker
@@ -1888,7 +1888,7 @@ StateMachineTracker
 }
 return
 *
-mInstance
+sInstance
 ;
 }
 void
@@ -2206,7 +2206,7 @@ zero
 "
 )
 ;
-mInstance
+sInstance
 =
 nsnull
 ;

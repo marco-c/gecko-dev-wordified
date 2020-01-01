@@ -20566,7 +20566,7 @@ sRuntime
 JSGCParamKey
 )
 (
-long
+intptr_t
 )
 aClosure
 pref

@@ -17465,7 +17465,10 @@ NotEqual
 obj
 dest
 &
-IteratorClass
+PropertyIteratorObject
+:
+:
+class_
 failures
 )
 ;

@@ -1022,7 +1022,7 @@ iterators
 .
 *
 /
-JSObject
+PropertyIteratorObject
 *
 data
 [
@@ -1058,7 +1058,7 @@ started
 .
 *
 /
-JSObject
+PropertyIteratorObject
 *
 last
 ;
@@ -1092,7 +1092,7 @@ data
 )
 ;
 }
-JSObject
+PropertyIteratorObject
 *
 get
 (
@@ -1116,7 +1116,7 @@ set
 (
 uint32_t
 key
-JSObject
+PropertyIteratorObject
 *
 iterobj
 )
@@ -6812,6 +6812,9 @@ emit
 js
 :
 :
+frontend
+:
+:
 ParseMapPool
 *
 parseMapPool_
@@ -6954,6 +6957,9 @@ regExpStatics
 public
 :
 js
+:
+:
+frontend
 :
 :
 ParseMapPool
@@ -7639,7 +7645,10 @@ in
 .
 *
 /
-JSObject
+js
+:
+:
+PropertyIteratorObject
 *
 enumerators
 ;

@@ -3256,13 +3256,12 @@ visible
 *
 *
 /
-NS_IMETHOD
+virtual
+bool
 IsVisible
 (
-bool
-&
-aState
 )
+const
 =
 0
 ;

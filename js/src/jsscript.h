@@ -185,9 +185,6 @@ h
 namespace
 js
 {
-class
-BytecodeEmitter
-;
 namespace
 ion
 {
@@ -3637,6 +3634,9 @@ JSScript
 >
 script
 js
+:
+:
+frontend
 :
 :
 BytecodeEmitter

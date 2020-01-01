@@ -2696,13 +2696,12 @@ bool
 aState
 )
 ;
-NS_IMETHOD
+virtual
+bool
 IsVisible
 (
-bool
-&
-outState
 )
+const
 ;
 NS_IMETHOD
 SetParent
