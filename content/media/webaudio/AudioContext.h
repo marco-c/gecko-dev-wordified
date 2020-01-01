@@ -954,7 +954,7 @@ mDecoder
 ;
 nsTArray
 <
-nsAutoPtr
+nsRefPtr
 <
 WebAudioDecodeJob
 >
