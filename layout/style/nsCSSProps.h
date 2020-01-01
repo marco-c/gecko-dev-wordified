@@ -1102,7 +1102,7 @@ nsCSSProperty
 aProperty
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 0
 <
@@ -1491,7 +1491,7 @@ PRUint32
 aFlags
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 0
 <
@@ -1573,7 +1573,7 @@ nsCSSProperty
 aProperty
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 eCSSProperty_COUNT_no_shorthands
 <
@@ -1648,7 +1648,7 @@ nsCSSProperty
 aProperty
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 gShorthandsContainingPool
 "
@@ -1656,7 +1656,7 @@ uninitialized
 "
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 0
 <
