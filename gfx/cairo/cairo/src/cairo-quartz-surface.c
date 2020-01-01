@@ -10240,6 +10240,14 @@ return
 CAIRO_STATUS_SUCCESS
 ;
 }
+CGContextFlush
+(
+surface
+-
+>
+cgContext
+)
+;
 if
 (
 surface
