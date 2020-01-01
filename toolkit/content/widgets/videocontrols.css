@@ -93,3 +93,17 @@ suppressChangeEvent
 )
 ;
 }
+.
+throbberOverlay
+{
+visibility
+:
+hidden
+;
+opacity
+:
+0
+.
+0
+;
+}
