@@ -21287,11 +21287,9 @@ correctly
 when
 they
 use
+context
 -
-moz
--
-objectFill
-values
+fill
 etc
 .
 gfx
@@ -34214,7 +34212,7 @@ paint
 mType
 !
 =
-eStyleSVGPaintType_ObjectFill
+eStyleSVGPaintType_ContextFill
 &
 &
 paint
@@ -34222,7 +34220,7 @@ paint
 mType
 !
 =
-eStyleSVGPaintType_ObjectStroke
+eStyleSVGPaintType_ContextStroke
 )
 {
 return
@@ -34250,7 +34248,7 @@ paint
 mType
 =
 =
-eStyleSVGPaintType_ObjectFill
+eStyleSVGPaintType_ContextFill
 ?
 aOuterContextPaint
 -

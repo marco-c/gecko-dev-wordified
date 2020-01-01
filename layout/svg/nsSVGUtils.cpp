@@ -9270,7 +9270,7 @@ paint
 mType
 =
 =
-eStyleSVGPaintType_ObjectFill
+eStyleSVGPaintType_ContextFill
 |
 |
 paint
@@ -9278,7 +9278,7 @@ paint
 mType
 =
 =
-eStyleSVGPaintType_ObjectStroke
+eStyleSVGPaintType_ContextStroke
 ;
 nscolor
 color
@@ -9636,7 +9636,7 @@ mType
 )
 {
 case
-eStyleSVGPaintType_ObjectFill
+eStyleSVGPaintType_ContextFill
 :
 pattern
 =
@@ -9657,7 +9657,7 @@ CurrentMatrix
 break
 ;
 case
-eStyleSVGPaintType_ObjectStroke
+eStyleSVGPaintType_ContextStroke
 :
 pattern
 =
@@ -10178,7 +10178,7 @@ aOpacity
 break
 ;
 case
-eStyleSVGOpacitySource_ObjectFillOpacity
+eStyleSVGOpacitySource_ContextFillOpacity
 :
 if
 (
@@ -10200,7 +10200,11 @@ else
 NS_WARNING
 (
 "
-objectFillOpacity
+context
+-
+fill
+-
+opacity
 used
 outside
 of
@@ -10214,7 +10218,7 @@ glyph
 break
 ;
 case
-eStyleSVGOpacitySource_ObjectStrokeOpacity
+eStyleSVGOpacitySource_ContextStrokeOpacity
 :
 if
 (
@@ -10236,7 +10240,11 @@ else
 NS_WARNING
 (
 "
-objectStrokeOpacity
+context
+-
+stroke
+-
+opacity
 used
 outside
 of
