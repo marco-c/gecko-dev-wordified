@@ -1279,15 +1279,6 @@ AMessage
 msg
 )
 ;
-bool
-ProcessCachedData
-(
-int64_t
-aOffset
-bool
-aWaitForCompletion
-)
-;
 }
 ;
 }
