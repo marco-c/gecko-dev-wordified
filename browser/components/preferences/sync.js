@@ -1004,6 +1004,12 @@ Services
 prompt
 .
 BUTTON_TITLE_CANCEL
++
+Services
+.
+prompt
+.
+BUTTON_POS_1_DEFAULT
 ;
 let
 buttonChoice
