@@ -592,13 +592,6 @@ h
 #
 include
 "
-nsITraceableChannel
-.
-h
-"
-#
-include
-"
 nsIHttpChannelAuthProvider
 .
 h
@@ -830,8 +823,6 @@ nsIProtocolProxyCallback
 public
 nsIHttpAuthenticableChannel
 public
-nsITraceableChannel
-public
 nsIApplicationCacheChannel
 public
 nsIAsyncVerifyRedirectCallback
@@ -849,7 +840,6 @@ NS_DECL_NSICACHELISTENER
 NS_DECL_NSITRANSPORTEVENTSINK
 NS_DECL_NSIPROTOCOLPROXYCALLBACK
 NS_DECL_NSIPROXIEDCHANNEL
-NS_DECL_NSITRACEABLECHANNEL
 NS_DECL_NSIAPPLICATIONCACHECONTAINER
 NS_DECL_NSIAPPLICATIONCACHECHANNEL
 NS_DECL_NSIASYNCVERIFYREDIRECTCALLBACK
@@ -2215,11 +2205,6 @@ cache
 .
 PRUint32
 mFallbackChannel
-:
-1
-;
-PRUint32
-mTracingEnabled
 :
 1
 ;

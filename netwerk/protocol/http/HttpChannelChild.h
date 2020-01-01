@@ -586,13 +586,6 @@ h
 #
 include
 "
-nsITraceableChannel
-.
-h
-"
-#
-include
-"
 nsIAsyncVerifyRedirectCallback
 .
 h
@@ -636,8 +629,6 @@ nsICacheInfoChannel
 public
 nsIProxiedChannel
 public
-nsITraceableChannel
-public
 nsIApplicationCacheChannel
 public
 nsIAsyncVerifyRedirectCallback
@@ -658,7 +649,6 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSICACHEINFOCHANNEL
 NS_DECL_NSIPROXIEDCHANNEL
-NS_DECL_NSITRACEABLECHANNEL
 NS_DECL_NSIAPPLICATIONCACHECONTAINER
 NS_DECL_NSIAPPLICATIONCACHECHANNEL
 NS_DECL_NSIASYNCVERIFYREDIRECTCALLBACK
