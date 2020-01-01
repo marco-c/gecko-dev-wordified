@@ -1499,14 +1499,6 @@ imm
 ;
 \
 void
-BL
-(
-NIns
-*
-)
-;
-\
-void
 BranchWithLink
 (
 NIns
