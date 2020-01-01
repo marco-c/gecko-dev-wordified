@@ -520,13 +520,6 @@ defined
 (
 XP_WIN
 )
-&
-&
-!
-defined
-(
-WINCE
-)
 #
 include
 <
@@ -841,13 +834,6 @@ if
 defined
 (
 XP_WIN
-)
-&
-&
-!
-defined
-(
-WINCE
 )
 /
 /

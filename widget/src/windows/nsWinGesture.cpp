@@ -728,14 +728,6 @@ InitLibrary
 (
 )
 {
-#
-ifdef
-WINCE
-return
-PR_FALSE
-;
-#
-else
 if
 (
 getGestureInfo
@@ -1169,8 +1161,6 @@ PR_TRUE
 return
 PR_TRUE
 ;
-#
-endif
 }
 #
 define
