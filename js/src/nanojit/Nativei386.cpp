@@ -5913,7 +5913,7 @@ isUnusedOrHasUnknownReg
 (
 )
 ?
-findSpecificRegFor
+findSpecificRegForUnallocated
 (
 lhs
 rr
@@ -6525,7 +6525,7 @@ isUnusedOrHasUnknownReg
 (
 )
 ?
-findSpecificRegFor
+findSpecificRegForUnallocated
 (
 lhs
 rr
@@ -6883,7 +6883,7 @@ isUnusedOrHasUnknownReg
 (
 )
 ?
-findSpecificRegFor
+findSpecificRegForUnallocated
 (
 lhs
 rr
@@ -6936,7 +6936,7 @@ isUnusedOrHasUnknownReg
 (
 )
 ?
-findSpecificRegFor
+findSpecificRegForUnallocated
 (
 rhs
 rr
@@ -8401,7 +8401,7 @@ isUnusedOrHasUnknownReg
 {
 ra
 =
-findSpecificRegFor
+findSpecificRegForUnallocated
 (
 lhs
 rr
@@ -8572,7 +8572,7 @@ isUnusedOrHasUnknownReg
 (
 )
 )
-findSpecificRegFor
+findSpecificRegForUnallocated
 (
 lhs
 rr
@@ -9538,7 +9538,7 @@ isUnusedOrHasUnknownReg
 {
 ra
 =
-findSpecificRegFor
+findSpecificRegForUnallocated
 (
 lhs
 rr
@@ -9842,7 +9842,7 @@ isUnusedOrHasUnknownReg
 (
 )
 )
-findSpecificRegFor
+findSpecificRegForUnallocated
 (
 lhs
 rr
@@ -11465,7 +11465,7 @@ isUnusedOrHasUnknownReg
 (
 )
 ;
-findSpecificRegFor
+findSpecificRegForUnallocated
 (
 lhs
 FST0
@@ -11517,7 +11517,7 @@ isUnusedOrHasUnknownReg
 (
 )
 ;
-findSpecificRegFor
+findSpecificRegForUnallocated
 (
 lhs
 FST0
