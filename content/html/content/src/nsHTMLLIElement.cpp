@@ -856,10 +856,9 @@ value
 return
 aResult
 .
-ParseIntWithBounds
+ParseIntValue
 (
 aValue
-0
 )
 ;
 }
