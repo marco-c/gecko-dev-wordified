@@ -58360,7 +58360,7 @@ l10n
 lookup
 (
 '
-helpSearchManual
+helpSearchManual2
 '
 )
 defaultValue
