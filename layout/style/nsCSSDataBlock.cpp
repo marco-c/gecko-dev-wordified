@@ -1556,10 +1556,6 @@ mPresContext
 Document
 (
 )
-iProp
-=
-=
-eCSSProperty_background_image
 )
 ;
 }
