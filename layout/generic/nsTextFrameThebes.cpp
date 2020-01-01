@@ -37839,6 +37839,9 @@ getter_AddRefs
 (
 fm
 )
+GetFontSizeInflation
+(
+)
 )
 ;
 gfxFontGroup
