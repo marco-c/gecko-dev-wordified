@@ -60544,6 +60544,13 @@ protoObject
 )
 break
 ;
+rhs
+-
+>
+setFoldedUnchecked
+(
+)
+;
 MInstanceOf
 *
 ins
