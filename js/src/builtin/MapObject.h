@@ -229,7 +229,7 @@ is
 class
 HashableValue
 {
-RelocatableValue
+EncapsulatedValue
 value
 ;
 public
