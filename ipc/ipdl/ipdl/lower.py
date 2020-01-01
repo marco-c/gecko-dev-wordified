@@ -27221,7 +27221,8 @@ shmem
             
 #
 return
-false
+null
+;
             
 #
 Shmem
@@ -27456,8 +27457,11 @@ failif
 addifstmt
 (
 StmtReturn
+(
+ExprLiteral
 .
-FALSE
+NULL
+)
 )
             
 createshmem
