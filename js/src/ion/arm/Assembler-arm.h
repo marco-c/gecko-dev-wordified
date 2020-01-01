@@ -6713,6 +6713,10 @@ enoughMemory_
 (
 true
 )
+lastWasUBranch
+(
+true
+)
 dtmActive
 (
 false
@@ -6720,10 +6724,6 @@ false
 dtmCond
 (
 Always
-)
-lastWasUBranch
-(
-true
 )
 {
 }
