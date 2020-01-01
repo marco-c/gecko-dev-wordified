@@ -1755,15 +1755,12 @@ aEventStatus
 )
 ;
 virtual
-nsresult
+nsIEventListenerManager
+*
 GetListenerManager
 (
 PRBool
 aCreateIfNotFound
-nsIEventListenerManager
-*
-*
-aResult
 )
 ;
 virtual
