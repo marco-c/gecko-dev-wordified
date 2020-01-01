@@ -4867,8 +4867,16 @@ mStartupMode
 ;
 }
 }
+public
 void
 addTab
+(
+)
+{
+}
+public
+void
+addPrivateTab
 (
 )
 {
