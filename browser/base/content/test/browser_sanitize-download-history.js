@@ -976,7 +976,7 @@ ww
 getWindowByName
 (
 "
-Sanatize
+Sanitize
 "
 null
 )
