@@ -2250,6 +2250,11 @@ m_size
 ;
 }
 void
+nukeScriptDependentICs
+(
+)
+;
+void
 sweepCallICs
 (
 )
