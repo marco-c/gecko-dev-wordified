@@ -1537,7 +1537,6 @@ while
 (
 0
 )
-;
 static
 PRUint32
 CountRowsInRowGroup
@@ -1764,6 +1763,8 @@ aResult
 {
 nsresult
 rv
+=
+NS_OK
 ;
 DO_FOR_EACH_ROWGROUP
 (
