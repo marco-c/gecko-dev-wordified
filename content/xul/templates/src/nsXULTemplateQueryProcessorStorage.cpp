@@ -2653,10 +2653,10 @@ vtypeL
 nsIDataType
 :
 :
-VTYPE_INT32
+VTYPE_INT64
 )
 {
-PRInt32
+PRInt64
 leftValue
 rightValue
 ;
@@ -2665,7 +2665,7 @@ rv1
 vLeftValue
 -
 >
-GetAsInt32
+GetAsInt64
 (
 &
 leftValue
@@ -2676,7 +2676,7 @@ rv2
 vRightValue
 -
 >
-GetAsInt32
+GetAsInt64
 (
 &
 rightValue
