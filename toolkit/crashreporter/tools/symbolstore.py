@@ -1647,20 +1647,6 @@ functions
 A
 cache
 of
-repo
-info
-for
-each
-srcdir
-.
-srcdirRepoInfo
-=
-{
-}
-#
-A
-cache
-of
 files
 for
 which
@@ -1766,6 +1752,8 @@ if
 srcdir
 not
 in
+Dumper
+.
 srcdirRepoInfo
 :
         
@@ -1802,6 +1790,8 @@ hg
 )
 :
             
+Dumper
+.
 srcdirRepoInfo
 [
 srcdir
@@ -1831,6 +1821,8 @@ return
 None
     
 return
+Dumper
+.
 srcdirRepoInfo
 [
 srcdir
@@ -2635,6 +2627,7 @@ WorkerInitializer
 (
 cls
 lock
+srcdirRepoInfo
 )
 :
     
@@ -2671,14 +2664,12 @@ from
 the
 parent
 .
-The
+They
 only
-one
-they
 need
-is
-the
-lock
+a
+few
+variables
     
 so
 we
@@ -2687,7 +2678,7 @@ an
 initializer
 to
 set
-it
+them
 .
 Redundant
 but
@@ -2705,6 +2696,12 @@ cls
 lock
 =
 lock
+    
+cls
+.
+srcdirRepoInfo
+=
+srcdirRepoInfo
 def
 StartProcessFilesWork
 (
@@ -3351,6 +3348,18 @@ RLock
         
 cls
 .
+srcdirRepoInfo
+=
+Dumper
+.
+manager
+.
+dict
+(
+)
+        
+cls
+.
 pool
 =
 module
@@ -3359,11 +3368,15 @@ Pool
 (
 num_cpus
 WorkerInitializer
+                               
 (
 cls
 cls
 .
 lock
+cls
+.
+srcdirRepoInfo
 )
 )
     
@@ -3716,6 +3729,35 @@ get
 remotes
 .
         
+def
+ensure_slash
+(
+u
+)
+:
+            
+if
+not
+u
+.
+endswith
+(
+"
+/
+"
+)
+:
+                
+return
+u
++
+"
+/
+"
+            
+return
+u
+        
 remotes
 =
 dict
@@ -3730,6 +3772,8 @@ getAttribute
 name
 "
 )
+ensure_slash
+(
 r
 .
 getAttribute
@@ -3737,6 +3781,7 @@ getAttribute
 "
 fetch
 "
+)
 )
 )
 for
@@ -4103,6 +4148,8 @@ remote
 name
 )
             
+Dumper
+.
 srcdirRepoInfo
 [
 srcdir
