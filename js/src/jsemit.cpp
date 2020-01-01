@@ -37496,7 +37496,7 @@ pn_kid
 pn_type
 =
 =
-TOK_COMMA
+TOK_VAR
 )
 ;
 if
