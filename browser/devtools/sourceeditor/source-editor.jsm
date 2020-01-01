@@ -743,10 +743,10 @@ SourceEditor
 THEMES
 =
 {
-TEXTMATE
+MOZILLA
 :
 "
-textmate
+mozilla
 "
 }
 ;
@@ -779,7 +779,7 @@ SourceEditor
 .
 THEMES
 .
-TEXTMATE
+MOZILLA
 UNDO_LIMIT
 :
 200
