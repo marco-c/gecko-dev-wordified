@@ -857,12 +857,12 @@ nsSVGPathGeometryFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -1413,7 +1413,7 @@ GetMarkPoints
 marks
 )
 ;
-PRUint32
+uint32_t
 num
 =
 marks
@@ -1471,7 +1471,7 @@ frame
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 1
@@ -1575,7 +1575,7 @@ return
 nullptr
 ;
 }
-PRUint16
+uint16_t
 fillRule
 hitTestFlags
 ;
@@ -1942,7 +1942,7 @@ this
 return
 ;
 }
-PRUint32
+uint32_t
 flags
 =
 nsSVGUtils
@@ -2053,7 +2053,7 @@ pointer
 events
 '
 .
-PRUint16
+uint16_t
 hitTestFlags
 =
 GetHitTestFlags
@@ -2353,7 +2353,7 @@ nsSVGPathGeometryFrame
 :
 NotifySVGChanged
 (
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -2458,7 +2458,7 @@ const
 gfxMatrix
 &
 aToBBoxUserspace
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -3047,7 +3047,7 @@ GetMarkPoints
 marks
 )
 ;
-PRUint32
+uint32_t
 num
 =
 marks
@@ -3118,7 +3118,7 @@ frame
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 1
@@ -3294,7 +3294,7 @@ nsSVGPathGeometryFrame
 :
 GetCanvasTM
 (
-PRUint32
+uint32_t
 aFor
 )
 {
@@ -3739,7 +3739,7 @@ ThebesContext
 (
 )
 ;
-PRUint16
+uint16_t
 renderMode
 =
 SVGAutoRenderState

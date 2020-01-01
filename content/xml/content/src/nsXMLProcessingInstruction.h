@@ -182,7 +182,7 @@ virtual
 bool
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -210,7 +210,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -222,7 +222,7 @@ DumpContent
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 bool
 aDumpAll

@@ -348,10 +348,10 @@ index
 *
 /
 virtual
-PRInt32
+int32_t
 UpdateRecentIndex
 (
-PRInt32
+int32_t
 aIndex
 )
 =
@@ -570,7 +570,7 @@ alone
 *
 /
 virtual
-PRInt32
+int32_t
 GetIndexOfDisplayArea
 (
 )

@@ -272,7 +272,7 @@ NesteggPacketHolder
 nestegg_packet
 *
 aPacket
-PRInt64
+int64_t
 aOffset
 )
 :
@@ -334,7 +334,7 @@ contains
 the
 packet
 .
-PRInt64
+int64_t
 mOffset
 ;
 private
@@ -481,7 +481,7 @@ Reset
 ;
 }
 inline
-PRInt32
+int32_t
 GetSize
 (
 )
@@ -685,7 +685,7 @@ DecodeVideoFrame
 bool
 &
 aKeyframeSkip
-PRInt64
+int64_t
 aTimeThreshold
 )
 ;
@@ -788,13 +788,13 @@ virtual
 nsresult
 Seek
 (
-PRInt64
+int64_t
 aTime
-PRInt64
+int64_t
 aStartTime
-PRInt64
+int64_t
 aEndTime
-PRInt64
+int64_t
 aCurrentTime
 )
 ;
@@ -805,7 +805,7 @@ GetBuffered
 nsTimeRanges
 *
 aBuffered
-PRInt64
+int64_t
 aStartTime
 )
 ;
@@ -817,9 +817,9 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
-PRInt64
+int64_t
 aOffset
 )
 ;
@@ -938,7 +938,7 @@ bool
 aBOS
 bool
 aEOS
-PRInt64
+int64_t
 aGranulepos
 )
 ;
@@ -1038,7 +1038,7 @@ DecodeAudioPacket
 nestegg_packet
 *
 aPacket
-PRInt64
+int64_t
 aOffset
 )
 ;
@@ -1124,10 +1124,10 @@ mVorbisDsp
 vorbis_block
 mVorbisBlock
 ;
-PRUint32
+uint32_t
 mPacketCount
 ;
-PRUint32
+uint32_t
 mChannels
 ;
 /
@@ -1175,10 +1175,10 @@ audio
 track
 to
 play
-PRUint32
+uint32_t
 mVideoTrack
 ;
-PRUint32
+uint32_t
 mAudioTrack
 ;
 /
@@ -1199,7 +1199,7 @@ we
 ve
 decoded
 .
-PRInt64
+int64_t
 mAudioStartUsec
 ;
 /
@@ -1218,7 +1218,7 @@ began
 at
 mAudioStartMs
 .
-PRUint64
+uint64_t
 mAudioFrames
 ;
 /

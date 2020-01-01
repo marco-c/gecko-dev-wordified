@@ -545,15 +545,15 @@ OuterDocAccessible
 :
 ChildAtPoint
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 EWhichChildAtPoint
 aWhichChild
 )
 {
-PRInt32
+int32_t
 docX
 =
 0
@@ -835,7 +835,7 @@ aAttributes
 /
 /
 nsIAccessible
-PRUint8
+uint8_t
 OuterDocAccessible
 :
 :
@@ -871,7 +871,7 @@ OuterDocAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -894,7 +894,7 @@ OuterDocAccessible
 :
 GetActionDescription
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -917,7 +917,7 @@ OuterDocAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {

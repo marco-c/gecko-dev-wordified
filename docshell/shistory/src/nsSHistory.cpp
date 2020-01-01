@@ -333,7 +333,7 @@ nullptr
 }
 ;
 static
-PRInt32
+int32_t
 gHistoryMaxSize
 =
 50
@@ -348,7 +348,7 @@ SHistory
 objects
 static
 const
-PRInt32
+int32_t
 gHistoryMaxViewers
 =
 3
@@ -398,7 +398,7 @@ based
 on
 total
 memory
-PRInt32
+int32_t
 nsSHistory
 :
 :
@@ -438,7 +438,7 @@ entries
 first
 .
 static
-PRUint32
+uint32_t
 gTouchCounter
 =
 0
@@ -1834,7 +1834,7 @@ nsISHistory
 /
 /
 static
-PRUint32
+uint32_t
 nsSHistory
 :
 :
@@ -1972,7 +1972,7 @@ Mb
 4096
 Mb
 8
-PRUint64
+uint64_t
 bytes
 =
 PR_GetPhysicalMemorySize
@@ -2039,7 +2039,7 @@ bytes
 =
 LL_MAXINT
 ;
-PRUint64
+uint64_t
 kbytes
 ;
 LL_SHR
@@ -2056,7 +2056,7 @@ LL_L2D
 (
 kBytesD
 (
-PRInt64
+int64_t
 )
 kbytes
 )
@@ -2095,7 +2095,7 @@ takes
 on
 average
 4MB
-PRUint32
+uint32_t
 viewers
 =
 0
@@ -2127,7 +2127,7 @@ x
 viewers
 =
 (
-PRUint32
+uint32_t
 )
 (
 x
@@ -2291,7 +2291,7 @@ the
 default
 value
 .
-PRInt32
+int32_t
 defaultHistoryMaxSize
 =
 Preferences
@@ -2723,7 +2723,7 @@ if
 hEntry
 )
 {
-PRInt32
+int32_t
 currentIndex
 =
 mIndex
@@ -2974,7 +2974,7 @@ nsSHistory
 :
 GetCount
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -3009,7 +3009,7 @@ nsSHistory
 :
 GetIndex
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -3047,7 +3047,7 @@ nsSHistory
 :
 GetRequestedIndex
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -3078,7 +3078,7 @@ nsSHistory
 :
 GetEntryAtIndex
 (
-PRInt32
+int32_t
 aIndex
 bool
 aModifyIndex
@@ -3217,7 +3217,7 @@ nsSHistory
 :
 GetEntryAtIndex
 (
-PRInt32
+int32_t
 aIndex
 bool
 aModifyIndex
@@ -3287,7 +3287,7 @@ nsSHistory
 :
 GetTransactionAtIndex
 (
-PRInt32
+int32_t
 aIndex
 nsISHTransaction
 *
@@ -3361,7 +3361,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 cnt
 =
 0
@@ -3499,7 +3499,7 @@ nsISHTransaction
 >
 txn
 ;
-PRInt32
+int32_t
 index
 =
 0
@@ -3846,7 +3846,7 @@ nsSHistory
 :
 GetMaxLength
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -3883,7 +3883,7 @@ nsSHistory
 :
 SetMaxLength
 (
-PRInt32
+int32_t
 aMaxSize
 )
 {
@@ -3923,7 +3923,7 @@ nsSHistory
 :
 PurgeHistory
 (
-PRInt32
+int32_t
 aEntries
 )
 {
@@ -4017,7 +4017,7 @@ return
 NS_SUCCESS_LOSS_OF_INSIGNIFICANT_DATA
 ;
 }
-PRInt32
+int32_t
 cnt
 =
 0
@@ -4325,7 +4325,7 @@ nsSHistory
 :
 ReplaceEntry
 (
-PRInt32
+int32_t
 aIndex
 nsISHEntry
 *
@@ -4479,7 +4479,7 @@ nsSHistory
 :
 EvictOutOfRangeContentViewers
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -4786,7 +4786,7 @@ aCanGoBack
 =
 false
 ;
-PRInt32
+int32_t
 index
 =
 -
@@ -4838,13 +4838,13 @@ aCanGoForward
 =
 false
 ;
-PRInt32
+int32_t
 index
 =
 -
 1
 ;
-PRInt32
+int32_t
 count
 =
 -
@@ -5001,7 +5001,7 @@ nsSHistory
 :
 Reload
 (
-PRUint32
+uint32_t
 aReloadFlags
 )
 {
@@ -5309,7 +5309,7 @@ nsSHistory
 :
 EvictOutOfRangeWindowContentViewers
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -5680,7 +5680,7 @@ safe
 from
 eviction
 .
-PRInt32
+int32_t
 startSafeIndex
 =
 NS_MAX
@@ -5691,7 +5691,7 @@ aIndex
 gHistoryMaxViewers
 )
 ;
-PRInt32
+int32_t
 endSafeIndex
 =
 NS_MIN
@@ -5802,7 +5802,7 @@ trans
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 startSafeIndex
@@ -5949,7 +5949,7 @@ TransactionAndDistance
 nsISHTransaction
 *
 aTrans
-PRUint32
+uint32_t
 aDist
 )
 :
@@ -6192,10 +6192,10 @@ nsIContentViewer
 >
 mViewer
 ;
-PRUint32
+uint32_t
 mLastTouched
 ;
-PRInt32
+int32_t
 mDistance
 ;
 }
@@ -6468,7 +6468,7 @@ here
 .
 /
 /
-PRInt32
+int32_t
 startIndex
 =
 NS_MAX
@@ -6482,7 +6482,7 @@ mIndex
 gHistoryMaxViewers
 )
 ;
-PRInt32
+int32_t
 endIndex
 =
 NS_MIN
@@ -6521,7 +6521,7 @@ trans
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 startIndex
@@ -6613,7 +6613,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -6828,7 +6828,7 @@ some
 if
 (
 (
-PRInt32
+int32_t
 )
 transactions
 .
@@ -6910,7 +6910,7 @@ Sort
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 transactions
@@ -6954,7 +6954,7 @@ nsIBFCacheEntry
 aEntry
 )
 {
-PRInt32
+int32_t
 startIndex
 =
 NS_MAX
@@ -6965,7 +6965,7 @@ mIndex
 gHistoryMaxViewers
 )
 ;
-PRInt32
+int32_t
 endIndex
 =
 NS_MIN
@@ -6993,7 +6993,7 @@ trans
 )
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -7189,7 +7189,7 @@ GloballyEvictAllContentViewers
 (
 )
 {
-PRInt32
+int32_t
 maxViewers
 =
 sHistoryMaxTotalViewers
@@ -7215,7 +7215,7 @@ nsISHContainer
 aContainer
 nsTArray
 <
-PRUint64
+uint64_t
 >
 &
 aDocshellIDs
@@ -7223,7 +7223,7 @@ bool
 aOnlyTopLevelDynamic
 )
 {
-PRInt32
+int32_t
 count
 =
 0
@@ -7239,7 +7239,7 @@ count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -7295,7 +7295,7 @@ if
 dynAdded
 )
 {
-PRUint64
+uint64_t
 docshellID
 =
 0
@@ -7363,7 +7363,7 @@ nsISHContainer
 aContainer
 nsTArray
 <
-PRUint64
+uint64_t
 >
 &
 aDocshellIDs
@@ -7391,7 +7391,7 @@ didRemove
 =
 false
 ;
-PRInt32
+int32_t
 childCount
 =
 0
@@ -7407,7 +7407,7 @@ childCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 childCount
@@ -7447,7 +7447,7 @@ if
 child
 )
 {
-PRUint64
+uint64_t
 docshelldID
 =
 0
@@ -7535,11 +7535,11 @@ RemoveChildEntries
 nsISHistory
 *
 aHistory
-PRInt32
+int32_t
 aIndex
 nsTArray
 <
-PRUint64
+uint64_t
 >
 &
 aEntryIDs
@@ -7636,7 +7636,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 id1
 id2
 ;
@@ -7692,7 +7692,7 @@ do_QueryInterface
 aEntry2
 )
 ;
-PRInt32
+int32_t
 count1
 count2
 ;
@@ -7728,7 +7728,7 @@ the
 child
 list
 .
-PRInt32
+int32_t
 count
 =
 NS_MAX
@@ -7739,7 +7739,7 @@ count2
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -7809,7 +7809,7 @@ nsSHistory
 :
 RemoveDuplicate
 (
-PRInt32
+int32_t
 aIndex
 bool
 aKeepNext
@@ -7874,7 +7874,7 @@ mIndex
 "
 )
 ;
-PRInt32
+int32_t
 compareIndex
 =
 aKeepNext
@@ -8356,15 +8356,15 @@ RemoveEntries
 (
 nsTArray
 <
-PRUint64
+uint64_t
 >
 &
 aIDs
-PRInt32
+int32_t
 aStartIndex
 )
 {
-PRInt32
+int32_t
 index
 =
 aStartIndex
@@ -8387,7 +8387,7 @@ aIDs
 )
 )
 ;
-PRInt32
+int32_t
 minIndex
 =
 index
@@ -8507,9 +8507,9 @@ nsSHistory
 :
 RemoveDynEntries
 (
-PRInt32
+int32_t
 aOldIndex
-PRInt32
+int32_t
 aNewIndex
 )
 {
@@ -8563,7 +8563,7 @@ originalSH
 ;
 nsAutoTArray
 <
-PRUint64
+uint64_t
 16
 >
 toBeRemovedEntries
@@ -8575,7 +8575,7 @@ originalContainer
 {
 nsTArray
 <
-PRUint64
+uint64_t
 >
 originalDynDocShellIDs
 ;
@@ -8629,7 +8629,7 @@ newContainer
 {
 nsTArray
 <
-PRUint64
+uint64_t
 >
 newDynDocShellIDs
 ;
@@ -8642,7 +8642,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8766,7 +8766,7 @@ nsSHistory
 :
 Stop
 (
-PRUint32
+uint32_t
 aStopFlags
 )
 {
@@ -8938,7 +8938,7 @@ const
 PRUnichar
 *
 aURI
-PRUint32
+uint32_t
 aLoadFlags
 nsIURI
 *
@@ -8961,7 +8961,7 @@ nsSHistory
 :
 GotoIndex
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -8983,11 +8983,11 @@ nsSHistory
 :
 LoadNextPossibleEntry
 (
-PRInt32
+int32_t
 aNewIndex
 long
 aLoadType
-PRUint32
+uint32_t
 aHistCmd
 )
 {
@@ -9042,11 +9042,11 @@ nsSHistory
 :
 LoadEntry
 (
-PRInt32
+int32_t
 aIndex
 long
 aLoadType
-PRUint32
+uint32_t
 aHistCmd
 )
 {
@@ -9391,7 +9391,7 @@ nsIURI
 >
 nexturi
 ;
-PRInt32
+int32_t
 pCount
 =
 0
@@ -9600,12 +9600,12 @@ top
 level
 page
 .
-PRUint32
+uint32_t
 prevID
 =
 0
 ;
-PRUint32
+uint32_t
 nextID
 =
 0
@@ -9802,7 +9802,7 @@ possibly
 an
 assertion
 .
-PRUint64
+uint64_t
 prevdID
 nextdID
 ;
@@ -9837,7 +9837,7 @@ result
 =
 NS_OK
 ;
-PRUint32
+uint32_t
 prevID
 nextID
 ;
@@ -9941,7 +9941,7 @@ child
 frames
 *
 /
-PRInt32
+int32_t
 pcnt
 =
 0
@@ -10052,7 +10052,7 @@ docshells
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -10120,7 +10120,7 @@ next
 .
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -10177,7 +10177,7 @@ nChild
 continue
 ;
 }
-PRUint64
+uint64_t
 docshellID
 =
 0
@@ -10205,7 +10205,7 @@ dsChild
 =
 nullptr
 ;
-PRInt32
+int32_t
 count
 =
 docshells
@@ -10216,7 +10216,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -10230,7 +10230,7 @@ count
 j
 )
 {
-PRUint64
+uint64_t
 shellID
 =
 0
@@ -10307,7 +10307,7 @@ pChild
 ;
 for
 (
-PRInt32
+int32_t
 k
 =
 0
@@ -10344,7 +10344,7 @@ if
 child
 )
 {
-PRUint64
+uint64_t
 dID
 =
 0
@@ -10914,7 +10914,7 @@ bool
 aReturn
 )
 {
-PRInt32
+int32_t
 cnt
 ;
 *
@@ -10976,7 +10976,7 @@ NS_ENSURE_ARG_POINTER
 aItem
 )
 ;
-PRInt32
+int32_t
 cnt
 =
 0

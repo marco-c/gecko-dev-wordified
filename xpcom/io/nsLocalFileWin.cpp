@@ -841,7 +841,7 @@ dir
 }
 else
 {
-PRInt32
+int32_t
 len
 =
 mResolvedPath
@@ -1792,7 +1792,7 @@ const
 WCHAR
 *
 iconFile
-PRInt32
+int32_t
 iconIndex
 )
 ;
@@ -2037,7 +2037,7 @@ const
 WCHAR
 *
 iconPath
-PRInt32
+int32_t
 iconIndex
 )
 {
@@ -2915,7 +2915,7 @@ string
 "
 )
 ;
-PRInt32
+int32_t
 len
 =
 path
@@ -3318,7 +3318,7 @@ osfd
 struct
 PRFilePrivate
 {
-PRInt32
+int32_t
 state
 ;
 bool
@@ -3659,17 +3659,17 @@ translated
 !
 !
 !
-PRInt32
+int32_t
 access
 =
 0
 ;
-PRInt32
+int32_t
 flags
 =
 0
 ;
-PRInt32
+int32_t
 flag6
 =
 0
@@ -7464,9 +7464,9 @@ nsLocalFile
 :
 OpenNSPRFileDesc
 (
-PRInt32
+int32_t
 flags
-PRInt32
+int32_t
 mode
 PRFileDesc
 *
@@ -7578,9 +7578,9 @@ nsLocalFile
 :
 Create
 (
-PRUint32
+uint32_t
 type
-PRUint32
+uint32_t
 attributes
 )
 {
@@ -8829,7 +8829,7 @@ share
 "
 )
 .
-PRInt32
+int32_t
 rootIdx
 =
 2
@@ -9361,7 +9361,7 @@ rootIdx
 rootIdx
 <
 (
-PRInt32
+int32_t
 )
 path
 .
@@ -9419,7 +9419,7 @@ rootIdx
 =
 =
 (
-PRInt32
+int32_t
 )
 path
 .
@@ -9583,7 +9583,7 @@ is
 done
 here
 .
-PRInt32
+int32_t
 len
 begin
 end
@@ -9595,7 +9595,7 @@ while
 end
 <
 (
-PRInt32
+int32_t
 )
 path
 .
@@ -9800,7 +9800,7 @@ len
 2
 )
 {
-PRInt32
+int32_t
 prev
 =
 mWorkingPath
@@ -9966,7 +9966,7 @@ dots
 and
 spaces
 .
-PRInt32
+int32_t
 filePathLen
 =
 mWorkingPath
@@ -10055,7 +10055,7 @@ IsEmpty
 return
 NS_ERROR_FILE_UNRECOGNIZED_PATH
 ;
-PRInt32
+int32_t
 offset
 =
 mWorkingPath
@@ -10150,7 +10150,7 @@ due
 to
 0x5c
 problem
-PRInt32
+int32_t
 offset
 =
 mWorkingPath
@@ -10444,7 +10444,7 @@ translate
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -10628,7 +10628,7 @@ description
 nsIFile
 *
 iconFile
-PRInt32
+int32_t
 iconIndex
 )
 {
@@ -12348,7 +12348,7 @@ GetTarget
 temp
 )
 ;
-PRInt32
+int32_t
 offset
 =
 temp
@@ -13630,7 +13630,7 @@ nsLocalFile
 :
 GetLastModifiedTime
 (
-PRInt64
+int64_t
 *
 aLastModifiedTime
 )
@@ -13727,7 +13727,7 @@ microseconds
 -
 >
 milliseconds
-PRInt64
+int64_t
 usecPerMsec
 ;
 LL_I2L
@@ -13756,7 +13756,7 @@ nsLocalFile
 :
 GetLastModifiedTimeOfLink
 (
-PRInt64
+int64_t
 *
 aLastModifiedTime
 )
@@ -13831,7 +13831,7 @@ microseconds
 -
 >
 milliseconds
-PRInt64
+int64_t
 usecPerMsec
 ;
 LL_I2L
@@ -13860,7 +13860,7 @@ nsLocalFile
 :
 SetLastModifiedTime
 (
-PRInt64
+int64_t
 aLastModifiedTime
 )
 {
@@ -13978,7 +13978,7 @@ nsLocalFile
 :
 SetLastModifiedTimeOfLink
 (
-PRInt64
+int64_t
 aLastModifiedTime
 )
 {
@@ -14040,7 +14040,7 @@ nsLocalFile
 :
 SetModDate
 (
-PRInt64
+int64_t
 aLastModifiedTime
 const
 PRUnichar
@@ -14319,7 +14319,7 @@ nsLocalFile
 :
 GetPermissions
 (
-PRUint32
+uint32_t
 *
 aPermissions
 )
@@ -14472,7 +14472,7 @@ nsLocalFile
 :
 GetPermissionsOfLink
 (
-PRUint32
+uint32_t
 *
 aPermissions
 )
@@ -14607,7 +14607,7 @@ nsLocalFile
 :
 SetPermissions
 (
-PRUint32
+uint32_t
 aPermissions
 )
 {
@@ -14776,7 +14776,7 @@ nsLocalFile
 :
 SetPermissionsOfLink
 (
-PRUint32
+uint32_t
 aPermissions
 )
 {
@@ -14889,7 +14889,7 @@ nsLocalFile
 :
 GetFileSize
 (
-PRInt64
+int64_t
 *
 aFileSize
 )
@@ -14933,7 +14933,7 @@ nsLocalFile
 :
 GetFileSizeOfLink
 (
-PRInt64
+int64_t
 *
 aFileSize
 )
@@ -15014,7 +15014,7 @@ nsLocalFile
 :
 SetFileSize
 (
-PRInt64
+int64_t
 aFileSize
 )
 {
@@ -15193,7 +15193,7 @@ nsLocalFile
 :
 GetDiskSpaceAvailable
 (
-PRInt64
+int64_t
 *
 aDiskSpaceAvailable
 )
@@ -15388,7 +15388,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 offset
 =
 mWorkingPath
@@ -16198,7 +16198,7 @@ dots
 and
 spaces
 .
-PRInt32
+int32_t
 filePathLen
 =
 path
@@ -16256,7 +16256,7 @@ filePathLen
 Get
 extension
 .
-PRInt32
+int32_t
 dotIdx
 =
 path
@@ -17296,7 +17296,7 @@ GetPath
 myFilePath
 )
 ;
-PRUint32
+uint32_t
 myFilePathLen
 =
 myFilePath
@@ -17742,7 +17742,7 @@ nsLocalFile
 :
 GetFileAttributesWin
 (
-PRUint32
+uint32_t
 *
 aAttribs
 )
@@ -17799,7 +17799,7 @@ nsLocalFile
 :
 SetFileAttributesWin
 (
-PRUint32
+uint32_t
 aAttribs
 )
 {
@@ -19308,7 +19308,7 @@ nsLocalFile
 :
 GetHashCode
 (
-PRUint32
+uint32_t
 *
 aResult
 )

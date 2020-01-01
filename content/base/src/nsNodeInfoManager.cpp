@@ -1122,9 +1122,9 @@ aName
 nsIAtom
 *
 aPrefix
-PRInt32
+int32_t
 aNamespaceID
-PRUint16
+uint16_t
 aNodeType
 nsIAtom
 *
@@ -1316,9 +1316,9 @@ aName
 nsIAtom
 *
 aPrefix
-PRInt32
+int32_t
 aNamespaceID
-PRUint16
+uint16_t
 aNodeType
 nsINodeInfo
 *
@@ -1516,7 +1516,7 @@ const
 nsAString
 &
 aNamespaceURI
-PRUint16
+uint16_t
 aNodeType
 nsINodeInfo
 *
@@ -1524,7 +1524,7 @@ nsINodeInfo
 aNodeInfo
 )
 {
-PRInt32
+int32_t
 nsid
 =
 kNameSpaceID_None

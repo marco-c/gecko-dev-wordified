@@ -639,7 +639,7 @@ nsSMILAnimationController
 :
 Pause
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -675,7 +675,7 @@ nsSMILAnimationController
 :
 Resume
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -3890,7 +3890,7 @@ GetMilestoneElements
 params
 )
 ;
-PRUint32
+uint32_t
 length
 =
 params
@@ -4028,7 +4028,7 @@ sampleTime
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5384,7 +5384,7 @@ nsIAtom
 >
 attributeName
 ;
-PRInt32
+int32_t
 attributeNamespaceID
 ;
 if

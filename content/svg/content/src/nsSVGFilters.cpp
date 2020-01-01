@@ -348,14 +348,14 @@ static
 void
 CopyDataRect
 (
-PRUint8
+uint8_t
 *
 aDest
 const
-PRUint8
+uint8_t
 *
 aSrc
-PRUint32
+uint32_t
 aStride
 const
 nsIntRect
@@ -365,7 +365,7 @@ aDataRect
 {
 for
 (
-PRInt32
+int32_t
 y
 =
 aDataRect
@@ -1608,7 +1608,7 @@ r
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1666,7 +1666,7 @@ aInstance
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1717,7 +1717,7 @@ r
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1772,7 +1772,7 @@ nsSVGFE
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -2505,7 +2505,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -2703,10 +2703,10 @@ private
 nsresult
 GetDXY
 (
-PRUint32
+uint32_t
 *
 aDX
-PRUint32
+uint32_t
 *
 aDY
 const
@@ -2743,9 +2743,9 @@ const
 nsIntRect
 &
 aDataRect
-PRUint32
+uint32_t
 aDX
-PRUint32
+uint32_t
 aDY
 )
 ;
@@ -3705,10 +3705,10 @@ low
 *
 /
 static
-PRUint32
+uint32_t
 ComputeScaledDivisor
 (
-PRUint32
+uint32_t
 aDivisor
 )
 {
@@ -3727,27 +3727,27 @@ void
 BoxBlur
 (
 const
-PRUint8
+uint8_t
 *
 aInput
-PRUint8
+uint8_t
 *
 aOutput
-PRInt32
+int32_t
 aStrideMinor
-PRInt32
+int32_t
 aStartMinor
-PRInt32
+int32_t
 aEndMinor
-PRInt32
+int32_t
 aLeftLobe
-PRInt32
+int32_t
 aRightLobe
 bool
 aAlphaOnly
 )
 {
-PRInt32
+int32_t
 boxSize
 =
 aLeftLobe
@@ -3756,7 +3756,7 @@ aRightLobe
 +
 1
 ;
-PRInt32
+int32_t
 scaledDivisor
 =
 ComputeScaledDivisor
@@ -3764,7 +3764,7 @@ ComputeScaledDivisor
 boxSize
 )
 ;
-PRInt32
+int32_t
 sums
 [
 4
@@ -3779,7 +3779,7 @@ sums
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3793,7 +3793,7 @@ i
 +
 )
 {
-PRInt32
+int32_t
 pos
 =
 aStartMinor
@@ -3876,7 +3876,7 @@ if
 (
 aStartMinor
 +
-PRInt32
+int32_t
 (
 boxSize
 )
@@ -3886,7 +3886,7 @@ aEndMinor
 )
 {
 const
-PRUint8
+uint8_t
 *
 lastInput
 =
@@ -3897,7 +3897,7 @@ aStartMinor
 aStrideMinor
 ;
 const
-PRUint8
+uint8_t
 *
 nextInput
 =
@@ -4052,7 +4052,7 @@ GFX_ARGB32_OFFSET_A
 ;
 for
 (
-PRInt32
+int32_t
 minor
 =
 aStartMinor
@@ -4089,7 +4089,7 @@ aStrideMinor
 }
 for
 (
-PRInt32
+int32_t
 minor
 =
 aStartMinor
@@ -4182,7 +4182,7 @@ aStrideMinor
 ;
 for
 (
-PRInt32
+int32_t
 minor
 =
 aEndMinor
@@ -4230,7 +4230,7 @@ else
 {
 for
 (
-PRInt32
+int32_t
 minor
 =
 aStartMinor
@@ -4244,14 +4244,14 @@ minor
 +
 )
 {
-PRInt32
+int32_t
 tmp
 =
 minor
 -
 aLeftLobe
 ;
-PRInt32
+int32_t
 last
 =
 NS_MAX
@@ -4260,14 +4260,14 @@ tmp
 aStartMinor
 )
 ;
-PRInt32
+int32_t
 next
 =
 NS_MIN
 (
 tmp
 +
-PRInt32
+int32_t
 (
 boxSize
 )
@@ -4356,7 +4356,7 @@ OUTPUT
 }
 }
 static
-PRUint32
+uint32_t
 GetBlurBoxSize
 (
 double
@@ -4408,7 +4408,7 @@ t
 very
 important
 .
-PRUint32
+uint32_t
 max
 =
 1024
@@ -4423,7 +4423,7 @@ return
 max
 ;
 return
-PRUint32
+uint32_t
 (
 floor
 (
@@ -4442,10 +4442,10 @@ nsSVGFEGaussianBlurElement
 :
 GetDXY
 (
-PRUint32
+uint32_t
 *
 aDX
-PRUint32
+uint32_t
 *
 aDY
 const
@@ -4607,7 +4607,7 @@ GetDataSize
 *
 reinterpret_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -4647,9 +4647,9 @@ const
 nsIntRect
 &
 aDataRect
-PRUint32
+uint32_t
 aDX
-PRUint32
+uint32_t
 aDY
 )
 {
@@ -4693,12 +4693,12 @@ bounds
 ;
 nsAutoArrayPtr
 <
-PRUint8
+uint8_t
 >
 tmp
 (
 new
-PRUint8
+uint8_t
 [
 aTarget
 -
@@ -4743,7 +4743,7 @@ aTarget
 )
 ;
 const
-PRUint8
+uint8_t
 *
 sourceData
 =
@@ -4757,7 +4757,7 @@ Data
 (
 )
 ;
-PRUint8
+uint8_t
 *
 targetData
 =
@@ -4771,7 +4771,7 @@ Data
 (
 )
 ;
-PRUint32
+uint32_t
 stride
 =
 aTarget
@@ -4803,14 +4803,14 @@ aDataRect
 }
 else
 {
-PRInt32
+int32_t
 longLobe
 =
 aDX
 /
 2
 ;
-PRInt32
+int32_t
 shortLobe
 =
 (
@@ -4827,7 +4827,7 @@ longLobe
 ;
 for
 (
-PRInt32
+int32_t
 major
 =
 aDataRect
@@ -4847,7 +4847,7 @@ YMost
 major
 )
 {
-PRInt32
+int32_t
 ms
 =
 major
@@ -4941,14 +4941,14 @@ aDataRect
 }
 else
 {
-PRInt32
+int32_t
 longLobe
 =
 aDY
 /
 2
 ;
-PRInt32
+int32_t
 shortLobe
 =
 (
@@ -4965,7 +4965,7 @@ longLobe
 ;
 for
 (
-PRInt32
+int32_t
 major
 =
 aDataRect
@@ -4985,7 +4985,7 @@ XMost
 major
 )
 {
-PRInt32
+int32_t
 ms
 =
 major
@@ -5068,9 +5068,9 @@ InflateRectForBlurDXY
 nsIntRect
 *
 aRect
-PRUint32
+uint32_t
 aDX
-PRUint32
+uint32_t
 aDY
 )
 {
@@ -5103,13 +5103,13 @@ ClearRect
 gfxImageSurface
 *
 aSurface
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
-PRInt32
+int32_t
 aXMost
-PRInt32
+int32_t
 aYMost
 )
 {
@@ -5190,7 +5190,7 @@ return
 ;
 for
 (
-PRInt32
+int32_t
 y
 =
 aY
@@ -5532,7 +5532,7 @@ nsIntRect
 rect
 )
 {
-PRUint32
+uint32_t
 dx
 dy
 ;
@@ -5608,7 +5608,7 @@ nsSVGFEGaussianBlurElement
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -5701,7 +5701,7 @@ nsSVGFilterInstance
 aInstance
 )
 {
-PRUint32
+uint32_t
 dX
 dY
 ;
@@ -6098,7 +6098,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -6797,7 +6797,7 @@ aSources
 rect
 )
 ;
-PRUint8
+uint8_t
 *
 sourceData
 =
@@ -6814,7 +6814,7 @@ Data
 (
 )
 ;
-PRUint8
+uint8_t
 *
 targetData
 =
@@ -6828,7 +6828,7 @@ Data
 (
 )
 ;
-PRUint32
+uint32_t
 stride
 =
 aTarget
@@ -6841,7 +6841,7 @@ Stride
 (
 )
 ;
-PRUint16
+uint16_t
 mode
 =
 mEnumAttributes
@@ -6855,7 +6855,7 @@ GetAnimValue
 ;
 for
 (
-PRInt32
+int32_t
 x
 =
 rect
@@ -6877,7 +6877,7 @@ x
 {
 for
 (
-PRInt32
+int32_t
 y
 =
 rect
@@ -6897,7 +6897,7 @@ y
 +
 )
 {
-PRUint32
+uint32_t
 targIndex
 =
 y
@@ -6908,7 +6908,7 @@ stride
 *
 x
 ;
-PRUint32
+uint32_t
 qa
 =
 targetData
@@ -6918,7 +6918,7 @@ targIndex
 GFX_ARGB32_OFFSET_A
 ]
 ;
-PRUint32
+uint32_t
 qb
 =
 sourceData
@@ -6930,7 +6930,7 @@ GFX_ARGB32_OFFSET_A
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 NS_MIN
@@ -6953,7 +6953,7 @@ i
 +
 )
 {
-PRUint32
+uint32_t
 ca
 =
 targetData
@@ -6963,7 +6963,7 @@ targIndex
 i
 ]
 ;
-PRUint32
+uint32_t
 cb
 =
 sourceData
@@ -6973,7 +6973,7 @@ targIndex
 i
 ]
 ;
-PRUint32
+uint32_t
 val
 ;
 switch
@@ -7154,14 +7154,14 @@ i
 =
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 val
 )
 ;
 }
-PRUint32
+uint32_t
 alpha
 =
 255
@@ -7203,7 +7203,7 @@ nsSVGFEBlendElement
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -7566,7 +7566,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -7661,7 +7661,7 @@ virtual
 bool
 OperatesOnPremultipledAlpha
 (
-PRInt32
+int32_t
 )
 {
 return
@@ -8334,7 +8334,7 @@ nsIntRect
 rect
 )
 {
-PRUint8
+uint8_t
 *
 sourceData
 =
@@ -8351,7 +8351,7 @@ Data
 (
 )
 ;
-PRUint8
+uint8_t
 *
 targetData
 =
@@ -8365,7 +8365,7 @@ Data
 (
 )
 ;
-PRUint32
+uint32_t
 stride
 =
 aTarget
@@ -8378,7 +8378,7 @@ Stride
 (
 )
 ;
-PRUint16
+uint16_t
 type
 =
 mEnumAttributes
@@ -8568,7 +8568,7 @@ NS_ERROR_FAILURE
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -9088,7 +9088,7 @@ NS_ERROR_FAILURE
 }
 for
 (
-PRInt32
+int32_t
 x
 =
 rect
@@ -9110,7 +9110,7 @@ x
 {
 for
 (
-PRInt32
+int32_t
 y
 =
 rect
@@ -9130,7 +9130,7 @@ y
 +
 )
 {
-PRUint32
+uint32_t
 targIndex
 =
 y
@@ -9269,7 +9269,7 @@ GFX_ARGB32_OFFSET_R
 =
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 col
@@ -9287,7 +9287,7 @@ GFX_ARGB32_OFFSET_G
 =
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 col
@@ -9305,7 +9305,7 @@ GFX_ARGB32_OFFSET_B
 =
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 col
@@ -9323,7 +9323,7 @@ GFX_ARGB32_OFFSET_A
 =
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 col
@@ -9344,7 +9344,7 @@ nsSVGFEColorMatrixElement
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -9684,7 +9684,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -10688,7 +10688,7 @@ nsIntRect
 rect
 )
 {
-PRUint16
+uint16_t
 op
 =
 mEnumAttributes
@@ -10755,7 +10755,7 @@ aSources
 rect
 )
 ;
-PRUint8
+uint8_t
 *
 sourceData
 =
@@ -10772,7 +10772,7 @@ Data
 (
 )
 ;
-PRUint8
+uint8_t
 *
 targetData
 =
@@ -10786,7 +10786,7 @@ Data
 (
 )
 ;
-PRUint32
+uint32_t
 stride
 =
 aTarget
@@ -10827,7 +10827,7 @@ k4
 ;
 for
 (
-PRInt32
+int32_t
 x
 =
 rect
@@ -10849,7 +10849,7 @@ x
 {
 for
 (
-PRInt32
+int32_t
 y
 =
 rect
@@ -10869,7 +10869,7 @@ y
 +
 )
 {
-PRUint32
+uint32_t
 targIndex
 =
 y
@@ -10882,7 +10882,7 @@ x
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -10896,7 +10896,7 @@ i
 +
 )
 {
-PRUint8
+uint8_t
 i1
 =
 targetData
@@ -10906,7 +10906,7 @@ targIndex
 i
 ]
 ;
-PRUint8
+uint8_t
 i2
 =
 sourceData
@@ -10944,7 +10944,7 @@ i
 =
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 clamped
@@ -11128,7 +11128,7 @@ nsSVGFECompositeElement
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -11284,7 +11284,7 @@ nsSVGFilterInstance
 aInstance
 )
 {
-PRUint16
+uint16_t
 op
 =
 mEnumAttributes
@@ -11762,7 +11762,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -11860,7 +11860,7 @@ virtual
 bool
 OperatesOnPremultipledAlpha
 (
-PRInt32
+int32_t
 )
 {
 return
@@ -12456,7 +12456,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -12465,7 +12465,7 @@ aAttribute
 const
 ;
 virtual
-PRInt32
+int32_t
 GetChannel
 (
 )
@@ -12475,7 +12475,7 @@ GetChannel
 void
 GenerateLookupTable
 (
-PRUint8
+uint8_t
 *
 aTable
 )
@@ -12599,7 +12599,7 @@ nsIntRect
 rect
 )
 {
-PRUint8
+uint8_t
 *
 sourceData
 =
@@ -12616,7 +12616,7 @@ Data
 (
 )
 ;
-PRUint8
+uint8_t
 *
 targetData
 =
@@ -12630,7 +12630,7 @@ Data
 (
 )
 ;
-PRUint32
+uint32_t
 stride
 =
 aTarget
@@ -12643,7 +12643,7 @@ Stride
 (
 )
 ;
-PRUint8
+uint8_t
 tableR
 [
 256
@@ -12698,7 +12698,7 @@ i
 =
 i
 ;
-PRUint8
+uint8_t
 *
 tables
 [
@@ -12781,7 +12781,7 @@ GetChannel
 }
 for
 (
-PRInt32
+int32_t
 y
 =
 rect
@@ -12803,7 +12803,7 @@ y
 {
 for
 (
-PRInt32
+int32_t
 x
 =
 rect
@@ -12823,7 +12823,7 @@ x
 +
 )
 {
-PRInt32
+int32_t
 targIndex
 =
 y
@@ -12914,7 +12914,7 @@ nsSVGFEComponentTransferElement
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -13389,7 +13389,7 @@ nsSVGComponentTransferFunctionElement
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -13801,12 +13801,12 @@ nsSVGComponentTransferFunctionElement
 :
 GenerateLookupTable
 (
-PRUint8
+uint8_t
 *
 aTable
 )
 {
-PRUint16
+uint16_t
 type
 =
 mEnumAttributes
@@ -13854,7 +13854,7 @@ GetAnimValue
 (
 )
 ;
-PRUint32
+uint32_t
 tvLength
 =
 tableValues
@@ -13863,7 +13863,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 switch
@@ -13906,7 +13906,7 @@ i
 +
 )
 {
-PRUint32
+uint32_t
 k
 =
 (
@@ -13945,10 +13945,10 @@ tvLength
 )
 ]
 ;
-PRInt32
+int32_t
 val
 =
-PRInt32
+int32_t
 (
 255
 *
@@ -14048,7 +14048,7 @@ i
 +
 )
 {
-PRUint32
+uint32_t
 k
 =
 (
@@ -14077,10 +14077,10 @@ tableValues
 k
 ]
 ;
-PRInt32
+int32_t
 val
 =
-PRInt32
+int32_t
 (
 255
 *
@@ -14136,10 +14136,10 @@ i
 +
 )
 {
-PRInt32
+int32_t
 val
 =
-PRInt32
+int32_t
 (
 slope
 *
@@ -14199,10 +14199,10 @@ i
 +
 )
 {
-PRInt32
+int32_t
 val
 =
-PRInt32
+int32_t
 (
 255
 *
@@ -14462,7 +14462,7 @@ nsSVGComponentTransferFunctionElement
 )
 NS_DECL_NSIDOMSVGFEFUNCRELEMENT
 virtual
-PRInt32
+int32_t
 GetChannel
 (
 )
@@ -14622,7 +14622,7 @@ nsSVGComponentTransferFunctionElement
 )
 NS_DECL_NSIDOMSVGFEFUNCGELEMENT
 virtual
-PRInt32
+int32_t
 GetChannel
 (
 )
@@ -14782,7 +14782,7 @@ nsSVGComponentTransferFunctionElement
 )
 NS_DECL_NSIDOMSVGFEFUNCBELEMENT
 virtual
-PRInt32
+int32_t
 GetChannel
 (
 )
@@ -14942,7 +14942,7 @@ nsSVGComponentTransferFunctionElement
 )
 NS_DECL_NSIDOMSVGFEFUNCAELEMENT
 virtual
-PRInt32
+int32_t
 GetChannel
 (
 )
@@ -15405,7 +15405,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -15760,7 +15760,7 @@ mFilterPrimitiveSubregion
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -16388,7 +16388,7 @@ nsSVGFEMergeNodeElement
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -16760,7 +16760,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -17420,7 +17420,7 @@ aInstance
 return
 nsIntPoint
 (
-PRInt32
+int32_t
 (
 aInstance
 .
@@ -17437,7 +17437,7 @@ DX
 ]
 )
 )
-PRInt32
+int32_t
 (
 aInstance
 .
@@ -17578,7 +17578,7 @@ nsSVGFEOffsetElement
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -18138,7 +18138,7 @@ OperatesOnSRGB
 (
 nsSVGFilterInstance
 *
-PRInt32
+int32_t
 Image
 *
 )
@@ -19017,7 +19017,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -19646,12 +19646,12 @@ GetMaxRect
 ;
 }
 static
-PRInt32
+int32_t
 WrapInterval
 (
-PRInt32
+int32_t
 aVal
-PRInt32
+int32_t
 aMax
 )
 {
@@ -19916,7 +19916,7 @@ TopLeft
 (
 )
 ;
-PRUint8
+uint8_t
 *
 sourceData
 =
@@ -19933,7 +19933,7 @@ Data
 (
 )
 ;
-PRUint8
+uint8_t
 *
 targetData
 =
@@ -19947,7 +19947,7 @@ Data
 (
 )
 ;
-PRUint32
+uint32_t
 stride
 =
 aTarget
@@ -20019,7 +20019,7 @@ height
 ;
 for
 (
-PRInt32
+int32_t
 y
 =
 rect
@@ -20039,7 +20039,7 @@ y
 +
 )
 {
-PRUint32
+uint32_t
 tileY
 =
 tile
@@ -20063,7 +20063,7 @@ if
 tileY
 <
 (
-PRUint32
+uint32_t
 )
 surfaceRect
 .
@@ -20072,7 +20072,7 @@ height
 {
 for
 (
-PRInt32
+int32_t
 x
 =
 rect
@@ -20092,7 +20092,7 @@ x
 +
 )
 {
-PRUint32
+uint32_t
 tileX
 =
 tile
@@ -20116,7 +20116,7 @@ if
 tileX
 <
 (
-PRUint32
+uint32_t
 )
 surfaceRect
 .
@@ -20125,7 +20125,7 @@ width
 {
 *
 (
-PRUint32
+uint32_t
 *
 )
 (
@@ -20142,7 +20142,7 @@ x
 =
 *
 (
-PRUint32
+uint32_t
 *
 )
 (
@@ -20171,7 +20171,7 @@ nsSVGFETileElement
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -20455,7 +20455,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -20875,10 +20875,10 @@ m
 a
 *
 /
-PRInt32
+int32_t
 SetupSeed
 (
-PRInt32
+int32_t
 aSeed
 )
 {
@@ -20922,14 +20922,14 @@ return
 aSeed
 ;
 }
-PRUint32
+uint32_t
 Random
 (
-PRUint32
+uint32_t
 aSeed
 )
 {
-PRInt32
+int32_t
 result
 =
 RAND_A
@@ -21018,7 +21018,7 @@ sNM
 =
 0xfff
 ;
-PRInt32
+int32_t
 mLatticeSelector
 [
 sBSize
@@ -21082,7 +21082,7 @@ mWrapY
 void
 InitSeed
 (
-PRInt32
+int32_t
 aSeed
 )
 ;
@@ -21851,7 +21851,7 @@ nsIntRect
 rect
 )
 {
-PRUint8
+uint8_t
 *
 targetData
 =
@@ -21865,7 +21865,7 @@ Data
 (
 )
 ;
-PRUint32
+uint32_t
 stride
 =
 aTarget
@@ -21881,7 +21881,7 @@ Stride
 nsIntRect
 filterSubregion
 (
-PRInt32
+int32_t
 (
 aTarget
 -
@@ -21892,7 +21892,7 @@ X
 (
 )
 )
-PRInt32
+int32_t
 (
 aTarget
 -
@@ -21903,7 +21903,7 @@ Y
 (
 )
 )
-PRInt32
+int32_t
 (
 aTarget
 -
@@ -21914,7 +21914,7 @@ Width
 (
 )
 )
-PRInt32
+int32_t
 (
 aTarget
 -
@@ -21971,7 +21971,7 @@ GetAnimValue
 (
 )
 ;
-PRInt32
+int32_t
 octaves
 =
 mIntegerAttributes
@@ -21983,7 +21983,7 @@ GetAnimValue
 (
 )
 ;
-PRUint16
+uint16_t
 type
 =
 mEnumAttributes
@@ -21995,7 +21995,7 @@ GetAnimValue
 (
 )
 ;
-PRUint16
+uint16_t
 stitch
 =
 mEnumAttributes
@@ -22010,7 +22010,7 @@ GetAnimValue
 InitSeed
 (
 (
-PRInt32
+int32_t
 )
 seed
 )
@@ -22191,7 +22191,7 @@ hiFreq
 }
 for
 (
-PRInt32
+int32_t
 y
 =
 rect
@@ -22213,7 +22213,7 @@ y
 {
 for
 (
-PRInt32
+int32_t
 x
 =
 rect
@@ -22233,7 +22233,7 @@ x
 +
 )
 {
-PRInt32
+int32_t
 targIndex
 =
 y
@@ -22464,7 +22464,7 @@ f
 )
 ;
 }
-PRUint8
+uint8_t
 r
 g
 b
@@ -22472,7 +22472,7 @@ a
 ;
 a
 =
-PRUint8
+uint8_t
 (
 col
 [
@@ -22570,7 +22570,7 @@ nsSVGFETurbulenceElement
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -22650,7 +22650,7 @@ nsSVGFETurbulenceElement
 :
 InitSeed
 (
-PRInt32
+int32_t
 aSeed
 )
 {
@@ -24280,7 +24280,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -24427,10 +24427,10 @@ protected
 void
 GetRXY
 (
-PRInt32
+int32_t
 *
 aRX
-PRInt32
+int32_t
 *
 aRY
 const
@@ -25151,7 +25151,7 @@ nsSVGFilterInstance
 aInstance
 )
 {
-PRInt32
+int32_t
 rx
 ry
 ;
@@ -25295,10 +25295,10 @@ nsSVGFEMorphologyElement
 :
 GetRXY
 (
-PRInt32
+int32_t
 *
 aRX
-PRInt32
+int32_t
 *
 aRY
 const
@@ -25446,7 +25446,7 @@ nsIntRect
 rect
 )
 {
-PRInt32
+int32_t
 rx
 ry
 ;
@@ -25529,7 +25529,7 @@ ry
 100000
 )
 ;
-PRUint8
+uint8_t
 *
 sourceData
 =
@@ -25546,7 +25546,7 @@ Data
 (
 )
 ;
-PRUint8
+uint8_t
 *
 targetData
 =
@@ -25560,7 +25560,7 @@ Data
 (
 )
 ;
-PRInt32
+int32_t
 stride
 =
 aTarget
@@ -25573,7 +25573,7 @@ Stride
 (
 )
 ;
-PRUint8
+uint8_t
 extrema
 [
 4
@@ -25585,7 +25585,7 @@ RGBA
 magnitude
 of
 extrema
-PRUint16
+uint16_t
 op
 =
 mEnumAttributes
@@ -25615,7 +25615,7 @@ values
 .
 for
 (
-PRInt32
+int32_t
 y
 =
 rect
@@ -25635,7 +25635,7 @@ y
 +
 )
 {
-PRInt32
+int32_t
 startY
 =
 NS_MAX
@@ -25693,7 +25693,7 @@ surface
 size
 here
 .
-PRInt32
+int32_t
 endY
 =
 NS_MIN
@@ -25713,7 +25713,7 @@ GetSurfaceHeight
 ;
 for
 (
-PRInt32
+int32_t
 x
 =
 rect
@@ -25733,7 +25733,7 @@ x
 +
 )
 {
-PRInt32
+int32_t
 startX
 =
 NS_MAX
@@ -25744,7 +25744,7 @@ x
 rx
 )
 ;
-PRInt32
+int32_t
 endX
 =
 NS_MIN
@@ -25762,7 +25762,7 @@ GetSurfaceWidth
 1
 )
 ;
-PRInt32
+int32_t
 targIndex
 =
 y
@@ -25775,7 +25775,7 @@ x
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -25804,7 +25804,7 @@ i
 }
 for
 (
-PRInt32
+int32_t
 y1
 =
 startY
@@ -25821,7 +25821,7 @@ y1
 {
 for
 (
-PRInt32
+int32_t
 x1
 =
 startX
@@ -25838,7 +25838,7 @@ x1
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -25852,7 +25852,7 @@ i
 +
 )
 {
-PRUint8
+uint8_t
 pixel
 =
 sourceData
@@ -25977,7 +25977,7 @@ nsSVGFEMorphologyElement
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -26318,7 +26318,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -26467,7 +26467,7 @@ virtual
 bool
 OperatesOnPremultipledAlpha
 (
-PRInt32
+int32_t
 )
 {
 return
@@ -27777,12 +27777,12 @@ GetMaxRect
 ;
 }
 static
-PRInt32
+int32_t
 BoundInterval
 (
-PRInt32
+int32_t
 aVal
-PRInt32
+int32_t
 aMax
 )
 {
@@ -27809,23 +27809,23 @@ void
 ConvolvePixel
 (
 const
-PRUint8
+uint8_t
 *
 aSourceData
-PRUint8
+uint8_t
 *
 aTargetData
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
-PRInt32
+int32_t
 aStride
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
-PRUint16
+uint16_t
 aEdgeMode
 const
 float
@@ -27837,13 +27837,13 @@ float
 aBias
 bool
 aPreserveAlpha
-PRInt32
+int32_t
 aOrderX
-PRInt32
+int32_t
 aOrderY
-PRInt32
+int32_t
 aTargetX
-PRInt32
+int32_t
 aTargetY
 )
 {
@@ -27865,7 +27865,7 @@ aBias
 =
 255
 ;
-PRInt32
+int32_t
 offsets
 [
 4
@@ -27878,7 +27878,7 @@ GFX_ARGB32_OFFSET_B
 GFX_ARGB32_OFFSET_A
 }
 ;
-PRInt32
+int32_t
 channels
 =
 aPreserveAlpha
@@ -27889,7 +27889,7 @@ aPreserveAlpha
 ;
 for
 (
-PRInt32
+int32_t
 y
 =
 0
@@ -27903,7 +27903,7 @@ y
 +
 )
 {
-PRInt32
+int32_t
 sampleY
 =
 aY
@@ -27927,7 +27927,7 @@ aHeight
 ;
 for
 (
-PRInt32
+int32_t
 x
 =
 0
@@ -27941,7 +27941,7 @@ x
 +
 )
 {
-PRInt32
+int32_t
 sampleX
 =
 aX
@@ -27965,7 +27965,7 @@ aWidth
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -28131,7 +28131,7 @@ x
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -28165,7 +28165,7 @@ BoundInterval
 (
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 sum
@@ -28256,7 +28256,7 @@ GetAnimValue
 (
 )
 ;
-PRUint32
+uint32_t
 kmLength
 =
 kernelMatrix
@@ -28265,7 +28265,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 orderX
 =
 mIntegerPairAttributes
@@ -28281,7 +28281,7 @@ nsSVGIntegerPair
 eFirst
 )
 ;
-PRInt32
+int32_t
 orderY
 =
 mIntegerPairAttributes
@@ -28313,7 +28313,7 @@ orderY
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 orderX
@@ -28329,7 +28329,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRInt32
+int32_t
 targetX
 targetY
 ;
@@ -28455,7 +28455,7 @@ NS_ERROR_FAILURE
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -28532,7 +28532,7 @@ kernel
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 1
@@ -28594,7 +28594,7 @@ mTarget
 return
 NS_ERROR_FAILURE
 ;
-PRUint16
+uint16_t
 edgeMode
 =
 mEnumAttributes
@@ -28639,7 +28639,7 @@ info
 .
 mDataRect
 ;
-PRInt32
+int32_t
 stride
 =
 info
@@ -28651,7 +28651,7 @@ Stride
 (
 )
 ;
-PRInt32
+int32_t
 width
 =
 info
@@ -28665,7 +28665,7 @@ GetSize
 .
 width
 ;
-PRInt32
+int32_t
 height
 =
 info
@@ -28679,7 +28679,7 @@ GetSize
 .
 height
 ;
-PRUint8
+uint8_t
 *
 sourceData
 =
@@ -28692,7 +28692,7 @@ Data
 (
 )
 ;
-PRUint8
+uint8_t
 *
 targetData
 =
@@ -28707,7 +28707,7 @@ Data
 ;
 for
 (
-PRInt32
+int32_t
 y
 =
 dataRect
@@ -28729,7 +28729,7 @@ y
 {
 for
 (
-PRInt32
+int32_t
 x
 =
 dataRect
@@ -28787,7 +28787,7 @@ nsSVGFEConvolveMatrixElement
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -29288,7 +29288,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -29667,7 +29667,7 @@ nsSVGFEDistantLightElement
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -30049,7 +30049,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -30438,7 +30438,7 @@ nsSVGFEPointLightElement
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -30858,7 +30858,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -31297,7 +31297,7 @@ nsSVGFESpotLightElement
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -31897,7 +31897,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -32044,7 +32044,7 @@ float
 L
 nscolor
 color
-PRUint8
+uint8_t
 *
 targetData
 )
@@ -32669,17 +32669,17 @@ norm
 \
 PR_END_MACRO
 static
-PRInt32
+int32_t
 Convolve3x3
 (
 const
-PRUint8
+uint8_t
 *
 index
-PRInt32
+int32_t
 stride
 const
-PRInt8
+int8_t
 kernel
 [
 3
@@ -32689,14 +32689,14 @@ kernel
 ]
 )
 {
-PRInt32
+int32_t
 sum
 =
 0
 ;
 for
 (
-PRInt32
+int32_t
 y
 =
 0
@@ -32712,7 +32712,7 @@ y
 {
 for
 (
-PRInt32
+int32_t
 x
 =
 0
@@ -32726,7 +32726,7 @@ x
 +
 )
 {
-PRInt8
+int8_t
 k
 =
 kernel
@@ -32779,18 +32779,18 @@ float
 *
 N
 const
-PRUint8
+uint8_t
 *
 data
-PRInt32
+int32_t
 stride
-PRInt32
+int32_t
 surfaceWidth
-PRInt32
+int32_t
 surfaceHeight
-PRInt32
+int32_t
 x
-PRInt32
+int32_t
 y
 float
 surfaceScale
@@ -32828,7 +32828,7 @@ html
 feDiffuseLightingElement
 static
 const
-PRInt8
+int8_t
 Kx
 [
 3
@@ -33028,7 +33028,7 @@ Kx
 ;
 static
 const
-PRInt8
+int8_t
 Ky
 [
 3
@@ -33445,7 +33445,7 @@ N
 return
 ;
 }
-PRInt8
+int8_t
 xflag
 yflag
 ;
@@ -33522,7 +33522,7 @@ yflag
 ;
 }
 const
-PRUint8
+uint8_t
 *
 index
 =
@@ -34087,7 +34087,7 @@ info
 .
 mDataRect
 ;
-PRInt32
+int32_t
 stride
 =
 info
@@ -34099,7 +34099,7 @@ Stride
 (
 )
 ;
-PRUint8
+uint8_t
 *
 sourceData
 =
@@ -34112,7 +34112,7 @@ Data
 (
 )
 ;
-PRUint8
+uint8_t
 *
 targetData
 =
@@ -34125,7 +34125,7 @@ Data
 (
 )
 ;
-PRInt32
+int32_t
 surfaceWidth
 =
 info
@@ -34137,7 +34137,7 @@ Width
 (
 )
 ;
-PRInt32
+int32_t
 surfaceHeight
 =
 info
@@ -34151,7 +34151,7 @@ Height
 ;
 for
 (
-PRInt32
+int32_t
 y
 =
 dataRect
@@ -34173,7 +34173,7 @@ y
 {
 for
 (
-PRInt32
+int32_t
 x
 =
 dataRect
@@ -34193,7 +34193,7 @@ x
 +
 )
 {
-PRInt32
+int32_t
 index
 =
 y
@@ -34420,7 +34420,7 @@ color
 =
 NS_RGB
 (
-PRUint8
+uint8_t
 (
 NS_GET_R
 (
@@ -34429,7 +34429,7 @@ lightColor
 *
 tmp
 )
-PRUint8
+uint8_t
 (
 NS_GET_G
 (
@@ -34438,7 +34438,7 @@ lightColor
 *
 tmp
 )
-PRUint8
+uint8_t
 (
 NS_GET_B
 (
@@ -34485,7 +34485,7 @@ nsSVGFELightingElement
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -34817,7 +34817,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -34873,7 +34873,7 @@ float
 L
 nscolor
 color
-PRUint8
+uint8_t
 *
 targetData
 )
@@ -35291,7 +35291,7 @@ nsSVGFEDiffuseLightingElement
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -35419,7 +35419,7 @@ float
 L
 nscolor
 color
-PRUint8
+uint8_t
 *
 targetData
 )
@@ -35459,7 +35459,7 @@ GFX_ARGB32_OFFSET_B
 =
 NS_MIN
 (
-PRUint32
+uint32_t
 (
 diffuseNL
 *
@@ -35478,7 +35478,7 @@ GFX_ARGB32_OFFSET_G
 =
 NS_MIN
 (
-PRUint32
+uint32_t
 (
 diffuseNL
 *
@@ -35497,7 +35497,7 @@ GFX_ARGB32_OFFSET_R
 =
 NS_MIN
 (
-PRUint32
+uint32_t
 (
 diffuseNL
 *
@@ -35688,7 +35688,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -35730,7 +35730,7 @@ float
 L
 nscolor
 color
-PRUint8
+uint8_t
 *
 targetData
 )
@@ -36326,7 +36326,7 @@ nsSVGFESpecularLightingElement
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -36389,7 +36389,7 @@ float
 L
 nscolor
 color
-PRUint8
+uint8_t
 *
 targetData
 )
@@ -36481,7 +36481,7 @@ invalid
 :
 1
 ;
-PRUint8
+uint8_t
 minAlpha
 =
 invalid
@@ -36515,7 +36515,7 @@ GFX_ARGB32_OFFSET_B
 =
 NS_MIN
 (
-PRUint32
+uint32_t
 (
 specularNH
 *
@@ -36534,7 +36534,7 @@ GFX_ARGB32_OFFSET_G
 =
 NS_MIN
 (
-PRUint32
+uint32_t
 (
 specularNH
 *
@@ -36553,7 +36553,7 @@ GFX_ARGB32_OFFSET_R
 =
 NS_MIN
 (
-PRUint32
+uint32_t
 (
 specularNH
 *
@@ -37280,7 +37280,7 @@ nsSVGFEImageElement
 :
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -38094,7 +38094,7 @@ frame
 )
 )
 ;
-PRInt32
+int32_t
 nativeWidth
 nativeHeight
 ;
@@ -38224,7 +38224,7 @@ nsSVGFEImageElement
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -38935,7 +38935,7 @@ virtual
 bool
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -39086,7 +39086,7 @@ OperatesOnSRGB
 nsSVGFilterInstance
 *
 aInstance
-PRInt32
+int32_t
 aInput
 Image
 *
@@ -39153,7 +39153,7 @@ virtual
 bool
 OperatesOnPremultipledAlpha
 (
-PRInt32
+int32_t
 aInput
 )
 {
@@ -39927,7 +39927,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 width
 =
 instance
@@ -39937,7 +39937,7 @@ GetSurfaceWidth
 (
 )
 ;
-PRInt32
+int32_t
 height
 =
 instance
@@ -39947,7 +39947,7 @@ GetSurfaceHeight
 (
 )
 ;
-PRUint8
+uint8_t
 *
 sourceData
 =
@@ -39964,7 +39964,7 @@ Data
 (
 )
 ;
-PRUint8
+uint8_t
 *
 displacementData
 =
@@ -39981,7 +39981,7 @@ Data
 (
 )
 ;
-PRUint8
+uint8_t
 *
 targetData
 =
@@ -39995,7 +39995,7 @@ Data
 (
 )
 ;
-PRUint32
+uint32_t
 stride
 =
 aTarget
@@ -40009,7 +40009,7 @@ Stride
 )
 ;
 static
-PRUint8
+uint8_t
 dummyData
 [
 4
@@ -40024,7 +40024,7 @@ dummyData
 ;
 static
 const
-PRUint16
+uint16_t
 channelMap
 [
 5
@@ -40038,7 +40038,7 @@ GFX_ARGB32_OFFSET_B
 GFX_ARGB32_OFFSET_A
 }
 ;
-PRUint16
+uint16_t
 xChannel
 =
 channelMap
@@ -40053,7 +40053,7 @@ GetAnimValue
 )
 ]
 ;
-PRUint16
+uint16_t
 yChannel
 =
 channelMap
@@ -40092,7 +40092,7 @@ scale
 ;
 for
 (
-PRInt32
+int32_t
 y
 =
 rect
@@ -40114,7 +40114,7 @@ y
 {
 for
 (
-PRInt32
+int32_t
 x
 =
 rect
@@ -40134,7 +40134,7 @@ x
 +
 )
 {
-PRUint32
+uint32_t
 targIndex
 =
 y
@@ -40161,7 +40161,7 @@ a
 bilinear
 sample
 .
-PRInt32
+int32_t
 sourceX
 =
 x
@@ -40180,7 +40180,7 @@ xChannel
 scaleAdjustment
 )
 ;
-PRInt32
+int32_t
 sourceY
 =
 y
@@ -40223,11 +40223,11 @@ sourceY
 =
 height
 ;
-PRUint8
+uint8_t
 *
 data
 ;
-PRInt32
+int32_t
 multiplier
 ;
 if
@@ -40257,7 +40257,7 @@ multiplier
 }
 *
 (
-PRUint32
+uint32_t
 *
 )
 (
@@ -40268,7 +40268,7 @@ targIndex
 =
 *
 (
-PRUint32
+uint32_t
 *
 )
 (
@@ -40299,7 +40299,7 @@ nsSVGFEDisplacementMapElement
 :
 AttributeAffectsRendering
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *

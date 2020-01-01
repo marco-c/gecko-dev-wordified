@@ -340,7 +340,7 @@ XPCNativeInterface
 *
 Addition
 ;
-PRUint16
+uint16_t
 Position
 ;
 if
@@ -474,7 +474,7 @@ GetInterfaceArray
 (
 )
 ;
-PRUint16
+uint16_t
 count
 =
 Set
@@ -495,7 +495,7 @@ count
 ;
 for
 (
-PRUint16
+uint16_t
 i
 =
 0
@@ -562,7 +562,7 @@ else
 {
 for
 (
-PRUint16
+uint16_t
 i
 =
 0
@@ -2406,7 +2406,7 @@ Set2
 return
 true
 ;
-PRUint16
+uint16_t
 count
 =
 Set1
@@ -2457,7 +2457,7 @@ GetInterfaceArray
 ;
 for
 (
-PRUint16
+uint16_t
 i
 =
 0
@@ -2707,7 +2707,7 @@ SetInTable
 return
 true
 ;
-PRUint16
+uint16_t
 count
 =
 Set
@@ -2740,7 +2740,7 @@ GetInterfaceCount
 return
 false
 ;
-PRUint16
+uint16_t
 Position
 =
 Key
@@ -2776,7 +2776,7 @@ GetInterfaceArray
 ;
 for
 (
-PRUint16
+uint16_t
 i
 =
 0
@@ -3811,7 +3811,7 @@ flags
 char
 *
 name
-PRUint32
+uint32_t
 interfacesBitmap
 XPCNativeScriptableInfo
 *

@@ -306,7 +306,7 @@ static
 nsresult
 txFnStartLRE
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -317,7 +317,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -387,9 +387,9 @@ getStyleAttr
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
-PRInt32
+int32_t
 aNamespace
 nsIAtom
 *
@@ -402,7 +402,7 @@ txStylesheetAttr
 aAttr
 )
 {
-PRInt32
+int32_t
 i
 ;
 for
@@ -498,7 +498,7 @@ parseUseAttrSets
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 bool
 aInXSLTNS
@@ -637,9 +637,9 @@ parseExcludeResultPrefixes
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
-PRInt32
+int32_t
 aNamespaceID
 )
 {
@@ -695,7 +695,7 @@ getQNameAttr
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 nsIAtom
 *
@@ -806,7 +806,7 @@ getExprAttr
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 nsIAtom
 *
@@ -953,7 +953,7 @@ getAVTAttr
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 nsIAtom
 *
@@ -1100,7 +1100,7 @@ getPatternAttr
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 nsIAtom
 *
@@ -1211,7 +1211,7 @@ getNumberAttr
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 nsIAtom
 *
@@ -1319,7 +1319,7 @@ getAtomAttr
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 nsIAtom
 *
@@ -1399,7 +1399,7 @@ getYesNoAttr
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 nsIAtom
 *
@@ -1519,7 +1519,7 @@ getCharAttr
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 nsIAtom
 *
@@ -1691,11 +1691,11 @@ clearAttributes
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 )
 {
-PRInt32
+int32_t
 i
 ;
 for
@@ -1728,7 +1728,7 @@ static
 nsresult
 txFnStartElementIgnore
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1739,7 +1739,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -1784,7 +1784,7 @@ static
 nsresult
 txFnStartElementSetIgnore
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1795,7 +1795,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -1851,7 +1851,7 @@ static
 nsresult
 txFnStartElementError
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1862,7 +1862,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -1910,7 +1910,7 @@ static
 nsresult
 txFnStartStylesheet
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1921,7 +1921,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -2040,7 +2040,7 @@ static
 nsresult
 txFnStartElementContinueTopLevel
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -2051,7 +2051,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -2072,7 +2072,7 @@ static
 nsresult
 txFnStartLREStylesheet
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -2083,7 +2083,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -2298,7 +2298,7 @@ static
 nsresult
 txFnStartEmbed
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -2309,7 +2309,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -2427,7 +2427,7 @@ static
 nsresult
 txFnStartOtherTop
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -2438,7 +2438,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -2512,7 +2512,7 @@ static
 nsresult
 txFnStartAttributeSet
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -2523,7 +2523,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -2701,7 +2701,7 @@ static
 nsresult
 txFnStartDecimalFormat
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -2712,7 +2712,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -3094,7 +3094,7 @@ static
 nsresult
 txFnStartImport
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -3105,7 +3105,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -3279,7 +3279,7 @@ static
 nsresult
 txFnStartInclude
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -3290,7 +3290,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -3399,7 +3399,7 @@ static
 nsresult
 txFnStartKey
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -3410,7 +3410,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -3559,7 +3559,7 @@ static
 nsresult
 txFnStartNamespaceAlias
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -3570,7 +3570,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -3673,7 +3673,7 @@ static
 nsresult
 txFnStartOutput
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -3684,7 +3684,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -4284,7 +4284,7 @@ static
 nsresult
 txFnStartStripSpace
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -4295,7 +4295,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -4387,7 +4387,7 @@ nextToken
 (
 )
 ;
-PRInt32
+int32_t
 ns
 =
 kNameSpaceID_None
@@ -4438,7 +4438,7 @@ prefix
 :
 *
 "
-PRUint32
+uint32_t
 length
 =
 name
@@ -4739,7 +4739,7 @@ static
 nsresult
 txFnStartTemplate
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -4750,7 +4750,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -4999,7 +4999,7 @@ static
 nsresult
 txFnStartTopVariable
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -5010,7 +5010,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -5377,7 +5377,7 @@ static
 nsresult
 txFnStartElementStartTopVar
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -5388,7 +5388,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -5474,7 +5474,7 @@ static
 nsresult
 txFnStartLRE
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -5485,7 +5485,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -5570,7 +5570,7 @@ attr
 =
 nullptr
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -5835,7 +5835,7 @@ static
 nsresult
 txFnStartApplyImports
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -5846,7 +5846,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -5985,7 +5985,7 @@ static
 nsresult
 txFnStartApplyTemplates
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -5996,7 +5996,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -6436,7 +6436,7 @@ static
 nsresult
 txFnStartAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -6447,7 +6447,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -6693,7 +6693,7 @@ static
 nsresult
 txFnStartCallTemplate
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -6704,7 +6704,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -6973,7 +6973,7 @@ static
 nsresult
 txFnStartChoose
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -6984,7 +6984,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -7113,7 +7113,7 @@ static
 nsresult
 txFnStartComment
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -7124,7 +7124,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -7250,7 +7250,7 @@ static
 nsresult
 txFnStartCopy
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -7261,7 +7261,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -7449,7 +7449,7 @@ static
 nsresult
 txFnStartCopyOf
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -7460,7 +7460,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -7588,7 +7588,7 @@ static
 nsresult
 txFnStartElement
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -7599,7 +7599,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -7785,7 +7785,7 @@ static
 nsresult
 txFnStartFallback
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -7796,7 +7796,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -7898,7 +7898,7 @@ static
 nsresult
 txFnStartForEach
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -7909,7 +7909,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -8196,7 +8196,7 @@ static
 nsresult
 txFnStartElementContinueTemplate
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -8207,7 +8207,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -8274,7 +8274,7 @@ static
 nsresult
 txFnStartIf
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -8285,7 +8285,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -8452,7 +8452,7 @@ static
 nsresult
 txFnStartMessage
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -8463,7 +8463,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -8632,7 +8632,7 @@ static
 nsresult
 txFnStartNumber
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -8643,7 +8643,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -9063,7 +9063,7 @@ static
 nsresult
 txFnStartOtherwise
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -9074,7 +9074,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -9157,7 +9157,7 @@ static
 nsresult
 txFnStartParam
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -9168,7 +9168,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -9592,7 +9592,7 @@ static
 nsresult
 txFnStartPI
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -9603,7 +9603,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -9775,7 +9775,7 @@ static
 nsresult
 txFnStartSort
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -9786,7 +9786,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -10054,7 +10054,7 @@ static
 nsresult
 txFnStartText
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -10065,7 +10065,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -10233,7 +10233,7 @@ static
 nsresult
 txFnStartValueOf
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -10244,7 +10244,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -10399,7 +10399,7 @@ static
 nsresult
 txFnStartVariable
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -10410,7 +10410,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -10724,7 +10724,7 @@ static
 nsresult
 txFnStartElementStartRTF
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -10735,7 +10735,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -10862,7 +10862,7 @@ static
 nsresult
 txFnStartWhen
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -10873,7 +10873,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -11136,7 +11136,7 @@ static
 nsresult
 txFnStartWithParam
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -11147,7 +11147,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -11464,7 +11464,7 @@ static
 nsresult
 txFnStartUnknownInstruction
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -11475,7 +11475,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 txStylesheetCompilerState
 &
@@ -12625,7 +12625,7 @@ const
 txElementHandler
 *
 aHandlers
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -12634,7 +12634,7 @@ rv
 =
 NS_OK
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -12709,7 +12709,7 @@ txHandlerTable
 :
 find
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *

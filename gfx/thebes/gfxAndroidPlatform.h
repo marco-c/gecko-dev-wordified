@@ -287,7 +287,7 @@ IsFontFormatSupported
 nsIURI
 *
 aFontURI
-PRUint32
+uint32_t
 aFormatFlags
 )
 ;
@@ -308,10 +308,10 @@ gfxProxyFontEntry
 *
 aProxyEntry
 const
-PRUint8
+uint8_t
 *
 aFontData
-PRUint32
+uint32_t
 aLength
 )
 ;

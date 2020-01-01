@@ -304,7 +304,7 @@ non
 null
 parent
 .
-PRInt32
+int32_t
 GetNthIndex
 (
 Element
@@ -422,7 +422,7 @@ its
 parent
 .
 typedef
-PRInt32
+int32_t
 CacheEntry
 ;
 class
@@ -643,7 +643,7 @@ const
 Cache
 &
 aCache
-PRInt32
+int32_t
 &
 aResult
 )

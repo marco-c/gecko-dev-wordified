@@ -539,7 +539,7 @@ and
 s2
 .
 static
-PRInt32
+int32_t
 strcmp
 (
 const
@@ -553,7 +553,7 @@ s2
 )
 {
 return
-PRInt32
+int32_t
 (
 PL_strcmp
 (
@@ -564,7 +564,7 @@ s2
 ;
 }
 static
-PRInt32
+int32_t
 strncmp
 (
 const
@@ -575,12 +575,12 @@ const
 char
 *
 s2
-PRUint32
+uint32_t
 aMaxLen
 )
 {
 return
-PRInt32
+int32_t
 (
 PL_strncmp
 (
@@ -601,7 +601,7 @@ string
 comparison
 .
 static
-PRInt32
+int32_t
 strcasecmp
 (
 const
@@ -615,7 +615,7 @@ s2
 )
 {
 return
-PRInt32
+int32_t
 (
 PL_strcasecmp
 (
@@ -636,7 +636,7 @@ comparison
 with
 length
 static
-PRInt32
+int32_t
 strncasecmp
 (
 const
@@ -647,14 +647,14 @@ const
 char
 *
 s2
-PRUint32
+uint32_t
 aMaxLen
 )
 {
-PRInt32
+int32_t
 result
 =
-PRInt32
+int32_t
 (
 PL_strncasecmp
 (
@@ -710,7 +710,7 @@ result
 ;
 }
 static
-PRInt32
+int32_t
 strncmp
 (
 const
@@ -721,7 +721,7 @@ const
 char
 *
 s2
-PRInt32
+int32_t
 aMaxLen
 )
 {
@@ -739,7 +739,7 @@ not
 null
 )
 :
-PRInt32
+int32_t
 diff
 =
 (
@@ -779,7 +779,7 @@ return
 diff
 ;
 return
-PRInt32
+int32_t
 (
 PL_strncmp
 (
@@ -820,7 +820,7 @@ const
 char
 *
 str
-PRUint32
+uint32_t
 len
 )
 {
@@ -1023,7 +1023,7 @@ for
 ucs2
 strings
 static
-PRInt32
+int32_t
 strcmp
 (
 const
@@ -1046,7 +1046,7 @@ for
 ucs2
 strings
 static
-PRInt32
+int32_t
 strncmp
 (
 const
@@ -1057,7 +1057,7 @@ const
 PRUnichar
 *
 s2
-PRUint32
+uint32_t
 aMaxLen
 )
 ;
@@ -1105,13 +1105,13 @@ const
 char
 *
 haystack
-PRUint32
+uint32_t
 haystackLen
 const
 char
 *
 needle
-PRUint32
+uint32_t
 needleLen
 )
 ;
@@ -1179,7 +1179,7 @@ strndup
 (
 PRUnichar
 *
-PRUint32
+uint32_t
 )
 .
 static
@@ -1191,7 +1191,7 @@ const
 PRUnichar
 *
 str
-PRUint32
+uint32_t
 len
 )
 ;
@@ -1236,7 +1236,7 @@ String
 to
 longlong
 static
-PRInt64
+int64_t
 atoll
 (
 const
@@ -1407,7 +1407,7 @@ const
 char
 *
 aString
-PRUint32
+uint32_t
 aLength
 )
 {

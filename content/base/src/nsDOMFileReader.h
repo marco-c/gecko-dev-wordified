@@ -303,7 +303,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -353,9 +353,9 @@ aContext
 nsIInputStream
 *
 aInputStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 ;
@@ -413,7 +413,7 @@ const
 char
 *
 aFileData
-PRUint32
+uint32_t
 aDataLen
 nsAString
 &
@@ -430,7 +430,7 @@ const
 char
 *
 aFileData
-PRUint32
+uint32_t
 aDataLen
 nsAString
 &
@@ -444,7 +444,7 @@ const
 char
 *
 aFileData
-PRUint32
+uint32_t
 aDataLen
 const
 char
@@ -487,7 +487,7 @@ mFile
 nsCString
 mCharset
 ;
-PRUint32
+uint32_t
 mDataLen
 ;
 eDataFormat

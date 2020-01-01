@@ -312,11 +312,11 @@ SetAccGroupAttrs
 nsIPersistentProperties
 *
 aAttributes
-PRInt32
+int32_t
 aLevel
-PRInt32
+int32_t
 aSetSize
-PRInt32
+int32_t
 aPosInSet
 )
 {
@@ -402,7 +402,7 @@ value
 ;
 }
 }
-PRInt32
+int32_t
 nsAccUtils
 :
 :
@@ -514,7 +514,7 @@ return
 0
 ;
 }
-PRInt32
+int32_t
 nsAccUtils
 :
 :
@@ -525,7 +525,7 @@ Accessible
 aAccessible
 )
 {
-PRInt32
+int32_t
 level
 =
 0
@@ -566,7 +566,7 @@ aAccessible
 )
 ;
 }
-PRInt32
+int32_t
 nsAccUtils
 :
 :
@@ -630,7 +630,7 @@ of
 the
 item
 .
-PRInt32
+int32_t
 level
 =
 -
@@ -1168,7 +1168,7 @@ mixed
 nullptr
 }
 ;
-PRInt32
+int32_t
 idx
 =
 aElement
@@ -1212,7 +1212,7 @@ GetAncestorWithRole
 Accessible
 *
 aDescendant
-PRUint32
+uint32_t
 aRole
 )
 {
@@ -1247,7 +1247,7 @@ Parent
 )
 )
 {
-PRUint32
+uint32_t
 testRole
 =
 parent
@@ -1291,7 +1291,7 @@ GetSelectableContainer
 Accessible
 *
 aAccessible
-PRUint64
+uint64_t
 aState
 )
 {
@@ -1463,7 +1463,7 @@ focusDOMNode
 return
 nullptr
 ;
-PRInt32
+int32_t
 focusOffset
 =
 0
@@ -1631,11 +1631,11 @@ nsAccUtils
 :
 ConvertToScreenCoords
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
-PRUint32
+uint32_t
 aCoordinateType
 nsAccessNode
 *
@@ -1736,13 +1736,13 @@ nsAccUtils
 :
 ConvertScreenCoordsTo
 (
-PRInt32
+int32_t
 *
 aX
-PRInt32
+int32_t
 *
 aY
-PRUint32
+uint32_t
 aCoordinateType
 nsAccessNode
 *
@@ -1978,7 +1978,7 @@ y
 )
 ;
 }
-PRUint8
+uint8_t
 nsAccUtils
 :
 :
@@ -1991,7 +1991,7 @@ aAtom
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2044,7 +2044,7 @@ nsAccUtils
 :
 GetLiveAttrValue
 (
-PRUint32
+uint32_t
 aRule
 nsAString
 &
@@ -2148,7 +2148,7 @@ foundText
 =
 false
 ;
-PRUint32
+uint32_t
 childCount
 =
 aAccessible
@@ -2160,7 +2160,7 @@ ChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 childIdx
 =
 0
@@ -2239,7 +2239,7 @@ true
 }
 #
 endif
-PRUint32
+uint32_t
 nsAccUtils
 :
 :
@@ -2542,7 +2542,7 @@ aTable
 nsIAccessibleTableCell
 *
 aCell
-PRInt32
+int32_t
 aRowOrColHeaderCells
 nsIArray
 *
@@ -2574,7 +2574,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 rowIdx
 =
 -
@@ -2597,7 +2597,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 colIdx
 =
 -
@@ -2646,7 +2646,7 @@ column
 header
 cells
 .
-PRInt32
+int32_t
 index
 =
 (
@@ -2672,7 +2672,7 @@ index
 -
 )
 {
-PRInt32
+int32_t
 curRowIdx
 =
 moveToLeft
@@ -2681,7 +2681,7 @@ rowIdx
 :
 index
 ;
-PRInt32
+int32_t
 curColIdx
 =
 moveToLeft
@@ -2746,7 +2746,7 @@ NS_ENSURE_STATE
 tableCellAcc
 )
 ;
-PRInt32
+int32_t
 origIdx
 =
 1
@@ -2800,7 +2800,7 @@ header
 cells
 only
 .
-PRUint32
+uint32_t
 role
 =
 Role

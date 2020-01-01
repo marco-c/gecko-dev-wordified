@@ -1233,7 +1233,7 @@ SetDocumentCharsetAndSource
 nsACString
 &
 aCharset
-PRInt32
+int32_t
 aCharsetSource
 )
 {
@@ -2151,7 +2151,7 @@ IsEmpty
 )
 )
 {
-PRUint32
+uint32_t
 linkTypes
 =
 nsStyleLinkElement
@@ -2386,7 +2386,7 @@ mExecutor
 #
 ifdef
 DEBUG_NS_HTML5_TREE_OP_EXECUTOR_FLUSH
-PRUint32
+uint32_t
 mStartTime
 ;
 #
@@ -2435,7 +2435,7 @@ nsHtml5FlushLoopGuard
 #
 ifdef
 DEBUG_NS_HTML5_TREE_OP_EXECUTOR_FLUSH
-PRUint32
+uint32_t
 timeOffTheEventLoop
 =
 PR_IntervalToMilliseconds
@@ -3086,7 +3086,7 @@ BeginDocUpdate
 (
 )
 ;
-PRUint32
+uint32_t
 numberOfOpsToFlush
 =
 mOpQueue
@@ -3594,7 +3594,7 @@ BeginDocUpdate
 (
 )
 ;
-PRUint32
+uint32_t
 numberOfOpsToFlush
 =
 mOpQueue
@@ -4646,9 +4646,9 @@ const
 char
 *
 aEncoding
-PRInt32
+int32_t
 aSource
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -4819,7 +4819,7 @@ char
 aMsgId
 bool
 aError
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -5294,7 +5294,7 @@ InitializeDocWriteParserState
 nsAHtml5TreeBuilderState
 *
 aState
-PRInt32
+int32_t
 aLine
 )
 {
@@ -6003,7 +6003,7 @@ URI
 #
 ifdef
 DEBUG_NS_HTML5_TREE_OP_EXECUTOR_FLUSH
-PRUint32
+uint32_t
 nsHtml5TreeOpExecutor
 :
 :
@@ -6011,7 +6011,7 @@ sAppendBatchMaxSize
 =
 0
 ;
-PRUint32
+uint32_t
 nsHtml5TreeOpExecutor
 :
 :
@@ -6019,7 +6019,7 @@ sAppendBatchSlotsExamined
 =
 0
 ;
-PRUint32
+uint32_t
 nsHtml5TreeOpExecutor
 :
 :
@@ -6027,7 +6027,7 @@ sAppendBatchExaminations
 =
 0
 ;
-PRUint32
+uint32_t
 nsHtml5TreeOpExecutor
 :
 :
@@ -6035,7 +6035,7 @@ sLongestTimeOffTheEventLoop
 =
 0
 ;
-PRUint32
+uint32_t
 nsHtml5TreeOpExecutor
 :
 :

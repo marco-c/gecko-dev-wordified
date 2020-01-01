@@ -444,7 +444,7 @@ Init
 nsIURI
 *
 aURI
-PRUint8
+uint8_t
 aCaps
 nsProxyInfo
 *
@@ -526,7 +526,7 @@ object
 nsCAutoString
 host
 ;
-PRInt32
+int32_t
 port
 =
 -
@@ -1956,7 +1956,7 @@ HttpBaseChannel
 :
 GetContentDisposition
 (
-PRUint32
+uint32_t
 *
 aContentDisposition
 )
@@ -2107,7 +2107,7 @@ HttpBaseChannel
 :
 GetContentLength
 (
-PRInt32
+int32_t
 *
 aContentLength
 )
@@ -2152,7 +2152,7 @@ HttpBaseChannel
 :
 SetContentLength
 (
-PRInt32
+int32_t
 value
 )
 {
@@ -2406,7 +2406,7 @@ const
 nsACString
 &
 contentType
-PRInt32
+int32_t
 contentLength
 )
 {
@@ -2772,7 +2772,7 @@ const
 nsACString
 &
 aContentType
-PRInt64
+int64_t
 aContentLength
 const
 nsACString
@@ -2819,7 +2819,7 @@ Available
 (
 reinterpret_cast
 <
-PRUint64
+uint64_t
 *
 >
 (
@@ -3369,7 +3369,7 @@ BeginWriting
 (
 )
 ;
-PRUint32
+uint32_t
 count
 =
 0
@@ -5384,7 +5384,7 @@ check
 referrer
 blocking
 pref
-PRUint32
+uint32_t
 referrerLevel
 ;
 if
@@ -5571,7 +5571,7 @@ rv
 return
 rv
 ;
-PRUint32
+uint32_t
 pathLength
 =
 path
@@ -5644,7 +5644,7 @@ the
 third
 character
 .
-PRInt32
+int32_t
 slashIndex
 =
 path
@@ -6907,7 +6907,7 @@ HttpBaseChannel
 :
 GetRedirectionLimit
 (
-PRUint32
+uint32_t
 *
 value
 )
@@ -6932,7 +6932,7 @@ HttpBaseChannel
 :
 SetRedirectionLimit
 (
-PRUint32
+uint32_t
 value
 )
 {
@@ -6944,7 +6944,7 @@ mRedirectionLimit
 =
 NS_MIN
 <
-PRUint32
+uint32_t
 >
 (
 value
@@ -7043,7 +7043,7 @@ HttpBaseChannel
 :
 GetResponseStatus
 (
-PRUint32
+uint32_t
 *
 aValue
 )
@@ -7121,7 +7121,7 @@ mResponseHead
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-PRUint32
+uint32_t
 status
 =
 mResponseHead
@@ -7372,10 +7372,10 @@ HttpBaseChannel
 :
 GetRequestVersion
 (
-PRUint32
+uint32_t
 *
 major
-PRUint32
+uint32_t
 *
 minor
 )
@@ -7425,10 +7425,10 @@ HttpBaseChannel
 :
 GetResponseVersion
 (
-PRUint32
+uint32_t
 *
 major
-PRUint32
+uint32_t
 *
 minor
 )
@@ -7776,7 +7776,7 @@ HttpBaseChannel
 :
 GetLocalPort
 (
-PRInt32
+int32_t
 *
 port
 )
@@ -7802,7 +7802,7 @@ PR_AF_INET
 port
 =
 (
-PRInt32
+int32_t
 )
 PR_ntohs
 (
@@ -7831,7 +7831,7 @@ PR_AF_INET6
 port
 =
 (
-PRInt32
+int32_t
 )
 PR_ntohs
 (
@@ -7919,7 +7919,7 @@ HttpBaseChannel
 :
 GetRemotePort
 (
-PRInt32
+int32_t
 *
 port
 )
@@ -7945,7 +7945,7 @@ PR_AF_INET
 port
 =
 (
-PRInt32
+int32_t
 )
 PR_ntohs
 (
@@ -7974,7 +7974,7 @@ PR_AF_INET6
 port
 =
 (
-PRInt32
+int32_t
 )
 PR_ntohs
 (
@@ -8249,7 +8249,7 @@ HttpBaseChannel
 :
 GetPriority
 (
-PRInt32
+int32_t
 *
 value
 )
@@ -8269,7 +8269,7 @@ HttpBaseChannel
 :
 AdjustPriority
 (
-PRInt32
+int32_t
 delta
 )
 {
@@ -8496,7 +8496,7 @@ return
 NS_ERROR_NOT_RESUMABLE
 ;
 }
-PRUint64
+uint64_t
 size
 =
 LL_MAXUINT
@@ -8686,7 +8686,7 @@ entityID
 .
 AppendInt
 (
-PRInt64
+int64_t
 (
 size
 )
@@ -9464,7 +9464,7 @@ HttpBaseChannel
 :
 ShouldRewriteRedirectToGET
 (
-PRUint32
+uint32_t
 httpStatus
 nsHttpAtom
 method
@@ -9707,7 +9707,7 @@ preserveMethod
 )
 )
 ;
-PRUint32
+uint32_t
 newLoadFlags
 =
 mLoadFlags
@@ -10004,7 +10004,7 @@ nsHttp
 Content_Length
 )
 ;
-PRInt64
+int64_t
 len
 =
 clen

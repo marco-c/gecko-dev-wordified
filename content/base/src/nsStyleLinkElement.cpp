@@ -552,7 +552,7 @@ nsStyleLinkElement
 :
 SetLineNumber
 (
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -561,7 +561,7 @@ mLineNumber
 aLineNumber
 ;
 }
-PRUint32
+uint32_t
 ToLinkMask
 (
 const
@@ -651,7 +651,7 @@ return
 0
 ;
 }
-PRUint32
+uint32_t
 nsStyleLinkElement
 :
 :
@@ -663,7 +663,7 @@ nsAString
 aTypes
 )
 {
-PRUint32
+uint32_t
 linkMask
 =
 0

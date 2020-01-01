@@ -155,7 +155,7 @@ virtual
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -258,7 +258,7 @@ nsXMLEventsElement
 :
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *

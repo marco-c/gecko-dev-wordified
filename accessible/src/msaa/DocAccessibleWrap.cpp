@@ -1957,7 +1957,7 @@ isActive
 =
 true
 ;
-PRInt32
+int32_t
 x
 =
 CW_USEDEFAULT
@@ -1993,7 +1993,7 @@ width
 height
 )
 ;
-PRInt32
+int32_t
 rootX
 =
 0

@@ -344,7 +344,7 @@ PRUnichar
 *
 *
 aWarningArgs
-PRUint32
+uint32_t
 aWarningArgsLen
 )
 {
@@ -493,7 +493,7 @@ const
 nsACString
 &
 aCharset
-PRInt32
+int32_t
 aMethod
 nsIDocument
 *
@@ -672,7 +672,7 @@ NS_FORM_METHOD_POST
 .
 *
 /
-PRInt32
+int32_t
 mMethod
 ;
 /
@@ -1039,7 +1039,7 @@ hasParams
 =
 false
 ;
-PRInt32
+int32_t
 paramSep
 =
 aPath
@@ -1062,7 +1062,7 @@ kNotFound
 paramSep
 <
 (
-PRInt32
+int32_t
 )
 aPath
 .
@@ -1110,7 +1110,7 @@ an
 =
 in
 it
-PRInt32
+int32_t
 nameEnd
 =
 aPath
@@ -1125,7 +1125,7 @@ paramSep
 1
 )
 ;
-PRInt32
+int32_t
 nextParamSep
 =
 aPath
@@ -1862,7 +1862,7 @@ it
 to
 add
 later
-PRInt32
+int32_t
 namedAnchorPos
 =
 path
@@ -1934,7 +1934,7 @@ POST
 bug
 41585
 )
-PRInt32
+int32_t
 queryStart
 =
 path
@@ -4531,7 +4531,7 @@ acceptcharset
 acceptCharsetValue
 )
 ;
-PRInt32
+int32_t
 charsetLen
 =
 acceptCharsetValue
@@ -4547,12 +4547,12 @@ charsetLen
 0
 )
 {
-PRInt32
+int32_t
 offset
 =
 0
 ;
-PRInt32
+int32_t
 spPos
 =
 0
@@ -4582,7 +4582,7 @@ PRUnichar
 offset
 )
 ;
-PRInt32
+int32_t
 cnt
 =
 (
@@ -4723,7 +4723,7 @@ aContent
 nsIAtom
 *
 atom
-PRInt32
+int32_t
 *
 aValue
 )
@@ -4831,7 +4831,7 @@ default
 :
 urlencoded
 )
-PRInt32
+int32_t
 enctype
 =
 NS_FORM_ENCTYPE_URLENCODED
@@ -4889,7 +4889,7 @@ default
 :
 GET
 )
-PRInt32
+int32_t
 method
 =
 NS_FORM_METHOD_GET

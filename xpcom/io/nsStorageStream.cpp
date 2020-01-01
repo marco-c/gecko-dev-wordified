@@ -437,9 +437,9 @@ nsStorageStream
 :
 Init
 (
-PRUint32
+uint32_t
 segmentSize
-PRUint32
+uint32_t
 maxSize
 nsIMemory
 *
@@ -489,7 +489,7 @@ mSegmentSize
 =
 (
 (
-PRUint32
+uint32_t
 )
 1
 <
@@ -518,7 +518,7 @@ nsStorageStream
 :
 GetOutputStream
 (
-PRInt32
+int32_t
 aStartingOffset
 nsIOutputStream
 *
@@ -700,7 +700,7 @@ mWriteInProgress
 =
 false
 ;
-PRInt32
+int32_t
 segmentOffset
 =
 SegOffset
@@ -808,9 +808,9 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aNumWritten
 )
@@ -826,7 +826,7 @@ char
 *
 readCursor
 ;
-PRUint32
+uint32_t
 count
 availableInSegment
 remaining
@@ -1229,9 +1229,9 @@ WriteFrom
 nsIInputStream
 *
 inStr
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -1251,9 +1251,9 @@ reader
 void
 *
 closure
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -1288,7 +1288,7 @@ nsStorageStream
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -1323,7 +1323,7 @@ nsStorageStream
 :
 SetLength
 (
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -1349,7 +1349,7 @@ mLogicalLength
 return
 NS_ERROR_INVALID_ARG
 ;
-PRInt32
+int32_t
 newLastSegmentNum
 =
 SegNum
@@ -1357,7 +1357,7 @@ SegNum
 aLength
 )
 ;
-PRInt32
+int32_t
 segmentOffset
 =
 SegOffset
@@ -1434,7 +1434,7 @@ nsStorageStream
 :
 Seek
 (
-PRInt32
+int32_t
 aPosition
 )
 {
@@ -1483,7 +1483,7 @@ illegal
 if
 (
 (
-PRUint32
+uint32_t
 )
 aPosition
 >
@@ -1648,7 +1648,7 @@ the
 last
 segment
 .
-PRInt32
+int32_t
 segmentOffset
 =
 SegOffset
@@ -1671,7 +1671,7 @@ aPosition
 )
 >
 (
-PRUint32
+uint32_t
 )
 mLastSegmentNum
 )
@@ -1824,7 +1824,7 @@ nsStorageInputStream
 nsStorageStream
 *
 aStorageStream
-PRUint32
+uint32_t
 aSegmentSize
 )
 :
@@ -1884,7 +1884,7 @@ protected
 NS_METHOD
 Seek
 (
-PRUint32
+uint32_t
 aPosition
 )
 ;
@@ -1898,7 +1898,7 @@ nsStorageStream
 *
 mStorageStream
 ;
-PRUint32
+uint32_t
 mReadCursor
 ;
 /
@@ -1911,7 +1911,7 @@ read
 byte
 or
 NULL
-PRUint32
+uint32_t
 mSegmentEnd
 ;
 /
@@ -1924,7 +1924,7 @@ of
 current
 buffer
 segment
-PRUint32
+uint32_t
 mSegmentNum
 ;
 /
@@ -1934,7 +1934,7 @@ number
 containing
 read
 cursor
-PRUint32
+uint32_t
 mSegmentSize
 ;
 /
@@ -1948,7 +1948,7 @@ are
 of
 this
 size
-PRUint32
+uint32_t
 mLogicalCursor
 ;
 /
@@ -1960,10 +1960,10 @@ stream
 nsresult
 mStatus
 ;
-PRUint32
+uint32_t
 SegNum
 (
-PRUint32
+uint32_t
 aPosition
 )
 {
@@ -1977,10 +1977,10 @@ mStorageStream
 mSegmentSizeLog2
 ;
 }
-PRUint32
+uint32_t
 SegOffset
 (
-PRUint32
+uint32_t
 aPosition
 )
 {
@@ -2008,7 +2008,7 @@ nsStorageStream
 :
 NewInputStream
 (
-PRInt32
+int32_t
 aStartingOffset
 nsIInputStream
 *
@@ -2105,7 +2105,7 @@ nsStorageInputStream
 :
 Available
 (
-PRUint64
+uint64_t
 *
 aAvailable
 )
@@ -2143,9 +2143,9 @@ Read
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aNumRead
 )
@@ -2171,9 +2171,9 @@ writer
 void
 *
 closure
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aNumRead
 )
@@ -2203,7 +2203,7 @@ mStatus
 return
 mStatus
 ;
-PRUint32
+uint32_t
 count
 availableInSegment
 remainingCapacity
@@ -2233,7 +2233,7 @@ if
 availableInSegment
 )
 {
-PRUint32
+uint32_t
 available
 =
 mStorageStream
@@ -2446,9 +2446,9 @@ nsStorageInputStream
 :
 Seek
 (
-PRInt32
+int32_t
 aWhence
-PRInt64
+int64_t
 aOffset
 )
 {
@@ -2462,7 +2462,7 @@ mStatus
 return
 mStatus
 ;
-PRInt64
+int64_t
 pos
 =
 aOffset
@@ -2520,7 +2520,7 @@ if
 pos
 =
 =
-PRInt64
+int64_t
 (
 mLogicalCursor
 )
@@ -2541,7 +2541,7 @@ nsStorageInputStream
 :
 Tell
 (
-PRInt64
+int64_t
 *
 aResult
 )
@@ -2595,11 +2595,11 @@ nsStorageInputStream
 :
 Seek
 (
-PRUint32
+uint32_t
 aPosition
 )
 {
-PRUint32
+uint32_t
 length
 =
 mStorageStream
@@ -2640,7 +2640,7 @@ SegOffset
 aPosition
 )
 ;
-PRUint32
+uint32_t
 available
 =
 length
@@ -2670,9 +2670,9 @@ NS_OK
 nsresult
 NS_NewStorageStream
 (
-PRUint32
+uint32_t
 segmentSize
-PRUint32
+uint32_t
 maxSize
 nsIStorageStream
 *

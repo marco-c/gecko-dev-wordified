@@ -2508,7 +2508,7 @@ fDescription
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

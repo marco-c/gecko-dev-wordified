@@ -260,9 +260,9 @@ aEditor
 nsIDOMCharacterData
 *
 aCharData
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aNumCharsToDelete
 nsRangeUpdater
 *
@@ -323,7 +323,7 @@ aNumCharsToDelete
 #
 ifdef
 DEBUG
-PRUint32
+uint32_t
 length
 ;
 mCharData

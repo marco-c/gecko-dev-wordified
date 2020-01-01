@@ -851,7 +851,7 @@ cached
 classes
 .
 static
-PRUint32
+uint32_t
 gClassLRUListLength
 ;
 /
@@ -864,7 +864,7 @@ LRU
 list
 .
 static
-PRUint32
+uint32_t
 gClassLRUListQuota
 ;
 /

@@ -426,7 +426,7 @@ streamPeer
 nsIInputStream
 *
 input
-PRUint32
+uint32_t
 length
 )
 ;
@@ -455,7 +455,7 @@ status
 nsresult
 GetStreamType
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -601,13 +601,13 @@ nsNPAPIStreamWrapper
 *
 mNPStreamWrapper
 ;
-PRUint32
+uint32_t
 mStreamBufferSize
 ;
-PRInt32
+int32_t
 mStreamBufferByteCount
 ;
-PRInt32
+int32_t
 mStreamType
 ;
 bool

@@ -414,7 +414,7 @@ mCacheUpdate
 bool
 mExposeCacheUpdateStatus
 ;
-PRUint16
+uint16_t
 mStatus
 ;
 /
@@ -435,7 +435,7 @@ char
 *
 mCachedKeys
 ;
-PRUint32
+uint32_t
 mCachedKeysCount
 ;
 nsRefPtr

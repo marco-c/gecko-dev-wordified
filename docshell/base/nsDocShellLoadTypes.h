@@ -642,7 +642,7 @@ inline
 bool
 IsValidLoadType
 (
-PRUint32
+uint32_t
 aLoadType
 )
 {

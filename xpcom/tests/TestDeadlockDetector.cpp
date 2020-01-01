@@ -385,7 +385,7 @@ available
 until
 process
 finishes
-PRInt32
+int32_t
 mExitCode
 ;
 nsCString
@@ -752,7 +752,7 @@ pattr
 void
 RunToCompletion
 (
-PRUint32
+uint32_t
 aWaitMs
 )
 {
@@ -767,7 +767,7 @@ pollfds
 2
 ]
 ;
-PRInt32
+int32_t
 nfds
 ;
 bool
@@ -784,7 +784,7 @@ buf
 4096
 ]
 ;
-PRInt32
+int32_t
 len
 ;
 PRIntervalTime
@@ -897,7 +897,7 @@ out_flags
 nfds
 ;
 }
-PRInt32
+int32_t
 rv
 =
 PR_Poll
@@ -961,7 +961,7 @@ return
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1236,7 +1236,7 @@ mExitCode
 -
 1
 ;
-PRInt32
+int32_t
 dummy
 ;
 PR_WaitProcess
@@ -1431,7 +1431,7 @@ mExitCode
 return
 false
 ;
-PRInt32
+int32_t
 idx
 =
 0
@@ -2742,7 +2742,7 @@ void
 arg
 )
 {
-PRInt32
+int32_t
 m1First
 =
 NS_PTR_TO_INT32
@@ -3061,7 +3061,7 @@ cndMs
 ]
 ;
 const
-PRUint32
+uint32_t
 K
 =
 100000
@@ -3075,7 +3075,7 @@ void
 arg
 )
 {
-PRInt32
+int32_t
 starti
 =
 NS_PTR_TO_INT32
@@ -3085,7 +3085,7 @@ arg
 ;
 for
 (
-PRUint32
+uint32_t
 k
 =
 0
@@ -3101,7 +3101,7 @@ k
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 starti
@@ -3109,7 +3109,7 @@ starti
 i
 <
 (
-PRInt32
+int32_t
 )
 ArrayLength
 (
@@ -3144,7 +3144,7 @@ fun
 !
 for
 (
-PRInt32
+int32_t
 i
 =
 ArrayLength
@@ -3199,7 +3199,7 @@ threads
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3237,7 +3237,7 @@ ms
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3245,7 +3245,7 @@ i
 i
 <
 (
-PRInt32
+int32_t
 )
 ArrayLength
 (
@@ -3272,7 +3272,7 @@ i
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3298,7 +3298,7 @@ i
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

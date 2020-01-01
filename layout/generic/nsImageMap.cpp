@@ -369,7 +369,7 @@ nscoord
 *
 mCoords
 ;
-PRInt32
+int32_t
 mNumCoords
 ;
 bool
@@ -522,7 +522,7 @@ const
 nsAString
 &
 aCoordsSpec
-PRInt32
+int32_t
 aFlags
 const
 char
@@ -635,11 +635,11 @@ char
 *
 n_str
 ;
-PRInt32
+int32_t
 i
 cnt
 ;
-PRInt32
+int32_t
 *
 value_list
 ;
@@ -1790,7 +1790,7 @@ saneRect
 =
 true
 ;
-PRInt32
+int32_t
 flag
 =
 nsIScriptError
@@ -2591,7 +2591,7 @@ mNumCoords
 6
 )
 {
-PRInt32
+int32_t
 intersects
 =
 0
@@ -2606,14 +2606,14 @@ wherey
 =
 y
 ;
-PRInt32
+int32_t
 totalv
 =
 mNumCoords
 /
 2
 ;
-PRInt32
+int32_t
 totalc
 =
 totalv
@@ -2640,12 +2640,12 @@ totalc
 1
 ]
 ;
-PRInt32
+int32_t
 end
 =
 totalc
 ;
-PRInt32
+int32_t
 pointer
 =
 1
@@ -3174,7 +3174,7 @@ y1
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 2
@@ -3337,7 +3337,7 @@ mCoords
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 2
@@ -3608,7 +3608,7 @@ wrongNumberOfCoords
 =
 false
 ;
-PRInt32
+int32_t
 flag
 =
 nsIScriptError
@@ -4173,7 +4173,7 @@ node
 and
 return
 bounds
-PRUint32
+uint32_t
 i
 n
 =
@@ -4252,7 +4252,7 @@ FreeAreas
 (
 )
 {
-PRUint32
+uint32_t
 i
 n
 =
@@ -4472,7 +4472,7 @@ rv
 =
 NS_OK
 ;
-PRUint32
+uint32_t
 i
 n
 =
@@ -5189,7 +5189,7 @@ initialized
 "
 )
 ;
-PRUint32
+uint32_t
 i
 n
 =
@@ -5256,7 +5256,7 @@ nsImageMap
 :
 GetAreaAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -5287,7 +5287,7 @@ nsRenderingContext
 aRC
 )
 {
-PRUint32
+uint32_t
 i
 n
 =
@@ -5377,12 +5377,12 @@ dom
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -5611,7 +5611,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
+int32_t
 /
 *
 unused
@@ -5640,7 +5640,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 /
 *
 unused
@@ -5669,7 +5669,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *
@@ -5829,7 +5829,7 @@ if
 targetContent
 )
 {
-PRUint32
+uint32_t
 i
 n
 =

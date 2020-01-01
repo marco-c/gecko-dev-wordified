@@ -443,9 +443,9 @@ Init
 nsIDOMCharacterData
 *
 aElement
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aReplaceLength
 nsIPrivateTextRangeList
 *
@@ -1345,13 +1345,13 @@ void
 nsresult
 result
 ;
-PRUint16
+uint16_t
 i
 ;
 #
 ifdef
 DEBUG_IMETXN
-PRUint16
+uint16_t
 listlen
 start
 stop
@@ -1616,7 +1616,7 @@ selCon
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-PRUint16
+uint16_t
 textRangeListLength
 selectionStart
 selectionEnd
@@ -1699,7 +1699,7 @@ imeSel
 ;
 for
 (
-PRInt8
+int8_t
 selIdx
 =
 0

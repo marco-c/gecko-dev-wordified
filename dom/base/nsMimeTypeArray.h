@@ -205,7 +205,7 @@ nsIDOMMimeType
 *
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 nsresult
 *
@@ -382,7 +382,7 @@ handled
 by
 plugins
 .
-PRUint32
+uint32_t
 mPluginMimeTypeCount
 ;
 /

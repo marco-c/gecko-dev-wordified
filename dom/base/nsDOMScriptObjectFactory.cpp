@@ -873,7 +873,7 @@ nsIID
 *
 *
 aInterfaces
-PRUint32
+uint32_t
 aScriptableFlags
 bool
 aHasClassInterface
@@ -1005,7 +1005,7 @@ aLanguage
 nsresult
 NS_GetScriptRuntimeByID
 (
-PRUint32
+uint32_t
 aScriptTypeID
 nsIScriptRuntime
 *

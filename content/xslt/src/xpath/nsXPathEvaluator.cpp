@@ -231,7 +231,7 @@ nsIDOMXPathNSResolver
 aResolver
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 aNamespaceIDs
@@ -324,7 +324,7 @@ resolveNamespacePrefix
 nsIAtom
 *
 aPrefix
-PRInt32
+int32_t
 &
 aID
 )
@@ -335,7 +335,7 @@ resolveFunctionCall
 nsIAtom
 *
 aName
-PRInt32
+int32_t
 aID
 FunctionCall
 *
@@ -351,7 +351,7 @@ caseInsensitiveNameTests
 void
 SetErrorOffset
 (
-PRUint32
+uint32_t
 aOffset
 )
 ;
@@ -363,7 +363,7 @@ mResolver
 ;
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 mNamespaceIDs
@@ -489,7 +489,7 @@ aResolver
 (
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 )
@@ -576,7 +576,7 @@ aContextNode
 nsIDOMXPathNSResolver
 *
 aResolver
-PRUint16
+uint16_t
 aType
 nsISupports
 *
@@ -686,7 +686,7 @@ aResult
 {
 nsTArray
 <
-PRInt32
+int32_t
 >
 namespaceIDs
 ;
@@ -695,7 +695,7 @@ if
 aNamespaceURIs
 )
 {
-PRUint32
+uint32_t
 count
 =
 aNamespaceURIs
@@ -741,7 +741,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 for
@@ -831,7 +831,7 @@ nsIDOMXPathNSResolver
 aResolver
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 aNamespaceIDs
@@ -1046,7 +1046,7 @@ resolveNamespacePrefix
 nsIAtom
 *
 aPrefix
-PRInt32
+int32_t
 &
 aID
 )
@@ -1164,7 +1164,7 @@ const
 nsCString
 &
 aContractID
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1187,7 +1187,7 @@ resolveFunctionCall
 nsIAtom
 *
 aName
-PRInt32
+int32_t
 aID
 FunctionCall
 *
@@ -1200,7 +1200,7 @@ rv
 =
 NS_ERROR_XPATH_UNKNOWN_FUNCTION
 ;
-PRUint32
+uint32_t
 i
 count
 =
@@ -1313,7 +1313,7 @@ nsXPathEvaluatorParseContext
 :
 SetErrorOffset
 (
-PRUint32
+uint32_t
 aOffset
 )
 {

@@ -2390,7 +2390,7 @@ isWritable
 isWritable
 )
 {
-PRUint32
+uint32_t
 permissions
 ;
 if
@@ -2599,7 +2599,7 @@ exists
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2895,7 +2895,7 @@ aType
 nsresult
 rv
 ;
-PRInt32
+int32_t
 i
 =
 0
@@ -3413,7 +3413,7 @@ path
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -4825,7 +4825,7 @@ PRUnichar
 *
 buf
 ;
-PRUint32
+uint32_t
 bufLength
 =
 _retval
@@ -5391,7 +5391,7 @@ PRUnichar
 *
 buf
 ;
-PRUint32
+uint32_t
 bufLength
 =
 longPath
@@ -5530,7 +5530,7 @@ AppendLiteral
 "
 )
 ;
-PRUint32
+uint32_t
 programFilesLen
 =
 programFiles

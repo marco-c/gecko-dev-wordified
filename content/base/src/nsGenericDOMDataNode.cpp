@@ -1032,7 +1032,7 @@ nsGenericDOMDataNode
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -1056,9 +1056,9 @@ nsGenericDOMDataNode
 :
 SubstringData
 (
-PRUint32
+uint32_t
 aStart
-PRUint32
+uint32_t
 aCount
 nsAString
 &
@@ -1071,7 +1071,7 @@ Truncate
 (
 )
 ;
-PRUint32
+uint32_t
 textLength
 =
 mText
@@ -1091,7 +1091,7 @@ return
 NS_ERROR_DOM_INDEX_SIZE_ERR
 ;
 }
-PRUint32
+uint32_t
 amount
 =
 aCount
@@ -1299,7 +1299,7 @@ nsGenericDOMDataNode
 :
 InsertData
 (
-PRUint32
+uint32_t
 aOffset
 const
 nsAString
@@ -1332,9 +1332,9 @@ nsGenericDOMDataNode
 :
 DeleteData
 (
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -1355,9 +1355,9 @@ nsGenericDOMDataNode
 :
 ReplaceData
 (
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 const
 nsAString
@@ -1390,15 +1390,15 @@ nsGenericDOMDataNode
 :
 SetTextInternal
 (
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 bool
 aNotify
@@ -1431,7 +1431,7 @@ SetTextInternal
 /
 sanitize
 arguments
-PRUint32
+uint32_t
 textLength
 =
 mText
@@ -1467,7 +1467,7 @@ textLength
 aOffset
 ;
 }
-PRUint32
+uint32_t
 endOffset
 =
 aOffset
@@ -1702,7 +1702,7 @@ new
 Allocate
 new
 buffer
-PRInt32
+int32_t
 newLength
 =
 textLength
@@ -2065,9 +2065,9 @@ ToCString
 nsAString
 &
 aBuf
-PRInt32
+int32_t
 aOffset
-PRInt32
+int32_t
 aLen
 )
 const
@@ -3241,7 +3241,7 @@ nsGenericDOMDataNode
 :
 GetChildren
 (
-PRUint32
+uint32_t
 aFilter
 )
 {
@@ -3289,7 +3289,7 @@ nsGenericDOMDataNode
 :
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -3315,7 +3315,7 @@ nsGenericDOMDataNode
 :
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -3334,7 +3334,7 @@ nsGenericDOMDataNode
 :
 GetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -3361,7 +3361,7 @@ nsGenericDOMDataNode
 :
 HasAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -3381,7 +3381,7 @@ nsGenericDOMDataNode
 :
 GetAttrNameAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -3390,7 +3390,7 @@ return
 nullptr
 ;
 }
-PRUint32
+uint32_t
 nsGenericDOMDataNode
 :
 :
@@ -3403,7 +3403,7 @@ return
 0
 ;
 }
-PRUint32
+uint32_t
 nsGenericDOMDataNode
 :
 :
@@ -3423,7 +3423,7 @@ nsGenericDOMDataNode
 :
 GetChildAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -3441,7 +3441,7 @@ nsGenericDOMDataNode
 :
 GetChildArray
 (
-PRUint32
+uint32_t
 *
 aChildCount
 )
@@ -3456,7 +3456,7 @@ return
 nullptr
 ;
 }
-PRInt32
+int32_t
 nsGenericDOMDataNode
 :
 :
@@ -3482,7 +3482,7 @@ InsertChildAt
 nsIContent
 *
 aKid
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -3498,7 +3498,7 @@ nsGenericDOMDataNode
 :
 RemoveChildAt
 (
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -3540,7 +3540,7 @@ nsGenericDOMDataNode
 :
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -3637,7 +3637,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -3652,7 +3652,7 @@ DumpContent
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 bool
 aDumpAll
@@ -3788,7 +3788,7 @@ nsGenericDOMDataNode
 :
 SplitData
 (
-PRUint32
+uint32_t
 aOffset
 nsIContent
 *
@@ -3811,7 +3811,7 @@ NS_OK
 nsAutoString
 cutText
 ;
-PRUint32
+uint32_t
 length
 =
 TextLength
@@ -3829,7 +3829,7 @@ return
 NS_ERROR_DOM_INDEX_SIZE_ERR
 ;
 }
-PRUint32
+uint32_t
 cutStartOffset
 =
 aCloneAfterOriginal
@@ -3838,7 +3838,7 @@ aOffset
 :
 0
 ;
-PRUint32
+uint32_t
 cutLength
 =
 aCloneAfterOriginal
@@ -4009,7 +4009,7 @@ if
 parent
 )
 {
-PRInt32
+int32_t
 insertionIndex
 =
 parent
@@ -4059,7 +4059,7 @@ nsGenericDOMDataNode
 :
 SplitText
 (
-PRUint32
+uint32_t
 aOffset
 nsIDOMText
 *
@@ -4111,7 +4111,7 @@ rv
 static
 *
 /
-PRInt32
+int32_t
 nsGenericDOMDataNode
 :
 :
@@ -4120,7 +4120,7 @@ FirstLogicallyAdjacentTextNode
 nsIContent
 *
 aParent
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -4174,7 +4174,7 @@ return
 static
 *
 /
-PRInt32
+int32_t
 nsGenericDOMDataNode
 :
 :
@@ -4183,9 +4183,9 @@ LastLogicallyAdjacentTextNode
 nsIContent
 *
 aParent
-PRInt32
+int32_t
 aIndex
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -4195,7 +4195,7 @@ while
 +
 aIndex
 <
-PRInt32
+int32_t
 (
 aCount
 )
@@ -4276,7 +4276,7 @@ GetData
 aWholeText
 )
 ;
-PRInt32
+int32_t
 index
 =
 parent
@@ -4324,7 +4324,7 @@ index
 NS_ERROR_DOM_NOT_SUPPORTED_ERR
 )
 ;
-PRInt32
+int32_t
 first
 =
 FirstLogicallyAdjacentTextNode
@@ -4333,7 +4333,7 @@ parent
 index
 )
 ;
-PRInt32
+int32_t
 last
 =
 LastLogicallyAdjacentTextNode
@@ -4503,7 +4503,7 @@ return
 mText
 ;
 }
-PRUint32
+uint32_t
 nsGenericDOMDataNode
 :
 :
@@ -4530,7 +4530,7 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 bool
 aNotify
@@ -4561,7 +4561,7 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 bool
 aNotify
@@ -4812,7 +4812,7 @@ const
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 const

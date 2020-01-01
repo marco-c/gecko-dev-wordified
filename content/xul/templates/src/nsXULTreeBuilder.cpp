@@ -484,7 +484,7 @@ action
 nsresult
 GetTemplateActionRowFor
 (
-PRInt32
+int32_t
 aRow
 nsIContent
 *
@@ -532,7 +532,7 @@ action
 nsresult
 GetTemplateActionCellFor
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -563,7 +563,7 @@ tree
 nsresult
 GetResourceFor
 (
-PRInt32
+int32_t
 aRow
 nsIRDFResource
 *
@@ -595,7 +595,7 @@ view
 nsresult
 OpenContainer
 (
-PRInt32
+int32_t
 aIndex
 nsIXULTemplateResult
 *
@@ -630,12 +630,12 @@ nsTreeRows
 Subtree
 *
 aSubtree
-PRInt32
+int32_t
 aIndex
 nsIXULTemplateResult
 *
 aResult
-PRInt32
+int32_t
 *
 aDelta
 )
@@ -649,7 +649,7 @@ nsTreeRows
 Subtree
 *
 aSubtree
-PRInt32
+int32_t
 aIndex
 nsIXULTemplateResult
 *
@@ -657,12 +657,12 @@ aResult
 nsTemplateQuerySet
 *
 aQuerySet
-PRInt32
+int32_t
 *
 aDelta
 nsTArray
 <
-PRInt32
+int32_t
 >
 &
 open
@@ -692,7 +692,7 @@ view
 nsresult
 CloseContainer
 (
-PRInt32
+int32_t
 aIndex
 )
 ;
@@ -802,7 +802,7 @@ sort
 routine
 *
 /
-PRInt32
+int32_t
 CompareResults
 (
 nsIXULTemplateResult
@@ -1094,7 +1094,7 @@ etc
 )
 *
 /
-PRUint32
+uint32_t
 mSortHints
 ;
 /
@@ -1466,7 +1466,7 @@ bool
 aIsFinal
 )
 {
-PRInt32
+int32_t
 count
 =
 mRows
@@ -1612,7 +1612,7 @@ nsXULTreeBuilder
 :
 GetResourceAtIndex
 (
-PRInt32
+int32_t
 aRowIndex
 nsIRDFResource
 *
@@ -1656,7 +1656,7 @@ GetIndexOfResource
 nsIRDFResource
 *
 aResource
-PRInt32
+int32_t
 *
 aResult
 )
@@ -2207,7 +2207,7 @@ nsXULTreeBuilder
 :
 GetRowCount
 (
-PRInt32
+int32_t
 *
 aRowCount
 )
@@ -2294,7 +2294,7 @@ nsXULTreeBuilder
 :
 GetRowProperties
 (
-PRInt32
+int32_t
 aIndex
 nsISupportsArray
 *
@@ -2432,7 +2432,7 @@ nsXULTreeBuilder
 :
 GetCellProperties
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -2612,7 +2612,7 @@ nsXULTreeBuilder
 :
 IsContainer
 (
-PRInt32
+int32_t
 aIndex
 bool
 *
@@ -2731,7 +2731,7 @@ nsXULTreeBuilder
 :
 IsContainerOpen
 (
-PRInt32
+int32_t
 aIndex
 bool
 *
@@ -2863,7 +2863,7 @@ nsXULTreeBuilder
 :
 IsContainerEmpty
 (
-PRInt32
+int32_t
 aIndex
 bool
 *
@@ -3086,7 +3086,7 @@ nsXULTreeBuilder
 :
 IsSeparator
 (
-PRInt32
+int32_t
 aIndex
 bool
 *
@@ -3186,9 +3186,9 @@ nsXULTreeBuilder
 :
 GetParentIndex
 (
-PRInt32
+int32_t
 aRowIndex
-PRInt32
+int32_t
 *
 aResult
 )
@@ -3298,7 +3298,7 @@ one
 s
 subtree
 size
-PRInt32
+int32_t
 index
 =
 iter
@@ -3365,9 +3365,9 @@ nsXULTreeBuilder
 :
 HasNextSibling
 (
-PRInt32
+int32_t
 aRowIndex
-PRInt32
+int32_t
 aAfterIndex
 bool
 *
@@ -3510,9 +3510,9 @@ nsXULTreeBuilder
 :
 GetLevel
 (
-PRInt32
+int32_t
 aRowIndex
-PRInt32
+int32_t
 *
 aResult
 )
@@ -3611,7 +3611,7 @@ nsXULTreeBuilder
 :
 GetImageSrc
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -3752,12 +3752,12 @@ nsXULTreeBuilder
 :
 GetProgressMode
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
 aCol
-PRInt32
+int32_t
 *
 aResult
 )
@@ -3936,7 +3936,7 @@ nsXULTreeBuilder
 :
 GetCellValue
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -4077,7 +4077,7 @@ nsXULTreeBuilder
 :
 GetCellText
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -4555,7 +4555,7 @@ nsXULTreeBuilder
 :
 ToggleOpenState
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -4670,7 +4670,7 @@ if
 mObservers
 )
 {
-PRUint32
+uint32_t
 count
 ;
 mObservers
@@ -4684,7 +4684,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4892,7 +4892,7 @@ GetId
 id
 )
 ;
-PRUint32
+uint32_t
 count
 ;
 mObservers
@@ -4906,7 +4906,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4971,7 +4971,7 @@ if
 mObservers
 )
 {
-PRUint32
+uint32_t
 count
 ;
 mObservers
@@ -4985,7 +4985,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5034,7 +5034,7 @@ nsXULTreeBuilder
 :
 CycleCell
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -5062,7 +5062,7 @@ GetId
 id
 )
 ;
-PRUint32
+uint32_t
 count
 ;
 mObservers
@@ -5076,7 +5076,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5131,7 +5131,7 @@ nsXULTreeBuilder
 :
 IsEditable
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -5289,7 +5289,7 @@ nsXULTreeBuilder
 :
 IsSelectable
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -5442,7 +5442,7 @@ nsXULTreeBuilder
 :
 SetCellValue
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -5468,7 +5468,7 @@ nsXULTreeBuilder
 :
 SetCellText
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -5505,7 +5505,7 @@ if
 mObservers
 )
 {
-PRUint32
+uint32_t
 count
 ;
 mObservers
@@ -5519,7 +5519,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5573,7 +5573,7 @@ const
 PRUnichar
 *
 aAction
-PRInt32
+int32_t
 aRow
 )
 {
@@ -5582,7 +5582,7 @@ if
 mObservers
 )
 {
-PRUint32
+uint32_t
 count
 ;
 mObservers
@@ -5596,7 +5596,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5651,7 +5651,7 @@ const
 PRUnichar
 *
 aAction
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -5679,7 +5679,7 @@ GetId
 id
 )
 ;
-PRUint32
+uint32_t
 count
 ;
 mObservers
@@ -5693,7 +5693,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6151,7 +6151,7 @@ rows
 from
 the
 view
-PRInt32
+int32_t
 row
 =
 iter
@@ -6191,7 +6191,7 @@ gets
 added
 back
 .
-PRInt32
+int32_t
 delta
 =
 mRows
@@ -6362,7 +6362,7 @@ mResult
 /
 Insertion
 .
-PRInt32
+int32_t
 row
 =
 -
@@ -6726,7 +6726,7 @@ end
 of
 the
 container
-PRInt32
+int32_t
 index
 =
 parent
@@ -6759,12 +6759,12 @@ an
 insertion
 sort
 .
-PRInt32
+int32_t
 left
 =
 0
 ;
-PRInt32
+int32_t
 right
 =
 index
@@ -6786,7 +6786,7 @@ right
 /
 2
 ;
-PRInt32
+int32_t
 cmp
 =
 CompareResults
@@ -7062,7 +7062,7 @@ Last
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 row
 =
 iter
@@ -7505,7 +7505,7 @@ if
 mBoxObject
 )
 {
-PRInt32
+int32_t
 count
 =
 mRows
@@ -7675,7 +7675,7 @@ nsXULTreeBuilder
 :
 GetTemplateActionRowFor
 (
-PRInt32
+int32_t
 aRow
 nsIContent
 *
@@ -7759,7 +7759,7 @@ in
 the
 template
 .
-PRInt16
+int16_t
 ruleindex
 =
 row
@@ -7905,7 +7905,7 @@ nsXULTreeBuilder
 :
 GetTemplateActionCellFor
 (
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -7955,7 +7955,7 @@ nsIAtom
 >
 colAtom
 ;
-PRInt32
+int32_t
 colIndex
 ;
 aCol
@@ -7978,7 +7978,7 @@ GetIndex
 colIndex
 )
 ;
-PRUint32
+uint32_t
 j
 =
 0
@@ -8063,7 +8063,7 @@ j
 =
 =
 (
-PRUint32
+uint32_t
 )
 colIndex
 )
@@ -8095,7 +8095,7 @@ nsXULTreeBuilder
 :
 GetResourceFor
 (
-PRInt32
+int32_t
 aRow
 nsIRDFResource
 *
@@ -8137,7 +8137,7 @@ nsXULTreeBuilder
 :
 OpenContainer
 (
-PRInt32
+int32_t
 aIndex
 nsIXULTemplateResult
 *
@@ -8275,7 +8275,7 @@ container
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRInt32
+int32_t
 count
 ;
 OpenSubtreeOf
@@ -8345,29 +8345,29 @@ nsTreeRows
 Subtree
 *
 aSubtree
-PRInt32
+int32_t
 aIndex
 nsIXULTemplateResult
 *
 aResult
-PRInt32
+int32_t
 *
 aDelta
 )
 {
 nsAutoTArray
 <
-PRInt32
+int32_t
 8
 >
 open
 ;
-PRInt32
+int32_t
 count
 =
 0
 ;
-PRInt32
+int32_t
 rulecount
 =
 mQuerySets
@@ -8378,7 +8378,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 r
 =
 0
@@ -8448,7 +8448,7 @@ offsets
 .
 for
 (
-PRInt32
+int32_t
 i
 =
 open
@@ -8469,7 +8469,7 @@ i
 i
 )
 {
-PRInt32
+int32_t
 index
 =
 open
@@ -8509,7 +8509,7 @@ mMatch
 >
 mResult
 ;
-PRInt32
+int32_t
 delta
 ;
 OpenSubtreeOf
@@ -8587,7 +8587,7 @@ nsTreeRows
 Subtree
 *
 aSubtree
-PRInt32
+int32_t
 aIndex
 nsIXULTemplateResult
 *
@@ -8595,18 +8595,18 @@ aResult
 nsTemplateQuerySet
 *
 aQuerySet
-PRInt32
+int32_t
 *
 aDelta
 nsTArray
 <
-PRInt32
+int32_t
 >
 &
 open
 )
 {
-PRInt32
+int32_t
 count
 =
 *
@@ -9059,7 +9059,7 @@ false
 continue
 ;
 }
-PRInt16
+int16_t
 ruleindex
 ;
 nsTemplateRule
@@ -9278,7 +9278,7 @@ nsXULTreeBuilder
 :
 CloseContainer
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -9349,7 +9349,7 @@ iter
 mSubtree
 )
 ;
-PRInt32
+int32_t
 count
 =
 mRows
@@ -9426,7 +9426,7 @@ subtree
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 subtree
@@ -9822,7 +9822,7 @@ mResult
 )
 ;
 }
-PRInt32
+int32_t
 nsXULTreeBuilder
 :
 :
@@ -10141,7 +10141,7 @@ in
 the
 container
 .
-PRInt32
+int32_t
 lindex
 =
 0
@@ -10245,7 +10245,7 @@ rindex
 }
 }
 }
-PRInt32
+int32_t
 sortorder
 ;
 if
@@ -10324,7 +10324,7 @@ this
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 aSubtree
@@ -10398,9 +10398,9 @@ nsXULTreeBuilder
 :
 CanDrop
 (
-PRInt32
+int32_t
 index
-PRInt32
+int32_t
 orientation
 nsIDOMDataTransfer
 *
@@ -10420,7 +10420,7 @@ if
 mObservers
 )
 {
-PRUint32
+uint32_t
 count
 ;
 mObservers
@@ -10434,7 +10434,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10496,9 +10496,9 @@ nsXULTreeBuilder
 :
 Drop
 (
-PRInt32
+int32_t
 row
-PRInt32
+int32_t
 orient
 nsIDOMDataTransfer
 *
@@ -10510,7 +10510,7 @@ if
 mObservers
 )
 {
-PRUint32
+uint32_t
 count
 ;
 mObservers
@@ -10524,7 +10524,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

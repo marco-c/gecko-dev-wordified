@@ -212,7 +212,7 @@ false
 static
 *
 /
-PRInt32
+int32_t
 DiscardTracker
 :
 :
@@ -225,7 +225,7 @@ sDiscardRunnablePending
 static
 *
 /
-PRInt64
+int64_t
 DiscardTracker
 :
 :
@@ -238,7 +238,7 @@ sCurrentDecodedImageBytes
 static
 *
 /
-PRUint32
+uint32_t
 DiscardTracker
 :
 :
@@ -251,7 +251,7 @@ sMinDiscardTimeoutMs
 static
 *
 /
-PRUint32
+uint32_t
 DiscardTracker
 :
 :
@@ -805,7 +805,7 @@ DiscardTracker
 :
 InformAllocation
 (
-PRInt64
+int64_t
 bytes
 )
 {
@@ -1049,7 +1049,7 @@ the
 timeout
 pref
 .
-PRInt32
+int32_t
 discardTimeout
 ;
 nsresult
@@ -1104,7 +1104,7 @@ return
 if
 (
 (
-PRUint32
+uint32_t
 )
 discardTimeout
 =
@@ -1122,7 +1122,7 @@ value
 sMinDiscardTimeoutMs
 =
 (
-PRUint32
+uint32_t
 )
 discardTimeout
 ;

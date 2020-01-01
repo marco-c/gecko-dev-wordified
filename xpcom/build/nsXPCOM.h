@@ -1555,7 +1555,7 @@ void
 )
 NS_DebugBreak
 (
-PRUint32
+uint32_t
 aSeverity
 const
 char
@@ -1569,7 +1569,7 @@ const
 char
 *
 aFile
-PRInt32
+int32_t
 aLine
 )
 ;
@@ -1781,7 +1781,7 @@ const
 char
 *
 aTypeName
-PRUint32
+uint32_t
 aInstanceSize
 )
 ;
@@ -1798,7 +1798,7 @@ const
 char
 *
 aTypeName
-PRUint32
+uint32_t
 aInstanceSize
 )
 ;
@@ -1896,7 +1896,7 @@ const
 char
 *
 aTypeName
-PRUint32
+uint32_t
 aInstanceSize
 )
 ;

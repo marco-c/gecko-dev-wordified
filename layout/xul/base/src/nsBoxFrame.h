@@ -608,12 +608,12 @@ asPrevInFlow
 NS_IMETHOD
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 ;
@@ -730,7 +730,7 @@ virtual
 bool
 IsFrameOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -1445,9 +1445,9 @@ GetValue
 nsPresContext
 *
 aPresContext
-PRInt32
+int32_t
 a
-PRInt32
+int32_t
 b
 char
 *
@@ -1465,7 +1465,7 @@ nsRenderingContext
 aRenderingContext
 bool
 aHorizontal
-PRInt32
+int32_t
 flex
 nscoord
 x

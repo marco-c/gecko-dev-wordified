@@ -354,7 +354,7 @@ entry
 nsresult
 RequestDataSizeChange
 (
-PRInt32
+int32_t
 deltaSize
 )
 ;
@@ -661,7 +661,7 @@ nsIInputStream
 >
 mInput
 ;
-PRUint32
+uint32_t
 mStartOffset
 ;
 bool
@@ -676,7 +676,7 @@ nsInputStreamWrapper
 nsCacheEntryDescriptor
 *
 desc
-PRUint32
+uint32_t
 off
 )
 :
@@ -752,7 +752,7 @@ char
 *
 mReadBuffer
 ;
-PRUint32
+uint32_t
 mReadBufferLen
 ;
 z_stream
@@ -772,7 +772,7 @@ nsDecompressInputStreamWrapper
 nsCacheEntryDescriptor
 *
 desc
-PRUint32
+uint32_t
 off
 )
 :
@@ -816,9 +816,9 @@ Read
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 result
 )
@@ -1038,7 +1038,7 @@ nsIOutputStream
 >
 mOutput
 ;
-PRUint32
+uint32_t
 mStartOffset
 ;
 bool
@@ -1053,7 +1053,7 @@ nsOutputStreamWrapper
 nsCacheEntryDescriptor
 *
 desc
-PRUint32
+uint32_t
 off
 )
 :
@@ -1149,7 +1149,7 @@ LazyInit
 nsresult
 OnWrite
 (
-PRUint32
+uint32_t
 count
 )
 ;
@@ -1172,7 +1172,7 @@ char
 *
 mWriteBuffer
 ;
-PRUint32
+uint32_t
 mWriteBufferLen
 ;
 z_stream
@@ -1181,7 +1181,7 @@ mZstream
 bool
 mStreamInitialized
 ;
-PRUint32
+uint32_t
 mUncompressedCount
 ;
 public
@@ -1192,7 +1192,7 @@ nsCompressOutputStreamWrapper
 nsCacheEntryDescriptor
 *
 desc
-PRUint32
+uint32_t
 off
 )
 :
@@ -1237,9 +1237,9 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 result
 )

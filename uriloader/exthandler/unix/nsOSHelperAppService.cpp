@@ -6368,7 +6368,7 @@ rv
 )
 continue
 ;
-PRInt32
+int32_t
 exitValue
 ;
 rv

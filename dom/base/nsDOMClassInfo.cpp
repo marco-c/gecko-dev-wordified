@@ -3966,7 +3966,7 @@ _dom_class
 )
 \
 const
-PRUint32
+uint32_t
 kDOMClassInfo_
 #
 #
@@ -7221,7 +7221,7 @@ Name
 struct
 nsContractIDMapData
 {
-PRInt32
+int32_t
 mDOMClassInfoID
 ;
 const
@@ -7499,7 +7499,7 @@ aInstancePtrResult
 struct
 nsConstructorFuncMapData
 {
-PRInt32
+int32_t
 mDOMClassInfoID
 ;
 nsDOMConstructorFunc
@@ -10109,7 +10109,7 @@ nsDOMClassInfo
 :
 RegisterClassProtos
 (
-PRInt32
+int32_t
 aClassInfoID
 )
 {
@@ -16849,7 +16849,7 @@ DOM_CLASSINFO_MAP_END
 ifdef
 DEBUG
 {
-PRUint32
+uint32_t
 i
 =
 ArrayLength
@@ -17055,7 +17055,7 @@ DefineStaticJSVals
 cx
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -17236,7 +17236,7 @@ NS_OK
 /
 /
 static
-PRInt32
+int32_t
 nsDOMClassInfo
 :
 :
@@ -17360,7 +17360,7 @@ nsDOMClassInfo
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 aCount
 nsIID
@@ -17370,7 +17370,7 @@ nsIID
 aArray
 )
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -17443,7 +17443,7 @@ aArray
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -17530,7 +17530,7 @@ nsDOMClassInfo
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -17662,7 +17662,7 @@ nsDOMClassInfo
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplLanguage
 )
@@ -17685,7 +17685,7 @@ nsDOMClassInfo
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -17732,7 +17732,7 @@ NS_OK
 /
 /
 virtual
-PRUint32
+uint32_t
 nsDOMClassInfo
 :
 :
@@ -18250,7 +18250,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 enum_op
 jsval
 *
@@ -18448,7 +18448,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -18498,7 +18498,7 @@ GetItemAt
 nsISupports
 *
 aNative
-PRUint32
+uint32_t
 aIndex
 nsWrapperCache
 *
@@ -18547,7 +18547,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 type
 jsval
 *
@@ -18631,7 +18631,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 mode
 jsval
 *
@@ -18641,7 +18641,7 @@ bool
 _retval
 )
 {
-PRUint32
+uint32_t
 mode_type
 =
 mode
@@ -18770,7 +18770,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -18818,7 +18818,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -19210,7 +19210,7 @@ JSObject
 proto
 )
 {
-PRUint32
+uint32_t
 flags
 =
 (
@@ -19226,7 +19226,7 @@ DONT_ENUM_STATIC_PROPS
 :
 JSPROP_ENUMERATE
 ;
-PRUint32
+uint32_t
 count
 =
 0
@@ -20217,7 +20217,7 @@ u
 mConstructorFptr
 )
 {
-PRUint32
+uint32_t
 i
 ;
 for
@@ -21773,7 +21773,7 @@ GetChildFrame
 nsGlobalWindow
 *
 win
-PRUint32
+uint32_t
 index
 )
 {
@@ -22105,10 +22105,10 @@ a
 security
 check
 .
-PRUint32
+uint32_t
 index
 =
-PRUint32
+uint32_t
 (
 JSID_TO_INT
 (
@@ -22859,7 +22859,7 @@ aDOMClassInfoData
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -23704,7 +23704,7 @@ if_info
 rv
 )
 ;
-PRUint16
+uint16_t
 constant_count
 ;
 if_info
@@ -23757,7 +23757,7 @@ parent_if_info
 rv
 )
 ;
-PRUint16
+uint16_t
 parent_constant_count
 i
 ;
@@ -23816,7 +23816,7 @@ c
 rv
 )
 ;
-PRUint16
+uint16_t
 type
 =
 c
@@ -24411,7 +24411,7 @@ instead
 "
 )
 ;
-PRUint64
+uint64_t
 windowID
 =
 0
@@ -24955,7 +24955,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -25810,7 +25810,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -26776,7 +26776,7 @@ nsIInterfaceInfo
 >
 if_info
 ;
-PRUint32
+uint32_t
 count
 =
 0
@@ -27276,7 +27276,7 @@ nsGlobalNameStruct
 eTypeClassConstructor
 )
 {
-PRInt32
+int32_t
 id
 =
 aNameStruct
@@ -30648,7 +30648,7 @@ JSObject
 obj_
 jsid
 id_
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -30781,10 +30781,10 @@ for
 this
 index
 .
-PRUint32
+uint32_t
 index
 =
-PRUint32
+uint32_t
 (
 JSID_TO_INT
 (
@@ -31708,7 +31708,7 @@ GetDocShell
 )
 )
 ;
-PRInt32
+int32_t
 count
 =
 0
@@ -31988,7 +31988,7 @@ classes
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -33485,7 +33485,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 mode
 jsval
 *
@@ -33838,7 +33838,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -35738,7 +35738,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -35876,7 +35876,7 @@ nsNodeSH
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -37211,7 +37211,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -37254,7 +37254,7 @@ is_number
 =
 false
 ;
-PRInt32
+int32_t
 n
 =
 GetArrayIndexFromId
@@ -37326,7 +37326,7 @@ t
 provide
 one
 .
-PRUint32
+uint32_t
 length
 ;
 nsresult
@@ -37347,10 +37347,10 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 index
 =
-PRUint32
+uint32_t
 (
 n
 )
@@ -37406,7 +37406,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 *
 length
 )
@@ -37470,7 +37470,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 slen
 =
 JSVAL_TO_INT
@@ -37493,7 +37493,7 @@ NS_OK
 length
 =
 (
-PRUint32
+uint32_t
 )
 slen
 ;
@@ -37613,7 +37613,7 @@ len_val
 )
 )
 {
-PRInt32
+int32_t
 length
 =
 JSVAL_TO_INT
@@ -37623,7 +37623,7 @@ len_val
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -37706,7 +37706,7 @@ is_number
 =
 false
 ;
-PRInt32
+int32_t
 n
 =
 GetArrayIndexFromId
@@ -37847,7 +37847,7 @@ GetStringAt
 nsISupports
 *
 aNative
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -37895,7 +37895,7 @@ aResult
 )
 )
 {
-PRUint32
+uint32_t
 length
 =
 0
@@ -37911,7 +37911,7 @@ length
 ;
 NS_ASSERTION
 (
-PRUint32
+uint32_t
 (
 aIndex
 )
@@ -37963,7 +37963,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -38400,7 +38400,7 @@ GetItemAt
 nsISupports
 *
 aNative
-PRUint32
+uint32_t
 aIndex
 nsWrapperCache
 *
@@ -38519,7 +38519,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -38680,7 +38680,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -39401,7 +39401,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -39593,7 +39593,7 @@ nsDocumentSH
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -40907,7 +40907,7 @@ return
 JS_FALSE
 ;
 }
-PRUint32
+uint32_t
 length
 ;
 rv
@@ -41890,7 +41890,7 @@ void
 *
 FlagsToPrivate
 (
-PRUint32
+uint32_t
 flags
 )
 {
@@ -41933,7 +41933,7 @@ flags
 }
 static
 inline
-PRUint32
+uint32_t
 PrivateToFlags
 (
 void
@@ -41973,7 +41973,7 @@ intPriv
 return
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 intPriv
@@ -42062,7 +42062,7 @@ return
 JS_TRUE
 ;
 }
-PRUint32
+uint32_t
 flags
 =
 PrivateToFlags
@@ -42622,7 +42622,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -43574,7 +43574,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -43856,7 +43856,7 @@ NS_SUCCESS_I_DID_SOMETHING
 }
 else
 {
-PRInt32
+int32_t
 n
 =
 GetArrayIndexFromId
@@ -43957,7 +43957,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 enum_op
 jsval
 *
@@ -44023,7 +44023,7 @@ if
 idp
 )
 {
-PRUint32
+uint32_t
 count
 =
 form
@@ -44068,11 +44068,11 @@ form
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 index
 =
 (
-PRInt32
+int32_t
 )
 JSVAL_TO_INT
 (
@@ -44080,7 +44080,7 @@ JSVAL_TO_INT
 statep
 )
 ;
-PRUint32
+uint32_t
 count
 =
 form
@@ -44093,7 +44093,7 @@ GetElementCount
 if
 (
 (
-PRUint32
+uint32_t
 )
 index
 <
@@ -44286,7 +44286,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -44297,7 +44297,7 @@ bool
 _retval
 )
 {
-PRInt32
+int32_t
 n
 =
 GetArrayIndexFromId
@@ -44375,7 +44375,7 @@ JS_DefineElement
 (
 cx
 obj
-PRUint32
+uint32_t
 (
 n
 )
@@ -44434,7 +44434,7 @@ bool
 _retval
 )
 {
-PRInt32
+int32_t
 n
 =
 GetArrayIndexFromId
@@ -44559,7 +44559,7 @@ JS
 Value
 *
 vp
-PRUint32
+uint32_t
 aIndex
 nsIDOMHTMLOptionsCollection
 *
@@ -44686,7 +44686,7 @@ bool
 _retval
 )
 {
-PRInt32
+int32_t
 n
 =
 GetArrayIndexFromId
@@ -46434,7 +46434,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -46780,7 +46780,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -46862,7 +46862,7 @@ GetItemAt
 nsISupports
 *
 aNative
-PRUint32
+uint32_t
 aIndex
 nsWrapperCache
 *
@@ -46956,7 +46956,7 @@ GetItemAt
 nsISupports
 *
 aNative
-PRUint32
+uint32_t
 aIndex
 nsWrapperCache
 *
@@ -47050,7 +47050,7 @@ GetItemAt
 nsISupports
 *
 aNative
-PRUint32
+uint32_t
 aIndex
 nsWrapperCache
 *
@@ -47164,7 +47164,7 @@ is_number
 =
 false
 ;
-PRInt32
+int32_t
 n
 =
 GetArrayIndexFromId
@@ -47441,7 +47441,7 @@ GetStringAt
 nsISupports
 *
 aNative
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -47494,7 +47494,7 @@ aResult
 )
 )
 {
-PRInt32
+int32_t
 length
 =
 0
@@ -47550,7 +47550,7 @@ GetStringAt
 nsISupports
 *
 aNative
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -47588,7 +47588,7 @@ media_list
 >
 Item
 (
-PRUint32
+uint32_t
 (
 aIndex
 )
@@ -47606,7 +47606,7 @@ aResult
 )
 )
 {
-PRUint32
+uint32_t
 length
 =
 0
@@ -47622,7 +47622,7 @@ length
 ;
 NS_ASSERTION
 (
-PRUint32
+uint32_t
 (
 aIndex
 )
@@ -47666,7 +47666,7 @@ GetItemAt
 nsISupports
 *
 aNative
-PRUint32
+uint32_t
 aIndex
 nsWrapperCache
 *
@@ -47713,7 +47713,7 @@ GetItemAt
 nsISupports
 *
 aNative
-PRUint32
+uint32_t
 aIndex
 nsWrapperCache
 *
@@ -47875,7 +47875,7 @@ GetStringAt
 nsISupports
 *
 aNative
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -47913,7 +47913,7 @@ style_decl
 >
 Item
 (
-PRUint32
+uint32_t
 (
 aIndex
 )
@@ -47931,7 +47931,7 @@ aResult
 )
 )
 {
-PRUint32
+uint32_t
 length
 =
 0
@@ -47947,7 +47947,7 @@ length
 ;
 NS_ASSERTION
 (
-PRUint32
+uint32_t
 (
 aIndex
 )
@@ -47992,7 +47992,7 @@ GetItemAt
 nsISupports
 *
 aNative
-PRUint32
+uint32_t
 aIndex
 nsWrapperCache
 *
@@ -48118,7 +48118,7 @@ GetItemAt
 nsISupports
 *
 aNative
-PRUint32
+uint32_t
 aIndex
 nsWrapperCache
 *
@@ -48266,7 +48266,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -49025,7 +49025,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 enum_op
 jsval
 *
@@ -49340,7 +49340,7 @@ aInitialThis
 nsIInterfaceInfo
 *
 aInterfaceInfo
-PRUint16
+uint16_t
 aMethodIndex
 bool
 *
@@ -49450,7 +49450,7 @@ aInitialThis
 nsIInterfaceInfo
 *
 aInterfaceInfo
-PRUint16
+uint16_t
 aMethodIndex
 bool
 *
@@ -49588,7 +49588,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -49837,7 +49837,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -49932,7 +49932,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -50111,7 +50111,7 @@ nsNonDOMObjectSH
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -50172,7 +50172,7 @@ nsAttributeSH
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -50206,7 +50206,7 @@ GetStringAt
 nsISupports
 *
 aNative
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -50254,7 +50254,7 @@ aResult
 )
 )
 {
-PRUint32
+uint32_t
 length
 =
 0
@@ -50270,7 +50270,7 @@ length
 ;
 NS_ASSERTION
 (
-PRUint32
+uint32_t
 (
 aIndex
 )
@@ -50313,7 +50313,7 @@ GetStringAt
 nsISupports
 *
 aNative
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -50453,7 +50453,7 @@ aResult
 )
 )
 {
-PRUint32
+uint32_t
 length
 =
 0
@@ -50469,7 +50469,7 @@ length
 ;
 NS_ASSERTION
 (
-PRUint32
+uint32_t
 (
 aIndex
 )

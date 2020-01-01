@@ -277,7 +277,7 @@ Processing
 -
 -
 -
-PRUint32
+uint32_t
 nsICODecoder
 :
 :
@@ -300,7 +300,7 @@ in
 #
 of
 bytes
-PRUint32
+uint32_t
 rowSize
 =
 (
@@ -344,7 +344,7 @@ the
 bits
 per
 pixel
-PRUint16
+uint16_t
 nsICODecoder
 :
 :
@@ -352,7 +352,7 @@ GetNumColors
 (
 )
 {
-PRUint16
+uint16_t
 numColors
 =
 0
@@ -402,7 +402,7 @@ default
 numColors
 =
 (
-PRUint16
+uint16_t
 )
 -
 1
@@ -621,7 +621,7 @@ nsICODecoder
 :
 FillBitmapFileHeaderBuffer
 (
-PRInt8
+int8_t
 *
 bfh
 )
@@ -651,12 +651,12 @@ bfh
 M
 '
 ;
-PRInt32
+int32_t
 dataOffset
 =
 0
 ;
-PRInt32
+int32_t
 fileSize
 =
 0
@@ -691,7 +691,7 @@ mBitCount
 8
 )
 {
-PRUint16
+uint16_t
 numColors
 =
 GetNumColors
@@ -704,7 +704,7 @@ numColors
 =
 =
 (
-PRUint16
+uint16_t
 )
 -
 1
@@ -845,7 +845,7 @@ nsICODecoder
 :
 FixBitmapHeight
 (
-PRInt8
+int8_t
 *
 bih
 )
@@ -861,7 +861,7 @@ BMP
 file
 information
 header
-PRInt32
+int32_t
 height
 ;
 memcpy
@@ -1005,7 +1005,7 @@ mDirEntry
 mHeight
 =
 (
-PRInt8
+int8_t
 )
 height
 ;
@@ -1077,7 +1077,7 @@ nsICODecoder
 :
 FixBitmapWidth
 (
-PRInt8
+int8_t
 *
 bih
 )
@@ -1093,7 +1093,7 @@ BMP
 file
 information
 header
-PRInt32
+int32_t
 width
 ;
 memcpy
@@ -1169,7 +1169,7 @@ mDirEntry
 mWidth
 =
 (
-PRInt8
+int8_t
 )
 width
 ;
@@ -1210,18 +1210,18 @@ is
 set
 to
 0
-PRInt32
+int32_t
 nsICODecoder
 :
 :
 ExtractBPPFromBitmap
 (
-PRInt8
+int8_t
 *
 bih
 )
 {
-PRInt32
+int32_t
 bitsPerPixel
 ;
 memcpy
@@ -1248,18 +1248,18 @@ return
 bitsPerPixel
 ;
 }
-PRInt32
+int32_t
 nsICODecoder
 :
 :
 ExtractBIHSizeFromBitmap
 (
-PRInt8
+int8_t
 *
 bih
 )
 {
-PRInt32
+int32_t
 headerSize
 ;
 memcpy
@@ -1316,7 +1316,7 @@ org
 /
 supports
 -
-PRUint32
+uint32_t
 ;
 1
 "
@@ -1337,7 +1337,7 @@ org
 /
 supports
 -
-PRUint32
+uint32_t
 ;
 1
 "
@@ -1403,7 +1403,7 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -1556,7 +1556,7 @@ LITTLE_TO_NATIVE16
 (
 (
 (
-PRUint16
+uint16_t
 *
 )
 aBuffer
@@ -1597,7 +1597,7 @@ Nothing
 to
 do
 .
-PRUint16
+uint16_t
 colorDepth
 =
 0
@@ -1654,7 +1654,7 @@ mDirEntryArray
 )
 )
 {
-PRUint32
+uint32_t
 toCopy
 =
 sizeof
@@ -1881,7 +1881,7 @@ bug
 #
 245631
 )
-PRUint32
+uint32_t
 minImageOffset
 =
 DIRENTRYOFFSET
@@ -1949,7 +1949,7 @@ the
 desired
 image
 offset
-PRUint32
+uint32_t
 toSkip
 =
 mImageOffset
@@ -2044,7 +2044,7 @@ mImageOffset
 PNGSIGNATURESIZE
 )
 {
-PRUint32
+uint32_t
 toCopy
 =
 PNGSIGNATURESIZE
@@ -2406,7 +2406,7 @@ found
 the
 icon
 .
-PRUint32
+uint32_t
 toCopy
 =
 sizeof
@@ -2504,14 +2504,14 @@ the
 bitmap
 information
 header
-PRInt32
+int32_t
 bihSize
 =
 ExtractBIHSizeFromBitmap
 (
 reinterpret_cast
 <
-PRInt8
+int8_t
 *
 >
 (
@@ -2567,7 +2567,7 @@ ExtractBPPFromBitmap
 (
 reinterpret_cast
 <
-PRInt8
+int8_t
 *
 >
 (
@@ -2707,7 +2707,7 @@ the
 BMP
 decoder
 .
-PRInt8
+int8_t
 bfhBuffer
 [
 BMPFILEHEADERSIZE
@@ -2801,7 +2801,7 @@ FixBitmapHeight
 (
 reinterpret_cast
 <
-PRInt8
+int8_t
 *
 >
 (
@@ -2834,7 +2834,7 @@ FixBitmapWidth
 (
 reinterpret_cast
 <
-PRInt8
+int8_t
 *
 >
 (
@@ -2957,7 +2957,7 @@ have
 valid
 color
 settings
-PRUint16
+uint16_t
 numColors
 =
 GetNumColors
@@ -2970,7 +2970,7 @@ numColors
 =
 =
 (
-PRUint16
+uint16_t
 )
 -
 1
@@ -3008,7 +3008,7 @@ mImageOffset
 BITMAPINFOSIZE
 )
 {
-PRUint16
+uint16_t
 numColors
 =
 GetNumColors
@@ -3021,7 +3021,7 @@ numColors
 =
 =
 (
-PRUint16
+uint16_t
 )
 -
 1
@@ -3050,7 +3050,7 @@ into
 the
 BMP
 decoder
-PRInt32
+int32_t
 bmpDataOffset
 =
 mDirEntry
@@ -3059,7 +3059,7 @@ mImageOffset
 +
 BITMAPINFOSIZE
 ;
-PRInt32
+int32_t
 bmpDataEnd
 =
 mDirEntry
@@ -3142,7 +3142,7 @@ the
 BMP
 decoder
 wants
-PRUint32
+uint32_t
 toFeed
 =
 bmpDataEnd
@@ -3338,7 +3338,7 @@ HasAlphaData
 )
 )
 {
-PRUint32
+uint32_t
 rowSize
 =
 (
@@ -3387,7 +3387,7 @@ GetRealHeight
 mRow
 =
 (
-PRUint8
+uint8_t
 *
 )
 moz_realloc
@@ -3456,7 +3456,7 @@ aCount
 0
 )
 {
-PRUint32
+uint32_t
 toCopy
 =
 NS_MIN
@@ -3513,7 +3513,7 @@ mRowBytes
 =
 0
 ;
-PRUint32
+uint32_t
 *
 imageData
 =
@@ -3548,7 +3548,7 @@ PostDataError
 return
 ;
 }
-PRUint32
+uint32_t
 *
 decoded
 =
@@ -3560,7 +3560,7 @@ GetRealWidth
 (
 )
 ;
-PRUint32
+uint32_t
 *
 decoded_end
 =
@@ -3570,7 +3570,7 @@ GetRealWidth
 (
 )
 ;
-PRUint8
+uint8_t
 *
 p
 =
@@ -3589,7 +3589,7 @@ p
 p_end
 )
 {
-PRUint8
+uint8_t
 idx
 =
 *
@@ -3599,7 +3599,7 @@ p
 ;
 for
 (
-PRUint8
+uint8_t
 bit
 =
 0x80
@@ -3661,7 +3661,7 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
 )
 {

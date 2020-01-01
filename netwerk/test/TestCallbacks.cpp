@@ -247,7 +247,7 @@ gError
 false
 ;
 static
-PRInt32
+int32_t
 gKeepRunning
 =
 0
@@ -431,7 +431,7 @@ received
 an
 onStop
 ?
-PRInt32
+int32_t
 mOnDataCount
 ;
 /
@@ -744,9 +744,9 @@ aContext
 nsIInputStream
 *
 aIStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aLength
 )
 {

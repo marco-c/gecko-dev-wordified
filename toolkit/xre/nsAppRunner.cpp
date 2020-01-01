@@ -1093,7 +1093,7 @@ h
 #
 endif
 extern
-PRUint32
+uint32_t
 gRestartMode
 ;
 extern
@@ -2978,7 +2978,7 @@ an
 error
 dialog
 .
-PRInt32
+int32_t
 count
 =
 20
@@ -3815,7 +3815,7 @@ nsXULAppInfo
 :
 GetProcessType
 (
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -4081,7 +4081,7 @@ nsXULAppInfo
 :
 GetReplacedLockTime
 (
-PRInt64
+int64_t
 *
 aReplacedLockTime
 )
@@ -4955,9 +4955,9 @@ nsXULAppInfo
 :
 RegisterAppMemory
 (
-PRUint64
+uint64_t
 pointer
-PRUint64
+uint64_t
 len
 )
 {
@@ -8387,7 +8387,7 @@ gRestartArgv
 true
 )
 ;
-PRUint32
+uint32_t
 restartMode
 =
 0
@@ -8641,7 +8641,7 @@ process
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 exitCode
 ;
 PRStatus
@@ -9319,7 +9319,7 @@ aUnlocker
 )
 {
 const
-PRUint32
+uint32_t
 flags
 =
 (
@@ -9351,7 +9351,7 @@ nsIPromptService
 :
 BUTTON_POS_1_DEFAULT
 ;
-PRInt32
+int32_t
 button
 ;
 /
@@ -10136,7 +10136,7 @@ Flush
 (
 )
 ;
-PRInt32
+int32_t
 dialogConfirmed
 ;
 rv
@@ -11976,7 +11976,7 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 count
 ;
 rv
@@ -23103,7 +23103,7 @@ const
 nsXREAppData
 *
 aAppData
-PRUint32
+uint32_t
 aFlags
 )
 {

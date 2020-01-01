@@ -581,7 +581,7 @@ public
 :
 txLREAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -597,7 +597,7 @@ aValue
 )
 ;
 TX_DECL_TXINSTRUCTION
-PRInt32
+int32_t
 mNamespaceID
 ;
 nsCOMPtr
@@ -1089,7 +1089,7 @@ public
 :
 txStartLREElement
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1100,7 +1100,7 @@ aPrefix
 )
 ;
 TX_DECL_TXINSTRUCTION
-PRInt32
+int32_t
 mNamespaceID
 ;
 nsCOMPtr

@@ -886,7 +886,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -904,7 +904,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -927,7 +927,7 @@ singleton
 PLDHashTable
 mObjects
 ;
-PRUint32
+uint32_t
 mActiveSSLSockets
 ;
 PLDHashTable

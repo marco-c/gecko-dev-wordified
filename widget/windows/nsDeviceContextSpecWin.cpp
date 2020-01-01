@@ -533,7 +533,7 @@ nullptr
 LPWSTR
 GetItemFromList
 (
-PRInt32
+int32_t
 aInx
 )
 {
@@ -564,7 +564,7 @@ nsString
 aDefaultPrinterName
 )
 ;
-PRUint32
+uint32_t
 GetNumPrinters
 (
 )
@@ -1224,7 +1224,7 @@ true
 }
 ;
 const
-PRInt32
+int32_t
 kNumPaperSizes
 =
 41
@@ -2358,7 +2358,7 @@ fileName
 )
 ;
 }
-PRInt16
+int16_t
 dialogResult
 ;
 filePicker
@@ -3601,7 +3601,7 @@ gfxASurface
 >
 newSurface
 ;
-PRInt16
+int16_t
 outputFormat
 =
 0
@@ -4384,7 +4384,7 @@ MapPaperSizeToNativeEnum
 (
 LPDEVMODEW
 aDevMode
-PRInt16
+int16_t
 aType
 double
 aW
@@ -4439,7 +4439,7 @@ DM_PAPERWIDTH
 endif
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -4795,7 +4795,7 @@ if
 aPrintSettings
 )
 {
-PRInt16
+int16_t
 type
 ;
 aPrintSettings
@@ -4818,7 +4818,7 @@ nsIPrintSettings
 kPaperSizeNativeData
 )
 {
-PRInt16
+int16_t
 paperEnum
 ;
 aPrintSettings
@@ -4866,7 +4866,7 @@ DM_PAPERSIZE
 }
 else
 {
-PRInt16
+int16_t
 unit
 ;
 double
@@ -4913,7 +4913,7 @@ height
 /
 Setup
 Orientation
-PRInt32
+int32_t
 orientation
 ;
 aPrintSettings
@@ -4956,7 +4956,7 @@ Setup
 Number
 of
 Copies
-PRInt32
+int32_t
 copies
 ;
 aPrintSettings
@@ -5884,7 +5884,7 @@ if
 doingOrientation
 )
 {
-PRInt32
+int32_t
 orientation
 =
 aDevMode
@@ -5895,7 +5895,7 @@ dmOrientation
 =
 DMORIENT_PORTRAIT
 ?
-PRInt32
+int32_t
 (
 nsIPrintSettings
 :
@@ -5933,7 +5933,7 @@ aPrintSettings
 >
 SetNumCopies
 (
-PRInt32
+int32_t
 (
 aDevMode
 -
@@ -6055,7 +6055,7 @@ dmPaperSize
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -6097,7 +6097,7 @@ i
 .
 mIsInches
 ?
-PRInt16
+int16_t
 (
 nsIPrintSettings
 :
@@ -6132,7 +6132,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -6211,7 +6211,7 @@ i
 .
 mIsInches
 ?
-PRInt16
+int16_t
 (
 nsIPrintSettings
 :
@@ -6912,7 +6912,7 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 numPrinters
 =
 GlobalPrinters
@@ -6951,7 +6951,7 @@ printers
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 printerInx
 =
 0
@@ -7536,7 +7536,7 @@ nullptr
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8314,7 +8314,7 @@ IsEmpty
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

@@ -2309,7 +2309,7 @@ if
 array
 )
 {
-PRUint32
+uint32_t
 argc
 =
 0
@@ -2357,7 +2357,7 @@ if
 supArray
 )
 {
-PRUint32
+uint32_t
 argc
 =
 0
@@ -2402,7 +2402,7 @@ NULL
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2556,7 +2556,7 @@ ConvertArgsToArray
 aArguments
 )
 ;
-PRUint32
+uint32_t
 argc
 =
 0
@@ -2654,13 +2654,13 @@ false
 )
 {
 }
-PRInt32
+int32_t
 mLeft
 ;
-PRInt32
+int32_t
 mTop
 ;
-PRInt32
+int32_t
 mOuterWidth
 ;
 /
@@ -2668,7 +2668,7 @@ mOuterWidth
 Total
 window
 width
-PRInt32
+int32_t
 mOuterHeight
 ;
 /
@@ -2676,7 +2676,7 @@ mOuterHeight
 Total
 window
 height
-PRInt32
+int32_t
 mInnerWidth
 ;
 /
@@ -2684,7 +2684,7 @@ mInnerWidth
 Content
 area
 width
-PRInt32
+int32_t
 mInnerHeight
 ;
 /
@@ -2828,7 +2828,7 @@ ConvertArgsToArray
 aArguments
 )
 ;
-PRUint32
+uint32_t
 argc
 =
 0
@@ -2986,7 +2986,7 @@ windowIsModalContentDialog
 =
 false
 ;
-PRUint32
+uint32_t
 chromeFlags
 ;
 nsAutoString
@@ -4511,7 +4511,7 @@ if
 windowCreator2
 )
 {
-PRUint32
+uint32_t
 contextFlags
 =
 0
@@ -5825,7 +5825,7 @@ along
 to
 content
 windows
-PRInt32
+int32_t
 itemType
 ;
 rv
@@ -6255,7 +6255,7 @@ windowIsNew
 ?
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 nsIWebNavigation
@@ -6266,7 +6266,7 @@ LOAD_FLAGS_FIRST_LOAD
 :
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 nsIWebNavigation
@@ -7942,7 +7942,7 @@ nsWatcherWindowEntry
 inInfo
 )
 {
-PRUint32
+uint32_t
 ctr
 count
 =
@@ -8870,7 +8870,7 @@ bitmask
 /
 /
 static
-PRUint32
+uint32_t
 nsWindowWatcher
 :
 :
@@ -9017,7 +9017,7 @@ open
 .
 *
 /
-PRUint32
+uint32_t
 chromeFlags
 =
 0
@@ -10158,7 +10158,7 @@ chromeFlags
 /
 /
 static
-PRInt32
+int32_t
 nsWindowWatcher
 :
 :
@@ -10172,7 +10172,7 @@ const
 char
 *
 aName
-PRInt32
+int32_t
 aDefault
 bool
 *
@@ -10193,7 +10193,7 @@ comma
 *
 equal
 ;
-PRInt32
+int32_t
 found
 =
 0
@@ -11398,7 +11398,7 @@ aFeatures
 bool
 present
 ;
-PRInt32
+int32_t
 temp
 ;
 present
@@ -11845,7 +11845,7 @@ and
 size
 of
 window
-PRInt32
+int32_t
 left
 =
 0
@@ -11867,7 +11867,7 @@ chrome
 and
 content
 size
-PRInt32
+int32_t
 chromeWidth
 =
 0
@@ -12157,7 +12157,7 @@ if
 shellWindow
 )
 {
-PRInt32
+int32_t
 cox
 coy
 ;
@@ -12578,7 +12578,7 @@ meet
 minimum
 reqs
 .
-PRInt32
+int32_t
 oldTop
 =
 top
@@ -12648,13 +12648,13 @@ if
 screen
 )
 {
-PRInt32
+int32_t
 screenLeft
 screenTop
 screenWidth
 screenHeight
 ;
-PRInt32
+int32_t
 winWidth
 =
 width

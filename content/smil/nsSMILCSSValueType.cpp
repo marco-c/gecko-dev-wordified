@@ -1512,7 +1512,7 @@ const
 nsSMILValue
 &
 aValueToAdd
-PRUint32
+uint32_t
 aCount
 )
 const
@@ -2419,7 +2419,7 @@ isNegative
 =
 false
 ;
-PRUint32
+uint32_t
 subStringBegin
 =
 0
@@ -2491,7 +2491,7 @@ aPropID
 eCSSProperty_stroke_dasharray
 )
 {
-PRInt32
+int32_t
 absValuePos
 =
 nsSMILParserUtils
@@ -2516,7 +2516,7 @@ true
 subStringBegin
 =
 (
-PRUint32
+uint32_t
 )
 absValuePos
 ;

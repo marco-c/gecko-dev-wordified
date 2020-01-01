@@ -147,7 +147,7 @@ nsThebesFontEnumerator
 :
 EnumerateAllFonts
 (
-PRUint32
+uint32_t
 *
 aCount
 PRUnichar
@@ -181,7 +181,7 @@ const
 char
 *
 aGeneric
-PRUint32
+uint32_t
 *
 aCount
 PRUnichar
@@ -353,7 +353,7 @@ PRUnichar
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

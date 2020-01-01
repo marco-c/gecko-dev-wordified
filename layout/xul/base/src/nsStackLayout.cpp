@@ -866,7 +866,7 @@ return
 vAscent
 ;
 }
-PRUint8
+uint8_t
 nsStackLayout
 :
 :
@@ -950,7 +950,7 @@ NS_STATE_STACK_NOT_POSITIONED
 return
 0
 ;
-PRUint8
+uint8_t
 offsetSpecified
 =
 0
@@ -1635,7 +1635,7 @@ box
 nsMargin
 offset
 ;
-PRUint8
+uint8_t
 offsetSpecified
 =
 GetOffset

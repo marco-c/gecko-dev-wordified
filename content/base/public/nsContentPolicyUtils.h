@@ -475,7 +475,7 @@ char
 *
 NS_CP_ResponseName
 (
-PRInt16
+int16_t
 response
 )
 {
@@ -593,7 +593,7 @@ char
 *
 NS_CP_ContentTypeName
 (
-PRUint32
+uint32_t
 contentType
 )
 {
@@ -1091,7 +1091,7 @@ inline
 nsresult
 NS_CheckContentLoadPolicy
 (
-PRUint32
+uint32_t
 contentType
 nsIURI
 *
@@ -1109,7 +1109,7 @@ mimeType
 nsISupports
 *
 extra
-PRInt16
+int16_t
 *
 decision
 nsIContentPolicy
@@ -1246,7 +1246,7 @@ inline
 nsresult
 NS_CheckContentProcessPolicy
 (
-PRUint32
+uint32_t
 contentType
 nsIURI
 *
@@ -1264,7 +1264,7 @@ mimeType
 nsISupports
 *
 extra
-PRInt16
+int16_t
 *
 decision
 nsIContentPolicy

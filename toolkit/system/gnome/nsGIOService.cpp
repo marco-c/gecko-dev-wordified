@@ -514,7 +514,7 @@ nsGIOMimeApp
 :
 GetExpectsURIs
 (
-PRInt32
+int32_t
 *
 aExpects
 )
@@ -659,7 +659,7 @@ nsCString
 >
 mStrings
 ;
-PRUint32
+uint32_t
 mIndex
 ;
 }

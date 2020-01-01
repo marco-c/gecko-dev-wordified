@@ -285,9 +285,9 @@ virtual
 void
 SetPageNumInfo
 (
-PRInt32
+int32_t
 aPageNumber
-PRInt32
+int32_t
 aTotalPages
 )
 ;
@@ -389,7 +389,7 @@ const
 nsRect
 &
 aRect
-PRInt32
+int32_t
 aJust
 const
 nsString
@@ -405,7 +405,7 @@ nsRenderingContext
 aRenderingContext
 nsHeaderFooterEnum
 aHeaderFooter
-PRInt32
+int32_t
 aJust
 const
 nsString
@@ -465,10 +465,10 @@ nsString
 aNewStr
 )
 ;
-PRInt32
+int32_t
 mPageNum
 ;
-PRInt32
+int32_t
 mTotNumPages
 ;
 nsSharedPageData

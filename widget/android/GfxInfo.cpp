@@ -1792,9 +1792,9 @@ GfxInfo
 :
 GetFeatureStatusImpl
 (
-PRInt32
+int32_t
 aFeature
-PRInt32
+int32_t
 *
 aStatus
 nsAString
@@ -2138,7 +2138,7 @@ GfxInfo
 :
 SpoofOSVersion
 (
-PRUint32
+uint32_t
 aVersion
 )
 {

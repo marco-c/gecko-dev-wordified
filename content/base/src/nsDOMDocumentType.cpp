@@ -392,7 +392,7 @@ nsDOMDocumentType
 :
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const

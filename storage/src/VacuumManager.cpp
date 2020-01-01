@@ -475,7 +475,7 @@ aError
 #
 ifdef
 DEBUG
-PRInt32
+int32_t
 result
 ;
 nsresult
@@ -608,7 +608,7 @@ BaseCallback
 :
 HandleCompletion
 (
-PRUint16
+uint16_t
 aReason
 )
 {
@@ -1013,7 +1013,7 @@ size
 with
 WAL
 .
-PRInt32
+int32_t
 expectedPageSize
 =
 0
@@ -1192,12 +1192,12 @@ from
 last
 vacuum
 .
-PRInt32
+int32_t
 now
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 PR_Now
@@ -1207,7 +1207,7 @@ PR_Now
 PR_USEC_PER_SEC
 )
 ;
-PRInt32
+int32_t
 lastVacuum
 ;
 nsCAutoString
@@ -1670,7 +1670,7 @@ aError
 #
 ifdef
 DEBUG
-PRInt32
+int32_t
 result
 ;
 nsresult
@@ -1779,7 +1779,7 @@ endif
 ifdef
 PR_LOGGING
 {
-PRInt32
+int32_t
 result
 ;
 nsresult
@@ -1900,7 +1900,7 @@ Vacuumer
 :
 HandleCompletion
 (
-PRUint16
+uint16_t
 aReason
 )
 {
@@ -1919,12 +1919,12 @@ last
 vacuum
 time
 .
-PRInt32
+int32_t
 now
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 PR_Now
@@ -2531,7 +2531,7 @@ PREF_VACUUM_BRANCH
 index
 "
 ;
-PRInt32
+int32_t
 startIndex
 =
 Preferences
@@ -2560,7 +2560,7 @@ startIndex
 0
 ;
 }
-PRInt32
+int32_t
 index
 ;
 for

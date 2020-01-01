@@ -1352,7 +1352,7 @@ necessary
 nsCAutoString
 filteredSpec
 ;
-PRInt32
+int32_t
 specLen
 ;
 if
@@ -1414,7 +1414,7 @@ esc_AlwaysCopy
 spec
 )
 ;
-PRInt32
+int32_t
 colonPos
 =
 spec
@@ -1458,7 +1458,7 @@ mozilla
 :
 DebugOnly
 <
-PRInt32
+int32_t
 >
 n
 =
@@ -1863,7 +1863,7 @@ nsSimpleURI
 :
 GetPort
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -1907,7 +1907,7 @@ nsSimpleURI
 :
 SetPort
 (
-PRInt32
+int32_t
 port
 )
 {
@@ -1974,7 +1974,7 @@ NS_ENSURE_STATE
 mMutable
 )
 ;
-PRInt32
+int32_t
 hashPos
 =
 path
@@ -2039,7 +2039,7 @@ SetRef
 Substring
 (
 path
-PRUint32
+uint32_t
 (
 hashPos
 )
@@ -3024,7 +3024,7 @@ nsSimpleURI
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 count
 nsIID
@@ -3054,7 +3054,7 @@ nsSimpleURI
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -3206,7 +3206,7 @@ nsSimpleURI
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplementationLanguage
 )
@@ -3229,7 +3229,7 @@ nsSimpleURI
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )

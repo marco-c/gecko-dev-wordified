@@ -384,6 +384,10 @@ gcHeapGrowthFactor
 .
 0
 )
+gcNextCompartment
+(
+NULL
+)
 hold
 (
 false

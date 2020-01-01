@@ -287,7 +287,7 @@ Click
 NS_IMETHOD
 GetTabIndex
 (
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -295,7 +295,7 @@ aTabIndex
 NS_IMETHOD
 SetTabIndex
 (
-PRInt32
+int32_t
 aTabIndex
 )
 ;
@@ -430,7 +430,7 @@ aWithMouse
 bool
 *
 aIsFocusable
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -493,7 +493,7 @@ const
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -521,7 +521,7 @@ virtual
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -541,7 +541,7 @@ virtual
 nsresult
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -554,7 +554,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1343,7 +1343,7 @@ aWithMouse
 bool
 *
 aIsFocusable
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -2028,7 +2028,7 @@ nsHTMLAnchorElement
 :
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -2270,7 +2270,7 @@ nsHTMLAnchorElement
 :
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -2400,7 +2400,7 @@ nsHTMLAnchorElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *

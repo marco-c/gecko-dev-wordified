@@ -656,7 +656,7 @@ const
 char
 *
 contractID
-PRUint32
+uint32_t
 aContractIDLen
 )
 ;
@@ -679,7 +679,7 @@ const
 char
 *
 aContractID
-PRUint32
+uint32_t
 aContractIDLen
 )
 ;

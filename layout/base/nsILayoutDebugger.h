@@ -229,7 +229,7 @@ GetContentSize
 nsIDocument
 *
 aDocument
-PRInt32
+int32_t
 *
 aSizeInBytesResult
 )
@@ -242,7 +242,7 @@ GetFrameSize
 nsIPresShell
 *
 aPresentation
-PRInt32
+int32_t
 *
 aSizeInBytesResult
 )
@@ -255,7 +255,7 @@ GetStyleSize
 nsIPresShell
 *
 aPresentation
-PRInt32
+int32_t
 *
 aSizeInBytesResult
 )

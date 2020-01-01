@@ -265,7 +265,7 @@ virtual
 bool
 IsFrameOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -302,13 +302,13 @@ virtual
 gfxMatrix
 GetCanvasTM
 (
-PRUint32
+uint32_t
 aFor
 )
 =
 0
 ;
-PRUint16
+uint16_t
 GetClipRule
 (
 )
@@ -372,7 +372,7 @@ element
 *
 /
 virtual
-PRUint16
+uint16_t
 GetHitTestFlags
 (
 )

@@ -447,7 +447,7 @@ type
 *
 /
 virtual
-PRInt32
+int32_t
 GetNodeType
 (
 )
@@ -479,7 +479,7 @@ type
 *
 /
 virtual
-PRInt32
+int32_t
 GetTokenType
 (
 )
@@ -520,7 +520,7 @@ be
 *
 /
 virtual
-PRInt32
+int32_t
 GetAttributeCount
 (
 bool
@@ -581,7 +581,7 @@ nsAString
 &
 GetKeyAt
 (
-PRUint32
+uint32_t
 anIndex
 )
 const
@@ -637,7 +637,7 @@ nsAString
 &
 GetValueAt
 (
-PRUint32
+uint32_t
 anIndex
 )
 const
@@ -706,7 +706,7 @@ table
 *
 /
 virtual
-PRInt32
+int32_t
 TranslateToUnicodeStr
 (
 nsString
@@ -780,7 +780,7 @@ on
 *
 /
 virtual
-PRInt32
+int32_t
 GetSourceLineNumber
 (
 void

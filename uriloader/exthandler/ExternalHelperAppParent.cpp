@@ -214,7 +214,7 @@ URI
 &
 uri
 const
-PRInt64
+int64_t
 &
 aContentLength
 )
@@ -405,11 +405,11 @@ nsCString
 &
 data
 const
-PRUint32
+uint32_t
 &
 offset
 const
-PRUint32
+uint32_t
 &
 count
 )
@@ -1034,7 +1034,7 @@ ExternalHelperAppParent
 :
 GetContentDisposition
 (
-PRUint32
+uint32_t
 *
 aContentDisposition
 )
@@ -1125,7 +1125,7 @@ ExternalHelperAppParent
 :
 GetContentLength
 (
-PRInt32
+int32_t
 *
 aContentLength
 )
@@ -1152,7 +1152,7 @@ else
 aContentLength
 =
 (
-PRInt32
+int32_t
 )
 mContentLength
 ;
@@ -1166,7 +1166,7 @@ ExternalHelperAppParent
 :
 SetContentLength
 (
-PRInt32
+int32_t
 aContentLength
 )
 {
@@ -1192,7 +1192,7 @@ ExternalHelperAppParent
 :
 ResumeAt
 (
-PRUint64
+uint64_t
 startPos
 const
 nsACString
@@ -1253,7 +1253,7 @@ ExternalHelperAppParent
 :
 GetPartID
 (
-PRUint32
+uint32_t
 *
 aPartID
 )

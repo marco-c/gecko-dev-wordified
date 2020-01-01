@@ -240,7 +240,7 @@ control
 variable
 for
 eventQ
-PRUint32
+uint32_t
 mAttrCount
 ;
 /
@@ -267,7 +267,7 @@ mResults
 values
 to
 return
-PRUint32
+uint32_t
 mProtocolVersion
 ;
 /

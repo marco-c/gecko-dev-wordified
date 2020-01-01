@@ -920,7 +920,7 @@ rep
 filename
 )
 ;
-PRUint32
+uint32_t
 column
 =
 rep
@@ -4101,7 +4101,7 @@ realFile
 #
 ifdef
 HAVE_PR_MEMMAP
-PRInt64
+int64_t
 fileSize
 ;
 rv
@@ -4133,7 +4133,7 @@ return
 rv
 ;
 }
-PRInt64
+int64_t
 maxSize
 ;
 LL_UI2L
@@ -4285,7 +4285,7 @@ mapCloser
 map
 )
 ;
-PRUint32
+uint32_t
 fileSize32
 ;
 LL_L2UI
@@ -4430,7 +4430,7 @@ fileCloser
 fileHandle
 )
 ;
-PRInt64
+int64_t
 len
 ;
 rv
@@ -4529,7 +4529,7 @@ rlen
 !
 =
 (
-PRUint64
+uint64_t
 )
 len
 )
@@ -4657,10 +4657,10 @@ rv
 rv
 )
 ;
-PRUint64
+uint64_t
 len64
 ;
-PRUint32
+uint32_t
 bytesRead
 ;
 rv
@@ -4696,11 +4696,11 @@ len64
 return
 NS_ERROR_FAILURE
 ;
-PRUint32
+uint32_t
 len
 =
 (
-PRUint32
+uint32_t
 )
 len64
 ;
@@ -5315,7 +5315,7 @@ targetVal_
 JSContext
 *
 cx
-PRUint8
+uint8_t
 optionalArgc
 JS
 :

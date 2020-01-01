@@ -845,7 +845,7 @@ the
 string
 for
 attributeName
-PRUint32
+uint32_t
 attributeNameSize
 =
 strlen
@@ -1073,7 +1073,7 @@ MOZICON_SCHEME
 return
 NS_ERROR_MALFORMED_URI
 ;
-PRInt32
+int32_t
 questionMarkPos
 =
 iconSpec
@@ -1096,7 +1096,7 @@ questionMarkPos
 &
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 iconSpec
@@ -1167,7 +1167,7 @@ get
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1207,7 +1207,7 @@ break
 ;
 }
 }
-PRInt32
+int32_t
 sizeValue
 =
 atoi
@@ -1268,7 +1268,7 @@ get
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1310,7 +1310,7 @@ break
 }
 }
 }
-PRInt32
+int32_t
 pathLength
 =
 iconSpec
@@ -1824,7 +1824,7 @@ nsMozIconURI
 :
 GetPort
 (
-PRInt32
+int32_t
 *
 aPort
 )
@@ -1839,7 +1839,7 @@ nsMozIconURI
 :
 SetPort
 (
-PRInt32
+int32_t
 aPort
 )
 {
@@ -2505,7 +2505,7 @@ nsMozIconURI
 :
 GetImageSize
 (
-PRUint32
+uint32_t
 *
 aImageSize
 )
@@ -2540,7 +2540,7 @@ nsMozIconURI
 :
 SetImageSize
 (
-PRUint32
+uint32_t
 aImageSize
 )
 /

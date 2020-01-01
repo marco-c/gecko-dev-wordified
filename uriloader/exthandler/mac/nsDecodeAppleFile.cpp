@@ -319,7 +319,7 @@ Close
 (
 )
 ;
-PRInt32
+int32_t
 i
 ;
 if
@@ -902,9 +902,9 @@ WriteFrom
 nsIInputStream
 *
 inStr
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -932,9 +932,9 @@ reader
 void
 *
 closure
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -983,9 +983,9 @@ const
 char
 *
 buffer
-PRUint32
+uint32_t
 bufferSize
-PRUint32
+uint32_t
 *
 writeCount
 )
@@ -1028,10 +1028,10 @@ buffPtr
 =
 buffer
 ;
-PRUint32
+uint32_t
 dataCount
 ;
-PRInt32
+int32_t
 i
 ;
 nsresult
@@ -1286,7 +1286,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRUint32
+uint32_t
 entriesSize
 =
 sizeof
@@ -1388,7 +1388,7 @@ magic
 APPLEDOUBLE_MAGIC
 )
 {
-PRUint32
+uint32_t
 offset
 =
 m_entries
@@ -1848,7 +1848,7 @@ if
 m_output
 )
 {
-PRUint32
+uint32_t
 writeCount
 ;
 rv
@@ -1985,7 +1985,7 @@ if
 m_output
 )
 {
-PRUint32
+uint32_t
 writeCount
 ;
 rv

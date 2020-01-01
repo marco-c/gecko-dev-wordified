@@ -607,7 +607,7 @@ aPrefBranch
 nsIStringBundle
 *
 aStringBundle
-PRUint32
+uint32_t
 aBucket
 )
 :
@@ -675,7 +675,7 @@ nsIStringBundle
 >
 mStringBundle
 ;
-PRUint32
+uint32_t
 mBucket
 ;
 }
@@ -1039,7 +1039,7 @@ aShowAgainName
 bool
 aAsync
 const
-PRUint32
+uint32_t
 aBucket
 )
 {
@@ -1274,7 +1274,7 @@ PRUnichar
 *
 showAgainName
 const
-PRUint32
+uint32_t
 aBucket
 bool
 *
@@ -1609,7 +1609,7 @@ BeginWriting
 (
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -1661,7 +1661,7 @@ n
 ;
 }
 }
-PRInt32
+int32_t
 buttonPressed
 ;
 rv

@@ -171,7 +171,7 @@ mozilla
 ;
 static
 const
-PRInt32
+int32_t
 kOrientationKeywords
 [
 ]
@@ -188,7 +188,7 @@ eCSSKeyword_UNKNOWN
 ;
 static
 const
-PRInt32
+int32_t
 kScanKeywords
 [
 ]
@@ -784,7 +784,7 @@ GetSize
 aPresContext
 )
 ;
-PRInt32
+int32_t
 orientation
 ;
 if
@@ -856,7 +856,7 @@ GetDeviceSize
 aPresContext
 )
 ;
-PRInt32
+int32_t
 orientation
 ;
 if
@@ -1155,7 +1155,7 @@ GetDeviceContextFor
 aPresContext
 )
 ;
-PRUint32
+uint32_t
 depth
 ;
 dx
@@ -1213,7 +1213,7 @@ aResult
 .
 SetIntValue
 (
-PRInt32
+int32_t
 (
 depth
 )
@@ -1712,7 +1712,7 @@ Reset
 #
 ifdef
 XP_WIN
-PRUint8
+uint8_t
 windowsThemeId
 =
 nsCSSRuleProcessor

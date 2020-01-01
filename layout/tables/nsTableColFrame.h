@@ -307,7 +307,7 @@ nsStyleContext
 aOldStyleContext
 )
 ;
-PRInt32
+int32_t
 GetColIndex
 (
 )
@@ -316,7 +316,7 @@ const
 void
 SetColIndex
 (
-PRInt32
+int32_t
 aColIndex
 )
 ;
@@ -449,7 +449,7 @@ always
 1
 *
 /
-PRInt32
+int32_t
 GetSpan
 (
 )
@@ -464,7 +464,7 @@ into
 cellmap
 *
 /
-PRInt32
+int32_t
 Count
 (
 )
@@ -590,7 +590,7 @@ bottom
 void
 SetContinuousBCBorderWidth
 (
-PRUint8
+uint8_t
 aForSide
 BCPixelSize
 aPixelValue
@@ -602,7 +602,7 @@ DEBUG
 void
 Dump
 (
-PRInt32
+int32_t
 aIndent
 )
 ;
@@ -1654,7 +1654,7 @@ parent
 /
 /
 colgroup
-PRUint32
+uint32_t
 mColIndex
 :
 16
@@ -1694,7 +1694,7 @@ mHasSpecifiedCoord
 }
 ;
 inline
-PRInt32
+int32_t
 nsTableColFrame
 :
 :
@@ -1714,7 +1714,7 @@ nsTableColFrame
 :
 SetColIndex
 (
-PRInt32
+int32_t
 aColIndex
 )
 {
@@ -1793,7 +1793,7 @@ nsMargin
 aBorder
 )
 {
-PRInt32
+int32_t
 aPixelsToTwips
 =
 nsPresContext

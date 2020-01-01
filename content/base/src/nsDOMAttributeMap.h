@@ -221,7 +221,7 @@ the
 attribute
 *
 /
-PRInt32
+int32_t
 mNamespaceID
 ;
 /
@@ -259,7 +259,7 @@ mLocalName
 ;
 nsAttrKey
 (
-PRInt32
+int32_t
 aNs
 nsIAtom
 *
@@ -592,7 +592,7 @@ node
 void
 DropAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -649,7 +649,7 @@ map
 .
 *
 /
-PRUint32
+uint32_t
 Count
 (
 )
@@ -712,7 +712,7 @@ for
 .
 *
 /
-PRUint32
+uint32_t
 Enumerate
 (
 AttrCache
@@ -730,7 +730,7 @@ nsDOMAttribute
 *
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 nsresult
 *

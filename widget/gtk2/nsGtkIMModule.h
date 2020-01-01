@@ -244,7 +244,7 @@ AddRef
 {
 NS_PRECONDITION
 (
-PRInt32
+int32_t
 (
 mRefCnt
 )
@@ -999,7 +999,7 @@ of
 the
 editor
 .
-PRUint32
+uint32_t
 mCompositionStart
 ;
 /
@@ -1819,7 +1819,7 @@ IME
 void
 SetCursorPosition
 (
-PRUint32
+uint32_t
 aTargetOffset
 )
 ;
@@ -1834,7 +1834,7 @@ of
 the
 window
 .
-PRUint32
+uint32_t
 GetSelectionOffset
 (
 nsWindow
@@ -1858,7 +1858,7 @@ GetCurrentParagraph
 nsAString
 &
 aText
-PRUint32
+uint32_t
 &
 aCursorPos
 )
@@ -1872,10 +1872,10 @@ nsresult
 DeleteText
 (
 const
-PRInt32
+int32_t
 aOffset
 const
-PRUint32
+uint32_t
 aNChars
 )
 ;

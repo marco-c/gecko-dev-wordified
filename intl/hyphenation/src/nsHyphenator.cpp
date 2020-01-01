@@ -627,7 +627,7 @@ inWord
 =
 false
 ;
-PRUint32
+uint32_t
 wordStart
 =
 0
@@ -635,12 +635,12 @@ wordLimit
 =
 0
 ;
-PRUint32
+uint32_t
 chLen
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -659,7 +659,7 @@ i
 chLen
 )
 {
-PRUint32
+uint32_t
 ch
 =
 aString

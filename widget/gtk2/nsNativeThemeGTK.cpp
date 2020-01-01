@@ -494,7 +494,7 @@ IsFrameContentNodeInNamespace
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 aNamespace
 )
 {
@@ -535,10 +535,10 @@ static
 bool
 IsWidgetTypeDisabled
 (
-PRUint8
+uint8_t
 *
 aDisabledVector
-PRUint8
+uint8_t
 aWidgetType
 )
 {
@@ -572,10 +572,10 @@ static
 void
 SetWidgetTypeDisabled
 (
-PRUint8
+uint8_t
 *
 aDisabledVector
-PRUint8
+uint8_t
 aWidgetType
 )
 {
@@ -602,10 +602,10 @@ aWidgetType
 }
 static
 inline
-PRUint16
+uint16_t
 GetWidgetStateKey
 (
-PRUint8
+uint8_t
 aWidgetType
 GtkWidgetState
 *
@@ -662,17 +662,17 @@ static
 bool
 IsWidgetStateSafe
 (
-PRUint8
+uint8_t
 *
 aSafeVector
-PRUint8
+uint8_t
 aWidgetType
 GtkWidgetState
 *
 aWidgetState
 )
 {
-PRUint8
+uint8_t
 key
 =
 GetWidgetStateKey
@@ -711,17 +711,17 @@ static
 void
 SetWidgetStateSafe
 (
-PRUint8
+uint8_t
 *
 aSafeVector
-PRUint8
+uint8_t
 aWidgetType
 GtkWidgetState
 *
 aWidgetState
 )
 {
-PRUint8
+uint8_t
 key
 =
 GetWidgetStateKey
@@ -880,7 +880,7 @@ nsNativeThemeGTK
 :
 GetGtkWidgetAndState
 (
-PRUint8
+uint8_t
 aWidgetType
 nsIFrame
 *
@@ -1633,7 +1633,7 @@ the
 button
 type
 .
-PRInt32
+int32_t
 curpos
 =
 CheckIntAttr
@@ -1646,7 +1646,7 @@ curpos
 0
 )
 ;
-PRInt32
+int32_t
 maxpos
 =
 CheckIntAttr
@@ -3288,7 +3288,7 @@ offsetY
 GdkRectangle
 *
 clipRects
-PRUint32
+uint32_t
 numClipRects
 )
 ;
@@ -3334,7 +3334,7 @@ offsetY
 GdkRectangle
 *
 clipRects
-PRUint32
+uint32_t
 numClipRects
 )
 {
@@ -3460,7 +3460,7 @@ GetExtraSizeForWidget
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntMargin
 *
@@ -3748,7 +3748,7 @@ moz_gtk_get_tab_thickness
 (
 )
 ;
-PRInt32
+int32_t
 extra
 =
 gap_height
@@ -3814,7 +3814,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 const
 nsRect
@@ -4143,7 +4143,7 @@ pixels
 nsIntRect
 drawingRect
 (
-PRInt32
+int32_t
 (
 dirtyRect
 .
@@ -4151,7 +4151,7 @@ X
 (
 )
 )
-PRInt32
+int32_t
 (
 dirtyRect
 .
@@ -4159,7 +4159,7 @@ Y
 (
 )
 )
-PRInt32
+int32_t
 (
 dirtyRect
 .
@@ -4167,7 +4167,7 @@ Width
 (
 )
 )
-PRInt32
+int32_t
 (
 dirtyRect
 .
@@ -4324,7 +4324,7 @@ the
 widget
 bounds
 .
-PRUint32
+uint32_t
 rendererFlags
 =
 0
@@ -4713,7 +4713,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntMargin
 *
@@ -5135,7 +5135,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntMargin
 *
@@ -5385,7 +5385,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsRect
 *
@@ -5395,7 +5395,7 @@ aOverflowRect
 nsMargin
 m
 ;
-PRInt32
+int32_t
 p2a
 ;
 nsIntMargin
@@ -5482,7 +5482,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntSize
 *
@@ -5816,7 +5816,7 @@ GetRect
 (
 )
 ;
-PRInt32
+int32_t
 p2a
 =
 aFrame
@@ -6509,7 +6509,7 @@ WidgetStateChanged
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIAtom
 *
@@ -6914,7 +6914,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 {
@@ -7295,7 +7295,7 @@ nsNativeThemeGTK
 :
 WidgetIsContainer
 (
-PRUint8
+uint8_t
 aWidgetType
 )
 {
@@ -7385,7 +7385,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 {
@@ -7439,7 +7439,7 @@ GetWidgetTransparency
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 {

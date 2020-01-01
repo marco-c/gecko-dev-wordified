@@ -1366,7 +1366,7 @@ documents
 currently
 loading
 static
-PRInt32
+int32_t
 gNumberOfDocumentsLoading
 =
 0
@@ -1380,7 +1380,7 @@ existing
 docshells
 .
 static
-PRInt32
+int32_t
 gDocShellCount
 =
 0
@@ -1397,7 +1397,7 @@ private
 attribute
 set
 static
-PRUint32
+uint32_t
 gNumberOfPrivateDocShells
 =
 0
@@ -1462,7 +1462,7 @@ first
 docshell
 .
 static
-PRUint32
+uint32_t
 gValidateOrigin
 =
 0xffffffff
@@ -1570,7 +1570,7 @@ FavorPerformanceHint
 (
 bool
 perfOverStarvation
-PRUint32
+uint32_t
 starvationDelay
 )
 {
@@ -1929,7 +1929,7 @@ static
 bool
 PingsEnabled
 (
-PRInt32
+int32_t
 *
 maxPerLink
 bool
@@ -2129,7 +2129,7 @@ false
 Check
 with
 contentpolicy
-PRInt16
+int16_t
 shouldLoad
 =
 nsIContentPolicy
@@ -2899,13 +2899,13 @@ context
 nsIInputStream
 *
 stream
-PRUint32
+uint32_t
 offset
-PRUint32
+uint32_t
 count
 )
 {
-PRUint32
+uint32_t
 result
 ;
 return
@@ -3004,7 +3004,7 @@ oldChan
 nsIChannel
 *
 newChan
-PRUint32
+uint32_t
 flags
 nsIAsyncVerifyRedirectCallback
 *
@@ -3129,10 +3129,10 @@ NS_OK
 struct
 SendPingInfo
 {
-PRInt32
+int32_t
 numPings
 ;
-PRInt32
+int32_t
 maxPings
 ;
 bool
@@ -4021,7 +4021,7 @@ static
 nsDOMPerformanceNavigationType
 ConvertLoadTypeToNavigationType
 (
-PRUint32
+uint32_t
 aLoadType
 )
 {
@@ -4551,7 +4551,7 @@ Management
 *
 *
 static
-PRUint64
+uint64_t
 gDocshellIDCounter
 =
 0
@@ -5331,7 +5331,7 @@ nsIDocShellTreeItem
 >
 shell
 ;
-PRInt32
+int32_t
 n
 =
 mChildList
@@ -5342,7 +5342,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -6924,7 +6924,7 @@ NS_OK
 NS_NOINTERFACE
 ;
 }
-PRUint32
+uint32_t
 nsDocShell
 :
 :
@@ -6934,7 +6934,7 @@ nsDocShellInfoLoadType
 aDocShellLoadType
 )
 {
-PRUint32
+uint32_t
 loadType
 =
 LOAD_NORMAL
@@ -7194,7 +7194,7 @@ nsDocShell
 :
 ConvertLoadTypeToDocShellLoadInfo
 (
-PRUint32
+uint32_t
 aLoadType
 )
 {
@@ -7635,7 +7635,7 @@ aURI
 nsIDocShellLoadInfo
 *
 aLoadInfo
-PRUint32
+uint32_t
 aLoadFlags
 bool
 aFirstParty
@@ -7782,7 +7782,7 @@ shEntry
 nsXPIDLString
 target
 ;
-PRUint32
+uint32_t
 loadType
 =
 MAKE_LOAD_TYPE
@@ -8096,7 +8096,7 @@ parentAsItem
 )
 )
 ;
-PRUint32
+uint32_t
 parentLoadType
 ;
 if
@@ -8816,12 +8816,12 @@ to
 session
 history
 .
-PRUint32
+uint32_t
 parentBusy
 =
 BUSY_FLAGS_NONE
 ;
-PRUint32
+uint32_t
 selfBusy
 =
 BUSY_FLAGS_NONE
@@ -9608,7 +9608,7 @@ nullprincipal
 )
 ;
 }
-PRUint32
+uint32_t
 flags
 =
 0
@@ -9896,7 +9896,7 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 loadType
 =
 LOAD_NORMAL
@@ -10219,7 +10219,7 @@ nsIDocShell
 >
 kids
 ;
-PRInt32
+int32_t
 i
 n
 =
@@ -11272,7 +11272,7 @@ nsIRequest
 aRequest
 bool
 aFireOnLocationChange
-PRUint32
+uint32_t
 aLocationFlags
 )
 {
@@ -11828,7 +11828,7 @@ nsDocShell
 :
 SetParentCharsetSource
 (
-PRInt32
+int32_t
 aCharsetSource
 )
 {
@@ -11846,7 +11846,7 @@ nsDocShell
 :
 GetParentCharsetSource
 (
-PRInt32
+int32_t
 *
 aParentCharsetSource
 )
@@ -12149,7 +12149,7 @@ DecreasePrivateDocShellCount
 ;
 }
 }
-PRInt32
+int32_t
 count
 =
 mChildList
@@ -12160,7 +12160,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -12562,9 +12562,9 @@ nsDocShell
 :
 GetDocShellEnumerator
 (
-PRInt32
+int32_t
 aItemType
-PRInt32
+int32_t
 aDirection
 nsISimpleEnumerator
 *
@@ -12707,7 +12707,7 @@ nsDocShell
 :
 GetAppType
 (
-PRUint32
+uint32_t
 *
 aAppType
 )
@@ -12727,7 +12727,7 @@ nsDocShell
 :
 SetAppType
 (
-PRUint32
+uint32_t
 aAppType
 )
 {
@@ -12824,7 +12824,7 @@ nsDocShell
 :
 GetMarginWidth
 (
-PRInt32
+int32_t
 *
 aWidth
 )
@@ -12849,7 +12849,7 @@ nsDocShell
 :
 SetMarginWidth
 (
-PRInt32
+int32_t
 aWidth
 )
 {
@@ -12867,7 +12867,7 @@ nsDocShell
 :
 GetMarginHeight
 (
-PRInt32
+int32_t
 *
 aHeight
 )
@@ -12892,7 +12892,7 @@ nsDocShell
 :
 SetMarginHeight
 (
-PRInt32
+int32_t
 aHeight
 )
 {
@@ -12910,7 +12910,7 @@ nsDocShell
 :
 GetBusyFlags
 (
-PRUint32
+uint32_t
 *
 aBusyFlags
 )
@@ -13131,7 +13131,7 @@ nsDocShell
 :
 GetPreviousTransIndex
 (
-PRInt32
+int32_t
 *
 aPreviousTransIndex
 )
@@ -13151,7 +13151,7 @@ nsDocShell
 :
 GetLoadedTransIndex
 (
-PRInt32
+int32_t
 *
 aLoadedTransIndex
 )
@@ -13171,7 +13171,7 @@ nsDocShell
 :
 HistoryPurged
 (
-PRInt32
+int32_t
 aNumEntries
 )
 {
@@ -13255,7 +13255,7 @@ mLoadedTransIndex
 aNumEntries
 )
 ;
-PRInt32
+int32_t
 count
 =
 mChildList
@@ -13266,7 +13266,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -13319,7 +13319,7 @@ nsDocShell
 :
 HistoryTransactionRemoved
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -13435,7 +13435,7 @@ mLoadedTransIndex
 mLoadedTransIndex
 ;
 }
-PRInt32
+int32_t
 count
 =
 mChildList
@@ -13446,7 +13446,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -14958,7 +14958,7 @@ nsDocShell
 :
 GetItemType
 (
-PRInt32
+int32_t
 *
 aItemType
 )
@@ -14983,7 +14983,7 @@ nsDocShell
 :
 SetItemType
 (
-PRInt32
+int32_t
 aItemType
 )
 {
@@ -15552,7 +15552,7 @@ parent
 return
 NS_OK
 ;
-PRInt32
+int32_t
 parentType
 ;
 NS_ENSURE_SUCCESS
@@ -15633,7 +15633,7 @@ parent
 return
 NS_OK
 ;
-PRInt32
+int32_t
 parentType
 ;
 NS_ENSURE_SUCCESS
@@ -16197,7 +16197,7 @@ GetIsInBrowserElement
 accessingInBrowser
 )
 ;
-PRUint32
+uint32_t
 targetAppId
 =
 0
@@ -17139,7 +17139,7 @@ some
 extra
 checks
 .
-PRUint32
+uint32_t
 sandboxFlags
 =
 0
@@ -17705,7 +17705,7 @@ reqAsTreeItem
 return
 NS_OK
 ;
-PRInt32
+int32_t
 parentType
 ;
 parentAsTreeItem
@@ -17869,7 +17869,7 @@ aLevel
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -17888,7 +17888,7 @@ printf
 "
 )
 ;
-PRInt32
+int32_t
 childWebshellCount
 ;
 aParentNode
@@ -17912,7 +17912,7 @@ aParentNode
 )
 )
 ;
-PRInt32
+int32_t
 type
 ;
 aParentNode
@@ -18119,7 +18119,7 @@ childWebshellCount
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -18405,7 +18405,7 @@ Weak
 reference
 per
 API
-PRInt32
+int32_t
 i
 n
 =
@@ -18450,7 +18450,7 @@ child
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 childType
 =
 ~
@@ -18523,7 +18523,7 @@ nsDocShell
 :
 SetChildOffset
 (
-PRUint32
+uint32_t
 aChildOffset
 )
 {
@@ -18541,7 +18541,7 @@ nsDocShell
 :
 GetHistoryID
 (
-PRUint64
+uint64_t
 *
 aID
 )
@@ -18745,7 +18745,7 @@ nsDocShell
 :
 GetChildCount
 (
-PRInt32
+int32_t
 *
 aChildCount
 )
@@ -19099,7 +19099,7 @@ true
 )
 ;
 }
-PRInt32
+int32_t
 childType
 =
 ~
@@ -19488,7 +19488,7 @@ res
 return
 NS_OK
 ;
-PRInt32
+int32_t
 charsetSource
 =
 doc
@@ -19642,7 +19642,7 @@ nsDocShell
 :
 GetChildAt
 (
-PRInt32
+int32_t
 aIndex
 nsIDocShellTreeItem
 *
@@ -19798,7 +19798,7 @@ NS_OK
 nsXPIDLString
 childName
 ;
-PRInt32
+int32_t
 i
 n
 =
@@ -19843,7 +19843,7 @@ child
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 childType
 ;
 child
@@ -20204,7 +20204,7 @@ nsDocShell
 :
 GetChildSHEntry
 (
-PRInt32
+int32_t
 aChildOffset
 nsISHEntry
 *
@@ -20346,7 +20346,7 @@ loadHistory
 value
 *
 /
-PRUint32
+uint32_t
 loadType
 =
 nsIDocShellLoadInfo
@@ -20568,9 +20568,9 @@ aCloneRef
 nsISHEntry
 *
 aNewEntry
-PRInt32
+int32_t
 aChildOffset
-PRUint32
+uint32_t
 loadType
 bool
 aCloneChildren
@@ -20772,7 +20772,7 @@ entry
 .
 *
 /
-PRInt32
+int32_t
 index
 =
 -
@@ -20840,7 +20840,7 @@ if
 currentEntry
 )
 {
-PRUint32
+uint32_t
 cloneID
 =
 0
@@ -20975,7 +20975,7 @@ DoAddChildSHEntry
 nsISHEntry
 *
 aNewEntry
-PRInt32
+int32_t
 aChildOffset
 bool
 aCloneChildren
@@ -21365,7 +21365,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 index
 =
 0
@@ -21381,7 +21381,7 @@ index
 ;
 nsAutoTArray
 <
-PRUint64
+uint64_t
 16
 >
 ids
@@ -21567,7 +21567,7 @@ shcontainer
 return
 ;
 }
-PRInt32
+int32_t
 count
 =
 0
@@ -21583,14 +21583,14 @@ count
 ;
 nsAutoTArray
 <
-PRUint64
+uint64_t
 16
 >
 ids
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -21627,7 +21627,7 @@ if
 child
 )
 {
-PRUint64
+uint64_t
 id
 =
 0
@@ -21650,7 +21650,7 @@ id
 ;
 }
 }
-PRInt32
+int32_t
 index
 =
 0
@@ -22327,7 +22327,7 @@ nsDocShell
 :
 GotoIndex
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -22415,7 +22415,7 @@ const
 PRUnichar
 *
 aURI
-PRUint32
+uint32_t
 aLoadFlags
 nsIURI
 *
@@ -22660,7 +22660,7 @@ for
 example
 )
 .
-PRUint32
+uint32_t
 fixupFlags
 =
 0
@@ -22849,7 +22849,7 @@ it
 uses
 them
 .
-PRUint32
+uint32_t
 extraFlags
 =
 (
@@ -22890,7 +22890,7 @@ rv
 return
 rv
 ;
-PRUint32
+uint32_t
 loadType
 =
 MAKE_LOAD_TYPE
@@ -23044,7 +23044,7 @@ nsAutoString
 error
 ;
 const
-PRUint32
+uint32_t
 kMaxFormatStrArgs
 =
 3
@@ -23055,7 +23055,7 @@ formatStrs
 kMaxFormatStrArgs
 ]
 ;
-PRUint32
+uint32_t
 formatStrCount
 =
 0
@@ -23405,7 +23405,7 @@ do_GetService
 NS_NSS_ERRORS_SERVICE_CONTRACTID
 )
 ;
-PRUint32
+uint32_t
 errorClass
 ;
 if
@@ -23634,7 +23634,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 bucketId
 ;
 if
@@ -23893,7 +23893,7 @@ Assign
 alternateErrorPage
 )
 ;
-PRUint32
+uint32_t
 bucketId
 ;
 if
@@ -24640,7 +24640,7 @@ kMaxFormatStrArgs
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -25520,7 +25520,7 @@ nsDocShell
 :
 Reload
 (
-PRUint32
+uint32_t
 aReloadFlags
 )
 {
@@ -25597,7 +25597,7 @@ Reload
 "
 )
 ;
-PRUint32
+uint32_t
 loadType
 =
 MAKE_LOAD_TYPE
@@ -25896,7 +25896,7 @@ nsDocShell
 :
 Stop
 (
-PRUint32
+uint32_t
 aStopFlags
 )
 {
@@ -26096,10 +26096,10 @@ Stop
 )
 ;
 }
-PRInt32
+int32_t
 n
 ;
-PRInt32
+int32_t
 count
 =
 mChildList
@@ -26622,7 +26622,7 @@ LoadPage
 nsISupports
 *
 aPageDescriptor
-PRUint32
+uint32_t
 aDisplayType
 )
 {
@@ -27198,13 +27198,13 @@ parentNativeWindow
 nsIWidget
 *
 parentWidget
-PRInt32
+int32_t
 x
-PRInt32
+int32_t
 y
-PRInt32
+int32_t
 cx
-PRInt32
+int32_t
 cy
 )
 {
@@ -28072,9 +28072,9 @@ nsDocShell
 :
 SetPosition
 (
-PRInt32
+int32_t
 x
-PRInt32
+int32_t
 y
 )
 {
@@ -28117,15 +28117,15 @@ nsDocShell
 :
 GetPosition
 (
-PRInt32
+int32_t
 *
 aX
-PRInt32
+int32_t
 *
 aY
 )
 {
-PRInt32
+int32_t
 dummyHolder
 ;
 return
@@ -28146,15 +28146,15 @@ nsDocShell
 :
 SetSize
 (
-PRInt32
+int32_t
 aCX
-PRInt32
+int32_t
 aCY
 bool
 aRepaint
 )
 {
-PRInt32
+int32_t
 x
 =
 0
@@ -28187,15 +28187,15 @@ nsDocShell
 :
 GetSize
 (
-PRInt32
+int32_t
 *
 aCX
-PRInt32
+int32_t
 *
 aCY
 )
 {
-PRInt32
+int32_t
 dummyHolder
 ;
 return
@@ -28216,13 +28216,13 @@ nsDocShell
 :
 SetPositionAndSize
 (
-PRInt32
+int32_t
 x
-PRInt32
+int32_t
 y
-PRInt32
+int32_t
 cx
-PRInt32
+int32_t
 cy
 bool
 fRepaint
@@ -28314,16 +28314,16 @@ nsDocShell
 :
 GetPositionAndSize
 (
-PRInt32
+int32_t
 *
 x
-PRInt32
+int32_t
 *
 y
-PRInt32
+int32_t
 *
 cx
-PRInt32
+int32_t
 *
 cy
 )
@@ -28430,16 +28430,16 @@ nsDocShell
 :
 DoGetPositionAndSize
 (
-PRInt32
+int32_t
 *
 x
-PRInt32
+int32_t
 *
 y
-PRInt32
+int32_t
 *
 cx
-PRInt32
+int32_t
 *
 cy
 )
@@ -29329,7 +29329,7 @@ their
 state
 separately
 .
-PRInt32
+int32_t
 n
 =
 mChildList
@@ -29340,7 +29340,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -29475,7 +29475,7 @@ nsDocShell
 :
 SetSandboxFlags
 (
-PRUint32
+uint32_t
 aSandboxFlags
 )
 {
@@ -29493,7 +29493,7 @@ nsDocShell
 :
 GetSandboxFlags
 (
-PRUint32
+uint32_t
 *
 aSandboxFlags
 )
@@ -30029,9 +30029,9 @@ nsDocShell
 :
 GetCurScrollPos
 (
-PRInt32
+int32_t
 scrollOrientation
-PRInt32
+int32_t
 *
 curPos
 )
@@ -30112,9 +30112,9 @@ nsDocShell
 :
 SetCurScrollPos
 (
-PRInt32
+int32_t
 scrollOrientation
-PRInt32
+int32_t
 curPos
 )
 {
@@ -30200,9 +30200,9 @@ nsDocShell
 :
 SetCurScrollPosEx
 (
-PRInt32
+int32_t
 curHorizontalPos
-PRInt32
+int32_t
 curVerticalPos
 )
 {
@@ -30252,12 +30252,12 @@ nsDocShell
 :
 GetScrollRange
 (
-PRInt32
+int32_t
 scrollOrientation
-PRInt32
+int32_t
 *
 minPos
-PRInt32
+int32_t
 *
 maxPos
 )
@@ -30381,11 +30381,11 @@ nsDocShell
 :
 SetScrollRange
 (
-PRInt32
+int32_t
 scrollOrientation
-PRInt32
+int32_t
 minPos
-PRInt32
+int32_t
 maxPos
 )
 {
@@ -30459,13 +30459,13 @@ nsDocShell
 :
 SetScrollRangeEx
 (
-PRInt32
+int32_t
 minHorizontalPos
-PRInt32
+int32_t
 maxHorizontalPos
-PRInt32
+int32_t
 minVerticalPos
-PRInt32
+int32_t
 maxVerticalPos
 )
 {
@@ -30550,9 +30550,9 @@ nsDocShell
 :
 GetDefaultScrollbarPreferences
 (
-PRInt32
+int32_t
 scrollOrientation
-PRInt32
+int32_t
 *
 scrollbarPref
 )
@@ -30696,9 +30696,9 @@ nsDocShell
 :
 SetDefaultScrollbarPreferences
 (
-PRInt32
+int32_t
 scrollOrientation
-PRInt32
+int32_t
 scrollbarPref
 )
 {
@@ -30772,7 +30772,7 @@ sf
 NS_ERROR_FAILURE
 )
 ;
-PRUint32
+uint32_t
 scrollbarVisibility
 =
 sf
@@ -30994,7 +30994,7 @@ nsDocShell
 :
 ScrollByLines
 (
-PRInt32
+int32_t
 numLines
 )
 {
@@ -31042,7 +31042,7 @@ nsDocShell
 :
 ScrollByPages
 (
-PRInt32
+int32_t
 numPages
 )
 {
@@ -31442,7 +31442,7 @@ RefreshURI
 nsIURI
 *
 aURI
-PRInt32
+int32_t
 aDelay
 bool
 aRepeat
@@ -31610,7 +31610,7 @@ refreshTimer
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-PRUint32
+uint32_t
 busyFlags
 =
 0
@@ -31833,7 +31833,7 @@ ForceRefreshURIFromTimer
 nsIURI
 *
 aURI
-PRInt32
+int32_t
 aDelay
 bool
 aMetaRefresh
@@ -31867,7 +31867,7 @@ if
 mRefreshURIList
 )
 {
-PRUint32
+uint32_t
 n
 =
 0
@@ -31883,7 +31883,7 @@ n
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -31948,7 +31948,7 @@ ForceRefreshURI
 nsIURI
 *
 aURI
-PRInt32
+int32_t
 aDelay
 bool
 aMetaRefresh
@@ -32767,7 +32767,7 @@ aPrincipal
 nsCAutoString
 uriAttrib
 ;
-PRInt32
+int32_t
 seconds
 =
 0
@@ -34111,7 +34111,7 @@ aTimerList
 )
 return
 ;
-PRUint32
+uint32_t
 n
 =
 0
@@ -34229,7 +34229,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 count
 ;
 nsresult
@@ -34278,7 +34278,7 @@ if
 mRefreshURIList
 )
 {
-PRUint32
+uint32_t
 n
 =
 0
@@ -34294,7 +34294,7 @@ n
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -34419,7 +34419,7 @@ shells
 as
 well
 .
-PRInt32
+int32_t
 n
 =
 mChildList
@@ -34430,7 +34430,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -34498,7 +34498,7 @@ shells
 as
 well
 .
-PRInt32
+int32_t
 n
 =
 mChildList
@@ -34509,7 +34509,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -34569,7 +34569,7 @@ mRefreshURIList
 return
 NS_OK
 ;
-PRUint32
+uint32_t
 n
 =
 0
@@ -34654,7 +34654,7 @@ and
 trigger
 it
 .
-PRUint32
+uint32_t
 delay
 =
 static_cast
@@ -35444,13 +35444,13 @@ aProgress
 nsIRequest
 *
 aRequest
-PRInt32
+int32_t
 aCurSelfProgress
-PRInt32
+int32_t
 aMaxSelfProgress
-PRInt32
+int32_t
 aCurTotalProgress
-PRInt32
+int32_t
 aMaxTotalProgress
 )
 {
@@ -35470,7 +35470,7 @@ aProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aStateFlags
 nsresult
 aStatus
@@ -36323,7 +36323,7 @@ aRequest
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -36358,9 +36358,9 @@ aOldChannel
 nsIChannel
 *
 aNewChannel
-PRUint32
+uint32_t
 aRedirectFlags
-PRUint32
+uint32_t
 aStateFlags
 )
 {
@@ -36579,7 +36579,7 @@ nsIURI
 >
 previousURI
 ;
-PRUint32
+uint32_t
 previousFlags
 =
 0
@@ -36713,7 +36713,7 @@ code
 if
 available
 .
-PRUint32
+uint32_t
 responseStatus
 =
 0
@@ -36966,7 +36966,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 state
 )
 {
@@ -37905,7 +37905,7 @@ GetScheme
 scheme
 )
 ;
-PRInt32
+int32_t
 dotLoc
 =
 host
@@ -40052,7 +40052,7 @@ nsDocShell
 :
 CanSavePresentation
 (
-PRUint32
+uint32_t
 aLoadType
 nsIRequest
 *
@@ -41020,7 +41020,7 @@ ClearChildShells
 (
 )
 ;
-PRInt32
+int32_t
 childCount
 =
 mChildList
@@ -41031,7 +41031,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -41403,7 +41403,7 @@ BeginRestoreChildren
 (
 )
 {
-PRInt32
+int32_t
 n
 =
 mChildList
@@ -41414,7 +41414,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -41509,7 +41509,7 @@ the
 main
 document
 .
-PRInt32
+int32_t
 n
 =
 mChildList
@@ -41520,7 +41520,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -42400,7 +42400,7 @@ viewer
 )
 )
 ;
-PRInt32
+int32_t
 minFontSize
 =
 0
@@ -43412,7 +43412,7 @@ nsIDocShellTreeItem
 >
 childShells
 ;
-PRInt32
+int32_t
 i
 =
 0
@@ -43908,7 +43908,7 @@ do_QueryInterface
 domDoc
 )
 ;
-PRUint32
+uint32_t
 parentSuspendCount
 =
 0
@@ -44952,7 +44952,7 @@ restart
 their
 timers
 .
-PRInt32
+int32_t
 n
 =
 mChildList
@@ -46051,7 +46051,7 @@ mSessionHistory
 mLSHE
 )
 {
-PRInt32
+int32_t
 idx
 ;
 mSessionHistory
@@ -46477,7 +46477,7 @@ if
 doc
 )
 {
-PRUint32
+uint32_t
 partID
 ;
 multiPartChannel
@@ -46887,22 +46887,22 @@ parentContentViewer
 .
 /
 /
-PRInt32
+int32_t
 x
 =
 0
 ;
-PRInt32
+int32_t
 y
 =
 0
 ;
-PRInt32
+int32_t
 cx
 =
 0
 ;
-PRInt32
+int32_t
 cy
 =
 0
@@ -46977,13 +46977,13 @@ forceCharset
 nsCAutoString
 hintCharset
 ;
-PRInt32
+int32_t
 hintCharsetSource
 ;
 nsCAutoString
 prevDocCharset
 ;
-PRInt32
+int32_t
 minFontSize
 ;
 float
@@ -48674,10 +48674,10 @@ OnComplete
 nsIURI
 *
 aFaviconURI
-PRUint32
+uint32_t
 aDataLen
 const
-PRUint8
+uint8_t
 *
 aData
 const
@@ -48888,7 +48888,7 @@ aReferrer
 nsISupports
 *
 aOwner
-PRUint32
+uint32_t
 aFlags
 const
 char
@@ -48900,7 +48900,7 @@ aPostData
 nsIInputStream
 *
 aHeadersData
-PRUint32
+uint32_t
 aLoadType
 nsISHEntry
 *
@@ -49067,10 +49067,10 @@ nsISHEntry
 >
 mSHEntry
 ;
-PRUint32
+uint32_t
 mFlags
 ;
-PRUint32
+uint32_t
 mLoadType
 ;
 bool
@@ -49206,7 +49206,7 @@ aReferrer
 nsISupports
 *
 aOwner
-PRUint32
+uint32_t
 aFlags
 const
 PRUnichar
@@ -49222,7 +49222,7 @@ aPostData
 nsIInputStream
 *
 aHeadersData
-PRUint32
+uint32_t
 aLoadType
 nsISHEntry
 *
@@ -49536,7 +49536,7 @@ GetFrameElementInternal
 (
 )
 ;
-PRInt16
+int16_t
 shouldLoad
 =
 nsIContentPolicy
@@ -49544,7 +49544,7 @@ nsIContentPolicy
 :
 ACCEPT
 ;
-PRUint32
+uint32_t
 contentType
 ;
 if
@@ -50375,7 +50375,7 @@ GetDocument
 (
 )
 ;
-PRUint32
+uint32_t
 sandboxFlags
 =
 0
@@ -51901,7 +51901,7 @@ bug
 .
 AutoRestore
 <
-PRUint32
+uint32_t
 >
 loadTypeResetter
 (
@@ -52638,7 +52638,7 @@ if
 mSessionHistory
 )
 {
-PRInt32
+int32_t
 index
 =
 -
@@ -55413,7 +55413,7 @@ SetCacheKey
 cacheKey
 )
 ;
-PRUint32
+uint32_t
 loadFlags
 ;
 if
@@ -55936,11 +55936,11 @@ const
 char
 *
 fromRawSegment
-PRUint32
+uint32_t
 toOffset
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 writeCount
 )
@@ -56026,7 +56026,7 @@ NS_ENSURE_STATE
 httpChannel
 )
 ;
-PRUint32
+uint32_t
 numRead
 ;
 nsCAutoString
@@ -56072,10 +56072,10 @@ headerName
 nsCAutoString
 headerValue
 ;
-PRInt32
+int32_t
 crlf
 ;
-PRInt32
+int32_t
 colon
 ;
 /
@@ -56625,7 +56625,7 @@ aCurHash
 nsACString
 &
 aNewHash
-PRUint32
+uint32_t
 aLoadType
 )
 {
@@ -57572,7 +57572,7 @@ aChannel
 nsISupports
 *
 aOwner
-PRUint32
+uint32_t
 aLoadType
 bool
 aFireOnLocationChange
@@ -57740,7 +57740,7 @@ from
 the
 channel
 .
-PRUint32
+uint32_t
 responseStatus
 =
 0
@@ -58871,7 +58871,7 @@ nsIURI
 >
 previousURI
 ;
-PRUint32
+uint32_t
 previousFlags
 =
 0
@@ -59102,12 +59102,12 @@ new
 document
 "
 .
-PRUint32
+uint32_t
 locationFlags
 =
 aCloneSHChildren
 ?
-PRUint32
+uint32_t
 (
 LOCATION_CHANGE_SAME_DOCUMENT
 )
@@ -59894,7 +59894,7 @@ load
 .
 AutoRestore
 <
-PRUint32
+uint32_t
 >
 loadTypeResetter
 (
@@ -60263,7 +60263,7 @@ length
 640k
 bytes
 .
-PRInt32
+int32_t
 maxStateObjSize
 =
 Preferences
@@ -60293,7 +60293,7 @@ maxStateObjSize
 0
 ;
 }
-PRUint64
+uint64_t
 scSize
 ;
 rv
@@ -60319,7 +60319,7 @@ scSize
 <
 =
 (
-PRUint32
+uint32_t
 )
 maxStateObjSize
 NS_ERROR_ILLEGAL_VALUE
@@ -61339,7 +61339,7 @@ internalSH
 NS_ERROR_UNEXPECTED
 )
 ;
-PRInt32
+int32_t
 curIndex
 =
 -
@@ -62157,7 +62157,7 @@ if
 shContainer
 )
 {
-PRInt32
+int32_t
 childCount
 =
 0
@@ -62181,7 +62181,7 @@ this
 entry
 for
 (
-PRInt32
+int32_t
 i
 =
 childCount
@@ -62601,7 +62601,7 @@ has
 expired
 from
 cache
-PRUint32
+uint32_t
 expTime
 =
 0
@@ -62615,7 +62615,7 @@ GetCacheTokenExpirationTime
 expTime
 )
 ;
-PRUint32
+uint32_t
 now
 =
 PRTimeToSeconds
@@ -62696,7 +62696,7 @@ aCloneChildren
 mOSHE
 )
 {
-PRUint32
+uint32_t
 cloneID
 ;
 mOSHE
@@ -62773,7 +62773,7 @@ in
 session
 history
 .
-PRInt32
+int32_t
 index
 =
 0
@@ -62995,7 +62995,7 @@ LoadHistoryEntry
 nsISHEntry
 *
 aEntry
-PRUint32
+uint32_t
 aLoadType
 )
 {
@@ -63787,7 +63787,7 @@ container
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 childCount
 ;
 container
@@ -63801,7 +63801,7 @@ childCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -63922,7 +63922,7 @@ as
 a
 SHEntry
 .
-PRInt32
+int32_t
 childCount
 =
 aRootShell
@@ -63936,7 +63936,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -64023,7 +64023,7 @@ CloneAndReplaceData
 {
 CloneAndReplaceData
 (
-PRUint32
+uint32_t
 aCloneID
 nsISHEntry
 *
@@ -64053,7 +64053,7 @@ aDestTreeParent
 )
 {
 }
-PRUint32
+uint32_t
 cloneID
 ;
 bool
@@ -64092,7 +64092,7 @@ aEntry
 nsDocShell
 *
 aShell
-PRInt32
+int32_t
 aEntryIndex
 void
 *
@@ -64118,7 +64118,7 @@ CloneAndReplaceData
 aData
 )
 ;
-PRUint32
+uint32_t
 cloneID
 =
 data
@@ -64174,7 +64174,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 srcID
 ;
 aEntry
@@ -64358,7 +64358,7 @@ aSrcEntry
 nsDocShell
 *
 aSrcShell
-PRUint32
+uint32_t
 aCloneID
 nsISHEntry
 *
@@ -64517,7 +64517,7 @@ aEntry
 nsDocShell
 *
 aShell
-PRInt32
+int32_t
 aEntryIndex
 void
 *
@@ -64652,7 +64652,7 @@ entry
 under
 destTreeParent
 .
-PRUint32
+uint32_t
 targetID
 id
 ;
@@ -64732,7 +64732,7 @@ entry
 }
 else
 {
-PRInt32
+int32_t
 childCount
 ;
 container
@@ -64746,7 +64746,7 @@ childCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -65925,7 +65925,7 @@ nsIURI
 *
 *
 aURI
-PRUint32
+uint32_t
 *
 aChannelRedirectFlags
 )
@@ -66101,7 +66101,7 @@ aChannel
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aChannelRedirectFlags
 )
 {
@@ -66178,9 +66178,9 @@ aReferrerURI
 nsIURI
 *
 aPreviousURI
-PRUint32
+uint32_t
 aChannelRedirectFlags
-PRUint32
+uint32_t
 aResponseStatus
 )
 {
@@ -66286,7 +66286,7 @@ if
 history
 )
 {
-PRUint32
+uint32_t
 visitURIFlags
 =
 0
@@ -66674,7 +66674,7 @@ nsDocShell
 :
 SetLoadType
 (
-PRUint32
+uint32_t
 aLoadType
 )
 {
@@ -66692,7 +66692,7 @@ nsDocShell
 :
 GetLoadType
 (
-PRUint32
+uint32_t
 *
 aLoadType
 )
@@ -67044,7 +67044,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 buttonPressed
 ;
 /
@@ -67233,7 +67233,7 @@ aChild
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -67273,7 +67273,7 @@ childNodes
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 i
 =
 0
@@ -67503,7 +67503,7 @@ browserChrome
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-PRUint32
+uint32_t
 chromeFlags
 ;
 browserChrome
@@ -68760,7 +68760,7 @@ to
 determine
 load
 type
-PRUint32
+uint32_t
 delay
 =
 0
@@ -69331,7 +69331,7 @@ nsDocShell
 :
 GetAuthPrompt
 (
-PRUint32
+uint32_t
 aPromptReason
 const
 nsIID
@@ -69997,7 +69997,7 @@ nsDocShell
 :
 IsAppOfType
 (
-PRUint32
+uint32_t
 aAppType
 bool
 *
@@ -70017,7 +70017,7 @@ while
 shell
 )
 {
-PRUint32
+uint32_t
 type
 ;
 shell
@@ -72664,7 +72664,7 @@ const
 char
 *
 aCharset
-PRInt32
+int32_t
 aSource
 )
 {
@@ -72722,7 +72722,7 @@ if
 muDV
 )
 {
-PRInt32
+int32_t
 hint
 ;
 muDV
@@ -74030,7 +74030,7 @@ nsDocShell
 :
 SetAppId
 (
-PRUint32
+uint32_t
 aAppId
 )
 {
@@ -74070,7 +74070,7 @@ nsDocShell
 :
 GetAppId
 (
-PRUint32
+uint32_t
 *
 aAppId
 )

@@ -275,7 +275,7 @@ return
 mDeviceContext
 ;
 }
-PRUint32
+uint32_t
 AppUnitsPerDevPixel
 (
 )
@@ -503,7 +503,7 @@ nsPoint
 aPoints
 [
 ]
-PRInt32
+int32_t
 aNumPoints
 )
 ;
@@ -610,7 +610,7 @@ const
 char
 *
 aString
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -621,7 +621,7 @@ const
 PRUnichar
 *
 aString
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -632,7 +632,7 @@ const
 PRUnichar
 *
 aString
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -656,7 +656,7 @@ const
 char
 *
 aString
-PRUint32
+uint32_t
 aLength
 nscoord
 aX
@@ -671,7 +671,7 @@ const
 PRUnichar
 *
 aString
-PRUint32
+uint32_t
 aLength
 nscoord
 aX
@@ -747,7 +747,7 @@ key
 }
 protected
 :
-PRInt32
+int32_t
 GetMaxChunkLength
 (
 )

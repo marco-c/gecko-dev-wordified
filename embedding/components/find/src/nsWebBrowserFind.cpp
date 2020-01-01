@@ -994,7 +994,7 @@ rootDocShell
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 enumDirection
 ;
 if
@@ -2839,7 +2839,7 @@ NS_ENSURE_ARG_POINTER
 bodyContent
 )
 ;
-PRUint32
+uint32_t
 childCount
 =
 bodyContent
@@ -3036,7 +3036,7 @@ is
 a
 selection
 .
-PRInt32
+int32_t
 count
 =
 -
@@ -3115,7 +3115,7 @@ NS_ENSURE_ARG_POINTER
 bodyContent
 )
 ;
-PRUint32
+uint32_t
 childCount
 =
 bodyContent
@@ -3156,7 +3156,7 @@ nsIDOMNode
 >
 node
 ;
-PRInt32
+int32_t
 offset
 ;
 /
@@ -4971,7 +4971,7 @@ if
 aSel
 )
 {
-PRInt32
+int32_t
 count
 =
 -

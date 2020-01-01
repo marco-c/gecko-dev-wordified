@@ -377,7 +377,7 @@ mObservers
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 observers
@@ -519,7 +519,7 @@ observers
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -562,7 +562,7 @@ UnmarkGrayStrongObservers
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

@@ -395,7 +395,7 @@ kDOMScriptObjectFactoryCID
 NS_DOM_SCRIPT_OBJECT_FACTORY_CID
 )
 ;
-PRUint32
+uint32_t
 nsXBLPrototypeHandler
 :
 :
@@ -403,7 +403,7 @@ gRefCnt
 =
 0
 ;
-PRInt32
+int32_t
 nsXBLPrototypeHandler
 :
 :
@@ -412,7 +412,7 @@ kMenuAccessKey
 -
 1
 ;
-PRInt32
+int32_t
 nsXBLPrototypeHandler
 :
 :
@@ -422,7 +422,7 @@ kAccelKey
 1
 ;
 const
-PRInt32
+int32_t
 nsXBLPrototypeHandler
 :
 :
@@ -436,7 +436,7 @@ cShift
 )
 ;
 const
-PRInt32
+int32_t
 nsXBLPrototypeHandler
 :
 :
@@ -450,7 +450,7 @@ cAlt
 )
 ;
 const
-PRInt32
+int32_t
 nsXBLPrototypeHandler
 :
 :
@@ -464,7 +464,7 @@ cControl
 )
 ;
 const
-PRInt32
+int32_t
 nsXBLPrototypeHandler
 :
 :
@@ -478,7 +478,7 @@ cMeta
 )
 ;
 const
-PRInt32
+int32_t
 nsXBLPrototypeHandler
 :
 :
@@ -492,7 +492,7 @@ cOS
 )
 ;
 const
-PRInt32
+int32_t
 nsXBLPrototypeHandler
 :
 :
@@ -506,7 +506,7 @@ cShiftMask
 )
 ;
 const
-PRInt32
+int32_t
 nsXBLPrototypeHandler
 :
 :
@@ -520,7 +520,7 @@ cAltMask
 )
 ;
 const
-PRInt32
+int32_t
 nsXBLPrototypeHandler
 :
 :
@@ -534,7 +534,7 @@ cControlMask
 )
 ;
 const
-PRInt32
+int32_t
 nsXBLPrototypeHandler
 :
 :
@@ -548,7 +548,7 @@ cMetaMask
 )
 ;
 const
-PRInt32
+int32_t
 nsXBLPrototypeHandler
 :
 :
@@ -562,7 +562,7 @@ cOSMask
 )
 ;
 const
-PRInt32
+int32_t
 nsXBLPrototypeHandler
 :
 :
@@ -634,7 +634,7 @@ aAllowUntrusted
 nsXBLPrototypeBinding
 *
 aBinding
-PRUint32
+uint32_t
 aLineNumber
 )
 :
@@ -2022,7 +2022,7 @@ GetSpec
 bindingURI
 )
 ;
-PRUint32
+uint32_t
 argCount
 ;
 const
@@ -3275,7 +3275,7 @@ KeyEventMatched
 nsIDOMKeyEvent
 *
 aKeyEvent
-PRUint32
+uint32_t
 aCharCode
 bool
 aIgnoreShiftKey
@@ -3302,7 +3302,7 @@ the
 key
 event
 .
-PRUint32
+uint32_t
 code
 ;
 if
@@ -3361,7 +3361,7 @@ if
 code
 !
 =
-PRUint32
+uint32_t
 (
 mDetail
 )
@@ -3428,7 +3428,7 @@ It
 s
 generic
 .
-PRUint16
+uint16_t
 button
 ;
 aMouseEvent
@@ -3459,7 +3459,7 @@ mDetail
 return
 false
 ;
-PRInt32
+int32_t
 clickcount
 ;
 aMouseEvent
@@ -3507,7 +3507,7 @@ str
 size_t
 strlength
 ;
-PRUint32
+uint32_t
 keycode
 ;
 }
@@ -3591,7 +3591,7 @@ undef
 NS_DEFINE_VK
 }
 ;
-PRInt32
+int32_t
 nsXBLPrototypeHandler
 :
 :
@@ -3634,7 +3634,7 @@ stored
 as
 uppercase
 .
-PRUint32
+uint32_t
 keyNameLength
 =
 keyName
@@ -3656,7 +3656,7 @@ get
 ;
 for
 (
-PRUint16
+uint16_t
 i
 =
 0
@@ -3722,13 +3722,13 @@ return
 0
 ;
 }
-PRInt32
+int32_t
 nsXBLPrototypeHandler
 :
 :
 KeyToMask
 (
-PRInt32
+int32_t
 key
 )
 {
@@ -4598,7 +4598,7 @@ key
 ]
 ;
 const
-PRUint8
+uint8_t
 GTK2Modifiers
 =
 cShift
@@ -4671,7 +4671,7 @@ GTK2Conflict
 )
 ;
 const
-PRUint8
+uint8_t
 WinModifiers
 =
 cControl
@@ -5332,7 +5332,7 @@ Read32
 (
 reinterpret_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -5347,7 +5347,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 detail
 ;
 rv
@@ -5579,7 +5579,7 @@ Write32
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mKeyMask

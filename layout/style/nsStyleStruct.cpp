@@ -1406,7 +1406,7 @@ const
 nscoord
 *
 aEnumTable
-PRInt32
+int32_t
 aNumEnums
 )
 {
@@ -1433,7 +1433,7 @@ table
 "
 )
 ;
-PRInt32
+int32_t
 value
 =
 aCoord
@@ -2489,7 +2489,7 @@ EnsureBorderColors
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2604,7 +2604,7 @@ mBorderColors
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -5374,7 +5374,7 @@ check
 entries
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7781,7 +7781,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7880,7 +7880,7 @@ IsOpaque
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8627,14 +8627,14 @@ nullptr
 }
 }
 static
-PRInt32
+int32_t
 ConvertToPixelCoord
 (
 const
 nsStyleCoord
 &
 aCoord
-PRInt32
+int32_t
 aPercentScale
 )
 {
@@ -8830,7 +8830,7 @@ height
 return
 false
 ;
-PRInt32
+int32_t
 left
 =
 ConvertToPixelCoord
@@ -8846,7 +8846,7 @@ imageSize
 width
 )
 ;
-PRInt32
+int32_t
 top
 =
 ConvertToPixelCoord
@@ -8862,7 +8862,7 @@ imageSize
 height
 )
 ;
-PRInt32
+int32_t
 right
 =
 ConvertToPixelCoord
@@ -8878,7 +8878,7 @@ imageSize
 width
 )
 ;
-PRInt32
+int32_t
 bottom
 =
 ConvertToPixelCoord
@@ -9228,7 +9228,7 @@ case
 eStyleImageType_Image
 :
 {
-PRUint32
+uint32_t
 status
 =
 imgIRequest
@@ -9641,7 +9641,7 @@ truncate
 the
 counts
 .
-PRUint32
+uint32_t
 count
 =
 mLayers
@@ -9774,7 +9774,7 @@ our
 layers
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -11129,7 +11129,7 @@ nsTimingFunction
 :
 AssignFromKeyword
 (
-PRInt32
+int32_t
 aTimingFunctionType
 )
 {
@@ -12686,7 +12686,7 @@ nsChangeHint_RepaintFrame
 ;
 for
 (
-PRUint8
+uint8_t
 index
 =
 0
@@ -12726,7 +12726,7 @@ break
 }
 for
 (
-PRUint8
+uint8_t
 index
 =
 0
@@ -13039,7 +13039,7 @@ MOZ_COUNT_CTOR
 nsStyleVisibility
 )
 ;
-PRUint32
+uint32_t
 bidiOptions
 =
 aPresContext
@@ -13995,7 +13995,7 @@ document
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14117,7 +14117,7 @@ aSource
 .
 mMarkerOffset
 ;
-PRUint32
+uint32_t
 index
 ;
 if
@@ -14506,7 +14506,7 @@ return
 NS_STYLE_HINT_FRAMECHANGE
 ;
 }
-PRUint32
+uint32_t
 ix
 =
 mContentCount
@@ -14742,7 +14742,7 @@ nsStyleContent
 :
 AllocateContents
 (
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -15103,7 +15103,7 @@ QuotesCount
 )
 )
 {
-PRUint32
+uint32_t
 count
 =
 (
@@ -15114,7 +15114,7 @@ mQuotesCount
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -15203,7 +15203,7 @@ aOther
 mQuotesCount
 )
 {
-PRUint32
+uint32_t
 ix
 =
 (
@@ -15436,14 +15436,14 @@ return
 NS_STYLE_HINT_REFLOW
 ;
 }
-PRUint8
+uint8_t
 lineStyle
 =
 GetDecorationStyle
 (
 )
 ;
-PRUint8
+uint8_t
 otherLineStyle
 =
 aOther
@@ -15745,7 +15745,7 @@ NS_STYLE_HINT_REFLOW
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -16716,7 +16716,7 @@ mCursorArrayLength
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

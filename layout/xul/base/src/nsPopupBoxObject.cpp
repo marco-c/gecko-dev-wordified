@@ -311,9 +311,9 @@ aAnchorElement
 nsIDOMElement
 *
 aPopupElement
-PRInt32
+int32_t
 aXPos
-PRInt32
+int32_t
 aYPos
 const
 PRUnichar
@@ -430,9 +430,9 @@ const
 nsAString
 &
 aPosition
-PRInt32
+int32_t
 aXPos
-PRInt32
+int32_t
 aYPos
 bool
 aIsContextMenu
@@ -501,9 +501,9 @@ nsPopupBoxObject
 :
 OpenPopupAtScreen
 (
-PRInt32
+int32_t
 aXPos
-PRInt32
+int32_t
 aYPos
 bool
 aIsContextMenu
@@ -552,9 +552,9 @@ nsPopupBoxObject
 :
 MoveTo
 (
-PRInt32
+int32_t
 aLeft
-PRInt32
+int32_t
 aTop
 )
 {
@@ -596,9 +596,9 @@ nsPopupBoxObject
 :
 SizeTo
 (
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 )
 {
@@ -777,7 +777,7 @@ nsPopupBoxObject
 :
 SetConsumeRollupEvent
 (
-PRUint32
+uint32_t
 aConsume
 )
 {
@@ -1277,7 +1277,7 @@ GetScreenBounds
 screenRect
 )
 ;
-PRInt32
+int32_t
 pp
 =
 menuPopupFrame

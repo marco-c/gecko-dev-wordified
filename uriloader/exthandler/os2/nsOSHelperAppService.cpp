@@ -8018,7 +8018,7 @@ on
 available
 info
 static
-PRUint32
+uint32_t
 WpsGetDefaultHandler
 (
 const
@@ -8072,7 +8072,7 @@ false
 ;
 else
 {
-PRUint32
+uint32_t
 handle
 ;
 /
@@ -8335,7 +8335,7 @@ any
 nsAutoString
 ustr
 ;
-PRUint32
+uint32_t
 handle
 =
 WpsGetDefaultHandler
@@ -9201,7 +9201,7 @@ the
 system
 default
 handler
-PRUint32
+uint32_t
 handle
 =
 WpsGetDefaultHandler

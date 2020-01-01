@@ -195,9 +195,9 @@ void
 const
 char
 *
-PRUint32
-PRUint32
-PRUint32
+uint32_t
+uint32_t
+uint32_t
 *
 )
 ;
@@ -209,7 +209,7 @@ nsAHttpTransaction
 *
 Request
 (
-PRInt32
+int32_t
 i
 )
 {
@@ -238,7 +238,7 @@ nsAHttpTransaction
 *
 Response
 (
-PRInt32
+int32_t
 i
 )
 {
@@ -473,10 +473,10 @@ char
 *
 mPushBackBuf
 ;
-PRUint32
+uint32_t
 mPushBackLen
 ;
-PRUint32
+uint32_t
 mPushBackMax
 ;
 /
@@ -490,7 +490,7 @@ on
 this
 pipeline
 .
-PRUint32
+uint32_t
 mHttp1xTransactionCount
 ;
 /
@@ -501,10 +501,10 @@ of
 OnTransportStatus
 (
 )
-PRUint64
+uint64_t
 mReceivingFromProgress
 ;
-PRUint64
+uint64_t
 mSendingToProgress
 ;
 bool

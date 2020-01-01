@@ -683,7 +683,7 @@ nsDNSRecord
 :
 GetNextAddr
 (
-PRUint16
+uint16_t
 port
 PRNetAddr
 *
@@ -1307,7 +1307,7 @@ nsDNSRecord
 :
 ReportUnusable
 (
-PRUint16
+uint16_t
 aPort
 )
 {
@@ -1537,9 +1537,9 @@ host
 nsIDNSListener
 *
 listener
-PRUint16
+uint16_t
 flags
-PRUint16
+uint16_t
 af
 )
 :
@@ -1645,10 +1645,10 @@ nsIDNSListener
 >
 mListener
 ;
-PRUint16
+uint16_t
 mFlags
 ;
-PRUint16
+uint16_t
 mAF
 ;
 }
@@ -2223,12 +2223,12 @@ NS_ERROR_ALREADY_INITIALIZED
 /
 /
 prefs
-PRUint32
+uint32_t
 maxCacheEntries
 =
 400
 ;
-PRUint32
+uint32_t
 maxCacheLifetime
 =
 2
@@ -2236,7 +2236,7 @@ maxCacheLifetime
 /
 /
 minutes
-PRUint32
+uint32_t
 lifetimeGracePeriod
 =
 1
@@ -2290,7 +2290,7 @@ if
 prefs
 )
 {
-PRInt32
+int32_t
 val
 ;
 if
@@ -2311,7 +2311,7 @@ val
 maxCacheEntries
 =
 (
-PRUint32
+uint32_t
 )
 val
 ;
@@ -3200,7 +3200,7 @@ const
 nsACString
 &
 hostname
-PRUint32
+uint32_t
 flags
 nsIDNSListener
 *
@@ -3378,7 +3378,7 @@ target
 )
 ;
 }
-PRUint16
+uint16_t
 af
 =
 GetAFForLookup
@@ -3492,7 +3492,7 @@ const
 nsACString
 &
 aHostname
-PRUint32
+uint32_t
 aFlags
 nsIDNSListener
 *
@@ -3610,7 +3610,7 @@ hostname
 hostACE
 ;
 }
-PRUint16
+uint16_t
 af
 =
 GetAFForLookup
@@ -3649,7 +3649,7 @@ const
 nsACString
 &
 hostname
-PRUint32
+uint32_t
 flags
 nsIDNSRecord
 *
@@ -3900,7 +3900,7 @@ syncReq
 mon
 )
 ;
-PRUint16
+uint16_t
 af
 =
 GetAFForLookup
@@ -4223,7 +4223,7 @@ return
 NS_OK
 ;
 }
-PRUint16
+uint16_t
 nsDNSService
 :
 :
@@ -4233,7 +4233,7 @@ const
 nsACString
 &
 host
-PRUint32
+uint32_t
 flags
 )
 {
@@ -4257,7 +4257,7 @@ lock
 mLock
 )
 ;
-PRUint16
+uint16_t
 af
 =
 PR_AF_UNSPEC
@@ -4281,7 +4281,7 @@ domainEnd
 *
 end
 ;
-PRUint32
+uint32_t
 hostLen
 domainLen
 ;

@@ -288,12 +288,12 @@ NOT_TRACKED
 .
 *
 /
-PRUint32
+uint32_t
 mGeneration
 :
 4
 ;
-PRUint32
+uint32_t
 mIndexInGeneration
 :
 28
@@ -618,7 +618,7 @@ template
 <
 class
 T
-PRUint32
+uint32_t
 K
 >
 class
@@ -685,7 +685,7 @@ explicitly
 /
 nsExpirationTracker
 (
-PRUint32
+uint32_t
 aTimerPeriod
 )
 :
@@ -883,7 +883,7 @@ mGenerations
 mNewestGeneration
 ]
 ;
-PRUint32
+uint32_t
 index
 =
 generation
@@ -1064,7 +1064,7 @@ state
 mGeneration
 ]
 ;
-PRUint32
+uint32_t
 index
 =
 state
@@ -1114,7 +1114,7 @@ created
 by
 removing
 aObj
-PRUint32
+uint32_t
 last
 =
 generation
@@ -1382,7 +1382,7 @@ mInAgeOneGeneration
 =
 true
 ;
-PRUint32
+uint32_t
 reapGeneration
 =
 mNewestGeneration
@@ -1524,7 +1524,7 @@ at
 least
 once
 .
-PRUint32
+uint32_t
 index
 =
 generation
@@ -1755,7 +1755,7 @@ AgeAllGenerations
 (
 )
 {
-PRUint32
+uint32_t
 i
 ;
 for
@@ -1792,10 +1792,10 @@ K
 *
 mTracker
 ;
-PRUint32
+uint32_t
 mGeneration
 ;
-PRUint32
+uint32_t
 mIndex
 ;
 public
@@ -1909,7 +1909,7 @@ IsEmpty
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2295,10 +2295,10 @@ nsITimer
 >
 mTimer
 ;
-PRUint32
+uint32_t
 mTimerPeriod
 ;
-PRUint32
+uint32_t
 mNewestGeneration
 ;
 bool
@@ -2580,7 +2580,7 @@ template
 <
 class
 T
-PRUint32
+uint32_t
 K
 >
 NS_IMETHODIMP
@@ -2637,7 +2637,7 @@ template
 <
 class
 T
-PRUint32
+uint32_t
 K
 >
 NS_IMETHODIMP_
@@ -2661,7 +2661,7 @@ void
 {
 NS_PRECONDITION
 (
-PRInt32
+int32_t
 (
 mRefCnt
 )
@@ -2705,7 +2705,7 @@ template
 <
 class
 T
-PRUint32
+uint32_t
 K
 >
 NS_IMETHODIMP_
@@ -2796,7 +2796,7 @@ template
 <
 class
 T
-PRUint32
+uint32_t
 K
 >
 NS_IMETHODIMP

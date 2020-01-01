@@ -246,7 +246,7 @@ LazyIdleThread
 :
 LazyIdleThread
 (
-PRUint32
+uint32_t
 aIdleTimeoutMS
 const
 nsCSubstring
@@ -1547,7 +1547,7 @@ runnables
 .
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -1831,7 +1831,7 @@ Dispatch
 nsIRunnable
 *
 aEvent
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -2293,7 +2293,7 @@ bool
 aMayWait
 *
 /
-PRUint32
+uint32_t
 /
 *
 aRecursionDepth
@@ -2318,7 +2318,7 @@ nsIThreadInternal
 aThread
 *
 /
-PRUint32
+uint32_t
 /
 *
 aRecursionDepth

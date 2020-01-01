@@ -185,7 +185,7 @@ nsIContent
 *
 Rollup
 (
-PRUint32
+uint32_t
 aCount
 bool
 aGetLastRolledUp
@@ -332,7 +332,7 @@ aWidgetChain
 *
 /
 virtual
-PRUint32
+uint32_t
 GetSubmenuWidgetChain
 (
 nsTArray

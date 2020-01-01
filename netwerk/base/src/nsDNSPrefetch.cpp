@@ -241,7 +241,7 @@ nsDNSPrefetch
 :
 Prefetch
 (
-PRUint16
+uint16_t
 flags
 )
 {

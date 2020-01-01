@@ -244,11 +244,11 @@ DisplayItemData
 Layer
 *
 aLayer
-PRUint32
+uint32_t
 aKey
 LayerState
 aLayerState
-PRUint32
+uint32_t
 aGeneration
 )
 :
@@ -1055,7 +1055,7 @@ FrameLayerBuilder
 Clip
 &
 aClip
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -1132,7 +1132,7 @@ CONTENT_COMPONENT_ALPHA
 void
 Finish
 (
-PRUint32
+uint32_t
 *
 aTextContentFlags
 )
@@ -2281,7 +2281,7 @@ stack
 .
 *
 /
-PRInt32
+int32_t
 mCommonClipCount
 ;
 /
@@ -2660,7 +2660,7 @@ NS_RGBA
 nscolor
 FindOpaqueBackgroundColorFor
 (
-PRInt32
+int32_t
 aThebesLayerIndex
 )
 ;
@@ -3054,7 +3054,7 @@ FrameLayerBuilder
 Clip
 &
 aClip
-PRUint32
+uint32_t
 aRoundedRectClipCount
 =
 PR_UINT32_MAX
@@ -3193,7 +3193,7 @@ ImageLayer
 >
 mRecycledMaskImageLayers
 ;
-PRUint32
+uint32_t
 mNextFreeRecycledThebesLayer
 ;
 nscoord
@@ -3649,7 +3649,7 @@ ThebesDisplayItemLayerUserData
 .
 *
 /
-PRUint8
+uint8_t
 gThebesDisplayItemLayerUserData
 ;
 /
@@ -3683,7 +3683,7 @@ null
 .
 *
 /
-PRUint8
+uint8_t
 gColorLayerUserData
 ;
 /
@@ -3717,7 +3717,7 @@ null
 .
 *
 /
-PRUint8
+uint8_t
 gImageLayerUserData
 ;
 /
@@ -3753,7 +3753,7 @@ LayerManagerData
 .
 *
 /
-PRUint8
+uint8_t
 gLayerManagerUserData
 ;
 /
@@ -3789,7 +3789,7 @@ MaskLayerUserData
 .
 *
 /
-PRUint8
+uint8_t
 gMaskLayerUserData
 ;
 /
@@ -3993,7 +3993,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5480,7 +5480,7 @@ HasRetainedLayerFor
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 aDisplayItemKey
 )
 {
@@ -5506,7 +5506,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5605,7 +5605,7 @@ GetOldLayerFor
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 aDisplayItemKey
 )
 {
@@ -5662,7 +5662,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5747,7 +5747,7 @@ GetDebugOldLayerFor
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 aDisplayItemKey
 )
 {
@@ -5836,7 +5836,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6477,13 +6477,13 @@ nsIntPoint
 return
 nsIntPoint
 (
-PRInt32
+int32_t
 (
 transform
 .
 x0
 )
-PRInt32
+int32_t
 (
 transform
 .
@@ -6615,7 +6615,7 @@ aOldResidual
 *
 /
 static
-PRInt32
+int32_t
 RoundToMatchResidual
 (
 double
@@ -6624,7 +6624,7 @@ double
 aOldResidual
 )
 {
-PRInt32
+int32_t
 v
 =
 NSToIntRoundUp
@@ -6673,7 +6673,7 @@ Round
 up
 instead
 return
-PRInt32
+int32_t
 (
 ceil
 (
@@ -6718,7 +6718,7 @@ Round
 down
 instead
 return
-PRInt32
+int32_t
 (
 floor
 (
@@ -7532,7 +7532,7 @@ ProcessDisplayItems
 *
 /
 static
-PRInt32
+int32_t
 AppUnitsPerDevPixel
 (
 nsDisplayItem
@@ -7884,7 +7884,7 @@ ContainerState
 :
 FindOpaqueBackgroundColorFor
 (
-PRInt32
+int32_t
 aThebesLayerIndex
 )
 {
@@ -7899,7 +7899,7 @@ aThebesLayerIndex
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 aThebesLayerIndex
@@ -8128,12 +8128,12 @@ mCommonClipCount
 0
 )
 {
-PRInt32
+int32_t
 end
 =
 NS_MIN
 <
-PRInt32
+int32_t
 >
 (
 aCurrentClip
@@ -8146,7 +8146,7 @@ Length
 mCommonClipCount
 )
 ;
-PRInt32
+int32_t
 clipCount
 =
 0
@@ -8200,7 +8200,7 @@ Length
 )
 >
 =
-PRUint32
+uint32_t
 (
 mCommonClipCount
 )
@@ -8292,7 +8292,7 @@ pop
 "
 )
 ;
-PRInt32
+int32_t
 lastIndex
 =
 mThebesLayerDataStack
@@ -8899,13 +8899,13 @@ MoveBy
 -
 nsIntPoint
 (
-PRInt32
+int32_t
 (
 transform
 .
 x0
 )
-PRInt32
+int32_t
 (
 transform
 .
@@ -9135,7 +9135,7 @@ for
 rounded
 rect
 clipping
-PRInt32
+int32_t
 commonClipCount
 =
 data
@@ -9229,7 +9229,7 @@ mItemClip
 )
 ;
 }
-PRUint32
+uint32_t
 flags
 ;
 if
@@ -10652,16 +10652,16 @@ nsIFrame
 aActiveScrolledRoot
 )
 {
-PRInt32
+int32_t
 i
 ;
-PRInt32
+int32_t
 lowestUsableLayerWithScrolledRoot
 =
 -
 1
 ;
-PRInt32
+int32_t
 topmostLayerWithScrolledRoot
 =
 -
@@ -10824,7 +10824,7 @@ topmostLayerWithScrolledRoot
 {
 while
 (
-PRUint32
+uint32_t
 (
 topmostLayerWithScrolledRoot
 +
@@ -10999,7 +10999,7 @@ string
 AppendInt
 (
 (
-PRUint64
+uint64_t
 )
 aItem
 )
@@ -11100,7 +11100,7 @@ a
 temporary
 BasicLayerManager
 .
-PRInt32
+int32_t
 appUnitsPerDevPixel
 =
 AppUnitsPerDevPixel
@@ -11600,7 +11600,7 @@ FrameLayerBuilder
 Clip
 &
 aClip
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -12638,7 +12638,7 @@ frame
 "
 )
 ;
-PRUint32
+uint32_t
 key
 =
 aItem
@@ -13368,7 +13368,7 @@ layer
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 entry
@@ -13644,7 +13644,7 @@ ContainerState
 :
 Finish
 (
-PRUint32
+uint32_t
 *
 aTextContentFlags
 )
@@ -13664,14 +13664,14 @@ PopThebesLayerData
 )
 ;
 }
-PRUint32
+uint32_t
 textContentFlags
 =
 0
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14995,13 +14995,13 @@ void
 aUserArg
 )
 {
-PRUint32
+uint32_t
 *
 generation
 =
 static_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -15026,7 +15026,7 @@ PL_DHASH_REMOVE
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -15102,13 +15102,13 @@ void
 aUserArg
 )
 {
-PRUint32
+uint32_t
 *
 generation
 =
 static_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -15133,7 +15133,7 @@ PL_DHASH_REMOVE
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -15411,7 +15411,7 @@ gfx3DMatrix
 aTransform
 )
 {
-PRUint32
+uint32_t
 containerDisplayItemKey
 =
 aContainerItem
@@ -15772,7 +15772,7 @@ aParameters
 containerLayer
 )
 ;
-PRUint32
+uint32_t
 oldGeneration
 =
 mContainerLayerGeneration
@@ -15895,10 +15895,10 @@ bounds
 nsIntRect
 pixBounds
 ;
-PRInt32
+int32_t
 appUnitsPerDevPixel
 ;
-PRUint32
+uint32_t
 stateFlags
 =
 (
@@ -15919,7 +15919,7 @@ NO_COMPONENT_ALPHA
 :
 0
 ;
-PRUint32
+uint32_t
 flags
 ;
 bool
@@ -16061,7 +16061,7 @@ mergedFrames
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -17269,7 +17269,7 @@ GetDedicatedLayer
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 aDisplayItemKey
 )
 {
@@ -17295,7 +17295,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -17581,7 +17581,7 @@ continue
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -18404,7 +18404,7 @@ ClippedDisplayItem
 >
 items
 ;
-PRUint32
+uint32_t
 commonClipCount
 ;
 nsIFrame
@@ -18740,7 +18740,7 @@ PresContext
 (
 )
 ;
-PRInt32
+int32_t
 appUnitsPerDevPixel
 =
 presContext
@@ -18810,7 +18810,7 @@ INVALIDATE_EXCLUDE_CURRENT_PAINT
 )
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 /
@@ -20002,13 +20002,13 @@ aContext
 nsPresContext
 *
 aPresContext
-PRUint32
+uint32_t
 aBegin
-PRUint32
+uint32_t
 aEnd
 )
 {
-PRInt32
+int32_t
 A2D
 =
 aPresContext
@@ -20045,7 +20045,7 @@ ApplyRectTo
 gfxContext
 *
 aContext
-PRInt32
+int32_t
 A2D
 )
 const
@@ -20098,11 +20098,11 @@ ApplyRoundedRectsTo
 gfxContext
 *
 aContext
-PRInt32
+int32_t
 A2D
-PRUint32
+uint32_t
 aBegin
-PRUint32
+uint32_t
 aEnd
 )
 const
@@ -20111,7 +20111,7 @@ aEnd
 =
 NS_MIN
 <
-PRUint32
+uint32_t
 >
 (
 aEnd
@@ -20124,7 +20124,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 aBegin
@@ -20169,11 +20169,11 @@ DrawRoundedRectsTo
 gfxContext
 *
 aContext
-PRInt32
+int32_t
 A2D
-PRUint32
+uint32_t
 aBegin
-PRUint32
+uint32_t
 aEnd
 )
 const
@@ -20182,7 +20182,7 @@ aEnd
 =
 NS_MIN
 <
-PRUint32
+uint32_t
 >
 (
 aEnd
@@ -20278,7 +20278,7 @@ AddRoundedRectPathTo
 gfxContext
 *
 aContext
-PRInt32
+int32_t
 A2D
 const
 RoundedRect
@@ -20383,7 +20383,7 @@ mClipRect
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -20575,7 +20575,7 @@ NonRoundedIntersection
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -21053,7 +21053,7 @@ mClipRect
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -21140,7 +21140,7 @@ Clip
 RoundedRect
 >
 aRects
-PRInt32
+int32_t
 A2D
 )
 {
@@ -21156,7 +21156,7 @@ mRect
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 1
@@ -21215,7 +21215,7 @@ FrameLayerBuilder
 Clip
 &
 aClip
-PRUint32
+uint32_t
 aRoundedRectClipCount
 )
 {
@@ -21383,7 +21383,7 @@ precise
 bounding
 rect
 const
-PRInt32
+int32_t
 A2D
 =
 mContainerFrame
@@ -21421,7 +21421,7 @@ mParameters
 mYScale
 )
 ;
-PRUint32
+uint32_t
 maxSize
 =
 mManager
@@ -21449,7 +21449,7 @@ surfaceSize
 (
 NS_MIN
 <
-PRInt32
+int32_t
 >
 (
 boundingRect
@@ -21461,7 +21461,7 @@ maxSize
 )
 NS_MIN
 <
-PRInt32
+int32_t
 >
 (
 boundingRect
@@ -21628,7 +21628,7 @@ roundedRects
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

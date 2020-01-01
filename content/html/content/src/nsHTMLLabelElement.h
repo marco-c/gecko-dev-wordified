@@ -243,7 +243,7 @@ Click
 NS_IMETHOD
 GetTabIndex
 (
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -261,7 +261,7 @@ aTabIndex
 NS_IMETHOD
 SetTabIndex
 (
-PRInt32
+int32_t
 aTabIndex
 )
 {
@@ -340,7 +340,7 @@ aInnerHTML
 nsIFormControl
 NS_IMETHOD_
 (
-PRUint32
+uint32_t
 )
 GetType
 (
@@ -421,7 +421,7 @@ aVisitor
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -449,7 +449,7 @@ virtual
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -469,7 +469,7 @@ virtual
 nsresult
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *

@@ -157,7 +157,7 @@ have
 a
 SYM_KEY
 .
-PRInt16
+int16_t
 keyType
 ;
 nsresult
@@ -463,10 +463,10 @@ nsIKeyObject
 *
 aKey
 const
-PRUint8
+uint8_t
 *
 aIV
-PRUint32
+uint32_t
 aIVLen
 )
 {
@@ -506,10 +506,10 @@ nsStreamCipher
 Update
 (
 const
-PRUint8
+uint8_t
 *
 aData
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -553,7 +553,7 @@ char
 )
 aData
 ;
-PRInt32
+int32_t
 setLen
 ;
 #
@@ -591,7 +591,7 @@ encrypt
 NS_ASSERTION
 (
 (
-PRUint32
+uint32_t
 )
 setLen
 =
@@ -637,7 +637,7 @@ UpdateFromStream
 nsIInputStream
 *
 aStream
-PRInt32
+int32_t
 aLen
 )
 {
@@ -721,7 +721,7 @@ get
 (
 )
 ;
-PRUint32
+uint32_t
 len
 =
 aInput
@@ -750,7 +750,7 @@ output
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRInt32
+int32_t
 setLen
 ;
 #
@@ -788,7 +788,7 @@ encrypt
 NS_ASSERTION
 (
 (
-PRUint32
+uint32_t
 )
 setLen
 =
@@ -909,7 +909,7 @@ nsStreamCipher
 :
 Discard
 (
-PRInt32
+int32_t
 aLen
 )
 {
@@ -968,7 +968,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRInt32
+int32_t
 setLen
 ;
 #

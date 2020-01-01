@@ -496,7 +496,7 @@ warnings
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -524,7 +524,7 @@ virtual
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -558,7 +558,7 @@ spec
 *
 param
 out
-PRInt32
+int32_t
 aNumValues
 The
 number
@@ -602,7 +602,7 @@ IT
 nsresult
 GetRowSpec
 (
-PRInt32
+int32_t
 *
 aNumValues
 const
@@ -629,7 +629,7 @@ spec
 *
 param
 out
-PRInt32
+int32_t
 aNumValues
 The
 number
@@ -673,7 +673,7 @@ IT
 nsresult
 GetColSpec
 (
-PRInt32
+int32_t
 *
 aNumValues
 const
@@ -687,7 +687,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -709,7 +709,7 @@ const
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 const
@@ -792,7 +792,7 @@ const
 nsAString
 &
 aValue
-PRInt32
+int32_t
 &
 aNumSpecs
 nsFramesetSpec
@@ -818,7 +818,7 @@ rows
 attr
 *
 /
-PRInt32
+int32_t
 mNumRows
 ;
 /
@@ -838,7 +838,7 @@ cols
 attr
 *
 /
-PRInt32
+int32_t
 mNumCols
 ;
 /

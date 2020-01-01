@@ -302,7 +302,7 @@ NS_OK
 /
 /
 virtual
-PRUint32
+uint32_t
 XPC_MAP_CLASSNAME
 :
 :
@@ -907,7 +907,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 enum_op
 jsval
 *
@@ -991,7 +991,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -1034,7 +1034,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 type
 jsval
 *
@@ -1112,7 +1112,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 mode
 jsval
 *
@@ -1154,7 +1154,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -1199,7 +1199,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *

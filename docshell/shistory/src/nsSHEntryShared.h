@@ -361,7 +361,7 @@ Duplicate
 )
 implementation
 .
-PRUint64
+uint64_t
 mDocShellID
 ;
 nsCOMArray
@@ -397,7 +397,7 @@ nsISupports
 >
 mCacheKey
 ;
-PRUint32
+uint32_t
 mLastTouched
 ;
 /
@@ -428,7 +428,7 @@ particular
 content
 viewer
 .
-PRUint64
+uint64_t
 mID
 ;
 nsCOMPtr

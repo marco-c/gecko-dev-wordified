@@ -711,7 +711,7 @@ cacheMap
 nsDiskCacheBindery
 *
 cacheBindery
-PRUint32
+uint32_t
 targetSize
 const
 char
@@ -749,7 +749,7 @@ clientID
 ;
 }
 virtual
-PRInt32
+int32_t
 VisitRecord
 (
 nsDiskCacheRecord
@@ -767,7 +767,7 @@ nsDiskCacheBindery
 *
 mBindery
 ;
-PRUint32
+uint32_t
 mTargetSize
 ;
 const
@@ -775,12 +775,12 @@ char
 *
 mClientID
 ;
-PRUint32
+uint32_t
 mClientIDSize
 ;
 }
 ;
-PRInt32
+int32_t
 nsDiskCacheEvictor
 :
 :
@@ -1529,7 +1529,7 @@ nsDiskCacheDeviceInfo
 :
 GetEntryCount
 (
-PRUint32
+uint32_t
 *
 aEntryCount
 )
@@ -1569,7 +1569,7 @@ nsDiskCacheDeviceInfo
 :
 GetTotalSize
 (
-PRUint32
+uint32_t
 *
 aTotalSize
 )
@@ -1620,7 +1620,7 @@ nsDiskCacheDeviceInfo
 :
 GetMaximumSize
 (
-PRUint32
+uint32_t
 *
 aMaximumSize
 )
@@ -1906,13 +1906,13 @@ inline
 void
 hashmix
 (
-PRUint32
+uint32_t
 &
 a
-PRUint32
+uint32_t
 &
 b
-PRUint32
+uint32_t
 &
 c
 )
@@ -2113,21 +2113,21 @@ initval
 )
 {
 const
-PRUint8
+uint8_t
 *
 k
 =
 reinterpret_cast
 <
 const
-PRUint8
+uint8_t
 *
 >
 (
 key
 )
 ;
-PRUint32
+uint32_t
 a
 b
 c
@@ -2250,7 +2250,7 @@ k
 ]
 +
 (
-PRUint32
+uint32_t
 (
 k
 [
@@ -2263,7 +2263,7 @@ k
 )
 +
 (
-PRUint32
+uint32_t
 (
 k
 [
@@ -2276,7 +2276,7 @@ k
 )
 +
 (
-PRUint32
+uint32_t
 (
 k
 [
@@ -2297,7 +2297,7 @@ k
 ]
 +
 (
-PRUint32
+uint32_t
 (
 k
 [
@@ -2310,7 +2310,7 @@ k
 )
 +
 (
-PRUint32
+uint32_t
 (
 k
 [
@@ -2323,7 +2323,7 @@ k
 )
 +
 (
-PRUint32
+uint32_t
 (
 k
 [
@@ -2344,7 +2344,7 @@ k
 ]
 +
 (
-PRUint32
+uint32_t
 (
 k
 [
@@ -2357,7 +2357,7 @@ k
 )
 +
 (
-PRUint32
+uint32_t
 (
 k
 [
@@ -2370,7 +2370,7 @@ k
 )
 +
 (
-PRUint32
+uint32_t
 (
 k
 [
@@ -2473,7 +2473,7 @@ c
 +
 =
 (
-PRUint32
+uint32_t
 (
 k
 [
@@ -2492,7 +2492,7 @@ c
 +
 =
 (
-PRUint32
+uint32_t
 (
 k
 [
@@ -2511,7 +2511,7 @@ c
 +
 =
 (
-PRUint32
+uint32_t
 (
 k
 [
@@ -2546,7 +2546,7 @@ b
 +
 =
 (
-PRUint32
+uint32_t
 (
 k
 [
@@ -2565,7 +2565,7 @@ b
 +
 =
 (
-PRUint32
+uint32_t
 (
 k
 [
@@ -2584,7 +2584,7 @@ b
 +
 =
 (
-PRUint32
+uint32_t
 (
 k
 [
@@ -2614,7 +2614,7 @@ a
 +
 =
 (
-PRUint32
+uint32_t
 (
 k
 [
@@ -2633,7 +2633,7 @@ a
 +
 =
 (
-PRUint32
+uint32_t
 (
 k
 [
@@ -2652,7 +2652,7 @@ a
 +
 =
 (
-PRUint32
+uint32_t
 (
 k
 [
@@ -2707,7 +2707,7 @@ Truncate
 PRFileDesc
 *
 fd
-PRUint32
+uint32_t
 newEOF
 )
 {
@@ -2762,7 +2762,7 @@ defined
 (
 XP_WIN
 )
-PRInt32
+int32_t
 cnt
 =
 PR_Seek
@@ -4749,7 +4749,7 @@ rv
 return
 rv
 ;
-PRUint32
+uint32_t
 oldHashNumber
 =
 oldRecord
@@ -5172,7 +5172,7 @@ nsCacheEntry
 entry
 nsCacheAccessMode
 mode
-PRUint32
+uint32_t
 offset
 nsIInputStream
 *
@@ -5320,7 +5320,7 @@ nsCacheEntry
 entry
 nsCacheAccessMode
 mode
-PRUint32
+uint32_t
 offset
 nsIOutputStream
 *
@@ -5747,7 +5747,7 @@ OnDataSizeChange
 nsCacheEntry
 *
 entry
-PRInt32
+int32_t
 deltaSize
 )
 {
@@ -5833,7 +5833,7 @@ record
 "
 )
 ;
-PRUint32
+uint32_t
 newSize
 =
 entry
@@ -5845,7 +5845,7 @@ DataSize
 +
 deltaSize
 ;
-PRUint32
+uint32_t
 newSizeK
 =
 (
@@ -5966,7 +5966,7 @@ return
 NS_ERROR_ABORT
 ;
 }
-PRUint32
+uint32_t
 sizeK
 =
 (
@@ -6052,7 +6052,7 @@ space
 for
 new
 data
-PRUint32
+uint32_t
 targetCapacity
 =
 mCacheCapacity
@@ -6270,7 +6270,7 @@ visitor
 {
 }
 virtual
-PRInt32
+int32_t
 VisitRecord
 (
 nsDiskCacheRecord
@@ -6511,7 +6511,7 @@ nsDiskCacheDevice
 :
 EntryIsTooBig
 (
-PRInt64
+int64_t
 entrySize
 )
 {
@@ -6533,7 +6533,7 @@ entrySize
 (
 static_cast
 <
-PRInt64
+int64_t
 >
 (
 mCacheCapacity
@@ -6556,7 +6556,7 @@ entrySize
 (
 static_cast
 <
-PRInt64
+int64_t
 >
 (
 mCacheCapacity
@@ -7163,7 +7163,7 @@ nsDiskCacheDevice
 :
 EvictDiskCacheEntries
 (
-PRUint32
+uint32_t
 targetCapacity
 )
 {
@@ -7462,7 +7462,7 @@ nsDiskCacheDevice
 :
 SetCapacity
 (
-PRUint32
+uint32_t
 capacity
 )
 {
@@ -7553,7 +7553,7 @@ capacity
 )
 ;
 }
-PRUint32
+uint32_t
 nsDiskCacheDevice
 :
 :
@@ -7565,7 +7565,7 @@ return
 mCacheCapacity
 ;
 }
-PRUint32
+uint32_t
 nsDiskCacheDevice
 :
 :
@@ -7581,7 +7581,7 @@ TotalSize
 )
 ;
 }
-PRUint32
+uint32_t
 nsDiskCacheDevice
 :
 :
@@ -7603,7 +7603,7 @@ nsDiskCacheDevice
 :
 SetMaxEntrySize
 (
-PRInt32
+int32_t
 maxSizeInKilobytes
 )
 {

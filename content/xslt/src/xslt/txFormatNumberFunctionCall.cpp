@@ -635,12 +635,12 @@ groupSize
 -
 1
 ;
-PRUint32
+uint32_t
 pos
 =
 0
 ;
-PRUint32
+uint32_t
 formatLen
 =
 formatStr
@@ -1512,7 +1512,7 @@ groupSize
 /
 group
 separators
-PRInt32
+int32_t
 i
 =
 bufIntDigits
@@ -1562,7 +1562,7 @@ hasFraction
 =
 false
 ;
-PRUint32
+uint32_t
 resPos
 =
 res

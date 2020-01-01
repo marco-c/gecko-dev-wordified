@@ -242,7 +242,7 @@ public
 :
 nsDocShellEnumerator
 (
-PRInt32
+int32_t
 inEnumerationDirection
 )
 ;
@@ -282,7 +282,7 @@ aEnumerationRootItem
 nsresult
 GetEnumDocShellType
 (
-PRInt32
+int32_t
 *
 aEnumerationItemType
 )
@@ -290,7 +290,7 @@ aEnumerationItemType
 nsresult
 SetEnumDocShellType
 (
-PRInt32
+int32_t
 aEnumerationItemType
 )
 ;
@@ -364,10 +364,10 @@ items
 with
 matching
 type
-PRUint32
+uint32_t
 mCurIndex
 ;
-PRInt32
+int32_t
 mDocShellType
 ;
 /
@@ -390,7 +390,7 @@ to
 date
 ?
 const
-PRInt8
+int8_t
 mEnumerationDirection
 ;
 }

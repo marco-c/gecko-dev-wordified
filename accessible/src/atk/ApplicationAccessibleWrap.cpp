@@ -3565,7 +3565,7 @@ AtkObject
 *
 root_accessible
 ;
-PRUint32
+uint32_t
 index
 ;
 }
@@ -3678,7 +3678,7 @@ atkAccessible
 mAtkObject
 )
 ;
-PRUint32
+uint32_t
 count
 =
 mChildren
@@ -3784,7 +3784,7 @@ Accessible
 aChild
 )
 {
-PRInt32
+int32_t
 index
 =
 aChild
@@ -4120,7 +4120,7 @@ PR_FreeLibraryName
 curLibPath
 )
 ;
-PRInt16
+int16_t
 loc1
 =
 0
@@ -4128,7 +4128,7 @@ loc2
 =
 0
 ;
-PRInt16
+int16_t
 subLen
 =
 0

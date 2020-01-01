@@ -804,7 +804,7 @@ nsParentalControlsServiceWin
 :
 Log
 (
-PRInt16
+int16_t
 aEntryType
 bool
 blocked
@@ -1166,7 +1166,7 @@ NS_ENSURE_ARG_POINTER
 aTargets
 )
 ;
-PRUint32
+uint32_t
 arrayLength
 =
 0
@@ -1344,7 +1344,7 @@ array
 of
 sub
 uri
-PRInt32
+int32_t
 count
 =
 arrayLength
@@ -1372,7 +1372,7 @@ arrUrls
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 uriIdx
 =
 0

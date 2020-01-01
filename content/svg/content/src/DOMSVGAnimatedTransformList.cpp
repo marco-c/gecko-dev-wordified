@@ -507,7 +507,7 @@ DOMSVGAnimatedTransformList
 :
 InternalBaseValListWillChangeLengthTo
 (
-PRUint32
+uint32_t
 aNewLength
 )
 {
@@ -739,7 +739,7 @@ DOMSVGAnimatedTransformList
 :
 InternalAnimValListWillChangeLengthTo
 (
-PRUint32
+uint32_t
 aNewLength
 )
 {

@@ -234,7 +234,7 @@ aEventType
 nsXBLPrototypeHandler
 *
 aHandler
-PRUint32
+uint32_t
 aCharCode
 bool
 aIgnoreShiftKey
@@ -295,7 +295,7 @@ inEventType
 nsIDOMKeyEvent
 *
 inEvent
-PRUint32
+uint32_t
 aCharCode
 bool
 aIgnoreShiftKey
@@ -428,7 +428,7 @@ nsXBLSpecialDocInfo
 sXBLSpecialDocInfo
 ;
 static
-PRUint32
+uint32_t
 sRefCnt
 ;
 }

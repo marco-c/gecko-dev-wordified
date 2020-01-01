@@ -250,7 +250,7 @@ AddRef
 {
 NS_PRECONDITION
 (
-PRInt32
+int32_t
 (
 mRefCnt
 )
@@ -393,7 +393,7 @@ return
 mRefCnt
 ;
 }
-PRUint32
+uint32_t
 GetDataSize
 (
 )
@@ -406,11 +406,11 @@ mDataSize
 void
 SetDataSize
 (
-PRUint32
+uint32_t
 aDataSize
 )
 {
-PRInt32
+int32_t
 oldsize
 =
 mDataSize
@@ -427,7 +427,7 @@ oldsize
 )
 ;
 }
-PRInt32
+int32_t
 GetTouchedTime
 (
 )
@@ -440,7 +440,7 @@ mTouchedTime
 void
 SetTouchedTime
 (
-PRInt32
+int32_t
 time
 )
 {
@@ -460,7 +460,7 @@ false
 )
 ;
 }
-PRInt32
+int32_t
 GetExpiryTime
 (
 )
@@ -473,7 +473,7 @@ mExpiryTime
 void
 SetExpiryTime
 (
-PRInt32
+int32_t
 aExpiryTime
 )
 {
@@ -602,7 +602,7 @@ true
 void
 UpdateCache
 (
-PRInt32
+int32_t
 diff
 =
 0
@@ -656,13 +656,13 @@ imgRequest
 >
 mRequest
 ;
-PRUint32
+uint32_t
 mDataSize
 ;
-PRInt32
+int32_t
 mTouchedTime
 ;
-PRInt32
+int32_t
 mExpiryTime
 ;
 nsExpirationState
@@ -778,7 +778,7 @@ Refresh
 (
 )
 ;
-PRUint32
+uint32_t
 GetSize
 (
 )
@@ -787,11 +787,11 @@ const
 void
 UpdateSize
 (
-PRInt32
+int32_t
 diff
 )
 ;
-PRUint32
+uint32_t
 GetNumElements
 (
 )
@@ -854,7 +854,7 @@ mQueue
 bool
 mDirty
 ;
-PRUint32
+uint32_t
 mSize
 ;
 }
@@ -906,7 +906,7 @@ const
 char
 *
 aContents
-PRUint32
+uint32_t
 aLength
 nsACString
 &
@@ -1369,7 +1369,7 @@ aPolicy
 nsIPrincipal
 *
 aLoadingPrincipal
-PRInt32
+int32_t
 aCORSMode
 )
 ;
@@ -1412,7 +1412,7 @@ aPolicy
 nsIPrincipal
 *
 aLoadingPrincipal
-PRInt32
+int32_t
 aCORSMode
 )
 ;
@@ -1497,7 +1497,7 @@ CacheEntriesChanged
 nsIURI
 *
 aURI
-PRInt32
+int32_t
 sizediff
 =
 0
@@ -1549,7 +1549,7 @@ double
 sCacheTimeWeight
 ;
 static
-PRUint32
+uint32_t
 sCacheMaxSize
 ;
 nsCString

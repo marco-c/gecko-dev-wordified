@@ -639,7 +639,7 @@ Accessible
 XULButtonAccessible
 :
 nsIAccessible
-PRUint8
+uint8_t
 XULButtonAccessible
 :
 :
@@ -657,7 +657,7 @@ XULButtonAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -695,7 +695,7 @@ XULButtonAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -817,7 +817,7 @@ roles
 PUSHBUTTON
 ;
 }
-PRUint64
+uint64_t
 XULButtonAccessible
 :
 :
@@ -847,7 +847,7 @@ status
 from
 base
 class
-PRUint64
+uint64_t
 state
 =
 Accessible
@@ -936,7 +936,7 @@ checked
 =
 false
 ;
-PRInt32
+int32_t
 checkState
 =
 0
@@ -1984,7 +1984,7 @@ aDoc
 )
 {
 }
-PRUint8
+uint8_t
 XULDropmarkerAccessible
 :
 :
@@ -2120,7 +2120,7 @@ XULDropmarkerAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -2188,7 +2188,7 @@ XULDropmarkerAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 index
 )
 {
@@ -2234,7 +2234,7 @@ roles
 PUSHBUTTON
 ;
 }
-PRUint64
+uint64_t
 XULDropmarkerAccessible
 :
 :
@@ -2454,7 +2454,7 @@ roles
 CHECKBUTTON
 ;
 }
-PRUint8
+uint8_t
 XULCheckboxAccessible
 :
 :
@@ -2485,7 +2485,7 @@ XULCheckboxAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -2571,7 +2571,7 @@ XULCheckboxAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -2593,7 +2593,7 @@ return
 NS_OK
 ;
 }
-PRUint64
+uint64_t
 XULCheckboxAccessible
 :
 :
@@ -2623,7 +2623,7 @@ status
 from
 base
 class
-PRUint64
+uint64_t
 state
 =
 LeafAccessible
@@ -2689,7 +2689,7 @@ states
 :
 CHECKED
 ;
-PRInt32
+int32_t
 checkState
 =
 0
@@ -2987,7 +2987,7 @@ XULGroupboxAccessible
 :
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -3060,7 +3060,7 @@ xul
 caption
 does
 not
-PRUint32
+uint32_t
 childCount
 =
 ChildCount
@@ -3069,7 +3069,7 @@ ChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 childIdx
 =
 0
@@ -3365,7 +3365,7 @@ aDoc
 )
 {
 }
-PRUint64
+uint64_t
 XULRadioButtonAccessible
 :
 :
@@ -3373,7 +3373,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 LeafAccessible
@@ -3447,7 +3447,7 @@ return
 state
 ;
 }
-PRUint64
+uint64_t
 XULRadioButtonAccessible
 :
 :
@@ -3841,7 +3841,7 @@ roles
 GROUPING
 ;
 }
-PRUint64
+uint64_t
 XULRadioGroupAccessible
 :
 :
@@ -4419,20 +4419,20 @@ XULToolbarButtonAccessible
 :
 GetPositionAndSizeInternal
 (
-PRInt32
+int32_t
 *
 aPosInSet
-PRInt32
+int32_t
 *
 aSetSize
 )
 {
-PRInt32
+int32_t
 setSize
 =
 0
 ;
-PRInt32
+int32_t
 posInSet
 =
 0
@@ -4452,7 +4452,7 @@ parent
 )
 return
 ;
-PRUint32
+uint32_t
 childCount
 =
 parent
@@ -4464,7 +4464,7 @@ ChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 childIdx
 =
 0
@@ -5102,7 +5102,7 @@ roles
 SEPARATOR
 ;
 }
-PRUint64
+uint64_t
 XULToolbarSeparatorAccessible
 :
 :
@@ -5488,7 +5488,7 @@ XULTextFieldAccessible
 :
 ApplyARIAState
 (
-PRUint64
+uint64_t
 *
 aState
 )
@@ -5521,7 +5521,7 @@ aState
 )
 ;
 }
-PRUint64
+uint64_t
 XULTextFieldAccessible
 :
 :
@@ -5529,7 +5529,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 HyperTextAccessibleWrap
@@ -5731,7 +5731,7 @@ actions
 available
 *
 /
-PRUint8
+uint8_t
 XULTextFieldAccessible
 :
 :
@@ -5762,7 +5762,7 @@ XULTextFieldAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -5813,7 +5813,7 @@ XULTextFieldAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 index
 )
 {

@@ -742,7 +742,7 @@ fAggregated
 \
 NS_PRECONDITION
 (
-PRInt32
+int32_t
 (
 agg
 -
@@ -979,7 +979,7 @@ this
 \
 NS_PRECONDITION
 (
-PRInt32
+int32_t
 (
 agg
 -

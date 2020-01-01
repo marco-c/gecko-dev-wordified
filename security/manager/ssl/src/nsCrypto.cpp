@@ -1080,7 +1080,7 @@ nsIX509Cert
 *
 *
 certArr
-PRInt32
+int32_t
 numCerts
 nsIPK11Token
 *
@@ -1112,7 +1112,7 @@ nsIX509Cert
 *
 mCertArr
 ;
-PRInt32
+int32_t
 mNumCerts
 ;
 }
@@ -1520,14 +1520,14 @@ generation
 *
 /
 static
-PRUint32
+uint32_t
 cryptojs_convert_to_mechanism
 (
 nsKeyGenType
 keyGenType
 )
 {
-PRUint32
+uint32_t
 retMech
 ;
 switch
@@ -2379,14 +2379,14 @@ void
 *
 nsConvertToActualKeyGenParams
 (
-PRUint32
+uint32_t
 keyGenMech
 char
 *
 params
-PRUint32
+uint32_t
 paramLen
-PRInt32
+int32_t
 keySize
 nsKeyPairInfo
 *
@@ -3263,7 +3263,7 @@ ctx
 nsNSSShutDownPreventionLock
 locker
 ;
-PRUint32
+uint32_t
 mechanism
 =
 cryptojs_convert_to_mechanism
@@ -3461,7 +3461,7 @@ cx
 nsKeyPairInfo
 *
 keyPairInfo
-PRInt32
+int32_t
 keySize
 char
 *
@@ -3520,7 +3520,7 @@ nsIKeygenThread
 >
 runnable
 ;
-PRUint32
+uint32_t
 mechanism
 =
 cryptojs_convert_to_mechanism
@@ -5692,11 +5692,11 @@ CRMFCertReqMsg
 *
 *
 certReqMsgs
-PRInt32
+int32_t
 numMessages
 )
 {
-PRInt32
+int32_t
 i
 ;
 for
@@ -7419,7 +7419,7 @@ nsNSSCertificate
 wrappingCert
 )
 {
-PRUint32
+uint32_t
 reqID
 ;
 nsresult
@@ -9495,7 +9495,7 @@ nsCreateReqFromKeyPairs
 nsKeyPairInfo
 *
 keyids
-PRInt32
+int32_t
 numRequests
 char
 *
@@ -9537,7 +9537,7 @@ API
 of
 NSS
 .
-PRInt32
+int32_t
 i
 ;
 /
@@ -9919,7 +9919,7 @@ ncc
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-PRUint32
+uint32_t
 argc
 ;
 ncc
@@ -10688,7 +10688,7 @@ uiCxt
 new
 PipUIContext
 ;
-PRInt32
+int32_t
 numRequests
 =
 (
@@ -10748,7 +10748,7 @@ numRequests
 int
 keyInfoIndex
 ;
-PRUint32
+uint32_t
 i
 ;
 PK11SlotInfo
@@ -11355,7 +11355,7 @@ nsIX509Cert
 *
 *
 certArr
-PRInt32
+int32_t
 numCerts
 nsIPK11Token
 *
@@ -11383,7 +11383,7 @@ nsP12Runnable
 (
 )
 {
-PRInt32
+int32_t
 i
 ;
 for
@@ -11785,7 +11785,7 @@ nsIFilePicker
 filterAll
 )
 ;
-PRInt16
+int16_t
 dialogReturn
 ;
 filePicker
@@ -12318,7 +12318,7 @@ retVal
 ;
 }
 static
-PRInt32
+int32_t
 nsCertListCount
 (
 CERTCertList
@@ -12326,7 +12326,7 @@ CERTCertList
 certList
 )
 {
-PRInt32
+int32_t
 numCerts
 =
 0
@@ -13204,7 +13204,7 @@ if
 caPubs
 )
 {
-PRInt32
+int32_t
 numCAs
 =
 nsCertListCount
@@ -13583,7 +13583,7 @@ nsCrypto
 :
 Random
 (
-PRInt32
+int32_t
 aNumBytes
 nsAString
 &
@@ -13845,7 +13845,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 argc
 ;
 ncc
@@ -14025,7 +14025,7 @@ validOnly
 uiContext
 )
 ;
-PRUint32
+uint32_t
 numCAs
 =
 argc
@@ -14090,7 +14090,7 @@ ar
 cx
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -14415,7 +14415,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 numberOfCerts
 =
 0
@@ -14558,7 +14558,7 @@ nicknames
 >
 numnicknames
 ;
-PRInt32
+int32_t
 certsToUse
 ;
 for
@@ -14771,7 +14771,7 @@ the
 selected
 cert
 .
-PRInt32
+int32_t
 selectedIndex
 =
 -
@@ -14839,7 +14839,7 @@ of
 tryAgain
 loop
 }
-PRInt32
+int32_t
 j
 =
 0
@@ -14969,7 +14969,7 @@ while
 tryAgain
 )
 ;
-PRInt32
+int32_t
 k
 ;
 for
@@ -15735,7 +15735,7 @@ PRUnichar
 message
 )
 {
-PRInt32
+int32_t
 buttonPressed
 =
 1
@@ -15964,7 +15964,7 @@ modName
 aModuleName
 )
 ;
-PRInt32
+int32_t
 modType
 ;
 SECStatus
@@ -16065,9 +16065,9 @@ const
 nsAString
 &
 aLibraryFullPath
-PRInt32
+int32_t
 aCryptoMechanismFlags
-PRInt32
+int32_t
 aCipherFlags
 )
 {
@@ -16119,7 +16119,7 @@ aLibraryFullPath
 fullPath
 )
 ;
-PRUint32
+uint32_t
 mechFlags
 =
 SECMOD_PubMechFlagstoInternal
@@ -16127,7 +16127,7 @@ SECMOD_PubMechFlagstoInternal
 aCryptoMechanismFlags
 )
 ;
-PRUint32
+uint32_t
 cipherFlags
 =
 SECMOD_PubCipherFlagstoInternal

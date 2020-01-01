@@ -252,7 +252,7 @@ blocks
 .
 nsCSSCompressedDataBlock
 (
-PRUint32
+uint32_t
 aNumProps
 )
 :
@@ -559,7 +559,7 @@ new
 (
 size_t
 aBaseSize
-PRUint32
+uint32_t
 aNumProps
 )
 {
@@ -609,7 +609,7 @@ be
 enum
 nsCSSProperty
 :
-PRInt16
+int16_t
 |
 .
 But
@@ -653,7 +653,7 @@ it
 fits
 .
 typedef
-PRInt16
+int16_t
 CompressedCSSProperty
 ;
 static
@@ -669,7 +669,7 @@ static
 size_t
 DataSize
 (
-PRUint32
+uint32_t
 aNumProps
 )
 {
@@ -692,7 +692,7 @@ CompressedCSSProperty
 )
 ;
 }
-PRInt32
+int32_t
 mStyleBits
 ;
 /
@@ -715,7 +715,7 @@ nsCachedStyleData
 GetBitForSID
 |
 .
-PRUint32
+uint32_t
 mNumProps
 ;
 /
@@ -831,7 +831,7 @@ nsCSSValue
 *
 ValueAtIndex
 (
-PRUint32
+uint32_t
 i
 )
 const
@@ -861,7 +861,7 @@ i
 nsCSSProperty
 PropertyAtIndex
 (
-PRUint32
+uint32_t
 i
 )
 const
@@ -917,7 +917,7 @@ prop
 void
 CopyValueToIndex
 (
-PRUint32
+uint32_t
 i
 nsCSSValue
 *
@@ -941,7 +941,7 @@ aValue
 void
 RawCopyValueToIndex
 (
-PRUint32
+uint32_t
 i
 nsCSSValue
 *
@@ -965,7 +965,7 @@ nsCSSValue
 void
 SetPropertyAtIndex
 (
-PRUint32
+uint32_t
 i
 nsCSSProperty
 aProperty
@@ -1647,10 +1647,10 @@ Compress
 void
 ComputeNumProps
 (
-PRUint32
+uint32_t
 *
 aNumPropsNormal
-PRUint32
+uint32_t
 *
 aNumPropsImportant
 )

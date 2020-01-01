@@ -169,7 +169,7 @@ struct
 nsRuleData
 {
 const
-PRUint32
+uint32_t
 mSIDs
 ;
 bool
@@ -178,7 +178,7 @@ mCanStoreInRuleTree
 bool
 mIsImportantRule
 ;
-PRUint8
+uint8_t
 mLevel
 ;
 /
@@ -362,7 +362,7 @@ nsStyleStructID_Length
 ;
 nsRuleData
 (
-PRUint32
+uint32_t
 aSIDs
 nsCSSValue
 *

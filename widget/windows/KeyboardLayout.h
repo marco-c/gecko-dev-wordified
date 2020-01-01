@@ -687,7 +687,7 @@ mModifiers
 5
 ]
 ;
-PRUint32
+uint32_t
 mLength
 ;
 UniCharsAndModifiers
@@ -965,7 +965,7 @@ STATE_CAPSLOCK
 }
 ;
 typedef
-PRUint8
+uint8_t
 ShiftState
 ;
 static
@@ -1169,7 +1169,7 @@ mShiftStates
 16
 ]
 ;
-PRUint16
+uint16_t
 mIsDeadKey
 ;
 void
@@ -1279,7 +1279,7 @@ const
 PRUnichar
 *
 aChars
-PRUint32
+uint32_t
 aNumOfChars
 )
 ;
@@ -1301,7 +1301,7 @@ const
 DeadKeyEntry
 *
 aDeadKeyArray
-PRUint32
+uint32_t
 aEntries
 )
 const
@@ -1381,7 +1381,7 @@ MSG
 aKeyOrCharMessage
 )
 ;
-PRUint32
+uint32_t
 GetDOMKeyCode
 (
 )
@@ -1404,7 +1404,7 @@ nsIDOMKeyEvent
 DOM_KEY_LOCATION_
 *
 .
-PRUint32
+uint32_t
 GetKeyLocation
 (
 )
@@ -1420,7 +1420,7 @@ return
 mScanCode
 ;
 }
-PRUint8
+uint8_t
 GetVirtualKeyCode
 (
 )
@@ -1430,7 +1430,7 @@ return
 mVirtualKeyCode
 ;
 }
-PRUint8
+uint8_t
 GetOriginalVirtualKeyCode
 (
 )
@@ -1442,7 +1442,7 @@ mOriginalVirtualKeyCode
 }
 private
 :
-PRUint32
+uint32_t
 mDOMKeyCode
 ;
 /
@@ -1458,7 +1458,7 @@ of
 modifier
 key
 .
-PRUint8
+uint8_t
 mVirtualKeyCode
 ;
 /
@@ -1503,7 +1503,7 @@ handled
 by
 IME
 .
-PRUint8
+uint8_t
 mOriginalVirtualKeyCode
 ;
 WORD
@@ -1530,7 +1530,7 @@ DeadKeyTableListEntry
 *
 next
 ;
-PRUint8
+uint8_t
 data
 [
 1
@@ -1554,7 +1554,7 @@ DeadKeyTableListEntry
 *
 mDeadKeyTableListHead
 ;
-PRInt32
+int32_t
 mActiveDeadKey
 ;
 /
@@ -1575,10 +1575,10 @@ mDeadKeyShiftState
 ;
 static
 inline
-PRInt32
+int32_t
 GetKeyIndex
 (
-PRUint8
+uint8_t
 aVirtualKey
 )
 ;
@@ -1610,7 +1610,7 @@ aCompositeChar
 DeadKeyEntry
 *
 aDeadKeyArray
-PRUint32
+uint32_t
 aEntries
 )
 ;
@@ -1619,27 +1619,27 @@ EnsureDeadKeyActive
 (
 bool
 aIsActive
-PRUint8
+uint8_t
 aDeadKey
 const
 PBYTE
 aDeadKeyKbdState
 )
 ;
-PRUint32
+uint32_t
 GetDeadKeyCombinations
 (
-PRUint8
+uint8_t
 aDeadKey
 const
 PBYTE
 aDeadKeyKbdState
-PRUint16
+uint16_t
 aShiftStatesWithBaseChars
 DeadKeyEntry
 *
 aDeadKeyArray
-PRUint32
+uint32_t
 aMaxEntries
 )
 ;
@@ -1657,7 +1657,7 @@ const
 DeadKeyEntry
 *
 aDeadKeyArray
-PRUint32
+uint32_t
 aEntries
 )
 ;
@@ -1681,7 +1681,7 @@ static
 bool
 IsPrintableCharKey
 (
-PRUint8
+uint8_t
 aVirtualKey
 )
 ;
@@ -1716,7 +1716,7 @@ stateful
 bool
 IsDeadKey
 (
-PRUint8
+uint8_t
 aVirtualKey
 const
 ModifierKeyState
@@ -1756,7 +1756,7 @@ stateful
 UniCharsAndModifiers
 GetUniCharsAndModifiers
 (
-PRUint8
+uint8_t
 aVirtualKey
 const
 ModifierKeyState
@@ -1809,7 +1809,7 @@ s
 UniCharsAndModifiers
 OnKeyDown
 (
-PRUint8
+uint8_t
 aVirtualKey
 const
 ModifierKeyState
@@ -1858,7 +1858,7 @@ aLoadLater
 false
 )
 ;
-PRUint32
+uint32_t
 ConvertNativeKeyCodeToDOMKeyCode
 (
 UINT

@@ -847,7 +847,7 @@ nsCSSPseudoClasses
 Type
 aType
 const
-PRInt32
+int32_t
 *
 aIntPair
 )
@@ -899,7 +899,7 @@ mNumbers
 =
 static_cast
 <
-PRInt32
+int32_t
 *
 >
 (
@@ -911,7 +911,7 @@ Clone
 aIntPair
 sizeof
 (
-PRInt32
+int32_t
 )
 *
 2
@@ -1353,7 +1353,7 @@ nsAttrSelector
 :
 nsAttrSelector
 (
-PRInt32
+int32_t
 aNameSpace
 const
 nsString
@@ -1426,13 +1426,13 @@ nsAttrSelector
 :
 nsAttrSelector
 (
-PRInt32
+int32_t
 aNameSpace
 const
 nsString
 &
 aAttr
-PRUint8
+uint8_t
 aFunction
 const
 nsString
@@ -1508,7 +1508,7 @@ nsAttrSelector
 :
 nsAttrSelector
 (
-PRInt32
+int32_t
 aNameSpace
 nsIAtom
 *
@@ -1516,7 +1516,7 @@ aLowercaseAttr
 nsIAtom
 *
 aCasedAttr
-PRUint8
+uint8_t
 aFunction
 const
 nsString
@@ -2077,7 +2077,7 @@ nsCSSSelector
 :
 SetNameSpace
 (
-PRInt32
+int32_t
 aNameSpace
 )
 {
@@ -2334,7 +2334,7 @@ nsCSSPseudoClasses
 Type
 aType
 const
-PRInt32
+int32_t
 *
 aIntPair
 )
@@ -2441,7 +2441,7 @@ nsCSSSelector
 :
 AddAttribute
 (
-PRInt32
+int32_t
 aNameSpace
 const
 nsString
@@ -2508,13 +2508,13 @@ nsCSSSelector
 :
 AddAttribute
 (
-PRInt32
+int32_t
 aNameSpace
 const
 nsString
 &
 aAttr
-PRUint8
+uint8_t
 aFunc
 const
 nsString
@@ -2595,7 +2595,7 @@ mOperator
 aOperator
 ;
 }
-PRInt32
+int32_t
 nsCSSSelector
 :
 :
@@ -2604,7 +2604,7 @@ CalcWeightWithoutNegations
 )
 const
 {
-PRInt32
+int32_t
 weight
 =
 0
@@ -2812,7 +2812,7 @@ return
 weight
 ;
 }
-PRInt32
+int32_t
 nsCSSSelector
 :
 :
@@ -2832,7 +2832,7 @@ all
 its
 negations
 .
-PRInt32
+int32_t
 weight
 =
 0
@@ -2998,7 +2998,7 @@ IsEmpty
 )
 )
 {
-PRUint32
+uint32_t
 index
 =
 stack
@@ -4869,7 +4869,7 @@ mType
 )
 )
 {
-PRInt32
+int32_t
 a
 =
 list
@@ -5774,7 +5774,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -5784,7 +5784,7 @@ const
 Indent
 for
 (
-PRInt32
+int32_t
 index
 =
 aIndent
@@ -6945,7 +6945,7 @@ DOMCSSStyleRule
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -7795,7 +7795,7 @@ mDeclaration
 virtual
 *
 /
-PRInt32
+int32_t
 StyleRule
 :
 :
@@ -8090,7 +8090,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -8100,7 +8100,7 @@ const
 Indent
 for
 (
-PRInt32
+int32_t
 index
 =
 aIndent

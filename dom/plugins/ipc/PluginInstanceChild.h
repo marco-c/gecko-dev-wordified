@@ -1832,7 +1832,7 @@ mSharedSurfaceDib
 ;
 struct
 {
-PRUint16
+uint16_t
 doublePass
 ;
 HDC

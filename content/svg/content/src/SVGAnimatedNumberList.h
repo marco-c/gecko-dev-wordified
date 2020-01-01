@@ -356,7 +356,7 @@ aValue
 void
 ClearBaseValue
 (
-PRUint32
+uint32_t
 aAttrEnum
 )
 ;
@@ -387,7 +387,7 @@ aValue
 nsSVGElement
 *
 aElement
-PRUint32
+uint32_t
 aAttrEnum
 )
 ;
@@ -397,7 +397,7 @@ ClearAnimValue
 nsSVGElement
 *
 aElement
-PRUint32
+uint32_t
 aAttrEnum
 )
 ;
@@ -515,7 +515,7 @@ ToSMILAttr
 nsSVGElement
 *
 aSVGElement
-PRUint8
+uint8_t
 aAttrEnum
 )
 ;
@@ -621,7 +621,7 @@ aVal
 nsSVGElement
 *
 aSVGElement
-PRUint8
+uint8_t
 aAttrEnum
 )
 :
@@ -682,7 +682,7 @@ nsSVGElement
 *
 mElement
 ;
-PRUint8
+uint8_t
 mAttrEnum
 ;
 /

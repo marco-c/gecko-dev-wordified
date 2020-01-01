@@ -220,7 +220,7 @@ const
 nsSMILValue
 &
 aValueToAdd
-PRUint32
+uint32_t
 aCount
 )
 const

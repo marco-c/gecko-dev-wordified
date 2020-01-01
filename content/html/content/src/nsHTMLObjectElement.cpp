@@ -333,7 +333,7 @@ Click
 NS_IMETHOD
 GetTabIndex
 (
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -341,7 +341,7 @@ aTabIndex
 NS_IMETHOD
 SetTabIndex
 (
-PRInt32
+int32_t
 aTabIndex
 )
 ;
@@ -457,7 +457,7 @@ virtual
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -477,7 +477,7 @@ virtual
 nsresult
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -495,7 +495,7 @@ aWithMouse
 bool
 *
 aIsFocusable
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -513,7 +513,7 @@ nsIFormControl
 methods
 NS_IMETHOD_
 (
-PRUint32
+uint32_t
 )
 GetType
 (
@@ -566,7 +566,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -617,7 +617,7 @@ DestroyContent
 /
 nsObjectLoadingContent
 virtual
-PRUint32
+uint32_t
 GetCapabilities
 (
 )
@@ -1258,7 +1258,7 @@ nsHTMLObjectElement
 :
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1442,7 +1442,7 @@ nsHTMLObjectElement
 :
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1587,7 +1587,7 @@ aWithMouse
 bool
 *
 aIsFocusable
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -2237,7 +2237,7 @@ nsHTMLObjectElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -2504,7 +2504,7 @@ ObjectState
 )
 ;
 }
-PRUint32
+uint32_t
 nsHTMLObjectElement
 :
 :

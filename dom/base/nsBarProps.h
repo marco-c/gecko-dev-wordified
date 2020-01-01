@@ -220,7 +220,7 @@ GetVisibleByFlag
 bool
 *
 aVisible
-PRUint32
+uint32_t
 aChromeFlag
 )
 ;
@@ -229,7 +229,7 @@ SetVisibleByFlag
 (
 bool
 aVisible
-PRUint32
+uint32_t
 aChromeFlag
 )
 ;

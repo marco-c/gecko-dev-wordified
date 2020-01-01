@@ -411,7 +411,7 @@ the
 internal
 BIH
 header
-PRInt32
+int32_t
 nsBMPDecoder
 :
 :
@@ -436,7 +436,7 @@ the
 internal
 BIH
 header
-PRInt32
+int32_t
 nsBMPDecoder
 :
 :
@@ -466,7 +466,7 @@ the
 internal
 BIH
 header
-PRInt32
+int32_t
 nsBMPDecoder
 :
 :
@@ -492,7 +492,7 @@ internal
 output
 image
 buffer
-PRUint32
+uint32_t
 *
 nsBMPDecoder
 :
@@ -515,7 +515,7 @@ the
 compressed
 image
 resource
-PRInt32
+int32_t
 nsBMPDecoder
 :
 :
@@ -583,7 +583,7 @@ extra
 byte
 boundary
 padding
-PRUint32
+uint32_t
 rowSize
 =
 (
@@ -667,7 +667,7 @@ otherwise
 top
 to
 bottom
-PRInt32
+int32_t
 pixelArraySize
 =
 rowSize
@@ -933,12 +933,12 @@ static
 void
 calcBitmask
 (
-PRUint32
+uint32_t
 aMask
-PRUint8
+uint8_t
 &
 aBegin
-PRUint8
+uint8_t
 &
 aLength
 )
@@ -949,7 +949,7 @@ find
 the
 rightmost
 1
-PRUint8
+uint8_t
 pos
 ;
 bool
@@ -1044,7 +1044,7 @@ CalcBitShift
 (
 )
 {
-PRUint8
+uint8_t
 begin
 length
 ;
@@ -1140,7 +1140,7 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -1207,7 +1207,7 @@ In
 BITMAPFILEHEADER
 *
 /
-PRUint32
+uint32_t
 toCopy
 =
 BFH_INTERNAL_LENGTH
@@ -1329,7 +1329,7 @@ In
 BITMAPINFOHEADER
 *
 /
-PRUint32
+uint32_t
 toCopy
 =
 mLOH
@@ -1560,7 +1560,7 @@ the
 math
 sane
 const
-PRInt32
+int32_t
 k64KWidth
 =
 0x0000FFFF
@@ -1588,7 +1588,7 @@ PostDataError
 return
 ;
 }
-PRUint32
+uint32_t
 real_height
 =
 GetHeight
@@ -2040,7 +2040,7 @@ PostDataError
 return
 ;
 }
-PRUint32
+uint32_t
 imageLength
 ;
 if
@@ -2087,7 +2087,7 @@ gfxASurface
 :
 ImageFormatARGB32
 (
-PRUint8
+uint8_t
 *
 *
 )
@@ -2113,7 +2113,7 @@ images
 mRow
 =
 (
-PRUint8
+uint8_t
 *
 )
 moz_malloc
@@ -2210,7 +2210,7 @@ gfxASurface
 :
 ImageFormatARGB32
 (
-PRUint8
+uint8_t
 *
 *
 )
@@ -2241,7 +2241,7 @@ gfxASurface
 :
 ImageFormatRGB24
 (
-PRUint8
+uint8_t
 *
 *
 )
@@ -2357,7 +2357,7 @@ have
 no
 padding
 byte
-PRUint8
+uint8_t
 bytesPerColor
 =
 (
@@ -2393,7 +2393,7 @@ of
 bytes
 already
 received
-PRUint32
+uint32_t
 colorBytes
 =
 mPos
@@ -2407,14 +2407,14 @@ which
 is
 currently
 received
-PRUint8
+uint8_t
 colorNum
 =
 colorBytes
 /
 bytesPerColor
 ;
-PRUint8
+uint8_t
 at
 =
 colorBytes
@@ -2631,7 +2631,7 @@ WIN_HEADER_LENGTH
 instead
 of
 mLOH
-PRUint32
+uint32_t
 toCopy
 =
 (
@@ -2707,7 +2707,7 @@ LITTLE_TO_NATIVE32
 (
 *
 (
-PRUint32
+uint32_t
 *
 )
 mRawBuf
@@ -2721,7 +2721,7 @@ LITTLE_TO_NATIVE32
 (
 *
 (
-PRUint32
+uint32_t
 *
 )
 (
@@ -2739,7 +2739,7 @@ LITTLE_TO_NATIVE32
 (
 *
 (
-PRUint32
+uint32_t
 *
 )
 (
@@ -2845,7 +2845,7 @@ compression
 BI_BITFIELDS
 )
 {
-PRUint32
+uint32_t
 rowSize
 =
 (
@@ -2896,7 +2896,7 @@ to
 DWORD
 Boundary
 }
-PRUint32
+uint32_t
 toCopy
 ;
 do
@@ -2965,13 +2965,13 @@ into
 mRow
 process
 it
-PRUint8
+uint8_t
 *
 p
 =
 mRow
 ;
-PRUint32
+uint32_t
 *
 d
 =
@@ -2983,7 +2983,7 @@ mCurLine
 0
 )
 ;
-PRUint32
+uint32_t
 lpos
 =
 mBIH
@@ -3007,10 +3007,10 @@ lpos
 0
 )
 {
-PRInt8
+int8_t
 bit
 ;
-PRUint8
+uint8_t
 idx
 ;
 for
@@ -3130,14 +3130,14 @@ lpos
 0
 )
 {
-PRUint16
+uint16_t
 val
 =
 LITTLE_TO_NATIVE16
 (
 *
 (
-PRUint16
+uint16_t
 *
 )
 p
@@ -3357,7 +3357,7 @@ transparent
 so
 far
 .
-PRUint32
+uint32_t
 *
 start
 =
@@ -3373,7 +3373,7 @@ mCurLine
 1
 )
 ;
-PRUint32
+uint32_t
 heightDifference
 =
 GetHeight
@@ -3384,7 +3384,7 @@ mCurLine
 +
 1
 ;
-PRUint32
+uint32_t
 pixelCount
 =
 GetWidth
@@ -3401,7 +3401,7 @@ pixelCount
 *
 sizeof
 (
-PRUint32
+uint32_t
 )
 )
 ;
@@ -3640,7 +3640,7 @@ aCount
 0
 )
 {
-PRUint8
+uint8_t
 byte
 ;
 switch
@@ -3654,7 +3654,7 @@ eRLEStateInitial
 mStateData
 =
 (
-PRUint8
+uint8_t
 )
 *
 aBuffer
@@ -3752,12 +3752,12 @@ mState
 =
 eRLEStateInitial
 ;
-PRUint32
+uint32_t
 pixelsNeeded
 =
 NS_MIN
 <
-PRUint32
+uint32_t
 >
 (
 mBIH
@@ -3773,7 +3773,7 @@ if
 pixelsNeeded
 )
 {
-PRUint32
+uint32_t
 *
 d
 =
@@ -3924,7 +3924,7 @@ mCurPos
 mStateData
 >
 (
-PRUint32
+uint32_t
 )
 mBIH
 .
@@ -3970,7 +3970,7 @@ mCurPos
 mStateData
 >
 (
-PRUint32
+uint32_t
 )
 mBIH
 .
@@ -4167,7 +4167,7 @@ mCurLine
 =
 NS_MIN
 <
-PRInt32
+int32_t
 >
 (
 byte
@@ -4227,7 +4227,7 @@ a
 single
 pixel
 .
-PRUint32
+uint32_t
 *
 d
 =
@@ -4239,7 +4239,7 @@ mCurLine
 mCurPos
 )
 ;
-PRUint32
+uint32_t
 *
 oldPos
 =
@@ -4500,7 +4500,7 @@ break
 }
 }
 const
-PRUint32
+uint32_t
 rows
 =
 mOldLine

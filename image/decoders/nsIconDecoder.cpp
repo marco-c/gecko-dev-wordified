@@ -216,7 +216,7 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -258,7 +258,7 @@ jumps
 on
 linux
 .
-PRUint32
+uint32_t
 bytesToRead
 =
 0
@@ -326,7 +326,7 @@ width
 mWidth
 =
 (
-PRUint8
+uint8_t
 )
 *
 aBuffer
@@ -360,7 +360,7 @@ Height
 mHeight
 =
 (
-PRUint8
+uint8_t
 )
 *
 aBuffer

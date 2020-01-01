@@ -970,9 +970,9 @@ nsSVGFilterElement
 :
 SetFilterRes
 (
-PRUint32
+uint32_t
 filterResX
-PRUint32
+uint32_t
 filterResY
 )
 {

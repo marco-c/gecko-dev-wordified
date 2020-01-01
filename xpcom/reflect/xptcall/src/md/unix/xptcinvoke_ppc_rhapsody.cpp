@@ -119,14 +119,14 @@ C
 uint32
 invoke_count_words
 (
-PRUint32
+uint32_t
 paramCount
 nsXPTCVariant
 *
 s
 )
 {
-PRUint32
+uint32_t
 result
 =
 0
@@ -155,7 +155,7 @@ s
 /
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -350,10 +350,10 @@ C
 void
 invoke_copy_to_stack
 (
-PRUint32
+uint32_t
 *
 d
-PRUint32
+uint32_t
 paramCount
 nsXPTCVariant
 *
@@ -363,7 +363,7 @@ double
 fprData
 )
 {
-PRUint32
+uint32_t
 fpCount
 =
 0
@@ -398,7 +398,7 @@ fprData
 /
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -463,7 +463,7 @@ T_I8
 *
 (
 (
-PRInt32
+int32_t
 *
 )
 d
@@ -487,7 +487,7 @@ T_I16
 *
 (
 (
-PRInt32
+int32_t
 *
 )
 d
@@ -511,7 +511,7 @@ T_I32
 *
 (
 (
-PRInt32
+int32_t
 *
 )
 d
@@ -535,7 +535,7 @@ T_I64
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 d
@@ -563,7 +563,7 @@ T_U8
 *
 (
 (
-PRUint32
+uint32_t
 *
 )
 d
@@ -587,7 +587,7 @@ T_U16
 *
 (
 (
-PRUint32
+uint32_t
 *
 )
 d
@@ -611,7 +611,7 @@ T_U32
 *
 (
 (
-PRUint32
+uint32_t
 *
 )
 d
@@ -635,7 +635,7 @@ T_U64
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 d
@@ -755,7 +755,7 @@ T_BOOL
 *
 (
 (
-PRUint32
+uint32_t
 *
 )
 d
@@ -779,7 +779,7 @@ T_CHAR
 *
 (
 (
-PRInt32
+int32_t
 *
 )
 d
@@ -803,7 +803,7 @@ T_WCHAR
 *
 (
 (
-PRUint32
+uint32_t
 *
 )
 d
@@ -861,9 +861,9 @@ _NS_InvokeByIndex_P
 nsISupports
 *
 that
-PRUint32
+uint32_t
 methodIndex
-PRUint32
+uint32_t
 paramCount
 nsXPTCVariant
 *
@@ -879,9 +879,9 @@ NS_InvokeByIndex_P
 nsISupports
 *
 that
-PRUint32
+uint32_t
 methodIndex
-PRUint32
+uint32_t
 paramCount
 nsXPTCVariant
 *

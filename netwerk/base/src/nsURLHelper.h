@@ -815,10 +815,10 @@ const
 nsACString
 &
 inURI
-PRUint32
+uint32_t
 *
 startPos
-PRUint32
+uint32_t
 *
 endPos
 nsACString
@@ -851,7 +851,7 @@ const
 char
 *
 scheme
-PRUint32
+uint32_t
 schemeLen
 )
 ;
@@ -1326,7 +1326,7 @@ net_ToLowerCase
 char
 *
 str
-PRUint32
+uint32_t
 length
 )
 ;
@@ -1791,10 +1791,10 @@ aContentCharset
 bool
 *
 aHadCharset
-PRInt32
+int32_t
 *
 aCharsetStart
-PRInt32
+int32_t
 *
 aCharsetEnd
 )
@@ -1982,7 +1982,7 @@ const
 char
 *
 addr
-PRInt32
+int32_t
 addrLen
 )
 ;
@@ -2020,7 +2020,7 @@ const
 char
 *
 addr
-PRInt32
+int32_t
 addrLen
 )
 ;

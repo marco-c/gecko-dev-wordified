@@ -324,7 +324,7 @@ aTag
 nsIDOMNode
 *
 aParent
-PRUint32
+uint32_t
 aOffsetInParent
 )
 {
@@ -600,7 +600,7 @@ CreateElementTxn
 eAppend
 =
 =
-PRInt32
+int32_t
 (
 mOffsetInParent
 )

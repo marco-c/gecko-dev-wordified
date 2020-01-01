@@ -272,7 +272,7 @@ nsAutoArrayBase
 <
 nsTArray
 <
-PRUint32
+uint32_t
 >
 1
 >
@@ -1043,7 +1043,7 @@ anyway
 if
 (
 (
-PRUint64
+uint64_t
 )
 capacity
 *
@@ -1202,13 +1202,13 @@ of
 pageSize
 .
 const
-PRUint32
+uint32_t
 pageSizeBytes
 =
 12
 ;
 const
-PRUint32
+uint32_t
 pageSize
 =
 1
@@ -1216,7 +1216,7 @@ pageSize
 <
 pageSizeBytes
 ;
-PRUint32
+uint32_t
 minBytes
 =
 capacity
@@ -1228,7 +1228,7 @@ sizeof
 Header
 )
 ;
-PRUint32
+uint32_t
 bytesToAlloc
 ;
 if
@@ -1487,7 +1487,7 @@ fit
 in
 bytesToAlloc
 ?
-PRUint32
+uint32_t
 newCapacity
 =
 (
@@ -2964,7 +2964,7 @@ heap
 )
 nsAutoTArray
 <
-PRUint8
+uint8_t
 64
 Alloc
 >

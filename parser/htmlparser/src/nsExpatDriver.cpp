@@ -599,7 +599,7 @@ driver
 HandleCharacterData
 (
 aData
-PRUint32
+uint32_t
 (
 aLength
 )
@@ -760,7 +760,7 @@ driver
 HandleDefault
 (
 aData
-PRUint32
+uint32_t
 (
 aLength
 )
@@ -2379,7 +2379,7 @@ attrs
 /
 ourselves
 .
-PRUint32
+uint32_t
 attrArrayLength
 ;
 for
@@ -2535,7 +2535,7 @@ PRUnichar
 *
 aValue
 const
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -2856,7 +2856,7 @@ const
 PRUnichar
 *
 aEncoding
-PRInt32
+int32_t
 aStandalone
 )
 {
@@ -2899,7 +2899,7 @@ PRUnichar
 *
 aValue
 const
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -2951,7 +2951,7 @@ if
 mSink
 )
 {
-PRUint32
+uint32_t
 i
 ;
 nsresult
@@ -3611,11 +3611,11 @@ const
 PRUnichar
 *
 aFromSegment
-PRUint32
+uint32_t
 aToOffset
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aWriteCount
 )
@@ -3957,7 +3957,7 @@ mInExternalDTD
 =
 true
 ;
-PRUint32
+uint32_t
 totalRead
 ;
 do
@@ -3971,7 +3971,7 @@ ReadSegments
 (
 ExternalDTDStreamReaderFunc
 entParser
-PRUint32
+uint32_t
 (
 -
 1
@@ -4298,7 +4298,7 @@ GetTarget
 )
 )
 ;
-PRInt16
+int16_t
 shouldLoad
 =
 nsIContentPolicy
@@ -4449,10 +4449,10 @@ PRUnichar
 *
 aSourceURL
 const
-PRUint32
+uint32_t
 aLineNumber
 const
-PRUint32
+uint32_t
 aColNumber
 nsString
 &
@@ -4569,7 +4569,7 @@ nsresult
 AppendErrorPointer
 (
 const
-PRInt32
+int32_t
 aColNumber
 const
 PRUnichar
@@ -4603,17 +4603,17 @@ be
 ^
 '
 .
-PRInt32
+int32_t
 last
 =
 aColNumber
 -
 1
 ;
-PRInt32
+int32_t
 i
 ;
-PRUint32
+uint32_t
 minuses
 =
 0
@@ -4667,7 +4667,7 @@ equals
 8
 spaces
 .
-PRUint32
+uint32_t
 add
 =
 8
@@ -4745,7 +4745,7 @@ HandleError
 (
 )
 {
-PRInt32
+int32_t
 code
 =
 XML_GetErrorCode
@@ -5083,7 +5083,7 @@ than
 zero
 based
 .
-PRUint32
+uint32_t
 colNumber
 =
 XML_GetCurrentColumnNumber
@@ -5093,7 +5093,7 @@ mExpatParser
 +
 1
 ;
-PRUint32
+uint32_t
 lineNumber
 =
 XML_GetCurrentLineNumber
@@ -5331,11 +5331,11 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 bool
 aIsFinal
-PRUint32
+uint32_t
 *
 aConsumed
 )
@@ -5454,7 +5454,7 @@ BlockedOrInterrupted
 )
 )
 {
-PRInt32
+int32_t
 parserBytesBefore
 =
 XML_GetCurrentByteIndex
@@ -5532,7 +5532,7 @@ aIsFinal
 )
 ;
 }
-PRInt32
+int32_t
 parserBytesConsumed
 =
 XML_GetCurrentByteIndex
@@ -5915,7 +5915,7 @@ PRUnichar
 *
 buffer
 ;
-PRUint32
+uint32_t
 length
 ;
 if
@@ -6163,7 +6163,7 @@ get
 ;
 length
 =
-PRUint32
+uint32_t
 (
 start
 .
@@ -6278,7 +6278,7 @@ get
 )
 ;
 }
-PRUint32
+uint32_t
 consumed
 ;
 ParseBuffer
@@ -6610,7 +6610,7 @@ end
 {
 length
 =
-PRUint32
+uint32_t
 (
 lastLine
 .
@@ -6619,7 +6619,7 @@ size_forward
 )
 )
 ;
-PRUint32
+uint32_t
 endOffset
 =
 0
@@ -7471,7 +7471,7 @@ NS_ERROR_HTMLPARSER_STOPPARSING
 }
 NS_IMETHODIMP_
 (
-PRInt32
+int32_t
 )
 nsExpatDriver
 :
@@ -7647,7 +7647,7 @@ nsExpatDriver
 :
 GetTokenAt
 (
-PRInt32
+int32_t
 anIndex
 )
 {
@@ -7657,7 +7657,7 @@ return
 }
 NS_IMETHODIMP_
 (
-PRInt32
+int32_t
 )
 nsExpatDriver
 :
@@ -7742,7 +7742,7 @@ nsExpatDriver
 :
 IsContainer
 (
-PRInt32
+int32_t
 aTag
 )
 const
@@ -7760,9 +7760,9 @@ nsExpatDriver
 :
 CanContain
 (
-PRInt32
+int32_t
 aParent
-PRInt32
+int32_t
 aChild
 )
 const

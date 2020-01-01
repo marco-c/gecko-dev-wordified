@@ -321,7 +321,7 @@ sz
 void
 DestroyStructs
 (
-PRUint32
+uint32_t
 aBits
 nsPresContext
 *
@@ -418,7 +418,7 @@ STYLE_STRUCT_RESET
 void
 Destroy
 (
-PRUint32
+uint32_t
 aBits
 nsPresContext
 *
@@ -554,7 +554,7 @@ sz
 void
 Destroy
 (
-PRUint32
+uint32_t
 aBits
 nsPresContext
 *
@@ -712,7 +712,7 @@ aSID
 ;
 }
 static
-PRUint32
+uint32_t
 GetBitForSID
 (
 const
@@ -912,7 +912,7 @@ STYLE_STRUCT_INHERITED
 void
 Destroy
 (
-PRUint32
+uint32_t
 aBits
 nsPresContext
 *
@@ -1796,7 +1796,7 @@ nsIStyleRule
 *
 mRule
 ;
-PRUint8
+uint8_t
 mLevel
 ;
 bool
@@ -1807,7 +1807,7 @@ Key
 nsIStyleRule
 *
 aRule
-PRUint8
+uint8_t
 aLevel
 bool
 aIsImportantRule
@@ -1933,7 +1933,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -2274,7 +2274,7 @@ the
 rule
 node
 .
-PRUint32
+uint32_t
 mDependentBits
 ;
 /
@@ -2298,7 +2298,7 @@ a
 parent
 rule
 .
-PRUint32
+uint32_t
 mNoneBits
 ;
 /
@@ -2624,7 +2624,7 @@ to
 do
 that
 .
-PRUint32
+uint32_t
 mRefCnt
 ;
 public
@@ -2740,7 +2740,7 @@ aDestroyQueueTail
 void
 PropagateDependentBit
 (
-PRUint32
+uint32_t
 aBit
 nsRuleNode
 *
@@ -2750,7 +2750,7 @@ aHighestNode
 void
 PropagateNoneBit
 (
-PRUint32
+uint32_t
 aBit
 nsRuleNode
 *
@@ -3422,7 +3422,7 @@ aPresContext
 nsStyleContext
 *
 aContext
-PRUint8
+uint8_t
 aGenericFontID
 const
 nsRuleData
@@ -3452,7 +3452,7 @@ aPresContext
 nsStyleContext
 *
 aContext
-PRUint8
+uint8_t
 aGenericFontID
 nsStyleFont
 *
@@ -3585,7 +3585,7 @@ aParent
 nsIStyleRule
 *
 aRule
-PRUint8
+uint8_t
 aLevel
 bool
 aIsImportant
@@ -3635,7 +3635,7 @@ Transition
 nsIStyleRule
 *
 aRule
-PRUint8
+uint8_t
 aLevel
 bool
 aIsImportantRule
@@ -3677,7 +3677,7 @@ nsStyleSet
 sheetType
 values
 .
-PRUint8
+uint8_t
 GetLevel
 (
 )
@@ -3907,7 +3907,7 @@ HasAuthorSpecifiedRules
 nsStyleContext
 *
 aStyleContext
-PRUint32
+uint32_t
 ruleTypeMask
 bool
 aAuthorColorsAllowed
@@ -4223,9 +4223,9 @@ static
 nscoord
 CalcFontPointSize
 (
-PRInt32
+int32_t
 aHTMLSize
-PRInt32
+int32_t
 aBasePointSize
 nsPresContext
 *
@@ -4242,7 +4242,7 @@ FindNextSmallerFontSize
 (
 nscoord
 aFontSize
-PRInt32
+int32_t
 aBasePointSize
 nsPresContext
 *
@@ -4259,7 +4259,7 @@ FindNextLargerFontSize
 (
 nscoord
 aFontSize
-PRInt32
+int32_t
 aBasePointSize
 nsPresContext
 *

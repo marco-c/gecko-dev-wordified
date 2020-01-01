@@ -336,7 +336,7 @@ typedefs
 *
 /
 typedef
-PRUint32
+uint32_t
 PLDHashNumber
 ;
 typedef
@@ -1531,7 +1531,7 @@ specific
 data
 *
 /
-PRInt16
+int16_t
 hashShift
 ;
 /
@@ -1541,7 +1541,7 @@ hash
 shift
 *
 /
-PRUint8
+uint8_t
 maxAlphaFrac
 ;
 /
@@ -1555,7 +1555,7 @@ max
 alpha
 *
 /
-PRUint8
+uint8_t
 minAlphaFrac
 ;
 /
@@ -1569,7 +1569,7 @@ min
 alpha
 *
 /
-PRUint32
+uint32_t
 entrySize
 ;
 /
@@ -1582,7 +1582,7 @@ an
 entry
 *
 /
-PRUint32
+uint32_t
 entryCount
 ;
 /
@@ -1594,7 +1594,7 @@ in
 table
 *
 /
-PRUint32
+uint32_t
 removedCount
 ;
 /
@@ -1606,7 +1606,7 @@ in
 table
 *
 /
-PRUint32
+uint32_t
 generation
 ;
 /
@@ -1633,7 +1633,7 @@ PL_DHASHMETER
 struct
 PLDHashStats
 {
-PRUint32
+uint32_t
 searches
 ;
 /
@@ -1645,7 +1645,7 @@ table
 searches
 *
 /
-PRUint32
+uint32_t
 steps
 ;
 /
@@ -1656,7 +1656,7 @@ links
 traversed
 *
 /
-PRUint32
+uint32_t
 hits
 ;
 /
@@ -1667,7 +1667,7 @@ found
 key
 *
 /
-PRUint32
+uint32_t
 misses
 ;
 /
@@ -1681,7 +1681,7 @@ find
 key
 *
 /
-PRUint32
+uint32_t
 lookups
 ;
 /
@@ -1691,7 +1691,7 @@ of
 PL_DHASH_LOOKUPs
 *
 /
-PRUint32
+uint32_t
 addMisses
 ;
 /
@@ -1704,7 +1704,7 @@ do
 work
 *
 /
-PRUint32
+uint32_t
 addOverRemoved
 ;
 /
@@ -1717,7 +1717,7 @@ removed
 entry
 *
 /
-PRUint32
+uint32_t
 addHits
 ;
 /
@@ -1730,7 +1730,7 @@ existing
 entry
 *
 /
-PRUint32
+uint32_t
 addFailures
 ;
 /
@@ -1745,7 +1745,7 @@ add
 growth
 *
 /
-PRUint32
+uint32_t
 removeHits
 ;
 /
@@ -1758,7 +1758,7 @@ do
 work
 *
 /
-PRUint32
+uint32_t
 removeMisses
 ;
 /
@@ -1769,7 +1769,7 @@ that
 miss
 *
 /
-PRUint32
+uint32_t
 removeFrees
 ;
 /
@@ -1781,7 +1781,7 @@ entry
 directly
 *
 /
-PRUint32
+uint32_t
 removeEnums
 ;
 /
@@ -1792,7 +1792,7 @@ by
 Enumerate
 *
 /
-PRUint32
+uint32_t
 grows
 ;
 /
@@ -1801,7 +1801,7 @@ table
 expansions
 *
 /
-PRUint32
+uint32_t
 shrinks
 ;
 /
@@ -1810,7 +1810,7 @@ table
 contractions
 *
 /
-PRUint32
+uint32_t
 compresses
 ;
 /
@@ -1819,7 +1819,7 @@ table
 compressions
 *
 /
-PRUint32
+uint32_t
 enumShrinks
 ;
 /
@@ -1955,7 +1955,7 @@ PLDHashAllocTable
 PLDHashTable
 *
 table
-PRUint32
+uint32_t
 nbytes
 )
 ;
@@ -2701,7 +2701,7 @@ PL_DHashAllocTable
 PLDHashTable
 *
 table
-PRUint32
+uint32_t
 nbytes
 )
 ;
@@ -2969,9 +2969,9 @@ ops
 void
 *
 data
-PRUint32
+uint32_t
 entrySize
-PRUint32
+uint32_t
 capacity
 )
 ;
@@ -3095,9 +3095,9 @@ ops
 void
 *
 data
-PRUint32
+uint32_t
 entrySize
-PRUint32
+uint32_t
 capacity
 )
 ;
@@ -3432,7 +3432,7 @@ maxAlpha
 \
 (
 (
-PRUint32
+uint32_t
 )
 (
 (
@@ -3473,7 +3473,7 @@ maxAlpha
 )
 *
 (
-PRUint8
+uint8_t
 )
 (
 0x100
@@ -4476,7 +4476,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -4484,7 +4484,7 @@ arg
 )
 ;
 NS_COM_GLUE
-PRUint32
+uint32_t
 PL_DHashTableEnumerate
 (
 PLDHashTable

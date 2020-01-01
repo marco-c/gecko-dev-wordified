@@ -734,7 +734,7 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 len
 )
 {
@@ -1044,7 +1044,7 @@ it
 )
 /
 /
-PRInt32
+int32_t
 port
 ;
 rv
@@ -1157,7 +1157,7 @@ path
 .
 /
 /
-PRInt32
+int32_t
 ref
 =
 path
@@ -1462,7 +1462,7 @@ opaque
 bool
 stale
 ;
-PRUint16
+uint16_t
 algorithm
 qop
 ;
@@ -1603,7 +1603,7 @@ nsISupports
 *
 *
 continuationState
-PRUint32
+uint32_t
 *
 aFlags
 char
@@ -1754,7 +1754,7 @@ opaque
 bool
 stale
 ;
-PRUint16
+uint16_t
 algorithm
 qop
 ;
@@ -2187,7 +2187,7 @@ if
 v
 )
 {
-PRUint32
+uint32_t
 nc
 ;
 v
@@ -2844,7 +2844,7 @@ nsHttpDigestAuth
 :
 GetAuthFlags
 (
-PRUint32
+uint32_t
 *
 flags
 )
@@ -2909,7 +2909,7 @@ const
 nsAFlatCString
 &
 nonce
-PRUint16
+uint16_t
 qop
 const
 char
@@ -2924,7 +2924,7 @@ char
 result
 )
 {
-PRUint32
+uint32_t
 len
 =
 2
@@ -3175,7 +3175,7 @@ char
 result
 )
 {
-PRInt16
+int16_t
 index
 value
 ;
@@ -3325,7 +3325,7 @@ const
 nsAFlatCString
 &
 realm
-PRUint16
+uint16_t
 algorithm
 const
 nsAFlatCString
@@ -3340,7 +3340,7 @@ char
 result
 )
 {
-PRInt16
+int16_t
 len
 =
 username
@@ -3370,7 +3370,7 @@ algorithm
 ALGO_MD5_SESS
 )
 {
-PRInt16
+int16_t
 exlen
 =
 EXPANDED_DIGEST_LENGTH
@@ -3590,7 +3590,7 @@ const
 nsAFlatCString
 &
 path
-PRUint16
+uint16_t
 qop
 const
 char
@@ -3601,7 +3601,7 @@ char
 result
 )
 {
-PRInt16
+int16_t
 methodLen
 =
 method
@@ -3610,7 +3610,7 @@ Length
 (
 )
 ;
-PRInt16
+int16_t
 pathLen
 =
 path
@@ -3619,7 +3619,7 @@ Length
 (
 )
 ;
-PRInt16
+int16_t
 len
 =
 methodLen
@@ -3762,10 +3762,10 @@ opaque
 bool
 *
 stale
-PRUint16
+uint16_t
 *
 algorithm
-PRUint16
+uint16_t
 *
 qop
 )
@@ -3854,7 +3854,7 @@ break
 /
 /
 name
-PRInt16
+int16_t
 nameStart
 =
 (
@@ -3901,7 +3901,7 @@ p
 return
 NS_ERROR_INVALID_ARG
 ;
-PRInt16
+int16_t
 nameLength
 =
 (
@@ -3979,7 +3979,7 @@ true
 /
 /
 value
-PRInt16
+int16_t
 valueStart
 =
 (
@@ -3988,7 +3988,7 @@ p
 challenge
 )
 ;
-PRInt16
+int16_t
 valueLength
 =
 0
@@ -4439,7 +4439,7 @@ qop
 0
 )
 {
-PRInt16
+int16_t
 ipos
 =
 valueStart
@@ -4489,7 +4489,7 @@ ipos
 +
 +
 ;
-PRInt16
+int16_t
 algostart
 =
 ipos

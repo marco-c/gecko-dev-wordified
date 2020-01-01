@@ -251,7 +251,7 @@ PRUnichar
 *
 aCData
 const
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -288,7 +288,7 @@ const
 PRUnichar
 *
 aEncoding
-PRInt32
+int32_t
 aStandalone
 )
 ;
@@ -300,7 +300,7 @@ PRUnichar
 *
 aData
 const
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -627,11 +627,11 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 bool
 aIsFinal
-PRUint32
+uint32_t
 *
 aConsumed
 )
@@ -753,7 +753,7 @@ of
 PRUnichars
 )
 .
-PRUint32
+uint32_t
 mExpatBuffered
 ;
 /
@@ -830,7 +830,7 @@ for
 error
 reporting
 .
-PRUint64
+uint64_t
 mInnerWindowID
 ;
 }

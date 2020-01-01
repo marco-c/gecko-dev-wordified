@@ -987,7 +987,7 @@ nsXULPopupManager
 :
 Rollup
 (
-PRUint32
+uint32_t
 aCount
 bool
 aGetLastRolledUp
@@ -1472,7 +1472,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 nsXULPopupManager
 :
 :
@@ -1539,7 +1539,7 @@ will
 not
 roll
 up
-PRUint32
+uint32_t
 count
 =
 0
@@ -2499,7 +2499,7 @@ nsIDOMNode
 *
 *
 aNode
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -3462,9 +3462,9 @@ const
 nsAString
 &
 aPosition
-PRInt32
+int32_t
 aXPos
-PRInt32
+int32_t
 aYPos
 bool
 aIsContextMenu
@@ -3547,9 +3547,9 @@ ShowPopupAtScreen
 nsIContent
 *
 aPopup
-PRInt32
+int32_t
 aXPos
-PRInt32
+int32_t
 aYPos
 bool
 aIsContextMenu
@@ -3629,9 +3629,9 @@ aPopup
 nsIContent
 *
 aTriggerContent
-PRInt32
+int32_t
 aXPos
-PRInt32
+int32_t
 aYPos
 )
 {
@@ -3779,9 +3779,9 @@ aAnchor
 nsAString
 &
 aAlign
-PRInt32
+int32_t
 aXPos
-PRInt32
+int32_t
 aYPos
 bool
 aIsContextMenu
@@ -5848,7 +5848,7 @@ KillMenuTimer
 (
 )
 ;
-PRInt32
+int32_t
 menuDelay
 =
 LookAndFeel
@@ -6007,7 +6007,7 @@ Length
 )
 )
 ;
-PRUint32
+uint32_t
 f
 ;
 for
@@ -8951,7 +8951,7 @@ baseWin
 return
 false
 ;
-PRInt32
+int32_t
 type
 =
 -
@@ -9169,7 +9169,7 @@ if
 mainWidget
 )
 {
-PRInt32
+int32_t
 sizeMode
 ;
 mainWidget
@@ -11439,7 +11439,7 @@ nsXULPopupManager
 :
 HandleKeyboardNavigation
 (
-PRUint32
+uint32_t
 aKeyCode
 )
 {
@@ -12827,7 +12827,7 @@ bool
 aOnPopup
 )
 {
-PRInt32
+int32_t
 ns
 =
 aContent
@@ -13237,7 +13237,7 @@ ePopupTypeMenu
 return
 NS_OK
 ;
-PRInt32
+int32_t
 menuAccessKey
 =
 -
@@ -13280,7 +13280,7 @@ if
 menuAccessKey
 )
 {
-PRUint32
+uint32_t
 theChar
 ;
 aKeyEvent
@@ -13298,7 +13298,7 @@ theChar
 =
 =
 (
-PRUint32
+uint32_t
 )
 menuAccessKey
 )
@@ -13650,7 +13650,7 @@ keyEvent
 NS_ERROR_UNEXPECTED
 )
 ;
-PRUint32
+uint32_t
 theChar
 ;
 keyEvent

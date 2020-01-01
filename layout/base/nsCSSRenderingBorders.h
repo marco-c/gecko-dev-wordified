@@ -481,7 +481,7 @@ nsCSSBorderRenderer
 {
 nsCSSBorderRenderer
 (
-PRInt32
+int32_t
 aAppUnitsPerPixel
 gfxContext
 *
@@ -490,7 +490,7 @@ gfxRect
 &
 aOuterRect
 const
-PRUint8
+uint8_t
 *
 aBorderStyles
 const
@@ -555,7 +555,7 @@ of
 the
 border
 const
-PRUint8
+uint8_t
 *
 mBorderStyles
 ;
@@ -564,7 +564,7 @@ gfxFloat
 *
 mBorderWidths
 ;
-PRUint8
+uint8_t
 *
 mSanitizedStyles
 ;
@@ -596,7 +596,7 @@ app
 units
 per
 pixel
-PRInt32
+int32_t
 mAUPP
 ;
 /
@@ -655,7 +655,7 @@ style
 bool
 AreBorderSideFinalStylesSame
 (
-PRUint8
+uint8_t
 aSides
 )
 ;
@@ -676,7 +676,7 @@ color
 bool
 IsSolidCornerStyle
 (
-PRUint8
+uint8_t
 aStyle
 mozilla
 :
@@ -705,7 +705,7 @@ used
 BorderColorStyle
 BorderColorStyleForSolidCorner
 (
-PRUint8
+uint8_t
 aStyle
 mozilla
 :

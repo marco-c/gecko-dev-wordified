@@ -171,7 +171,7 @@ public
 void
 Init
 (
-PRUint8
+uint8_t
 aAttrEnum
 =
 0xff
@@ -386,7 +386,7 @@ mAnimVal
 float
 mBaseVal
 ;
-PRUint8
+uint8_t
 mAttrEnum
 ;
 /

@@ -801,7 +801,7 @@ nsIDOMEvent
 aEvent
 )
 {
-PRUint32
+uint32_t
 generation
 =
 nsFrameManager
@@ -981,7 +981,7 @@ Unregister
 }
 private
 :
-PRUint32
+uint32_t
 mLastGeneration
 ;
 nsCOMPtr
@@ -2967,7 +2967,7 @@ bridge
 )
 break
 ;
-PRInt32
+int32_t
 token
 =
 curEvent
@@ -2977,7 +2977,7 @@ Flags
 (
 )
 ;
-PRInt32
+int32_t
 tabId
 =
 curEvent
@@ -3638,7 +3638,7 @@ break
 nsIntRect
 rect
 ;
-PRInt32
+int32_t
 colorDepth
 pixelDepth
 ;
@@ -4165,7 +4165,7 @@ each
 other
 .
 {
-PRUint32
+uint32_t
 i
 =
 0

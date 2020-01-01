@@ -716,9 +716,9 @@ nsEntryStack
 :
 EnsureCapacityFor
 (
-PRInt32
+int32_t
 aNewMax
-PRInt32
+int32_t
 aShiftOffset
 )
 {
@@ -735,7 +735,7 @@ kDelta
 =
 16
 ;
-PRInt32
+int32_t
 theSize
 =
 kDelta
@@ -769,7 +769,7 @@ if
 temp
 )
 {
-PRInt32
+int32_t
 index
 =
 0
@@ -1064,7 +1064,7 @@ mCount
 mCapacity
 )
 {
-PRInt32
+int32_t
 index
 =
 0
@@ -1219,7 +1219,7 @@ if
 aStack
 )
 {
-PRInt32
+int32_t
 theCount
 =
 aStack
@@ -1238,7 +1238,7 @@ mCount
 0
 )
 ;
-PRInt32
+int32_t
 theIndex
 =
 0
@@ -1389,7 +1389,7 @@ nsEntryStack
 :
 Remove
 (
-PRInt32
+int32_t
 anIndex
 eHTMLTags
 aTag
@@ -1433,7 +1433,7 @@ mUseCount
 -
 -
 ;
-PRInt32
+int32_t
 theIndex
 =
 0
@@ -1531,7 +1531,7 @@ longer
 in
 use
 .
-PRUint32
+uint32_t
 scount
 =
 theStyleStack
@@ -1571,7 +1571,7 @@ mEntries
 ;
 for
 (
-PRUint32
+uint32_t
 sindex
 =
 scount
@@ -1818,7 +1818,7 @@ longer
 in
 use
 .
-PRUint32
+uint32_t
 scount
 =
 theStyleStack
@@ -1888,7 +1888,7 @@ mEntries
 ;
 for
 (
-PRUint32
+uint32_t
 sindex
 =
 scount
@@ -2071,7 +2071,7 @@ nsEntryStack
 :
 NodeAt
 (
-PRInt32
+int32_t
 anIndex
 )
 const
@@ -2140,7 +2140,7 @@ nsEntryStack
 :
 TagAt
 (
-PRInt32
+int32_t
 anIndex
 )
 const
@@ -2201,7 +2201,7 @@ nsEntryStack
 :
 EntryAt
 (
-PRInt32
+int32_t
 anIndex
 )
 const
@@ -2271,7 +2271,7 @@ operator
 [
 ]
 (
-PRInt32
+int32_t
 anIndex
 )
 const
@@ -2764,7 +2764,7 @@ aTag
 )
 const
 {
-PRInt32
+int32_t
 theIndex
 =
 mStack
@@ -2918,7 +2918,7 @@ PopEntry
 (
 )
 {
-PRInt32
+int32_t
 theSize
 =
 mStack
@@ -3075,7 +3075,7 @@ MoveEntries
 nsDTDContext
 &
 aDest
-PRInt32
+int32_t
 aCount
 )
 {
@@ -3201,7 +3201,7 @@ nsEntryStack
 aChildStyleStack
 )
 {
-PRInt32
+int32_t
 theSize
 =
 mStack
@@ -3389,7 +3389,7 @@ nsDTDContext
 :
 TagAt
 (
-PRInt32
+int32_t
 anIndex
 )
 const
@@ -3490,7 +3490,7 @@ nsDTDContext
 :
 GetStylesAt
 (
-PRInt32
+int32_t
 anIndex
 )
 const
@@ -3728,7 +3728,7 @@ mStyles
 =
 aStyles
 ;
-PRUint32
+uint32_t
 scount
 =
 aStyles
@@ -3736,7 +3736,7 @@ aStyles
 >
 mCount
 ;
-PRUint32
+uint32_t
 sindex
 =
 0
@@ -4019,7 +4019,7 @@ eHTMLTags
 aTag
 )
 {
-PRInt32
+int32_t
 theLevel
 =
 0
@@ -4183,7 +4183,7 @@ eHTMLTags
 aTag
 )
 {
-PRInt32
+int32_t
 theLevel
 =
 mStack
@@ -4211,7 +4211,7 @@ if
 theStack
 )
 {
-PRInt32
+int32_t
 index
 =
 theStack
@@ -4479,7 +4479,7 @@ CEndToken
 ;
 static
 const
-PRInt32
+int32_t
 kNumTokenBuckets
 =
 sizeof
@@ -4494,7 +4494,7 @@ size_t
 ;
 static
 const
-PRInt32
+int32_t
 kInitialTokenPoolSize
 =
 sizeof
@@ -5513,7 +5513,7 @@ nsCParserStartNode
 ;
 static
 const
-PRInt32
+int32_t
 kNumNodeBuckets
 =
 sizeof
@@ -5528,7 +5528,7 @@ size_t
 ;
 static
 const
-PRInt32
+int32_t
 kInitialNodePoolSize
 =
 sizeof

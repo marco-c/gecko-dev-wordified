@@ -1021,7 +1021,7 @@ public
 :
 UndisplayedMap
 (
-PRUint32
+uint32_t
 aNumBuckets
 =
 16
@@ -1754,7 +1754,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -2608,7 +2608,7 @@ if
 list
 )
 {
-PRUint32
+uint32_t
 length
 ;
 list
@@ -2622,7 +2622,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4325,7 +4325,7 @@ nullptr
 do
 additional
 contexts
-PRInt32
+int32_t
 contextIndex
 =
 -
@@ -6339,7 +6339,7 @@ sib
 do
 additional
 contexts
-PRInt32
+int32_t
 contextIndex
 =
 -
@@ -8990,7 +8990,7 @@ it
 for
 now
 .
-PRInt32
+int32_t
 contextIndex
 =
 -
@@ -11179,7 +11179,7 @@ children
 staying
 shown
 .
-PRUint32
+uint32_t
 visibleContentCount
 =
 aVisibleKidsOfHiddenElement
@@ -11190,7 +11190,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -12740,7 +12740,7 @@ UndisplayedMap
 :
 UndisplayedMap
 (
-PRUint32
+uint32_t
 aNumBuckets
 )
 {
@@ -13519,7 +13519,7 @@ RemoveUndisplayedEntry
 )
 ;
 }
-PRUint32
+uint32_t
 nsFrameManagerBase
 :
 :

@@ -278,7 +278,7 @@ aPrintEngine
 nsIDocumentViewerPrint
 *
 aDocViewerPrint
-PRUint32
+uint32_t
 aDelay
 )
 ;
@@ -320,10 +320,10 @@ nsITimer
 >
 mTimer
 ;
-PRUint32
+uint32_t
 mDelay
 ;
-PRUint32
+uint32_t
 mFiringCount
 ;
 nsPrintObject

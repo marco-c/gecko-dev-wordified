@@ -995,7 +995,7 @@ if
 aTest
 )
 {
-PRInt32
+int32_t
 result
 =
 (
@@ -1371,7 +1371,7 @@ result
 ;
 }
 static
-PRInt32
+int32_t
 GetIndexOfChildOrSynonym
 (
 nsDTDContext
@@ -1452,7 +1452,7 @@ GetCloseTargetForEndTag
 nsDTDContext
 &
 aContext
-PRInt32
+int32_t
 anIndex
 nsDTDMode
 aMode
@@ -1488,7 +1488,7 @@ mSpecialParents
 bool
 IsMemberOf
 (
-PRInt32
+int32_t
 aType
 )
 const
@@ -1496,7 +1496,7 @@ const
 bool
 ContainsSet
 (
-PRInt32
+int32_t
 aType
 )
 const
@@ -1504,7 +1504,7 @@ const
 bool
 CanContainType
 (
-PRInt32
+int32_t
 aType
 )
 const
@@ -1547,7 +1547,7 @@ CanAutoCloseTag
 nsDTDContext
 &
 aContext
-PRInt32
+int32_t
 aIndex
 eHTMLTags
 aTag
@@ -1557,7 +1557,7 @@ const
 bool
 HasSpecialProperty
 (
-PRInt32
+int32_t
 aProperty
 )
 const
@@ -1878,7 +1878,7 @@ purposes
 .
 .
 .
-PRUint32
+uint32_t
 mPropagateRange
 ;
 /

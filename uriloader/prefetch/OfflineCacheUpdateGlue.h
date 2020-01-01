@@ -175,7 +175,7 @@ _to
 NS_IMETHOD
 GetStatus
 (
-PRUint16
+uint16_t
 *
 aStatus
 )
@@ -428,7 +428,7 @@ aObserver
 NS_IMETHOD
 GetByteProgress
 (
-PRUint64
+uint64_t
 *
 _result
 )

@@ -997,7 +997,7 @@ return
 mLanguage
 ;
 }
-PRInt32
+int32_t
 GetMaxStringLength
 (
 )
@@ -1046,7 +1046,7 @@ const
 char
 *
 aString
-PRUint32
+uint32_t
 aLength
 nsRenderingContext
 *
@@ -1060,7 +1060,7 @@ const
 PRUnichar
 *
 aString
-PRUint32
+uint32_t
 aLength
 nsRenderingContext
 *
@@ -1089,7 +1089,7 @@ const
 char
 *
 aString
-PRUint32
+uint32_t
 aLength
 nscoord
 aX
@@ -1107,7 +1107,7 @@ const
 PRUnichar
 *
 aString
-PRUint32
+uint32_t
 aLength
 nscoord
 aX
@@ -1128,7 +1128,7 @@ const
 PRUnichar
 *
 aString
-PRUint32
+uint32_t
 aLength
 nsRenderingContext
 *
@@ -1162,7 +1162,7 @@ const
 PRUnichar
 *
 aString
-PRUint32
+uint32_t
 aLength
 nsRenderingContext
 *
@@ -1215,7 +1215,7 @@ GetUserFontSet
 )
 ;
 }
-PRUint32
+uint32_t
 AppUnitsPerDevPixel
 (
 )
@@ -1256,7 +1256,7 @@ nsDeviceContext
 *
 mDeviceContext
 ;
-PRUint32
+uint32_t
 mP2A
 ;
 bool

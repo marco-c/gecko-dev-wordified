@@ -300,7 +300,7 @@ the
 number
 of
 bindings
-PRInt32
+int32_t
 mCount
 ;
 /
@@ -348,7 +348,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 RDFBindingSet
 )
-PRInt32
+int32_t
 Count
 (
 )
@@ -717,7 +717,7 @@ symbol
 .
 *
 /
-PRInt32
+int32_t
 LookupTargetIndex
 (
 nsIAtom

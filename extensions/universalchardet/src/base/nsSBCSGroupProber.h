@@ -129,7 +129,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 )
 ;
@@ -190,10 +190,10 @@ mIsActive
 NUM_OF_SBCS_PROBERS
 ]
 ;
-PRInt32
+int32_t
 mBestGuess
 ;
-PRUint32
+uint32_t
 mActiveNum
 ;
 }

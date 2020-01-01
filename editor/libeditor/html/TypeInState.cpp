@@ -624,7 +624,7 @@ nsIDOMDocument
 nsISelection
 *
 aSelection
-PRInt16
+int16_t
 )
 {
 /
@@ -747,7 +747,7 @@ if
 aSelection
 )
 {
-PRInt32
+int32_t
 rangeCount
 =
 0
@@ -789,7 +789,7 @@ nsIDOMNode
 >
 selNode
 ;
-PRInt32
+int32_t
 selOffset
 =
 0
@@ -886,7 +886,7 @@ Reset
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -922,7 +922,7 @@ Clear
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1022,7 +1022,7 @@ mRelativeFontSize
 return
 ;
 }
-PRInt32
+int32_t
 index
 ;
 if
@@ -1345,7 +1345,7 @@ TakeClearProperty
 (
 )
 {
-PRUint32
+uint32_t
 count
 =
 mClearedArray
@@ -1505,7 +1505,7 @@ TakeSetProperty
 (
 )
 {
-PRUint32
+uint32_t
 count
 =
 mSetArray
@@ -1647,7 +1647,7 @@ then
 cleared
 out
 .
-PRInt32
+int32_t
 TypeInState
 :
 :
@@ -1655,7 +1655,7 @@ TakeRelativeFontSize
 (
 )
 {
-PRInt32
+int32_t
 relSize
 =
 mRelativeFontSize
@@ -1922,7 +1922,7 @@ nsAString
 aAttr
 )
 {
-PRInt32
+int32_t
 index
 ;
 if
@@ -1938,7 +1938,7 @@ _all_
 props
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2020,7 +2020,7 @@ nsAString
 aAttr
 )
 {
-PRInt32
+int32_t
 index
 ;
 if
@@ -2068,7 +2068,7 @@ nsAString
 outValue
 )
 {
-PRInt32
+int32_t
 i
 ;
 return
@@ -2097,7 +2097,7 @@ aAttr
 nsAString
 *
 outValue
-PRInt32
+int32_t
 &
 outIndex
 )
@@ -2112,7 +2112,7 @@ should
 be
 short
 .
-PRUint32
+uint32_t
 i
 count
 =
@@ -2210,7 +2210,7 @@ nsAString
 aAttr
 )
 {
-PRInt32
+int32_t
 i
 ;
 return
@@ -2235,7 +2235,7 @@ const
 nsAString
 &
 aAttr
-PRInt32
+int32_t
 &
 outIndex
 )
@@ -2312,7 +2312,7 @@ PropItem
 >
 &
 aList
-PRInt32
+int32_t
 &
 outIndex
 )
@@ -2327,7 +2327,7 @@ should
 be
 short
 .
-PRUint32
+uint32_t
 i
 count
 =

@@ -1504,9 +1504,9 @@ unchanged
 NS_IMETHOD
 UpdatePresentationData
 (
-PRUint32
+uint32_t
 aFlagsValues
-PRUint32
+uint32_t
 aWhichFlags
 )
 =
@@ -1718,13 +1718,13 @@ parameter
 NS_IMETHOD
 UpdatePresentationDataFromChildAt
 (
-PRInt32
+int32_t
 aFirstIndex
-PRInt32
+int32_t
 aLastIndex
-PRUint32
+uint32_t
 aFlagsValues
-PRUint32
+uint32_t
 aWhichFlags
 )
 =
@@ -1821,7 +1821,7 @@ properties
 of
 our
 embellishments
-PRUint32
+uint32_t
 flags
 ;
 /
@@ -2074,7 +2074,7 @@ for
 displaystyle
 compressed
 etc
-PRUint32
+uint32_t
 flags
 ;
 /

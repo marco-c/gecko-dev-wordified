@@ -432,7 +432,7 @@ treated
 as
 >
 .
-PRInt32
+int32_t
 nsOCSPResponder
 :
 :
@@ -446,7 +446,7 @@ nsIOCSPResponder
 b
 )
 {
-PRInt32
+int32_t
 cmp1
 ;
 nsXPIDLString
@@ -550,7 +550,7 @@ those
 without
 urls
 .
-PRInt32
+int32_t
 nsOCSPResponder
 :
 :

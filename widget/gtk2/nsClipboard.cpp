@@ -329,13 +329,13 @@ ConvertHTMLtoUCS2
 guchar
 *
 data
-PRInt32
+int32_t
 dataLength
 PRUnichar
 *
 *
 unicodeData
-PRInt32
+int32_t
 &
 outUnicodeLen
 )
@@ -347,7 +347,7 @@ GetHTMLCharset
 guchar
 *
 data
-PRInt32
+int32_t
 dataLength
 nsCString
 &
@@ -740,7 +740,7 @@ aTransferable
 nsIClipboardOwner
 *
 aOwner
-PRInt32
+int32_t
 aWhichClipboard
 )
 {
@@ -950,7 +950,7 @@ imagesAdded
 =
 false
 ;
-PRUint32
+uint32_t
 count
 ;
 flavors
@@ -964,7 +964,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1386,7 +1386,7 @@ GetData
 nsITransferable
 *
 aTransferable
-PRInt32
+int32_t
 aWhichClipboard
 )
 {
@@ -1478,7 +1478,7 @@ rv
 return
 NS_ERROR_FAILURE
 ;
-PRUint32
+uint32_t
 count
 ;
 flavors
@@ -1492,7 +1492,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1932,7 +1932,7 @@ htmlBody
 =
 nullptr
 ;
-PRInt32
+int32_t
 htmlBodyLen
 =
 0
@@ -2105,7 +2105,7 @@ nsClipboard
 :
 EmptyClipboard
 (
-PRInt32
+int32_t
 aWhichClipboard
 )
 {
@@ -2180,9 +2180,9 @@ char
 *
 *
 aFlavorList
-PRUint32
+uint32_t
 aLength
-PRInt32
+int32_t
 aWhichClipboard
 bool
 *
@@ -2277,7 +2277,7 @@ type
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2335,7 +2335,7 @@ break
 }
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -2499,7 +2499,7 @@ nsClipboard
 :
 GetSelectionAtom
 (
-PRInt32
+int32_t
 aWhichClipboard
 )
 {
@@ -2563,7 +2563,7 @@ nsClipboard
 :
 GetTransferable
 (
-PRInt32
+int32_t
 aWhichClipboard
 )
 {
@@ -2664,7 +2664,7 @@ utf
 -
 8
 .
-PRInt32
+int32_t
 whichClipboard
 ;
 /
@@ -2790,7 +2790,7 @@ nsISupports
 >
 item
 ;
-PRUint32
+uint32_t
 len
 ;
 /
@@ -3072,7 +3072,7 @@ nsISupports
 >
 item
 ;
-PRUint32
+uint32_t
 len
 ;
 nsCOMPtr
@@ -3083,7 +3083,7 @@ ptrPrimitive
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3562,7 +3562,7 @@ GtkClipboard
 aGtkClipboard
 )
 {
-PRInt32
+int32_t
 whichClipboard
 ;
 /
@@ -3852,13 +3852,13 @@ ConvertHTMLtoUCS2
 guchar
 *
 data
-PRInt32
+int32_t
 dataLength
 PRUnichar
 *
 *
 unicodeData
-PRInt32
+int32_t
 &
 outUnicodeLen
 )
@@ -4200,7 +4200,7 @@ if
 unicodeData
 )
 {
-PRInt32
+int32_t
 numberTmp
 =
 dataLength
@@ -4370,7 +4370,7 @@ GetHTMLCharset
 guchar
 *
 data
-PRInt32
+int32_t
 dataLength
 nsCString
 &

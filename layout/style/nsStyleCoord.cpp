@@ -199,7 +199,7 @@ nsStyleCoord
 :
 nsStyleCoord
 (
-PRInt32
+int32_t
 aValue
 nsStyleUnit
 aUnit
@@ -534,7 +534,7 @@ nsStyleCoord
 :
 SetIntValue
 (
-PRInt32
+int32_t
 aValue
 nsStyleUnit
 aUnit

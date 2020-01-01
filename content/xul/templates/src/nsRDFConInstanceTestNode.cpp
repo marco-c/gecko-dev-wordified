@@ -847,7 +847,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 count
 ;
 rv

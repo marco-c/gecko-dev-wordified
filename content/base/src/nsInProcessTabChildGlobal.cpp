@@ -318,7 +318,7 @@ tabChild
 mASyncMessages
 )
 ;
-PRUint32
+uint32_t
 len
 =
 asyncMessages
@@ -329,7 +329,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

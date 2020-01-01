@@ -430,7 +430,7 @@ NS_PTR_TO_INT32
 to
 *
 store
-PRInt32
+int32_t
 values
 .
 Null

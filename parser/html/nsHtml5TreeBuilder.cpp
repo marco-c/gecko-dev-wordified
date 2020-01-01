@@ -1413,7 +1413,7 @@ staticJArray
 const
 char
 *
-PRInt32
+int32_t
 >
 nsHtml5TreeBuilder
 :
@@ -1449,7 +1449,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 :
 :
@@ -1464,7 +1464,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 :
 :
@@ -1517,7 +1517,7 @@ charBuffer
 jArray
 <
 PRUnichar
-PRInt32
+int32_t
 >
 :
 :
@@ -2002,9 +2002,9 @@ comment
 PRUnichar
 *
 buf
-PRInt32
+int32_t
 start
-PRInt32
+int32_t
 length
 )
 {
@@ -2112,9 +2112,9 @@ const
 PRUnichar
 *
 buf
-PRInt32
+int32_t
 start
-PRInt32
+int32_t
 length
 )
 {
@@ -2239,7 +2239,7 @@ return
 default
 :
 {
-PRInt32
+int32_t
 end
 =
 start
@@ -2248,7 +2248,7 @@ length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 start
@@ -3545,7 +3545,7 @@ flushCharacters
 (
 )
 ;
-PRInt32
+int32_t
 eltPos
 ;
 needToDropLF
@@ -3560,7 +3560,7 @@ for
 ;
 )
 {
-PRInt32
+int32_t
 group
 =
 elementName
@@ -3595,7 +3595,7 @@ stack
 currentPtr
 ]
 ;
-PRInt32
+int32_t
 currNs
 =
 currentNode
@@ -5578,7 +5578,7 @@ case
 NS_HTML5TREE_BUILDER_A
 :
 {
-PRInt32
+int32_t
 activeAPos
 =
 findInListOfActiveFormattingElementsContainsBetweenEndAndLastMarker
@@ -6122,7 +6122,7 @@ nsHtml5HtmlAttributes
 0
 )
 ;
-PRInt32
+int32_t
 actionIndex
 =
 attributes
@@ -6192,7 +6192,7 @@ nsHtml5HtmlAttributes
 EMPTY_ATTRIBUTES
 )
 ;
-PRInt32
+int32_t
 promptIndex
 =
 attributes
@@ -6217,7 +6217,7 @@ promptIndex
 autoJArray
 <
 PRUnichar
-PRInt32
+int32_t
 >
 prompt
 =
@@ -6298,7 +6298,7 @@ isindex
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -8923,7 +8923,7 @@ nsHtml5StackNode
 stackNode
 )
 {
-PRInt32
+int32_t
 ns
 =
 stackNode
@@ -8985,18 +8985,18 @@ nsString
 attributeValue
 )
 {
-PRInt32
+int32_t
 charsetState
 =
 NS_HTML5TREE_BUILDER_CHARSET_INITIAL
 ;
-PRInt32
+int32_t
 start
 =
 -
 1
 ;
-PRInt32
+int32_t
 end
 =
 -
@@ -9005,7 +9005,7 @@ end
 autoJArray
 <
 PRUnichar
-PRInt32
+int32_t
 >
 buffer
 =
@@ -9019,7 +9019,7 @@ attributeValue
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -9825,10 +9825,10 @@ needToDropLF
 =
 false
 ;
-PRInt32
+int32_t
 eltPos
 ;
-PRInt32
+int32_t
 group
 =
 elementName
@@ -10844,7 +10844,7 @@ mViewSource
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 2
@@ -10963,7 +10963,7 @@ mViewSource
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -12888,7 +12888,7 @@ endtagloop_end
 :
 ;
 }
-PRInt32
+int32_t
 nsHtml5TreeBuilder
 :
 :
@@ -12898,7 +12898,7 @@ findLastInTableScopeOrRootTbodyTheadTfoot
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 currentPtr
@@ -12937,7 +12937,7 @@ return
 0
 ;
 }
-PRInt32
+int32_t
 nsHtml5TreeBuilder
 :
 :
@@ -12950,7 +12950,7 @@ name
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 currentPtr
@@ -12987,7 +12987,7 @@ return
 NS_HTML5TREE_BUILDER_NOT_FOUND_ON_STACK
 ;
 }
-PRInt32
+int32_t
 nsHtml5TreeBuilder
 :
 :
@@ -13000,7 +13000,7 @@ name
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 currentPtr
@@ -13059,7 +13059,7 @@ return
 NS_HTML5TREE_BUILDER_NOT_FOUND_ON_STACK
 ;
 }
-PRInt32
+int32_t
 nsHtml5TreeBuilder
 :
 :
@@ -13072,7 +13072,7 @@ name
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 currentPtr
@@ -13142,7 +13142,7 @@ return
 NS_HTML5TREE_BUILDER_NOT_FOUND_ON_STACK
 ;
 }
-PRInt32
+int32_t
 nsHtml5TreeBuilder
 :
 :
@@ -13155,7 +13155,7 @@ name
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 currentPtr
@@ -13210,7 +13210,7 @@ return
 NS_HTML5TREE_BUILDER_NOT_FOUND_ON_STACK
 ;
 }
-PRInt32
+int32_t
 nsHtml5TreeBuilder
 :
 :
@@ -13223,7 +13223,7 @@ name
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 currentPtr
@@ -13308,7 +13308,7 @@ return
 NS_HTML5TREE_BUILDER_NOT_FOUND_ON_STACK
 ;
 }
-PRInt32
+int32_t
 nsHtml5TreeBuilder
 :
 :
@@ -13318,7 +13318,7 @@ findLastInScopeHn
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 currentPtr
@@ -13795,7 +13795,7 @@ publicIdentifier
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -14029,7 +14029,7 @@ nsHtml5TreeBuilder
 :
 closeTheCell
 (
-PRInt32
+int32_t
 eltPos
 )
 {
@@ -14083,7 +14083,7 @@ NS_HTML5TREE_BUILDER_IN_ROW
 return
 ;
 }
-PRInt32
+int32_t
 nsHtml5TreeBuilder
 :
 :
@@ -14093,7 +14093,7 @@ findLastInTableScopeTdTh
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 currentPtr
@@ -14170,7 +14170,7 @@ nsHtml5TreeBuilder
 :
 clearStackBackTo
 (
-PRInt32
+int32_t
 eltPos
 )
 {
@@ -14203,12 +14203,12 @@ nsIAtom
 *
 name
 ;
-PRInt32
+int32_t
 ns
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 currentPtr
@@ -14609,7 +14609,7 @@ implicitlyCloseP
 (
 )
 {
-PRInt32
+int32_t
 eltPos
 =
 findLastInButtonScope
@@ -14746,7 +14746,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 newStack
 =
@@ -14754,7 +14754,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 :
 :
@@ -14837,7 +14837,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 newStack
 =
@@ -14845,7 +14845,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 :
 :
@@ -14912,7 +14912,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 newList
 =
@@ -14920,7 +14920,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 :
 :
@@ -15012,7 +15012,7 @@ nsHtml5TreeBuilder
 :
 removeFromStack
 (
-PRInt32
+int32_t
 pos
 )
 {
@@ -15091,7 +15091,7 @@ pop
 }
 else
 {
-PRInt32
+int32_t
 pos
 =
 currentPtr
@@ -15166,7 +15166,7 @@ nsHtml5TreeBuilder
 :
 removeFromListOfActiveFormattingElements
 (
-PRInt32
+int32_t
 pos
 )
 {
@@ -15228,7 +15228,7 @@ name
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -15242,7 +15242,7 @@ i
 i
 )
 {
-PRInt32
+int32_t
 formattingEltListPos
 =
 listPtr
@@ -15320,7 +15320,7 @@ listOfActiveFormattingElements
 formattingEltListPos
 ]
 ;
-PRInt32
+int32_t
 formattingEltStackPos
 =
 currentPtr
@@ -15431,7 +15431,7 @@ name
 )
 ;
 }
-PRInt32
+int32_t
 furthestBlockPos
 =
 formattingEltStackPos
@@ -15522,12 +15522,12 @@ stack
 furthestBlockPos
 ]
 ;
-PRInt32
+int32_t
 bookmark
 =
 formattingEltListPos
 ;
-PRInt32
+int32_t
 nodePos
 =
 furthestBlockPos
@@ -15540,7 +15540,7 @@ furthestBlock
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -15567,7 +15567,7 @@ stack
 nodePos
 ]
 ;
-PRInt32
+int32_t
 nodeListPos
 =
 findInListOfActiveFormattingElements
@@ -15916,7 +15916,7 @@ insertIntoStack
 nsHtml5StackNode
 *
 node
-PRInt32
+int32_t
 position
 )
 {
@@ -15979,7 +15979,7 @@ insertIntoListOfActiveFormattingElements
 nsHtml5StackNode
 *
 formattingClone
-PRInt32
+int32_t
 bookmark
 )
 {
@@ -16030,7 +16030,7 @@ bookmark
 formattingClone
 ;
 }
-PRInt32
+int32_t
 nsHtml5TreeBuilder
 :
 :
@@ -16043,7 +16043,7 @@ node
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 listPtr
@@ -16079,7 +16079,7 @@ return
 1
 ;
 }
-PRInt32
+int32_t
 nsHtml5TreeBuilder
 :
 :
@@ -16092,7 +16092,7 @@ name
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 listPtr
@@ -16163,20 +16163,20 @@ nsHtml5HtmlAttributes
 attributes
 )
 {
-PRInt32
+int32_t
 candidate
 =
 -
 1
 ;
-PRInt32
+int32_t
 count
 =
 0
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 listPtr
@@ -16257,7 +16257,7 @@ candidate
 ;
 }
 }
-PRInt32
+int32_t
 nsHtml5TreeBuilder
 :
 :
@@ -16270,7 +16270,7 @@ name
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 currentPtr
@@ -16307,19 +16307,19 @@ return
 0
 ;
 }
-PRInt32
+int32_t
 nsHtml5TreeBuilder
 :
 :
 findLastOrRoot
 (
-PRInt32
+int32_t
 group
 )
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 currentPtr
@@ -16507,7 +16507,7 @@ mostRecent
 return
 ;
 }
-PRInt32
+int32_t
 entryPos
 =
 listPtr
@@ -16721,7 +16721,7 @@ nsIContent
 child
 )
 {
-PRInt32
+int32_t
 eltPos
 =
 findLastOrRoot
@@ -16792,7 +16792,7 @@ node
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 currentPtr
@@ -18387,7 +18387,7 @@ setFragmentContext
 nsIAtom
 *
 context
-PRInt32
+int32_t
 ns
 nsIContent
 *
@@ -18568,7 +18568,7 @@ charBufferLen
 return
 ;
 }
-PRInt32
+int32_t
 eltPos
 =
 findLastOrRoot
@@ -18666,7 +18666,7 @@ charBufferContainsNonWhitespace
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -18746,7 +18746,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 listCopy
 =
@@ -18754,7 +18754,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 :
 :
@@ -18767,7 +18767,7 @@ listPtr
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -18861,7 +18861,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 stackCopy
 =
@@ -18869,7 +18869,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 :
 :
@@ -18882,7 +18882,7 @@ currentPtr
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -18907,7 +18907,7 @@ stack
 i
 ]
 ;
-PRInt32
+int32_t
 listIndex
 =
 findInListOfActiveFormattingElements
@@ -19020,7 +19020,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 stackCopy
 =
@@ -19031,7 +19031,7 @@ getStack
 (
 )
 ;
-PRInt32
+int32_t
 stackLen
 =
 snapshot
@@ -19045,7 +19045,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 listCopy
 =
@@ -19056,7 +19056,7 @@ getListOfActiveFormattingElements
 (
 )
 ;
-PRInt32
+int32_t
 listLen
 =
 snapshot
@@ -19178,7 +19178,7 @@ false
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 listLen
@@ -19262,7 +19262,7 @@ false
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 stackLen
@@ -19326,7 +19326,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 stackCopy
 =
@@ -19337,7 +19337,7 @@ getStack
 (
 )
 ;
-PRInt32
+int32_t
 stackLen
 =
 snapshot
@@ -19351,7 +19351,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 listCopy
 =
@@ -19362,7 +19362,7 @@ getListOfActiveFormattingElements
 (
 )
 ;
-PRInt32
+int32_t
 listLen
 =
 snapshot
@@ -19374,7 +19374,7 @@ getListOfActiveFormattingElementsLength
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -19424,7 +19424,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 :
 :
@@ -19442,7 +19442,7 @@ listLen
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -19483,7 +19483,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 :
 :
@@ -19501,7 +19501,7 @@ stackLen
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -19605,7 +19605,7 @@ nullptr
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -19628,7 +19628,7 @@ stackCopy
 i
 ]
 ;
-PRInt32
+int32_t
 listIndex
 =
 findInArray
@@ -19797,7 +19797,7 @@ isQuirks
 )
 ;
 }
-PRInt32
+int32_t
 nsHtml5TreeBuilder
 :
 :
@@ -19810,14 +19810,14 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 arr
 )
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 listPtr
@@ -19899,7 +19899,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 nsHtml5TreeBuilder
 :
@@ -19916,7 +19916,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 nsHtml5TreeBuilder
 :
@@ -19929,7 +19929,7 @@ return
 stack
 ;
 }
-PRInt32
+int32_t
 nsHtml5TreeBuilder
 :
 :
@@ -19941,7 +19941,7 @@ return
 mode
 ;
 }
-PRInt32
+int32_t
 nsHtml5TreeBuilder
 :
 :
@@ -19989,7 +19989,7 @@ return
 quirks
 ;
 }
-PRInt32
+int32_t
 nsHtml5TreeBuilder
 :
 :
@@ -20003,7 +20003,7 @@ listPtr
 1
 ;
 }
-PRInt32
+int32_t
 nsHtml5TreeBuilder
 :
 :

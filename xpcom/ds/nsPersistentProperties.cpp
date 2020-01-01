@@ -249,7 +249,7 @@ include
 the
 null
 terminator
-PRInt32
+int32_t
 len
 =
 (
@@ -344,7 +344,7 @@ include
 the
 null
 terminator
-PRInt32
+int32_t
 len
 =
 (
@@ -543,7 +543,7 @@ fast
 PRUnichar
 backup_char
 ;
-PRUint32
+uint32_t
 minLength
 =
 mMinLength
@@ -643,11 +643,11 @@ const
 PRUnichar
 *
 aFromSegment
-PRUint32
+uint32_t
 aToOffset
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aWriteCount
 )
@@ -659,7 +659,7 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aBufferLength
 )
 ;
@@ -827,7 +827,7 @@ mKey
 nsAutoString
 mValue
 ;
-PRUint32
+uint32_t
 mUnicodeValuesRead
 ;
 /
@@ -928,7 +928,7 @@ r
 "
 was
 detected
-PRUint32
+uint32_t
 mMinLength
 ;
 /
@@ -1991,11 +1991,11 @@ const
 PRUnichar
 *
 aFromSegment
-PRUint32
+uint32_t
 aToOffset
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aWriteCount
 )
@@ -2041,7 +2041,7 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aBufferLength
 )
 {
@@ -2829,7 +2829,7 @@ parser
 mSubclass
 )
 ;
-PRUint32
+uint32_t
 nProcessed
 ;
 /
@@ -3210,7 +3210,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 i
 void
 *
@@ -3365,7 +3365,7 @@ populating
 a
 transient
 array
-PRUint32
+uint32_t
 n
 =
 PL_DHashTableEnumerate
@@ -3617,7 +3617,7 @@ nsPersistentProperties
 :
 GetKeys
 (
-PRUint32
+uint32_t
 *
 count
 char

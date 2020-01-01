@@ -500,9 +500,9 @@ char
 const
 *
 aExtensions
-PRInt32
+int32_t
 aVariants
-PRInt64
+int64_t
 aLastModifiedTime
 bool
 aArgsAreUTF8
@@ -570,7 +570,7 @@ aMimeDescriptions
 aExtensions
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aVariants
@@ -641,7 +641,7 @@ char
 const
 *
 aExtensions
-PRUint32
+uint32_t
 aVariantCount
 )
 {
@@ -656,7 +656,7 @@ return
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1095,7 +1095,7 @@ nsAFlatCString
 aString
 )
 {
-PRInt32
+int32_t
 numberOfBytes
 =
 aString
@@ -1104,7 +1104,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 outUnicodeLen
 ;
 nsAutoString
@@ -1447,7 +1447,7 @@ mDescription
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1810,7 +1810,7 @@ nsPluginTag
 :
 Mark
 (
-PRUint32
+uint32_t
 mask
 )
 {
@@ -1855,7 +1855,7 @@ nsPluginTag
 :
 UnMark
 (
-PRUint32
+uint32_t
 mask
 )
 {
@@ -1901,7 +1901,7 @@ nsPluginTag
 :
 HasFlag
 (
-PRUint32
+uint32_t
 flag
 )
 {
@@ -1916,7 +1916,7 @@ flag
 0
 ;
 }
-PRUint32
+uint32_t
 nsPluginTag
 :
 :
@@ -2010,7 +2010,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

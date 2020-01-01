@@ -439,7 +439,7 @@ nsXULPrototypeDocument
 :
 gSystemGlobal
 ;
-PRUint32
+uint32_t
 nsXULPrototypeDocument
 :
 :
@@ -846,7 +846,7 @@ mNodeInfoManager
 )
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1294,7 +1294,7 @@ mURI
 )
 )
 ;
-PRUint32
+uint32_t
 count
 i
 ;
@@ -1747,7 +1747,7 @@ NS_ERROR_OUT_OF_MEMORY
 /
 Document
 contents
-PRUint32
+uint32_t
 type
 ;
 while
@@ -2018,7 +2018,7 @@ NS_ERROR_OUT_OF_MEMORY
 /
 Search
 attributes
-PRUint32
+uint32_t
 i
 ;
 for
@@ -2255,7 +2255,7 @@ nsIURI
 true
 )
 ;
-PRUint32
+uint32_t
 count
 ;
 count
@@ -2290,7 +2290,7 @@ rv
 tmp
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 for
@@ -2461,7 +2461,7 @@ tmp
 ;
 }
 }
-PRUint32
+uint32_t
 nodeInfoCount
 =
 nodeInfos
@@ -3330,7 +3330,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 mPrototypeWaiters

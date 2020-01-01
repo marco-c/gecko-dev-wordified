@@ -1697,7 +1697,7 @@ nsIDOMNode
 >
 node
 ;
-PRInt32
+int32_t
 offset
 ;
 DOMPoint
@@ -1719,7 +1719,7 @@ DOMPoint
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 :
@@ -1739,7 +1739,7 @@ SetPoint
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -1761,7 +1761,7 @@ nsIDOMNode
 >
 &
 aNode
-PRInt32
+int32_t
 &
 aOffset
 )
@@ -1792,7 +1792,7 @@ aNode
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 *
 aOffset
 =

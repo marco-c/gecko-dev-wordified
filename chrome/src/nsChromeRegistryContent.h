@@ -308,7 +308,7 @@ nsIURI
 >
 skinBaseURI
 ;
-PRUint32
+uint32_t
 flags
 ;
 }
@@ -372,7 +372,7 @@ const
 nsCString
 &
 aPackage
-PRUint32
+uint32_t
 *
 aFlags
 )

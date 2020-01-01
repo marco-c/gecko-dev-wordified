@@ -465,7 +465,7 @@ nullptr
 ;
 }
 static
-PRUint32
+uint32_t
 CalculateVariantCount
 (
 char
@@ -473,7 +473,7 @@ char
 mimeTypes
 )
 {
-PRUint32
+uint32_t
 variants
 =
 1
@@ -527,7 +527,7 @@ char
 *
 MakeStringArray
 (
-PRUint32
+uint32_t
 variants
 char
 *
@@ -646,7 +646,7 @@ data
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -751,7 +751,7 @@ static
 void
 FreeStringArray
 (
-PRUint32
+uint32_t
 variants
 char
 *
@@ -776,7 +776,7 @@ return
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1196,7 +1196,7 @@ extension
 +
 extension
 ;
-PRUint32
+uint32_t
 fullLength
 =
 PL_strlen
@@ -1204,7 +1204,7 @@ PL_strlen
 filename
 )
 ;
-PRUint32
+uint32_t
 extLength
 =
 PL_strlen
@@ -1399,7 +1399,7 @@ GetPath
 pluginFolderPath
 )
 ;
-PRInt32
+int32_t
 idx
 =
 pluginFolderPath

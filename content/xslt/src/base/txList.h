@@ -194,7 +194,7 @@ txList
 *
 *
 /
-PRInt32
+int32_t
 getLength
 (
 )
@@ -332,7 +332,7 @@ ListItem
 *
 lastItem
 ;
-PRInt32
+int32_t
 itemCount
 ;
 nsresult

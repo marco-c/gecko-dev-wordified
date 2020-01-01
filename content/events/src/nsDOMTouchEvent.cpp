@@ -177,7 +177,7 @@ nsDOMTouch
 :
 GetIdentifier
 (
-PRInt32
+int32_t
 *
 aIdentifier
 )
@@ -221,7 +221,7 @@ nsDOMTouch
 :
 GetScreenX
 (
-PRInt32
+int32_t
 *
 aScreenX
 )
@@ -243,7 +243,7 @@ nsDOMTouch
 :
 GetScreenY
 (
-PRInt32
+int32_t
 *
 aScreenY
 )
@@ -265,7 +265,7 @@ nsDOMTouch
 :
 GetClientX
 (
-PRInt32
+int32_t
 *
 aClientX
 )
@@ -287,7 +287,7 @@ nsDOMTouch
 :
 GetClientY
 (
-PRInt32
+int32_t
 *
 aClientY
 )
@@ -309,7 +309,7 @@ nsDOMTouch
 :
 GetPageX
 (
-PRInt32
+int32_t
 *
 aPageX
 )
@@ -331,7 +331,7 @@ nsDOMTouch
 :
 GetPageY
 (
-PRInt32
+int32_t
 *
 aPageY
 )
@@ -353,7 +353,7 @@ nsDOMTouch
 :
 GetRadiusX
 (
-PRInt32
+int32_t
 *
 aRadiusX
 )
@@ -375,7 +375,7 @@ nsDOMTouch
 :
 GetRadiusY
 (
-PRInt32
+int32_t
 *
 aRadiusY
 )
@@ -448,7 +448,7 @@ force
 float
 orientation
 ;
-PRInt32
+int32_t
 radiusX
 radiusY
 ;
@@ -619,7 +619,7 @@ nsDOMTouchList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -643,7 +643,7 @@ nsDOMTouchList
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMTouch
 *
@@ -675,7 +675,7 @@ nsDOMTouchList
 :
 IdentifiedTouch
 (
-PRInt32
+int32_t
 aIdentifier
 nsIDOMTouch
 *
@@ -690,7 +690,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -719,7 +719,7 @@ mPoints
 i
 ]
 ;
-PRInt32
+int32_t
 identifier
 ;
 if
@@ -805,7 +805,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -999,7 +999,7 @@ aCancelable
 nsIDOMWindow
 *
 aView
-PRInt32
+int32_t
 aDetail
 bool
 aCtrlKey
@@ -1187,7 +1187,7 @@ touches
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1337,7 +1337,7 @@ touches
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1539,7 +1539,7 @@ touches
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

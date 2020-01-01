@@ -245,7 +245,7 @@ nsAFlatCString
 *
 mString
 ;
-PRInt32
+int32_t
 mIndex
 ;
 }
@@ -675,7 +675,7 @@ ed
 objects
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -746,7 +746,7 @@ const
 aNames
 [
 ]
-PRInt32
+int32_t
 Count
 )
 {
@@ -848,7 +848,7 @@ false
 }
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -1055,7 +1055,7 @@ return
 true
 ;
 }
-PRInt32
+int32_t
 nsStaticCaseInsensitiveNameTable
 :
 :
@@ -1144,7 +1144,7 @@ entry
 mIndex
 ;
 }
-PRInt32
+int32_t
 nsStaticCaseInsensitiveNameTable
 :
 :
@@ -1241,7 +1241,7 @@ nsStaticCaseInsensitiveNameTable
 :
 GetStringValue
 (
-PRInt32
+int32_t
 index
 )
 {
@@ -1276,7 +1276,7 @@ index
 &
 (
 (
-PRUint32
+uint32_t
 )
 index
 <

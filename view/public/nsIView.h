@@ -2427,7 +2427,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -2578,7 +2578,7 @@ nsIFrame
 *
 mFrame
 ;
-PRInt32
+int32_t
 mZIndex
 ;
 nsViewVisibility
@@ -2623,7 +2623,7 @@ mViewToWidgetOffset
 float
 mOpacity
 ;
-PRUint32
+uint32_t
 mVFlags
 ;
 bool

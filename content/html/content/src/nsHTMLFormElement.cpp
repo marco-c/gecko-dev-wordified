@@ -411,14 +411,14 @@ NS_FORM_CONTROL_LIST_HASHTABLE_SIZE
 ;
 static
 const
-PRUint8
+uint8_t
 NS_FORM_AUTOCOMPLETE_ON
 =
 1
 ;
 static
 const
-PRUint8
+uint8_t
 NS_FORM_AUTOCOMPLETE_OFF
 =
 0
@@ -578,7 +578,7 @@ IndexOfControl
 nsIFormControl
 *
 aControl
-PRInt32
+int32_t
 *
 aIndex
 )
@@ -1481,7 +1481,7 @@ nsHTMLFormElement
 :
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1657,7 +1657,7 @@ nsHTMLFormElement
 :
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1724,7 +1724,7 @@ invalid
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1765,7 +1765,7 @@ true
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2052,7 +2052,7 @@ nsHTMLFormElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -2235,7 +2235,7 @@ nsGenericHTMLFormElement
 aArray
 )
 {
-PRUint32
+uint32_t
 length
 =
 aArray
@@ -2246,7 +2246,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2331,7 +2331,7 @@ can
 just
 keep
 iterating
-PRUint32
+uint32_t
 length
 =
 aArray
@@ -2342,7 +2342,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 length
@@ -2764,7 +2764,7 @@ this
 )
 )
 {
-PRUint32
+uint32_t
 msg
 =
 aVisitor
@@ -3038,7 +3038,7 @@ this
 )
 )
 {
-PRUint32
+uint32_t
 msg
 =
 aVisitor
@@ -3294,7 +3294,7 @@ DoSubmitOrReset
 nsEvent
 *
 aEvent
-PRInt32
+int32_t
 aMessage
 )
 {
@@ -3468,7 +3468,7 @@ controls
 -
 bug
 34297
-PRUint32
+uint32_t
 numElements
 =
 GetElementCount
@@ -3477,7 +3477,7 @@ GetElementCount
 ;
 for
 (
-PRUint32
+uint32_t
 elementX
 =
 0
@@ -5144,7 +5144,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 len
 =
 sortedControls
@@ -5178,7 +5178,7 @@ SubmitNamesValues
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5231,7 +5231,7 @@ controls
 /
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5280,7 +5280,7 @@ references
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5321,7 +5321,7 @@ NS_OK
 nsIForm
 NS_IMETHODIMP_
 (
-PRUint32
+uint32_t
 )
 nsHTMLFormElement
 :
@@ -5331,7 +5331,7 @@ GetElementCount
 )
 const
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -5359,7 +5359,7 @@ nsHTMLFormElement
 :
 GetElementAt
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -5440,7 +5440,7 @@ otherwise
 /
 static
 inline
-PRInt32
+int32_t
 CompareFormControlPosition
 (
 nsGenericHTMLFormElement
@@ -5629,7 +5629,7 @@ gPreventAssertInCompareTreePosition
 =
 true
 ;
-PRInt32
+int32_t
 rVal
 =
 nsLayoutUtils
@@ -5824,7 +5824,7 @@ IsEmpty
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6026,7 +6026,7 @@ form
 "
 )
 ;
-PRUint32
+uint32_t
 count
 =
 controlList
@@ -6057,7 +6057,7 @@ lastElement
 =
 false
 ;
-PRInt32
+int32_t
 position
 =
 -
@@ -6165,7 +6165,7 @@ true
 }
 else
 {
-PRInt32
+int32_t
 low
 =
 0
@@ -6261,7 +6261,7 @@ this
 ;
 #
 endif
-PRInt32
+int32_t
 type
 =
 aChild
@@ -7014,7 +7014,7 @@ the
 default
 submit
 .
-PRUint32
+uint32_t
 index
 =
 controls
@@ -7092,7 +7092,7 @@ the
 new
 first
 submit
-PRUint32
+uint32_t
 length
 =
 controls
@@ -7103,7 +7103,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 index
@@ -8670,12 +8670,12 @@ the
 elements
 list
 .
-PRUint32
+uint32_t
 numTextControlsFound
 =
 0
 ;
-PRUint32
+uint32_t
 length
 =
 mControls
@@ -8689,7 +8689,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8781,12 +8781,12 @@ nsHTMLFormElement
 :
 GetLength
 (
-PRInt32
+int32_t
 *
 aLength
 )
 {
-PRUint32
+uint32_t
 length
 ;
 nsresult
@@ -8902,7 +8902,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 len
 =
 sortedControls
@@ -8936,7 +8936,7 @@ events
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8970,7 +8970,7 @@ AddRef
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9122,7 +9122,7 @@ references
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9661,7 +9661,7 @@ scriptBlocker
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9821,7 +9821,7 @@ fixed
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10163,7 +10163,7 @@ changed
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10251,7 +10251,7 @@ in
 elements
 too
 .
-PRUint32
+uint32_t
 length
 =
 mControls
@@ -10265,7 +10265,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10332,7 +10332,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aStateFlags
 nsresult
 aStatus
@@ -10429,13 +10429,13 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRInt32
+int32_t
 aCurSelfProgress
-PRInt32
+int32_t
 aMaxSelfProgress
-PRInt32
+int32_t
 aCurTotalProgress
-PRInt32
+int32_t
 aMaxTotalProgress
 )
 {
@@ -10473,7 +10473,7 @@ aRequest
 nsIURI
 *
 location
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -10547,7 +10547,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 state
 )
 {
@@ -10572,7 +10572,7 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-PRInt32
+int32_t
 )
 nsHTMLFormElement
 :
@@ -10584,7 +10584,7 @@ nsIFormControl
 aControl
 )
 {
-PRInt32
+int32_t
 index
 =
 0
@@ -10798,7 +10798,7 @@ button
 "
 )
 ;
-PRInt32
+int32_t
 index
 =
 radioGroup
@@ -10820,7 +10820,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRUint32
+uint32_t
 numRadios
 ;
 radioGroup
@@ -10882,7 +10882,7 @@ index
 >
 =
 (
-PRInt32
+int32_t
 )
 numRadios
 )
@@ -11050,7 +11050,7 @@ nsIFormControl
 >
 control
 ;
-PRUint32
+uint32_t
 len
 =
 GetElementCount
@@ -11059,7 +11059,7 @@ GetElementCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -11264,7 +11264,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 length
 =
 0
@@ -11280,7 +11280,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -11486,7 +11486,7 @@ required
 )
 )
 {
-PRUint32
+uint32_t
 requiredNb
 =
 mRequiredRadioButtonCounts
@@ -11547,7 +11547,7 @@ requiredNb
 }
 }
 }
-PRUint32
+uint32_t
 nsHTMLFormElement
 :
 :
@@ -11643,7 +11643,7 @@ aName
 }
 else
 {
-PRUint32
+uint32_t
 requiredNb
 =
 mRequiredRadioButtonCounts
@@ -12003,7 +12003,7 @@ refcounting
 here
 for
 (
-PRInt32
+int32_t
 i
 =
 mElements
@@ -12044,7 +12044,7 @@ Clear
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 mNotInElements
@@ -12262,7 +12262,7 @@ nsFormControlList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -12290,7 +12290,7 @@ nsFormControlList
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMNode
 *
@@ -13112,12 +13112,12 @@ possible
 /
 insertion
 index
-PRUint32
+uint32_t
 first
 =
 0
 ;
-PRUint32
+uint32_t
 last
 =
 list
@@ -13129,7 +13129,7 @@ Length
 -
 1
 ;
-PRUint32
+uint32_t
 mid
 ;
 /
@@ -13215,7 +13215,7 @@ IndexOfControl
 nsIFormControl
 *
 aControl
-PRInt32
+int32_t
 *
 aIndex
 )
@@ -13420,7 +13420,7 @@ RemoveElement
 aChild
 )
 ;
-PRUint32
+uint32_t
 length
 =
 0
@@ -13588,7 +13588,7 @@ are
 already
 sorted
 .
-PRUint32
+uint32_t
 elementsLen
 =
 mElements
@@ -13597,7 +13597,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 notInElementsLen
 =
 mNotInElements
@@ -13615,12 +13615,12 @@ elementsLen
 notInElementsLen
 )
 ;
-PRUint32
+uint32_t
 elementsIdx
 =
 0
 ;
-PRUint32
+uint32_t
 notInElementsIdx
 =
 0
@@ -13947,7 +13947,7 @@ nsFormControlList
 :
 GetNodeAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {

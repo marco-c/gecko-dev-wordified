@@ -1102,7 +1102,7 @@ siblingCollector
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1219,7 +1219,7 @@ eRestyle_LaterSiblings
 bits
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1327,7 +1327,7 @@ mHaveLaterSiblingRestyles
 false
 ;
 }
-PRUint32
+uint32_t
 rootCount
 ;
 while

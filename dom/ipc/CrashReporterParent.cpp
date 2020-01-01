@@ -205,7 +205,7 @@ MOZ_CRASHREPORTER
 )
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -404,7 +404,7 @@ NativeThreadId
 &
 tid
 const
-PRUint32
+uint32_t
 &
 processType
 )

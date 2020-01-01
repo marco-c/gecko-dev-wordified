@@ -990,7 +990,7 @@ sourceLine
 nsXPIDLCString
 category
 ;
-PRUint32
+uint32_t
 lineNum
 colNum
 flags
@@ -1183,7 +1183,7 @@ ContentChild
 :
 mID
 (
-PRUint64
+uint64_t
 (
 -
 1
@@ -1652,11 +1652,11 @@ const
 nsACString
 &
 aPath
-PRInt32
+int32_t
 aKind
-PRInt32
+int32_t
 aUnits
-PRInt64
+int64_t
 aAmount
 const
 nsACString
@@ -1847,13 +1847,13 @@ r
 nsCString
 path
 ;
-PRInt32
+int32_t
 kind
 ;
-PRInt32
+int32_t
 units
 ;
-PRInt64
+int64_t
 amount
 ;
 nsCString
@@ -2128,7 +2128,7 @@ ContentChild
 AllocPBrowser
 (
 const
-PRUint32
+uint32_t
 &
 aChromeFlags
 const
@@ -2141,7 +2141,7 @@ AppId
 aApp
 )
 {
-PRUint32
+uint32_t
 appId
 =
 aApp
@@ -2485,7 +2485,7 @@ rv
 nullptr
 )
 ;
-PRUint64
+uint64_t
 length
 ;
 rv
@@ -2646,7 +2646,7 @@ NativeThreadId
 &
 id
 const
-PRUint32
+uint32_t
 &
 processType
 )
@@ -2831,15 +2831,15 @@ ContentChild
 AllocPAudio
 (
 const
-PRInt32
+int32_t
 &
 numChannels
 const
-PRInt32
+int32_t
 &
 rate
 const
-PRInt32
+int32_t
 &
 format
 )
@@ -3015,7 +3015,7 @@ bool
 &
 aForceSave
 const
-PRInt64
+int64_t
 &
 aContentLength
 const
@@ -3634,7 +3634,7 @@ aData
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3879,7 +3879,7 @@ IsEmpty
 )
 )
 {
-PRUint32
+uint32_t
 length
 =
 blobChildList
@@ -3901,7 +3901,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4447,7 +4447,7 @@ ContentChild
 RecvSetID
 (
 const
-PRUint64
+uint64_t
 &
 id
 )
@@ -4457,7 +4457,7 @@ if
 mID
 !
 =
-PRUint64
+uint64_t
 (
 -
 1
@@ -4629,7 +4629,7 @@ nsString
 &
 aName
 const
-PRInt32
+int32_t
 &
 aState
 )

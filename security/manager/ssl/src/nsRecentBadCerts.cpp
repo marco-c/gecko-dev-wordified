@@ -691,7 +691,7 @@ tempItem
 .
 len
 (
-PRUint8
+uint8_t
 *
 *
 )

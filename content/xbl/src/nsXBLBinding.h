@@ -557,7 +557,7 @@ nsIAtom
 *
 GetBaseTag
 (
-PRInt32
+int32_t
 *
 aNameSpaceID
 )
@@ -697,7 +697,7 @@ const
 nsIContent
 *
 aChild
-PRUint32
+uint32_t
 *
 aIndex
 )
@@ -706,7 +706,7 @@ nsIContent
 *
 GetSingleInsertionPoint
 (
-PRUint32
+uint32_t
 *
 aIndex
 bool
@@ -720,7 +720,7 @@ AttributeChanged
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aNameSpaceID
 bool
 aRemoveFlag

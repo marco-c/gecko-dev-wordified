@@ -450,7 +450,7 @@ nsIThreadInternal
 aThread
 bool
 aMayWait
-PRUint32
+uint32_t
 aRecursionDepth
 )
 ;
@@ -460,7 +460,7 @@ AfterProcessNextEvent
 nsIThreadInternal
 *
 aThread
-PRUint32
+uint32_t
 aRecursionDepth
 )
 ;
@@ -565,7 +565,7 @@ ProcessNextNativeEvent
 (
 )
 .
-PRUint32
+uint32_t
 mHadMoreEventsCount
 ;
 /
@@ -651,15 +651,15 @@ bug
 .
 static
 const
-PRUint32
+uint32_t
 kHadMoreEventsCountMax
 =
 3
 ;
-PRInt32
+int32_t
 mRecursionDepth
 ;
-PRInt32
+int32_t
 mNativeEventCallbackDepth
 ;
 /
@@ -675,7 +675,7 @@ must
 be
 modified
 atomically
-PRInt32
+int32_t
 mNativeEventScheduledDepth
 ;
 }

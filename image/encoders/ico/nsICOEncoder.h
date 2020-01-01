@@ -210,7 +210,7 @@ the
 icon
 directory
 entry
-PRUint32
+uint32_t
 GetRealWidth
 (
 )
@@ -241,7 +241,7 @@ the
 icon
 directory
 entry
-PRUint32
+uint32_t
 GetRealHeight
 (
 )
@@ -271,7 +271,7 @@ const
 nsAString
 &
 aOptions
-PRUint32
+uint32_t
 *
 bpp
 bool
@@ -309,11 +309,11 @@ mICODirEntry
 void
 InitInfoHeader
 (
-PRUint32
+uint32_t
 aBPP
-PRUint8
+uint8_t
 aWidth
-PRUint8
+uint8_t
 aHeight
 )
 ;
@@ -358,7 +358,7 @@ the
 image
 buffer
 inline
-PRInt32
+int32_t
 GetCurrentImageBufferOffset
 (
 )
@@ -366,7 +366,7 @@ GetCurrentImageBufferOffset
 return
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 mImageBufferCurr
@@ -478,7 +478,7 @@ of
 the
 image
 buffer
-PRUint8
+uint8_t
 *
 mImageBufferStart
 ;
@@ -494,7 +494,7 @@ in
 the
 image
 buffer
-PRUint8
+uint8_t
 *
 mImageBufferCurr
 ;
@@ -507,7 +507,7 @@ the
 image
 buffer
 size
-PRUint32
+uint32_t
 mImageBufferSize
 ;
 /
@@ -526,7 +526,7 @@ buffer
 which
 are
 read
-PRUint32
+uint32_t
 mImageBufferReadPoint
 ;
 /
@@ -569,7 +569,7 @@ nsIEventTarget
 >
 mCallbackTarget
 ;
-PRUint32
+uint32_t
 mNotifyThreshold
 ;
 }

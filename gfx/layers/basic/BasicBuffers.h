@@ -225,7 +225,7 @@ const
 nsIntSize
 &
 aSize
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -746,7 +746,7 @@ ContentType
 const
 nsIntSize
 &
-PRUint32
+uint32_t
 )
 {
 NS_RUNTIMEABORT

@@ -299,7 +299,7 @@ const
 nsPoint
 &
 aPt
-PRUint32
+uint32_t
 aBGPaintFlags
 )
 ;
@@ -1291,7 +1291,7 @@ of
 columns
 '
 ColData
-PRUint32
+uint32_t
 mNumCols
 ;
 TableBackgroundData
@@ -1329,7 +1329,7 @@ zero
 -
 width
 border
-PRUint32
+uint32_t
 mBGPaintFlags
 ;
 }

@@ -147,7 +147,7 @@ const
 char
 *
 aString
-PRInt32
+int32_t
 aLength
 )
 {
@@ -166,7 +166,7 @@ MakeTextRun
 reinterpret_cast
 <
 const
-PRUint8
+uint8_t
 *
 >
 (
@@ -204,7 +204,7 @@ const
 PRUnichar
 *
 aString
-PRInt32
+int32_t
 aLength
 )
 {
@@ -266,7 +266,7 @@ mTextRun
 private
 :
 static
-PRUint32
+uint32_t
 ComputeFlags
 (
 nsFontMetrics
@@ -274,7 +274,7 @@ nsFontMetrics
 aMetrics
 )
 {
-PRUint32
+uint32_t
 flags
 =
 0
@@ -325,9 +325,9 @@ virtual
 void
 GetHyphenationBreaks
 (
-PRUint32
+uint32_t
 aStart
-PRUint32
+uint32_t
 aLength
 bool
 *
@@ -353,7 +353,7 @@ BreakAndMeasureText
 ;
 }
 virtual
-PRInt8
+int8_t
 GetHyphensOption
 (
 )
@@ -410,9 +410,9 @@ virtual
 void
 GetSpacing
 (
-PRUint32
+uint32_t
 aStart
-PRUint32
+uint32_t
 aLength
 Spacing
 *
@@ -1222,7 +1222,7 @@ spaceWidth
 )
 ;
 }
-PRInt32
+int32_t
 nsFontMetrics
 :
 :
@@ -1254,11 +1254,11 @@ m
 .
 maxAdvance
 ;
-PRInt32
+int32_t
 len
 =
 (
-PRInt32
+int32_t
 )
 floor
 (
@@ -1283,7 +1283,7 @@ const
 char
 *
 aString
-PRUint32
+uint32_t
 aLength
 nsRenderingContext
 *
@@ -1368,7 +1368,7 @@ const
 PRUnichar
 *
 aString
-PRUint32
+uint32_t
 aLength
 nsRenderingContext
 *
@@ -1468,7 +1468,7 @@ const
 char
 *
 aString
-PRUint32
+uint32_t
 aLength
 nscoord
 aX
@@ -1577,7 +1577,7 @@ const
 PRUnichar
 *
 aString
-PRUint32
+uint32_t
 aLength
 nscoord
 aX
@@ -1690,7 +1690,7 @@ const
 PRUnichar
 *
 aString
-PRUint32
+uint32_t
 aLength
 nsRenderingContext
 *
@@ -1849,7 +1849,7 @@ const
 PRUnichar
 *
 aString
-PRUint32
+uint32_t
 aLength
 nsRenderingContext
 *
@@ -1880,7 +1880,7 @@ const
 PRUnichar
 *
 aString
-PRUint32
+uint32_t
 aLength
 nsRenderingContext
 *

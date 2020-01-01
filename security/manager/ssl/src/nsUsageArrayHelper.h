@@ -97,12 +97,12 @@ char
 suffix
 bool
 localOnly
-PRUint32
+uint32_t
 outArraySize
-PRUint32
+uint32_t
 *
 _verified
-PRUint32
+uint32_t
 *
 _count
 PRUnichar
@@ -146,7 +146,7 @@ char
 suffix
 SECCertificateUsage
 aCertUsage
-PRUint32
+uint32_t
 &
 aCounter
 PRUnichar
@@ -158,7 +158,7 @@ outUsages
 void
 verifyFailed
 (
-PRUint32
+uint32_t
 *
 _verified
 int

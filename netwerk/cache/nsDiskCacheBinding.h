@@ -418,7 +418,7 @@ stored
 in
 cache
 map
-PRUint8
+uint8_t
 mGeneration
 ;
 /
@@ -1050,7 +1050,7 @@ nsDiskCacheBinding
 *
 FindActiveBinding
 (
-PRUint32
+uint32_t
 hashNumber
 )
 ;

@@ -387,7 +387,7 @@ PRUnichar
 aTitle
 nsHeaderFooterEnum
 aType
-PRInt16
+int16_t
 aJust
 )
 ;
@@ -400,7 +400,7 @@ PRUnichar
 aTitle
 nsHeaderFooterEnum
 aType
-PRInt16
+int16_t
 aJust
 )
 ;
@@ -439,7 +439,7 @@ mEdge
 nsIntMargin
 mUnwriteableMargin
 ;
-PRInt32
+int32_t
 mPrintOptions
 ;
 /
@@ -447,10 +447,10 @@ mPrintOptions
 scriptable
 data
 members
-PRInt16
+int16_t
 mPrintRange
 ;
-PRInt32
+int32_t
 mStartPageNum
 ;
 /
@@ -459,7 +459,7 @@ only
 used
 for
 ePrintRange_SpecifiedRange
-PRInt32
+int32_t
 mEndPageNum
 ;
 double
@@ -481,13 +481,13 @@ mPrintBGImages
 print
 background
 images
-PRInt16
+int16_t
 mPrintFrameTypeUsage
 ;
-PRInt16
+int16_t
 mPrintFrameType
 ;
-PRInt16
+int16_t
 mHowToEnableFrameUI
 ;
 bool
@@ -505,7 +505,7 @@ mShrinkToFit
 bool
 mShowPrintProgress
 ;
-PRInt32
+int32_t
 mPrintPageDelay
 ;
 nsString
@@ -535,10 +535,10 @@ mPaperName
 nsString
 mPlexName
 ;
-PRInt16
+int16_t
 mPaperData
 ;
-PRInt16
+int16_t
 mPaperSizeType
 ;
 double
@@ -547,7 +547,7 @@ mPaperWidth
 double
 mPaperHeight
 ;
-PRInt16
+int16_t
 mPaperSizeUnit
 ;
 bool
@@ -562,7 +562,7 @@ a
 false
 means
 grayscale
-PRInt32
+int32_t
 mOrientation
 ;
 /
@@ -582,7 +582,7 @@ mDownloadFonts
 nsString
 mPrintCommand
 ;
-PRInt32
+int32_t
 mNumCopies
 ;
 nsXPIDLString
@@ -594,7 +594,7 @@ mPrintToFile
 nsString
 mToFileName
 ;
-PRInt16
+int16_t
 mOutputFormat
 ;
 bool

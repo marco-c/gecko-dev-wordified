@@ -433,7 +433,7 @@ Click
 NS_IMETHOD
 GetTabIndex
 (
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -441,7 +441,7 @@ aTabIndex
 NS_IMETHOD
 SetTabIndex
 (
-PRInt32
+int32_t
 aTabIndex
 )
 ;
@@ -551,7 +551,7 @@ nsIFormControl
 methods
 NS_IMETHOD_
 (
-PRUint32
+uint32_t
 )
 GetType
 (
@@ -615,7 +615,7 @@ aWithMouse
 bool
 *
 aIsFocusable
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -624,7 +624,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -646,7 +646,7 @@ const
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 const
@@ -781,7 +781,7 @@ const
 ;
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 GetCols
 (
@@ -789,7 +789,7 @@ GetCols
 ;
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 GetWrapCols
 (
@@ -797,7 +797,7 @@ GetWrapCols
 ;
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 GetRows
 (
@@ -1662,7 +1662,7 @@ ignored
 .
 *
 /
-PRInt32
+int32_t
 GetFilterFromAccept
 (
 )
@@ -2250,10 +2250,10 @@ aShouldInvalidate
 nsresult
 GetSelectionRange
 (
-PRInt32
+int32_t
 *
 aSelectionStart
-PRInt32
+int32_t
 *
 aSelectionEnd
 )
@@ -2277,7 +2277,7 @@ virtual
 nsresult
 BeforeSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -2308,7 +2308,7 @@ virtual
 nsresult
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -2999,7 +2999,7 @@ changes
 void
 HandleTypeChange
 (
-PRUint8
+uint8_t
 aNewType
 )
 ;
@@ -3683,7 +3683,7 @@ value
 nsresult
 ApplyStep
 (
-PRInt32
+int32_t
 aStep
 )
 ;
@@ -4121,7 +4121,7 @@ NS_FORM_INPUT_
 )
 *
 /
-PRUint8
+uint8_t
 mType
 ;
 bool
@@ -4215,7 +4215,7 @@ false
 }
 nsFilePickerFilter
 (
-PRInt32
+int32_t
 aFilterMask
 )
 :
@@ -4380,7 +4380,7 @@ values
 defined
 in
 nsIFilePicker
-PRInt32
+int32_t
 mFilterMask
 ;
 /
@@ -4558,7 +4558,7 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 Done
 (
-PRInt16
+int16_t
 aResult
 )
 ;

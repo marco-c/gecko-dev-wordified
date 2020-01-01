@@ -1500,7 +1500,7 @@ if
 aContentType
 )
 {
-PRUint32
+uint32_t
 canHandle
 =
 nsIWebNavigationInfo

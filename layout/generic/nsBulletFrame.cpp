@@ -1126,7 +1126,7 @@ GetStyleList
 (
 )
 ;
-PRUint8
+uint8_t
 listStyleType
 =
 myList
@@ -1147,7 +1147,7 @@ GetListStyleImage
 mImageRequest
 )
 {
-PRUint32
+uint32_t
 status
 ;
 mImageRequest
@@ -1805,13 +1805,13 @@ break
 ;
 }
 }
-PRInt32
+int32_t
 nsBulletFrame
 :
 :
 SetListItemOrdinal
 (
-PRInt32
+int32_t
 aNextOrdinal
 bool
 *
@@ -1828,7 +1828,7 @@ comes
 from
 the
 caller
-PRInt32
+int32_t
 oldOrdinal
 =
 mOrdinal
@@ -2045,7 +2045,7 @@ static
 bool
 DecimalToText
 (
-PRInt32
+int32_t
 ordinal
 nsString
 &
@@ -2087,7 +2087,7 @@ static
 bool
 DecimalLeadingZeroToText
 (
-PRInt32
+int32_t
 ordinal
 nsString
 &
@@ -2129,7 +2129,7 @@ static
 bool
 OtherDecimalToText
 (
-PRInt32
+int32_t
 ordinal
 PRUnichar
 zeroChar
@@ -2216,7 +2216,7 @@ static
 bool
 TamilToText
 (
-PRInt32
+int32_t
 ordinal
 nsString
 &
@@ -2365,7 +2365,7 @@ static
 bool
 RomanToText
 (
-PRInt32
+int32_t
 ordinal
 nsString
 &
@@ -3924,7 +3924,7 @@ static
 bool
 CharListToText
 (
-PRInt32
+int32_t
 ordinal
 nsString
 &
@@ -3933,7 +3933,7 @@ const
 PRUnichar
 *
 chars
-PRInt32
+int32_t
 aBase
 )
 {
@@ -3943,7 +3943,7 @@ buf
 NUM_BUF_SIZE
 ]
 ;
-PRInt32
+int32_t
 idx
 =
 NUM_BUF_SIZE
@@ -3977,7 +3977,7 @@ a
 =
 =
 0
-PRInt32
+int32_t
 cur
 =
 ordinal
@@ -4198,7 +4198,7 @@ const
 bool
 CJKIdeographicToText
 (
-PRInt32
+int32_t
 ordinal
 nsString
 &
@@ -4241,7 +4241,7 @@ than
 the
 max
 of
-PRUint32
+uint32_t
 /
 /
 so
@@ -4333,7 +4333,7 @@ cDigit
 =
 0
 ;
-PRUint32
+uint32_t
 ud
 =
 0
@@ -4344,7 +4344,7 @@ buf
 NUM_BUF_SIZE
 ]
 ;
-PRInt32
+int32_t
 idx
 =
 NUM_BUF_SIZE
@@ -4383,7 +4383,7 @@ ud
 ]
 ;
 }
-PRInt32
+int32_t
 cur
 =
 ordinal
@@ -4640,7 +4640,7 @@ static
 bool
 HebrewToText
 (
-PRInt32
+int32_t
 ordinal
 nsString
 &
@@ -4686,7 +4686,7 @@ Truncate
 (
 )
 ;
-PRInt32
+int32_t
 n3
 =
 ordinal
@@ -4703,7 +4703,7 @@ for
 900
 for
 (
-PRInt32
+int32_t
 n1
 =
 400
@@ -4769,7 +4769,7 @@ for
 10
 -
 90
-PRInt32
+int32_t
 n2
 ;
 if
@@ -4994,7 +4994,7 @@ static
 bool
 ArmenianToText
 (
-PRInt32
+int32_t
 ordinal
 nsString
 &
@@ -5040,19 +5040,19 @@ buf
 NUM_BUF_SIZE
 ]
 ;
-PRInt32
+int32_t
 idx
 =
 NUM_BUF_SIZE
 ;
-PRInt32
+int32_t
 d
 =
 0
 ;
 do
 {
-PRInt32
+int32_t
 cur
 =
 ordinal
@@ -5230,7 +5230,7 @@ static
 bool
 GeorgianToText
 (
-PRInt32
+int32_t
 ordinal
 nsString
 &
@@ -5276,19 +5276,19 @@ buf
 NUM_BUF_SIZE
 ]
 ;
-PRInt32
+int32_t
 idx
 =
 NUM_BUF_SIZE
 ;
-PRInt32
+int32_t
 d
 =
 0
 ;
 do
 {
-PRInt32
+int32_t
 cur
 =
 ordinal
@@ -5454,7 +5454,7 @@ static
 bool
 EthiopicToText
 (
-PRInt32
+int32_t
 ordinal
 nsString
 &
@@ -5495,7 +5495,7 @@ return
 false
 ;
 }
-PRUint8
+uint8_t
 asciiStringLength
 =
 asciiNumberString
@@ -5640,7 +5640,7 @@ significant
 )
 for
 (
-PRUint8
+uint8_t
 indexFromLeft
 =
 0
@@ -5665,7 +5665,7 @@ groupIndexFromRight
 -
 )
 {
-PRUint8
+uint8_t
 tensValue
 =
 asciiNumberString
@@ -5677,7 +5677,7 @@ indexFromLeft
 &
 0x0F
 ;
-PRUint8
+uint8_t
 unitsValue
 =
 asciiNumberString
@@ -5691,7 +5691,7 @@ indexFromLeft
 &
 0x0F
 ;
-PRUint8
+uint8_t
 groupValue
 =
 tensValue
@@ -5918,9 +5918,9 @@ nsBulletFrame
 :
 AppendCounterText
 (
-PRInt32
+int32_t
 aListStyleType
-PRInt32
+int32_t
 aOrdinal
 nsString
 &
@@ -7057,7 +7057,7 @@ GetListStyleImage
 mImageRequest
 )
 {
-PRUint32
+uint32_t
 status
 ;
 mImageRequest
@@ -7926,7 +7926,7 @@ aRequest
 return
 NS_ERROR_INVALID_ARG
 ;
-PRUint32
+uint32_t
 status
 ;
 aRequest

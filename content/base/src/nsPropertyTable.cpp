@@ -860,7 +860,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-PRUint32
+uint32_t
 aNumber
 void
 *
@@ -1750,7 +1750,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *

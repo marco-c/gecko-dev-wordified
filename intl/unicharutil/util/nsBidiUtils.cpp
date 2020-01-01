@@ -172,7 +172,7 @@ c
 )
 -
 (
-PRUint16
+uint16_t
 )
 ARABIC_TO_HINDI_DIGIT_INCREMENT
 )
@@ -207,7 +207,7 @@ c
 )
 -
 (
-PRUint16
+uint16_t
 )
 ARABIC_TO_PERSIAN_DIGIT_INCREMENT
 )
@@ -254,7 +254,7 @@ c
 )
 +
 (
-PRUint16
+uint16_t
 )
 ARABIC_TO_HINDI_DIGIT_INCREMENT
 )
@@ -289,7 +289,7 @@ c
 )
 +
 (
-PRUint16
+uint16_t
 )
 PERSIAN_TO_HINDI_DIGIT_INCREMENT
 )
@@ -336,7 +336,7 @@ c
 )
 -
 (
-PRUint16
+uint16_t
 )
 PERSIAN_TO_HINDI_DIGIT_INCREMENT
 )
@@ -371,7 +371,7 @@ c
 )
 +
 (
-PRUint16
+uint16_t
 )
 ARABIC_TO_PERSIAN_DIGIT_INCREMENT
 )
@@ -389,7 +389,7 @@ PRUnichar
 aChar
 bool
 aPrevCharArabic
-PRUint32
+uint32_t
 aNumFlag
 )
 {
@@ -518,13 +518,13 @@ HandleNumbers
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aSize
-PRUint32
+uint32_t
 aNumFlag
 )
 {
-PRUint32
+uint32_t
 i
 ;
 switch
@@ -623,7 +623,7 @@ RLO_CHAR
 bool
 IsBidiControl
 (
-PRUint32
+uint32_t
 aChar
 )
 {
@@ -763,7 +763,7 @@ isn
 t
 needed
 .
-PRInt32
+int32_t
 length
 =
 aString
@@ -774,7 +774,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

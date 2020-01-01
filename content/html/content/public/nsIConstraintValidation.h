@@ -228,7 +228,7 @@ nsDOMValidityState
 ;
 static
 const
-PRUint16
+uint16_t
 sContentSpecifiedMaxLengthMessage
 ;
 virtual
@@ -448,7 +448,7 @@ valid
 .
 *
 /
-PRInt8
+int8_t
 mValidityBitField
 ;
 /

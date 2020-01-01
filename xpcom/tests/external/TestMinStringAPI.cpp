@@ -184,7 +184,7 @@ char
 *
 ptr
 ;
-PRUint32
+uint32_t
 len
 ;
 char
@@ -452,7 +452,7 @@ PRUnichar
 *
 ptr
 ;
-PRUint32
+uint32_t
 len
 ;
 PRUnichar
@@ -906,7 +906,7 @@ mp
 *
 np
 ;
-PRUint32
+uint32_t
 sl
 ml
 nl
@@ -974,7 +974,7 @@ ml
 0
 )
 {
-PRUint32
+uint32_t
 offset
 =
 iter
@@ -1290,12 +1290,12 @@ char
 *
 p
 ;
-PRInt32
+int32_t
 i
 len
 =
 (
-PRInt32
+int32_t
 )
 NS_CStringGetData
 (
@@ -1359,7 +1359,7 @@ i
 len
 =
 (
-PRInt32
+int32_t
 )
 NS_CStringGetData
 (
@@ -1634,7 +1634,7 @@ char
 *
 sd
 ;
-PRUint32
+uint32_t
 len
 =
 NS_CStringGetData
@@ -1868,7 +1868,7 @@ char
 *
 sd
 ;
-PRUint32
+uint32_t
 len
 =
 NS_CStringGetData
@@ -1947,7 +1947,7 @@ char
 *
 buf
 ;
-PRUint32
+uint32_t
 len
 =
 NS_CStringGetMutableData
@@ -2018,7 +2018,7 @@ kText
 return
 false
 ;
-PRUint32
+uint32_t
 newLen
 =
 len
@@ -2612,7 +2612,7 @@ Bye
 !
 "
 ;
-PRInt32
+int32_t
 found
 ;
 found

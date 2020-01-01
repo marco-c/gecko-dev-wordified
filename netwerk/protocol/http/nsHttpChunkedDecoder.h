@@ -189,12 +189,12 @@ HandleChunkedContent
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 contentRead
-PRUint32
+uint32_t
 *
 contentRemaining
 )
@@ -229,7 +229,7 @@ return
 h
 ;
 }
-PRUint32
+uint32_t
 GetChunkRemaining
 (
 )
@@ -246,9 +246,9 @@ ParseChunkRemaining
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countRead
 )
@@ -259,7 +259,7 @@ nsHttpHeaderArray
 *
 mTrailers
 ;
-PRUint32
+uint32_t
 mChunkRemaining
 ;
 nsCString

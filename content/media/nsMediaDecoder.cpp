@@ -158,7 +158,7 @@ by
 spec
 static
 const
-PRUint32
+uint32_t
 PROGRESS_MS
 =
 350
@@ -183,7 +183,7 @@ by
 spec
 static
 const
-PRUint32
+uint32_t
 STALL_MS
 =
 3000
@@ -266,7 +266,7 @@ bitrates
 .
 static
 const
-PRInt64
+int64_t
 CAN_PLAY_THROUGH_MARGIN
 =
 10
@@ -395,7 +395,7 @@ nsMediaDecoder
 :
 RequestFrameBufferLength
 (
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -848,7 +848,7 @@ return
 false
 ;
 }
-PRInt64
+int64_t
 bytesToDownload
 =
 stats
@@ -859,7 +859,7 @@ stats
 .
 mDownloadPosition
 ;
-PRInt64
+int64_t
 bytesToPlayback
 =
 stats
@@ -1034,12 +1034,12 @@ data
 is
 downloaded
 .
-PRInt64
+int64_t
 readAheadMargin
 =
 static_cast
 <
-PRInt64
+int64_t
 >
 (
 stats

@@ -150,7 +150,7 @@ nsSubstring
 &
 aName
 const
-PRInt32
+int32_t
 aNsID
 )
 ;

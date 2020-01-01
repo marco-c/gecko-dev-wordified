@@ -203,11 +203,11 @@ bool
 RecvNotifyStateEvent
 (
 const
-PRUint32
+uint32_t
 &
 stateEvent
 const
-PRUint64
+uint64_t
 &
 byteProgress
 )
@@ -402,7 +402,7 @@ nsIDOMWindow
 >
 mWindow
 ;
-PRUint64
+uint64_t
 mByteProgress
 ;
 }

@@ -386,8 +386,8 @@ char_type
 const
 char_type
 *
-PRUint32
-PRUint32
+uint32_t
+uint32_t
 )
 const
 ;

@@ -355,9 +355,9 @@ virtual
 nsresult
 GetFeatureStatusImpl
 (
-PRInt32
+int32_t
 aFeature
-PRInt32
+int32_t
 *
 aStatus
 nsAString

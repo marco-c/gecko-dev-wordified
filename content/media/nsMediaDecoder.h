@@ -224,7 +224,7 @@ channels
 .
 static
 const
-PRUint32
+uint32_t
 FRAMEBUFFER_LENGTH_PER_CHANNEL
 =
 1024
@@ -253,14 +253,14 @@ range
 .
 static
 const
-PRUint32
+uint32_t
 FRAMEBUFFER_LENGTH_MIN
 =
 512
 ;
 static
 const
-PRUint32
+uint32_t
 FRAMEBUFFER_LENGTH_MAX
 =
 16384
@@ -1154,7 +1154,7 @@ bytes
 if
 not
 known
-PRInt64
+int64_t
 mTotalBytes
 ;
 /
@@ -1183,7 +1183,7 @@ the
 decoder
 position
 .
-PRInt64
+int64_t
 mDownloadPosition
 ;
 /
@@ -1206,7 +1206,7 @@ has
 been
 consumed
 )
-PRInt64
+int64_t
 mDecoderPosition
 ;
 /
@@ -1217,7 +1217,7 @@ of
 playback
 in
 bytes
-PRInt64
+int64_t
 mPlaybackPosition
 ;
 /
@@ -1356,7 +1356,7 @@ on
 any
 thread
 .
-PRUint32
+uint32_t
 GetParsedFrames
 (
 )
@@ -1396,7 +1396,7 @@ on
 any
 thread
 .
-PRUint32
+uint32_t
 GetDecodedFrames
 (
 )
@@ -1449,7 +1449,7 @@ on
 any
 thread
 .
-PRUint32
+uint32_t
 GetPresentedFrames
 (
 )
@@ -1494,9 +1494,9 @@ thread
 void
 NotifyDecodedFrames
 (
-PRUint32
+uint32_t
 aParsed
-PRUint32
+uint32_t
 aDecoded
 )
 {
@@ -1604,7 +1604,7 @@ protected
 by
 mStatsReentrantMonitor
 .
-PRUint32
+uint32_t
 mParsedFrames
 ;
 /
@@ -1625,7 +1625,7 @@ protected
 by
 mStatsReentrantMonitor
 .
-PRUint32
+uint32_t
 mDecodedFrames
 ;
 /
@@ -1658,7 +1658,7 @@ protected
 by
 mStatsReentrantMonitor
 .
-PRUint32
+uint32_t
 mPresentedFrames
 ;
 }
@@ -1716,10 +1716,10 @@ AutoNotifyDecoded
 nsMediaDecoder
 *
 aDecoder
-PRUint32
+uint32_t
 &
 aParsed
-PRUint32
+uint32_t
 &
 aDecoded
 )
@@ -1763,11 +1763,11 @@ nsMediaDecoder
 *
 mDecoder
 ;
-PRUint32
+uint32_t
 &
 mParsed
 ;
-PRUint32
+uint32_t
 &
 mDecoded
 ;
@@ -2304,9 +2304,9 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
-PRInt64
+int64_t
 aOffset
 )
 =
@@ -2557,7 +2557,7 @@ in
 MozAudioAvailable
 events
 .
-PRUint32
+uint32_t
 GetFrameBufferLength
 (
 )
@@ -2595,7 +2595,7 @@ virtual
 nsresult
 RequestFrameBufferLength
 (
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -2762,7 +2762,7 @@ audio
 data
 .
 virtual
-PRInt64
+int64_t
 VideoQueueMemoryInUse
 (
 )
@@ -2770,7 +2770,7 @@ VideoQueueMemoryInUse
 0
 ;
 virtual
-PRInt64
+int64_t
 AudioQueueMemoryInUse
 (
 )
@@ -3066,7 +3066,7 @@ for
 audioavailable
 events
 .
-PRUint32
+uint32_t
 mFrameBufferLength
 ;
 /
@@ -3296,7 +3296,7 @@ nullptr
 }
 }
 static
-PRInt64
+int64_t
 GetDecodedVideoMemory
 (
 )
@@ -3309,7 +3309,7 @@ Decoders
 (
 )
 ;
-PRInt64
+int64_t
 result
 =
 0
@@ -3353,7 +3353,7 @@ result
 ;
 }
 static
-PRInt64
+int64_t
 GetDecodedAudioMemory
 (
 )
@@ -3366,7 +3366,7 @@ Decoders
 (
 )
 ;
-PRInt64
+int64_t
 result
 =
 0

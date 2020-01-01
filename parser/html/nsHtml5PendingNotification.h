@@ -164,7 +164,7 @@ inline
 bool
 HaveNotifiedIndex
 (
-PRUint32
+uint32_t
 index
 )
 {
@@ -201,7 +201,7 @@ notification
 deferring
 *
 /
-PRUint32
+uint32_t
 mChildCount
 ;
 }

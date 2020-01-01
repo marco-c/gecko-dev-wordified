@@ -298,12 +298,12 @@ eInputElementTypesMax
 PR_STATIC_ASSERT
 (
 (
-PRUint32
+uint32_t
 )
 eFormControlsWithoutSubTypesMax
 <
 (
-PRUint32
+uint32_t
 )
 NS_FORM_BUTTON_ELEMENT
 )
@@ -311,12 +311,12 @@ NS_FORM_BUTTON_ELEMENT
 PR_STATIC_ASSERT
 (
 (
-PRUint32
+uint32_t
 )
 eButtonElementTypesMax
 <
 (
-PRUint32
+uint32_t
 )
 NS_FORM_INPUT_ELEMENT
 )
@@ -324,7 +324,7 @@ NS_FORM_INPUT_ELEMENT
 PR_STATIC_ASSERT
 (
 (
-PRUint32
+uint32_t
 )
 eInputElementTypesMax
 <
@@ -601,7 +601,7 @@ control
 /
 NS_IMETHOD_
 (
-PRUint32
+uint32_t
 )
 GetType
 (
@@ -1082,7 +1082,7 @@ IsSingleLineTextControl
 (
 bool
 aExcludePassword
-PRUint32
+uint32_t
 aType
 )
 ;
@@ -1133,7 +1133,7 @@ IsSubmitControl
 )
 const
 {
-PRUint32
+uint32_t
 type
 =
 GetType
@@ -1170,7 +1170,7 @@ aExcludePassword
 )
 const
 {
-PRUint32
+uint32_t
 type
 =
 GetType
@@ -1225,7 +1225,7 @@ IsSingleLineTextControl
 (
 bool
 aExcludePassword
-PRUint32
+uint32_t
 aType
 )
 {
@@ -1314,7 +1314,7 @@ see
 bug
 101019
 .
-PRUint32
+uint32_t
 type
 =
 GetType
@@ -1367,7 +1367,7 @@ AllowDraggableChildren
 )
 const
 {
-PRUint32
+uint32_t
 type
 =
 GetType
@@ -1408,7 +1408,7 @@ IsAutofocusable
 )
 const
 {
-PRUint32
+uint32_t
 type
 =
 GetType

@@ -313,7 +313,7 @@ nsUTF8ToUnicode
 ;
 protected
 :
-PRUint32
+uint32_t
 mUcs4
 ;
 /
@@ -321,7 +321,7 @@ mUcs4
 cached
 Unicode
 character
-PRUint8
+uint8_t
 mState
 ;
 /
@@ -335,7 +335,7 @@ per
 UTF8
 character
 sequence
-PRUint8
+uint8_t
 mBytes
 ;
 bool
@@ -427,9 +427,9 @@ const
 char
 *
 aSrc
-PRInt32
+int32_t
 aSrcLength
-PRInt32
+int32_t
 *
 aDestLength
 )
@@ -520,13 +520,13 @@ const
 char
 *
 aSrc
-PRInt32
+int32_t
 *
 aSrcLength
 PRUnichar
 *
 aDest
-PRInt32
+int32_t
 *
 aDestLength
 )

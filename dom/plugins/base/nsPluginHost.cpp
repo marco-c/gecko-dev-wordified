@@ -1658,7 +1658,7 @@ const
 char
 *
 aFullPath
-PRInt64
+int64_t
 aLastModifiedTime
 )
 :
@@ -2021,7 +2021,7 @@ mDocs
 NS_ERROR_FAILURE
 )
 ;
-PRUint32
+uint32_t
 c
 ;
 mDocs
@@ -2056,7 +2056,7 @@ to
 rebuild
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2748,7 +2748,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3272,7 +3272,7 @@ unload
 events
 to
 finish
-PRUint32
+uint32_t
 c
 ;
 if
@@ -3814,7 +3814,7 @@ char
 referrer
 bool
 forceJSEnabled
-PRUint32
+uint32_t
 getHeadersLength
 const
 char
@@ -4020,7 +4020,7 @@ const
 char
 *
 url
-PRUint32
+uint32_t
 postDataLen
 const
 char
@@ -4045,7 +4045,7 @@ char
 referrer
 bool
 forceJSEnabled
-PRUint32
+uint32_t
 postHeadersLength
 const
 char
@@ -4238,7 +4238,7 @@ char
 *
 dataToPost
 ;
-PRUint32
+uint32_t
 newDataToPostLen
 ;
 ParsePostBufferToFixHeaders
@@ -4760,7 +4760,7 @@ nsCAutoString
 host
 type
 ;
-PRInt32
+int32_t
 port
 =
 -
@@ -5299,7 +5299,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6075,7 +6075,7 @@ elem
 )
 )
 ;
-PRInt16
+int16_t
 shouldLoad
 =
 nsIContentPolicy
@@ -8021,7 +8021,7 @@ const
 char
 *
 aMimeType
-PRUint32
+uint32_t
 *
 aState
 )
@@ -8297,7 +8297,7 @@ DOMMimeTypeImpl
 nsPluginTag
 *
 aTag
-PRUint32
+uint32_t
 aMimeTypeIndex
 )
 {
@@ -8597,7 +8597,7 @@ NS_OK
 NS_METHOD
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -8620,7 +8620,7 @@ NS_OK
 NS_METHOD
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMMimeType
 *
@@ -8739,7 +8739,7 @@ nsPluginHost
 :
 GetPluginCount
 (
-PRUint32
+uint32_t
 *
 aPluginCount
 )
@@ -8748,7 +8748,7 @@ LoadPlugins
 (
 )
 ;
-PRUint32
+uint32_t
 count
 =
 0
@@ -8805,7 +8805,7 @@ nsPluginHost
 :
 GetPlugins
 (
-PRUint32
+uint32_t
 aPluginCount
 nsIDOMPlugin
 *
@@ -8825,7 +8825,7 @@ mPlugins
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8891,7 +8891,7 @@ nsPluginHost
 :
 GetPluginTags
 (
-PRUint32
+uint32_t
 *
 aPluginCount
 nsIPluginTag
@@ -8905,7 +8905,7 @@ LoadPlugins
 (
 )
 ;
-PRUint32
+uint32_t
 count
 =
 0
@@ -8984,7 +8984,7 @@ mPlugins
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9278,7 +9278,7 @@ IsEnabled
 )
 )
 {
-PRInt32
+int32_t
 mimeCount
 =
 plugin
@@ -9292,7 +9292,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -9415,7 +9415,7 @@ IsEnabled
 )
 )
 {
-PRInt32
+int32_t
 variants
 =
 plugin
@@ -9429,7 +9429,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -9518,7 +9518,7 @@ return
 nullptr
 ;
 }
-PRInt32
+int32_t
 variants
 =
 preferredPlugin
@@ -9532,7 +9532,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -10370,7 +10370,7 @@ data
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10654,9 +10654,9 @@ const
 nsACString
 &
 domain
-PRUint64
+uint64_t
 flags
-PRInt64
+int64_t
 maxAge
 )
 {
@@ -10936,7 +10936,7 @@ matches
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -11601,7 +11601,7 @@ nullptr
 }
 namespace
 {
-PRInt64
+int64_t
 GetPluginLastModifiedTime
 (
 const
@@ -11613,7 +11613,7 @@ nsIFile
 localfile
 )
 {
-PRInt64
+int64_t
 fileModTime
 =
 LL_ZERO
@@ -12076,7 +12076,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 (
@@ -12133,7 +12133,7 @@ rv
 )
 continue
 ;
-PRInt64
+int64_t
 fileModTime
 =
 GetPluginLastModifiedTime
@@ -12645,7 +12645,7 @@ if
 blocklist
 )
 {
-PRUint32
+uint32_t
 state
 ;
 rv
@@ -13268,7 +13268,7 @@ kPrefDisableFullPage
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14211,7 +14211,7 @@ NS_WIN_QUICKTIME_SCAN_KEY
 NS_WIN_WMP_SCAN_KEY
 }
 ;
-PRUint32
+uint32_t
 size
 =
 sizeof
@@ -14229,7 +14229,7 @@ prefs
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14763,7 +14763,7 @@ kPrefDisableFullPage
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14891,7 +14891,7 @@ instsToReload
 aPluginTag
 )
 ;
-PRUint32
+uint32_t
 c
 ;
 if
@@ -15781,7 +15781,7 @@ plugin
 supports
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -16192,7 +16192,7 @@ rv
 return
 rv
 ;
-PRInt64
+int64_t
 fileSize
 ;
 rv
@@ -16216,10 +16216,10 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 flen
 =
-PRInt64
+int64_t
 (
 fileSize
 )
@@ -16310,7 +16310,7 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 bread
 =
 PR_Read
@@ -16410,7 +16410,7 @@ rv
 /
 /
 kPluginRegistryVersion
-PRInt32
+int32_t
 vdiff
 =
 mozilla
@@ -17057,7 +17057,7 @@ tag
 to
 be
 refreshed
-PRInt64
+int64_t
 lastmod
 =
 (
@@ -17081,7 +17081,7 @@ values
 -
 1
 ;
-PRUint32
+uint32_t
 tagflag
 =
 atoi
@@ -17554,7 +17554,7 @@ LinePtr
 (
 )
 ;
-PRInt64
+int64_t
 lastmod
 =
 (
@@ -17846,7 +17846,7 @@ const
 char
 *
 aHeadersData
-PRUint32
+uint32_t
 aHeadersDataLen
 )
 {
@@ -18045,7 +18045,7 @@ element
 )
 )
 ;
-PRInt16
+int16_t
 shouldLoad
 =
 nsIContentPolicy
@@ -18817,7 +18817,7 @@ const
 char
 *
 aHeadersData
-PRUint32
+uint32_t
 aHeadersDataLen
 nsIChannel
 *
@@ -18874,12 +18874,12 @@ headerName
 nsCAutoString
 headerValue
 ;
-PRInt32
+int32_t
 crlf
 =
 0
 ;
-PRInt32
+int32_t
 colon
 =
 0
@@ -19213,7 +19213,7 @@ pref
 or
 use
 default
-PRUint32
+uint32_t
 cachedInstanceLimit
 =
 Preferences
@@ -19831,7 +19831,7 @@ aTopic
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -19881,7 +19881,7 @@ aTopic
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -19943,7 +19943,7 @@ aTopic
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -20458,7 +20458,7 @@ Append
 message
 )
 ;
-PRInt32
+int32_t
 buttonPressed
 ;
 bool
@@ -20526,13 +20526,13 @@ const
 char
 *
 inPostData
-PRUint32
+uint32_t
 inPostDataLen
 char
 *
 *
 outPostData
-PRUint32
+uint32_t
 *
 outPostDataLen
 )
@@ -21218,19 +21218,19 @@ pSod
 inPostData
 ;
 }
-PRUint32
+uint32_t
 newBufferLen
 =
 0
 ;
-PRUint32
+uint32_t
 dataLen
 =
 pEod
 -
 pSod
 ;
-PRUint32
+uint32_t
 headersLen
 =
 pEoh
@@ -21552,7 +21552,7 @@ value
 followed
 by
 data
-PRUint32
+uint32_t
 l
 =
 sizeof
@@ -21753,7 +21753,7 @@ aTmpFile
 nsresult
 rv
 ;
-PRInt64
+int64_t
 fileSize
 ;
 nsCAutoString
@@ -22161,7 +22161,7 @@ buf
 1024
 ]
 ;
-PRUint32
+uint32_t
 br
 bw
 ;
@@ -22207,7 +22207,7 @@ rv
 |
 |
 (
-PRInt32
+int32_t
 )
 br
 <
@@ -23514,7 +23514,7 @@ crashed
 plugin
 for
 (
-PRUint32
+uint32_t
 i
 =
 mInstances
@@ -23717,7 +23717,7 @@ mimetype
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -23816,7 +23816,7 @@ Now
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -23885,7 +23885,7 @@ return
 oldestInstance
 ;
 }
-PRUint32
+uint32_t
 nsPluginHost
 :
 :
@@ -23893,14 +23893,14 @@ StoppedInstanceCount
 (
 )
 {
-PRUint32
+uint32_t
 stoppedCount
 =
 0
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -23982,7 +23982,7 @@ aPluginTag
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mInstances

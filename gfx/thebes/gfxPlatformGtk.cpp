@@ -1234,10 +1234,10 @@ gfxProxyFontEntry
 *
 aProxyEntry
 const
-PRUint8
+uint8_t
 *
 aFontData
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -1276,7 +1276,7 @@ IsFontFormatSupported
 nsIURI
 *
 aFontURI
-PRUint32
+uint32_t
 aFormatFlags
 )
 {
@@ -1472,7 +1472,7 @@ fs
 =
 NULL
 ;
-PRInt32
+int32_t
 result
 =
 -
@@ -2569,12 +2569,12 @@ aUserFontSet
 #
 endif
 static
-PRInt32
+int32_t
 sDPI
 =
 0
 ;
-PRInt32
+int32_t
 gfxPlatformGtk
 :
 :
@@ -2615,7 +2615,7 @@ screen
 ;
 sDPI
 =
-PRInt32
+int32_t
 (
 round
 (
@@ -3654,7 +3654,7 @@ gfxPlatformGtk
 :
 FindFontForChar
 (
-PRUint32
+uint32_t
 aCh
 gfxFont
 *

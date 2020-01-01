@@ -804,7 +804,7 @@ Read
 into
 it
 .
-PRUint32
+uint32_t
 bytesRead
 ;
 nsresult

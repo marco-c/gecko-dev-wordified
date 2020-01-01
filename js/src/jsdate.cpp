@@ -16454,12 +16454,14 @@ cx
 if
 (
 !
-obj
--
->
+JSObject
+:
+:
 getProperty
 (
 cx
+obj
+obj
 cx
 -
 >

@@ -697,7 +697,7 @@ HandleEventTargetChain
 nsEventChainPostVisitor
 &
 aVisitor
-PRUint32
+uint32_t
 aFlags
 nsDispatchingCallback
 *
@@ -777,7 +777,7 @@ HandleEvent
 nsEventChainPostVisitor
 &
 aVisitor
-PRUint32
+uint32_t
 aFlags
 bool
 aMayHaveNewListenerManagers
@@ -962,7 +962,7 @@ aPusher
 )
 ;
 static
-PRUint32
+uint32_t
 MaxEtciCount
 (
 )
@@ -1031,10 +1031,10 @@ mNext
 ;
 }
 ;
-PRUint16
+uint16_t
 mFlags
 ;
-PRUint16
+uint16_t
 mItemFlags
 ;
 nsCOMPtr
@@ -1079,16 +1079,16 @@ nsEventListenerManager
 mManager
 ;
 static
-PRUint32
+uint32_t
 sMaxEtciCount
 ;
 static
-PRUint32
+uint32_t
 sCurrentEtciCount
 ;
 }
 ;
-PRUint32
+uint32_t
 nsEventTargetChainItem
 :
 :
@@ -1096,7 +1096,7 @@ sMaxEtciCount
 =
 0
 ;
-PRUint32
+uint32_t
 nsEventTargetChainItem
 :
 :
@@ -1290,7 +1290,7 @@ HandleEventTargetChain
 nsEventChainPostVisitor
 &
 aVisitor
-PRUint32
+uint32_t
 aFlags
 nsDispatchingCallback
 *
@@ -1302,7 +1302,7 @@ nsCxPusher
 aPusher
 )
 {
-PRUint32
+uint32_t
 createdELMs
 =
 nsEventListenerManager
@@ -2099,7 +2099,7 @@ nsEventTargetChainItem
 ;
 static
 const
-PRInt32
+int32_t
 kNumBuckets
 =
 sizeof
@@ -2114,7 +2114,7 @@ size_t
 ;
 static
 const
-PRInt32
+int32_t
 kInitialPoolSize
 =
 sizeof
@@ -2272,7 +2272,7 @@ nsFixedSizeAllocator
 sEtciPool
 ;
 static
-PRInt32
+int32_t
 sEtciPoolUsers
 ;
 }
@@ -2286,7 +2286,7 @@ sEtciPool
 =
 nullptr
 ;
-PRInt32
+int32_t
 ChainItemPool
 :
 :

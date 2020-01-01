@@ -274,7 +274,7 @@ Expr
 *
 getSubExprAt
 (
-PRUint32
+uint32_t
 aPos
 )
 =
@@ -313,7 +313,7 @@ virtual
 void
 setSubExprAt
 (
-PRUint32
+uint32_t
 aPos
 Expr
 *
@@ -340,7 +340,7 @@ txPattern
 *
 getSubPatternAt
 (
-PRUint32
+uint32_t
 aPos
 )
 =
@@ -379,7 +379,7 @@ virtual
 void
 setSubPatternAt
 (
-PRUint32
+uint32_t
 aPos
 txPattern
 *
@@ -499,7 +499,7 @@ Expr
 *
 getSubExprAt
 (
-PRUint32
+uint32_t
 aPos
 )
 ;
@@ -508,7 +508,7 @@ virtual
 void
 setSubExprAt
 (
-PRUint32
+uint32_t
 aPos
 Expr
 *
@@ -521,7 +521,7 @@ txPattern
 *
 getSubPatternAt
 (
-PRUint32
+uint32_t
 aPos
 )
 ;
@@ -530,7 +530,7 @@ virtual
 void
 setSubPatternAt
 (
-PRUint32
+uint32_t
 aPos
 txPattern
 *
@@ -576,7 +576,7 @@ _class
 :
 getSubExprAt
 (
-PRUint32
+uint32_t
 aPos
 )
 \
@@ -595,7 +595,7 @@ _class
 :
 setSubExprAt
 (
-PRUint32
+uint32_t
 aPos
 Expr
 *
@@ -631,7 +631,7 @@ _class
 :
 getSubPatternAt
 (
-PRUint32
+uint32_t
 aPos
 )
 \
@@ -650,7 +650,7 @@ _class
 :
 setSubPatternAt
 (
-PRUint32
+uint32_t
 aPos
 txPattern
 *
@@ -873,7 +873,7 @@ aPrefix
 nsIAtom
 *
 aLocalName
-PRInt32
+int32_t
 aNSID
 const
 nsAString

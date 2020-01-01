@@ -291,7 +291,7 @@ InsertChildAt
 nsIContent
 *
 aKid
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -300,7 +300,7 @@ aNotify
 void
 RemoveChildAt
 (
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -316,7 +316,7 @@ const
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -335,7 +335,7 @@ aNotify
 bool
 GetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -349,7 +349,7 @@ const
 bool
 HasAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -361,7 +361,7 @@ virtual
 bool
 AttrValueIs
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -379,7 +379,7 @@ virtual
 bool
 AttrValueIs
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -393,10 +393,10 @@ aCaseSensitive
 const
 ;
 virtual
-PRInt32
+int32_t
 FindAttrValueIn
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -412,7 +412,7 @@ const
 nsresult
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -426,12 +426,12 @@ nsAttrName
 *
 GetAttrNameAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
 ;
-PRUint32
+uint32_t
 GetAttrCount
 (
 )
@@ -588,7 +588,7 @@ aNative
 }
 }
 virtual
-PRUint32
+uint32_t
 GetInterfacesBitmap
 (
 )
@@ -746,7 +746,7 @@ nsIXTFElement
 >
 mXTFElement
 ;
-PRUint32
+uint32_t
 mNotificationMask
 ;
 nsCOMPtr
@@ -878,7 +878,7 @@ aNative
 }
 }
 virtual
-PRUint32
+uint32_t
 GetInterfacesBitmap
 (
 )

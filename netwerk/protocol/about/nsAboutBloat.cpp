@@ -280,7 +280,7 @@ leaks
 =
 false
 ;
-PRInt32
+int32_t
 pos
 =
 path
@@ -854,7 +854,7 @@ GetURIFlags
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 *
 result
 )

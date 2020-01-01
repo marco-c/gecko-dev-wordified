@@ -260,7 +260,7 @@ nsCycleCollectionTraversalCallback
 aClosure
 )
 ;
-PRInt32
+int32_t
 i
 numItems
 =
@@ -498,7 +498,7 @@ Observe
 (
 )
 ?
-PRInt32
+int32_t
 i
 numItems
 =
@@ -706,7 +706,7 @@ t
 already
 been
 registered
-PRInt32
+int32_t
 existingIndex
 =
 commandObservers

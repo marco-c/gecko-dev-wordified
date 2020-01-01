@@ -728,7 +728,7 @@ SpinUntilCompleted
 (
 )
 ;
-PRUint16
+uint16_t
 completionReason
 ;
 protected
@@ -795,7 +795,7 @@ mozIStorageError
 aError
 )
 {
-PRInt32
+int32_t
 result
 ;
 nsresult
@@ -896,7 +896,7 @@ AsyncStatementSpinner
 :
 HandleCompletion
 (
-PRUint16
+uint16_t
 aReason
 )
 {

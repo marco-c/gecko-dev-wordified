@@ -307,13 +307,13 @@ PostTimerEvent
 void
 SetDelayInternal
 (
-PRUint32
+uint32_t
 aDelay
 )
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSITIMER
-PRInt32
+int32_t
 GetGeneration
 (
 )
@@ -332,9 +332,9 @@ nsTimerImpl
 nsresult
 InitCommon
 (
-PRUint32
+uint32_t
 aType
-PRUint32
+uint32_t
 aDelay
 )
 ;
@@ -384,7 +384,7 @@ Cancel
 or
 similar
 .
-PRUint8
+uint8_t
 cbType
 =
 mCallbackType
@@ -540,7 +540,7 @@ and
 never
 reset
 .
-PRUint8
+uint8_t
 mCallbackType
 ;
 /
@@ -574,7 +574,7 @@ on
 that
 thread
 .
-PRUint8
+uint8_t
 mType
 ;
 bool
@@ -636,7 +636,7 @@ thread
 to
 the
 above
-PRUint8
+uint8_t
 /
 bool
 members
@@ -690,10 +690,10 @@ bad
 race
 conditions
 .
-PRInt32
+int32_t
 mGeneration
 ;
-PRUint32
+uint32_t
 mDelay
 ;
 TimeStamp

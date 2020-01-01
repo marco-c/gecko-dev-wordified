@@ -243,7 +243,7 @@ will
 not
 work
 .
-PRInt64
+int64_t
 len
 =
 ContentLength64
@@ -257,7 +257,7 @@ len
 0
 )
 {
-PRUint64
+uint64_t
 avail
 ;
 nsresult

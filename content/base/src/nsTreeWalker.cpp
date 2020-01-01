@@ -189,7 +189,7 @@ nsTreeWalker
 nsINode
 *
 aRoot
-PRUint32
+uint32_t
 aWhatToShow
 nsIDOMNodeFilter
 *
@@ -345,7 +345,7 @@ nsTreeWalker
 :
 GetWhatToShow
 (
-PRUint32
+uint32_t
 *
 aWhatToShow
 )
@@ -606,7 +606,7 @@ if
 node
 )
 {
-PRInt16
+int16_t
 filtered
 ;
 rv
@@ -793,7 +793,7 @@ _retval
 nsresult
 rv
 ;
-PRInt16
+int16_t
 filtered
 ;
 *
@@ -1013,7 +1013,7 @@ _retval
 nsresult
 rv
 ;
-PRInt16
+int16_t
 filtered
 =
 nsIDOMNodeFilter
@@ -1313,7 +1313,7 @@ _retval
 nsresult
 rv
 ;
-PRInt16
+int16_t
 filtered
 ;
 *
@@ -1587,7 +1587,7 @@ _retval
 nsresult
 rv
 ;
-PRInt16
+int16_t
 filtered
 ;
 *

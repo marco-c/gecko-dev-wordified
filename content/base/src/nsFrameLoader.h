@@ -915,13 +915,13 @@ view
 bool
 Show
 (
-PRInt32
+int32_t
 marginWidth
-PRInt32
+int32_t
 marginHeight
-PRInt32
+int32_t
 scrollbarPrefX
-PRInt32
+int32_t
 scrollbarPrefY
 nsSubDocumentFrame
 *
@@ -949,9 +949,9 @@ changed
 void
 MarginsChanged
 (
-PRUint32
+uint32_t
 aMarginWidth
-PRUint32
+uint32_t
 aMarginHeight
 )
 ;
@@ -2299,7 +2299,7 @@ what
 content
 tells
 .
-PRUint32
+uint32_t
 mRenderMode
 ;
 /
@@ -2325,7 +2325,7 @@ of
 process
 content
 .
-PRUint32
+uint32_t
 mEventMode
 ;
 }

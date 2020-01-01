@@ -199,7 +199,7 @@ SVG_MARKER_ORIENT_ANGLE
 nsresult
 SetBaseValue
 (
-PRUint16
+uint16_t
 aValue
 nsSVGElement
 *
@@ -243,7 +243,7 @@ member
 void
 SetBaseValue
 (
-PRUint16
+uint16_t
 aValue
 )
 {
@@ -251,7 +251,7 @@ mAnimVal
 =
 mBaseVal
 =
-PRUint8
+uint8_t
 (
 aValue
 )
@@ -270,19 +270,19 @@ that
 void
 SetAnimValue
 (
-PRUint16
+uint16_t
 aValue
 )
 {
 mAnimVal
 =
-PRUint8
+uint8_t
 (
 aValue
 )
 ;
 }
-PRUint16
+uint16_t
 GetBaseValue
 (
 )
@@ -292,7 +292,7 @@ return
 mBaseVal
 ;
 }
-PRUint16
+uint16_t
 GetAnimValue
 (
 )
@@ -376,7 +376,7 @@ mSVGElement
 NS_IMETHOD
 GetBaseVal
 (
-PRUint16
+uint16_t
 *
 aResult
 )
@@ -398,7 +398,7 @@ NS_OK
 NS_IMETHOD
 SetBaseVal
 (
-PRUint16
+uint16_t
 aValue
 )
 {
@@ -416,7 +416,7 @@ mSVGElement
 NS_IMETHOD
 GetAnimVal
 (
-PRUint16
+uint16_t
 *
 aResult
 )
@@ -548,7 +548,7 @@ virtual
 bool
 GetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -563,7 +563,7 @@ virtual
 nsresult
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -660,7 +660,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *

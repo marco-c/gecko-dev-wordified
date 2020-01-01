@@ -227,7 +227,7 @@ Truncate
 (
 )
 ;
-PRUint32
+uint32_t
 last
 =
 mLengths
@@ -240,7 +240,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -489,7 +489,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

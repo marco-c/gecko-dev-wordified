@@ -314,7 +314,7 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
 )
 ;
@@ -607,7 +607,7 @@ begun
 any
 frames
 .
-PRUint32
+uint32_t
 GetFrameCount
 (
 )
@@ -635,7 +635,7 @@ in
 progress
 )
 .
-PRUint32
+uint32_t
 GetCompleteFrameCount
 (
 )
@@ -780,7 +780,7 @@ FLAG_DECODE_NO_COLORSPACE_CONVERSION
 void
 SetDecodeFlags
 (
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -789,7 +789,7 @@ mDecodeFlags
 aFlags
 ;
 }
-PRUint32
+uint32_t
 GetDecodeFlags
 (
 )
@@ -858,7 +858,7 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
 )
 ;
@@ -905,9 +905,9 @@ notifications
 void
 PostSize
 (
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 )
 ;
@@ -1090,7 +1090,7 @@ imgIDecoderObserver
 >
 mObserver
 ;
-PRUint32
+uint32_t
 mDecodeFlags
 ;
 bool
@@ -1101,7 +1101,7 @@ mDataError
 ;
 private
 :
-PRUint32
+uint32_t
 mFrameCount
 ;
 /

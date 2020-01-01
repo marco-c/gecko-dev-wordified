@@ -146,12 +146,12 @@ PrepareAndDispatch
 nsXPTCStubBase
 *
 self
-PRUint32
+uint32_t
 methodIndex
-PRUint64
+uint64_t
 *
 args
-PRUint64
+uint64_t
 *
 gprData
 double
@@ -209,10 +209,10 @@ info
 =
 NULL
 ;
-PRUint8
+uint8_t
 paramCount
 ;
-PRUint8
+uint8_t
 i
 ;
 nsresult
@@ -237,7 +237,7 @@ mEntry
 >
 GetMethodInfo
 (
-PRUint16
+uint16_t
 (
 methodIndex
 )
@@ -304,13 +304,13 @@ params
 "
 )
 ;
-PRUint64
+uint64_t
 *
 ap
 =
 args
 ;
-PRUint32
+uint32_t
 iCount
 =
 0
@@ -453,7 +453,7 @@ val
 i8
 =
 (
-PRInt8
+int8_t
 )
 gprData
 [
@@ -473,7 +473,7 @@ i8
 *
 (
 (
-PRInt8
+int8_t
 *
 )
 ap
@@ -503,7 +503,7 @@ val
 i16
 =
 (
-PRInt16
+int16_t
 )
 gprData
 [
@@ -523,7 +523,7 @@ i16
 *
 (
 (
-PRInt16
+int16_t
 *
 )
 ap
@@ -553,7 +553,7 @@ val
 i32
 =
 (
-PRInt32
+int32_t
 )
 gprData
 [
@@ -573,7 +573,7 @@ i32
 *
 (
 (
-PRInt32
+int32_t
 *
 )
 ap
@@ -603,7 +603,7 @@ val
 i64
 =
 (
-PRInt64
+int64_t
 )
 gprData
 [
@@ -623,7 +623,7 @@ i64
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 ap
@@ -653,7 +653,7 @@ val
 u8
 =
 (
-PRUint8
+uint8_t
 )
 gprData
 [
@@ -673,7 +673,7 @@ u8
 *
 (
 (
-PRUint8
+uint8_t
 *
 )
 ap
@@ -703,7 +703,7 @@ val
 u16
 =
 (
-PRUint16
+uint16_t
 )
 gprData
 [
@@ -723,7 +723,7 @@ u16
 *
 (
 (
-PRUint16
+uint16_t
 *
 )
 ap
@@ -753,7 +753,7 @@ val
 u32
 =
 (
-PRUint32
+uint32_t
 )
 gprData
 [
@@ -773,7 +773,7 @@ u32
 *
 (
 (
-PRUint32
+uint32_t
 *
 )
 ap
@@ -803,7 +803,7 @@ val
 u64
 =
 (
-PRUint64
+uint64_t
 )
 gprData
 [
@@ -823,7 +823,7 @@ u64
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 ap
@@ -984,7 +984,7 @@ We
 need
 cast
 to
-PRUint8
+uint8_t
 to
 remove
 garbage
@@ -1009,7 +1009,7 @@ b
 bool
 )
 (
-PRUint8
+uint8_t
 )
 gprData
 [
@@ -1164,7 +1164,7 @@ mOuter
 CallMethod
 (
 (
-PRUint16
+uint16_t
 )
 methodIndex
 info

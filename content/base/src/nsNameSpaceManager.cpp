@@ -595,7 +595,7 @@ const
 nsAString
 &
 aURI
-PRInt32
+int32_t
 &
 aNameSpaceID
 )
@@ -603,14 +603,14 @@ aNameSpaceID
 nsresult
 GetNameSpaceURI
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsAString
 &
 aURI
 )
 ;
-PRInt32
+int32_t
 GetNameSpaceID
 (
 const
@@ -622,7 +622,7 @@ aURI
 bool
 HasElementCreator
 (
-PRInt32
+int32_t
 aNameSpaceID
 )
 ;
@@ -636,14 +636,14 @@ nsAString
 &
 aURI
 const
-PRInt32
+int32_t
 aNameSpaceID
 )
 ;
 nsDataHashtable
 <
 nsNameSpaceKey
-PRInt32
+int32_t
 >
 mURIToIDTable
 ;
@@ -806,7 +806,7 @@ const
 nsAString
 &
 aURI
-PRInt32
+int32_t
 &
 aNameSpaceID
 )
@@ -921,7 +921,7 @@ NameSpaceManagerImpl
 :
 GetNameSpaceURI
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsAString
 &
@@ -941,7 +941,7 @@ ID
 "
 )
 ;
-PRInt32
+int32_t
 index
 =
 aNameSpaceID
@@ -965,7 +965,7 @@ index
 index
 >
 =
-PRInt32
+int32_t
 (
 mURIArray
 .
@@ -999,7 +999,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 NameSpaceManagerImpl
 :
 :
@@ -1035,7 +1035,7 @@ bug
 for
 details
 }
-PRInt32
+int32_t
 nameSpaceID
 ;
 if
@@ -1088,7 +1088,7 @@ FromParser
 aFromParser
 )
 {
-PRInt32
+int32_t
 ns
 =
 aNodeInfo
@@ -1259,7 +1259,7 @@ NameSpaceManagerImpl
 :
 HasElementCreator
 (
-PRInt32
+int32_t
 aNameSpaceID
 )
 {
@@ -1313,7 +1313,7 @@ nsAString
 &
 aURI
 const
-PRInt32
+int32_t
 aNameSpaceID
 )
 {
@@ -1356,7 +1356,7 @@ aNameSpaceID
 =
 =
 (
-PRInt32
+int32_t
 )
 mURIArray
 .

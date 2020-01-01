@@ -1400,7 +1400,7 @@ aElements
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1900,12 +1900,12 @@ insert
 the
 content
 .
-PRInt32
+int32_t
 start
 =
 0
 ;
-PRInt32
+int32_t
 end
 =
 mIdContentList
@@ -1929,7 +1929,7 @@ end
 "
 )
 ;
-PRInt32
+int32_t
 cur
 =
 (
@@ -2612,7 +2612,7 @@ nsIFormControl
 >
 mRadioButtons
 ;
-PRUint32
+uint32_t
 mRequiredRadioCount
 ;
 bool
@@ -2750,7 +2750,7 @@ nsDOMStyleSheetList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -2815,7 +2815,7 @@ GetNumberOfStyleSheets
 #
 ifdef
 DEBUG
-PRInt32
+int32_t
 i
 ;
 for
@@ -2902,7 +2902,7 @@ nsDOMStyleSheetList
 :
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -2916,7 +2916,7 @@ aIndex
 >
 =
 (
-PRUint32
+uint32_t
 )
 mDocument
 -
@@ -2963,7 +2963,7 @@ nsDOMStyleSheetList
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMStyleSheet
 *
@@ -4591,7 +4591,7 @@ Observers
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5257,9 +5257,9 @@ aContext
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -5528,7 +5528,7 @@ rv
 rv
 )
 ;
-PRInt16
+int16_t
 shouldLoad
 =
 nsIContentPolicy
@@ -6285,7 +6285,7 @@ nsDOMStyleSheetSetList
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsAString
 &
@@ -6350,7 +6350,7 @@ nsDOMStyleSheetSetList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -6484,7 +6484,7 @@ document
 for
 sure
 }
-PRInt32
+int32_t
 count
 =
 mDocument
@@ -6502,7 +6502,7 @@ temp
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -8357,7 +8357,7 @@ DestroyElementMaps
 nsAutoScriptBlocker
 scriptBlocker
 ;
-PRInt32
+int32_t
 indx
 ;
 /
@@ -8365,7 +8365,7 @@ indx
 must
 be
 signed
-PRUint32
+uint32_t
 count
 =
 mChildren
@@ -8378,7 +8378,7 @@ for
 (
 indx
 =
-PRInt32
+int32_t
 (
 count
 )
@@ -8627,7 +8627,7 @@ Revoke
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8972,7 +8972,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -9110,7 +9110,7 @@ aData
 mSelectedRadioButton
 )
 ;
-PRUint32
+uint32_t
 i
 count
 =
@@ -9380,7 +9380,7 @@ normal
 )
 ;
 }
-PRUint32
+uint32_t
 nsid
 =
 tmp
@@ -9590,10 +9590,10 @@ nsAttrAndChildArray
 .
 for
 (
-PRInt32
+int32_t
 indx
 =
-PRInt32
+int32_t
 (
 tmp
 -
@@ -9823,7 +9823,7 @@ mPreloadingImages
 )
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9987,10 +9987,10 @@ nsAttrAndChildArray
 .
 for
 (
-PRInt32
+int32_t
 indx
 =
-PRInt32
+int32_t
 (
 tmp
 -
@@ -10606,7 +10606,7 @@ DeleteAllProperties
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10647,7 +10647,7 @@ aNode
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10683,7 +10683,7 @@ nsIDocument
 :
 GetExtraPropertyTable
 (
-PRUint16
+uint16_t
 aCategory
 )
 {
@@ -11098,7 +11098,7 @@ mInUnlinkOrDeletion
 =
 true
 ;
-PRUint32
+uint32_t
 count
 =
 mChildren
@@ -11122,10 +11122,10 @@ true
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
-PRInt32
+int32_t
 (
 count
 )
@@ -11712,7 +11712,7 @@ stylesheets
 should
 forget
 us
-PRInt32
+int32_t
 indx
 =
 mStyleSheets
@@ -12337,7 +12337,7 @@ eStyleAttrSheet
 mStyleAttrStyleSheet
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -15670,7 +15670,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -16076,7 +16076,7 @@ canonical
 ;
 #
 endif
-PRInt32
+int32_t
 n
 =
 mCharSetObservers
@@ -16087,7 +16087,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -16799,7 +16799,7 @@ TryChannelCharset
 nsIChannel
 *
 aChannel
-PRInt32
+int32_t
 &
 aCharsetSource
 nsACString
@@ -17237,7 +17237,7 @@ RequestDiscardEnumerator
 imgIRequest
 *
 aKey
-PRUint32
+uint32_t
 aData
 void
 *
@@ -17818,7 +17818,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -17938,7 +17938,7 @@ nsDocument
 :
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -18021,7 +18021,7 @@ the
 root
 element
 .
-PRUint32
+uint32_t
 i
 ;
 for
@@ -18120,7 +18120,7 @@ nsDocument
 :
 GetChildAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -18134,7 +18134,7 @@ aIndex
 )
 ;
 }
-PRInt32
+int32_t
 nsDocument
 :
 :
@@ -18155,7 +18155,7 @@ aPossibleChild
 )
 ;
 }
-PRUint32
+uint32_t
 nsDocument
 :
 :
@@ -18181,7 +18181,7 @@ nsDocument
 :
 GetChildArray
 (
-PRUint32
+uint32_t
 *
 aChildCount
 )
@@ -18205,7 +18205,7 @@ InsertChildAt
 nsIContent
 *
 aKid
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -18343,7 +18343,7 @@ nsDocument
 :
 RemoveChildAt
 (
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -18413,7 +18413,7 @@ mCachedRootElement
 nullptr
 ;
 }
-PRInt32
+int32_t
 nsDocument
 :
 :
@@ -18437,7 +18437,7 @@ nsDocument
 :
 GetStyleSheetAt
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -18467,7 +18467,7 @@ aIndex
 ]
 ;
 }
-PRInt32
+int32_t
 nsDocument
 :
 :
@@ -18806,7 +18806,7 @@ length
 "
 )
 ;
-PRInt32
+int32_t
 count
 =
 aOldSheets
@@ -18821,7 +18821,7 @@ nsIStyleSheet
 >
 oldSheet
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -18869,7 +18869,7 @@ null
 "
 )
 ;
-PRInt32
+int32_t
 oldIndex
 =
 mStyleSheets
@@ -18984,7 +18984,7 @@ InsertStyleSheetAt
 nsIStyleSheet
 *
 aSheet
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -19176,7 +19176,7 @@ for
 regular
 stylesheets
 .
-PRInt32
+int32_t
 nsDocument
 :
 :
@@ -19200,7 +19200,7 @@ nsDocument
 :
 GetCatalogStyleSheetAt
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -19361,7 +19361,7 @@ GetEnabled
 )
 )
 {
-PRInt32
+int32_t
 sheetCount
 =
 GetNumberOfCatalogStyleSheets
@@ -19370,7 +19370,7 @@ GetNumberOfCatalogStyleSheets
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -22847,7 +22847,7 @@ nsAString
 aValue
 )
 {
-PRInt32
+int32_t
 len
 =
 aValue
@@ -22858,7 +22858,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -23856,7 +23856,7 @@ nsAString
 aLocalName
 )
 {
-PRInt32
+int32_t
 nameSpaceId
 =
 kNameSpaceID_Wildcard
@@ -24164,7 +24164,7 @@ the
 selected
 set
 title
-PRInt32
+int32_t
 count
 =
 GetNumberOfStyleSheets
@@ -24176,7 +24176,7 @@ title
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -24604,7 +24604,7 @@ BeginUpdate
 UPDATE_STYLE
 )
 ;
-PRInt32
+int32_t
 count
 =
 GetNumberOfStyleSheets
@@ -24616,7 +24616,7 @@ title
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -24741,7 +24741,7 @@ nsIDOMNode
 aImportedNode
 bool
 aDeep
-PRUint8
+uint8_t
 aArgc
 nsIDOMNode
 *
@@ -25625,7 +25625,7 @@ nodeList
 return
 nullptr
 ;
-PRUint32
+uint32_t
 length
 =
 0
@@ -25653,7 +25653,7 @@ EqualsLiteral
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -25885,12 +25885,12 @@ CreateNodeIterator
 nsIDOMNode
 *
 aRoot
-PRUint32
+uint32_t
 aWhatToShow
 nsIDOMNodeFilter
 *
 aFilter
-PRUint8
+uint8_t
 aOptionalArgc
 nsIDOMNodeIterator
 *
@@ -25996,12 +25996,12 @@ CreateTreeWalker
 nsIDOMNode
 *
 aRoot
-PRUint32
+uint32_t
 aWhatToShow
 nsIDOMNodeFilter
 *
 aFilter
-PRUint8
+uint8_t
 aOptionalArgc
 nsIDOMTreeWalker
 *
@@ -26345,7 +26345,7 @@ nsDocument
 :
 GetTitleContent
 (
-PRUint32
+uint32_t
 aNamespace
 )
 {
@@ -26463,7 +26463,7 @@ nsDocument
 :
 GetTitleFromElement
 (
-PRUint32
+uint32_t
 aNamespace
 nsAString
 &
@@ -27247,7 +27247,7 @@ NS_OK
 ;
 }
 }
-PRInt32
+int32_t
 namespaceID
 ;
 nsCOMPtr
@@ -28049,7 +28049,7 @@ ReallyStartLoading
 )
 ;
 }
-PRUint32
+uint32_t
 length
 =
 mFinalizableFrameLoaders
@@ -28083,7 +28083,7 @@ loaders
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -28121,7 +28121,7 @@ nsIDocShell
 aShell
 )
 {
-PRUint32
+uint32_t
 length
 =
 mInitializableFrameLoaders
@@ -28132,7 +28132,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -28190,7 +28190,7 @@ if
 aShell
 )
 {
-PRUint32
+uint32_t
 length
 =
 mFinalizableFrameLoaders
@@ -28201,7 +28201,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -28580,7 +28580,7 @@ char
 *
 mName
 ;
-PRUint8
+uint8_t
 mValue
 ;
 }
@@ -28645,7 +28645,7 @@ nsAString
 aDirection
 )
 {
-PRUint32
+uint32_t
 options
 =
 GetBidiOptions
@@ -28738,7 +28738,7 @@ nsAString
 aDirection
 )
 {
-PRUint32
+uint32_t
 options
 =
 GetBidiOptions
@@ -29038,7 +29038,7 @@ nsDocument
 :
 GetNodeType
 (
-PRUint16
+uint16_t
 *
 aNodeType
 )
@@ -29462,7 +29462,7 @@ CloneNode
 (
 bool
 aDeep
-PRUint8
+uint8_t
 aOptionalArgc
 nsIDOMNode
 *
@@ -29626,7 +29626,7 @@ CompareDocumentPosition
 nsIDOMNode
 *
 other
-PRUint16
+uint16_t
 *
 aResult
 )
@@ -30149,7 +30149,7 @@ fail
 }
 }
 }
-PRUint32
+uint32_t
 count
 =
 aNode
@@ -30161,7 +30161,7 @@ GetChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -31254,7 +31254,7 @@ sameDocument
 oldDocument
 )
 {
-PRUint32
+uint32_t
 count
 =
 nodesWithProperties
@@ -31265,7 +31265,7 @@ Count
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -31286,7 +31286,7 @@ j
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -31330,7 +31330,7 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 count
 =
 nodesWithProperties
@@ -31350,7 +31350,7 @@ oldDocument
 {
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -31392,7 +31392,7 @@ j
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -32529,7 +32529,7 @@ PRUnichar
 *
 aEncoding
 const
-PRInt32
+int32_t
 aStandalone
 )
 {
@@ -33290,7 +33290,7 @@ currentRadio
 )
 )
 ;
-PRInt32
+int32_t
 index
 =
 radioGroup
@@ -33314,7 +33314,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRInt32
+int32_t
 numRadios
 =
 radioGroup
@@ -33697,7 +33697,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 nsDocument
 :
 :
@@ -34285,7 +34285,7 @@ rv
 )
 )
 {
-PRInt64
+int64_t
 intermediateValue
 ;
 LL_I2L
@@ -34506,7 +34506,7 @@ aName
 nsIAtom
 *
 aPrefix
-PRInt32
+int32_t
 aNamespaceID
 nsIContent
 *
@@ -34864,7 +34864,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 length
 =
 0
@@ -34891,7 +34891,7 @@ item
 nsAutoString
 value
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -35211,7 +35211,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -35326,7 +35326,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -35911,7 +35911,7 @@ mInUnlinkOrDeletion
 =
 true
 ;
-PRUint32
+uint32_t
 i
 count
 =
@@ -36090,7 +36090,7 @@ NotifyActivityChanged
 nullptr
 )
 ;
-PRUint32
+uint32_t
 i
 count
 =
@@ -37431,7 +37431,7 @@ link
 )
 )
 ;
-PRUint32
+uint32_t
 linkCount
 =
 links
@@ -37444,7 +37444,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -37702,7 +37702,7 @@ link
 )
 )
 ;
-PRUint32
+uint32_t
 linkCount
 =
 links
@@ -37715,7 +37715,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -38124,7 +38124,7 @@ node
 to
 mSubtreeModifiedTargets
 .
-PRInt32
+int32_t
 count
 =
 mSubtreeModifiedTargets
@@ -38183,7 +38183,7 @@ mSubtreeModifiedDepth
 0
 )
 {
-PRInt32
+int32_t
 count
 =
 mSubtreeModifiedTargets
@@ -38248,7 +38248,7 @@ realTargets
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -38304,7 +38304,7 @@ commonAncestor
 =
 nullptr
 ;
-PRInt32
+int32_t
 realTargetCount
 =
 realTargets
@@ -38315,7 +38315,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -38381,7 +38381,7 @@ Clear
 (
 )
 ;
-PRInt32
+int32_t
 realTargetCount
 =
 realTargets
@@ -38392,7 +38392,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 k
 =
 0
@@ -39445,7 +39445,7 @@ SuppressEventHandling
 *
 static_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -39463,7 +39463,7 @@ nsDocument
 :
 SuppressEventHandling
 (
-PRUint32
+uint32_t
 aIncrease
 )
 {
@@ -39542,7 +39542,7 @@ return
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -39672,7 +39672,7 @@ t
 preload
 it
 .
-PRInt16
+int16_t
 blockingStatus
 ;
 if
@@ -40219,7 +40219,7 @@ void
 aData
 )
 {
-PRUint32
+uint32_t
 suppression
 =
 aDocument
@@ -41355,7 +41355,7 @@ mOriginalDocument
 this
 ;
 }
-PRInt32
+int32_t
 sheetsCount
 =
 GetNumberOfStyleSheets
@@ -41364,7 +41364,7 @@ GetNumberOfStyleSheets
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -41464,7 +41464,7 @@ GetNumberOfCatalogStyleSheets
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -41579,7 +41579,7 @@ ScheduleFrameRequestCallback
 nsIFrameRequestCallback
 *
 aCallback
-PRInt32
+int32_t
 *
 aHandle
 )
@@ -41607,7 +41607,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-PRInt32
+int32_t
 newHandle
 =
 +
@@ -41704,7 +41704,7 @@ nsIDocument
 :
 CancelFrameRequestCallback
 (
-PRInt32
+int32_t
 aHandle
 )
 {
@@ -41983,7 +41983,7 @@ EndReading
 end
 )
 ;
-PRInt32
+int32_t
 hash
 =
 aUseMapValue
@@ -42088,7 +42088,7 @@ map
 )
 ;
 }
-PRUint32
+uint32_t
 i
 n
 =
@@ -42330,7 +42330,7 @@ the
 old
 count
 .
-PRUint32
+uint32_t
 oldCount
 =
 0
@@ -42599,7 +42599,7 @@ be
 >
 0
 .
-PRUint32
+uint32_t
 count
 =
 0
@@ -43085,7 +43085,7 @@ LockEnumerator
 imgIRequest
 *
 aKey
-PRUint32
+uint32_t
 aData
 void
 *
@@ -43116,7 +43116,7 @@ UnlockEnumerator
 imgIRequest
 *
 aKey
-PRUint32
+uint32_t
 aData
 void
 *
@@ -43244,7 +43244,7 @@ IncrementAnimationEnumerator
 imgIRequest
 *
 aKey
-PRUint32
+uint32_t
 aData
 void
 *
@@ -43268,7 +43268,7 @@ DecrementAnimationEnumerator
 imgIRequest
 *
 aKey
-PRUint32
+uint32_t
 aData
 void
 *
@@ -43367,23 +43367,23 @@ aView
 nsIDOMEventTarget
 *
 aTarget
-PRInt32
+int32_t
 aIdentifier
-PRInt32
+int32_t
 aPageX
-PRInt32
+int32_t
 aPageY
-PRInt32
+int32_t
 aScreenX
-PRInt32
+int32_t
 aScreenY
-PRInt32
+int32_t
 aClientX
-PRInt32
+int32_t
 aClientY
-PRInt32
+int32_t
 aRadiusX
-PRInt32
+int32_t
 aRadiusY
 float
 aRotationAngle
@@ -43453,7 +43453,7 @@ if
 aPoints
 )
 {
-PRUint16
+uint16_t
 type
 ;
 aPoints
@@ -43540,13 +43540,13 @@ nsIDataType
 VTYPE_ARRAY
 )
 {
-PRUint16
+uint16_t
 valueType
 ;
 nsIID
 iid
 ;
-PRUint32
+uint32_t
 valueCount
 ;
 void
@@ -43605,7 +43605,7 @@ rawArray
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -44729,7 +44729,7 @@ spec
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -46447,7 +46447,7 @@ element
 before
 returning
 .
-PRUint32
+uint32_t
 last
 =
 mFullScreenStack
@@ -46570,7 +46570,7 @@ styles
 "
 )
 ;
-PRUint32
+uint32_t
 last
 =
 mFullScreenStack
@@ -46654,7 +46654,7 @@ return
 nullptr
 ;
 }
-PRUint32
+uint32_t
 last
 =
 mFullScreenStack
@@ -48084,7 +48084,7 @@ spec
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -51903,7 +51903,7 @@ mMallocSizeOf
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -52543,7 +52543,7 @@ nsAutoSyncOperation
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0

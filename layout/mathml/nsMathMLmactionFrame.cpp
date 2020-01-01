@@ -308,7 +308,7 @@ parse
 actiontype
 attribute
 static
-PRInt32
+int32_t
 GetActionType
 (
 nsIContent
@@ -725,7 +725,7 @@ nsMathMLmactionFrame
 :
 ChildListChanged
 (
-PRInt32
+int32_t
 aModType
 )
 {
@@ -790,7 +790,7 @@ GetSelectedFrame
 nsAutoString
 value
 ;
-PRInt32
+int32_t
 selection
 ;
 if
@@ -1066,7 +1066,7 @@ values
 .
 .
 .
-PRInt32
+int32_t
 count
 =
 0
@@ -1337,12 +1337,12 @@ nsMathMLmactionFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -1369,7 +1369,7 @@ mActionType
 .
 .
 .
-PRInt32
+int32_t
 oldActionType
 =
 mActionType
@@ -2607,7 +2607,7 @@ mChildCount
 1
 )
 {
-PRInt32
+int32_t
 selection
 =
 (

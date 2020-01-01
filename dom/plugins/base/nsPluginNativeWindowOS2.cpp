@@ -271,7 +271,7 @@ v
 (
 (
 (
-PRInt32
+int32_t
 )
 (
 v
@@ -291,7 +291,7 @@ v
 )
 (
 (
-PRInt32
+int32_t
 )
 (
 v
@@ -2180,7 +2180,7 @@ enablePopups
 inst
 )
 {
-PRUint16
+uint16_t
 apiVersion
 ;
 if

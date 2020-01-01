@@ -154,7 +154,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 f
 =
 aModule

@@ -693,7 +693,7 @@ CloneNode
 (
 bool
 deep
-PRUint8
+uint8_t
 aOptionalArgc
 nsIDOMNode
 *
@@ -823,7 +823,7 @@ MatchAttribute
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -904,10 +904,10 @@ aElement
 nsresult
 GetViewportSize
 (
-PRInt32
+int32_t
 *
 aWidth
-PRInt32
+int32_t
 *
 aHeight
 )
@@ -1041,7 +1041,7 @@ BroadcastAttributeChangeFromOverlay
 nsIContent
 *
 aNode
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1084,7 +1084,7 @@ aData
 pseudo
 constants
 static
-PRInt32
+int32_t
 gRefCnt
 ;
 static
@@ -1140,7 +1140,7 @@ Persist
 nsIContent
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1434,7 +1434,7 @@ BuilderTable
 *
 mTemplateBuilderTable
 ;
-PRUint32
+uint32_t
 mPendingSheets
 ;
 /
@@ -1512,7 +1512,7 @@ nsIContent
 *
 mElement
 ;
-PRInt32
+int32_t
 mIndex
 ;
 Entry
@@ -1525,7 +1525,7 @@ Entry
 *
 mTop
 ;
-PRInt32
+int32_t
 mDepth
 ;
 public
@@ -1539,7 +1539,7 @@ ContextStack
 (
 )
 ;
-PRInt32
+int32_t
 Depth
 (
 )
@@ -1575,7 +1575,7 @@ nsIContent
 *
 *
 aElement
-PRInt32
+int32_t
 *
 aIndex
 )
@@ -1583,7 +1583,7 @@ aIndex
 nsresult
 SetTopIndex
 (
-PRInt32
+int32_t
 aIndex
 )
 ;
@@ -2847,7 +2847,7 @@ aProtoPI
 nsINode
 *
 aParent
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -2933,7 +2933,7 @@ aProtoPI
 nsINode
 *
 aParent
-PRUint32
+uint32_t
 aIndex
 nsIContent
 *
@@ -2982,7 +2982,7 @@ aProtoPI
 nsINode
 *
 aParent
-PRUint32
+uint32_t
 aIndex
 nsIContent
 *

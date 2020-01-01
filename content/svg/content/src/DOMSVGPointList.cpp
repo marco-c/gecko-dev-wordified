@@ -191,11 +191,11 @@ DOMSVGPoint
 >
 &
 aItemsArray
-PRUint32
+uint32_t
 aStartingIndex
 )
 {
-PRUint32
+uint32_t
 length
 =
 aItemsArray
@@ -206,7 +206,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 aStartingIndex
@@ -575,7 +575,7 @@ DOMSVGPointList
 :
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -669,7 +669,7 @@ applies
 here
 too
 !
-PRUint32
+uint32_t
 oldLength
 =
 mItems
@@ -678,7 +678,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 newLength
 =
 aNewValue
@@ -799,7 +799,7 @@ removed
 :
 for
 (
-PRUint32
+uint32_t
 i
 =
 newLength
@@ -899,7 +899,7 @@ pointers
 :
 for
 (
-PRUint32
+uint32_t
 i
 =
 oldLength
@@ -1108,7 +1108,7 @@ DOMSVGPointList
 :
 GetNumberOfItems
 (
-PRUint32
+uint32_t
 *
 aNumberOfItems
 )
@@ -1539,7 +1539,7 @@ DOMSVGPointList
 :
 GetItem
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMSVGPoint
 *
@@ -1585,7 +1585,7 @@ InsertItemBefore
 nsIDOMSVGPoint
 *
 aNewItem
-PRUint32
+uint32_t
 aIndex
 nsIDOMSVGPoint
 *
@@ -1920,7 +1920,7 @@ ReplaceItem
 nsIDOMSVGPoint
 *
 aNewItem
-PRUint32
+uint32_t
 aIndex
 nsIDOMSVGPoint
 *
@@ -2189,7 +2189,7 @@ DOMSVGPointList
 :
 RemoveItem
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMSVGPoint
 *
@@ -2440,7 +2440,7 @@ DOMSVGPointList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aNumberOfItems
 )
@@ -2458,7 +2458,7 @@ DOMSVGPointList
 :
 EnsureItemAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -2494,7 +2494,7 @@ DOMSVGPointList
 :
 MaybeInsertNullInAnimValListAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -2638,7 +2638,7 @@ DOMSVGPointList
 :
 MaybeRemoveItemFromAnimValListAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {

@@ -167,7 +167,7 @@ txCharacterTransaction
 (
 txTransactionType
 aType
-PRUint32
+uint32_t
 aLength
 )
 :
@@ -200,7 +200,7 @@ txOutputTransaction
 )
 ;
 }
-PRUint32
+uint32_t
 mLength
 ;
 }
@@ -335,7 +335,7 @@ aLocalName
 nsIAtom
 *
 aLowercaseLocalName
-PRInt32
+int32_t
 aNsID
 )
 :
@@ -398,7 +398,7 @@ nsIAtom
 >
 mLowercaseLocalName
 ;
-PRInt32
+int32_t
 mNsID
 ;
 }
@@ -420,7 +420,7 @@ const
 nsSubstring
 &
 aLocalName
-PRInt32
+int32_t
 aNsID
 )
 :
@@ -470,7 +470,7 @@ mPrefix
 nsString
 mLocalName
 ;
-PRInt32
+int32_t
 mNsID
 ;
 }
@@ -492,7 +492,7 @@ const
 nsSubstring
 &
 aLocalName
-PRInt32
+int32_t
 aNsID
 const
 nsString
@@ -550,7 +550,7 @@ mPrefix
 nsString
 mLocalName
 ;
-PRInt32
+int32_t
 mNsID
 ;
 nsString
@@ -577,7 +577,7 @@ aLocalName
 nsIAtom
 *
 aLowercaseLocalName
-PRInt32
+int32_t
 aNsID
 const
 nsString
@@ -648,7 +648,7 @@ nsIAtom
 >
 mLowercaseLocalName
 ;
-PRInt32
+int32_t
 mNsID
 ;
 nsString
@@ -710,7 +710,7 @@ aLocalName
 nsIAtom
 *
 aLowercaseLocalName
-PRInt32
+int32_t
 aNsID
 const
 nsString
@@ -790,7 +790,7 @@ nsSubstring
 &
 aLocalName
 const
-PRInt32
+int32_t
 aNsID
 const
 nsString
@@ -1245,7 +1245,7 @@ aLocalName
 nsIAtom
 *
 aLowercaseLocalName
-PRInt32
+int32_t
 aNsID
 )
 {
@@ -1302,7 +1302,7 @@ nsSubstring
 &
 aLocalName
 const
-PRInt32
+int32_t
 aNsID
 )
 {
@@ -1372,7 +1372,7 @@ txResultBuffer
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1860,7 +1860,7 @@ iter
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1914,7 +1914,7 @@ getLastTransaction
 (
 )
 {
-PRInt32
+int32_t
 last
 =
 mTransactions

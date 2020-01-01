@@ -895,7 +895,7 @@ const
 nsSubstring
 &
 aExpression
-PRUint32
+uint32_t
 aSubStringPos
 txIParseContext
 *
@@ -1573,7 +1573,7 @@ while
 done
 )
 {
-PRUint16
+uint16_t
 negations
 =
 0
@@ -2095,7 +2095,7 @@ nsIAtom
 prefix
 lName
 ;
-PRInt32
+int32_t
 nspace
 ;
 nsresult
@@ -2424,7 +2424,7 @@ nsIAtom
 prefix
 lName
 ;
-PRInt32
+int32_t
 namespaceID
 ;
 nsresult
@@ -3197,7 +3197,7 @@ nsIAtom
 prefix
 lName
 ;
-PRInt32
+int32_t
 nspace
 ;
 rv
@@ -3247,7 +3247,7 @@ ATTRIBUTE_AXIS
 ?
 static_cast
 <
-PRUint16
+uint16_t
 >
 (
 txXPathNodeType
@@ -3258,7 +3258,7 @@ ATTRIBUTE_NODE
 :
 static_cast
 <
-PRUint16
+uint16_t
 >
 (
 txXPathNodeType
@@ -5028,7 +5028,7 @@ nsIAtom
 *
 *
 aLocalName
-PRInt32
+int32_t
 &
 aNamespace
 bool
@@ -5039,7 +5039,7 @@ aNamespace
 =
 kNameSpaceID_None
 ;
-PRInt32
+int32_t
 idx
 =
 aQName
@@ -5067,7 +5067,7 @@ StringHead
 (
 aQName
 (
-PRUint32
+uint32_t
 )
 idx
 )
@@ -5093,7 +5093,7 @@ Substring
 (
 aQName
 (
-PRUint32
+uint32_t
 )
 idx
 +

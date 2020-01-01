@@ -300,7 +300,7 @@ aContext
 JSObject
 *
 aObj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -315,7 +315,7 @@ const
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 const
@@ -324,7 +324,7 @@ virtual
 nsresult
 BeforeSetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *

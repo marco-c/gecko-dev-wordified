@@ -875,7 +875,7 @@ nsSVGAnimationElement
 :
 GetTargetAttributeName
 (
-PRInt32
+int32_t
 *
 aNamespaceID
 nsIAtom
@@ -999,7 +999,7 @@ eSMILTargetAttrType_CSS
 eSMILTargetAttrType_XML
 }
 ;
-PRInt32
+int32_t
 index
 =
 FindAttrValueIn
@@ -1878,7 +1878,7 @@ nsSVGAnimationElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -2079,7 +2079,7 @@ nsSVGAnimationElement
 :
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -2224,7 +2224,7 @@ nsSVGAnimationElement
 :
 UnsetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -2296,7 +2296,7 @@ nsSVGAnimationElement
 :
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const

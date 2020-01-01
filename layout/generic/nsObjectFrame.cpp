@@ -1256,7 +1256,7 @@ PluginBackgroundSink
 nsObjectFrame
 *
 aFrame
-PRUint64
+uint64_t
 aStartSequenceNumber
 )
 :
@@ -1293,7 +1293,7 @@ virtual
 void
 SetUnknown
 (
-PRUint64
+uint64_t
 aSequenceNumber
 )
 {
@@ -1329,7 +1329,7 @@ const
 nsIntRect
 &
 aRect
-PRUint64
+uint64_t
 aSequenceNumber
 )
 {
@@ -1399,7 +1399,7 @@ protected
 bool
 AcceptUpdate
 (
-PRUint64
+uint64_t
 aSequenceNumber
 )
 {
@@ -1431,7 +1431,7 @@ return
 false
 ;
 }
-PRUint64
+uint64_t
 mLastSequenceNumber
 ;
 nsObjectFrame
@@ -4130,7 +4130,7 @@ rootPC
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 appUnitsPerDevPixel
 =
 presContext
@@ -4662,7 +4662,7 @@ nsObjectFrame
 :
 IsFocusable
 (
-PRInt32
+int32_t
 *
 aTabIndex
 bool
@@ -6431,7 +6431,7 @@ mChild
 =
 mWidget
 ;
-PRInt32
+int32_t
 appUnitsPerDevPixel
 =
 presContext
@@ -10586,7 +10586,7 @@ GetDrawingModel
 NPDrawingModelInvalidatingCoreAnimation
 )
 {
-PRInt32
+int32_t
 appUnitsPerDevPixel
 =
 PresContext

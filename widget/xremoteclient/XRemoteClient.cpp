@@ -892,7 +892,7 @@ const
 char
 *
 aProfile
-PRInt32
+int32_t
 argc
 char
 *
@@ -1010,7 +1010,7 @@ const
 char
 *
 aCommand
-PRInt32
+int32_t
 argc
 char
 *
@@ -3624,7 +3624,7 @@ nDESKTOP_STARTUP_ID
 =
 "
 ;
-PRInt32
+int32_t
 len
 =
 strlen
@@ -3805,7 +3805,7 @@ DoSendCommandLine
 (
 Window
 aWindow
-PRInt32
+int32_t
 argc
 char
 *
@@ -3858,7 +3858,7 @@ as
 an
 array
 of
-PRInt32
+int32_t
 /
 /
 followed
@@ -3931,7 +3931,7 @@ DESKTOP_STARTUP_ID
 =
 "
 ;
-PRInt32
+int32_t
 argvlen
 =
 strlen
@@ -3955,7 +3955,7 @@ argc
 i
 )
 {
-PRInt32
+int32_t
 len
 =
 strlen
@@ -3999,12 +3999,12 @@ argvlen
 len
 ;
 }
-PRInt32
+int32_t
 *
 buffer
 =
 (
-PRInt32
+int32_t
 *
 )
 malloc
@@ -4017,7 +4017,7 @@ argc
 +
 sizeof
 (
-PRInt32
+int32_t
 )
 *
 (
@@ -4152,7 +4152,7 @@ bufend
 #
 ifdef
 DEBUG_bsmedberg
-PRInt32
+int32_t
 debug_argc
 =
 TO_LITTLE_ENDIAN32
@@ -4208,7 +4208,7 @@ debug_workingdir
 debug_argc
 )
 ;
-PRInt32
+int32_t
 *
 debug_offset
 =

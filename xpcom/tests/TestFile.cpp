@@ -268,7 +268,7 @@ name
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -496,9 +496,9 @@ const
 char
 *
 aName
-PRInt32
+int32_t
 aType
-PRInt32
+int32_t
 aPerm
 )
 {
@@ -755,9 +755,9 @@ const
 char
 *
 aName
-PRInt32
+int32_t
 aType
-PRInt32
+int32_t
 aPerm
 )
 {
@@ -1051,9 +1051,9 @@ const
 char
 *
 aName
-PRInt32
+int32_t
 aFlags
-PRInt32
+int32_t
 aPerm
 )
 {

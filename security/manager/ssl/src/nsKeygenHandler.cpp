@@ -1686,7 +1686,7 @@ nsKeygenFormProcessor
 :
 GetSlot
 (
-PRUint32
+uint32_t
 aMechanism
 PK11SlotInfo
 *
@@ -1703,14 +1703,14 @@ aSlot
 )
 ;
 }
-PRUint32
+uint32_t
 MapGenMechToAlgoMech
 (
-PRUint32
+uint32_t
 mechanism
 )
 {
-PRUint32
+uint32_t
 searchMech
 ;
 /
@@ -1886,7 +1886,7 @@ searchMech
 nsresult
 GetSlotWithMechanism
 (
-PRUint32
+uint32_t
 aMechanism
 nsIInterfaceRequestor
 *
@@ -1927,7 +1927,7 @@ slotElement
 *
 tmpSlot
 ;
-PRUint32
+uint32_t
 numSlots
 =
 0
@@ -2514,10 +2514,10 @@ str
 =
 nullptr
 ;
-PRUint32
+uint32_t
 keyGenMechanism
 ;
-PRInt32
+int32_t
 primeBits
 ;
 PK11SlotInfo

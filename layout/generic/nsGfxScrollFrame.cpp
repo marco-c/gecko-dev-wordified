@@ -690,7 +690,7 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
-PRUint32
+uint32_t
 aFilter
 )
 {
@@ -993,7 +993,7 @@ aY
 nsIFrame
 *
 aForChild
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -6975,7 +6975,7 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
-PRUint32
+uint32_t
 aFilter
 )
 {
@@ -7243,7 +7243,7 @@ aY
 nsIFrame
 *
 aForChild
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -8174,7 +8174,7 @@ nsBoxLayoutState
 aState
 )
 {
-PRUint32
+uint32_t
 flags
 =
 aState
@@ -8612,10 +8612,10 @@ nsIAtom
 >
 mOrigin
 ;
-PRInt32
+int32_t
 mOriginMinMS
 ;
-PRInt32
+int32_t
 mOriginMaxMS
 ;
 double
@@ -9260,7 +9260,7 @@ all
 js
 static
 const
-PRInt32
+int32_t
 kDefaultMinMS
 =
 150
@@ -9379,7 +9379,7 @@ kDefaultMaxMS
 ;
 static
 const
-PRInt32
+int32_t
 kSmoothScrollMaxAllowedAnimationDurationMS
 =
 10000
@@ -9619,7 +9619,7 @@ negligible
 for
 us
 )
-PRInt32
+int32_t
 eventsDeltaMs
 =
 (
@@ -9748,12 +9748,12 @@ prev
 intervals
 )
 .
-PRInt32
+int32_t
 durationMS
 =
 clamped
 <
-PRInt32
+int32_t
 >
 (
 eventsDeltaMs
@@ -12369,7 +12369,7 @@ the
 frame
 hierarchy
 .
-PRUint32
+uint32_t
 flags
 =
 nsIFrame
@@ -13399,7 +13399,7 @@ listeners
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -13500,7 +13500,7 @@ listeners
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -15057,14 +15057,14 @@ HandleScrollPref
 nsIScrollable
 *
 aScrollable
-PRInt32
+int32_t
 aOrientation
-PRUint8
+uint8_t
 &
 aValue
 )
 {
-PRInt32
+int32_t
 pref
 ;
 aScrollable
@@ -15517,7 +15517,7 @@ static
 void
 AdjustForWholeDelta
 (
-PRInt32
+int32_t
 aDelta
 nscoord
 *
@@ -15619,7 +15619,7 @@ static
 void
 CalcRangeForScrollBy
 (
-PRInt32
+int32_t
 aDelta
 nscoord
 aPos
@@ -16198,7 +16198,7 @@ min_line_scroll_amount
 )
 ;
 }
-PRUint32
+uint32_t
 appUnitsPerDevPixel
 =
 mOuter
@@ -17826,7 +17826,7 @@ frame
 is
 resizable
 .
-PRInt8
+int8_t
 resizeStyle
 =
 mOuter
@@ -18580,7 +18580,7 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
-PRUint32
+uint32_t
 aFilter
 )
 {
@@ -20183,7 +20183,7 @@ nsPoint
 aScrollPosition
 )
 {
-PRUint32
+uint32_t
 oldflags
 =
 aState
@@ -20215,7 +20215,7 @@ Size
 )
 )
 ;
-PRInt32
+int32_t
 flags
 =
 NS_FRAME_NO_MOVE_VIEW

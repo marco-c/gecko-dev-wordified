@@ -1047,7 +1047,7 @@ nsWindowType
 aType
 )
 {
-PRInt32
+int32_t
 p2a
 =
 mViewManager
@@ -2540,7 +2540,7 @@ UpdateNativeWidgetZIndexes
 nsView
 *
 aView
-PRInt32
+int32_t
 aZIndex
 )
 {
@@ -2565,7 +2565,7 @@ GetWidget
 (
 )
 ;
-PRInt32
+int32_t
 curZ
 ;
 widget
@@ -2643,7 +2643,7 @@ aZIndex
 }
 }
 static
-PRInt32
+int32_t
 FindNonAutoZIndex
 (
 nsView
@@ -3844,7 +3844,7 @@ SetZIndex
 (
 bool
 aAuto
-PRInt32
+int32_t
 aZIndex
 bool
 aTopMost
@@ -4095,12 +4095,12 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
 {
-PRInt32
+int32_t
 i
 ;
 for
@@ -4214,7 +4214,7 @@ Release
 (
 )
 ;
-PRInt32
+int32_t
 Z
 ;
 mWindow
@@ -4518,7 +4518,7 @@ nsView
 *
 aOther
 const
-PRInt32
+int32_t
 aAPD
 )
 const
@@ -4614,7 +4614,7 @@ GetViewManager
 (
 )
 ;
-PRInt32
+int32_t
 currAPD
 =
 currVM
@@ -4674,7 +4674,7 @@ newVM
 currVM
 )
 {
-PRInt32
+int32_t
 newAPD
 =
 newVM
@@ -5026,7 +5026,7 @@ to
 our
 appunits
 .
-PRInt32
+int32_t
 widgetAPD
 =
 widgetView
@@ -5041,7 +5041,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-PRInt32
+int32_t
 ourAPD
 =
 static_cast
@@ -5155,7 +5155,7 @@ nsPoint
 *
 aOffset
 const
-PRInt32
+int32_t
 aAPD
 )
 const
@@ -5233,7 +5233,7 @@ GetViewManager
 (
 )
 ;
-PRInt32
+int32_t
 currAPD
 =
 currVM
@@ -5286,7 +5286,7 @@ newVM
 currVM
 )
 {
-PRInt32
+int32_t
 newAPD
 =
 newVM
@@ -5601,7 +5601,7 @@ return
 mDimBounds
 ;
 }
-PRInt32
+int32_t
 ourAPD
 =
 VM
@@ -5611,7 +5611,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-PRInt32
+int32_t
 parentAPD
 =
 parent
@@ -5779,9 +5779,9 @@ WindowMoved
 nsIWidget
 *
 aWidget
-PRInt32
+int32_t
 x
-PRInt32
+int32_t
 y
 )
 {
@@ -5837,9 +5837,9 @@ WindowResized
 nsIWidget
 *
 aWidget
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 )
 {
@@ -5899,7 +5899,7 @@ devContext
 )
 )
 ;
-PRInt32
+int32_t
 p2a
 =
 devContext

@@ -882,7 +882,7 @@ the
 container
 API
 .
-PRInt32
+int32_t
 index
 ;
 rv

@@ -560,7 +560,7 @@ nsIContent
 aContent
 )
 {
-PRUint32
+uint32_t
 numKids
 =
 aContent
@@ -572,7 +572,7 @@ GetChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 kid
 =
 0
@@ -1415,12 +1415,12 @@ nsMathMLTokenFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -1968,7 +1968,7 @@ false
 data
 )
 ;
-PRInt32
+int32_t
 length
 =
 data

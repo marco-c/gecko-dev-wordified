@@ -448,7 +448,7 @@ const
 nsACString
 &
 aCharset
-PRInt32
+int32_t
 aSource
 )
 ;
@@ -477,7 +477,7 @@ GetDocumentCharset
 nsACString
 &
 aCharset
-PRInt32
+int32_t
 &
 aSource
 )
@@ -1258,7 +1258,7 @@ InitializeDocWriteParserState
 nsAHtml5TreeBuilderState
 *
 aState
-PRInt32
+int32_t
 aLine
 )
 ;
@@ -1441,7 +1441,7 @@ evaluated
 .
 *
 /
-PRInt32
+int32_t
 mParserInsertedScriptsBeingEvaluated
 ;
 /
@@ -1652,7 +1652,7 @@ mStreamParser
 *
 *
 /
-PRInt32
+int32_t
 mRootContextLineNumber
 ;
 /

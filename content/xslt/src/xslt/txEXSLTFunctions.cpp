@@ -1209,10 +1209,10 @@ implementations
 struct
 txEXSLTFunctionDescriptor
 {
-PRInt8
+int8_t
 mMinParams
 ;
-PRInt8
+int8_t
 mMaxParams
 ;
 Expr
@@ -1226,7 +1226,7 @@ nsIAtom
 *
 mName
 ;
-PRInt32
+int32_t
 mNamespaceID
 ;
 const
@@ -2205,12 +2205,12 @@ mType
 =
 INTERSECTION
 ;
-PRInt32
+int32_t
 searchPos
 =
 0
 ;
-PRInt32
+int32_t
 i
 len
 =
@@ -2249,7 +2249,7 @@ get
 i
 )
 ;
-PRInt32
+int32_t
 foundPos
 =
 nodes2
@@ -2392,7 +2392,7 @@ Init
 (
 )
 ;
-PRInt32
+int32_t
 i
 len
 =
@@ -2554,7 +2554,7 @@ found
 =
 false
 ;
-PRInt32
+int32_t
 i
 len
 =
@@ -2739,7 +2739,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 end
 =
 nodes1
@@ -2764,7 +2764,7 @@ end
 0
 )
 {
-PRInt32
+int32_t
 i
 =
 0
@@ -2875,7 +2875,7 @@ rv
 nsAutoString
 str
 ;
-PRInt32
+int32_t
 i
 len
 =
@@ -3099,7 +3099,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 tailIndex
 ;
 /
@@ -3297,7 +3297,7 @@ get
 }
 else
 {
-PRInt32
+int32_t
 found
 start
 =
@@ -3380,7 +3380,7 @@ tailIndex
 !
 =
 (
-PRUint32
+uint32_t
 )
 string
 .
@@ -3508,7 +3508,7 @@ MOZ_DOUBLE_POSITIVE_INFINITY
 (
 )
 ;
-PRInt32
+int32_t
 i
 len
 =
@@ -3726,7 +3726,7 @@ MOZ_DOUBLE_POSITIVE_INFINITY
 (
 )
 ;
-PRInt32
+int32_t
 i
 len
 =
@@ -3961,7 +3961,7 @@ PR_LocalTimeParameters
 prtime
 )
 ;
-PRInt32
+int32_t
 offset
 =
 (
@@ -4216,7 +4216,7 @@ TX_ConstructEXSLTFunction
 nsIAtom
 *
 aName
-PRInt32
+int32_t
 aNamespaceID
 txStylesheetCompilerState
 *
@@ -4227,7 +4227,7 @@ FunctionCall
 aResult
 )
 {
-PRUint32
+uint32_t
 i
 ;
 for
@@ -4314,7 +4314,7 @@ TX_InitEXSLTFunction
 (
 )
 {
-PRUint32
+uint32_t
 i
 ;
 for

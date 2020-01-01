@@ -2901,9 +2901,9 @@ nsEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
-PRUint8
+uint8_t
 structType
 )
 :
@@ -2964,7 +2964,7 @@ nsEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 )
 :
@@ -3045,7 +3045,7 @@ See
 event
 struct
 types
-PRUint8
+uint8_t
 eventStructType
 ;
 /
@@ -3053,7 +3053,7 @@ eventStructType
 See
 GUI
 MESSAGES
-PRUint32
+uint32_t
 message
 ;
 /
@@ -3128,7 +3128,7 @@ the
 message
 was
 created
-PRUint64
+uint64_t
 time
 ;
 /
@@ -3160,7 +3160,7 @@ event
 is
 trusted
 .
-PRUint32
+uint32_t
 flags
 ;
 /
@@ -3229,12 +3229,12 @@ nsGUIEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 nsIWidget
 *
 w
-PRUint8
+uint8_t
 structType
 )
 :
@@ -3270,7 +3270,7 @@ nsGUIEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 nsIWidget
 *
@@ -3340,7 +3340,7 @@ nsScriptErrorEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 )
 :
@@ -3364,7 +3364,7 @@ nullptr
 )
 {
 }
-PRInt32
+int32_t
 lineNr
 ;
 const
@@ -3399,7 +3399,7 @@ nsScrollbarEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 nsIWidget
 *
@@ -3435,7 +3435,7 @@ thumbSize
 .
 See
 nsIScrollbar
-PRUint32
+uint32_t
 position
 ;
 }
@@ -3466,7 +3466,7 @@ nsScrollPortEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 nsIWidget
 *
@@ -3503,7 +3503,7 @@ nsScrollAreaEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 nsIWidget
 *
@@ -3536,12 +3536,12 @@ nsInputEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 nsIWidget
 *
 w
-PRUint8
+uint8_t
 structType
 )
 :
@@ -3569,7 +3569,7 @@ nsInputEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 nsIWidget
 *
@@ -4179,12 +4179,12 @@ nsMouseEvent_base
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 nsIWidget
 *
 w
-PRUint8
+uint8_t
 type
 )
 :
@@ -4229,10 +4229,10 @@ nsISupports
 >
 relatedTarget
 ;
-PRInt16
+int16_t
 button
 ;
-PRInt16
+int16_t
 buttons
 ;
 /
@@ -4263,7 +4263,7 @@ Possible
 values
 at
 nsIDOMMouseEvent
-PRUint16
+uint16_t
 inputSource
 ;
 }
@@ -4418,12 +4418,12 @@ nsMouseEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 nsIWidget
 *
 w
-PRUint8
+uint8_t
 structType
 reasonType
 aReason
@@ -4505,7 +4505,7 @@ nsMouseEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 nsIWidget
 *
@@ -4720,7 +4720,7 @@ number
 of
 mouse
 clicks
-PRUint32
+uint32_t
 clickCount
 ;
 }
@@ -4745,7 +4745,7 @@ nsDragEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 nsIWidget
 *
@@ -4816,9 +4816,9 @@ nsAlternativeCharCode
 {
 nsAlternativeCharCode
 (
-PRUint32
+uint32_t
 aUnshiftedCharCode
-PRUint32
+uint32_t
 aShiftedCharCode
 )
 :
@@ -4832,10 +4832,10 @@ aShiftedCharCode
 )
 {
 }
-PRUint32
+uint32_t
 mUnshiftedCharCode
 ;
-PRUint32
+uint32_t
 mShiftedCharCode
 ;
 }
@@ -4879,7 +4879,7 @@ nsKeyEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 nsIWidget
 *
@@ -4920,7 +4920,7 @@ isChar
 see
 NS_VK
 codes
-PRUint32
+uint32_t
 keyCode
 ;
 /
@@ -4930,7 +4930,7 @@ OS
 translated
 Unicode
 char
-PRUint32
+uint32_t
 charCode
 ;
 /
@@ -4942,7 +4942,7 @@ nsIDOMKeyEvent
 :
 DOM_KEY_LOCATION_
 *
-PRUint32
+uint32_t
 location
 ;
 /
@@ -5363,10 +5363,10 @@ aOther
 )
 ;
 }
-PRUint8
+uint8_t
 mDefinedStyles
 ;
-PRUint8
+uint8_t
 mLineStyle
 ;
 /
@@ -5419,13 +5419,13 @@ mRangeType
 )
 {
 }
-PRUint32
+uint32_t
 mStartOffset
 ;
-PRUint32
+uint32_t
 mEndOffset
 ;
-PRUint32
+uint32_t
 mRangeType
 ;
 nsTextRangeStyle
@@ -5483,7 +5483,7 @@ nsTextEvent
 }
 public
 :
-PRUint32
+uint32_t
 seqno
 ;
 public
@@ -5492,7 +5492,7 @@ nsTextEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 nsIWidget
 *
@@ -5523,7 +5523,7 @@ false
 nsString
 theText
 ;
-PRUint32
+uint32_t
 rangeCount
 ;
 /
@@ -5602,7 +5602,7 @@ nsCompositionEvent
 }
 public
 :
-PRUint32
+uint32_t
 seqno
 ;
 public
@@ -5611,7 +5611,7 @@ nsCompositionEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 nsIWidget
 *
@@ -5738,7 +5738,7 @@ nsMouseScrollEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 nsIWidget
 *
@@ -5762,7 +5762,7 @@ false
 )
 {
 }
-PRInt32
+int32_t
 delta
 ;
 bool
@@ -5837,7 +5837,7 @@ WheelEvent
 (
 bool
 aIsTrusted
-PRUint32
+uint32_t
 aMessage
 nsIWidget
 *
@@ -5934,7 +5934,7 @@ nsIDOMWheelEvent
 :
 DOM_DELTA_
 *
-PRUint32
+uint32_t
 deltaMode
 ;
 /
@@ -6083,10 +6083,10 @@ DOM_DELTA_PAGE
 otherwise
 lines
 .
-PRInt32
+int32_t
 lineOrPageDeltaX
 ;
-PRInt32
+int32_t
 lineOrPageDeltaY
 ;
 /
@@ -6116,7 +6116,7 @@ for
 doing
 it
 .
-PRInt32
+int32_t
 GetPreferredIntDelta
 (
 )
@@ -6406,7 +6406,7 @@ nsGestureNotifyEvent
 (
 bool
 aIsTrusted
-PRUint32
+uint32_t
 aMsg
 nsIWidget
 *
@@ -6483,7 +6483,7 @@ nsQueryContentEvent
 (
 bool
 aIsTrusted
-PRUint32
+uint32_t
 aMsg
 nsIWidget
 *
@@ -6510,9 +6510,9 @@ false
 void
 InitForQueryTextContent
 (
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -6546,7 +6546,7 @@ aLength
 void
 InitForQueryCaretRect
 (
-PRUint32
+uint32_t
 aOffset
 )
 {
@@ -6574,9 +6574,9 @@ aOffset
 void
 InitForQueryTextRect
 (
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -6634,7 +6634,7 @@ refPoint
 aPoint
 ;
 }
-PRUint32
+uint32_t
 GetSelectionStart
 (
 void
@@ -6676,7 +6676,7 @@ Length
 )
 ;
 }
-PRUint32
+uint32_t
 GetSelectionEnd
 (
 void
@@ -6726,10 +6726,10 @@ mWasAsync
 ;
 struct
 {
-PRUint32
+uint32_t
 mOffset
 ;
-PRUint32
+uint32_t
 mLength
 ;
 }
@@ -6741,7 +6741,7 @@ void
 *
 mContentsRoot
 ;
-PRUint32
+uint32_t
 mOffset
 ;
 nsString
@@ -6866,7 +6866,7 @@ nsFocusEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 )
 :
@@ -6929,7 +6929,7 @@ nsSelectionEvent
 }
 public
 :
-PRUint32
+uint32_t
 seqno
 ;
 public
@@ -6938,7 +6938,7 @@ nsSelectionEvent
 (
 bool
 aIsTrusted
-PRUint32
+uint32_t
 aMsg
 nsIWidget
 *
@@ -6962,7 +6962,7 @@ false
 )
 {
 }
-PRUint32
+uint32_t
 mOffset
 ;
 /
@@ -6971,7 +6971,7 @@ start
 offset
 of
 selection
-PRUint32
+uint32_t
 mLength
 ;
 /
@@ -7021,7 +7021,7 @@ nsContentCommandEvent
 (
 bool
 aIsTrusted
-PRUint32
+uint32_t
 aMsg
 nsIWidget
 *
@@ -7107,7 +7107,7 @@ false
 )
 {
 }
-PRInt32
+int32_t
 mAmount
 ;
 /
@@ -7115,7 +7115,7 @@ mAmount
 [
 in
 ]
-PRUint8
+uint8_t
 mUnit
 ;
 /
@@ -7172,12 +7172,12 @@ nsMozTouchEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 nsIWidget
 *
 w
-PRUint32
+uint32_t
 streamIdArg
 )
 :
@@ -7194,7 +7194,7 @@ streamIdArg
 )
 {
 }
-PRUint32
+uint32_t
 streamId
 ;
 }
@@ -7269,7 +7269,7 @@ nsTouchEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 nsIWidget
 *
@@ -7362,7 +7362,7 @@ nsFormEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 )
 :
@@ -7471,9 +7471,9 @@ nsUIEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
-PRInt32
+int32_t
 d
 )
 :
@@ -7489,7 +7489,7 @@ d
 )
 {
 }
-PRInt32
+int32_t
 detail
 ;
 }
@@ -7515,12 +7515,12 @@ nsSimpleGestureEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 nsIWidget
 *
 w
-PRUint32
+uint32_t
 directionArg
 double
 deltaArg
@@ -7593,7 +7593,7 @@ clickCount
 )
 {
 }
-PRUint32
+uint32_t
 direction
 ;
 /
@@ -7613,7 +7613,7 @@ magnify
 and
 rotate
 events
-PRUint32
+uint32_t
 clickCount
 ;
 /
@@ -7639,7 +7639,7 @@ nsTransitionEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 const
 nsString
@@ -7685,7 +7685,7 @@ nsAnimationEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 const
 nsString
@@ -7743,7 +7743,7 @@ nsPluginEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 nsIWidget
 *

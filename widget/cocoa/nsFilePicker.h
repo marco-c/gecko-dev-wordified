@@ -203,7 +203,7 @@ aDefaultExtension
 NS_IMETHOD
 GetFilterIndex
 (
-PRInt32
+int32_t
 *
 aFilterIndex
 )
@@ -211,7 +211,7 @@ aFilterIndex
 NS_IMETHOD
 SetFilterIndex
 (
-PRInt32
+int32_t
 aFilterIndex
 )
 ;
@@ -254,7 +254,7 @@ aFiles
 NS_IMETHOD
 Show
 (
-PRInt16
+int16_t
 *
 _retval
 )
@@ -324,7 +324,7 @@ const
 nsAString
 &
 aTitle
-PRInt16
+int16_t
 aMode
 )
 ;
@@ -373,7 +373,7 @@ returnOK
 as
 result
 .
-PRInt16
+int16_t
 GetLocalFiles
 (
 const
@@ -390,7 +390,7 @@ nsIFile
 outFiles
 )
 ;
-PRInt16
+int16_t
 GetLocalFolder
 (
 const
@@ -403,7 +403,7 @@ nsIFile
 outFile
 )
 ;
-PRInt16
+int16_t
 PutLocalFile
 (
 const
@@ -446,7 +446,7 @@ GetAccessoryView
 nsString
 mTitle
 ;
-PRInt16
+int16_t
 mMode
 ;
 nsCOMArray
@@ -470,7 +470,7 @@ nsString
 >
 mTitles
 ;
-PRInt32
+int32_t
 mSelectedTypeIndex
 ;
 }

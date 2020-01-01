@@ -335,7 +335,7 @@ PBrowserChild
 AllocPBrowser
 (
 const
-PRUint32
+uint32_t
 &
 aChromeFlags
 const
@@ -409,7 +409,7 @@ NativeThreadId
 &
 id
 const
-PRUint32
+uint32_t
 &
 processType
 )
@@ -509,13 +509,13 @@ PAudioChild
 AllocPAudio
 (
 const
-PRInt32
+int32_t
 &
 const
-PRInt32
+int32_t
 &
 const
-PRInt32
+int32_t
 &
 )
 ;
@@ -567,7 +567,7 @@ bool
 &
 aForceSave
 const
-PRInt64
+int64_t
 &
 aContentLength
 const
@@ -826,7 +826,7 @@ bool
 RecvSetID
 (
 const
-PRUint64
+uint64_t
 &
 id
 )
@@ -864,7 +864,7 @@ nsString
 &
 aName
 const
-PRInt32
+int32_t
 &
 aState
 )
@@ -910,7 +910,7 @@ GetIndexedDBPath
 (
 )
 ;
-PRUint64
+uint64_t
 GetID
 (
 )
@@ -1039,7 +1039,7 @@ us
 .
 *
 /
-PRUint64
+uint64_t
 mID
 ;
 AppInfo

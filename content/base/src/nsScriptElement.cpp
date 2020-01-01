@@ -197,7 +197,7 @@ aIsInline
 nsIURI
 *
 aURI
-PRInt32
+int32_t
 aLineNo
 )
 {
@@ -326,7 +326,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-PRUint32
+uint32_t
 type
 =
 NS_SUCCEEDED
@@ -423,12 +423,12 @@ aDocument
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -452,7 +452,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
+int32_t
 aNewIndexInContainer
 )
 {
@@ -476,7 +476,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 )
 {

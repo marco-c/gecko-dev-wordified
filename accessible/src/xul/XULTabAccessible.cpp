@@ -451,7 +451,7 @@ aDoc
 XULTabAccessible
 :
 nsIAccessible
-PRUint8
+uint8_t
 XULTabAccessible
 :
 :
@@ -481,7 +481,7 @@ XULTabAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -531,7 +531,7 @@ XULTabAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 index
 )
 {
@@ -679,7 +679,7 @@ roles
 PAGETAB
 ;
 }
-PRUint64
+uint64_t
 XULTabAccessible
 :
 :
@@ -710,7 +710,7 @@ status
 from
 base
 class
-PRUint64
+uint64_t
 state
 =
 AccessibleWrap
@@ -780,7 +780,7 @@ return
 state
 ;
 }
-PRUint64
+uint64_t
 XULTabAccessible
 :
 :
@@ -789,7 +789,7 @@ NativeInteractiveState
 )
 const
 {
-PRUint64
+uint64_t
 state
 =
 Accessible
@@ -828,7 +828,7 @@ XULTabAccessible
 :
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -1153,7 +1153,7 @@ roles
 PAGETABLIST
 ;
 }
-PRUint8
+uint8_t
 XULTabsAccessible
 :
 :
@@ -1584,7 +1584,7 @@ XULTabpanelAccessible
 :
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 {

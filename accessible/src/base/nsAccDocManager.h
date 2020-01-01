@@ -448,7 +448,7 @@ HandleDOMDocumentLoad
 nsIDocument
 *
 aDocument
-PRUint32
+uint32_t
 aLoadEventType
 )
 ;

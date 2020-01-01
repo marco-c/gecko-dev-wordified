@@ -703,7 +703,7 @@ TestNotificationTextChange
 nsIWidget
 *
 aWidget
-PRUint32
+uint32_t
 aCode
 const
 nsAString
@@ -797,13 +797,13 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRInt32
+int32_t
 aCurSelfProgress
-PRInt32
+int32_t
 aMaxSelfProgress
-PRInt32
+int32_t
 aCurTotalProgress
-PRInt32
+int32_t
 aMaxTotalProgress
 )
 {
@@ -826,7 +826,7 @@ aRequest
 nsIURI
 *
 aLocation
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -870,7 +870,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aState
 )
 {
@@ -2192,7 +2192,7 @@ private
 ULONG
 mRefCnt
 ;
-PRUint32
+uint32_t
 mCurrentIndex
 ;
 public
@@ -2407,7 +2407,7 @@ E_FAIL
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3505,7 +3505,7 @@ E_OUTOFMEMORY
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3715,7 +3715,7 @@ hr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4723,7 +4723,7 @@ end
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5953,7 +5953,7 @@ pointer
 but
 strong
 .
-PRInt32
+int32_t
 mFocusCount
 ;
 TSFMgrImpl
@@ -8484,7 +8484,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aStateFlags
 nsresult
 aStatus
@@ -9068,7 +9068,7 @@ TestFocus
 void
 )
 {
-PRUint32
+uint32_t
 focus
 =
 mMgr
@@ -9372,7 +9372,7 @@ Text
 for
 testing
 const
-PRUint32
+uint32_t
 STRING_LENGTH
 =
 2
@@ -10452,7 +10452,7 @@ void
 )
 {
 const
-PRUint32
+uint32_t
 BUFFER_SIZE
 =
 (
@@ -10460,7 +10460,7 @@ BUFFER_SIZE
 )
 ;
 const
-PRUint32
+uint32_t
 RUNINFO_SIZE
 =
 (
@@ -10719,7 +10719,7 @@ GETTEXT2_START
 to
 GETTEXT2_END
 const
-PRUint32
+uint32_t
 GETTEXT2_START
 =
 (
@@ -10727,7 +10727,7 @@ GETTEXT2_START
 )
 ;
 const
-PRUint32
+uint32_t
 GETTEXT2_END
 =
 (
@@ -10741,7 +10741,7 @@ Length
 )
 ;
 const
-PRUint32
+uint32_t
 GETTEXT2_BUFFER_SIZE
 =
 (
@@ -10876,7 +10876,7 @@ SETTEXT1_END
 with
 insertString
 const
-PRUint32
+uint32_t
 SETTEXT1_START
 =
 (
@@ -10884,7 +10884,7 @@ SETTEXT1_START
 )
 ;
 const
-PRUint32
+uint32_t
 SETTEXT1_TAIL_LENGTH
 =
 (
@@ -10892,7 +10892,7 @@ SETTEXT1_TAIL_LENGTH
 )
 ;
 const
-PRUint32
+uint32_t
 SETTEXT1_END
 =
 (
@@ -11014,7 +11014,7 @@ false
 ;
 }
 const
-PRUint32
+uint32_t
 SETTEXT1_FINAL_LENGTH
 =
 (
@@ -11780,7 +11780,7 @@ textRect2
 BOOL
 clipped
 ;
-PRInt32
+int32_t
 val
 ;
 TsViewCookie
@@ -12843,7 +12843,7 @@ false
 ;
 }
 const
-PRUint32
+uint32_t
 bufferSize
 =
 0x100
@@ -14463,7 +14463,7 @@ TestNotificationTextChange
 nsIWidget
 *
 aWidget
-PRUint32
+uint32_t
 aCode
 const
 nsAString
@@ -15210,7 +15210,7 @@ r
 \
 n
 .
-PRUint32
+uint32_t
 testStringLength
 =
 mTestString
@@ -16452,7 +16452,7 @@ Truncate
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -16766,7 +16766,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 x
 y
 prevX
@@ -16897,13 +16897,13 @@ x
 )
 ;
 const
-PRInt32
+int32_t
 kLineWidth
 =
 x
 ;
 const
-PRInt32
+int32_t
 kLineHeight
 =
 y
@@ -17365,13 +17365,13 @@ WM_HSCROLL
 )
 ;
 const
-PRInt32
+int32_t
 kPageWidth
 =
 x
 ;
 const
-PRInt32
+int32_t
 kPageHeight
 =
 y

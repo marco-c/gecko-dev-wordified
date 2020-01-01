@@ -358,7 +358,7 @@ rv
 return
 rv
 ;
-PRUint32
+uint32_t
 contentLen
 ;
 if
@@ -367,7 +367,7 @@ lBase64
 )
 {
 const
-PRUint32
+uint32_t
 dataLen
 =
 dataBuffer
@@ -376,7 +376,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 resultLen
 =
 0

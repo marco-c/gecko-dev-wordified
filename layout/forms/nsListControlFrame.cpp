@@ -416,7 +416,7 @@ mozilla
 /
 Constants
 const
-PRInt32
+int32_t
 kMaxDropDownRows
 =
 20
@@ -433,7 +433,7 @@ for
 x
 browsers
 const
-PRInt32
+int32_t
 kNothingSelected
 =
 -
@@ -2351,7 +2351,7 @@ different
 fonts
 etc
 .
-PRInt32
+int32_t
 heightOfARow
 =
 GetMaxOptionHeight
@@ -2988,7 +2988,7 @@ state
 aReflowState
 )
 ;
-PRInt32
+int32_t
 length
 =
 GetNumberOfOptions
@@ -4286,7 +4286,7 @@ bp
 nscoord
 newHeight
 ;
-PRInt32
+int32_t
 rows
 ;
 if
@@ -4474,7 +4474,7 @@ GetScrollbarStyles
 can
 be
 devirtualized
-PRInt32
+int32_t
 verticalStyle
 =
 IsInDropDownMode
@@ -4923,7 +4923,7 @@ elements
 -
 -
 -
-PRInt32
+int32_t
 nsListControlFrame
 :
 :
@@ -4952,7 +4952,7 @@ if
 option
 )
 {
-PRInt32
+int32_t
 retval
 ;
 option
@@ -5046,9 +5046,9 @@ nsListControlFrame
 :
 ExtendedSelection
 (
-PRInt32
+int32_t
 aStartIndex
-PRInt32
+int32_t
 aEndIndex
 bool
 aClearAll
@@ -5129,7 +5129,7 @@ nsListControlFrame
 :
 SingleSelection
 (
-PRInt32
+int32_t
 aClickedIndex
 bool
 aDoToggle
@@ -5242,7 +5242,7 @@ nsListControlFrame
 :
 InitSelectionRange
 (
-PRInt32
+int32_t
 aClickedIndex
 )
 {
@@ -5401,7 +5401,7 @@ select
 .
 /
 /
-PRInt32
+int32_t
 selectedIndex
 =
 GetSelectedIndex
@@ -5449,7 +5449,7 @@ null
 "
 )
 ;
-PRUint32
+uint32_t
 numOptions
 ;
 options
@@ -5461,7 +5461,7 @@ GetLength
 numOptions
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 /
@@ -5659,7 +5659,7 @@ nsListControlFrame
 :
 PerformSelection
 (
-PRInt32
+int32_t
 aClickedIndex
 bool
 aIsShift
@@ -5759,10 +5759,10 @@ current
 option
 is
 disabled
-PRInt32
+int32_t
 startIndex
 ;
-PRInt32
+int32_t
 endIndex
 ;
 if
@@ -5995,7 +5995,7 @@ HandleListSelection
 nsIDOMEvent
 *
 aEvent
-PRInt32
+int32_t
 aClickedIndex
 )
 {
@@ -7035,7 +7035,7 @@ nsListControlFrame
 :
 GetSizeAttribute
 (
-PRUint32
+uint32_t
 *
 aSize
 )
@@ -7377,7 +7377,7 @@ GetOptionAsContent
 nsIDOMHTMLOptionsCollection
 *
 aCollection
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -7443,7 +7443,7 @@ nsListControlFrame
 :
 GetOptionContent
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -7564,7 +7564,7 @@ GetOption
 nsIDOMHTMLOptionsCollection
 *
 aCollection
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -7706,7 +7706,7 @@ nsListControlFrame
 :
 IsContentSelectedByIndex
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -7747,7 +7747,7 @@ nsListControlFrame
 :
 OnOptionSelected
 (
-PRInt32
+int32_t
 aIndex
 bool
 aSelected
@@ -7858,7 +7858,7 @@ to
 the
 selected
 index
-PRInt32
+int32_t
 indexToSelect
 =
 kNothingSelected
@@ -8019,7 +8019,7 @@ nsListControlFrame
 :
 GetOptionText
 (
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -8049,7 +8049,7 @@ if
 options
 )
 {
-PRUint32
+uint32_t
 numOptions
 ;
 options
@@ -8225,7 +8225,7 @@ endif
 }
 }
 }
-PRInt32
+int32_t
 nsListControlFrame
 :
 :
@@ -8233,7 +8233,7 @@ GetSelectedIndex
 (
 )
 {
-PRInt32
+int32_t
 aIndex
 ;
 nsCOMPtr
@@ -8294,7 +8294,7 @@ this
 is
 kNothingSelected
 .
-PRInt32
+int32_t
 focusedIndex
 =
 (
@@ -8382,7 +8382,7 @@ nsIDOMNode
 >
 node
 ;
-PRUint32
+uint32_t
 length
 ;
 selectElement
@@ -8406,7 +8406,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8540,7 +8540,7 @@ nullptr
 )
 ;
 }
-PRInt32
+int32_t
 nsListControlFrame
 :
 :
@@ -8579,7 +8579,7 @@ return
 }
 else
 {
-PRUint32
+uint32_t
 length
 =
 0
@@ -8595,7 +8595,7 @@ length
 ;
 return
 (
-PRInt32
+int32_t
 )
 length
 ;
@@ -8771,7 +8771,7 @@ and
 options
 /
 /
-PRInt32
+int32_t
 numContentItems
 =
 0
@@ -8942,7 +8942,7 @@ nsListControlFrame
 :
 AddOption
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -9059,12 +9059,12 @@ NS_OK
 ;
 }
 static
-PRInt32
+int32_t
 DecrementAndClamp
 (
-PRInt32
+int32_t
 aSelectionIndex
-PRInt32
+int32_t
 aLength
 )
 {
@@ -9091,7 +9091,7 @@ nsListControlFrame
 :
 RemoveOption
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -9155,7 +9155,7 @@ kNothingSelected
 "
 )
 ;
-PRInt32
+int32_t
 numOptions
 =
 GetNumberOfOptions
@@ -9212,14 +9212,14 @@ index
 "
 )
 ;
-PRInt32
+int32_t
 forward
 =
 mEndSelectionIndex
 -
 mStartSelectionIndex
 ;
-PRInt32
+int32_t
 *
 low
 =
@@ -9234,7 +9234,7 @@ mStartSelectionIndex
 &
 mEndSelectionIndex
 ;
-PRInt32
+int32_t
 *
 high
 =
@@ -9424,9 +9424,9 @@ nsListControlFrame
 :
 SetOptionsSelectedFromFrame
 (
-PRInt32
+int32_t
 aStartIndex
-PRInt32
+int32_t
 aEndIndex
 bool
 aValue
@@ -9498,7 +9498,7 @@ nsListControlFrame
 :
 ToggleOptionSelectedFromFrame
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -9745,7 +9745,7 @@ nsListControlFrame
 :
 ComboboxFinish
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -9765,7 +9765,7 @@ false
 false
 )
 ;
-PRInt32
+int32_t
 displayIndex
 =
 mComboboxFrame
@@ -9857,7 +9857,7 @@ hit
 without
 changing
 anything
-PRInt32
+int32_t
 index
 =
 mComboboxFrame
@@ -9933,9 +9933,9 @@ nsListControlFrame
 :
 OnSetSelectedIndex
 (
-PRInt32
+int32_t
 aOldIndex
-PRInt32
+int32_t
 aNewIndex
 )
 {
@@ -10302,7 +10302,7 @@ selected
 =
 false
 ;
-PRInt32
+int32_t
 indx
 =
 val
@@ -11045,7 +11045,7 @@ aY
 nsIFrame
 *
 aForChild
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -11135,7 +11135,7 @@ nsListControlFrame
 :
 IsOptionDisabled
 (
-PRInt32
+int32_t
 anIndex
 bool
 &
@@ -11362,7 +11362,7 @@ if
 mouseEvent
 )
 {
-PRUint16
+uint16_t
 whichButton
 ;
 if
@@ -11457,7 +11457,7 @@ CalcIntrinsicHeight
 (
 nscoord
 aHeightOfARow
-PRInt32
+int32_t
 aNumberOfOptions
 )
 {
@@ -12049,7 +12049,7 @@ GetInternalNSEvent
 (
 )
 ;
-PRInt32
+int32_t
 selectedIndex
 ;
 if
@@ -12446,7 +12446,7 @@ GetIndexFromDOMEvent
 nsIDOMEvent
 *
 aMouseEvent
-PRInt32
+int32_t
 &
 aCurIndex
 )
@@ -12571,7 +12571,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 numOptions
 =
 GetNumberOfOptions
@@ -13027,7 +13027,7 @@ NS_OK
 ;
 }
 }
-PRInt32
+int32_t
 selectedIndex
 ;
 if
@@ -13381,7 +13381,7 @@ IsDroppedDown
 )
 )
 {
-PRInt32
+int32_t
 selectedIndex
 ;
 if
@@ -13470,7 +13470,7 @@ IsInDropDownMode
 )
 )
 {
-PRInt32
+int32_t
 selectedIndex
 ;
 if
@@ -13756,7 +13756,7 @@ nsListControlFrame
 :
 ScrollToIndex
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -14212,16 +14212,16 @@ nsListControlFrame
 :
 AdjustIndexForDisabledOpt
 (
-PRInt32
+int32_t
 aStartIndex
-PRInt32
+int32_t
 &
 aNewIndex
-PRInt32
+int32_t
 aNumOptions
-PRInt32
+int32_t
 aDoAdjustInc
-PRInt32
+int32_t
 aDoAdjustIncNext
 )
 {
@@ -14280,7 +14280,7 @@ in
 the
 search
 range
-PRInt32
+int32_t
 bottom
 =
 0
@@ -14293,7 +14293,7 @@ in
 the
 search
 range
-PRInt32
+int32_t
 top
 =
 aNumOptions
@@ -14375,7 +14375,7 @@ it
 just
 yet
 .
-PRInt32
+int32_t
 startIndex
 =
 aStartIndex
@@ -14394,7 +14394,7 @@ GetSelectedIndex
 )
 ;
 }
-PRInt32
+int32_t
 newIndex
 =
 startIndex
@@ -14928,12 +14928,12 @@ keyEvent
 NS_ERROR_FAILURE
 )
 ;
-PRUint32
+uint32_t
 keycode
 =
 0
 ;
-PRUint32
+uint32_t
 charcode
 =
 0
@@ -15087,7 +15087,7 @@ options
 NS_ERROR_FAILURE
 )
 ;
-PRUint32
+uint32_t
 numOptions
 =
 0
@@ -15135,7 +15135,7 @@ will
 not
 set
 this
-PRInt32
+int32_t
 newIndex
 =
 kNothingSelected
@@ -15296,7 +15296,7 @@ AdjustIndexForDisabledOpt
 mEndSelectionIndex
 newIndex
 (
-PRInt32
+int32_t
 )
 numOptions
 -
@@ -15326,7 +15326,7 @@ AdjustIndexForDisabledOpt
 mEndSelectionIndex
 newIndex
 (
-PRInt32
+int32_t
 )
 numOptions
 1
@@ -15467,14 +15467,14 @@ AdjustIndexForDisabledOpt
 mEndSelectionIndex
 newIndex
 (
-PRInt32
+int32_t
 )
 numOptions
 -
 NS_MAX
 (
 1
-PRInt32
+int32_t
 (
 mNumDisplayRows
 -
@@ -15500,13 +15500,13 @@ AdjustIndexForDisabledOpt
 mEndSelectionIndex
 newIndex
 (
-PRInt32
+int32_t
 )
 numOptions
 NS_MAX
 (
 1
-PRInt32
+int32_t
 (
 mNumDisplayRows
 -
@@ -15531,7 +15531,7 @@ AdjustIndexForDisabledOpt
 0
 newIndex
 (
-PRInt32
+int32_t
 )
 numOptions
 0
@@ -15555,7 +15555,7 @@ numOptions
 1
 newIndex
 (
-PRInt32
+int32_t
 )
 numOptions
 0
@@ -15913,7 +15913,7 @@ GetIncrementalString
 )
 )
 ;
-PRUint32
+uint32_t
 charIndex
 =
 1
@@ -16050,7 +16050,7 @@ at
 *
 0
 .
-PRInt32
+int32_t
 startIndex
 =
 GetSelectedIndex
@@ -16084,7 +16084,7 @@ startIndex
 +
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 for
@@ -16102,7 +16102,7 @@ i
 +
 )
 {
-PRUint32
+uint32_t
 index
 =
 (

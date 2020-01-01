@@ -711,7 +711,7 @@ char
 >
 data
 ;
-PRUint32
+uint32_t
 size
 ;
 CacheEntry
@@ -739,7 +739,7 @@ CacheEntry
 char
 *
 buf
-PRUint32
+uint32_t
 len
 )
 :
@@ -866,7 +866,7 @@ char
 *
 *
 outbuf
-PRUint32
+uint32_t
 *
 length
 )
@@ -896,7 +896,7 @@ const
 char
 *
 inbuf
-PRUint32
+uint32_t
 length
 )
 ;

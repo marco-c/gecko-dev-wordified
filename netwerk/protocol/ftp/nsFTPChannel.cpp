@@ -256,7 +256,7 @@ to
 nspr
 static
 inline
-PRUint32
+uint32_t
 PRTimeToSeconds
 (
 PRTime
@@ -264,7 +264,7 @@ t_usec
 )
 {
 return
-PRUint32
+uint32_t
 (
 t_usec
 /
@@ -577,7 +577,7 @@ const
 nsACString
 &
 contentType
-PRInt32
+int32_t
 contentLength
 )
 {
@@ -725,7 +725,7 @@ nsFtpChannel
 :
 ResumeAt
 (
-PRUint64
+uint64_t
 aStartPos
 const
 nsACString

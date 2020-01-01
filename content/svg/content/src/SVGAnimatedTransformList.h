@@ -639,7 +639,7 @@ aResult
 )
 ;
 static
-PRInt32
+int32_t
 ParseParameterList
 (
 const
@@ -649,7 +649,7 @@ aSpec
 float
 *
 aVars
-PRInt32
+int32_t
 aNVars
 )
 ;

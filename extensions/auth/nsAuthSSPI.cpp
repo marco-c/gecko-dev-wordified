@@ -889,7 +889,7 @@ const
 char
 *
 serviceName
-PRUint32
+uint32_t
 serviceFlags
 const
 PRUnichar
@@ -1075,7 +1075,7 @@ Assign
 serviceName
 )
 ;
-PRInt32
+int32_t
 index
 =
 mServiceName
@@ -1461,13 +1461,13 @@ const
 void
 *
 inToken
-PRUint32
+uint32_t
 inTokenLen
 void
 *
 *
 outToken
-PRUint32
+uint32_t
 *
 outTokenLen
 )
@@ -2801,13 +2801,13 @@ const
 void
 *
 inToken
-PRUint32
+uint32_t
 inTokenLen
 void
 *
 *
 outToken
-PRUint32
+uint32_t
 *
 outTokenLen
 )
@@ -3251,7 +3251,7 @@ const
 void
 *
 inToken
-PRUint32
+uint32_t
 inTokenLen
 bool
 confidential
@@ -3259,7 +3259,7 @@ void
 *
 *
 outToken
-PRUint32
+uint32_t
 *
 outTokenLen
 )
@@ -3720,7 +3720,7 @@ nsAuthSSPI
 :
 GetModuleProperties
 (
-PRUint32
+uint32_t
 *
 flags
 )

@@ -266,7 +266,7 @@ virtual
 nsresult
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -286,7 +286,7 @@ InsertChildAt
 nsIContent
 *
 aChild
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -296,7 +296,7 @@ virtual
 void
 RemoveChildAt
 (
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -307,7 +307,7 @@ aNotify
 nsIFormControl
 NS_IMETHOD_
 (
-PRUint32
+uint32_t
 )
 GetType
 (
@@ -469,7 +469,7 @@ MatchListedElements
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *

@@ -883,7 +883,7 @@ mMilliseconds
 aMillis
 ;
 }
-PRInt8
+int8_t
 CompareTo
 (
 const

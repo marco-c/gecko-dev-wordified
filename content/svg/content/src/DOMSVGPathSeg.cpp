@@ -342,7 +342,7 @@ DOMSVGPathSeg
 DOMSVGPathSegList
 *
 aList
-PRUint32
+uint32_t
 aListIndex
 bool
 aIsAnimValItem
@@ -434,7 +434,7 @@ DOMSVGPathSeg
 :
 GetPathSegType
 (
-PRUint16
+uint16_t
 *
 aPathSegType
 )
@@ -442,7 +442,7 @@ aPathSegType
 *
 aPathSegType
 =
-PRUint16
+uint16_t
 (
 Type
 (
@@ -489,7 +489,7 @@ InsertingIntoList
 DOMSVGPathSegList
 *
 aList
-PRUint32
+uint32_t
 aListIndex
 bool
 aIsAnimValItem
@@ -548,7 +548,7 @@ RemovingFromList
 (
 )
 {
-PRUint32
+uint32_t
 argCount
 =
 SVGPathSegUtils
@@ -624,7 +624,7 @@ pointer
 "
 )
 ;
-PRUint32
+uint32_t
 argCount
 =
 SVGPathSegUtils
@@ -737,7 +737,7 @@ InternalItem
 (
 )
 {
-PRUint32
+uint32_t
 dataIndex
 =
 mList
@@ -937,7 +937,7 @@ SVGPathSegUtils
 :
 ArgCountForType
 (
-PRUint32
+uint32_t
 (
 segType
 )
@@ -945,7 +945,7 @@ segType
 |
 |
 \
-PRUint32
+uint32_t
 (
 segType
 )
@@ -1009,7 +1009,7 @@ SVGPathSegUtils
 :
 ArgCountForType
 (
-PRUint32
+uint32_t
 (
 segType
 )
@@ -1033,7 +1033,7 @@ DOMSVGPathSegList
 *
 aList
 \
-PRUint32
+uint32_t
 aListIndex
 \
 bool
@@ -1067,7 +1067,7 @@ DOMSVGPathSeg
 /
 \
 virtual
-PRUint32
+uint32_t
 \
 Type
 (
@@ -4655,13 +4655,13 @@ CreateFor
 DOMSVGPathSegList
 *
 aList
-PRUint32
+uint32_t
 aListIndex
 bool
 aIsAnimValItem
 )
 {
-PRUint32
+uint32_t
 dataIndex
 =
 aList
@@ -4691,7 +4691,7 @@ mData
 dataIndex
 ]
 ;
-PRUint32
+uint32_t
 type
 =
 SVGPathSegUtils

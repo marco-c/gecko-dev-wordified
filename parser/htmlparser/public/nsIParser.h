@@ -797,7 +797,7 @@ const
 nsACString
 &
 aCharset
-PRInt32
+int32_t
 aSource
 )
 =
@@ -812,7 +812,7 @@ GetDocumentCharset
 nsACString
 &
 oCharset
-PRInt32
+int32_t
 &
 oSource
 )

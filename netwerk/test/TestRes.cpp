@@ -636,7 +636,7 @@ while
 1
 )
 {
-PRUint32
+uint32_t
 amt
 ;
 rv
@@ -1187,9 +1187,9 @@ ctxt
 nsIInputStream
 *
 inStr
-PRUint32
+uint32_t
 sourceOffset
-PRUint32
+uint32_t
 count
 )
 {
@@ -1209,7 +1209,7 @@ count
 0
 )
 {
-PRUint32
+uint32_t
 amt
 ;
 rv

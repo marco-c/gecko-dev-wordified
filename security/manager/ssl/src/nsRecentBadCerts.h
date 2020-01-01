@@ -326,7 +326,7 @@ to
 list_size
 -
 1
-PRUint32
+uint32_t
 mNextStorePosition
 ;
 }

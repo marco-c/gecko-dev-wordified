@@ -243,7 +243,7 @@ mMessages
 How
 big
 ?
-PRUint32
+uint32_t
 mBufferSize
 ;
 /
@@ -264,7 +264,7 @@ next
 *
 log
 message
-PRUint32
+uint32_t
 mCurrent
 ;
 /

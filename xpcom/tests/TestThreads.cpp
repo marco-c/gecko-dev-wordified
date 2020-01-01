@@ -535,7 +535,7 @@ gNum
 ;
 }
 static
-PRInt32
+int32_t
 GetGlobalCount
 (
 )
@@ -565,10 +565,10 @@ run
 protected
 :
 static
-PRInt32
+int32_t
 gNum
 ;
-PRInt32
+int32_t
 mNum
 ;
 bool
@@ -576,7 +576,7 @@ mWasRun
 ;
 }
 ;
-PRInt32
+int32_t
 nsStressRunner
 :
 :

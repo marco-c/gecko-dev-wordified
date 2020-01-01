@@ -398,9 +398,9 @@ Fills
 outVariant
 with
 double
-PRUint32
+uint32_t
 or
-PRInt32
+int32_t
 .
 /
 /
@@ -446,7 +446,7 @@ group
 results
 in
 a
-PRInt32
+int32_t
 .
 .
 .
@@ -543,7 +543,7 @@ group
 results
 in
 a
-PRUint32
+uint32_t
 .
 .
 .
@@ -1214,7 +1214,7 @@ mArrayValue
 \
 for
 (
-PRUint32
+uint32_t
 i
 =
 data
@@ -1301,7 +1301,7 @@ mArrayValue
 \
 for
 (
-PRUint32
+uint32_t
 i
 =
 data
@@ -1603,24 +1603,24 @@ static
 nsresult
 CloneArray
 (
-PRUint16
+uint16_t
 inType
 const
 nsIID
 *
 inIID
-PRUint32
+uint32_t
 inCount
 void
 *
 inValue
-PRUint16
+uint16_t
 *
 outType
 nsIID
 *
 outIID
-PRUint32
+uint32_t
 *
 outCount
 void
@@ -1674,7 +1674,7 @@ param
 "
 )
 ;
-PRUint32
+uint32_t
 allocatedValueCount
 =
 0
@@ -1684,7 +1684,7 @@ rv
 =
 NS_OK
 ;
-PRUint32
+uint32_t
 i
 ;
 /
@@ -1726,7 +1726,7 @@ elementSize
 =
 sizeof
 (
-PRInt8
+int8_t
 )
 ;
 break
@@ -1741,7 +1741,7 @@ elementSize
 =
 sizeof
 (
-PRInt16
+int16_t
 )
 ;
 break
@@ -1756,7 +1756,7 @@ elementSize
 =
 sizeof
 (
-PRInt32
+int32_t
 )
 ;
 break
@@ -1771,7 +1771,7 @@ elementSize
 =
 sizeof
 (
-PRInt64
+int64_t
 )
 ;
 break
@@ -1786,7 +1786,7 @@ elementSize
 =
 sizeof
 (
-PRUint8
+uint8_t
 )
 ;
 break
@@ -1801,7 +1801,7 @@ elementSize
 =
 sizeof
 (
-PRUint16
+uint16_t
 )
 ;
 break
@@ -1816,7 +1816,7 @@ elementSize
 =
 sizeof
 (
-PRUint32
+uint32_t
 )
 ;
 break
@@ -1831,7 +1831,7 @@ elementSize
 =
 sizeof
 (
-PRUint64
+uint64_t
 )
 ;
 break
@@ -3149,7 +3149,7 @@ VTYPE_INT32
 \
 {
 \
-PRInt32
+int32_t
 value
 =
 tempData
@@ -3236,7 +3236,7 @@ VTYPE_UINT32
 \
 {
 \
-PRUint32
+uint32_t
 value
 =
 tempData
@@ -3606,7 +3606,7 @@ methods
 NUMERIC_CONVERSION_METHOD_NORMAL
 (
 VTYPE_INT8
-PRUint8
+uint8_t
 Int8
 (
 -
@@ -3619,7 +3619,7 @@ Int8
 NUMERIC_CONVERSION_METHOD_NORMAL
 (
 VTYPE_INT16
-PRInt16
+int16_t
 Int16
 (
 -
@@ -3632,21 +3632,21 @@ Int16
 NUMERIC_CONVERSION_METHOD_BEGIN
 (
 VTYPE_INT32
-PRInt32
+int32_t
 Int32
 )
 CASE__NUMERIC_CONVERSION_INT32_JUST_CAST
 (
-PRInt32
+int32_t
 )
 CASE__NUMERIC_CONVERSION_UINT32_MAX
 (
-PRInt32
+int32_t
 2147483647
 )
 CASE__NUMERIC_CONVERSION_DOUBLE_MIN_MAX_INT
 (
-PRInt32
+int32_t
 (
 -
 2147483647
@@ -3659,7 +3659,7 @@ NUMERIC_CONVERSION_METHOD_END
 NUMERIC_CONVERSION_METHOD_NORMAL
 (
 VTYPE_UINT8
-PRUint8
+uint8_t
 Uint8
 0
 255
@@ -3667,7 +3667,7 @@ Uint8
 NUMERIC_CONVERSION_METHOD_NORMAL
 (
 VTYPE_UINT16
-PRUint16
+uint16_t
 Uint16
 0
 65535
@@ -3675,22 +3675,22 @@ Uint16
 NUMERIC_CONVERSION_METHOD_BEGIN
 (
 VTYPE_UINT32
-PRUint32
+uint32_t
 Uint32
 )
 CASE__NUMERIC_CONVERSION_INT32_MIN_MAX
 (
-PRUint32
+uint32_t
 0
 2147483647
 )
 CASE__NUMERIC_CONVERSION_UINT32_JUST_CAST
 (
-PRUint32
+uint32_t
 )
 CASE__NUMERIC_CONVERSION_DOUBLE_MIN_MAX_INT
 (
-PRUint32
+uint32_t
 0
 4294967295U
 )
@@ -4098,7 +4098,7 @@ const
 nsDiscriminatedUnion
 &
 data
-PRInt64
+int64_t
 *
 _retval
 )
@@ -4259,7 +4259,7 @@ const
 nsDiscriminatedUnion
 &
 data
-PRUint64
+uint64_t
 *
 _retval
 )
@@ -4272,7 +4272,7 @@ ConvertToInt64
 (
 data
 (
-PRInt64
+int64_t
 *
 )
 _retval
@@ -5217,7 +5217,7 @@ VTYPE_INT64
 %
 lld
 "
-PRInt64
+int64_t
 mInt64Value
 )
 CASE__SMPRINTF_NUMBER
@@ -5257,7 +5257,7 @@ VTYPE_UINT64
 %
 llu
 "
-PRInt64
+int64_t
 mUint64Value
 )
 /
@@ -6237,7 +6237,7 @@ char
 _retval
 )
 {
-PRUint32
+uint32_t
 ignored
 ;
 return
@@ -6274,7 +6274,7 @@ PRUnichar
 _retval
 )
 {
-PRUint32
+uint32_t
 ignored
 ;
 return
@@ -6305,7 +6305,7 @@ const
 nsDiscriminatedUnion
 &
 data
-PRUint32
+uint32_t
 *
 size
 char
@@ -6778,7 +6778,7 @@ const
 nsDiscriminatedUnion
 &
 data
-PRUint32
+uint32_t
 *
 size
 PRUnichar
@@ -7411,13 +7411,13 @@ const
 nsDiscriminatedUnion
 &
 data
-PRUint16
+uint16_t
 *
 type
 nsIID
 *
 iid
-PRUint32
+uint32_t
 *
 count
 void
@@ -7942,7 +7942,7 @@ nsIVariant
 aValue
 )
 {
-PRUint16
+uint16_t
 type
 ;
 nsresult
@@ -7986,7 +7986,7 @@ CASE__SET_FROM_VARIANT_VTYPE_CAST
 (
 VTYPE_INT8
 (
-PRUint8
+uint8_t
 *
 )
 mInt8Value
@@ -8581,7 +8581,7 @@ SetFromInt8
 nsDiscriminatedUnion
 *
 data
-PRUint8
+uint8_t
 aValue
 )
 {
@@ -8591,7 +8591,7 @@ data
 VTYPE_INT8
 mInt8Value
 (
-PRUint8
+uint8_t
 )
 aValue
 )
@@ -8610,7 +8610,7 @@ SetFromInt16
 nsDiscriminatedUnion
 *
 data
-PRInt16
+int16_t
 aValue
 )
 {
@@ -8636,7 +8636,7 @@ SetFromInt32
 nsDiscriminatedUnion
 *
 data
-PRInt32
+int32_t
 aValue
 )
 {
@@ -8662,7 +8662,7 @@ SetFromInt64
 nsDiscriminatedUnion
 *
 data
-PRInt64
+int64_t
 aValue
 )
 {
@@ -8688,7 +8688,7 @@ SetFromUint8
 nsDiscriminatedUnion
 *
 data
-PRUint8
+uint8_t
 aValue
 )
 {
@@ -8714,7 +8714,7 @@ SetFromUint16
 nsDiscriminatedUnion
 *
 data
-PRUint16
+uint16_t
 aValue
 )
 {
@@ -8740,7 +8740,7 @@ SetFromUint32
 nsDiscriminatedUnion
 *
 data
-PRUint32
+uint32_t
 aValue
 )
 {
@@ -8766,7 +8766,7 @@ SetFromUint64
 nsDiscriminatedUnion
 *
 data
-PRUint64
+uint64_t
 aValue
 )
 {
@@ -9292,13 +9292,13 @@ SetFromArray
 nsDiscriminatedUnion
 *
 data
-PRUint16
+uint16_t
 type
 const
 nsIID
 *
 iid
-PRUint32
+uint32_t
 count
 void
 *
@@ -9400,7 +9400,7 @@ SetFromStringWithSize
 nsDiscriminatedUnion
 *
 data
-PRUint32
+uint32_t
 size
 const
 char
@@ -9492,7 +9492,7 @@ SetFromWStringWithSize
 nsDiscriminatedUnion
 *
 data
-PRUint32
+uint32_t
 size
 const
 PRUnichar
@@ -10192,7 +10192,7 @@ mArrayValue
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 data
@@ -10470,10 +10470,10 @@ t
 struct
 THE_TYPES
 {
-PRUint16
+uint16_t
 a
 ;
-PRUint16
+uint16_t
 b
 ;
 }
@@ -10793,7 +10793,7 @@ functions
 *
 readonly
 attribute
-PRUint16
+uint16_t
 dataType
 ;
 *
@@ -10804,7 +10804,7 @@ nsVariant
 :
 GetDataType
 (
-PRUint16
+uint16_t
 *
 aDataType
 )
@@ -10822,7 +10822,7 @@ NS_OK
 }
 /
 *
-PRUint8
+uint8_t
 getAsInt8
 (
 )
@@ -10835,7 +10835,7 @@ nsVariant
 :
 GetAsInt8
 (
-PRUint8
+uint8_t
 *
 _retval
 )
@@ -10853,7 +10853,7 @@ _retval
 }
 /
 *
-PRInt16
+int16_t
 getAsInt16
 (
 )
@@ -10866,7 +10866,7 @@ nsVariant
 :
 GetAsInt16
 (
-PRInt16
+int16_t
 *
 _retval
 )
@@ -10884,7 +10884,7 @@ _retval
 }
 /
 *
-PRInt32
+int32_t
 getAsInt32
 (
 )
@@ -10897,7 +10897,7 @@ nsVariant
 :
 GetAsInt32
 (
-PRInt32
+int32_t
 *
 _retval
 )
@@ -10915,7 +10915,7 @@ _retval
 }
 /
 *
-PRInt64
+int64_t
 getAsInt64
 (
 )
@@ -10928,7 +10928,7 @@ nsVariant
 :
 GetAsInt64
 (
-PRInt64
+int64_t
 *
 _retval
 )
@@ -10946,7 +10946,7 @@ _retval
 }
 /
 *
-PRUint8
+uint8_t
 getAsUint8
 (
 )
@@ -10959,7 +10959,7 @@ nsVariant
 :
 GetAsUint8
 (
-PRUint8
+uint8_t
 *
 _retval
 )
@@ -10977,7 +10977,7 @@ _retval
 }
 /
 *
-PRUint16
+uint16_t
 getAsUint16
 (
 )
@@ -10990,7 +10990,7 @@ nsVariant
 :
 GetAsUint16
 (
-PRUint16
+uint16_t
 *
 _retval
 )
@@ -11008,7 +11008,7 @@ _retval
 }
 /
 *
-PRUint32
+uint32_t
 getAsUint32
 (
 )
@@ -11021,7 +11021,7 @@ nsVariant
 :
 GetAsUint32
 (
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -11039,7 +11039,7 @@ _retval
 }
 /
 *
-PRUint64
+uint64_t
 getAsUint64
 (
 )
@@ -11052,7 +11052,7 @@ nsVariant
 :
 GetAsUint64
 (
-PRUint64
+uint64_t
 *
 _retval
 )
@@ -11599,13 +11599,13 @@ nsresult
 getAsArray
 (
 out
-PRUint16
+uint16_t
 type
 out
 nsIID
 iid
 out
-PRUint32
+uint32_t
 count
 out
 voidPtr
@@ -11623,13 +11623,13 @@ nsVariant
 :
 GetAsArray
 (
-PRUint16
+uint16_t
 *
 type
 nsIID
 *
 iid
-PRUint32
+uint32_t
 *
 count
 void
@@ -11658,7 +11658,7 @@ void
 getAsStringWithSize
 (
 out
-PRUint32
+uint32_t
 size
 [
 size_is
@@ -11680,7 +11680,7 @@ nsVariant
 :
 GetAsStringWithSize
 (
-PRUint32
+uint32_t
 *
 size
 char
@@ -11707,7 +11707,7 @@ void
 getAsWStringWithSize
 (
 out
-PRUint32
+uint32_t
 size
 [
 size_is
@@ -11729,7 +11729,7 @@ nsVariant
 :
 GetAsWStringWithSize
 (
-PRUint32
+uint32_t
 *
 size
 PRUnichar
@@ -11991,7 +11991,7 @@ void
 setAsInt8
 (
 in
-PRUint8
+uint8_t
 aValue
 )
 ;
@@ -12003,7 +12003,7 @@ nsVariant
 :
 SetAsInt8
 (
-PRUint8
+uint8_t
 aValue
 )
 {
@@ -12033,7 +12033,7 @@ void
 setAsInt16
 (
 in
-PRInt16
+int16_t
 aValue
 )
 ;
@@ -12045,7 +12045,7 @@ nsVariant
 :
 SetAsInt16
 (
-PRInt16
+int16_t
 aValue
 )
 {
@@ -12075,7 +12075,7 @@ void
 setAsInt32
 (
 in
-PRInt32
+int32_t
 aValue
 )
 ;
@@ -12087,7 +12087,7 @@ nsVariant
 :
 SetAsInt32
 (
-PRInt32
+int32_t
 aValue
 )
 {
@@ -12117,7 +12117,7 @@ void
 setAsInt64
 (
 in
-PRInt64
+int64_t
 aValue
 )
 ;
@@ -12129,7 +12129,7 @@ nsVariant
 :
 SetAsInt64
 (
-PRInt64
+int64_t
 aValue
 )
 {
@@ -12159,7 +12159,7 @@ void
 setAsUint8
 (
 in
-PRUint8
+uint8_t
 aValue
 )
 ;
@@ -12171,7 +12171,7 @@ nsVariant
 :
 SetAsUint8
 (
-PRUint8
+uint8_t
 aValue
 )
 {
@@ -12201,7 +12201,7 @@ void
 setAsUint16
 (
 in
-PRUint16
+uint16_t
 aValue
 )
 ;
@@ -12213,7 +12213,7 @@ nsVariant
 :
 SetAsUint16
 (
-PRUint16
+uint16_t
 aValue
 )
 {
@@ -12243,7 +12243,7 @@ void
 setAsUint32
 (
 in
-PRUint32
+uint32_t
 aValue
 )
 ;
@@ -12255,7 +12255,7 @@ nsVariant
 :
 SetAsUint32
 (
-PRUint32
+uint32_t
 aValue
 )
 {
@@ -12285,7 +12285,7 @@ void
 setAsUint64
 (
 in
-PRUint64
+uint64_t
 aValue
 )
 ;
@@ -12297,7 +12297,7 @@ nsVariant
 :
 SetAsUint64
 (
-PRUint64
+uint64_t
 aValue
 )
 {
@@ -12978,13 +12978,13 @@ void
 setAsArray
 (
 in
-PRUint16
+uint16_t
 type
 in
 nsIIDPtr
 iid
 in
-PRUint32
+uint32_t
 count
 in
 voidPtr
@@ -12999,13 +12999,13 @@ nsVariant
 :
 SetAsArray
 (
-PRUint16
+uint16_t
 type
 const
 nsIID
 *
 iid
-PRUint32
+uint32_t
 count
 void
 *
@@ -13041,7 +13041,7 @@ void
 setAsStringWithSize
 (
 in
-PRUint32
+uint32_t
 size
 [
 size_is
@@ -13062,7 +13062,7 @@ nsVariant
 :
 SetAsStringWithSize
 (
-PRUint32
+uint32_t
 size
 const
 char
@@ -13097,7 +13097,7 @@ void
 setAsWStringWithSize
 (
 in
-PRUint32
+uint32_t
 size
 [
 size_is
@@ -13118,7 +13118,7 @@ nsVariant
 :
 SetAsWStringWithSize
 (
-PRUint32
+uint32_t
 size
 const
 PRUnichar

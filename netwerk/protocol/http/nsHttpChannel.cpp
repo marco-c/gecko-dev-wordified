@@ -789,7 +789,7 @@ NS_OK
 bool
 IsRedirectStatus
 (
-PRUint32
+uint32_t
 status
 )
 {
@@ -1450,7 +1450,7 @@ const
 nsresult
 SetupByteRangeRequest
 (
-PRUint32
+uint32_t
 partialLen
 )
 ;
@@ -1472,7 +1472,7 @@ bool
 mHasQueryString
 ;
 const
-PRUint32
+uint32_t
 mLoadFlags
 ;
 const
@@ -1538,7 +1538,7 @@ mCacheAccess
 nsresult
 mStatus
 ;
-PRUint32
+uint32_t
 mRunCount
 ;
 /
@@ -2016,7 +2016,7 @@ Init
 nsIURI
 *
 uri
-PRUint8
+uint8_t
 caps
 nsProxyInfo
 *
@@ -3309,7 +3309,7 @@ rv
 return
 rv
 ;
-PRUint32
+uint32_t
 suspendCount
 =
 mSuspendCount
@@ -4838,7 +4838,7 @@ any
 .
 .
 .
-PRInt32
+int32_t
 ref
 =
 requestURI
@@ -5670,10 +5670,10 @@ void
 *
 aClosure
 const
-PRUint8
+uint8_t
 *
 aData
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -5705,7 +5705,7 @@ GetContentSniffers
 (
 )
 ;
-PRUint32
+uint32_t
 length
 =
 sniffers
@@ -5716,7 +5716,7 @@ Count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6114,7 +6114,7 @@ mCacheEntry
 nsresult
 rv
 ;
-PRInt64
+int64_t
 predictedDataSize
 =
 -
@@ -6544,7 +6544,7 @@ nsHttpChannel
 :
 ProcessFailedSSLConnect
 (
-PRUint32
+uint32_t
 httpStatus
 )
 {
@@ -7228,7 +7228,7 @@ nsHttpChannel
 :
 ShouldSSLProxyResponseContinue
 (
-PRUint32
+uint32_t
 httpStatus
 )
 {
@@ -7976,7 +7976,7 @@ ProcessResponse
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 httpStatus
 =
 mResponseHead
@@ -10511,7 +10511,7 @@ https
 )
 )
 ;
-PRInt32
+int32_t
 oldPort
 =
 -
@@ -10704,7 +10704,7 @@ mRedirectChannel
 =
 newChannel
 ;
-PRUint32
+uint32_t
 flags
 =
 nsIChannelEventSink
@@ -11180,7 +11180,7 @@ mRedirectChannel
 =
 newChannel
 ;
-PRUint32
+uint32_t
 flags
 =
 nsIChannelEventSink
@@ -11435,7 +11435,7 @@ rv
 return
 rv
 ;
-PRUint32
+uint32_t
 resolveFlags
 =
 0
@@ -12501,7 +12501,7 @@ NS_OK
 check
 the
 method
-PRInt32
+int32_t
 methodlen
 =
 PL_strlen
@@ -13046,7 +13046,7 @@ HttpCacheQuery
 :
 SetupByteRangeRequest
 (
-PRUint32
+uint32_t
 partialLen
 )
 {
@@ -13652,7 +13652,7 @@ append
 to
 cache
 entry
-PRUint32
+uint32_t
 size
 ;
 rv
@@ -14675,7 +14675,7 @@ foreign
 /
 entry
 .
-PRUint32
+uint32_t
 fallbackEntryType
 ;
 rv
@@ -14932,7 +14932,7 @@ from
 the
 cache
 .
-PRUint32
+uint32_t
 newLoadFlags
 =
 mLoadFlags
@@ -14963,7 +14963,7 @@ mRedirectChannel
 =
 newChannel
 ;
-PRUint32
+uint32_t
 redirectFlags
 =
 nsIChannelEventSink
@@ -16126,7 +16126,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 namespaceType
 =
 0
@@ -17103,7 +17103,7 @@ nsHttpChannel
 :
 GenerateCacheKey
 (
-PRUint32
+uint32_t
 postID
 nsACString
 &
@@ -17160,7 +17160,7 @@ const
 char
 *
 spec
-PRUint32
+uint32_t
 postID
 nsACString
 &
@@ -17391,7 +17391,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 expirationTime
 =
 0
@@ -17407,7 +17407,7 @@ MustValidate
 )
 )
 {
-PRUint32
+uint32_t
 freshnessLifetime
 =
 0
@@ -17440,7 +17440,7 @@ freshnessLifetime
 0
 )
 {
-PRUint32
+uint32_t
 now
 =
 NowInSeconds
@@ -17500,7 +17500,7 @@ freshnessLifetime
 currentAge
 )
 {
-PRUint32
+uint32_t
 timeRemaining
 =
 freshnessLifetime
@@ -17529,7 +17529,7 @@ now
 )
 expirationTime
 =
-PRUint32
+uint32_t
 (
 -
 1
@@ -18620,7 +18620,7 @@ computations
 .
 .
 .
-PRUint32
+uint32_t
 lastModifiedTime
 ;
 rv
@@ -19068,7 +19068,7 @@ See
 bug
 759043
 .
-PRInt64
+int64_t
 contentLength
 =
 mCachedResponseHead
@@ -19083,14 +19083,14 @@ if
 contentLength
 !
 =
-PRInt64
+int64_t
 (
 -
 1
 )
 )
 {
-PRUint32
+uint32_t
 size
 ;
 rv
@@ -19112,7 +19112,7 @@ rv
 ;
 if
 (
-PRInt64
+int64_t
 (
 size
 )
@@ -19153,7 +19153,7 @@ u
 \
 n
 "
-PRInt64
+int64_t
 (
 contentLength
 )
@@ -19181,7 +19181,7 @@ nullptr
 if
 (
 (
-PRInt64
+int64_t
 (
 size
 )
@@ -19739,7 +19739,7 @@ expired
 .
 else
 {
-PRUint32
+uint32_t
 time
 =
 0
@@ -21027,7 +21027,7 @@ if
 mHasQueryString
 )
 {
-PRUint32
+uint32_t
 tmp
 ;
 /
@@ -21197,7 +21197,7 @@ offline
 entry
 update
 it
-PRUint32
+uint32_t
 docLastModifiedTime
 ;
 nsresult
@@ -21942,12 +21942,12 @@ sts
 CreateInputTransport
 (
 stream
-PRInt64
+int64_t
 (
 -
 1
 )
-PRInt64
+int64_t
 (
 -
 1
@@ -22663,12 +22663,12 @@ getter_AddRefs
 mCachePump
 )
 inputStream
-PRInt64
+int64_t
 (
 -
 1
 )
-PRInt64
+int64_t
 (
 -
 1
@@ -22734,7 +22734,7 @@ Now
 (
 )
 ;
-PRUint32
+uint32_t
 suspendCount
 =
 mSuspendCount
@@ -23467,7 +23467,7 @@ if
 mCacheEntry
 )
 {
-PRUint32
+uint32_t
 expirationTime
 ;
 nsresult
@@ -24511,7 +24511,7 @@ nsHttpChannel
 :
 InstallCacheListener
 (
-PRUint32
+uint32_t
 offset
 )
 {
@@ -25834,7 +25834,7 @@ nsHttpChannel
 :
 AsyncProcessRedirection
 (
-PRUint32
+uint32_t
 redirectType
 )
 {
@@ -26007,7 +26007,7 @@ u
 n
 "
 location
-PRUint32
+uint32_t
 (
 mRedirectionLimit
 )
@@ -26646,7 +26646,7 @@ rv
 return
 rv
 ;
-PRUint32
+uint32_t
 redirectFlags
 ;
 if
@@ -29476,11 +29476,11 @@ nsHttpChannel
 :
 SetPriority
 (
-PRInt32
+int32_t
 value
 )
 {
-PRInt16
+int16_t
 newValue
 =
 clamped
@@ -33423,9 +33423,9 @@ ctxt
 nsIInputStream
 *
 input
-PRUint32
+uint32_t
 offset
-PRUint32
+uint32_t
 count
 )
 {
@@ -33553,7 +33553,7 @@ mTransactionReplaced
 )
 )
 {
-PRUint32
+uint32_t
 n
 ;
 return
@@ -33697,10 +33697,10 @@ to
 use
 here
 .
-PRUint64
+uint64_t
 progressMax
 (
-PRUint64
+uint64_t
 (
 mResponseHead
 -
@@ -33711,12 +33711,12 @@ ContentLength
 )
 )
 ;
-PRUint64
+uint64_t
 progress
 =
 mLogicalOffset
 +
-PRUint64
+uint64_t
 (
 count
 )
@@ -33857,7 +33857,7 @@ nsInputStreamPump
 OnStateTransfer
 .
 )
-PRUint32
+uint32_t
 odaOffset
 =
 mLogicalOffset
@@ -33866,7 +33866,7 @@ PR_UINT32_MAX
 ?
 PR_UINT32_MAX
 :
-PRUint32
+uint32_t
 (
 mLogicalOffset
 )
@@ -34080,9 +34080,9 @@ nsITransport
 trans
 nsresult
 status
-PRUint64
+uint64_t
 progress
-PRUint64
+uint64_t
 progressMax
 )
 {
@@ -34587,7 +34587,7 @@ nsHttpChannel
 :
 GetCacheTokenExpirationTime
 (
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -35054,7 +35054,7 @@ public
 nsresult
 SetData
 (
-PRUint32
+uint32_t
 aPostID
 const
 nsACString
@@ -35121,7 +35121,7 @@ nsHttpChannelCacheKey
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -35146,7 +35146,7 @@ nsHttpChannelCacheKey
 :
 SetData
 (
-PRUint32
+uint32_t
 aPostID
 const
 nsACString
@@ -35772,7 +35772,7 @@ nsHttpChannel
 :
 ResumeAt
 (
-PRUint64
+uint64_t
 aStartPos
 const
 nsACString
@@ -36871,7 +36871,7 @@ rv
 return
 rv
 ;
-PRUint32
+uint32_t
 suspendCount
 =
 mSuspendCount
@@ -37754,7 +37754,7 @@ NS_BINDING_ABORTED
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 mRedirectFuncStack

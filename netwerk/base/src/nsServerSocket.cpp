@@ -1263,7 +1263,7 @@ OnSocketReady
 PRFileDesc
 *
 fd
-PRInt16
+int16_t
 outFlags
 )
 {
@@ -1926,11 +1926,11 @@ nsServerSocket
 :
 Init
 (
-PRInt32
+int32_t
 aPort
 bool
 aLoopbackOnly
-PRInt32
+int32_t
 aBackLog
 )
 {
@@ -1991,7 +1991,7 @@ const
 PRNetAddr
 *
 aAddr
-PRInt32
+int32_t
 aBackLog
 )
 {
@@ -2694,7 +2694,7 @@ nsServerSocket
 :
 GetPort
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -2708,7 +2708,7 @@ enter
 the
 lock
 here
-PRUint16
+uint16_t
 port
 ;
 if
@@ -2743,7 +2743,7 @@ port
 aResult
 =
 (
-PRInt32
+int32_t
 )
 PR_ntohs
 (

@@ -434,7 +434,7 @@ AccEvent
 :
 AccEvent
 (
-PRUint32
+uint32_t
 aEventType
 Accessible
 *
@@ -469,7 +469,7 @@ AccEvent
 :
 AccEvent
 (
-PRUint32
+uint32_t
 aEventType
 nsINode
 *
@@ -1447,7 +1447,7 @@ AccStateChangeEvent
 Accessible
 *
 aAccessible
-PRUint64
+uint64_t
 aState
 bool
 aIsEnabled
@@ -1483,7 +1483,7 @@ AccStateChangeEvent
 nsINode
 *
 aNode
-PRUint64
+uint64_t
 aState
 bool
 aIsEnabled
@@ -1519,7 +1519,7 @@ AccStateChangeEvent
 nsINode
 *
 aNode
-PRUint64
+uint64_t
 aState
 )
 :
@@ -1945,7 +1945,7 @@ AccTextChangeEvent
 Accessible
 *
 aAccessible
-PRInt32
+int32_t
 aStart
 const
 nsAString
@@ -1963,7 +1963,7 @@ aIsInserted
 ?
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 nsIAccessibleEvent
@@ -1974,7 +1974,7 @@ EVENT_TEXT_INSERTED
 :
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 nsIAccessibleEvent
@@ -2250,7 +2250,7 @@ AccMutationEvent
 :
 AccMutationEvent
 (
-PRUint32
+uint32_t
 aEventType
 Accessible
 *
@@ -2879,7 +2879,7 @@ AccCaretMoveEvent
 Accessible
 *
 aAccessible
-PRInt32
+int32_t
 aCaretOffset
 )
 :
@@ -3378,11 +3378,11 @@ AccTableChangeEvent
 Accessible
 *
 aAccessible
-PRUint32
+uint32_t
 aEventType
-PRInt32
+int32_t
 aRowOrColIndex
-PRInt32
+int32_t
 aNumRowsOrCols
 )
 :
@@ -3605,11 +3605,11 @@ aAccessible
 nsIAccessible
 *
 aOldAccessible
-PRInt32
+int32_t
 aOldStart
-PRInt32
+int32_t
 aOldEnd
-PRInt16
+int16_t
 aReason
 )
 :

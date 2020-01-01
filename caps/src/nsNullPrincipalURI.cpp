@@ -227,7 +227,7 @@ nsCString
 aSpec
 )
 {
-PRInt32
+int32_t
 dividerPosition
 =
 aSpec
@@ -253,7 +253,7 @@ URI
 "
 )
 ;
-PRInt32
+int32_t
 n
 =
 aSpec
@@ -279,7 +279,7 @@ failed
 "
 )
 ;
-PRInt32
+int32_t
 count
 =
 aSpec
@@ -745,7 +745,7 @@ nsNullPrincipalURI
 :
 GetPort
 (
-PRInt32
+int32_t
 *
 _port
 )
@@ -760,7 +760,7 @@ nsNullPrincipalURI
 :
 SetPort
 (
-PRInt32
+int32_t
 aPort
 )
 {

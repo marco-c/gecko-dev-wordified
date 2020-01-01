@@ -897,7 +897,7 @@ unsigned
 char
 *
 aDigestData
-PRUint32
+uint32_t
 aDigestDataLen
 )
 {
@@ -931,7 +931,7 @@ unsigned
 char
 *
 aDigestData
-PRUint32
+uint32_t
 aDigestDataLen
 )
 {
@@ -988,7 +988,7 @@ NSSCMSSignerInfo
 *
 si
 ;
-PRInt32
+int32_t
 nsigners
 ;
 nsresult
@@ -1954,7 +1954,7 @@ unsigned
 char
 *
 aDigestData
-PRUint32
+uint32_t
 aDigestDataLen
 )
 {
@@ -1992,7 +1992,7 @@ unsigned
 char
 *
 aDigestData
-PRUint32
+uint32_t
 aDigestDataLen
 )
 {
@@ -2193,7 +2193,7 @@ mCerts
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2240,7 +2240,7 @@ false
 bool
 allocate
 (
-PRUint32
+uint32_t
 count
 )
 {
@@ -2324,7 +2324,7 @@ zero
 termination
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2355,7 +2355,7 @@ true
 void
 set
 (
-PRUint32
+uint32_t
 i
 CERTCertificate
 *
@@ -2414,7 +2414,7 @@ CERTCertificate
 *
 get
 (
-PRUint32
+uint32_t
 i
 )
 {
@@ -2484,7 +2484,7 @@ PLArenaPool
 *
 mPoolp
 ;
-PRUint32
+uint32_t
 mSize
 ;
 }
@@ -2549,7 +2549,7 @@ bulkAlgTag
 int
 keySize
 ;
-PRUint32
+uint32_t
 i
 ;
 nsCOMPtr
@@ -2571,7 +2571,7 @@ recipient
 certificates
 /
 /
-PRUint32
+uint32_t
 recipientCertCount
 ;
 aRecipientCerts
@@ -3085,7 +3085,7 @@ unsigned
 char
 *
 aDigestData
-PRUint32
+uint32_t
 aDigestDataLen
 )
 {
@@ -4191,7 +4191,7 @@ const
 char
 *
 buf
-PRInt32
+int32_t
 len
 )
 {
@@ -4620,7 +4620,7 @@ const
 char
 *
 aBuf
-PRInt32
+int32_t
 aLen
 )
 {

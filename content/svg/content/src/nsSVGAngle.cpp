@@ -280,7 +280,7 @@ Init
 NS_IMETHOD
 GetUnitType
 (
-PRUint16
+uint16_t
 *
 aResult
 )
@@ -427,7 +427,7 @@ NS_OK
 NS_IMETHOD
 NewValueSpecifiedUnits
 (
-PRUint16
+uint16_t
 unitType
 float
 valueInSpecifiedUnits
@@ -447,7 +447,7 @@ nullptr
 NS_IMETHOD
 ConvertToSpecifiedUnits
 (
-PRUint16
+uint16_t
 unitType
 )
 {
@@ -684,7 +684,7 @@ static
 bool
 IsValidUnitType
 (
-PRUint16
+uint16_t
 unit
 )
 {
@@ -720,7 +720,7 @@ GetUnitString
 nsAString
 &
 unit
-PRUint16
+uint16_t
 unitType
 )
 {
@@ -771,7 +771,7 @@ return
 ;
 }
 static
-PRUint16
+uint16_t
 GetUnitTypeForString
 (
 const
@@ -814,7 +814,7 @@ unitStr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -870,7 +870,7 @@ nsAString
 aValueAsString
 float
 aValue
-PRUint16
+uint16_t
 aUnitType
 )
 {
@@ -947,7 +947,7 @@ aValueAsString
 float
 *
 aValue
-PRUint16
+uint16_t
 *
 aUnitType
 )
@@ -1049,7 +1049,7 @@ nsSVGAngle
 :
 GetDegreesPerUnit
 (
-PRUint8
+uint8_t
 aUnit
 )
 {
@@ -1199,7 +1199,7 @@ nsSVGAngle
 :
 ConvertToSpecifiedUnits
 (
-PRUint16
+uint16_t
 unitType
 nsSVGElement
 *
@@ -1222,7 +1222,7 @@ if
 mBaseValUnit
 =
 =
-PRUint8
+uint8_t
 (
 unitType
 )
@@ -1261,7 +1261,7 @@ mBaseValUnit
 ;
 mBaseValUnit
 =
-PRUint8
+uint8_t
 (
 unitType
 )
@@ -1327,7 +1327,7 @@ nsSVGAngle
 :
 NewValueSpecifiedUnits
 (
-PRUint16
+uint16_t
 unitType
 float
 valueInSpecifiedUnits
@@ -1364,7 +1364,7 @@ valueInSpecifiedUnits
 mBaseValUnit
 =
 =
-PRUint8
+uint8_t
 (
 unitType
 )
@@ -1397,7 +1397,7 @@ valueInSpecifiedUnits
 ;
 mBaseValUnit
 =
-PRUint8
+uint8_t
 (
 unitType
 )
@@ -1561,7 +1561,7 @@ value
 =
 0
 ;
-PRUint16
+uint16_t
 unitType
 =
 0
@@ -1601,7 +1601,7 @@ value
 mBaseValUnit
 =
 =
-PRUint8
+uint8_t
 (
 unitType
 )
@@ -1636,7 +1636,7 @@ value
 ;
 mBaseValUnit
 =
-PRUint8
+uint8_t
 (
 unitType
 )
@@ -1835,7 +1835,7 @@ SetAnimValue
 (
 float
 aValue
-PRUint8
+uint8_t
 aUnit
 nsSVGElement
 *
@@ -2144,7 +2144,7 @@ else
 float
 value
 ;
-PRUint16
+uint16_t
 unitType
 ;
 nsresult

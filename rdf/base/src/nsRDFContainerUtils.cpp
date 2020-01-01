@@ -281,7 +281,7 @@ aType
 pseudo
 constants
 static
-PRInt32
+int32_t
 gRefCnt
 ;
 static
@@ -321,7 +321,7 @@ kOne
 ;
 }
 ;
-PRInt32
+int32_t
 RDFContainerUtilsImpl
 :
 :
@@ -719,7 +719,7 @@ RDFContainerUtilsImpl
 :
 IndexToOrdinalResource
 (
-PRInt32
+int32_t
 aIndex
 nsIRDFResource
 *
@@ -820,7 +820,7 @@ OrdinalResourceToIndex
 nsIRDFResource
 *
 aOrdinal
-PRInt32
+int32_t
 *
 aIndex
 )
@@ -939,7 +939,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-PRInt32
+int32_t
 idx
 =
 0
@@ -2356,7 +2356,7 @@ aContainer
 nsIRDFNode
 *
 aElement
-PRInt32
+int32_t
 *
 aIndex
 )

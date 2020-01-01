@@ -748,7 +748,7 @@ table
 *
 /
 virtual
-PRInt32
+int32_t
 GetRowIndex
 (
 )
@@ -969,7 +969,7 @@ InsertCellFrame
 nsTableCellFrame
 *
 aFrame
-PRInt32
+int32_t
 aColIndex
 )
 ;
@@ -1257,7 +1257,7 @@ top
 void
 SetContinuousBCBorderWidth
 (
-PRUint8
+uint8_t
 aForSide
 BCPixelSize
 aPixelValue
@@ -1680,7 +1680,7 @@ aTableFrame
 }
 ;
 inline
-PRInt32
+int32_t
 nsTableRowFrame
 :
 :
@@ -1690,7 +1690,7 @@ GetRowIndex
 const
 {
 return
-PRInt32
+int32_t
 (
 mBits
 .
@@ -2115,7 +2115,7 @@ nsMargin
 aBorder
 )
 {
-PRInt32
+int32_t
 aPixelsToTwips
 =
 nsPresContext
@@ -2165,7 +2165,7 @@ GetOuterTopContBCBorderWidth
 (
 )
 {
-PRInt32
+int32_t
 aPixelsToTwips
 =
 nsPresContext

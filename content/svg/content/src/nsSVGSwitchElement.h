@@ -231,7 +231,7 @@ InsertChildAt
 nsIContent
 *
 aKid
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -241,7 +241,7 @@ virtual
 void
 RemoveChildAt
 (
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify

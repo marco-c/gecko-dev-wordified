@@ -195,7 +195,7 @@ GetArrayValue
 *
 /
 /
-PRUint32
+uint32_t
 input_array_type
 :
 :
@@ -214,7 +214,7 @@ input_array_type
 :
 Item
 (
-PRUint32
+uint32_t
 )
 ;
 *
@@ -1433,7 +1433,7 @@ GetArrayValue
 *
 /
 /
-PRUint32
+uint32_t
 input_array_type
 :
 :
@@ -1452,7 +1452,7 @@ input_array_type
 :
 Item
 (
-PRUint32
+uint32_t
 )
 ;
 *

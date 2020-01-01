@@ -356,7 +356,7 @@ aValue
 void
 ClearBaseValue
 (
-PRUint32
+uint32_t
 aAttrEnum
 )
 ;
@@ -387,7 +387,7 @@ aValue
 nsSVGElement
 *
 aElement
-PRUint32
+uint32_t
 aAttrEnum
 )
 ;
@@ -397,7 +397,7 @@ ClearAnimValue
 nsSVGElement
 *
 aElement
-PRUint32
+uint32_t
 aAttrEnum
 )
 ;
@@ -428,9 +428,9 @@ ToSMILAttr
 nsSVGElement
 *
 aSVGElement
-PRUint8
+uint8_t
 aAttrEnum
-PRUint8
+uint8_t
 aAxis
 bool
 aCanZeroPadList
@@ -535,9 +535,9 @@ aVal
 nsSVGElement
 *
 aSVGElement
-PRUint8
+uint8_t
 aAttrEnum
-PRUint8
+uint8_t
 aAxis
 bool
 aCanZeroPadList
@@ -608,10 +608,10 @@ nsSVGElement
 *
 mElement
 ;
-PRUint8
+uint8_t
 mAttrEnum
 ;
-PRUint8
+uint8_t
 mAxis
 ;
 bool

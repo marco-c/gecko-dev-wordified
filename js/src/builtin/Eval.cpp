@@ -1483,12 +1483,13 @@ JSObject
 *
 thisobj
 =
-scopeobj
--
->
+JSObject
+:
+:
 thisObject
 (
 cx
+scopeobj
 )
 ;
 if

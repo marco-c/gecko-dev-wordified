@@ -318,7 +318,7 @@ resetToEnd
 (
 )
 ;
-PRInt32
+int32_t
 value
 ;
 txFormattedCounter
@@ -566,7 +566,7 @@ add
 NS_INT32_TO_PTR
 (
 (
-PRInt32
+int32_t
 )
 floor
 (
@@ -638,7 +638,7 @@ txNodeTest
 *
 nodeTest
 ;
-PRUint16
+uint16_t
 nodeType
 =
 txXPathNodeUtils
@@ -675,7 +675,7 @@ getLocalName
 currNode
 )
 ;
-PRInt32
+int32_t
 namespaceID
 =
 txXPathNodeUtils
@@ -1314,7 +1314,7 @@ aLevel
 eLevelAny
 )
 {
-PRInt32
+int32_t
 value
 =
 0
@@ -1525,7 +1525,7 @@ NS_OK
 nsAutoString
 groupSeparator
 ;
-PRInt32
+int32_t
 groupSize
 =
 0
@@ -1572,7 +1572,7 @@ sizeStr
 groupSize
 =
 (
-PRInt32
+int32_t
 )
 size
 ;
@@ -1636,7 +1636,7 @@ rv
 )
 ;
 }
-PRUint32
+uint32_t
 formatLen
 =
 format
@@ -1645,7 +1645,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 formatPos
 =
 0
@@ -2142,7 +2142,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 txXSLTNumber
 :
 :
@@ -2159,7 +2159,7 @@ txIMatchContext
 aContext
 )
 {
-PRInt32
+int32_t
 value
 =
 1

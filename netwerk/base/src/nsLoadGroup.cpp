@@ -600,7 +600,7 @@ RescheduleRequest
 nsIRequest
 *
 aRequest
-PRInt32
+int32_t
 delta
 )
 {
@@ -638,7 +638,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -658,13 +658,13 @@ RequestMapEntry
 hdr
 )
 ;
-PRInt32
+int32_t
 *
 delta
 =
 static_cast
 <
-PRInt32
+int32_t
 *
 >
 (
@@ -1296,7 +1296,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -1425,7 +1425,7 @@ code
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 count
 =
 mRequests
@@ -1474,7 +1474,7 @@ count
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1883,7 +1883,7 @@ nsresult
 rv
 firstError
 ;
-PRUint32
+uint32_t
 count
 =
 mRequests
@@ -1932,7 +1932,7 @@ count
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2159,7 +2159,7 @@ nsresult
 rv
 firstError
 ;
-PRUint32
+uint32_t
 count
 =
 mRequests
@@ -2208,7 +2208,7 @@ count
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2429,7 +2429,7 @@ nsLoadGroup
 :
 GetLoadFlags
 (
-PRUint32
+uint32_t
 *
 aLoadFlags
 )
@@ -2449,7 +2449,7 @@ nsLoadGroup
 :
 SetLoadFlags
 (
-PRUint32
+uint32_t
 aLoadFlags
 )
 {
@@ -4077,7 +4077,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -4203,7 +4203,7 @@ get
 )
 )
 ;
-PRUint32
+uint32_t
 count
 ;
 array
@@ -4303,7 +4303,7 @@ nsLoadGroup
 :
 GetActiveCount
 (
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -4459,7 +4459,7 @@ nsLoadGroup
 :
 GetPriority
 (
-PRInt32
+int32_t
 *
 aValue
 )
@@ -4479,7 +4479,7 @@ nsLoadGroup
 :
 SetPriority
 (
-PRInt32
+int32_t
 aValue
 )
 {
@@ -4498,7 +4498,7 @@ nsLoadGroup
 :
 AdjustPriority
 (
-PRInt32
+int32_t
 aDelta
 )
 {

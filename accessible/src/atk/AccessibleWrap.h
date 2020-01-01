@@ -196,7 +196,7 @@ convention
 struct
 AtkPropertyChange
 {
-PRInt32
+int32_t
 type
 ;
 /
@@ -290,11 +290,11 @@ aDepth
 {
 }
 static
-PRInt32
+int32_t
 mAccWrapCreated
 ;
 static
-PRInt32
+int32_t
 mAccWrapDeleted
 ;
 #
@@ -508,7 +508,7 @@ static
 EAvailableAtkSignals
 gAvailableAtkSignals
 ;
-PRUint16
+uint16_t
 CreateMaiInterfaces
 (
 void

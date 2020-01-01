@@ -421,7 +421,7 @@ virtual
 bool
 GetDefaultFlex
 (
-PRInt32
+int32_t
 &
 aFlex
 )

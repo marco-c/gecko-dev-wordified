@@ -270,7 +270,7 @@ const
 char
 *
 capability
-PRInt16
+int16_t
 *
 _retval
 )
@@ -477,7 +477,7 @@ const
 char
 *
 capability
-PRInt16
+int16_t
 canEnable
 )
 ;
@@ -498,7 +498,7 @@ nsCString
 mPrefName
 ;
 static
-PRInt32
+int32_t
 sCapabilitiesOrdinal
 ;
 /
@@ -748,7 +748,7 @@ _retval
 NS_IMETHOD
 GetHashValue
 (
-PRUint32
+uint32_t
 *
 aHashValue
 )
@@ -833,7 +833,7 @@ aExtendedOrigin
 NS_IMETHOD
 GetAppStatus
 (
-PRUint16
+uint16_t
 *
 aAppStatus
 )
@@ -841,7 +841,7 @@ aAppStatus
 NS_IMETHOD
 GetAppId
 (
-PRUint32
+uint32_t
 *
 aAppStatus
 )
@@ -914,7 +914,7 @@ aCert
 nsIURI
 *
 aCodebase
-PRUint32
+uint32_t
 aAppId
 bool
 aInMozBrowser
@@ -954,7 +954,7 @@ bool
 aIsCert
 bool
 aTrusted
-PRUint32
+uint32_t
 aAppId
 bool
 aInMozBrowser
@@ -1079,7 +1079,7 @@ nsIURI
 >
 mCodebase
 ;
-PRUint32
+uint32_t
 mAppId
 ;
 bool
@@ -1134,7 +1134,7 @@ mInMozBrowser
 .
 *
 /
-PRUint16
+uint16_t
 GetAppStatus
 (
 )
@@ -1202,7 +1202,7 @@ _retval
 NS_IMETHOD
 GetHashValue
 (
-PRUint32
+uint32_t
 *
 aHashValue
 )
@@ -1287,7 +1287,7 @@ aExtendedOrigin
 NS_IMETHOD
 GetAppStatus
 (
-PRUint16
+uint16_t
 *
 aAppStatus
 )
@@ -1295,7 +1295,7 @@ aAppStatus
 NS_IMETHOD
 GetAppId
 (
-PRUint32
+uint32_t
 *
 aAppStatus
 )

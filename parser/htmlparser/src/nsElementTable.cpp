@@ -13020,7 +13020,7 @@ of
 kNotFound
 *
 /
-PRInt32
+int32_t
 nsHTMLElement
 :
 :
@@ -13033,7 +13033,7 @@ eHTMLTags
 aChildTag
 )
 {
-PRInt32
+int32_t
 theChildIndex
 =
 aContext
@@ -13120,7 +13120,7 @@ nsHTMLElement
 :
 HasSpecialProperty
 (
-PRInt32
+int32_t
 aProperty
 )
 const
@@ -13253,7 +13253,7 @@ nsHTMLElement
 :
 IsMemberOf
 (
-PRInt32
+int32_t
 aSet
 )
 const
@@ -13319,7 +13319,7 @@ nsHTMLElement
 :
 ContainsSet
 (
-PRInt32
+int32_t
 aSet
 )
 const
@@ -15147,12 +15147,12 @@ nsHTMLElement
 :
 CanContainType
 (
-PRInt32
+int32_t
 aType
 )
 const
 {
-PRInt32
+int32_t
 answer
 =
 mInclusionBits
@@ -15454,14 +15454,14 @@ CanAutoCloseTag
 nsDTDContext
 &
 aContext
-PRInt32
+int32_t
 aIndex
 eHTMLTags
 aChildTag
 )
 const
 {
-PRInt32
+int32_t
 thePos
 ;
 bool
@@ -15556,7 +15556,7 @@ GetCloseTargetForEndTag
 nsDTDContext
 &
 aContext
-PRInt32
+int32_t
 anIndex
 nsDTDMode
 aMode
@@ -16325,7 +16325,7 @@ GetEndRootTags
 (
 )
 ;
-PRInt32
+int32_t
 theIndexCopy
 =
 theIndex
@@ -16632,7 +16632,7 @@ the
 <
 THEAD
 >
-PRInt32
+int32_t
 theLastTable
 =
 aContext
@@ -16642,7 +16642,7 @@ LastOf
 eHTMLTag_table
 )
 ;
-PRInt32
+int32_t
 theLastOfMe
 =
 aContext

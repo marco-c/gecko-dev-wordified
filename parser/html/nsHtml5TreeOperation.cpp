@@ -641,7 +641,7 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 nsIContent
 *
@@ -701,7 +701,7 @@ rv
 =
 NS_OK
 ;
-PRUint32
+uint32_t
 oldLength
 =
 aTextNode
@@ -785,7 +785,7 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 nsIContent
 *
@@ -1059,7 +1059,7 @@ BeginUpdate
 UPDATE_CONTENT_MODEL
 )
 ;
-PRUint32
+uint32_t
 childCount
 =
 aParent
@@ -1148,7 +1148,7 @@ GetDocument
 (
 )
 ;
-PRUint32
+uint32_t
 childCount
 =
 doc
@@ -1347,7 +1347,7 @@ GetDocument
 )
 )
 ;
-PRInt32
+int32_t
 pos
 =
 parent
@@ -1444,7 +1444,7 @@ GetDocument
 )
 )
 ;
-PRUint32
+uint32_t
 childCount
 =
 parent
@@ -1624,7 +1624,7 @@ GetDocument
 )
 )
 ;
-PRUint32
+uint32_t
 pos
 =
 foster
@@ -1749,7 +1749,7 @@ GetDocument
 )
 )
 ;
-PRInt32
+int32_t
 len
 =
 attributes
@@ -1761,7 +1761,7 @@ getLength
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 len
@@ -1817,7 +1817,7 @@ i
 )
 )
 ;
-PRInt32
+int32_t
 nsuri
 =
 attributes
@@ -1923,7 +1923,7 @@ mOne
 .
 node
 ;
-PRInt32
+int32_t
 ns
 =
 mFour
@@ -2258,7 +2258,7 @@ ELEMENT_NODE
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2406,7 +2406,7 @@ return
 rv
 ;
 }
-PRInt32
+int32_t
 len
 =
 attributes
@@ -2418,7 +2418,7 @@ getLength
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 len
@@ -2776,7 +2776,7 @@ mTwo
 .
 unicharPtr
 ;
-PRUint32
+uint32_t
 length
 =
 mFour
@@ -2827,7 +2827,7 @@ IsIndexPromptWithSpace
 prompt
 )
 ;
-PRUint32
+uint32_t
 len
 =
 prompt
@@ -2907,7 +2907,7 @@ mTwo
 .
 unicharPtr
 ;
-PRUint32
+uint32_t
 length
 =
 mFour
@@ -2971,7 +2971,7 @@ GetDocument
 )
 )
 ;
-PRUint32
+uint32_t
 pos
 =
 foster
@@ -3132,7 +3132,7 @@ mTwo
 .
 unicharPtr
 ;
-PRInt32
+int32_t
 length
 =
 mFour
@@ -3209,7 +3209,7 @@ mTwo
 .
 unicharPtr
 ;
-PRInt32
+int32_t
 length
 =
 mFour
@@ -3609,7 +3609,7 @@ mOne
 .
 charPtr
 ;
-PRInt32
+int32_t
 charsetSource
 =
 mFour
@@ -3647,14 +3647,14 @@ mOne
 .
 charPtr
 ;
-PRInt32
+int32_t
 charsetSource
 =
 mFour
 .
 integer
 ;
-PRInt32
+int32_t
 lineNumber
 =
 mTwo
@@ -3669,7 +3669,7 @@ NeedsCharsetSwitchTo
 str
 charsetSource
 (
-PRUint32
+uint32_t
 )
 lineNumber
 )
@@ -4084,7 +4084,7 @@ mTwo
 .
 integer
 ;
-PRInt32
+int32_t
 lineNumber
 =
 mThree
@@ -4099,7 +4099,7 @@ MaybeComplainAboutCharset
 msgId
 error
 (
-PRUint32
+uint32_t
 )
 lineNumber
 )
@@ -4239,7 +4239,7 @@ mOne
 node
 )
 ;
-PRInt32
+int32_t
 lineNumber
 =
 mFour
@@ -4303,7 +4303,7 @@ mTwo
 .
 unicharPtr
 ;
-PRInt32
+int32_t
 length
 =
 mFour

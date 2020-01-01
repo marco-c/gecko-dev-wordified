@@ -533,7 +533,7 @@ aBaseURI
 nsIPrincipal
 *
 aSheetPrincipal
-PRUint32
+uint32_t
 aLineNumber
 bool
 aAllowUnsafeRules
@@ -835,7 +835,7 @@ aBuffer
 nsIURI
 *
 aURL
-PRUint32
+uint32_t
 aLineNumber
 nsMediaList
 *
@@ -901,7 +901,7 @@ aBuffer
 nsIURI
 *
 aURL
-PRUint32
+uint32_t
 aLineNumber
 nsCSSValue
 &
@@ -944,7 +944,7 @@ aSelectorString
 nsIURI
 *
 aURL
-PRUint32
+uint32_t
 aLineNumber
 nsCSSSelectorList
 *
@@ -992,7 +992,7 @@ aBuffer
 nsIURI
 *
 aURL
-PRUint32
+uint32_t
 aLineNumber
 )
 ;
@@ -1027,7 +1027,7 @@ aSelectorString
 nsIURI
 *
 aURL
-PRUint32
+uint32_t
 aLineNumber
 InfallibleTArray
 <

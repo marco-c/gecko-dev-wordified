@@ -636,7 +636,7 @@ Length
 )
 >
 (
-PRUint32
+uint32_t
 )
 mLineStart
 )
@@ -990,7 +990,7 @@ break
 nsCAutoString
 name
 ;
-PRInt32
+int32_t
 len
 =
 0
@@ -1239,7 +1239,7 @@ filename
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1724,10 +1724,10 @@ case
 FIELD_CONTENTLENGTH
 :
 {
-PRInt64
+int64_t
 len
 ;
-PRInt32
+int32_t
 status
 =
 PR_sscanf
@@ -1968,9 +1968,9 @@ aCtxt
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aSourceOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -1983,7 +1983,7 @@ aCount
 return
 NS_OK
 ;
-PRInt32
+int32_t
 len
 =
 mBuf
@@ -2040,7 +2040,7 @@ buffer
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 count
 ;
 rv
@@ -2155,7 +2155,7 @@ mListener
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 numItems
 =
 0
@@ -2169,7 +2169,7 @@ true
 +
 numItems
 ;
-PRInt32
+int32_t
 eol
 =
 mBuf
@@ -2220,7 +2220,7 @@ get
 +
 mLineStart
 ;
-PRInt32
+int32_t
 lineLen
 =
 eol

@@ -336,14 +336,14 @@ const
 nsACString
 &
 aHostname
-PRInt32
+int32_t
 aCookiesFromHost
 bool
 aChangingCookie
 bool
 *
 aRememberDecision
-PRInt32
+int32_t
 *
 aAccept
 )
@@ -709,7 +709,7 @@ get
 back
 output
 parameters
-PRInt32
+int32_t
 tempValue
 ;
 block
@@ -735,7 +735,7 @@ tempValue
 GetInt
 returns
 a
-PRInt32
+int32_t
 ;
 we
 need

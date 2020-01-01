@@ -345,7 +345,7 @@ nsViewSourceHandler
 :
 GetDefaultPort
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -366,7 +366,7 @@ nsViewSourceHandler
 :
 GetProtocolFlags
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -452,7 +452,7 @@ szalagavat
 hu
 /
 "
-PRInt32
+int32_t
 colon
 =
 aSpec
@@ -763,7 +763,7 @@ nsViewSourceHandler
 :
 AllowPort
 (
-PRInt32
+int32_t
 port
 const
 char

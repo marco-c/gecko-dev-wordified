@@ -5101,12 +5101,13 @@ key
 if
 (
 !
-obj
--
->
+JSObject
+:
+:
 setSingletonType
 (
 cx
+obj
 )
 )
 return

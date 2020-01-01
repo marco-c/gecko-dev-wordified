@@ -288,7 +288,7 @@ n
 /
 /
 static
-PRInt64
+int64_t
 xptiInterfaceInfoManager
 :
 :
@@ -492,7 +492,7 @@ RegisterBuffer
 char
 *
 buf
-PRUint32
+uint32_t
 length
 )
 {
@@ -677,7 +677,7 @@ mTableReentrantMonitor
 ;
 for
 (
-PRUint16
+uint16_t
 k
 =
 0
@@ -715,7 +715,7 @@ VerifyAndAddEntryIfNew
 XPTInterfaceDirectoryEntry
 *
 iface
-PRUint16
+uint16_t
 idx
 xptiTypelibGuts
 *
@@ -1712,7 +1712,7 @@ char
 *
 prefix
 ;
-PRUint32
+uint32_t
 length
 ;
 }
@@ -2284,7 +2284,7 @@ array
 /
 for
 (
-PRInt32
+int32_t
 i
 =
 managerArray

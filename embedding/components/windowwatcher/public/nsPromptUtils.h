@@ -150,7 +150,7 @@ nsString
 password
 )
 {
-PRUint32
+uint32_t
 flags
 ;
 aAuthInfo
@@ -182,7 +182,7 @@ username
 by
 a
 backslash
-PRInt32
+int32_t
 idx
 =
 user
@@ -408,7 +408,7 @@ machineProcessing
 nsCString
 &
 host
-PRInt32
+int32_t
 *
 port
 )
@@ -456,7 +456,7 @@ here
 .
 .
 .
-PRUint32
+uint32_t
 flags
 ;
 aAuthInfo
@@ -777,7 +777,7 @@ host
 nsCString
 host
 ;
-PRInt32
+int32_t
 port
 =
 -

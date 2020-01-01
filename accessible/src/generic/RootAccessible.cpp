@@ -804,7 +804,7 @@ member
 #
 ifdef
 MOZ_XUL
-PRUint32
+uint32_t
 RootAccessible
 :
 :
@@ -913,7 +913,7 @@ return
 0
 ;
 }
-PRUint32
+uint32_t
 chromeFlags
 ;
 xulWin
@@ -931,7 +931,7 @@ chromeFlags
 }
 #
 endif
-PRUint64
+uint64_t
 RootAccessible
 :
 :
@@ -939,7 +939,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 DocAccessibleWrap
@@ -964,7 +964,7 @@ state
 #
 ifdef
 MOZ_XUL
-PRUint32
+uint32_t
 chromeFlags
 =
 GetChromeFlags
@@ -2173,7 +2173,7 @@ RadioStateChange
 )
 )
 {
-PRUint64
+uint64_t
 state
 =
 accessible
@@ -2313,7 +2313,7 @@ CheckboxStateChange
 )
 )
 {
-PRUint64
+uint64_t
 state
 =
 accessible
@@ -2427,7 +2427,7 @@ OpenStateChange
 )
 )
 {
-PRUint64
+uint64_t
 state
 =
 accessible
@@ -3330,7 +3330,7 @@ RootAccessible
 :
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -3903,7 +3903,7 @@ popupContainer
 )
 return
 ;
-PRUint32
+uint32_t
 childCount
 =
 popupContainer
@@ -3915,7 +3915,7 @@ ChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -4082,19 +4082,19 @@ focus
 .
 static
 const
-PRUint32
+uint32_t
 kNotifyOfFocus
 =
 1
 ;
 static
 const
-PRUint32
+uint32_t
 kNotifyOfState
 =
 2
 ;
-PRUint32
+uint32_t
 notifyOf
 =
 0
@@ -4594,7 +4594,7 @@ countVariant
 )
 return
 ;
-PRInt32
+int32_t
 index
 count
 ;
@@ -4659,7 +4659,7 @@ dataEvent
 )
 return
 ;
-PRInt32
+int32_t
 startRow
 =
 0

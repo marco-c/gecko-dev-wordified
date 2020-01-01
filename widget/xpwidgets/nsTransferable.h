@@ -216,7 +216,7 @@ SetData
 nsISupports
 *
 inData
-PRUint32
+uint32_t
 inDataLen
 )
 ;
@@ -227,7 +227,7 @@ nsISupports
 *
 *
 outData
-PRUint32
+uint32_t
 *
 outDataLen
 )
@@ -312,7 +312,7 @@ WriteCache
 nsISupports
 *
 aData
-PRUint32
+uint32_t
 aDataLen
 )
 ;
@@ -323,7 +323,7 @@ nsISupports
 *
 *
 aData
-PRUint32
+uint32_t
 *
 aDataLen
 )
@@ -343,7 +343,7 @@ varient
 of
 primitive
 wrapper
-PRUint32
+uint32_t
 mDataLen
 ;
 const

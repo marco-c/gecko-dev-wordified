@@ -340,7 +340,7 @@ eParserCommands
 aCommand
 =
 eViewNormal
-PRUint32
+uint32_t
 aFlags
 =
 0
@@ -353,7 +353,7 @@ nsHTMLTokenizer
 )
 ;
 static
-PRUint32
+uint32_t
 GetFlags
 (
 const
@@ -594,10 +594,10 @@ position
 each
 time
 .
-PRInt32
+int32_t
 mTokenScanPos
 ;
-PRUint32
+uint32_t
 mFlags
 ;
 }

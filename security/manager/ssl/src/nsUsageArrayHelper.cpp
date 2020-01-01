@@ -185,7 +185,7 @@ char
 suffix
 SECCertificateUsage
 aCertUsage
-PRUint32
+uint32_t
 &
 aCounter
 PRUnichar
@@ -410,7 +410,7 @@ nsUsageArrayHelper
 :
 verifyFailed
 (
-PRUint32
+uint32_t
 *
 _verified
 int
@@ -631,12 +631,12 @@ char
 suffix
 bool
 localOnly
-PRUint32
+uint32_t
 outArraySize
-PRUint32
+uint32_t
 *
 _verified
-PRUint32
+uint32_t
 *
 _count
 PRUnichar
@@ -721,7 +721,7 @@ SkipOcsp
 ;
 }
 }
-PRUint32
+uint32_t
 &
 count
 =

@@ -485,7 +485,7 @@ parent
 nsIView
 *
 child
-PRInt32
+int32_t
 zindex
 )
 ;
@@ -553,7 +553,7 @@ nsIView
 aView
 bool
 aAuto
-PRInt32
+int32_t
 aZIndex
 bool
 aTopMost
@@ -628,13 +628,13 @@ aIsPainting
 NS_IMETHOD
 GetLastUserEventTime
 (
-PRUint32
+uint32_t
 &
 aTime
 )
 ;
 static
-PRUint32
+uint32_t
 gLastUserEventTime
 ;
 /
@@ -1113,7 +1113,7 @@ PostPendingUpdate
 (
 )
 ;
-PRUint32
+uint32_t
 AppUnitsPerDevPixel
 (
 )
@@ -1237,7 +1237,7 @@ this
 as
 noted
 .
-PRInt32
+int32_t
 mRefreshDisableCount
 ;
 /
@@ -1285,7 +1285,7 @@ locked
 .
 MMP
 static
-PRInt32
+int32_t
 mVMCount
 ;
 /

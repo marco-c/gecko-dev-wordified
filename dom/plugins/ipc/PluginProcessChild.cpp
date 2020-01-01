@@ -427,7 +427,7 @@ a
 path
 seperator
 .
-PRInt32
+int32_t
 lastSeparatorPos
 =
 interpose
@@ -439,7 +439,7 @@ RFind
 "
 )
 ;
-PRInt32
+int32_t
 lastTriggerPos
 =
 interpose

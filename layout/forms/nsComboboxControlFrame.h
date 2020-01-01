@@ -286,7 +286,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -330,7 +330,7 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
-PRUint32
+uint32_t
 aFilter
 )
 ;
@@ -487,7 +487,7 @@ virtual
 bool
 IsFrameOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -856,7 +856,7 @@ aTranslation
 )
 ;
 virtual
-PRInt32
+int32_t
 GetIndexOfDisplayArea
 (
 )
@@ -882,10 +882,10 @@ RedisplaySelectedText
 )
 ;
 virtual
-PRInt32
+int32_t
 UpdateRecentIndex
 (
-PRInt32
+int32_t
 aIndex
 )
 ;
@@ -901,14 +901,14 @@ nsISelectControlFrame
 NS_IMETHOD
 AddOption
 (
-PRInt32
+int32_t
 index
 )
 ;
 NS_IMETHOD
 RemoveOption
 (
-PRInt32
+int32_t
 index
 )
 ;
@@ -922,7 +922,7 @@ aIsDone
 NS_IMETHOD
 OnOptionSelected
 (
-PRInt32
+int32_t
 aIndex
 bool
 aSelected
@@ -931,9 +931,9 @@ aSelected
 NS_IMETHOD
 OnSetSelectedIndex
 (
-PRInt32
+int32_t
 aOldIndex
-PRInt32
+int32_t
 aNewIndex
 )
 ;
@@ -971,7 +971,7 @@ nsIContent
 *
 Rollup
 (
-PRUint32
+uint32_t
 aCount
 bool
 aGetLastRolledUp
@@ -1057,7 +1057,7 @@ false
 ;
 }
 virtual
-PRUint32
+uint32_t
 GetSubmenuWidgetChain
 (
 nsTArray
@@ -1341,7 +1341,7 @@ FireValueChangeEvent
 nsresult
 RedisplayText
 (
-PRInt32
+int32_t
 aIndex
 )
 ;
@@ -1514,10 +1514,10 @@ RedisplayTextEvent
 >
 mRedisplayTextEvent
 ;
-PRInt32
+int32_t
 mRecentSelectedIndex
 ;
-PRInt32
+int32_t
 mDisplayedIndex
 ;
 nsString
@@ -1632,7 +1632,7 @@ sFocused
 #
 ifdef
 DO_REFLOW_COUNTER
-PRInt32
+int32_t
 mReflowId
 ;
 #

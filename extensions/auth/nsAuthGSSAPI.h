@@ -367,7 +367,7 @@ mMechOID
 nsCString
 mServiceName
 ;
-PRUint32
+uint32_t
 mServiceFlags
 ;
 nsString

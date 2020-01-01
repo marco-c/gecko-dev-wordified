@@ -465,7 +465,7 @@ aDoc
 )
 {
 }
-PRUint64
+uint64_t
 XULMenuitemAccessible
 :
 :
@@ -473,7 +473,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 Accessible
@@ -822,7 +822,7 @@ combobox
 "
 )
 ;
-PRUint64
+uint64_t
 grandParentState
 =
 grandParent
@@ -894,7 +894,7 @@ return
 state
 ;
 }
-PRUint64
+uint64_t
 XULMenuitemAccessible
 :
 :
@@ -1089,7 +1089,7 @@ Alt
 F
 .
 static
-PRInt32
+int32_t
 gMenuAccesskeyModifier
 =
 -
@@ -1159,7 +1159,7 @@ KeyBinding
 (
 )
 ;
-PRUint32
+uint32_t
 modifierKey
 =
 0
@@ -1400,7 +1400,7 @@ KeyBinding
 (
 )
 ;
-PRUint32
+uint32_t
 key
 =
 0
@@ -1487,7 +1487,7 @@ modifiers
 modifiersStr
 )
 ;
-PRUint32
+uint32_t
 modifierMask
 =
 0
@@ -1864,7 +1864,7 @@ roles
 MENUITEM
 ;
 }
-PRInt32
+int32_t
 XULMenuitemAccessible
 :
 :
@@ -1913,7 +1913,7 @@ XULMenuitemAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 index
 )
 {
@@ -1960,7 +1960,7 @@ XULMenuitemAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -1992,7 +1992,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-PRUint8
+uint8_t
 XULMenuitemAccessible
 :
 :
@@ -2529,7 +2529,7 @@ aDoc
 )
 {
 }
-PRUint64
+uint64_t
 XULMenuSeparatorAccessible
 :
 :
@@ -2612,7 +2612,7 @@ XULMenuSeparatorAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 index
 )
 {
@@ -2626,7 +2626,7 @@ XULMenuSeparatorAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -2637,7 +2637,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-PRUint8
+uint8_t
 XULMenuSeparatorAccessible
 :
 :
@@ -2889,7 +2889,7 @@ GetParent
 )
 ;
 }
-PRUint64
+uint64_t
 XULMenupopupAccessible
 :
 :
@@ -2897,7 +2897,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 Accessible

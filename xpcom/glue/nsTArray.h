@@ -561,15 +561,15 @@ static
 nsTArrayHeader
 sEmptyHdr
 ;
-PRUint32
+uint32_t
 mLength
 ;
-PRUint32
+uint32_t
 mCapacity
 :
 31
 ;
-PRUint32
+uint32_t
 mIsAutoArray
 :
 1
@@ -618,7 +618,7 @@ E
 elem_type
 ;
 typedef
-PRUint32
+uint32_t
 index_type
 ;
 /
@@ -696,7 +696,7 @@ E
 elem_type
 ;
 typedef
-PRUint32
+uint32_t
 index_type
 ;
 elem_type
@@ -796,7 +796,7 @@ E
 elem_type
 ;
 typedef
-PRUint32
+uint32_t
 index_type
 ;
 elem_type
@@ -1026,11 +1026,11 @@ Header
 public
 :
 typedef
-PRUint32
+uint32_t
 size_type
 ;
 typedef
-PRUint32
+uint32_t
 index_type
 ;
 /
@@ -1442,7 +1442,7 @@ be
 void
 IncrementLength
 (
-PRUint32
+uint32_t
 n
 )
 {
@@ -9451,7 +9451,7 @@ template
 <
 class
 TArrayBase
-PRUint32
+uint32_t
 N
 >
 class
@@ -9831,7 +9831,7 @@ template
 <
 class
 E
-PRUint32
+uint32_t
 N
 class
 Alloc
@@ -9945,7 +9945,7 @@ g
 .
 nsAutoTArray
 <
-PRUint32
+uint32_t
 1
 >
 wouldn
@@ -10026,7 +10026,7 @@ we
 used
 nsAutoTArray
 <
-PRUint32
+uint32_t
 1
 >
 below
@@ -10082,7 +10082,7 @@ sizeof
 (
 nsAutoTArray
 <
-PRUint32
+uint32_t
 2
 >
 )
@@ -10101,7 +10101,7 @@ nsTArrayHeader
 +
 sizeof
 (
-PRUint32
+uint32_t
 )
 *
 2
@@ -10126,7 +10126,7 @@ template
 <
 class
 E
-PRUint32
+uint32_t
 N
 >
 class
@@ -10198,7 +10198,7 @@ template
 <
 class
 E
-PRUint32
+uint32_t
 N
 >
 class

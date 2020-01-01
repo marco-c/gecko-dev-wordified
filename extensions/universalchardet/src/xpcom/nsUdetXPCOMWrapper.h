@@ -673,7 +673,7 @@ public
 :
 nsXPCOMDetector
 (
-PRUint32
+uint32_t
 aLanguageFilter
 )
 ;
@@ -698,7 +698,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 bool
 *
@@ -816,7 +816,7 @@ public
 :
 nsXPCOMStringDetector
 (
-PRUint32
+uint32_t
 aLanguageFilter
 )
 ;
@@ -833,7 +833,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 const
 char

@@ -272,7 +272,7 @@ second
 void
 UpdateFilter
 (
-PRUint32
+uint32_t
 aDelay
 TimeStamp
 aTimeout
@@ -297,7 +297,7 @@ TimerThread
 (
 )
 ;
-PRInt32
+int32_t
 mInitInProgress
 ;
 bool
@@ -341,7 +341,7 @@ if
 it
 failed
 .
-PRInt32
+int32_t
 AddTimerInternal
 (
 nsTimerImpl
@@ -408,7 +408,7 @@ PR_BIT
 (
 DELAY_LINE_LENGTH_LOG2
 )
-PRInt32
+int32_t
 mDelayLine
 [
 DELAY_LINE_LENGTH
@@ -417,10 +417,10 @@ DELAY_LINE_LENGTH
 /
 /
 milliseconds
-PRUint32
+uint32_t
 mDelayLineCounter
 ;
-PRUint32
+uint32_t
 mMinTimerPeriod
 ;
 /

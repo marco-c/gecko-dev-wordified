@@ -487,12 +487,12 @@ fWpsIcon
 void
 ConvertColorBitMap
 (
-PRUint8
+uint8_t
 *
 inBuf
 PBITMAPINFO2
 pBMInfo
-PRUint8
+uint8_t
 *
 outBuf
 bool
@@ -502,12 +502,12 @@ fShrink
 void
 ConvertMaskBitMap
 (
-PRUint8
+uint8_t
 *
 inBuf
 PBITMAPINFO2
 pBMInfo
-PRUint8
+uint8_t
 *
 outBuf
 bool
@@ -1006,7 +1006,7 @@ nsIconChannel
 :
 GetLoadFlags
 (
-PRUint32
+uint32_t
 *
 aLoadAttributes
 )
@@ -1027,7 +1027,7 @@ nsIconChannel
 :
 SetLoadFlags
 (
-PRUint32
+uint32_t
 aLoadAttributes
 )
 {
@@ -1273,12 +1273,12 @@ mPump
 Init
 (
 inStream
-PRInt64
+int64_t
 (
 -
 1
 )
-PRInt64
+int64_t
 (
 -
 1
@@ -1365,7 +1365,7 @@ nsIFile
 *
 *
 aLocalFile
-PRUint32
+uint32_t
 *
 aDesiredImageSize
 nsACString
@@ -1696,7 +1696,7 @@ nsIFile
 >
 localFile
 ;
-PRUint32
+uint32_t
 desiredImageSize
 ;
 nsXPIDLCString
@@ -1926,13 +1926,13 @@ pBMInfo
 =
 0
 ;
-PRUint8
+uint8_t
 *
 pInBuf
 =
 0
 ;
-PRUint8
+uint8_t
 *
 pOutBuf
 =
@@ -2086,7 +2086,7 @@ including
 its
 color
 table
-PRUint32
+uint32_t
 cbBMInfo
 =
 sizeof
@@ -2132,7 +2132,7 @@ the
 color
 bitmap
 data
-PRUint32
+uint32_t
 cbInRow
 =
 ALIGNEDBPR
@@ -2145,7 +2145,7 @@ BMHeader
 cBitCount
 )
 ;
-PRUint32
+uint32_t
 cbInBuf
 =
 cbInRow
@@ -2157,7 +2157,7 @@ cy
 pInBuf
 =
 (
-PRUint8
+uint8_t
 *
 )
 nsMemory
@@ -2194,7 +2194,7 @@ we
 '
 re
 creating
-PRUint32
+uint32_t
 cxOut
 =
 fShrink
@@ -2209,7 +2209,7 @@ BMHeader
 .
 cx
 ;
-PRUint32
+uint32_t
 cyOut
 =
 fShrink
@@ -2224,7 +2224,7 @@ BMHeader
 .
 cy
 ;
-PRUint32
+uint32_t
 cbOutBuf
 =
 2
@@ -2240,7 +2240,7 @@ cyOut
 pOutBuf
 =
 (
-PRUint8
+uint8_t
 *
 )
 nsMemory
@@ -2438,7 +2438,7 @@ A
 in
 last
 )
-PRUint8
+uint8_t
 *
 outPtr
 =
@@ -2450,7 +2450,7 @@ outPtr
 +
 =
 (
-PRUint8
+uint8_t
 )
 cxOut
 ;
@@ -2460,7 +2460,7 @@ outPtr
 +
 =
 (
-PRUint8
+uint8_t
 )
 cyOut
 ;
@@ -2608,7 +2608,7 @@ pInBuf
 pInBuf
 =
 (
-PRUint8
+uint8_t
 *
 )
 nsMemory
@@ -2759,7 +2759,7 @@ data
 into
 the
 pipe
-PRUint32
+uint32_t
 written
 ;
 rv
@@ -3112,7 +3112,7 @@ get
 false
 fMini
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -3155,7 +3155,7 @@ IconFromExtension
 ptr
 fMini
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -3623,19 +3623,19 @@ ignored
 void
 ConvertColorBitMap
 (
-PRUint8
+uint8_t
 *
 inBuf
 PBITMAPINFO2
 pBMInfo
-PRUint8
+uint8_t
 *
 outBuf
 bool
 fShrink
 )
 {
-PRUint32
+uint32_t
 next
 =
 fShrink
@@ -3644,7 +3644,7 @@ fShrink
 :
 1
 ;
-PRUint32
+uint32_t
 bprIn
 =
 ALIGNEDBPR
@@ -3659,7 +3659,7 @@ pBMInfo
 cBitCount
 )
 ;
-PRUint8
+uint8_t
 *
 pIn
 =
@@ -3676,7 +3676,7 @@ cy
 *
 bprIn
 ;
-PRUint8
+uint8_t
 *
 pOut
 =
@@ -3705,7 +3705,7 @@ cBitCount
 4
 )
 {
-PRUint32
+uint32_t
 ubprIn
 =
 UNALIGNEDBPR
@@ -3720,7 +3720,7 @@ pBMInfo
 cBitCount
 )
 ;
-PRUint32
+uint32_t
 padIn
 =
 bprIn
@@ -3729,7 +3729,7 @@ ubprIn
 ;
 for
 (
-PRUint32
+uint32_t
 row
 =
 pBMInfo
@@ -3749,7 +3749,7 @@ next
 {
 for
 (
-PRUint32
+uint32_t
 ndx
 =
 0
@@ -3771,7 +3771,7 @@ pOut
 4
 +
 (
-PRUint8
+uint8_t
 *
 )
 memcpy
@@ -3800,7 +3800,7 @@ pOut
 4
 +
 (
-PRUint8
+uint8_t
 *
 )
 memcpy
@@ -3851,7 +3851,7 @@ cBitCount
 {
 for
 (
-PRUint32
+uint32_t
 row
 =
 pBMInfo
@@ -3871,7 +3871,7 @@ next
 {
 for
 (
-PRUint32
+uint32_t
 ndx
 =
 0
@@ -3895,7 +3895,7 @@ pOut
 4
 +
 (
-PRUint8
+uint8_t
 *
 )
 memcpy
@@ -3936,7 +3936,7 @@ cBitCount
 24
 )
 {
-PRUint32
+uint32_t
 next3
 =
 next
@@ -3945,7 +3945,7 @@ next
 ;
 for
 (
-PRUint32
+uint32_t
 row
 =
 pBMInfo
@@ -3965,7 +3965,7 @@ next
 {
 for
 (
-PRUint32
+uint32_t
 ndx
 =
 0
@@ -3989,7 +3989,7 @@ pOut
 4
 +
 (
-PRUint8
+uint8_t
 *
 )
 memcpy
@@ -4203,19 +4203,19 @@ over
 void
 ConvertMaskBitMap
 (
-PRUint8
+uint8_t
 *
 inBuf
 PBITMAPINFO2
 pBMInfo
-PRUint8
+uint8_t
 *
 outBuf
 bool
 fShrink
 )
 {
-PRUint32
+uint32_t
 next
 =
 (
@@ -4226,7 +4226,7 @@ fShrink
 1
 )
 ;
-PRUint32
+uint32_t
 bprIn
 =
 ALIGNEDBPR
@@ -4241,7 +4241,7 @@ pBMInfo
 cBitCount
 )
 ;
-PRUint32
+uint32_t
 padIn
 =
 bprIn
@@ -4258,7 +4258,7 @@ pBMInfo
 cBitCount
 )
 ;
-PRUint8
+uint8_t
 *
 pIn
 =
@@ -4275,7 +4275,7 @@ cy
 *
 bprIn
 ;
-PRUint8
+uint8_t
 *
 pOut
 =
@@ -4294,7 +4294,7 @@ other
 row
 for
 (
-PRUint32
+uint32_t
 row
 =
 pBMInfo
@@ -4329,7 +4329,7 @@ the
 row
 for
 (
-PRUint32
+uint32_t
 bits
 =
 pBMInfo
@@ -4344,7 +4344,7 @@ pIn
 +
 )
 {
-PRUint8
+uint8_t
 src
 =
 ~
@@ -4353,7 +4353,7 @@ src
 pIn
 )
 ;
-PRUint8
+uint8_t
 srcMask
 =
 0x80
@@ -4663,7 +4663,7 @@ nsIconChannel
 :
 GetContentDisposition
 (
-PRUint32
+uint32_t
 *
 aContentDisposition
 )
@@ -4708,7 +4708,7 @@ nsIconChannel
 :
 GetContentLength
 (
-PRInt32
+int32_t
 *
 aContentLength
 )
@@ -4728,7 +4728,7 @@ nsIconChannel
 :
 SetContentLength
 (
-PRInt32
+int32_t
 aContentLength
 )
 {
@@ -5069,9 +5069,9 @@ aContext
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {

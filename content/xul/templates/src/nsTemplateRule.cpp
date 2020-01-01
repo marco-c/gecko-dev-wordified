@@ -239,7 +239,7 @@ if
 aIsMultiple
 )
 {
-PRInt32
+int32_t
 start
 =
 0
@@ -299,7 +299,7 @@ if
 (
 start
 <
-PRInt32
+int32_t
 (
 aTargets
 .
@@ -631,7 +631,7 @@ is
 a
 match
 .
-PRUint32
+uint32_t
 length
 =
 mTargetList
@@ -642,7 +642,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 t
 =
 0
@@ -811,7 +811,7 @@ false
 nsresult
 err
 ;
-PRInt32
+int32_t
 leftint
 =
 PromiseFlatString
@@ -833,7 +833,7 @@ err
 )
 )
 {
-PRInt32
+int32_t
 rightint
 =
 PromiseFlatString
@@ -901,7 +901,7 @@ if
 collation
 )
 {
-PRInt32
+int32_t
 sortOrder
 ;
 collation
@@ -914,7 +914,7 @@ mIgnoreCase
 ?
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 nsICollation
@@ -925,7 +925,7 @@ kCollationCaseInSensitive
 :
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 nsICollation
@@ -1009,7 +1009,7 @@ if
 collation
 )
 {
-PRInt32
+int32_t
 sortOrder
 ;
 collation
@@ -1022,7 +1022,7 @@ mIgnoreCase
 ?
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 nsICollation
@@ -1033,7 +1033,7 @@ kCollationCaseInSensitive
 :
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 nsICollation

@@ -385,7 +385,7 @@ same
 buffer
 *
 /
-PRInt32
+int32_t
 nsUnescapeCount
 (
 char
@@ -445,7 +445,7 @@ const
 PRUnichar
 *
 aSourceBuffer
-PRInt32
+int32_t
 aSourceBufferLen
 =
 -
@@ -839,9 +839,9 @@ const
 char
 *
 str
-PRInt32
+int32_t
 len
-PRUint32
+uint32_t
 flags
 nsACString
 &
@@ -924,9 +924,9 @@ const
 char
 *
 str
-PRInt32
+int32_t
 len
-PRUint32
+uint32_t
 flags
 nsACString
 &
@@ -944,7 +944,7 @@ length
 *
 /
 inline
-PRInt32
+int32_t
 NS_UnescapeURL
 (
 char
@@ -981,7 +981,7 @@ const
 nsCSubstring
 &
 str
-PRUint32
+uint32_t
 flags
 nsCSubstring
 &
@@ -1023,7 +1023,7 @@ const
 nsCSubstring
 &
 str
-PRUint32
+uint32_t
 flags
 nsCSubstring
 &

@@ -362,7 +362,7 @@ GetWidthOrHeight
 (
 Dimension
 aDimension
-PRInt32
+int32_t
 &
 aResult
 )

@@ -153,7 +153,7 @@ table
 PLDHashEntryHdr
 *
 entry
-PRUint32
+uint32_t
 ordinal
 void
 *
@@ -315,7 +315,7 @@ a
 simple
 datatype
 (
-PRUint32
+uint32_t
 nsISupports
 *
 )
@@ -696,7 +696,7 @@ properly
 void
 Init
 (
-PRUint32
+uint32_t
 initSize
 =
 PL_DHASH_MIN_SIZE
@@ -743,7 +743,7 @@ fallible_t
 bool
 Init
 (
-PRUint32
+uint32_t
 initSize
 const
 fallible_t
@@ -821,7 +821,7 @@ moved
 .
 *
 /
-PRUint32
+uint32_t
 GetGeneration
 (
 )
@@ -901,7 +901,7 @@ of
 entries
 *
 /
-PRUint32
+uint32_t
 Count
 (
 )
@@ -1507,7 +1507,7 @@ actually
 enumerated
 *
 /
-PRUint32
+uint32_t
 EnumerateEntries
 (
 Enumerator
@@ -2063,7 +2063,7 @@ table
 PLDHashEntryHdr
 *
 entry
-PRUint32
+uint32_t
 number
 void
 *
@@ -2265,7 +2265,7 @@ EntryType
 :
 Init
 (
-PRUint32
+uint32_t
 initSize
 const
 fallible_t
@@ -2644,7 +2644,7 @@ table
 PLDHashEntryHdr
 *
 entry
-PRUint32
+uint32_t
 number
 void
 *

@@ -222,7 +222,7 @@ virtual
 nsresult
 GetNumberOfChildren
 (
-PRInt32
+int32_t
 *
 aNumChildren
 )
@@ -231,7 +231,7 @@ virtual
 nsresult
 GetChild
 (
-PRInt32
+int32_t
 aIndex
 nsTransactionItem
 *
@@ -306,7 +306,7 @@ virtual
 nsresult
 GetNumberOfUndoItems
 (
-PRInt32
+int32_t
 *
 aNumItems
 )
@@ -315,7 +315,7 @@ virtual
 nsresult
 GetNumberOfRedoItems
 (
-PRInt32
+int32_t
 *
 aNumItems
 )

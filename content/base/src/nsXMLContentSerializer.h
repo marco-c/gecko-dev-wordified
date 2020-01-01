@@ -224,9 +224,9 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 Init
 (
-PRUint32
+uint32_t
 flags
-PRUint32
+uint32_t
 aWrapColumn
 const
 char
@@ -244,9 +244,9 @@ AppendText
 nsIContent
 *
 aText
-PRInt32
+int32_t
 aStartOffset
-PRInt32
+int32_t
 aEndOffset
 nsAString
 &
@@ -259,9 +259,9 @@ AppendCDATASection
 nsIContent
 *
 aCDATASection
-PRInt32
+int32_t
 aStartOffset
-PRInt32
+int32_t
 aEndOffset
 nsAString
 &
@@ -274,9 +274,9 @@ AppendProcessingInstruction
 nsIContent
 *
 aPI
-PRInt32
+int32_t
 aStartOffset
-PRInt32
+int32_t
 aEndOffset
 nsAString
 &
@@ -289,9 +289,9 @@ AppendComment
 nsIContent
 *
 aComment
-PRInt32
+int32_t
 aStartOffset
-PRInt32
+int32_t
 aEndOffset
 nsAString
 &
@@ -746,9 +746,9 @@ AppendTextData
 nsIContent
 *
 aNode
-PRInt32
+int32_t
 aStartOffset
-PRInt32
+int32_t
 aEndOffset
 nsAString
 &
@@ -1022,7 +1022,7 @@ nsAString
 aPrefix
 )
 ;
-PRUint32
+uint32_t
 ScanNamespaceDeclarations
 (
 nsIContent
@@ -1060,7 +1060,7 @@ aTagName
 nsAString
 &
 aStr
-PRUint32
+uint32_t
 aSkipAttr
 bool
 aAddNSAttr
@@ -1097,7 +1097,7 @@ aContent
 nsIAtom
 *
 aAttrNameAtom
-PRInt32
+int32_t
 aAttrNamespaceID
 const
 nsAString
@@ -1220,7 +1220,7 @@ aOriginalElement
 nsIAtom
 *
 aName
-PRInt32
+int32_t
 aNamespaceID
 nsAString
 &
@@ -1431,7 +1431,7 @@ virtual
 bool
 LineBreakBeforeOpen
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1462,7 +1462,7 @@ virtual
 bool
 LineBreakAfterOpen
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1493,7 +1493,7 @@ virtual
 bool
 LineBreakBeforeClose
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1524,7 +1524,7 @@ virtual
 bool
 LineBreakAfterClose
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1661,7 +1661,7 @@ nsIContent
 aNode
 )
 ;
-PRInt32
+int32_t
 mPrefixIndex
 ;
 struct
@@ -1689,7 +1689,7 @@ mNameSpaceStack
 /
 nsIDocumentEncoder
 flags
-PRUint32
+uint32_t
 mFlags
 ;
 /
@@ -1726,7 +1726,7 @@ on
 the
 current
 line
-PRUint32
+uint32_t
 mColPos
 ;
 /
@@ -1802,7 +1802,7 @@ in
 the
 wrap
 mode
-PRUint32
+uint32_t
 mMaxColumn
 ;
 /
@@ -1831,7 +1831,7 @@ maximum
 length
 of
 indentation
-PRInt32
+int32_t
 mIndentOverflow
 ;
 /
@@ -1996,7 +1996,7 @@ mMayIgnoreLineBreakSequence
 bool
 mBodyOnly
 ;
-PRInt32
+int32_t
 mInBody
 ;
 /
@@ -2009,7 +2009,7 @@ which
 have
 preformated
 content
-PRInt32
+int32_t
 mPreLevel
 ;
 }

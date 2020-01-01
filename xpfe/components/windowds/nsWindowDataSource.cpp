@@ -191,7 +191,7 @@ nsIDocShell
 .
 h
 "
-PRUint32
+uint32_t
 nsWindowDataSource
 :
 :
@@ -235,7 +235,7 @@ gRDFService
 =
 nullptr
 ;
-PRUint32
+uint32_t
 nsWindowDataSource
 :
 :
@@ -1206,7 +1206,7 @@ kind
 of
 RDF
 inconsistency
-PRInt32
+int32_t
 winIndex
 =
 -
@@ -1356,7 +1356,7 @@ rv
 )
 continue
 ;
-PRInt32
+int32_t
 currentIndex
 =
 -
@@ -1992,7 +1992,7 @@ aProperty
 kNC_KeyIndex
 )
 {
-PRInt32
+int32_t
 theIndex
 =
 0

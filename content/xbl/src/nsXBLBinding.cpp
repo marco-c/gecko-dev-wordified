@@ -4038,7 +4038,7 @@ GetBoundElement
 (
 )
 ;
-PRInt32
+int32_t
 count
 =
 aData
@@ -4109,7 +4109,7 @@ return
 PL_DHASH_STOP
 ;
 }
-PRInt32
+int32_t
 currIndex
 =
 currPoint
@@ -4259,7 +4259,7 @@ pseudoPoint
 =
 nullptr
 ;
-PRUint32
+uint32_t
 childCount
 ;
 nodeList
@@ -4271,14 +4271,14 @@ GetLength
 childCount
 )
 ;
-PRInt32
+int32_t
 j
 =
 0
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4326,7 +4326,7 @@ if
 (
 (
 (
-PRInt32
+int32_t
 )
 i
 )
@@ -4426,7 +4426,7 @@ nsXBLInsertionPoint
 (
 parent
 (
-PRUint32
+uint32_t
 )
 -
 1
@@ -4619,7 +4619,7 @@ data
 >
 mBinding
 ;
-PRInt32
+int32_t
 count
 =
 aData
@@ -4631,7 +4631,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -4657,7 +4657,7 @@ ElementAt
 i
 )
 ;
-PRInt32
+int32_t
 insCount
 =
 currPoint
@@ -4963,7 +4963,7 @@ void
 aClosure
 )
 {
-PRInt32
+int32_t
 count
 =
 aData
@@ -4975,7 +4975,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -5113,7 +5113,7 @@ setting
 shorthand
 hack
 .
-PRUint32
+uint32_t
 contentCount
 =
 content
@@ -5319,7 +5319,7 @@ nsIContent
 >
 childContent
 ;
-PRUint32
+uint32_t
 length
 ;
 children
@@ -5388,7 +5388,7 @@ observes
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5712,7 +5712,7 @@ respective
 insertion
 points
 .
-PRUint32
+uint32_t
 index
 =
 0
@@ -5775,7 +5775,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5820,7 +5820,7 @@ the
 prototype
 table
 .
-PRUint32
+uint32_t
 index
 ;
 nsIContent
@@ -5873,7 +5873,7 @@ insertionPoint
 =
 nullptr
 ;
-PRInt32
+int32_t
 arrCount
 =
 arr
@@ -5885,7 +5885,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -6121,7 +6121,7 @@ nsIContent
 >
 content
 ;
-PRUint32
+uint32_t
 length
 ;
 children
@@ -6135,7 +6135,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6299,7 +6299,7 @@ attrName
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6321,7 +6321,7 @@ i
 i
 )
 {
-PRInt32
+int32_t
 namespaceID
 =
 attrName
@@ -6655,7 +6655,7 @@ capturing
 or
 not
 .
-PRInt32
+int32_t
 flags
 =
 (
@@ -6796,7 +6796,7 @@ GetKeyEventHandlers
 (
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -6888,7 +6888,7 @@ capturing
 or
 not
 .
-PRInt32
+int32_t
 flags
 =
 (
@@ -7102,7 +7102,7 @@ nsXBLBinding
 :
 GetBaseTag
 (
-PRInt32
+int32_t
 *
 aNameSpaceID
 )
@@ -7149,7 +7149,7 @@ AttributeChanged
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aNameSpaceID
 bool
 aRemoveFlag
@@ -7438,7 +7438,7 @@ capturing
 or
 not
 .
-PRInt32
+int32_t
 flags
 =
 (
@@ -7548,7 +7548,7 @@ GetKeyEventHandlers
 (
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -7607,7 +7607,7 @@ capturing
 or
 not
 .
-PRInt32
+int32_t
 flags
 =
 (
@@ -10066,7 +10066,7 @@ if
 list
 )
 {
-PRInt32
+int32_t
 count
 =
 list
@@ -10078,7 +10078,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -10364,7 +10364,7 @@ const
 nsIContent
 *
 aChild
-PRUint32
+uint32_t
 *
 aIndex
 )
@@ -10412,7 +10412,7 @@ nsXBLBinding
 :
 GetSingleInsertionPoint
 (
-PRUint32
+uint32_t
 *
 aIndex
 bool

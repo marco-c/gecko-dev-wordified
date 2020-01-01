@@ -163,10 +163,10 @@ aEvent
 ;
 protected
 :
-PRUint32
+uint32_t
 mEventID
 ;
-PRUint32
+uint32_t
 mOffset
 ;
 nsString

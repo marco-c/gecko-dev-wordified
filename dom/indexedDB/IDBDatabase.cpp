@@ -454,7 +454,7 @@ DeleteObjectStoreHelper
 IDBTransaction
 *
 aTransaction
-PRInt64
+int64_t
 aObjectStoreId
 )
 :
@@ -486,7 +486,7 @@ In
 -
 params
 .
-PRInt64
+int64_t
 mObjectStoreId
 ;
 }
@@ -2019,7 +2019,7 @@ IDBDatabase
 :
 GetVersion
 (
-PRUint64
+uint64_t
 *
 aVersion
 )
@@ -2135,7 +2135,7 @@ nsDOMStringList
 )
 )
 ;
-PRUint32
+uint32_t
 count
 =
 objectStoreNames
@@ -2146,7 +2146,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2723,7 +2723,7 @@ aMode
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aOptionalArgCount
 nsIIDBTransaction
 *
@@ -3118,7 +3118,7 @@ if
 list
 )
 {
-PRUint32
+uint32_t
 length
 ;
 rv
@@ -3157,7 +3157,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -3355,7 +3355,7 @@ Info
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

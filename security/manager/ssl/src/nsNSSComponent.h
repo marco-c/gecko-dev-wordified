@@ -632,7 +632,7 @@ constructor
 }
 PSMContentDownloader
 (
-PRUint32
+uint32_t
 type
 )
 ;
@@ -707,13 +707,13 @@ char
 *
 mByteData
 ;
-PRInt32
+int32_t
 mBufferOffset
 ;
-PRInt32
+int32_t
 mBufferSize
 ;
-PRUint32
+uint32_t
 mType
 ;
 bool
@@ -790,7 +790,7 @@ PRUnichar
 *
 *
 params
-PRUint32
+uint32_t
 numParams
 nsAString
 &
@@ -825,7 +825,7 @@ PRUnichar
 *
 *
 params
-PRUint32
+uint32_t
 numParams
 nsAString
 &
@@ -1240,7 +1240,7 @@ PRUnichar
 *
 *
 params
-PRUint32
+uint32_t
 numParams
 nsAString
 &
@@ -1271,7 +1271,7 @@ PRUnichar
 *
 *
 params
-PRUint32
+uint32_t
 numParams
 nsAString
 &

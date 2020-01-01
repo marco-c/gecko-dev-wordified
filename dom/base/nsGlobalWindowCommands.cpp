@@ -1456,7 +1456,7 @@ if
 dsti
 )
 {
-PRInt32
+int32_t
 itemType
 ;
 dsti
@@ -3086,7 +3086,7 @@ nsIContentViewerEdit
 COPY_IMAGE_DATA
 )
 ;
-PRInt32
+int32_t
 copyFlags
 =
 nsIContentViewerEdit

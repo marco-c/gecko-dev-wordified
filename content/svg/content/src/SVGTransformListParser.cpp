@@ -511,7 +511,7 @@ delimiterStart
 0
 '
 ;
-PRUint32
+uint32_t
 len
 ;
 if
@@ -870,9 +870,9 @@ MatchNumberArguments
 float
 *
 aResult
-PRUint32
+uint32_t
 aMaxNum
-PRUint32
+uint32_t
 *
 aParsedNum
 )
@@ -1012,7 +1012,7 @@ t
 2
 ]
 ;
-PRUint32
+uint32_t
 count
 ;
 ENSURE_MATCHED
@@ -1117,7 +1117,7 @@ s
 2
 ]
 ;
-PRUint32
+uint32_t
 count
 ;
 ENSURE_MATCHED
@@ -1223,7 +1223,7 @@ r
 3
 ]
 ;
-PRUint32
+uint32_t
 count
 ;
 ENSURE_MATCHED
@@ -1334,7 +1334,7 @@ GetNextToken
 float
 skew
 ;
-PRUint32
+uint32_t
 count
 ;
 ENSURE_MATCHED
@@ -1404,7 +1404,7 @@ GetNextToken
 float
 skew
 ;
-PRUint32
+uint32_t
 count
 ;
 ENSURE_MATCHED
@@ -1477,7 +1477,7 @@ m
 6
 ]
 ;
-PRUint32
+uint32_t
 count
 ;
 ENSURE_MATCHED

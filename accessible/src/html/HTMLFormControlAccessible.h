@@ -185,7 +185,7 @@ nsIAccessible
 NS_IMETHOD
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -195,7 +195,7 @@ aName
 NS_IMETHOD
 DoAction
 (
-PRUint8
+uint8_t
 index
 )
 ;
@@ -215,7 +215,7 @@ NativeRole
 )
 ;
 virtual
-PRUint64
+uint64_t
 NativeState
 (
 )
@@ -224,7 +224,7 @@ NativeState
 /
 ActionAccessible
 virtual
-PRUint8
+uint8_t
 ActionCount
 (
 )
@@ -280,7 +280,7 @@ aDoc
 /
 Accessible
 virtual
-PRUint64
+uint64_t
 NativeState
 (
 )
@@ -289,10 +289,10 @@ virtual
 void
 GetPositionAndSizeInternal
 (
-PRInt32
+int32_t
 *
 aPosInSet
-PRInt32
+int32_t
 *
 aSetSize
 )
@@ -361,7 +361,7 @@ nsIAccessible
 NS_IMETHOD
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -371,7 +371,7 @@ aName
 NS_IMETHOD
 DoAction
 (
-PRUint8
+uint8_t
 index
 )
 ;
@@ -400,13 +400,13 @@ NativeRole
 )
 ;
 virtual
-PRUint64
+uint64_t
 State
 (
 )
 ;
 virtual
-PRUint64
+uint64_t
 NativeState
 (
 )
@@ -415,7 +415,7 @@ NativeState
 /
 ActionAccessible
 virtual
-PRUint8
+uint8_t
 ActionCount
 (
 )
@@ -481,7 +481,7 @@ nsIAccessible
 NS_IMETHOD
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -491,7 +491,7 @@ aName
 NS_IMETHOD
 DoAction
 (
-PRUint8
+uint8_t
 index
 )
 ;
@@ -524,7 +524,7 @@ virtual
 void
 ApplyARIAState
 (
-PRUint64
+uint64_t
 *
 aState
 )
@@ -552,13 +552,13 @@ NativeRole
 )
 ;
 virtual
-PRUint64
+uint64_t
 State
 (
 )
 ;
 virtual
-PRUint64
+uint64_t
 NativeState
 (
 )
@@ -567,7 +567,7 @@ NativeState
 /
 ActionAccessible
 virtual
-PRUint8
+uint8_t
 ActionCount
 (
 )
@@ -710,7 +710,7 @@ virtual
 Relation
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 ;
@@ -773,7 +773,7 @@ virtual
 Relation
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 ;
@@ -846,7 +846,7 @@ virtual
 Relation
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 ;
@@ -910,7 +910,7 @@ virtual
 Relation
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 ;

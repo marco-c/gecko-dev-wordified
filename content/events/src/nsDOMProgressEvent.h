@@ -222,10 +222,10 @@ private
 bool
 mLengthComputable
 ;
-PRUint64
+uint64_t
 mLoaded
 ;
-PRUint64
+uint64_t
 mTotal
 ;
 }

@@ -830,13 +830,13 @@ Find
 Search
 Includes
 const
-PRInt32
+int32_t
 kForward
 =
 0
 ;
 const
-PRInt32
+int32_t
 kBackward
 =
 1
@@ -853,7 +853,7 @@ kCParserCID
 NS_PARSER_CID
 )
 ;
-PRUint32
+uint32_t
 nsHTMLDocument
 :
 :
@@ -1190,7 +1190,7 @@ rv
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 aAgentSheets
@@ -1892,7 +1892,7 @@ TryHintCharset
 nsIMarkupDocumentViewer
 *
 aMarkupDV
-PRInt32
+int32_t
 &
 aCharsetSource
 nsACString
@@ -1905,7 +1905,7 @@ if
 aMarkupDV
 )
 {
-PRInt32
+int32_t
 requestCharsetSource
 ;
 nsresult
@@ -1953,7 +1953,7 @@ aMarkupDV
 SetHintCharacterSetSource
 (
 (
-PRInt32
+int32_t
 )
 (
 kCharsetUninitialized
@@ -2008,7 +2008,7 @@ aMarkupDV
 nsIDocShell
 *
 aDocShell
-PRInt32
+int32_t
 &
 aCharsetSource
 nsACString
@@ -2153,7 +2153,7 @@ TryCacheCharset
 nsICachingChannel
 *
 aCachingChannel
-PRInt32
+int32_t
 &
 aCharsetSource
 nsACString
@@ -2296,7 +2296,7 @@ aDocShell
 nsIDocument
 *
 aParentDocument
-PRInt32
+int32_t
 &
 aCharsetSource
 nsACString
@@ -2309,7 +2309,7 @@ if
 aDocShell
 )
 {
-PRInt32
+int32_t
 source
 ;
 nsCOMPtr
@@ -2318,7 +2318,7 @@ nsIAtom
 >
 csAtom
 ;
-PRInt32
+int32_t
 parentSource
 ;
 aDocShell
@@ -2505,7 +2505,7 @@ nsHTMLDocument
 :
 UseWeakDocTypeDefault
 (
-PRInt32
+int32_t
 &
 aCharsetSource
 nsACString
@@ -2596,7 +2596,7 @@ TryDefaultCharset
 nsIMarkupDocumentViewer
 *
 aMarkupDV
-PRInt32
+int32_t
 &
 aCharsetSource
 nsACString
@@ -3454,7 +3454,7 @@ rv
 )
 ;
 }
-PRInt32
+int32_t
 textType
 =
 GET_BIDI_OPTION_TEXTTYPE
@@ -3778,7 +3778,7 @@ charset
 for
 our
 document
-PRInt32
+int32_t
 charsetSource
 ;
 nsCAutoString
@@ -3815,7 +3815,7 @@ a
 wyciwyg
 channel
 .
-PRInt32
+int32_t
 parserCharsetSource
 ;
 nsCAutoString
@@ -4346,7 +4346,7 @@ charsetSource
 nsCAutoString
 cachedCharset
 ;
-PRInt32
+int32_t
 cachedSource
 ;
 rv
@@ -6218,7 +6218,7 @@ MatchLinks
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -6449,7 +6449,7 @@ MatchAnchors
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -7109,7 +7109,7 @@ aFeatures
 JSContext
 *
 cx
-PRUint8
+uint8_t
 aOptionalArgCount
 nsISupports
 *
@@ -10362,7 +10362,7 @@ MatchNameAttribute
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -10515,7 +10515,7 @@ MatchItems
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -10666,7 +10666,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -11006,7 +11006,7 @@ RemovedForm
 mNumForms
 ;
 }
-PRInt32
+int32_t
 nsHTMLDocument
 :
 :
@@ -11627,7 +11627,7 @@ nsHTMLDocument
 :
 CaptureEvents
 (
-PRInt32
+int32_t
 aEventFlags
 )
 {
@@ -11649,7 +11649,7 @@ nsHTMLDocument
 :
 ReleaseEvents
 (
-PRInt32
+int32_t
 aEventFlags
 )
 {
@@ -11903,7 +11903,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 length
 =
 0
@@ -12094,7 +12094,7 @@ fc_list
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-PRUint32
+uint32_t
 len
 ;
 fc_list
@@ -12492,7 +12492,7 @@ MatchFormControls
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -13389,13 +13389,13 @@ ChangeContentEditableCount
 nsIContent
 *
 aElement
-PRInt32
+int32_t
 aChange
 )
 {
 NS_ASSERTION
 (
-PRInt32
+int32_t
 (
 mContentEditableCount
 )
@@ -13739,7 +13739,7 @@ DocAllResultMatch
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -14902,7 +14902,7 @@ editor
 "
 )
 ;
-PRUint32
+uint32_t
 flags
 =
 0
@@ -16865,7 +16865,7 @@ invertBool
 true
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 bool
@@ -17257,7 +17257,7 @@ end
 )
 )
 ;
-PRUint32
+uint32_t
 j
 ;
 for
@@ -17414,7 +17414,7 @@ Truncate
 (
 )
 ;
-PRInt32
+int32_t
 size
 =
 nsContentUtils

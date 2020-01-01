@@ -484,7 +484,7 @@ aURI
 )
 ;
 static
-PRUint32
+uint32_t
 CalculateChromeFlags
 (
 nsIDOMWindow
@@ -505,7 +505,7 @@ aHasChromeParent
 )
 ;
 static
-PRInt32
+int32_t
 WinHasOption
 (
 const
@@ -516,7 +516,7 @@ const
 char
 *
 aName
-PRInt32
+int32_t
 aDefault
 bool
 *

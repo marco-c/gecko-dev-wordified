@@ -171,7 +171,7 @@ URLPropertyElement
 nsIPropertyElement
 *
 aRealElement
-PRUint32
+uint32_t
 aURLLength
 )
 :
@@ -202,7 +202,7 @@ nsIPropertyElement
 >
 mRealElement
 ;
-PRUint32
+uint32_t
 mURLLength
 ;
 }

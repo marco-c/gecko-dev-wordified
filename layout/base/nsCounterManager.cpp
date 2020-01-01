@@ -609,7 +609,7 @@ mAllCounters
 1
 )
 ;
-PRInt32
+int32_t
 style
 =
 styleItem
@@ -643,7 +643,7 @@ GetStringBufferValue
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 stack
@@ -1471,7 +1471,7 @@ of
 the
 list
 .
-PRInt32
+int32_t
 i
 i_end
 ;
@@ -1579,7 +1579,7 @@ AddResetOrIncrement
 nsIFrame
 *
 aFrame
-PRInt32
+int32_t
 aIndex
 const
 nsStyleCounterData
@@ -2070,7 +2070,7 @@ if
 node
 )
 {
-PRInt32
+int32_t
 i
 =
 0

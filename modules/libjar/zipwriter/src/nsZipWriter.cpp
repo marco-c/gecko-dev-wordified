@@ -518,7 +518,7 @@ nsIFile
 aFile
 )
 {
-PRInt64
+int64_t
 size
 ;
 nsresult
@@ -595,20 +595,20 @@ rv
 rv
 )
 ;
-PRUint8
+uint8_t
 buf
 [
 1024
 ]
 ;
-PRInt64
+int64_t
 seek
 =
 size
 -
 1024
 ;
-PRUint32
+uint32_t
 length
 =
 1024
@@ -640,7 +640,7 @@ length
 +
 =
 (
-PRInt32
+int32_t
 )
 seek
 ;
@@ -752,7 +752,7 @@ the
 end
 for
 (
-PRUint32
+uint32_t
 pos
 =
 length
@@ -760,7 +760,7 @@ length
 ZIP_EOCDR_HEADER_SIZE
 ;
 (
-PRInt32
+int32_t
 )
 pos
 >
@@ -772,7 +772,7 @@ pos
 -
 )
 {
-PRUint32
+uint32_t
 sig
 =
 PEEK32
@@ -802,7 +802,7 @@ pos
 =
 10
 ;
-PRUint32
+uint32_t
 entries
 =
 READ16
@@ -832,7 +832,7 @@ buf
 pos
 )
 ;
-PRUint32
+uint32_t
 commentlen
 =
 READ16
@@ -1040,7 +1040,7 @@ rv
 }
 for
 (
-PRUint32
+uint32_t
 entry
 =
 0
@@ -1258,7 +1258,7 @@ in
 nsIFile
 aFile
 in
-PRInt32
+int32_t
 aIoFlags
 )
 ;
@@ -1273,7 +1273,7 @@ Open
 nsIFile
 *
 aFile
-PRInt32
+int32_t
 aIoFlags
 )
 {
@@ -1566,7 +1566,7 @@ nsIZipEntry
 _retval
 )
 {
-PRInt32
+int32_t
 pos
 ;
 if
@@ -1760,7 +1760,7 @@ in
 AUTF8String
 aZipEntry
 in
-PRInt32
+int32_t
 aCompression
 *
 in
@@ -1783,7 +1783,7 @@ const
 nsACString
 &
 aZipEntry
-PRInt32
+int32_t
 aCompression
 nsIFile
 *
@@ -1927,7 +1927,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 modtime
 ;
 rv
@@ -1952,7 +1952,7 @@ modtime
 =
 PR_USEC_PER_MSEC
 ;
-PRUint32
+uint32_t
 permissions
 ;
 rv
@@ -2060,7 +2060,7 @@ PRTime
 aModTime
 *
 in
-PRInt32
+int32_t
 aCompression
 in
 nsIChannel
@@ -2085,7 +2085,7 @@ nsACString
 aZipEntry
 PRTime
 aModTime
-PRInt32
+int32_t
 aCompression
 nsIChannel
 *
@@ -2254,7 +2254,7 @@ PRTime
 aModTime
 *
 in
-PRInt32
+int32_t
 aCompression
 in
 nsIInputStream
@@ -2279,7 +2279,7 @@ nsACString
 aZipEntry
 PRTime
 aModTime
-PRInt32
+int32_t
 aCompression
 nsIInputStream
 *
@@ -2313,7 +2313,7 @@ PRTime
 aModTime
 *
 in
-PRInt32
+int32_t
 aCompression
 in
 nsIInputStream
@@ -2342,14 +2342,14 @@ nsACString
 aZipEntry
 PRTime
 aModTime
-PRInt32
+int32_t
 aCompression
 nsIInputStream
 *
 aStream
 bool
 aQueue
-PRUint32
+uint32_t
 aPermissions
 )
 {
@@ -2666,7 +2666,7 @@ mInQueue
 return
 NS_ERROR_IN_PROGRESS
 ;
-PRInt32
+int32_t
 pos
 ;
 if
@@ -2841,7 +2841,7 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 count
 =
 mCDSOffset
@@ -2856,7 +2856,7 @@ pos
 >
 mOffset
 ;
-PRUint32
+uint32_t
 read
 =
 0
@@ -2984,7 +2984,7 @@ offsets
 and
 update
 hash
-PRUint32
+uint32_t
 shift
 =
 (
@@ -3012,7 +3012,7 @@ mCDSOffset
 =
 shift
 ;
-PRInt32
+int32_t
 pos2
 =
 pos
@@ -3249,14 +3249,14 @@ if
 mCDSDirty
 )
 {
-PRUint32
+uint32_t
 size
 =
 0
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3318,13 +3318,13 @@ GetCDSHeaderLength
 )
 ;
 }
-PRUint8
+uint8_t
 buf
 [
 ZIP_EOCDR_HEADER_SIZE
 ]
 ;
-PRUint32
+uint32_t
 pos
 =
 0
@@ -3516,7 +3516,7 @@ file
 headers
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3821,7 +3821,7 @@ nsACString
 aZipEntry
 PRTime
 aModTime
-PRUint32
+uint32_t
 aPermissions
 )
 {
@@ -3842,7 +3842,7 @@ header
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-PRUint32
+uint32_t
 zipAttributes
 =
 ZIP_ATTRS
@@ -4493,7 +4493,7 @@ plain
 dir
 addition
 }
-PRUint32
+uint32_t
 zipAttributes
 =
 ZIP_ATTRS
@@ -4732,7 +4732,7 @@ nsZipWriter
 :
 BeginProcessingRemoval
 (
-PRInt32
+int32_t
 aPos
 )
 {
@@ -4898,7 +4898,7 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 shift
 =
 (
@@ -4926,7 +4926,7 @@ mCDSOffset
 =
 shift
 ;
-PRInt32
+int32_t
 pos2
 =
 aPos
@@ -5096,7 +5096,7 @@ mOperation
 OPERATION_REMOVE
 )
 {
-PRInt32
+int32_t
 pos
 =
 -

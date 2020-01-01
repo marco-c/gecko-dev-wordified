@@ -441,7 +441,7 @@ aIsFramesetFrameSelected
 NS_IMETHOD
 GetPrintPreviewNumPages
 (
-PRInt32
+int32_t
 *
 aPrintPreviewNumPages
 )
@@ -449,7 +449,7 @@ aPrintPreviewNumPages
 NS_IMETHOD
 EnumerateDocumentNames
 (
-PRUint32
+uint32_t
 *
 aCount
 PRUnichar
@@ -571,7 +571,7 @@ nsIFrame
 *
 &
 aSeqFrame
-PRInt32
+int32_t
 &
 aCount
 )
@@ -816,7 +816,7 @@ aPO
 void
 CalcNumPrintablePages
 (
-PRInt32
+int32_t
 &
 aNumPages
 )
@@ -900,7 +900,7 @@ PRUnichar
 &
 aStr
 const
-PRUint32
+uint32_t
 aLen
 bool
 aDoFront
@@ -922,7 +922,7 @@ PRUnichar
 *
 &
 aArray
-PRInt32
+int32_t
 &
 aCount
 )
@@ -1450,7 +1450,7 @@ nsIFrame
 *
 &
 aSeqFrame
-PRInt32
+int32_t
 &
 aCount
 )
@@ -1548,7 +1548,7 @@ nsIFrame
 *
 *
 aStartFrame
-PRInt32
+int32_t
 &
 aStartPageNum
 nsRect
@@ -1558,7 +1558,7 @@ nsIFrame
 *
 *
 aEndFrame
-PRInt32
+int32_t
 &
 aEndPageNum
 nsRect

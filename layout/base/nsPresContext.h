@@ -467,7 +467,7 @@ also
 supported
 .
 const
-PRUint8
+uint8_t
 kPresContext_DefaultVariableFont_ID
 =
 0x00
@@ -476,7 +476,7 @@ kPresContext_DefaultVariableFont_ID
 /
 kGenericFont_moz_variable
 const
-PRUint8
+uint8_t
 kPresContext_DefaultFixedFont_ID
 =
 0x01
@@ -512,7 +512,7 @@ Request
 nsRect
 mRect
 ;
-PRUint32
+uint32_t
 mFlags
 ;
 }
@@ -1261,7 +1261,7 @@ this
 context
 *
 /
-PRUint16
+uint16_t
 ImageAnimationMode
 (
 )
@@ -1278,7 +1278,7 @@ void
 )
 SetImageAnimationModeExternal
 (
-PRUint16
+uint16_t
 aMode
 )
 ;
@@ -1288,7 +1288,7 @@ void
 )
 SetImageAnimationModeInternal
 (
-PRUint16
+uint16_t
 aMode
 )
 ;
@@ -1298,7 +1298,7 @@ _IMPL_NS_LAYOUT
 void
 SetImageAnimationMode
 (
-PRUint16
+uint16_t
 aMode
 )
 {
@@ -1313,7 +1313,7 @@ else
 void
 SetImageAnimationMode
 (
-PRUint16
+uint16_t
 aMode
 )
 {
@@ -1580,7 +1580,7 @@ nsFont
 )
 GetDefaultFont
 (
-PRUint8
+uint8_t
 aFontID
 nsIAtom
 *
@@ -1705,7 +1705,7 @@ bugs
 61883
 74186
 84398
-PRInt32
+int32_t
 GetCachedIntPref
 (
 nsPresContext_CachedIntPrefType
@@ -1903,7 +1903,7 @@ return
 mUseFocusColors
 ;
 }
-PRUint8
+uint8_t
 FocusRingWidth
 (
 )
@@ -1923,7 +1923,7 @@ return
 mFocusRingOnAnything
 ;
 }
-PRUint8
+uint8_t
 GetFocusRingStyle
 (
 )
@@ -2682,7 +2682,7 @@ used
 .
 *
 /
-PRInt32
+int32_t
 MinFontSize
 (
 nsIAtom
@@ -2715,7 +2715,7 @@ mMinimumFontSize
 void
 SetMinFontSize
 (
-PRInt32
+int32_t
 aMinFontSize
 )
 {
@@ -2886,7 +2886,7 @@ nullptr
 )
 ;
 static
-PRInt32
+int32_t
 AppUnitsPerCSSPixel
 (
 )
@@ -2900,7 +2900,7 @@ AppUnitsPerCSSPixel
 )
 ;
 }
-PRUint32
+uint32_t
 AppUnitsPerDevPixel
 (
 )
@@ -2916,7 +2916,7 @@ AppUnitsPerDevPixel
 ;
 }
 static
-PRInt32
+int32_t
 AppUnitsPerCSSInch
 (
 )
@@ -2934,7 +2934,7 @@ static
 nscoord
 CSSPixelsToAppUnits
 (
-PRInt32
+int32_t
 aPixels
 )
 {
@@ -2976,7 +2976,7 @@ AppUnitsPerCSSPixel
 ;
 }
 static
-PRInt32
+int32_t
 AppUnitsToIntCSSPixels
 (
 nscoord
@@ -3026,7 +3026,7 @@ AppUnitsPerCSSPixel
 nscoord
 DevPixelsToAppUnits
 (
-PRInt32
+int32_t
 aPixels
 )
 const
@@ -3044,7 +3044,7 @@ AppUnitsPerDevPixel
 )
 ;
 }
-PRInt32
+int32_t
 AppUnitsToDevPixels
 (
 nscoord
@@ -3068,10 +3068,10 @@ AppUnitsPerDevPixel
 )
 ;
 }
-PRInt32
+int32_t
 CSSPixelsToDevPixels
 (
-PRInt32
+int32_t
 aPixels
 )
 {
@@ -3111,10 +3111,10 @@ AppUnitsPerDevPixel
 )
 ;
 }
-PRInt32
+int32_t
 DevPixelsToIntCSSPixels
 (
-PRInt32
+int32_t
 aPixels
 )
 {
@@ -3131,7 +3131,7 @@ aPixels
 float
 DevPixelsToFloatCSSPixels
 (
-PRInt32
+int32_t
 aPixels
 )
 {
@@ -3381,15 +3381,15 @@ NS_STYLE_OVERFLOW_HIDDEN
 or
 NS_STYLE_OVERFLOW_AUTO
 .
-PRUint8
+uint8_t
 mHorizontal
 mVertical
 ;
 ScrollbarStyles
 (
-PRUint8
+uint8_t
 h
-PRUint8
+uint8_t
 v
 )
 :
@@ -3471,9 +3471,9 @@ mVertical
 void
 SetViewportOverflowOverride
 (
-PRUint8
+uint8_t
 aX
-PRUint8
+uint8_t
 aY
 )
 {
@@ -3851,7 +3851,7 @@ void
 )
 SetBidi
 (
-PRUint32
+uint32_t
 aBidiOptions
 bool
 aForceRestyle
@@ -3890,7 +3890,7 @@ nsIDocument
 /
 NS_HIDDEN_
 (
-PRUint32
+uint32_t
 )
 GetBidi
 (
@@ -4363,7 +4363,7 @@ HasAuthorSpecifiedRules
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 ruleTypeMask
 )
 const
@@ -4589,7 +4589,7 @@ const
 nsRect
 &
 aRect
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -5234,7 +5234,7 @@ SetImgAnimations
 nsIContent
 *
 aParent
-PRUint16
+uint16_t
 aMode
 )
 ;
@@ -5247,9 +5247,9 @@ SetSMILAnimations
 nsIDocument
 *
 aDoc
-PRUint16
+uint16_t
 aNewMode
-PRUint16
+uint16_t
 aOldMode
 )
 ;
@@ -6022,7 +6022,7 @@ mContainer
 PRCList
 mDOMMediaQueryLists
 ;
-PRInt32
+int32_t
 mMinFontSize
 ;
 /
@@ -6060,10 +6060,10 @@ to
 float
 mLastFontInflationScreenWidth
 ;
-PRInt32
+int32_t
 mCurAppUnitsPerDevPixel
 ;
-PRInt32
+int32_t
 mAutoQualityMinFontSizePixelsPref
 ;
 nsCOMPtr
@@ -6153,13 +6153,13 @@ mBodyTextColor
 ScrollbarStyles
 mViewportStyleOverflow
 ;
-PRUint8
+uint8_t
 mFocusRingWidth
 ;
-PRUint16
+uint16_t
 mImageAnimationMode
 ;
-PRUint16
+uint16_t
 mImageAnimationModePref
 ;
 LangGroupFontPrefs
@@ -6171,7 +6171,7 @@ mBorderWidthTable
 3
 ]
 ;
-PRUint32
+uint32_t
 mInterruptChecksToSkip
 ;
 mozilla
@@ -6520,7 +6520,7 @@ friend
 struct
 nsAutoLayoutPhase
 ;
-PRUint32
+uint32_t
 mLayoutPhaseCount
 [
 eLayoutPhase_COUNT
@@ -6528,7 +6528,7 @@ eLayoutPhase_COUNT
 ;
 public
 :
-PRUint32
+uint32_t
 LayoutPhaseCount
 (
 nsLayoutPhase
@@ -7080,7 +7080,7 @@ number
 .
 *
 /
-PRUint32
+uint32_t
 GetDOMGeneration
 (
 )
@@ -7338,7 +7338,7 @@ nsIFrame
 *
 mUpdatePluginGeometryForFrame
 ;
-PRUint32
+uint32_t
 mDOMGeneration
 ;
 bool

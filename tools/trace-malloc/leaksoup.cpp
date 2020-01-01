@@ -256,7 +256,7 @@ this
 node
 belongs
 .
-PRUint32
+uint32_t
 index
 ;
 bool
@@ -1220,7 +1220,7 @@ index
 |
 .
 {
-PRUint32
+uint32_t
 dfs_index
 =
 0
@@ -1272,7 +1272,7 @@ n
 ;
 do
 {
-PRUint32
+uint32_t
 pos
 =
 stack
@@ -1368,7 +1368,7 @@ pointers_to
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 pt
@@ -1557,7 +1557,7 @@ strongly
 connected
 components
 .
-PRUint32
+uint32_t
 num_sccs
 =
 0
@@ -1652,7 +1652,7 @@ sn
 ;
 do
 {
-PRUint32
+uint32_t
 pos
 =
 stack
@@ -1757,7 +1757,7 @@ for
 component
 transitions
 .
-PRUint32
+uint32_t
 num_root_nodes
 =
 count
@@ -1926,7 +1926,7 @@ Count
 0
 )
 {
-PRUint32
+uint32_t
 pos
 =
 stack
@@ -2240,7 +2240,7 @@ roots
 .
 for
 (
-PRInt32
+int32_t
 root_type
 =
 true
@@ -2360,11 +2360,11 @@ n
 )
 ;
 }
-PRUint32
+uint32_t
 component
 =
 (
-PRUint32
+uint32_t
 )
 -
 1
@@ -2884,7 +2884,7 @@ n
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

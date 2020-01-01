@@ -343,7 +343,7 @@ nsCSSPseudoClasses
 Type
 aType
 const
-PRInt32
+int32_t
 *
 aIntPair
 )
@@ -564,7 +564,7 @@ PRUnichar
 *
 mString
 ;
-PRInt32
+int32_t
 *
 mNumbers
 ;
@@ -727,7 +727,7 @@ public
 :
 nsAttrSelector
 (
-PRInt32
+int32_t
 aNameSpace
 const
 nsString
@@ -737,13 +737,13 @@ aAttr
 ;
 nsAttrSelector
 (
-PRInt32
+int32_t
 aNameSpace
 const
 nsString
 &
 aAttr
-PRUint8
+uint8_t
 aFunction
 const
 nsString
@@ -755,7 +755,7 @@ aCaseSensitive
 ;
 nsAttrSelector
 (
-PRInt32
+int32_t
 aNameSpace
 nsIAtom
 *
@@ -763,7 +763,7 @@ aLowercaseAttr
 nsIAtom
 *
 aCasedAttr
-PRUint8
+uint8_t
 aFunction
 const
 nsString
@@ -834,10 +834,10 @@ nsIAtom
 >
 mCasedAttr
 ;
-PRInt32
+int32_t
 mNameSpace
 ;
-PRUint8
+uint8_t
 mFunction
 ;
 bool
@@ -956,7 +956,7 @@ void
 void
 SetNameSpace
 (
-PRInt32
+int32_t
 aNameSpace
 )
 ;
@@ -1020,7 +1020,7 @@ nsCSSPseudoClasses
 Type
 aType
 const
-PRInt32
+int32_t
 *
 aIntPair
 )
@@ -1047,7 +1047,7 @@ aSelectorList
 void
 AddAttribute
 (
-PRInt32
+int32_t
 aNameSpace
 const
 nsString
@@ -1058,13 +1058,13 @@ aAttr
 void
 AddAttribute
 (
-PRInt32
+int32_t
 aNameSpace
 const
 nsString
 &
 aAttr
-PRUint8
+uint8_t
 aFunc
 const
 nsString
@@ -1125,7 +1125,7 @@ mNext
 !
 )
 .
-PRInt32
+int32_t
 CalcWeight
 (
 )
@@ -1255,7 +1255,7 @@ its
 mNegations
 )
 .
-PRInt32
+int32_t
 CalcWeightWithoutNegations
 (
 )
@@ -1327,7 +1327,7 @@ mPseudoType
 =
 static_cast
 <
-PRInt16
+int16_t
 >
 (
 aType
@@ -1440,7 +1440,7 @@ nsCSSSelector
 *
 mNext
 ;
-PRInt32
+int32_t
 mNameSpace
 ;
 PRUnichar
@@ -1450,7 +1450,7 @@ private
 :
 /
 /
-PRInt16
+int16_t
 to
 make
 sure
@@ -1459,7 +1459,7 @@ packs
 well
 with
 mOperator
-PRInt16
+int16_t
 mPseudoType
 ;
 nsCSSSelector
@@ -1746,7 +1746,7 @@ nsCSSSelector
 *
 mSelectors
 ;
-PRInt32
+int32_t
 mWeight
 ;
 nsCSSSelectorList
@@ -1874,7 +1874,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -2011,7 +2011,7 @@ return
 mSelector
 ;
 }
-PRUint32
+uint32_t
 GetLineNumber
 (
 )
@@ -2024,7 +2024,7 @@ mLineNumber
 void
 SetLineNumber
 (
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -2214,7 +2214,7 @@ aSelectorText
 )
 ;
 virtual
-PRInt32
+int32_t
 GetType
 (
 )
@@ -2265,7 +2265,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -2331,12 +2331,12 @@ MSVC
 packs
 them
 .
-PRUint32
+uint32_t
 mLineNumber
 :
 31
 ;
-PRUint32
+uint32_t
 mWasMatched
 :
 1

@@ -179,7 +179,7 @@ h
 /
 /
 for
-PRInt32
+int32_t
 class
 nsIEditor
 ;
@@ -289,7 +289,7 @@ nsString
 >
 mSuggestedWordList
 ;
-PRInt32
+int32_t
 mSuggestedWordIndex
 ;
 /
@@ -319,7 +319,7 @@ nsString
 >
 mDictionaryList
 ;
-PRInt32
+int32_t
 mDictionaryIndex
 ;
 nsresult

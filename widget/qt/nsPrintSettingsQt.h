@@ -157,7 +157,7 @@ nsPrintSettingsQt
 NS_IMETHOD
 GetPrintRange
 (
-PRInt16
+int16_t
 *
 aPrintRange
 )
@@ -165,14 +165,14 @@ aPrintRange
 NS_IMETHOD
 SetPrintRange
 (
-PRInt16
+int16_t
 aPrintRange
 )
 ;
 NS_IMETHOD
 GetStartPageRange
 (
-PRInt32
+int32_t
 *
 aStartPageRange
 )
@@ -180,14 +180,14 @@ aStartPageRange
 NS_IMETHOD
 SetStartPageRange
 (
-PRInt32
+int32_t
 aStartPageRange
 )
 ;
 NS_IMETHOD
 GetEndPageRange
 (
-PRInt32
+int32_t
 *
 aEndPageRange
 )
@@ -195,7 +195,7 @@ aEndPageRange
 NS_IMETHOD
 SetEndPageRange
 (
-PRInt32
+int32_t
 aEndPageRange
 )
 ;
@@ -232,7 +232,7 @@ aPrintInColor
 NS_IMETHOD
 GetOrientation
 (
-PRInt32
+int32_t
 *
 aOrientation
 )
@@ -240,7 +240,7 @@ aOrientation
 NS_IMETHOD
 SetOrientation
 (
-PRInt32
+int32_t
 aOrientation
 )
 ;
@@ -283,7 +283,7 @@ aPrinter
 NS_IMETHOD
 GetNumCopies
 (
-PRInt32
+int32_t
 *
 aNumCopies
 )
@@ -291,7 +291,7 @@ aNumCopies
 NS_IMETHOD
 SetNumCopies
 (
-PRInt32
+int32_t
 aNumCopies
 )
 ;
@@ -397,7 +397,7 @@ aPaperHeight
 NS_IMETHOD
 SetPaperSizeUnit
 (
-PRInt16
+int16_t
 aPaperSizeUnit
 )
 ;

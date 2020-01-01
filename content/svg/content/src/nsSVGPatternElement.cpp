@@ -1437,7 +1437,7 @@ nsSVGPatternElement
 :
 GetAnimatedTransformList
 (
-PRUint32
+uint32_t
 aFlags
 )
 {

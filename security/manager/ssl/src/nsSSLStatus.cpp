@@ -178,7 +178,7 @@ nsSSLStatus
 :
 GetKeyLength
 (
-PRUint32
+uint32_t
 *
 _result
 )
@@ -218,7 +218,7 @@ nsSSLStatus
 :
 GetSecretKeyLength
 (
-PRUint32
+uint32_t
 *
 _result
 )
@@ -768,7 +768,7 @@ nsSSLStatus
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 count
 nsIID
@@ -798,7 +798,7 @@ nsSSLStatus
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -910,7 +910,7 @@ nsSSLStatus
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplementationLanguage
 )
@@ -933,7 +933,7 @@ nsSSLStatus
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )

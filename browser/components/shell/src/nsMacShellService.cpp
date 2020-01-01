@@ -825,7 +825,7 @@ SetDesktopBackground
 nsIDOMElement
 *
 aElement
-PRInt32
+int32_t
 aPosition
 )
 {
@@ -1179,7 +1179,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 flags
 =
 nsIWebBrowserPersist
@@ -1240,13 +1240,13 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRInt32
+int32_t
 aCurSelfProgress
-PRInt32
+int32_t
 aMaxSelfProgress
-PRInt32
+int32_t
 aCurTotalProgress
-PRInt32
+int32_t
 aMaxTotalProgress
 )
 {
@@ -1269,7 +1269,7 @@ aRequest
 nsIURI
 *
 aLocation
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1313,7 +1313,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aState
 )
 {
@@ -1333,7 +1333,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aStateFlags
 nsresult
 aStatus
@@ -1790,7 +1790,7 @@ nsMacShellService
 :
 OpenApplication
 (
-PRInt32
+int32_t
 aApplication
 )
 {
@@ -2112,7 +2112,7 @@ nsMacShellService
 :
 GetDesktopBackgroundColor
 (
-PRUint32
+uint32_t
 *
 aColor
 )
@@ -2162,7 +2162,7 @@ nsMacShellService
 :
 SetDesktopBackgroundColor
 (
-PRUint32
+uint32_t
 aColor
 )
 {

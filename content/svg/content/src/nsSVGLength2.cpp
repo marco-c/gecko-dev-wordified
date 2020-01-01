@@ -416,7 +416,7 @@ static
 bool
 IsValidUnitType
 (
-PRUint16
+uint16_t
 unit
 )
 {
@@ -452,7 +452,7 @@ GetUnitString
 nsAString
 &
 unit
-PRUint16
+uint16_t
 unitType
 )
 {
@@ -503,7 +503,7 @@ return
 ;
 }
 static
-PRUint16
+uint16_t
 GetUnitTypeForString
 (
 const
@@ -546,7 +546,7 @@ unitStr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -602,7 +602,7 @@ nsAString
 aValueAsString
 float
 aValue
-PRUint16
+uint16_t
 aUnitType
 )
 {
@@ -679,7 +679,7 @@ aValueAsString
 float
 *
 aValue
-PRUint16
+uint16_t
 *
 aUnitType
 )
@@ -956,7 +956,7 @@ GetUnitScaleFactor
 nsSVGElement
 *
 aSVGElement
-PRUint8
+uint8_t
 aUnitType
 )
 const
@@ -1032,7 +1032,7 @@ GetUnitScaleFactor
 nsSVGSVGElement
 *
 aCtx
-PRUint8
+uint8_t
 aUnitType
 )
 const
@@ -1199,7 +1199,7 @@ GetUnitScaleFactor
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aUnitType
 )
 const
@@ -1490,7 +1490,7 @@ nsSVGLength2
 :
 ConvertToSpecifiedUnits
 (
-PRUint16
+uint16_t
 unitType
 nsSVGElement
 *
@@ -1516,7 +1516,7 @@ mIsBaseSet
 mSpecifiedUnitType
 =
 =
-PRUint8
+uint8_t
 (
 unitType
 )
@@ -1597,7 +1597,7 @@ mSpecifiedUnitType
 ;
 mSpecifiedUnitType
 =
-PRUint8
+uint8_t
 (
 unitType
 )
@@ -1657,7 +1657,7 @@ nsSVGLength2
 :
 NewValueSpecifiedUnits
 (
-PRUint16
+uint16_t
 unitType
 float
 valueInSpecifiedUnits
@@ -1697,7 +1697,7 @@ valueInSpecifiedUnits
 mSpecifiedUnitType
 =
 =
-PRUint8
+uint8_t
 (
 unitType
 )
@@ -1728,7 +1728,7 @@ true
 ;
 mSpecifiedUnitType
 =
-PRUint8
+uint8_t
 (
 unitType
 )
@@ -1972,7 +1972,7 @@ aDoSetAttr
 float
 value
 ;
-PRUint16
+uint16_t
 unitType
 ;
 nsresult
@@ -2013,7 +2013,7 @@ value
 mSpecifiedUnitType
 =
 =
-PRUint8
+uint8_t
 (
 unitType
 )
@@ -2052,7 +2052,7 @@ true
 ;
 mSpecifiedUnitType
 =
-PRUint8
+uint8_t
 (
 unitType
 )
@@ -2380,7 +2380,7 @@ const
 float
 value
 ;
-PRUint16
+uint16_t
 unitType
 ;
 nsresult

@@ -557,7 +557,7 @@ tableCell
 return
 E_FAIL
 ;
-PRInt32
+int32_t
 columnsSpanned
 =
 0
@@ -778,7 +778,7 @@ tableCell
 return
 E_FAIL
 ;
-PRInt32
+int32_t
 colIdx
 =
 -
@@ -887,7 +887,7 @@ tableCell
 return
 E_FAIL
 ;
-PRInt32
+int32_t
 rowsSpanned
 =
 0
@@ -1108,7 +1108,7 @@ tableCell
 return
 E_FAIL
 ;
-PRInt32
+int32_t
 rowIdx
 =
 -
@@ -1249,7 +1249,7 @@ tableCell
 return
 E_FAIL
 ;
-PRInt32
+int32_t
 rowIdx
 =
 -
@@ -1280,7 +1280,7 @@ GetHRESULT
 rv
 )
 ;
-PRInt32
+int32_t
 columnIdx
 =
 -
@@ -1310,7 +1310,7 @@ GetHRESULT
 rv
 )
 ;
-PRInt32
+int32_t
 spannedRows
 =
 0
@@ -1339,7 +1339,7 @@ GetHRESULT
 rv
 )
 ;
-PRInt32
+int32_t
 spannedColumns
 =
 0

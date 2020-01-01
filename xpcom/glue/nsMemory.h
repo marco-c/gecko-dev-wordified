@@ -532,7 +532,7 @@ this
 should
 be
 a
-PRInt32
+int32_t
 .
 Note
 that
@@ -660,10 +660,10 @@ freeFunc
 \
 PR_BEGIN_MACRO
 \
-PRInt32
+int32_t
 iter_
 =
-PRInt32
+int32_t
 (
 size
 )
@@ -768,7 +768,7 @@ this
 should
 be
 a
-PRInt32
+int32_t
 .
 Note
 that
@@ -906,7 +906,7 @@ this
 should
 be
 a
-PRInt32
+int32_t
 .
 Note
 that

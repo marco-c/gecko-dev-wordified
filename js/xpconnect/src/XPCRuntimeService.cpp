@@ -259,7 +259,7 @@ in
 jsval
 id
 in
-PRUint32
+uint32_t
 flags
 out
 JSObjectPtr
@@ -285,7 +285,7 @@ JSObject
 obj_
 jsid
 id_
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -481,7 +481,7 @@ void
 getInterfaces
 (
 out
-PRUint32
+uint32_t
 count
 [
 array
@@ -504,7 +504,7 @@ BackstagePass
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 aCount
 nsIID
@@ -515,7 +515,7 @@ aArray
 )
 {
 const
-PRUint32
+uint32_t
 count
 =
 2
@@ -565,7 +565,7 @@ array
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -683,7 +683,7 @@ nsISupports
 getHelperForLanguage
 (
 in
-PRUint32
+uint32_t
 language
 )
 ;
@@ -695,7 +695,7 @@ BackstagePass
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -836,7 +836,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 implementationLanguage
 ;
 *
@@ -847,7 +847,7 @@ BackstagePass
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplementationLanguage
 )
@@ -868,7 +868,7 @@ NS_OK
 *
 readonly
 attribute
-PRUint32
+uint32_t
 flags
 ;
 *
@@ -879,7 +879,7 @@ BackstagePass
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )

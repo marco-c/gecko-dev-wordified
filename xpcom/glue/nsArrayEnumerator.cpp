@@ -193,7 +193,7 @@ nsIArray
 >
 mValueArray
 ;
-PRUint32
+uint32_t
 mIndex
 ;
 }
@@ -249,7 +249,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 cnt
 ;
 nsresult
@@ -334,7 +334,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 cnt
 ;
 nsresult
@@ -635,14 +635,14 @@ void
 ;
 protected
 :
-PRUint32
+uint32_t
 mIndex
 ;
 /
 /
 current
 position
-PRUint32
+uint32_t
 mArraySize
 ;
 /
@@ -1052,10 +1052,10 @@ on
 the
 way
 out
-PRUint32
+uint32_t
 i
 ;
-PRUint32
+uint32_t
 max
 =
 result

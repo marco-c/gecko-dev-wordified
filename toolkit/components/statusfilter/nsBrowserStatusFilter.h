@@ -403,10 +403,10 @@ values
 nsString
 mStatusMsg
 ;
-PRInt64
+int64_t
 mCurProgress
 ;
-PRInt64
+int64_t
 mMaxProgress
 ;
 nsString
@@ -415,7 +415,7 @@ mCurrentStatusMsg
 bool
 mStatusIsDirty
 ;
-PRInt32
+int32_t
 mCurrentPercentage
 ;
 /
@@ -430,10 +430,10 @@ notifications
 into
 progress
 notifications
-PRInt32
+int32_t
 mTotalRequests
 ;
-PRInt32
+int32_t
 mFinishedRequests
 ;
 bool

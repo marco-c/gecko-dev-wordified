@@ -543,7 +543,7 @@ deque
 *
 /
 inline
-PRInt32
+int32_t
 GetSize
 (
 )
@@ -1109,13 +1109,13 @@ aDeallocator
 ;
 protected
 :
-PRInt32
+int32_t
 mSize
 ;
-PRInt32
+int32_t
 mCapacity
 ;
-PRInt32
+int32_t
 mOrigin
 ;
 nsDequeFunctor
@@ -2201,7 +2201,7 @@ const
 ;
 protected
 :
-PRInt32
+int32_t
 mIndex
 ;
 const

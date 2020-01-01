@@ -354,7 +354,7 @@ bool
 gRollupConsumeRollupEvent
 ;
 extern
-PRUint32
+uint32_t
 gOS2Flags
 ;
 #
@@ -984,7 +984,7 @@ client
 HWND
 hClient
 ;
-PRUint32
+uint32_t
 fcfFlags
 =
 GetFCFlags
@@ -1205,7 +1205,7 @@ resize
 the
 frame
 .
-PRInt32
+int32_t
 pmY
 =
 WinQuerySysValue
@@ -1422,7 +1422,7 @@ hClient
 -
 -
 -
-PRUint32
+uint32_t
 os2FrameWindow
 :
 :
@@ -1434,7 +1434,7 @@ nsBorderStyle
 aBorderStyle
 )
 {
-PRUint32
+uint32_t
 style
 =
 FCF_TITLEBAR
@@ -1947,7 +1947,7 @@ bool
 aState
 )
 {
-PRUint32
+uint32_t
 ulFlags
 ;
 if
@@ -1971,7 +1971,7 @@ SWP_SHOW
 |
 SWP_ACTIVATE
 ;
-PRUint32
+uint32_t
 ulStyle
 =
 WinQueryWindowULong
@@ -1980,7 +1980,7 @@ mFrameWnd
 QWL_STYLE
 )
 ;
-PRInt32
+int32_t
 sizeMode
 ;
 mOwner
@@ -2500,9 +2500,9 @@ os2FrameWindow
 :
 Move
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 )
 {
@@ -2620,9 +2620,9 @@ os2FrameWindow
 :
 Resize
 (
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 bool
 aRepaint
@@ -2766,13 +2766,13 @@ os2FrameWindow
 :
 Resize
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 bool
 aRepaint
@@ -3090,7 +3090,7 @@ if
 mNeedActivation
 )
 {
-PRInt32
+int32_t
 sizeMode
 ;
 mOwner
@@ -3275,11 +3275,11 @@ os2FrameWindow
 :
 SetSizeMode
 (
-PRInt32
+int32_t
 aMode
 )
 {
-PRInt32
+int32_t
 previousMode
 ;
 mOwner
@@ -4001,7 +4001,7 @@ aTitle
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4074,7 +4074,7 @@ break
 nsAutoCharBuffer
 title
 ;
-PRInt32
+int32_t
 titleLength
 ;
 WideCharToMultiByte
@@ -4572,10 +4572,10 @@ ConstrainPosition
 (
 bool
 aAllowSlop
-PRInt32
+int32_t
 *
 aX
-PRInt32
+int32_t
 *
 aY
 )
@@ -4657,7 +4657,7 @@ nsIScreen
 >
 screen
 ;
-PRInt32
+int32_t
 left
 top
 width

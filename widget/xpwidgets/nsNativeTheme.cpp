@@ -340,7 +340,7 @@ GetContentState
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 {
@@ -799,7 +799,7 @@ eCaseMatters
 )
 ;
 }
-PRInt32
+int32_t
 nsNativeTheme
 :
 :
@@ -811,7 +811,7 @@ aFrame
 nsIAtom
 *
 aAtom
-PRInt32
+int32_t
 defaultValue
 )
 {
@@ -844,7 +844,7 @@ attr
 nsresult
 err
 ;
-PRInt32
+int32_t
 value
 =
 attr
@@ -1239,7 +1239,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 {
@@ -1820,7 +1820,7 @@ NS_STYLE_DIRECTION_RTL
 scrollbar
 button
 :
-PRInt32
+int32_t
 nsNativeTheme
 :
 :
@@ -2424,7 +2424,7 @@ IsNextToSelectedTab
 nsIFrame
 *
 aFrame
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -2449,7 +2449,7 @@ IsSelectedTab
 aFrame
 )
 ;
-PRInt32
+int32_t
 thisTabIndex
 =
 -
@@ -2477,7 +2477,7 @@ GetFirstPrincipalChild
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2984,7 +2984,7 @@ QueueAnimatedContentForRefresh
 nsIContent
 *
 aContent
-PRUint32
+uint32_t
 aMinimumFrameRate
 )
 {
@@ -3029,7 +3029,7 @@ than
 "
 )
 ;
-PRUint32
+uint32_t
 timeout
 =
 1000
@@ -3205,7 +3205,7 @@ reenter
 /
 QueueAnimatedContentForRefresh
 .
-PRUint32
+uint32_t
 count
 =
 mAnimatedContentList
@@ -3216,7 +3216,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

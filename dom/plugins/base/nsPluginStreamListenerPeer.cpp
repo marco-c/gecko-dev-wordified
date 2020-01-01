@@ -630,7 +630,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRUint32
+uint32_t
 responseCode
 =
 0
@@ -914,7 +914,7 @@ if
 container
 )
 {
-PRUint32
+uint32_t
 magicNumber
 =
 0
@@ -1116,9 +1116,9 @@ ctxt
 nsIInputStream
 *
 inStr
-PRUint32
+uint32_t
 sourceOffset
-PRUint32
+uint32_t
 count
 )
 {
@@ -1228,14 +1228,14 @@ nsHashKey
 {
 protected
 :
-PRUint32
+uint32_t
 mKey
 ;
 public
 :
 nsPRUintKey
 (
-PRUint32
+uint32_t
 key
 )
 :
@@ -1245,7 +1245,7 @@ key
 )
 {
 }
-PRUint32
+uint32_t
 HashCode
 (
 )
@@ -1297,7 +1297,7 @@ mKey
 )
 ;
 }
-PRUint32
+uint32_t
 GetValue
 (
 )
@@ -2008,7 +2008,7 @@ InstanceArray
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2061,7 +2061,7 @@ FileCachedStreamListeners
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 streamListeners
@@ -2583,7 +2583,7 @@ if
 httpChannel
 )
 {
-PRUint32
+uint32_t
 responseCode
 =
 0
@@ -2860,7 +2860,7 @@ do_GetWeakReference
 loadGroup
 )
 ;
-PRInt32
+int32_t
 length
 ;
 rv
@@ -3275,9 +3275,9 @@ request
 nsISupports
 *
 aContext
-PRUint64
+uint64_t
 aProgress
-PRUint64
+uint64_t
 aProgressMax
 )
 {
@@ -3372,7 +3372,7 @@ nsPluginStreamListenerPeer
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -3392,7 +3392,7 @@ nsPluginStreamListenerPeer
 :
 GetLastModified
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -3444,7 +3444,7 @@ aRangeList
 nsACString
 &
 rangeRequest
-PRInt32
+int32_t
 *
 numRequests
 )
@@ -3484,7 +3484,7 @@ aRangeList
 )
 return
 ;
-PRInt32
+int32_t
 requestCnt
 =
 0
@@ -3642,7 +3642,7 @@ rangeList
 nsCAutoString
 rangeString
 ;
-PRInt32
+int32_t
 numRequests
 ;
 MakeByteRangeString
@@ -3961,7 +3961,7 @@ nsPluginStreamListenerPeer
 :
 GetStreamOffset
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -3981,7 +3981,7 @@ nsPluginStreamListenerPeer
 :
 SetStreamOffset
 (
-PRInt32
+int32_t
 value
 )
 {
@@ -4356,9 +4356,9 @@ aContext
 nsIInputStream
 *
 aIStream
-PRUint32
+uint32_t
 sourceOffset
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -4399,7 +4399,7 @@ if
 mAbort
 )
 {
-PRUint32
+uint32_t
 magicNumber
 =
 0
@@ -4605,7 +4605,7 @@ mDataForwardToRequest
 return
 NS_ERROR_FAILURE
 ;
-PRInt64
+int64_t
 absoluteOffset64
 =
 LL_ZERO
@@ -4628,13 +4628,13 @@ handle
 bit
 for
 real
-PRInt32
+int32_t
 absoluteOffset
 =
 (
-PRInt32
+int32_t
 )
-PRInt64
+int64_t
 (
 absoluteOffset64
 )
@@ -4710,7 +4710,7 @@ key
 absoluteOffset
 )
 ;
-PRInt32
+int32_t
 amtForwardToPlugin
 =
 NS_PTR_TO_INT32
@@ -4906,7 +4906,7 @@ char
 aLength
 ]
 ;
-PRUint32
+uint32_t
 amountRead
 amountWrote
 =
@@ -5113,7 +5113,7 @@ if
 brr
 )
 {
-PRInt64
+int64_t
 absoluteOffset64
 =
 LL_ZERO
@@ -5135,13 +5135,13 @@ support
 -
 bit
 offsets
-PRInt32
+int32_t
 absoluteOffset
 =
 (
-PRInt32
+int32_t
 )
-PRInt64
+int64_t
 (
 absoluteOffset64
 )
@@ -5285,7 +5285,7 @@ if
 container
 )
 {
-PRUint32
+uint32_t
 magicNumber
 =
 0
@@ -5967,7 +5967,7 @@ useful
 without
 it
 .
-PRUint32
+uint32_t
 statusNum
 ;
 if
@@ -6023,7 +6023,7 @@ if
 httpChannelInternal
 )
 {
-PRUint32
+uint32_t
 major
 minor
 ;
@@ -6323,7 +6323,7 @@ byte
 ranges
 )
 .
-PRUint32
+uint32_t
 length
 ;
 GetLength
@@ -6487,7 +6487,7 @@ time64
 mModified
 =
 (
-PRUint32
+uint32_t
 )
 (
 fpTime
@@ -7168,7 +7168,7 @@ oldChannel
 nsIChannel
 *
 newChannel
-PRUint32
+uint32_t
 flags
 nsIAsyncVerifyRedirectCallback
 *
@@ -7276,7 +7276,7 @@ if
 oldHttpChannel
 )
 {
-PRUint32
+uint32_t
 responseStatus
 ;
 nsresult

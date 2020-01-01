@@ -367,7 +367,7 @@ SVGAnimatedNumberList
 :
 ClearBaseValue
 (
-PRUint32
+uint32_t
 aAttrEnum
 )
 {
@@ -445,7 +445,7 @@ aNewAnimValue
 nsSVGElement
 *
 aElement
-PRUint32
+uint32_t
 aAttrEnum
 )
 {
@@ -767,7 +767,7 @@ ClearAnimValue
 nsSVGElement
 *
 aElement
-PRUint32
+uint32_t
 aAttrEnum
 )
 {
@@ -882,7 +882,7 @@ ToSMILAttr
 nsSVGElement
 *
 aSVGElement
-PRUint8
+uint8_t
 aAttrEnum
 )
 {

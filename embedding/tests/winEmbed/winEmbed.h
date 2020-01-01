@@ -310,7 +310,7 @@ AppCallbacks
 nsresult
 CreateBrowserWindow
 (
-PRUint32
+uint32_t
 aChromeFlags
 nsIWebBrowserChrome
 *
@@ -331,7 +331,7 @@ bool
 aEnabled
 )
 ;
-PRUint32
+uint32_t
 RunEventLoop
 (
 bool

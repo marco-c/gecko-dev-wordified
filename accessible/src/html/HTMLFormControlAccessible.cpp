@@ -495,7 +495,7 @@ roles
 CHECKBUTTON
 ;
 }
-PRUint8
+uint8_t
 HTMLCheckboxAccessible
 :
 :
@@ -513,7 +513,7 @@ HTMLCheckboxAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -544,7 +544,7 @@ cycle
 check
 or
 uncheck
-PRUint64
+uint64_t
 state
 =
 NativeState
@@ -612,7 +612,7 @@ HTMLCheckboxAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -634,7 +634,7 @@ return
 NS_OK
 ;
 }
-PRUint64
+uint64_t
 HTMLCheckboxAccessible
 :
 :
@@ -642,7 +642,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 LeafAccessible
@@ -1039,7 +1039,7 @@ aDoc
 )
 {
 }
-PRUint64
+uint64_t
 HTMLRadioButtonAccessible
 :
 :
@@ -1047,7 +1047,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 AccessibleWrap
@@ -1126,15 +1126,15 @@ HTMLRadioButtonAccessible
 :
 GetPositionAndSizeInternal
 (
-PRInt32
+int32_t
 *
 aPosInSet
-PRInt32
+int32_t
 *
 aSetSize
 )
 {
-PRInt32
+int32_t
 namespaceId
 =
 mContent
@@ -1262,7 +1262,7 @@ NS_ENSURE_TRUE
 inputElms
 )
 ;
-PRUint32
+uint32_t
 inputCount
 =
 inputElms
@@ -1280,19 +1280,19 @@ posinset
 and
 setsize
 .
-PRInt32
+int32_t
 indexOf
 =
 0
 ;
-PRInt32
+int32_t
 count
 =
 0
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -1562,7 +1562,7 @@ aDoc
 )
 {
 }
-PRUint8
+uint8_t
 HTMLButtonAccessible
 :
 :
@@ -1580,7 +1580,7 @@ HTMLButtonAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -1618,7 +1618,7 @@ HTMLButtonAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -1640,7 +1640,7 @@ return
 NS_OK
 ;
 }
-PRUint64
+uint64_t
 HTMLButtonAccessible
 :
 :
@@ -1648,7 +1648,7 @@ State
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 HyperTextAccessibleWrap
@@ -1719,7 +1719,7 @@ IsHTMLFileInput
 )
 )
 {
-PRUint64
+uint64_t
 parentState
 =
 mParent
@@ -1761,7 +1761,7 @@ return
 state
 ;
 }
-PRUint64
+uint64_t
 HTMLButtonAccessible
 :
 :
@@ -1769,7 +1769,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 HyperTextAccessibleWrap
@@ -2618,7 +2618,7 @@ HTMLTextFieldAccessible
 :
 ApplyARIAState
 (
-PRUint64
+uint64_t
 *
 aState
 )
@@ -2651,7 +2651,7 @@ aState
 )
 ;
 }
-PRUint64
+uint64_t
 HTMLTextFieldAccessible
 :
 :
@@ -2659,7 +2659,7 @@ State
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 HyperTextAccessibleWrap
@@ -2730,7 +2730,7 @@ IsHTMLFileInput
 )
 )
 {
-PRUint64
+uint64_t
 parentState
 =
 mParent
@@ -2772,7 +2772,7 @@ return
 state
 ;
 }
-PRUint64
+uint64_t
 HTMLTextFieldAccessible
 :
 :
@@ -2780,7 +2780,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 HyperTextAccessibleWrap
@@ -3243,7 +3243,7 @@ return
 state
 ;
 }
-PRUint8
+uint8_t
 HTMLTextFieldAccessible
 :
 :
@@ -3261,7 +3261,7 @@ HTMLTextFieldAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -3299,7 +3299,7 @@ HTMLTextFieldAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -4493,7 +4493,7 @@ HTMLGroupboxAccessible
 :
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -4737,7 +4737,7 @@ HTMLLegendAccessible
 :
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -5149,7 +5149,7 @@ HTMLFigureAccessible
 :
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -5461,7 +5461,7 @@ HTMLFigcaptionAccessible
 :
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 {

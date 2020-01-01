@@ -159,7 +159,7 @@ aResult
 NS_IMETHOD
 GetCalleeMethodIndex
 (
-PRUint16
+uint16_t
 *
 aResult
 )
@@ -191,7 +191,7 @@ aResult
 NS_IMETHOD
 GetArgc
 (
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -271,7 +271,7 @@ LANG_NATIVE
 NS_IMETHOD
 GetLanguage
 (
-PRUint16
+uint16_t
 *
 aResult
 )

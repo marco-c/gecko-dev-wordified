@@ -177,7 +177,7 @@ align
 )
 )
 static
-PRUint32
+uint32_t
 greenMaski
 [
 ]
@@ -197,7 +197,7 @@ align
 )
 )
 static
-PRUint32
+uint32_t
 alphaMaski
 [
 ]
@@ -230,7 +230,7 @@ __x86_64__
 )
 )
 static
-PRUint32
+uint32_t
 greenMaski
 [
 ]
@@ -252,7 +252,7 @@ aligned
 }
 ;
 static
-PRUint32
+uint32_t
 alphaMaski
 [
 ]
@@ -302,7 +302,7 @@ greenMaski
 alphaMaski
 )
 static
-PRUint32
+uint32_t
 greenMaski
 [
 ]
@@ -315,7 +315,7 @@ greenMaski
 }
 ;
 static
-PRUint32
+uint32_t
 alphaMaski
 [
 ]
@@ -546,7 +546,7 @@ alphaMaski
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -562,7 +562,7 @@ height
 i
 )
 {
-PRInt32
+int32_t
 j
 =
 0
@@ -598,7 +598,7 @@ width
 *
 (
 (
-PRUint32
+uint32_t
 *
 )
 blackData
@@ -609,7 +609,7 @@ RecoverPixel
 *
 reinterpret_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -618,7 +618,7 @@ blackData
 *
 reinterpret_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -1080,7 +1080,7 @@ width
 *
 (
 (
-PRUint32
+uint32_t
 *
 )
 blackData
@@ -1091,7 +1091,7 @@ RecoverPixel
 *
 reinterpret_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -1100,7 +1100,7 @@ blackData
 *
 reinterpret_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -1164,18 +1164,18 @@ true
 ;
 }
 static
-PRInt32
+int32_t
 ByteAlignment
 (
-PRInt32
+int32_t
 aAlignToLog2
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 =
 0
-PRInt32
+int32_t
 aStride
 =
 1
@@ -1251,7 +1251,7 @@ COLOR_ALPHA
 ;
 static
 const
-PRInt32
+int32_t
 kByteAlignLog2
 =
 GoodAlignmentLog2
@@ -1260,14 +1260,14 @@ GoodAlignmentLog2
 ;
 static
 const
-PRInt32
+int32_t
 bpp
 =
 4
 ;
 static
 const
-PRInt32
+int32_t
 pixPerAlign
 =
 (
@@ -1827,7 +1827,7 @@ GetSize
 )
 ;
 const
-PRInt32
+int32_t
 stride
 =
 bpp
@@ -1868,7 +1868,7 @@ aRect
 ;
 }
 const
-PRInt32
+int32_t
 x
 =
 aRect
@@ -1891,7 +1891,7 @@ aRect
 height
 ;
 const
-PRInt32
+int32_t
 r
 =
 x
@@ -1899,7 +1899,7 @@ x
 w
 ;
 const
-PRInt32
+int32_t
 sw
 =
 surfaceSize
@@ -1907,7 +1907,7 @@ surfaceSize
 width
 ;
 const
-PRInt32
+int32_t
 strideAlign
 =
 ByteAlignment
@@ -2033,7 +2033,7 @@ rightward
 by
 dr
 .
-PRInt32
+int32_t
 dx
 dy
 dr

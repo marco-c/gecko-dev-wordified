@@ -216,12 +216,12 @@ spdySession
 nsISocketTransport
 *
 socketTransport
-PRUint32
+uint32_t
 chunkSize
 z_stream
 *
 compressionContext
-PRInt32
+int32_t
 priority
 )
 :
@@ -428,9 +428,9 @@ ReadSegments
 nsAHttpSegmentReader
 *
 reader
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countRead
 )
@@ -1148,9 +1148,9 @@ WriteSegments
 nsAHttpSegmentWriter
 *
 writer
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countWritten
 )
@@ -1299,9 +1299,9 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 avail
-PRUint32
+uint32_t
 *
 countUsed
 )
@@ -1404,7 +1404,7 @@ client
 we
 are
 parsing
-PRInt32
+int32_t
 endHeader
 =
 mFlatHttpRequestHeaders
@@ -1515,7 +1515,7 @@ has
 been
 consumed
 .
-PRUint32
+uint32_t
 oldLen
 =
 mFlatHttpRequestHeaders
@@ -1818,7 +1818,7 @@ fill
 that
 in
 later
-PRUint32
+uint32_t
 networkOrderID
 =
 PR_htonl
@@ -2218,7 +2218,7 @@ headers
 etc
 .
 .
-PRInt32
+int32_t
 crlfIndex
 =
 mFlatHttpRequestHeaders
@@ -2238,7 +2238,7 @@ while
 true
 )
 {
-PRInt32
+int32_t
 startIndex
 =
 crlfIndex
@@ -2271,7 +2271,7 @@ crlfIndex
 )
 break
 ;
-PRInt32
+int32_t
 colonIndex
 =
 mFlatHttpRequestHeaders
@@ -2458,7 +2458,7 @@ val
 )
 ;
 }
-PRInt32
+int32_t
 valueIndex
 =
 colonIndex
@@ -2544,7 +2544,7 @@ length
 )
 )
 {
-PRInt64
+int64_t
 len
 ;
 if
@@ -2624,7 +2624,7 @@ The
 header
 block
 length
-PRUint16
+uint16_t
 count
 =
 hdrHash
@@ -2768,7 +2768,7 @@ in
 (
 reinterpret_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -3094,7 +3094,7 @@ input
 headers
 is
 approximate
-PRUint32
+uint32_t
 ratio
 =
 (
@@ -3153,7 +3153,7 @@ SpdyStream2
 :
 UpdateTransportReadEvents
 (
-PRUint32
+uint32_t
 count
 )
 {
@@ -3179,7 +3179,7 @@ SpdyStream2
 :
 UpdateTransportSendEvents
 (
-PRUint32
+uint32_t
 count
 )
 {
@@ -3241,7 +3241,7 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 *
 countUsed
 )
@@ -3375,7 +3375,7 @@ inconsistent
 "
 )
 ;
-PRUint32
+uint32_t
 transmittedCount
 ;
 nsresult
@@ -3991,7 +3991,7 @@ SpdyStream2
 :
 GenerateDataFrameHeader
 (
-PRUint32
+uint32_t
 dataLength
 bool
 lastFrame
@@ -4079,7 +4079,7 @@ bits
 (
 reinterpret_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -4102,7 +4102,7 @@ mStreamID
 (
 reinterpret_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -4523,7 +4523,7 @@ SpdyStream2
 :
 ExecuteCompress
 (
-PRUint32
+uint32_t
 flushMode
 )
 {
@@ -4555,7 +4555,7 @@ to
 mTxInlineFrame
 do
 {
-PRUint32
+uint32_t
 avail
 =
 mTxInlineFrameSize
@@ -4658,7 +4658,7 @@ SpdyStream2
 :
 CompressToFrame
 (
-PRUint16
+uint16_t
 data
 )
 {
@@ -4726,7 +4726,7 @@ const
 char
 *
 data
-PRUint32
+uint32_t
 len
 )
 {
@@ -4785,7 +4785,7 @@ len
 =
 0xffff
 ;
-PRUint16
+uint16_t
 networkLen
 =
 PR_htons
@@ -5082,9 +5082,9 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countRead
 )
@@ -5144,7 +5144,7 @@ rv
 =
 NS_ERROR_UNEXPECTED
 ;
-PRUint32
+uint32_t
 dataLength
 ;
 switch
@@ -5968,9 +5968,9 @@ OnWriteSegment
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countWritten
 )

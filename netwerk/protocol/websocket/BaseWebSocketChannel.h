@@ -160,14 +160,14 @@ net
 {
 const
 static
-PRInt32
+int32_t
 kDefaultWSPort
 =
 80
 ;
 const
 static
-PRInt32
+int32_t
 kDefaultWSSPort
 =
 443

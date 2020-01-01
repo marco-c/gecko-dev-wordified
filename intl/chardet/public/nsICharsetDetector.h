@@ -272,7 +272,7 @@ const
 char
 *
 aBytesArray
-PRUint32
+uint32_t
 aLen
 bool
 *

@@ -153,7 +153,7 @@ index
 NS_IMETHOD
 AddOption
 (
-PRInt32
+int32_t
 index
 )
 =
@@ -188,7 +188,7 @@ method
 NS_IMETHOD
 RemoveOption
 (
-PRInt32
+int32_t
 index
 )
 =
@@ -244,7 +244,7 @@ selected
 NS_IMETHOD
 OnOptionSelected
 (
-PRInt32
+int32_t
 aIndex
 bool
 aSelected
@@ -276,9 +276,9 @@ frame
 NS_IMETHOD
 OnSetSelectedIndex
 (
-PRInt32
+int32_t
 aOldIndex
-PRInt32
+int32_t
 aNewIndex
 )
 =

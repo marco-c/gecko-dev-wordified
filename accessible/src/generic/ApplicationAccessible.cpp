@@ -689,7 +689,7 @@ Truncate
 )
 ;
 }
-PRUint64
+uint64_t
 ApplicationAccessible
 :
 :
@@ -757,9 +757,9 @@ ApplicationAccessible
 :
 ChildAtPoint
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 EWhichChildAtPoint
 aWhichChild
@@ -819,7 +819,7 @@ ApplicationAccessible
 :
 RelationByType
 (
-PRUint32
+uint32_t
 aRelationType
 )
 {
@@ -835,16 +835,16 @@ ApplicationAccessible
 :
 GetBounds
 (
-PRInt32
+int32_t
 *
 aX
-PRInt32
+int32_t
 *
 aY
-PRInt32
+int32_t
 *
 aWidth
-PRInt32
+int32_t
 *
 aHeight
 )
@@ -931,7 +931,7 @@ return
 NS_OK
 ;
 }
-PRUint8
+uint8_t
 ApplicationAccessible
 :
 :
@@ -949,7 +949,7 @@ ApplicationAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -972,7 +972,7 @@ ApplicationAccessible
 :
 GetActionDescription
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -995,7 +995,7 @@ ApplicationAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -1505,7 +1505,7 @@ ApplicationAccessible
 :
 ApplyARIAState
 (
-PRUint64
+uint64_t
 *
 aState
 )
@@ -1527,7 +1527,7 @@ roles
 APP_ROOT
 ;
 }
-PRUint64
+uint64_t
 ApplicationAccessible
 :
 :
@@ -1927,7 +1927,7 @@ ApplicationAccessible
 :
 GetSiblingAtOffset
 (
-PRInt32
+int32_t
 aOffset
 nsresult
 *
@@ -2119,7 +2119,7 @@ ApplicationAccessible
 :
 ScrollTo
 (
-PRUint32
+uint32_t
 aScrollType
 )
 {
@@ -2133,11 +2133,11 @@ ApplicationAccessible
 :
 ScrollToPoint
 (
-PRUint32
+uint32_t
 aCoordinateType
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 )
 {

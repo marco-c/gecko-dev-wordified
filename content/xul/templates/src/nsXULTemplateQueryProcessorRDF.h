@@ -1292,7 +1292,7 @@ RDF
 container
 *
 /
-PRInt32
+int32_t
 GetContainerIndexOf
 (
 nsIXULTemplateResult
@@ -1556,7 +1556,7 @@ for
 RDF
 batch
 notifications
-PRInt32
+int32_t
 mUpdateBatchNest
 ;
 /

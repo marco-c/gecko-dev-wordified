@@ -217,7 +217,7 @@ mPipeFDs
 2
 ]
 ;
-PRUintn
+unsigned
 mTag
 ;
 }

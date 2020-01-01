@@ -1658,7 +1658,7 @@ children
 =
 mAttrsAndChildren
 ;
-PRUint32
+uint32_t
 i
 count
 =
@@ -1728,7 +1728,7 @@ children
 =
 mAttrsAndChildren
 ;
-PRUint32
+uint32_t
 i
 =
 children
@@ -1853,7 +1853,7 @@ parent
 >
 mAttrsAndChildren
 ;
-PRInt32
+int32_t
 index
 =
 children
@@ -1874,7 +1874,7 @@ return
 nullptr
 ;
 }
-PRUint32
+uint32_t
 i
 =
 index
@@ -1895,7 +1895,7 @@ children
 ChildAt
 (
 (
-PRUint32
+uint32_t
 )
 -
 -
@@ -1998,7 +1998,7 @@ parent
 >
 mAttrsAndChildren
 ;
-PRInt32
+int32_t
 index
 =
 children
@@ -2019,7 +2019,7 @@ return
 nullptr
 ;
 }
-PRUint32
+uint32_t
 i
 count
 =
@@ -2034,7 +2034,7 @@ for
 i
 =
 (
-PRUint32
+uint32_t
 )
 index
 +
@@ -2085,7 +2085,7 @@ nsGenericElement
 :
 GetChildElementCount
 (
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -3129,7 +3129,7 @@ return
 nullptr
 ;
 }
-PRInt32
+int32_t
 nsGenericElement
 :
 :
@@ -3166,7 +3166,7 @@ nsGenericElement
 :
 GetScrollTop
 (
-PRInt32
+int32_t
 *
 aScrollTop
 )
@@ -3188,7 +3188,7 @@ nsGenericElement
 :
 SetScrollTop
 (
-PRInt32
+int32_t
 aScrollTop
 )
 {
@@ -3229,7 +3229,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 nsGenericElement
 :
 :
@@ -3266,7 +3266,7 @@ nsGenericElement
 :
 GetScrollLeft
 (
-PRInt32
+int32_t
 *
 aScrollLeft
 )
@@ -3288,7 +3288,7 @@ nsGenericElement
 :
 SetScrollLeft
 (
-PRInt32
+int32_t
 aScrollLeft
 )
 {
@@ -3329,7 +3329,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 nsGenericElement
 :
 :
@@ -3405,7 +3405,7 @@ nsGenericElement
 :
 GetScrollHeight
 (
-PRInt32
+int32_t
 *
 aScrollHeight
 )
@@ -3421,7 +3421,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 nsGenericElement
 :
 :
@@ -3497,7 +3497,7 @@ nsGenericElement
 :
 GetScrollWidth
 (
-PRInt32
+int32_t
 *
 aScrollWidth
 )
@@ -3513,7 +3513,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 nsGenericElement
 :
 :
@@ -3564,7 +3564,7 @@ nsGenericElement
 :
 GetScrollLeftMax
 (
-PRInt32
+int32_t
 *
 aScrollLeftMax
 )
@@ -3580,7 +3580,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 nsGenericElement
 :
 :
@@ -3631,7 +3631,7 @@ nsGenericElement
 :
 GetScrollTopMax
 (
-PRInt32
+int32_t
 *
 aScrollTopMax
 )
@@ -3785,7 +3785,7 @@ nsGenericElement
 :
 GetClientTop
 (
-PRInt32
+int32_t
 *
 aClientTop
 )
@@ -3807,7 +3807,7 @@ nsGenericElement
 :
 GetClientLeft
 (
-PRInt32
+int32_t
 *
 aClientLeft
 )
@@ -3829,7 +3829,7 @@ nsGenericElement
 :
 GetClientHeight
 (
-PRInt32
+int32_t
 *
 aClientHeight
 )
@@ -3851,7 +3851,7 @@ nsGenericElement
 :
 GetClientWidth
 (
-PRInt32
+int32_t
 *
 aClientWidth
 )
@@ -5032,7 +5032,7 @@ nsAString
 aReturn
 )
 {
-PRInt32
+int32_t
 nsid
 =
 nsContentUtils
@@ -5221,7 +5221,7 @@ do_GetAtom
 aLocalName
 )
 ;
-PRInt32
+int32_t
 nsid
 =
 nsContentUtils
@@ -5577,7 +5577,7 @@ nsIDOMNodeList
 aReturn
 )
 {
-PRInt32
+int32_t
 nameSpaceId
 =
 kNameSpaceID_Wildcard
@@ -5731,7 +5731,7 @@ NS_ENSURE_ARG_POINTER
 aReturn
 )
 ;
-PRInt32
+int32_t
 nsid
 =
 nsContentUtils
@@ -5939,7 +5939,7 @@ aDocument
 ;
 #
 endif
-PRUint32
+uint32_t
 i
 ;
 for
@@ -8137,7 +8137,7 @@ unbind
 them
 anyway
 .
-PRUint32
+uint32_t
 i
 n
 =
@@ -8549,7 +8549,7 @@ const
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 const
@@ -8592,13 +8592,13 @@ const
 aMaps
 [
 ]
-PRUint32
+uint32_t
 aMapCount
 )
 {
 for
 (
-PRUint32
+uint32_t
 mapindex
 =
 0
@@ -8915,7 +8915,7 @@ nsGenericElement
 :
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -9074,7 +9074,7 @@ nsIContent
 aTarget
 bool
 aFullDispatch
-PRUint32
+uint32_t
 aFlags
 nsEventStatus
 *
@@ -9140,7 +9140,7 @@ aSourceEvent
 >
 refPoint
 ;
-PRUint32
+uint32_t
 clickCount
 =
 1
@@ -9150,7 +9150,7 @@ pressure
 =
 0
 ;
-PRUint16
+uint16_t
 inputSource
 =
 0
@@ -9705,7 +9705,7 @@ nsGenericElement
 :
 MaybeCheckSameAttrVal
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -9722,7 +9722,7 @@ aNotify
 nsAttrValue
 &
 aOldValue
-PRUint8
+uint8_t
 *
 aModType
 bool
@@ -10051,7 +10051,7 @@ modification
 ?
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 nsIDOMMutationEvent
@@ -10062,7 +10062,7 @@ MODIFICATION
 :
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 nsIDOMMutationEvent
@@ -10081,7 +10081,7 @@ nsGenericElement
 :
 SetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -10143,7 +10143,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRUint8
+uint8_t
 modType
 ;
 bool
@@ -10281,7 +10281,7 @@ nsGenericElement
 :
 SetParsedAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -10342,7 +10342,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRUint8
+uint8_t
 modType
 ;
 bool
@@ -10434,7 +10434,7 @@ nsGenericElement
 :
 SetAttrAndNotify
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -10449,7 +10449,7 @@ aOldValue
 nsAttrValue
 &
 aParsedValue
-PRUint8
+uint8_t
 aModType
 bool
 aFireMutation
@@ -10915,7 +10915,7 @@ nsGenericElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -10998,7 +10998,7 @@ nsGenericElement
 :
 GetAttrInfo
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -11037,7 +11037,7 @@ ID
 "
 )
 ;
-PRInt32
+int32_t
 index
 =
 mAttrsAndChildren
@@ -11088,7 +11088,7 @@ nsGenericElement
 :
 GetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -11213,7 +11213,7 @@ nsGenericElement
 :
 HasAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -11271,7 +11271,7 @@ nsGenericElement
 :
 AttrValueIs
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -11342,7 +11342,7 @@ nsGenericElement
 :
 AttrValueIs
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -11416,13 +11416,13 @@ aCaseSensitive
 )
 ;
 }
-PRInt32
+int32_t
 nsGenericElement
 :
 :
 FindAttrValueIn
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -11489,7 +11489,7 @@ val
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -11539,7 +11539,7 @@ nsGenericElement
 :
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -11562,7 +11562,7 @@ name
 "
 )
 ;
-PRInt32
+int32_t
 index
 =
 mAttrsAndChildren
@@ -11998,7 +11998,7 @@ nsGenericElement
 :
 GetAttrNameAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -12012,7 +12012,7 @@ aIndex
 )
 ;
 }
-PRUint32
+uint32_t
 nsGenericElement
 :
 :
@@ -12044,7 +12044,7 @@ out
 )
 const
 {
-PRUint32
+uint32_t
 index
 count
 =
@@ -12165,7 +12165,7 @@ PRUnichar
 \
 '
 )
-PRUint32
+uint32_t
 (
 i
 )
@@ -12220,7 +12220,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 const
 nsCString
@@ -12229,7 +12229,7 @@ aPrefix
 )
 const
 {
-PRInt32
+int32_t
 indent
 ;
 for
@@ -12597,7 +12597,7 @@ if
 anonymousChildren
 )
 {
-PRUint32
+uint32_t
 length
 ;
 anonymousChildren
@@ -12652,7 +12652,7 @@ out
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -12783,7 +12783,7 @@ lied
 "
 )
 ;
-PRUint32
+uint32_t
 length
 ;
 contentList
@@ -12838,7 +12838,7 @@ out
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -12936,14 +12936,14 @@ DumpContent
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 bool
 aDumpAll
 )
 const
 {
-PRInt32
+int32_t
 indent
 ;
 for
@@ -13052,7 +13052,7 @@ GetNextSibling
 )
 )
 {
-PRInt32
+int32_t
 indent
 =
 aIndent

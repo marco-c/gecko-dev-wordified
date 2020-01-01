@@ -257,7 +257,7 @@ const
 nsACString
 &
 aHost
-PRInt32
+int32_t
 aPort
 nsACString
 &
@@ -336,7 +336,7 @@ uri
 nsCAutoString
 host
 ;
-PRInt32
+int32_t
 port
 ;
 /
@@ -467,9 +467,9 @@ static
 nsresult
 ReadInternetOption
 (
-PRUint32
+uint32_t
 aOption
-PRUint32
+uint32_t
 &
 aFlags
 nsAString
@@ -660,7 +660,7 @@ aHost
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 flags
 =
 0
@@ -699,12 +699,12 @@ host
 aHost
 )
 ;
-PRInt32
+int32_t
 start
 =
 0
 ;
-PRInt32
+int32_t
 end
 =
 cbuf
@@ -817,7 +817,7 @@ while
 true
 )
 {
-PRInt32
+int32_t
 delimiter
 =
 cbuf
@@ -980,7 +980,7 @@ override
 aOverride
 )
 ;
-PRInt32
+int32_t
 overrideLength
 =
 override
@@ -989,12 +989,12 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 tokenStart
 =
 0
 ;
-PRInt32
+int32_t
 offset
 =
 0
@@ -1011,7 +1011,7 @@ tokenStart
 overrideLength
 )
 {
-PRInt32
+int32_t
 tokenEnd
 =
 override
@@ -1205,7 +1205,7 @@ aResult
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 flags
 =
 0
@@ -1277,7 +1277,7 @@ aResult
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 flags
 =
 0
@@ -1407,12 +1407,12 @@ defaultProxy
 nsCAutoString
 socksProxy
 ;
-PRInt32
+int32_t
 start
 =
 0
 ;
-PRInt32
+int32_t
 end
 =
 cbuf
@@ -1426,7 +1426,7 @@ while
 true
 )
 {
-PRInt32
+int32_t
 delimiter
 =
 cbuf

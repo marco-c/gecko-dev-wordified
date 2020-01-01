@@ -192,7 +192,7 @@ virtual
 void
 SetUnknown
 (
-PRUint64
+uint64_t
 aSequenceNumber
 )
 =
@@ -379,7 +379,7 @@ const
 nsIntRect
 &
 aRect
-PRUint64
+uint64_t
 aSequenceNumber
 )
 =
@@ -965,7 +965,7 @@ return
 mBackgroundLayerOffset
 ;
 }
-PRUint64
+uint64_t
 AllocateSequenceNumber
 (
 )
@@ -1111,7 +1111,7 @@ char
 aPrefix
 )
 ;
-PRUint64
+uint64_t
 mSequenceCounter
 ;
 nsAutoPtr

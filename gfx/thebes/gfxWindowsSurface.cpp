@@ -141,7 +141,7 @@ gfxWindowsSurface
 (
 HWND
 wnd
-PRUint32
+uint32_t
 flags
 )
 :
@@ -180,7 +180,7 @@ gfxWindowsSurface
 (
 HDC
 dc
-PRUint32
+uint32_t
 flags
 )
 :
@@ -598,7 +598,7 @@ gfxWindowsSurface
 :
 InitWithDC
 (
-PRUint32
+uint32_t
 flags
 )
 {
@@ -1565,7 +1565,7 @@ NS_ERROR_FAILURE
 #
 endif
 }
-PRInt32
+int32_t
 gfxWindowsSurface
 :
 :

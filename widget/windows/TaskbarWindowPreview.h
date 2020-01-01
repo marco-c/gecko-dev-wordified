@@ -260,7 +260,7 @@ DetachFromNSWindow
 nsresult
 UpdateButton
 (
-PRUint32
+uint32_t
 index
 )
 ;

@@ -897,7 +897,7 @@ endif
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1051,14 +1051,14 @@ in
 the
 second
 argument
-PRUint32
+uint32_t
 getUTF8CharAndNext
 (
 const
-PRUint8
+uint8_t
 *
 aString
-PRUint8
+uint8_t
 *
 aLength
 )
@@ -1422,7 +1422,7 @@ AddFontNameToArray
 fonts
 )
 ;
-PRUint32
+uint32_t
 len
 =
 fonts
@@ -1433,7 +1433,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1656,7 +1656,7 @@ fonts
 ;
 }
 static
-PRInt32
+int32_t
 GetCJKLangGroupIndex
 (
 const
@@ -1665,7 +1665,7 @@ char
 aLangGroup
 )
 {
-PRInt32
+int32_t
 i
 ;
 for
@@ -1963,7 +1963,7 @@ false
 true
 )
 ;
-PRInt32
+int32_t
 index
 =
 GetCJKLangGroupIndex
@@ -2327,13 +2327,13 @@ gfxFontEntry
 >
 &
 aFontEntryList
-PRUint32
+uint32_t
 aCh
 )
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2420,7 +2420,7 @@ gfxFT2FontGroup
 :
 WhichPrefFontSupportsChar
 (
-PRUint32
+uint32_t
 aCh
 )
 {
@@ -2485,7 +2485,7 @@ if
 selectedFont
 )
 {
-PRUint32
+uint32_t
 unicodeRange
 =
 FindCharUnicodeRange
@@ -2675,9 +2675,9 @@ gfxFT2FontGroup
 :
 WhichSystemFontSupportsChar
 (
-PRUint32
+uint32_t
 aCh
-PRInt32
+int32_t
 aRunScript
 )
 {
@@ -3041,7 +3041,7 @@ str
 )
 {
 const
-PRUint32
+uint32_t
 appUnitsPerDevUnit
 =
 aShapedWord
@@ -3117,7 +3117,7 @@ GetSpaceGlyph
 (
 )
 ;
-PRUint32
+uint32_t
 len
 =
 aShapedWord
@@ -3129,7 +3129,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3239,7 +3239,7 @@ cgd
 >
 glyphIndex
 ;
-PRInt32
+int32_t
 advance
 =
 0
@@ -4070,7 +4070,7 @@ gfxFT2Font
 :
 FillGlyphDataForChar
 (
-PRUint32
+uint32_t
 ch
 CachedGlyphData
 *

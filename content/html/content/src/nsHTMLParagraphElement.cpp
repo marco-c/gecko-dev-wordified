@@ -225,7 +225,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -379,7 +379,7 @@ nsHTMLParagraphElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *

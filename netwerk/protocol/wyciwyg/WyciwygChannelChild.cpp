@@ -521,11 +521,11 @@ nsresult
 &
 statusCode
 const
-PRInt32
+int32_t
 &
 contentLength
 const
-PRInt32
+int32_t
 &
 source
 const
@@ -591,10 +591,10 @@ mChild
 nsresult
 mStatusCode
 ;
-PRInt32
+int32_t
 mContentLength
 ;
-PRInt32
+int32_t
 mSource
 ;
 nsCString
@@ -616,11 +616,11 @@ nsresult
 &
 statusCode
 const
-PRInt32
+int32_t
 &
 contentLength
 const
-PRInt32
+int32_t
 &
 source
 const
@@ -686,11 +686,11 @@ nsresult
 &
 statusCode
 const
-PRInt32
+int32_t
 &
 contentLength
 const
-PRInt32
+int32_t
 &
 source
 const
@@ -813,7 +813,7 @@ nsCString
 &
 data
 const
-PRUint32
+uint32_t
 &
 offset
 )
@@ -856,7 +856,7 @@ mChild
 nsCString
 mData
 ;
-PRUint32
+uint32_t
 mOffset
 ;
 }
@@ -872,7 +872,7 @@ nsCString
 &
 data
 const
-PRUint32
+uint32_t
 &
 offset
 )
@@ -924,7 +924,7 @@ nsCString
 &
 data
 const
-PRUint32
+uint32_t
 &
 offset
 )
@@ -1134,7 +1134,7 @@ OnProgress
 (
 this
 nullptr
-PRUint64
+uint64_t
 (
 offset
 +
@@ -1144,7 +1144,7 @@ Length
 (
 )
 )
-PRUint64
+uint64_t
 (
 mContentLength
 )
@@ -2589,7 +2589,7 @@ WyciwygChannelChild
 :
 GetContentDisposition
 (
-PRUint32
+uint32_t
 *
 aContentDisposition
 )
@@ -2642,7 +2642,7 @@ WyciwygChannelChild
 :
 GetContentLength
 (
-PRInt32
+int32_t
 *
 aContentLength
 )
@@ -2657,7 +2657,7 @@ WyciwygChannelChild
 :
 SetContentLength
 (
-PRInt32
+int32_t
 aContentLength
 )
 {
@@ -3230,7 +3230,7 @@ WyciwygChannelChild
 :
 SetCharsetAndSource
 (
-PRInt32
+int32_t
 aSource
 const
 nsACString
@@ -3329,7 +3329,7 @@ WyciwygChannelChild
 :
 GetCharsetAndSource
 (
-PRInt32
+int32_t
 *
 aSource
 nsACString

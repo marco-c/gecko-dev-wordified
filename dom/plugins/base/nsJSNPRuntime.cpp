@@ -449,7 +449,7 @@ tables
 etc
 .
 static
-PRInt32
+int32_t
 sWrapperCount
 ;
 /
@@ -1060,7 +1060,7 @@ delayedReleases
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2222,7 +2222,7 @@ chars
 length
 )
 ;
-PRUint32
+uint32_t
 len
 ;
 char
@@ -3473,7 +3473,7 @@ Convert
 args
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4793,7 +4793,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7320,7 +7320,7 @@ JS_FALSE
 /
 Convert
 arguments
-PRUint32
+uint32_t
 i
 ;
 for
@@ -7898,10 +7898,10 @@ false
 struct
 NPObjectEnumerateState
 {
-PRUint32
+uint32_t
 index
 ;
-PRUint32
+uint32_t
 length
 ;
 NPIdentifier
@@ -9629,7 +9629,7 @@ ar
 cx
 )
 ;
-PRUint32
+uint32_t
 generation
 =
 sNPObjWrappers
@@ -9825,7 +9825,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -9985,7 +9985,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -11837,7 +11837,7 @@ JS_FALSE
 /
 Convert
 arguments
-PRUint32
+uint32_t
 i
 ;
 jsval

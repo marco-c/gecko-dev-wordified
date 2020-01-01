@@ -1732,7 +1732,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -1897,31 +1897,31 @@ aContext
 ifdef
 NOISY_FINDFRAME
 static
-PRInt32
+int32_t
 FFWC_totalCount
 =
 0
 ;
 static
-PRInt32
+int32_t
 FFWC_doLoop
 =
 0
 ;
 static
-PRInt32
+int32_t
 FFWC_doSibling
 =
 0
 ;
 static
-PRInt32
+int32_t
 FFWC_recursions
 =
 0
 ;
 static
-PRInt32
+int32_t
 FFWC_nextInFlows
 =
 0
@@ -6383,7 +6383,7 @@ kPopupList
 endif
 for
 (
-PRInt32
+int32_t
 i
 =
 mGeneratedTextNodesWithInitializer
@@ -8247,7 +8247,7 @@ GetNextSibling
 )
 )
 {
-PRInt32
+int32_t
 compare
 =
 nsLayoutUtils
@@ -9830,7 +9830,7 @@ aParentContent
 nsStyleContext
 *
 aStyleContext
-PRUint32
+uint32_t
 aContentIndex
 )
 {
@@ -10032,7 +10032,7 @@ nsIAtom
 >
 attrName
 ;
-PRInt32
+int32_t
 attrNameSpace
 =
 kNameSpaceID_None
@@ -10047,7 +10047,7 @@ mContent
 mString
 )
 ;
-PRInt32
+int32_t
 barIndex
 =
 contentString
@@ -11020,7 +11020,7 @@ UnbindFromTree
 return
 ;
 }
-PRUint32
+uint32_t
 contentCount
 =
 pseudoStyleContext
@@ -11037,7 +11037,7 @@ ContentCount
 ;
 for
 (
-PRUint32
+uint32_t
 contentIndex
 =
 0
@@ -12089,7 +12089,7 @@ aItem
 mStyleContext
 ;
 const
-PRUint32
+uint32_t
 nameSpaceID
 =
 aItem
@@ -12608,7 +12608,7 @@ aItem
 mStyleContext
 ;
 const
-PRUint32
+uint32_t
 nameSpaceID
 =
 aItem
@@ -12873,7 +12873,7 @@ a
 span
 >
 1
-PRInt32
+int32_t
 span
 =
 colFrame
@@ -12885,7 +12885,7 @@ GetSpan
 ;
 for
 (
-PRInt32
+int32_t
 spanX
 =
 1
@@ -13038,7 +13038,7 @@ aItem
 mStyleContext
 ;
 const
-PRUint32
+uint32_t
 nameSpaceID
 =
 aItem
@@ -18702,7 +18702,7 @@ content
 )
 )
 ;
-PRUint32
+uint32_t
 size
 =
 1
@@ -18850,7 +18850,7 @@ drop
 down
 list
 .
-PRUint32
+uint32_t
 flags
 =
 NS_BLOCK_FLOAT_MGR
@@ -20668,7 +20668,7 @@ nsCSSFrameConstructor
 :
 FindDataByInt
 (
-PRInt32
+int32_t
 aInt
 Element
 *
@@ -20680,7 +20680,7 @@ const
 FrameConstructionDataByInt
 *
 aDataPtr
-PRUint32
+uint32_t
 aDataLength
 )
 {
@@ -20792,7 +20792,7 @@ const
 FrameConstructionDataByTag
 *
 aDataPtr
-PRUint32
+uint32_t
 aDataLength
 )
 {
@@ -21013,7 +21013,7 @@ aElement
 nsIAtom
 *
 aTag
-PRInt32
+int32_t
 aNameSpaceID
 nsIFrame
 *
@@ -21931,7 +21931,7 @@ those
 cases
 as
 TYPE_NULL
-PRUint32
+uint32_t
 type
 ;
 if
@@ -22062,7 +22062,7 @@ return
 FindDataByInt
 (
 (
-PRInt32
+int32_t
 )
 type
 aElement
@@ -22265,7 +22265,7 @@ data
 "
 )
 ;
-PRUint32
+uint32_t
 bits
 =
 data
@@ -23982,7 +23982,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 count
 =
 newAnonymousItems
@@ -24072,7 +24072,7 @@ for
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -24310,7 +24310,7 @@ of
 its
 children
 recursively
-PRUint32
+uint32_t
 count
 ;
 nsIContent
@@ -24330,7 +24330,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -24412,7 +24412,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 count
 =
 aContent
@@ -24423,7 +24423,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -25053,7 +25053,7 @@ aElement
 nsIAtom
 *
 aTag
-PRInt32
+int32_t
 aNameSpaceID
 nsStyleContext
 *
@@ -25620,7 +25620,7 @@ if
 treeItem
 )
 {
-PRInt32
+int32_t
 type
 ;
 treeItem
@@ -28609,7 +28609,7 @@ aElement
 nsIAtom
 *
 aTag
-PRInt32
+int32_t
 aNameSpaceID
 nsStyleContext
 *
@@ -29451,7 +29451,7 @@ aElement
 nsIAtom
 *
 aTag
-PRInt32
+int32_t
 aNameSpaceID
 nsIFrame
 *
@@ -29569,7 +29569,7 @@ if
 parentContent
 )
 {
-PRInt32
+int32_t
 parentNSID
 ;
 nsIAtom
@@ -31461,14 +31461,14 @@ aParentFrame
 nsIAtom
 *
 aTag
-PRInt32
+int32_t
 aNameSpaceID
 bool
 aSuppressWhiteSpaceOptimizations
 nsStyleContext
 *
 aStyleContext
-PRUint32
+uint32_t
 aFlags
 FrameConstructionItemList
 &
@@ -32412,7 +32412,7 @@ MOZ_XUL
 *
 /
 }
-PRUint32
+uint32_t
 bits
 =
 data
@@ -36676,7 +36676,7 @@ aSibling
 nsIContent
 *
 aContent
-PRUint8
+uint8_t
 &
 aDisplay
 )
@@ -36745,7 +36745,7 @@ GetType
 ;
 }
 }
-PRUint8
+uint8_t
 siblingDisplay
 =
 aSibling
@@ -37369,7 +37369,7 @@ aContent
 nsIContent
 *
 aTargetContent
-PRUint8
+uint8_t
 &
 aTargetContentDisplay
 bool
@@ -37666,7 +37666,7 @@ ChildIterator
 aFirst
 ChildIterator
 aIter
-PRUint8
+uint8_t
 &
 aTargetContentDisplay
 )
@@ -37779,7 +37779,7 @@ const
 ChildIterator
 &
 aLast
-PRUint8
+uint8_t
 &
 aTargetContentDisplay
 )
@@ -38260,7 +38260,7 @@ that
 }
 #
 endif
-PRUint8
+uint8_t
 childDisplay
 =
 UNSET_DISPLAY
@@ -39973,7 +39973,7 @@ to
 /
 perform
 .
-PRUint32
+uint32_t
 childCount
 =
 aContent
@@ -39996,7 +39996,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -40678,7 +40678,7 @@ a
 safe
 operation
 .
-PRUint32
+uint32_t
 childCount
 =
 0
@@ -41267,7 +41267,7 @@ if
 aContainer
 )
 {
-PRInt32
+int32_t
 namespaceID
 ;
 nsIAtom
@@ -44880,7 +44880,7 @@ isn
 t
 relevant
 .
-PRUint8
+uint8_t
 parentDisplay
 =
 parentFrame
@@ -51406,7 +51406,7 @@ blocker
 "
 )
 ;
-PRInt32
+int32_t
 count
 =
 aChangeList
@@ -51513,7 +51513,7 @@ nsStyleChangeList
 AppendChange
 could
 coalesce
-PRInt32
+int32_t
 index
 =
 count
@@ -53409,7 +53409,7 @@ nsChangeHint_ReconstructFrame
 }
 else
 {
-PRUint8
+uint8_t
 app
 =
 primaryFrame
@@ -53607,12 +53607,12 @@ AttributeWillChange
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -53658,12 +53658,12 @@ AttributeChanged
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -53856,7 +53856,7 @@ primaryFrame
 reframe
 )
 {
-PRInt32
+int32_t
 namespaceID
 ;
 nsIAtom
@@ -57517,7 +57517,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 index
 ;
 insertionElement
@@ -57539,7 +57539,7 @@ else
 bool
 multiple
 ;
-PRUint32
+uint32_t
 index
 ;
 insertionElement
@@ -60688,7 +60688,7 @@ But
 disable
 for
 fieldsets
-PRInt32
+int32_t
 namespaceID
 ;
 nsIAtom
@@ -63964,7 +63964,7 @@ anonymousItems
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -66978,7 +66978,7 @@ the
 first
 letter
 static
-PRInt32
+int32_t
 FirstLetterCount
 (
 const
@@ -66987,17 +66987,17 @@ nsTextFragment
 aFragment
 )
 {
-PRInt32
+int32_t
 count
 =
 0
 ;
-PRInt32
+int32_t
 firstLetterLength
 =
 0
 ;
-PRInt32
+int32_t
 i
 n
 =
@@ -67161,7 +67161,7 @@ if
 frag
 )
 {
-PRInt32
+int32_t
 flc
 =
 FirstLetterCount
@@ -67169,7 +67169,7 @@ FirstLetterCount
 frag
 )
 ;
-PRInt32
+int32_t
 tl
 =
 frag
@@ -76553,7 +76553,7 @@ lists
 }
 #
 endif
-PRUint32
+uint32_t
 selectorFlags
 =
 aContainer
@@ -77052,7 +77052,7 @@ lists
 "
 )
 ;
-PRUint32
+uint32_t
 selectorFlags
 =
 aContainer
@@ -77584,7 +77584,7 @@ bug
 )
 ;
 }
-PRUint32
+uint32_t
 selectorFlags
 =
 aContainer
@@ -78664,7 +78664,7 @@ ProcessRestyles
 #
 ifdef
 DEBUG
-PRUint32
+uint32_t
 oldPendingRestyleCount
 =
 mPendingRestyles
@@ -79749,7 +79749,7 @@ AdjustCountsForItem
 FrameConstructionItem
 *
 aItem
-PRInt32
+int32_t
 aDelta
 )
 {

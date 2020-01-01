@@ -216,12 +216,12 @@ spdySession
 nsISocketTransport
 *
 socketTransport
-PRUint32
+uint32_t
 chunkSize
 z_stream
 *
 compressionContext
-PRInt32
+int32_t
 priority
 )
 :
@@ -479,9 +479,9 @@ ReadSegments
 nsAHttpSegmentReader
 *
 reader
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countRead
 )
@@ -1233,9 +1233,9 @@ WriteSegments
 nsAHttpSegmentWriter
 *
 writer
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countWritten
 )
@@ -1384,9 +1384,9 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 avail
-PRUint32
+uint32_t
 *
 countUsed
 )
@@ -1489,7 +1489,7 @@ client
 we
 are
 parsing
-PRInt32
+int32_t
 endHeader
 =
 mFlatHttpRequestHeaders
@@ -1600,7 +1600,7 @@ has
 been
 consumed
 .
-PRUint32
+uint32_t
 oldLen
 =
 mFlatHttpRequestHeaders
@@ -1901,7 +1901,7 @@ fill
 that
 in
 later
-PRUint32
+uint32_t
 networkOrderID
 =
 PR_htonl
@@ -2116,7 +2116,7 @@ to
 /
 transactions
 .
-PRUint8
+uint8_t
 calculatedPriority
 =
 3
@@ -2374,7 +2374,7 @@ headers
 etc
 .
 .
-PRInt32
+int32_t
 crlfIndex
 =
 mFlatHttpRequestHeaders
@@ -2394,7 +2394,7 @@ while
 true
 )
 {
-PRInt32
+int32_t
 startIndex
 =
 crlfIndex
@@ -2427,7 +2427,7 @@ crlfIndex
 )
 break
 ;
-PRInt32
+int32_t
 colonIndex
 =
 mFlatHttpRequestHeaders
@@ -2608,7 +2608,7 @@ val
 )
 ;
 }
-PRInt32
+int32_t
 valueIndex
 =
 colonIndex
@@ -2694,7 +2694,7 @@ length
 )
 )
 {
-PRInt64
+int64_t
 len
 ;
 if
@@ -2774,7 +2774,7 @@ The
 header
 block
 length
-PRUint16
+uint16_t
 count
 =
 hdrHash
@@ -2956,7 +2956,7 @@ in
 (
 reinterpret_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -3282,7 +3282,7 @@ input
 headers
 is
 approximate
-PRUint32
+uint32_t
 ratio
 =
 (
@@ -3341,7 +3341,7 @@ SpdyStream3
 :
 UpdateTransportReadEvents
 (
-PRUint32
+uint32_t
 count
 )
 {
@@ -3367,7 +3367,7 @@ SpdyStream3
 :
 UpdateTransportSendEvents
 (
-PRUint32
+uint32_t
 count
 )
 {
@@ -3429,7 +3429,7 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 *
 countUsed
 )
@@ -3563,7 +3563,7 @@ inconsistent
 "
 )
 ;
-PRUint32
+uint32_t
 transmittedCount
 ;
 nsresult
@@ -4179,7 +4179,7 @@ SpdyStream3
 :
 GenerateDataFrameHeader
 (
-PRUint32
+uint32_t
 dataLength
 bool
 lastFrame
@@ -4267,7 +4267,7 @@ bits
 (
 reinterpret_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -4290,7 +4290,7 @@ mStreamID
 (
 reinterpret_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -7748,7 +7748,7 @@ context
 char
 *
 blockStart
-PRUint32
+uint32_t
 blockLen
 )
 {
@@ -8085,14 +8085,14 @@ nvpair
 return
 NS_ERROR_ILLEGAL_VALUE
 ;
-PRUint32
+uint32_t
 numPairs
 =
 PR_ntohl
 (
 reinterpret_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -8109,7 +8109,7 @@ get
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -8134,7 +8134,7 @@ nvpair
 return
 NS_ERROR_ILLEGAL_VALUE
 ;
-PRUint32
+uint32_t
 nameLen
 =
 (
@@ -8229,7 +8229,7 @@ nameLen
 return
 NS_ERROR_ILLEGAL_VALUE
 ;
-PRUint32
+uint32_t
 valueLen
 =
 (
@@ -8481,7 +8481,7 @@ SPDY_SYN_REPLY_SIZE
 mDecompressedBytes
 )
 ;
-PRUint32
+uint32_t
 ratio
 =
 mDecompressedBytes
@@ -8653,14 +8653,14 @@ nvpair
 return
 NS_ERROR_ILLEGAL_VALUE
 ;
-PRUint32
+uint32_t
 numPairs
 =
 PR_ntohl
 (
 reinterpret_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -8677,7 +8677,7 @@ get
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -8702,7 +8702,7 @@ nvpair
 return
 NS_ERROR_ILLEGAL_VALUE
 ;
-PRUint32
+uint32_t
 nameLen
 =
 (
@@ -9072,7 +9072,7 @@ return
 NS_ERROR_ILLEGAL_VALUE
 ;
 }
-PRUint32
+uint32_t
 valueLen
 =
 (
@@ -9462,7 +9462,7 @@ SpdyStream3
 :
 ExecuteCompress
 (
-PRUint32
+uint32_t
 flushMode
 )
 {
@@ -9494,7 +9494,7 @@ to
 mTxInlineFrame
 do
 {
-PRUint32
+uint32_t
 avail
 =
 mTxInlineFrameSize
@@ -9597,7 +9597,7 @@ SpdyStream3
 :
 CompressToFrame
 (
-PRUint32
+uint32_t
 data
 )
 {
@@ -9667,7 +9667,7 @@ const
 char
 *
 data
-PRUint32
+uint32_t
 len
 )
 {
@@ -9689,7 +9689,7 @@ by
 the
 utf8
 string
-PRUint32
+uint32_t
 networkLen
 =
 PR_htonl
@@ -9986,9 +9986,9 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countRead
 )
@@ -10048,7 +10048,7 @@ rv
 =
 NS_ERROR_UNEXPECTED
 ;
-PRUint32
+uint32_t
 dataLength
 ;
 switch
@@ -10979,9 +10979,9 @@ OnWriteSegment
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countWritten
 )

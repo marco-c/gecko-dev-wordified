@@ -819,7 +819,7 @@ const
 gfxIntSize
 &
 sz
-PRInt32
+int32_t
 limit
 =
 0
@@ -849,12 +849,12 @@ code
 *
 /
 static
-PRInt32
+int32_t
 FormatStrideForWidth
 (
 gfxImageFormat
 format
-PRInt32
+int32_t
 width
 )
 ;
@@ -896,7 +896,7 @@ documentation
 *
 /
 virtual
-PRInt32
+int32_t
 GetDefaultContextFlags
 (
 )
@@ -962,7 +962,7 @@ gfxASurface
 :
 gfxSurfaceType
 aType
-PRInt32
+int32_t
 aBytes
 )
 ;
@@ -1017,7 +1017,7 @@ freed
 void
 RecordMemoryUsed
 (
-PRInt32
+int32_t
 aBytes
 )
 ;
@@ -1027,7 +1027,7 @@ RecordMemoryFreed
 )
 ;
 virtual
-PRInt32
+int32_t
 KnownMemoryUsed
 (
 )
@@ -1126,7 +1126,7 @@ GetMemoryLocation
 const
 ;
 static
-PRInt32
+int32_t
 BytePerPixelFromFormat
 (
 gfxImageFormat
@@ -1690,10 +1690,10 @@ void
 data
 )
 ;
-PRInt32
+int32_t
 mFloatingRefs
 ;
-PRInt32
+int32_t
 mBytesRecorded
 ;
 protected

@@ -941,7 +941,7 @@ const
 char
 *
 data
-PRUint32
+uint32_t
 length
 )
 =
@@ -1116,7 +1116,7 @@ canceled
 transactions
 .
 virtual
-PRUint32
+uint32_t
 CancelPipeline
 (
 nsresult
@@ -1185,7 +1185,7 @@ CONNECT
 tunnel
 setup
 virtual
-PRInt64
+int64_t
 BytesWritten
 (
 )
@@ -1266,7 +1266,7 @@ PushBack
 const
 char
 *
-PRUint32
+uint32_t
 )
 ;
 \
@@ -1277,7 +1277,7 @@ TakeHttpConnection
 )
 ;
 \
-PRUint32
+uint32_t
 CancelPipeline
 (
 nsresult
@@ -1600,7 +1600,7 @@ newclass
 \
 }
 \
-PRInt64
+int64_t
 BytesWritten
 (
 )

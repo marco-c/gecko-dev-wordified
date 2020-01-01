@@ -453,9 +453,9 @@ Open
 nsIFile
 *
 blockFile
-PRUint32
+uint32_t
 blockSize
-PRUint32
+uint32_t
 bitMapSize
 nsDiskCache
 :
@@ -507,7 +507,7 @@ bitMapSize
 /
 32
 ;
-PRUint32
+uint32_t
 bitMapBytes
 =
 mBitMapWords
@@ -614,7 +614,7 @@ buffer
 mBitMap
 =
 new
-PRUint32
+uint32_t
 [
 mBitMapWords
 ]
@@ -728,7 +728,7 @@ else
 if
 (
 (
-PRUint32
+uint32_t
 )
 mFileSize
 <
@@ -765,7 +765,7 @@ the
 bit
 map
 const
-PRInt32
+int32_t
 bytesRead
 =
 PR_Read
@@ -786,7 +786,7 @@ bytesRead
 |
 (
 (
-PRUint32
+uint32_t
 )
 bytesRead
 <
@@ -897,7 +897,7 @@ whole
 '
 .
 const
-PRUint32
+uint32_t
 estimatedSize
 =
 CalcBlockFileSize
@@ -907,7 +907,7 @@ CalcBlockFileSize
 if
 (
 (
-PRUint32
+uint32_t
 )
 mFileSize
 +
@@ -1438,13 +1438,13 @@ failure
 *
 *
 /
-PRInt32
+int32_t
 nsDiskCacheBlockFile
 :
 :
 AllocateBlocks
 (
-PRInt32
+int32_t
 numBlocks
 )
 {
@@ -1457,7 +1457,7 @@ maxPos
 numBlocks
 ;
 const
-PRUint32
+uint32_t
 mask
 =
 (
@@ -1486,7 +1486,7 @@ mBitMapWords
 i
 )
 {
-PRUint32
+uint32_t
 mapWord
 =
 ~
@@ -1711,7 +1711,7 @@ true
 ;
 return
 (
-PRInt32
+int32_t
 )
 i
 *
@@ -1893,9 +1893,9 @@ nsDiskCacheBlockFile
 :
 DeallocateBlocks
 (
-PRInt32
+int32_t
 startBlock
-PRInt32
+int32_t
 numBlocks
 )
 {
@@ -1918,7 +1918,7 @@ startBlock
 |
 (
 (
-PRUint32
+uint32_t
 )
 startBlock
 >
@@ -1947,7 +1947,7 @@ return
 NS_ERROR_ILLEGAL_VALUE
 ;
 const
-PRInt32
+int32_t
 startWord
 =
 startBlock
@@ -1961,7 +1961,7 @@ Divide
 by
 32
 const
-PRUint32
+uint32_t
 startBit
 =
 startBlock
@@ -1997,7 +1997,7 @@ numBlocks
 return
 NS_ERROR_UNEXPECTED
 ;
-PRUint32
+uint32_t
 mask
 =
 (
@@ -2246,11 +2246,11 @@ WriteBlocks
 void
 *
 buffer
-PRUint32
+uint32_t
 size
-PRInt32
+int32_t
 numBlocks
-PRInt32
+int32_t
 *
 startBlock
 )
@@ -2307,7 +2307,7 @@ seek
 to
 block
 position
-PRInt32
+int32_t
 blockPos
 =
 mBitMapWords
@@ -2505,11 +2505,11 @@ ReadBlocks
 void
 *
 buffer
-PRInt32
+int32_t
 startBlock
-PRInt32
+int32_t
 numBlocks
-PRInt32
+int32_t
 *
 bytesRead
 )
@@ -2559,7 +2559,7 @@ seek
 to
 block
 position
-PRInt32
+int32_t
 blockPos
 =
 mBitMapWords
@@ -2570,7 +2570,7 @@ startBlock
 *
 mBlockSize
 ;
-PRInt32
+int32_t
 filePos
 =
 PR_Seek
@@ -2595,7 +2595,7 @@ NS_ERROR_UNEXPECTED
 read
 the
 blocks
-PRInt32
+int32_t
 bytesToRead
 =
 *
@@ -2613,7 +2613,7 @@ bytesToRead
 |
 (
 (
-PRUint32
+uint32_t
 )
 bytesToRead
 >
@@ -2858,12 +2858,12 @@ defined
 (
 IS_LITTLE_ENDIAN
 )
-PRUint32
+uint32_t
 *
 bitmap
 =
 new
-PRUint32
+uint32_t
 [
 mBitMapWords
 ]
@@ -2876,7 +2876,7 @@ swap
 to
 network
 format
-PRUint32
+uint32_t
 *
 p
 =
@@ -2914,7 +2914,7 @@ i
 ;
 #
 else
-PRUint32
+uint32_t
 *
 bitmap
 =
@@ -3184,9 +3184,9 @@ nsDiskCacheBlockFile
 :
 VerifyAllocation
 (
-PRInt32
+int32_t
 startBlock
-PRInt32
+int32_t
 numBlocks
 )
 {
@@ -3201,7 +3201,7 @@ startBlock
 |
 (
 (
-PRUint32
+uint32_t
 )
 startBlock
 >
@@ -3230,7 +3230,7 @@ return
 NS_ERROR_ILLEGAL_VALUE
 ;
 const
-PRInt32
+int32_t
 startWord
 =
 startBlock
@@ -3244,7 +3244,7 @@ Divide
 by
 32
 const
-PRUint32
+uint32_t
 startBit
 =
 startBlock
@@ -3280,7 +3280,7 @@ numBlocks
 return
 NS_ERROR_ILLEGAL_VALUE
 ;
-PRUint32
+uint32_t
 mask
 =
 (
@@ -3503,7 +3503,7 @@ mBitmap
 *
 *
 /
-PRUint32
+uint32_t
 nsDiskCacheBlockFile
 :
 :
@@ -3522,14 +3522,14 @@ mBitMap
 with
 allocated
 bits
-PRUint32
+uint32_t
 estimatedSize
 =
 mBitMapWords
 *
 4
 ;
-PRInt32
+int32_t
 i
 =
 mBitMapWords
@@ -3573,7 +3573,7 @@ allocated
 bit
 in
 byte
-PRUint32
+uint32_t
 mapWord
 =
 mBitMap
@@ -3581,7 +3581,7 @@ mBitMap
 i
 ]
 ;
-PRUint32
+uint32_t
 lastBit
 =
 31
@@ -3906,13 +3906,13 @@ nsDiskCacheBlockFile
 :
 Write
 (
-PRInt32
+int32_t
 offset
 const
 void
 *
 buf
-PRInt32
+int32_t
 amount
 )
 {
@@ -3959,7 +3959,7 @@ chunks
 *
 /
 const
-PRInt32
+int32_t
 upTo
 =
 offset
@@ -3975,7 +3975,7 @@ definition
 of
 20MB
 const
-PRInt32
+int32_t
 minPreallocate
 =
 4
@@ -3985,7 +3985,7 @@ minPreallocate
 1024
 ;
 const
-PRInt32
+int32_t
 maxPreallocate
 =
 20
@@ -4007,7 +4007,7 @@ maximal
 file
 size
 const
-PRInt32
+int32_t
 maxFileSize
 =
 mBitMapWords

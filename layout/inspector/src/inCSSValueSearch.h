@@ -179,10 +179,10 @@ mBaseURL
 nsString
 mTextCriteria
 ;
-PRInt32
+int32_t
 mResultCount
 ;
-PRUint32
+uint32_t
 mPropertyCount
 ;
 bool
@@ -205,7 +205,7 @@ InitSearch
 nsresult
 KillSearch
 (
-PRInt16
+int16_t
 aResult
 )
 ;

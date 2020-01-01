@@ -236,7 +236,7 @@ friend
 class
 KeyboardLayout
 ;
-PRUint16
+uint16_t
 mEntries
 ;
 /
@@ -281,7 +281,7 @@ const
 DeadKeyEntry
 *
 aDeadKeyArray
-PRUint32
+uint32_t
 aEntries
 )
 {
@@ -303,10 +303,10 @@ DeadKeyEntry
 ;
 }
 static
-PRUint32
+uint32_t
 SizeInBytes
 (
-PRUint32
+uint32_t
 aEntries
 )
 {
@@ -327,7 +327,7 @@ DeadKeyEntry
 }
 public
 :
-PRUint32
+uint32_t
 Entries
 (
 )
@@ -344,7 +344,7 @@ const
 DeadKeyEntry
 *
 aDeadKeyArray
-PRUint32
+uint32_t
 aEntries
 )
 const
@@ -1142,7 +1142,7 @@ aModifiers
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1269,7 +1269,7 @@ UniCharsAndModifiers
 aOther
 )
 {
-PRUint32
+uint32_t
 copyCount
 =
 NS_MIN
@@ -1574,7 +1574,7 @@ const
 DeadKeyEntry
 *
 aDeadKeyArray
-PRUint32
+uint32_t
 aEntries
 )
 const
@@ -1667,7 +1667,7 @@ const
 PRUnichar
 *
 aChars
-PRUint32
+uint32_t
 aNumOfChars
 )
 {
@@ -1693,7 +1693,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -1746,7 +1746,7 @@ index
 0
 ;
 }
-PRUint32
+uint32_t
 len
 =
 ArrayLength
@@ -1763,7 +1763,7 @@ Chars
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 aNumOfChars
@@ -2164,10 +2164,10 @@ return
 result
 ;
 }
-PRUint32
+uint32_t
 index
 ;
-PRUint32
+uint32_t
 len
 =
 ArrayLength
@@ -2743,7 +2743,7 @@ mOriginalVirtualKeyCode
 =
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 :
@@ -2766,7 +2766,7 @@ mOriginalVirtualKeyCode
 =
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 aKeyOrCharMessage
@@ -3177,7 +3177,7 @@ mVirtualKeyCode
 =
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 :
@@ -3438,7 +3438,7 @@ mOriginalVirtualKeyCode
 =
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 :
@@ -3623,7 +3623,7 @@ mScanCode
 )
 ;
 }
-PRUint32
+uint32_t
 NativeKey
 :
 :
@@ -4109,7 +4109,7 @@ KeyboardLayout
 :
 IsPrintableCharKey
 (
-PRUint8
+uint8_t
 aVirtualKey
 )
 {
@@ -4129,7 +4129,7 @@ KeyboardLayout
 :
 IsDeadKey
 (
-PRUint8
+uint8_t
 aVirtualKey
 const
 ModifierKeyState
@@ -4138,7 +4138,7 @@ aModKeyState
 )
 const
 {
-PRInt32
+int32_t
 virtualKeyIndex
 =
 GetKeyIndex
@@ -4185,7 +4185,7 @@ KeyboardLayout
 :
 OnKeyDown
 (
-PRUint8
+uint8_t
 aVirtualKey
 const
 ModifierKeyState
@@ -4204,7 +4204,7 @@ mPendingKeyboardLayout
 )
 ;
 }
-PRInt32
+int32_t
 virtualKeyIndex
 =
 GetKeyIndex
@@ -4244,7 +4244,7 @@ UniCharsAndModifiers
 )
 ;
 }
-PRUint8
+uint8_t
 shiftState
 =
 VirtualKey
@@ -4332,7 +4332,7 @@ dead
 key
 characters
 .
-PRInt32
+int32_t
 activeDeadKeyIndex
 =
 GetKeyIndex
@@ -4434,7 +4434,7 @@ valid
 composite
 character
 .
-PRInt32
+int32_t
 activeDeadKeyIndex
 =
 GetKeyIndex
@@ -4585,7 +4585,7 @@ KeyboardLayout
 :
 GetUniCharsAndModifiers
 (
-PRUint8
+uint8_t
 aVirtualKey
 const
 ModifierKeyState
@@ -4597,7 +4597,7 @@ const
 UniCharsAndModifiers
 result
 ;
-PRInt32
+int32_t
 key
 =
 GetKeyIndex
@@ -4719,7 +4719,7 @@ dead
 -
 key
 .
-PRUint16
+uint16_t
 shiftStatesWithDeadKeys
 =
 0
@@ -4743,7 +4743,7 @@ base
 /
 characters
 .
-PRUint16
+uint16_t
 shiftStatesWithBaseChars
 =
 0
@@ -4821,7 +4821,7 @@ shiftState
 ;
 for
 (
-PRUint32
+uint32_t
 virtualKey
 =
 0
@@ -4835,7 +4835,7 @@ virtualKey
 +
 )
 {
-PRInt32
+int32_t
 vki
 =
 GetKeyIndex
@@ -4855,7 +4855,7 @@ continue
 }
 NS_ASSERTION
 (
-PRUint32
+uint32_t
 (
 vki
 )
@@ -4876,7 +4876,7 @@ uniChars
 5
 ]
 ;
-PRInt32
+int32_t
 ret
 =
 :
@@ -5115,7 +5115,7 @@ shiftState
 ;
 for
 (
-PRUint32
+uint32_t
 virtualKey
 =
 0
@@ -5129,7 +5129,7 @@ virtualKey
 +
 )
 {
-PRInt32
+int32_t
 vki
 =
 GetKeyIndex
@@ -5162,7 +5162,7 @@ deadKeyArray
 256
 ]
 ;
-PRInt32
+int32_t
 n
 =
 GetDeadKeyCombinations
@@ -5231,13 +5231,13 @@ originalKbdState
 ;
 }
 inline
-PRInt32
+int32_t
 KeyboardLayout
 :
 :
 GetKeyIndex
 (
-PRUint8
+uint8_t
 aVirtualKey
 )
 {
@@ -5520,7 +5520,7 @@ no
 name
 static
 const
-PRInt8
+int8_t
 xlat
 [
 256
@@ -6191,7 +6191,7 @@ const
 DeadKeyEntry
 *
 aDeadKeyArray
-PRUint32
+uint32_t
 aEntries
 )
 {
@@ -6219,12 +6219,12 @@ SizeInBytes
 aEntries
 )
 ;
-PRUint8
+uint8_t
 *
 p
 =
 new
-PRUint8
+uint8_t
 [
 bytes
 ]
@@ -6289,13 +6289,13 @@ while
 mDeadKeyTableListHead
 )
 {
-PRUint8
+uint8_t
 *
 p
 =
 reinterpret_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
@@ -6324,14 +6324,14 @@ EnsureDeadKeyActive
 (
 bool
 aIsActive
-PRUint8
+uint8_t
 aDeadKey
 const
 PBYTE
 aDeadKeyKbdState
 )
 {
-PRInt32
+int32_t
 ret
 ;
 do
@@ -6534,13 +6534,13 @@ aCompositeChar
 DeadKeyEntry
 *
 aDeadKeyArray
-PRUint32
+uint32_t
 aEntries
 )
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -6594,23 +6594,23 @@ return
 true
 ;
 }
-PRUint32
+uint32_t
 KeyboardLayout
 :
 :
 GetDeadKeyCombinations
 (
-PRUint8
+uint8_t
 aDeadKey
 const
 PBYTE
 aDeadKeyKbdState
-PRUint16
+uint16_t
 aShiftStatesWithBaseChars
 DeadKeyEntry
 *
 aDeadKeyArray
-PRUint32
+uint32_t
 aMaxEntries
 )
 {
@@ -6619,7 +6619,7 @@ deadKeyActive
 =
 false
 ;
-PRUint32
+uint32_t
 entries
 =
 0
@@ -6642,7 +6642,7 @@ kbdState
 ;
 for
 (
-PRUint32
+uint32_t
 shiftState
 =
 0
@@ -6685,7 +6685,7 @@ shiftState
 ;
 for
 (
-PRUint32
+uint32_t
 virtualKey
 =
 0
@@ -6699,7 +6699,7 @@ virtualKey
 +
 )
 {
-PRInt32
+int32_t
 vki
 =
 GetKeyIndex
@@ -6834,7 +6834,7 @@ compositeChars
 5
 ]
 ;
-PRInt32
+int32_t
 ret
 =
 :
@@ -7092,7 +7092,7 @@ return
 entries
 ;
 }
-PRUint32
+uint32_t
 KeyboardLayout
 :
 :
@@ -7160,7 +7160,7 @@ aNativeKeyCode
 return
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aNativeKeyCode
@@ -7330,7 +7330,7 @@ VK_SCROLL
 SCROLL
 LOCK
 return
-PRUint32
+uint32_t
 (
 aNativeKeyCode
 )
@@ -8104,7 +8104,7 @@ search
 .
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

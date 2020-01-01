@@ -706,7 +706,7 @@ false
 data
 )
 ;
-PRInt32
+int32_t
 length
 =
 data
@@ -4082,7 +4082,7 @@ NS_MATHML_OPERATOR_MAXSIZE_ABSOLUTE
 }
 }
 static
-PRUint32
+uint32_t
 GetStretchHint
 (
 nsOperatorFlags
@@ -4093,7 +4093,7 @@ bool
 aIsVertical
 )
 {
-PRUint32
+uint32_t
 stretchHint
 =
 NS_STRETCH_NONE
@@ -4633,7 +4633,7 @@ isVertical
 true
 ;
 }
-PRUint32
+uint32_t
 stretchHint
 =
 GetStretchHint
@@ -7243,7 +7243,7 @@ UseMathMLChar
 )
 )
 {
-PRUint32
+uint32_t
 stretchHint
 =
 GetStretchHint
@@ -7343,12 +7343,12 @@ nsMathMLmoFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -7565,7 +7565,7 @@ nsMathMLmoFrame
 :
 GetAdditionalStyleContext
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -7598,7 +7598,7 @@ nsMathMLmoFrame
 :
 SetAdditionalStyleContext
 (
-PRInt32
+int32_t
 aIndex
 nsStyleContext
 *

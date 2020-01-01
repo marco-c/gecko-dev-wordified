@@ -262,7 +262,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -609,7 +609,7 @@ nsHTMLTableRowElement
 :
 GetRowIndex
 (
-PRInt32
+int32_t
 *
 aValue
 )
@@ -670,7 +670,7 @@ rows
 )
 )
 ;
-PRUint32
+uint32_t
 numRows
 ;
 rows
@@ -684,7 +684,7 @@ numRows
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -738,7 +738,7 @@ nsHTMLTableRowElement
 :
 GetSectionRowIndex
 (
-PRInt32
+int32_t
 *
 aValue
 )
@@ -799,7 +799,7 @@ rows
 )
 )
 ;
-PRUint32
+uint32_t
 numRows
 ;
 rows
@@ -813,7 +813,7 @@ numRows
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -868,7 +868,7 @@ IsCell
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -980,7 +980,7 @@ nsHTMLTableRowElement
 :
 InsertCell
 (
-PRInt32
+int32_t
 aIndex
 nsIDOMHTMLElement
 *
@@ -1150,7 +1150,7 @@ if
 nextSibling
 )
 {
-PRUint32
+uint32_t
 cellCount
 ;
 cells
@@ -1166,7 +1166,7 @@ if
 (
 aIndex
 >
-PRInt32
+int32_t
 (
 cellCount
 )
@@ -1291,7 +1291,7 @@ nsHTMLTableRowElement
 :
 DeleteCell
 (
-PRInt32
+int32_t
 aValue
 )
 {
@@ -1324,7 +1324,7 @@ cells
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 refIndex
 ;
 if
@@ -1375,7 +1375,7 @@ else
 refIndex
 =
 (
-PRUint32
+uint32_t
 )
 aValue
 ;
@@ -1469,7 +1469,7 @@ nsHTMLTableRowElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *

@@ -2622,7 +2622,7 @@ fail
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2831,7 +2831,7 @@ AsyncExecuteStatements
 :
 notifyError
 (
-PRInt32
+int32_t
 aErrorCode
 const
 char
@@ -3089,7 +3089,7 @@ one
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3496,7 +3496,7 @@ any
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

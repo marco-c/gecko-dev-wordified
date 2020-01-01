@@ -375,7 +375,7 @@ NS_DECL_ISUPPORTS
 NS_IMETHODIMP
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 _count
 nsIID
@@ -399,7 +399,7 @@ _array
 NS_IMETHODIMP
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 aLanguage
 nsISupports
 *
@@ -498,7 +498,7 @@ NS_OK
 NS_IMETHODIMP
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 _language
 )
@@ -518,7 +518,7 @@ NS_OK
 NS_IMETHODIMP
 GetFlags
 (
-PRUint32
+uint32_t
 *
 _flags
 )
@@ -912,7 +912,7 @@ Clear
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2500,7 +2500,7 @@ Statement
 :
 GetParameterCount
 (
-PRUint32
+uint32_t
 *
 _parameterCount
 )
@@ -2528,7 +2528,7 @@ Statement
 :
 GetParameterName
 (
-PRUint32
+uint32_t
 aParamIndex
 nsACString
 &
@@ -2632,7 +2632,7 @@ const
 nsACString
 &
 aName
-PRUint32
+uint32_t
 *
 _index
 )
@@ -2751,7 +2751,7 @@ Statement
 :
 GetColumnCount
 (
-PRUint32
+uint32_t
 *
 _columnCount
 )
@@ -2779,7 +2779,7 @@ Statement
 :
 GetColumnName
 (
-PRUint32
+uint32_t
 aColumnIndex
 nsACString
 &
@@ -2837,7 +2837,7 @@ const
 nsACString
 &
 aName
-PRUint32
+uint32_t
 *
 _index
 )
@@ -2876,7 +2876,7 @@ sadly
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3283,7 +3283,7 @@ if
 error
 )
 {
-PRInt32
+int32_t
 srv
 ;
 (
@@ -3526,7 +3526,7 @@ Statement
 :
 GetState
 (
-PRInt32
+int32_t
 *
 _state
 )
@@ -3567,7 +3567,7 @@ Statement
 :
 GetColumnDecltype
 (
-PRUint32
+uint32_t
 aParamIndex
 nsACString
 &
@@ -3703,7 +3703,7 @@ Statement
 :
 GetNumEntries
 (
-PRUint32
+uint32_t
 *
 _length
 )
@@ -3723,9 +3723,9 @@ Statement
 :
 GetTypeOfIndex
 (
-PRUint32
+uint32_t
 aIndex
-PRInt32
+int32_t
 *
 _type
 )
@@ -3849,9 +3849,9 @@ Statement
 :
 GetInt32
 (
-PRUint32
+uint32_t
 aIndex
-PRInt32
+int32_t
 *
 _value
 )
@@ -3899,9 +3899,9 @@ Statement
 :
 GetInt64
 (
-PRUint32
+uint32_t
 aIndex
-PRInt64
+int64_t
 *
 _value
 )
@@ -3949,7 +3949,7 @@ Statement
 :
 GetDouble
 (
-PRUint32
+uint32_t
 aIndex
 double
 *
@@ -3999,7 +3999,7 @@ Statement
 :
 GetUTF8String
 (
-PRUint32
+uint32_t
 aIndex
 nsACString
 &
@@ -4025,7 +4025,7 @@ t
 have
 to
 .
-PRInt32
+int32_t
 type
 ;
 nsresult
@@ -4136,7 +4136,7 @@ Statement
 :
 GetString
 (
-PRUint32
+uint32_t
 aIndex
 nsAString
 &
@@ -4162,7 +4162,7 @@ t
 have
 to
 .
-PRInt32
+int32_t
 type
 ;
 nsresult
@@ -4275,12 +4275,12 @@ Statement
 :
 GetBlob
 (
-PRUint32
+uint32_t
 aIndex
-PRUint32
+uint32_t
 *
 _size
-PRUint8
+uint8_t
 *
 *
 _blob
@@ -4359,7 +4359,7 @@ _blob
 =
 static_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
@@ -4381,9 +4381,9 @@ Statement
 :
 GetSharedUTF8String
 (
-PRUint32
+uint32_t
 aIndex
-PRUint32
+uint32_t
 *
 _length
 const
@@ -4437,9 +4437,9 @@ Statement
 :
 GetSharedString
 (
-PRUint32
+uint32_t
 aIndex
-PRUint32
+uint32_t
 *
 _length
 const
@@ -4493,13 +4493,13 @@ Statement
 :
 GetSharedBlob
 (
-PRUint32
+uint32_t
 aIndex
-PRUint32
+uint32_t
 *
 _size
 const
-PRUint8
+uint8_t
 *
 *
 _blob
@@ -4522,7 +4522,7 @@ _blob
 static_cast
 <
 const
-PRUint8
+uint8_t
 *
 >
 (
@@ -4545,7 +4545,7 @@ Statement
 :
 GetIsNull
 (
-PRUint32
+uint32_t
 aIndex
 bool
 *
@@ -4571,7 +4571,7 @@ t
 have
 to
 .
-PRInt32
+int32_t
 type
 ;
 nsresult

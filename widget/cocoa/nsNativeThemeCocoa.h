@@ -203,7 +203,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 const
 nsRect
@@ -224,7 +224,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntMargin
 *
@@ -241,7 +241,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntMargin
 *
@@ -258,7 +258,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsRect
 *
@@ -274,7 +274,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntSize
 *
@@ -290,7 +290,7 @@ WidgetStateChanged
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIAtom
 *
@@ -314,14 +314,14 @@ aPresContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 ;
 bool
 WidgetIsContainer
 (
-PRUint8
+uint8_t
 aWidgetType
 )
 ;
@@ -334,7 +334,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 ;
@@ -350,7 +350,7 @@ GetWidgetTransparency
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 ;
@@ -525,11 +525,11 @@ bool
 inDirection
 bool
 inIsReverse
-PRInt32
+int32_t
 inCurrentValue
-PRInt32
+int32_t
 inMinValue
-PRInt32
+int32_t
 inMaxValue
 nsIFrame
 *
@@ -623,7 +623,7 @@ HIRect
 inBoxRect
 nsEventStates
 inState
-PRUint8
+uint8_t
 aWidgetType
 nsIFrame
 *

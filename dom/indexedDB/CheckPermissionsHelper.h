@@ -277,7 +277,7 @@ mPromptAllowed
 bool
 mHasPrompted
 ;
-PRUint32
+uint32_t
 mPromptResult
 ;
 }

@@ -812,7 +812,7 @@ aEvent
 {
 static
 const
-PRUint32
+uint32_t
 kOKKeyCodes
 [
 ]
@@ -905,7 +905,7 @@ GetShiftKey
 b
 )
 ;
-PRUint32
+uint32_t
 keyCode
 ;
 keyEvent
@@ -934,7 +934,7 @@ eEventAction_ShiftTab
 :
 eEventAction_Tab
 ;
-PRUint32
+uint32_t
 charCode
 ;
 keyEvent
@@ -975,7 +975,7 @@ eEventAction_Suppress
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

@@ -292,7 +292,7 @@ const
 nsACString
 &
 aHost
-PRInt32
+int32_t
 aPort
 nsACString
 &
@@ -310,7 +310,7 @@ const
 nsACString
 &
 aHost
-PRInt32
+int32_t
 aPort
 nsACString
 &
@@ -638,7 +638,7 @@ const
 nsACString
 &
 aHost
-PRInt32
+int32_t
 aPort
 const
 char
@@ -772,7 +772,7 @@ colon
 =
 pos
 ;
-PRInt32
+int32_t
 port
 =
 -
@@ -947,7 +947,7 @@ const
 nsACString
 &
 aHost
-PRInt32
+int32_t
 aPort
 nsACString
 &
@@ -1012,7 +1012,7 @@ const
 nsACString
 &
 aHost
-PRInt32
+int32_t
 aPort
 nsACString
 &
@@ -1260,7 +1260,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 proxyPort
 ;
 rv
@@ -1383,7 +1383,7 @@ port
 "
 )
 ;
-PRInt32
+int32_t
 port
 ;
 rv
@@ -1558,7 +1558,7 @@ IsEmpty
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 port
 ;
 rv
@@ -1650,7 +1650,7 @@ proxy_MaskIPv6Addr
 PRIPv6Addr
 &
 addr
-PRUint16
+uint16_t
 mask_len
 )
 {
@@ -2062,7 +2062,7 @@ nsCaseInsensitiveCStringComparator
 return
 true
 ;
-PRInt32
+int32_t
 mask
 =
 128
@@ -2249,7 +2249,7 @@ const
 nsACString
 &
 aHost
-PRInt32
+int32_t
 aPort
 nsACString
 &
@@ -2346,7 +2346,7 @@ ignoreList
 ignoreList
 )
 {
-PRUint32
+uint32_t
 len
 =
 0
@@ -2362,7 +2362,7 @@ len
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2665,7 +2665,7 @@ const
 nsACString
 &
 aHost
-PRInt32
+int32_t
 aPort
 nsACString
 &
@@ -2758,7 +2758,7 @@ ignoreList
 ignoreList
 )
 {
-PRUint32
+uint32_t
 len
 =
 0
@@ -2774,7 +2774,7 @@ len
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3133,7 +3133,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 port
 ;
 rv

@@ -625,7 +625,7 @@ return
 false
 ;
 }
-PRUint64
+uint64_t
 size
 ;
 if
@@ -903,7 +903,7 @@ return
 false
 ;
 }
-PRUint8
+uint8_t
 optionalArgc
 =
 aArgc
@@ -925,14 +925,14 @@ Slice
 (
 static_cast
 <
-PRUint64
+uint64_t
 >
 (
 start
 )
 static_cast
 <
-PRUint64
+uint64_t
 >
 (
 end

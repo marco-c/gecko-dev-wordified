@@ -260,7 +260,7 @@ AddRef
 {
 NS_PRECONDITION
 (
-PRInt32
+int32_t
 (
 refcount
 )
@@ -472,14 +472,14 @@ ToProvidedString
 chars
 )
 ;
-PRUint32
+uint32_t
 suffixLen
 =
 NSID_LENGTH
 -
 1
 ;
-PRUint32
+uint32_t
 prefixLen
 =
 ArrayLength
@@ -825,7 +825,7 @@ nsNullPrincipal
 :
 GetHashValue
 (
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -953,7 +953,7 @@ const
 char
 *
 aCapability
-PRInt16
+int16_t
 *
 aResult
 )
@@ -1584,7 +1584,7 @@ nsNullPrincipal
 :
 GetAppStatus
 (
-PRUint16
+uint16_t
 *
 aAppStatus
 )
@@ -1607,7 +1607,7 @@ nsNullPrincipal
 :
 GetAppId
 (
-PRUint32
+uint32_t
 *
 aAppId
 )

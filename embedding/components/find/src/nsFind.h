@@ -249,7 +249,7 @@ nsIWordBreaker
 >
 mWordBreaker
 ;
-PRInt32
+int32_t
 mIterOffset
 ;
 nsCOMPtr
@@ -392,12 +392,12 @@ InitIterator
 nsIDOMNode
 *
 aStartNode
-PRInt32
+int32_t
 aStartOffset
 nsIDOMNode
 *
 aEndNode
-PRInt32
+int32_t
 aEndOffset
 )
 ;

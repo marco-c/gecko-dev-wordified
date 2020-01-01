@@ -531,7 +531,7 @@ const
 nsStyleCorners
 &
 aRadius
-PRUint8
+uint8_t
 aFullCorner
 bool
 aIsBorder
@@ -716,7 +716,7 @@ nsIDOMCSSValue
 *
 GetBackgroundList
 (
-PRUint8
+uint8_t
 nsStyleBackground
 :
 :
@@ -725,14 +725,14 @@ Layer
 :
 *
 aMember
-PRUint32
+uint32_t
 nsStyleBackground
 :
 :
 *
 aCount
 const
-PRInt32
+int32_t
 aTable
 [
 ]
@@ -2449,7 +2449,7 @@ aPercentageBaseGetter
 =
 nullptr
 const
-PRInt32
+int32_t
 aTable
 [
 ]
@@ -2628,7 +2628,7 @@ ComputedStyleMapEntry
 *
 GetQueryablePropertyMap
 (
-PRUint32
+uint32_t
 *
 aLength
 )

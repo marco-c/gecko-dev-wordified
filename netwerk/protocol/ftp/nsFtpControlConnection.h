@@ -254,7 +254,7 @@ const
 char
 *
 data
-PRUint32
+uint32_t
 dataLen
 )
 =
@@ -319,7 +319,7 @@ const
 nsCSubstring
 &
 host
-PRUint32
+uint32_t
 port
 )
 ;
@@ -425,7 +425,7 @@ nsFtpControlConnectionListener
 listener
 )
 ;
-PRUint32
+uint32_t
 mServerType
 ;
 /
@@ -440,13 +440,13 @@ it
 nsString
 mPassword
 ;
-PRInt32
+int32_t
 mSuspendedWrite
 ;
 nsCString
 mPwd
 ;
-PRUint32
+uint32_t
 mSessionId
 ;
 private
@@ -454,7 +454,7 @@ private
 nsCString
 mHost
 ;
-PRUint32
+uint32_t
 mPort
 ;
 nsCOMPtr

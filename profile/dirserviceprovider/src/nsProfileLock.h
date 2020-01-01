@@ -353,7 +353,7 @@ otherwise
 nsresult
 GetReplacedLockTime
 (
-PRInt64
+int64_t
 *
 aResult
 )
@@ -363,7 +363,7 @@ private
 bool
 mHaveLock
 ;
-PRInt64
+int64_t
 mReplacedLockTime
 ;
 #

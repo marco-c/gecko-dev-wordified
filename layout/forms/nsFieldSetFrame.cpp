@@ -363,7 +363,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRUint32
+uint32_t
 aFlags
 )
 MOZ_OVERRIDE
@@ -430,7 +430,7 @@ const
 nsRect
 &
 aDirtyRect
-PRUint32
+uint32_t
 aBGFlags
 )
 ;
@@ -1447,7 +1447,7 @@ const
 nsRect
 &
 aDirtyRect
-PRUint32
+uint32_t
 aBGFlags
 )
 {
@@ -2066,7 +2066,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -3125,7 +3125,7 @@ mLegendRect
 width
 )
 {
-PRInt32
+int32_t
 align
 =
 static_cast

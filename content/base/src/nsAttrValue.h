@@ -698,14 +698,14 @@ aValue
 void
 SetTo
 (
-PRInt16
+int16_t
 aInt
 )
 ;
 void
 SetTo
 (
-PRInt32
+int32_t
 aInt
 const
 nsAString
@@ -1096,7 +1096,7 @@ GetAtomValue
 const
 ;
 inline
-PRInt32
+int32_t
 GetIntegerValue
 (
 )
@@ -1112,7 +1112,7 @@ aColor
 const
 ;
 inline
-PRInt16
+int16_t
 GetEnumValue
 (
 )
@@ -1261,7 +1261,7 @@ it
 handles
 that
 .
-PRUint32
+uint32_t
 GetAtomCount
 (
 )
@@ -1298,12 +1298,12 @@ nsIAtom
 *
 AtomAt
 (
-PRInt32
+int32_t
 aIndex
 )
 const
 ;
-PRUint32
+uint32_t
 HashValue
 (
 )
@@ -1623,7 +1623,7 @@ this
 string
 *
 /
-PRInt16
+int16_t
 value
 ;
 }
@@ -1963,9 +1963,9 @@ const
 nsAString
 &
 aString
-PRInt32
+int32_t
 aMin
-PRInt32
+int32_t
 aMax
 =
 PR_INT32_MAX
@@ -2510,16 +2510,16 @@ mStringBits
 ;
 union
 {
-PRInt32
+int32_t
 mInteger
 ;
 nscolor
 mColor
 ;
-PRUint32
+uint32_t
 mEnumValue
 ;
-PRInt32
+int32_t
 mPercent
 ;
 mozilla
@@ -2693,7 +2693,7 @@ EnumTable
 .
 *
 /
-PRInt16
+int16_t
 GetEnumTableIndex
 (
 const
@@ -2716,7 +2716,7 @@ aType
 void
 SetIntValueAndType
 (
-PRInt32
+int32_t
 aValue
 ValueType
 aType
@@ -2789,7 +2789,7 @@ GetMiscContainer
 const
 ;
 inline
-PRInt32
+int32_t
 GetIntInternal
 (
 )
@@ -2833,7 +2833,7 @@ with
 /
 aValue
 .
-PRInt32
+int32_t
 StringToInteger
 (
 const
@@ -2882,7 +2882,7 @@ we
 should
 store
 .
-PRInt32
+int32_t
 EnumTableEntryToValue
 (
 const
@@ -2986,7 +2986,7 @@ GetPtr
 ;
 }
 inline
-PRInt32
+int32_t
 nsAttrValue
 :
 :
@@ -3032,7 +3032,7 @@ mInteger
 ;
 }
 inline
-PRInt16
+int16_t
 nsAttrValue
 :
 :
@@ -3076,7 +3076,7 @@ re
 /
 returning
 an
-PRInt16
+int16_t
 which
 will
 cut
@@ -3088,7 +3088,7 @@ bits
 return
 static_cast
 <
-PRInt16
+int16_t
 >
 (
 (
@@ -3103,7 +3103,7 @@ eIntegerBase
 ?
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 GetIntInternal
@@ -3545,7 +3545,7 @@ GetPtr
 ;
 }
 inline
-PRInt32
+int32_t
 nsAttrValue
 :
 :
@@ -3607,7 +3607,7 @@ dependant
 return
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 mBits

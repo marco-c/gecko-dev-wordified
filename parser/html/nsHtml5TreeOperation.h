@@ -427,7 +427,7 @@ const
 nsACString
 &
 aString
-PRInt32
+int32_t
 aInt32
 )
 {
@@ -449,7 +449,7 @@ initializing
 "
 )
 ;
-PRInt32
+int32_t
 len
 =
 aString
@@ -483,7 +483,7 @@ BeginReading
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -545,9 +545,9 @@ const
 nsACString
 &
 aString
-PRInt32
+int32_t
 aInt32
-PRInt32
+int32_t
 aLineNumber
 )
 {
@@ -768,7 +768,7 @@ inline
 void
 Init
 (
-PRInt32
+int32_t
 aNamespace
 nsIAtom
 *
@@ -894,7 +894,7 @@ aOpCode
 PRUnichar
 *
 aBuffer
-PRInt32
+int32_t
 aLength
 nsIContent
 *
@@ -976,7 +976,7 @@ aOpCode
 PRUnichar
 *
 aBuffer
-PRInt32
+int32_t
 aLength
 nsIContent
 *
@@ -1048,7 +1048,7 @@ aOpCode
 PRUnichar
 *
 aBuffer
-PRInt32
+int32_t
 aLength
 )
 {
@@ -1350,7 +1350,7 @@ char
 aMsgId
 bool
 aError
-PRInt32
+int32_t
 aLineNumber
 )
 {
@@ -1462,7 +1462,7 @@ nsIContent
 *
 *
 aNode
-PRInt32
+int32_t
 aInt
 )
 {
@@ -1618,7 +1618,7 @@ nsIContent
 *
 aNode
 const
-PRInt32
+int32_t
 aLineNumber
 )
 {
@@ -1720,7 +1720,7 @@ SetSnapshot
 nsAHtml5TreeBuilderState
 *
 aSnapshot
-PRInt32
+int32_t
 aLine
 )
 {
@@ -1840,7 +1840,7 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 nsIContent
 *
@@ -1857,7 +1857,7 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 nsIContent
 *
@@ -1961,7 +1961,7 @@ nsAHtml5TreeBuilderState
 *
 state
 ;
-PRInt32
+int32_t
 integer
 ;
 }

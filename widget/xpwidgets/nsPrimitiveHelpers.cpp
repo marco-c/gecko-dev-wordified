@@ -411,7 +411,7 @@ aFlavor
 void
 *
 aDataBuff
-PRUint32
+uint32_t
 aDataLen
 nsISupports
 *
@@ -747,7 +747,7 @@ void
 *
 *
 aDataBuff
-PRUint32
+uint32_t
 aDataLen
 )
 {
@@ -941,13 +941,13 @@ ConvertUnicodeToPlatformPlainText
 PRUnichar
 *
 inUnicode
-PRInt32
+int32_t
 inUnicodeLen
 char
 *
 *
 outPlainTextData
-PRInt32
+int32_t
 *
 outPlainTextLen
 )
@@ -1233,13 +1233,13 @@ const
 char
 *
 inText
-PRInt32
+int32_t
 inTextLen
 PRUnichar
 *
 *
 outUnicode
-PRInt32
+int32_t
 *
 outUnicodeLen
 )
@@ -1693,7 +1693,7 @@ void
 *
 *
 ioData
-PRInt32
+int32_t
 *
 ioLengthInBytes
 )
@@ -1892,7 +1892,7 @@ oldBuffer
 =
 buffAsUnichar
 ;
-PRInt32
+int32_t
 newLengthInChars
 ;
 retVal

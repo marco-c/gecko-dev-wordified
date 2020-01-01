@@ -1106,7 +1106,7 @@ FindChildByTag
 nsIContent
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1510,7 +1510,7 @@ if
 dateLiteral
 )
 {
-PRInt64
+int64_t
 value
 ;
 rv
@@ -1598,7 +1598,7 @@ if
 intLiteral
 )
 {
-PRInt32
+int32_t
 value
 ;
 rv
@@ -2099,7 +2099,7 @@ nsXULContentUtils
 :
 GetResource
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -2163,7 +2163,7 @@ nsXULContentUtils
 :
 GetResource
 (
-PRInt32
+int32_t
 aNameSpaceID
 const
 nsAString

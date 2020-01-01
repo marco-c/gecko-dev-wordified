@@ -145,7 +145,7 @@ aShell
 nsStyleContext
 *
 aContext
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -455,7 +455,7 @@ outFrames
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

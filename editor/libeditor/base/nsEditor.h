@@ -323,9 +323,9 @@ h
 /
 /
 for
-PRInt32
-PRUint32
-PRInt8
+int32_t
+uint32_t
+int8_t
 etc
 class
 AddStyleSheetTxn
@@ -511,10 +511,10 @@ TRUE
 /
 This
 is
-PRInt32
+int32_t
 instead
 of
-PRInt16
+int16_t
 because
 nsIInlineSpellChecker
 .
@@ -536,7 +536,7 @@ long
 MOZ_BEGIN_ENUM_CLASS
 (
 EditAction
-PRInt32
+int32_t
 )
 ignore
 =
@@ -1033,7 +1033,7 @@ nsIDOMNode
 >
 *
 aInOutNode
-PRInt32
+int32_t
 *
 aInOutOffset
 nsIDOMDocument
@@ -1051,7 +1051,7 @@ aStringToInsert
 nsIDOMCharacterData
 *
 aTextNode
-PRInt32
+int32_t
 aOffset
 bool
 aSuppressIME
@@ -1272,7 +1272,7 @@ aNode
 nsINode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 )
 ;
@@ -1285,7 +1285,7 @@ aNode
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 )
 ;
@@ -1378,7 +1378,7 @@ EndIMEComposition
 void
 SwitchTextDirectionTo
 (
-PRUint32
+uint32_t
 aDirection
 )
 ;
@@ -1483,7 +1483,7 @@ aTag
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aPosition
 CreateElementTxn
 *
@@ -1517,7 +1517,7 @@ aNode
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 InsertElementTxn
 *
@@ -1565,10 +1565,10 @@ nsINode
 *
 *
 aNode
-PRInt32
+int32_t
 *
 aOffset
-PRInt32
+int32_t
 *
 aLength
 )
@@ -1588,10 +1588,10 @@ nsINode
 *
 *
 aNode
-PRInt32
+int32_t
 *
 aOffset
-PRInt32
+int32_t
 *
 aLength
 )
@@ -1633,7 +1633,7 @@ aStringToInsert
 nsIDOMCharacterData
 *
 aTextNode
-PRInt32
+int32_t
 aOffset
 InsertTextTxn
 *
@@ -1710,9 +1710,9 @@ DeleteText
 nsIDOMCharacterData
 *
 aElement
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -1732,9 +1732,9 @@ CreateTxnForDeleteText
 nsIDOMCharacterData
 *
 aElement
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aLength
 DeleteTextTxn
 *
@@ -1748,7 +1748,7 @@ CreateTxnForDeleteCharacter
 nsIDOMCharacterData
 *
 aData
-PRUint32
+uint32_t
 aOffset
 EDirection
 aDirection
@@ -1764,7 +1764,7 @@ CreateTxnForSplitNode
 nsIDOMNode
 *
 aNode
-PRUint32
+uint32_t
 aOffset
 SplitElementTxn
 *
@@ -2472,7 +2472,7 @@ SplitNodeImpl
 nsIDOMNode
 *
 aExistingRightNode
-PRInt32
+int32_t
 aOffset
 nsIDOMNode
 *
@@ -2622,7 +2622,7 @@ parent
 *
 /
 static
-PRInt32
+int32_t
 GetChildOffset
 (
 nsIDOMNode
@@ -2667,7 +2667,7 @@ GetNodeLocation
 nsIDOMNode
 *
 aChild
-PRInt32
+int32_t
 *
 outOffset
 )
@@ -2742,7 +2742,7 @@ GetLengthOfDOMNode
 nsIDOMNode
 *
 aNode
-PRUint32
+uint32_t
 &
 aCount
 )
@@ -2894,7 +2894,7 @@ GetPriorNode
 nsIDOMNode
 *
 aParentNode
-PRInt32
+int32_t
 aOffset
 bool
 aEditableNode
@@ -2917,7 +2917,7 @@ GetPriorNode
 nsINode
 *
 aParentNode
-PRInt32
+int32_t
 aOffset
 bool
 aEditableNode
@@ -3056,7 +3056,7 @@ GetNextNode
 nsIDOMNode
 *
 aParentNode
-PRInt32
+int32_t
 aOffset
 bool
 aEditableNode
@@ -3079,7 +3079,7 @@ GetNextNode
 nsINode
 *
 aParentNode
-PRInt32
+int32_t
 aOffset
 bool
 aEditableNode
@@ -3504,7 +3504,7 @@ child
 nodes
 *
 /
-PRUint32
+uint32_t
 CountEditableChildren
 (
 nsINode
@@ -3534,7 +3534,7 @@ nsINode
 aRoot
 )
 ;
-PRInt32
+int32_t
 GetIMEBufferLength
 (
 )
@@ -3658,7 +3658,7 @@ GetChildAt
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 )
 ;
@@ -3672,7 +3672,7 @@ GetNodeAtRangeOffsetPoint
 nsIDOMNode
 *
 aParentOrNode
-PRInt32
+int32_t
 aOffset
 )
 ;
@@ -3687,7 +3687,7 @@ nsIDOMNode
 *
 *
 outStartNode
-PRInt32
+int32_t
 *
 outStartOffset
 )
@@ -3703,7 +3703,7 @@ nsIDOMNode
 *
 *
 outEndNode
-PRInt32
+int32_t
 *
 outEndOffset
 )
@@ -3718,7 +3718,7 @@ DumpNode
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 indent
 =
 0
@@ -3760,12 +3760,12 @@ CreateRange
 nsIDOMNode
 *
 aStartParent
-PRInt32
+int32_t
 aStartOffset
 nsIDOMNode
 *
 aEndParent
-PRInt32
+int32_t
 aEndOffset
 nsIDOMRange
 *
@@ -3837,9 +3837,9 @@ aNode
 nsIDOMNode
 *
 aSplitPointParent
-PRInt32
+int32_t
 aSplitPointOffset
-PRInt32
+int32_t
 *
 outOffset
 bool
@@ -3879,7 +3879,7 @@ nsIDOMNode
 >
 *
 aOutJoinNode
-PRInt32
+int32_t
 *
 outOffset
 )
@@ -3934,17 +3934,17 @@ aSelection
 nsIDOMNode
 *
 previousSelectedNode
-PRInt32
+int32_t
 previousSelectedOffset
 nsIDOMNode
 *
 aStartNode
-PRInt32
+int32_t
 aStartOffset
 nsIDOMNode
 *
 aEndNode
-PRInt32
+int32_t
 aEndOffset
 )
 ;
@@ -4685,7 +4685,7 @@ InsertFromDataTransfer
 nsIDOMDataTransfer
 *
 aDataTransfer
-PRInt32
+int32_t
 aIndex
 nsIDOMDocument
 *
@@ -4693,7 +4693,7 @@ aSourceDoc
 nsIDOMNode
 *
 aDestinationNode
-PRInt32
+int32_t
 aDestOffset
 bool
 aDoDeleteSelection
@@ -5128,7 +5128,7 @@ for
 maintaining
 preserved
 ranges
-PRUint32
+uint32_t
 mModCount
 ;
 /
@@ -5143,7 +5143,7 @@ undo
 redo
 stack
 )
-PRUint32
+uint32_t
 mFlags
 ;
 /
@@ -5161,10 +5161,10 @@ flags
 we
 use
 .
-PRInt32
+int32_t
 mUpdateCount
 ;
-PRInt32
+int32_t
 mPlaceHolderBatch
 ;
 /
@@ -5182,10 +5182,10 @@ the
 current
 editor
 action
-PRUint32
+uint32_t
 mHandlingActionCount
 ;
-PRUint32
+uint32_t
 mIMETextOffset
 ;
 /
@@ -5199,7 +5199,7 @@ IME
 comp
 string
 begins
-PRUint32
+uint32_t
 mIMEBufferLength
 ;
 /
@@ -5221,7 +5221,7 @@ direction
 of
 editor
 action
-PRInt8
+int8_t
 mDocDirtyState
 ;
 /
@@ -5231,7 +5231,7 @@ mDocDirtyState
 =
 not
 initialized
-PRUint8
+uint8_t
 mSpellcheckCheckboxState
 ;
 /

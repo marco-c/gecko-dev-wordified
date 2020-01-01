@@ -133,7 +133,7 @@ endif
 /
 /
 nsAString
-PRUint32
+uint32_t
 nsAString
 :
 :
@@ -152,7 +152,7 @@ end
 )
 const
 {
-PRUint32
+uint32_t
 len
 =
 NS_StringGetData
@@ -228,7 +228,7 @@ char_type
 *
 data
 ;
-PRUint32
+uint32_t
 len
 =
 NS_StringGetData
@@ -245,7 +245,7 @@ data
 len
 ;
 }
-PRUint32
+uint32_t
 nsAString
 :
 :
@@ -259,11 +259,11 @@ char_type
 *
 *
 end
-PRUint32
+uint32_t
 newSize
 )
 {
-PRUint32
+uint32_t
 len
 =
 NS_StringGetMutableData
@@ -300,7 +300,7 @@ nsAString
 :
 BeginWriting
 (
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -337,7 +337,7 @@ char_type
 *
 data
 ;
-PRUint32
+uint32_t
 len
 =
 NS_StringGetMutableData
@@ -361,7 +361,7 @@ nsAString
 :
 SetLength
 (
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -397,7 +397,7 @@ char
 aStr
 )
 {
-PRUint32
+uint32_t
 len
 =
 strlen
@@ -453,7 +453,7 @@ char
 aASCIIStr
 )
 {
-PRUint32
+uint32_t
 appendLen
 =
 strlen
@@ -461,7 +461,7 @@ strlen
 aASCIIStr
 )
 ;
-PRUint32
+uint32_t
 thisLen
 =
 Length
@@ -691,7 +691,7 @@ start
 *
 end
 ;
-PRUint32
+uint32_t
 cutLen
 ;
 if
@@ -785,7 +785,7 @@ if
 aTrailing
 )
 {
-PRUint32
+uint32_t
 len
 =
 BeginReading
@@ -877,7 +877,7 @@ cutLen
 }
 }
 }
-PRInt32
+int32_t
 nsAString
 :
 :
@@ -891,7 +891,7 @@ const
 char_type
 *
 b
-PRUint32
+uint32_t
 len
 )
 {
@@ -946,7 +946,7 @@ return
 0
 ;
 }
-PRInt32
+int32_t
 nsAString
 :
 :
@@ -966,7 +966,7 @@ char_type
 *
 cself
 ;
-PRUint32
+uint32_t
 selflen
 =
 NS_StringGetData
@@ -977,7 +977,7 @@ this
 cself
 )
 ;
-PRUint32
+uint32_t
 otherlen
 =
 NS_strlen
@@ -985,7 +985,7 @@ NS_strlen
 other
 )
 ;
-PRUint32
+uint32_t
 comparelen
 =
 selflen
@@ -997,7 +997,7 @@ selflen
 :
 otherlen
 ;
-PRInt32
+int32_t
 result
 =
 c
@@ -1040,7 +1040,7 @@ return
 result
 ;
 }
-PRInt32
+int32_t
 nsAString
 :
 :
@@ -1062,7 +1062,7 @@ cself
 *
 cother
 ;
-PRUint32
+uint32_t
 selflen
 =
 NS_StringGetData
@@ -1073,7 +1073,7 @@ this
 cself
 )
 ;
-PRUint32
+uint32_t
 otherlen
 =
 NS_StringGetData
@@ -1083,7 +1083,7 @@ other
 cother
 )
 ;
-PRUint32
+uint32_t
 comparelen
 =
 selflen
@@ -1095,7 +1095,7 @@ selflen
 :
 otherlen
 ;
-PRInt32
+int32_t
 result
 =
 c
@@ -1158,7 +1158,7 @@ char_type
 *
 cself
 ;
-PRUint32
+uint32_t
 selflen
 =
 NS_StringGetData
@@ -1169,7 +1169,7 @@ this
 cself
 )
 ;
-PRUint32
+uint32_t
 otherlen
 =
 NS_strlen
@@ -1224,7 +1224,7 @@ char_type
 *
 cother
 ;
-PRUint32
+uint32_t
 selflen
 =
 NS_StringGetData
@@ -1235,7 +1235,7 @@ this
 cself
 )
 ;
-PRUint32
+uint32_t
 otherlen
 =
 NS_StringGetData
@@ -1440,7 +1440,7 @@ aASCIIString
 '
 ;
 }
-PRInt32
+int32_t
 nsAString
 :
 :
@@ -1450,7 +1450,7 @@ const
 self_type
 &
 aStr
-PRUint32
+uint32_t
 aOffset
 ComparatorFunc
 c
@@ -1464,7 +1464,7 @@ begin
 *
 end
 ;
-PRUint32
+uint32_t
 selflen
 =
 BeginReading
@@ -1490,7 +1490,7 @@ char_type
 *
 other
 ;
-PRUint32
+uint32_t
 otherlen
 =
 aStr
@@ -1587,7 +1587,7 @@ const
 char
 *
 aSubstring
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -1651,7 +1651,7 @@ const
 char
 *
 aSubstring
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -1709,7 +1709,7 @@ return
 true
 ;
 }
-PRInt32
+int32_t
 nsAString
 :
 :
@@ -1719,7 +1719,7 @@ const
 char
 *
 aStr
-PRUint32
+uint32_t
 aOffset
 bool
 aIgnoreCase
@@ -1738,7 +1738,7 @@ PRUnichar
 const
 char
 *
-PRUint32
+uint32_t
 )
 =
 aIgnoreCase
@@ -1754,7 +1754,7 @@ begin
 *
 end
 ;
-PRUint32
+uint32_t
 selflen
 =
 BeginReading
@@ -1775,7 +1775,7 @@ return
 -
 1
 ;
-PRUint32
+uint32_t
 otherlen
 =
 strlen
@@ -1858,7 +1858,7 @@ return
 1
 ;
 }
-PRInt32
+int32_t
 nsAString
 :
 :
@@ -1868,7 +1868,7 @@ const
 self_type
 &
 aStr
-PRInt32
+int32_t
 aOffset
 ComparatorFunc
 c
@@ -1882,7 +1882,7 @@ begin
 *
 end
 ;
-PRUint32
+uint32_t
 selflen
 =
 BeginReading
@@ -1898,7 +1898,7 @@ char_type
 *
 other
 ;
-PRUint32
+uint32_t
 otherlen
 =
 aStr
@@ -1926,7 +1926,7 @@ aOffset
 0
 |
 |
-PRUint32
+uint32_t
 (
 aOffset
 )
@@ -1989,7 +1989,7 @@ return
 1
 ;
 }
-PRInt32
+int32_t
 nsAString
 :
 :
@@ -1999,7 +1999,7 @@ const
 char
 *
 aStr
-PRInt32
+int32_t
 aOffset
 bool
 aIgnoreCase
@@ -2018,7 +2018,7 @@ PRUnichar
 const
 char
 *
-PRUint32
+uint32_t
 )
 =
 aIgnoreCase
@@ -2034,7 +2034,7 @@ begin
 *
 end
 ;
-PRUint32
+uint32_t
 selflen
 =
 BeginReading
@@ -2045,7 +2045,7 @@ begin
 end
 )
 ;
-PRUint32
+uint32_t
 otherlen
 =
 strlen
@@ -2070,7 +2070,7 @@ aOffset
 0
 |
 |
-PRUint32
+uint32_t
 (
 aOffset
 )
@@ -2134,7 +2134,7 @@ return
 1
 ;
 }
-PRInt32
+int32_t
 nsAString
 :
 :
@@ -2142,7 +2142,7 @@ FindChar
 (
 char_type
 aChar
-PRUint32
+uint32_t
 aOffset
 )
 const
@@ -2154,7 +2154,7 @@ start
 *
 end
 ;
-PRUint32
+uint32_t
 len
 =
 BeginReading
@@ -2216,7 +2216,7 @@ return
 1
 ;
 }
-PRInt32
+int32_t
 nsAString
 :
 :
@@ -2283,7 +2283,7 @@ AppendInt
 (
 int
 aInt
-PRInt32
+int32_t
 aRadix
 )
 {
@@ -2401,7 +2401,7 @@ Strings
 #
 ifndef
 XPCOM_GLUE_AVOID_NSPR
-PRInt32
+int32_t
 nsAString
 :
 :
@@ -2410,7 +2410,7 @@ ToInteger
 nsresult
 *
 aErrorCode
-PRUint32
+uint32_t
 aRadix
 )
 const
@@ -2476,7 +2476,7 @@ return
 0
 ;
 }
-PRInt32
+int32_t
 result
 =
 0
@@ -2521,7 +2521,7 @@ XPCOM_GLUE_AVOID_NSPR
 /
 /
 nsACString
-PRUint32
+uint32_t
 nsACString
 :
 :
@@ -2540,7 +2540,7 @@ end
 )
 const
 {
-PRUint32
+uint32_t
 len
 =
 NS_CStringGetData
@@ -2616,7 +2616,7 @@ char_type
 *
 data
 ;
-PRUint32
+uint32_t
 len
 =
 NS_CStringGetData
@@ -2633,7 +2633,7 @@ data
 len
 ;
 }
-PRUint32
+uint32_t
 nsACString
 :
 :
@@ -2647,11 +2647,11 @@ char_type
 *
 *
 end
-PRUint32
+uint32_t
 newSize
 )
 {
-PRUint32
+uint32_t
 len
 =
 NS_CStringGetMutableData
@@ -2688,7 +2688,7 @@ nsACString
 :
 BeginWriting
 (
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -2725,7 +2725,7 @@ char_type
 *
 data
 ;
-PRUint32
+uint32_t
 len
 =
 NS_CStringGetMutableData
@@ -2749,7 +2749,7 @@ nsACString
 :
 SetLength
 (
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -2947,7 +2947,7 @@ start
 *
 end
 ;
-PRUint32
+uint32_t
 cutLen
 ;
 if
@@ -3041,7 +3041,7 @@ if
 aTrailing
 )
 {
-PRUint32
+uint32_t
 len
 =
 BeginReading
@@ -3133,7 +3133,7 @@ cutLen
 }
 }
 }
-PRInt32
+int32_t
 nsACString
 :
 :
@@ -3147,7 +3147,7 @@ const
 char_type
 *
 b
-PRUint32
+uint32_t
 len
 )
 {
@@ -3160,7 +3160,7 @@ len
 )
 ;
 }
-PRInt32
+int32_t
 nsACString
 :
 :
@@ -3180,7 +3180,7 @@ char_type
 *
 cself
 ;
-PRUint32
+uint32_t
 selflen
 =
 NS_CStringGetData
@@ -3191,7 +3191,7 @@ this
 cself
 )
 ;
-PRUint32
+uint32_t
 otherlen
 =
 strlen
@@ -3199,7 +3199,7 @@ strlen
 other
 )
 ;
-PRUint32
+uint32_t
 comparelen
 =
 selflen
@@ -3211,7 +3211,7 @@ selflen
 :
 otherlen
 ;
-PRInt32
+int32_t
 result
 =
 c
@@ -3254,7 +3254,7 @@ return
 result
 ;
 }
-PRInt32
+int32_t
 nsACString
 :
 :
@@ -3276,7 +3276,7 @@ cself
 *
 cother
 ;
-PRUint32
+uint32_t
 selflen
 =
 NS_CStringGetData
@@ -3287,7 +3287,7 @@ this
 cself
 )
 ;
-PRUint32
+uint32_t
 otherlen
 =
 NS_CStringGetData
@@ -3297,7 +3297,7 @@ other
 cother
 )
 ;
-PRUint32
+uint32_t
 comparelen
 =
 selflen
@@ -3309,7 +3309,7 @@ selflen
 :
 otherlen
 ;
-PRInt32
+int32_t
 result
 =
 c
@@ -3372,7 +3372,7 @@ char_type
 *
 cself
 ;
-PRUint32
+uint32_t
 selflen
 =
 NS_CStringGetData
@@ -3383,7 +3383,7 @@ this
 cself
 )
 ;
-PRUint32
+uint32_t
 otherlen
 =
 strlen
@@ -3438,7 +3438,7 @@ char_type
 *
 cother
 ;
-PRUint32
+uint32_t
 selflen
 =
 NS_CStringGetData
@@ -3449,7 +3449,7 @@ this
 cself
 )
 ;
-PRUint32
+uint32_t
 otherlen
 =
 NS_CStringGetData
@@ -3481,7 +3481,7 @@ selflen
 0
 ;
 }
-PRInt32
+int32_t
 nsACString
 :
 :
@@ -3491,7 +3491,7 @@ const
 self_type
 &
 aStr
-PRUint32
+uint32_t
 aOffset
 ComparatorFunc
 c
@@ -3505,7 +3505,7 @@ begin
 *
 end
 ;
-PRUint32
+uint32_t
 selflen
 =
 BeginReading
@@ -3531,7 +3531,7 @@ char_type
 *
 other
 ;
-PRUint32
+uint32_t
 otherlen
 =
 aStr
@@ -3616,7 +3616,7 @@ return
 1
 ;
 }
-PRInt32
+int32_t
 nsACString
 :
 :
@@ -3643,7 +3643,7 @@ c
 )
 ;
 }
-PRInt32
+int32_t
 nsACString
 :
 :
@@ -3653,7 +3653,7 @@ const
 char_type
 *
 aStr
-PRUint32
+uint32_t
 aLen
 ComparatorFunc
 c
@@ -3667,7 +3667,7 @@ begin
 *
 end
 ;
-PRUint32
+uint32_t
 selflen
 =
 BeginReading
@@ -3774,7 +3774,7 @@ return
 1
 ;
 }
-PRInt32
+int32_t
 nsACString
 :
 :
@@ -3784,7 +3784,7 @@ const
 self_type
 &
 aStr
-PRInt32
+int32_t
 aOffset
 ComparatorFunc
 c
@@ -3798,7 +3798,7 @@ begin
 *
 end
 ;
-PRUint32
+uint32_t
 selflen
 =
 BeginReading
@@ -3814,7 +3814,7 @@ char_type
 *
 other
 ;
-PRUint32
+uint32_t
 otherlen
 =
 aStr
@@ -3842,7 +3842,7 @@ aOffset
 0
 |
 |
-PRUint32
+uint32_t
 (
 aOffset
 )
@@ -3905,7 +3905,7 @@ return
 1
 ;
 }
-PRInt32
+int32_t
 nsACString
 :
 :
@@ -3932,7 +3932,7 @@ c
 )
 ;
 }
-PRInt32
+int32_t
 nsACString
 :
 :
@@ -3942,7 +3942,7 @@ const
 char_type
 *
 aStr
-PRInt32
+int32_t
 aLen
 ComparatorFunc
 c
@@ -3956,7 +3956,7 @@ begin
 *
 end
 ;
-PRUint32
+uint32_t
 selflen
 =
 BeginReading
@@ -3995,7 +3995,7 @@ return
 }
 if
 (
-PRUint32
+uint32_t
 (
 aLen
 )
@@ -4066,7 +4066,7 @@ return
 1
 ;
 }
-PRInt32
+int32_t
 nsACString
 :
 :
@@ -4074,7 +4074,7 @@ FindChar
 (
 char_type
 aChar
-PRUint32
+uint32_t
 aOffset
 )
 const
@@ -4086,7 +4086,7 @@ start
 *
 end
 ;
-PRUint32
+uint32_t
 len
 =
 BeginReading
@@ -4148,7 +4148,7 @@ return
 1
 ;
 }
-PRInt32
+int32_t
 nsACString
 :
 :
@@ -4214,7 +4214,7 @@ AppendInt
 (
 int
 aInt
-PRInt32
+int32_t
 aRadix
 )
 {
@@ -4326,7 +4326,7 @@ len
 #
 ifndef
 XPCOM_GLUE_AVOID_NSPR
-PRInt32
+int32_t
 nsACString
 :
 :
@@ -4335,7 +4335,7 @@ ToInteger
 nsresult
 *
 aErrorCode
-PRUint32
+uint32_t
 aRadix
 )
 const
@@ -4394,7 +4394,7 @@ return
 0
 ;
 }
-PRInt32
+int32_t
 result
 =
 0
@@ -4452,7 +4452,7 @@ const
 abstract_string_type
 &
 aStr
-PRUint32
+uint32_t
 aStartPos
 )
 {
@@ -4461,7 +4461,7 @@ PRUnichar
 *
 data
 ;
-PRUint32
+uint32_t
 len
 =
 NS_StringGetData
@@ -4506,9 +4506,9 @@ const
 abstract_string_type
 &
 aStr
-PRUint32
+uint32_t
 aStartPos
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -4517,7 +4517,7 @@ PRUnichar
 *
 data
 ;
-PRUint32
+uint32_t
 len
 =
 NS_StringGetData
@@ -4574,7 +4574,7 @@ const
 abstract_string_type
 &
 aStr
-PRUint32
+uint32_t
 aStartPos
 )
 {
@@ -4583,7 +4583,7 @@ char
 *
 data
 ;
-PRUint32
+uint32_t
 len
 =
 NS_CStringGetData
@@ -4628,9 +4628,9 @@ const
 abstract_string_type
 &
 aStr
-PRUint32
+uint32_t
 aStartPos
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -4639,7 +4639,7 @@ char
 *
 data
 ;
-PRUint32
+uint32_t
 len
 =
 NS_CStringGetData
@@ -4728,7 +4728,7 @@ PRUnichar
 *
 start
 ;
-PRUint32
+uint32_t
 len
 =
 NS_StringGetMutableData
@@ -4911,7 +4911,7 @@ start
 )
 ;
 }
-PRUint32
+uint32_t
 ToLowerCase
 (
 nsACString
@@ -4925,7 +4925,7 @@ begin
 *
 end
 ;
-PRUint32
+uint32_t
 len
 =
 aStr
@@ -4964,7 +4964,7 @@ return
 len
 ;
 }
-PRUint32
+uint32_t
 ToUpperCase
 (
 nsACString
@@ -4978,7 +4978,7 @@ begin
 *
 end
 ;
-PRUint32
+uint32_t
 len
 =
 aStr
@@ -5017,7 +5017,7 @@ return
 len
 ;
 }
-PRUint32
+uint32_t
 ToLowerCase
 (
 const
@@ -5036,7 +5036,7 @@ begin
 *
 end
 ;
-PRUint32
+uint32_t
 len
 =
 aSrc
@@ -5090,7 +5090,7 @@ return
 len
 ;
 }
-PRUint32
+uint32_t
 ToUpperCase
 (
 const
@@ -5109,7 +5109,7 @@ begin
 *
 end
 ;
-PRUint32
+uint32_t
 len
 =
 aSrc
@@ -5163,7 +5163,7 @@ return
 len
 ;
 }
-PRInt32
+int32_t
 CaseInsensitiveCompare
 (
 const
@@ -5174,7 +5174,7 @@ const
 char
 *
 b
-PRUint32
+uint32_t
 len
 )
 {
@@ -5260,12 +5260,12 @@ nsCString
 aArray
 )
 {
-PRInt32
+int32_t
 start
 =
 0
 ;
-PRInt32
+int32_t
 end
 =
 aSource
@@ -5274,7 +5274,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 oldLength
 =
 aArray
@@ -5289,7 +5289,7 @@ for
 ;
 )
 {
-PRInt32
+int32_t
 delimiter
 =
 aSource

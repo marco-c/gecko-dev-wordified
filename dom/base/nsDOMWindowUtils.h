@@ -271,11 +271,11 @@ float
 aX
 float
 aY
-PRInt32
+int32_t
 aButton
-PRInt32
+int32_t
 aClickCount
-PRInt32
+int32_t
 aModifiers
 bool
 aIgnoreRootScrollFrame
@@ -298,7 +298,7 @@ widget
 Modifiers
 GetWidgetModifiers
 (
-PRInt32
+int32_t
 aModifiers
 )
 ;

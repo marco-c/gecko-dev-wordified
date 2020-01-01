@@ -768,7 +768,7 @@ it
 s
 called
 .
-PRUint32
+uint32_t
 oldLockCount
 =
 mLockCount
@@ -793,7 +793,7 @@ requests
 undo
 them
 .
-PRUint32
+uint32_t
 oldAnimationConsumers
 =
 mAnimationConsumers
@@ -849,7 +849,7 @@ locks
 here
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -894,7 +894,7 @@ below
 )
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1021,7 +1021,7 @@ bug
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2298,7 +2298,7 @@ imgRequestProxy
 :
 GetImageStatus
 (
-PRUint32
+uint32_t
 *
 aStatus
 )
@@ -2818,7 +2818,7 @@ NS_OK
 *
 readonly
 attribute
-PRInt32
+int32_t
 CORSMode
 ;
 *
@@ -2829,7 +2829,7 @@ imgRequestProxy
 :
 GetCORSMode
 (
-PRInt32
+int32_t
 *
 aCorsMode
 )
@@ -2870,7 +2870,7 @@ imgRequestProxy
 :
 GetPriority
 (
-PRInt32
+int32_t
 *
 priority
 )
@@ -2900,7 +2900,7 @@ imgRequestProxy
 :
 SetPriority
 (
-PRInt32
+int32_t
 priority
 )
 {
@@ -2939,7 +2939,7 @@ imgRequestProxy
 :
 AdjustPriority
 (
-PRInt32
+int32_t
 priority
 )
 {
@@ -3291,7 +3291,7 @@ imgRequestProxy
 :
 OnStartFrame
 (
-PRUint32
+uint32_t
 frame
 )
 {
@@ -3428,7 +3428,7 @@ imgRequestProxy
 :
 OnStopFrame
 (
-PRUint32
+uint32_t
 frame
 )
 {
@@ -4537,12 +4537,12 @@ from
 this
 image
 .
-PRInt32
+int32_t
 w
 =
 0
 ;
-PRInt32
+int32_t
 h
 =
 0
@@ -4984,7 +4984,7 @@ we
 have
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5014,7 +5014,7 @@ we
 have
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

@@ -205,7 +205,7 @@ kNameSpaceID_None
 }
 txExpandedName
 (
-PRInt32
+int32_t
 aNsID
 nsIAtom
 *
@@ -386,7 +386,7 @@ mNamespaceID
 )
 ;
 }
-PRInt32
+int32_t
 mNamespaceID
 ;
 nsCOMPtr
@@ -418,7 +418,7 @@ nsIAtom
 *
 *
 aLocalName
-PRInt32
+int32_t
 *
 aNameSpaceID
 )

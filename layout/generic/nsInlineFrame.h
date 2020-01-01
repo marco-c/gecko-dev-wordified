@@ -363,7 +363,7 @@ virtual
 bool
 IsFrameOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -418,7 +418,7 @@ PeekOffsetCharacter
 (
 bool
 aForward
-PRInt32
+int32_t
 *
 aOffset
 bool
@@ -472,7 +472,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRUint32
+uint32_t
 aFlags
 )
 MOZ_OVERRIDE

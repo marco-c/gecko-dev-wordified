@@ -298,7 +298,7 @@ hashtable
 *
 for
 example
-PRUint32
+uint32_t
 or
 nsCOMPtr
 .
@@ -323,7 +323,7 @@ user
 sees
 for
 example
-PRUint32
+uint32_t
 or
 nsISupports
 *
@@ -427,7 +427,7 @@ properly
 void
 Init
 (
-PRUint32
+uint32_t
 initSize
 =
 PL_DHASH_MIN_SIZE
@@ -467,7 +467,7 @@ fallible_t
 bool
 Init
 (
-PRUint32
+uint32_t
 initSize
 const
 fallible_t
@@ -562,7 +562,7 @@ of
 entries
 *
 /
-PRUint32
+uint32_t
 Count
 (
 )
@@ -1054,7 +1054,7 @@ the
 EnumReadFunction
 *
 /
-PRUint32
+uint32_t
 EnumerateRead
 (
 EnumReadFunction
@@ -1250,7 +1250,7 @@ the
 EnumFunction
 *
 /
-PRUint32
+uint32_t
 Enumerate
 (
 EnumFunction
@@ -1770,7 +1770,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -1799,7 +1799,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -1951,7 +1951,7 @@ nsBaseHashtableMT
 void
 Init
 (
-PRUint32
+uint32_t
 initSize
 =
 PL_DHASH_MIN_SIZE
@@ -1970,7 +1970,7 @@ mLock
 nullptr
 ;
 }
-PRUint32
+uint32_t
 Count
 (
 )
@@ -2003,7 +2003,7 @@ KeyType
 aKey
 )
 ;
-PRUint32
+uint32_t
 EnumerateRead
 (
 EnumReadFunction
@@ -2014,7 +2014,7 @@ userArg
 )
 const
 ;
-PRUint32
+uint32_t
 Enumerate
 (
 EnumFunction
@@ -2162,7 +2162,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -2277,7 +2277,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -2480,7 +2480,7 @@ UserDataType
 :
 Init
 (
-PRUint32
+uint32_t
 initSize
 )
 {
@@ -2542,7 +2542,7 @@ DataType
 class
 UserDataType
 >
-PRUint32
+uint32_t
 nsBaseHashtableMT
 <
 KeyClass
@@ -2564,7 +2564,7 @@ this
 mLock
 )
 ;
-PRUint32
+uint32_t
 count
 =
 nsTHashtable
@@ -2774,7 +2774,7 @@ DataType
 class
 UserDataType
 >
-PRUint32
+uint32_t
 nsBaseHashtableMT
 <
 KeyClass
@@ -2801,7 +2801,7 @@ this
 mLock
 )
 ;
-PRUint32
+uint32_t
 count
 =
 nsBaseHashtable
@@ -2839,7 +2839,7 @@ DataType
 class
 UserDataType
 >
-PRUint32
+uint32_t
 nsBaseHashtableMT
 <
 KeyClass
@@ -2865,7 +2865,7 @@ this
 mLock
 )
 ;
-PRUint32
+uint32_t
 count
 =
 nsBaseHashtable

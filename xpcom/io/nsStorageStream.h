@@ -289,7 +289,7 @@ nsSegmentedBuffer
 *
 mSegmentedBuffer
 ;
-PRUint32
+uint32_t
 mSegmentSize
 ;
 /
@@ -313,7 +313,7 @@ power
 of
 -
 2
-PRUint32
+uint32_t
 mSegmentSizeLog2
 ;
 /
@@ -338,7 +338,7 @@ ed
 output
 stream
 exists
-PRInt32
+int32_t
 mLastSegmentNum
 ;
 /
@@ -384,7 +384,7 @@ containing
 the
 write
 cursor
-PRUint32
+uint32_t
 mLogicalLength
 ;
 /
@@ -398,14 +398,14 @@ stream
 NS_METHOD
 Seek
 (
-PRInt32
+int32_t
 aPosition
 )
 ;
-PRUint32
+uint32_t
 SegNum
 (
-PRUint32
+uint32_t
 aPosition
 )
 {
@@ -416,10 +416,10 @@ aPosition
 mSegmentSizeLog2
 ;
 }
-PRUint32
+uint32_t
 SegOffset
 (
-PRUint32
+uint32_t
 aPosition
 )
 {

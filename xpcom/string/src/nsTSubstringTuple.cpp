@@ -135,7 +135,7 @@ Length
 )
 const
 {
-PRUint32
+uint32_t
 len
 ;
 if
@@ -235,7 +235,7 @@ WriteTo
 char_type
 *
 buf
-PRUint32
+uint32_t
 bufLen
 )
 const
@@ -267,7 +267,7 @@ small
 "
 )
 ;
-PRUint32
+uint32_t
 headLen
 =
 bufLen

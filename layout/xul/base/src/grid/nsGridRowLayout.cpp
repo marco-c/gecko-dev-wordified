@@ -405,7 +405,7 @@ GetGrid
 nsIFrame
 *
 aBox
-PRInt32
+int32_t
 *
 aIndex
 nsGridRowLayout
@@ -467,7 +467,7 @@ return
 nullptr
 ;
 }
-PRInt32
+int32_t
 index
 =
 -
@@ -484,7 +484,7 @@ GetChildBox
 (
 )
 ;
-PRInt32
+int32_t
 count
 =
 0

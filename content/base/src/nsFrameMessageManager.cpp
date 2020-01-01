@@ -334,7 +334,7 @@ rt
 return
 true
 ;
-PRUint32
+uint32_t
 type
 ;
 rt
@@ -364,7 +364,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 (
 nsFrameMessageManager
 )
-PRUint32
+uint32_t
 count
 =
 tmp
@@ -378,7 +378,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -444,7 +444,7 @@ Clear
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 tmp
@@ -655,7 +655,7 @@ do_GetAtom
 aMessage
 )
 ;
-PRUint32
+uint32_t
 len
 =
 mListeners
@@ -666,7 +666,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -769,7 +769,7 @@ do_GetAtom
 aMessage
 )
 ;
-PRUint32
+uint32_t
 len
 =
 mListeners
@@ -780,7 +780,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -958,7 +958,7 @@ NS_ERROR_FAILURE
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1106,7 +1106,7 @@ aBuf
 )
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aLen
@@ -1299,7 +1299,7 @@ aObject
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aArgc
 jsval
 *
@@ -1444,7 +1444,7 @@ ar
 aCx
 )
 ;
-PRUint32
+uint32_t
 len
 =
 retval
@@ -1472,7 +1472,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1608,7 +1608,7 @@ aData
 )
 ;
 }
-PRInt32
+int32_t
 len
 =
 mChildManagers
@@ -1619,7 +1619,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1674,7 +1674,7 @@ aObject
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aArgc
 )
 {
@@ -1880,7 +1880,7 @@ nsFrameMessageManager
 :
 GetChildCount
 (
-PRUint32
+uint32_t
 *
 aChildCount
 )
@@ -1890,7 +1890,7 @@ aChildCount
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mChildManagers
@@ -1910,7 +1910,7 @@ nsFrameMessageManager
 :
 GetChildAt
 (
-PRUint32
+uint32_t
 aIndex
 nsITreeItemFrameMessageManager
 *
@@ -1937,7 +1937,7 @@ SafeObjectAt
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aIndex
@@ -2168,7 +2168,7 @@ this
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3011,7 +3011,7 @@ mParentManager
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3051,7 +3051,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3147,7 +3147,7 @@ aLoadScripts
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3365,7 +3365,7 @@ message
 filename
 line
 ;
-PRUint32
+uint32_t
 lineNumber
 columnNumber
 flags
@@ -4345,7 +4345,7 @@ input
 nsString
 dataString
 ;
-PRUint64
+uint64_t
 avail64
 =
 0
@@ -4384,17 +4384,17 @@ return
 nsCString
 buffer
 ;
-PRUint32
+uint32_t
 avail
 =
 (
-PRUint32
+uint32_t
 )
 NS_MIN
 (
 avail64
 (
-PRUint64
+uint64_t
 )
 PR_UINT32_MAX
 )
@@ -4422,7 +4422,7 @@ ConvertToUTF16
 (
 channel
 (
-PRUint8
+uint8_t
 *
 )
 buffer
@@ -4879,7 +4879,7 @@ XPConnect
 )
 ;
 const
-PRUint32
+uint32_t
 flags
 =
 nsIXPConnect
@@ -5192,7 +5192,7 @@ blobsParent
 (
 )
 ;
-PRUint32
+uint32_t
 length
 =
 blobs
@@ -5210,7 +5210,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5590,7 +5590,7 @@ blobsChild
 (
 )
 ;
-PRUint32
+uint32_t
 length
 =
 blobs
@@ -5608,7 +5608,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5725,7 +5725,7 @@ nsFrameMessageManager
 sPendingSameProcessAsyncMessages
 )
 ;
-PRUint32
+uint32_t
 len
 =
 asyncMessages
@@ -5736,7 +5736,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5933,7 +5933,7 @@ blobsChild
 (
 )
 ;
-PRUint32
+uint32_t
 length
 =
 blobs
@@ -5951,7 +5951,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6560,7 +6560,7 @@ MarkForCC
 (
 )
 {
-PRUint32
+uint32_t
 len
 =
 mListeners
@@ -6571,7 +6571,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

@@ -195,7 +195,7 @@ h
 /
 /
 for
-PRUint32
+uint32_t
 class
 nsIEditor
 ;
@@ -329,7 +329,7 @@ Init
 nsIDOMCharacterData
 *
 aElement
-PRUint32
+uint32_t
 aOffset
 const
 nsAString
@@ -440,7 +440,7 @@ take
 place
 *
 /
-PRUint32
+uint32_t
 mOffset
 ;
 /

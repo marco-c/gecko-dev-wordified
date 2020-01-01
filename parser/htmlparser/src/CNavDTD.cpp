@@ -1452,7 +1452,7 @@ the
 top
 index
 .
-PRInt32
+int32_t
 topIndex
 =
 mBodyContext
@@ -1844,7 +1844,7 @@ NS_DTD_FLAG_STOP_PARSING
 }
 NS_IMETHODIMP_
 (
-PRInt32
+int32_t
 )
 CNavDTD
 :
@@ -2041,7 +2041,7 @@ s
 pretty
 whack
 .
-PRInt32
+int32_t
 ac
 =
 aToken
@@ -2053,7 +2053,7 @@ GetAttributeCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2380,7 +2380,7 @@ tag
 "
 )
 ;
-PRInt32
+int32_t
 ac
 =
 aToken
@@ -2440,7 +2440,7 @@ GetCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2601,7 +2601,7 @@ static
 bool
 HasOpenTagOfType
 (
-PRInt32
+int32_t
 aType
 const
 nsDTDContext
@@ -2609,7 +2609,7 @@ nsDTDContext
 aContext
 )
 {
-PRInt32
+int32_t
 count
 =
 aContext
@@ -4168,7 +4168,7 @@ return
 result
 ;
 }
-PRInt32
+int32_t
 CNavDTD
 :
 :
@@ -4178,14 +4178,14 @@ eHTMLTags
 aTagSet
 [
 ]
-PRInt32
+int32_t
 aCount
 )
 const
 {
 for
 (
-PRInt32
+int32_t
 theIndex
 =
 mBodyContext
@@ -4345,7 +4345,7 @@ result
 =
 true
 ;
-PRInt32
+int32_t
 theCount
 =
 aContext
@@ -4394,7 +4394,7 @@ if
 theRootTags
 )
 {
-PRInt32
+int32_t
 theRootIndex
 =
 LastOf
@@ -4404,7 +4404,7 @@ aContext
 theRootTags
 )
 ;
-PRInt32
+int32_t
 theSPIndex
 =
 theSpecialParents
@@ -4418,7 +4418,7 @@ theSpecialParents
 :
 kNotFound
 ;
-PRInt32
+int32_t
 theChildIndex
 =
 nsHTMLElement
@@ -4430,7 +4430,7 @@ aContext
 aChildTag
 )
 ;
-PRInt32
+int32_t
 theTargetIndex
 =
 (
@@ -4493,7 +4493,7 @@ eHTMLTag_td
 eHTMLTag_th
 }
 ;
-PRInt32
+int32_t
 theIndex
 =
 theCount
@@ -4728,7 +4728,7 @@ theChildAgrees
 =
 true
 ;
-PRInt32
+int32_t
 theIndex
 =
 mBodyContext
@@ -4738,7 +4738,7 @@ GetCount
 (
 )
 ;
-PRInt32
+int32_t
 theParentContains
 =
 0
@@ -4830,7 +4830,7 @@ sTableElements
 )
 )
 {
-PRInt32
+int32_t
 attrCount
 =
 aNode
@@ -4842,7 +4842,7 @@ GetAttributeCount
 ;
 for
 (
-PRInt32
+int32_t
 attrIndex
 =
 0
@@ -5130,7 +5130,7 @@ ShouldVerifyHierarchy
 )
 )
 {
-PRInt32
+int32_t
 theChildIndex
 =
 nsHTMLElement
@@ -5826,7 +5826,7 @@ result
 =
 NS_OK
 ;
-PRInt32
+int32_t
 stackDepth
 =
 mBodyContext
@@ -6136,7 +6136,7 @@ aNode
 ;
 for
 (
-PRInt32
+int32_t
 count
 =
 aNode
@@ -6280,7 +6280,7 @@ for
 /
 later
 .
-PRInt32
+int32_t
 theTagCount
 =
 mBodyContext
@@ -6658,7 +6658,7 @@ return
 result
 ;
 }
-PRInt32
+int32_t
 theAttrCount
 =
 aNode
@@ -6719,7 +6719,7 @@ return
 result
 ;
 }
-PRInt32
+int32_t
 theIndex
 =
 0
@@ -7183,7 +7183,7 @@ GetTypeID
 (
 )
 ;
-PRInt16
+int16_t
 attrCount
 =
 aToken
@@ -7866,7 +7866,7 @@ bool
 anEndTag
 )
 {
-PRInt32
+int32_t
 theRootIndex
 =
 LastOf
@@ -7900,7 +7900,7 @@ GetAutoCloseStartTags
 (
 )
 ;
-PRInt32
+int32_t
 theChildIndex
 =
 -
@@ -8092,7 +8092,7 @@ aCurrentTag
 )
 )
 {
-PRInt32
+int32_t
 theChildIndex
 =
 nsHTMLElement
@@ -8588,7 +8588,7 @@ aTokenizer
 nsTokenAllocator
 *
 aTokenAllocator
-PRInt32
+int32_t
 *
 aNewlineCount
 )
@@ -8617,7 +8617,7 @@ PeekToken
 (
 )
 ;
-PRInt32
+int32_t
 newlineCount
 =
 0
@@ -9623,7 +9623,7 @@ body
 /
 html
 >
-PRInt32
+int32_t
 theParentContains
 =
 -
@@ -9926,7 +9926,7 @@ CNavDTD
 :
 HandleSavedTokens
 (
-PRInt32
+int32_t
 anIndex
 )
 {
@@ -9969,7 +9969,7 @@ kNotFound
 )
 )
 {
-PRInt32
+int32_t
 theBadTokenCount
 =
 mMisplacedContent
@@ -10018,17 +10018,17 @@ theToken
 eHTMLTags
 theTag
 ;
-PRInt32
+int32_t
 attrCount
 ;
-PRInt32
+int32_t
 theTopIndex
 =
 anIndex
 +
 1
 ;
-PRInt32
+int32_t
 theTagCount
 =
 mBodyContext
@@ -10211,7 +10211,7 @@ temp
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -10367,7 +10367,7 @@ mBodyContext
 mDTDMode
 )
 ;
-PRInt32
+int32_t
 theIndex
 =
 closed
@@ -10825,7 +10825,7 @@ theNode
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-PRInt32
+int32_t
 theParentContains
 =
 -
@@ -11311,7 +11311,7 @@ kNewLine
 )
 ;
 }
-PRInt32
+int32_t
 len
 =
 docTypeStr
@@ -11320,7 +11320,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 pos
 =
 docTypeStr
@@ -11463,7 +11463,7 @@ nsIParserNode
 aNode
 eHTMLTags
 aTag
-PRInt32
+int32_t
 aCount
 )
 {
@@ -11787,9 +11787,9 @@ CNavDTD
 :
 CanContain
 (
-PRInt32
+int32_t
 aParent
-PRInt32
+int32_t
 aChild
 )
 const
@@ -11907,9 +11907,9 @@ CNavDTD
 :
 IsBlockElement
 (
-PRInt32
+int32_t
 aTagID
-PRInt32
+int32_t
 aParentID
 )
 const
@@ -12059,9 +12059,9 @@ CNavDTD
 :
 IsInlineElement
 (
-PRInt32
+int32_t
 aTagID
-PRInt32
+int32_t
 aParentID
 )
 const
@@ -12222,7 +12222,7 @@ eHTMLTags
 aParent
 eHTMLTags
 aChild
-PRInt32
+int32_t
 aParentContains
 )
 {
@@ -12454,7 +12454,7 @@ eHTMLTags
 aParent
 eHTMLTags
 aChild
-PRInt32
+int32_t
 &
 aParentContains
 )
@@ -12830,7 +12830,7 @@ CNavDTD
 :
 IsContainer
 (
-PRInt32
+int32_t
 aTag
 )
 const
@@ -13122,7 +13122,7 @@ eHTMLTags
 aTagSet
 [
 ]
-PRInt32
+int32_t
 aCount
 )
 const
@@ -13364,7 +13364,7 @@ aChildTag
 )
 )
 {
-PRUint32
+uint32_t
 theCount
 =
 mBodyContext
@@ -13374,7 +13374,7 @@ GetCount
 (
 )
 ;
-PRUint32
+uint32_t
 theLevel
 =
 theCount
@@ -13508,7 +13508,7 @@ FONTSTYLE_IGNORE_DEPTH
 break
 ;
 }
-PRInt32
+int32_t
 sindex
 =
 0
@@ -14961,7 +14961,7 @@ aClosedByStartTag
 )
 {
 const
-PRInt32
+int32_t
 count
 =
 mBodyContext
@@ -14971,7 +14971,7 @@ GetCount
 (
 )
 ;
-PRInt32
+int32_t
 pos
 =
 count
@@ -15591,7 +15591,7 @@ CNavDTD
 :
 CloseContainersTo
 (
-PRInt32
+int32_t
 anIndex
 eHTMLTags
 aTarget
@@ -15635,7 +15635,7 @@ anIndex
 0
 )
 {
-PRInt32
+int32_t
 count
 =
 0
@@ -16925,7 +16925,7 @@ GetCount
 kInvalidTagStackPos
 )
 ;
-PRInt32
+int32_t
 pos
 =
 mBodyContext
@@ -17821,7 +17821,7 @@ result
 return
 ;
 }
-PRInt32
+int32_t
 theLen
 =
 mScratch

@@ -278,7 +278,7 @@ const
 Cache
 &
 aCache
-PRInt32
+int32_t
 &
 aResult
 )
@@ -311,7 +311,7 @@ if
 siblingEntry
 )
 {
-PRInt32
+int32_t
 siblingIndex
 =
 siblingEntry
@@ -460,7 +460,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 nsNthIndexCache
 :
 :
@@ -609,7 +609,7 @@ return
 0
 ;
 }
-PRInt32
+int32_t
 &
 slot
 =
@@ -643,7 +643,7 @@ return
 slot
 ;
 }
-PRInt32
+int32_t
 result
 =
 1

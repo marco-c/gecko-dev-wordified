@@ -729,7 +729,7 @@ virtual
 void
 NotifySVGChanged
 (
-PRUint32
+uint32_t
 aFlags
 )
 =
@@ -963,7 +963,7 @@ const
 gfxMatrix
 &
 aToBBoxUserspace
-PRUint32
+uint32_t
 aFlags
 )
 =

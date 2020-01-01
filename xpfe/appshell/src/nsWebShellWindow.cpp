@@ -492,7 +492,7 @@ nsWebShellWindow
 :
 nsWebShellWindow
 (
-PRUint32
+uint32_t
 aChromeFlags
 )
 :
@@ -573,9 +573,9 @@ aOpener
 nsIURI
 *
 aUrl
-PRInt32
+int32_t
 aInitialWidth
-PRInt32
+int32_t
 aInitialHeight
 bool
 aIsHiddenWindow
@@ -597,7 +597,7 @@ mIsHiddenWindow
 =
 aIsHiddenWindow
 ;
-PRInt32
+int32_t
 initialX
 =
 0
@@ -1360,9 +1360,9 @@ WindowMoved
 nsIWidget
 *
 aWidget
-PRInt32
+int32_t
 x
-PRInt32
+int32_t
 y
 )
 {
@@ -1444,9 +1444,9 @@ WindowResized
 nsIWidget
 *
 aWidget
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 )
 {
@@ -1785,7 +1785,7 @@ sizeMode
 nsSizeMode_Fullscreen
 )
 {
-PRUint32
+uint32_t
 zLevel
 ;
 GetZLevel
@@ -2112,7 +2112,7 @@ all
 work
 this
 way
-PRUint32
+uint32_t
 chromeMask
 =
 (
@@ -2151,7 +2151,7 @@ wbc
 )
 return
 ;
-PRUint32
+uint32_t
 chromeFlags
 newChromeFlags
 =
@@ -2682,7 +2682,7 @@ nsWebShellWindow
 :
 SetPersistenceTimer
 (
-PRUint32
+uint32_t
 aDirtyFlags
 )
 {
@@ -2892,13 +2892,13 @@ aProgress
 nsIRequest
 *
 aRequest
-PRInt32
+int32_t
 aCurSelfProgress
-PRInt32
+int32_t
 aMaxSelfProgress
-PRInt32
+int32_t
 aCurTotalProgress
-PRInt32
+int32_t
 aMaxTotalProgress
 )
 {
@@ -2933,7 +2933,7 @@ aProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aStateFlags
 nsresult
 aStatus
@@ -3238,7 +3238,7 @@ aRequest
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -3312,7 +3312,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 state
 )
 {
@@ -3561,7 +3561,7 @@ IsEmpty
 )
 )
 {
-PRInt32
+int32_t
 begPos
 eqPos
 endPos
@@ -3586,7 +3586,7 @@ endPos
 endPos
 <
 (
-PRInt32
+int32_t
 )
 searchSpec
 .
@@ -4043,10 +4043,10 @@ nsWebShellWindow
 :
 ConstrainToOpenerScreen
 (
-PRInt32
+int32_t
 *
 aX
-PRInt32
+int32_t
 *
 aY
 )
@@ -4071,7 +4071,7 @@ aY
 return
 ;
 }
-PRInt32
+int32_t
 left
 top
 width

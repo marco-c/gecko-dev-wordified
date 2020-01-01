@@ -407,7 +407,7 @@ nsString
 >
 mArgs
 ;
-PRUint32
+uint32_t
 mState
 ;
 nsCOMPtr
@@ -463,7 +463,7 @@ nsCommandLine
 :
 GetLength
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -471,7 +471,7 @@ aResult
 *
 aResult
 =
-PRInt32
+int32_t
 (
 mArgs
 .
@@ -490,7 +490,7 @@ nsCommandLine
 :
 GetArgument
 (
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -506,7 +506,7 @@ aIndex
 NS_ENSURE_ARG_MAX
 (
 aIndex
-PRInt32
+int32_t
 (
 mArgs
 .
@@ -541,7 +541,7 @@ nsAString
 aFlag
 bool
 aCaseSensitive
-PRInt32
+int32_t
 *
 aResult
 )
@@ -588,7 +588,7 @@ caseICmp
 ;
 for
 (
-PRUint32
+uint32_t
 f
 =
 0
@@ -685,9 +685,9 @@ nsCommandLine
 :
 RemoveArguments
 (
-PRInt32
+int32_t
 aStart
-PRInt32
+int32_t
 aEnd
 )
 {
@@ -699,7 +699,7 @@ aStart
 ;
 NS_ENSURE_ARG_MAX
 (
-PRUint32
+uint32_t
 (
 aEnd
 )
@@ -714,7 +714,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 aEnd
@@ -761,7 +761,7 @@ aResult
 nsresult
 rv
 ;
-PRInt32
+int32_t
 found
 ;
 rv
@@ -833,7 +833,7 @@ aResult
 nsresult
 rv
 ;
-PRInt32
+int32_t
 found
 ;
 rv
@@ -877,7 +877,7 @@ if
 found
 =
 =
-PRInt32
+int32_t
 (
 mArgs
 .
@@ -943,7 +943,7 @@ nsCommandLine
 :
 GetState
 (
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -2143,7 +2143,7 @@ nsCommandLine
 :
 Init
 (
-PRInt32
+int32_t
 argc
 char
 *
@@ -2152,7 +2152,7 @@ argv
 nsIFile
 *
 aWorkingDir
-PRUint32
+uint32_t
 aState
 )
 {
@@ -2168,7 +2168,7 @@ aState
 2
 )
 ;
-PRInt32
+int32_t
 i
 ;
 mWorkingDir

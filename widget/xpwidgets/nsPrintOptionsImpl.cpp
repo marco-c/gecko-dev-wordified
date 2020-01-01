@@ -1710,7 +1710,7 @@ const
 nsAString
 &
 aPrinterName
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1729,7 +1729,7 @@ nsIPrintSettings
 kInitSaveMargins
 )
 {
-PRInt32
+int32_t
 halfInch
 =
 NS_INCHES_TO_INT_TWIPS
@@ -2077,7 +2077,7 @@ b
 nsAutoString
 str
 ;
-PRInt32
+int32_t
 iVal
 ;
 double
@@ -2208,7 +2208,7 @@ nsIPrintSettings
 kInitSavePaperSize
 )
 {
-PRInt32
+int32_t
 sizeUnit
 sizeType
 ;
@@ -3502,7 +3502,7 @@ const
 nsAString
 &
 aPrinterName
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -3870,7 +3870,7 @@ nsIPrintSettings
 kInitSavePaperSize
 )
 {
-PRInt16
+int16_t
 sizeUnit
 sizeType
 ;
@@ -3966,7 +3966,7 @@ GetPrefName
 kPrintPaperSizeUnit
 aPrinterName
 )
-PRInt32
+int32_t
 (
 sizeUnit
 )
@@ -3989,7 +3989,7 @@ GetPrefName
 kPrintPaperSizeType
 aPrinterName
 )
-PRInt32
+int32_t
 (
 sizeType
 )
@@ -4058,10 +4058,10 @@ PRUnichar
 *
 uStr
 ;
-PRInt32
+int32_t
 iVal
 ;
-PRInt16
+int16_t
 iVal16
 ;
 double
@@ -4728,7 +4728,7 @@ GetPrefName
 kPrintPaperData
 aPrinterName
 )
-PRInt32
+int32_t
 (
 iVal16
 )
@@ -5368,7 +5368,7 @@ nsPrintOptions
 :
 GetNativeData
 (
-PRInt16
+int16_t
 aDataType
 void
 *
@@ -6117,7 +6117,7 @@ n
 r
 "
 ;
-PRInt32
+int32_t
 x
 ;
 for
@@ -6129,7 +6129,7 @@ x
 x
 <
 (
-PRInt32
+int32_t
 )
 strlen
 (
@@ -6149,7 +6149,7 @@ replaceStr
 x
 ]
 ;
-PRInt32
+int32_t
 i
 =
 0
@@ -6204,7 +6204,7 @@ const
 PRUnichar
 *
 aPrefName
-PRInt32
+int32_t
 *
 _retval
 )
@@ -6272,7 +6272,7 @@ prefName
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 iVal
 ;
 nsresult
@@ -6314,7 +6314,7 @@ nsIPrintSettings
 aPS
 bool
 aUsePNP
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -6514,7 +6514,7 @@ nsIPrintSettings
 aPS
 bool
 aUsePrinterNamePrefix
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -6857,7 +6857,7 @@ const
 char
 *
 aPrefId
-PRInt32
+int32_t
 &
 aTwips
 const
@@ -6975,7 +6975,7 @@ const
 char
 *
 aPrefId
-PRInt32
+int32_t
 aTwips
 )
 {
@@ -7017,7 +7017,7 @@ const
 char
 *
 aPrefId
-PRInt32
+int32_t
 &
 aTwips
 const
@@ -7026,7 +7026,7 @@ char
 aMarginPref
 )
 {
-PRInt32
+int32_t
 value
 ;
 nsresult
@@ -7104,7 +7104,7 @@ const
 char
 *
 aPrefId
-PRInt32
+int32_t
 aTwips
 )
 {
@@ -7114,7 +7114,7 @@ Preferences
 SetInt
 (
 aPrefId
-PRInt32
+int32_t
 (
 NS_TWIPS_TO_INCHES
 (
@@ -7142,10 +7142,10 @@ const
 char
 *
 aPrefId
-PRInt16
+int16_t
 &
 aJust
-PRInt16
+int16_t
 aInitValue
 )
 {
@@ -7284,7 +7284,7 @@ const
 char
 *
 aPrefId
-PRInt16
+int16_t
 aJust
 )
 {
@@ -7937,7 +7937,7 @@ char
 *
 mName
 ;
-PRUint32
+uint32_t
 mFlag
 ;
 }
@@ -8155,7 +8155,7 @@ Name
 "
 )
 ;
-PRInt32
+int32_t
 i
 =
 0

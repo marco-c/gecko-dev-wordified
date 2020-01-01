@@ -201,15 +201,15 @@ nsTObserverArray_base
 public
 :
 typedef
-PRUint32
+uint32_t
 index_type
 ;
 typedef
-PRUint32
+uint32_t
 size_type
 ;
 typedef
-PRInt32
+int32_t
 diff_type
 ;
 protected
@@ -407,7 +407,7 @@ template
 <
 class
 T
-PRUint32
+uint32_t
 N
 >
 class

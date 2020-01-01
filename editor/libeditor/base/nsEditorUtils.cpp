@@ -1221,7 +1221,7 @@ aNode
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 *
 aOffset
 )

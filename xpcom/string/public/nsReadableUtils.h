@@ -824,7 +824,7 @@ const
 nsAString
 &
 aSource
-PRUint32
+uint32_t
 *
 aUTF8Count
 =
@@ -1273,7 +1273,7 @@ const
 nsACString
 &
 aSource
-PRUint32
+uint32_t
 *
 aUTF16Count
 =
@@ -1385,12 +1385,12 @@ const
 nsAString
 &
 aSource
-PRUint32
+uint32_t
 aSrcOffset
 PRUnichar
 *
 aDest
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -2625,7 +2625,7 @@ aStr
 |
 *
 /
-PRUint32
+uint32_t
 CountCharInReadable
 (
 const
@@ -2636,7 +2636,7 @@ PRUnichar
 aChar
 )
 ;
-PRUint32
+uint32_t
 CountCharInReadable
 (
 const
@@ -2828,7 +2828,7 @@ PR_INT32_MIN
 .
 *
 /
-PRInt32
+int32_t
 CompareUTF8toUTF16
 (
 const
@@ -2845,7 +2845,7 @@ void
 AppendUCS4ToUTF16
 (
 const
-PRUint32
+uint32_t
 aSource
 nsAString
 &
@@ -2864,7 +2864,7 @@ EnsureStringLength
 T
 &
 aStr
-PRUint32
+uint32_t
 aLen
 )
 {

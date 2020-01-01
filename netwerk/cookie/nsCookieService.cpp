@@ -626,7 +626,7 @@ COOKIES_SCHEMA_VERSION
 4
 static
 const
-PRInt64
+int64_t
 kCookieStaleThreshold
 =
 60
@@ -641,10 +641,10 @@ in
 microseconds
 static
 const
-PRInt64
+int64_t
 kCookiePurgeAge
 =
-PRInt64
+int64_t
 (
 30
 *
@@ -769,28 +769,28 @@ respectively
 .
 static
 const
-PRUint32
+uint32_t
 kMaxNumberOfCookies
 =
 3000
 ;
 static
 const
-PRUint32
+uint32_t
 kMaxCookiesPerHost
 =
 150
 ;
 static
 const
-PRUint32
+uint32_t
 kMaxBytesPerCookie
 =
 4096
 ;
 static
 const
-PRUint32
+uint32_t
 kMaxBytesPerPath
 =
 1024
@@ -802,21 +802,21 @@ pref
 constants
 static
 const
-PRUint32
+uint32_t
 BEHAVIOR_ACCEPT
 =
 0
 ;
 static
 const
-PRUint32
+uint32_t
 BEHAVIOR_REJECTFOREIGN
 =
 1
 ;
 static
 const
-PRUint32
+uint32_t
 BEHAVIOR_REJECT
 =
 2
@@ -952,7 +952,7 @@ expires
 nsCAutoString
 maxage
 ;
-PRInt64
+int64_t
 expiryTime
 ;
 bool
@@ -1904,7 +1904,7 @@ Expiry
 (
 )
 *
-PRInt64
+int64_t
 (
 PR_USEC_PER_SEC
 )
@@ -2792,7 +2792,7 @@ mozIStorageError
 aError
 )
 {
-PRInt32
+int32_t
 result
 =
 -
@@ -3128,7 +3128,7 @@ NS_OK
 NS_IMETHOD
 HandleCompletion
 (
-PRUint16
+uint16_t
 aReason
 )
 {
@@ -3451,7 +3451,7 @@ NS_OK
 NS_IMETHOD
 HandleCompletion
 (
-PRUint16
+uint16_t
 aReason
 )
 {
@@ -3703,7 +3703,7 @@ NS_OK
 NS_IMETHOD
 HandleCompletion
 (
-PRUint16
+uint16_t
 aReason
 )
 {
@@ -4038,7 +4038,7 @@ NS_OK
 NS_IMETHOD
 HandleCompletion
 (
-PRUint16
+uint16_t
 aReason
 )
 {
@@ -6208,7 +6208,7 @@ schema
 version
 before
 reading
-PRInt32
+int32_t
 dbSchemaVersion
 ;
 rv
@@ -6584,7 +6584,7 @@ hasResult
 )
 break
 ;
-PRInt64
+int64_t
 id
 =
 select
@@ -7024,7 +7024,7 @@ name1
 host1
 path1
 ;
-PRInt64
+int64_t
 id1
 =
 select
@@ -7103,7 +7103,7 @@ hasResult
 )
 break
 ;
-PRInt64
+int64_t
 id2
 =
 select
@@ -9979,7 +9979,7 @@ we
 re
 done
 .
-PRUint32
+uint32_t
 length
 ;
 paramsArray
@@ -11231,7 +11231,7 @@ prompted
 PRTime
 tempServerTime
 ;
-PRInt64
+int64_t
 serverTime
 ;
 PRStatus
@@ -11261,7 +11261,7 @@ serverTime
 =
 tempServerTime
 /
-PRInt64
+int64_t
 (
 PR_USEC_PER_SEC
 )
@@ -11732,7 +11732,7 @@ nsIPrefBranch
 aPrefBranch
 )
 {
-PRInt32
+int32_t
 val
 ;
 if
@@ -11753,7 +11753,7 @@ val
 mCookieBehavior
 =
 (
-PRUint8
+uint8_t
 )
 LIMIT
 (
@@ -11781,7 +11781,7 @@ val
 mMaxNumberOfCookies
 =
 (
-PRUint16
+uint16_t
 )
 LIMIT
 (
@@ -11809,7 +11809,7 @@ val
 mMaxCookiesPerHost
 =
 (
-PRUint16
+uint16_t
 )
 LIMIT
 (
@@ -11837,7 +11837,7 @@ val
 {
 mCookiePurgeAge
 =
-PRInt64
+int64_t
 (
 LIMIT
 (
@@ -12483,7 +12483,7 @@ bool
 aIsHttpOnly
 bool
 aIsSession
-PRInt64
+int64_t
 aExpiry
 )
 {
@@ -12599,7 +12599,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 currentTimeInUsec
 =
 PR_Now
@@ -13666,7 +13666,7 @@ NS_ASSERT_SUCCESS
 rv
 )
 ;
-PRInt64
+int64_t
 expiry
 =
 aRow
@@ -13677,7 +13677,7 @@ AsInt64
 4
 )
 ;
-PRInt64
+int64_t
 lastAccessed
 =
 aRow
@@ -13688,7 +13688,7 @@ AsInt64
 5
 )
 ;
-PRInt64
+int64_t
 creationTime
 =
 aRow
@@ -13904,7 +13904,7 @@ stale
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14771,7 +14771,7 @@ none
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -15263,7 +15263,7 @@ none
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -15529,7 +15529,7 @@ isMore
 =
 true
 ;
-PRInt32
+int32_t
 hostIndex
 isDomainIndex
 pathIndex
@@ -15544,10 +15544,10 @@ nsASingleFragmentCString
 char_iterator
 iter
 ;
-PRInt32
+int32_t
 numInts
 ;
-PRInt64
+int64_t
 expires
 ;
 bool
@@ -15556,7 +15556,7 @@ isHttpOnly
 =
 false
 ;
-PRUint32
+uint32_t
 originalCookieCount
 =
 mDefaultDBState
@@ -15564,14 +15564,14 @@ mDefaultDBState
 >
 cookieCount
 ;
-PRInt64
+int64_t
 currentTimeInUsec
 =
 PR_Now
 (
 )
 ;
-PRInt64
+int64_t
 currentTime
 =
 currentTimeInUsec
@@ -15604,7 +15604,7 @@ currentTime
 somewhat
 arbitrary
 )
-PRInt64
+int64_t
 lastAccessedCounter
 =
 currentTimeInUsec
@@ -15693,7 +15693,7 @@ TRUE
 expires
 is
 a
-PRInt64
+int64_t
 integer
 *
 note
@@ -16525,7 +16525,7 @@ if
 paramsArray
 )
 {
-PRUint32
+uint32_t
 length
 ;
 paramsArray
@@ -16932,7 +16932,7 @@ in
 accordance
 with
 RFC2109
-PRInt32
+int32_t
 result
 =
 aCookie2
@@ -17386,14 +17386,14 @@ nsCookie
 >
 foundCookieList
 ;
-PRInt64
+int64_t
 currentTimeInUsec
 =
 PR_Now
 (
 )
 ;
-PRInt64
+int64_t
 currentTime
 =
 currentTimeInUsec
@@ -17684,7 +17684,7 @@ trailing
 '
 /
 '
-PRUint32
+uint32_t
 cookiePathLen
 =
 cookie
@@ -17968,7 +17968,7 @@ stale
 true
 ;
 }
-PRInt32
+int32_t
 count
 =
 foundCookieList
@@ -18088,7 +18088,7 @@ paramsArray
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -18146,7 +18146,7 @@ if
 paramsArray
 )
 {
-PRUint32
+uint32_t
 length
 ;
 paramsArray
@@ -18261,7 +18261,7 @@ CompareCookiesForSending
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -18502,7 +18502,7 @@ aStatus
 nsDependentCString
 &
 aCookieHeader
-PRInt64
+int64_t
 aServerTime
 bool
 aFromHttp
@@ -18625,7 +18625,7 @@ aCookieHeader
 cookieAttributes
 )
 ;
-PRInt64
+int64_t
 currentTimeInUsec
 =
 PR_Now
@@ -19211,7 +19211,7 @@ aBaseDomain
 nsCookie
 *
 aCookie
-PRInt64
+int64_t
 aCurrentTimeInUsec
 nsIURI
 *
@@ -19224,7 +19224,7 @@ bool
 aFromHttp
 )
 {
-PRInt64
+int64_t
 currentTime
 =
 aCurrentTimeInUsec
@@ -19892,7 +19892,7 @@ mMaxNumberOfCookies
 )
 )
 {
-PRInt64
+int64_t
 maxAge
 =
 aCurrentTimeInUsec
@@ -19902,7 +19902,7 @@ mDBState
 >
 cookieOldestTime
 ;
-PRInt64
+int64_t
 purgeAge
 =
 ADD_TEN_PERCENT
@@ -24202,7 +24202,7 @@ aCookieAttributes
 path
 )
 ;
-PRInt32
+int32_t
 slash
 =
 aCookieAttributes
@@ -24403,9 +24403,9 @@ GetExpiry
 nsCookieAttributes
 &
 aCookieAttributes
-PRInt64
+int64_t
 aServerTime
-PRInt64
+int64_t
 aCurrentTime
 )
 {
@@ -24489,7 +24489,7 @@ RFC
 .
 *
 /
-PRInt64
+int64_t
 delta
 ;
 /
@@ -24525,10 +24525,10 @@ numeric
 value
 of
 maxageAttribute
-PRInt64
+int64_t
 maxage
 ;
-PRInt32
+int32_t
 numInts
 =
 PR_sscanf
@@ -24630,7 +24630,7 @@ delta
 =
 expires
 /
-PRInt64
+int64_t
 (
 PR_USEC_PER_SEC
 )
@@ -24944,9 +24944,9 @@ ArrayType
 ;
 nsPurgeData
 (
-PRInt64
+int64_t
 aCurrentTime
-PRInt64
+int64_t
 aPurgeTime
 ArrayType
 &
@@ -24992,7 +24992,7 @@ current
 time
 in
 seconds
-PRInt64
+int64_t
 currentTime
 ;
 /
@@ -25007,7 +25007,7 @@ are
 eligible
 for
 purge
-PRInt64
+int64_t
 purgeTime
 ;
 /
@@ -25025,7 +25025,7 @@ to
 update
 our
 indicator
-PRInt64
+int64_t
 oldestTime
 ;
 /
@@ -25184,7 +25184,7 @@ tiebreak
 by
 creationTime
 .
-PRInt64
+int64_t
 result
 =
 a
@@ -25617,7 +25617,7 @@ nsCookieService
 :
 PurgeCookies
 (
-PRInt64
+int64_t
 aCurrentTimeInUsec
 )
 {
@@ -25647,7 +25647,7 @@ EnsureReadComplete
 #
 ifdef
 PR_LOGGING
-PRUint32
+uint32_t
 initialCookieCount
 =
 mDBState
@@ -25804,7 +25804,7 @@ data
 #
 ifdef
 PR_LOGGING
-PRUint32
+uint32_t
 postExpiryCookieCount
 =
 mDBState
@@ -25874,7 +25874,7 @@ limit
 no
 more
 .
-PRUint32
+uint32_t
 excess
 =
 mDBState
@@ -26081,7 +26081,7 @@ if
 paramsArray
 )
 {
-PRUint32
+uint32_t
 length
 ;
 paramsArray
@@ -26401,7 +26401,7 @@ FindStaleCookie
 nsCookieEntry
 *
 aEntry
-PRInt64
+int64_t
 aCurrentTime
 nsListIter
 &
@@ -26414,7 +26414,7 @@ entry
 =
 NULL
 ;
-PRInt64
+int64_t
 oldestTime
 =
 0
@@ -26596,7 +26596,7 @@ const
 nsACString
 &
 aHost
-PRUint32
+uint32_t
 *
 aCountFromHost
 )
@@ -28275,7 +28275,7 @@ UpdateCookieInList
 nsCookie
 *
 aCookie
-PRInt64
+int64_t
 aLastAccessed
 mozIStorageBindingParamsArray
 *

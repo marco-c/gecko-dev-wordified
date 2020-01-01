@@ -751,7 +751,7 @@ InvalidateFrame
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -2487,7 +2487,7 @@ FromContent
 mOwnerContent
 )
 ;
-PRUint32
+uint32_t
 sandboxFlags
 =
 0
@@ -2506,7 +2506,7 @@ GetSandboxFlags
 (
 )
 ;
-PRUint32
+uint32_t
 parentSandboxFlags
 =
 iframe
@@ -3329,7 +3329,7 @@ true
 aChromeEventHandler
 )
 ;
-PRInt32
+int32_t
 childCount
 =
 0
@@ -3362,7 +3362,7 @@ childCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3394,7 +3394,7 @@ i
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3499,7 +3499,7 @@ bool
 aFireIfShowing
 )
 {
-PRInt32
+int32_t
 childCount
 =
 0
@@ -3532,7 +3532,7 @@ childCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3564,7 +3564,7 @@ i
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3712,7 +3712,7 @@ SetChromeEventHandler
 aHandler
 )
 ;
-PRInt32
+int32_t
 childCount
 =
 0
@@ -3728,7 +3728,7 @@ childCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3870,7 +3870,7 @@ aOwningContent
 nsIDocShellTreeOwner
 *
 aOwner
-PRInt32
+int32_t
 aParentType
 nsIDocShellTreeNode
 *
@@ -4266,11 +4266,11 @@ AllDescendantsOfType
 nsIDocShellTreeItem
 *
 aParentItem
-PRInt32
+int32_t
 aType
 )
 {
-PRInt32
+int32_t
 childCount
 =
 0
@@ -4286,7 +4286,7 @@ childCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -4318,7 +4318,7 @@ kid
 )
 )
 ;
-PRInt32
+int32_t
 kidType
 ;
 kid
@@ -4427,13 +4427,13 @@ nsFrameLoader
 :
 Show
 (
-PRInt32
+int32_t
 marginWidth
-PRInt32
+int32_t
 marginHeight
-PRInt32
+int32_t
 scrollbarPrefX
-PRInt32
+int32_t
 scrollbarPrefY
 nsSubDocumentFrame
 *
@@ -5143,9 +5143,9 @@ nsFrameLoader
 :
 MarginsChanged
 (
-PRUint32
+uint32_t
 aMarginWidth
-PRUint32
+uint32_t
 aMarginHeight
 )
 {
@@ -6081,7 +6081,7 @@ certainly
 not
 safe
 .
-PRInt32
+int32_t
 ourType
 =
 nsIDocShellTreeItem
@@ -6089,7 +6089,7 @@ nsIDocShellTreeItem
 :
 typeChrome
 ;
-PRInt32
+int32_t
 otherType
 =
 nsIDocShellTreeItem
@@ -6333,7 +6333,7 @@ the
 same
 type
 too
-PRInt32
+int32_t
 ourParentType
 =
 nsIDocShellTreeItem
@@ -6341,7 +6341,7 @@ nsIDocShellTreeItem
 :
 typeContent
 ;
-PRInt32
+int32_t
 otherParentType
 =
 nsIDocShellTreeItem
@@ -8832,7 +8832,7 @@ mozapp
 manifest
 )
 ;
-PRUint32
+uint32_t
 appId
 ;
 appsService
@@ -8920,7 +8920,7 @@ NS_ERROR_FAILURE
 nsAutoString
 frameName
 ;
-PRInt32
+int32_t
 namespaceID
 =
 mOwnerContent
@@ -9152,7 +9152,7 @@ do_QueryInterface
 parentAsNode
 )
 ;
-PRInt32
+int32_t
 parentType
 ;
 parentAsItem
@@ -9889,7 +9889,7 @@ NS_ENSURE_STATE
 treeOwner
 )
 ;
-PRInt32
+int32_t
 ourType
 ;
 rv
@@ -9993,7 +9993,7 @@ parentAsItem
 )
 )
 ;
-PRInt32
+int32_t
 depth
 =
 0
@@ -10083,7 +10083,7 @@ for
 recursive
 frame
 loading
-PRInt32
+int32_t
 matchCount
 =
 0
@@ -10562,12 +10562,12 @@ if
 baseWindow
 )
 {
-PRInt32
+int32_t
 x
 =
 0
 ;
-PRInt32
+int32_t
 y
 =
 0
@@ -10647,7 +10647,7 @@ nsFrameLoader
 :
 GetRenderMode
 (
-PRUint32
+uint32_t
 *
 aRenderMode
 )
@@ -10667,7 +10667,7 @@ nsFrameLoader
 :
 SetRenderMode
 (
-PRUint32
+uint32_t
 aRenderMode
 )
 {
@@ -10755,7 +10755,7 @@ nsFrameLoader
 :
 GetEventMode
 (
-PRUint32
+uint32_t
 *
 aEventMode
 )
@@ -10775,7 +10775,7 @@ nsFrameLoader
 :
 SetEventMode
 (
-PRUint32
+uint32_t
 aEventMode
 )
 {
@@ -11324,7 +11324,7 @@ OwnerIsBrowserFrame
 )
 )
 {
-PRInt32
+int32_t
 parentType
 ;
 parentAsItem
@@ -11417,7 +11417,7 @@ false
 ;
 }
 }
-PRUint32
+uint32_t
 chromeFlags
 =
 0
@@ -11918,11 +11918,11 @@ float
 aX
 float
 aY
-PRInt32
+int32_t
 aButton
-PRInt32
+int32_t
 aClickCount
-PRInt32
+int32_t
 aModifiers
 bool
 aIgnoreRootScrollFrame
@@ -12006,11 +12006,11 @@ const
 nsAString
 &
 aType
-PRInt32
+int32_t
 aKeyCode
-PRInt32
+int32_t
 aCharCode
-PRInt32
+int32_t
 aModifiers
 bool
 aPreventDefault
@@ -12698,7 +12698,7 @@ blobsParent
 (
 )
 ;
-PRUint32
+uint32_t
 length
 =
 blobs
@@ -12734,7 +12734,7 @@ Manager
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -12876,7 +12876,7 @@ float
 aBottomSize
 float
 aLeftSize
-PRUint32
+uint32_t
 *
 aLength
 nsIContentView
@@ -13038,7 +13038,7 @@ nsIContentView
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

@@ -321,7 +321,7 @@ const
 sheet_array_type
 &
 aSheets
-PRUint8
+uint8_t
 aSheetType
 )
 ;
@@ -776,7 +776,7 @@ media
 query
 .
 static
-PRUint8
+uint8_t
 GetWindowsThemeIdentifier
 (
 )
@@ -785,7 +785,7 @@ static
 void
 SetWindowsThemeIdentifier
 (
-PRUint8
+uint8_t
 aId
 )
 {
@@ -915,7 +915,7 @@ stylesheet
 using
 this
 processor
-PRUint8
+uint8_t
 mSheetType
 ;
 /
@@ -930,7 +930,7 @@ sheetType
 ifdef
 XP_WIN
 static
-PRUint8
+uint8_t
 sWinThemeId
 ;
 #

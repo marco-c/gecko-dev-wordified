@@ -1680,7 +1680,7 @@ char
 *
 *
 next
-PRInt64
+int64_t
 *
 r
 )
@@ -1717,7 +1717,7 @@ input
 '
 )
 {
-PRInt64
+int64_t
 next
 =
 10

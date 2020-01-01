@@ -602,10 +602,10 @@ nsDOMParser
 ParseFromBuffer
 (
 const
-PRUint8
+uint8_t
 *
 buf
-PRUint32
+uint32_t
 bufLen
 const
 char
@@ -700,7 +700,7 @@ const
 char
 *
 charset
-PRInt32
+int32_t
 contentLength
 const
 char
@@ -1815,7 +1815,7 @@ GetInitArgs
 JSContext
 *
 cx
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -2113,7 +2113,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *

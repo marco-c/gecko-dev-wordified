@@ -497,7 +497,7 @@ IsRightToLeft
 (
 )
 ;
-PRUint32
+uint32_t
 length
 =
 aShapedWord
@@ -571,7 +571,7 @@ TextUnicode
 (
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -681,7 +681,7 @@ endBidiWrap
 0x202c
 }
 ;
-PRUint32
+uint32_t
 startOffset
 ;
 CFStringRef
@@ -1010,7 +1010,7 @@ CTLineGetGlyphRuns
 line
 )
 ;
-PRUint32
+uint32_t
 numRuns
 =
 :
@@ -1060,7 +1060,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 runIndex
 =
 0
@@ -1170,7 +1170,7 @@ gfxShapedWord
 aShapedWord
 CTRunRef
 aCTRun
-PRInt32
+int32_t
 aStringOffset
 )
 {
@@ -1216,7 +1216,7 @@ CoreText
 layout
 process
 .
-PRInt32
+int32_t
 direction
 =
 aShapedWord
@@ -1231,7 +1231,7 @@ IsRightToLeft
 :
 1
 ;
-PRInt32
+int32_t
 numGlyphs
 =
 :
@@ -1253,7 +1253,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 wordLength
 =
 aShapedWord
@@ -2006,7 +2006,7 @@ run
 .
 static
 const
-PRInt32
+int32_t
 NO_GLYPH
 =
 -
@@ -2014,7 +2014,7 @@ NO_GLYPH
 ;
 nsAutoTArray
 <
-PRInt32
+int32_t
 SMALL_GLYPH_RUN
 >
 charToGlyphArray
@@ -2036,7 +2036,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRInt32
+int32_t
 *
 charToGlyph
 =
@@ -2048,7 +2048,7 @@ Elements
 ;
 for
 (
-PRInt32
+int32_t
 offset
 =
 0
@@ -2074,7 +2074,7 @@ NO_GLYPH
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2088,7 +2088,7 @@ numGlyphs
 i
 )
 {
-PRInt32
+int32_t
 loc
 =
 glyphToChar
@@ -2317,7 +2317,7 @@ IsRightToLeft
 (
 )
 ;
-PRInt32
+int32_t
 glyphStart
 =
 0
@@ -2334,7 +2334,7 @@ at
 this
 glyph
 index
-PRInt32
+int32_t
 charStart
 =
 isRightToLeft
@@ -2385,7 +2385,7 @@ inOrder
 =
 true
 ;
-PRInt32
+int32_t
 charEnd
 =
 glyphToChar
@@ -2448,7 +2448,7 @@ charEnd
 NS_MIN
 (
 charEnd
-PRInt32
+int32_t
 (
 stringRange
 .
@@ -2456,12 +2456,12 @@ length
 )
 )
 ;
-PRInt32
+int32_t
 glyphEnd
 =
 glyphStart
 ;
-PRInt32
+int32_t
 charLimit
 =
 isRightToLeft
@@ -2631,7 +2631,7 @@ isRightToLeft
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 charStart
@@ -2683,7 +2683,7 @@ else
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 charStart
@@ -2830,14 +2830,14 @@ allGlyphsAreWithinCluster
 =
 true
 ;
-PRInt32
+int32_t
 prevGlyphCharIndex
 =
 charStart
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 glyphStart
@@ -2851,7 +2851,7 @@ glyphEnd
 i
 )
 {
-PRInt32
+int32_t
 glyphCharIndex
 =
 glyphToChar
@@ -3131,7 +3131,7 @@ to
 the
 textRun
 .
-PRInt32
+int32_t
 baseCharIndex
 endCharIndex
 ;
@@ -3355,7 +3355,7 @@ is
 "
 Simple
 "
-PRInt32
+int32_t
 appUnitsPerDevUnit
 =
 aShapedWord
@@ -3417,10 +3417,10 @@ glyphStart
 x
 ;
 }
-PRInt32
+int32_t
 advance
 =
-PRInt32
+int32_t
 (
 toNextGlyph
 *
@@ -3442,7 +3442,7 @@ to
 -
 one
 mapping
-PRInt32
+int32_t
 glyphsInClump
 =
 glyphEnd
@@ -3699,7 +3699,7 @@ x
 }
 advance
 =
-PRInt32
+int32_t
 (
 toNextGlyph
 *

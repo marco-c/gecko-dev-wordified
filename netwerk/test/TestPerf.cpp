@@ -250,7 +250,7 @@ buf
 4096
 ]
 ;
-PRUint32
+uint32_t
 bytesRead
 ;
 while
@@ -512,9 +512,9 @@ ctx
 nsIInputStream
 *
 stream
-PRUint32
+uint32_t
 offset
-PRUint32
+uint32_t
 count
 )
 {
@@ -527,7 +527,7 @@ buf
 4096
 ]
 ;
-PRUint32
+uint32_t
 n
 bytesRead
 ;
@@ -540,7 +540,7 @@ n
 =
 NS_MIN
 <
-PRUint32
+uint32_t
 >
 (
 count
@@ -1440,7 +1440,7 @@ return
 1
 ;
 }
-PRUint32
+uint32_t
 urlCount
 ;
 urls

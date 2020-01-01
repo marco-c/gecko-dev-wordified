@@ -1383,7 +1383,7 @@ itemToDrag
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 itemCount
 =
 0
@@ -1494,7 +1494,7 @@ dataObjCollection
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

@@ -453,14 +453,14 @@ aType
 NS_IMETHOD
 SetDisplaySelection
 (
-PRInt16
+int16_t
 aToggle
 )
 ;
 NS_IMETHOD
 GetDisplaySelection
 (
-PRInt16
+int16_t
 *
 aToggle
 )
@@ -472,7 +472,7 @@ SelectionType
 aType
 SelectionRegion
 aRegion
-PRInt16
+int16_t
 aFlags
 )
 ;
@@ -774,7 +774,7 @@ ScrollAxis
 aVertical
 ScrollAxis
 aHorizontal
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -793,7 +793,7 @@ ScrollAxis
 aVertical
 ScrollAxis
 aHorizontal
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -999,7 +999,7 @@ const
 nsRect
 &
 aRect
-PRUint32
+uint32_t
 aFlags
 nscolor
 aBackgroundColor
@@ -1298,14 +1298,14 @@ RestoreCaret
 NS_IMETHOD
 SetSelectionFlags
 (
-PRInt16
+int16_t
 aInEnable
 )
 ;
 NS_IMETHOD
 GetSelectionFlags
 (
-PRInt16
+int16_t
 *
 aOutEnable
 )
@@ -1423,9 +1423,9 @@ CheckVisibility
 nsIDOMNode
 *
 node
-PRInt16
+int16_t
 startOffset
-PRInt16
+int16_t
 EndOffset
 bool
 *
@@ -1439,9 +1439,9 @@ CheckVisibilityContent
 nsIContent
 *
 aNode
-PRInt16
+int16_t
 aStartOffset
-PRInt16
+int16_t
 aEndOffset
 bool
 *
@@ -1525,7 +1525,7 @@ const
 nsPoint
 &
 aOffset
-PRUint32
+uint32_t
 aColor
 )
 ;
@@ -1561,7 +1561,7 @@ aRootFrame
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -1574,7 +1574,7 @@ ListStyleSheets
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -1634,7 +1634,7 @@ nsRect
 aBounds
 nscolor
 aBackstopColor
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -1776,7 +1776,7 @@ mContentScrollVAxis
 ScrollAxis
 mContentScrollHAxis
 ;
-PRUint32
+uint32_t
 mContentToScrollToFlags
 ;
 }
@@ -3717,7 +3717,7 @@ nsIFrame
 *
 mCurrentReflowRoot
 ;
-PRUint32
+uint32_t
 mUpdateCount
 ;
 #
@@ -4206,7 +4206,7 @@ is
 for
 now
 .
-PRUint16
+uint16_t
 mChangeNestCount
 ;
 bool

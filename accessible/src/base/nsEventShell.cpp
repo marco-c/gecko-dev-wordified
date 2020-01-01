@@ -353,7 +353,7 @@ nsEventShell
 :
 FireEvent
 (
-PRUint32
+uint32_t
 aEventType
 Accessible
 *

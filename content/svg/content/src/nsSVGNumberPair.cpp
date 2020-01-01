@@ -251,7 +251,7 @@ return
 NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 for
@@ -680,7 +680,7 @@ nsSVGElement
 aSVGElement
 )
 {
-PRUint32
+uint32_t
 index
 =
 (

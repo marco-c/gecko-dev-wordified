@@ -134,11 +134,11 @@ const
 char
 *
 fromRawSegment
-PRUint32
+uint32_t
 toOffset
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 writeCount
 )

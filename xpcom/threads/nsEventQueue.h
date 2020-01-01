@@ -561,7 +561,7 @@ Page
 *
 mTail
 ;
-PRUint16
+uint16_t
 mOffsetHead
 ;
 /
@@ -574,7 +574,7 @@ next
 item
 is
 removed
-PRUint16
+uint16_t
 mOffsetTail
 ;
 /

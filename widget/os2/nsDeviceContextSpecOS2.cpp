@@ -450,7 +450,7 @@ mGlobalPrinterList
 nullptr
 ;
 }
-PRUint32
+uint32_t
 GetNumPrinters
 (
 )
@@ -463,7 +463,7 @@ nsString
 *
 GetStringAt
 (
-PRInt32
+int32_t
 aInx
 )
 {
@@ -700,7 +700,7 @@ printer
 /
 Setup
 Orientation
-PRInt32
+int32_t
 orientation
 ;
 aPrintSettings
@@ -789,7 +789,7 @@ Setup
 Number
 of
 Copies
-PRInt32
+int32_t
 copies
 ;
 aPrintSettings
@@ -1308,7 +1308,7 @@ aPrintSettings
 >
 SetNumCopies
 (
-PRInt32
+int32_t
 (
 pDJP
 -
@@ -1414,7 +1414,7 @@ tofile
 =
 false
 ;
-PRInt32
+int32_t
 copies
 =
 1
@@ -2024,7 +2024,7 @@ gfxASurface
 >
 newSurface
 ;
-PRInt16
+int16_t
 outputFormat
 ;
 mPrintSettings
@@ -3023,7 +3023,7 @@ nullptr
 nsAutoCharBuffer
 buffer
 ;
-PRInt32
+int32_t
 bufLength
 ;
 WideCharToMultiByte
@@ -3072,9 +3072,9 @@ aTitle
 PRUnichar
 *
 aPrintToFileName
-PRInt32
+int32_t
 aStartPage
-PRInt32
+int32_t
 aEndPage
 )
 {
@@ -3151,7 +3151,7 @@ output
 like
 PDF
 )
-PRInt16
+int16_t
 outputFormat
 ;
 mPrintSettings
@@ -3309,7 +3309,7 @@ overwrite
 it
 next
 time
-PRInt16
+int16_t
 outputFormat
 ;
 mPrintSettings
@@ -3434,7 +3434,7 @@ BeginPage
 (
 )
 {
-PRInt16
+int16_t
 outputFormat
 ;
 mPrintSettings
@@ -4190,7 +4190,7 @@ printer
 nsAutoChar16Buffer
 printerName
 ;
-PRInt32
+int32_t
 printerNameLength
 ;
 nsresult
@@ -4413,7 +4413,7 @@ printer
 nsAutoChar16Buffer
 printerName
 ;
-PRInt32
+int32_t
 printerNameLength
 ;
 MultiByteToWideChar

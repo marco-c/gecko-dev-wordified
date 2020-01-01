@@ -375,7 +375,7 @@ nsIFile
 dir
 bool
 moveToTrash
-PRUint32
+uint32_t
 delay
 =
 0
@@ -485,7 +485,7 @@ PostTimer
 void
 *
 arg
-PRUint32
+uint32_t
 delay
 )
 ;

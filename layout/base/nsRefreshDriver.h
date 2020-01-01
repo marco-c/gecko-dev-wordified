@@ -392,7 +392,7 @@ description
 void
 AdvanceTimeAndRefresh
 (
-PRInt64
+int64_t
 aMilliseconds
 )
 ;
@@ -497,7 +497,7 @@ epoch
 .
 *
 /
-PRInt64
+int64_t
 MostRecentRefreshEpochTime
 (
 )
@@ -1220,7 +1220,7 @@ ms
 *
 /
 static
-PRInt32
+int32_t
 DefaultInterval
 (
 )
@@ -1254,13 +1254,13 @@ StopTimer
 (
 )
 ;
-PRUint32
+uint32_t
 ObserverCount
 (
 )
 const
 ;
-PRUint32
+uint32_t
 ImageRequestCount
 (
 )
@@ -1311,13 +1311,13 @@ DoRefresh
 (
 )
 ;
-PRInt32
+int32_t
 GetRefreshTimerInterval
 (
 )
 const
 ;
-PRInt32
+int32_t
 GetRefreshTimerType
 (
 )
@@ -1361,7 +1361,7 @@ mTimer
 non
 -
 null
-PRInt64
+int64_t
 mMostRecentRefreshEpochTime
 ;
 /
@@ -1533,7 +1533,7 @@ interval
 yet
 .
 mutable
-PRInt32
+int32_t
 mLastTimerInterval
 ;
 /

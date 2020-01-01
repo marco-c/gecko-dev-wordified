@@ -937,7 +937,7 @@ OnStartFrame
 imgIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aFrame
 )
 {
@@ -1016,7 +1016,7 @@ OnStopFrame
 imgIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aFrame
 )
 {
@@ -1899,7 +1899,7 @@ nsImageLoadingContent
 :
 GetImageBlockingStatus
 (
-PRInt16
+int16_t
 *
 aStatus
 )
@@ -2269,7 +2269,7 @@ nsImageLoadingContent
 :
 GetRequest
 (
-PRInt32
+int32_t
 aRequestType
 imgIRequest
 *
@@ -2509,7 +2509,7 @@ GetRequestType
 imgIRequest
 *
 aRequest
-PRInt32
+int32_t
 *
 aRequestType
 )
@@ -3661,7 +3661,7 @@ Are
 we
 blocked
 ?
-PRInt16
+int16_t
 cpDecision
 =
 nsIContentPolicy
@@ -3728,7 +3728,7 @@ loadFlags
 =
 aLoadFlags
 ;
-PRInt32
+int32_t
 corsmode
 =
 GetCORSMode
@@ -3895,7 +3895,7 @@ req
 mPendingRequest
 )
 {
-PRUint32
+uint32_t
 pendingLoadStatus
 ;
 rv
@@ -4393,7 +4393,7 @@ true
 }
 else
 {
-PRUint32
+uint32_t
 currentLoadStatus
 ;
 nsresult
@@ -5096,7 +5096,7 @@ SetBlockedRequest
 nsIURI
 *
 aURI
-PRInt16
+int16_t
 aContentDecision
 )
 {
@@ -5973,7 +5973,7 @@ false
 Query
 the
 image
-PRUint32
+uint32_t
 status
 ;
 nsresult

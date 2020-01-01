@@ -506,7 +506,7 @@ nsIRDFNode
 >
 mResult
 ;
-PRInt32
+int32_t
 mNextIndex
 ;
 public
@@ -918,7 +918,7 @@ in
 the
 container
 .
-PRInt32
+int32_t
 max
 =
 0
@@ -1031,7 +1031,7 @@ nextValStr
 nsresult
 err
 ;
-PRInt32
+int32_t
 nextVal
 =
 nsAutoString

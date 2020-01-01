@@ -880,11 +880,11 @@ key
 name
 )
 ;
-PRInt32
+int32_t
 count
 =
 (
-PRInt32
+int32_t
 )
 sGEUS_ElementCounts
 .
@@ -1570,7 +1570,7 @@ aDst
 nsresult
 rv
 ;
-PRInt32
+int32_t
 i
 count
 =
@@ -3260,7 +3260,7 @@ nsGenericHTMLElement
 :
 GetOffsetTop
 (
-PRInt32
+int32_t
 *
 aOffsetTop
 )
@@ -3300,7 +3300,7 @@ nsGenericHTMLElement
 :
 GetOffsetLeft
 (
-PRInt32
+int32_t
 *
 aOffsetLeft
 )
@@ -3340,7 +3340,7 @@ nsGenericHTMLElement
 :
 GetOffsetWidth
 (
-PRInt32
+int32_t
 *
 aOffsetWidth
 )
@@ -3380,7 +3380,7 @@ nsGenericHTMLElement
 :
 GetOffsetHeight
 (
-PRInt32
+int32_t
 *
 aOffsetHeight
 )
@@ -3573,7 +3573,7 @@ mTextFragment
 Type
 mType
 ;
-PRUint32
+uint32_t
 mLength
 ;
 }
@@ -3627,7 +3627,7 @@ Unit
 :
 eAtom
 ;
-PRUint32
+uint32_t
 len
 =
 aAtom
@@ -3694,7 +3694,7 @@ Unit
 :
 eLiteral
 ;
-PRUint32
+uint32_t
 len
 =
 N
@@ -3757,7 +3757,7 @@ Unit
 :
 eLiteral
 ;
-PRUint32
+uint32_t
 len
 =
 N
@@ -3815,7 +3815,7 @@ Unit
 :
 eString
 ;
-PRUint32
+uint32_t
 len
 =
 aString
@@ -3870,7 +3870,7 @@ Unit
 :
 eString
 ;
-PRUint32
+uint32_t
 len
 =
 aString
@@ -3899,7 +3899,7 @@ AppendWithAttrEncode
 nsAutoString
 *
 aString
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -3975,7 +3975,7 @@ Unit
 :
 eTextFragment
 ;
-PRUint32
+uint32_t
 len
 =
 aTextFragment
@@ -4005,7 +4005,7 @@ const
 nsTextFragment
 *
 aTextFragment
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -4091,7 +4091,7 @@ current
 mNext
 )
 {
-PRUint32
+uint32_t
 len
 =
 current
@@ -4105,7 +4105,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4475,7 +4475,7 @@ nsAString
 aOut
 )
 {
-PRUint32
+uint32_t
 len
 =
 aValue
@@ -4509,7 +4509,7 @@ Get2b
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4637,7 +4637,7 @@ Get1b
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4784,7 +4784,7 @@ the
 linked
 list
 .
-PRUint32
+uint32_t
 mLength
 ;
 }
@@ -4802,12 +4802,12 @@ StringBuilder
 aBuilder
 )
 {
-PRUint32
+uint32_t
 extraSpaceNeeded
 =
 0
 ;
-PRUint32
+uint32_t
 len
 =
 aText
@@ -4841,7 +4841,7 @@ Get2b
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4974,7 +4974,7 @@ Get1b
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5155,7 +5155,7 @@ EndReading
 (
 )
 ;
-PRUint32
+uint32_t
 extraSpaceNeeded
 =
 0
@@ -5299,7 +5299,7 @@ Tag
 (
 )
 ;
-PRInt32
+int32_t
 tagNS
 =
 aContent
@@ -5367,7 +5367,7 @@ NodeName
 )
 ;
 }
-PRInt32
+int32_t
 count
 =
 aContent
@@ -5379,7 +5379,7 @@ GetAttrCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 count
@@ -5407,7 +5407,7 @@ GetAttrNameAt
 i
 )
 ;
-PRInt32
+int32_t
 attNs
 =
 name
@@ -6118,7 +6118,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6170,7 +6170,7 @@ tag
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6349,7 +6349,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6401,7 +6401,7 @@ tag
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7142,7 +7142,7 @@ docEncoder
 NS_ERROR_FAILURE
 )
 ;
-PRUint32
+uint32_t
 flags
 =
 nsIDocumentEncoder
@@ -7373,7 +7373,7 @@ aDoc
 nsIContent
 *
 aDest
-PRInt32
+int32_t
 aOldChildCount
 )
 {
@@ -7392,7 +7392,7 @@ there
 are
 no
 listeners
-PRInt32
+int32_t
 newChildCount
 =
 aDest
@@ -7563,7 +7563,7 @@ true
 Remove
 childnodes
 .
-PRUint32
+uint32_t
 childCount
 =
 GetChildCount
@@ -7580,7 +7580,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7628,7 +7628,7 @@ IsHTML
 )
 )
 {
-PRInt32
+int32_t
 oldChildCount
 =
 GetChildCount
@@ -7871,7 +7871,7 @@ nsIAtom
 *
 localName
 ;
-PRInt32
+int32_t
 namespaceID
 ;
 if
@@ -8486,7 +8486,7 @@ GetFirstChild
 )
 )
 {
-PRInt32
+int32_t
 oldChildCount
 =
 destination
@@ -8496,7 +8496,7 @@ GetChildCount
 (
 )
 ;
-PRInt32
+int32_t
 contextNs
 =
 destination
@@ -8839,7 +8839,7 @@ ScrollIntoView
 (
 bool
 aTop
-PRUint8
+uint8_t
 optional_argc
 )
 {
@@ -8901,7 +8901,7 @@ aTop
 true
 ;
 }
-PRInt16
+int16_t
 vpercent
 =
 aTop
@@ -9209,7 +9209,7 @@ multiline
 plaintext
 input
 ?
-PRInt32
+int32_t
 controlType
 =
 formControl
@@ -9335,7 +9335,7 @@ the
 editor
 itself
 .
-PRInt32
+int32_t
 spellcheckLevel
 =
 Preferences
@@ -10810,7 +10810,7 @@ nsGenericHTMLElement
 :
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -11374,7 +11374,7 @@ nsGenericHTMLElement
 :
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -11424,7 +11424,7 @@ aNameSpaceID
 =
 kNameSpaceID_None
 ;
-PRInt32
+int32_t
 change
 =
 0
@@ -11553,7 +11553,7 @@ nsGenericHTMLElement
 :
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -11567,7 +11567,7 @@ contentEditable
 =
 false
 ;
-PRInt32
+int32_t
 contentEditableChange
 =
 0
@@ -11949,7 +11949,7 @@ nsGenericHTMLElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -14376,7 +14376,7 @@ nsAttrValue
 eEnum
 )
 {
-PRInt32
+int32_t
 align
 =
 value
@@ -16400,7 +16400,7 @@ ValueForOverflowY
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -16468,7 +16468,7 @@ nsAttrValue
 eEnum
 )
 {
-PRInt32
+int32_t
 mappedValue
 ;
 switch
@@ -16726,9 +16726,9 @@ GetIntAttr
 nsIAtom
 *
 aAttr
-PRInt32
+int32_t
 aDefault
-PRInt32
+int32_t
 *
 aResult
 )
@@ -16796,7 +16796,7 @@ SetIntAttr
 nsIAtom
 *
 aAttr
-PRInt32
+int32_t
 aValue
 )
 {
@@ -16829,9 +16829,9 @@ GetUnsignedIntAttr
 nsIAtom
 *
 aAttr
-PRUint32
+uint32_t
 aDefault
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -16899,7 +16899,7 @@ SetUnsignedIntAttr
 nsIAtom
 *
 aAttr
-PRUint32
+uint32_t
 aValue
 )
 {
@@ -18175,7 +18175,7 @@ nsGenericHTMLFormElement
 :
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -19059,7 +19059,7 @@ nsGenericHTMLFormElement
 :
 BeforeSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -19393,7 +19393,7 @@ nsGenericHTMLFormElement
 :
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -19993,7 +19993,7 @@ CanBeDisabled
 )
 const
 {
-PRInt32
+int32_t
 type
 =
 GetType
@@ -20044,7 +20044,7 @@ aWithMouse
 bool
 *
 aIsFocusable
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -20888,7 +20888,7 @@ nsGenericHTMLFormElement
 :
 IsElementDisabledForEvents
 (
-PRUint32
+uint32_t
 aMessage
 nsIFrame
 *
@@ -21661,7 +21661,7 @@ see
 bug
 597650
 .
-PRUint32
+uint32_t
 type
 =
 GetType
@@ -22081,7 +22081,7 @@ aWithMouse
 bool
 *
 aIsFocusable
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -22142,7 +22142,7 @@ return
 true
 ;
 }
-PRInt32
+int32_t
 tabIndex
 =
 0
@@ -22446,7 +22446,7 @@ RegisterAccessKey
 (
 this
 (
-PRUint32
+uint32_t
 )
 accessKey
 .
@@ -22465,7 +22465,7 @@ UnregisterAccessKey
 (
 this
 (
-PRUint32
+uint32_t
 )
 accessKey
 .
@@ -23017,7 +23017,7 @@ RecompileScriptEventListeners
 (
 )
 {
-PRInt32
+int32_t
 i
 count
 =
@@ -23357,7 +23357,7 @@ nsGenericHTMLElement
 :
 ChangeEditableState
 (
-PRInt32
+int32_t
 aChange
 )
 {

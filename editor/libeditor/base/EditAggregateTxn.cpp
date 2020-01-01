@@ -173,7 +173,7 @@ h
 /
 /
 for
-PRUint32
+uint32_t
 EditAggregateTxn
 :
 :
@@ -212,7 +212,7 @@ EditTxn
 )
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -318,7 +318,7 @@ child
 list
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -422,7 +422,7 @@ children
 backwards
 for
 (
-PRUint32
+uint32_t
 i
 =
 mChildren
@@ -516,7 +516,7 @@ child
 list
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

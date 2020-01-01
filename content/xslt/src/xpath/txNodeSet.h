@@ -676,7 +676,7 @@ array
 nsresult
 mark
 (
-PRInt32
+int32_t
 aIndex
 )
 ;
@@ -761,14 +761,14 @@ not
 exist
 *
 /
-PRInt32
+int32_t
 indexOf
 (
 const
 txXPathNode
 &
 aNode
-PRUint32
+uint32_t
 aStart
 =
 0
@@ -870,7 +870,7 @@ txXPathNode
 &
 get
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -944,7 +944,7 @@ the
 NodeSet
 *
 /
-PRInt32
+int32_t
 size
 (
 )
@@ -995,7 +995,7 @@ mBufferEnd
 bool
 ensureGrowSize
 (
-PRInt32
+int32_t
 aSize
 )
 ;
@@ -1282,7 +1282,7 @@ mStartBuffer
 *
 mEndBuffer
 ;
-PRInt32
+int32_t
 mDirection
 ;
 /

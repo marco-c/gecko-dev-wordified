@@ -549,7 +549,7 @@ DispatchClickEvent
 nsITreeBoxObject
 *
 aTreeBoxObj
-PRInt32
+int32_t
 aRowIndex
 nsITreeColumn
 *
@@ -659,7 +659,7 @@ and
 y
 coordinates
 .
-PRInt32
+int32_t
 x
 =
 0
@@ -732,7 +732,7 @@ tcBoxObj
 )
 )
 ;
-PRInt32
+int32_t
 tcX
 =
 0
@@ -746,7 +746,7 @@ GetX
 tcX
 )
 ;
-PRInt32
+int32_t
 tcY
 =
 0
@@ -820,7 +820,7 @@ GetPresContext
 (
 )
 ;
-PRInt32
+int32_t
 cnvdX
 =
 presContext
@@ -845,7 +845,7 @@ offset
 x
 )
 ;
-PRInt32
+int32_t
 cnvdY
 =
 presContext
@@ -899,7 +899,7 @@ nsCoreUtils
 :
 DispatchMouseEvent
 (
-PRUint32
+uint32_t
 aEventType
 nsIPresShell
 *
@@ -982,7 +982,7 @@ GetPresContext
 (
 )
 ;
-PRInt32
+int32_t
 x
 =
 presContext
@@ -1001,7 +1001,7 @@ width
 2
 )
 ;
-PRInt32
+int32_t
 y
 =
 presContext
@@ -1047,11 +1047,11 @@ nsCoreUtils
 :
 DispatchMouseEvent
 (
-PRUint32
+uint32_t
 aEventType
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 nsIContent
 *
@@ -1135,7 +1135,7 @@ status
 )
 ;
 }
-PRUint32
+uint32_t
 nsCoreUtils
 :
 :
@@ -1340,7 +1340,7 @@ GetDOMNodeFromDOMPoint
 nsINode
 *
 aNode
-PRUint32
+uint32_t
 aOffset
 )
 {
@@ -1357,7 +1357,7 @@ IsElement
 )
 )
 {
-PRUint32
+uint32_t
 childCount
 =
 aNode
@@ -1652,7 +1652,7 @@ aFrame
 nsRange
 *
 aRange
-PRUint32
+uint32_t
 aScrollType
 )
 {
@@ -1877,7 +1877,7 @@ GetScreenRectExternal
 (
 )
 ;
-PRInt32
+int32_t
 devDeltaX
 =
 aPoint
@@ -1888,7 +1888,7 @@ frameRect
 .
 x
 ;
-PRInt32
+int32_t
 devDeltaY
 =
 aPoint
@@ -1960,7 +1960,7 @@ nsCoreUtils
 :
 ConvertScrollTypeToPercents
 (
-PRUint32
+uint32_t
 aScrollType
 nsIPresShell
 :
@@ -1976,7 +1976,7 @@ ScrollAxis
 aHorizontal
 )
 {
-PRInt16
+int16_t
 whereY
 whereX
 ;
@@ -2570,7 +2570,7 @@ document
 "
 )
 ;
-PRInt32
+int32_t
 contentType
 ;
 docShellTreeItem
@@ -2941,7 +2941,7 @@ aContent
 nsIAtom
 *
 aAttr
-PRInt32
+int32_t
 *
 aUInt
 )
@@ -2974,7 +2974,7 @@ error
 =
 NS_OK
 ;
-PRInt32
+int32_t
 integer
 =
 value
@@ -3421,7 +3421,7 @@ forget
 )
 ;
 }
-PRUint32
+uint32_t
 nsCoreUtils
 :
 :
@@ -3432,7 +3432,7 @@ nsITreeBoxObject
 aTree
 )
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -3537,11 +3537,11 @@ GetSensibleColumnAt
 nsITreeBoxObject
 *
 aTree
-PRUint32
+uint32_t
 aIndex
 )
 {
-PRUint32
+uint32_t
 idx
 =
 aIndex
@@ -3812,7 +3812,7 @@ aPresShell
 nsIContent
 *
 aContent
-PRUint32
+uint32_t
 aScrollType
 )
 {
@@ -4021,7 +4021,7 @@ nsAccessibleDOMStringList
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsAString
 &
@@ -4064,7 +4064,7 @@ nsAccessibleDOMStringList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )

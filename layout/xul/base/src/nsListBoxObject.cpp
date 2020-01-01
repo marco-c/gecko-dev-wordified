@@ -319,7 +319,7 @@ nsListBoxObject
 :
 GetRowCount
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -356,7 +356,7 @@ nsListBoxObject
 :
 GetNumberOfVisibleRows
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -393,7 +393,7 @@ nsListBoxObject
 :
 GetIndexOfFirstVisibleRow
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -430,7 +430,7 @@ nsListBoxObject
 :
 EnsureIndexIsVisible
 (
-PRInt32
+int32_t
 aRowIndex
 )
 {
@@ -466,7 +466,7 @@ nsListBoxObject
 :
 ScrollToIndex
 (
-PRInt32
+int32_t
 aRowIndex
 )
 {
@@ -502,7 +502,7 @@ nsListBoxObject
 :
 ScrollByLines
 (
-PRInt32
+int32_t
 aNumLines
 )
 {
@@ -538,7 +538,7 @@ nsListBoxObject
 :
 GetItemAtIndex
 (
-PRInt32
+int32_t
 index
 nsIDOMElement
 *
@@ -582,7 +582,7 @@ GetIndexOfItem
 nsIDOMElement
 *
 aElement
-PRInt32
+int32_t
 *
 aResult
 )
@@ -719,7 +719,7 @@ kids
 )
 return
 ;
-PRUint32
+uint32_t
 i
 ;
 kids

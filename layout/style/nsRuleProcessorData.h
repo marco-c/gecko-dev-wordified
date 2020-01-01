@@ -654,7 +654,7 @@ mHashes
 .
 nsTArray
 <
-PRUint32
+uint32_t
 >
 mPopTargets
 ;
@@ -2029,7 +2029,7 @@ aElement
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 bool
 aAttrHasChanged
@@ -2095,7 +2095,7 @@ for
 which
 attribute
 ?
-PRInt32
+int32_t
 mModType
 ;
 /

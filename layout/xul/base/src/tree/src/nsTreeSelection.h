@@ -253,7 +253,7 @@ firing
 onselect
 events
 .
-PRInt32
+int32_t
 mCurrentIndex
 ;
 /
@@ -278,7 +278,7 @@ nsITreeColumn
 >
 mCurrentColumn
 ;
-PRInt32
+int32_t
 mShiftSelectPivot
 ;
 /

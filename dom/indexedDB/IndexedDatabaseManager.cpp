@@ -531,12 +531,12 @@ NS_DOM_SCRIPT_OBJECT_FACTORY_CID
 ;
 namespace
 {
-PRInt32
+int32_t
 gShutdown
 =
 0
 ;
-PRInt32
+int32_t
 gClosed
 =
 0
@@ -555,7 +555,7 @@ gInstance
 =
 nullptr
 ;
-PRInt32
+int32_t
 gIndexedDBQuotaMB
 =
 DEFAULT_QUOTA_MB
@@ -676,14 +676,14 @@ const
 nsACString
 &
 aFilename
-PRInt64
+int64_t
 aCurrentSizeLimit
-PRInt64
+int64_t
 aCurrentTotalSize
 nsISupports
 *
 aUserData
-PRInt64
+int64_t
 *
 _retval
 )
@@ -912,7 +912,7 @@ pointer
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2710,7 +2710,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 mSynchronizedOps
@@ -2879,7 +2879,7 @@ origin
 "
 )
 ;
-PRUint32
+uint32_t
 count
 =
 mSynchronizedOps
@@ -2890,7 +2890,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -3293,7 +3293,7 @@ for
 .
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -3686,7 +3686,7 @@ Get
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -3878,7 +3878,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -4318,7 +4318,7 @@ nullptr
 /
 /
 static
-PRUint32
+uint32_t
 IndexedDatabaseManager
 :
 :
@@ -4327,7 +4327,7 @@ GetIndexedDBQuotaMB
 )
 {
 return
-PRUint32
+uint32_t
 (
 NS_MAX
 (
@@ -5200,7 +5200,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5256,7 +5256,7 @@ NS_ERROR_UNEXPECTED
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6062,7 +6062,7 @@ fileManager
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6202,7 +6202,7 @@ nullptr
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6308,7 +6308,7 @@ array
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6402,7 +6402,7 @@ return
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6497,7 +6497,7 @@ AsyncDeleteFile
 FileManager
 *
 aFileManager
-PRInt64
+int64_t
 aFileId
 )
 {
@@ -6827,7 +6827,7 @@ databases
 )
 ;
 }
-PRUint32
+uint32_t
 waitCount
 =
 service
@@ -7320,7 +7320,7 @@ so
 .
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -7651,7 +7651,7 @@ array
 }
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -8300,7 +8300,7 @@ IsEmpty
 )
 )
 {
-PRUint32
+uint32_t
 count
 =
 liveDatabases
@@ -8311,7 +8311,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -8431,7 +8431,7 @@ aDatabases
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -9025,10 +9025,10 @@ inline
 void
 IncrementUsage
 (
-PRUint64
+uint64_t
 *
 aUsage
-PRUint64
+uint64_t
 aDelta
 )
 {
@@ -9442,7 +9442,7 @@ if
 mCanceled
 )
 {
-PRUint64
+uint64_t
 usage
 =
 mUsage
@@ -9563,7 +9563,7 @@ GetUsageForDirectory
 nsIFile
 *
 aDirectory
-PRUint64
+uint64_t
 *
 aUsage
 )
@@ -9771,7 +9771,7 @@ rv
 continue
 ;
 }
-PRInt64
+int64_t
 fileSize
 ;
 rv
@@ -9808,7 +9808,7 @@ size
 IncrementUsage
 (
 aUsage
-PRUint64
+uint64_t
 (
 fileSize
 )
@@ -10539,7 +10539,7 @@ now
 "
 )
 ;
-PRUint32
+uint32_t
 count
 =
 mDelayedRunnables
@@ -10550,7 +10550,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

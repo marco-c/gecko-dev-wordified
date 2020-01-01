@@ -358,7 +358,7 @@ public
 :
 nsTemplateMatch
 (
-PRUint16
+uint16_t
 aQuerySetPriority
 nsIXULTemplateResult
 *
@@ -415,7 +415,7 @@ Create
 nsFixedSizeAllocator
 &
 aPool
-PRUint16
+uint16_t
 aQuerySetPriority
 nsIXULTemplateResult
 *
@@ -540,7 +540,7 @@ return
 matching
 rule
 index
-PRInt16
+int16_t
 RuleIndex
 (
 )
@@ -556,7 +556,7 @@ priority
 of
 query
 set
-PRUint16
+uint16_t
 QuerySetPriority
 (
 )
@@ -595,7 +595,7 @@ aQuerySet
 nsTemplateRule
 *
 aRule
-PRInt16
+int16_t
 aRuleIndex
 nsIXULTemplateResult
 *
@@ -627,7 +627,7 @@ active
 .
 *
 /
-PRInt16
+int16_t
 mRuleIndex
 ;
 /
@@ -644,7 +644,7 @@ this
 rule
 *
 /
-PRUint16
+uint16_t
 mQuerySetPriority
 ;
 /

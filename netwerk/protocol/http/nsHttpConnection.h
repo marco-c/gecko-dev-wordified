@@ -506,7 +506,7 @@ Init
 nsHttpConnectionInfo
 *
 info
-PRUint16
+uint16_t
 maxHangTime
 nsISocketTransport
 *
@@ -563,9 +563,9 @@ Activate
 (
 nsAHttpTransaction
 *
-PRUint8
+uint8_t
 caps
-PRInt32
+int32_t
 pri
 )
 ;
@@ -723,7 +723,7 @@ can
 be
 reused
 .
-PRUint32
+uint32_t
 TimeToLive
 (
 )
@@ -900,7 +900,7 @@ IsReused
 void
 SetIsReusedAfter
 (
-PRUint32
+uint32_t
 afterMilliseconds
 )
 ;
@@ -923,7 +923,7 @@ const
 char
 *
 data
-PRUint32
+uint32_t
 length
 )
 ;
@@ -937,7 +937,7 @@ ResumeRecv
 (
 )
 ;
-PRInt64
+int64_t
 MaxBytesRead
 (
 )
@@ -957,9 +957,9 @@ void
 const
 char
 *
-PRUint32
-PRUint32
-PRUint32
+uint32_t
+uint32_t
+uint32_t
 *
 )
 ;
@@ -1139,7 +1139,7 @@ ReadTimeoutTick
 (
 )
 ;
-PRInt64
+int64_t
 BytesWritten
 (
 )
@@ -1242,7 +1242,7 @@ EnsureNPNComplete
 void
 SetupNPN
 (
-PRUint8
+uint8_t
 caps
 )
 ;
@@ -1284,7 +1284,7 @@ spdy
 void
 StartSpdy
 (
-PRUint8
+uint8_t
 versionLevel
 )
 ;
@@ -1305,7 +1305,7 @@ AddTransaction
 (
 nsAHttpTransaction
 *
-PRInt32
+int32_t
 )
 ;
 private
@@ -1428,7 +1428,7 @@ mConsiderReusedAfterInterval
 PRIntervalTime
 mConsiderReusedAfterEpoch
 ;
-PRInt64
+int64_t
 mCurrentBytesRead
 ;
 /
@@ -1437,7 +1437,7 @@ data
 read
 per
 activation
-PRInt64
+int64_t
 mMaxBytesRead
 ;
 /
@@ -1447,7 +1447,7 @@ read
 in
 1
 activation
-PRInt64
+int64_t
 mTotalBytesRead
 ;
 /
@@ -1455,7 +1455,7 @@ mTotalBytesRead
 total
 data
 read
-PRInt64
+int64_t
 mTotalBytesWritten
 ;
 /
@@ -1526,7 +1526,7 @@ excludes
 spdy
 transactions
 .
-PRUint32
+uint32_t
 mHttp1xTransactionCount
 ;
 /
@@ -1567,7 +1567,7 @@ this
 persistent
 connection
 .
-PRUint32
+uint32_t
 mRemainingConnectionUses
 ;
 nsAHttpTransaction
@@ -1595,7 +1595,7 @@ use
 0
 if
 unused
-PRUint8
+uint8_t
 mUsingSpdyVersion
 ;
 nsRefPtr
@@ -1610,7 +1610,7 @@ ASpdySession
 >
 mSpdySession
 ;
-PRInt32
+int32_t
 mPriority
 ;
 bool

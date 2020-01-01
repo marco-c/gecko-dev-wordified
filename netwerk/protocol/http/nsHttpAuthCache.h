@@ -1246,7 +1246,7 @@ char
 realm
 )
 ;
-PRUint32
+uint32_t
 EntryCount
 (
 )
@@ -1515,7 +1515,7 @@ const
 char
 *
 host
-PRInt32
+int32_t
 port
 const
 char
@@ -1573,7 +1573,7 @@ const
 char
 *
 host
-PRInt32
+int32_t
 port
 const
 char
@@ -1654,7 +1654,7 @@ const
 char
 *
 host
-PRInt32
+int32_t
 port
 const
 char
@@ -1692,7 +1692,7 @@ const
 char
 *
 host
-PRInt32
+int32_t
 port
 const
 char
@@ -1731,7 +1731,7 @@ const
 char
 *
 host
-PRInt32
+int32_t
 port
 nsCString
 &
@@ -1788,7 +1788,7 @@ void
 PLHashEntry
 *
 he
-PRUintn
+unsigned
 flag
 )
 ;

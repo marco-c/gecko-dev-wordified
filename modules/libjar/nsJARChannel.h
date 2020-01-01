@@ -433,13 +433,13 @@ is
 empty
 *
 /
-PRUint32
+uint32_t
 mContentDisposition
 ;
-PRInt32
+int32_t
 mContentLength
 ;
-PRUint32
+uint32_t
 mLoadFlags
 ;
 nsresult

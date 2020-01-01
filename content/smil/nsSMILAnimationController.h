@@ -415,7 +415,7 @@ virtual
 void
 Pause
 (
-PRUint32
+uint32_t
 aType
 )
 ;
@@ -423,7 +423,7 @@ virtual
 void
 Resume
 (
-PRUint32
+uint32_t
 aType
 )
 ;

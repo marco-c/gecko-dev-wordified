@@ -306,12 +306,12 @@ virtual
 void
 SetLineNumber
 (
-PRUint32
+uint32_t
 aLineNumber
 )
 ;
 static
-PRUint32
+uint32_t
 ParseLinkTypes
 (
 const
@@ -570,7 +570,7 @@ mDontLoadStyle
 bool
 mUpdatesEnabled
 ;
-PRUint32
+uint32_t
 mLineNumber
 ;
 }

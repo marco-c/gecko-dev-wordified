@@ -1622,7 +1622,7 @@ const
 nsRect
 &
 aRect
-PRInt32
+int32_t
 aJust
 const
 nsString
@@ -1891,7 +1891,7 @@ nscoord
 aHeight
 )
 {
-PRInt32
+int32_t
 numStrs
 =
 0
@@ -2140,7 +2140,7 @@ nsRenderingContext
 aRenderingContext
 nsHeaderFooterEnum
 aHeaderFooter
-PRInt32
+int32_t
 aJust
 const
 nsString
@@ -2226,10 +2226,10 @@ aStr
 str
 )
 ;
-PRInt32
+int32_t
 indx
 ;
-PRInt32
+int32_t
 textWidth
 =
 0
@@ -2245,11 +2245,11 @@ get
 (
 )
 ;
-PRInt32
+int32_t
 len
 =
 (
-PRInt32
+int32_t
 )
 str
 .
@@ -2306,7 +2306,7 @@ text
 0
 0
 len
-PRInt32
+int32_t
 (
 contentWidth
 )
@@ -3040,9 +3040,9 @@ nsPageFrame
 :
 SetPageNumInfo
 (
-PRInt32
+int32_t
 aPageNumber
-PRInt32
+int32_t
 aTotalPages
 )
 {

@@ -605,12 +605,12 @@ AttributeWillChange
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -648,12 +648,12 @@ AttributeChanged
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -691,7 +691,7 @@ AttributeSetToCurrentValue
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -734,7 +734,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
+int32_t
 aNewIndexInContainer
 )
 {
@@ -774,7 +774,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 )
 {
@@ -906,7 +906,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *
@@ -1610,7 +1610,7 @@ struct
 NS_STACK_CLASS
 nsHandlerData
 {
-PRUint16
+uint16_t
 mOperation
 ;
 nsCOMPtr
@@ -1792,7 +1792,7 @@ aNodesWithProperties
 nsIDocument
 *
 aOwnerDocument
-PRUint16
+uint16_t
 aOperation
 bool
 aCloned
@@ -1943,7 +1943,7 @@ mOperation
 =
 aOperation
 ;
-PRUint32
+uint32_t
 i
 count
 =

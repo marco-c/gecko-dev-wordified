@@ -152,7 +152,7 @@ NewObjectInputStreamFromBuffer
 char
 *
 buffer
-PRUint32
+uint32_t
 len
 nsIObjectInputStream
 *
@@ -425,7 +425,7 @@ char
 *
 *
 buffer
-PRUint32
+uint32_t
 *
 len
 )
@@ -459,7 +459,7 @@ rv
 rv
 )
 ;
-PRUint64
+uint64_t
 avail64
 ;
 rv
@@ -488,11 +488,11 @@ PR_UINT32_MAX
 NS_ERROR_FILE_TOO_BIG
 )
 ;
-PRUint32
+uint32_t
 avail
 =
 (
-PRUint32
+uint32_t
 )
 avail64
 ;
@@ -509,7 +509,7 @@ avail
 ]
 )
 ;
-PRUint32
+uint32_t
 read
 ;
 rv

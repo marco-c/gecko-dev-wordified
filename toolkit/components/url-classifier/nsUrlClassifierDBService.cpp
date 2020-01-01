@@ -579,7 +579,7 @@ gShuttingDownThread
 false
 ;
 static
-PRInt32
+int32_t
 gFreshnessGuarantee
 =
 CONFIRM_AGE_DEFAULT_SEC
@@ -775,7 +775,7 @@ NS_DECL_NSIURLCLASSIFIERDBSERVICEWORKER
 nsresult
 Init
 (
-PRInt32
+int32_t
 gethashNoise
 nsCOMPtr
 <
@@ -954,7 +954,7 @@ aPrefix
 const
 nsCString
 tableName
-PRInt32
+int32_t
 aCount
 LookupResultArray
 &
@@ -1025,7 +1025,7 @@ TableUpdate
 >
 mTableUpdates
 ;
-PRInt32
+int32_t
 mUpdateWait
 ;
 /
@@ -1099,7 +1099,7 @@ hash
 key
 to
 rehash
-PRUint32
+uint32_t
 mHashKey
 ;
 /
@@ -1118,7 +1118,7 @@ of
 lookup
 results
 .
-PRInt32
+int32_t
 mGethashNoise
 ;
 /
@@ -1265,7 +1265,7 @@ nsUrlClassifierDBServiceWorker
 :
 Init
 (
-PRInt32
+int32_t
 gethashNoise
 nsCOMPtr
 <
@@ -1730,7 +1730,7 @@ LookupResultArray
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1788,7 +1788,7 @@ i
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2018,7 +2018,7 @@ Telemetry
 URLCLASSIFIER_LOOKUP_TIME
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 lookupTime
@@ -2042,7 +2042,7 @@ aPrefix
 const
 nsCString
 tableName
-PRInt32
+int32_t
 aCount
 LookupResultArray
 &
@@ -2086,7 +2086,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3858,7 +3858,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3884,7 +3884,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 table
 =
 0
@@ -4155,7 +4155,7 @@ results
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4530,7 +4530,7 @@ CacheResultArray
 >
 mCacheResults
 ;
-PRUint32
+uint32_t
 mPendingCompletions
 ;
 nsCOMPtr
@@ -4655,7 +4655,7 @@ completed
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4960,7 +4960,7 @@ const
 nsACString
 &
 tableName
-PRUint32
+uint32_t
 chunkId
 bool
 verified
@@ -5117,7 +5117,7 @@ results
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5246,7 +5246,7 @@ tables
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5592,7 +5592,7 @@ tableStr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6241,7 +6241,7 @@ do_GetService
 NS_PREFSERVICE_CONTRACTID
 )
 ;
-PRInt32
+int32_t
 gethashNoise
 =
 0
@@ -6379,7 +6379,7 @@ this
 false
 )
 ;
-PRInt32
+int32_t
 tmpint
 ;
 rv
@@ -7040,7 +7040,7 @@ if
 permissionManager
 )
 {
-PRUint32
+uint32_t
 perm
 ;
 rv
@@ -7837,7 +7837,7 @@ aData
 )
 )
 {
-PRInt32
+int32_t
 tmpint
 ;
 rv

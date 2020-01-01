@@ -283,7 +283,7 @@ rv
 false
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -446,7 +446,7 @@ rv
 false
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for

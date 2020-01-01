@@ -420,7 +420,7 @@ nsDOMMutationEvent
 :
 GetAttrChange
 (
-PRUint16
+uint16_t
 *
 aAttrChange
 )
@@ -491,7 +491,7 @@ const
 nsAString
 &
 aAttrNameArg
-PRUint16
+uint16_t
 aAttrChangeArg
 )
 {

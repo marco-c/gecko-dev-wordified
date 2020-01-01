@@ -1986,7 +1986,7 @@ aCmdLineString
 nsIFile
 *
 aWorkingDir
-PRUint32
+uint32_t
 aState
 )
 ;
@@ -6295,7 +6295,7 @@ nsAString
 aString
 )
 {
-PRInt32
+int32_t
 offset
 =
 -
@@ -8300,16 +8300,16 @@ the
 arg
 .
 static
-PRInt32
+int32_t
 advanceToEndOfQuotedArg
 (
 const
 char
 *
 p
-PRInt32
+int32_t
 offset
-PRInt32
+int32_t
 len
 )
 {
@@ -8470,7 +8470,7 @@ the
 desired
 arg
 .
-PRInt32
+int32_t
 offset
 =
 -
@@ -8641,7 +8641,7 @@ argument
 we
 want
 .
-PRInt32
+int32_t
 end
 =
 advanceToEndOfQuotedArg
@@ -8975,7 +8975,7 @@ aCmdLineString
 nsIFile
 *
 aWorkingDir
-PRUint32
+uint32_t
 aState
 )
 {

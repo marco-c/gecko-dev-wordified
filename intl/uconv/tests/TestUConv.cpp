@@ -2127,7 +2127,7 @@ n
 "
 )
 ;
-PRUint32
+uint32_t
 encCount
 =
 0
@@ -2135,7 +2135,7 @@ decCount
 =
 0
 ;
-PRUint32
+uint32_t
 basicEncCount
 =
 0
@@ -2207,7 +2207,7 @@ nsAutoString
 prop
 str
 ;
-PRUint32
+uint32_t
 count
 =
 allCharsets
@@ -2218,7 +2218,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3267,14 +3267,14 @@ dest
 aDest
 )
 ;
-PRInt32
+int32_t
 srcLen
 =
 aSrcEnd
 -
 src
 ;
-PRInt32
+int32_t
 destLen
 =
 aDestEnd
@@ -3346,7 +3346,7 @@ dest
 aDest
 )
 ;
-PRInt32
+int32_t
 destLen
 =
 aDestEnd

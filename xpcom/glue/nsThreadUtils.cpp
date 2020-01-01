@@ -329,7 +329,7 @@ result
 nsIRunnable
 *
 event
-PRUint32
+uint32_t
 stackSize
 )
 {
@@ -778,7 +778,7 @@ NS_DispatchToMainThread
 nsIRunnable
 *
 event
-PRUint32
+uint32_t
 dispatchFlags
 )
 {

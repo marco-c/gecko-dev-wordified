@@ -476,9 +476,9 @@ nsIDocument
 aDoc
 bool
 doPutOnClipboard
-PRInt16
+int16_t
 aClipboardID
-PRUint32
+uint32_t
 aFlags
 nsITransferable
 *
@@ -713,7 +713,7 @@ bug
 #
 524975
 )
-PRUint32
+uint32_t
 flags
 =
 aFlags
@@ -1695,7 +1695,7 @@ aSel
 nsIDocument
 *
 aDoc
-PRInt16
+int16_t
 aClipboardID
 )
 {
@@ -1879,7 +1879,7 @@ skip
 invisible
 content
 .
-PRUint32
+uint32_t
 flags
 =
 0
@@ -2164,7 +2164,7 @@ nsIDOMNode
 >
 commonParent
 ;
-PRInt32
+int32_t
 count
 =
 0
@@ -2619,7 +2619,7 @@ const
 nsACString
 &
 aMimeType
-PRUint32
+uint32_t
 aFlags
 nsISelection
 *
@@ -2673,7 +2673,7 @@ docEncoder
 NS_ERROR_FAILURE
 )
 ;
-PRUint32
+uint32_t
 flags
 =
 aFlags
@@ -2806,7 +2806,7 @@ aImageElement
 nsILoadContext
 *
 aLoadContext
-PRInt32
+int32_t
 aCopyFlags
 )
 {
@@ -3885,7 +3885,7 @@ nsCopySupport
 :
 FireClipboardEvent
 (
-PRInt32
+int32_t
 aType
 nsIPresShell
 *

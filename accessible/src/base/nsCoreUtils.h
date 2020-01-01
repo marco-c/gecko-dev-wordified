@@ -271,7 +271,7 @@ DispatchClickEvent
 nsITreeBoxObject
 *
 aTreeBoxObj
-PRInt32
+int32_t
 aRowIndex
 nsITreeColumn
 *
@@ -342,7 +342,7 @@ static
 bool
 DispatchMouseEvent
 (
-PRUint32
+uint32_t
 aEventType
 nsIPresShell
 *
@@ -451,11 +451,11 @@ static
 void
 DispatchMouseEvent
 (
-PRUint32
+uint32_t
 aEventType
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 nsIContent
 *
@@ -507,7 +507,7 @@ element
 *
 /
 static
-PRUint32
+uint32_t
 GetAccessKeyFor
 (
 nsIContent
@@ -601,7 +601,7 @@ GetDOMNodeFromDOMPoint
 nsINode
 *
 aNode
-PRUint32
+uint32_t
 aOffset
 )
 ;
@@ -876,7 +876,7 @@ aFrame
 nsRange
 *
 aRange
-PRUint32
+uint32_t
 aScrollType
 )
 ;
@@ -1065,7 +1065,7 @@ static
 void
 ConvertScrollTypeToPercents
 (
-PRUint32
+uint32_t
 aScrollType
 nsIPresShell
 :
@@ -1429,7 +1429,7 @@ aContent
 nsIAtom
 *
 aAttr
-PRInt32
+int32_t
 *
 aUInt
 )
@@ -1637,7 +1637,7 @@ object
 *
 /
 static
-PRUint32
+uint32_t
 GetSensibleColumnCount
 (
 nsITreeBoxObject
@@ -1675,7 +1675,7 @@ GetSensibleColumnAt
 nsITreeBoxObject
 *
 aTree
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -1786,7 +1786,7 @@ aPresShell
 nsIContent
 *
 aContent
-PRUint32
+uint32_t
 aScrollType
 )
 ;

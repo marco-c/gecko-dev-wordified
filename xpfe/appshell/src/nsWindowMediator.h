@@ -251,7 +251,7 @@ NS_DECL_NSIWINDOWMEDIATOR
 NS_DECL_NSIOBSERVER
 private
 :
-PRInt32
+int32_t
 AddEnumerator
 (
 nsAppShellWindowEnumerator
@@ -259,7 +259,7 @@ nsAppShellWindowEnumerator
 inEnumerator
 )
 ;
-PRInt32
+int32_t
 RemoveEnumerator
 (
 nsAppShellWindowEnumerator
@@ -328,7 +328,7 @@ nsWindowInfo
 *
 mTopmostWindow
 ;
-PRInt32
+int32_t
 mTimeStamp
 ;
 bool

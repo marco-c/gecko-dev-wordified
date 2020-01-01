@@ -587,7 +587,7 @@ define
 NS_HTTP_VERSION_1_1
 11
 typedef
-PRUint8
+uint8_t
 nsHttpVersion
 ;
 /
@@ -1808,7 +1808,7 @@ char
 *
 *
 next
-PRInt64
+int64_t
 *
 result
 )
@@ -1844,7 +1844,7 @@ const
 char
 *
 input
-PRInt64
+int64_t
 *
 result
 )
@@ -2116,7 +2116,7 @@ utilities
 -
 static
 inline
-PRUint32
+uint32_t
 PRTimeToSeconds
 (
 PRTime
@@ -2124,7 +2124,7 @@ t_usec
 )
 {
 return
-PRUint32
+uint32_t
 (
 t_usec
 /

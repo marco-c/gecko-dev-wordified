@@ -854,7 +854,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -1187,7 +1187,7 @@ rely
 on
 it
 .
-PRInt32
+int32_t
 finalsub
 =
 mFinalCharLogicalScore

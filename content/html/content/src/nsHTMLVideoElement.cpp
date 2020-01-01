@@ -362,7 +362,7 @@ nsHTMLVideoElement
 :
 GetVideoWidth
 (
-PRUint32
+uint32_t
 *
 aVideoWidth
 )
@@ -404,7 +404,7 @@ nsHTMLVideoElement
 :
 GetVideoHeight
 (
-PRUint32
+uint32_t
 *
 aVideoHeight
 )
@@ -596,7 +596,7 @@ nsHTMLVideoElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -875,7 +875,7 @@ nsHTMLVideoElement
 :
 GetMozParsedFrames
 (
-PRUint32
+uint32_t
 *
 aMozParsedFrames
 )
@@ -923,7 +923,7 @@ nsHTMLVideoElement
 :
 GetMozDecodedFrames
 (
-PRUint32
+uint32_t
 *
 aMozDecodedFrames
 )
@@ -971,7 +971,7 @@ nsHTMLVideoElement
 :
 GetMozPresentedFrames
 (
-PRUint32
+uint32_t
 *
 aMozPresentedFrames
 )
@@ -1019,7 +1019,7 @@ nsHTMLVideoElement
 :
 GetMozPaintedFrames
 (
-PRUint32
+uint32_t
 *
 aMozPaintedFrames
 )

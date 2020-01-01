@@ -352,7 +352,7 @@ mozilla
 ;
 static
 const
-PRUint32
+uint32_t
 kRescheduleLimit
 =
 3
@@ -372,7 +372,7 @@ app
 .
 static
 const
-PRUint32
+uint32_t
 kPinnedEntryRetriesLimit
 =
 3
@@ -387,7 +387,7 @@ items
 loads
 static
 const
-PRUint32
+uint32_t
 kParallelLoadLimit
 =
 15
@@ -402,7 +402,7 @@ when
 preloading
 static
 const
-PRInt32
+int32_t
 kCustomProfileQuota
 =
 512000
@@ -507,7 +507,7 @@ public
 :
 AutoFreeArray
 (
-PRUint32
+uint32_t
 count
 char
 *
@@ -540,7 +540,7 @@ mValues
 }
 private
 :
-PRUint32
+uint32_t
 mCount
 ;
 char
@@ -828,11 +828,11 @@ const
 char
 *
 aFromSegment
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aBytesConsumed
 )
@@ -1545,11 +1545,11 @@ const
 char
 *
 aFromSegment
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aBytesConsumed
 )
@@ -1588,7 +1588,7 @@ Update
 reinterpret_cast
 <
 const
-PRUint8
+uint8_t
 *
 >
 (
@@ -1804,13 +1804,13 @@ aContext
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
-PRUint32
+uint32_t
 bytesRead
 ;
 aStream
@@ -2272,7 +2272,7 @@ aOldChannel
 nsIChannel
 *
 aNewChannel
-PRUint32
+uint32_t
 aFlags
 nsIAsyncVerifyRedirectCallback
 *
@@ -2684,7 +2684,7 @@ aApplicationCache
 nsIApplicationCache
 *
 aPreviousApplicationCache
-PRUint32
+uint32_t
 type
 )
 :
@@ -3259,13 +3259,13 @@ aContext
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
-PRUint32
+uint32_t
 bytesRead
 =
 0
@@ -4148,7 +4148,7 @@ aOldChannel
 nsIChannel
 *
 aNewChannel
-PRUint32
+uint32_t
 aFlags
 nsIAsyncVerifyRedirectCallback
 *
@@ -4630,7 +4630,7 @@ nsOfflineCacheUpdateItem
 :
 GetTotalSize
 (
-PRInt32
+int32_t
 *
 aTotalSize
 )
@@ -4666,7 +4666,7 @@ nsOfflineCacheUpdateItem
 :
 GetLoadedSize
 (
-PRInt32
+int32_t
 *
 aLoadedSize
 )
@@ -4686,7 +4686,7 @@ nsOfflineCacheUpdateItem
 :
 GetReadyState
 (
-PRUint16
+uint16_t
 *
 aReadyState
 )
@@ -4921,7 +4921,7 @@ nsOfflineCacheUpdateItem
 :
 GetStatus
 (
-PRUint16
+uint16_t
 *
 aStatus
 )
@@ -4963,7 +4963,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 httpStatus
 ;
 rv
@@ -5003,7 +5003,7 @@ rv
 *
 aStatus
 =
-PRUint16
+uint16_t
 (
 httpStatus
 )
@@ -5579,11 +5579,11 @@ const
 char
 *
 aFromSegment
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aBytesConsumed
 )
@@ -5775,7 +5775,7 @@ Update
 reinterpret_cast
 <
 const
-PRUint8
+uint8_t
 *
 >
 (
@@ -5988,7 +5988,7 @@ nsOfflineManifestItem
 :
 AddNamespace
 (
-PRUint32
+uint32_t
 namespaceType
 const
 nsCString
@@ -6658,7 +6658,7 @@ case
 PARSE_FALLBACK_ENTRIES
 :
 {
-PRInt32
+int32_t
 separator
 =
 line
@@ -7775,13 +7775,13 @@ aContext
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
-PRUint32
+uint32_t
 bytesRead
 =
 0
@@ -9194,7 +9194,7 @@ GetExplicitURIs
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -9250,7 +9250,7 @@ GetFallbackURIs
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -9593,7 +9593,7 @@ these
 is
 returned
 .
-PRUint16
+uint16_t
 status
 ;
 rv
@@ -9908,7 +9908,7 @@ rv
 succeeded
 )
 {
-PRUint32
+uint32_t
 dummy_cache_type
 ;
 rv
@@ -10540,7 +10540,7 @@ cached
 .
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -10804,7 +10804,7 @@ running
 downloads
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -11022,7 +11022,7 @@ nsOfflineCacheUpdate
 :
 AddExistingItems
 (
-PRUint32
+uint32_t
 aType
 nsTArray
 <
@@ -11080,7 +11080,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 count
 =
 0
@@ -11122,7 +11122,7 @@ keys
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -11148,7 +11148,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -11330,14 +11330,14 @@ runItem
 =
 nullptr
 ;
-PRUint32
+uint32_t
 completedItems
 =
 0
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -11741,7 +11741,7 @@ aObservers
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -11797,7 +11797,7 @@ i
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -11836,7 +11836,7 @@ nsOfflineCacheUpdate
 :
 NotifyState
 (
-PRUint32
+uint32_t
 state
 )
 {
@@ -11882,7 +11882,7 @@ rv
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -11950,7 +11950,7 @@ rv
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -12101,7 +12101,7 @@ nsOfflineCacheUpdate
 :
 OnByteProgress
 (
-PRUint64
+uint64_t
 byteIncrement
 )
 {
@@ -12246,7 +12246,7 @@ rv
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -12500,7 +12500,7 @@ as
 failures
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -12601,7 +12601,7 @@ EvictOneOfCacheGroups
 nsIApplicationCacheService
 *
 cacheService
-PRUint32
+uint32_t
 count
 const
 char
@@ -12790,7 +12790,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 count
 ;
 char
@@ -13034,7 +13034,7 @@ nsOfflineCacheUpdate
 :
 GetStatus
 (
-PRUint16
+uint16_t
 *
 aStatus
 )
@@ -13215,7 +13215,7 @@ AddURI
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aType
 )
 {
@@ -13304,7 +13304,7 @@ twice
 .
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -13477,7 +13477,7 @@ aURI
 key
 )
 ;
-PRUint32
+uint32_t
 types
 ;
 nsresult
@@ -13673,7 +13673,7 @@ NS_ERROR_NOT_INITIALIZED
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -13727,7 +13727,7 @@ NS_OK
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -13778,7 +13778,7 @@ nsOfflineCacheUpdate
 :
 GetByteProgress
 (
-PRUint64
+uint64_t
 *
 _result
 )
@@ -13862,7 +13862,7 @@ UpdateStateChanged
 nsIOfflineCacheUpdate
 *
 aUpdate
-PRUint32
+uint32_t
 aState
 )
 {

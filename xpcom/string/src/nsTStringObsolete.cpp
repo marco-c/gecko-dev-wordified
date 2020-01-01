@@ -138,7 +138,7 @@ iterations
 )
 *
 /
-PRInt32
+int32_t
 nsTString_CharT
 :
 :
@@ -150,9 +150,9 @@ nsCString
 aString
 bool
 aIgnoreCase
-PRInt32
+int32_t
 aOffset
-PRInt32
+int32_t
 aCount
 )
 const
@@ -181,7 +181,7 @@ aOffset
 aCount
 )
 ;
-PRInt32
+int32_t
 result
 =
 FindSubstring
@@ -219,7 +219,7 @@ return
 result
 ;
 }
-PRInt32
+int32_t
 nsTString_CharT
 :
 :
@@ -231,9 +231,9 @@ char
 aString
 bool
 aIgnoreCase
-PRInt32
+int32_t
 aOffset
-PRInt32
+int32_t
 aCount
 )
 const
@@ -277,7 +277,7 @@ iterations
 )
 *
 /
-PRInt32
+int32_t
 nsTString_CharT
 :
 :
@@ -289,9 +289,9 @@ nsCString
 aString
 bool
 aIgnoreCase
-PRInt32
+int32_t
 aOffset
-PRInt32
+int32_t
 aCount
 )
 const
@@ -320,7 +320,7 @@ aOffset
 aCount
 )
 ;
-PRInt32
+int32_t
 result
 =
 RFindSubstring
@@ -358,7 +358,7 @@ return
 result
 ;
 }
-PRInt32
+int32_t
 nsTString_CharT
 :
 :
@@ -370,9 +370,9 @@ char
 aString
 bool
 aIgnoreCase
-PRInt32
+int32_t
 aOffset
-PRInt32
+int32_t
 aCount
 )
 const
@@ -400,7 +400,7 @@ nsTString
 RFindChar
 *
 /
-PRInt32
+int32_t
 nsTString_CharT
 :
 :
@@ -408,9 +408,9 @@ RFindChar
 (
 PRUnichar
 aChar
-PRInt32
+int32_t
 aOffset
-PRInt32
+int32_t
 aCount
 )
 const
@@ -442,7 +442,7 @@ nsTString
 FindCharInSet
 *
 /
-PRInt32
+int32_t
 nsTString_CharT
 :
 :
@@ -452,7 +452,7 @@ const
 char
 *
 aSet
-PRInt32
+int32_t
 aOffset
 )
 const
@@ -473,7 +473,7 @@ if
 aOffset
 >
 =
-PRInt32
+int32_t
 (
 mLength
 )
@@ -481,7 +481,7 @@ mLength
 return
 kNotFound
 ;
-PRInt32
+int32_t
 result
 =
 :
@@ -523,7 +523,7 @@ nsTString
 RFindCharInSet
 *
 /
-PRInt32
+int32_t
 nsTString_CharT
 :
 :
@@ -533,7 +533,7 @@ const
 CharT
 *
 aSet
-PRInt32
+int32_t
 aOffset
 )
 const
@@ -562,7 +562,7 @@ aOffset
 |
 aOffset
 >
-PRInt32
+int32_t
 (
 mLength
 )
@@ -628,7 +628,7 @@ indentation
 :
 -
 /
-PRInt32
+int32_t
 nsTString_CharT
 :
 :
@@ -637,7 +637,7 @@ ToInteger
 nsresult
 *
 aErrorCode
-PRUint32
+uint32_t
 aRadix
 )
 const
@@ -648,7 +648,7 @@ cp
 =
 mData
 ;
-PRInt32
+int32_t
 theRadix
 =
 10
@@ -669,7 +669,7 @@ aRadix
 =
 kAutoDetect
 )
-PRInt32
+int32_t
 result
 =
 0
@@ -998,7 +998,7 @@ cp
 endcp
 )
 {
-PRInt32
+int32_t
 oldresult
 =
 result
@@ -1406,7 +1406,7 @@ nsTString
 Mid
 *
 /
-PRUint32
+uint32_t
 nsTString_CharT
 :
 :
@@ -1475,7 +1475,7 @@ SetCharAt
 (
 PRUnichar
 aChar
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -1631,7 +1631,7 @@ OOM
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1705,7 +1705,7 @@ data
 =
 mData
 ;
-PRUint32
+uint32_t
 lenRemaining
 =
 mLength
@@ -1715,7 +1715,7 @@ while
 lenRemaining
 )
 {
-PRInt32
+int32_t
 i
 =
 :
@@ -1815,7 +1815,7 @@ Length
 )
 return
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -1827,7 +1827,7 @@ i
 mLength
 )
 {
-PRInt32
+int32_t
 r
 =
 FindSubstring
@@ -2013,7 +2013,7 @@ start
 end
 ;
 }
-PRUint32
+uint32_t
 setLen
 =
 nsCharTraits
@@ -2032,14 +2032,14 @@ if
 aTrimLeading
 )
 {
-PRUint32
+uint32_t
 cutStart
 =
 start
 -
 mData
 ;
-PRUint32
+uint32_t
 cutLength
 =
 0
@@ -2068,7 +2068,7 @@ start
 cutLength
 )
 {
-PRInt32
+int32_t
 pos
 =
 FindChar1
@@ -2127,14 +2127,14 @@ if
 aTrimTrailing
 )
 {
-PRUint32
+uint32_t
 cutEnd
 =
 end
 -
 mData
 ;
-PRUint32
+uint32_t
 cutLength
 =
 0
@@ -2167,7 +2167,7 @@ end
 cutLength
 )
 {
-PRInt32
+int32_t
 pos
 =
 FindChar1
@@ -2300,7 +2300,7 @@ const
 incompatible_char_type
 *
 aData
-PRInt32
+int32_t
 aLength
 )
 {
