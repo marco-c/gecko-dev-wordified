@@ -4459,10 +4459,12 @@ aRenderingContext
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 :
 :
 IntrinsicSize
+&
 aIntrinsicSize
 nsSize
 aIntrinsicRatio
