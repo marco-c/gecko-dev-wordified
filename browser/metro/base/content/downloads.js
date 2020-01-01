@@ -369,6 +369,13 @@ dh_uninit
 (
 )
 {
+if
+(
+this
+.
+_inited
+)
+{
 Services
 .
 obs
@@ -397,6 +404,7 @@ done
 "
 )
 ;
+}
 }
 openDownload
 :
