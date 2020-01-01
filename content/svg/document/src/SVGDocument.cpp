@@ -513,12 +513,6 @@ SVGDocument
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-clone
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 nsresult
 rv
 =

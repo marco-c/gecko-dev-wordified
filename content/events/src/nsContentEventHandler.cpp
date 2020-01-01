@@ -7309,12 +7309,6 @@ nsRange
 mRootContent
 )
 ;
-NS_ENSURE_TRUE
-(
-range
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 rv
 =
 SetRangeFromFlatTextOffset

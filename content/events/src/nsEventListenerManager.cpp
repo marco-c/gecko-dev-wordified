@@ -7085,12 +7085,6 @@ mFlags
 mInSystemGroup
 )
 ;
-NS_ENSURE_TRUE
-(
-info
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 aList
 -
 >

@@ -464,12 +464,6 @@ aPresContext
 aEvent
 )
 ;
-NS_ENSURE_TRUE
-(
-it
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 return
 CallQueryInterface
 (

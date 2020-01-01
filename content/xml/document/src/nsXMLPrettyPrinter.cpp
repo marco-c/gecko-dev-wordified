@@ -1389,13 +1389,6 @@ aPrinter
 new
 nsXMLPrettyPrinter
 ;
-NS_ENSURE_TRUE
-(
-*
-aPrinter
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 NS_ADDREF
 (
 *
