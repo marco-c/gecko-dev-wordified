@@ -12111,11 +12111,14 @@ v
 .
 setNumber
 (
+uint32
+(
 str
 -
 >
 length
 (
+)
 )
 )
 ;
