@@ -1196,7 +1196,7 @@ new
 SimpleDateFormat
 (
 "
-kk
+HH
 :
 mm
 "
@@ -1291,7 +1291,7 @@ yyyy
 MM
 -
 dd
-kk
+HH
 :
 mm
 "
@@ -1534,7 +1534,7 @@ return
 formatDateString
 (
 "
-kk
+HH
 :
 mm
 "
@@ -1649,7 +1649,7 @@ yyyy
 MM
 -
 dd
-kk
+HH
 :
 mm
 "
@@ -1700,7 +1700,7 @@ yyyy
 MM
 -
 dd
-kk
+HH
 :
 mm
 "
