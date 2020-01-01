@@ -860,7 +860,7 @@ getEventTime
 ;
 mPointerInfo
 .
-push
+addFirst
 (
 PointerInfo
 .
