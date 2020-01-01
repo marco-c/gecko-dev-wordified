@@ -7382,7 +7382,7 @@ PrepareToUseCaretPosition
 nsIWidget
 *
 aEventWidget
-nsPoint
+nsIntPoint
 &
 aTargetPt
 )
@@ -7422,7 +7422,7 @@ nsIContent
 *
 *
 aTargetToUse
-nsPoint
+nsIntPoint
 &
 aTargetPt
 )
@@ -36359,7 +36359,7 @@ position
 for
 the
 popup
-nsPoint
+nsIntPoint
 caretPoint
 ;
 /
