@@ -881,11 +881,6 @@ Init
 (
 mEditor
 child
--
->
-AsDOMNode
-(
-)
 mRangeUpdater
 )
 ;
@@ -1163,11 +1158,6 @@ Init
 (
 mEditor
 node
--
->
-AsDOMNode
-(
-)
 mRangeUpdater
 )
 ;
