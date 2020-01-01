@@ -3297,7 +3297,7 @@ fp
 .
 file
 .
-persistentDescriptor
+path
 )
 ;
 }
