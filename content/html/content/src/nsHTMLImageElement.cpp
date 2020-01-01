@@ -432,13 +432,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLImageElement
-.
-h
-"
-#
-include
-"
 nsIDOMEventTarget
 .
 h
@@ -691,8 +684,6 @@ nsImageLoadingContent
 public
 nsIDOMHTMLImageElement
 public
-nsIDOMNSHTMLImageElement
-public
 nsIJSNativeInitializer
 {
 public
@@ -747,10 +738,6 @@ nsGenericHTMLElement
 /
 nsIDOMHTMLImageElement
 NS_DECL_NSIDOMHTMLIMAGEELEMENT
-/
-/
-nsIDOMNSHTMLImageElement
-NS_DECL_NSIDOMNSHTMLIMAGEELEMENT
 /
 /
 override
@@ -1210,11 +1197,10 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLImageElement
 )
-NS_HTML_CONTENT_INTERFACE_TABLE6
+NS_HTML_CONTENT_INTERFACE_TABLE5
 (
 nsHTMLImageElement
 nsIDOMHTMLImageElement
-nsIDOMNSHTMLImageElement
 nsIJSNativeInitializer
 imgIDecoderObserver
 nsIImageLoadingContent
