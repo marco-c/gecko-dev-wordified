@@ -1901,13 +1901,11 @@ all
 leaf
 frames
 that
-does
+aren
+'
+t
 *
-not
-have
-the
-NS_FRAME_SELECTED_CONTENT
-bit
+selected
 .
 *
 /
