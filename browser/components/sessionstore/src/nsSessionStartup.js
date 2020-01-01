@@ -1,6 +1,5 @@
 /
 *
-#
 This
 Source
 Code
@@ -14,7 +13,7 @@ of
 the
 Mozilla
 Public
-#
+*
 License
 v
 .
@@ -33,7 +32,7 @@ not
 distributed
 with
 this
-#
+*
 file
 You
 can
@@ -60,18 +59,14 @@ MPL
 /
 *
 *
-#
 *
 Session
 Storage
 and
 Restoration
-#
 *
-#
 *
 Overview
-#
 *
 This
 service
@@ -87,7 +82,6 @@ and
 makes
 a
 determination
-#
 *
 as
 to
@@ -103,7 +97,6 @@ will
 restore
 the
 session
-#
 *
 under
 the
@@ -118,7 +111,6 @@ auto
 start
 Private
 Browsing
-#
 *
 mode
 is
@@ -130,13 +122,10 @@ is
 never
 restored
 .
-#
 *
-#
 *
 Crash
 Detection
-#
 *
 The
 session
@@ -148,7 +137,6 @@ session
 state
 property
 that
-#
 *
 indicates
 whether
@@ -162,7 +150,6 @@ When
 the
 browser
 shuts
-#
 *
 down
 the
@@ -181,7 +168,6 @@ field
 is
 read
 and
-#
 *
 if
 its
@@ -200,7 +186,6 @@ the
 browser
 had
 previously
-#
 *
 crashed
 or
@@ -216,19 +201,15 @@ and
 that
 we
 should
-#
 *
 restore
 the
 session
 .
-#
 *
-#
 *
 Forced
 Restarts
-#
 *
 In
 the
@@ -244,7 +225,6 @@ application
 update
 or
 extension
-#
 *
 installation
 set
@@ -257,7 +237,6 @@ resume_session_once
 pref
 to
 true
-#
 *
 and
 the
@@ -272,13 +251,10 @@ the
 browser
 starts
 .
-#
 *
-#
 *
 Always
 Resume
-#
 *
 This
 service
@@ -291,7 +267,6 @@ if
 the
 integer
 pref
-#
 *
 browser
 .

@@ -1,4 +1,5 @@
-#
+/
+*
 -
 *
 -
@@ -34,7 +35,8 @@ offset
 -
 *
 /
-#
+/
+*
 This
 Source
 Code
@@ -48,7 +50,7 @@ of
 the
 Mozilla
 Public
-#
+*
 License
 v
 .
@@ -67,7 +69,7 @@ not
 distributed
 with
 this
-#
+*
 file
 You
 can
@@ -89,6 +91,8 @@ MPL
 0
 /
 .
+*
+/
 Components
 .
 utils
