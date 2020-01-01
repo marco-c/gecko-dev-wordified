@@ -7811,9 +7811,9 @@ time
 result
 =
 (
-localtime
--
 utctime
+-
+localtime
 )
 /
 msPerMinute
