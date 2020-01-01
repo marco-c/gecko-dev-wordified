@@ -395,11 +395,17 @@ function
 (
 name
 )
+{
 set
 (
 name
 null
 )
+;
+return
+true
+;
+}
 /
 /
 We

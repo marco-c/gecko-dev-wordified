@@ -1594,7 +1594,6 @@ removeObserver
 (
 nsIObserver
 topic
-false
 )
 ;
 events
