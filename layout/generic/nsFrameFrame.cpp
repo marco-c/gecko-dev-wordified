@@ -2480,6 +2480,7 @@ aBuilder
 )
 nsDisplayRemote
 (
+aBuilder
 this
 rfp
 )
