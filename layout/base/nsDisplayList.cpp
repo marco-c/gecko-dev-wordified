@@ -629,6 +629,10 @@ mCurrentTableItem
 (
 nsnull
 )
+mFinalTransparentRegion
+(
+nsnull
+)
 mMode
 (
 aMode
