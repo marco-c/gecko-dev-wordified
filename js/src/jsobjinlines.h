@@ -9694,7 +9694,7 @@ GlobalObject
 global
 JSProtoKey
 key
-JSFunction
+JSObject
 *
 ctor
 JSObject

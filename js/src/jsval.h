@@ -2187,9 +2187,6 @@ u32
 JSWhyMagic
 why
 ;
-jsuword
-word
-;
 }
 payload
 ;
@@ -2202,6 +2199,9 @@ asDouble
 void
 *
 asPtr
+;
+jsuword
+asWord
 ;
 }
 jsval_layout
@@ -2316,6 +2316,9 @@ debugView
 ;
 struct
 {
+uint32
+padding
+;
 union
 {
 int32
@@ -2326,9 +2329,6 @@ u32
 ;
 JSWhyMagic
 why
-;
-jsuword
-word
 ;
 }
 payload
@@ -2342,6 +2342,9 @@ asDouble
 void
 *
 asPtr
+;
+jsuword
+asWord
 ;
 }
 jsval_layout
@@ -2363,6 +2366,17 @@ IS_LITTLE_ENDIAN
 )
 *
 /
+JS_STATIC_ASSERT
+(
+sizeof
+(
+jsval_layout
+)
+=
+=
+8
+)
+;
 #
 if
 JS_BITS_PER_WORD

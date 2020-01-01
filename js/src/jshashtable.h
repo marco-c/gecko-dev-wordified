@@ -4963,7 +4963,10 @@ uintptr_t
 ptr
 )
 |
+uintptr_t
+(
 tagged
+)
 )
 {
 JS_ASSERT
@@ -5051,7 +5054,10 @@ this
 bits
 |
 =
+uintptr_t
+(
 enabled
+)
 ;
 }
 T

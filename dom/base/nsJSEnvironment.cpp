@@ -6437,7 +6437,7 @@ Preferences
 GetBool
 (
 js_zeal_compartment_str
-JS_FALSE
+PR_FALSE
 )
 ;
 if
