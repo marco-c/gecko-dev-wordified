@@ -7499,7 +7499,7 @@ end
 ParseNode
 (
 PNK_DOT
-JSOP_NOP
+JSOP_GETPROP
 PN_NAME
 TokenPos
 (
@@ -7640,7 +7640,7 @@ end
 ParseNode
 (
 PNK_ELEM
-JSOP_NOP
+JSOP_GETELEM
 PN_BINARY
 TokenPos
 (
