@@ -165,11 +165,6 @@ null
 /
 nsContextMenu
 instance
-var
-gStartupRan
-=
-false
-;
 #
 ifndef
 XP_MACOSX
@@ -8497,7 +8492,9 @@ this
 _boundDelayedStartup
 )
 ;
-gStartupRan
+this
+.
+_loadHandled
 =
 true
 ;
@@ -10950,7 +10947,9 @@ here
 if
 (
 !
-gStartupRan
+this
+.
+_loadHandled
 )
 return
 ;
@@ -11998,10 +11997,6 @@ init
 ;
 #
 endif
-gStartupRan
-=
-true
-;
 }
 nonBrowserWindowShutdown
 :
