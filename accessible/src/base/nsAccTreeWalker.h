@@ -152,11 +152,12 @@ nsAccTreeWalker
 DocAccessible
 *
 aDoc
+Accessible
+*
+aContext
 nsIContent
 *
 aNode
-bool
-aWalkAnonymousContent
 bool
 aWalkCache
 =
@@ -347,6 +348,10 @@ PopState
 DocAccessible
 *
 mDoc
+;
+Accessible
+*
+mContext
 ;
 int32_t
 mChildFilter

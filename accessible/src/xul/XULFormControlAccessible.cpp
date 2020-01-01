@@ -1497,8 +1497,8 @@ nsAccTreeWalker
 walker
 (
 mDoc
+this
 mContent
-true
 )
 ;
 Accessible
@@ -6062,8 +6062,8 @@ nsAccTreeWalker
 walker
 (
 mDoc
+this
 inputContent
-false
 )
 ;
 Accessible
