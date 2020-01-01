@@ -15789,7 +15789,7 @@ hasImacropc
 script
 -
 >
-hasNativeCodeForPC
+maybeNativeCodeForPC
 (
 regs
 .

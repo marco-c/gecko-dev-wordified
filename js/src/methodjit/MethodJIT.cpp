@@ -6035,6 +6035,13 @@ jitNormal
 =
 NULL
 ;
+script
+-
+>
+nmapNormal
+=
+NULL
+;
 }
 if
 (
@@ -6076,6 +6083,13 @@ script
 -
 >
 jitCtor
+=
+NULL
+;
+script
+-
+>
+nmapCtor
 =
 NULL
 ;
