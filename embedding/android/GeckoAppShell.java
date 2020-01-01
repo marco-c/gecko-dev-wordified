@@ -795,6 +795,14 @@ public
 static
 native
 void
+onResume
+(
+)
+;
+public
+static
+native
+void
 onLowMemory
 (
 )
