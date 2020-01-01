@@ -20013,6 +20013,14 @@ jsval
 rval
 )
 {
+JS_AbortIfWrongThread
+(
+JS_GetRuntime
+(
+cx
+)
+)
+;
 #
 ifdef
 DEBUG

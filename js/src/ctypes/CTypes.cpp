@@ -37527,6 +37527,14 @@ cx
 )
 )
 ;
+JS_AbortIfWrongThread
+(
+JS_GetRuntime
+(
+cx
+)
+)
+;
 JSAutoRequest
 ar
 (
