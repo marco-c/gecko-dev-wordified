@@ -2077,16 +2077,6 @@ faq
 "
 )
 ;
-pref
-(
-"
-app
-.
-showCrashDialog
-"
-true
-)
-;
 /
 /
 Whether
