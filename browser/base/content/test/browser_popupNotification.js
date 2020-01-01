@@ -577,6 +577,11 @@ goNext
 )
 ;
 }
+.
+bind
+(
+this
+)
 )
 ;
 }
