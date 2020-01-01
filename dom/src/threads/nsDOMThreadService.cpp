@@ -4559,7 +4559,7 @@ NULL
 NULL
 }
 ;
-JS_SetSecurityCallbacks
+JS_SetContextSecurityCallbacks
 (
 cx
 &
