@@ -1133,6 +1133,13 @@ th
 )
 EDITOR_ATOM
 (
+time
+"
+time
+"
+)
+EDITOR_ATOM
+(
 tr
 "
 tr
