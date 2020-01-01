@@ -401,6 +401,9 @@ nscore
 .
 h
 "
+#
+ifdef
+XP_WIN
 /
 *
 *
@@ -430,6 +433,8 @@ PRUnichar
 B
 )
 ;
+#
+endif
 /
 *
 *
