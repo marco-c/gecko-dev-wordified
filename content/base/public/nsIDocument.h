@@ -3562,7 +3562,7 @@ aScriptObject
 *
 *
 Sets
-event
+script
 handling
 object
 to
