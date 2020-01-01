@@ -2096,7 +2096,7 @@ pref
 =
 pref_HashTableLookup
 (
-nsDependentCString
+PromiseFlatCString
 (
 aPrefName
 )

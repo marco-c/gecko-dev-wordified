@@ -3374,7 +3374,7 @@ err
 PRInt32
 leftint
 =
-nsDependentString
+PromiseFlatString
 (
 aLeft
 )
@@ -3396,7 +3396,7 @@ err
 PRInt32
 rightint
 =
-nsDependentString
+PromiseFlatString
 (
 aRight
 )
