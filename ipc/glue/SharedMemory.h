@@ -742,6 +742,14 @@ SystemPageSize
 (
 )
 ;
+static
+size_t
+PageAlignedSize
+(
+size_t
+aSize
+)
+;
 }
 ;
 }
