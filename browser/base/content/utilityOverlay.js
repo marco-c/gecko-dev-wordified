@@ -456,11 +456,6 @@ applications
 *
 /
 var
-goPrefWindow
-=
-0
-;
-var
 gBidiUI
 =
 false
