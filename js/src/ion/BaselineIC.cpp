@@ -8941,10 +8941,6 @@ String
 )
 stub
 "
-js_CodeName
-[
-op
-]
 )
 ;
 ICToBool_String
