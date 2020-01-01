@@ -1378,10 +1378,6 @@ global
 fp
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -1403,10 +1399,6 @@ JS_ASSERT
 fp
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -1988,10 +1980,6 @@ fp
 )
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -3468,10 +3456,6 @@ fp
 )
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -3772,10 +3756,6 @@ global
 fp
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -6728,10 +6708,6 @@ fp
 )
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -7472,10 +7448,6 @@ scriptGlobal
 fp
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -8229,10 +8201,6 @@ global
 fp
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -13767,10 +13735,6 @@ if
 fp
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -14980,10 +14944,6 @@ fp
 )
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -21080,7 +21040,6 @@ AutoCompartment
 ac
 (
 cx
-&
 fp
 -
 >
@@ -21369,7 +21328,6 @@ AutoCompartment
 ac
 (
 cx
-&
 fp
 -
 >
@@ -22895,7 +22853,6 @@ AutoCompartment
 ac
 (
 cx
-&
 fp
 -
 >
@@ -23302,7 +23259,8 @@ fp
 scopeChain
 (
 )
-.
+-
+>
 principals
 (
 cx
@@ -23711,7 +23669,6 @@ AutoCompartment
 ac
 (
 cx
-&
 fp
 -
 >

@@ -638,10 +638,6 @@ fp
 )
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -1558,7 +1554,6 @@ fp
 )
 check
 (
-&
 fp
 -
 >

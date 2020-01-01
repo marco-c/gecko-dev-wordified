@@ -737,7 +737,6 @@ FindIdentifierBase
 f
 .
 cx
-&
 f
 .
 fp
@@ -798,10 +797,6 @@ fp
 )
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -2561,7 +2556,6 @@ frame
 /
 obj2
 =
-&
 fp
 -
 >
@@ -7040,10 +7034,6 @@ fp
 )
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -7152,7 +7142,6 @@ isNullClosure
 {
 parent
 =
-&
 f
 .
 fp
@@ -8878,7 +8867,6 @@ JSObject
 *
 obj2
 =
-&
 fp
 -
 >
@@ -9107,6 +9095,7 @@ JSObject
 &
 obj
 =
+*
 fp
 -
 >

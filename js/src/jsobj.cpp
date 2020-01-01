@@ -7368,7 +7368,6 @@ JS_ASSERT
 (
 IsBuiltinEvalForScope
 (
-&
 caller
 -
 >
@@ -41304,7 +41303,6 @@ n
 void
 *
 )
-&
 fp
 -
 >

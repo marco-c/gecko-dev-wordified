@@ -3999,10 +3999,6 @@ observesGlobal
 fp
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )

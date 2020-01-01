@@ -9413,10 +9413,6 @@ global
 stackfp
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
