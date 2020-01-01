@@ -612,16 +612,11 @@ nsIAtom
 *
 aChildListName
 )
-#
-ifdef
-DEBUG
 :
 mChildListName
 (
 aChildListName
 )
-#
-endif
 {
 NS_ASSERTION
 (
@@ -655,9 +650,6 @@ content
 )
 ;
 }
-#
-ifdef
-DEBUG
 nsIAtom
 *
 GetChildListName
@@ -669,8 +661,6 @@ return
 mChildListName
 ;
 }
-#
-endif
 nsresult
 FirstChild
 (
@@ -1046,9 +1036,6 @@ additional
 named
 child
 list
-#
-ifdef
-DEBUG
 nsIAtom
 *
 const
@@ -1082,8 +1069,6 @@ char
 aBuf
 )
 ;
-#
-endif
 }
 ;
 #
