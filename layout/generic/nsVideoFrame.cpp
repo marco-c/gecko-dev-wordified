@@ -1443,6 +1443,14 @@ GetImageContainer
 (
 )
 ;
+if
+(
+!
+container
+)
+return
+nsnull
+;
 /
 /
 Retrieve
