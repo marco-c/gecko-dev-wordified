@@ -99,6 +99,15 @@ nsSubstring
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 The
@@ -133,6 +142,7 @@ http
 txt
 class
 nsHttpNegotiateAuth
+MOZ_FINAL
 :
 public
 nsIHttpAuthenticator

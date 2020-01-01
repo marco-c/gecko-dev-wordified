@@ -113,6 +113,15 @@ prproces
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 *
@@ -224,6 +233,7 @@ ntlm_auth
 /
 class
 nsAuthSambaNTLM
+MOZ_FINAL
 :
 public
 nsIAuthModule
