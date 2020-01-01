@@ -1717,8 +1717,9 @@ subpath
 }
 zip
 =
-zips
-.
+ZipCollection
+:
+:
 GetZip
 (
 zip_path
