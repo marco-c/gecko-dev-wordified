@@ -2232,13 +2232,6 @@ print
 preview
 toolbar
 var
-navToolbox
-=
-getNavToolbox
-(
-)
-;
-var
 printPreviewTB
 =
 document
@@ -2254,7 +2247,9 @@ toolbar
 "
 )
 ;
-navToolbox
+getNavToolbox
+(
+)
 .
 parentNode
 .
