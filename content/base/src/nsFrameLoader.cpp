@@ -4078,11 +4078,6 @@ ShowRemoteFrame
 GetSubDocumentSize
 (
 frame
--
->
-GetFrame
-(
-)
 )
 )
 ;
