@@ -39,7 +39,6 @@ Python
 import
 errno
 os
-sys
 select
 from
 datetime

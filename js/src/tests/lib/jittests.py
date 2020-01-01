@@ -76,9 +76,7 @@ trace
 tests
 .
 import
-datetime
 os
-re
 sys
 tempfile
 traceback
@@ -103,7 +101,6 @@ from
 multiprocessing
 import
 Process
-Queue
 Manager
 cpu_count
     
@@ -1499,9 +1496,6 @@ to
 exit
 .
     
-import
-signal
-    
 sigint_handler
 =
 signal
@@ -1694,9 +1688,6 @@ kill
 (
 )
 .
-                
-import
-signal
                 
 if
 sys

@@ -31,7 +31,6 @@ failures
 import
 datetime
 os
-re
 sys
 time
 from
@@ -413,7 +412,6 @@ True
             
 except
 OSError
-e
 :
                 
 #
