@@ -26813,6 +26813,14 @@ jsid
 id
 )
 {
+if
+(
+!
+types
+)
+return
+false
+;
 JSObject
 *
 singleton
