@@ -3373,7 +3373,7 @@ if
 TerminateProcess
 (
 mProcess
-NULL
+0
 )
 =
 =

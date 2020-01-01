@@ -1611,6 +1611,10 @@ gTimestamp
 }
 break
 ;
+default
+:
+break
+;
 }
 /
 /
