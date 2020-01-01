@@ -7495,8 +7495,10 @@ in
 device
 pixels
 .
-static
 double
+gfxFont
+:
+:
 CalcXScale
 (
 gfxContext
