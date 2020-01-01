@@ -10646,7 +10646,6 @@ JSOP_AND
 define
 FETCH_ELEMENT_ID
 (
-obj
 n
 id
 )
@@ -10675,7 +10674,6 @@ CanGC
 >
 (
 cx
-obj
 idval_
 &
 id
@@ -10874,7 +10872,6 @@ rootId0
 ;
 FETCH_ELEMENT_ID
 (
-obj
 -
 2
 id
@@ -11635,7 +11632,6 @@ rootId0
 ;
 FETCH_ELEMENT_ID
 (
-obj
 -
 1
 id
@@ -14517,7 +14513,6 @@ rootId0
 ;
 FETCH_ELEMENT_ID
 (
-obj
 -
 2
 id
@@ -14627,7 +14622,6 @@ rootId0
 ;
 FETCH_ELEMENT_ID
 (
-obj
 -
 1
 id
@@ -17796,7 +17790,6 @@ id
 )
 FETCH_ELEMENT_ID
 (
-obj
 i
 id
 )
