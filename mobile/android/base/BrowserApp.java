@@ -6108,6 +6108,10 @@ getAction
 (
 )
 )
+|
+|
+!
+mInitialized
 )
 return
 ;
