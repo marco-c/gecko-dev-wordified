@@ -1454,6 +1454,8 @@ import
 (
 unsigned
 ngslots
+unsigned
+callDepth
 uint8
 *
 globalTypeMap
