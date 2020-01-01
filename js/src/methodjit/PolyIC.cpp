@@ -3287,6 +3287,10 @@ void
 )
 &
 pic
+(
+void
+*
+)
 initialShape
 pic
 .
@@ -17582,6 +17586,10 @@ JSID_TO_ATOM
 id
 )
 chars
+(
+void
+*
+)
 holder
 -
 >

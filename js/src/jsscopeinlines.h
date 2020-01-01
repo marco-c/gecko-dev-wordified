@@ -1294,8 +1294,14 @@ numLinearSearches
 )
 slot_
 (
+SHAPE_INVALID_SLOT
+>
+>
+(
+32
 -
-1
+SLOT_BITS
+)
 )
 attrs
 (

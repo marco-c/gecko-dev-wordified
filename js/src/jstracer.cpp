@@ -22086,6 +22086,9 @@ true
 }
 }
 ;
+#
+if
+0
 static
 JS_REQUIRES_STACK
 void
@@ -22144,6 +22147,8 @@ n
 )
 ;
 }
+#
+endif
 class
 FlushNativeGlobalFrameVisitor
 :
@@ -85363,6 +85368,9 @@ stackval
 )
 ;
 }
+#
+if
+0
 /
 *
 *
@@ -85567,6 +85575,8 @@ return
 true
 ;
 }
+#
+endif
 /
 *
 *
