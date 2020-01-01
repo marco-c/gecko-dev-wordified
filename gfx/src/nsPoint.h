@@ -1109,7 +1109,7 @@ const
 return
 nsIntPoint
 (
-NSToIntRound
+NSToIntRoundUp
 (
 NSAppUnitsToFloatPixels
 (
@@ -1120,7 +1120,7 @@ aAppUnitsPerPixel
 )
 )
 )
-NSToIntRound
+NSToIntRoundUp
 (
 NSAppUnitsToFloatPixels
 (
