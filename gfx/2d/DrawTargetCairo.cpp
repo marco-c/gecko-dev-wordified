@@ -3489,6 +3489,11 @@ WillChange
 aPath
 )
 ;
+cairo_save
+(
+mContext
+)
+;
 PathCairo
 *
 path
@@ -3508,11 +3513,6 @@ PathCairo
 (
 aPath
 )
-)
-;
-cairo_save
-(
-mContext
 )
 ;
 path
@@ -3547,6 +3547,11 @@ WillChange
 )
 ;
 cairo_save
+(
+mContext
+)
+;
+cairo_new_path
 (
 mContext
 )
@@ -3604,7 +3609,7 @@ so
 no
 need
 to
-cal
+call
 WillChange
 (
 )
