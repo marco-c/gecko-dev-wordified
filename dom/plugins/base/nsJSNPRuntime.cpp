@@ -5032,7 +5032,6 @@ id
 =
 StringToNPIdentifier
 (
-cx
 str
 )
 ;
@@ -7585,15 +7584,9 @@ name
 =
 :
 :
-JS_InternJSString
-(
-cx
-:
-:
 JS_GetFunctionId
 (
 fun
-)
 )
 ;
 NPIdentifier
@@ -7601,7 +7594,6 @@ id
 =
 StringToNPIdentifier
 (
-cx
 name
 )
 ;

@@ -733,6 +733,7 @@ js_AtomizeChars
 cx
 start
 length
+0
 )
 :
 js_NewStringCopyN

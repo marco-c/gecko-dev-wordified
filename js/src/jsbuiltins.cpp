@@ -1675,6 +1675,7 @@ js_AtomizeString
 (
 cx
 idstr
+0
 )
 ;
 if

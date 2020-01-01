@@ -1520,6 +1520,10 @@ ifdef
 DEBUG
 #
 define
+JS_FREE_PATTERN
+0xDA
+#
+define
 JS_CLEAR_UNUSED
 (
 a

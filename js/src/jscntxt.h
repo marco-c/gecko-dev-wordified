@@ -7907,6 +7907,9 @@ hasImacropc
 (
 )
 ?
+COMMON_ATOMS_START
+(
+&
 cx
 -
 >
@@ -7914,9 +7917,6 @@ runtime
 -
 >
 atomState
-.
-commonAtomsStart
-(
 )
 :
 fp

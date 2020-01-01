@@ -3046,7 +3046,7 @@ added
 to
 the
 atom
-state
+table
 this
 operation
 *
@@ -3056,16 +3056,9 @@ type
 (
 in
 place
-as
-reflected
-by
-the
-flag
-bits
 )
 of
 the
-*
 JSFixedString
 into
 a
@@ -3076,7 +3069,7 @@ JSAtom
 inline
 JSAtom
 *
-morphAtomizedStringIntoAtom
+morphInternedStringIntoAtom
 (
 )
 ;

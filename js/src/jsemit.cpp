@@ -8781,6 +8781,7 @@ cx
 array
 "
 6
+0
 )
 ;
 JSAtom
@@ -8795,6 +8796,7 @@ cx
 depth
 "
 6
+0
 )
 ;
 if

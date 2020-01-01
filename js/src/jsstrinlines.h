@@ -2277,7 +2277,7 @@ JSAtom
 JSFixedString
 :
 :
-morphAtomizedStringIntoAtom
+morphInternedStringIntoAtom
 (
 )
 {
