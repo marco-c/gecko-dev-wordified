@@ -579,8 +579,14 @@ poolp
 bool
 *
 ok
+CodeKind
+codeKind
 )
 {
+m_codeKind
+=
+codeKind
+;
 m_code
 =
 executableAllocAndCopy
@@ -637,6 +643,8 @@ m_code
 }
 LinkBuffer
 (
+CodeKind
+kind
 )
 :
 m_executablePool
@@ -650,6 +658,10 @@ NULL
 m_size
 (
 0
+)
+m_codeKind
+(
+kind
 )
 #
 ifndef
@@ -669,6 +681,8 @@ uint8
 ncode
 size_t
 size
+CodeKind
+kind
 )
 :
 m_executablePool
@@ -682,6 +696,10 @@ ncode
 m_size
 (
 size
+)
+m_codeKind
+(
+kind
 )
 #
 ifndef
@@ -1317,6 +1335,7 @@ executableAllocAndCopy
 (
 allocator
 poolp
+m_codeKind
 )
 ;
 }
@@ -1373,6 +1392,9 @@ m_code
 ;
 size_t
 m_size
+;
+CodeKind
+m_codeKind
 ;
 #
 ifndef

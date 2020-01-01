@@ -4587,6 +4587,8 @@ ExecutablePool
 *
 *
 poolp
+CodeKind
+kind
 )
 {
 /
@@ -4638,6 +4640,7 @@ executableAllocAndCopy
 (
 allocator
 poolp
+kind
 )
 ;
 if

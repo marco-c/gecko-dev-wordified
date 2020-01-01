@@ -17344,6 +17344,7 @@ regexAllocator
 pool
 &
 ok
+REGEXP_CODE
 )
 ;
 m_backtrackingState

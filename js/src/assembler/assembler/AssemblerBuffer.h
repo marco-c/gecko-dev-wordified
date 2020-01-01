@@ -770,6 +770,8 @@ ExecutablePool
 *
 *
 poolp
+CodeKind
+kind
 )
 {
 if
@@ -803,6 +805,7 @@ alloc
 (
 m_size
 poolp
+kind
 )
 ;
 if

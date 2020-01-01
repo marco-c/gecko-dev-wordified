@@ -14993,6 +14993,8 @@ ExecutablePool
 *
 *
 poolp
+CodeKind
+kind
 )
 {
 return
@@ -15002,6 +15004,7 @@ executableAllocAndCopy
 (
 allocator
 poolp
+kind
 )
 ;
 }
@@ -17197,6 +17200,8 @@ ExecutablePool
 *
 *
 poolp
+CodeKind
+kind
 )
 {
 return
@@ -17206,6 +17211,7 @@ executableAllocAndCopy
 (
 allocator
 poolp
+kind
 )
 ;
 }

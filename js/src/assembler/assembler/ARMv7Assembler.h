@@ -10027,6 +10027,8 @@ ExecutablePool
 *
 *
 poolp
+CodeKind
+kind
 )
 {
 void
@@ -10039,6 +10041,7 @@ executableAllocAndCopy
 (
 allocator
 poolp
+kind
 )
 ;
 unsigned
@@ -12823,6 +12826,8 @@ ExecutablePool
 *
 *
 poolp
+CodeKind
+kind
 )
 {
 return
@@ -12832,6 +12837,7 @@ executableAllocAndCopy
 (
 allocator
 poolp
+kind
 )
 ;
 }
