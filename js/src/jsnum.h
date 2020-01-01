@@ -627,6 +627,9 @@ endif
 }
 s
 ;
+JSUint64
+u64
+;
 jsdouble
 d
 ;
