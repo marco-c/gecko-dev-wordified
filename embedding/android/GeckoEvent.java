@@ -621,6 +621,14 @@ public
 static
 final
 int
+ACTIVITY_PAUSING
+=
+9
+;
+public
+static
+final
+int
 IME_BATCH_END
 =
 0
