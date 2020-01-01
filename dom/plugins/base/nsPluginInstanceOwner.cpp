@@ -12699,6 +12699,7 @@ HandleEvent
 event
 &
 response
+NS_PLUGIN_CALL_SAFE_TO_REENTER_GECKO
 )
 ;
 }
@@ -13492,6 +13493,7 @@ HandleEvent
 pPluginEvent
 &
 response
+NS_PLUGIN_CALL_SAFE_TO_REENTER_GECKO
 )
 ;
 if
@@ -14913,6 +14915,7 @@ HandleEvent
 pluginEvent
 &
 response
+NS_PLUGIN_CALL_SAFE_TO_REENTER_GECKO
 )
 ;
 if
@@ -15196,6 +15199,7 @@ HandleEvent
 &
 event
 nullptr
+NS_PLUGIN_CALL_SAFE_TO_REENTER_GECKO
 )
 ;
 }
@@ -15265,6 +15269,7 @@ HandleEvent
 &
 event
 nullptr
+NS_PLUGIN_CALL_SAFE_TO_REENTER_GECKO
 )
 ;
 }
@@ -15378,6 +15383,7 @@ HandleEvent
 (
 pluginEvent
 nullptr
+NS_PLUGIN_CALL_SAFE_TO_REENTER_GECKO
 )
 ;
 }
