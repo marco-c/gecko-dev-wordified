@@ -512,7 +512,7 @@ Page
 *
 next
 ;
-long
+jsuword
 base
 ;
 nanojit
@@ -532,7 +532,7 @@ Page
 *
 pagelist
 ;
-long
+jsuword
 getPageBase
 (
 const
@@ -618,7 +618,7 @@ VMFragmentInfo
 unsigned
 maxNativeFrameSlots
 ;
-unsigned
+size_t
 nativeStackBase
 ;
 char
@@ -766,7 +766,7 @@ regs
 )
 const
 ;
-unsigned
+size_t
 nativeFrameOffset
 (
 void
