@@ -1305,6 +1305,15 @@ GetCurrentImage
 (
 )
 ;
+if
+(
+!
+image
+)
+{
+return
+;
+}
 SetEffectTransformAndOpacity
 (
 )
