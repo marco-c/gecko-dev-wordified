@@ -2314,10 +2314,7 @@ SetMetaDataElement
 "
 charset
 "
-PromiseFlatCString
-(
 charset
-)
 .
 get
 (
