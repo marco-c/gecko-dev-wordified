@@ -8358,11 +8358,8 @@ exists
 (
 )
 ;
-var
-tryAgain
-=
-(
 function
+tryAgain
 (
 )
 {
@@ -8424,13 +8421,6 @@ true
 )
 ;
 }
-)
-.
-bind
-(
-this
-)
-;
 try
 {
 this
