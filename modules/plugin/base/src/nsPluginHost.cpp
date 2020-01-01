@@ -2417,7 +2417,6 @@ PR_UnloadLibrary
 mLibrary
 )
 nsnull
-nsnull
 )
 ;
 }
@@ -2498,7 +2497,6 @@ PR_UnloadLibrary
 (
 aLibrary
 )
-nsnull
 nsnull
 )
 ;

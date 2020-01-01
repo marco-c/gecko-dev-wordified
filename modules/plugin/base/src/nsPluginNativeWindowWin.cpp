@@ -1124,7 +1124,6 @@ WM_USER_FLASH
 wParam
 lParam
 )
-nsnull
 aInst
 )
 ;
@@ -2140,7 +2139,6 @@ msg
 wParam
 lParam
 )
-nsnull
 inst
 )
 ;
@@ -2622,7 +2620,6 @@ GetLParam
 (
 )
 )
-nsnull
 inst
 )
 ;

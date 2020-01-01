@@ -553,7 +553,6 @@ NS_TRY_SAFE_CALL_RETURN
 (
 ret
 fun
-library
 pluginInst
 )
 \
@@ -670,7 +669,6 @@ define
 NS_TRY_SAFE_CALL_VOID
 (
 fun
-library
 pluginInst
 )
 \
@@ -782,7 +780,6 @@ NS_TRY_SAFE_CALL_RETURN
 (
 ret
 fun
-library
 pluginInst
 )
 \
@@ -813,7 +810,6 @@ define
 NS_TRY_SAFE_CALL_VOID
 (
 fun
-library
 pluginInst
 )
 \
