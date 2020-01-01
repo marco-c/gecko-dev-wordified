@@ -143,6 +143,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 mock_Link
 .
 h
@@ -374,6 +383,7 @@ forget
 }
 class
 VisitURIObserver
+MOZ_FINAL
 :
 public
 nsIObserver
@@ -1763,6 +1773,7 @@ resolution
 "
 class
 statusObserver
+MOZ_FINAL
 :
 public
 nsIObserver

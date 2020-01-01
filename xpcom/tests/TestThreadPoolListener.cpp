@@ -159,6 +159,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ReentrantMonitor
 .
 h
@@ -286,6 +295,7 @@ PR_END_MACRO
 endif
 class
 Listener
+MOZ_FINAL
 :
 public
 nsIThreadPoolListener

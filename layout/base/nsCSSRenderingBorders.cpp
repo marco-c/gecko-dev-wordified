@@ -189,13 +189,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsIScrollableFrame
 .
 h
@@ -246,13 +239,6 @@ h
 include
 "
 nsIServiceManager
-.
-h
-"
-#
-include
-"
-nsIHTMLDocument
 .
 h
 "

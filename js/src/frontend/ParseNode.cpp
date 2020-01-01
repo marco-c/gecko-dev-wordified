@@ -2977,7 +2977,7 @@ in
 this
 case
 |
-sc
+tc
 |
 may
 not
@@ -2989,9 +2989,6 @@ parser
 -
 >
 tc
--
->
-sc
 |
 .
 NameNode
@@ -3009,9 +3006,9 @@ atom
 Parser
 *
 parser
-SharedContext
+TreeContext
 *
-sc
+tc
 )
 {
 ParseNode
@@ -3051,7 +3048,7 @@ pn
 >
 initCommon
 (
-sc
+tc
 )
 ;
 }

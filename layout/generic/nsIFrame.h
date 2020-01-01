@@ -6923,7 +6923,6 @@ NS_DECLARE_FRAME_PROPERTY
 InitialOverflowProperty
 DestroyOverflowAreas
 )
-;
 NS_DECLARE_FRAME_PROPERTY
 (
 UsedMarginProperty

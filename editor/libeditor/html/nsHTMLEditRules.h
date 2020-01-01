@@ -1591,7 +1591,7 @@ nsISelection
 inSelection
 )
 ;
-nsresult
+void
 GetPromotedPoint
 (
 RulesEndpoint

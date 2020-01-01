@@ -1370,7 +1370,7 @@ ParseNode
 *
 memberExpr
 (
-JSBool
+bool
 allowCallSyntax
 )
 ;
@@ -1388,7 +1388,7 @@ ParseNode
 *
 parenExpr
 (
-JSBool
+bool
 *
 genexp
 =
@@ -1482,7 +1482,7 @@ ParseNode
 kid
 )
 ;
-JSBool
+bool
 argumentList
 (
 ParseNode
@@ -1622,7 +1622,7 @@ ParseNode
 *
 xmlExpr
 (
-JSBool
+bool
 inTag
 )
 ;
@@ -1644,7 +1644,7 @@ JSAtom
 namep
 )
 ;
-JSBool
+bool
 xmlElementContent
 (
 ParseNode
@@ -1656,7 +1656,7 @@ ParseNode
 *
 xmlElementOrList
 (
-JSBool
+bool
 allowList
 )
 ;
@@ -1664,7 +1664,7 @@ ParseNode
 *
 xmlElementOrListRoot
 (
-JSBool
+bool
 allowList
 )
 ;

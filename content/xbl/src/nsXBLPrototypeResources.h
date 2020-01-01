@@ -127,9 +127,6 @@ class
 nsIAtom
 ;
 class
-nsIDocument
-;
-class
 nsIScriptContext
 ;
 class

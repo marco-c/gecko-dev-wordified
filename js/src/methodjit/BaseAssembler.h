@@ -1017,7 +1017,6 @@ guardShape
 (
 RegisterID
 objReg
-const
 Shape
 *
 shape
@@ -3907,7 +3906,10 @@ ensureSpace
 20
 )
 ;
+DebugOnly
+<
 int
+>
 initFlushCount
 =
 flushCount
@@ -6232,7 +6234,6 @@ JSObject
 obj
 RegisterID
 objReg
-const
 js
 :
 :

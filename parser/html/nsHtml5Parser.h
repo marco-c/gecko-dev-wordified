@@ -186,13 +186,6 @@ h
 #
 include
 "
-nsIHTMLDocument
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

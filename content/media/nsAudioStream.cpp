@@ -3186,6 +3186,13 @@ NS_DispatchToMainThread
 event
 )
 ;
+mAudioChild
+-
+>
+WaitForWrite
+(
+)
+;
 return
 NS_OK
 ;

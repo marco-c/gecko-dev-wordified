@@ -96,6 +96,13 @@ MPL
 #
 include
 "
+nsDOMClassInfoID
+.
+h
+"
+#
+include
+"
 nsDOMPopupBlockedEvent
 .
 h
@@ -104,13 +111,6 @@ h
 include
 "
 nsIURI
-.
-h
-"
-#
-include
-"
-nsContentUtils
 .
 h
 "

@@ -263,13 +263,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIImageDocument
 .
 h

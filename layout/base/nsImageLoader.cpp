@@ -169,13 +169,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 imgIContainer
 .
 h

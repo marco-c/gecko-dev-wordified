@@ -59,14 +59,14 @@ MPL
 #
 include
 "
-nsDOMDeviceMotionEvent
+nsDOMClassInfoID
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsDOMDeviceMotionEvent
 .
 h
 "

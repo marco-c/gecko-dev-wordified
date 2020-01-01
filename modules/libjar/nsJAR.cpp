@@ -5285,11 +5285,10 @@ IsEmpty
 (
 )
 )
-message
-.
-AppendWithConversion
+AppendASCIItoUTF16
 (
 aFilename
+message
 )
 ;
 else

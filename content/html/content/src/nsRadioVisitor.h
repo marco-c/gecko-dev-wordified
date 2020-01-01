@@ -109,9 +109,6 @@ h
 class
 nsIFormControl
 ;
-class
-nsIDocument
-;
 /
 *
 *

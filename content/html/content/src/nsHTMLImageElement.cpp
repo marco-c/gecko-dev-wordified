@@ -161,13 +161,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIScriptContext
 .
 h
@@ -2656,7 +2649,6 @@ nsGenericElement
 *
 aDest
 )
-const
 {
 if
 (

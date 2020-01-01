@@ -545,6 +545,8 @@ nsSVGMarkerFrame
 :
 GetCanvasTM
 (
+PRUint32
+aFor
 )
 {
 NS_ASSERTION
@@ -610,6 +612,7 @@ mMarkedFrame
 >
 GetCanvasTM
 (
+aFor
 )
 ;
 mInUse2
@@ -869,6 +872,10 @@ SetClipRect
 gfx
 GetCanvasTM
 (
+nsISVGChildFrame
+:
+:
+FOR_PAINTING
 )
 clipRect
 )

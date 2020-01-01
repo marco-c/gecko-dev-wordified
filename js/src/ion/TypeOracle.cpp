@@ -2076,7 +2076,7 @@ if
 (
 id
 .
-value
+get
 (
 )
 !
@@ -2085,10 +2085,6 @@ MakeTypeId
 (
 cx
 id
-.
-value
-(
-)
 )
 )
 return

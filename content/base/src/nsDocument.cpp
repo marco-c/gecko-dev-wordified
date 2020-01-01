@@ -1043,13 +1043,6 @@ h
 #
 include
 "
-nsIHTMLDocument
-.
-h
-"
-#
-include
-"
 nsXULAppAPI
 .
 h
@@ -30737,8 +30730,10 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 ;
 }
 }
+nsCOMPtr
+<
 nsIDocument
-*
+>
 oldDocument
 =
 adoptedNode

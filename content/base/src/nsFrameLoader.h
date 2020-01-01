@@ -1902,6 +1902,11 @@ mClampScrollPosition
 :
 1
 ;
+bool
+mRemoteBrowserInitialized
+:
+1
+;
 /
 /
 XXX

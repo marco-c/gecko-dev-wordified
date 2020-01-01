@@ -344,6 +344,8 @@ methods
 gfxMatrix
 GetCanvasTM
 (
+PRUint32
+aFor
 )
 ;
 protected

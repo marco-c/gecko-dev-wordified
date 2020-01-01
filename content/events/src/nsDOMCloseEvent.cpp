@@ -96,14 +96,14 @@ MPL
 #
 include
 "
-nsDOMCloseEvent
+nsDOMClassInfoID
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsDOMCloseEvent
 .
 h
 "

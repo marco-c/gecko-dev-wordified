@@ -235,13 +235,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h

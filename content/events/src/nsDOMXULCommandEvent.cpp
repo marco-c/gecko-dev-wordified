@@ -115,14 +115,14 @@ MPL
 #
 include
 "
-nsDOMXULCommandEvent
+nsDOMClassInfoID
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsDOMXULCommandEvent
 .
 h
 "

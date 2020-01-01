@@ -134,8 +134,7 @@ CompileScript
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 scopeChain
 StackFrame
 *
@@ -168,7 +167,7 @@ JSVersion
 version
 JSString
 *
-source
+source_
 =
 NULL
 unsigned
@@ -183,8 +182,7 @@ CompileFunctionBody
 JSContext
 *
 cx
-JSFunction
-*
+HandleFunction
 fun
 JSPrincipals
 *

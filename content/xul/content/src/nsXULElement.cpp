@@ -2395,6 +2395,16 @@ mControllers
 nsresult
 rv
 =
+const_cast
+<
+nsXULElement
+*
+>
+(
+this
+)
+-
+>
 CopyInnerTo
 (
 element

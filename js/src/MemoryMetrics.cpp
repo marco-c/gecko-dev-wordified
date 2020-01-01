@@ -1263,7 +1263,7 @@ StatsCellCallback
 Take
 the
 "
-explcit
+explicit
 /
 js
 /

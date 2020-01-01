@@ -2807,6 +2807,8 @@ GetCanvasTM
 nsIFrame
 *
 aFrame
+PRUint32
+aFor
 )
 ;
 /
@@ -2923,6 +2925,8 @@ GetUserToCanvasTM
 nsIFrame
 *
 aFrame
+PRUint32
+aFor
 )
 ;
 /

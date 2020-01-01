@@ -374,13 +374,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsDisplayList
 .
 h

@@ -1193,6 +1193,7 @@ SetPropertyHelper
 (
 cx
 obj
+obj
 id
 0
 &
@@ -1889,10 +1890,6 @@ cx
 if
 (
 baseObj
-.
-value
-(
-)
 )
 {
 /
@@ -2365,6 +2362,7 @@ SetPropertyHelper
 (
 cx
 obj
+obj
 id
 defineHow
 &
@@ -2380,6 +2378,7 @@ obj
 setGeneric
 (
 cx
+obj
 id
 &
 v

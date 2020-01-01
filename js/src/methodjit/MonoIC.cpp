@@ -511,7 +511,6 @@ f
 cx
 )
 ;
-const
 Shape
 *
 shape
@@ -883,7 +882,6 @@ patchInlineShapeGuard
 Repatcher
 &
 repatcher
-const
 Shape
 *
 shape
@@ -927,7 +925,6 @@ ic
 JSObject
 *
 obj
-const
 Shape
 *
 shape
@@ -1183,7 +1180,6 @@ f
 cx
 )
 ;
-const
 Shape
 *
 shape
@@ -7743,14 +7739,18 @@ js_fun_apply
 ;
 if
 (
+IsOptimizedArguments
+(
+f
+.
+fp
+(
+)
+&
 args
 [
 1
 ]
-.
-isMagic
-(
-JS_OPTIMIZED_ARGUMENTS
 )
 )
 {

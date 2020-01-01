@@ -12578,4 +12578,15 @@ state
 )
 {
 }
+public
+static
+String
+getGfxInfoData
+(
+)
+{
+return
+null
+;
+}
 }

@@ -142,9 +142,6 @@ class
 nsIScriptContext
 ;
 class
-nsIDOMDocument
-;
-class
 nsIDOMEvent
 ;
 class

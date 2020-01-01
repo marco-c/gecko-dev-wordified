@@ -1473,6 +1473,9 @@ bool
 mKeepAliveMask
 ;
 bool
+mDontReuse
+;
+bool
 mSupportsPipelining
 ;
 bool

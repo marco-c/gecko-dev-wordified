@@ -147,13 +147,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsINameSpaceManager
 .
 h
@@ -176,13 +169,6 @@ h
 include
 "
 nsReadableUtils
-.
-h
-"
-#
-include
-"
-nsContentUtils
 .
 h
 "

@@ -454,7 +454,7 @@ h
 #
 include
 "
-nsIdleService
+nsIIdleServiceInternal
 .
 h
 "
@@ -1792,7 +1792,7 @@ aGdkEvent
 {
 nsCOMPtr
 <
-nsIdleService
+nsIIdleServiceInternal
 >
 idleService
 =
@@ -1821,6 +1821,7 @@ idleService
 >
 ResetIdleTimeOut
 (
+0
 )
 ;
 }

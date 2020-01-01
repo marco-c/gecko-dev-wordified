@@ -1906,7 +1906,6 @@ nsGenericElement
 *
 aDest
 )
-const
 {
 if
 (

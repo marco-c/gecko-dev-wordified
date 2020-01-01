@@ -117,13 +117,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIDOMXULDocument
 .
 h

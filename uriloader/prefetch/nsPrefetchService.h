@@ -121,13 +121,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIDOMLoadStatus
 .
 h

@@ -185,7 +185,7 @@ h
 #
 include
 "
-nsIScriptSecurityManager
+nsIPrincipal
 .
 h
 "

@@ -433,13 +433,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h

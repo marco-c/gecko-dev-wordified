@@ -335,14 +335,10 @@ __init__
 (
 self
 message
-location
+locations
 warning
 =
 False
-extraLocations
-=
-[
-]
 )
 :
         
@@ -354,19 +350,7 @@ message
         
 self
 .
-location
-=
-location
-        
-self
-.
-warning
-=
-warning
-        
-self
-.
-extraLocations
+locations
 =
 [
 str
@@ -376,8 +360,14 @@ loc
 for
 loc
 in
-extraLocations
+locations
 ]
+        
+self
+.
+warning
+=
+warning
     
 def
 __str__
@@ -386,49 +376,11 @@ self
 )
 :
         
-extraLocationsStr
-=
-(
-            
-"
-"
-if
-len
-(
-self
-.
-extraLocations
-)
-=
-=
-0
-else
-            
-"
-\
-n
-"
-+
-"
-\
-n
-"
-.
-join
-(
-self
-.
-extraLocations
-)
-)
-        
 return
 "
 %
 s
 :
-%
-s
 %
 s
 %
@@ -457,18 +409,30 @@ message
 "
 "
 if
+len
+(
 self
 .
-location
+locations
+)
+!
+=
+0
 else
 "
 "
                                  
+"
+\
+n
+"
+.
+join
+(
 self
 .
-location
-                                 
-extraLocationsStr
+locations
+)
 )
 class
 Location
@@ -835,6 +799,11 @@ self
 msg
 =
 text
++
+"
+\
+n
+"
     
 def
 __eq__
@@ -1503,8 +1472,8 @@ self
 )
 conflictdesc
 )
-"
-"
+[
+]
 )
     
 def
@@ -1756,7 +1725,9 @@ are
 reserved
 "
                               
+[
 location
+]
 )
         
 if
@@ -1819,7 +1790,9 @@ s
 name
 )
                               
+[
 location
+]
 )
         
 self
@@ -2152,9 +2125,12 @@ s
 self
 .
 identifier
+                              
+[
 self
 .
 location
+]
 )
         
 obj
@@ -2836,13 +2812,10 @@ identifier
 name
 )
                                       
+[
 self
 .
 location
-                                      
-extraLocations
-=
-[
 self
 .
 parent
@@ -2899,13 +2872,10 @@ identifier
 name
 )
                                   
+[
 self
 .
 location
-                                  
-extraLocations
-=
-[
 self
 .
 parent
@@ -2967,13 +2937,10 @@ identifier
 .
 name
                               
+[
 self
 .
 location
-                              
-extraLocations
-=
-[
 cycleInGraph
 .
 location
@@ -3326,13 +3293,10 @@ name
 self
 )
                             
+[
 additionalMember
 .
 location
-                            
-extraLocations
-=
-[
 member
 .
 location
@@ -3563,9 +3527,11 @@ s
 self
 )
                                    
+[
 self
 .
 location
+]
 )
             
 specialMembersSeen
@@ -3846,9 +3812,11 @@ on
 interfaces
 "
                                   
+[
 self
 .
 location
+]
 )
             
 elif
@@ -3879,9 +3847,11 @@ are
 incompatible
 "
                                       
+[
 self
 .
 location
+]
 )
                 
 self
@@ -3919,9 +3889,11 @@ are
 incompatible
 "
                                       
+[
 self
 .
 location
+]
 )
                 
 args
@@ -4553,13 +4525,10 @@ identifier
 .
 name
                                   
+[
 oldParent
 .
 location
-                                  
-extraLocations
-=
-[
 self
 .
 parent
@@ -4732,11 +4701,13 @@ identifier
 .
 name
                                   
+[
 self
 .
 identifier
 .
 location
+]
 )
             
 inheritedMembers
@@ -4818,13 +4789,10 @@ identifier
 name
 )
                                       
+[
 member
 .
 location
-                                      
-extraLocations
-=
-[
 inheritedMember
 .
 location
@@ -4920,7 +4888,10 @@ strings
 name
 .
 name
+                              
+[
 location
+]
 )
         
 IDLObjectWithIdentifier
@@ -5629,9 +5600,11 @@ TreatNonCallableAsNull
 %
 self
                               
+[
 self
 .
 location
+]
 )
         
 return
@@ -5828,9 +5801,12 @@ s
 self
 .
 name
+                              
+[
 self
 .
 location
+]
 )
         
 assert
@@ -6417,9 +6393,11 @@ a
 member
 type
 "
+[
 self
 .
 location
+]
 )
         
 self
@@ -7226,12 +7204,10 @@ a
 union
 "
                                       
+[
 nullableType
 .
 location
-                                      
-extraLocation
-=
 self
 .
 flatMemberTypes
@@ -7240,6 +7216,7 @@ i
 ]
 .
 location
+]
 )
                 
 self
@@ -7396,14 +7373,17 @@ str
 u
 )
                                       
+[
+self
+.
+location
 t
 .
 location
-extraLocation
-=
 u
 .
 location
+]
 )
         
 return
@@ -7567,7 +7547,9 @@ sequence
 type
 "
                               
+[
 location
+]
 )
         
 if
@@ -7592,7 +7574,9 @@ dictionary
 type
 "
                               
+[
 location
+]
 )
         
 IDLType
@@ -11082,26 +11066,6 @@ type
     
 return
 None
-def
-checkDistinguishability
-(
-argset1
-argset2
-)
-:
-    
-assert
-isinstance
-(
-argset1
-list
-)
-and
-isinstance
-(
-argset2
-list
-)
 class
 IDLValue
 (
@@ -11242,8 +11206,6 @@ isInteger
             
 if
 not
-self
-.
 type
 .
 isInteger
@@ -11274,7 +11236,9 @@ self
 type
 type
 )
+[
 location
+]
 )
             
 #
@@ -11362,7 +11326,9 @@ self
 value
 type
 )
+[
 location
+]
 )
         
 else
@@ -11459,7 +11425,9 @@ s
 %
 type
                               
+[
 location
+]
 )
         
 nullValue
@@ -11740,9 +11708,11 @@ dictionary
 type
 "
                               
+[
 self
 .
 location
+]
 )
         
 self
@@ -11918,9 +11888,11 @@ inherit
 '
 "
                               
+[
 self
 .
 location
+]
 )
     
 def
@@ -12030,9 +12002,11 @@ dictionary
 type
 "
                               
+[
 self
 .
 location
+]
 )
         
 if
@@ -12059,9 +12033,11 @@ sequence
 type
 "
                               
+[
 self
 .
 location
+]
 )
         
 if
@@ -12142,9 +12118,14 @@ dictionary
 "
 type
 "
+[
 self
 .
 location
+f
+.
+location
+]
 )
                 
 if
@@ -12205,9 +12186,14 @@ sequence
 "
 type
 "
+[
 self
 .
 location
+f
+.
+location
+]
 )
     
 def
@@ -12309,6 +12295,9 @@ None
 variadic
 =
 False
+dictionaryMember
+=
+False
 )
 :
         
@@ -12370,6 +12359,12 @@ variadic
 =
 variadic
         
+self
+.
+dictionaryMember
+=
+dictionaryMember
+        
 assert
 not
 variadic
@@ -12383,6 +12378,102 @@ self
 attrs
 )
 :
+        
+if
+self
+.
+dictionaryMember
+:
+            
+for
+(
+attr
+value
+)
+in
+attrs
+:
+                
+if
+attr
+=
+=
+"
+TreatUndefinedAs
+"
+:
+                    
+raise
+WebIDLError
+(
+"
+[
+TreatUndefinedAs
+]
+is
+not
+allowed
+for
+"
+                                      
+"
+dictionary
+members
+"
+[
+self
+.
+location
+]
+)
+                
+elif
+attr
+=
+=
+"
+TreatNullAs
+"
+:
+                    
+raise
+WebIDLError
+(
+"
+[
+TreatNullAs
+]
+is
+not
+allowed
+for
+"
+                                      
+"
+dictionary
+members
+"
+[
+self
+.
+location
+]
+)
+        
+#
+But
+actually
+we
+can
+'
+t
+handle
+this
+at
+all
+so
+far
+.
         
 assert
 len
@@ -12687,6 +12778,134 @@ isDate
 )
 )
 class
+IDLMethodOverload
+:
+    
+"
+"
+"
+    
+A
+class
+that
+represents
+a
+single
+overload
+of
+a
+WebIDL
+method
+.
+This
+is
+not
+    
+quite
+the
+same
+as
+an
+element
+of
+the
+"
+effective
+overload
+set
+"
+in
+the
+spec
+    
+because
+separate
+IDLMethodOverloads
+are
+not
+created
+based
+on
+arguments
+being
+    
+optional
+.
+Rather
+when
+multiple
+methods
+have
+the
+same
+name
+there
+is
+an
+    
+IDLMethodOverload
+for
+each
+one
+all
+hanging
+off
+an
+IDLMethod
+representing
+    
+the
+full
+set
+of
+overloads
+.
+    
+"
+"
+"
+    
+def
+__init__
+(
+self
+returnType
+arguments
+location
+)
+:
+        
+self
+.
+returnType
+=
+returnType
+        
+#
+Clone
+the
+list
+of
+arguments
+just
+in
+case
+        
+self
+.
+arguments
+=
+list
+(
+arguments
+)
+        
+self
+.
+location
+=
+location
+class
 IDLMethod
 (
 IDLInterfaceMember
@@ -12854,38 +13073,27 @@ returnType
 IDLType
 )
         
+#
 self
 .
-_returnType
-=
-[
-returnType
-]
-        
-#
-We
-store
+_overloads
+is
 a
 list
 of
-all
-the
-overload
-locations
-matching
-our
-        
-#
-signature
-list
-.
+IDLMethodOverloads
         
 self
 .
-_location
+_overloads
 =
 [
+IDLMethodOverload
+(
+returnType
+arguments
 location
+)
 ]
         
 assert
@@ -12985,22 +13193,6 @@ _specialType
 =
 specialType
         
-#
-Clone
-the
-list
-        
-self
-.
-_arguments
-=
-[
-list
-(
-arguments
-)
-]
-        
 self
 .
 assertSignatureConstraints
@@ -13049,19 +13241,38 @@ len
 (
 self
 .
-_arguments
+_overloads
+)
+=
+=
+1
+            
+overload
+=
+self
+.
+_overloads
+[
+0
+]
+            
+arguments
+=
+overload
+.
+arguments
+            
+assert
+len
+(
+arguments
 )
 =
 =
 1
             
 assert
-self
-.
-_arguments
-[
-0
-]
+arguments
 [
 0
 ]
@@ -13080,12 +13291,7 @@ domstring
 or
 \
                    
-self
-.
-_arguments
-[
-0
-]
+arguments
 [
 0
 ]
@@ -13104,12 +13310,7 @@ unsigned_long
             
 assert
 not
-self
-.
-_arguments
-[
-0
-]
+arguments
 [
 0
 ]
@@ -13117,12 +13318,7 @@ _arguments
 optional
 and
 not
-self
-.
-_arguments
-[
-0
-]
+arguments
 [
 0
 ]
@@ -13136,12 +13332,9 @@ self
 _getter
 or
 not
-self
+overload
 .
-_returnType
-[
-0
-]
+returnType
 .
 isVoid
 (
@@ -13162,22 +13355,34 @@ len
 (
 self
 .
-_arguments
+_overloads
+)
+=
+=
+1
+            
+arguments
+=
+self
+.
+_overloads
 [
 0
 ]
+.
+arguments
+            
+assert
+len
+(
+arguments
 )
 =
 =
 2
             
 assert
-self
-.
-_arguments
-[
-0
-]
+arguments
 [
 0
 ]
@@ -13196,12 +13401,7 @@ domstring
 or
 \
                    
-self
-.
-_arguments
-[
-0
-]
+arguments
 [
 0
 ]
@@ -13220,12 +13420,7 @@ unsigned_long
             
 assert
 not
-self
-.
-_arguments
-[
-0
-]
+arguments
 [
 0
 ]
@@ -13233,12 +13428,7 @@ _arguments
 optional
 and
 not
-self
-.
-_arguments
-[
-0
-]
+arguments
 [
 0
 ]
@@ -13247,12 +13437,7 @@ variadic
             
 assert
 not
-self
-.
-_arguments
-[
-0
-]
+arguments
 [
 1
 ]
@@ -13260,12 +13445,7 @@ _arguments
 optional
 and
 not
-self
-.
-_arguments
-[
-0
-]
+arguments
 [
 1
 ]
@@ -13283,22 +13463,36 @@ len
 (
 self
 .
-_arguments
+_overloads
+)
+=
+=
+1
+            
+overload
+=
+self
+.
+_overloads
 [
 0
 ]
+            
+assert
+len
+(
+overload
+.
+arguments
 )
 =
 =
 0
             
 assert
-self
+overload
 .
-_returnType
-[
-0
-]
+returnType
 =
 =
 BuiltinTypes
@@ -13327,7 +13521,7 @@ len
 (
 self
 .
-_arguments
+_overloads
 )
 =
 =
@@ -13337,10 +13531,12 @@ arguments
 =
 self
 .
-_arguments
+_overloads
 [
 0
 ]
+.
+arguments
         
 for
 argument
@@ -13373,9 +13569,11 @@ last
 argument
 "
                                   
+[
 variadicArgument
 .
 location
+]
 )
             
 #
@@ -13421,9 +13619,11 @@ optional
 arguments
 "
                                   
+[
 argument
 .
 location
+]
 )
             
 #
@@ -13475,9 +13675,11 @@ default
 values
 "
                                   
+[
 argument
 .
 location
+]
 )
             
 inOptionalArguments
@@ -13762,44 +13964,12 @@ method
 )
 :
         
-checkDistinguishability
-(
-self
-.
-_arguments
-method
-.
-_arguments
-)
-        
 assert
 len
 (
 method
 .
-_returnType
-)
-=
-=
-1
-        
-assert
-len
-(
-method
-.
-_arguments
-)
-=
-=
-1
-        
-assert
-len
-(
-method
-.
-_location
+_overloads
 )
 =
 =
@@ -13807,35 +13977,13 @@ _location
         
 self
 .
-_returnType
+_overloads
 .
 extend
 (
 method
 .
-_returnType
-)
-        
-self
-.
-_arguments
-.
-extend
-(
-method
-.
-_arguments
-)
-        
-self
-.
-_location
-.
-extend
-(
-method
-.
-_location
+_overloads
 )
         
 self
@@ -13883,9 +14031,11 @@ method1
 .
 identifier
                               
+[
 method
 .
 location
+]
 )
         
 if
@@ -13927,9 +14077,11 @@ method1
 .
 identifier
                               
+[
 method
 .
 location
+]
 )
         
 #
@@ -14031,32 +14183,24 @@ self
 )
 :
         
-assert
-len
-(
-self
-.
-_returnType
-)
-=
-=
-len
-(
-self
-.
-_arguments
-)
-        
 return
-zip
+[
 (
-self
+overload
 .
-_returnType
-self
+returnType
+overload
 .
-_arguments
+arguments
 )
+for
+overload
+in
+                
+self
+.
+_overloads
+]
     
 def
 finish
@@ -14067,74 +14211,18 @@ scope
 :
         
 for
-index
-returnType
-in
-enumerate
-(
-self
-.
-_returnType
-)
-:
-            
-if
-returnType
-.
-isComplete
-(
-)
-:
-                
-continue
-            
-type
-=
-returnType
-.
-complete
-(
-scope
-)
-            
-assert
-not
-isinstance
-(
-type
-IDLUnresolvedType
-)
-            
-assert
-not
-isinstance
-(
-type
-.
-name
-IDLUnresolvedIdentifier
-)
-            
-self
-.
-_returnType
-[
-index
-]
-=
-type
-        
-for
-arguments
+overload
 in
 self
 .
-_arguments
+_overloads
 :
             
 for
 argument
 in
+overload
+.
 arguments
 :
                 
@@ -14182,6 +14270,55 @@ IDLUnresolvedIdentifier
 argument
 .
 type
+=
+type
+            
+returnType
+=
+overload
+.
+returnType
+            
+if
+returnType
+.
+isComplete
+(
+)
+:
+                
+continue
+            
+type
+=
+returnType
+.
+complete
+(
+scope
+)
+            
+assert
+not
+isinstance
+(
+type
+IDLUnresolvedType
+)
+            
+assert
+not
+isinstance
+(
+type
+.
+name
+IDLUnresolvedIdentifier
+)
+            
+overload
+.
+returnType
 =
 type
         
@@ -14299,11 +14436,11 @@ self
 allowedArgCounts
 :
             
-possibleSignatures
+possibleOverloads
 =
 self
 .
-signaturesForArgCount
+overloadsForArgCount
 (
 argCount
 )
@@ -14311,7 +14448,7 @@ argCount
 if
 len
 (
-possibleSignatures
+possibleOverloads
 )
 =
 =
@@ -14329,19 +14466,6 @@ distinguishingIndexForArgCount
 argCount
 )
             
-arglists
-=
-[
-s
-[
-1
-]
-for
-s
-in
-possibleSignatures
-]
-            
 for
 idx
 in
@@ -14353,10 +14477,12 @@ distinguishingIndex
                 
 firstSigType
 =
-arglists
+possibleOverloads
 [
 0
 ]
+.
+arguments
 [
 idx
 ]
@@ -14364,31 +14490,19 @@ idx
 type
                 
 for
-(
-otherArgList
-location
-)
+overload
 in
-zip
-(
-arglists
+possibleOverloads
 [
 1
 :
 ]
-                                                    
-self
-.
-_location
-[
-1
-:
-]
-)
 :
                     
 if
-otherArgList
+overload
+.
+arguments
 [
 idx
 ]
@@ -14452,16 +14566,67 @@ idx
 distinguishingIndex
 )
                             
+[
 self
 .
 location
-                            
-extraLocations
-=
-[
+overload
+.
 location
 ]
 )
+    
+def
+overloadsForArgCount
+(
+self
+argc
+)
+:
+        
+return
+[
+overload
+for
+overload
+in
+self
+.
+_overloads
+if
+                
+len
+(
+overload
+.
+arguments
+)
+=
+=
+argc
+or
+                
+(
+len
+(
+overload
+.
+arguments
+)
+>
+argc
+and
+                 
+overload
+.
+arguments
+[
+argc
+]
+.
+optional
+)
+]
     
 def
 signaturesForArgCount
@@ -14474,44 +14639,22 @@ argc
 return
 [
 (
-retval
-args
+overload
+.
+returnType
+overload
+.
+arguments
 )
 for
-(
-retval
-args
-)
+overload
+                
 in
 self
 .
-signatures
+overloadsForArgCount
 (
-)
-if
-                
-len
-(
-args
-)
-=
-=
 argc
-or
-(
-len
-(
-args
-)
->
-argc
-and
-args
-[
-argc
-]
-.
-optional
 )
 ]
     
@@ -14525,44 +14668,42 @@ argc
         
 return
 [
-self
+overload
 .
-_location
-[
-i
-]
+location
 for
-(
-i
-args
-)
+overload
 in
-enumerate
-(
 self
 .
-_arguments
-)
+_overloads
 if
-                 
+                
 len
 (
-args
+overload
+.
+arguments
 )
 =
 =
 argc
 or
-                 
+                
 (
 len
 (
-args
+overload
+.
+arguments
 )
 >
 argc
 and
-args
+                 
+overload
+.
+arguments
 [
 argc
 ]
@@ -14737,17 +14878,6 @@ name
 )
                           
 locations
-[
-0
-]
-                          
-extraLocations
-=
-locations
-[
-1
-:
-]
 )
 class
 IDLImplementsStatement
@@ -14898,11 +15028,13 @@ an
 interface
 "
                               
+[
 self
 .
 implementor
 .
 location
+]
 )
         
 if
@@ -14934,11 +15066,13 @@ callback
 interface
 "
                               
+[
 self
 .
 implementor
 .
 location
+]
 )
         
 if
@@ -14971,11 +15105,13 @@ an
 interface
 "
                               
+[
 self
 .
 implementee
 .
 location
+]
 )
         
 if
@@ -15007,11 +15143,13 @@ callback
 interface
 "
                               
+[
 self
 .
 implementee
 .
 location
+]
 )
         
 implementor
@@ -15181,6 +15319,7 @@ integer
 literal
 "
                               
+[
 Location
 (
 lexer
@@ -15188,7 +15327,7 @@ lexer
 self
 .
 lexer
-                                       
+                                        
 lineno
 =
 self
@@ -15196,7 +15335,7 @@ self
 lexer
 .
 lineno
-                                       
+                                        
 lexpos
 =
 self
@@ -15204,13 +15343,14 @@ self
 lexer
 .
 lexpos
-                                       
+                                        
 filename
 =
 self
 .
 _filename
 )
+]
 )
         
 return
@@ -16026,6 +16166,7 @@ Unrecognized
 Input
 "
                
+[
 Location
 (
 lexer
@@ -16033,7 +16174,7 @@ lexer
 self
 .
 lexer
-                        
+                         
 lineno
 =
 self
@@ -16041,7 +16182,7 @@ self
 lexer
 .
 lineno
-                        
+                         
 lexpos
 =
 self
@@ -16049,13 +16190,14 @@ self
 lexer
 .
 lexpos
-                        
+                         
 filename
 =
 self
 .
 filename
 )
+]
 )
     
 def
@@ -17196,6 +17338,10 @@ defaultValue
 variadic
 =
 False
+                           
+dictionaryMember
+=
+True
 )
     
 def
@@ -17952,7 +18098,9 @@ out
 of
 range
 "
+[
 location
+]
 )
         
 p
@@ -18400,6 +18548,7 @@ not
 allowed
 "
                               
+[
 self
 .
 getLocation
@@ -18407,6 +18556,7 @@ getLocation
 p
 1
 )
+]
 )
         
 static
@@ -18596,6 +18746,7 @@ and
 creator
 "
                                   
+[
 self
 .
 getLocation
@@ -18603,6 +18754,7 @@ getLocation
 p
 1
 )
+]
 )
         
 (
@@ -18673,6 +18825,7 @@ deleter
 "
 )
                                   
+[
 self
 .
 getLocation
@@ -18680,6 +18833,7 @@ getLocation
 p
 2
 )
+]
 )
             
 argType
@@ -18770,12 +18924,14 @@ deleter
 "
 )
                                   
+[
 arguments
 [
 0
 ]
 .
 location
+]
 )
             
 if
@@ -18835,12 +18991,14 @@ variadic
 "
 )
                                    
+[
 arguments
 [
 0
 ]
 .
 location
+]
 )
         
 if
@@ -18867,6 +19025,7 @@ return
 type
 "
                                   
+[
 self
 .
 getLocation
@@ -18874,6 +19033,7 @@ getLocation
 p
 2
 )
+]
 )
         
 if
@@ -18918,6 +19078,7 @@ creator
 "
 )
                                   
+[
 self
 .
 getLocation
@@ -18925,6 +19086,7 @@ getLocation
 p
 2
 )
+]
 )
             
 argType
@@ -19015,12 +19177,14 @@ creator
 "
 )
                                   
+[
 arguments
 [
 0
 ]
 .
 location
+]
 )
             
 if
@@ -19079,13 +19243,15 @@ else
 variadic
 "
 )
-                                   
+                                  
+[
 arguments
 [
 0
 ]
 .
 location
+]
 )
             
 if
@@ -19144,13 +19310,15 @@ else
 variadic
 "
 )
-                                   
+                                  
+[
 arguments
 [
 1
 ]
 .
 location
+]
 )
         
 if
@@ -19179,6 +19347,7 @@ of
 arguments
 "
                                   
+[
 self
 .
 getLocation
@@ -19186,6 +19355,7 @@ getLocation
 p
 2
 )
+]
 )
             
 if
@@ -19209,6 +19379,7 @@ return
 type
 "
                                   
+[
 self
 .
 getLocation
@@ -19216,6 +19387,7 @@ getLocation
 p
 2
 )
+]
 )
         
 inOptionalArguments
@@ -19258,9 +19430,11 @@ be
 variadic
 "
                                   
+[
 variadicArgument
 .
 location
+]
 )
             
 #
@@ -19310,9 +19484,11 @@ optional
 argument
 "
                                   
+[
 argument
 .
 location
+]
 )
             
 inOptionalArguments
@@ -19386,6 +19562,7 @@ special
 methods
 "
                                   
+[
 self
 .
 getLocation
@@ -19393,6 +19570,7 @@ getLocation
 p
 2
 )
+]
 )
             
 location
@@ -20266,6 +20444,7 @@ value
 .
 "
                               
+[
 self
 .
 getLocation
@@ -20273,6 +20452,7 @@ getLocation
 p
 6
 )
+]
 )
         
 if
@@ -20297,6 +20477,7 @@ optional
 .
 "
                                   
+[
 self
 .
 getLocation
@@ -20304,6 +20485,7 @@ getLocation
 p
 2
 )
+]
 )
             
 optional
@@ -22861,7 +23043,8 @@ braces
 or
 both
 "
-None
+[
+]
 )
         
 else
@@ -22874,6 +23057,7 @@ WebIDLError
 invalid
 syntax
 "
+[
 Location
 (
 self
@@ -22889,6 +23073,7 @@ self
 .
 _filename
 )
+]
 )
     
 def

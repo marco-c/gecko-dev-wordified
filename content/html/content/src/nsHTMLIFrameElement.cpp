@@ -112,13 +112,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIDOMSVGDocument
 .
 h
@@ -127,13 +120,6 @@ h
 include
 "
 nsGkAtoms
-.
-h
-"
-#
-include
-"
-nsIDocument
 .
 h
 "

@@ -250,7 +250,7 @@ nsIDOMEvent
 aCompositionEvent
 )
 ;
-NS_IMETHOD
+void
 HandleEndComposition
 (
 nsIDOMEvent

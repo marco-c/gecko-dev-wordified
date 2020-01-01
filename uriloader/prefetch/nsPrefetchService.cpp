@@ -235,6 +235,13 @@ Attributes
 .
 h
 "
+#
+include
+"
+nsIDOMNode
+.
+h
+"
 using
 namespace
 mozilla

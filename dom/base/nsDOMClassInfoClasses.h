@@ -1536,7 +1536,7 @@ GeoPositionError
 )
 DOMCI_CLASS
 (
-MozBatteryManager
+BatteryManager
 )
 DOMCI_CLASS
 (

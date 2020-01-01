@@ -424,6 +424,14 @@ nsHTMLFormatConverter
 #
 ifdef
 MOZ_X11
+NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
+(
+nsIdleServiceGTK
+nsIdleServiceGTK
+:
+:
+GetInstance
+)
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsClipboardHelper
@@ -569,10 +577,6 @@ if
 defined
 (
 MOZ_X11
-)
-NS_GENERIC_FACTORY_CONSTRUCTOR
-(
-nsIdleServiceGTK
 )
 namespace
 mozilla

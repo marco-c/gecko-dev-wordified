@@ -121,13 +121,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsDOMClassInfoID
 .
 h

@@ -146,13 +146,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h

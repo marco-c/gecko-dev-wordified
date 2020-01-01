@@ -154,9 +154,6 @@ class
 nsDOMNavigationTimingClock
 ;
 class
-nsIDocument
-;
-class
 nsDOMNavigationTiming
 {
 public

@@ -114,6 +114,15 @@ nsIMemory
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 *
@@ -290,6 +299,7 @@ bug
 /
 class
 BackwardsAllocator
+MOZ_FINAL
 :
 public
 nsIMemory

@@ -117,12 +117,6 @@ nsEvent
 h
 "
 class
-nsIContent
-;
-class
-nsIDocument
-;
-class
 nsPresContext
 ;
 class

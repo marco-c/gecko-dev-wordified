@@ -59,14 +59,14 @@ MPL
 #
 include
 "
-nsDOMDeviceOrientationEvent
+nsDOMClassInfoID
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsDOMDeviceOrientationEvent
 .
 h
 "

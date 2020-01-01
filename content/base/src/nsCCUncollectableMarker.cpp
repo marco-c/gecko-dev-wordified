@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIContentViewer
 .
 h

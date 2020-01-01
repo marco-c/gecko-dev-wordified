@@ -208,13 +208,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsButtonFrameRenderer
 .
 h

@@ -166,13 +166,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIFileStreams
 .
 h

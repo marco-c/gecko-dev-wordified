@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsTreeColumns
 .
 h

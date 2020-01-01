@@ -198,6 +198,15 @@ nsIFile
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 *
@@ -797,6 +806,7 @@ instead
 .
 class
 StartupCacheListener
+MOZ_FINAL
 :
 public
 nsIObserver
@@ -1208,6 +1218,7 @@ ifdef
 DEBUG
 class
 StartupCacheDebugOutputStream
+MOZ_FINAL
 :
 public
 nsIObjectOutputStream
@@ -1321,6 +1332,7 @@ cache
 "
 class
 StartupCacheWrapper
+MOZ_FINAL
 :
 public
 nsIStartupCache
