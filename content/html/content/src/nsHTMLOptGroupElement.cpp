@@ -1006,6 +1006,7 @@ GetSelect
 this
 aKid
 aIndex
+aNotify
 )
 ;
 nsresult
@@ -1063,6 +1064,7 @@ GetSelect
 this
 nsnull
 aIndex
+aNotify
 )
 ;
 nsresult
