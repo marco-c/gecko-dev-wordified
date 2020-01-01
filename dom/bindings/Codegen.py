@@ -44540,6 +44540,14 @@ m
 isStatic
 (
 )
+and
+m
+.
+type
+.
+isSerializable
+(
+)
 :
               
 ret
