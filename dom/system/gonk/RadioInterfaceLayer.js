@@ -6116,7 +6116,7 @@ cardState
 ;
 gMessageManager
 .
-sendMobileConnectionMessage
+sendIccMessage
 (
 "
 RIL
