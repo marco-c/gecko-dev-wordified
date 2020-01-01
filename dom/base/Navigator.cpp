@@ -7568,9 +7568,6 @@ nameSpaceManager
 {
 return
 Throw
-<
-true
->
 (
 aCx
 NS_ERROR_NOT_INITIALIZED
@@ -7668,9 +7665,6 @@ naviObj
 {
 return
 Throw
-<
-true
->
 (
 aCx
 NS_ERROR_DOM_SECURITY_ERR
@@ -7842,9 +7836,6 @@ domObject
 {
 return
 Throw
-<
-true
->
 (
 aCx
 NS_ERROR_FAILURE
@@ -7932,9 +7923,6 @@ rv
 {
 return
 Throw
-<
-true
->
 (
 aCx
 rv
@@ -7992,9 +7980,6 @@ mWindow
 {
 return
 Throw
-<
-true
->
 (
 aCx
 NS_ERROR_UNEXPECTED
@@ -8026,9 +8011,6 @@ rv
 {
 return
 Throw
-<
-true
->
 (
 aCx
 rv
@@ -8089,9 +8071,6 @@ rv
 {
 return
 Throw
-<
-true
->
 (
 aCx
 rv
@@ -8115,9 +8094,6 @@ address
 {
 return
 Throw
-<
-true
->
 (
 aCx
 NS_ERROR_UNEXPECTED

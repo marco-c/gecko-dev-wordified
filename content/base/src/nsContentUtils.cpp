@@ -29153,6 +29153,13 @@ GetCurrentJSContext
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 return
 sXPConnect
 -
@@ -29176,6 +29183,13 @@ GetSafeJSContext
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 return
 sXPConnect
 -

@@ -99,6 +99,20 @@ mozilla_dom_DOMException_h__
 #
 define
 mozilla_dom_DOMException_h__
+/
+/
+We
+intentionally
+shadow
+non
+-
+virtual
+methods
+but
+gcc
+gets
+confused
+.
 #
 ifdef
 __GNUC__
@@ -221,7 +235,7 @@ dom
 {
 #
 define
-MOZILLA_DOM_EXCEPTION_IID
+MOZILLA_EXCEPTION_IID
 \
 {
 0x55eda557
@@ -251,7 +265,7 @@ public
 :
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
-MOZILLA_DOM_EXCEPTION_IID
+MOZILLA_EXCEPTION_IID
 )
 NS_DEFINE_STATIC_CID_ACCESSOR
 (
@@ -517,7 +531,7 @@ sEverMadeOneFromFactory
 NS_DEFINE_STATIC_IID_ACCESSOR
 (
 Exception
-MOZILLA_DOM_EXCEPTION_IID
+MOZILLA_EXCEPTION_IID
 )
 class
 DOMException

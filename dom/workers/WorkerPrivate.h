@@ -3148,6 +3148,12 @@ IsCurrentThreadRunningChromeWorker
 (
 )
 ;
+JSContext
+*
+GetCurrentThreadJSContext
+(
+)
+;
 enum
 WorkerStructuredDataType
 {

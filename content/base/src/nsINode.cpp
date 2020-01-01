@@ -14928,9 +14928,6 @@ IsCallerChrome
 )
 {
 Throw
-<
-true
->
 (
 aCx
 NS_ERROR_UNEXPECTED
