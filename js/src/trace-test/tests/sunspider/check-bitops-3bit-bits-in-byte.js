@@ -251,10 +251,8 @@ TimeFunc
 fast3bitlookup
 )
 ;
-print
+assertEq
 (
 ret
-=
-=
 512000
 )

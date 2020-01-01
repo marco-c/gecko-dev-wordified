@@ -472,10 +472,8 @@ fannkuch
 n
 )
 ;
-print
+assertEq
 (
 ret
-=
-=
 22
 )

@@ -311,11 +311,9 @@ itemCheck
 )
 ;
 }
-print
+assertEq
 (
 ret
-=
-=
 -
 1
 )

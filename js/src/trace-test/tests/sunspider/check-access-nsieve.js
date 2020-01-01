@@ -250,10 +250,8 @@ sieve
 (
 )
 ;
-print
+assertEq
 (
 ret
-=
-=
 14302
 )

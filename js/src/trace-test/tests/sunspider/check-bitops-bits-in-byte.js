@@ -145,10 +145,8 @@ TimeFunc
 bitsinbyte
 )
 ;
-print
+assertEq
 (
 ret
-=
-=
 358400
 )

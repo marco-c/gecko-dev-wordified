@@ -1155,8 +1155,9 @@ i
 ]
 ;
 }
-print
+assertEq
 (
 passed
+true
 )
 ;
