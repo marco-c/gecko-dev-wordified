@@ -3997,7 +3997,6 @@ new
 File
 (
 updateDir
-+
 getPackageName
 (
 )
