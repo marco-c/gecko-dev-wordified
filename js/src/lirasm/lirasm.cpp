@@ -3877,6 +3877,8 @@ if
 NJ_SOFTFLOAT_SUPPORTED
 if
 (
+mParent
+.
 mConfig
 .
 soft_float
@@ -9420,6 +9422,8 @@ time
 .
 if
 (
+mParent
+.
 mConfig
 .
 arm_vfp
@@ -9523,13 +9527,9 @@ time
 .
 if
 (
-avmplus
-:
-:
-AvmCore
-:
-:
-config
+mParent
+.
+mConfig
 .
 arm_vfp
 )
