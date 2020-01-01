@@ -4991,6 +4991,16 @@ if
 (
 setter
 )
+{
+GC_POKE
+(
+cx
+array
+[
+i
+]
+)
+;
 array
 [
 i
@@ -4999,7 +5009,9 @@ i
 *
 vp
 ;
+}
 else
+{
 *
 vp
 =
@@ -5008,6 +5020,7 @@ array
 i
 ]
 ;
+}
 return
 JS_TRUE
 ;
