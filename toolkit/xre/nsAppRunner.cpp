@@ -20561,17 +20561,6 @@ catch
 potential
 changes
 .
-/
-/
-We
-only
-offer
-this
-in
-debug
-builds
-though
-.
 nsCOMPtr
 <
 nsIFile
