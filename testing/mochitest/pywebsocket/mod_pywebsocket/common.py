@@ -276,7 +276,7 @@ version
 .
 VERSION_HYBI07
 =
-7
+8
 VERSION_HYBI00
 =
 0

@@ -759,12 +759,12 @@ hybi
 -
 thewebsocketprotocol
 -
-07
+08
 #
 define
 SEC_WEBSOCKET_VERSION
 "
-7
+8
 "
 /
 *
