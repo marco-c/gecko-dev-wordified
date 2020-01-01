@@ -547,6 +547,15 @@ nsFind
 (
 )
 ;
+static
+already_AddRefed
+<
+nsIDOMRange
+>
+CreateRange
+(
+)
+;
 protected
 :
 static

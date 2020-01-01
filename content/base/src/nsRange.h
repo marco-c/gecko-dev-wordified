@@ -868,6 +868,15 @@ nsRange
 &
 )
 ;
+nsINode
+*
+IsValidBoundary
+(
+nsINode
+*
+aNode
+)
+;
 public
 :
 /
