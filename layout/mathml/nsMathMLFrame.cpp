@@ -1553,12 +1553,6 @@ flags
 NS_MATHML_DISPLAYSTYLE
 ;
 }
-FindAttrDisplaystyle
-(
-content
-aPresentationData
-)
-;
 aPresentationData
 .
 mstyle
