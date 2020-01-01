@@ -317,8 +317,10 @@ JS_ConvertStub
 NULL
 }
 ;
-static
 JSBool
+js
+:
+:
 intrinsic_ToObject
 (
 JSContext
@@ -443,8 +445,10 @@ return
 true
 ;
 }
-static
 JSBool
+js
+:
+:
 intrinsic_IsCallable
 (
 JSContext

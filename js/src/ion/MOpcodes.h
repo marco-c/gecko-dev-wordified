@@ -849,6 +849,11 @@ SetDOMProperty
 \
 _
 (
+IsCallable
+)
+\
+_
+(
 AsmJSNeg
 )
 \

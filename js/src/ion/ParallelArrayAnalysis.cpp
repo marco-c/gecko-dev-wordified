@@ -1418,6 +1418,10 @@ SAFE_OP
 (
 TypeObjectDispatch
 )
+SAFE_OP
+(
+IsCallable
+)
 UNSAFE_OP
 (
 EffectiveAddress

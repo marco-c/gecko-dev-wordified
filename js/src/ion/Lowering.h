@@ -1686,6 +1686,14 @@ ins
 )
 ;
 bool
+visitIsCallable
+(
+MIsCallable
+*
+ins
+)
+;
+bool
 visitAsmJSLoadHeap
 (
 MAsmJSLoadHeap
