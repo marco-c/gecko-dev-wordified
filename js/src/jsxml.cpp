@@ -6196,6 +6196,12 @@ else
 {
 if
 (
+#
+if
+JS_BITS_PER_WORD
+=
+=
+32
 (
 size_t
 )
@@ -6214,6 +6220,8 @@ void
 )
 |
 |
+#
+endif
 !
 (
 vector
@@ -6723,6 +6731,12 @@ log2
 }
 if
 (
+#
+if
+JS_BITS_PER_WORD
+=
+=
+32
 (
 size_t
 )
@@ -6741,6 +6755,8 @@ void
 )
 |
 |
+#
+endif
 !
 (
 vector

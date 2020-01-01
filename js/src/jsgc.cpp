@@ -2065,6 +2065,9 @@ JSGCArenaInfo
 arenaStart
 )
 +
+(
+jsuword
+)
 ARENA_INFO_OFFSET
 )
 )
@@ -2115,7 +2118,11 @@ arenaPage
 \
 JS_ASSERT
 (
+!
 (
+(
+jsuword
+)
 (
 arenaPage
 )
@@ -2127,9 +2134,6 @@ JS_BITS_PER_WORD
 GC_ARENA_SHIFT
 )
 )
-=
-=
-0
 )
 \
 ARENA_START_TO_INFO
