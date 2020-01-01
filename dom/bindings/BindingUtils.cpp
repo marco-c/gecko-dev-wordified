@@ -7221,9 +7221,6 @@ JSObject
 *
 mNewReflector
 ;
-size_t
-mSlot
-;
 }
 ;
 nsresult
