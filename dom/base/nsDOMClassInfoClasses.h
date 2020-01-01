@@ -1868,6 +1868,10 @@ DOMCI_CLASS
 (
 MozSmsManager
 )
+DOMCI_CLASS
+(
+MozSmsMessage
+)
 /
 /
 font
