@@ -469,15 +469,6 @@ include
 "
 ion
 /
-MoveGroupResolver
-.
-h
-"
-#
-include
-"
-ion
-/
 IonMacroAssembler
 .
 h
@@ -519,9 +510,6 @@ graph
 LBlock
 *
 current
-;
-MoveGroupResolver
-moveGroupResolver
 ;
 static
 inline
