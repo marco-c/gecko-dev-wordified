@@ -24148,7 +24148,7 @@ mOuterWindowID
 PRUint64
 mInnerWindowID
 ;
-PRUint64
+PRInt64
 mTimeStamp
 ;
 }

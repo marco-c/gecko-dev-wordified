@@ -876,7 +876,7 @@ category
 ;
 mTimeStamp
 =
-PR_Now
+JS_Now
 (
 )
 /
