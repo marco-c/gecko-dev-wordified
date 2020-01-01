@@ -679,6 +679,12 @@ ReleaseTable
 void
 )
 ;
+static
+void
+CleanUp
+(
+)
+;
 /
 /
 LookupOperator
