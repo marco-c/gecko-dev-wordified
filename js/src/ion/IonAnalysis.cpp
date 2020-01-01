@@ -654,7 +654,13 @@ MBasicBlock
 :
 NewSplitEdge
 (
+graph
 gen
+-
+>
+info
+(
+)
 *
 block
 )

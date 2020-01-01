@@ -1125,12 +1125,6 @@ IonBuilder
 JSContext
 *
 cx
-JSScript
-*
-script
-JSFunction
-*
-fun
 TempAllocator
 &
 temp
@@ -1140,6 +1134,9 @@ graph
 TypeOracle
 *
 oracle
+CompileInfo
+&
+info
 )
 ;
 public
