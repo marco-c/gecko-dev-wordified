@@ -4318,9 +4318,9 @@ pluginType
 PluginInstanceData
 *
 pData
-uint16
+uint16_t
 mode
-int16
+int16_t
 argc
 char
 *
@@ -4385,7 +4385,7 @@ pluginType
 }
 for
 (
-int16
+int16_t
 i
 =
 0
@@ -5121,9 +5121,9 @@ NPMIMEType
 pluginType
 NPP
 instance
-uint16
+uint16_t
 mode
-int16
+int16_t
 argc
 char
 *
@@ -6168,7 +6168,7 @@ NPStream
 stream
 NPBool
 seekable
-uint16
+uint16_t
 *
 stype
 )
@@ -6538,7 +6538,7 @@ here
 \
 \
 .
-int32
+int32_t
 STREAMBUFSIZE
 =
 0X0FFFFFFF
@@ -6605,7 +6605,7 @@ call
 .
 /
 /
-int32
+int32_t
 NP_LOADDS
 NPP_WriteReady
 (
@@ -6635,7 +6635,7 @@ data
 .
 /
 /
-int32
+int32_t
 NP_LOADDS
 NPP_Write
 (
@@ -6644,9 +6644,9 @@ instance
 NPStream
 *
 stream
-int32
+int32_t
 offset
-int32
+int32_t
 len
 void
 *

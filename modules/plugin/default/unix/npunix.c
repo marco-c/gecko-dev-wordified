@@ -1239,7 +1239,7 @@ const
 char
 *
 window
-uint32
+uint32_t
 len
 const
 char
@@ -1277,7 +1277,7 @@ const
 char
 *
 window
-uint32
+uint32_t
 len
 const
 char
@@ -1358,7 +1358,7 @@ stream_ptr
 )
 ;
 }
-int32
+int32_t
 NPN_Write
 (
 NPP
@@ -1366,7 +1366,7 @@ instance
 NPStream
 *
 stream
-int32
+int32_t
 len
 void
 *
@@ -1454,7 +1454,7 @@ void
 *
 NPN_MemAlloc
 (
-uint32
+uint32_t
 size
 )
 {
@@ -1485,10 +1485,10 @@ ptr
 )
 ;
 }
-uint32
+uint32_t
 NPN_MemFlush
 (
-uint32
+uint32_t
 size
 )
 {
@@ -2251,9 +2251,9 @@ NPMIMEType
 pluginType
 NPP
 instance
-uint16
+uint16_t
 mode
-int16
+int16_t
 argc
 char
 *
@@ -2367,7 +2367,7 @@ NPStream
 stream
 NPBool
 seekable
-uint16
+uint16_t
 *
 stype
 )
@@ -2397,7 +2397,7 @@ return
 err
 ;
 }
-int32
+int32_t
 Private_WriteReady
 (
 NPP
@@ -2430,7 +2430,7 @@ return
 result
 ;
 }
-int32
+int32_t
 Private_Write
 (
 NPP
@@ -2438,9 +2438,9 @@ instance
 NPStream
 *
 stream
-int32
+int32_t
 offset
-int32
+int32_t
 len
 void
 *

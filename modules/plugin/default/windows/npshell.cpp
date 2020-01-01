@@ -986,9 +986,9 @@ NPMIMEType
 pluginType
 NPP
 pInstance
-uint16
+uint16_t
 mode
-int16
+int16_t
 argc
 char
 *
@@ -1056,7 +1056,7 @@ NULL
 BOOL
 bHidden
 =
-FALSE
+false
 ;
 for
 (
@@ -2316,7 +2316,7 @@ NPStream
 stream
 NPBool
 seekable
-uint16
+uint16_t
 *
 stype
 )
@@ -2556,7 +2556,7 @@ NPP_WriteReady
 -
 -
 -
-int32
+int32_t
 NP_LOADDS
 NPP_WriteReady
 (
@@ -2817,7 +2817,7 @@ NPP_Write
 -
 -
 -
-int32
+int32_t
 NP_LOADDS
 NPP_Write
 (
@@ -2826,9 +2826,9 @@ pInstance
 NPStream
 *
 stream
-int32
+int32_t
 offset
-int32
+int32_t
 len
 void
 *

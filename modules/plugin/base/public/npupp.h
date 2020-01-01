@@ -809,9 +809,9 @@ NPMIMEType
 pluginType
 NPP
 instance
-uint16
+uint16_t
 mode
-int16
+int16_t
 argc
 char
 *
@@ -1025,7 +1025,7 @@ NPStream
 stream
 NPBool
 seekable
-uint16
+uint16_t
 *
 stype
 )
@@ -1150,7 +1150,7 @@ NPP_WriteReady
 *
 /
 typedef
-int32
+int32_t
 (
 *
 NP_LOADDS
@@ -1208,7 +1208,7 @@ NPP_Write
 *
 /
 typedef
-int32
+int32_t
 (
 *
 NP_LOADDS
@@ -1220,9 +1220,9 @@ instance
 NPStream
 *
 stream
-int32
+int32_t
 offset
-int32
+int32_t
 len
 void
 *
@@ -1409,7 +1409,7 @@ NPP_HandleEvent
 *
 /
 typedef
-int16
+int16_t
 (
 *
 NP_LOADDS
@@ -1894,7 +1894,7 @@ const
 char
 *
 window
-uint32
+uint32_t
 len
 const
 char
@@ -2055,7 +2055,7 @@ const
 char
 *
 window
-uint32
+uint32_t
 len
 const
 char
@@ -2257,7 +2257,7 @@ NPN_Write
 *
 /
 typedef
-int32
+int32_t
 (
 *
 NP_LOADDS
@@ -2269,7 +2269,7 @@ instance
 NPStream
 *
 stream
-int32
+int32_t
 len
 void
 *
@@ -2512,7 +2512,7 @@ NP_LOADDS
 NPN_MemAllocUPP
 )
 (
-uint32
+uint32_t
 size
 )
 ;
@@ -2608,14 +2608,14 @@ NPN_MemFlush
 *
 /
 typedef
-uint32
+uint32_t
 (
 *
 NP_LOADDS
 NPN_MemFlushUPP
 )
 (
-uint32
+uint32_t
 size
 )
 ;
@@ -4739,10 +4739,10 @@ typedef
 struct
 _NPPluginFuncs
 {
-uint16
+uint16_t
 size
 ;
-uint16
+uint16_t
 version
 ;
 NPP_NewUPP
@@ -4836,10 +4836,10 @@ typedef
 struct
 _NPNetscapeFuncs
 {
-uint16
+uint16_t
 size
 ;
-uint16
+uint16_t
 version
 ;
 NPN_GetURLUPP

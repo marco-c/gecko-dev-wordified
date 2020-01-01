@@ -984,7 +984,7 @@ This
 >
 exists
 =
-FALSE
+false
 ;
 /
 *
@@ -2155,7 +2155,7 @@ printInfo
 >
 pluginPrinted
 to
-FALSE
+false
 (
 the
 default
@@ -2324,7 +2324,7 @@ fullPrint
 .
 pluginPrinted
 =
-FALSE
+false
 ;
 }
 else
