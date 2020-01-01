@@ -10988,9 +10988,6 @@ invalid_values
 ]
 }
 "
--
-moz
--
 transform
 "
 :
@@ -10998,7 +10995,7 @@ transform
 domProp
 :
 "
-MozTransform
+transform
 "
 inherited
 :
@@ -12131,9 +12128,6 @@ translate3d
 )
 }
 "
--
-moz
--
 transform
 -
 origin
@@ -12143,7 +12137,7 @@ origin
 domProp
 :
 "
-MozTransformOrigin
+transformOrigin
 "
 inherited
 :
@@ -12482,9 +12476,6 @@ bottom
 ]
 }
 "
--
-moz
--
 perspective
 -
 origin
@@ -12494,7 +12485,7 @@ origin
 domProp
 :
 "
-MozPerspectiveOrigin
+perspectiveOrigin
 "
 inherited
 :
@@ -12833,9 +12824,6 @@ bottom
 ]
 }
 "
--
-moz
--
 perspective
 "
 :
@@ -12843,7 +12831,7 @@ perspective
 domProp
 :
 "
-MozPerspective
+perspective
 "
 inherited
 :
@@ -12895,9 +12883,6 @@ pants
 ]
 }
 "
--
-moz
--
 backface
 -
 visibility
@@ -12907,7 +12892,7 @@ visibility
 domProp
 :
 "
-MozBackfaceVisibility
+backfaceVisibility
 "
 inherited
 :
@@ -12938,9 +12923,6 @@ collapse
 ]
 }
 "
--
-moz
--
 transform
 -
 style
@@ -12950,7 +12932,7 @@ style
 domProp
 :
 "
-MozTransformStyle
+transformStyle
 "
 inherited
 :
