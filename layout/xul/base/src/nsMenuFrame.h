@@ -1202,14 +1202,6 @@ mPopupFrame
 /
 nsMenuFrame
 methods
-nsresult
-DestroyPopupFrames
-(
-nsPresContext
-*
-aPresContext
-)
-;
 virtual
 PRBool
 IsOnMenuBar
@@ -1262,11 +1254,6 @@ IsMenu
 ;
 PRBool
 IsDisabled
-(
-)
-;
-PRBool
-IsGenerated
 (
 )
 ;
