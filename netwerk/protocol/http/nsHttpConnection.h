@@ -930,6 +930,15 @@ return
 mMaxBytesRead
 ;
 }
+friend
+class
+nsHttpConnectionForceRecv
+;
+nsresult
+ForceRecv
+(
+)
+;
 static
 NS_METHOD
 ReadFromStream
