@@ -431,6 +431,16 @@ aMatrix
 )
 const
 ;
+bool
+FuzzyEqual
+(
+const
+gfx3DMatrix
+&
+aMatrix
+)
+const
+;
 /
 *
 *
