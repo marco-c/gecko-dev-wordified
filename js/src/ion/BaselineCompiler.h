@@ -1192,6 +1192,13 @@ emitEnterBlock
 (
 )
 ;
+bool
+addPCMappingEntry
+(
+bool
+addIndexEntry
+)
+;
 Address
 getScopeCoordinateAddress
 (
