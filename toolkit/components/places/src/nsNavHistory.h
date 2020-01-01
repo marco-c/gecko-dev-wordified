@@ -3888,17 +3888,6 @@ mDBAutoCompleteQuery
 kAutoCompleteIndex_
 *
 results
-nsCOMPtr
-<
-mozIStorageStatement
->
-mDBTagAutoCompleteQuery
-;
-/
-/
-kAutoCompleteIndex_
-*
-results
 nsresult
 InitAutoComplete
 (
