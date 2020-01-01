@@ -15791,7 +15791,7 @@ script
 mScriptLoader
 -
 >
-GetCurrentScript
+GetCurrentParserInsertedScript
 (
 )
 ;
