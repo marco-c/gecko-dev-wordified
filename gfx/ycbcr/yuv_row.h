@@ -692,6 +692,12 @@ image
 .
 #
 if
+defined
+(
+ARCH_CPU_X86
+)
+&
+&
 !
 defined
 (
