@@ -681,6 +681,9 @@ bind
 (
 this
 )
+Cu
+.
+reportError
 )
 ;
 }
