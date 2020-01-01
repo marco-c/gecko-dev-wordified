@@ -540,7 +540,7 @@ shapesCompartmentTables
 &
 cStats
 .
-crossCompartmentWrappers
+crossCompartmentWrappersTable
 &
 cStats
 .
