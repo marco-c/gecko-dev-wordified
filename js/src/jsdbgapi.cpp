@@ -3956,11 +3956,6 @@ v
 :
 JSVAL_VOID
 ;
-*
-vp
-=
-v
-;
 return
 true
 ;
