@@ -1442,6 +1442,15 @@ nsCycleCollectionTraversalCallback
 cb
 )
 ;
+static
+void
+Unlink
+(
+nsFrameScriptExecutor
+*
+aTmp
+)
+;
 nsCOMPtr
 <
 nsIXPConnectJSObjectHolder
