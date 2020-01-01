@@ -772,6 +772,9 @@ UpdateIMEState
 (
 PRUint32
 aNewIMEState
+nsIContent
+*
+aContent
 )
 ;
 protected
@@ -782,6 +785,9 @@ SetIMEState
 (
 PRUint32
 aState
+nsIContent
+*
+aContent
 nsIWidget
 *
 aWidget

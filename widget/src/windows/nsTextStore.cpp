@@ -869,7 +869,7 @@ hr
 )
 )
 {
-SetIMEEnabledInternal
+SetInputModeInternal
 (
 aIMEState
 )
@@ -9461,7 +9461,7 @@ void
 nsTextStore
 :
 :
-SetIMEEnabledInternal
+SetInputModeInternal
 (
 PRUint32
 aState
@@ -9475,7 +9475,7 @@ PR_LOG_ALWAYS
 "
 TSF
 :
-SetIMEEnabled
+SetInputMode
 state
 =
 %
