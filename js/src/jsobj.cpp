@@ -26475,6 +26475,9 @@ sprop
 return
 JS_TRUE
 ;
+#
+ifdef
+JS_TRACER
 error
 :
 /
@@ -26490,6 +26493,8 @@ error
 return
 JS_FALSE
 ;
+#
+endif
 }
 /
 *
