@@ -44054,9 +44054,10 @@ GetWindow
 )
 -
 >
-SetFullScreen
+SetFullScreenInternal
 (
 mValue
+false
 )
 ;
 }
