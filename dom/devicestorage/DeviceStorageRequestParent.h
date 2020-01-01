@@ -661,7 +661,7 @@ aParent
 DeviceStorageFile
 *
 aFile
-PRUint32
+PRUint64
 aSince
 )
 ;
@@ -685,7 +685,7 @@ DeviceStorageFile
 >
 mFile
 ;
-PRUint32
+PRUint64
 mSince
 ;
 }

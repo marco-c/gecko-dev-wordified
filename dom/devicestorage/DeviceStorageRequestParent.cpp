@@ -1876,7 +1876,7 @@ aParent
 DeviceStorageFile
 *
 aFile
-PRUint32
+PRUint64
 aSince
 )
 :
