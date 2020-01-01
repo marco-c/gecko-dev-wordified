@@ -845,9 +845,11 @@ ConfigParser
         
 cfg
 .
-readfp
+read
 (
 local_profiles_ini
+.
+name
 )
         
 remote_profiles
