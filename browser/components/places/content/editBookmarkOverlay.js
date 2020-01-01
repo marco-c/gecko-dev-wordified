@@ -4405,7 +4405,7 @@ className
 "
 expander
 -
-down
+up
 "
 ;
 expander
@@ -4420,7 +4420,7 @@ expander
 getAttribute
 (
 "
-tooltiptextdown
+tooltiptextup
 "
 )
 )
