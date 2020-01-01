@@ -517,6 +517,9 @@ false
 finalUiStartup
 :
 false
+_marionetteServer
+:
+null
 onSocketAccepted
 :
 function
@@ -1182,6 +1185,13 @@ mc_uninit
 (
 )
 {
+if
+(
+this
+.
+_marionetteServer
+)
+{
 this
 .
 _marionetteServer
@@ -1190,6 +1200,7 @@ closeListener
 (
 )
 ;
+}
 this
 .
 _loaded
