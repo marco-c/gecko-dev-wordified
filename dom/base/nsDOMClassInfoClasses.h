@@ -1689,10 +1689,6 @@ WebGLBuffer
 )
 DOMCI_CLASS
 (
-WebGLTexture
-)
-DOMCI_CLASS
-(
 WebGLProgram
 )
 DOMCI_CLASS
