@@ -444,7 +444,7 @@ JSScript
 *
 script
 =
-JS_CompileFile
+JS_CompileUTF8File
 (
 cx
 global
@@ -508,7 +508,7 @@ JSScript
 *
 script
 =
-JS_CompileFile
+JS_CompileUTF8File
 (
 cx
 global
@@ -585,7 +585,7 @@ EOF
 return
 tryScript
 (
-JS_CompileFileHandle
+JS_CompileUTF8FileHandle
 (
 cx
 global
@@ -630,7 +630,7 @@ bug438633_JS_CompileFileHandle_empty
 return
 tryScript
 (
-JS_CompileFileHandle
+JS_CompileUTF8FileHandle
 (
 cx
 global
@@ -701,7 +701,7 @@ EOF
 return
 tryScript
 (
-JS_CompileFileHandleForPrincipals
+JS_CompileUTF8FileHandleForPrincipals
 (
 cx
 global
