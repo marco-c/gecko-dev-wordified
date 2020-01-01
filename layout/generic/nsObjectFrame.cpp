@@ -1420,7 +1420,7 @@ delays
 #
 define
 HIDDEN_PLUGIN_DELAY
-250
+125
 /
 /
 special
