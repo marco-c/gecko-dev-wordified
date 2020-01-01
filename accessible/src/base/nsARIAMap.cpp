@@ -909,7 +909,6 @@ states
 :
 :
 READONLY
-eARIAMultiSelectable
 }
 {
 "
@@ -953,8 +952,6 @@ states
 :
 :
 READONLY
-eARIASelectable
-eARIACheckedMixed
 }
 {
 "
