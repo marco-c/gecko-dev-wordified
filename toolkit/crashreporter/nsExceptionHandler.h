@@ -598,7 +598,9 @@ side
 API
 for
 children
-nsCString
+const
+char
+*
 GetChildNotificationPipe
 (
 )

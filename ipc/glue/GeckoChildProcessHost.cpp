@@ -1718,10 +1718,6 @@ CrashReporter
 GetChildNotificationPipe
 (
 )
-.
-BeginReading
-(
-)
 )
 )
 ;
