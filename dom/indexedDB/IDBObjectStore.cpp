@@ -7262,6 +7262,9 @@ new
 nsDOMFileFile
 (
 nativeFile
+file
+.
+mFileInfo
 )
 ;
 BlobParent
