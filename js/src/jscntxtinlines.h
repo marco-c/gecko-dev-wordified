@@ -718,6 +718,10 @@ AutoGCRooter
 cx
 NAMESPACES
 )
+context
+(
+cx
+)
 {
 array
 .
@@ -751,8 +755,12 @@ array
 length
 ;
 }
-public
+private
 :
+JSContext
+*
+context
+;
 friend
 void
 AutoGCRooter
@@ -765,6 +773,8 @@ JSTracer
 trc
 )
 ;
+public
+:
 JSXMLArray
 <
 JSObject
@@ -1992,7 +2002,7 @@ CallOrConstructBoundFunction
 (
 JSContext
 *
-uintN
+unsigned
 js
 :
 :
@@ -2389,9 +2399,9 @@ jsid
 id
 StrictPropertyOp
 op
-uintN
+unsigned
 attrs
-uintN
+unsigned
 shortid
 JSBool
 strict
@@ -2678,7 +2688,7 @@ true
 ;
 }
 inline
-uintN
+unsigned
 JSContext
 :
 :
@@ -2700,7 +2710,7 @@ findVersion
 ;
 }
 inline
-uintN
+unsigned
 JSContext
 :
 :
@@ -2726,7 +2736,7 @@ JSContext
 :
 setCompileOptions
 (
-uintN
+unsigned
 newcopts
 )
 {
@@ -2788,7 +2798,7 @@ JSContext
 :
 assertValidStackDepth
 (
-uintN
+unsigned
 depth
 )
 {

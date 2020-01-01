@@ -767,7 +767,7 @@ JS7_UNHEX
 c
 )
 (
-uintN
+unsigned
 )
 (
 JS7_ISDEC
@@ -2010,7 +2010,7 @@ str_replace
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :
@@ -2027,7 +2027,7 @@ str_fromCharCode
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -2048,7 +2048,7 @@ js_str_toString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :
@@ -2065,7 +2065,7 @@ js_str_charAt
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :
@@ -2082,7 +2082,7 @@ js_str_charCodeAt
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :
@@ -2411,7 +2411,7 @@ str_match
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -2424,7 +2424,7 @@ str_search
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -2437,7 +2437,7 @@ str_split
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -2458,7 +2458,7 @@ js_String
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :

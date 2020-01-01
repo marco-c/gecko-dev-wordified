@@ -531,13 +531,6 @@ h
 #
 include
 "
-jsobj
-.
-h
-"
-#
-include
-"
 jsarray
 .
 h
@@ -1374,7 +1367,7 @@ setNull
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -1412,7 +1405,7 @@ userobj
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0

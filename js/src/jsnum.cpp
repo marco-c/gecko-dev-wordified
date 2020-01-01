@@ -2008,7 +2008,7 @@ num_isNaN
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -2077,7 +2077,7 @@ num_isFinite
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -2146,7 +2146,7 @@ num_parseFloat
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -2761,7 +2761,7 @@ num_parseInt
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -3521,7 +3521,7 @@ Number
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -3651,7 +3651,7 @@ num_toSource
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -4295,7 +4295,7 @@ JSContext
 cx
 Native
 native
-uintN
+unsigned
 argc
 Value
 *
@@ -4462,7 +4462,7 @@ num_toString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -4486,7 +4486,7 @@ num_toLocaleString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -5272,7 +5272,7 @@ js_num_valueOf
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -5605,7 +5605,7 @@ num_toFixed
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -5638,7 +5638,7 @@ num_toExponential
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -5670,7 +5670,7 @@ num_toPrecision
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *

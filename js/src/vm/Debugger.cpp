@@ -808,7 +808,7 @@ const
 char
 *
 name
-uintN
+unsigned
 required
 )
 {
@@ -2327,13 +2327,13 @@ ok
 }
 JS_STATIC_ASSERT
 (
-uintN
+unsigned
 (
 JSSLOT_DEBUGFRAME_OWNER
 )
 =
 =
-uintN
+unsigned
 (
 JSSLOT_DEBUGSCRIPT_OWNER
 )
@@ -2341,13 +2341,13 @@ JSSLOT_DEBUGSCRIPT_OWNER
 ;
 JS_STATIC_ASSERT
 (
-uintN
+unsigned
 (
 JSSLOT_DEBUGFRAME_OWNER
 )
 =
 =
-uintN
+unsigned
 (
 JSSLOT_DEBUGOBJECT_OWNER
 )
@@ -2355,13 +2355,13 @@ JSSLOT_DEBUGOBJECT_OWNER
 ;
 JS_STATIC_ASSERT
 (
-uintN
+unsigned
 (
 JSSLOT_DEBUGFRAME_OWNER
 )
 =
 =
-uintN
+unsigned
 (
 JSSLOT_DEBUGENV_OWNER
 )
@@ -9891,7 +9891,7 @@ getEnabled
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -9938,7 +9938,7 @@ setEnabled
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -10149,7 +10149,7 @@ getHookImpl
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -10215,7 +10215,7 @@ setHookImpl
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -10364,7 +10364,7 @@ getOnDebuggerStatement
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -10390,7 +10390,7 @@ setOnDebuggerStatement
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -10416,7 +10416,7 @@ getOnExceptionUnwind
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -10442,7 +10442,7 @@ setOnExceptionUnwind
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -10468,7 +10468,7 @@ getOnNewScript
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -10494,7 +10494,7 @@ setOnNewScript
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -10520,7 +10520,7 @@ getOnEnterFrame
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -10546,7 +10546,7 @@ setOnEnterFrame
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -10572,7 +10572,7 @@ getUncaughtExceptionHook
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -10619,7 +10619,7 @@ setUncaughtExceptionHook
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -10915,7 +10915,7 @@ addDebuggee
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -11041,7 +11041,7 @@ removeDebuggee
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -11152,7 +11152,7 @@ hasDebuggee
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -11245,7 +11245,7 @@ getDebuggees
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -11307,7 +11307,7 @@ count
 )
 )
 ;
-uintN
+unsigned
 i
 =
 0
@@ -11406,7 +11406,7 @@ getNewestFrame
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -11537,7 +11537,7 @@ clearAllBreakpoints
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -11618,7 +11618,7 @@ construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -11652,7 +11652,7 @@ wrappers
 /
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -11868,7 +11868,7 @@ false
 ;
 for
 (
-uintN
+unsigned
 slot
 =
 JSSLOT_DEBUG_PROTO_START
@@ -11965,7 +11965,7 @@ any
 /
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -12395,7 +12395,6 @@ debuggeeCompartment
 >
 hasScriptsOnStack
 (
-cx
 )
 )
 {
@@ -13965,7 +13964,7 @@ DebuggerScript_getUrl
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -14028,7 +14027,7 @@ DebuggerScript_getStartLine
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -14073,7 +14072,7 @@ DebuggerScript_getLineCount
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -14093,7 +14092,7 @@ obj
 script
 )
 ;
-uintN
+unsigned
 maxLine
 =
 js_GetScriptLineExtent
@@ -14126,7 +14125,7 @@ DebuggerScript_getChildScripts
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -14476,7 +14475,7 @@ DebuggerScript_getOffsetLine
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -14529,7 +14528,7 @@ offset
 return
 false
 ;
-uintN
+unsigned
 lineno
 =
 JS_PCToLineNumber
@@ -15457,7 +15456,7 @@ DebuggerScript_getAllOffsets
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -15825,7 +15824,7 @@ DebuggerScript_getLineOffsets
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -16127,7 +16126,7 @@ DebuggerScript_setBreakpoint
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -16361,7 +16360,7 @@ DebuggerScript_getBreakpoints
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -16599,7 +16598,7 @@ DebuggerScript_clearBreakpoint
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -16695,7 +16694,7 @@ DebuggerScript_clearAllBreakpoints
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -16758,7 +16757,7 @@ DebuggerScript_construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -17410,7 +17409,7 @@ DebuggerFrame_getType
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -17581,7 +17580,7 @@ DebuggerFrame_getEnvironment
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -17674,7 +17673,7 @@ DebuggerFrame_getCallee
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -17768,7 +17767,7 @@ DebuggerFrame_getGenerator
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -17816,7 +17815,7 @@ DebuggerFrame_getConstructing
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -17872,7 +17871,7 @@ DebuggerFrame_getThis
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -17985,7 +17984,7 @@ DebuggerFrame_getOlder
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -18124,7 +18123,7 @@ DebuggerArguments_getArg
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -18356,7 +18355,7 @@ arg
 ;
 if
 (
-uintN
+unsigned
 (
 i
 )
@@ -18426,7 +18425,7 @@ DebuggerFrame_getArguments
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -18777,7 +18776,7 @@ DebuggerFrame_getScript
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -18969,7 +18968,7 @@ DebuggerFrame_getOffset
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -19098,7 +19097,7 @@ DebuggerFrame_getLive
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -19214,7 +19213,7 @@ DebuggerFrame_getOnStep
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -19283,7 +19282,7 @@ DebuggerFrame_setOnStep
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -19530,13 +19529,13 @@ const
 jschar
 *
 chars
-uintN
+unsigned
 length
 const
 char
 *
 filename
-uintN
+unsigned
 lineno
 Value
 *
@@ -19731,7 +19730,7 @@ DebuggerFrameEval
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -20302,7 +20301,7 @@ DebuggerFrame_eval
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -20326,7 +20325,7 @@ DebuggerFrame_evalWithBindings
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -20350,7 +20349,7 @@ DebuggerFrame_construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -21037,7 +21036,7 @@ DebuggerObject_construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -21068,7 +21067,7 @@ DebuggerObject_getProto
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -21137,7 +21136,7 @@ DebuggerObject_getClass
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -21216,7 +21215,7 @@ DebuggerObject_getCallable
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -21263,7 +21262,7 @@ DebuggerObject_getName
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -21386,7 +21385,7 @@ DebuggerObject_getParameterNames
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -21658,7 +21657,7 @@ DebuggerObject_getScript
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -21789,7 +21788,7 @@ DebuggerObject_getEnvironment
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -21911,7 +21910,7 @@ DebuggerObject_getOwnPropertyDescriptor
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -22209,7 +22208,7 @@ DebuggerObject_getOwnPropertyNames
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -22913,7 +22912,7 @@ DebuggerObject_defineProperty
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -23120,7 +23119,7 @@ DebuggerObject_defineProperties
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -23419,7 +23418,7 @@ DebuggerObject_deleteProperty
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -23534,7 +23533,7 @@ DebuggerObject_sealHelper
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -23714,7 +23713,7 @@ DebuggerObject_seal
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -23741,7 +23740,7 @@ DebuggerObject_freeze
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -23768,7 +23767,7 @@ DebuggerObject_preventExtensions
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -23795,7 +23794,7 @@ DebuggerObject_isSealedHelper
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -23938,7 +23937,7 @@ DebuggerObject_isSealed
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -23965,7 +23964,7 @@ DebuggerObject_isFrozen
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -23992,7 +23991,7 @@ DebuggerObject_isExtensible
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -24026,7 +24025,7 @@ ApplyOrCall
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -24186,7 +24185,7 @@ thisv
 return
 false
 ;
-uintN
+unsigned
 callArgc
 =
 0
@@ -24286,7 +24285,7 @@ false
 ;
 callArgc
 =
-uintN
+unsigned
 (
 JS_MIN
 (
@@ -24343,7 +24342,7 @@ argc
 >
 0
 ?
-uintN
+unsigned
 (
 JS_MIN
 (
@@ -24372,7 +24371,7 @@ array
 }
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -24487,7 +24486,7 @@ false
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -24592,7 +24591,7 @@ DebuggerObject_apply
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -24616,7 +24615,7 @@ DebuggerObject_call
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -25316,7 +25315,7 @@ DebuggerEnv_construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -25347,7 +25346,7 @@ DebuggerEnv_getType
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -25475,7 +25474,7 @@ DebuggerEnv_getParent
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -25550,7 +25549,7 @@ DebuggerEnv_getObject
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -25699,7 +25698,7 @@ DebuggerEnv_names
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -25903,7 +25902,7 @@ DebuggerEnv_find
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *

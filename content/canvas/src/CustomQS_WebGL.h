@@ -719,7 +719,7 @@ nsIDOMWebGLRenderingContext_BufferData
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1106,7 +1106,7 @@ nsIDOMWebGLRenderingContext_BufferSubData
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1484,7 +1484,7 @@ nsIDOMWebGLRenderingContext_CompressedTexImage2D
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1738,7 +1738,7 @@ nsIDOMWebGLRenderingContext_CompressedTexSubImage2D
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1998,7 +1998,7 @@ nsIDOMWebGLRenderingContext_ReadPixels
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -2300,7 +2300,7 @@ nsIDOMWebGLRenderingContext_TexImage2D
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -3044,7 +3044,7 @@ nsIDOMWebGLRenderingContext_TexSubImage2D
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -3716,7 +3716,7 @@ helper_nsIDOMWebGLRenderingContext_Uniform_x_iv
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -4160,7 +4160,7 @@ helper_nsIDOMWebGLRenderingContext_Uniform_x_fv
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -4604,7 +4604,7 @@ helper_nsIDOMWebGLRenderingContext_UniformMatrix_x_fv
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5042,7 +5042,7 @@ helper_nsIDOMWebGLRenderingContext_VertexAttrib_x_fv
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5440,7 +5440,7 @@ nsIDOMWebGLRenderingContext_Uniform1iv
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5464,7 +5464,7 @@ nsIDOMWebGLRenderingContext_Uniform2iv
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5488,7 +5488,7 @@ nsIDOMWebGLRenderingContext_Uniform3iv
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5512,7 +5512,7 @@ nsIDOMWebGLRenderingContext_Uniform4iv
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5536,7 +5536,7 @@ nsIDOMWebGLRenderingContext_Uniform1fv
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5560,7 +5560,7 @@ nsIDOMWebGLRenderingContext_Uniform2fv
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5584,7 +5584,7 @@ nsIDOMWebGLRenderingContext_Uniform3fv
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5608,7 +5608,7 @@ nsIDOMWebGLRenderingContext_Uniform4fv
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5632,7 +5632,7 @@ nsIDOMWebGLRenderingContext_UniformMatrix2fv
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5656,7 +5656,7 @@ nsIDOMWebGLRenderingContext_UniformMatrix3fv
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5680,7 +5680,7 @@ nsIDOMWebGLRenderingContext_UniformMatrix4fv
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5704,7 +5704,7 @@ nsIDOMWebGLRenderingContext_VertexAttrib1fv
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5728,7 +5728,7 @@ nsIDOMWebGLRenderingContext_VertexAttrib2fv
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5752,7 +5752,7 @@ nsIDOMWebGLRenderingContext_VertexAttrib3fv
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5776,7 +5776,7 @@ nsIDOMWebGLRenderingContext_VertexAttrib4fv
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

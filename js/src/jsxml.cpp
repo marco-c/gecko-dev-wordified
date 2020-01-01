@@ -1212,7 +1212,7 @@ xml_isXMLName
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1658,7 +1658,7 @@ namespace_toString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -2740,7 +2740,7 @@ qname_toString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -3566,7 +3566,7 @@ NamespaceHelper
 JSContext
 *
 cx
-intN
+int
 argc
 jsval
 *
@@ -4224,7 +4224,7 @@ Namespace
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -4284,7 +4284,7 @@ QNameHelper
 JSContext
 *
 cx
-intN
+int
 argc
 jsval
 *
@@ -5055,7 +5055,7 @@ QName
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -8166,7 +8166,7 @@ JSObject
 >
 *
 inScopeNSes
-uintN
+unsigned
 flags
 )
 {
@@ -10390,7 +10390,7 @@ GetXMLSettingFlags
 JSContext
 *
 cx
-uintN
+unsigned
 *
 flagsp
 )
@@ -10590,7 +10590,7 @@ char
 *
 filename
 ;
-uintN
+unsigned
 lineno
 ;
 JSOp
@@ -10979,9 +10979,8 @@ filename
 ;
 lineno
 =
-js_PCToLineNumber
+PCToLineNumber
 (
-cx
 i
 .
 fp
@@ -11099,7 +11098,7 @@ scopeChain
 false
 )
 ;
-uintN
+unsigned
 flags
 ;
 if
@@ -19471,7 +19470,7 @@ cx
 JSXML
 *
 xml
-uintN
+unsigned
 flags
 )
 ;
@@ -19489,7 +19488,7 @@ xml
 JSObject
 *
 obj
-uintN
+unsigned
 flags
 )
 {
@@ -19674,7 +19673,7 @@ to
 JSXML
 *
 parent
-uintN
+unsigned
 flags
 )
 {
@@ -19944,7 +19943,7 @@ cx
 JSXML
 *
 xml
-uintN
+unsigned
 flags
 )
 {
@@ -30709,7 +30708,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -30803,7 +30802,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -30843,7 +30842,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -30897,7 +30896,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -31239,7 +31238,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -31291,7 +31290,7 @@ obj
 PropertyName
 *
 name
-uintN
+unsigned
 *
 attrsp
 )
@@ -31321,7 +31320,7 @@ JSObject
 obj
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -31365,7 +31364,7 @@ JSObject
 obj
 SpecialId
 sid
-uintN
+unsigned
 *
 attrsp
 )
@@ -31395,7 +31394,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -31455,7 +31454,7 @@ obj
 PropertyName
 *
 name
-uintN
+unsigned
 *
 attrsp
 )
@@ -31485,7 +31484,7 @@ JSObject
 obj
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -31529,7 +31528,7 @@ JSObject
 obj
 SpecialId
 sid
-uintN
+unsigned
 *
 attrsp
 )
@@ -34275,7 +34274,7 @@ xml_addNamespace
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -34402,7 +34401,7 @@ xml_appendChild
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -34600,7 +34599,7 @@ xml_attribute
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -34720,7 +34719,7 @@ xml_attributes
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -35234,7 +35233,7 @@ xml_child
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -35538,7 +35537,7 @@ xml_childIndex
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -35678,7 +35677,7 @@ xml_children
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -36078,7 +36077,7 @@ xml_comments
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -36111,7 +36110,7 @@ xml_contains
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -36272,7 +36271,7 @@ xml_copy
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -36332,7 +36331,7 @@ xml_descendants
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -36740,7 +36739,7 @@ xml_elements
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -36848,7 +36847,7 @@ xml_hasOwnProperty
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -36976,7 +36975,7 @@ xml_hasComplexContent
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -37211,7 +37210,7 @@ xml_hasSimpleContent
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -37640,7 +37639,7 @@ xml_inScopeNamespaces
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -37685,7 +37684,7 @@ xml_insertChildAfter
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -37854,7 +37853,7 @@ xml_insertChildBefore
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -38031,7 +38030,7 @@ xml_length
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -38105,7 +38104,7 @@ xml_localName
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -38145,7 +38144,7 @@ xml_name
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -38176,7 +38175,7 @@ xml_namespace
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -38446,7 +38445,7 @@ xml_namespaceDeclarations
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -38752,7 +38751,7 @@ xml_nodeKind
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -39131,7 +39130,7 @@ xml_normalize
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -39171,7 +39170,7 @@ xml_parent
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -39741,7 +39740,7 @@ xml_processingInstructions
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -39852,7 +39851,7 @@ xml_prependChild
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -39920,7 +39919,7 @@ xml_propertyIsEnumerable
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -40365,7 +40364,7 @@ xml_removeNamespace
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -40502,7 +40501,7 @@ xml_replace
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -40906,7 +40905,7 @@ xml_setChildren
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -40997,7 +40996,7 @@ xml_setLocalName
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -41165,7 +41164,7 @@ xml_setName
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -42043,7 +42042,7 @@ xml_setNamespace
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -42726,7 +42725,7 @@ xml_text
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -42943,7 +42942,7 @@ xml_toSource
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -43013,7 +43012,7 @@ xml_toString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -43068,7 +43067,7 @@ xml_toXMLString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -43145,7 +43144,7 @@ xml_valueOf
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -43769,7 +43768,7 @@ xml_settings
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -43842,7 +43841,7 @@ xml_setSettings
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -43976,7 +43975,7 @@ xml_defaultSettings
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -44065,7 +44064,7 @@ XML
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -44260,7 +44259,7 @@ XMLList
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -45278,7 +45277,7 @@ empty
 )
 ;
 const
-uintN
+unsigned
 NAMESPACE_CTOR_LENGTH
 =
 2
@@ -45442,7 +45441,7 @@ return
 NULL
 ;
 const
-uintN
+unsigned
 QNAME_CTOR_LENGTH
 =
 2
@@ -45653,7 +45652,7 @@ sE4XObjectsCreated
 ;
 }
 const
-uintN
+unsigned
 XML_CTOR_LENGTH
 =
 1
@@ -48986,7 +48985,7 @@ JSString
 value
 )
 {
-uintN
+unsigned
 flags
 ;
 JSObject

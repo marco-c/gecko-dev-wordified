@@ -446,13 +446,6 @@ jstypes
 .
 h
 "
-#
-include
-"
-jscompat
-.
-h
-"
 /
 *
 *

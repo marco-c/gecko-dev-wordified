@@ -1126,7 +1126,7 @@ Construct
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -1480,7 +1480,7 @@ UnwrapErrorEvent
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -2114,7 +2114,7 @@ Close
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -2187,7 +2187,7 @@ ImportScripts
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -2276,7 +2276,7 @@ SetTimeout
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -2379,7 +2379,7 @@ ClearTimeout
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -2480,7 +2480,7 @@ SetInterval
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -2583,7 +2583,7 @@ ClearInterval
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -2684,7 +2684,7 @@ Dump
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -2825,7 +2825,7 @@ AtoB
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -2939,7 +2939,7 @@ BtoA
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -3716,7 +3716,7 @@ Construct
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -3750,7 +3750,7 @@ JSObject
 aObj
 jsid
 aId
-uintN
+unsigned
 aFlags
 JSObject
 *
@@ -3903,7 +3903,7 @@ PostMessage
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *

@@ -505,17 +505,6 @@ Preferences
 .
 h
 "
-#
-include
-"
-cairo
--
-xlib
--
-xrender
-.
-h
-"
 using
 namespace
 mozilla

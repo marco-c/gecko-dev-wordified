@@ -1046,7 +1046,6 @@ CompartmentPrivate
 )
 JS_GetCompartmentPrivate
 (
-cx
 js
 :
 :
@@ -2879,7 +2878,7 @@ XrayToString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -3184,7 +3183,7 @@ Base
 :
 XrayWrapper
 (
-uintN
+unsigned
 flags
 )
 :
@@ -3913,7 +3912,7 @@ obj
 =
 NULL
 ;
-uintN
+unsigned
 flags
 =
 (
@@ -5191,7 +5190,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 flags
 JS
 :
@@ -6137,7 +6136,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 flags
 js
 :
@@ -6193,7 +6192,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 argc
 js
 :
@@ -6353,7 +6352,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 argc
 js
 :
@@ -6552,7 +6551,6 @@ CompartmentPrivate
 )
 JS_GetCompartmentPrivate
 (
-cx
 js
 :
 :
@@ -6780,7 +6778,7 @@ XrayProxy
 :
 XrayProxy
 (
-uintN
+unsigned
 flags
 )
 :
@@ -7999,7 +7997,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 flags
 JS
 :

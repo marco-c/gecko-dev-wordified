@@ -1072,7 +1072,7 @@ ThrowDOMExceptionForCode
 namespace
 {
 inline
-intN
+int
 GetDOMExceptionCodeFromResult
 (
 nsresult
@@ -3376,7 +3376,7 @@ MainThreadProxyRunnable
 PRUint32
 mSyncQueueKey
 ;
-intN
+int
 mErrorCode
 ;
 public
@@ -3391,7 +3391,7 @@ Proxy
 aProxy
 PRUint32
 aSyncQueueKey
-intN
+int
 aErrorCode
 )
 :
@@ -3640,7 +3640,7 @@ true
 ;
 }
 virtual
-intN
+int
 MainThreadRun
 (
 )
@@ -3671,7 +3671,7 @@ mSyncEventResponseSyncQueueKey
 =
 mSyncQueueKey
 ;
-intN
+int
 rv
 =
 MainThreadRun
@@ -3764,7 +3764,7 @@ aValue
 )
 {
 }
-intN
+int
 MainThreadRun
 (
 )
@@ -3821,7 +3821,7 @@ aValue
 )
 {
 }
-intN
+int
 MainThreadRun
 (
 )
@@ -3883,7 +3883,7 @@ aValue
 )
 {
 }
-intN
+int
 MainThreadRun
 (
 )
@@ -3947,7 +3947,7 @@ aResponseType
 )
 {
 }
-intN
+int
 MainThreadRun
 (
 )
@@ -4044,7 +4044,7 @@ aProxy
 )
 {
 }
-intN
+int
 MainThreadRun
 (
 )
@@ -4144,7 +4144,7 @@ aResponseHeaders
 )
 {
 }
-intN
+int
 MainThreadRun
 (
 )
@@ -4220,7 +4220,7 @@ aValue
 )
 {
 }
-intN
+int
 MainThreadRun
 (
 )
@@ -4345,7 +4345,7 @@ aWithCredentials
 )
 {
 }
-intN
+int
 MainThreadRun
 (
 )
@@ -4366,7 +4366,7 @@ mWorkerPrivate
 =
 mWorkerPrivate
 ;
-intN
+int
 retval
 =
 MainThreadRunInternal
@@ -4384,7 +4384,7 @@ return
 retval
 ;
 }
-intN
+int
 MainThreadRunInternal
 (
 )
@@ -4635,7 +4635,7 @@ aBody
 )
 ;
 }
-intN
+int
 MainThreadRun
 (
 )
@@ -4731,7 +4731,7 @@ RuntimeService
 AutoSafeJSContext
 cx
 ;
-intN
+int
 error
 =
 0
@@ -4974,7 +4974,7 @@ aHasUploadListeners
 )
 {
 }
-intN
+int
 MainThreadRun
 (
 )
@@ -5192,7 +5192,7 @@ aValue
 )
 {
 }
-intN
+int
 MainThreadRun
 (
 )
@@ -5257,7 +5257,7 @@ aMimeType
 )
 {
 }
-intN
+int
 MainThreadRun
 (
 )

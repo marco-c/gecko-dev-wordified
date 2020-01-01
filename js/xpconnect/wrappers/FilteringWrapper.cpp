@@ -529,7 +529,7 @@ Policy
 :
 FilteringWrapper
 (
-uintN
+unsigned
 flags
 )
 :
@@ -880,7 +880,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 flags
 Value
 *

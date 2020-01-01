@@ -1632,7 +1632,7 @@ nsIDOMCanvasRenderingContext2D_CreateImageData
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1900,7 +1900,7 @@ nsIDOMCanvasRenderingContext2D_GetImageData
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -2232,7 +2232,7 @@ nsIDOMCanvasRenderingContext2D_PutImageData
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

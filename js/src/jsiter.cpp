@@ -1259,7 +1259,7 @@ jsid
 id
 bool
 enumerable
-uintN
+unsigned
 flags
 IdSet
 &
@@ -1603,7 +1603,7 @@ obj
 JSObject
 *
 pobj
-uintN
+unsigned
 flags
 IdSet
 &
@@ -1791,7 +1791,7 @@ obj
 JSObject
 *
 pobj
-uintN
+unsigned
 flags
 IdSet
 &
@@ -2087,7 +2087,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 flags
 AutoIdVector
 *
@@ -2950,7 +2950,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 flags
 AutoIdVector
 *
@@ -2989,7 +2989,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 flags
 Value
 *
@@ -3520,7 +3520,7 @@ NewIteratorObject
 JSContext
 *
 cx
-uintN
+unsigned
 flags
 )
 {
@@ -3834,7 +3834,7 @@ init
 JSObject
 *
 obj
-uintN
+unsigned
 flags
 uint32_t
 slength
@@ -3987,7 +3987,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 flags
 AutoIdVector
 &
@@ -4277,7 +4277,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 flags
 AutoIdVector
 &
@@ -4309,7 +4309,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 flags
 AutoIdVector
 &
@@ -4455,7 +4455,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 flags
 AutoIdVector
 &
@@ -4549,7 +4549,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 flags
 Value
 *
@@ -5635,7 +5635,7 @@ Iterator
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -5670,7 +5670,7 @@ argv
 :
 false
 ;
-uintN
+unsigned
 flags
 =
 JSITER_OWNONLY
@@ -5763,7 +5763,7 @@ iterator_next
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -5942,7 +5942,7 @@ ValueToIterator
 JSContext
 *
 cx
-uintN
+unsigned
 flags
 Value
 *
@@ -6881,7 +6881,7 @@ if
 prop
 )
 {
-uintN
+unsigned
 attrs
 ;
 if
@@ -9695,7 +9695,7 @@ actualArgs
 -
 2
 ;
-uintN
+unsigned
 vplen
 =
 stackfp
@@ -9715,7 +9715,7 @@ size
 .
 *
 /
-uintN
+unsigned
 nbytes
 =
 sizeof
@@ -10845,7 +10845,7 @@ op
 Value
 *
 vp
-uintN
+unsigned
 argc
 )
 {
@@ -11193,7 +11193,7 @@ generator_send
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -11218,7 +11218,7 @@ generator_next
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -11243,7 +11243,7 @@ generator_throw
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -11268,7 +11268,7 @@ generator_close
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *

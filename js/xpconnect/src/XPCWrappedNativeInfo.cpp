@@ -872,7 +872,7 @@ needing
 a
 function
 object
-intN
+int
 argc
 ;
 JSNative
@@ -927,7 +927,7 @@ arg
 argc
 =
 (
-intN
+int
 )
 info
 -

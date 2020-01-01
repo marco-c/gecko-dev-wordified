@@ -985,17 +985,6 @@ aGlobalObj
 ;
 virtual
 void
-ClearScope
-(
-void
-*
-aGlobalObj
-bool
-bClearPolluters
-)
-;
-virtual
-void
 WillInitializeContext
 (
 )

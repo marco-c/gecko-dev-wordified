@@ -510,7 +510,7 @@ name
 JSID_VOID
 *
 /
-uintN
+unsigned
 argc
 /
 *
@@ -709,7 +709,7 @@ WrapperInitOptions
 wrapperInitOptions
 jsid
 name
-uintN
+unsigned
 argc
 jsval
 *
@@ -1564,7 +1564,7 @@ XPCCallContext
 :
 SetArgsAndResultPtr
 (
-uintN
+unsigned
 argc
 jsval
 *

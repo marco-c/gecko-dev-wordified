@@ -1335,7 +1335,7 @@ JSContext
 cx
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -1398,7 +1398,7 @@ js
 PropertyName
 *
 name
-uintN
+unsigned
 *
 attrsp
 )
@@ -1427,7 +1427,7 @@ JSContext
 cx
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -1476,7 +1476,7 @@ js
 :
 SpecialId
 sid
-uintN
+unsigned
 *
 attrsp
 )
@@ -2883,7 +2883,7 @@ JSObject
 :
 getReservedSlot
 (
-uintN
+unsigned
 index
 )
 const
@@ -2918,7 +2918,7 @@ JSObject
 :
 getReservedSlotRef
 (
-uintN
+unsigned
 index
 )
 {
@@ -2948,7 +2948,7 @@ JSObject
 :
 setReservedSlot
 (
-uintN
+unsigned
 index
 const
 js
@@ -2985,7 +2985,7 @@ JSObject
 :
 initReservedSlot
 (
-uintN
+unsigned
 index
 const
 js
@@ -3582,7 +3582,7 @@ JSObject
 :
 getDenseArrayElement
 (
-uintN
+unsigned
 idx
 )
 {
@@ -3614,7 +3614,7 @@ JSObject
 :
 setDenseArrayElement
 (
-uintN
+unsigned
 idx
 const
 js
@@ -3659,7 +3659,7 @@ JSObject
 :
 initDenseArrayElement
 (
-uintN
+unsigned
 idx
 const
 js
@@ -3707,7 +3707,7 @@ setDenseArrayElementWithType
 JSContext
 *
 cx
-uintN
+unsigned
 idx
 const
 js
@@ -3749,7 +3749,7 @@ initDenseArrayElementWithType
 JSContext
 *
 cx
-uintN
+unsigned
 idx
 const
 js
@@ -3788,7 +3788,7 @@ JSObject
 :
 copyDenseArrayElements
 (
-uintN
+unsigned
 dstStart
 const
 js
@@ -3797,7 +3797,7 @@ js
 Value
 *
 src
-uintN
+unsigned
 count
 )
 {
@@ -3864,7 +3864,7 @@ JSObject
 :
 initDenseArrayElements
 (
-uintN
+unsigned
 dstStart
 const
 js
@@ -3873,7 +3873,7 @@ js
 Value
 *
 src
-uintN
+unsigned
 count
 )
 {
@@ -3940,11 +3940,11 @@ JSObject
 :
 moveDenseArrayElements
 (
-uintN
+unsigned
 dstStart
-uintN
+unsigned
 srcStart
-uintN
+unsigned
 count
 )
 {
@@ -4295,11 +4295,11 @@ JSObject
 :
 moveDenseArrayElementsUnbarriered
 (
-uintN
+unsigned
 dstStart
-uintN
+unsigned
 srcStart
-uintN
+unsigned
 count
 )
 {
@@ -7607,7 +7607,7 @@ id
 bool
 *
 foundp
-uintN
+unsigned
 flags
 )
 {
@@ -7789,7 +7789,7 @@ JSObject
 :
 nativeGetSlotRef
 (
-uintN
+unsigned
 slot
 )
 {
@@ -7828,7 +7828,7 @@ JSObject
 :
 nativeGetSlot
 (
-uintN
+unsigned
 slot
 )
 const
@@ -7987,7 +7987,7 @@ JSObject
 :
 nativeSetSlot
 (
-uintN
+unsigned
 slot
 const
 js
@@ -8562,7 +8562,7 @@ setter
 JS_StrictPropertyStub
 *
 /
-uintN
+unsigned
 attrs
 /
 *
@@ -8644,7 +8644,7 @@ setter
 JS_StrictPropertyStub
 *
 /
-uintN
+unsigned
 attrs
 /
 *
@@ -8704,7 +8704,7 @@ setter
 JS_StrictPropertyStub
 *
 /
-uintN
+unsigned
 attrs
 /
 *
@@ -8785,7 +8785,7 @@ setter
 JS_StrictPropertyStub
 *
 /
-uintN
+unsigned
 attrs
 /
 *
@@ -9241,7 +9241,7 @@ JSContext
 cx
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -9291,7 +9291,7 @@ js
 PropertyName
 *
 name
-uintN
+unsigned
 *
 attrsp
 )
@@ -9320,7 +9320,7 @@ JSContext
 cx
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -9369,7 +9369,7 @@ js
 :
 SpecialId
 sid
-uintN
+unsigned
 *
 attrsp
 )
@@ -12842,7 +12842,7 @@ Class
 clasp
 Native
 constructor
-uintN
+unsigned
 nargs
 JSPropertySpec
 *
@@ -12905,7 +12905,7 @@ Class
 clasp
 JSNative
 constructor
-uintN
+unsigned
 nargs
 JSPropertySpec
 *
@@ -13085,7 +13085,7 @@ JSObject
 :
 setSlot
 (
-uintN
+unsigned
 slot
 const
 js
@@ -13124,7 +13124,7 @@ JSObject
 :
 initSlot
 (
-uintN
+unsigned
 slot
 const
 js
@@ -13180,7 +13180,7 @@ JSObject
 :
 initSlotUnchecked
 (
-uintN
+unsigned
 slot
 const
 js
@@ -13212,7 +13212,7 @@ JSObject
 :
 setFixedSlot
 (
-uintN
+unsigned
 slot
 const
 js
@@ -13254,7 +13254,7 @@ JSObject
 :
 initFixedSlot
 (
-uintN
+unsigned
 slot
 const
 js

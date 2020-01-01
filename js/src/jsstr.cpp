@@ -839,7 +839,7 @@ cx
 CallArgs
 &
 args
-uintN
+unsigned
 argno
 )
 {
@@ -934,7 +934,7 @@ str_decodeURI
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -948,7 +948,7 @@ str_decodeURI_Component
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -962,7 +962,7 @@ str_encodeURI
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -976,7 +976,7 @@ str_encodeURI_Component
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1027,7 +1027,7 @@ str_escape
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -2052,7 +2052,7 @@ str_unescape
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -2501,7 +2501,7 @@ str_uneval
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -2726,7 +2726,7 @@ js_empty_ucstr
 ;
 static
 const
-uintN
+unsigned
 STRING_ELEMENT_ATTRS
 =
 JSPROP_ENUMERATE
@@ -2847,7 +2847,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -3348,7 +3348,7 @@ str_quote
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -3423,7 +3423,7 @@ str_toSource
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -3571,7 +3571,7 @@ js_str_toString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -3736,7 +3736,7 @@ str_substring
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -4180,7 +4180,7 @@ str_toLowerCase
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -4206,7 +4206,7 @@ str_toLocaleLowerCase
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -4544,7 +4544,7 @@ str_toUpperCase
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -4570,7 +4570,7 @@ str_toLocaleUpperCase
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -4702,7 +4702,7 @@ str_localeCompare
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -4886,7 +4886,7 @@ js_str_charAt
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -5131,7 +5131,7 @@ js_str_charCodeAt
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -7587,7 +7587,7 @@ str_indexOf
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -7909,7 +7909,7 @@ str_lastIndexOf
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -8526,7 +8526,7 @@ str_trim
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -8550,7 +8550,7 @@ str_trimLeft
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -8574,7 +8574,7 @@ str_trimRight
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -9392,9 +9392,9 @@ cx
 JSString
 *
 textstr
-uintN
+unsigned
 optarg
-uintN
+unsigned
 argc
 bool
 checkMetaChars
@@ -9609,7 +9609,7 @@ JSContext
 cx
 bool
 flat
-uintN
+unsigned
 optarg
 CallArgs
 args
@@ -10505,7 +10505,7 @@ str_match
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -10724,7 +10724,7 @@ str_search
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -11297,7 +11297,7 @@ or
 99
 *
 /
-uintN
+unsigned
 num
 =
 JS7_UNDEC
@@ -11347,7 +11347,7 @@ dc
 )
 )
 {
-uintN
+unsigned
 tmp
 =
 10
@@ -12101,7 +12101,7 @@ rooted
 .
 *
 /
-uintN
+unsigned
 p
 =
 res
@@ -12111,7 +12111,7 @@ parenCount
 (
 )
 ;
-uintN
+unsigned
 argc
 =
 1
@@ -12187,7 +12187,7 @@ Push
 .
 *
 /
-uintN
+unsigned
 argi
 =
 0
@@ -14624,7 +14624,7 @@ str_replace
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -16854,7 +16854,7 @@ str_split
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -17355,7 +17355,7 @@ str_substr
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -17650,7 +17650,7 @@ str_concat
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -17686,7 +17686,7 @@ false
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -17765,7 +17765,7 @@ str_slice
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -18759,7 +18759,7 @@ str_bold
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -18789,7 +18789,7 @@ str_italics
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -18819,7 +18819,7 @@ str_fixed
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -18849,7 +18849,7 @@ str_fontsize
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -18882,7 +18882,7 @@ str_fontcolor
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -18915,7 +18915,7 @@ str_link
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -18948,7 +18948,7 @@ str_anchor
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -18981,7 +18981,7 @@ str_strike
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -19011,7 +19011,7 @@ str_small
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -19041,7 +19041,7 @@ str_big
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -19071,7 +19071,7 @@ str_blink
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -19101,7 +19101,7 @@ str_sup
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -19131,7 +19131,7 @@ str_sub
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -19563,7 +19563,7 @@ js_String
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -19696,7 +19696,7 @@ str_fromCharCode
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -19846,7 +19846,7 @@ JS_FALSE
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -23279,7 +23279,7 @@ jschar
 *
 end
 ;
-uintN
+unsigned
 c
 c2
 ;
@@ -26324,7 +26324,7 @@ B
 }
 else
 {
-intN
+int
 n
 =
 1
@@ -26395,7 +26395,7 @@ report_bad_uri
 ;
 for
 (
-intN
+int
 j
 =
 1
@@ -26697,7 +26697,7 @@ str_decodeURI
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -26769,7 +26769,7 @@ str_decodeURI_Component
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -26841,7 +26841,7 @@ str_encodeURI
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -26914,7 +26914,7 @@ str_encodeURI_Component
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -27539,17 +27539,17 @@ state
 =
 FIRST_QUOTE
 ;
-uintN
+unsigned
 shift
 =
 0
 ;
-uintN
+unsigned
 hex
 =
 0
 ;
-uintN
+unsigned
 u
 =
 0

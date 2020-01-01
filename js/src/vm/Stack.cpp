@@ -4327,7 +4327,7 @@ cx
 Value
 *
 from
-uintN
+unsigned
 nvals
 Value
 *
@@ -4700,7 +4700,7 @@ JSContext
 cx
 MaybeReportError
 report
-uintN
+unsigned
 nvars
 MaybeExtend
 extend
@@ -5213,7 +5213,7 @@ pushInvokeArgs
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 InvokeArgsGuard
 *
@@ -5231,7 +5231,7 @@ StackSpace
 ARGS_LENGTH_MAX
 )
 ;
-uintN
+unsigned
 nvars
 =
 2
@@ -5834,7 +5834,7 @@ extend
 CAN_EXTEND
 ;
 }
-uintN
+unsigned
 nvars
 =
 2
@@ -6409,7 +6409,7 @@ compartment
 )
 )
 ;
-uintN
+unsigned
 nvars
 =
 VALUES_PER_STACK_FRAME
@@ -6729,7 +6729,7 @@ gen
 >
 floatingStack
 ;
-uintN
+unsigned
 vplen
 =
 (
@@ -6740,7 +6740,7 @@ genfp
 -
 genvp
 ;
-uintN
+unsigned
 nvars
 =
 vplen
@@ -8763,7 +8763,7 @@ op
 JSOP_FUNCALL
 )
 {
-uintN
+unsigned
 argc
 =
 GET_ARGC
@@ -8773,7 +8773,7 @@ pc_
 ;
 DebugOnly
 <
-uintN
+unsigned
 >
 spoff
 =

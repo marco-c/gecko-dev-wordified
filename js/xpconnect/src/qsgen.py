@@ -3296,7 +3296,7 @@ cx
 JSObject
 *
 proto
-uintN
+unsigned
 flags
 "
                 
@@ -7179,7 +7179,7 @@ s
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 %
 s
@@ -11481,7 +11481,7 @@ cx
 JSObject
 *
 proto
-uintN
+unsigned
 flags
 PRUint32
 count

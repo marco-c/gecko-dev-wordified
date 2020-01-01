@@ -2063,7 +2063,7 @@ Function
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *

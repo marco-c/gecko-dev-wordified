@@ -908,7 +908,7 @@ str
 )
 }
 ;
-uintN
+unsigned
 argc
 =
 ArrayLength

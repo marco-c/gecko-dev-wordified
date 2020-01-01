@@ -720,7 +720,7 @@ mJSSetterObject
 ;
 }
 ;
-uintN
+unsigned
 mJSAttributes
 ;
 /
