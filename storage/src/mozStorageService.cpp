@@ -1261,6 +1261,9 @@ GetCID
 sXPConnect
 )
 ;
+return
+NS_OK
+;
 }
 /
 /
