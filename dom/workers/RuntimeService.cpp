@@ -4343,10 +4343,6 @@ during
 CC
 shutdown
 .
-nsCycleCollector_shutdownThreads
-(
-)
-;
 nsCycleCollector_shutdown
 (
 )
@@ -4499,7 +4495,6 @@ AssertIsOnWorkerThread
 {
 nsCycleCollector_startup
 (
-CCSingleThread
 )
 ;
 WorkerJSRuntime

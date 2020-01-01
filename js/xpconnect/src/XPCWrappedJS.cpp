@@ -148,13 +148,6 @@ nsTextFormatter
 .
 h
 "
-#
-include
-"
-nsCycleCollectorUtils
-.
-h
-"
 using
 namespace
 mozilla
@@ -204,7 +197,7 @@ nsISupports
 p
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 CheckForRightISupports
 (
@@ -534,7 +527,7 @@ void
 aInstancePtr
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 IsAggregatedToNative
 (
@@ -1138,11 +1131,6 @@ MOZ_LIKELY
 NS_IsMainThread
 (
 )
-|
-|
-NS_IsCycleCollectorThread
-(
-)
 )
 )
 MOZ_CRASH
@@ -1222,11 +1210,6 @@ if
 MOZ_LIKELY
 (
 NS_IsMainThread
-(
-)
-|
-|
-NS_IsCycleCollectorThread
 (
 )
 )
@@ -1317,7 +1300,7 @@ shouldn
 t
 happen
 .
-MOZ_ASSERT
+NS_ASSERTION
 (
 mainThread
 "
@@ -1553,7 +1536,7 @@ JSTracer
 trc
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 mRefCnt
 >
@@ -1870,11 +1853,6 @@ MOZ_LIKELY
 NS_IsMainThread
 (
 )
-|
-|
-NS_IsCycleCollectorThread
-(
-)
 )
 )
 MOZ_CRASH
@@ -1937,7 +1915,7 @@ if
 map
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 map
 "
@@ -2449,7 +2427,7 @@ build
 the
 specific
 wrapper
-MOZ_ASSERT
+NS_ASSERTION
 (
 root
 "
@@ -2458,7 +2436,7 @@ root
 "
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 clazz
 "
@@ -3021,7 +2999,7 @@ cur
 >
 mNext
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 cur
 "
@@ -3196,7 +3174,7 @@ REFNSIID
 aIID
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 !
 aIID
@@ -3285,7 +3263,7 @@ nsIInterfaceInfo
 info
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 GetClass
 (
@@ -3297,7 +3275,7 @@ class
 "
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 GetClass
 (
@@ -3410,11 +3388,6 @@ if
 MOZ_LIKELY
 (
 NS_IsMainThread
-(
-)
-|
-|
-NS_IsCycleCollectorThread
 (
 )
 )

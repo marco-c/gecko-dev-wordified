@@ -281,13 +281,6 @@ h
 #
 include
 "
-nsCycleCollectorUtils
-.
-h
-"
-#
-include
-"
 nsScriptLoader
 .
 h
@@ -3177,11 +3170,6 @@ MOZ_ASSERT
 NS_IsMainThread
 (
 )
-|
-|
-NS_IsCycleCollectorThread
-(
-)
 "
 Suspecting
 wrapped
@@ -3189,7 +3177,7 @@ natives
 from
 non
 -
-CC
+main
 thread
 "
 )
@@ -4090,7 +4078,7 @@ case
 JSFINALIZE_GROUP_START
 :
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 !
 self
@@ -4127,7 +4115,7 @@ GetMapLock
 )
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 !
 self
@@ -4279,7 +4267,7 @@ case
 JSFINALIZE_GROUP_END
 :
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 self
 -
@@ -4369,7 +4357,7 @@ GetMapLock
 )
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 self
 -
@@ -4435,7 +4423,7 @@ GetMapLock
 )
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 !
 self
@@ -5802,7 +5790,7 @@ GetMapLock
 )
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 self
 -
@@ -8476,7 +8464,7 @@ hdr
 >
 key
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 !
 wrapper
@@ -9285,7 +9273,7 @@ XPCCCX_STRING_CACHE_SIZE
 i
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 !
 mScratchStrings
@@ -13270,7 +13258,7 @@ objectsExtra
 .
 elementsAsmJSNonHeap
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 asmJSHeap
 =
@@ -19122,7 +19110,7 @@ rv
 return
 rv
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 bytesRead
 >
@@ -21722,7 +21710,7 @@ XPCRootSetElem
 listHead
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 !
 mSelfp
@@ -21754,7 +21742,7 @@ if
 mNext
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 mNext
 -
@@ -21826,7 +21814,7 @@ Runtime
 )
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 mSelfp
 "
@@ -21842,7 +21830,7 @@ autoLock
 lock
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 *
 mSelfp
@@ -21895,7 +21883,7 @@ xpcGCCallback
 cb
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 cb
 "
@@ -21922,7 +21910,7 @@ xpcGCCallback
 cb
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 cb
 "
@@ -21973,7 +21961,7 @@ xpcContextCallback
 cb
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 cb
 "
@@ -22000,7 +21988,7 @@ xpcContextCallback
 cb
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 cb
 "
