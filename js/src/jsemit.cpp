@@ -25234,6 +25234,9 @@ slot
 js_AllocateLoopTableSlot
 (
 cx
+-
+>
+runtime
 )
 ;
 SET_UINT24
