@@ -669,12 +669,6 @@ charset
 )
 ;
 virtual
-bool
-RecvOnStopRequestCompleted
-(
-)
-;
-virtual
 void
 ActorDestroy
 (
