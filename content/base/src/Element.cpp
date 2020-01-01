@@ -7254,8 +7254,16 @@ screen
 nsIDocument
 :
 :
-ExitFullScreen
+ExitFullscreen
 (
+OwnerDoc
+(
+)
+/
+*
+async
+*
+/
 false
 )
 ;
