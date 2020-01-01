@@ -11271,7 +11271,7 @@ NPBool
 )
 result
 =
-true
+false
 ;
 return
 NPERR_NO_ERROR
