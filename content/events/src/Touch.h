@@ -82,13 +82,6 @@ mozilla_dom_Touch_h
 #
 include
 "
-nsIDOMTouchEvent
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -152,7 +145,7 @@ Touch
 MOZ_FINAL
 :
 public
-nsIDOMTouch
+nsISupports
 public
 nsWrapperCache
 {
@@ -370,7 +363,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 Touch
 )
-NS_DECL_NSIDOMTOUCH
 void
 InitializePoints
 (
