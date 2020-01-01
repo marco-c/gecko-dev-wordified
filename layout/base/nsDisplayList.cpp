@@ -23847,14 +23847,7 @@ _34
 /
 NSAppUnitsToFloatPixels
 (
-parentDisp
--
->
-mChildPerspective
-.
-GetCoordValue
-(
-)
+perspectiveCoord
 aAppUnitsPerPixel
 )
 ;
