@@ -1,15 +1,4 @@
 #
-!
-c
-:
-/
-Python24
-/
-python
-.
-exe
-#
-#
 *
 *
 *
@@ -215,6 +204,15 @@ com
 original
 author
 )
+#
+Alice
+Nodelman
+<
+anodelman
+mozilla
+.
+com
+>
 #
 #
 Alternatively
@@ -529,7 +527,7 @@ ffprocess
 import
 ffprofile
 import
-paths
+config
 #
 Regular
 expression
@@ -808,7 +806,7 @@ time
     
 url
 =
-paths
+config
 .
 TS_URL
 +
@@ -887,7 +885,6 @@ startup_times
 def
 RunStartupTests
 (
-source_profile_dir
 profile_configs
 num_runs
 )
@@ -918,19 +915,6 @@ configurations
   
 Args
 :
-    
-source_profile_dir
-:
-Full
-path
-to
-base
-directory
-to
-copy
-profile
-from
-.
     
 profile_configs
 :
@@ -1027,7 +1011,10 @@ ffprofile
 .
 CreateTempProfileDir
 (
-source_profile_dir
+config
+[
+5
+]
                                                  
 config
 [
