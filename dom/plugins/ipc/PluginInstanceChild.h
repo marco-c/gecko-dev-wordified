@@ -508,7 +508,7 @@ h
 elif
 defined
 (
-OS_MACOSX
+MOZ_WIDGET_COCOA
 )
 #
 include
@@ -1899,7 +1899,7 @@ OS_WIN
 if
 defined
 (
-OS_MACOSX
+MOZ_WIDGET_COCOA
 )
 private
 :

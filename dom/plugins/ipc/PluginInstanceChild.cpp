@@ -932,7 +932,7 @@ mAsyncCallMutex
 if
 defined
 (
-OS_MACOSX
+MOZ_WIDGET_COCOA
 )
 #
 if
@@ -1208,7 +1208,7 @@ endif
 if
 defined
 (
-OS_MACOSX
+MOZ_WIDGET_COCOA
 )
 if
 (

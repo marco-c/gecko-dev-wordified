@@ -839,7 +839,7 @@ aMimeType
 {
 #
 ifdef
-OS_MACOSX
+MOZ_WIDGET_COCOA
 NS_NAMED_LITERAL_CSTRING
 (
 flash
@@ -948,7 +948,7 @@ endif
 if
 defined
 (
-OS_MACOSX
+MOZ_WIDGET_COCOA
 )
 if
 (
@@ -9390,7 +9390,7 @@ endif
 }
 #
 ifdef
-OS_MACOSX
+MOZ_WIDGET_COCOA
 void
 PluginInstanceParent
 :

@@ -486,7 +486,7 @@ h
 elif
 defined
 (
-OS_MACOSX
+MOZ_WIDGET_COCOA
 )
 #
 include
@@ -1355,11 +1355,8 @@ gotFocus
 )
 ;
 #
-if
-defined
-(
-OS_MACOSX
-)
+ifdef
+MOZ_WIDGET_COCOA
 void
 Invalidate
 (
@@ -1371,7 +1368,7 @@ endif
 /
 definied
 (
-OS_MACOSX
+MOZ_WIDGET_COCOA
 )
 nsresult
 AsyncSetWindow
@@ -1744,7 +1741,7 @@ XP_WIN
 if
 defined
 (
-OS_MACOSX
+MOZ_WIDGET_COCOA
 )
 private
 :
@@ -1775,7 +1772,7 @@ endif
 /
 definied
 (
-OS_MACOSX
+MOZ_WIDGET_COCOA
 )
 /
 /

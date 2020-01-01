@@ -5792,6 +5792,9 @@ iter
 ips
 )
 ;
+#
+ifdef
+MOZ_WIDGET_COCOA
 while
 (
 iter
@@ -5813,6 +5816,11 @@ Invalidate
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_WIDGET_COCOA
 }
 void
 PluginModuleParent

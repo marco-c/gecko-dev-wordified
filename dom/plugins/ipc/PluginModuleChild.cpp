@@ -651,7 +651,7 @@ h
 endif
 #
 ifdef
-OS_MACOSX
+MOZ_WIDGET_COCOA
 #
 include
 "
@@ -8373,7 +8373,7 @@ AssertPluginThread
 ;
 #
 ifdef
-OS_MACOSX
+MOZ_WIDGET_COCOA
 double
 pluginX
 pluginY
@@ -11862,7 +11862,7 @@ endif
 }
 #
 ifdef
-OS_MACOSX
+MOZ_WIDGET_COCOA
 void
 PluginModuleChild
 :
