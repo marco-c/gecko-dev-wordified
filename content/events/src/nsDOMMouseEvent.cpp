@@ -790,6 +790,9 @@ NS_MOUSE_SCROLL_EVENT
 case
 NS_DRAG_EVENT
 :
+case
+NS_SIMPLE_GESTURE_EVENT
+:
 {
 static_cast
 <
@@ -1060,6 +1063,9 @@ NS_MOUSE_SCROLL_EVENT
 case
 NS_DRAG_EVENT
 :
+case
+NS_SIMPLE_GESTURE_EVENT
+:
 *
 aButton
 =
@@ -1155,6 +1161,9 @@ NS_MOUSE_SCROLL_EVENT
 :
 case
 NS_DRAG_EVENT
+:
+case
+NS_SIMPLE_GESTURE_EVENT
 :
 relatedTarget
 =

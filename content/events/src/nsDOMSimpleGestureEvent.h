@@ -407,7 +407,7 @@ h
 #
 include
 "
-nsDOMUIEvent
+nsDOMMouseEvent
 .
 h
 "
@@ -420,7 +420,7 @@ nsDOMSimpleGestureEvent
 public
 nsIDOMSimpleGestureEvent
 public
-nsDOMUIEvent
+nsDOMMouseEvent
 {
 public
 :
@@ -446,7 +446,7 @@ Forward
 to
 base
 class
-NS_FORWARD_TO_NSDOMUIEVENT
+NS_FORWARD_TO_NSDOMMOUSEEVENT
 }
 ;
 #
