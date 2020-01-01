@@ -1317,7 +1317,7 @@ NS_ABORT_IF_FALSE
 aXPLength
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 |
 |
 aXPLength
@@ -1478,7 +1478,7 @@ NS_ABORT_IF_FALSE
 aNativeLength
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 |
 |
 aNativeLength
@@ -1620,7 +1620,7 @@ aContent
 uint32_t
 aMaxLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 if

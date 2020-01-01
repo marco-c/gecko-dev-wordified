@@ -1942,8 +1942,8 @@ return
 ParseIntWithBounds
 (
 aString
-PR_INT32_MIN
-PR_INT32_MAX
+INT32_MIN
+INT32_MAX
 )
 ;
 }
@@ -2029,7 +2029,7 @@ aMin
 int32_t
 aMax
 =
-PR_INT32_MAX
+INT32_MAX
 )
 ;
 /

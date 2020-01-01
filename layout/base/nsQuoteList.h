@@ -232,7 +232,7 @@ NS_ASSERTION
 aContentIndex
 <
 =
-PR_INT32_MAX
+INT32_MAX
 "
 out
 of

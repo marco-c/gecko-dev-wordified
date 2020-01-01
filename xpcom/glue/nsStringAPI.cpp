@@ -344,7 +344,7 @@ NS_StringGetMutableData
 (
 *
 this
-PR_UINT32_MAX
+UINT32_MAX
 &
 data
 )
@@ -2844,7 +2844,7 @@ NS_CStringGetMutableData
 (
 *
 this
-PR_UINT32_MAX
+UINT32_MAX
 &
 data
 )
@@ -4955,7 +4955,7 @@ len
 NS_StringGetMutableData
 (
 aString
-PR_UINT32_MAX
+UINT32_MAX
 &
 start
 )

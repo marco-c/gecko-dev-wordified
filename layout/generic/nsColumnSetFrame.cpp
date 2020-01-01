@@ -2529,7 +2529,7 @@ column
 count
 numColumns
 =
-PR_INT32_MAX
+INT32_MAX
 ;
 }
 #
@@ -4254,7 +4254,7 @@ aConfig
 .
 mBalanceColCount
 <
-PR_INT32_MAX
+INT32_MAX
 ;
 #
 ifdef
@@ -5008,7 +5008,7 @@ aConfig
 .
 mBalanceColCount
 <
-PR_INT32_MAX
+INT32_MAX
 )
 {
 /
@@ -6224,7 +6224,7 @@ config
 .
 mBalanceColCount
 <
-PR_INT32_MAX
+INT32_MAX
 ;
 /
 /
@@ -6448,7 +6448,7 @@ config
 .
 mBalanceColCount
 =
-PR_INT32_MAX
+INT32_MAX
 ;
 }
 bool

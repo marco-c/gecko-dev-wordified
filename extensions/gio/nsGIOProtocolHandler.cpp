@@ -1087,7 +1087,7 @@ nullptr
 )
 mBytesRemaining
 (
-PR_UINT64_MAX
+UINT64_MAX
 )
 mStatus
 (

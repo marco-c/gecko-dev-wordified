@@ -47256,7 +47256,7 @@ NS_ENSURE_ARG_MAX
 tmpIdleObserver
 .
 mTimeInS
-PR_UINT32_MAX
+UINT32_MAX
 /
 1000
 )

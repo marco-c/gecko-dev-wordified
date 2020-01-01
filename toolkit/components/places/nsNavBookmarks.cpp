@@ -1896,7 +1896,7 @@ aStartIndex
 aEndIndex
 <
 =
-PR_INT32_MAX
+INT32_MAX
 &
 &
 aStartIndex
@@ -3190,7 +3190,7 @@ AdjustIndices
 (
 aFolder
 index
-PR_INT32_MAX
+INT32_MAX
 1
 )
 ;
@@ -3803,7 +3803,7 @@ bookmark
 position
 +
 1
-PR_INT32_MAX
+INT32_MAX
 -
 1
 )
@@ -4601,7 +4601,7 @@ AdjustIndices
 (
 aParent
 index
-PR_INT32_MAX
+INT32_MAX
 1
 )
 ;
@@ -4839,7 +4839,7 @@ AdjustIndices
 (
 aParent
 index
-PR_INT32_MAX
+INT32_MAX
 1
 )
 ;
@@ -7749,7 +7749,7 @@ bookmark
 position
 +
 1
-PR_INT32_MAX
+INT32_MAX
 -
 1
 )
@@ -7779,7 +7779,7 @@ AdjustIndices
 (
 aNewParent
 newIndex
-PR_INT32_MAX
+INT32_MAX
 1
 )
 ;

@@ -6289,7 +6289,7 @@ static_cast
 int64_t
 >
 (
-PR_UINT32_MAX
+UINT32_MAX
 )
 aEndOffset
 -
@@ -9240,7 +9240,7 @@ NS_ASSERTION
 bytesToRead
 <
 =
-PR_UINT32_MAX
+UINT32_MAX
 "
 bytesToRead
 range
@@ -9696,7 +9696,7 @@ pow
 maxBackStep
 )
 <
-PR_INT32_MAX
+INT32_MAX
 "
 Backstep
 calculation

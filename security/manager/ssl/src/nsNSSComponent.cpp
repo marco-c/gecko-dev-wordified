@@ -15889,7 +15889,7 @@ the
 user
 has
 passed
-PR_UINT32_MAX
+UINT32_MAX
 then
 read
 /
@@ -15908,7 +15908,7 @@ if
 aLen
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 len
 =
@@ -16790,7 +16790,7 @@ the
 user
 has
 passed
-PR_UINT32_MAX
+UINT32_MAX
 then
 read
 /
@@ -16809,7 +16809,7 @@ if
 aLen
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 len
 =

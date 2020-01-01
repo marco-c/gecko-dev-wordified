@@ -4833,7 +4833,7 @@ anymore
 uint32_t
 timeToNextExpire
 =
-PR_UINT32_MAX
+UINT32_MAX
 ;
 int32_t
 count
@@ -5093,7 +5093,7 @@ if
 timeToNextExpire
 !
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 uint32_t

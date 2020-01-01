@@ -10435,7 +10435,7 @@ aFontFaceList
 Pass
 0
 and
-PR_INT32_MAX
+INT32_MAX
 for
 aStartOffset
 and

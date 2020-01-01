@@ -829,7 +829,7 @@ Pass
 the
 *
 value
-PR_UINT32_MAX
+UINT32_MAX
 to
 consume
 the

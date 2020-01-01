@@ -258,7 +258,7 @@ constants
 #
 define
 kNameSpaceID_Wildcard
-PR_INT32_MIN
+INT32_MIN
 /
 /
 This

@@ -1154,7 +1154,7 @@ before
 the
 content
 offset
-PR_INT32_MAX
+INT32_MAX
 means
 after
 the
@@ -2351,7 +2351,7 @@ NS_ASSERTION
 aFlag
 <
 =
-PR_UINT8_MAX
+UINT8_MAX
 "
 bad
 flag

@@ -16802,7 +16802,7 @@ aMaxLength
 this
 can
 be
-PR_UINT32_MAX
+UINT32_MAX
 in
 which
 case
@@ -17111,7 +17111,7 @@ GetHyphenWidth
 aWidth
 *
 or
-PR_UINT32_MAX
+UINT32_MAX
 if
 no
 such
@@ -20492,7 +20492,7 @@ enum
 {
 UNDERLINE_OFFSET_NOT_SET
 =
-PR_INT16_MAX
+INT16_MAX
 }
 ;
 virtual

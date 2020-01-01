@@ -511,7 +511,7 @@ DOCUMENT_FRAGMENT_NODE
 aNodeType
 =
 =
-PR_UINT16_MAX
+UINT16_MAX
 "
 Invalid
 nodeType
@@ -579,7 +579,7 @@ ATTRIBUTE_NODE
 aNodeType
 =
 =
-PR_UINT16_MAX
+UINT16_MAX
 |
 |
 aNamespaceID

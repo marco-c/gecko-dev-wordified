@@ -1183,7 +1183,7 @@ countlong
 +
 aOffset
 >
-PR_UINT32_MAX
+UINT32_MAX
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -1485,7 +1485,7 @@ Length
 )
 >
 (
-PR_UINT32_MAX
+UINT32_MAX
 /
 4
 )
@@ -1711,7 +1711,7 @@ Length
 (
 )
 >
-PR_UINT32_MAX
+UINT32_MAX
 /
 3
 )

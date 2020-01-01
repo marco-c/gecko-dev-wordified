@@ -920,7 +920,7 @@ mContentLength
 =
 avail
 <
-PR_INT32_MAX
+INT32_MAX
 ?
 (
 int32_t

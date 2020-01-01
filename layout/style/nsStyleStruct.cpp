@@ -8782,7 +8782,7 @@ NS_MIN
 pixelValue
 double
 (
-PR_INT32_MAX
+INT32_MAX
 )
 )
 ;

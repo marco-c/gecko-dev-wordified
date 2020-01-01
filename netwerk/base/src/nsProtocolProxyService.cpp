@@ -8945,7 +8945,7 @@ mTimeout
 aFailoverTimeout
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 ?
 mFailedProxyTimeout
 :
@@ -9828,7 +9828,7 @@ type
 host
 port
 proxyFlags
-PR_UINT32_MAX
+UINT32_MAX
 nullptr
 flags
 result

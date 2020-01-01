@@ -7277,7 +7277,7 @@ know
 /
 that
 offset
-PR_INT32_MAX
+INT32_MAX
 means
 "
 after
@@ -7295,7 +7295,7 @@ aFrame
 GetContent
 (
 )
-PR_INT32_MAX
+INT32_MAX
 optionalBreakAfterFits
 eNormalBreak
 )

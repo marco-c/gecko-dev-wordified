@@ -3696,7 +3696,7 @@ if
 len64
 <
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 len
 =

@@ -16838,7 +16838,7 @@ enum
 {
 INDEX_MAX
 =
-PR_UINT32_MAX
+UINT32_MAX
 >
 >
 nsDisplayItem

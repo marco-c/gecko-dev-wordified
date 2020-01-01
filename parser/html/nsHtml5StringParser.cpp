@@ -218,7 +218,7 @@ Length
 )
 <
 =
-PR_INT32_MAX
+INT32_MAX
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
@@ -398,7 +398,7 @@ Length
 )
 <
 =
-PR_INT32_MAX
+INT32_MAX
 NS_ERROR_OUT_OF_MEMORY
 )
 ;

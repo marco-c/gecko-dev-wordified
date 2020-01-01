@@ -1657,7 +1657,7 @@ nodeInfo
 /
 /
 Using
-PR_UINT16_MAX
+UINT16_MAX
 here
 as
 we
@@ -1699,7 +1699,7 @@ GetNodeInfo
 localName
 prefix
 namespaceURI
-PR_UINT16_MAX
+UINT16_MAX
 getter_AddRefs
 (
 nodeInfo

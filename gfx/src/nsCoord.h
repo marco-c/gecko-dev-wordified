@@ -1991,9 +1991,9 @@ bounds
 coord
 values
 to
-PR_INT32_MIN
+INT32_MIN
 and
-PR_INT32_MAX
+INT32_MAX
 .
 *
 /
@@ -2062,7 +2062,7 @@ as
 a
 float
 return
-PR_INT32_MIN
+INT32_MIN
 ;
 }
 else
@@ -2098,7 +2098,7 @@ an
 IEEE
 float
 return
-PR_INT32_MAX
+INT32_MAX
 ;
 }
 else

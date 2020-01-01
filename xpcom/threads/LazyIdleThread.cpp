@@ -468,7 +468,7 @@ NS_ASSERTION
 (
 mPendingEventCount
 <
-PR_UINT32_MAX
+UINT32_MAX
 "
 Way
 too
@@ -591,7 +591,7 @@ NS_ASSERTION
 (
 mPendingEventCount
 <
-PR_UINT32_MAX
+UINT32_MAX
 "
 Way
 too
@@ -2390,7 +2390,7 @@ NS_ASSERTION
 (
 mIdleNotificationCount
 <
-PR_UINT32_MAX
+UINT32_MAX
 "
 Way
 too

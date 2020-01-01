@@ -9621,7 +9621,7 @@ output
 does
 not
 exceed
-PR_UINT32_MAX
+UINT32_MAX
 bytes
 .
 Allocate
@@ -9733,13 +9733,13 @@ fit
 in
 /
 /
-PR_UINT32_MAX
+UINT32_MAX
 bytes
 .
 size_t
 max
 =
-PR_UINT32_MAX
+UINT32_MAX
 /
 typeSize
 ;
@@ -10650,7 +10650,7 @@ _mode
 size_t
 max
 =
-PR_UINT32_MAX
+UINT32_MAX
 /
 sizeof
 (

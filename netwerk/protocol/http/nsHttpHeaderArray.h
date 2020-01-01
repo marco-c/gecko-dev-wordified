@@ -1019,7 +1019,7 @@ if
 index
 !
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 *
 entry
@@ -1071,7 +1071,7 @@ if
 index
 !
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 *
 entry

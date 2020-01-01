@@ -655,7 +655,7 @@ the
 current
 time
 returns
-PR_INT64_MIN
+INT64_MIN
 in
 aTime
 .
@@ -691,7 +691,7 @@ aTime
 *
 aTime
 =
-PR_INT64_MIN
+INT64_MIN
 ;
 }
 return
@@ -930,7 +930,7 @@ a
 new
 value
 or
-PR_INT64_MAX
+INT64_MAX
 if
 that
 *
@@ -961,7 +961,7 @@ the
 returned
 value
 or
-PR_INT64_MIN
+INT64_MIN
 if
 that
 happened
@@ -1036,7 +1036,7 @@ aStart
 *
 aStart
 =
-PR_INT64_MIN
+INT64_MIN
 ;
 }
 if
@@ -1053,7 +1053,7 @@ IsEmpty
 (
 )
 ?
-PR_INT64_MAX
+INT64_MAX
 :
 mChanges
 [
@@ -1099,7 +1099,7 @@ aEnd
 *
 aEnd
 =
-PR_INT64_MAX
+INT64_MAX
 ;
 }
 if

@@ -6276,7 +6276,7 @@ frames
 /
 The
 value
-PR_UINT32_MAX
+UINT32_MAX
 represents
 overflow
 ;
@@ -9425,7 +9425,7 @@ mMaxTextLength
 bufferSize
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 |
 |
 !
@@ -9711,14 +9711,14 @@ if
 mMaxTextLength
 !
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 NS_ASSERTION
 (
 mMaxTextLength
 <
-PR_UINT32_MAX
+UINT32_MAX
 -
 aFrame
 -
@@ -9737,7 +9737,7 @@ if
 mMaxTextLength
 >
 =
-PR_UINT32_MAX
+UINT32_MAX
 -
 aFrame
 -
@@ -9749,7 +9749,7 @@ GetContentLength
 {
 mMaxTextLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 ;
 }
 else
@@ -14199,7 +14199,7 @@ mMaxTextLength
 bufferSize
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 return
@@ -18227,7 +18227,7 @@ if
 aContentLength
 =
 =
-PR_INT32_MAX
+INT32_MAX
 )
 return
 true
@@ -18312,7 +18312,7 @@ param
 aLength
 can
 be
-PR_INT32_MAX
+INT32_MAX
 to
 indicate
 we
@@ -18338,7 +18338,7 @@ given
 textrun
 .
 If
-PR_INT32_MAX
+INT32_MAX
 is
 passed
 justification
@@ -18912,7 +18912,7 @@ mStart
 /
 May
 return
-PR_INT32_MAX
+INT32_MAX
 if
 that
 was
@@ -18930,7 +18930,7 @@ NS_ASSERTION
 mLength
 !
 =
-PR_INT32_MAX
+INT32_MAX
 "
 Length
 not
@@ -19169,7 +19169,7 @@ string
 length
 may
 be
-PR_INT32_MAX
+INT32_MAX
 gfxFloat
 mWordSpacing
 ;
@@ -21054,7 +21054,7 @@ NS_PRECONDITION
 mLength
 !
 =
-PR_INT32_MAX
+INT32_MAX
 "
 Can
 '
@@ -21540,7 +21540,7 @@ NS_PRECONDITION
 mLength
 !
 =
-PR_INT32_MAX
+INT32_MAX
 "
 Can
 '
@@ -21765,7 +21765,7 @@ NS_PRECONDITION
 mLength
 !
 =
-PR_INT32_MAX
+INT32_MAX
 "
 Can
 '
@@ -26318,7 +26318,7 @@ aSkippedStartOffset
 uint32_t
 aSkippedMaxLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 return
@@ -44922,7 +44922,7 @@ we
 can
 just
 pass
-PR_INT32_MAX
+INT32_MAX
 to
 mean
 "
@@ -44933,7 +44933,7 @@ text
 int32_t
 len
 =
-PR_INT32_MAX
+INT32_MAX
 ;
 bool
 hyphenating
@@ -46202,7 +46202,7 @@ textStyle
 frag
 this
 iter
-PR_INT32_MAX
+INT32_MAX
 nullptr
 0
 aTextRunType
@@ -52202,7 +52202,7 @@ if
 transformedLastBreak
 !
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 /

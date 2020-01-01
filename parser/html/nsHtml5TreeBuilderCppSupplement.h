@@ -4794,12 +4794,12 @@ if
 (
 length
 >
-PR_INT32_MAX
+INT32_MAX
 )
 {
 length
 =
-PR_INT32_MAX
+INT32_MAX
 ;
 }
 characters

@@ -212,7 +212,7 @@ aValue
 aValue
 <
 =
-PR_INT32_MAX
+INT32_MAX
 )
 return
 int32_t

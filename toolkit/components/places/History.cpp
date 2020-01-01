@@ -613,7 +613,7 @@ false
 )
 transitionType
 (
-PR_UINT32_MAX
+UINT32_MAX
 )
 visitTime
 (
@@ -678,7 +678,7 @@ false
 )
 transitionType
 (
-PR_UINT32_MAX
+UINT32_MAX
 )
 visitTime
 (

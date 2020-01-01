@@ -3060,7 +3060,7 @@ aPresContext
 >
 DevPixelsToAppUnits
 (
-PR_INT16_MAX
+INT16_MAX
 )
 aMetrics
 .
@@ -3078,7 +3078,7 @@ aPresContext
 >
 DevPixelsToAppUnits
 (
-PR_INT16_MAX
+INT16_MAX
 )
 aMetrics
 .

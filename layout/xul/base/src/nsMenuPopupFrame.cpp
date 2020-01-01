@@ -12514,7 +12514,7 @@ nsViewVisibility_kHide
 int32_t
 zIndex
 =
-PR_INT32_MAX
+INT32_MAX
 ;
 bool
 autoZIndex

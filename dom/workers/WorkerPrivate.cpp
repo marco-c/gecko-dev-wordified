@@ -14861,7 +14861,7 @@ IsNull
 )
 {
 return
-PR_UINT32_MAX
+UINT32_MAX
 ;
 }
 TimeDuration
@@ -14899,10 +14899,10 @@ ms
 >
 double
 (
-PR_UINT32_MAX
+UINT32_MAX
 )
 ?
-PR_UINT32_MAX
+UINT32_MAX
 :
 uint32_t
 (
@@ -15851,7 +15851,7 @@ Length
 (
 )
 <
-PR_UINT32_MAX
+UINT32_MAX
 "
 Should
 have
@@ -17599,7 +17599,7 @@ NS_UNLIKELY
 timerId
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 )
 {
@@ -19247,7 +19247,7 @@ NS_MIN
 delta
 double
 (
-PR_UINT32_MAX
+UINT32_MAX
 )
 )
 :

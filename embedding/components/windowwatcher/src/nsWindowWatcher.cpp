@@ -11649,7 +11649,7 @@ aFeatures
 "
 outerWidth
 "
-PR_INT32_MIN
+INT32_MIN
 nullptr
 )
 )
@@ -11660,7 +11660,7 @@ if
 temp
 =
 =
-PR_INT32_MIN
+INT32_MIN
 )
 {
 aResult
@@ -11698,7 +11698,7 @@ aFeatures
 "
 width
 "
-PR_INT32_MIN
+INT32_MIN
 nullptr
 )
 )
@@ -11713,7 +11713,7 @@ aFeatures
 "
 innerWidth
 "
-PR_INT32_MIN
+INT32_MIN
 nullptr
 )
 )
@@ -11724,7 +11724,7 @@ if
 temp
 =
 =
-PR_INT32_MIN
+INT32_MIN
 )
 {
 aResult
@@ -11761,7 +11761,7 @@ aFeatures
 "
 outerHeight
 "
-PR_INT32_MIN
+INT32_MIN
 nullptr
 )
 )
@@ -11772,7 +11772,7 @@ if
 temp
 =
 =
-PR_INT32_MIN
+INT32_MIN
 )
 {
 aResult
@@ -11810,7 +11810,7 @@ aFeatures
 "
 height
 "
-PR_INT32_MIN
+INT32_MIN
 nullptr
 )
 )
@@ -11825,7 +11825,7 @@ aFeatures
 "
 innerHeight
 "
-PR_INT32_MIN
+INT32_MIN
 nullptr
 )
 )
@@ -11836,7 +11836,7 @@ if
 temp
 =
 =
-PR_INT32_MIN
+INT32_MIN
 )
 {
 aResult

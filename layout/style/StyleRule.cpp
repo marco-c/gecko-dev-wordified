@@ -1733,7 +1733,7 @@ nsCSSPseudoElements
 :
 ePseudo_MAX
 <
-PR_INT16_MAX
+INT16_MAX
 "
 nsCSSPseudoElements
 :

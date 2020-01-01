@@ -2254,7 +2254,7 @@ nullptr
 )
 mBytesRemaining
 (
-PR_UINT64_MAX
+UINT64_MAX
 )
 mStatus
 (
@@ -3059,7 +3059,7 @@ if
 mBytesRemaining
 !
 =
-PR_UINT64_MAX
+UINT64_MAX
 )
 {
 /
@@ -3079,7 +3079,7 @@ NS_MAX
 int32_t
 )
 mBytesRemaining
-PR_INT32_MAX
+INT32_MAX
 )
 )
 ;

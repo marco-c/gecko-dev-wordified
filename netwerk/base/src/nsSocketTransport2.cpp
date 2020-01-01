@@ -4204,7 +4204,7 @@ mTimeouts
 TIMEOUT_CONNECT
 ]
 =
-PR_UINT16_MAX
+UINT16_MAX
 ;
 /
 /
@@ -4215,7 +4215,7 @@ mTimeouts
 TIMEOUT_READ_WRITE
 ]
 =
-PR_UINT16_MAX
+UINT16_MAX
 ;
 /
 /
@@ -11902,9 +11902,12 @@ type
 uint16_t
 )
 NS_MIN
+<
+uint32_t
+>
 (
 value
-PR_UINT16_MAX
+UINT16_MAX
 )
 ;
 PostEvent

@@ -103,7 +103,7 @@ mPollFlags
 )
 mPollTimeout
 (
-PR_UINT16_MAX
+UINT16_MAX
 )
 {
 }
@@ -239,7 +239,7 @@ for
 this
 member
 is
-PR_UINT16_MAX
+UINT16_MAX
 which
 disables
 the
@@ -258,7 +258,7 @@ a
 timeout
 value
 of
-PR_UINT16_MAX
+UINT16_MAX
 is
 /
 /

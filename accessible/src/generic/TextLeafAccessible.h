@@ -178,7 +178,7 @@ aStartOffset
 uint32_t
 aLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 virtual

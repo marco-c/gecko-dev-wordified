@@ -4801,7 +4801,7 @@ if
 (
 count
 >
-PR_INT32_MAX
+INT32_MAX
 )
 return
 NS_ERROR_UNEXPECTED

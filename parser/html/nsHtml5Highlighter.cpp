@@ -493,7 +493,7 @@ NS_HTML5TOKENIZER_DATA
 )
 mCStart
 (
-PR_INT32_MAX
+INT32_MAX
 )
 mPos
 (
@@ -720,12 +720,12 @@ if
 (
 length
 >
-PR_INT32_MAX
+INT32_MAX
 )
 {
 length
 =
-PR_INT32_MAX
+INT32_MAX
 ;
 }
 AppendCharacters

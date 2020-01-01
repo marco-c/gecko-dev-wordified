@@ -2580,7 +2580,7 @@ PopulateSelf
 NS_MIN
 (
 aIndex
-PR_UINT32_MAX
+UINT32_MAX
 -
 1
 )

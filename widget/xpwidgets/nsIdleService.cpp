@@ -2289,7 +2289,7 @@ false
 )
 mDeltaToNextIdleSwitchInS
 (
-PR_UINT32_MAX
+UINT32_MAX
 )
 mLastUserInteractionInPR
 (
@@ -2491,7 +2491,7 @@ NS_ENSURE_ARG_RANGE
 aIdleTimeInS
 1
 (
-PR_UINT32_MAX
+UINT32_MAX
 /
 10
 )
@@ -3056,7 +3056,7 @@ notifyList
 ;
 mDeltaToNextIdleSwitchInS
 =
-PR_UINT32_MAX
+UINT32_MAX
 ;
 /
 /
@@ -4086,7 +4086,7 @@ switch
 .
 mDeltaToNextIdleSwitchInS
 =
-PR_UINT32_MAX
+UINT32_MAX
 ;
 /
 /
@@ -4787,7 +4787,7 @@ if
 mAnyObserverIdle
 &
 &
-PR_UINT32_MAX
+UINT32_MAX
 =
 =
 mDeltaToNextIdleSwitchInS

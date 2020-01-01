@@ -991,11 +991,11 @@ false
 )
 mSyncQueueKey
 (
-PR_UINT32_MAX
+UINT32_MAX
 )
 mSyncEventResponseSyncQueueKey
 (
-PR_UINT32_MAX
+UINT32_MAX
 )
 mUploadEventListenersAttached
 (
@@ -1253,7 +1253,7 @@ return
 mSyncEventResponseSyncQueueKey
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 ?
 mSyncQueueKey
 :
@@ -1273,13 +1273,13 @@ return
 mSyncQueueKey
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 &
 &
 mSyncEventResponseSyncQueueKey
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 ;
 }
 }
@@ -2002,7 +2002,7 @@ if
 mSyncQueueKey
 !
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 aWorkerPrivate
@@ -5253,7 +5253,7 @@ mProxy
 mSyncQueueKey
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 "
 Should
 be
@@ -7472,7 +7472,7 @@ this
 uint32_t
 syncQueueKey
 =
-PR_UINT32_MAX
+UINT32_MAX
 ;
 if
 (

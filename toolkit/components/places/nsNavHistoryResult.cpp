@@ -22049,7 +22049,7 @@ insertion
 ReindexRange
 (
 aIndex
-PR_INT32_MAX
+INT32_MAX
 1
 )
 ;
@@ -22086,7 +22086,7 @@ insertion
 ReindexRange
 (
 aIndex
-PR_INT32_MAX
+INT32_MAX
 1
 )
 ;
@@ -22591,7 +22591,7 @@ removal
 ReindexRange
 (
 aIndex
-PR_INT32_MAX
+INT32_MAX
 -
 1
 )
@@ -22628,7 +22628,7 @@ ReindexRange
 aIndex
 +
 1
-PR_INT32_MAX
+INT32_MAX
 -
 1
 )
@@ -23759,7 +23759,7 @@ ReindexRange
 aOldIndex
 +
 1
-PR_INT32_MAX
+INT32_MAX
 -
 1
 )
@@ -23767,7 +23767,7 @@ PR_INT32_MAX
 ReindexRange
 (
 aNewIndex
-PR_INT32_MAX
+INT32_MAX
 1
 )
 ;

@@ -991,7 +991,7 @@ if
 (
 dstSize
 >
-PR_UINT32_MAX
+UINT32_MAX
 )
 return
 0
@@ -2169,7 +2169,7 @@ len
 >
 =
 (
-PR_UINT32_MAX
+UINT32_MAX
 /
 6
 )
@@ -2589,7 +2589,7 @@ aSourceBufferLen
 =
 (
 (
-PR_UINT32_MAX
+UINT32_MAX
 -
 sizeof
 (

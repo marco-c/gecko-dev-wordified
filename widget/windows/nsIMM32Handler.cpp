@@ -10616,7 +10616,7 @@ larger
 than
 /
 /
-PR_INT32_MAX
+INT32_MAX
 .
 if
 (
@@ -10688,7 +10688,7 @@ textContent
 InitForQueryTextContent
 (
 0
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 aWindow

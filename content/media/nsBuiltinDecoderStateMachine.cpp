@@ -4115,7 +4115,7 @@ return
 int64_t
 minLastAudioPacketTime
 =
-PR_INT64_MAX
+INT64_MAX
 ;
 SourceMediaStream
 *
@@ -8175,7 +8175,7 @@ if
 (
 framesToWrite
 <
-PR_UINT32_MAX
+UINT32_MAX
 /
 channels
 )
@@ -17221,7 +17221,7 @@ ms
 |
 ms
 >
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 break

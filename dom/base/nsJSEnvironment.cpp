@@ -1080,7 +1080,7 @@ static
 uint32_t
 sMinForgetSkippableTime
 =
-PR_UINT32_MAX
+UINT32_MAX
 ;
 static
 uint32_t
@@ -1122,7 +1122,7 @@ static
 uint32_t
 sCleanupsSinceLastGC
 =
-PR_UINT32_MAX
+UINT32_MAX
 ;
 static
 bool
@@ -16934,7 +16934,7 @@ minForgetSkippableTime
 sMinForgetSkippableTime
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 ?
 0
@@ -17545,7 +17545,7 @@ get
 }
 sMinForgetSkippableTime
 =
-PR_UINT32_MAX
+UINT32_MAX
 ;
 sMaxForgetSkippableTime
 =
@@ -21228,7 +21228,7 @@ if
 (
 rawLen
 >
-PR_UINT32_MAX
+UINT32_MAX
 )
 return
 NS_ERROR_FILE_TOO_BIG

@@ -1617,7 +1617,7 @@ Length
 )
 =
 =
-PR_INT16_MAX
+INT16_MAX
 )
 return
 nullptr

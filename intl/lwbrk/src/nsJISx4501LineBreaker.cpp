@@ -1988,7 +1988,7 @@ bug
 #
 define
 CLASS_NONE
-PR_INT8_MAX
+INT8_MAX
 #
 define
 CLASS_OPEN
