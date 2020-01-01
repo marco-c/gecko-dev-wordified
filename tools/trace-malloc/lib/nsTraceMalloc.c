@@ -6106,12 +6106,6 @@ defined
 (
 XP_MACOSX
 )
-&
-&
-defined
-(
-__i386
-)
 /
 *
 Walk
