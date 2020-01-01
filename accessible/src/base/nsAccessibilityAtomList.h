@@ -1296,6 +1296,13 @@ disabled
 )
 ACCESSIBILITY_ATOM
 (
+_class
+"
+class
+"
+)
+ACCESSIBILITY_ATOM
+(
 cycles
 "
 cycles
