@@ -9082,6 +9082,13 @@ getTab
 tabId
 )
 ;
+if
+(
+tab
+!
+=
+null
+)
 mDoorHangerPopup
 .
 addDoorHanger
