@@ -13012,6 +13012,9 @@ TypeObject
 *
 object
 =
+gc
+:
+:
 NewGCThing
 <
 TypeObject
