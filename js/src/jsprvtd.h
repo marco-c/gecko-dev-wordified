@@ -951,10 +951,7 @@ class
 CallArgs
 ;
 struct
-BytecodeCompiler
-;
-struct
-CodeGenerator
+BytecodeEmitter
 ;
 struct
 Definition

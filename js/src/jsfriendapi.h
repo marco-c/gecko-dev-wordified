@@ -713,6 +713,8 @@ compartment
 TypeInferenceMemoryStats
 *
 stats
+JSUsableSizeFun
+usf
 )
 ;
 extern
@@ -733,6 +735,8 @@ object
 TypeInferenceMemoryStats
 *
 stats
+JSUsableSizeFun
+usf
 )
 ;
 extern

@@ -2631,7 +2631,7 @@ only
 the
 second
 *
-NewScriptFromCG
+NewScriptFromEmitter
 calls
 this
 optional
@@ -2750,7 +2750,7 @@ version
 static
 JSScript
 *
-NewScriptFromCG
+NewScriptFromEmitter
 (
 JSContext
 *
@@ -2758,9 +2758,9 @@ cx
 js
 :
 :
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 ;
 #
@@ -5674,7 +5674,7 @@ calling
 is
 factored
 from
-js_NewScriptFromCG
+NewScriptFromEmitter
 so
 that
 it

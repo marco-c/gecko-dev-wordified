@@ -539,7 +539,7 @@ include
 "
 frontend
 /
-BytecodeGenerator
+BytecodeEmitter
 .
 h
 "
@@ -19284,10 +19284,10 @@ JSScript
 *
 script
 =
-BytecodeCompiler
+frontend
 :
 :
-compileScript
+CompileScript
 (
 cx
 scobj
