@@ -564,7 +564,7 @@ req
 =
 store
 .
-getAll
+mozGetAll
 (
 name
 )
