@@ -512,10 +512,6 @@ return
 bool
 rv
 =
-false
-;
-rv
-=
 m3DVStreaming
 -
 >
@@ -526,6 +522,7 @@ devUnknown
 ;
 if
 (
+!
 rv
 )
 {
@@ -556,7 +553,6 @@ FIREFOX_3DV_APP_HANDLE
 ;
 NS_WARN_IF_FALSE
 (
-!
 rv
 "
 Nv3DVStreaming
@@ -631,7 +627,6 @@ dw3DVAppHandle
 ;
 NS_WARN_IF_FALSE
 (
-!
 rv
 "
 Nv3DVStreaming
@@ -716,7 +711,6 @@ hDst
 ;
 NS_WARN_IF_FALSE
 (
-!
 rv
 "
 Nv3DVStreaming

@@ -1587,7 +1587,9 @@ int
 yuvImage
 -
 >
-mSize
+mData
+.
+mYSize
 .
 width
 (
@@ -1597,7 +1599,9 @@ int
 yuvImage
 -
 >
-mSize
+mData
+.
+mYSize
 .
 height
 (
