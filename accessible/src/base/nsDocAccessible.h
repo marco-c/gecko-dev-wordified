@@ -471,13 +471,6 @@ h
 #
 include
 "
-nsIArray
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h
