@@ -9655,7 +9655,7 @@ height
 viewRect
 .
 height
-NS_SCROLL_PROPERTY_ALWAYS_BLIT
+0
 )
 ;
 /
@@ -9680,7 +9680,7 @@ scrollX
 itemRect
 .
 y
-NS_SCROLL_PROPERTY_ALWAYS_BLIT
+0
 )
 ;
 }
