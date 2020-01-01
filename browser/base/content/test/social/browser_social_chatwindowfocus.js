@@ -2457,8 +2457,6 @@ doc
 =
 chat
 .
-iframe
-.
 contentDocument
 ;
 EventUtils
@@ -2636,8 +2634,6 @@ is
 (
 chat2
 .
-iframe
-.
 contentDocument
 .
 activeElement
@@ -2707,8 +2703,6 @@ is
 (
 chat2
 .
-iframe
-.
 contentDocument
 .
 activeElement
@@ -2760,8 +2754,6 @@ tab
 is
 (
 chat2
-.
-iframe
 .
 contentDocument
 .
@@ -2986,8 +2978,6 @@ DOMContentLoaded
 ;
 chat
 .
-iframe
-.
 contentDocument
 .
 getElementById
@@ -3017,8 +3007,6 @@ function
 is
 (
 chat
-.
-iframe
 .
 contentDocument
 .
@@ -3114,8 +3102,6 @@ function
 is
 (
 chat
-.
-iframe
 .
 contentDocument
 .
