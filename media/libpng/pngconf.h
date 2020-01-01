@@ -17,10 +17,10 @@ version
 .
 5
 .
-10
+11
 -
-March
-29
+June
+14
 2012
 *
 *
@@ -188,7 +188,7 @@ the
 correctness
 of
 the
-definitons
+definitions
 below
 (
 see
