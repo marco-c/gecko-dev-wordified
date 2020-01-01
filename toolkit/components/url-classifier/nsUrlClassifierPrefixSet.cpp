@@ -871,7 +871,6 @@ mParent
 >
 SizeOfIncludingThis
 (
-true
 &
 size
 )
@@ -1937,8 +1936,6 @@ nsUrlClassifierPrefixSet
 :
 SizeOfIncludingThis
 (
-bool
-aCountMe
 PRUint32
 *
 aSize
@@ -1950,11 +1947,6 @@ lock
 mPrefixSetLock
 )
 ;
-if
-(
-aCountMe
-)
-{
 size_t
 usable
 =
@@ -1981,15 +1973,6 @@ this
 )
 )
 ;
-}
-else
-{
-*
-aSize
-=
-0
-;
-}
 *
 aSize
 +
