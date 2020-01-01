@@ -369,6 +369,8 @@ foldConstants
 :
 1
 ;
+private
+:
 /
 *
 Script
@@ -389,6 +391,8 @@ compileAndGo
 :
 1
 ;
+public
+:
 Parser
 (
 JSContext

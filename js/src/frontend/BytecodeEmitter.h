@@ -1178,7 +1178,7 @@ checkSingletonContext
 if
 (
 !
-parser
+script
 -
 >
 compileAndGo

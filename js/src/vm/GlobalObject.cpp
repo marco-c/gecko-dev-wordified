@@ -739,6 +739,13 @@ originPrincipals
 NULL
 /
 *
+compileAndGo
+=
+*
+/
+false
+/
+*
 noScriptRval
 =
 *
