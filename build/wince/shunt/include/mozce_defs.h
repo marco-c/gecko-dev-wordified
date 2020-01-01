@@ -1016,6 +1016,15 @@ off_t
 ;
 /
 /
+Not
+defined
+anywhere
+typedef
+INT_PTR
+intptr_t
+;
+/
+/
 From
 sys
 /
