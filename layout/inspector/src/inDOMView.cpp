@@ -224,6 +224,13 @@ h
 #
 include
 "
+nsITreeBoxObject
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

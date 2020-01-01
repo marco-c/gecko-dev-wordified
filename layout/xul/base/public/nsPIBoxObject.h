@@ -99,6 +99,13 @@ nsPIBoxObject_h___
 #
 define
 nsPIBoxObject_h___
+#
+include
+"
+nsIBoxObject
+.
+h
+"
 /
 /
 {
