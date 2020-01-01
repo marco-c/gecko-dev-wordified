@@ -1023,6 +1023,10 @@ Vista
 glass
 #
 define
+NS_THEME_WIN_BORDERLESS_GLASS
+229
+#
+define
 NS_THEME_WIN_GLASS
 230
 /
