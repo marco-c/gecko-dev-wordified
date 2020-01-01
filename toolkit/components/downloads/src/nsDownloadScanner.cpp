@@ -3062,6 +3062,15 @@ NS_GetInnermostURI
 uri
 )
 ;
+if
+(
+!
+innerURI
+)
+innerURI
+=
+uri
+;
 (
 void
 )
