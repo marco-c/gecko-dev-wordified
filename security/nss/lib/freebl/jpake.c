@@ -1737,7 +1737,7 @@ round
 SECStatus
 JPAKE_Verify
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const
