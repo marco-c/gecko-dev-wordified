@@ -924,6 +924,16 @@ true
 pref
 (
 "
+ui
+.
+use_native_popup_windows
+"
+false
+)
+;
+pref
+(
+"
 browser
 .
 display
