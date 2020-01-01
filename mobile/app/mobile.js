@@ -3042,3 +3042,13 @@ sessions
 true
 )
 ;
+pref
+(
+"
+plugins
+.
+enabled
+"
+false
+)
+;
