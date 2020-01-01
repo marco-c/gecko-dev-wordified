@@ -12720,7 +12720,7 @@ false
 }
 ;
 class
-DePooler
+AutoForbidPools
 {
 Assembler
 *
@@ -12728,7 +12728,7 @@ masm_
 ;
 public
 :
-DePooler
+AutoForbidPools
 (
 Assembler
 *
@@ -12749,7 +12749,7 @@ enterNoPool
 ;
 }
 ~
-DePooler
+AutoForbidPools
 (
 )
 {
