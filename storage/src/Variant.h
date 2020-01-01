@@ -1096,7 +1096,13 @@ NS_ERROR_CANNOT_CONVERT_DATA
 *
 _result
 =
+static_cast
+<
+PRInt32
+>
+(
 aValue
+)
 ;
 return
 NS_OK
