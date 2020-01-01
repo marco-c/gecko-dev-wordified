@@ -712,7 +712,7 @@ mGlobalPrinterList
 nsnull
 ;
 }
-PRInt32
+PRUint32
 GetNumPrinters
 (
 )
@@ -760,7 +760,7 @@ nsString
 mGlobalPrinterList
 ;
 static
-int
+PRUint32
 mGlobalNumPrinters
 ;
 }
@@ -804,7 +804,7 @@ mGlobalPrinterList
 =
 nsnull
 ;
-int
+PRUint32
 GlobalPrinters
 :
 :
@@ -1229,7 +1229,7 @@ return
 rv
 ;
 }
-PRInt32
+PRUint32
 numPrinters
 =
 GlobalPrinters
@@ -1282,7 +1282,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-int
+PRUint32
 count
 =
 0

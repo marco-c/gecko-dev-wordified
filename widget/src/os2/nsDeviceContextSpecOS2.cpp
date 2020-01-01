@@ -812,7 +812,7 @@ mGlobalPrinterList
 nsnull
 ;
 }
-PRInt32
+PRUint32
 GetNumPrinters
 (
 )
