@@ -3458,6 +3458,17 @@ return
 value
 ;
 }
+jsid
+*
+unsafeGet
+(
+)
+{
+return
+&
+value
+;
+}
 operator
 jsid
 (

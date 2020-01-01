@@ -4698,11 +4698,7 @@ have
 .
 *
 /
-HeapPtr
-<
-const
-Shape
->
+HeapPtrShape
 shape
 ;
 /

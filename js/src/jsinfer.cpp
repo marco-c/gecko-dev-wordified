@@ -17680,6 +17680,10 @@ lastProperty
 propid
 (
 )
+.
+get
+(
+)
 )
 ^
 obj
