@@ -17543,8 +17543,6 @@ block
 .
 *
 /
-{
-jsint
 len
 =
 0
@@ -17554,7 +17552,6 @@ DO_NEXT_OP
 len
 )
 ;
-}
 case
 JSTRY_FINALLY
 :
@@ -17603,8 +17600,6 @@ throwing
 =
 JS_FALSE
 ;
-{
-jsint
 len
 =
 0
@@ -17614,7 +17609,6 @@ DO_NEXT_OP
 len
 )
 ;
-}
 case
 JSTRY_ITER
 :
