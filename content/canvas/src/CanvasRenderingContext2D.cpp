@@ -7236,6 +7236,7 @@ IsHTMLImageElement
 {
 htmlElement
 =
+&
 element
 .
 GetAsHTMLImageElement
@@ -16246,6 +16247,7 @@ HTMLImageElement
 *
 img
 =
+&
 image
 .
 GetAsHTMLImageElement
