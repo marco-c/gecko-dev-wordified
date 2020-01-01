@@ -43915,7 +43915,7 @@ nsEventListenerManager
 (
 static_cast
 <
-nsIDOMEventTarget
+EventTarget
 *
 >
 (
@@ -47243,7 +47243,7 @@ true
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 outerWindow
 =
