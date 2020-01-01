@@ -644,16 +644,6 @@ defined
 '
 )
 ;
-var
-actualStringInvariant
-=
-true
-;
-var
-actualStringPrototypeInvariant
-=
-true
-;
 }
 else
 {
@@ -743,7 +733,6 @@ ex
 '
 ;
 }
-}
 reportCompare
 (
 expect
@@ -778,3 +767,4 @@ invariant
 '
 )
 ;
+}
