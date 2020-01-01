@@ -507,7 +507,7 @@ special
 -
 cased
 .
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 RemoteInputStream
@@ -2675,7 +2675,7 @@ return
 ;
 }
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Runnable
@@ -4590,7 +4590,7 @@ slice
 }
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -5064,7 +5064,7 @@ break
 }
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -5093,7 +5093,7 @@ false
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Failed
@@ -5528,7 +5528,7 @@ break
 }
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown

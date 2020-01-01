@@ -718,7 +718,7 @@ BottomLeft
 )
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Incomplet
@@ -779,7 +779,7 @@ TopLeft
 )
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Incomplet

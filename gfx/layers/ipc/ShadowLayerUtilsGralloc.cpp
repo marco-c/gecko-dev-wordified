@@ -886,7 +886,7 @@ ImageFormatA8
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -973,7 +973,7 @@ PIXEL_FORMAT_A_8
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown

@@ -2838,7 +2838,7 @@ MOZ_CRASH
 (
 )
 ;
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 )
 ;

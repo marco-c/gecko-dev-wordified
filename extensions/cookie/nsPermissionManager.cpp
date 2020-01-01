@@ -1683,7 +1683,7 @@ mozIStorageResultSet
 *
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Should

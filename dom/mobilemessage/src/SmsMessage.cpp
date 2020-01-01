@@ -975,7 +975,7 @@ eDeliveryState_EndGuard
 :
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 We
@@ -1060,7 +1060,7 @@ eDeliveryStatus_EndGuard
 :
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 We
@@ -1220,7 +1220,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 We

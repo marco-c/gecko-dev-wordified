@@ -1066,7 +1066,7 @@ aTextureInfo
 )
 MOZ_OVERRIDE
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Does

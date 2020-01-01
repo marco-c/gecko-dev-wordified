@@ -808,7 +808,7 @@ UnixSocketConsumer
 aConsumer
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 This
@@ -843,7 +843,7 @@ BluetoothProfileManagerBase
 aManager
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 This
@@ -874,7 +874,7 @@ BluetoothProfileManagerBase
 aManager
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 This
@@ -1391,7 +1391,7 @@ StartInternal
 (
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 This
@@ -1415,7 +1415,7 @@ StopInternal
 (
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 This
@@ -1439,7 +1439,7 @@ IsEnabledInternal
 (
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 This
@@ -1465,7 +1465,7 @@ uint16_t
 aProfileId
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 This
@@ -1497,7 +1497,7 @@ nsAString
 aMessage
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 This

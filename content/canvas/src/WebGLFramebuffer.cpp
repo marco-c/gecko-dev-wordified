@@ -768,7 +768,7 @@ LOCAL_GL_RGBA
 )
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid
@@ -885,7 +885,7 @@ LOCAL_GL_RGBA4
 )
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid

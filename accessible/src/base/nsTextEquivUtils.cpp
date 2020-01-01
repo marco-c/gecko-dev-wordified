@@ -2299,7 +2299,7 @@ h
 "
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown

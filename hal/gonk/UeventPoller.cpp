@@ -383,7 +383,7 @@ int
 fd
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Must

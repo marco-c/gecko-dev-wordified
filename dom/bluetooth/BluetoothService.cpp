@@ -3564,7 +3564,7 @@ Cancel
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Failed

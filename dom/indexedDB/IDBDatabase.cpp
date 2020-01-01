@@ -695,7 +695,7 @@ aResponseValue
 )
 MOZ_OVERRIDE
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Should
@@ -4266,7 +4266,7 @@ ResponseValue
 aResponseValue
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Should

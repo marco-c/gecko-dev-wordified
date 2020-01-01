@@ -1342,7 +1342,7 @@ break
 }
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unacceptable
@@ -1449,7 +1449,7 @@ mCanvasSurface
 }
 else
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unhandled

@@ -1996,7 +1996,7 @@ NativeKey
 (
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 The

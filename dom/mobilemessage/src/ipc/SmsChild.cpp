@@ -210,7 +210,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unexpected
@@ -481,7 +481,7 @@ IPCSmsRequest
 aRequest
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Caller
@@ -531,7 +531,7 @@ IPCMobileMessageCursor
 aCursor
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Caller
@@ -1108,7 +1108,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Received
@@ -1430,7 +1430,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Received

@@ -2921,7 +2921,7 @@ endif
 /
 *
 *
-MOZ_NOT_REACHED_MARKER
+MOZ_CRASH_MARKER
 (
 )
 expands
@@ -2968,7 +2968,7 @@ use
 the
 higher
 level
-MOZ_NOT_REACHED
+MOZ_CRASH
 which
 uses
 this
@@ -2986,7 +2986,7 @@ __clang__
 )
 #
 define
-MOZ_NOT_REACHED_MARKER
+MOZ_CRASH_MARKER
 (
 )
 __builtin_unreachable
@@ -3066,7 +3066,7 @@ MOZ_GCC_VERSION_AT_LEAST
 )
 #
 define
-MOZ_NOT_REACHED_MARKER
+MOZ_CRASH_MARKER
 (
 )
 __builtin_unreachable
@@ -3079,7 +3079,7 @@ ifdef
 __cplusplus
 #
 define
-MOZ_NOT_REACHED_MARKER
+MOZ_CRASH_MARKER
 (
 )
 :
@@ -3091,7 +3091,7 @@ abort
 else
 #
 define
-MOZ_NOT_REACHED_MARKER
+MOZ_CRASH_MARKER
 (
 )
 abort
@@ -3109,7 +3109,7 @@ _MSC_VER
 )
 #
 define
-MOZ_NOT_REACHED_MARKER
+MOZ_CRASH_MARKER
 (
 )
 __assume
@@ -3123,7 +3123,7 @@ ifdef
 __cplusplus
 #
 define
-MOZ_NOT_REACHED_MARKER
+MOZ_CRASH_MARKER
 (
 )
 :
@@ -3135,7 +3135,7 @@ abort
 else
 #
 define
-MOZ_NOT_REACHED_MARKER
+MOZ_CRASH_MARKER
 (
 )
 abort
@@ -3148,7 +3148,7 @@ endif
 /
 *
 *
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 reason
 )
@@ -3253,7 +3253,7 @@ handleFalseLiteral
 *
 else
 *
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 boolean
@@ -3281,7 +3281,7 @@ DEBUG
 )
 #
 define
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 reason
 )
@@ -3296,7 +3296,7 @@ reason
 )
 ;
 \
-MOZ_NOT_REACHED_MARKER
+MOZ_CRASH_MARKER
 (
 )
 ;
@@ -3310,11 +3310,11 @@ while
 else
 #
 define
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 reason
 )
-MOZ_NOT_REACHED_MARKER
+MOZ_CRASH_MARKER
 (
 )
 #

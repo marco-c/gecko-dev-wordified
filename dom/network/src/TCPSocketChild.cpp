@@ -831,7 +831,7 @@ get_nsString
 }
 else
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid
@@ -846,7 +846,7 @@ type
 }
 else
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid

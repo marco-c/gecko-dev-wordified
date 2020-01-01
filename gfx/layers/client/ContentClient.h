@@ -1028,7 +1028,7 @@ GetTextureInfo
 const
 MOZ_OVERRIDE
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Should

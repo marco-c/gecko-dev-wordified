@@ -458,7 +458,7 @@ NS_IsCycleCollectorThread
 )
 {
 \
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Changing

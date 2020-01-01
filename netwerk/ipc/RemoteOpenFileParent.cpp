@@ -194,7 +194,7 @@ defined
 (
 MOZ_WIDGET_COCOA
 )
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 OS

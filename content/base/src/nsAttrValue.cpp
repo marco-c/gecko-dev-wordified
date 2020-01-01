@@ -1385,7 +1385,7 @@ case
 eCSSStyleRule
 :
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 These

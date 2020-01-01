@@ -546,7 +546,7 @@ is
 handled
 above
 .
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Should

@@ -304,7 +304,7 @@ URIParams
 T__None
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Serialize
@@ -334,7 +334,7 @@ scheme
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 This
@@ -409,7 +409,7 @@ if
 allowed
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 All
@@ -466,7 +466,7 @@ charset
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 This
@@ -635,7 +635,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -783,7 +783,7 @@ scheme
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 This
@@ -948,7 +948,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown

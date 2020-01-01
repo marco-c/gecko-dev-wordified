@@ -45467,7 +45467,7 @@ never
 happen
 *
 /
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -60792,7 +60792,7 @@ never
 be
 called
 .
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 nsDocument

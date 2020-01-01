@@ -213,7 +213,7 @@ float
 aPitch
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Caller
@@ -563,7 +563,7 @@ uint8_t
 argc
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Should
@@ -604,7 +604,7 @@ JSContext
 aCx
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Should

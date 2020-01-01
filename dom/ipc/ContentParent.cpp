@@ -11287,7 +11287,7 @@ BluetoothParent
 ;
 #
 else
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 No
@@ -11329,7 +11329,7 @@ true
 ;
 #
 else
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 No
@@ -11400,7 +11400,7 @@ btService
 ;
 #
 else
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 No

@@ -858,7 +858,7 @@ aAddrStr
 /
 Unused
 .
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 This

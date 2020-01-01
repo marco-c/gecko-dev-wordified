@@ -383,7 +383,7 @@ GetShaderProgram
 )
 const
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 unhandled
@@ -542,7 +542,7 @@ RGBALayerProgramType
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 unhandled

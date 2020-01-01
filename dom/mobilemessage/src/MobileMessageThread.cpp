@@ -1005,7 +1005,7 @@ eMessageType_EndGuard
 :
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 We

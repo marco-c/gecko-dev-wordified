@@ -273,7 +273,7 @@ prevStream
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid

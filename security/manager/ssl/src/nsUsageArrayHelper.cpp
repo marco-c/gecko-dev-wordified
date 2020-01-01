@@ -458,7 +458,7 @@ if
 aCertUsage
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 caller
@@ -633,7 +633,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 unknown

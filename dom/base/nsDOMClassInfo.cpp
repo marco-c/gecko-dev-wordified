@@ -8061,7 +8061,7 @@ mDebugID
 i
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Class
@@ -8131,7 +8131,7 @@ i
 mInterfaces
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Class
@@ -8910,7 +8910,7 @@ JSObject
 obj
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 nsDOMClassInfo
@@ -15347,7 +15347,7 @@ IDBTransaction
 }
 else
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 unexpected

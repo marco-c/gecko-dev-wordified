@@ -2079,7 +2079,7 @@ get_MarkMessageReadRequest
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -2267,7 +2267,7 @@ get_CreateThreadCursorRequest
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -2729,7 +2729,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -4364,7 +4364,7 @@ NS_OK
 NS_ERROR_FAILURE
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Received

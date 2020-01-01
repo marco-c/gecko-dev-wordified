@@ -3817,7 +3817,7 @@ nodeType
 case
 eHTMLTag_form
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Must
@@ -3835,7 +3835,7 @@ break
 case
 eHTMLTag_frameset
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Must
@@ -3856,7 +3856,7 @@ eHTMLTag_noembed
 case
 eHTMLTag_noframes
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Must
@@ -3879,7 +3879,7 @@ eHTMLTag_script
 case
 eHTMLTag_style
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Must
@@ -4462,7 +4462,7 @@ eHTMLTag_noembed
 case
 eHTMLTag_noframes
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Must
@@ -4482,7 +4482,7 @@ break
 case
 eHTMLTag_form
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Must
@@ -4533,7 +4533,7 @@ break
 case
 eHTMLTag_script
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Must
@@ -4556,7 +4556,7 @@ break
 case
 eHTMLTag_style
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Must
@@ -4756,7 +4756,7 @@ nodeType
 case
 eHTMLTag_meta
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Must
@@ -9215,7 +9215,7 @@ GetNodeType
 case
 eHTMLTag_frameset
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Must
@@ -9343,7 +9343,7 @@ break
 case
 eHTMLTag_form
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Must
@@ -9405,7 +9405,7 @@ aTag
 case
 eHTMLTag_frameset
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Must
@@ -9458,7 +9458,7 @@ break
 case
 eHTMLTag_form
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Must
@@ -9556,7 +9556,7 @@ rv
 =
 NS_ERROR_NOT_IMPLEMENTED
 ;
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Must

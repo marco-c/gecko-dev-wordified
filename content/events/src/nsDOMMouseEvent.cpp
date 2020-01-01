@@ -776,7 +776,7 @@ NS_OK
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 There
@@ -1281,7 +1281,7 @@ buttons
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Tried

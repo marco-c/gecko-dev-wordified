@@ -265,7 +265,7 @@ i
 0
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Assertion
@@ -294,7 +294,7 @@ i
 0
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Assertion
@@ -326,7 +326,7 @@ i
 0
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Assertion
@@ -427,7 +427,7 @@ i
 0
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Assertion
@@ -506,7 +506,7 @@ i
 0
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Assertion
@@ -609,7 +609,7 @@ as_int
 0
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Assertion
@@ -704,7 +704,7 @@ i
 0
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Assertion
@@ -788,7 +788,7 @@ i
 NULL
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Assertion
@@ -951,7 +951,7 @@ int
 gFinalizerTestSize
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Assertion
@@ -1080,7 +1080,7 @@ int
 gFinalizerTestSize
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Assertion
@@ -1127,7 +1127,7 @@ int
 gFinalizerTestSize
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Assertion
@@ -1205,7 +1205,7 @@ i
 0
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Assertion

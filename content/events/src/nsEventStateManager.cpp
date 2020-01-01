@@ -8751,7 +8751,7 @@ touchEvent
 default
 :
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Attempt
@@ -15254,7 +15254,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid
@@ -17203,7 +17203,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid
@@ -17499,7 +17499,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid

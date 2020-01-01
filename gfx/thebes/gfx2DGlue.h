@@ -659,7 +659,7 @@ gfxContext
 LINE_CAP_SQUARE
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Incomplete
@@ -712,7 +712,7 @@ return
 CAP_SQUARE
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Incomplete
@@ -818,7 +818,7 @@ return
 JOIN_ROUND
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Incomplete

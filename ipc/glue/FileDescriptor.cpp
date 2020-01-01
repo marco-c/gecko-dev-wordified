@@ -525,7 +525,7 @@ FileDescriptor
 ;
 #
 endif
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Must

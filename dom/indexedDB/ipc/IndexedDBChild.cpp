@@ -1111,7 +1111,7 @@ nsString
 aName
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Caller
@@ -3307,7 +3307,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -3343,7 +3343,7 @@ ObjectStoreConstructorParams
 aParams
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Caller
@@ -3993,7 +3993,7 @@ ObjectStoreRequestParams
 aParams
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Caller
@@ -4043,7 +4043,7 @@ IndexConstructorParams
 aParams
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Caller
@@ -4739,7 +4739,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -4778,7 +4778,7 @@ IndexRequestParams
 aParams
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Caller
@@ -5211,7 +5211,7 @@ CursorRequestParams
 aParams
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Caller
@@ -5548,7 +5548,7 @@ ResponseValue
 aResponse
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 This
@@ -5984,7 +5984,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Received
@@ -6412,7 +6412,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Received
@@ -6736,7 +6736,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Received
@@ -7354,7 +7354,7 @@ nsresult
 aResultCode
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Don
@@ -7381,7 +7381,7 @@ mozIStorageConnection
 aConnection
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Don
@@ -7473,7 +7473,7 @@ nsresult
 aResultCode
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Don
@@ -7500,7 +7500,7 @@ mozIStorageConnection
 aConnection
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Don
@@ -7604,7 +7604,7 @@ ResponseValue
 aResponseValue
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Don
@@ -7633,7 +7633,7 @@ nsresult
 aResultCode
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Don
@@ -7692,7 +7692,7 @@ mozIStorageConnection
 aConnection
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Don

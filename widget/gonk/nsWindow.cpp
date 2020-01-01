@@ -1093,7 +1093,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -4139,7 +4139,7 @@ eScreenOrientation_PortraitSecondary
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Gonk

@@ -1737,7 +1737,7 @@ privateKey
 =
 NULL
 ;
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 PK11_GnerateKeyPair
@@ -2463,7 +2463,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 unknown
