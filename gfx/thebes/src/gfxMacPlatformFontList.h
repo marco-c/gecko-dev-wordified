@@ -595,6 +595,15 @@ ReadCMAP
 (
 )
 ;
+PRBool
+UseLiGothicAtsuiHack
+(
+)
+{
+return
+mUseLiGothicAtsuiHack
+;
+}
 protected
 :
 /
@@ -642,6 +651,9 @@ mATSFontRef
 ;
 PRPackedBool
 mATSFontRefInitialized
+;
+PRPackedBool
+mUseLiGothicAtsuiHack
 ;
 }
 ;
