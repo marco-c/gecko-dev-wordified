@@ -735,15 +735,6 @@ defaultState
 )
 {
 }
-Link
-:
-:
-~
-Link
-(
-)
-{
-}
 nsLinkState
 Link
 :

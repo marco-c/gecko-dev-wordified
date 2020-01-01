@@ -740,12 +740,6 @@ ResetLinkState
 (
 )
 ;
-virtual
-~
-Link
-(
-)
-;
 private
 :
 /
