@@ -9362,10 +9362,16 @@ input
 (
 )
 ;
+mozilla
+:
+:
+DebugOnly
+<
 MToDouble
 :
 :
 ConversionKind
+>
 conversion
 =
 convert

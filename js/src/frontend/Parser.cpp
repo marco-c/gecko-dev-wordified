@@ -23332,9 +23332,6 @@ pos
 .
 begin
 ;
-ParseNodeKind
-caseKind
-;
 Node
 caseExpr
 ;
@@ -23371,10 +23368,6 @@ seenDefault
 =
 true
 ;
-caseKind
-=
-PNK_DEFAULT
-;
 caseExpr
 =
 null
@@ -23386,10 +23379,6 @@ break
 case
 TOK_CASE
 :
-caseKind
-=
-PNK_CASE
-;
 caseExpr
 =
 expr

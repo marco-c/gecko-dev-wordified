@@ -2747,13 +2747,6 @@ JSFunction
 func
 )
 {
-static
-const
-int
-max_bound_function_unrolling
-=
-5
-;
 JS_ASSERT
 (
 InParallelSection
@@ -2764,6 +2757,13 @@ InParallelSection
 #
 ifdef
 DEBUG
+static
+const
+int
+max_bound_function_unrolling
+=
+5
+;
 if
 (
 func
