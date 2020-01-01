@@ -31160,7 +31160,10 @@ JS_UNLIKELY
 obj
 -
 >
-isWith
+is
+<
+WithObject
+>
 (
 )
 )

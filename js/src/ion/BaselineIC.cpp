@@ -32427,7 +32427,10 @@ isScope
 scopeChain
 -
 >
-isWith
+is
+<
+WithObject
+>
 (
 )
 )

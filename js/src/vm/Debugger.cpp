@@ -34887,7 +34887,10 @@ scope
 (
 )
 .
-isWith
+is
+<
+WithObject
+>
 (
 )
 ;
@@ -35194,7 +35197,10 @@ scope
 (
 )
 .
-asWith
+as
+<
+WithObject
+>
 (
 )
 .

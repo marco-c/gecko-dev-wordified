@@ -5259,7 +5259,10 @@ scope
 (
 )
 .
-asWith
+as
+<
+WithObject
+>
 (
 )
 .

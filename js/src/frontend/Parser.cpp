@@ -3296,7 +3296,10 @@ if
 scope
 -
 >
-isWith
+is
+<
+WithObject
+>
 (
 )
 )
