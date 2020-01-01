@@ -61547,6 +61547,11 @@ GetFloatContainingBlock
 (
 aParentFrame
 )
+-
+>
+GetFirstContinuation
+(
+)
 "
 Containing
 block
