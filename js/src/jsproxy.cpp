@@ -13587,8 +13587,13 @@ bp
 )
 ;
 }
-static
+JS_FRIEND_API
+(
 bool
+)
+js
+:
+:
 AppendUnique
 (
 JSContext
