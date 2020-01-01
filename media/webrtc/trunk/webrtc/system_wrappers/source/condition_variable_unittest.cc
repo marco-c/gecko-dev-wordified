@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -99,6 +101,12 @@ h
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest
@@ -108,6 +116,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -119,6 +129,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -130,6 +142,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -141,6 +155,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 source

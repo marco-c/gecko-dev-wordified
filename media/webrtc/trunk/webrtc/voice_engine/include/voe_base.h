@@ -309,6 +309,8 @@ WEBRTC_VOICE_ENGINE_VOE_BASE_H
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -379,10 +381,8 @@ virtual
 void
 CallbackOnError
 (
-const
 int
 channel
-const
 int
 errCode
 )
@@ -520,7 +520,6 @@ static
 int
 SetTraceFilter
 (
-const
 unsigned
 int
 filter
@@ -551,7 +550,6 @@ const
 char
 *
 fileNameUTF8
-const
 bool
 addFileCounter
 =
@@ -594,6 +592,9 @@ SetAndroidObjects
 void
 *
 javaVM
+void
+*
+env
 void
 *
 context

@@ -425,7 +425,7 @@ const
 int32_t
 IncomingRTPPacket
 (
-WebRtcRTPHeader
+RTPHeader
 *
 rtpheader
 const
@@ -777,7 +777,7 @@ void
 UpdateStatistics
 (
 const
-WebRtcRTPHeader
+RTPHeader
 *
 rtp_header
 const
@@ -822,7 +822,7 @@ void
 CheckSSRCChanged
 (
 const
-WebRtcRTPHeader
+RTPHeader
 *
 rtp_header
 )
@@ -840,7 +840,7 @@ int32_t
 CheckPayloadChanged
 (
 const
-WebRtcRTPHeader
+RTPHeader
 *
 rtp_header
 const
@@ -907,9 +907,6 @@ last_received_payload_length_
 ;
 uint32_t
 packet_timeout_ms_
-;
-RtpHeaderExtensionMap
-rtp_header_extension_map_
 ;
 /
 /

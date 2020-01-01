@@ -514,6 +514,9 @@ ModuleRTPUtility
 GetPayloadData
 (
 rtp_header
+-
+>
+header
 packet
 )
 ;
@@ -527,6 +530,9 @@ ModuleRTPUtility
 GetPayloadDataLength
 (
 rtp_header
+-
+>
+header
 packet_length
 )
 ;

@@ -101,6 +101,13 @@ h
 #
 include
 <
+stdio
+.
+h
+>
+#
+include
+<
 strings
 .
 h
@@ -134,13 +141,6 @@ h
 include
 <
 unistd
-.
-h
->
-#
-include
-<
-stdio
 .
 h
 >

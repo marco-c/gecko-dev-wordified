@@ -113,6 +113,8 @@ h
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -124,6 +126,8 @@ RawVideoTypes
 #
 include
 "
+webrtc
+/
 common_video
 /
 interface
@@ -135,6 +139,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

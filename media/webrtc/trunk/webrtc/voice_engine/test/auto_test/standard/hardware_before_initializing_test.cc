@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -95,6 +97,16 @@ h
 #
 include
 "
+webrtc
+/
+voice_engine
+/
+test
+/
+auto_test
+/
+fixtures
+/
 before_initialization_fixture
 .
 h

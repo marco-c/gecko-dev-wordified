@@ -94,6 +94,12 @@ SRC_VIDEO_ENGINE_MAIN_TEST_AUTOTEST_AUTOMATED_TWO_WINDOWS_FIXTURE_H_
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest

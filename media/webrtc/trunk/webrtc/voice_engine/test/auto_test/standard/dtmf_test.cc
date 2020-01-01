@@ -88,6 +88,16 @@ tree
 #
 include
 "
+webrtc
+/
+voice_engine
+/
+test
+/
+auto_test
+/
+fixtures
+/
 after_streaming_fixture
 .
 h
@@ -95,6 +105,10 @@ h
 #
 include
 "
+webrtc
+/
+voice_engine
+/
 voice_engine_defines
 .
 h

@@ -94,6 +94,12 @@ WEBRTC_VOICE_ENGINE_VOE_NETWORK_IMPL_H
 #
 include
 "
+webrtc
+/
+voice_engine
+/
+include
+/
 voe_network
 .
 h
@@ -101,6 +107,10 @@ h
 #
 include
 "
+webrtc
+/
+voice_engine
+/
 shared_data
 .
 h

@@ -108,6 +108,12 @@ h
 #
 include
 "
+webrtc
+/
+system_wrappers
+/
+interface
+/
 aligned_malloc
 .
 h
@@ -115,6 +121,12 @@ h
 #
 include
 "
+webrtc
+/
+system_wrappers
+/
+interface
+/
 atomic32
 .
 h
@@ -122,6 +134,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

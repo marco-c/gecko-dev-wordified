@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 test
@@ -115,6 +117,8 @@ h
 #
 include
 "
+webrtc
+/
 engine_configurations
 .
 h
@@ -122,6 +126,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -133,6 +139,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 include
@@ -144,6 +152,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 test
@@ -157,6 +167,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 test
@@ -170,6 +182,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 test
@@ -183,6 +197,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 test
@@ -196,6 +212,23 @@ h
 #
 include
 "
+webrtc
+/
+voice_engine
+/
+test
+/
+auto_test
+/
+voe_test_defines
+.
+h
+"
+#
+include
+"
+webrtc
+/
 voice_engine
 /
 test
@@ -209,6 +242,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 voice_engine_defines
@@ -1600,7 +1635,7 @@ voe_network_
 )
 #
 ifdef
-_TEST_NETEQ_STATS_
+WEBRTC_VOICE_ENGINE_NETEQ_STATS_API
 voe_neteq_stats_
 (
 NULL
@@ -1990,7 +2025,7 @@ voice_engine_
 endif
 #
 ifdef
-_TEST_NETEQ_STATS_
+WEBRTC_VOICE_ENGINE_NETEQ_STATS_API
 voe_neteq_stats_
 =
 VoENetEqStats
@@ -2257,7 +2292,7 @@ NULL
 endif
 #
 ifdef
-_TEST_NETEQ_STATS_
+WEBRTC_VOICE_ENGINE_NETEQ_STATS_API
 if
 (
 voe_neteq_stats_

@@ -88,6 +88,12 @@ tree
 #
 include
 "
+webrtc
+/
+system_wrappers
+/
+interface
+/
 aligned_malloc
 .
 h
@@ -130,6 +136,8 @@ endif
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 common_video
 /
 plane
@@ -111,6 +113,12 @@ h
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest

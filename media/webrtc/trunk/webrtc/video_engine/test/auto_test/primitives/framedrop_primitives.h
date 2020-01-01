@@ -104,6 +104,8 @@ vector
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -115,6 +117,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -126,6 +130,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test
@@ -141,6 +147,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test

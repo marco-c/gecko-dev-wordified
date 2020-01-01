@@ -98,7 +98,7 @@ class
 AudioFrame
 ;
 class
-Resampler
+PushResampler
 ;
 namespace
 voe
@@ -177,7 +177,7 @@ const
 AudioFrame
 &
 src_frame
-Resampler
+PushResampler
 *
 resampler
 AudioFrame

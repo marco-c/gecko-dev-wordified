@@ -94,6 +94,8 @@ WEBRTC_VIDEO_ENGINE_VIE_RENDER_MANAGER_H_
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -105,6 +107,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -116,6 +120,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -127,16 +133,17 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
 "
-/
-/
-NOLINT
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_manager_base

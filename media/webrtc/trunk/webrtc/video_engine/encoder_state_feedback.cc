@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 video_engine
 /
 encoder_state_feedback
@@ -104,6 +106,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -117,6 +121,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -128,6 +134,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_encoder

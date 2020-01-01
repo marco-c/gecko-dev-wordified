@@ -104,6 +104,8 @@ vector
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test

@@ -88,6 +88,16 @@ tree
 #
 include
 "
+webrtc
+/
+voice_engine
+/
+test
+/
+auto_test
+/
+fixtures
+/
 after_initialization_fixture
 .
 h

@@ -88,6 +88,14 @@ tree
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_processing
+/
+ns
+/
 nsx_core
 .
 h

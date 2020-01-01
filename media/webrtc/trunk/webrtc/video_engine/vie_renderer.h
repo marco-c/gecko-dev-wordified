@@ -109,6 +109,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -120,6 +122,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -131,6 +135,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -142,6 +148,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_frame_provider_base

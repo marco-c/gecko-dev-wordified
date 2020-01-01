@@ -99,6 +99,14 @@ vector
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_processing
+/
+include
+/
 audio_processing
 .
 h
@@ -106,6 +114,12 @@ h
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_processing
+/
 processing_component
 .
 h

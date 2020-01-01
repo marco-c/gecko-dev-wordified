@@ -194,12 +194,6 @@ VoETestManager
 &
 _mgr
 ;
-static
-const
-char
-*
-_key
-;
 ThreadWrapper
 *
 _ptrExtraApiThread

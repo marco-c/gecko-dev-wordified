@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -101,6 +103,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -114,6 +118,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp

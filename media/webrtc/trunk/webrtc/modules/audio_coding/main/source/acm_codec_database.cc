@@ -4425,6 +4425,7 @@ return
 NULL
 ;
 }
+}
 return
 new
 ACMG722_1
@@ -4432,7 +4433,6 @@ ACMG722_1
 codec_id
 )
 ;
-}
 #
 endif
 }
@@ -4494,6 +4494,7 @@ return
 NULL
 ;
 }
+}
 return
 new
 ACMG722_1C
@@ -4501,7 +4502,6 @@ ACMG722_1C
 codec_id
 )
 ;
-}
 #
 endif
 }

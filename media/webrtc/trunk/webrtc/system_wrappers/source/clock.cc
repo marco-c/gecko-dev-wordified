@@ -104,6 +104,17 @@ defined
 (
 _WIN32
 )
+/
+/
+Windows
+needs
+to
+be
+included
+before
+mmsystem
+.
+h
 #
 include
 <

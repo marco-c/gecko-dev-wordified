@@ -98,12 +98,12 @@ cstdlib
 #
 include
 <
-string
+map
 >
 #
 include
 <
-map
+string
 >
 #
 include
@@ -113,6 +113,8 @@ vector
 #
 include
 "
+webrtc
+/
 tools
 /
 frame_analyzer
@@ -124,6 +126,8 @@ h
 #
 include
 "
+webrtc
+/
 tools
 /
 simple_command_line_parser

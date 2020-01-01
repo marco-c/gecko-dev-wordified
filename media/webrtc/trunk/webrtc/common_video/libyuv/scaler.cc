@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 common_video
 /
 libyuv
@@ -98,6 +100,18 @@ scaler
 .
 h
 "
+/
+/
+NOTE
+(
+ajm
+)
+:
+Path
+provided
+by
+gyp
+.
 #
 include
 "
@@ -105,6 +119,9 @@ libyuv
 .
 h
 "
+/
+/
+NOLINT
 namespace
 webrtc
 {

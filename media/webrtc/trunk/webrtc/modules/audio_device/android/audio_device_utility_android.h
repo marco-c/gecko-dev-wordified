@@ -156,12 +156,6 @@ _critSect
 int32_t
 _id
 ;
-AudioDeviceModule
-:
-:
-ErrorCode
-_lastError
-;
 }
 ;
 }

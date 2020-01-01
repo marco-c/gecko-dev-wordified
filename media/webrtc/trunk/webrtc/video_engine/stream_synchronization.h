@@ -99,6 +99,8 @@ list
 #
 include
 "
+webrtc
+/
 modules
 /
 remote_bitrate_estimator
@@ -112,13 +114,12 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
 "
-/
-/
-NOLINT
 namespace
 webrtc
 {

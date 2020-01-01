@@ -154,14 +154,6 @@ typedefs
 .
 h
 "
-/
-/
-NOLINT
-(
-build
-/
-include
-)
 #
 ifdef
 __cplusplus

@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 common_video
 /
 libyuv
@@ -112,6 +114,18 @@ string
 .
 h
 >
+/
+/
+NOTE
+(
+ajm
+)
+:
+Path
+provided
+by
+gyp
+.
 #
 include
 "
@@ -119,6 +133,9 @@ libyuv
 .
 h
 "
+/
+/
+NOLINT
 namespace
 webrtc
 {

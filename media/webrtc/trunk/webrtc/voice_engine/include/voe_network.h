@@ -282,6 +282,8 @@ WEBRTC_VOICE_ENGINE_VOE_NETWORK_H
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -341,10 +343,8 @@ virtual
 void
 OnPeriodicDeadOrAlive
 (
-const
 int
 channel
-const
 bool
 alive
 )

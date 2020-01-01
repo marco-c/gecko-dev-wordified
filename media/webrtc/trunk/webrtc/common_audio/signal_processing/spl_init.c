@@ -126,6 +126,8 @@ project
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing
@@ -139,6 +141,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing
@@ -152,6 +156,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -417,7 +423,7 @@ WebRtcSpl_CrossCorrelationC
 ;
 WebRtcSpl_DownsampleFast
 =
-WebRtcSpl_DownsampleFastC
+WebRtcSpl_DownsampleFast_mips
 ;
 WebRtcSpl_ScaleAndAddVectorsWithRound
 =

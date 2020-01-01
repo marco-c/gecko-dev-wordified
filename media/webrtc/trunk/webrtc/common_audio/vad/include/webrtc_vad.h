@@ -118,13 +118,12 @@ WEBRTC_COMMON_AUDIO_VAD_INCLUDE_WEBRTC_VAD_H_
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
 "
-/
-/
-NOLINT
 typedef
 struct
 WebRtcVadInst

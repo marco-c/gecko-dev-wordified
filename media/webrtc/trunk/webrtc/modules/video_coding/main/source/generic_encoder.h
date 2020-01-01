@@ -587,7 +587,7 @@ data
 *
 cameraFrameRate
 :
-request
+Request
 or
 information
 from
@@ -725,6 +725,7 @@ to
 deliver
 the
 encoded
+*
 buffers
 *
 /

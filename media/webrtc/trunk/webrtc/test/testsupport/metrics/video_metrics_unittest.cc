@@ -88,6 +88,10 @@ tree
 #
 include
 "
+webrtc
+/
+test
+/
 testsupport
 /
 metrics
@@ -99,6 +103,12 @@ h
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest
@@ -108,6 +118,10 @@ h
 #
 include
 "
+webrtc
+/
+test
+/
 testsupport
 /
 fileutils

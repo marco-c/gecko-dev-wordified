@@ -88,6 +88,10 @@ tree
 #
 include
 "
+webrtc
+/
+test
+/
 testsupport
 /
 metrics
@@ -118,6 +122,8 @@ cstdio
 #
 include
 "
+webrtc
+/
 common_video
 /
 interface
@@ -129,6 +135,8 @@ h
 #
 include
 "
+webrtc
+/
 common_video
 /
 libyuv

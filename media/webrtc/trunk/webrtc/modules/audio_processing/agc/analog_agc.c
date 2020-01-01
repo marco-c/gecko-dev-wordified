@@ -169,6 +169,14 @@ endif
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_processing
+/
+agc
+/
 analog_agc
 .
 h

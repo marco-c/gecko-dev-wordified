@@ -85,6 +85,12 @@ tree
 .
 *
 /
+#
+ifndef
+WEBRTC_VOICE_ENGINE_TEST_WIN_TEST_STDAFX_H_
+#
+define
+WEBRTC_VOICE_ENGINE_TEST_WIN_TEST_STDAFX_H_
 /
 /
 stdafx
@@ -115,9 +121,6 @@ but
 are
 changed
 infrequently
-#
-pragma
-once
 #
 ifndef
 _SECURE_ATL
@@ -681,3 +684,8 @@ language
 endif
 #
 endif
+#
+endif
+/
+/
+WEBRTC_VOICE_ENGINE_TEST_WIN_TEST_STDAFX_H_

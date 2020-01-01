@@ -100,7 +100,7 @@ test
 /
 channel_transport
 /
-udp_transport
+udp_socket_wrapper
 .
 h
 "
@@ -113,7 +113,7 @@ test
 /
 channel_transport
 /
-udp_socket_wrapper
+udp_transport
 .
 h
 "

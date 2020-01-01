@@ -94,6 +94,8 @@ WEBRTC_VOICE_ENGINE_LEVEL_INDICATOR_H
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -101,6 +103,10 @@ h
 #
 include
 "
+webrtc
+/
+voice_engine
+/
 voice_engine_defines
 .
 h

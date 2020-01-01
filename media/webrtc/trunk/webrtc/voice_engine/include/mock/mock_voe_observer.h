@@ -94,6 +94,12 @@ WEBRTC_VOICE_ENGINE_MOCK_VOE_OBSERVER_H_
 #
 include
 "
+testing
+/
+gmock
+/
+include
+/
 gmock
 /
 gmock
@@ -103,6 +109,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 include
@@ -139,10 +147,8 @@ MOCK_METHOD2
 CallbackOnError
 void
 (
-const
 int
 channel
-const
 int
 error_code
 )

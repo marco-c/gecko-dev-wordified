@@ -88,6 +88,12 @@ tree
 #
 include
 "
+webrtc
+/
+common_audio
+/
+vad
+/
 vad_filterbank
 .
 h
@@ -102,6 +108,14 @@ h
 #
 include
 "
+webrtc
+/
+common_audio
+/
+signal_processing
+/
+include
+/
 signal_processing_library
 .
 h
@@ -109,6 +123,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

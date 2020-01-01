@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_file_impl
@@ -97,19 +99,20 @@ h
 #
 include
 "
+webrtc
+/
 engine_configurations
 .
 h
 "
-/
-/
-NOLINT
 #
 ifdef
 WEBRTC_VIDEO_ENGINE_FILE_API
 #
 include
 "
+webrtc
+/
 common_video
 /
 jpeg
@@ -123,6 +126,8 @@ h
 #
 include
 "
+webrtc
+/
 common_video
 /
 libyuv
@@ -136,6 +141,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -147,6 +154,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -158,6 +167,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -169,6 +180,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -180,6 +193,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_capturer
@@ -189,6 +204,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_channel
@@ -198,6 +215,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_channel_manager
@@ -207,6 +226,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_defines
@@ -216,6 +237,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_encoder
@@ -225,6 +248,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_file_image
@@ -234,6 +259,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_file_player
@@ -243,6 +270,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_file_recorder
@@ -252,6 +281,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_impl
@@ -261,6 +292,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_input_manager
@@ -270,6 +303,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_render_manager
@@ -279,6 +314,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_renderer

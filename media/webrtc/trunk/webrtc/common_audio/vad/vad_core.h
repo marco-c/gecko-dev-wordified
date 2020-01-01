@@ -111,6 +111,8 @@ WEBRTC_COMMON_AUDIO_VAD_VAD_CORE_H_
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing
@@ -124,6 +126,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

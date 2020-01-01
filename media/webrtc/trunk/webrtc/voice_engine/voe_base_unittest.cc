@@ -120,11 +120,11 @@ webrtc
 /
 modules
 /
-audio_processing
+audio_device
 /
 include
 /
-audio_processing
+fake_audio_device
 .
 h
 "
@@ -135,11 +135,11 @@ webrtc
 /
 modules
 /
-audio_device
+audio_processing
 /
 include
 /
-fake_audio_device
+audio_processing
 .
 h
 "

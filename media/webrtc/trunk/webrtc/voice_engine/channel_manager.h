@@ -94,14 +94,20 @@ WEBRTC_VOICE_ENGINE_CHANNEL_MANAGER_H
 #
 include
 "
-channel_manager_base
+webrtc
+/
+typedefs
 .
 h
 "
 #
 include
 "
-typedefs
+webrtc
+/
+voice_engine
+/
+channel_manager_base
 .
 h
 "
@@ -140,7 +146,6 @@ channelId
 int32_t
 DestroyChannel
 (
-const
 int32_t
 channelId
 )
@@ -171,7 +176,6 @@ const
 ;
 ChannelManager
 (
-const
 uint32_t
 instanceId
 )
@@ -204,7 +208,6 @@ Channel
 *
 GetChannel
 (
-const
 int32_t
 channelId
 )

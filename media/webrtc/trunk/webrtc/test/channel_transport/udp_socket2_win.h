@@ -242,7 +242,7 @@ test
 /
 channel_transport
 /
-udp_socket_wrapper
+udp_socket2_manager_win
 .
 h
 "
@@ -255,7 +255,7 @@ test
 /
 channel_transport
 /
-udp_socket2_manager_win
+udp_socket_wrapper
 .
 h
 "

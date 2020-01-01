@@ -101,6 +101,12 @@ h
 #
 include
 "
+webrtc
+/
+system_wrappers
+/
+interface
+/
 critical_section_wrapper
 .
 h
@@ -108,6 +114,12 @@ h
 #
 include
 "
+webrtc
+/
+system_wrappers
+/
+interface
+/
 list_wrapper
 .
 h
@@ -115,6 +127,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

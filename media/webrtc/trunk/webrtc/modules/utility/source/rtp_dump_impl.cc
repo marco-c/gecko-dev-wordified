@@ -148,12 +148,6 @@ WEBRTC_LINUX
 |
 defined
 (
-WEBRTC_BSD
-)
-|
-|
-defined
-(
 WEBRTC_MAC
 )
 #
@@ -1287,7 +1281,7 @@ used
 here
 ?
 inline
-WebRtc_UWord32
+uint32_t
 RtpDumpImpl
 :
 :
@@ -1312,12 +1306,6 @@ elif
 defined
 (
 WEBRTC_LINUX
-)
-|
-|
-defined
-(
-WEBRTC_BSD
 )
 |
 |

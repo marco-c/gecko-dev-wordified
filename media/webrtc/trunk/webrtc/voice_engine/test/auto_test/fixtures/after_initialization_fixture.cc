@@ -88,6 +88,16 @@ tree
 #
 include
 "
+webrtc
+/
+voice_engine
+/
+test
+/
+auto_test
+/
+fixtures
+/
 after_initialization_fixture
 .
 h
@@ -118,10 +128,8 @@ TestErrorObserver
 void
 CallbackOnError
 (
-const
 int
 channel
-const
 int
 error_code
 )

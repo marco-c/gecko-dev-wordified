@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 include
@@ -99,6 +101,12 @@ h
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest
@@ -108,6 +116,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 include

@@ -88,6 +88,10 @@ tree
 #
 include
 "
+webrtc
+/
+voice_engine
+/
 channel
 .
 h
@@ -95,6 +99,10 @@ h
 #
 include
 "
+webrtc
+/
+voice_engine
+/
 channel_manager
 .
 h
@@ -110,7 +118,6 @@ ChannelManager
 :
 ChannelManager
 (
-const
 uint32_t
 instanceId
 )
@@ -167,7 +174,6 @@ ChannelManager
 :
 DestroyChannel
 (
-const
 int32_t
 channelId
 )
@@ -327,7 +333,6 @@ ChannelManager
 :
 GetChannel
 (
-const
 int32_t
 channelId
 )

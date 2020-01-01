@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test
@@ -103,6 +105,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -114,6 +118,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test
@@ -129,6 +135,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test
@@ -144,6 +152,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test
@@ -159,6 +169,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 include

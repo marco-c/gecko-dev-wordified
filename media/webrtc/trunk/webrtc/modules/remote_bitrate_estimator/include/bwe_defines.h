@@ -94,6 +94,8 @@ WEBRTC_MODULES_RTP_RTCP_SOURCE_BWE_DEFINES_H_
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

@@ -111,7 +111,6 @@ virtual
 void
 Process
 (
-const
 int
 channel
 const
@@ -124,13 +123,10 @@ int16_t
 audio_10ms
 [
 ]
-const
 int
 length
-const
 int
 sampling_freq_hz
-const
 bool
 stereo
 )

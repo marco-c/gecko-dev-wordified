@@ -407,7 +407,7 @@ length
 webrtc
 :
 :
-WebRtcRTPHeader
+RTPHeader
 header
 ;
 if
@@ -431,8 +431,6 @@ NULL
 {
 pps
 [
-header
-.
 header
 .
 ssrc

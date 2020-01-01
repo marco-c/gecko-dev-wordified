@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test
@@ -103,6 +105,12 @@ h
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest

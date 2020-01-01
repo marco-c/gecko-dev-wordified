@@ -115,6 +115,8 @@ WEBRTC_VIDEO_ENGINE_VIE_SYNC_MODULE_H_
 #
 include
 "
+webrtc
+/
 modules
 /
 interface
@@ -126,6 +128,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -137,6 +141,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -148,6 +154,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 stream_synchronization
@@ -157,6 +165,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 include

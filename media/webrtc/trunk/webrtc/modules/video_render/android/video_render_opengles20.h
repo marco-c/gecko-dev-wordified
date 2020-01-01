@@ -259,9 +259,6 @@ texture
 GLuint
 _program
 ;
-GLuint
-_vPositionHandle
-;
 GLsizei
 _textureWidth
 ;

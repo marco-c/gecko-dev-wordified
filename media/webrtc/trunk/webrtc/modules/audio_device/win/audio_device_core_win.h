@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_AUDIO_DEVICE_AUDIO_DEVICE_CORE_WIN_H
+WEBRTC_AUDIO_DEVICE_AUDIO_DEVICE_CORE_WIN_H_
 #
 define
-WEBRTC_AUDIO_DEVICE_AUDIO_DEVICE_CORE_WIN_H
+WEBRTC_AUDIO_DEVICE_AUDIO_DEVICE_CORE_WIN_H_
 #
 if
 (
@@ -115,9 +115,6 @@ audio_device_generic
 .
 h
 "
-#
-pragma
-once
 #
 include
 <
@@ -1277,6 +1274,14 @@ audioBuffer
 ;
 private
 :
+bool
+KeyPressed
+(
+)
+const
+;
+private
+:
 /
 /
 avrt
@@ -1958,4 +1963,4 @@ webrtc
 endif
 /
 /
-WEBRTC_AUDIO_DEVICE_AUDIO_DEVICE_CORE_WIN_H
+WEBRTC_AUDIO_DEVICE_AUDIO_DEVICE_CORE_WIN_H_

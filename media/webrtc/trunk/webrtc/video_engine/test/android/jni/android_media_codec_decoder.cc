@@ -110,6 +110,16 @@ h
 #
 include
 "
+webrtc
+/
+video_engine
+/
+test
+/
+android
+/
+jni
+/
 android_media_codec_decoder
 .
 h

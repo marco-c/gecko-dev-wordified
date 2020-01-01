@@ -94,6 +94,12 @@ WEBRTC_VOICE_ENGINE_MONITOR_MODULE_H
 #
 include
 "
+webrtc
+/
+modules
+/
+interface
+/
 module
 .
 h
@@ -101,6 +107,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -108,6 +116,10 @@ h
 #
 include
 "
+webrtc
+/
+voice_engine
+/
 voice_engine_defines
 .
 h
@@ -199,7 +211,6 @@ const
 int32_t
 ChangeUniqueId
 (
-const
 int32_t
 id
 )

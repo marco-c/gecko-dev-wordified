@@ -94,6 +94,12 @@ WEBRTC_VOICE_ENGINE_VOE_NETEQ_STATS_IMPL_H
 #
 include
 "
+webrtc
+/
+voice_engine
+/
+include
+/
 voe_neteq_stats
 .
 h
@@ -101,6 +107,10 @@ h
 #
 include
 "
+webrtc
+/
+voice_engine
+/
 shared_data
 .
 h

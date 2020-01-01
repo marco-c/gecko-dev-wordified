@@ -1124,6 +1124,14 @@ const
 ;
 private
 :
+bool
+KeyPressed
+(
+)
+const
+;
+private
+:
 int32_t
 EnumeratePlayoutDevices
 (

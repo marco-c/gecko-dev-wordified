@@ -162,8 +162,8 @@ at
 48
 kHz
 .
-enum
-{
+const
+int
 kOpusNumberOfSamples
 =
 480
@@ -171,7 +171,6 @@ kOpusNumberOfSamples
 6
 *
 2
-}
 ;
 /
 /
@@ -183,12 +182,11 @@ in
 output
 bitstream
 .
-enum
-{
+const
+size_t
 kMaxBytes
 =
 1000
-}
 ;
 class
 OpusTest

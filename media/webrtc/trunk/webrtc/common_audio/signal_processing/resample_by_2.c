@@ -114,6 +114,14 @@ h
 #
 include
 "
+webrtc
+/
+common_audio
+/
+signal_processing
+/
+include
+/
 signal_processing_library
 .
 h
@@ -512,7 +520,6 @@ const
 int16_t
 *
 in
-const
 int16_t
 len
 int16_t

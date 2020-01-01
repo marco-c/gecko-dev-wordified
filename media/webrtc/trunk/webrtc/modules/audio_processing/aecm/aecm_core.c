@@ -145,9 +145,11 @@ modules
 /
 audio_processing
 /
-utility
+aecm
 /
-delay_estimator_wrapper
+include
+/
+echo_control_mobile
 .
 h
 "
@@ -160,11 +162,9 @@ modules
 /
 audio_processing
 /
-aecm
+utility
 /
-include
-/
-echo_control_mobile
+delay_estimator_wrapper
 .
 h
 "

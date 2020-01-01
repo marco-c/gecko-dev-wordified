@@ -230,6 +230,12 @@ this
 /
 packet
 .
+int
+width
+;
+int
+height
+;
 RTPVideoHeader
 codecSpecificHeader
 ;

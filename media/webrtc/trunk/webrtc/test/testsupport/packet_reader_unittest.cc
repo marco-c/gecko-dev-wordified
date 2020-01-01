@@ -88,6 +88,10 @@ tree
 #
 include
 "
+webrtc
+/
+test
+/
 testsupport
 /
 packet_reader
@@ -97,6 +101,12 @@ h
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest
@@ -106,6 +116,10 @@ h
 #
 include
 "
+webrtc
+/
+test
+/
 testsupport
 /
 unittest_utils

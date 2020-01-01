@@ -88,6 +88,12 @@ tree
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_processing
+/
 processing_component
 .
 h
@@ -100,6 +106,12 @@ cassert
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_processing
+/
 audio_processing_impl
 .
 h
