@@ -6444,6 +6444,8 @@ aRange
 nsRect
 &
 aSurfaceRect
+PRBool
+aForPrimarySelection
 )
 ;
 /
@@ -32260,6 +32262,8 @@ aRange
 nsRect
 &
 aSurfaceRect
+PRBool
+aForPrimarySelection
 )
 {
 NS_TIME_FUNCTION_WITH_DOCURL
@@ -32559,15 +32563,21 @@ list
 containing
 the
 range
+if
+(
+aForPrimarySelection
+)
+{
 info
 -
 >
 mBuilder
 .
-SetPaintAllFrames
+SetSelectedFramesOnly
 (
 )
 ;
+}
 info
 -
 >
@@ -33906,6 +33916,7 @@ CreateRangePaintInfo
 (
 range
 area
+PR_FALSE
 )
 ;
 if
@@ -34210,6 +34221,7 @@ CreateRangePaintInfo
 (
 range
 area
+PR_TRUE
 )
 ;
 if

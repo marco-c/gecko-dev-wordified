@@ -628,7 +628,7 @@ mIsAtRootOfPseudoStackingContext
 (
 PR_FALSE
 )
-mPaintAllFrames
+mSelectedFramesOnly
 (
 PR_FALSE
 )
