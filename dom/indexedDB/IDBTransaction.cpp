@@ -1767,7 +1767,7 @@ mozIStorageStatement
 IDBTransaction
 :
 :
-RemoveStatement
+DeleteStatement
 (
 bool
 aAutoIncrement

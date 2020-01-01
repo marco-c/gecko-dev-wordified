@@ -687,14 +687,14 @@ mIndexUpdateInfo
 }
 ;
 class
-RemoveHelper
+DeleteHelper
 :
 public
 AsyncConnectionHelper
 {
 public
 :
-RemoveHelper
+DeleteHelper
 (
 IDBTransaction
 *
@@ -2970,7 +2970,7 @@ NS_IMETHODIMP
 IDBCursor
 :
 :
-Remove
+Delete
 (
 nsIIDBRequest
 *
@@ -3108,12 +3108,12 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 nsRefPtr
 <
-RemoveHelper
+DeleteHelper
 >
 helper
 =
 new
-RemoveHelper
+DeleteHelper
 (
 mTransaction
 request
@@ -3539,7 +3539,7 @@ NS_OK
 ;
 }
 nsresult
-RemoveHelper
+DeleteHelper
 :
 :
 DoDatabaseWork
@@ -3570,7 +3570,7 @@ stmt
 mTransaction
 -
 >
-RemoveStatement
+DeleteStatement
 (
 mAutoIncrement
 )
@@ -3740,7 +3740,7 @@ NS_OK
 ;
 }
 nsresult
-RemoveHelper
+DeleteHelper
 :
 :
 GetSuccessResult

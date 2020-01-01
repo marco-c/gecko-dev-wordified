@@ -756,14 +756,14 @@ mObjectStore
 }
 ;
 class
-RemoveObjectStoreHelper
+DeleteObjectStoreHelper
 :
 public
 AsyncConnectionHelper
 {
 public
 :
-RemoveObjectStoreHelper
+DeleteObjectStoreHelper
 (
 IDBTransaction
 *
@@ -3152,7 +3152,7 @@ NS_IMETHODIMP
 IDBDatabase
 :
 :
-RemoveObjectStore
+DeleteObjectStore
 (
 const
 nsAString
@@ -3232,12 +3232,12 @@ NS_ERROR_DOM_INDEXEDDB_NOT_FOUND_ERR
 }
 nsRefPtr
 <
-RemoveObjectStoreHelper
+DeleteObjectStoreHelper
 >
 helper
 =
 new
-RemoveObjectStoreHelper
+DeleteObjectStoreHelper
 (
 transaction
 objectStoreInfo
@@ -4653,7 +4653,7 @@ Huh
 ;
 }
 nsresult
-RemoveObjectStoreHelper
+DeleteObjectStoreHelper
 :
 :
 DoDatabaseWork
@@ -4746,7 +4746,7 @@ NS_OK
 ;
 }
 nsresult
-RemoveObjectStoreHelper
+DeleteObjectStoreHelper
 :
 :
 OnSuccess
@@ -4772,7 +4772,7 @@ NS_OK
 ;
 }
 void
-RemoveObjectStoreHelper
+DeleteObjectStoreHelper
 :
 :
 OnError
