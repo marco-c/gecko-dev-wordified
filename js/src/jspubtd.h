@@ -2126,7 +2126,7 @@ JS_ASSERT
 uint32
 )
 ptr
-|
+&
 1
 )
 =
@@ -2526,6 +2526,9 @@ JSVAL_MASK32_STRING
 (
 uint32
 )
+(
+size_t
+)
 str
 )
 ;
@@ -2540,7 +2543,7 @@ JSString
 JSVAL_TO_STRING_IMPL
 (
 jsval_layout
-v
+l
 )
 {
 return
@@ -2624,6 +2627,9 @@ BUILD_JSVAL
 mask32
 (
 uint32
+)
+(
+size_t
 )
 obj
 )
@@ -2725,8 +2731,11 @@ JS_ASSERT
 (
 uint32
 )
+(
+size_t
+)
 ptr
-|
+&
 1
 )
 =
@@ -2744,6 +2753,9 @@ asBits
 0x8000000000000000LL
 |
 (
+(
+size_t
+)
 ptr
 >
 >
@@ -2771,10 +2783,6 @@ void
 )
 (
 l
-.
-s
-.
-payload
 .
 asBits
 <

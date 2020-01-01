@@ -6611,10 +6611,6 @@ sp
 -
 -
 ;
-Uint32ToValue
-(
-u
-&
 regs
 .
 sp
@@ -6622,6 +6618,10 @@ sp
 -
 1
 ]
+.
+setNumber
+(
+u
 )
 ;
 }
