@@ -1502,6 +1502,8 @@ createIMEEvent
 (
 GeckoEvent
 .
+ImeAction
+.
 IME_SYNCHRONIZE
 )
 )
@@ -1564,6 +1566,8 @@ GeckoEvent
 createIMEEvent
 (
 GeckoEvent
+.
+ImeAction
 .
 IME_ACKNOWLEDGE_FOCUS
 )
@@ -2712,6 +2716,8 @@ GeckoEvent
 createIMEEvent
 (
 GeckoEvent
+.
+ImeAction
 .
 IME_REMOVE_COMPOSITION
 )

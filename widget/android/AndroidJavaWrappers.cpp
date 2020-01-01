@@ -1698,7 +1698,15 @@ getField
 mDomKeyLocation
 "
 "
-I
+Lorg
+/
+mozilla
+/
+gecko
+/
+GeckoEvent
+DomKeyLocation
+;
 "
 )
 ;
