@@ -1098,7 +1098,7 @@ const
 int32_t
 LARGEST_UNDERRUN_PROT
 =
-3200
+32
 ;
 /
 /
