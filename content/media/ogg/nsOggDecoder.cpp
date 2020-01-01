@@ -464,7 +464,7 @@ BLOCK
 #
 include
 "
-nsBuiltinDecoderStateMachine
+nsOggDecoderStateMachine
 .
 h
 "
@@ -493,14 +493,9 @@ CreateStateMachine
 {
 return
 new
-nsBuiltinDecoderStateMachine
+nsOggDecoderStateMachine
 (
 this
-new
-nsOggReader
-(
-this
-)
 )
 ;
 }
