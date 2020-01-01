@@ -831,6 +831,10 @@ mContextLostErrorSet
 =
 false
 ;
+mAlreadyReportedMessages
+=
+0
+;
 }
 WebGLContext
 :

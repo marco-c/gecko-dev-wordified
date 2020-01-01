@@ -8302,6 +8302,9 @@ mContextStatus
 bool
 mContextLostErrorSet
 ;
+int
+mAlreadyReportedMessages
+;
 #
 ifdef
 XP_MACOSX
@@ -8426,7 +8429,6 @@ public
 console
 logging
 helpers
-static
 void
 LogMessage
 (
@@ -8439,7 +8441,6 @@ fmt
 .
 )
 ;
-static
 void
 LogMessage
 (
