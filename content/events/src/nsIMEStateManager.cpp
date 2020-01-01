@@ -4930,7 +4930,7 @@ mDispatcher
 mWidget
 -
 >
-OnIMETextChange
+NotifyIMEOfTextChange
 (
 mStart
 mOldEnd

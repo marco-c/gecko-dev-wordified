@@ -787,7 +787,7 @@ GetInputContext
 )
 ;
 NS_IMETHOD
-OnIMETextChange
+NotifyIMEOfTextChange
 (
 uint32_t
 aStart
@@ -796,6 +796,7 @@ aOldEnd
 uint32_t
 aNewEnd
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIMEUpdatePreference

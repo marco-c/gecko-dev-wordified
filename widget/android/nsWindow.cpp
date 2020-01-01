@@ -9891,7 +9891,7 @@ false
 ;
 /
 /
-OnIMETextChange
+NotifyIMEOfTextChange
 also
 notifies
 selection
@@ -9927,7 +9927,7 @@ we
 just
 use
 INT32_MAX
-OnIMETextChange
+NotifyIMEOfTextChange
 (
 0
 INT32_MAX
@@ -12240,7 +12240,7 @@ NS_IMETHODIMP
 nsWindow
 :
 :
-OnIMETextChange
+NotifyIMEOfTextChange
 (
 uint32_t
 aStart
@@ -12262,7 +12262,7 @@ ALOGIME
 "
 IME
 :
-OnIMETextChange
+NotifyIMEOfTextChange
 :
 s
 =

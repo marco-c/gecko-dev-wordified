@@ -49707,7 +49707,7 @@ NS_IMETHODIMP
 nsWindow
 :
 :
-OnIMETextChange
+NotifyIMEOfTextChange
 (
 uint32_t
 aStart

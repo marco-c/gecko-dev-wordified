@@ -2238,7 +2238,7 @@ NS_IMETHODIMP
 PuppetWidget
 :
 :
-OnIMETextChange
+NotifyIMEOfTextChange
 (
 uint32_t
 aStart
