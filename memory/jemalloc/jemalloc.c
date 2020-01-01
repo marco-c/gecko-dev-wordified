@@ -10118,11 +10118,6 @@ _write
 write
 #
 endif
-int
-res
-;
-res
-=
 _write
 (
 STDERR_FILENO
@@ -10137,8 +10132,6 @@ p1
 )
 )
 ;
-res
-=
 _write
 (
 STDERR_FILENO
@@ -10153,8 +10146,6 @@ p2
 )
 )
 ;
-res
-=
 _write
 (
 STDERR_FILENO
@@ -10169,8 +10160,6 @@ p3
 )
 )
 ;
-res
-=
 _write
 (
 STDERR_FILENO
