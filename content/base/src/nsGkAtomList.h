@@ -1008,6 +1008,13 @@ ascending
 )
 GK_ATOM
 (
+assign
+"
+assign
+"
+)
+GK_ATOM
+(
 attribute
 "
 attribute
@@ -2597,6 +2604,13 @@ GK_ATOM
 excludes
 "
 excludes
+"
+)
+GK_ATOM
+(
+expr
+"
+expr
 "
 )
 GK_ATOM
