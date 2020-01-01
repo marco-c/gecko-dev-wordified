@@ -1018,16 +1018,6 @@ anIconSpec
 )
 ;
 NS_IMETHOD
-BeginSecureKeyboardInput
-(
-)
-;
-NS_IMETHOD
-EndSecureKeyboardInput
-(
-)
-;
-NS_IMETHOD
 SetWindowTitlebarColor
 (
 nscolor
