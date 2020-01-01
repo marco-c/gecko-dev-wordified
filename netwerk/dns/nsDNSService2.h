@@ -464,6 +464,8 @@ const
 nsACString
 &
 host
+PRUint32
+flags
 )
 ;
 nsRefPtr
