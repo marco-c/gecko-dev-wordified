@@ -79,17 +79,6 @@ DevTools
 Features
 /
 GCLI
-/
-/
-Tests
-that
-the
-inspect
-command
-works
-as
-it
-should
 Components
 .
 utils
