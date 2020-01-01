@@ -1030,10 +1030,11 @@ nsEvent
 aEvent
 )
 ;
-nsTObserverArray
+nsAutoTObserverArray
 <
 nsListenerStruct
 *
+2
 >
 mListeners
 ;
