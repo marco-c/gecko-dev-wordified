@@ -8260,7 +8260,7 @@ try
 {
 gStmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 nsIDM
@@ -8270,7 +8270,7 @@ DOWNLOAD_NOTSTARTED
 ;
 gStmt
 .
-bindInt32Parameter
+bindByIndex
 (
 1
 nsIDM
@@ -8280,7 +8280,7 @@ DOWNLOAD_DOWNLOADING
 ;
 gStmt
 .
-bindInt32Parameter
+bindByIndex
 (
 2
 nsIDM
@@ -8290,7 +8290,7 @@ DOWNLOAD_PAUSED
 ;
 gStmt
 .
-bindInt32Parameter
+bindByIndex
 (
 3
 nsIDM
@@ -8300,7 +8300,7 @@ DOWNLOAD_QUEUED
 ;
 gStmt
 .
-bindInt32Parameter
+bindByIndex
 (
 4
 nsIDM
