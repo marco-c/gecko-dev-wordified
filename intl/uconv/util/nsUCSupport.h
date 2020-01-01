@@ -500,6 +500,7 @@ check
 ;
 return
 (
+PRUint32
 (
 aDestEnd
 -

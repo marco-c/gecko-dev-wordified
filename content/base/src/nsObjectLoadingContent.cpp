@@ -6964,10 +6964,6 @@ mURI
 &
 &
 aURI
-&
-&
-!
-aForceLoad
 )
 {
 bool
@@ -6995,6 +6991,10 @@ rv
 &
 &
 equal
+&
+&
+!
+aForceLoad
 )
 {
 /
@@ -7010,6 +7010,10 @@ return
 NS_OK
 ;
 }
+StopPluginInstance
+(
+)
+;
 }
 }
 /

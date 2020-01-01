@@ -1038,7 +1038,7 @@ wrapper
 cache
 -
 >
-IsProxy
+IsDOMBinding
 (
 )
 |
@@ -1056,7 +1056,7 @@ a
 slim
 wrapper
 when
-IsProxy
+IsDOMBinding
 (
 )
 "

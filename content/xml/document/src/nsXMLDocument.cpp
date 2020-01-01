@@ -3426,6 +3426,7 @@ TryChannelCharset
 aChannel
 charsetSource
 charset
+nsnull
 )
 ;
 nsCOMPtr

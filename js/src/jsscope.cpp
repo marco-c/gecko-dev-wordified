@@ -888,6 +888,14 @@ isOwned
 )
 )
 ;
+assertSameCompartment
+(
+cx
+compartment
+(
+)
+)
+;
 RootedVarShape
 self
 (

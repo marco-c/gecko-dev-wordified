@@ -12199,14 +12199,7 @@ mElements
 8
 )
 {
-/
-/
-Mark
-ourselves
-as
-a
-proxy
-SetIsProxy
+SetIsDOMBinding
 (
 )
 ;

@@ -14713,11 +14713,10 @@ entry
 aInTransform
 |
 |
-!
 f
 -
 >
-GetWidget
+PaintedByGecko
 (
 )
 )

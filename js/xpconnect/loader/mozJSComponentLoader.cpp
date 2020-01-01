@@ -669,13 +669,6 @@ h
 #
 include
 "
-jsxdrapi
-.
-h
-"
-#
-include
-"
 jsprf
 .
 h
@@ -1241,12 +1234,8 @@ it
 .
 *
 /
-nsAutoString
+NS_ConvertASCIItoUTF16
 fileUni
-;
-fileUni
-.
-AssignWithConversion
 (
 rep
 -

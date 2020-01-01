@@ -1253,6 +1253,11 @@ void
 *
 )
 ;
+bool
+PaintedByGecko
+(
+)
+;
 nsIWidget
 *
 GetWidget

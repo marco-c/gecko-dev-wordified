@@ -36872,7 +36872,7 @@ if
 aCache
 -
 >
-IsProxy
+IsDOMBinding
 (
 )
 )

@@ -5916,7 +5916,7 @@ if
 cache
 -
 >
-IsProxy
+IsDOMBinding
 (
 )
 )
@@ -9530,11 +9530,10 @@ if
 message
 )
 {
-bestMessage
-.
-AssignWithConversion
+CopyASCIItoUTF16
 (
 message
+bestMessage
 )
 ;
 }

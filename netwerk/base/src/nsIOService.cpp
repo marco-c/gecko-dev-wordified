@@ -7009,10 +7009,9 @@ nsACString
 aResult
 )
 {
-NS_ENSURE_ARG_RANGE
+NS_ENSURE_ARG_MAX
 (
 aEscapeType
-0
 4
 )
 ;

@@ -4442,6 +4442,8 @@ gfxPattern
 :
 GraphicsFilter
 aFilter
+PRUint32
+aFlags
 )
 {
 if
@@ -4460,6 +4462,7 @@ Render
 (
 aContext
 aFilter
+aFlags
 )
 ;
 }

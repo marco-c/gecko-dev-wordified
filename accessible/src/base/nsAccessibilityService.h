@@ -2502,6 +2502,14 @@ figure
 /
 /
 ROLE_FIGURE
+"
+check
+rich
+option
+"
+/
+/
+ROLE_CHECK_RICH_OPTION
 }
 ;
 /

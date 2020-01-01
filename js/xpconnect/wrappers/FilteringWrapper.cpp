@@ -1113,7 +1113,7 @@ XrayWrapper
 SameCompartmentSecurityWrapper
 >
 \
-SameOriginOrCrossOriginAccessiblePropertiesOnly
+LocationPolicy
 >
 #
 define
@@ -1125,7 +1125,7 @@ XrayWrapper
 CrossCompartmentSecurityWrapper
 >
 \
-SameOriginOrCrossOriginAccessiblePropertiesOnly
+LocationPolicy
 >
 template
 <
@@ -1248,7 +1248,10 @@ LW
 :
 singleton
 (
-0
+WrapperFactory
+:
+:
+SHADOWING_FORBIDDEN
 )
 ;
 template
@@ -1260,7 +1263,10 @@ XLW
 :
 singleton
 (
-0
+WrapperFactory
+:
+:
+SHADOWING_FORBIDDEN
 )
 ;
 template
