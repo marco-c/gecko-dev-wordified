@@ -458,7 +458,7 @@ Usage
 var
 newJSONString
 =
-JSON
+JSONModule
 .
 toString
 (
@@ -469,7 +469,7 @@ GIVEN_JAVASCRIPT_OBJECT
 var
 newJavaScriptObject
 =
-JSON
+JSONModule
 .
 fromString
 (
@@ -490,7 +490,7 @@ Arrays
 returned
 by
 *
-JSON
+JSONModule
 .
 fromString
 aren
@@ -508,7 +508,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-JSON
+JSONModule
 "
 ]
 ;
@@ -595,7 +595,7 @@ JSON
 .
 toString
 var
-JSON
+JSONModule
 =
 {
 /

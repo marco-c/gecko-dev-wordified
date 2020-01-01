@@ -17594,7 +17594,7 @@ aJSObject
 let
 str
 =
-JSON
+JSONModule
 .
 toString
 (
@@ -17636,7 +17636,7 @@ string
 if
 (
 !
-JSON
+JSONModule
 .
 isMostlyHarmless
 (
