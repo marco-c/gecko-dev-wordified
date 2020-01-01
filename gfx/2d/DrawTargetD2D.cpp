@@ -9225,7 +9225,6 @@ aOperator
 OP_OVER
 &
 &
-!
 IsPatternSupportedByD2D
 (
 aPattern
@@ -9725,7 +9724,6 @@ ShaderConstantRectD3D10
 ;
 if
 (
-!
 IsPatternSupportedByD2D
 (
 aPattern
