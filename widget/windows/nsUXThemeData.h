@@ -721,10 +721,6 @@ sFlatMenus
 ;
 static
 bool
-sIsVistaOrLater
-;
-static
-bool
 sTitlebarInfoPopulatedAero
 ;
 static
