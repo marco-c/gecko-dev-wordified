@@ -440,11 +440,8 @@ JS_GetElement
 aCx
 obj
 i
+&
 val
-.
-address
-(
-)
 )
 |
 |

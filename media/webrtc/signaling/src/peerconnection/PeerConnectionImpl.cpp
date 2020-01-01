@@ -5639,11 +5639,8 @@ JS_GetElement
 aCx
 array
 i
+&
 element
-.
-address
-(
-)
 )
 |
 |

@@ -2414,11 +2414,8 @@ JS_SetElement
 aCx
 dataArray
 i
+&
 ret
-.
-address
-(
-)
 )
 NS_ERROR_OUT_OF_MEMORY
 )

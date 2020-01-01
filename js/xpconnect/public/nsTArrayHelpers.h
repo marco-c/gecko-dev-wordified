@@ -260,11 +260,8 @@ JS_SetElement
 aCx
 arrayObj
 index
+&
 wrappedVal
-.
-address
-(
-)
 )
 )
 {
@@ -479,11 +476,8 @@ JS_SetElement
 aCx
 arrayObj
 index
+&
 wrappedVal
-.
-address
-(
-)
 )
 )
 {

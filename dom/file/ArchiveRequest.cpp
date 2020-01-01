@@ -959,11 +959,8 @@ JS_SetElement
 aCx
 array
 i
+&
 item
-.
-address
-(
-)
 )
 )
 {
@@ -1288,11 +1285,8 @@ JS_SetElement
 aCx
 array
 i
+&
 value
-.
-address
-(
-)
 )
 )
 {

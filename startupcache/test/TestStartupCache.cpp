@@ -2643,11 +2643,8 @@ JS_GetElement
 cx
 before
 i
+&
 before_num
-.
-address
-(
-)
 )
 &
 &
@@ -2656,11 +2653,8 @@ JS_GetElement
 cx
 after
 i
+&
 after_num
-.
-address
-(
-)
 )
 )
 )

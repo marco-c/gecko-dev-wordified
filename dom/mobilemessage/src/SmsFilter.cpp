@@ -986,11 +986,8 @@ JS_GetElement
 aCx
 obj
 i
+&
 jsNumber
-.
-address
-(
-)
 )
 )
 {

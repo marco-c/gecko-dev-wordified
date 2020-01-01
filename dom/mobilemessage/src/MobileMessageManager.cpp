@@ -1188,11 +1188,8 @@ JS_GetElement
 cx
 numbers
 i
+&
 number
-.
-address
-(
-)
 )
 )
 {
@@ -1830,11 +1827,8 @@ JS_GetElement
 cx
 ids
 i
+&
 idJsValue
-.
-address
-(
-)
 )
 )
 {

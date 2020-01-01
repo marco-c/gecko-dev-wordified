@@ -23220,11 +23220,8 @@ JS_GetElement
 cx
 seq
 i
+&
 temp
-.
-address
-(
-)
 )
 )
 {
@@ -66518,10 +66515,6 @@ expando
 index
 expando
 vp
-.
-address
-(
-)
 &
 isPresent
 )
@@ -66646,10 +66639,6 @@ proto
 index
 proxy
 vp
-.
-address
-(
-)
 &
 isPresent
 )

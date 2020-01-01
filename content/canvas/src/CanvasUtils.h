@@ -802,11 +802,8 @@ JS_GetElement
 cx
 obj
 i
+&
 elt
-.
-address
-(
-)
 )
 )
 {
