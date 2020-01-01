@@ -2519,7 +2519,7 @@ outFile
 lastModified
 (
 )
->
+=
 =
 fileEntry
 .
