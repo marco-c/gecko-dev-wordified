@@ -1853,6 +1853,10 @@ GeoPositionCoords
 )
 DOMCI_CLASS
 (
+GeoPositionAddress
+)
+DOMCI_CLASS
+(
 GeoPositionError
 )
 /
