@@ -2153,7 +2153,7 @@ if
 (
 *
 aState
-|
+&
 nsIAccessibleStates
 :
 :
