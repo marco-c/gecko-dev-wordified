@@ -520,11 +520,17 @@ mId
 private
 String
 mUrl
+;
+private
+String
 mTitle
 ;
 private
 Drawable
 mFavicon
+;
+private
+Drawable
 mThumbnail
 ;
 private
