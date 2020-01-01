@@ -3503,7 +3503,7 @@ nsPresContext
 *
 aPresContext
 nsMediaQueryResultCacheKey
-&
+*
 aKey
 )
 const
@@ -3617,8 +3617,14 @@ aPresContext
 actual
 )
 ;
+if
+(
 aKey
-.
+)
+{
+aKey
+-
+>
 AddExpression
 (
 &
@@ -3626,6 +3632,7 @@ expr
 match
 )
 ;
+}
 }
 return
 match
@@ -3908,7 +3915,7 @@ nsPresContext
 *
 aPresContext
 nsMediaQueryResultCacheKey
-&
+*
 aKey
 )
 {
@@ -6774,6 +6781,7 @@ mMedia
 Matches
 (
 aPresContext
+&
 aKey
 )
 ;
