@@ -4322,7 +4322,7 @@ FunctionInfo
 DoubleToStringFn
 >
 (
-js_NumberToString
+NumberToString
 <
 CanGC
 >

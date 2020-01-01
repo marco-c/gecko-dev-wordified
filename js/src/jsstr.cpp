@@ -24925,7 +24925,7 @@ isDouble
 {
 str
 =
-js_NumberToString
+NumberToString
 <
 allowGC
 >

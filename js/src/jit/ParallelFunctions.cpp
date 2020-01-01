@@ -1350,7 +1350,7 @@ JSString
 *
 str
 =
-js_NumberToString
+NumberToString
 <
 NoGC
 >
