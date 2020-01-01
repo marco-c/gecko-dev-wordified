@@ -1250,10 +1250,11 @@ if
 !
 gCaseConv
 )
-NS_NEWXPCOM
-(
 gCaseConv
+=
+new
 nsCaseConversionImp2
+(
 )
 ;
 return

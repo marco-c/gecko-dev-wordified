@@ -837,10 +837,11 @@ return
 rv
 ;
 }
-NS_NEWXPCOM
-(
 inst
+=
+new
 nsNativeThemeGTK
+(
 )
 ;
 if
@@ -1117,10 +1118,11 @@ return
 rv
 ;
 }
-NS_NEWXPCOM
-(
 inst
+=
+new
 nsNativeKeyBindings
+(
 )
 ;
 if

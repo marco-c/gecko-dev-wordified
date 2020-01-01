@@ -7086,12 +7086,9 @@ nsHeaderVisitor
 *
 visitor
 =
-nsnull
-;
-NS_NEWXPCOM
-(
-visitor
+new
 nsHeaderVisitor
+(
 )
 ;
 if

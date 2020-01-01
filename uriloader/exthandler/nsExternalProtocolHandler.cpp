@@ -2344,11 +2344,10 @@ nsCOMPtr
 nsIChannel
 >
 channel
-;
-NS_NEWXPCOM
-(
-channel
+=
+new
 nsExtProtocolChannel
+(
 )
 ;
 if
