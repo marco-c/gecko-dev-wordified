@@ -507,6 +507,9 @@ typedef
 char
 GLchar
 ;
+#
+ifndef
+__gl2_h_
 typedef
 ptrdiff_t
 GLsizeiptr
@@ -515,6 +518,8 @@ typedef
 ptrdiff_t
 GLintptr
 ;
+#
+endif
 #
 ifndef
 GLAPIENTRY
