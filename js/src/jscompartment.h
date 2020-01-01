@@ -512,6 +512,13 @@ members
 #
 endif
 namespace
+JSC
+{
+class
+ExecutableAllocator
+;
+}
+namespace
 js
 {
 /
@@ -1883,6 +1890,13 @@ anynameObject
 JSObject
 *
 functionNamespaceObject
+;
+JSC
+:
+:
+ExecutableAllocator
+*
+regExpAllocator
 ;
 js
 :

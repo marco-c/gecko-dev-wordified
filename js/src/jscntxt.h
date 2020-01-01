@@ -967,13 +967,6 @@ nanojit
 *
 /
 namespace
-JSC
-{
-class
-ExecutableAllocator
-;
-}
-namespace
 js
 {
 /
@@ -9165,13 +9158,6 @@ wrapObjectCallback
 ;
 JSPreWrapCallback
 preWrapObjectCallback
-;
-JSC
-:
-:
-ExecutableAllocator
-*
-regExpAllocator
 ;
 JSRuntime
 (
