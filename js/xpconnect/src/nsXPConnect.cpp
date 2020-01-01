@@ -12051,7 +12051,7 @@ global
 )
 -
 >
-SetLocation
+SetLocationURI
 (
 locationURI
 )

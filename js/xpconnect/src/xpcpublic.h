@@ -184,6 +184,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 nsIPrincipal
 .
 h
@@ -2081,6 +2088,12 @@ jsPathPrefix
 ;
 nsAutoCString
 domPathPrefix
+;
+nsCOMPtr
+<
+nsIURI
+>
+location
 ;
 private
 :
