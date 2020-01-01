@@ -427,17 +427,6 @@ h
 #
 include
 "
-builtin
-/
-Iterator
--
-inl
-.
-h
-"
-#
-include
-"
 vm
 /
 Stack
@@ -6776,7 +6765,7 @@ if
 iterobj
 -
 >
-isPropertyIterator
+isIterator
 (
 )
 )
@@ -6788,10 +6777,6 @@ ni
 iterobj
 -
 >
-asPropertyIterator
-(
-)
-.
 getNativeIterator
 (
 )
@@ -6885,7 +6870,7 @@ if
 iterobj
 -
 >
-isPropertyIterator
+isIterator
 (
 )
 )
@@ -6897,10 +6882,6 @@ ni
 iterobj
 -
 >
-asPropertyIterator
-(
-)
-.
 getNativeIterator
 (
 )

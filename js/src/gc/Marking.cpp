@@ -393,11 +393,11 @@ for
 things
 like
 *
-PropertyIteratorObjects
+IteratorClass
 )
 .
 It
-is
+it
 always
 valid
 to
@@ -405,9 +405,9 @@ call
 a
 MarkX
 function
-*
 instead
 of
+*
 PushMarkStack
 although
 it
