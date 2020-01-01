@@ -2180,7 +2180,7 @@ break
 if
 (
 !
-PR_ATOMIC_SET
+PR_AtomicSet
 (
 &
 mInvalidated

@@ -5218,7 +5218,7 @@ created
 .
 if
 (
-PR_ATOMIC_SET
+PR_AtomicSet
 (
 &
 gShutdown
@@ -6030,7 +6030,7 @@ Cancel
 {
 if
 (
-PR_ATOMIC_SET
+PR_AtomicSet
 (
 &
 mCanceled

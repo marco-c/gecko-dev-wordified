@@ -22128,7 +22128,7 @@ CONFIRM_AGE_PREF
 tmpint
 )
 ;
-PR_ATOMIC_SET
+PR_AtomicSet
 (
 &
 gFreshnessGuarantee
@@ -22164,7 +22164,7 @@ UPDATE_CACHE_SIZE_PREF
 tmpint
 )
 ;
-PR_ATOMIC_SET
+PR_AtomicSet
 (
 &
 gUpdateCacheSize
@@ -22190,7 +22190,7 @@ UPDATE_WORKING_TIME
 tmpint
 )
 ;
-PR_ATOMIC_SET
+PR_AtomicSet
 (
 &
 gWorkingTimeThreshold
@@ -22216,7 +22216,7 @@ UPDATE_DELAY_TIME
 tmpint
 )
 ;
-PR_ATOMIC_SET
+PR_AtomicSet
 (
 &
 gDelayTime
@@ -23554,7 +23554,7 @@ CONFIRM_AGE_PREF
 tmpint
 )
 ;
-PR_ATOMIC_SET
+PR_AtomicSet
 (
 &
 gFreshnessGuarantee
@@ -23598,7 +23598,7 @@ UPDATE_CACHE_SIZE_PREF
 tmpint
 )
 ;
-PR_ATOMIC_SET
+PR_AtomicSet
 (
 &
 gUpdateCacheSize
@@ -23642,7 +23642,7 @@ UPDATE_WORKING_TIME
 tmpint
 )
 ;
-PR_ATOMIC_SET
+PR_AtomicSet
 (
 &
 gWorkingTimeThreshold
@@ -23686,7 +23686,7 @@ UPDATE_DELAY_TIME
 tmpint
 )
 ;
-PR_ATOMIC_SET
+PR_AtomicSet
 (
 &
 gDelayTime

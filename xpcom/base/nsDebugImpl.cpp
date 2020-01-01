@@ -1888,7 +1888,7 @@ we
 deal
 with
 assertions
-PR_ATOMIC_INCREMENT
+PR_AtomicIncrement
 (
 &
 gAssertionCount

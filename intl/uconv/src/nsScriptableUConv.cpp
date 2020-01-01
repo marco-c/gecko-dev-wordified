@@ -449,7 +449,7 @@ BLOCK
 #
 include
 "
-nsAtomicRefcnt
+pratom
 .
 h
 "
@@ -552,7 +552,7 @@ mIsInternal
 PR_FALSE
 )
 {
-PR_ATOMIC_INCREMENT
+PR_AtomicIncrement
 (
 &
 gInstanceCount
@@ -567,7 +567,7 @@ nsScriptableUnicodeConverter
 (
 )
 {
-PR_ATOMIC_DECREMENT
+PR_AtomicDecrement
 (
 &
 gInstanceCount
