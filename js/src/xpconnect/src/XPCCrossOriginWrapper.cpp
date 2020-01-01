@@ -1224,7 +1224,7 @@ rt
 nsXPConnect
 :
 :
-GetRuntime
+GetRuntimeInstance
 (
 )
 ;
@@ -2892,7 +2892,7 @@ rt
 nsXPConnect
 :
 :
-GetRuntime
+GetRuntimeInstance
 (
 )
 ;
