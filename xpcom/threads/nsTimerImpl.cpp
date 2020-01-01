@@ -1249,12 +1249,11 @@ mCanceled
 =
 true
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 gThread
 "
-An
-armed
+Armed
 timer
 exists
 after

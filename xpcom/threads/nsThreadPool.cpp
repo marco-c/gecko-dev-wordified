@@ -757,7 +757,7 @@ of
 the
 application
 .
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 NS_IsMainThread

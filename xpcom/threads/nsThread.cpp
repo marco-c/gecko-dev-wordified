@@ -3122,7 +3122,7 @@ lock
 mLock
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mObserver
@@ -3940,7 +3940,7 @@ if
 mayWait
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 ShuttingDown
 (

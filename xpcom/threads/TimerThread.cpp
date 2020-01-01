@@ -1834,7 +1834,7 @@ situation
 from
 occurring
 .
-NS_ASSERTION
+MOZ_ASSERT
 (
 rc
 !
