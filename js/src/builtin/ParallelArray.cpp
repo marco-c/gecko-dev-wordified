@@ -1106,6 +1106,15 @@ getPropertyCount
 =
 =
 0
+&
+&
+!
+paTypeObject
+-
+>
+unknownProperties
+(
+)
 )
 {
 if
