@@ -1019,7 +1019,7 @@ NS_OK
 switch
 (
 (
-int
+LONG_PTR
 )
 seinfo
 .
@@ -1944,7 +1944,7 @@ result
 |
 (
 (
-int
+LONG_PTR
 )
 sinfo
 .
