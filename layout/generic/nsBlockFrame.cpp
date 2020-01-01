@@ -17096,8 +17096,6 @@ line
 "
 )
 ;
-aState
-.
 FreeLineBox
 (
 pulledLine
@@ -18430,8 +18428,6 @@ erase
 aLine
 )
 ;
-aState
-.
 FreeLineBox
 (
 line
@@ -20235,8 +20231,6 @@ aFromLine
 is
 now
 invalid
-aState
-.
 FreeLineBox
 (
 fromLine
@@ -24456,8 +24450,6 @@ nsLineBox
 *
 line
 =
-aState
-.
 NewLineBox
 (
 nextFrame
@@ -26762,8 +26754,6 @@ line
 "
 )
 ;
-aState
-.
 FreeLineBox
 (
 toremove
@@ -29975,8 +29965,6 @@ nsLineBox
 *
 newLine
 =
-aState
-.
 NewLineBox
 (
 aFrame
@@ -35341,19 +35329,6 @@ GetInsideBullet
 )
 ;
 }
-nsIPresShell
-*
-presShell
-=
-PresContext
-(
-)
--
->
-PresShell
-(
-)
-;
 /
 /
 Attempt
@@ -35716,9 +35691,8 @@ nsLineBox
 *
 line
 =
-NS_NewLineBox
+NewLineBox
 (
-presShell
 aPrevSibling
 -
 >
@@ -36210,9 +36184,8 @@ nsLineBox
 *
 line
 =
-NS_NewLineBox
+NewLineBox
 (
-presShell
 newFrame
 1
 isBlock
