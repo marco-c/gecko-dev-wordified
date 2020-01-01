@@ -631,14 +631,6 @@ MediaDocumentStreamListener
 this
 )
 ;
-if
-(
-!
-mStreamListener
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 /
 /
 Create
@@ -1013,12 +1005,6 @@ dom
 :
 VideoDocument
 (
-)
-;
-NS_ENSURE_TRUE
-(
-doc
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 NS_ADDREF
