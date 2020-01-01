@@ -465,13 +465,12 @@ Check
 the
 contents
 of
+the
+directory
+tree
 COPY
-/
-SUBDIR
 against
 ORIGINAL
-/
-SUBDIR
 .
 For
 each
