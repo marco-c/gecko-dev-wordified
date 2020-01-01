@@ -6352,12 +6352,11 @@ callobj
 ok
 &
 =
-js_ReallocSlots
+js_GrowSlots
 (
 cx
 callobj
 n
-JS_TRUE
 )
 ;
 scope
@@ -15625,12 +15624,11 @@ closure
 if
 (
 !
-js_ReallocSlots
+js_GrowSlots
 (
 cx
 closure
 nslots
-JS_TRUE
 )
 )
 return

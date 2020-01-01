@@ -19446,14 +19446,13 @@ blockObj
 &
 &
 !
-js_ReallocSlots
+js_GrowSlots
 (
 cx
 blockObj
 slot
 +
 1
-JS_FALSE
 )
 )
 {

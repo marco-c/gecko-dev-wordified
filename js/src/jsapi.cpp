@@ -23672,12 +23672,11 @@ clone
 if
 (
 !
-js_ReallocSlots
+js_AllocSlots
 (
 cx
 clone
 nslots
-JS_TRUE
 )
 )
 return

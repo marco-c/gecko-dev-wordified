@@ -11851,7 +11851,8 @@ JSSLOT_FREE
 js_BlockClass
 )
 ;
-js_ReallocSlots
+return
+js_GrowSlots
 (
 cx
 blockObj
@@ -11860,11 +11861,7 @@ JSSLOT_FREE
 &
 js_BlockClass
 )
-JS_TRUE
 )
-;
-return
-true
 ;
 }
 /
