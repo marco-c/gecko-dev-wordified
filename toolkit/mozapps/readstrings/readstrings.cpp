@@ -1117,6 +1117,7 @@ const
 char
 *
 keyList
+unsigned
 int
 numStrings
 char
@@ -1279,6 +1280,7 @@ inStringsSection
 =
 PR_FALSE
 ;
+unsigned
 int
 read
 =
@@ -1600,6 +1602,10 @@ keyIndex
 0
 &
 &
+(
+unsigned
+int
+)
 keyIndex
 <
 numStrings
@@ -1683,6 +1689,7 @@ results
 )
 {
 const
+unsigned
 int
 kNumStrings
 =

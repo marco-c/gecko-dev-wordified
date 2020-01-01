@@ -565,6 +565,7 @@ const
 char
 *
 keyList
+unsigned
 int
 numStrings
 char
