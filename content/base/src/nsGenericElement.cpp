@@ -27975,15 +27975,8 @@ flags
 08x
 ]
 "
-static_cast
-<
-unsigned
-int
->
-(
 GetFlags
 (
-)
 )
 )
 ;

@@ -1289,8 +1289,8 @@ mLoadGroup
 RemoveRequest
 (
 this
-nsnull
 NS_OK
+nsnull
 )
 ;
 mIsInLoadGroup
