@@ -50477,6 +50477,10 @@ argc
 =
 =
 1
+&
+&
+!
+constructing
 )
 {
 jsval
