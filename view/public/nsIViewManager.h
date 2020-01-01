@@ -3052,15 +3052,6 @@ returning
 define
 NS_VMREFRESH_IMMEDIATE
 0x0002
-/
-/
-animate
-scroll
-operation
-#
-define
-NS_VMREFRESH_SMOOTHSCROLL
-0x0008
 #
 endif
 /

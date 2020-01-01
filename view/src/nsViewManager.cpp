@@ -2280,8 +2280,6 @@ const
 nsIntRegion
 &
 aRegion
-PRUint32
-aUpdateFlags
 )
 {
 NS_ASSERTION
@@ -2582,7 +2580,7 @@ false
 ;
 UpdateAllViews
 (
-aUpdateFlags
+0
 )
 ;
 }
@@ -5637,7 +5635,6 @@ event
 -
 >
 region
-NS_VMREFRESH_DOUBLE_BUFFER
 )
 ;
 }
