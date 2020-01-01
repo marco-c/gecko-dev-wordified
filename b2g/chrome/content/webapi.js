@@ -425,6 +425,10 @@ getAttribute
 type
 '
 )
+|
+|
+'
+'
 ;
 if
 (
