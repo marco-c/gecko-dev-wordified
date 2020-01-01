@@ -2824,7 +2824,7 @@ charsToMergeArray
 .
 AppendElement
 (
-true
+false
 )
 ;
 styleArray
