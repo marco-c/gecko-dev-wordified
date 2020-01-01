@@ -743,10 +743,11 @@ shape
 =
 SHAPE_OVERFLOW_BIT
 ;
-js_TriggerGC
-(
 cx
-gcLocked
+-
+>
+triggerGC
+(
 )
 ;
 }
@@ -1504,6 +1505,9 @@ false
 ;
 }
 cx
+-
+>
+runtime
 -
 >
 updateMallocCounter
@@ -3448,6 +3452,9 @@ CreateScopeTable
 *
 /
 cx
+-
+>
+runtime
 -
 >
 updateMallocCounter
