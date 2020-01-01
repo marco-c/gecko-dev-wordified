@@ -257,7 +257,7 @@ dbg
 -
 stackframe
 -
-name
+title
 "
 )
 .
@@ -471,7 +471,7 @@ dbg
 -
 stackframe
 -
-name
+title
 "
 )
 gDebugger

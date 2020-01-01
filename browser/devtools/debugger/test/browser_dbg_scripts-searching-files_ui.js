@@ -331,7 +331,7 @@ is
 (
 gFilteredSources
 .
-totalItems
+itemCount
 3
 "
 The
@@ -380,7 +380,7 @@ i
 <
 gFilteredSources
 .
-totalItems
+itemCount
 ;
 i
 +
@@ -978,7 +978,7 @@ is
 (
 gFilteredSources
 .
-totalItems
+itemCount
 1
 "
 The
@@ -1027,7 +1027,7 @@ i
 <
 gFilteredSources
 .
-totalItems
+itemCount
 ;
 i
 +
@@ -1637,7 +1637,7 @@ is
 (
 gFilteredSources
 .
-totalItems
+itemCount
 3
 "
 The
@@ -1686,7 +1686,7 @@ i
 <
 gFilteredSources
 .
-totalItems
+itemCount
 ;
 i
 +
@@ -2194,7 +2194,7 @@ is
 (
 gFilteredSources
 .
-totalItems
+itemCount
 3
 "
 The
@@ -2528,7 +2528,7 @@ is
 (
 gFilteredSources
 .
-totalItems
+itemCount
 3
 "
 The
@@ -2871,7 +2871,7 @@ is
 (
 gFilteredSources
 .
-totalItems
+itemCount
 3
 "
 The
@@ -3212,7 +3212,7 @@ is
 (
 gFilteredSources
 .
-totalItems
+itemCount
 3
 "
 The
@@ -3550,7 +3550,7 @@ is
 (
 gFilteredSources
 .
-totalItems
+itemCount
 3
 "
 The
@@ -3897,7 +3897,7 @@ is
 (
 gFilteredSources
 .
-totalItems
+itemCount
 3
 "
 The

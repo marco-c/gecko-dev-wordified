@@ -1050,7 +1050,7 @@ is
 (
 gWatch
 .
-totalItems
+itemCount
 total
 "
 There
@@ -1715,7 +1715,7 @@ is
 (
 gWatch
 .
-totalItems
+itemCount
 total
 "
 There

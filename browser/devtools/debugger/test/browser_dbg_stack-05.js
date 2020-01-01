@@ -584,7 +584,7 @@ dbg
 -
 stackframe
 -
-name
+title
 "
 )
 gDebugger
