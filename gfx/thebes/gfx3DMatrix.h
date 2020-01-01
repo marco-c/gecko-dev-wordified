@@ -593,6 +593,7 @@ gfx3DMatrix
 &
 aMatrix
 )
+const
 ;
 /
 *
@@ -980,6 +981,7 @@ gfx3DMatrix
 &
 aMatrix
 )
+const
 {
 gfx3DMatrix
 matrix
