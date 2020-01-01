@@ -6282,6 +6282,7 @@ ElementIteratorClass
 =
 {
 "
+Array
 Iterator
 "
 JSCLASS_IMPLEMENTS_BARRIERS
