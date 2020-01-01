@@ -7,7 +7,7 @@ c
 )
 2010
 The
-VP8
+WebM
 project
 authors
 .
@@ -185,17 +185,10 @@ short
 *
 DQC
 =
-&
 d
 -
 >
 dequant
-[
-0
-]
-[
-0
-]
 ;
 for
 (
@@ -303,7 +296,7 @@ i
 ;
 }
 /
-/
+*
 the
 idct
 halves
@@ -314,6 +307,8 @@ halves
 )
 the
 pitch
+*
+/
 vp8_short_idct4x4llm_c
 (
 input
@@ -509,7 +504,7 @@ i
 ;
 }
 /
-/
+*
 the
 idct
 halves
@@ -520,6 +515,8 @@ halves
 )
 the
 pitch
+*
+/
 vp8_short_idct4x4llm_c
 (
 input

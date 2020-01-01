@@ -7,7 +7,7 @@ c
 )
 2010
 The
-VP8
+WebM
 project
 authors
 .
@@ -1719,12 +1719,17 @@ iter
 ;
 if
 (
+(
+size_t
+)
+(
 pkt
 -
 list
 -
 >
 pkts
+)
 <
 list
 -

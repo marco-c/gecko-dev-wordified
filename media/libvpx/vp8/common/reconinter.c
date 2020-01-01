@@ -7,7 +7,7 @@ c
 )
 2010
 The
-VP8
+WebM
 project
 authors
 .
@@ -135,7 +135,7 @@ h
 #
 endif
 /
-/
+*
 use
 this
 define
@@ -148,8 +148,7 @@ reads
 and
 writes
 are
-/
-/
+*
 not
 allowed
 i
@@ -158,11 +157,15 @@ e
 .
 ARM
 architectures
+*
 /
 /
+*
 #
 define
 MUST_BE_ALIGNED
+*
+/
 static
 const
 int
@@ -1863,9 +1866,11 @@ subpixel_predict
 }
 }
 /
-/
+*
 encoder
 only
+*
+/
 void
 vp8_build_inter_predictors_mby
 (
@@ -3489,7 +3494,7 @@ mvcol
 }
 }
 /
-/
+*
 The
 following
 functions
@@ -3509,8 +3514,7 @@ no
 recon
 in
 this
-/
-/
+*
 situation
 we
 can
@@ -3527,8 +3531,7 @@ writing
 it
 to
 predictor
-/
-/
+*
 buffer
 and
 then
@@ -3538,6 +3541,8 @@ to
 dst
 buffer
 .
+*
+/
 static
 void
 vp8_build_inter_predictors_b_s
@@ -3567,7 +3572,7 @@ char
 ptr
 ;
 /
-/
+*
 unsigned
 char
 *
@@ -3578,6 +3583,8 @@ d
 >
 predictor
 ;
+*
+/
 int
 dst_stride
 =
@@ -3862,7 +3869,7 @@ x
 )
 {
 /
-/
+*
 unsigned
 char
 *
@@ -3878,8 +3885,6 @@ block
 .
 predictor
 ;
-/
-/
 unsigned
 char
 *
@@ -3908,6 +3913,8 @@ block
 .
 dst
 ;
+*
+/
 unsigned
 char
 *
@@ -3967,7 +3974,7 @@ uptr
 vptr
 ;
 /
-/
+*
 unsigned
 char
 *
@@ -3978,8 +3985,6 @@ x
 >
 predictor
 ;
-/
-/
 unsigned
 char
 *
@@ -3994,8 +3999,6 @@ predictor
 256
 ]
 ;
-/
-/
 unsigned
 char
 *
@@ -4010,6 +4013,8 @@ predictor
 320
 ]
 ;
+*
+/
 unsigned
 char
 *
@@ -4079,7 +4084,7 @@ dst
 y_stride
 ;
 /
-/
+*
 x
 -
 >
@@ -4090,6 +4095,8 @@ block
 .
 pre_stride
 ;
+*
+/
 ptr_base
 =
 x
@@ -4153,7 +4160,7 @@ y_stride
 )
 ;
 /
-/
+*
 x
 -
 >
@@ -4165,6 +4172,8 @@ block
 dst_stride
 )
 ;
+*
+/
 }
 else
 {
@@ -4193,7 +4202,7 @@ y_stride
 )
 ;
 /
-/
+*
 x
 -
 >
@@ -4205,6 +4214,8 @@ block
 dst_stride
 )
 ;
+*
+/
 }
 mv_row
 =
@@ -4399,7 +4410,7 @@ uv_stride
 else
 {
 /
-/
+*
 note
 :
 this
@@ -4424,8 +4435,7 @@ my
 modification
 .
 Later
-/
-/
+*
 if
 sth
 is
@@ -4439,6 +4449,8 @@ is
 in
 build_inter_predictors_mb
 .
+*
+/
 int
 i
 ;
@@ -4489,7 +4501,7 @@ i
 ]
 ;
 /
-/
+*
 vp8_build_inter_predictors4b
 (
 x
@@ -4497,6 +4509,8 @@ d
 16
 )
 ;
+*
+/
 {
 unsigned
 char
@@ -4648,7 +4662,7 @@ y_stride
 )
 ;
 /
-/
+*
 x
 -
 >
@@ -4660,6 +4674,8 @@ block
 dst_stride
 )
 ;
+*
+/
 }
 else
 {
@@ -4691,7 +4707,7 @@ y_stride
 )
 ;
 /
-/
+*
 x
 -
 >
@@ -4703,6 +4719,8 @@ block
 dst_stride
 )
 ;
+*
+/
 }
 }
 }
@@ -4776,7 +4794,7 @@ as_int
 )
 {
 /
-/
+*
 vp8_build_inter_predictors2b
 (
 x
@@ -4784,6 +4802,8 @@ d0
 16
 )
 ;
+*
+/
 unsigned
 char
 *
@@ -5057,7 +5077,7 @@ as_int
 )
 {
 /
-/
+*
 vp8_build_inter_predictors2b
 (
 x
@@ -5065,6 +5085,8 @@ d0
 8
 )
 ;
+*
+/
 unsigned
 char
 *
@@ -5211,7 +5233,7 @@ x
 >
 dst
 .
-y_stride
+uv_stride
 )
 ;
 }
@@ -5241,7 +5263,7 @@ x
 >
 dst
 .
-y_stride
+uv_stride
 )
 ;
 }

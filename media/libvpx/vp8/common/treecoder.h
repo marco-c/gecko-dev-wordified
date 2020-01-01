@@ -7,7 +7,7 @@ c
 )
 2010
 The
-VP8
+WebM
 project
 authors
 .
@@ -97,9 +97,11 @@ char
 vp8bc_index_t
 ;
 /
-/
+*
 probability
 index
+*
+/
 typedef
 unsigned
 char

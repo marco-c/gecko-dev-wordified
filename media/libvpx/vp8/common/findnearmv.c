@@ -7,7 +7,7 @@ c
 )
 2010
 The
-VP8
+WebM
 project
 authors
 .
@@ -1049,7 +1049,7 @@ xd
 )
 ;
 /
-/
+*
 TODO
 :
 move
@@ -1058,6 +1058,8 @@ up
 before
 the
 copy
+*
+/
 }
 vp8_prob
 *
@@ -1143,7 +1145,7 @@ near_mv_ref_ct
 ]
 ;
 /
-/
+*
 p
 [
 3
@@ -1170,6 +1172,8 @@ near_mv_ref_ct
 3
 ]
 ;
+*
+/
 return
 p
 ;

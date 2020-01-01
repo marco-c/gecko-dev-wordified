@@ -7,7 +7,7 @@ c
 )
 2010
 The
-VP8
+WebM
 project
 authors
 .
@@ -328,7 +328,7 @@ oci
 )
 ;
 /
-/
+*
 our
 internal
 buffers
@@ -337,6 +337,8 @@ always
 multiples
 of
 16
+*
+/
 if
 (
 (
@@ -876,7 +878,7 @@ break
 default
 :
 /
-/
+*
 4
 5
 6
@@ -886,6 +888,8 @@ reserved
 for
 future
 use
+*
+/
 cm
 -
 >
@@ -1008,7 +1012,7 @@ clamp_type
 RECON_CLAMP_REQUIRED
 ;
 /
-/
+*
 Initialise
 reference
 frame
@@ -1017,6 +1021,8 @@ bias
 structure
 to
 defaults
+*
+/
 vpx_memset
 (
 oci
@@ -1034,13 +1040,15 @@ ref_frame_sign_bias
 )
 ;
 /
-/
+*
 Default
 disable
 buffer
 to
 buffer
 copying
+*
+/
 oci
 -
 >

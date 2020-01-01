@@ -7,7 +7,7 @@ c
 )
 2010
 The
-VP8
+WebM
 project
 authors
 .
@@ -633,9 +633,11 @@ border
 )
 {
 /
-/
+*
 NOTE
 :
+*
+/
 int
 yplane_size
 =
@@ -774,7 +776,7 @@ yplane_size
 uvplane_size
 ;
 /
-/
+*
 Added
 2
 extra
@@ -788,8 +790,7 @@ doesn
 '
 t
 fail
-/
-/
+*
 when
 we
 have
@@ -805,8 +806,7 @@ last
 v
 block
 .
-/
-/
+*
 Note
 :
 We
@@ -822,6 +822,8 @@ doesn
 t
 hurt
 .
+*
+/
 ybf
 -
 >

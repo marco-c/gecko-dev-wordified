@@ -7,7 +7,7 @@ c
 )
 2010
 The
-VP8
+WebM
 project
 authors
 .
@@ -96,9 +96,11 @@ define
 VPXINFINITE
 10000
 /
-/
+*
 10second
 .
+*
+/
 /
 *
 Thread
@@ -617,7 +619,7 @@ thread_sleep
 nms
 )
 /
-/
+*
 {
 struct
 timespec
@@ -645,6 +647,8 @@ NULL
 )
 ;
 }
+*
+/
 #
 else
 #
@@ -672,7 +676,7 @@ sched_yield
 )
 ;
 /
-/
+*
 {
 struct
 timespec
@@ -700,6 +704,8 @@ NULL
 )
 ;
 }
+*
+/
 #
 endif
 /

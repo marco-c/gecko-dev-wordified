@@ -7,7 +7,7 @@ c
 )
 2010
 The
-VP8
+WebM
 project
 authors
 .
@@ -230,7 +230,7 @@ int
 i
 ;
 /
-/
+*
 do
 2nd
 order
@@ -239,6 +239,8 @@ on
 the
 dc
 block
+*
+/
 IDCT_INVOKE
 (
 rtcd
@@ -393,7 +395,7 @@ SPLITMV
 )
 {
 /
-/
+*
 do
 2nd
 order
@@ -402,6 +404,8 @@ on
 the
 dc
 block
+*
+/
 IDCT_INVOKE
 (
 rtcd

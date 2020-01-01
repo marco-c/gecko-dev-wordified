@@ -7,7 +7,7 @@ c
 )
 2010
 The
-VP8
+WebM
 project
 authors
 .
@@ -522,7 +522,7 @@ ybf
 y_width
 ;
 /
-/
+*
 copy
 the
 left
@@ -531,6 +531,8 @@ right
 most
 columns
 out
+*
+/
 src_ptr1
 =
 ybf
@@ -615,7 +617,7 @@ plane_stride
 ;
 }
 /
-/
+*
 Now
 copy
 the
@@ -631,6 +633,8 @@ of
 the
 respective
 borders
+*
+/
 src_ptr1
 =
 ybf
@@ -770,7 +774,7 @@ Border
 2
 ;
 /
-/
+*
 copy
 the
 left
@@ -779,6 +783,8 @@ right
 most
 columns
 out
+*
+/
 src_ptr1
 =
 ybf
@@ -863,7 +869,7 @@ plane_stride
 ;
 }
 /
-/
+*
 Now
 copy
 the
@@ -879,6 +885,8 @@ of
 the
 respective
 borders
+*
+/
 src_ptr1
 =
 ybf
@@ -994,7 +1002,7 @@ Plane
 *
 /
 /
-/
+*
 copy
 the
 left
@@ -1003,6 +1011,8 @@ right
 most
 columns
 out
+*
+/
 src_ptr1
 =
 ybf
@@ -1087,7 +1097,7 @@ plane_stride
 ;
 }
 /
-/
+*
 Now
 copy
 the
@@ -1103,6 +1113,8 @@ of
 the
 respective
 borders
+*
+/
 src_ptr1
 =
 ybf
@@ -1285,7 +1297,7 @@ ybf
 y_width
 ;
 /
-/
+*
 copy
 the
 left
@@ -1294,6 +1306,8 @@ right
 most
 columns
 out
+*
+/
 src_ptr1
 =
 ybf
@@ -1378,7 +1392,7 @@ plane_stride
 ;
 }
 /
-/
+*
 Now
 copy
 the
@@ -1394,6 +1408,8 @@ of
 the
 respective
 borders
+*
+/
 src_ptr1
 =
 ybf

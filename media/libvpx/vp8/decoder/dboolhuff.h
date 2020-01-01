@@ -7,7 +7,7 @@ c
 )
 2010
 The
-VP8
+WebM
 project
 authors
 .
@@ -303,7 +303,6 @@ br
 int
 bits
 )
-;
 #
 if
 ARCH_ARM
@@ -434,7 +433,7 @@ devalue
 vp8_dboolhuff_rtcd_vtable_t
 ;
 /
-/
+*
 There
 are
 no
@@ -444,8 +443,7 @@ specific
 versions
 of
 these
-/
-/
+*
 functions
 right
 now
@@ -455,8 +453,7 @@ RTCD
 to
 avoid
 using
-/
-/
+*
 function
 pointers
 which
@@ -464,13 +461,13 @@ gives
 a
 speed
 boost
+*
 /
 /
+*
 #
 ifdef
 ENABLE_RUNTIME_CPU_DETECT
-/
-/
 #
 define
 DBOOLHUFF_INVOKE
@@ -484,8 +481,6 @@ ctx
 -
 >
 fn
-/
-/
 #
 define
 IF_RTCD
@@ -495,10 +490,10 @@ x
 (
 x
 )
-/
-/
 #
 else
+*
+/
 #
 define
 DBOOLHUFF_INVOKE
@@ -518,9 +513,11 @@ x
 )
 NULL
 /
-/
+*
 #
 endif
+*
+/
 DECLARE_ALIGNED
 (
 16

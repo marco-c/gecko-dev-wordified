@@ -7,7 +7,7 @@ c
 )
 2010
 The
-VP8
+WebM
 project
 authors
 .
@@ -113,7 +113,7 @@ int
 i
 ;
 /
-/
+*
 set
 up
 frame
@@ -123,6 +123,8 @@ for
 intra
 coded
 blocks
+*
+/
 vpx_memset
 (
 ybf

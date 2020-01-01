@@ -7,7 +7,7 @@ c
 )
 2010
 The
-VP8
+WebM
 project
 authors
 .
@@ -1276,12 +1276,14 @@ d
 )
 ;
 /
-/
+*
 First
 line
 in
 next
 band
+*
+/
 a
 =
 des
@@ -1749,7 +1751,7 @@ d
 )
 ;
 /
-/
+*
 No
 other
 line
@@ -1761,6 +1763,8 @@ line
 so
 .
 .
+*
+/
 des
 [
 dest_pitch
@@ -4015,7 +4019,7 @@ c
 )
 ;
 /
-/
+*
 First
 line
 in
@@ -4024,6 +4028,8 @@ band
 .
 .
 .
+*
+/
 a
 =
 des
@@ -4483,7 +4489,7 @@ c
 )
 ;
 /
-/
+*
 No
 other
 line
@@ -4495,6 +4501,8 @@ line
 so
 .
 .
+*
+/
 des
 [
 dest_pitch
@@ -5427,7 +5435,7 @@ c
 )
 ;
 /
-/
+*
 First
 line
 in
@@ -5436,6 +5444,8 @@ band
 .
 .
 .
+*
+/
 a
 =
 des
@@ -5863,7 +5873,7 @@ c
 )
 ;
 /
-/
+*
 No
 other
 line
@@ -5875,6 +5885,8 @@ line
 so
 .
 .
+*
+/
 des
 [
 dest_pitch
