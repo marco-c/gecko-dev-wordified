@@ -4333,10 +4333,6 @@ gfx
 Matrix
 &
 aNewMatrix
-bool
-aUpdatePatternTransform
-=
-true
 )
 ;
 Rect
