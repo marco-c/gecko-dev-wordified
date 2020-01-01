@@ -612,7 +612,7 @@ underrunProtect
 #
 define
 NJ_MAX_STACK_ENTRY
-256
+8192
 #
 define
 NJ_MAX_PARAMETERS
