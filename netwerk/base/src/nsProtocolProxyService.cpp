@@ -3579,6 +3579,7 @@ IsEmpty
 ConfigureFromPAC
 (
 tempString
+PR_FALSE
 )
 ;
 }
@@ -5125,6 +5126,8 @@ const
 nsCString
 &
 spec
+PRBool
+forceReload
 )
 {
 if
@@ -5186,6 +5189,10 @@ IsPACURI
 (
 pacURI
 )
+&
+&
+!
+forceReload
 )
 return
 NS_OK
@@ -5444,6 +5451,7 @@ IsEmpty
 ConfigureFromPAC
 (
 pacSpec
+PR_TRUE
 )
 ;
 return
@@ -7927,6 +7935,7 @@ rv
 ConfigureFromPAC
 (
 PACURI
+PR_FALSE
 )
 ;
 if
