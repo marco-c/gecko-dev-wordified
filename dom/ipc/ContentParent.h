@@ -863,6 +863,11 @@ MemoryReport
 report
 )
 ;
+void
+ClearChildMemoryReporters
+(
+)
+;
 GeckoChildProcessHost
 *
 Process
