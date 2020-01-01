@@ -2550,6 +2550,8 @@ jsop_setelem_typed
 (
 int
 arrayType
+SetElemSafety
+safety
 MDefinition
 *
 object
