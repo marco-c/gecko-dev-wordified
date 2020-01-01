@@ -1740,7 +1740,8 @@ JSGuardObjectNotificationReceiver
 )
 {
 /
-/
+*
+*
 Assert
 that
 the
@@ -1753,8 +1754,7 @@ as
 a
 temporary
 .
-/
-/
+*
 (
 Note
 that
@@ -1768,8 +1768,7 @@ Init
 is
 not
 called
-/
-/
+*
 because
 the
 guard
@@ -1781,13 +1780,14 @@ is
 not
 using
 the
-/
-/
+*
 above
 macros
 correctly
 .
 )
+*
+/
 JS_ASSERT
 (
 mStatementDone
@@ -1804,7 +1804,8 @@ aNotifier
 )
 {
 /
-/
+*
+*
 aNotifier
 is
 passed
@@ -1818,8 +1819,7 @@ we
 can
 pass
 a
-/
-/
+*
 temporary
 but
 we
@@ -1830,6 +1830,8 @@ as
 non
 -
 const
+*
+/
 const_cast
 <
 JSGuardObjectNotifier
