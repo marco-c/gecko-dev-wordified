@@ -575,7 +575,14 @@ h
 #
 include
 "
-nsIFontMetrics
+nsIThebesFontMetrics
+.
+h
+"
+#
+include
+"
+gfxFont
 .
 h
 "
