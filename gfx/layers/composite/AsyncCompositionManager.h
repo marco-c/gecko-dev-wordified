@@ -151,6 +151,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -381,6 +390,7 @@ zoom
 /
 class
 AsyncCompositionManager
+MOZ_FINAL
 :
 public
 RefCounted
