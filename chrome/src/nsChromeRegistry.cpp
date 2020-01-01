@@ -2632,6 +2632,12 @@ nsChromeRegistry
 (
 )
 {
+if
+(
+mPackagesHash
+.
+ops
+)
 PL_DHashTableFinish
 (
 &
