@@ -63,10 +63,8 @@ from
 marionette
 import
 Actions
-from
-gestures
 import
-pinch
+gestures
 "
 "
 "
@@ -377,8 +375,6 @@ action
 Actions
 (
 self
-.
-marionette
 )
         
 action
@@ -423,8 +419,11 @@ check_element
 element
 )
         
+gestures
+.
 pinch
 (
+self
 element
 x1
 y1
