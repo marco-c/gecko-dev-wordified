@@ -320,6 +320,8 @@ click
 }
 button
 content
+.
+wrappedJSObject
 )
 ;
 }

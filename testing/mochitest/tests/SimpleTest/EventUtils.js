@@ -366,6 +366,8 @@ if
 (
 aTarget
 instanceof
+aWindow
+.
 Element
 )
 )
