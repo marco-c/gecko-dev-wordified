@@ -823,7 +823,7 @@ false
 ;
 this
 .
-updateInspectorButton
+onLockStateChanged
 =
 function
 (
@@ -845,6 +845,14 @@ removeAttribute
 "
 checked
 "
+)
+;
+this
+.
+_toolbox
+.
+raise
+(
 )
 ;
 }
@@ -881,7 +889,7 @@ locked
 "
 this
 .
-updateInspectorButton
+onLockStateChanged
 )
 ;
 this
@@ -895,7 +903,7 @@ unlocked
 "
 this
 .
-updateInspectorButton
+onLockStateChanged
 )
 ;
 /
@@ -2492,7 +2500,7 @@ locked
 "
 this
 .
-updateInspectorButton
+onLockStateChanged
 )
 ;
 this
@@ -2506,7 +2514,7 @@ unlocked
 "
 this
 .
-updateInspectorButton
+onLockStateChanged
 )
 ;
 this
