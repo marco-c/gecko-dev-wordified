@@ -639,9 +639,6 @@ if
 true
 otherwise
 horizontal
-PRPackedBool
-mActive
-;
 nsFramesetDrag
 (
 )
