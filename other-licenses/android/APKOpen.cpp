@@ -1543,6 +1543,13 @@ SHELL_WRAPPER1
 notifyUriVisited
 jstring
 )
+SHELL_WRAPPER2
+(
+notifyBatteryChange
+jfloat
+jboolean
+)
+;
 static
 void
 *
@@ -4220,6 +4227,11 @@ cameraCallbackBridge
 GETFUNC
 (
 notifyUriVisited
+)
+;
+GETFUNC
+(
+notifyBatteryChange
 )
 ;
 #
