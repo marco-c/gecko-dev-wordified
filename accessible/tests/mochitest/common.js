@@ -506,6 +506,13 @@ nsIAccessibleRole
 ROLE_IMAGE_MAP
 ;
 const
+ROLE_INTERNAL_FRAME
+=
+nsIAccessibleRole
+.
+ROLE_INTERNAL_FRAME
+;
+const
 ROLE_LABEL
 =
 nsIAccessibleRole
