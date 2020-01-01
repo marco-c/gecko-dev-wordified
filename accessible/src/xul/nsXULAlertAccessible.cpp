@@ -442,6 +442,13 @@ h
 #
 include
 "
+Role
+.
+h
+"
+#
+include
+"
 States
 .
 h
@@ -641,7 +648,7 @@ NS_IMPL_ISUPPORTS_INHERITED0
 nsXULAlertAccessible
 nsAccessible
 )
-PRUint32
+role
 nsXULAlertAccessible
 :
 :
@@ -650,10 +657,10 @@ NativeRole
 )
 {
 return
-nsIAccessibleRole
+roles
 :
 :
-ROLE_ALERT
+ALERT
 ;
 }
 PRUint64

@@ -674,7 +674,7 @@ h
 #
 include
 "
-nsFileDataProtocolHandler
+nsBlobProtocolHandler
 .
 h
 "

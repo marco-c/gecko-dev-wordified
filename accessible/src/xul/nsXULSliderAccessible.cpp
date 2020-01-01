@@ -453,6 +453,13 @@ h
 #
 include
 "
+Role
+.
+h
+"
+#
+include
+"
 States
 .
 h
@@ -680,7 +687,7 @@ nsIAccessibleValue
 /
 /
 nsAccessible
-PRUint32
+role
 nsXULSliderAccessible
 :
 :
@@ -689,10 +696,10 @@ NativeRole
 )
 {
 return
-nsIAccessibleRole
+roles
 :
 :
-ROLE_SLIDER
+SLIDER
 ;
 }
 PRUint64
@@ -1831,7 +1838,7 @@ aShell
 nsXULThumbAccessible
 :
 nsAccessible
-PRUint32
+role
 nsXULThumbAccessible
 :
 :
@@ -1840,9 +1847,9 @@ NativeRole
 )
 {
 return
-nsIAccessibleRole
+roles
 :
 :
-ROLE_INDICATOR
+INDICATOR
 ;
 }

@@ -4681,10 +4681,6 @@ size
 /
 true
 true
-nsIOService
-:
-:
-gBufferCache
 )
 ;
 if

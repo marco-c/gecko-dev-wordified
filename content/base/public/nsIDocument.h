@@ -9445,7 +9445,7 @@ uri
 by
 calling
 *
-nsFileDataProtocolHandler
+nsBlobProtocolHandler
 :
 :
 RemoveFileDataEntry

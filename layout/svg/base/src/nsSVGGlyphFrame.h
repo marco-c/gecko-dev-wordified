@@ -570,10 +570,6 @@ mTrimTrailingWhitespace
 (
 false
 )
-mPropagateTransform
-(
-true
-)
 {
 }
 ~
@@ -1493,14 +1489,6 @@ NotifyGlyphMetricsChange
 (
 )
 ;
-bool
-GetGlobalTransform
-(
-gfxMatrix
-*
-aMatrix
-)
-;
 void
 SetupGlobalTransform
 (
@@ -1634,9 +1622,6 @@ mTrimLeadingWhitespace
 ;
 bool
 mTrimTrailingWhitespace
-;
-bool
-mPropagateTransform
 ;
 }
 ;

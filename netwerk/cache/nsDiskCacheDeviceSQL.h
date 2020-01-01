@@ -633,12 +633,6 @@ nsCacheDevice
 methods
 *
 /
-virtual
-~
-nsOfflineCacheDevice
-(
-)
-;
 static
 nsOfflineCacheDevice
 *
