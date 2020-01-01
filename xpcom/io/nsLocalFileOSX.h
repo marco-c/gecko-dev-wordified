@@ -749,6 +749,8 @@ public
 nsILocalFileMac
 public
 nsIHashable
+public
+nsIClassInfo
 {
 friend
 class
@@ -786,6 +788,7 @@ NS_DECL_NSIFILE
 NS_DECL_NSILOCALFILE
 NS_DECL_NSILOCALFILEMAC
 NS_DECL_NSIHASHABLE
+NS_DECL_NSICLASSINFO
 public
 :
 static
