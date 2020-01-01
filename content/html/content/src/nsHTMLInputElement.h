@@ -541,6 +541,7 @@ nsIRadioVisitor
 ;
 class
 UploadLastDir
+MOZ_FINAL
 :
 public
 nsIObserver

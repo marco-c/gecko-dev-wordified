@@ -1846,6 +1846,7 @@ nsHTMLMediaElement
 :
 :
 MediaLoadListener
+MOZ_FINAL
 :
 public
 nsIStreamListener

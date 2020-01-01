@@ -675,6 +675,15 @@ SetupIcon
 (
 )
 ;
+static
+PRUint32
+ConvertGeckoToMacKeyCode
+(
+nsAString
+&
+aKeyCodeName
+)
+;
 protected
 :
 void

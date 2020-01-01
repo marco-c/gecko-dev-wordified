@@ -530,11 +530,12 @@ mScaleHint
 (
 aScaleHint
 )
-mOffscreenFormat
+{
+SetOffscreenFormat
 (
 aOffscreenFormat
 )
-{
+;
 }
 ~
 BasicPlanarYCbCrImage
@@ -613,9 +614,6 @@ private
 :
 gfxIntSize
 mScaleHint
-;
-gfxImageFormat
-mOffscreenFormat
 ;
 int
 mStride

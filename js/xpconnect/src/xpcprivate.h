@@ -496,6 +496,15 @@ include
 "
 mozilla
 /
+Assertions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Attributes
 .
 h
@@ -9618,7 +9627,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 js
 :
@@ -18740,7 +18749,7 @@ SetIsMainThreadOnly
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mMainThread
 )
@@ -22430,7 +22439,7 @@ NS_IsCycleCollectorThread
 )
 )
 )
-JS_Assert
+MOZ_Assert
 (
 "
 NS_IsMainThread
