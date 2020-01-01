@@ -1673,11 +1673,12 @@ false
 )
 {
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS3
 (
 nsDOMStorageManager
 nsIDOMStorageManager
 nsIObserver
+nsISupportsWeakReference
 )
 /
 /
@@ -1795,7 +1796,7 @@ cookie
 -
 changed
 "
-false
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1819,7 +1820,7 @@ app
 -
 removed
 "
-false
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1837,7 +1838,7 @@ AddObserver
 (
 gStorageManager
 NS_PRIVATE_BROWSING_SWITCH_TOPIC
-false
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1861,7 +1862,7 @@ after
 -
 change
 "
-false
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1883,7 +1884,7 @@ perm
 -
 changed
 "
-false
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1909,7 +1910,7 @@ domain
 -
 data
 "
-false
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1940,7 +1941,7 @@ before
 -
 change
 "
-false
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1958,7 +1959,7 @@ AddObserver
 (
 gStorageManager
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-false
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1976,7 +1977,7 @@ AddObserver
 (
 gStorageManager
 NS_DOMSTORAGE_FLUSH_TIMER_TOPIC
-false
+true
 )
 ;
 NS_ENSURE_SUCCESS
