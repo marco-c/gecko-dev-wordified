@@ -1118,6 +1118,8 @@ yDensity
 ;
 if
 (
+Utils
+.
 isPoint
 (
 options
@@ -1165,6 +1167,8 @@ be
 a
 Rect
 "
+Utils
+.
 isRect
 (
 options
@@ -2720,6 +2724,8 @@ id
 ;
 if
 (
+Utils
+.
 isPoint
 (
 this
@@ -3427,6 +3433,8 @@ options
 if
 (
 !
+Utils
+.
 isRect
 (
 rect
@@ -10708,6 +10716,8 @@ true
 if
 (
 !
+Utils
+.
 isRect
 (
 groupData

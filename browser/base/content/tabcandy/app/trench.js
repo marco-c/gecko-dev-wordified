@@ -1328,6 +1328,8 @@ range
 .
 if
 (
+Utils
+.
 isRange
 (
 range
@@ -1386,6 +1388,8 @@ too
 .
 if
 (
+Utils
+.
 isRange
 (
 minRange
@@ -1551,6 +1555,8 @@ activeRange
 if
 (
 !
+Utils
+.
 isRange
 (
 activeRange
@@ -1777,6 +1783,8 @@ rect
 if
 (
 !
+Utils
+.
 isRect
 (
 rect
@@ -3503,13 +3511,11 @@ this
 .
 radius
 <
-=
 position
 &
 &
 position
 <
-=
 this
 .
 position
@@ -3523,7 +3529,7 @@ this
 .
 activeRange
 .
-overlaps
+contains
 (
 range
 )
