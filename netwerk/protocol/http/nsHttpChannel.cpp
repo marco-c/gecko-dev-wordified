@@ -1446,7 +1446,7 @@ bool
 mFallbackChannel
 ;
 const
-InfallableCopyCString
+nsCString
 mClientID
 ;
 const
@@ -1458,7 +1458,7 @@ bool
 mUsingPrivateBrowsing
 ;
 const
-InfallableCopyCString
+nsCString
 mCacheKey
 ;
 const

@@ -640,13 +640,7 @@ mMethod
 nsHttpVersion
 mVersion
 ;
-mozilla
-:
-:
-net
-:
-:
-InfallableCopyCString
+nsCString
 mRequestURI
 ;
 }
