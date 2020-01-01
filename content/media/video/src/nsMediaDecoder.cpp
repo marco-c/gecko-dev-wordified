@@ -947,7 +947,6 @@ frame
 Invalidate
 (
 r
-PR_FALSE
 )
 ;
 }
