@@ -507,6 +507,9 @@ timerTestResult
 bool
 asyncCallbackResult
 ;
+bool
+invalidateDuringPaint
+;
 int32_t
 winX
 ;
