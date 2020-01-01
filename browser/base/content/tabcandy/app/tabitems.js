@@ -1582,6 +1582,8 @@ function
 value
 )
 {
+return
+;
 var
 self
 =
@@ -1974,6 +1976,8 @@ Groups
 dragOptions
 )
 ;
+/
+*
 div
 .
 droppable
@@ -1985,6 +1989,8 @@ Groups
 dropOptions
 )
 ;
+*
+/
 }
 div
 .
@@ -2126,6 +2132,7 @@ necessary
 }
 )
 ;
+iQ
 (
 "
 <
@@ -2146,6 +2153,7 @@ appendTo
 div
 )
 ;
+iQ
 (
 "
 <
