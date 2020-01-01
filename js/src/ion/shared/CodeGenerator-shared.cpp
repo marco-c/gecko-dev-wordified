@@ -343,6 +343,10 @@ osrEntryOffset_
 (
 0
 )
+skipArgCheckEntryOffset_
+(
+0
+)
 frameDepth_
 (
 graph
