@@ -351,7 +351,9 @@ UpdateWithTouchAtDevicePoint
 (
 PRInt32
 aPos
-PRInt32
+const
+TimeDuration
+&
 aTimeDelta
 )
 ;
@@ -491,7 +493,7 @@ on
 the
 next
 *
-updateWithTouchAtDevicePoint
+UpdateWithTouchAtDevicePoint
 (
 )
 however
@@ -578,10 +580,14 @@ case
 *
 /
 PRInt32
-UpdateAndGetDisplacement
+GetDisplacementForDuration
 (
 float
 aScale
+const
+TimeDuration
+&
+aDelta
 )
 ;
 /
