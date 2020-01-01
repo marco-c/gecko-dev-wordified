@@ -3704,6 +3704,11 @@ DispatchContentLoadedEvents
 )
 ;
 void
+InitializeFinalizeFrameLoaders
+(
+)
+;
+void
 RetrieveRelevantHeaders
 (
 nsIChannel
@@ -4329,6 +4334,11 @@ mHasHadScriptHandlingObject
 ;
 PRPackedBool
 mHasWarnedAboutBoxObjects
+:
+1
+;
+PRPackedBool
+mDelayFrameLoaderInitialization
 :
 1
 ;
