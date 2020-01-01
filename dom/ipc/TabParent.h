@@ -1076,6 +1076,13 @@ nsIWebProgressListener
 aListener
 )
 ;
+void
+ActorDestroy
+(
+ActorDestroyReason
+why
+)
+;
 nsIDOMElement
 *
 mFrameElement
