@@ -5511,9 +5511,10 @@ e
 {
 if
 (
+!
 Utils
 .
-isRightClick
+isLeftClick
 (
 e
 )
@@ -6342,9 +6343,10 @@ e
 {
 if
 (
+!
 Utils
 .
-isRightClick
+isLeftClick
 (
 e
 )

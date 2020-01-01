@@ -1566,12 +1566,12 @@ close
 )
 |
 |
-e
+Utils
 .
-button
-=
-=
-1
+isMiddleClick
+(
+e
+)
 )
 {
 self
