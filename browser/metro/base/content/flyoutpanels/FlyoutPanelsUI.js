@@ -485,7 +485,9 @@ hide
 (
 )
 ;
-MetroUtils
+Services
+.
+metro
 .
 showSettingsFlyout
 (

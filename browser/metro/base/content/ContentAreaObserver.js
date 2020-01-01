@@ -414,7 +414,9 @@ isKeyboardOpened
 )
 {
 return
-MetroUtils
+Services
+.
+metro
 .
 keyboardVisible
 ;
@@ -1260,7 +1262,9 @@ aForceDown
 ?
 0
 :
-MetroUtils
+Services
+.
+metro
 .
 keyboardHeight
 ;
@@ -2220,7 +2224,9 @@ contentHeight
 let
 keyboardHeight
 =
-MetroUtils
+Services
+.
+metro
 .
 keyboardHeight
 ;

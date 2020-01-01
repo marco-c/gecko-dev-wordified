@@ -699,7 +699,9 @@ try
 file
 &
 &
-MetroUtils
+Services
+.
+metro
 .
 launchInDesktop
 (

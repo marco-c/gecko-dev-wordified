@@ -105,7 +105,9 @@ _cookie
 =
 aCookie
 ;
-MetroUtils
+Services
+.
+metro
 .
 showNativeToast
 (
