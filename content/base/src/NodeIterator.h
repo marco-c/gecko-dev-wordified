@@ -151,6 +151,7 @@ dom
 {
 class
 NodeIterator
+MOZ_FINAL
 :
 public
 nsIDOMNodeIterator
@@ -312,6 +313,18 @@ fine
 for
 our
 purposes
+JSObject
+*
+WrapObject
+(
+JSContext
+*
+cx
+JSObject
+*
+scope
+)
+;
 private
 :
 struct
