@@ -4891,8 +4891,11 @@ mOverflowContList
 is
 an
 excessOverflowContainersProperty
+or
+null
 then
 this
+is
 our
 frame
 (
