@@ -396,7 +396,7 @@ use
 strict
 "
 ;
-const
+let
 Cu
 =
 Components
