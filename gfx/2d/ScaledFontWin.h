@@ -443,11 +443,11 @@ h
 "
 #
 include
-<
-windows
+"
+gfxGDIFont
 .
 h
->
+"
 namespace
 mozilla
 {
@@ -464,7 +464,7 @@ public
 :
 ScaledFontWin
 (
-LOGFONT
+gfxGDIFont
 *
 aFont
 Float
@@ -505,9 +505,6 @@ DrawTargetSkia
 ;
 #
 endif
-LOGFONT
-mLogFont
-;
 }
 ;
 }
