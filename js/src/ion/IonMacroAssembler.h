@@ -2594,9 +2594,13 @@ will
 be
 written
 .
+private
+:
 CodeOffsetLabel
-exitCodePatch
+exitCodePatch_
 ;
+public
+:
 void
 linkExitFrameAndCode
 (
@@ -2617,7 +2621,7 @@ bailout
 onto
 the
 stack
-exitCodePatch
+exitCodePatch_
 =
 PushWithPatch
 (
@@ -2691,7 +2695,7 @@ IonCode
 .
 if
 (
-exitCodePatch
+exitCodePatch_
 .
 offset
 (
@@ -2706,7 +2710,7 @@ patchDataWithValueCheck
 CodeLocationLabel
 (
 code
-exitCodePatch
+exitCodePatch_
 )
 ImmWord
 (
