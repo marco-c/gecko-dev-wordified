@@ -1528,6 +1528,8 @@ initWithPath
 /
 usr
 /
+local
+/
 lib
 "
 )
