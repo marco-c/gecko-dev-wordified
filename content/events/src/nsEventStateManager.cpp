@@ -12039,14 +12039,12 @@ eXUL
 {
 /
 /
-positive
+negative
 adjustment
 to
 increase
 text
 size
-non
--
 positive
 to
 decrease
@@ -12058,9 +12056,9 @@ adjustment
 0
 )
 ?
+-
 1
 :
--
 1
 )
 ;
