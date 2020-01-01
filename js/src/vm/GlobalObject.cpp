@@ -730,6 +730,15 @@ Create
 cx
 /
 *
+enclosingScope
+=
+*
+/
+NullPtr
+(
+)
+/
+*
 savedCallerFun
 =
 *
