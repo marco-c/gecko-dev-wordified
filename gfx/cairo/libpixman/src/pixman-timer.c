@@ -233,9 +233,9 @@ h
 "
 #
 ifdef
-PIXMAN_TIMER
+PIXMAN_TIMERS
 static
-PixmanTimer
+pixman_timer_t
 *
 timers
 ;
@@ -246,7 +246,7 @@ dump_timers
 void
 )
 {
-PixmanTimer
+pixman_timer_t
 *
 timer
 ;
@@ -321,7 +321,7 @@ n_times
 void
 pixman_timer_register
 (
-PixmanTimer
+pixman_timer_t
 *
 timer
 )

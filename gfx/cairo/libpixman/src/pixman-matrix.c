@@ -576,10 +576,15 @@ partial
 if
 (
 !
+(
 v
 [
 2
 ]
+>
+>
+16
+)
 )
 return
 FALSE
@@ -703,6 +708,7 @@ dy
 +
 +
 )
+{
 for
 (
 dx
@@ -811,6 +817,7 @@ pixman_fixed_t
 )
 v
 ;
+}
 }
 *
 dst
@@ -1936,7 +1943,7 @@ epsilon
 }
 #
 define
-epsilon
+EPSILON
 (
 pixman_fixed_t
 )
@@ -1945,7 +1952,7 @@ pixman_fixed_t
 )
 #
 define
-is_same
+IS_SAME
 (
 a
 b
@@ -1955,12 +1962,12 @@ within_epsilon
 (
 a
 b
-epsilon
+EPSILON
 )
 )
 #
 define
-is_zero
+IS_ZERO
 (
 a
 )
@@ -1969,12 +1976,12 @@ within_epsilon
 (
 a
 0
-epsilon
+EPSILON
 )
 )
 #
 define
-is_one
+IS_ONE
 (
 a
 )
@@ -1986,15 +1993,16 @@ F
 (
 1
 )
-epsilon
+EPSILON
 )
 )
 #
 define
-is_unit
+IS_UNIT
 (
 a
 )
+\
 (
 within_epsilon
 (
@@ -2003,7 +2011,7 @@ F
 (
 1
 )
-epsilon
+EPSILON
 )
 |
 |
@@ -2016,24 +2024,24 @@ F
 -
 1
 )
-epsilon
+EPSILON
 )
 |
 |
 \
-is_zero
+IS_ZERO
 (
 a
 )
 )
 #
 define
-is_int
+IS_INT
 (
 a
 )
 (
-is_zero
+IS_ZERO
 (
 pixman_fixed_frac
 (
@@ -2054,7 +2062,7 @@ t
 {
 return
 (
-is_same
+IS_SAME
 (
 t
 -
@@ -2079,7 +2087,7 @@ matrix
 )
 &
 &
-is_same
+IS_SAME
 (
 t
 -
@@ -2105,7 +2113,7 @@ matrix
 &
 &
 !
-is_zero
+IS_ZERO
 (
 t
 -
@@ -2120,7 +2128,7 @@ matrix
 )
 &
 &
-is_zero
+IS_ZERO
 (
 t
 -
@@ -2135,7 +2143,7 @@ matrix
 )
 &
 &
-is_zero
+IS_ZERO
 (
 t
 -
@@ -2150,7 +2158,7 @@ matrix
 )
 &
 &
-is_zero
+IS_ZERO
 (
 t
 -
@@ -2165,7 +2173,7 @@ matrix
 )
 &
 &
-is_zero
+IS_ZERO
 (
 t
 -
@@ -2180,7 +2188,7 @@ matrix
 )
 &
 &
-is_zero
+IS_ZERO
 (
 t
 -
@@ -2195,7 +2203,7 @@ matrix
 )
 &
 &
-is_zero
+IS_ZERO
 (
 t
 -
@@ -2225,7 +2233,7 @@ t
 return
 (
 !
-is_zero
+IS_ZERO
 (
 t
 -
@@ -2240,7 +2248,7 @@ matrix
 )
 &
 &
-is_zero
+IS_ZERO
 (
 t
 -
@@ -2255,7 +2263,7 @@ matrix
 )
 &
 &
-is_zero
+IS_ZERO
 (
 t
 -
@@ -2270,7 +2278,7 @@ matrix
 )
 &
 &
-is_zero
+IS_ZERO
 (
 t
 -
@@ -2286,7 +2294,7 @@ matrix
 &
 &
 !
-is_zero
+IS_ZERO
 (
 t
 -
@@ -2301,7 +2309,7 @@ matrix
 )
 &
 &
-is_zero
+IS_ZERO
 (
 t
 -
@@ -2316,7 +2324,7 @@ matrix
 )
 &
 &
-is_zero
+IS_ZERO
 (
 t
 -
@@ -2331,7 +2339,7 @@ matrix
 )
 &
 &
-is_zero
+IS_ZERO
 (
 t
 -
@@ -2347,7 +2355,7 @@ matrix
 &
 &
 !
-is_zero
+IS_ZERO
 (
 t
 -
@@ -2376,7 +2384,7 @@ t
 {
 return
 (
-is_one
+IS_ONE
 (
 t
 -
@@ -2391,7 +2399,7 @@ matrix
 )
 &
 &
-is_zero
+IS_ZERO
 (
 t
 -
@@ -2406,7 +2414,7 @@ matrix
 )
 &
 &
-is_int
+IS_INT
 (
 t
 -
@@ -2421,7 +2429,7 @@ matrix
 )
 &
 &
-is_zero
+IS_ZERO
 (
 t
 -
@@ -2436,7 +2444,7 @@ matrix
 )
 &
 &
-is_one
+IS_ONE
 (
 t
 -
@@ -2451,7 +2459,7 @@ matrix
 )
 &
 &
-is_int
+IS_INT
 (
 t
 -
@@ -2466,7 +2474,7 @@ matrix
 )
 &
 &
-is_zero
+IS_ZERO
 (
 t
 -
@@ -2481,7 +2489,7 @@ matrix
 )
 &
 &
-is_zero
+IS_ZERO
 (
 t
 -
@@ -2496,7 +2504,7 @@ matrix
 )
 &
 &
-is_one
+IS_ONE
 (
 t
 -
@@ -2581,6 +2589,7 @@ j
 +
 +
 )
+{
 for
 (
 i
@@ -2621,6 +2630,7 @@ i
 )
 ;
 }
+}
 PIXMAN_EXPORT
 pixman_bool_t
 pixman_transform_from_pixman_f_transform
@@ -2654,6 +2664,7 @@ j
 +
 +
 )
+{
 for
 (
 i
@@ -2733,6 +2744,7 @@ floor
 d
 )
 ;
+}
 }
 return
 TRUE
@@ -3395,6 +3407,7 @@ dy
 +
 +
 )
+{
 for
 (
 dx
@@ -3466,6 +3479,7 @@ dx
 =
 v
 ;
+}
 }
 *
 dst
@@ -4530,6 +4544,7 @@ j
 +
 +
 )
+{
 for
 (
 i
@@ -4564,4 +4579,5 @@ j
 :
 0
 ;
+}
 }
