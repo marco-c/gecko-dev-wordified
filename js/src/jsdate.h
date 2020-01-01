@@ -404,8 +404,7 @@ js_DateGetYear
 JSContext
 *
 cx
-JSObject
-*
+JSRawObject
 obj
 )
 ;
@@ -419,8 +418,7 @@ js_DateGetMonth
 JSContext
 *
 cx
-JSObject
-*
+JSRawObject
 obj
 )
 ;
@@ -434,8 +432,7 @@ js_DateGetDate
 JSContext
 *
 cx
-JSObject
-*
+JSRawObject
 obj
 )
 ;
@@ -449,8 +446,7 @@ js_DateGetHours
 JSContext
 *
 cx
-JSObject
-*
+JSRawObject
 obj
 )
 ;
@@ -464,8 +460,7 @@ js_DateGetMinutes
 JSContext
 *
 cx
-JSObject
-*
+JSRawObject
 obj
 )
 ;
@@ -476,8 +471,7 @@ int
 )
 js_DateGetSeconds
 (
-JSObject
-*
+JSRawObject
 obj
 )
 ;
