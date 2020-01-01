@@ -660,6 +660,14 @@ MeasureSpec
 .
 makeMeasureSpec
 (
+(
+int
+)
+(
+0
+.
+5
+*
 mContext
 .
 getResources
@@ -671,6 +679,7 @@ getDisplayMetrics
 )
 .
 heightPixels
+)
 MeasureSpec
 .
 EXACTLY
