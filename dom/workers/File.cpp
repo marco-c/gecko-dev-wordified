@@ -753,9 +753,8 @@ sClass
 .
 name
 aFunctionName
-JS_GET_CLASS
+JS_GetClass
 (
-aCx
 aObj
 )
 -
@@ -810,9 +809,8 @@ aObj
 {
 JS_ASSERT
 (
-JS_GET_CLASS
+JS_GetClass
 (
-aCx
 aObj
 )
 =
@@ -1488,9 +1486,8 @@ JSClass
 *
 classPtr
 =
-JS_GET_CLASS
+JS_GetClass
 (
-aCx
 aObj
 )
 ;
@@ -1606,9 +1603,8 @@ sClass
 .
 name
 aFunctionName
-JS_GET_CLASS
+JS_GetClass
 (
-aCx
 aObj
 )
 -
@@ -1663,9 +1659,8 @@ aObj
 {
 JS_ASSERT
 (
-JS_GET_CLASS
+JS_GetClass
 (
-aCx
 aObj
 )
 =
@@ -1998,9 +1993,8 @@ JSClass
 *
 classPtr
 =
-JS_GET_CLASS
+JS_GetClass
 (
-aCx
 aObj
 )
 ;

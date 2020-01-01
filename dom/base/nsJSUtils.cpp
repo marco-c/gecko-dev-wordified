@@ -830,9 +830,8 @@ null
 ;
 clazz
 =
-JS_GET_CLASS
+JS_GetClass
 (
-aContext
 glob
 )
 ;

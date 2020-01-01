@@ -2740,9 +2740,6 @@ errResult
 bool
 IsCTypesGlobal
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -3762,9 +3759,6 @@ ffiType
 bool
 IsCType
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -3773,9 +3767,6 @@ obj
 bool
 IsCTypeProto
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -4246,9 +4237,6 @@ dataObj
 bool
 IsCData
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -4257,9 +4245,6 @@ obj
 bool
 IsCDataProto
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -4324,9 +4309,6 @@ Int64
 bool
 IsInt64
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -4339,9 +4321,6 @@ UInt64
 bool
 IsUInt64
 (
-JSContext
-*
-cx
 JSObject
 *
 obj

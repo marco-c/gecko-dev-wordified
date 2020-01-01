@@ -948,9 +948,8 @@ nsXBLJSClass
 (
 :
 :
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 )
@@ -1177,9 +1176,8 @@ nodeClass
 =
 :
 :
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 origObj
 )
 ;
@@ -6948,9 +6946,8 @@ clazz
 =
 :
 :
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 proto
 )
 ;

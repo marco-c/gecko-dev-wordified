@@ -7511,9 +7511,8 @@ P
 :
 if
 (
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 JS_GetPrototype
 (
 cx

@@ -477,9 +477,8 @@ t
 .
 JS_ASSERT
 (
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 global
 )
 -
