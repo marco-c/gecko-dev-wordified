@@ -125,6 +125,13 @@ AudioNode
 .
 h
 "
+#
+include
+"
+FFTBlock
+.
+h
+"
 namespace
 mozilla
 {
@@ -202,7 +209,11 @@ FftSize
 const
 {
 return
-mFFTSize
+mAnalysisBlock
+.
+FFTSize
+(
+)
 ;
 }
 void
@@ -326,8 +337,8 @@ aSize
 ;
 private
 :
-uint32_t
-mFFTSize
+FFTBlock
+mAnalysisBlock
 ;
 double
 mMinDecibels
