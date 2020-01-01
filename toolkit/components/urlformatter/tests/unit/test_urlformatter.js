@@ -808,7 +808,7 @@ E3
 app
 =
 %
-name
+NAME
 %
 &
 ver
