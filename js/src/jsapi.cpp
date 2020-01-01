@@ -3271,7 +3271,7 @@ JS_DoubleIsInt32
 (
 double
 d
-jsint
+int32_t
 *
 ip
 )
@@ -3280,10 +3280,6 @@ return
 JSDOUBLE_IS_INT32
 (
 d
-(
-int32_t
-*
-)
 ip
 )
 ;
@@ -11572,7 +11568,7 @@ NewIdArray
 JSContext
 *
 cx
-jsint
+int
 length
 )
 {
@@ -11648,7 +11644,7 @@ cx
 JSIdArray
 *
 ida
-jsint
+int
 length
 )
 {
@@ -11721,20 +11717,18 @@ atom
 JSIdArray
 *
 ida
-jsint
+int
 *
 ip
 )
 {
-jsint
-i
-length
-;
+int
 i
 =
 *
 ip
 ;
+int
 length
 =
 ida
@@ -11828,7 +11822,7 @@ atom
 JSIdArray
 *
 ida
-jsint
+int
 *
 ip
 JSBool
@@ -11892,7 +11886,7 @@ JSRuntime
 *
 rt
 ;
-jsint
+int
 i
 j
 k
@@ -16646,7 +16640,7 @@ endif
 /
 JS_PUBLIC_API
 (
-jsint
+int
 )
 JS_IdArrayLength
 (
@@ -16677,7 +16671,7 @@ cx
 JSIdArray
 *
 ida
-jsint
+int
 index
 )
 {
@@ -24038,7 +24032,7 @@ void
 *
 pdata
 ;
-jsint
+int
 index
 ;
 JSIdArray
@@ -24253,7 +24247,7 @@ jsid
 idp
 )
 {
-jsint
+int32_t
 i
 ;
 const
@@ -24671,7 +24665,7 @@ JS_NewArrayObject
 JSContext
 *
 cx
-jsint
+int
 length
 jsval
 *

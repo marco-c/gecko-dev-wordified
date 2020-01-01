@@ -2088,9 +2088,6 @@ GET_INT8
 pc
 )
 (
-(
-jsint
-)
 int8_t
 (
 (
@@ -2108,9 +2105,6 @@ GET_INT32
 pc
 )
 (
-(
-jsint
-)
 (
 (
 uint32_t

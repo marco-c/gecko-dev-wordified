@@ -29765,9 +29765,7 @@ id
 )
 )
 {
-jsint
-i
-;
+int32_t
 i
 =
 JSVAL_TO_INT
@@ -34894,7 +34892,7 @@ v
 )
 )
 {
-jsint
+int32_t
 i
 =
 JSVAL_TO_INT

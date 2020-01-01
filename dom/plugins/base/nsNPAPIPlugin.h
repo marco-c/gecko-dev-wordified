@@ -988,7 +988,7 @@ id
 ;
 }
 inline
-jsint
+int
 NPIdentifierToInt
 (
 NPIdentifier
@@ -1009,7 +1009,7 @@ inline
 NPIdentifier
 IntToNPIdentifier
 (
-jsint
+int
 i
 )
 {

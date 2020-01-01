@@ -1851,7 +1851,7 @@ StaticStrings
 :
 getInt
 (
-jsint
+int32_t
 i
 )
 {
@@ -2320,7 +2320,7 @@ chars
 '
 )
 {
-jsint
+int
 i
 =
 (

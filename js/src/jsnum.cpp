@@ -4063,9 +4063,9 @@ IntToCString
 ToCStringBuf
 *
 cbuf
-jsint
+int
 i
-jsint
+int
 base
 =
 10
@@ -4282,7 +4282,7 @@ JSContext
 cx
 double
 d
-jsint
+int
 base
 )
 ;
@@ -5331,11 +5331,11 @@ JSDToStrMode
 zeroArgMode
 JSDToStrMode
 oneArgMode
-jsint
+int
 precisionMin
-jsint
+int
 precisionMax
-jsint
+int
 precisionOffset
 CallArgs
 args
@@ -5459,7 +5459,7 @@ IntToCString
 (
 &
 cbuf
-jsint
+int
 (
 precision
 )
@@ -5500,7 +5500,7 @@ sizeof
 buf
 oneArgMode
 (
-jsint
+int
 )
 precision
 +
@@ -6915,7 +6915,7 @@ ToCStringBuf
 cbuf
 double
 d
-jsint
+int
 base
 =
 10
@@ -7113,7 +7113,7 @@ ToCStringBuf
 cbuf
 double
 d
-jsint
+int
 base
 /
 *
@@ -7164,7 +7164,7 @@ JSContext
 cx
 double
 d
-jsint
+int
 base
 )
 {

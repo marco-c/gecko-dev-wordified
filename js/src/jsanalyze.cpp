@@ -2700,7 +2700,7 @@ pc
 +
 JUMP_OFFSET_LEN
 ;
-jsint
+int32_t
 low
 =
 GET_JUMP_OFFSET
@@ -2713,7 +2713,7 @@ pc2
 =
 JUMP_OFFSET_LEN
 ;
-jsint
+int32_t
 high
 =
 GET_JUMP_OFFSET
@@ -2762,7 +2762,7 @@ true
 ;
 for
 (
-jsint
+int32_t
 i
 =
 low
@@ -10135,7 +10135,7 @@ pc
 +
 JUMP_OFFSET_LEN
 ;
-jsint
+int32_t
 low
 =
 GET_JUMP_OFFSET
@@ -10148,7 +10148,7 @@ pc2
 =
 JUMP_OFFSET_LEN
 ;
-jsint
+int32_t
 high
 =
 GET_JUMP_OFFSET
@@ -10163,7 +10163,7 @@ JUMP_OFFSET_LEN
 ;
 for
 (
-jsint
+int32_t
 i
 =
 low

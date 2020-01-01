@@ -1413,7 +1413,7 @@ true
 ;
 for
 (
-jsint
+int
 i
 =
 0
@@ -3198,7 +3198,7 @@ localroot
 ;
 for
 (
-jsint
+int
 i
 =
 0

@@ -1112,7 +1112,7 @@ pc
 unsigned
 ncases
 ;
-jsint
+int32_t
 low
 high
 ;
@@ -3806,7 +3806,7 @@ case
 JOF_TABLESWITCH
 :
 {
-jsint
+int32_t
 i
 low
 high
@@ -4202,7 +4202,7 @@ JOF_UINT16PAIR
 i
 =
 (
-jsint
+int
 )
 GET_UINT16
 (
@@ -4236,7 +4236,7 @@ JOF_UINT16
 i
 =
 (
-jsint
+int
 )
 GET_UINT16
 (
@@ -4266,7 +4266,7 @@ JSOP_NEWARRAY
 i
 =
 (
-jsint
+int
 )
 GET_UINT24
 (
@@ -9957,7 +9957,7 @@ JSAtom
 *
 label
 ;
-jsint
+int
 order
 ;
 /
@@ -11295,9 +11295,9 @@ GetLocalInSlot
 SprintStack
 *
 ss
-jsint
+int
 i
-jsint
+int
 slot
 JSObject
 *
@@ -11449,7 +11449,7 @@ GetLocal
 SprintStack
 *
 ss
-jsint
+int
 i
 )
 {
@@ -11832,7 +11832,7 @@ GetLocalInSlot
 (
 ss
 i
-jsint
+int
 (
 i
 -
@@ -11948,7 +11948,7 @@ GetLocalInSlot
 (
 ss
 i
-jsint
+int
 (
 i
 -
@@ -11980,7 +11980,7 @@ jp
 jsbytecode
 *
 pc
-jsint
+int
 *
 indexp
 )
@@ -12356,7 +12356,7 @@ cs
 unsigned
 oplen
 ;
-jsint
+int
 i
 ;
 const
@@ -13852,7 +13852,7 @@ d
 i
 =
 (
-jsint
+int
 )
 d
 ;
@@ -16994,7 +16994,7 @@ token
 unsigned
 nuses
 ;
-jsint
+int
 i
 argc
 ;
@@ -31621,7 +31621,7 @@ JSOP_UINT16
 i
 =
 (
-jsint
+int
 )
 GET_UINT16
 (
@@ -31637,7 +31637,7 @@ JSOP_UINT24
 i
 =
 (
-jsint
+int
 )
 GET_UINT24
 (
@@ -32991,7 +32991,7 @@ ptrdiff_t
 off
 off2
 ;
-jsint
+int32_t
 j
 n
 low
@@ -33626,7 +33626,7 @@ off
 off2
 caseOff
 ;
-jsint
+int
 ncases
 ;
 TableEntry
@@ -33944,7 +33944,7 @@ key
 INT_TO_JSVAL
 (
 (
-jsint
+int32_t
 )
 caseOff
 )

@@ -5709,7 +5709,7 @@ tc
 JSAtom
 *
 atom
-jsint
+int
 *
 slotp
 StmtInfo

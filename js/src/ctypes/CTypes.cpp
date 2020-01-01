@@ -8121,7 +8121,7 @@ to
 bool
 allowing
 JSBool
-jsint
+int
 and
 double
 /
@@ -8179,7 +8179,7 @@ val
 )
 )
 {
-jsint
+int32_t
 i
 =
 JSVAL_TO_INT
@@ -8282,7 +8282,7 @@ to
 IntegerType
 allowing
 JSBool
-jsint
+int
 double
 /
 /
@@ -8366,7 +8366,7 @@ right
 /
 sign
 .
-jsint
+int32_t
 i
 =
 JSVAL_TO_INT
@@ -8816,7 +8816,7 @@ val
 to
 FloatType
 allowing
-jsint
+int
 double
 /
 /
@@ -9638,7 +9638,7 @@ val
 to
 IntegerType
 allowing
-jsint
+int
 double
 /
 /
@@ -9730,7 +9730,7 @@ right
 /
 sign
 .
-jsint
+int32_t
 i
 =
 JSVAL_TO_INT
@@ -10087,7 +10087,7 @@ val
 to
 IntegerType
 allowing
-jsint
+int
 double
 /
 /
@@ -10179,7 +10179,7 @@ right
 /
 sign
 .
-jsint
+int32_t
 i
 =
 JSID_TO_INT
@@ -10787,7 +10787,7 @@ val
 {
 /
 /
-jsint
+int32_t
 always
 fits
 in
@@ -10810,7 +10810,7 @@ sign
 -
 extend
 .
-jsint
+int32_t
 i
 =
 JSVAL_TO_INT
@@ -11698,7 +11698,7 @@ result
 =
 INT_TO_JSVAL
 (
-jsint
+int32_t
 (
 value
 )
@@ -20840,8 +20840,8 @@ size
 property
 can
 be
-a
-jsint
+an
+int
 a
 double
 or
@@ -20970,8 +20970,8 @@ size
 property
 can
 be
-a
-jsint
+an
+int
 a
 double
 or
@@ -21075,8 +21075,8 @@ size
 property
 can
 be
-a
-jsint
+an
+int
 a
 double
 or
@@ -25175,8 +25175,8 @@ overflow
 and
 convert
 to
-a
-jsint
+an
+int
 or
 double
 as
@@ -26117,8 +26117,8 @@ length
 property
 can
 be
-a
-jsint
+an
+int
 a
 double
 or
@@ -26261,8 +26261,8 @@ length
 property
 can
 be
-a
-jsint
+an
+int
 a
 double
 or

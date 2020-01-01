@@ -1445,7 +1445,7 @@ ida
 {
 for
 (
-jsint
+int
 i
 =
 0

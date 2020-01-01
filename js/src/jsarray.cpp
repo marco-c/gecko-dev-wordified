@@ -1502,8 +1502,6 @@ lengthp
 =
 jsuint
 (
-jsint
-(
 tvr
 .
 value
@@ -1512,7 +1510,6 @@ value
 .
 toInt32
 (
-)
 )
 )
 ;
@@ -19006,7 +19003,7 @@ stop
 Value
 tosearch
 ;
-jsint
+int
 direction
 ;
 JSBool
