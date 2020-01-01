@@ -421,7 +421,7 @@ aStart
 *
 /
 static
-NS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 const_char_iterator
 nextWordBoundary
 (
@@ -630,7 +630,7 @@ to
 define
 findInString
 as
-NS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 *
 and
 rely
@@ -713,7 +713,7 @@ otherwise
 *
 /
 static
-NS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 findInString
 (

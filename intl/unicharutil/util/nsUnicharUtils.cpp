@@ -466,7 +466,7 @@ inlined
 versions
 .
 static
-NS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 uint32_t
 ToLowerCase_inline
 (
@@ -503,7 +503,7 @@ aChar
 ;
 }
 static
-NS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 uint32_t
 ToLowerCaseASCII_inline
 (
@@ -1740,7 +1740,7 @@ that
 already
 .
 static
-NS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 uint32_t
 GetLowerUTF8Codepoint
 (

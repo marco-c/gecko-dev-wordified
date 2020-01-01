@@ -40,6 +40,15 @@ inlining
 *
 /
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 INLINE
-NS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
