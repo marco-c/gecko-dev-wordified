@@ -17978,7 +17978,6 @@ else
 shouldHideTab
 =
 true
-;
 }
 /
 /
