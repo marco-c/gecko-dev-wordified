@@ -331,6 +331,14 @@ MDefinition
 rhs
 )
 ;
+bool
+lowerTruncateDToInt32
+(
+MTruncateToInt32
+*
+ins
+)
+;
 LGetPropertyCacheT
 *
 newLGetPropertyCacheT

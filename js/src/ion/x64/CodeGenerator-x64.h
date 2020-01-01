@@ -381,6 +381,14 @@ lir
 )
 ;
 bool
+visitTruncateDToInt32
+(
+LTruncateDToInt32
+*
+ins
+)
+;
+bool
 visitAsmJSLoadHeap
 (
 LAsmJSLoadHeap
