@@ -28774,6 +28774,17 @@ SELECTION_ON
 selCon
 -
 >
+SetSelectionFlags
+(
+nsISelectionDisplay
+:
+:
+DISPLAY_ALL
+)
+;
+selCon
+-
+>
 RepaintSelection
 (
 nsISelectionController
