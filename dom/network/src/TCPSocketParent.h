@@ -244,6 +244,13 @@ aBinaryType
 ;
 virtual
 bool
+RecvStartTLS
+(
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
 RecvSuspend
 (
 )
