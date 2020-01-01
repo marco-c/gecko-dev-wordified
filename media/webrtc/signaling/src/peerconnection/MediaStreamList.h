@@ -180,9 +180,9 @@ WrapObject
 JSContext
 *
 cx
-ErrorResult
-&
-error
+bool
+*
+aTookOwnership
 )
 ;
 DOMMediaStream
