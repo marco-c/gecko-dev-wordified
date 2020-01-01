@@ -274,7 +274,7 @@ png
 )
 ;
 }
-tree
+treechildren
 :
 -
 moz
@@ -285,8 +285,6 @@ dir
 (
 rtl
 )
->
-treechildren
 :
 :
 -
@@ -326,7 +324,7 @@ png
 )
 ;
 }
-tree
+treechildren
 :
 -
 moz
@@ -337,8 +335,6 @@ dir
 (
 rtl
 )
->
-treechildren
 :
 :
 -
@@ -381,7 +377,7 @@ png
 )
 ;
 }
-tree
+treechildren
 :
 -
 moz
@@ -392,8 +388,6 @@ dir
 (
 rtl
 )
->
-treechildren
 :
 :
 -
@@ -438,7 +432,7 @@ png
 )
 ;
 }
-tree
+treechildren
 :
 -
 moz
@@ -449,8 +443,6 @@ dir
 (
 rtl
 )
->
-treechildren
 :
 :
 -
