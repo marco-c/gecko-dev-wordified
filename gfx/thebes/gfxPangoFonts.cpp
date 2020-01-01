@@ -5632,10 +5632,6 @@ gfxFontconfigUtils
 DepFcStrEntry
 >
 existingFamilies
-;
-existingFamilies
-.
-Init
 (
 50
 )

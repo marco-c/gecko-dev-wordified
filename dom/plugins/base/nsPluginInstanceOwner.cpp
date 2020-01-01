@@ -5537,6 +5537,7 @@ char
 *
 >
 (
+NUM_CHARSETS
 )
 ;
 if
@@ -5546,14 +5547,6 @@ gCharsetMap
 )
 return
 NS_ERROR_OUT_OF_MEMORY
-;
-gCharsetMap
--
->
-Init
-(
-NUM_CHARSETS
-)
 ;
 for
 (

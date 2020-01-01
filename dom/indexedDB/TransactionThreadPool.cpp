@@ -529,12 +529,6 @@ thread
 "
 )
 ;
-mTransactionsInProgress
-.
-Init
-(
-)
-;
 nsresult
 rv
 ;

@@ -474,6 +474,10 @@ AccessibleWrap
 aContent
 aDoc
 )
+mAccessibleCache
+(
+kDefaultTreeCacheSize
+)
 {
 mType
 =
@@ -563,13 +567,6 @@ mGenericTypes
 eAutoCompletePopup
 ;
 }
-mAccessibleCache
-.
-Init
-(
-kDefaultTreeCacheSize
-)
-;
 }
 /
 /

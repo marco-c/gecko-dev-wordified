@@ -5402,13 +5402,6 @@ nsFrameJSScriptExecutorHolder
 *
 >
 ;
-sCachedScripts
--
->
-Init
-(
-)
-;
 nsRefPtr
 <
 nsScriptCacheCleaner

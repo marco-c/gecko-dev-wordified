@@ -3020,12 +3020,6 @@ nsTableRowGroupFrame
 >
 excludeRowGroups
 ;
-excludeRowGroups
-.
-Init
-(
-)
-;
 nsFrameList
 :
 :

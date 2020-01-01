@@ -562,10 +562,13 @@ fixed
 -
 point
 pixels
+nsAutoPtr
+<
 nsDataHashtable
 <
 nsUint32HashKey
 int32_t
+>
 >
 mGlyphWidths
 ;

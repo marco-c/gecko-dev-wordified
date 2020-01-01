@@ -351,12 +351,6 @@ to
 drop
 our
 reference
-mAttributeCache
-.
-Init
-(
-)
-;
 SetIsDOMBinding
 (
 )

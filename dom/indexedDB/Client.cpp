@@ -434,10 +434,6 @@ nsTHashtable
 nsStringHashKey
 >
 validSubdirs
-;
-validSubdirs
-.
-Init
 (
 20
 )

@@ -876,12 +876,6 @@ Init
 (
 )
 {
-mOverrideTable
-.
-Init
-(
-)
-;
 /
 /
 This

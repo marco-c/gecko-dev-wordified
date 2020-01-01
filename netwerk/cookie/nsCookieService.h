@@ -752,12 +752,6 @@ corruptFlag
 OK
 )
 {
-hostTable
-.
-Init
-(
-)
-;
 }
 NS_INLINE_DECL_REFCOUNTING
 (

@@ -657,12 +657,6 @@ BorderGradientCacheData
 GENERATION_MS
 )
 {
-mHashEntries
-.
-Init
-(
-)
-;
 mTimerPeriod
 =
 GENERATION_MS

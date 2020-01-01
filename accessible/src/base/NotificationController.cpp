@@ -387,12 +387,6 @@ mPresShell
 aPresShell
 )
 {
-mTextHash
-.
-Init
-(
-)
-;
 /
 /
 Schedule

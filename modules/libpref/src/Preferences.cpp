@@ -1355,13 +1355,6 @@ ValueObserver
 (
 )
 ;
-gObserverTable
--
->
-Init
-(
-)
-;
 /
 /
 Preferences

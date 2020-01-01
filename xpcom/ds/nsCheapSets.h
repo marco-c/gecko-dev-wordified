@@ -551,13 +551,6 @@ EntryType
 (
 )
 ;
-table
--
->
-Init
-(
-)
-;
 EntryType
 *
 entry

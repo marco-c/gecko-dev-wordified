@@ -1921,12 +1921,6 @@ mXPCOMifier
 nullptr
 )
 {
-mAlreadySetHeaders
-.
-Init
-(
-)
-;
 SetIsDOMBinding
 (
 )

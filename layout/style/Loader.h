@@ -3272,6 +3272,9 @@ LoadDataArray
 aDatasToNotify
 )
 ;
+struct
+Sheets
+{
 nsRefPtrHashtable
 <
 URIPrincipalAndCORSModeHashKey
@@ -3303,6 +3306,14 @@ mPendingDatas
 /
 weak
 refs
+}
+;
+nsAutoPtr
+<
+Sheets
+>
+mSheets
+;
 /
 /
 We

@@ -3367,12 +3367,6 @@ mForceGDIClassicMaxFontSize
 0
 )
 {
-mFontSubstitutes
-.
-Init
-(
-)
-;
 }
 /
 /
@@ -3581,6 +3575,9 @@ if
 (
 lookup
 =
+mExtraNames
+-
+>
 mPostscriptNames
 .
 GetWeak
@@ -3594,6 +3591,9 @@ aFullname
 (
 lookup
 =
+mExtraNames
+-
+>
 mFullnames
 .
 GetWeak

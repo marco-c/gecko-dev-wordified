@@ -913,12 +913,6 @@ Init
 (
 )
 {
-mDictionaries
-.
-Init
-(
-)
-;
 LoadDictionaryList
 (
 )

@@ -291,12 +291,6 @@ Paint
 (
 )
 {
-mPatternCache
-.
-Init
-(
-)
-;
 }
 void
 SetPaintServer

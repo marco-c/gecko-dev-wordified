@@ -1843,12 +1843,6 @@ SetIndefinite
 (
 )
 ;
-mTimeDependents
-.
-Init
-(
-)
-;
 }
 nsSMILTimedElement
 :

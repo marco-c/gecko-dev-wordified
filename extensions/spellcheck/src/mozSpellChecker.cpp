@@ -1648,12 +1648,6 @@ nsCString
 >
 dictionaries
 ;
-dictionaries
-.
-Init
-(
-)
-;
 nsCOMArray
 <
 mozISpellCheckingEngine

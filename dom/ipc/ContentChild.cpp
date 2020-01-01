@@ -6719,13 +6719,6 @@ nsHashPropertyBag
 props
 -
 >
-Init
-(
-)
-;
-props
--
->
 SetPropertyAsInt32
 (
 NS_LITERAL_STRING

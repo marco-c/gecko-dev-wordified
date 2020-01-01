@@ -3732,6 +3732,10 @@ aCairoFont
 aFontEntry
 aFontStyle
 )
+mCharGlyphCache
+(
+64
+)
 {
 NS_ASSERTION
 (
@@ -3755,13 +3759,6 @@ whack
 mApplySyntheticBold
 =
 aNeedsBold
-;
-mCharGlyphCache
-.
-Init
-(
-64
-)
 ;
 }
 gfxFT2Font

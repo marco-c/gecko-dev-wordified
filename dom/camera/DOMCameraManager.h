@@ -530,11 +530,8 @@ protected
 /
 static
 WindowTable
+*
 sActiveWindows
-;
-static
-bool
-sActiveWindowsInitialized
 ;
 }
 ;

@@ -3274,13 +3274,6 @@ ContentParent
 (
 )
 ;
-sAppContentParents
--
->
-Init
-(
-)
-;
 }
 /
 /
@@ -6050,13 +6043,6 @@ props
 =
 new
 nsHashPropertyBag
-(
-)
-;
-props
--
->
-Init
 (
 )
 ;

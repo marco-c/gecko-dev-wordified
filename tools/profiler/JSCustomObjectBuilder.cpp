@@ -692,12 +692,6 @@ JSCustomObject
 (
 )
 {
-mProperties
-.
-Init
-(
-)
-;
 }
 ~
 JSCustomObject

@@ -923,6 +923,13 @@ mSearchedForLibxul
 (
 false
 )
+mMozillaLibraries
+(
+ArrayLength
+(
+mozillaLibraries
+)
+)
 {
 const
 uint32_t
@@ -931,13 +938,6 @@ len
 ArrayLength
 (
 mozillaLibraries
-)
-;
-mMozillaLibraries
-.
-Init
-(
-len
 )
 ;
 for

@@ -6573,12 +6573,6 @@ UrlClassifierDBServiceWorkerProxy
 mWorker
 )
 ;
-mCompleters
-.
-Init
-(
-)
-;
 /
 /
 Add

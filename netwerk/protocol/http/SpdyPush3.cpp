@@ -1114,12 +1114,6 @@ SpdyPushCache3
 (
 )
 {
-mHash
-.
-Init
-(
-)
-;
 }
 SpdyPushCache3
 :
@@ -1129,12 +1123,6 @@ SpdyPushCache3
 (
 )
 {
-mHash
-.
-Clear
-(
-)
-;
 }
 SpdyPushedStream3
 *

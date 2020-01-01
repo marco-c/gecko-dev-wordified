@@ -281,12 +281,6 @@ nsPresArena
 (
 )
 {
-mFreeLists
-.
-Init
-(
-)
-;
 PL_INIT_ARENA_POOL
 (
 &

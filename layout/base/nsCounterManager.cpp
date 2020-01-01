@@ -1406,14 +1406,12 @@ nsCounterManager
 nsCounterManager
 (
 )
-{
+:
 mNames
-.
-Init
 (
 16
 )
-;
+{
 }
 bool
 nsCounterManager

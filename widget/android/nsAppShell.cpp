@@ -1011,12 +1011,6 @@ Widget
 ;
 #
 endif
-mObserversHash
-.
-Init
-(
-)
-;
 nsresult
 rv
 =

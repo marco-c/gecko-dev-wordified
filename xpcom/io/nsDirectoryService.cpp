@@ -1501,14 +1501,12 @@ nsDirectoryService
 nsDirectoryService
 (
 )
-{
+:
 mHashtable
-.
-Init
 (
 256
 )
-;
+{
 }
 nsresult
 nsDirectoryService

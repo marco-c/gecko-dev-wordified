@@ -1361,12 +1361,6 @@ value
 =
 0
 ;
-mTouches
-.
-Init
-(
-)
-;
 /
 /
 Create

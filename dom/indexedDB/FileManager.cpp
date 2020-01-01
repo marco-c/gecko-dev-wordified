@@ -393,12 +393,6 @@ connection
 "
 )
 ;
-mFileInfos
-.
-Init
-(
-)
-;
 bool
 exists
 ;

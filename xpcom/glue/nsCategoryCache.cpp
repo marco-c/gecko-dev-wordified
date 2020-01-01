@@ -139,12 +139,6 @@ mObserversRemoved
 false
 )
 {
-mHash
-.
-Init
-(
-)
-;
 mListener
 =
 aListener

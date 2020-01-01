@@ -301,12 +301,6 @@ return
 NS_ERROR_NOT_SAME_THREAD
 ;
 }
-mSettingsTable
-.
-Init
-(
-)
-;
 nsCOMPtr
 <
 nsIObserverService

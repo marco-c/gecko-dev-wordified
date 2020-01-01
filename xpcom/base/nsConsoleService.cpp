@@ -534,12 +534,6 @@ nsIConsoleMessage
 )
 )
 ;
-mListeners
-.
-Init
-(
-)
-;
 NS_DispatchToMainThread
 (
 new

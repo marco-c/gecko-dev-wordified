@@ -917,12 +917,6 @@ mOriginQuotaUsage
 0
 )
 {
-mKeys
-.
-Init
-(
-)
-;
 }
 int64_t
 mOriginQuotaUsage

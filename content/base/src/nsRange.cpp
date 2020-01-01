@@ -2467,13 +2467,6 @@ ranges
 new
 RangeHashTable
 ;
-ranges
--
->
-Init
-(
-)
-;
 aNode
 -
 >

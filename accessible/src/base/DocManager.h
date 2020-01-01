@@ -328,8 +328,7 @@ protected
 DocManager
 (
 )
-{
-}
+;
 /
 *
 *

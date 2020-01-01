@@ -953,12 +953,6 @@ rdf
 )
 )
 ;
-mQNames
-.
-Init
-(
-)
-;
 mPrefixID
 =
 0

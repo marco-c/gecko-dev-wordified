@@ -170,12 +170,6 @@ nsLanguageAtomService
 (
 )
 {
-mLangToGroup
-.
-Init
-(
-)
-;
 }
 nsresult
 nsLanguageAtomService

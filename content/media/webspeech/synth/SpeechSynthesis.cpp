@@ -389,12 +389,6 @@ SetIsDOMBinding
 (
 )
 ;
-mVoiceCache
-.
-Init
-(
-)
-;
 }
 SpeechSynthesis
 :
@@ -404,12 +398,6 @@ SpeechSynthesis
 (
 )
 {
-mVoiceCache
-.
-Clear
-(
-)
-;
 }
 JSObject
 *

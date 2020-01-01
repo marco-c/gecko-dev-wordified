@@ -23971,6 +23971,10 @@ mIsAllBookmarksObserver
 (
 false
 )
+mBookmarkFolderObservers
+(
+128
+)
 mBatchInProgress
 (
 false
@@ -24317,13 +24321,6 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
-)
-;
-mBookmarkFolderObservers
-.
-Init
-(
-128
 )
 ;
 NS_ASSERTION

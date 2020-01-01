@@ -1079,12 +1079,6 @@ MOZ_COUNT_CTOR
 LayerManagerData
 )
 ;
-mDisplayItems
-.
-Init
-(
-)
-;
 }
 ~
 LayerManagerData
@@ -1460,12 +1454,6 @@ IsSnappingEffectiveTransforms
 mParameters
 .
 AllowResidualTranslation
-(
-)
-;
-mRecycledMaskImageLayers
-.
-Init
 (
 )
 ;

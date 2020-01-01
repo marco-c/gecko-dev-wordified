@@ -10554,13 +10554,6 @@ MediaElementURITable
 (
 )
 ;
-gElementTable
--
->
-Init
-(
-)
-;
 }
 MediaElementSetForURI
 *

@@ -2696,12 +2696,6 @@ mAsyncOnly
 aAsyncOnly
 )
 {
-mFunctions
-.
-Init
-(
-)
-;
 mStorageService
 -
 >

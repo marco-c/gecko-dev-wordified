@@ -743,12 +743,6 @@ exited
 false
 )
 ;
-mPrivateModeHostTable
-.
-Init
-(
-)
-;
 return
 NS_OK
 ;

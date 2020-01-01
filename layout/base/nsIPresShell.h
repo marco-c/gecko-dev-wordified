@@ -7176,6 +7176,7 @@ dom
 :
 Touch
 >
+*
 gCaptureTouchList
 ;
 static

@@ -421,12 +421,6 @@ aWindow
 /
 weak
 ptr
-mObserversTable
-.
-Init
-(
-)
-;
 return
 NS_OK
 ;

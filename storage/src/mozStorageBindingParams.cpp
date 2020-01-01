@@ -783,12 +783,6 @@ BindingParams
 aOwningArray
 )
 {
-mNamedParameters
-.
-Init
-(
-)
-;
 }
 void
 BindingParams

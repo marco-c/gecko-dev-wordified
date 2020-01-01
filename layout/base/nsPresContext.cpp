@@ -15079,12 +15079,6 @@ mDOMGeneration
 0
 )
 {
-mRegisteredPlugins
-.
-Init
-(
-)
-;
 }
 nsRootPresContext
 :

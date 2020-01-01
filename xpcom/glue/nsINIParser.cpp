@@ -609,12 +609,6 @@ FILE
 fd
 )
 {
-mSections
-.
-Init
-(
-)
-;
 /
 *
 get

@@ -98,12 +98,6 @@ nsFontFaceList
 (
 )
 {
-mFontFaces
-.
-Init
-(
-)
-;
 }
 nsFontFaceList
 :

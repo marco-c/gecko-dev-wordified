@@ -368,8 +368,14 @@ AsyncClearAll
 (
 )
 {
+if
+(
 mScopesHavingData
-.
+)
+{
+mScopesHavingData
+-
+>
 Clear
 (
 )
@@ -386,6 +392,7 @@ process
 otherwise
 *
 /
+}
 }
 virtual
 void
@@ -573,9 +580,12 @@ for
 optimization
 purposes
 only
+nsAutoPtr
+<
 nsTHashtable
 <
 nsCStringHashKey
+>
 >
 mScopesHavingData
 ;

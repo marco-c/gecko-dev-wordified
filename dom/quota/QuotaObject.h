@@ -275,12 +275,6 @@ mUsage
 aUsage
 )
 {
-mQuotaObjects
-.
-Init
-(
-)
-;
 }
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (

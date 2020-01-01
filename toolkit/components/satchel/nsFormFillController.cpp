@@ -402,12 +402,6 @@ controller
 "
 )
 ;
-mPwmgrInputs
-.
-Init
-(
-)
-;
 }
 struct
 PwmgrInputsEnumData

@@ -865,12 +865,6 @@ memory
 "
 )
 ;
-mIdentifiers
-.
-Init
-(
-)
-;
 Preferences
 :
 :
@@ -3658,10 +3652,6 @@ return
 ;
 AnnotationTable
 notes
-;
-notes
-.
-Init
 (
 4
 )

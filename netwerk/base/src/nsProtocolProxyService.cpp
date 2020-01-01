@@ -2650,12 +2650,6 @@ Init
 (
 )
 {
-mFailedProxies
-.
-Init
-(
-)
-;
 /
 /
 failure

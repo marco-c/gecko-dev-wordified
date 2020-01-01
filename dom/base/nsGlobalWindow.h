@@ -7022,6 +7022,8 @@ nsIDOMOfflineResourceList
 >
 mApplicationCache
 ;
+nsAutoPtr
+<
 nsJSThingHashtable
 <
 nsPtrHashKey
@@ -7030,6 +7032,7 @@ nsXBLPrototypeHandler
 >
 JSObject
 *
+>
 >
 mCachedXBLPrototypeHandlers
 ;

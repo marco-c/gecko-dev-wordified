@@ -303,6 +303,7 @@ nsTHashtable
 <
 nsUint32HashKey
 >
+*
 sLanguageTags
 ;
 }

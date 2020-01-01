@@ -1297,10 +1297,6 @@ nsTHashtable
 ImageAnalysisEntry
 >
 imageTable
-;
-imageTable
-.
-Init
 (
 10
 )

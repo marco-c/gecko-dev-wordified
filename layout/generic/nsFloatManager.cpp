@@ -2322,10 +2322,6 @@ nsIFrame
 >
 >
 frameSet
-;
-frameSet
-.
-Init
 (
 1
 )

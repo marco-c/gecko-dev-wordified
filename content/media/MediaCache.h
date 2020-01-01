@@ -3736,12 +3736,6 @@ mCount
 0
 )
 {
-mEntries
-.
-Init
-(
-)
-;
 }
 ~
 BlockList

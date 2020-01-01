@@ -7034,12 +7034,6 @@ PR_INIT_CLIST
 mDoomedEntries
 )
 ;
-mCustomOfflineDevices
-.
-Init
-(
-)
-;
 }
 nsCacheService
 :

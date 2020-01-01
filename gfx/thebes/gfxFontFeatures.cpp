@@ -121,14 +121,12 @@ gfxFontFeatureValueSet
 gfxFontFeatureValueSet
 (
 )
-{
+:
 mFontFeatureValues
-.
-Init
 (
 10
 )
-;
+{
 }
 bool
 gfxFontFeatureValueSet

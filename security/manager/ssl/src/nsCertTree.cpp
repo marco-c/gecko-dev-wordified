@@ -2490,12 +2490,6 @@ nsCStringHashKey
 >
 allHostPortOverrideKeys
 ;
-allHostPortOverrideKeys
-.
-Init
-(
-)
-;
 if
 (
 aWantedType
