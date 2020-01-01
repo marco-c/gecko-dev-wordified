@@ -6822,7 +6822,7 @@ Editor
 to
 commit
 the
-uncommited
+uncommitted
 input
 *
 /
