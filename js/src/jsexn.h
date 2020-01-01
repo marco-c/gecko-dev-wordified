@@ -398,9 +398,6 @@ JSErrorReport
 *
 js_ErrorFromException
 (
-JSContext
-*
-cx
 jsval
 exn
 )
