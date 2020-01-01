@@ -646,7 +646,7 @@ function
 '
 :
 lambda
-file
+f
 :
 self
 .
@@ -654,7 +654,7 @@ dm
 .
 removeFile
 (
-file
+f
 )
                                     
 '
@@ -702,7 +702,7 @@ function
 '
 :
 lambda
-dir
+d
 :
 self
 .
@@ -710,7 +710,7 @@ dm
 .
 removeDir
 (
-dir
+d
 )
                                     
 '
