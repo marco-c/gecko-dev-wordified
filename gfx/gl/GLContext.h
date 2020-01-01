@@ -6869,7 +6869,7 @@ i
 {
 if
 (
-strcmp
+strcasecmp
 (
 cur
 extList
