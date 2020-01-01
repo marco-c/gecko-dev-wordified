@@ -164,7 +164,7 @@ root
 s
 )
 .
-AutoObjectVector
+AutoScriptVector
 worklist_
 ;
 /
@@ -235,7 +235,7 @@ Should
 we
 append
 a
-function
+script
 to
 the
 worklist
@@ -243,8 +243,8 @@ worklist
 bool
 appendToWorklist
 (
-HandleFunction
-fun
+HandleScript
+script
 )
 ;
 ExecutionMode

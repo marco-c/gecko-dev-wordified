@@ -457,8 +457,8 @@ status
 void
 SpewBeginCompile
 (
-HandleFunction
-fun
+HandleScript
+script
 )
 ;
 ion
@@ -590,8 +590,8 @@ inline
 void
 SpewBeginCompile
 (
-HandleFunction
-fun
+HandleScript
+script
 )
 {
 }
