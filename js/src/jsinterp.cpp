@@ -4452,6 +4452,7 @@ setObject
 obj
 )
 ;
+}
 cx
 -
 >
@@ -4480,7 +4481,6 @@ pc
 vp
 )
 ;
-}
 return
 true
 ;
