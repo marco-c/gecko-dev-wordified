@@ -459,6 +459,16 @@ if
 appid
 )
 {
+/
+/
+Assume
+message
+without
+applicatioin
+ID
+is
+WAP
+Push
 debug
 (
 "
@@ -478,8 +488,6 @@ Id
 .
 "
 )
-;
-return
 ;
 }
 /
