@@ -724,6 +724,8 @@ AvmDebugLog
 "
 %
 s
+\
+n
 "
 m
 )
