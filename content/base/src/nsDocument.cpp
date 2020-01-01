@@ -44198,6 +44198,12 @@ HasPluginWithUncontrolledEventDispatch
 (
 this
 )
+|
+|
+!
+IsVisible
+(
+)
 )
 {
 return
