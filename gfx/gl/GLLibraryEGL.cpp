@@ -291,9 +291,6 @@ EnsureInitialized
 (
 )
 {
-nsresult
-rv
-;
 if
 (
 mInitialized
@@ -367,6 +364,9 @@ libGLESv2
 .
 dll
 .
+nsresult
+rv
+;
 nsCOMPtr
 <
 nsIFile

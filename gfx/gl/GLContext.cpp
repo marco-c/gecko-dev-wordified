@@ -6628,6 +6628,10 @@ mCurrentImage
 (
 0
 )
+mIterationCallback
+(
+nsnull
+)
 mInUpdate
 (
 false
@@ -6647,10 +6651,6 @@ aGL
 mTextureState
 (
 Created
-)
-mIterationCallback
-(
-nsnull
 )
 {
 mTileSize
