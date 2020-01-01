@@ -1039,7 +1039,7 @@ mType
 PRBool
 mDoSilentDownload
 ;
-nsAutoString
+nsString
 mCrlAutoDownloadKey
 ;
 nsCOMPtr
