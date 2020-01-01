@@ -4040,8 +4040,7 @@ GetFinalState
 (
 &
 state
-&
-extraState
+nsnull
 )
 ;
 if

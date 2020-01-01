@@ -2147,8 +2147,12 @@ GetFinalState
 (
 &
 state
+mIsExtraState
+?
 &
 extraState
+:
+nsnull
 )
 ;
 mIsEnabled

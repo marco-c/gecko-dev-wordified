@@ -667,9 +667,6 @@ PRUint32
 states
 =
 0
-extraStates
-=
-0
 ;
 nsresult
 rv
@@ -681,8 +678,7 @@ GetFinalState
 (
 &
 states
-&
-extraStates
+nsnull
 )
 ;
 if
