@@ -599,9 +599,12 @@ commonDialog
 >
 image
 {
+-
+moz
+-
 margin
 -
-right
+end
 :
 14px
 !
@@ -618,9 +621,12 @@ button
 -
 box
 {
+-
+moz
+-
 margin
 -
-left
+start
 :
 80px
 ;
