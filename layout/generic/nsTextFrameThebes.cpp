@@ -18970,9 +18970,11 @@ NS_round
 (
 GetFirstFontMetrics
 (
-GetFontGroupForFrame
+aTextRun
+-
+>
+GetFontGroup
 (
-aFrame
 )
 )
 .
