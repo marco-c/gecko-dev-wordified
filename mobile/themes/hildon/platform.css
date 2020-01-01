@@ -982,6 +982,8 @@ border
 width
 :
 8px
+!
+important
 ;
 -
 moz
@@ -1088,6 +1090,8 @@ color
 :
 #
 aaa
+!
+important
 ;
 }
 /
@@ -1201,12 +1205,16 @@ color
 :
 #
 fff
+!
+important
 ;
 background
 -
 color
 :
 transparent
+!
+important
 ;
 -
 moz
@@ -1327,6 +1335,8 @@ color
 :
 #
 ddd
+!
+important
 ;
 }
 /
