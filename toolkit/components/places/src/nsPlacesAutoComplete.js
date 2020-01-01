@@ -813,12 +813,12 @@ true
 observer
 topics
 const
-kQuitApplication
+kXPComShutdown
 =
 "
-quit
+xpcom
 -
-application
+shutdown
 "
 ;
 const
@@ -3682,7 +3682,7 @@ _os
 addObserver
 (
 this
-kQuitApplication
+kXPComShutdown
 false
 )
 ;
@@ -4817,7 +4817,7 @@ if
 aTopic
 =
 =
-kQuitApplication
+kXPComShutdown
 )
 {
 this
@@ -4827,7 +4827,7 @@ _os
 removeObserver
 (
 this
-kQuitApplication
+kXPComShutdown
 )
 ;
 /

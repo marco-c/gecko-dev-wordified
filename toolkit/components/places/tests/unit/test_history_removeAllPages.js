@@ -451,17 +451,6 @@ BLOCK
 /
 /
 /
-Enable
-syncing
-for
-this
-test
-start_sync
-(
-)
-;
-/
-/
 Get
 services
 .
@@ -1985,7 +1974,7 @@ finalize
 (
 )
 ;
-finish_test
+do_test_finished
 (
 )
 ;

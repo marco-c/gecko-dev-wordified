@@ -1057,7 +1057,7 @@ bookmarksObserver
 test
 ends
 here
-finish_test
+do_test_finished
 (
 )
 ;

@@ -826,7 +826,7 @@ aType
 )
 {
 var
-placeID
+visitId
 =
 histsvc
 .
@@ -858,7 +858,7 @@ redirect
 )
 ;
 return
-placeID
+visitId
 ;
 }
 /
@@ -1932,14 +1932,6 @@ might
 not
 be
 available
-start_sync
-(
-)
-;
-/
-/
-enable
-syncing
 /
 /
 need
@@ -2587,7 +2579,7 @@ keep_current_session
 "
 )
 ;
-finish_test
+do_test_finished
 (
 )
 ;

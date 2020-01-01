@@ -1409,7 +1409,7 @@ fileSize
 fileSize
 )
 ;
-finish_test
+do_test_finished
 (
 )
 ;
