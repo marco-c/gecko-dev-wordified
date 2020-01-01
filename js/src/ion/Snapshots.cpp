@@ -1086,12 +1086,6 @@ readByte
 (
 )
 ;
-script_
-=
-u
-.
-script
-;
 #
 endif
 pcOffset_
