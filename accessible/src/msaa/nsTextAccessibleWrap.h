@@ -785,12 +785,6 @@ GetPointFromOffset
 nsIFrame
 *
 aContainingFrame
-nsPresContext
-*
-aPresContext
-nsIRenderingContext
-*
-aRenderingContext
 PRInt32
 aOffset
 PRBool
