@@ -205,6 +205,9 @@ class
 nsContentList
 ;
 class
+nsDocument
+;
+class
 nsGlobalWindow
 ;
 class
