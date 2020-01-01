@@ -632,11 +632,11 @@ PRUint32
 aExtraState
 )
 ;
-NS_IMETHOD
-GetAttributes
+virtual
+nsresult
+GetAttributesInternal
 (
 nsIPersistentProperties
-*
 *
 aAttributes
 )

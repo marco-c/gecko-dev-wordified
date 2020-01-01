@@ -2865,14 +2865,13 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXULRadioButtonAccessible
 :
 :
-GetAttributes
+GetAttributesInternal
 (
 nsIPersistentProperties
-*
 *
 aAttributes
 )
@@ -2894,7 +2893,7 @@ rv
 nsFormControlAccessible
 :
 :
-GetAttributes
+GetAttributesInternal
 (
 aAttributes
 )
@@ -2911,7 +2910,6 @@ nsAccessibilityUtils
 SetAccAttrsForXULSelectControlItem
 (
 mDOMNode
-*
 aAttributes
 )
 ;

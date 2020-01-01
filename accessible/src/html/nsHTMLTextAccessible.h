@@ -516,11 +516,11 @@ PRUint32
 aRole
 )
 ;
-NS_IMETHOD
-GetAttributes
+virtual
+nsresult
+GetAttributesInternal
 (
 nsIPersistentProperties
-*
 *
 aAttributes
 )

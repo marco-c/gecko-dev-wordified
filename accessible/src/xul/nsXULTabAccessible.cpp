@@ -965,14 +965,13 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXULTabAccessible
 :
 :
-GetAttributes
+GetAttributesInternal
 (
 nsIPersistentProperties
-*
 *
 aAttributes
 )
@@ -994,7 +993,7 @@ rv
 nsLeafAccessible
 :
 :
-GetAttributes
+GetAttributesInternal
 (
 aAttributes
 )
@@ -1011,7 +1010,6 @@ nsAccessibilityUtils
 SetAccAttrsForXULSelectControlItem
 (
 mDOMNode
-*
 aAttributes
 )
 ;

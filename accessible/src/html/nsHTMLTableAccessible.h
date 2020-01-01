@@ -590,11 +590,11 @@ nsAString
 aResult
 )
 ;
-NS_IMETHOD
-GetAttributes
+virtual
+nsresult
+GetAttributesInternal
 (
 nsIPersistentProperties
-*
 *
 aAttributes
 )

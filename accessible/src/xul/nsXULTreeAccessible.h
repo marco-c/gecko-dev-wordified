@@ -845,11 +845,11 @@ nsAString
 aName
 )
 ;
-NS_IMETHOD
-GetAttributes
+virtual
+nsresult
+GetAttributesInternal
 (
 nsIPersistentProperties
-*
 *
 aAttributes
 )

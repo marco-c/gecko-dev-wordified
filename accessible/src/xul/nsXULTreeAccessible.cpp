@@ -3890,14 +3890,13 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXULTreeitemAccessible
 :
 :
-GetAttributes
+GetAttributesInternal
 (
 nsIPersistentProperties
-*
 *
 aAttributes
 )
@@ -3919,7 +3918,7 @@ rv
 nsLeafAccessible
 :
 :
-GetAttributes
+GetAttributesInternal
 (
 aAttributes
 )
@@ -4108,7 +4107,6 @@ nsAccessibilityUtils
 :
 SetAccGroupAttrs
 (
-*
 aAttributes
 level
 +

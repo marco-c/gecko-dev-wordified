@@ -3271,14 +3271,13 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLSelectOptionAccessible
 :
 :
-GetAttributes
+GetAttributesInternal
 (
 nsIPersistentProperties
-*
 *
 aAttributes
 )
@@ -3300,7 +3299,7 @@ rv
 nsHyperTextAccessible
 :
 :
-GetAttributes
+GetAttributesInternal
 (
 aAttributes
 )
@@ -3397,7 +3396,6 @@ nsAccessibilityUtils
 :
 SetAccGroupAttrs
 (
-*
 aAttributes
 level
 indexOf
