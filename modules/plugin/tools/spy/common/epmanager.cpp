@@ -836,10 +836,7 @@ realNPPFuncs
 .
 javaClass
 =
-funcs
--
->
-javaClass
+NULL
 ;
 eps
 -

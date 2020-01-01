@@ -867,13 +867,6 @@ ToolUtils
 .
 h
 >
-#
-include
-"
-jri
-.
-h
-"
 /
 /
 The
@@ -1315,12 +1308,6 @@ reason
 void
 *
 notifyData
-)
-;
-jref
-Private_GetJavaClass
-(
-void
 )
 ;
 NPError

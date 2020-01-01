@@ -762,12 +762,6 @@ void
 notifyData
 )
 ;
-jref
-callNPP_GetJavaClass
-(
-void
-)
-;
 NPError
 callNPP_GetValue
 (

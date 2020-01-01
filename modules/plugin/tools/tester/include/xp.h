@@ -1273,13 +1273,6 @@ h
 #
 include
 "
-jri
-.
-h
-"
-#
-include
-"
 npapi
 .
 h
@@ -1732,12 +1725,6 @@ reason
 void
 *
 notifyData
-)
-;
-jref
-Private_GetJavaClass
-(
-void
 )
 ;
 NPError

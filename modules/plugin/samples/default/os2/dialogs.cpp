@@ -879,15 +879,6 @@ if
 pPlugin
 -
 >
-m_bJava
-)
-|
-|
-(
-!
-pPlugin
--
->
 m_bJavaScript
 )
 |

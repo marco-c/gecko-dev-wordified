@@ -1551,13 +1551,3 @@ return
 rv
 ;
 }
-jref
-NPP_GetJavaClass
-(
-void
-)
-{
-return
-NULL
-;
-}
