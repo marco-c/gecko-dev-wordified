@@ -26717,7 +26717,7 @@ ifdef
 JS_METHODJIT
 for
 (
-GCCompartmentsIter
+CompartmentsIter
 c
 (
 fop
@@ -27208,7 +27208,7 @@ return
 ;
 for
 (
-GCCompartmentsIter
+CompartmentsIter
 c
 (
 rt
