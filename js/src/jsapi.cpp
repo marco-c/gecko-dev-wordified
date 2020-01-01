@@ -22203,10 +22203,8 @@ lesson
 /
 Value
 v
-;
-v
-.
-setObject
+=
+ObjectTag
 (
 *
 funobj
@@ -23666,10 +23664,8 @@ lives
 /
 Value
 priv
-;
-priv
-.
-setPrivate
+=
+PrivateTag
 (
 fs
 )
