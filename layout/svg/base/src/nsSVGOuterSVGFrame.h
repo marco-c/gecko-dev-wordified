@@ -827,12 +827,9 @@ nsRect
 aRect
 )
 ;
-nsresult
+PRBool
 IsRedrawSuspended
 (
-PRBool
-*
-isSuspended
 )
 ;
 /
