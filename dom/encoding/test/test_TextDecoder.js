@@ -646,7 +646,7 @@ aData
 error
 :
 "
-EncodingError
+TypeError
 "
 msg
 :
@@ -680,7 +680,7 @@ aData
 error
 :
 "
-EncodingError
+TypeError
 "
 msg
 :
@@ -713,7 +713,7 @@ aData
 error
 :
 "
-EncodingError
+TypeError
 "
 msg
 :
@@ -750,7 +750,7 @@ aData
 error
 :
 "
-EncodingError
+TypeError
 "
 msg
 :
@@ -5098,7 +5098,7 @@ defined
 error
 :
 "
-EncodingError
+TypeError
 "
 labels
 :
