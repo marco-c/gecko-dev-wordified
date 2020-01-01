@@ -9293,7 +9293,7 @@ number
 when
 the
 caller
-guarnatees
+guarantees
 that
 the
 *
@@ -9303,6 +9303,8 @@ occurs
 at
 a
 JSOP_EVAL
+/
+JSOP_SPREADEVAL
 .
 *
 /

@@ -1784,6 +1784,9 @@ break
 case
 JSOP_EVAL
 :
+case
+JSOP_SPREADEVAL
+:
 canTrackVars
 =
 false
