@@ -3184,13 +3184,6 @@ this
 _initialState
 ;
 }
-if
-(
-this
-.
-_lastSessionCrashed
-)
-{
 /
 /
 restart
@@ -3207,7 +3200,6 @@ retryDownloads
 0
 )
 ;
-}
 }
 var
 tabbrowser
