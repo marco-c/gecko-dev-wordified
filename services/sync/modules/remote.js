@@ -3681,6 +3681,8 @@ yield
 this
 .
 _getLatestFromScratch
+.
+async
 (
 this
 self
