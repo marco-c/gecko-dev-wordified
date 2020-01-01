@@ -5034,7 +5034,12 @@ requestFocus
 ;
 }
 return
-false
+super
+.
+onInterceptTouchEvent
+(
+event
+)
 ;
 }
 }
