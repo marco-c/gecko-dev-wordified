@@ -11500,6 +11500,9 @@ mOwner
 &
 &
 invalidRect
+&
+&
+mWidgetVisible
 )
 {
 /
