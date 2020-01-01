@@ -628,7 +628,6 @@ h
 "
 /
 /
-JS_TRACER_INIT
 context
 -
 >
@@ -3155,7 +3154,7 @@ mChildTracer
 cccb
 )
 {
-JS_TRACER_INIT
+JS_TracerInit
 (
 &
 mChildTracer
@@ -3785,7 +3784,7 @@ mJSRoots
 cb
 )
 ;
-JS_TRACER_INIT
+JS_TracerInit
 (
 &
 trc
@@ -4674,7 +4673,7 @@ children
 JSTracer
 trc
 ;
-JS_TRACER_INIT
+JS_TracerInit
 (
 &
 trc
@@ -6076,7 +6075,7 @@ trc
 cb
 )
 ;
-JS_TRACER_INIT
+JS_TracerInit
 (
 &
 trc
@@ -7654,7 +7653,7 @@ JSCLASS_XPCONNECT_GLOBAL
 VerifyTraceXPCGlobalCalledTracer
 trc
 ;
-JS_TRACER_INIT
+JS_TracerInit
 (
 &
 trc

@@ -2468,7 +2468,7 @@ cx
 fp
 )
 ;
-JS_TRACER_INIT
+JS_TracerInit
 (
 &
 dtrc
