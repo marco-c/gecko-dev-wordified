@@ -1799,7 +1799,7 @@ bool
 hold
 ;
 bool
-isSystemCompartment
+isSystem
 ;
 int64_t
 lastCodeRelease

@@ -4338,7 +4338,7 @@ return
 zone
 -
 >
-isSystemCompartment
+isSystem
 ?
 &
 rt

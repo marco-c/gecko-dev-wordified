@@ -1307,7 +1307,7 @@ zone
 )
 -
 >
-isSystemCompartment
+isSystem
 =
 =
 isSystem
@@ -1355,7 +1355,7 @@ zone
 )
 -
 >
-isSystemCompartment
+isSystem
 =
 isSystem
 ;
@@ -1853,7 +1853,7 @@ zone
 )
 -
 >
-isSystemCompartment
+isSystem
 ;
 }
 JS_FRIEND_API
