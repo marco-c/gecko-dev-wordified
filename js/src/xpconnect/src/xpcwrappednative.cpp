@@ -1970,6 +1970,8 @@ GC
 nsWrapperCache
 *
 cache2
+=
+nsnull
 ;
 CallQueryInterface
 (
