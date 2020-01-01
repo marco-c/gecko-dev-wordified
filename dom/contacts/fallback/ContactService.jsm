@@ -1192,7 +1192,7 @@ sendAsyncMessage
 "
 Contacts
 :
-Find
+GetAll
 :
 Return
 :
