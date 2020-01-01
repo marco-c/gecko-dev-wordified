@@ -272,6 +272,12 @@ void
 aUser
 )
 ;
+static
+PRUint32
+getNumberOfCameras
+(
+)
+;
 protected
 :
 void
