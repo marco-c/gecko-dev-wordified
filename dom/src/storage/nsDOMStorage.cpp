@@ -1078,6 +1078,9 @@ nsIPrincipal
 >
 subjectPrincipal
 ;
+nsresult
+rv
+=
 nsContentUtils
 :
 :
@@ -1092,6 +1095,12 @@ getter_AddRefs
 (
 subjectPrincipal
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+PR_FALSE
 )
 ;
 if
@@ -1179,7 +1188,6 @@ isHttps
 =
 PR_FALSE
 ;
-nsresult
 rv
 =
 innerUri
@@ -7728,6 +7736,9 @@ nsIPrincipal
 >
 subjectPrincipal
 ;
+nsresult
+rv
+=
 nsContentUtils
 :
 :
@@ -7742,6 +7753,12 @@ getter_AddRefs
 (
 subjectPrincipal
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+PR_FALSE
 )
 ;
 /
@@ -8093,6 +8110,9 @@ nsIPrincipal
 >
 subjectPrincipal
 ;
+nsresult
+rv
+=
 ssm
 -
 >
@@ -8102,6 +8122,12 @@ getter_AddRefs
 (
 subjectPrincipal
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+PR_FALSE
 )
 ;
 NS_ASSERTION

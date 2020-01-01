@@ -1781,6 +1781,9 @@ nsIPrincipal
 >
 principal
 ;
+nsresult
+rv
+=
 secman
 -
 >
@@ -1794,6 +1797,12 @@ principal
 ;
 if
 (
+NS_FAILED
+(
+rv
+)
+|
+|
 !
 principal
 )

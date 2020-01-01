@@ -8939,6 +8939,9 @@ nsIPrincipal
 >
 subjectPrincipal
 ;
+nsresult
+rv
+=
 securityManager
 -
 >
@@ -8948,6 +8951,12 @@ getter_AddRefs
 (
 subjectPrincipal
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 if
@@ -8963,7 +8972,6 @@ NS_ERROR_DOM_SECURITY_ERR
 PRBool
 subsumes
 ;
-nsresult
 rv
 =
 subjectPrincipal

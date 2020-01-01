@@ -6934,6 +6934,9 @@ nsIPrincipal
 >
 subjectPrincipal
 ;
+nsresult
+rv
+=
 sSecurityManager
 -
 >
@@ -6943,6 +6946,12 @@ getter_AddRefs
 (
 subjectPrincipal
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+PR_FALSE
 )
 ;
 if
@@ -7054,6 +7063,9 @@ nsIPrincipal
 >
 subjectPrincipal
 ;
+nsresult
+rv
+=
 sSecurityManager
 -
 >
@@ -7063,6 +7075,12 @@ getter_AddRefs
 (
 subjectPrincipal
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+PR_FALSE
 )
 ;
 if

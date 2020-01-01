@@ -4362,6 +4362,9 @@ nsIPrincipal
 >
 currentPrincipal
 ;
+nsresult
+rv
+=
 ssm
 -
 >
@@ -4371,6 +4374,12 @@ getter_AddRefs
 (
 currentPrincipal
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+nsnull
 )
 ;
 if
