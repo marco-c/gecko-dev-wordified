@@ -568,6 +568,14 @@ generate
 )
 ;
 bool
+visitLabel
+(
+LLabel
+*
+lir
+)
+;
+bool
 visitCaptureAllocations
 (
 LCaptureAllocations
