@@ -3626,7 +3626,7 @@ JSBool
 ok
 ;
 {
-js
+JS
 :
 :
 AutoArrayRooter

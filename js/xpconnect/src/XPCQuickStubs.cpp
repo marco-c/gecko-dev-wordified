@@ -1484,7 +1484,7 @@ JSVAL_NULL
 JSVAL_NULL
 }
 ;
-js
+JS
 :
 :
 AutoArrayRooter

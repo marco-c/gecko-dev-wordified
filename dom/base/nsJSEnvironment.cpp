@@ -1517,7 +1517,7 @@ jsval
 >
 vals
 ;
-js
+JS
 :
 :
 AutoArrayRooter
