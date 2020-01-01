@@ -460,6 +460,9 @@ xpt_struct
 .
 h
 "
+struct
+nsCycleCollectionTraversalCallback
+;
 /
 *
 *

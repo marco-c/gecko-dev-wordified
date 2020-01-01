@@ -1926,7 +1926,7 @@ y
 )
 ;
 }
-nsCycleCollectionParticipant
+nsXPCOMCycleCollectionParticipant
 (
 )
 ;

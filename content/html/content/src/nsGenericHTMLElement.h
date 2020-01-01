@@ -6638,7 +6638,7 @@ Equals
 (
 NS_GET_IID
 (
-nsCycleCollectionParticipant
+nsXPCOMCycleCollectionParticipant
 )
 )
 )

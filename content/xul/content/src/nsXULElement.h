@@ -1337,7 +1337,7 @@ eType_PI
 Type
 mType
 ;
-PRInt32
+nsAutoRefCnt
 mRefCnt
 ;
 virtual
@@ -1477,6 +1477,10 @@ Release
 )
 ;
 }
+NS_DECL_CYCLE_COLLECTION_NATIVE_CLASS
+(
+nsXULPrototypeNode
+)
 protected
 :
 nsXULPrototypeNode
@@ -2664,6 +2668,11 @@ aResult
 /
 nsISupports
 NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED_NO_UNLINK
+(
+nsXULElement
+nsGenericElement
+)
 /
 /
 nsINode

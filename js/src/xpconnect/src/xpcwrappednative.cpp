@@ -578,9 +578,9 @@ XPCWrappedNative
 :
 Traverse
 (
-nsISupports
+void
 *
-s
+p
 nsCycleCollectionTraversalCallback
 &
 cb
@@ -594,7 +594,7 @@ NS_STATIC_CAST
 (
 XPCWrappedNative
 *
-s
+p
 )
 ;
 if
@@ -1023,9 +1023,9 @@ XPCWrappedNative
 :
 Unlink
 (
-nsISupports
+void
 *
-s
+p
 )
 {
 /

@@ -1014,3 +1014,16 @@ return
 NS_OK
 ;
 }
+void
+nsXBLProtoImplField
+:
+:
+Traverse
+(
+nsCycleCollectionTraversalCallback
+&
+cb
+)
+const
+{
+}

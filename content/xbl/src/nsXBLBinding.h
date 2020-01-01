@@ -484,6 +484,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsXBLPrototypeBinding
 ;
@@ -771,6 +778,10 @@ return
 mRefCnt
 ;
 }
+NS_DECL_CYCLE_COLLECTION_NATIVE_CLASS
+(
+nsXBLBinding
+)
 nsXBLPrototypeBinding
 *
 PrototypeBinding
