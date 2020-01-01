@@ -704,9 +704,9 @@ define
 CH_SHY
 (
 (
-char
+PRUnichar
 )
-173
+0xAD
 )
 /
 /
