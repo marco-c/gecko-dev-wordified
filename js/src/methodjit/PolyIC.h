@@ -2300,8 +2300,9 @@ const
 Value
 &
 v
-jsid
-id
+PropertyName
+*
+name
 Value
 *
 vp
@@ -3675,9 +3676,9 @@ s
 atom
 table
 .
-JSAtom
+PropertyName
 *
-atom
+name
 ;
 /
 /
