@@ -2582,6 +2582,9 @@ js
 GCSliceCallback
 gcSliceCallback
 ;
+JSFinalizeCallback
+gcFinalizeCallback
+;
 private
 :
 /
