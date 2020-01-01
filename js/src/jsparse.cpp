@@ -5774,10 +5774,12 @@ endif
 *
 Global
 variables
-and
-regexps
+(
+gvars
+)
 share
 the
+atom
 index
 space
 with
@@ -5813,12 +5815,6 @@ scriptGlobals
 cg
 .
 ngvars
-+
-cg
-.
-regexpList
-.
-length
 ;
 if
 (
