@@ -2816,10 +2816,25 @@ marionette
 execute_js_script
 (
 js
+                                                        
 args
+                                                        
 special_powers
 =
 True
+                                                        
+filename
+=
+os
+.
+path
+.
+basename
+(
+self
+.
+jsFile
+)
 )
             
 self

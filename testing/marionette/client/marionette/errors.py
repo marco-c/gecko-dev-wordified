@@ -228,7 +228,9 @@ return
 %
 s
 \
-nstacktrace
+n
+\
+tstacktrace
 :
 \
 n
