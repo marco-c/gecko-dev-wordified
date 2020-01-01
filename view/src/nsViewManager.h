@@ -730,11 +730,6 @@ aWillSendDidPaint
 )
 ;
 void
-CallDidPaintOnObserver
-(
-)
-;
-void
 ReparentChildWidgets
 (
 nsIView
