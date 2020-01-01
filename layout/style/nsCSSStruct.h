@@ -3401,6 +3401,9 @@ nsCSSValue
 mFloodOpacity
 ;
 nsCSSValue
+mImageRendering
+;
+nsCSSValue
 mLightingColor
 ;
 nsCSSValue

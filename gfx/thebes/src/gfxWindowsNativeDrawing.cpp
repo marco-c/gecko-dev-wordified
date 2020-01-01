@@ -1906,7 +1906,10 @@ pat
 >
 SetFilter
 (
-0
+gfxPattern
+:
+:
+FILTER_FAST
 )
 ;
 mContext

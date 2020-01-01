@@ -1441,6 +1441,13 @@ kFillRuleKTable
 static
 const
 PRInt32
+kImageRenderingKTable
+[
+]
+;
+static
+const
+PRInt32
 kPointerEventsKTable
 [
 ]
