@@ -9344,7 +9344,7 @@ JS_ASSERT_IF
 script
 -
 >
-hasScriptCounts
+scriptCounts
 jumpTable
 =
 =
@@ -9362,7 +9362,7 @@ JS_ASSERT_IF
 script
 -
 >
-hasScriptCounts
+scriptCounts
 switchMask
 =
 =
@@ -10433,7 +10433,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 \
 ENABLE_INTERRUPTS
@@ -11300,7 +11300,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 script
 -
@@ -11320,7 +11320,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 {
 PCCounts
