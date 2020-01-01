@@ -827,7 +827,7 @@ h
 #
 include
 "
-nsTextRectangle
+nsClientRect
 .
 h
 "
@@ -4792,7 +4792,7 @@ aValue
 }
 static
 void
-SetTextRectangle
+SetClientRect
 (
 const
 nsRect
@@ -4801,7 +4801,7 @@ aLayoutRect
 nsPresContext
 *
 aPresContext
-nsTextRectangle
+nsClientRect
 *
 aRect
 )
@@ -4931,7 +4931,7 @@ nsNSElementTearoff
 :
 GetBoundingClientRect
 (
-nsIDOMTextRectangle
+nsIDOMClientRect
 *
 *
 aResult
@@ -4946,12 +4946,12 @@ we
 addref
 it
 below
-nsTextRectangle
+nsClientRect
 *
 rect
 =
 new
-nsTextRectangle
+nsClientRect
 (
 )
 ;
@@ -5030,7 +5030,7 @@ frame
 )
 )
 ;
-SetTextRectangle
+SetClientRect
 (
 r
 presContext
@@ -5054,7 +5054,7 @@ nsPresContext
 *
 mPresContext
 ;
-nsTextRectangleList
+nsClientRectList
 *
 mRectList
 ;
@@ -5066,7 +5066,7 @@ RectListBuilder
 nsPresContext
 *
 aPresContext
-nsTextRectangleList
+nsClientRectList
 *
 aList
 )
@@ -5097,12 +5097,12 @@ aRect
 {
 nsRefPtr
 <
-nsTextRectangle
+nsClientRect
 >
 rect
 =
 new
-nsTextRectangle
+nsClientRect
 (
 )
 ;
@@ -5119,7 +5119,7 @@ NS_ERROR_OUT_OF_MEMORY
 return
 ;
 }
-SetTextRectangle
+SetClientRect
 (
 aRect
 mPresContext
@@ -5143,7 +5143,7 @@ nsNSElementTearoff
 :
 GetClientRects
 (
-nsIDOMTextRectangleList
+nsIDOMClientRectList
 *
 *
 aResult
@@ -5156,12 +5156,12 @@ nsnull
 ;
 nsRefPtr
 <
-nsTextRectangleList
+nsClientRectList
 >
 rectList
 =
 new
-nsTextRectangleList
+nsClientRectList
 (
 )
 ;
