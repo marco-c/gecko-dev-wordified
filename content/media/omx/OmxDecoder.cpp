@@ -3367,16 +3367,6 @@ err
 ;
 if
 (
-!
-mAudioBuffer
-)
-{
-return
-false
-;
-}
-if
-(
 mAudioMetadataRead
 &
 &
@@ -3476,6 +3466,9 @@ err
 =
 =
 OK
+&
+&
+mAudioBuffer
 &
 &
 mAudioBuffer
