@@ -2414,14 +2414,10 @@ generateRandomKey
 let
 pubkey
 =
-yield
 PubKeys
 .
 getDefaultKey
 (
-self
-.
-cb
 )
 ;
 meta
