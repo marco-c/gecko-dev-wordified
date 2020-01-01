@@ -528,7 +528,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTObserverArray
 .
 h
 "
@@ -633,17 +633,9 @@ aLoadId
 /
 /
 Callers
-that
-pass
-aNotify
-=
-=
-PR_FALSE
 must
 call
 NotifyProxyListener
-/
-/
 later
 .
 nsresult
@@ -652,8 +644,6 @@ AddProxy
 imgRequestProxy
 *
 proxy
-PRBool
-aNotify
 )
 ;
 /
@@ -1018,7 +1008,10 @@ nsIProperties
 >
 mProperties
 ;
-nsAutoVoidArray
+nsTObserverArray
+<
+imgRequestProxy
+>
 mObservers
 ;
 PRPackedBool
