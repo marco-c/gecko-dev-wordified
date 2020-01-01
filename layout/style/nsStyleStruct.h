@@ -954,7 +954,6 @@ aOther
 )
 ;
 }
-;
 bool
 IsOpaque
 (
