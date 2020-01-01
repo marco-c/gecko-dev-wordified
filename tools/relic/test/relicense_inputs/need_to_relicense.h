@@ -504,13 +504,6 @@ nsIDOMCSSStyleDeclaration
 h
 "
 #
-include
-"
-nsTArray
-.
-h
-"
-#
 define
 SPECIFIED_STYLE_TYPE
 1
@@ -2427,10 +2420,7 @@ BuildCSSDeclarations
 nsVoidArray
 &
 aPropertyArray
-nsTArray
-<
-nsString
->
+nsStringArray
 &
 cssValueArray
 const
@@ -2588,10 +2578,7 @@ aValue
 nsVoidArray
 &
 aPropertyArray
-nsTArray
-<
-nsString
->
+nsStringArray
 &
 aValueArray
 PRBool
