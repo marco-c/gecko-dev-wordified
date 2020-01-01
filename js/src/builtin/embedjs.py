@@ -303,6 +303,34 @@ main
 )
 :
     
+debug
+=
+sys
+.
+argv
+[
+1
+]
+=
+=
+'
+-
+d
+'
+    
+if
+debug
+:
+        
+sys
+.
+argv
+.
+pop
+(
+1
+)
+    
 output_file
 =
 sys
@@ -381,6 +409,11 @@ COMPRESSION
 '
 off
 '
+'
+DEBUG
+'
+:
+debug
 }
 )
     
