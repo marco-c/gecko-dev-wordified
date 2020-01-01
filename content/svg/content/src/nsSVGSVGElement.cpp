@@ -3242,7 +3242,7 @@ _retval
 )
 {
 return
-NS_NewSVGAngle
+NS_NewDOMSVGAngle
 (
 _retval
 )
