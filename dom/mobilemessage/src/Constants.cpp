@@ -116,6 +116,17 @@ received
 const
 char
 *
+kSmsRetrievingObserverTopic
+=
+"
+sms
+-
+retrieving
+"
+;
+const
+char
+*
 kSmsSendingObserverTopic
 =
 "
