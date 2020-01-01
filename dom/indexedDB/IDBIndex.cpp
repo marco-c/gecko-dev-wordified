@@ -1634,6 +1634,10 @@ mKeyPath
 (
 0
 )
+mCachedKeyPath
+(
+JSVAL_VOID
+)
 mActorChild
 (
 nsnull
@@ -1641,10 +1645,6 @@ nsnull
 mActorParent
 (
 nsnull
-)
-mCachedKeyPath
-(
-JSVAL_VOID
 )
 mUnique
 (
