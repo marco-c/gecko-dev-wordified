@@ -327,10 +327,10 @@ return
 true
 ;
 case
-PNK_RB
+PNK_ARRAY
 :
 case
-PNK_RC
+PNK_OBJECT
 :
 return
 isOp

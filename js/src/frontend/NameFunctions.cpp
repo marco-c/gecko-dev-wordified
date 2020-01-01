@@ -269,7 +269,7 @@ pn
 >
 isKind
 (
-PNK_LP
+PNK_CALL
 )
 ;
 }
@@ -658,7 +658,7 @@ pn_atom
 )
 ;
 case
-PNK_LB
+PNK_ELEM
 :
 return
 nameExpression
@@ -1181,7 +1181,7 @@ parent
 is
 not
 a
-PNK_RC
+PNK_OBJECT
 *
 then
 this
@@ -1204,7 +1204,7 @@ PNK_COLON
 but
 skip
 the
-PNK_RC
+PNK_OBJECT
 so
 we
 '
@@ -1237,7 +1237,7 @@ pos
 >
 isKind
 (
-PNK_RC
+PNK_OBJECT
 )
 )
 return

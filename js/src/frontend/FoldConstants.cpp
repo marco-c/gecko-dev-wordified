@@ -2543,7 +2543,7 @@ pn
 >
 isKind
 (
-PNK_LP
+PNK_CALL
 )
 |
 |

@@ -16286,7 +16286,7 @@ case
 PNK_DOT
 :
 case
-PNK_LB
+PNK_ELEM
 :
 /
 *
@@ -16370,7 +16370,7 @@ JSOP_SETNAME
 break
 ;
 case
-PNK_LP
+PNK_CALL
 :
 if
 (
@@ -16900,7 +16900,7 @@ left
 >
 isKind
 (
-PNK_RB
+PNK_ARRAY
 )
 )
 {
@@ -16959,7 +16959,7 @@ pn
 >
 isKind
 (
-PNK_RB
+PNK_ARRAY
 )
 |
 |
@@ -16968,7 +16968,7 @@ pn
 >
 isKind
 (
-PNK_RC
+PNK_OBJECT
 )
 )
 {
@@ -17060,7 +17060,7 @@ left
 >
 isKind
 (
-PNK_RC
+PNK_OBJECT
 )
 )
 ;
@@ -17112,7 +17112,7 @@ pn
 >
 isKind
 (
-PNK_RB
+PNK_ARRAY
 )
 |
 |
@@ -17121,7 +17121,7 @@ pn
 >
 isKind
 (
-PNK_RC
+PNK_OBJECT
 )
 )
 {
@@ -21130,7 +21130,7 @@ pn_head
 >
 isKind
 (
-PNK_RC
+PNK_OBJECT
 )
 |
 |
@@ -21143,7 +21143,7 @@ pn_head
 >
 isKind
 (
-PNK_RB
+PNK_ARRAY
 )
 &
 &
@@ -21186,7 +21186,7 @@ pn_left
 >
 isKind
 (
-PNK_RB
+PNK_ARRAY
 )
 |
 |
@@ -21272,7 +21272,7 @@ pn1
 >
 isKind
 (
-PNK_RB
+PNK_ARRAY
 )
 |
 |
@@ -21292,7 +21292,7 @@ pn1
 >
 isKind
 (
-PNK_RB
+PNK_ARRAY
 )
 &
 &
@@ -21302,7 +21302,7 @@ pn1
 >
 isKind
 (
-PNK_RC
+PNK_OBJECT
 )
 )
 )
@@ -21316,7 +21316,7 @@ pn1
 >
 isKind
 (
-PNK_LP
+PNK_CALL
 )
 &
 &
@@ -21341,7 +21341,7 @@ pn1
 >
 isKind
 (
-PNK_LB
+PNK_ELEM
 )
 )
 )
@@ -21714,7 +21714,7 @@ pn2
 >
 isKind
 (
-PNK_RB
+PNK_ARRAY
 )
 |
 |
@@ -21723,7 +21723,7 @@ pn2
 >
 isKind
 (
-PNK_RC
+PNK_OBJECT
 )
 |
 |
@@ -22045,10 +22045,10 @@ TOK_ASSIGN
 break
 ;
 case
-PNK_RB
+PNK_ARRAY
 :
 case
-PNK_RC
+PNK_OBJECT
 :
 if
 (
@@ -27026,7 +27026,7 @@ declaration
 .
 *
 -
-PNK_LP
+PNK_CALL
 :
 We
 are
@@ -27063,7 +27063,7 @@ PNK_LET
 kind
 =
 =
-PNK_LP
+PNK_CALL
 )
 ;
 ParseNode
@@ -29219,7 +29219,7 @@ JSOP_SETPROP
 break
 ;
 case
-PNK_LB
+PNK_ELEM
 :
 pn
 -
@@ -29235,10 +29235,10 @@ break
 if
 JS_HAS_DESTRUCTURING
 case
-PNK_RB
+PNK_ARRAY
 :
 case
-PNK_RC
+PNK_OBJECT
 :
 if
 (
@@ -29277,7 +29277,7 @@ break
 #
 endif
 case
-PNK_LP
+PNK_CALL
 :
 if
 (
@@ -29641,7 +29641,7 @@ kid
 >
 isKind
 (
-PNK_LP
+PNK_CALL
 )
 |
 |
@@ -29709,7 +29709,7 @@ kid
 >
 isKind
 (
-PNK_LB
+PNK_ELEM
 )
 )
 {
@@ -29900,7 +29900,7 @@ JSOP_PROPDEC
 break
 ;
 case
-PNK_LP
+PNK_CALL
 :
 if
 (
@@ -29955,7 +29955,7 @@ THROUGH
 #
 endif
 case
-PNK_LB
+PNK_ELEM
 :
 op
 =
@@ -30372,7 +30372,7 @@ getKind
 )
 {
 case
-PNK_LP
+PNK_CALL
 :
 if
 (
@@ -34055,7 +34055,7 @@ pn3
 >
 isKind
 (
-PNK_RB
+PNK_ARRAY
 )
 |
 |
@@ -35188,7 +35188,7 @@ ListNode
 :
 create
 (
-PNK_LP
+PNK_CALL
 this
 )
 ;
@@ -36811,7 +36811,7 @@ ListNode
 :
 create
 (
-PNK_LP
+PNK_CALL
 this
 )
 ;
@@ -41947,7 +41947,7 @@ ListNode
 :
 create
 (
-PNK_RB
+PNK_ARRAY
 this
 )
 ;
@@ -42959,7 +42959,7 @@ ListNode
 :
 create
 (
-PNK_RC
+PNK_OBJECT
 this
 )
 ;
