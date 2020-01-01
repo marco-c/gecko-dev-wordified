@@ -1047,6 +1047,12 @@ GetFlags
 TEXTURE_IMMEDIATE_UPLOAD
 )
 {
+DebugOnly
+<
+bool
+>
+result
+=
 MaybeUpload
 (
 mPartialUpdate
@@ -1055,6 +1061,11 @@ mPartialUpdate
 mMaybeUpdatedRegion
 :
 nullptr
+)
+;
+MOZ_ASSERT
+(
+result
 )
 ;
 }
