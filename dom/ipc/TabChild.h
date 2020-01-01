@@ -1705,6 +1705,11 @@ const
 bool
 &
 aIgnoreRootScrollFrame
+const
+unsigned
+short
+&
+aInputSourceArg
 )
 ;
 /
