@@ -15520,6 +15520,15 @@ JS_TRACER
 #
 ifdef
 JS_METHODJIT
+if
+(
+!
+useMethodJIT
+)
+DO_OP
+(
+)
+;
 mjit
 :
 :
