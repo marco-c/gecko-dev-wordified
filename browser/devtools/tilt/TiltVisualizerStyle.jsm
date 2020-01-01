@@ -181,14 +181,10 @@ canvas
 background
 :
 "
--
-moz
--
 linear
 -
 gradient
 (
-top
 #
 454545
 0
