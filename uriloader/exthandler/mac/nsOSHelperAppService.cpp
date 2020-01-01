@@ -2446,6 +2446,11 @@ handlerInfo
 new
 nsMIMEInfoMac
 (
+aScheme
+nsMIMEInfoBase
+:
+:
+eProtocolInfo
 )
 ;
 NS_ENSURE_TRUE
