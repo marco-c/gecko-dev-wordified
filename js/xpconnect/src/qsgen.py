@@ -3398,7 +3398,7 @@ n
         
 "
 return
-JS_FALSE
+false
 ;
 \
 n
@@ -3461,7 +3461,7 @@ n
         
 "
 return
-JS_FALSE
+false
 ;
 \
 n
@@ -3525,7 +3525,7 @@ n
         
 "
 return
-JS_FALSE
+false
 ;
 \
 n
@@ -3586,7 +3586,7 @@ n
         
 "
 return
-JS_FALSE
+false
 ;
 \
 n
@@ -3630,7 +3630,7 @@ n
         
 "
 return
-JS_FALSE
+false
 ;
 \
 n
@@ -3677,7 +3677,7 @@ n
         
 "
 return
-JS_FALSE
+false
 ;
 \
 n
@@ -3725,7 +3725,7 @@ n
         
 "
 return
-JS_FALSE
+false
 ;
 \
 n
@@ -3770,7 +3770,7 @@ n
         
 "
 return
-JS_FALSE
+false
 ;
 \
 n
@@ -3831,7 +3831,7 @@ n
         
 "
 return
-JS_FALSE
+false
 ;
 \
 n
@@ -3913,7 +3913,7 @@ n
         
 "
 return
-JS_FALSE
+false
 ;
 \
 n
@@ -3987,7 +3987,7 @@ n
         
 "
 return
-JS_FALSE
+false
 ;
 \
 n
@@ -4032,7 +4032,7 @@ n
         
 "
 return
-JS_FALSE
+false
 ;
 \
 n
@@ -4100,7 +4100,7 @@ n
         
 "
 return
-JS_FALSE
+false
 ;
 \
 n
@@ -4150,7 +4150,7 @@ n
         
 "
 return
-JS_FALSE
+false
 ;
 \
 n
@@ -4200,7 +4200,7 @@ n
         
 "
 return
-JS_FALSE
+false
 ;
 \
 n
@@ -4822,7 +4822,7 @@ n
                 
 "
 return
-JS_FALSE
+false
 ;
 \
 n
@@ -5072,7 +5072,7 @@ write
 (
 "
 return
-JS_FALSE
+false
 ;
 \
 n
@@ -5582,7 +5582,7 @@ n
             
 "
 return
-JS_TRUE
+true
 ;
 \
 n
@@ -5612,7 +5612,7 @@ n
         
 "
 return
-JS_TRUE
+true
 ;
 \
 n
@@ -5642,7 +5642,7 @@ n
         
 "
 return
-JS_TRUE
+true
 ;
 \
 n
@@ -5669,7 +5669,7 @@ n
         
 "
 return
-JS_TRUE
+true
 ;
 \
 n
@@ -5721,7 +5721,7 @@ n
         
 "
 return
-JS_TRUE
+true
 ;
 \
 n
@@ -5749,7 +5749,7 @@ n
         
 "
 return
-JS_TRUE
+true
 ;
 \
 n
@@ -5798,7 +5798,7 @@ n
         
 "
 return
-JS_TRUE
+true
 ;
 \
 n
@@ -5825,7 +5825,7 @@ n
         
 "
 return
-JS_TRUE
+true
 ;
 \
 n
@@ -5855,7 +5855,7 @@ n
         
 "
 return
-JS_TRUE
+true
 ;
 \
 n
@@ -5997,11 +5997,11 @@ statement
 ;
 it
 returns
-JS_TRUE
+true
 on
     
 success
-JS_FALSE
+false
 on
 error
 .
@@ -6156,7 +6156,7 @@ n
                     
 "
 return
-JS_TRUE
+true
 ;
 \
 n
@@ -6200,7 +6200,7 @@ n
                     
 "
 return
-JS_TRUE
+true
 ;
 \
 n
@@ -7358,7 +7358,7 @@ n
             
 "
 return
-JS_FALSE
+false
 ;
 \
 n
@@ -7528,7 +7528,7 @@ write
 (
 "
 return
-JS_FALSE
+false
 ;
 \
 n
@@ -7583,7 +7583,7 @@ write
 (
 "
 return
-JS_TRUE
+true
 ;
 \
 n
@@ -8624,7 +8624,7 @@ write
 (
 "
 return
-JS_TRUE
+true
 ;
 \
 n

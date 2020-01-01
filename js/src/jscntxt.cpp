@@ -3287,7 +3287,7 @@ flags
 )
 )
 return
-JS_TRUE
+true
 ;
 message
 =
@@ -3303,7 +3303,7 @@ if
 message
 )
 return
-JS_FALSE
+false
 ;
 messagelen
 =
@@ -4485,7 +4485,7 @@ reportp
 messageArgs
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -5183,7 +5183,7 @@ errorNumber
 ;
 }
 return
-JS_TRUE
+true
 ;
 error
 :
@@ -5322,7 +5322,7 @@ NULL
 ;
 }
 return
-JS_FALSE
+false
 ;
 }
 JSBool
@@ -5367,7 +5367,7 @@ flags
 )
 )
 return
-JS_TRUE
+true
 ;
 warning
 =
@@ -5420,7 +5420,7 @@ ap
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 ReportError
@@ -5877,7 +5877,7 @@ if
 bytes
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -6162,7 +6162,7 @@ if
 bytes
 )
 return
-JS_FALSE
+false
 ;
 ok
 =

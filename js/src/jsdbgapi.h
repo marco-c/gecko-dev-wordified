@@ -1991,7 +1991,7 @@ JSPD_ERROR
 native
 getter
 returned
-JS_FALSE
+false
 without
 *
 /
@@ -2549,7 +2549,7 @@ before
 '
 param
 is
-JS_TRUE
+true
 for
 the
 hook
@@ -2559,7 +2559,7 @@ the
 execution
 *
 and
-JS_FALSE
+false
 for
 the
 invocation

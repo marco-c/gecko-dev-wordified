@@ -2558,7 +2558,7 @@ return
 GenerateReturn
 (
 masm
-JS_TRUE
+true
 )
 ;
 Linker

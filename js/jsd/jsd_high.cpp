@@ -882,7 +882,7 @@ jsdc
 >
 inited
 =
-JS_TRUE
+true
 ;
 JSD_LOCK
 (
@@ -1021,7 +1021,7 @@ jsdc
 >
 inited
 =
-JS_FALSE
+false
 ;
 /
 *
@@ -1339,7 +1339,7 @@ jsdc
 jsd_DebuggerPause
 (
 jsdc
-JS_TRUE
+true
 )
 ;
 /
@@ -1895,7 +1895,7 @@ JS_ASSERT
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -1906,7 +1906,7 @@ jsdc
 )
 )
 return
-JS_TRUE
+true
 ;
 /
 *
@@ -1949,7 +1949,7 @@ if
 errorReporter
 )
 return
-JS_TRUE
+true
 ;
 switch
 (
@@ -1967,13 +1967,13 @@ case
 JSD_ERROR_REPORTER_PASS_ALONG
 :
 return
-JS_TRUE
+true
 ;
 case
 JSD_ERROR_REPORTER_RETURN
 :
 return
-JS_FALSE
+false
 ;
 case
 JSD_ERROR_REPORTER_DEBUG
@@ -2048,7 +2048,7 @@ retval
 *
 /
 return
-JS_TRUE
+true
 ;
 }
 case
@@ -2073,7 +2073,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 default
 :
@@ -2086,7 +2086,7 @@ break
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -2125,7 +2125,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -2176,6 +2176,6 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }

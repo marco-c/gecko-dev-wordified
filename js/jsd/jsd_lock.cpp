@@ -811,7 +811,7 @@ owner
 me
 )
 return
-JS_FALSE
+false
 ;
 JS_ASSERT
 (
@@ -824,7 +824,7 @@ count
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 #
@@ -1090,7 +1090,7 @@ lock
 )
 {
 return
-JS_TRUE
+true
 ;
 }
 #

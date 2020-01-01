@@ -297,7 +297,7 @@ obj
 #
 else
 return
-JS_TRUE
+true
 ;
 #
 endif
@@ -353,7 +353,7 @@ resolved
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -366,7 +366,7 @@ objp
 obj
 ;
 return
-JS_TRUE
+true
 ;
 }
 }
@@ -458,7 +458,7 @@ id
 )
 )
 return
-JS_TRUE
+true
 ;
 path
 =
@@ -475,7 +475,7 @@ if
 path
 )
 return
-JS_TRUE
+true
 ;
 path
 =
@@ -491,7 +491,7 @@ if
 path
 )
 return
-JS_FALSE
+false
 ;
 name
 =
@@ -505,7 +505,7 @@ id
 ;
 ok
 =
-JS_TRUE
+true
 ;
 for
 (
@@ -572,7 +572,7 @@ cx
 ;
 ok
 =
-JS_FALSE
+false
 ;
 break
 ;
@@ -670,7 +670,7 @@ ok
 #
 else
 return
-JS_TRUE
+true
 ;
 #
 endif

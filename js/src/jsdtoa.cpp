@@ -697,7 +697,7 @@ decPt
 JSBool
 exponentialNotation
 =
-JS_FALSE
+false
 ;
 int
 minNDigits
@@ -744,7 +744,7 @@ decPt
 )
 exponentialNotation
 =
-JS_TRUE
+true
 ;
 else
 minNDigits
@@ -801,7 +801,7 @@ DTOSTR_STANDARD_EXPONENTIAL
 :
 exponentialNotation
 =
-JS_TRUE
+true
 ;
 break
 ;
@@ -833,7 +833,7 @@ precision
 )
 exponentialNotation
 =
-JS_TRUE
+true
 ;
 break
 ;
@@ -2935,7 +2935,7 @@ s2
 /
 done
 =
-JS_FALSE
+false
 ;
 do
 {
@@ -3178,7 +3178,7 @@ digit
 ;
 done
 =
-JS_TRUE
+true
 ;
 }
 else
@@ -3334,7 +3334,7 @@ digit
 }
 done
 =
-JS_TRUE
+true
 ;
 }
 else
@@ -3351,7 +3351,7 @@ digit
 ;
 done
 =
-JS_TRUE
+true
 ;
 }
 JS_ASSERT

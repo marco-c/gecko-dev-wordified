@@ -130,7 +130,7 @@ aCx
 )
 mOk
 (
-JS_TRUE
+true
 )
 {
 }
@@ -373,7 +373,7 @@ string
 )
 mOk
 =
-JS_FALSE
+false
 ;
 if
 (
@@ -450,7 +450,7 @@ string
 {
 mOk
 =
-JS_FALSE
+false
 ;
 return
 ;
@@ -634,7 +634,7 @@ string
 {
 mOk
 =
-JS_FALSE
+false
 ;
 return
 ;
@@ -813,7 +813,7 @@ array
 )
 mOk
 =
-JS_FALSE
+false
 ;
 return
 array
@@ -851,7 +851,7 @@ obj
 )
 mOk
 =
-JS_FALSE
+false
 ;
 return
 obj

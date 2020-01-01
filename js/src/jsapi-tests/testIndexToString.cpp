@@ -476,7 +476,7 @@ str
 JSBool
 match
 =
-JS_FALSE
+false
 ;
 CHECK
 (

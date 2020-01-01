@@ -223,7 +223,7 @@ so
 flagged
 .
 Returns
-JS_TRUE
+true
 if
 an
 associated
@@ -233,7 +233,7 @@ is
 found
 and
 set
-JS_FALSE
+false
 otherwise
 .
 *

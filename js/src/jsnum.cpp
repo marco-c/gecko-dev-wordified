@@ -2129,7 +2129,7 @@ js_NaN
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSString
@@ -2154,7 +2154,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 const
 jschar
@@ -2175,7 +2175,7 @@ if
 bp
 )
 return
-JS_FALSE
+false
 ;
 const
 jschar
@@ -2214,7 +2214,7 @@ d
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -2236,7 +2236,7 @@ js_NaN
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 args
@@ -2251,7 +2251,7 @@ d
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -8816,7 +8816,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -10651,7 +10651,7 @@ if
 cstr
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -10865,6 +10865,6 @@ dp
 d
 ;
 return
-JS_TRUE
+true
 ;
 }

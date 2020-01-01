@@ -277,9 +277,6 @@ id
 if
 (
 id
-=
-=
-JS_TRUE
 )
 /
 /

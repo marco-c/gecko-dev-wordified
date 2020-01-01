@@ -2141,11 +2141,11 @@ jsdscript
 current
 )
 return
-JS_TRUE
+true
 ;
 }
 return
-JS_FALSE
+false
 ;
 }
 const
@@ -2539,7 +2539,7 @@ last
 startLine
 )
 return
-JS_TRUE
+true
 ;
 AutoSafeJSContext
 cx
@@ -2662,7 +2662,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -2713,7 +2713,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -3051,7 +3051,7 @@ hook
 (
 jsdc
 jsdscript
-JS_TRUE
+true
 hookData
 )
 ;
@@ -3260,7 +3260,7 @@ hook
 (
 jsdc
 jsdscript
-JS_FALSE
+false
 hookData
 )
 ;
@@ -3525,7 +3525,7 @@ jsdc
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 list
@@ -3586,7 +3586,7 @@ jsdc
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 }
@@ -3596,7 +3596,7 @@ jsdc
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSTrapStatus
@@ -3857,7 +3857,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 jsdhook
@@ -3893,7 +3893,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -3930,7 +3930,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 jsdhook
@@ -4013,7 +4013,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JS_APPEND_LINK
@@ -4035,7 +4035,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -4079,7 +4079,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 {
@@ -4132,7 +4132,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -4219,7 +4219,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -4271,7 +4271,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 void

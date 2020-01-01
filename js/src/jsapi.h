@@ -5078,7 +5078,7 @@ with
 a
 value
 of
-JS_FALSE
+false
 *
 indicating
 failure
@@ -5806,7 +5806,7 @@ true
 on
 success
 with
-JS_TRUE
+true
 in
 *
 bp
@@ -5817,7 +5817,7 @@ an
 instance
 of
 obj
-JS_FALSE
+false
 in
 *
 *
@@ -21282,7 +21282,7 @@ foundp
 will
 be
 *
-JS_FALSE
+false
 and
 the
 value
@@ -21451,7 +21451,7 @@ foundp
 will
 be
 *
-JS_FALSE
+false
 and
 nothing
 will
@@ -23331,7 +23331,7 @@ foundp
 will
 be
 *
-JS_FALSE
+false
 and
 the
 value
@@ -23475,7 +23475,7 @@ foundp
 will
 be
 *
-JS_FALSE
+false
 and
 nothing
 will
@@ -25957,7 +25957,7 @@ Given
 a
 buffer
 return
-JS_FALSE
+false
 if
 the
 buffer
@@ -25978,7 +25978,7 @@ lines
 Otherwise
 return
 *
-JS_TRUE
+true
 .
 The
 intent
@@ -29166,7 +29166,7 @@ fstr
 )
 *
 return
-JS_FALSE
+false
 ;
 *
 JS_ASSERT
@@ -29794,7 +29794,7 @@ the
 functions
 simply
 return
-JS_FALSE
+false
 .
 *
 *

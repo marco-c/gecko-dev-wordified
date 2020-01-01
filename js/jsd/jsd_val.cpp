@@ -705,7 +705,7 @@ cx
 JSBool
 ok
 =
-JS_FALSE
+false
 ;
 fun
 =
@@ -727,9 +727,9 @@ cx
 fun
 )
 ?
-JS_FALSE
+false
 :
-JS_TRUE
+true
 ;
 JS_ASSERT
 (
@@ -856,7 +856,7 @@ val
 )
 )
 return
-JS_FALSE
+false
 ;
 return
 JSVAL_TO_BOOLEAN
@@ -1548,7 +1548,7 @@ address
 {
 ok
 =
-JS_FALSE
+false
 ;
 }
 }
@@ -2095,7 +2095,7 @@ val
 )
 )
 return
-JS_FALSE
+false
 ;
 obj
 =
@@ -2127,7 +2127,7 @@ pda
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 for

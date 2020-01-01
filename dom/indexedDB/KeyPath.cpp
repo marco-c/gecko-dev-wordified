@@ -302,7 +302,7 @@ stringVal
 JSBool
 isIdentifier
 =
-JS_FALSE
+false
 ;
 if
 (

@@ -305,7 +305,7 @@ jsdsrc
 >
 dirty
 =
-JS_TRUE
+true
 ;
 jsdsrc
 -
@@ -324,7 +324,7 @@ jsdsrc
 >
 doingEval
 =
-JS_FALSE
+false
 ;
 }
 static
@@ -500,7 +500,7 @@ status
 JSD_SOURCE_FAILED
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -543,7 +543,7 @@ textLength
 length
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -603,7 +603,7 @@ jsdsrc
 >
 dirty
 =
-JS_TRUE
+true
 ;
 jsdsrc
 -
@@ -886,11 +886,11 @@ jsdsrc
 jsdsrcToFind
 )
 return
-JS_TRUE
+true
 ;
 }
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -1533,7 +1533,7 @@ jsdsrc
 textLength
 ;
 return
-JS_TRUE
+true
 ;
 }
 void
@@ -2172,7 +2172,7 @@ jsdsrc
 >
 dirty
 =
-JS_TRUE
+true
 ;
 jsdsrc
 -
@@ -2213,7 +2213,7 @@ jsdsrc
 >
 dirty
 =
-JS_TRUE
+true
 ;
 jsdsrc
 -
@@ -2547,9 +2547,9 @@ jsdc
 return
 jsdsrc
 ?
-JS_TRUE
+true
 :
-JS_FALSE
+false
 ;
 }
 /
@@ -2698,7 +2698,7 @@ jsdsrc
 >
 doingEval
 =
-JS_TRUE
+true
 ;
 }
 }
@@ -2800,7 +2800,7 @@ jsdsrc
 >
 doingEval
 =
-JS_FALSE
+false
 ;
 }
 JSD_UNLOCK_SOURCE_TEXT

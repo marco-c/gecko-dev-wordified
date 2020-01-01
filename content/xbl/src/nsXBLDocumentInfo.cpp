@@ -618,7 +618,7 @@ property
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -688,7 +688,7 @@ base
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -715,7 +715,7 @@ property
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -1028,7 +1028,7 @@ id
 JSBool
 did_resolve
 =
-JS_FALSE
+false
 ;
 return
 JS_ResolveStandardClass

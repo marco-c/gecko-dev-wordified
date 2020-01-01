@@ -3269,7 +3269,7 @@ rval
 false
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -3739,7 +3739,7 @@ shape
 )
 )
 return
-JS_FALSE
+false
 ;
 JS_ASSERT
 (
@@ -3941,7 +3941,7 @@ dummyAttrs
 )
 )
 return
-JS_FALSE
+false
 ;
 RootedValue
 tmp
@@ -4528,7 +4528,7 @@ v
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -5590,7 +5590,7 @@ attrs
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -21263,7 +21263,7 @@ cobj
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 id
@@ -27751,7 +27751,7 @@ iteratorIntrinsic
 )
 )
 return
-JS_TRUE
+true
 ;
 /
 *
@@ -27804,7 +27804,7 @@ pc
 )
 )
 return
-JS_TRUE
+true
 ;
 }
 unsigned
@@ -27869,7 +27869,7 @@ false
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -28058,10 +28058,10 @@ vp
 )
 )
 return
-JS_FALSE
+false
 ;
 return
-JS_TRUE
+true
 ;
 }
 bool
@@ -30592,7 +30592,7 @@ JSREPORT_WARNING
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 }
@@ -30662,7 +30662,7 @@ hasGetterValue
 )
 )
 return
-JS_TRUE
+true
 ;
 return
 shape
@@ -33278,7 +33278,7 @@ proto
 )
 )
 return
-JS_FALSE
+false
 ;
 vp
 .
@@ -33321,7 +33321,7 @@ shape
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -34823,7 +34823,7 @@ JSMSG_GETTER_ONLY
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 #

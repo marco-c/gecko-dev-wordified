@@ -2666,7 +2666,7 @@ NS_ERROR_UNEXPECTED
 JSBool
 same
 =
-JS_TRUE
+true
 ;
 if
 (

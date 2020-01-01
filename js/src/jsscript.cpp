@@ -2102,7 +2102,7 @@ i
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -2725,7 +2725,7 @@ length
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -3243,7 +3243,7 @@ prologLength
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -3258,7 +3258,7 @@ version
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -3293,7 +3293,7 @@ natoms
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -3308,7 +3308,7 @@ nsrcnotes
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -3323,7 +3323,7 @@ ntrynotes
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -3338,7 +3338,7 @@ nobjects
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -3353,7 +3353,7 @@ nregexps
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -3368,7 +3368,7 @@ nconsts
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -3383,7 +3383,7 @@ nTypeSets
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -3398,7 +3398,7 @@ ndefaults
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -3413,7 +3413,7 @@ scriptBits
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (

@@ -276,7 +276,7 @@ string
 )
 mOk
 =
-JS_FALSE
+false
 ;
 if
 (
@@ -368,7 +368,7 @@ aCx
 )
 mOk
 (
-JS_TRUE
+true
 )
 {
 mObj
@@ -388,7 +388,7 @@ mObj
 )
 mOk
 =
-JS_FALSE
+false
 ;
 }
 InfoObject

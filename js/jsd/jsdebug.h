@@ -2621,12 +2621,12 @@ destruction
 creating
 '
 is
-JS_TRUE
+true
 if
 creating
 new
 script
-JS_FALSE
+false
 if
 destroying
 existing
@@ -4622,9 +4622,9 @@ jsdc
 return
 jsdsrc
 ?
-JS_TRUE
+true
 :
-JS_FALSE
+false
 ;
 *
 /
@@ -4931,7 +4931,7 @@ returns
 .
 *
 Return
-JS_TRUE
+true
 from
 a
 TOPLEVEL_START
@@ -6181,7 +6181,7 @@ frame
 .
 *
 returns
-JS_TRUE
+true
 and
 puts
 result
@@ -6189,7 +6189,7 @@ in
 rval
 on
 success
-JS_FALSE
+false
 on
 failure
 .
@@ -7038,7 +7038,7 @@ DEBUG
 )
 then
 returns
-JS_TRUE
+true
 *
 So
 JSD_IsLocked
@@ -9044,7 +9044,7 @@ JSPD_ERROR
 native
 getter
 returned
-JS_FALSE
+false
 *
 /
 /

@@ -2076,7 +2076,7 @@ CPOWs
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSBool
@@ -2110,7 +2110,7 @@ CPOWs
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 bool

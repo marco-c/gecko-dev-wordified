@@ -5245,7 +5245,7 @@ wobj
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 /

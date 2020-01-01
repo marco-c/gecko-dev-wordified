@@ -1026,7 +1026,7 @@ n
 )
 )
 return
-JS_FALSE
+false
 ;
 for
 (
@@ -1073,12 +1073,12 @@ end
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 template
@@ -1931,7 +1931,7 @@ append
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -2601,7 +2601,7 @@ append
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -2625,7 +2625,7 @@ length
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -2669,7 +2669,7 @@ depth
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -2773,7 +2773,7 @@ outputValue
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -2789,7 +2789,7 @@ scx
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -2815,7 +2815,7 @@ null
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -2831,7 +2831,7 @@ scx
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -2870,7 +2870,7 @@ append
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -2886,7 +2886,7 @@ depth
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -2919,7 +2919,7 @@ depth
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 return
@@ -5567,7 +5567,7 @@ JSON
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 #

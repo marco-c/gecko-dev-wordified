@@ -978,7 +978,7 @@ IMPL_TO_JSVAL
 BUILD_JSVAL
 (
 JSVAL_TAG_BOOLEAN
-JS_FALSE
+false
 )
 )
 ;
@@ -991,7 +991,7 @@ IMPL_TO_JSVAL
 BUILD_JSVAL
 (
 JSVAL_TAG_BOOLEAN
-JS_TRUE
+true
 )
 )
 ;
@@ -1549,7 +1549,7 @@ argv
 ;
 required
 =
-JS_TRUE
+true
 ;
 while
 (
@@ -1590,7 +1590,7 @@ c
 {
 required
 =
-JS_FALSE
+false
 ;
 continue
 ;
@@ -1690,7 +1690,7 @@ s
 }
 }
 return
-JS_FALSE
+false
 ;
 }
 break
@@ -1744,7 +1744,7 @@ uint16_t
 )
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -1770,7 +1770,7 @@ int32_t
 )
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -1796,7 +1796,7 @@ uint32_t
 )
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -1822,7 +1822,7 @@ int32_t
 )
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -1848,7 +1848,7 @@ double
 )
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -1870,7 +1870,7 @@ d
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 va_arg
@@ -1919,7 +1919,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 *
 sp
@@ -1957,7 +1957,7 @@ if
 stable
 )
 return
-JS_FALSE
+false
 ;
 *
 va_arg
@@ -2015,7 +2015,7 @@ obj
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 sp
@@ -2058,7 +2058,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 *
 sp
@@ -2127,7 +2127,7 @@ format
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 sp
@@ -2136,7 +2136,7 @@ sp
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 JS_PUBLIC_API
@@ -2211,7 +2211,7 @@ JSVAL_VOID
 ;
 ok
 =
-JS_TRUE
+true
 ;
 break
 ;
@@ -2349,7 +2349,7 @@ value
 )
 ;
 return
-JS_TRUE
+true
 ;
 default
 :
@@ -2386,7 +2386,7 @@ numBuf
 ;
 ok
 =
-JS_FALSE
+false
 ;
 break
 ;
@@ -3124,7 +3124,7 @@ value
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JS_PUBLIC_API
@@ -13067,7 +13067,7 @@ node
 -
 >
 kind
-JS_TRUE
+true
 )
 ;
 if
@@ -13096,7 +13096,7 @@ buffer
 0
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -13220,7 +13220,7 @@ fp
 0
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -13330,7 +13330,7 @@ prev
 -
 >
 kind
-JS_FALSE
+false
 )
 ;
 if
@@ -13739,7 +13739,7 @@ thing
 )
 thingToFindWasTraced
 =
-JS_TRUE
+true
 ;
 if
 (
@@ -15289,7 +15289,7 @@ vp
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JS_PUBLIC_API
@@ -15407,7 +15407,7 @@ vp
 )
 {
 return
-JS_TRUE
+true
 ;
 }
 JS_PUBLIC_API
@@ -15430,7 +15430,7 @@ vp
 )
 {
 return
-JS_TRUE
+true
 ;
 }
 JS_PUBLIC_API
@@ -15474,7 +15474,7 @@ obj
 )
 {
 return
-JS_TRUE
+true
 ;
 }
 JS_PUBLIC_API
@@ -15493,7 +15493,7 @@ id
 )
 {
 return
-JS_TRUE
+true
 ;
 }
 JS_PUBLIC_API
@@ -16094,7 +16094,7 @@ getClass
 (
 )
 proto
-JS_FALSE
+false
 )
 ;
 }
@@ -16376,7 +16376,7 @@ obj
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 class
@@ -17692,7 +17692,7 @@ setUndefined
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -18683,7 +18683,7 @@ prop
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 foundp
@@ -18696,7 +18696,7 @@ obj2
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -18725,7 +18725,7 @@ foundp
 true
 ;
 return
-JS_TRUE
+true
 ;
 }
 *
@@ -18741,7 +18741,7 @@ id
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JS_PUBLIC_API
@@ -19826,7 +19826,7 @@ if
 atom
 )
 return
-JS_FALSE
+false
 ;
 id
 =
@@ -20481,7 +20481,7 @@ for
 (
 ok
 =
-JS_TRUE
+true
 ;
 cds
 -
@@ -20691,7 +20691,7 @@ shape
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -20748,7 +20748,7 @@ setUndefined
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 desc
@@ -21040,7 +21040,7 @@ cx
 obj
 id
 flags
-JS_FALSE
+false
 &
 desc
 )
@@ -21114,7 +21114,7 @@ cx
 obj
 id
 0
-JS_FALSE
+false
 &
 desc
 )
@@ -26011,7 +26011,7 @@ calleev
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -26238,7 +26238,7 @@ if
 atom
 )
 return
-JS_FALSE
+false
 ;
 Rooted
 <
@@ -26314,7 +26314,7 @@ if
 ctor
 )
 return
-JS_FALSE
+false
 ;
 }
 flags
@@ -26352,7 +26352,7 @@ if
 fun
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -26574,7 +26574,7 @@ if
 shAtom
 )
 return
-JS_FALSE
+false
 ;
 RootedPropertyName
 shName
@@ -26614,7 +26614,7 @@ funVal
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -26653,7 +26653,7 @@ JSFUN_FLAGS_MASK
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -26693,7 +26693,7 @@ if
 fun
 )
 return
-JS_FALSE
+false
 ;
 fun
 -
@@ -26762,7 +26762,7 @@ funVal
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -26795,7 +26795,7 @@ if
 fun
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -26822,7 +26822,7 @@ info
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 JS_PUBLIC_API
@@ -28502,7 +28502,7 @@ if
 chars
 )
 return
-JS_TRUE
+true
 ;
 /
 *
@@ -28535,7 +28535,7 @@ source
 /
 result
 =
-JS_TRUE
+true
 ;
 exnState
 =
@@ -28654,7 +28654,7 @@ source
 /
 result
 =
-JS_FALSE
+false
 ;
 }
 JS_SetErrorReporter
@@ -37030,7 +37030,7 @@ isExceptionPending
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 vp
@@ -37050,7 +37050,7 @@ vp
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JS_PUBLIC_API
@@ -38269,7 +38269,7 @@ done
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -38309,7 +38309,7 @@ pc
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 #
@@ -38400,7 +38400,7 @@ func
 else
 {
 return
-JS_TRUE
+true
 ;
 }
 #

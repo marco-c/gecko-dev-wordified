@@ -2531,7 +2531,7 @@ if
 ssm
 )
 return
-JS_FALSE
+false
 ;
 nsresult
 rv
@@ -2577,7 +2577,7 @@ rv
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -2595,7 +2595,7 @@ if
 subjectPrincipal
 )
 return
-JS_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -2654,7 +2654,7 @@ if
 csp
 )
 return
-JS_TRUE
+true
 ;
 bool
 evalOK
@@ -2700,7 +2700,7 @@ allowsEval
 )
 ;
 return
-JS_TRUE
+true
 ;
 /
 /
@@ -2880,7 +2880,7 @@ if
 ssm
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -3089,7 +3089,7 @@ rv
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 /
@@ -3105,7 +3105,7 @@ reported
 ?
 )
 return
-JS_TRUE
+true
 ;
 }
 NS_IMETHODIMP

@@ -461,7 +461,7 @@ jsscript
 JSBool
 hookresult
 =
-JS_TRUE
+true
 ;
 if
 (
@@ -476,7 +476,7 @@ jsdc
 inited
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -553,7 +553,7 @@ newObj
 )
 )
 return
-JS_FALSE
+false
 ;
 jsd_Constructing
 (
@@ -887,7 +887,7 @@ too
 /
 hookresult
 =
-JS_TRUE
+true
 ;
 }
 else
@@ -1326,7 +1326,7 @@ hookData
 else
 hookresult
 =
-JS_TRUE
+true
 ;
 }
 }
@@ -1344,7 +1344,7 @@ before
 )
 ;
 return
-JS_TRUE
+true
 ;
 #
 else

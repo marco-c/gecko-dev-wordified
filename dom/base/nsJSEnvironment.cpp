@@ -4211,7 +4211,7 @@ see
 bug
 355811
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -4346,7 +4346,7 @@ mOperationCallbackTime
 now
 ;
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -4374,7 +4374,7 @@ do
 here
 .
 return
-JS_TRUE
+true
 ;
 }
 PRTime
@@ -4456,7 +4456,7 @@ sMaxScriptRunTime
 )
 {
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -4555,7 +4555,7 @@ terminated
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -4618,7 +4618,7 @@ ctx
 NS_ENSURE_TRUE
 (
 prompt
-JS_FALSE
+false
 )
 ;
 /
@@ -5145,7 +5145,7 @@ strings
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -5487,7 +5487,7 @@ PR_Now
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 else
@@ -5517,7 +5517,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 void
@@ -18430,7 +18430,7 @@ NS_ERROR_DOM_DATA_CLONE_ERR
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /

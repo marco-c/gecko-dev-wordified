@@ -371,7 +371,7 @@ JSPROP_PERMANENT
 JSBool
 found
 =
-JS_FALSE
+false
 ;
 unsigned
 attrs

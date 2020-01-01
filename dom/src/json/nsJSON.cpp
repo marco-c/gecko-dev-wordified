@@ -1005,10 +1005,10 @@ rv
 )
 )
 return
-JS_FALSE
+false
 ;
 return
-JS_TRUE
+true
 ;
 }
 NS_IMETHODIMP

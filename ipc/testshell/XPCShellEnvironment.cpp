@@ -682,7 +682,7 @@ file
 )
 )
 return
-JS_FALSE
+false
 ;
 strcpy
 (
@@ -691,7 +691,7 @@ line
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -2492,7 +2492,7 @@ lineno
 ;
 hitEOF
 =
-JS_FALSE
+false
 ;
 do
 {
@@ -2606,7 +2606,7 @@ js
 {
 hitEOF
 =
-JS_TRUE
+true
 ;
 break
 ;
@@ -2787,7 +2787,7 @@ ptr
 else
 ok
 =
-JS_FALSE
+false
 ;
 }
 }
@@ -2992,7 +2992,7 @@ XPCShellEnvironment
 :
 mQuitting
 (
-JS_FALSE
+false
 )
 {
 }
@@ -3627,7 +3627,7 @@ cx
 globalObj
 kDefaultRuntimeScriptFilename
 runtimeScriptFile
-JS_FALSE
+false
 )
 ;
 fclose

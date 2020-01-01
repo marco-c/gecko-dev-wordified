@@ -1105,7 +1105,7 @@ JSHashEntry
 )
 )
 return
-JS_FALSE
+false
 ;
 nb
 *
@@ -1165,7 +1165,7 @@ buckets
 oldbuckets
 ;
 return
-JS_FALSE
+false
 ;
 }
 memset
@@ -1347,7 +1347,7 @@ oldbuckets
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSHashEntry
@@ -1829,7 +1829,7 @@ hep
 NULL
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -1847,7 +1847,7 @@ he
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 void

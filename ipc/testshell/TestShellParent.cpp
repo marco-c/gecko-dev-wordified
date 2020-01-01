@@ -266,7 +266,7 @@ aCx
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 mCallback
@@ -278,7 +278,7 @@ mCx
 aCx
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -307,7 +307,7 @@ JSVAL_NULL
 &
 &
 mCx
-JS_FALSE
+false
 )
 ;
 JSAutoRequest
@@ -323,7 +323,7 @@ mCallback
 ToJSObject
 (
 )
-JS_FALSE
+false
 )
 ;
 JSAutoCompartment
@@ -379,7 +379,7 @@ Length
 NS_ENSURE_TRUE
 (
 str
-JS_FALSE
+false
 )
 ;
 JS
@@ -443,11 +443,11 @@ address
 NS_ENSURE_TRUE
 (
 ok
-JS_FALSE
+false
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 void

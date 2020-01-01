@@ -267,7 +267,7 @@ p
 )
 \
 return
-JS_FALSE
+false
 ;
 \
 vp
@@ -288,7 +288,7 @@ name
 ;
 \
 return
-JS_TRUE
+true
 ;
 \
 }

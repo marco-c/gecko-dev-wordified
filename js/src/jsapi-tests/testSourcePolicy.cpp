@@ -279,7 +279,7 @@ JSBool
 data
 )
 =
-JS_FALSE
+false
 ;
 }
 BEGIN_TEST

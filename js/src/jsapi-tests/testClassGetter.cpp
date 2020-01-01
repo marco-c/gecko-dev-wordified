@@ -166,7 +166,7 @@ called_test_prop_get
 +
 ;
 return
-JS_TRUE
+true
 ;
 }
 static

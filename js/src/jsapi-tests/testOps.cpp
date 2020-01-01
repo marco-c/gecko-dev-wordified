@@ -190,11 +190,11 @@ JS_NumberValue
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 return
-JS_FALSE
+false
 ;
 }
 static
@@ -280,7 +280,7 @@ context
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
