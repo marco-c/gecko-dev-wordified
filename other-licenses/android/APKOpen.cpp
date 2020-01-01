@@ -1548,6 +1548,11 @@ SHELL_WRAPPER0
 (
 executeNextRunnable
 )
+SHELL_WRAPPER1
+(
+cameraCallbackBridge
+jbyteArray
+)
 static
 void
 *
@@ -4463,6 +4468,11 @@ reportJavaCrash
 GETFUNC
 (
 executeNextRunnable
+)
+;
+GETFUNC
+(
+cameraCallbackBridge
 )
 ;
 #
