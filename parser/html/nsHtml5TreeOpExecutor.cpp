@@ -5782,6 +5782,8 @@ const
 nsAString
 &
 aCrossOrigin
+bool
+aScriptFromHead
 )
 {
 nsCOMPtr
@@ -5818,6 +5820,7 @@ uri
 aCharset
 aType
 aCrossOrigin
+aScriptFromHead
 )
 ;
 }

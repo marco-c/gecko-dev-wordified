@@ -678,6 +678,10 @@ crossOrigin
 NullString
 (
 )
+mode
+=
+=
+NS_HTML5TREE_BUILDER_IN_HEAD
 )
 ;
 mCurrentHtmlScriptIsAsyncOrDefer
@@ -1260,6 +1264,10 @@ crossOrigin
 NullString
 (
 )
+mode
+=
+=
+NS_HTML5TREE_BUILDER_IN_HEAD
 )
 ;
 }

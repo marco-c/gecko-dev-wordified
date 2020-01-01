@@ -1175,6 +1175,19 @@ not
 present
 .
 *
+param
+aScriptFromHead
+Whether
+or
+not
+the
+script
+was
+a
+child
+of
+head
+*
 /
 virtual
 void
@@ -1195,6 +1208,8 @@ const
 nsAString
 &
 aCrossOrigin
+bool
+aScriptFromHead
 )
 ;
 private
@@ -1312,6 +1327,8 @@ const
 nsAString
 &
 aType
+bool
+aScriptFromHead
 )
 ;
 /

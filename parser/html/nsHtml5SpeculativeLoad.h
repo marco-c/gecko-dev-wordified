@@ -84,6 +84,7 @@ endif
 eSpeculativeLoadBase
 eSpeculativeLoadImage
 eSpeculativeLoadScript
+eSpeculativeLoadScriptFromHead
 eSpeculativeLoadStyle
 eSpeculativeLoadManifest
 eSpeculativeLoadSetDocumentCharset
@@ -212,6 +213,8 @@ const
 nsAString
 &
 aCrossOrigin
+bool
+aParserInHead
 )
 {
 NS_PRECONDITION
@@ -233,6 +236,10 @@ load
 ;
 mOpCode
 =
+aParserInHead
+?
+eSpeculativeLoadScriptFromHead
+:
 eSpeculativeLoadScript
 ;
 mUrl
@@ -677,6 +684,9 @@ is
 eSpeculativeLoadStyle
 or
 eSpeculativeLoadScript
+[
+FromHead
+]
 *
 then
 this
@@ -782,6 +792,9 @@ is
 eSpeculativeLoadImage
 or
 eSpeculativeLoadScript
+[
+FromHead
+]
 *
 this
 is
