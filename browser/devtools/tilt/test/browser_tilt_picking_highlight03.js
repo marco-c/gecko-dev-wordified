@@ -133,7 +133,7 @@ false
 ;
 presenter
 .
-_onSetupMesh
+_onInitializationFinished
 =
 function
 (
@@ -143,7 +143,7 @@ presenter
 .
 highlightNodeFor
 (
-5
+3
 )
 ;
 /

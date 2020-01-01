@@ -94,11 +94,6 @@ supported
 return
 ;
 }
-requestLongerTimeout
-(
-10
-)
-;
 waitForExplicitFinish
 (
 )
