@@ -12156,6 +12156,15 @@ upvarLevel
 ;
 if
 (
+cg
+-
+>
+staticLevel
+>
+=
+JS_DISPLAY_SIZE
+|
+|
 upvarLevel
 >
 =
