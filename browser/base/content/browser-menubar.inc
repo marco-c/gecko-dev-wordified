@@ -4211,7 +4211,7 @@ label
 =
 "
 &
-manBookmarksCmd
+showBookmarksCmd
 .
 label
 ;
