@@ -973,6 +973,15 @@ CLS
 nanojit
 :
 :
+LirBuffer
+)
+lirbuf
+;
+CLS
+(
+nanojit
+:
+:
 Fragmento
 )
 fragmento
