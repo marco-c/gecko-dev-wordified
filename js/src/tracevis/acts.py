@@ -191,6 +191,10 @@ extendCold
 '
     
 '
+scopeChainCheck
+'
+    
+'
 extendOuter
 '
     
