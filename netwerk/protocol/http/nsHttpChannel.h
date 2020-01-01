@@ -1325,13 +1325,6 @@ ShouldUpdateOfflineCacheEntry
 )
 ;
 nsresult
-StartBufferingCachedEntity
-(
-bool
-usingSSL
-)
-;
-nsresult
 ReadFromCache
 (
 bool
@@ -1755,7 +1748,7 @@ mCacheEntry
 We
 must
 close
-mCacheAsyncInputStream
+mCacheInputStream
 explicitly
 to
 avoid
@@ -1763,9 +1756,9 @@ leaks
 .
 AutoClose
 <
-nsIAsyncInputStream
+nsIInputStream
 >
-mCacheAsyncInputStream
+mCacheInputStream
 ;
 nsRefPtr
 <
