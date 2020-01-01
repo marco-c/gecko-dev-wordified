@@ -1224,6 +1224,7 @@ cairo_output_stream_t
 *
 stream
 const
+unsigned
 char
 *
 data
@@ -2380,10 +2381,6 @@ p
 -
 buffer
 )
-;
-p
-=
-buffer
 ;
 /
 *

@@ -358,6 +358,9 @@ cairoint
 .
 h
 "
+#
+if
+CAIRO_HAS_FONT_SUBSET
 /
 *
 The
@@ -1182,6 +1185,13 @@ glyph
 }
 tt_glyph_data_t
 ;
+#
+endif
+/
+*
+CAIRO_HAS_FONT_SUBSET
+*
+/
 #
 endif
 /

@@ -392,6 +392,17 @@ private
 .
 h
 "
+#
+include
+"
+cairo
+-
+types
+-
+private
+.
+h
+"
 /
 *
 #
