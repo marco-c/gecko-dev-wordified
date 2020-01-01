@@ -428,6 +428,17 @@ include
 "
 vm
 /
+RegExpStatics
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Shape
 -
 inl
