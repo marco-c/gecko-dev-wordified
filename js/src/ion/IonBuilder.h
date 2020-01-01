@@ -2381,6 +2381,11 @@ jsop_iterend
 )
 ;
 bool
+jsop_in
+(
+)
+;
+bool
 jsop_instanceof
 (
 )

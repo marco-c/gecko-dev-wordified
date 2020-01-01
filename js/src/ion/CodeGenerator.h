@@ -1254,6 +1254,14 @@ rhs
 )
 ;
 bool
+visitIn
+(
+LIn
+*
+ins
+)
+;
+bool
 visitInstanceOfO
 (
 LInstanceOfO
