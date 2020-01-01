@@ -7340,7 +7340,12 @@ cx
 script
 fun
 pc
-false
+fp
+-
+>
+isConstructing
+(
+)
 )
 ;
 if
