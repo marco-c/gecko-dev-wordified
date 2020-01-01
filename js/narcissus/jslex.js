@@ -758,6 +758,7 @@ match
 tt
 )
 )
+{
 throw
 this
 .
@@ -767,6 +768,8 @@ newSyntaxError
 Missing
 "
 +
+definitions
+.
 tokens
 [
 tt
@@ -777,6 +780,7 @@ toLowerCase
 )
 )
 ;
+}
 return
 this
 .
