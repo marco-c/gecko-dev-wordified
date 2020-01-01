@@ -502,6 +502,9 @@ PolyIC
 h
 "
 #
+ifdef
+JS_METHODJIT
+#
 include
 "
 assembler
@@ -512,6 +515,8 @@ ExecutableAllocator
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1811,9 +1816,14 @@ JSCompartment
 (
 )
 {
+#
+ifdef
+JS_METHODJIT
 delete
 execPool
 ;
+#
+endif
 }
 bool
 JSCompartment
