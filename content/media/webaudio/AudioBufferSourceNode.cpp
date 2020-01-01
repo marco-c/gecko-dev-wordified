@@ -2553,6 +2553,7 @@ mStart
 +
 mOffset
 >
+=
 mDuration
 )
 )
