@@ -96,6 +96,9 @@ nsIDOMUSSDReceivedEvent
 nsString
 mMessage
 ;
+bool
+mSessionEnded
+;
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
@@ -111,6 +114,8 @@ Create
 nsAString
 &
 aMessage
+bool
+aSessionEnded
 )
 ;
 nsresult
