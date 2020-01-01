@@ -488,7 +488,7 @@ Register
 RPCChannel
 :
 :
-Listener
+RPCListener
 *
 )
 =
@@ -498,7 +498,7 @@ virtual
 RPCChannel
 :
 :
-Listener
+RPCListener
 *
 Lookup
 (

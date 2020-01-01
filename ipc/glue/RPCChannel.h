@@ -633,13 +633,9 @@ aReply
 ;
 }
 ;
-typedef
-RPCListener
-Listener
-;
 RPCChannel
 (
-Listener
+RPCListener
 *
 aListener
 )

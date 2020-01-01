@@ -659,13 +659,9 @@ aMessage
 ;
 }
 ;
-typedef
-AsyncListener
-Listener
-;
 AsyncChannel
 (
-Listener
+AsyncListener
 *
 aListener
 )
@@ -877,7 +873,7 @@ Transport
 *
 mTransport
 ;
-Listener
+AsyncListener
 *
 mListener
 ;
