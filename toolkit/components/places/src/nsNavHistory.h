@@ -1540,7 +1540,7 @@ columns
 nsresult
 RowToResult
 (
-mozIStorageStatement
+mozIStorageValueArray
 *
 aRow
 nsNavHistoryQueryOptions
