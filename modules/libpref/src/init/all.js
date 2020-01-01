@@ -21848,6 +21848,16 @@ pref
 "
 dom
 .
+use_watchdog
+"
+true
+)
+;
+pref
+(
+"
+dom
+.
 max_chrome_script_run_time
 "
 20
