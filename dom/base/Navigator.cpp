@@ -829,14 +829,10 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mBatteryManager
 )
-/
-/
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
 mPowerManager
-isn
-'
-t
-cycle
-collected
+)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mSmsManager
