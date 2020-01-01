@@ -958,6 +958,12 @@ title
 ;
 }
 }
+contents
+.
+containerOpen
+=
+false
+;
 }
 else
 {
