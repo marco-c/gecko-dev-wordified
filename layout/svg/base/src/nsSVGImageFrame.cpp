@@ -674,6 +674,7 @@ PaintSVG
 nsSVGRenderState
 *
 aContext
+const
 nsIntRect
 *
 aDirtyRect
@@ -1559,6 +1560,7 @@ PaintSVG
 nsSVGRenderState
 *
 aContext
+const
 nsIntRect
 *
 aDirtyRect

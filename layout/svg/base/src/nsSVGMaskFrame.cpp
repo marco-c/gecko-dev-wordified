@@ -885,7 +885,7 @@ GetNextSibling
 nsSVGUtils
 :
 :
-PaintChildWithEffects
+PaintFrameWithEffects
 (
 aContext
 nsnull

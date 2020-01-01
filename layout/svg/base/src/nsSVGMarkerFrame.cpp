@@ -1526,7 +1526,7 @@ TRANSFORM_CHANGED
 nsSVGUtils
 :
 :
-PaintChildWithEffects
+PaintFrameWithEffects
 (
 aContext
 nsnull

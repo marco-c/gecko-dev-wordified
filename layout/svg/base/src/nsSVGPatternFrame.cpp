@@ -2225,7 +2225,7 @@ GetNextSibling
 nsSVGUtils
 :
 :
-PaintChildWithEffects
+PaintFrameWithEffects
 (
 &
 tmpState

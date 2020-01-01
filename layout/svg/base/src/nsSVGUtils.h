@@ -1915,11 +1915,12 @@ svg
 /
 static
 void
-PaintChildWithEffects
+PaintFrameWithEffects
 (
 nsSVGRenderState
 *
 aContext
+const
 nsIntRect
 *
 aDirtyRect
