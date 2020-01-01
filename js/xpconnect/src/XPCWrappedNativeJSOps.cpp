@@ -4467,7 +4467,7 @@ obj
 scope
 -
 >
-GetGlobalJSObject
+GetGlobalJSObjectPreserveColor
 (
 )
 ;
@@ -4498,7 +4498,7 @@ obj
 scope
 -
 >
-GetPrototypeJSObject
+GetPrototypeJSObjectPreserveColor
 (
 )
 ;
