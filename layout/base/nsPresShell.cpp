@@ -44179,6 +44179,9 @@ here
 return
 ;
 }
+#
+ifndef
+XP_MACOSX
 rootPresContext
 -
 >
@@ -44186,6 +44189,8 @@ ApplyPluginGeometryUpdates
 (
 )
 ;
+#
+endif
 }
 void
 PresShell
