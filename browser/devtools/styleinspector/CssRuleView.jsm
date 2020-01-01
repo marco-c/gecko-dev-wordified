@@ -4307,9 +4307,9 @@ doc
 .
 createElementNS
 (
-HTML_NS
+XUL_NS
 "
-div
+vbox
 "
 )
 ;
@@ -4339,6 +4339,14 @@ add
 ruleview
 "
 )
+;
+this
+.
+element
+.
+flex
+=
+1
 ;
 /
 /
