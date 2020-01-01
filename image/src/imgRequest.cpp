@@ -2542,7 +2542,7 @@ SetDataSize
 mImage
 -
 >
-GetDataSize
+SizeOfData
 (
 )
 )
