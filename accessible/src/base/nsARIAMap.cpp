@@ -675,6 +675,7 @@ nsIAccessibleRole
 ROLE_DOCUMENT
 eNoValue
 eNoAction
+eNoLiveAttr
 nsIAccessibleStates
 :
 :
@@ -899,6 +900,7 @@ nsIAccessibleRole
 ROLE_DOCUMENT
 eNoValue
 eNoAction
+eNoLiveAttr
 nsIAccessibleStates
 :
 :
