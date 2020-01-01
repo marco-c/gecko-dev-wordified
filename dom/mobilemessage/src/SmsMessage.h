@@ -176,6 +176,9 @@ SmsMessage
 (
 int32_t
 aId
+const
+uint64_t
+aThreadId
 mobilemessage
 :
 :
@@ -226,6 +229,9 @@ Create
 (
 int32_t
 aId
+const
+uint64_t
+aThreadId
 const
 nsAString
 &
