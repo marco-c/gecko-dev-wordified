@@ -1314,6 +1314,11 @@ OSXPROXY_MODULE
 \
 WINDOWSPROXY_MODULE
 \
+MODULE
+(
+jsctypes
+)
+\
 /
 *
 end
