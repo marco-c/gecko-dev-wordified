@@ -1701,6 +1701,9 @@ EnableDevice
 NS_DEVICE_MOTION
 )
 ;
+#
+ifdef
+MOZ_B2G
 }
 else
 if
@@ -1811,6 +1814,11 @@ NS_NETWORK_DOWNLOAD_EVENT
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_B2G
 }
 else
 if
@@ -2385,6 +2393,9 @@ IsDeviceType
 aType
 )
 ;
+#
+ifdef
+MOZ_B2G
 bool
 timeChangeEvent
 =
@@ -2411,6 +2422,11 @@ aType
 NS_NETWORK_DOWNLOAD_EVENT
 )
 ;
+#
+endif
+/
+/
+MOZ_B2G
 for
 (
 uint32_t
@@ -2508,6 +2524,9 @@ if
 (
 !
 deviceType
+#
+ifdef
+MOZ_B2G
 &
 &
 !
@@ -2516,6 +2535,11 @@ timeChangeEvent
 &
 !
 networkEvent
+#
+endif
+/
+/
+MOZ_B2G
 )
 {
 return
@@ -2548,6 +2572,9 @@ DisableDevice
 aType
 )
 ;
+#
+ifdef
+MOZ_B2G
 }
 else
 if
@@ -2625,6 +2652,11 @@ aType
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_B2G
 }
 }
 static

@@ -1567,6 +1567,9 @@ NS_DEVICE_LIGHT
 EventNameType_None
 NS_EVENT
 )
+#
+ifdef
+MOZ_B2G
 WINDOW_ONLY_EVENT
 (
 moztimechange
@@ -1588,6 +1591,11 @@ NS_NETWORK_DOWNLOAD_EVENT
 EventNameType_None
 NS_EVENT
 )
+#
+endif
+/
+/
+MOZ_B2G
 TOUCH_EVENT
 (
 touchstart

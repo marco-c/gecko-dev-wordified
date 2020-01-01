@@ -2904,6 +2904,9 @@ DisableTimeChangeNotifications
 =
 0
 ;
+#
+ifdef
+MOZ_B2G
 /
 *
 *
@@ -2974,6 +2977,11 @@ aType
 =
 0
 ;
+#
+endif
+/
+/
+MOZ_B2G
 /
 *
 *
