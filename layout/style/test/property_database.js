@@ -29019,6 +29019,9 @@ initial_values
 :
 [
 "
+auto
+"
+"
 0
 "
 "
@@ -29121,9 +29124,6 @@ calc
 invalid_values
 :
 [
-"
-auto
-"
 "
 none
 "
@@ -29192,6 +29192,9 @@ initial_values
 :
 [
 "
+auto
+"
+"
 0
 "
 "
@@ -29324,9 +29327,6 @@ calc
 invalid_values
 :
 [
-"
-auto
-"
 "
 none
 "
