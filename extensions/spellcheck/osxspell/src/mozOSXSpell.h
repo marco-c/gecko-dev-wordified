@@ -432,7 +432,7 @@ does
 not
 use
 any
-MySpell
+Hunspell
 technology
 or
 rely
@@ -545,7 +545,7 @@ org
 /
 spellchecker
 /
-myspell
+hunspell
 ;
 1
 "
