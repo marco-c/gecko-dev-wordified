@@ -453,6 +453,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 nsIMemoryReporter
 .
 h
