@@ -506,7 +506,7 @@ aAttName
 )
 )
 return
-nullptr
+false
 ;
 return
 nsSMILAnimationFunction

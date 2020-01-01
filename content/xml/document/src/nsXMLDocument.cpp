@@ -1769,7 +1769,7 @@ NS_BINDING_ABORTED
 ;
 mChannelIsPending
 =
-nullptr
+false
 ;
 }
 nsDocument
