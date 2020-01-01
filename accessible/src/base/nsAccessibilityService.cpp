@@ -318,7 +318,7 @@ h
 "
 #
 ifdef
-DEBUG
+A11Y_LOG
 #
 include
 "
@@ -2616,7 +2616,7 @@ aEndChild
 {
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -2744,7 +2744,7 @@ aChild
 {
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -5087,7 +5087,7 @@ aModules
 {
 #
 ifdef
-DEBUG
+A11Y_LOG
 logging
 :
 :
@@ -7726,7 +7726,7 @@ kInitIndicator
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 logging
 :
 :

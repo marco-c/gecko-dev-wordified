@@ -383,7 +383,7 @@ h
 "
 #
 ifdef
-DEBUG
+A11Y_LOG
 #
 include
 "
@@ -3499,7 +3499,7 @@ Init
 {
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -3628,7 +3628,7 @@ return
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -4850,7 +4850,7 @@ this
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -7530,7 +7530,7 @@ false
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -7939,7 +7939,7 @@ aContent
 Accessible
 #
 ifdef
-DEBUG
+A11Y_LOG
 nsresult
 DocAccessible
 :
@@ -8486,7 +8486,7 @@ nullptr
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -10825,7 +10825,7 @@ aEvent
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -11453,7 +11453,7 @@ aChildNode
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging

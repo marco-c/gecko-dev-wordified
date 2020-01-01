@@ -153,7 +153,7 @@ h
 "
 #
 ifdef
-DEBUG
+A11Y_LOG
 #
 include
 "
@@ -1130,7 +1130,7 @@ STATE_STOP
 {
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -1333,7 +1333,7 @@ started
 .
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -1841,7 +1841,7 @@ processing
 .
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -2028,7 +2028,7 @@ document
 {
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -2307,7 +2307,7 @@ NS_EVENT_FLAG_CAPTURE
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -2359,7 +2359,7 @@ NS_EVENT_FLAG_CAPTURE
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -2859,7 +2859,7 @@ docAcc
 }
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging

@@ -604,7 +604,7 @@ aTarget
 {
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -769,7 +769,7 @@ aTarget
 {
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -929,7 +929,7 @@ aCheckIfActive
 {
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -1010,7 +1010,7 @@ ContainerWidget
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -1254,7 +1254,7 @@ event
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -1293,7 +1293,7 @@ aTarget
 {
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -1838,7 +1838,7 @@ nullptr
 }
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging

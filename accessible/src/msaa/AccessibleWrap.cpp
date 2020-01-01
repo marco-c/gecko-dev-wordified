@@ -202,7 +202,7 @@ h
 "
 #
 ifdef
-DEBUG
+A11Y_LOG
 #
 include
 "
@@ -8928,7 +8928,7 @@ id
 }
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging

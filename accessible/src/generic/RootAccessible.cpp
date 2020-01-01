@@ -1826,7 +1826,7 @@ document
 {
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -2292,7 +2292,7 @@ accessible
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -2832,7 +2832,7 @@ accessible
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -2969,7 +2969,7 @@ nullptr
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -3143,7 +3143,7 @@ activeItem
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -3216,7 +3216,7 @@ nullptr
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -4560,7 +4560,7 @@ nullptr
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging

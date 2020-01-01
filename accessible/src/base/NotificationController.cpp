@@ -174,7 +174,7 @@ h
 "
 #
 ifdef
-DEBUG
+A11Y_LOG
 #
 include
 "
@@ -1521,7 +1521,7 @@ return
 }
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -2237,7 +2237,7 @@ Length
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 eventCount
@@ -5295,7 +5295,7 @@ IsEmpty
 {
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -5392,7 +5392,7 @@ events
 .
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -5555,7 +5555,7 @@ IsEmpty
 {
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging

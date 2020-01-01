@@ -479,7 +479,7 @@ aRoleMapEntry
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 virtual
 nsresult
 HandleAccEvent

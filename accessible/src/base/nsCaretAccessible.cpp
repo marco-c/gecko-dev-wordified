@@ -560,9 +560,6 @@ GetSelectionControllerForNode
 mCurrentControl
 )
 ;
-#
-ifdef
-DEBUG
 NS_ASSERTION
 (
 controller
@@ -590,8 +587,6 @@ node
 "
 )
 ;
-#
-endif
 if
 (
 !
@@ -1033,7 +1028,7 @@ documentNode
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
