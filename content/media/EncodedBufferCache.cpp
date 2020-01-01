@@ -129,14 +129,7 @@ h
 #
 include
 "
-nsDOMFile
-.
-h
-"
-#
-include
-"
-prio
+nsLocalFile
 .
 h
 "

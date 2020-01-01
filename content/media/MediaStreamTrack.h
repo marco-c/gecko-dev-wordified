@@ -109,6 +109,13 @@ h
 #
 include
 "
+DOMMediaStream
+.
+h
+"
+#
+include
+"
 nsID
 .
 h
@@ -123,9 +130,6 @@ h
 namespace
 mozilla
 {
-class
-DOMMediaStream
-;
 namespace
 dom
 {
