@@ -422,6 +422,12 @@ aScope
 )
 MOZ_OVERRIDE
 ;
+using
+nsDOMEventTargetHelper
+:
+:
+DispatchTrustedEvent
+;
 /
 /
 Constructor
