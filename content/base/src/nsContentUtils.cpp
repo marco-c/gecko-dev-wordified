@@ -6564,6 +6564,9 @@ isSystem
 =
 PR_FALSE
 ;
+nsresult
+rv
+=
 sSecurityManager
 -
 >
@@ -6571,6 +6574,12 @@ SubjectPrincipalIsSystem
 (
 &
 isSystem
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 if
