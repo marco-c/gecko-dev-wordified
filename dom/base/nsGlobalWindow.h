@@ -3540,6 +3540,10 @@ friend
 class
 HashchangeCallback
 ;
+friend
+class
+nsBarProp
+;
 /
 /
 Object
