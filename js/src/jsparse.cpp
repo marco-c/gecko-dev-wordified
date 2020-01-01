@@ -7763,9 +7763,11 @@ true
 ;
 atom
 =
-js_FindDuplicateFormal
-(
 fun
+-
+>
+findDuplicateFormal
+(
 )
 ;
 if
