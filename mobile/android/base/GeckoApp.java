@@ -15355,6 +15355,17 @@ getNetworkOperator
 (
 )
 ;
+if
+(
+mcc_mnc
+.
+length
+(
+)
+>
+3
+)
+{
 mcc
 =
 mcc_mnc
@@ -15394,6 +15405,7 @@ mnc
 mnc
 )
 ;
+}
 obj
 .
 put
