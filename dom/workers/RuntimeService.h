@@ -198,6 +198,15 @@ nsTArray
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIThread
 ;
@@ -213,6 +222,7 @@ WorkerPrivate
 ;
 class
 RuntimeService
+MOZ_FINAL
 :
 public
 nsIObserver

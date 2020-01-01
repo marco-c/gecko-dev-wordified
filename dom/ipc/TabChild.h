@@ -358,6 +358,15 @@ nsITabChild
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 struct
 gfxMatrix
 ;
@@ -635,6 +644,7 @@ mTabChild
 ;
 class
 ContentListener
+MOZ_FINAL
 :
 public
 nsIDOMEventListener

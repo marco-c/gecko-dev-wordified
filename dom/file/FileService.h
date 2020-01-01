@@ -143,6 +143,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 file
@@ -167,6 +176,7 @@ h
 BEGIN_FILE_NAMESPACE
 class
 FileService
+MOZ_FINAL
 :
 public
 nsIObserver
@@ -311,6 +321,7 @@ private
 :
 class
 LockedFileQueue
+MOZ_FINAL
 :
 public
 FileHelperListener

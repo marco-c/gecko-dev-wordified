@@ -141,6 +141,15 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIDocument
 ;
@@ -164,6 +173,7 @@ timing
 object
 class
 nsPerformanceTiming
+MOZ_FINAL
 :
 public
 nsIDOMPerformanceTiming
@@ -214,6 +224,7 @@ navigation
 object
 class
 nsPerformanceNavigation
+MOZ_FINAL
 :
 public
 nsIDOMPerformanceNavigation
@@ -253,6 +264,7 @@ performance
 object
 class
 nsPerformance
+MOZ_FINAL
 :
 public
 nsIDOMPerformance

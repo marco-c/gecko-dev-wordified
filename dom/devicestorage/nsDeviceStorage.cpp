@@ -1758,6 +1758,7 @@ ContinueCursorEvent
 ;
 class
 DeviceStorageCursorRequest
+MOZ_FINAL
 :
 public
 nsIContentPermissionRequest
@@ -4050,6 +4051,7 @@ mRequest
 ;
 class
 DeviceStorageRequest
+MOZ_FINAL
 :
 public
 nsIContentPermissionRequest

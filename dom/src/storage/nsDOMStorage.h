@@ -242,6 +242,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsDOMStorageDBWrapper
 .
 h
@@ -399,6 +408,7 @@ mItem
 ;
 class
 nsDOMStorageManager
+MOZ_FINAL
 :
 public
 nsIDOMStorageManager
@@ -1129,6 +1139,7 @@ mInPrivateBrowsing
 ;
 class
 DOMStorageImpl
+MOZ_FINAL
 :
 public
 DOMStorageBase
@@ -2115,6 +2126,7 @@ mEventBroadcaster
 ;
 class
 nsDOMStorage2
+MOZ_FINAL
 :
 public
 nsIDOMStorage

@@ -225,6 +225,15 @@ PCOMContentPermissionRequestChild
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsGeolocationService
 ;
@@ -439,6 +448,7 @@ provider
 /
 class
 nsGeolocationService
+MOZ_FINAL
 :
 public
 nsIGeolocationUpdate
@@ -741,6 +751,7 @@ info
 /
 class
 nsGeolocation
+MOZ_FINAL
 :
 public
 nsIDOMGeoGeolocation

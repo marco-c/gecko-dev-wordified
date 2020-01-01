@@ -113,6 +113,15 @@ nsISmsDatabaseService
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -127,6 +136,7 @@ PSmsChild
 ;
 class
 SmsIPCService
+MOZ_FINAL
 :
 public
 nsISmsService

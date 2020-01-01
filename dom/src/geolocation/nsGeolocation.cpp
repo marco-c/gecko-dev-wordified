@@ -300,6 +300,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 math
 .
@@ -781,6 +790,7 @@ nsDOMGeoPositionError
 /
 class
 nsDOMGeoPositionError
+MOZ_FINAL
 :
 public
 nsIDOMGeoPositionError

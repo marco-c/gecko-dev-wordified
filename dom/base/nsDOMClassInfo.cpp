@@ -550,6 +550,15 @@ nsLocation
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 Window
@@ -45349,6 +45358,7 @@ _result
 }
 class
 nsPluginProtoChainInstallRunner
+MOZ_FINAL
 :
 public
 nsIRunnable

@@ -142,6 +142,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 FileHelper
 .
 h
@@ -151,6 +160,7 @@ namespace
 {
 class
 ProgressRunnable
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -202,6 +212,7 @@ mProgressMax
 ;
 class
 CloseRunnable
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -235,6 +246,7 @@ mFileHelper
 ;
 class
 DestroyRunnable
+MOZ_FINAL
 :
 public
 nsIRunnable

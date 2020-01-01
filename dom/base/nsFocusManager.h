@@ -135,6 +135,15 @@ nsIWidget
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 FOCUSMETHOD_MASK
 0xF000
@@ -204,6 +213,7 @@ events
 /
 class
 nsFocusManager
+MOZ_FINAL
 :
 public
 nsIFocusManager

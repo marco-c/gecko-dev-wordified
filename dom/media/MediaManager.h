@@ -107,6 +107,15 @@ nsIDOMNavigatorUserMedia
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -379,6 +388,7 @@ WindowTable
 ;
 class
 MediaManager
+MOZ_FINAL
 :
 public
 nsIObserver

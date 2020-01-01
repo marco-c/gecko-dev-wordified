@@ -138,6 +138,15 @@ nsStringGlue
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIInputStream
 ;
@@ -147,6 +156,7 @@ nsIDOMBlob
 BEGIN_WORKERS_NAMESPACE
 class
 FileReaderSyncPrivate
+MOZ_FINAL
 :
 public
 PrivatizableBase

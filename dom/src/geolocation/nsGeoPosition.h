@@ -141,6 +141,15 @@ nsString
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 /
@@ -421,6 +430,7 @@ nsGeoPosition
 /
 class
 nsGeoPosition
+MOZ_FINAL
 :
 public
 nsIDOMGeoPosition

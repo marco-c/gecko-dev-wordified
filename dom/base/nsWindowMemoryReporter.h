@@ -150,6 +150,15 @@ nsArenaMemoryStats
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 This
@@ -901,6 +910,7 @@ tab
 /
 class
 nsWindowMemoryReporter
+MOZ_FINAL
 :
 public
 nsIMemoryMultiReporter
@@ -973,6 +983,7 @@ nsWindowMemoryReporter
 /
 class
 GhostURLsReporter
+MOZ_FINAL
 :
 public
 nsIMemoryMultiReporter
@@ -1027,6 +1038,7 @@ present
 /
 class
 NumGhostsReporter
+MOZ_FINAL
 :
 public
 nsIMemoryReporter

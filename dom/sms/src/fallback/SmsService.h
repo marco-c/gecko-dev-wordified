@@ -106,6 +106,15 @@ nsISmsService
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -117,6 +126,7 @@ sms
 {
 class
 SmsService
+MOZ_FINAL
 :
 public
 nsISmsService

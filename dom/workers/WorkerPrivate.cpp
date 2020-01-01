@@ -345,6 +345,15 @@ xpcpublic
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifdef
 ANDROID
 #
@@ -913,6 +922,7 @@ name
 ;
 class
 WorkerMemoryReporter
+MOZ_FINAL
 :
 public
 nsIMemoryMultiReporter
@@ -4796,6 +4806,7 @@ mStatus
 ;
 class
 CloseRunnable
+MOZ_FINAL
 :
 public
 WorkerControlRunnable
@@ -6133,6 +6144,7 @@ Nothing
 }
 class
 WorkerRunnableEventTarget
+MOZ_FINAL
 :
 public
 nsIEventTarget

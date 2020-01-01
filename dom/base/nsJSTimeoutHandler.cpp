@@ -216,6 +216,15 @@ nsAlgorithm
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 static
 const
 char
@@ -247,6 +256,7 @@ implementation
 .
 class
 nsJSScriptTimeoutHandler
+MOZ_FINAL
 :
 public
 nsIScriptTimeoutHandler

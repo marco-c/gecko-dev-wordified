@@ -508,6 +508,15 @@ nsJSPrincipals
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 Interfaces
@@ -2582,6 +2591,7 @@ property
 /
 class
 nsDOMMozURLProperty
+MOZ_FINAL
 :
 public
 nsIDOMMozURLProperty
@@ -2918,6 +2928,7 @@ it
 /
 class
 nsGlobalWindowObserver
+MOZ_FINAL
 :
 public
 nsIObserver
@@ -8510,6 +8521,7 @@ WINDOWSTATEHOLDER_IID
 }
 class
 WindowStateHolder
+MOZ_FINAL
 :
 public
 nsISupports
