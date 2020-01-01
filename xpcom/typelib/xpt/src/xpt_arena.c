@@ -174,6 +174,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
 <
 string
 .
@@ -2288,7 +2297,7 @@ XPT_SizeOfArena
 XPTArena
 *
 arena
-xptMallocSizeOfFun
+MozMallocSizeOf
 mallocSizeOf
 )
 {
