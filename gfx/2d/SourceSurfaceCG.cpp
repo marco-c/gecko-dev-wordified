@@ -695,8 +695,8 @@ height
 ;
 memcpy
 (
-aData
 data
+aData
 aStride
 *
 aSize
