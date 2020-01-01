@@ -1240,6 +1240,13 @@ webappsEvent
 "
 webappsEvent
 "
+"
+styleSheetsAdded
+"
+:
+"
+styleSheetsAdded
+"
 }
 ;
 /
