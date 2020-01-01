@@ -503,6 +503,11 @@ int
 height
 )
 ;
+void
+NotifyDOMTouchListenerAdded
+(
+)
+;
 protected
 :
 void
