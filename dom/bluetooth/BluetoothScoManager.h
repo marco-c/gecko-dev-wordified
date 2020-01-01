@@ -264,6 +264,13 @@ OnConnectError
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+OnDisconnect
+(
+)
+MOZ_OVERRIDE
+;
 bool
 mConnected
 ;
