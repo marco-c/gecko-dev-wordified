@@ -2852,6 +2852,13 @@ aRect
 const
 {
 return
+aRect
+.
+IsEmpty
+(
+)
+|
+|
 (
 PRBool
 )
