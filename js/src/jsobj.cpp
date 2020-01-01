@@ -3316,7 +3316,10 @@ checks
 .
 /
 /
+JS_FRIEND_API
+(
 bool
+)
 js
 :
 :
