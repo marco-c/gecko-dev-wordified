@@ -3712,6 +3712,13 @@ mInput
 .
 mLength
 false
+&
+aEvent
+-
+>
+mReply
+.
+mOffset
 )
 ;
 NS_ENSURE_SUCCESS
