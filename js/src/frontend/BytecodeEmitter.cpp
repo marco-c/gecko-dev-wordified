@@ -22973,6 +22973,8 @@ NewDenseAllocatedArray
 (
 cx
 pn_count
+NULL
+MaybeSingletonObject
 )
 )
 ;
@@ -23137,6 +23139,7 @@ cx
 &
 ObjectClass
 kind
+MaybeSingletonObject
 )
 )
 ;
