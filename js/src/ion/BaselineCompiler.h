@@ -342,6 +342,11 @@ JSOP_NULL
 \
 _
 (
+JSOP_THIS
+)
+\
+_
+(
 JSOP_TRUE
 )
 \
