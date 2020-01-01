@@ -1006,6 +1006,9 @@ check_test_pt4
 (
 )
 {
+var
+abi
+;
 try
 {
 abi

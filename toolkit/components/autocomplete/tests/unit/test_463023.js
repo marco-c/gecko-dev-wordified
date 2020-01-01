@@ -479,9 +479,7 @@ org
 /
 autocomplete
 /
-simple
--
-result
+controller
 ;
 1
 "
@@ -491,7 +489,7 @@ createInstance
 (
 Ci
 .
-nsIAutoCompleteSimpleResult
+nsIAutoCompleteController
 )
 ;
 do_check_eq
@@ -501,7 +499,7 @@ result
 searchStatus
 Ci
 .
-nsIAutoCompleteSimpleResult
+nsIAutoCompleteController
 .
 STATUS_NONE
 )
