@@ -1528,11 +1528,10 @@ return
 *
 Read
 the
-offset
-to
-the
-index
-.
+number
+of
+signatures
+field
 *
 /
 if
