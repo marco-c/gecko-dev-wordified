@@ -7974,6 +7974,16 @@ STATE_CONNECTING
 mDNSRecord
 )
 {
+mDNSRecord
+-
+>
+ReportUnusable
+(
+SocketPort
+(
+)
+)
+;
 nsresult
 rv
 =
