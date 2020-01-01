@@ -2951,6 +2951,9 @@ point
 if
 (
 mIsOffline
+&
+&
+mDestination
 )
 {
 mDestination
