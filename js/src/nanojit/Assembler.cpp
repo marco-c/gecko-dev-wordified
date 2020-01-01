@@ -9275,9 +9275,6 @@ case
 LIR_ov
 :
 case
-LIR_cs
-:
-case
 LIR_le
 :
 case
