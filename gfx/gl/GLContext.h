@@ -219,6 +219,13 @@ h
 #
 include
 "
+plstr
+.
+h
+"
+#
+include
+"
 nsDataHashtable
 .
 h
@@ -6869,7 +6876,7 @@ i
 {
 if
 (
-strcmp
+PL_strcasecmp
 (
 cur
 extList
