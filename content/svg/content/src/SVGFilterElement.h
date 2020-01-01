@@ -102,13 +102,6 @@ mozilla_dom_SVGFilterElement_h
 #
 include
 "
-nsIDOMSVGUnitTypes
-.
-h
-"
-#
-include
-"
 nsSVGEnum
 .
 h
@@ -179,8 +172,6 @@ SVGFilterElement
 :
 public
 SVGFilterElementBase
-public
-nsIDOMSVGUnitTypes
 {
 friend
 class
