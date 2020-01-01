@@ -596,7 +596,7 @@ clear
 }
 ;
 class
-JSTraceRecorder
+TraceRecorder
 {
 public
 :
@@ -621,7 +621,7 @@ LirWriter
 *
 lir
 ;
-JSTraceRecorder
+TraceRecorder
 (
 JSFrameRegs
 &
@@ -759,7 +759,7 @@ Fragmento
 *
 fragmento
 ;
-JSTraceRecorder
+TraceRecorder
 *
 recorder
 ;
