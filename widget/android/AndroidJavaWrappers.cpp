@@ -3438,6 +3438,17 @@ jobj
 jFlagsField
 )
 ;
+mMetaState
+=
+jenv
+-
+>
+GetIntField
+(
+jobj
+jMetaStateField
+)
+;
 break
 ;
 case
@@ -3562,9 +3573,6 @@ break
 ;
 }
 case
-SENSOR_ACCURACY
-:
-case
 ACTIVITY_STOPPING
 :
 case
@@ -3639,7 +3647,7 @@ break
 ;
 }
 #
-ifndef
+ifdef
 DEBUG_ANDROID_EVENTS
 ALOG
 (

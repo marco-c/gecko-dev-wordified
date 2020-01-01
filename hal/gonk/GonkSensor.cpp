@@ -348,6 +348,15 @@ data
 2
 ]
 ;
+aSensorData
+-
+>
+accuracy
+(
+)
+=
+SENSOR_ACCURACY_UNKNOWN
+;
 return
 true
 ;
