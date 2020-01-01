@@ -6128,7 +6128,8 @@ rv
 )
 )
 return
-rv
+-
+1
 ;
 {
 int
@@ -6468,6 +6469,14 @@ nullptr
 )
 ;
 return
+NS_FAILED
+(
 rv
+)
+?
+-
+1
+:
+0
 ;
 }

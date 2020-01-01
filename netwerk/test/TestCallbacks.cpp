@@ -1262,7 +1262,8 @@ rv
 )
 )
 return
-rv
+-
+1
 ;
 if
 (
@@ -1308,7 +1309,8 @@ rv
 )
 )
 return
-rv
+-
+1
 ;
 /
 /
@@ -1370,7 +1372,7 @@ n
 ;
 }
 return
-rv
+0
 ;
 }
 nsresult

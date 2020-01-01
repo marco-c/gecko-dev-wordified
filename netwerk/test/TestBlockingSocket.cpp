@@ -988,7 +988,8 @@ rv
 )
 )
 return
-rv
+-
+1
 ;
 rv
 =
@@ -1119,6 +1120,6 @@ failed
 )
 ;
 return
-NS_OK
+0
 ;
 }

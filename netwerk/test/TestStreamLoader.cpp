@@ -448,6 +448,6 @@ nullptr
 )
 ;
 return
-rv
+0
 ;
 }

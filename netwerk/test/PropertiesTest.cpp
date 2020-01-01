@@ -378,7 +378,7 @@ ret
 )
 )
 return
-ret
+1
 ;
 nsIChannel
 *
@@ -411,7 +411,7 @@ ret
 )
 )
 return
-ret
+1
 ;
 ret
 =
@@ -432,7 +432,7 @@ ret
 )
 )
 return
-ret
+1
 ;
 nsIPersistentProperties
 *
