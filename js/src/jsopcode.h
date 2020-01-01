@@ -466,13 +466,6 @@ jsutil
 .
 h
 "
-#
-include
-"
-jsarena
-.
-h
-"
 JS_BEGIN_EXTERN_C
 /
 *
@@ -4481,7 +4474,7 @@ the
 decompiler
 *
 /
-JSArenaPool
+LifoAlloc
 *
 pool
 ;
