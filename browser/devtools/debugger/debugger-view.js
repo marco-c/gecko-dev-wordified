@@ -3350,7 +3350,7 @@ L10N
 getStr
 (
 "
-emptyText
+emptyStackText
 "
 )
 )
