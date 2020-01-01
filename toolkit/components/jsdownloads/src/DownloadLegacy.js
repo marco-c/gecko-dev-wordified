@@ -2011,6 +2011,13 @@ reportError
 )
 ;
 }
+setSha256Hash
+:
+function
+(
+)
+{
+}
 /
 /
 /
