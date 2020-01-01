@@ -499,7 +499,9 @@ isPrivate
 *
 *
 Tests
-simpleDownload
+"
+fetch
+"
 with
 nsIURI
 and
@@ -512,7 +514,7 @@ arguments
 add_task
 (
 function
-test_simpleDownload_uri_file_arguments
+test_fetch_uri_file_arguments
 (
 )
 {
@@ -527,7 +529,7 @@ TEST_TARGET_FILE_NAME
 yield
 Downloads
 .
-simpleDownload
+fetch
 (
 NetUtil
 .
@@ -562,7 +564,9 @@ TEST_DATA_SHORT
 *
 *
 Tests
-simpleDownload
+"
+fetch
+"
 with
 DownloadSource
 and
@@ -575,7 +579,7 @@ arguments
 add_task
 (
 function
-test_simpleDownload_object_arguments
+test_fetch_object_arguments
 (
 )
 {
@@ -592,7 +596,7 @@ path
 yield
 Downloads
 .
-simpleDownload
+fetch
 (
 {
 url
@@ -628,7 +632,9 @@ TEST_DATA_SHORT
 *
 *
 Tests
-simpleDownload
+"
+fetch
+"
 with
 string
 arguments
@@ -638,7 +644,7 @@ arguments
 add_task
 (
 function
-test_simpleDownload_string_arguments
+test_fetch_string_arguments
 (
 )
 {
@@ -655,7 +661,7 @@ path
 yield
 Downloads
 .
-simpleDownload
+fetch
 (
 httpUrl
 (
@@ -687,7 +693,7 @@ path
 yield
 Downloads
 .
-simpleDownload
+fetch
 (
 new
 String
