@@ -1241,7 +1241,6 @@ FilterQueryProvider
 (
 )
 {
-Override
 public
 Cursor
 runQuery

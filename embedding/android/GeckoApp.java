@@ -749,7 +749,7 @@ mainLayout
 ;
 public
 static
-AbsoluteLayout
+RelativeLayout
 geckoLayout
 ;
 public
@@ -2780,7 +2780,7 @@ layout
 geckoLayout
 =
 (
-AbsoluteLayout
+RelativeLayout
 )
 findViewById
 (
@@ -5366,6 +5366,9 @@ mFilePickerResult
 =
 new
 SynchronousQueue
+<
+String
+>
 (
 )
 ;
