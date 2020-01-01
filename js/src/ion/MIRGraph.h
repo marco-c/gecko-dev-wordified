@@ -196,6 +196,13 @@ MPhiIterator
 class
 LBlock
 ;
+enum
+BranchDirection
+{
+FALSE_BRANCH
+TRUE_BRANCH
+}
+;
 class
 MBasicBlock
 :
