@@ -90,8 +90,13 @@ properties
 loadBundle
 (
 '
-resource
+chrome
 :
+/
+/
+branding
+/
+locale
 /
 browserconfig
 .
