@@ -1624,10 +1624,10 @@ protected
 RenderMode
 mRenderMode
 ;
-bool
+PRInt8
 mUseClearTypeForDownloadableFonts
 ;
-bool
+PRInt8
 mUseClearTypeAlways
 ;
 HDC
