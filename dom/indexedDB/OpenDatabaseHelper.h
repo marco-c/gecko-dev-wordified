@@ -118,6 +118,19 @@ OpenDatabaseHelper
 public
 HelperBase
 {
+typedef
+mozilla
+:
+:
+dom
+:
+:
+quota
+:
+:
+StoragePrivilege
+StoragePrivilege
+;
 public
 :
 OpenDatabaseHelper
@@ -146,7 +159,7 @@ dom
 ContentParent
 *
 aContentParent
-FactoryPrivilege
+StoragePrivilege
 aPrivilege
 )
 :
@@ -349,7 +362,7 @@ mDatabase
 ;
 }
 const
-FactoryPrivilege
+StoragePrivilege
 &
 Privilege
 (
@@ -478,7 +491,7 @@ mRequestedVersion
 bool
 mForDeletion
 ;
-FactoryPrivilege
+StoragePrivilege
 mPrivilege
 ;
 nsCOMPtr

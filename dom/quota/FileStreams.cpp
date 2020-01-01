@@ -118,6 +118,13 @@ FileStreams
 .
 h
 "
+#
+include
+"
+QuotaManager
+.
+h
+"
 USING_QUOTA_NAMESPACE
 template
 <

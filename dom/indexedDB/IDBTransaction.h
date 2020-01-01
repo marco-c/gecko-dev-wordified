@@ -203,6 +203,13 @@ h
 #
 include
 "
+nsRefPtrHashtable
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

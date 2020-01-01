@@ -900,7 +900,7 @@ Components
 )
 ;
 let
-idbManager
+quotaManager
 =
 comp
 .
@@ -913,7 +913,7 @@ org
 /
 dom
 /
-indexeddb
+quota
 /
 manager
 ;
@@ -927,7 +927,7 @@ comp
 .
 interfaces
 .
-nsIIndexedDatabaseManager
+nsIQuotaManager
 )
 ;
 let
@@ -964,7 +964,7 @@ fileUsage
 }
 }
 ;
-idbManager
+quotaManager
 .
 getUsageForURI
 (

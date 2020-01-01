@@ -757,7 +757,7 @@ fileHandle
 mFileStorage
 -
 >
-IsStorageInvalidated
+IsInvalidated
 (
 )
 )
@@ -766,7 +766,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsISupports
+nsIAtom
 *
 storageId
 =
@@ -776,7 +776,7 @@ fileHandle
 mFileStorage
 -
 >
-StorageId
+Id
 (
 )
 ;
@@ -1199,7 +1199,7 @@ aLockedFile
 >
 mFileHandle
 ;
-nsISupports
+nsIAtom
 *
 storageId
 =
@@ -1209,7 +1209,7 @@ fileHandle
 mFileStorage
 -
 >
-StorageId
+Id
 (
 )
 ;
@@ -1343,11 +1343,11 @@ index
 }
 }
 }
-bool
+void
 FileService
 :
 :
-WaitForAllStoragesToComplete
+WaitForStoragesToComplete
 (
 nsTArray
 <
@@ -1453,9 +1453,6 @@ Length
 )
 ;
 }
-return
-true
-;
 }
 void
 FileService
@@ -1504,7 +1501,7 @@ Get
 aFileStorage
 -
 >
-StorageId
+Id
 (
 )
 &
@@ -1613,7 +1610,7 @@ Get
 aFileStorage
 -
 >
-StorageId
+Id
 (
 )
 &
@@ -1759,7 +1756,7 @@ index
 ]
 -
 >
-StorageId
+Id
 (
 )
 nullptr

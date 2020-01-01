@@ -493,7 +493,7 @@ IsShuttingDown
 mFileStorage
 -
 >
-IsStorageShuttingDown
+IsShuttingDown
 (
 )
 )

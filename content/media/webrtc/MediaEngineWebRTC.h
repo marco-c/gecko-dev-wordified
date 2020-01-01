@@ -153,6 +153,13 @@ h
 #
 include
 "
+nsRefPtrHashtable
+.
+h
+"
+#
+include
+"
 VideoUtils
 .
 h
