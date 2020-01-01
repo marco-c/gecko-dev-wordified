@@ -5689,16 +5689,7 @@ jsbytecode
 *
 pc
 )
-{
-return
-!
-!
-getBreakpointSite
-(
-pc
-)
 ;
-}
 bool
 hasAnyBreakpointsOrStepMode
 (
