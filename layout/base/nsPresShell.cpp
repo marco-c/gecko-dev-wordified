@@ -40159,6 +40159,7 @@ IsShift
 (
 )
 )
+{
 aEvent
 -
 >
@@ -40166,9 +40167,17 @@ flags
 |
 =
 NS_EVENT_FLAG_ONLY_CHROME_DISPATCH
-|
-NS_EVENT_RETARGET_TO_NON_NATIVE_ANONYMOUS
 ;
+aEvent
+-
+>
+mFlags
+.
+mRetargetToNonNativeAnonymous
+=
+true
+;
+}
 }
 nsAutoHandlingUserInputStatePusher
 userInpStatePusher
