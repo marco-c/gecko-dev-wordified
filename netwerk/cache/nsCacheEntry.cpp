@@ -548,6 +548,9 @@ mLastModified
 )
 mExpirationTime
 (
+nsICache
+:
+:
 NO_EXPIRATION_TIME
 )
 mFlags

@@ -592,7 +592,7 @@ class
 nsIDocumentCharsetInfo
 ;
 class
-nsICacheEntryDescriptor
+nsICachingChannel
 ;
 class
 nsHTMLDocument
@@ -1708,9 +1708,9 @@ static
 PRBool
 TryCacheCharset
 (
-nsICacheEntryDescriptor
+nsICachingChannel
 *
-aCacheDescriptor
+aCachingChannel
 PRInt32
 &
 aCharsetSource
