@@ -86,6 +86,13 @@ h
 #
 include
 "
+nsIMobileConnectionProvider
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
@@ -144,6 +151,12 @@ nsDOMEventTargetHelper
 )
 private
 :
+nsCOMPtr
+<
+nsIMobileConnectionProvider
+>
+mProvider
+;
 NS_DECL_EVENT_HANDLER
 (
 stkcommand
