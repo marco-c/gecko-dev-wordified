@@ -23,11 +23,11 @@ libpng
 .
 5
 .
-8
+14
 [
-February
-1
-2011
+January
+24
+2013
 ]
 *
 Copyright
@@ -36,7 +36,7 @@ c
 )
 1998
 -
-2011
+2013
 Glenn
 Randers
 -
@@ -1047,8 +1047,8 @@ mincount
 ;
 /
 *
-fall
-through
+FALL
+THROUGH
 *
 /
 case
@@ -1093,8 +1093,8 @@ mincount
 ;
 /
 *
-fall
-through
+FALL
+THROUGH
 *
 /
 case

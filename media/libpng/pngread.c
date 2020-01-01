@@ -18,11 +18,11 @@ libpng
 .
 5
 .
-10
+14
 [
-March
-8
-2012
+January
+24
+2013
 ]
 *
 Copyright
