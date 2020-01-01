@@ -7830,7 +7830,6 @@ if
 (
 generateErrors
 )
-{
 ErrorInvalidOperation
 (
 "
@@ -7859,7 +7858,6 @@ argument
 info
 )
 ;
-}
 return
 PR_FALSE
 ;
@@ -7915,7 +7913,7 @@ if
 (
 generateErrors
 )
-ErrorInvalidOperation
+ErrorInvalidValue
 (
 "
 %

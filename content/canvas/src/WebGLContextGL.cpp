@@ -12652,7 +12652,15 @@ mode
 )
 {
 return
-NS_OK
+ErrorInvalidEnum
+(
+"
+hint
+:
+invalid
+hint
+"
+)
 ;
 }
 NS_IMETHODIMP
