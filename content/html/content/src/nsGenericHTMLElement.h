@@ -178,13 +178,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLMenuElement
 .
 h
