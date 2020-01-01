@@ -3344,12 +3344,6 @@ framePushed
 (
 )
 ;
-masm
-.
-checkStackAlignment
-(
-)
-;
 Label
 success
 exception
