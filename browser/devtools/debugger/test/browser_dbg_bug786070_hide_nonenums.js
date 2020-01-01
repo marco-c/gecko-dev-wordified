@@ -336,7 +336,7 @@ DebuggerView
 .
 Options
 .
-_showNonEnumItem
+_showVariablesNonEnumItem
 .
 setAttribute
 (
@@ -354,7 +354,7 @@ DebuggerView
 .
 Options
 .
-_toggleShowNonEnum
+_toggleShowVariablesNonEnum
 (
 )
 ;
@@ -416,7 +416,7 @@ DebuggerView
 .
 Options
 .
-_showNonEnumItem
+_showVariablesNonEnumItem
 .
 setAttribute
 (
@@ -434,7 +434,7 @@ DebuggerView
 .
 Options
 .
-_toggleShowNonEnum
+_toggleShowVariablesNonEnum
 (
 )
 ;
@@ -545,7 +545,7 @@ DebuggerView
 .
 Options
 .
-_showNonEnumItem
+_showVariablesNonEnumItem
 .
 setAttribute
 (
@@ -563,7 +563,7 @@ DebuggerView
 .
 Options
 .
-_toggleShowNonEnum
+_toggleShowVariablesNonEnum
 (
 )
 ;
@@ -626,7 +626,7 @@ DebuggerView
 .
 Options
 .
-_showNonEnumItem
+_showVariablesNonEnumItem
 .
 setAttribute
 (
@@ -644,7 +644,7 @@ DebuggerView
 .
 Options
 .
-_toggleShowNonEnum
+_toggleShowVariablesNonEnum
 (
 )
 ;
