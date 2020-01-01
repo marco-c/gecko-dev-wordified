@@ -539,6 +539,7 @@ nsString
 &
 aRetName
 )
+const
 {
 aRetName
 .
@@ -750,6 +751,7 @@ nsString
 &
 aRetContentType
 )
+const
 {
 aRetContentType
 .
@@ -851,6 +853,7 @@ uint32_t
 *
 aRetLength
 )
+const
 {
 int
 length
@@ -979,6 +982,7 @@ int
 *
 aRetBodyLength
 )
+const
 {
 int
 length
@@ -1066,6 +1070,7 @@ uint8_t
 *
 aRetBody
 )
+const
 {
 int
 length
@@ -1185,6 +1190,7 @@ Has
 ObexHeaderId
 aId
 )
+const
 {
 int
 length
