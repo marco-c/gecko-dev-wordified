@@ -6369,6 +6369,8 @@ autoUpdateDefault
 (
 )
 {
+try
+{
 return
 Services
 .
@@ -6378,6 +6380,16 @@ getBoolPref
 (
 PREF_EM_AUTOUPDATE_DEFAULT
 )
+;
+}
+catch
+(
+e
+)
+{
+}
+return
+true
 ;
 }
 }
