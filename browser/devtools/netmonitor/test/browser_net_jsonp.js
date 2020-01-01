@@ -166,7 +166,7 @@ size
 :
 L10N
 .
-getFormatStr
+getFormatStrWithNumbers
 (
 "
 networkMenu
