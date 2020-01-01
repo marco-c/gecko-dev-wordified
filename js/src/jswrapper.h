@@ -2147,6 +2147,10 @@ UnwrapObjectChecked
 (
 RawObject
 obj
+bool
+stopAtOuter
+=
+true
 )
 ;
 /
@@ -2186,6 +2190,10 @@ UnwrapOneChecked
 (
 RawObject
 obj
+bool
+stopAtOuter
+=
+true
 )
 ;
 JS_FRIEND_API

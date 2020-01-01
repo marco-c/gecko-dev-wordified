@@ -578,6 +578,8 @@ UnwrapObjectChecked
 (
 RawObject
 obj
+bool
+stopAtOuter
 )
 {
 while
@@ -596,6 +598,7 @@ obj
 UnwrapOneChecked
 (
 obj
+stopAtOuter
 )
 ;
 if
@@ -626,18 +629,10 @@ UnwrapOneChecked
 (
 RawObject
 obj
+bool
+stopAtOuter
 )
 {
-/
-/
-Checked
-unwraps
-should
-never
-unwrap
-outer
-windows
-.
 if
 (
 !
@@ -664,6 +659,9 @@ getClass
 ext
 .
 innerObject
+&
+&
+stopAtOuter
 )
 )
 {
