@@ -536,11 +536,11 @@ aCaseSensitive
 {
 if
 (
+value
+&
+&
 !
-nsCRT
-:
-:
-strcmp
+NS_strcmp
 (
 value
 start

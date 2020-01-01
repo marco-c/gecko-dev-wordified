@@ -4436,10 +4436,7 @@ identFromURI
 |
 |
 (
-nsCRT
-:
-:
-strcmp
+NS_strcmp
 (
 ident
 -
@@ -7827,10 +7824,7 @@ flag
 .
 if
 (
-nsCRT
-:
-:
-strcmp
+NS_strcmp
 (
 ident
 .

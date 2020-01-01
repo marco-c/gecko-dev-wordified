@@ -1268,10 +1268,7 @@ break
 else
 if
 (
-nsCRT
-:
-:
-strcmp
+NS_strcmp
 (
 thisNodes
 [

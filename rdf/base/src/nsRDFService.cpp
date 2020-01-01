@@ -1048,10 +1048,7 @@ return
 0
 =
 =
-nsCRT
-:
-:
-strcmp
+NS_strcmp
 (
 static_cast
 <

@@ -6275,11 +6275,11 @@ true
 ;
 if
 (
+someData
+&
+&
 !
-nsCRT
-:
-:
-strcmp
+NS_strcmp
 (
 someData
 NS_LITERAL_STRING

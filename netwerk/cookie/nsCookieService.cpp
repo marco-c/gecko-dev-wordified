@@ -10992,11 +10992,11 @@ mDBState
 dbConn
 &
 &
+aData
+&
+&
 !
-nsCRT
-:
-:
-strcmp
+NS_strcmp
 (
 aData
 NS_LITERAL_STRING
