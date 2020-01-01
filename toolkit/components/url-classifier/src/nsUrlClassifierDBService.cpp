@@ -18091,6 +18091,11 @@ ApplyUpdate
 ;
 if
 (
+mConnection
+)
+{
+if
+(
 NS_FAILED
 (
 mUpdateStatus
@@ -18130,6 +18135,7 @@ CommitTransaction
 (
 )
 ;
+}
 }
 }
 if
@@ -18306,6 +18312,10 @@ errcode
 =
 SQLITE_OK
 ;
+if
+(
+mConnection
+)
 mConnection
 -
 >
