@@ -288,14 +288,6 @@ unbox
 )
 ;
 bool
-visitDouble
-(
-LDouble
-*
-ins
-)
-;
-bool
 visitLoadSlotV
 (
 LLoadSlotV

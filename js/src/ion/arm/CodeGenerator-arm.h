@@ -860,13 +860,6 @@ LAllocation
 index
 )
 ;
-protected
-:
-void
-linkAbsoluteLabels
-(
-)
-;
 public
 :
 CodeGeneratorARM
