@@ -6276,6 +6276,14 @@ state
 "
 )
 ;
+ChangeReadyState
+(
+nsIDOMHTMLMediaElement
+:
+:
+HAVE_CURRENT_DATA
+)
+;
 DispatchAsyncSimpleEvent
 (
 NS_LITERAL_STRING
