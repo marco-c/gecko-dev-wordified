@@ -407,6 +407,9 @@ WideToUTF8
 (
 args
 [
+#
+ifndef
+OS_WIN
 args
 .
 size
@@ -414,6 +417,17 @@ size
 )
 -
 1
+#
+else
+args
+.
+size
+(
+)
+-
+2
+#
+endif
 ]
 )
 .
