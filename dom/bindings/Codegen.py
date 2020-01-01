@@ -13072,6 +13072,22 @@ for
 now
 .
         
+#
+See
+comments
+in
+WrapNewBindingObject
+explaining
+why
+we
+need
+        
+#
+to
+wrap
+here
+.
+        
 return
 "
 "
@@ -13120,6 +13136,22 @@ Tags
 .
 any
 :
+        
+#
+See
+comments
+in
+WrapNewBindingObject
+explaining
+why
+we
+need
+        
+#
+to
+wrap
+here
+.
         
 return
 "
