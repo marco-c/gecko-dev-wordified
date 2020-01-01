@@ -106,7 +106,7 @@ h
 #
 include
 "
-nsISupportsArray
+nsTreeStyleCache
 .
 h
 "
@@ -150,8 +150,8 @@ const
 nsAString
 &
 aProperties
-nsISupportsArray
-*
+AtomArray
+&
 aPropertiesArray
 )
 ;

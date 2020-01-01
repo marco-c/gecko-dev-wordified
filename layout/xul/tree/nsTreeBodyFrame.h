@@ -3361,10 +3361,7 @@ cached
 style
 contexts
 .
-nsCOMPtr
-<
-nsISupportsArray
->
+AtomArray
 mScratchArray
 ;
 /
