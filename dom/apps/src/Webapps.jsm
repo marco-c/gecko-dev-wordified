@@ -4807,6 +4807,7 @@ startOfflineCacheDownload
 aManifest
 aApp
 aProfileDir
+aOfflineCacheObserver
 )
 {
 /
@@ -6553,6 +6554,7 @@ startOfflineCacheDownload
 manifest
 appObject
 aProfileDir
+aOfflineCacheObserver
 )
 ;
 if
@@ -10973,6 +10975,12 @@ installState
 =
 aStatus
 ;
+app
+.
+downloading
+=
+false
+;
 DOMApplicationRegistry
 .
 broadcastMessage
@@ -11026,6 +11034,16 @@ error
 aError
 }
 )
+;
+app
+.
+downloading
+=
+false
+;
+mustSave
+=
+true
 ;
 }
 switch
