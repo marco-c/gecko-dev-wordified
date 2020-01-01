@@ -509,6 +509,10 @@ mSegmentsAdded
 (
 0
 )
+mDesiredTime
+(
+0
+)
 mPullEnabled
 (
 false
@@ -899,6 +903,9 @@ protected
 :
 int
 mSegmentsAdded
+;
+uint64_t
+mDesiredTime
 ;
 bool
 mPullEnabled
