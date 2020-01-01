@@ -17459,6 +17459,9 @@ upgraded
 0
 )
 ;
+#
+ifdef
+MOZ_AIRBAG
 CrashReporter
 :
 :
@@ -17466,6 +17469,8 @@ UnsetExceptionHandler
 (
 )
 ;
+#
+endif
 return
 rv
 =
@@ -17478,6 +17483,9 @@ NS_ERROR_LAUNCHED_CHILD_PROCESS
 ;
 }
 }
+#
+ifdef
+MOZ_AIRBAG
 CrashReporter
 :
 :
@@ -17485,6 +17493,8 @@ UnsetExceptionHandler
 (
 )
 ;
+#
+endif
 return
 NS_FAILED
 (
