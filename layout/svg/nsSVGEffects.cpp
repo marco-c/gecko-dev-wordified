@@ -1359,8 +1359,6 @@ changeHint
 nsChangeHint
 (
 nsChangeHint_RepaintFrame
-|
-nsChangeHint_UpdateEffects
 )
 ;
 /
@@ -1490,8 +1488,6 @@ changeHint
 nsChangeHint
 (
 nsChangeHint_RepaintFrame
-|
-nsChangeHint_UpdateEffects
 )
 ;
 /
