@@ -11757,7 +11757,6 @@ updateFlags
 =
 UpdateTreeInternal
 (
-aContainer
 aChildNode
 aChildNode
 -
@@ -12031,9 +12030,6 @@ nsDocAccessible
 :
 UpdateTreeInternal
 (
-nsAccessible
-*
-aContainer
 nsIContent
 *
 aStartNode
@@ -12140,7 +12136,6 @@ updateFlags
 =
 UpdateTreeInternal
 (
-aContainer
 node
 -
 >
