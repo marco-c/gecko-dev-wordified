@@ -58050,7 +58050,8 @@ CGClassForwardDeclare
 (
 className
 className
-is
+=
+=
 "
 JSObject
 "
