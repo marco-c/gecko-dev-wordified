@@ -119,13 +119,6 @@ NativeJSContext
 .
 h
 "
-#
-include
-"
-WebGLArray
-.
-h
-"
 using
 namespace
 mozilla
