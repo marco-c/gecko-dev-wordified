@@ -1347,10 +1347,10 @@ m
 xx
 m
 .
-xy
+yx
 m
 .
-yx
+xy
 m
 .
 yy
@@ -1386,10 +1386,10 @@ m
 xx
 m
 .
-xy
+yx
 m
 .
-yx
+xy
 m
 .
 yy
