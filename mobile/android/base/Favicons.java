@@ -1624,6 +1624,13 @@ GeckoJarReader
 .
 getBitmapDrawable
 (
+GeckoApp
+.
+mAppContext
+.
+getResources
+(
+)
 mFaviconUrl
 )
 ;

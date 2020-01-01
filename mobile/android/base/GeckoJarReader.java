@@ -68,6 +68,15 @@ util
 import
 android
 .
+content
+.
+res
+.
+Resources
+;
+import
+android
+.
 graphics
 .
 drawable
@@ -229,6 +238,8 @@ static
 BitmapDrawable
 getBitmapDrawable
 (
+Resources
+resources
 String
 url
 )
@@ -303,6 +314,7 @@ bitmap
 new
 BitmapDrawable
 (
+resources
 inputStream
 )
 ;
