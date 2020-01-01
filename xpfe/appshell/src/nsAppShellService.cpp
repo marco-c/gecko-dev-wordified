@@ -1795,6 +1795,9 @@ return
 zLevel
 ;
 }
+#
+ifdef
+XP_WIN
 /
 *
 *
@@ -1981,6 +1984,8 @@ return
 PR_FALSE
 ;
 }
+#
+endif
 /
 *
 *
