@@ -754,6 +754,12 @@ nv
 return
 _InterlockedCompareExchange64
 (
+(
+long
+long
+*
+volatile
+)
 w
 nv
 ov

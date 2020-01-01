@@ -1660,6 +1660,7 @@ forceReturnPool
 ;
 #
 if
+(
 defined
 (
 JS_NO_FASTCALL
@@ -1669,6 +1670,13 @@ JS_NO_FASTCALL
 defined
 (
 JS_CPU_X86
+)
+)
+|
+|
+defined
+(
+_WIN64
 )
 void
 (
