@@ -1158,6 +1158,8 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
+PRUint32
+aStateMask
 )
 {
 Invalidate

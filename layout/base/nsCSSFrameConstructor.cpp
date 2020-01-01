@@ -62880,6 +62880,8 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
+PRUint32
+aStateMask
 )
 {
 nsresult
@@ -63458,6 +63460,7 @@ HasAttributeDependentStyle
 aContent
 aAttribute
 aModType
+aStateMask
 )
 ;
 PostRestyleEvent

@@ -9298,6 +9298,8 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
+PRUint32
+aStateMask
 )
 {
 nsReStyleHint
@@ -9314,6 +9316,7 @@ GetPresContext
 aContent
 aAttribute
 aModType
+aStateMask
 )
 ;
 if

@@ -2189,6 +2189,7 @@ nsIDOMMutationEvent
 :
 :
 MODIFICATION
+0
 )
 ;
 }

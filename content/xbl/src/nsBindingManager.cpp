@@ -6528,6 +6528,8 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
+PRUint32
+aStateMask
 )
 {
 NS_BINDINGMANAGER_NOTIFY_OBSERVERS
@@ -6539,6 +6541,7 @@ aContent
 aNameSpaceID
 aAttribute
 aModType
+aStateMask
 )
 )
 ;
