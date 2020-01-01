@@ -2617,7 +2617,7 @@ name
 Equals
 (
 "
-TE
+te
 "
 )
 |
