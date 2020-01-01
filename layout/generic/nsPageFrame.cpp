@@ -3916,9 +3916,9 @@ width
 height
 of
 strings
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fontMet
 ;

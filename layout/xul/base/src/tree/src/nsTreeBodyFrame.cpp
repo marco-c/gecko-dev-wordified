@@ -7379,9 +7379,9 @@ nsCSSAnonBoxes
 moztreecelltext
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 ;
@@ -22578,9 +22578,9 @@ our
 text
 size
 .
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fontMet
 ;

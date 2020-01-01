@@ -885,7 +885,7 @@ Length
 /
 reflow
 metrics
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 =

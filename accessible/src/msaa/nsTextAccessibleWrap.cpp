@@ -461,7 +461,7 @@ h
 #
 include
 "
-nsIFontMetrics
+nsFontMetrics
 .
 h
 "
@@ -1793,9 +1793,9 @@ return
 E_FAIL
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 ;

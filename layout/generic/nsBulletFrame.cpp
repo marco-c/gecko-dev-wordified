@@ -1682,9 +1682,9 @@ return
 }
 }
 }
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 ;
@@ -7686,9 +7686,9 @@ SizeTo
 0
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 ;
@@ -8957,9 +8957,9 @@ height
 }
 else
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 ;

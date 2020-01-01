@@ -6477,7 +6477,7 @@ within
 the
 formatting
 rect
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 =

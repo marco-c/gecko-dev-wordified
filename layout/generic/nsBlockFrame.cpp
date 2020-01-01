@@ -3692,9 +3692,9 @@ GetCaretBaseline
 ;
 }
 }
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 ;

@@ -510,7 +510,7 @@ h
 #
 include
 "
-nsIFontMetrics
+nsFontMetrics
 .
 h
 "
@@ -14952,7 +14952,7 @@ static
 nscoord
 GetNormalLineHeight
 (
-nsIFontMetrics
+nsFontMetrics
 *
 aFontMetrics
 )
@@ -15263,9 +15263,9 @@ return
 aBlockHeight
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 ;

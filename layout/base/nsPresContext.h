@@ -707,7 +707,7 @@ class
 imgIRequest
 ;
 class
-nsIFontMetrics
+nsFontMetrics
 ;
 class
 nsIFrame
@@ -1849,7 +1849,7 @@ NS_HIDDEN_
 (
 already_AddRefed
 <
-nsIFontMetrics
+nsFontMetrics
 >
 )
 GetMetricsFor

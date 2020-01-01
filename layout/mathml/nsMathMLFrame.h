@@ -460,7 +460,7 @@ h
 #
 include
 "
-nsIFontMetrics
+nsFontMetrics
 .
 h
 "
@@ -1408,9 +1408,9 @@ GetStyleFont
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 =
@@ -1461,9 +1461,9 @@ GetStyleFont
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 =
@@ -1535,7 +1535,7 @@ static
 void
 GetSubScriptShifts
 (
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 nscoord
@@ -1599,7 +1599,7 @@ static
 void
 GetSupScriptShifts
 (
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 nscoord
@@ -1686,7 +1686,7 @@ static
 void
 GetSubDrop
 (
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 nscoord
@@ -1725,7 +1725,7 @@ static
 void
 GetSupDrop
 (
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 nscoord
@@ -1764,7 +1764,7 @@ static
 void
 GetNumeratorShifts
 (
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 nscoord
@@ -1839,7 +1839,7 @@ static
 void
 GetDenominatorShifts
 (
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 nscoord
@@ -1896,7 +1896,7 @@ static
 void
 GetEmHeight
 (
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 nscoord
@@ -1956,7 +1956,7 @@ static
 void
 GetAxisHeight
 (
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 nscoord
@@ -1992,7 +1992,7 @@ static
 void
 GetBigOpSpacings
 (
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 nscoord
@@ -2103,7 +2103,7 @@ static
 void
 GetRuleThickness
 (
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 nscoord
@@ -2178,7 +2178,7 @@ GetRuleThickness
 nsRenderingContext
 &
 aRenderingContext
-nsIFontMetrics
+nsFontMetrics
 *
 aFontMetrics
 nscoord
@@ -2193,7 +2193,7 @@ GetAxisHeight
 nsRenderingContext
 &
 aRenderingContext
-nsIFontMetrics
+nsFontMetrics
 *
 aFontMetrics
 nscoord

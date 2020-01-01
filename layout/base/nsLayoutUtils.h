@@ -498,7 +498,7 @@ class
 nsDisplayItem
 ;
 class
-nsIFontMetrics
+nsFontMetrics
 ;
 class
 nsClientRectList
@@ -5373,7 +5373,7 @@ const
 nsIFrame
 *
 aFrame
-nsIFontMetrics
+nsFontMetrics
 *
 *
 aFontMetrics
@@ -5422,7 +5422,7 @@ GetFontMetricsForStyleContext
 nsStyleContext
 *
 aStyleContext
-nsIFontMetrics
+nsFontMetrics
 *
 *
 aFontMetrics
@@ -6615,7 +6615,7 @@ static
 nscoord
 GetCenteredFontBaseline
 (
-nsIFontMetrics
+nsFontMetrics
 *
 aFontMetrics
 nscoord

@@ -1492,9 +1492,9 @@ charMaxAdvance
 =
 0
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fontMet
 ;
@@ -3649,9 +3649,9 @@ GetStyleContext
 NS_AUTOHEIGHT
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fontMet
 ;
