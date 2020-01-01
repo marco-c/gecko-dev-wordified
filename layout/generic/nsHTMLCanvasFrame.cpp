@@ -446,6 +446,7 @@ BuildLayer
 aBuilder
 aManager
 this
+aContainerParameters
 )
 ;
 }
@@ -1465,6 +1466,10 @@ aManager
 nsDisplayItem
 *
 aItem
+const
+ContainerParameters
+&
+aContainerParameters
 )
 {
 nsRect
@@ -1669,6 +1674,10 @@ r
 TopLeft
 (
 )
++
+aContainerParameters
+.
+mOffset
 )
 ;
 transform

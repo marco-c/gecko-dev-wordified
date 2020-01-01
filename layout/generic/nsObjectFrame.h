@@ -259,6 +259,16 @@ layers
 ImageContainer
 ImageContainer
 ;
+typedef
+mozilla
+:
+:
+FrameLayerBuilder
+:
+:
+ContainerParameters
+ContainerParameters
+;
 NS_DECL_FRAMEARENA_HELPERS
 friend
 nsIFrame
@@ -769,6 +779,10 @@ aManager
 nsDisplayItem
 *
 aItem
+const
+ContainerParameters
+&
+aContainerParameters
 )
 ;
 LayerState
@@ -1822,6 +1836,7 @@ BuildLayer
 aBuilder
 aManager
 this
+aContainerParameters
 )
 ;
 }

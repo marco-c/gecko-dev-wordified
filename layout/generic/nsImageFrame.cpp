@@ -8259,6 +8259,9 @@ container
 ConfigureLayer
 (
 layer
+aParameters
+.
+mOffset
 )
 ;
 return
@@ -8278,6 +8281,10 @@ ConfigureLayer
 ImageLayer
 *
 aLayer
+const
+nsIntPoint
+&
+aOffset
 )
 {
 aLayer
@@ -8358,6 +8365,8 @@ destRect
 TopLeft
 (
 )
++
+aOffset
 )
 ;
 transform
