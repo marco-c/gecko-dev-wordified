@@ -11289,7 +11289,6 @@ cx
 &
 pc
 NULL
-NULL
 chars
 length
 NULL
