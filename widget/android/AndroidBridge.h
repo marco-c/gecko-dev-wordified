@@ -1228,6 +1228,11 @@ ShowInputMethodPicker
 )
 ;
 void
+PreventPanning
+(
+)
+;
+void
 HideProgressDialogOnce
 (
 )
@@ -2186,6 +2191,9 @@ jSetFullScreen
 ;
 jmethodID
 jShowInputMethodPicker
+;
+jmethodID
+jPreventPanning
 ;
 jmethodID
 jHideProgressDialog
