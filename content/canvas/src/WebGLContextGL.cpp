@@ -5785,11 +5785,6 @@ DetachTexture
 tex
 )
 ;
-WebGLUint
-activeTexture
-=
-mActiveTexture
-;
 for
 (
 int32_t
@@ -5883,7 +5878,7 @@ ActiveTexture
 (
 LOCAL_GL_TEXTURE0
 +
-activeTexture
+mActiveTexture
 )
 ;
 tex
