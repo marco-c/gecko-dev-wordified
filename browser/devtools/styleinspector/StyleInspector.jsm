@@ -745,7 +745,7 @@ highlighter
 .
 button
 .
-label1
+label2
 "
 )
 tooltiptext
@@ -775,7 +775,7 @@ style
 .
 highlighter
 .
-accesskey1
+accesskey2
 "
 )
 context
