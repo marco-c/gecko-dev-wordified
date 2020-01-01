@@ -2564,6 +2564,8 @@ ins
 void
 asm_store32
 (
+LOpcode
+op
 LIns
 *
 val
@@ -2577,6 +2579,8 @@ base
 void
 asm_store64
 (
+LOpcode
+op
 LIns
 *
 val
@@ -2592,15 +2596,6 @@ asm_restore
 (
 LInsp
 Register
-)
-;
-void
-asm_load
-(
-int
-d
-Register
-r
 )
 ;
 void
@@ -2675,7 +2670,7 @@ i
 )
 ;
 void
-asm_ld
+asm_load32
 (
 LInsp
 i
