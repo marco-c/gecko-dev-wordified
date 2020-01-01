@@ -901,6 +901,7 @@ static
 char
 GetLocalizedAccelKey
 (
+const
 char
 *
 shortcutID

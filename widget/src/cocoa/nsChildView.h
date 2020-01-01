@@ -1664,6 +1664,9 @@ exitType
 )
 aType
 ;
+#
+ifndef
+NP_NO_CARBON
 -
 (
 void
@@ -1675,6 +1678,8 @@ EventRef
 )
 aKeyEvent
 ;
+#
+endif
 /
 /
 Simple
