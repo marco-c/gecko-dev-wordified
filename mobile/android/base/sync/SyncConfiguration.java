@@ -2908,7 +2908,7 @@ user
 userPart
 ;
 }
-public
+protected
 String
 infoBaseURL
 (
