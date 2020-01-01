@@ -183,7 +183,7 @@ view
 .
 View
 ;
-public
+final
 class
 GeckoMenuInflater
 extends
@@ -237,6 +237,8 @@ menu
 item
 .
 private
+static
+final
 class
 ParsedItem
 {

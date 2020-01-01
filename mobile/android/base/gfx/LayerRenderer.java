@@ -402,6 +402,7 @@ view
 *
 /
 public
+final
 class
 LayerRenderer
 {
@@ -2532,6 +2533,8 @@ metrics
 )
 ;
 }
+private
+final
 class
 FadeRunnable
 implements
@@ -2709,6 +2712,7 @@ requestRender
 }
 }
 public
+final
 class
 Frame
 {

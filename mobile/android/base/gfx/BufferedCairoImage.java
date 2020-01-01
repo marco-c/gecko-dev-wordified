@@ -161,6 +161,7 @@ data
 *
 /
 public
+final
 class
 BufferedCairoImage
 extends

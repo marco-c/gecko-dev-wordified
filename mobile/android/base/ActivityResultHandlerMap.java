@@ -77,6 +77,7 @@ util
 .
 Map
 ;
+final
 class
 ActivityResultHandlerMap
 {

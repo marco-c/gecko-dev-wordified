@@ -100,7 +100,7 @@ widget
 .
 TextView
 ;
-public
+final
 class
 LinkTextView
 extends

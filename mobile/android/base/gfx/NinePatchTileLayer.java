@@ -217,7 +217,7 @@ nine
 patch
 *
 /
-public
+final
 class
 NinePatchTileLayer
 extends

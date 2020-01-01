@@ -363,7 +363,7 @@ text
 .
 InputType
 ;
-public
+final
 class
 PromptService
 implements
@@ -690,6 +690,8 @@ this
 ;
 }
 private
+static
+final
 class
 PromptButton
 {
@@ -730,6 +732,7 @@ ex
 }
 }
 private
+final
 class
 PromptInput
 {
@@ -3009,8 +3012,9 @@ return
 list
 ;
 }
-static
 public
+static
+final
 class
 PromptListItem
 {
@@ -3192,6 +3196,7 @@ aLabel
 }
 }
 public
+final
 class
 PromptListAdapter
 extends
@@ -3849,6 +3854,7 @@ convertView
 ;
 }
 private
+final
 class
 ViewHolder
 {

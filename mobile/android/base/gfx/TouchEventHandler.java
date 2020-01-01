@@ -2901,6 +2901,7 @@ remove
 }
 }
 private
+final
 class
 ListenerTimeoutProcessor
 implements

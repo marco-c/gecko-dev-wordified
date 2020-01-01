@@ -148,6 +148,7 @@ lock
 *
 /
 public
+final
 class
 ImmutableViewportMetrics
 {

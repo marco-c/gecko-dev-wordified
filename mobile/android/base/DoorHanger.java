@@ -200,7 +200,7 @@ json
 .
 JSONException
 ;
-public
+final
 class
 DoorHanger
 extends

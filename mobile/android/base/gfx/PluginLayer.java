@@ -200,6 +200,7 @@ gecko
 GeckoAppShell
 ;
 public
+final
 class
 PluginLayer
 extends
@@ -1679,6 +1680,9 @@ GL_TRIANGLE_STRIP
 )
 ;
 }
+private
+static
+final
 class
 PluginLayoutParams
 extends
@@ -1943,6 +1947,9 @@ clampToMaxSize
 }
 }
 }
+private
+static
+final
 class
 ShowViewRunnable
 implements

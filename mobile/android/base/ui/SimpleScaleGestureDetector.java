@@ -331,6 +331,7 @@ scaling
 *
 /
 public
+final
 class
 SimpleScaleGestureDetector
 {
@@ -1616,6 +1617,7 @@ gesture
 /
 private
 static
+final
 class
 PointerInfo
 {
@@ -2013,11 +2015,9 @@ e
 }
 }
 public
-static
 interface
 SimpleScaleGestureListener
 {
-public
 boolean
 onScale
 (
@@ -2025,7 +2025,6 @@ SimpleScaleGestureDetector
 detector
 )
 ;
-public
 boolean
 onScaleBegin
 (
@@ -2033,7 +2032,6 @@ SimpleScaleGestureDetector
 detector
 )
 ;
-public
 void
 onScaleEnd
 (

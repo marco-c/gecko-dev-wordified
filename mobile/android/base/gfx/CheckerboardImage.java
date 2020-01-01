@@ -149,7 +149,7 @@ checkerboard
 .
 *
 /
-public
+final
 class
 CheckerboardImage
 extends

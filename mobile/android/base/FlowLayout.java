@@ -100,7 +100,7 @@ view
 .
 ViewGroup
 ;
-public
+final
 class
 FlowLayout
 extends

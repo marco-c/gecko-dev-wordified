@@ -144,7 +144,7 @@ ES
 .
 *
 /
-public
+final
 class
 CairoUtils
 {

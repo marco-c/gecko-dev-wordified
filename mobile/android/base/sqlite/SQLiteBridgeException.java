@@ -99,6 +99,7 @@ gecko
 sqlite
 ;
 public
+final
 class
 SQLiteBridgeException
 extends

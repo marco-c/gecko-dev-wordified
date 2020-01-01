@@ -158,7 +158,7 @@ widget
 .
 ImageView
 ;
-public
+final
 class
 MenuItemDefault
 extends

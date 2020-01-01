@@ -317,6 +317,7 @@ signature
 *
 /
 public
+final
 class
 GeckoEvent
 {

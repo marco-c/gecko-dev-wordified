@@ -322,6 +322,7 @@ util
 Log
 ;
 public
+final
 class
 LocalBrowserDB
 implements
@@ -5632,6 +5633,8 @@ data
 set
 .
 private
+static
+final
 class
 SpecialFoldersCursorWrapper
 extends
@@ -5987,6 +5990,7 @@ return
 }
 private
 static
+final
 class
 LocalDBCursor
 extends

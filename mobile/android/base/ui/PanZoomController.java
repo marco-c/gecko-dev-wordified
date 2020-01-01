@@ -335,6 +335,7 @@ scrollability
 *
 /
 public
+final
 class
 PanZoomController
 extends
@@ -4492,6 +4493,7 @@ animation
 *
 /
 private
+final
 class
 BounceRunnable
 extends
@@ -4822,6 +4824,7 @@ fling
 animation
 .
 private
+final
 class
 FlingRunnable
 extends
@@ -5658,6 +5661,7 @@ viewportMetrics
 ;
 }
 private
+final
 class
 AxisX
 extends
@@ -5747,6 +5751,7 @@ width
 }
 }
 private
+final
 class
 AxisY
 extends

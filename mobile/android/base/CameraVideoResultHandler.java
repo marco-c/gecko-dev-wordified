@@ -107,6 +107,7 @@ util
 .
 Log
 ;
+final
 class
 CameraVideoResultHandler
 implements

@@ -154,6 +154,12 @@ final
 class
 PointUtils
 {
+private
+PointUtils
+(
+)
+{
+}
 public
 static
 PointF

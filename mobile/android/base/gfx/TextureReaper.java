@@ -131,7 +131,7 @@ resources
 .
 *
 /
-public
+final
 class
 TextureReaper
 {

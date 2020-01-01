@@ -180,6 +180,7 @@ setup
 .
 SyncAccounts
 ;
+final
 class
 SyncPreference
 extends

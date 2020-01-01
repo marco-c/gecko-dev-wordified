@@ -304,7 +304,7 @@ BrowserDB
 .
 URLColumns
 ;
-public
+final
 class
 AwesomeBarTabs
 extends

@@ -276,6 +276,7 @@ block
 *
 /
 public
+final
 class
 LayerController
 {

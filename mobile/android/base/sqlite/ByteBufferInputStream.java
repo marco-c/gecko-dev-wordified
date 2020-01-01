@@ -146,7 +146,7 @@ use
 .
 *
 /
-public
+final
 class
 ByteBufferInputStream
 extends

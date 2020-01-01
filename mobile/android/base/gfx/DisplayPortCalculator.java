@@ -2082,6 +2082,7 @@ port
 /
 private
 static
+final
 class
 NoMarginStrategy
 extends
@@ -2284,6 +2285,7 @@ axis
 /
 private
 static
+final
 class
 FixedMarginStrategy
 extends
@@ -2921,6 +2923,7 @@ direction
 /
 private
 static
+final
 class
 VelocityBiasStrategy
 extends
@@ -4108,6 +4111,7 @@ screen
 /
 private
 static
+final
 class
 DynamicResolutionStrategy
 extends
@@ -6268,6 +6272,7 @@ checkerboard
 /
 private
 static
+final
 class
 PredictionBiasStrategy
 extends

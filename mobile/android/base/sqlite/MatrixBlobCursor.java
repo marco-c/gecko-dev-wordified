@@ -338,6 +338,7 @@ needed
 *
 /
 public
+final
 class
 MatrixBlobCursor
 extends
@@ -1311,6 +1312,7 @@ time
 *
 /
 public
+final
 class
 RowBuilder
 {

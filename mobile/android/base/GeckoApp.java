@@ -3296,6 +3296,7 @@ scrollable
 Menu
 public
 static
+final
 class
 MenuPanel
 extends
@@ -14566,6 +14567,8 @@ String
 host
 )
 ;
+private
+final
 class
 RedirectorRunnable
 implements
@@ -20005,6 +20008,7 @@ false
 ;
 }
 private
+final
 class
 FullScreenHolder
 extends
@@ -20806,6 +20810,7 @@ reflection
 .
 private
 static
+final
 class
 AccessibilityCompat
 {

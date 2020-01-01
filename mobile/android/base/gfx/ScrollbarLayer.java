@@ -219,7 +219,7 @@ scrollbar
 .
 *
 /
-public
+final
 class
 ScrollbarLayer
 extends

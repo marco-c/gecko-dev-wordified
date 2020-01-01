@@ -140,7 +140,6 @@ class
 to
 do
 that
-public
 abstract
 class
 GeckoAsyncTask
@@ -181,6 +180,7 @@ PRIORITY_NORMAL
 ;
 }
 private
+final
 class
 BackgroundTaskRunnable
 implements

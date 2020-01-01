@@ -144,7 +144,7 @@ view
 .
 View
 ;
-public
+final
 class
 GeckoMenuItem
 implements
@@ -164,7 +164,6 @@ GeckoMenuItem
 "
 ;
 public
-static
 interface
 Layout
 {
@@ -250,7 +249,6 @@ getLayout
 ;
 }
 public
-static
 interface
 OnShowAsActionChangedListener
 {

@@ -91,7 +91,7 @@ util
 .
 Log
 ;
-public
+final
 class
 GeckoMessageReceiver
 extends

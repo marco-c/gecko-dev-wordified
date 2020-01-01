@@ -168,7 +168,7 @@ text
 .
 TextUtils
 ;
-public
+final
 class
 RemoteTabs
 extends

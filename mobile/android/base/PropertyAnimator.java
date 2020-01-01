@@ -171,7 +171,7 @@ util
 .
 Log
 ;
-public
+final
 class
 PropertyAnimator
 extends
@@ -206,6 +206,8 @@ SLIDE_TOP
 SLIDE_LEFT
 }
 private
+static
+final
 class
 ElementHolder
 {
@@ -223,7 +225,6 @@ to
 ;
 }
 public
-static
 interface
 PropertyAnimationListener
 {

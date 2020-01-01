@@ -204,7 +204,7 @@ gfx
 .
 GfxInfoThread
 ;
-public
+final
 class
 GeckoThread
 extends

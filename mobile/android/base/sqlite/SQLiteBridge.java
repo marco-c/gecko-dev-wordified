@@ -232,6 +232,7 @@ system
 *
 /
 public
+final
 class
 SQLiteBridge
 {

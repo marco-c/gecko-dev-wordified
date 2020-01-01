@@ -150,7 +150,7 @@ gecko
 .
 R
 ;
-public
+final
 class
 SetupScreen
 extends

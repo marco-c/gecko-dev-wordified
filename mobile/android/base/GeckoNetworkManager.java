@@ -488,7 +488,7 @@ is
 LTE
 *
 /
-public
+final
 class
 GeckoNetworkManager
 extends

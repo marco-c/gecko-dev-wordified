@@ -254,6 +254,7 @@ nio
 FloatBuffer
 ;
 public
+final
 class
 ScreenshotLayer
 extends
@@ -340,6 +341,7 @@ mHasImage
 ;
 private
 static
+final
 String
 LOGTAG
 =
@@ -804,7 +806,9 @@ data
 .
 *
 /
+private
 static
+final
 class
 ScreenshotImage
 extends

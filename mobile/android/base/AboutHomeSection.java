@@ -128,7 +128,7 @@ text
 .
 TextUtils
 ;
-public
+final
 class
 AboutHomeSection
 extends
@@ -589,8 +589,9 @@ GONE
 )
 ;
 }
-public
+private
 static
+final
 class
 TitleView
 extends
@@ -665,8 +666,9 @@ text
 ;
 }
 }
-public
+private
 static
+final
 class
 SubTitleView
 extends
@@ -741,8 +743,9 @@ text
 ;
 }
 }
-public
+private
 static
+final
 class
 MoreTextView
 extends

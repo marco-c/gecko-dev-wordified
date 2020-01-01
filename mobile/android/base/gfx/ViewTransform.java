@@ -99,6 +99,7 @@ gecko
 gfx
 ;
 public
+final
 class
 ViewTransform
 {

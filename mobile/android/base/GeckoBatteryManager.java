@@ -173,7 +173,7 @@ util
 .
 Log
 ;
-public
+final
 class
 GeckoBatteryManager
 extends
