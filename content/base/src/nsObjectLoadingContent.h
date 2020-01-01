@@ -173,13 +173,6 @@ h
 #
 include
 "
-nsFrameLoader
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h
@@ -226,6 +219,13 @@ nsIFrame
 .
 h
 "
+#
+include
+"
+nsIFrameLoader
+.
+h
+"
 class
 nsAsyncInstantiateEvent
 ;
@@ -243,6 +243,9 @@ AutoSetInstantiatingToFalse
 ;
 class
 nsObjectFrame
+;
+class
+nsFrameLoader
 ;
 class
 nsObjectLoadingContent
