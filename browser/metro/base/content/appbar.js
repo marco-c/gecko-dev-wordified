@@ -138,7 +138,7 @@ button
 ;
 }
 get
-moreButton
+menuButton
 (
 )
 {
@@ -148,7 +148,7 @@ document
 getElementById
 (
 '
-more
+menu
 -
 button
 '
@@ -712,7 +712,7 @@ _updateStarButton
 ;
 }
 }
-onMoreButton
+onMenuButton
 :
 function
 (
@@ -824,7 +824,7 @@ x
 =
 this
 .
-moreButton
+menuButton
 .
 getBoundingClientRect
 (
