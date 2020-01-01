@@ -540,6 +540,7 @@ nsSimpleNestedURI
 {
 public
 :
+NS_DECL_NSIIPCSERIALIZABLE
 nsNestedAboutURI
 (
 nsIURI
