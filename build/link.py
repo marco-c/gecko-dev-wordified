@@ -497,10 +497,11 @@ sleep
     
 print
 "
+TinderboxPrint
+:
 linker
 max
-virtual
-size
+vsize
 :
 %
 d
