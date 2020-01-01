@@ -1212,16 +1212,6 @@ runTests
 (
 )
 ;
-finish
-(
-)
-;
-window
-.
-close
-(
-)
-;
 }
 /
 /
