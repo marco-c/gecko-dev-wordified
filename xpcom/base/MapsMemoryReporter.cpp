@@ -176,6 +176,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+unused
+.
+h
+"
+#
+include
 <
 stdio
 .
@@ -1983,6 +1992,9 @@ including
 the
 newline
 .
+unused
+<
+<
 fscanf
 (
 aFile
