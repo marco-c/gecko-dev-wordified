@@ -6390,7 +6390,7 @@ url
 )
 )
 {
-var
+let
 dataMimeType
 =
 /
@@ -6401,11 +6401,14 @@ data
 image
 \
 /
-.
-*
-)
+[
+^
 ;
+]
++
+)
 /
+i
 .
 exec
 (
@@ -6422,6 +6425,10 @@ dataMimeType
 [
 1
 ]
+.
+toLowerCase
+(
+)
 ;
 }
 var
@@ -6443,7 +6450,7 @@ to
 display
 it
 nicely
-var
+let
 imageMimeType
 =
 /
@@ -6456,6 +6463,7 @@ image
 *
 )
 /
+i
 .
 exec
 (
