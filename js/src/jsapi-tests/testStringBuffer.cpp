@@ -108,7 +108,6 @@ js_AtomizeString
 (
 cx
 str
-0
 )
 ;
 CHECK

@@ -6584,7 +6584,6 @@ js_AtomizeString
 (
 cx
 source
-0
 )
 ;
 if
@@ -56959,7 +56958,6 @@ js_AtomizeString
 (
 cx
 str
-0
 )
 ;
 if
@@ -57978,7 +57976,6 @@ js_AtomizeString
 (
 cx
 accum
-0
 )
 ;
 if
@@ -58304,7 +58301,6 @@ js_AtomizeString
 (
 cx
 accum
-0
 )
 ;
 if
@@ -60784,7 +60780,6 @@ js_AtomizeString
 (
 cx
 str
-0
 )
 ;
 if
@@ -60960,7 +60955,6 @@ js_AtomizeString
 (
 cx
 str
-0
 )
 ;
 if
