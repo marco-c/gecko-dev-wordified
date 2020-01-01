@@ -664,11 +664,10 @@ void
 aOutAccessible
 )
 ;
-virtual
-nsresult
-HandleAccEvent
+NS_IMETHOD
+FireAccessibleEvent
 (
-nsAccEvent
+nsIAccessibleEvent
 *
 aEvent
 )
@@ -760,7 +759,7 @@ virtual
 nsresult
 FirePlatformEvent
 (
-nsAccEvent
+nsIAccessibleEvent
 *
 aEvent
 )
