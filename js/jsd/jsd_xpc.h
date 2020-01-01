@@ -139,6 +139,15 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 #
@@ -360,6 +369,7 @@ structures
 /
 class
 jsdObject
+MOZ_FINAL
 :
 public
 jsdIObject
