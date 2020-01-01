@@ -1158,13 +1158,15 @@ __SUNPRO_CC
 )
 #
 define
-_sign_
+_sign_int
 signed
+int
 #
 else
 #
 define
-_sign_
+_sign_int
+int32_t
 #
 endif
 /
@@ -1280,8 +1282,7 @@ code
 :
 8
 ;
-_sign_
-int32_t
+_sign_int
 disp
 :
 8
@@ -1364,8 +1365,7 @@ code
 :
 8
 ;
-_sign_
-int32_t
+_sign_int
 imm24
 :
 24
@@ -1394,8 +1394,7 @@ resv
 cobberred
 during
 assembly
-_sign_
-int32_t
+_sign_int
 imm16
 :
 16
