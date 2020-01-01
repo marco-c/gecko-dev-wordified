@@ -574,6 +574,9 @@ aScopeObject
 nsIPrincipal
 *
 principal
+nsIPrincipal
+*
+originPrincipal
 const
 char
 *
