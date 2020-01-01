@@ -2810,6 +2810,14 @@ this
 pageSize
 )
 ;
+DebuggerView
+.
+editor
+.
+focus
+(
+)
+;
 }
 /
 *
