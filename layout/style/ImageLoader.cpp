@@ -1733,7 +1733,7 @@ aType
 imgINotificationObserver
 :
 :
-START_CONTAINER
+SIZE_AVAILABLE
 )
 {
 nsCOMPtr
@@ -1787,7 +1787,7 @@ aType
 imgINotificationObserver
 :
 :
-STOP_FRAME
+LOAD_COMPLETE
 )
 {
 return
@@ -1805,7 +1805,7 @@ aType
 imgINotificationObserver
 :
 :
-FRAME_CHANGED
+FRAME_UPDATE
 )
 {
 return
