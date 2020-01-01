@@ -755,14 +755,6 @@ aValue
 )
 ;
 NS_IMETHOD
-GetKeyboardShortcut
-(
-nsAString
-&
-aKeyboardShortcut
-)
-;
-NS_IMETHOD
 GetAttributes
 (
 nsIPersistentProperties
