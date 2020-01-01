@@ -18463,6 +18463,13 @@ REPORT_UNEXPECTED_TOKEN
 PENegationBadInner
 )
 ;
+SkipUntil
+(
+'
+)
+'
+)
+;
 return
 parsingStatus
 ;
@@ -18487,6 +18494,13 @@ PR_TRUE
 REPORT_UNEXPECTED_TOKEN
 (
 PENegationNoClose
+)
+;
+SkipUntil
+(
+'
+)
+'
 )
 ;
 return
