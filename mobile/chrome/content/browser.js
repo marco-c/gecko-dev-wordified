@@ -8384,7 +8384,9 @@ this
 false
 )
 ;
-window
+Elements
+.
+browsers
 .
 addEventListener
 (
