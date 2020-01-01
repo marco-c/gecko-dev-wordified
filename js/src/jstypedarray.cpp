@@ -24046,7 +24046,7 @@ Value
 ValueGetter
 (
 DataViewObject
-&
+*
 view
 )
 >
@@ -24073,6 +24073,7 @@ set
 (
 ValueGetter
 (
+&
 args
 .
 thisv
@@ -24102,7 +24103,7 @@ Value
 ValueGetter
 (
 DataViewObject
-&
+*
 view
 )
 >
@@ -24152,7 +24153,7 @@ Value
 ValueGetter
 (
 DataViewObject
-&
+*
 view
 )
 >
