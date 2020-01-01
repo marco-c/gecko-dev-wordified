@@ -1150,6 +1150,13 @@ h
 #
 include
 "
+prmem
+.
+h
+"
+#
+include
+"
 nsISelectionDisplay
 .
 h
