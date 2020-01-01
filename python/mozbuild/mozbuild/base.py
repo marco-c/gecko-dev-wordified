@@ -1349,9 +1349,7 @@ topobj
 )
 )
             
-self
-.
-_topobjdir
+topobj
 =
 topobj
 .
@@ -1360,10 +1358,22 @@ replace
 "
 CONFIG_GUESS
 "
-                                             
 self
 .
 _config_guess
+)
+            
+self
+.
+_topobjdir
+=
+os
+.
+path
+.
+normpath
+(
+topobj
 )
         
 return
