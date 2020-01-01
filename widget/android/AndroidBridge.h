@@ -2156,7 +2156,7 @@ AddPluginView
 jobject
 view
 const
-gfxRect
+LayoutDeviceRect
 &
 rect
 bool
