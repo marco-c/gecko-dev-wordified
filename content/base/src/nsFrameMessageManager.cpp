@@ -5954,12 +5954,6 @@ cx
 JSOPTION_PRIVATE_IS_NSISUPPORTS
 )
 ;
-JS_SetVersion
-(
-cx
-JSVERSION_LATEST
-)
-;
 JS_SetErrorReporter
 (
 cx
@@ -6006,6 +6000,11 @@ JS
 :
 :
 SystemZone
+)
+.
+setVersion
+(
+JSVERSION_LATEST
 )
 ;
 nsresult

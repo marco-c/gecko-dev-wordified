@@ -4115,6 +4115,11 @@ JS
 :
 SystemZone
 )
+.
+setVersion
+(
+JSVERSION_LATEST
+)
 ;
 mGlobal
 =
@@ -4143,12 +4148,6 @@ JS_InitStandardClasses
 (
 mContext
 mGlobal
-)
-;
-JS_SetVersion
-(
-mContext
-JSVERSION_LATEST
 )
 ;
 JS_SetErrorReporter

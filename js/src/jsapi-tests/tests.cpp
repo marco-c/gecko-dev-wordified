@@ -434,6 +434,19 @@ object
 .
 *
 /
+JS
+:
+:
+CompartmentOptions
+options
+;
+options
+.
+setVersion
+(
+JSVERSION_LATEST
+)
+;
 global
 =
 JS_NewGlobalObject
@@ -443,6 +456,7 @@ getGlobalClass
 (
 )
 principals
+options
 )
 ;
 if
