@@ -1204,9 +1204,6 @@ ContextAllocPolicy
 class
 HashSet
 ;
-class
-DeflatedStringCache
-;
 }
 /
 *
