@@ -139,6 +139,12 @@ nsIDOMHTMLFrameElement
 {
 public
 :
+using
+nsGenericHTMLFrameElement
+:
+:
+SwapFrameLoaders
+;
 HTMLFrameElement
 (
 already_AddRefed
