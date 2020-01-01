@@ -960,6 +960,12 @@ setText
 currentUrl
 )
 ;
+mText
+.
+selectAll
+(
+)
+;
 }
 mTarget
 =
