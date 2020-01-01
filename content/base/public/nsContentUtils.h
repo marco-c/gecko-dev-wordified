@@ -1771,8 +1771,8 @@ subtree
 the
 result
 is
-undefined
-but
+1
+and
 the
 optional
 aDisconnected
