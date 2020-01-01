@@ -579,8 +579,6 @@ h
 "
 /
 /
-/
-/
 #
 include
 "
@@ -588,8 +586,6 @@ nsClipboard
 .
 h
 "
-/
-/
 #
 include
 "
@@ -759,6 +755,8 @@ kNativeScrollCID
 NS_NATIVESCROLLBAR_CID
 )
 ;
+*
+/
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsClipboard
@@ -767,6 +765,8 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsClipboardHelper
 )
+/
+*
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsDragService
@@ -1015,6 +1015,8 @@ qt
 "
 nsNativeScrollbarConstructor
 }
+*
+/
 {
 "
 Qt
@@ -1053,6 +1055,8 @@ clipboardhelper
 "
 nsClipboardHelperConstructor
 }
+/
+*
 {
 "
 Qt
