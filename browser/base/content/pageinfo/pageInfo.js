@@ -4171,7 +4171,6 @@ NodeFilter
 .
 SHOW_ELEMENT
 grabAll
-true
 )
 ;
 gFrameList

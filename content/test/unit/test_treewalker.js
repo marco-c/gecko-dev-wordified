@@ -206,7 +206,6 @@ createTreeWalker
 body
 filter
 null
-false
 )
 ;
 walker

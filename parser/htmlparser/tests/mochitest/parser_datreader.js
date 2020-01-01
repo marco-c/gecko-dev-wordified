@@ -737,7 +737,6 @@ NodeFilter
 .
 SHOW_ALL
 null
-true
 )
 ;
 return
@@ -833,7 +832,6 @@ NodeFilter
 FILTER_ACCEPT
 ;
 }
-true
 )
 ;
 return
