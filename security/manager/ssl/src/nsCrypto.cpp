@@ -3862,6 +3862,16 @@ keySize
 keyPairInfo
 )
 ;
+if
+(
+!
+keyGenParams
+)
+{
+return
+NS_ERROR_INVALID_ARG
+;
+}
 /
 /
 Make
