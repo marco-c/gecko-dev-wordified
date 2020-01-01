@@ -3923,6 +3923,8 @@ JSRuntime
 :
 JSRuntime
 (
+JSUseHelperThreads
+useHelperThreads
 )
 :
 atomsCompartment
@@ -4536,6 +4538,10 @@ MagicValue
 (
 JS_ARG_POISON
 )
+)
+useHelperThreads_
+(
+useHelperThreads
 )
 {
 /
@@ -5458,6 +5464,8 @@ JS_NewRuntime
 (
 uint32_t
 maxbytes
+JSUseHelperThreads
+useHelperThreads
 )
 {
 if
@@ -5696,6 +5704,7 @@ js_new
 JSRuntime
 >
 (
+useHelperThreads
 )
 ;
 if

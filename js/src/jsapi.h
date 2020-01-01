@@ -18049,6 +18049,15 @@ JS_Lock
 define
 JS_UnlockRuntime
 JS_Unlock
+typedef
+enum
+JSUseHelperThreads
+{
+JS_NO_HELPER_THREADS
+JS_USE_HELPER_THREADS
+}
+JSUseHelperThreads
+;
 extern
 JS_PUBLIC_API
 (
@@ -18059,6 +18068,8 @@ JS_NewRuntime
 (
 uint32_t
 maxbytes
+JSUseHelperThreads
+useHelperThreads
 )
 ;
 /
