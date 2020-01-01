@@ -3347,6 +3347,12 @@ IsEmpty
 )
 ;
 }
+PRBool
+EndHasEventConditions
+(
+)
+const
+;
 /
 /
 Hashtable
@@ -3458,9 +3464,6 @@ EnumTable
 sRestartModeTable
 [
 ]
-;
-PRPackedBool
-mEndHasEventConditions
 ;
 InstanceTimeList
 mBeginInstances
