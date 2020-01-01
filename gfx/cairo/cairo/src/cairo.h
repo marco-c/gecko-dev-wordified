@@ -10845,6 +10845,15 @@ of
 type
 quartz_image
 *
+CAIRO_SURFACE_TYPE_QPAINTER
+:
+The
+surface
+is
+of
+type
+qpainter
+*
 *
 #
 cairo_surface_type_t
@@ -11070,6 +11079,7 @@ CAIRO_SURFACE_TYPE_SVG
 CAIRO_SURFACE_TYPE_OS2
 CAIRO_SURFACE_TYPE_WIN32_PRINTING
 CAIRO_SURFACE_TYPE_QUARTZ_IMAGE
+CAIRO_SURFACE_TYPE_QPAINTER
 }
 cairo_surface_type_t
 ;
