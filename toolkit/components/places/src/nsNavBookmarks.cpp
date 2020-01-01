@@ -12336,6 +12336,11 @@ index
 Add
 bookmark
 ID
+if
+(
+!
+isFolder
+)
 node
 -
 >
