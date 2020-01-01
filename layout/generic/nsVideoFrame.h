@@ -679,16 +679,6 @@ nsReflowStatus
 aStatus
 )
 ;
-NS_IMETHOD
-Freeze
-(
-)
-;
-NS_IMETHOD
-Thaw
-(
-)
-;
 #
 ifdef
 ACCESSIBILITY
