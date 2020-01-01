@@ -999,10 +999,6 @@ builtins
 [
 ]
 ;
-#
-define
-TYPEMAP_TYPE_ANY
-7
 class
 TraceRecorder
 {
