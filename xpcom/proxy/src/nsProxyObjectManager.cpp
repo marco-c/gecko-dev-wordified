@@ -1693,6 +1693,9 @@ mProxyClassMap
 delete
 pec
 ;
+return
+NS_OK
+;
 }
 if
 (
