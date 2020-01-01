@@ -786,14 +786,10 @@ when
 we
 send
 NS_ACTIVATE
-/
-NS_GOTFOCUS
 and
 /
 /
 NS_DEACTIVATE
-/
-NS_LOSTFOCUS
 to
 Gecko
 for

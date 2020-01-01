@@ -952,10 +952,6 @@ nsWatcherWindowEntry
 *
 mOldestWindow
 ;
-nsIDOMWindow
-*
-mActiveWindow
-;
 PRLock
 *
 mListLock

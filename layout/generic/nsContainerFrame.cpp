@@ -1928,6 +1928,12 @@ EventStateManager
 ContentRemoved
 (
 content
+-
+>
+GetCurrentDoc
+(
+)
+content
 )
 ;
 content

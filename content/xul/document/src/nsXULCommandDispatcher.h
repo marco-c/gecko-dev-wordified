@@ -560,6 +560,16 @@ GetFocusController
 (
 )
 ;
+nsIContent
+*
+GetRootFocusedContentAndWindow
+(
+nsPIDOMWindow
+*
+*
+aWindow
+)
+;
 nsCOMPtr
 <
 nsIDocument

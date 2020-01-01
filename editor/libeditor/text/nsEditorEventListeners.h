@@ -1529,9 +1529,6 @@ reference
 nsWeakPtr
 mPresShell
 ;
-PRBool
-mIsFocused
-;
 }
 ;
 /

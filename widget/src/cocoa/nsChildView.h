@@ -3180,9 +3180,6 @@ is
 a
 CoreGraphics
 plugin
-PRPackedBool
-mInSetFocus
-;
 nsPluginPort
 mPluginPort
 ;

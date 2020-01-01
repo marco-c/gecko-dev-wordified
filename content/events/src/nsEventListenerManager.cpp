@@ -773,7 +773,7 @@ nsIScriptEventHandlerOwner
 #
 include
 "
-nsIFocusController
+nsFocusManager
 .
 h
 "

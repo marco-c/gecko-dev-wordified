@@ -1825,7 +1825,7 @@ if
 widget
 )
 {
-nsFocusEvent
+nsGUIEvent
 event
 (
 PR_TRUE
