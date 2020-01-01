@@ -11881,6 +11881,14 @@ NS_SUCCEEDED
 (
 rv
 )
+&
+&
+!
+aLabel
+.
+IsEmpty
+(
+)
 )
 {
 return
