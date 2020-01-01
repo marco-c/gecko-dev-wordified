@@ -630,7 +630,7 @@ h
 #
 include
 "
-nsHTMLMenuElement
+HTMLMenuElement
 .
 h
 "
@@ -12330,7 +12330,7 @@ aResult
 }
 }
 }
-nsHTMLMenuElement
+HTMLMenuElement
 *
 nsGenericHTMLElement
 :
@@ -12376,7 +12376,7 @@ doc
 )
 {
 return
-nsHTMLMenuElement
+HTMLMenuElement
 :
 :
 FromContentOrNull
