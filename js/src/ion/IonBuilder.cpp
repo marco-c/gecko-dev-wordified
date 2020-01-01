@@ -4265,6 +4265,10 @@ current
 return
 ControlStatus_Error
 ;
+if
+(
+successor
+)
 successor
 -
 >
@@ -4376,6 +4380,11 @@ block
 return
 ControlStatus_Error
 ;
+if
+(
+successor
+)
+{
 /
 /
 Finally
@@ -4388,9 +4397,9 @@ the
 successor
 to
 the
+/
+/
 catch
-/
-/
 block
 .
 successor
@@ -4421,6 +4430,7 @@ successor
 return
 ControlStatus_Error
 ;
+}
 successor
 =
 block
