@@ -185,7 +185,6 @@ DSA
 generateKeyPair
 finished
 "
-+
 rv
 )
 ;
@@ -318,12 +317,7 @@ DSA
 sign
 finished
 "
-+
 rv
-+
-"
-"
-+
 signature
 )
 ;
@@ -391,7 +385,6 @@ RSA
 generateKeyPair
 finished
 "
-+
 rv
 )
 ;
@@ -479,12 +472,7 @@ RSA
 sign
 finished
 "
-+
 rv
-+
-"
-"
-+
 signature
 )
 ;
