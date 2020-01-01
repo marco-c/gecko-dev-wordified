@@ -1007,16 +1007,6 @@ elt
 ;
 if
 (
-gConfig
-.
-testRoot
-=
-=
-"
-browser
-"
-&
-&
 this
 .
 currentTest
