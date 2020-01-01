@@ -2042,7 +2042,7 @@ IDBObjectStoreRequest
 )
 DOMCI_CLASS
 (
-IDBTransactionRequest
+IDBTransaction
 )
 DOMCI_CLASS
 (

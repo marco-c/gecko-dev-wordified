@@ -516,7 +516,7 @@ struct
 DatabaseInfo
 ;
 class
-IDBTransactionRequest
+IDBTransaction
 ;
 class
 IDBDatabaseRequest

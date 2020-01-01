@@ -469,7 +469,7 @@ exported
 #
 include
 "
-IDBTransactionRequest
+IDBTransaction
 .
 h
 "
@@ -482,7 +482,7 @@ public
 :
 Savepoint
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 )
@@ -582,7 +582,7 @@ rv
 }
 private
 :
-IDBTransactionRequest
+IDBTransaction
 *
 mTransaction
 ;

@@ -598,7 +598,7 @@ h
 #
 include
 "
-IDBTransactionRequest
+IDBTransaction
 .
 h
 "
@@ -631,7 +631,7 @@ public
 :
 AddHelper
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBRequest
@@ -800,7 +800,7 @@ public
 :
 GetHelper
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBRequest
@@ -894,7 +894,7 @@ public
 :
 RemoveHelper
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBRequest
@@ -956,7 +956,7 @@ public
 :
 OpenCursorHelper
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBRequest
@@ -1086,7 +1086,7 @@ public
 :
 CreateIndexHelper
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBRequest
@@ -1213,7 +1213,7 @@ public
 :
 RemoveIndexHelper
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aDatabase
 IDBRequest
@@ -1287,7 +1287,7 @@ public
 :
 GetAllHelper
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBRequest
@@ -1635,7 +1635,7 @@ Create
 IDBDatabaseRequest
 *
 aDatabase
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 const
@@ -2864,7 +2864,7 @@ IDBObjectStoreRequest
 :
 UpdateIndexes
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 PRInt64

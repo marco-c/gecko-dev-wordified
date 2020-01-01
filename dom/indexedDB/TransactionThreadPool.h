@@ -524,7 +524,7 @@ h
 #
 include
 "
-IDBTransactionRequest
+IDBTransaction
 .
 h
 "
@@ -580,7 +580,7 @@ Shutdown
 nsresult
 Dispatch
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 nsIRunnable
@@ -608,7 +608,7 @@ NS_DECL_NSIRUNNABLE
 inline
 TransactionQueue
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 nsIRunnable
@@ -648,7 +648,7 @@ mozilla
 CondVar
 mCondVar
 ;
-IDBTransactionRequest
+IDBTransaction
 *
 mTransaction
 ;
@@ -719,7 +719,7 @@ READ_ONLY
 }
 nsRefPtr
 <
-IDBTransactionRequest
+IDBTransaction
 >
 transaction
 ;
@@ -793,7 +793,7 @@ Cleanup
 void
 FinishTransaction
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 )
@@ -801,7 +801,7 @@ aTransaction
 bool
 TransactionCanRun
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 TransactionQueue

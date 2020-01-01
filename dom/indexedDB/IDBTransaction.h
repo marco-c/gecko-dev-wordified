@@ -450,10 +450,10 @@ BLOCK
 /
 #
 ifndef
-mozilla_dom_indexeddb_idbtransactionrequest_h__
+mozilla_dom_indexeddb_idbtransaction_h__
 #
 define
-mozilla_dom_indexeddb_idbtransactionrequest_h__
+mozilla_dom_indexeddb_idbtransaction_h__
 #
 include
 "
@@ -483,7 +483,7 @@ h
 #
 include
 "
-nsIIDBTransactionRequest
+nsIIDBTransaction
 .
 h
 "
@@ -546,7 +546,7 @@ class
 TransactionThreadPool
 ;
 class
-IDBTransactionRequest
+IDBTransaction
 :
 public
 nsDOMEventTargetHelper
@@ -556,7 +556,7 @@ IDBRequest
 :
 Generator
 public
-nsIIDBTransactionRequest
+nsIIDBTransaction
 {
 friend
 class
@@ -574,16 +574,15 @@ public
 :
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIIDBTRANSACTION
-NS_DECL_NSIIDBTRANSACTIONREQUEST
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-IDBTransactionRequest
+IDBTransaction
 nsDOMEventTargetHelper
 )
 static
 already_AddRefed
 <
-IDBTransactionRequest
+IDBTransaction
 >
 Create
 (
@@ -824,12 +823,12 @@ SNAPSHOT_READ
 ;
 private
 :
-IDBTransactionRequest
+IDBTransaction
 (
 )
 ;
 ~
-IDBTransactionRequest
+IDBTransaction
 (
 )
 ;
@@ -958,7 +957,7 @@ public
 :
 AutoTransactionRequestNotifier
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 )
@@ -1003,7 +1002,7 @@ private
 :
 nsRefPtr
 <
-IDBTransactionRequest
+IDBTransaction
 >
 mTransaction
 ;
@@ -1021,7 +1020,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIRUNNABLE
 CommitHelper
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 )
@@ -1122,7 +1121,7 @@ private
 :
 nsRefPtr
 <
-IDBTransactionRequest
+IDBTransaction
 >
 mTransaction
 ;
@@ -1155,4 +1154,4 @@ END_INDEXEDDB_NAMESPACE
 endif
 /
 /
-mozilla_dom_indexeddb_idbtransactionrequest_h__
+mozilla_dom_indexeddb_idbtransaction_h__

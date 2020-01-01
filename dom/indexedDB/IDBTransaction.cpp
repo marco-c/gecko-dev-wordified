@@ -451,7 +451,7 @@ BLOCK
 #
 include
 "
-IDBTransactionRequest
+IDBTransaction
 .
 h
 "
@@ -595,9 +595,9 @@ namespace
 static
 already_AddRefed
 <
-IDBTransactionRequest
+IDBTransaction
 >
-IDBTransactionRequest
+IDBTransaction
 :
 :
 Create
@@ -631,12 +631,12 @@ thread
 ;
 nsRefPtr
 <
-IDBTransactionRequest
+IDBTransaction
 >
 transaction
 =
 new
-IDBTransactionRequest
+IDBTransaction
 (
 )
 ;
@@ -725,10 +725,10 @@ forget
 )
 ;
 }
-IDBTransactionRequest
+IDBTransaction
 :
 :
-IDBTransactionRequest
+IDBTransaction
 (
 )
 :
@@ -780,11 +780,11 @@ thread
 )
 ;
 }
-IDBTransactionRequest
+IDBTransaction
 :
 :
 ~
-IDBTransactionRequest
+IDBTransaction
 (
 )
 {
@@ -857,7 +857,7 @@ Disconnect
 }
 }
 void
-IDBTransactionRequest
+IDBTransaction
 :
 :
 OnNewRequest
@@ -913,7 +913,7 @@ mPendingRequests
 ;
 }
 void
-IDBTransactionRequest
+IDBTransaction
 :
 :
 OnRequestFinished
@@ -989,7 +989,7 @@ CommitOrRollback
 }
 }
 nsresult
-IDBTransactionRequest
+IDBTransaction
 :
 :
 CommitOrRollback
@@ -1101,7 +1101,7 @@ NS_OK
 ;
 }
 bool
-IDBTransactionRequest
+IDBTransaction
 :
 :
 StartSavepoint
@@ -1222,7 +1222,7 @@ true
 ;
 }
 nsresult
-IDBTransactionRequest
+IDBTransaction
 :
 :
 ReleaseSavepoint
@@ -1307,7 +1307,7 @@ NS_OK
 ;
 }
 void
-IDBTransactionRequest
+IDBTransaction
 :
 :
 RollbackSavepoint
@@ -1397,7 +1397,7 @@ failed
 }
 }
 nsresult
-IDBTransactionRequest
+IDBTransaction
 :
 :
 GetOrCreateConnection
@@ -1484,7 +1484,7 @@ already_AddRefed
 <
 mozIStorageStatement
 >
-IDBTransactionRequest
+IDBTransaction
 :
 :
 AddStatement
@@ -1720,7 +1720,7 @@ already_AddRefed
 <
 mozIStorageStatement
 >
-IDBTransactionRequest
+IDBTransaction
 :
 :
 RemoveStatement
@@ -1788,7 +1788,7 @@ already_AddRefed
 <
 mozIStorageStatement
 >
-IDBTransactionRequest
+IDBTransaction
 :
 :
 GetStatement
@@ -1862,7 +1862,7 @@ already_AddRefed
 <
 mozIStorageStatement
 >
-IDBTransactionRequest
+IDBTransaction
 :
 :
 IndexGetStatement
@@ -2004,7 +2004,7 @@ already_AddRefed
 <
 mozIStorageStatement
 >
-IDBTransactionRequest
+IDBTransaction
 :
 :
 IndexGetObjectStatement
@@ -2206,7 +2206,7 @@ already_AddRefed
 <
 mozIStorageStatement
 >
-IDBTransactionRequest
+IDBTransaction
 :
 :
 IndexUpdateStatement
@@ -2520,7 +2520,7 @@ already_AddRefed
 <
 mozIStorageStatement
 >
-IDBTransactionRequest
+IDBTransaction
 :
 :
 GetCachedStatement
@@ -2737,7 +2737,7 @@ forget
 ifdef
 DEBUG
 bool
-IDBTransactionRequest
+IDBTransaction
 :
 :
 TransactionIsOpen
@@ -2777,7 +2777,7 @@ LOADING
 ;
 }
 bool
-IDBTransactionRequest
+IDBTransaction
 :
 :
 IsWriteAllowed
@@ -2811,11 +2811,11 @@ READ_WRITE
 endif
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-IDBTransactionRequest
+IDBTransaction
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
-IDBTransactionRequest
+IDBTransaction
 nsDOMEventTargetHelper
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
@@ -2833,7 +2833,7 @@ mOnTimeoutListener
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
-IDBTransactionRequest
+IDBTransaction
 nsDOMEventTargetHelper
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
@@ -2851,11 +2851,7 @@ mOnTimeoutListener
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
-IDBTransactionRequest
-)
-NS_INTERFACE_MAP_ENTRY
-(
-nsIIDBTransactionRequest
+IDBTransaction
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -2863,7 +2859,7 @@ nsIIDBTransaction
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
-IDBTransactionRequest
+IDBTransaction
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
@@ -2871,21 +2867,21 @@ nsDOMEventTargetHelper
 )
 NS_IMPL_ADDREF_INHERITED
 (
-IDBTransactionRequest
+IDBTransaction
 nsDOMEventTargetHelper
 )
 NS_IMPL_RELEASE_INHERITED
 (
-IDBTransactionRequest
+IDBTransaction
 nsDOMEventTargetHelper
 )
 DOMCI_DATA
 (
-IDBTransactionRequest
-IDBTransactionRequest
+IDBTransaction
+IDBTransaction
 )
 NS_IMETHODIMP
-IDBTransactionRequest
+IDBTransaction
 :
 :
 GetDb
@@ -2921,7 +2917,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-IDBTransactionRequest
+IDBTransaction
 :
 :
 GetReadyState
@@ -2953,7 +2949,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-IDBTransactionRequest
+IDBTransaction
 :
 :
 GetMode
@@ -2981,7 +2977,7 @@ aMode
 mMode
 =
 =
-IDBTransactionRequest
+IDBTransaction
 :
 :
 FULL_LOCK
@@ -2998,7 +2994,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-IDBTransactionRequest
+IDBTransaction
 :
 :
 GetObjectStoreNames
@@ -3051,7 +3047,7 @@ if
 mMode
 =
 =
-IDBTransactionRequest
+IDBTransaction
 :
 :
 FULL_LOCK
@@ -3192,7 +3188,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-IDBTransactionRequest
+IDBTransaction
 :
 :
 ObjectStore
@@ -3364,7 +3360,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-IDBTransactionRequest
+IDBTransaction
 :
 :
 Abort
@@ -3411,7 +3407,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-IDBTransactionRequest
+IDBTransaction
 :
 :
 GetOncomplete
@@ -3443,7 +3439,7 @@ aOncomplete
 ;
 }
 NS_IMETHODIMP
-IDBTransactionRequest
+IDBTransaction
 :
 :
 SetOncomplete
@@ -3478,7 +3474,7 @@ aOncomplete
 ;
 }
 NS_IMETHODIMP
-IDBTransactionRequest
+IDBTransaction
 :
 :
 GetOnabort
@@ -3510,7 +3506,7 @@ aOnabort
 ;
 }
 NS_IMETHODIMP
-IDBTransactionRequest
+IDBTransaction
 :
 :
 SetOnabort
@@ -3545,7 +3541,7 @@ aOnabort
 ;
 }
 NS_IMETHODIMP
-IDBTransactionRequest
+IDBTransaction
 :
 :
 GetOntimeout
@@ -3577,7 +3573,7 @@ aOntimeout
 ;
 }
 NS_IMETHODIMP
-IDBTransactionRequest
+IDBTransaction
 :
 :
 SetOntimeout

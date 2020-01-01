@@ -514,7 +514,7 @@ h
 #
 include
 "
-IDBTransactionRequest
+IDBTransaction
 .
 h
 "
@@ -1791,7 +1791,7 @@ aRequest
 nsIVariant
 *
 aResult
-nsIIDBTransactionRequest
+nsIIDBTransaction
 *
 aTransaction
 )
@@ -1909,7 +1909,7 @@ aRequest
 nsIVariant
 *
 aResult
-nsIIDBTransactionRequest
+nsIIDBTransaction
 *
 aTransaction
 )
@@ -2042,7 +2042,7 @@ IDBSuccessEvent
 :
 GetTransaction
 (
-nsIIDBTransactionRequest
+nsIIDBTransaction
 *
 *
 aTransaction
@@ -2050,7 +2050,7 @@ aTransaction
 {
 nsCOMPtr
 <
-nsIIDBTransactionRequest
+nsIIDBTransaction
 >
 transaction
 (
@@ -2077,7 +2077,7 @@ Init
 IDBRequest
 *
 aRequest
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 )
