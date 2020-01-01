@@ -568,6 +568,7 @@ mEmptySlots
 -
 -
 extern
+NS_EXPORT
 nsNativeRegionPool
 sNativeRegionPool
 ;
