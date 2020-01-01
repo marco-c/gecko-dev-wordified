@@ -6769,7 +6769,7 @@ representation
 aAdvance
 is
 in
-pixels
+appunits
 .
 static
 PRBool
@@ -7047,7 +7047,7 @@ CompressedGlyph
 SetSimpleGlyph
 (
 PRUint32
-aAdvancePixels
+aAdvanceAppUnits
 PRUint32
 aGlyph
 )
@@ -7056,7 +7056,7 @@ NS_ASSERTION
 (
 IsSimpleAdvance
 (
-aAdvancePixels
+aAdvanceAppUnits
 )
 "
 Advance
@@ -7087,7 +7087,7 @@ FLAG_CAN_BREAK_BEFORE
 FLAG_IS_SIMPLE_GLYPH
 |
 (
-aAdvancePixels
+aAdvanceAppUnits
 <
 <
 ADVANCE_SHIFT
