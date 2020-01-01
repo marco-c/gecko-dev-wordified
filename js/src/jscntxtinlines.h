@@ -2060,7 +2060,9 @@ cx
 runtime
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 \
 return

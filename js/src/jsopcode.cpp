@@ -2469,7 +2469,9 @@ cx
 runtime
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 |
 |
 cx

@@ -1700,7 +1700,9 @@ runtime
 )
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 {
 /
@@ -2297,7 +2299,9 @@ compartment
 rt
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 JS_REMOVE_LINK

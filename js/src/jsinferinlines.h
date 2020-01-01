@@ -5357,7 +5357,9 @@ cx
 runtime
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 InferSpew

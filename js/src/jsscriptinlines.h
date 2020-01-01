@@ -1402,7 +1402,9 @@ comp
 rt
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 JSScript

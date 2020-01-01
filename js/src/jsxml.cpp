@@ -5468,7 +5468,9 @@ runtime
 )
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 {
 /

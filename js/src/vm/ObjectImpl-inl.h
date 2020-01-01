@@ -1874,7 +1874,9 @@ comp
 rt
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 JSObject
@@ -2102,7 +2104,9 @@ comp
 rt
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 JSObject

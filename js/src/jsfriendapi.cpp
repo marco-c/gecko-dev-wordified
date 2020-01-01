@@ -4260,7 +4260,9 @@ MARK
 rt
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 }
@@ -4378,7 +4380,9 @@ compartment
 rt
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 uint32_t

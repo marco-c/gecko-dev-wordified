@@ -1684,7 +1684,9 @@ JS_ASSERT
 rt
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 /
@@ -1839,7 +1841,9 @@ JS_ASSERT
 rt
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 PrepareForFullGC
@@ -6716,7 +6720,9 @@ cx
 {
 if
 (
-gcRunning
+isHeapBusy
+(
+)
 )
 return
 NULL
@@ -7585,7 +7591,9 @@ cx
 runtime
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 JS_ASSERT

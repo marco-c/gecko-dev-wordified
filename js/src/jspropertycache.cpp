@@ -194,7 +194,9 @@ cx
 runtime
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 /

@@ -1387,7 +1387,7 @@ JS_FALSE
 }
 static
 void
-AssertNoGC
+AssertHeapIsIdle
 (
 JSRuntime
 *
@@ -1396,24 +1396,29 @@ rt
 {
 JS_ASSERT
 (
-!
 rt
 -
 >
-gcRunning
+heapState
+=
+=
+JSRuntime
+:
+:
+Idle
 )
 ;
 }
 static
 void
-AssertNoGC
+AssertHeapIsIdle
 (
 JSContext
 *
 cx
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 -
@@ -1424,7 +1429,7 @@ runtime
 }
 static
 void
-AssertNoGCOrFlatString
+AssertHeapIsIdleOrStringIsFlat
 (
 JSContext
 *
@@ -1474,7 +1479,9 @@ cx
 runtime
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 str
 -
 >
@@ -1513,7 +1520,7 @@ ap
 JSBool
 ok
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -1587,7 +1594,7 @@ JSObject
 *
 obj
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -2537,7 +2544,7 @@ str
 double
 d
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -2767,7 +2774,7 @@ JSObject
 objp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -2806,7 +2813,7 @@ jsval
 v
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -2844,7 +2851,7 @@ jsval
 v
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -2882,7 +2889,7 @@ jsval
 v
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -2920,7 +2927,7 @@ jsval
 v
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -2960,7 +2967,7 @@ double
 dp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -3056,7 +3063,7 @@ int32_t
 ip
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -3104,7 +3111,7 @@ uint32_t
 ip
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -3149,7 +3156,7 @@ int32_t
 ip
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -3305,7 +3312,7 @@ uint16_t
 ip
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -3350,7 +3357,7 @@ JSBool
 bp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -3391,7 +3398,7 @@ jsval
 v
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -3471,7 +3478,7 @@ JSBool
 equal
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -3533,7 +3540,7 @@ JSBool
 equal
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -3595,7 +3602,7 @@ JSBool
 same
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -4025,9 +4032,9 @@ gcPoke
 (
 false
 )
-gcRunning
+heapState
 (
-false
+Idle
 )
 #
 ifdef
@@ -6910,7 +6917,7 @@ JSObject
 target
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -7032,7 +7039,7 @@ JSScript
 target
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -7082,7 +7089,7 @@ JSStackFrame
 target
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -7133,7 +7140,7 @@ AutoCompartment
 call
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 realcall
 -
@@ -7179,7 +7186,7 @@ JSObject
 target
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -7573,7 +7580,7 @@ JSObject
 objp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -7611,7 +7618,7 @@ jsval
 vp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -7925,7 +7932,7 @@ JSObject
 target
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -8476,7 +8483,7 @@ JSObject
 targetwrapper
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -9033,7 +9040,7 @@ JSObject
 obj
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -9099,7 +9106,7 @@ runtime
 atomsCompartment
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -10290,7 +10297,7 @@ cx
 obj_
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -10863,7 +10870,7 @@ JSObject
 obj_
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -11442,7 +11449,7 @@ found
 JSClassInitializerOp
 init
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -11810,7 +11817,7 @@ JSObject
 objp_
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -11955,7 +11962,7 @@ JSObject
 obj
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -11988,7 +11995,7 @@ JSContext
 cx
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -12019,7 +12026,7 @@ jsval
 vp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -12120,7 +12127,7 @@ size_t
 nbytes
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -12157,7 +12164,7 @@ size_t
 nbytes
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -12296,7 +12303,7 @@ char
 s
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -12360,7 +12367,7 @@ jsval
 rval
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -12401,7 +12408,7 @@ jsval
 vp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -12435,7 +12442,7 @@ JSString
 rp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -12474,7 +12481,7 @@ JSObject
 rp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -12513,7 +12520,7 @@ void
 rp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -12555,7 +12562,7 @@ char
 name
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -12593,7 +12600,7 @@ char
 name
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -12636,7 +12643,7 @@ char
 name
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -12679,7 +12686,7 @@ char
 name
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -12722,7 +12729,7 @@ char
 name
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -13136,7 +13143,7 @@ thing
 JSBool
 ok
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -13207,7 +13214,7 @@ void
 thing
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -13270,7 +13277,7 @@ void
 data
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 rt
 )
@@ -13325,7 +13332,7 @@ JSTracer
 trc
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 trc
 -
@@ -15510,7 +15517,7 @@ JSRuntime
 rt
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 rt
 )
@@ -15561,7 +15568,7 @@ JSGCCallback
 cb
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 rt
 )
@@ -15587,7 +15594,7 @@ JSFinalizeCallback
 cb
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 rt
 )
@@ -16027,7 +16034,7 @@ JSStringFinalizer
 fin
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -16432,7 +16439,7 @@ jsid
 idp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -16473,7 +16480,7 @@ jsval
 vp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -16521,7 +16528,7 @@ jsval
 vp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -16744,7 +16751,7 @@ cx
 obj_
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -16847,7 +16854,7 @@ jsval
 argv
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -16954,7 +16961,7 @@ cx
 obj_
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -17129,7 +17136,7 @@ JSObject
 proto_
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -17227,7 +17234,7 @@ JSObject
 parent_
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -17321,7 +17328,7 @@ proto
 Value
 cval
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -17427,7 +17434,7 @@ jsid
 idp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -17519,7 +17526,7 @@ JSPrincipals
 principals
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -17667,7 +17674,7 @@ runtime
 atomsCompartment
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -17854,7 +17861,7 @@ runtime
 atomsCompartment
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -17976,7 +17983,7 @@ jsval
 vp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -18087,7 +18094,7 @@ JSObject
 obj
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -18134,7 +18141,7 @@ cx
 obj_
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -18305,7 +18312,7 @@ MutableHandleShape
 propp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -18885,7 +18892,7 @@ prop
 cx
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -19122,7 +19129,7 @@ JSBool
 foundp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -19304,7 +19311,7 @@ cx
 obj_
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -19415,7 +19422,7 @@ JSBool
 foundp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -19873,7 +19880,7 @@ JSPROP_SETTER
 ;
 }
 }
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -20083,7 +20090,7 @@ getter
 setter
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -20569,7 +20576,7 @@ JSBool
 bp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -20657,7 +20664,7 @@ nobj
 cx
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -20776,7 +20783,7 @@ ok
 unsigned
 attrs
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -21678,7 +21685,7 @@ jsval
 vp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -22043,7 +22050,7 @@ cx
 onBehalfOf_
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -22201,7 +22208,7 @@ cx
 onBehalfOf_
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -22269,7 +22276,7 @@ cx
 onBehalfOf_
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -22540,7 +22547,7 @@ cx
 id_
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -22678,7 +22685,7 @@ cx
 objArg
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -22744,7 +22751,7 @@ cx
 obj_
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -22923,7 +22930,7 @@ jsval
 rval
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -23016,7 +23023,7 @@ jsval
 rval
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -23336,7 +23343,7 @@ cx
 obj_
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -23445,7 +23452,7 @@ JSObject
 obj
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -23933,7 +23940,7 @@ JSIdArray
 *
 ida
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -24164,7 +24171,7 @@ JSIdArray
 *
 ida
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -24454,7 +24461,7 @@ JSObject
 obj_
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -24604,7 +24611,7 @@ runtime
 atomsCompartment
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -24690,7 +24697,7 @@ uint32_t
 lengthp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -24731,7 +24738,7 @@ uint32_t
 length
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -24787,7 +24794,7 @@ cx
 id_
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -25061,7 +25068,7 @@ cx
 parent_
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -25179,7 +25186,7 @@ runtime
 atomsCompartment
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -25229,7 +25236,7 @@ JSObject
 parent_
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -25878,7 +25885,7 @@ JSFunction
 *
 fun
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -26167,7 +26174,7 @@ runtime
 atomsCompartment
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -26281,7 +26288,7 @@ runtime
 atomsCompartment
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -26400,7 +26407,7 @@ runtime
 atomsCompartment
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -26601,7 +26608,7 @@ runtime
 atomsCompartment
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -27007,7 +27014,7 @@ runtime
 atomsCompartment
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -27164,7 +27171,7 @@ exnState
 JSErrorReporter
 older
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -27955,7 +27962,7 @@ runtime
 atomsCompartment
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -28114,7 +28121,7 @@ runtime
 atomsCompartment
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -28344,7 +28351,7 @@ runtime
 atomsCompartment
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -28999,7 +29006,7 @@ JSString
 *
 str
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -29138,7 +29145,7 @@ runtime
 atomsCompartment
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -29212,7 +29219,7 @@ runtime
 atomsCompartment
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -29297,7 +29304,7 @@ runtime
 atomsCompartment
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -30216,7 +30223,7 @@ runtime
 atomsCompartment
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -30306,7 +30313,7 @@ runtime
 atomsCompartment
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -30445,7 +30452,7 @@ runtime
 atomsCompartment
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -30514,7 +30521,7 @@ jsval
 rval
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -30579,7 +30586,7 @@ jsval
 argv
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -30950,7 +30957,7 @@ JSContext
 cx
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -30982,7 +30989,7 @@ JSContext
 cx
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -31138,7 +31145,7 @@ size_t
 n
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -31184,7 +31191,7 @@ JSString
 *
 str
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -31278,7 +31285,7 @@ JSString
 str
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -31387,7 +31394,7 @@ JSString
 str
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -31438,7 +31445,7 @@ char
 s
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -31494,7 +31501,7 @@ size_t
 length
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -31531,7 +31538,7 @@ size_t
 n
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -31566,7 +31573,7 @@ jschar
 s
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -31616,7 +31623,7 @@ size_t
 length
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -31716,7 +31723,7 @@ JSString
 str
 )
 {
-AssertNoGCOrFlatString
+AssertHeapIsIdleOrStringIsFlat
 (
 cx
 str
@@ -31762,7 +31769,7 @@ size_t
 plength
 )
 {
-AssertNoGCOrFlatString
+AssertHeapIsIdleOrStringIsFlat
 (
 cx
 str
@@ -31818,7 +31825,7 @@ size_t
 plength
 )
 {
-AssertNoGCOrFlatString
+AssertHeapIsIdleOrStringIsFlat
 (
 cx
 str
@@ -31941,7 +31948,7 @@ JSString
 str
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -32018,7 +32025,7 @@ int32_t
 result
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -32059,7 +32066,7 @@ JSBool
 match
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -32174,7 +32181,7 @@ char
 quote
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -32270,7 +32277,7 @@ size_t
 length
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -32308,7 +32315,7 @@ size_t
 length
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -32346,7 +32353,7 @@ JSString
 right
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -32403,7 +32410,7 @@ JSString
 str
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -32437,7 +32444,7 @@ JSString
 str
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -32482,7 +32489,7 @@ size_t
 dstlenp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -32574,7 +32581,7 @@ size_t
 dstlenp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -32618,7 +32625,7 @@ size_t
 dstlenp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -32654,7 +32661,7 @@ JSString
 str
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -32732,7 +32739,7 @@ if
 cx
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -32996,7 +33003,7 @@ void
 data
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -33113,7 +33120,7 @@ jsval
 vp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -33158,7 +33165,7 @@ jsval
 vp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -33208,7 +33215,7 @@ void
 closure
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -33293,7 +33300,7 @@ void
 closure
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -33366,7 +33373,7 @@ void
 closure
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -34145,7 +34152,7 @@ format
 va_list
 ap
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -34195,7 +34202,7 @@ errorNumber
 va_list
 ap
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -34248,7 +34255,7 @@ errorNumber
 va_list
 ap
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -34300,7 +34307,7 @@ ap
 JSBool
 ok
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -34360,7 +34367,7 @@ ap
 JSBool
 ok
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -34423,7 +34430,7 @@ ap
 JSBool
 ok
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -34647,7 +34654,7 @@ int
 sec
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -34684,7 +34691,7 @@ double
 msec
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -34716,7 +34723,7 @@ JSObject
 obj
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -34846,7 +34853,7 @@ cx
 obj_
 )
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -34945,7 +34952,7 @@ unsigned
 flags
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -35007,7 +35014,7 @@ JSBool
 multiline
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -35059,7 +35066,7 @@ JSObject
 obj
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -35121,7 +35128,7 @@ jsval
 rval
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -35189,7 +35196,7 @@ unsigned
 flags
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -35269,7 +35276,7 @@ unsigned
 flags
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -35323,7 +35330,7 @@ jsval
 rval
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -35371,7 +35378,7 @@ JSObject
 obj
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -35404,7 +35411,7 @@ JSObject
 obj
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -35442,7 +35449,7 @@ JSObject
 obj
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -35553,7 +35560,7 @@ JSLocaleCallbacks
 callbacks
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -35722,7 +35729,7 @@ jsval
 vp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -35779,7 +35786,7 @@ jsval
 v
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -35815,7 +35822,7 @@ JSContext
 cx
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -35839,7 +35846,7 @@ JSContext
 cx
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -35883,7 +35890,7 @@ JSExceptionState
 *
 state
 ;
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -35980,7 +35987,7 @@ JSExceptionState
 state
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -36039,7 +36046,7 @@ JSExceptionState
 state
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -36115,7 +36122,7 @@ jsval
 v
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -36157,7 +36164,7 @@ JSErrorReport
 reportp
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -36190,7 +36197,7 @@ JSContext
 cx
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
@@ -36244,7 +36251,7 @@ JSRuntime
 rt
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 rt
 )
@@ -36274,7 +36281,7 @@ JSRuntime
 rt
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 rt
 )
@@ -37201,7 +37208,7 @@ Value
 v
 )
 {
-AssertNoGC
+AssertHeapIsIdle
 (
 cx
 )
