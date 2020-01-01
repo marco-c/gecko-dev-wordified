@@ -582,16 +582,6 @@ default
 profile
 to
 gecko
-if
-(
-!
-(
-app
-instanceof
-BrowserApp
-)
-)
-{
 String
 profile
 =
@@ -622,7 +612,6 @@ P
 +
 profile
 ;
-}
 /
 /
 and
