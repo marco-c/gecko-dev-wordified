@@ -11528,7 +11528,7 @@ GC
 NS_NAMED_MULTILINE_LITERAL_STRING
 (
 kFmt
-NS_LL
+MOZ_UTF16
 (
 "
 CC
@@ -11583,7 +11583,7 @@ s
 n
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 ForgetSkippable
@@ -11734,7 +11734,7 @@ sPostGCEventsToObserver
 NS_NAMED_MULTILINE_LITERAL_STRING
 (
 kJSONFmt
-NS_LL
+MOZ_UTF16
 (
 "
 {
@@ -11748,7 +11748,7 @@ timestamp
 llu
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 \
@@ -11761,7 +11761,7 @@ duration
 llu
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 \
@@ -11774,7 +11774,7 @@ finish_gc_duration
 llu
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 \
@@ -11787,7 +11787,7 @@ sync_skippable_duration
 llu
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 \
@@ -11800,7 +11800,7 @@ suspected
 lu
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 \
@@ -11812,7 +11812,7 @@ visited
 {
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 \
@@ -11825,7 +11825,7 @@ RCed
 lu
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 \
@@ -11839,7 +11839,7 @@ lu
 }
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 \
@@ -11851,7 +11851,7 @@ collected
 {
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 \
@@ -11864,7 +11864,7 @@ RCed
 lu
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 \
@@ -11878,7 +11878,7 @@ lu
 }
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 \
@@ -11891,7 +11891,7 @@ waiting_for_gc
 lu
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 \
@@ -11904,7 +11904,7 @@ short_living_objects_waiting_for_gc
 lu
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 \
@@ -11917,7 +11917,7 @@ forced_gc
 d
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 \
@@ -11929,7 +11929,7 @@ forget_skippable
 {
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 \
@@ -11942,7 +11942,7 @@ times_before_cc
 lu
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 \
@@ -11955,7 +11955,7 @@ min
 lu
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 \
@@ -11968,7 +11968,7 @@ max
 lu
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 \
@@ -11981,7 +11981,7 @@ avg
 lu
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 \
@@ -11994,7 +11994,7 @@ total
 lu
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 \
@@ -12008,7 +12008,7 @@ lu
 }
 "
 )
-NS_LL
+MOZ_UTF16
 (
 "
 }
