@@ -1228,7 +1228,7 @@ aMMIString
 nsIDOMDOMRequest
 *
 *
-request
+aRequest
 )
 {
 if
@@ -1266,7 +1266,7 @@ GetOwner
 (
 )
 aMMIString
-request
+aRequest
 )
 ;
 }
@@ -1279,7 +1279,7 @@ CancelMMI
 nsIDOMDOMRequest
 *
 *
-request
+aRequest
 )
 {
 if
@@ -1316,7 +1316,7 @@ CancelMMI
 GetOwner
 (
 )
-request
+aRequest
 )
 ;
 }
