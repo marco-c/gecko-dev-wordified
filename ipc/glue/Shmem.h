@@ -871,7 +871,7 @@ NS_FINAL_CLASS
 Shmem
 {
 friend
-class
+struct
 IPC
 :
 :
