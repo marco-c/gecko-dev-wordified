@@ -438,6 +438,8 @@ os
 .
 path
 import
+errno
+import
 re
 import
 logging
@@ -3951,7 +3953,9 @@ e
 errno
 !
 =
-2
+errno
+.
+ENOENT
 :
           
 raise
@@ -4099,7 +4103,9 @@ e
 errno
 !
 =
-2
+errno
+.
+ENOENT
 :
           
 raise
