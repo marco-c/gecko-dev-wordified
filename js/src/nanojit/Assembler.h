@@ -694,6 +694,9 @@ index
 }
 ;
 #
+ifndef
+AVMPLUS_ALIGN16
+#
 ifdef
 AVMPLUS_WIN32
 #
@@ -728,6 +731,8 @@ aligned
 )
 )
 )
+#
+endif
 #
 endif
 struct
