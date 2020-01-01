@@ -401,8 +401,6 @@ abort
 error
 )
 ;
-return
-;
 }
 Override
 public
@@ -435,8 +433,6 @@ Constants
 .
 JPAKE_ERROR_CHANNEL
 )
-;
-return
 ;
 }
 }

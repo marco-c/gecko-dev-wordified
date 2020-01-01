@@ -436,13 +436,6 @@ org
 .
 json
 .
-JSONException
-;
-import
-org
-.
-json
-.
 simple
 .
 JSONArray

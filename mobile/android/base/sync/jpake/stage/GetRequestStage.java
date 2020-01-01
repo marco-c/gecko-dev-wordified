@@ -543,8 +543,6 @@ abort
 error
 )
 ;
-return
-;
 }
 Override
 public
@@ -577,8 +575,6 @@ Constants
 .
 JPAKE_ERROR_NETWORK
 )
-;
-return
 ;
 }
 }
