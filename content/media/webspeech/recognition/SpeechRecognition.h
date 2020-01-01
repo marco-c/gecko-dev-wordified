@@ -1296,13 +1296,16 @@ aRec
 )
 {
 return
+ToSupports
+(
 static_cast
 <
-nsIObserver
+nsDOMEventTargetHelper
 *
 >
 (
 aRec
+)
 )
 ;
 }
