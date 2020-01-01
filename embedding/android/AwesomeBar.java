@@ -596,11 +596,11 @@ SimpleCursorAdapter
 {
 private
 Cursor
-_cursor
+mAdapterCursor
 ;
 private
 Context
-_context
+mContext
 ;
 public
 AwesomeBarCursorAdapter
@@ -645,11 +645,11 @@ from
 to
 )
 ;
-_cursor
+mAdapterCursor
 =
 c
 ;
-_context
+mContext
 =
 context
 ;
