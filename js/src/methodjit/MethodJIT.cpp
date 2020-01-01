@@ -5281,13 +5281,13 @@ Initialize
 {
 execAlloc_
 =
+js_new
+<
 JSC
 :
 :
 ExecutableAllocator
-:
-:
-create
+>
 (
 )
 ;
