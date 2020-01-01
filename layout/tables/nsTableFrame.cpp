@@ -8146,17 +8146,11 @@ nsMargin
 )
 )
 {
-nsDisplayBackgroundImage
-*
-bg
-;
 DisplayBackgroundUnconditional
 (
 aBuilder
 aLists
 false
-&
-bg
 )
 ;
 }
