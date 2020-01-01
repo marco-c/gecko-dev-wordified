@@ -7772,9 +7772,14 @@ GetType
 )
 )
 {
+#
+ifdef
+DEBUG
 nsresult
 rv
 =
+#
+endif
 RegisterNamespaceRule
 (
 aRule

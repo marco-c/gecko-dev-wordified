@@ -1931,9 +1931,14 @@ nsImageFrame
 frame
 )
 {
+#
+ifdef
+DEBUG
 PRBool
 rv
 =
+#
+endif
 mIconObservers
 .
 RemoveElement

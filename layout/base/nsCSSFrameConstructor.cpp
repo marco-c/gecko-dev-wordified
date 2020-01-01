@@ -14760,10 +14760,15 @@ state
 /
 properly
 .
+#
+ifdef
+DEBUG
 nsIContent
 *
 propagatedScrollFrom
 =
+#
+endif
 PropagateScrollToViewport
 (
 )
