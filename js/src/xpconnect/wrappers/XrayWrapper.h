@@ -513,11 +513,6 @@ extern
 JSClass
 HolderClass
 ;
-extern
-const
-uint32
-JSSLOT_PROXY_OBJ
-;
 }
 /
 /

@@ -515,18 +515,6 @@ JSSLOT_PRIVATE
 +
 1
 ;
-namespace
-XrayUtils
-{
-const
-uint32
-JSSLOT_PROXY_OBJ
-=
-JSSLOT_PRIVATE
-+
-2
-;
-}
 class
 ResolvingId
 {
@@ -757,7 +745,7 @@ NativePropertyHolder
 "
 JSCLASS_HAS_RESERVED_SLOTS
 (
-3
+2
 )
 JS_PropertyStub
 JS_PropertyStub
