@@ -3173,6 +3173,8 @@ if
 (
 this
 .
+_kineticData
+.
 kineticHandle
 !
 =
