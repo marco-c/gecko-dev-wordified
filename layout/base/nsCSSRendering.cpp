@@ -16294,7 +16294,7 @@ SetExtend
 gfxPattern
 :
 :
-EXTEND_PAD
+EXTEND_PAD_EDGE
 )
 ;
 switch
