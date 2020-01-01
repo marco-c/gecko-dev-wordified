@@ -120,15 +120,15 @@ js
 namespace
 crash
 {
-const
 static
+const
 int
 crash_cookie_len
 =
 16
 ;
-const
 static
+const
 char
 crash_cookie
 [
@@ -281,8 +281,8 @@ bp
 ;
 }
 ;
-const
 static
+const
 int
 crash_buffer_size
 =

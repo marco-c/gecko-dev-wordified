@@ -3773,8 +3773,8 @@ arenaHeader
 allocatedDuringIncremental
 ;
 }
-const
 static
+const
 uint32_t
 MAX_VERIFIER_EDGES
 =

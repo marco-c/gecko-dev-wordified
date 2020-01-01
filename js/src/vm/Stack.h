@@ -6922,8 +6922,8 @@ friend
 class
 InterpreterActivation
 ;
-const
 static
+const
 size_t
 DEFAULT_CHUNK_SIZE
 =

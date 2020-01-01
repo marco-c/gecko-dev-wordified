@@ -1408,8 +1408,8 @@ sync
 with
 minItemsTestingThreshold
 .
-const
 static
+const
 uint32_t
 MAX_BAILOUTS
 =

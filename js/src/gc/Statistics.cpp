@@ -265,8 +265,8 @@ needComma_
 bool
 oom_
 ;
-const
 static
+const
 int
 MaxFieldValueLength
 =

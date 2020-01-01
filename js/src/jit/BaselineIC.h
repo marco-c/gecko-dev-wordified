@@ -26473,8 +26473,8 @@ fun
 .
 apply
 .
-const
 static
+const
 uint32_t
 MAX_ARGS_ARRAY_LENGTH
 =

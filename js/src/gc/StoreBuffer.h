@@ -470,8 +470,8 @@ space
 .
 *
 /
-const
 static
+const
 size_t
 ChunkSize
 =
@@ -500,8 +500,8 @@ overflow
 .
 *
 /
-const
 static
+const
 size_t
 MinAvailableSize
 =

@@ -194,8 +194,8 @@ pointer
 .
 *
 /
-const
 static
+const
 uintptr_t
 Relocated
 =
