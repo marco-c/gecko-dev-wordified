@@ -475,7 +475,7 @@ SharedPRLibrary
 const
 char
 *
-aFullPath
+aFilePath
 PRLibrary
 *
 aLibrary

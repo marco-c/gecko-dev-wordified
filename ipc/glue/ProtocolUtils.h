@@ -494,6 +494,7 @@ Listener
 =
 0
 ;
+virtual
 RPCChannel
 :
 :

@@ -446,6 +446,15 @@ NPObjectProtocolChild_h
 #
 include
 "
+base
+/
+basictypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 plugins

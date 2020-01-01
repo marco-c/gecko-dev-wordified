@@ -460,6 +460,15 @@ include
 "
 base
 /
+basictypes
+.
+h
+"
+#
+include
+"
+base
+/
 file_path
 .
 h
@@ -641,7 +650,7 @@ std
 :
 string
 &
-aPluginFilename
+aPluginFilePath
 )
 ;
 ~
@@ -718,7 +727,7 @@ std
 :
 :
 string
-mPluginFilename
+mPluginFilePath
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (

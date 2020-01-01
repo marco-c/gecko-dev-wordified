@@ -5189,7 +5189,22 @@ Whitespace
 NL
 )
         
+#
+FIXME
+/
+cjones
+:
+re
+-
+enable
+when
+we
+have
+AsyncChannel
+        
 if
+0
+and
 p
 .
 decl
@@ -5259,7 +5274,22 @@ talksSync
 )
 :
             
+#
+FIXME
+/
+cjones
+:
+re
+-
+enable
+when
+we
+have
+SyncChannel
+            
 if
+0
+and
 p
 .
 decl
