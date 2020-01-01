@@ -638,6 +638,14 @@ ret
 )
 ;
 bool
+visitDefVar
+(
+LDefVar
+*
+lir
+)
+;
+bool
 visitOsrEntry
 (
 LOsrEntry

@@ -1923,6 +1923,13 @@ jsop_neg
 )
 ;
 bool
+jsop_defvar
+(
+uint32
+index
+)
+;
+bool
 jsop_notearg
 (
 )
