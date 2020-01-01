@@ -111,14 +111,10 @@ include
 "
 mozilla
 /
-Util
+Maybe
 .
 h
 "
-/
-/
-for
-Maybe
 namespace
 mozilla
 {

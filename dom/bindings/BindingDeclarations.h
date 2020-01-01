@@ -191,9 +191,16 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 mozilla
 /
-Util
+Maybe
 .
 h
 "
