@@ -467,10 +467,6 @@ fosterParenting
 (
 fosterParenting
 )
-tainted
-(
-PR_FALSE
-)
 refcount
 (
 1
@@ -570,10 +566,6 @@ elementName
 -
 >
 fosterParenting
-)
-tainted
-(
-PR_FALSE
 )
 refcount
 (
@@ -674,10 +666,6 @@ elementName
 -
 >
 fosterParenting
-)
-tainted
-(
-PR_FALSE
 )
 refcount
 (
@@ -769,10 +757,6 @@ special
 PR_FALSE
 )
 fosterParenting
-(
-PR_FALSE
-)
-tainted
 (
 PR_FALSE
 )

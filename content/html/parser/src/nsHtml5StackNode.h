@@ -408,9 +408,6 @@ special
 PRBool
 fosterParenting
 ;
-PRBool
-tainted
-;
 private
 :
 PRInt32
