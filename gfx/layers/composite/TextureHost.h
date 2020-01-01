@@ -4329,6 +4329,12 @@ MOZ_ASSERT
 (
 !
 mBuffer
+|
+|
+mBuffer
+=
+=
+aBuffer
 "
 Will
 leak
