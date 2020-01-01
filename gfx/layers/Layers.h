@@ -5691,7 +5691,7 @@ void
 SetFixedPositionAnchor
 (
 const
-gfxPoint
+LayerPoint
 &
 aAnchor
 )
@@ -6069,7 +6069,7 @@ return
 mIsFixedPosition
 ;
 }
-gfxPoint
+LayerPoint
 GetFixedPositionAnchor
 (
 )
@@ -8529,7 +8529,7 @@ mUseTileSourceRect
 bool
 mIsFixedPosition
 ;
-gfxPoint
+LayerPoint
 mAnchor
 ;
 gfx
