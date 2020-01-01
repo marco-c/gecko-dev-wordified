@@ -1489,6 +1489,15 @@ platform
 '
 osx
 '
+or
+sys
+.
+platform
+=
+=
+"
+darwin
+"
 :
       
 self
