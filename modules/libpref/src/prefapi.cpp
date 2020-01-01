@@ -3205,7 +3205,7 @@ arg
 int
 len
 =
-PL_strlen
+strlen
 (
 to_delete
 )
@@ -3284,7 +3284,7 @@ len
 (
 int
 )
-PL_strlen
+strlen
 (
 he
 -
@@ -3337,7 +3337,7 @@ len
 (
 int
 )
-PL_strlen
+strlen
 (
 branch_name
 )
@@ -5185,7 +5185,7 @@ node
 -
 >
 domain
-PL_strlen
+strlen
 (
 node
 -

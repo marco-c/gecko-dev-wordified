@@ -802,7 +802,7 @@ nsMemory
 Clone
 (
 mName
-PL_strlen
+strlen
 (
 mName
 )

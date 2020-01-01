@@ -3067,7 +3067,7 @@ newline
 {
 length
 =
-PL_strlen
+strlen
 (
 *
 src

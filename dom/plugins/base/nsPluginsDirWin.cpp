@@ -1211,7 +1211,7 @@ extension
 uint32_t
 fullLength
 =
-PL_strlen
+strlen
 (
 filename
 )
@@ -1219,7 +1219,7 @@ filename
 uint32_t
 extLength
 =
-PL_strlen
+strlen
 (
 extension
 )

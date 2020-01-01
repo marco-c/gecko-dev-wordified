@@ -1268,7 +1268,7 @@ rv
 {
 fileNameLen
 =
-PL_strlen
+strlen
 (
 lockFileName
 )

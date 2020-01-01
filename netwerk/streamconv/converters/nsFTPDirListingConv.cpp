@@ -1127,7 +1127,7 @@ n
 \
 n
 "
-PL_strlen
+strlen
 (
 line
 )

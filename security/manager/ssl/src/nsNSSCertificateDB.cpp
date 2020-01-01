@@ -726,7 +726,7 @@ aDBkey
 (
 uint32_t
 )
-PL_strlen
+strlen
 (
 aDBkey
 )
@@ -7251,7 +7251,7 @@ here
 uint32_t
 len
 =
-PL_strlen
+strlen
 (
 base64
 )

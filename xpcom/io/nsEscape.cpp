@@ -2158,7 +2158,7 @@ null
 uint32_t
 len
 =
-PL_strlen
+strlen
 (
 string
 )

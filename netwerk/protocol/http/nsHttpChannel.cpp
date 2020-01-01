@@ -12328,7 +12328,7 @@ method
 int32_t
 methodlen
 =
-PL_strlen
+strlen
 (
 mRequestHead
 .

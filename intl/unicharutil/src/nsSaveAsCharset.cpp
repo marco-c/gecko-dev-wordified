@@ -929,7 +929,7 @@ tempLen
 (
 int32_t
 )
-PL_strlen
+strlen
 (
 fallbackStr
 )

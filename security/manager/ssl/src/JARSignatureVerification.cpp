@@ -1394,7 +1394,7 @@ eol
 =
 nextLineStart
 +
-PL_strlen
+strlen
 (
 nextLineStart
 )

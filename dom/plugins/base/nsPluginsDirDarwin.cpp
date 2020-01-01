@@ -672,7 +672,7 @@ char
 NS_Realloc
 (
 newBuffer
-PL_strlen
+strlen
 (
 newBuffer
 )
@@ -2354,7 +2354,7 @@ index
 (
 ret
 ?
-PL_strlen
+strlen
 (
 ret
 )

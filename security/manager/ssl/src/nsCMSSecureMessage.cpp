@@ -2060,7 +2060,7 @@ NS_OK
 uint32_t
 len
 =
-PL_strlen
+strlen
 (
 data
 )
