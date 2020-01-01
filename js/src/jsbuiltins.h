@@ -3367,6 +3367,10 @@ cpp
 /
 JS_DECLARE_CALLINFO
 (
+js_ObjectHasNumericPropertiesInAnyPrototype
+)
+JS_DECLARE_CALLINFO
+(
 js_Array_dense_setelem
 )
 JS_DECLARE_CALLINFO
