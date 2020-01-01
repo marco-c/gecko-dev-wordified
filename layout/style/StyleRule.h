@@ -2476,13 +2476,11 @@ Clone
 )
 const
 ;
+virtual
 nsIDOMCSSRule
 *
-GetDOMRuleWeak
+GetDOMRule
 (
-nsresult
-*
-aResult
 )
 ;
 /
