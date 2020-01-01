@@ -10605,6 +10605,8 @@ js_ReportGetterOnlyAssignment
 JSContext
 *
 cx
+bool
+strict
 )
 ;
 extern

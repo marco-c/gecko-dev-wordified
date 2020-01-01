@@ -2086,6 +2086,7 @@ return
 js_ReportGetterOnlyAssignment
 (
 cx
+strict
 )
 ;
 if
