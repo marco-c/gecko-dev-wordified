@@ -28813,7 +28813,7 @@ attrValue
 modType
 hasListeners
 aNotify
-true
+kCallAfterSetAttr
 )
 ;
 }
@@ -28966,7 +28966,7 @@ aParsedValue
 modType
 hasListeners
 aNotify
-true
+kCallAfterSetAttr
 )
 ;
 }
