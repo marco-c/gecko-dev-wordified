@@ -152,13 +152,7 @@ canvas
 width
 /
 2
-presenter
-.
-canvas
-.
-height
-/
-2
+10
 {
 onpick
 :
