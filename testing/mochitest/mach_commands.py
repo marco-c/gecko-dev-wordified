@@ -122,6 +122,22 @@ is
 executed
 .
 '
+debugger_help
+=
+'
+Debugger
+binary
+to
+run
+test
+in
+.
+Program
+name
+or
+path
+.
+'
 class
 MochitestRunner
 (
@@ -332,10 +348,13 @@ def
 run_mochitest_test
 (
 self
+suite
+=
+None
 test_file
 =
 None
-suite
+debugger
 =
 None
 )
@@ -409,6 +428,36 @@ browser
 '
 )
 .
+        
+debugger
+is
+a
+program
+name
+or
+path
+to
+a
+binary
+(
+presumably
+a
+debugger
+)
+        
+to
+run
+the
+test
+in
+.
+e
+.
+g
+.
+'
+gdb
+'
         
 "
 "
@@ -581,6 +630,37 @@ env
 {
 }
         
+pass_thru
+=
+False
+        
+if
+debugger
+:
+            
+env
+[
+b
+'
+EXTRA_TEST_ARGS
+'
+]
+=
+'
+-
+-
+debugger
+=
+%
+s
+'
+%
+debugger
+            
+pass_thru
+=
+True
+        
 return
 self
 .
@@ -601,6 +681,9 @@ env
 ensure_exit_code
 =
 False
+pass_thru
+=
+pass_thru
 )
 CommandProvider
 class
@@ -626,6 +709,28 @@ plain
 mochitest
 .
 '
+)
+    
+CommandArgument
+(
+'
+-
+-
+debugger
+'
+'
+-
+d
+'
+metavar
+=
+'
+DEBUGGER
+'
+        
+help
+=
+debugger_help
 )
     
 CommandArgument
@@ -657,6 +762,9 @@ run_mochitest_plain
 (
 self
 test_file
+debugger
+=
+None
 )
 :
         
@@ -669,6 +777,9 @@ test_file
 '
 plain
 '
+debugger
+=
+debugger
 )
     
 Command
@@ -687,6 +798,28 @@ chrome
 mochitest
 .
 '
+)
+    
+CommandArgument
+(
+'
+-
+-
+debugger
+'
+'
+-
+d
+'
+metavar
+=
+'
+DEBUGGER
+'
+        
+help
+=
+debugger_help
 )
     
 CommandArgument
@@ -718,6 +851,9 @@ run_mochitest_chrome
 (
 self
 test_file
+debugger
+=
+None
 )
 :
         
@@ -730,6 +866,9 @@ test_file
 '
 chrome
 '
+debugger
+=
+debugger
 )
     
 Command
@@ -750,6 +889,28 @@ browser
 chrome
 .
 '
+)
+    
+CommandArgument
+(
+'
+-
+-
+debugger
+'
+'
+-
+d
+'
+metavar
+=
+'
+DEBUGGER
+'
+        
+help
+=
+debugger_help
 )
     
 CommandArgument
@@ -781,6 +942,9 @@ run_mochitest_browser
 (
 self
 test_file
+debugger
+=
+None
 )
 :
         
@@ -793,6 +957,9 @@ test_file
 '
 browser
 '
+debugger
+=
+debugger
 )
     
 Command
@@ -811,6 +978,28 @@ a11y
 mochitest
 .
 '
+)
+    
+CommandArgument
+(
+'
+-
+-
+debugger
+'
+'
+-
+d
+'
+metavar
+=
+'
+DEBUGGER
+'
+        
+help
+=
+debugger_help
 )
     
 CommandArgument
@@ -842,6 +1031,9 @@ run_mochitest_a11y
 (
 self
 test_file
+debugger
+=
+None
 )
 :
         
@@ -854,6 +1046,9 @@ test_file
 '
 a11y
 '
+debugger
+=
+debugger
 )
     
 def
@@ -862,6 +1057,9 @@ run_mochitest
 self
 test_file
 flavor
+debugger
+=
+None
 )
 :
         
@@ -889,5 +1087,13 @@ mochitest
 run_mochitest_test
 (
 test_file
+=
+test_file
+suite
+=
 flavor
+            
+debugger
+=
+debugger
 )
