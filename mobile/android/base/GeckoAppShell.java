@@ -138,6 +138,17 @@ gecko
 .
 gfx
 .
+GfxInfoThread
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+gfx
+.
 ImmutableViewportMetrics
 ;
 import
