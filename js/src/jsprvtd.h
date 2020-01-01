@@ -912,6 +912,9 @@ class
 InvokeArgsGuard
 ;
 class
+InvokeSessionGuard
+;
+class
 TraceRecorder
 ;
 struct
