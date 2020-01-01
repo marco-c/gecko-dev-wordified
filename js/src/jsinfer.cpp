@@ -19753,8 +19753,9 @@ ISpewOps
 s
 :
 setFlags
+0x
 %
-u
+x
 "
 TypeObjectString
 (
