@@ -2377,7 +2377,7 @@ has
 been
 /
 /
-built
+build
 .
 Strange
 .
@@ -3242,7 +3242,7 @@ _retval
 )
 {
 return
-NS_NewDOMSVGAngle
+NS_NewSVGAngle
 (
 _retval
 )

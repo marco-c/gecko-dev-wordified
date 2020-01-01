@@ -767,7 +767,10 @@ mAnimVal
 =
 mBaseVal
 =
+static_cast
+<
 PRUint8
+>
 (
 aValue
 )
