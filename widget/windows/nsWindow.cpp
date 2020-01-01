@@ -42370,15 +42370,6 @@ aModKeyState
 aFakeCharMessage
 )
 ;
-UniCharsAndModifiers
-inputtingChars
-=
-nativeKey
-.
-GetCommittedCharsAndModifiers
-(
-)
-;
 uint32_t
 DOMKeyCode
 =
@@ -42965,7 +42956,6 @@ nativeKey
 .
 DispatchKeyPressEventsAndDiscardsCharMessages
 (
-inputtingChars
 extraFlags
 )
 ;
@@ -42989,7 +42979,6 @@ nativeKey
 .
 DispatchKeyPressEventForFollowingCharMessage
 (
-inputtingChars
 extraFlags
 )
 )
@@ -43100,7 +43089,6 @@ nativeKey
 .
 DispatchKeyPressEventsWithKeyboardLayout
 (
-inputtingChars
 extraFlags
 )
 )
