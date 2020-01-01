@@ -1744,6 +1744,14 @@ NS_FORM_EVENT_START
 +
 4
 )
+#
+define
+NS_FORM_INVALID
+(
+NS_FORM_EVENT_START
++
+5
+)
 /
 /
 Need
