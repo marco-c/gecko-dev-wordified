@@ -1440,6 +1440,17 @@ runtime
 =
 rt
 ;
+cx
+-
+>
+debugHooks
+=
+&
+rt
+-
+>
+globalDebugHooks
+;
 #
 if
 JS_STACK_GROWTH_DIRECTION
@@ -5404,7 +5415,7 @@ if
 cx
 -
 >
-runtime
+debugHooks
 -
 >
 debugErrorHook
@@ -5422,7 +5433,7 @@ hook
 cx
 -
 >
-runtime
+debugHooks
 -
 >
 debugErrorHook
@@ -5452,7 +5463,7 @@ reportp
 cx
 -
 >
-runtime
+debugHooks
 -
 >
 debugErrorHookData
@@ -5769,7 +5780,7 @@ hook
 cx
 -
 >
-runtime
+debugHooks
 -
 >
 debugErrorHook
@@ -5789,7 +5800,7 @@ report
 cx
 -
 >
-runtime
+debugHooks
 -
 >
 debugErrorHookData
@@ -7657,7 +7668,7 @@ hook
 cx
 -
 >
-runtime
+debugHooks
 -
 >
 debugErrorHook
@@ -7679,7 +7690,7 @@ reportp
 cx
 -
 >
-runtime
+debugHooks
 -
 >
 debugErrorHookData
