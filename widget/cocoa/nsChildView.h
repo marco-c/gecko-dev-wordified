@@ -3117,6 +3117,13 @@ GetDefaultScaleInternal
 (
 )
 ;
+virtual
+int32_t
+RoundsWidgetCoordinatesTo
+(
+)
+MOZ_OVERRIDE
+;
 NS_IMETHOD
 Invalidate
 (
