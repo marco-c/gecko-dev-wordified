@@ -838,7 +838,7 @@ NS_MATHML_RTL
 if
 defined
 (
-NS_DEBUG
+DEBUG
 )
 &
 &
@@ -2512,7 +2512,7 @@ cssProperty
 if
 defined
 (
-NS_DEBUG
+DEBUG
 )
 &
 &

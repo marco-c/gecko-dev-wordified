@@ -12903,7 +12903,7 @@ gBodyKids
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 void
 CheckElementTable
 (

@@ -213,7 +213,7 @@ h
 if
 defined
 (
-NS_DEBUG
+DEBUG
 )
 #
 include
@@ -300,7 +300,7 @@ endif
 if
 defined
 (
-NS_DEBUG
+DEBUG
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
@@ -332,7 +332,7 @@ nsSAXXMLReader
 if
 defined
 (
-NS_DEBUG
+DEBUG
 )
 NS_DEFINE_NAMED_CID
 (
@@ -384,7 +384,7 @@ kParserCIDs
 if
 defined
 (
-NS_DEBUG
+DEBUG
 )
 {
 &
@@ -521,7 +521,7 @@ rv
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 CheckElementTable
 (
 )

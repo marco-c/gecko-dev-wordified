@@ -386,7 +386,7 @@ mDisabled
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 PRUint32
 mDebugID
 ;

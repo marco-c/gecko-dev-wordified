@@ -3875,7 +3875,7 @@ DOM_OBJECT
 )
 #
 ifdef
-NS_DEBUG
+DEBUG
 #
 define
 NS_DEFINE_CLASSINFO_DATA_DEBUG
@@ -16792,7 +16792,7 @@ nsIDOMLockedFile
 DOM_CLASSINFO_MAP_END
 #
 ifdef
-NS_DEBUG
+DEBUG
 {
 PRUint32
 i
@@ -23898,7 +23898,7 @@ default
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 NS_ERROR
 (
 "

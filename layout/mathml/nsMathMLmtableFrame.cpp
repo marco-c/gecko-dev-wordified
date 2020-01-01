@@ -904,7 +904,7 @@ count
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 static
 bool
 IsTable

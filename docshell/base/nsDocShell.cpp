@@ -63828,7 +63828,7 @@ rootIDocShell
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsresult
 rv
 =

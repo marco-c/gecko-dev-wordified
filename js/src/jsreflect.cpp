@@ -14266,10 +14266,9 @@ PNX_DESTRUCT
 parser
 -
 >
-reportErrorNumber
+reportError
 (
 pn
-JSREPORT_ERROR
 JSMSG_BAD_OBJECT_INIT
 )
 ;

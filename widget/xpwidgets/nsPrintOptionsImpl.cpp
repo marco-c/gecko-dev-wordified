@@ -5812,7 +5812,7 @@ aPrinterName
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsXPIDLString
 printerName
 ;

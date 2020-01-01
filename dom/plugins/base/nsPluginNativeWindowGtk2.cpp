@@ -1337,7 +1337,7 @@ widget
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 printf
 (
 "
@@ -1450,7 +1450,7 @@ height
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 printf
 (
 "
@@ -1489,7 +1489,7 @@ mSocketWidget
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 printf
 (
 "

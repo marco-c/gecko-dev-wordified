@@ -6494,7 +6494,7 @@ endif
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsIFrame
 *
 GetDrawEventTargetFrame
@@ -8258,7 +8258,7 @@ mForwardingContainer
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsIFrame
 *
 mDrawEventTargetFrame

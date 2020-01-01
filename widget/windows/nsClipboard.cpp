@@ -7650,7 +7650,7 @@ i
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 strcmp

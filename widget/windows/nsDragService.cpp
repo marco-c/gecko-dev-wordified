@@ -3475,7 +3475,7 @@ NS_ERROR_FAILURE
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 strcmp

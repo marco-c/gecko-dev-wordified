@@ -1284,7 +1284,7 @@ aOperatorData
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 NS_LossyConvertUTF16toASCII
 str
 (

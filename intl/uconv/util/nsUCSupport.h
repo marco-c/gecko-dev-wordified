@@ -200,7 +200,7 @@ length
 )
 #
 ifdef
-NS_DEBUG
+DEBUG
 /
 /
 {
@@ -485,7 +485,7 @@ public
 nsIUnicodeDecoder
 #
 ifdef
-NS_DEBUG
+DEBUG
 public
 nsIBasicDecoder
 #
@@ -1893,7 +1893,7 @@ public
 nsIUnicodeEncoder
 #
 ifdef
-NS_DEBUG
+DEBUG
 public
 nsIBasicEncoder
 #

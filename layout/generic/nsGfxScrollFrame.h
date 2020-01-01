@@ -3118,7 +3118,7 @@ const
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 NS_IMETHOD
 GetFrameName
 (
@@ -4430,7 +4430,7 @@ aFlags
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 NS_IMETHOD
 GetFrameName
 (

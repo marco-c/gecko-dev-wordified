@@ -760,7 +760,7 @@ XULLabelFrame
 Diagnostics
 #
 ifdef
-NS_DEBUG
+DEBUG
 NS_IMETHODIMP
 nsXULLabelFrame
 :

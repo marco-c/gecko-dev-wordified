@@ -123,7 +123,7 @@ h
 "
 #
 ifdef
-NS_DEBUG
+DEBUG
 #
 include
 "
@@ -135,7 +135,7 @@ h
 endif
 #
 ifdef
-NS_DEBUG
+DEBUG
 static
 bool
 gNoisy
@@ -339,7 +339,7 @@ void
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 gNoisy
@@ -420,7 +420,7 @@ mElement
 from
 #
 ifdef
-NS_DEBUG
+DEBUG
 /
 /
 begin
@@ -674,7 +674,7 @@ void
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 gNoisy
@@ -772,7 +772,7 @@ NS_ERROR_NULL_POINTER
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 /
 /
 begin
@@ -951,7 +951,7 @@ void
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 gNoisy

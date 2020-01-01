@@ -2409,7 +2409,7 @@ kPrincipalList
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 /
 /
 Verify

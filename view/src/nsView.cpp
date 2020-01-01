@@ -2824,7 +2824,7 @@ aSibling
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 NS_ASSERTION
 (
 aSibling

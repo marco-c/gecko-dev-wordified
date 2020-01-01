@@ -353,7 +353,7 @@ ref
 counted
 #
 ifdef
-NS_DEBUG
+DEBUG
 static
 PRInt32
 totalInstances
@@ -371,7 +371,7 @@ nsExceptionManager
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 PRInt32
 nsExceptionManager
 :
@@ -455,7 +455,7 @@ code
 /
 #
 ifdef
-NS_DEBUG
+DEBUG
 PR_ATOMIC_INCREMENT
 (
 &
@@ -481,7 +481,7 @@ code
 /
 #
 ifdef
-NS_DEBUG
+DEBUG
 PR_ATOMIC_DECREMENT
 (
 &
@@ -492,7 +492,7 @@ totalInstances
 endif
 /
 /
-NS_DEBUG
+DEBUG
 }
 /
 *
@@ -665,7 +665,7 @@ nsnull
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 PRInt32
 nsExceptionService
 :
@@ -707,7 +707,7 @@ hashtable
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 PR_ATOMIC_INCREMENT
@@ -864,7 +864,7 @@ code
 /
 #
 ifdef
-NS_DEBUG
+DEBUG
 PR_ATOMIC_DECREMENT
 (
 &

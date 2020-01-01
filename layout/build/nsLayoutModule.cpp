@@ -2168,7 +2168,7 @@ Release
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsresult
 NS_NewFrameUtil
 (

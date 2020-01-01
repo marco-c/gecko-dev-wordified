@@ -2055,7 +2055,7 @@ endif
 MOZ_WIDGET_GTK2
 #
 ifdef
-NS_DEBUG
+DEBUG
 printf
 (
 "

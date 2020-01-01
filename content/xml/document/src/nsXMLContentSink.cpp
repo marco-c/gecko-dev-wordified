@@ -6631,7 +6631,7 @@ sheet
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsCAutoString
 uriStr
 ;

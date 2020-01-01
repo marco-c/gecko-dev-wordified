@@ -1046,7 +1046,7 @@ mozilla
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 #
 undef
 NOISY_VIEWER
@@ -2394,7 +2394,7 @@ endif
 NS_PRINT_PREVIEW
 #
 ifdef
-NS_DEBUG
+DEBUG
 FILE
 *
 mDebugFile
@@ -2403,7 +2403,7 @@ mDebugFile
 endif
 /
 /
-NS_DEBUG
+DEBUG
 #
 endif
 /
@@ -2862,7 +2862,7 @@ endif
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 mDebugFile
 =
 nsnull
@@ -15248,7 +15248,7 @@ printSettings
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsresult
 rv
 =
@@ -20639,7 +20639,7 @@ AppUnitsPerDevPixel
 mPageZoom
 #
 ifdef
-NS_DEBUG
+DEBUG
 mDebugFile
 #
 else
@@ -20969,7 +20969,7 @@ AppUnitsPerDevPixel
 mPageZoom
 #
 ifdef
-NS_DEBUG
+DEBUG
 mDebugFile
 #
 else

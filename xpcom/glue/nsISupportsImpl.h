@@ -301,7 +301,7 @@ safety
 if
 defined
 (
-NS_DEBUG
+DEBUG
 )
 &
 &
@@ -439,7 +439,7 @@ else
 /
 /
 !
-NS_DEBUG
+DEBUG
 #
 define
 NS_DECL_OWNINGTHREAD
@@ -476,7 +476,7 @@ void
 endif
 /
 /
-NS_DEBUG
+DEBUG
 #
 define
 NS_CCAR_REFCNT_BIT

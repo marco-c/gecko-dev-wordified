@@ -5573,7 +5573,7 @@ InvalidateFrameSubtree
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 DebugCheckChildSize
 (
 firstKid
