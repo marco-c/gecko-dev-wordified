@@ -1261,7 +1261,7 @@ endif
 /
 /
 static
-NS_IMETHODIMP
+nsresult
 xpctest
 :
 :

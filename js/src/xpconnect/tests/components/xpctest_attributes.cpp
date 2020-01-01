@@ -809,7 +809,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 xpctest
 :
 :
@@ -1423,7 +1423,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 xpctest
 :
 :
@@ -1717,7 +1717,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 xpctest
 :
 :

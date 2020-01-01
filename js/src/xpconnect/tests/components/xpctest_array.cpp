@@ -2631,7 +2631,7 @@ NS_OK
 /
 /
 static
-NS_IMETHODIMP
+nsresult
 xpctest
 :
 :

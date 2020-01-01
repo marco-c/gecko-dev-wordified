@@ -2195,7 +2195,7 @@ _retval
 /
 /
 static
-NS_IMETHODIMP
+nsresult
 xpctest
 :
 :

@@ -486,7 +486,7 @@ NS_ADDREF_THIS
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 xpctest
 :
 :

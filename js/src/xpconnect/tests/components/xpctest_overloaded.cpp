@@ -1980,7 +1980,7 @@ helper
 /
 /
 static
-NS_IMETHODIMP
+nsresult
 xpctest
 :
 :

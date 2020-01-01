@@ -653,7 +653,7 @@ str
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 xpctest
 :
 :
