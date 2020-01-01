@@ -1071,7 +1071,7 @@ PreviewWindow
 return
 FAILED
 (
-nsUXThemeData
+WinUtils
 :
 :
 dwmInvalidateIconicBitmapsPtr
@@ -1802,7 +1802,7 @@ enabled
 =
 aEnable
 ;
-nsUXThemeData
+WinUtils
 :
 :
 dwmSetWindowAttributePtr
@@ -1817,7 +1817,7 @@ enabled
 )
 )
 ;
-nsUXThemeData
+WinUtils
 :
 :
 dwmSetWindowAttributePtr
@@ -2048,7 +2048,7 @@ if
 (
 isPreview
 )
-nsUXThemeData
+WinUtils
 :
 :
 dwmSetIconicLivePreviewBitmapPtr
@@ -2063,7 +2063,7 @@ flags
 )
 ;
 else
-nsUXThemeData
+WinUtils
 :
 :
 dwmSetIconicThumbnailPtr
