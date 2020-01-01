@@ -576,6 +576,8 @@ do_timeout
 checkFile
 )
 ;
+return
+;
 }
 }
 /
