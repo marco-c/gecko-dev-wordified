@@ -723,7 +723,13 @@ gfxIntSize
 gfxASurface
 :
 :
+ContentFromFormat
+(
+gfxASurface
+:
+:
 ImageFormatARGB32
+)
 )
 ;
 PuppetWidget

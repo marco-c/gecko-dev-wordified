@@ -1447,7 +1447,13 @@ GetPlatform
 CreateOffscreenSurface
 (
 aSize
+gfxASurface
+:
+:
+ContentFromFormat
+(
 aFormat
+)
 )
 ;
 }
