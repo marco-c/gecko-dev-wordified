@@ -5054,6 +5054,7 @@ ParseEnumValue
 (
 aValue
 kFrameTable
+PR_FALSE
 )
 ;
 }
@@ -5075,6 +5076,7 @@ ParseEnumValue
 (
 aValue
 kLayoutTable
+PR_FALSE
 )
 ;
 }
@@ -5096,6 +5098,7 @@ ParseEnumValue
 (
 aValue
 kRulesTable
+PR_FALSE
 )
 ;
 }

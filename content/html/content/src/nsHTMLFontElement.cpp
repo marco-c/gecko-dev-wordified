@@ -984,6 +984,7 @@ ParseEnumValue
 (
 aValue
 kRelFontSizeTable
+PR_FALSE
 )
 )
 {

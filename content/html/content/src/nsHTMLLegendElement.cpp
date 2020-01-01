@@ -977,6 +977,7 @@ ParseEnumValue
 (
 aValue
 kAlignTable
+PR_FALSE
 )
 ;
 }

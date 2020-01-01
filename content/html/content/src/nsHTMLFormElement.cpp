@@ -2305,6 +2305,7 @@ ParseEnumValue
 (
 aValue
 kFormMethodTable
+PR_FALSE
 )
 ;
 }
@@ -2326,6 +2327,7 @@ ParseEnumValue
 (
 aValue
 kFormEnctypeTable
+PR_FALSE
 )
 ;
 }
