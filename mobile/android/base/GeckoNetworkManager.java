@@ -99,13 +99,6 @@ gecko
 import
 android
 .
-util
-.
-Log
-;
-import
-android
-.
 content
 .
 BroadcastReceiver
@@ -151,6 +144,13 @@ android
 telephony
 .
 TelephonyManager
+;
+import
+android
+.
+util
+.
+Log
 ;
 /
 *

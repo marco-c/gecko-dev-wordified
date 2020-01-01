@@ -136,14 +136,14 @@ android
 .
 content
 .
-ContentResolver
+ContentProviderOperation
 ;
 import
 android
 .
 content
 .
-ContentProviderOperation
+ContentResolver
 ;
 import
 android

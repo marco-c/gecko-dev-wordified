@@ -73,13 +73,6 @@ Context
 import
 android
 .
-util
-.
-AttributeSet
-;
-import
-android
-.
 text
 .
 SpannableString
@@ -92,6 +85,13 @@ text
 style
 .
 UnderlineSpan
+;
+import
+android
+.
+util
+.
+AttributeSet
 ;
 import
 android

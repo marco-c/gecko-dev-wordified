@@ -103,14 +103,14 @@ android
 .
 graphics
 .
-Color
+Bitmap
 ;
 import
 android
 .
 graphics
 .
-Bitmap
+Color
 ;
 public
 final

@@ -64,13 +64,6 @@ mozilla
 gecko
 ;
 import
-java
-.
-io
-.
-IOException
-;
-import
 org
 .
 xmlpull
@@ -161,6 +154,13 @@ android
 view
 .
 MenuItem
+;
+import
+java
+.
+io
+.
+IOException
 ;
 public
 class

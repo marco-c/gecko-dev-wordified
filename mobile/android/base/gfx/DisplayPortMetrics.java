@@ -99,13 +99,6 @@ gecko
 gfx
 ;
 import
-android
-.
-graphics
-.
-RectF
-;
-import
 org
 .
 mozilla
@@ -113,6 +106,13 @@ mozilla
 gecko
 .
 FloatUtils
+;
+import
+android
+.
+graphics
+.
+RectF
 ;
 /
 *

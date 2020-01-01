@@ -99,13 +99,6 @@ gecko
 gfx
 ;
 import
-android
-.
-util
-.
-FloatMath
-;
-import
 org
 .
 json
@@ -118,6 +111,13 @@ org
 json
 .
 JSONObject
+;
+import
+android
+.
+util
+.
+FloatMath
 ;
 public
 class

@@ -70,6 +70,13 @@ android
 .
 view
 .
+KeyEvent
+;
+import
+android
+.
+view
+.
 inputmethod
 .
 EditorInfo
@@ -82,13 +89,6 @@ view
 inputmethod
 .
 InputConnection
-;
-import
-android
-.
-view
-.
-KeyEvent
 ;
 public
 interface

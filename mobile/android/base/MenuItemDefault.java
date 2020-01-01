@@ -107,6 +107,13 @@ android
 .
 widget
 .
+ImageView
+;
+import
+android
+.
+widget
+.
 LinearLayout
 ;
 import
@@ -124,13 +131,6 @@ android
 widget
 .
 TextView
-;
-import
-android
-.
-widget
-.
-ImageView
 ;
 public
 class

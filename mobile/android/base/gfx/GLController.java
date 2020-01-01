@@ -99,13 +99,6 @@ gecko
 gfx
 ;
 import
-android
-.
-view
-.
-SurfaceHolder
-;
-import
 javax
 .
 microedition
