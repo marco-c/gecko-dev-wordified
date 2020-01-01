@@ -5948,17 +5948,6 @@ is
 being
 torn
 down
-so
-that
-/
-/
-remote
-protocol
-connections
-can
-be
-gracefully
-terminated
 .
 if
 (
