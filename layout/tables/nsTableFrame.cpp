@@ -13282,10 +13282,6 @@ if
 (
 !
 rgFrame
-|
-|
-!
-rgFrame
 -
 >
 IsRepeatable
