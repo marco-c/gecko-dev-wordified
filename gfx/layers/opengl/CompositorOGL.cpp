@@ -6845,6 +6845,12 @@ programType
 =
 =
 RGBARectLayerProgramType
+|
+|
+programType
+=
+=
+RGBXRectLayerProgramType
 )
 {
 TexturedEffect
