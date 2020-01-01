@@ -1913,7 +1913,7 @@ value
 #
 ifdef
 ANDROID
-void
+bool
 AddPluginView
 (
 const
