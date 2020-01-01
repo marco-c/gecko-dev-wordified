@@ -1676,7 +1676,7 @@ aRenderingContext
 mFrame
 aDirtyRect
 buttonRect
-PR_FALSE
+0
 )
 ;
 nsCSSRendering

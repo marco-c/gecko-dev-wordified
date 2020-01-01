@@ -24707,7 +24707,7 @@ aRect
 myColor
 *
 myBorder
-PR_TRUE
+0
 )
 ;
 nsCSSRendering

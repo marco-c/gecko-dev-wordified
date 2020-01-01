@@ -15101,7 +15101,7 @@ rect
 backg
 *
 border
-PR_TRUE
+0
 )
 ;
 }

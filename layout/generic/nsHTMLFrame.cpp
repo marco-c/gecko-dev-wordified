@@ -2522,12 +2522,7 @@ GetSize
 (
 )
 )
-mFrame
--
->
-HonorPrintBackgroundSettings
-(
-)
+0
 &
 bgClipRect
 )

@@ -3026,6 +3026,7 @@ TYPE_SVG_EFFECTS
 endif
 TYPE_WRAPLIST
 TYPE_TRANSFORM
+TYPE_BORDER
 }
 ;
 struct
@@ -7180,6 +7181,16 @@ nsDisplayBorder
 }
 #
 endif
+virtual
+Type
+GetType
+(
+)
+{
+return
+TYPE_BORDER
+;
+}
 virtual
 void
 Paint

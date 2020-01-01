@@ -2317,7 +2317,7 @@ aRenderingContext
 this
 aDirtyRect
 rect
-PR_TRUE
+0
 )
 ;
 }
@@ -7399,7 +7399,7 @@ GetStyleBackground
 (
 )
 myBorder
-PR_TRUE
+0
 nsnull
 )
 ;

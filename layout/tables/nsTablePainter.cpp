@@ -2306,7 +2306,7 @@ mBackground
 tableData
 .
 mBorder
-PR_TRUE
+0
 )
 ;
 }
@@ -4506,7 +4506,7 @@ mColGroup
 -
 >
 mBorder
-PR_TRUE
+0
 &
 mCellRect
 )
@@ -4578,7 +4578,7 @@ colIndex
 mCol
 .
 mBorder
-PR_TRUE
+0
 &
 mCellRect
 )
@@ -4623,7 +4623,7 @@ mBackground
 mRowGroup
 .
 mBorder
-PR_TRUE
+0
 &
 mCellRect
 )
@@ -4667,7 +4667,7 @@ mBackground
 mRow
 .
 mBorder
-PR_TRUE
+0
 &
 mCellRect
 )
