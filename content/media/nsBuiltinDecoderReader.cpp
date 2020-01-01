@@ -1147,9 +1147,6 @@ format
 ImageFormat
 format
 =
-ImageFormat
-:
-:
 PLANAR_YCBCR
 ;
 v
@@ -1193,9 +1190,6 @@ GetFormat
 )
 =
 =
-ImageFormat
-:
-:
 PLANAR_YCBCR
 "
 Wrong

@@ -1307,9 +1307,6 @@ GetFormat
 )
 =
 =
-ImageFormat
-:
-:
 MAC_IO_SURFACE
 &
 &
@@ -22860,9 +22857,6 @@ GetFormat
 )
 =
 =
-ImageFormat
-:
-:
 MAC_IO_SURFACE
 )
 &

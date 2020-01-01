@@ -5843,9 +5843,6 @@ surface
 ImageFormat
 cairoFormat
 =
-ImageFormat
-:
-:
 CAIRO_SURFACE
 ;
 nsRefPtr

@@ -3531,9 +3531,6 @@ NS_ERROR_NOT_AVAILABLE
 ImageFormat
 format
 =
-ImageFormat
-:
-:
 CAIRO_SURFACE
 ;
 #
@@ -3546,9 +3543,6 @@ ioSurface
 {
 format
 =
-ImageFormat
-:
-:
 MAC_IO_SURFACE
 ;
 }
@@ -3639,9 +3633,6 @@ GetFormat
 )
 =
 =
-ImageFormat
-:
-:
 MAC_IO_SURFACE
 "
 Wrong
@@ -3721,9 +3712,6 @@ GetFormat
 )
 =
 =
-ImageFormat
-:
-:
 CAIRO_SURFACE
 "
 Wrong

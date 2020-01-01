@@ -265,9 +265,6 @@ track
 ImageFormat
 format
 =
-ImageFormat
-:
-:
 PLANAR_YCBCR
 ;
 nsRefPtr

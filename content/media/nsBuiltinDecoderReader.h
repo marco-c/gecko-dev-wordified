@@ -2832,9 +2832,6 @@ GetFormat
 mozilla
 :
 :
-ImageFormat
-:
-:
 PLANAR_YCBCR
 "
 Wrong

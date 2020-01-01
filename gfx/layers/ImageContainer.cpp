@@ -310,9 +310,6 @@ FormatInList
 (
 aFormats
 aNumFormats
-ImageFormat
-:
-:
 PLANAR_YCBCR
 )
 )
@@ -333,9 +330,6 @@ FormatInList
 (
 aFormats
 aNumFormats
-ImageFormat
-:
-:
 CAIRO_SURFACE
 )
 )
@@ -355,9 +349,6 @@ FormatInList
 (
 aFormats
 aNumFormats
-ImageFormat
-:
-:
 SHARED_TEXTURE
 )
 )
@@ -380,9 +371,6 @@ FormatInList
 (
 aFormats
 aNumFormats
-ImageFormat
-:
-:
 MAC_IO_SURFACE
 )
 )
@@ -407,9 +395,6 @@ FormatInList
 (
 aFormats
 aNumFormats
-ImageFormat
-:
-:
 GONK_IO_SURFACE
 )
 )
@@ -1215,9 +1200,6 @@ GetFormat
 )
 =
 =
-ImageFormat
-:
-:
 REMOTE_IMAGE_BITMAP
 )
 {
