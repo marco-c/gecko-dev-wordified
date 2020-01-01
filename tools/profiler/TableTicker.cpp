@@ -2596,6 +2596,7 @@ do
 not
 support
 backtracing
+static
 void
 doBacktrace
 (
@@ -3355,7 +3356,7 @@ rv
 FramePointerStackWalk
 (
 StackWalkCallback
-1
+0
 &
 array
 reinterpret_cast
