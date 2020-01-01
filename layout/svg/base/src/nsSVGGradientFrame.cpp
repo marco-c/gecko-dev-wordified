@@ -515,6 +515,13 @@ gfxPattern
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 /
 /
 -

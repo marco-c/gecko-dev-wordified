@@ -499,6 +499,13 @@ nsIDocument
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 /
 /
 you

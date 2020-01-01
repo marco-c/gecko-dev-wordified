@@ -502,6 +502,13 @@ nsSVGMatrix
 .
 h
 "
+#
+include
+"
+nsTextFragment
+.
+h
+"
 class
 nsSVGTextFrame
 ;

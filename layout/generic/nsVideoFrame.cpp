@@ -597,6 +597,13 @@ nsCSSRendering
 h
 "
 #
+include
+"
+nsContentUtils
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #

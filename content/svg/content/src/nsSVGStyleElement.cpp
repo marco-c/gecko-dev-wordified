@@ -468,6 +468,13 @@ nsStyleLinkElement
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 typedef
 nsSVGElement
 nsSVGStyleElementBase

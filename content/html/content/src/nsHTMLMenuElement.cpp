@@ -419,6 +419,13 @@ BLOCK
 #
 include
 "
+nsHTMLMenuElement
+.
+h
+"
+#
+include
+"
 nsIDOMNSHTMLElement
 .
 h
@@ -461,7 +468,7 @@ h
 #
 include
 "
-nsHTMLMenuElement
+nsContentUtils
 .
 h
 "

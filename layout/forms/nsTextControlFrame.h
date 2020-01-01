@@ -498,6 +498,16 @@ nsIStatefulFrame
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
+/
+/
+nsAutoScriptBlocker
 class
 nsIEditor
 ;

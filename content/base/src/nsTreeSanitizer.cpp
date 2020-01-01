@@ -568,6 +568,13 @@ nsNullPrincipal
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 /
 /
 /

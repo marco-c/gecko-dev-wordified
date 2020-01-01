@@ -525,13 +525,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsIHTMLCollection
 .
 h

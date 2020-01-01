@@ -506,6 +506,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsUnicharUtils
 .
 h

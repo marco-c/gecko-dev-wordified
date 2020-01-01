@@ -644,6 +644,13 @@ nsIFileStreams
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 static
 void
 SendJSWarning

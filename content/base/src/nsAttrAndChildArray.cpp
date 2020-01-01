@@ -519,6 +519,16 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
+/
+/
+nsAutoScriptBlocker
 /
 *
 CACHE_POINTER_SHIFT

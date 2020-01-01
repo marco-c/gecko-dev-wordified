@@ -456,6 +456,13 @@ nsIInterfaceRequestorUtils
 .
 h
 "
+#
+include
+"
+nsDOMClassInfoID
+.
+h
+"
 nsDOMTimeEvent
 :
 :

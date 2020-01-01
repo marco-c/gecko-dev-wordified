@@ -463,6 +463,16 @@ nsMathUtils
 h
 "
 #
+include
+"
+nsContentUtils
+.
+h
+"
+/
+/
+NS_ENSURE_FINITE
+#
 ifdef
 MOZ_SMIL
 #

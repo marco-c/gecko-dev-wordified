@@ -481,6 +481,13 @@ nsHTMLFormElement
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 const
 PRUint16
 nsIConstraintValidation

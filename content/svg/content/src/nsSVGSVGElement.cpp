@@ -635,6 +635,13 @@ h
 For
 NS_PROPTABLE_PROP_OVERWRITTEN
 #
+include
+"
+nsContentUtils
+.
+h
+"
+#
 ifdef
 MOZ_SMIL
 #

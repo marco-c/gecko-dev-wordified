@@ -459,13 +459,6 @@ h
 #
 include
 "
-nsIDOMCharacterData
-.
-h
-"
-#
-include
-"
 nsTextFragment
 .
 h
@@ -495,13 +488,6 @@ h
 include
 "
 nsCycleCollectionParticipant
-.
-h
-"
-#
-include
-"
-nsContentUtils
 .
 h
 "

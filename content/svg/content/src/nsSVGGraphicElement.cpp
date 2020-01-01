@@ -544,6 +544,13 @@ nsSVGRect
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 /
 /
 -

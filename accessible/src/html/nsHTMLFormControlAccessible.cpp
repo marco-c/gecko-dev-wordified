@@ -534,6 +534,13 @@ h
 #
 include
 "
+nsIDOMNodeList
+.
+h
+"
+#
+include
+"
 nsIEditor
 .
 h

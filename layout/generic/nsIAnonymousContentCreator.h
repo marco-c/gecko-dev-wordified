@@ -467,6 +467,9 @@ nsStyleContext
 h
 "
 class
+nsBaseContentList
+;
+class
 nsIFrame
 ;
 template

@@ -765,6 +765,13 @@ nsDisplayList
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 /
 /
 Constants

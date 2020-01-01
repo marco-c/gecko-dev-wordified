@@ -588,6 +588,16 @@ nsPLDOMEvent
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
+/
+/
+NS_IMPL_CYCLE_COLLECTION_UNLINK_LISTENERMANAGER
 using
 namespace
 mozilla

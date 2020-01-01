@@ -513,7 +513,7 @@ h
 #
 include
 "
-nsParserCIID
+nsContentUtils
 .
 h
 "

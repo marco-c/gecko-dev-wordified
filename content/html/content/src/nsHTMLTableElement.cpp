@@ -534,6 +534,13 @@ nsIDocument
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 /
 *
 for

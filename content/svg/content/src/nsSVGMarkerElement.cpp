@@ -483,6 +483,16 @@ gfxMatrix
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
+/
+/
+NS_ENSURE_FINITE
 using
 namespace
 mozilla

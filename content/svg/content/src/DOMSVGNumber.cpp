@@ -469,6 +469,13 @@ nsDOMError
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 /
 /
 See

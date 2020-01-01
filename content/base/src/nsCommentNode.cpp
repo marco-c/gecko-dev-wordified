@@ -467,6 +467,16 @@ h
 #
 include
 "
+nsGenericElement
+.
+h
+"
+/
+/
+DOMCI_NODE_DATA
+#
+include
+"
 nsDOMMemoryReporter
 .
 h

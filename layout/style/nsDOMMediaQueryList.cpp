@@ -455,6 +455,16 @@ nsCSSParser
 .
 h
 "
+#
+include
+"
+nsDOMClassInfoID
+.
+h
+"
+/
+/
+DOMCI_DATA
 nsDOMMediaQueryList
 :
 :

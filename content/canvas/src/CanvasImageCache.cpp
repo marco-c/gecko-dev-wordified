@@ -489,6 +489,13 @@ nsHTMLCanvasElement
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 namespace
 mozilla
 {
@@ -1329,3 +1336,7 @@ NS_OK
 ;
 }
 }
+/
+/
+namespace
+mozilla

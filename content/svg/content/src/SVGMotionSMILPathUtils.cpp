@@ -469,6 +469,13 @@ nsCharSeparatedTokenizer
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 namespace
 mozilla
 {

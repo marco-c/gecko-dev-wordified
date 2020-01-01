@@ -448,6 +448,13 @@ nsIDOMHTMLElement
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 using
 namespace
 mozilla

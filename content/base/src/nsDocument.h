@@ -759,13 +759,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
@@ -837,6 +830,13 @@ h
 include
 "
 nsIDOMTouchEvent
+.
+h
+"
+#
+include
+"
+nsDataHashtable
 .
 h
 "
