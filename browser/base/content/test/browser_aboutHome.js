@@ -1913,6 +1913,10 @@ requestLongerTimeout
 2
 )
 ;
+ignoreAllUncaughtExceptions
+(
+)
+;
 Task
 .
 spawn
