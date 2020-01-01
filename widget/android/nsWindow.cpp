@@ -8902,12 +8902,9 @@ SetPreventPanning
 preventPanning
 )
 ;
-return
-true
-;
 }
 return
-false
+preventPanning
 ;
 }
 void
