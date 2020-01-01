@@ -31581,6 +31581,9 @@ through
 the
 loop
 .
+delete
+listHead
+;
 return
 PR_FALSE
 ;
