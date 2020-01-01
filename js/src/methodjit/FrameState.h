@@ -1453,6 +1453,10 @@ JSValueTag
 tag
 RegisterID
 payload
+bool
+popGuaranteed
+=
+false
 )
 ;
 /
@@ -2295,6 +2299,10 @@ bool
 popGuaranteed
 =
 false
+bool
+typeChange
+=
+true
 )
 ;
 /
