@@ -944,7 +944,7 @@ this
 .
 browser
 .
-contentTitle
+title
 '
 url
 '
@@ -1277,8 +1277,6 @@ _addDebuggees
 this
 .
 browser
-.
-content
 .
 wrappedJSObject
 )
@@ -1662,8 +1660,6 @@ this
 .
 browser
 .
-content
-.
 QueryInterface
 (
 Ci
@@ -1724,8 +1720,6 @@ windowUtils
 this
 .
 browser
-.
-content
 .
 QueryInterface
 (
