@@ -1550,11 +1550,6 @@ gCleanupContext
 )
 ;
 }
-NS_IF_RELEASE
-(
-mContext
-)
-;
 mObserver
 =
 nsnull
@@ -1732,11 +1727,6 @@ NS_ERROR_ALREADY_INITIALIZED
 mContext
 =
 aContext
-;
-NS_ADDREF
-(
-mContext
-)
 ;
 mRefreshEnabled
 =

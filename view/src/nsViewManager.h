@@ -2460,8 +2460,10 @@ PR_TRUE
 }
 private
 :
+nsCOMPtr
+<
 nsIDeviceContext
-*
+>
 mContext
 ;
 nsIViewObserver
