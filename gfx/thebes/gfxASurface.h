@@ -649,7 +649,6 @@ SurfaceTypeDRM
 SurfaceTypeTee
 SurfaceTypeXML
 SurfaceTypeSkia
-SurfaceTypeDDraw
 SurfaceTypeD2D
 SurfaceTypeMax
 }
