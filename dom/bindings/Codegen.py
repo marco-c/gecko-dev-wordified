@@ -4690,7 +4690,7 @@ add
 (
 parentDesc
 .
-headerFile
+jsImplParentHeader
 )
         
 #
@@ -68991,7 +68991,7 @@ identifier
 name
 )
 .
-nativeType
+jsImplParent
             
 baseClasses
 =
