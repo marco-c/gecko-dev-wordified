@@ -581,6 +581,11 @@ GetTexture
 (
 )
 ;
+void
+DeleteTextureIfPresent
+(
+)
+;
 gl
 :
 :
