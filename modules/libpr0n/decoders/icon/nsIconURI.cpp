@@ -539,6 +539,9 @@ toolbarsmall
 menu
 "
 "
+dnd
+"
+"
 dialog
 "
 }
