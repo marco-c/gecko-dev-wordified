@@ -111,13 +111,6 @@ h
 #
 include
 "
-nsIDOMHTMLProgressElement
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -161,7 +154,7 @@ MOZ_FINAL
 public
 nsGenericHTMLElement
 public
-nsIDOMHTMLProgressElement
+nsIDOMHTMLElement
 {
 public
 :
@@ -196,10 +189,6 @@ NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 /
 nsIDOMHTMLElement
 NS_FORWARD_NSIDOMHTMLELEMENT_TO_GENERIC
-/
-/
-nsIDOMHTMLProgressElement
-NS_DECL_NSIDOMHTMLPROGRESSELEMENT
 nsEventStates
 IntrinsicState
 (
