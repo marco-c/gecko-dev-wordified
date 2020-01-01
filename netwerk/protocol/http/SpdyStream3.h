@@ -510,7 +510,6 @@ enum
 stateType
 {
 GENERATING_SYN_STREAM
-SENDING_SYN_STREAM
 GENERATING_REQUEST_BODY
 SENDING_REQUEST_BODY
 SENDING_FIN_STREAM
@@ -559,6 +558,8 @@ char
 *
 uint32_t
 *
+bool
+forceCommitment
 )
 ;
 void
