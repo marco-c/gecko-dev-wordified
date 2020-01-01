@@ -7099,16 +7099,6 @@ npobj
 -
 >
 _class
-|
-|
-!
-npobj
--
->
-_class
--
->
-invoke
 )
 {
 ThrowJSException
