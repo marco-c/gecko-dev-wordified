@@ -1835,7 +1835,9 @@ try
 {
 cacheSize
 =
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (
@@ -4200,7 +4202,9 @@ bug
 let
 granularity
 =
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (

@@ -7206,7 +7206,9 @@ this
 .
 _updateInterval
 =
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (
@@ -7246,7 +7248,9 @@ this
 .
 _decelerationRate
 =
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (
@@ -7279,7 +7283,9 @@ this
 .
 _speedSensitivity
 =
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (
@@ -7318,7 +7324,9 @@ this
 .
 _swipeLength
 =
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (
@@ -9639,7 +9647,9 @@ this
 .
 _maxGrowth
 =
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (
@@ -9658,7 +9668,9 @@ this
 .
 _maxShrink
 =
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (
@@ -9677,7 +9689,9 @@ this
 .
 _scalingFactor
 =
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (

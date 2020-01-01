@@ -1070,7 +1070,9 @@ is
 ;
 is
 (
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (
