@@ -2712,6 +2712,11 @@ mPlaced
 ;
 private
 :
+PRBool
+CanBeSeen
+(
+)
+;
 void
 GetToplevelWidget
 (
