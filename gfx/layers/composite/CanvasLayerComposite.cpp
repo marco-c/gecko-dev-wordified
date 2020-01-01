@@ -261,14 +261,7 @@ aHost
 {
 mImageHost
 =
-static_cast
-<
-ImageHost
-*
->
-(
 aHost
-)
 ;
 }
 Layer

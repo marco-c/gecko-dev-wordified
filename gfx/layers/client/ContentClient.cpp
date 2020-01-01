@@ -820,7 +820,7 @@ mTextureFlags
 =
 aFlags
 |
-HostRelease
+TEXTURE_DEALLOCATE_HOST
 ;
 mDeprecatedTextureClient
 =

@@ -117,6 +117,17 @@ h
 /
 for
 BasicTiledLayerBuffer
+#
+include
+"
+mozilla
+/
+layers
+/
+TextureHost
+.
+h
+"
 namespace
 mozilla
 {

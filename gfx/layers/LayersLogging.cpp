@@ -1468,7 +1468,7 @@ NewTile
 ;
 AppendFlag
 (
-HostRelease
+TEXTURE_DEALLOCATE_HOST
 )
 ;
 #

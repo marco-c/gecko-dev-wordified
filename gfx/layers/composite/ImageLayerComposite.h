@@ -308,7 +308,7 @@ private
 :
 RefPtr
 <
-ImageHost
+CompositableHost
 >
 mImageHost
 ;

@@ -549,7 +549,7 @@ GeckoProcessType_Default
 /
 /
 Append
-OwnByClient
+TEXTURE_DEALLOCATE_CLIENT
 flag
 for
 streaming
@@ -592,7 +592,7 @@ Stream
 flags
 |
 =
-OwnByClient
+TEXTURE_DEALLOCATE_CLIENT
 ;
 }
 }

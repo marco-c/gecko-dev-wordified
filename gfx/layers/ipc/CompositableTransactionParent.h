@@ -206,8 +206,6 @@ CompositableParentManager
 public
 ISurfaceAllocator
 {
-public
-:
 protected
 :
 /
