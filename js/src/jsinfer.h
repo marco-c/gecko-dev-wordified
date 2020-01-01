@@ -2432,21 +2432,6 @@ Whether
 any
 objects
 have
-an
-equality
-hook
-.
-*
-/
-OBJECT_FLAG_SPECIAL_EQUALITY
-=
-0x00100000
-/
-*
-Whether
-any
-objects
-have
 been
 iterated
 over
@@ -2455,7 +2440,7 @@ over
 /
 OBJECT_FLAG_ITERATED
 =
-0x00200000
+0x00100000
 /
 *
 For
@@ -2474,7 +2459,7 @@ RegExpStatics
 /
 OBJECT_FLAG_REGEXP_FLAGS_SET
 =
-0x00400000
+0x00200000
 /
 *
 Whether
@@ -2490,7 +2475,7 @@ EmulatesUndefined
 /
 OBJECT_FLAG_EMULATES_UNDEFINED
 =
-0x00800000
+0x00400000
 /
 *
 Flags
@@ -2506,7 +2491,7 @@ objects
 /
 OBJECT_FLAG_DYNAMIC_MASK
 =
-0x00ff0000
+0x007f0000
 /
 *
 *

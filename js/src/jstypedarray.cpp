@@ -20274,13 +20274,6 @@ trace
 NULL
 /
 *
-equality
-*
-/
-\
-NULL
-/
-*
 outerObject
 *
 /
@@ -20296,13 +20289,6 @@ NULL
 /
 *
 iteratorObject
-*
-/
-\
-NULL
-/
-*
-unused
 *
 /
 \

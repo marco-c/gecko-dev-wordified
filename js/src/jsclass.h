@@ -1457,9 +1457,6 @@ JS_CLASS_MEMBERS
 struct
 ClassExtension
 {
-JSEqualityOp
-equality
-;
 JSObjectOp
 outerObject
 ;
@@ -1468,10 +1465,6 @@ innerObject
 ;
 JSIteratorOp
 iteratorObject
-;
-void
-*
-unused
 ;
 /
 *
@@ -1641,8 +1634,6 @@ weakmapKeyDelegateOp
 define
 JS_NULL_CLASS_EXT
 {
-NULL
-NULL
 NULL
 NULL
 NULL
