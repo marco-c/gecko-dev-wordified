@@ -28149,6 +28149,14 @@ next
 )
 )
 {
+mjit
+:
+:
+ClearAllFrames
+(
+c
+)
+;
 PurgeJITCaches
 (
 c
