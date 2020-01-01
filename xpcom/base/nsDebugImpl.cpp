@@ -1779,6 +1779,14 @@ return
 case
 NS_DEBUG_ABORT
 :
+nsTraceRefcntImpl
+:
+:
+WalkTheStack
+(
+stderr
+)
+;
 Abort
 (
 buf
