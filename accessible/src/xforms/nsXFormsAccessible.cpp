@@ -1228,10 +1228,8 @@ DOMChild
 )
 )
 ;
-nsRefPtr
-<
 nsAccessible
->
+*
 accessible
 =
 GetAccService

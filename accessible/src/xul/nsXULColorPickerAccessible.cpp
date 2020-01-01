@@ -1586,11 +1586,11 @@ mContent
 PR_TRUE
 )
 ;
-nsRefPtr
-<
 nsAccessible
->
+*
 child
+=
+nsnull
 ;
 while
 (
@@ -1599,7 +1599,7 @@ child
 =
 walker
 .
-GetNextChild
+NextChild
 (
 )
 )
@@ -1619,7 +1619,7 @@ Role
 /
 Get
 an
-accessbile
+accessible
 for
 menupopup
 or

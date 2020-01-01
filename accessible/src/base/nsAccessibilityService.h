@@ -1089,10 +1089,8 @@ is
 hidden
 *
 /
-already_AddRefed
-<
 nsAccessible
->
+*
 GetOrCreateAccessible
 (
 nsINode
