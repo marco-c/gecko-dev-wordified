@@ -2419,13 +2419,6 @@ return
 nullptr
 ;
 }
-virtual
-void
-NotifyShadowTreeTransaction
-(
-)
-{
-}
 /
 *
 *
