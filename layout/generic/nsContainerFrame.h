@@ -3763,7 +3763,7 @@ null
 .
 *
 /
-nsresult
+void
 SetPropTableFrames
 (
 nsPresContext
