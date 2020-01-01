@@ -3667,16 +3667,6 @@ notifiedOptOut
 999
 )
 ;
-user_pref
-(
-"
-marionette
-.
-loadearly
-"
-true
-)
-;
 "
 "
 "

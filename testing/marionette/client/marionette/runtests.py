@@ -1417,10 +1417,6 @@ None
 tree
 =
 None
-load_early
-=
-False
-                 
 device
 =
 None
@@ -1589,12 +1585,6 @@ self
 tree
 =
 tree
-        
-self
-.
-load_early
-=
-load_early
         
 self
 .
@@ -2223,12 +2213,6 @@ gecko_path
 self
 .
 gecko_path
-                                         
-load_early
-=
-self
-.
-load_early
 )
         
 else
@@ -5565,46 +5549,6 @@ exit
 (
 )
     
-if
-options
-.
-load_early
-and
-not
-options
-.
-emulator
-:
-        
-parser
-.
-print_usage
-(
-)
-        
-print
-"
-must
-specify
--
--
-load
--
-early
-on
-when
-using
--
--
-emulator
-"
-        
-parser
-.
-exit
-(
-)
-    
 #
 default
 to
@@ -5881,12 +5825,6 @@ testvars
 options
 .
 testvars
-                          
-load_early
-=
-options
-.
-load_early
                           
 device
 =

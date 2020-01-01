@@ -729,16 +729,6 @@ user_pref
 "
 marionette
 .
-loadearly
-"
-true
-)
-;
-user_pref
-(
-"
-marionette
-.
 force
 -
 local
