@@ -251,9 +251,7 @@ _class
 Binding_workers
 :
 :
-Class
-.
-ToJSClass
+GetJSClass
 (
 )
 ;
