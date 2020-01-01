@@ -10336,6 +10336,10 @@ onSignalStrength
 strength
 )
 {
+if
+(
+DEBUG
+)
 debug
 (
 "
