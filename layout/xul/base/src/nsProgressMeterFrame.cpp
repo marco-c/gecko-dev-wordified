@@ -560,9 +560,10 @@ aContext
 )
 ;
 }
-/
-/
-NS_NewProgressMeterFrame
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsProgressMeterFrame
+)
 /
 /
 /

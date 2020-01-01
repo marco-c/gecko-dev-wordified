@@ -573,6 +573,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGTSpanFrame
+)
 nsIAtom
 *
 nsSVGTSpanFrame

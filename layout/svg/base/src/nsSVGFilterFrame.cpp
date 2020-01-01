@@ -534,6 +534,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGFilterFrame
+)
 static
 nsIntRect
 MapDeviceRectToFilterSpace

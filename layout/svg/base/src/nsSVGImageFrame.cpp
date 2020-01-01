@@ -636,6 +636,7 @@ nsSVGImageFrame
 ;
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 /
 /
 nsISVGChildFrame
@@ -892,6 +893,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGImageFrame
+)
 nsSVGImageFrame
 :
 :

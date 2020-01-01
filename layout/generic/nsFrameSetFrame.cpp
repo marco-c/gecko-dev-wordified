@@ -1177,6 +1177,7 @@ nsLeafFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 #
 ifdef
 DEBUG
@@ -1554,6 +1555,7 @@ nsLeafFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 #
 ifdef
 DEBUG
@@ -10119,6 +10121,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsHTMLFramesetFrame
+)
 /
 *
 *
@@ -10358,6 +10364,10 @@ this
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsHTMLFramesetBorderFrame
+)
 nscoord
 nsHTMLFramesetBorderFrame
 :
@@ -11636,6 +11646,10 @@ nsHTMLFramesetBlankFrame
 *
 *
 /
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsHTMLFramesetBlankFrame
+)
 nsHTMLFramesetBlankFrame
 :
 :

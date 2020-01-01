@@ -507,6 +507,10 @@ return
 it
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsXULLabelFrame
+)
 /
 /
 If

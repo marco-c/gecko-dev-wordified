@@ -687,6 +687,7 @@ nsIImageFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 nsImageFrame
 (
 nsStyleContext

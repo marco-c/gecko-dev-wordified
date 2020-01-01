@@ -460,6 +460,7 @@ nsICheckboxControlFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 nsGfxCheckboxControlFrame
 (
 nsStyleContext

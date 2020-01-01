@@ -598,9 +598,10 @@ aContext
 )
 ;
 }
-/
-/
-NS_NewTitleBarFrame
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsTitleBarFrame
+)
 nsTitleBarFrame
 :
 :

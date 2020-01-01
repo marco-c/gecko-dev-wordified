@@ -22460,6 +22460,7 @@ nsTextFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 friend
 nsIFrame
 *
@@ -24207,6 +24208,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsTextFrame
+)
 nsIFrame
 *
 NS_NewContinuingTextFrame
@@ -24230,6 +24235,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsContinuingTextFrame
+)
 nsTextFrame
 :
 :

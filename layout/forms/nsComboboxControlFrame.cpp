@@ -1281,6 +1281,10 @@ return
 it
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsComboboxControlFrame
+)
 /
 /
 -
@@ -7640,6 +7644,7 @@ nsBlockFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 nsComboboxDisplayFrame
 (
 nsStyleContext
@@ -7760,6 +7765,10 @@ mComboBox
 ;
 }
 ;
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsComboboxDisplayFrame
+)
 nsIAtom
 *
 nsComboboxDisplayFrame

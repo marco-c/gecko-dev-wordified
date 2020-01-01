@@ -729,6 +729,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsHTMLCanvasFrame
+)
 nsHTMLCanvasFrame
 :
 :

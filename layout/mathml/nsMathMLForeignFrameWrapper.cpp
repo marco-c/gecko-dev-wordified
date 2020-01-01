@@ -588,6 +588,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsMathMLForeignFrameWrapper
+)
 NS_IMETHODIMP
 nsMathMLForeignFrameWrapper
 :

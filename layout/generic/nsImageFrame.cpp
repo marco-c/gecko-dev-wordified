@@ -1355,6 +1355,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsImageFrame
+)
 nsImageFrame
 :
 :

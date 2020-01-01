@@ -1122,9 +1122,6 @@ aLayoutManager
 )
 ;
 }
-/
-/
-NS_NewBoxFrame
 nsIFrame
 *
 NS_NewBoxFrame
@@ -1149,6 +1146,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsBoxFrame
+)
 nsBoxFrame
 :
 :

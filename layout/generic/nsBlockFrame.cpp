@@ -1938,6 +1938,10 @@ return
 it
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsBlockFrame
+)
 nsBlockFrame
 :
 :

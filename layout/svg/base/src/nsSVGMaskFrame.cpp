@@ -573,6 +573,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGMaskFrame
+)
 already_AddRefed
 <
 gfxPattern

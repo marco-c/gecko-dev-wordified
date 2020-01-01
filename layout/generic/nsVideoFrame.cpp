@@ -638,6 +638,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsVideoFrame
+)
 nsVideoFrame
 :
 :

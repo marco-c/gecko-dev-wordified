@@ -495,6 +495,7 @@ aContext
 )
 ;
 NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 /
 /
 Overloaded
@@ -716,6 +717,7 @@ nsTableFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 friend
 nsIFrame
 *
@@ -975,6 +977,7 @@ nsTableRowFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 friend
 nsIFrame
 *
@@ -1248,6 +1251,7 @@ nsTableCellFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 friend
 nsIFrame
 *
@@ -1384,6 +1388,7 @@ aContext
 )
 ;
 NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 /
 /
 Overloaded

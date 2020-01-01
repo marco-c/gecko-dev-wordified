@@ -598,9 +598,10 @@ aContext
 )
 ;
 }
-/
-/
-NS_NewResizerFrame
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsResizerFrame
+)
 nsResizerFrame
 :
 :

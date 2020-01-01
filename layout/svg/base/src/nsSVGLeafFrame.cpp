@@ -469,6 +469,7 @@ aContext
 }
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 virtual
 PRBool
 IsFrameOfType
@@ -557,6 +558,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGLeafFrame
+)
 /
 *
 virtual

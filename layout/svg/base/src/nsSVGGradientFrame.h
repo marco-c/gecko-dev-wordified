@@ -518,6 +518,7 @@ aContext
 ;
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 /
 /
 nsSVGPaintServerFrame
@@ -1241,6 +1242,7 @@ aContext
 }
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 /
 /
 nsIFrame
@@ -1541,6 +1543,7 @@ aContext
 }
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 /
 /
 nsIFrame

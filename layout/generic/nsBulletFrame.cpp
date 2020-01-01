@@ -691,6 +691,10 @@ mFrame
 ;
 }
 ;
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsBulletFrame
+)
 nsBulletFrame
 :
 :

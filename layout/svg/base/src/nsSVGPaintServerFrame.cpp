@@ -426,3 +426,7 @@ nsSVGPaintServerFrame
 .
 h
 "
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGPaintServerFrame
+)

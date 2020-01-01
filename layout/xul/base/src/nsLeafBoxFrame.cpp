@@ -606,9 +606,10 @@ aContext
 )
 ;
 }
-/
-/
-NS_NewLeafBoxFrame
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsLeafBoxFrame
+)
 nsLeafBoxFrame
 :
 :

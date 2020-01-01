@@ -662,6 +662,7 @@ aPrevInFlow
 )
 ;
 NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 NS_IMETHOD
 Reflow
 (
@@ -881,6 +882,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsImageControlFrame
+)
 NS_IMETHODIMP
 nsImageControlFrame
 :

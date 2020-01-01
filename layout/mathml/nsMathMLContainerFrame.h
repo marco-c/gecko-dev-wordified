@@ -696,6 +696,7 @@ aContext
 {
 }
 NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 /
 /
 -
@@ -3287,6 +3288,7 @@ nsBlockFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 friend
 nsIFrame
 *
@@ -3704,6 +3706,7 @@ nsInlineFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 friend
 nsIFrame
 *

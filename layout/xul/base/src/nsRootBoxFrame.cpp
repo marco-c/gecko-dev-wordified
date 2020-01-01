@@ -636,6 +636,7 @@ aContext
 )
 ;
 NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 virtual
 nsPopupSetFrame
 *
@@ -967,6 +968,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsRootBoxFrame
+)
 nsRootBoxFrame
 :
 :

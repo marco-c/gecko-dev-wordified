@@ -465,6 +465,7 @@ nsContainerFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 friend
 nsIFrame
 *
@@ -796,6 +797,7 @@ nsPageBreakFrame
 public
 nsLeafFrame
 {
+NS_DECL_FRAMEARENA_HELPERS
 nsPageBreakFrame
 (
 nsStyleContext

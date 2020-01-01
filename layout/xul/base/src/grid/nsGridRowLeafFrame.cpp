@@ -533,6 +533,10 @@ layout
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsGridRowLeafFrame
+)
 /
 *
 *

@@ -3053,6 +3053,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsTableColGroupFrame
+)
 nsIAtom
 *
 nsTableColGroupFrame

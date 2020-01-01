@@ -470,6 +470,7 @@ nsBlockFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 /
 /
 nsISupports
@@ -652,6 +653,7 @@ nsITableLayout
 public
 :
 NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 /
 *
 *

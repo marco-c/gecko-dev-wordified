@@ -559,6 +559,7 @@ nsIScrollableViewProvider
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 nsTextControlFrame
 (
 nsIPresShell

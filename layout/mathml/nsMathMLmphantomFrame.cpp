@@ -544,6 +544,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsMathMLmphantomFrame
+)
 nsMathMLmphantomFrame
 :
 :

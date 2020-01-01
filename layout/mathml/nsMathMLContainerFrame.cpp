@@ -644,6 +644,10 @@ nsMathMLContainerFrame
 implementation
 /
 /
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsMathMLContainerFrame
+)
 NS_QUERYFRAME_HEAD
 (
 nsMathMLContainerFrame
@@ -10131,6 +10135,10 @@ return
 it
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsMathMLmathBlockFrame
+)
 nsIFrame
 *
 NS_NewMathMLmathInlineFrame
@@ -10154,3 +10162,7 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsMathMLmathInlineFrame
+)

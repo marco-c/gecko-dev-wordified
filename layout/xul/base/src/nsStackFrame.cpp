@@ -545,9 +545,10 @@ aContext
 )
 ;
 }
-/
-/
-NS_NewStackFrame
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsStackFrame
+)
 nsStackFrame
 :
 :

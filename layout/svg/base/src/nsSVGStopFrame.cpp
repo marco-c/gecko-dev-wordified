@@ -549,6 +549,7 @@ aContext
 }
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 /
 /
 nsIFrame
@@ -754,6 +755,10 @@ endif
 /
 /
 Implementation
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGStopFrame
+)
 /
 /
 -

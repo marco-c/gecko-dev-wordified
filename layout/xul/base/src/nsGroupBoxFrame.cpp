@@ -468,6 +468,7 @@ nsBoxFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 nsGroupBoxFrame
 (
 nsIPresShell
@@ -783,6 +784,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsGroupBoxFrame
+)
 class
 nsDisplayXULGroupBackground
 :

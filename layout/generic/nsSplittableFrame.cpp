@@ -470,6 +470,10 @@ nsStyleContext
 .
 h
 "
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSplittableFrame
+)
 NS_IMETHODIMP
 nsSplittableFrame
 :

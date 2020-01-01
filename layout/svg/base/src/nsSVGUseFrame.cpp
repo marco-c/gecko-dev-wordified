@@ -511,6 +511,7 @@ aContext
 public
 :
 NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 /
 /
 nsIFrame
@@ -732,6 +733,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGUseFrame
+)
 nsIAtom
 *
 nsSVGUseFrame

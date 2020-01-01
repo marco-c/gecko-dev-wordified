@@ -544,6 +544,7 @@ nsBoxFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 #
 ifdef
 NS_DEBUG

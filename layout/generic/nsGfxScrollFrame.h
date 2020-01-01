@@ -1664,6 +1664,7 @@ aIsRoot
 )
 ;
 NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 /
 /
 Called
@@ -2609,6 +2610,7 @@ nsIStatefulFrame
 public
 :
 NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 friend
 nsIFrame
 *

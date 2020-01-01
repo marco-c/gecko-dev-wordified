@@ -782,6 +782,7 @@ layout
 )
 ;
 }
-/
-/
-NS_NewListItemFrame
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsListItemFrame
+)

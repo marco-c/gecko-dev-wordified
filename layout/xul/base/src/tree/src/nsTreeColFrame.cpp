@@ -587,9 +587,10 @@ aContext
 )
 ;
 }
-/
-/
-NS_NewTreeColFrame
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsTreeColFrame
+)
 /
 /
 Destructor

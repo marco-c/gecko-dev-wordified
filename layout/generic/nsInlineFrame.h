@@ -655,11 +655,12 @@ nsInlineFrameSuper
 {
 public
 :
-NS_DECLARE_FRAME_ACCESSOR
+NS_DECL_QUERYFRAME_TARGET
 (
 nsInlineFrame
 )
 NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 friend
 nsIFrame
 *
@@ -1403,6 +1404,7 @@ nsInlineFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 friend
 nsIFrame
 *
@@ -1641,6 +1643,7 @@ nsInlineFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 nsPositionedInlineFrame
 (
 nsStyleContext

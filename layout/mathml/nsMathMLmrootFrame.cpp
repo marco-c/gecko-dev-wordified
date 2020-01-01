@@ -715,6 +715,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsMathMLmrootFrame
+)
 nsMathMLmrootFrame
 :
 :

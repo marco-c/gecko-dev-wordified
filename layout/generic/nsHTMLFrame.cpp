@@ -700,6 +700,7 @@ absoluteList
 {
 }
 NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 /
 /
 nsISupports
@@ -1259,6 +1260,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+CanvasFrame
+)
 NS_IMPL_QUERY_INTERFACE1
 (
 CanvasFrame

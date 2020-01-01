@@ -500,6 +500,7 @@ nsSplittableFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 nsHTMLCanvasFrame
 (
 nsStyleContext

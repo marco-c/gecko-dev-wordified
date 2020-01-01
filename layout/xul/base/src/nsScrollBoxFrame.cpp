@@ -509,6 +509,7 @@ nsButtonBoxFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 friend
 nsIFrame
 *
@@ -704,9 +705,10 @@ aContext
 )
 ;
 }
-/
-/
-NS_NewScrollBarButtonFrame
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsAutoRepeatBoxFrame
+)
 NS_IMETHODIMP
 nsAutoRepeatBoxFrame
 :

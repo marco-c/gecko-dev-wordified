@@ -665,6 +665,10 @@ PR_FALSE
 )
 {
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGPatternFrame
+)
 /
 /
 -

@@ -563,6 +563,10 @@ NS_QUERYFRAME_TAIL_INHERITING
 (
 nsSVGDisplayContainerFrame
 )
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGTextContainerFrame
+)
 void
 nsSVGTextContainerFrame
 :

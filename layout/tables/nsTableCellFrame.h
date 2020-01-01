@@ -617,11 +617,12 @@ nsIPercentHeightObserver
 {
 public
 :
-NS_DECLARE_FRAME_ACCESSOR
+NS_DECL_QUERYFRAME_TARGET
 (
 nsTableCellFrame
 )
 NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 /
 /
 default
@@ -1891,6 +1892,7 @@ nsTableCellFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 nsBCTableCellFrame
 (
 nsStyleContext

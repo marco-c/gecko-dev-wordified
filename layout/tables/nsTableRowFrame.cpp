@@ -9057,6 +9057,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsTableRowFrame
+)
 #
 ifdef
 DEBUG

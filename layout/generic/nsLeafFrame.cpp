@@ -488,6 +488,10 @@ nsLeafFrame
 )
 {
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsLeafFrame
+)
 /
 *
 virtual

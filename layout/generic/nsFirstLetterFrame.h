@@ -462,6 +462,7 @@ nsFirstLetterFrameSuper
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 nsFirstLetterFrame
 (
 nsStyleContext

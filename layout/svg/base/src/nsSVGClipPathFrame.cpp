@@ -580,6 +580,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGClipPathFrame
+)
 nsresult
 nsSVGClipPathFrame
 :

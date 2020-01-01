@@ -1499,9 +1499,10 @@ aContext
 )
 ;
 }
-/
-/
-NS_NewSplitterFrame
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSplitterFrame
+)
 nsSplitterFrame
 :
 :

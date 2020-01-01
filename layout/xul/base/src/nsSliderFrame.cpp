@@ -737,9 +737,10 @@ aContext
 )
 ;
 }
-/
-/
-NS_NewSliderFrame
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSliderFrame
+)
 nsSliderFrame
 :
 :

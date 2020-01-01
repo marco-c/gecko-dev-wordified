@@ -629,6 +629,7 @@ PR_TRUE
 {
 }
 NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 /
 /
 nsIAnonymousContentCreator
@@ -814,6 +815,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsDocElementBoxFrame
+)
 void
 nsDocElementBoxFrame
 :

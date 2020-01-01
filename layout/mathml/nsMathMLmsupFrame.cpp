@@ -569,6 +569,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsMathMLmsupFrame
+)
 nsMathMLmsupFrame
 :
 :

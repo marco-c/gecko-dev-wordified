@@ -1211,6 +1211,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsTableCaptionFrame
+)
 /
 *
 -
@@ -7778,6 +7782,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsTableOuterFrame
+)
 #
 ifdef
 DEBUG

@@ -1044,9 +1044,10 @@ aContext
 )
 ;
 }
-/
-/
-NS_NewTreeFrame
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsTreeBodyFrame
+)
 NS_QUERYFRAME_HEAD
 (
 nsTreeBodyFrame

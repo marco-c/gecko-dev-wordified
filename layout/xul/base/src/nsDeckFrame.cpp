@@ -573,9 +573,10 @@ aContext
 )
 ;
 }
-/
-/
-NS_NewDeckFrame
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsDeckFrame
+)
 nsDeckFrame
 :
 :

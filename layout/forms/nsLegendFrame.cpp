@@ -571,6 +571,10 @@ return
 f
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsLegendFrame
+)
 nsIAtom
 *
 nsLegendFrame
