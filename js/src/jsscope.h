@@ -4074,6 +4074,16 @@ return
 parent
 ;
 }
+HeapPtrShape
+&
+previousRef
+(
+)
+{
+return
+parent
+;
+}
 class
 Range
 {

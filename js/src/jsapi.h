@@ -5884,7 +5884,6 @@ trc
 ;
 JSObject
 *
-const
 obj
 ;
 private

@@ -1878,6 +1878,7 @@ vp
 .
 mark
 (
+&
 r
 .
 front
@@ -1998,6 +1999,7 @@ vp
 .
 mark
 (
+&
 v
 )
 ;
@@ -2335,7 +2337,7 @@ bool
 mark
 (
 HeapValue
-&
+*
 x
 )
 {
@@ -2343,6 +2345,7 @@ if
 (
 isMarked
 (
+*
 x
 )
 )
@@ -2358,7 +2361,6 @@ gc
 MarkValue
 (
 tracer
-&
 x
 "
 WeakMap
@@ -2423,7 +2425,7 @@ bool
 mark
 (
 HeapPtrObject
-&
+*
 x
 )
 {
@@ -2431,6 +2433,7 @@ if
 (
 isMarked
 (
+*
 x
 )
 )
@@ -2510,7 +2513,7 @@ bool
 mark
 (
 HeapPtrScript
-&
+*
 x
 )
 {
@@ -2518,6 +2521,7 @@ if
 (
 isMarked
 (
+*
 x
 )
 )

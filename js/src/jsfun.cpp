@@ -3795,6 +3795,7 @@ isFloatingGenerator
 MarkObject
 (
 trc
+&
 js_FloatingFrameToGenerator
 (
 fp
@@ -6283,6 +6284,7 @@ isFloatingGenerator
 MarkObject
 (
 trc
+&
 js_FloatingFrameToGenerator
 (
 fp
@@ -9822,6 +9824,7 @@ script
 MarkScript
 (
 trc
+&
 script
 (
 )

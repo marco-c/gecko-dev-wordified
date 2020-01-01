@@ -1827,6 +1827,7 @@ objbox
 MarkObjectRoot
 (
 trc
+&
 objbox
 -
 >

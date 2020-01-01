@@ -1458,7 +1458,6 @@ JSTracer
 *
 trc
 )
-const
 {
 if
 (
@@ -1467,6 +1466,7 @@ pendingInput
 MarkString
 (
 trc
+&
 pendingInput
 "
 res
@@ -1483,6 +1483,7 @@ matchPairsInput
 MarkString
 (
 trc
+&
 matchPairsInput
 "
 res

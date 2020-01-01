@@ -5659,7 +5659,6 @@ return
 type_
 ;
 }
-const
 js
 :
 :
@@ -5677,7 +5676,6 @@ TypeObject
 typeFromGC
 (
 )
-const
 {
 /
 *
