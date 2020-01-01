@@ -7345,16 +7345,9 @@ parent
 parent
 -
 >
-RemoveChildAt
-(
-parent
--
->
-IndexOf
+RemoveChild
 (
 node
-)
-PR_TRUE
 )
 :
 NS_OK
