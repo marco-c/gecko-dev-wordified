@@ -25433,12 +25433,7 @@ xpc_proto_proto
 )
 =
 =
-nsDOMClassInfo
-:
-:
-GetObjectClass
-(
-)
+sObjectClass
 )
 )
 {
