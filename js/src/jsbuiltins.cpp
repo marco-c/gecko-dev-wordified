@@ -593,6 +593,13 @@ jsatominlines
 .
 h
 "
+#
+include
+"
+jsscopeinlines
+.
+h
+"
 using
 namespace
 avmplus

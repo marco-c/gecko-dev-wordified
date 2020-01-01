@@ -587,6 +587,13 @@ jstracer
 .
 h
 "
+#
+include
+"
+jsscopeinlines
+.
+h
+"
 uint32
 js_GenerateShape
 (

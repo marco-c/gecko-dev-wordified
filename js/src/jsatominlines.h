@@ -425,10 +425,10 @@ BLOCK
 /
 #
 ifndef
-jsatom_inlines_h___
+jsatominlines_h___
 #
 define
-jsatom_inlines_h___
+jsatominlines_h___
 #
 include
 "
@@ -734,6 +734,6 @@ id
 endif
 /
 *
-jsatom_inlines_h___
+jsatominlines_h___
 *
 /
