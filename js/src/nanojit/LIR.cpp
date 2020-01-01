@@ -6292,6 +6292,16 @@ is
 trace
 end
 .
+#
+ifdef
+JS_TRACER
+AvmAssert
+(
+0
+)
+;
+#
+endif
 return
 out
 -
