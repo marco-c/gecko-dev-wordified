@@ -1780,7 +1780,7 @@ uri
 "
 about
 :
-support
+home
 "
 ;
 if
