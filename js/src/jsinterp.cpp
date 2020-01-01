@@ -17227,6 +17227,17 @@ pobj
 branded
 (
 )
+|
+|
+OBJ_SCOPE
+(
+pobj
+)
+-
+>
+hasMethodBarrier
+(
+)
 )
 ;
 JS_ASSERT
