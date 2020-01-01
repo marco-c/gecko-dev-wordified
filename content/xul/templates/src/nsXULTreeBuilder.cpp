@@ -7144,14 +7144,9 @@ NS_OK
 if
 (
 result
-&
-&
-(
-result
 !
 =
 mRootResult
-)
 )
 {
 /
