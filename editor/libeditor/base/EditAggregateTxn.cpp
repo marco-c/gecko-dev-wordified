@@ -1214,14 +1214,12 @@ mChildren
 aIndex
 ]
 ;
-if
+NS_ENSURE_TRUE
 (
-!
 *
 aTxn
-)
-return
 NS_ERROR_UNEXPECTED
+)
 ;
 NS_ADDREF
 (
