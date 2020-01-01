@@ -519,6 +519,9 @@ nsIComponentRegistrar
 .
 h
 "
+namespace
+TestPageLoad
+{
 int
 getStrLine
 (
@@ -2822,6 +2825,14 @@ fun
 -
 -
 -
+}
+/
+/
+namespace
+using
+namespace
+TestPageLoad
+;
 /
 /
 -

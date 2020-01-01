@@ -739,6 +739,9 @@ nsInt64
 .
 h
 "
+namespace
+TestProtocols
+{
 #
 if
 defined
@@ -5770,6 +5773,14 @@ return
 NS_OK
 ;
 }
+}
+/
+/
+namespace
+using
+namespace
+TestProtocols
+;
 int
 main
 (
