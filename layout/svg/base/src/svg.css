@@ -131,12 +131,6 @@ important
 ;
 }
 svg
-:
-not
-(
-:
-root
-)
 symbol
 image
 marker
