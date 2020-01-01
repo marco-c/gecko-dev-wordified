@@ -2557,10 +2557,7 @@ void
 ScrollBy
 (
 const
-gfx
-:
-:
-Point
+CSSPoint
 &
 aOffset
 )
