@@ -1944,6 +1944,7 @@ focusController
 >
 GetControllerForCommand
 (
+window
 aCommand
 outController
 )

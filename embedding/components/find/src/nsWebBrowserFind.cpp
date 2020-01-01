@@ -581,13 +581,6 @@ h
 #
 include
 "
-nsIFocusController
-.
-h
-"
-#
-include
-"
 nsISelectionController
 .
 h

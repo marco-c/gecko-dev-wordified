@@ -555,13 +555,6 @@ h
 #
 include
 "
-nsIFocusController
-.
-h
-"
-#
-include
-"
 nsIDOMWindowInternal
 .
 h

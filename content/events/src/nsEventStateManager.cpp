@@ -26731,6 +26731,7 @@ fc
 >
 GetControllerForCommand
 (
+window
 cmd
 getter_AddRefs
 (

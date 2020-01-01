@@ -5591,7 +5591,7 @@ webnav
 (
 do_GetInterface
 (
-window
+mFocusedWindow
 )
 )
 ;
