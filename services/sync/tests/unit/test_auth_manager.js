@@ -414,10 +414,6 @@ foo
 "
 )
 ;
-/
-/
-no
-authenticator
 let
 content
 =
