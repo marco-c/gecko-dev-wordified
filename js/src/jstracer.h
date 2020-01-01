@@ -7997,8 +7997,10 @@ AbortableRecordingStatus
 equalityHelper
 (
 jsval
+&
 l
 jsval
+&
 r
 nanojit
 :
@@ -8989,6 +8991,15 @@ LIns
 obj_ins
 ExitType
 exitType
+)
+;
+JS_REQUIRES_STACK
+RecordingStatus
+guardNativeConversion
+(
+jsval
+&
+v
 )
 ;
 JS_REQUIRES_STACK
