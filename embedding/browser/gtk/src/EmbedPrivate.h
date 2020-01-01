@@ -964,7 +964,7 @@ nsCOMPtr
 <
 nsPIDOMEventTarget
 >
-mEventReceiver
+mEventTarget
 ;
 /
 /
