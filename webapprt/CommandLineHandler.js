@@ -208,8 +208,8 @@ chrome
 dialog
 =
 no
-all
 resizable
+scrollbars
 "
 [
 ]
