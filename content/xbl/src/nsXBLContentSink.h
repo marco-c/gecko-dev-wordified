@@ -938,6 +938,10 @@ overrides
 nsresult
 FlushText
 (
+PRBool
+aReleaseTextNode
+=
+PR_TRUE
 )
 ;
 /

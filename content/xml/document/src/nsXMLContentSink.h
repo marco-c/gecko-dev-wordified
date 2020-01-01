@@ -916,6 +916,10 @@ virtual
 nsresult
 FlushText
 (
+PRBool
+aReleaseTextNode
+=
+PR_TRUE
 )
 ;
 nsresult
@@ -1134,6 +1138,15 @@ mTextSize
 ;
 PRInt32
 mNotifyLevel
+;
+nsCOMPtr
+<
+nsIContent
+>
+mLastTextNode
+;
+PRInt32
+mLastTextNodeSize
 ;
 PRUint8
 mConstrainSize
