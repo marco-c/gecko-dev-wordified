@@ -12635,18 +12635,25 @@ else
 :
             
 #
-External
-interface
+Either
+external
+or
+new
+-
+binding
+non
+-
+castable
 .
 We
 always
 have
 a
+            
+#
 holder
 for
 these
-            
-#
 because
 we
 don
@@ -12657,10 +12664,10 @@ know
 whether
 we
 have
-to
-addref
             
 #
+to
+addref
 when
 unwrapping
 or
@@ -12685,10 +12692,10 @@ we
 '
 ll
 need
-            
-#
 a
 release
+            
+#
 it
 '
 ll
