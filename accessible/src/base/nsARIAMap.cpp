@@ -693,7 +693,7 @@ roles
 PUSHBUTTON
 kUseMapRole
 eNoValue
-eClickAction
+ePressAction
 eNoLiveAttr
 kNoReqStates
 eARIAPressed
