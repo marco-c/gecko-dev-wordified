@@ -506,6 +506,13 @@ nsLiteralString
 .
 h
 "
+#
+include
+"
+nsComponentManagerUtils
+.
+h
+"
 /
 *
 Things
