@@ -2367,7 +2367,7 @@ GetWindowsVersion
 )
 <
 =
-VISTA_VERSION
+WIN7_VERSION
 )
 {
 LPCWSTR
