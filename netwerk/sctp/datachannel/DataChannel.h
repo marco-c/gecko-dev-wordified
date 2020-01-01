@@ -913,6 +913,7 @@ aExternalNegotiated
 uint16_t
 aStream
 )
+NS_WARN_UNUSED_RESULT
 ;
 void
 Close
@@ -1306,6 +1307,7 @@ DataChannel
 >
 channel
 )
+NS_WARN_UNUSED_RESULT
 ;
 void
 StartDefer
