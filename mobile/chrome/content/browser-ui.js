@@ -5363,7 +5363,7 @@ new
 page
 browser
 .
-lastSpec
+lastLocation
 =
 null
 ;
