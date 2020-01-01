@@ -8545,7 +8545,7 @@ i
 vp
 )
 ;
-GC_POKE
+GCPoke
 (
 cx
 *
@@ -8690,7 +8690,7 @@ getFlatClosureUpvar
 i
 )
 ;
-GC_POKE
+GCPoke
 (
 cx
 *
@@ -9070,7 +9070,7 @@ i
 vp
 )
 ;
-GC_POKE
+GCPoke
 (
 cx
 *
