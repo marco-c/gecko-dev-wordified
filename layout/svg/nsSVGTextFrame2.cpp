@@ -20186,7 +20186,7 @@ StyleSVG
 mFill
 .
 mType
-=
+!
 =
 eStyleSVGPaintType_None
 )
