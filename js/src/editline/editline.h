@@ -998,6 +998,7 @@ extern
 void
 rl_ttyset
 (
+int
 )
 ;
 extern
