@@ -408,7 +408,7 @@ prefapi
 .
 h
 "
-NSPR_BEGIN_EXTERN_C
+PR_BEGIN_EXTERN_C
 /
 *
 *
@@ -952,7 +952,7 @@ int
 bufLen
 )
 ;
-NSPR_END_EXTERN_C
+PR_END_EXTERN_C
 #
 endif
 /
