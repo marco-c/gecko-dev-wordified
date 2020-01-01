@@ -103646,7 +103646,7 @@ record_JSOP_ENUMELEM
 To
 quote
 from
-jsops
+jsinterp
 .
 cpp
 '
@@ -103914,7 +103914,7 @@ escapes
 *
 *
 See
-jsops
+jsinterp
 .
 cpp
 the

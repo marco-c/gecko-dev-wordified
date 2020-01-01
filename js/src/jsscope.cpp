@@ -2288,7 +2288,7 @@ the
 fast
 paths
 in
-jsops
+jsinterp
 .
 cpp
 for
