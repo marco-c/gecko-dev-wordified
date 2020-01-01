@@ -982,6 +982,11 @@ InitializeSocketTransportService
 (
 )
 ;
+nsresult
+InitializeNetworkLinkService
+(
+)
+;
 private
 :
 bool
@@ -1048,6 +1053,9 @@ nsCOMPtr
 nsINetworkLinkService
 >
 mNetworkLinkService
+;
+bool
+mNetworkLinkServiceInitialized
 ;
 /
 /
