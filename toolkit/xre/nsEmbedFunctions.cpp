@@ -1449,6 +1449,10 @@ aArgv
 ]
 )
 ;
+sChildProcessType
+=
+aProcess
+;
 #
 if
 defined
@@ -1747,10 +1751,6 @@ class
 )
 ;
 }
-sChildProcessType
-=
-aProcess
-;
 ChildProcess
 process
 (
