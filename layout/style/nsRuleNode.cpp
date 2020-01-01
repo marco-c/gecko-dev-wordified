@@ -47892,7 +47892,7 @@ GetIntValue
 /
 /
 Max
-1000
+kMaxColumnCount
 columns
 -
 wallpaper
@@ -47914,7 +47914,10 @@ column
 -
 >
 mColumnCount
-1000U
+nsStyleColumn
+:
+:
+kMaxColumnCount
 )
 ;
 }
