@@ -95,6 +95,8 @@ org
 mozilla
 .
 gecko
+.
+util
 ;
 import
 org
@@ -128,7 +130,6 @@ public
 interface
 GeckoEventListener
 {
-public
 void
 handleMessage
 (
