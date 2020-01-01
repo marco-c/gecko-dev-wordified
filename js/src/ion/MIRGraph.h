@@ -490,6 +490,13 @@ MIRGenerator
 .
 h
 "
+#
+include
+"
+FixedList
+.
+h
+"
 namespace
 js
 {

@@ -1693,9 +1693,6 @@ ifi
 (
 &
 fiter
-MachineState
-(
-)
 )
 ;
 JS_ASSERT
