@@ -5066,6 +5066,7 @@ size_t
 length
 )
 {
+unsigned
 int
 i
 ;
@@ -5267,6 +5268,7 @@ size_t
 length
 )
 {
+unsigned
 int
 i
 ;
@@ -5428,6 +5430,7 @@ size_t
 length
 )
 {
+unsigned
 int
 i
 ;
@@ -5556,6 +5559,7 @@ size_t
 length
 )
 {
+unsigned
 int
 i
 ;
@@ -6309,6 +6313,7 @@ size_t
 length
 )
 {
+unsigned
 int
 i
 ;
@@ -7728,6 +7733,7 @@ size_t
 length
 )
 {
+unsigned
 int
 i
 ;
@@ -9088,6 +9094,7 @@ size_t
 length
 )
 {
+unsigned
 int
 i
 ;
@@ -9406,6 +9413,7 @@ size_t
 length
 )
 {
+unsigned
 int
 i
 ;
@@ -9740,6 +9748,7 @@ size_t
 length
 )
 {
+unsigned
 int
 i
 ;
@@ -10059,6 +10068,7 @@ size_t
 length
 )
 {
+unsigned
 int
 i
 ;
