@@ -2550,6 +2550,12 @@ InitRules
 (
 )
 {
+MOZ_ASSERT
+(
+!
+mRules
+)
+;
 /
 /
 instantiate
