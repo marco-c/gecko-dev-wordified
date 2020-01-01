@@ -3037,7 +3037,7 @@ accesses
 It
 must
 be
-ACC_NONE
+ACCSET_NONE
 if
 the
 function
@@ -3046,7 +3046,7 @@ pure
 ;
 use
 *
-ACC_STORE_ANY
+ACCSET_STORE_ANY
 if
 you
 '
@@ -3061,8 +3061,8 @@ if
 each
 call
 site
-of
 *
+of
 the
 function
 aliases
