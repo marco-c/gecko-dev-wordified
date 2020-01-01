@@ -2913,10 +2913,8 @@ if
 supported
 *
 /
+get
 sourceExists
-:
-function
-Chrome_sourceExists
 (
 )
 {
@@ -2978,10 +2976,8 @@ page
 URL
 *
 /
+get
 sourceHomePageURL
-:
-function
-Chrome_sourceHomePageURL
 (
 )
 {
