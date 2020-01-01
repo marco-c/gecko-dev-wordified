@@ -2179,6 +2179,9 @@ keyword
 location
 "
 "
+folderPicker
+"
+"
 loadInSidebar
 "
 ]
@@ -2201,7 +2204,6 @@ title
 window
 .
 top
-true
 )
 ;
 break
@@ -5521,6 +5523,8 @@ folderPicker
 ]
 }
 window
+.
+top
 )
 ;
 if

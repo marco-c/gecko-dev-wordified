@@ -1169,6 +1169,9 @@ keyword
 "
 ]
 }
+window
+.
+top
 )
 ;
 }
@@ -1302,6 +1305,9 @@ description
 "
 ]
 }
+window
+.
+top
 )
 ;
 }
