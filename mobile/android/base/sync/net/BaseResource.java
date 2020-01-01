@@ -1442,7 +1442,7 @@ cm
 ;
 }
 }
-public
+private
 static
 ClientConnectionManager
 enableTLSConnectionManager
