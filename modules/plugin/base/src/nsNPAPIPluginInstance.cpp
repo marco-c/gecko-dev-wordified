@@ -873,13 +873,6 @@ rv
 )
 return
 ;
-mOutputStream
--
->
-Close
-(
-)
-;
 /
 /
 construct
@@ -985,9 +978,6 @@ PRUint32
 aWriteCount
 )
 {
-PRUint32
-actualCount
-;
 mOutputStream
 -
 >
@@ -995,8 +985,7 @@ Write
 (
 aBuf
 aCount
-&
-actualCount
+aWriteCount
 )
 ;
 mOutputStream
@@ -1112,6 +1101,13 @@ Close
 void
 )
 {
+mOutputStream
+-
+>
+Close
+(
+)
+;
 mOwner
 -
 >
