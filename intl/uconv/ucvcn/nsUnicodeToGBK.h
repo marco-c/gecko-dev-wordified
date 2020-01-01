@@ -728,14 +728,6 @@ it
 not
 abstract
 ;
-NS_IMETHOD
-FillInfo
-(
-PRUint32
-*
-aInfo
-)
-;
 virtual
 void
 CreateExtensionEncoder

@@ -764,12 +764,3 @@ mCharsetListIndex
 ;
 }
 ;
-nsresult
-NS_NewSaveAsCharset
-(
-nsISupports
-*
-*
-inst
-)
-;

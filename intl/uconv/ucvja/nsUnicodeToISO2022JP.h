@@ -734,14 +734,6 @@ Reset
 (
 )
 ;
-NS_IMETHOD
-FillInfo
-(
-PRUint32
-*
-aInfo
-)
-;
 }
 ;
 #

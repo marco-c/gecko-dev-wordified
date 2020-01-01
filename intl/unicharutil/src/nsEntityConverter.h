@@ -450,15 +450,6 @@ nsCOMPtr
 .
 h
 "
-nsresult
-NS_NewEntityConverter
-(
-nsISupports
-*
-*
-oResult
-)
-;
 #
 define
 kVERSION_STRING_LEN

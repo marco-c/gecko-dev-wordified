@@ -475,13 +475,6 @@ nsIUnicodeEncoder
 .
 h
 "
-#
-include
-"
-nsICharRepresentable
-.
-h
-"
 /
 /
 -
@@ -566,8 +559,6 @@ nsUnicodeToTSCII
 :
 public
 nsIUnicodeEncoder
-public
-nsICharRepresentable
 {
 NS_DECL_ISUPPORTS
 public
@@ -646,14 +637,6 @@ nsIUnicharEncoder
 aEncoder
 PRUnichar
 aChar
-)
-;
-NS_IMETHOD
-FillInfo
-(
-PRUint32
-*
-aInfo
 )
 ;
 private
