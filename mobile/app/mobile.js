@@ -4317,9 +4317,6 @@ syncAccount
 true
 )
 ;
-#
-ifdef
-MOZ_PLATFORM_MAEMO
 pref
 (
 "
@@ -4334,8 +4331,6 @@ opaque
 "
 )
 ;
-#
-endif
 /
 /
 URL
@@ -8084,7 +8079,7 @@ show
 .
 localepicker
 "
-true
+false
 )
 ;
 /

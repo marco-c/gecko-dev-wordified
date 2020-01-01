@@ -587,11 +587,11 @@ mCurrent
 )
 mFull
 (
-PR_FALSE
+false
 )
 mListening
 (
-PR_FALSE
+false
 )
 mLock
 (
@@ -874,7 +874,7 @@ data
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1086,7 +1086,7 @@ around
 .
 mFull
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -1230,7 +1230,7 @@ NS_OK
 ;
 mListening
 =
-PR_TRUE
+true
 ;
 }
 for
@@ -1270,7 +1270,7 @@ mLock
 ;
 mListening
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -1976,7 +1976,7 @@ mCurrent
 ;
 mFull
 =
-PR_FALSE
+false
 ;
 /
 *

@@ -2118,7 +2118,7 @@ SetMainThread
 time
 .
 return
-PR_TRUE
+true
 ;
 }
 JNIEnv
@@ -2317,7 +2317,7 @@ mJNIEnv
 =
 AttachThread
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -2326,7 +2326,7 @@ if
 mJNIEnv
 )
 return
-PR_FALSE
+false
 ;
 mThread
 =
@@ -2345,7 +2345,7 @@ nsnull
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -3307,7 +3307,7 @@ aHandlersArray
 AppendElement
 (
 app
-PR_FALSE
+false
 )
 ;
 if
@@ -3446,7 +3446,7 @@ if
 arr
 )
 return
-PR_FALSE
+false
 ;
 jsize
 len
@@ -3484,7 +3484,7 @@ aMimeType
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -3603,7 +3603,7 @@ if
 arr
 )
 return
-PR_FALSE
+false
 ;
 jsize
 len
@@ -3637,7 +3637,7 @@ aAction
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -4107,7 +4107,7 @@ if
 jstrType
 )
 return
-PR_FALSE
+false
 ;
 nsJNIString
 jniStr
@@ -4123,7 +4123,7 @@ jniStr
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -4227,10 +4227,10 @@ if
 jstrType
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
