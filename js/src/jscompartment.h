@@ -1337,9 +1337,6 @@ there
 are
 active
 frames
-bool
-hasDebugModeCodeToDrop
-;
 js
 :
 :

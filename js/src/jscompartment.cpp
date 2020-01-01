@@ -678,10 +678,6 @@ active
 (
 false
 )
-hasDebugModeCodeToDrop
-(
-false
-)
 #
 ifdef
 JS_METHODJIT
@@ -4368,7 +4364,6 @@ if
 (
 enabled
 )
-{
 JS_ASSERT
 (
 !
@@ -4377,7 +4372,6 @@ hasScriptsOnStack
 )
 )
 ;
-}
 else
 if
 (
@@ -4385,14 +4379,8 @@ hasScriptsOnStack
 (
 )
 )
-{
-hasDebugModeCodeToDrop
-=
-true
-;
 return
 ;
-}
 /
 *
 *
@@ -4490,10 +4478,6 @@ enabled
 ;
 }
 }
-hasDebugModeCodeToDrop
-=
-false
-;
 #
 endif
 }
