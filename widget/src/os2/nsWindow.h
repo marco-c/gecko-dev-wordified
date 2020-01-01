@@ -1123,6 +1123,12 @@ PRUint32
 aTime
 )
 ;
+virtual
+PRBool
+HasPendingInputEvent
+(
+)
+;
 /
 /
 Widget
