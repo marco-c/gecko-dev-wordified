@@ -12957,7 +12957,13 @@ CreateTouch
 nsIDOMWindow
 *
 aView
-nsISupports
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
 *
 aTarget
 int32_t
