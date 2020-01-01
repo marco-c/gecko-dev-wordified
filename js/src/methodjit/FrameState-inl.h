@@ -4440,15 +4440,6 @@ uint32
 local
 )
 {
-JS_ASSERT
-(
-!
-escaping
-[
-local
-]
-)
-;
 escaping
 [
 local
