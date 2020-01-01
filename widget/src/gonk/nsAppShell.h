@@ -545,6 +545,17 @@ ScheduleNativeEventCallback
 (
 )
 ;
+private
+:
+nsresult
+AddFdHandler
+(
+int
+fd
+FdHandlerCallback
+handlerFunc
+)
+;
 /
 /
 This
