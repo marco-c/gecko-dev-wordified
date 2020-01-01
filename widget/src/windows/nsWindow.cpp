@@ -1426,6 +1426,13 @@ h
 #
 include
 "
+nsPrintfCString
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences
