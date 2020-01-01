@@ -8556,7 +8556,7 @@ rf
 ;
 NanoAssert
 (
-isS14
+isS24
 (
 after
 -
