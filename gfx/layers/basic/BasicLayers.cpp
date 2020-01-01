@@ -10818,10 +10818,15 @@ aBounds
 .
 height
 )
-gfxASurface
+gfxPlatform
 :
 :
-FormatFromContent
+GetPlatform
+(
+)
+-
+>
+OptimalFormatForContent
 (
 aSource
 -

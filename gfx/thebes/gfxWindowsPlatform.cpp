@@ -3449,10 +3449,7 @@ new
 gfxWindowsSurface
 (
 size
-gfxASurface
-:
-:
-FormatFromContent
+OptimalFormatForContent
 (
 contentType
 )
@@ -3476,10 +3473,7 @@ new
 gfxD2DSurface
 (
 size
-gfxASurface
-:
-:
-FormatFromContent
+OptimalFormatForContent
 (
 contentType
 )
@@ -3500,10 +3494,7 @@ new
 gfxImageSurface
 (
 size
-gfxASurface
-:
-:
-FormatFromContent
+OptimalFormatForContent
 (
 contentType
 )

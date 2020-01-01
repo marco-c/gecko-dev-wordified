@@ -3456,10 +3456,15 @@ false
 {
 mUpdateFormat
 =
-gfxASurface
+gfxPlatform
 :
 :
-FormatFromContent
+GetPlatform
+(
+)
+-
+>
+OptimalFormatForContent
 (
 GetContentType
 (
