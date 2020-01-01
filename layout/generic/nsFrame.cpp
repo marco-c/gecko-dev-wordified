@@ -4484,7 +4484,7 @@ oldValue
 oldBorder
 -
 >
-GetActualBorder
+GetComputedBorder
 (
 )
 ;
@@ -4495,7 +4495,7 @@ GetStyleBorder
 )
 -
 >
-GetActualBorder
+GetComputedBorder
 (
 )
 ;
@@ -4557,6 +4557,21 @@ nsnull
 ;
 /
 /
+FIXME
+(
+Bug
+759996
+)
+:
+The
+following
+is
+no
+longer
+true
+.
+/
+/
 For
 border
 -
@@ -4596,7 +4611,7 @@ on
 the
 result
 of
-GetActualBorder
+GetComputedBorder
 (
 )
 and
@@ -5420,7 +5435,7 @@ GetStyleBorder
 )
 -
 >
-GetActualBorder
+GetComputedBorder
 (
 )
 ;

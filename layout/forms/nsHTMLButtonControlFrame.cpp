@@ -805,7 +805,7 @@ GetStyleBorder
 )
 -
 >
-GetActualBorder
+GetComputedBorder
 (
 )
 ;

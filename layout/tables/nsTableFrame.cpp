@@ -16205,7 +16205,7 @@ aBorderPadding
 border
 -
 >
-GetActualBorder
+GetComputedBorder
 (
 )
 ;

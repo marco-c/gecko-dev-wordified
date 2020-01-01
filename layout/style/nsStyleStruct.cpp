@@ -2892,7 +2892,7 @@ for
 /
 at
 least
-GetActualBorder
+GetComputedBorder
 (
 )
 differences
@@ -2909,14 +2909,14 @@ aOther
 mTwipsPerPixel
 |
 |
-GetActualBorder
+GetComputedBorder
 (
 )
 !
 =
 aOther
 .
-GetActualBorder
+GetComputedBorder
 (
 )
 |
