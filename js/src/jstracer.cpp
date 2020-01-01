@@ -1255,6 +1255,11 @@ argv
 0
 ]
 )
+*
+sizeof
+(
+long
+)
 ;
 if
 (
@@ -1286,6 +1291,7 @@ nvars
 ]
 )
 return
+(
 fp
 -
 >
@@ -1307,6 +1313,12 @@ vars
 [
 0
 ]
+)
+)
+*
+sizeof
+(
+long
 )
 ;
 JS_ASSERT
@@ -1345,6 +1357,7 @@ depth
 )
 ;
 return
+(
 fp
 -
 >
@@ -1371,6 +1384,12 @@ spbase
 [
 0
 ]
+)
+)
+*
+sizeof
+(
+long
 )
 ;
 }
