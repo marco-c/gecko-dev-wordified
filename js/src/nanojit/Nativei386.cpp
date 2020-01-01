@@ -5608,9 +5608,6 @@ isCond
 )
 )
 ;
-#
-ifndef
-NJ_SOFTFLOAT
 if
 (
 condop
@@ -5634,8 +5631,6 @@ targ
 )
 ;
 }
-#
-endif
 /
 /
 produce
@@ -6468,16 +6463,6 @@ r
 ins
 )
 ;
-#
-ifdef
-NJ_ARM_VFP
-SETE
-(
-r
-)
-;
-#
-else
 /
 /
 SETcc
@@ -6499,8 +6484,6 @@ SETNP
 r
 )
 ;
-#
-endif
 asm_fcmp
 (
 ins
