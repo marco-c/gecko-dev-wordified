@@ -4554,6 +4554,8 @@ service
 ;
 bool
 isTablet
+=
+false
 ;
 infoService
 -
