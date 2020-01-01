@@ -146,6 +146,16 @@ engines
 popup
 "
 )
+document
+.
+getElementById
+(
+"
+context
+-
+popup
+"
+)
 ]
 }
 handleEvent
