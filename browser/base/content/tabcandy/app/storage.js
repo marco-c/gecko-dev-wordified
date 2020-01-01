@@ -575,11 +575,7 @@ now
 var
 alreadyReady
 =
-Utils
-.
-getCurrentWindow
-(
-)
+gWindow
 .
 __SSi
 ;
@@ -660,11 +656,7 @@ if
 subject
 =
 =
-Utils
-.
-getCurrentWindow
-(
-)
+gWindow
 )
 {
 callback
@@ -822,15 +814,6 @@ function
 try
 {
 var
-win
-=
-Utils
-.
-getCurrentWindow
-(
-)
-;
-var
 self
 =
 this
@@ -869,7 +852,7 @@ this
 .
 saveGroupsData
 (
-win
+gWindow
 {
 }
 )
@@ -878,7 +861,7 @@ this
 .
 saveUIData
 (
-win
+gWindow
 {
 }
 )
@@ -887,7 +870,7 @@ this
 .
 saveVisibilityData
 (
-win
+gWindow
 {
 }
 )
@@ -898,7 +881,7 @@ _sessionStore
 .
 setWindowValue
 (
-win
+gWindow
 this
 .
 GROUP_DATA_IDENTIFIER
