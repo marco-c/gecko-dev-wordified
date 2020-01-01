@@ -2242,6 +2242,7 @@ gSystemWorkerManager
 .
 registerRilWorker
 (
+0
 this
 .
 worker
