@@ -7328,14 +7328,9 @@ floatY
 )
 ;
 }
-#
-ifdef
-DEBUG
 nsresult
 rv
 =
-#
-endif
 /
 /
 spacemanager
