@@ -3111,10 +3111,15 @@ newTab
 (
 )
 {
+ws
+.
+panTo
+(
+0
+-
 this
 .
-hideTabs
-(
+toolbarH
 )
 ;
 Browser
