@@ -1455,6 +1455,15 @@ VMFrame
 f
 )
 ;
+JSBool
+JS_FASTCALL
+FastInstanceOf
+(
+VMFrame
+&
+f
+)
+;
 void
 JS_FASTCALL
 ArgCnt
