@@ -1388,6 +1388,14 @@ lir
 )
 ;
 bool
+visitArgumentsLength
+(
+LArgumentsLength
+*
+lir
+)
+;
+bool
 visitCallSetProperty
 (
 LCallSetProperty

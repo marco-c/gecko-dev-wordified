@@ -2321,6 +2321,11 @@ jsop_length_fastPath
 )
 ;
 bool
+jsop_arguments
+(
+)
+;
+bool
 jsop_arguments_length
 (
 )
