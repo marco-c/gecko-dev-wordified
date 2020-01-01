@@ -36425,8 +36425,6 @@ cx
 cx
 -
 >
-stack
-.
 currentScript
 (
 &

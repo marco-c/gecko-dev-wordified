@@ -33089,9 +33089,6 @@ unsigned
 Min
 (
 callArgc
-StackSpace
-:
-:
 ARGS_LENGTH_MAX
 )
 )
@@ -33148,9 +33145,6 @@ Min
 argc
 -
 1
-StackSpace
-:
-:
 ARGS_LENGTH_MAX
 )
 )

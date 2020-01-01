@@ -10249,8 +10249,6 @@ pc
 cx
 -
 >
-stack
-.
 currentScript
 (
 &

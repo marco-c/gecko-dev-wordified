@@ -3137,8 +3137,6 @@ cx
 cx
 -
 >
-stack
-.
 currentScript
 (
 &
@@ -6385,8 +6383,6 @@ script
 cx
 -
 >
-stack
-.
 currentScript
 (
 pc

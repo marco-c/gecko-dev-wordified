@@ -20285,9 +20285,6 @@ cx
 vp
 INT_TO_JSVAL
 (
-StackSpace
-:
-:
 ARGS_LENGTH_MAX
 )
 )

@@ -901,7 +901,7 @@ size_t
 regexpData
 ;
 size_t
-stack
+interpreterStack
 ;
 size_t
 gcMarker
