@@ -10615,7 +10615,7 @@ GetCaretCoordinates
 nsCaret
 :
 :
-eIMECoordinates
+eRenderingViewCoordinates
 selection
 &
 (
