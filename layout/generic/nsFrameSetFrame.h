@@ -1022,12 +1022,6 @@ IsLeaf
 )
 const
 ;
-NS_IMETHOD
-VerifyTree
-(
-)
-const
-;
 void
 StartMouseDrag
 (

@@ -1614,12 +1614,6 @@ PRInt32
 aIndent
 )
 ;
-NS_IMETHOD
-VerifyTree
-(
-)
-const
-;
 #
 endif
 NS_IMETHOD
