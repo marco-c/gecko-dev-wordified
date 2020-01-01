@@ -543,6 +543,9 @@ x
 struct
 {
 uint32
+lazyArgsObj
+;
+uint32
 dynamicArgc
 ;
 }
