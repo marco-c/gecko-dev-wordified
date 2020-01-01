@@ -28741,6 +28741,8 @@ gcreason
 :
 Reason
 reason
+JSGCInvocationKind
+gckind
 )
 {
 /
@@ -28855,6 +28857,12 @@ gcreason
 :
 :
 DEBUG_MODE_GC
+|
+|
+gckind
+=
+=
+GC_SHRINK
 ;
 }
 static
@@ -29211,6 +29219,7 @@ ShouldCleanUpEverything
 (
 rt
 reason
+gckind
 )
 ;
 gcstats
