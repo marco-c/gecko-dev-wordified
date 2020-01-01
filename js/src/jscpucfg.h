@@ -150,10 +150,6 @@ undef
 IS_BIG_ENDIAN
 #
 define
-JS_BYTES_PER_DOUBLE
-8
-#
-define
 JS_BYTES_PER_WORD
 8
 #
@@ -246,10 +242,6 @@ IS_LITTLE_ENDIAN
 #
 undef
 IS_BIG_ENDIAN
-#
-define
-JS_BYTES_PER_DOUBLE
-8
 #
 define
 JS_BYTES_PER_WORD
