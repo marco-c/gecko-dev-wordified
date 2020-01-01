@@ -4323,6 +4323,9 @@ return
 _status
 ;
 }
+#
+ifndef
+USE_PLATFORM_NR_STUN_GET_ADDRS
 int
 nr_stun_get_addrs
 (
@@ -4460,3 +4463,5 @@ return
 _status
 ;
 }
+#
+endif
