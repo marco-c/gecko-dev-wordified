@@ -684,7 +684,7 @@ aDesiredSize
 nsReflowStatus
 &
 aStatus
-nsIFrame
+nsMathMLContainerFrame
 *
 aForFrame
 nsMathMLChar
