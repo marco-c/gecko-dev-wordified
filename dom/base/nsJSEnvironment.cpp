@@ -380,10 +380,6 @@ jsdbgapi
 .
 h
 "
-/
-/
-for
-JS_ClearWatchPointsForObject
 #
 include
 "
@@ -473,13 +469,6 @@ h
 include
 "
 nsJSPrincipals
-.
-h
-"
-#
-include
-"
-jsdbgapi
 .
 h
 "

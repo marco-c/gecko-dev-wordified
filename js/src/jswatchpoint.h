@@ -131,6 +131,13 @@ h
 #
 include
 "
+jsdbgapi
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h
