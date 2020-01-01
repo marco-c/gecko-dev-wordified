@@ -2707,6 +2707,13 @@ getNextMessageFromQueue
 jobject
 jobject
 )
+SHELL_WRAPPER2
+(
+onSurfaceTextureFrameAvailable
+jobject
+jint
+)
+;
 static
 void
 *
@@ -5248,6 +5255,11 @@ onFullScreenPluginHidden
 GETFUNC
 (
 getNextMessageFromQueue
+)
+;
+GETFUNC
+(
+onSurfaceTextureFrameAvailable
 )
 ;
 #
