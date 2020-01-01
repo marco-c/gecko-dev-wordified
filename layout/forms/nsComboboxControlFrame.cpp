@@ -3394,7 +3394,6 @@ widget
 CaptureRollupEvents
 (
 this
-nsnull
 mDroppedDown
 mDroppedDown
 )
@@ -9030,7 +9029,6 @@ widget
 CaptureRollupEvents
 (
 this
-nsnull
 false
 true
 )
@@ -9431,7 +9429,8 @@ nsIRollupListener
 -
 -
 -
-NS_IMETHODIMP
+nsIContent
+*
 nsComboboxControlFrame
 :
 :
@@ -9439,21 +9438,10 @@ Rollup
 (
 PRUint32
 aCount
-nsIContent
-*
-*
-aLastRolledUp
+bool
+aGetLastRolledUp
 )
 {
-if
-(
-aLastRolledUp
-)
-*
-aLastRolledUp
-=
-nsnull
-;
 if
 (
 mDroppedDown
@@ -9487,7 +9475,7 @@ IsAlive
 )
 )
 return
-NS_OK
+nsnull
 ;
 ShowDropDown
 (
@@ -9509,7 +9497,7 @@ IsAlive
 )
 )
 return
-NS_OK
+nsnull
 ;
 mListControlFrame
 -
@@ -9521,7 +9509,7 @@ false
 ;
 }
 return
-NS_OK
+nsnull
 ;
 }
 void
