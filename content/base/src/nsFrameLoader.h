@@ -1790,14 +1790,6 @@ nsIFrame
 aIFrame
 )
 ;
-nsresult
-GetWindowDimensions
-(
-nsRect
-&
-aRect
-)
-;
 /
 /
 Updates
