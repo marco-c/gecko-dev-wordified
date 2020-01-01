@@ -653,6 +653,13 @@ nsDOMClassInfo
 .
 h
 "
+#
+include
+"
+nsJSEnvironment
+.
+h
+"
 /
 /
 Other

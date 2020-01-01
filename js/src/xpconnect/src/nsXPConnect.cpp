@@ -13727,7 +13727,7 @@ NS_IsMainThread
 nsJSContext
 :
 :
-MaybeCCIfUserInactive
+MaybePokeCC
 (
 )
 ;
