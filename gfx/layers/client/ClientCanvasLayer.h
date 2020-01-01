@@ -423,11 +423,11 @@ mCanvasClient
 ;
 friend
 class
-CanvasClient2D
+DeprecatedCanvasClient2D
 ;
 friend
 class
-CanvasClientSurfaceStream
+DeprecatedCanvasClientSurfaceStream
 ;
 }
 ;
