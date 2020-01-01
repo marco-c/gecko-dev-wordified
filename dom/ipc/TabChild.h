@@ -1674,8 +1674,10 @@ nsIWebNavigation
 >
 mWebNav
 ;
+nsRefPtr
+<
 TabChildGlobal
-*
+>
 mTabChildGlobal
 ;
 PRUint32
