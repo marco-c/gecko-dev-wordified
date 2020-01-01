@@ -747,12 +747,10 @@ subscript
 nscoord
 scriptSpace
 =
-PresContext
-(
-)
--
->
-PointsToAppUnits
+nsPresContext
+:
+:
+CSSPointsToAppUnits
 (
 0
 .

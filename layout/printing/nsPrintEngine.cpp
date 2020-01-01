@@ -16676,7 +16676,7 @@ mPrt
 mPrintDC
 -
 >
-AppUnitsPerInch
+AppUnitsPerCSSInch
 (
 )
 )
@@ -19667,7 +19667,7 @@ totalMargin
 poPresContext
 -
 >
-TwipsToAppUnits
+CSSTwipsToAppUnits
 (
 marginTwips
 +

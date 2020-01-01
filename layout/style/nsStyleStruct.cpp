@@ -994,7 +994,7 @@ mScriptMinSize
 aPresContext
 -
 >
-TwipsToAppUnits
+CSSTwipsToAppUnits
 (
 NS_POINTS_TO_TWIPS
 (
@@ -1140,7 +1140,7 @@ mScriptMinSize
 aPresContext
 -
 >
-TwipsToAppUnits
+CSSTwipsToAppUnits
 (
 NS_POINTS_TO_TWIPS
 (
