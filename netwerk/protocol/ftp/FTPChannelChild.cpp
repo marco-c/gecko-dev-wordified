@@ -521,6 +521,15 @@ nsCDefaultURIFixup
 h
 "
 #
+include
+"
+base
+/
+compiler_specific
+.
+h
+"
+#
 undef
 LOG
 #
@@ -555,6 +564,8 @@ mIPCOpen
 (
 false
 )
+ALLOW_THIS_IN_INITIALIZER_LIST
+(
 mEventQ
 (
 static_cast
@@ -564,6 +575,7 @@ nsIFTPChannel
 >
 (
 this
+)
 )
 )
 mCanceled
