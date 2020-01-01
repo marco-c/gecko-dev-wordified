@@ -1698,7 +1698,7 @@ transaction
 is
 done
 successfully
-NS_IMETHOD
+void
 DoAfterDoTransaction
 (
 nsITransaction
@@ -1715,7 +1715,7 @@ transaction
 is
 undone
 successfully
-NS_IMETHOD
+void
 DoAfterUndoTransaction
 (
 )
@@ -1729,7 +1729,7 @@ transaction
 is
 redone
 successfully
-NS_IMETHOD
+void
 DoAfterRedoTransaction
 (
 )
