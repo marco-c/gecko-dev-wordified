@@ -2544,6 +2544,12 @@ frontend
 :
 :
 Parser
+<
+frontend
+:
+:
+FullParseHandler
+>
 *
 >
 (

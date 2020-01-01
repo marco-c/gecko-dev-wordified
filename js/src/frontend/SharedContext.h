@@ -1533,6 +1533,9 @@ Module
 *
 module
 ParseContext
+<
+FullParseHandler
+>
 *
 pc
 )
@@ -1629,6 +1632,11 @@ expression
 FunctionContextFlags
 funCxFlags
 ;
+template
+<
+typename
+ParseHandler
+>
 FunctionBox
 (
 JSContext
@@ -1641,6 +1649,9 @@ JSFunction
 *
 fun
 ParseContext
+<
+ParseHandler
+>
 *
 pc
 bool

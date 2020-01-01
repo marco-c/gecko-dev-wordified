@@ -8111,6 +8111,9 @@ JSContext
 cx
 ;
 Parser
+<
+FullParseHandler
+>
 *
 parser
 ;
@@ -8717,6 +8720,9 @@ void
 setParser
 (
 Parser
+<
+FullParseHandler
+>
 *
 p
 )
@@ -14673,12 +14679,11 @@ pn_xflags
 PNX_DESTRUCT
 )
 {
-parser
--
->
-reportError
+JS_ReportErrorNumber
 (
-pn
+cx
+js_GetErrorMessage
+NULL
 JSMSG_BAD_OBJECT_INIT
 )
 ;
@@ -17718,6 +17723,9 @@ lineno
 )
 ;
 Parser
+<
+FullParseHandler
+>
 parser
 (
 cx

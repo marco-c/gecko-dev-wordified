@@ -29579,6 +29579,12 @@ false
 )
 ;
 Parser
+<
+frontend
+:
+:
+FullParseHandler
+>
 parser
 (
 cx
