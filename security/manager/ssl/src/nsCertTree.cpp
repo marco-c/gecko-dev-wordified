@@ -4634,11 +4634,6 @@ if
 (
 !
 mTreeArray
-|
-|
-index
-<
-0
 )
 {
 return
