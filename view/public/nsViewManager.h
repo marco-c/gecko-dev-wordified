@@ -199,10 +199,8 @@ class
 nsIPresShell
 ;
 class
-nsView
-;
-class
 nsViewManager
+MOZ_FINAL
 {
 public
 :
@@ -219,7 +217,6 @@ nsViewManager
 (
 )
 ;
-virtual
 ~
 nsViewManager
 (
@@ -268,7 +265,7 @@ no
 errors
 *
 /
-NS_IMETHOD
+nsresult
 Init
 (
 nsDeviceContext
@@ -385,11 +382,8 @@ new
 view
 *
 /
-NS_IMETHOD_
-(
 nsView
 *
-)
 CreateView
 (
 const
@@ -425,11 +419,8 @@ root
 view
 *
 /
-NS_IMETHOD_
-(
 nsView
 *
-)
 GetRootView
 (
 )
@@ -500,7 +491,7 @@ as
 root
 *
 /
-NS_IMETHOD
+void
 SetRootView
 (
 nsView
@@ -550,7 +541,7 @@ in
 twips
 *
 /
-NS_IMETHOD
+void
 GetWindowDimensions
 (
 nscoord
@@ -604,7 +595,7 @@ in
 twips
 *
 /
-NS_IMETHOD
+void
 SetWindowDimensions
 (
 nscoord
@@ -626,7 +617,7 @@ pending
 .
 *
 /
-NS_IMETHOD
+void
 FlushDelayedResize
 (
 bool
@@ -672,7 +663,7 @@ root
 view
 *
 /
-NS_IMETHOD
+void
 InvalidateView
 (
 nsView
@@ -748,7 +739,7 @@ as
 damaged
 *
 /
-NS_IMETHOD
+void
 InvalidateViewNoSuppression
 (
 nsView
@@ -779,7 +770,7 @@ views
 .
 *
 /
-NS_IMETHOD
+void
 InvalidateAllViews
 (
 )
@@ -841,7 +832,7 @@ handling
 status
 *
 /
-NS_IMETHOD
+void
 DispatchEvent
 (
 nsGUIEvent
@@ -1000,7 +991,7 @@ document
 order
 *
 /
-NS_IMETHOD
+void
 InsertChild
 (
 nsView
@@ -1016,7 +1007,7 @@ bool
 aAfter
 )
 ;
-NS_IMETHOD
+void
 InsertChild
 (
 nsView
@@ -1076,7 +1067,7 @@ child
 view
 *
 /
-NS_IMETHOD
+void
 RemoveChild
 (
 nsView
@@ -1172,7 +1163,7 @@ view
 position
 *
 /
-NS_IMETHOD
+void
 MoveViewTo
 (
 nsView
@@ -1298,7 +1289,7 @@ rectangles
 .
 *
 /
-NS_IMETHOD
+void
 ResizeView
 (
 nsView
@@ -1414,7 +1405,7 @@ visibility
 state
 *
 /
-NS_IMETHOD
+void
 SetViewVisibility
 (
 nsView
@@ -1601,7 +1592,7 @@ views
 .
 *
 /
-NS_IMETHOD
+void
 SetViewZIndex
 (
 nsView
@@ -1682,7 +1673,7 @@ views
 .
 *
 /
-NS_IMETHOD
+void
 SetViewFloating
 (
 nsView
@@ -1711,7 +1702,6 @@ new
 presshell
 *
 /
-virtual
 void
 SetPresShell
 (
@@ -1739,7 +1729,6 @@ this
 manager
 *
 /
-virtual
 nsIPresShell
 *
 GetPresShell
@@ -1768,7 +1757,7 @@ device
 context
 *
 /
-NS_IMETHOD
+void
 GetDeviceContext
 (
 nsDeviceContext
@@ -1979,14 +1968,12 @@ friend
 class
 AutoDisableRefresh
 ;
-virtual
 nsViewManager
 *
 IncrementDisableRefreshCount
 (
 )
 ;
-virtual
 void
 DecrementDisableRefreshCount
 (
@@ -2020,7 +2007,7 @@ widget
 .
 *
 /
-NS_IMETHOD
+void
 GetRootWidget
 (
 nsIWidget
@@ -2055,7 +2042,7 @@ false
 otherwise
 *
 /
-NS_IMETHOD
+void
 IsPainting
 (
 bool
@@ -2109,7 +2096,7 @@ in
 microseconds
 *
 /
-NS_IMETHOD
+void
 GetLastUserEventTime
 (
 uint32_t
@@ -2183,7 +2170,6 @@ geometry
 .
 *
 /
-virtual
 void
 ProcessPendingUpdates
 (
@@ -2204,7 +2190,6 @@ dirty
 region
 *
 /
-virtual
 void
 UpdateWidgetGeometry
 (
@@ -2223,17 +2208,6 @@ mContext
 AppUnitsPerDevPixel
 (
 )
-;
-}
-nsView
-*
-GetRootViewImpl
-(
-)
-const
-{
-return
-mRootView
 ;
 }
 private
@@ -2522,7 +2496,7 @@ mPainting
 aPainting
 ;
 }
-nsresult
+void
 InvalidateView
 (
 nsView

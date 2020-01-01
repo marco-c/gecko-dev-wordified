@@ -404,7 +404,7 @@ rootView
 mViewManager
 -
 >
-GetRootViewImpl
+GetRootView
 (
 )
 ;
@@ -1299,7 +1299,7 @@ if
 mViewManager
 -
 >
-GetRootViewImpl
+GetRootView
 (
 )
 =
@@ -2008,7 +2008,7 @@ if
 mViewManager
 -
 >
-GetRootViewImpl
+GetRootView
 (
 )
 =
@@ -2209,7 +2209,7 @@ if
 vm
 -
 >
-GetRootViewImpl
+GetRootView
 (
 )
 =
@@ -2419,7 +2419,7 @@ if
 vm
 -
 >
-GetRootViewImpl
+GetRootView
 (
 )
 =
@@ -5244,7 +5244,7 @@ return
 mViewManager
 -
 >
-GetRootViewImpl
+GetRootView
 (
 )
 =
@@ -5285,7 +5285,7 @@ this
 VM
 -
 >
-GetRootViewImpl
+GetRootView
 (
 )
 |
