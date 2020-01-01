@@ -1135,6 +1135,9 @@ vsnprintf_result
 0
 &
 &
+(
+size_t
+)
 vsnprintf_result
 <
 (
