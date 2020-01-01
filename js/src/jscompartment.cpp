@@ -2690,11 +2690,10 @@ boundaries
 .
 It
 should
-*
-should
-only
 be
+*
 called
+only
 by
 per
 -
@@ -2704,9 +2703,9 @@ since
 full
 GCs
 naturally
-*
 follow
 pointers
+*
 across
 compartments
 .
