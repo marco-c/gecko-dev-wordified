@@ -258,6 +258,11 @@ JSOP_IFNE
 \
 _
 (
+JSOP_POS
+)
+\
+_
+(
 JSOP_LOOPHEAD
 )
 \
