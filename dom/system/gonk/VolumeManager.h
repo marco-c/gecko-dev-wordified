@@ -1266,10 +1266,6 @@ size_t
 mRcvIdx
 ;
 MessageLoopForIO
-*
-mIOLoop
-;
-MessageLoopForIO
 :
 :
 FileDescriptorWatcher
