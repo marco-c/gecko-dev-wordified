@@ -4035,11 +4035,6 @@ addons
 sqlite
 "
 "
-chromeappsstore
-.
-sqlite
-"
-"
 content
 -
 prefs
