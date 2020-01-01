@@ -14216,7 +14216,7 @@ and
 all
 arguements
 are
-equealed
+equalled
 0
 .
 NS_ENSURE_ARG_POINTER

@@ -607,6 +607,12 @@ nsAString
 aAttrValue
 )
 {
+aAttrValue
+.
+Truncate
+(
+)
+;
 nsCAutoString
 attrName
 ;
