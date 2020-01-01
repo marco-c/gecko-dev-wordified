@@ -1111,6 +1111,13 @@ expect
 '
 <
 link
+xlink
+:
+type
+=
+"
+simple
+"
 xmlns
 :
 xlink
@@ -1129,13 +1136,6 @@ org
 1999
 /
 xlink
-"
-xlink
-:
-type
-=
-"
-simple
 "
 /
 >
