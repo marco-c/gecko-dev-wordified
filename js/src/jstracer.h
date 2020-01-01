@@ -2687,6 +2687,16 @@ JSPropCacheEntry
 entry
 )
 ;
+bool
+record_DefLocalFunSetSlot
+(
+uint32
+slot
+JSObject
+*
+obj
+)
+;
 void
 deepAbort
 (
