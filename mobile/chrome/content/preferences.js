@@ -1557,7 +1557,7 @@ case
 "
 about
 :
-blank
+empty
 "
 :
 value
@@ -1776,7 +1776,7 @@ url
 "
 about
 :
-blank
+empty
 "
 ;
 break
