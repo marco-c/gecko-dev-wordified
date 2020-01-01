@@ -3974,10 +3974,9 @@ viewportRect
 ;
 aRenderingContext
 .
-SetClipRect
+IntersectClip
 (
 clipRect
-nsClipCombine_kIntersect
 )
 ;
 aRenderingContext

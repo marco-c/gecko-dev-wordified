@@ -33250,10 +33250,9 @@ AppUnitsPerDevPixel
 rc
 -
 >
-SetClipRegion
+SetClip
 (
 region
-nsClipCombine_kReplace
 )
 ;
 }

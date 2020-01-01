@@ -1986,10 +1986,9 @@ PushState
 ;
 aRenderingContext
 .
-SetClipRect
+IntersectClip
 (
 clipRect
-nsClipCombine_kIntersect
 )
 ;
 nsCSSRendering
@@ -2061,10 +2060,9 @@ PushState
 ;
 aRenderingContext
 .
-SetClipRect
+IntersectClip
 (
 clipRect
-nsClipCombine_kIntersect
 )
 ;
 nsCSSRendering
@@ -2124,10 +2122,9 @@ PushState
 ;
 aRenderingContext
 .
-SetClipRect
+IntersectClip
 (
 clipRect
-nsClipCombine_kIntersect
 )
 ;
 nsCSSRendering

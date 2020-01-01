@@ -17323,12 +17323,11 @@ PushState
 ;
 aRenderingContext
 .
-SetClipRect
+IntersectClip
 (
 mInnerBox
 +
 aPt
-nsClipCombine_kIntersect
 )
 ;
 PRInt32
