@@ -532,7 +532,9 @@ libtheora
 .
 1
 .
-0
+1
++
+svn
 "
 /
 *
@@ -593,7 +595,9 @@ PACKAGE_VERSION
 .
 1
 .
-0
+1
++
+svn
 "
 /
 *
@@ -670,5 +674,7 @@ VERSION
 .
 1
 .
-0
+1
++
+svn
 "
