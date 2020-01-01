@@ -1108,6 +1108,8 @@ aPresContext
 nsIContent
 *
 aContent
+PRInt32
+aNameSpaceID
 nsIAtom
 *
 aAttribute
@@ -1122,6 +1124,10 @@ RuleProcessorData
 aPresContext
 aContent
 nsnull
+)
+mNameSpaceID
+(
+aNameSpaceID
 )
 mAttribute
 (
@@ -1146,10 +1152,6 @@ pointer
 )
 ;
 }
-nsIAtom
-*
-mAttribute
-;
 /
 /
 |
@@ -1159,6 +1161,13 @@ for
 which
 attribute
 ?
+PRInt32
+mNameSpaceID
+;
+nsIAtom
+*
+mAttribute
+;
 PRInt32
 mModType
 ;

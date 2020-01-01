@@ -63409,6 +63409,13 @@ aHint
 nsChangeHint
 hint
 =
+(
+aNameSpaceID
+=
+=
+kNameSpaceID_None
+)
+?
 aContent
 -
 >
@@ -63416,6 +63423,11 @@ GetAttributeChangeHint
 (
 aAttribute
 aModType
+)
+:
+nsChangeHint
+(
+0
 )
 ;
 PRBool
@@ -63625,6 +63637,14 @@ for
 a
 theme
 .
+if
+(
+aNameSpaceID
+=
+=
+kNameSpaceID_None
+)
+{
 const
 nsStyleDisplay
 *
@@ -63716,6 +63736,7 @@ hint
 nsChangeHint_RepaintFrame
 )
 ;
+}
 }
 }
 /
@@ -63854,6 +63875,7 @@ frameManager
 HasAttributeDependentStyle
 (
 aContent
+aNameSpaceID
 aAttribute
 aModType
 aStateMask
