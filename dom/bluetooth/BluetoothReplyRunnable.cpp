@@ -276,7 +276,7 @@ TBluetoothReplySuccess
 rs
 -
 >
-FireSuccess
+FireSuccessAsync
 (
 mDOMRequest
 aVal
@@ -285,7 +285,7 @@ aVal
 rs
 -
 >
-FireError
+FireErrorAsync
 (
 mDOMRequest
 mReply
@@ -358,7 +358,7 @@ return
 rs
 -
 >
-FireError
+FireErrorAsync
 (
 mDOMRequest
 mErrorString

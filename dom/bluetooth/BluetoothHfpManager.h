@@ -182,6 +182,7 @@ Get
 (
 )
 ;
+virtual
 void
 ReceiveSocketData
 (
@@ -195,6 +196,7 @@ UnixSocketRawData
 *
 aMessage
 )
+MOZ_OVERRIDE
 ;
 bool
 Connect
@@ -310,6 +312,20 @@ const
 bool
 aConnected
 )
+;
+virtual
+void
+OnConnectSuccess
+(
+)
+MOZ_OVERRIDE
+;
+virtual
+void
+OnConnectError
+(
+)
+MOZ_OVERRIDE
 ;
 int
 mCurrentVgs
