@@ -8315,7 +8315,7 @@ endif
 nsresult
 res
 =
-NS_OK
+NS_ERROR_FAILURE
 ;
 if
 (
