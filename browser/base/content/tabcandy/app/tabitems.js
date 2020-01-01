@@ -1582,8 +1582,6 @@ function
 value
 )
 {
-return
-;
 var
 self
 =
@@ -1592,6 +1590,7 @@ this
 var
 resizer
 =
+iQ
 (
 '
 .
@@ -1613,6 +1612,7 @@ fadeIn
 (
 )
 ;
+iQ
 (
 this
 .
@@ -1622,11 +1622,6 @@ container
 resizable
 (
 {
-handles
-:
-"
-se
-"
 aspectRatio
 :
 true
@@ -1700,6 +1695,7 @@ fadeOut
 (
 )
 ;
+iQ
 (
 this
 .
@@ -1933,15 +1929,6 @@ el
 )
 ;
 var
-div
-=
-(
-mirror
-.
-el
-)
-;
-var
 tab
 =
 mirror
@@ -1976,8 +1963,6 @@ Groups
 dragOptions
 )
 ;
-/
-*
 div
 .
 droppable
@@ -1989,8 +1974,6 @@ Groups
 dropOptions
 )
 ;
-*
-/
 }
 div
 .
