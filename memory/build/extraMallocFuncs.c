@@ -647,6 +647,13 @@ _je_malloc_message
 #
 endif
 #
+endif
+/
+*
+MOZ_JEMALLOC
+*
+/
+#
 include
 <
 mozilla
@@ -665,10 +672,3 @@ MOZ_CRASH
 )
 ;
 }
-#
-endif
-/
-*
-MOZ_JEMALLOC
-*
-/
