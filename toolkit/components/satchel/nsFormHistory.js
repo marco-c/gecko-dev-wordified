@@ -2242,9 +2242,6 @@ dbConnection
 (
 )
 {
-let
-connection
-;
 /
 /
 Make
