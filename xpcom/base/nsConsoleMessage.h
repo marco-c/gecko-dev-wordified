@@ -153,6 +153,9 @@ nsConsoleMessage
 )
 {
 }
+int64_t
+mTimeStamp
+;
 nsString
 mMessage
 ;
