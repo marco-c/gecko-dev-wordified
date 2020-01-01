@@ -219,7 +219,11 @@ h
 #
 include
 "
-nsSVGViewElement
+mozilla
+/
+dom
+/
+SVGViewElement
 .
 h
 "
@@ -2130,7 +2134,10 @@ return
 ratio
 ;
 }
-nsSVGViewElement
+dom
+:
+:
+SVGViewElement
 *
 viewElement
 =

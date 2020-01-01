@@ -135,7 +135,11 @@ h
 #
 include
 "
-nsSVGViewElement
+mozilla
+/
+dom
+/
+SVGViewElement
 .
 h
 "

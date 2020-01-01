@@ -273,7 +273,11 @@ h
 #
 include
 "
-nsSVGViewElement
+mozilla
+/
+dom
+/
+SVGViewElement
 .
 h
 "
@@ -3568,7 +3572,7 @@ uint16_t
 aZoomAndPan
 )
 {
-nsSVGViewElement
+SVGViewElement
 *
 viewElement
 =
@@ -3586,7 +3590,7 @@ viewElement
 >
 mEnumAttributes
 [
-nsSVGViewElement
+SVGViewElement
 :
 :
 ZOOMANDPAN
@@ -3605,7 +3609,7 @@ viewElement
 >
 mEnumAttributes
 [
-nsSVGViewElement
+SVGViewElement
 :
 :
 ZOOMANDPAN
@@ -6076,7 +6080,7 @@ IsAnimated
 )
 ;
 }
-nsSVGViewElement
+SVGViewElement
 *
 nsSVGSVGElement
 :
@@ -6137,7 +6141,7 @@ view
 return
 static_cast
 <
-nsSVGViewElement
+SVGViewElement
 *
 >
 (
@@ -6175,7 +6179,7 @@ HasViewBox
 (
 )
 .
-nsSVGViewElement
+SVGViewElement
 *
 viewElement
 =
@@ -6387,7 +6391,7 @@ pAROverridePtr
 ;
 }
 }
-nsSVGViewElement
+SVGViewElement
 *
 viewElement
 =
@@ -6626,7 +6630,7 @@ float
 h
 w
 ;
-nsSVGViewElement
+SVGViewElement
 *
 viewElement
 =
@@ -7366,7 +7370,7 @@ HasViewBox
 )
 const
 {
-nsSVGViewElement
+SVGViewElement
 *
 viewElement
 =
