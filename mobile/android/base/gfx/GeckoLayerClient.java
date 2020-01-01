@@ -2579,9 +2579,13 @@ values
 are
 within
 a
-pixel
+couple
+of
+pixels
 of
 the
+/
+/
 display
 -
 port
@@ -2664,7 +2668,7 @@ x
 )
 <
 =
-1
+2
 &
 &
 Math
@@ -2681,7 +2685,7 @@ y
 )
 <
 =
-1
+2
 &
 &
 Math
@@ -2702,7 +2706,7 @@ height
 )
 <
 =
-1
+2
 &
 &
 Math
@@ -2723,7 +2727,7 @@ width
 )
 <
 =
-1
+2
 )
 {
 return
