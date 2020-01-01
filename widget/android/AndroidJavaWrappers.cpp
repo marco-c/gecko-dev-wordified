@@ -4811,6 +4811,9 @@ jobject
 jobj
 )
 {
+#
+if
+0
 if
 (
 !
@@ -4836,6 +4839,14 @@ NewGlobalRef
 jobj
 )
 ;
+#
+else
+wrapped_obj
+=
+jobj
+;
+#
+endif
 }
 void
 AndroidLayerRendererFrame
