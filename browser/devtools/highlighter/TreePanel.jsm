@@ -3857,6 +3857,17 @@ isDirty
 =
 true
 ;
+this
+.
+IUI
+.
+nodeChanged
+(
+this
+.
+registrationObject
+)
+;
 /
 /
 event
