@@ -4471,6 +4471,13 @@ below
 0
 )
 {
+if
+(
+IsDroppedDown
+(
+)
+)
+{
 /
 /
 Hide
@@ -4515,6 +4522,7 @@ this
 )
 )
 ;
+}
 return
 eDropDownPositionSuppressed
 ;
