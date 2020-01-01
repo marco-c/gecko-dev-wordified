@@ -1069,7 +1069,7 @@ shell
 mPresContext
 -
 >
-PresShell
+GetPresShell
 (
 )
 ;
@@ -1303,7 +1303,7 @@ shell
 mPresContext
 -
 >
-PresShell
+GetPresShell
 (
 )
 ;
