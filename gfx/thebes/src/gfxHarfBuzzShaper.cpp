@@ -2369,9 +2369,17 @@ HB_OT_TAG_DEFAULT_LANGUAGE
 hb_buffer_add_utf16
 (
 buffer
+reinterpret_cast
+<
+const
+uint16_t
+*
+>
+(
 aString
 +
 aRunStart
+)
 aRunLength
 0
 aRunLength
