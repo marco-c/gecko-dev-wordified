@@ -1527,5 +1527,9 @@ DOMCI_CLASS
 (
 DataChannel
 )
+DOMCI_CLASS
+(
+RTCPeerConnection
+)
 #
 endif
