@@ -9232,7 +9232,7 @@ DIRECTION_UP
 :
 Browser
 .
-scrollContentToTop
+scrollContentToBottom
 (
 )
 ;
@@ -9245,7 +9245,7 @@ DIRECTION_DOWN
 :
 Browser
 .
-scrollContentToBottom
+scrollContentToTop
 (
 )
 ;
