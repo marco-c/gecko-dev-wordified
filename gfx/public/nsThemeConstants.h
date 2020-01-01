@@ -833,6 +833,14 @@ NS_THEME_SCALE_TICK
 /
 /
 A
+groupbox
+#
+define
+NS_THEME_GROUPBOX
+149
+/
+/
+A
 generic
 container
 that
