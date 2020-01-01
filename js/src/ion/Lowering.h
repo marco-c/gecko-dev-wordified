@@ -1383,6 +1383,14 @@ ins
 )
 ;
 bool
+visitGetElementCache
+(
+MGetElementCache
+*
+ins
+)
+;
+bool
 visitBindNameCache
 (
 MBindNameCache

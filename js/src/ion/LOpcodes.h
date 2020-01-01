@@ -945,6 +945,11 @@ GetPropertyCacheT
 \
 _
 (
+GetElementCacheV
+)
+\
+_
+(
 BindNameCache
 )
 \
