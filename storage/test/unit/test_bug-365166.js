@@ -296,6 +296,12 @@ reset
 (
 )
 ;
+statement
+.
+finalize
+(
+)
+;
 }
 }
 }
