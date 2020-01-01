@@ -587,7 +587,8 @@ aRule
 )
 ;
 \
-NS_IMETHOD
+virtual
+void
 MapRuleInfoInto
 (
 nsRuleData
@@ -677,7 +678,8 @@ nsIStyleRule
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE
@@ -905,7 +907,8 @@ methods
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE
@@ -1066,7 +1069,8 @@ methods
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE
@@ -1410,7 +1414,8 @@ methods
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE

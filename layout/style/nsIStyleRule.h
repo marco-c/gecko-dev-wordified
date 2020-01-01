@@ -928,7 +928,8 @@ rules
 .
 *
 /
-NS_IMETHOD
+virtual
+void
 MapRuleInfoInto
 (
 nsRuleData
@@ -953,7 +954,8 @@ nsnull
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE

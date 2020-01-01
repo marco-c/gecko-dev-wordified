@@ -610,7 +610,7 @@ storage
 .
 *
 /
-nsresult
+void
 MapRuleInfoInto
 (
 nsRuleData

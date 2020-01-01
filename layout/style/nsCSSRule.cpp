@@ -657,7 +657,12 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+/
+*
+virtual
+*
+/
+void
 nsCSSRule
 :
 :
@@ -690,8 +695,5 @@ nsCSSRule
 MapRuleInfoInto
 "
 )
-;
-return
-NS_OK
 ;
 }

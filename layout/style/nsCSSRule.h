@@ -553,7 +553,8 @@ new
 mapping
 function
 .
-NS_IMETHOD
+virtual
+void
 MapRuleInfoInto
 (
 nsRuleData

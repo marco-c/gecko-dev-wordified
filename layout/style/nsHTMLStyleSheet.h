@@ -851,7 +851,8 @@ NS_DECL_ISUPPORTS
 /
 nsIStyleRule
 interface
-NS_IMETHOD
+virtual
+void
 MapRuleInfoInto
 (
 nsRuleData
@@ -862,7 +863,8 @@ aRuleData
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE
@@ -909,7 +911,8 @@ NS_DECL_ISUPPORTS
 /
 nsIStyleRule
 interface
-NS_IMETHOD
+virtual
+void
 MapRuleInfoInto
 (
 nsRuleData
@@ -920,7 +923,8 @@ aRuleData
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE
@@ -968,7 +972,8 @@ TableTHRule
 )
 {
 }
-NS_IMETHOD
+virtual
+void
 MapRuleInfoInto
 (
 nsRuleData

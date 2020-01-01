@@ -740,7 +740,8 @@ const
 /
 /
 nsIStyleRule
-NS_IMETHOD
+virtual
+void
 MapRuleInfoInto
 (
 nsRuleData
@@ -751,7 +752,8 @@ aRuleData
 #
 ifdef
 DEBUG
-NS_METHOD
+virtual
+void
 List
 (
 FILE
