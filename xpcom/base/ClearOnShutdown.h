@@ -325,6 +325,13 @@ Shutdown
 =
 0
 ;
+virtual
+~
+ShutdownObserver
+(
+)
+{
+}
 }
 ;
 template
