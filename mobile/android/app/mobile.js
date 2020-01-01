@@ -277,7 +277,7 @@ tabs
 .
 remote
 "
-true
+false
 )
 ;
 pref
