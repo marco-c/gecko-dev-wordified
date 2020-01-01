@@ -2912,6 +2912,10 @@ scriptRes
 =
 script
 ;
+if
+(
+pcRes
+)
 *
 pcRes
 =
