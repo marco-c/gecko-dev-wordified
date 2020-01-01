@@ -2794,6 +2794,10 @@ IsVoid
 )
 )
 {
+nsStringBuffer
+*
+buf
+;
 jsval
 str
 =
@@ -2805,6 +2809,8 @@ ReadableToJSVal
 cx
 *
 p
+&
+buf
 )
 ;
 if
@@ -2816,6 +2822,17 @@ str
 )
 return
 JS_FALSE
+;
+if
+(
+buf
+)
+buf
+-
+>
+AddRef
+(
+)
 ;
 *
 d

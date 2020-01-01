@@ -3771,6 +3771,10 @@ IsValid
 return
 NS_ERROR_UNEXPECTED
 ;
+nsStringBuffer
+*
+buf
+;
 jsval
 jsstr
 =
@@ -3781,6 +3785,8 @@ ReadableToJSVal
 (
 ccx
 name
+&
+buf
 )
 ;
 if
@@ -3792,6 +3798,17 @@ jsstr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
+;
+if
+(
+buf
+)
+buf
+-
+>
+AddRef
+(
+)
 ;
 return
 nsXPCWrappedJSClass
