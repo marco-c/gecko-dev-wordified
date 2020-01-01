@@ -10395,6 +10395,15 @@ Unlink
 tmp
 -
 >
+mPendingTitleChangeEvent
+.
+Revoke
+(
+)
+;
+tmp
+-
+>
 mInUnlinkOrDeletion
 =
 false
