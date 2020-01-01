@@ -466,11 +466,11 @@ IS_BIG_ENDIAN
 #
 define
 JS_BYTES_PER_DOUBLE
-8L
+8
 #
 define
 JS_BYTES_PER_WORD
-8L
+8
 #
 define
 JS_BITS_PER_WORD_LOG2
@@ -478,7 +478,7 @@ JS_BITS_PER_WORD_LOG2
 #
 define
 JS_ALIGN_OF_POINTER
-8L
+8
 #
 else
 /
@@ -568,11 +568,11 @@ IS_BIG_ENDIAN
 #
 define
 JS_BYTES_PER_DOUBLE
-8L
+8
 #
 define
 JS_BYTES_PER_WORD
-4L
+4
 #
 define
 JS_BITS_PER_WORD_LOG2
@@ -580,7 +580,7 @@ JS_BITS_PER_WORD_LOG2
 #
 define
 JS_ALIGN_OF_POINTER
-4L
+4
 #
 elif
 defined
