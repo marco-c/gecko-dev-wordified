@@ -3091,10 +3091,15 @@ vp
 1
 ]
 =
-UndefinedTag
+NullTag
 (
 )
 ;
+/
+/
+satisfy
+LeaveTree
+assert
 JSStackFrame
 *
 fp
