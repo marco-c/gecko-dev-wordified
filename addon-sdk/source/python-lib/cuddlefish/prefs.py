@@ -523,22 +523,6 @@ enabled
 True
     
 #
-Disable
-the
-feedback
-extension
-    
-'
-extensions
-.
-testpilot
-.
-runStudies
-'
-:
-False
-    
-#
 From
 :
     
