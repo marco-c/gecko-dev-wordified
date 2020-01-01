@@ -486,6 +486,13 @@ nsEditRules
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsITransferable
 ;
@@ -560,6 +567,11 @@ should
 use
 NS_DECL_ISUPPORTS
 NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
+(
+nsPlaintextEditor
+nsEditor
+)
 /
 *
 below

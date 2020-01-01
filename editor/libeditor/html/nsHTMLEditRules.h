@@ -596,9 +596,9 @@ class
 nsHTMLEditRules
 :
 public
-nsIHTMLEditRules
-public
 nsTextEditRules
+public
+nsIHTMLEditRules
 public
 nsIEditActionListener
 {
