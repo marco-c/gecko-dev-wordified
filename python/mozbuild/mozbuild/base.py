@@ -1329,6 +1329,12 @@ None
 ignore_errors
 =
 False
+silent
+=
+True
+print_directory
+=
+True
 )
 :
         
@@ -1405,6 +1411,41 @@ from
 the
 object
 directory
+.
+        
+silent
+-
+-
+If
+True
+(
+the
+default
+)
+run
+make
+in
+silent
+mode
+.
+        
+print_directory
+-
+-
+If
+True
+(
+the
+default
+)
+have
+make
+print
+directories
+        
+while
+doing
+traversal
 .
         
 "
@@ -1497,13 +1538,10 @@ k
 '
 )
         
-#
-Silent
-mode
-by
-default
-.
-        
+if
+silent
+:
+            
 args
 .
 append
@@ -1566,6 +1604,10 @@ feature
 yet
 .
         
+if
+print_directory
+:
+            
 args
 .
 append
