@@ -4617,12 +4617,13 @@ WebGL_MOZ_WEBGL_lose_context
 WebGLExtensionID_Max
 }
 ;
-nsTArray
+nsAutoTArray
 <
 nsRefPtr
 <
 WebGLExtension
 >
+WebGLExtensionID_Max
 >
 mEnabledExtensions
 ;
