@@ -334,17 +334,6 @@ event
 sourceClient
 )
 {
-activeThread
-.
-addOneTimeListener
-(
-"
-framesadded
-"
-function
-(
-)
-{
 ok
 (
 sourceClient
@@ -435,9 +424,6 @@ frames
 ;
 closeDebuggerAndFinish
 (
-)
-;
-}
 )
 ;
 }
