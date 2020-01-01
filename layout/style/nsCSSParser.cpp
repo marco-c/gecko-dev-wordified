@@ -12124,6 +12124,15 @@ mToken
 mType
 )
 {
+REPORT_UNEXPECTED_TOKEN
+(
+PEGroupRuleNestedAtRule
+)
+;
+OUTPUT_ERROR
+(
+)
+;
 SkipAtRule
 (
 PR_TRUE
