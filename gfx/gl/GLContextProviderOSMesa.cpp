@@ -449,13 +449,6 @@ h
 #
 include
 "
-GLLibraryLoader
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h
@@ -879,7 +872,7 @@ return
 false
 ;
 }
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 SymLoadStruct
@@ -997,7 +990,7 @@ NULL
 if
 (
 !
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 LoadSymbols

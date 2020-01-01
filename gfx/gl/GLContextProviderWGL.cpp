@@ -440,13 +440,6 @@ h
 #
 include
 "
-GLLibraryLoader
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h
@@ -985,7 +978,7 @@ MOZ_WGL_DB
 =
 nsnull
 ;
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 SymLoadStruct
@@ -1103,7 +1096,7 @@ NULL
 if
 (
 !
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 LoadSymbols
@@ -1262,7 +1255,7 @@ a
 context
 current
 .
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 SymLoadStruct
@@ -1364,7 +1357,7 @@ NULL
 }
 }
 ;
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 SymLoadStruct
@@ -1418,7 +1411,7 @@ NULL
 if
 (
 !
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 LoadSymbols
@@ -1430,7 +1423,7 @@ pbufferSymbols
 0
 ]
 (
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 PlatformLookupFunction
@@ -1463,7 +1456,7 @@ nsnull
 if
 (
 !
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 LoadSymbols
@@ -1475,7 +1468,7 @@ pixFmtSymbols
 0
 ]
 (
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 PlatformLookupFunction
@@ -1509,7 +1502,7 @@ fChoosePixelFormat
 nsnull
 ;
 }
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 SymLoadStruct
@@ -1540,7 +1533,7 @@ NULL
 }
 }
 ;
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 SymLoadStruct
@@ -1573,7 +1566,7 @@ NULL
 ;
 if
 (
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 LoadSymbols
@@ -1585,7 +1578,7 @@ extensionsSymbols
 0
 ]
 (
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 PlatformLookupFunction
@@ -1618,7 +1611,7 @@ WGL_ARB_create_context
 )
 )
 {
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 LoadSymbols
@@ -1630,7 +1623,7 @@ robustnessSymbols
 0
 ]
 (
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 PlatformLookupFunction
