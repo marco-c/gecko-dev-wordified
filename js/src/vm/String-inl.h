@@ -1217,12 +1217,7 @@ JSShortString
 :
 lengthFits
 (
-base
--
->
 length
-(
-)
 )
 )
 return
