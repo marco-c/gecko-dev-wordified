@@ -342,7 +342,7 @@ RootAccessibleWrap
 :
 DocumentActivated
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 )
@@ -396,7 +396,7 @@ idx
 +
 )
 {
-nsDocAccessible
+DocAccessible
 *
 childDoc
 =

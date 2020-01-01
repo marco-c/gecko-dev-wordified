@@ -124,7 +124,7 @@ class
 nsAccessible
 ;
 class
-nsDocAccessible
+DocAccessible
 ;
 class
 nsIContent
@@ -427,7 +427,7 @@ public
 :
 NotificationController
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsIPresShell
@@ -526,7 +526,7 @@ document
 void
 ScheduleChildDocBinding
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 )
@@ -1261,7 +1261,7 @@ queue
 /
 nsRefPtr
 <
-nsDocAccessible
+DocAccessible
 >
 mDocument
 ;
@@ -1303,7 +1303,7 @@ nsTArray
 <
 nsRefPtr
 <
-nsDocAccessible
+DocAccessible
 >
 >
 mHangingChildDocuments
@@ -1328,7 +1328,7 @@ public
 :
 ContentInsertion
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsAccessible
@@ -1431,7 +1431,7 @@ as
 weak
 ref
 .
-nsDocAccessible
+DocAccessible
 *
 mDocument
 ;

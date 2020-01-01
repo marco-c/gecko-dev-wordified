@@ -485,7 +485,7 @@ nsAccDocManager
 /
 nsAccDocManager
 public
-nsDocAccessible
+DocAccessible
 *
 nsAccDocManager
 :
@@ -528,7 +528,7 @@ EnsureChildren
 (
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 docAcc
 =
@@ -1358,7 +1358,7 @@ aStateFlags
 ;
 #
 endif
-nsDocAccessible
+DocAccessible
 *
 docAcc
 =
@@ -1950,7 +1950,7 @@ target
 goes
 away
 .
-nsDocAccessible
+DocAccessible
 *
 docAccessible
 =
@@ -2196,7 +2196,7 @@ then
 create
 it
 .
-nsDocAccessible
+DocAccessible
 *
 docAcc
 =
@@ -2385,7 +2385,7 @@ listener
 endif
 }
 }
-nsDocAccessible
+DocAccessible
 *
 nsAccDocManager
 :
@@ -2543,7 +2543,7 @@ IsRootDocument
 aDocument
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 parentDocAcc
 =
@@ -2646,7 +2646,7 @@ accessible
 .
 nsRefPtr
 <
-nsDocAccessible
+DocAccessible
 >
 docAcc
 =
@@ -2661,7 +2661,7 @@ presShell
 )
 :
 new
-nsDocAccessibleWrap
+DocAccessibleWrap
 (
 aDocument
 rootElm
@@ -3009,7 +3009,7 @@ const
 nsIDocument
 *
 aKey
-nsDocAccessible
+DocAccessible
 *
 aDocAccessible
 void
@@ -3038,7 +3038,7 @@ cache
 *
 reinterpret_cast
 <
-nsDocAccessible
+DocAccessible
 *
 *
 >
@@ -3060,7 +3060,7 @@ ClearDocCache
 (
 )
 {
-nsDocAccessible
+DocAccessible
 *
 docAcc
 =
@@ -3108,7 +3108,7 @@ const
 nsIDocument
 *
 aKey
-nsDocAccessible
+DocAccessible
 *
 aDocAccessible
 void
@@ -3196,7 +3196,7 @@ const
 nsIDocument
 *
 aKey
-nsDocAccessible
+DocAccessible
 *
 aDocAccessible
 void

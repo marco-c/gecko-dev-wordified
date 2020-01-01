@@ -119,7 +119,7 @@ nsXULMenuitemAccessibleWrap
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

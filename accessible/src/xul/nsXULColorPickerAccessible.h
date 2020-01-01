@@ -133,7 +133,7 @@ nsXULColorPickerTileAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -215,7 +215,7 @@ nsXULColorPickerAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

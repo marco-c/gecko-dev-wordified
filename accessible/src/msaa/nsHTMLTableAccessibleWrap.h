@@ -169,7 +169,7 @@ nsHTMLTableAccessibleWrap
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -222,7 +222,7 @@ nsHTMLTableCellAccessibleWrap
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -275,7 +275,7 @@ nsHTMLTableHeaderCellAccessibleWrap
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

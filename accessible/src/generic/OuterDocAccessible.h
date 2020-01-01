@@ -153,7 +153,7 @@ as
 opposed
 to
 the
-nsDocAccessibleWrap
+DocAccessibleWrap
 which
 is
 "
@@ -198,7 +198,7 @@ OuterDocAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

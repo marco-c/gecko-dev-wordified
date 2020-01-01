@@ -1082,7 +1082,7 @@ nsAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -3672,7 +3672,7 @@ state
 =
 0
 ;
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -4418,7 +4418,7 @@ of
 flow
 element
 .
-nsDocAccessible
+DocAccessible
 *
 accDocument
 =
@@ -4570,7 +4570,7 @@ DOM
 parent
 chain
 .
-nsDocAccessible
+DocAccessible
 *
 contentDocAcc
 =
@@ -17169,7 +17169,7 @@ if
 activeDescendantElm
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -17455,7 +17455,7 @@ CacheChildren
 (
 )
 {
-nsDocAccessible
+DocAccessible
 *
 doc
 =

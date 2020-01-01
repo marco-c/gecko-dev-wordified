@@ -122,7 +122,7 @@ nsHTMLCanvasAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

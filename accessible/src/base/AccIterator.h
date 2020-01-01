@@ -141,7 +141,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -498,7 +498,7 @@ by
 /
 RelatedAccIterator
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsIContent
@@ -562,7 +562,7 @@ RelatedAccIterator
 &
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 mDocument
 ;
@@ -570,7 +570,7 @@ nsIAtom
 *
 mRelAttr
 ;
-nsDocAccessible
+DocAccessible
 :
 :
 AttrRelProviderArray
@@ -621,7 +621,7 @@ eSkipAncestorLabel
 ;
 HTMLLabelIterator
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 const
@@ -759,7 +759,7 @@ public
 :
 HTMLOutputIterator
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsIContent
@@ -853,7 +853,7 @@ public
 :
 XULLabelIterator
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsIContent
@@ -947,7 +947,7 @@ public
 :
 XULDescriptionIterator
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsIContent
@@ -1061,7 +1061,7 @@ public
 :
 IDRefsIterator
 (
-nsDocAccessible
+DocAccessible
 *
 aDoc
 nsIContent
@@ -1174,7 +1174,7 @@ nsIContent
 *
 mContent
 ;
-nsDocAccessible
+DocAccessible
 *
 mDoc
 ;

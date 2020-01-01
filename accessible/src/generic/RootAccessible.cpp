@@ -508,7 +508,7 @@ nsISupports
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 RootAccessible
-nsDocAccessible
+DocAccessible
 nsIAccessibleDocument
 )
 /
@@ -612,7 +612,7 @@ nsIPresShell
 aPresShell
 )
 :
-nsDocAccessibleWrap
+DocAccessibleWrap
 (
 aDocument
 aRootContent
@@ -872,7 +872,7 @@ roles
 DIALOG
 ;
 return
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 NativeRole
@@ -1026,7 +1026,7 @@ NativeState
 PRUint64
 state
 =
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 NativeState
@@ -1501,7 +1501,7 @@ this
 ;
 }
 return
-nsDocAccessible
+DocAccessible
 :
 :
 AddEventListeners
@@ -1612,7 +1612,7 @@ accessible
 s
 selection
 listener
-nsDocAccessible
+DocAccessible
 :
 :
 RemoveEventListeners
@@ -1742,7 +1742,7 @@ RootAccessible
 :
 DocumentActivated
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 )
@@ -1891,7 +1891,7 @@ origTargetNode
 return
 NS_OK
 ;
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -2184,7 +2184,7 @@ origTargetNode
 return
 ;
 }
-nsDocAccessible
+DocAccessible
 *
 targetDocument
 =
@@ -3464,7 +3464,7 @@ return
 /
 Already
 shutdown
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 Shutdown
@@ -3501,7 +3501,7 @@ nsIAccessibleRelation
 RELATION_EMBEDS
 )
 return
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 RelationByType
@@ -3580,7 +3580,7 @@ if
 contentDocumentNode
 )
 {
-nsDocAccessible
+DocAccessible
 *
 contentDocument
 =
@@ -3999,7 +3999,7 @@ is
 autocomplete
 popups
 .
-nsDocAccessible
+DocAccessible
 *
 document
 =

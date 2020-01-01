@@ -364,7 +364,7 @@ nsLeafAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -770,7 +770,7 @@ nsLinkableAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -1895,7 +1895,7 @@ nsEnumRoleAccessible
 nsIContent
 *
 aNode
-nsDocAccessible
+DocAccessible
 *
 aDoc
 roles

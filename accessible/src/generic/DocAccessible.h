@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-_nsDocAccessible_H_
+mozilla_a11y_DocAccessible_h__
 #
 define
-_nsDocAccessible_H_
+mozilla_a11y_DocAccessible_h__
 #
 include
 "
@@ -231,7 +231,7 @@ kDefaultCacheSize
 256
 ;
 class
-nsDocAccessible
+DocAccessible
 :
 public
 nsHyperTextAccessibleWrap
@@ -253,7 +253,7 @@ nsIAccessiblePivotObserver
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-nsDocAccessible
+DocAccessible
 nsAccessible
 )
 NS_DECL_NSIACCESSIBLEDOCUMENT
@@ -268,7 +268,7 @@ nsAccessible
 :
 GetParent
 ;
-nsDocAccessible
+DocAccessible
 (
 nsIDocument
 *
@@ -283,7 +283,7 @@ aPresShell
 ;
 virtual
 ~
-nsDocAccessible
+DocAccessible
 (
 )
 ;
@@ -493,7 +493,7 @@ const
 ;
 /
 /
-nsDocAccessible
+DocAccessible
 /
 *
 *
@@ -805,7 +805,7 @@ document
 .
 *
 /
-nsDocAccessible
+DocAccessible
 *
 ParentDocument
 (
@@ -866,7 +866,7 @@ index
 .
 *
 /
-nsDocAccessible
+DocAccessible
 *
 GetChildDocumentAt
 (
@@ -1164,7 +1164,7 @@ inline
 void
 BindChildDocument
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 )
@@ -1940,7 +1940,7 @@ CacheChildren
 ;
 /
 /
-nsDocAccessible
+DocAccessible
 virtual
 nsresult
 AddEventListeners
@@ -2088,7 +2088,7 @@ accessibles
 bool
 AppendChildDocument
 (
-nsDocAccessible
+DocAccessible
 *
 aChildDocument
 )
@@ -2126,7 +2126,7 @@ accessibles
 void
 RemoveChildDocument
 (
-nsDocAccessible
+DocAccessible
 *
 aChildDocument
 )
@@ -3105,7 +3105,7 @@ nsTArray
 <
 nsRefPtr
 <
-nsDocAccessible
+DocAccessible
 >
 >
 mChildDocuments
@@ -3337,7 +3337,7 @@ mPresShell
 }
 ;
 inline
-nsDocAccessible
+DocAccessible
 *
 nsAccessible
 :
@@ -3353,7 +3353,7 @@ eDocAccessible
 ?
 static_cast
 <
-nsDocAccessible
+DocAccessible
 *
 >
 (

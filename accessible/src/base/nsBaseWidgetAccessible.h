@@ -186,7 +186,7 @@ nsLeafAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -301,7 +301,7 @@ nsLinkableAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -472,7 +472,7 @@ nsEnumRoleAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 mozilla

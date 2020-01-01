@@ -110,7 +110,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -299,7 +299,7 @@ TextLeafAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

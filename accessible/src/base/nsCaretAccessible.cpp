@@ -272,7 +272,7 @@ down
 /
 /
 Each
-nsDocAccessible
+DocAccessible
 including
 the
 RootAccessible
@@ -1015,7 +1015,7 @@ aDOMDocument
 )
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 document
 =

@@ -126,7 +126,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -453,7 +453,7 @@ nsXULMenuitemAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -2471,7 +2471,7 @@ nsXULMenuSeparatorAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -2774,7 +2774,7 @@ nsXULMenupopupAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -3387,7 +3387,7 @@ ContainerWidget
 )
 const
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -3765,7 +3765,7 @@ nsXULMenubarAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

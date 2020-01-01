@@ -128,7 +128,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -513,7 +513,7 @@ attributes
 =
 nsnull
 ;
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -659,7 +659,7 @@ IsDoc
 return
 nsnull
 ;
-nsDocAccessible
+DocAccessible
 *
 document
 =

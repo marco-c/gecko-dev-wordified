@@ -176,7 +176,7 @@ if
 focusedNode
 )
 {
-nsDocAccessible
+DocAccessible
 *
 doc
 =
@@ -347,7 +347,7 @@ OwnerDoc
 )
 )
 {
-nsDocAccessible
+DocAccessible
 *
 doc
 =
@@ -620,7 +620,7 @@ if
 targetNode
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -818,7 +818,7 @@ OwnerDoc
 (
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -1052,7 +1052,7 @@ if
 focusedNode
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -1103,7 +1103,7 @@ FocusManager
 :
 DispatchFocusEvent
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsAccessible
@@ -1192,7 +1192,7 @@ target
 "
 aTarget
 )
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -1444,7 +1444,7 @@ t
 focused
 anymore
 .
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -1784,7 +1784,7 @@ no
 longer
 applies
 .
-nsDocAccessible
+DocAccessible
 *
 targetDocument
 =

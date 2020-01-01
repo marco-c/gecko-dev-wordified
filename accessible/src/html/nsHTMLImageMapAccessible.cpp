@@ -117,7 +117,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -355,7 +355,7 @@ nsHTMLImageMapAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -1468,7 +1468,7 @@ nsHTMLAreaAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

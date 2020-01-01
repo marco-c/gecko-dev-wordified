@@ -159,7 +159,7 @@ static
 void
 Run
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 mozilla
@@ -181,7 +181,7 @@ private
 :
 TextUpdater
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 mozilla
@@ -499,7 +499,7 @@ kMaxStrLen
 ;
 private
 :
-nsDocAccessible
+DocAccessible
 *
 mDocument
 ;

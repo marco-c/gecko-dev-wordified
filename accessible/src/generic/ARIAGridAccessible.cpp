@@ -416,7 +416,7 @@ ARIAGridAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -4457,7 +4457,7 @@ ARIAGridCellAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

@@ -142,7 +142,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -1287,7 +1287,7 @@ LogDocInfo
 nsIDocument
 *
 aDocumentNode
-nsDocAccessible
+DocAccessible
 *
 aDocument
 )
@@ -2343,7 +2343,7 @@ DOMDocument
 )
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -2514,7 +2514,7 @@ n
 aMsg
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -2671,7 +2671,7 @@ nsIDocument
 node
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -2712,12 +2712,12 @@ aMsg
 nsIDocument
 *
 aDocumentNode
-nsDocAccessible
+DocAccessible
 *
 aDocument
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -2770,12 +2770,12 @@ aMsg
 nsIDocument
 *
 aDocumentNode
-nsDocAccessible
+DocAccessible
 *
 aDocument
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -2852,7 +2852,7 @@ GetDocumentNode
 (
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 doc
 =

@@ -117,7 +117,7 @@ class
 nsAccessible
 ;
 class
-nsDocAccessible
+DocAccessible
 ;
 struct
 WalkState
@@ -149,7 +149,7 @@ public
 :
 nsAccTreeWalker
 (
-nsDocAccessible
+DocAccessible
 *
 aDoc
 nsIContent
@@ -345,7 +345,7 @@ PopState
 (
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 mDoc
 ;

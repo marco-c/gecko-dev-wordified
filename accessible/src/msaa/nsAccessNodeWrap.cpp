@@ -419,7 +419,7 @@ nsAccessNodeWrap
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -1255,7 +1255,7 @@ is
 a
 document
 .
-nsDocAccessible
+DocAccessible
 *
 docAcc
 =
@@ -4163,7 +4163,7 @@ nsPtrHashKey
 <
 void
 >
-nsDocAccessible
+DocAccessible
 >
 nsAccessNodeWrap
 :
@@ -4241,7 +4241,7 @@ lParam
 OBJID_CLIENT
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =

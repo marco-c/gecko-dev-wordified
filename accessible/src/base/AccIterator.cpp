@@ -715,7 +715,7 @@ RelatedAccIterator
 :
 RelatedAccIterator
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsIContent
@@ -831,7 +831,7 @@ Length
 )
 )
 {
-nsDocAccessible
+DocAccessible
 :
 :
 AttrRelProvider
@@ -1156,7 +1156,7 @@ HTMLLabelIterator
 :
 HTMLLabelIterator
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 const
@@ -1638,7 +1638,7 @@ HTMLOutputIterator
 :
 HTMLOutputIterator
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsIContent
@@ -1881,7 +1881,7 @@ XULLabelIterator
 :
 XULLabelIterator
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsIContent
@@ -2124,7 +2124,7 @@ XULDescriptionIterator
 :
 XULDescriptionIterator
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsIContent
@@ -2367,7 +2367,7 @@ IDRefsIterator
 :
 IDRefsIterator
 (
-nsDocAccessible
+DocAccessible
 *
 aDoc
 nsIContent

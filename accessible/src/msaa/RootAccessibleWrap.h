@@ -146,7 +146,7 @@ virtual
 void
 DocumentActivated
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 )

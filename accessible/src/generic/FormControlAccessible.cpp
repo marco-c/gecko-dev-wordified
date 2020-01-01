@@ -1488,7 +1488,7 @@ RadioButtonAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

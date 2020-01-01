@@ -121,7 +121,7 @@ h
 #
 include
 "
-nsDocAccessibleWrap
+DocAccessibleWrap
 .
 h
 "
@@ -207,7 +207,7 @@ h
 /
 /
 /
-nsDocAccessibleWrap
+DocAccessibleWrap
 /
 /
 /
@@ -288,10 +288,10 @@ nsDocAccessibleWrap
 /
 /
 /
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
-nsDocAccessibleWrap
+DocAccessibleWrap
 (
 nsIDocument
 *
@@ -304,7 +304,7 @@ nsIPresShell
 aPresShell
 )
 :
-nsDocAccessible
+DocAccessible
 (
 aDocument
 aRootContent
@@ -316,11 +316,11 @@ false
 )
 {
 }
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 ~
-nsDocAccessibleWrap
+DocAccessibleWrap
 (
 )
 {

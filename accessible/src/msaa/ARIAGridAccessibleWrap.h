@@ -175,7 +175,7 @@ ARIAGridAccessibleWrap
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -228,7 +228,7 @@ ARIAGridCellAccessibleWrap
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

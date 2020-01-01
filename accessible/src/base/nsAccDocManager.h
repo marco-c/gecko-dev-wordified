@@ -115,7 +115,7 @@ class
 nsAccessible
 ;
 class
-nsDocAccessible
+DocAccessible
 ;
 /
 *
@@ -168,7 +168,7 @@ node
 .
 *
 /
-nsDocAccessible
+DocAccessible
 *
 GetDocAccessible
 (
@@ -191,7 +191,7 @@ presshell
 .
 *
 /
-nsDocAccessible
+DocAccessible
 *
 GetDocAccessible
 (
@@ -267,7 +267,7 @@ testing
 *
 /
 inline
-nsDocAccessible
+DocAccessible
 *
 GetDocAccessibleFromCache
 (
@@ -493,7 +493,7 @@ accessible
 .
 *
 /
-nsDocAccessible
+DocAccessible
 *
 CreateDocOrRootAccessible
 (
@@ -510,9 +510,9 @@ nsPtrHashKey
 const
 nsIDocument
 >
-nsDocAccessible
+DocAccessible
 >
-nsDocAccessibleHashtable
+DocAccessibleHashtable
 ;
 /
 *
@@ -538,7 +538,7 @@ const
 nsIDocument
 *
 aKey
-nsDocAccessible
+DocAccessible
 *
 aDocAccessible
 void
@@ -587,7 +587,7 @@ const
 nsIDocument
 *
 aKey
-nsDocAccessible
+DocAccessible
 *
 aDocAccessible
 void
@@ -606,7 +606,7 @@ const
 nsIDocument
 *
 aKey
-nsDocAccessible
+DocAccessible
 *
 aDocAccessible
 void
@@ -616,7 +616,7 @@ aUserArg
 ;
 #
 endif
-nsDocAccessibleHashtable
+DocAccessibleHashtable
 mDocAccessibleCache
 ;
 }

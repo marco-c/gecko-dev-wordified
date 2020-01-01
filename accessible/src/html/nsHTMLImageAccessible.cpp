@@ -383,7 +383,7 @@ nsHTMLImageAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -1518,7 +1518,7 @@ forget
 ;
 }
 }
-nsDocAccessible
+DocAccessible
 *
 document
 =

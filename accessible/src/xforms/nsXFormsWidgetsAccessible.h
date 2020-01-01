@@ -171,7 +171,7 @@ nsXFormsDropmarkerWidgetAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -266,7 +266,7 @@ nsXFormsCalendarWidgetAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -324,7 +324,7 @@ nsXFormsComboboxPopupWidgetAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

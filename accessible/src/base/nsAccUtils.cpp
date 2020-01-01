@@ -133,7 +133,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -1508,7 +1508,7 @@ the
 result
 node
 .
-nsDocAccessible
+DocAccessible
 *
 doc
 =
@@ -1887,7 +1887,7 @@ nsAccessNode
 aAccessNode
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =

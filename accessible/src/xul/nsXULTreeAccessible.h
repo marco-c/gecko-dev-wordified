@@ -185,7 +185,7 @@ nsXULTreeAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -728,7 +728,7 @@ nsXULTreeItemAccessibleBase
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 nsAccessible
@@ -1129,7 +1129,7 @@ nsXULTreeItemAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 nsAccessible
@@ -1268,7 +1268,7 @@ nsXULTreeColumnsAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

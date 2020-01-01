@@ -117,7 +117,7 @@ class
 nsAccEvent
 ;
 class
-nsDocAccessible
+DocAccessible
 ;
 /
 /
@@ -439,7 +439,7 @@ GetAccessible
 (
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 GetDocAccessible
 (

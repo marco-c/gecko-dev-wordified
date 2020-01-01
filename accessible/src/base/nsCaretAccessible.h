@@ -313,7 +313,7 @@ setControlSelectionListener
 .
 *
 Each
-nsDocAccessible
+DocAccessible
 needs
 to
 tell

@@ -165,7 +165,7 @@ nsXULTreeGridAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -313,7 +313,7 @@ nsXULTreeGridRowAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 nsAccessible
@@ -533,7 +533,7 @@ nsXULTreeGridCellAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 nsXULTreeGridRowAccessible

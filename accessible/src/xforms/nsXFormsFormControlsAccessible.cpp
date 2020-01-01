@@ -299,7 +299,7 @@ nsXFormsLabelAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -549,7 +549,7 @@ nsXFormsOutputAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -747,7 +747,7 @@ nsXFormsTriggerAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -1041,7 +1041,7 @@ nsXFormsInputAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -1337,7 +1337,7 @@ nsXFormsInputBooleanAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -1739,7 +1739,7 @@ nsXFormsInputDateAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -1937,7 +1937,7 @@ nsXFormsSecretAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -2175,7 +2175,7 @@ nsXFormsRangeAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -2728,7 +2728,7 @@ nsXFormsSelectAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -2990,7 +2990,7 @@ nsXFormsChoicesAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -3219,7 +3219,7 @@ nsXFormsSelectFullAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -3430,7 +3430,7 @@ nsXFormsItemCheckgroupAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -3716,7 +3716,7 @@ nsXFormsItemRadiogroupAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -3986,7 +3986,7 @@ nsXFormsSelectComboboxAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -4285,7 +4285,7 @@ nsXFormsItemComboboxAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

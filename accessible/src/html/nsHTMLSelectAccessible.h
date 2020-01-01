@@ -237,7 +237,7 @@ nsHTMLSelectListAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -401,7 +401,7 @@ nsHTMLSelectOptionAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -680,7 +680,7 @@ nsHTMLSelectOptGroupAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -919,7 +919,7 @@ nsHTMLComboboxAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -1149,7 +1149,7 @@ aParent
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

@@ -144,7 +144,7 @@ nsHTMLImageAccessibleWrap
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

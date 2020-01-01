@@ -160,7 +160,7 @@ nsHyperTextAccessibleWrap
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

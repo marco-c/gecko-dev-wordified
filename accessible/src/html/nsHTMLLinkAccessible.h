@@ -119,7 +119,7 @@ nsHTMLLinkAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

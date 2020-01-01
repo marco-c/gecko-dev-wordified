@@ -462,7 +462,7 @@ nsAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -2746,7 +2746,7 @@ mFlags
 eDocAccessible
 ;
 }
-nsDocAccessible
+DocAccessible
 *
 AsDoc
 (

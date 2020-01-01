@@ -144,7 +144,7 @@ nsXULComboboxAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

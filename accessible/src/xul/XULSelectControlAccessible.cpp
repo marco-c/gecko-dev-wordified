@@ -128,7 +128,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -381,7 +381,7 @@ XULSelectControlAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -1573,7 +1573,7 @@ if
 DOMNode
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =

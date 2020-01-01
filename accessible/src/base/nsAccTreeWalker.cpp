@@ -117,7 +117,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -504,7 +504,7 @@ nsAccTreeWalker
 :
 nsAccTreeWalker
 (
-nsDocAccessible
+DocAccessible
 *
 aDoc
 nsIContent

@@ -126,7 +126,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -469,7 +469,7 @@ nsHyperTextAccessible
 nsIContent
 *
 aNode
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

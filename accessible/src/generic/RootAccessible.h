@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsDocAccessibleWrap
+DocAccessibleWrap
 .
 h
 "
@@ -157,7 +157,7 @@ class
 RootAccessible
 :
 public
-nsDocAccessibleWrap
+DocAccessibleWrap
 public
 nsIDOMEventListener
 {
@@ -275,7 +275,7 @@ virtual
 void
 DocumentActivated
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 )

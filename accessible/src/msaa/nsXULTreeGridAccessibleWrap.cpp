@@ -271,7 +271,7 @@ nsXULTreeGridAccessibleWrap
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -465,7 +465,7 @@ nsXULTreeGridCellAccessibleWrap
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 nsXULTreeGridRowAccessible
