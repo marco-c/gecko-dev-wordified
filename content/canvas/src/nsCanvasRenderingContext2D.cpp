@@ -10094,6 +10094,8 @@ styleSet
 ResolveStyleForRules
 (
 nsnull
+nsnull
+nsnull
 parentRules
 )
 ;
@@ -10118,6 +10120,8 @@ styleSet
 ResolveStyleForRules
 (
 parentContext
+nsnull
+nsnull
 rules
 )
 ;
