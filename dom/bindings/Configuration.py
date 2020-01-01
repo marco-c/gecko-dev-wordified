@@ -3210,7 +3210,7 @@ get
 nativeOwnership
 '
 '
-nsisupports
+refcounted
 '
 )
             
@@ -3226,9 +3226,6 @@ owned
 '
 '
 refcounted
-'
-'
-nsisupports
 '
 ]
 :
