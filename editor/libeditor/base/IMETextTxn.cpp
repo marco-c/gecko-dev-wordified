@@ -205,6 +205,17 @@ etc
 #
 include
 "
+nsIContent
+.
+h
+"
+/
+/
+for
+nsIContent
+#
+include
+"
 nsIEditor
 .
 h

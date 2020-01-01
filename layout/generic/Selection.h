@@ -152,6 +152,13 @@ nsRange
 .
 h
 "
+#
+include
+"
+nsThreadUtils
+.
+h
+"
 struct
 CachedOffsetForFrame
 ;
@@ -163,6 +170,9 @@ nsIContentIterator
 ;
 class
 nsIFrame
+;
+class
+nsFrameSelection
 ;
 struct
 SelectionDetails
