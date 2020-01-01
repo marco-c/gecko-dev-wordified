@@ -935,10 +935,6 @@ valgrind_prefix
 '
 -
 -
-auto
--
-run
--
 dsymutil
 =
 yes
