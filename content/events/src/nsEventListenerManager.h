@@ -643,14 +643,12 @@ mMayHaveCapturingListeners
 &
 &
 !
-(
 aEvent
 -
 >
-flags
-&
-NS_EVENT_FLAG_BUBBLE
-)
+mFlags
+.
+mInBubblingPhase
 )
 {
 return

@@ -3007,9 +3007,9 @@ aVisitor
 mEvent
 -
 >
-flags
-&
-NS_EVENT_FLAG_BUBBLE
+mFlags
+.
+mInBubblingPhase
 &
 &
 aVisitor
