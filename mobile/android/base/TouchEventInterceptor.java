@@ -112,7 +112,7 @@ View
 ;
 public
 interface
-OnInterceptTouchListener
+TouchEventInterceptor
 extends
 View
 .
