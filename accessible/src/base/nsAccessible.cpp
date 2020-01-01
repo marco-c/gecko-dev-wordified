@@ -14237,6 +14237,13 @@ GetParentDocument
 (
 )
 ;
+if
+(
+!
+parentDoc
+)
+break
+;
 startContent
 =
 parentDoc
