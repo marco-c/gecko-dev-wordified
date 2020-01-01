@@ -3912,10 +3912,10 @@ p
 len
 ]
 =
-(
 jschar
-)
+(
 0
+)
 ;
 return
 true
