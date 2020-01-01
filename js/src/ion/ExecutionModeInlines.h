@@ -113,7 +113,7 @@ if
 !
 defined
 (
-jsion_compilemode_h__
+jsion_executionmodeinlines_h__
 )
 &
 &
@@ -123,7 +123,7 @@ JS_ION
 )
 #
 define
-jsion_compilemode_h__
+jsion_executionmodeinlines_h__
 namespace
 js
 {
@@ -608,3 +608,6 @@ Ion
 }
 #
 endif
+/
+/
+jsion_executionmodeinlines_h__

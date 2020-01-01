@@ -242,7 +242,7 @@ include
 "
 frontend
 /
-BytecodeEmitter
+BytecodeCompiler
 .
 h
 "
@@ -251,7 +251,7 @@ include
 "
 frontend
 /
-TokenStream
+SourceNotes
 .
 h
 "
