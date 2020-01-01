@@ -2534,6 +2534,7 @@ gfxFT2FontGroup
 (
 aFamilies
 aStyle
+aUserFontSet
 )
 ;
 #
