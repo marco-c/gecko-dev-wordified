@@ -1013,7 +1013,7 @@ endif
 if
 defined
 (
-HAVE_ARM_SIMD
+HAVE_ARM_NEON
 )
 #
 define
