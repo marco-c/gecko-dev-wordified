@@ -997,7 +997,7 @@ masm
 .
 storeTypeTag
 (
-Imm32
+ImmTag
 (
 fe
 -

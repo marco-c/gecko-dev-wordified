@@ -1147,7 +1147,7 @@ inline
 void
 pushSyncedType
 (
-uint32
+JSValueMask32
 tag
 )
 ;
@@ -1214,7 +1214,7 @@ inline
 void
 pushTypedPayload
 (
-uint32
+JSValueMask32
 tag
 RegisterID
 payload
@@ -1272,7 +1272,7 @@ inline
 void
 pushUntypedPayload
 (
-uint32
+JSValueMask32
 tag
 RegisterID
 payload
@@ -1983,7 +1983,7 @@ learnType
 FrameEntry
 *
 fe
-uint32
+JSValueMask32
 tag
 )
 ;
