@@ -12552,8 +12552,12 @@ NS_SUCCEEDED
 sss
 -
 >
-IsStsURI
+IsSecureURI
 (
+nsISiteSecurityService
+:
+:
+HEADER_HSTS
 aURI
 flags
 &

@@ -290,8 +290,12 @@ rv
 sss
 -
 >
-ProcessStsHeader
+ProcessHeader
 (
+nsISiteSecurityService
+:
+:
+HEADER_HSTS
 dummyUri
 hdr
 0
@@ -459,8 +463,12 @@ rv
 sss
 -
 >
-ProcessStsHeader
+ProcessHeader
 (
+nsISiteSecurityService
+:
+:
+HEADER_HSTS
 dummyUri
 hdr
 0

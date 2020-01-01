@@ -948,8 +948,10 @@ aPrincipal
 )
 ;
 nsresult
-SetStsState
+SetState
 (
+uint32_t
+aType
 nsIURI
 *
 aSourceURI
@@ -962,8 +964,10 @@ flags
 )
 ;
 nsresult
-ProcessStsHeaderMutating
+ProcessHeaderMutating
 (
+uint32_t
+aType
 nsIURI
 *
 aSourceURI
