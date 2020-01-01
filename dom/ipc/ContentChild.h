@@ -182,9 +182,6 @@ class
 nsIDOMBlob
 ;
 class
-nsDOMFileBase
-;
-class
 nsIObserver
 ;
 struct
@@ -1027,17 +1024,6 @@ return
 mIsForBrowser
 ;
 }
-bool
-GetParamsForBlob
-(
-nsDOMFileBase
-*
-aBlob
-BlobConstructorParams
-*
-aOutParams
-)
-;
 BlobChild
 *
 GetOrCreateActorForBlob
