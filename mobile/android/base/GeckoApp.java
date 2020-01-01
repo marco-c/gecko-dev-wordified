@@ -16151,7 +16151,6 @@ new
 ProfileMigrator
 (
 app
-profileDir
 )
 ;
 /
@@ -16308,6 +16307,7 @@ profileMigrator
 .
 launchPlaces
 (
+profileDir
 )
 ;
 long
@@ -16402,7 +16402,6 @@ new
 ProfileMigrator
 (
 app
-profileDir
 )
 ;
 if
