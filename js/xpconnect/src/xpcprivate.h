@@ -4168,7 +4168,7 @@ info
 ;
 /
 /
-nsCycleCollectionLanguageRuntime
+nsCycleCollectionJSRuntime
 virtual
 bool
 NotifyLeaveMainThread
@@ -4212,6 +4212,12 @@ virtual
 nsCycleCollectionParticipant
 *
 GetParticipant
+(
+)
+;
+virtual
+void
+FixWeakMappingGrayBits
 (
 )
 ;
