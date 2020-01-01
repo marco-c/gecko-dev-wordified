@@ -4399,7 +4399,9 @@ null
 sendAsyncMessage
 (
 "
-FennecViewportMetadata
+Browser
+:
+ViewportMetadata
 "
 {
 }
@@ -4426,7 +4428,9 @@ getViewportMetadata
 sendAsyncMessage
 (
 "
-FennecViewportMetadata
+Browser
+:
+ViewportMetadata
 "
 this
 .
