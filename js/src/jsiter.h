@@ -766,6 +766,20 @@ Value
 vp
 )
 ;
+JSObject
+*
+GetIteratorObject
+(
+JSContext
+*
+cx
+JSObject
+*
+obj
+uint32_t
+flags
+)
+;
 bool
 VectorToKeyIterator
 (
@@ -951,7 +965,7 @@ vp
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_CloseIterator
 (
@@ -1057,7 +1071,7 @@ context
 *
 /
 extern
-JSBool
+bool
 js_IteratorMore
 (
 JSContext
@@ -1075,7 +1089,7 @@ rval
 )
 ;
 extern
-JSBool
+bool
 js_IteratorNext
 (
 JSContext
