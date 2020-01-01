@@ -17940,6 +17940,8 @@ screenH
 screenW
 )
 ;
+}
+}
 /
 /
 Make
@@ -17985,8 +17987,6 @@ screenW
 )
 )
 ;
-}
-}
 if
 (
 browser
