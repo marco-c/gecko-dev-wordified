@@ -3900,6 +3900,14 @@ for
 the
 destination
 .
+destBufferRect
+=
+neededRegion
+.
+GetBounds
+(
+)
+;
 destBuffer
 =
 CreateClampOrRepeatTextureImage
