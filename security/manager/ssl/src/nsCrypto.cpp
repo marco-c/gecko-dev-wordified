@@ -12370,12 +12370,6 @@ cmmfResponse
 =
 nsnull
 ;
-char
-*
-retString
-=
-nsnull
-;
 CMMFCertRepContent
 *
 certRepContent
@@ -13113,11 +13107,6 @@ a
 good
 thing
 .
-retString
-=
-"
-"
-;
 /
 /
 Import
@@ -13453,9 +13442,8 @@ aReturn
 .
 Assign
 (
-NS_ConvertASCIItoUTF16
+EmptyString
 (
-retString
 )
 )
 ;
