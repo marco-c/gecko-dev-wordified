@@ -11539,7 +11539,10 @@ isPatchable
 )
 ;
 }
+DebugOnly
+<
 int32_t
+>
 check
 =
 l
@@ -11912,7 +11915,10 @@ c
 )
 ;
 }
+DebugOnly
+<
 int32_t
+>
 check
 =
 l
@@ -14341,9 +14347,6 @@ target
 '
 s
 .
-bool
-more
-;
 BufferOffset
 labelBranchOffset
 (
@@ -15853,9 +15856,12 @@ Assembler
 RelocStyle
 rs
 ;
+DebugOnly
+<
 const
 uint32_t
 *
+>
 val
 =
 getPtr32Target
@@ -15872,6 +15878,11 @@ JS_ASSERT
 (
 (
 uint32_t
+)
+(
+const
+uint32_t
+*
 )
 val
 =
