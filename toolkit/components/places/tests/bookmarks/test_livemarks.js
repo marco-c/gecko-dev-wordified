@@ -578,7 +578,7 @@ root
 =
 bmsvc
 .
-bookmarksRoot
+bookmarksMenuFolder
 ;
 /
 /

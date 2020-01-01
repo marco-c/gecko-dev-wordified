@@ -1939,6 +1939,10 @@ aTag
 {
 if
 (
+!
+aTag
+|
+|
 aTag
 .
 length
