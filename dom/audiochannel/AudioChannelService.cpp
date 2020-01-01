@@ -486,7 +486,7 @@ data
 RegisterType
 (
 aType
-CONTENT_PARENT_UNKNOWN_CHILD_ID
+CONTENT_PARENT_NO_CHILD_ID
 )
 ;
 }
@@ -608,7 +608,7 @@ data
 -
 >
 mElementHidden
-CONTENT_PARENT_UNKNOWN_CHILD_ID
+CONTENT_PARENT_NO_CHILD_ID
 )
 ;
 }
@@ -758,7 +758,7 @@ data
 -
 >
 mType
-CONTENT_PARENT_UNKNOWN_CHILD_ID
+CONTENT_PARENT_NO_CHILD_ID
 aElementHidden
 data
 -
