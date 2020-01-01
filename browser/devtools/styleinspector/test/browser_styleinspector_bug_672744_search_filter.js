@@ -146,17 +146,6 @@ Filter
 Test
 "
 ;
-ok
-(
-window
-.
-StyleInspector
-"
-StyleInspector
-exists
-"
-)
-;
 /
 /
 ok

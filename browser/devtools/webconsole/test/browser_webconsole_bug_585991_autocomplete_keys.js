@@ -435,6 +435,9 @@ usage
 test
 "
 ;
+let
+HUD
+;
 registerCleanupFunction
 (
 function
