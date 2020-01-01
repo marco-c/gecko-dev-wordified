@@ -20463,6 +20463,14 @@ if
 shape
 -
 >
+isDataDescriptor
+(
+)
+&
+&
+shape
+-
+>
 hasDefaultGetter
 (
 )
