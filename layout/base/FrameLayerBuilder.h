@@ -4758,8 +4758,10 @@ reference
 frame
 *
 /
+nsRefPtr
+<
 nsRootPresContext
-*
+>
 mRootPresContext
 ;
 /
