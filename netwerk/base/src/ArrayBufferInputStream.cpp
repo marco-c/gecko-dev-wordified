@@ -153,6 +153,10 @@ mOffset
 (
 0
 )
+mPos
+(
+0
+)
 mClosed
 (
 false
@@ -350,7 +354,7 @@ aCount
 =
 mBufferLength
 -
-mOffset
+mPos
 ;
 return
 NS_OK
@@ -380,9 +384,6 @@ aBuf
 aCount
 aReadCount
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -417,7 +418,7 @@ NS_ASSERTION
 mBufferLength
 >
 =
-mOffset
+mPos
 "
 bad
 stream
@@ -439,7 +440,7 @@ remaining
 =
 mBufferLength
 -
-mOffset
+mPos
 ;
 if
 (
@@ -475,16 +476,17 @@ writer
 (
 this
 closure
-reinterpret_cast
-<
+(
 char
 *
->
+)
 (
 mBuffer
 +
 mOffset
 )
++
+mPos
 0
 aCount
 result
@@ -520,7 +522,7 @@ write
 "
 )
 ;
-mOffset
+mPos
 +
 =
 *
