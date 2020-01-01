@@ -414,7 +414,7 @@ nsIChannel
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSICHANNEL
 NS_DECL_NSIREQUEST
 nsExtProtocolChannel
@@ -483,11 +483,11 @@ mLoadGroup
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 nsExtProtocolChannel
 )
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 (
 nsExtProtocolChannel
 )
@@ -1696,11 +1696,11 @@ nsExternalProtocolHandler
 )
 {
 }
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 nsExternalProtocolHandler
 )
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 (
 nsExternalProtocolHandler
 )
