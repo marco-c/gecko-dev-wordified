@@ -1591,7 +1591,10 @@ than
 int
 versionCompareResult
 =
-NS_CompareVersions
+mozilla
+:
+:
+CompareVersions
 (
 appVersion
 productInfoBlock
