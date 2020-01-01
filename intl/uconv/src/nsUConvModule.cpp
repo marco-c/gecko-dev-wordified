@@ -8449,9 +8449,6 @@ kVersion
 kUConvCIDs
 kUConvContracts
 kUConvCategories
-NULL
-NULL
-NULL
 }
 ;
 NSMODULE_DEFN

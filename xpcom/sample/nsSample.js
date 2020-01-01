@@ -430,6 +430,7 @@ XPCOMUtils
 .
 generateNSGetFactory
 )
+var
 NSGetFactory
 =
 XPCOMUtils
@@ -442,6 +443,7 @@ mySample
 )
 ;
 else
+var
 NSGetModule
 =
 XPCOMUtils
