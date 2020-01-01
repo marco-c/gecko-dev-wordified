@@ -2659,7 +2659,7 @@ nsIApplicationCacheContainer
 public
 nsStubMutationObserver
 public
-nsIDOMDocumentTouch
+nsITouchEventReceiver
 public
 nsIInlineEventHandlers
 public
@@ -4274,10 +4274,6 @@ NS_DECL_NSIAPPLICATIONCACHECONTAINER
 /
 nsITouchEventReceiver
 NS_DECL_NSITOUCHEVENTRECEIVER
-/
-/
-nsIDOMDocumentTouch
-NS_DECL_NSIDOMDOCUMENTTOUCH
 /
 /
 nsIInlineEventHandlers
