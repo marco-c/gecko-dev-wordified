@@ -9684,8 +9684,13 @@ GeckoApp
 .
 mAppContext
 .
+mActivityHelper
+.
 showFilePicker
 (
+GeckoApp
+.
+mAppContext
 getMimeTypeFromExtensions
 (
 aExtensions
@@ -9707,8 +9712,13 @@ GeckoApp
 .
 mAppContext
 .
+mActivityHelper
+.
 showFilePicker
 (
+GeckoApp
+.
+mAppContext
 aMimeType
 )
 ;
@@ -16238,8 +16248,13 @@ GeckoApp
 .
 mAppContext
 .
+mActivityHelper
+.
 showFilePicker
 (
+GeckoApp
+.
+mAppContext
 aMimeType
 new
 AsyncResultHandler
@@ -16248,6 +16263,7 @@ id
 )
 )
 )
+{
 GeckoAppShell
 .
 notifyFilePickerResult
@@ -16257,6 +16273,7 @@ notifyFilePickerResult
 id
 )
 ;
+}
 }
 public
 static
