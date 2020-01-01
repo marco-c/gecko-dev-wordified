@@ -4384,7 +4384,7 @@ if
 (
 AppendValueToString
 (
-eCSSProperty_cue_after
+eCSSProperty_cue_before
 aValue
 )
 )
@@ -4405,7 +4405,7 @@ if
 !
 AppendValueToString
 (
-eCSSProperty_cue_before
+eCSSProperty_cue_after
 aValue
 )
 )
@@ -4653,7 +4653,7 @@ if
 (
 AppendValueToString
 (
-eCSSProperty_pause_after
+eCSSProperty_pause_before
 aValue
 )
 )
@@ -4674,7 +4674,7 @@ if
 !
 AppendValueToString
 (
-eCSSProperty_pause_before
+eCSSProperty_pause_after
 aValue
 )
 )
