@@ -555,6 +555,7 @@ completeNode
 .
 value
 "
+entsByTagNameNS
 "
 "
 '
@@ -615,7 +616,7 @@ completeNode
 .
 value
 "
-entsByTagNameNS
+entsByTagName
 "
 "
 '
@@ -677,6 +678,7 @@ completeNode
 .
 value
 "
+entsByTagNameNS
 "
 "
 '
