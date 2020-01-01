@@ -147,9 +147,6 @@ Stack
 h
 "
 #
-ifdef
-JS_ION
-#
 include
 "
 ion
@@ -180,8 +177,6 @@ inl
 .
 h
 "
-#
-endif
 #
 include
 "
