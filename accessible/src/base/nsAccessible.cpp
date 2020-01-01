@@ -15904,7 +15904,7 @@ if
 aChild
 )
 return
-PR_FLASE
+PR_FALSE
 ;
 if
 (
@@ -15972,7 +15972,7 @@ if
 aChild
 )
 return
-PR_FLASE
+PR_FALSE
 ;
 if
 (
@@ -16094,7 +16094,7 @@ if
 aChild
 )
 return
-PR_FLASE
+PR_FALSE
 ;
 PRInt32
 index
