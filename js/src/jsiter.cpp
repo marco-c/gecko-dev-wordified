@@ -719,13 +719,6 @@ js
 :
 gc
 ;
-using
-namespace
-js
-:
-:
-types
-;
 static
 void
 iterator_finalize
