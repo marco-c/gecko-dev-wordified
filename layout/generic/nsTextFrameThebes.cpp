@@ -33584,6 +33584,13 @@ normal
 decoration
 line
 .
+if
+(
+aType
+&
+SelectionTypesWithDecorations
+)
+{
 PRBool
 didHaveOverflowingSelection
 =
@@ -33655,6 +33662,7 @@ eStyleChange
 NS_FRAME_IS_DIRTY
 )
 ;
+}
 }
 /
 /
