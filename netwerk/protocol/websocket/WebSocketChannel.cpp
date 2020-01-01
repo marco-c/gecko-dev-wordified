@@ -5251,10 +5251,6 @@ avail
 =
 payloadLength
 ;
-payloadLength
-=
-0
-;
 if
 (
 mBuffered
@@ -5265,6 +5261,10 @@ mBuffered
 framingLength
 +
 payloadLength
+;
+payloadLength
+=
+0
 ;
 }
 }
