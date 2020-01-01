@@ -4687,6 +4687,9 @@ break
 case
 Type_Int32
 :
+case
+Type_Pointer
+:
 outReg
 =
 regs
@@ -5163,6 +5166,9 @@ break
 case
 Type_Int32
 :
+case
+Type_Pointer
+:
 masm
 .
 load32
@@ -5181,7 +5187,7 @@ freeStack
 (
 sizeof
 (
-JSBool
+int32_t
 )
 )
 ;
