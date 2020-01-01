@@ -171,8 +171,6 @@ set
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-JS_FinalizeStub
-JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 static

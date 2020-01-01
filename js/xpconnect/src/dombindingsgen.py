@@ -3969,7 +3969,12 @@ JS_ConvertStub
 n
 "
 "
-JS_FinalizeStub
+NULL
+/
+*
+finalize
+*
+/
 \
 n
 "

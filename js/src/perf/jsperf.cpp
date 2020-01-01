@@ -1329,7 +1329,6 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 pm_finalize
-JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 /

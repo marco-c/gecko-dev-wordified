@@ -693,7 +693,6 @@ JSResolveOp
 )
 global_resolve
 JS_ConvertStub
-JS_FinalizeStub
 }
 ;
 SkJS

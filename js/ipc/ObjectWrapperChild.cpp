@@ -2400,7 +2400,6 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 CPOW_NewEnumerateState_Finalize
-JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 bool

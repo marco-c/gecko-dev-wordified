@@ -137,8 +137,6 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 my_convert
-JS_FinalizeStub
-JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 static

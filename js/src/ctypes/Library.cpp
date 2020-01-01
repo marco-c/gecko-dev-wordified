@@ -905,7 +905,6 @@ Library
 :
 :
 Finalize
-JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 #
