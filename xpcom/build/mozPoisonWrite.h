@@ -168,6 +168,11 @@ DisableWritePoisoning
 (
 )
 ;
+void
+EnableWritePoisoning
+(
+)
+;
 }
 #
 endif
