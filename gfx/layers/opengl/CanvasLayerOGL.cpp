@@ -701,7 +701,7 @@ GetPlatform
 )
 -
 >
-GetThebesSurfaceForDrawTarget
+CreateThebesSurfaceAliasForDrawTarget_hack
 (
 mDrawTarget
 )
