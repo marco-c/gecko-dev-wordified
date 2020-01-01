@@ -5733,6 +5733,7 @@ bindingManager
 new
 nsBindingManager
 (
+this
 )
 ;
 NS_ENSURE_TRUE
