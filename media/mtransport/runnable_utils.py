@@ -55,7 +55,7 @@ MPL
 .
 MAX_ARGS
 =
-10
+15
 boilerplate
 =
 "
