@@ -627,6 +627,13 @@ gfxSkipChars
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 static
 NS_DEFINE_IID
 (
