@@ -1290,7 +1290,6 @@ firefoxURL
 firefoxFSRef
 )
 )
-;
 {
 /
 /
