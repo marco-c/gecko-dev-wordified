@@ -1396,6 +1396,14 @@ lir
 )
 ;
 bool
+visitGetArgument
+(
+LGetArgument
+*
+lir
+)
+;
+bool
 visitCallSetProperty
 (
 LCallSetProperty

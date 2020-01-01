@@ -1599,6 +1599,14 @@ ins
 )
 ;
 bool
+visitGetArgument
+(
+MGetArgument
+*
+ins
+)
+;
+bool
 visitThrow
 (
 MThrow
