@@ -8969,12 +8969,6 @@ this
 menuitems
 )
 {
-BrowserEventHandler
-.
-blockClick
-=
-true
-;
 let
 event
 =
