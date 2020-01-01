@@ -7840,6 +7840,14 @@ typedef
 TYPEDEF
 '
         
+'
+Infinity
+'
+:
+'
+INFINITY
+'
+        
 }
     
 tokens
@@ -11473,6 +11481,21 @@ optdefvalue
 STRING
                        
 |
+'
+=
+'
+INFINITY
+                       
+|
+'
+=
+'
+'
+-
+'
+INFINITY
+                       
+|
 "
 "
 "
@@ -11491,10 +11514,17 @@ p
 0
 ]
 =
+"
+"
+.
+join
+(
 p
 [
 2
+:
 ]
+)
         
 else
 :
