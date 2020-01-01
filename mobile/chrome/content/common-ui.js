@@ -6302,7 +6302,7 @@ evt
 _updateSuggestionsFor
 :
 function
-_formHelperUpdateAutocompleteFor
+_formHelperUpdateSuggestionsFor
 (
 aElement
 )
