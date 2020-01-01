@@ -542,6 +542,14 @@ debugMode
 (
 false
 )
+anynameObject
+(
+NULL
+)
+functionNamespaceObject
+(
+NULL
+)
 {
 JS_INIT_CLIST
 (
