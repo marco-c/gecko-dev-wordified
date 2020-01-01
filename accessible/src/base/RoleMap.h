@@ -1965,7 +1965,7 @@ ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 USE_ROLE_STRING
 IA2_ROLE_NOTE
-eNameFromSubtreeRule
+eNameFromSubtreeIfReqRule
 )
 ROLE
 (
