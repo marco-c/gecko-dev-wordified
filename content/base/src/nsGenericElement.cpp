@@ -29415,7 +29415,7 @@ EventStateManager
 nsEventStateManager
 :
 :
-SetGlobalActiveContent
+SetActiveManager
 (
 static_cast
 <
