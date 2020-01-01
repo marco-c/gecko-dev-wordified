@@ -59,7 +59,7 @@ h
 #
 include
 <
-iostream
+ostream
 >
 #
 if
