@@ -1792,6 +1792,12 @@ state
 =
 0
 ;
+IMEStateUpdater
+.
+resetIME
+(
+)
+;
 break
 ;
 }
