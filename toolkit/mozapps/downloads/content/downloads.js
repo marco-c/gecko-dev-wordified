@@ -3335,6 +3335,9 @@ download
 false
 )
 ;
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 obs
 .
 addObserver
@@ -3365,6 +3368,8 @@ granted
 false
 )
 ;
+#
+endif
 obs
 .
 addObserver
@@ -3530,6 +3535,9 @@ Ci
 nsIObserverService
 )
 ;
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 obs
 .
 removeObserver
@@ -3558,6 +3566,8 @@ granted
 "
 )
 ;
+#
+endif
 obs
 .
 removeObserver
@@ -3710,6 +3720,9 @@ dl
 ;
 break
 ;
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 case
 "
 private
@@ -3939,6 +3952,8 @@ true
 }
 break
 ;
+#
+endif
 case
 "
 browser
@@ -9249,6 +9264,9 @@ list
 of
 downloads
 .
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 *
 *
 This
@@ -9288,6 +9306,8 @@ should
 be
 initialized
 .
+#
+endif
 *
 /
 function
