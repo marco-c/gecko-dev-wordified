@@ -2514,6 +2514,11 @@ ATTR_COLUMNWIDTH
 static
 nsHtml5AttributeName
 *
+ATTR_CROSSORIGIN
+;
+static
+nsHtml5AttributeName
+*
 ATTR_COLUMNALIGN
 ;
 static
