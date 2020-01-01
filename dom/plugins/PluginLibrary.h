@@ -455,6 +455,13 @@ h
 #
 include
 "
+npfunctions
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
