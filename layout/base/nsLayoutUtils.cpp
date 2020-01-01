@@ -4688,6 +4688,12 @@ list
 }
 #
 endif
+nsDisplayItem
+:
+:
+HitTestState
+hitTestState
+;
 nsIFrame
 *
 result
@@ -4699,6 +4705,8 @@ HitTest
 &
 builder
 aPt
+&
+hitTestState
 )
 ;
 list

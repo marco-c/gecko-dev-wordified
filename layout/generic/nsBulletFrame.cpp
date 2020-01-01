@@ -1131,6 +1131,9 @@ nsDisplayListBuilder
 aBuilder
 nsPoint
 aPt
+HitTestState
+*
+aState
 )
 {
 return
