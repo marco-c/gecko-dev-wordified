@@ -251,8 +251,11 @@ elements
 .
 *
 /
+CHECK
+(
 createAndTestRooted
 (
+)
 )
 ;
 NativeFrameCleaner
@@ -684,5 +687,8 @@ checkPointers
 i
 ]
 )
+;
+return
+true
 ;
 }
