@@ -803,7 +803,10 @@ newTabOne
 .
 _tabViewTabItem
 .
-nameEl
+tabTitle
+[
+0
+]
 .
 innerHTML
 )

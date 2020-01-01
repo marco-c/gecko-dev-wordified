@@ -1491,6 +1491,15 @@ container
 =
 container
 ;
+this
+.
+container
+=
+iQ
+(
+container
+)
+;
 if
 (
 this
