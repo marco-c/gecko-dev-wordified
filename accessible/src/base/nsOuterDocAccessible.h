@@ -521,6 +521,14 @@ CacheChildren
 (
 )
 ;
+nsresult
+GetAttributesInternal
+(
+nsIPersistentProperties
+*
+aAttributes
+)
+;
 }
 ;
 #
