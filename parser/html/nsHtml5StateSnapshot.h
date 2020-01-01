@@ -537,7 +537,7 @@ isQuirks
 )
 ;
 PRInt32
-getListLength
+getListOfActiveFormattingElementsLength
 (
 )
 ;

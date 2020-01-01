@@ -30660,7 +30660,7 @@ listLen
 =
 snapshot
 .
-getListLength
+getListOfActiveFormattingElementsLength
 (
 )
 ;
@@ -30985,7 +30985,7 @@ listLen
 =
 snapshot
 .
-getListLength
+getListOfActiveFormattingElementsLength
 (
 )
 ;
@@ -31795,14 +31795,14 @@ impl
 .
 TreeBuilderState
 #
-getListLength
+getListOfActiveFormattingElementsLength
 (
 )
 *
 /
 public
 int
-getListLength
+getListOfActiveFormattingElementsLength
 (
 )
 {

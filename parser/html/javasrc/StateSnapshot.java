@@ -697,14 +697,14 @@ impl
 .
 TreeBuilderState
 #
-getListLength
+getListOfActiveFormattingElementsLength
 (
 )
 *
 /
 public
 int
-getListLength
+getListOfActiveFormattingElementsLength
 (
 )
 {
