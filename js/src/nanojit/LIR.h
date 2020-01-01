@@ -3137,10 +3137,6 @@ class
 LabelMap
 MMGC_SUBCLASS_DECL
 {
-LabelMap
-*
-parent
-;
 class
 Entry
 MMGC_SUBCLASS_DECL
@@ -3279,9 +3275,6 @@ avmplus
 :
 AvmCore
 *
-LabelMap
-*
-parent
 )
 ;
 ~
@@ -3343,15 +3336,6 @@ const
 void
 *
 p
-)
-;
-void
-promoteAll
-(
-const
-void
-*
-newbase
 )
 ;
 void
