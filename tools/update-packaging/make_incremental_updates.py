@@ -3664,13 +3664,6 @@ txt
 )
 )
             
-partial_decoded
-=
-decode_filename
-(
-partial_filename
-)
-            
 partial_buildid
 =
 to_buildid
@@ -3828,7 +3821,7 @@ version
 locale
 '
 :
-partial_decoded
+from_decoded
 [
 '
 locale
@@ -3839,7 +3832,7 @@ locale
 platform
 '
 :
-partial_decoded
+from_decoded
 [
 '
 platform
