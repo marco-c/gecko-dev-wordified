@@ -3340,6 +3340,13 @@ pn_funbox
 object
 pn
 tc
+opn
+-
+>
+pn_funbox
+-
+>
+strictModeState
 )
 )
 ;
