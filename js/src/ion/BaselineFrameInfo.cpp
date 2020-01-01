@@ -711,6 +711,9 @@ spIndex
 uses
 ;
 }
+#
+ifdef
+DEBUG
 void
 FrameInfo
 :
@@ -1009,3 +1012,5 @@ register
 }
 }
 }
+#
+endif
