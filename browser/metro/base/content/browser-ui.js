@@ -6868,6 +6868,14 @@ beginEditing
 false
 )
 ;
+this
+.
+_edit
+.
+select
+(
+)
+;
 break
 ;
 case
