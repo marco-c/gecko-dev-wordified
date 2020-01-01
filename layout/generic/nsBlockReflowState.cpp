@@ -603,6 +603,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+layout
+;
 nsBlockReflowState
 :
 :
@@ -4507,6 +4514,12 @@ nsCSSOffsetState
 aFloatOffsetState
 )
 {
+AutoMaybeNullInflationContainer
+an
+(
+aFloat
+)
+;
 return
 aFloat
 -
