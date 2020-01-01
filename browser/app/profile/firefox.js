@@ -6725,7 +6725,7 @@ com
 LOCALE
 %
 /
-plugins
+plugincheck
 /
 "
 )
