@@ -487,7 +487,7 @@ case
 QEvent
 :
 :
-FocusIn
+WindowActivate
 :
 {
 QFocusEvent
@@ -520,7 +520,7 @@ case
 QEvent
 :
 :
-FocusOut
+WindowDeactivate
 :
 {
 QFocusEvent
