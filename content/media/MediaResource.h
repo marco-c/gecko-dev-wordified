@@ -152,6 +152,15 @@ nsMediaCache
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 For
@@ -3326,6 +3335,7 @@ IsSuspended
 ;
 class
 Listener
+MOZ_FINAL
 :
 public
 nsIStreamListener

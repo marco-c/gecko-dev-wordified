@@ -124,6 +124,15 @@ nsPrintObject
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsPrintEngine
 ;
@@ -242,6 +251,7 @@ Class
 -
 class
 nsPagePrintTimer
+MOZ_FINAL
 :
 public
 nsITimerCallback

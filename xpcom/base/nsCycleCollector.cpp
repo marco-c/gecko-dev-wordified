@@ -1409,15 +1409,8 @@ if
 !
 ptr
 )
-MOZ_Assert
+MOZ_CRASH
 (
-"
-ptr
-was
-null
-"
-__FILE__
-__LINE__
 )
 ;
 }

@@ -1286,6 +1286,15 @@ nsIPlatformCharset
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 extern
 "
 C
@@ -2010,6 +2019,7 @@ EventListenerManagerMapEntry
 }
 class
 SameOriginChecker
+MOZ_FINAL
 :
 public
 nsIChannelEventSink
@@ -2023,6 +2033,7 @@ NS_DECL_NSIINTERFACEREQUESTOR
 ;
 class
 CharsetDetectionObserver
+MOZ_FINAL
 :
 public
 nsICharsetDetectionObserver

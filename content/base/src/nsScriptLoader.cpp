@@ -389,6 +389,15 @@ CORSMode
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifdef
 PR_LOGGING
 static
@@ -542,6 +551,7 @@ structure
 /
 class
 nsScriptLoadRequest
+MOZ_FINAL
 :
 public
 nsISupports

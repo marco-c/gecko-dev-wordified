@@ -148,6 +148,15 @@ SVGNumberList
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsSVGElement
 ;
@@ -281,6 +290,7 @@ them
 /
 class
 DOMSVGNumberList
+MOZ_FINAL
 :
 public
 nsIDOMSVGNumberList

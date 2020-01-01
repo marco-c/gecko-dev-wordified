@@ -1554,6 +1554,17 @@ char
 info
 )
 {
+if
+(
+name
+.
+IsEmpty
+(
+)
+)
+return
+false
+;
 const
 uint32_t
 maxSize
@@ -2502,7 +2513,7 @@ LOCAL_GL_UNSIGNED_BYTE
 (
 IsExtensionEnabled
 (
-WebGL_OES_texture_float
+OES_texture_float
 )
 &
 &

@@ -271,6 +271,15 @@ Preferences
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 if
 defined
 (
@@ -750,6 +759,7 @@ mData
 ;
 class
 ConsoleListener
+MOZ_FINAL
 :
 public
 nsIConsoleListener
@@ -1421,6 +1431,7 @@ CollectReports
 .
 class
 MemoryReportsWrapper
+MOZ_FINAL
 :
 public
 nsISupports
@@ -1459,6 +1470,7 @@ MemoryReportsWrapper
 )
 class
 MemoryReportCallback
+MOZ_FINAL
 :
 public
 nsIMemoryMultiReporterCallback

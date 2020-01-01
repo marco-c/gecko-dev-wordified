@@ -8461,7 +8461,11 @@ DumpCallgrind
 #
 endif
 #
-ifdef
+if
+0
+/
+/
+ef
 MOZ_VTUNE
 JS_FN
 (
@@ -8642,7 +8646,11 @@ MOZ_CALLGRIND
 *
 /
 #
-ifdef
+if
+0
+/
+/
+def
 MOZ_VTUNE
 #
 include

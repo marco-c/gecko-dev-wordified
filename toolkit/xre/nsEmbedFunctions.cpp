@@ -98,7 +98,7 @@ h
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 #
 include
@@ -1975,7 +1975,7 @@ aArgc
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 g_thread_init
 (

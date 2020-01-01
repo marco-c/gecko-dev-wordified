@@ -256,6 +256,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 prlog
 .
 h
@@ -296,6 +305,7 @@ graph
 /
 class
 nsXULTemplateQueryProcessorRDF
+MOZ_FINAL
 :
 public
 nsIXULTemplateQueryProcessor

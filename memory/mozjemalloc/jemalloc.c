@@ -6327,7 +6327,7 @@ MALLOC_DEBUG
 |
 defined
 (
-MOZ_TEMP_INVESTIGATION
+MOZ_JEMALLOC_HARD_ASSERTS
 )
 uint32_t
 magic
@@ -6658,7 +6658,7 @@ MALLOC_DEBUG
 |
 defined
 (
-MOZ_TEMP_INVESTIGATION
+MOZ_JEMALLOC_HARD_ASSERTS
 )
 uint32_t
 magic
@@ -10314,37 +10314,6 @@ e
 )
 #
 endif
-/
-*
-See
-bug
-764192
-for
-details
-on
-what
-we
-'
-re
-hoping
-to
-see
-with
-these
-*
-RELEASE_ASSERTs
-and
-the
-other
-code
-ifdef
-'
-ed
-by
-MOZ_TEMP_INVESTIGATION
-.
-*
-/
 #
 include
 <
@@ -10358,7 +10327,7 @@ h
 if
 defined
 (
-MOZ_TEMP_INVESTIGATION
+MOZ_JEMALLOC_HARD_ASSERTS
 )
 #
 define
@@ -16324,7 +16293,7 @@ height
 +
 +
 ;
-assert
+RELEASE_ASSERT
 (
 height
 *
@@ -19508,7 +19477,7 @@ choose_arena_hard
 (
 )
 ;
-assert
+RELEASE_ASSERT
 (
 ret
 !
@@ -19830,7 +19799,7 @@ arenas
 ;
 #
 endif
-assert
+RELEASE_ASSERT
 (
 ret
 !
@@ -23681,7 +23650,7 @@ ndirty
 ;
 #
 endif
-assert
+RELEASE_ASSERT
 (
 arena
 -
@@ -23785,7 +23754,7 @@ arena
 chunks_dirty
 )
 ;
-assert
+RELEASE_ASSERT
 (
 chunk
 !
@@ -23813,7 +23782,7 @@ i
 -
 )
 {
-assert
+RELEASE_ASSERT
 (
 i
 >
@@ -25688,7 +25657,7 @@ MALLOC_DEBUG
 |
 defined
 (
-MOZ_TEMP_INVESTIGATION
+MOZ_JEMALLOC_HARD_ASSERTS
 )
 run
 -
@@ -28758,7 +28727,7 @@ pageind
 .
 bits
 ;
-assert
+RELEASE_ASSERT
 (
 (
 mapbits
@@ -28797,7 +28766,7 @@ mapbits
 pagesize_mask
 )
 ;
-assert
+RELEASE_ASSERT
 (
 run
 -
@@ -28828,7 +28797,7 @@ mapbits
 ~
 pagesize_mask
 ;
-assert
+RELEASE_ASSERT
 (
 ret
 !
@@ -28968,7 +28937,7 @@ chunk
 ptr
 )
 {
-assert
+RELEASE_ASSERT
 (
 chunk
 -
@@ -29197,7 +29166,7 @@ huge
 key
 )
 ;
-assert
+RELEASE_ASSERT
 (
 node
 !
@@ -29503,7 +29472,7 @@ MALLOC_DEBUG
 |
 defined
 (
-MOZ_TEMP_INVESTIGATION
+MOZ_JEMALLOC_HARD_ASSERTS
 )
 run
 -
@@ -30368,7 +30337,7 @@ oldsize
 >
 pagesize_2pow
 ;
-assert
+RELEASE_ASSERT
 (
 oldsize
 =
@@ -30763,7 +30732,7 @@ chunk
 >
 arena
 ;
-assert
+RELEASE_ASSERT
 (
 arena
 -
@@ -31948,7 +31917,7 @@ MALLOC_DEBUG
 |
 defined
 (
-MOZ_TEMP_INVESTIGATION
+MOZ_JEMALLOC_HARD_ASSERTS
 )
 arena
 -
@@ -41855,7 +41824,7 @@ bit
 .
 *
 /
-assert
+RELEASE_ASSERT
 (
 !
 (

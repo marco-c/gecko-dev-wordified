@@ -240,6 +240,15 @@ DOMBindingInlines
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 USING_WORKERS_NAMESPACE
 using
 mozilla
@@ -766,6 +775,7 @@ ids
 BEGIN_WORKERS_NAMESPACE
 class
 Proxy
+MOZ_FINAL
 :
 public
 nsIDOMEventListener
@@ -1802,6 +1812,7 @@ NS_OK
 ;
 class
 LoadStartDetectionRunnable
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -6307,7 +6318,7 @@ mResponseType
 XMLHttpRequestResponseTypeValues
 :
 :
-text
+Text
 )
 mTimeout
 (
@@ -9331,7 +9342,7 @@ aResponseType
 XMLHttpRequestResponseTypeValues
 :
 :
-document
+Document
 )
 {
 return

@@ -18316,17 +18316,6 @@ ATOM_MASK
 )
 *
 /
-JS_STATIC_ASSERT
-(
-JSString
-:
-:
-ATOM_FLAGS
-=
-=
-0
-)
-;
 Imm32
 atomMask
 (

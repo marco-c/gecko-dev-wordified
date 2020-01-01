@@ -145,6 +145,15 @@ nsCSSValue
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsPresContext
 ;
@@ -879,6 +888,7 @@ mExpressions
 ;
 class
 nsMediaList
+MOZ_FINAL
 :
 public
 nsIDOMMediaList

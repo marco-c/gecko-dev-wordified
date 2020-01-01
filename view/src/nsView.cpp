@@ -149,6 +149,15 @@ nsIInterfaceRequestor
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 mmptemp
@@ -207,6 +216,7 @@ view
 /
 class
 ViewWrapper
+MOZ_FINAL
 :
 public
 nsIInterfaceRequestor

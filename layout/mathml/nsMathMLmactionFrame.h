@@ -120,6 +120,15 @@ nsIDOMEventListener
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 /
@@ -274,6 +283,7 @@ MouseOut
 ;
 class
 MouseListener
+MOZ_FINAL
 :
 public
 nsIDOMEventListener

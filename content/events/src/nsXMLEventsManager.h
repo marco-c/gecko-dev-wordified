@@ -155,6 +155,15 @@ nsStubDocumentObserver
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 *
@@ -173,6 +182,7 @@ nsXMLEventsManager
 ;
 class
 nsXMLEventsListener
+MOZ_FINAL
 :
 public
 nsIDOMEventListener
@@ -328,6 +338,7 @@ mCancelDefault
 ;
 class
 nsXMLEventsManager
+MOZ_FINAL
 :
 public
 nsStubDocumentObserver

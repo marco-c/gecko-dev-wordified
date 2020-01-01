@@ -134,6 +134,15 @@ prclist
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsPresContext
 ;
@@ -142,6 +151,7 @@ nsMediaList
 ;
 class
 nsDOMMediaQueryList
+MOZ_FINAL
 :
 public
 nsIDOMMediaQueryList

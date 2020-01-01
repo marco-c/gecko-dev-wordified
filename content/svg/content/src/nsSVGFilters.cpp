@@ -22032,7 +22032,7 @@ filterX
 instance
 -
 >
-GetFilterRect
+GetFilterRegion
 (
 )
 .
@@ -22046,7 +22046,7 @@ filterY
 instance
 -
 >
-GetFilterRect
+GetFilterRegion
 (
 )
 .
@@ -22060,7 +22060,7 @@ filterWidth
 instance
 -
 >
-GetFilterRect
+GetFilterRegion
 (
 )
 .
@@ -22074,7 +22074,7 @@ filterHeight
 instance
 -
 >
-GetFilterRect
+GetFilterRegion
 (
 )
 .

@@ -813,7 +813,7 @@ event
 AccEvent
 cycle
 collection
-NS_IMPL_CYCLE_COLLECTION_CLASS
+NS_IMPL_CYCLE_COLLECTION_NATIVE_CLASS
 (
 AccEvent
 )

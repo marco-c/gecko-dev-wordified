@@ -514,6 +514,15 @@ nsIDOMSVGMatrix
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 We
@@ -606,6 +615,7 @@ matrix
 /
 class
 DOMSVGMatrix
+MOZ_FINAL
 :
 public
 nsIDOMSVGMatrix

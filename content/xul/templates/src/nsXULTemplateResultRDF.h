@@ -148,6 +148,15 @@ nsRDFBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 *
@@ -166,6 +175,7 @@ graph
 /
 class
 nsXULTemplateResultRDF
+MOZ_FINAL
 :
 public
 nsIXULTemplateResult

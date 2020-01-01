@@ -803,6 +803,14 @@ nsString
 aText
 )
 ;
+NS_IMETHOD
+PeekOffset
+(
+nsPeekOffsetStruct
+*
+aPos
+)
+;
 NS_DECL_QUERYFRAME
 /
 /

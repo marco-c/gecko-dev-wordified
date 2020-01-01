@@ -146,6 +146,15 @@ nsStyleStruct
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsPresContext
 ;
@@ -358,6 +367,7 @@ pairs
 /
 class
 AnimValuesStyleRule
+MOZ_FINAL
 :
 public
 nsIStyleRule

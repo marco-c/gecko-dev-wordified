@@ -123,6 +123,9 @@ h
 class
 nsRenderingContext
 ;
+class
+nsISVGChildFrame
+;
 typedef
 nsSVGContainerFrame
 nsSVGClipPathFrameBase
@@ -252,6 +255,12 @@ clipping
 bool
 IsTrivial
 (
+nsISVGChildFrame
+*
+*
+aSingleChild
+=
+nsnull
 )
 ;
 bool

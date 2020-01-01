@@ -1127,6 +1127,16 @@ thread
 "
 )
 ;
+if
+(
+IsInvalidated
+(
+)
+)
+{
+return
+;
+}
 /
 /
 Make

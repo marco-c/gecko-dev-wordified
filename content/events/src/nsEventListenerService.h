@@ -148,6 +148,15 @@ jsapi
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsEventListenerInfo
 :
@@ -257,6 +266,7 @@ mInSystemEventGroup
 ;
 class
 nsEventListenerService
+MOZ_FINAL
 :
 public
 nsIEventListenerService

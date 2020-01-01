@@ -120,6 +120,15 @@ nsSVGElement
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsSVGString
 {
@@ -352,6 +361,7 @@ public
 :
 struct
 DOMAnimatedString
+MOZ_FINAL
 :
 public
 nsIDOMSVGAnimatedString

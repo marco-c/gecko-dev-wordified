@@ -148,6 +148,15 @@ SVGLengthList
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIDOMSVGLength
 ;
@@ -284,6 +293,7 @@ them
 /
 class
 DOMSVGLengthList
+MOZ_FINAL
 :
 public
 nsIDOMSVGLengthList

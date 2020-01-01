@@ -136,6 +136,15 @@ nsFrameList
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 Interfaces
@@ -343,6 +352,7 @@ Class
 -
 class
 nsPrintEngine
+MOZ_FINAL
 :
 public
 nsIObserver

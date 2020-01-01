@@ -406,6 +406,15 @@ LookAndFeel
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -724,6 +733,7 @@ listeners
 /
 class
 nsListEventListener
+MOZ_FINAL
 :
 public
 nsIDOMEventListener

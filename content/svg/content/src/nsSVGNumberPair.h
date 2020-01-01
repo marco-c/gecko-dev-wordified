@@ -148,6 +148,15 @@ nsSVGElement
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsISMILAnimationElement
 ;
@@ -477,6 +486,7 @@ public
 :
 struct
 DOMAnimatedNumber
+MOZ_FINAL
 :
 public
 nsIDOMSVGAnimatedNumber

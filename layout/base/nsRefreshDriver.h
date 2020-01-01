@@ -174,6 +174,15 @@ nsHashKeys
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsPresContext
 ;
@@ -324,6 +333,7 @@ aTime
 ;
 class
 nsRefreshDriver
+MOZ_FINAL
 :
 public
 nsITimerCallback

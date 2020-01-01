@@ -206,8 +206,18 @@ misplaced
 NS_STID_
 macros
 .
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsDOMScriptObjectFactory
+MOZ_FINAL
 :
 public
 nsIDOMScriptObjectFactory
@@ -284,6 +294,7 @@ aConstructorCID
 ;
 class
 nsDOMExceptionProvider
+MOZ_FINAL
 :
 public
 nsIExceptionProvider

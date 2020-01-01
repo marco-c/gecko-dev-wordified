@@ -162,6 +162,15 @@ nsITreeSelection
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 Row
 ;
@@ -176,6 +185,7 @@ aResult
 ;
 class
 nsTreeContentView
+MOZ_FINAL
 :
 public
 nsINativeTreeView

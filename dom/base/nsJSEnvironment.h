@@ -183,6 +183,15 @@ nsIArray
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIXPConnectJSObjectHolder
 ;
@@ -1385,6 +1394,7 @@ nsIJSRuntimeService
 ;
 class
 nsJSRuntime
+MOZ_FINAL
 :
 public
 nsIScriptRuntime

@@ -147,6 +147,15 @@ nsIStyleRule
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIAtom
 ;
@@ -158,6 +167,7 @@ nsRuleWalker
 ;
 class
 nsMappedAttributes
+MOZ_FINAL
 :
 public
 nsIStyleRule

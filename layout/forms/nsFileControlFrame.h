@@ -402,6 +402,13 @@ aFrame
 )
 {
 }
+virtual
+~
+MouseListener
+(
+)
+{
+}
 void
 ForgetFrame
 (

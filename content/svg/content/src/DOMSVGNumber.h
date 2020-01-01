@@ -134,6 +134,15 @@ nsTArray
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsSVGElement
 ;
@@ -321,6 +330,7 @@ too
 /
 class
 DOMSVGNumber
+MOZ_FINAL
 :
 public
 nsIDOMSVGNumber

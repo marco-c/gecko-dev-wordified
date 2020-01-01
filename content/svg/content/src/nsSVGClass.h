@@ -141,6 +141,15 @@ nsString
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsSVGStylableElement
 ;
@@ -268,6 +277,7 @@ public
 :
 struct
 DOMAnimatedString
+MOZ_FINAL
 :
 public
 nsIDOMSVGAnimatedString

@@ -1813,7 +1813,9 @@ browser
 js
 '
 s
-BrowserStartup
+gBrowserInit
+.
+onLoad
 (
 which
 handles

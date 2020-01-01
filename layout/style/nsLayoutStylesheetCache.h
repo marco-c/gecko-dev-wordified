@@ -120,6 +120,15 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIFile
 ;
@@ -145,6 +154,7 @@ nsIMemoryReporter
 ;
 class
 nsLayoutStylesheetCache
+MOZ_FINAL
 :
 public
 nsIObserver

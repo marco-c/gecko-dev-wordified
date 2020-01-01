@@ -134,6 +134,15 @@ nsTreeBodyFrame
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 This
@@ -145,6 +154,7 @@ observation
 .
 class
 nsTreeImageListener
+MOZ_FINAL
 :
 public
 nsStubImageDecoderObserver

@@ -162,6 +162,15 @@ nsIAsyncVerifyRedirectCallback
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIURI
 ;
@@ -209,6 +218,7 @@ aPreflightChannel
 ;
 class
 nsCORSListenerProxy
+MOZ_FINAL
 :
 public
 nsIStreamListener

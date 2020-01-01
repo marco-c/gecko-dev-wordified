@@ -286,6 +286,15 @@ nsDOMEventTargetHelper
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -3912,6 +3921,7 @@ nsEventSource
 /
 class
 AsyncVerifyRedirectCallbackFwr
+MOZ_FINAL
 :
 public
 nsIAsyncVerifyRedirectCallback

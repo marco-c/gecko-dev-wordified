@@ -795,7 +795,7 @@ aCaps
 mConnectionInfo
 -
 >
-UsingSSL
+UsingConnect
 (
 )
 &

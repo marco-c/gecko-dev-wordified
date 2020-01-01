@@ -300,6 +300,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsISMILAttr
 .
 h
@@ -402,6 +411,7 @@ nsIDOMNodeList
 /
 class
 nsChildContentList
+MOZ_FINAL
 :
 public
 nsINodeList
@@ -584,6 +594,7 @@ nsIWeakReference
 /
 class
 nsNodeWeakReference
+MOZ_FINAL
 :
 public
 nsIWeakReference
@@ -650,6 +661,7 @@ nsISupportsWeakReference
 /
 class
 nsNodeSupportsWeakRefTearoff
+MOZ_FINAL
 :
 public
 nsISupportsWeakReference
@@ -707,6 +719,7 @@ NodeSelector
 /
 class
 nsNodeSelectorTearoff
+MOZ_FINAL
 :
 public
 nsIDOMNodeSelector
@@ -5926,6 +5939,7 @@ nsITouchEventReceiver
 /
 class
 nsTouchEventReceiverTearoff
+MOZ_FINAL
 :
 public
 nsITouchEventReceiver
@@ -5979,6 +5993,7 @@ nsIInlineEventHandlers
 /
 class
 nsInlineEventHandlersTearoff
+MOZ_FINAL
 :
 public
 nsIInlineEventHandlers

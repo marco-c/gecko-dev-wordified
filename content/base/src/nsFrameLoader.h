@@ -201,6 +201,15 @@ Element
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIURI
 ;
@@ -330,6 +339,7 @@ nsIContentView
 /
 class
 nsContentView
+MOZ_FINAL
 :
 public
 nsIContentView
@@ -695,6 +705,7 @@ mConfig
 ;
 class
 nsFrameLoader
+MOZ_FINAL
 :
 public
 nsIFrameLoader

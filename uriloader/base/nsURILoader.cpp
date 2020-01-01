@@ -385,6 +385,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 FunctionTimer
 .
 h
@@ -573,6 +582,7 @@ aborted
 /
 class
 nsDocumentOpenInfo
+MOZ_FINAL
 :
 public
 nsIStreamListener
