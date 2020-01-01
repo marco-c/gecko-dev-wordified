@@ -88,6 +88,10 @@ nsCOMPtr
 .
 h
 "
+using
+namespace
+QtMobility
+;
 class
 QTMLocationProvider
 :
@@ -115,9 +119,6 @@ void
 positionUpdated
 (
 const
-QtMobility
-:
-:
 QGeoPositionInfo
 &
 )
@@ -129,9 +130,6 @@ QTMLocationProvider
 (
 )
 ;
-QtMobility
-:
-:
 QGeoPositionInfoSource
 *
 mLocation
