@@ -123,13 +123,6 @@ h
 #
 include
 "
-nsIDOMSVGAnimatedEnum
-.
-h
-"
-#
-include
-"
 nsISMILAttr
 .
 h
