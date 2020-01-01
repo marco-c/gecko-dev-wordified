@@ -714,6 +714,14 @@ getObjectCount
 )
 )
 {
+JS_ASSERT
+(
+scratch
+!
+=
+InvalidReg
+)
+;
 branchTestObject
 (
 NotEqual
