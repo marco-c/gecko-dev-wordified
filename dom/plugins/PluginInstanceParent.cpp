@@ -629,6 +629,10 @@ mPluginWndProc
 (
 NULL
 )
+mNestedEventState
+(
+false
+)
 #
 endif
 /
