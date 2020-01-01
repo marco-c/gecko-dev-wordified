@@ -454,6 +454,8 @@ global
 /
 skin
 /
+media
+/
 TopLevelVideoDocument
 .
 css
