@@ -9433,8 +9433,8 @@ same
 private
 .
 class
+MOZ_STACK_CLASS
 AutoClonePrivateGuard
-NS_STACK_CLASS
 {
 public
 :
@@ -14849,7 +14849,6 @@ Call
 /
 /
 static
-NS_SUPPRESS_STACK_CHECK
 JSBool
 XPCWrappedNative
 :

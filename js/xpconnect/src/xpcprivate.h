@@ -2988,7 +2988,7 @@ critical
 sections
 .
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 XPCAutoLock
 {
 public
@@ -3257,7 +3257,7 @@ memory
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 XPCAutoUnlock
 {
 public
@@ -14687,7 +14687,7 @@ using
 XPCNativeScriptableInfo
 .
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 XPCNativeScriptableCreateInfo
 {
 public
@@ -23797,7 +23797,7 @@ reporter
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 AutoScriptEvaluate
 {
 public
@@ -24071,7 +24071,7 @@ MOZ_DELETE
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 AutoResolveName
 {
 public
