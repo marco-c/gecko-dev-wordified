@@ -862,10 +862,17 @@ vsstr
 fsstr
 )
 )
+{
+\
+delete
+p
+;
 \
 return
 PR_FALSE
 ;
+\
+}
 \
 mPrograms
 .
