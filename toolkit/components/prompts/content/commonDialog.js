@@ -595,6 +595,9 @@ let
 ui
 =
 {
+prompt
+:
+window
 loginContainer
 :
 document
