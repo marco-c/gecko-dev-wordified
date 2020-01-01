@@ -4098,6 +4098,12 @@ null
 }
 if
 (
+securityType
+!
+=
+WIFI_SECURITY_TYPE_NONE
+&
+&
 !
 securityId
 )
