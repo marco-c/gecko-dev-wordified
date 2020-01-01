@@ -9487,7 +9487,7 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 WebGLContext
 )
-NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_10
+NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_12
 (
 WebGLContext
 mCanvasElement
@@ -9495,11 +9495,13 @@ mExtensions
 mBound2DTextures
 mBoundCubeMapTextures
 mBoundArrayBuffer
+mBoundTransformFeedbackBuffer
 mCurrentProgram
 mBoundFramebuffer
 mBoundRenderbuffer
 mBoundVertexArray
 mActiveOcclusionQuery
+mActiveTransformFeedbackQuery
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
