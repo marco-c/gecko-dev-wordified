@@ -668,11 +668,17 @@ const
 nsIntPoint
 &
 aOffset
+const
 nsIntRegion
+&
 aScreenRegion
+const
 nsIntPoint
+&
 aTextureOffset
+const
 nsIntSize
+&
 aTextureBounds
 Layer
 *
