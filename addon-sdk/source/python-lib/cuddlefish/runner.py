@@ -300,11 +300,11 @@ Firefox
 .
 RUN_TIMEOUT
 =
-30
+45
 *
 60
 #
-30
+45
 minutes
 #
 Maximum
@@ -3555,6 +3555,11 @@ False
 bundle_sdk
 =
 True
+            
+pkgdir
+=
+"
+"
 )
 :
     
@@ -4422,6 +4427,10 @@ used_files
 bundle_sdk
 =
 bundle_sdk
+              
+pkgdir
+=
+pkgdir
 )
     
 addons

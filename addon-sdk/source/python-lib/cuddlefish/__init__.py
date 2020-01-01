@@ -8028,6 +8028,16 @@ used_files
 extra_harness_options
 =
 extra_harness_options
+                  
+bundle_sdk
+=
+True
+                  
+pkgdir
+=
+options
+.
+pkgdir
 )
     
 else
@@ -8222,6 +8232,12 @@ bundle_sdk
 options
 .
 bundle_sdk
+                             
+pkgdir
+=
+options
+.
+pkgdir
 )
         
 except
