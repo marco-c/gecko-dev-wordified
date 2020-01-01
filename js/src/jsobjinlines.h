@@ -6794,9 +6794,8 @@ Shape
 search
 (
 cx
-lastProperty
-(
-)
+&
+shape_
 id
 adding
 )

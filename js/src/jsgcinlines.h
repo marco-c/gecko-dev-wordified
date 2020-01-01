@@ -734,6 +734,14 @@ Value
 if
 (
 numSlots
+>
+JSObject
+:
+:
+NSLOTS_LIMIT
+|
+|
+numSlots
 +
 2
 >

@@ -686,6 +686,8 @@ gc
 GetGCObjectKind
 (
 RESERVED_SLOTS
++
+1
 )
 ;
 JS_ASSERT
@@ -700,6 +702,8 @@ kind
 =
 =
 RESERVED_SLOTS
++
+1
 )
 ;
 }
