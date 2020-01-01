@@ -234,7 +234,10 @@ JSAutoCompartment
 >
 &
 aAc
-jsval
+JS
+:
+:
+Value
 *
 aJSVal
 )
