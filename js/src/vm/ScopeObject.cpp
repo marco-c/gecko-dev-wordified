@@ -11488,11 +11488,11 @@ logic
 .
 *
 /
-StackFrame
-:
-:
-CopyVector
+AutoValueVector
 vec
+(
+cx
+)
 ;
 if
 (
