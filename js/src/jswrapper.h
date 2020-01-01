@@ -1998,7 +1998,10 @@ JSObject
 obj
 )
 ;
+JS_FRIEND_API
+(
 bool
+)
 IsCrossCompartmentWrapper
 (
 const
