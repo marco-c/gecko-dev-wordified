@@ -1195,7 +1195,7 @@ const
 Register
 IntArgRegs
 [
-NumArgRegs
+NumIntArgRegs
 ]
 =
 {
