@@ -1507,6 +1507,11 @@ need
 to
 be
 fired
+if
+(
+docAccessible
+)
+{
 docAccessible
 -
 >
@@ -1515,6 +1520,7 @@ FireDocLoadEvents
 eventType
 )
 ;
+}
 return
 NS_OK
 ;
@@ -7950,7 +7956,7 @@ frame
 aPresShell
 -
 >
-GetPrimaryFrameFor
+GetRealPrimaryFrameFor
 (
 content
 )
@@ -8920,6 +8926,9 @@ NS_OK
 }
 if
 (
+tableAccessible
+&
+&
 nsAccessible
 :
 :
