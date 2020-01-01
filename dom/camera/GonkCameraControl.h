@@ -441,6 +441,11 @@ aLength
 )
 ;
 void
+TakePictureError
+(
+)
+;
+void
 HandleRecorderEvent
 (
 int
@@ -749,6 +754,14 @@ uint8_t
 aData
 uint32_t
 aLength
+)
+;
+void
+ReceiveImageError
+(
+nsGonkCameraControl
+*
+gc
 )
 ;
 void
