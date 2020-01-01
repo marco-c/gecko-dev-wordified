@@ -1791,9 +1791,8 @@ return
 cp
 ;
 }
-static
 JSBool
-num_toString
+js_num_toString
 (
 JSContext
 *
@@ -2125,7 +2124,7 @@ seperators
 if
 (
 !
-num_toString
+js_num_toString
 (
 cx
 0
@@ -3173,7 +3172,7 @@ vp
 )
 )
 return
-num_toString
+js_num_toString
 (
 cx
 0
@@ -3216,7 +3215,7 @@ endif
 JS_FN
 (
 js_toString_str
-num_toString
+js_num_toString
 1
 JSFUN_THISP_NUMBER
 )
