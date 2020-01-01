@@ -4065,6 +4065,8 @@ char
 cellDesc
 [
 1024
+*
+32
 ]
 ;
 JS_GetTraceThingInfo
