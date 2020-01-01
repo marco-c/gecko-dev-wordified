@@ -10022,6 +10022,8 @@ type
 =
 NPWindowTypeDrawable
 ;
+:
+:
 Rect
 gwBounds
 ;
