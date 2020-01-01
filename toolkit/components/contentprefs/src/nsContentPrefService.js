@@ -1317,7 +1317,6 @@ aName
 )
 ;
 }
-else
 return
 this
 .
@@ -1823,7 +1822,6 @@ group
 )
 ;
 }
-else
 return
 this
 .
