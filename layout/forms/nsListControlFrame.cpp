@@ -4812,6 +4812,9 @@ ShouldReflowAllKids
 (
 )
 ;
+#
+ifdef
+DEBUG
 nscoord
 oldHeightOfARow
 =
@@ -4819,6 +4822,8 @@ HeightOfARow
 (
 )
 ;
+#
+endif
 nsHTMLReflowState
 state
 (
@@ -10560,9 +10565,14 @@ wasChanged
 =
 PR_FALSE
 ;
+#
+ifdef
+DEBUG
 nsresult
 rv
 =
+#
+endif
 selectElement
 -
 >

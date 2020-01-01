@@ -6829,9 +6829,6 @@ correct
 location
 for
 printing
-nsresult
-rv
-;
 nsPluginWindow
 window
 ;
@@ -7204,6 +7201,7 @@ window
 =
 window
 ;
+nsresult
 rv
 =
 pi
@@ -7358,8 +7356,6 @@ print
 info
 to
 plugin
-rv
-=
 pi
 -
 >
@@ -7792,8 +7788,6 @@ print
 info
 to
 plugin
-rv
-=
 pi
 -
 >
@@ -8043,8 +8037,6 @@ print
 info
 to
 plugin
-rv
-=
 pi
 -
 >
