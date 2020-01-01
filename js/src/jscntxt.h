@@ -9103,10 +9103,6 @@ JSEmptyScope
 *
 emptyCallScope
 ;
-JSEmptyScope
-*
-emptyWithScope
-;
 /
 *
 *
