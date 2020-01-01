@@ -13,7 +13,7 @@ tab
 -
 width
 :
-4
+2
 ;
 indent
 -
@@ -29,7 +29,7 @@ basic
 -
 offset
 :
-4
+2
 -
 *
 -
@@ -518,7 +518,10 @@ aResult
 =
 NS_NewPermanentAtom
 (
+NS_ConvertUTF16toUTF8
+(
 aString
+)
 )
 ;
 if
@@ -592,7 +595,10 @@ aResult
 =
 NS_NewPermanentAtom
 (
+nsDependentCString
+(
 aValue
+)
 )
 ;
 if

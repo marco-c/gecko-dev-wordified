@@ -488,14 +488,15 @@ MORE_TESTING_ATOM
 name_
 value_
 )
-{
+NS_STATIC_ATOM
+(
 value_
 &
 MoreTestingAtoms
 :
 :
 name_
-}
+)
 #
 include
 "

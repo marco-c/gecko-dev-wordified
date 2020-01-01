@@ -691,9 +691,12 @@ NS_FONT_STRETCH_NORMAL
 0
 NS_NewPermanentAtom
 (
+NS_LITERAL_CSTRING
+(
 "
 en
 "
+)
 )
 0
 .
