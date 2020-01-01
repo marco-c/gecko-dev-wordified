@@ -25552,7 +25552,7 @@ ParseVariant
 (
 aErrorCode
 aValue
-VARIANT_INTEGER
+VARIANT_HI
 nsnull
 )
 ;
@@ -25914,7 +25914,7 @@ ParsePositiveVariant
 (
 aErrorCode
 aValue
-VARIANT_INTEGER
+VARIANT_HI
 nsnull
 )
 ;
