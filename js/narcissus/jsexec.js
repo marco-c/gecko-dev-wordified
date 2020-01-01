@@ -893,7 +893,6 @@ s
 Array
 :
 function
-Array
 (
 dummy
 )
@@ -912,8 +911,6 @@ a
 constructor
 .
 return
-GLOBAL
-.
 Array
 .
 apply
