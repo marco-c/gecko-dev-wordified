@@ -468,6 +468,10 @@ GfxInfoBase
 {
 public
 :
+GfxInfo
+(
+)
+;
 /
 /
 We
@@ -720,6 +724,11 @@ nsnull
 private
 :
 void
+GetDeviceInfo
+(
+)
+;
+void
 AddCrashReportAnnotations
 (
 )
@@ -741,6 +750,12 @@ mDriverDate
 ;
 nsString
 mDeviceKey
+;
+PRUint32
+mAdapterVendorID
+;
+PRUint32
+mAdapterDeviceID
 ;
 PRUint32
 mRendererIDs
