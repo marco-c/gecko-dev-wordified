@@ -4735,7 +4735,7 @@ the
 view
 NS_ASSERTION
 (
-IsRefreshEnabled
+IsPaintingAllowed
 (
 )
 "
@@ -4747,9 +4747,11 @@ receiving
 paint
 events
 while
-refresh
+painting
 is
-disabled
+"
+"
+disallowed
 !
 "
 )
