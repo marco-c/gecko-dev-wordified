@@ -420,7 +420,7 @@ contentWindow
 width
 height
 padding
-noAnimation
+animate
 )
 {
 let
@@ -466,15 +466,6 @@ height
 height
 ;
 let
-immediately
-=
-noAnimation
-?
-true
-:
-false
-;
-let
 emptyGroupItem
 =
 new
@@ -490,7 +481,8 @@ bounds
 box
 immediately
 :
-immediately
+!
+animate
 }
 )
 ;

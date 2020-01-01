@@ -586,7 +586,6 @@ contentWindow
 300
 300
 100
-true
 )
 ;
 ok
@@ -755,7 +754,6 @@ contentWindow
 300
 300
 200
-true
 )
 ;
 let

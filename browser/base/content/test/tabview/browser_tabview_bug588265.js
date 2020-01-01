@@ -537,7 +537,6 @@ contentWindow
 250
 250
 40
-true
 )
 ;
 createNewTabItemInGroupItem
