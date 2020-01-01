@@ -1471,7 +1471,7 @@ nscoord
 aCaretHeight
 )
 ;
-void
+nsresult
 GetGeometryForFrame
 (
 nsIFrame
