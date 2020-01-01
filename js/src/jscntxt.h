@@ -958,7 +958,7 @@ iterators
 .
 *
 /
-JSObject
+PropertyIteratorObject
 *
 data
 [
@@ -994,7 +994,7 @@ started
 .
 *
 /
-JSObject
+PropertyIteratorObject
 *
 last
 ;
@@ -1028,7 +1028,7 @@ data
 )
 ;
 }
-JSObject
+PropertyIteratorObject
 *
 get
 (
@@ -1052,7 +1052,7 @@ set
 (
 uint32_t
 key
-JSObject
+PropertyIteratorObject
 *
 iterobj
 )
@@ -7108,7 +7108,10 @@ in
 .
 *
 /
-JSObject
+js
+:
+:
+PropertyIteratorObject
 *
 enumerators
 ;
