@@ -228,10 +228,6 @@ CRMFObject
 )
 #
 endif
-DOMCI_CLASS
-(
-Crypto
-)
 /
 /
 DOM
