@@ -19323,7 +19323,7 @@ if
 hole
 )
 {
-JSBool
+bool
 equal
 ;
 if
@@ -19339,7 +19339,7 @@ equal
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -19358,7 +19358,7 @@ i
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 }
