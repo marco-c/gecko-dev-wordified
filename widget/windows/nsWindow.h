@@ -269,6 +269,13 @@ nsIDOMMouseEvent
 .
 h
 "
+#
+include
+"
+nsIIdleServiceInternal
+.
+h
+"
 /
 *
 *
@@ -2989,7 +2996,7 @@ mCaptionHeight
 ;
 nsCOMPtr
 <
-nsIdleService
+nsIIdleServiceInternal
 >
 mIdleService
 ;
