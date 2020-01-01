@@ -219,7 +219,7 @@ querySelector
 (
 "
 .
-jsterm
+webconsole
 -
 close
 -
