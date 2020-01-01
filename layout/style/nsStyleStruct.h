@@ -9681,6 +9681,15 @@ reset
 percent
 coord
 calc
+nsStyleCoord
+mChildPerspective
+;
+/
+/
+[
+reset
+]
+coord
 nsAutoTArray
 <
 nsTransition
