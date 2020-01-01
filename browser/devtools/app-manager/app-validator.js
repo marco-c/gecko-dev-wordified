@@ -531,8 +531,8 @@ validator
 invalidManifestJSON
 "
 [
-manifestURL
 e
+manifestURL
 ]
 2
 )
@@ -920,7 +920,7 @@ GetStringFromName
 "
 validator
 .
-missIconForMarketplace
+missIconMarketplace
 "
 )
 )
