@@ -1350,7 +1350,7 @@ getPrefs
 {
 Logger
 .
-debug
+trace
 (
 LOG_TAG
 "
@@ -1462,7 +1462,7 @@ u
 ;
 Logger
 .
-debug
+trace
 (
 LOG_TAG
 "
@@ -1531,7 +1531,7 @@ null
 ;
 Logger
 .
-debug
+trace
 (
 LOG_TAG
 "
@@ -2292,7 +2292,7 @@ null
 ;
 Logger
 .
-debug
+trace
 (
 LOG_TAG
 "
@@ -2451,7 +2451,7 @@ prefs
 ;
 Logger
 .
-debug
+trace
 (
 LOG_TAG
 "

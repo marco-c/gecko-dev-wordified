@@ -282,6 +282,12 @@ java
 ggregory
 *
 /
+SuppressWarnings
+(
+"
+rawtypes
+"
+)
 public
 class
 StringEncoderComparator
@@ -499,6 +505,12 @@ see
 Comparable
 *
 /
+SuppressWarnings
+(
+"
+unchecked
+"
+)
 public
 int
 compare
