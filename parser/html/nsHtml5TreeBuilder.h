@@ -964,7 +964,7 @@ PRInt32
 group
 )
 ;
-void
+PRBool
 addAttributesToBody
 (
 nsHtml5HtmlAttributes
