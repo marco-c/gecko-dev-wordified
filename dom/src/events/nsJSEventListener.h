@@ -247,8 +247,14 @@ virtual
 void
 UpdateScopeObject
 (
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aScopeObject
 )
 ;

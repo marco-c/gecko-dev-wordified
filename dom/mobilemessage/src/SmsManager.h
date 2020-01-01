@@ -201,8 +201,14 @@ aCx
 JSObject
 *
 aGlobal
+JS
+:
+:
+Handle
+<
 JSString
 *
+>
 aNumber
 const
 nsAString
