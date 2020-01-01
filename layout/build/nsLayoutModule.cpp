@@ -433,7 +433,11 @@ stuff
 #
 include
 "
-nsXPathEvaluator
+mozilla
+/
+dom
+/
+XPathEvaluator
 .
 h
 "
@@ -1692,7 +1696,7 @@ txMozillaXSLTProcessor
 )
 NS_GENERIC_AGGREGATED_CONSTRUCTOR_INIT
 (
-nsXPathEvaluator
+XPathEvaluator
 Init
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
@@ -5603,7 +5607,7 @@ txMozillaXSLTProcessorConstructor
 kTRANSFORMIIX_XPATH_EVALUATOR_CID
 false
 NULL
-nsXPathEvaluatorConstructor
+XPathEvaluatorConstructor
 }
 {
 &
