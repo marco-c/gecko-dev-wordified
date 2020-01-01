@@ -25515,12 +25515,13 @@ vp
 if
 (
 !
+callJSPropertyOp
+(
+cx
 clasp
 -
 >
 addProperty
-(
-cx
 obj
 SPROP_USERID
 (
@@ -29833,6 +29834,9 @@ JSVAL_VOID
 if
 (
 !
+callJSPropertyOp
+(
+cx
 obj
 -
 >
@@ -29842,8 +29846,6 @@ getClass
 -
 >
 getProperty
-(
-cx
 obj
 ID_TO_VALUE
 (
@@ -32570,6 +32572,9 @@ parameter
 *
 /
 return
+callJSPropertyOp
+(
+cx
 obj
 -
 >
@@ -32579,8 +32584,6 @@ getClass
 -
 >
 delProperty
-(
-cx
 obj
 ID_TO_VALUE
 (
@@ -32636,6 +32639,9 @@ locked
 if
 (
 !
+callJSPropertyOp
+(
+cx
 obj
 -
 >
@@ -32645,8 +32651,6 @@ getClass
 -
 >
 delProperty
-(
-cx
 obj
 SPROP_USERID
 (
