@@ -2853,6 +2853,10 @@ aSharedContext
 nsnull
 )
 :
+mOffscreenFBOsDirty
+(
+false
+)
 mInitialized
 (
 false
@@ -2920,10 +2924,6 @@ mOffscreenDrawFBO
 mOffscreenReadFBO
 (
 0
-)
-mOffscreenFBOsDirty
-(
-false
 )
 mOffscreenColorRB
 (
