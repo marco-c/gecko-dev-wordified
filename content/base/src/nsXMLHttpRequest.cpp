@@ -1876,10 +1876,6 @@ mProgressTimerIsActive
 (
 false
 )
-mProgressEventWasDelayed
-(
-false
-)
 mIsHtml
 (
 false
@@ -20659,10 +20655,6 @@ if
 mProgressNotifier
 )
 {
-mProgressEventWasDelayed
-=
-false
-;
 mProgressTimerIsActive
 =
 true
