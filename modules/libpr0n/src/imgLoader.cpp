@@ -3021,15 +3021,6 @@ constructor
 code
 *
 /
-#
-ifdef
-DEBUG_pavlov
-PrintImageDecoders
-(
-)
-;
-#
-endif
 }
 imgLoader
 :
