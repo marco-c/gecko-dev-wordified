@@ -1772,10 +1772,9 @@ innerParent
 =
 wrappedObj
 ;
-Innerize
+OBJ_TO_INNER_OBJECT
 (
 cx
-&
 innerParent
 )
 ;

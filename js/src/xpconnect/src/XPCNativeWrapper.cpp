@@ -3507,13 +3507,7 @@ funobj
 >
 setParent
 (
-js
-:
-:
-ObjectOrNullTag
-(
 obj
-)
 )
 ;
 return

@@ -15962,10 +15962,9 @@ rv
 return
 rv
 ;
-Innerize
+OBJ_TO_INNER_OBJECT
 (
 cx
-&
 obj
 )
 ;
@@ -18464,7 +18463,7 @@ NS_ERROR_XPC_UNEXPECTED
 js
 :
 :
-AutoValueRooter
+AutoObjectRooter
 tvr
 (
 cx

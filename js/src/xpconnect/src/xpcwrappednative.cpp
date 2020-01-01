@@ -5233,13 +5233,6 @@ mWrapperWord
 0
 )
 {
-PR_STATIC_ASSERT
-(
-LAST_FLAG
-&
-JSVAL_TAGMASK
-)
-;
 mIdentity
 =
 aIdentity

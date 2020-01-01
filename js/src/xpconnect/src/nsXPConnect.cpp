@@ -14158,10 +14158,9 @@ GetGlobalJSObject
 (
 )
 ;
-Innerize
+OBJ_TO_INNER_OBJECT
 (
 aJSContext
-&
 possibleOuter
 )
 ;
