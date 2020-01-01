@@ -116,13 +116,6 @@ h
 #
 include
 "
-nsFixedSizeAllocator
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h

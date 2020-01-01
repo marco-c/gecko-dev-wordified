@@ -109,13 +109,6 @@ h
 #
 include
 "
-nsFixedSizeAllocator
-.
-h
-"
-#
-include
-"
 nsRDFTestNode
 .
 h

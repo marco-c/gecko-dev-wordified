@@ -102,13 +102,6 @@ nsXULTemplateResultSetRDF_h__
 #
 include
 "
-nsFixedSizeAllocator
-.
-h
-"
-#
-include
-"
 nsISimpleEnumerator
 .
 h
