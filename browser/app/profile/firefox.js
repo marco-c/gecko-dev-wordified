@@ -7410,7 +7410,7 @@ plugins
 .
 click_to_play
 "
-true
+false
 )
 ;
 /
@@ -13525,6 +13525,18 @@ devtools
 inspector
 .
 markupPreview
+"
+false
+)
+;
+pref
+(
+"
+devtools
+.
+inspector
+.
+remote
 "
 false
 )
