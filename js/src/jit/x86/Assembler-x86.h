@@ -830,7 +830,7 @@ REG
 MEM_REG_DISP
 FPREG
 MEM_SCALE
-MEM_ADDRESS
+MEM_ADDRESS32
 }
 ;
 private
@@ -1061,7 +1061,7 @@ address
 :
 kind_
 (
-MEM_ADDRESS
+MEM_ADDRESS32
 )
 disp_
 (
@@ -1088,7 +1088,7 @@ address
 :
 kind_
 (
-MEM_ADDRESS
+MEM_ADDRESS32
 )
 disp_
 (
@@ -1376,7 +1376,7 @@ kind
 )
 =
 =
-MEM_ADDRESS
+MEM_ADDRESS32
 )
 ;
 return
@@ -2626,7 +2626,7 @@ case
 Operand
 :
 :
-MEM_ADDRESS
+MEM_ADDRESS32
 :
 masm
 .
