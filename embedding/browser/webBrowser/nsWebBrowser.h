@@ -674,7 +674,7 @@ mPersist
 PRUint32
 mPersistCurrentState
 ;
-PRUint32
+nsresult
 mPersistResult
 ;
 PRUint32

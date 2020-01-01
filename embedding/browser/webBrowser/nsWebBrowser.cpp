@@ -5802,8 +5802,7 @@ NS_OK
 *
 readonly
 attribute
-unsigned
-long
+nsresult
 result
 ;
 *
@@ -5814,7 +5813,7 @@ nsWebBrowser
 :
 GetResult
 (
-PRUint32
+nsresult
 *
 aResult
 )

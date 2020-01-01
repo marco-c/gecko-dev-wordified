@@ -1165,7 +1165,7 @@ mSerializingOutput
 PRUint32
 mPersistFlags
 ;
-PRUint32
+nsresult
 mPersistResult
 ;
 PRInt64
