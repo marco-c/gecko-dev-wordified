@@ -23774,12 +23774,12 @@ rv
 ;
 if
 (
-!
 col
 -
 >
-GetNext
+IsLastVisible
 (
+this
 )
 )
 columnWidth
