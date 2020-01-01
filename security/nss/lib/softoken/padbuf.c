@@ -149,7 +149,7 @@ char
 *
 CBC_PadBuffer
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 unsigned

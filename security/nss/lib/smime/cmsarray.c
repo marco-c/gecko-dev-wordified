@@ -167,7 +167,7 @@ void
 *
 NSS_CMSArray_Alloc
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 int
@@ -231,7 +231,7 @@ grown
 SECStatus
 NSS_CMSArray_Add
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 void

@@ -1564,7 +1564,7 @@ PR_FALSE
 SECStatus
 SECKEY_CopySubjectPublicKeyInfo
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTSubjectPublicKeyInfo
@@ -2606,7 +2606,7 @@ structure
 SECStatus
 SECKEY_DSADecodePQG
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECKEYPublicKey
@@ -3092,7 +3092,7 @@ newParms
 SECStatus
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -5010,7 +5010,7 @@ SECKEYPrivateKey
 *
 copyk
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -5275,7 +5275,7 @@ SECKEYPublicKey
 *
 copyk
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -5889,7 +5889,7 @@ SECKEYPublicKey
 *
 pubk
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -6195,7 +6195,7 @@ CERTSubjectPublicKeyInfo
 *
 spki
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -6824,7 +6824,7 @@ SECItem
 pubkder
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -7171,7 +7171,7 @@ SECItem
 spkider
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -7455,7 +7455,7 @@ rv
 SECItem
 signedItem
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -7907,7 +7907,7 @@ PRBool
 freeit
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -8081,7 +8081,7 @@ PRBool
 freeit
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -8238,7 +8238,7 @@ epki
 SECStatus
 SECKEY_CopyPrivateKeyInfo
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECKEYPrivateKeyInfo
@@ -8358,7 +8358,7 @@ rv
 SECStatus
 SECKEY_CopyEncryptedPrivateKeyInfo
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECKEYEncryptedPrivateKeyInfo
@@ -8501,7 +8501,7 @@ SECFailure
 SECItem
 newDerKey
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -8755,7 +8755,7 @@ SECKEY_NewPrivateKeyList
 void
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -9038,7 +9038,7 @@ SECKEY_NewPublicKeyList
 void
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =

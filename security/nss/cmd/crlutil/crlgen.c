@@ -757,7 +757,7 @@ static
 SECStatus
 crlgen_SetString
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const
@@ -847,7 +847,7 @@ CERTGeneralName
 *
 crlgen_GetGeneralName
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CRLGENGeneratorData
@@ -1751,7 +1751,7 @@ CERTGeneralName
 *
 crlgen_DistinguishedName
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CRLGENGeneratorData
@@ -1982,7 +1982,7 @@ authKeyID
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -2313,7 +2313,7 @@ nameList
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -2632,7 +2632,7 @@ char
 dataArr
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -2884,7 +2884,7 @@ SECItem
 *
 crlgen_CreateReasonCode
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const
@@ -3112,7 +3112,7 @@ SECItem
 *
 crlgen_CreateInvalidityDate
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const
@@ -3335,7 +3335,7 @@ SECItem
 extCreator
 )
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const
@@ -3373,7 +3373,7 @@ ext
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -3762,7 +3762,7 @@ CERTCrl
 *
 crl
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -4826,7 +4826,7 @@ CERTSignedCrl
 *
 signCrl
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -5334,7 +5334,7 @@ SECItem
 *
 certIdItem
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -5805,7 +5805,7 @@ i
 =
 0
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

@@ -199,7 +199,7 @@ extern
 SECStatus
 EC_CopyParams
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 ECParams
@@ -22126,7 +22126,7 @@ case
 (
 SHA1_LENGTH
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 )
 :
 hashType
@@ -22139,7 +22139,7 @@ case
 (
 SHA224_LENGTH
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 )
 :
 hashType
@@ -22152,7 +22152,7 @@ case
 (
 SHA256_LENGTH
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 )
 :
 hashType
@@ -22165,7 +22165,7 @@ case
 (
 SHA384_LENGTH
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 )
 :
 hashType
@@ -22178,7 +22178,7 @@ case
 (
 SHA512_LENGTH
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 )
 :
 hashType
@@ -22261,7 +22261,7 @@ sha_get_hashType
 (
 MDLen
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 )
 ;
 return
@@ -24575,7 +24575,7 @@ sha_get_hashType
 (
 HMACLen
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 )
 ;
 if

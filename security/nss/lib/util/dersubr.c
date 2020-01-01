@@ -469,7 +469,7 @@ PRInt32
 SECStatus
 DER_SetInteger
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -750,7 +750,7 @@ PRUint32
 SECStatus
 DER_SetUInteger
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem

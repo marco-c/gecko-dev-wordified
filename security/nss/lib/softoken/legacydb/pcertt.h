@@ -214,7 +214,7 @@ object
 struct
 NSSLOWCERTValidityStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -319,7 +319,7 @@ object
 struct
 NSSLOWCERTSubjectPublicKeyInfoStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -967,7 +967,7 @@ unsigned
 int
 flags
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

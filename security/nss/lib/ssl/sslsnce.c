@@ -353,7 +353,7 @@ SSL_NUM_WRAP_MECHS
 ]
 ;
 *
-uint8
+PRUint8
 keyNameSuffix
 [
 SESS_TICKET_KEY_VAR_NAME_LEN
@@ -1317,7 +1317,7 @@ SSLWrappedSymWrappingKey
 *
 keyCacheData
 ;
-uint8
+PRUint8
 *
 ticketKeyNameSuffix
 ;
@@ -3376,7 +3376,7 @@ ssl3
 compression
 =
 (
-uint16
+PRUint16
 )
 from
 -
@@ -3649,7 +3649,7 @@ sslSessionID
 *
 to
 ;
-uint16
+PRUint16
 version
 =
 from
@@ -6072,7 +6072,7 @@ now
 =
 0
 ;
-uint16
+PRUint16
 version
 =
 sid
@@ -8212,7 +8212,7 @@ cache
 ticketKeyNameSuffix
 =
 (
-uint8
+PRUint8
 *
 )
 ptr
@@ -12430,13 +12430,13 @@ cache
 &
 globalCache
 ;
-uint8
+PRUint8
 ticketKeyNameSuffixLocal
 [
 SESS_TICKET_KEY_VAR_NAME_LEN
 ]
 ;
-uint8
+PRUint8
 *
 ticketKeyNameSuffix
 ;
@@ -13348,7 +13348,7 @@ cache
 &
 globalCache
 ;
-uint8
+PRUint8
 ticketMacKey
 [
 SHA256_LENGTH
@@ -13358,13 +13358,13 @@ ticketEncKey
 AES_256_KEY_LENGTH
 ]
 ;
-uint8
+PRUint8
 ticketKeyNameSuffixLocal
 [
 SESS_TICKET_KEY_VAR_NAME_LEN
 ]
 ;
-uint8
+PRUint8
 *
 ticketMacKeyPtr
 *

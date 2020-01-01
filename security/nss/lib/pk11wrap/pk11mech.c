@@ -4739,7 +4739,7 @@ rc5_ecb_params
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -6719,7 +6719,7 @@ algTag
 SECItem
 *
 param
-PRArenaPool
+PLArenaPool
 *
 arena
 SECAlgorithmID

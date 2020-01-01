@@ -6394,7 +6394,7 @@ char
 *
 PK11_MakeString
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 char

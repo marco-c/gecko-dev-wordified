@@ -1809,7 +1809,7 @@ SECItem
 *
 hexString2SECItem
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem

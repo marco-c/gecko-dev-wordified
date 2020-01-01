@@ -3525,7 +3525,7 @@ CERTCertificate
 cert
 PRBool
 validOnly
-int64
+PRTime
 sorttime
 )
 {
@@ -4141,10 +4141,10 @@ SECItem
 profileTime
 )
 {
-int64
+PRTime
 oldtime
 ;
-int64
+PRTime
 newtime
 ;
 SECStatus

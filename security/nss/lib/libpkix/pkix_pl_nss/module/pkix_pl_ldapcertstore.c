@@ -383,7 +383,7 @@ rv
 =
 SECFailure
 ;
-PRArenaPool
+PLArenaPool
 *
 tempArena
 =
@@ -2238,7 +2238,7 @@ The
 address
 of
 the
-PRArenaPool
+PLArenaPool
 used
 in
 creating
@@ -2366,7 +2366,7 @@ PKIX_Error
 *
 pkix_pl_LdapCertStore_MakeNameAVAList
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 PKIX_PL_X500Name
@@ -3071,7 +3071,7 @@ void
 plContext
 )
 {
-PRArenaPool
+PLArenaPool
 *
 requestArena
 =
@@ -4016,7 +4016,7 @@ pollDesc
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 requestArena
 =

@@ -541,7 +541,7 @@ NSSCMSCipherContext
 *
 NSS_CMSCipherContext_StartEncrypt
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 PK11SymKey
@@ -1816,7 +1816,7 @@ void
 *
 NSS_CMSArray_Alloc
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 int
@@ -1843,7 +1843,7 @@ extern
 SECStatus
 NSS_CMSArray_Add
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 void
@@ -2214,7 +2214,7 @@ NSSCMSAttribute
 *
 NSS_CMSAttribute_Create
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECOidTag
@@ -2438,7 +2438,7 @@ SECItem
 *
 NSS_CMSAttributeArray_Encode
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 NSSCMSAttribute

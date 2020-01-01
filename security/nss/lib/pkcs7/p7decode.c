@@ -296,7 +296,7 @@ struct
 sec_pkcs7_decoder_worker
 worker
 ;
-PRArenaPool
+PLArenaPool
 *
 tmp_poolp
 ;
@@ -1947,7 +1947,7 @@ sec_pkcs7_decoder_finish_digests
 SEC_PKCS7DecoderContext
 *
 p7dcx
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem
@@ -3647,7 +3647,7 @@ sec_pkcs7_decoder_finish_decrypt
 SEC_PKCS7DecoderContext
 *
 p7dcx
-PRArenaPool
+PLArenaPool
 *
 poolp
 SEC_PKCS7EncryptedContentInfo
@@ -5772,7 +5772,7 @@ SEC_PKCS7ContentInfo
 *
 cinfo
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -10335,7 +10335,7 @@ certusage
 NULL
 HASH_AlgNULL
 keepcerts
-0
+NULL
 )
 ;
 }
@@ -10833,7 +10833,7 @@ certUsageEmailSigner
 NULL
 HASH_AlgNULL
 PR_FALSE
-0
+NULL
 )
 ;
 signercert

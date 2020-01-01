@@ -2377,7 +2377,7 @@ char
 *
 nssutil_formatValue
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 char
@@ -3500,7 +3500,7 @@ NSSUTILPreSlotInfoStr
 *
 NSSUTIL_ArgParseSlotInfo
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 char

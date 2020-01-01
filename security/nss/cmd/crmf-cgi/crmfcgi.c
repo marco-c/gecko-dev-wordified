@@ -1469,7 +1469,7 @@ CERTSubjectPublicKeyInfo
 spki
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -2697,7 +2697,7 @@ i
 SECStatus
 srv
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -4253,7 +4253,7 @@ i
 SECStatus
 srv
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;

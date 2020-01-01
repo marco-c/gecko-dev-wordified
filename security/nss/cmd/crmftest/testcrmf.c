@@ -6613,7 +6613,7 @@ myGenName
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 =

@@ -1078,7 +1078,7 @@ NULL
 SECStatus
 res
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1557,7 +1557,7 @@ msg
 SECStatus
 res
 ;
-PRArenaPool
+PLArenaPool
 *
 temparena
 =
@@ -2380,7 +2380,7 @@ NULL
 SECItem
 digest
 ;
-PRArenaPool
+PLArenaPool
 *
 temparena
 =
@@ -4537,7 +4537,7 @@ string
 PRBool
 sec_pkcs12_convert_item_to_unicode
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem

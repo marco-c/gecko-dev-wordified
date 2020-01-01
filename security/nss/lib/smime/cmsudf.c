@@ -234,7 +234,7 @@ data
 *
 /
 static
-PRArenaPool
+PLArenaPool
 *
 nsscmstypeArena
 ;

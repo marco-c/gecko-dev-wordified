@@ -1152,7 +1152,7 @@ secKey
 SECStatus
 secrv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -2887,7 +2887,7 @@ cert
 >
 slot
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -3069,7 +3069,7 @@ cert_trust_from_stan_trust
 NSSTrust
 *
 t
-PRArenaPool
+PLArenaPool
 *
 arena
 )

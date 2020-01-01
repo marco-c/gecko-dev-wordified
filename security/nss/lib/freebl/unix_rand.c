@@ -271,7 +271,7 @@ srclen
 union
 endianness
 {
-int32
+PRInt32
 i
 ;
 char
@@ -3146,7 +3146,7 @@ bigtime
 /
 *
 Actually
-an
+a
 int64
 *
 /
@@ -3183,7 +3183,7 @@ info
 =
 NULL
 ;
-int32
+PRInt32
 val
 ;
 get_system_info

@@ -1469,7 +1469,7 @@ static
 SECStatus
 crmf_copy_poposigningkey
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFPOPOSigningKey
@@ -1660,7 +1660,7 @@ static
 SECStatus
 crmf_copy_popoprivkey
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFPOPOPrivKey
@@ -1815,7 +1815,7 @@ CRMFProofOfPossession
 *
 crmf_copy_pop
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFProofOfPossession
@@ -2067,7 +2067,7 @@ CRMFCertReqMsg
 *
 newReqMsg
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -2374,7 +2374,7 @@ CRMFCertReqMsg
 inCertReqMsg
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 =
@@ -2821,7 +2821,7 @@ CERTName
 srcName
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 =

@@ -213,7 +213,7 @@ SECItem
 *
 SGN_EncodeDigestInfo
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem
@@ -255,7 +255,7 @@ di
 SECStatus
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -538,7 +538,7 @@ SECItem
 didata
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -715,7 +715,7 @@ return
 SECStatus
 SGN_CopyDigestInfo
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SGNDigestInfo

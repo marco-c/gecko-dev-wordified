@@ -128,7 +128,7 @@ CMMF_CreateKeyRecRepContent
 void
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -680,7 +680,7 @@ CRMFEncryptedValue
 *
 dummy
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;

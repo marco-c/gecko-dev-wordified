@@ -198,7 +198,7 @@ data
 PRSize
 used
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1468,7 +1468,7 @@ CERTAVA
 *
 CERT_CreateAVAFromRaw
 (
-PRArenaPool
+PLArenaPool
 *
 pool
 const
@@ -1499,7 +1499,7 @@ CERTAVA
 *
 CERT_CreateAVAFromSECItem
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECOidTag
@@ -1555,7 +1555,7 @@ const
 SECItem
 *
 dp
-int64
+PRTime
 t
 void
 *
@@ -2203,7 +2203,7 @@ const
 CERTCertificate
 *
 cert
-PRArenaPool
+PLArenaPool
 *
 arena
 )

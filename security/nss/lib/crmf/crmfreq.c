@@ -167,7 +167,7 @@ hexFalse
 SECStatus
 crmf_encode_integer
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem
@@ -217,7 +217,7 @@ SECSuccess
 SECStatus
 crmf_encode_unsigned_integer
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem
@@ -269,7 +269,7 @@ static
 SECStatus
 crmf_copy_secitem
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem
@@ -483,7 +483,7 @@ PRUint32
 inRequestID
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -717,7 +717,7 @@ static
 SECStatus
 crmf_template_add_version
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem
@@ -742,7 +742,7 @@ static
 SECStatus
 crmf_template_add_serialnumber
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem
@@ -766,7 +766,7 @@ serial
 SECStatus
 crmf_template_copy_secalg
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECAlgorithmID
@@ -898,7 +898,7 @@ SECFailure
 SECStatus
 crmf_copy_cert_name
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CERTName
@@ -1002,7 +1002,7 @@ static
 SECStatus
 crmf_template_add_issuer
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CERTName
@@ -1027,7 +1027,7 @@ static
 SECStatus
 crmf_template_add_validity
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFOptionalValidity
@@ -1232,7 +1232,7 @@ static
 SECStatus
 crmf_template_add_subject
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CERTName
@@ -1256,7 +1256,7 @@ subject
 SECStatus
 crmf_template_add_public_key
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CERTSubjectPublicKeyInfo
@@ -1369,7 +1369,7 @@ static
 SECStatus
 crmf_copy_bitstring
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem
@@ -1431,7 +1431,7 @@ static
 SECStatus
 crmf_template_add_issuer_uid
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem
@@ -1456,7 +1456,7 @@ static
 SECStatus
 crmf_template_add_subject_uid
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem
@@ -1620,7 +1620,7 @@ static
 SECStatus
 crmf_template_add_extensions
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFCertTemplate
@@ -1986,7 +1986,7 @@ CRMFCertTemplate
 *
 certTemplate
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -2385,7 +2385,7 @@ CRMF_CreateCertReqMsg
 void
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -2568,7 +2568,7 @@ CRMFCertExtension
 *
 crmf_create_cert_extension
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECOidTag

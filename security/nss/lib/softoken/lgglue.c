@@ -893,7 +893,7 @@ static
 SECStatus
 sftkdb_encrypt_stub
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SDB

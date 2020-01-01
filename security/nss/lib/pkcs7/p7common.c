@@ -2179,7 +2179,7 @@ success
 SECStatus
 SEC_PKCS7EncryptContents
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SEC_PKCS7ContentInfo
@@ -3016,7 +3016,7 @@ success
 SECStatus
 SEC_PKCS7DecryptContents
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SEC_PKCS7ContentInfo

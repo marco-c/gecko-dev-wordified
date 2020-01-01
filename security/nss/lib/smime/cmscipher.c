@@ -772,7 +772,7 @@ NSSCMSCipherContext
 *
 NSS_CMSCipherContext_StartEncrypt
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 PK11SymKey

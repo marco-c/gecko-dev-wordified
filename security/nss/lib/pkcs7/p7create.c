@@ -157,7 +157,7 @@ sec_pkcs7_init_content_info
 SEC_PKCS7ContentInfo
 *
 cinfo
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECOidTag
@@ -649,7 +649,7 @@ SEC_PKCS7ContentInfo
 *
 cinfo
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -2381,7 +2381,7 @@ SEC_PKCS7Attribute
 *
 sec_pkcs7_create_attribute
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECOidTag
@@ -5384,7 +5384,7 @@ sec_pkcs7_init_encrypted_content_info
 SEC_PKCS7EncryptedContentInfo
 *
 enccinfo
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECOidTag

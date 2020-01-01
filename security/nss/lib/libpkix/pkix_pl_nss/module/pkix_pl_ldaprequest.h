@@ -108,7 +108,7 @@ PKIX_PL_LdapAttr
 struct
 PKIX_PL_LdapRequestStruct
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -172,7 +172,7 @@ PKIX_Error
 *
 pkix_pl_LdapRequest_Create
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 PKIX_UInt32

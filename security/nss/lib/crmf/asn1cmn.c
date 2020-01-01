@@ -548,7 +548,7 @@ CMMFPOPODecKeyChallContent
 SECStatus
 cmmf_decode_process_cert_response
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CERTCertDBHandle
@@ -684,7 +684,7 @@ static
 SECStatus
 cmmf_decode_process_certorenccert
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CERTCertDBHandle
@@ -919,7 +919,7 @@ rv
 SECStatus
 cmmf_decode_process_certified_key_pair
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CERTCertDBHandle

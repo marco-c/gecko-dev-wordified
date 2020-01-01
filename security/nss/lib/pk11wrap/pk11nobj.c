@@ -229,7 +229,7 @@ pk11_GetTrustField
 PK11SlotInfo
 *
 slot
-PRArenaPool
+PLArenaPool
 *
 arena
 CK_OBJECT_HANDLE
@@ -334,7 +334,7 @@ CERTCertTrust
 trust
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -4179,7 +4179,7 @@ void
 wincx
 PRInt32
 importOptions
-PRArenaPool
+PLArenaPool
 *
 arena
 PRInt32

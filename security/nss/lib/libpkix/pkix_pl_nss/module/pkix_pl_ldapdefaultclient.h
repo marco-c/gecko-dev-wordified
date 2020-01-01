@@ -299,7 +299,7 @@ LDAPBindAPI
 *
 bindAPI
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

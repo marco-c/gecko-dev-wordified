@@ -3955,7 +3955,7 @@ int
 level
 )
 {
-int64
+PRTime
 time
 ;
 SECStatus
@@ -4057,7 +4057,7 @@ int
 level
 )
 {
-int64
+PRTime
 time
 ;
 SECStatus
@@ -6460,7 +6460,7 @@ int
 level
 )
 {
-PRArenaPool
+PLArenaPool
 *
 pool
 =
@@ -6874,7 +6874,7 @@ int
 level
 )
 {
-PRArenaPool
+PLArenaPool
 *
 pool
 =
@@ -7056,7 +7056,7 @@ int
 level
 )
 {
-PRArenaPool
+PLArenaPool
 *
 pool
 =
@@ -7205,7 +7205,7 @@ int
 level
 )
 {
-PRArenaPool
+PLArenaPool
 *
 pool
 =
@@ -8309,7 +8309,7 @@ secu_PrintSubjectPublicKeyInfo
 FILE
 *
 out
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTSubjectPublicKeyInfo
@@ -8575,7 +8575,7 @@ int
 level
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -8944,7 +8944,7 @@ decodedValue
 SECStatus
 rv
 ;
-int64
+PRTime
 invalidTime
 ;
 char
@@ -12982,7 +12982,7 @@ extensions
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -13424,7 +13424,7 @@ int
 level
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -13635,7 +13635,7 @@ int
 level
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -14032,7 +14032,7 @@ int
 level
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -14162,7 +14162,7 @@ int
 level
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -17331,7 +17331,7 @@ int
 level
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -18524,7 +18524,7 @@ int
 level
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -18640,7 +18640,7 @@ SignatureOptionType
 withSignature
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -19995,7 +19995,7 @@ NULL
 SECStatus
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -20353,7 +20353,7 @@ rv
 SECStatus
 SECU_CopyCRL
 (
-PRArenaPool
+PLArenaPool
 *
 destArena
 CERTCrl
@@ -20486,7 +20486,7 @@ rv
 SECStatus
 SECU_DerSignDataCRL
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTSignedData
@@ -20696,7 +20696,7 @@ CERTAuthKeyID
 *
 SECU_FindCRLAuthKeyIDExten
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTSignedCrl
@@ -21037,7 +21037,7 @@ entries
 SECStatus
 SECU_EncodeAndAddExtensionValue
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 void

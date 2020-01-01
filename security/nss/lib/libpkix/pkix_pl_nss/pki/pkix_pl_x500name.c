@@ -1382,7 +1382,7 @@ x500Name
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -1867,7 +1867,7 @@ void
 plContext
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -2563,7 +2563,7 @@ arena
 Address
 of
 the
-PRArenaPool
+PLArenaPool
 to
 be
 used
@@ -2670,7 +2670,7 @@ pkix_pl_X500Name_GetDERName
 PKIX_PL_X500Name
 *
 xname
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem

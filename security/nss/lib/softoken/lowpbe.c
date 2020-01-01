@@ -2582,7 +2582,7 @@ int
 bytesNeeded
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -4450,7 +4450,7 @@ int
 iterator
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -7376,7 +7376,7 @@ SECAlgorithmID
 *
 nsspkcs5_CreateAlgorithmID
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECOidTag

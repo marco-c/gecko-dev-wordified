@@ -297,7 +297,7 @@ NSSCMSDecoderData
 *
 nss_cms_create_decoder_data
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 )
@@ -314,7 +314,7 @@ NSSCMSDecoderData
 *
 nss_cms_create_decoder_data
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 )
@@ -3799,7 +3799,7 @@ NSSCMSDecoderContext
 *
 NSS_CMSDecoder_Start
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 NSSCMSContentCallback

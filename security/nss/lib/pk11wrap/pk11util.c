@@ -5627,7 +5627,7 @@ slots
 i
 ]
 ;
-uint16
+PRUint16
 series
 ;
 PRBool

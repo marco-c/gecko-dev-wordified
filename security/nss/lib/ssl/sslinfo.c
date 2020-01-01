@@ -2591,7 +2591,7 @@ valLen
 2
 /
 *
-uint16
+PRUint16
 length
 *
 /

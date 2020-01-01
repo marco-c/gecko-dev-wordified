@@ -270,7 +270,7 @@ The
 address
 of
 the
-PRArenaPool
+PLArenaPool
 used
 in
 encoding
@@ -449,7 +449,7 @@ PKIX_Error
 *
 pkix_pl_LdapDefaultClient_MakeBind
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 PKIX_Int32
@@ -974,7 +974,7 @@ The
 address
 of
 the
-PRArenaPool
+PLArenaPool
 used
 in
 encoding
@@ -1108,7 +1108,7 @@ PKIX_Error
 *
 pkix_pl_LdapDefaultClient_MakeUnbind
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 PKIX_UInt32
@@ -1366,7 +1366,7 @@ The
 address
 of
 the
-PRArenaPool
+PLArenaPool
 used
 in
 encoding
@@ -1500,7 +1500,7 @@ PKIX_Error
 *
 pkix_pl_LdapDefaultClient_MakeAbandon
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 PKIX_UInt32
@@ -1749,7 +1749,7 @@ The
 address
 of
 the
-PRArenaPool
+PLArenaPool
 to
 be
 used
@@ -1926,7 +1926,7 @@ PKIX_Error
 *
 pkix_pl_LdapDefaultClient_DecodeBindResponse
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -3382,7 +3382,7 @@ fileDesc
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -10984,7 +10984,7 @@ The
 address
 of
 the
-PRArenaPool
+PLArenaPool
 used
 in
 creating
@@ -11110,7 +11110,7 @@ PKIX_Error
 *
 pkix_pl_LdapDefaultClient_MakeAndFilter
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 LDAPNameComponent

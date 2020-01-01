@@ -159,7 +159,7 @@ SECMODModule
 *
 newMod
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -4600,7 +4600,7 @@ char
 *
 secmod_MkAppendTokensList
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 char

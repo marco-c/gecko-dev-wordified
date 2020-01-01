@@ -1309,7 +1309,7 @@ nssMatchName
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -5306,7 +5306,7 @@ nssMatchName
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =

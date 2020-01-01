@@ -2174,7 +2174,7 @@ arena
 Address
 of
 a
-PRArenaPool
+PLArenaPool
 to
 be
 used
@@ -2350,7 +2350,7 @@ PKIX_Error
 *
 pkix_pl_InfoAccess_ParseTokens
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 char
@@ -3052,7 +3052,7 @@ pDomainName
 "
 using
 the
-PRArenaPool
+PLArenaPool
 pointed
 to
 by
@@ -3200,7 +3200,7 @@ arena
 *
 Address
 of
-PRArenaPool
+PLArenaPool
 to
 be
 used
@@ -3342,7 +3342,7 @@ pkix_pl_InfoAccess_ParseLocation
 PKIX_PL_GeneralName
 *
 generalName
-PRArenaPool
+PLArenaPool
 *
 arena
 LDAPRequestParams

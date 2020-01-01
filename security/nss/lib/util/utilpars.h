@@ -303,7 +303,7 @@ NSSUTILPreSlotInfoStr
 *
 NSSUTIL_ArgParseSlotInfo
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 char

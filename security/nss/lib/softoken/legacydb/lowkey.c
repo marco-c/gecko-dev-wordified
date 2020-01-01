@@ -1039,7 +1039,7 @@ data
 SECStatus
 LGEC_FillParams
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const
@@ -1289,7 +1289,7 @@ dstParams
 SECStatus
 LGEC_CopyParams
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 ECParams

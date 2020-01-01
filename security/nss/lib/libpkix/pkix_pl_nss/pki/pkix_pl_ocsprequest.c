@@ -1403,7 +1403,7 @@ certRequest
 =
 NULL
 ;
-int64
+PRTime
 time
 =
 0

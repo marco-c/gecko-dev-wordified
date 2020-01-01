@@ -1527,7 +1527,7 @@ crl
 SECStatus
 CERT_KeyFromDERCrl
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -1547,7 +1547,7 @@ sd
 CERTCrlKey
 crlkey
 ;
-PRArenaPool
+PLArenaPool
 *
 myArena
 ;
@@ -2016,7 +2016,7 @@ CERTSignedCrl
 *
 CERT_DecodeDERCrlWithFlags
 (
-PRArenaPool
+PLArenaPool
 *
 narena
 SECItem
@@ -2028,7 +2028,7 @@ PRInt32
 options
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -2707,7 +2707,7 @@ CERTSignedCrl
 *
 CERT_DecodeDERCrl
 (
-PRArenaPool
+PLArenaPool
 *
 narena
 SECItem
@@ -3799,7 +3799,7 @@ int
 type
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -4061,7 +4061,7 @@ CERTCrlHeadNode
 *
 head
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -5056,7 +5056,7 @@ PRSize
 size
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =

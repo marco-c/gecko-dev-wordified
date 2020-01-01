@@ -229,7 +229,7 @@ section
 struct
 SECKEYRSAPrivateKeyStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -321,7 +321,7 @@ PKCS
 struct
 SECKEYDHPrivateKeyStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1204,7 +1204,7 @@ pki
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 temparena
 =
@@ -2764,7 +2764,7 @@ paramDest
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =

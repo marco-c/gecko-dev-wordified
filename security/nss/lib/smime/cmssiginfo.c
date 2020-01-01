@@ -1549,7 +1549,7 @@ CERTCertificate
 *
 cert
 ;
-int64
+PRTime
 stime
 ;
 if

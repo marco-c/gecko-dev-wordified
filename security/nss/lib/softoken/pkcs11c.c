@@ -405,13 +405,13 @@ h
 typedef
 struct
 {
-uint8
+PRUint8
 client_version
 [
 2
 ]
 ;
-uint8
+PRUint8
 random
 [
 46
@@ -19111,7 +19111,7 @@ NSSPKCS5PBEParameter
 *
 params
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -30910,7 +30910,7 @@ const
 unsigned
 char
 *
-uint32
+PRUint32
 )
 CK_ULONG
 HashLen
@@ -30927,7 +30927,7 @@ output_buffer
 =
 NULL
 ;
-uint32
+PRUint32
 buffer_len
 max_counter
 i

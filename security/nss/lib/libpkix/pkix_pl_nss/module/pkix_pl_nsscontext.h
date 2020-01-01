@@ -100,7 +100,7 @@ PKIX_PL_NssContextStruct
 SECCertificateUsage
 certificateUsage
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

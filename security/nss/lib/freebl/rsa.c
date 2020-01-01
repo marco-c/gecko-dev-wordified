@@ -1735,7 +1735,7 @@ key
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -1880,7 +1880,7 @@ keySizeInBits
 (
 2
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 )
 ;
 MP_DIGITS
@@ -5858,7 +5858,7 @@ RSAPrivateKey
 key
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -6262,7 +6262,7 @@ primeLen
 *
 2
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 ;
 SECITEM_TO_MPINT
 (
@@ -6326,7 +6326,7 @@ primeLen
 *
 2
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 ;
 SECITEM_TO_MPINT
 (
@@ -6401,7 +6401,7 @@ keySizeInBits
 =
 modLen
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 ;
 SECITEM_TO_MPINT
 (
@@ -10691,7 +10691,7 @@ static
 SECStatus
 swap_in_key_value
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 mp_int

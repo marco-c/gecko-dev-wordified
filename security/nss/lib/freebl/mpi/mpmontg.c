@@ -5092,7 +5092,7 @@ together
 into
 a
 single
-uint32
+PRUint32
 before
 we
 write
@@ -5105,7 +5105,7 @@ to
 make
 sure
 the
-uint32
+PRUint32
 is
 arranged
 so
@@ -5131,7 +5131,7 @@ means
 construction
 of
 that
-uint32
+PRUint32
 *
 is
 endian

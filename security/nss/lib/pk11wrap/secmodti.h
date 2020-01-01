@@ -641,7 +641,7 @@ same
 transaction
 *
 /
-int64
+PRTime
 authTime
 ;
 /
@@ -673,7 +673,7 @@ legal
 password
 *
 /
-uint16
+PRUint16
 series
 ;
 /
@@ -701,7 +701,7 @@ be
 invalidated
 *
 /
-uint16
+PRUint16
 flagSeries
 ;
 /
@@ -741,7 +741,7 @@ slot
 .
 *
 /
-uint16
+PRUint16
 wrapKey
 ;
 /
@@ -1079,7 +1079,7 @@ the
 session
 *
 /
-uint16
+PRUint16
 series
 ;
 /

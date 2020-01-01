@@ -5769,7 +5769,7 @@ SECFailure
 SECStatus
 NSS_CMSSignedData_AddDigest
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 NSSCMSSignedData

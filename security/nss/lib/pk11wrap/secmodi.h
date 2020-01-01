@@ -595,7 +595,7 @@ char
 *
 secmod_MkAppendTokensList
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 char
@@ -789,7 +789,7 @@ algTag
 SECItem
 *
 param
-PRArenaPool
+PLArenaPool
 *
 arena
 SECAlgorithmID

@@ -1631,7 +1631,7 @@ static
 CK_RV
 pk11_Attr2SecItem
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const
@@ -1864,7 +1864,7 @@ static
 int
 pk11_get_EC_PointLenInBytes
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const
@@ -2564,7 +2564,7 @@ static
 CK_RV
 pk11_get_Decoded_ECPoint
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const
@@ -4143,11 +4143,11 @@ keyClass
 =
 CKO_PUBLIC_KEY
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
-PRArenaPool
+PLArenaPool
 *
 tmp_arena
 ;
@@ -5317,7 +5317,7 @@ void
 wincx
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -6103,7 +6103,7 @@ privTemplate
 ]
 )
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -9873,7 +9873,7 @@ pkData
 SECStatus
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -10912,7 +10912,7 @@ epki
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -12025,7 +12025,7 @@ pTemplate
 ]
 )
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =

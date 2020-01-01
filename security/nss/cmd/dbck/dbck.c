@@ -740,7 +740,7 @@ appData
 typedef
 struct
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -809,7 +809,7 @@ appData
 typedef
 struct
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -2101,7 +2101,7 @@ function
 .
 *
 /
-int64
+PRTime
 timeBefore
 timeAfter
 ;
@@ -2922,7 +2922,7 @@ certDBEntryMap
 *
 map
 ;
-PRArenaPool
+PLArenaPool
 *
 tmparena
 ;
@@ -7557,7 +7557,7 @@ certDBSubjectEntryMap
 *
 smnode
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

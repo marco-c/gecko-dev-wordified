@@ -1099,7 +1099,7 @@ createEmptyCertificate
 void
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -1224,7 +1224,7 @@ SECItem
 derCert
 derIssuerCert
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =

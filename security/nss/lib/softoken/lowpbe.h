@@ -162,7 +162,7 @@ NSSPKCS5PBEParameter
 struct
 NSSPKCS5PBEParameterStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -326,7 +326,7 @@ SECAlgorithmID
 *
 nsspkcs5_CreateAlgorithmID
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECOidTag

@@ -570,11 +570,11 @@ void
 *
 object
 ;
-PRArenaPool
+PLArenaPool
 *
 ownerArena
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -621,7 +621,7 @@ cert_StartExtensions
 void
 *
 owner
-PRArenaPool
+PLArenaPool
 *
 ownerArena
 void
@@ -640,7 +640,7 @@ exts
 )
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -2000,7 +2000,7 @@ siBuffer
 SECStatus
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =

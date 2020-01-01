@@ -507,7 +507,7 @@ CK_OBJECT_HANDLE
 id
 CK_ATTRIBUTE_TYPE
 type
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -988,7 +988,7 @@ arena
 CK_RV
 PK11_GetAttributes
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 PK11SlotInfo
@@ -9806,7 +9806,7 @@ peerID
 CK_OBJECT_HANDLE
 parent
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

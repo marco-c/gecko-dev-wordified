@@ -357,7 +357,7 @@ void
 plContext
 )
 {
-PRArenaPool
+PLArenaPool
 *
 rdnArena
 =

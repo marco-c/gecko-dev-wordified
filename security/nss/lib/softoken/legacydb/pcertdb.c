@@ -1652,7 +1652,7 @@ certDBEntry
 entry
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -2015,7 +2015,7 @@ dbkey
 SECItem
 *
 dbentry
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -2664,7 +2664,7 @@ EncodeDBCertEntry
 certDBEntryCert
 *
 entry
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -3064,7 +3064,7 @@ const
 SECItem
 *
 certKey
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -3216,7 +3216,7 @@ const
 SECItem
 *
 certKey
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -4072,7 +4072,7 @@ certDBEntryCert
 *
 entry
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -4398,7 +4398,7 @@ certlen
 int
 nnlen
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -4850,7 +4850,7 @@ SECItem
 dbitem
 dbkey
 ;
-PRArenaPool
+PLArenaPool
 *
 tmparena
 =
@@ -5518,7 +5518,7 @@ EncodeDBCrlEntry
 certDBEntryRevocation
 *
 entry
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -6189,7 +6189,7 @@ certDBEntryRevocation
 *
 entry
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -6466,7 +6466,7 @@ crlKey
 SECItem
 dbkey
 ;
-PRArenaPool
+PLArenaPool
 *
 tmparena
 =
@@ -6643,7 +6643,7 @@ crlType
 SECItem
 dbkey
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -6771,13 +6771,13 @@ certDBEntryType
 crlType
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 tmparena
 =
@@ -7043,7 +7043,7 @@ EncodeDBNicknameEntry
 certDBEntryNickname
 *
 entry
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -7233,7 +7233,7 @@ EncodeDBNicknameKey
 char
 *
 nickname
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -7699,7 +7699,7 @@ int
 flags
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -7941,7 +7941,7 @@ char
 nickname
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -8083,13 +8083,13 @@ char
 nickname
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 tmparena
 =
@@ -8384,7 +8384,7 @@ SECItem
 dbitem
 dbkey
 ;
-PRArenaPool
+PLArenaPool
 *
 tmparena
 =
@@ -8535,7 +8535,7 @@ EncodeDBSMimeEntry
 certDBEntrySMime
 *
 entry
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -8940,7 +8940,7 @@ EncodeDBSMimeKey
 char
 *
 emailAddr
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -9757,7 +9757,7 @@ int
 flags
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -10144,7 +10144,7 @@ char
 emailAddr
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -10271,13 +10271,13 @@ char
 emailAddr
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 tmparena
 =
@@ -10572,7 +10572,7 @@ SECItem
 dbitem
 dbkey
 ;
-PRArenaPool
+PLArenaPool
 *
 tmparena
 =
@@ -10733,7 +10733,7 @@ EncodeDBSubjectEntry
 certDBEntrySubject
 *
 entry
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -11535,7 +11535,7 @@ EncodeDBSubjectKey
 SECItem
 *
 derSubject
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -11660,7 +11660,7 @@ SECItem
 derSubject
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -12879,7 +12879,7 @@ int
 flags
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -13464,7 +13464,7 @@ derSubject
 SECItem
 dbkey
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -13589,13 +13589,13 @@ SECItem
 derSubject
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 tmparena
 =
@@ -13862,7 +13862,7 @@ SECItem
 dbitem
 dbkey
 ;
-PRArenaPool
+PLArenaPool
 *
 tmparena
 =
@@ -14669,7 +14669,7 @@ int
 flags
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -14815,13 +14815,13 @@ NSSLOWCERTCertDBHandle
 handle
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 tmparena
 =
@@ -15100,7 +15100,7 @@ SECItem
 dbitem
 dbkey
 ;
-PRArenaPool
+PLArenaPool
 *
 tmparena
 =
@@ -20443,7 +20443,7 @@ entry2
 int
 ret
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -20722,7 +20722,7 @@ ret
 SECItem
 keyitem
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -23013,7 +23013,7 @@ NSSLOWCERTCertificate
 *
 cert
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -25780,7 +25780,7 @@ SECItem
 derCert
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -26485,7 +26485,7 @@ key
 SECStatus
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =

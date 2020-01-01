@@ -647,7 +647,7 @@ SECItem
 extnValue
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -986,7 +986,7 @@ SECItem
 extnValue
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -1224,7 +1224,7 @@ encodedValue
 CERTCertificatePolicyConstraints
 decodeContext
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -1531,7 +1531,7 @@ encodedValue
 CERTCertificateInhibitAny
 decodeContext
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -1654,7 +1654,7 @@ SECItem
 noticeItem
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -2720,7 +2720,7 @@ SECItem
 seqItem
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -3118,7 +3118,7 @@ ret
 SECStatus
 CERT_EncodePolicyConstraintsExtension
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTCertificatePolicyConstraints
@@ -3194,7 +3194,7 @@ rv
 SECStatus
 CERT_EncodePolicyMappingExtension
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTCertificatePolicyMappings
@@ -3270,7 +3270,7 @@ rv
 SECStatus
 CERT_EncodeCertPoliciesExtension
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTPolicyInfo
@@ -3347,7 +3347,7 @@ rv
 SECStatus
 CERT_EncodeUserNotice
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTUserNotice
@@ -3423,7 +3423,7 @@ rv
 SECStatus
 CERT_EncodeNoticeReference
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTNoticeReference
@@ -3499,7 +3499,7 @@ rv
 SECStatus
 CERT_EncodeInhibitAnyExtension
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTCertificateInhibitAny

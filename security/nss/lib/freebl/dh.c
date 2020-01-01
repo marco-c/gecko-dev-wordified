@@ -295,7 +295,7 @@ DHParams
 params
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1041,7 +1041,7 @@ DHPrivateKey
 privKey
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

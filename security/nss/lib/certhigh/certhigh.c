@@ -499,7 +499,7 @@ NULL
 SECStatus
 rv
 ;
-int64
+PRTime
 time
 ;
 CERTCertListNode
@@ -1299,7 +1299,7 @@ NULL
 SECStatus
 rv
 ;
-int64
+PRTime
 time
 ;
 time
@@ -2402,7 +2402,7 @@ void
 wincx
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -3056,7 +3056,7 @@ CERTDistNames
 orig
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -3314,7 +3314,7 @@ CERTCertDBHandle
 handle
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -3627,7 +3627,7 @@ dnames
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -3879,7 +3879,7 @@ dnames
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -4129,7 +4129,7 @@ cert
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -5161,7 +5161,7 @@ NSSCertificate
 *
 stanCert
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -5671,7 +5671,7 @@ NULL
 int
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -5852,7 +5852,7 @@ newList
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =

@@ -1299,7 +1299,7 @@ SEC_ASN1DecoderFinish
 struct
 sec_DecoderContext_struct
 {
-PRArenaPool
+PLArenaPool
 *
 our_pool
 ;
@@ -1311,7 +1311,7 @@ internal
 allocs
 *
 /
-PRArenaPool
+PLArenaPool
 *
 their_pool
 ;
@@ -1503,7 +1503,7 @@ void
 *
 sec_asn1d_alloc
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 unsigned
@@ -1585,7 +1585,7 @@ void
 *
 sec_asn1d_zalloc
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 unsigned
@@ -5201,7 +5201,7 @@ SECItem
 *
 item
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -16550,7 +16550,7 @@ SEC_ASN1DecoderContext
 *
 SEC_ASN1DecoderStart
 (
-PRArenaPool
+PLArenaPool
 *
 their_pool
 void
@@ -16562,7 +16562,7 @@ SEC_ASN1Template
 theTemplate
 )
 {
-PRArenaPool
+PLArenaPool
 *
 our_pool
 ;
@@ -16929,7 +16929,7 @@ decodeError
 SECStatus
 SEC_ASN1Decode
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 void
@@ -17007,7 +17007,7 @@ frv
 SECStatus
 SEC_ASN1DecodeItem
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 void

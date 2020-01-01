@@ -401,7 +401,7 @@ m
 PRExplodedTime
 printableTime
 ;
-int64
+PRTime
 time
 ;
 char
@@ -1968,7 +1968,7 @@ sv_PrintSubjectPublicKeyInfo
 FILE
 *
 out
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTSubjectPublicKeyInfo
@@ -2208,7 +2208,7 @@ decodedValue
 SECStatus
 rv
 ;
-int64
+PRTime
 invalidTime
 ;
 char
@@ -2870,7 +2870,7 @@ int
 level
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -3204,7 +3204,7 @@ SECU_PPFunc
 inner
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =

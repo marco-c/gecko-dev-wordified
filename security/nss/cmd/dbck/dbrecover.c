@@ -1059,7 +1059,7 @@ response
 32
 ]
 ;
-int32
+PRInt32
 nb
 ;
 int

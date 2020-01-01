@@ -226,7 +226,7 @@ SECItem
 *
 encode
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTOCSPCertID
@@ -365,7 +365,7 @@ SECItem
 *
 encodeRevoked
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTOCSPCertID
@@ -727,7 +727,7 @@ cid
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =

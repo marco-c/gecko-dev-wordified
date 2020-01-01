@@ -870,7 +870,7 @@ sec_PKCS7CipherObject
 *
 sec_PKCS7CreateEncryptObject
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 PK11SymKey
@@ -5758,7 +5758,7 @@ SECItem
 *
 sec_PKCS7EncodeAttributes
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem
@@ -5835,7 +5835,7 @@ SEC_PKCS7Attribute
 attrs
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;

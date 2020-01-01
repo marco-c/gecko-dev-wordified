@@ -796,7 +796,7 @@ defined
 (
 XP_BEOS
 )
-uint16
+PRUint16
 mode
 ;
 #

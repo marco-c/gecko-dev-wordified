@@ -794,7 +794,7 @@ unsigned
 char
 *
 src
-uint32
+PRUint32
 src_length
 )
 {

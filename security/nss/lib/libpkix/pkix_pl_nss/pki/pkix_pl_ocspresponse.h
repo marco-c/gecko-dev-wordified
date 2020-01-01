@@ -139,7 +139,7 @@ MAX_OCSP_RESPONSE_LEN
 struct
 PKIX_PL_OcspResponseStruct
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -170,7 +170,7 @@ CERTCertDBHandle
 *
 handle
 ;
-int64
+PRTime
 producedAt
 ;
 PKIX_PL_Date

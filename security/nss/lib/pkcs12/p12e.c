@@ -601,7 +601,7 @@ structure
 struct
 SEC_PKCS12SafeInfoStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -699,7 +699,7 @@ PKCS
 struct
 SEC_PKCS12ExportContextStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -868,7 +868,7 @@ typedef
 struct
 sec_PKCS12EncoderContextStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1132,7 +1132,7 @@ void
 wincx
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -3351,7 +3351,7 @@ sec_PKCS12SafeContents
 *
 sec_PKCS12CreateSafeContents
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -3469,7 +3469,7 @@ arena
 SECStatus
 sec_pkcs12_append_bag_to_safe_contents
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 sec_PKCS12SafeContents
@@ -4262,7 +4262,7 @@ sec_PKCS12CertBag
 *
 sec_PKCS12NewCertBag
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECOidTag
@@ -4449,7 +4449,7 @@ sec_PKCS12CRLBag
 *
 sec_PKCS12NewCRLBag
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECOidTag

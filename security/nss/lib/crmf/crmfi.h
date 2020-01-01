@@ -698,7 +698,7 @@ extern
 SECStatus
 crmf_encode_integer
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem
@@ -712,7 +712,7 @@ extern
 SECStatus
 crmf_make_bitstring_copy
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -727,7 +727,7 @@ extern
 SECStatus
 crmf_copy_pkiarchiveoptions
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFPKIArchiveOptions
@@ -764,7 +764,7 @@ extern
 SECStatus
 crmf_copy_encryptedkey
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFEncryptedKey
@@ -779,7 +779,7 @@ extern
 SECStatus
 crmf_copy_encryptedvalue
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFEncryptedValue
@@ -794,7 +794,7 @@ extern
 SECStatus
 crmf_copy_encryptedvalue_secalg
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECAlgorithmID
@@ -810,7 +810,7 @@ extern
 SECStatus
 crmf_template_copy_secalg
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECAlgorithmID
@@ -826,7 +826,7 @@ extern
 SECStatus
 crmf_copy_cert_name
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CERTName
@@ -842,7 +842,7 @@ extern
 SECStatus
 crmf_template_add_public_key
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CERTSubjectPublicKeyInfo
@@ -859,7 +859,7 @@ CRMFCertExtension
 *
 crmf_create_cert_extension
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECOidTag
@@ -876,7 +876,7 @@ CRMFCertRequest
 *
 crmf_copy_cert_request
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFCertRequest
@@ -924,7 +924,7 @@ extern
 SECStatus
 crmf_encrypted_value_unwrap_priv_key
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFEncryptedValue
@@ -972,7 +972,7 @@ CRMFCertExtension
 *
 crmf_copy_cert_extension
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFCertExtension

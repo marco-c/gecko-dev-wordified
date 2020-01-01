@@ -1109,7 +1109,7 @@ ec_pastLastName
 SECStatus
 ssl3_ECName2Params
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 ECName
@@ -3529,7 +3529,7 @@ PRUint32
 length
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =

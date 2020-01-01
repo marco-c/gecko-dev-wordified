@@ -3611,7 +3611,7 @@ cache
 .
 *
 /
-uint8
+PRUint8
 sessionIDLength
 ;
 SSL3Opaque
@@ -5011,7 +5011,7 @@ or
 SSL_RESTRICTED
 *
 /
-PRArenaPool
+PLArenaPool
 *
 peerCertArena
 ;
@@ -5329,7 +5329,7 @@ typedef
 struct
 SessionTicketStr
 {
-uint16
+PRUint16
 ticket_version
 ;
 SSL3ProtocolVersion
@@ -5344,13 +5344,13 @@ compression_method
 SSLSignType
 authAlgorithm
 ;
-uint32
+PRUint32
 authKeyBits
 ;
 SSLKEAType
 keaType
 ;
-uint32
+PRUint32
 keaKeyBits
 ;
 /
@@ -5371,7 +5371,7 @@ true
 .
 *
 /
-uint8
+PRUint8
 ms_is_wrapped
 ;
 SSLKEAType
@@ -5394,7 +5394,7 @@ above
 CK_MECHANISM_TYPE
 msWrapMech
 ;
-uint16
+PRUint16
 ms_length
 ;
 SSL3Opaque
@@ -5409,7 +5409,7 @@ client_identity
 SECItem
 peer_cert
 ;
-uint32
+PRUint32
 timestamp
 ;
 SECItem
@@ -9792,7 +9792,7 @@ extern
 SECStatus
 ssl3_ECName2Params
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 ECName

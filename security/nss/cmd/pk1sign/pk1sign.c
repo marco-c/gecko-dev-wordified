@@ -665,7 +665,7 @@ privKey
 SECOidTag
 algID
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

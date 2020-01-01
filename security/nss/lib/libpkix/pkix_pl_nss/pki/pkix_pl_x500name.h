@@ -97,7 +97,7 @@ endif
 struct
 PKIX_PL_X500NameStruct
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -174,7 +174,7 @@ pkix_pl_X500Name_GetDERName
 PKIX_PL_X500Name
 *
 xname
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem

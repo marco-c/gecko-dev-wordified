@@ -296,7 +296,7 @@ space
 from
 *
 /
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -433,7 +433,7 @@ encountered
 struct
 SEC_PKCS12DecoderContextStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -6376,7 +6376,7 @@ SEC_PKCS12DecoderContext
 *
 p12dcx
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -10488,7 +10488,7 @@ x509Cert
 struct
 certNickInfo
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -11022,7 +11022,7 @@ returnDn
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -18564,7 +18564,7 @@ SEC_PKCS12DecoderContext
 *
 sec_PKCS12ConvertOldSafeToNew
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 PK11SlotInfo

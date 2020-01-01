@@ -223,7 +223,7 @@ SEC_IntegerTemplate
 SECStatus
 CERT_EncodeAuthKeyID
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTAuthKeyID
@@ -413,7 +413,7 @@ CERTAuthKeyID
 *
 CERT_DecodeAuthKeyID
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const

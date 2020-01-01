@@ -582,7 +582,7 @@ responder
 struct
 CERTOCSPRequestStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1250,7 +1250,7 @@ way
 struct
 ocspSingleRequestStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1424,7 +1424,7 @@ them
 SECItem
 issuerMD2KeyHash
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1661,7 +1661,7 @@ ocspResponseStatus
 struct
 CERTOCSPResponseStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -2256,7 +2256,7 @@ way
 struct
 CERTOCSPSingleResponseStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

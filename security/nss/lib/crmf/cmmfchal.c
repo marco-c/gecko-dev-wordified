@@ -142,7 +142,7 @@ static
 int
 cmmf_create_witness_and_challenge
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CMMFChallenge
@@ -771,7 +771,7 @@ SECAlgorithmID
 *
 algId
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -927,7 +927,7 @@ CMMF_CreatePOPODecKeyChallContent
 void
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1014,7 +1014,7 @@ CMMFChallenge
 *
 curChallenge
 ;
-PRArenaPool
+PLArenaPool
 *
 genNamePool
 =

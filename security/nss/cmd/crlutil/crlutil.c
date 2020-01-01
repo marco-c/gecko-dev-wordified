@@ -223,7 +223,7 @@ certName
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -511,7 +511,7 @@ name
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -1577,7 +1577,7 @@ inFile
 int
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -1960,7 +1960,7 @@ CERTSignedCrl
 *
 CreateModifiedCRLCopy
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTCertDBHandle
@@ -2003,7 +2003,7 @@ modCrl
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 modArena
 =
@@ -2519,7 +2519,7 @@ CERTSignedCrl
 *
 CreateNewCrl
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTCertDBHandle
@@ -3613,7 +3613,7 @@ signCrl
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =

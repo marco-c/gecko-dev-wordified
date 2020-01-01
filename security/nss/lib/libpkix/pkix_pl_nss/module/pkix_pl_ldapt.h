@@ -624,7 +624,7 @@ LDAPApproxMatchFilter
 struct
 LDAPLocationStruct
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

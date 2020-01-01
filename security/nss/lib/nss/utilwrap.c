@@ -949,7 +949,7 @@ tagnum
 SECStatus
 SECOID_SetAlgorithmID
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECAlgorithmID
@@ -975,7 +975,7 @@ params
 SECStatus
 SECOID_CopyAlgorithmID
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECAlgorithmID
@@ -1082,7 +1082,7 @@ SECItem
 *
 SECITEM_AllocItem
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -1147,7 +1147,7 @@ b
 SECStatus
 SECITEM_CopyItem
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -1189,7 +1189,7 @@ SECItem
 *
 SECITEM_ArenaDupItem
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const
@@ -1281,7 +1281,7 @@ info
 SECStatus
 SGN_CopyDigestInfo
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SGNDigestInfo
@@ -1323,7 +1323,7 @@ b
 SECStatus
 DER_Encode
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -1392,7 +1392,7 @@ DER_TimeToUTCTime
 SECItem
 *
 result
-int64
+PRTime
 time
 )
 {
@@ -1407,7 +1407,7 @@ time
 SECStatus
 DER_AsciiToTime
 (
-int64
+PRTime
 *
 result
 const
@@ -1427,7 +1427,7 @@ string
 SECStatus
 DER_UTCTimeToTime
 (
-int64
+PRTime
 *
 result
 const
@@ -1514,7 +1514,7 @@ DER_TimeToGeneralizedTime
 SECItem
 *
 dst
-int64
+PRTime
 gmttime
 )
 {
@@ -1529,13 +1529,13 @@ gmttime
 SECStatus
 DER_TimeToGeneralizedTimeArena
 (
-PRArenaPool
+PLArenaPool
 *
 arenaOpt
 SECItem
 *
 dst
-int64
+PRTime
 gmttime
 )
 {
@@ -1551,7 +1551,7 @@ gmttime
 SECStatus
 DER_GeneralizedTimeToTime
 (
-int64
+PRTime
 *
 dst
 const
@@ -1572,7 +1572,7 @@ char
 *
 CERT_GenTime2FormattedAscii
 (
-int64
+PRTime
 genTime
 char
 *
@@ -1610,7 +1610,7 @@ input
 SECStatus
 DER_EncodeTimeChoice
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -1633,7 +1633,7 @@ SEC_ASN1DecoderContext
 *
 SEC_ASN1DecoderStart
 (
-PRArenaPool
+PLArenaPool
 *
 pool
 void
@@ -1786,7 +1786,7 @@ cx
 SECStatus
 SEC_ASN1Decode
 (
-PRArenaPool
+PLArenaPool
 *
 pool
 void
@@ -1818,7 +1818,7 @@ len
 SECStatus
 SEC_ASN1DecodeItem
 (
-PRArenaPool
+PLArenaPool
 *
 pool
 void
@@ -1847,7 +1847,7 @@ src
 SECStatus
 SEC_QuickDERDecodeItem
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 void
@@ -2080,7 +2080,7 @@ SECItem
 *
 SEC_ASN1EncodeItem
 (
-PRArenaPool
+PLArenaPool
 *
 pool
 SECItem
@@ -2110,7 +2110,7 @@ SECItem
 *
 SEC_ASN1EncodeInteger
 (
-PRArenaPool
+PLArenaPool
 *
 pool
 SECItem
@@ -2133,7 +2133,7 @@ SECItem
 *
 SEC_ASN1EncodeUnsignedInteger
 (
-PRArenaPool
+PLArenaPool
 *
 pool
 SECItem
@@ -2417,7 +2417,7 @@ SECItem
 *
 NSSBase64_DecodeBuffer
 (
-PRArenaPool
+PLArenaPool
 *
 arenaOpt
 SECItem
@@ -2446,7 +2446,7 @@ char
 *
 NSSBase64_EncodeItem
 (
-PRArenaPool
+PLArenaPool
 *
 arenaOpt
 char

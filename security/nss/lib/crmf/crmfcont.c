@@ -224,7 +224,7 @@ oidData
 SECStatus
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -801,7 +801,7 @@ PR_TRUE
 SECStatus
 crmf_copy_encryptedvalue_secalg
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECAlgorithmID
@@ -898,7 +898,7 @@ rv
 SECStatus
 crmf_copy_encryptedvalue
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFEncryptedValue
@@ -1194,7 +1194,7 @@ SECFailure
 SECStatus
 crmf_copy_encryptedkey
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFEncryptedKey
@@ -2624,7 +2624,7 @@ rv
 =
 SECFailure
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -2751,7 +2751,7 @@ return
 SECStatus
 crmf_encrypted_value_unwrap_priv_key
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFEncryptedValue
@@ -4061,7 +4061,7 @@ PR_TRUE
 SECStatus
 crmf_copy_pkiarchiveoptions
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFPKIArchiveOptions
@@ -4535,7 +4535,7 @@ static
 SECStatus
 crmf_encode_pkiarchiveoptions
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFControl
@@ -4653,7 +4653,7 @@ CRMFControl
 *
 newControl
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;

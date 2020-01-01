@@ -2058,7 +2058,7 @@ NULL
 0
 }
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =

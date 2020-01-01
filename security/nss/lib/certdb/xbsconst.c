@@ -164,7 +164,7 @@ pathLenConstraint
 SECItem
 encodedValue
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -248,7 +248,7 @@ break
 SECStatus
 CERT_EncodeBasicConstraintValue
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTBasicConstraints
@@ -262,7 +262,7 @@ encodedValue
 EncodedContext
 encodeContext
 ;
-PRArenaPool
+PLArenaPool
 *
 our_pool
 =
@@ -507,7 +507,7 @@ encodedValue
 EncodedContext
 decodeContext
 ;
-PRArenaPool
+PLArenaPool
 *
 our_pool
 ;

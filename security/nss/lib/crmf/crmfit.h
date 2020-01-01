@@ -89,7 +89,7 @@ CRMFCertReqMsg
 *
 messages
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -479,7 +479,7 @@ encoding
 .
 *
 /
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -551,7 +551,7 @@ decoding
 .
 *
 /
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;

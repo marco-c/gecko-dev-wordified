@@ -3044,7 +3044,7 @@ CERTAVA
 *
 ParseRFC1485AVA
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const
@@ -8381,7 +8381,7 @@ dername
 int
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -8474,7 +8474,7 @@ char
 *
 avaToString
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTAVA
@@ -8663,7 +8663,7 @@ char
 *
 CERT_GetNameElement
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const
@@ -8834,7 +8834,7 @@ char
 *
 CERT_GetLastNameElement
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const
@@ -8981,7 +8981,7 @@ CERTGeneralName
 *
 current
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -9794,7 +9794,7 @@ pBuf
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 tmpArena
 =

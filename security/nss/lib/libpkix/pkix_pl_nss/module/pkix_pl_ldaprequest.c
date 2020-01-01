@@ -3148,7 +3148,7 @@ an
 LdapRequest
 using
 the
-PRArenaPool
+PLArenaPool
 pointed
 to
 by
@@ -3288,7 +3288,7 @@ The
 address
 of
 the
-PRArenaPool
+PLArenaPool
 to
 be
 used
@@ -3912,7 +3912,7 @@ PKIX_Error
 *
 pkix_pl_LdapRequest_Create
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 PKIX_UInt32
