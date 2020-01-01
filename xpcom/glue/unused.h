@@ -491,8 +491,8 @@ unused_t
 extern
 const
 unused_t
-unused
 NS_COM_GLUE
+unused
 ;
 template
 <
