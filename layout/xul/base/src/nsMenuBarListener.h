@@ -106,6 +106,13 @@ nsIDOMEventListener
 .
 h
 "
+#
+include
+"
+nsIDOMEventTarget
+.
+h
+"
 /
 /
 X

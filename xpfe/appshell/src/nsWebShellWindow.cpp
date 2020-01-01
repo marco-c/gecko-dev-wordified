@@ -201,6 +201,13 @@ h
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsIWebNavigation
 .
 h
@@ -458,13 +465,6 @@ endif
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
-:
-:
-dom
 ;
 /
 *
@@ -1842,7 +1842,7 @@ mDocShell
 ;
 nsCOMPtr
 <
-EventTarget
+nsIDOMEventTarget
 >
 eventTarget
 =
@@ -4146,7 +4146,7 @@ mDocShell
 ;
 nsCOMPtr
 <
-EventTarget
+nsIDOMEventTarget
 >
 eventTarget
 =

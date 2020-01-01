@@ -119,6 +119,13 @@ h
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsIServiceManager
 .
 h
@@ -165,13 +172,6 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
-:
-:
-dom
 ;
 using
 namespace
@@ -1632,7 +1632,7 @@ FireDOMOrientationEvent
 nsIDOMDocument
 *
 domdoc
-EventTarget
+nsIDOMEventTarget
 *
 target
 double
@@ -1738,7 +1738,7 @@ FireDOMMotionEvent
 nsIDOMDocument
 *
 domdoc
-EventTarget
+nsIDOMEventTarget
 *
 target
 uint32_t

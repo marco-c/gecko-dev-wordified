@@ -911,7 +911,7 @@ nsFrameLoader
 cb
 )
 ;
-EventTarget
+nsIDOMEventTarget
 *
 et
 =

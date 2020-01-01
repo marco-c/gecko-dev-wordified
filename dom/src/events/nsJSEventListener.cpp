@@ -201,6 +201,13 @@ h
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsIJSContextStack
 .
 h
@@ -918,7 +925,7 @@ aEvent
 {
 nsCOMPtr
 <
-EventTarget
+nsIDOMEventTarget
 >
 target
 =

@@ -132,6 +132,13 @@ SafeOptionListMutation
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h

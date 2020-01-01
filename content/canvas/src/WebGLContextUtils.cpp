@@ -159,6 +159,13 @@ h
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsIDOMDataContainerEvent
 .
 h

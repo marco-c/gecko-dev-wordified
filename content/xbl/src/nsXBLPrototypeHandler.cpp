@@ -245,6 +245,13 @@ h
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsIDOMEventListener
 .
 h

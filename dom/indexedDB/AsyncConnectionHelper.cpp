@@ -586,7 +586,7 @@ NS_ProxyRelease
 mainThread
 static_cast
 <
-EventTarget
+nsIDOMEventTarget
 *
 >
 (

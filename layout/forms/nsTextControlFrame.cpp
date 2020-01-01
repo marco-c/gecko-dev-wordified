@@ -397,6 +397,13 @@ check
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h

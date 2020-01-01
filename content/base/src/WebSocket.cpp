@@ -6987,7 +6987,7 @@ false
 ;
 static_cast
 <
-EventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -7016,7 +7016,7 @@ true
 ;
 static_cast
 <
-EventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -7063,7 +7063,7 @@ false
 ;
 static_cast
 <
-EventTarget
+nsIDOMEventTarget
 *
 >
 (

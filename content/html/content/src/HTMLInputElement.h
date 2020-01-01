@@ -6147,7 +6147,7 @@ once
 bool
 ShouldPreventDOMActivateDispatch
 (
-EventTarget
+nsIDOMEventTarget
 *
 aOriginalTarget
 )

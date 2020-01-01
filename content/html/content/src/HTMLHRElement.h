@@ -116,6 +116,13 @@ h
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsMappedAttributes
 .
 h

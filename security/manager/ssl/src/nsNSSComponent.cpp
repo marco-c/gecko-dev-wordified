@@ -630,13 +630,6 @@ namespace
 mozilla
 :
 :
-dom
-;
-using
-namespace
-mozilla
-:
-:
 psm
 ;
 #
@@ -2925,7 +2918,7 @@ Send
 it
 nsCOMPtr
 <
-EventTarget
+nsIDOMEventTarget
 >
 target
 =

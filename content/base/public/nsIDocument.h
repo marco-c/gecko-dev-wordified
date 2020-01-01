@@ -7014,7 +7014,7 @@ values
 *
 /
 virtual
-void
+nsresult
 Sanitize
 (
 )
@@ -12957,13 +12957,7 @@ CreateTouch
 nsIDOMWindow
 *
 aView
-mozilla
-:
-:
-dom
-:
-:
-EventTarget
+nsISupports
 *
 aTarget
 int32_t

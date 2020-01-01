@@ -295,7 +295,7 @@ aWindow
 void
 AddKeyListener
 (
-nsINode
+nsIDOMHTMLInputElement
 *
 aInput
 )

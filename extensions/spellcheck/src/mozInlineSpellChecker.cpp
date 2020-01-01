@@ -454,6 +454,13 @@ h
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsIDOMMouseEvent
 .
 h
@@ -612,13 +619,6 @@ nsEditor
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-dom
-;
 /
 /
 Set
@@ -3748,7 +3748,7 @@ rv
 ;
 nsCOMPtr
 <
-EventTarget
+nsIDOMEventTarget
 >
 piTarget
 =
@@ -3882,7 +3882,7 @@ NS_ERROR_NULL_POINTER
 ;
 nsCOMPtr
 <
-EventTarget
+nsIDOMEventTarget
 >
 piTarget
 =

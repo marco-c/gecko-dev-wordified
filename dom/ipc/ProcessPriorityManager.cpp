@@ -294,6 +294,13 @@ h
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsIDOMDocument
 .
 h
@@ -2283,7 +2290,7 @@ return
 }
 nsCOMPtr
 <
-EventTarget
+nsIDOMEventTarget
 >
 target
 =

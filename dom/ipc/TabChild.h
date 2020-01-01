@@ -210,6 +210,13 @@ h
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestor
 .
 h
