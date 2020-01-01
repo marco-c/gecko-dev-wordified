@@ -746,12 +746,6 @@ HTMLVideoElement
 .
 h
 "
-extern
-void
-NS_ShutdownEventTargetChainItemRecyclePool
-(
-)
-;
 using
 namespace
 mozilla
@@ -1955,10 +1949,6 @@ nsRegion
 :
 :
 ShutdownStatic
-(
-)
-;
-NS_ShutdownEventTargetChainItemRecyclePool
 (
 )
 ;
