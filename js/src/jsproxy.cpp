@@ -9935,7 +9935,7 @@ setProperty
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-NULL
+proxy_Finalize
 /
 *
 finalize
