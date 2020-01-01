@@ -10778,7 +10778,7 @@ size
 :
 1
 .
-15em
+05em
 ;
 }
 .
@@ -10817,6 +10817,14 @@ color
 moz
 -
 nativehyperlinktext
+;
+font
+-
+size
+:
+0
+.
+9em
 ;
 }
 richlistitem
