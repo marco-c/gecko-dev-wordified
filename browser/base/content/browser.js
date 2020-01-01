@@ -13739,7 +13739,7 @@ nsIClipboard
 /
 /
 Create
-tranferable
+transferable
 that
 will
 transfer
