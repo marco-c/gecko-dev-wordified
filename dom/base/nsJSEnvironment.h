@@ -151,13 +151,6 @@ h
 #
 include
 "
-nsIXPCScriptNotify
-.
-h
-"
-#
-include
-"
 prtime
 .
 h
@@ -255,8 +248,6 @@ nsJSContext
 :
 public
 nsIScriptContext
-public
-nsIXPCScriptNotify
 {
 public
 :
@@ -529,7 +520,6 @@ aResult
 )
 MOZ_OVERRIDE
 ;
-NS_DECL_NSIXPCSCRIPTNOTIFY
 static
 void
 LoadStart
