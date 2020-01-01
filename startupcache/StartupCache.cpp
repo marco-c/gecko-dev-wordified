@@ -809,7 +809,6 @@ up
 .
 "
 )
-;
 namespace
 mozilla
 {
