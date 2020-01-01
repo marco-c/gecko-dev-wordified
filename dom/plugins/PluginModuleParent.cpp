@@ -751,6 +751,11 @@ __FUNCTION__
 delete
 aActor
 ;
+*
+_retval
+=
+NPERR_NO_ERROR
+;
 return
 true
 ;
@@ -1310,6 +1315,13 @@ instance
 -
 >
 pdata
+)
+;
+parentInstance
+-
+>
+Destroy
+(
 )
 ;
 NPError
