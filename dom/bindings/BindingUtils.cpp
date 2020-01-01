@@ -4999,7 +4999,7 @@ JSFunction
 fun
 (
 cx
-JS_NewFunction
+JS_NewFunctionById
 (
 cx
 (
@@ -5013,7 +5013,7 @@ op
 0
 0
 global
-nullptr
+id
 )
 )
 ;
@@ -5086,7 +5086,7 @@ it
 .
 fun
 =
-JS_NewFunction
+JS_NewFunctionById
 (
 cx
 (
@@ -5100,7 +5100,7 @@ op
 1
 0
 global
-nullptr
+id
 )
 ;
 if
