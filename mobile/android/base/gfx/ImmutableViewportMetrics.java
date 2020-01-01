@@ -746,8 +746,10 @@ public
 ImmutableViewportMetrics
 setViewportSize
 (
-FloatSize
-size
+float
+width
+float
+height
 )
 {
 return
@@ -766,13 +768,9 @@ viewportRectLeft
 viewportRectTop
 viewportRectLeft
 +
-size
-.
 width
 viewportRectTop
 +
-size
-.
 height
 zoomFactor
 )
