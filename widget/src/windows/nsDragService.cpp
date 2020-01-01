@@ -620,13 +620,6 @@ h
 #
 include
 "
-nsIDownload
-.
-h
-"
-#
-include
-"
 nsToolkit
 .
 h
