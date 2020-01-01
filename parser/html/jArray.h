@@ -690,6 +690,12 @@ defined
 (
 __clang__
 )
+|
+|
+defined
+(
+__ANDROID__
+)
 /
 /
 clang
@@ -699,6 +705,14 @@ X
 10
 .
 7
+and
+gcc
+-
+4
+.
+6
+on
+android
 does
 not
 have
