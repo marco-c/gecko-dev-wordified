@@ -20542,6 +20542,17 @@ nsnull
 ;
 }
 }
+nsCOMPtr
+<
+nsIContent
+>
+fragment
+=
+do_QueryInterface
+(
+frag
+)
+;
 if
 (
 contextAsContent
@@ -20553,7 +20564,7 @@ parser
 ParseFragment
 (
 aFragment
-frag
+fragment
 contextAsContent
 -
 >
@@ -20588,7 +20599,7 @@ parser
 ParseFragment
 (
 aFragment
-frag
+fragment
 nsGkAtoms
 :
 :

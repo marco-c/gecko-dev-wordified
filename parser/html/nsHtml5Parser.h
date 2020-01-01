@@ -1370,12 +1370,6 @@ aTargetNode
 the
 target
 container
-(
-must
-QI
-to
-nsIContent
-)
 *
 param
 aContextLocalName
@@ -1414,7 +1408,7 @@ const
 nsAString
 &
 aSourceBuffer
-nsISupports
+nsIContent
 *
 aTargetNode
 nsIAtom
