@@ -6326,9 +6326,8 @@ fun
 script
 -
 >
-getFunction
+getCallerFunction
 (
-0
 )
 ;
 if
