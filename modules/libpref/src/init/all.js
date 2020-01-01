@@ -8269,7 +8269,7 @@ max
 -
 connections
 "
-30
+256
 )
 ;
 /
