@@ -472,6 +472,9 @@ gcWeakMapList
 (
 NULL
 )
+gcGrayRoots
+(
+)
 gcMallocBytes
 (
 0

@@ -137,6 +137,14 @@ useSavedRoots
 false
 )
 ;
+void
+BufferGrayRoots
+(
+GCMarker
+*
+gcmarker
+)
+;
 class
 AutoCopyFreeListToArenas
 {
