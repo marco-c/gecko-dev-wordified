@@ -899,9 +899,6 @@ SVGScroll
 "
 SVGZoom
 "
-#
-ifdef
-MOZ_SMIL
 "
 beginEvent
 "
@@ -911,11 +908,6 @@ endEvent
 "
 repeatEvent
 "
-#
-endif
-/
-/
-MOZ_SMIL
 #
 ifdef
 MOZ_MEDIA
@@ -4499,9 +4491,6 @@ NS_SVGZOOM_EVENT
 break
 ;
 }
-#
-ifdef
-MOZ_SMIL
 case
 NS_SMIL_TIME_EVENT
 :
@@ -4532,11 +4521,6 @@ NS_SMIL_TIME_EVENT
 break
 ;
 }
-#
-endif
-/
-/
-MOZ_SMIL
 case
 NS_SIMPLE_GESTURE_EVENT
 :
@@ -6952,9 +6936,6 @@ sEventNames
 eDOMEvents_SVGZoom
 ]
 ;
-#
-ifdef
-MOZ_SMIL
 case
 NS_SMIL_BEGIN
 :
@@ -6982,11 +6963,6 @@ sEventNames
 eDOMEvents_repeatEvent
 ]
 ;
-#
-endif
-/
-/
-MOZ_SMIL
 #
 ifdef
 MOZ_MEDIA

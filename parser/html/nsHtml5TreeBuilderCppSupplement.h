@@ -5631,7 +5631,7 @@ mViewSource
 AddErrorToCurrentRun
 (
 "
-errBadStartTagInHead
+errBadStartTagInHead2
 "
 aName
 )

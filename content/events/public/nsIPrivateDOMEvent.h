@@ -847,9 +847,6 @@ nsGUIEvent
 aEvent
 )
 ;
-#
-ifdef
-MOZ_SMIL
 nsresult
 NS_NewDOMTimeEvent
 (
@@ -866,11 +863,6 @@ nsEvent
 aEvent
 )
 ;
-#
-endif
-/
-/
-MOZ_SMIL
 nsresult
 NS_NewDOMXULCommandEvent
 (

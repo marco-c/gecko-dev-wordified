@@ -684,9 +684,6 @@ float
 aX
 )
 {
-#
-ifdef
-MOZ_SMIL
 if
 (
 mIsAnimValItem
@@ -717,8 +714,6 @@ HasOwner
 =
 false
 }
-#
-endif
 *
 aX
 =
@@ -793,9 +788,6 @@ DidChangePointList
 true
 )
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 mList
@@ -816,8 +808,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
@@ -843,9 +833,6 @@ float
 aY
 )
 {
-#
-ifdef
-MOZ_SMIL
 if
 (
 mIsAnimValItem
@@ -876,8 +863,6 @@ HasOwner
 =
 false
 }
-#
-endif
 *
 aY
 =
@@ -952,9 +937,6 @@ DidChangePointList
 true
 )
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 mList
@@ -975,8 +957,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;

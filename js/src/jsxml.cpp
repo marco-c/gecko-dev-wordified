@@ -33619,6 +33619,12 @@ xml_defineSpecial
 xml_getGeneric
 xml_getProperty
 xml_getElement
+NULL
+/
+*
+getElementIfPresent
+*
+/
 xml_getSpecial
 xml_setGeneric
 xml_setProperty

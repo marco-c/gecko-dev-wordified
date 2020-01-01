@@ -5000,9 +5000,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_SMIL
 nsIDOMCSSStyleDeclaration
 *
 nsGenericDOMDataNode
@@ -5071,11 +5068,6 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-#
-endif
-/
-/
-MOZ_SMIL
 css
 :
 :

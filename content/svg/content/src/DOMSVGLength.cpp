@@ -833,9 +833,6 @@ PRUint16
 aUnit
 )
 {
-#
-ifdef
-MOZ_SMIL
 if
 (
 mIsAnimValItem
@@ -866,8 +863,6 @@ HasOwner
 =
 false
 }
-#
-endif
 *
 aUnit
 =
@@ -900,9 +895,6 @@ float
 aValue
 )
 {
-#
-ifdef
-MOZ_SMIL
 if
 (
 mIsAnimValItem
@@ -933,8 +925,6 @@ HasOwner
 =
 false
 }
-#
-endif
 if
 (
 HasOwner
@@ -1154,9 +1144,6 @@ mAttrEnum
 true
 )
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 mList
@@ -1180,8 +1167,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
@@ -1254,9 +1239,6 @@ float
 aValue
 )
 {
-#
-ifdef
-MOZ_SMIL
 if
 (
 mIsAnimValItem
@@ -1287,8 +1269,6 @@ HasOwner
 =
 false
 }
-#
-endif
 *
 aValue
 =
@@ -1369,9 +1349,6 @@ mAttrEnum
 true
 )
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 mList
@@ -1395,8 +1372,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
@@ -1472,9 +1447,6 @@ mAttrEnum
 true
 )
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 mList
@@ -1498,8 +1470,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
@@ -1535,9 +1505,6 @@ nsAString
 aValue
 )
 {
-#
-ifdef
-MOZ_SMIL
 if
 (
 mIsAnimValItem
@@ -1568,8 +1535,6 @@ HasOwner
 =
 false
 }
-#
-endif
 if
 (
 HasOwner
@@ -1686,9 +1651,6 @@ mAttrEnum
 true
 )
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 mList
@@ -1712,8 +1674,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;

@@ -641,9 +641,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-#
-ifdef
-MOZ_SMIL
 /
 /
 Returns
@@ -665,11 +662,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-#
-endif
-/
-/
-MOZ_SMIL
 private
 :
 PRInt32
@@ -823,9 +815,6 @@ PRInt32
 aResult
 )
 {
-#
-ifdef
-MOZ_SMIL
 mSVGElement
 -
 >
@@ -833,8 +822,6 @@ FlushAnimations
 (
 )
 ;
-#
-endif
 *
 aResult
 =
@@ -851,9 +838,6 @@ NS_OK
 }
 }
 ;
-#
-ifdef
-MOZ_SMIL
 struct
 SMILInteger
 :
@@ -975,11 +959,6 @@ aValue
 ;
 }
 ;
-#
-endif
-/
-/
-MOZ_SMIL
 }
 ;
 #

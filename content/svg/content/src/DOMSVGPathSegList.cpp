@@ -714,9 +714,6 @@ PRUint32
 aIndex
 )
 {
-#
-ifdef
-MOZ_SMIL
 if
 (
 IsAnimValList
@@ -734,8 +731,6 @@ FlushAnimations
 )
 ;
 }
-#
-endif
 if
 (
 aIndex
@@ -2044,9 +2039,6 @@ PRUint32
 aNumberOfItems
 )
 {
-#
-ifdef
-MOZ_SMIL
 if
 (
 IsAnimValList
@@ -2064,8 +2056,6 @@ FlushAnimations
 )
 ;
 }
-#
-endif
 *
 aNumberOfItems
 =
@@ -2231,9 +2221,6 @@ DidChangePathSegList
 true
 )
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 AttrIsAnimating
@@ -2251,8 +2238,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 }
 return
 NS_OK
@@ -2863,9 +2848,6 @@ DidChangePathSegList
 true
 )
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 AttrIsAnimating
@@ -2883,8 +2865,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 *
 _retval
 =
@@ -3282,9 +3262,6 @@ DidChangePathSegList
 true
 )
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 AttrIsAnimating
@@ -3302,8 +3279,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 NS_ADDREF
 (
 *
@@ -3562,9 +3537,6 @@ DidChangePathSegList
 true
 )
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 AttrIsAnimating
@@ -3582,8 +3554,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;

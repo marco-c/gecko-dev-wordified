@@ -1845,9 +1845,6 @@ kElementsSVG
 ]
 =
 {
-#
-ifdef
-MOZ_SVG
 &
 nsGkAtoms
 :
@@ -2532,8 +2529,6 @@ vkern
 /
 /
 vkern
-#
-endif
 nsnull
 }
 ;
@@ -2546,17 +2541,11 @@ kAttributesSVG
 ]
 =
 {
-#
-ifdef
-MOZ_SVG
 /
 /
 accent
 -
 height
-#
-ifdef
-MOZ_SMIL
 &
 nsGkAtoms
 :
@@ -2573,8 +2562,6 @@ additive
 /
 /
 additive
-#
-endif
 &
 nsGkAtoms
 :
@@ -2604,9 +2591,6 @@ form
 /
 /
 ascent
-#
-ifdef
-MOZ_SMIL
 &
 nsGkAtoms
 :
@@ -2623,8 +2607,6 @@ attributeType
 /
 /
 attributeType
-#
-endif
 &
 nsGkAtoms
 :
@@ -2657,9 +2639,6 @@ baseProfile
 /
 /
 bbox
-#
-ifdef
-MOZ_SMIL
 &
 nsGkAtoms
 :
@@ -2668,8 +2647,6 @@ begin
 /
 /
 begin
-#
-endif
 &
 nsGkAtoms
 :
@@ -2678,9 +2655,6 @@ bias
 /
 /
 bias
-#
-ifdef
-MOZ_SMIL
 &
 nsGkAtoms
 :
@@ -2697,8 +2671,6 @@ calcMode
 /
 /
 calcMode
-#
-endif
 /
 /
 cap
@@ -2853,9 +2825,6 @@ dominant_baseline
 dominant
 -
 baseline
-#
-ifdef
-MOZ_SMIL
 &
 nsGkAtoms
 :
@@ -2864,8 +2833,6 @@ dur
 /
 /
 dur
-#
-endif
 &
 nsGkAtoms
 :
@@ -2903,9 +2870,6 @@ elevation
 enable
 -
 background
-#
-ifdef
-MOZ_SMIL
 &
 nsGkAtoms
 :
@@ -2914,8 +2878,6 @@ end
 /
 /
 end
-#
-endif
 &
 nsGkAtoms
 :
@@ -3291,9 +3253,6 @@ kernelUnitLength
 /
 /
 kernelUnitLength
-#
-ifdef
-MOZ_SMIL
 &
 nsGkAtoms
 :
@@ -3318,8 +3277,6 @@ keyTimes
 /
 /
 keyTimes
-#
-endif
 &
 nsGkAtoms
 :
@@ -3724,9 +3681,6 @@ refY
 /
 /
 refY
-#
-ifdef
-MOZ_SMIL
 &
 nsGkAtoms
 :
@@ -3743,8 +3697,6 @@ repeatDur
 /
 /
 repeatDur
-#
-endif
 &
 nsGkAtoms
 :
@@ -3761,9 +3713,6 @@ requiredFeatures
 /
 /
 requiredFeatures
-#
-ifdef
-MOZ_SMIL
 &
 nsGkAtoms
 :
@@ -3772,8 +3721,6 @@ restart
 /
 /
 restart
-#
-endif
 &
 nsGkAtoms
 :
@@ -4107,9 +4054,6 @@ title
 /
 /
 title
-#
-ifdef
-MOZ_SMIL
 &
 nsGkAtoms
 :
@@ -4118,8 +4062,6 @@ to
 /
 /
 to
-#
-endif
 &
 nsGkAtoms
 :
@@ -4356,8 +4298,6 @@ zoomAndPan
 /
 /
 zoomAndPan
-#
-endif
 nsnull
 }
 ;

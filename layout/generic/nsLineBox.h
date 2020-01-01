@@ -2940,7 +2940,6 @@ bool
 CachedIsEmpty
 (
 )
-const
 ;
 void
 InvalidateCachedIsEmpty
@@ -2963,7 +2962,6 @@ bool
 IsValidCachedIsEmpty
 (
 )
-const
 {
 return
 mFlags
@@ -3058,13 +3056,11 @@ for
 a
 resize
 reflow
-mutable
 PRUint32
 mEmptyCacheValid
 :
 1
 ;
-mutable
 PRUint32
 mEmptyCacheState
 :

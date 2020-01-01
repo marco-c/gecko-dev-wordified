@@ -482,9 +482,6 @@ h
 /
 NS_ENSURE_FINITE
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsSMILValue
@@ -498,11 +495,6 @@ SVGOrientSMILType
 .
 h
 "
-#
-endif
-/
-/
-MOZ_SMIL
 using
 namespace
 mozilla
@@ -1475,9 +1467,6 @@ mAnimVal
 mBaseVal
 ;
 }
-#
-ifdef
-MOZ_SMIL
 else
 {
 aSVGElement
@@ -1488,8 +1477,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 aSVGElement
 -
 >
@@ -1609,9 +1596,6 @@ mAnimValUnit
 mBaseValUnit
 ;
 }
-#
-ifdef
-MOZ_SMIL
 else
 {
 aSVGElement
@@ -1622,8 +1606,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 if
 (
 aSVGElement
@@ -1813,9 +1795,6 @@ mAnimValUnit
 mBaseValUnit
 ;
 }
-#
-ifdef
-MOZ_SMIL
 else
 {
 aSVGElement
@@ -1826,8 +1805,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 /
 /
 We
@@ -1941,9 +1918,6 @@ mAnimVal
 mBaseVal
 ;
 }
-#
-ifdef
-MOZ_SMIL
 else
 {
 aSVGElement
@@ -1954,8 +1928,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 if
 (
 aSVGElement
@@ -2086,9 +2058,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 nsSVGAngle
@@ -2604,8 +2573,3 @@ return
 NS_OK
 ;
 }
-#
-endif
-/
-/
-MOZ_SMIL

@@ -2621,9 +2621,6 @@ nsIDOMSVGAnimPresAspRatio
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsIDOMSVGAnimateElement
@@ -2679,11 +2676,6 @@ nsIDOMTimeEvent
 .
 h
 "
-#
-endif
-/
-/
-MOZ_SMIL
 #
 include
 "
@@ -5345,9 +5337,6 @@ SVGAltGlyphElement
 nsElementSH
 ELEMENT_SCRIPTABLE_FLAGS
 )
-#
-ifdef
-MOZ_SMIL
 NS_DEFINE_CLASSINFO_DATA
 (
 SVGAnimateElement
@@ -5384,11 +5373,6 @@ TimeEvent
 nsDOMGenericSH
 DOM_DEFAULT_SCRIPTABLE_FLAGS
 )
-#
-endif
-/
-/
-MOZ_SMIL
 NS_DEFINE_CLASSINFO_DATA
 (
 SVGCircleElement
@@ -12942,9 +12926,6 @@ nsIDOMSVGStylable
 )
 DOM_CLASSINFO_SVG_ELEMENT_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END
-#
-ifdef
-MOZ_SMIL
 DOM_CLASSINFO_MAP_BEGIN
 (
 SVGAnimateElement
@@ -13043,11 +13024,6 @@ nsIDOMTimeEvent
 )
 DOM_CLASSINFO_EVENT_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END
-#
-endif
-/
-/
-MOZ_SMIL
 DOM_CLASSINFO_MAP_BEGIN
 (
 SVGCircleElement

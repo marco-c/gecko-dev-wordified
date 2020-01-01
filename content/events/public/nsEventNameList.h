@@ -2103,9 +2103,6 @@ NS_SVG_ZOOM
 EventNameType_SVGSVG
 NS_EVENT_NULL
 )
-#
-ifdef
-MOZ_SMIL
 NON_IDL_EVENT
 (
 begin
@@ -2148,11 +2145,6 @@ NS_SMIL_REPEAT
 EventNameType_None
 NS_SMIL_TIME_EVENT
 )
-#
-endif
-/
-/
-MOZ_SMIL
 NON_IDL_EVENT
 (
 MozAudioAvailable

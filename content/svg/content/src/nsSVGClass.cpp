@@ -434,9 +434,6 @@ nsSVGStylableElement
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsSMILValue
@@ -450,11 +447,6 @@ SMILStringType
 .
 h
 "
-#
-endif
-/
-/
-MOZ_SMIL
 using
 namespace
 mozilla
@@ -571,9 +563,6 @@ true
 )
 ;
 }
-#
-ifdef
-MOZ_SMIL
 if
 (
 mAnimVal
@@ -587,8 +576,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 }
 void
 nsSVGClass
@@ -762,9 +749,6 @@ nsAString
 aResult
 )
 {
-#
-ifdef
-MOZ_SMIL
 mSVGElement
 -
 >
@@ -772,8 +756,6 @@ FlushAnimations
 (
 )
 ;
-#
-endif
 mVal
 -
 >
@@ -787,9 +769,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 nsSVGClass
@@ -1045,8 +1024,3 @@ return
 NS_OK
 ;
 }
-#
-endif
-/
-/
-MOZ_SMIL

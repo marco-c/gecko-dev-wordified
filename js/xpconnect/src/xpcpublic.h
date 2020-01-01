@@ -1471,6 +1471,14 @@ gcHeapChunkDirtyUnused
 (
 0
 )
+gcHeapChunkCleanDecommitted
+(
+0
+)
+gcHeapChunkDirtyDecommitted
+(
+0
+)
 gcHeapArenaUnused
 (
 0
@@ -1542,6 +1550,12 @@ gcHeapChunkCleanUnused
 ;
 PRInt64
 gcHeapChunkDirtyUnused
+;
+PRInt64
+gcHeapChunkCleanDecommitted
+;
+PRInt64
+gcHeapChunkDirtyDecommitted
 ;
 PRInt64
 gcHeapArenaUnused

@@ -925,9 +925,6 @@ xA
 )
 ;
 }
-#
-ifdef
-MOZ_SMIL
 /
 *
 *
@@ -955,11 +952,6 @@ NS_SMILEnabled
 (
 )
 ;
-#
-endif
-/
-/
-MOZ_SMIL
 /
 /
 GRRR

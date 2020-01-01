@@ -449,9 +449,6 @@ nsSVGAttrTearoffTable
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsSMILValue
@@ -465,11 +462,6 @@ SVGPathSegListSMILType
 .
 h
 "
-#
-endif
-/
-/
-MOZ_SMIL
 /
 /
 See
@@ -1338,9 +1330,6 @@ DidAnimatePathSegList
 )
 ;
 }
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 SVGAnimatedPathSegList
@@ -1699,11 +1688,6 @@ mElement
 ;
 }
 }
-#
-endif
-/
-/
-MOZ_SMIL
 }
 /
 /
