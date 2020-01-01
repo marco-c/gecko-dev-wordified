@@ -186,6 +186,12 @@ eDocLoad
 eDocCreate
 |
 eDocDestroy
+ePlatforms
+=
+1
+<
+<
+3
 }
 ;
 /
