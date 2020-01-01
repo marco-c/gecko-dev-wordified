@@ -9535,6 +9535,10 @@ PRUint8
 aSheetType
 )
 {
+#
+ifdef
+DEBUG
+{
 PRInt32
 type
 ;
@@ -9571,6 +9575,9 @@ rule
 "
 )
 ;
+}
+#
+endif
 /
 /
 aRule
