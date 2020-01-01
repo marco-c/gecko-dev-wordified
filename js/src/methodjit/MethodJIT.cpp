@@ -3390,7 +3390,7 @@ JS_STATIC_ASSERT
 offsetof
 (
 VMFrame
-oldRegs
+unused
 )
 =
 =
@@ -3928,7 +3928,7 @@ sp
 ]
 *
 [
-oldRegs
+unused
 ]
 *
 [
