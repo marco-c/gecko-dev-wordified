@@ -2289,6 +2289,17 @@ self
 .
 remoteTmpDir
         
+env
+[
+"
+HOME
+"
+]
+=
+self
+.
+profileDir
+        
 outputFile
 =
 "
