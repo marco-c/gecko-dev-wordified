@@ -134,12 +134,6 @@ done
 evt
 )
 {
-evt
-.
-stopPropagation
-(
-)
-;
 ok
 (
 true
