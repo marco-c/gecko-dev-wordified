@@ -756,7 +756,7 @@ public
 static
 final
 int
-VISTITED
+VISITED
 =
 22
 ;
