@@ -7164,6 +7164,8 @@ or
 Alt
 or
 Meta
+or
+OS
 is
 pressed
 we
@@ -7172,9 +7174,9 @@ to
 append
 the
 key
+/
+/
 details
-/
-/
 for
 handling
 shortcut
@@ -7185,6 +7187,8 @@ we
 have
 no
 additional
+/
+/
 work
 .
 if
@@ -7209,6 +7213,14 @@ IsAlt
 aKeyEvent
 .
 IsMeta
+(
+)
+&
+&
+!
+aKeyEvent
+.
+IsOS
 (
 )
 )
