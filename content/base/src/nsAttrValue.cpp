@@ -5479,9 +5479,6 @@ const
 nsAString
 &
 aString
-nsIDocument
-*
-aDocument
 )
 {
 ResetIfSet

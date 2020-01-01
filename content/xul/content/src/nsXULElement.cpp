@@ -7388,7 +7388,6 @@ ParseColor
 (
 *
 aValue
-document
 )
 ;
 attrValue
