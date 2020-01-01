@@ -1,3 +1,13 @@
+/
+/
+|
+jit
+-
+test
+|
+exitstatus
+:
+3
 try
 {
 terminate
