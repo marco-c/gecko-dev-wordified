@@ -1393,7 +1393,10 @@ RootedObject
 glob
 (
 cx
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 cx
 )

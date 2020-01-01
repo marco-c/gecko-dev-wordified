@@ -348,7 +348,10 @@ JSObject
 global
 (
 mCx
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 mCx
 )

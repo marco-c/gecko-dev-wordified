@@ -1958,7 +1958,10 @@ aCx
 UnwrapErrorEvent
 1
 0
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 aCx
 )

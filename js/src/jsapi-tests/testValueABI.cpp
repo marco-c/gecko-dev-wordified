@@ -220,7 +220,10 @@ RootedObject
 obj
 (
 cx
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 cx
 )

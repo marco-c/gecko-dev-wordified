@@ -411,7 +411,10 @@ aGlobal
 {
 aGlobal
 =
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 aCx
 )

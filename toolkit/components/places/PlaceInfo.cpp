@@ -649,7 +649,10 @@ JSObject
 global
 (
 aContext
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 aContext
 )

@@ -4380,7 +4380,10 @@ RootedObject
 scope
 (
 cx
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 cx
 )

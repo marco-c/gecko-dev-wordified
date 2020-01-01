@@ -1301,7 +1301,10 @@ JSObject
 *
 glob
 =
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 cx
 )
@@ -1499,7 +1502,10 @@ JSObject
 *
 glob
 =
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 cx
 )

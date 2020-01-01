@@ -10118,7 +10118,10 @@ JS_PUBLIC_API
 JSObject
 *
 )
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 JSContext
 *

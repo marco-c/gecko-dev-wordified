@@ -3030,7 +3030,10 @@ RootedObject
 global
 (
 cx
-JS_GetGlobalForScopeChain
+JS
+:
+:
+DefaultObjectForContextOrNull
 (
 cx
 )

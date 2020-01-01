@@ -5006,7 +5006,10 @@ js
 SetDefaultObjectForContext
 (
 newcx
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 cx
 )
@@ -5024,7 +5027,10 @@ newCompartment
 construct
 (
 newcx
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 cx
 )
@@ -18020,7 +18026,10 @@ RootedObject
 global
 (
 cx
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 cx
 )
@@ -23876,7 +23885,10 @@ RootedObject
 global
 (
 cx
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 cx
 )

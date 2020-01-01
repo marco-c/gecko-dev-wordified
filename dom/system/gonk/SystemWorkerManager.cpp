@@ -921,7 +921,10 @@ JSObject
 *
 workerGlobal
 =
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 aCx
 )
@@ -1511,7 +1514,10 @@ JSObject
 *
 workerGlobal
 =
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 aCx
 )
@@ -1669,7 +1675,10 @@ JSObject
 *
 obj
 =
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 aCx
 )

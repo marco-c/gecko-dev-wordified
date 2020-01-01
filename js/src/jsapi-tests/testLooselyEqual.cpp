@@ -363,7 +363,10 @@ obj
 =
 OBJECT_TO_JSVAL
 (
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 cx
 )

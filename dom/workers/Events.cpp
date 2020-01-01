@@ -4814,7 +4814,10 @@ JSObject
 global
 (
 aCx
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 aCx
 )
@@ -4869,7 +4872,10 @@ JSObject
 global
 (
 aCx
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 aCx
 )
@@ -4931,7 +4937,10 @@ JSObject
 global
 (
 aCx
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 aCx
 )
@@ -4981,7 +4990,10 @@ JSObject
 global
 (
 aCx
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 aCx
 )

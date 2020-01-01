@@ -994,7 +994,10 @@ setPrincipals
 (
 Environment
 (
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 cx
 )
@@ -1221,7 +1224,10 @@ env
 =
 Environment
 (
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 cx
 )
