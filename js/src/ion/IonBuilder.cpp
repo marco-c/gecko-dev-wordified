@@ -243,6 +243,10 @@ temp
 graph
 info
 )
+backgroundCodegen_
+(
+NULL
+)
 recompileInfo
 (
 cx
@@ -254,10 +258,6 @@ compartment
 types
 .
 compiledInfo
-)
-backgroundCodegen_
-(
-NULL
 )
 cx
 (

@@ -42125,7 +42125,7 @@ current
 return
 false
 ;
-uint32_t
+int
 formalStackIndex
 =
 pcStack
@@ -42140,6 +42140,14 @@ current
 )
 +
 formalIndex
+;
+JS_ASSERT
+(
+formalStackIndex
+>
+=
+0
+)
 ;
 if
 (
