@@ -182,6 +182,16 @@ LInstruction
 ins
 )
 ;
+ValueOperand
+ToTempValue
+(
+LInstruction
+*
+ins
+size_t
+pos
+)
+;
 void
 loadUnboxedValue
 (
