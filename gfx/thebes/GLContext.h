@@ -8365,6 +8365,13 @@ int
 aLine
 )
 {
+aCx
+-
+>
+MakeCurrent
+(
+)
+;
 GLenum
 err
 =
