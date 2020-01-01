@@ -388,6 +388,14 @@ BLOCK
 *
 /
 #
+ifdef
+NO_NSPR_10_SUPPORT
+#
+undef
+NO_NSPR_10_SUPPORT
+#
+endif
+#
 include
 "
 nsAppRunner
