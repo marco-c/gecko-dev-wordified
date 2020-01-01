@@ -260,8 +260,8 @@ com
 Ere
 Maijala
 <
-ere
-atp
+emaijala
+kolumbus
 .
 fi
 >
@@ -56362,6 +56362,9 @@ PRInt32
 aCycleCount
 )
 {
+#
+ifndef
+WINCE
 /
 /
 Got
@@ -56519,6 +56522,8 @@ FlashWindowEx
 flashInfo
 )
 ;
+#
+endif
 return
 NS_OK
 ;
@@ -56531,6 +56536,9 @@ StopFlashing
 (
 )
 {
+#
+ifndef
+WINCE
 HWND
 flashWnd
 =
@@ -56577,6 +56585,8 @@ FlashWindowEx
 flashInfo
 )
 ;
+#
+endif
 }
 NS_IMETHODIMP
 nsWindow
