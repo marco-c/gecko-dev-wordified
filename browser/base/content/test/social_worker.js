@@ -185,6 +185,13 @@ window
 -
 message
 "
+location
+:
+event
+.
+data
+.
+location
 }
 )
 ;
@@ -395,6 +402,13 @@ panel
 -
 message
 "
+location
+:
+event
+.
+data
+.
+location
 }
 )
 ;
