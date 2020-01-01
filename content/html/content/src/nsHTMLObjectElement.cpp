@@ -553,6 +553,12 @@ endif
 {
 public
 :
+using
+nsIConstraintValidation
+:
+:
+GetValidationMessage
+;
 nsHTMLObjectElement
 (
 already_AddRefed
