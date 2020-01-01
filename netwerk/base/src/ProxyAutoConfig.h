@@ -276,7 +276,10 @@ GC
 bool
 MyIPAddress
 (
-jsval
+JS
+:
+:
+Value
 *
 vp
 )
@@ -646,7 +649,10 @@ hostName
 unsigned
 int
 timeout
-jsval
+JS
+:
+:
+Value
 *
 vp
 )
