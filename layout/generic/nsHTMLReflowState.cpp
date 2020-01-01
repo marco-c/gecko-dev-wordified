@@ -6515,10 +6515,9 @@ if
 lineBox
 !
 =
-blockFrame
--
->
-end_lines
+iter
+.
+End
 (
 )
 )
