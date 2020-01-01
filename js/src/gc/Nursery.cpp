@@ -3468,6 +3468,13 @@ waitBackgroundSweepEnd
 (
 )
 ;
+AutoStopVerifyingBarriers
+av
+(
+rt
+false
+)
+;
 /
 *
 Move
