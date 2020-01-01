@@ -1299,7 +1299,7 @@ JSContext
 *
 context
 ;
-JSTokenStream
+TokenStream
 *
 tokenStream
 ;
@@ -3027,7 +3027,7 @@ tokenStream
 )
 {
 return
-js_ReportCompileErrorNumber
+ReportCompileErrorNumber
 (
 state
 -
@@ -12923,7 +12923,7 @@ CompileRegExpToAST
 JSContext
 *
 cx
-JSTokenStream
+TokenStream
 *
 ts
 JSString
@@ -23390,7 +23390,7 @@ js_NewRegExp
 JSContext
 *
 cx
-JSTokenStream
+TokenStream
 *
 ts
 JSString
@@ -39151,7 +39151,7 @@ js_NewRegExpObject
 JSContext
 *
 cx
-JSTokenStream
+TokenStream
 *
 ts
 const

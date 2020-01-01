@@ -2483,7 +2483,7 @@ data
 in
 the
 *
-JSTokenStream
+TokenStream
 .
 *
 /
