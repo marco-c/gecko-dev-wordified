@@ -587,6 +587,7 @@ GeckoAppShell
 .
 getCacheDir
 (
+app
 )
 ;
 File
@@ -774,8 +775,16 @@ getPackageResourcePath
 ;
 GeckoAppShell
 .
-ensureSQLiteLibsLoaded
+setupGeckoEnvironment
 (
+app
+)
+;
+GeckoAppShell
+.
+loadSQLiteLibs
+(
+app
 resourcePath
 )
 ;
