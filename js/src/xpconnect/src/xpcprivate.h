@@ -3815,6 +3815,15 @@ return
 mCycleCollecting
 ;
 }
+static
+uint8
+GetTraceKind
+(
+void
+*
+thing
+)
+;
 XPCCallContext
 *
 GetCycleCollectionContext

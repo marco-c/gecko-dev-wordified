@@ -4896,8 +4896,8 @@ JSGCThingCallback
 void
 *
 thing
-uint32
-traceKind
+uint8
+flags
 void
 *
 closure

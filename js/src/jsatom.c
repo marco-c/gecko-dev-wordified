@@ -2825,7 +2825,10 @@ js_FinalizeStringRT
 (
 rt
 str
-js_GetExternalStringGCType
+GCF_TYPEMASK
+&
+*
+js_GetGCThingFlags
 (
 str
 )
