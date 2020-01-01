@@ -930,7 +930,7 @@ release
 the
 WebSocket
 object
-nsresult
+void
 FailConnection
 (
 uint16_t

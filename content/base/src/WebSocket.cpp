@@ -1267,7 +1267,7 @@ return
 rv
 ;
 }
-nsresult
+void
 WebSocket
 :
 :
@@ -1308,9 +1308,6 @@ CloseConnection
 aReasonCode
 aReasonString
 )
-;
-return
-NS_OK
 ;
 }
 nsresult
