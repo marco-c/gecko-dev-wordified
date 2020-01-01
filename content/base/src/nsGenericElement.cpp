@@ -28120,7 +28120,7 @@ BeforeSetAttr
 aNamespaceID
 aName
 &
-aValue
+value
 aNotify
 )
 ;
@@ -28328,7 +28328,7 @@ BeforeSetAttr
 aNamespaceID
 aName
 &
-value
+aParsedValue
 aNotify
 )
 ;
