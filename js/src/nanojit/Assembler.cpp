@@ -6024,13 +6024,9 @@ verbose_outputf
 (
 "
 %
-010lx
+p
 :
 "
-(
-unsigned
-long
-)
 jmpTarget
 )
 ;
