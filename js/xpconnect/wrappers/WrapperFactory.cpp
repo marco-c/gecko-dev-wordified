@@ -919,7 +919,6 @@ priv
 >
 waiverWrapperMap
 )
-{
 wobj
 =
 priv
@@ -933,12 +932,6 @@ Find
 obj
 )
 ;
-xpc_UnmarkGrayObject
-(
-wobj
-)
-;
-}
 /
 /
 No
