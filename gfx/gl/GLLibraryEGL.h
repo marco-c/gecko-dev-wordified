@@ -261,6 +261,8 @@ data
 /
 local
 /
+tmp
+/
 egltrace
 .
 so
