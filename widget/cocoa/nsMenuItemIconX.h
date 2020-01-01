@@ -530,6 +530,7 @@ aNativeMenuItem
 ;
 private
 :
+virtual
 ~
 nsMenuItemIconX
 (

@@ -484,6 +484,7 @@ nsScreenManagerCocoa
 (
 )
 ;
+virtual
 ~
 nsScreenManagerCocoa
 (
