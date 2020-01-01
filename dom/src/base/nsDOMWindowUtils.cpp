@@ -1363,8 +1363,10 @@ send
 the
 event
 to
+nsCOMPtr
+<
 nsIWidget
-*
+>
 widget
 =
 GetWidget
