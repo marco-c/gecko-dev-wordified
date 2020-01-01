@@ -40742,9 +40742,6 @@ pn
 ;
 }
 case
-TOK_EOL
-:
-case
 TOK_SEMI
 :
 pn

@@ -652,13 +652,6 @@ h
 #
 include
 "
-jsscan
-.
-h
-"
-#
-include
-"
 jsscope
 .
 h
