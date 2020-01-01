@@ -3442,6 +3442,11 @@ getApplicationContext
 ;
 if
 (
+AppConstants
+.
+MOZ_ANDROID_BEAM
+&
+&
 Build
 .
 VERSION
@@ -3959,6 +3964,11 @@ Gather
 ;
 if
 (
+AppConstants
+.
+MOZ_ANDROID_BEAM
+&
+&
 Build
 .
 VERSION
@@ -10748,6 +10758,11 @@ getAction
 ;
 if
 (
+AppConstants
+.
+MOZ_ANDROID_BEAM
+&
+&
 Build
 .
 VERSION
