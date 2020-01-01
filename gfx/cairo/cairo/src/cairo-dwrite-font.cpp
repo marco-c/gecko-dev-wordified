@@ -7747,8 +7747,10 @@ while
 runs_remaining
 )
 {
+RefPtr
+<
 ID2D1Brush
-*
+>
 brush
 =
 _cairo_d2d_create_brush_for_pattern
@@ -7895,13 +7897,6 @@ Point2F
 &
 run
 brush
-)
-;
-brush
--
->
-Release
-(
 )
 ;
 if
