@@ -1443,6 +1443,17 @@ gradientTransform
 mContent
 )
 ;
+if
+(
+!
+element
+-
+>
+mGradientTransform
+)
+return
+bboxMatrix
+;
 nsCOMPtr
 <
 nsIDOMSVGTransformList
