@@ -1080,13 +1080,9 @@ primeSuggestions
 (
 )
 {
-GeckoAppShell
+ThreadUtils
 .
-getHandler
-(
-)
-.
-post
+postToBackgroundThread
 (
 new
 Runnable
@@ -5464,9 +5460,9 @@ Void
 Cursor
 >
 (
-GeckoAppShell
+ThreadUtils
 .
-getHandler
+getBackgroundHandler
 (
 )
 )

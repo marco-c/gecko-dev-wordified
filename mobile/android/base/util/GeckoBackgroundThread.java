@@ -88,7 +88,6 @@ concurrent
 .
 SynchronousQueue
 ;
-public
 final
 class
 GeckoBackgroundThread
@@ -217,7 +216,11 @@ t
 yet
 exist
 .
-public
+/
+*
+package
+*
+/
 static
 synchronized
 Handler
@@ -279,7 +282,11 @@ return
 sHandler
 ;
 }
-public
+/
+*
+package
+*
+/
 static
 void
 post

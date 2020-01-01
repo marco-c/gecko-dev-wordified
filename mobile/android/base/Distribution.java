@@ -135,7 +135,7 @@ gecko
 .
 util
 .
-GeckoBackgroundThread
+ThreadUtils
 ;
 import
 android
@@ -355,13 +355,9 @@ the
 background
 thread
 .
-GeckoBackgroundThread
+ThreadUtils
 .
-getHandler
-(
-)
-.
-post
+postToBackgroundThread
 (
 new
 Runnable
