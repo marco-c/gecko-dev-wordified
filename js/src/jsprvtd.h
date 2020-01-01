@@ -856,11 +856,6 @@ JSGenerator
 ;
 typedef
 struct
-JSNativeFunction
-JSNativeFunction
-;
-typedef
-struct
 JSParseContext
 JSParseContext
 ;
@@ -878,11 +873,6 @@ typedef
 struct
 JSPropCacheEntry
 JSPropCacheEntry
-;
-typedef
-struct
-JSScriptedFunction
-JSScriptedFunction
 ;
 typedef
 struct
@@ -1718,7 +1708,7 @@ JSString
 *
 string
 ;
-JSScriptedFunction
+JSFunction
 *
 function
 ;

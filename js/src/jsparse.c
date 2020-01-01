@@ -5487,7 +5487,7 @@ js_CompileFunctionBody
 JSContext
 *
 cx
-JSScriptedFunction
+JSFunction
 *
 fun
 JSPrincipals
@@ -6138,7 +6138,7 @@ BindLocalVariable
 JSContext
 *
 cx
-JSScriptedFunction
+JSFunction
 *
 fun
 JSAtom
@@ -6458,7 +6458,7 @@ JS_HAS_DESTRUCTURING
 *
 /
 static
-JSScriptedFunction
+JSFunction
 *
 NewCompilerFunction
 (
@@ -6479,7 +6479,7 @@ JSObject
 *
 parent
 ;
-JSScriptedFunction
+JSFunction
 *
 fun
 ;
@@ -6525,10 +6525,14 @@ varobj
 ;
 fun
 =
-js_NewScriptedFunction
+js_NewFunction
 (
 cx
 NULL
+NULL
+0
+JSFUN_INTERPRETED
+|
 lambda
 parent
 atom
@@ -6618,7 +6622,7 @@ JSAtomListElement
 *
 ale
 ;
-JSScriptedFunction
+JSFunction
 *
 fun
 ;
@@ -25431,7 +25435,7 @@ body
 *
 lambda
 ;
-JSScriptedFunction
+JSFunction
 *
 fun
 ;

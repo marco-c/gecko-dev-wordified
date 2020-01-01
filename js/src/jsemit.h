@@ -1651,7 +1651,7 @@ JSParseContext
 *
 parseContext
 ;
-JSScriptedFunction
+JSFunction
 *
 fun
 ;
