@@ -1736,10 +1736,6 @@ browser
 .
 safebrowsing
 .
-provider
-.
-#
-.
 gethashURL
 pref
 .
