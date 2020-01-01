@@ -606,6 +606,16 @@ nsIDOMMozSmsMessage
 aMessage
 )
 ;
+void
+NotifyGotNextMessage
+(
+PRInt32
+aRequestId
+nsIDOMMozSmsMessage
+*
+aMessage
+)
+;
 private
 :
 static

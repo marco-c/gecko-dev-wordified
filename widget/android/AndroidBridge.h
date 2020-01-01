@@ -1967,6 +1967,17 @@ PRUint64
 aProcessId
 )
 ;
+void
+GetNextMessageInList
+(
+PRInt32
+aListId
+PRInt32
+aRequestId
+PRUint64
+aProcessId
+)
+;
 bool
 IsTablet
 (
@@ -2243,6 +2254,9 @@ jDeleteMessage
 ;
 jmethodID
 jCreateMessageList
+;
+jmethodID
+jGetNextMessageinList
 ;
 /
 /
