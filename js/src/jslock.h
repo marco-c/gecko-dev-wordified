@@ -2531,13 +2531,17 @@ JS_ATOMIC_SET_MASK
 w
 mask
 )
+(
 *
 (
 w
 )
 |
 =
+(
 mask
+)
+)
 #
 endif
 /
