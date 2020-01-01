@@ -10997,6 +10997,14 @@ aBorder
 .
 right
 =
+aBorder
+.
+top
+=
+aBorder
+.
+bottom
+=
 0
 ;
 nsTableRowFrame
