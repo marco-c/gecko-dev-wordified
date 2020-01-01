@@ -3149,13 +3149,14 @@ null
 size
 +
 =
-sizeof
-(
-*
 entry
 -
 >
 mAttributes
+-
+>
+SizeOf
+(
 )
 ;
 return
