@@ -781,7 +781,7 @@ a
 given
 value
 of
-mAtom
+mType
 we
 have
 either
@@ -845,7 +845,7 @@ nsCSSPseudoClasses
 :
 HasStringArg
 (
-mAtom
+mType
 )
 )
 /
@@ -874,7 +874,7 @@ nsCSSPseudoClasses
 :
 HasNthPairArg
 (
-mAtom
+mType
 )
 )
 /
@@ -900,7 +900,7 @@ nsCSSPseudoClasses
 :
 HasSelectorListArg
 (
-mAtom
+mType
 )
 )
 void

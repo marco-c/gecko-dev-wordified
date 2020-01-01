@@ -1045,7 +1045,7 @@ nsCSSPseudoClasses
 :
 HasStringArg
 (
-aAtom
+aType
 )
 &
 &
@@ -1055,7 +1055,7 @@ nsCSSPseudoClasses
 :
 HasNthPairArg
 (
-aAtom
+aType
 )
 "
 unexpected
@@ -1116,7 +1116,7 @@ nsCSSPseudoClasses
 :
 HasStringArg
 (
-aAtom
+aType
 )
 "
 unexpected
@@ -1189,7 +1189,7 @@ nsCSSPseudoClasses
 :
 HasNthPairArg
 (
-aAtom
+aType
 )
 "
 unexpected
@@ -1282,7 +1282,7 @@ nsCSSPseudoClasses
 :
 HasSelectorListArg
 (
-aAtom
+aType
 )
 "
 unexpected
@@ -1356,7 +1356,7 @@ nsCSSPseudoClasses
 :
 HasStringArg
 (
-mAtom
+mType
 )
 )
 {
@@ -1381,7 +1381,7 @@ nsCSSPseudoClasses
 :
 HasNthPairArg
 (
-mAtom
+mType
 )
 )
 {
@@ -1407,7 +1407,7 @@ nsCSSPseudoClasses
 :
 HasSelectorListArg
 (
-mAtom
+mType
 )
 "
 unexpected
@@ -1485,7 +1485,7 @@ nsCSSPseudoClasses
 :
 HasSelectorListArg
 (
-mAtom
+mType
 )
 )
 {
@@ -5051,7 +5051,7 @@ HasStringArg
 list
 -
 >
-mAtom
+mType
 )
 )
 {
@@ -5084,7 +5084,7 @@ HasNthPairArg
 list
 -
 >
-mAtom
+mType
 )
 )
 {
@@ -5257,7 +5257,7 @@ HasSelectorListArg
 list
 -
 >
-mAtom
+mType
 )
 "
 unexpected
