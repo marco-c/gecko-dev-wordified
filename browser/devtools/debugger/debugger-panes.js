@@ -398,6 +398,9 @@ sources
 showCheckboxes
 :
 true
+showArrows
+:
+true
 }
 )
 ;
