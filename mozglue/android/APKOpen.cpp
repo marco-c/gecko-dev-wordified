@@ -679,10 +679,6 @@ undef
 mozilla_StartupTimeline_Event
 }
 ;
-using
-namespace
-mozilla
-;
 static
 uint64_t
 *
@@ -4751,10 +4747,8 @@ RUSAGE_THREAD
 usage1
 )
 ;
-RefPtr
-<
 Zip
->
+*
 zip
 =
 new
@@ -4993,6 +4987,9 @@ undef
 MOZLOAD
 #
 endif
+delete
+zip
+;
 #
 ifdef
 MOZ_CRASHREPORTER
@@ -5418,10 +5415,8 @@ st_mtime
 ;
 #
 endif
-RefPtr
-<
 Zip
->
+*
 zip
 =
 new
@@ -5559,6 +5554,9 @@ undef
 MOZLOAD
 #
 endif
+delete
+zip
+;
 #
 ifdef
 MOZ_CRASHREPORTER

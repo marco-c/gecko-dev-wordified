@@ -36459,7 +36459,7 @@ onOwnerThread
 (
 )
 )
-MOZ_Assert
+JS_Assert
 (
 "
 rt

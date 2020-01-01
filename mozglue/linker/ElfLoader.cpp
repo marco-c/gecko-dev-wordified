@@ -2393,6 +2393,12 @@ refCount
 )
 )
 ;
+delete
+(
+*
+it
+)
+;
 }
 else
 {
