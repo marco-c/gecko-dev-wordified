@@ -2353,7 +2353,7 @@ nsCOMPtr
 <
 nsIDOMEventTarget
 >
-piTarget
+target
 ;
 if
 (
@@ -2406,7 +2406,7 @@ win
 return
 nsnull
 ;
-piTarget
+target
 =
 do_QueryInterface
 (
@@ -2416,7 +2416,7 @@ win
 }
 else
 {
-piTarget
+target
 =
 aTarget
 ;
@@ -2424,7 +2424,7 @@ aTarget
 if
 (
 !
-piTarget
+target
 )
 return
 nsnull
@@ -2433,7 +2433,7 @@ nsIEventListenerManager
 *
 elm
 =
-piTarget
+target
 -
 >
 GetListenerManager

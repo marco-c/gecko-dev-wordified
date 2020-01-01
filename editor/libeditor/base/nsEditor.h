@@ -3736,7 +3736,7 @@ already_AddRefed
 <
 nsIDOMEventTarget
 >
-GetPIDOMEventTarget
+GetDOMEventTarget
 (
 )
 =

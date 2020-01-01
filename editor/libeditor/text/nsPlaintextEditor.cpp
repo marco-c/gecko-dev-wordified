@@ -9951,7 +9951,7 @@ nsIDOMEventTarget
 nsPlaintextEditor
 :
 :
-GetPIDOMEventTarget
+GetDOMEventTarget
 (
 )
 {

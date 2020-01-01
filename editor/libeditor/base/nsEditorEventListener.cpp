@@ -674,13 +674,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsISelectionPrivate
 .
 h
@@ -891,7 +884,7 @@ piTarget
 mEditor
 -
 >
-GetPIDOMEventTarget
+GetDOMEventTarget
 (
 )
 ;
@@ -1284,7 +1277,7 @@ piTarget
 mEditor
 -
 >
-GetPIDOMEventTarget
+GetDOMEventTarget
 (
 )
 ;

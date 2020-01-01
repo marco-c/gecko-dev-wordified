@@ -453,13 +453,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIDOMProgressEvent
 .
 h

@@ -507,13 +507,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIEmbeddingSiteWindow
 .
 h

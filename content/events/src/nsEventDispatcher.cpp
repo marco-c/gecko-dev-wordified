@@ -3668,13 +3668,10 @@ nsIDOMEventTarget
 >
 t
 =
-do_QueryInterface
-(
 aEvent
 -
 >
 target
-)
 ;
 targetEtci
 -
