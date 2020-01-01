@@ -2587,6 +2587,8 @@ FindChildWithRules
 (
 aPseudoTag
 aRuleNode
+nsnull
+PR_FALSE
 )
 .
 get
