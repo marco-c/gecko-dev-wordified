@@ -467,6 +467,10 @@ NULL
 EXTRA_COMPONENTS
 =
 \
+MobileComponents
+.
+manifest
+\
 BrowserStartup
 .
 js
@@ -516,6 +520,8 @@ NULL
 )
 DIRS
 =
+protocols
+\
 phone
 \
 (
