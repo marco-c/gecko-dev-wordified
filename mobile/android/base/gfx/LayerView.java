@@ -674,6 +674,17 @@ getScaleGestureListener
 )
 )
 ;
+mGestureDetector
+.
+setOnDoubleTapListener
+(
+controller
+.
+getDoubleTapListener
+(
+)
+)
+;
 mInputConnectionHandler
 =
 null
