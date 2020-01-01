@@ -22516,9 +22516,6 @@ value
 dirtyWidth
 =
 -
-(
-int32
-)
 dirtyWidth
 ;
 }
@@ -22571,9 +22568,6 @@ value
 dirtyHeight
 =
 -
-(
-int32
-)
 dirtyHeight
 ;
 }
