@@ -70272,11 +70272,11 @@ NS_PREFBRANCH_PREFCHANGE_TOPIC_ID
 )
 &
 &
-aData
-&
-&
 !
-NS_strcmp
+nsCRT
+:
+:
+strcmp
 (
 aData
 NS_LITERAL_STRING
