@@ -677,6 +677,13 @@ mozIStorageError
 .
 h
 "
+#
+include
+"
+nsPlacesTables
+.
+h
+"
 /
 /
 For
@@ -1230,7 +1237,9 @@ FROM
 "
 "
 SELECT
-*
+"
+MOZ_PLACES_COLUMNS
+"
 FROM
 moz_places_temp
 "
@@ -1247,7 +1256,9 @@ ALL
 "
 "
 SELECT
-*
+"
+MOZ_PLACES_COLUMNS
+"
 FROM
 moz_places
 "

@@ -784,6 +784,13 @@ mozIStorageError
 h
 "
 #
+include
+"
+nsPlacesTables
+.
+h
+"
+#
 define
 NS_AUTOCOMPLETESIMPLERESULT_CONTRACTID
 \
@@ -1700,7 +1707,9 @@ FROM
 "
 "
 SELECT
-*
+"
+MOZ_PLACES_COLUMNS
+"
 FROM
 moz_places_temp
 "
@@ -1710,7 +1719,9 @@ ALL
 "
 "
 SELECT
-*
+"
+MOZ_PLACES_COLUMNS
+"
 FROM
 moz_places
 "
@@ -5344,7 +5355,9 @@ FROM
 "
 "
 SELECT
-*
+"
+MOZ_PLACES_COLUMNS
+"
 FROM
 moz_places_temp
 "
@@ -5369,7 +5382,9 @@ ALL
 "
 "
 SELECT
-*
+"
+MOZ_PLACES_COLUMNS
+"
 FROM
 moz_places
 "
@@ -6588,7 +6603,7 @@ rv
 mDBAdaptiveQuery
 -
 >
-BindInt32Parameter
+BindInt64Parameter
 (
 0
 GetTagsFolder
@@ -6651,7 +6666,7 @@ rv
 mDBPreviousQuery
 -
 >
-BindInt32Parameter
+BindInt64Parameter
 (
 0
 GetTagsFolder
@@ -6780,7 +6795,7 @@ rv
 mDBCurrentQuery
 -
 >
-BindInt32Parameter
+BindInt64Parameter
 (
 0
 GetTagsFolder
