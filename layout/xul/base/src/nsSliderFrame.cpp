@@ -860,6 +860,13 @@ snapMultiplier
 )
 ;
 }
+mCurPos
+=
+GetCurrentPosition
+(
+aContent
+)
+;
 CreateViewForFrame
 (
 PresContext
