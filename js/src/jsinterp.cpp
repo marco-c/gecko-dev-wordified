@@ -39519,13 +39519,6 @@ lastProp
 goto
 do_initprop_miss
 ;
-TRACE_2
-(
-SetPropHit
-entry
-sprop
-)
-;
 /
 *
 *
@@ -39830,6 +39823,13 @@ JS_UNLOCK_SCOPE
 (
 cx
 scope
+)
+;
+TRACE_2
+(
+SetPropHit
+entry
+sprop
 )
 ;
 break
