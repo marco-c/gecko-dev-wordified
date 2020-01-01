@@ -250,10 +250,10 @@ linkedBrowser
 addEventListener
 (
 "
-pageshow
+load
 "
 function
-onpageshow
+onload
 (
 aEvent
 )
@@ -265,10 +265,10 @@ currentTarget
 removeEventListener
 (
 "
-pageshow
+load
 "
-onpageshow
-false
+onload
+true
 )
 ;
 waitForFocus
@@ -278,7 +278,7 @@ content
 )
 ;
 }
-false
+true
 )
 ;
 aTab
