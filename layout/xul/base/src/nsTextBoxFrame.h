@@ -624,12 +624,6 @@ nsPoint
 aPt
 )
 ;
-virtual
-PRBool
-ComputesOwnOverflowArea
-(
-)
-;
 protected
 :
 friend
