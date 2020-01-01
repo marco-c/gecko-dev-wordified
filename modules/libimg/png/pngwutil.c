@@ -11369,7 +11369,9 @@ delay_num
 png_uint_16
 delay_den
 png_byte
-render_op
+dispose_op
+png_byte
+blend_op
 )
 {
 #
@@ -11382,7 +11384,7 @@ endif
 png_byte
 data
 [
-25
+26
 ]
 ;
 png_debug
@@ -11520,7 +11522,8 @@ x_offset
 y_offset
 delay_num
 delay_den
-render_op
+dispose_op
+blend_op
 )
 ;
 png_save_uint_32
@@ -11585,7 +11588,14 @@ data
 24
 ]
 =
-render_op
+dispose_op
+;
+data
+[
+25
+]
+=
+blend_op
 ;
 png_write_chunk
 (
@@ -11598,7 +11608,7 @@ data
 (
 png_size_t
 )
-25
+26
 )
 ;
 png_ptr

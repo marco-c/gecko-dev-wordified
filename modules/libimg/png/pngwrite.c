@@ -9578,7 +9578,9 @@ delay_num
 png_uint_16
 delay_den
 png_byte
-render_op
+dispose_op
+png_byte
+blend_op
 png_byte
 first_frame_hidden
 )
@@ -9692,7 +9694,8 @@ x_offset
 y_offset
 delay_num
 delay_den
-render_op
+dispose_op
+blend_op
 )
 ;
 }
