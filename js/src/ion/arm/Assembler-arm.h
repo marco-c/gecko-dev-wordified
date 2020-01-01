@@ -9375,6 +9375,10 @@ VFPRegister
 vd
 VFPRegister
 vm
+bool
+useFPSCR
+=
+false
 Condition
 c
 =
