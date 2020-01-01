@@ -1233,7 +1233,7 @@ of
 tests
 .
 In
-seperate
+separate
 try
 as
 this
