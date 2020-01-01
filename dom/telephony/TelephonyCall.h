@@ -486,7 +486,7 @@ class
 TelephonyCall
 :
 public
-nsDOMEventTargetHelper
+nsDOMEventTargetWrapperCache
 public
 nsIDOMTelephonyCall
 {
@@ -556,14 +556,14 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMTELEPHONYCALL
 NS_FORWARD_NSIDOMEVENTTARGET
 (
-nsDOMEventTargetHelper
+nsDOMEventTargetWrapperCache
 :
 :
 )
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 TelephonyCall
-nsDOMEventTargetHelper
+nsDOMEventTargetWrapperCache
 )
 static
 already_AddRefed
@@ -597,7 +597,7 @@ const
 return
 static_cast
 <
-nsDOMEventTargetHelper
+nsDOMEventTargetWrapperCache
 *
 >
 (
