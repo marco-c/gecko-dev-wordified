@@ -513,7 +513,6 @@ NS_PIDOMSTORAGE_IID
 0x4a
 }
 }
-;
 class
 nsPIDOMStorage
 :
