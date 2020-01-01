@@ -2590,6 +2590,15 @@ JSContext
 cx
 )
 ;
+extern
+void
+js_FlushJITOracle
+(
+JSContext
+*
+cx
+)
+;
 #
 endif
 /
