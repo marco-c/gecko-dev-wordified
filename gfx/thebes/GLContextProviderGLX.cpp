@@ -1591,6 +1591,10 @@ GL_EXT_framebuffer_object
 PRBool
 MakeCurrent
 (
+PRBool
+aForce
+=
+PR_FALSE
 )
 {
 Bool

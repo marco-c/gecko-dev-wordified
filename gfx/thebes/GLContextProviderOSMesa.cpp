@@ -1475,6 +1475,10 @@ PR_TRUE
 PRBool
 MakeCurrent
 (
+PRBool
+aForce
+=
+PR_FALSE
 )
 {
 PRBool
