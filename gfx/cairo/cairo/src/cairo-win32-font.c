@@ -10409,7 +10409,7 @@ font
 LOGFONTW
 logfont
 ;
-GetObject
+GetObjectW
 (
 font
 sizeof
