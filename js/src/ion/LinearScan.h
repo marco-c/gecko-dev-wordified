@@ -3401,6 +3401,13 @@ size_t
 firstSafepoint
 )
 ;
+size_t
+findFirstNonCallSafepoint
+(
+CodePosition
+from
+)
+;
 void
 addFixedRange
 (
