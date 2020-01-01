@@ -127,6 +127,15 @@ dom
 :
 EventListener
 ;
+using
+mozilla
+:
+:
+dom
+:
+:
+Nullable
+;
 void
 EventTarget
 :
