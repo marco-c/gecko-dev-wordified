@@ -1741,6 +1741,9 @@ bool
 deepAborted
 ;
 bool
+applyingArguments
+;
+bool
 trashTree
 ;
 nanojit
@@ -2778,7 +2781,7 @@ clearFrameSlotsFromCache
 )
 ;
 bool
-guardCallee
+guardShapelessCallee
 (
 jsval
 &
@@ -2805,8 +2808,6 @@ functionCall
 (
 bool
 constructing
-uintN
-argc
 )
 ;
 bool
@@ -3130,13 +3131,6 @@ record_FastNativeCallComplete
 bool
 record_IteratorNextComplete
 (
-)
-;
-bool
-record_ApplyComplete
-(
-uintN
-argc
 )
 ;
 nanojit
