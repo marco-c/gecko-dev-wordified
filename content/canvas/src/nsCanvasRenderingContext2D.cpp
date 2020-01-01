@@ -9932,7 +9932,7 @@ GetPresContext
 )
 -
 >
-GetLanguage
+GetLanguageFromCharset
 (
 )
 ;

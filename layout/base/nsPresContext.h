@@ -3215,7 +3215,7 @@ mEventManager
 }
 nsIAtom
 *
-GetLanguage
+GetLanguageFromCharset
 (
 )
 {
