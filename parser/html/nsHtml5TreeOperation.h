@@ -122,6 +122,7 @@ eTreeOpFosterParentText
 eTreeOpAppendComment
 eTreeOpAppendCommentToDocument
 eTreeOpAppendDoctypeToDocument
+eTreeOpGetDocumentFragmentForTemplate
 /
 /
 Gecko
