@@ -5577,9 +5577,9 @@ filename
 return
 fail
 ;
-JSScript
+JSObject
 *
-script
+scriptObj
 =
 JS_CompileFile
 (
@@ -5600,7 +5600,7 @@ ptr
 if
 (
 !
-script
+scriptObj
 )
 return
 fail
@@ -5623,7 +5623,7 @@ child
 getGlobal
 (
 )
-script
+scriptObj
 Jsvalify
 (
 rval
@@ -5632,12 +5632,6 @@ addr
 (
 )
 )
-)
-;
-JS_DestroyScript
-(
-cx
-script
 )
 ;
 return

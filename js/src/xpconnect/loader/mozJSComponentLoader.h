@@ -891,10 +891,10 @@ uri
 JSContext
 *
 cx
-JSScript
+JSObject
 *
 *
-script
+scriptObj
 )
 ;
 nsresult
@@ -903,9 +903,9 @@ WriteScript
 StartupCache
 *
 cache
-JSScript
+JSObject
 *
-script
+scriptObj
 nsIFile
 *
 component
