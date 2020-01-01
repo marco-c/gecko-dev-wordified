@@ -666,14 +666,14 @@ node
 as
 if
 it
-was
+were
 /
 /
 in
 the
 document
 and
-therefor
+therefore
 should
 get
 bindings
