@@ -517,6 +517,14 @@ aMainRuntime
 /
 namespace
 chromeworker
+bool
+ClassIsWorker
+(
+JSClass
+*
+aClass
+)
+;
 END_WORKERS_NAMESPACE
 #
 endif

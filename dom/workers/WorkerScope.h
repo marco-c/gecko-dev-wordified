@@ -464,6 +464,14 @@ JSContext
 aCx
 )
 ;
+bool
+ClassIsWorkerGlobalScope
+(
+JSClass
+*
+aClass
+)
+;
 END_WORKERS_NAMESPACE
 #
 endif

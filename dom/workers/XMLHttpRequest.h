@@ -529,6 +529,14 @@ aNewState
 /
 namespace
 xhr
+bool
+ClassIsXMLHttpRequest
+(
+JSClass
+*
+aClass
+)
+;
 END_WORKERS_NAMESPACE
 #
 endif
