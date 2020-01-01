@@ -1589,7 +1589,6 @@ obj
 &
 NSID_IDISPATCH
 nsnull
-PR_TRUE
 &
 err
 )
