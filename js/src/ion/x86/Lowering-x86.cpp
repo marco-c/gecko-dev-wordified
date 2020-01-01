@@ -1393,7 +1393,7 @@ ins
 setOperand
 (
 1
-useRegister
+use
 (
 rhs
 )
