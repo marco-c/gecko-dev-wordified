@@ -660,6 +660,7 @@ mIsFGLRX
 int
 mMajorVersion
 mMinorVersion
+mRevisionVersion
 ;
 void
 AddCrashReportAnnotations
