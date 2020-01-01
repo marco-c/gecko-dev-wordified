@@ -366,7 +366,7 @@ JSObject
 *
 compartment2
 =
-JS_NewCompartmentAndGlobalObject
+JS_NewGlobalObject
 (
 cx
 getGlobalClass
@@ -379,7 +379,7 @@ JSObject
 *
 compartment3
 =
-JS_NewCompartmentAndGlobalObject
+JS_NewGlobalObject
 (
 cx
 getGlobalClass
@@ -392,7 +392,7 @@ JSObject
 *
 compartment4
 =
-JS_NewCompartmentAndGlobalObject
+JS_NewGlobalObject
 (
 cx
 getGlobalClass

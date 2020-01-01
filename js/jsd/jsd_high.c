@@ -628,7 +628,7 @@ jsdc
 >
 glob
 =
-JS_NewCompartmentAndGlobalObject
+JS_NewGlobalObject
 (
 jsdc
 -

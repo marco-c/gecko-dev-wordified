@@ -196,7 +196,7 @@ JSObject
 *
 globalA
 =
-JS_NewCompartmentAndGlobalObject
+JS_NewGlobalObject
 (
 cx
 getGlobalClass
@@ -303,7 +303,7 @@ JSObject
 *
 globalB
 =
-JS_NewCompartmentAndGlobalObject
+JS_NewGlobalObject
 (
 cx
 getGlobalClass

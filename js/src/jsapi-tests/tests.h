@@ -2219,7 +2219,7 @@ JSObject
 *
 global
 =
-JS_NewCompartmentAndGlobalObject
+JS_NewGlobalObject
 (
 cx
 getGlobalClass

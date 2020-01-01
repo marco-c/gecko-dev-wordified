@@ -1144,7 +1144,7 @@ JSObject
 *
 debuggee
 =
-JS_NewCompartmentAndGlobalObject
+JS_NewGlobalObject
 (
 cx
 getGlobalClass
@@ -1408,7 +1408,7 @@ g
 ;
 g
 =
-JS_NewCompartmentAndGlobalObject
+JS_NewGlobalObject
 (
 cx
 getGlobalClass

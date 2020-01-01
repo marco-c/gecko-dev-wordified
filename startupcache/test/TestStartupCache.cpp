@@ -2315,7 +2315,7 @@ use_js
 )
 glob
 =
-JS_NewCompartmentAndGlobalObject
+JS_NewGlobalObject
 (
 cx
 &
