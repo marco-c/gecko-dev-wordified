@@ -52430,6 +52430,8 @@ loadConstantDouble
 pow
 (
 2
+.
+0
 r
 -
 >
@@ -52495,6 +52497,8 @@ loadConstantDouble
 pow
 (
 2
+.
+0
 r
 -
 >
