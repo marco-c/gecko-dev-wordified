@@ -475,6 +475,8 @@ nsString
 .
 h
 "
+/
+/
 #
 define
 FORCE_ALOG

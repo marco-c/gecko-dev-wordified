@@ -567,10 +567,6 @@ h
 #
 endif
 #
-define
-DEBUG_ANDROID_EVENTS
-1
-#
 ifdef
 DEBUG_ANDROID_EVENTS
 #
