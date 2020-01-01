@@ -300,11 +300,6 @@ DAMAGE
 .
 #
 include
-<
-cstdio
->
-#
-include
 "
 processor
 /

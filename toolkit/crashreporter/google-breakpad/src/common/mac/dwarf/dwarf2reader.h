@@ -389,12 +389,14 @@ COMMON_MAC_DWARF_DWARF2READER_H__
 #
 include
 <
-list
+ext
+/
+hash_map
 >
 #
 include
 <
-map
+list
 >
 #
 include
@@ -441,6 +443,10 @@ using
 namespace
 std
 ;
+using
+namespace
+__gnu_cxx
+;
 namespace
 dwarf2reader
 {
@@ -486,7 +492,7 @@ the
 section
 .
 typedef
-map
+hash_map
 <
 string
 pair

@@ -399,7 +399,7 @@ in
 the
 dictionary
 typedef
-map
+hash_map
 <
 string
 dwarf2reader

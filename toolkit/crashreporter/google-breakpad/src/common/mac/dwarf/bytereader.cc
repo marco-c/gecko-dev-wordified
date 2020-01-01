@@ -295,13 +295,6 @@ DAMAGE
 .
 #
 include
-<
-assert
-.
-h
->
-#
-include
 "
 common
 /
