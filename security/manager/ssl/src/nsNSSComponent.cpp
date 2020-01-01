@@ -11643,6 +11643,16 @@ nullptr
 DecryptionAllowedCallback
 )
 ;
+if
+(
+!
+p7_info
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 /
 /
 Make

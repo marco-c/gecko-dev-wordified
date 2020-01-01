@@ -7937,6 +7937,13 @@ certList
 }
 }
 }
+/
+/
+namespace
+mozilla
+:
+:
+psm
 static
 bool
 isApprovedForEV
@@ -8666,6 +8673,13 @@ SECFailure
 }
 }
 }
+/
+/
+namespace
+mozilla
+:
+:
+psm
 NS_IMETHODIMP
 nsSSLStatus
 :
