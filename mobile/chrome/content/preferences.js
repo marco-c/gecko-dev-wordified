@@ -1710,7 +1710,7 @@ getString
 "
 homepage
 .
-custom
+custom2
 "
 )
 )
@@ -1932,7 +1932,7 @@ getString
 "
 homepage
 .
-custom
+custom2
 "
 )
 )
