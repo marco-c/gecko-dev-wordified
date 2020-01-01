@@ -541,6 +541,10 @@ updatehelper
 .
 h
 "
+extern
+HANDLE
+ghSvcStopEvent
+;
 /
 /
 Wait
@@ -3053,8 +3057,9 @@ n
 )
 )
 ;
-StopService
+SetEvent
 (
+ghSvcStopEvent
 )
 ;
 return
@@ -3318,8 +3323,9 @@ Failure
 )
 )
 ;
-StopService
+SetEvent
 (
+ghSvcStopEvent
 )
 ;
 return
