@@ -2794,6 +2794,15 @@ CC
 ;
 if
 (
+XPCPerThreadData
+:
+:
+IsMainThreadContext
+(
+acx
+)
+&
+&
 nsXPConnect
 :
 :
