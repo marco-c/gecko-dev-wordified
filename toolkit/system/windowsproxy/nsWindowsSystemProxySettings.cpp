@@ -514,7 +514,7 @@ sizeof
 INTERNET_PER_CONN_OPTION_LISTW
 )
 ;
-__try
+MOZ_SEH_TRY
 {
 if
 (
@@ -535,7 +535,7 @@ NS_ERROR_FAILURE
 ;
 }
 }
-__except
+MOZ_SEH_EXCEPT
 (
 EXCEPTION_EXECUTE_HANDLER
 )
