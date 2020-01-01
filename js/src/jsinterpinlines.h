@@ -7308,6 +7308,8 @@ ReportIsNotFunction
 (
 cx
 v
+-
+1
 construct
 )
 ;
