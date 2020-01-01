@@ -514,6 +514,11 @@ ScheduleComposition
 (
 )
 ;
+void
+NotifyShadowTreeTransaction
+(
+)
+;
 /
 *
 *
