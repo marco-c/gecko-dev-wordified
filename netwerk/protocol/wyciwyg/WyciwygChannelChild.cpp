@@ -2009,6 +2009,7 @@ if
 !
 CanSetLoadGroup
 (
+aLoadGroup
 )
 )
 {
@@ -2468,6 +2469,7 @@ if
 !
 CanSetCallbacks
 (
+aCallbacks
 )
 )
 {
