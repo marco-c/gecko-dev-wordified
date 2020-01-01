@@ -784,6 +784,17 @@ GetChromeFlags
 ;
 #
 endif
+already_AddRefed
+<
+nsIDocShellTreeItem
+>
+GetContentDocShell
+(
+nsIDocShellTreeItem
+*
+aStart
+)
+;
 nsRefPtr
 <
 nsCaretAccessible
