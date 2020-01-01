@@ -5662,7 +5662,7 @@ Count
 0
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsPrefOldCallback
 >
@@ -15000,7 +15000,7 @@ i
 +
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsPrefOldCallback
 >
