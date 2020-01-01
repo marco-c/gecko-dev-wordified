@@ -4707,7 +4707,7 @@ aMutationObserver
 {
 nsSlots
 *
-slots
+s
 =
 GetSlots
 (
@@ -4715,12 +4715,12 @@ GetSlots
 ;
 if
 (
-slots
+s
 )
 {
 NS_ASSERTION
 (
-slots
+s
 -
 >
 mMutationObservers
@@ -4744,7 +4744,7 @@ list
 "
 )
 ;
-slots
+s
 -
 >
 mMutationObservers
@@ -4789,7 +4789,7 @@ aMutationObserver
 {
 nsSlots
 *
-slots
+s
 =
 GetSlots
 (
@@ -4797,10 +4797,10 @@ GetSlots
 ;
 if
 (
-slots
+s
 )
 {
-slots
+s
 -
 >
 mMutationObservers
@@ -4833,7 +4833,7 @@ aMutationObserver
 {
 nsSlots
 *
-slots
+s
 =
 GetExistingSlots
 (
@@ -4841,10 +4841,10 @@ GetExistingSlots
 ;
 if
 (
-slots
+s
 )
 {
-slots
+s
 -
 >
 mMutationObservers
