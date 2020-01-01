@@ -1157,12 +1157,6 @@ getClipboardText
 ;
 if
 (
-clipboard
-=
-=
-null
-|
-|
 TextUtils
 .
 isEmpty
