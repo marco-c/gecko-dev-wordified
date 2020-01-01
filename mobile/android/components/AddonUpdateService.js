@@ -1619,11 +1619,11 @@ version
 aAddon
 .
 version
-learnmoreURL
+homepageURL
 :
 aAddon
 .
-learnmoreURL
+homepageURL
 iconURL
 :
 aAddon
