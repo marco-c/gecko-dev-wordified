@@ -763,6 +763,9 @@ CSS
 PRPackedBool
 mPrintPreview
 ;
+PRPackedBool
+mDidCreateDocShell
+;
 float
 mShrinkRatio
 ;
