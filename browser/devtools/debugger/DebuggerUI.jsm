@@ -1569,11 +1569,7 @@ init
 function
 (
 )
-{
-return
 true
-;
-}
 )
 ;
 DebuggerServer
@@ -3055,7 +3051,7 @@ devtools
 .
 debugger
 .
-remote
+chrome
 -
 enabled
 "
