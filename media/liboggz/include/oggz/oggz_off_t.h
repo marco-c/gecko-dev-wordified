@@ -289,6 +289,15 @@ types
 #
 ifdef
 _WIN32
+#
+ifdef
+WINCE
+typedef
+long
+off_t
+;
+#
+endif
 /
 *
 MSVC
