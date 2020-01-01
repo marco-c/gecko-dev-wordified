@@ -429,7 +429,6 @@ jslock_h__
 #
 define
 jslock_h__
-JS_BEGIN_EXTERN_C
 #
 ifdef
 JS_THREADSAFE
@@ -498,6 +497,7 @@ etc
 .
 *
 /
+JS_BEGIN_EXTERN_C
 #
 define
 Thin_GetWait
@@ -962,6 +962,7 @@ on
 .
 *
 /
+JS_END_EXTERN_C
 #
 include
 "
@@ -969,6 +970,7 @@ jsscope
 .
 h
 "
+JS_BEGIN_EXTERN_C
 #
 define
 JS_LOCK_RUNTIME
@@ -1744,6 +1746,7 @@ else
 JS_THREADSAFE
 *
 /
+JS_BEGIN_EXTERN_C
 #
 define
 JS_ATOMIC_INCREMENT
