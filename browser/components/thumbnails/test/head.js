@@ -97,9 +97,6 @@ tabs
 }
 )
 ;
-let
-cachedXULDocument
-;
 /
 *
 *
