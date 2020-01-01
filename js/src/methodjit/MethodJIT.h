@@ -4221,12 +4221,6 @@ normal
 /
 /
 Expand
-either
-the
-topmost
-stack
-frame
-or
 all
 stack
 frames
@@ -4234,6 +4228,9 @@ inlined
 by
 the
 JIT
+within
+a
+compartment
 .
 void
 ExpandInlineFrames
@@ -4241,8 +4238,6 @@ ExpandInlineFrames
 JSCompartment
 *
 compartment
-bool
-all
 )
 ;
 /
