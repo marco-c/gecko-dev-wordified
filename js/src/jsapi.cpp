@@ -4067,12 +4067,6 @@ interruptCounter
 )
 #
 endif
-threadData
-(
-thisFromCtor
-(
-)
-)
 trustedPrincipals_
 (
 NULL
