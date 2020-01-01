@@ -639,7 +639,7 @@ DoDatabaseWork
 (
 )
 ;
-void
+PRUint16
 GetSuccessResult
 (
 nsIWritableVariant
@@ -2481,7 +2481,7 @@ return
 OK
 ;
 }
-void
+PRUint16
 OpenDatabaseHelper
 :
 :
@@ -2569,5 +2569,8 @@ Generator
 db
 )
 )
+;
+return
+OK
 ;
 }
