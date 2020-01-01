@@ -1231,7 +1231,10 @@ JSFUN_FAST_NATIVE
 \
 ?
 (
-JSFastNative
+js
+:
+:
+FastNative
 )
 (
 fun
@@ -1926,7 +1929,7 @@ h
 fastcall
 is
 a
-JSFastNative
+FastNative
 ;
 trcinfo
 is
