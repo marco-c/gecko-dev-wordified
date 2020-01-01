@@ -1836,6 +1836,14 @@ f
 )
 ;
 void
+GenerateArgumentCheckStub
+(
+VMFrame
+&
+f
+)
+;
+void
 PurgeMICs
 (
 JSContext
