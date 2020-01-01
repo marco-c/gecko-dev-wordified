@@ -4645,15 +4645,12 @@ implemented
 in
 MethodJIT
 .
-h
+cpp
 .
 )
 *
 /
-JS_FRIEND_API
-(
 size_t
-)
 jitDataSize
 (
 JSMallocSizeOfFun

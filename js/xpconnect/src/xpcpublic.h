@@ -441,6 +441,15 @@ h
 #
 include
 "
+js
+/
+MemoryMetrics
+.
+h
+"
+#
+include
+"
 jsclass
 .
 h
@@ -1535,6 +1544,9 @@ mjitData
 ;
 #
 endif
+JS
+:
+:
 TypeInferenceMemoryStats
 typeInferenceMemory
 ;
