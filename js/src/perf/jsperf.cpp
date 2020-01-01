@@ -624,11 +624,14 @@ name
 name
 0
 PM_PATTRS
+JSOP_WRAPPER
+(
 pm_get_
 #
 #
 name
-0
+)
+JSOP_NULLWRAPPER
 }
 static
 JSPropertySpec
@@ -689,8 +692,8 @@ eventsMeasured
 0
 0
 0
-0
-0
+JSOP_NULLWRAPPER
+JSOP_NULLWRAPPER
 }
 }
 ;
