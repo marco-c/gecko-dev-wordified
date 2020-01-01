@@ -967,6 +967,16 @@ h
 #
 include
 "
+nsDOMBlobBuilder
+.
+h
+"
+/
+/
+nsDOMMultipartFile
+#
+include
+"
 nsIEventListenerService
 .
 h
