@@ -1846,6 +1846,17 @@ info
 )
 ;
 PRBool
+ValidateBufferUsageEnum
+(
+WebGLenum
+target
+const
+char
+*
+info
+)
+;
+PRBool
 ValidateTexFormatAndType
 (
 WebGLenum
