@@ -658,6 +658,12 @@ color
 :
 ButtonText
 ;
+text
+-
+shadow
+:
+none
+;
 }
 .
 button
