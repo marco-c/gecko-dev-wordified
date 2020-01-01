@@ -2570,7 +2570,7 @@ n
 "
 /
 *
-FpReg
+JSFrameReg
 *
 /
 /
