@@ -4049,4 +4049,3 @@ NS_IMPL_ISUPPORTS1
 nsScriptCacheCleaner
 nsIObserver
 )
-;
