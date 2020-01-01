@@ -1011,7 +1011,7 @@ _MDDir
 HANDLE
 d_hdl
 ;
-WIN32_FIND_DATA
+WIN32_FIND_DATAA
 d_entry
 ;
 PRBool
