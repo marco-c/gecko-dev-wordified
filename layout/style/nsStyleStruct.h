@@ -8704,6 +8704,16 @@ NS_STYLE_VISIBILITY_COLLAPSE
 )
 ;
 }
+inline
+uint8_t
+GetEffectivePointerEvents
+(
+nsIFrame
+*
+aFrame
+)
+const
+;
 }
 ;
 struct
