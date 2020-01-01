@@ -1204,8 +1204,8 @@ SetInitialChildList
 nsIAtom
 *
 aListName
-nsIFrame
-*
+nsFrameList
+&
 aChildList
 )
 ;
@@ -2939,8 +2939,9 @@ static
 void
 VerifyDirtyBitSet
 (
-nsIFrame
-*
+const
+nsFrameList
+&
 aFrameList
 )
 ;

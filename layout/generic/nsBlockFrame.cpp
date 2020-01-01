@@ -7045,9 +7045,8 @@ state
 .
 mOverflowPlaceholders
 .
-SetFrames
+Clear
 (
-nsnull
 )
 ;
 }
@@ -32896,9 +32895,8 @@ oofs
 .
 mList
 .
-SetFrames
+Clear
 (
-nsnull
 )
 ;
 }
@@ -33018,9 +33016,8 @@ oofs
 .
 mList
 .
-SetFrames
+Clear
 (
-nsnull
 )
 ;
 }
@@ -45756,8 +45753,8 @@ SetInitialChildList
 nsIAtom
 *
 aListName
-nsIFrame
-*
+nsFrameList
+&
 aChildList
 )
 {
@@ -46060,6 +46057,12 @@ return
 rv
 ;
 }
+aChildList
+.
+Clear
+(
+)
+;
 /
 /
 Create

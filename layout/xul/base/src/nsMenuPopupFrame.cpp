@@ -2168,8 +2168,8 @@ SetInitialChildList
 nsIAtom
 *
 aListName
-nsIFrame
-*
+nsFrameList
+&
 aChildList
 )
 {
@@ -2190,6 +2190,10 @@ generated
 if
 (
 aChildList
+.
+NotEmpty
+(
+)
 )
 mGeneratedChildren
 =

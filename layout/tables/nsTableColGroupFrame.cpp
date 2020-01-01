@@ -1205,8 +1205,8 @@ SetInitialChildList
 nsIAtom
 *
 aListName
-nsIFrame
-*
+nsFrameList
+&
 aChildList
 )
 {
@@ -1304,8 +1304,11 @@ NS_ERROR_NULL_POINTER
 ;
 if
 (
-!
 aChildList
+.
+IsEmpty
+(
+)
 )
 {
 tableFrame

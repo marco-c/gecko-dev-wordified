@@ -611,8 +611,8 @@ SetInitialChildList
 nsIAtom
 *
 aListName
-nsIFrame
-*
+nsFrameList
+&
 aChildList
 )
 ;
@@ -693,8 +693,8 @@ protected
 nsresult
 AddPopupFrameList
 (
-nsIFrame
-*
+nsFrameList
+&
 aPopupFrameList
 )
 ;

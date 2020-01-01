@@ -518,8 +518,8 @@ aDelegatingFrame
 nsIAtom
 *
 aListName
-nsIFrame
-*
+nsFrameList
+&
 aChildList
 )
 {

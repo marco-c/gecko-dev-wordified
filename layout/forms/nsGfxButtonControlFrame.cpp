@@ -1033,15 +1033,6 @@ parentFrame
 nsnull
 )
 ;
-newFrame
--
->
-SetInitialChildList
-(
-nsnull
-nsnull
-)
-;
 }
 }
 }
