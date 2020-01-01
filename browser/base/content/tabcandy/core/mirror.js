@@ -515,7 +515,9 @@ init
 tab
 canvas
 )
+;
 }
+;
 TabCanvas
 .
 prototype
@@ -1009,6 +1011,7 @@ false
 ;
 }
 }
+;
 /
 /
 #
@@ -1695,6 +1698,7 @@ init
 ;
 }
 }
+;
 TabMirror
 .
 prototype
@@ -2107,15 +2111,13 @@ chrome
 :
 /
 /
-tabcandy
+mozapps
 /
-content
+skin
 /
-img
+places
 /
-core
-/
-default
+defaultFavicon
 .
 png
 "
@@ -2130,6 +2132,7 @@ raw
 .
 label
 ;
+var
 name
 =
 iQ
@@ -2139,6 +2142,7 @@ mirror
 nameEl
 )
 ;
+var
 canvas
 =
 iQ
