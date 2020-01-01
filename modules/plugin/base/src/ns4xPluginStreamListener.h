@@ -423,10 +423,10 @@ BLOCK
 /
 #
 ifndef
-ns4xPluginStreamListener_h__
+ns4xPluginStreamListener_h_
 #
 define
-ns4xPluginStreamListener_h__
+ns4xPluginStreamListener_h_
 #
 include
 "
@@ -727,3 +727,6 @@ NS_I4XPLUGINSTREAMINFO_IID
 )
 #
 endif
+/
+/
+ns4xPluginStreamListener_h_
