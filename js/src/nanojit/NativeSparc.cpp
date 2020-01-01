@@ -2047,7 +2047,6 @@ FpRegs
 )
 evict
 (
-rr
 ins
 )
 ;
