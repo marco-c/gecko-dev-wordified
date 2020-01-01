@@ -1098,14 +1098,6 @@ JSOp
 op
 )
 ;
-void
-markPhiBytecodeUses
-(
-jsbytecode
-*
-pc
-)
-;
 bool
 processIterators
 (
