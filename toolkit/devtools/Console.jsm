@@ -1381,6 +1381,16 @@ match
 Error
 "
 )
+|
+|
+aThing
+.
+name
+=
+=
+"
+NS_ERROR_FAILURE
+"
 )
 {
 reply

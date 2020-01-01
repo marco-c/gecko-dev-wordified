@@ -626,8 +626,6 @@ aView
 name
 :
 "
-__proto__
-.
 body
 "
 value
