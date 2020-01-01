@@ -5599,7 +5599,7 @@ nsHTMLInputElement
 Disabled
 disabled
 )
-NS_IMPL_STRING_ATTR
+NS_IMPL_ACTION_ATTR
 (
 nsHTMLInputElement
 FormAction

@@ -1220,7 +1220,7 @@ nsHTMLButtonElement
 Disabled
 disabled
 )
-NS_IMPL_STRING_ATTR
+NS_IMPL_ACTION_ATTR
 (
 nsHTMLButtonElement
 FormAction

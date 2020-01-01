@@ -6450,14 +6450,14 @@ uriString
 =
 form
 .
-mozActionUri
+action
 ;
 /
 /
 A
 blank
 or
-mission
+missing
 action
 submits
 to
