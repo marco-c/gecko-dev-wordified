@@ -660,11 +660,12 @@ mSIDs
 /
 #
 define
-CSS_PROP_DOMPROP_PREFIXED
+CSS_PROP_PUBLIC_OR_PRIVATE
 (
-prop_
+publicname_
+privatename_
 )
-prop_
+privatename_
 #
 define
 CSS_PROP
@@ -865,7 +866,7 @@ undef
 CSS_PROP
 #
 undef
-CSS_PROP_DOMPROP_PREFIXED
+CSS_PROP_PUBLIC_OR_PRIVATE
 #
 undef
 CSS_PROP_BACKENDONLY
