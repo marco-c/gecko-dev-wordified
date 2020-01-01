@@ -495,8 +495,8 @@ assertion
 printf_stderr_common
 (
 "
-ASSERTION
-FAILED
+Assertion
+failure
 :
 %
 s
@@ -510,10 +510,10 @@ else
 printf_stderr_common
 (
 "
-SHOULD
-NEVER
-BE
-REACHED
+Should
+never
+be
+reached
 \
 n
 "
@@ -556,8 +556,8 @@ format
 printf_stderr_common
 (
 "
-ASSERTION
-FAILED
+Assertion
+failure
 :
 "
 )
@@ -629,8 +629,8 @@ assertion
 printf_stderr_common
 (
 "
-ARGUMENT
-BAD
+Argument
+bad
 :
 %
 s
@@ -676,8 +676,8 @@ format
 printf_stderr_common
 (
 "
-FATAL
-ERROR
+Fatal
+error
 :
 "
 )
@@ -743,7 +743,7 @@ format
 printf_stderr_common
 (
 "
-ERROR
+Error
 :
 "
 )
