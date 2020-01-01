@@ -2484,7 +2484,7 @@ runStart
 =
 0
 ;
-PRPackedBool
+PRBool
 runIsLowercase
 =
 PR_FALSE
@@ -2632,8 +2632,14 @@ IsClusterStart
 i
 )
 )
-continue
+{
+isLowercase
+=
+runIsLowercase
 ;
+}
+else
+{
 if
 (
 styles
@@ -2712,6 +2718,7 @@ it
 s
 not
 lowercase
+}
 }
 }
 if
