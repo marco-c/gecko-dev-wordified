@@ -2059,7 +2059,7 @@ return
 new
 GeckoMenuInflater
 (
-sAppContext
+this
 )
 ;
 else
@@ -3771,10 +3771,6 @@ BrowserDB
 .
 addBookmark
 (
-GeckoApp
-.
-sAppContext
-.
 getContentResolver
 (
 )
@@ -5550,7 +5546,9 @@ Toast
 .
 makeText
 (
-sAppContext
+GeckoApp
+.
+this
 resId
 duration
 )
@@ -5611,7 +5609,9 @@ Toast
 .
 makeText
 (
-sAppContext
+GeckoApp
+.
+this
 message
 Toast
 .
@@ -5625,7 +5625,9 @@ Toast
 .
 makeText
 (
-sAppContext
+GeckoApp
+.
+this
 message
 Toast
 .
@@ -6184,8 +6186,6 @@ final
 String
 progText
 =
-sAppContext
-.
 getString
 (
 R
@@ -6199,8 +6199,6 @@ final
 String
 successText
 =
-sAppContext
-.
 getString
 (
 R
@@ -6214,8 +6212,6 @@ final
 String
 failureText
 =
-sAppContext
-.
 getString
 (
 R
@@ -6253,7 +6249,7 @@ PendingIntent
 .
 getActivity
 (
-sAppContext
+this
 0
 new
 Intent
@@ -6269,7 +6265,7 @@ notification
 new
 AlertNotification
 (
-sAppContext
+this
 fileName
 .
 hashCode
@@ -6294,7 +6290,7 @@ notification
 .
 setLatestEventInfo
 (
-sAppContext
+this
 fileName
 progText
 emptyIntent
@@ -6349,7 +6345,9 @@ WallpaperManager
 .
 getInstance
 (
-sAppContext
+GeckoApp
+.
+this
 )
 ;
 if
@@ -7157,7 +7155,9 @@ notification
 .
 setLatestEventInfo
 (
-sAppContext
+GeckoApp
+.
+this
 fileName
 failureText
 emptyIntent
@@ -7176,7 +7176,9 @@ notification
 .
 setLatestEventInfo
 (
-sAppContext
+GeckoApp
+.
+this
 fileName
 successText
 emptyIntent
@@ -8703,7 +8705,9 @@ mHealthRecorder
 new
 BrowserHealthRecorder
 (
-sAppContext
+GeckoApp
+.
+this
 profilePath
 dispatcher
 previousSession
@@ -9705,7 +9709,7 @@ Intent
 (
 GeckoApp
 .
-sAppContext
+this
 GeckoPreferences
 .
 class
@@ -10380,7 +10384,7 @@ context
 =
 GeckoApp
 .
-sAppContext
+this
 ;
 AnnouncementsBroadcastService
 .
@@ -12198,7 +12202,7 @@ Intent
 (
 GeckoApp
 .
-sAppContext
+this
 GeckoPreferences
 .
 class
