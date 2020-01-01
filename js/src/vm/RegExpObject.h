@@ -2149,6 +2149,16 @@ Accessors
 .
 *
 /
+static
+unsigned
+lastIndexSlot
+(
+)
+{
+return
+LAST_INDEX_SLOT
+;
+}
 const
 Value
 &
