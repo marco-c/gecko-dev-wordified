@@ -2916,7 +2916,7 @@ nsWindow
 (
 )
 :
-nsBaseWidget
+nsWindowBase
 (
 )
 {
