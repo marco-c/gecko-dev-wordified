@@ -979,6 +979,12 @@ aGetLastRolledUp
 false
 )
 ;
+virtual
+void
+NotifyGeometryChange
+(
+)
+;
 /
 *
 *
