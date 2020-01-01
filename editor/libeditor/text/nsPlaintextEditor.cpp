@@ -4122,10 +4122,12 @@ nsCOMPtr
 nsISelectionController
 >
 selCont
+;
+GetSelectionController
 (
-do_QueryReferent
+getter_AddRefs
 (
-mSelConWeak
+selCont
 )
 )
 ;
