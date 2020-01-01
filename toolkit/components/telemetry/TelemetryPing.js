@@ -3527,10 +3527,10 @@ name
 }
 }
 }
-getCurrentSessionPayload
+getSessionPayload
 :
 function
-getCurrentSessionPayload
+getSessionPayload
 (
 reason
 )
@@ -3726,10 +3726,10 @@ return
 payloadObj
 ;
 }
-getCurrentSessionPayloadAndSlug
+getSessionPayloadAndSlug
 :
 function
-getCurrentSessionPayloadAndSlug
+getSessionPayloadAndSlug
 (
 reason
 )
@@ -3753,7 +3753,7 @@ payloadObj
 =
 this
 .
-getCurrentSessionPayload
+getSessionPayload
 (
 reason
 )
@@ -3800,7 +3800,7 @@ payloadIter
 yield
 this
 .
-getCurrentSessionPayloadAndSlug
+getSessionPayloadAndSlug
 (
 reason
 )
@@ -6421,7 +6421,7 @@ sessionPing
 =
 this
 .
-getCurrentSessionPayloadAndSlug
+getSessionPayloadAndSlug
 (
 "
 saved
@@ -6487,7 +6487,7 @@ savePingToFile
 (
 this
 .
-getCurrentSessionPayloadAndSlug
+getSessionPayloadAndSlug
 (
 "
 saved
@@ -6687,7 +6687,7 @@ gatherMemory
 return
 this
 .
-getCurrentSessionPayload
+getSessionPayload
 (
 "
 gather
