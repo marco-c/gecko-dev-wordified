@@ -22127,7 +22127,6 @@ the
 current
 context
 .
-.
 "
 )
 JS_FN_HELP
@@ -22150,7 +22149,6 @@ the
 parent
 of
 obj
-.
 .
 "
 )
@@ -22176,7 +22174,6 @@ into
 a
 noop
 wrapper
-.
 .
 "
 )
@@ -22204,7 +22201,6 @@ Returns
 a
 TypedArray
 .
-.
 "
 )
 JS_FN_HELP
@@ -22227,7 +22223,6 @@ data
 generated
 by
 serialize
-.
 .
 "
 )
