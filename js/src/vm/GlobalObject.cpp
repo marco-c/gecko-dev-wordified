@@ -1258,12 +1258,10 @@ literals
 if
 (
 !
-objectProto
--
->
 setNewTypeUnknown
 (
 cx
+objectProto
 )
 )
 return
@@ -1648,12 +1646,10 @@ CloneFunctionObject
 if
 (
 !
-functionProto
--
->
 setNewTypeUnknown
 (
 cx
+functionProto
 )
 )
 return

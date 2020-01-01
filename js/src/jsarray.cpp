@@ -20311,12 +20311,13 @@ arrays
 if
 (
 !
-arrayProto
--
->
+JSObject
+:
+:
 setNewTypeUnknown
 (
 cx
+arrayProto
 )
 )
 return
