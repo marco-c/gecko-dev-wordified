@@ -2477,6 +2477,24 @@ location
         
 #
 Skip
+js
+files
+in
+the
+root
+test
+directory
+.
+        
+if
+not
+root
+:
+            
+continue
+        
+#
+Skip
 files
 that
 we
@@ -2507,10 +2525,6 @@ the
 file
 .
         
-if
-root
-:
-            
 filename
 =
 os
