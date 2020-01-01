@@ -4359,9 +4359,11 @@ msg_iovlen
 =
 1
 ;
-char
-buf
-[
+static
+const
+int
+tmp
+=
 CMSG_SPACE
 (
 sizeof
@@ -4375,6 +4377,11 @@ MAX_DESCRIPTORS_PER_MESSAGE
 ]
 )
 )
+;
+char
+buf
+[
+tmp
 ]
 ;
 if
