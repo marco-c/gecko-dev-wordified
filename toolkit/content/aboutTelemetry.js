@@ -4673,7 +4673,7 @@ Ping
 payload
 Telemetry
 .
-asyncReadShutdownTime
+asyncFetchTelemetryData
 (
 displayPingData
 )

@@ -2075,7 +2075,7 @@ nsIMemoryReporter
 mMemoryReporter
 ;
 bool
-mCachedShutdownTime
+mCachedTelemetryData
 ;
 uint32_t
 mLastShutdownTime
@@ -2087,14 +2087,14 @@ vector
 <
 nsCOMPtr
 <
-nsIReadShutdownTimeCallback
+nsIFetchTelemetryDataCallback
 >
 >
 mCallbacks
 ;
 friend
 class
-nsReadShutdownTime
+nsFetchTelemetryData
 ;
 }
 ;
@@ -4234,14 +4234,14 @@ shutdownTime
 ;
 }
 class
-nsReadShutdownTime
+nsFetchTelemetryData
 :
 public
 nsRunnable
 {
 public
 :
-nsReadShutdownTime
+nsFetchTelemetryData
 (
 const
 char
@@ -4285,7 +4285,7 @@ MainThread
 mTelemetry
 -
 >
-mCachedShutdownTime
+mCachedTelemetryData
 =
 true
 ;
@@ -4365,7 +4365,7 @@ NS_NewRunnableMethod
 (
 this
 &
-nsReadShutdownTime
+nsFetchTelemetryData
 :
 :
 MainThread
@@ -4525,7 +4525,7 @@ The
 user
 must
 call
-ReadShutdownTime
+AsyncFetchTelemetryData
 first
 .
 We
@@ -4559,7 +4559,7 @@ yet
 if
 (
 !
-mCachedShutdownTime
+mCachedTelemetryData
 )
 {
 *
@@ -4584,9 +4584,9 @@ NS_IMETHODIMP
 TelemetryImpl
 :
 :
-AsyncReadShutdownTime
+AsyncFetchTelemetryData
 (
-nsIReadShutdownTimeCallback
+nsIFetchTelemetryDataCallback
 *
 aCallback
 )
@@ -4607,7 +4607,7 @@ callback
 .
 if
 (
-mCachedShutdownTime
+mCachedTelemetryData
 )
 {
 aCallback
@@ -4708,7 +4708,7 @@ CanRecord
 )
 )
 {
-mCachedShutdownTime
+mCachedTelemetryData
 =
 true
 ;
@@ -4766,7 +4766,7 @@ if
 targetThread
 )
 {
-mCachedShutdownTime
+mCachedTelemetryData
 =
 true
 ;
@@ -4809,7 +4809,7 @@ if
 filename
 )
 {
-mCachedShutdownTime
+mCachedTelemetryData
 =
 true
 ;
@@ -4838,7 +4838,7 @@ nsIRunnable
 event
 =
 new
-nsReadShutdownTime
+nsFetchTelemetryData
 (
 filename
 )
@@ -4897,7 +4897,7 @@ Telemetry
 mHangReportsMutex
 "
 )
-mCachedShutdownTime
+mCachedTelemetryData
 (
 false
 )

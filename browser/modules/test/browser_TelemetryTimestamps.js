@@ -92,7 +92,7 @@ telemetry
 ;
 Telemetry
 .
-asyncReadShutdownTime
+asyncFetchTelemetryData
 (
 function
 (
