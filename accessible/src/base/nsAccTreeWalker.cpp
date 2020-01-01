@@ -873,13 +873,13 @@ mWeakShell
 (
 aShell
 )
-mState
-(
-nsnull
-)
 mWalkCache
 (
 aWalkCache
+)
+mState
+(
+nsnull
 )
 {
 NS_ASSERTION
