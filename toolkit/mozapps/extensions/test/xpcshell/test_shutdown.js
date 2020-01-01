@@ -83,6 +83,9 @@ addManagerListener
 "
 removeManagerListener
 "
+"
+mapURIToAddonID
+"
 ]
 ;
 const
