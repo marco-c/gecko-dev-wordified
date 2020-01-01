@@ -178,6 +178,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 prnetdb
 .
 h
@@ -4145,7 +4152,10 @@ mContext
 mGlobal
 )
 ;
-JS_SetGlobalObject
+js
+:
+:
+SetDefaultObjectForContext
 (
 mContext
 mGlobal

@@ -193,6 +193,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h
@@ -1778,9 +1785,10 @@ mJSObject
 ownerURI
 )
 ;
+js
 :
 :
-JS_SetGlobalObject
+SetDefaultObjectForContext
 (
 cx
 mJSObject

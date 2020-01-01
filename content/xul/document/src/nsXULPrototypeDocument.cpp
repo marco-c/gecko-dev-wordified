@@ -201,6 +201,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -3973,9 +3980,10 @@ newGlob
 return
 NS_OK
 ;
+js
 :
 :
-JS_SetGlobalObject
+SetDefaultObjectForContext
 (
 cx
 newGlob

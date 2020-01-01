@@ -5000,7 +5000,10 @@ newcx
 JSOPTION_DONT_REPORT_UNCAUGHT
 )
 ;
-JS_SetGlobalObject
+js
+:
+:
+SetDefaultObjectForContext
 (
 newcx
 JS_GetGlobalForScopeChain
@@ -30809,7 +30812,10 @@ cx
 glob
 )
 ;
-JS_SetGlobalObject
+js
+:
+:
+SetDefaultObjectForContext
 (
 cx
 glob

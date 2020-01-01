@@ -1059,7 +1059,10 @@ the
 default
 compartment
 .
-JS_SetGlobalObject
+js
+:
+:
+SetDefaultObjectForContext
 (
 mSafeJSContext
 glob

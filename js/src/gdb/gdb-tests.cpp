@@ -86,6 +86,13 @@ tests
 .
 h
 "
+#
+include
+"
+jsfriendapi
+.
+h
+"
 using
 namespace
 JS
@@ -447,7 +454,10 @@ options
 )
 )
 ;
-JS_SetGlobalObject
+js
+:
+:
+SetDefaultObjectForContext
 (
 cx
 global

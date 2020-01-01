@@ -11972,7 +11972,10 @@ with
 this
 cx
 .
-JS_SetGlobalObject
+js
+:
+:
+SetDefaultObjectForContext
 (
 aCx
 aOuterObject
@@ -14581,7 +14584,10 @@ might
 have
 changed
 .
-JS_SetGlobalObject
+js
+:
+:
+SetDefaultObjectForContext
 (
 cx
 mJSObject
