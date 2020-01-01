@@ -514,6 +514,7 @@ data
 {
 if
 (
+!
 ElfLoader
 :
 :
