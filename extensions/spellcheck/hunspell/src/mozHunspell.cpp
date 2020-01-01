@@ -768,7 +768,6 @@ structures
 .
 "
 )
-;
 nsresult
 mozHunspell
 :
