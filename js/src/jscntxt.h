@@ -8706,6 +8706,9 @@ gcMarkingTracer
 uint32
 gcTriggerFactor
 ;
+int64
+gcJitReleaseTime
+;
 volatile
 JSBool
 gcIsNeeded
