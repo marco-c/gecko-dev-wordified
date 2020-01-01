@@ -3206,10 +3206,11 @@ MNullaryInstruction
 int32
 index_
 ;
+const
 types
 :
 :
-StackTypeSet
+TypeSet
 *
 typeSet_
 ;
@@ -3227,10 +3228,11 @@ MParameter
 (
 int32
 index
+const
 types
 :
 :
-StackTypeSet
+TypeSet
 *
 types
 )
@@ -3264,10 +3266,11 @@ New
 (
 int32
 index
+const
 types
 :
 :
-StackTypeSet
+TypeSet
 *
 types
 )
@@ -3282,10 +3285,11 @@ return
 index_
 ;
 }
+const
 types
 :
 :
-StackTypeSet
+TypeSet
 *
 typeSet
 (
@@ -23444,6 +23448,7 @@ MUnaryInstruction
 BailoutKind
 bailoutKind_
 ;
+const
 types
 :
 :
@@ -23456,6 +23461,7 @@ MTypeBarrier
 MDefinition
 *
 def
+const
 types
 :
 :
@@ -23515,6 +23521,7 @@ New
 MDefinition
 *
 def
+const
 types
 :
 :
@@ -23571,6 +23578,7 @@ return
 bailoutKind_
 ;
 }
+const
 types
 :
 :
@@ -23652,6 +23660,7 @@ MMonitorTypes
 public
 MUnaryInstruction
 {
+const
 types
 :
 :
@@ -23664,6 +23673,7 @@ MMonitorTypes
 MDefinition
 *
 def
+const
 types
 :
 :
@@ -23717,6 +23727,7 @@ New
 MDefinition
 *
 def
+const
 types
 :
 :
@@ -23748,6 +23759,7 @@ getOperand
 )
 ;
 }
+const
 types
 :
 :

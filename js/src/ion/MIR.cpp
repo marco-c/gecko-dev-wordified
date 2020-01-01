@@ -2168,10 +2168,11 @@ New
 (
 int32
 index
+const
 types
 :
 :
-StackTypeSet
+TypeSet
 *
 types
 )
