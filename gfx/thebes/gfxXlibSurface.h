@@ -744,6 +744,12 @@ return
 mDisplay
 ;
 }
+Screen
+*
+XScreen
+(
+)
+;
 Drawable
 XDrawable
 (
