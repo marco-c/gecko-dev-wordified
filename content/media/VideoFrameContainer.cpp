@@ -493,12 +493,13 @@ Invalidate
 ;
 mIntrinsicSize
 =
-{
+gfxIntSize
+(
 -
 1
 -
 1
-}
+)
 ;
 mPaintDelay
 =
