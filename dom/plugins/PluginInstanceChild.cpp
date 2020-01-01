@@ -4863,7 +4863,7 @@ mPluginWindowHWND
 GWLP_WNDPROC
 reinterpret_cast
 <
-LONG
+LONG_PTR
 >
 (
 PluginWindowProc
@@ -5350,7 +5350,7 @@ mPluginWindowHWND
 GWLP_WNDPROC
 reinterpret_cast
 <
-LONG
+LONG_PTR
 >
 (
 DefWindowProcA
@@ -5422,7 +5422,7 @@ mPluginWindowHWND
 GWLP_WNDPROC
 reinterpret_cast
 <
-LONG
+LONG_PTR
 >
 (
 mPluginWndProc
@@ -5490,7 +5490,7 @@ a
 child
 window
 .
-LONG
+LONG_PTR
 style
 =
 GetWindowLongPtr
@@ -8446,7 +8446,7 @@ mWinlessHiddenMsgHWND
 GWLP_WNDPROC
 reinterpret_cast
 <
-LONG
+LONG_PTR
 >
 (
 tmpProc
@@ -8841,7 +8841,7 @@ hWnd
 GWLP_WNDPROC
 reinterpret_cast
 <
-LONG
+LONG_PTR
 >
 (
 WinlessHiddenFlashWndProc
