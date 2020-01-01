@@ -4873,6 +4873,7 @@ nsGenericDOMDataNode
 TextLength
 (
 )
+const
 {
 return
 mText
