@@ -3453,7 +3453,10 @@ strValue
 false
 )
 ;
-jsval
+JS
+:
+:
+Value
 valValue
 =
 STRING_TO_JSVAL
@@ -3866,7 +3869,10 @@ return
 false
 ;
 }
-jsval
+JS
+:
+:
+Value
 valVersion
 =
 STRING_TO_JSVAL

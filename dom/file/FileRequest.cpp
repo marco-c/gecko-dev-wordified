@@ -424,7 +424,10 @@ from
 the
 helper
 .
-jsval
+JS
+:
+:
+Value
 result
 ;
 nsIScriptContext
