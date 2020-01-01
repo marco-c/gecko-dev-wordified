@@ -2291,6 +2291,15 @@ return
 mCanBeMetered
 ;
 }
+short
+ScreenOrientation
+(
+)
+{
+return
+mScreenOrientation
+;
+}
 protected
 :
 int
@@ -2381,6 +2390,9 @@ mBandwidth
 ;
 bool
 mCanBeMetered
+;
+short
+mScreenOrientation
 ;
 void
 ReadIntArray
@@ -2584,6 +2596,10 @@ static
 jfieldID
 jCanBeMeteredField
 ;
+static
+jfieldID
+jScreenOrientationField
+;
 public
 :
 enum
@@ -2666,6 +2682,9 @@ SCREENSHOT
 SENSOR_ACCURACY
 =
 26
+SCREENORIENTATION_CHANGED
+=
+27
 dummy_java_enum_list_end
 }
 ;
