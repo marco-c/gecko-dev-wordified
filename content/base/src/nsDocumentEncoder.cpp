@@ -2043,9 +2043,7 @@ aNode
 ;
 if
 (
-mFlags
-&
-SkipInvisibleContent
+mIsCopying
 )
 {
 if
