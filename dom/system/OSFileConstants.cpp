@@ -1878,7 +1878,7 @@ JS_SetProperty
 cx
 objSys
 "
-Version
+Name
 "
 &
 valVersion
