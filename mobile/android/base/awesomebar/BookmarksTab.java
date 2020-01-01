@@ -627,10 +627,16 @@ showReadingList
 Override
 public
 void
-destroy
+onDestroyView
 (
 )
 {
+super
+.
+onDestroyView
+(
+)
+;
 BookmarksListAdapter
 adapter
 =
