@@ -515,6 +515,7 @@ CHECK
 rt2
 )
 ;
+{
 /
 /
 Create
@@ -601,6 +602,7 @@ JS_DestroyContext
 cx2
 )
 ;
+}
 JS_DestroyRuntime
 (
 rt2
