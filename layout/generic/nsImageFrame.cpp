@@ -11003,6 +11003,8 @@ FILE
 out
 int32_t
 aIndent
+uint32_t
+aFlags
 )
 const
 {
