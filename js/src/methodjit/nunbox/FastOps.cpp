@@ -538,10 +538,7 @@ allocReg
 Address
 scopeChain
 (
-Assembler
-:
-:
-FpReg
+JSFrameReg
 offsetof
 (
 JSStackFrame
@@ -4776,10 +4773,7 @@ sizeof
 JSStackFrame
 )
 )
-Assembler
-:
-:
-FpReg
+JSFrameReg
 Registers
 :
 :
@@ -5027,10 +5021,7 @@ ovf
 Address
 argv
 (
-Assembler
-:
-:
-FpReg
+JSFrameReg
 offsetof
 (
 JSStackFrame
