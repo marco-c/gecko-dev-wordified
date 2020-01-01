@@ -19265,6 +19265,15 @@ rt
 }
 #
 endif
+#
+ifdef
+JS_TRACER
+PurgeJITOracle
+(
+)
+;
+#
+endif
 /
 *
 *
