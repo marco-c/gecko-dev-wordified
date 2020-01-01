@@ -520,6 +520,12 @@ Start
 (
 )
 ;
+mContent
+.
+InitXPCOM
+(
+)
+;
 return
 true
 ;
