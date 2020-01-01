@@ -208,6 +208,16 @@ onPress
 options
 .
 onPress
+&
+&
+options
+.
+onPress
+.
+bind
+(
+this
+)
 ;
 this
 .
