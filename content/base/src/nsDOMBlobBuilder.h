@@ -187,6 +187,7 @@ nsCOMPtr
 nsIDOMBlob
 >
 >
+&
 aBlobs
 const
 nsAString

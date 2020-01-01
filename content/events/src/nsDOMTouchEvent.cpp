@@ -1230,6 +1230,7 @@ nsIDOMTouch
 >
 unchangedTouches
 ;
+const
 nsTArray
 <
 nsCOMPtr
@@ -1237,6 +1238,7 @@ nsCOMPtr
 nsIDOMTouch
 >
 >
+&
 touches
 =
 touchEvent
@@ -1380,6 +1382,7 @@ nsTouchEvent
 mEvent
 )
 ;
+const
 nsTArray
 <
 nsCOMPtr
@@ -1387,6 +1390,7 @@ nsCOMPtr
 nsIDOMTouch
 >
 >
+&
 touches
 =
 touchEvent
@@ -1582,6 +1586,7 @@ nsTouchEvent
 mEvent
 )
 ;
+const
 nsTArray
 <
 nsCOMPtr
@@ -1589,6 +1594,7 @@ nsCOMPtr
 nsIDOMTouch
 >
 >
+&
 touches
 =
 touchEvent

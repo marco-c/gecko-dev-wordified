@@ -2267,6 +2267,7 @@ nsTArray
 nsGenericHTMLFormElement
 *
 >
+&
 aArray
 )
 {
@@ -2315,11 +2316,13 @@ CollectOrphans
 nsINode
 *
 aRemovalRoot
+const
 nsTArray
 <
 nsGenericHTMLFormElement
 *
 >
+&
 aArray
 #
 ifdef
