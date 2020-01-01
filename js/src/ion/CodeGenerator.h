@@ -888,6 +888,14 @@ lir
 )
 ;
 bool
+visitCallSetElement
+(
+LCallSetElement
+*
+lir
+)
+;
+bool
 visitThrow
 (
 LThrow
