@@ -1469,6 +1469,9 @@ mSourceUrl
 nsString
 mTempFileExtension
 ;
+nsString
+mTempLeafName
+;
 /
 *
 *
