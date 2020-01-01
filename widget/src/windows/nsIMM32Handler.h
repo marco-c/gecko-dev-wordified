@@ -567,10 +567,6 @@ nsIntRect
 ;
 #
 define
-ENABLE_IME_MOUSE_HANDLING
-1
-#
-define
 NS_WM_IMEFIRST
 WM_IME_SETCONTEXT
 #
@@ -1183,9 +1179,6 @@ nsWindow
 )
 "
 .
-#
-ifdef
-ENABLE_IME_MOUSE_HANDLING
 PRBool
 OnMouseEvent
 (
@@ -1198,11 +1191,6 @@ int
 aAction
 )
 ;
-#
-endif
-/
-/
-ENABLE_IME_MOUSE_HANDLING
 static
 PRBool
 OnKeyDownEvent
