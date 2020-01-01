@@ -515,6 +515,9 @@ nsPresContext
 class
 nsIImageLoadingContent
 ;
+class
+nsICanvasElement
+;
 /
 *
 *
@@ -780,7 +783,13 @@ for
 an
 image
 node
+specified
+by
+aImageLoader
+or
+aCanvas
 .
+*
 This
 is
 called
@@ -798,6 +807,9 @@ aPresContext
 nsIImageLoadingContent
 *
 aImageLoader
+nsICanvasElement
+*
+aCanvas
 PRInt32
 aScreenX
 PRInt32
