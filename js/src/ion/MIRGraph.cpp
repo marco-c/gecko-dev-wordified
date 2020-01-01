@@ -885,6 +885,10 @@ kind_
 (
 kind
 )
+loopDepth_
+(
+0
+)
 mark_
 (
 false
