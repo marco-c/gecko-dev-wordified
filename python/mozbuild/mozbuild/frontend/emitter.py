@@ -1279,6 +1279,20 @@ PARALLEL_EXTERNAL_MAKE_DIRS
 ]
 )
         
+o
+.
+is_tool_dir
+=
+sandbox
+.
+get
+(
+'
+IS_TOOL_DIR
+'
+False
+)
+        
 if
 '
 TIERS
