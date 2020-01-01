@@ -2516,6 +2516,7 @@ mExecutor
 >
 Flush
 (
+PR_TRUE
 )
 ;
 /
@@ -2625,6 +2626,7 @@ mExecutor
 >
 Flush
 (
+PR_TRUE
 )
 ;
 /
@@ -3207,6 +3209,7 @@ mExecutor
 >
 Flush
 (
+PR_TRUE
 )
 ;
 mTokenizer
@@ -3669,6 +3672,7 @@ mExecutor
 >
 Flush
 (
+PR_TRUE
 )
 ;
 mTokenizer
@@ -3932,6 +3936,7 @@ mExecutor
 >
 Flush
 (
+PR_TRUE
 )
 ;
 }
