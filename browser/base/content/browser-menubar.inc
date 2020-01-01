@@ -4051,6 +4051,17 @@ BookmarksMenuDropHandler
 )
 ;
 "
+ondragexit
+=
+"
+PlacesMenuDNDController
+.
+onDragExit
+(
+event
+)
+;
+"
 >
 <
 menupopup
