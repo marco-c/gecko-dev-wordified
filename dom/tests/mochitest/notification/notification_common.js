@@ -349,6 +349,15 @@ aIID
 }
 }
 ;
+mockAlertsService
+=
+SpecialPowers
+.
+wrapCallbackObject
+(
+mockAlertsService
+)
+;
 function
 setup_notifications
 (

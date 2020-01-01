@@ -135,6 +135,10 @@ TYPE_ONE_SHOT
 var
 observer
 =
+SpecialPowers
+.
+wrapCallbackObject
+(
 {
 QueryInterface
 :
@@ -233,6 +237,7 @@ a
 bit
 }
 }
+)
 ;
 function
 getDialogDoc
