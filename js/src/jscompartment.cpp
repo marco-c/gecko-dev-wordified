@@ -4884,9 +4884,6 @@ AllFramesIter
 afi
 (
 rt
--
->
-stackSpace
 )
 ;
 !
