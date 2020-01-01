@@ -2179,9 +2179,6 @@ ap
 )
 ;
 }
-#
-ifdef
-MOZ_ENABLE_LIBXUL
 static
 nsresult
 ReadScriptFromStream
@@ -2913,11 +2910,6 @@ return
 rv
 ;
 }
-#
-endif
-/
-/
-MOZ_ENABLE_LIBXUL
 mozJSComponentLoader
 :
 :
