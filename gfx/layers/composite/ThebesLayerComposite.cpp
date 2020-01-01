@@ -514,7 +514,7 @@ surf
 mBuffer
 -
 >
-Dump
+GetAsSurface
 (
 )
 ;
