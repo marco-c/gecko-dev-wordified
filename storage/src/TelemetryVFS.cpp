@@ -638,6 +638,15 @@ COOKIES
 )
 SQLITE_TELEMETRY
 (
+"
+webappsstore
+.
+sqlite
+"
+WEBAPPS
+)
+SQLITE_TELEMETRY
+(
 NULL
 OTHER
 )
