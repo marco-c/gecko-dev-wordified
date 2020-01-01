@@ -1207,10 +1207,11 @@ mComboBox
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS2
 (
 nsComboButtonListener
 nsIDOMMouseListener
+nsIDOMEventListener
 )
 /
 /

@@ -3450,10 +3450,11 @@ Implement
 our
 nsISupports
 methods
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS3
 (
 nsTextInputSelectionImpl
 nsISelectionController
+nsISelectionDisplay
 nsISupportsWeakReference
 )
 /

@@ -530,11 +530,12 @@ h
 /
 nsISupports
 implementation
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS3
 (
 nsHTTPCompressConv
 nsIStreamConverter
 nsIStreamListener
+nsIRequestObserver
 )
 /
 /
