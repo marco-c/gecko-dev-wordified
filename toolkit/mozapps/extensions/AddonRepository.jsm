@@ -429,6 +429,7 @@ __defineGetter__
 (
 aName
 function
+logFuncGetter
 (
 )
 {
@@ -924,6 +925,7 @@ getAddonsByIDs
 (
 aIds
 function
+getAddonsToCache_getAddonsByIDs
 (
 aAddons
 )
@@ -2120,6 +2122,7 @@ compatible
 isCompatibleWith
 :
 function
+ASR_isCompatibleWith
 (
 aAppVerison
 aPlatformVersion
@@ -2207,6 +2210,7 @@ for
 findUpdates
 :
 function
+ASR_findUpdates
 (
 aListener
 aReason
@@ -2672,6 +2676,7 @@ AddonRepository
 initialize
 :
 function
+AddonRepo_initialize
 (
 )
 {
@@ -2711,6 +2716,7 @@ cleanly
 observe
 :
 function
+AddonRepo_observe
 (
 aSubject
 aTopic
@@ -2763,6 +2769,7 @@ AddonRepository
 shutdown
 :
 function
+AddonRepo_shutdown
 (
 )
 {
@@ -2789,6 +2796,7 @@ AddonDatabase
 shutdown
 (
 function
+shutdown_databaseShutdown
 (
 )
 {
@@ -2895,6 +2903,7 @@ to
 getCachedAddonByID
 :
 function
+AddonRepo_getCachedAddonByID
 (
 aId
 aCallback
@@ -3002,6 +3011,7 @@ AddonDatabase
 retrieveStoredData
 (
 function
+getCachedAddonByID_retrieveData
 (
 aAddons
 )
@@ -3199,6 +3209,7 @@ complete
 repopulateCache
 :
 function
+AddonRepo_repopulateCache
 (
 aIds
 aCallback
@@ -3206,7 +3217,7 @@ aCallback
 {
 this
 .
-_repopulateCache
+_repopulateCacheInternal
 (
 aIds
 aCallback
@@ -3214,9 +3225,10 @@ false
 )
 ;
 }
-_repopulateCache
+_repopulateCacheInternal
 :
 function
+AddonRepo_repopulateCacheInternal
 (
 aIds
 aCallback
@@ -3272,6 +3284,7 @@ getAddonsToCache
 (
 aIds
 function
+repopulateCache_getAddonsToCache
 (
 aAddons
 )
@@ -3331,6 +3344,7 @@ aAddons
 searchSucceeded
 :
 function
+repopulateCacheInternal_searchSucceeded
 (
 aAddons
 )
@@ -3377,6 +3391,7 @@ aCallback
 searchFailed
 :
 function
+repopulateCacheInternal_searchFailed
 (
 )
 {
@@ -3480,6 +3495,7 @@ complete
 cacheAddons
 :
 function
+AddonRepo_cacheAddons
 (
 aIds
 aCallback
@@ -3513,6 +3529,7 @@ getAddonsToCache
 (
 aIds
 function
+cacheAddons_getAddonsToCache
 (
 aAddons
 )
@@ -3564,6 +3581,7 @@ aAddons
 searchSucceeded
 :
 function
+cacheAddons_searchSucceeded
 (
 aAddons
 )
@@ -3603,6 +3621,7 @@ aCallback
 searchFailed
 :
 function
+cacheAddons_searchFailed
 (
 )
 {
@@ -3777,6 +3796,7 @@ blank
 getRecommendedURL
 :
 function
+AddonRepo_getRecommendedURL
 (
 )
 {
@@ -3861,6 +3881,7 @@ repository
 getSearchURL
 :
 function
+AddonRepo_getSearchURL
 (
 aSearchTerms
 )
@@ -3927,6 +3948,7 @@ nothing
 cancelSearch
 :
 function
+AddonRepo_cancelSearch
 (
 )
 {
@@ -4019,6 +4041,7 @@ to
 getAddonsByIDs
 :
 function
+AddonRepo_getAddonsByIDs
 (
 aIDs
 aCallback
@@ -4094,6 +4117,7 @@ request
 _beginGetAddons
 :
 function
+AddonRepo_beginGetAddons
 (
 aIDs
 aCallback
@@ -4668,6 +4692,7 @@ searchFailed
 backgroundUpdateCheck
 :
 function
+AddonRepo_backgroundUpdateCheck
 (
 aIDs
 aCallback
@@ -4675,7 +4700,7 @@ aCallback
 {
 this
 .
-_repopulateCache
+_repopulateCacheInternal
 (
 aIDs
 aCallback
@@ -4736,6 +4761,7 @@ to
 retrieveRecommendedAddons
 :
 function
+AddonRepo_retrieveRecommendedAddons
 (
 aMaxResults
 aCallback
@@ -4790,6 +4816,7 @@ self
 _getLocalAddonIds
 (
 function
+retrieveRecommendedAddons_getLocalAddonIds
 (
 aLocalAddonIds
 )
@@ -4884,6 +4911,7 @@ to
 searchAddons
 :
 function
+AddonRepo_searchAddons
 (
 aSearchTerms
 aMaxResults
@@ -4986,6 +5014,7 @@ self
 _getLocalAddonIds
 (
 function
+searchAddons_getLocalAddonIds
 (
 aLocalAddonIds
 )
@@ -5024,6 +5053,7 @@ callback
 _reportSuccess
 :
 function
+AddonRepo_reportSuccess
 (
 aResults
 aTotalResults
@@ -5108,6 +5138,7 @@ failure
 _reportFailure
 :
 function
+AddonRepo_reportFailure
 (
 )
 {
@@ -5178,6 +5209,7 @@ name
 _getUniqueDescendant
 :
 function
+AddonRepo_getUniqueDescendant
 (
 aElement
 aTagName
@@ -5234,6 +5266,7 @@ name
 _getUniqueDirectDescendant
 :
 function
+AddonRepo_getUniqueDirectDescendant
 (
 aElement
 aTagName
@@ -5250,6 +5283,7 @@ aElement
 .
 children
 function
+arrayFiltering
 (
 aChild
 )
@@ -5297,6 +5331,7 @@ empty
 _getTextContent
 :
 function
+AddonRepo_getTextContent
 (
 aElement
 )
@@ -5353,6 +5388,7 @@ unsuccessful
 _getDescendantTextContent
 :
 function
+AddonRepo_getDescendantTextContent
 (
 aElement
 aTagName
@@ -5418,6 +5454,7 @@ unsuccessful
 _getDirectDescendantTextContent
 :
 function
+AddonRepo_getDirectDescendantTextContent
 (
 aElement
 aTagName
@@ -5539,6 +5576,7 @@ null
 _parseAddon
 :
 function
+AddonRepo_parseAddon
 (
 aElement
 aSkip
@@ -6658,6 +6696,7 @@ some
 (
 nodes
 function
+parseAddon_platformCompatFilter
 (
 aNode
 )
@@ -6997,6 +7036,7 @@ result
 _parseAddons
 :
 function
+AddonRepo_parseAddons
 (
 aElements
 aTotalResults
@@ -7114,6 +7154,7 @@ some
 (
 applications
 function
+parseAddons_applicationsCompatFilter
 (
 aAppNode
 )
@@ -7370,6 +7411,7 @@ requiredAttributes
 some
 (
 function
+parseAddons_attributeFilter
 (
 aAttribute
 )
@@ -7568,6 +7610,7 @@ let
 callback
 =
 function
+addonInstallCallback
 (
 aInstall
 )
@@ -7660,6 +7703,7 @@ overrides
 _parseAddonCompatElement
 :
 function
+AddonRepo_parseAddonCompatElement
 (
 aResultObj
 aElement
@@ -8128,6 +8172,7 @@ this
 filter
 (
 function
+compatRangesFilter
 (
 aItem
 )
@@ -8168,6 +8213,7 @@ elements
 _parseAddonCompatData
 :
 function
+AddonRepo_parseAddonCompatData
 (
 aElements
 )
@@ -8214,6 +8260,7 @@ executing
 _beginSearch
 :
 function
+AddonRepo_beginSearch
 (
 aURI
 aMaxResults
@@ -8351,6 +8398,7 @@ addEventListener
 error
 "
 function
+beginSearch_errorListener
 (
 aEvent
 )
@@ -8375,6 +8423,7 @@ addEventListener
 load
 "
 function
+beginSearch_loadListener
 (
 aEvent
 )
@@ -8577,6 +8626,7 @@ aCallback
 _getLocalAddonIds
 :
 function
+AddonRepo_getLocalAddonIds
 (
 aCallback
 )
@@ -8603,6 +8653,7 @@ AddonManager
 getAllAddons
 (
 function
+getLocalAddonIds_getAllAddons
 (
 aAddons
 )
@@ -8643,6 +8694,7 @@ AddonManager
 getAllInstalls
 (
 function
+getLocalAddonIds_getAllInstalls
 (
 aInstalls
 )
@@ -8721,6 +8773,7 @@ exist
 _formatURLPref
 :
 function
+AddonRepo_formatURLPref
 (
 aPreference
 aSubstitutions
@@ -8790,6 +8843,7 @@ Z_
 /
 g
 function
+urlSubstitution
 (
 aMatch
 aKey
@@ -8844,7 +8898,7 @@ version
 findMatchingCompatOverride
 :
 function
-AR_findMatchingCompatOverride
+AddonRepo_findMatchingCompatOverride
 (
 aAddonVersion
 aCompatOverrides
@@ -9185,52 +9239,9 @@ insertAddon
 INSERT
 INTO
 addon
-(
-id
-type
-name
-version
-"
-+
-"
-creator
-creatorURL
-description
-fullDescription
-"
-+
-"
-developerComments
-eula
-homepageURL
-supportURL
-"
-+
-"
-contributionURL
-contributionAmount
-averageRating
-"
-+
-"
-reviewCount
-reviewURL
-totalDownloads
-weeklyDownloads
-"
-+
-"
-dailyUsers
-sourceURI
-repositoryStatus
-size
-updateDate
-)
-"
-+
-"
 VALUES
 (
+NULL
 :
 id
 :
@@ -9239,53 +9250,53 @@ type
 name
 :
 version
+"
++
+"
 :
 creator
 :
 creatorURL
-"
-+
-"
 :
 description
 :
 fullDescription
+"
++
+"
 :
 developerComments
 :
 eula
-"
-+
-"
 :
 homepageURL
 :
 supportURL
-:
-contributionURL
 "
 +
 "
+:
+contributionURL
 :
 contributionAmount
 :
 averageRating
-:
-reviewCount
 "
 +
 "
+:
+reviewCount
 :
 reviewURL
 :
 totalDownloads
 :
 weeklyDownloads
-:
-dailyUsers
 "
 +
 "
+:
+dailyUsers
 :
 sourceURI
 :
@@ -9302,15 +9313,6 @@ insertDeveloper
 INSERT
 INTO
 developer
-(
-addon_internal_id
-"
-+
-"
-num
-name
-url
-)
 VALUES
 (
 :
@@ -9326,6 +9328,28 @@ name
 url
 )
 "
+/
+/
+We
+specify
+column
+names
+here
+because
+the
+columns
+/
+/
+could
+be
+out
+of
+order
+due
+to
+schema
+changes
+.
 insertScreenshot
 :
 "
@@ -9386,25 +9410,6 @@ insertCompatibilityOverride
 INSERT
 INTO
 compatibility_override
-"
-+
-"
-(
-addon_internal_id
-num
-type
-"
-+
-"
-minVersion
-maxVersion
-appID
-"
-+
-"
-appMinVersion
-appMaxVersion
-)
 VALUES
 "
 +
@@ -9440,14 +9445,6 @@ insertIcon
 INSERT
 INTO
 icon
-(
-addon_internal_id
-size
-url
-)
-"
-+
-"
 VALUES
 (
 :
@@ -9671,6 +9668,7 @@ tryAgain
 =
 (
 function
+openConnection_tryAgain
 (
 )
 {
@@ -10354,6 +10352,7 @@ __defineGetter__
 connection
 "
 function
+shutdown_connectionGetter
 (
 )
 {
@@ -10418,6 +10417,7 @@ this
 shutdown
 (
 function
+delete_shutdown
 (
 )
 {
@@ -10683,6 +10683,7 @@ executeAsync
 handleResult
 :
 function
+getAllAddons_handleResult
 (
 aResults
 )
@@ -10737,6 +10738,7 @@ asyncErrorLogger
 handleCompletion
 :
 function
+getAllAddons_handleCompletion
 (
 aReason
 )
@@ -10817,6 +10819,7 @@ executeAsync
 handleResult
 :
 function
+getAllDevelopers_handleResult
 (
 aResults
 )
@@ -10926,6 +10929,7 @@ asyncErrorLogger
 handleCompletion
 :
 function
+getAllDevelopers_handleCompletion
 (
 aReason
 )
@@ -11004,6 +11008,7 @@ executeAsync
 handleResult
 :
 function
+getAllScreenshots_handleResult
 (
 aResults
 )
@@ -11113,6 +11118,7 @@ asyncErrorLogger
 handleCompletion
 :
 function
+getAllScreenshots_handleCompletion
 (
 aReason
 )
@@ -11182,6 +11188,7 @@ executeAsync
 handleResult
 :
 function
+getAllCompatOverrides_handleResult
 (
 aResults
 )
@@ -11292,6 +11299,7 @@ asyncErrorLogger
 handleCompletion
 :
 function
+getAllCompatOverrides_handleCompletion
 (
 aReason
 )
@@ -11656,6 +11664,7 @@ length
 handleResult
 :
 function
+emptyAddon_handleResult
 (
 )
 {
@@ -11668,6 +11677,7 @@ asyncErrorLogger
 handleCompletion
 :
 function
+emptyAddon_handleCompletion
 (
 aReason
 )
@@ -12219,6 +12229,7 @@ length
 handleResult
 :
 function
+insertAdditionalData_handleResult
 (
 )
 {
@@ -12231,6 +12242,7 @@ asyncErrorLogger
 handleCompletion
 :
 function
+insertAdditionalData_handleCompletion
 (
 aReason
 )
@@ -12314,6 +12326,7 @@ executeAsync
 handleResult
 :
 function
+makeAddonStatement_handleResult
 (
 )
 {
@@ -12326,6 +12339,7 @@ asyncErrorLogger
 handleCompletion
 :
 function
+makeAddonStatement_handleCompletion
 (
 aReason
 )
