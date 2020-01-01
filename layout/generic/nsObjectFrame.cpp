@@ -2409,6 +2409,15 @@ SendNativeEvents
 ifdef
 XP_WIN
 return
+mPluginWindow
+-
+>
+type
+=
+=
+NPWindowTypeDrawable
+&
+&
 MatchPluginName
 (
 "
