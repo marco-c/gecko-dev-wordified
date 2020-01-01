@@ -1643,7 +1643,7 @@ InitializeStatics
 (
 )
 ;
-nsCrossSiteListenerProxy
+nsCORSListenerProxy
 :
 :
 Startup
@@ -2077,7 +2077,7 @@ ShutdownLibrary
 ;
 #
 endif
-nsCrossSiteListenerProxy
+nsCORSListenerProxy
 :
 :
 Shutdown

@@ -3070,7 +3070,7 @@ mResponseXML
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
 (
-mACGetChannel
+mCORSPreflightChannel
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
 (
@@ -3121,7 +3121,7 @@ mResponseXML
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
-mACGetChannel
+mCORSPreflightChannel
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
@@ -4835,10 +4835,10 @@ NS_BINDING_ABORTED
 }
 if
 (
-mACGetChannel
+mCORSPreflightChannel
 )
 {
-mACGetChannel
+mCORSPreflightChannel
 -
 >
 Cancel
@@ -6266,7 +6266,7 @@ method
 if
 (
 !
-mACUnsafeHeaders
+mCORSUnsafeHeaders
 .
 IsEmpty
 (
@@ -11712,7 +11712,7 @@ data
 )
 )
 {
-mACUnsafeHeaders
+mCORSUnsafeHeaders
 .
 AppendElement
 (
@@ -11861,7 +11861,7 @@ IsSystemXHR
 Always
 create
 a
-nsCrossSiteListenerProxy
+nsCORSListenerProxy
 here
 even
 if
@@ -11886,7 +11886,7 @@ redirected
 listener
 =
 new
-nsCrossSiteListenerProxy
+nsCORSListenerProxy
 (
 listener
 mPrincipal
@@ -12201,10 +12201,10 @@ mChannel
 listener
 mPrincipal
 withCredentials
-mACUnsafeHeaders
+mCORSUnsafeHeaders
 getter_AddRefs
 (
-mACGetChannel
+mCORSPreflightChannel
 )
 )
 ;
@@ -12259,7 +12259,7 @@ mChannel
 =
 nsnull
 ;
-mACGetChannel
+mCORSPreflightChannel
 =
 nsnull
 ;
@@ -12693,7 +12693,7 @@ invalid
 header
 name
 in
-mACUnsafeHeaders
+mCORSUnsafeHeaders
 if
 (
 !
@@ -12745,14 +12745,14 @@ still
 be
 waiting
 for
-mACGetChannel
+mCORSPreflightChannel
 to
 actually
 open
 mChannel
 if
 (
-mACGetChannel
+mCORSPreflightChannel
 )
 {
 PRBool
@@ -12760,7 +12760,7 @@ pending
 ;
 rv
 =
-mACGetChannel
+mCORSPreflightChannel
 -
 >
 IsPending
@@ -13219,7 +13219,7 @@ if
 safeHeader
 )
 {
-mACUnsafeHeaders
+mCORSUnsafeHeaders
 .
 AppendElement
 (

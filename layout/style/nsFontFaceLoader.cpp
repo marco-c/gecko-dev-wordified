@@ -2674,7 +2674,7 @@ nsIStreamListener
 listener
 =
 new
-nsCrossSiteListenerProxy
+nsCORSListenerProxy
 (
 streamLoader
 principal
