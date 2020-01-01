@@ -9242,10 +9242,6 @@ color
 (
 0
 )
-stackLimit
-(
-0
-)
 unmarkedArenaStackTop
 (
 NULL
@@ -15817,15 +15813,6 @@ gcMarkingTracer
 =
 &
 gcmarker
-;
-gcmarker
-.
-stackLimit
-=
-cx
--
->
-stackLimit
 ;
 #
 ifdef

@@ -6507,9 +6507,6 @@ color
 ;
 public
 :
-jsuword
-stackLimit
-;
 /
 *
 See
