@@ -517,6 +517,9 @@ uint32_t
 mCurrentCallIndex
 ;
 bool
+mCCWA
+;
+bool
 mCLIP
 ;
 bool
