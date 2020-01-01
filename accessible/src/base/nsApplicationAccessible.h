@@ -798,13 +798,6 @@ NS_DECL_NSIACCESSIBLEAPPLICATION
 nsAccessNode
 virtual
 bool
-IsDefunct
-(
-)
-const
-;
-virtual
-bool
 Init
 (
 )

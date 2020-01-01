@@ -747,13 +747,6 @@ GetFrame
 const
 ;
 virtual
-bool
-IsDefunct
-(
-)
-const
-;
-virtual
 nsINode
 *
 GetNode
