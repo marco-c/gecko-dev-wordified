@@ -2322,9 +2322,9 @@ sessionRestored
 )
 ;
 return
-Promise
+CommonUtils
 .
-resolve
+laterTickResolvingPromise
 (
 {
 days
@@ -3712,9 +3712,9 @@ _listener
 )
 ;
 return
-Promise
+CommonUtils
 .
-resolve
+laterTickResolvingPromise
 (
 )
 ;
@@ -3741,9 +3741,9 @@ _listener
 null
 ;
 return
-Promise
+CommonUtils
 .
-resolve
+laterTickResolvingPromise
 (
 )
 ;

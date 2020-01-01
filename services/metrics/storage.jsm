@@ -5949,9 +5949,9 @@ version
 )
 {
 return
-Promise
+CommonUtils
 .
-resolve
+laterTickResolvingPromise
 (
 this
 .
@@ -6528,9 +6528,9 @@ existingType
 ;
 }
 return
-Promise
+CommonUtils
 .
-resolve
+laterTickResolvingPromise
 (
 this
 .

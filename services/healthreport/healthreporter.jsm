@@ -2838,9 +2838,9 @@ _initialized
 )
 {
 return
-Promise
+CommonUtils
 .
-resolve
+laterTickResolvingPromise
 (
 this
 )
@@ -5343,9 +5343,9 @@ buffer
 )
 ;
 return
-Promise
+CommonUtils
 .
-resolve
+laterTickResolvingPromise
 (
 json
 )
@@ -7353,9 +7353,9 @@ result
 let
 promise
 =
-Promise
+CommonUtils
 .
-resolve
+laterTickResolvingPromise
 (
 null
 )
