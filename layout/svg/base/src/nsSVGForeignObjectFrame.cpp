@@ -2004,6 +2004,7 @@ aContext
 >
 GetRenderingContext
 (
+this
 )
 ;
 if
