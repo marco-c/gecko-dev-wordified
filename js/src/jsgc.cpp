@@ -5523,6 +5523,7 @@ toGCThing
 )
 )
 ;
+}
 /
 *
 Lifetime
