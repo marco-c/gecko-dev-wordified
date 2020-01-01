@@ -418,6 +418,7 @@ onDrop
 =
 function
 (
+aEvent
 )
 {
 info
@@ -432,6 +433,7 @@ called
 ;
 originalHandler
 (
+aEvent
 )
 ;
 }
