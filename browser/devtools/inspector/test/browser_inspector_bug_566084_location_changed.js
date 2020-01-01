@@ -172,7 +172,7 @@ target
 ;
 notificationBox
 =
-toolbox
+gBrowser
 .
 getNotificationBox
 (
