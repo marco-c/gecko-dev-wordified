@@ -1185,6 +1185,13 @@ _classname
 Element
 #
 define
+HTML_HTMLELEMENT_TAG
+(
+_tag
+)
+NS_NewHTMLElement
+#
+define
 HTML_OTHER
 (
 _tag
@@ -1209,6 +1216,9 @@ h
 #
 undef
 HTML_TAG
+#
+undef
+HTML_HTMLELEMENT_TAG
 #
 undef
 HTML_OTHER

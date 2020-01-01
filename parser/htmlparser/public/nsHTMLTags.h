@@ -494,6 +494,16 @@ eHTMLTag_
 _tag
 #
 define
+HTML_HTMLELEMENT_TAG
+(
+_tag
+)
+eHTMLTag_
+#
+#
+_tag
+#
+define
 HTML_OTHER
 (
 _tag
@@ -561,6 +571,9 @@ eHTMLTag_userdefined
 #
 undef
 HTML_TAG
+#
+undef
+HTML_HTMLELEMENT_TAG
 #
 undef
 HTML_OTHER
