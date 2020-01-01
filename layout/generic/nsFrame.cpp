@@ -1039,13 +1039,6 @@ kLookAndFeelCID
 NS_LOOKANDFEEL_CID
 )
 ;
-static
-NS_DEFINE_CID
-(
-kWidgetCID
-NS_CHILD_CID
-)
-;
 /
 /
 Struct

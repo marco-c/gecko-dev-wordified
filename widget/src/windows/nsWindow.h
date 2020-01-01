@@ -1940,14 +1940,6 @@ BOOL
 bState
 )
 ;
-void
-GetNonClientBounds
-(
-nsIntRect
-&
-aRect
-)
-;
 PRBool
 CanTakeFocus
 (
