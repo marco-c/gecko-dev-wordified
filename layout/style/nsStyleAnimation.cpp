@@ -5400,14 +5400,11 @@ changed
 |
 /
 /
-SlotForValue
-checks
+check
 whether
 property
 parsed
-w
-/
-out
+without
 CSS
 parsing
 errors
@@ -5415,7 +5412,7 @@ errors
 declaration
 -
 >
-SlotForValue
+HasNonImportantValueFor
 (
 propertyToCheck
 )
