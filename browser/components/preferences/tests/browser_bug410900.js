@@ -339,8 +339,6 @@ richlistitem
 "
 )
 ;
-/
-/
 ok
 (
 items
