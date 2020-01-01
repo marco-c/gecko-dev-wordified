@@ -672,6 +672,11 @@ DeleteDump
 (
 )
 ;
+bool
+ShouldEnableSending
+(
+)
+;
 }
 /
 /
