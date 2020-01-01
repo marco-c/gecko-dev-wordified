@@ -2162,17 +2162,6 @@ Pause
 {
 if
 (
-!
-mDecoder
-)
-return
-NS_OK
-;
-nsresult
-rv
-;
-if
-(
 mNetworkState
 =
 =
@@ -2182,6 +2171,7 @@ nsIDOMHTMLMediaElement
 NETWORK_EMPTY
 )
 {
+nsresult
 rv
 =
 Load
@@ -2195,6 +2185,12 @@ rv
 )
 ;
 }
+else
+if
+(
+mDecoder
+)
+{
 mDecoder
 -
 >
@@ -2202,6 +2198,7 @@ Pause
 (
 )
 ;
+}
 PRBool
 oldPaused
 =
@@ -2626,9 +2623,6 @@ return
 NS_OK
 ;
 }
-nsresult
-rv
-;
 if
 (
 mNetworkState
@@ -2709,6 +2703,7 @@ default
 playback
 rate
 .
+nsresult
 rv
 =
 mDecoder
