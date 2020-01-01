@@ -3023,6 +3023,16 @@ return
 NS_ERROR_DOM_SECURITY_ERR
 ;
 }
+if
+(
+!
+aCallback
+)
+{
+return
+NS_ERROR_UNEXPECTED
+;
+}
 nsAutoString
 type
 ;
