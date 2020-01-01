@@ -1008,6 +1008,10 @@ SAFE_OP
 (
 TruncateToInt32
 )
+SAFE_OP
+(
+MaybeToDoubleElement
+)
 CUSTOM_OP
 (
 ToString

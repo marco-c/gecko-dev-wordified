@@ -605,6 +605,14 @@ lir
 )
 ;
 bool
+visitMaybeToDoubleElement
+(
+LMaybeToDoubleElement
+*
+lir
+)
+;
+bool
 visitTypeBarrier
 (
 LTypeBarrier

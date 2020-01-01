@@ -1250,6 +1250,14 @@ ins
 )
 ;
 bool
+visitMaybeToDoubleElement
+(
+MMaybeToDoubleElement
+*
+ins
+)
+;
+bool
 visitLoadSlot
 (
 MLoadSlot
