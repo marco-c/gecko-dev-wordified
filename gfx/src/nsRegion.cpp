@@ -1554,7 +1554,6 @@ gRectPool
 INIT_MEM_CHUNK_ENTRIES
 )
 ;
-inline
 void
 *
 nsRegion
@@ -1578,7 +1577,6 @@ Alloc
 )
 ;
 }
-inline
 void
 nsRegion
 :
