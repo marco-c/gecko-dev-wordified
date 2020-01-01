@@ -2544,6 +2544,14 @@ unsigned
 local
 )
 ;
+void
+trace
+(
+JSTracer
+*
+trc
+)
+;
 #
 endif
 /
