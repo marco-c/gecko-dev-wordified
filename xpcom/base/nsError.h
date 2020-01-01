@@ -118,6 +118,15 @@ nsresult
 /
 #
 endif
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 *
