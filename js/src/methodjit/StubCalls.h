@@ -532,6 +532,17 @@ index
 ;
 void
 JS_FASTCALL
+DefFun
+(
+VMFrame
+&
+f
+uint32
+index
+)
+;
+void
+JS_FASTCALL
 VpInc
 (
 VMFrame
