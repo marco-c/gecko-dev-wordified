@@ -9595,7 +9595,8 @@ if
 !
 script
 )
-continue
+return
+false
 ;
 SrcNotes
 (
