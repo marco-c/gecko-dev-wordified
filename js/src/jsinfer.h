@@ -8048,6 +8048,14 @@ fop
 )
 ;
 void
+sweepCompilerOutputs
+(
+FreeOp
+*
+fop
+)
+;
+void
 finalizeObjects
 (
 )
