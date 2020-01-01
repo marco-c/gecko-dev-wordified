@@ -12412,6 +12412,13 @@ getTitle
 New
 Tabs
 '
+&
+&
+groupItem
+.
+locked
+.
+title
 )
 {
 groupItem
