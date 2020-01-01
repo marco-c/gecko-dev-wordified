@@ -12531,6 +12531,7 @@ details
 >
 mYOffset
 =
+-
 float
 (
 mOffsets
