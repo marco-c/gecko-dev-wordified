@@ -1161,6 +1161,13 @@ bool
 result
 )
 ;
+NS_OVERRIDE
+virtual
+bool
+RecvNegotiatedCarbon
+(
+)
+;
 NPError
 NPP_SetWindow
 (
