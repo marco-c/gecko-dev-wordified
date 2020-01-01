@@ -996,6 +996,10 @@ NewParallelArray
 )
 UNSAFE_OP
 (
+InitElem
+)
+UNSAFE_OP
+(
 InitProp
 )
 SAFE_OP
