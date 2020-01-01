@@ -81616,7 +81616,7 @@ JSProperty
 sprop
 )
 ;
-obj
+pobj
 -
 >
 dropProperty
