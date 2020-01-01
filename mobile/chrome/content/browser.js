@@ -3128,6 +3128,13 @@ aEvent
 .
 target
 instanceof
+HTMLAnchorElement
+|
+|
+aEvent
+.
+target
+instanceof
 HTMLSelectElement
 )
 return
@@ -3443,10 +3450,6 @@ cutoff
 =
 2
 ;
-var
-x
-y
-;
 /
 /
 enforce
@@ -3525,7 +3528,7 @@ speedX
 <
 0
 )
-x
+speedX
 =
 Math
 .
@@ -3535,7 +3538,7 @@ speedX
 )
 ;
 else
-x
+speedX
 =
 Math
 .
@@ -3550,7 +3553,7 @@ speedY
 <
 0
 )
-y
+speedY
 =
 Math
 .
@@ -3560,7 +3563,7 @@ speedY
 )
 ;
 else
-y
+speedY
 =
 Math
 .
@@ -3569,6 +3572,8 @@ floor
 speedY
 )
 ;
+/
+/
 dump
 (
 "
@@ -3581,7 +3586,7 @@ panning
 -
 1
 *
-x
+speedX
 +
 "
 "
@@ -3589,7 +3594,7 @@ x
 -
 1
 *
-y
+speedY
 +
 "
 \
@@ -3602,9 +3607,9 @@ browser
 doPan
 (
 -
-x
+speedX
 -
-y
+speedY
 )
 ;
 /
@@ -3612,7 +3617,7 @@ y
 slow
 down
 .
-x
+speedX
 *
 =
 (
@@ -3620,10 +3625,10 @@ decayFactor
 -
 step
 /
-10
+50
 )
 ;
-y
+speedY
 *
 =
 (
@@ -3631,7 +3636,7 @@ decayFactor
 -
 step
 /
-10
+50
 )
 ;
 /
@@ -3647,7 +3652,7 @@ Math
 .
 abs
 (
-x
+speedX
 )
 >
 cutoff
@@ -3657,7 +3662,7 @@ Math
 .
 abs
 (
-y
+speedY
 )
 >
 cutoff
@@ -3671,8 +3676,8 @@ function
 _doKineticScroll
 (
 browser
-x
-y
+speedX
+speedY
 +
 +
 step
@@ -3707,8 +3712,6 @@ _speedX
 *
 100
 ;
-/
-/
 var
 speedY
 =
@@ -3879,6 +3882,8 @@ lastEvent
 =
 aEvent
 ;
+/
+/
 dump
 (
 "
