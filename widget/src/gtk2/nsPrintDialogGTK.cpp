@@ -452,7 +452,7 @@ include
 <
 gtk
 /
-gtkunixprint
+gtkprintunixdialog
 .
 h
 >
