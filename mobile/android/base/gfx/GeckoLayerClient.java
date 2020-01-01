@@ -839,8 +839,11 @@ false
 ;
 mPanZoomController
 =
-new
 PanZoomController
+.
+Factory
+.
+create
 (
 this
 eventDispatcher

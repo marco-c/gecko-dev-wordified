@@ -591,7 +591,7 @@ mScaleGestureDetector
 ;
 private
 final
-PanZoomController
+JavaPanZoomController
 mPanZoomController
 ;
 /
@@ -1396,6 +1396,9 @@ MotionEvent
 ;
 mPanZoomController
 =
+(
+JavaPanZoomController
+)
 layerClient
 .
 getPanZoomController
