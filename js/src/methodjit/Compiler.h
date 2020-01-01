@@ -1306,6 +1306,17 @@ callingNew
 )
 ;
 void
+jsop_gnameinc
+(
+JSOp
+op
+VoidStubAtom
+stub
+uint32
+index
+)
+;
+void
 jsop_nameinc
 (
 JSOp
