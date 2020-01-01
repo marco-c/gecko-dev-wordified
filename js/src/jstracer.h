@@ -8211,6 +8211,9 @@ LIns
 *
 &
 addr_ins
+VMSideExit
+*
+exit
 )
 ;
 JS_REQUIRES_STACK
