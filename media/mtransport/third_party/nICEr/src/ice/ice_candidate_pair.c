@@ -2346,9 +2346,6 @@ pctx
 -
 >
 ctx
-"
-prflx
-"
 pair
 -
 >
