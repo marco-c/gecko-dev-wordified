@@ -27030,6 +27030,13 @@ if
 mIsDestroying
 )
 {
+mPresContext
+-
+>
+FlushPendingMediaFeatureValuesChanged
+(
+)
+;
 mFrameConstructor
 -
 >
