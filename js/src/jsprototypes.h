@@ -129,13 +129,6 @@ jsprototypes_h
 #
 define
 jsprototypes_h
-#
-include
-"
-jsversion
-.
-h
-"
 /
 *
 *

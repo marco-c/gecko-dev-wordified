@@ -155,8 +155,6 @@ include
 vm
 /
 ScopeObject
--
-inl
 .
 h
 "

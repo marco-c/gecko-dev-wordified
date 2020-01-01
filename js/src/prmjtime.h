@@ -117,14 +117,14 @@ prmjtime_h
 #
 include
 <
-stdint
+stddef
 .
 h
 >
 #
 include
 <
-time
+stdint
 .
 h
 >

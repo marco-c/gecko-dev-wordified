@@ -117,13 +117,6 @@ jit_BytecodeAnalysis_h
 #
 include
 "
-jscntxt
-.
-h
-"
-#
-include
-"
 jit
 /
 IonAllocPolicy

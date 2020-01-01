@@ -124,13 +124,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jsdbgapi
 .
 h
@@ -138,7 +131,7 @@ h
 #
 include
 "
-jsfriendapi
+jsapi
 .
 h
 "
@@ -163,6 +156,9 @@ h
 namespace
 js
 {
+struct
+WeakMapTracer
+;
 struct
 WatchKey
 {

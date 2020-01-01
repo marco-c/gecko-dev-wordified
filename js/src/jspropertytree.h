@@ -124,9 +124,7 @@ h
 #
 include
 "
-js
-/
-HashTable
+jspubtd
 .
 h
 "
@@ -135,7 +133,7 @@ include
 "
 js
 /
-RootingAPI
+HashTable
 .
 h
 "

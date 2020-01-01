@@ -140,6 +140,15 @@ include
 "
 vm
 /
+ArgumentsObject
+.
+h
+"
+#
+include
+"
+vm
+/
 Shape
 .
 h

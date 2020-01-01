@@ -163,15 +163,6 @@ shared
 .
 h
 "
-#
-include
-"
-vm
-/
-ForkJoin
-.
-h
-"
 class
 JSFunction
 ;
@@ -181,6 +172,9 @@ JSScript
 namespace
 js
 {
+class
+LockedJSContext
+;
 class
 TypedArrayObject
 ;

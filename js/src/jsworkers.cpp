@@ -116,6 +116,9 @@ jsworkers
 h
 "
 #
+ifdef
+JS_WORKER_THREADS
+#
 include
 "
 mozilla
@@ -141,9 +144,6 @@ BytecodeCompiler
 h
 "
 #
-ifdef
-JS_WORKER_THREADS
-#
 include
 "
 jit
@@ -162,8 +162,6 @@ IonBuilder
 h
 "
 #
-endif
-#
 include
 "
 jscntxtinlines
@@ -177,17 +175,6 @@ jscompartmentinlines
 .
 h
 "
-#
-include
-"
-vm
-/
-ObjectImpl
--
-inl
-.
-h
-"
 using
 namespace
 js
@@ -198,9 +185,6 @@ mozilla
 :
 DebugOnly
 ;
-#
-ifdef
-JS_WORKER_THREADS
 bool
 js
 :
@@ -3695,6 +3679,10 @@ else
 JS_WORKER_THREADS
 *
 /
+using
+namespace
+js
+;
 bool
 js
 :

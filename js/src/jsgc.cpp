@@ -164,6 +164,13 @@ Util
 .
 h
 "
+#
+include
+"
+jsscriptinlines
+.
+h
+"
 using
 mozilla
 :
@@ -518,13 +525,6 @@ h
 include
 "
 jsobj
-.
-h
-"
-#
-include
-"
-jsproxy
 .
 h
 "

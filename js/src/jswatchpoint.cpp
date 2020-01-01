@@ -132,6 +132,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 gc
 /
 Marking

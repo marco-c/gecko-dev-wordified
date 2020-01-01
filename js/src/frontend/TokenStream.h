@@ -170,13 +170,6 @@ h
 #
 include
 "
-jsopcode
-.
-h
-"
-#
-include
-"
 jspubtd
 .
 h

@@ -126,6 +126,13 @@ h
 #
 include
 "
+jscompartment
+.
+h
+"
+#
+include
+"
 gc
 /
 Marking

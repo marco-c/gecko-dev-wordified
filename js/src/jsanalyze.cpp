@@ -163,13 +163,6 @@ jsinferinlines
 .
 h
 "
-#
-include
-"
-jsopcodeinlines
-.
-h
-"
 using
 namespace
 js

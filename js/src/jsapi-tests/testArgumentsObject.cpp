@@ -127,6 +127,17 @@ include
 "
 vm
 /
+ArgumentsObject
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Stack
 -
 inl

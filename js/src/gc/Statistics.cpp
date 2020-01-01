@@ -129,6 +129,13 @@ h
 #
 include
 <
+ctype
+.
+h
+>
+#
+include
+<
 stdarg
 .
 h

@@ -277,13 +277,6 @@ h
 >
 #
 include
-<
-stdio
-.
-h
->
-#
-include
 "
 jstypes
 .

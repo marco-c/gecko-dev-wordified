@@ -137,15 +137,6 @@ jsscript
 .
 h
 "
-#
-include
-"
-gc
-/
-Barrier
-.
-h
-"
 namespace
 js
 {

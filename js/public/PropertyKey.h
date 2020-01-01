@@ -127,15 +127,6 @@ js_PropertyKey_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 js
 /
 Value

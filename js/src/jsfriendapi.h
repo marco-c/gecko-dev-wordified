@@ -115,6 +115,9 @@ jsfriendapi_h
 define
 jsfriendapi_h
 #
+ifdef
+JS_HAS_CTYPES
+#
 include
 "
 mozilla
@@ -123,6 +126,8 @@ MemoryReporting
 .
 h
 "
+#
+endif
 #
 include
 "

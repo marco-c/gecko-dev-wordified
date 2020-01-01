@@ -153,12 +153,17 @@ jsobj
 h
 "
 #
+ifndef
+JS_MORE_DETERMINISTIC
+#
 include
 "
 jsprf
 .
 h
 "
+#
+endif
 #
 include
 "

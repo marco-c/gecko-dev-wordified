@@ -171,13 +171,6 @@ h
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 jsgc
 .
 h
@@ -186,6 +179,13 @@ h
 include
 "
 jsobj
+.
+h
+"
+#
+include
+"
+jsprf
 .
 h
 "

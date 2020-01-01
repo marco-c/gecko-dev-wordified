@@ -121,13 +121,6 @@ jscompartment
 .
 h
 "
-#
-include
-"
-jscntxtinlines
-.
-h
-"
 inline
 void
 JSCompartment

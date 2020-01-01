@@ -334,7 +334,7 @@ include
 "
 vm
 /
-Interpreter
+ArgumentsObject
 .
 h
 "
@@ -343,7 +343,7 @@ include
 "
 vm
 /
-RegExpStatics
+Interpreter
 .
 h
 "

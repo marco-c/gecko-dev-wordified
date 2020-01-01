@@ -457,15 +457,6 @@ h
 #
 include
 "
-vm
-/
-ThreadPool
-.
-h
-"
-#
-include
-"
 jscompartmentinlines
 .
 h
@@ -489,7 +480,7 @@ include
 "
 vm
 /
-Stack
+Shape
 -
 inl
 .

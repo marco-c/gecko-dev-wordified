@@ -176,6 +176,13 @@ h
 #
 include
 "
+jsprf
+.
+h
+"
+#
+include
+"
 jsscript
 .
 h

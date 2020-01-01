@@ -198,6 +198,13 @@ h
 #
 include
 "
+jscntxtinlines
+.
+h
+"
+#
+include
+"
 jscompartmentinlines
 .
 h

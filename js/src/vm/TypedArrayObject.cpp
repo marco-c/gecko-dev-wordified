@@ -187,13 +187,6 @@ h
 #
 include
 "
-jsgc
-.
-h
-"
-#
-include
-"
 jsnum
 .
 h

@@ -117,13 +117,6 @@ jit_x64_MacroAssembler_x64_h
 #
 include
 "
-jsnum
-.
-h
-"
-#
-include
-"
 jit
 /
 IonFrames

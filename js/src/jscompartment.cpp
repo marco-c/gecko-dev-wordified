@@ -242,7 +242,14 @@ h
 #
 include
 "
-jsobjinlines
+jsinferinlines
+.
+h
+"
+#
+include
+"
+jsscriptinlines
 .
 h
 "
