@@ -3166,6 +3166,15 @@ openFrame
 >
 <
 menuseparator
+id
+=
+"
+open
+-
+frame
+-
+sep
+"
 /
 >
 <
