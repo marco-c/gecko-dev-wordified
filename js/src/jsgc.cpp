@@ -28406,6 +28406,10 @@ callback
 (
 rt
 JSGC_BEGIN
+rt
+-
+>
+gcCallbackData
 )
 ;
 }
@@ -28466,6 +28470,10 @@ callback
 (
 rt
 JSGC_END
+rt
+-
+>
+gcCallbackData
 )
 ;
 }

@@ -12420,15 +12420,6 @@ ErrorResult
 aRv
 )
 ;
-bool
-RegisterForDeferredFinalization
-(
-DeferredFinalizeStartFunction
-start
-DeferredFinalizeFunction
-run
-)
-;
 /
 *
 *

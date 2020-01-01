@@ -15215,6 +15215,9 @@ JSRuntime
 rt
 JSGCCallback
 cb
+void
+*
+data
 )
 {
 AssertHeapIsIdle
@@ -15228,6 +15231,13 @@ rt
 gcCallback
 =
 cb
+;
+rt
+-
+>
+gcCallbackData
+=
+data
 ;
 }
 JS_PUBLIC_API
