@@ -1981,9 +1981,9 @@ mMarginData
 >
 mBorderRadius
 ;
-NS_FOR_CSS_HALF_CORNERS
+NS_FOR_CSS_FULL_CORNERS
 (
-hc
+c
 )
 {
 nsCSSValue
@@ -1992,9 +1992,9 @@ dimen
 =
 corners
 .
-GetHalfCorner
+GetCorner
 (
-hc
+c
 )
 ;
 if

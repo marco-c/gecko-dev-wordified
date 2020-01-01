@@ -814,7 +814,7 @@ corner
 this
 -
 >
-GetFullCorner
+GetCorner
 (
 corner
 )
