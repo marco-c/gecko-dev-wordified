@@ -3793,6 +3793,10 @@ acceptActivation
 (
 PR_FALSE
 )
+ignoreScrollFrame
+(
+PR_FALSE
+)
 reason
 (
 aReason
@@ -3808,10 +3812,6 @@ eChild
 clickCount
 (
 0
-)
-ignoreScrollFrame
-(
-PR_FALSE
 )
 {
 if
@@ -3859,6 +3859,10 @@ acceptActivation
 (
 PR_FALSE
 )
+ignoreScrollFrame
+(
+PR_FALSE
+)
 reason
 (
 aReason
@@ -3874,10 +3878,6 @@ eChild
 clickCount
 (
 0
-)
-ignoreScrollFrame
-(
-PR_FALSE
 )
 {
 if
