@@ -15022,6 +15022,9 @@ Record_EnterFrame
 }
 #
 endif
+#
+ifdef
+JS_METHODJIT
 /
 *
 *
@@ -15130,6 +15133,8 @@ inline_return
 ;
 }
 }
+#
+endif
 /
 *
 Load
