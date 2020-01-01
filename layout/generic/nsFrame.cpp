@@ -9145,7 +9145,7 @@ children
 MarkAbsoluteFramesForDisplayList
 (
 aBuilder
-aDirtyRect
+dirtyRect
 )
 ;
 nsDisplayListCollection
