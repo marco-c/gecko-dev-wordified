@@ -1617,9 +1617,8 @@ popup
 if
 (
 mPopupControlState
-!
-=
-openAllowed
+>
+openControlled
 )
 {
 nsCOMPtr
