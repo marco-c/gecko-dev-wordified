@@ -3429,17 +3429,6 @@ protected
 :
 inline
 bool
-hasContiguousSlots
-(
-size_t
-start
-size_t
-count
-)
-const
-;
-inline
-bool
 updateSlotsForSpan
 (
 JSContext
