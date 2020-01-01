@@ -1655,10 +1655,8 @@ bp
 .
 right
 ;
-nsRefPtr
-<
 gfxContext
->
+*
 ctx
 =
 aRenderingContext

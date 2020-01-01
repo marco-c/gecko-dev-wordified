@@ -16334,10 +16334,8 @@ dc
 )
 )
 ;
-nsRefPtr
-<
 gfxContext
->
+*
 ctx
 =
 aRenderingContext

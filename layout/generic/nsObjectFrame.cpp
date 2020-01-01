@@ -8699,10 +8699,8 @@ window
 moved
 *
 /
-nsRefPtr
-<
 gfxContext
->
+*
 ctx
 =
 aRenderingContext

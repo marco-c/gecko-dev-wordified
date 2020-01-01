@@ -19178,10 +19178,8 @@ borderStyles
 /
 start
 drawing
-nsRefPtr
-<
 gfxContext
->
+*
 ctx
 =
 aRenderingContext
@@ -20366,10 +20364,8 @@ twipsPerPixel
 /
 start
 drawing
-nsRefPtr
-<
 gfxContext
->
+*
 ctx
 =
 aRenderingContext
@@ -25409,10 +25405,8 @@ aBorderArea
 y
 ;
 }
-nsRefPtr
-<
 gfxContext
->
+*
 ctx
 =
 aRenderingContext
@@ -27625,10 +27619,8 @@ PRBool
 aCanPaintNonWhite
 )
 {
-nsRefPtr
-<
 gfxContext
->
+*
 ctx
 =
 aRenderingContext
