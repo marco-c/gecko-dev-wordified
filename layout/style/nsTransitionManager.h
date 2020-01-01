@@ -126,6 +126,9 @@ nsCSSPropertySet
 struct
 nsTransition
 ;
+struct
+ElementDependentRuleProcessorData
+;
 /
 *
 *
@@ -1186,7 +1189,7 @@ aCreateIfNeeded
 void
 WalkTransitionRule
 (
-RuleProcessorData
+ElementDependentRuleProcessorData
 *
 aData
 nsCSSPseudoElements

@@ -163,6 +163,9 @@ nsThreadUtils
 h
 "
 class
+ElementDependentRuleProcessorData
+;
+class
 nsIContent
 ;
 class
@@ -1123,7 +1126,7 @@ nsIStyleRuleProcessor
 :
 EnumFunc
 aFunc
-RuleProcessorData
+ElementDependentRuleProcessorData
 *
 aData
 bool
@@ -1139,7 +1142,7 @@ nsIStyleRuleProcessor
 :
 EnumFunc
 aFunc
-RuleProcessorData
+ElementDependentRuleProcessorData
 *
 aData
 )

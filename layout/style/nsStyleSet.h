@@ -238,7 +238,7 @@ class
 nsRuleWalker
 ;
 struct
-RuleProcessorData
+ElementDependentRuleProcessorData
 ;
 struct
 TreeMatchContext
@@ -2217,7 +2217,7 @@ nsIStyleRuleProcessor
 :
 EnumFunc
 aCollectorFunc
-void
+RuleProcessorData
 *
 aData
 nsIContent
@@ -2267,7 +2267,7 @@ nsIStyleRuleProcessor
 :
 EnumFunc
 aFunc
-RuleProcessorData
+ElementDependentRuleProcessorData
 *
 aData
 bool
