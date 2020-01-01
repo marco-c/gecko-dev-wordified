@@ -27784,7 +27784,7 @@ strncmp
 (
 piece
 keyword
-sizeof
+strlen
 (
 keyword
 )
