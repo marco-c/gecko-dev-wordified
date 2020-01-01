@@ -562,6 +562,8 @@ prototype
 _logName
 :
 "
+Sync
+.
 Record
 .
 Login

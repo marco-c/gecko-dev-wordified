@@ -631,6 +631,8 @@ prototype
 _logName
 :
 "
+Sync
+.
 Record
 .
 History

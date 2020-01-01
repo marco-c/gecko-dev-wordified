@@ -593,6 +593,8 @@ prototype
 _logName
 :
 "
+Sync
+.
 Record
 .
 Form
@@ -632,11 +634,13 @@ repository
 .
 getLogger
 (
-'
+"
+Sync
+.
 Engine
 .
 Forms
-'
+"
 )
 getAllEntries
 :

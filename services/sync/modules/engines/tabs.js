@@ -697,6 +697,8 @@ prototype
 _logName
 :
 "
+Sync
+.
 Record
 .
 Tabs

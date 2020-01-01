@@ -661,6 +661,8 @@ repository
 getLogger
 (
 "
+Sync
+.
 Engine
 .
 Bookmarks
@@ -682,6 +684,8 @@ repository
 getLogger
 (
 "
+Sync
+.
 Store
 .
 Bookmarks

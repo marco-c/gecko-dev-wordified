@@ -1141,6 +1141,8 @@ repository
 getLogger
 (
 "
+Sync
+.
 Notifications
 "
 )

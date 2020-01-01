@@ -626,6 +626,8 @@ prototype
 _logName
 :
 "
+Sync
+.
 Record
 .
 WBO
@@ -1123,7 +1125,9 @@ WBORecord
 _logName
 :
 "
-RecordMgr
+Sync
+.
+RecordManager
 "
 import
 :
@@ -1484,6 +1488,8 @@ prototype
 _logName
 :
 "
+Sync
+.
 Record
 .
 CryptoWrapper
@@ -2308,6 +2314,8 @@ repository
 getLogger
 (
 "
+Sync
+.
 CollectionKeys
 "
 )
@@ -4127,6 +4135,8 @@ repository
 getLogger
 (
 "
+Sync
+.
 BulkKeyBundle
 "
 )
@@ -4359,6 +4369,8 @@ repository
 getLogger
 (
 "
+Sync
+.
 SyncKeyBundle
 "
 )
@@ -4878,6 +4890,8 @@ prototype
 _logName
 :
 "
+Sync
+.
 Collection
 "
 _rebuildURL
