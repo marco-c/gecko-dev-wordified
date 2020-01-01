@@ -417,7 +417,6 @@ WINAPI
 orig_GetVersionExA
 )
 (
-__inout
 LPOSVERSIONINFO
 )
 ;
@@ -426,7 +425,6 @@ BOOL
 WINAPI
 patched_GetVersionExA
 (
-__inout
 LPOSVERSIONINFO
 lpVersionInfo
 )
@@ -515,7 +513,7 @@ szCSDVersion
 ;
 }
 int
-wmain
+main
 (
 )
 {
