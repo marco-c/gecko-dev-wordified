@@ -8738,6 +8738,12 @@ nsIDOMMutationEvent
 :
 REMOVAL
 ;
+mozAutoDocUpdateContentUnnest
+updateUnnest
+(
+doc
+)
+;
 mozAutoSubtreeModified
 subtree
 (

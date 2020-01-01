@@ -2508,6 +2508,12 @@ val
 )
 ;
 }
+mozAutoDocUpdateContentUnnest
+updateUnnest
+(
+document
+)
+;
 mozAutoSubtreeModified
 subtree
 (
