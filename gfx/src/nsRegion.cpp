@@ -8524,12 +8524,14 @@ currentRect
 ;
 while
 (
+(
 currentRect
 =
 rgnIter
 .
 Next
 (
+)
 )
 )
 {
