@@ -940,17 +940,6 @@ RGB_565
 )
 ;
 }
-public
-void
-finalize
-(
-)
-{
-freeBuffer
-(
-)
-;
-}
 synchronized
 void
 freeBuffer
