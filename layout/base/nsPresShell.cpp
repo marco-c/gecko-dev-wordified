@@ -46013,13 +46013,6 @@ InvalidateOutsideCaret
 (
 )
 ;
-mCaret
--
->
-UpdateCaretPosition
-(
-)
-;
 }
 mPresContext
 -
