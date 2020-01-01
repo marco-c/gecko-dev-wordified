@@ -107,18 +107,6 @@ browser
 .
 sessionstore
 .
-enabled
-'
-:
-'
-false
-'
-    
-'
-browser
-.
-sessionstore
-.
 resume_from_crash
 '
 :
@@ -566,7 +554,7 @@ getopt
 .
 GetoptError
 :
-	
+        
 usage
 (
 )
@@ -703,7 +691,7 @@ exists
 binary
 )
 :
-	
+        
 usage
 (
 )
