@@ -680,6 +680,13 @@ nsStyleSet
 .
 h
 "
+#
+include
+"
+nsPrintfCString
+.
+h
+"
 using
 namespace
 mozilla

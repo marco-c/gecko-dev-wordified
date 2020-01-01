@@ -940,6 +940,13 @@ h
 #
 include
 "
+nsPrintfCString
+.
+h
+"
+#
+include
+"
 gfxFont
 .
 h

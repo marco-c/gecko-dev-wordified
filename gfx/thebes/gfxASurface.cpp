@@ -654,6 +654,13 @@ nsServiceManagerUtils
 .
 h
 "
+#
+include
+"
+nsStringGlue
+.
+h
+"
 using
 mozilla
 :

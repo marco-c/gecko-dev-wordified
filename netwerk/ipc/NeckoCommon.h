@@ -470,6 +470,13 @@ prenv
 h
 "
 #
+include
+"
+nsPrintfCString
+.
+h
+"
+#
 if
 defined
 (

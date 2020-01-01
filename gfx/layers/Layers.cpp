@@ -503,6 +503,13 @@ h
 #
 include
 "
+nsPrintfCString
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Util
