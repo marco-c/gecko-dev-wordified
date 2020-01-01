@@ -6164,7 +6164,7 @@ and
 array
 length
 after
-RemoveElelmentAt
+RemoveElementAt
 (
 )
 dispatchedSuccessfully
