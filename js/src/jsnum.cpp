@@ -332,6 +332,13 @@ h
 #
 include
 "
+jsstrinlines
+.
+h
+"
+#
+include
+"
 vm
 /
 NumberObject

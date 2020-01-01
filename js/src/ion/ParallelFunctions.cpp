@@ -111,6 +111,8 @@ MPL
 #
 include
 "
+ion
+/
 ParallelFunctions
 .
 h
@@ -118,6 +120,8 @@ h
 #
 include
 "
+ion
+/
 IonSpewer
 .
 h
@@ -135,6 +139,13 @@ h
 include
 "
 jscompartmentinlines
+.
+h
+"
+#
+include
+"
+jsstrinlines
 .
 h
 "
