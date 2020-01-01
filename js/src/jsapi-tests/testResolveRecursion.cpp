@@ -395,7 +395,10 @@ JSHandleId
 id
 unsigned
 flags
-JSMutableHandleObject
+JS
+:
+:
+MutableHandleObject
 objp
 )
 {
@@ -816,7 +819,10 @@ JSHandleId
 id
 unsigned
 flags
-JSMutableHandleObject
+JS
+:
+:
+MutableHandleObject
 objp
 )
 {

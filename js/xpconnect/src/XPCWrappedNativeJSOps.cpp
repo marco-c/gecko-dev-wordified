@@ -6179,7 +6179,7 @@ JSHandleId
 id
 unsigned
 flags
-JSMutableHandleObject
+MutableHandleObject
 objp
 )
 {

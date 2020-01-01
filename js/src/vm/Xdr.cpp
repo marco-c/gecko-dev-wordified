@@ -588,7 +588,7 @@ mode
 :
 codeFunction
 (
-JSMutableHandleObject
+MutableHandleObject
 objp
 )
 {
