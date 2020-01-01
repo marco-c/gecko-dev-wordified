@@ -508,7 +508,7 @@ ImmWord
 target
 )
 {
-movq
+mov
 (
 target
 rax
@@ -1254,7 +1254,7 @@ valueReg
 )
 )
 ;
-movq
+mov
 (
 ImmShiftedTag
 (
@@ -1537,7 +1537,7 @@ JSVAL_TYPE_TO_SHIFTED_TAG
 type
 )
 ;
-movq
+mov
 (
 ImmShiftedTag
 (
@@ -2460,7 +2460,7 @@ lhs
 ScratchReg
 )
 ;
-movq
+mov
 (
 rhs
 ScratchReg
@@ -2543,7 +2543,7 @@ ImmWord
 rhs
 )
 {
-movq
+mov
 (
 rhs
 ScratchReg
@@ -3003,7 +3003,7 @@ dest
 ScratchReg
 )
 ;
-movq
+mov
 (
 imm
 ScratchReg
@@ -3116,7 +3116,7 @@ Label
 label
 )
 {
-movq
+mov
 (
 ImmWord
 (
@@ -3172,7 +3172,7 @@ ptr
 ScratchReg
 )
 ;
-movq
+mov
 (
 ImmWord
 (
@@ -3559,7 +3559,7 @@ Register
 dest
 )
 {
-movq
+mov
 (
 imm
 dest
@@ -3593,7 +3593,7 @@ Register
 dest
 )
 {
-movq
+mov
 (
 ImmWord
 (
@@ -3713,7 +3713,7 @@ Address
 address
 )
 {
-movq
+mov
 (
 imm
 ScratchReg
@@ -3808,7 +3808,7 @@ AbsoluteAddress
 address
 )
 {
-movq
+mov
 (
 ImmWord
 (
@@ -6293,7 +6293,7 @@ dest
 )
 )
 {
-movq
+mov
 (
 ImmWord
 (
