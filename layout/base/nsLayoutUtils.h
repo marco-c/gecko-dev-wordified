@@ -768,9 +768,6 @@ to
 figure
 out
 the
-name
-of
-the
 child
 list
 that
@@ -783,8 +780,10 @@ in
 *
 /
 static
-nsIAtom
-*
+nsIFrame
+:
+:
+ChildListID
 GetChildListNameFor
 (
 nsIFrame

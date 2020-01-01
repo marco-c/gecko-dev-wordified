@@ -958,9 +958,8 @@ baseFrame
 aFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 nsIFrame

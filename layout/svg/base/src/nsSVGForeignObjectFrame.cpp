@@ -1411,9 +1411,8 @@ nsIFrame
 *
 kid
 =
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 if
@@ -1993,9 +1992,8 @@ nsIFrame
 *
 kid
 =
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 if
@@ -3392,9 +3390,8 @@ nsIFrame
 *
 kid
 =
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 if
@@ -3583,9 +3580,8 @@ nsIFrame
 *
 kid
 =
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 /
@@ -3839,9 +3835,8 @@ nsIFrame
 *
 kid
 =
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 if

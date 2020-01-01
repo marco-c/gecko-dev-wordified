@@ -584,9 +584,8 @@ necessary
 NS_IMETHOD
 SetInitialChildList
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aChildList
@@ -595,9 +594,8 @@ aChildList
 NS_IMETHOD
 AppendFrames
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aFrameList
@@ -606,9 +604,8 @@ aFrameList
 NS_IMETHOD
 InsertFrames
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aPrevFrame

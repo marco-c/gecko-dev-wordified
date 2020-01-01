@@ -2420,9 +2420,8 @@ nsHTMLButtonControlFrame
 :
 AppendFrames
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aFrameList
@@ -2446,9 +2445,8 @@ nsHTMLButtonControlFrame
 :
 InsertFrames
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aPrevFrame
@@ -2475,9 +2473,8 @@ nsHTMLButtonControlFrame
 :
 RemoveFrame
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aOldFrame

@@ -3313,9 +3313,8 @@ colFrame
 colFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 if

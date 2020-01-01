@@ -1825,9 +1825,8 @@ nsIFrame
 *
 firstChild
 =
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 if
@@ -1997,9 +1996,8 @@ nsIFrame
 *
 first
 =
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 nsIScrollableFrame
@@ -8095,9 +8093,8 @@ nsTextControlFrame
 :
 SetInitialChildList
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aChildList
@@ -8111,7 +8108,7 @@ nsBoxFrame
 :
 SetInitialChildList
 (
-aListName
+aListID
 aChildList
 )
 ;
@@ -8119,9 +8116,8 @@ nsIFrame
 *
 first
 =
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 /

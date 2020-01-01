@@ -628,9 +628,8 @@ aOldStyleContext
 NS_IMETHOD
 AppendFrames
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aFrameList
@@ -639,9 +638,8 @@ aFrameList
 NS_IMETHOD
 InsertFrames
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aPrevFrame
@@ -653,9 +651,8 @@ aFrameList
 NS_IMETHOD
 RemoveFrame
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aOldFrame

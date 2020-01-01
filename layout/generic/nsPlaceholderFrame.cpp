@@ -232,12 +232,10 @@ s
 Mats
 Palmgren
 <
-mats
+matspal
+gmail
 .
-palmgren
-bredband
-.
-net
+com
 >
 *
 *
@@ -1157,9 +1155,8 @@ oof
 )
 )
 {
-nsIAtom
-*
-listName
+ChildListID
+listId
 =
 nsLayoutUtils
 :
@@ -1179,7 +1176,7 @@ FrameManager
 >
 RemoveFrame
 (
-listName
+listId
 oof
 )
 ;

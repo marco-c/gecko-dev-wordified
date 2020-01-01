@@ -676,9 +676,8 @@ frame
 frame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 )
 {

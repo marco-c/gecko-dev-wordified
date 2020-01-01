@@ -1736,9 +1736,8 @@ nsTableCellFrame
 :
 AppendFrames
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aFrameList
@@ -1763,9 +1762,8 @@ nsTableCellFrame
 :
 InsertFrames
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aPrevFrame
@@ -1793,9 +1791,8 @@ nsTableCellFrame
 :
 RemoveFrame
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aOldFrame
@@ -4065,9 +4062,8 @@ innerFrame
 kidFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while

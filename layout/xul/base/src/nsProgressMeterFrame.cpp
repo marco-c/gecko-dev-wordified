@@ -833,9 +833,8 @@ nsIFrame
 *
 barChild
 =
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 if

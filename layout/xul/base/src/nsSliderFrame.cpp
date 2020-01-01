@@ -884,9 +884,8 @@ nsSliderFrame
 :
 RemoveFrame
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aOldFrame
@@ -900,7 +899,7 @@ nsBoxFrame
 :
 RemoveFrame
 (
-aListName
+aListID
 aOldFrame
 )
 ;
@@ -926,9 +925,8 @@ nsSliderFrame
 :
 InsertFrames
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aPrevFrame
@@ -954,7 +952,7 @@ nsBoxFrame
 :
 InsertFrames
 (
-aListName
+aListID
 aPrevFrame
 aFrameList
 )
@@ -977,9 +975,8 @@ nsSliderFrame
 :
 AppendFrames
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aFrameList
@@ -1022,7 +1019,7 @@ nsBoxFrame
 :
 AppendFrames
 (
-aListName
+aListID
 aFrameList
 )
 ;
@@ -5103,9 +5100,8 @@ nsSliderFrame
 :
 SetInitialChildList
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aChildList
@@ -5119,7 +5115,7 @@ nsBoxFrame
 :
 SetInitialChildList
 (
-aListName
+aListID
 aChildList
 )
 ;

@@ -798,9 +798,8 @@ nsDeckFrame
 :
 SetInitialChildList
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aChildList
@@ -817,7 +816,7 @@ nsBoxFrame
 :
 SetInitialChildList
 (
-aListName
+aListID
 aChildList
 )
 ;
@@ -828,9 +827,8 @@ nsDeckFrame
 :
 AppendFrames
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aFrameList
@@ -847,7 +845,7 @@ nsBoxFrame
 :
 AppendFrames
 (
-aListName
+aListID
 aFrameList
 )
 ;
@@ -858,9 +856,8 @@ nsDeckFrame
 :
 InsertFrames
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aPrevFrame
@@ -880,7 +877,7 @@ nsBoxFrame
 :
 InsertFrames
 (
-aListName
+aListID
 aPrevFrame
 aFrameList
 )

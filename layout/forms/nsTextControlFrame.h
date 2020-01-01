@@ -596,9 +596,8 @@ nsnull
 return
 do_QueryFrame
 (
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 )
 ;
@@ -841,9 +840,8 @@ state
 NS_IMETHOD
 SetInitialChildList
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aChildList

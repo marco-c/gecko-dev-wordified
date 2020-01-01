@@ -5720,9 +5720,8 @@ kid
 aFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while
@@ -7066,9 +7065,8 @@ current
 aFrame
 -
 >
-GetChildList
+PrincipalChildList
 (
-nsnull
 )
 .
 LastChild

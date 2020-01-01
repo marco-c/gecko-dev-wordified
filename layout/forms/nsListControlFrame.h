@@ -232,12 +232,10 @@ s
 Mats
 Palmgren
 <
-mats
+matspal
+gmail
 .
-palmgren
-bredband
-.
-net
+com
 >
 *
 *
@@ -608,9 +606,8 @@ aEventStatus
 NS_IMETHOD
 SetInitialChildList
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aChildList

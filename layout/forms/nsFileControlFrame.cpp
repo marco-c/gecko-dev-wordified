@@ -232,12 +232,10 @@ s
 Mats
 Palmgren
 <
-mats
+matspal
+gmail
 .
-palmgren
-bredband
-.
-net
+com
 >
 *
 Geoff
@@ -3679,9 +3677,8 @@ childFrame
 aStart
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while

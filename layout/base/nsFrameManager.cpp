@@ -3116,9 +3116,8 @@ InsertFrames
 nsIFrame
 *
 aParentFrame
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aPrevFrame
@@ -3180,7 +3179,7 @@ aParentFrame
 >
 InsertFrames
 (
-aListName
+aListID
 aPrevFrame
 aFrameList
 )
@@ -3192,9 +3191,8 @@ nsFrameManager
 :
 RemoveFrame
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aOldFrame
@@ -3388,7 +3386,7 @@ GetParent
 >
 RemoveFrame
 (
-aListName
+aListID
 aOldFrame
 )
 ;

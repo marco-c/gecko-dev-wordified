@@ -2567,9 +2567,8 @@ GetParent
 )
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while
@@ -2731,9 +2730,8 @@ GetParent
 )
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-NULL
 )
 ;
 for

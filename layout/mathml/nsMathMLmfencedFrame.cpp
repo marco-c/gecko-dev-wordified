@@ -649,9 +649,8 @@ nsMathMLmfencedFrame
 :
 SetInitialChildList
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aChildList
@@ -675,7 +674,7 @@ nsMathMLContainerFrame
 :
 SetInitialChildList
 (
-aListName
+aListID
 aChildList
 )
 ;
@@ -1827,9 +1826,8 @@ nsIFrame
 *
 firstChild
 =
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 nsIFrame
@@ -3758,9 +3756,8 @@ nsIFrame
 *
 childFrame
 =
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while

@@ -10661,9 +10661,8 @@ sibling
 parentFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while

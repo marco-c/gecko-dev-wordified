@@ -2401,9 +2401,8 @@ firstFrame
 frame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 if
@@ -2686,9 +2685,8 @@ nextFrame
 aParentFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 nsIFrame

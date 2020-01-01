@@ -9931,9 +9931,8 @@ childFrame
 rowFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while
@@ -11108,9 +11107,8 @@ cFrame
 rFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 PRInt32
@@ -14225,9 +14223,8 @@ cFrame
 rFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while

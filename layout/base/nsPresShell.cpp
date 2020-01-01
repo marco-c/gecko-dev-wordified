@@ -19379,9 +19379,8 @@ theFrame
 rootFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 if
@@ -39992,10 +39991,10 @@ captureFrame
 >
 GetChildList
 (
-nsGkAtoms
+nsIFrame
 :
 :
-selectPopupList
+kSelectPopupList
 )
 .
 FirstChild
@@ -52002,9 +52001,8 @@ kid
 aRoot
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while
@@ -57777,9 +57775,8 @@ child
 aParentFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while

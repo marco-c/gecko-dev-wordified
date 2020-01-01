@@ -2505,9 +2505,8 @@ rv
 {
 DidReflowChildren
 (
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 )
 ;

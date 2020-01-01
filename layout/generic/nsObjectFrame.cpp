@@ -15650,9 +15650,8 @@ child
 aRoot
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while

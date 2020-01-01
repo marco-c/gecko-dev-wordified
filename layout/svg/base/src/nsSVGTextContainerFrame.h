@@ -513,9 +513,8 @@ nsIFrame
 NS_IMETHOD
 InsertFrames
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aPrevFrame
@@ -527,9 +526,8 @@ aFrameList
 NS_IMETHOD
 RemoveFrame
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aOldFrame
