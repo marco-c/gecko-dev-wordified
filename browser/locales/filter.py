@@ -61,6 +61,12 @@ branding
 /
 firefox
 "
+                 
+"
+services
+/
+sync
+"
 )
 :
     
