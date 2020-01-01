@@ -4634,6 +4634,8 @@ JS_ASSERT
 operands
 <
 =
+unsigned
+(
 fp
 -
 >
@@ -4649,6 +4651,7 @@ script
 -
 >
 nfixed
+)
 )
 ;
 slots
