@@ -331,8 +331,14 @@ LinkedListElement
 ListenerData
 >
 {
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 mListener
 ;
 EventListenerManager
@@ -870,7 +876,7 @@ getNext
 )
 )
 {
-JS_CallObjectTracer
+JS_CallHeapObjectTracer
 (
 aTrc
 &

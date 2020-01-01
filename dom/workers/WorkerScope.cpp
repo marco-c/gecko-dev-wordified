@@ -467,7 +467,16 @@ Must
 be
 traced
 !
-jsval
+JS
+:
+:
+Heap
+<
+JS
+:
+:
+Value
+>
 mSlots
 [
 SLOT_COUNT
@@ -664,7 +673,7 @@ i
 +
 )
 {
-JS_CallValueTracer
+JS_CallHeapValueTracer
 (
 aTrc
 &
