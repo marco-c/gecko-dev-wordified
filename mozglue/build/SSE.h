@@ -100,11 +100,13 @@ mozilla_SSE_h_
 for
 definition
 of
-NS_COM_GLUE
+MFBT_DATA
 #
 include
 "
-nscore
+mozilla
+/
+Types
 .
 h
 "
@@ -1179,7 +1181,7 @@ MOZILLA_PRESUME_MMX
 )
 extern
 bool
-NS_COM_GLUE
+MFBT_DATA
 mmx_enabled
 ;
 #
@@ -1193,7 +1195,7 @@ MOZILLA_PRESUME_SSE
 )
 extern
 bool
-NS_COM_GLUE
+MFBT_DATA
 sse_enabled
 ;
 #
@@ -1207,7 +1209,7 @@ MOZILLA_PRESUME_SSE2
 )
 extern
 bool
-NS_COM_GLUE
+MFBT_DATA
 sse2_enabled
 ;
 #
@@ -1221,7 +1223,7 @@ MOZILLA_PRESUME_SSE3
 )
 extern
 bool
-NS_COM_GLUE
+MFBT_DATA
 sse3_enabled
 ;
 #
@@ -1235,7 +1237,7 @@ MOZILLA_PRESUME_SSSE3
 )
 extern
 bool
-NS_COM_GLUE
+MFBT_DATA
 ssse3_enabled
 ;
 #
@@ -1249,7 +1251,7 @@ MOZILLA_PRESUME_SSE4A
 )
 extern
 bool
-NS_COM_GLUE
+MFBT_DATA
 sse4a_enabled
 ;
 #
@@ -1263,7 +1265,7 @@ MOZILLA_PRESUME_SSE4_1
 )
 extern
 bool
-NS_COM_GLUE
+MFBT_DATA
 sse4_1_enabled
 ;
 #
@@ -1277,7 +1279,7 @@ MOZILLA_PRESUME_SSE4_2
 )
 extern
 bool
-NS_COM_GLUE
+MFBT_DATA
 sse4_2_enabled
 ;
 #
