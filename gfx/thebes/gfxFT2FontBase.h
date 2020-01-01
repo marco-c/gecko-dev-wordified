@@ -608,7 +608,6 @@ PRBool
 ProvidesGlyphWidths
 (
 )
-const
 {
 return
 PR_TRUE
