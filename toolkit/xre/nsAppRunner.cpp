@@ -3744,6 +3744,11 @@ SYNC_ENUMS
 TESTHARNESS
 TestHarness
 )
+SYNC_ENUMS
+(
+IPDLUNITTEST
+IPDLUnitTest
+)
 /
 /
 .
@@ -3759,7 +3764,7 @@ them
 :
 PR_STATIC_ASSERT
 (
-GeckoProcessType_TestHarness
+GeckoProcessType_IPDLUnitTest
 +
 1
 =
