@@ -3430,6 +3430,16 @@ kid
 anonKid
 -
 >
+AddStateBits
+(
+mState
+&
+NS_FRAME_IS_DIRTY
+)
+;
+anonKid
+-
+>
 ReflowSVG
 (
 )
