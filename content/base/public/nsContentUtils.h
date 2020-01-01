@@ -983,12 +983,6 @@ IsCallerChrome
 ;
 static
 bool
-IsCallerTrustedForWrite
-(
-)
-;
-static
-bool
 IsImageSrcSetDisabled
 (
 )
