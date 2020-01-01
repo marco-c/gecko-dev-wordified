@@ -395,7 +395,7 @@ bufferSource
 k
 ]
 .
-noteOn
+start
 (
 time
 [
