@@ -7095,6 +7095,7 @@ _tag
 &
 &
 \
+(
 aIID
 .
 Equals
@@ -7102,6 +7103,19 @@ Equals
 NS_GET_IID
 (
 nsIClassInfo
+)
+)
+|
+|
+\
+aIID
+.
+Equals
+(
+NS_GET_IID
+(
+nsXPCClassInfo
+)
 )
 )
 )
