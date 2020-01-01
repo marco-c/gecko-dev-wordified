@@ -3099,6 +3099,16 @@ cx
 ;
 #
 endif
+#
+ifdef
+JS_TRACER
+js_DestroyJIT
+(
+cx
+)
+;
+#
+endif
 /
 *
 Finally
