@@ -6504,8 +6504,6 @@ states
 *
 STATE_FOCUSED
 *
-STATE_READONLY
-*
 STATE_FOCUSABLE
 *
 STATE_HASPOPUP
@@ -6661,11 +6659,6 @@ nsIAccessibleStates
 :
 :
 STATE_HASPOPUP
-|
-nsIAccessibleStates
-:
-:
-STATE_READONLY
 |
 nsIAccessibleStates
 :
