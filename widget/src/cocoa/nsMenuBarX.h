@@ -1034,6 +1034,17 @@ PRUint32
 aIndex
 )
 ;
+nsMenuX
+*
+GetXULHelpMenu
+(
+)
+;
+void
+SetSystemHelpMenu
+(
+)
+;
 nsresult
 Paint
 (
