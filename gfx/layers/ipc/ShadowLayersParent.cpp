@@ -1592,11 +1592,11 @@ visibleRegion
 layer
 -
 >
-SetContentFlags
+SetIsOpaqueContent
 (
 common
 .
-contentFlags
+isOpaqueContent
 (
 )
 )
