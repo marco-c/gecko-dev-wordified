@@ -477,9 +477,7 @@ endif
 /
 Copied
 from
-modules
-/
-libpr0n
+image
 /
 decoders
 /

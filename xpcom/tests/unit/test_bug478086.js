@@ -83,9 +83,7 @@ central
 /
 source
 /
-modules
-/
-libpr0n
+image
 /
 test
 /
