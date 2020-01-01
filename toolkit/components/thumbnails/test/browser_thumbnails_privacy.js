@@ -51,7 +51,7 @@ com
 /
 browser
 /
-browser
+toolkit
 /
 components
 /
