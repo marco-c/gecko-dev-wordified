@@ -5132,6 +5132,11 @@ RemoveAllFromMemory
 ;
 if
 (
+mDBConn
+)
+{
+if
+(
 !
 nsCRT
 :
@@ -5152,9 +5157,6 @@ get
 (
 )
 )
-&
-&
-mDBConn
 )
 {
 /
@@ -5217,6 +5219,7 @@ mDBConn
 =
 nsnull
 ;
+}
 }
 else
 if
