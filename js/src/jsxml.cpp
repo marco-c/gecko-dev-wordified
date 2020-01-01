@@ -23553,13 +23553,11 @@ index
 {
 if
 (
-xml
--
->
-xml_class
 !
-=
-JSXML_CLASS_LIST
+JSXML_HAS_KIDS
+(
+xml
+)
 )
 {
 *
