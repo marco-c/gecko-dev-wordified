@@ -709,12 +709,6 @@ defined
 (
 XP_WIN
 )
-|
-|
-defined
-(
-XP_MACOSX
-)
 mUsePluginLayersPref
 (
 PR_TRUE
@@ -794,6 +788,8 @@ prefs
 GetBoolPref
 (
 "
+mozilla
+.
 plugins
 .
 use_layers
