@@ -2254,6 +2254,17 @@ mDBAddNewPage
 used
 by
 InternalAddNewPage
+nsCOMPtr
+<
+mozIStorageStatement
+>
+mDBURIHasTag
+;
+/
+/
+used
+by
+UriHasTag
 /
 /
 these
