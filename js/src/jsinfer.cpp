@@ -22698,6 +22698,17 @@ return
 access
 ;
 }
+if
+(
+!
+script
+-
+>
+isOuterFunction
+)
+return
+access
+;
 access
 .
 script
