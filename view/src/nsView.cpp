@@ -1300,6 +1300,9 @@ GetViewFocusedBeforeSuppression
 )
 )
 {
+#
+ifdef
+DEBUG_FOCUS_SUPPRESSION
 if
 (
 GetViewManager
@@ -1337,6 +1340,8 @@ n
 )
 ;
 }
+#
+endif
 nsViewManager
 :
 :
@@ -1359,6 +1364,9 @@ GetCurrentlyFocusedView
 )
 )
 {
+#
+ifdef
+DEBUG_FOCUS_SUPPRESSION
 if
 (
 GetViewManager
@@ -1395,6 +1403,8 @@ n
 )
 ;
 }
+#
+endif
 nsViewManager
 :
 :
