@@ -517,7 +517,8 @@ void
 setMac
 (
 const
-uint8
+unsigned
+char
 mac_as_int
 [
 6
