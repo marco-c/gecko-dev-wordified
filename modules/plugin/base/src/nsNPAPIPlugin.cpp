@@ -7898,7 +7898,7 @@ npobj
 {
 #
 ifdef
-DEBUG
+NS_BUILD_REFCNT_LOGGING
 int32_t
 refCnt
 =
