@@ -11308,11 +11308,6 @@ aMinChange
 )
 ;
 }
-nsChangeHint
-topLevelChange
-=
-aMinChange
-;
 nsIFrame
 *
 frame
@@ -11510,7 +11505,7 @@ GetPresContext
 frame
 nullptr
 aChangeList
-topLevelChange
+aMinChange
 nsChangeHint
 (
 0
@@ -11526,15 +11521,9 @@ visibleKidsOfHiddenElement
 treeMatchContext
 )
 ;
-NS_UpdateHint
-(
-topLevelChange
-frameChange
-)
-;
 if
 (
-topLevelChange
+frameChange
 &
 nsChangeHint_ReconstructFrame
 )
