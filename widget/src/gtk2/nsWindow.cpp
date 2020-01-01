@@ -7236,7 +7236,7 @@ nsWindow
 :
 SetMenuBar
 (
-nsIMenuBar
+void
 *
 aMenuBar
 )
