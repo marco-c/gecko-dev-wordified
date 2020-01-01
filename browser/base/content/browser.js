@@ -11653,6 +11653,11 @@ openUILinkIn
 (
 url
 where
+{
+relatedToCurrent
+:
+true
+}
 )
 ;
 return
@@ -11746,6 +11751,11 @@ openUILinkIn
 (
 url
 where
+{
+relatedToCurrent
+:
+true
+}
 )
 ;
 }
@@ -11836,6 +11846,11 @@ openUILinkIn
 (
 url
 where
+{
+relatedToCurrent
+:
+true
+}
 )
 ;
 }
@@ -12039,6 +12054,11 @@ currentURI
 .
 spec
 where
+{
+relatedToCurrent
+:
+true
+}
 )
 ;
 }
