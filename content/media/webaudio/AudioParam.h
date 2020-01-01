@@ -324,9 +324,6 @@ object
 void
 SetValueCurveAtTime
 (
-JSContext
-*
-cx
 const
 Float32Array
 &
