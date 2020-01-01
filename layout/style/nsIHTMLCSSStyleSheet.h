@@ -435,11 +435,6 @@ representing
 style
 attributes
 *
-and
-some
-additional
-overrides
-*
 /
 #
 ifndef
