@@ -490,20 +490,14 @@ DeadKeyTable
 {
 friend
 class
-KeyboardLayout
+nsKeyboardLayout
 ;
 PRUint16
 mEntries
 ;
-DeadKeyEntry
-mTable
-[
-1
-]
-;
 /
 /
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 AddDeadKeyTable
@@ -515,10 +509,10 @@ as
 many
 entries
 as
+/
+/
 required
 .
-/
-/
 It
 is
 the
@@ -530,6 +524,12 @@ new
 DeadKeyTable
 instances
 .
+DeadKeyEntry
+mTable
+[
+1
+]
+;
 void
 Init
 (
@@ -642,7 +642,7 @@ const
 ;
 inline
 PRUnichar
-VirtualKey
+nsVirtualKey
 :
 :
 GetCompositeChar
@@ -674,7 +674,7 @@ aBaseChar
 const
 DeadKeyTable
 *
-VirtualKey
+nsVirtualKey
 :
 :
 MatchingDeadKeyTable
@@ -758,7 +758,7 @@ nsnull
 ;
 }
 void
-VirtualKey
+nsVirtualKey
 :
 :
 SetNormalChars
@@ -889,7 +889,7 @@ c2
 ;
 }
 void
-VirtualKey
+nsVirtualKey
 :
 :
 SetDeadChar
@@ -944,7 +944,7 @@ nsnull
 ;
 }
 PRUint32
-VirtualKey
+nsVirtualKey
 :
 :
 GetUniChars
@@ -1215,7 +1215,7 @@ numOfChars
 ;
 }
 PRUint32
-VirtualKey
+nsVirtualKey
 :
 :
 GetNativeUniChars
@@ -1326,10 +1326,10 @@ cnt
 ;
 }
 }
-KeyboardLayout
+nsKeyboardLayout
 :
 :
-KeyboardLayout
+nsKeyboardLayout
 (
 )
 :
@@ -1386,11 +1386,11 @@ pref
 service
 .
 }
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 ~
-KeyboardLayout
+nsKeyboardLayout
 (
 )
 {
@@ -1400,7 +1400,7 @@ ReleaseDeadKeyTables
 ;
 }
 PRBool
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 IsPrintableCharKey
@@ -1420,7 +1420,7 @@ aVirtualKey
 ;
 }
 PRBool
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 IsNumpadKey
@@ -1443,7 +1443,7 @@ VK_DIVIDE
 ;
 }
 void
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 OnKeyDown
@@ -1893,7 +1893,7 @@ numOfBaseChars
 }
 }
 PRUint32
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 GetUniChars
@@ -1942,7 +1942,7 @@ chars
 ;
 }
 PRUint32
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 GetUniCharsWithShiftState
@@ -2027,7 +2027,7 @@ chars
 ;
 }
 void
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 LoadLayout
@@ -2573,7 +2573,7 @@ originalKbdState
 ;
 }
 PRUint8
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 GetShiftState
@@ -2671,7 +2671,7 @@ isShift
 ;
 }
 void
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 SetShiftState
@@ -2854,7 +2854,7 @@ VK_CAPITAL
 }
 inline
 PRInt32
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 GetKeyIndex
@@ -3665,7 +3665,7 @@ aVirtualKey
 ;
 }
 int
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 CompareDeadKeyEntries
@@ -3727,7 +3727,7 @@ BaseChar
 const
 DeadKeyTable
 *
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 AddDeadKeyTable
@@ -3822,7 +3822,7 @@ dkt
 ;
 }
 void
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 ReleaseDeadKeyTables
@@ -3862,7 +3862,7 @@ p
 }
 }
 PRBool
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 EnsureDeadKeyActive
@@ -4007,7 +4007,7 @@ rv
 ;
 }
 void
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 DeactivateDeadKeyState
@@ -4058,7 +4058,7 @@ mActiveDeadKey
 ;
 }
 PRBool
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 AddDeadKeyEntry
@@ -4127,7 +4127,7 @@ PR_TRUE
 ;
 }
 PRUint32
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 GetDeadKeyCombinations
