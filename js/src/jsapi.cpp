@@ -14992,6 +14992,14 @@ JS_TRACER
 FlushJITCache
 (
 cx
+&
+cx
+-
+>
+compartment
+-
+>
+traceMonitor
 )
 ;
 #
