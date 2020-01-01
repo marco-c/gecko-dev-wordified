@@ -4459,14 +4459,6 @@ script
 nfixed
 ;
 }
-inline
-FrameEntry
-*
-tosFe
-(
-)
-const
-;
 #
 ifdef
 DEBUG
