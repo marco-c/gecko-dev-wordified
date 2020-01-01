@@ -175,6 +175,13 @@ nsJSUtils
 .
 h
 "
+#
+include
+"
+AudioSampleFormat
+.
+h
+"
 using
 namespace
 mozilla
@@ -1054,7 +1061,7 @@ Format
 )
 =
 =
-FORMAT_S16
+AUDIO_FORMAT_S16
 )
 {
 /

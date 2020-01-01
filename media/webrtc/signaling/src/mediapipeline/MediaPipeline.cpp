@@ -3407,10 +3407,7 @@ mBufferFormat
 )
 {
 case
-nsAudioStream
-:
-:
-FORMAT_FLOAT32
+AUDIO_FORMAT_FLOAT32
 :
 MOZ_MTLOG
 (
@@ -3441,10 +3438,7 @@ return
 break
 ;
 case
-nsAudioStream
-:
-:
-FORMAT_S16
+AUDIO_FORMAT_S16
 :
 {
 /
@@ -4514,10 +4508,7 @@ forget
 samples_length
 0
 samples_length
-nsAudioStream
-:
-:
-FORMAT_S16
+AUDIO_FORMAT_S16
 )
 ;
 char

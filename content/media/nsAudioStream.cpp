@@ -2096,7 +2096,7 @@ Format
 )
 =
 =
-FORMAT_S16
+AUDIO_FORMAT_S16
 )
 {
 const
@@ -4496,7 +4496,7 @@ Format
 )
 =
 =
-FORMAT_S16
+AUDIO_FORMAT_S16
 )
 {
 params
@@ -5626,7 +5626,7 @@ Format
 )
 =
 =
-FORMAT_S16
+AUDIO_FORMAT_S16
 )
 {
 /
