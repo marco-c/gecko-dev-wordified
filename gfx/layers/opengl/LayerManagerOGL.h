@@ -1106,7 +1106,7 @@ types
 .
 *
 /
-void
+bool
 CreateFBOWithTexture
 (
 const
