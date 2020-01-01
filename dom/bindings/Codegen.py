@@ -937,9 +937,6 @@ JSCLASS_NO_INTERNAL_MEMBERS
   
 %
 s
-  
--
-1
 }
 ;
 "

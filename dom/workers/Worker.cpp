@@ -1547,8 +1547,6 @@ false
 &
 sNativePropertyHooks
 }
--
-1
 }
 ;
 JSPropertySpec
@@ -2139,8 +2137,6 @@ false
 &
 sNativePropertyHooks
 }
--
-1
 }
 ;
 WorkerPrivate
