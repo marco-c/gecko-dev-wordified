@@ -9428,8 +9428,6 @@ nsIDOMNode
 >
 selectedNode
 ;
-res
-=
 GetStartNodeAndOffset
 (
 selection
@@ -9439,6 +9437,12 @@ selectedNode
 )
 &
 offset
+)
+;
+NS_ENSURE_TRUE
+(
+selectedNode
+NS_OK
 )
 ;
 if
