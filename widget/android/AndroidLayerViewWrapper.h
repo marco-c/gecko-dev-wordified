@@ -161,6 +161,16 @@ int
 aVersion
 )
 ;
+void
+Reacquire
+(
+JNIEnv
+*
+aJEnv
+jobject
+aJObj
+)
+;
 EGLSurface
 ProvideEGLSurface
 (
@@ -184,6 +194,10 @@ jWaitForValidSurfaceMethod
 static
 jmethodID
 jProvideEGLSurfaceMethod
+;
+static
+jmethodID
+jResumeCompositorIfValidMethod
 ;
 /
 /

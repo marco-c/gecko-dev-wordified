@@ -522,12 +522,7 @@ Bridge
 SetLayerClient
 (
 jenv
--
->
-NewGlobalRef
-(
 obj
-)
 )
 ;
 }
