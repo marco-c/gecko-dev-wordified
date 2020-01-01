@@ -478,9 +478,12 @@ js
 Value
 &
 space
-JSCharBuffer
+js
+:
+:
+StringBuffer
 &
-cb
+sb
 )
 ;
 extern

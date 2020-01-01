@@ -31211,8 +31211,8 @@ replacer
 space
 )
 ;
-JSCharBuffer
-cb
+StringBuffer
+sb
 (
 cx
 )
@@ -31232,7 +31232,7 @@ Valueify
 (
 space
 )
-cb
+sb
 )
 )
 return
@@ -31241,12 +31241,12 @@ false
 return
 callback
 (
-cb
+sb
 .
 begin
 (
 )
-cb
+sb
 .
 length
 (

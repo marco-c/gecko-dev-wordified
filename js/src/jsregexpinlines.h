@@ -3350,8 +3350,8 @@ postfix
 '
 }
 ;
-JSCharBuffer
-cb
+StringBuffer
+sb
 (
 cx
 )
@@ -3359,7 +3359,7 @@ cx
 if
 (
 !
-cb
+sb
 .
 reserve
 (
@@ -3386,7 +3386,7 @@ false
 ;
 JS_ALWAYS_TRUE
 (
-cb
+sb
 .
 append
 (
@@ -3400,7 +3400,7 @@ prefix
 ;
 JS_ALWAYS_TRUE
 (
-cb
+sb
 .
 append
 (
@@ -3421,7 +3421,7 @@ length
 ;
 JS_ALWAYS_TRUE
 (
-cb
+sb
 .
 append
 (
@@ -3437,10 +3437,10 @@ JSLinearString
 *
 fakeySource
 =
-js_NewStringFromCharBuffer
+sb
+.
+finishString
 (
-cx
-cb
 )
 ;
 if
