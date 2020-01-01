@@ -6065,7 +6065,6 @@ this
 frame
 .
 *
-*
 /
 nsStyleContext
 *

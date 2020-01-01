@@ -7420,11 +7420,6 @@ StyleContext
 (
 )
 ;
-if
-(
-parentContext
-)
-{
 /
 /
 Create
@@ -7534,7 +7529,6 @@ mFrames
 this
 )
 ;
-}
 }
 }
 }
