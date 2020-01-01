@@ -5038,8 +5038,8 @@ if
 (
 !
 other_wrapper
-|
-|
+&
+&
 !
 obj2
 )
