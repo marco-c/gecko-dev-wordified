@@ -4575,7 +4575,7 @@ set
 See
 jsgc
 .
-c
+cpp
 for
 details
 .
