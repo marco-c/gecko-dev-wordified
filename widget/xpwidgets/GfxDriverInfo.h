@@ -816,12 +816,12 @@ aCStr
 aDStr
 }
 ;
-int
+unsigned
 destIdx
 =
 0
 ;
-int
+unsigned
 destPos
 =
 0
