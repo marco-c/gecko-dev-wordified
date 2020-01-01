@@ -645,6 +645,11 @@ margin
 :
 6px
 ;
+padding
+:
+0
+9px
+;
 min
 -
 width
@@ -873,13 +878,13 @@ plain
 {
 margin
 :
-0px
+0
 !
 important
 ;
 padding
 :
-0px
+0
 !
 important
 ;
