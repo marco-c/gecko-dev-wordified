@@ -3803,8 +3803,6 @@ textEvent
 -
 >
 mModifiedText
-0
-PR_UINT32_MAX
 )
 ;
 }
@@ -3845,8 +3843,6 @@ textEvent
 -
 >
 mModifiedText
-0
-PR_UINT32_MAX
 )
 ;
 textEvent
@@ -3972,8 +3968,6 @@ textEvent
 -
 >
 mModifiedText
-0
-PR_UINT32_MAX
 )
 ;
 }
@@ -4041,8 +4035,6 @@ mAccessible
 AppendTextTo
 (
 startText
-0
-PR_UINT32_MAX
 )
 ;
 textEvent
@@ -4252,8 +4244,6 @@ mAccessible
 AppendTextTo
 (
 text
-0
-PR_UINT32_MAX
 )
 ;
 if
