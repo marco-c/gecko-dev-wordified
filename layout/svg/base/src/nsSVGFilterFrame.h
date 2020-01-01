@@ -440,6 +440,9 @@ nsSVGContainerFrame
 .
 h
 "
+class
+nsSVGFilterInstance
+;
 typedef
 nsSVGContainerFrame
 nsSVGFilterFrameBase
