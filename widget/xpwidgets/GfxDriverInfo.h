@@ -621,7 +621,7 @@ uint64_t
 d
 )
 )
-static
+inline
 uint64_t
 V
 (
@@ -755,7 +755,7 @@ least
 bytes
 available
 .
-static
+inline
 bool
 SplitDriverVersion
 (
@@ -997,7 +997,7 @@ us
 to
 pad
 driver
-versiopn
+version
 '
 substrings
 '
@@ -1068,7 +1068,7 @@ would
 become
 9780
 .
-static
+inline
 void
 PadDriverDecimal
 (
