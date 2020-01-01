@@ -130,7 +130,7 @@ gDebugger
 =
 gPane
 .
-contentWindow
+panelWin
 ;
 gDebuggee
 =
@@ -1421,7 +1421,7 @@ querySelector
 arrow
 "
 )
-gDebugger
+gDebuggee
 )
 ;
 EventUtils
@@ -1444,7 +1444,7 @@ querySelector
 arrow
 "
 )
-gDebugger
+gDebuggee
 )
 ;
 EventUtils
@@ -1467,7 +1467,7 @@ querySelector
 arrow
 "
 )
-gDebugger
+gDebuggee
 )
 ;
 EventUtils
@@ -1490,7 +1490,7 @@ querySelector
 arrow
 "
 )
-gDebugger
+gDebuggee
 )
 ;
 is
@@ -3498,6 +3498,8 @@ in
 "
 )
 gDebugger
+.
+window
 )
 ;
 }
@@ -3540,7 +3542,9 @@ querySelector
 arrow
 "
 )
-gDebugger
+gDebuggee
+.
+window
 )
 ;
 is
@@ -3609,7 +3613,9 @@ querySelector
 arrow
 "
 )
-gDebugger
+gDebuggee
+.
+window
 )
 ;
 is
@@ -3676,7 +3682,9 @@ querySelector
 arrow
 "
 )
-gDebugger
+gDebuggee
+.
+window
 )
 ;
 is
@@ -3741,7 +3749,9 @@ querySelector
 arrow
 "
 )
-gDebugger
+gDebuggee
+.
+window
 )
 ;
 is

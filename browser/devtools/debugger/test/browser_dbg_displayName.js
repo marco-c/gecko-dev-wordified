@@ -117,7 +117,7 @@ gDebugger
 =
 gPane
 .
-contentWindow
+panelWin
 ;
 testAnonCall
 (
