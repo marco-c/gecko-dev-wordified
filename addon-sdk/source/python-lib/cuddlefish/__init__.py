@@ -1239,6 +1239,9 @@ cmds
 =
 [
 '
+run
+'
+'
 test
 '
 '
@@ -1248,6 +1251,9 @@ testex
 testpkgs
 '
                                           
+'
+testaddons
+'
 '
 testall
 '
@@ -5997,6 +6003,9 @@ verbose
 '
 enable_e10s
 '
+'
+parseable
+'
 ]
     
 enforce_timeouts
@@ -6061,9 +6070,6 @@ profileMemory
                                   
 '
 stopOnError
-'
-'
-parseable
 '
 ]
 )
