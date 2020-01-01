@@ -570,6 +570,13 @@ h
 #
 include
 "
+nsIViewManager
+.
+h
+"
+#
+include
+"
 nsRoleMap
 .
 h

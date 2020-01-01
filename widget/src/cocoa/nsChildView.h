@@ -506,13 +506,6 @@ h
 #
 include
 "
-nsIScrollableView
-.
-h
-"
-#
-include
-"
 nsWeakPtr
 .
 h
