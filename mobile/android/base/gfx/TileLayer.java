@@ -840,10 +840,7 @@ getSize
 ;
 mDirtyRect
 .
-union
-(
-new
-Rect
+set
 (
 0
 0
@@ -853,7 +850,6 @@ width
 bufferSize
 .
 height
-)
 )
 ;
 }
