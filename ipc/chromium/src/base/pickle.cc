@@ -94,6 +94,11 @@ include
 <
 string
 >
+#
+include
+<
+algorithm
+>
 /
 /
 -
