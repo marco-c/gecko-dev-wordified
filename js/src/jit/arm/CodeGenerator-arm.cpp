@@ -2321,9 +2321,8 @@ nan
 ;
 masm
 .
-loadStaticDouble
+loadConstantDouble
 (
-&
 js_NaN
 output
 )
