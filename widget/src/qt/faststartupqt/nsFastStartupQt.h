@@ -469,6 +469,11 @@ QThread
 #
 include
 <
+QEventLoop
+>
+#
+include
+<
 sys
 /
 time
@@ -710,6 +715,9 @@ mWidgetPainted
 GeckoThread
 *
 mThread
+;
+QEventLoop
+mLoop
 ;
 }
 ;

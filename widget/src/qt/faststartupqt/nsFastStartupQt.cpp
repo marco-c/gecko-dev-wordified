@@ -562,9 +562,8 @@ mWidgetPainted
 mSymbolsLoaded
 )
 {
-qApp
--
->
+mLoop
+.
 quit
 (
 )
@@ -591,9 +590,8 @@ mWidgetPainted
 mSymbolsLoaded
 )
 {
-qApp
--
->
+mLoop
+.
 quit
 (
 )
@@ -1007,9 +1005,8 @@ and
 Static
 UI
 shown
-qApp
--
->
+mLoop
+.
 exec
 (
 )
