@@ -3662,6 +3662,16 @@ if
 efs
 )
 {
+reportp
+-
+>
+exnType
+=
+efs
+-
+>
+exnType
+;
 size_t
 totalArgsLength
 =
