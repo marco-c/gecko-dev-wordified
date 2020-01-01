@@ -1905,6 +1905,11 @@ difference
 )
 CSS_KEY
 (
+digits
+digits
+)
+CSS_KEY
+(
 disabled
 disabled
 )
@@ -3159,6 +3164,11 @@ show
 )
 CSS_KEY
 (
+sideways
+sideways
+)
+CSS_KEY
+(
 simplified
 simplified
 )
@@ -3588,6 +3598,11 @@ CSS_KEY
 (
 uppercase
 uppercase
+)
+CSS_KEY
+(
+upright
+upright
 )
 CSS_KEY
 (
