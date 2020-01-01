@@ -221,7 +221,7 @@ these
 friends
 .
 friend
-struct
+class
 SharedContext
 ;
 /
@@ -539,7 +539,7 @@ these
 friends
 .
 friend
-struct
+class
 FunctionBox
 ;
 /
