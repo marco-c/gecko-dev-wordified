@@ -1779,7 +1779,6 @@ point
 is
 inside
 of
-a
 the
 passed
 in

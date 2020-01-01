@@ -7161,8 +7161,10 @@ image
 /
 /
 use
-a
 the
+|
+nsImageToClipboard
+|
 helper
 class
 to
@@ -7174,10 +7176,10 @@ bitmap
 We
 now
 own
+/
+/
 the
 bits
-/
-/
 and
 pass
 them
