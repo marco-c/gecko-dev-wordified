@@ -647,6 +647,10 @@ mFile
 (
 file
 )
+mTruncateOutputFile
+(
+true
+)
 {
 }
 void
@@ -700,6 +704,9 @@ nsCOMPtr
 nsIOutputStream
 >
 mOutputStream
+;
+bool
+mTruncateOutputFile
 ;
 }
 ;
