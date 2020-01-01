@@ -45579,9 +45579,6 @@ gfxFont
 :
 LOOSE_INK_EXTENTS
 ;
-#
-ifdef
-MOZ_MATHML
 NS_ASSERTION
 (
 !
@@ -45604,8 +45601,6 @@ anymore
 "
 )
 ;
-#
-endif
 PRInt32
 limitLength
 =

@@ -1107,9 +1107,6 @@ nsFont
 .
 h
 .
-#
-ifdef
-MOZ_MATHML
 /
 /
 MathML
@@ -1157,8 +1154,6 @@ mScriptSizeMultiplier
 [
 inherited
 ]
-#
-endif
 }
 ;
 struct

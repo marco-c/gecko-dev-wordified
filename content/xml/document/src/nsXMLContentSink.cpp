@@ -9282,9 +9282,6 @@ nsGkAtoms
 applet
 )
 )
-#
-ifdef
-MOZ_MATHML
 |
 |
 (
@@ -9314,8 +9311,6 @@ nsGkAtoms
 math
 )
 )
-#
-endif
 )
 ;
 }

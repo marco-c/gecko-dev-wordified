@@ -1098,17 +1098,12 @@ h
 undef
 NOISY_FIRST_LETTER
 #
-ifdef
-MOZ_MATHML
-#
 include
 "
 nsMathMLParts
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -12343,9 +12338,6 @@ nsIFrame
 *
 newFrame
 ;
-#
-ifdef
-MOZ_MATHML
 if
 (
 kNameSpaceID_MathML
@@ -12362,8 +12354,6 @@ outerStyleContext
 )
 ;
 else
-#
-endif
 newFrame
 =
 NS_NewTableOuterFrame
@@ -12416,9 +12406,6 @@ nsIFrame
 *
 innerFrame
 ;
-#
-ifdef
-MOZ_MATHML
 if
 (
 kNameSpaceID_MathML
@@ -12435,8 +12422,6 @@ styleContext
 )
 ;
 else
-#
-endif
 innerFrame
 =
 NS_NewTableFrame
@@ -12742,9 +12727,6 @@ nsIFrame
 *
 newFrame
 ;
-#
-ifdef
-MOZ_MATHML
 if
 (
 kNameSpaceID_MathML
@@ -12761,8 +12743,6 @@ styleContext
 )
 ;
 else
-#
-endif
 newFrame
 =
 NS_NewTableRowFrame
@@ -13185,9 +13165,6 @@ nsIFrame
 *
 newFrame
 ;
-#
-ifdef
-MOZ_MATHML
 /
 /
 <
@@ -13340,8 +13317,6 @@ styleContext
 )
 ;
 else
-#
-endif
 /
 /
 Warning
@@ -13476,9 +13451,6 @@ nsIFrame
 *
 cellInnerFrame
 ;
-#
-ifdef
-MOZ_MATHML
 if
 (
 kNameSpaceID_MathML
@@ -13501,8 +13473,6 @@ PR_FALSE
 ;
 }
 else
-#
-endif
 {
 cellInnerFrame
 =
@@ -22963,17 +22933,12 @@ FCDATA_FUNC_IS_FULL_CTOR
 FCDATA_FORCE_NULL_ABSPOS_CONTAINER
 )
 ;
-#
-ifdef
-MOZ_MATHML
 CHECK_ONLY_ONE_BIT
 (
 FCDATA_FUNC_IS_FULL_CTOR
 FCDATA_WRAP_KIDS_IN_BLOCKS
 )
 ;
-#
-endif
 CHECK_ONLY_ONE_BIT
 (
 FCDATA_FUNC_IS_FULL_CTOR
@@ -23759,9 +23724,6 @@ content
 }
 #
 endif
-#
-ifdef
-MOZ_MATHML
 if
 (
 NS_SUCCEEDED
@@ -23921,8 +23883,6 @@ childItems
 newItems
 ;
 }
-#
-endif
 /
 /
 Set
@@ -27967,9 +27927,6 @@ MathML
 Mod
 -
 RBS
-#
-ifdef
-MOZ_MATHML
 nsresult
 nsCSSFrameConstructor
 :
@@ -28591,11 +28548,6 @@ sMathMLData
 )
 ;
 }
-#
-endif
-/
-/
-MOZ_MATHML
 /
 /
 Only
@@ -31639,9 +31591,6 @@ styleContext
 )
 ;
 }
-#
-ifdef
-MOZ_MATHML
 if
 (
 !
@@ -31659,8 +31608,6 @@ styleContext
 )
 ;
 }
-#
-endif
 if
 (
 !
@@ -41135,9 +41082,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_MATHML
 if
 (
 parentFrame
@@ -41178,8 +41122,6 @@ return
 rv
 ;
 }
-#
-endif
 /
 /
 If
@@ -44325,9 +44267,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_MATHML
 if
 (
 parentFrame
@@ -44368,8 +44307,6 @@ return
 rv
 ;
 }
-#
-endif
 nsFrameConstructorState
 state
 (
@@ -47431,9 +47368,6 @@ return
 rv
 ;
 }
-#
-ifdef
-MOZ_MATHML
 /
 /
 If
@@ -47548,8 +47482,6 @@ return
 rv
 ;
 }
-#
-endif
 /
 /
 Undo

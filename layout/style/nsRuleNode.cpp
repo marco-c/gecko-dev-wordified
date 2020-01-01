@@ -8370,9 +8370,6 @@ NS_STYLE_FONT_SIZE_LARGER
 )
 |
 |
-#
-ifdef
-MOZ_MATHML
 aRuleData
 -
 >
@@ -8389,8 +8386,6 @@ GetUnit
 eCSSUnit_Integer
 |
 |
-#
-endif
 (
 weight
 .
@@ -9414,17 +9409,8 @@ STYLE_STRUCT
 }
 ;
 #
-if
-defined
-(
-MOZ_MATHML
-)
-&
-&
-defined
-(
+ifdef
 DEBUG
-)
 static
 PRBool
 AreAllMathMLPropertiesUndefined
@@ -9680,9 +9666,6 @@ inherited
 ;
 #
 endif
-#
-ifdef
-MOZ_MATHML
 NS_ASSERTION
 (
 aSID
@@ -9722,8 +9705,6 @@ disabled
 "
 )
 ;
-#
-endif
 /
 *
 *
@@ -9792,9 +9773,6 @@ specified
 =
 =
 total
-#
-ifdef
-MOZ_MATHML
 /
 /
 MathML
@@ -9901,8 +9879,6 @@ GetMathMLEnabled
 (
 )
 )
-#
-endif
 )
 {
 if
@@ -15204,9 +15180,6 @@ aHighestNode
 return
 data_
 ;
-#
-ifdef
-MOZ_MATHML
 /
 /
 This
@@ -15727,8 +15700,6 @@ minScriptSize
 ;
 }
 }
-#
-endif
 struct
 SetFontSizeCalcOps
 :
@@ -16696,9 +16667,6 @@ this
 "
 )
 ;
-#
-ifdef
-MOZ_MATHML
 /
 /
 if
@@ -16812,8 +16780,6 @@ aSize
 aScriptLevelAdjustedParentSize
 ;
 }
-#
-endif
 }
 /
 /
@@ -18319,9 +18285,6 @@ systemFont
 stretch
 )
 ;
-#
-ifdef
-MOZ_MATHML
 /
 /
 Compute
@@ -18618,8 +18581,6 @@ mScriptLevel
 0
 ;
 }
-#
-endif
 /
 /
 font
@@ -18922,9 +18883,6 @@ aParentFont
 >
 mSize
 ;
-#
-ifdef
-MOZ_MATHML
 nscoord
 scriptLevelAdjustedUnconstrainedParentSize
 ;
@@ -18973,8 +18931,6 @@ here
 "
 )
 ;
-#
-endif
 SetFontSize
 (
 aPresContext
@@ -18997,9 +18953,6 @@ atRoot
 aCanStoreInRuleTree
 )
 ;
-#
-ifdef
-MOZ_MATHML
 if
 (
 aParentFont
@@ -19149,8 +19102,6 @@ bigger
 "
 )
 ;
-#
-endif
 /
 /
 enforce

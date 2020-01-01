@@ -491,9 +491,6 @@ versa
 .
 *
 /
-#
-ifdef
-MOZ_MATHML
 struct
 nsBoundingMetrics
 {
@@ -1031,11 +1028,6 @@ width
 }
 }
 ;
-#
-endif
-/
-/
-MOZ_MATHML
 #
 endif
 /

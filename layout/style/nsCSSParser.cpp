@@ -32500,9 +32500,6 @@ return
 PR_FALSE
 ;
 }
-#
-ifdef
-MOZ_MATHML
 /
 /
 We
@@ -32555,8 +32552,6 @@ mUnsafeRulesEnabled
 return
 PR_FALSE
 ;
-#
-endif
 const
 PRInt32
 *

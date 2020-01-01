@@ -1956,9 +1956,6 @@ nsnull
 )
 ;
 }
-#
-ifdef
-MOZ_MATHML
 nsBoundingMetrics
 nsFontMetrics
 :
@@ -2106,10 +2103,3 @@ return
 m
 ;
 }
-#
-endif
-/
-*
-MOZ_MATHML
-*
-/

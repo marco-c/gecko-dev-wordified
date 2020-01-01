@@ -982,9 +982,6 @@ mFont
 size
 )
 ;
-#
-ifdef
-MOZ_MATHML
 mScriptUnconstrainedSize
 =
 mSize
@@ -1010,8 +1007,6 @@ mScriptSizeMultiplier
 =
 NS_MATHML_DEFAULT_SCRIPT_SIZE_MULTIPLIER
 ;
-#
-endif
 }
 nsStyleFont
 :
@@ -1042,9 +1037,6 @@ aSrc
 .
 mGenericID
 )
-#
-ifdef
-MOZ_MATHML
 mScriptLevel
 (
 aSrc
@@ -1069,8 +1061,6 @@ aSrc
 .
 mScriptSizeMultiplier
 )
-#
-endif
 {
 MOZ_COUNT_CTOR
 (
@@ -1128,9 +1118,6 @@ mFont
 size
 )
 ;
-#
-ifdef
-MOZ_MATHML
 mScriptUnconstrainedSize
 =
 mSize
@@ -1156,8 +1143,6 @@ mScriptSizeMultiplier
 =
 NS_MATHML_DEFAULT_SCRIPT_SIZE_MULTIPLIER
 ;
-#
-endif
 }
 void
 *

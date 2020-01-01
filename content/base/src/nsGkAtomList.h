@@ -10224,9 +10224,6 @@ XML
 )
 #
 endif
-#
-ifdef
-MOZ_MATHML
 /
 /
 internal
@@ -12241,8 +12238,6 @@ one
 without
 an
 underscore
-#
-endif
 #
 ifndef
 DISABLE_XFORMS_HOOKS

@@ -4643,9 +4643,6 @@ style
 define
 FCDATA_FORCE_NULL_ABSPOS_CONTAINER
 0x10
-#
-ifdef
-MOZ_MATHML
 /
 *
 If
@@ -4680,13 +4677,6 @@ moment
 define
 FCDATA_WRAP_KIDS_IN_BLOCKS
 0x20
-#
-endif
-/
-*
-MOZ_MATHML
-*
-/
 /
 *
 If
@@ -8701,9 +8691,6 @@ MathML
 Mod
 -
 RBS
-#
-ifdef
-MOZ_MATHML
 /
 *
 *
@@ -8808,8 +8795,6 @@ nsStyleContext
 aStyleContext
 )
 ;
-#
-endif
 /
 /
 Function

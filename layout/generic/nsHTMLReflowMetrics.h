@@ -478,10 +478,6 @@ h
 "
 /
 /
-for
-MOZ_MATHML
-/
-/
 -
 -
 -
@@ -557,14 +553,9 @@ MOZ_MATHML
 Option
 flags
 #
-ifdef
-MOZ_MATHML
-#
 define
 NS_REFLOW_CALC_BOUNDING_METRICS
 0x0001
-#
-endif
 /
 *
 *
@@ -1579,9 +1570,6 @@ ASK_FOR_BASELINE
 nscoord_MAX
 }
 ;
-#
-ifdef
-MOZ_MATHML
 /
 /
 Metrics
@@ -1667,8 +1655,6 @@ mBoundingMetrics
 [
 OUT
 ]
-#
-endif
 /
 /
 Carried
