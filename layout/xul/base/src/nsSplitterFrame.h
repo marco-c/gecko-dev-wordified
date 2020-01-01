@@ -479,8 +479,8 @@ aContext
 )
 ;
 virtual
-~
-nsSplitterFrame
+void
+Destroy
 (
 )
 ;
