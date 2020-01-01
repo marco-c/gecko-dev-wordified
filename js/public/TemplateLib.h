@@ -1809,14 +1809,14 @@ class
 T
 >
 struct
-IsPostBarrieredType
+IsRelocatableHeapType
 {
 static
 const
 bool
 result
 =
-false
+true
 ;
 }
 ;
