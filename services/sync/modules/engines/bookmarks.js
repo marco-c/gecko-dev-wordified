@@ -1522,9 +1522,7 @@ makeURI
 (
 record
 .
-cleartext
-.
-uri
+bmkUri
 )
 ;
 this
@@ -1562,9 +1560,7 @@ is
 +
 record
 .
-cleartext
-.
-uri
+bmkUri
 )
 ;
 this
@@ -2854,7 +2850,7 @@ break
 ;
 case
 "
-uri
+bmkUri
 "
 :
 this
