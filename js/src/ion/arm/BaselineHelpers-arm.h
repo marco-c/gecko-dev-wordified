@@ -879,6 +879,17 @@ void
 *
 )
 ;
+static
+const
+uint32_t
+STUB_FRAME_SAVED_STUB_OFFSET
+=
+sizeof
+(
+void
+*
+)
+;
 inline
 void
 EmitEnterStubFrame
