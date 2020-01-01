@@ -1819,7 +1819,6 @@ successful
 .
 *
 /
-virtual
 bool
 AppendChild
 (
@@ -1827,7 +1826,19 @@ Accessible
 *
 aChild
 )
+{
+return
+InsertChildAt
+(
+mChildren
+.
+Length
+(
+)
+aChild
+)
 ;
+}
 virtual
 bool
 InsertChildAt

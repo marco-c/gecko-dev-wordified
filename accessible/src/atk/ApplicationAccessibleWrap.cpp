@@ -679,8 +679,10 @@ bool
 ApplicationAccessibleWrap
 :
 :
-AppendChild
+InsertChildAt
 (
+uint32_t
+aIdx
 Accessible
 *
 aChild
@@ -692,8 +694,9 @@ if
 ApplicationAccessible
 :
 :
-AppendChild
+InsertChildAt
 (
+aIdx
 aChild
 )
 )
