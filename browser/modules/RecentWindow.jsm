@@ -258,13 +258,6 @@ win
 closed
 &
 &
-win
-.
-toolbar
-.
-visible
-&
-&
 (
 allowPopups
 |
