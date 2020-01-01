@@ -3744,6 +3744,10 @@ mContainerLayerFrame
 (
 nullptr
 )
+mContainerLayerGeneration
+(
+0
+)
 mHasExplicitLastPaintOffset
 (
 false
