@@ -3045,7 +3045,7 @@ thread
 .
 virtual
 const
-nsACString
+nsCString
 &
 GetContentType
 (
@@ -3158,7 +3158,7 @@ BaseMediaResource
 }
 virtual
 const
-nsACString
+nsCString
 &
 GetContentType
 (
