@@ -2787,11 +2787,9 @@ PropertyAccess
 class
 ModuleBox
 ;
-struct
+class
 ParseNode
 {
-private
-:
 uint32_t
 pn_type
 :

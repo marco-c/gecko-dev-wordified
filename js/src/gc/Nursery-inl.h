@@ -173,7 +173,7 @@ class
 RelocationOverlay
 {
 friend
-struct
+class
 MinorCollectionTracer
 ;
 /

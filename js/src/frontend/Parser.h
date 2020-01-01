@@ -1981,7 +1981,7 @@ template
 typename
 ParseHandler
 >
-struct
+class
 Parser
 :
 private
@@ -1989,6 +1989,8 @@ AutoGCRooter
 public
 StrictModeGetter
 {
+public
+:
 JSContext
 *
 const

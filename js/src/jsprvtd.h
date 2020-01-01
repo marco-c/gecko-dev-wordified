@@ -701,7 +701,7 @@ TokenStream
 class
 ParseMapPool
 ;
-struct
+class
 ParseNode
 ;
 template
@@ -709,7 +709,7 @@ template
 typename
 ParseHandler
 >
-struct
+class
 Parser
 ;
 }

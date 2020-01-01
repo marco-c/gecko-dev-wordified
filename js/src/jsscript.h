@@ -1636,15 +1636,13 @@ SystemAllocPolicy
 >
 DebugScriptMap
 ;
-struct
+class
 ScriptSource
 {
 friend
 class
 SourceCompressorThread
 ;
-private
-:
 union
 {
 /
@@ -8302,7 +8300,7 @@ struct
 SourceCompressionToken
 {
 friend
-struct
+class
 ScriptSource
 ;
 friend

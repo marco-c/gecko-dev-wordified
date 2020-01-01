@@ -383,7 +383,7 @@ BaselineScript
 is
 destroyed
 .
-struct
+class
 ICStubSpace
 {
 protected

@@ -150,10 +150,10 @@ AsmJSModule
 namespace
 frontend
 {
-struct
+class
 TokenStream
 ;
-struct
+class
 ParseNode
 ;
 }

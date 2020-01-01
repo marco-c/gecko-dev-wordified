@@ -2375,7 +2375,7 @@ bits
 namespace
 js
 {
-struct
+class
 ForkJoinSlice
 ;
 bool
@@ -2806,9 +2806,10 @@ pc
 struct
 ForkJoinShared
 ;
-struct
+class
 ForkJoinSlice
 :
+public
 ThreadSafeContext
 {
 public

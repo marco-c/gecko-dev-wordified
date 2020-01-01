@@ -179,7 +179,7 @@ ion
 class
 StackValue
 ;
-struct
+class
 ICEntry
 ;
 class
