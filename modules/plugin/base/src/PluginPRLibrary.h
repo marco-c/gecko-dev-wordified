@@ -980,6 +980,17 @@ Image
 aImage
 )
 ;
+virtual
+nsresult
+GetImageSize
+(
+NPP
+instance
+nsIntSize
+*
+aSize
+)
+;
 NS_OVERRIDE
 virtual
 bool
