@@ -10122,10 +10122,10 @@ the
 install
 *
 param
-loadgroup
+loadGroup
 *
-A
-loadgroup
+An
+nsILoadGroup
 to
 associate
 requests
@@ -10153,7 +10153,7 @@ hash
 name
 iconURL
 version
-loadgroup
+loadGroup
 callback
 )
 {
@@ -10179,7 +10179,7 @@ hash
 name
 iconURL
 version
-loadgroup
+loadGroup
 )
 ;
 }
@@ -20182,7 +20182,7 @@ if
 known
 *
 param
-loadgroup
+loadGroup
 *
 The
 nsILoadGroup
@@ -20237,7 +20237,7 @@ iconURL
 version
 infoURL
 existingAddon
-loadgroup
+loadGroup
 )
 {
 this
@@ -20264,9 +20264,9 @@ url
 ;
 this
 .
-loadgroup
+loadGroup
 =
-loadgroup
+loadGroup
 ;
 this
 .
@@ -20742,7 +20742,7 @@ null
 hash
 :
 null
-loadgroup
+loadGroup
 :
 null
 listeners
@@ -22098,7 +22098,7 @@ loadGroup
 =
 this
 .
-loadgroup
+loadGroup
 ;
 /
 /
@@ -24447,7 +24447,7 @@ add
 on
 *
 param
-loadgroup
+loadGroup
 *
 An
 nsILoadGroup
@@ -24470,7 +24470,7 @@ hash
 name
 iconURL
 version
-loadgroup
+loadGroup
 )
 {
 let
@@ -24506,7 +24506,7 @@ iconURL
 version
 null
 null
-loadgroup
+loadGroup
 )
 ;
 }
