@@ -235,7 +235,7 @@ D3D9SurfaceImage
 :
 Image
 (
-NULL
+nullptr
 D3D9_RGB32_TEXTURE
 )
 mSize

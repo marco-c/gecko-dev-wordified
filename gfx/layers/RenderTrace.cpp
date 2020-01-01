@@ -167,7 +167,7 @@ GetParent
 )
 !
 =
-NULL
+nullptr
 )
 {
 return

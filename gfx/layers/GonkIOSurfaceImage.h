@@ -309,7 +309,7 @@ GonkIOSurfaceImage
 :
 Image
 (
-NULL
+nullptr
 GONK_IO_SURFACE
 )
 mSize

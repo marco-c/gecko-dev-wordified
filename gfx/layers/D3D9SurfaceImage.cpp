@@ -315,7 +315,7 @@ texture
 HANDLE
 shareHandle
 =
-NULL
+nullptr
 ;
 hr
 =
@@ -456,7 +456,7 @@ surface
 &
 src
 textureSurface
-NULL
+nullptr
 D3DTEXF_NONE
 )
 ;
@@ -628,7 +628,7 @@ mQuery
 >
 GetData
 (
-NULL
+nullptr
 0
 D3DGETDATA_FLUSH
 )
@@ -958,7 +958,7 @@ LockRect
 (
 &
 rect
-NULL
+nullptr
 0
 )
 ;
