@@ -448,6 +448,15 @@ include
 "
 mozilla
 /
+AutoRestore
+.
+h
+"
+#
+include
+"
+mozilla
+/
 BlockingResourceBase
 .
 h
@@ -952,6 +961,7 @@ mozilla
 Mutex
 &
 aLock
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mLock
@@ -960,6 +970,8 @@ mLock
 aLock
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 NS_ASSERTION
 (
 mLock
@@ -1038,6 +1050,7 @@ Mutex
 *
 mLock
 ;
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /
@@ -1095,6 +1108,7 @@ mozilla
 Mutex
 &
 aLock
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mLock
@@ -1103,6 +1117,8 @@ mLock
 aLock
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 NS_ASSERTION
 (
 mLock
@@ -1180,6 +1196,7 @@ Mutex
 *
 mLock
 ;
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 }
