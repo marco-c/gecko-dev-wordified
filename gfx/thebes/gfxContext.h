@@ -2030,9 +2030,8 @@ device
 coordinates
 using
 the
-inverse
-*
 transformation
+*
 matrix
 .
 *
