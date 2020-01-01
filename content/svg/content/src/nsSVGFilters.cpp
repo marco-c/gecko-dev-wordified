@@ -36263,7 +36263,7 @@ nsIDocument
 *
 doc
 =
-GetOurDocument
+GetOwnerDoc
 (
 )
 ;
