@@ -6984,10 +6984,6 @@ mLayoutStrategy
 =
 NS_STYLE_TABLE_LAYOUT_AUTO
 ;
-mCols
-=
-NS_STYLE_TABLE_COLS_NONE
-;
 mFrame
 =
 NS_STYLE_TABLE_FRAME_NONE
@@ -7116,14 +7112,6 @@ mFrame
 aOther
 .
 mFrame
-|
-|
-mCols
-!
-=
-aOther
-.
-mCols
 )
 return
 NS_STYLE_HINT_REFLOW
