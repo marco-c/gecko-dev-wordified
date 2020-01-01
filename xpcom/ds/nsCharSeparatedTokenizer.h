@@ -434,10 +434,10 @@ BLOCK
 /
 #
 ifndef
-__nsCommaSeparatedTokenizer_h
+__nsCharSeparatedTokenizer_h
 #
 define
-__nsCommaSeparatedTokenizer_h
+__nsCharSeparatedTokenizer_h
 #
 include
 "
@@ -1291,6 +1291,6 @@ t
 endif
 /
 *
-__nsWhitespaceTokenizer_h
+__nsCharSeparatedTokenizer_h
 *
 /

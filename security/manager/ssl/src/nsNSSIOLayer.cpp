@@ -771,7 +771,7 @@ h
 #
 include
 "
-nsCommaSeparatedTokenizer
+nsCharSeparatedTokenizer
 .
 h
 "
