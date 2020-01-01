@@ -2662,7 +2662,7 @@ thisv
 )
 )
 return
-NULL
+false
 ;
 JS_ASSERT
 (
@@ -2677,12 +2677,7 @@ toObject
 )
 ;
 return
-&
-thisv
-.
-toObject
-(
-)
+true
 ;
 }
 inline
