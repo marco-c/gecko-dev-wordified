@@ -874,6 +874,15 @@ mLineStyle
 (
 nsLineStyle_kNone
 )
+mColor
+(
+NS_RGB
+(
+0
+0
+0
+)
+)
 {
 }
 nsThebesRenderingContext
