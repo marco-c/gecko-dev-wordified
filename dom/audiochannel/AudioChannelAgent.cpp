@@ -471,7 +471,7 @@ AudioChannelAgent
 :
 StartPlaying
 (
-bool
+int32_t
 *
 _retval
 )
@@ -526,11 +526,10 @@ mAudioChannelType
 *
 _retval
 =
-!
 service
 -
 >
-GetMuted
+GetState
 (
 this
 !
@@ -677,11 +676,10 @@ callback
 >
 CanPlayChanged
 (
-!
 service
 -
 >
-GetMuted
+GetState
 (
 this
 !
@@ -733,11 +731,10 @@ callback
 >
 CanPlayChanged
 (
-!
 service
 -
 >
-GetMuted
+GetState
 (
 this
 !
