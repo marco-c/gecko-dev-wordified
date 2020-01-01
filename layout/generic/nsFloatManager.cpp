@@ -1168,7 +1168,7 @@ top
 nscoord_MIN
 )
 {
-NS_NOTREACHED
+NS_WARNING
 (
 "
 bad
@@ -1299,7 +1299,7 @@ bottom
 nscoord_MAX
 )
 {
-NS_NOTREACHED
+NS_WARNING
 (
 "
 bad
@@ -1332,7 +1332,7 @@ right
 left
 )
 {
-NS_NOTREACHED
+NS_WARNING
 (
 "
 bad
