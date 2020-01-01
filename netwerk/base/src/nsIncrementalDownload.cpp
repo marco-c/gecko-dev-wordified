@@ -3375,8 +3375,6 @@ GetPropertyAsInt64
 NS_CHANNEL_PROP_CONTENT_LENGTH
 &
 mTotalSize
-.
-mValue
 )
 ;
 /

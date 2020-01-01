@@ -3923,8 +3923,6 @@ PRUint64
 >
 (
 mContentRead
-.
-mValue
 )
 EmptyCString
 (
@@ -7479,11 +7477,7 @@ count
 *
 contentRead
 mContentRead
-.
-mValue
 mContentLength
-.
-mValue
 )
 )
 ;
@@ -7567,8 +7561,6 @@ PRUint64
 >
 (
 mContentRead
-.
-mValue
 )
 EmptyCString
 (
