@@ -3046,6 +3046,9 @@ mHideChrome
 PRPackedBool
 mIsRTL
 ;
+PRPackedBool
+mFullscreenMode
+;
 PRUint32
 mBlurSuppressLevel
 ;
