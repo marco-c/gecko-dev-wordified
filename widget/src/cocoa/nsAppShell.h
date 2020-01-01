@@ -567,6 +567,11 @@ PRBool
 aMayWait
 )
 ;
+PRBool
+InGeckoMainEventLoop
+(
+)
+;
 static
 void
 ProcessGeckoEvents
@@ -711,6 +716,12 @@ PRUint32
 kHadMoreEventsCountMax
 =
 3
+;
+PRInt32
+mRecursionDepth
+;
+PRInt32
+mNativeEventCallbackDepth
 ;
 }
 ;
