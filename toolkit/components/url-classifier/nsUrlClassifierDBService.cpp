@@ -24347,9 +24347,6 @@ gDbBackgroundThread
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-nsresult
-rv
-;
 /
 /
 The
@@ -24468,9 +24465,6 @@ NS_ERROR_NOT_AVAILABLE
 mInUpdate
 =
 true
-;
-nsresult
-rv
 ;
 /
 /
