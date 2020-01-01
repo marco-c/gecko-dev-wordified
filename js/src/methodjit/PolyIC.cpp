@@ -20867,6 +20867,12 @@ f
 return
 ;
 }
+RecompilationMonitor
+monitor
+(
+cx
+)
+;
 Value
 thisv
 =
@@ -20965,6 +20971,14 @@ THROW
 ;
 if
 (
+!
+monitor
+.
+recompiled
+(
+)
+&
+&
 ic
 -
 >
