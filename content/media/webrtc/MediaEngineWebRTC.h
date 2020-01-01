@@ -483,10 +483,6 @@ mHeight
 (
 aHeight
 )
-mLastEndTime
-(
-0
-)
 mMonitor
 (
 "
@@ -860,12 +856,6 @@ mCapabilityChosen
 int
 mWidth
 mHeight
-;
-TrackID
-mTrackID
-;
-TrackTicks
-mLastEndTime
 ;
 /
 /
