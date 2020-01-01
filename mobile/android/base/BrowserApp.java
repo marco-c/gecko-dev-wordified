@@ -1540,11 +1540,9 @@ false
 )
 ;
 mDoorHangerPopup
-=
-new
-DoorHangerPopup
+.
+setAnchor
 (
-this
 mBrowserToolbar
 .
 mFavicon
