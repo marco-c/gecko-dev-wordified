@@ -10648,7 +10648,7 @@ JSContext
 cx
 )
 {
-FrameRegsIter
+ScriptFrameIter
 iter
 (
 cx

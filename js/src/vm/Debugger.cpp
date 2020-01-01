@@ -14836,7 +14836,7 @@ use
 /
 for
 (
-FrameRegsIter
+ScriptFrameIter
 fri
 (
 cx
@@ -14858,11 +14858,6 @@ if
 (
 fri
 .
-fp
-(
-)
--
->
 isEvalFrame
 (
 )
@@ -14874,11 +14869,6 @@ script
 =
 fri
 .
-fp
-(
-)
--
->
 script
 (
 )

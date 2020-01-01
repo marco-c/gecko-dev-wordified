@@ -40461,7 +40461,7 @@ debugging
 .
 *
 /
-FrameRegsIter
+ScriptFrameIter
 i
 (
 cx

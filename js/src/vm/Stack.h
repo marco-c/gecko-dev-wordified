@@ -551,7 +551,7 @@ class
 CallIter
 ;
 class
-FrameRegsIter
+ScriptFrameIter
 ;
 class
 AllFramesIter
@@ -4906,7 +4906,7 @@ in
 most
 cases
 prefer
-FrameRegsIter
+ScriptFrameIter
 ;
 *
 it
@@ -13146,7 +13146,7 @@ scripts
 *
 /
 class
-FrameRegsIter
+ScriptFrameIter
 :
 public
 StackIter
@@ -13181,7 +13181,7 @@ operator
 }
 public
 :
-FrameRegsIter
+ScriptFrameIter
 (
 JSContext
 *
@@ -13209,7 +13209,7 @@ settle
 )
 ;
 }
-FrameRegsIter
+ScriptFrameIter
 &
 operator
 +

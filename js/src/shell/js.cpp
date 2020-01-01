@@ -7552,7 +7552,7 @@ JSVAL_TO_STRING
 closure
 )
 ;
-FrameRegsIter
+ScriptFrameIter
 iter
 (
 cx
@@ -15493,7 +15493,7 @@ hasfp
 )
 )
 ;
-FrameRegsIter
+ScriptFrameIter
 fi
 (
 cx

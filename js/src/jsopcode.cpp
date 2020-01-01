@@ -18361,7 +18361,7 @@ matchPC
 =
 false
 ;
-FrameRegsIter
+ScriptFrameIter
 iter
 (
 cx
