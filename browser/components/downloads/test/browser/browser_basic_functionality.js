@@ -166,6 +166,17 @@ try
 {
 /
 /
+Wait
+for
+focus
+first
+yield
+promiseFocus
+(
+)
+;
+/
+/
 Ensure
 that
 state
