@@ -5524,11 +5524,10 @@ mFileSize
 mChannel
 -
 >
-ContentLength
+SetContentLength64
 (
-)
-=
 mFileSize
+)
 ;
 }
 /

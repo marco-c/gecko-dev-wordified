@@ -1790,7 +1790,7 @@ of
 the
 content
 .
-PRInt64
+PRInt32
 cl
 =
 -

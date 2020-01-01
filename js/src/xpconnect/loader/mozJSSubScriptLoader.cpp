@@ -1624,7 +1624,7 @@ js
 exceptions
 *
 /
-PRInt64
+PRInt32
 len
 =
 -
@@ -2116,15 +2116,6 @@ goto
 return_exception
 ;
 }
-if
-(
-len
->
-PR_INT32_MAX
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 buf
 =
 new

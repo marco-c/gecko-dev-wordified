@@ -5646,7 +5646,7 @@ PR_TRUE
 ;
 }
 }
-PRInt64
+PRInt32
 channelContentLength
 =
 -
