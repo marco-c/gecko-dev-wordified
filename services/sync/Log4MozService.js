@@ -1585,10 +1585,10 @@ string
 )
 ;
 }
-warning
+warn
 :
 function
-Logger_warning
+Logger_warn
 (
 string
 )
