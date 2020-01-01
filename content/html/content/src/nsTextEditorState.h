@@ -1270,6 +1270,8 @@ nsAString
 aValue
 bool
 aUserInput
+bool
+aSetValueAsChanged
 )
 ;
 void
