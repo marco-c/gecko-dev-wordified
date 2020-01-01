@@ -844,8 +844,8 @@ NS_ERROR_FAILURE
 ;
 }
 {
-ReentrantMonitorAutoEnter
-enter
+MonitorAutoLock
+lock
 (
 mMonitor
 )
@@ -1020,8 +1020,8 @@ aID
 )
 {
 {
-ReentrantMonitorAutoEnter
-enter
+MonitorAutoLock
+lock
 (
 mMonitor
 )
@@ -1781,8 +1781,8 @@ bool
 isStereo
 )
 {
-ReentrantMonitorAutoEnter
-enter
+MonitorAutoLock
+lock
 (
 mMonitor
 )

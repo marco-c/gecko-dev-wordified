@@ -561,6 +561,11 @@ audio
 params
 .
 video
+|
+|
+params
+.
+picture
 devices
 )
 ;
