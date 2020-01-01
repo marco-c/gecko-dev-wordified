@@ -2949,6 +2949,7 @@ js
 SetProxyExtra
 (
 wrapperObj
+0
 js
 :
 :
@@ -3112,6 +3113,7 @@ js
 SetProxyExtra
 (
 wrapperObj
+0
 js
 :
 :
