@@ -1798,6 +1798,11 @@ CreateSlots
 {
 return
 new
+(
+GetAllocator
+(
+)
+)
 nsXULSlots
 (
 mFlagsOrSlots
@@ -1833,6 +1838,9 @@ nsXULElement
 element
 =
 new
+(
+aNodeInfo
+)
 nsXULElement
 (
 aNodeInfo
@@ -2255,6 +2263,9 @@ nsXULElement
 element
 =
 new
+(
+aNodeInfo
+)
 nsXULElement
 (
 aNodeInfo
@@ -2821,6 +2832,9 @@ else
 element
 =
 new
+(
+aNodeInfo
+)
 nsXULElement
 (
 aNodeInfo

@@ -2360,6 +2360,9 @@ nsHTMLScriptElement
 it
 =
 new
+(
+aNodeInfo
+)
 nsHTMLScriptElement
 (
 aNodeInfo

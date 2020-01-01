@@ -497,6 +497,9 @@ nsXMLElement
 it
 =
 new
+(
+aNodeInfo
+)
 nsXMLElement
 (
 aNodeInfo

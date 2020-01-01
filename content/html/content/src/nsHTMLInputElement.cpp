@@ -2458,6 +2458,9 @@ nsHTMLInputElement
 it
 =
 new
+(
+aNodeInfo
+)
 nsHTMLInputElement
 (
 aNodeInfo

@@ -5371,13 +5371,6 @@ mStackPos
 .
 mContent
 ;
-content
--
->
-Compact
-(
-)
-;
 /
 /
 If

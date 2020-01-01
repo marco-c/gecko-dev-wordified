@@ -1615,6 +1615,9 @@ it
 =
 \
 new
+(
+aNodeInfo
+)
 nsSVG
 #
 #
