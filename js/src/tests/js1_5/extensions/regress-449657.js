@@ -792,7 +792,7 @@ summary
 expect
 =
 '
-Error
+TypeError
 :
 a
 .
