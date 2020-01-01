@@ -21367,10 +21367,12 @@ obj2
 {
 obj2
 =
-js_GetWrappedObject
+obj2
+-
+>
+wrappedObject
 (
 cx
-obj2
 )
 ;
 if
