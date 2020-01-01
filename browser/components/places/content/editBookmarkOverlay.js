@@ -1759,8 +1759,6 @@ getTagsForURI
 this
 .
 _uri
-{
-}
 )
 .
 join
@@ -1880,8 +1878,6 @@ _itemIds
 [
 i
 ]
-{
-}
 )
 ;
 this
@@ -1903,8 +1899,6 @@ _uris
 [
 i
 ]
-{
-}
 )
 ;
 if
@@ -2611,8 +2605,6 @@ annos
 getItemsWithAnnotation
 (
 LAST_USED_ANNO
-{
-}
 )
 ;
 /
@@ -4284,8 +4276,6 @@ getTagsForURI
 this
 .
 _uri
-{
-}
 )
 ;
 var
@@ -4531,8 +4521,6 @@ getTagsForURI
 this
 .
 _uri
-{
-}
 )
 .
 join
@@ -5111,8 +5099,6 @@ _uris
 [
 i
 ]
-{
-}
 )
 ;
 /
@@ -8249,8 +8235,6 @@ getTagsForURI
 this
 .
 _uri
-{
-}
 )
 .
 join

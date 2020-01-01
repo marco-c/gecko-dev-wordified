@@ -723,8 +723,6 @@ annosvc
 getItemsWithAnnotation
 (
 SMART_BOOKMARKS_ANNO
-{
-}
 )
 ;
 do_check_eq
@@ -798,8 +796,6 @@ annosvc
 getItemsWithAnnotation
 (
 SMART_BOOKMARKS_ANNO
-{
-}
 )
 ;
 do_check_neq
@@ -897,8 +893,6 @@ annosvc
 getItemsWithAnnotation
 (
 SMART_BOOKMARKS_ANNO
-{
-}
 )
 ;
 do_check_eq
@@ -1072,8 +1066,6 @@ annosvc
 getItemsWithAnnotation
 (
 SMART_BOOKMARKS_ANNO
-{
-}
 )
 ;
 do_check_eq

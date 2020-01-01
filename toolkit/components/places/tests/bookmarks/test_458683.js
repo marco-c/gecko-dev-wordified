@@ -1058,8 +1058,6 @@ this
 .
 _itemUrl
 )
-{
-}
 )
 ;
 do_check_eq

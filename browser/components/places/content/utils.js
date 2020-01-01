@@ -1786,8 +1786,6 @@ tagging
 getTagsForURI
 (
 itemURL
-{
-}
 )
 ;
 tags
@@ -7860,8 +7858,6 @@ as
 getItemsWithAnnotation
 (
 ORGANIZER_FOLDER_ANNO
-{
-}
 )
 ;
 if
@@ -8153,8 +8149,6 @@ as
 getItemsWithAnnotation
 (
 ORGANIZER_QUERY_ANNO
-{
-}
 )
 ;
 /

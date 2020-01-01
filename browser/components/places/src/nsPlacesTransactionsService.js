@@ -4492,8 +4492,6 @@ getTagsForURI
 this
 .
 _uri
-{
-}
 )
 ;
 PlacesUtils
@@ -5047,8 +5045,6 @@ getTagsForURI
 this
 .
 _oldURI
-{
-}
 )
 ;
 if
@@ -7454,8 +7450,6 @@ getTagsForURI
 this
 .
 _uri
-{
-}
 )
 ;
 this

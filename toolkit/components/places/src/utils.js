@@ -2076,8 +2076,6 @@ annotations
 getItemsWithAnnotation
 (
 READ_ONLY_ANNO
-{
-}
 )
 ;
 this
@@ -3374,8 +3372,6 @@ aNode
 .
 getQueries
 (
-{
-}
 )
 ;
 var
@@ -3388,8 +3384,6 @@ queries
 .
 getFolders
 (
-{
-}
 )
 ;
 return
@@ -5562,8 +5556,6 @@ annosvc
 getPageAnnotationNames
 (
 aURI
-{
-}
 )
 ;
 for
@@ -5815,8 +5807,6 @@ annosvc
 getItemAnnotationNames
 (
 aItemId
-{
-}
 )
 ;
 for
@@ -6878,8 +6868,6 @@ bookmarks
 getBookmarkIdsForURI
 (
 uri
-{
-}
 )
 ;
 for
@@ -6995,8 +6983,6 @@ bookmarks
 getBookmarkIdsForURI
 (
 aURI
-{
-}
 )
 ;
 /
@@ -7155,8 +7141,6 @@ bookmarks
 getBookmarkIdsForURI
 (
 aURI
-{
-}
 )
 ;
 for
@@ -7429,8 +7413,6 @@ annosvc
 getItemsWithAnnotation
 (
 LMANNO_FEEDURI
-{
-}
 )
 ;
 for
@@ -8517,8 +8499,6 @@ annotations
 getItemsWithAnnotation
 (
 EXCLUDE_FROM_BACKUP_ANNO
-{
-}
 )
 ;
 /
@@ -13371,8 +13351,6 @@ annotations
 getItemsWithAnnotation
 (
 EXCLUDE_FROM_BACKUP_ANNO
-{
-}
 )
 ;
 /

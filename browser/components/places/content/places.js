@@ -1686,8 +1686,6 @@ node
 .
 getQueries
 (
-{
-}
 )
 ;
 /
@@ -2788,8 +2786,6 @@ root
 .
 getQueries
 (
-{
-}
 )
 ;
 }

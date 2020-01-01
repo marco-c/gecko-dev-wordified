@@ -7742,8 +7742,6 @@ annosvc
 getItemsWithAnnotation
 (
 SMART_BOOKMARKS_ANNO
-{
-}
 )
 ;
 /

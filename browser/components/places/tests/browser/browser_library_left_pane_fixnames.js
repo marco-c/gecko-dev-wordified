@@ -824,8 +824,6 @@ annotations
 getItemsWithAnnotation
 (
 ORGANIZER_FOLDER_ANNO
-{
-}
 )
 ;
 is
@@ -898,8 +896,6 @@ annotations
 getItemsWithAnnotation
 (
 ORGANIZER_QUERY_ANNO
-{
-}
 )
 ;
 /

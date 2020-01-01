@@ -1880,8 +1880,6 @@ selectedNode
 .
 getQueries
 (
-{
-}
 )
 ;
 host
@@ -3728,8 +3726,6 @@ annotations
 getPageAnnotationNames
 (
 uri
-{
-}
 )
 ;
 for
@@ -3793,8 +3789,6 @@ getItemAnnotationNames
 node
 .
 itemId
-{
-}
 )
 ;
 for
@@ -7792,8 +7786,6 @@ aContainerNode
 .
 getQueries
 (
-{
-}
 )
 [
 0

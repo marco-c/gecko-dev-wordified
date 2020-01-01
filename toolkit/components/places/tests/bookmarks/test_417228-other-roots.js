@@ -934,8 +934,6 @@ getTagsForURI
 this
 .
 _testURI
-{
-}
 )
 ;
 /

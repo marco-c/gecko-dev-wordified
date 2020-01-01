@@ -1432,8 +1432,6 @@ example
 com
 "
 )
-{
-}
 )
 )
 [
@@ -1575,8 +1573,6 @@ example
 com
 "
 )
-{
-}
 )
 )
 [
@@ -1742,8 +1738,6 @@ example2
 com
 "
 )
-{
-}
 )
 )
 [
@@ -1838,8 +1832,6 @@ example2
 com
 "
 )
-{
-}
 )
 )
 [
@@ -2020,8 +2012,6 @@ example3
 com
 "
 )
-{
-}
 )
 ;
 bkmkIds
@@ -5022,8 +5012,6 @@ sortingtest
 com
 "
 )
-{
-}
 )
 ;
 b
@@ -5378,8 +5366,6 @@ content
 php
 "
 )
-{
-}
 )
 )
 [
@@ -5526,8 +5512,6 @@ bmsvc
 getBookmarkIdsForURI
 (
 postDataURI
-{
-}
 )
 )
 [
@@ -5786,8 +5770,6 @@ tagssvc
 getTagsForURI
 (
 tagURI
-{
-}
 )
 )
 uneval
@@ -5809,20 +5791,16 @@ undoTransaction
 (
 )
 ;
-do_check_true
+do_check_eq
 (
 tagssvc
 .
 getTagsForURI
 (
 tagURI
-{
-}
 )
 .
 length
-=
-=
 0
 )
 ;
@@ -5841,8 +5819,6 @@ tagssvc
 getTagsForURI
 (
 tagURI
-{
-}
 )
 )
 uneval
@@ -5888,8 +5864,6 @@ tagssvc
 getTagsForURI
 (
 tagURI
-{
-}
 )
 )
 uneval
@@ -5917,8 +5891,6 @@ tagssvc
 getTagsForURI
 (
 tagURI
-{
-}
 )
 )
 uneval
@@ -5949,8 +5921,6 @@ tagssvc
 getTagsForURI
 (
 tagURI
-{
-}
 )
 )
 uneval
@@ -7035,8 +7005,6 @@ example
 com
 "
 )
-{
-}
 )
 )
 [
@@ -7175,8 +7143,6 @@ example
 com
 "
 )
-{
-}
 )
 )
 [
@@ -7377,8 +7343,6 @@ childItem
 com
 "
 )
-{
-}
 )
 )
 [
@@ -7481,8 +7445,6 @@ childItem
 com
 "
 )
-{
-}
 )
 )
 [

@@ -1145,8 +1145,6 @@ annosvc
 getPagesWithAnnotation
 (
 testAnnoName
-{
-}
 )
 ;
 do_check_eq
@@ -1270,8 +1268,6 @@ annosvc
 getItemsWithAnnotation
 (
 testAnnoName
-{
-}
 )
 ;
 do_check_eq
@@ -1565,8 +1561,6 @@ annosvc
 getPageAnnotationNames
 (
 testURI
-{
-}
 )
 ;
 do_check_eq
@@ -1610,8 +1604,6 @@ annosvc
 getItemAnnotationNames
 (
 testItemId
-{
-}
 )
 ;
 do_check_eq
@@ -1670,8 +1662,6 @@ annosvc
 getPageAnnotationNames
 (
 testURI
-{
-}
 )
 ;
 annosvc
@@ -1691,8 +1681,6 @@ annosvc
 getPageAnnotationNames
 (
 newURI
-{
-}
 )
 ;
 do_check_eq
@@ -2833,8 +2821,6 @@ annosvc
 getItemsWithAnnotation
 (
 int32Key
-{
-}
 )
 .
 length
@@ -2848,8 +2834,6 @@ annosvc
 getPagesWithAnnotation
 (
 int32Key
-{
-}
 )
 .
 length

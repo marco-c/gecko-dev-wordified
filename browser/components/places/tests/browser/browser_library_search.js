@@ -1787,10 +1787,6 @@ query
 .
 getFolders
 (
-{
-}
-{
-}
 )
 [
 0
