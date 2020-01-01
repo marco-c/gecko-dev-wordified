@@ -4086,6 +4086,17 @@ ins0
 LIR_trace
 )
 ;
+if
+(
+fragment
+-
+>
+root
+=
+=
+fragment
+)
+{
 lirbuf
 -
 >
@@ -4124,6 +4135,7 @@ param1
 "
 )
 ;
+}
 lirbuf
 -
 >
