@@ -7576,7 +7576,8 @@ reset
 /
 every
 time
-weapply
+we
+apply
 the
 update
 .
