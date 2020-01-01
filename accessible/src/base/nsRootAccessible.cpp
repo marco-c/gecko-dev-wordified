@@ -3205,6 +3205,13 @@ return
 PR_FALSE
 ;
 }
+gLastFocusedAccessiblesState
+=
+State
+(
+finalFocusAccessible
+)
+;
 PRUint32
 role
 =
