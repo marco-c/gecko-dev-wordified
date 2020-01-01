@@ -9348,7 +9348,7 @@ NULL
 js_GetTopStackFrame
 (
 cx
-FRAME_EXPAND_NONE
+FRAME_EXPAND_ALL
 )
 :
 fp
