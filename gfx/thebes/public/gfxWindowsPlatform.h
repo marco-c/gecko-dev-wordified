@@ -489,6 +489,13 @@ gfxWindowsSurface
 h
 "
 #
+include
+"
+gfxFont
+.
+h
+"
+#
 ifdef
 MOZ_FT2_FONTS
 #
