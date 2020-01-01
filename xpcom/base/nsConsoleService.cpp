@@ -1059,14 +1059,14 @@ nsConsoleService
 :
 GetMessageArray
 (
-uint32_t
-*
-count
 nsIConsoleMessage
 *
 *
 *
 messages
+uint32_t
+*
+count
 )
 {
 nsIConsoleMessage
