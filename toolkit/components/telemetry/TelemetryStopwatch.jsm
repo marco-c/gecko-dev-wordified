@@ -371,6 +371,15 @@ reportError
 TelemetryStopwatch
 :
 key
+\
+"
+"
++
+aHistogram
++
+"
+\
+"
 was
 already
 initialized
