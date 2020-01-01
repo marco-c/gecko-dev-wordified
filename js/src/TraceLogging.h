@@ -132,11 +132,15 @@ class
 JSScript
 ;
 namespace
-js
+JS
 {
-struct
+class
 CompileOptions
 ;
+}
+namespace
+js
+{
 class
 TraceLogging
 {
@@ -332,6 +336,9 @@ log
 Type
 type
 const
+JS
+:
+:
 CompileOptions
 &
 options
@@ -485,6 +492,9 @@ TraceLogging
 Type
 stop
 const
+JS
+:
+:
 CompileOptions
 &
 options
