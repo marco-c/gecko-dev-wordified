@@ -687,9 +687,8 @@ Keeps
 track
 of
 which
-<
-Tabs
->
+xul
+:
 tab
 we
 are
