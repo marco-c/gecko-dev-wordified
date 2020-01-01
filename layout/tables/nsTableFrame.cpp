@@ -8206,6 +8206,11 @@ mAppearance
 f
 -
 >
+GetStyleBorder
+(
+)
+-
+>
 HasBorder
 (
 )
