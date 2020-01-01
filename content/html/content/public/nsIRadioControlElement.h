@@ -683,9 +683,7 @@ radio
 group
 know
 that
-it
-'
-s
+its
 "
 checked
 "

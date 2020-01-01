@@ -451,9 +451,7 @@ a
 boolean
 operation
 between
-it
-'
-s
+its
 lvalue
 and
 rvalue

@@ -8330,9 +8330,7 @@ walk
 /
 /
 up
-it
-'
-s
+its
 ancestors
 to
 find
@@ -8591,9 +8589,7 @@ walk
 /
 /
 up
-it
-'
-s
+its
 ancestors
 to
 find

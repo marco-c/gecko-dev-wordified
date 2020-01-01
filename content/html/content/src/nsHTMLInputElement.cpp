@@ -13609,9 +13609,7 @@ defaultValue
 Submit
 file
 if
-it
-'
-s
+its
 input
 type
 =

@@ -1274,9 +1274,7 @@ element
 or
 one
 of
-it
-'
-s
+its
 ancestors
 has
 an
@@ -1402,9 +1400,7 @@ element
 or
 one
 of
-it
-'
-s
+its
 ancestors
 has
 an

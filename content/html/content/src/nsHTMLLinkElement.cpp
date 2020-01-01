@@ -1417,9 +1417,7 @@ want
 to
 specify
 that
-it
-'
-s
+its
 author
 is
 a

@@ -8656,9 +8656,7 @@ hasn
 '
 t
 had
-it
-'
-s
+its
 /
 /
 GlobalObject

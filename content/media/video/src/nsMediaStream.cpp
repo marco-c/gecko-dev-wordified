@@ -2295,9 +2295,7 @@ channel
 /
 stream
 .
-It
-'
-s
+Its
 primary
 purpose
 is

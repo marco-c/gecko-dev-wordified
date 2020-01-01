@@ -2148,9 +2148,7 @@ is
 active
 and
 what
-it
-'
-s
+its
 simple
 time
 etc

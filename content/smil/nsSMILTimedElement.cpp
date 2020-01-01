@@ -1228,9 +1228,7 @@ the
 state
 engine
 through
-it
-'
-s
+its
 sequence
 active
 -
