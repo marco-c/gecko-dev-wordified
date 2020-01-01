@@ -754,6 +754,12 @@ ReflowFinished
 (
 )
 ;
+virtual
+void
+ReflowCallbackCanceled
+(
+)
+;
 /
 /
 nsICSSPseudoComparator

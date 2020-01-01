@@ -682,6 +682,12 @@ ReflowFinished
 (
 )
 ;
+virtual
+void
+ReflowCallbackCanceled
+(
+)
+;
 /
 /
 nsIBox

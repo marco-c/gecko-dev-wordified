@@ -1271,6 +1271,16 @@ return
 shouldFlush
 ;
 }
+virtual
+void
+ReflowCallbackCanceled
+(
+)
+{
+delete
+this
+;
+}
 nsWeakFrame
 mWeakFrame
 ;

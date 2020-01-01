@@ -731,6 +731,12 @@ ReflowFinished
 (
 )
 ;
+virtual
+void
+ReflowCallbackCanceled
+(
+)
+;
 /
 /
 nsIScrollPositionListener
