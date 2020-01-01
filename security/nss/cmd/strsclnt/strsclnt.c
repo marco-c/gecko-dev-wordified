@@ -107,6 +107,13 @@ stdlib
 h
 >
 #
+if
+!
+defined
+(
+_WIN32_WCE
+)
+#
 include
 <
 errno
@@ -120,6 +127,8 @@ fcntl
 .
 h
 >
+#
+endif
 #
 include
 <

@@ -132,6 +132,13 @@ h
 #
 include
 "
+pkcs11ni
+.
+h
+"
+#
+include
+"
 utilpars
 .
 h

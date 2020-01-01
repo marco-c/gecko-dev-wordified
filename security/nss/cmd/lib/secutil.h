@@ -2339,7 +2339,7 @@ extern
 SECStatus
 SECU_DerSignDataCRL
 (
-PLArenaPool
+PRArenaPool
 *
 arena
 CERTSignedData
@@ -2400,7 +2400,7 @@ extern
 SECStatus
 SECU_CopyCRL
 (
-PLArenaPool
+PRArenaPool
 *
 destArena
 CERTCrl
@@ -2440,7 +2440,7 @@ CERTAuthKeyID
 *
 SECU_FindCRLAuthKeyIDExten
 (
-PLArenaPool
+PRArenaPool
 *
 arena
 CERTSignedCrl
@@ -2512,7 +2512,7 @@ SECStatus
 EXTEN_EXT_VALUE_ENCODER
 )
 (
-PLArenaPool
+PRArenaPool
 *
 extHandleArena
 void
@@ -2541,7 +2541,7 @@ entries
 SECStatus
 SECU_EncodeAndAddExtensionValue
 (
-PLArenaPool
+PRArenaPool
 *
 arena
 void

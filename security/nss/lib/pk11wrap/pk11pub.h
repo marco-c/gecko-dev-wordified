@@ -6460,7 +6460,6 @@ key
 SECItem
 *
 sig
-const
 SECItem
 *
 hash
@@ -6472,7 +6471,6 @@ PK11_VerifyRecover
 SECKEYPublicKey
 *
 key
-const
 SECItem
 *
 sig
@@ -6490,11 +6488,9 @@ PK11_Verify
 SECKEYPublicKey
 *
 key
-const
 SECItem
 *
 sig
-const
 SECItem
 *
 hash
@@ -6736,7 +6732,6 @@ unsigned
 char
 *
 out
-const
 unsigned
 char
 *
@@ -6775,7 +6770,6 @@ int
 outlen
 int
 maxout
-const
 unsigned
 char
 *
