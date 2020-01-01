@@ -111,7 +111,9 @@ MPL
 #
 include
 "
-jstypedarray
+vm
+/
+TypedArrayObject
 .
 h
 "

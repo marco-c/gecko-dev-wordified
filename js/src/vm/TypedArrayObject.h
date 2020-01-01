@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jstypedarray_h
+vm_TypedArrayObject_h
 #
 define
-jstypedarray_h
+vm_TypedArrayObject_h
 #
 include
 "
@@ -3642,6 +3642,6 @@ TypedArrayObject
 endif
 /
 *
-jstypedarray_h
+vm_TypedArrayObject_h
 *
 /
