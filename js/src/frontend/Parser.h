@@ -744,6 +744,16 @@ errorNumber
 ;
 private
 :
+Parser
+*
+thisForCtor
+(
+)
+{
+return
+this
+;
+}
 ParseNode
 *
 allocParseNode

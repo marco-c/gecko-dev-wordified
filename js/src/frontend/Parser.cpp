@@ -728,7 +728,9 @@ cx
 )
 strictModeGetter
 (
-this
+thisForCtor
+(
+)
 )
 tokenStream
 (

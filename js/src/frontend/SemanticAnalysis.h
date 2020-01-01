@@ -121,7 +121,7 @@ StackFrame
 namespace
 frontend
 {
-class
+struct
 Parser
 ;
 /

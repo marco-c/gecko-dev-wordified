@@ -18109,7 +18109,9 @@ code
 skip
 (
 cx
-this
+thisForCtor
+(
+)
 )
 {
 if
@@ -18187,6 +18189,16 @@ lineno
 }
 private
 :
+BytecodeRangeWithLineNumbers
+*
+thisForCtor
+(
+)
+{
+return
+this
+;
+}
 void
 updateLine
 (
