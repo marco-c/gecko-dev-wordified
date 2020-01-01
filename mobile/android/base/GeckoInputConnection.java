@@ -4408,6 +4408,7 @@ GeckoEvent
 createKeyEvent
 (
 event
+0
 )
 )
 ;
@@ -4551,6 +4552,12 @@ GeckoEvent
 createKeyEvent
 (
 event
+TextKeyListener
+.
+getMetaState
+(
+uiEditable
+)
 )
 )
 ;
