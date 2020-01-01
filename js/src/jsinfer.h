@@ -8569,7 +8569,7 @@ Type
 type
 )
 ;
-void
+bool
 growPendingArray
 (
 JSContext

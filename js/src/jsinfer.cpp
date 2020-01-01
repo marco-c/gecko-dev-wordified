@@ -13490,7 +13490,7 @@ return
 false
 ;
 }
-void
+bool
 TypeCompartment
 :
 :
@@ -13559,6 +13559,7 @@ cx
 )
 ;
 return
+false
 ;
 }
 memcpy
@@ -13588,6 +13589,9 @@ newArray
 pendingCapacity
 =
 newCapacity
+;
+return
+true
 ;
 }
 void
