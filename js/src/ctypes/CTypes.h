@@ -3530,13 +3530,7 @@ JSContext
 cx
 JSObject
 *
-ctor
-JSObject
-*
 baseType
-JSString
-*
-name
 )
 ;
 JSObject
