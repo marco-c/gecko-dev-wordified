@@ -1559,6 +1559,11 @@ GetBGRALayerProgram
 )
 ;
 }
+ApplyFilter
+(
+mFilter
+)
+;
 program
 -
 >

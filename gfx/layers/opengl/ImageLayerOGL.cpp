@@ -2224,6 +2224,11 @@ GetTextureID
 )
 )
 ;
+ApplyFilter
+(
+mFilter
+)
+;
 gl
 (
 )
@@ -2255,6 +2260,11 @@ GetTextureID
 )
 )
 ;
+ApplyFilter
+(
+mFilter
+)
+;
 gl
 (
 )
@@ -2284,6 +2294,11 @@ mTextures
 GetTextureID
 (
 )
+)
+;
+ApplyFilter
+(
+mFilter
 )
 ;
 YCbCrTextureLayerProgram
@@ -2503,6 +2518,11 @@ mOGLManager
 >
 GetBGRALayerProgram
 (
+)
+;
+ApplyFilter
+(
+mFilter
 )
 ;
 program
