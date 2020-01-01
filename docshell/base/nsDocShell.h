@@ -2198,6 +2198,9 @@ JSVal
 nsresult
 StringifyJSValVariant
 (
+JSContext
+*
+aCx
 nsIVariant
 *
 aData
