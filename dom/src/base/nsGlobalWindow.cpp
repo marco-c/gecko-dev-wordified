@@ -13132,11 +13132,12 @@ GetMainWidget
 (
 )
 ;
-if
+NS_ENSURE_TRUE
 (
 mainWidget
+nsnull
 )
-{
+;
 /
 /
 Get
@@ -13482,7 +13483,6 @@ active
 PR_TRUE
 )
 ;
-}
 }
 }
 }
