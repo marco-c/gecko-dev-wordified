@@ -841,7 +841,7 @@ mHandScrollStartScrollY
 /
 /
 when
-menuForEvent
+mouseDown
 :
 is
 called
@@ -855,7 +855,7 @@ strong
 )
 NSEvent
 *
-mLastMenuForEventEvent
+mLastMouseDownEvent
 ;
 /
 /
