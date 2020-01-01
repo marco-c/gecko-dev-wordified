@@ -782,7 +782,7 @@ PRInt32
 (
 static_cast
 <
-PRFloat64
+double
 >
 (
 delay_num

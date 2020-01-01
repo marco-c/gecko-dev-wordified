@@ -5203,7 +5203,7 @@ modtime
 time_t
 )
 (
-PRFloat64
+double
 (
 aLastModTime
 )

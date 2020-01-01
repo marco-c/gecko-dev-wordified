@@ -4212,7 +4212,7 @@ bps
 n
 "
 (
-PRFloat64
+double
 )
 (
 info

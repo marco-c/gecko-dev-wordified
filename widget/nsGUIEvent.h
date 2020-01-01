@@ -8607,7 +8607,7 @@ nsIWidget
 w
 PRUint32
 directionArg
-PRFloat64
+double
 deltaArg
 )
 :
@@ -8687,7 +8687,7 @@ See
 nsIDOMSimpleGestureEvent
 for
 values
-PRFloat64
+double
 delta
 ;
 /

@@ -4975,7 +4975,7 @@ float
 aY
 PRUint32
 aDirection
-PRFloat64
+double
 aDelta
 PRInt32
 aModifiers
