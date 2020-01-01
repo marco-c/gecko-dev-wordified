@@ -221,6 +221,12 @@ DASHReader
 (
 )
 ;
+nsresult
+ResetDecode
+(
+)
+MOZ_OVERRIDE
+;
 /
 /
 Adds
@@ -299,6 +305,7 @@ MetadataTags
 *
 aTags
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -589,11 +596,13 @@ bool
 HasAudio
 (
 )
+MOZ_OVERRIDE
 ;
 bool
 HasVideo
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -658,6 +667,7 @@ MediaDecoderReader
 *
 aCloneDonor
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -671,11 +681,13 @@ int64_t
 VideoQueueMemoryInUse
 (
 )
+MOZ_OVERRIDE
 ;
 int64_t
 AudioQueueMemoryInUse
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -741,11 +753,13 @@ aKeyframeSkip
 int64_t
 aTimeThreshold
 )
+MOZ_OVERRIDE
 ;
 bool
 DecodeAudioData
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -775,6 +789,7 @@ aEndTime
 int64_t
 aCurrentTime
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -795,6 +810,7 @@ aBuffered
 int64_t
 aStartTime
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -815,6 +831,7 @@ int64_t
 &
 aOutStartTime
 )
+MOZ_OVERRIDE
 ;
 /
 /
