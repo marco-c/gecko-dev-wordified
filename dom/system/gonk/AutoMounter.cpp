@@ -1796,6 +1796,15 @@ RegisterStateObserver
 mVolumeManagerStateObserver
 )
 ;
+Volume
+:
+:
+RegisterObserver
+(
+&
+mVolumeEventObserver
+)
+;
 for
 (
 size_t
@@ -1835,9 +1844,6 @@ i
 if
 (
 vol
-!
-=
-NULL
 )
 {
 vol
@@ -1924,6 +1930,15 @@ mVolumeEventObserver
 )
 ;
 }
+Volume
+:
+:
+UnregisterObserver
+(
+&
+mVolumeEventObserver
+)
+;
 VolumeManager
 :
 :
@@ -2952,7 +2967,7 @@ volState
 )
 {
 case
-Volume
+nsIVolume
 :
 :
 STATE_MOUNTED
@@ -3003,7 +3018,7 @@ return
 ;
 }
 case
-Volume
+nsIVolume
 :
 :
 STATE_IDLE
@@ -3093,7 +3108,7 @@ volState
 )
 {
 case
-Volume
+nsIVolume
 :
 :
 STATE_SHARED
@@ -3141,7 +3156,7 @@ return
 ;
 }
 case
-Volume
+nsIVolume
 :
 :
 STATE_IDLE
