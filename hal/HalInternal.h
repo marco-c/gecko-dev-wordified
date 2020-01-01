@@ -662,7 +662,7 @@ backend
 *
 /
 void
-EnableScreenOrientationNotifications
+EnableScreenConfigurationNotifications
 (
 )
 ;
@@ -681,7 +681,7 @@ backend
 *
 /
 void
-DisableScreenOrientationNotifications
+DisableScreenConfigurationNotifications
 (
 )
 ;
