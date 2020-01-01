@@ -3514,6 +3514,8 @@ _dragger
 .
 isDraggable
 (
+targetScrollbox
+targetScrollInterface
 )
 ;
 dragData
