@@ -145,15 +145,6 @@ include
 "
 mozilla
 /
-RangedPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Util
 .
 h
