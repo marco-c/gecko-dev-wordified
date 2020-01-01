@@ -249,6 +249,13 @@ Preferences
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 /
 *
 *
