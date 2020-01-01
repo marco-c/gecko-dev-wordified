@@ -57,6 +57,12 @@ gcFunctions
 }
 ;
 var
+gcEdges
+=
+{
+}
+;
+var
 suppressedFunctions
 =
 {
