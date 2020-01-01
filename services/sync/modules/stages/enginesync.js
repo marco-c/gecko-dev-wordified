@@ -526,15 +526,12 @@ minutes
 .
 if
 (
+!
 this
 .
 service
 .
 clusterURL
-=
-=
-"
-"
 &
 &
 !
@@ -542,7 +539,9 @@ this
 .
 service
 .
-_setCluster
+_clusterManager
+.
+setCluster
 (
 )
 )
