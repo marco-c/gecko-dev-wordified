@@ -3434,6 +3434,8 @@ String
 typeHint
 String
 actionHint
+boolean
+landscapeFS
 )
 {
 if
@@ -3450,6 +3452,7 @@ notifyIMEEnabled
 state
 typeHint
 actionHint
+landscapeFS
 )
 ;
 }
