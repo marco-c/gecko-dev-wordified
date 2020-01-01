@@ -11156,6 +11156,15 @@ name
 will
 be
 uppercase
+if
+(
+!
+IsSystemPrincipal
+(
+mPrincipal
+)
+)
+{
 nsCOMPtr
 <
 nsIURI
@@ -11181,6 +11190,7 @@ SetReferrer
 codebase
 )
 ;
+}
 }
 if
 (
