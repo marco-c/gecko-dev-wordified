@@ -2253,6 +2253,12 @@ resultTypeSet_
 ;
 }
 bool
+emptyResultTypeSet
+(
+)
+const
+;
+bool
 mightBeType
 (
 MIRType
