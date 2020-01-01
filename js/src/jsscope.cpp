@@ -3801,9 +3801,12 @@ child
 ;
 if
 (
+!
 shape
 )
-{
+return
+NULL
+;
 JS_ASSERT
 (
 shape
@@ -3835,7 +3838,6 @@ setLastProperty
 shape
 )
 ;
-}
 }
 updateFlags
 (
