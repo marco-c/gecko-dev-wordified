@@ -772,13 +772,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsWebShellWindow
 .
 h
@@ -13431,7 +13424,7 @@ Accessors
 *
 *
 *
-PRInt32
+PRUint32
 nsXULWindow
 :
 :

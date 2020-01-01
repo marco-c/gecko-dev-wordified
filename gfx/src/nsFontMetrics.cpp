@@ -789,8 +789,7 @@ nsnull
 )
 mP2A
 (
--
-1
+0
 )
 mTextRunRTL
 (
@@ -845,8 +844,7 @@ NS_ABORT_IF_FALSE
 mP2A
 =
 =
--
-1
+0
 "
 already
 initialized

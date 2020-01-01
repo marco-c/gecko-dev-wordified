@@ -1518,7 +1518,7 @@ GetUserFontSet
 )
 ;
 }
-PRInt32
+PRUint32
 AppUnitsPerDevPixel
 (
 )
@@ -1559,7 +1559,7 @@ nsDeviceContext
 *
 mDeviceContext
 ;
-PRInt32
+PRUint32
 mP2A
 ;
 PRPackedBool

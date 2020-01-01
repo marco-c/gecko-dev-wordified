@@ -1691,7 +1691,7 @@ mHasPendingUpdates
 PR_TRUE
 ;
 }
-PRInt32
+PRUint32
 AppUnitsPerDevPixel
 (
 )
