@@ -54511,6 +54511,13 @@ if
 (
 !
 bIsJavascript
+&
+&
+aFileName
+.
+IsVoid
+(
+)
 )
 {
 /
