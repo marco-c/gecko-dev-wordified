@@ -458,7 +458,7 @@ h
 #
 include
 "
-nsIAccessibilityService
+nsAccessibilityService
 .
 h
 "
@@ -4349,7 +4349,10 @@ cache
 if
 (
 !
-gIsShuttingDownApp
+nsAccessibilityService
+:
+:
+gIsShutdown
 )
 gGlobalDocAccessibleCache
 .
