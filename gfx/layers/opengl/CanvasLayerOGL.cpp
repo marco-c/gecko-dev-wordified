@@ -1594,7 +1594,12 @@ mPixmap
 }
 #
 endif
-ApplyFilter
+gl
+(
+)
+-
+>
+ApplyFilterToBoundTexture
 (
 mFilter
 )
@@ -2040,7 +2045,10 @@ GetShaderProgramType
 )
 )
 ;
-ApplyFilter
+mTexImage
+-
+>
+SetFilter
 (
 mFilter
 )
@@ -2100,7 +2108,7 @@ do
 TextureImage
 :
 :
-ScopedBindTexture
+ScopedBindTextureAndApplyFilter
 texBind
 (
 mTexImage
