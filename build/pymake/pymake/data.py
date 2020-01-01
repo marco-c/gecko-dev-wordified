@@ -9838,6 +9838,8 @@ line
 "
 %
 (
+self
+.
 cline
 badchar
 )
@@ -9872,6 +9874,8 @@ name
 specified
 "
 %
+self
+.
 cline
 self
 .
