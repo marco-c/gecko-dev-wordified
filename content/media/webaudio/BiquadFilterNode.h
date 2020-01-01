@@ -137,7 +137,7 @@ include
 "
 mozilla
 /
-ErrorResult
+Attributes
 .
 h
 "
@@ -146,7 +146,7 @@ include
 "
 mozilla
 /
-TypedEnum
+ErrorResult
 .
 h
 "
