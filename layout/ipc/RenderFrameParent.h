@@ -526,6 +526,13 @@ RecvNotifyCompositorTransaction
 MOZ_OVERRIDE
 ;
 virtual
+bool
+RecvCancelDefaultPanZoom
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 PLayersParent
 *
 AllocPLayers
