@@ -547,7 +547,7 @@ scache
 {
 NS_IMPORT
 nsresult
-NS_NewObjectInputStreamFromBuffer
+NewObjectInputStreamFromBuffer
 (
 char
 *
@@ -584,7 +584,7 @@ here
 .
 NS_IMPORT
 nsresult
-NS_NewObjectOutputWrappedStorageStream
+NewObjectOutputWrappedStorageStream
 (
 nsIObjectOutputStream
 *
@@ -598,7 +598,7 @@ stream
 ;
 NS_IMPORT
 nsresult
-NS_NewBufferFromStorageStream
+NewBufferFromStorageStream
 (
 nsIStorageStream
 *
@@ -1299,7 +1299,7 @@ done
 with
 /
 /
-NS_NewObjectOutputWrappedStorageStream
+NewObjectOutputWrappedStorageStream
 but
 that
 uses
@@ -1512,7 +1512,7 @@ buf
 PRUint32
 len
 ;
-NS_NewBufferFromStorageStream
+NewBufferFromStorageStream
 (
 storageStream
 &
@@ -1642,7 +1642,7 @@ buf2Ptr
 ;
 rv
 =
-NS_NewObjectInputStreamFromBuffer
+NewObjectInputStreamFromBuffer
 (
 buf2
 len2

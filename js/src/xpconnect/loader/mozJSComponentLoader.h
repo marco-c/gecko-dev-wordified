@@ -554,13 +554,6 @@ StartupCache
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-scache
-;
 #
 include
 "

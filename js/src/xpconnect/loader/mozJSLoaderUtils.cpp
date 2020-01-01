@@ -1261,7 +1261,7 @@ ois
 ;
 rv
 =
-NS_NewObjectInputStreamFromBuffer
+NewObjectInputStreamFromBuffer
 (
 buf
 len
@@ -1326,7 +1326,7 @@ storageStream
 ;
 rv
 =
-NS_NewObjectOutputWrappedStorageStream
+NewObjectOutputWrappedStorageStream
 (
 getter_AddRefs
 (
@@ -1378,7 +1378,7 @@ len
 ;
 rv
 =
-NS_NewBufferFromStorageStream
+NewBufferFromStorageStream
 (
 storageStream
 getter_Transfers

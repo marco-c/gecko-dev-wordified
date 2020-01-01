@@ -784,6 +784,13 @@ FunctionTimer
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+scache
+;
 static
 const
 char
@@ -4610,7 +4617,7 @@ kJSCachePrefix
 ;
 rv
 =
-NS_PathifyURI
+PathifyURI
 (
 aURI
 cachePath
