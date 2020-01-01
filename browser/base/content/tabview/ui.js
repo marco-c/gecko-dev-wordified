@@ -5423,9 +5423,7 @@ force
 if
 (
 typeof
-(
 force
-)
 =
 =
 "
