@@ -4751,17 +4751,6 @@ see
 JSOPTION_XML
 *
 /
-JS_STATIC_ASSERT
-(
-sizeof
-(
-maybeEOL
-)
-=
-=
-256
-)
-;
 }
 ;
 }
