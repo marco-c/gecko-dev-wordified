@@ -2456,7 +2456,7 @@ JS_GetPropertyDescriptorById
 cx
 hallpass
 id
-JSRESOLVE_QUALIFIED
+0
 &
 desc
 )

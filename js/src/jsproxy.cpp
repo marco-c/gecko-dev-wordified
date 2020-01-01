@@ -2255,7 +2255,7 @@ JS_GetPropertyDescriptorById
 cx
 target
 id
-JSRESOLVE_QUALIFIED
+0
 desc
 )
 ;
@@ -2405,7 +2405,7 @@ GetOwnPropertyDescriptor
 cx
 target
 id
-JSRESOLVE_QUALIFIED
+0
 desc
 )
 ;
@@ -3127,7 +3127,7 @@ JS_GetPropertyDescriptorById
 cx
 target
 id
-JSRESOLVE_QUALIFIED
+0
 &
 desc
 )
@@ -7976,7 +7976,7 @@ JS_GetPropertyDescriptorById
 cx
 obj
 id
-JSRESOLVE_QUALIFIED
+0
 &
 desc
 )
@@ -9696,7 +9696,7 @@ JS_GetPropertyDescriptorById
 cx
 proto
 id
-JSRESOLVE_QUALIFIED
+0
 desc
 )
 ;
@@ -13099,7 +13099,7 @@ JS_GetPropertyDescriptorById
 cx
 proto
 id
-JSRESOLVE_QUALIFIED
+0
 desc
 )
 )
@@ -14323,7 +14323,7 @@ JS_GetPropertyDescriptorById
 cx
 proto
 id
-JSRESOLVE_QUALIFIED
+0
 &
 desc
 )

@@ -528,7 +528,7 @@ JS_GetPropertyDescriptorById
 cx
 proto
 id
-JSRESOLVE_QUALIFIED
+0
 desc
 )
 ;

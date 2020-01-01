@@ -18464,7 +18464,7 @@ LookupPropertyWithFlags
 cx
 baseobj
 id
-JSRESOLVE_QUALIFIED
+0
 &
 holder
 &

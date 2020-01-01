@@ -886,7 +886,7 @@ JS_GetPropertyDescriptorById
 cx
 obj
 id
-JSRESOLVE_QUALIFIED
+0
 &
 desc
 )
@@ -1382,7 +1382,7 @@ JS_LookupPropertyWithFlagsById
 cx
 obj
 id
-JSRESOLVE_QUALIFIED
+0
 &
 obj2
 &

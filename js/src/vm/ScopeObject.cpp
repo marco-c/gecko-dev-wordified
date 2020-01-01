@@ -9216,7 +9216,7 @@ JS_GetPropertyDescriptorById
 cx
 scope
 id
-JSRESOLVE_QUALIFIED
+0
 desc
 )
 ;

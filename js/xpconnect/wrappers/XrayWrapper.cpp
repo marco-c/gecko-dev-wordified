@@ -3747,8 +3747,6 @@ JSRESOLVE_ASSIGNING
 :
 0
 )
-|
-JSRESOLVE_QUALIFIED
 ;
 nsresult
 rv
@@ -3815,15 +3813,13 @@ JS_GetPropertyDescriptorById
 cx
 holder
 id
-JSRESOLVE_QUALIFIED
+0
 desc
 )
 )
-{
 return
 false
 ;
-}
 return
 true
 ;
@@ -5977,8 +5973,6 @@ JSRESOLVE_ASSIGNING
 :
 0
 )
-|
-JSRESOLVE_QUALIFIED
 ;
 JSBool
 hasProp
@@ -8012,8 +8006,6 @@ JSRESOLVE_ASSIGNING
 :
 0
 )
-|
-JSRESOLVE_QUALIFIED
 desc
 )
 )
@@ -8272,7 +8264,7 @@ JS_GetPropertyDescriptorById
 cx
 holder
 id
-JSRESOLVE_QUALIFIED
+0
 desc
 )
 )
@@ -8448,8 +8440,6 @@ JSRESOLVE_ASSIGNING
 :
 0
 )
-|
-JSRESOLVE_QUALIFIED
 ;
 return
 JS_DefinePropertyById
@@ -8705,8 +8695,6 @@ JSRESOLVE_ASSIGNING
 :
 0
 )
-|
-JSRESOLVE_QUALIFIED
 desc
 )
 )
@@ -8786,8 +8774,6 @@ JSRESOLVE_ASSIGNING
 :
 0
 )
-|
-JSRESOLVE_QUALIFIED
 ;
 if
 (
