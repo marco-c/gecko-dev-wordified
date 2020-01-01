@@ -1589,17 +1589,6 @@ AdjustView
 (
 )
 ;
-void
-GetViewOffset
-(
-nsIView
-*
-aView
-nsPoint
-&
-aPoint
-)
-;
 nsIView
 *
 GetRootViewForPopup
@@ -1607,8 +1596,6 @@ GetRootViewForPopup
 nsIFrame
 *
 aStartFrame
-PRBool
-aStopAtViewManagerRoot
 )
 ;
 /
