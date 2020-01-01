@@ -2386,13 +2386,6 @@ eWrappedFunctionSlot
 funobjVal
 )
 ;
-funobj
-=
-JSVAL_TO_OBJECT
-(
-funobjVal
-)
-;
 }
 JSFunction
 *
