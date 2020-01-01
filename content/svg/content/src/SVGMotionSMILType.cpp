@@ -496,13 +496,6 @@ h
 #
 include
 "
-nsSVGPathSeg
-.
-h
-"
-#
-include
-"
 nsIDOMSVGPathSeg
 .
 h
