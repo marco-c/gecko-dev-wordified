@@ -1850,6 +1850,12 @@ DOMCI_CLASS
 (
 CSSFontFaceStyleDecl
 )
+#
+if
+defined
+(
+MOZ_MEDIA
+)
 /
 /
 WhatWG
@@ -1871,6 +1877,8 @@ DOMCI_CLASS
 (
 HTMLAudioElement
 )
+#
+endif
 DOMCI_CLASS
 (
 ProgressEvent
@@ -1948,6 +1956,10 @@ WebGLFramebuffer
 DOMCI_CLASS
 (
 WebGLRenderbuffer
+)
+DOMCI_CLASS
+(
+WebGLUniformLocation
 )
 /
 /
