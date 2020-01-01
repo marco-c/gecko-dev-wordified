@@ -162,6 +162,13 @@ h
 #
 include
 "
+DeviceStorage
+.
+h
+"
+#
+include
+"
 nsIDOMCameraManager
 .
 h
@@ -620,9 +627,6 @@ GonkRecorder
 *
 mRecorder
 ;
-nsString
-mVideoFile
-;
 /
 /
 camcorder
@@ -644,6 +648,12 @@ nsRefPtr
 GonkRecorderProfile
 >
 mRecorderProfile
+;
+nsRefPtr
+<
+DeviceStorageFile
+>
+mVideoFile
 ;
 private
 :
