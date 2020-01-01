@@ -819,7 +819,7 @@ h
 #
 include
 "
-nsIDOMStorage
+nsIDOMStorageObsolete
 .
 h
 "
@@ -2227,14 +2227,14 @@ aGroup
 virtual
 NS_HIDDEN_
 (
-nsresult
+nsIScriptContext
+*
 )
 GetContextForEventHandlers
 (
-nsIScriptContext
+nsresult
 *
-*
-aContext
+aRv
 )
 ;
 virtual
@@ -4432,7 +4432,7 @@ mPkcs11
 ;
 nsCOMPtr
 <
-nsIDOMStorage2
+nsIDOMStorage
 >
 mLocalStorage
 ;
@@ -4511,7 +4511,7 @@ mTimeoutFiringDepth
 ;
 nsCOMPtr
 <
-nsIDOMStorage
+nsIDOMStorageObsolete
 >
 mSessionStorage
 ;
