@@ -860,12 +860,14 @@ honour
 our
 visibility
 setting
-NS_IMETHODIMP
+nsresult
 nsIsIndexFrame
 :
 :
 UpdatePromptLabel
 (
+PRBool
+aNotify
 )
 {
 if
@@ -1017,7 +1019,7 @@ mTextContent
 SetText
 (
 prompt
-PR_TRUE
+aNotify
 )
 ;
 return
@@ -1391,6 +1393,7 @@ child
 list
 UpdatePromptLabel
 (
+PR_FALSE
 )
 ;
 if
@@ -1807,6 +1810,7 @@ rv
 =
 UpdatePromptLabel
 (
+PR_TRUE
 )
 ;
 }

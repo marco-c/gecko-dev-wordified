@@ -818,9 +818,11 @@ mPostHr
 ;
 private
 :
-NS_IMETHOD
+nsresult
 UpdatePromptLabel
 (
+PRBool
+aNotify
 )
 ;
 nsresult
