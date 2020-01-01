@@ -516,6 +516,13 @@ h
 #
 include
 "
+nsIDOMHTMLElement
+.
+h
+"
+#
+include
+"
 nsFrameList
 .
 h
