@@ -13314,9 +13314,6 @@ case
 JSOP_SETLOCAL
 :
 case
-JSOP_SETLOCALPOP
-:
-case
 JSOP_INCLOCAL
 :
 case

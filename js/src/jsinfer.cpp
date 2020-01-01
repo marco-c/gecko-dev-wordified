@@ -24786,9 +24786,6 @@ JSOP_SETARG
 case
 JSOP_SETLOCAL
 :
-case
-JSOP_SETLOCALPOP
-:
 {
 uint32_t
 slot
