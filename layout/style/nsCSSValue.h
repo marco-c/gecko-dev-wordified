@@ -1245,7 +1245,7 @@ NS_ASSERTION
 aUnit
 <
 =
-eCSSUnit_System_Font
+eCSSUnit_Dummy
 "
 not
 a
