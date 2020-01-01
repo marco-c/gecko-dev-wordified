@@ -557,10 +557,7 @@ Shutdown
 ;
 }
 operator
-nsDerivedSafe
-<
 nsIThread
->
 *
 (
 )
@@ -570,10 +567,7 @@ return
 mThread
 ;
 }
-nsDerivedSafe
-<
 nsIThread
->
 *
 operator
 -

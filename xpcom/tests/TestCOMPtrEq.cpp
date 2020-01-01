@@ -703,10 +703,7 @@ rkc
 =
 0
 ;
-nsDerivedSafe
-<
 nsICOMPtrEqTestFoo
->
 *
 d
 =
@@ -756,10 +753,7 @@ rkc2
 =
 0
 ;
-nsDerivedSafe
-<
 nsICOMPtrEqTestFoo2
->
 *
 d2
 =
