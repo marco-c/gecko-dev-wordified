@@ -3000,11 +3000,6 @@ if
 (
 view
 .
-Source
-&
-&
-view
-.
 Sources
 .
 selectedValue
@@ -3016,8 +3011,6 @@ data
 uri
 )
 {
-return
-void
 view
 .
 editor
@@ -3030,6 +3023,12 @@ line
 -
 1
 )
+;
+onOpen
+(
+)
+;
+return
 ;
 }
 panelWin
