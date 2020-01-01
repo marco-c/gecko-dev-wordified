@@ -24127,6 +24127,12 @@ updatePersonalToolbarStyle
 (
 )
 ;
+BookmarksMenuButton
+.
+customizeChange
+(
+)
+;
 allTabs
 .
 readPref
