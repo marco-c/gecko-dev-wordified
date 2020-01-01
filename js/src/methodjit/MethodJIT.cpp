@@ -10435,6 +10435,17 @@ cx
 i
 )
 ;
+if
+(
+shimPool
+)
+shimPool
+-
+>
+release
+(
+)
+;
 }
 void
 JITScript
