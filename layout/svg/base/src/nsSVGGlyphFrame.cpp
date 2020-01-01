@@ -7867,9 +7867,11 @@ cp
 )
 ;
 if
+(
 NS_FAILED
 (
 rv
+)
 )
 {
 NS_WARNING
