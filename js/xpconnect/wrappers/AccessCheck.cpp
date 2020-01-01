@@ -3253,6 +3253,13 @@ nsIDocument
 :
 :
 eNoExposedProps
+/
+*
+asError
+=
+*
+/
+true
 )
 ;
 }
