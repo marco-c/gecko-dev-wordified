@@ -4704,6 +4704,9 @@ restarts
 PENDING_INSTALL
 :
 8
+PENDING_UPGRADE
+:
+16
 /
 /
 Constants
