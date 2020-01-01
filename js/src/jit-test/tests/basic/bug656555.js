@@ -25,11 +25,6 @@ function
 }
 ;
 }
-dis
-(
-f
-)
-;
 trap
 (
 f
