@@ -909,9 +909,9 @@ styleSheets
 .
 length
 ;
-+
-+
 i
++
++
 )
 {
 if
@@ -6065,9 +6065,9 @@ listeners
 .
 length
 ;
-+
-+
 i
++
++
 )
 {
 let
