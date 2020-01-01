@@ -3850,13 +3850,6 @@ references
 styleBinding
 -
 >
-UnhookEventHandlers
-(
-)
-;
-styleBinding
--
->
 ChangeDocument
 (
 document
