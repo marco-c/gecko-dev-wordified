@@ -478,13 +478,6 @@ h
 #
 include
 "
-nsSVGFilterFrame
-.
-h
-"
-#
-include
-"
 nsSVGSVGElement
 .
 h

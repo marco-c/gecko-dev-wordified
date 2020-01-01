@@ -498,9 +498,6 @@ class
 nsSVGMarkerFrame
 ;
 class
-nsISVGFilterFrame
-;
-class
 nsSVGMarkerProperty
 ;
 typedef

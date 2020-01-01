@@ -759,7 +759,7 @@ public
 :
 nsSVGFilterProperty
 (
-nsISVGFilterFrame
+nsSVGFilterFrame
 *
 aFilter
 nsIFrame
@@ -776,7 +776,7 @@ return
 mFilterRect
 ;
 }
-nsISVGFilterFrame
+nsSVGFilterFrame
 *
 GetFilterFrame
 (
@@ -884,7 +884,7 @@ DoUpdate
 nsWeakPtr
 mObservedFilter
 ;
-nsISVGFilterFrame
+nsSVGFilterFrame
 *
 mFilter
 ;
@@ -912,7 +912,7 @@ nsSVGFilterProperty
 :
 nsSVGFilterProperty
 (
-nsISVGFilterFrame
+nsSVGFilterFrame
 *
 aFilter
 nsIFrame
@@ -4513,7 +4513,7 @@ NS_STATE_SVG_FILTERED
 )
 )
 {
-nsISVGFilterFrame
+nsSVGFilterFrame
 *
 filter
 ;

@@ -486,9 +486,6 @@ nsContainerFrame
 nsSVGForeignObjectFrameBase
 ;
 class
-nsISVGFilterFrame
-;
-class
 nsSVGForeignObjectFrame
 :
 public

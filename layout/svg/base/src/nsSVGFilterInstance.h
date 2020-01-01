@@ -443,13 +443,6 @@ h
 #
 include
 "
-nsIDOMSVGAnimatedEnum
-.
-h
-"
-#
-include
-"
 nsInterfaceHashtable
 .
 h
