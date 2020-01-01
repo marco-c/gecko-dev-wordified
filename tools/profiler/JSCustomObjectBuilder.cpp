@@ -1112,9 +1112,6 @@ mStream
 )
 ;
 return
-PLDHashOperator
-:
-:
 PL_DHASH_NEXT
 ;
 }
@@ -1292,9 +1289,6 @@ delete
 aValue
 ;
 return
-PLDHashOperator
-:
-:
 PL_DHASH_NEXT
 ;
 }
