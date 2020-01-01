@@ -1052,7 +1052,9 @@ JS_ASSERT
 header
 -
 >
-convertDoubleElements
+shouldConvertDoubleElements
+(
+)
 )
 ;
 Value
@@ -1116,9 +1118,9 @@ toInt32
 header
 -
 >
-convertDoubleElements
-=
-1
+setShouldConvertDoubleElements
+(
+)
 ;
 return
 true
