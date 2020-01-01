@@ -8697,6 +8697,14 @@ CountMissingGlyphs
 return
 textRun
 ;
+gfxTextRunCache
+:
+:
+ReleaseTextRun
+(
+textRun
+)
+;
 static
 const
 PRUint8
