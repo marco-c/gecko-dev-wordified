@@ -18504,17 +18504,6 @@ the
 row
 group
 array
-nsIFrame
-*
-kidNextInFlow
-=
-kidFrame
--
->
-GetNextInFlow
-(
-)
-;
 PRBool
 reorder
 =
@@ -18950,6 +18939,8 @@ aStatus
 )
 )
 {
+nsIFrame
+*
 kidNextInFlow
 =
 kidFrame
