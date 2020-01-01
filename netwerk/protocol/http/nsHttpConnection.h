@@ -1439,6 +1439,13 @@ EnsureNPNComplete
 (
 )
 ;
+void
+SetupNPN
+(
+PRUint8
+caps
+)
+;
 /
 /
 Directly
@@ -1631,6 +1638,9 @@ SPDY
 related
 bool
 mNPNComplete
+;
+bool
+mSetupNPNCalled
 ;
 bool
 mUsingSpdy
