@@ -32627,10 +32627,6 @@ DetachEditorFromWindow
 (
 )
 {
-if
-(
-mOSHE
-)
 DetachEditorFromWindow
 (
 mOSHE
