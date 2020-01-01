@@ -9019,6 +9019,14 @@ vp
 if
 (
 argc
+&
+&
+member
+-
+>
+IsWritableAttribute
+(
+)
 )
 {
 ccx
