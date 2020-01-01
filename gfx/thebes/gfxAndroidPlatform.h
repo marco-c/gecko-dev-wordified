@@ -222,7 +222,7 @@ mOffscreenFormat
 mozilla
 :
 :
-RefPtr
+TemporaryRef
 <
 mozilla
 :

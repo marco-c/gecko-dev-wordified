@@ -3647,7 +3647,7 @@ return
 srcBuffer
 ;
 }
-RefPtr
+TemporaryRef
 <
 ScaledFont
 >

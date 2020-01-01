@@ -3009,7 +3009,7 @@ mIsValid
 true
 ;
 }
-RefPtr
+TemporaryRef
 <
 ScaledFont
 >
@@ -3018,12 +3018,15 @@ gfxMacFont
 :
 GetScaledFont
 (
+DrawTarget
+*
+aTarget
 )
 {
 if
 (
 !
-mAzureFont
+mAzureScaledFont
 )
 {
 NativeFont
@@ -3043,7 +3046,7 @@ GetCGFontRef
 (
 )
 ;
-mAzureFont
+mAzureScaledFont
 =
 mozilla
 :
@@ -3065,7 +3068,7 @@ mScaledFont
 ;
 }
 return
-mAzureFont
+mAzureScaledFont
 ;
 }
 void

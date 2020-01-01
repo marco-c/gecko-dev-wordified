@@ -4116,7 +4116,7 @@ NULL
 }
 #
 endif
-RefPtr
+TemporaryRef
 <
 ScaledFont
 >

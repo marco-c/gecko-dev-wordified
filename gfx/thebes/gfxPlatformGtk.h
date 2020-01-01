@@ -217,7 +217,7 @@ contentType
 mozilla
 :
 :
-RefPtr
+TemporaryRef
 <
 mozilla
 :

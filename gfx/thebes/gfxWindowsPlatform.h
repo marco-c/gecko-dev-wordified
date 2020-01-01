@@ -568,7 +568,7 @@ virtual
 mozilla
 :
 :
-RefPtr
+TemporaryRef
 <
 mozilla
 :
