@@ -21957,6 +21957,16 @@ pc
 =
 cond
 ;
+oplen
+=
+js_CodeSpec
+[
+*
+pc
+]
+.
+length
+;
 elseif
 =
 JS_TRUE
