@@ -713,6 +713,12 @@ initialize
 nsIFile
 *
 aDatabaseFile
+const
+char
+*
+aVFSName
+=
+NULL
 )
 ;
 /

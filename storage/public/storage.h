@@ -641,6 +641,13 @@ mozIStorageBindingParams
 .
 h
 "
+#
+include
+"
+mozIStorageServiceQuotaManagement
+.
+h
+"
 /
 /
 /
