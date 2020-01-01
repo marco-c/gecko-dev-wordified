@@ -430,8 +430,7 @@ h
 #
 if
 ANDROID_VERSION
->
-=
+<
 8
 /
 *
