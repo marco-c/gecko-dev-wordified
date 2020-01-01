@@ -12351,11 +12351,9 @@ GlobalObject
 global
 JSProtoKey
 key
-JSObject
-*
+HandleObject
 ctor
-JSObject
-*
+HandleObject
 proto
 )
 {
