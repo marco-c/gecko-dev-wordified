@@ -1802,6 +1802,9 @@ lirId
 ;
 #
 endif
+if
+(
+!
 encodeSlots
 (
 snapshot
@@ -1809,6 +1812,9 @@ mir
 &
 startIndex
 )
+)
+return
+false
 ;
 snapshots_
 .
