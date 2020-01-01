@@ -567,13 +567,6 @@ PR_GetEnv
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h

@@ -514,13 +514,6 @@ h
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h

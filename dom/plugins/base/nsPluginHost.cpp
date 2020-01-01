@@ -753,13 +753,6 @@ h
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 nsIBlocklistService
 .
 h

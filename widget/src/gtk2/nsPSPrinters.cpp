@@ -470,13 +470,6 @@ h
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 nsPSPrinters
 .
 h

@@ -777,13 +777,6 @@ h
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 nsLayoutErrors
 .
 h

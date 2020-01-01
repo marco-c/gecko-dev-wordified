@@ -440,13 +440,6 @@ h
 "
 #
 include
-"
-nsPrintfCString
-.
-h
-"
-#
-include
 <
 initguid
 .

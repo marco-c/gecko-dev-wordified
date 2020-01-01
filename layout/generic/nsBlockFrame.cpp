@@ -901,13 +901,6 @@ DEBUG
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 nsBlockDebugFlags
 .
 h

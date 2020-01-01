@@ -535,13 +535,6 @@ h
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 prproces
 .
 h

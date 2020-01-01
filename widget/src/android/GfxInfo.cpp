@@ -430,13 +430,6 @@ h
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 mozilla
 /
 FunctionTimer

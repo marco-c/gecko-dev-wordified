@@ -497,13 +497,6 @@ h
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 nsIContentViewer
 .
 h
