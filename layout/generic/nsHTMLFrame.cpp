@@ -929,6 +929,15 @@ ViewPositionDidChange
 nsIScrollableView
 *
 aScrollable
+nsTArray
+<
+nsIWidget
+:
+:
+Configuration
+>
+*
+aConfigurations
 )
 {
 }
