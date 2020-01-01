@@ -3425,6 +3425,11 @@ ionCompileHelper
 (
 )
 ;
+void
+inliningCompileHelper
+(
+)
+;
 CompileStatus
 methodEntryHelper
 (
