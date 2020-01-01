@@ -181,6 +181,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 PowerManager
 .
 h
