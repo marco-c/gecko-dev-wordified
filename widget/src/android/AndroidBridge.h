@@ -1014,7 +1014,7 @@ void
 GetExtensionFromMimeType
 (
 const
-nsCString
+nsACString
 &
 aMimeType
 nsACString

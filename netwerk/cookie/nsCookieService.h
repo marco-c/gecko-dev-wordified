@@ -1704,8 +1704,7 @@ nsIURI
 aHostURI
 bool
 aIsForeign
-const
-nsCString
+nsDependentCString
 &
 aCookieHeader
 const

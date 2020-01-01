@@ -37403,7 +37403,8 @@ Length
 i
 )
 {
-nsDependentString
+nsString
+&
 prop
 (
 properties
