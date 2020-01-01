@@ -30911,6 +30911,15 @@ aBrowser
 .
 _clickToPlayPluginsActivated
 =
+new
+Map
+(
+)
+;
+aBrowser
+.
+_clickToPlayAllPluginsActivated
+=
 false
 ;
 aBrowser
