@@ -2559,17 +2559,6 @@ table
 -
 cell
 ?
-PRUint16
-mIsColumnBalancing
-:
-1
-;
-/
-/
-nsColumnSetFrame
-is
-balancing
-columns
 }
 mFlags
 ;
