@@ -32126,6 +32126,13 @@ continue
 .
 *
 /
+off
+=
+CG_OFFSET
+(
+cg
+)
+;
 stmt
 =
 &
@@ -32138,10 +32145,7 @@ stmt
 >
 update
 =
-CG_OFFSET
-(
-cg
-)
+off
 ;
 }
 while
@@ -32324,7 +32328,7 @@ noteIndex
 1
 +
 (
-beq
+off
 -
 top
 )
