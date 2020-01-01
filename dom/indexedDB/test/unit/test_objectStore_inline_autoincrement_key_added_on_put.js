@@ -43,15 +43,6 @@ testSteps
 )
 {
 const
-IDBObjectStore
-=
-Components
-.
-interfaces
-.
-nsIIDBObjectStore
-;
-const
 name
 =
 this

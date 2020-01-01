@@ -459,10 +459,6 @@ IDBDatabase
 )
 DOMCI_CLASS
 (
-IDBObjectStore
-)
-DOMCI_CLASS
-(
 IDBCursor
 )
 DOMCI_CLASS

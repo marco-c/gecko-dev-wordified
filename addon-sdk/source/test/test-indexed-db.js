@@ -112,7 +112,6 @@ IDBCursor
 IDBOpenDBRequest
 IDBDatabase
 IDBIndex
-IDBObjectStore
 IDBRequest
 }
 =
@@ -219,7 +218,6 @@ IDBOpenDBRequest
 IDBOpenDBRequest
 IDBDatabase
 IDBIndex
-IDBObjectStore
 IDBRequest
 ]
 .

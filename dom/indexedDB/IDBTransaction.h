@@ -963,7 +963,7 @@ aRv
 ;
 already_AddRefed
 <
-nsIIDBObjectStore
+IDBObjectStore
 >
 ObjectStore
 (

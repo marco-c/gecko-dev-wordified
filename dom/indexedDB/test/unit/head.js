@@ -80,12 +80,6 @@ Ci
 .
 nsIIDBIndex
 const
-IDBObjectStore
-=
-Ci
-.
-nsIIDBObjectStore
-const
 IDBRequest
 =
 Ci

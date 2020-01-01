@@ -42,15 +42,6 @@ testSteps
 (
 )
 {
-const
-nsIIDBObjectStore
-=
-Components
-.
-interfaces
-.
-nsIIDBObjectStore
-;
 /
 /
 Test
