@@ -2181,15 +2181,8 @@ false
 }
 public
 void
-geometryChanged
-(
-boolean
 abortAnimation
-)
-{
-if
 (
-abortAnimation
 )
 {
 /
@@ -2354,7 +2347,6 @@ bounce
 ;
 break
 ;
-}
 }
 }
 /
