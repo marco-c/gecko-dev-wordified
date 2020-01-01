@@ -8098,9 +8098,10 @@ rval
 newfp
 -
 >
-annotation
-=
+setAnnotation
+(
 NULL
+)
 ;
 newfp
 -
