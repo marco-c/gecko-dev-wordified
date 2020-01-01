@@ -2563,9 +2563,10 @@ of
 2
 int32
 shift
-=
-JS_FloorLog2
+;
+JS_FLOOR_LOG2
 (
+shift
 constant
 )
 ;
@@ -2619,9 +2620,10 @@ canOverflow
 {
 int32
 shift
-=
-JS_FloorLog2
+;
+JS_FLOOR_LOG2
 (
+shift
 -
 constant
 )
