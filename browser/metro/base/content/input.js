@@ -1430,7 +1430,6 @@ _targetScrollbox
 )
 {
 return
-false
 ;
 }
 /
