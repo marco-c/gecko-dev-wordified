@@ -7510,7 +7510,7 @@ this
 .
 _folderTree
 .
-hidden
+collapsed
 )
 return
 ;
