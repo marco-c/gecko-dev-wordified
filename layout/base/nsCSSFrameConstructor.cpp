@@ -175,6 +175,13 @@ h
 #
 include
 "
+nsAbsoluteContainingBlock
+.
+h
+"
+#
+include
+"
 nsCRT
 .
 h

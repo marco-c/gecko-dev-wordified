@@ -153,6 +153,13 @@ h
 #
 include
 "
+nsAbsoluteContainingBlock
+.
+h
+"
+#
+include
+"
 nsBlockReflowContext
 .
 h

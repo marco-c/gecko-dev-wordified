@@ -117,6 +117,13 @@ h
 #
 include
 "
+nsTableRowFrame
+.
+h
+"
+#
+include
+"
 nsTableRowGroupFrame
 .
 h

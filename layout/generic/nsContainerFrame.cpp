@@ -118,6 +118,13 @@ h
 #
 include
 "
+nsAbsoluteContainingBlock
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h

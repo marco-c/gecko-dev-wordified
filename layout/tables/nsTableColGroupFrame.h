@@ -129,13 +129,9 @@ nsTableColFrame
 .
 h
 "
-#
-include
-"
-nsTablePainter
-.
-h
-"
+class
+nsTableFrame
+;
 class
 nsTableColFrame
 ;
