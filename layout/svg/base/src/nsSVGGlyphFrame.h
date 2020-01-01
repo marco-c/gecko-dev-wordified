@@ -1506,6 +1506,14 @@ GetGlobalTransform
 (
 gfxMatrix
 *
+aMatrix
+)
+;
+void
+SetupGlobalTransform
+(
+gfxContext
+*
 aContext
 )
 ;
