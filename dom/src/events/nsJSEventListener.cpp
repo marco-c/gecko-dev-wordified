@@ -173,13 +173,6 @@ h
 #
 include
 "
-nsDOMScriptObjectHolder
-.
-h
-"
-#
-include
-"
 nsIMutableArray
 .
 h

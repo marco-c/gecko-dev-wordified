@@ -39319,11 +39319,14 @@ CacheXBLPrototypeHandler
 nsXBLPrototypeHandler
 *
 aKey
-nsScriptObjectHolder
+JS
+:
+:
+Handle
 <
 JSObject
+*
 >
-&
 aHandler
 )
 {
@@ -39458,10 +39461,6 @@ Put
 (
 aKey
 aHandler
-.
-get
-(
-)
 )
 ;
 }
