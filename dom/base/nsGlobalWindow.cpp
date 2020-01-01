@@ -363,7 +363,9 @@ JSAutoRequest
 #
 include
 "
-jsdbgapi
+js
+/
+OldDebugAPI
 .
 h
 "
