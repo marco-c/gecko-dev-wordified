@@ -1788,15 +1788,6 @@ describedby
 )
 ACCESSIBILITY_ATOM
 (
-aria_droppable
-"
-aria
--
-droppable
-"
-)
-ACCESSIBILITY_ATOM
-(
 aria_disabled
 "
 aria
