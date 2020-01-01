@@ -455,7 +455,7 @@ obj
 >
 getFixedSlot
 (
-FIELD_LENGTH
+LENGTH_SLOT
 )
 ;
 }
@@ -510,7 +510,7 @@ obj
 >
 getFixedSlot
 (
-FIELD_BYTEOFFSET
+BYTEOFFSET_SLOT
 )
 ;
 }
@@ -565,7 +565,7 @@ obj
 >
 getFixedSlot
 (
-FIELD_BYTELENGTH
+BYTELENGTH_SLOT
 )
 ;
 }
@@ -620,7 +620,7 @@ obj
 >
 getFixedSlot
 (
-FIELD_TYPE
+TYPE_SLOT
 )
 .
 toInt32
@@ -656,7 +656,7 @@ obj
 >
 getFixedSlot
 (
-FIELD_BUFFER
+BUFFER_SLOT
 )
 ;
 }
@@ -722,7 +722,7 @@ obj
 >
 getPrivate
 (
-NUM_FIXED_SLOTS
+DATA_SLOT
 )
 ;
 }
@@ -1406,6 +1406,18 @@ byteLength
 )
 )
 ;
+/
+/
+Verify
+that
+the
+private
+slot
+is
+at
+the
+expected
+place
 JS_ASSERT
 (
 dvobj
@@ -1415,7 +1427,7 @@ numFixedSlots
 )
 =
 =
-RESERVED_SLOTS
+DATA_SLOT
 )
 ;
 arrayBuffer
