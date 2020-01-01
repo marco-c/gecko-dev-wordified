@@ -89,6 +89,10 @@ toolbar_height
 68px
 %
 define
+labelled_toolbar_height
+90px
+%
+define
 tabs_height
 178px
 %
