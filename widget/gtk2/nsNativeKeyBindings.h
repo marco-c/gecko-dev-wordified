@@ -234,7 +234,7 @@ bool
 KeyDown
 (
 const
-nsNativeKeyEvent
+nsKeyEvent
 &
 aEvent
 DoCommandCallback
@@ -252,7 +252,7 @@ bool
 KeyPress
 (
 const
-nsNativeKeyEvent
+nsKeyEvent
 &
 aEvent
 DoCommandCallback
@@ -270,7 +270,7 @@ bool
 KeyUp
 (
 const
-nsNativeKeyEvent
+nsKeyEvent
 &
 aEvent
 DoCommandCallback
@@ -292,7 +292,7 @@ bool
 KeyPressInternal
 (
 const
-nsNativeKeyEvent
+nsKeyEvent
 &
 aEvent
 DoCommandCallback
