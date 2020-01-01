@@ -1679,6 +1679,7 @@ if
 (
 aIndex
 >
+=
 treeCols
 )
 {
@@ -1760,6 +1761,7 @@ if
 (
 aIndex
 >
+=
 treeCols
 )
 {
