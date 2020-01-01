@@ -958,6 +958,8 @@ InnerObject
 \
 }
 ;
+\
+NS_CYCLE_COLLECTION_PARTICIPANT_INSTANCE
 /
 /
 Put
