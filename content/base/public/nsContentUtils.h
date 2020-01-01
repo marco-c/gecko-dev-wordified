@@ -7840,6 +7840,13 @@ in
 child
 frames
 .
+Does
+nothing
+if
+aDocument
+is
+null
+.
 *
 /
 static

@@ -7728,10 +7728,6 @@ open
 any
 new
 popups
-if
-(
-mDocument
-)
 nsContentUtils
 :
 :
