@@ -6132,7 +6132,10 @@ Range
 :
 intersect
 (
-val_
+getOperand
+(
+0
+)
 -
 >
 range
