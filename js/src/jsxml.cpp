@@ -10390,7 +10390,9 @@ fp
 )
 -
 >
-script
+hasScript
+(
+)
 )
 ;
 filename
@@ -10452,7 +10454,9 @@ filename
 fp
 -
 >
-script
+getScript
+(
+)
 -
 >
 filename
