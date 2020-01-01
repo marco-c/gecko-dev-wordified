@@ -8090,7 +8090,7 @@ if
 Msg
 =
 =
-WM_ACTIVATE
+WM_ACTIVATEAPP
 )
 #
 ifndef
