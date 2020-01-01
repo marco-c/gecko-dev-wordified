@@ -2546,9 +2546,7 @@ activation
 cx
 -
 >
-threadData
-(
-)
+runtime
 -
 >
 ionActivation
@@ -2685,9 +2683,7 @@ activation
 cx
 -
 >
-threadData
-(
-)
+runtime
 -
 >
 ionActivation
@@ -3191,9 +3187,7 @@ activation
 cx
 -
 >
-threadData
-(
-)
+runtime
 -
 >
 ionActivation
@@ -3532,9 +3526,7 @@ activation
 cx
 -
 >
-threadData
-(
-)
+runtime
 -
 >
 ionActivation
@@ -3678,10 +3670,10 @@ IonActivation
 *
 activation
 =
-JS_THREAD_DATA
-(
 cx
-)
+-
+>
+runtime
 -
 >
 ionActivation

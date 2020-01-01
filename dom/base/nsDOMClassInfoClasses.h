@@ -2197,3 +2197,7 @@ CallEvent
 )
 #
 endif
+DOMCI_CLASS
+(
+DOMError
+)

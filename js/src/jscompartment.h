@@ -1043,10 +1043,7 @@ js
 *
 /
 struct
-JS_FRIEND_API
-(
 JSCompartment
-)
 {
 JSRuntime
 *

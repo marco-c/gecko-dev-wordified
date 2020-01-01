@@ -7645,9 +7645,8 @@ innerItemContent
 foundItemContent
 -
 >
-GetChildAt
+GetFirstChild
 (
-0
 )
 ;
 if

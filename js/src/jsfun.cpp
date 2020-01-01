@@ -9722,7 +9722,7 @@ if
 (
 atom
 )
-MarkAtom
+MarkStringUnbarriered
 (
 trc
 atom

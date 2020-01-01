@@ -964,8 +964,14 @@ nsLayoutUtils
 :
 InflationMinFontSizeFor
 (
-*
 aOuterReflowState
+-
+>
+frame
+nsLayoutUtils
+:
+:
+eInReflow
 )
 ;
 /

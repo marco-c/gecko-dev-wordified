@@ -556,13 +556,6 @@ NS_DEBUG
 #
 include
 "
-nsLoggingSink
-.
-h
-"
-#
-include
-"
 nsExpatDriver
 .
 h
@@ -646,10 +639,6 @@ if
 defined
 (
 NS_DEBUG
-)
-NS_GENERIC_FACTORY_CONSTRUCTOR
-(
-nsLoggingSink
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (

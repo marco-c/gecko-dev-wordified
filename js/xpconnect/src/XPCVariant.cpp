@@ -863,6 +863,15 @@ JSVAL_IS_OBJECT
 val
 )
 )
+{
+NS_CYCLE_COLLECTION_NOTE_EDGE_NAME
+(
+cb
+"
+mJSVal
+"
+)
+;
 cb
 .
 NoteScriptChild
@@ -877,6 +886,7 @@ val
 )
 )
 ;
+}
 nsVariant
 :
 :

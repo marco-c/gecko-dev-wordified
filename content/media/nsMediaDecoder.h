@@ -2927,6 +2927,7 @@ between
 and
 16384
 .
+virtual
 nsresult
 RequestFrameBufferLength
 (

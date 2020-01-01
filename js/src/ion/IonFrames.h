@@ -2056,9 +2056,9 @@ rfe
 void
 MarkIonActivations
 (
-ThreadData
+JSRuntime
 *
-td
+rt
 JSTracer
 *
 trc
@@ -2296,10 +2296,10 @@ cx
 IonFrameIterator
 iter
 (
-JS_THREAD_DATA
-(
 cx
-)
+-
+>
+runtime
 -
 >
 ionTop

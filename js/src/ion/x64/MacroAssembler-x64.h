@@ -4652,15 +4652,15 @@ mov
 (
 ImmWord
 (
-JS_THREAD_DATA
-(
 GetIonContext
 (
 )
 -
 >
 cx
-)
+-
+>
+runtime
 )
 ScratchReg
 )
@@ -4673,7 +4673,7 @@ Operand
 ScratchReg
 offsetof
 (
-ThreadData
+JSRuntime
 ionTop
 )
 )

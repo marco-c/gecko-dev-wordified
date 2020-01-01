@@ -2916,7 +2916,7 @@ obj
 obj
 -
 >
-slotsAndStructSize
+computedSizeOfIncludingThis
 (
 )
 :

@@ -4284,6 +4284,12 @@ op
 )
 {
 case
+JSOP_LOOPENTRY
+:
+return
+true
+;
+case
 JSOP_NOP
 :
 return

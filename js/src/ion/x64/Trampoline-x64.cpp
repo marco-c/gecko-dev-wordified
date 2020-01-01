@@ -4156,10 +4156,10 @@ movePtr
 (
 ImmWord
 (
-JS_THREAD_DATA
-(
 cx
-)
+-
+>
+runtime
 )
 cxreg
 )
@@ -4173,7 +4173,7 @@ Address
 cxreg
 offsetof
 (
-ThreadData
+JSRuntime
 ionJSContext
 )
 )

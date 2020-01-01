@@ -4286,9 +4286,9 @@ without
 any
 checking
 .
-ThreadData
+JSRuntime
 *
-threadData
+rt
 =
 gen
 -
@@ -4296,9 +4296,7 @@ gen
 cx
 -
 >
-threadData
-(
-)
+runtime
 ;
 /
 /
@@ -4369,7 +4367,7 @@ uintptr_t
 limitAddr
 =
 &
-threadData
+rt
 -
 >
 ionStackLimit

@@ -4476,10 +4476,10 @@ StackPointer
 Operand
 (
 &
-JS_THREAD_DATA
-(
 cx
-)
+-
+>
+runtime
 -
 >
 ionTop

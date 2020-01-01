@@ -1833,9 +1833,10 @@ nsLayoutUtils
 FontSizeInflationFor
 (
 this
-aCBSize
-.
-width
+nsLayoutUtils
+:
+:
+eInReflow
 )
 ;
 nsRefPtr

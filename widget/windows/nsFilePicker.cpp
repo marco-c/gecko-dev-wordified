@@ -5189,6 +5189,12 @@ return
 true
 ;
 }
+#
+if
+MOZ_WINSDK_TARGETVER
+>
+=
+MOZ_NTDDI_LONGHORN
 bool
 nsFilePicker
 :
@@ -6042,6 +6048,11 @@ return
 true
 ;
 }
+#
+endif
+/
+/
+MOZ_WINSDK_TARGETVER
 /
 /
 /
@@ -7687,6 +7698,12 @@ return
 false
 ;
 }
+#
+if
+MOZ_WINSDK_TARGETVER
+>
+=
+MOZ_NTDDI_LONGHORN
 void
 nsFilePicker
 :
@@ -7893,3 +7910,8 @@ get
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_WINSDK_TARGETVER

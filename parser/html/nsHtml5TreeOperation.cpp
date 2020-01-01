@@ -1812,7 +1812,7 @@ while
 node
 -
 >
-GetChildCount
+HasChildren
 (
 )
 )
@@ -1826,9 +1826,8 @@ child
 node
 -
 >
-GetChildAt
+GetFirstChild
 (
-0
 )
 ;
 rv
@@ -3417,14 +3416,11 @@ nsIContent
 *
 previousSibling
 =
-foster
+table
 -
 >
-GetChildAt
+GetPreviousSibling
 (
-pos
--
-1
 )
 ;
 if

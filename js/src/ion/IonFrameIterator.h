@@ -794,9 +794,9 @@ cx
 ;
 IonActivationIterator
 (
-ThreadData
+JSRuntime
 *
-td
+rt
 )
 ;
 IonActivationIterator

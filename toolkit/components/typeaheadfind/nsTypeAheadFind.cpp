@@ -5083,9 +5083,8 @@ parentsFirstChild
 parent
 -
 >
-GetChildAt
+GetFirstChild
 (
-0
 )
 ;
 /
@@ -5119,12 +5118,11 @@ TextIsOnlyWhitespace
 {
 parentsFirstChild
 =
-parent
+parentsFirstChild
 -
 >
-GetChildAt
+GetNextSibling
 (
-1
 )
 ;
 }

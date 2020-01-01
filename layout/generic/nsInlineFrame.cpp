@@ -4697,7 +4697,11 @@ nsLayoutUtils
 :
 FontSizeInflationFor
 (
-aReflowState
+this
+nsLayoutUtils
+:
+:
+eInReflow
 )
 ;
 nsLayoutUtils

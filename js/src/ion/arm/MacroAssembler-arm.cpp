@@ -11130,15 +11130,15 @@ movePtr
 (
 ImmWord
 (
-JS_THREAD_DATA
-(
 GetIonContext
 (
 )
 -
 >
 cx
-)
+-
+>
+runtime
 )
 ScratchRegister
 )
@@ -11151,7 +11151,7 @@ Operand
 ScratchRegister
 offsetof
 (
-ThreadData
+JSRuntime
 ionTop
 )
 )
