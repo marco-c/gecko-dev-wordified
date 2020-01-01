@@ -1986,9 +1986,6 @@ PostEvent
 new
 AndroidGeckoEvent
 (
-TopWindow
-(
-)
 -
 1
 -
@@ -2316,9 +2313,6 @@ PostEvent
 new
 AndroidGeckoEvent
 (
-TopWindow
-(
-)
 -
 1
 -
@@ -2738,9 +2732,6 @@ PostEvent
 new
 AndroidGeckoEvent
 (
-TopWindow
-(
-)
 -
 1
 -
@@ -2980,9 +2971,6 @@ PostEvent
 new
 AndroidGeckoEvent
 (
-TopWindow
-(
-)
 -
 1
 -
@@ -3283,9 +3271,6 @@ PostEvent
 new
 AndroidGeckoEvent
 (
-TopWindow
-(
-)
 -
 1
 -

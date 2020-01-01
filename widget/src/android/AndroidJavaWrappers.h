@@ -1522,9 +1522,6 @@ aType
 }
 AndroidGeckoEvent
 (
-void
-*
-window
 int
 x1
 int
@@ -1537,7 +1534,6 @@ y2
 {
 Init
 (
-window
 x1
 y1
 x2
@@ -1581,9 +1577,6 @@ aType
 void
 Init
 (
-void
-*
-window
 int
 x1
 int
@@ -1619,16 +1612,6 @@ Time
 {
 return
 mTime
-;
-}
-void
-*
-NativeWindow
-(
-)
-{
-return
-mNativeWindow
 ;
 }
 const
@@ -1811,10 +1794,6 @@ mType
 ;
 int64_t
 mTime
-;
-void
-*
-mNativeWindow
 ;
 nsIntPoint
 mP0
