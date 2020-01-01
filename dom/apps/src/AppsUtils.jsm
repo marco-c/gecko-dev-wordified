@@ -322,6 +322,11 @@ lastUpdateCheck
 aApp
 .
 lastUpdateCheck
+updateTime
+:
+aApp
+.
+updateTime
 etag
 :
 aApp
