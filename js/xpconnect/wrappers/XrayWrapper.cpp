@@ -8258,7 +8258,7 @@ receiver
 here
 .
 return
-ProxyHandler
+BaseProxyHandler
 :
 :
 get
@@ -8320,7 +8320,7 @@ isn
 '
 t
 already
-ProxyHandler
+BaseProxyHandler
 .
 /
 /
@@ -8350,7 +8350,7 @@ receiver
 here
 .
 return
-ProxyHandler
+BaseProxyHandler
 :
 :
 set
@@ -8408,7 +8408,7 @@ already
 ProxyHandler
 .
 return
-ProxyHandler
+BaseProxyHandler
 :
 :
 has
@@ -8464,7 +8464,7 @@ already
 ProxyHandler
 .
 return
-ProxyHandler
+BaseProxyHandler
 :
 :
 hasOwn
@@ -8521,7 +8521,7 @@ already
 ProxyHandler
 .
 return
-ProxyHandler
+BaseProxyHandler
 :
 :
 keys
@@ -8579,7 +8579,7 @@ already
 ProxyHandler
 .
 return
-ProxyHandler
+BaseProxyHandler
 :
 :
 iterate

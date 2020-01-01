@@ -945,7 +945,7 @@ return
 js
 :
 :
-ProxyHandler
+BaseProxyHandler
 :
 :
 iterate

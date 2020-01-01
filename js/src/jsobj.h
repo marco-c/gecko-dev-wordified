@@ -620,7 +620,7 @@ class
 AutoPropDescArrayRooter
 ;
 class
-ProxyHandler
+BaseProxyHandler
 ;
 class
 CallObject
