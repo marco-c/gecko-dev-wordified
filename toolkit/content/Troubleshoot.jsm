@@ -223,6 +223,13 @@ open_newwindow
 "
 browser
 .
+newtab
+.
+url
+"
+"
+browser
+.
 places
 .
 "
