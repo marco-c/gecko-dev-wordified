@@ -509,6 +509,9 @@ class
 nsIScriptGlobalObject
 ;
 class
+nsIPrincipal
+;
+class
 nsJSUtils
 {
 public
@@ -528,9 +531,9 @@ aFilename
 PRUint32
 *
 aLineno
-JSPrincipals
+nsIPrincipal
 *
-aPrincipals
+aPrincipal
 )
 ;
 static
