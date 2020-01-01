@@ -87991,7 +87991,6 @@ JSString
 mLengthAndFlags
 )
 ACCSET_OTHER
-LOAD_CONST
 )
 "
 mLengthAndFlags
@@ -88037,7 +88036,6 @@ JSString
 mChars
 )
 ACCSET_OTHER
-LOAD_CONST
 )
 "
 chars
@@ -88094,7 +88092,6 @@ JSString
 mLengthAndFlags
 )
 ACCSET_OTHER
-LOAD_CONST
 )
 ;
 LIns
@@ -88296,7 +88293,6 @@ JSString
 mLengthAndFlags
 )
 ACCSET_OTHER
-LOAD_CONST
 )
 ;
 LIns
