@@ -3574,7 +3574,6 @@ canOverflow
 (
 )
 )
-{
 c
 =
 masm
@@ -3596,9 +3595,7 @@ dest
 c
 )
 ;
-}
 else
-{
 masm
 .
 ma_mul
@@ -3617,7 +3614,6 @@ dest
 )
 )
 ;
-}
 /
 /
 Bailout
