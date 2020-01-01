@@ -1235,6 +1235,12 @@ testURL_02
 )
 )
 ;
+setTimeout
+(
+function
+(
+)
+{
 is
 (
 BrowserUI
@@ -1268,6 +1274,10 @@ VK_RETURN
 {
 }
 window
+)
+;
+}
+0
 )
 ;
 }
