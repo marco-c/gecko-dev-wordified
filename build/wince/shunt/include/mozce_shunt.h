@@ -728,6 +728,9 @@ return
 p
 ;
 }
+#
+ifndef
+IN_SHUNT
 /
 /
 for
@@ -896,6 +899,8 @@ defined
 (
 _MOZILLA_CONFIG_H_
 )
+#
+endif
 extern
 "
 C
