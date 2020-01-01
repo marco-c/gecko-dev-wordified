@@ -3297,6 +3297,7 @@ obj
 setGeneric
 (
 cx
+obj
 id
 tmp
 .
@@ -3709,7 +3710,7 @@ JSContext
 cx
 JSObject
 *
-obj
+objArg
 double
 length
 )
@@ -3738,6 +3739,17 @@ yet
 .
 *
 /
+Rooted
+<
+JSObject
+*
+>
+obj
+(
+cx
+objArg
+)
+;
 return
 obj
 -
@@ -3745,6 +3757,7 @@ obj
 setProperty
 (
 cx
+obj
 cx
 -
 >
@@ -5698,6 +5711,7 @@ SetPropertyHelper
 (
 cx
 obj
+obj
 id
 0
 vp
@@ -5850,6 +5864,7 @@ SetPropertyHelper
 (
 cx
 obj
+obj
 id
 0
 vp
@@ -5957,6 +5972,7 @@ baseops
 SetPropertyHelper
 (
 cx
+obj
 obj
 id
 0
@@ -6127,6 +6143,7 @@ baseops
 SetPropertyHelper
 (
 cx
+obj
 obj
 id
 0
@@ -10704,6 +10721,7 @@ obj
 setGeneric
 (
 cx
+obj
 id
 value
 .
