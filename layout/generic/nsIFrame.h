@@ -9984,7 +9984,7 @@ be
 used
 .
 struct
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 ContentOffsets
 {
 nsCOMPtr
@@ -10270,7 +10270,7 @@ used
 *
 /
 struct
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 Cursor
 {
 nsCOMPtr

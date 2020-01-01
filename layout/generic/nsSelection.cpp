@@ -803,7 +803,7 @@ for
 table
 selection
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsSelectionBatcher
 MOZ_FINAL
 {

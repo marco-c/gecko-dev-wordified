@@ -18364,7 +18364,7 @@ aLength
 #
 endif
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 PropertyProvider
 :
 public
@@ -42694,7 +42694,7 @@ content
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 ClusterIterator
 {
 public
@@ -50136,7 +50136,7 @@ ReflowText
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 ReflowTextA11yNotifier
 {
 public

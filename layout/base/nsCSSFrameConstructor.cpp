@@ -4583,7 +4583,7 @@ its
 previous
 state
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsFrameConstructorSaveState
 {
 public
@@ -4782,7 +4782,7 @@ frame
 construction
 process
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsFrameConstructorState
 {
 public
@@ -5740,7 +5740,7 @@ class
 PendingBindingAutoPusher
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 PendingBindingAutoPusher
 {
 public

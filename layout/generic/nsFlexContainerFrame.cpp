@@ -1055,8 +1055,8 @@ main
 cross
 axes
 .
-NS_STACK_CLASS
 class
+MOZ_STACK_CLASS
 FlexboxAxisTracker
 {
 public
@@ -5993,8 +5993,8 @@ subclasses
 defined
 below
 .
-NS_STACK_CLASS
 class
+MOZ_STACK_CLASS
 PositionTracker
 {
 public
@@ -6447,8 +6447,8 @@ out
 flex
 items
 .
-NS_STACK_CLASS
 class
+MOZ_STACK_CLASS
 MainAxisPositionTracker
 :
 public
@@ -6618,8 +6618,8 @@ line
 class
 SingleLineCrossAxisPositionTracker
 ;
-NS_STACK_CLASS
 class
+MOZ_STACK_CLASS
 CrossAxisPositionTracker
 :
 public
@@ -6720,8 +6720,8 @@ single
 flex
 line
 .
-NS_STACK_CLASS
 class
+MOZ_STACK_CLASS
 SingleLineCrossAxisPositionTracker
 :
 public

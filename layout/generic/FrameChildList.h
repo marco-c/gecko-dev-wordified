@@ -387,7 +387,7 @@ lists
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 FrameChildListArrayIterator
 {
 public
@@ -559,7 +559,7 @@ them
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 FrameChildListIterator
 :
 public

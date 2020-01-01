@@ -949,7 +949,6 @@ nsCSSToken
 {
 nsAutoString
 mIdent
-NS_OKONHEAP
 ;
 float
 mNumber

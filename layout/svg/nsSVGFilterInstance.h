@@ -380,7 +380,6 @@ FilterEffectsRegion
 *
 /
 class
-NS_STACK_CLASS
 nsSVGFilterInstance
 {
 public
