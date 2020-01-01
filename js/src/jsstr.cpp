@@ -9509,6 +9509,7 @@ NULL
 ;
 }
 static
+JS_REQUIRES_STACK
 JSBool
 find_replen
 (
@@ -10556,6 +10557,7 @@ NULL
 ;
 }
 static
+JS_REQUIRES_STACK
 JSBool
 replace_glob
 (
@@ -10805,6 +10807,7 @@ JS_TRUE
 ;
 }
 static
+JS_REQUIRES_STACK
 JSBool
 str_replace
 (
@@ -10899,6 +10902,7 @@ vp
 ;
 }
 JSBool
+JS_REQUIRES_STACK
 js_StringReplaceHelper
 (
 JSContext
