@@ -400,7 +400,7 @@ nsAString
 aProperty
 )
 {
-NS_ENSURE_ARG_POINTER
+MOZ_ASSERT
 (
 aDecl
 )
@@ -859,7 +859,7 @@ aReturn
 *
 aReturn
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -1352,7 +1352,7 @@ GetPresShell
 (
 )
 returns
-nullptr
+nsnull
 .
 /
 /
@@ -1877,7 +1877,7 @@ NS_LITERAL_STRING
 td
 "
 )
-nullptr
+nsnull
 getter_AddRefs
 (
 cellElement
