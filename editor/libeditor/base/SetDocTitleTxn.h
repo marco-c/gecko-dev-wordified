@@ -618,15 +618,6 @@ SetDocTitleTxn
 )
 ;
 nsresult
-SetDocTitle
-(
-const
-nsAString
-&
-aTitle
-)
-;
-nsresult
 SetDomTitle
 (
 const

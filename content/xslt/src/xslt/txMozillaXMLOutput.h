@@ -919,9 +919,6 @@ txOutputFormat
 mOutputFormat
 ;
 PRPackedBool
-mHaveTitleElement
-;
-PRPackedBool
 mHaveBaseElement
 ;
 PRPackedBool
