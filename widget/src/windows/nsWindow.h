@@ -2812,6 +2812,15 @@ static
 PRBool
 sTrackPointHack
 ;
+#
+ifdef
+MOZ_IPC
+static
+PRUint32
+sOOPPPluginFocusEvent
+;
+#
+endif
 /
 /
 Hook
