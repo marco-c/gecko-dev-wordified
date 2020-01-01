@@ -7418,6 +7418,18 @@ mSink
 mInNotification
 )
 ;
+{
+/
+/
+Scope
+so
+we
+call
+EndUpdate
+before
+we
+decrease
+mInNotification
 mozAutoDocUpdate
 updateBatch
 (
@@ -7770,6 +7782,7 @@ mStackPos
 -
 1
 ;
+}
 -
 -
 (

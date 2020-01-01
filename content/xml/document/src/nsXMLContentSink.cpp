@@ -8553,6 +8553,18 @@ mBeganUpdate
 +
 mInNotification
 ;
+{
+/
+/
+Scope
+so
+we
+call
+EndUpdate
+before
+we
+decrease
+mInNotification
 mozAutoDocUpdate
 updateBatch
 (
@@ -8734,6 +8746,7 @@ stackLen
 -
 1
 ;
+}
 -
 -
 mInNotification
