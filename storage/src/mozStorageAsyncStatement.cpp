@@ -2330,7 +2330,9 @@ mAsyncStatement
 int
 rc
 =
-prepareStmt
+:
+:
+sqlite3_prepare_v2
 (
 mDBConnection
 -
@@ -2339,8 +2341,15 @@ GetNativeConnection
 (
 )
 mSQLString
+.
+get
+(
+)
+-
+1
 &
 mAsyncStatement
+NULL
 )
 ;
 if
