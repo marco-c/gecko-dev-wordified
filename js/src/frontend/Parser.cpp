@@ -39613,10 +39613,10 @@ if
 index
 =
 =
-StackSpace
+JSObject
 :
 :
-ARGS_LENGTH_MAX
+NELEMENTS_LIMIT
 )
 {
 report
