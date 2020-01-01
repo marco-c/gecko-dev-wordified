@@ -4828,11 +4828,9 @@ obj
 {
 JS_ASSERT
 (
-obj
--
->
-isNative
+OBJ_IS_NATIVE
 (
+obj
 )
 )
 ;

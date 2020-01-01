@@ -17481,11 +17481,9 @@ ops
 {
 JS_ASSERT
 (
-ops
--
->
-isNative
+OPS_IS_NATIVE
 (
+ops
 )
 )
 ;
@@ -18056,11 +18054,9 @@ clasp
 ;
 if
 (
-ops
--
->
-isNative
+OPS_IS_NATIVE
 (
+ops
 )
 )
 {
