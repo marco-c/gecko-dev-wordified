@@ -923,6 +923,9 @@ attributeMap6
 nsStateMapEntry
 attributeMap7
 ;
+nsStateMapEntry
+attributeMap8
+;
 }
 ;
 /
