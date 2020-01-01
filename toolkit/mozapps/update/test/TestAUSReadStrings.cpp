@@ -1216,9 +1216,6 @@ ReadStrings
 returned
 %
 i
-expected
-%
-i
 |
 Test
 3
@@ -1228,7 +1225,6 @@ n
 UNEXPECTED_FAIL_PREFIX
 TEST_NAME
 retval
-PARSE_ERROR
 )
 ;
 }
@@ -1310,9 +1306,6 @@ ReadStrings
 returned
 %
 i
-expected
-%
-i
 |
 Test
 4
@@ -1322,7 +1315,6 @@ n
 UNEXPECTED_FAIL_PREFIX
 TEST_NAME
 retval
-PARSE_ERROR
 )
 ;
 }
