@@ -5856,9 +5856,6 @@ See
 Bug
 616712
 .
-#
-ifdef
-NIGHTLY_BUILD
 /
 /
 Block
@@ -5880,8 +5877,6 @@ block_active_content
 true
 )
 ;
-#
-endif
 /
 /
 Override
