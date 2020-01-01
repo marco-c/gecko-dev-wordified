@@ -1185,6 +1185,8 @@ privkey
 .
 keyData
 passphrase
+.
+password
 privkey
 .
 salt
