@@ -2463,6 +2463,13 @@ Ci
 nsIBrowserProfileMigrator
 .
 OTHERDATA
+SESSION
+:
+Ci
+.
+nsIBrowserProfileMigrator
+.
+SESSION
 }
 /
 *
