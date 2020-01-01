@@ -1214,6 +1214,16 @@ Bullet
 "
 TYPE_BULLET
 )
+virtual
+PRBool
+HasText
+(
+)
+{
+return
+PR_TRUE
+;
+}
 }
 ;
 void

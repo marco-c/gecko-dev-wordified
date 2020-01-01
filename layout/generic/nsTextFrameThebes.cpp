@@ -26328,6 +26328,16 @@ Text
 "
 TYPE_TEXT
 )
+virtual
+PRBool
+HasText
+(
+)
+{
+return
+PR_TRUE
+;
+}
 }
 ;
 void
