@@ -1516,7 +1516,7 @@ se
 {
 Log
 .
-e
+w
 (
 LOGTAG
 "
@@ -1560,6 +1560,13 @@ isDirectory
 {
 if
 (
+target
+.
+exists
+(
+)
+|
+|
 target
 .
 mkdirs
