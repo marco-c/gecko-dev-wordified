@@ -576,7 +576,7 @@ namespace
 if
 defined
 (
-XPCOM_TRANSLATE_NSGM_ENTRY_POINT
+MOZILLA_INTERNAL_API
 )
 #
 define
