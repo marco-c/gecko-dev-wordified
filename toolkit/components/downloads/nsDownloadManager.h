@@ -717,6 +717,11 @@ InitFileDB
 (
 )
 ;
+void
+CloseDB
+(
+)
+;
 nsresult
 InitMemoryDB
 (

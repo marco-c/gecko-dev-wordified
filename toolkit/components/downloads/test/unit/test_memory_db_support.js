@@ -583,6 +583,13 @@ dm
 .
 DBConnection
 ;
+let
+oldFile
+=
+connDisk
+.
+databaseFile
+;
 /
 /
 switch
@@ -755,9 +762,7 @@ null
 ;
 do_check_true
 (
-connDisk
-.
-databaseFile
+oldFile
 .
 equals
 (
