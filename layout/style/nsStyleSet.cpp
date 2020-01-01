@@ -6057,6 +6057,7 @@ nsCSSRuleProcessor
 GetContentState
 (
 aElement
+aTreeMatchContext
 )
 .
 HasState
