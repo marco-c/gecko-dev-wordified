@@ -2297,13 +2297,12 @@ catch
 .
 )
 {
-MessageBoxW
+MessageBox
 (
 ofn
 .
 hwndOwner
 0
-L
 "
 The
 filepicker
