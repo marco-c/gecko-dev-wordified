@@ -10466,7 +10466,7 @@ Unix
 We
 should
 use
-nsILookAndFeel
+LookAndFeel
 to
 resolve
 this
