@@ -378,13 +378,6 @@ h
 #
 include
 "
-nsDOMClassInfo
-.
-h
-"
-#
-include
-"
 nsDOMEvent
 .
 h
@@ -901,10 +894,6 @@ nsIMozNavigatorAudioChannelManager
 )
 #
 endif
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-Navigator
-)
 NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
