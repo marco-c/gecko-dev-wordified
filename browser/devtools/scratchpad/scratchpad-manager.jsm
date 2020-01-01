@@ -607,7 +607,6 @@ params
 /
 Only
 add
-the
 shutdown
 observer
 if
@@ -618,7 +617,6 @@ opened
 a
 scratchpad
 window
-.
 ShutdownObserver
 .
 init
