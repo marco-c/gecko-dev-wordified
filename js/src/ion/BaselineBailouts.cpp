@@ -4767,7 +4767,10 @@ toObject
 (
 )
 .
-asArguments
+as
+<
+ArgumentsObject
+>
 (
 )
 ;
