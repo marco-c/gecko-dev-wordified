@@ -2394,7 +2394,8 @@ thisv
 )
 )
 ;
-RawString
+JSString
+*
 str
 =
 args

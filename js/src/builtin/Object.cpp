@@ -1235,7 +1235,8 @@ string
 .
 *
 /
-RawString
+JSString
+*
 s
 =
 ToString
@@ -1857,7 +1858,8 @@ append
 return
 false
 ;
-RawString
+JSString
+*
 str
 =
 buf
@@ -2144,7 +2146,8 @@ Steps
 .
 *
 /
-RawString
+JSString
+*
 str
 =
 JS_BasicObjectToString

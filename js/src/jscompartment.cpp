@@ -1124,7 +1124,8 @@ isString
 )
 )
 {
-RawString
+JSString
+*
 str
 =
 vp
@@ -1658,7 +1659,8 @@ str
 return
 false
 ;
-RawString
+JSString
+*
 wrapped
 =
 js_NewStringCopyN

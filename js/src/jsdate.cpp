@@ -7638,7 +7638,8 @@ return
 true
 ;
 }
-RawString
+JSString
+*
 str
 =
 ToString
@@ -15649,7 +15650,8 @@ buf
 utctime
 )
 ;
-RawString
+JSString
+*
 str
 =
 JS_NewStringCopyZ
@@ -15808,7 +15810,8 @@ buf
 utctime
 )
 ;
-RawString
+JSString
+*
 str
 =
 JS_NewStringCopyZ
@@ -17196,7 +17199,8 @@ break
 ;
 }
 }
-RawString
+JSString
+*
 str
 =
 JS_NewStringCopyZ
@@ -17617,7 +17621,8 @@ buf
 rval
 )
 ;
-RawString
+JSString
+*
 str
 =
 JS_NewStringCopyZ
@@ -18649,7 +18654,8 @@ return
 false
 ;
 }
-RawString
+JSString
+*
 str
 =
 sb
@@ -19579,7 +19585,8 @@ Step
 .
 *
 /
-RawString
+JSString
+*
 str
 =
 args

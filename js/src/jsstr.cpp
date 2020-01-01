@@ -27526,7 +27526,8 @@ MutableHandleValue
 rval
 )
 {
-RawString
+JSString
+*
 str
 =
 sb

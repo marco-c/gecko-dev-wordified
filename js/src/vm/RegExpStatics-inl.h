@@ -1382,7 +1382,8 @@ length
 )
 )
 ;
-RawString
+JSString
+*
 str
 =
 js_NewDependentString

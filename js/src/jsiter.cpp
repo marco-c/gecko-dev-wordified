@@ -2820,7 +2820,8 @@ plength
 *
 sizeof
 (
-RawString
+JSString
+*
 )
 +
 slength

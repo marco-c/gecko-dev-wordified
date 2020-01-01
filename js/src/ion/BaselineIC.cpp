@@ -17489,7 +17489,8 @@ isString
 )
 )
 ;
-RawString
+JSString
+*
 lstr
 =
 lhs
@@ -17498,7 +17499,8 @@ toString
 (
 )
 ;
-RawString
+JSString
+*
 rstr
 =
 rhs
@@ -17507,7 +17509,8 @@ toString
 (
 )
 ;
-RawString
+JSString
+*
 result
 =
 ConcatStrings
@@ -17721,7 +17724,8 @@ true
 ;
 }
 static
-RawString
+JSString
+*
 ConvertObjectToStringForConcat
 (
 JSContext
@@ -17788,12 +17792,14 @@ MutableHandleValue
 res
 )
 {
-RawString
+JSString
+*
 lstr
 =
 NULL
 ;
-RawString
+JSString
+*
 rstr
 =
 NULL

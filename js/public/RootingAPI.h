@@ -2408,11 +2408,6 @@ JSObject
 RawObject
 ;
 typedef
-JSString
-*
-RawString
-;
-typedef
 jsid
 RawId
 ;
