@@ -1066,6 +1066,9 @@ subprocess
 check_call
 (
 [
+sys
+.
+executable
 build_gecko_mar
                                    
 '

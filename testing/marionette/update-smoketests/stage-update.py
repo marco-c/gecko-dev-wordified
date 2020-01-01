@@ -418,6 +418,9 @@ subprocess
 check_call
 (
 [
+sys
+.
+executable
 build_flash_fota
         
 '
