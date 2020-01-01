@@ -3306,8 +3306,10 @@ nsAccessibilityAtoms
 textbox
 kNameSpaceID_XUL
 )
-&
-&
+)
+{
+if
+(
 bindingContent
 -
 >
@@ -3359,6 +3361,7 @@ nsIAccessibleStates
 :
 EXT_STATE_SUPPORTS_AUTOCOMPLETION
 ;
+}
 }
 else
 if
