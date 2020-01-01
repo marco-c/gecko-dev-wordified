@@ -3903,6 +3903,15 @@ aStr
 )
 const
 ;
+void
+RemoveBroadcaster
+(
+const
+nsAString
+&
+broadcasterId
+)
+;
 protected
 :
 /
