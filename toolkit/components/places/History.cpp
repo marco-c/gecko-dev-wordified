@@ -5071,6 +5071,11 @@ rv
 )
 )
 {
+if
+(
+mCallback
+)
+{
 nsCOMPtr
 <
 nsIRunnable
@@ -5091,6 +5096,10 @@ NS_DispatchToMainThread
 (
 event
 )
+;
+}
+return
+NS_OK
 ;
 }
 }
