@@ -153,6 +153,13 @@ Telephony
 .
 h
 "
+#
+include
+"
+nsITelephonyProvider
+.
+h
+"
 USING_TELEPHONY_NAMESPACE
 /
 /
@@ -287,6 +294,34 @@ forget
 )
 ;
 }
+TelephonyCall
+:
+:
+TelephonyCall
+(
+)
+:
+mCallIndex
+(
+kOutgoingPlaceholderCallIndex
+)
+mCallState
+(
+nsITelephonyProvider
+:
+:
+CALL_STATE_UNKNOWN
+)
+mLive
+(
+false
+)
+mOutgoing
+(
+false
+)
+{
+}
 void
 TelephonyCall
 :
@@ -317,7 +352,7 @@ aCallState
 )
 {
 case
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_DIALING
@@ -334,7 +369,7 @@ dialing
 break
 ;
 case
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_ALERTING
@@ -351,7 +386,7 @@ alerting
 break
 ;
 case
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_BUSY
@@ -368,7 +403,7 @@ busy
 break
 ;
 case
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_CONNECTING
@@ -385,7 +420,7 @@ connecting
 break
 ;
 case
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_CONNECTED
@@ -402,7 +437,7 @@ connected
 break
 ;
 case
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_HOLDING
@@ -419,7 +454,7 @@ holding
 break
 ;
 case
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_HELD
@@ -436,7 +471,7 @@ held
 break
 ;
 case
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_RESUMING
@@ -453,7 +488,7 @@ resuming
 break
 ;
 case
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_DISCONNECTING
@@ -470,7 +505,7 @@ disconnecting
 break
 ;
 case
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_DISCONNECTED
@@ -487,7 +522,7 @@ disconnected
 break
 ;
 case
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_INCOMING
@@ -528,7 +563,7 @@ if
 aCallState
 =
 =
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_DIALING
@@ -544,7 +579,7 @@ if
 aCallState
 =
 =
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_DISCONNECTED
@@ -838,7 +873,7 @@ state
 transitions
 ChangeStateInternal
 (
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_DISCONNECTED
@@ -999,7 +1034,7 @@ if
 mCallState
 !
 =
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_INCOMING
@@ -1029,7 +1064,7 @@ rv
 mTelephony
 -
 >
-RIL
+Provider
 (
 )
 -
@@ -1047,7 +1082,7 @@ rv
 ;
 ChangeStateInternal
 (
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_CONNECTING
@@ -1071,7 +1106,7 @@ if
 mCallState
 =
 =
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_DISCONNECTING
@@ -1080,7 +1115,7 @@ CALL_STATE_DISCONNECTING
 mCallState
 =
 =
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_DISCONNECTED
@@ -1109,7 +1144,7 @@ rv
 mCallState
 =
 =
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_INCOMING
@@ -1117,7 +1152,7 @@ CALL_STATE_INCOMING
 mTelephony
 -
 >
-RIL
+Provider
 (
 )
 -
@@ -1130,7 +1165,7 @@ mCallIndex
 mTelephony
 -
 >
-RIL
+Provider
 (
 )
 -
@@ -1148,7 +1183,7 @@ rv
 ;
 ChangeStateInternal
 (
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_DISCONNECTING
@@ -1172,7 +1207,7 @@ if
 mCallState
 !
 =
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_CONNECTED
@@ -1201,7 +1236,7 @@ rv
 mTelephony
 -
 >
-RIL
+Provider
 (
 )
 -
@@ -1219,7 +1254,7 @@ rv
 ;
 ChangeStateInternal
 (
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_HOLDING
@@ -1243,7 +1278,7 @@ if
 mCallState
 !
 =
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_HELD
@@ -1272,7 +1307,7 @@ rv
 mTelephony
 -
 >
-RIL
+Provider
 (
 )
 -
@@ -1290,7 +1325,7 @@ rv
 ;
 ChangeStateInternal
 (
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 :
 :
 CALL_STATE_RESUMING

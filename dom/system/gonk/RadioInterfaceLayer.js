@@ -337,11 +337,11 @@ Ci
 nsIAudioManager
 ;
 const
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 =
 Ci
 .
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 ;
 const
 kNetworkInterfaceStateChangedTopic
@@ -1051,7 +1051,7 @@ RIL
 CALL_STATE_ACTIVE
 :
 return
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 .
 CALL_STATE_CONNECTED
 ;
@@ -1061,7 +1061,7 @@ RIL
 CALL_STATE_HOLDING
 :
 return
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 .
 CALL_STATE_HELD
 ;
@@ -1071,7 +1071,7 @@ RIL
 CALL_STATE_DIALING
 :
 return
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 .
 CALL_STATE_DIALING
 ;
@@ -1081,7 +1081,7 @@ RIL
 CALL_STATE_ALERTING
 :
 return
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 .
 CALL_STATE_ALERTING
 ;
@@ -1096,7 +1096,7 @@ RIL
 CALL_STATE_WAITING
 :
 return
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 .
 CALL_STATE_INCOMING
 ;
@@ -1106,7 +1106,7 @@ RIL
 CALL_STATE_BUSY
 :
 return
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 .
 CALL_STATE_BUSY
 ;
@@ -8122,7 +8122,7 @@ state
 )
 {
 case
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 .
 CALL_STATE_DIALING
 :
@@ -8134,12 +8134,12 @@ through
 .
 .
 case
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 .
 CALL_STATE_ALERTING
 :
 case
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 .
 CALL_STATE_CONNECTED
 :
@@ -8204,7 +8204,7 @@ phoneState
 break
 ;
 case
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 .
 CALL_STATE_INCOMING
 :
@@ -8273,7 +8273,7 @@ phoneState
 break
 ;
 case
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 .
 CALL_STATE_HELD
 :
@@ -8285,7 +8285,7 @@ through
 .
 .
 case
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 .
 CALL_STATE_DISCONNECTED
 :
@@ -8633,7 +8633,7 @@ call
 state
 =
 =
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 .
 CALL_STATE_DIALING
 )
@@ -8723,7 +8723,7 @@ call
 .
 state
 =
-nsIRadioInterfaceLayer
+nsITelephonyProvider
 .
 CALL_STATE_DISCONNECTED
 ;
