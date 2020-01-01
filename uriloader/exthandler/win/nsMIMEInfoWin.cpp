@@ -1707,7 +1707,7 @@ sinfo
 0
 sizeof
 (
-SHELLEXECUTEINFO
+sinfo
 )
 )
 ;
@@ -1717,7 +1717,7 @@ cbSize
 =
 sizeof
 (
-SHELLEXECUTEINFO
+sinfo
 )
 ;
 sinfo
@@ -1808,11 +1808,11 @@ dll
 6
 .
 0
-LONG
+int
 r
 =
 (
-LONG
+int
 )
 :
 :
