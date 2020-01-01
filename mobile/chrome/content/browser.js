@@ -1608,7 +1608,7 @@ bundle_browser
 getString
 (
 "
-gelocation
+geolocation
 .
 exactLocation
 "
@@ -1620,7 +1620,7 @@ bundle_browser
 getString
 (
 "
-gelocation
+geolocation
 .
 exactLocation
 .
@@ -1634,7 +1634,7 @@ bundle_browser
 getString
 (
 "
-gelocation
+geolocation
 .
 exactLocationKey
 "
@@ -1660,7 +1660,7 @@ bundle_browser
 getString
 (
 "
-gelocation
+geolocation
 .
 neighborhoodLocation
 "
@@ -1672,7 +1672,7 @@ bundle_browser
 getString
 (
 "
-gelocation
+geolocation
 .
 neighborhoodLocation
 .
@@ -1686,7 +1686,7 @@ bundle_browser
 getString
 (
 "
-gelocation
+geolocation
 .
 neighborhoodLocationKey
 "
@@ -1712,7 +1712,7 @@ bundle_browser
 getString
 (
 "
-gelocation
+geolocation
 .
 nothingLocation
 "
@@ -1728,7 +1728,7 @@ bundle_browser
 getString
 (
 "
-gelocation
+geolocation
 .
 nothingLocationKey
 "
