@@ -357,9 +357,11 @@ AddonManager
 .
 getAddonsByTypes
 (
+[
 "
 plugin
 "
+]
 function
 (
 addons

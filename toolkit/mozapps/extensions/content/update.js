@@ -2995,6 +2995,7 @@ onInstallEnded
 function
 (
 aInstall
+aAddon
 )
 {
 /
@@ -3016,7 +3017,7 @@ addStartupChange
 AddonManager
 .
 STARTUP_CHANGE_CHANGED
-aInstall
+aAddon
 .
 id
 )
