@@ -430,6 +430,13 @@ h
 #
 include
 "
+nsIDOMHTMLCollection
+.
+h
+"
+#
+include
+"
 nsContentCID
 .
 h
@@ -6716,7 +6723,7 @@ this
 ;
 nsCOMPtr
 <
-nsIDOMNodeList
+nsIDOMHTMLCollection
 >
 allParams
 ;

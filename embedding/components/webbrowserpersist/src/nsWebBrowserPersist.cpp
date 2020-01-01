@@ -21807,7 +21807,7 @@ baseElement
 ;
 nsCOMPtr
 <
-nsIDOMNodeList
+nsIDOMHTMLCollection
 >
 baseList
 ;
