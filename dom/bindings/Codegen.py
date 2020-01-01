@@ -24936,6 +24936,7 @@ result
 successCode
                            
 isCreator
+exceptionCode
 )
 :
     
@@ -25021,16 +25022,10 @@ template
 "
 "
     
-haveSuccessCode
-=
+if
 successCode
 is
-not
 None
-    
-if
-not
-haveSuccessCode
 :
         
 successCode
@@ -25040,6 +25035,36 @@ return
 true
 ;
 "
+    
+#
+We
+often
+want
+exceptionCode
+to
+be
+indented
+since
+it
+often
+appears
+in
+an
+    
+#
+if
+body
+.
+    
+exceptionCodeIndented
+=
+CGIndenter
+(
+CGGeneric
+(
+exceptionCode
+)
+)
     
 def
 setValue
@@ -25094,8 +25119,7 @@ tail
 =
 successCode
         
-elif
-haveSuccessCode
+else
 :
             
 tail
@@ -25122,13 +25146,20 @@ n
 "
 +
                     
+(
 "
-return
-false
-;
+%
+s
 \
 n
 "
+%
+exceptionCodeIndented
+.
+define
+(
+)
+)
 +
                     
 "
@@ -25140,26 +25171,6 @@ n
                     
 successCode
 )
-        
-else
-:
-            
-tail
-=
-"
-return
-MaybeWrapValue
-(
-cx
-{
-obj
-}
-{
-jsvalPtr
-}
-)
-;
-"
         
 return
 (
@@ -25236,29 +25247,9 @@ is
 None
 :
             
-if
-not
-haveSuccessCode
-:
-                
-return
-"
-return
-"
-+
-wrapCall
-+
-"
-;
-"
-            
 failureCode
 =
-"
-return
-false
-;
-"
+exceptionCode
         
 str
 =
@@ -25410,6 +25401,7 @@ result
 successCode
                                                               
 isCreator
+exceptionCode
 )
             
 return
@@ -25556,6 +25548,12 @@ isCreator
 :
 isCreator
                 
+'
+exceptionCode
+'
+:
+exceptionCode
+                
 }
             
 )
@@ -25608,10 +25606,8 @@ if
 returnArray
 )
 {
-  
-return
-false
-;
+%
+s
 }
 /
 /
@@ -25699,10 +25695,8 @@ JSPROP_ENUMERATE
 )
 )
 {
-      
-return
-false
-;
+%
+s
     
 }
   
@@ -25716,10 +25710,27 @@ n
 %
 (
 result
+exceptionCodeIndented
+.
+define
+(
+)
+          
 innerTemplate
+          
+CGIndenter
+(
+exceptionCodeIndented
+4
+)
+.
+define
+(
+)
 )
 )
 +
+                
 setValue
 (
 "
@@ -26023,10 +26034,11 @@ n
 +
                           
 "
-return
-false
-;
+%
+s
 "
+%
+exceptionCode
 )
             
 else
@@ -26369,10 +26381,11 @@ resultStr
 s
 )
 {
-  
-return
-false
-;
+%
+(
+exceptionCode
+)
+s
 }
 "
 "
@@ -26413,6 +26426,12 @@ Values
 :
 strings
 "
+        
+"
+exceptionCode
+"
+:
+exceptionCode
 }
 +
         
@@ -26707,7 +26726,9 @@ nullable
 return
 (
 "
-return
+if
+(
+!
 %
 s
 .
@@ -26721,10 +26742,39 @@ obj
 jsvalPtr
 }
 )
+)
+{
+\
+n
+"
+                
+"
+%
+s
+\
+n
+"
+                
+"
+}
+\
+n
+"
+                
+"
+return
+true
 ;
 "
 %
+(
 result
+exceptionCodeIndented
+.
+define
+(
+)
+)
 False
 )
     
@@ -26786,6 +26836,7 @@ result
 successCode
                                                          
 isCreator
+exceptionCode
 )
         
 return
@@ -27286,6 +27337,43 @@ if
 not
 set
 .
+      
+*
+'
+exceptionCode
+'
+(
+optional
+)
+:
+Code
+to
+run
+when
+a
+JS
+exception
+is
+thrown
+.
+                                    
+The
+default
+is
+"
+return
+false
+;
+"
+.
+The
+code
+                                    
+passed
+here
+must
+return
+.
     
 "
 "
@@ -27328,6 +27416,21 @@ get
 isCreator
 '
 False
+)
+                                  
+templateValues
+.
+get
+(
+'
+exceptionCode
+'
+                                                     
+"
+return
+false
+;
+"
 )
 )
 [
@@ -27466,6 +27569,11 @@ memberIsCreator
 (
 member
 )
+"
+return
+false
+;
+"
 )
 [
 1
