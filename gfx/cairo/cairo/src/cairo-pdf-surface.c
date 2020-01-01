@@ -1233,7 +1233,7 @@ output
 }
 static
 void
-cairo_pdf_surface_set_size_internal
+_cairo_pdf_surface_set_size_internal
 (
 cairo_pdf_surface_t
 *
@@ -2623,7 +2623,7 @@ status
 return
 ;
 }
-cairo_pdf_surface_set_size_internal
+_cairo_pdf_surface_set_size_internal
 (
 pdf_surface
 width_in_points
@@ -8563,7 +8563,7 @@ surface
 base
 )
 ;
-cairo_pdf_surface_set_size_internal
+_cairo_pdf_surface_set_size_internal
 (
 surface
 meta_extents
@@ -8754,7 +8754,7 @@ surface
 ;
 CLEANUP_GROUP
 :
-cairo_pdf_surface_set_size_internal
+_cairo_pdf_surface_set_size_internal
 (
 surface
 old_width
@@ -14794,7 +14794,7 @@ surface
 >
 height
 ;
-cairo_pdf_surface_set_size_internal
+_cairo_pdf_surface_set_size_internal
 (
 surface
 pdf_pattern
@@ -14885,7 +14885,7 @@ CAIRO_STATUS_PATTERN_TYPE_MISMATCH
 break
 ;
 }
-cairo_pdf_surface_set_size_internal
+_cairo_pdf_surface_set_size_internal
 (
 surface
 old_width
@@ -21691,7 +21691,7 @@ surface
 >
 height
 ;
-cairo_pdf_surface_set_size_internal
+_cairo_pdf_surface_set_size_internal
 (
 surface
 group
@@ -21952,7 +21952,7 @@ surface
 NULL
 )
 ;
-cairo_pdf_surface_set_size_internal
+_cairo_pdf_surface_set_size_internal
 (
 surface
 old_width
