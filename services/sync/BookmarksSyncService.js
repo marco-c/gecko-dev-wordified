@@ -3617,6 +3617,17 @@ elt
 )
 {
 return
+(
+elt
+.
+action
+=
+=
+"
+create
+"
+|
+|
 elt
 .
 action
@@ -3625,6 +3636,7 @@ action
 "
 remove
 "
+)
 &
 &
 commands
