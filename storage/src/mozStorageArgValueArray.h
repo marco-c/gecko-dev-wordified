@@ -128,6 +128,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 sqlite3
 .
 h
@@ -140,6 +149,7 @@ storage
 {
 class
 ArgValueArray
+MOZ_FINAL
 :
 public
 mozIStorageValueArray

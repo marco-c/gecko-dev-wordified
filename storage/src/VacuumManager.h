@@ -153,6 +153,15 @@ nsCategoryCache
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -161,6 +170,7 @@ storage
 {
 class
 VacuumManager
+MOZ_FINAL
 :
 public
 nsIObserver

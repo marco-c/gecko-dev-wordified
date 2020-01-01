@@ -167,6 +167,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 SQLiteMutex
 .
 h
@@ -208,6 +217,7 @@ StatementData
 ;
 class
 AsyncExecuteStatements
+MOZ_FINAL
 :
 public
 nsIRunnable

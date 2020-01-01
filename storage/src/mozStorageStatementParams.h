@@ -132,6 +132,15 @@ nsIXPCScriptable
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 mozIStorageStatement
 ;
@@ -146,6 +155,7 @@ Statement
 ;
 class
 StatementParams
+MOZ_FINAL
 :
 public
 mozIStorageStatementParams

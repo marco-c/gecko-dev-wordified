@@ -132,6 +132,15 @@ nsIXPCScriptable
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 mozIStorageAsyncStatement
 ;
@@ -167,6 +176,7 @@ variant
 /
 class
 AsyncStatementParams
+MOZ_FINAL
 :
 public
 mozIStorageStatementParams

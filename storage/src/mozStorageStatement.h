@@ -174,6 +174,15 @@ StorageBaseStatementInternal
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIXPConnectJSObjectHolder
 ;
@@ -194,6 +203,7 @@ Connection
 ;
 class
 Statement
+MOZ_FINAL
 :
 public
 mozIStorageStatement

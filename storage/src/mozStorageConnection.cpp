@@ -191,6 +191,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 mozIStorageAggregateFunction
 .
 h
@@ -2277,6 +2286,7 @@ Memory
 Reporting
 class
 StorageMemoryReporter
+MOZ_FINAL
 :
 public
 nsIMemoryReporter

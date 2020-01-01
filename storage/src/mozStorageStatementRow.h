@@ -132,6 +132,15 @@ nsIXPCScriptable
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -143,6 +152,7 @@ Statement
 ;
 class
 StatementRow
+MOZ_FINAL
 :
 public
 mozIStorageStatementRow

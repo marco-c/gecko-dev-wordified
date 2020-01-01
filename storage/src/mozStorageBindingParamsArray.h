@@ -135,6 +135,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 mozIStorageBindingParamsArray
 .
 h
@@ -150,6 +159,7 @@ StorageBaseStatementInternal
 ;
 class
 BindingParamsArray
+MOZ_FINAL
 :
 public
 mozIStorageBindingParamsArray
