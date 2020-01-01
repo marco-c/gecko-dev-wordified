@@ -4006,14 +4006,6 @@ cx
 this
 )
 ;
-JS_AbortIfWrongThread
-(
-JS_GetRuntime
-(
-cx
-)
-)
-;
 /
 /
 preserve
