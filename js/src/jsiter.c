@@ -5474,7 +5474,7 @@ error
 silent
 termination
 by
-operation
+branch
 callback
 or
 an
