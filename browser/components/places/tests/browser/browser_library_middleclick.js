@@ -707,9 +707,9 @@ bookmarkNode
 =
 gLibrary
 .
-PlacesOrganizer
+ContentTree
 .
-_content
+view
 .
 view
 .
@@ -1038,9 +1038,9 @@ folderNode
 =
 gLibrary
 .
-PlacesOrganizer
+ContentTree
 .
-_content
+view
 .
 view
 .
@@ -1503,9 +1503,9 @@ folderNode
 =
 gLibrary
 .
-PlacesOrganizer
+ContentTree
 .
-_content
+view
 .
 view
 .
@@ -1916,9 +1916,9 @@ mouseEventOnCell
 (
 gLibrary
 .
-PlacesOrganizer
+ContentTree
 .
-_content
+view
 0
 0
 {

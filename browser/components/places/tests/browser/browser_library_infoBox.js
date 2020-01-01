@@ -219,6 +219,13 @@ gLibrary
 .
 PlacesOrganizer
 ;
+let
+ContentTree
+=
+gLibrary
+.
+ContentTree
+;
 var
 infoBoxExpanderWrapper
 =
@@ -520,9 +527,9 @@ item
 var
 view
 =
-PO
+ContentTree
 .
-_content
+view
 .
 treeBoxObject
 .
@@ -784,9 +791,9 @@ bookmark
 var
 view
 =
-PO
+ContentTree
 .
-_content
+view
 .
 treeBoxObject
 .
