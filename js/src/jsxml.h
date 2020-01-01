@@ -1689,6 +1689,8 @@ cx
 JSString
 *
 str
+JSBool
+quote
 )
 ;
 extern

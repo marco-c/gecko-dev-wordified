@@ -944,16 +944,6 @@ JSFunctionSpec
 ;
 typedef
 struct
-JSFastNativeSpec
-JSFastNativeSpec
-;
-typedef
-struct
-JSFastNativeBlock
-JSFastNativeBlock
-;
-typedef
-struct
 JSTracer
 JSTracer
 ;
