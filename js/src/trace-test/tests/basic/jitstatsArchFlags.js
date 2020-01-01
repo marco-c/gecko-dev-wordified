@@ -53,7 +53,7 @@ platforms
 .
 if
 (
-jitstats
+HAVE_TM
 )
 {
 assertEq
