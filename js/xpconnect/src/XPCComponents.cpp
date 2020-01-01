@@ -21983,7 +21983,7 @@ GetBoolOption
 JSContext
 *
 cx
-uint32
+uint32_t
 aOption
 bool
 *
@@ -22014,13 +22014,13 @@ SetBoolOption
 JSContext
 *
 cx
-uint32
+uint32_t
 aOption
 bool
 aValue
 )
 {
-uint32
+uint32_t
 options
 =
 JS_GetOptions

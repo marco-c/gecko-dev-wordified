@@ -4366,7 +4366,7 @@ nativeClass
 }
 *
 list
-uint32
+uint32_t
 index
 {
 indexGetterType
@@ -4429,7 +4429,7 @@ nativeClass
 }
 *
 list
-uint32
+uint32_t
 index
 {
 indexSetterType
