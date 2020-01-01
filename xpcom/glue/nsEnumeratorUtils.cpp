@@ -500,6 +500,11 @@ nsIStringEnumerator
 {
 public
 :
+EmptyEnumeratorImpl
+(
+)
+{
+}
 /
 /
 nsISupports
