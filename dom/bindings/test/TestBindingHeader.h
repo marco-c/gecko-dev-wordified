@@ -2919,6 +2919,13 @@ UnforgeableAttr2
 )
 ;
 void
+Stringify
+(
+nsString
+&
+)
+;
+void
 PassRenamedInterface
 (
 nsRenamedInterface
