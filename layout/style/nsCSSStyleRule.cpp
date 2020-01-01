@@ -5346,10 +5346,17 @@ p
 \
 n
 "
+static_cast
+<
+void
+*
+>
+(
 mImportantBlock
 .
 get
 (
+)
 )
 )
 ;
