@@ -1256,7 +1256,7 @@ ContainsFlag
 (
 env
 "
-lsra
+regalloc
 "
 )
 )
@@ -1269,7 +1269,7 @@ LoggingBits
 <
 uint32
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 )
 )
 ;

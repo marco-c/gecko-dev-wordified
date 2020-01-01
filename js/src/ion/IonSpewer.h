@@ -577,7 +577,7 @@ LSRA
 \
 _
 (
-LSRA
+RegAlloc
 )
 \
 /
