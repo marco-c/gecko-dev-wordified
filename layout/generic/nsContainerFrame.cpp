@@ -1702,7 +1702,9 @@ aDestructRoot
 Child
 frame
 enumeration
+const
 nsFrameList
+&
 nsContainerFrame
 :
 :

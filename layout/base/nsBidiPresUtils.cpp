@@ -4072,7 +4072,6 @@ block
 begin_lines
 (
 )
-false
 )
 ;
 bpd
