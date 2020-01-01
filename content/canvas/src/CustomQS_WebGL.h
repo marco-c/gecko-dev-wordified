@@ -765,6 +765,7 @@ xpc_qsUnwrapThis
 (
 cx
 obj
+nsnull
 &
 self
 &
@@ -1152,6 +1153,7 @@ xpc_qsUnwrapThis
 (
 cx
 obj
+nsnull
 &
 self
 &
@@ -1533,6 +1535,7 @@ xpc_qsUnwrapThis
 (
 cx
 obj
+nsnull
 &
 self
 &
@@ -1835,6 +1838,7 @@ xpc_qsUnwrapThis
 (
 cx
 obj
+nsnull
 &
 self
 &
@@ -2577,6 +2581,7 @@ xpc_qsUnwrapThis
 (
 cx
 obj
+nsnull
 &
 self
 &
@@ -3249,6 +3254,7 @@ xpc_qsUnwrapThis
 (
 cx
 obj
+nsnull
 &
 self
 &
@@ -3693,6 +3699,7 @@ xpc_qsUnwrapThis
 (
 cx
 obj
+nsnull
 &
 self
 &
@@ -4134,6 +4141,7 @@ xpc_qsUnwrapThis
 (
 cx
 obj
+nsnull
 &
 self
 &
@@ -4572,6 +4580,7 @@ xpc_qsUnwrapThis
 (
 cx
 obj
+nsnull
 &
 self
 &
