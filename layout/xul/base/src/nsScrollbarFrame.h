@@ -565,6 +565,8 @@ aEvent
 nsEventStatus
 *
 aEventStatus
+PRBool
+aControlHeld
 )
 ;
 NS_IMETHOD

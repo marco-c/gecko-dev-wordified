@@ -929,6 +929,8 @@ aEvent
 nsEventStatus
 *
 aEventStatus
+PRBool
+aControlHeld
 )
 {
 return
