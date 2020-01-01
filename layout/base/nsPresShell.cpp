@@ -40339,11 +40339,6 @@ bool
 aTouchIsNew
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 /
 /
 calling
