@@ -471,6 +471,13 @@ dllexport
 #
 endif
 #
+include
+"
+mozalloc_abort
+.
+h
+"
+#
 define
 MOZALLOC_DONT_WRAP_RAISE_FUNCTIONS
 #
