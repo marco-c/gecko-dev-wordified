@@ -481,6 +481,14 @@ FLAG_FOR_PRINTING
 <
 1
 )
+FLAG_IS_TRANSPARENT
+=
+(
+1
+<
+<
+2
+)
 }
 ;
 gfxWindowsSurface
