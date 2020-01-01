@@ -18506,6 +18506,10 @@ tm
 globalSlots
 =
 new
+(
+&
+gc
+)
 SlotList
 (
 )
@@ -18516,6 +18520,10 @@ tm
 globalTypeMap
 =
 new
+(
+&
+gc
+)
 TypeMap
 (
 )
