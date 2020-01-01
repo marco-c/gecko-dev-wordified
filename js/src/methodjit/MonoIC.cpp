@@ -5754,13 +5754,12 @@ callingNew
 )
 args
 .
-thisv
+setThis
 (
-)
-.
-setMagic
+MagicValue
 (
 JS_IS_CONSTRUCTING
+)
 )
 ;
 RecompilationMonitor

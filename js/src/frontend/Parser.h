@@ -2126,8 +2126,7 @@ DefineArg
 ParseNode
 *
 pn
-PropertyName
-*
+HandlePropertyName
 name
 unsigned
 i

@@ -14384,9 +14384,11 @@ jsval
 vp
 )
 {
-JSString
-*
+RootedString
 str
+(
+cx
+)
 ;
 RootedObject
 sobj
@@ -14411,8 +14413,11 @@ S
 /
 o
 "
-&
 str
+.
+address
+(
+)
 sobj
 .
 address
