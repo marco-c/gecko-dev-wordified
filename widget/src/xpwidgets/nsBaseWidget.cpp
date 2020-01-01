@@ -8028,13 +8028,6 @@ if
 shadowManager
 )
 {
-mCompositorChild
--
->
-SendInit
-(
-)
-;
 ShadowLayerForwarder
 *
 lf
