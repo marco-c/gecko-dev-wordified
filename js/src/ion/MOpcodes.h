@@ -377,11 +377,6 @@ GuardObject
 \
 _
 (
-GuardString
-)
-\
-_
-(
 ToDouble
 )
 \
