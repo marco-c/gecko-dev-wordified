@@ -4946,6 +4946,13 @@ fGetString
 LOCAL_GL_EXTENSIONS
 )
 ;
+if
+(
+!
+extensions
+)
+return
+;
 char
 *
 exts
