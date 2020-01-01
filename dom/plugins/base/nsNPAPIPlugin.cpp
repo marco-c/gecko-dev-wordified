@@ -11690,6 +11690,14 @@ cls
 field
 )
 ;
+env
+-
+>
+DeleteLocalRef
+(
+cls
+)
+;
 int32_t
 *
 i
