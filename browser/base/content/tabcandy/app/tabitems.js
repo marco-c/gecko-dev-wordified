@@ -3004,6 +3004,13 @@ setActiveGroup
 group
 )
 ;
+group
+.
+setActiveTab
+(
+tabEl
+)
+;
 }
 else
 Groups
