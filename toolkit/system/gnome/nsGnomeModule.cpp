@@ -183,13 +183,13 @@ endif
 #
 include
 "
-nsAlertsService
+nsSystemAlertsService
 .
 h
 "
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
-nsAlertsService
+nsSystemAlertsService
 Init
 )
 #
@@ -294,7 +294,7 @@ endif
 kNS_SYSTEMALERTSSERVICE_CID
 false
 NULL
-nsAlertsServiceConstructor
+nsSystemAlertsServiceConstructor
 }
 {
 NULL
