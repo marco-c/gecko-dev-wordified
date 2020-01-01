@@ -25,6 +25,15 @@ mozilla_plugins_NPAPIProtocol_h
 #
 include
 "
+base
+/
+basictypes
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
