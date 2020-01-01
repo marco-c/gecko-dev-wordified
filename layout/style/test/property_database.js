@@ -49763,7 +49763,6 @@ shadow
 2px
 green
 )
-)
 "
 "
 drop
