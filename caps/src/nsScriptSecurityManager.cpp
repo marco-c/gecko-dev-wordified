@@ -13268,13 +13268,9 @@ aObj
 else
 if
 (
+IsDOMClass
 (
 jsClass
--
->
-flags
-&
-JSCLASS_IS_DOMJSCLASS
 )
 &
 &
@@ -13298,7 +13294,6 @@ nsISupports
 >
 (
 aObj
-jsClass
 )
 ;
 }

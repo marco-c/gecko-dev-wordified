@@ -3629,25 +3629,6 @@ return
 "
 "
   
-MOZ_ASSERT
-(
-js
-:
-:
-GetObjectJSClass
-(
-obj
-)
-=
-=
-Class
-.
-ToJSClass
-(
-)
-)
-;
-  
 %
 s
 *
@@ -3660,11 +3641,6 @@ s
 >
 (
 obj
-Class
-.
-ToJSClass
-(
-)
 )
 ;
 "
