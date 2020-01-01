@@ -3236,7 +3236,7 @@ XP_MACOSX
 if
 (
 scale
->
+<
 1
 .
 0
