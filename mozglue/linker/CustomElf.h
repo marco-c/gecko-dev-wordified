@@ -939,6 +939,10 @@ friend
 class
 ElfLoader
 ;
+friend
+class
+SEGVHandler
+;
 public
 :
 /
