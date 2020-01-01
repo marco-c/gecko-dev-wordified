@@ -1234,6 +1234,13 @@ tabDetached
 tabDetached
 "
 "
+tabListChanged
+"
+:
+"
+tabListChanged
+"
+"
 tabNavigated
 "
 :
