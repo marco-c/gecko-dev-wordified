@@ -1245,6 +1245,12 @@ equal
 }
 else
 {
+/
+/
+Just
+compare
+the
+URIs
 rv
 =
 binding
@@ -1267,6 +1273,7 @@ aChildBindingURI
 equal
 )
 ;
+}
 NS_ENSURE_SUCCESS
 (
 rv
@@ -1278,7 +1285,6 @@ PR_TRUE
 assume
 the
 worst
-}
 if
 (
 equal
