@@ -48,6 +48,10 @@ publicdomain
 load
 (
 "
+ecma_5
+/
+Object
+/
 defineProperty
 -
 setup
