@@ -570,7 +570,7 @@ in
 topdir
 )
 /
-storage
+mozglue
 /
 android
 /
