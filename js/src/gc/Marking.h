@@ -816,7 +816,7 @@ MarkValue
 JSTracer
 *
 trc
-HeapValue
+EncapsulatedValue
 *
 v
 const
@@ -833,7 +833,7 @@ JSTracer
 trc
 size_t
 len
-HeapValue
+EncapsulatedValue
 *
 vec
 const
