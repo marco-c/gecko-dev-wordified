@@ -10476,6 +10476,11 @@ quality
 )
 }
 ;
+#
+if
+ANDROID_VERSION
+<
+17
 /
 /
 Audio
@@ -10506,6 +10511,8 @@ telephony
 )
 }
 ;
+#
+endif
 /
 /
 Values
