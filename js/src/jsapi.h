@@ -15780,6 +15780,18 @@ inference
 .
 *
 /
+#
+define
+JSOPTION_ION
+JS_BIT
+(
+19
+)
+/
+*
+IonMonkey
+*
+/
 /
 *
 Options
@@ -15806,7 +15818,7 @@ JSRUNOPTION_MASK
 (
 JS_BITMASK
 (
-19
+20
 )
 &
 ~
