@@ -923,6 +923,10 @@ cairo_t
 *
 mContext
 ;
+cairo_surface_t
+*
+mSurface
+;
 IntSize
 mSize
 ;

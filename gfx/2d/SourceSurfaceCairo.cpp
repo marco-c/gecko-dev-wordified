@@ -476,6 +476,11 @@ cairo_destroy
 ctx
 )
 ;
+cairo_pattern_destroy
+(
+pat
+)
+;
 /
 /
 Swap
