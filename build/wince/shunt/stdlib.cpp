@@ -491,10 +491,7 @@ size_t
 maxLength
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 fullpath
@@ -504,8 +501,6 @@ n
 "
 )
 ;
-#
-endif
 if
 (
 relPath
@@ -629,10 +624,7 @@ char
 outExt
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 splitpath
@@ -642,8 +634,6 @@ n
 "
 )
 ;
-#
-endif
 if
 (
 NULL
@@ -1055,10 +1045,7 @@ char
 inExt
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 makepath
@@ -1068,8 +1055,6 @@ n
 "
 )
 ;
-#
-endif
 if
 (
 NULL
@@ -1237,10 +1222,7 @@ char
 src
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 mozce_strcmpi
@@ -1250,8 +1232,6 @@ n
 "
 )
 ;
-#
-endif
 int
 f
 l

@@ -477,10 +477,7 @@ stat
 outStats
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 stat
@@ -490,8 +487,6 @@ n
 "
 )
 ;
-#
-endif
 int
 retval
 =
