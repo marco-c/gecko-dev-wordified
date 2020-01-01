@@ -2384,6 +2384,8 @@ returncode
 =
 0
 or
+\
+              
 (
 stdout
 and
@@ -2393,6 +2395,15 @@ search
 (
 "
 ^
+(
+(
+parent
+|
+child
+)
+:
+)
+?
 TEST
 -
 UNEXPECTED
