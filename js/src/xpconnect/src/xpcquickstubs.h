@@ -492,7 +492,7 @@ char
 *
 name
 ;
-JSFastNative
+JSNative
 native
 ;
 uintN

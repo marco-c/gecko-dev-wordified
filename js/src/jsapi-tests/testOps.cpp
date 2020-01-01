@@ -148,17 +148,11 @@ createMyObject
 JSContext
 *
 context
-JSObject
-*
-obj
 uintN
 argc
 jsval
 *
-argv
-jsval
-*
-rval
+vp
 )
 {
 JS_BeginRequest
@@ -199,7 +193,7 @@ NULL
 )
 ;
 *
-rval
+vp
 =
 OBJECT_TO_JSVAL
 (
@@ -230,7 +224,6 @@ createMyObject
 0
 }
 {
-0
 0
 0
 0

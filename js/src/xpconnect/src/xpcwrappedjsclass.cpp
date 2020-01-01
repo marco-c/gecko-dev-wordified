@@ -6904,8 +6904,7 @@ fp
 {
 if
 (
-!
-JS_IsNativeFrame
+JS_IsScriptFrame
 (
 cx
 fp

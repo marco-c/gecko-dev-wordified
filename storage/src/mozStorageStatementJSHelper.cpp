@@ -1711,12 +1711,9 @@ aScopeObj
 "
 step
 "
-(
-JSNative
-)
 stepFunc
 0
-JSFUN_FAST_NATIVE
+0
 )
 !
 =

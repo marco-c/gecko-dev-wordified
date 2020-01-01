@@ -948,8 +948,7 @@ jsdobj
 ctorURL
 &
 &
-!
-JS_IsNativeFrame
+JS_IsScriptFrame
 (
 cx
 fp

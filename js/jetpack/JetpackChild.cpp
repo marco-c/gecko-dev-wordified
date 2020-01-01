@@ -516,9 +516,6 @@ JetpackChild
 define
 IMPL_METHOD_FLAGS
 (
-JSFUN_FAST_NATIVE
-|
-\
 JSPROP_ENUMERATE
 |
 \

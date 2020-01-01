@@ -1525,7 +1525,7 @@ return
 js
 :
 :
-InternalGetOrSet
+ExternalGetOrSet
 (
 cx
 obj
@@ -1694,7 +1694,7 @@ return
 js
 :
 :
-InternalGetOrSet
+ExternalGetOrSet
 (
 cx
 obj
