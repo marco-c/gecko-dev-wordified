@@ -139,6 +139,12 @@ EXPORTED_SYMBOLS
 "
 PermissionsInstaller
 "
+"
+expandPermissions
+"
+"
+PermissionsTable
+"
 ]
 ;
 const
