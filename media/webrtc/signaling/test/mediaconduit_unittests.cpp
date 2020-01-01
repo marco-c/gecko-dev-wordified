@@ -2743,6 +2743,7 @@ AudioSessionConduit
 :
 Create
 (
+NULL
 )
 ;
 if
@@ -2770,6 +2771,7 @@ AudioSessionConduit
 :
 Create
 (
+NULL
 )
 ;
 if
