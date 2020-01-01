@@ -2640,7 +2640,7 @@ unsigned
 flags
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 IsWrapper
@@ -2680,7 +2680,7 @@ rewrap
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 JS_GetClass
 (
