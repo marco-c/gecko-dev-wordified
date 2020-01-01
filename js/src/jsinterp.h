@@ -6306,12 +6306,9 @@ cx
 JSScript
 *
 script
-JSFunction
+JSStackFrame
 *
-fun
-JSObject
-&
-scopeChain
+fp
 )
 ;
 #
