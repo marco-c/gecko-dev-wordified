@@ -8959,16 +8959,6 @@ else
 constructHook
 =
 "
-ThrowingConstructorWorkers
-"
-if
-self
-.
-descriptor
-.
-workers
-else
-"
 ThrowingConstructor
 "
             
