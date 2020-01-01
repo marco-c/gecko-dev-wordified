@@ -1554,6 +1554,11 @@ i
 if
 (
 nfe
+<
+sp
+&
+&
+nfe
 -
 >
 isCopy
