@@ -41508,8 +41508,10 @@ values
 0
 ]
 .
-SetNormalValue
+SetIntValue
 (
+NS_FONT_STYLE_NORMAL
+eCSSUnit_Enumerated
 )
 ;
 }
@@ -41537,8 +41539,10 @@ values
 1
 ]
 .
-SetNormalValue
+SetIntValue
 (
+NS_FONT_VARIANT_NORMAL
+eCSSUnit_Enumerated
 )
 ;
 }
