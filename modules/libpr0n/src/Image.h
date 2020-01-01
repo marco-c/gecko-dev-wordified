@@ -474,16 +474,6 @@ return
 mStatusTracker
 ;
 }
-PRBool
-IsInitialized
-(
-)
-const
-{
-return
-mInitialized
-;
-}
 /
 *
 *
