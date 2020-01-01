@@ -2338,7 +2338,7 @@ NSFloatPixelsToAppUnits
 fontStyle
 .
 size
-AppUnitsPerDevPixel
+UnscaledAppUnitsPerDevPixel
 (
 )
 )

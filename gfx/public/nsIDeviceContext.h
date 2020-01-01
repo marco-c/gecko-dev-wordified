@@ -3377,6 +3377,7 @@ PRInt32
 UnscaledAppUnitsPerDevPixel
 (
 )
+const
 {
 return
 mAppUnitsPerDevNotScaledPixel
