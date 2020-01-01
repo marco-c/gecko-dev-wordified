@@ -389,7 +389,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_ADDREF
+NS_IF_ADDREF
 (
 *
 aRequestingElement
