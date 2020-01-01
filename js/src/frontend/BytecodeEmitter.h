@@ -822,12 +822,14 @@ JSOP_OBJECT
 *
 /
 bool
-inForInit
+emittingForInit
 :
 1
 ;
 /
 *
+true
+while
 emitting
 init
 expr
