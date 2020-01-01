@@ -3261,7 +3261,7 @@ loadUrl
 "
 about
 :
-home
+privatebrowsing
 "
 Tabs
 .
