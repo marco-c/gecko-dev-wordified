@@ -6249,6 +6249,8 @@ BUILD_ID
 %
 BUILD_TARGET
 %
+-
+xul
 /
 %
 LOCALE
