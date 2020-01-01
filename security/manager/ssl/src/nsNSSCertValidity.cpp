@@ -66,13 +66,6 @@ h
 #
 include
 "
-nsNSSCertHeader
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -109,6 +102,13 @@ h
 include
 "
 nsNSSShutDown
+.
+h
+"
+#
+include
+"
+cert
 .
 h
 "

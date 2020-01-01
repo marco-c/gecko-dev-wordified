@@ -150,13 +150,6 @@ h
 #
 include
 "
-nsNSSCertHeader
-.
-h
-"
-#
-include
-"
 nspr
 .
 h

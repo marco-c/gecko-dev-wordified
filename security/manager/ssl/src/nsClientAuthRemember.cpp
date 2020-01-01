@@ -173,6 +173,13 @@ h
 #
 include
 "
+cert
+.
+h
+"
+#
+include
+"
 nspr
 .
 h
