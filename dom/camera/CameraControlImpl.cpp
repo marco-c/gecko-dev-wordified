@@ -104,6 +104,13 @@ mozilla
 :
 dom
 ;
+using
+namespace
+mozilla
+:
+:
+idl
+;
 CameraControlImpl
 :
 :

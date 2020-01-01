@@ -637,6 +637,12 @@ facing
 camera
 by
 default
+mozilla
+:
+:
+idl
+:
+:
 CameraSelector
 selector
 ;

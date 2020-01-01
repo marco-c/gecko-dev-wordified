@@ -417,7 +417,7 @@ SetSupportedResolutions
 const
 nsTArray
 <
-dom
+idl
 :
 :
 CameraSize
@@ -517,7 +517,7 @@ GonkRecorderProfileManager
 ;
 nsTArray
 <
-dom
+idl
 :
 :
 CameraSize

@@ -2827,6 +2827,12 @@ jsval
 aParams
 )
 {
+mozilla
+:
+:
+idl
+:
+:
 XMLHttpRequestParameters
 params
 ;

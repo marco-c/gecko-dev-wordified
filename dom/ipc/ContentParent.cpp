@@ -12167,7 +12167,7 @@ nsAutoPtr
 mozilla
 :
 :
-dom
+idl
 :
 :
 GeoPositionOptions
@@ -12178,7 +12178,7 @@ new
 mozilla
 :
 :
-dom
+idl
 :
 :
 GeoPositionOptions

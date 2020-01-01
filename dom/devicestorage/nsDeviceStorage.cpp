@@ -10222,6 +10222,12 @@ result
 =
 0
 ;
+mozilla
+:
+:
+idl
+:
+:
 DeviceStorageEnumerationParameters
 params
 ;

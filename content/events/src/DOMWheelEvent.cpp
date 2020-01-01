@@ -642,6 +642,12 @@ jsval
 aVal
 )
 {
+mozilla
+:
+:
+idl
+:
+:
 WheelEventInit
 d
 ;

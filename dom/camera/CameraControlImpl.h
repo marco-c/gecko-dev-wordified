@@ -226,7 +226,7 @@ aWindowId
 nsresult
 GetPreviewStream
 (
-dom
+idl
 :
 :
 CameraSize
@@ -266,7 +266,7 @@ onError
 nsresult
 TakePicture
 (
-dom
+idl
 :
 :
 CameraSize
@@ -277,7 +277,7 @@ const
 nsAString
 &
 aFileFormat
-dom
+idl
 :
 :
 CameraPosition
@@ -295,7 +295,7 @@ onError
 nsresult
 StartRecording
 (
-dom
+idl
 :
 :
 CameraStartRecordingOptions
@@ -324,7 +324,7 @@ StopRecording
 nsresult
 GetPreviewStreamVideoMode
 (
-dom
+idl
 :
 :
 CameraRecorderOptions
@@ -586,7 +586,7 @@ uint32_t
 aKey
 nsTArray
 <
-dom
+idl
 :
 :
 CameraRegion
@@ -648,7 +648,7 @@ aKey
 const
 nsTArray
 <
-dom
+idl
 :
 :
 CameraRegion
@@ -665,7 +665,7 @@ GetVideoSizes
 (
 nsTArray
 <
-dom
+idl
 :
 :
 CameraSize
@@ -1338,7 +1338,7 @@ GetPreviewStreamTask
 CameraControlImpl
 *
 aCameraControl
-dom
+idl
 :
 :
 CameraSize
@@ -1498,7 +1498,7 @@ return
 rv
 ;
 }
-dom
+idl
 :
 :
 CameraSize
@@ -2151,7 +2151,7 @@ CameraControlImpl
 aCameraControl
 bool
 aCancel
-dom
+idl
 :
 :
 CameraSize
@@ -2162,7 +2162,7 @@ const
 nsAString
 &
 aFileFormat
-dom
+idl
 :
 :
 CameraPosition
@@ -2383,7 +2383,7 @@ mCameraControl
 bool
 mCancel
 ;
-dom
+idl
 :
 :
 CameraSize
@@ -2395,7 +2395,7 @@ mRotation
 nsString
 mFileFormat
 ;
-dom
+idl
 :
 :
 CameraPosition
@@ -2543,7 +2543,7 @@ StartRecordingTask
 CameraControlImpl
 *
 aCameraControl
-dom
+idl
 :
 :
 CameraStartRecordingOptions
@@ -2803,7 +2803,7 @@ CameraControlImpl
 >
 mCameraControl
 ;
-dom
+idl
 :
 :
 CameraStartRecordingOptions
@@ -3286,7 +3286,7 @@ GetPreviewStreamVideoModeTask
 CameraControlImpl
 *
 aCameraControl
-dom
+idl
 :
 :
 CameraRecorderOptions
@@ -3447,7 +3447,7 @@ CameraControlImpl
 >
 mCameraControl
 ;
-dom
+idl
 :
 :
 CameraRecorderOptions

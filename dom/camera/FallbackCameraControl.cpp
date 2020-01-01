@@ -177,7 +177,7 @@ uint32_t
 aKey
 nsTArray
 <
-dom
+idl
 :
 :
 CameraRegion
@@ -227,7 +227,7 @@ aKey
 const
 nsTArray
 <
-dom
+idl
 :
 :
 CameraRegion
@@ -241,6 +241,9 @@ GetVideoSizes
 (
 nsTArray
 <
+idl
+:
+:
 CameraSize
 >
 &
@@ -589,7 +592,7 @@ uint32_t
 aKey
 nsTArray
 <
-dom
+idl
 :
 :
 CameraRegion
@@ -655,7 +658,7 @@ aKey
 const
 nsTArray
 <
-dom
+idl
 :
 :
 CameraRegion
@@ -814,6 +817,9 @@ GetVideoSizes
 (
 nsTArray
 <
+idl
+:
+:
 CameraSize
 >
 &

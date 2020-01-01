@@ -2383,6 +2383,12 @@ isObject
 )
 )
 ;
+mozilla
+:
+:
+idl
+:
+:
 SmsThreadListItem
 item
 ;

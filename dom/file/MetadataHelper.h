@@ -279,6 +279,12 @@ mLastModified
 }
 private
 :
+mozilla
+:
+:
+idl
+:
+:
 DOMFileMetadataParameters
 mConfig
 ;
