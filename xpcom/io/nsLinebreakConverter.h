@@ -529,6 +529,17 @@ eLinebreakWindows
 /
 /
 CRLF
+eLinebreakSpace
+/
+/
+space
+characters
+.
+Only
+valid
+as
+destination
+type
 }
 ELinebreakType
 ;
