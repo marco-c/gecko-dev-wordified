@@ -624,7 +624,10 @@ endif
 }
 else
 {
+DebugOnly
+<
 BOOL
+>
 success
 ;
 success
@@ -1478,7 +1481,7 @@ IsValid
 )
 )
 {
-int32_t
+uint32_t
 tableSize
 =
 :
@@ -1496,7 +1499,7 @@ aTableTag
 )
 0
 NULL
-NULL
+0
 )
 ;
 if
@@ -1842,9 +1845,6 @@ if
 mCharacterMap
 )
 {
-nsresult
-rv
-=
 ReadCMAP
 (
 )
