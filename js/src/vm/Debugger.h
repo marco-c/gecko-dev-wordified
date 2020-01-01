@@ -989,7 +989,7 @@ callHook
 true
 )
 ;
-JSObject
+GlobalObject
 *
 unwrapDebuggeeArgument
 (

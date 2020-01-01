@@ -31,6 +31,13 @@ Debugger
 (
 )
 ;
+var
+g
+=
+newGlobal
+(
+)
+;
 assertEq
 (
 dbg
@@ -66,8 +73,7 @@ findScripts
 {
 global
 :
-{
-}
+g
 }
 )
 .
