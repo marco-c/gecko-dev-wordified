@@ -3755,12 +3755,8 @@ id
 406684
 )
 .
-nsContentUtils
-:
-:
 ReleaseWrapper
 (
-this
 this
 )
 ;

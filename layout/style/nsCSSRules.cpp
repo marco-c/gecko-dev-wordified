@@ -3551,7 +3551,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 GroupRule
 :
 :
@@ -3671,9 +3671,6 @@ AppendLiteral
 }
 "
 )
-;
-return
-NS_OK
 ;
 }
 /
@@ -4440,7 +4437,6 @@ AppendConditionText
 aCssText
 )
 ;
-return
 GroupRule
 :
 :
@@ -4448,6 +4444,9 @@ AppendRulesToCssText
 (
 aCssText
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -5364,7 +5363,6 @@ AppendConditionText
 aCssText
 )
 ;
-return
 GroupRule
 :
 :
@@ -5372,6 +5370,9 @@ AppendRulesToCssText
 (
 aCssText
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -9097,9 +9098,11 @@ not
 on
 us
 .
-nsContentUtils
-:
-:
+tmp
+-
+>
+mDecl
+.
 ReleaseWrapper
 (
 static_cast
@@ -9110,11 +9113,6 @@ nsISupports
 (
 p
 )
-&
-tmp
--
->
-mDecl
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
@@ -14714,7 +14712,6 @@ Append
 mCondition
 )
 ;
-return
 css
 :
 :
@@ -14725,6 +14722,9 @@ AppendRulesToCssText
 (
 aCssText
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

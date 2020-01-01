@@ -13499,10 +13499,6 @@ NS_ConvertUTF16toUTF8
 (
 category
 )
-.
-get
-(
-)
 this
 nsContentUtils
 :
@@ -41591,9 +41587,6 @@ id
 406684
 )
 .
-nsContentUtils
-:
-:
 ReleaseWrapper
 (
 static_cast
@@ -41604,7 +41597,6 @@ nsINode
 (
 this
 )
-this
 )
 ;
 }
