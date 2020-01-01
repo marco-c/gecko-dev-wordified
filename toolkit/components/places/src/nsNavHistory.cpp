@@ -2476,12 +2476,14 @@ static
 const
 char
 *
-gQuitApplicationMessage
+gQuitApplicationGrantedMessage
 =
 "
 quit
 -
 application
+-
+granted
 "
 ;
 static
@@ -3881,7 +3883,7 @@ observerService
 AddObserver
 (
 this
-gQuitApplicationMessage
+gQuitApplicationGrantedMessage
 PR_FALSE
 )
 ;
@@ -35973,7 +35975,7 @@ if
 strcmp
 (
 aTopic
-gQuitApplicationMessage
+gQuitApplicationGrantedMessage
 )
 =
 =
@@ -36192,7 +36194,7 @@ observerService
 RemoveObserver
 (
 this
-gQuitApplicationMessage
+gQuitApplicationGrantedMessage
 )
 ;
 }
