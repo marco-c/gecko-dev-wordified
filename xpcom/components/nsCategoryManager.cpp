@@ -1472,10 +1472,7 @@ nonpValue
 *
 _retval
 =
-nsCRT
-:
-:
-strdup
+NS_strdup
 (
 ent
 -
