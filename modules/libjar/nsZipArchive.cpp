@@ -2974,7 +2974,7 @@ FindInit
 -
 -
 -
-PRInt32
+nsresult
 nsZipArchive
 :
 :

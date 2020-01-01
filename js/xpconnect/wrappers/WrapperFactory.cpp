@@ -3185,7 +3185,7 @@ ac
 enter
 (
 cx
-obj
+unwrappedProto
 )
 )
 return

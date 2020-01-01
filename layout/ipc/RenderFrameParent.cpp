@@ -235,13 +235,6 @@ RenderFrameParent
 .
 h
 "
-#
-include
-"
-LayersBackend
-.
-h
-"
 typedef
 nsContentView
 :
@@ -1696,7 +1689,7 @@ shadowTransform
 aLayer
 -
 >
-GetTransform
+GetBaseTransform
 (
 )
 ;
@@ -4102,7 +4095,7 @@ aBuilder
 layer
 -
 >
-SetTransform
+SetBaseTransform
 (
 gfx3DMatrix
 :

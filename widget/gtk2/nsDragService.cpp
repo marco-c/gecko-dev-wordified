@@ -9036,7 +9036,7 @@ NULL
 nsresult
 rv
 =
-0
+NS_OK
 ;
 nsCOMPtr
 <

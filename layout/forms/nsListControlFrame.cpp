@@ -10291,10 +10291,10 @@ val
 aValue
 )
 ;
-PRInt32
+nsresult
 error
 =
-0
+NS_OK
 ;
 bool
 selected

@@ -2948,7 +2948,7 @@ IsEmpty
 )
 )
 {
-PRInt32
+nsresult
 error
 =
 NS_OK

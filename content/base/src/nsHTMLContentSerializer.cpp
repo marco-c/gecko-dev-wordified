@@ -1512,10 +1512,10 @@ IsEmpty
 )
 )
 {
-PRInt32
+nsresult
 rv
 =
-0
+NS_OK
 ;
 startAttrVal
 =

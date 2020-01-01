@@ -153,13 +153,6 @@ GLContextProvider
 h
 "
 #
-include
-"
-LayersBackend
-.
-h
-"
-#
 if
 defined
 (

@@ -2046,8 +2046,7 @@ HandleObject
 obj
 Value
 idval
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -2382,8 +2381,7 @@ value
 PropertyName
 *
 name
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -2397,8 +2395,7 @@ HandleObject
 obj
 HandlePropertyName
 name
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -2412,8 +2409,7 @@ HandleObject
 obj
 HandlePropertyName
 name
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -2444,8 +2440,7 @@ const
 Value
 &
 rref
-Value
-*
+MutableHandleValue
 res
 )
 ;
@@ -2463,8 +2458,7 @@ const
 Value
 &
 rref
-Value
-*
+MutableHandleValue
 res
 )
 ;
@@ -2482,8 +2476,7 @@ const
 Value
 &
 rref
-Value
-*
+MutableHandleValue
 res
 )
 ;

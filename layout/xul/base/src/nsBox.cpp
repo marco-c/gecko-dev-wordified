@@ -2346,7 +2346,7 @@ IsXUL
 )
 )
 {
-PRInt32
+nsresult
 error
 ;
 nsAutoString
@@ -3334,7 +3334,7 @@ IsXUL
 nsAutoString
 value
 ;
-PRInt32
+nsresult
 error
 ;
 content
@@ -4134,7 +4134,7 @@ IsXUL
 nsAutoString
 value
 ;
-PRInt32
+nsresult
 error
 ;
 content
@@ -4520,7 +4520,7 @@ IsXUL
 nsAutoString
 value
 ;
-PRInt32
+nsresult
 error
 ;
 content
@@ -4722,7 +4722,7 @@ IsXUL
 )
 )
 {
-PRInt32
+nsresult
 error
 ;
 nsAutoString

@@ -21255,7 +21255,7 @@ const
 nsXPTType
 &
 type
-unsigned
+nsresult
 *
 pErr
 )

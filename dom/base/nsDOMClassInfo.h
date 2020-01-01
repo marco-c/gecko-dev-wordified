@@ -1909,8 +1909,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 ;
@@ -1925,8 +1924,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 ;
@@ -1943,8 +1941,7 @@ JSHandleId
 id
 JSBool
 strict
-jsval
-*
+JSMutableHandleValue
 vp
 )
 ;
@@ -3547,8 +3544,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 ;
@@ -3606,8 +3602,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 ;

@@ -10022,7 +10022,7 @@ nameSpaceVal
 barIndex
 )
 ;
-PRInt32
+nsresult
 error
 ;
 attrNameSpace

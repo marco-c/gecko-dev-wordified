@@ -5286,7 +5286,8 @@ sDestructorCount
 ;
 exit
 (
-NS_ERROR_FAILURE
+-
+1
 )
 ;
 }
@@ -5438,7 +5439,8 @@ sDoCount
 ;
 exit
 (
-NS_ERROR_FAILURE
+-
+1
 )
 ;
 }
@@ -5596,7 +5598,8 @@ sUndoCount
 ;
 exit
 (
-NS_ERROR_FAILURE
+-
+1
 )
 ;
 }
@@ -5754,7 +5757,8 @@ sRedoCount
 ;
 exit
 (
-NS_ERROR_FAILURE
+-
+1
 )
 ;
 }

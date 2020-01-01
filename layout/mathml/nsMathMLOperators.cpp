@@ -771,10 +771,10 @@ from
 0
 to
 7
-PRInt32
+nsresult
 error
 =
-0
+NS_OK
 ;
 float
 space

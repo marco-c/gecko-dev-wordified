@@ -18406,7 +18406,7 @@ of
 parent
 block
 return
-NS_OK
+nullptr
 ;
 }
 return

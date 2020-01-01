@@ -1004,7 +1004,7 @@ status
 code
 *
 /
-PRInt32
+nsresult
 FindInit
 (
 const

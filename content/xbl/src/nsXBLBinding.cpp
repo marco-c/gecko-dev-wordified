@@ -1893,11 +1893,8 @@ args
 rval
 (
 )
-=
-JS
-:
-:
-UndefinedValue
+.
+setUndefined
 (
 )
 ;
@@ -1945,8 +1942,11 @@ args
 rval
 (
 )
-=
+.
+set
+(
 v
+)
 ;
 return
 true

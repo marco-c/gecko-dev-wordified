@@ -726,7 +726,7 @@ NS_OK
 }
 else
 {
-PRInt32
+nsresult
 err
 ;
 theNCRValue
@@ -9601,7 +9601,7 @@ aFlag
 nsresult
 result
 =
-true
+NS_OK
 ;
 if
 (
@@ -13648,10 +13648,10 @@ kHashsign
 theChar0
 )
 {
-PRInt32
+nsresult
 err
 =
-0
+NS_OK
 ;
 value
 =

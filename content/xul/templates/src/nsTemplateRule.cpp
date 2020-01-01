@@ -808,7 +808,7 @@ numbers
 always
 compare
 false
-PRInt32
+nsresult
 err
 ;
 PRInt32

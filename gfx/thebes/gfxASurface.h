@@ -236,7 +236,7 @@ refcount
 a
 gfxASurface
 virtual
-nsresult
+nsrefcnt
 AddRefExternal
 (
 void
@@ -249,7 +249,7 @@ AddRef
 ;
 }
 virtual
-nsresult
+nsrefcnt
 ReleaseExternal
 (
 void
@@ -264,14 +264,14 @@ Release
 #
 else
 virtual
-nsresult
+nsrefcnt
 AddRef
 (
 void
 )
 ;
 virtual
-nsresult
+nsrefcnt
 Release
 (
 void

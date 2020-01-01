@@ -6091,9 +6091,6 @@ context
 return
 mStyleContext
 ;
-return
-NS_OK
-;
 }
 void
 nsMathMLChar

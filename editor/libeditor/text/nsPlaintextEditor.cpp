@@ -5622,9 +5622,6 @@ element
 nsAutoString
 styleValue
 ;
-nsresult
-res
-=
 rootElement
 -
 >
@@ -5636,12 +5633,6 @@ nsGkAtoms
 :
 style
 styleValue
-)
-;
-NS_ENSURE_SUCCESS
-(
-res
-res
 )
 ;
 /

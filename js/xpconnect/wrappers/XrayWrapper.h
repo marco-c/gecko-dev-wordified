@@ -199,8 +199,7 @@ JSHandleObject
 holder
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 ;
@@ -216,8 +215,7 @@ JSHandleId
 id
 JSBool
 strict
-jsval
-*
+JSMutableHandleValue
 vp
 )
 ;

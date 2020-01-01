@@ -547,13 +547,6 @@ OPERATOR_SOURCE
 .
 *
 /
-enum
-BufferMode
-{
-BUFFER_NONE
-BUFFER_BUFFERED
-}
-;
 virtual
 void
 SetDefaultTarget

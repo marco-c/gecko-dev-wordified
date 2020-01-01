@@ -1394,8 +1394,7 @@ maybeGetElement
 (
 uint32_t
 i
-Value
-*
+MutableHandleValue
 vp
 )
 ;

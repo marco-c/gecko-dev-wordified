@@ -1630,7 +1630,7 @@ convert
 to
 integer
 .
-PRInt32
+nsresult
 err
 ;
 specs

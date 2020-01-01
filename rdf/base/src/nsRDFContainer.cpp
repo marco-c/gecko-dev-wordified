@@ -1091,7 +1091,7 @@ s
 PRInt32
 nextVal
 ;
-PRInt32
+nsresult
 err
 ;
 nextVal

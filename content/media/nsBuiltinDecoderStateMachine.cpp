@@ -1105,6 +1105,12 @@ PRUint32
 aRate
 bool
 aHasAudio
+nsHTMLMediaElement
+:
+:
+MetadataTags
+*
+aTags
 )
 :
 mDecoder
@@ -1123,6 +1129,10 @@ mHasAudio
 (
 aHasAudio
 )
+mTags
+(
+aTags
+)
 {
 }
 NS_IMETHOD
@@ -1138,6 +1148,7 @@ MetadataLoaded
 mChannels
 mRate
 mHasAudio
+mTags
 )
 ;
 return
@@ -1155,6 +1166,13 @@ mRate
 const
 bool
 mHasAudio
+;
+nsHTMLMediaElement
+:
+:
+MetadataTags
+*
+mTags
 ;
 }
 ;
@@ -12473,6 +12491,13 @@ res
 nsVideoInfo
 info
 ;
+nsHTMLMediaElement
+:
+:
+MetadataTags
+*
+tags
+;
 {
 ReentrantMonitorAutoExit
 exitMon
@@ -12494,6 +12519,8 @@ ReadMetadata
 (
 &
 info
+&
+tags
 )
 ;
 }
@@ -13007,6 +13034,7 @@ mAudioRate
 HasAudio
 (
 )
+tags
 )
 ;
 NS_DispatchToMainThread

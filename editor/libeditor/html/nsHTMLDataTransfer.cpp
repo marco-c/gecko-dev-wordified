@@ -6075,7 +6075,7 @@ numFront
 )
 )
 ;
-PRInt32
+nsresult
 errorCode
 ;
 foundNumber
@@ -13539,7 +13539,6 @@ IsEmpty
 )
 {
 PRInt32
-err
 sep
 num
 ;
@@ -13595,6 +13594,9 @@ and
 end
 children
 .
+nsresult
+err
+;
 num
 =
 numstr1

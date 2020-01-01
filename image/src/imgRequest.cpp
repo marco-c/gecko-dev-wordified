@@ -6798,8 +6798,8 @@ HeapMinimize
 true
 )
 ;
-rv
-|
+nsresult
+rv2
 =
 rasterImage
 -
@@ -6829,6 +6829,12 @@ if
 NS_FAILED
 (
 rv
+)
+|
+|
+NS_FAILED
+(
+rv2
 )
 )
 {

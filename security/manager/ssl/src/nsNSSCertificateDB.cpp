@@ -9093,8 +9093,8 @@ the
 aTrust
 string
 .
-nsresult
-rv
+SECStatus
+stat
 =
 CERT_DecodeTrustString
 (
@@ -9122,10 +9122,12 @@ char
 aTrust
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_STATE
 (
-rv
-rv
+stat
+=
+=
+SECSuccess
 )
 ;
 /
@@ -9138,6 +9140,7 @@ in
 return
 error
 .
+nsresult
 rv
 =
 ConstructX509FromBase64

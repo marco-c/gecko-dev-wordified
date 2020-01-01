@@ -1446,7 +1446,7 @@ keycode
 keyCodeStr
 )
 ;
-PRUint32
+nsresult
 errorCode
 ;
 key
@@ -3495,11 +3495,14 @@ nsMenuFrame
 *
 menuFrame
 =
+do_QueryFrame
+(
 menuPopupFrame
 -
 >
-GetParentMenu
+GetParent
 (
+)
 )
 ;
 if

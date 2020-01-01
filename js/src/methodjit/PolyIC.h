@@ -1849,8 +1849,7 @@ HandleValue
 v
 HandleId
 id
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -1866,8 +1865,7 @@ HandleValue
 v
 HandlePropertyName
 name
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -1883,8 +1881,7 @@ HandleValue
 v
 HandleId
 id
-Value
-*
+MutableHandleValue
 vp
 )
 ;

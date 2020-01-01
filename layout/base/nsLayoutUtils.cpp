@@ -26096,8 +26096,8 @@ GetWidth
 imgWidth
 )
 ;
-rv
-|
+nsresult
+rv2
 =
 imgContainer
 -
@@ -26113,6 +26113,12 @@ if
 NS_FAILED
 (
 rv
+)
+|
+|
+NS_FAILED
+(
+rv2
 )
 )
 return

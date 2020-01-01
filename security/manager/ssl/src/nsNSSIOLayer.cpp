@@ -13258,6 +13258,9 @@ nullptr
 nsresult
 rv
 ;
+PRStatus
+stat
+;
 nsNSSSocketInfo
 *
 infoObject
@@ -13419,7 +13422,7 @@ PRFilePrivate
 )
 infoObject
 ;
-rv
+stat
 =
 PR_PushIOLayer
 (
@@ -13433,10 +13436,10 @@ layer
 ;
 if
 (
-NS_FAILED
-(
-rv
-)
+stat
+=
+=
+PR_FAILURE
 )
 {
 goto

@@ -190,7 +190,7 @@ m_pendingStateFlags
 ;
 m_pendingStateValue
 =
-0
+NS_OK
 ;
 m_PrintSetting
 =
@@ -467,6 +467,19 @@ m_closeProgress
 =
 true
 ;
+/
+/
+XXX
+Invalid
+cast
+of
+bool
+to
+nsresult
+(
+bug
+778106
+)
 return
 OnStateChange
 (
@@ -476,6 +489,9 @@ nsIWebProgressListener
 :
 :
 STATE_STOP
+(
+nsresult
+)
 forceClose
 )
 ;
@@ -599,7 +615,7 @@ nsIWebProgressListener
 :
 :
 STATE_STOP
-false
+NS_OK
 )
 ;
 return
@@ -704,7 +720,7 @@ nsIWebProgressListener
 :
 :
 STATE_STOP
-0
+NS_OK
 )
 ;
 else

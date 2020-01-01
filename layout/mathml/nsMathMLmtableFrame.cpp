@@ -2363,7 +2363,7 @@ if
 len
 )
 {
-PRInt32
+nsresult
 error
 ;
 aValue
@@ -5232,7 +5232,7 @@ IsEmpty
 )
 )
 {
-PRInt32
+nsresult
 error
 ;
 rowspan
@@ -5364,7 +5364,7 @@ IsEmpty
 )
 )
 {
-PRInt32
+nsresult
 error
 ;
 colspan

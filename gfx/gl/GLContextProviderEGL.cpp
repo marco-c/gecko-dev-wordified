@@ -5077,6 +5077,13 @@ EGLTextureWrapper
 )
 aSharedHandle
 ;
+wrap
+-
+>
+WaitSync
+(
+)
+;
 fEGLImageTargetTexture2D
 (
 LOCAL_GL_TEXTURE_2D

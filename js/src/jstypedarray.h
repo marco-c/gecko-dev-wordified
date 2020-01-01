@@ -477,9 +477,7 @@ HandleObject
 obj
 HandleId
 id
-const
-Value
-*
+HandleValue
 v
 PropertyOp
 getter
@@ -500,9 +498,7 @@ HandleObject
 obj
 HandlePropertyName
 name
-const
-Value
-*
+HandleValue
 v
 PropertyOp
 getter
@@ -523,9 +519,7 @@ HandleObject
 obj
 uint32_t
 index
-const
-Value
-*
+HandleValue
 v
 PropertyOp
 getter
@@ -546,9 +540,7 @@ HandleObject
 obj
 HandleSpecialId
 sid
-const
-Value
-*
+HandleValue
 v
 PropertyOp
 getter
@@ -571,8 +563,7 @@ HandleObject
 receiver
 HandleId
 id
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -589,8 +580,7 @@ HandleObject
 receiver
 HandlePropertyName
 name
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -607,8 +597,7 @@ HandleObject
 receiver
 uint32_t
 index
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -625,8 +614,7 @@ HandleObject
 receiver
 uint32_t
 index
-Value
-*
+MutableHandleValue
 vp
 bool
 *
@@ -646,8 +634,7 @@ HandleObject
 receiver
 HandleSpecialId
 sid
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -662,8 +649,7 @@ HandleObject
 obj
 HandleId
 id
-Value
-*
+MutableHandleValue
 vp
 JSBool
 strict
@@ -680,8 +666,7 @@ HandleObject
 obj
 HandlePropertyName
 name
-Value
-*
+MutableHandleValue
 vp
 JSBool
 strict
@@ -698,8 +683,7 @@ HandleObject
 obj
 uint32_t
 index
-Value
-*
+MutableHandleValue
 vp
 JSBool
 strict
@@ -716,8 +700,7 @@ HandleObject
 obj
 HandleSpecialId
 sid
-Value
-*
+MutableHandleValue
 vp
 JSBool
 strict
@@ -862,8 +845,7 @@ HandleObject
 obj
 HandlePropertyName
 name
-Value
-*
+MutableHandleValue
 rval
 JSBool
 strict
@@ -880,8 +862,7 @@ HandleObject
 obj
 uint32_t
 index
-Value
-*
+MutableHandleValue
 rval
 JSBool
 strict
@@ -898,8 +879,7 @@ HandleObject
 obj
 HandleSpecialId
 sid
-Value
-*
+MutableHandleValue
 rval
 JSBool
 strict

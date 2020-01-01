@@ -835,7 +835,7 @@ NS_ERROR_FAILURE
 nsCString
 temp
 ;
-int
+nsresult
 rv
 =
 writeoutto
@@ -1537,7 +1537,7 @@ return
 NS_OK
 ;
 }
-int
+nsresult
 doMakeAbsTest
 (
 const

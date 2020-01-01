@@ -1045,7 +1045,7 @@ IsEmpty
 )
 )
 {
-PRInt32
+nsresult
 err
 ;
 desiredRows
@@ -1106,7 +1106,7 @@ IsEmpty
 )
 )
 {
-PRInt32
+nsresult
 err
 ;
 desiredRows
@@ -1914,7 +1914,7 @@ rowStr2
 rowStr
 )
 ;
-PRInt32
+nsresult
 error
 ;
 PRInt32
@@ -23214,7 +23214,7 @@ aColumn
 value
 )
 ;
-PRInt32
+nsresult
 rv
 ;
 PRInt32

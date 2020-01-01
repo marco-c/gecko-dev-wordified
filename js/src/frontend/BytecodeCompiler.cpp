@@ -530,9 +530,6 @@ SourceCompressionToken
 sct
 (
 cx
--
->
-runtime
 )
 ;
 ScriptSource
@@ -615,6 +612,13 @@ init
 )
 return
 NULL
+;
+parser
+.
+sct
+=
+&
+sct
 ;
 SharedContext
 sc
@@ -1708,9 +1712,6 @@ SourceCompressionToken
 sct
 (
 cx
--
->
-runtime
 )
 ;
 ScriptSource
@@ -1778,6 +1779,13 @@ init
 )
 return
 false
+;
+parser
+.
+sct
+=
+&
+sct
 ;
 JS_ASSERT
 (
