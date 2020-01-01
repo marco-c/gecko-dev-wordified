@@ -6365,7 +6365,7 @@ progressive
 -
 paint
 "
-false
+true
 )
 ;
 pref
