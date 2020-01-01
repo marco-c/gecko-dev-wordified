@@ -522,16 +522,7 @@ QPen
 #
 include
 <
-QtGui
-/
 QWidget
->
-#
-include
-<
-QtGui
-/
-QX11Info
 >
 #
 include
