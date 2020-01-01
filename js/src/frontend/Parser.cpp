@@ -542,7 +542,7 @@ EmitTree
 (
 see
 *
-CodeGenerator
+BytecodeEmitter
 .
 h
 )
@@ -738,7 +738,7 @@ include
 "
 frontend
 /
-BytecodeGenerator
+BytecodeEmitter
 .
 h
 "
@@ -13266,9 +13266,9 @@ DefineGlobal
 ParseNode
 *
 pn
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 PropertyName
 *
 name
@@ -14745,7 +14745,7 @@ slot
 wins
 *
 when
-BytecodeGenerator
+BytecodeEmitter
 .
 cpp
 '
@@ -16203,7 +16203,7 @@ pn
 outertc
 -
 >
-asCodeGenerator
+asBytecodeEmitter
 (
 )
 funName
@@ -18241,7 +18241,7 @@ these
 slots
 in
 *
-BytecodeGenerator
+BytecodeEmitter
 .
 cpp
 :
@@ -18694,9 +18694,9 @@ DefineGlobal
 ParseNode
 *
 pn
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 PropertyName
 *
 name
@@ -18706,7 +18706,7 @@ GlobalScope
 *
 globalScope
 =
-cg
+bce
 -
 >
 compiler
@@ -18728,7 +18728,7 @@ globalObj
 if
 (
 !
-cg
+bce
 -
 >
 compileAndGo
@@ -18740,7 +18740,7 @@ compileAndGo
 globalObj
 |
 |
-cg
+bce
 -
 >
 compilingForEval
@@ -18773,7 +18773,7 @@ JSContext
 *
 cx
 =
-cg
+bce
 -
 >
 parser
@@ -19614,7 +19614,7 @@ pn
 tc
 -
 >
-asCodeGenerator
+asBytecodeEmitter
 (
 )
 pn

@@ -1931,7 +1931,7 @@ in
 *
 frontend
 /
-BytecodeGenerator
+BytecodeEmitter
 .
 cpp
 )
@@ -2811,7 +2811,7 @@ SN_3BYTE_OFFSET_FLAG
 see
 frontend
 /
-BytecodeGenerator
+BytecodeEmitter
 .
 h
 .

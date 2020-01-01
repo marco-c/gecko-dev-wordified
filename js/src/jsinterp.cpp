@@ -664,7 +664,7 @@ include
 "
 frontend
 /
-BytecodeGenerator
+BytecodeEmitter
 .
 h
 "

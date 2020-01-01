@@ -6890,7 +6890,7 @@ chain
 See
 frontend
 /
-BytecodeGenerator
+BytecodeEmitter
 .
 h
 for
