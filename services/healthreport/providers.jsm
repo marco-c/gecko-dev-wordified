@@ -735,7 +735,7 @@ measurementTypes
 AppInfoMeasurement
 AppVersionMeasurement
 ]
-constantOnly
+pullOnly
 :
 true
 appInfoFields
@@ -1848,7 +1848,7 @@ measurementTypes
 [
 SysInfoMeasurement
 ]
-constantOnly
+pullOnly
 :
 true
 sysInfoFields
@@ -2893,7 +2893,7 @@ measurementTypes
 CurrentSessionMeasurement
 PreviousSessionsMeasurement
 ]
-constantOnly
+pullOnly
 :
 true
 collectConstantData
@@ -4429,7 +4429,7 @@ measurementTypes
 [
 DailyCrashesMeasurement
 ]
-constantOnly
+pullOnly
 :
 true
 collectConstantData
