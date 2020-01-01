@@ -7021,6 +7021,7 @@ endif
 Child
 frame
 enumeration
+nsFrameList
 nsTableFrame
 :
 :
