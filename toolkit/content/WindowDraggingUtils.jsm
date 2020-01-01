@@ -528,6 +528,13 @@ button
 0
 |
 |
+this
+.
+_window
+.
+fullScreen
+|
+|
 !
 this
 .
