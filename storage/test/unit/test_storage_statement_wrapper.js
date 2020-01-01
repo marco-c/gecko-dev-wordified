@@ -403,7 +403,7 @@ tests
 the
 functions
 of
-mozIStorageStatement
+mozIStorageStatementWrapper
 function
 setup
 (
