@@ -751,6 +751,13 @@ nsEventDispatcher
 .
 h
 "
+#
+include
+"
+nsPresContext
+.
+h
+"
 static
 NS_DEFINE_CID
 (

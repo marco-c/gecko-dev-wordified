@@ -543,6 +543,13 @@ nsRuleData
 .
 h
 "
+#
+include
+"
+nsRuleProcessorData
+.
+h
+"
 /
 /
 -
