@@ -1249,10 +1249,6 @@ handlers
 void
 SetupErrorHandling
 (
-const
-char
-*
-progname
 )
 ;
 #
