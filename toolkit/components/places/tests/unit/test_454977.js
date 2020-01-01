@@ -670,6 +670,12 @@ getInt64
 0
 )
 ;
+stmt
+.
+finalize
+(
+)
+;
 do_check_true
 (
 placeId

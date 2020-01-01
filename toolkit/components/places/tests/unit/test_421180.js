@@ -730,6 +730,12 @@ executeStep
 )
 )
 ;
+stmt
+.
+finalize
+(
+)
+;
 /
 /
 TEST
@@ -881,6 +887,12 @@ stmt
 executeStep
 (
 )
+)
+;
+stmt
+.
+finalize
+(
 )
 ;
 }
