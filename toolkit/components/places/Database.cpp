@@ -3541,13 +3541,13 @@ otherwise
 .
 if
 (
-NS_SUCCEEDED
-(
+JOURNAL_WAL
+=
+=
 SetJournalMode
 (
 mMainConn
 JOURNAL_WAL
-)
 )
 )
 {
