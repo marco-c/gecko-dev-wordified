@@ -958,7 +958,7 @@ nsIWebProgressListener
 ;
 persist
 .
-saveURI
+savePrivacyAwareURI
 (
 dl
 .
@@ -970,6 +970,9 @@ null
 dl
 .
 targetFile
+aParams
+.
+isPrivate
 )
 ;
 return

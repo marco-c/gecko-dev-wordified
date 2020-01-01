@@ -9743,7 +9743,7 @@ rv
 wbp
 -
 >
-SaveURI
+SavePrivacyAwareURI
 (
 dl
 -
@@ -9757,6 +9757,10 @@ dl
 -
 >
 mTarget
+dl
+-
+>
+mPrivate
 )
 ;
 if
