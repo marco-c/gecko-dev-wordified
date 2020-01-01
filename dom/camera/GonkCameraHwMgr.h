@@ -179,6 +179,13 @@ CameraCommon
 .
 h
 "
+#
+include
+"
+GonkNativeWindow
+.
+h
+"
 /
 /
 config
@@ -208,6 +215,8 @@ GonkCamera
 ;
 class
 GonkCameraHardware
+:
+GonkNativeWindowNewFrameCallback
 {
 protected
 :
@@ -268,6 +277,13 @@ aUser
 ;
 public
 :
+virtual
+void
+OnNewFrame
+(
+)
+MOZ_OVERRIDE
+;
 static
 void
 ReleaseHandle
