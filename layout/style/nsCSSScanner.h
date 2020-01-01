@@ -1027,7 +1027,7 @@ const
 PRUnichar
 *
 aBuffer
-PRInt32
+PRUint32
 aCount
 nsIURI
 *
@@ -1584,10 +1584,10 @@ PRUnichar
 *
 mReadPointer
 ;
-PRInt32
+PRUint32
 mOffset
 ;
-PRInt32
+PRUint32
 mCount
 ;
 PRUnichar
