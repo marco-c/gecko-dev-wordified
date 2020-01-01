@@ -905,7 +905,7 @@ to
 it
 .
   
-profile_dir
+temp_dir
 =
 tempfile
 .
@@ -921,7 +921,7 @@ path
 .
 join
 (
-profile_dir
+temp_dir
 '
 profile
 '
@@ -1091,6 +1091,7 @@ close
 )
   
 return
+temp_dir
 profile_dir
 def
 InstallInBrowser
