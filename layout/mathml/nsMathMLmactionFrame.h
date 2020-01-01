@@ -309,7 +309,6 @@ aOwner
 )
 {
 }
-;
 nsMathMLmactionFrame
 *
 mOwner

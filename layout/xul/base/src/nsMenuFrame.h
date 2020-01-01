@@ -1497,7 +1497,6 @@ nsMenuFrame
 )
 {
 }
-;
 bool
 SizeToPopup
 (

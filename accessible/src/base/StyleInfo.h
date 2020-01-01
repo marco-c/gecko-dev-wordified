@@ -162,7 +162,6 @@ StyleInfo
 )
 {
 }
-;
 void
 Display
 (

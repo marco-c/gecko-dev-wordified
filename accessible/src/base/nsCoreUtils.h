@@ -1804,7 +1804,6 @@ nsAccessibleDOMStringList
 )
 {
 }
-;
 virtual
 ~
 nsAccessibleDOMStringList
@@ -1812,7 +1811,6 @@ nsAccessibleDOMStringList
 )
 {
 }
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMDOMSTRINGLIST
 bool

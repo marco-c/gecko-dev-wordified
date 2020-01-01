@@ -174,7 +174,6 @@ nsCertificatePrincipal
 )
 {
 }
-;
 private
 :
 nsCString

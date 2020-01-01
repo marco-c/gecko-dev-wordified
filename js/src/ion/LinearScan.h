@@ -700,7 +700,6 @@ validateIntervals
 )
 {
 }
-;
 inline
 void
 validateAllocations
@@ -708,7 +707,6 @@ validateAllocations
 )
 {
 }
-;
 #
 endif
 #

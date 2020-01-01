@@ -215,7 +215,6 @@ ChromeObjectWrapperBase
 )
 {
 }
-;
 /
 *
 Custom

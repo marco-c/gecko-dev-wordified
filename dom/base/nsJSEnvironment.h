@@ -542,7 +542,6 @@ return
 mGlobalObjectRef
 ;
 }
-;
 virtual
 JSContext
 *

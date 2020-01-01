@@ -414,7 +414,6 @@ test
 )
 {
 }
-;
 NS_IMETHOD
 Run
 (
@@ -466,7 +465,6 @@ test
 )
 {
 }
-;
 NS_IMETHOD
 Run
 (

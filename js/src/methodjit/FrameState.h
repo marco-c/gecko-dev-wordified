@@ -5505,7 +5505,6 @@ assertValidRegisterState
 const
 {
 }
-;
 #
 endif
 /

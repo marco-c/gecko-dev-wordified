@@ -626,7 +626,6 @@ NULL
 )
 {
 }
-;
 ~
 nsGSettingsCollection
 (

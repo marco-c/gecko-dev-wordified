@@ -792,7 +792,6 @@ bool_conversion_helper
 )
 {
 }
-;
 public
 :
 /

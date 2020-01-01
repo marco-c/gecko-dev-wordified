@@ -825,7 +825,6 @@ return
 mSrcStreamLoading
 ;
 }
-;
 protected
 :
 /

@@ -175,7 +175,6 @@ NullTransport
 )
 {
 }
-;
 private
 :
 NullTransport

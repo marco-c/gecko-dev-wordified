@@ -161,7 +161,6 @@ TestObjectBaseA
 )
 {
 }
-;
 int
 fooA
 ;
@@ -189,7 +188,6 @@ TestObjectBaseB
 )
 {
 }
-;
 int
 fooB
 ;

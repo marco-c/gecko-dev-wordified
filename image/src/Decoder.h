@@ -550,7 +550,6 @@ return
 mSizeDecode
 ;
 }
-;
 void
 SetSizeDecode
 (
@@ -675,7 +674,6 @@ HasDecoderError
 )
 ;
 }
-;
 bool
 HasDataError
 (
@@ -685,7 +683,6 @@ return
 mDataError
 ;
 }
-;
 bool
 HasDecoderError
 (
@@ -698,7 +695,6 @@ mFailCode
 )
 ;
 }
-;
 nsresult
 GetDecoderError
 (
@@ -708,7 +704,6 @@ return
 mFailCode
 ;
 }
-;
 void
 PostResizeError
 (

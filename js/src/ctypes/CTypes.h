@@ -2312,7 +2312,6 @@ errResult
 )
 ;
 }
-;
 }
 ;
 bool

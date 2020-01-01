@@ -481,7 +481,6 @@ nullptr
 ;
 }
 }
-;
 virtual
 JSObject
 *

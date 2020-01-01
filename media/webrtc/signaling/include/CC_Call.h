@@ -109,7 +109,6 @@ CC_Call
 )
 {
 }
-;
 virtual
 void
 setRemoteWindow

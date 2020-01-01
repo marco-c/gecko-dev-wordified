@@ -158,7 +158,6 @@ LIR_HEADER
 (
 Box
 )
-;
 LBox
 (
 MIRType
@@ -281,7 +280,6 @@ LIR_HEADER
 (
 Unbox
 )
-;
 LUnbox
 (
 const
@@ -310,7 +308,6 @@ LIR_HEADER
 (
 UnboxDouble
 )
-;
 LUnboxDouble
 (
 const
@@ -352,7 +349,6 @@ LIR_HEADER
 (
 Double
 )
-;
 LDouble
 (
 double

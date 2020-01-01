@@ -6203,7 +6203,6 @@ aModifierMask
 )
 {
 }
-;
 inline
 bool
 IsEmpty

@@ -223,7 +223,6 @@ nsMediaSniffer
 )
 {
 }
-;
 #
 define
 PATTERN_ENTRY

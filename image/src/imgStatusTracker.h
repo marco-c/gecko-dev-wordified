@@ -847,7 +847,6 @@ Length
 )
 ;
 }
-;
 /
 /
 This
@@ -1392,7 +1391,6 @@ return
 mImage
 ;
 }
-;
 inline
 imgRequest
 *
@@ -1405,7 +1403,6 @@ return
 mRequest
 ;
 }
-;
 inline
 imgIDecoderObserver
 *

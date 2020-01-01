@@ -1010,7 +1010,6 @@ AccMutationEvent
 )
 {
 }
-;
 /
 /
 Event
@@ -1348,7 +1347,6 @@ AccReorderEvent
 )
 {
 }
-;
 /
 /
 Event

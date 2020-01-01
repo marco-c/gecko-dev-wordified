@@ -156,7 +156,6 @@ aDoc
 )
 {
 }
-;
 /
 /
 Accessible
@@ -208,7 +207,6 @@ aDoc
 )
 {
 }
-;
 /
 /
 Accessible
@@ -281,7 +279,6 @@ aDoc
 )
 {
 }
-;
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
@@ -346,7 +343,6 @@ aDoc
 )
 {
 }
-;
 NS_DECL_ISUPPORTS_INHERITED
 /
 /

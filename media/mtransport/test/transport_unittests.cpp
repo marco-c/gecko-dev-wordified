@@ -475,7 +475,6 @@ TRANSPORT_LAYER_ID
 lossy
 "
 )
-;
 protected
 :
 virtual

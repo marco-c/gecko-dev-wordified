@@ -439,7 +439,6 @@ EntityToUnicodeEntry
 )
 {
 }
-;
 bool
 KeyEquals
 (
