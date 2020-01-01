@@ -160,6 +160,9 @@ chk
 file
 .
 *
+*
+Id
+*
 /
 #
 ifdef

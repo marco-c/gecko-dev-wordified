@@ -77,6 +77,9 @@ pkcs7
 signature
 .
 *
+*
+Id
+*
 /
 #
 include
