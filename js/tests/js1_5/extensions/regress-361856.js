@@ -520,7 +520,9 @@ var
 summary
 =
 '
-Assertion
+Do
+not
+assert
 :
 overwriting
 js_AddScopeProperty

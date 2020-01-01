@@ -521,7 +521,10 @@ var
 summary
 =
 '
-JS_Assertion
+Do
+not
+assert
+:
 while
 decompiling
 '

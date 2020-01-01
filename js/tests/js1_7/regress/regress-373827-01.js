@@ -523,7 +523,9 @@ var
 summary
 =
 '
-Assertion
+Do
+not
+assert
 :
 OBJ_GET_CLASS
 (

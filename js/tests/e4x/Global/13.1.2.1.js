@@ -3711,10 +3711,6 @@ range
 result
 +
 =
-'
-[
-'
-+
 rangestart
 +
 '
@@ -3724,7 +3720,6 @@ rangestart
 rangeend
 +
 '
-]
 '
 +
 rangemessage
@@ -3826,10 +3821,6 @@ range
 result
 +
 =
-'
-[
-'
-+
 rangestart
 +
 '
@@ -3839,7 +3830,6 @@ rangestart
 rangeend
 +
 '
-]
 '
 +
 rangemessage
@@ -3870,10 +3860,6 @@ rangemessage
 result
 +
 =
-'
-[
-'
-+
 rangestart
 +
 '
@@ -3883,7 +3869,6 @@ rangestart
 rangeend
 +
 '
-]
 '
 +
 rangemessage

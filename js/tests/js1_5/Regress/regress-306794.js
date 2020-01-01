@@ -521,7 +521,10 @@ var
 summary
 =
 '
-Assertion
+Do
+not
+assert
+:
 parsing
 foo
 getter

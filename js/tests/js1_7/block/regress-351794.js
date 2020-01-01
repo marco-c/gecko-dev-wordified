@@ -521,7 +521,9 @@ var
 summary
 =
 '
-Assertion
+Do
+not
+assert
 :
 CG_NOTE_COUNT
 (

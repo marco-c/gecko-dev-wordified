@@ -524,8 +524,9 @@ var
 summary
 =
 '
-Assertion
-failure
+Do
+not
+assert
 :
 slot
 <
