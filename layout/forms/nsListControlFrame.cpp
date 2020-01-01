@@ -854,11 +854,6 @@ GetDocument
 aContext
 )
 ;
-if
-(
-it
-)
-{
 it
 -
 >
@@ -867,7 +862,6 @@ AddStateBits
 NS_FRAME_INDEPENDENT_SELECTION
 )
 ;
-}
 return
 it
 ;
