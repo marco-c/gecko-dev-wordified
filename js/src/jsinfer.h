@@ -7462,9 +7462,10 @@ if
 spew
 is
 enabled
-checks
-for
-warnings
+or
+force
+is
+set
 .
 *
 /
@@ -7474,6 +7475,8 @@ print
 JSContext
 *
 cx
+bool
+force
 )
 ;
 /
