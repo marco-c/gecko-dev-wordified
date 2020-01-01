@@ -897,6 +897,12 @@ return
 0
 ;
 }
+/
+*
+fall
+through
+*
+/
 case
 BT_NMSTRT
 :
@@ -946,6 +952,12 @@ return
 0
 ;
 }
+/
+*
+fall
+through
+*
+/
 case
 BT_NMSTRT
 :
