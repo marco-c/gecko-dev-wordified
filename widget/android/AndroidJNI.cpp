@@ -420,7 +420,6 @@ AndroidBridge
 ConstructBridge
 (
 jenv
-jc
 )
 ;
 }
