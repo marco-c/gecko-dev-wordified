@@ -1153,9 +1153,6 @@ const
 nsRegion
 &
 aDamagedRegion
-nsView
-*
-aIgnoreWidgetView
 )
 ;
 void
