@@ -7599,7 +7599,7 @@ lastRowColor
 ;
 for
 (
-PRInt32
+PRUint32
 rowCount
 =
 0
