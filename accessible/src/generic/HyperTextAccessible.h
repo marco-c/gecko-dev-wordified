@@ -123,6 +123,13 @@ h
 #
 include
 "
+AccCollector
+.
+h
+"
+#
+include
+"
 AccessibleWrap
 .
 h
