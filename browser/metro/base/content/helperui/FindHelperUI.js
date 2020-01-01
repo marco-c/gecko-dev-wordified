@@ -691,6 +691,13 @@ _open
 =
 true
 ;
+setTimeout
+(
+(
+)
+=
+>
+{
 Elements
 .
 browsers
@@ -703,12 +710,6 @@ findbar
 true
 )
 ;
-setTimeout
-(
-(
-)
-=
->
 this
 .
 _container
@@ -720,6 +721,7 @@ showing
 "
 true
 )
+}
 0
 )
 ;
