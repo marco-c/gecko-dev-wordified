@@ -2558,6 +2558,11 @@ char
 aPref
 )
 ;
+PRInt32
+GetBidiNumeralOption
+(
+)
+;
 /
 *
 *
@@ -2687,6 +2692,9 @@ mGraphiteShapingEnabled
 ;
 #
 endif
+PRInt8
+mBidiNumeralOption
+;
 /
 /
 which

@@ -561,6 +561,9 @@ nsOfflineCacheDevice
 class
 nsCacheServiceAutoLock
 ;
+class
+nsITimer
+;
 /
 *
 *
@@ -1359,6 +1362,10 @@ friend
 class
 nsBlockOnCacheThreadEvent
 ;
+friend
+class
+nsSetDiskSmartSizeCallback
+;
 /
 *
 *
@@ -1635,8 +1642,6 @@ endif
 nsresult
 SetDiskSmartSize_Locked
 (
-bool
-checkPref
 )
 ;
 /
@@ -1690,6 +1695,12 @@ nsISupports
 *
 >
 mDoomedObjects
+;
+nsCOMPtr
+<
+nsITimer
+>
+mSmartSizeTimer
 ;
 bool
 mInitialized

@@ -3173,6 +3173,7 @@ observer
 >
 FrameChanged
 (
+nsnull
 this
 &
 dirtyRect
@@ -9304,6 +9305,7 @@ observer
 >
 FrameChanged
 (
+nsnull
 this
 &
 (

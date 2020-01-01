@@ -631,6 +631,9 @@ nsStubImageDecoderObserver
 NS_IMETHOD
 FrameChanged
 (
+imgIRequest
+*
+aRequest
 imgIContainer
 *
 aContainer
@@ -1341,6 +1344,9 @@ aStatusArg
 nsresult
 FrameChanged
 (
+imgIRequest
+*
+aRequest
 imgIContainer
 *
 aContainer

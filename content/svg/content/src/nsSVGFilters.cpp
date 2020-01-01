@@ -38735,6 +38735,9 @@ nsSVGFEImageElement
 :
 FrameChanged
 (
+imgIRequest
+*
+aRequest
 imgIContainer
 *
 aContainer
@@ -38752,6 +38755,7 @@ nsImageLoadingContent
 :
 FrameChanged
 (
+aRequest
 aContainer
 aDirtyRect
 )

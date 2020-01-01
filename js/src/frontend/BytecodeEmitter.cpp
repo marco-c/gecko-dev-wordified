@@ -31951,6 +31951,13 @@ key
 return
 false
 ;
+CheckTypeSet
+(
+cx
+bce
+JSOP_NEWINIT
+)
+;
 #
 if
 JS_HAS_SHARP_VARS
@@ -47389,6 +47396,13 @@ off
 )
 return
 false
+;
+CheckTypeSet
+(
+cx
+bce
+JSOP_NEWARRAY
+)
 ;
 jsbytecode
 *

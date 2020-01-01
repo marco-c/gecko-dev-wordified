@@ -2280,10 +2280,10 @@ aForward
 )
 ;
 NS_IMETHOD
-ScrollHorizontal
+ScrollCharacter
 (
 bool
-aLeft
+aRight
 )
 ;
 NS_IMETHOD

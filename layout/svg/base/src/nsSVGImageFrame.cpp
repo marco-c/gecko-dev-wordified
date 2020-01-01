@@ -565,6 +565,9 @@ nsStubImageDecoderObserver
 NS_IMETHOD
 FrameChanged
 (
+imgIRequest
+*
+aRequest
 imgIContainer
 *
 aContainer
@@ -3658,6 +3661,9 @@ nsSVGImageListener
 :
 FrameChanged
 (
+imgIRequest
+*
+aRequest
 imgIContainer
 *
 aContainer
