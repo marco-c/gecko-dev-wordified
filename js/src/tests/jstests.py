@@ -12,6 +12,7 @@ import
 datetime
 os
 sys
+subprocess
 from
 subprocess
 import
@@ -555,9 +556,14 @@ print
 self
 .
 output_file
+subprocess
+.
+list2cmdline
+(
 output
 .
 cmd
+)
             
 if
 OPTIONS
@@ -2852,10 +2858,9 @@ show_cmd
 :
             
 print
-'
-'
+subprocess
 .
-join
+list2cmdline
 (
 cmd
 )
