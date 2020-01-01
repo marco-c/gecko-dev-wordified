@@ -2402,6 +2402,16 @@ for
 fragmentation
 *
 /
+jsbytecode
+*
+nativeToPC
+(
+void
+*
+returnAddress
+)
+const
+;
 }
 ;
 /
