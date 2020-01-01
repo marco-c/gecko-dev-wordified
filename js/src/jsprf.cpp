@@ -2593,7 +2593,7 @@ char
 *
 s
 =
-js_DeflateString
+DeflateString
 (
 NULL
 ws

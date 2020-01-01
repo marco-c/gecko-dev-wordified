@@ -984,7 +984,7 @@ ifdef
 JS_THREADSAFE
 JSThread
 *
-js_CurrentThread
+js_CurrentThreadAndLockGC
 (
 JSRuntime
 *
@@ -1361,7 +1361,7 @@ thread
 ;
 }
 JSBool
-js_InitContextThread
+js_InitContextThreadAndLockGC
 (
 JSContext
 *
@@ -1372,7 +1372,7 @@ JSThread
 *
 thread
 =
-js_CurrentThread
+js_CurrentThreadAndLockGC
 (
 cx
 -
@@ -1498,7 +1498,7 @@ JSThread
 *
 thread
 =
-js_CurrentThread
+js_CurrentThreadAndLockGC
 (
 rt
 )
@@ -2041,7 +2041,7 @@ JS_THREADSAFE
 if
 (
 !
-js_InitContextThread
+js_InitContextThreadAndLockGC
 (
 cx
 )
@@ -2072,7 +2072,7 @@ is
 still
 held
 after
-js_InitContextThread
+js_InitContextThreadAndLockGC
 took
 it
 and
@@ -5282,11 +5282,8 @@ if
 onError
 )
 {
-AutoScopedAssign
-<
-bool
->
-ss
+AutoAtomicIncrement
+incr
 (
 &
 cx
@@ -5296,7 +5293,6 @@ runtime
 -
 >
 inOOMReport
-true
 )
 ;
 onError
@@ -5713,7 +5709,7 @@ ucmessage
 =
 ucmessage
 =
-js_InflateString
+InflateString
 (
 cx
 message
@@ -6148,7 +6144,7 @@ messageArgs
 i
 ]
 =
-js_InflateString
+InflateString
 (
 cx
 charArg
@@ -6304,7 +6300,7 @@ buffer
 =
 fmt
 =
-js_InflateString
+InflateString
 (
 cx
 efs
@@ -6535,16 +6531,14 @@ buffer
 *
 messagep
 =
-js_DeflateString
+DeflateString
 (
 cx
 reportp
 -
 >
 ucmessage
-(
 size_t
-)
 (
 out
 -
@@ -6635,7 +6629,7 @@ reportp
 >
 ucmessage
 =
-js_InflateString
+InflateString
 (
 cx
 *

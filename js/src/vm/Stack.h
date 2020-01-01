@@ -455,6 +455,9 @@ jsfun
 .
 h
 "
+struct
+JSContext
+;
 namespace
 js
 {
@@ -4595,6 +4598,18 @@ forEachCanonicalActualArg
 (
 Op
 op
+uintN
+start
+=
+0
+uintN
+count
+=
+uintN
+(
+-
+1
+)
 )
 ;
 template
@@ -7957,6 +7972,9 @@ StackFrame
 fp
 )
 ;
+#
+ifdef
+JS_TRACER
 /
 *
 *
@@ -8012,6 +8030,8 @@ ensureEnoughSpaceToEnterTrace
 (
 )
 ;
+#
+endif
 /
 *
 *

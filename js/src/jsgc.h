@@ -825,7 +825,7 @@ unsigned
 thingKind
 ;
 friend
-class
+struct
 FreeLists
 ;
 public
