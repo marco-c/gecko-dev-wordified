@@ -655,8 +655,14 @@ aNameAsId
 JSPropertyDescriptor
 *
 aDesc
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aXBLScope
 )
 ;
