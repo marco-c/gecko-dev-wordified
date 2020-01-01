@@ -1739,7 +1739,7 @@ getValidViewportMetrics
 ;
 mTarget
 .
-setForceRedraw
+forceRedraw
 (
 )
 ;
@@ -2117,7 +2117,7 @@ a
 redraw
 mTarget
 .
-setForceRedraw
+forceRedraw
 (
 )
 ;
@@ -4829,7 +4829,7 @@ viewport
 synchronisation
 mTarget
 .
-setForceRedraw
+forceRedraw
 (
 )
 ;
@@ -6166,7 +6166,7 @@ viewport
 synchronisation
 mTarget
 .
-setForceRedraw
+forceRedraw
 (
 )
 ;

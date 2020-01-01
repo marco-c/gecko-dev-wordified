@@ -3520,7 +3520,7 @@ calling
 the
 /
 /
-setForceRedraw
+forceRedraw
 function
 which
 sends
@@ -5087,7 +5087,7 @@ PanZoomTarget
 /
 public
 void
-setForceRedraw
+forceRedraw
 (
 )
 {
