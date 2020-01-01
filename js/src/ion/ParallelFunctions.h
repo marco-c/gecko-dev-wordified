@@ -666,7 +666,8 @@ HandleValue
 lhs
 HandleValue
 rhs
-MutableHandleValue
+Value
+*
 out
 )
 ;
