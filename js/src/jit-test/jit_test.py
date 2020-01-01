@@ -1147,8 +1147,8 @@ test_args
 =
 args
 [
-:
 1
+:
 ]
     
 if
