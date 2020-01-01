@@ -546,7 +546,7 @@ weave
 /
 engines
 /
-clientData
+clients
 .
 js
 "
@@ -899,10 +899,6 @@ __proto__
 Store
 .
 prototype
-_remoteClients
-:
-{
-}
 itemExists
 :
 function
@@ -917,7 +913,7 @@ id
 =
 Clients
 .
-clientID
+localID
 ;
 }
 getAllTabs
@@ -1259,7 +1255,7 @@ clientName
 =
 Clients
 .
-clientName
+localName
 ;
 /
 /
@@ -1369,7 +1365,7 @@ ids
 [
 Clients
 .
-clientID
+localID
 ]
 =
 true
@@ -1970,7 +1966,7 @@ _changedIDs
 [
 Clients
 .
-clientID
+localID
 ]
 =
 true
