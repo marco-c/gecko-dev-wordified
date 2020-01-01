@@ -63,8 +63,8 @@ InspectorUI
 *
 global
 Ci
-TILT_INITIALIZED
-TILT_DESTROYED
+INITIALIZING
+DESTROYED
 INSPECTOR_OPENED
 *
 /
@@ -296,7 +296,7 @@ obs
 addObserver
 (
 onTiltOpen
-TILT_INITIALIZED
+INITIALIZING
 false
 )
 ;
@@ -324,7 +324,7 @@ obs
 removeObserver
 (
 onTiltOpen
-TILT_INITIALIZED
+INITIALIZING
 )
 ;
 executeSoon
@@ -408,7 +408,7 @@ obs
 addObserver
 (
 onTiltClose
-TILT_DESTROYED
+DESTROYED
 false
 )
 ;
