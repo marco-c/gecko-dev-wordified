@@ -449,7 +449,6 @@ accessed
 via
 the
 HUD
-weak
 references
 in
 the
@@ -549,14 +548,10 @@ HUD
 =
 HUDService
 .
-hudWeakReferences
+hudReferences
 [
 hudId
 ]
-.
-get
-(
-)
 ;
 var
 jsterm

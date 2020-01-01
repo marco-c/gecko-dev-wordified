@@ -509,14 +509,10 @@ hud
 =
 HUDService
 .
-hudWeakReferences
+hudReferences
 [
 hudId
 ]
-.
-get
-(
-)
 ;
 ok
 (

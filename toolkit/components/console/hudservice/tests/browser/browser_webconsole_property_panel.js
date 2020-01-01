@@ -552,14 +552,10 @@ HUD
 =
 HUDService
 .
-hudWeakReferences
+hudReferences
 [
 hudId
 ]
-.
-get
-(
-)
 ;
 var
 jsterm
