@@ -772,7 +772,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Processing
