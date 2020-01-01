@@ -5414,8 +5414,6 @@ congruentTo
 (
 MDefinition
 *
-const
-&
 ins
 )
 const
