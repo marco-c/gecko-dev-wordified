@@ -919,10 +919,13 @@ NULL
 "
 "
 key_value
-TEXT
 DEFAULT
 NULL
 "
+/
+/
+NONE
+affinity
 "
 PRIMARY
 KEY
