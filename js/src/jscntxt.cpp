@@ -6871,6 +6871,15 @@ cx
 tempPool
 )
 ;
+JS_FinishArenaPool
+(
+&
+cx
+-
+>
+regExpPool
+)
+;
 if
 (
 cx
