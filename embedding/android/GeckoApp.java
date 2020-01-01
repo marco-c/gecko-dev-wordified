@@ -6489,7 +6489,7 @@ putExtra
 (
 AwesomeBar
 .
-TYPE
+TYPE_KEY
 AwesomeBar
 .
 Type
@@ -6550,7 +6550,7 @@ putExtra
 (
 AwesomeBar
 .
-TYPE
+TYPE_KEY
 AwesomeBar
 .
 Type
@@ -7126,7 +7126,7 @@ getStringExtra
 (
 AwesomeBar
 .
-TYPE
+TYPE_KEY
 )
 )
 ;
@@ -7387,7 +7387,7 @@ putExtra
 (
 AwesomeBar
 .
-TYPE
+TYPE_KEY
 AwesomeBar
 .
 Type
