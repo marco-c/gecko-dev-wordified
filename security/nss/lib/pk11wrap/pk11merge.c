@@ -4354,9 +4354,6 @@ NULL
 int
 end
 ;
-PRBool
-needCarry
-;
 int
 digit
 ;

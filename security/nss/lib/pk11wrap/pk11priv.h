@@ -1468,6 +1468,14 @@ PK11SlotInfo
 slot
 )
 ;
+void
+pk11_SetInternalKeySlot
+(
+PK11SlotInfo
+*
+slot
+)
+;
 /
 *
 *

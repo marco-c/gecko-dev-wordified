@@ -4262,6 +4262,16 @@ ERRX
 )
 ;
 }
+SECKEY_DestroySubjectPublicKeyInfo
+(
+spki
+)
+;
+CERT_DestroyName
+(
+subj
+)
+;
 if
 (
 verbosity
