@@ -3336,7 +3336,7 @@ gfx3DMatrix
 ChangeMatrixBasis
 (
 const
-gfxPoint
+gfxPoint3D
 &
 aOrigin
 const

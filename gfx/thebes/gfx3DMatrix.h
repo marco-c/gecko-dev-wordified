@@ -1060,6 +1060,16 @@ float
 aZ
 )
 ;
+static
+gfx3DMatrix
+Translation
+(
+const
+gfxPoint3D
+&
+aPoint
+)
+;
 /
 *
 *
