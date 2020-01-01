@@ -323,6 +323,13 @@ nsIImageLoadingContent
 .
 h
 "
+#
+include
+"
+nsMargin
+.
+h
+"
 class
 nsIContent
 ;
