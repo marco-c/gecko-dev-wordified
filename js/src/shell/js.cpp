@@ -5387,6 +5387,15 @@ case
 d
 '
 :
+JS_SetRuntimeDebugMode
+(
+JS_GetRuntime
+(
+cx
+)
+JS_TRUE
+)
+;
 JS_SetDebugMode
 (
 cx
