@@ -1932,8 +1932,13 @@ GetImageContainer
 )
 )
 {
+*
+result
+=
+NPERR_GENERIC_ERROR
+;
 return
-false
+true
 ;
 }
 mDrawingModel
