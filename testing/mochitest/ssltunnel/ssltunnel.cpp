@@ -2588,7 +2588,7 @@ connect_timeout
 =
 PR_SecondsToInterval
 (
-2
+30
 )
 ;
 AutoFD
