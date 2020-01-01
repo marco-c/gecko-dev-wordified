@@ -11184,8 +11184,10 @@ return
 JS_TRUE
 ;
 }
-static
 JSBool
+js
+:
+:
 array_sort
 (
 JSContext
