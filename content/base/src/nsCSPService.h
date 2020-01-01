@@ -513,10 +513,5 @@ CSPService
 (
 )
 ;
-private
-:
-PRBool
-mEnabled
-;
 }
 ;
