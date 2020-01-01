@@ -5780,6 +5780,13 @@ show
 )
 GK_ATOM
 (
+showcaret
+"
+showcaret
+"
+)
+GK_ATOM
+(
 simple
 "
 simple

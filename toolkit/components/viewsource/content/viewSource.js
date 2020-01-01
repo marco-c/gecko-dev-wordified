@@ -2558,13 +2558,6 @@ SELECTION_ON
 ;
 selCon
 .
-setCaretEnabled
-(
-true
-)
-;
-selCon
-.
 setCaretVisibilityDuringSelection
 (
 true
@@ -2726,13 +2719,6 @@ setDisplaySelection
 nsISelectionController
 .
 SELECTION_ON
-)
-;
-selCon
-.
-setCaretEnabled
-(
-true
 )
 ;
 selCon
