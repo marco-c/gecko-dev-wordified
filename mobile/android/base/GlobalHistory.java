@@ -476,6 +476,17 @@ getContentResolver
 if
 (
 c
+=
+=
+null
+)
+{
+return
+;
+}
+if
+(
+c
 .
 moveToFirst
 (
