@@ -2647,11 +2647,6 @@ aCount
 nsresult
 rv
 ;
-PRBool
-thisLineWasReviewedByDavid
-=
-PR_FALSE
-;
 nsCOMPtr
 <
 nsIDOMNode
