@@ -3119,6 +3119,8 @@ String
 args
 String
 url
+boolean
+restoreSession
 )
 {
 /
@@ -3304,6 +3306,18 @@ remote
 "
 +
 url
+;
+if
+(
+restoreSession
+)
+combinedArgs
++
+=
+"
+-
+restoresession
+"
 ;
 GeckoApp
 .
