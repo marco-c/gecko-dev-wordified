@@ -617,7 +617,7 @@ null
 ;
 this
 .
-onaccept
+onconnect
 =
 null
 ;
@@ -752,11 +752,11 @@ if
 (
 this
 .
-onaccept
+onconnect
 )
 this
 .
-onaccept
+onconnect
 (
 )
 ;
@@ -1721,7 +1721,7 @@ close
 ;
 server
 .
-onaccept
+onconnect
 =
 yayFuncs
 .
