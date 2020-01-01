@@ -887,32 +887,17 @@ loc
   
 user
 =
-"
-"
+None
   
 passwd
 =
-"
-"
+None
   
 if
 creds
 :
     
 user
-=
-creds
-.
-split
-(
-"
-:
-"
-)
-[
-0
-]
-    
 passwd
 =
 creds
@@ -923,9 +908,6 @@ split
 :
 "
 )
-[
-1
-]
   
 mozDwnld
 =
