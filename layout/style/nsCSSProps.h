@@ -1021,13 +1021,6 @@ kBackgroundClipKTable
 static
 const
 PRInt32
-kBackgroundColorKTable
-[
-]
-;
-static
-const
-PRInt32
 kBackgroundInlinePolicyKTable
 [
 ]

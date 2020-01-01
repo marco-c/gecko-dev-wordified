@@ -2644,7 +2644,7 @@ BackgroundColor
 Color
 mBackColor
 eCSSType_Value
-kBackgroundColorKTable
+nsnull
 )
 CSS_PROP_BACKGROUND
 (
