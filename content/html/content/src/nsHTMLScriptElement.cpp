@@ -1647,7 +1647,7 @@ t
 deal
 rv
 =
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
+NS_OK
 ;
 return
 rv
