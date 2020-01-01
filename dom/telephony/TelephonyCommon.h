@@ -488,7 +488,7 @@ h
 #
 include
 "
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 .
 h
 "
