@@ -17207,12 +17207,6 @@ ifdef
 XPC_CHECK_WRAPPER_THREADSAFETY
 public
 :
-nsCOMPtr
-<
-nsIThread
->
-mThread
-;
 /
 /
 Don
@@ -17222,6 +17216,10 @@ want
 to
 overload
 _mOwningThread
+PRThread
+*
+mThread
+;
 #
 endif
 }
