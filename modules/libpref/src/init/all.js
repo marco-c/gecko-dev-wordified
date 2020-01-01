@@ -14571,7 +14571,7 @@ plugins
 .
 timeoutSecs
 "
-10
+30
 )
 ;
 #
