@@ -450,6 +450,8 @@ tree
 \
 treeupdate
 \
+value
+\
 (
 null
 )
@@ -687,14 +689,6 @@ test_textboxes
 html
 \
 test_textboxes
-.
-xul
-\
-test_value
-.
-html
-\
-test_value
 .
 xul
 \
