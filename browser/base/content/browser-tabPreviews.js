@@ -2429,7 +2429,7 @@ label
 "
 ?
 "
-value
+textContent
 "
 :
 aAttrName
@@ -2518,7 +2518,7 @@ this
 .
 label
 .
-value
+textContent
 =
 next
 .
@@ -2526,6 +2526,8 @@ _tab
 .
 label
 ;
+/
+/
 this
 .
 label
@@ -3185,7 +3187,7 @@ this
 .
 label
 .
-value
+textContent
 =
 box
 .
@@ -3193,6 +3195,8 @@ _tab
 .
 label
 ;
+/
+/
 this
 .
 label
@@ -4048,7 +4052,7 @@ this
 .
 label
 .
-value
+textContent
 =
 "
 "
