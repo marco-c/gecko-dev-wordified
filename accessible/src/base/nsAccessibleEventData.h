@@ -1112,9 +1112,12 @@ static
 void
 ApplyEventRules
 (
-nsCOMArray
+nsTArray
+<
+nsCOMPtr
 <
 nsIAccessibleEvent
+>
 >
 &
 aEventsToFire
@@ -1247,9 +1250,12 @@ static
 void
 ApplyToSiblings
 (
-nsCOMArray
+nsTArray
+<
+nsCOMPtr
 <
 nsIAccessibleEvent
+>
 >
 &
 aEventsToFire
