@@ -9075,7 +9075,7 @@ details
 -
 The
 frame
-change
+chain
 can
 be
 "
