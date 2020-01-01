@@ -10855,6 +10855,9 @@ DECODER_STATE_SHUTDOWN
 continue
 ;
 }
+OggPlayErrorCode
+r
+;
 /
 /
 Now
