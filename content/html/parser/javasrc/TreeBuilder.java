@@ -25044,7 +25044,7 @@ u201C
 +
 attributes
 .
-getLocalName
+getXmlnsLocalName
 (
 i
 )
@@ -25088,7 +25088,7 @@ u201C
 +
 attributes
 .
-getLocalName
+getXmlnsLocalName
 (
 i
 )
@@ -25127,7 +25127,7 @@ u201C
 +
 attributes
 .
-getLocalName
+getXmlnsLocalName
 (
 i
 )
@@ -27987,11 +27987,6 @@ namePolicy
 ;
 }
 /
-/
-]
-NOCPP
-]
-/
 *
 *
 *
@@ -28025,11 +28020,6 @@ documentModeHandler
 documentModeHandler
 ;
 }
-/
-/
-[
-NOCPP
-[
 /
 *
 *

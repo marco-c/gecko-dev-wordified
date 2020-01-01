@@ -433,14 +433,6 @@ nsITimer
 >
 mFlushTimer
 ;
-nsHtml5Parser
-*
-mParser
-;
-/
-/
-weak
-ref
 PRBool
 mHasProcessedBase
 ;
@@ -500,7 +492,7 @@ sTreeOpQueueMaxLength
 }
 if
 (
-mParser
+parser
 -
 >
 DidProcessATokenImpl
@@ -548,7 +540,7 @@ it
 grows
 further
 .
-mParser
+parser
 -
 >
 Suspend
@@ -864,7 +856,7 @@ GetDocument
 )
 {
 return
-mParser
+parser
 -
 >
 GetDocument
@@ -881,7 +873,7 @@ nsIContent
 aScript
 )
 {
-mParser
+parser
 -
 >
 SetScriptElement
@@ -899,7 +891,7 @@ nsIContent
 aSheet
 )
 {
-mParser
+parser
 -
 >
 UpdateStyleSheet
@@ -926,7 +918,7 @@ mHasProcessedBase
 nsresult
 rv
 =
-mParser
+parser
 -
 >
 ProcessBASETag
@@ -959,7 +951,7 @@ aMeta
 )
 {
 return
-mParser
+parser
 -
 >
 ProcessMETATag
@@ -977,7 +969,7 @@ nsIContent
 aHtml
 )
 {
-mParser
+parser
 -
 >
 ProcessOfflineManifest
@@ -1012,7 +1004,7 @@ FlushPendingAppendNotifications
 (
 )
 ;
-mParser
+parser
 -
 >
 StartLayout

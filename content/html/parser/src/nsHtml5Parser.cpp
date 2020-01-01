@@ -619,13 +619,6 @@ kCharsetAliasCID
 NS_CHARSETALIAS_CID
 )
 ;
-static
-NS_DEFINE_CID
-(
-kHtml5ParserCID
-NS_HTML5_PARSER_CID
-)
-;
 /
 /
 -
@@ -1491,12 +1484,6 @@ delete
 old
 ;
 }
-delete
-mTokenizer
-;
-delete
-mTreeBuilder
-;
 delete
 [
 ]
