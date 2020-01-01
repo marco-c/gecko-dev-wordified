@@ -4778,7 +4778,7 @@ void
 *
 thing
 ;
-uint32
+int32
 kind
 ;
 JSCountHeapNode

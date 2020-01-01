@@ -5818,7 +5818,7 @@ debugging
 output
 *
 /
-uint8
+int8
 arity
 ;
 /
