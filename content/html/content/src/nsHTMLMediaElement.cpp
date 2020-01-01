@@ -3070,7 +3070,7 @@ nsAString
 aCurrentSrc
 )
 {
-nsCAutoString
+nsAutoCString
 src
 ;
 GetCurrentSpec
@@ -3204,7 +3204,7 @@ Range
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 rangeVal
 ;
 if
@@ -13623,7 +13623,7 @@ decoder
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 mimeType
 ;
 aChannel
@@ -14964,7 +14964,7 @@ ProcessMediaFragmentURI
 (
 )
 {
-nsCAutoString
+nsAutoCString
 ref
 ;
 GetCurrentSpec

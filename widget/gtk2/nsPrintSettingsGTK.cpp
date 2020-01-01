@@ -2365,7 +2365,7 @@ nsIFile
 to
 a
 URL
-nsCAutoString
+nsAutoCString
 url
 ;
 rv

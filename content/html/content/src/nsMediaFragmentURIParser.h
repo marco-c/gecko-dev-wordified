@@ -600,7 +600,7 @@ URI
 given
 on
 construction
-nsCAutoString
+nsAutoCString
 mHash
 ;
 /

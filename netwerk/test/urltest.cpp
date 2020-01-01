@@ -435,7 +435,7 @@ do_QueryInterface
 pURL
 )
 ;
-nsCAutoString
+nsAutoCString
 temp
 ;
 int32_t
@@ -1378,7 +1378,7 @@ get
 the
 new
 spec
-nsCAutoString
+nsAutoCString
 newURL
 ;
 status
@@ -1405,7 +1405,7 @@ status
 return
 status
 ;
-nsCAutoString
+nsAutoCString
 temp
 ;
 baseURL

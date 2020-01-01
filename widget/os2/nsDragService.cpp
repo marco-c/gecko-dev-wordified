@@ -2217,7 +2217,7 @@ if
 urlObject
 )
 {
-nsCAutoString
+nsAutoCString
 filename
 ;
 urlObject
@@ -4096,7 +4096,7 @@ nsIURI
 aURI
 )
 {
-nsCAutoString
+nsAutoCString
 strUri
 ;
 aURI
@@ -4900,7 +4900,7 @@ after
 the
 scheme
 name
-nsCAutoString
+nsAutoCString
 strTitle
 ;
 nsCOMPtr
@@ -4920,7 +4920,7 @@ if
 urlObj
 )
 {
-nsCAutoString
+nsAutoCString
 strFile
 ;
 urlObj
@@ -4987,7 +4987,7 @@ Length
 1
 )
 {
-nsCAutoString
+nsAutoCString
 :
 :
 const_iterator
@@ -6684,7 +6684,7 @@ file
 )
 )
 {
-nsCAutoString
+nsAutoCString
 textStr
 ;
 NS_GetURLSpecFromFile
@@ -8429,7 +8429,7 @@ file
 )
 )
 {
-nsCAutoString
+nsAutoCString
 textStr
 ;
 NS_GetURLSpecFromFile
@@ -9941,7 +9941,7 @@ if
 url
 )
 {
-nsCAutoString
+nsAutoCString
 extension
 ;
 url
@@ -10654,7 +10654,7 @@ file
 )
 )
 {
-nsCAutoString
+nsAutoCString
 textStr
 ;
 NS_GetURLSpecFromFile
@@ -12842,7 +12842,7 @@ ignore
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 url
 ;
 srcUri

@@ -506,7 +506,7 @@ gResHandler
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv
@@ -530,7 +530,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 rv
@@ -977,7 +977,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 appURI
 greURI
 ;
@@ -1923,7 +1923,7 @@ bugs
 380994
 394075
 )
-nsCAutoString
+nsAutoCString
 spec
 ;
 const
@@ -2220,7 +2220,7 @@ uri
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv
@@ -2556,7 +2556,7 @@ the
 substitution
 immediately
 .
-nsCAutoString
+nsAutoCString
 scheme
 ;
 nsresult
@@ -2618,7 +2618,7 @@ resolve
 it
 first
 .
-nsCAutoString
+nsAutoCString
 newBase
 ;
 rv
@@ -2722,7 +2722,7 @@ resource
 :
 root
 "
-nsCAutoString
+nsAutoCString
 key
 ;
 key
@@ -2851,10 +2851,10 @@ result
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -2911,7 +2911,7 @@ checks
 on
 it
 .
-nsCAutoString
+nsAutoCString
 unescapedPath
 (
 path
@@ -3094,7 +3094,7 @@ PR_LOG_DEBUG
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri

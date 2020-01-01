@@ -2529,7 +2529,7 @@ for
 wide
 characters
 *
-nsCAutoString
+nsAutoCString
 for
 narrow
 characters

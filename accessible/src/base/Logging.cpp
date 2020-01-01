@@ -622,7 +622,7 @@ GetDocumentURI
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -667,7 +667,7 @@ busy
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 docShellBusy
 ;
 nsCOMPtr
@@ -1893,7 +1893,7 @@ if
 aRequest
 )
 {
-nsCAutoString
+nsAutoCString
 name
 ;
 aRequest
@@ -2671,7 +2671,7 @@ AccEvent
 aEvent
 )
 {
-nsCAutoString
+nsAutoCString
 strEventType
 ;
 GetDocLoadEventType
@@ -2718,7 +2718,7 @@ AccEvent
 aEvent
 )
 {
-nsCAutoString
+nsAutoCString
 strEventType
 ;
 GetDocLoadEventType
@@ -3607,7 +3607,7 @@ AsElement
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 tag
 ;
 elm
@@ -3634,7 +3634,7 @@ GetID
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 id
 ;
 if

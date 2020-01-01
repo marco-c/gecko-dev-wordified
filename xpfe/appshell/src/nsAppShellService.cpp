@@ -1984,7 +1984,7 @@ if
 reg
 )
 {
-nsCAutoString
+nsAutoCString
 package
 ;
 package

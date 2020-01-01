@@ -265,7 +265,7 @@ bool
 aOutValue
 )
 {
-nsCAutoString
+nsAutoCString
 nativeName
 ;
 nsresult
@@ -283,7 +283,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 nativeVal
 ;
 #
@@ -467,7 +467,7 @@ nsAString
 aOutValue
 )
 {
-nsCAutoString
+nsAutoCString
 nativeName
 ;
 nsresult
@@ -485,7 +485,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 nativeVal
 ;
 const
@@ -653,10 +653,10 @@ nsAString
 aValue
 )
 {
-nsCAutoString
+nsAutoCString
 nativeName
 ;
-nsCAutoString
+nsAutoCString
 nativeVal
 ;
 nsresult

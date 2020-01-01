@@ -4400,7 +4400,7 @@ aUri
 return
 NS_ERROR_INVALID_ARG
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult
@@ -4593,7 +4593,7 @@ any
 /
 with
 _
-nsCAutoString
+nsAutoCString
 inputURIHash
 ;
 nsCOMPtr

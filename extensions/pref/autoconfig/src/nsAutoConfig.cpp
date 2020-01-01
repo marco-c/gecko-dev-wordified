@@ -1143,7 +1143,7 @@ downloadAutoConfig
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 emailAddr
 ;
 nsXPIDLCString

@@ -1540,7 +1540,7 @@ gfxFontEntry
 >
 fonts
 ;
-nsCAutoString
+nsAutoCString
 key
 ;
 aLangGroup
@@ -1743,7 +1743,7 @@ GetPlatform
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 key
 (
 "
@@ -1945,7 +1945,7 @@ nothing
 *
 /
 ;
-nsCAutoString
+nsAutoCString
 lang
 (
 Substring

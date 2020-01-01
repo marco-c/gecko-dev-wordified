@@ -6475,7 +6475,7 @@ crash
 reporter
 application
 .
-nsCAutoString
+nsAutoCString
 dataDirEnv
 (
 "
@@ -6484,7 +6484,7 @@ MOZ_CRASHREPORTER_DATA_DIRECTORY
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 dataDirectoryPath
 ;
 rv
@@ -6532,7 +6532,7 @@ env
 ;
 #
 endif
-nsCAutoString
+nsAutoCString
 data
 ;
 if
@@ -6797,7 +6797,7 @@ Length
 ;
 #
 else
-nsCAutoString
+nsAutoCString
 filename
 ;
 rv
@@ -6956,7 +6956,7 @@ Length
 ;
 #
 else
-nsCAutoString
+nsAutoCString
 markerFilename
 ;
 rv
@@ -8098,7 +8098,7 @@ gExceptionHandler
 return
 false
 ;
-nsCAutoString
+nsAutoCString
 entry
 ;
 if
@@ -8317,7 +8317,7 @@ NS_OK
 int
 i
 ;
-nsCAutoString
+nsAutoCString
 envVar
 ;
 char
@@ -8635,7 +8635,7 @@ void
 inException
 )
 {
-nsCAutoString
+nsAutoCString
 excString
 ;
 GetObjCExceptionInfo
@@ -8756,7 +8756,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 appVendor
 appName
 ;
@@ -8824,7 +8824,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 regPath
 ;
 regPath
@@ -9749,7 +9749,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 submitReportValue
 ;
 rv
@@ -12550,7 +12550,7 @@ return
 false
 ;
 }
-nsCAutoString
+nsAutoCString
 lastMinidump_contents
 ;
 if
@@ -12606,7 +12606,7 @@ get
 ;
 #
 else
-nsCAutoString
+nsAutoCString
 lastMinidump
 =
 lastMinidump_contents

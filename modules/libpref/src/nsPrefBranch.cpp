@@ -1510,7 +1510,7 @@ strEnd
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 key
 (
 Substring
@@ -1873,7 +1873,7 @@ file
 return
 NS_NOINTERFACE
 ;
-nsCAutoString
+nsAutoCString
 descriptorString
 ;
 rv
@@ -1968,7 +1968,7 @@ file
 return
 NS_NOINTERFACE
 ;
-nsCAutoString
+nsAutoCString
 relativeToKey
 ;
 (
@@ -2044,7 +2044,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 relDescriptor
 ;
 rv
@@ -2068,7 +2068,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 descriptorString
 ;
 descriptorString
@@ -3622,7 +3622,7 @@ GetRootLength
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 suffix
 (
 newpref

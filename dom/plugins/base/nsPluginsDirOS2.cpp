@@ -770,7 +770,7 @@ nsIFile
 file
 )
 {
-nsCAutoString
+nsAutoCString
 leaf
 ;
 if
@@ -941,7 +941,7 @@ mPlugin
 return
 NS_ERROR_NULL_POINTER
 ;
-nsCAutoString
+nsAutoCString
 temp
 ;
 mPlugin
@@ -1040,7 +1040,7 @@ CCHMAXPATH
 APIRET
 ret
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 if
@@ -1061,7 +1061,7 @@ path
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 fileName
 ;
 if

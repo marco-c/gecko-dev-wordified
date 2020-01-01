@@ -207,7 +207,7 @@ nsString
 >
 fontList
 ;
-nsCAutoString
+nsAutoCString
 generic
 ;
 if
@@ -240,7 +240,7 @@ if
 aLangGroup
 )
 {
-nsCAutoString
+nsAutoCString
 lowered
 ;
 lowered

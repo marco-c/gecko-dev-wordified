@@ -287,7 +287,7 @@ nsACString
 outCharset
 )
 {
-nsCAutoString
+nsAutoCString
 key
 ;
 LossyCopyUTF16toASCII

@@ -515,7 +515,7 @@ nsHttpRequestHead
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 hostHeader
 ;
 nsCString

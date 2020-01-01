@@ -1047,7 +1047,7 @@ kHTMLMime
 )
 )
 {
-nsCAutoString
+nsAutoCString
 toFlavor
 (
 aToDataFlavor

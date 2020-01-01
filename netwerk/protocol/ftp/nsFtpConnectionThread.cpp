@@ -953,7 +953,7 @@ segment
 including
 the
 LF
-nsCAutoString
+nsAutoCString
 line
 ;
 int32_t
@@ -1783,7 +1783,7 @@ mNextState
 =
 FTP_S_USER
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 rv
@@ -3309,7 +3309,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 usernameStr
 (
 "
@@ -3660,7 +3660,7 @@ S_pass
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 passwordStr
 (
 "
@@ -4277,7 +4277,7 @@ mResponseCode
 return
 FTP_S_TYPE
 ;
-nsCAutoString
+nsAutoCString
 respStr
 (
 mResponseMsg
@@ -5059,7 +5059,7 @@ mCacheConnection
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 cwdStr
 ;
 if
@@ -5181,7 +5181,7 @@ S_size
 (
 )
 {
-nsCAutoString
+nsAutoCString
 sizeBuf
 (
 mPath
@@ -5318,7 +5318,7 @@ S_mdtm
 (
 )
 {
-nsCAutoString
+nsAutoCString
 mdtmBuf
 (
 mPath
@@ -5474,7 +5474,7 @@ for
 downloaded
 files
 .
-nsCAutoString
+nsAutoCString
 timeString
 ;
 nsresult
@@ -5921,7 +5921,7 @@ URI
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 filePath
 ;
 if
@@ -6101,7 +6101,7 @@ we
 are
 caching
 .
-nsCAutoString
+nsAutoCString
 serverType
 ;
 serverType
@@ -6331,7 +6331,7 @@ S_retr
 (
 )
 {
-nsCAutoString
+nsAutoCString
 retrStr
 (
 mPath
@@ -6605,7 +6605,7 @@ S_rest
 (
 )
 {
-nsCAutoString
+nsAutoCString
 restString
 (
 "
@@ -6772,7 +6772,7 @@ nsStandardURL
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 storStr
 ;
 url
@@ -7303,7 +7303,7 @@ rv
 int32_t
 port
 ;
-nsCAutoString
+nsAutoCString
 responseCopy
 (
 mResponseMsg
@@ -7993,7 +7993,7 @@ nsISocketTransport
 >
 strans
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 if
@@ -9439,7 +9439,7 @@ PUT
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 nsCOMPtr
@@ -9660,7 +9660,7 @@ mPath
 )
 )
 {
-nsCAutoString
+nsAutoCString
 originCharset
 ;
 rv
@@ -9752,7 +9752,7 @@ out
 of
 the
 uri
-nsCAutoString
+nsAutoCString
 uname
 ;
 rv
@@ -9845,7 +9845,7 @@ return
 NS_ERROR_MALFORMED_URI
 ;
 }
-nsCAutoString
+nsAutoCString
 password
 ;
 rv
@@ -10575,7 +10575,7 @@ log
 the
 password
 :
-nsCAutoString
+nsAutoCString
 logcmd
 (
 command
@@ -10753,7 +10753,7 @@ t
 *
 nextToken
 ;
-nsCAutoString
+nsAutoCString
 fileStringCopy
 ;
 /
@@ -13008,7 +13008,7 @@ serverType
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 serverNum
 (
 serverType
@@ -13421,7 +13421,7 @@ if
 any
 )
 :
-nsCAutoString
+nsAutoCString
 key
 ;
 mChannel
@@ -13615,7 +13615,7 @@ ucsPath
 mPath
 )
 ;
-nsCAutoString
+nsAutoCString
 result
 ;
 nsCOMPtr

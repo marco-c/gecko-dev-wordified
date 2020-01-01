@@ -575,7 +575,7 @@ char
 *
 mArgv
 ;
-nsCAutoString
+nsAutoCString
 mAppVersion
 ;
 }

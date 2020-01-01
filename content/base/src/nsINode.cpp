@@ -3289,7 +3289,7 @@ GetBaseURI
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -11875,6 +11875,8 @@ name_
 cx
 obj
 v
+\
+true
 )
 ;
 \

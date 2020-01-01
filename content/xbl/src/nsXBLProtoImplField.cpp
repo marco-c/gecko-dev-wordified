@@ -531,7 +531,7 @@ here
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 uriSpec
 ;
 aBindingDocURI

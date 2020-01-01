@@ -679,7 +679,7 @@ kRedirMap
 )
 ;
 static
-nsCAutoString
+nsAutoCString
 GetAboutModuleName
 (
 nsIURI
@@ -687,7 +687,7 @@ nsIURI
 aURI
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 aURI
@@ -789,7 +789,7 @@ null
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 path
 =
 GetAboutModuleName
@@ -1013,7 +1013,7 @@ NS_ENSURE_ARG_POINTER
 aURI
 )
 ;
-nsCAutoString
+nsAutoCString
 name
 =
 GetAboutModuleName

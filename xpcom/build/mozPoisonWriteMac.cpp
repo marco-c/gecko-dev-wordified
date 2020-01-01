@@ -2694,7 +2694,7 @@ if
 mozFile
 )
 {
-nsCAutoString
+nsAutoCString
 nativePath
 ;
 nsresult

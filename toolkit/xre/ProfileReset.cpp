@@ -292,7 +292,7 @@ epoch
 for
 uniqueness
 .
-nsCAutoString
+nsAutoCString
 newProfileName
 (
 "

@@ -162,7 +162,7 @@ result
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 nativePath
 ePath
 ;
@@ -242,7 +242,7 @@ ePath
 =
 nativePath
 ;
-nsCAutoString
+nsAutoCString
 escPath
 ;
 NS_NAMED_LITERAL_CSTRING
@@ -421,7 +421,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 directory
 fileBaseName
 fileExtension

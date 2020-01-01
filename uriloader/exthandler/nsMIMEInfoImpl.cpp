@@ -851,7 +851,7 @@ aMIMEInfo
 return
 NS_ERROR_NULL_POINTER
 ;
-nsCAutoString
+nsAutoCString
 type
 ;
 nsresult
@@ -1398,7 +1398,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 aFile
@@ -1929,7 +1929,7 @@ mDefaultApplication
 return
 NS_ERROR_FILE_NOT_FOUND
 ;
-nsCAutoString
+nsAutoCString
 nativePath
 ;
 aFile

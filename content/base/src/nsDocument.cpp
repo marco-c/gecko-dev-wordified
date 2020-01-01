@@ -4898,7 +4898,7 @@ NS_BINDING_ABORTED
 ;
 }
 }
-nsCAutoString
+nsAutoCString
 type
 ;
 chan
@@ -9335,7 +9335,7 @@ name
 512
 ]
 ;
-nsCAutoString
+nsAutoCString
 loadedAsData
 ;
 if
@@ -9380,7 +9380,7 @@ GetDefaultNamespaceID
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 uri
 ;
 if
@@ -10969,7 +10969,7 @@ PR_LOG_DEBUG
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 aURI
@@ -12486,7 +12486,7 @@ uri
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -12710,7 +12710,7 @@ aLoadGroup
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 contentType
 ;
 if
@@ -16021,7 +16021,7 @@ aCharSetID
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 canonicalName
 ;
 nsCharsetAlias
@@ -16803,7 +16803,7 @@ if
 aChannel
 )
 {
-nsCAutoString
+nsAutoCString
 charsetVal
 ;
 nsresult
@@ -16825,7 +16825,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 preferred
 ;
 rv
@@ -19387,7 +19387,7 @@ if
 sheet
 )
 {
-nsCAutoString
+nsAutoCString
 uriStr
 ;
 sheet
@@ -27244,7 +27244,7 @@ content
 namespaceID
 )
 ;
-nsCAutoString
+nsAutoCString
 contractID
 (
 "
@@ -29878,7 +29878,7 @@ if
 mDocumentURI
 )
 {
-nsCAutoString
+nsAutoCString
 uri
 ;
 mDocumentURI
@@ -33907,7 +33907,7 @@ if
 httpChannel
 )
 {
-nsCAutoString
+nsAutoCString
 tmp
 ;
 rv
@@ -34122,7 +34122,7 @@ first
 0
 }
 ;
-nsCAutoString
+nsAutoCString
 headerVal
 ;
 const
@@ -34282,7 +34282,7 @@ intermediateValue
 }
 else
 {
-nsCAutoString
+nsAutoCString
 contentDisp
 ;
 rv
@@ -35703,7 +35703,7 @@ baseChannel
 #
 ifdef
 DEBUG_PAGE_CACHE
-nsCAutoString
+nsAutoCString
 requestName
 docSpec
 ;
@@ -40425,7 +40425,7 @@ aDocumentURI
 return
 ;
 }
-nsCAutoString
+nsAutoCString
 ref
 ;
 /
@@ -40604,7 +40604,7 @@ nsUnescape
 tmpstr
 )
 ;
-nsCAutoString
+nsAutoCString
 unescapedRef
 ;
 unescapedRef

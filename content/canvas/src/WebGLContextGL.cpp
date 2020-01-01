@@ -15556,7 +15556,7 @@ ErrorResult
 rv
 )
 {
-nsCAutoString
+nsAutoCString
 s
 ;
 GetProgramInfoLog
@@ -19613,7 +19613,7 @@ infologs
 ErrorResult
 rv
 ;
-nsCAutoString
+nsAutoCString
 log
 ;
 bool
@@ -27122,7 +27122,7 @@ if
 len
 )
 {
-nsCAutoString
+nsAutoCString
 info
 ;
 info
@@ -27552,7 +27552,7 @@ SH_OBJECT_CODE_LENGTH
 len
 )
 ;
-nsCAutoString
+nsAutoCString
 translatedSrc
 ;
 translatedSrc
@@ -28871,7 +28871,7 @@ ErrorResult
 rv
 )
 {
-nsCAutoString
+nsAutoCString
 s
 ;
 GetShaderInfoLog

@@ -972,7 +972,7 @@ nsACString
 result
 )
 {
-nsCAutoString
+nsAutoCString
 escPath
 ;
 nsresult
@@ -1035,7 +1035,7 @@ nsACString
 result
 )
 {
-nsCAutoString
+nsAutoCString
 escPath
 ;
 nsresult
@@ -3371,10 +3371,10 @@ nsACString
 result
 )
 {
-nsCAutoString
+nsAutoCString
 name
 ;
-nsCAutoString
+nsAutoCString
 path
 (
 basePath
@@ -7605,7 +7605,7 @@ containing
 a
 percent
 sign
-nsCAutoString
+nsAutoCString
 strhost
 (
 host

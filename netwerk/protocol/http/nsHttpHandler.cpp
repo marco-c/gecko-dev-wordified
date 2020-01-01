@@ -4505,7 +4505,7 @@ ret
 0
 )
 {
-nsCAutoString
+nsAutoCString
 buf
 ;
 buf
@@ -8833,7 +8833,7 @@ char
 aAcceptLanguages
 )
 {
-nsCAutoString
+nsAutoCString
 buf
 ;
 nsresult
@@ -10840,7 +10840,7 @@ get
 ;
 }
 }
-nsCAutoString
+nsAutoCString
 scheme
 ;
 nsresult
@@ -10992,7 +10992,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 rv

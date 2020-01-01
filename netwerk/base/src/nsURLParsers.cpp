@@ -4089,7 +4089,7 @@ not
 defined
 for
 substrings
-nsCAutoString
+nsAutoCString
 buf
 (
 colon

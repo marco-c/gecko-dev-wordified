@@ -4585,7 +4585,7 @@ info
 h
 )
 {
-nsCAutoString
+nsAutoCString
 actualName
 ;
 AddonHistogramName
@@ -6110,7 +6110,7 @@ pcCount
 pcIndex
 )
 {
-nsCAutoString
+nsAutoCString
 pcString
 ;
 const
@@ -6348,7 +6348,7 @@ NS_ERROR_FAILURE
 /
 Start
 address
-nsCAutoString
+nsAutoCString
 addressString
 ;
 addressString
@@ -8046,7 +8046,7 @@ mCanRecord
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 fullSQL
 (
 sql
@@ -8089,7 +8089,7 @@ if
 isFirefoxDB
 )
 {
-nsCAutoString
+nsAutoCString
 sanitizedSQL
 (
 SanitizeSQL
@@ -8119,7 +8119,7 @@ statistics
 for
 addon
 DBs
-nsCAutoString
+nsAutoCString
 aggregate
 ;
 aggregate

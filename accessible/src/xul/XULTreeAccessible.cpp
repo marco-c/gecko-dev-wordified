@@ -1594,7 +1594,7 @@ nsITreeColumn
 >
 column
 ;
-nsCAutoString
+nsAutoCString
 childEltUnused
 ;
 mTree
@@ -6349,7 +6349,7 @@ nsITreeColumn
 >
 column
 ;
-nsCAutoString
+nsAutoCString
 pseudoElm
 ;
 if

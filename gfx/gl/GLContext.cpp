@@ -18556,7 +18556,7 @@ if
 success
 )
 {
-nsCAutoString
+nsAutoCString
 log
 ;
 fGetShaderiv
@@ -18710,7 +18710,7 @@ if
 success
 )
 {
-nsCAutoString
+nsAutoCString
 log
 ;
 fGetProgramiv
@@ -18862,7 +18862,7 @@ LOCAL_GL_FRAMEBUFFER_COMPLETE
 )
 )
 {
-nsCAutoString
+nsAutoCString
 msg
 ;
 msg

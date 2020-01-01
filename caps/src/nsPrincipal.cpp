@@ -745,7 +745,7 @@ mCert
 return
 true
 ;
-nsCAutoString
+nsAutoCString
 str
 ;
 aOther
@@ -1151,7 +1151,7 @@ strlen
 start
 )
 ;
-nsCAutoString
+nsAutoCString
 capString
 (
 start
@@ -1406,7 +1406,7 @@ strlen
 start
 )
 ;
-nsCAutoString
+nsAutoCString
 capString
 (
 start
@@ -1534,7 +1534,7 @@ strlen
 start
 )
 ;
-nsCAutoString
+nsAutoCString
 capString
 (
 start
@@ -1771,7 +1771,7 @@ strlen
 start
 )
 ;
-nsCAutoString
+nsAutoCString
 capString
 (
 start
@@ -2667,7 +2667,7 @@ NS_ERROR_OUT_OF_MEMORY
 -
 -
 Capabilities
-nsCAutoString
+nsAutoCString
 grantedListStr
 deniedListStr
 ;
@@ -3017,7 +3017,7 @@ dumpImpl
 (
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 GetScriptLocation
@@ -3330,7 +3330,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCAutoString
+nsAutoCString
 hostPort
 ;
 /
@@ -3519,7 +3519,7 @@ port
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 scheme
 ;
 rv
@@ -3585,7 +3585,7 @@ the
 full
 spec
 .
-nsCAutoString
+nsAutoCString
 spec
 ;
 /
@@ -6508,7 +6508,7 @@ nsIPrincipal
 APP_STATUS_NOT_INSTALLED
 )
 ;
-nsCAutoString
+nsAutoCString
 origin
 ;
 NS_ENSURE_SUCCESS
@@ -6591,7 +6591,7 @@ nsIPrincipal
 APP_STATUS_NOT_INSTALLED
 )
 ;
-nsCAutoString
+nsAutoCString
 appOriginPunned
 ;
 NS_ENSURE_SUCCESS

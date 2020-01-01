@@ -2615,7 +2615,7 @@ nsITreeColumn
 >
 column
 ;
-nsCAutoString
+nsAutoCString
 childEltUnused
 ;
 mTree

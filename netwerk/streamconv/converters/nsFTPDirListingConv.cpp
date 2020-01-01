@@ -866,7 +866,7 @@ endif
 /
 /
 DEBUG_dougt
-nsCAutoString
+nsAutoCString
 indexFormat
 ;
 if
@@ -1425,10 +1425,10 @@ t
 print
 the
 password
-nsCAutoString
+nsAutoCString
 pw
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -1996,7 +1996,7 @@ fe_fname
 ;
 }
 }
-nsCAutoString
+nsAutoCString
 buf
 ;
 aString

@@ -404,7 +404,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 filter
 name
 ;
@@ -799,7 +799,7 @@ int16_t
 aReturn
 )
 {
-nsCAutoString
+nsAutoCString
 directory
 ;
 if

@@ -1652,7 +1652,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 buffer
 ;
 rv
@@ -1716,7 +1716,7 @@ true
 c
 )
 {
-nsCAutoString
+nsAutoCString
 profileID
 (
 "
@@ -1769,7 +1769,7 @@ EqualsLiteral
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 filePath
 ;
 rv
@@ -2957,7 +2957,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 profileDir
 ;
 rv
@@ -3281,7 +3281,7 @@ rootDir
 aRootDir
 )
 ;
-nsCAutoString
+nsAutoCString
 dirName
 ;
 if
@@ -3978,7 +3978,7 @@ mStartWithLast
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 cur

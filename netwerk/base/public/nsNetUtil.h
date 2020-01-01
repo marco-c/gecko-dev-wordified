@@ -1760,7 +1760,7 @@ nullptr
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 resultBuf
 ;
 rv
@@ -1865,7 +1865,7 @@ NS_OK
 }
 else
 {
-nsCAutoString
+nsAutoCString
 resultBuf
 ;
 if
@@ -2252,7 +2252,7 @@ Need
 the
 scheme
 first
-nsCAutoString
+nsAutoCString
 scheme
 ;
 rv
@@ -3810,7 +3810,7 @@ valued
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 uri
@@ -4630,7 +4630,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 (
 scheme
@@ -8844,7 +8844,7 @@ NS_GetInnermostURI
 aURI
 )
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 uint32_t
@@ -8938,7 +8938,7 @@ news
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 uint32_t
@@ -8973,7 +8973,7 @@ return
 specHash
 ;
 }
-nsCAutoString
+nsAutoCString
 host
 ;
 uint32_t
@@ -9242,7 +9242,7 @@ false
 /
 Compare
 schemes
-nsCAutoString
+nsAutoCString
 targetScheme
 ;
 bool
@@ -9508,10 +9508,10 @@ whole
 spec
 for
 comparison
-nsCAutoString
+nsAutoCString
 targetSpec
 ;
-nsCAutoString
+nsAutoCString
 sourceSpec
 ;
 return
@@ -9553,10 +9553,10 @@ sourceSpec
 /
 Compare
 hosts
-nsCAutoString
+nsAutoCString
 targetHost
 ;
-nsCAutoString
+nsAutoCString
 sourceHost
 ;
 if
@@ -10898,7 +10898,7 @@ nsIChannel
 :
 DISPOSITION_ATTACHMENT
 ;
-nsCAutoString
+nsAutoCString
 fallbackCharset
 ;
 if
@@ -11134,7 +11134,7 @@ do_QueryInterface
 aURI
 )
 ;
-nsCAutoString
+nsAutoCString
 fallbackCharset
 ;
 if
@@ -11387,7 +11387,7 @@ return
 false
 ;
 }
-nsCAutoString
+nsAutoCString
 str
 ;
 uri

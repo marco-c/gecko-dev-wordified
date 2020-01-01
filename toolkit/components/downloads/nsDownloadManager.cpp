@@ -1323,7 +1323,7 @@ scope
 mGetIdsForURIStatement
 )
 ;
-nsCAutoString
+nsAutoCString
 source
 ;
 nsresult
@@ -6339,7 +6339,7 @@ DB
 is
 not
 empty
-nsCAutoString
+nsAutoCString
 mimeType
 ;
 rv
@@ -6448,7 +6448,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 persistentDescriptor
 ;
 rv
@@ -8222,7 +8222,7 @@ Adding
 to
 the
 DB
-nsCAutoString
+nsAutoCString
 source
 target
 ;
@@ -8294,7 +8294,7 @@ still
 download
 the
 file
-nsCAutoString
+nsAutoCString
 persistentDescriptor
 mimeType
 ;
@@ -14256,7 +14256,7 @@ nsIMIMEInfo
 >
 mimeInfo
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 GetMIMEInfo
@@ -18648,7 +18648,7 @@ if
 mReferrer
 )
 {
-nsCAutoString
+nsAutoCString
 referrer
 ;
 rv

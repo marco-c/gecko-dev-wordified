@@ -997,7 +997,7 @@ URI
 ;
 #
 endif
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -1238,7 +1238,7 @@ kSlash
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 provider
 path
 ;
@@ -1266,7 +1266,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 package
 ;
 rv
@@ -1665,7 +1665,7 @@ chromeURL
 NS_NOINTERFACE
 )
 ;
-nsCAutoString
+nsAutoCString
 package
 provider
 path
@@ -3377,7 +3377,7 @@ url
 NS_NOINTERFACE
 )
 ;
-nsCAutoString
+nsAutoCString
 provider
 file
 ;
@@ -3509,7 +3509,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsCAutoString
+nsAutoCString
 package
 ;
 rv
@@ -3632,7 +3632,7 @@ isChrome
 return
 false
 ;
-nsCAutoString
+nsAutoCString
 package
 ;
 rv

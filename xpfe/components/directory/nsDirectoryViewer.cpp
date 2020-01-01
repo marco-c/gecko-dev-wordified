@@ -1681,7 +1681,7 @@ uri
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 entryuriC
 ;
 uri
@@ -2176,7 +2176,7 @@ resource
 for
 its
 entry
-nsCAutoString
+nsAutoCString
 entryuriC
 (
 baseStr

@@ -3755,7 +3755,7 @@ was
 /
 specified
 .
-nsCAutoString
+nsAutoCString
 query
 ;
 if

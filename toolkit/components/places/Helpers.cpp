@@ -338,7 +338,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 message
 ;
 rv
@@ -357,7 +357,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 warnMsg
 ;
 warnMsg
@@ -422,7 +422,7 @@ uri
 spec
 )
 \
-nsCAutoString
+nsAutoCString
 spec
 ;
 \
@@ -997,7 +997,7 @@ nsString
 aRevHost
 )
 {
-nsCAutoString
+nsAutoCString
 forward8
 ;
 nsresult

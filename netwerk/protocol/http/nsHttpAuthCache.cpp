@@ -599,7 +599,7 @@ path
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 key
 ;
 nsHttpAuthNode
@@ -704,7 +704,7 @@ realm
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 key
 ;
 nsHttpAuthNode
@@ -860,7 +860,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 key
 ;
 nsHttpAuthNode
@@ -999,7 +999,7 @@ mDB
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 key
 ;
 GetAuthKey

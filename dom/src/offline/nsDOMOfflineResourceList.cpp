@@ -1151,7 +1151,7 @@ return
 NS_ERROR_DOM_INVALID_STATE_ERR
 ;
 }
-nsCAutoString
+nsAutoCString
 key
 ;
 rv
@@ -1488,7 +1488,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 rv
@@ -1603,7 +1603,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 clientID
 ;
 rv
@@ -1745,7 +1745,7 @@ return
 NS_ERROR_DOM_INVALID_STATE_ERR
 ;
 }
-nsCAutoString
+nsAutoCString
 key
 ;
 rv
@@ -3469,7 +3469,7 @@ used
 in
 cache
 keys
-nsCAutoString
+nsAutoCString
 :
 :
 const_iterator

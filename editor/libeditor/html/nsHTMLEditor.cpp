@@ -20819,7 +20819,7 @@ spec
 from
 the
 sheet
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv

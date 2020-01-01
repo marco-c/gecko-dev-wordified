@@ -711,7 +711,7 @@ null
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -968,7 +968,7 @@ NS_ENSURE_ARG_POINTER
 aURI
 )
 ;
-nsCAutoString
+nsAutoCString
 name
 ;
 nsresult

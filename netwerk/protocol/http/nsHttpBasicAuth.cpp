@@ -828,7 +828,7 @@ with
 ASCII
 around
 here
-nsCAutoString
+nsAutoCString
 userpass
 ;
 LossyCopyUTF16toASCII

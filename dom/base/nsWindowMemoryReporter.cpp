@@ -670,7 +670,7 @@ nsISupports
 aClosure
 )
 {
-nsCAutoString
+nsAutoCString
 windowPath
 (
 "
@@ -987,7 +987,7 @@ _amount
 )
 {
 \
-nsCAutoString
+nsAutoCString
 path
 (
 windowPath
@@ -3611,7 +3611,7 @@ GetWindowURI
 window
 )
 ;
-nsCAutoString
+nsAutoCString
 domain
 ;
 if
@@ -3975,7 +3975,7 @@ GetWindowURI
 aWindow
 )
 ;
-nsCAutoString
+nsAutoCString
 domain
 ;
 if
@@ -4512,7 +4512,7 @@ return
 PL_DHASH_NEXT
 ;
 }
-nsCAutoString
+nsAutoCString
 path
 ;
 path

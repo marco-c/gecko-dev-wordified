@@ -1246,7 +1246,7 @@ LOG_ENABLED
 )
 )
 {
-nsCAutoString
+nsAutoCString
 clientID
 ;
 if

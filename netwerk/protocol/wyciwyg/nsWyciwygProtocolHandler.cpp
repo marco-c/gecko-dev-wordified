@@ -815,7 +815,7 @@ a
 session
 restore
 )
-nsCAutoString
+nsAutoCString
 path
 ;
 rv

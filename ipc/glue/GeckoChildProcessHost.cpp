@@ -2045,7 +2045,7 @@ this
 way
 .
 )
-nsCAutoString
+nsAutoCString
 setChildLogName
 (
 "
@@ -3522,7 +3522,7 @@ in
 nsAppRunner
 .
 cpp
-nsCAutoString
+nsAutoCString
 path
 ;
 nsCOMPtr

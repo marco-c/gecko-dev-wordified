@@ -192,7 +192,7 @@ nsIFile
 item
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 nsresult

@@ -2545,7 +2545,7 @@ IsSpdyEnabled
 mAllowSpdy
 )
 {
-nsCAutoString
+nsAutoCString
 hostPort
 ;
 if
@@ -4550,7 +4550,7 @@ version
 to
 use
 .
-nsCAutoString
+nsAutoCString
 buf
 path
 ;
@@ -5314,7 +5314,7 @@ end
 )
 )
 {
-nsCAutoString
+nsAutoCString
 ifMatch
 ;
 mRequestHead
@@ -5729,7 +5729,7 @@ length
 i
 )
 {
-nsCAutoString
+nsAutoCString
 newType
 ;
 nsresult
@@ -7348,7 +7348,7 @@ isHttps
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 asciiHost
 ;
 rv
@@ -7813,7 +7813,7 @@ Security
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 stsHeader
 ;
 rv
@@ -9504,7 +9504,7 @@ id
 from
 the
 response
-nsCAutoString
+nsAutoCString
 id
 ;
 rv
@@ -11462,7 +11462,7 @@ AssertOnCacheThread
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 buf
 metaKey
 ;
@@ -11935,7 +11935,7 @@ to
 compare
 the
 hashes
-nsCAutoString
+nsAutoCString
 hash
 ;
 if
@@ -13419,7 +13419,7 @@ the
 cached
 response
 head
-nsCAutoString
+nsAutoCString
 head
 ;
 mCachedResponseHead
@@ -14148,10 +14148,10 @@ for
 that
 host
 .
-nsCAutoString
+nsAutoCString
 lastModifiedCached
 ;
-nsCAutoString
+nsAutoCString
 lastModified304
 ;
 rv
@@ -14336,7 +14336,7 @@ the
 cached
 response
 head
-nsCAutoString
+nsAutoCString
 head
 ;
 mCachedResponseHead
@@ -15215,7 +15215,7 @@ Range
 return
 false
 ;
-nsCAutoString
+nsAutoCString
 byteRange
 ;
 aRequestHead
@@ -15313,7 +15313,7 @@ open
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 cacheKey
 ;
 if
@@ -15703,7 +15703,7 @@ if
 mApplicationCache
 )
 {
-nsCAutoString
+nsAutoCString
 appCacheClientID
 ;
 rv
@@ -16051,7 +16051,7 @@ mApplicationCacheForWrite
 mFallbackChannel
 )
 {
-nsCAutoString
+nsAutoCString
 cacheKey
 ;
 GenerateCacheKey
@@ -16294,7 +16294,7 @@ mPrivateBrowsing
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 cacheKey
 ;
 GenerateCacheKey
@@ -16680,7 +16680,7 @@ mRequestHead
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 cacheKey
 ;
 GenerateCacheKey
@@ -16695,7 +16695,7 @@ mApplicationCacheForWrite
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-nsCAutoString
+nsAutoCString
 offlineCacheClientID
 ;
 rv
@@ -20873,7 +20873,7 @@ Head
 return
 false
 ;
-nsCAutoString
+nsAutoCString
 query
 ;
 nsCOMPtr
@@ -23771,7 +23771,7 @@ the
 check
 .
 {
-nsCAutoString
+nsAutoCString
 buf
 metaKey
 ;
@@ -23902,7 +23902,7 @@ PeekHeader
 atom
 )
 ;
-nsCAutoString
+nsAutoCString
 hash
 ;
 if
@@ -24159,7 +24159,7 @@ the
 meta
 data
 .
-nsCAutoString
+nsAutoCString
 head
 ;
 mResponseHead
@@ -24310,7 +24310,7 @@ wally
 world
 "
 ]
-nsCAutoString
+nsAutoCString
 buf
 ;
 GetAuthType
@@ -25901,7 +25901,7 @@ header
 are
 escaped
 .
-nsCAutoString
+nsAutoCString
 locationBuf
 ;
 if
@@ -26208,7 +26208,7 @@ of
 the
 current
 uri
-nsCAutoString
+nsAutoCString
 originCharset
 ;
 rv
@@ -26377,7 +26377,7 @@ one
 has
 none
 .
-nsCAutoString
+nsAutoCString
 ref
 ;
 rv
@@ -31778,7 +31778,7 @@ the
 original
 host
 name
-nsCAutoString
+nsAutoCString
 hostPort
 ;
 if
@@ -34202,7 +34202,7 @@ progressMax
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 mURI
@@ -35267,7 +35267,7 @@ container
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-nsCAutoString
+nsAutoCString
 cacheKey
 ;
 rv
@@ -37245,7 +37245,7 @@ nullptr
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 cacheKey
 ;
 rv
@@ -38410,7 +38410,7 @@ GET
 -
 request
 .
-nsCAutoString
+nsAutoCString
 tmpCacheKey
 ;
 GenerateCacheKey
@@ -38569,7 +38569,7 @@ char
 location
 )
 {
-nsCAutoString
+nsAutoCString
 tmpCacheKey
 tmpSpec
 ;

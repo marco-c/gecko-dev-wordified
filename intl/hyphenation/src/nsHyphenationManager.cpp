@@ -1951,7 +1951,7 @@ if
 value
 )
 {
-nsCAutoString
+nsAutoCString
 alias
 (
 prefNames

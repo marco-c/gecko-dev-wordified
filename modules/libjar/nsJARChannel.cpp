@@ -4201,7 +4201,7 @@ NS_ENSURE_ARG_POINTER
 aURI
 )
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 aURI
@@ -4637,7 +4637,7 @@ a
 JAR
 type
 .
-nsCAutoString
+nsAutoCString
 header
 ;
 httpChannel
@@ -4656,10 +4656,10 @@ Type
 header
 )
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 NS_ParseContentType
@@ -4669,7 +4669,7 @@ contentType
 charset
 )
 ;
-nsCAutoString
+nsAutoCString
 channelContentType
 ;
 channel

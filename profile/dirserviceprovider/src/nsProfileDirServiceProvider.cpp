@@ -2226,7 +2226,7 @@ nsIFile
 >
 profileDirParent
 ;
-nsCAutoString
+nsAutoCString
 profileDirName
 ;
 (
@@ -2740,7 +2740,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 leafName
 ;
 rv

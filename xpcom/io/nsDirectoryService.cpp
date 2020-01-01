@@ -2890,7 +2890,7 @@ more
 more
 )
 {
-nsCAutoString
+nsAutoCString
 entry
 ;
 strings

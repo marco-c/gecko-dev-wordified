@@ -4041,7 +4041,7 @@ PR_GetLibraryPath
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 libPath
 (
 curLibPath
@@ -4176,7 +4176,7 @@ loc2
 -
 loc1
 ;
-nsCAutoString
+nsAutoCString
 sub
 (
 Substring

@@ -765,7 +765,7 @@ nsIURI
 uri
 )
 {
-nsCAutoString
+nsAutoCString
 host
 ;
 PRNetAddr
@@ -873,7 +873,7 @@ prefs
 return
 false
 ;
-nsCAutoString
+nsAutoCString
 scheme
 host
 ;
@@ -2530,7 +2530,7 @@ both
 http
 and
 https
-nsCAutoString
+nsAutoCString
 serviceName
 host
 ;

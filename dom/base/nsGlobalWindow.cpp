@@ -4898,7 +4898,7 @@ MOZ_QUIET
 )
 )
 {
-nsCAutoString
+nsAutoCString
 url
 ;
 if
@@ -12545,7 +12545,7 @@ GetDocumentURI
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -24937,7 +24937,7 @@ rv
 fixedURI
 )
 {
-nsCAutoString
+nsAutoCString
 host
 ;
 fixedURI
@@ -24995,7 +24995,7 @@ localized
 /
 generic
 string
-nsCAutoString
+nsAutoCString
 prepath
 ;
 fixedURI
@@ -42895,7 +42895,7 @@ hashes
 are
 different
 .
-nsCAutoString
+nsAutoCString
 oldBeforeHash
 oldHash
 newBeforeHash
@@ -42942,7 +42942,7 @@ newHash
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 oldSpec
 newSpec
 ;
@@ -56720,7 +56720,7 @@ cpp
 .
 *
 /
-nsCAutoString
+nsAutoCString
 charset
 (
 NS_LITERAL_CSTRING
@@ -61153,6 +61153,8 @@ name_
 cx
 obj
 v
+\
+true
 )
 ;
 \

@@ -248,7 +248,7 @@ write
 to
 GRE_HOME
 /
-nsCAutoString
+nsAutoCString
 logPath
 ;
 logPath

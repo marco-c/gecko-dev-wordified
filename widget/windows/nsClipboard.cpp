@@ -6483,7 +6483,7 @@ Free
 outData
 )
 ;
-nsCAutoString
+nsAutoCString
 url
 ;
 ResolveShortcut
@@ -6668,7 +6668,7 @@ get
 our
 file
 path
-nsCAutoString
+nsAutoCString
 urlSpec
 ;
 NS_GetURLSpecFromFile

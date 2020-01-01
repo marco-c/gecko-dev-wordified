@@ -824,7 +824,7 @@ show
 once
 pref
 .
-nsCAutoString
+nsAutoCString
 showOncePref
 (
 mPrefName
@@ -1407,7 +1407,7 @@ how
 showOnce
 works
 .
-nsCAutoString
+nsAutoCString
 showOncePref
 (
 prefName

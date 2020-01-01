@@ -2603,7 +2603,7 @@ mMap
 return
 ;
 }
-nsCAutoString
+nsAutoCString
 buf
 ;
 PL_DHashTableEnumerate
@@ -3319,13 +3319,13 @@ return
 PL_DHASH_NEXT
 ;
 }
-nsCAutoString
+nsAutoCString
 *
 buf
 =
 reinterpret_cast
 <
-nsCAutoString
+nsAutoCString
 *
 >
 (

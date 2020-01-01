@@ -1400,7 +1400,7 @@ t
 "
 if
 necessary
-nsCAutoString
+nsAutoCString
 filteredSpec
 ;
 int32_t
@@ -1452,7 +1452,7 @@ to
 US
 -
 ASCII
-nsCAutoString
+nsAutoCString
 spec
 ;
 NS_EscapeURL
@@ -2831,7 +2831,7 @@ nsACString
 result
 )
 {
-nsCAutoString
+nsAutoCString
 buf
 ;
 nsresult

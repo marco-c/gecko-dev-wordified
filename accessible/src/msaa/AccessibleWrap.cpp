@@ -8870,7 +8870,7 @@ NS_ERROR_FAILURE
 nsAutoString
 tag
 ;
-nsCAutoString
+nsAutoCString
 id
 ;
 nsIContent
@@ -9594,7 +9594,7 @@ propElem
 return
 E_FAIL
 ;
-nsCAutoString
+nsAutoCString
 name
 ;
 if

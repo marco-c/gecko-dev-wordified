@@ -789,7 +789,7 @@ resolve
 the
 charset
 first
-nsCAutoString
+nsAutoCString
 charset
 ;
 /
@@ -857,7 +857,7 @@ rv
 =
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 contractid
 (
 NS_LITERAL_CSTRING
@@ -950,7 +950,7 @@ resolve
 the
 charset
 first
-nsCAutoString
+nsAutoCString
 charset
 ;
 /
@@ -1016,7 +1016,7 @@ resolve
 the
 charset
 first
-nsCAutoString
+nsAutoCString
 charset
 ;
 nsresult
@@ -1297,7 +1297,7 @@ supStr
 )
 continue
 ;
-nsCAutoString
+nsAutoCString
 name
 ;
 if
@@ -1315,7 +1315,7 @@ name
 )
 continue
 ;
-nsCAutoString
+nsAutoCString
 fullName
 (
 aPrefix
@@ -1678,7 +1678,7 @@ resolve
 the
 charset
 first
-nsCAutoString
+nsAutoCString
 charset
 ;
 nsresult

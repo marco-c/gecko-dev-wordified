@@ -20876,7 +20876,7 @@ DefaultXDisplay
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 description
 ;
 GetPluginDescription

@@ -10390,7 +10390,7 @@ NameAtom
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 uri
 ;
 if

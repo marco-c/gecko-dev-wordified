@@ -1032,7 +1032,7 @@ NS_IsMainThread
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 journalMode
 ;
 switch
@@ -1129,7 +1129,7 @@ mozIStorageStatement
 >
 statement
 ;
-nsCAutoString
+nsAutoCString
 query
 (
 MOZ_STORAGE_UNIQUIFY_QUERY_STR
@@ -3618,7 +3618,7 @@ DATABASE_MAX_WAL_SIZE_IN_KIBIBYTES
 mDBPageSize
 )
 ;
-nsCAutoString
+nsAutoCString
 checkpointPragma
 (
 "
@@ -3833,7 +3833,7 @@ it
 is
 needed
 .
-nsCAutoString
+nsAutoCString
 journalSizePragma
 (
 "
@@ -6593,7 +6593,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 guid
 ;
 rv
@@ -7073,7 +7073,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 guid
 ;
 rv

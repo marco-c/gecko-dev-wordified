@@ -526,7 +526,7 @@ name
 )
 break
 ;
-nsCAutoString
+nsAutoCString
 colName
 (
 name

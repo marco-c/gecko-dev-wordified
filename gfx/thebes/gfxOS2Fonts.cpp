@@ -4730,7 +4730,7 @@ gfxTextRunFactory
 TEXT_OPTIMIZE_SPEED
 )
 ;
-nsCAutoString
+nsAutoCString
 utf8
 ;
 int32_t
@@ -5129,7 +5129,7 @@ chars
 aLength
 )
 ;
-nsCAutoString
+nsAutoCString
 utf8
 ;
 int32_t

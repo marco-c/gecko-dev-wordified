@@ -450,7 +450,7 @@ mVolume
 aVolume
 )
 {
-nsCAutoString
+nsAutoCString
 cmd
 ;
 cmd

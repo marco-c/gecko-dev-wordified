@@ -949,7 +949,7 @@ the
 icon
 to
 remove
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult

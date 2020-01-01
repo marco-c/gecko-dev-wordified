@@ -837,7 +837,7 @@ nsIURI
 referrer
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult
@@ -1582,7 +1582,7 @@ nsIURI
 uri
 )
 {
-nsCAutoString
+nsAutoCString
 tmpHost1
 tmpHost2
 ;

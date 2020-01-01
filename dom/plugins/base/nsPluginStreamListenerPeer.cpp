@@ -1518,7 +1518,7 @@ aListener
 #
 ifdef
 PLUGIN_LOGGING
-nsCAutoString
+nsAutoCString
 urlSpec
 ;
 if
@@ -1640,7 +1640,7 @@ aContent
 #
 ifdef
 PLUGIN_LOGGING
-nsCAutoString
+nsAutoCString
 urlSpec
 ;
 aURL
@@ -2248,7 +2248,7 @@ url
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 filename
 ;
 url
@@ -2967,7 +2967,7 @@ mLength
 length
 ;
 }
-nsCAutoString
+nsAutoCString
 aContentType
 ;
 /
@@ -3489,7 +3489,7 @@ requestCnt
 =
 0
 ;
-nsCAutoString
+nsAutoCString
 string
 (
 "
@@ -3639,7 +3639,7 @@ NPByteRange
 rangeList
 )
 {
-nsCAutoString
+nsAutoCString
 rangeString
 ;
 int32_t
@@ -5378,7 +5378,7 @@ null
 to
 the
 plugin
-nsCAutoString
+nsAutoCString
 aContentType
 ;
 rv
@@ -6266,7 +6266,7 @@ original
 compressed
 file
 .
-nsCAutoString
+nsAutoCString
 contentEncoding
 ;
 if
@@ -6337,7 +6337,7 @@ if
 length
 )
 {
-nsCAutoString
+nsAutoCString
 range
 ;
 if
@@ -6402,7 +6402,7 @@ header
 for
 plugin
 info
-nsCAutoString
+nsAutoCString
 lastModified
 ;
 if
@@ -6663,7 +6663,7 @@ mPStreamListener
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -7311,7 +7311,7 @@ responseStatus
 307
 )
 {
-nsCAutoString
+nsAutoCString
 method
 ;
 rv

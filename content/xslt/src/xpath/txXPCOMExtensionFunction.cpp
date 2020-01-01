@@ -784,7 +784,7 @@ GetUTF16String
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 methodName
 ;
 PRUnichar

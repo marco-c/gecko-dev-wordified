@@ -1281,7 +1281,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 appName
 ;
 rv
@@ -1913,7 +1913,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 oscpu
 ;
 rv
@@ -2544,7 +2544,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-nsCAutoString
+nsAutoCString
 buildID
 ;
 nsresult
@@ -8731,7 +8731,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 ua
 ;
 rv
@@ -9017,7 +9017,7 @@ what
 this
 does
 .
-nsCAutoString
+nsAutoCString
 plat
 ;
 rv
@@ -9123,7 +9123,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 str
 ;
 rv

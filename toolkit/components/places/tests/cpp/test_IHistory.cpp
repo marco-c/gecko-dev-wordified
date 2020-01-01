@@ -315,7 +315,7 @@ specNumber
 =
 0
 ;
-nsCAutoString
+nsAutoCString
 spec
 =
 NS_LITERAL_CSTRING

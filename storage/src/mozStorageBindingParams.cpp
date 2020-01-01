@@ -976,7 +976,7 @@ colon
 for
 SQLite
 .
-nsCAutoString
+nsAutoCString
 name
 (
 "
@@ -1017,7 +1017,7 @@ oneIdx
 0
 )
 {
-nsCAutoString
+nsAutoCString
 errMsg
 (
 aName

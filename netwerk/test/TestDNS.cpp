@@ -264,7 +264,7 @@ status
 )
 )
 {
-nsCAutoString
+nsAutoCString
 buf
 ;
 rec
@@ -596,7 +596,7 @@ in
 the
 native
 charset
-nsCAutoString
+nsAutoCString
 hostBuf
 ;
 if

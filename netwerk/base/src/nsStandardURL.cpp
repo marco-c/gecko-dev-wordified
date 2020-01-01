@@ -1419,7 +1419,7 @@ nothing
 to
 do
 .
-nsCAutoString
+nsAutoCString
 encBuf
 ;
 if
@@ -3385,7 +3385,7 @@ is
 required
 )
 .
-nsCAutoString
+nsAutoCString
 encUsername
 encPassword
 encHost
@@ -3407,7 +3407,7 @@ useEncExtension
 useEncQuery
 useEncRef
 ;
-nsCAutoString
+nsAutoCString
 portbuf
 ;
 /
@@ -7456,7 +7456,7 @@ result
 get
 escaped
 host
-nsCAutoString
+nsAutoCString
 escHostport
 ;
 if
@@ -7831,7 +7831,7 @@ t
 "
 if
 necessary
-nsCAutoString
+nsAutoCString
 buf1
 ;
 if
@@ -8753,7 +8753,7 @@ in
 |
 buf
 |
-nsCAutoString
+nsAutoCString
 buf
 ;
 if
@@ -9139,7 +9139,7 @@ escape
 username
 if
 necessary
-nsCAutoString
+nsAutoCString
 buf
 ;
 GET_SEGMENT_ENCODER
@@ -9459,7 +9459,7 @@ escape
 password
 if
 necessary
-nsCAutoString
+nsAutoCString
 buf
 ;
 GET_SEGMENT_ENCODER
@@ -9866,7 +9866,7 @@ literal
 int32_t
 len
 ;
-nsCAutoString
+nsAutoCString
 hostBuf
 ;
 if
@@ -10181,7 +10181,7 @@ in
 the
 URL
 spec
-nsCAutoString
+nsAutoCString
 buf
 ;
 buf
@@ -10330,7 +10330,7 @@ replace
 the
 existing
 port
-nsCAutoString
+nsAutoCString
 buf
 ;
 buf
@@ -10482,7 +10482,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 spec
@@ -11803,7 +11803,7 @@ t
 "
 if
 necessary
-nsCAutoString
+nsAutoCString
 buf
 ;
 int32_t
@@ -14408,7 +14408,7 @@ filepath
 filepath
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 uint32_t
@@ -15071,7 +15071,7 @@ encode
 query
 if
 necessary
-nsCAutoString
+nsAutoCString
 buf
 ;
 bool
@@ -15406,7 +15406,7 @@ encode
 ref
 if
 necessary
-nsCAutoString
+nsAutoCString
 buf
 ;
 bool
@@ -15810,7 +15810,7 @@ mLen
 }
 else
 {
-nsCAutoString
+nsAutoCString
 newFilename
 ;
 bool
@@ -16061,7 +16061,7 @@ nsACString
 input
 )
 {
-nsCAutoString
+nsAutoCString
 extension
 ;
 nsresult
@@ -16078,7 +16078,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 newFileName
 (
 input
@@ -16130,7 +16130,7 @@ nsACString
 input
 )
 {
-nsCAutoString
+nsAutoCString
 newFileName
 ;
 nsresult
@@ -16522,7 +16522,7 @@ LOG_ENABLED
 )
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 mFile
@@ -16694,7 +16694,7 @@ file
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 url
 ;
 rv
@@ -17455,7 +17455,7 @@ SetSpec
 spec
 )
 ;
-nsCAutoString
+nsAutoCString
 buf
 ;
 nsresult

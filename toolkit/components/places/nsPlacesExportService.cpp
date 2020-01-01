@@ -2304,7 +2304,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 warnMsg
 ;
 warnMsg
@@ -2420,10 +2420,10 @@ anything
 else
 is
 error
-nsCAutoString
+nsAutoCString
 faviconScheme
 ;
-nsCAutoString
+nsAutoCString
 faviconSpec
 ;
 rv
@@ -3629,7 +3629,7 @@ RESULT_TYPE_SEPARATOR
 return
 NS_ERROR_INVALID_ARG
 ;
-nsCAutoString
+nsAutoCString
 title
 ;
 rv
@@ -4008,7 +4008,7 @@ a
 corrupt
 file
 .
-nsCAutoString
+nsAutoCString
 uri
 ;
 nsresult
@@ -4054,7 +4054,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 warnMsg
 ;
 warnMsg
@@ -4942,7 +4942,7 @@ rv
 /
 /
 title
-nsCAutoString
+nsAutoCString
 title
 ;
 rv
@@ -5725,7 +5725,7 @@ see
 bug
 #
 381129
-nsCAutoString
+nsAutoCString
 title
 ;
 rv
@@ -5987,7 +5987,7 @@ nsIOutputStream
 aOutput
 )
 {
-nsCAutoString
+nsAutoCString
 escaped
 (
 aString
@@ -6113,7 +6113,7 @@ nsIOutputStream
 aOutput
 )
 {
-nsCAutoString
+nsAutoCString
 myIndent
 (
 aIndent
@@ -6935,7 +6935,7 @@ rv
 /
 /
 indents
-nsCAutoString
+nsAutoCString
 indent
 ;
 indent

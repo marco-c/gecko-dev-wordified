@@ -410,7 +410,7 @@ if
 platformCharset
 )
 {
-nsCAutoString
+nsAutoCString
 mappedCharset
 ;
 res

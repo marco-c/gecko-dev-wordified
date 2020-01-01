@@ -1618,7 +1618,7 @@ do_GetService
 NS_STRINGBUNDLE_CONTRACTID
 )
 ;
-nsCAutoString
+nsAutoCString
 appShortName
 ;
 if

@@ -2182,7 +2182,7 @@ statement
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsCAutoString
+nsAutoCString
 sql
 (
 :
@@ -2582,7 +2582,7 @@ name
 so
 fake
 one
-nsCAutoString
+nsAutoCString
 name
 (
 "
@@ -2673,7 +2673,7 @@ colon
 for
 SQLite
 .
-nsCAutoString
+nsAutoCString
 name
 (
 "
@@ -3351,7 +3351,7 @@ srv
 SQLITE_DONE
 )
 {
-nsCAutoString
+nsAutoCString
 errStr
 ;
 (

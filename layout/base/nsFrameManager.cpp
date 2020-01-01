@@ -11838,7 +11838,7 @@ we
 get
 empty
 key
-nsCAutoString
+nsAutoCString
 stateKey
 ;
 nsIContent
@@ -12305,7 +12305,7 @@ content
 return
 ;
 }
-nsCAutoString
+nsAutoCString
 stateKey
 ;
 nsIDocument

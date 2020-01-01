@@ -2108,7 +2108,7 @@ s
 \
 n
 "
-nsCAutoString
+nsAutoCString
 (
 mRequestHead
 -

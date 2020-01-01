@@ -1468,10 +1468,10 @@ nsIURI
 >
 uri
 ;
-nsCAutoString
+nsAutoCString
 uriStr
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 JSScript
@@ -1776,7 +1776,7 @@ See
 bug
 418356
 .
-nsCAutoString
+nsAutoCString
 tmp
 (
 JS_GetScriptFilename
@@ -1821,7 +1821,7 @@ JS_GetVersion
 cx
 )
 ;
-nsCAutoString
+nsAutoCString
 cachePath
 ;
 cachePath

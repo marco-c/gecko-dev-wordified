@@ -542,7 +542,7 @@ uri
 return
 S_FALSE
 ;
-nsCAutoString
+nsAutoCString
 prePath
 ;
 nsresult
@@ -569,7 +569,7 @@ GetHRESULT
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 rv

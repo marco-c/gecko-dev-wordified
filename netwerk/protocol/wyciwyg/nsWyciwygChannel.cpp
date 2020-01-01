@@ -1650,7 +1650,7 @@ NS_ENSURE_ARG_POINTER
 listener
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 mURI
@@ -1990,7 +1990,7 @@ case
 we
 need
 it
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult
@@ -4057,7 +4057,7 @@ mSecurityInfo
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 tmpStr
 ;
 rv
@@ -4236,7 +4236,7 @@ get
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 source
 ;
 source

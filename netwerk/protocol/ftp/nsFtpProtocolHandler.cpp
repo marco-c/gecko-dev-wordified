@@ -1285,7 +1285,7 @@ nsIURI
 result
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 (
 aSpec
@@ -1746,7 +1746,7 @@ _retval
 =
 nullptr
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 aKey
@@ -1933,7 +1933,7 @@ mSessionId
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 aKey

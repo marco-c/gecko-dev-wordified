@@ -453,7 +453,7 @@ curIndex
 =
 0
 ;
-nsCAutoString
+nsAutoCString
 curURL
 ;
 nsCOMPtr
@@ -615,7 +615,7 @@ NS_ERROR_DOM_SECURITY_ERR
 int32_t
 curIndex
 ;
-nsCAutoString
+nsAutoCString
 prevURL
 ;
 nsCOMPtr
@@ -779,7 +779,7 @@ NS_ERROR_DOM_SECURITY_ERR
 int32_t
 curIndex
 ;
-nsCAutoString
+nsAutoCString
 nextURL
 ;
 nsCOMPtr
@@ -1956,7 +1956,7 @@ if
 uri
 )
 {
-nsCAutoString
+nsAutoCString
 urlCString
 ;
 rv

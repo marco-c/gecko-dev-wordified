@@ -1111,7 +1111,7 @@ mAppInfo
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 cname
 ;
 nsresult
@@ -1166,7 +1166,7 @@ mAppInfo
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 cversion
 ;
 nsresult
@@ -1245,7 +1245,7 @@ mAppInfo
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 cversion
 ;
 nsresult

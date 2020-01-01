@@ -1684,7 +1684,7 @@ aResult
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 hostPort
 ;
 aURI
@@ -1988,7 +1988,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 rawHost
 ;
 aCookie

@@ -1645,7 +1645,7 @@ string
 aString
 )
 ;
-nsCAutoString
+nsAutoCString
 binaryData
 ;
 nsresult
@@ -1951,7 +1951,7 @@ binaryData
 aBinaryData
 )
 ;
-nsCAutoString
+nsAutoCString
 string
 ;
 nsresult

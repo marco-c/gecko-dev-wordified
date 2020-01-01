@@ -368,7 +368,7 @@ result
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 contractID
 (
 NS_LITERAL_CSTRING

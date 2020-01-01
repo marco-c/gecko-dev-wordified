@@ -1813,7 +1813,7 @@ will
 modify
 it
 .
-nsCAutoString
+nsAutoCString
 optionsCopy
 ;
 optionsCopy

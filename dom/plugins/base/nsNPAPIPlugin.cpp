@@ -1284,7 +1284,7 @@ contain
 shell
 wildcard
 pattern
-nsCAutoString
+nsAutoCString
 prefFile
 (
 aPluginTag
@@ -1345,7 +1345,7 @@ defined
 (
 __i386__
 )
-nsCAutoString
+nsAutoCString
 prefGroupKey
 (
 "
@@ -1368,7 +1368,7 @@ defined
 (
 __x86_64__
 )
-nsCAutoString
+nsAutoCString
 prefGroupKey
 (
 "
@@ -1391,7 +1391,7 @@ defined
 (
 __ppc__
 )
-nsCAutoString
+nsAutoCString
 prefGroupKey
 (
 "
@@ -1412,7 +1412,7 @@ ppc
 endif
 #
 else
-nsCAutoString
+nsAutoCString
 prefGroupKey
 (
 "
@@ -7609,7 +7609,7 @@ NodePrincipal
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 specStr
 ;
 const

@@ -900,7 +900,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 baseUri
 titleUri
 ;
@@ -1092,7 +1092,7 @@ that
 -
 see
 above
-nsCAutoString
+nsAutoCString
 pw
 ;
 rv
@@ -1197,7 +1197,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -1346,7 +1346,7 @@ SetFollowLinks
 true
 )
 ;
-nsCAutoString
+nsAutoCString
 url
 ;
 rv
@@ -1488,7 +1488,7 @@ isScheme
 isScheme
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -1679,7 +1679,7 @@ fixup
 if
 necessary
 .
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -4526,7 +4526,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 rv
@@ -6916,7 +6916,7 @@ need
 to
 escape
 links
-nsCAutoString
+nsAutoCString
 escapeBuf
 ;
 NS_ConvertUTF16toUTF8

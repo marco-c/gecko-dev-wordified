@@ -776,7 +776,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsCAutoString
+nsAutoCString
 proxyHost
 ;
 proxyHost
@@ -3084,7 +3084,7 @@ URL
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 value
 ;
 nsCOMPtr
@@ -3389,7 +3389,7 @@ if
 foo
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 foo
@@ -3670,7 +3670,7 @@ n
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 entityID
 ;
 nsresult
@@ -5310,7 +5310,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsCAutoString
+nsAutoCString
 id
 ;
 if

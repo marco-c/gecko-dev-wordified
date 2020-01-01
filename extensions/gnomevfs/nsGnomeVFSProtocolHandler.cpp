@@ -1113,7 +1113,7 @@ valuable
 .
 /
 /
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -1203,7 +1203,7 @@ mismatch
 }
 #
 endif
-nsCAutoString
+nsAutoCString
 scheme
 hostPort
 ;
@@ -5498,7 +5498,7 @@ aURI
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv

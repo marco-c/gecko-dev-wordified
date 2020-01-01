@@ -1282,10 +1282,10 @@ actual
 checksum
 of
 data
-nsCAutoString
+nsAutoCString
 hash
 ;
-nsCAutoString
+nsAutoCString
 compareHash
 ;
 char
@@ -2010,7 +2010,7 @@ HashStore
 :
 CalculateChecksum
 (
-nsCAutoString
+nsAutoCString
 &
 aChecksum
 bool

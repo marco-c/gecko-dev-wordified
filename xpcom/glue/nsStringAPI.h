@@ -7824,7 +7824,7 @@ PromiseFlatCString
 ;
 typedef
 nsCString
-nsCAutoString
+nsAutoCString
 ;
 typedef
 nsString

@@ -2239,7 +2239,7 @@ BEHAVIOR_
 #
 aBitName
 )
-nsCAutoString
+nsAutoCString
 searchString
 ;
 (
@@ -2415,7 +2415,7 @@ true
 :
 false
 ;
-nsCAutoString
+nsAutoCString
 tags
 ;
 (
@@ -2601,7 +2601,7 @@ matchBehavior
 fixedURI
 )
 ;
-nsCAutoString
+nsAutoCString
 title
 ;
 (
@@ -4899,7 +4899,7 @@ nsIVariant
 _result
 )
 {
-nsCAutoString
+nsAutoCString
 guid
 ;
 nsresult

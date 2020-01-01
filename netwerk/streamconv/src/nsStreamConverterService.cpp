@@ -866,7 +866,7 @@ get
 the
 entry
 string
-nsCAutoString
+nsAutoCString
 entryString
 ;
 rv
@@ -906,7 +906,7 @@ a
 full
 contractID
 .
-nsCAutoString
+nsAutoCString
 contractID
 (
 NS_ISTREAMCONVERTER_KEY
@@ -1064,7 +1064,7 @@ MIME
 -
 types
 .
-nsCAutoString
+nsAutoCString
 fromStr
 toStr
 ;
@@ -1525,7 +1525,7 @@ nsCString
 aToRes
 )
 {
-nsCAutoString
+nsAutoCString
 ContractIDStr
 (
 aContractID
@@ -1587,7 +1587,7 @@ toLoc
 +
 3
 ;
-nsCAutoString
+nsAutoCString
 fromStr
 toStr
 ;
@@ -2104,7 +2104,7 @@ our
 starting
 point
 .
-nsCAutoString
+nsAutoCString
 fromC
 toC
 ;
@@ -2745,7 +2745,7 @@ types
 being
 registered
 .
-nsCAutoString
+nsAutoCString
 fromStr
 toStr
 ;
@@ -2774,7 +2774,7 @@ get
 the
 root
 CONTRACTID
-nsCAutoString
+nsAutoCString
 ContractIDPrefix
 (
 NS_ISTREAMCONVERTER_KEY
@@ -2994,7 +2994,7 @@ out
 the
 CONTRACTID
 .
-nsCAutoString
+nsAutoCString
 newContractID
 (
 ContractIDPrefix
@@ -3233,7 +3233,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 contractID
 ;
 contractID
@@ -3440,7 +3440,7 @@ conversion
 build
 a
 CONTRACTID
-nsCAutoString
+nsAutoCString
 contractID
 ;
 contractID
@@ -3720,7 +3720,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 fromStr
 toStr
 ;
@@ -3902,7 +3902,7 @@ conversion
 build
 a
 CONTRACTID
-nsCAutoString
+nsAutoCString
 contractID
 ;
 contractID
@@ -4239,7 +4239,7 @@ registered
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 fromStr
 toStr
 ;

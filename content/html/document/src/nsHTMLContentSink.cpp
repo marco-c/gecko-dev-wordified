@@ -7553,7 +7553,7 @@ mCurrentContext
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 spec
 ;
 (
@@ -10965,7 +10965,7 @@ if
 mDocumentURI
 )
 {
-nsCAutoString
+nsAutoCString
 buf
 ;
 mDocumentURI

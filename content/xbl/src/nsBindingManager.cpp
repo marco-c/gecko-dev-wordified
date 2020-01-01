@@ -5849,7 +5849,7 @@ marked
 for
 death
 .
-nsCAutoString
+nsAutoCString
 path
 ;
 aBinding

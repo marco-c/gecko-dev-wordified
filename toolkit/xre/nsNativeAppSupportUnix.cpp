@@ -2621,7 +2621,7 @@ process
 .
 *
 /
-nsCAutoString
+nsAutoCString
 applicationName
 ;
 if
@@ -3246,7 +3246,7 @@ default
 binary
 launcher
 ?
-nsCAutoString
+nsAutoCString
 path
 ;
 char
@@ -3361,7 +3361,7 @@ is
 what
 Breakpad
 does
-nsCAutoString
+nsAutoCString
 leafName
 ;
 rv

@@ -1973,7 +1973,7 @@ parameter
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 fileName
 ;
 if
@@ -2114,7 +2114,7 @@ return
 ;
 }
 }
-nsCAutoString
+nsAutoCString
 respath
 (
 "
@@ -4371,7 +4371,7 @@ return
 NS_ERROR_CONTENT_BLOCKED
 ;
 }
-nsCAutoString
+nsAutoCString
 absURL
 ;
 uri

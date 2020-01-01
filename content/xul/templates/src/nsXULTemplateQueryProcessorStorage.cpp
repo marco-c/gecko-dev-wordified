@@ -357,7 +357,7 @@ c
 +
 )
 {
-nsCAutoString
+nsAutoCString
 name
 ;
 rv
@@ -1064,7 +1064,7 @@ nsIFile
 >
 databaseFile
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 rv
@@ -1095,7 +1095,7 @@ profile
 )
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 rv

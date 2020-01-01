@@ -658,7 +658,7 @@ nsIURI
 *
 baseURL
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 nsIDocument

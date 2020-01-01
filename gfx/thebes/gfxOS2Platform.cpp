@@ -1044,7 +1044,7 @@ nsString
 >
 fontList
 ;
-nsCAutoString
+nsAutoCString
 generic
 ;
 nsresult

@@ -3457,7 +3457,7 @@ length
 i
 )
 {
-nsCAutoString
+nsAutoCString
 newType
 ;
 nsresult
@@ -3552,7 +3552,7 @@ sniffer
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 detected
 ;
 nsresult

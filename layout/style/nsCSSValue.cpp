@@ -5220,7 +5220,7 @@ string
 mapping
 the
 name
-nsCAutoString
+nsAutoCString
 str
 ;
 if

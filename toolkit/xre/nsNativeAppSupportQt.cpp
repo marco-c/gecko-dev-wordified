@@ -809,7 +809,7 @@ process
 .
 *
 /
-nsCAutoString
+nsAutoCString
 applicationName
 ;
 if

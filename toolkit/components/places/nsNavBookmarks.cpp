@@ -1588,7 +1588,7 @@ hasResult
 hasResult
 )
 {
-nsCAutoString
+nsAutoCString
 rootName
 ;
 rv
@@ -3092,7 +3092,7 @@ NS_ERROR_OUT_OF_MEMORY
 int64_t
 placeId
 ;
-nsCAutoString
+nsAutoCString
 placeGuid
 ;
 nsresult
@@ -3138,7 +3138,7 @@ folderCount
 int64_t
 grandParentId
 ;
-nsCAutoString
+nsAutoCString
 folderGuid
 ;
 rv
@@ -3225,7 +3225,7 @@ PR_Now
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 guid
 ;
 nsCString
@@ -4533,7 +4533,7 @@ folderCount
 int64_t
 grandParentId
 ;
-nsCAutoString
+nsAutoCString
 folderGuid
 ;
 nsresult
@@ -4635,7 +4635,7 @@ PR_Now
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 guid
 ;
 nsCString
@@ -4774,7 +4774,7 @@ folderCount
 int64_t
 grandParentId
 ;
-nsCAutoString
+nsAutoCString
 folderGuid
 ;
 nsresult
@@ -4889,7 +4889,7 @@ SetIsVoid
 true
 )
 ;
-nsCAutoString
+nsAutoCString
 guid
 ;
 PRTime
@@ -7358,7 +7358,7 @@ folderCount
 int64_t
 grandParentId
 ;
-nsCAutoString
+nsAutoCString
 newParentGuid
 ;
 rv
@@ -10472,7 +10472,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 title
 ;
 rv
@@ -11479,7 +11479,7 @@ NS_ERROR_OUT_OF_MEMORY
 int64_t
 placeId
 ;
-nsCAutoString
+nsAutoCString
 placeGuid
 ;
 nsresult
@@ -12126,7 +12126,7 @@ hasBookmarkedOrigin
 hasBookmarkedOrigin
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv
@@ -12263,7 +12263,7 @@ NS_ERROR_OUT_OF_MEMORY
 int64_t
 newPlaceId
 ;
-nsCAutoString
+nsAutoCString
 newPlaceGuid
 ;
 rv
@@ -12513,7 +12513,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv
@@ -13648,7 +13648,7 @@ folderCount
 int64_t
 grandParentId
 ;
-nsCAutoString
+nsAutoCString
 folderGuid
 ;
 rv
@@ -16132,7 +16132,7 @@ GetHistoryService
 int64_t
 placeId
 ;
-nsCAutoString
+nsAutoCString
 placeGuid
 ;
 NS_ABORT_IF_FALSE

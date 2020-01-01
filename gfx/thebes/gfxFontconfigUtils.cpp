@@ -1336,7 +1336,7 @@ into
 fontconfig
 '
 s
-nsCAutoString
+nsAutoCString
 lang
 ;
 gfxFontconfigUtils
@@ -2997,7 +2997,7 @@ duplicates
 .
 .
 .
-nsCAutoString
+nsAutoCString
 strFamily
 (
 family
@@ -3642,7 +3642,7 @@ nothing
 *
 /
 ;
-nsCAutoString
+nsAutoCString
 name
 (
 Substring
@@ -4825,7 +4825,7 @@ the
 first
 font
 .
-nsCAutoString
+nsAutoCString
 fullname
 ;
 if
@@ -5139,7 +5139,7 @@ v
 0
 )
 {
-nsCAutoString
+nsAutoCString
 name
 ;
 if

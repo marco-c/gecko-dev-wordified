@@ -5727,7 +5727,7 @@ return
 nullptr
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri

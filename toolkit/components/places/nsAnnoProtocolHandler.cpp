@@ -869,7 +869,7 @@ default
 /
 icon
 .
-nsCAutoString
+nsAutoCString
 mimeType
 ;
 (
@@ -1811,7 +1811,7 @@ aURI
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -1871,7 +1871,7 @@ nsIURI
 >
 annoURI
 ;
-nsCAutoString
+nsAutoCString
 annoName
 ;
 rv
@@ -1949,7 +1949,7 @@ data
 uint32_t
 dataLen
 ;
-nsCAutoString
+nsAutoCString
 mimeType
 ;
 /
@@ -2205,7 +2205,7 @@ aName
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 rv

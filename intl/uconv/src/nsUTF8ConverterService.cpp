@@ -725,7 +725,7 @@ Truncate
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 unescapedSpec
 ;
 /

@@ -609,7 +609,7 @@ call
 the
 parent
 .
-nsCAutoString
+nsAutoCString
 result
 ;
 SendGetCookieString

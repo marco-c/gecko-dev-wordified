@@ -374,7 +374,7 @@ error
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 message
 ;
 message
@@ -524,7 +524,7 @@ bug
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 message
 ;
 message

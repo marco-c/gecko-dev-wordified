@@ -306,7 +306,7 @@ if
 action
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 aURI
@@ -354,7 +354,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 aURI
@@ -431,7 +431,7 @@ if
 mimeInfo
 )
 {
-nsCAutoString
+nsAutoCString
 ext
 ;
 nsresult
@@ -615,7 +615,7 @@ nsIFile
 aFile
 )
 {
-nsCAutoString
+nsAutoCString
 nativePath
 ;
 aFile
@@ -749,7 +749,7 @@ do_GetService
 NS_GIOSERVICE_CONTRACTID
 )
 ;
-nsCAutoString
+nsAutoCString
 uriSpec
 ;
 if
@@ -974,7 +974,7 @@ if
 mimeInfo
 )
 {
-nsCAutoString
+nsAutoCString
 type
 ;
 mimeInfo

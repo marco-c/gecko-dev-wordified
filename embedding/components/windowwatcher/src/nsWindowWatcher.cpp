@@ -2998,7 +2998,7 @@ string
 version
 of
 aName
-nsCAutoString
+nsAutoCString
 features
 ;
 /
@@ -5388,7 +5388,7 @@ if
 parentMuCV
 )
 {
-nsCAutoString
+nsAutoCString
 charset
 ;
 nsresult
@@ -10201,7 +10201,7 @@ found
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 options
 (
 aOptions

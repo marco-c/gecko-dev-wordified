@@ -218,7 +218,7 @@ PRUnichar
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 escPath
 ;
 /
@@ -443,7 +443,7 @@ nsACString
 *
 specPtr
 ;
-nsCAutoString
+nsAutoCString
 buf
 ;
 if
@@ -465,7 +465,7 @@ specPtr
 &
 aURL
 ;
-nsCAutoString
+nsAutoCString
 directory
 fileBaseName
 fileExtension
@@ -491,7 +491,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 if

@@ -5550,7 +5550,7 @@ rv
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 buffer
 ;
 bool

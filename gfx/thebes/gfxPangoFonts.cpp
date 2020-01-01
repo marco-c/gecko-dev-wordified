@@ -2799,7 +2799,7 @@ unused
 FcResultNoMatch
 )
 {
-nsCAutoString
+nsAutoCString
 fullname
 ;
 if
@@ -2830,7 +2830,7 @@ fullname
 ;
 }
 }
-nsCAutoString
+nsAutoCString
 family
 ;
 family
@@ -19658,7 +19658,7 @@ a
 real
 language
 .
-nsCAutoString
+nsAutoCString
 lang
 ;
 gfxFontconfigUtils

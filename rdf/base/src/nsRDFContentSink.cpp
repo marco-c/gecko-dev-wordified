@@ -4671,7 +4671,7 @@ relURI
 )
 )
 {
-nsCAutoString
+nsAutoCString
 uri
 ;
 rv
@@ -4846,10 +4846,10 @@ ID
 /
 attribute
 .
-nsCAutoString
+nsAutoCString
 name
 ;
-nsCAutoString
+nsAutoCString
 ref
 (
 '
@@ -5292,7 +5292,7 @@ relURI
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 uri
 ;
 rv

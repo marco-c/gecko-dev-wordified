@@ -798,7 +798,7 @@ FindEntries
 /
 works
 correctly
-nsCAutoString
+nsAutoCString
 escDirName
 ;
 const
@@ -917,7 +917,7 @@ curr
 curr
 ;
 }
-nsCAutoString
+nsAutoCString
 pattern
 =
 escDirName

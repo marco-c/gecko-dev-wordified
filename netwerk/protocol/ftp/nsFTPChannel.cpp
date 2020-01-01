@@ -1083,7 +1083,7 @@ nsString
 statusArg
 )
 {
-nsCAutoString
+nsAutoCString
 host
 ;
 URI

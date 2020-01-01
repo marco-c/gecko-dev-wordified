@@ -2263,7 +2263,7 @@ CCHMAXPATH
 0
 '
 ;
-nsCAutoString
+nsAutoCString
 printString
 (
 printName
@@ -4240,12 +4240,12 @@ if
 prefFailed
 )
 {
-nsCAutoString
+nsAutoCString
 printerDescription
 ;
 printerDescription
 =
-nsCAutoString
+nsAutoCString
 (
 nsDeviceContextSpecOS2
 :
@@ -4271,7 +4271,7 @@ printerDescription
 printerDescription
 +
 =
-nsCAutoString
+nsAutoCString
 (
 nsDeviceContextSpecOS2
 :
@@ -4291,7 +4291,7 @@ printerDescription
 )
 "
 ;
-nsCAutoString
+nsAutoCString
 prefName
 (
 "

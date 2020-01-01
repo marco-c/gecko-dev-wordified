@@ -213,7 +213,7 @@ class
 nsCString
 ;
 class
-nsCAutoString
+nsAutoCString
 ;
 class
 nsDependentCString

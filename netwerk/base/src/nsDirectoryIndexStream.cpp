@@ -686,7 +686,7 @@ name2
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 name1
 name2
 ;
@@ -782,7 +782,7 @@ PR_LOG_DEBUG
 )
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 aDir
@@ -1122,7 +1122,7 @@ AppendLiteral
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 url
 ;
 rv
@@ -1665,7 +1665,7 @@ PR_LOG_DEBUG
 )
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 current
@@ -1890,7 +1890,7 @@ url_Path
 }
 else
 {
-nsCAutoString
+nsAutoCString
 leafname
 ;
 rv

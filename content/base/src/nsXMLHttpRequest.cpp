@@ -1403,7 +1403,7 @@ channel
 NS_ERROR_UNEXPECTED
 )
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 nsresult
@@ -3469,7 +3469,7 @@ channel
 mChannel
 ;
 }
-nsCAutoString
+nsAutoCString
 charsetVal
 ;
 nsresult
@@ -4476,7 +4476,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 contentType
 ;
 if
@@ -6620,7 +6620,7 @@ supply
 content
 type
 .
-nsCAutoString
+nsAutoCString
 value
 ;
 if
@@ -7315,7 +7315,7 @@ if
 safeHeader
 )
 {
-nsCAutoString
+nsAutoCString
 headerVal
 ;
 /
@@ -8106,7 +8106,7 @@ httpChannel
 NS_ERROR_DOM_BAD_URI
 )
 ;
-nsCAutoString
+nsAutoCString
 method
 ;
 httpChannel
@@ -8869,7 +8869,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 userpass
 ;
 CopyUTF16toUTF8
@@ -9792,7 +9792,7 @@ if
 file
 )
 {
-nsCAutoString
+nsAutoCString
 contentType
 ;
 mChannel
@@ -10708,7 +10708,7 @@ parseBody
 httpChannel
 )
 {
-nsCAutoString
+nsAutoCString
 method
 ;
 httpChannel
@@ -10809,7 +10809,7 @@ produce
 unreliable
 results
 .
-nsCAutoString
+nsAutoCString
 type
 ;
 channel
@@ -12052,7 +12052,7 @@ in
 persistent
 cache
 .
-nsCAutoString
+nsAutoCString
 contentType
 ;
 mChannel
@@ -14467,7 +14467,7 @@ to
 /
 upload
 anything
-nsCAutoString
+nsAutoCString
 method
 ;
 nsCOMPtr
@@ -15022,10 +15022,10 @@ GET
 )
 )
 {
-nsCAutoString
+nsAutoCString
 charset
 ;
-nsCAutoString
+nsAutoCString
 defaultContentType
 ;
 nsCOMPtr
@@ -15081,7 +15081,7 @@ application
 /
 xml
 .
-nsCAutoString
+nsAutoCString
 contentType
 ;
 if
@@ -15142,7 +15142,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 specifiedCharset
 ;
 bool
@@ -15386,7 +15386,7 @@ nsCaseInsensitiveCStringComparator
 )
 )
 {
-nsCAutoString
+nsAutoCString
 newCharset
 (
 "
@@ -15678,7 +15678,7 @@ if
 httpChannel
 )
 {
-nsCAutoString
+nsAutoCString
 contentTypeHeader
 ;
 rv
@@ -15707,7 +15707,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 contentType
 charset
 ;
@@ -16340,7 +16340,7 @@ this
 is
 not
 critical
-nsCAutoString
+nsAutoCString
 contentType
 ;
 if

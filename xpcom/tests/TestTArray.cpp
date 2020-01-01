@@ -2398,7 +2398,7 @@ b
 )
 const
 {
-nsCAutoString
+nsAutoCString
 name
 ;
 a

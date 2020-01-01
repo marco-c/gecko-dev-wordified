@@ -2693,7 +2693,7 @@ mIsBrowserElement
 this
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 if

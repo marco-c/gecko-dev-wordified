@@ -215,7 +215,7 @@ nsPromiseFlatCString
 ;
 typedef
 nsCString
-nsCAutoString
+nsAutoCString
 ;
 #
 define

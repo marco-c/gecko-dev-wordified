@@ -753,7 +753,7 @@ about
 URIs
 somewhere
 .
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv

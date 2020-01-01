@@ -856,7 +856,7 @@ a
 given
 host
 .
-nsCAutoString
+nsAutoCString
 host
 ;
 rv
@@ -1179,7 +1179,7 @@ else
 /
 !
 includeSubdomains
-nsCAutoString
+nsAutoCString
 hostname
 ;
 rv
@@ -1282,7 +1282,7 @@ NS_IsMainThread
 NS_ERROR_UNEXPECTED
 )
 ;
-nsCAutoString
+nsAutoCString
 hostname
 ;
 nsresult
@@ -2501,7 +2501,7 @@ aResult
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 nsresult
@@ -4136,7 +4136,7 @@ aExpireTime
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 host
 ;
 nsresult

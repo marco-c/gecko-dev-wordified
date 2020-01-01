@@ -408,7 +408,7 @@ TIME_URILOADER_FUNCTION
 req
 )
 \
-nsCAutoString
+nsAutoCString
 name__
 (
 "
@@ -2683,7 +2683,7 @@ type
 .
 /
 /
-nsCAutoString
+nsAutoCString
 handlerContractID
 (
 NS_CONTENT_HANDLER_CONTRACTID_PREFIX
@@ -4883,7 +4883,7 @@ uri
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -5194,7 +5194,7 @@ uri
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri

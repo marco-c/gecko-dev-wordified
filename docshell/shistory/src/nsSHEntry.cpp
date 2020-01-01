@@ -1410,7 +1410,7 @@ is
 the
 URL
 .
-nsCAutoString
+nsAutoCString
 spec
 ;
 if

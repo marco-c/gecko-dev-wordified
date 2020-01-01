@@ -312,7 +312,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 localeKey
 ;
 localeKey
@@ -952,7 +952,7 @@ LC_CTYPE
 nullptr
 )
 ;
-nsCAutoString
+nsAutoCString
 localeStr
 ;
 localeStr
@@ -1279,7 +1279,7 @@ charset
 string
 /
 /
-nsCAutoString
+nsAutoCString
 result
 ;
 res

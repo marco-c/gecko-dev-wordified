@@ -7196,7 +7196,7 @@ mWorkerPrivate
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 message
 (
 "
@@ -11195,7 +11195,7 @@ AppendInt
 port
 )
 ;
-nsCAutoString
+nsAutoCString
 host
 (
 mLocationInfo

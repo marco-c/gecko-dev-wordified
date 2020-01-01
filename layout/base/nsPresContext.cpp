@@ -2807,7 +2807,7 @@ the
 user
 *
 /
-nsCAutoString
+nsAutoCString
 langGroup
 ;
 langGroupAtom
@@ -2842,7 +2842,7 @@ CSSPixelsToAppUnits
 13
 )
 ;
-nsCAutoString
+nsAutoCString
 pref
 ;
 /
@@ -3209,7 +3209,7 @@ names
 as
 necessary
 .
-nsCAutoString
+nsAutoCString
 generic_dot_langGroup
 ;
 for

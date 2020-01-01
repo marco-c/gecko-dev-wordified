@@ -3124,7 +3124,7 @@ nsNSSSocketInfo
 socketInfo
 )
 {
-nsCAutoString
+nsAutoCString
 key
 ;
 getSiteKey
@@ -3290,7 +3290,7 @@ IsTLSEnabled
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 key
 ;
 getSiteKey
@@ -12968,7 +12968,7 @@ is
 TLS
 intolerant
 .
-nsCAutoString
+nsAutoCString
 key
 ;
 key

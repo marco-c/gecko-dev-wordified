@@ -1268,7 +1268,7 @@ hasMoreTokens
 )
 )
 {
-nsCAutoString
+nsAutoCString
 token
 (
 aTokenizer

@@ -902,7 +902,7 @@ int16_t
 i
 )
 {
-nsCAutoString
+nsAutoCString
 tmp
 ;
 tmp
@@ -931,7 +931,7 @@ int32_t
 i
 )
 {
-nsCAutoString
+nsAutoCString
 tmp
 ;
 tmp
@@ -1940,7 +1940,7 @@ options
 NS_ERROR_INVALID_ARG
 )
 ;
-nsCAutoString
+nsAutoCString
 queryString
 ;
 for
@@ -2355,7 +2355,7 @@ nsINavHistoryQuery
 GetDomainIsHost
 )
 ;
-nsCAutoString
+nsAutoCString
 domain
 ;
 nsresult
@@ -2483,7 +2483,7 @@ tell
 is
 if
 invalid
-nsCAutoString
+nsAutoCString
 uriSpec
 ;
 nsresult
@@ -2503,7 +2503,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 escaped
 ;
 bool
@@ -2607,7 +2607,7 @@ QUERYKEY_ANNOTATION
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 annot
 ;
 query
@@ -2618,7 +2618,7 @@ GetAnnotation
 annot
 )
 ;
-nsCAutoString
+nsAutoCString
 escaped
 ;
 bool
@@ -2761,7 +2761,7 @@ Length
 i
 )
 {
-nsCAutoString
+nsAutoCString
 escapedTag
 ;
 if
@@ -2964,7 +2964,7 @@ SORT_BY_ANNOTATION_ASCENDING
 /
 /
 sortingAnnotation
-nsCAutoString
+nsAutoCString
 sortingAnnotation
 ;
 if
@@ -4129,7 +4129,7 @@ QUERYKEY_DOMAIN
 )
 )
 {
-nsCAutoString
+nsAutoCString
 unescapedDomain
 (
 kvp
@@ -4282,7 +4282,7 @@ QUERYKEY_URI
 )
 )
 {
-nsCAutoString
+nsAutoCString
 unescapedUri
 (
 kvp
@@ -4402,7 +4402,7 @@ QUERYKEY_NOTANNOTATION
 )
 )
 {
-nsCAutoString
+nsAutoCString
 unescaped
 (
 kvp
@@ -4452,7 +4452,7 @@ QUERYKEY_ANNOTATION
 )
 )
 {
-nsCAutoString
+nsAutoCString
 unescaped
 (
 kvp
@@ -4502,7 +4502,7 @@ QUERYKEY_TAG
 )
 )
 {
-nsCAutoString
+nsAutoCString
 unescaped
 (
 kvp
@@ -8575,7 +8575,7 @@ requires
 a
 concrete
 string
-nsCAutoString
+nsAutoCString
 appendMe
 (
 "
@@ -8671,7 +8671,7 @@ aString
 =
 aName
 ;
-nsCAutoString
+nsAutoCString
 appendMe
 (
 "

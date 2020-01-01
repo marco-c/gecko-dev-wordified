@@ -367,7 +367,7 @@ mValue
 mURI
 )
 {
-nsCAutoString
+nsAutoCString
 specUTF8
 ;
 mValue
@@ -1751,7 +1751,7 @@ case
 CSS_URI
 :
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 if

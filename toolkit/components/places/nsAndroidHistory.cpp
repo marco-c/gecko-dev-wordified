@@ -188,7 +188,7 @@ aURI
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 uri
 ;
 nsresult
@@ -322,7 +322,7 @@ aURI
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 uri
 ;
 nsresult
@@ -463,7 +463,7 @@ if
 bridge
 )
 {
-nsCAutoString
+nsAutoCString
 uri
 ;
 nsresult

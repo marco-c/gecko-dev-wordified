@@ -2888,7 +2888,7 @@ tracefunc
 this
 )
 ;
-nsCAutoString
+nsAutoCString
 leafName
 (
 "
@@ -2989,7 +2989,7 @@ pageSize
 =
 DEFAULT_PAGE_SIZE
 ;
-nsCAutoString
+nsAutoCString
 pageSizeQuery
 (
 MOZ_STORAGE_UNIQUIFY_QUERY_STR
@@ -3142,7 +3142,7 @@ to
 save
 memory
 .
-nsCAutoString
+nsAutoCString
 cacheSizeQuery
 (
 MOZ_STORAGE_UNIQUIFY_QUERY_STR
@@ -3414,7 +3414,7 @@ mDBConn
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-nsCAutoString
+nsAutoCString
 query
 (
 "
@@ -4015,7 +4015,7 @@ endif
 #
 ifdef
 PR_LOGGING
-nsCAutoString
+nsAutoCString
 leafName
 (
 "
@@ -5686,7 +5686,7 @@ temp_store
 continue
 ;
 }
-nsCAutoString
+nsAutoCString
 pragmaQuery
 (
 "
@@ -6140,7 +6140,7 @@ mDBConn
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-nsCAutoString
+nsAutoCString
 stmt
 (
 NS_LITERAL_CSTRING

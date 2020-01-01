@@ -3443,7 +3443,7 @@ if
 packageRegistry
 )
 {
-nsCAutoString
+nsAutoCString
 utf8DictName
 ;
 rv

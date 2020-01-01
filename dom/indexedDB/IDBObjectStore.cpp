@@ -15093,7 +15093,7 @@ keyRangeClause
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 directionClause
 ;
 switch
@@ -15371,7 +15371,7 @@ Truncate
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 continueToKeyRangeClause
 ;
 NS_NAMED_LITERAL_CSTRING
@@ -17567,7 +17567,7 @@ upper_key
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 keyRangeClause
 ;
 if
@@ -17713,7 +17713,7 @@ upperKeyName
 ;
 }
 }
-nsCAutoString
+nsAutoCString
 limitClause
 ;
 if
@@ -18859,7 +18859,7 @@ upper_key
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 keyRangeClause
 ;
 if

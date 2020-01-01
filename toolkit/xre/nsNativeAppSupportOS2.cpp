@@ -6774,7 +6774,7 @@ in
 the
 command
 .
-nsCAutoString
+nsAutoCString
 url
 ;
 ParseDDEArg
@@ -6806,7 +6806,7 @@ to
 be
 used
 .
-nsCAutoString
+nsAutoCString
 windowID
 ;
 ParseDDEArg
@@ -7380,7 +7380,7 @@ save
 a
 quote
 .
-nsCAutoString
+nsAutoCString
 outpt
 (
 NS_LITERAL_CSTRING
@@ -7627,7 +7627,7 @@ window
 .
 .
 .
-nsCAutoString
+nsAutoCString
 windowID
 ;
 ParseDDEArg
@@ -7939,7 +7939,7 @@ request
 ;
 #
 endif
-nsCAutoString
+nsAutoCString
 url
 ;
 ParseDDEArg
@@ -7976,7 +7976,7 @@ to
 be
 used
 .
-nsCAutoString
+nsAutoCString
 windowID
 ;
 ParseDDEArg
@@ -8778,7 +8778,7 @@ argLen
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 temp
 ;
 /
@@ -9017,7 +9017,7 @@ char
 *
 p
 ;
-nsCAutoString
+nsAutoCString
 arg
 ;
 nsCOMPtr

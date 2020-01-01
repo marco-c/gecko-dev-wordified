@@ -3597,7 +3597,7 @@ GetDocumentURI
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 asciiSpec
 ;
 if
@@ -4473,7 +4473,7 @@ lineNo
 =
 0
 ;
-nsCAutoString
+nsAutoCString
 url
 (
 NS_LITERAL_CSTRING

@@ -10505,7 +10505,7 @@ rv
 nsXPIDLCString
 contractId
 ;
-nsCAutoString
+nsAutoCString
 categoryEntry
 ;
 nsCOMPtr

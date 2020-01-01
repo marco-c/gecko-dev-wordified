@@ -219,7 +219,7 @@ aURI
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 refPart
 ;
 aURI
@@ -262,7 +262,7 @@ NS_UnescapeURL
 refPart
 )
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 aURI

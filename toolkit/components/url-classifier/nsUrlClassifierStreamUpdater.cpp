@@ -920,7 +920,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 urlSpec
 ;
 uri
@@ -1234,7 +1234,7 @@ _retval
 =
 true
 ;
-nsCAutoString
+nsAutoCString
 urlSpec
 ;
 mUpdateUrl
@@ -2009,7 +2009,7 @@ DownloadDone
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 strTimeout
 ;
 strTimeout
@@ -2100,7 +2100,7 @@ DownloadDone
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 strResult
 ;
 strResult
@@ -2387,7 +2387,7 @@ downloadError
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 strStatus
 ;
 nsresult

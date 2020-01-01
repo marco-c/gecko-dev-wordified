@@ -579,7 +579,7 @@ if
 mURI
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 mURI
@@ -1355,7 +1355,7 @@ PR_LOGGING
 )
 else
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 mURI
@@ -2268,7 +2268,7 @@ SizeOfData
 #
 ifdef
 DEBUG_joe
-nsCAutoString
+nsAutoCString
 url
 ;
 mURI
@@ -2550,7 +2550,7 @@ if
 bMustRevalidate
 )
 {
-nsCAutoString
+nsAutoCString
 cacheHeader
 ;
 httpChannel
@@ -6446,7 +6446,7 @@ a
 property
 *
 /
-nsCAutoString
+nsAutoCString
 disposition
 ;
 if
@@ -6798,7 +6798,7 @@ Get
 our
 URI
 string
-nsCAutoString
+nsAutoCString
 uriString
 ;
 rv
@@ -6965,7 +6965,7 @@ if
 httpChannel
 )
 {
-nsCAutoString
+nsAutoCString
 contentLength
 ;
 rv
@@ -8038,7 +8038,7 @@ defined
 (
 PR_LOGGING
 )
-nsCAutoString
+nsAutoCString
 oldspec
 ;
 if

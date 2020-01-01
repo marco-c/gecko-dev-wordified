@@ -1335,7 +1335,7 @@ if
 uri
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -32128,7 +32128,7 @@ aIndex
 =
 true
 ;
-nsCAutoString
+nsAutoCString
 basePrefName
 ;
 GetBasePrefName
@@ -32137,7 +32137,7 @@ aIndex
 basePrefName
 )
 ;
-nsCAutoString
+nsAutoCString
 prefNameX
 (
 basePrefName
@@ -32178,7 +32178,7 @@ get
 /
 100
 ;
-nsCAutoString
+nsAutoCString
 prefNameY
 (
 basePrefName
@@ -32219,7 +32219,7 @@ get
 /
 100
 ;
-nsCAutoString
+nsAutoCString
 prefNameZ
 (
 basePrefName
@@ -32260,7 +32260,7 @@ get
 /
 100
 ;
-nsCAutoString
+nsAutoCString
 prefNameAction
 (
 basePrefName

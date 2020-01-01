@@ -1082,7 +1082,7 @@ rv
 =
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 lockFilePath
 ;
 rv
@@ -1756,7 +1756,7 @@ aHaveFcntlLock
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 lockFilePath
 ;
 rv
@@ -3416,7 +3416,7 @@ defined
 (
 XP_OS2
 )
-nsCAutoString
+nsAutoCString
 filePath
 ;
 rv
@@ -3505,7 +3505,7 @@ defined
 (
 VMS
 )
-nsCAutoString
+nsAutoCString
 filePath
 ;
 rv

@@ -752,7 +752,7 @@ mOutputFormat
 mEncoding
 )
 ;
-nsCAutoString
+nsAutoCString
 canonicalCharset
 ;
 if

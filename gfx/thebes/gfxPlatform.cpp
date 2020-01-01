@@ -4710,7 +4710,7 @@ GetRootBranch
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 prefName
 langGroupString
 ;
@@ -4722,7 +4722,7 @@ ToUTF8String
 langGroupString
 )
 ;
-nsCAutoString
+nsAutoCString
 genericDotLang
 ;
 if
@@ -5056,7 +5056,7 @@ GetPrefLangName
 prefLang
 )
 ;
-nsCAutoString
+nsAutoCString
 prefName
 ;
 prefName
@@ -5249,7 +5249,7 @@ p
 *
 p_end
 ;
-nsCAutoString
+nsAutoCString
 list
 (
 nameListValue
@@ -5338,7 +5338,7 @@ nothing
 *
 /
 ;
-nsCAutoString
+nsAutoCString
 fontName
 (
 Substring
@@ -5471,7 +5471,7 @@ aLang
 return
 eFontPrefLang_Others
 ;
-nsCAutoString
+nsAutoCString
 lang
 ;
 aLang
@@ -6055,7 +6055,7 @@ nothing
 *
 /
 ;
-nsCAutoString
+nsAutoCString
 lang
 (
 Substring

@@ -10547,7 +10547,7 @@ y
 =
 0
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -11217,7 +11217,7 @@ uri
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 uristr
 ;
 uri
@@ -11702,7 +11702,7 @@ GetBaseURI
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 charset
 ;
 GetDocumentCharacterSet

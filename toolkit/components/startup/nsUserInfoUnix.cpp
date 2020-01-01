@@ -290,7 +290,7 @@ PW_GECOS
 ;
 #
 endif
-nsCAutoString
+nsAutoCString
 fullname
 (
 pw
@@ -404,7 +404,7 @@ pw
 pw_name
 )
 {
-nsCAutoString
+nsAutoCString
 username
 (
 pw
@@ -842,7 +842,7 @@ address
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 emailAddress
 ;
 nsXPIDLCString

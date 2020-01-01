@@ -901,7 +901,7 @@ docShell
 NS_OK
 )
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 nsCOMPtr
@@ -1690,7 +1690,7 @@ url
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 fileName
 ;
 url
@@ -1711,7 +1711,7 @@ IsEmpty
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 docCharset
 ;
 /

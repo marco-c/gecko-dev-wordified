@@ -354,7 +354,7 @@ eColorName_COUNT
 index
 )
 {
-nsCAutoString
+nsAutoCString
 temp1
 (
 kColorNames
@@ -363,7 +363,7 @@ index
 ]
 )
 ;
-nsCAutoString
+nsAutoCString
 temp2
 (
 kColorNames

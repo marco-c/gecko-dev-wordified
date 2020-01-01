@@ -3477,7 +3477,7 @@ DBOperationType
 aDBOperation
 )
 {
-nsCAutoString
+nsAutoCString
 host
 ;
 nsresult
@@ -5249,7 +5249,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 rv
@@ -6634,7 +6634,7 @@ from
 the
 list
 .
-nsCAutoString
+nsAutoCString
 sql
 ;
 sql
@@ -6712,13 +6712,13 @@ Count
 i
 )
 {
-nsCAutoString
+nsAutoCString
 host
 ;
 bool
 isInBrowserElement
 ;
-nsCAutoString
+nsAutoCString
 type
 ;
 data
@@ -7551,7 +7551,7 @@ rv
 int64_t
 id
 ;
-nsCAutoString
+nsAutoCString
 host
 type
 ;
@@ -8012,7 +8012,7 @@ and
 15
 *
 /
-nsCAutoString
+nsAutoCString
 buffer
 ;
 bool

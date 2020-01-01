@@ -787,7 +787,7 @@ aStoreFile
 nsresult
 CalculateChecksum
 (
-nsCAutoString
+nsAutoCString
 &
 aChecksum
 bool

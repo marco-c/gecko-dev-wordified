@@ -2946,7 +2946,7 @@ mOwnership
 OWN
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 nsresult

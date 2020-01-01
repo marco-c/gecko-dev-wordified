@@ -1865,7 +1865,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 ref
 ;
 NS_EscapeURL
@@ -2069,7 +2069,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 ref
 ;
 uri

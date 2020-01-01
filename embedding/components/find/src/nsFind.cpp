@@ -6220,7 +6220,7 @@ nullptr
 #
 ifdef
 DEBUG_FIND
-nsCAutoString
+nsAutoCString
 str1
 (
 t1b

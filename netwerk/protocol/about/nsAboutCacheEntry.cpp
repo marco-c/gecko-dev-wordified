@@ -1253,7 +1253,7 @@ result
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 clientID
 key
 ;
@@ -1756,7 +1756,7 @@ buffer
 uint32_t
 n
 ;
-nsCAutoString
+nsAutoCString
 str
 ;
 rv
@@ -2074,7 +2074,7 @@ i
 =
 0
 ;
-nsCAutoString
+nsAutoCString
 s
 ;
 /
@@ -2954,7 +2954,7 @@ string
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 rv

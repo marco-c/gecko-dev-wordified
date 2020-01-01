@@ -8251,7 +8251,7 @@ nsXBLDocumentInfo
 *
 mDocInfo
 ;
-nsCAutoString
+nsAutoCString
 mID
 ;
 }
@@ -8313,7 +8313,7 @@ t
 here
 either
 .
-nsCAutoString
+nsAutoCString
 id
 ;
 nsresult
@@ -8344,7 +8344,7 @@ IsEmpty
 NS_ERROR_FAILURE
 )
 ;
-nsCAutoString
+nsAutoCString
 baseBindingURI
 ;
 rv
@@ -8744,7 +8744,7 @@ aDocInfo
 id
 )
 ;
-nsCAutoString
+nsAutoCString
 className
 ;
 rv
@@ -9529,7 +9529,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 id
 ;
 mBindingURI
@@ -9570,7 +9570,7 @@ and
 display
 attribute
 values
-nsCAutoString
+nsAutoCString
 extends
 ;
 ResolveBaseBinding

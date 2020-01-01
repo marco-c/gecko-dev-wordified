@@ -1182,7 +1182,7 @@ offset
 =
 0
 ;
-nsCAutoString
+nsAutoCString
 encodedBuf
 ;
 nsAString
@@ -1479,7 +1479,7 @@ offset
 =
 0
 ;
-nsCAutoString
+nsAutoCString
 decodedBuf
 ;
 nsACString
@@ -2160,7 +2160,7 @@ the
 original
 ACE
 string
-nsCAutoString
+nsAutoCString
 temp
 (
 _retval
@@ -4111,7 +4111,7 @@ and
 compare
 the
 strings
-nsCAutoString
+nsAutoCString
 ace
 ;
 nsresult
@@ -4167,7 +4167,7 @@ if
 mIDNWhitelistPrefBranch
 )
 {
-nsCAutoString
+nsAutoCString
 tld
 (
 host

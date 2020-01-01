@@ -534,7 +534,7 @@ nsCharSeparatedTokenizer
 SEPARATOR_OPTIONAL
 )
 ;
-nsCAutoString
+nsAutoCString
 str1
 str2
 ;

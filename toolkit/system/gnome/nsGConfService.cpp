@@ -1308,7 +1308,7 @@ nsACString
 aHandler
 )
 {
-nsCAutoString
+nsAutoCString
 key
 (
 "
@@ -1461,7 +1461,7 @@ bool
 aResult
 )
 {
-nsCAutoString
+nsAutoCString
 key
 (
 "
@@ -1549,7 +1549,7 @@ nsACString
 aCommand
 )
 {
-nsCAutoString
+nsAutoCString
 key
 (
 "

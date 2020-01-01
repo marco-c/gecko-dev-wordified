@@ -255,7 +255,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 categoryEntry
 ;
 rv
@@ -610,7 +610,7 @@ mCategory
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 str
 ;
 nsCOMPtr
@@ -799,7 +799,7 @@ NS_XPCOM_CATEGORY_ENTRY_REMOVED_OBSERVER_ID
 0
 )
 {
-nsCAutoString
+nsAutoCString
 val
 ;
 if

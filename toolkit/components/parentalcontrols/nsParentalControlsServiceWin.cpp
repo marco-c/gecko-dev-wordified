@@ -987,7 +987,7 @@ NS_ENSURE_ARG_POINTER
 aTarget
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 aTarget
@@ -1294,7 +1294,7 @@ be
 the
 root
 uri
-nsCAutoString
+nsAutoCString
 rootSpec
 ;
 nsCOMPtr
@@ -1412,7 +1412,7 @@ uri
 )
 continue
 ;
-nsCAutoString
+nsAutoCString
 subURI
 ;
 if
@@ -1672,7 +1672,7 @@ nsIFile
 aTarget
 )
 {
-nsCAutoString
+nsAutoCString
 curi
 ;
 if
@@ -1745,7 +1745,7 @@ info
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 asciiAppName
 ;
 if

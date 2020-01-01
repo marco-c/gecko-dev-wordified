@@ -316,7 +316,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 categoryEntry
 ;
 rv
@@ -523,7 +523,7 @@ else
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 warnStr
 (
 "

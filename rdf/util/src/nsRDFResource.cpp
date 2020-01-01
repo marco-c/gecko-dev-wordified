@@ -993,7 +993,7 @@ scheme
 ]
 ;
 1
-nsCAutoString
+nsAutoCString
 contractID
 (
 NS_RDF_DELEGATEFACTORY_CONTRACTID_PREFIX

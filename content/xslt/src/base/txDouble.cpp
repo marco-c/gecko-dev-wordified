@@ -618,7 +618,7 @@ get
 }
 private
 :
-nsCAutoString
+nsAutoCString
 mBuffer
 ;
 enum

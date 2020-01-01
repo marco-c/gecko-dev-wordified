@@ -1488,7 +1488,7 @@ false
 /
 set
 URL
-nsCAutoString
+nsAutoCString
 src
 ;
 mDocumentURI

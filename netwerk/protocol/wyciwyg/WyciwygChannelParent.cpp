@@ -1307,7 +1307,7 @@ charsetSource
 =
 kCharsetUninitialized
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 chan

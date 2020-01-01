@@ -1058,7 +1058,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 ranges
 ;
 hc
@@ -1196,7 +1196,7 @@ find
 the
 value
 .
-nsCAutoString
+nsAutoCString
 durationText
 ;
 nsresult
@@ -3117,7 +3117,7 @@ if
 hc
 )
 {
-nsCAutoString
+nsAutoCString
 rangeString
 (
 "

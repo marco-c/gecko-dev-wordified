@@ -1480,7 +1480,7 @@ for
 the
 media
 type
-nsCAutoString
+nsAutoCString
 encoderCID
 (
 NS_LITERAL_CSTRING

@@ -6316,7 +6316,7 @@ void
 closure
 )
 {
-nsCAutoString
+nsAutoCString
 annoName
 (
 static_cast
@@ -6383,7 +6383,7 @@ true
 }
 else
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -6434,7 +6434,7 @@ true
 }
 else
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -8341,7 +8341,7 @@ FillStats
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 sortingAnnotation
 ;
 GetSortingAnnotation
@@ -8518,7 +8518,7 @@ comparator
 return
 false
 ;
-nsCAutoString
+nsAutoCString
 sortAnno
 ;
 GetSortingAnnotation
@@ -10688,7 +10688,7 @@ aOnlyOne
 /
 uri
 string
-nsCAutoString
+nsAutoCString
 uriString
 ;
 nsresult
@@ -13590,7 +13590,7 @@ if
 comparator
 )
 {
-nsCAutoString
+nsAutoCString
 sortingAnnotation
 ;
 GetSortingAnnotation
@@ -15379,7 +15379,7 @@ hasDomain
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 if
@@ -16255,7 +16255,7 @@ nsNavHistoryResultNode
 >
 matches
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult
@@ -16798,7 +16798,7 @@ nsINavHistoryQueryOptions
 RESULTS_AS_TAG_CONTENTS
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult
@@ -17129,7 +17129,7 @@ nsACString
 aGUID
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult
@@ -17382,7 +17382,7 @@ NS_ENSURE_STATE
 result
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult
@@ -20208,7 +20208,7 @@ if
 comparator
 )
 {
-nsCAutoString
+nsAutoCString
 sortingAnnotation
 ;
 GetSortingAnnotation
@@ -21972,7 +21972,7 @@ bookmark
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 itemURISpec
 ;
 rv
@@ -23884,7 +23884,7 @@ nsIURI
 >
 itemURI
 ;
-nsCAutoString
+nsAutoCString
 itemTitle
 ;
 if
@@ -27418,7 +27418,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 title
 ;
 rv
@@ -27454,7 +27454,7 @@ history
 NS_OK
 )
 ;
-nsCAutoString
+nsAutoCString
 todayLabel
 ;
 history

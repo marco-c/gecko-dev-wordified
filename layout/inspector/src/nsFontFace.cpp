@@ -687,7 +687,7 @@ mUserFontData
 mURI
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 mFontEntry
@@ -1098,7 +1098,7 @@ userFontData
 mMetaOrigLen
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 str

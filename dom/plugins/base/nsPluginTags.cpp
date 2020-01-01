@@ -1278,7 +1278,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 rv

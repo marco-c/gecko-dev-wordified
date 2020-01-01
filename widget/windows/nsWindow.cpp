@@ -18921,7 +18921,7 @@ debug_DumpInvalidate
 stdout
 this
 nullptr
-nsCAutoString
+nsAutoCString
 (
 "
 noname
@@ -19026,7 +19026,7 @@ stdout
 this
 &
 aRect
-nsCAutoString
+nsAutoCString
 (
 "
 noname
@@ -25302,7 +25302,7 @@ event
 >
 widget
 event
-nsCAutoString
+nsAutoCString
 (
 "
 something

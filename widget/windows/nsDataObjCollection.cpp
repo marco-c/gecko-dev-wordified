@@ -1696,7 +1696,7 @@ cfFormat
 CF_TEXT
 )
 {
-nsCAutoString
+nsAutoCString
 text
 ;
 for

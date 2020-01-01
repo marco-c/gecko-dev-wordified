@@ -882,7 +882,7 @@ verify
 invariants
 of
 contents
-nsCAutoString
+nsAutoCString
 temp1
 (
 raw

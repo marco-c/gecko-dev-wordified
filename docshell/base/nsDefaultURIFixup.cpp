@@ -276,7 +276,7 @@ wyciwyg
 isWyciwyg
 )
 ;
-nsCAutoString
+nsAutoCString
 userPass
 ;
 aURI
@@ -347,7 +347,7 @@ if
 isWyciwyg
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 nsresult
@@ -487,7 +487,7 @@ fixed
 up
 URI
 .
-nsCAutoString
+nsAutoCString
 charset
 ;
 aURI
@@ -690,7 +690,7 @@ aURI
 =
 nullptr
 ;
-nsCAutoString
+nsAutoCString
 uriString
 (
 aStringURI
@@ -773,7 +773,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 ioService
@@ -923,7 +923,7 @@ rv
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -1231,13 +1231,13 @@ and
 backward
 slashes
 .
-nsCAutoString
+nsAutoCString
 :
 :
 iterator
 start
 ;
-nsCAutoString
+nsAutoCString
 :
 :
 iterator
@@ -1911,7 +1911,7 @@ Length
 extract
 host
 name
-nsCAutoString
+nsAutoCString
 hostSpec
 ;
 uriString
@@ -2186,7 +2186,7 @@ trailing
 spaces
 from
 aKeyword
-nsCAutoString
+nsAutoCString
 keyword
 (
 aKeyword
@@ -2303,7 +2303,7 @@ keyword
 then
 prepend
 URL
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -2753,7 +2753,7 @@ NOT
 be
 fixed
 up
-nsCAutoString
+nsAutoCString
 userpass
 ;
 aURI
@@ -2778,10 +2778,10 @@ return
 false
 ;
 }
-nsCAutoString
+nsAutoCString
 oldHost
 ;
-nsCAutoString
+nsAutoCString
 newHost
 ;
 aURI
@@ -2896,7 +2896,7 @@ www
 &
 .
 org
-nsCAutoString
+nsAutoCString
 prefix
 (
 "
@@ -2937,7 +2937,7 @@ prefPrefix
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 suffix
 (
 "
@@ -3360,7 +3360,7 @@ nsIURI
 aURI
 )
 {
-nsCAutoString
+nsAutoCString
 uriSpecOut
 ;
 nsresult
@@ -4845,7 +4845,7 @@ IsEmpty
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 nsCOMPtr

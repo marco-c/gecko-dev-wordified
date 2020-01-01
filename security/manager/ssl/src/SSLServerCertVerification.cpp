@@ -5246,7 +5246,7 @@ neogtiate
 SPDY
 via
 NPN
-nsCAutoString
+nsAutoCString
 negotiatedNPN
 ;
 nsresult

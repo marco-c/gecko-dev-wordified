@@ -1551,7 +1551,7 @@ nsIMozIconURI
 aIconURI
 )
 {
-nsCAutoString
+nsAutoCString
 iconSizeString
 ;
 aIconURI
@@ -2000,7 +2000,7 @@ GetIconSize
 aIconURI
 )
 ;
-nsCAutoString
+nsAutoCString
 type
 ;
 aIconURI
@@ -2035,7 +2035,7 @@ addrefs
 and
 releases
 it
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsCOMPtr
@@ -2226,7 +2226,7 @@ random
 junk
 "
 .
-nsCAutoString
+nsAutoCString
 name
 ;
 url
@@ -2316,7 +2316,7 @@ if
 ms
 )
 {
-nsCAutoString
+nsAutoCString
 fileExt
 ;
 aIconURI
@@ -2612,7 +2612,7 @@ fileURI
 bool
 isFile
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 fileURI
@@ -2730,7 +2730,7 @@ if
 icon
 )
 {
-nsCAutoString
+nsAutoCString
 type
 ;
 aIconURI
@@ -2788,7 +2788,7 @@ if
 ms
 )
 {
-nsCAutoString
+nsAutoCString
 fileExt
 ;
 aIconURI
@@ -3094,7 +3094,7 @@ nsIMozIconURI
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 stockIcon
 ;
 iconURI
@@ -3149,7 +3149,7 @@ endif
 Search
 for
 stockIcon
-nsCAutoString
+nsAutoCString
 iconSizeString
 ;
 iconURI
@@ -3160,7 +3160,7 @@ GetIconSize
 iconSizeString
 )
 ;
-nsCAutoString
+nsAutoCString
 iconStateString
 ;
 iconURI
@@ -3266,7 +3266,7 @@ direction
 =
 GTK_TEXT_DIR_NONE
 ;
-nsCAutoString
+nsAutoCString
 stockID
 ;
 bool

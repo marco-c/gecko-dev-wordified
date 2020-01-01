@@ -5186,7 +5186,7 @@ else
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 signalStr
 ;
 signalStr

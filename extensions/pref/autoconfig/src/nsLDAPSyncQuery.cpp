@@ -1422,7 +1422,7 @@ url
 ;
 /
 /
-nsCAutoString
+nsAutoCString
 urlFilter
 ;
 rv
@@ -1461,7 +1461,7 @@ to
 search
 /
 /
-nsCAutoString
+nsAutoCString
 dn
 ;
 rv

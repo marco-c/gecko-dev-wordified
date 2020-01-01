@@ -9229,7 +9229,7 @@ defined
 (
 XP_UNIX
 )
-nsCAutoString
+nsAutoCString
 cwd
 ;
 /

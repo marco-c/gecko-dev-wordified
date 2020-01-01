@@ -497,7 +497,7 @@ nsACString
 _spec
 )
 {
-nsCAutoString
+nsAutoCString
 buffer
 ;
 (

@@ -2760,7 +2760,7 @@ isAboutScheme
 return
 false
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 uri

@@ -450,7 +450,7 @@ suck
 nsXPIDLString
 msg
 ;
-nsCAutoString
+nsAutoCString
 nativemsg
 ;
 for

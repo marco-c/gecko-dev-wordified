@@ -696,7 +696,7 @@ automon
 mReentrantMonitor
 )
 ;
-nsCAutoString
+nsAutoCString
 name
 ;
 name
@@ -1706,7 +1706,7 @@ in
 the
 override
 bundle
-nsCAutoString
+nsAutoCString
 key
 ;
 propElement
@@ -2356,7 +2356,7 @@ rv
 )
 continue
 ;
-nsCAutoString
+nsAutoCString
 name
 ;
 rv

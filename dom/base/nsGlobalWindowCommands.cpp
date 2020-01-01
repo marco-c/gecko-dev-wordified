@@ -3268,7 +3268,7 @@ NS_ENSURE_ARG
 aParams
 )
 ;
-nsCAutoString
+nsAutoCString
 mimeType
 (
 "

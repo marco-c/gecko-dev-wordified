@@ -2127,7 +2127,7 @@ result
 =
 0
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult
@@ -2845,7 +2845,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv
@@ -6132,7 +6132,7 @@ mURI
 continue
 ;
 }
-nsCAutoString
+nsAutoCString
 asciiRequest
 ;
 if
@@ -6163,7 +6163,7 @@ DomainIsHost
 )
 )
 {
-nsCAutoString
+nsAutoCString
 host
 ;
 if
@@ -6207,7 +6207,7 @@ match
 check
 domain
 names
-nsCAutoString
+nsAutoCString
 domain
 ;
 DomainNameFromURI
@@ -6390,7 +6390,7 @@ might
 not
 be
 normalized
-nsCAutoString
+nsAutoCString
 nodeUriString
 ;
 nodeUri
@@ -6401,7 +6401,7 @@ GetAsciiSpec
 nodeUriString
 )
 ;
-nsCAutoString
+nsAutoCString
 queryUriString
 ;
 query
@@ -6626,7 +6626,7 @@ provide
 a
 protocol
 .
-nsCAutoString
+nsAutoCString
 fakeURL
 (
 "
@@ -7025,7 +7025,7 @@ frecency
 to
 zero
 .
-nsCAutoString
+nsAutoCString
 invalideFrecenciesSQLFragment
 (
 "
@@ -7264,7 +7264,7 @@ IsHistoryDisabled
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 uriString
 ;
 nsresult
@@ -7506,7 +7506,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 scheme
 ;
 nsresult
@@ -8094,7 +8094,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 guid
 ;
 int64_t
@@ -10842,7 +10842,7 @@ history
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsCAutoString
+nsAutoCString
 tagsSqlFragment
 ;
 switch
@@ -11476,7 +11476,7 @@ history
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsCAutoString
+nsAutoCString
 tagsSqlFragment
 ;
 GetTagsSqlFragment
@@ -11865,7 +11865,7 @@ i
 +
 )
 {
-nsCAutoString
+nsAutoCString
 dateName
 ;
 /
@@ -11949,7 +11949,7 @@ the
 inside
 containers
 .
-nsCAutoString
+nsAutoCString
 sqlFragmentContainerBeginTime
 sqlFragmentContainerEndTime
 ;
@@ -11967,7 +11967,7 @@ should
 be
 visible
 .
-nsCAutoString
+nsAutoCString
 sqlFragmentSearchBeginTime
 sqlFragmentSearchEndTime
 ;
@@ -13358,7 +13358,7 @@ SelectAsSite
 (
 )
 {
-nsCAutoString
+nsAutoCString
 localFiles
 ;
 nsNavHistory
@@ -13424,13 +13424,13 @@ on
 visits
 too
 .
-nsCAutoString
+nsAutoCString
 visitsJoin
 ;
-nsCAutoString
+nsAutoCString
 additionalConditions
 ;
-nsCAutoString
+nsAutoCString
 timeConstraints
 ;
 if
@@ -13928,10 +13928,10 @@ Where
 Set
 query
 options
-nsCAutoString
+nsAutoCString
 additionalVisitsConditions
 ;
-nsCAutoString
+nsAutoCString
 additionalPlacesConditions
 ;
 if
@@ -14033,7 +14033,7 @@ join
 on
 visits
 .
-nsCAutoString
+nsAutoCString
 tmp
 =
 additionalVisitsConditions
@@ -14144,7 +14144,7 @@ ADDITIONAL_CONDITIONS
 kNotFound
 )
 {
-nsCAutoString
+nsAutoCString
 innerCondition
 ;
 /
@@ -15146,7 +15146,7 @@ hasSearchTerms
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 tagsSqlFragment
 ;
 GetTagsSqlFragment
@@ -15416,7 +15416,7 @@ MaxResults
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 additionalQueryOptions
 ;
 queryString
@@ -15439,7 +15439,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 conditions
 ;
 for
@@ -15937,7 +15937,7 @@ if
 statement
 )
 {
-nsCAutoString
+nsAutoCString
 lastErrorString
 ;
 (
@@ -17082,7 +17082,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 URLString
 ;
 rv
@@ -17571,7 +17571,7 @@ i
 int64_t
 placeId
 ;
-nsCAutoString
+nsAutoCString
 guid
 ;
 rv
@@ -17755,7 +17755,7 @@ delete
 int64_t
 placeId
 ;
-nsCAutoString
+nsAutoCString
 guid
 ;
 nsresult
@@ -17787,7 +17787,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 deletePlaceIdQueryString
 ;
 deletePlaceIdQueryString
@@ -18241,7 +18241,7 @@ on
 host
 selection
 type
-nsCAutoString
+nsAutoCString
 conditionString
 ;
 if
@@ -19738,7 +19738,7 @@ IsHistoryDisabled
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 uriString
 ;
 nsresult
@@ -19932,7 +19932,7 @@ IsHistoryDisabled
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 uriString
 ;
 nsresult
@@ -20784,7 +20784,7 @@ fromVisitURI
 =
 aReferrerURI
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult
@@ -21504,7 +21504,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 utf8URISpec
 ;
 nsresult
@@ -22560,7 +22560,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 lastErrorString
 ;
 (
@@ -25583,7 +25583,7 @@ param
 name
 though
 .
-nsCAutoString
+nsAutoCString
 qIndex
 ;
 if
@@ -26172,7 +26172,7 @@ UriIsPrefix
 )
 )
 {
-nsCAutoString
+nsAutoCString
 uriString
 ;
 aQuery
@@ -26715,7 +26715,7 @@ nsCString
 aURN
 )
 {
-nsCAutoString
+nsAutoCString
 uri
 ;
 nsresult
@@ -26805,7 +26805,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 escapedTitle
 ;
 bool
@@ -27332,7 +27332,7 @@ search
 terms
 matching
 .
-nsCAutoString
+nsAutoCString
 cNodeURL
 (
 aSet
@@ -28051,7 +28051,7 @@ nullptr
 /
 /
 URL
-nsCAutoString
+nsAutoCString
 url
 ;
 nsresult
@@ -28075,7 +28075,7 @@ rv
 /
 /
 title
-nsCAutoString
+nsAutoCString
 title
 ;
 rv
@@ -28120,7 +28120,7 @@ kGetInfoIndex_VisitDate
 /
 /
 favicon
-nsCAutoString
+nsAutoCString
 favicon
 ;
 rv
@@ -29412,7 +29412,7 @@ nsNavHistoryResultNode
 aResult
 )
 {
-nsCAutoString
+nsAutoCString
 tagsFragment
 ;
 GetTagsSqlFragment
@@ -29856,7 +29856,7 @@ nsNavHistoryResultNode
 aResult
 )
 {
-nsCAutoString
+nsAutoCString
 tagsFragment
 ;
 GetTagsSqlFragment
@@ -30126,7 +30126,7 @@ nsNavHistoryResultNode
 aResult
 )
 {
-nsCAutoString
+nsAutoCString
 tagsFragment
 ;
 GetTagsSqlFragment
@@ -30799,7 +30799,7 @@ if
 bundle
 )
 {
-nsCAutoString
+nsAutoCString
 monthName
 ;
 GetMonthName
@@ -31009,7 +31009,7 @@ title
 nsAutoString
 title
 ;
-nsCAutoString
+nsAutoCString
 guid
 ;
 {

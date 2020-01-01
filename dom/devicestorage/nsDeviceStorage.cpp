@@ -1044,7 +1044,7 @@ PR_IntervalNow
 ;
 #
 endif
-nsCAutoString
+nsAutoCString
 mimeType
 ;
 nsCOMPtr

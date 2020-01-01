@@ -286,7 +286,7 @@ aAttrValue
 nsAutoString
 oldValue
 ;
-nsCAutoString
+nsAutoCString
 attrName
 ;
 aAttributes

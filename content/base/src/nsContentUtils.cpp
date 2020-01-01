@@ -3821,7 +3821,7 @@ return
 false
 ;
 }
-nsCAutoString
+nsAutoCString
 scheme
 ;
 aURI
@@ -3848,7 +3848,7 @@ return
 true
 ;
 }
-nsCAutoString
+nsAutoCString
 prePathUTF8
 ;
 aURI
@@ -17902,7 +17902,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -18391,7 +18391,7 @@ chrome
 document
 expects
 .
-nsCAutoString
+nsAutoCString
 spec
 ;
 docURI
@@ -20117,7 +20117,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 detectorContractID
 ;
 detectorContractID
@@ -25660,7 +25660,7 @@ if
 hrefURI
 )
 {
-nsCAutoString
+nsAutoCString
 specUTF8
 ;
 nsresult
@@ -30938,7 +30938,7 @@ NS_ENSURE_ARG_POINTER
 aURI
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult

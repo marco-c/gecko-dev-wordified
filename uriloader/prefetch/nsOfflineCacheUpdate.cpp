@@ -1845,7 +1845,7 @@ nsresult
 aStatus
 )
 {
-nsCAutoString
+nsAutoCString
 manifestHash
 ;
 if
@@ -2758,7 +2758,7 @@ LOG_ENABLED
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 mURI
@@ -4269,7 +4269,7 @@ rv
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 oldScheme
 ;
 mURI
@@ -4594,7 +4594,7 @@ nsAString
 aURI
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult
@@ -6592,7 +6592,7 @@ uri
 )
 break
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 uri
@@ -7077,7 +7077,7 @@ rv
 )
 break
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 bypassURI
@@ -7662,7 +7662,7 @@ return
 NS_ERROR_ABORT
 ;
 }
-nsCAutoString
+nsAutoCString
 contentType
 ;
 rv
@@ -8643,7 +8643,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 manifestSpec
 ;
 rv
@@ -8992,7 +8992,7 @@ if
 mApplicationCache
 )
 {
-nsCAutoString
+nsAutoCString
 manifestSpec
 ;
 rv
@@ -9030,7 +9030,7 @@ rv
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 groupID
 ;
 rv
@@ -10324,7 +10324,7 @@ aStatus
 )
 )
 {
-nsCAutoString
+nsAutoCString
 firstManifestHash
 ;
 mManifestItem
@@ -11586,7 +11586,7 @@ LOG_ENABLED
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 runItem
@@ -12161,7 +12161,7 @@ update
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsCAutoString
+nsAutoCString
 clientID
 ;
 if
@@ -12459,7 +12459,7 @@ if
 appCacheService
 )
 {
-nsCAutoString
+nsAutoCString
 groupID
 ;
 mApplicationCache
@@ -13251,7 +13251,7 @@ as
 the
 manifest
 .
-nsCAutoString
+nsAutoCString
 scheme
 ;
 aURI
@@ -13468,7 +13468,7 @@ if
 mPartialUpdate
 )
 {
-nsCAutoString
+nsAutoCString
 key
 ;
 GetCacheKey

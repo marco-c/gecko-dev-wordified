@@ -2693,7 +2693,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 charXferString
 ;
 if
@@ -2938,7 +2938,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 entString
 (
 "
@@ -3027,7 +3027,7 @@ Since
 entString
 is
 an
-nsCAutoString
+nsAutoCString
 we
 know
 entString
@@ -5236,7 +5236,7 @@ if
 mSerializer
 )
 {
-nsCAutoString
+nsAutoCString
 progId
 (
 NS_CONTENTSERIALIZER_CONTRACTID_PREFIX

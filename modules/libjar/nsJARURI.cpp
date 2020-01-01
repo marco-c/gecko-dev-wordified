@@ -534,7 +534,7 @@ spec
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 fileSpec
 ;
 nsresult
@@ -658,7 +658,7 @@ case
 See
 bug
 128288
-nsCAutoString
+nsAutoCString
 spec
 (
 NS_BOGUS_ENTRY_SCHEME
@@ -1336,7 +1336,7 @@ nsACString
 aSpec
 )
 {
-nsCAutoString
+nsAutoCString
 entrySpec
 ;
 mJAREntry
@@ -1366,7 +1366,7 @@ nsACString
 aSpec
 )
 {
-nsCAutoString
+nsAutoCString
 entrySpec
 ;
 mJAREntry
@@ -1463,7 +1463,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 rv
@@ -2160,7 +2160,7 @@ nsACString
 aPath
 )
 {
-nsCAutoString
+nsAutoCString
 entrySpec
 ;
 mJAREntry
@@ -2681,7 +2681,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 rv
@@ -2717,7 +2717,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 resolvedPath
 ;
 mJAREntry
@@ -3284,7 +3284,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 common
 ;
 rv
@@ -3333,7 +3333,7 @@ file
 Compare
 the
 JAREntrys
-nsCAutoString
+nsAutoCString
 otherEntry
 ;
 rv
@@ -3356,7 +3356,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 otherCharset
 ;
 rv
@@ -3411,7 +3411,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 common
 ;
 rv
@@ -3585,7 +3585,7 @@ file
 Compare
 the
 JAREntrys
-nsCAutoString
+nsAutoCString
 otherEntry
 ;
 rv
@@ -3608,7 +3608,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 otherCharset
 ;
 rv
@@ -3663,7 +3663,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 relativeEntrySpec
 ;
 rv
@@ -3828,7 +3828,7 @@ nsACString
 entryPath
 )
 {
-nsCAutoString
+nsAutoCString
 filePath
 ;
 mJAREntry

@@ -919,7 +919,7 @@ uri
 return
 nullptr
 ;
-nsCAutoString
+nsAutoCString
 cautoStr
 ;
 nsresult

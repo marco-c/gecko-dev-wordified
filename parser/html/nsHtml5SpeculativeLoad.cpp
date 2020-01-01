@@ -212,7 +212,7 @@ case
 eSpeculativeLoadSetDocumentCharset
 :
 {
-nsCAutoString
+nsAutoCString
 narrowName
 ;
 CopyUTF16toUTF8

@@ -709,7 +709,7 @@ datasource
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 mInnerURI
 ;
 mInnerURI

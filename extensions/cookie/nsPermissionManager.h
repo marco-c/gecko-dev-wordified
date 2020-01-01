@@ -479,7 +479,7 @@ GetHashCode
 )
 const
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 str

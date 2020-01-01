@@ -438,7 +438,7 @@ charset
 to
 convert
 from
-nsCAutoString
+nsAutoCString
 str
 ;
 /
@@ -599,7 +599,7 @@ charset
 to
 convert
 to
-nsCAutoString
+nsAutoCString
 str
 ;
 /
