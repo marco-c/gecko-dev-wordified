@@ -15918,9 +15918,12 @@ len
 {
 readLimit
 =
-PR_MIN
+NS_MIN
+(
+PRUint32
 (
 NS_CRYPTO_HASH_BUFFER_SIZE
+)
 len
 )
 ;
@@ -16808,9 +16811,12 @@ aLen
 {
 readLimit
 =
-PR_MIN
+NS_MIN
+(
+PRUint32
 (
 NS_CRYPTO_HASH_BUFFER_SIZE
+)
 aLen
 )
 ;
