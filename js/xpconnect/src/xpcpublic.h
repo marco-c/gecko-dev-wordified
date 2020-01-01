@@ -2195,6 +2195,15 @@ JSCompartment
 compartment
 )
 ;
+nsIPrincipal
+*
+GetObjectPrincipal
+(
+JSObject
+*
+obj
+)
+;
 bool
 IsXBLScope
 (
