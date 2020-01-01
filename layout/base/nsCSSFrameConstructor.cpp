@@ -7953,7 +7953,10 @@ GetChildList
 aChildListID
 )
 ;
+DebugOnly
+<
 nsresult
+>
 rv
 =
 NS_OK

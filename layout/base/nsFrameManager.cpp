@@ -5910,7 +5910,10 @@ old
 context
 resolved
 .
+DebugOnly
+<
 nsChangeHint
+>
 styleChange
 =
 oldContext

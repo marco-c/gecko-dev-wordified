@@ -7401,7 +7401,10 @@ Overflow
 )
 )
 {
+DebugOnly
+<
 nsresult
+>
 rv
 ;
 nsTreeColumn
