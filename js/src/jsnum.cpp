@@ -6905,6 +6905,15 @@ istr
 ;
 if
 (
+*
+istr
+=
+=
+'
+I
+'
+&
+&
 !
 strncmp
 (
