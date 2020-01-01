@@ -7714,6 +7714,14 @@ int32_t
 imm
 )
 {
+NanoAssert
+(
+IsGpReg
+(
+d
+)
+)
+;
 if
 (
 isU8
@@ -10429,7 +10437,7 @@ lhs
 GpRegs
 )
 ;
-TEST
+TST
 (
 r
 r
@@ -11452,6 +11460,7 @@ MUL
 (
 rr
 rb
+rr
 )
 ;
 else
@@ -11508,7 +11517,7 @@ op
 LIR_lsh
 )
 {
-SHL
+LSL
 (
 rr
 ra
@@ -11532,7 +11541,7 @@ op
 LIR_rsh
 )
 {
-SAR
+ASR
 (
 rr
 ra
@@ -11556,7 +11565,7 @@ op
 LIR_ush
 )
 {
-SHR
+LSR
 (
 rr
 ra
@@ -11681,7 +11690,7 @@ op
 =
 LIR_lsh
 )
-SHLi
+LSLi
 (
 rr
 ra
@@ -11696,7 +11705,7 @@ op
 =
 LIR_rsh
 )
-SARi
+ASRi
 (
 rr
 ra
@@ -11711,7 +11720,7 @@ op
 =
 LIR_ush
 )
-SHRi
+LSRi
 (
 rr
 ra
@@ -11993,8 +12002,8 @@ LIR_ldcs
 LDRH
 (
 rr
-d
 ra
+d
 )
 ;
 return
@@ -12020,8 +12029,8 @@ LIR_ldcb
 LDRB
 (
 rr
-d
 ra
+d
 )
 ;
 return
