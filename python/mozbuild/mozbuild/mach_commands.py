@@ -383,6 +383,12 @@ present
         
 warnings_database
 .
+prune
+(
+)
+        
+warnings_database
+.
 save_to_file
 (
 warnings_path
