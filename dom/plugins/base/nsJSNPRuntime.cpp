@@ -182,6 +182,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h

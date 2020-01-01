@@ -417,6 +417,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsWebShellWindow
 .
 h

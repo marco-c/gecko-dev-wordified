@@ -334,6 +334,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h

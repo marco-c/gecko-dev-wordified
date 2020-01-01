@@ -237,6 +237,13 @@ nsMimeTypes
 .
 h
 "
+#
+include
+"
+nsCxPusher
+.
+h
+"
 namespace
 mozilla
 {

@@ -145,6 +145,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsIXPConnect
 .
 h

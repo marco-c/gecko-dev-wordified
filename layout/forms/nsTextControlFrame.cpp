@@ -620,6 +620,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsTextNode
 .
 h

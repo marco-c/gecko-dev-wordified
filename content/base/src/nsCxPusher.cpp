@@ -117,14 +117,14 @@ MPL
 #
 include
 "
-nsContentUtils
+nsCxPusher
 .
 h
 "
 #
 include
 "
-nsCxPusher
+nsContentUtils
 .
 h
 "

@@ -295,6 +295,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h

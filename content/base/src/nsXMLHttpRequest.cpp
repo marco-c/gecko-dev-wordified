@@ -378,6 +378,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsEventDispatcher
 .
 h

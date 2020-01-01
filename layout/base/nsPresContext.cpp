@@ -571,6 +571,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsPIWindowRoot
 .
 h

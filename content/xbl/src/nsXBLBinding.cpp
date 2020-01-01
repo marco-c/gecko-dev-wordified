@@ -206,6 +206,13 @@ nsContentUtils
 h
 "
 #
+include
+"
+nsCxPusher
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #

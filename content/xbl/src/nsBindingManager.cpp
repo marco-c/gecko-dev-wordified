@@ -349,6 +349,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h

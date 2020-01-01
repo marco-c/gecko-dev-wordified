@@ -362,6 +362,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences

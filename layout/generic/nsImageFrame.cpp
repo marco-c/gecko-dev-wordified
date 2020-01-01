@@ -209,6 +209,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsCSSAnonBoxes
 .
 h

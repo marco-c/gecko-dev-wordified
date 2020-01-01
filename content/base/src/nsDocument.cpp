@@ -306,6 +306,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsGUIEvent
 .
 h

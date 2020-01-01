@@ -453,6 +453,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsIPrefBranch
 .
 h

@@ -248,13 +248,10 @@ h
 #
 include
 "
-nsContentUtils
+nsCxPusher
 .
 h
 "
-/
-/
-nsCxPusher
 #
 include
 "

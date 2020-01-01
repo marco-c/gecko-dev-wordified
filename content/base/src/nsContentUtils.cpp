@@ -148,6 +148,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 DecoderTraits
 .
 h

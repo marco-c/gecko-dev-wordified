@@ -128,6 +128,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StaticPtr

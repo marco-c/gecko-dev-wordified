@@ -180,6 +180,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsIScriptSecurityManager
 .
 h

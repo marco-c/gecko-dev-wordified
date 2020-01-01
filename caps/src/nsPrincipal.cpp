@@ -247,6 +247,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 jswrapper
 .
 h

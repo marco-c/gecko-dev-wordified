@@ -195,6 +195,13 @@ nsContentUtils
 h
 "
 #
+include
+"
+nsCxPusher
+.
+h
+"
+#
 undef
 LOG
 #

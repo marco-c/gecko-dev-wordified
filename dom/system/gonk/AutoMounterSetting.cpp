@@ -126,6 +126,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsISettingsService
 .
 h

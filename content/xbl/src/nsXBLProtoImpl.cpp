@@ -133,6 +133,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsIScriptGlobalObject
 .
 h
