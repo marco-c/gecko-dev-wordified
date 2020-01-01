@@ -5230,10 +5230,12 @@ draw
 event
 now
 .
+if
+(
+!
 sCompositorPaused
-=
-false
-;
+)
+{
 win
 -
 >
@@ -5241,6 +5243,7 @@ RedrawAll
 (
 )
 ;
+}
 break
 ;
 case
@@ -13501,8 +13504,8 @@ height
 if
 (
 sCompositorParent
-)
-{
+&
+&
 sCompositorParent
 -
 >
@@ -13511,6 +13514,11 @@ ScheduleResumeOnCompositorThread
 width
 height
 )
+)
+{
+sCompositorPaused
+=
+false
 ;
 }
 }

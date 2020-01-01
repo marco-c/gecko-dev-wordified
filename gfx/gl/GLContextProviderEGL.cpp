@@ -2425,8 +2425,19 @@ Bridge
 >
 ProvideEGLSurface
 (
+false
 )
 ;
+if
+(
+!
+mSurface
+)
+{
+return
+false
+;
+}
 #
 else
 EGLConfig
@@ -10305,6 +10316,7 @@ Bridge
 >
 ProvideEGLSurface
 (
+true
 )
 ;
 #
