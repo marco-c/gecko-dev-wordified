@@ -184,9 +184,6 @@ aManager
 )
 mLayerProgram
 (
-gl
-:
-:
 RGBALayerProgramType
 )
 mTexture
@@ -335,9 +332,6 @@ GLContext
 >
 mGLContext
 ;
-gl
-:
-:
 ShaderProgramType
 mLayerProgram
 ;

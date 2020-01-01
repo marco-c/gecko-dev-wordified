@@ -259,9 +259,6 @@ ProgramProfileOGL
 :
 GetProfileFor
 (
-gl
-:
-:
 ShaderProgramType
 aType
 MaskType
@@ -292,9 +289,6 @@ aType
 )
 {
 case
-gl
-:
-:
 RGBALayerProgramType
 :
 if
@@ -374,9 +368,6 @@ mTextureCount
 break
 ;
 case
-gl
-:
-:
 RGBALayerExternalProgramType
 :
 if
@@ -476,9 +467,6 @@ mTextureCount
 break
 ;
 case
-gl
-:
-:
 BGRALayerProgramType
 :
 if
@@ -536,9 +524,6 @@ mTextureCount
 break
 ;
 case
-gl
-:
-:
 RGBXLayerProgramType
 :
 if
@@ -596,9 +581,6 @@ mTextureCount
 break
 ;
 case
-gl
-:
-:
 BGRXLayerProgramType
 :
 if
@@ -656,9 +638,6 @@ mTextureCount
 break
 ;
 case
-gl
-:
-:
 RGBARectLayerProgramType
 :
 if
@@ -738,9 +717,6 @@ mTextureCount
 break
 ;
 case
-gl
-:
-:
 RGBAExternalLayerProgramType
 :
 if
@@ -820,9 +796,6 @@ mTextureCount
 break
 ;
 case
-gl
-:
-:
 ColorLayerProgramType
 :
 if
@@ -883,9 +856,6 @@ uRenderColor
 break
 ;
 case
-gl
-:
-:
 YCbCrLayerProgramType
 :
 if
@@ -1008,9 +978,6 @@ mTextureCount
 break
 ;
 case
-gl
-:
-:
 ComponentAlphaPass1ProgramType
 :
 if
@@ -1119,9 +1086,6 @@ mTextureCount
 break
 ;
 case
-gl
-:
-:
 ComponentAlphaPass2ProgramType
 :
 if
@@ -1230,9 +1194,6 @@ mTextureCount
 break
 ;
 case
-gl
-:
-:
 Copy2DProgramType
 :
 NS_ASSERTION
@@ -1313,9 +1274,6 @@ mTextureCount
 break
 ;
 case
-gl
-:
-:
 Copy2DRectProgramType
 :
 NS_ASSERTION

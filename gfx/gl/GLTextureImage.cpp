@@ -670,7 +670,7 @@ FinishedSurfaceUpdate
 (
 )
 ;
-mShaderType
+mTextureFormat
 =
 mGLContext
 -
@@ -892,7 +892,7 @@ region
 aRegion
 ;
 }
-mShaderType
+mTextureFormat
 =
 mGLContext
 -
@@ -1479,7 +1479,7 @@ mCurrentImage
 =
 oldCurrentImage
 ;
-mShaderType
+mTextureFormat
 =
 mImages
 [
@@ -1487,7 +1487,7 @@ mImages
 ]
 -
 >
-GetShaderProgramType
+GetTextureFormat
 (
 )
 ;
@@ -2280,7 +2280,7 @@ mTextureState
 =
 Valid
 ;
-mShaderType
+mTextureFormat
 =
 mImages
 [
@@ -2288,7 +2288,7 @@ mCurrentImage
 ]
 -
 >
-GetShaderProgramType
+GetTextureFormat
 (
 )
 ;
@@ -2497,7 +2497,7 @@ mInUpdate
 =
 false
 ;
-mShaderType
+mTextureFormat
 =
 mImages
 [
@@ -2505,7 +2505,7 @@ mImages
 ]
 -
 >
-GetShaderProgramType
+GetTextureFormat
 (
 )
 ;

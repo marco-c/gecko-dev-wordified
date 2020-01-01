@@ -1991,7 +1991,7 @@ true
 aManager
 -
 >
-GetFBOLayerProgramType
+GetFBOTextureFormat
 (
 )
 )
