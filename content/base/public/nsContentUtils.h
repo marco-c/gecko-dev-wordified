@@ -400,7 +400,7 @@ class
 imgIContainer
 ;
 class
-imgINotificationObserver
+imgIDecoderObserver
 ;
 class
 imgIRequest
@@ -3952,7 +3952,7 @@ aLoadingPrincipal
 nsIURI
 *
 aReferrer
-imgINotificationObserver
+imgIDecoderObserver
 *
 aObserver
 int32_t

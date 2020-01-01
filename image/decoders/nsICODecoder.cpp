@@ -3050,7 +3050,7 @@ into
 the
 BMP
 decoder
-uint32_t
+int32_t
 bmpDataOffset
 =
 mDirEntry
@@ -3059,7 +3059,7 @@ mImageOffset
 +
 BITMAPINFOSIZE
 ;
-uint32_t
+int32_t
 bmpDataEnd
 =
 mDirEntry

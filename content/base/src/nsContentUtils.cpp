@@ -426,7 +426,7 @@ h
 #
 include
 "
-imgINotificationObserver
+imgIDecoderObserver
 .
 h
 "
@@ -15041,7 +15041,7 @@ aLoadingPrincipal
 nsIURI
 *
 aReferrer
-imgINotificationObserver
+imgIDecoderObserver
 *
 aObserver
 int32_t
@@ -15352,7 +15352,7 @@ loadgroup
 aObserver
 /
 *
-imgINotificationObserver
+imgIDecoderObserver
 *
 /
 aLoadingDocument

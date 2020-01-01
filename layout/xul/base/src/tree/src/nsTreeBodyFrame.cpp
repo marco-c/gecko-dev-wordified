@@ -12373,14 +12373,14 @@ invalidations
 .
 nsCOMPtr
 <
-imgINotificationObserver
+imgIDecoderObserver
 >
 obs
 ;
 imgReq
 -
 >
-GetNotificationObserver
+GetDecoderObserver
 (
 getter_AddRefs
 (
@@ -12488,9 +12488,9 @@ aCol
 ;
 nsCOMPtr
 <
-imgINotificationObserver
+imgIDecoderObserver
 >
-imgNotificationObserver
+imgDecoderObserver
 =
 listener
 ;
@@ -12510,7 +12510,7 @@ styleRequest
 >
 Clone
 (
-imgNotificationObserver
+imgDecoderObserver
 getter_AddRefs
 (
 imageRequest
@@ -12671,7 +12671,7 @@ doc
 GetDocumentURI
 (
 )
-imgNotificationObserver
+imgDecoderObserver
 nsIRequest
 :
 :
@@ -12758,7 +12758,7 @@ nsTreeImageCacheEntry
 cacheEntry
 (
 imageRequest
-imgNotificationObserver
+imgDecoderObserver
 )
 ;
 mImageCache

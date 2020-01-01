@@ -195,7 +195,7 @@ h
 #
 include
 "
-imgINotificationObserver
+imgIDecoderObserver
 .
 h
 "
@@ -252,7 +252,7 @@ nsTreeImageCacheEntry
 imgIRequest
 *
 aRequest
-imgINotificationObserver
+imgIDecoderObserver
 *
 aListener
 )
@@ -275,7 +275,7 @@ request
 ;
 nsCOMPtr
 <
-imgINotificationObserver
+imgIDecoderObserver
 >
 listener
 ;
