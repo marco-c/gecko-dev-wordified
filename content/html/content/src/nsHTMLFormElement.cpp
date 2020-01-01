@@ -4261,6 +4261,12 @@ nsEventChainPreVisitor
 aVisitor
 )
 {
+aVisitor
+.
+mWantsWillHandleEvent
+=
+PR_TRUE
+;
 if
 (
 aVisitor

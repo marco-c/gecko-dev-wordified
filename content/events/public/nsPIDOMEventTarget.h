@@ -773,7 +773,15 @@ aVisitor
 *
 *
 *
-Called
+If
+nsEventChainPreVisitor
+.
+mWantsWillHandleEvent
+is
+set
+PR_TRUE
+*
+called
 just
 before
 possible
