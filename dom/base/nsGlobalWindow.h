@@ -2676,6 +2676,11 @@ DOMWindowDumpEnabled
 (
 )
 ;
+void
+MaybeForgiveSpamCount
+(
+)
+;
 protected
 :
 /
@@ -2691,6 +2696,8 @@ nsGlobalWindow
 void
 CleanUp
 (
+PRBool
+aIgnoreModalDialog
 )
 ;
 void
@@ -4833,6 +4840,10 @@ nsCOMPtr
 nsIDocument
 >
 mSuspendedDoc
+;
+PRBool
+mCleanedUp
+mCallCleanUpAfterModalDialogCloses
 ;
 friend
 class
