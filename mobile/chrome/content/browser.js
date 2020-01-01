@@ -2780,6 +2780,8 @@ self
 =
 this
 ;
+/
+/
 dump
 (
 "
@@ -3042,6 +3044,8 @@ window
 )
 return
 ;
+/
+/
 dump
 (
 window
@@ -4391,6 +4395,8 @@ commitBatchOperation
 (
 )
 ;
+/
+/
 dump
 (
 "
@@ -5318,6 +5324,8 @@ visibleY
 +
 offY
 ;
+/
+/
 dump
 (
 '
@@ -5329,6 +5337,8 @@ to
 '
 +
 restoreX
+/
+/
 +
 '
 '
@@ -8656,6 +8666,8 @@ x
 y
 )
 {
+/
+/
 Util
 .
 dumpLn
@@ -9251,6 +9263,8 @@ selectedBrowser
 contentDocument
 )
 {
+/
+/
 Util
 .
 dumpLn
@@ -9270,6 +9284,8 @@ ownerDoc
 element
 .
 ownerDocument
+/
+/
 "
 selectedBrowser
 .
