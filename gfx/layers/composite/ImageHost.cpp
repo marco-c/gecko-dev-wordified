@@ -175,7 +175,7 @@ aCompositor
 ;
 }
 }
-bool
+void
 ImageHostSingle
 :
 :
@@ -230,7 +230,6 @@ type
 )
 {
 return
-false
 ;
 }
 mTextureHost
@@ -253,6 +252,18 @@ mTextureInfo
 mTextureFlags
 )
 ;
+NS_ASSERTION
+(
+mTextureHost
+"
+Failed
+to
+create
+texture
+host
+"
+)
+;
 Compositor
 *
 compositor
@@ -264,6 +275,9 @@ GetCompositor
 if
 (
 compositor
+&
+&
+mTextureHost
 )
 {
 mTextureHost
@@ -275,9 +289,6 @@ compositor
 )
 ;
 }
-return
-true
-;
 }
 void
 ImageHostSingle
@@ -873,7 +884,7 @@ IsValid
 )
 ;
 }
-bool
+void
 ImageHostBuffered
 :
 :
@@ -894,9 +905,6 @@ TextureInfo
 aTextureInfo
 )
 {
-bool
-result
-=
 ImageHostSingle
 :
 :
@@ -910,7 +918,7 @@ aTextureInfo
 ;
 if
 (
-result
+mTextureHost
 )
 {
 mTextureHost
@@ -929,9 +937,6 @@ aAllocator
 )
 ;
 }
-return
-result
-;
 }
 }
 }

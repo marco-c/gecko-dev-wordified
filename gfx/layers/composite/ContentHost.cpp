@@ -1253,7 +1253,7 @@ DestroyFrontHost
 )
 ;
 }
-bool
+void
 ContentHostSingleBuffered
 :
 :
@@ -1337,9 +1337,6 @@ compositor
 )
 ;
 }
-return
-true
-;
 }
 void
 ContentHostSingleBuffered
@@ -1721,7 +1718,7 @@ DestroyFrontHost
 )
 ;
 }
-bool
+void
 ContentHostDoubleBuffered
 :
 :
@@ -1814,7 +1811,6 @@ mNewFrontHost
 newHost
 ;
 return
-true
 ;
 }
 if
@@ -1842,7 +1838,6 @@ nsIntPoint
 )
 ;
 return
-true
 ;
 }
 NS_ERROR
@@ -1853,9 +1848,6 @@ texture
 identifier
 "
 )
-;
-return
-false
 ;
 }
 void

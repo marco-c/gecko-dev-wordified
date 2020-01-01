@@ -256,7 +256,7 @@ mCompositableType
 ;
 }
 virtual
-bool
+void
 EnsureTextureHost
 (
 TextureIdentifier
@@ -522,7 +522,7 @@ nullptr
 MOZ_OVERRIDE
 ;
 virtual
-bool
+void
 EnsureTextureHost
 (
 TextureIdentifier

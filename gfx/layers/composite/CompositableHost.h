@@ -743,7 +743,7 @@ texture
 *
 /
 virtual
-bool
+void
 EnsureTextureHost
 (
 TextureIdentifier
