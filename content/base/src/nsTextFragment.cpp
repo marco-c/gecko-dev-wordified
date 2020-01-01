@@ -1501,6 +1501,17 @@ shared
 string
 if
 (
+aLength
+<
+=
+1
++
+TEXTFRAG_WHITE_AFTER_NEWLINE
++
+TEXTFRAG_MAX_NEWLINES
+&
+&
+(
 firstChar
 =
 =
@@ -1524,6 +1535,7 @@ firstChar
 \
 t
 '
+)
 )
 {
 if
