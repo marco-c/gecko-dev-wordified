@@ -23710,7 +23710,7 @@ obj
 /
 /
 in
-xpcdebug
+XPCDebug
 .
 cpp
 extern
@@ -23796,15 +23796,6 @@ const
 char
 *
 text
-)
-;
-extern
-JSBool
-xpc_DumpJSObject
-(
-JSObject
-*
-obj
 )
 ;
 extern
