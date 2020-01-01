@@ -1969,8 +1969,10 @@ boundsCheck
 ;
 ins
 =
-new
 MCharCodeAt
+:
+:
+New
 (
 str
 indexOrCode
@@ -2008,8 +2010,10 @@ js_str_charAt
 {
 ins
 =
-new
 MFromCharCode
+:
+:
+New
 (
 indexOrCode
 )
