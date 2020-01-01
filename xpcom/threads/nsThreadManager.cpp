@@ -1582,14 +1582,6 @@ nsThread
 data
 )
 ;
-if
-(
-!
-mInitialized
-)
-return
-nsnull
-;
 /
 /
 OK
