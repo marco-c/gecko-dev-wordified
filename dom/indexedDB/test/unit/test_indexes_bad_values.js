@@ -54,17 +54,6 @@ nsIIDBDatabaseException
 CONSTRAINT_ERR
 ;
 const
-READ_WRITE
-=
-Components
-.
-interfaces
-.
-nsIIDBTransaction
-.
-READ_WRITE
-;
-const
 name
 =
 this

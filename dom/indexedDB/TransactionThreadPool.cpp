@@ -1563,7 +1563,7 @@ transaction
 mMode
 =
 =
-nsIIDBTransaction
+IDBTransaction
 :
 :
 READ_WRITE
@@ -1605,7 +1605,7 @@ transaction
 mMode
 =
 =
-nsIIDBTransaction
+IDBTransaction
 :
 :
 READ_ONLY
@@ -2057,7 +2057,7 @@ objectStoreNames
 mode
 =
 =
-nsIIDBTransaction
+IDBTransaction
 :
 :
 READ_WRITE
@@ -2086,7 +2086,7 @@ objectStoreNames
 mode
 =
 =
-nsIIDBTransaction
+IDBTransaction
 :
 :
 READ_ONLY
@@ -2112,7 +2112,7 @@ readOverlap
 mode
 =
 =
-nsIIDBTransaction
+IDBTransaction
 :
 :
 READ_WRITE
@@ -2456,7 +2456,7 @@ aTransaction
 mMode
 =
 =
-nsIIDBTransaction
+IDBTransaction
 :
 :
 READ_WRITE

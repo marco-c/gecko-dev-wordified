@@ -1113,9 +1113,9 @@ db
 transaction
 (
 osName
-IDBTransaction
-.
-READ_WRITE
+"
+readwrite
+"
 )
 .
 objectStore

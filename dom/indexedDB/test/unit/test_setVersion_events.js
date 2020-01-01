@@ -471,9 +471,9 @@ target
 transaction
 .
 mode
-IDBTransaction
-.
-VERSION_CHANGE
+"
+versionchange
+"
 "
 Correct
 mode
@@ -994,9 +994,9 @@ target
 transaction
 .
 mode
-IDBTransaction
-.
-VERSION_CHANGE
+"
+versionchange
+"
 "
 Correct
 mode

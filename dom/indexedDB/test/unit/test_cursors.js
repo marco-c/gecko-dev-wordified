@@ -1740,9 +1740,9 @@ objectStore
 openCursor
 (
 null
-IDBCursor
-.
-NEXT
+"
+next
+"
 )
 ;
 request
@@ -2029,9 +2029,9 @@ objectStore
 openCursor
 (
 null
-IDBCursor
-.
-PREV
+"
+prev
+"
 )
 ;
 request
