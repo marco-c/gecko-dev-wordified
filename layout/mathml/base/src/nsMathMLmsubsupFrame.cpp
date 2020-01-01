@@ -696,6 +696,7 @@ UpdatePresentationDataFromChildAt
 1
 -
 1
+1
 ~
 NS_MATHML_DISPLAYSTYLE
 NS_MATHML_DISPLAYSTYLE
@@ -705,6 +706,7 @@ UpdatePresentationDataFromChildAt
 (
 1
 1
+0
 NS_MATHML_COMPRESSED
 NS_MATHML_COMPRESSED
 )
@@ -1952,15 +1954,9 @@ presentationData
 ;
 if
 (
-aFrame
--
->
-GetStyleFont
-(
-)
--
->
-mScriptLevel
+presentationData
+.
+scriptLevel
 =
 =
 0

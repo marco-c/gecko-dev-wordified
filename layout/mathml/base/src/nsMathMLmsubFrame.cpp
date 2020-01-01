@@ -681,6 +681,7 @@ UpdatePresentationDataFromChildAt
 1
 -
 1
+1
 ~
 NS_MATHML_DISPLAYSTYLE
 |

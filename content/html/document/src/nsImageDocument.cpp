@@ -3184,7 +3184,7 @@ we
 might
 *
 call
-RebuildStyleData
+ClearStyleDataAndReflow
 .
 Also
 holding

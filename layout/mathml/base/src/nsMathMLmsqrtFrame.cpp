@@ -976,6 +976,7 @@ UpdatePresentationDataFromChildAt
 0
 -
 1
+0
 NS_MATHML_COMPRESSED
 NS_MATHML_COMPRESSED
 )

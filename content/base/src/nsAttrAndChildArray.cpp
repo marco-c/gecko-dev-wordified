@@ -459,7 +459,7 @@ h
 #
 include
 "
-nsMappedAttributeElement
+nsGenericHTMLElement
 .
 h
 "
@@ -3612,7 +3612,7 @@ aLocalName
 nsAttrValue
 &
 aValue
-nsMappedAttributeElement
+nsGenericHTMLElement
 *
 aContent
 nsHTMLStyleSheet
@@ -4085,7 +4085,7 @@ nsAttrAndChildArray
 :
 GetModifiableMapped
 (
-nsMappedAttributeElement
+nsGenericHTMLElement
 *
 aContent
 nsHTMLStyleSheet
