@@ -422,9 +422,9 @@ const
 WEAVE_SYNC_PREFS
 =
 "
-extensions
+services
 .
-weave
+sync
 .
 prefs
 .

@@ -565,9 +565,9 @@ debug
 true
 /
 /
-extensions
+services
 .
-weave
+sync
 .
 log
 .
@@ -693,9 +693,9 @@ prefs
 getBranch
 (
 "
-extensions
+services
 .
-weave
+sync
 .
 log
 .

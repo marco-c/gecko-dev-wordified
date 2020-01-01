@@ -547,9 +547,9 @@ html
 PREFS_BRANCH
 :
 "
-extensions
+services
 .
-weave
+sync
 .
 "
 /
