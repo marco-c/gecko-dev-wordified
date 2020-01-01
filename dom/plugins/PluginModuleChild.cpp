@@ -810,11 +810,6 @@ mLibrary
 (
 0
 )
-mPluginFilename
-(
-"
-"
-)
 mQuirks
 (
 QUIRKS_NOT_INITIALIZED
@@ -1147,12 +1142,14 @@ InitGraphics
 return
 false
 ;
-mPluginFilename
-=
+CopyUTF8toUTF16
+(
 aPluginFilename
 .
 c_str
 (
+)
+mPluginFilename
 )
 ;
 nsCOMPtr
@@ -1161,7 +1158,7 @@ nsILocalFile
 >
 pluginFile
 ;
-NS_NewNativeLocalFile
+NS_NewLocalFile
 (
 mPluginFilename
 PR_TRUE
@@ -9482,7 +9479,7 @@ audio
 /
 mpeg
 mimetype
-NS_NAMED_LITERAL_CSTRING
+NS_NAMED_LITERAL_STRING
 (
 quicktime
 "

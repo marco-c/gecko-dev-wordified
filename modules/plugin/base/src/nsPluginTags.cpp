@@ -1488,8 +1488,8 @@ char
 *
 aFileName
 const
-char
-*
+nsAString
+&
 aFullPath
 const
 char
@@ -2108,12 +2108,6 @@ decoder
 mFileName
 )
 ;
-ConvertToUTF8
-(
-decoder
-mFullPath
-)
-;
 }
 /
 /
@@ -2324,9 +2318,11 @@ nsACString
 aFullPath
 )
 {
-aFullPath
-=
+CopyUTF16toUTF8
+(
 mFullPath
+aFullPath
+)
 ;
 return
 NS_OK

@@ -1712,7 +1712,7 @@ PRLibrary
 *
 mLibrary
 ;
-nsCString
+nsString
 mPluginFilename
 ;
 nsCString

@@ -659,8 +659,8 @@ char
 *
 aFileName
 const
-char
-*
+nsAString
+&
 aFullPath
 const
 char
@@ -898,14 +898,9 @@ mFileName
 UTF
 -
 8
-nsCString
+nsString
 mFullPath
 ;
-/
-/
-UTF
--
-8
 nsCString
 mVersion
 ;
