@@ -736,15 +736,6 @@ nsAccelerometer
 .
 h
 "
-#
-include
-<
-android
-/
-log
-.
-h
->
 using
 namespace
 mozilla
