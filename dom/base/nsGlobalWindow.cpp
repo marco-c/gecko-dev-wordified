@@ -17185,6 +17185,11 @@ NS_ENSURE_STATE
 mDoc
 )
 ;
+NS_ENSURE_ARG_POINTER
+(
+aFile
+)
+;
 nsresult
 rv
 =
