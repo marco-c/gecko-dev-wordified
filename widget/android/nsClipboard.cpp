@@ -327,12 +327,6 @@ GetSingleton
 SendSetClipboardText
 (
 buffer
-aTransferable
--
->
-GetIsPrivateData
-(
-)
 aWhichClipboard
 )
 ;
