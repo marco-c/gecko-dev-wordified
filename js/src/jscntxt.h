@@ -10434,10 +10434,7 @@ message
 JSErrorReport
 *
 reportp
-JSBool
-*
-warningp
-JSBool
+bool
 charArgs
 va_list
 ap
