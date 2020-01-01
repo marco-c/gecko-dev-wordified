@@ -4000,6 +4000,7 @@ reset
 coord
 percent
 auto
+enum
 nsStyleCoord
 mMinWidth
 ;
@@ -4010,6 +4011,7 @@ reset
 ]
 coord
 percent
+enum
 nsStyleCoord
 mMaxWidth
 ;
@@ -4021,6 +4023,7 @@ reset
 coord
 percent
 null
+enum
 nsStyleCoord
 mHeight
 ;

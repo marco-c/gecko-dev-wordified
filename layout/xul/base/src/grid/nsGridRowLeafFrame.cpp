@@ -651,10 +651,6 @@ IsHorizontal
 nsBoxLayoutState
 state
 (
-(
-nsPresContext
-*
-)
 PresContext
 (
 )

@@ -1744,6 +1744,14 @@ SETCOORD_INHERIT
 )
 #
 define
+SETCOORD_LPAEH
+(
+SETCOORD_LPAH
+|
+SETCOORD_ENUMERATED
+)
+#
+define
 SETCOORD_LE
 (
 SETCOORD_LENGTH
@@ -24403,7 +24411,7 @@ parentPos
 -
 >
 mWidth
-SETCOORD_LPAH
+SETCOORD_LPAEH
 aContext
 mPresContext
 inherited
@@ -24422,7 +24430,7 @@ parentPos
 -
 >
 mMinWidth
-SETCOORD_LPH
+SETCOORD_LPEH
 aContext
 mPresContext
 inherited
@@ -24444,7 +24452,7 @@ parentPos
 -
 >
 mMaxWidth
-SETCOORD_LPH
+SETCOORD_LPEH
 aContext
 mPresContext
 inherited
