@@ -546,9 +546,6 @@ InitAlertAsync
 aImageUrl
 aAlertTitle
 aAlertText
-aAlertTextClickable
-aAlertCookie
-aAlertListener
 )
 ;
 }
