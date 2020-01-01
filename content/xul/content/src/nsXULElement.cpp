@@ -3223,6 +3223,9 @@ nsXULElement
 :
 GetEventListenerManagerForAttr
 (
+nsIAtom
+*
+aAttrName
 PRBool
 *
 aDefer
@@ -3372,6 +3375,7 @@ nsStyledElement
 :
 GetEventListenerManagerForAttr
 (
+aAttrName
 aDefer
 )
 ;
