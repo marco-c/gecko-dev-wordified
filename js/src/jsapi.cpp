@@ -8350,6 +8350,16 @@ prototype
 .
 *
 /
+if
+(
+!
+fun_proto
+-
+>
+getProto
+(
+)
+)
 fun_proto
 -
 >
