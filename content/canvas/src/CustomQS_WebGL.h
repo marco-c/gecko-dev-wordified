@@ -807,10 +807,7 @@ vp
 int32
 target
 ;
-js
-:
-:
-TypedArray
+JSObject
 *
 wa
 =
@@ -942,7 +939,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 arg2
 )
@@ -1201,10 +1198,7 @@ target
 int32
 offset
 ;
-js
-:
-:
-TypedArray
+JSObject
 *
 wa
 =
@@ -1342,7 +1336,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 arg3
 )
@@ -1715,7 +1709,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 argv6
 )
@@ -2291,7 +2285,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 obj_data
 )
@@ -2498,7 +2492,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 argv8
 )
@@ -3076,7 +3070,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 obj_data
 )
@@ -3235,7 +3229,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 argv8
 )
@@ -3511,10 +3505,7 @@ obj_tvr
 cx
 )
 ;
-js
-:
-:
-TypedArray
+JSObject
 *
 wa
 =
@@ -3536,7 +3527,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 arg1
 )
@@ -3614,7 +3605,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 nobj
 )
@@ -3959,10 +3950,7 @@ obj_tvr
 cx
 )
 ;
-js
-:
-:
-TypedArray
+JSObject
 *
 wa
 =
@@ -3984,7 +3972,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 arg1
 )
@@ -4062,7 +4050,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 nobj
 )
@@ -4425,10 +4413,7 @@ obj_tvr
 cx
 )
 ;
-js
-:
-:
-TypedArray
+JSObject
 *
 wa
 =
@@ -4450,7 +4435,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 arg2
 )
@@ -4528,7 +4513,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 nobj
 )
@@ -4817,10 +4802,7 @@ obj_tvr
 cx
 )
 ;
-js
-:
-:
-TypedArray
+JSObject
 *
 wa
 =
@@ -4842,7 +4824,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 arg1
 )
@@ -4920,7 +4902,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 nobj
 )
@@ -5578,10 +5560,7 @@ cx
 return
 ;
 }
-js
-:
-:
-TypedArray
+JSObject
 *
 wa
 =
@@ -5603,7 +5582,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 arg
 )
@@ -5685,7 +5664,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 nobj
 )
@@ -5991,10 +5970,7 @@ cx
 return
 ;
 }
-js
-:
-:
-TypedArray
+JSObject
 *
 wa
 =
@@ -6016,7 +5992,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 arg
 )
@@ -6098,7 +6074,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 nobj
 )
@@ -6408,10 +6384,7 @@ cx
 return
 ;
 }
-js
-:
-:
-TypedArray
+JSObject
 *
 wa
 =
@@ -6433,7 +6406,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 arg
 )
@@ -6515,7 +6488,7 @@ js
 TypedArray
 :
 :
-fromJSObject
+getTypedArray
 (
 nobj
 )
