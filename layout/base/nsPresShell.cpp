@@ -16404,6 +16404,13 @@ it
 later
 )
 ?
+mDirtyRoots
+.
+RemoveElement
+(
+rootFrame
+)
+;
 DoReflow
 (
 rootFrame
