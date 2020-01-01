@@ -999,6 +999,11 @@ aConfigurations
 )
 ;
 }
+void
+DidSetWidgetGeometry
+(
+)
+;
 /
 /
 accessibility
