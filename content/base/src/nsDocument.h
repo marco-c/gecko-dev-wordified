@@ -911,6 +911,13 @@ h
 #
 include
 "
+nsIDOMXPathNSResolver
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestor
 .
 h
@@ -3315,6 +3322,8 @@ public
 nsIDOMNodeSelector
 public
 nsIApplicationCacheContainer
+public
+nsIDOMXPathNSResolver
 public
 nsStubMutationObserver
 {
