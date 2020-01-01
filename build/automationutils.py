@@ -1207,6 +1207,8 @@ them
 now
   
 if
+symbolsPath
+and
 isURL
 (
 symbolsPath
