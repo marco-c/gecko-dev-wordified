@@ -6125,9 +6125,6 @@ JSAtomListElement
 *
 ale
 ;
-uint32
-count
-;
 /
 *
 Map
@@ -6200,13 +6197,6 @@ vector
 return
 ;
 }
-count
-=
-al
--
->
-count
-;
 vector
 =
 map
