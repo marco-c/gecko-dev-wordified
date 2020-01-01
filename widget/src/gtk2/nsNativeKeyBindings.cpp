@@ -1597,10 +1597,7 @@ end
 .
 g_signal_connect
 (
-G_OBJECT
-(
 mNativeTarget
-)
 "
 select_all
 "
@@ -1622,10 +1619,7 @@ mNativeTarget
 ;
 g_signal_connect
 (
-G_OBJECT
-(
 mNativeTarget
-)
 "
 copy_clipboard
 "
@@ -1638,10 +1632,7 @@ this
 ;
 g_signal_connect
 (
-G_OBJECT
-(
 mNativeTarget
-)
 "
 cut_clipboard
 "
@@ -1654,10 +1645,7 @@ this
 ;
 g_signal_connect
 (
-G_OBJECT
-(
 mNativeTarget
-)
 "
 delete_from_cursor
 "
@@ -1670,10 +1658,7 @@ this
 ;
 g_signal_connect
 (
-G_OBJECT
-(
 mNativeTarget
-)
 "
 move_cursor
 "
@@ -1686,10 +1671,7 @@ this
 ;
 g_signal_connect
 (
-G_OBJECT
-(
 mNativeTarget
-)
 "
 paste_clipboard
 "

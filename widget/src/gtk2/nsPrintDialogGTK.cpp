@@ -2182,10 +2182,7 @@ PR_TRUE
 ;
 g_object_set
 (
-G_OBJECT
-(
 dialog
-)
 "
 support
 -

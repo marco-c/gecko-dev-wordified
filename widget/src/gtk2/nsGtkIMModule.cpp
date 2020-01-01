@@ -1414,10 +1414,7 @@ nsnull
 ;
 g_object_unref
 (
-G_OBJECT
-(
 mContext
-)
 )
 ;
 mContext
@@ -1441,10 +1438,7 @@ nsnull
 ;
 g_object_unref
 (
-G_OBJECT
-(
 mSimpleContext
-)
 )
 ;
 mSimpleContext
@@ -1490,10 +1484,7 @@ nsnull
 ;
 g_object_unref
 (
-G_OBJECT
-(
 mDummyContext
-)
 )
 ;
 mDummyContext
@@ -3657,10 +3648,7 @@ mode
 ;
 g_object_get
 (
-G_OBJECT
-(
 im
-)
 "
 hildon
 -
@@ -3755,10 +3743,7 @@ HILDON_GTK_INPUT_MODE_DICTIONARY
 ;
 g_object_set
 (
-G_OBJECT
-(
 im
-)
 "
 hildon
 -
