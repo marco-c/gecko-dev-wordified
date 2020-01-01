@@ -3387,10 +3387,8 @@ global
 observers
 nsTObserverArray
 <
-nsCOMPtr
-<
 nsICSSLoaderObserver
->
+*
 >
 mObservers
 ;
