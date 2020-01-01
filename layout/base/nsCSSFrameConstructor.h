@@ -8905,7 +8905,7 @@ aFrameItems
 .
 *
 /
-nsresult
+void
 ConstructFramesFromItemList
 (
 nsFrameConstructorState
