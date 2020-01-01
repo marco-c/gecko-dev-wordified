@@ -406,6 +406,22 @@ offset
 ]
     
 def
+endloc
+(
+self
+)
+:
+        
+return
+self
+.
+startloc
++
+self
+.
+data
+    
+def
 skipwhitespace
 (
 self
@@ -4110,6 +4126,20 @@ token
 targetexp
 =
 None
+source
+=
+data
+.
+Variables
+.
+SOURCE_MAKEFILE
+endloc
+=
+d
+.
+endloc
+(
+)
 )
 )
                 
@@ -4325,6 +4355,13 @@ data
 Variables
 .
 SOURCE_OVERRIDE
+endloc
+=
+d
+.
+endloc
+(
+)
 )
 )
                 
@@ -4457,6 +4494,20 @@ token
 targetexp
 =
 None
+source
+=
+data
+.
+Variables
+.
+SOURCE_MAKEFILE
+endloc
+=
+d
+.
+endloc
+(
+)
 )
 )
                 
@@ -4663,6 +4714,20 @@ token
 targetexp
 =
 None
+source
+=
+data
+.
+Variables
+.
+SOURCE_MAKEFILE
+endloc
+=
+d
+.
+endloc
+(
+)
 )
 )
             
@@ -4922,6 +4987,20 @@ token
 targetexp
 =
 targets
+source
+=
+data
+.
+Variables
+.
+SOURCE_MAKEFILE
+endloc
+=
+d
+.
+endloc
+(
+)
 )
 )
                 
