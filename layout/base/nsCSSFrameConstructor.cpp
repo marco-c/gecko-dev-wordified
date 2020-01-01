@@ -39913,6 +39913,7 @@ inRun
 ContentAppended
 (
 aContent
+firstChildInRun
 startOfRun
 PR_FALSE
 )
@@ -40882,6 +40883,9 @@ ContentAppended
 nsIContent
 *
 aContainer
+nsIContent
+*
+aFirstNewContent
 PRInt32
 aNewIndexInContainer
 PRBool

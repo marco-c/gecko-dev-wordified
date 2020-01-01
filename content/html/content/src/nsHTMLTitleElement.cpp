@@ -780,6 +780,9 @@ aDocument
 nsIContent
 *
 aContainer
+nsIContent
+*
+aFirstNewContent
 PRInt32
 aNewIndexInContainer
 )

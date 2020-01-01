@@ -466,6 +466,13 @@ nsNodeUtils
 ContentAppended
 (
 mParent
+mParent
+-
+>
+GetChildAt
+(
+mChildCount
+)
 mChildCount
 )
 ;

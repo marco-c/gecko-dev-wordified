@@ -748,6 +748,12 @@ were
 added
 *
 param
+aFirstNewContent
+First
+new
+child
+*
+param
 aNewIndexInContainer
 Index
 of
@@ -769,6 +775,9 @@ ContentAppended
 nsIContent
 *
 aContainer
+nsIContent
+*
+aFirstNewContent
 PRInt32
 aNewIndexInContainer
 )

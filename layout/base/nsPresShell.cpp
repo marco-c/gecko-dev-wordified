@@ -28565,6 +28565,9 @@ aDocument
 nsIContent
 *
 aContainer
+nsIContent
+*
+aFirstNewContent
 PRInt32
 aNewIndexInContainer
 )
@@ -28664,6 +28667,7 @@ mFrameConstructor
 ContentAppended
 (
 aContainer
+aFirstNewContent
 aNewIndexInContainer
 PR_TRUE
 )
