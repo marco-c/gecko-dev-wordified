@@ -1751,11 +1751,8 @@ aString
 ;
 }
 void
-AppendUnicharFrame
+AppendControlChar
 (
-nsIFrame
-*
-aFrame
 PRUnichar
 aCh
 )
@@ -1764,7 +1761,7 @@ mLogicalFrames
 .
 AppendElement
 (
-aFrame
+NS_BIDI_CONTROL_FRAME
 )
 ;
 mLinePerFrame
@@ -1791,9 +1788,8 @@ PRUnichar
 aCh
 )
 {
-AppendUnicharFrame
+AppendControlChar
 (
-NS_BIDI_CONTROL_FRAME
 aCh
 )
 ;
@@ -1810,9 +1806,8 @@ PopBidiControl
 (
 )
 {
-AppendUnicharFrame
+AppendControlChar
 (
-NS_BIDI_CONTROL_FRAME
 kPDF
 )
 ;
@@ -1870,9 +1865,8 @@ Length
 i
 )
 {
-AppendUnicharFrame
+AppendControlChar
 (
-NS_BIDI_CONTROL_FRAME
 kPDF
 )
 ;
@@ -7170,9 +7164,8 @@ paragraph
 aContainingParagraph
 -
 >
-AppendUnicharFrame
+AppendControlChar
 (
-NS_BIDI_CONTROL_FRAME
 kObjectSubstitute
 )
 ;
