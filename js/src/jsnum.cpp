@@ -7325,12 +7325,11 @@ Int32Value
 if
 (
 !
-JS_DefineFunctionsWithPrefix
+JS_DefineFunctions
 (
 cx
 obj
 number_functions
-js_Number_str
 )
 )
 return

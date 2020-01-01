@@ -6874,7 +6874,7 @@ JSRESOLVE_DECLARING
 if
 (
 !
-DefineNativePropertyWithType
+DefineNativeProperty
 (
 cx
 proto
@@ -6892,7 +6892,7 @@ StrictPropertyStub
 |
 |
 !
-DefineNativePropertyWithType
+DefineNativeProperty
 (
 cx
 proto
@@ -6907,7 +6907,7 @@ StrictPropertyStub
 |
 |
 !
-DefineNativePropertyWithType
+DefineNativeProperty
 (
 cx
 proto
@@ -6922,7 +6922,7 @@ JSPROP_ENUMERATE
 |
 |
 !
-DefineNativePropertyWithType
+DefineNativeProperty
 (
 cx
 proto

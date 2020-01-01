@@ -18573,14 +18573,11 @@ NULL
 if
 (
 !
-JS_DefineFunctionsWithPrefix
+JS_DefineFunctions
 (
 cx
 Reflect
 static_methods
-"
-Reflect
-"
 )
 )
 return

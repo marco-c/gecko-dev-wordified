@@ -5530,12 +5530,11 @@ NULL
 if
 (
 !
-JS_DefineFunctionsWithPrefix
+JS_DefineFunctions
 (
 cx
 Math
 math_static_methods
-js_Math_str
 )
 )
 return

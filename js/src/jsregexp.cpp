@@ -2770,7 +2770,6 @@ input
 REGEXP_STATIC_PROP_ATTRS
 static_input_getter
 static_input_setter
-JS_TypeHandlerString
 }
 {
 "
@@ -2780,7 +2779,6 @@ multiline
 REGEXP_STATIC_PROP_ATTRS
 static_multiline_getter
 static_multiline_setter
-JS_TypeHandlerBool
 }
 {
 "
@@ -2790,7 +2788,6 @@ lastMatch
 RO_REGEXP_STATIC_PROP_ATTRS
 static_lastMatch_getter
 NULL
-JS_TypeHandlerString
 }
 {
 "
@@ -2800,7 +2797,6 @@ lastParen
 RO_REGEXP_STATIC_PROP_ATTRS
 static_lastParen_getter
 NULL
-JS_TypeHandlerString
 }
 {
 "
@@ -2810,7 +2806,6 @@ leftContext
 RO_REGEXP_STATIC_PROP_ATTRS
 static_leftContext_getter
 NULL
-JS_TypeHandlerString
 }
 {
 "
@@ -2820,7 +2815,6 @@ rightContext
 RO_REGEXP_STATIC_PROP_ATTRS
 static_rightContext_getter
 NULL
-JS_TypeHandlerString
 }
 {
 "
@@ -2830,7 +2824,6 @@ JS_TypeHandlerString
 RO_REGEXP_STATIC_PROP_ATTRS
 static_paren1_getter
 NULL
-JS_TypeHandlerString
 }
 {
 "
@@ -2840,7 +2833,6 @@ JS_TypeHandlerString
 RO_REGEXP_STATIC_PROP_ATTRS
 static_paren2_getter
 NULL
-JS_TypeHandlerString
 }
 {
 "
@@ -2850,7 +2842,6 @@ JS_TypeHandlerString
 RO_REGEXP_STATIC_PROP_ATTRS
 static_paren3_getter
 NULL
-JS_TypeHandlerString
 }
 {
 "
@@ -2860,7 +2851,6 @@ JS_TypeHandlerString
 RO_REGEXP_STATIC_PROP_ATTRS
 static_paren4_getter
 NULL
-JS_TypeHandlerString
 }
 {
 "
@@ -2870,7 +2860,6 @@ JS_TypeHandlerString
 RO_REGEXP_STATIC_PROP_ATTRS
 static_paren5_getter
 NULL
-JS_TypeHandlerString
 }
 {
 "
@@ -2880,7 +2869,6 @@ JS_TypeHandlerString
 RO_REGEXP_STATIC_PROP_ATTRS
 static_paren6_getter
 NULL
-JS_TypeHandlerString
 }
 {
 "
@@ -2890,7 +2878,6 @@ JS_TypeHandlerString
 RO_REGEXP_STATIC_PROP_ATTRS
 static_paren7_getter
 NULL
-JS_TypeHandlerString
 }
 {
 "
@@ -2900,7 +2887,6 @@ JS_TypeHandlerString
 RO_REGEXP_STATIC_PROP_ATTRS
 static_paren8_getter
 NULL
-JS_TypeHandlerString
 }
 {
 "
@@ -2910,7 +2896,6 @@ JS_TypeHandlerString
 RO_REGEXP_STATIC_PROP_ATTRS
 static_paren9_getter
 NULL
-JS_TypeHandlerString
 }
 {
 0
@@ -5988,14 +5973,11 @@ code
 if
 (
 !
-JS_DefineFunctionsWithPrefix
+JS_DefineFunctions
 (
 cx
 proto
 regexp_methods
-"
-RegExp
-"
 )
 )
 return
@@ -6336,6 +6318,19 @@ FINALIZE_OBJECT0
 return
 NULL
 ;
+/
+*
+Capture
+properties
+added
+individually
+to
+each
+RegExp
+object
+.
+*
+/
 cx
 -
 >
