@@ -627,7 +627,7 @@ RequestHeaderTuples
 &
 requestHeaders
 const
-nsCString
+nsHttpAtom
 &
 requestMethod
 const

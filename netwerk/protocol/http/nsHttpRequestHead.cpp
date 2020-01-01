@@ -625,9 +625,10 @@ buf
 .
 Append
 (
-nsAtomCString
-(
 mMethod
+.
+get
+(
 )
 )
 ;

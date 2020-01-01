@@ -669,8 +669,7 @@ nsHttpRequestHead
 void
 SetMethod
 (
-nsIAtom
-*
+nsHttpAtom
 method
 )
 {
@@ -715,8 +714,7 @@ return
 mHeaders
 ;
 }
-nsIAtom
-*
+nsHttpAtom
 Method
 (
 )
@@ -896,10 +894,7 @@ private
 nsHttpHeaderArray
 mHeaders
 ;
-nsCOMPtr
-<
-nsIAtom
->
+nsHttpAtom
 mMethod
 ;
 nsHttpVersion
