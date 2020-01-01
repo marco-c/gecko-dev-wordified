@@ -1729,8 +1729,8 @@ primaryExpr
 (
 TokenKind
 tt
-JSBool
-afterDot
+bool
+afterDoubleDot
 )
 ;
 ParseNode
@@ -1892,7 +1892,7 @@ ParseNode
 identifierName
 (
 bool
-afterDot
+afterDoubleDot
 )
 ;
 #
