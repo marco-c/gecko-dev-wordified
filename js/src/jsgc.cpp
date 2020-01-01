@@ -18942,13 +18942,6 @@ gcDoubleArenaList
 .
 head
 ;
-TIMESTAMP
-(
-gcTimer
-.
-sweepDoubleEnd
-)
-;
 }
 /
 *
@@ -20084,6 +20077,13 @@ SweepDoubles
 rt
 &
 arenaReleaser
+)
+;
+TIMESTAMP
+(
+gcTimer
+.
+sweepDoubleEnd
 )
 ;
 /
