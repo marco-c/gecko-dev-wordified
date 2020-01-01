@@ -1500,6 +1500,15 @@ if
 !
 this
 .
+enabled
+)
+return
+;
+if
+(
+!
+this
+.
 _sync
 )
 throw
