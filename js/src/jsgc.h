@@ -8630,7 +8630,10 @@ rt
 )
 ;
 extern
+JS_FRIEND_API
+(
 void
+)
 PrepareForFullGC
 (
 JSRuntime
