@@ -899,8 +899,6 @@ newWin2
 .
 gBrowser
 .
-selectedBrowser
-.
 currentURI
 .
 spec
