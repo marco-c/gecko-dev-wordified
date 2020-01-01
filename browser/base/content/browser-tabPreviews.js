@@ -4310,13 +4310,16 @@ matches
 =
 tabstring
 .
-contains
+indexOf
 (
 filter
 [
 i
 ]
 )
+>
+-
+1
 ;
 }
 if
