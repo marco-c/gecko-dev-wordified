@@ -298,13 +298,6 @@ AllocateBuffer
 (
 )
 ;
-JSContext
-*
-GetJSContext
-(
-)
-const
-;
 bool
 FinalizeBufferData
 (

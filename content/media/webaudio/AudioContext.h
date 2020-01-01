@@ -629,6 +629,13 @@ UpdatePannerSource
 (
 )
 ;
+JSContext
+*
+GetJSContext
+(
+)
+const
+;
 private
 :
 void
