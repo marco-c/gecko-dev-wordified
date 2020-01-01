@@ -8110,7 +8110,7 @@ false
 ;
 /
 /
-Disable
+Enable
 the
 dynamic
 toolbar
@@ -8123,7 +8123,7 @@ chrome
 .
 dynamictoolbar
 "
-false
+true
 )
 ;
 #
