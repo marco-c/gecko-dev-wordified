@@ -1552,10 +1552,14 @@ self
             
 self
 .
-write
+println
 (
-'
-'
+)
+            
+self
+.
+printdent
+(
 )
         
 if
