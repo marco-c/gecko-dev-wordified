@@ -8423,6 +8423,14 @@ vp
 struct
 JSJitInfo
 {
+enum
+OpType
+{
+Getter
+Setter
+Method
+}
+;
 JSJitPropertyOp
 op
 ;
@@ -8431,6 +8439,9 @@ protoID
 ;
 uint32_t
 depth
+;
+OpType
+type
 ;
 bool
 isInfallible
