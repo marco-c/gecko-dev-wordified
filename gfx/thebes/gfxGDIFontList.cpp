@@ -4064,7 +4064,7 @@ aliasName
 ;
 lenAlias
 =
-sizeof
+NS_ARRAY_LENGTH
 (
 aliasName
 )
