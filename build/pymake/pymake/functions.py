@@ -5436,10 +5436,6 @@ cline
 )
 )
         
-if
-msys
-:
-            
 cline
 =
 [
@@ -5465,8 +5461,7 @@ makefile
 env
 shell
 =
-not
-msys
+False
                              
 stdout
 =
