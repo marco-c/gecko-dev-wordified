@@ -1074,8 +1074,8 @@ getElementById
 test
 "
 )
-0
-0
+5
+5
 {
 }
 gTestBrowser
