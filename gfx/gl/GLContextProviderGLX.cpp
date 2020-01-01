@@ -2202,12 +2202,11 @@ if
 mDebug
 )
 {
-XSync
+FinishX
 (
 DefaultXDisplay
 (
 )
-False
 )
 ;
 if

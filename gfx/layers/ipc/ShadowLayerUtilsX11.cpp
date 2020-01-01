@@ -1134,12 +1134,11 @@ old
 front
 buffers
 .
-XSync
+FinishX
 (
 DefaultXDisplay
 (
 )
-False
 )
 ;
 }

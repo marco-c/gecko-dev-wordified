@@ -13,7 +13,7 @@ tab
 -
 width
 :
-2
+4
 ;
 indent
 -
@@ -29,7 +29,7 @@ basic
 -
 offset
 :
-2
+4
 -
 *
 -
@@ -303,12 +303,14 @@ if
 mImage
 )
 {
-XSync
+mozilla
+:
+:
+FinishX
 (
 DISPLAY
 (
 )
-False
 )
 ;
 if
