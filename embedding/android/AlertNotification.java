@@ -903,6 +903,8 @@ flags
 |
 =
 FLAG_ONGOING_EVENT
+|
+FLAG_ONLY_ALERT_ONCE
 ;
 mProgressStyle
 =
