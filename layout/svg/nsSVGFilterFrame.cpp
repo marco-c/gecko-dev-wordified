@@ -163,7 +163,11 @@ h
 #
 include
 "
-nsSVGFilterElement
+mozilla
+/
+dom
+/
+SVGFilterElement
 .
 h
 "
@@ -202,6 +206,13 @@ nsContentUtils
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 nsIFrame
 *
 NS_NewSVGFilterFrame
@@ -940,7 +951,7 @@ aOverrideBBox
 )
 {
 const
-nsSVGFilterElement
+SVGFilterElement
 *
 filter
 =
@@ -959,7 +970,7 @@ aFilterFrame
 >
 GetEnumValue
 (
-nsSVGFilterElement
+SVGFilterElement
 :
 :
 FILTERUNITS
@@ -973,7 +984,7 @@ aFilterFrame
 >
 GetEnumValue
 (
-nsSVGFilterElement
+SVGFilterElement
 :
 :
 PRIMITIVEUNITS
@@ -1216,7 +1227,7 @@ aFilterFrame
 >
 GetLengthValue
 (
-nsSVGFilterElement
+SVGFilterElement
 :
 :
 X
@@ -1233,7 +1244,7 @@ aFilterFrame
 >
 GetLengthValue
 (
-nsSVGFilterElement
+SVGFilterElement
 :
 :
 Y
@@ -1250,7 +1261,7 @@ aFilterFrame
 >
 GetLengthValue
 (
-nsSVGFilterElement
+SVGFilterElement
 :
 :
 WIDTH
@@ -1267,7 +1278,7 @@ aFilterFrame
 >
 GetLengthValue
 (
-nsSVGFilterElement
+SVGFilterElement
 :
 :
 HEIGHT
@@ -1418,7 +1429,7 @@ aFilterFrame
 >
 GetIntegerPairValue
 (
-nsSVGFilterElement
+SVGFilterElement
 :
 :
 FILTERRES
@@ -1987,7 +1998,7 @@ thisEnum
 =
 static_cast
 <
-nsSVGFilterElement
+SVGFilterElement
 *
 >
 (
@@ -2043,7 +2054,7 @@ aDefault
 :
 static_cast
 <
-nsSVGFilterElement
+SVGFilterElement
 *
 >
 (
@@ -2084,7 +2095,7 @@ thisIntegerPair
 &
 static_cast
 <
-nsSVGFilterElement
+SVGFilterElement
 *
 >
 (
@@ -2138,7 +2149,7 @@ aDefault
 &
 static_cast
 <
-nsSVGFilterElement
+SVGFilterElement
 *
 >
 (
@@ -2175,7 +2186,7 @@ thisLength
 &
 static_cast
 <
-nsSVGFilterElement
+SVGFilterElement
 *
 >
 (
@@ -2229,7 +2240,7 @@ aDefault
 &
 static_cast
 <
-nsSVGFilterElement
+SVGFilterElement
 *
 >
 (
@@ -2244,7 +2255,7 @@ aIndex
 ;
 }
 const
-nsSVGFilterElement
+SVGFilterElement
 *
 nsSVGFilterFrame
 :
@@ -2309,7 +2320,7 @@ primitive
 return
 static_cast
 <
-nsSVGFilterElement
+SVGFilterElement
 *
 >
 (
@@ -2345,7 +2356,7 @@ aDefault
 :
 static_cast
 <
-nsSVGFilterElement
+SVGFilterElement
 *
 >
 (
@@ -2412,13 +2423,13 @@ xlink
 :
 href
 attribute
-nsSVGFilterElement
+SVGFilterElement
 *
 filter
 =
 static_cast
 <
-nsSVGFilterElement
+SVGFilterElement
 *
 >
 (
@@ -2433,7 +2444,7 @@ filter
 >
 mStringAttributes
 [
-nsSVGFilterElement
+SVGFilterElement
 :
 :
 HREF

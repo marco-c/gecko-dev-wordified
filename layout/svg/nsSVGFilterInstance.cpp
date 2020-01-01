@@ -156,7 +156,11 @@ h
 #
 include
 "
-nsSVGFilterElement
+mozilla
+/
+dom
+/
+SVGFilterElement
 .
 h
 "
