@@ -178,6 +178,12 @@ defined
 (
 __OpenBSD__
 )
+|
+|
+defined
+(
+__DragonFly__
+)
 #
 include
 <
