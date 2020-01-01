@@ -514,6 +514,8 @@ sizeof
 INTERNET_PER_CONN_OPTION_LISTW
 )
 ;
+__try
+{
 if
 (
 !
@@ -526,6 +528,16 @@ list
 &
 size
 )
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
+}
+__except
+(
+EXCEPTION_EXECUTE_HANDLER
 )
 {
 return
