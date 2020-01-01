@@ -2141,6 +2141,13 @@ jsop_setelem_dense
 )
 ;
 bool
+jsop_setelem_typed
+(
+int
+arrayType
+)
+;
+bool
 jsop_length
 (
 )

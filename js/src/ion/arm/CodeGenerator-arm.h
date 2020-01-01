@@ -711,6 +711,14 @@ LSnapshot
 snapshot
 )
 ;
+bool
+bailout
+(
+LSnapshot
+*
+snapshot
+)
+;
 protected
 :
 bool
