@@ -1648,6 +1648,14 @@ mAccountListener
 null
 ;
 }
+if
+(
+mTopSitesAdapter
+!
+=
+null
+)
+{
 Cursor
 cursor
 =
@@ -1678,6 +1686,7 @@ close
 (
 )
 ;
+}
 }
 void
 setLastTabsVisibility
