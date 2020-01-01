@@ -16250,6 +16250,9 @@ Run
 if
 (
 mElement
+&
+&
+mElement
 -
 >
 GetOwnerDoc

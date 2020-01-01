@@ -2501,6 +2501,9 @@ mDidDeleteSelection
 PRPackedBool
 mDidRangedDelete
 ;
+PRPackedBool
+mRestoreContentEditableCount
+;
 nsCOMPtr
 <
 nsIDOMRange
