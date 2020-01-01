@@ -505,11 +505,9 @@ ok
 !
 InspectorUI
 .
-treePanel
+currentInspector
 .
-isOpen
-(
-)
+_markupOpen
 "
 Inspector
 Tree
@@ -613,8 +611,6 @@ InspectorUI
 isInspectorOpen
 "
 Inspector
-Tree
-Panel
 is
 not
 open
