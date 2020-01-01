@@ -501,8 +501,8 @@ resource
 /
 /
 gre
-/
-res
+-
+resources
 /
 viewsource
 .
