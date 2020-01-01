@@ -1070,7 +1070,6 @@ nsGenericElement
 *
 aDest
 )
-const
 ;
 /
 *
@@ -6250,7 +6249,6 @@ nsGenericElement
 *
 aDest
 )
-const
 {
 nsresult
 rv

@@ -2152,7 +2152,6 @@ nsGenericElement
 *
 aDest
 )
-const
 {
 nsresult
 rv

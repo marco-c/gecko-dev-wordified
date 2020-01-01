@@ -542,7 +542,6 @@ nsGenericElement
 *
 aDest
 )
-const
 ;
 void
 MaybeLoadImage

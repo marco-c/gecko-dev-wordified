@@ -349,7 +349,6 @@ nsGenericElement
 *
 aDest
 )
-const
 ;
 void
 MaybeLoadSVGImage

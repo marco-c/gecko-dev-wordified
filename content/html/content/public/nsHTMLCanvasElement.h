@@ -681,7 +681,6 @@ nsGenericElement
 *
 aDest
 )
-const
 ;
 /
 *

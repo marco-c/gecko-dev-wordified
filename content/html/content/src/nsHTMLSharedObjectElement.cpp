@@ -631,7 +631,6 @@ nsGenericElement
 *
 aDest
 )
-const
 ;
 void
 StartObjectLoad
@@ -2466,7 +2465,6 @@ nsGenericElement
 *
 aDest
 )
-const
 {
 nsresult
 rv

@@ -848,6 +848,16 @@ it
 nsresult
 rv
 =
+const_cast
+<
+nsHTMLScriptElement
+*
+>
+(
+this
+)
+-
+>
 CopyInnerTo
 (
 it
