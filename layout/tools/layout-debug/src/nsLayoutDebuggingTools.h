@@ -472,13 +472,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-nsIPrefBranch
-.
-h
-"
 class
 nsLayoutDebuggingTools
 :
@@ -534,12 +527,6 @@ nsCOMPtr
 nsIDocShell
 >
 mDocShell
-;
-nsCOMPtr
-<
-nsIPrefBranch
->
-mPrefs
 ;
 PRBool
 mEditorMode
