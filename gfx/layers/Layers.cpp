@@ -5291,6 +5291,8 @@ GetFrameMetrics
 )
 mPreXScale
 mPreYScale
+mInheritedXScale
+mInheritedYScale
 )
 ;
 }
