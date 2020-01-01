@@ -2303,11 +2303,6 @@ aResult
 )
 ;
 void
-UpdateValuesArray
-(
-)
-;
-void
 CheckKeyTimes
 (
 PRUint32
