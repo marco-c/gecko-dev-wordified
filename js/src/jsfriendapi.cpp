@@ -1147,7 +1147,10 @@ compartment
 oldCompartment
 ;
 }
+JS_FRIEND_API
+(
 bool
+)
 js
 :
 :
