@@ -19172,11 +19172,11 @@ word
 bytes
 |
 while
-*
 other
+*
 platforms
 get
-13
+12
 -
 word
 |
@@ -19209,7 +19209,7 @@ uint64_t
 ?
 16
 :
-13
+12
 ]
 ;
 protected
