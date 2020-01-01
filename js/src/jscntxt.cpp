@@ -9119,7 +9119,10 @@ options
 (
 )
 .
-hasVersion
+version
+!
+=
+JSVERSION_UNKNOWN
 )
 return
 compartment
