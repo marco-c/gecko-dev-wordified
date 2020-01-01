@@ -2478,7 +2478,7 @@ rpc
 >
 RegisterPluginForGeometryUpdates
 (
-this
+mContent
 )
 ;
 rpc
@@ -2657,7 +2657,7 @@ rpc
 >
 RegisterPluginForGeometryUpdates
 (
-this
+mContent
 )
 ;
 rpc
@@ -4440,7 +4440,7 @@ rpc
 >
 UnregisterPluginForGeometryUpdates
 (
-this
+mContent
 )
 ;
 /
@@ -4549,7 +4549,7 @@ rpc
 >
 UnregisterPluginForGeometryUpdates
 (
-this
+mContent
 )
 ;
 #
@@ -13497,7 +13497,7 @@ rootPC
 >
 UnregisterPluginForGeometryUpdates
 (
-objectFrame
+aContent
 )
 ;
 }
@@ -13687,7 +13687,7 @@ rootPC
 >
 RegisterPluginForGeometryUpdates
 (
-objectFrame
+aContent
 )
 ;
 rootPC

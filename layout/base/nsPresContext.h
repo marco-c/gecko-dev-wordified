@@ -6910,7 +6910,7 @@ destroyed
 void
 RegisterPluginForGeometryUpdates
 (
-nsObjectFrame
+nsIContent
 *
 aPlugin
 )
@@ -6950,7 +6950,7 @@ nothing
 void
 UnregisterPluginForGeometryUpdates
 (
-nsObjectFrame
+nsIContent
 *
 aPlugin
 )
@@ -7523,9 +7523,9 @@ mUpdatePluginGeometryTimer
 ;
 nsTHashtable
 <
-nsPtrHashKey
+nsRefPtrHashKey
 <
-nsObjectFrame
+nsIContent
 >
 >
 mRegisteredPlugins
