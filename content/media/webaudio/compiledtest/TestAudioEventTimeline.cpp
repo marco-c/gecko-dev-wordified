@@ -1670,7 +1670,7 @@ timeline
 GetEventCount
 (
 )
-0
+0u
 "
 No
 events
@@ -1698,7 +1698,7 @@ timeline
 GetEventCount
 (
 )
-1
+1u
 "
 One
 event
@@ -1740,7 +1740,7 @@ timeline
 GetEventCount
 (
 )
-1
+1u
 "
 Event
 should
@@ -1805,7 +1805,7 @@ timeline
 GetEventCount
 (
 )
-2
+2u
 "
 Different
 event
@@ -1920,7 +1920,7 @@ timeline
 GetEventCount
 (
 )
-4
+4u
 "
 Should
 have
@@ -1946,7 +1946,7 @@ timeline
 GetEventCount
 (
 )
-4
+4u
 "
 Trying
 to
@@ -1980,7 +1980,7 @@ timeline
 GetEventCount
 (
 )
-3
+3u
 "
 Should
 successfully
@@ -2006,7 +2006,7 @@ timeline
 GetEventCount
 (
 )
-1
+1u
 "
 Should
 successfully
