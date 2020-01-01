@@ -1478,7 +1478,7 @@ sessionstore
 .
 resume_from_crash
 "
-false
+true
 )
 ;
 pref
