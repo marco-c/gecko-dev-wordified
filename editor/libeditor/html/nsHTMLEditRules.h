@@ -238,6 +238,15 @@ netscape
 com
 >
 *
+Sebastian
+Kromp
+<
+46b
+gulli
+.
+com
+>
+*
 *
 Alternatively
 the
@@ -447,7 +456,7 @@ h
 #
 include
 "
-nsIHTMLEditRules
+nsIHTMLEditor
 .
 h
 "
@@ -598,8 +607,6 @@ nsHTMLEditRules
 public
 nsTextEditRules
 public
-nsIHTMLEditRules
-public
 nsIEditActionListener
 {
 public
@@ -691,11 +698,7 @@ DocumentModified
 (
 )
 ;
-/
-/
-nsIHTMLEditRules
-methods
-NS_IMETHOD
+nsresult
 GetListState
 (
 PRBool
@@ -712,7 +715,7 @@ PRBool
 aDL
 )
 ;
-NS_IMETHOD
+nsresult
 GetListItemState
 (
 PRBool
@@ -729,7 +732,7 @@ PRBool
 aDD
 )
 ;
-NS_IMETHOD
+nsresult
 GetIndentState
 (
 PRBool
@@ -740,7 +743,7 @@ PRBool
 aCanOutdent
 )
 ;
-NS_IMETHOD
+nsresult
 GetAlignment
 (
 PRBool
@@ -754,7 +757,7 @@ EAlignment
 aAlign
 )
 ;
-NS_IMETHOD
+nsresult
 GetParagraphState
 (
 PRBool
@@ -765,7 +768,7 @@ nsAString
 outFormat
 )
 ;
-NS_IMETHOD
+nsresult
 MakeSureElemStartsOrEndsOnCR
 (
 nsIDOMNode
