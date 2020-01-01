@@ -3787,6 +3787,15 @@ condstack
 pop
 (
 )
+.
+endloc
+=
+d
+.
+getloc
+(
+offset
+)
                 
 continue
             
@@ -3874,7 +3883,7 @@ d
 .
 getloc
 (
-offset
+0
 )
 parserdata
 .
@@ -3938,7 +3947,7 @@ d
 .
 getloc
 (
-offset
+0
 )
 c
 )
