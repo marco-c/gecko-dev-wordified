@@ -1517,11 +1517,6 @@ i
 nsCAutoString
 quotaKey
 ;
-nsresult
-rv
-;
-rv
-=
 nsDOMStorageDBWrapper
 :
 :

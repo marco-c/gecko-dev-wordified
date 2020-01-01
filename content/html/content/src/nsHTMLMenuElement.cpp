@@ -142,6 +142,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsDOMError
+.
+h
+"
 enum
 MenuType
 {

@@ -2189,6 +2189,15 @@ gsop
 2
 ]
 ;
+SkipRoot
+skipGsop
+(
+cx
+&
+gsop
+2
+)
+;
 JS_CHECK_RECURSION
 (
 cx

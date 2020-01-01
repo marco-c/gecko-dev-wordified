@@ -145,6 +145,13 @@ h
 #
 include
 "
+nsDOMError
+.
+h
+"
+#
+include
+"
 nsEventStates
 .
 h

@@ -1677,8 +1677,8 @@ nsIOutputStream
 )
 aArg
 ;
-nsresult
-rv
+PRUint32
+unused
 ;
 if
 (
@@ -1743,7 +1743,7 @@ Length
 (
 )
 &
-rv
+unused
 )
 ;
 rawStreamPtr
@@ -1759,7 +1759,7 @@ kTab
 -
 1
 &
-rv
+unused
 )
 ;
 rawStreamPtr
@@ -1782,7 +1782,7 @@ Length
 (
 )
 &
-rv
+unused
 )
 ;
 rawStreamPtr
@@ -1798,7 +1798,7 @@ kTab
 -
 1
 &
-rv
+unused
 )
 ;
 rawStreamPtr
@@ -1821,7 +1821,7 @@ Length
 (
 )
 &
-rv
+unused
 )
 ;
 rawStreamPtr
@@ -1837,7 +1837,7 @@ kTab
 -
 1
 &
-rv
+unused
 )
 ;
 rawStreamPtr
@@ -1856,7 +1856,7 @@ Length
 (
 )
 &
-rv
+unused
 )
 ;
 rawStreamPtr
@@ -1872,7 +1872,7 @@ kTab
 -
 1
 &
-rv
+unused
 )
 ;
 rawStreamPtr
@@ -1895,7 +1895,7 @@ Length
 (
 )
 &
-rv
+unused
 )
 ;
 rawStreamPtr
@@ -1906,7 +1906,7 @@ Write
 NS_LINEBREAK
 NS_LINEBREAK_LEN
 &
-rv
+unused
 )
 ;
 }
@@ -2092,6 +2092,9 @@ file
 format
 *
 /
+PRUint32
+unused
+;
 bufferedOutputStream
 -
 >
@@ -2105,7 +2108,7 @@ kHeader
 -
 1
 &
-rv
+unused
 )
 ;
 nsIOutputStream

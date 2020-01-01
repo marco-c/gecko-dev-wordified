@@ -4962,7 +4962,7 @@ SetWindowLongPtr
 (
 hwndBrowser
 GWLP_USERDATA
-nullptr
+0
 )
 ;
 DestroyWindow

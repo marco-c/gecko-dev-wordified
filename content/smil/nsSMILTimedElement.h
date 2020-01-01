@@ -102,6 +102,13 @@ NS_SMILTIMEDELEMENT_H_
 #
 include
 "
+nsISMILAnimationElement
+.
+h
+"
+#
+include
+"
 nsSMILInterval
 .
 h
@@ -176,9 +183,6 @@ nsAttrValue
 .
 h
 "
-class
-nsISMILAnimationElement
-;
 class
 nsSMILAnimationFunction
 ;

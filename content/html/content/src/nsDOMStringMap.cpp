@@ -114,6 +114,13 @@ MPL
 #
 include
 "
+nsDOMError
+.
+h
+"
+#
+include
+"
 nsDOMStringMap
 .
 h

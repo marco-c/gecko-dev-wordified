@@ -1242,10 +1242,10 @@ return
 true
 ;
 }
-JSString
-*
+RootedString
 str
-=
+(
+cx
 args
 [
 0
@@ -1253,6 +1253,7 @@ args
 .
 toString
 (
+)
 )
 ;
 /

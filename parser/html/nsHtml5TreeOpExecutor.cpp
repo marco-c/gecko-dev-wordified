@@ -114,6 +114,13 @@ MPL
 #
 include
 "
+nsDOMError
+.
+h
+"
+#
+include
+"
 nsHtml5TreeOpExecutor
 .
 h

@@ -6273,15 +6273,14 @@ strip
 )
     
 if
-(
 self
 .
 debug
 >
 =
 3
-)
 :
+      
 print
 "
 remote
@@ -6289,13 +6288,12 @@ hash
 returned
 :
 '
-"
-+
-retVal
-+
-"
+%
+s
 '
 "
+%
+retVal
     
 return
 retVal

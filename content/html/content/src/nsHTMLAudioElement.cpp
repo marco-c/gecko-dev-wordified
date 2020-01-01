@@ -115,6 +115,13 @@ MPL
 #
 include
 "
+nsDOMError
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLAudioElement
 .
 h
