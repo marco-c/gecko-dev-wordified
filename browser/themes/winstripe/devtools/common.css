@@ -439,6 +439,8 @@ not
 (
 [
 checked
+=
+true
 ]
 )
 :
@@ -568,6 +570,8 @@ devtools
 toolbarbutton
 [
 checked
+=
+true
 ]
 {
 border
@@ -682,6 +686,8 @@ devtools
 toolbarbutton
 [
 checked
+=
+true
 ]
 :
 hover
