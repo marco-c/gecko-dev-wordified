@@ -1750,7 +1750,7 @@ malloc_
 realloc_
 calloc_
 new_
-new_array
+array_new
 }
 *
 *
@@ -1773,7 +1773,7 @@ malloc_
 realloc_
 calloc_
 new_
-new_array
+array_new
 }
 *
 *
@@ -1803,7 +1803,7 @@ malloc_
 realloc_
 calloc_
 new_
-new_array
+array_new
 }
 *
 *
