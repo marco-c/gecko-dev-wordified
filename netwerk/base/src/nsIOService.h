@@ -825,6 +825,11 @@ return
 mOffline
 ;
 }
+PRBool
+IsLinkUp
+(
+)
+;
 private
 :
 /
