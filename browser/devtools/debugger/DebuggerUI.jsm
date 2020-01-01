@@ -1409,7 +1409,9 @@ setAttribute
 class
 "
 "
-hud
+devtools
+-
+horizontal
 -
 splitter
 "
