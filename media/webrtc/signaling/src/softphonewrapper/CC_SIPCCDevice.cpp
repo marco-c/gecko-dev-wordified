@@ -181,6 +181,10 @@ deviceHandle
 ;
 return
 pSIPCCDevice
+.
+get
+(
+)
 ;
 }
 CC_SIPCCDevice
@@ -233,6 +237,10 @@ CC_SIPCCDeviceInfo
 wrap
 (
 deviceInfoRef
+)
+.
+get
+(
 )
 ;
 /
@@ -432,6 +440,10 @@ CC_SIPCCCall
 wrap
 (
 callHandle
+)
+.
+get
+(
 )
 ;
 }
