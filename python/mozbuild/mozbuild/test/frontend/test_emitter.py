@@ -862,12 +862,19 @@ self
 .
 assertEqual
 (
+os
+.
+path
+.
+normpath
+(
 objs
 [
 1
 ]
 .
 output_path
+)
             
 os
 .
@@ -893,12 +900,19 @@ self
 .
 assertEqual
 (
+os
+.
+path
+.
+normpath
+(
 objs
 [
 2
 ]
 .
 output_path
+)
             
 os
 .
