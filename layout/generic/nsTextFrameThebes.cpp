@@ -31584,9 +31584,15 @@ aData
 -
 >
 currentLine
-+
 =
+NSCoordSaturatingAdd
+(
+aData
+-
+>
+currentLine
 width
+)
 ;
 PRUint32
 trimStart
