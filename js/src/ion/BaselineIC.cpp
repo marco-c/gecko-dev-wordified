@@ -16091,10 +16091,6 @@ ToNumber
 (
 cx
 ret
-.
-address
-(
-)
 )
 ;
 }
