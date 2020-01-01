@@ -627,7 +627,7 @@ EventUtils
 synthesizeKey
 (
 "
-e
+E
 "
 {
 accelKey
@@ -649,7 +649,7 @@ EventUtils
 synthesizeKey
 (
 "
-e
+E
 "
 {
 accelKey
