@@ -1118,7 +1118,7 @@ SendDisableWakeLockNotifications
 ;
 }
 void
-ModifyWakeLock
+ModifyWakeLockInternal
 (
 const
 nsAString
@@ -1128,6 +1128,8 @@ WakeLockControl
 aLockAdjust
 WakeLockControl
 aHiddenAdjust
+uint64_t
+aProcessID
 )
 {
 Hal
@@ -1143,6 +1145,7 @@ aTopic
 )
 aLockAdjust
 aHiddenAdjust
+aProcessID
 )
 ;
 }
@@ -2895,6 +2898,10 @@ const
 WakeLockControl
 &
 aHiddenAdjust
+const
+uint64_t
+&
+aProcessID
 )
 MOZ_OVERRIDE
 {
@@ -2912,11 +2919,12 @@ locks
 hal
 :
 :
-ModifyWakeLock
+ModifyWakeLockInternal
 (
 aTopic
 aLockAdjust
 aHiddenAdjust
+aProcessID
 )
 ;
 return

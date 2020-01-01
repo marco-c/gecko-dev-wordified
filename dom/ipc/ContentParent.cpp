@@ -3874,6 +3874,20 @@ Init
 (
 )
 ;
+props
+-
+>
+SetPropertyAsUint64
+(
+NS_LITERAL_STRING
+(
+"
+childID
+"
+)
+mChildID
+)
+;
 if
 (
 AbnormalShutdown
@@ -3966,6 +3980,7 @@ dumpID
 ;
 #
 endif
+}
 obs
 -
 >
@@ -3986,7 +4001,6 @@ shutdown
 nullptr
 )
 ;
-}
 }
 MessageLoop
 :
@@ -4291,6 +4305,11 @@ nullptr
 mOSPrivileges
 (
 aOSPrivileges
+)
+mChildID
+(
+-
+1
 )
 mGeolocationWatchID
 (
@@ -6802,6 +6821,8 @@ aIsForBrowser
 {
 *
 aId
+=
+mChildID
 =
 gContentChildID
 +
