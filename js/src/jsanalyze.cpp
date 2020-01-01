@@ -2453,6 +2453,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 {
 for
@@ -2547,6 +2549,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 {
 for
@@ -2718,6 +2722,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 usesRval
 =
@@ -2790,6 +2796,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 {
 isInlineable
@@ -5952,7 +5960,10 @@ code
 exceptionEntry
 )
 {
+DebugOnly
+<
 bool
+>
 found
 =
 false
@@ -6088,10 +6099,15 @@ startOffset
 )
 ;
 }
+#
+ifdef
+DEBUG
 found
 =
 true
 ;
+#
+endif
 break
 ;
 }
