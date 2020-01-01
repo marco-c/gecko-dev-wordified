@@ -2968,6 +2968,13 @@ aArgv
 ]
 )
 )
+XRE_API
+(
+void
+XRE_ShutdownChildProcess
+(
+)
+)
 #
 endif
 /

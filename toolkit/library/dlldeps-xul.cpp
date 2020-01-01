@@ -495,4 +495,8 @@ XRE_GetProcessType
 (
 )
 ;
+XRE_ShutdownChildProcess
+(
+)
+;
 }
