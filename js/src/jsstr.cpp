@@ -4500,8 +4500,9 @@ vp
 isNull
 (
 )
-|
-|
+&
+&
+(
 !
 ComputeThisFromVpInPlace
 (
@@ -4517,6 +4518,7 @@ vp
 .
 isNull
 (
+)
 )
 )
 return
