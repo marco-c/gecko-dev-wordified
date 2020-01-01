@@ -2854,8 +2854,6 @@ static
 void
 UnmarkXBLJSObject
 (
-PRUint32
-aLangID
 void
 *
 aP
@@ -2866,17 +2864,6 @@ aName
 void
 *
 aClosure
-)
-{
-if
-(
-aLangID
-=
-=
-nsIProgrammingLanguage
-:
-:
-JAVASCRIPT
 )
 {
 xpc_UnmarkGrayObject
@@ -2891,7 +2878,6 @@ aP
 )
 )
 ;
-}
 }
 static
 bool

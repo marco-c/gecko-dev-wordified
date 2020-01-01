@@ -3634,6 +3634,13 @@ p
 )
 ;
 virtual
+nsCycleCollectionParticipant
+*
+GetParticipant
+(
+)
+;
+virtual
 bool
 NeedCollect
 (

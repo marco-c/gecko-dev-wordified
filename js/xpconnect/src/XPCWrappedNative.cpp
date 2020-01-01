@@ -1087,12 +1087,8 @@ mFlatJSObject
 ;
 cb
 .
-NoteScriptChild
+NoteJSChild
 (
-nsIProgrammingLanguage
-:
-:
-JAVASCRIPT
 obj
 )
 ;
@@ -1189,12 +1185,8 @@ object
 ;
 cb
 .
-NoteScriptChild
+NoteJSChild
 (
-nsIProgrammingLanguage
-:
-:
-JAVASCRIPT
 priv
 -
 >
