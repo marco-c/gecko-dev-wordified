@@ -3136,6 +3136,11 @@ n
 )
 break
 ;
+dataSize
+-
+=
+n
+;
 HexDump
 (
 &
@@ -3164,10 +3169,11 @@ Length
 n
 )
 ;
-dataSize
--
-=
-n
+buffer
+.
+Truncate
+(
+)
 ;
 }
 }
