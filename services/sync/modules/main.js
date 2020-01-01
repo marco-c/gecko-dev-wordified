@@ -459,9 +459,7 @@ NoOpAuthenticator
 '
 ]
 "
-base_records
-/
-crypto
+record
 .
 js
 "
