@@ -98,10 +98,6 @@ from
 emulator_geo
 import
 EmulatorGeo
-from
-emulator_screen
-import
-EmulatorScreen
 class
 LogcatProc
 (
@@ -383,15 +379,6 @@ self
 geo
 =
 EmulatorGeo
-(
-self
-)
-        
-self
-.
-screen
-=
-EmulatorScreen
 (
 self
 )
@@ -2936,14 +2923,6 @@ self
 geo
 .
 set_default_location
-(
-)
-        
-self
-.
-screen
-.
-initialize
 (
 )
         
