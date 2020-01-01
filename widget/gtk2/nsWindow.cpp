@@ -5681,11 +5681,6 @@ true
 ;
 }
 }
-NotifyRollupGeometryChange
-(
-gRollupListener
-)
-;
 /
 /
 synthesize
@@ -6089,11 +6084,6 @@ true
 ;
 }
 }
-NotifyRollupGeometryChange
-(
-gRollupListener
-)
-;
 if
 (
 mIsTopLevel
@@ -6357,11 +6347,6 @@ aY
 )
 ;
 }
-NotifyRollupGeometryChange
-(
-gRollupListener
-)
-;
 return
 NS_OK
 ;
