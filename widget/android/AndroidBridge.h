@@ -2349,6 +2349,8 @@ nsIntRect
 aDisplayPort
 float
 aDisplayResolution
+bool
+aLayersUpdated
 nsIntPoint
 &
 aScrollOffset
