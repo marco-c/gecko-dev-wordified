@@ -452,13 +452,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIDOMEventTarget
 .
 h
@@ -1032,10 +1025,7 @@ aEvent
 ;
 nsAutoTObserverArray
 <
-nsAutoPtr
-<
 nsListenerStruct
->
 2
 >
 mListeners
