@@ -495,16 +495,10 @@ h
 #
 include
 "
-jscntxt
+jsapi
 .
 h
 "
-/
-/
-js
-:
-:
-AutoIdVector
 namespace
 xpc
 {
@@ -5206,7 +5200,7 @@ JSObject
 wrapper
 uintN
 flags
-js
+JS
 :
 :
 AutoIdVector
@@ -5369,7 +5363,7 @@ the
 wrapped
 native
 .
-js
+JS
 :
 :
 AutoIdVector
@@ -5511,7 +5505,7 @@ cx
 JSObject
 *
 wrapper
-js
+JS
 :
 :
 AutoIdVector
@@ -5737,7 +5731,7 @@ cx
 JSObject
 *
 wrapper
-js
+JS
 :
 :
 AutoIdVector
@@ -6097,7 +6091,7 @@ cx
 JSObject
 *
 wrapper
-js
+JS
 :
 :
 AutoIdVector
@@ -8014,7 +8008,7 @@ JSObject
 wrapper
 uintN
 flags
-js
+JS
 :
 :
 AutoIdVector
@@ -8182,7 +8176,7 @@ cx
 JSObject
 *
 wrapper
-js
+JS
 :
 :
 AutoIdVector
@@ -8374,7 +8368,7 @@ cx
 JSObject
 *
 wrapper
-js
+JS
 :
 :
 AutoIdVector

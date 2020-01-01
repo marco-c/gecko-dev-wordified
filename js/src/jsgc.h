@@ -8292,9 +8292,6 @@ SystemAllocPolicy
 >
 WrapperMap
 ;
-class
-AutoIdVector
-;
 }
 /
 *

@@ -1334,7 +1334,7 @@ cx
 JSObject
 *
 proxy
-js
+JS
 :
 :
 AutoIdVector
@@ -1367,7 +1367,7 @@ cx
 JSObject
 *
 proxy
-js
+JS
 :
 :
 AutoIdVector
@@ -1504,7 +1504,7 @@ cx
 JSObject
 *
 proxy
-js
+JS
 :
 :
 AutoIdVector
