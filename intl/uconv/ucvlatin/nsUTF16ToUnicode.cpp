@@ -425,10 +425,13 @@ mOddByte
 8
 )
 |
+uint8_t
+(
 *
 src
 +
 +
+)
 ;
 /
 /
