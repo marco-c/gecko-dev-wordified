@@ -2509,7 +2509,7 @@ IsDefunct
 )
 |
 |
-IsDocument
+IsDocumentNode
 (
 )
 )
@@ -3060,7 +3060,7 @@ IsDefunct
 )
 |
 |
-IsDocument
+IsDocumentNode
 (
 )
 )
@@ -3332,7 +3332,7 @@ IsDefunct
 )
 |
 |
-IsDocument
+IsDocumentNode
 (
 )
 )

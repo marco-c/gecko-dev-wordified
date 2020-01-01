@@ -2648,7 +2648,6 @@ documents
 .
 *
 /
-virtual
 nsAccessible
 *
 GetXPAccessibleFor

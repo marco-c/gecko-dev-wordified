@@ -1000,6 +1000,11 @@ mIsPostCacheProcessing
 PR_FALSE
 )
 {
+mFlags
+|
+=
+eDocAccessible
+;
 mDependentIDsHash
 .
 Init
