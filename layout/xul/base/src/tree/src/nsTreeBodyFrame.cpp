@@ -24781,6 +24781,10 @@ if
 (
 !
 mView
+|
+|
+!
+mPageLength
 )
 return
 NS_OK
