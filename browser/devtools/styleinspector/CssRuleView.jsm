@@ -1734,6 +1734,13 @@ if
 computedProp
 .
 overridden
+&
+&
+computedProp
+.
+textProp
+.
+enabled
 )
 {
 taken
@@ -3341,6 +3348,9 @@ computed
 push
 (
 {
+textProp
+:
+this
 name
 :
 prop
