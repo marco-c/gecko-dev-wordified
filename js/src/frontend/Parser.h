@@ -1251,8 +1251,11 @@ generateFunctionBindings
 JSContext
 *
 cx
+InternalHandle
+<
 Bindings
 *
+>
 bindings
 )
 const
