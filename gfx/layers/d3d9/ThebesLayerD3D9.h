@@ -516,11 +516,6 @@ LayerD3D9
 implementation
 *
 /
-LayerType
-GetType
-(
-)
-;
 Layer
 *
 GetLayer

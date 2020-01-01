@@ -528,16 +528,6 @@ aRect
 LayerOGL
 implementation
 virtual
-LayerType
-GetType
-(
-)
-{
-return
-TYPE_CANVAS
-;
-}
-virtual
 Layer
 *
 GetLayer

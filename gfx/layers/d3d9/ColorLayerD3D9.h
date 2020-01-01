@@ -499,12 +499,6 @@ this
 LayerD3D9
 Implementation
 virtual
-LayerType
-GetType
-(
-)
-;
-virtual
 Layer
 *
 GetLayer

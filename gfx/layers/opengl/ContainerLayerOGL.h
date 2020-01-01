@@ -511,11 +511,6 @@ LayerOGL
 implementation
 *
 /
-LayerType
-GetType
-(
-)
-;
 Layer
 *
 GetLayer

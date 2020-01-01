@@ -1430,6 +1430,13 @@ return
 mFilter
 ;
 }
+NS_LAYER_DECL_NAME
+(
+"
+ImageLayer
+"
+TYPE_IMAGE
+)
 protected
 :
 ImageLayer

@@ -493,12 +493,6 @@ this
 LayerOGL
 Implementation
 virtual
-LayerType
-GetType
-(
-)
-;
-virtual
 Layer
 *
 GetLayer
