@@ -2589,6 +2589,10 @@ overflow
 :
 hidden
 ;
+color
+:
+inherit
+;
 /
 *
 Revert
