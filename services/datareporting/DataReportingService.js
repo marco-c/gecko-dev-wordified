@@ -339,7 +339,7 @@ mozilla
 .
 org
 /
-healthreport
+datareporting
 /
 service
 ;

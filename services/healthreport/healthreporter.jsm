@@ -416,10 +416,15 @@ service
 .
 See
 *
-HealthReportService
+DataReportingService
 .
 js
 and
+*
+DataReporting
+.
+manifest
+/
 HealthReportComponents
 .
 manifest
