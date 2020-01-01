@@ -283,6 +283,13 @@ Label
 fail
 )
 ;
+void
+inc64
+(
+AbsoluteAddress
+dest
+)
+;
 /
 /
 somewhat

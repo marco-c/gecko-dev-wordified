@@ -453,6 +453,14 @@ free_
 pcCountsVector
 )
 ;
+fop
+-
+>
+delete_
+(
+ionCounts
+)
+;
 }
 inline
 void
