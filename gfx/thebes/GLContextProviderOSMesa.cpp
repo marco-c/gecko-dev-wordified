@@ -509,6 +509,13 @@ gfxImageSurface
 .
 h
 "
+#
+include
+"
+gfxCrashReporterUtils
+.
+h
+"
 /
 /
 from
