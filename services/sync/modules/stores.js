@@ -659,6 +659,8 @@ let
 self
 =
 yield
+;
+let
 timer
 listener
 ;
@@ -6473,6 +6475,7 @@ they
 re
 deprecated
 .
+}
 }
 return
 items
