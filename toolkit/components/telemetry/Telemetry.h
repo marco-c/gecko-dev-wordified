@@ -579,16 +579,6 @@ time
 in
 milliseconds
 *
-param
-isDynamicString
--
-prepared
-statement
-or
-a
-dynamic
-string
-*
 /
 void
 RecordSlowSQLStatement
@@ -603,8 +593,6 @@ nsACString
 dbName
 PRUint32
 delay
-bool
-isDynamicString
 )
 ;
 /
