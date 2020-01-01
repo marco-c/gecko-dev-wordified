@@ -461,7 +461,7 @@ BLOCK
 #
 include
 "
-nsIChannel
+nsISupports
 .
 h
 "
@@ -529,7 +529,7 @@ running
 .
 nsCOMPtr
 <
-nsIChannel
+nsISupports
 >
 kungFuDeathGrip
 (

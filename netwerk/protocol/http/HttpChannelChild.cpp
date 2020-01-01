@@ -752,7 +752,14 @@ false
 )
 mEventQ
 (
+static_cast
+<
+nsIHttpChannel
+*
+>
+(
 this
+)
 )
 {
 LOG

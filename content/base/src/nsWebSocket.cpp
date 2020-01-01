@@ -7877,15 +7877,8 @@ NS_ERROR_DOM_INVALID_STATE_ERR
 }
 /
 /
-We
-need
-to
-check
-if
-there
-isn
-'
-t
+Check
+for
 unpaired
 surrogates
 .

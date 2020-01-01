@@ -479,7 +479,7 @@ nsAutoPtr
 h
 >
 class
-nsIChannel
+nsISupports
 ;
 namespace
 mozilla
@@ -616,7 +616,7 @@ public
 :
 ChannelEventQueue
 (
-nsIChannel
+nsISupports
 *
 owner
 )
@@ -968,7 +968,7 @@ ref
 during
 flushing
 .
-nsIChannel
+nsISupports
 *
 mOwner
 ;
