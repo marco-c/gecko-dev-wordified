@@ -1565,6 +1565,7 @@ value
 .
 *
 /
+virtual
 PRBool
 WillReplace
 (
