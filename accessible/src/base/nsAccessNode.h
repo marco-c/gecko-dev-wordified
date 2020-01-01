@@ -1085,10 +1085,6 @@ nsIStringBundle
 *
 gStringBundle
 ;
-static
-bool
-gIsFormFillEnabled
-;
 private
 :
 nsAccessNode
