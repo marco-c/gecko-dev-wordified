@@ -2851,11 +2851,6 @@ InitStatements
 )
 ;
 nsresult
-CreateTriggers
-(
-)
-;
-nsresult
 ForceMigrateBookmarksDB
 (
 mozIStorageConnection
@@ -2873,6 +2868,14 @@ aDBConn
 ;
 nsresult
 MigrateV6Up
+(
+mozIStorageConnection
+*
+aDBConn
+)
+;
+nsresult
+MigrateV7Up
 (
 mozIStorageConnection
 *
