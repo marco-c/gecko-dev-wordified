@@ -3858,6 +3858,9 @@ aTarget
 ownerDocument
 .
 documentURIObject
+aTarget
+.
+ownerDocument
 true
 null
 )

@@ -1011,6 +1011,11 @@ dlE
 addDownload
 (
 {
+isPrivate
+:
+pb
+.
+privateBrowsingEnabled
 targetFile
 :
 fileE
@@ -1106,6 +1111,11 @@ dlF
 addDownload
 (
 {
+isPrivate
+:
+pb
+.
+privateBrowsingEnabled
 targetFile
 :
 fileF
@@ -1584,6 +1594,11 @@ dlD
 addDownload
 (
 {
+isPrivate
+:
+pb
+.
+privateBrowsingEnabled
 targetFile
 :
 fileD

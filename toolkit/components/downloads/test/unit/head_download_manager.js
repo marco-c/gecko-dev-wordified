@@ -627,6 +627,16 @@ starting
 the
 download
 *
+isPrivate
+:
+whether
+the
+download
+is
+private
+or
+not
+*
 /
 function
 addDownload
@@ -882,6 +892,9 @@ now
 )
 null
 persist
+aParams
+.
+isPrivate
 )
 ;
 /

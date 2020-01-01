@@ -36417,6 +36417,7 @@ true
 doc
 .
 documentURIObject
+doc
 )
 ;
 event

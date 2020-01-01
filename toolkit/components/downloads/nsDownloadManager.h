@@ -1957,6 +1957,9 @@ mSpeed
 bool
 mHasMultipleFiles
 ;
+bool
+mPrivate
+;
 /
 *
 *
