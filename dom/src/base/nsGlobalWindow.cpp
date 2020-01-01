@@ -2872,6 +2872,10 @@ mCreatingInnerWindow
 (
 PR_FALSE
 )
+mIsChrome
+(
+PR_FALSE
+)
 mGlobalObjectOwner
 (
 nsnull
