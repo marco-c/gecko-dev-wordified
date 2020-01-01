@@ -22974,7 +22974,7 @@ callWrapValue
 is
 true
         
-JS_WrapValue
+MaybeWrapValue
 will
 be
 called
@@ -23007,9 +23007,12 @@ tail
 if
 (
 !
-JS_WrapValue
+MaybeWrapValue
 (
 cx
+{
+obj
+}
 {
 jsvalPtr
 }
@@ -23047,9 +23050,12 @@ tail
 =
 "
 return
-JS_WrapValue
+MaybeWrapValue
 (
 cx
+{
+obj
+}
 {
 jsvalPtr
 }
