@@ -778,17 +778,6 @@ ready
 )
 return
 ;
-window
-.
-removeEventListener
-(
-"
-message
-"
-viewReady
-true
-)
-;
 info
 (
 "
