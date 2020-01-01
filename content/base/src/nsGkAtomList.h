@@ -2425,7 +2425,7 @@ GK_ATOM
 (
 DOMNodeInsertedIntoDocument
 "
-DOMNodeInsertedInfoDocument
+DOMNodeInsertedIntoDocument
 "
 )
 GK_ATOM
