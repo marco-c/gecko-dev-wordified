@@ -1705,17 +1705,6 @@ rv
 return
 E_FAIL
 ;
-if
-(
-title
-.
-IsEmpty
-(
-)
-)
-return
-S_FALSE
-;
 *
 aTitle
 =
