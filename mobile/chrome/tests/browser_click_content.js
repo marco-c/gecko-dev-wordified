@@ -747,6 +747,13 @@ frameElement
 ownerDocument
 ;
 let
+content
+=
+document
+.
+defaultView
+;
+let
 offset
 =
 Util
