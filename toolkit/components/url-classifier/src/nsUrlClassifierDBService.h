@@ -662,6 +662,17 @@ completer
 )
 ;
 }
+nsresult
+CacheCompletions
+(
+nsTArray
+<
+nsUrlClassifierLookupResult
+>
+*
+results
+)
+;
 private
 :
 /
