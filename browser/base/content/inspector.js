@@ -4901,7 +4901,7 @@ toolbar
 .
 hidden
 =
-null
+false
 ;
 this
 .
