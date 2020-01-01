@@ -474,15 +474,6 @@ mLayerManager
 ;
 }
 void
-SetTransformation
-(
-float
-aScale
-nsIntPoint
-aScrollOffset
-)
-;
-void
 AsyncRender
 (
 )
