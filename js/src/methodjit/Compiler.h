@@ -1054,6 +1054,11 @@ STUB_CALL_TYPE
 BoolStub
 )
 ;
+STUB_CALL_TYPE
+(
+JSObjStubUInt32
+)
+;
 #
 undef
 STUB_CALL_TYPE
