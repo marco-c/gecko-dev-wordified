@@ -5829,11 +5829,12 @@ return
 true
 ;
 return
-JS_GetPropertyById
+JS_ForwardGetPropertyTo
 (
 cx
 proto
 id
+proxy
 vp
 )
 ;
