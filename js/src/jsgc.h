@@ -2647,6 +2647,15 @@ rt
 )
 ;
 extern
+void
+ReleaseAllJITCode
+(
+FreeOp
+*
+op
+)
+;
+extern
 JS_FRIEND_API
 (
 void

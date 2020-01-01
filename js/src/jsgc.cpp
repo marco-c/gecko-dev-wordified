@@ -28917,7 +28917,6 @@ namespace
 gc
 *
 /
-static
 void
 ReleaseAllJITCode
 (
