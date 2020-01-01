@@ -2837,7 +2837,7 @@ aPresContext
 ;
 virtual
 const
-nsStyleStruct
+void
 *
 GetStyleDataExternal
 (

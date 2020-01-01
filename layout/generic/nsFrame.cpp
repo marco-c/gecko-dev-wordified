@@ -35624,7 +35624,7 @@ virtual
 *
 /
 const
-nsStyleStruct
+void
 *
 nsFrame
 :

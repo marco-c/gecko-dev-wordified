@@ -1571,7 +1571,7 @@ result
 =
 =
 const
-nsStyleStruct
+void
 *
 nsStyleContext
 :
@@ -1583,7 +1583,7 @@ aSID
 )
 {
 const
-nsStyleStruct
+void
 *
 cachedData
 =
@@ -1761,7 +1761,7 @@ undef
 STYLE_STRUCT
 inline
 const
-nsStyleStruct
+void
 *
 nsStyleContext
 :
@@ -1773,7 +1773,7 @@ aSID
 )
 {
 const
-nsStyleStruct
+void
 *
 cachedData
 =
@@ -1878,7 +1878,7 @@ costs
 !
 -
 dwh
-nsStyleStruct
+void
 *
 nsStyleContext
 :
@@ -1973,7 +1973,7 @@ case
 .
 )
 const
-nsStyleStruct
+void
 *
 current
 =
@@ -2016,14 +2016,14 @@ aSID
 return
 const_cast
 <
-nsStyleStruct
+void
 *
 >
 (
 current
 )
 ;
-nsStyleStruct
+void
 *
 result
 ;
@@ -2154,7 +2154,8 @@ memory
 for
 a
 unique
-nsStyleStruct
+style
+struct
 !
 "
 "
@@ -2171,7 +2172,7 @@ data
 return
 const_cast
 <
-nsStyleStruct
+void
 *
 >
 (
@@ -2209,7 +2210,7 @@ SetStyle
 (
 nsStyleStructID
 aSID
-nsStyleStruct
+void
 *
 aStruct
 )
@@ -2438,7 +2439,7 @@ mInheritResetOffset
 *
 reinterpret_cast
 <
-nsStyleStruct
+void
 *
 *
 >

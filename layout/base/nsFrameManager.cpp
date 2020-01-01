@@ -7166,7 +7166,7 @@ matter
 what
 /
 /
-nsStyleStruct
+nsStyleContext
 :
 :
 CalcStyleDifference

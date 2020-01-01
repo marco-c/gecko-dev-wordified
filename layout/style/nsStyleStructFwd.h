@@ -534,9 +534,6 @@ list
 /
 }
 ;
-struct
-nsStyleStruct
-;
 /
 /
 A

@@ -439,7 +439,8 @@ constants
 used
 in
 the
-nsStyleStruct
+style
+struct
 data
 provided
 by
