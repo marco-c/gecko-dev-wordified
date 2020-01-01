@@ -3460,9 +3460,6 @@ order
 nsCAutoString
 list
 ;
-nsresult
-rv
-;
 if
 (
 prefs
@@ -3474,6 +3471,7 @@ nsIPrefLocalizedString
 >
 prefString
 ;
+nsresult
 rv
 =
 prefs
@@ -3498,6 +3496,12 @@ prefString
 ;
 if
 (
+NS_SUCCEEDED
+(
+rv
+)
+&
+&
 prefString
 )
 {
@@ -3525,12 +3529,6 @@ list
 }
 if
 (
-NS_SUCCEEDED
-(
-rv
-)
-&
-&
 !
 list
 .
