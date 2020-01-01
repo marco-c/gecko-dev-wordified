@@ -551,6 +551,12 @@ buggy_repeat
 ;
 unsigned
 int
+buggy_pad_reflect
+:
+1
+;
+unsigned
+int
 closed
 :
 1
