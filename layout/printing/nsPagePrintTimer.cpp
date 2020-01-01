@@ -466,13 +466,13 @@ mPrintEngine
 (
 nsnull
 )
-mPrintObj
-(
-nsnull
-)
 mDelay
 (
 0
+)
+mPrintObj
+(
+nsnull
 )
 {
 }

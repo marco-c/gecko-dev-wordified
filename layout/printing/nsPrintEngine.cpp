@@ -1768,6 +1768,14 @@ mIsDoingPrinting
 (
 PR_FALSE
 )
+mIsDoingPrintPreview
+(
+PR_FALSE
+)
+mProgressDialogIsShown
+(
+PR_FALSE
+)
 mDocViewerPrint
 (
 nsnull
@@ -1792,10 +1800,6 @@ mPageSeqFrame
 (
 nsnull
 )
-mIsDoingPrintPreview
-(
-PR_FALSE
-)
 mParentWidget
 (
 nsnull
@@ -1811,10 +1815,6 @@ nsnull
 mDebugFile
 (
 nsnull
-)
-mProgressDialogIsShown
-(
-PR_FALSE
 )
 {
 }
