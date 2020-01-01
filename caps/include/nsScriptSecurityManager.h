@@ -2018,9 +2018,6 @@ nsIPrincipal
 *
 doGetObjectPrincipal
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
