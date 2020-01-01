@@ -33707,7 +33707,6 @@ aCtx
 aTextBaselinePt
 aOffset
 aLength
-aDirtyRect
 aProvider
 &
 aAdvanceWidth
@@ -33855,7 +33854,6 @@ hyphenTextRun
 GetLength
 (
 )
-aDirtyRect
 nsnull
 nsnull
 )

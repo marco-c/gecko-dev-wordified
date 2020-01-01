@@ -1904,7 +1904,6 @@ gfxPoint
 length
 nsnull
 nsnull
-nsnull
 )
 ;
 gfxFontTestStore
