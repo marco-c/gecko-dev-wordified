@@ -1058,7 +1058,6 @@ str
 "
 ;
 str
-+
 =
 stackFrame
 +
@@ -1066,6 +1065,8 @@ stackFrame
 \
 n
 "
++
+str
 ;
 return
 str
