@@ -8152,10 +8152,10 @@ oprnd1
 )
 =
 =
-a
+b
 -
 >
-oprnd2
+oprnd1
 (
 )
 &
