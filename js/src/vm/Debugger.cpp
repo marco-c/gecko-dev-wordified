@@ -15447,9 +15447,11 @@ referent
 "
 )
 ;
-SetScriptReferent
-(
 obj
+-
+>
+setPrivateUnbarriered
+(
 script
 )
 ;
