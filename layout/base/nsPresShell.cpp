@@ -7385,6 +7385,7 @@ mPrefStyleSheet
 new
 nsCSSStyleSheet
 (
+CORS_NONE
 )
 ;
 nsCOMPtr
