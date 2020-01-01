@@ -4031,11 +4031,13 @@ sourceNode
 )
 )
 ;
-NS_ENSURE_TRUE
+if
 (
+!
 sourceNode
-PR_TRUE
 )
+return
+PR_TRUE
 ;
 /
 /
