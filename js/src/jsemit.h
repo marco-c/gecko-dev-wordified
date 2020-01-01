@@ -1673,9 +1673,12 @@ var
 declarations
 *
 /
-JSCompiler
+js
+:
+:
+Parser
 *
-compiler
+parser
 ;
 /
 *
@@ -1785,7 +1788,7 @@ TCF_IN_FUNCTION
 and
 not
 in
-JSCompiler
+Compiler
 :
 :
 compileFunctionBody
@@ -1826,9 +1829,12 @@ depth
 endif
 JSTreeContext
 (
-JSCompiler
+js
+:
+:
+Parser
 *
-jsc
+prs
 )
 :
 flags
@@ -1863,9 +1869,9 @@ blockNode
 (
 NULL
 )
-compiler
+parser
 (
-jsc
+prs
 )
 scopeChain
 (
@@ -1873,7 +1879,7 @@ NULL
 )
 parent
 (
-jsc
+prs
 -
 >
 tc
@@ -1896,7 +1902,7 @@ sharpSlotBase
 1
 )
 {
-jsc
+prs
 -
 >
 tc
@@ -1960,7 +1966,7 @@ JSTreeContext
 (
 )
 {
-compiler
+parser
 -
 >
 tc
@@ -1985,7 +1991,7 @@ uint16
 JS_BASIC_STATS_ACCUM
 (
 &
-compiler
+parser
 -
 >
 context
@@ -2347,7 +2353,7 @@ TCF_COMPILE_N_GO
 0x2000
 /
 *
-compiler
+compile
 -
 and
 -
@@ -2500,7 +2506,7 @@ request
 flag
 passed
 to
-JSCompiler
+Compiler
 :
 :
 compileScript
@@ -2830,7 +2836,7 @@ needStrictChecks
 return
 JS_HAS_STRICT_OPTION
 (
-compiler
+parser
 -
 >
 context
@@ -3982,7 +3988,7 @@ allocated
 temporaries
 from
 *
-jsc
+parser
 -
 >
 context
@@ -3994,9 +4000,12 @@ tempPool
 /
 JSCodeGenerator
 (
-JSCompiler
+js
+:
+:
+Parser
 *
-jsc
+parser
 JSArenaPool
 *
 codePool
@@ -4020,7 +4029,7 @@ cg
 >
 notePool
 and
-compiler
+parser
 -
 >
 context
@@ -4155,7 +4164,7 @@ cg
 )
 -
 >
-compiler
+parser
 )
 #
 define

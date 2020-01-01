@@ -8176,7 +8176,7 @@ function
 .
 *
 See
-JSCompiler
+Compiler
 :
 :
 compileScript
@@ -8230,7 +8230,7 @@ the
 prior
 eval
 to
-JSCompiler
+Compiler
 :
 :
 compileScript
@@ -8552,7 +8552,7 @@ script
 {
 script
 =
-JSCompiler
+Compiler
 :
 :
 compileScript

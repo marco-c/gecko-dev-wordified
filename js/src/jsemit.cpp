@@ -781,9 +781,9 @@ JSCodeGenerator
 :
 JSCodeGenerator
 (
-JSCompiler
+Parser
 *
-jsc
+parser
 JSArenaPool
 *
 cpool
@@ -796,7 +796,7 @@ lineno
 :
 JSTreeContext
 (
-jsc
+parser
 )
 codePool
 (
@@ -967,7 +967,7 @@ if
 (
 spanDeps
 )
-compiler
+parser
 -
 >
 context
@@ -984,7 +984,7 @@ upvarMap
 .
 vector
 )
-compiler
+parser
 -
 >
 context
@@ -1399,7 +1399,7 @@ ts
 cg
 -
 >
-compiler
+parser
 -
 >
 tokenStream
@@ -5911,7 +5911,7 @@ ts
 cg
 -
 >
-compiler
+parser
 -
 >
 tokenStream
@@ -8445,7 +8445,7 @@ JSContext
 *
 cx
 =
-compiler
+parser
 -
 >
 context
@@ -8537,7 +8537,7 @@ else
 /
 *
 *
-JSCompiler
+Compiler
 :
 :
 compileScript
@@ -10159,7 +10159,7 @@ add
 cg
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -11486,7 +11486,7 @@ add
 cg
 -
 >
-compiler
+parser
 pn
 -
 >
@@ -11840,7 +11840,7 @@ code
 patching
 in
 *
-JSCompiler
+Compiler
 :
 :
 compileScript
@@ -12368,7 +12368,7 @@ and
 cg
 -
 >
-compiler
+parser
 -
 >
 callerFrame
@@ -12423,7 +12423,7 @@ cx
 cg
 -
 >
-compiler
+parser
 -
 >
 context
@@ -12435,7 +12435,7 @@ fun
 cg
 -
 >
-compiler
+parser
 -
 >
 callerFrame
@@ -12777,7 +12777,7 @@ add
 cg
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -13545,7 +13545,7 @@ testing
 cg
 -
 >
-compiler
+parser
 -
 >
 callerFrame
@@ -13635,7 +13635,7 @@ if
 cg
 -
 >
-compiler
+parser
 -
 >
 callerFrame
@@ -13715,7 +13715,7 @@ caller
 cg
 -
 >
-compiler
+parser
 -
 >
 callerFrame
@@ -13840,7 +13840,7 @@ as
 their
 parent
 by
-JSCompiler
+Parser
 :
 :
 newFunction
@@ -13886,7 +13886,7 @@ scopeobj
 cg
 -
 >
-compiler
+parser
 -
 >
 callerVarObj
@@ -13990,7 +13990,7 @@ fun
 cg
 -
 >
-compiler
+parser
 -
 >
 callerFrame
@@ -14513,7 +14513,7 @@ caller
 cg
 -
 >
-compiler
+parser
 -
 >
 callerFrame
@@ -14597,7 +14597,7 @@ fun
 cg
 -
 >
-compiler
+parser
 -
 >
 callerVarObj
@@ -14892,7 +14892,7 @@ JSOP_GETUPVAR
 JSOP_CALLUPVAR
 .
 *
-JSCompiler
+Parser
 :
 :
 analyzeFunctions
@@ -15048,7 +15048,7 @@ add
 cg
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -17767,7 +17767,7 @@ add
 cg
 -
 >
-compiler
+parser
 pn
 -
 >
@@ -18238,7 +18238,7 @@ add
 cg
 -
 >
-compiler
+parser
 pn
 -
 >
@@ -19870,7 +19870,7 @@ add
 cg
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -22638,7 +22638,7 @@ add
 cg
 -
 >
-compiler
+parser
 pn4
 -
 >
@@ -22771,7 +22771,7 @@ add
 cg
 -
 >
-compiler
+parser
 pn4
 -
 >
@@ -23354,7 +23354,7 @@ add
 cg
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -24018,7 +24018,7 @@ add
 cg
 -
 >
-compiler
+parser
 pn
 -
 >
@@ -28675,7 +28675,7 @@ JSCodeGenerator
 cg
 -
 >
-compiler
+parser
 cg
 -
 >
@@ -33590,7 +33590,7 @@ add
 cg
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -33757,7 +33757,7 @@ add
 cg
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -37600,7 +37600,7 @@ add
 cg
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -38093,7 +38093,7 @@ add
 cg
 -
 >
-compiler
+parser
 pn2
 -
 >
@@ -38167,7 +38167,7 @@ add
 cg
 -
 >
-compiler
+parser
 pn2
 -
 >
@@ -44009,7 +44009,7 @@ add
 cg
 -
 >
-compiler
+parser
 pn3
 -
 >
@@ -44940,7 +44940,7 @@ add
 cg
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -45074,7 +45074,7 @@ add
 cg
 -
 >
-compiler
+parser
 (
 pn
 -
@@ -45324,7 +45324,7 @@ add
 cg
 -
 >
-compiler
+parser
 (
 pn
 -
@@ -45592,7 +45592,7 @@ add
 cg
 -
 >
-compiler
+parser
 pn
 -
 >

@@ -8357,7 +8357,7 @@ frame
 /
 script
 =
-JSCompiler
+Compiler
 :
 :
 compileScript

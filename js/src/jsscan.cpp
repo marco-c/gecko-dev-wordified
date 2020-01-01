@@ -8904,7 +8904,7 @@ in
 jsparse
 .
 cpp
-JSCompiler
+Compiler
 :
 :
 compileScript

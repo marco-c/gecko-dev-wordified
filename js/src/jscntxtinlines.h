@@ -639,11 +639,11 @@ trc
 return
 ;
 case
-COMPILER
+PARSER
 :
 static_cast
 <
-JSCompiler
+Parser
 *
 >
 (
