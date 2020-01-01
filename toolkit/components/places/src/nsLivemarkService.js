@@ -2409,9 +2409,6 @@ this
 .
 _createFolder
 (
-this
-.
-_bms
 folder
 name
 siteURI
@@ -2450,7 +2447,6 @@ createLivemarkFolderOnly
 function
 LS_createLivemarkFolderOnly
 (
-bms
 folder
 name
 siteURI
@@ -2465,7 +2461,6 @@ this
 .
 _createFolder
 (
-bms
 folder
 name
 siteURI
@@ -2505,7 +2500,9 @@ this
 .
 insertLivemarkLoadingItem
 (
-bms
+this
+.
+_bms
 livemark
 )
 ;
@@ -2518,7 +2515,6 @@ _createFolder
 function
 LS__createFolder
 (
-bms
 folder
 name
 siteURI
@@ -2529,7 +2525,9 @@ index
 var
 livemarkID
 =
-bms
+this
+.
+_bms
 .
 createFolder
 (

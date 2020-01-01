@@ -660,7 +660,6 @@ lmsvc
 .
 createLivemarkFolderOnly
 (
-bmsvc
 root
 "
 foo

@@ -7466,7 +7466,6 @@ mLivemarkService
 >
 CreateLivemarkFolderOnly
 (
-mBookmarksService
 frame
 .
 mContainerID
