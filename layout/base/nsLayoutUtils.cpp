@@ -8177,6 +8177,13 @@ GetRootScrollFrameAsScrollable
 (
 )
 ;
+if
+(
+aFlags
+&
+PAINT_DOCUMENT_RELATIVE
+)
+{
 /
 /
 Make
@@ -8227,6 +8234,7 @@ pos
 y
 )
 ;
+}
 builder
 .
 SetIgnoreScrollFrame
@@ -9265,6 +9273,14 @@ else
 if
 (
 widget
+&
+&
+!
+(
+aFlags
+&
+PAINT_DOCUMENT_RELATIVE
+)
 )
 {
 /
