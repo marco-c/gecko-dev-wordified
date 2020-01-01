@@ -264,7 +264,7 @@ ok
 (
 gDevTools
 .
-getToolDefinitions
+getToolDefinitionMap
 (
 )
 .
@@ -564,7 +564,7 @@ ok
 !
 gDevTools
 .
-getToolDefinitions
+getToolDefinitionMap
 (
 )
 .
