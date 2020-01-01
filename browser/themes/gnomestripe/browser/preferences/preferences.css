@@ -763,7 +763,8 @@ margin
 1px
 ;
 }
-filefield
+.
+fileFieldContentBox
 [
 disabled
 =
@@ -771,8 +772,6 @@ disabled
 true
 "
 ]
-.
-fileFieldContentBox
 {
 opacity
 :
@@ -781,7 +780,8 @@ opacity
 5
 ;
 }
-filefield
+.
+fileFieldIcon
 [
 disabled
 =
@@ -789,8 +789,6 @@ disabled
 true
 "
 ]
-.
-fileFieldIcon
 {
 opacity
 :
