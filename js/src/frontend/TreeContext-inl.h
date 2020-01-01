@@ -487,6 +487,8 @@ SharedContext
 JSContext
 *
 cx
+bool
+inFunction
 )
 :
 context
@@ -546,6 +548,10 @@ bindingsRoot
 cx
 &
 bindings
+)
+inFunction
+(
+inFunction
 )
 {
 }
