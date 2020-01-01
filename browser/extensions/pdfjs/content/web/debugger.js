@@ -176,6 +176,12 @@ License
 .
 *
 /
+/
+*
+globals
+PDFJS
+*
+/
 '
 use
 strict
@@ -2207,6 +2213,7 @@ breakPoints
 )
 ;
 }
+;
 }
 )
 (
@@ -2969,6 +2976,7 @@ pageNumber
 b
 .
 pageNumber
+;
 }
 )
 ;
