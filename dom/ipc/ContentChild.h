@@ -318,6 +318,12 @@ version
 nsCString
 buildID
 ;
+nsCString
+name
+;
+nsCString
+UAName
+;
 }
 ;
 bool
@@ -992,6 +998,14 @@ const
 nsCString
 &
 buildID
+const
+nsCString
+&
+name
+const
+nsCString
+&
+UAName
 )
 ;
 virtual
