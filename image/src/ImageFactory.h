@@ -138,9 +138,11 @@ char
 *
 SVG_MIMETYPE
 ;
-struct
+class
 ImageFactory
 {
+public
+:
 /
 *
 *
