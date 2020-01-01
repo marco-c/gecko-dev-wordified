@@ -9135,7 +9135,7 @@ valued
 .
 masm
 .
-cvtsi2sd
+convertInt32ToDouble
 (
 output
 scratch
@@ -9835,7 +9835,7 @@ valued
 .
 masm
 .
-cvtsi2sd
+convertInt32ToDouble
 (
 output
 scratch

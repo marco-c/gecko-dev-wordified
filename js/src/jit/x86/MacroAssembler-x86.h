@@ -6143,7 +6143,7 @@ src
 notInt32
 )
 ;
-cvtsi2sd
+convertInt32ToDouble
 (
 src
 .
@@ -6447,7 +6447,7 @@ FloatRegister
 dest
 )
 {
-cvtsi2sd
+convertInt32ToDouble
 (
 operand
 .
@@ -6471,7 +6471,7 @@ FloatRegister
 dest
 )
 {
-cvtsi2ss
+convertInt32ToFloat32
 (
 operand
 .
@@ -6495,7 +6495,7 @@ FloatRegister
 dest
 )
 {
-cvtsi2sd
+convertInt32ToDouble
 (
 operand
 .
@@ -6519,7 +6519,7 @@ FloatRegister
 dest
 )
 {
-cvtsi2ss
+convertInt32ToFloat32
 (
 operand
 .
@@ -6836,7 +6836,7 @@ operand
 notInt32
 )
 ;
-cvtsi2sd
+convertInt32ToDouble
 (
 ToPayload
 (
@@ -7142,7 +7142,7 @@ the
 same
 value
 .
-cvtsi2sd
+convertInt32ToDouble
 (
 src
 dest
@@ -7231,7 +7231,7 @@ it
 the
 GCC
 way
-cvtsi2ss
+convertInt32ToFloat32
 (
 src
 dest
