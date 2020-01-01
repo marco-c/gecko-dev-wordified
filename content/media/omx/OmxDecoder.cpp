@@ -3571,7 +3571,7 @@ return
 }
 mMP3FrameParser
 .
-NotifyDataArrived
+Parse
 (
 aBuffer
 aLength
