@@ -2153,9 +2153,11 @@ if
 (
 delegate
 )
+{
 MarkObjectUnbarriered
 (
 trc
+&
 delegate
 "
 arraybuffer
@@ -2164,6 +2166,15 @@ delegate
 "
 )
 ;
+obj
+-
+>
+setPrivate
+(
+delegate
+)
+;
+}
 }
 static
 JSProperty

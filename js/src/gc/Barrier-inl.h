@@ -1613,6 +1613,7 @@ needsBarrier
 (
 )
 )
+{
 js
 :
 :
@@ -1627,6 +1628,7 @@ comp
 barrierTracer
 (
 )
+&
 obj
 "
 write
@@ -1634,6 +1636,18 @@ barrier
 "
 )
 ;
+JS_ASSERT
+(
+obj
+=
+=
+JSID_TO_OBJECT
+(
+value
+)
+)
+;
+}
 }
 #
 endif

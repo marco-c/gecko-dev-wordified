@@ -2064,8 +2064,7 @@ fixedElements
 }
 /
 *
-Write
-barrier
+GC
 support
 .
 *
@@ -2121,6 +2120,14 @@ void
 *
 *
 oldval
+)
+;
+void
+markChildren
+(
+JSTracer
+*
+trc
 )
 ;
 /
