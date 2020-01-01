@@ -2039,6 +2039,11 @@ JSFunction
 DeclMarkerImpl
 (
 Object
+RegExpObject
+)
+DeclMarkerImpl
+(
+Object
 ScopeObject
 )
 DeclMarkerImpl
