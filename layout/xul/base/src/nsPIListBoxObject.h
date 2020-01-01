@@ -439,6 +439,9 @@ nsPIListBoxObject_h__
 #
 define
 nsPIListBoxObject_h__
+class
+nsListBoxBodyFrame
+;
 /
 /
 fa9549f7
@@ -522,7 +525,7 @@ though
 *
 /
 virtual
-nsIListBoxObject
+nsListBoxBodyFrame
 *
 GetListBoxBody
 (
