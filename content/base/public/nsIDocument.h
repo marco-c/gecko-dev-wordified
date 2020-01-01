@@ -523,6 +523,9 @@ namespace
 dom
 {
 class
+CDATASection
+;
+class
 Comment
 ;
 class
@@ -11428,7 +11431,13 @@ WebIDL
 bits
 already_AddRefed
 <
-nsIDOMCDATASection
+mozilla
+:
+:
+dom
+:
+:
+CDATASection
 >
 CreateCDATASection
 (
