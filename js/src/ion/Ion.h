@@ -1362,7 +1362,7 @@ true
 )
 ;
 void
-MarkFromIon
+MarkValueFromIon
 (
 JSRuntime
 *
@@ -1370,6 +1370,18 @@ rt
 Value
 *
 vp
+)
+;
+void
+MarkShapeFromIon
+(
+JSRuntime
+*
+rt
+Shape
+*
+*
+shapep
 )
 ;
 void
