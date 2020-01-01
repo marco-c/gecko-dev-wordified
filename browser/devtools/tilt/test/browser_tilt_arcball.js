@@ -216,6 +216,7 @@ TiltVisualizer
 .
 Arcball
 (
+window
 123
 456
 )
@@ -289,6 +290,7 @@ TiltVisualizer
 .
 Arcball
 (
+window
 987
 654
 )
@@ -362,6 +364,7 @@ TiltVisualizer
 .
 Arcball
 (
+window
 512
 512
 )
