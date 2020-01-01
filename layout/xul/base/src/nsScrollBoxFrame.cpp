@@ -1012,15 +1012,7 @@ StopRepeat
 ;
 }
 return
-nsButtonBoxFrame
-:
-:
-HandleRelease
-(
-aPresContext
-aEvent
-aEventStatus
-)
+NS_OK
 ;
 }
 NS_IMETHODIMP
