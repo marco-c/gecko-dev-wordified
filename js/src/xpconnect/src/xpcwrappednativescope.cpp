@@ -1710,6 +1710,15 @@ delete
 mWrappedNativeProtoMap
 ;
 }
+if
+(
+mWrapperMap
+)
+{
+delete
+mWrapperMap
+;
+}
 /
 /
 XXX
