@@ -26209,6 +26209,13 @@ unknown
 /
 if
 (
+!
+object
+-
+>
+newScriptCleared
+&
+&
 type
 =
 =
