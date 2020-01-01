@@ -978,6 +978,11 @@ nsAString
 aAlertText
 )
 ;
+int
+GetDPI
+(
+)
+;
 struct
 AutoLocalJNIFrame
 {
@@ -1296,7 +1301,7 @@ jmethodID
 jAlertsProgressListener_OnProgress
 ;
 jmethodID
-jShowFilePicker
+jGetDpi
 ;
 /
 /
