@@ -54,18 +54,17 @@ MPL
 /
 .
 import
-re
-import
 socket
 from
 time
 import
 strptime
+import
+re
 from
 dmunit
 import
 DeviceManagerTestCase
-heartbeat_port
 class
 DataChannelTestCase
 (
@@ -95,7 +94,6 @@ and
 the
 data
 channel
-.
         
 "
 "
@@ -108,6 +106,10 @@ self
 dm
 .
 host
+        
+port
+=
+20700
         
 #
 Let
@@ -160,7 +162,7 @@ connect
 (
 (
 ip
-heartbeat_port
+port
 )
 )
         
@@ -185,9 +187,11 @@ capturedHeader
 False
         
 while
+(
 numbeats
 <
 3
+)
 :
             
 data
@@ -269,6 +273,35 @@ str
 (
 data
 )
+)
+                
+lastHeartbeatTime
+=
+strptime
+(
+m
+.
+group
+(
+1
+)
+"
+%
+Y
+%
+m
+%
+d
+-
+%
+H
+:
+%
+M
+:
+%
+S
+"
 )
                 
 capturedHeader
@@ -376,6 +409,15 @@ M
 %
 S
 "
+)
+            
+mDeviceID
+=
+m
+.
+group
+(
+2
 )
             
 numbeats
