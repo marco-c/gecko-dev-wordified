@@ -480,7 +480,7 @@ public
 AtomImpl
 (
 const
-nsACString
+nsAString
 &
 aString
 )
@@ -580,7 +580,7 @@ mLength
 *
 sizeof
 (
-char
+PRUnichar
 )
 <
 =
@@ -735,7 +735,7 @@ owned
 by
 a
 nsStringBuffer
-char
+PRUnichar
 *
 mString
 ;
@@ -766,7 +766,7 @@ public
 PermanentAtomImpl
 (
 const
-nsACString
+nsAString
 &
 aString
 )

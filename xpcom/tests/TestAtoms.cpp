@@ -759,9 +759,9 @@ i
 )
 {
 const
-char
+PRUnichar
 *
-utf8String
+utf16String
 ;
 ids
 [
@@ -769,10 +769,10 @@ i
 ]
 -
 >
-GetUTF8String
+GetUTF16String
 (
 &
-utf8String
+utf16String
 )
 ;
 nsIAtom
@@ -781,7 +781,7 @@ id
 =
 NS_NewAtom
 (
-utf8String
+utf16String
 )
 ;
 if
