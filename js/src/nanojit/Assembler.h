@@ -2241,6 +2241,9 @@ DECLARE_PLATFORM_ASSEMBLER
 )
 private
 :
+#
+ifdef
+NANOJIT_IA32
 debug_only
 (
 int32_t
@@ -2361,6 +2364,8 @@ _fpuStkDepth
 ;
 )
 }
+#
+endif
 avmplus
 :
 :
