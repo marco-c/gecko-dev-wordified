@@ -2523,12 +2523,6 @@ results
 errors
 )
             
-self
-.
-todo
-=
-0
-            
 if
 hasattr
 (
