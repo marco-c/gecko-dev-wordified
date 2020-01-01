@@ -2148,6 +2148,11 @@ return
 NULL
 ;
 }
+js_InitJIT
+(
+cx
+)
+;
 return
 cx
 ;
