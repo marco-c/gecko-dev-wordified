@@ -1156,6 +1156,15 @@ aData
 app
 .
 origin
+"
+manifestURL
+"
+:
+aData
+.
+app
+.
+manifestURL
 }
 }
 ;
