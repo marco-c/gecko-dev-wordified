@@ -1542,6 +1542,17 @@ type
 =
 =
 MIRType_Elements
+|
+|
+in
+-
+>
+type
+(
+)
+=
+=
+MIRType_UpvarSlots
 )
 {
 return

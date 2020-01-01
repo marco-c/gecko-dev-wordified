@@ -3434,6 +3434,9 @@ MIRType_Slots
 case
 MIRType_Elements
 :
+case
+MIRType_UpvarSlots
+:
 /
 /
 When
