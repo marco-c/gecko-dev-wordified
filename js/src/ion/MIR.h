@@ -1675,6 +1675,17 @@ inWorklist_
 false
 ;
 }
+MSnapshot
+*
+snapshot
+(
+)
+const
+{
+return
+snapshot_
+;
+}
 /
 /
 To
