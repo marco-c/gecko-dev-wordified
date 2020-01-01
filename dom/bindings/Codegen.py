@@ -989,6 +989,23 @@ descriptor
 .
 nativeType
         
+getParentObject
+=
+"
+GetParentObject
+<
+%
+s
+>
+:
+:
+Get
+"
+%
+descriptor
+.
+nativeType
+        
 return
 "
 "
@@ -1005,6 +1022,11 @@ s
   
 %
 s
+  
+%
+s
+  
+GetProtoObject
   
 %
 s
@@ -1031,6 +1053,8 @@ NativePropertyHooks
 (
 descriptor
 )
+        
+getParentObject
         
 participant
 )
@@ -6490,16 +6514,9 @@ descriptor
 customFinalize
 :
         
-return
+finalize
+=
 "
-"
-"
-if
-(
-self
-)
-{
-  
 self
 -
 >
@@ -6510,9 +6527,6 @@ s
 s
 )
 ;
-}
-"
-"
 "
 %
 (
@@ -6520,7 +6534,10 @@ hookName
 context
 )
     
-clearWrapper
+else
+:
+        
+finalize
 =
 "
 ClearWrapper
@@ -6539,14 +6556,15 @@ wrapperCache
 else
 "
 "
-    
+        
 if
 descriptor
 .
 workers
 :
-        
-release
+            
+finalize
++
 =
 "
 self
@@ -6557,7 +6575,7 @@ Release
 )
 ;
 "
-    
+        
 elif
 descriptor
 .
@@ -6568,8 +6586,9 @@ nativeOwnership
 nsisupports
 '
 :
-        
-release
+            
+finalize
++
 =
 "
 "
@@ -6619,18 +6638,19 @@ self
 "
 "
 "
-    
+        
 else
 :
-        
+            
 smartPtr
 =
 DeferredFinalizeSmartPtr
 (
 descriptor
 )
-        
-release
+            
+finalize
++
 =
 "
 "
@@ -6785,9 +6805,16 @@ smartPtr
 }
     
 return
-clearWrapper
-+
-release
+CGIfWrapper
+(
+CGGeneric
+(
+finalize
+)
+"
+self
+"
+)
 class
 CGClassFinalizeHook
 (
@@ -6872,8 +6899,6 @@ self
 return
 CGIndenter
 (
-CGGeneric
-(
 finalizeHook
 (
 self
@@ -6890,7 +6915,6 @@ args
 ]
 .
 name
-)
 )
 )
 .
@@ -51929,6 +51953,10 @@ args
 ]
 .
 name
+)
+.
+define
+(
 )
 )
 class
