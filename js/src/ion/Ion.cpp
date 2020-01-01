@@ -857,6 +857,10 @@ CurrentIonContext
 (
 )
 )
+assemblerCount_
+(
+0
+)
 {
 SetIonContext
 (

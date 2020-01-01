@@ -560,6 +560,11 @@ Assembler
 {
 public
 :
+MacroAssemblerARM
+(
+)
+{
+}
 void
 convertInt32ToDouble
 (

@@ -745,6 +745,14 @@ non
 debug
 builds
 .
+static
+const
+int
+NULL_ID
+=
+-
+1
+;
 #
 ifdef
 DEBUG
@@ -1172,6 +1180,7 @@ void
 IonSpewVA
 (
 IonSpewChannel
+channel
 const
 char
 *
