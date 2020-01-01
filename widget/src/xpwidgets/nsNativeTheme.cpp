@@ -1189,9 +1189,12 @@ eHTML
 aPresContext
 -
 >
-HasAuthorSpecifiedBorderOrBackground
+HasAuthorSpecifiedRules
 (
 aFrame
+NS_AUTHOR_SPECIFIED_BORDER
+|
+NS_AUTHOR_SPECIFIED_BACKGROUND
 )
 ;
 }
