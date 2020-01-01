@@ -5689,11 +5689,6 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_ParallelArray
 )
-|
-Class
-:
-:
-NON_NATIVE
 JS_PropertyStub
 /
 *
