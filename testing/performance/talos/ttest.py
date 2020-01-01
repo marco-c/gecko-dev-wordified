@@ -1091,9 +1091,9 @@ browser_results
     
 timeout
 =
-18000
+28800
 #
-5
+8
 hours
     
 total_time
@@ -1685,6 +1685,7 @@ True
 if
 total_time
 >
+=
 timeout
 :
       
