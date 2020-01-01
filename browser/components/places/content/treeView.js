@@ -2969,11 +2969,12 @@ queries
 case
 for
 (
-i
+var
+j
 =
 0
 ;
-i
+j
 <
 newElements
 .
@@ -2986,7 +2987,7 @@ index
 -
 1
 ;
-i
+j
 +
 +
 )
@@ -2999,7 +3000,7 @@ getConcreteItemId
 (
 newElements
 [
-i
+j
 ]
 )
 =
@@ -3010,7 +3011,7 @@ index
 =
 newElements
 [
-i
+j
 ]
 .
 viewIndex
@@ -3039,11 +3040,12 @@ uri
 {
 for
 (
-i
+var
+j
 =
 0
 ;
-i
+j
 <
 newElements
 .
@@ -3056,7 +3058,7 @@ index
 -
 1
 ;
-i
+j
 +
 +
 )
@@ -3065,7 +3067,7 @@ if
 (
 newElements
 [
-i
+j
 ]
 .
 uri
@@ -3077,7 +3079,7 @@ index
 =
 newElements
 [
-i
+j
 ]
 .
 viewIndex
