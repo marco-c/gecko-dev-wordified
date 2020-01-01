@@ -574,6 +574,13 @@ jsversion
 .
 h
 "
+#
+include
+"
+jsstrinlines
+.
+h
+"
 /
 *
 *
@@ -4396,7 +4403,10 @@ JSString
 *
 str
 =
-js_GetUnitStringForChar
+JSString
+:
+:
+getUnitString
 (
 cx
 c
@@ -5234,7 +5244,10 @@ JSString
 *
 str
 =
-js_GetUnitStringForChar
+JSString
+:
+:
+getUnitString
 (
 cx
 c

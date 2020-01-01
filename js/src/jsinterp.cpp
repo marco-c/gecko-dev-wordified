@@ -688,6 +688,13 @@ jsvector
 h
 "
 #
+include
+"
+jsstrinlines
+.
+h
+"
+#
 ifdef
 INCLUDE_MOZILLA_DTRACE
 #
