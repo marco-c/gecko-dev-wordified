@@ -979,6 +979,12 @@ nesting_enabled
 =
 true
 ;
+static
+bool
+oracle_enabled
+=
+true
+;
 #
 ifdef
 DEBUG
@@ -1670,6 +1676,10 @@ slot
 const
 {
 return
+!
+oracle_enabled
+|
+|
 _dontDemote
 .
 get
@@ -1809,6 +1819,10 @@ hash
 ORACLE_SIZE
 ;
 return
+!
+oracle_enabled
+|
+|
 _dontDemote
 .
 get
