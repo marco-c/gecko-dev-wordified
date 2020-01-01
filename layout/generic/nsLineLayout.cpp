@@ -5022,6 +5022,11 @@ psd
 -
 >
 mRightEdge
+-
+psd
+-
+>
+mLeftEdge
 >
 maxLineBoxWidth
 )
@@ -5031,6 +5036,11 @@ psd
 >
 mRightEdge
 =
+psd
+-
+>
+mLeftEdge
++
 maxLineBoxWidth
 ;
 }
