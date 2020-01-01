@@ -8940,11 +8940,15 @@ isTrusted
 uint32_t
 msg
 const
-nsString
+nsAString
 &
 propertyNameArg
 float
 elapsedTimeArg
+const
+nsAString
+&
+pseudoElementArg
 )
 :
 nsEvent
@@ -8961,6 +8965,10 @@ elapsedTime
 (
 elapsedTimeArg
 )
+pseudoElement
+(
+pseudoElementArg
+)
 {
 }
 nsString
@@ -8968,6 +8976,9 @@ propertyName
 ;
 float
 elapsedTime
+;
+nsString
+pseudoElement
 ;
 }
 ;

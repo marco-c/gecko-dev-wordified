@@ -4430,6 +4430,10 @@ oldTransitionEvent
 -
 >
 elapsedTime
+oldTransitionEvent
+-
+>
+pseudoElement
 )
 ;
 NS_ENSURE_TRUE
