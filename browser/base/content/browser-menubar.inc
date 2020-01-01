@@ -526,7 +526,7 @@ label
 =
 "
 &
-sendPageCmd
+emailPageCmd
 .
 label
 ;
@@ -535,7 +535,7 @@ accesskey
 =
 "
 &
-sendPageCmd
+emailPageCmd
 .
 accesskey
 ;

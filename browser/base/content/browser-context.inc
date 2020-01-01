@@ -1345,7 +1345,7 @@ label
 =
 "
 &
-sendImageCmd
+emailImageCmd
 .
 label
 ;
@@ -1354,7 +1354,7 @@ accesskey
 =
 "
 &
-sendImageCmd
+emailImageCmd
 .
 accesskey
 ;
@@ -1581,7 +1581,7 @@ label
 =
 "
 &
-sendVideoCmd
+emailVideoCmd
 .
 label
 ;
@@ -1590,7 +1590,7 @@ accesskey
 =
 "
 &
-sendVideoCmd
+emailVideoCmd
 .
 accesskey
 ;
@@ -1620,7 +1620,7 @@ label
 =
 "
 &
-sendAudioCmd
+emailAudioCmd
 .
 label
 ;
@@ -1629,7 +1629,7 @@ accesskey
 =
 "
 &
-sendAudioCmd
+emailAudioCmd
 .
 accesskey
 ;
