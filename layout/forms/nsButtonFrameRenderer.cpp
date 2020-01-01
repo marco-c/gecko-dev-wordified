@@ -945,6 +945,8 @@ GetTheme
 >
 ThemeDrawsFocusForWidget
 (
+presContext
+mFrame
 disp
 -
 >
