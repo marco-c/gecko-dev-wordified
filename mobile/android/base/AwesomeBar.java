@@ -5036,10 +5036,12 @@ filter
 .
 if
 (
+TextUtils
+.
+isEmpty
+(
 mAutoCompleteResult
-=
-=
-null
+)
 |
 |
 !
