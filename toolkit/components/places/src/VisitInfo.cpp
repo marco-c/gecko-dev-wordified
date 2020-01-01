@@ -817,7 +817,6 @@ NS_IMPL_ISUPPORTS1
 VisitInfo
 mozIVisitInfo
 )
-;
 }
 /
 /
