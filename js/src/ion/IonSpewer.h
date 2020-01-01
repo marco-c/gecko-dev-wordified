@@ -265,7 +265,7 @@ LICM
 *
 Information
 during
-LSRA
+regalloc
 *
 /
 \
