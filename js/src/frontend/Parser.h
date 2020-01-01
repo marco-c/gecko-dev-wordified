@@ -2840,15 +2840,11 @@ AutoNameVector
 formals
 HandleScript
 script
-Node
-fn
 bool
 strict
 bool
 *
 becameStrict
-=
-NULL
 )
 ;
 /
