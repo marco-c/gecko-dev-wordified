@@ -858,8 +858,10 @@ status
 >
 mServerCert
 =
-new
 nsNSSCertificate
+:
+:
+Create
 (
 nssCert
 )

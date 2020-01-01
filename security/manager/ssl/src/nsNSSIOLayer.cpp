@@ -16596,8 +16596,10 @@ nsNSSCertificate
 >
 tempCert
 =
-new
 nsNSSCertificate
+:
+:
+Create
 (
 node
 -
@@ -17275,8 +17277,10 @@ nssCert
 ;
 nssCert
 =
-new
 nsNSSCertificate
+:
+:
+Create
 (
 peerCert
 )

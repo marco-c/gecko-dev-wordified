@@ -878,8 +878,10 @@ nsNSSCertificate
 *
 tempCert
 =
-new
 nsNSSCertificate
+:
+:
+Create
 (
 node
 -
@@ -1270,8 +1272,10 @@ nsNSSCertificate
 *
 cert
 =
-new
 nsNSSCertificate
+:
+:
+Create
 (
 node
 -

@@ -831,7 +831,7 @@ NS_CRYPTO_HMAC_CID
 enum
 EnsureNSSOperator
 {
-nssLoading
+nssLoadingComponent
 =
 0
 nssInitSucceeded
@@ -845,7 +845,10 @@ nssShutdown
 3
 nssEnsure
 =
-4
+100
+nssEnsureOnChromeOnly
+=
+101
 }
 ;
 extern

@@ -1715,8 +1715,10 @@ nsIX509Cert
 >
 cert
 =
-new
 nsNSSCertificate
+:
+:
+Create
 (
 nssCert
 )
