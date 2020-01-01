@@ -947,7 +947,7 @@ ReusableTileStoreOGL
 gl
 (
 )
-1
+2
 )
 ;
 }
@@ -1397,9 +1397,7 @@ program
 >
 LoadMask
 (
-GetMaskLayer
-(
-)
+aMaskLayer
 )
 ;
 nsIntRegionRectIterator
