@@ -1246,6 +1246,14 @@ the
 temporary
 directory
 .
+if
+(
+aDir
+.
+exists
+(
+)
+)
 aDir
 .
 remove
