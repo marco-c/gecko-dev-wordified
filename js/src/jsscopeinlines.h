@@ -611,13 +611,13 @@ differ
 /
 JS_ASSERT
 (
-this
-=
-=
 proto
 -
 >
-newType
+hasNewType
+(
+this
+)
 )
 ;
 JS_ASSERT
