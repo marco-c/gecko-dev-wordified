@@ -696,8 +696,7 @@ library
 256
 ]
 ;
-unsigned
-long
+PRUptrdiff
 loffset
 ;
 /
@@ -778,8 +777,7 @@ function
 256
 ]
 ;
-unsigned
-long
+PRUptrdiff
 foffset
 ;
 }
