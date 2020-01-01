@@ -2120,7 +2120,7 @@ item
 =
 TabItems
 .
-getItemByTab
+getItemByTabElement
 (
 mirror
 .
@@ -2472,11 +2472,15 @@ item
 =
 TabItems
 .
-getItemByTab
+getItemByTabElement
 (
 Utils
 .
 activeTab
+.
+mirror
+.
+el
 )
 ;
 if
