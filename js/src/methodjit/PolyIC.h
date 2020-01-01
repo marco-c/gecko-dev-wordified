@@ -1174,7 +1174,10 @@ areMultiplePools
 (
 )
 )
-js_delete
+Foreground
+:
+:
+delete_
 (
 multiplePools
 (
@@ -1388,7 +1391,10 @@ ExecPoolVector
 *
 execPools
 =
-js_new
+cx
+-
+>
+new_
 <
 ExecPoolVector
 >
@@ -1428,7 +1434,10 @@ pool
 )
 )
 {
-js_delete
+Foreground
+:
+:
+delete_
 (
 execPools
 )

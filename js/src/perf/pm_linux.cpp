@@ -434,6 +434,10 @@ BLOCK
 *
 *
 /
+using
+namespace
+js
+;
 #
 include
 "
@@ -1825,7 +1829,10 @@ toMeasure
 :
 impl
 (
-js_new
+OffTheBooks
+:
+:
+new_
 <
 Impl
 >
@@ -1946,7 +1953,13 @@ PerfMeasurement
 (
 )
 {
-js_delete
+js
+:
+:
+Foreground
+:
+:
+delete_
 (
 static_cast
 <

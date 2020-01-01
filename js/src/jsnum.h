@@ -1408,17 +1408,6 @@ char
 *
 dbuf
 ;
-/
-*
-must
-be
-allocated
-with
-js_malloc
-(
-)
-*
-/
 ToCStringBuf
 (
 )

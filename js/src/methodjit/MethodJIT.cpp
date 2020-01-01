@@ -4714,7 +4714,13 @@ Initialize
 {
 execAlloc_
 =
-js_new
+js
+:
+:
+OffTheBooks
+:
+:
+new_
 <
 JSC
 :
@@ -4809,7 +4815,10 @@ release
 trampolines
 )
 ;
-js_delete
+Foreground
+:
+:
+delete_
 (
 execAlloc_
 )

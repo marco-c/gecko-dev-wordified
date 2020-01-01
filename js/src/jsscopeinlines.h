@@ -531,7 +531,7 @@ hasTable
 cx
 -
 >
-destroy
+delete_
 (
 getTable
 (
