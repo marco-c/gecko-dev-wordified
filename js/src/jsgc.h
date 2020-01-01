@@ -1798,7 +1798,7 @@ GC
 arena
 *
 /
-uint16
+uint32
 lastCount
 ;
 /
@@ -1813,7 +1813,7 @@ last
 arena
 *
 /
-uint16
+uint32
 thingSize
 ;
 /
