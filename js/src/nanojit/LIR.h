@@ -5898,6 +5898,12 @@ LIR_live
 |
 isop
 (
+LIR_flive
+)
+|
+|
+isop
+(
 LIR_regfence
 )
 |
