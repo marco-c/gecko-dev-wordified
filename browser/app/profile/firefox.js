@@ -2700,7 +2700,7 @@ urlbar
 .
 maxRichResults
 "
-25
+12
 )
 ;
 /
