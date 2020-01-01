@@ -1732,6 +1732,17 @@ genericTarget
 genericTarget
 -
 >
+GetNameSpaceID
+(
+)
+=
+=
+kNameSpaceID_SVG
+&
+&
+genericTarget
+-
+>
 Tag
 (
 )
