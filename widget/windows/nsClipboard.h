@@ -183,6 +183,13 @@ bool
 _retval
 )
 ;
+NS_IMETHOD
+EmptyClipboard
+(
+int32_t
+aWhichClipboard
+)
+;
 /
 /
 Internal
