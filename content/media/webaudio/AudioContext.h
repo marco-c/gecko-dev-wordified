@@ -187,6 +187,9 @@ class
 AudioBuffer
 ;
 class
+GainNode
+;
+class
 AudioContext
 MOZ_FINAL
 :
@@ -298,6 +301,14 @@ aSampleRate
 ErrorResult
 &
 aRv
+)
+;
+already_AddRefed
+<
+GainNode
+>
+CreateGain
+(
 )
 ;
 private
