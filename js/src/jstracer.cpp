@@ -18468,9 +18468,12 @@ i
 ]
 )
 ;
-js_TrashTree
-(
-cx
+trashTree
+=
+true
+;
+whichTreeToTrash
+=
 uexit
 -
 >
@@ -18478,7 +18481,6 @@ fragment
 -
 >
 root
-)
 ;
 break
 ;
