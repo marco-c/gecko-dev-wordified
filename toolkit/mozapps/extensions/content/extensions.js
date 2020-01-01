@@ -20120,6 +20120,8 @@ nsIFilePicker
 modeOpen
 )
 ;
+try
+{
 fp
 .
 appendFilter
@@ -20146,6 +20148,13 @@ nsIFilePicker
 filterAll
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 var
 ret
 =
@@ -20290,6 +20299,8 @@ nsIFilePicker
 modeOpen
 )
 ;
+try
+{
 fp
 .
 appendFilter
@@ -20316,6 +20327,13 @@ nsIFilePicker
 filterAll
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 var
 ret
 =
