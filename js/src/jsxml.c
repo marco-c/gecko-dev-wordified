@@ -1556,8 +1556,6 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Namespace
 )
-|
-JSCLASS_FIXED_BINDING
 JS_PropertyStub
 JS_PropertyStub
 namespace_getProperty

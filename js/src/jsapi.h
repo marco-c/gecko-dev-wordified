@@ -10286,11 +10286,9 @@ Initializer
 macro
 for
 a
-row
-in
-a
 JSFunctionSpec
 array
+element
 .
 This
 is
