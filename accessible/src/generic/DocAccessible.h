@@ -361,7 +361,7 @@ GetNode
 const
 {
 return
-mDocument
+mDocumentNode
 ;
 }
 nsIDocument
@@ -372,7 +372,7 @@ DocumentNode
 const
 {
 return
-mDocument
+mDocumentNode
 ;
 }
 /
@@ -630,10 +630,10 @@ returns
 false
 .
 return
-mDocument
+mDocumentNode
 &
 &
-mDocument
+mDocumentNode
 -
 >
 IsVisible
@@ -642,7 +642,7 @@ IsVisible
 &
 &
 (
-mDocument
+mDocumentNode
 -
 >
 IsShowing
@@ -2582,7 +2582,7 @@ nsCOMPtr
 <
 nsIDocument
 >
-mDocument
+mDocumentNode
 ;
 nsCOMPtr
 <
