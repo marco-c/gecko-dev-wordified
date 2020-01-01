@@ -1682,6 +1682,17 @@ return
 mName
 ;
 }
+gfxFontFamily
+*
+Family
+(
+)
+const
+{
+return
+mFamily
+;
+}
 PRUint16
 Weight
 (
