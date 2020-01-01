@@ -512,6 +512,15 @@ StdInt
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Util
+.
+h
+"
 using
 namespace
 mozilla
@@ -2323,8 +2332,11 @@ thread
 "
 )
 ;
+DebugOnly
+<
 nsresult
-res
+>
+rv
 =
 NS_NewThread
 (
@@ -2337,7 +2349,7 @@ NS_ABORT_IF_FALSE
 (
 NS_SUCCEEDED
 (
-res
+rv
 )
 "
 Can
