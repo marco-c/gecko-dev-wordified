@@ -486,7 +486,7 @@ flag
 *
 values
 from
-nsIWebNabvigation
+nsIWebNavigation
 .
 *
 /
