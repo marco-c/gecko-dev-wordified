@@ -131,6 +131,7 @@ new
 nsContextMenu
 (
 contentAreaContextMenu
+gBrowser
 )
 ;
 is
@@ -214,6 +215,7 @@ new
 nsContextMenu
 (
 contentAreaContextMenu
+gBrowser
 )
 ;
 is
