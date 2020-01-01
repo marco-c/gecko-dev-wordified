@@ -3241,6 +3241,14 @@ return
 js_anonymous_str
 ;
 }
+bool
+IsBuiltinFunctionConstructor
+(
+JSFunction
+*
+fun
+)
+;
 }
 /
 *
