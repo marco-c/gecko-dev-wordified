@@ -727,6 +727,8 @@ obs
 addObserver
 (
 runIframeTests
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -752,6 +754,8 @@ obs
 removeObserver
 (
 runIframeTests
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -765,6 +769,8 @@ obs
 addObserver
 (
 performTestComparisons1
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
@@ -795,6 +801,8 @@ obs
 removeObserver
 (
 performTestComparisons1
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
@@ -808,6 +816,8 @@ obs
 addObserver
 (
 performTestComparisons2
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
@@ -867,6 +877,8 @@ obs
 removeObserver
 (
 performTestComparisons2
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
