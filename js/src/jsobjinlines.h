@@ -9009,10 +9009,11 @@ JS_ASSERT
 (
 kind
 <
+=
 gc
 :
 :
-FINALIZE_OBJECT_LIMIT
+FINALIZE_OBJECT_LAST
 )
 ;
 /
@@ -9218,10 +9219,11 @@ JS_ASSERT
 (
 kind
 <
+=
 gc
 :
 :
-FINALIZE_OBJECT_LIMIT
+FINALIZE_OBJECT_LAST
 )
 ;
 types
