@@ -116,6 +116,15 @@ define
 vm_RegExpStatics_h
 #
 include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
 <
 stddef
 .
@@ -153,7 +162,10 @@ const
 JSObject
 *
 obj
-JSMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 mallocSizeOf
 )
 ;

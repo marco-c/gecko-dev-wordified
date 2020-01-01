@@ -149,6 +149,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -11326,7 +11335,10 @@ GCMarker
 :
 sizeOfExcludingThis
 (
-JSMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 mallocSizeOf
 )
 const

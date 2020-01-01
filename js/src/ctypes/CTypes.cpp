@@ -131,6 +131,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StandardInteger
 .
 h
@@ -8606,7 +8615,10 @@ size_t
 )
 SizeOfDataIfCDataObject
 (
-JSMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 mallocSizeOf
 JSObject
 *

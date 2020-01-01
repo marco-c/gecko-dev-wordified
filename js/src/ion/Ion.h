@@ -120,6 +120,15 @@ JS_ION
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 jscntxt
 .
 h
@@ -1760,7 +1769,10 @@ SizeOfIonData
 JSScript
 *
 script
-JSMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 mallocSizeOf
 )
 ;

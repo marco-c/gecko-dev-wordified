@@ -125,6 +125,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
 <
 stddef
 .
@@ -1967,7 +1976,10 @@ g
 size_t
 sizeOfExcludingThis
 (
-JSMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 mallocSizeOf
 )
 ;

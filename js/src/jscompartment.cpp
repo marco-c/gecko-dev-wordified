@@ -127,6 +127,15 @@ h
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 jscntxt
 .
 h
@@ -5424,7 +5433,10 @@ JSCompartment
 :
 sizeOfIncludingThis
 (
-JSMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 mallocSizeOf
 size_t
 *

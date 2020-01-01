@@ -185,6 +185,15 @@ ed
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -2026,7 +2035,10 @@ const
 void
 sizeOfExcludingThis
 (
-JSMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 mallocSizeOf
 JS
 :

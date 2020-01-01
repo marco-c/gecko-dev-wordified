@@ -117,6 +117,15 @@ vm_Stack_h
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 jsautooplen
 .
 h
@@ -7014,7 +7023,10 @@ rt
 size_t
 sizeOfExcludingThis
 (
-JSMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 mallocSizeOf
 )
 const

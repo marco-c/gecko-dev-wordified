@@ -192,6 +192,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
 <
 fcntl
 .
@@ -599,7 +608,10 @@ MathCache
 :
 sizeOfIncludingThis
 (
-JSMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 mallocSizeOf
 )
 {

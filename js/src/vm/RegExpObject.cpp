@@ -120,6 +120,15 @@ h
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 frontend
 /
 TokenStream
@@ -4425,7 +4434,10 @@ RegExpCompartment
 :
 sizeOfExcludingThis
 (
-JSMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 mallocSizeOf
 )
 {

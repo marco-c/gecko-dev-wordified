@@ -126,6 +126,15 @@ h
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 vm
 /
 ScopeObject
@@ -889,7 +898,10 @@ ArgumentsObject
 :
 sizeOfMisc
 (
-JSMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 mallocSizeOf
 )
 const

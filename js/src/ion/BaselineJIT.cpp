@@ -111,6 +111,15 @@ MPL
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 BaselineCompiler
 .
 h
@@ -5522,7 +5531,10 @@ SizeOfBaselineData
 JSScript
 *
 script
-JSMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 mallocSizeOf
 size_t
 *

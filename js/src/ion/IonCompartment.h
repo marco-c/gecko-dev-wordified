@@ -120,6 +120,15 @@ JS_ION
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 IonCode
 .
 h
@@ -424,7 +433,10 @@ inline
 size_t
 sizeOfExcludingThis
 (
-JSMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 mallocSizeOf
 )
 const
