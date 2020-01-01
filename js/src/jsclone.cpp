@@ -4947,7 +4947,7 @@ context
 (
 )
 &
-js_ObjectClass
+ObjectClass
 )
 ;
 if

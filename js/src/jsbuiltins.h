@@ -794,7 +794,7 @@ that
 is
 of
 class
-js_RegExpClass
+RegExpClass
 *
 '
 f
@@ -808,7 +808,7 @@ that
 is
 of
 class
-js_FunctionClass
+FunctionClass
 *
 '
 v

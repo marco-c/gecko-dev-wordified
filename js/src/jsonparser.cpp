@@ -4207,7 +4207,7 @@ NewBuiltinClassInstance
 (
 cx
 &
-js_ObjectClass
+ObjectClass
 )
 ;
 if
