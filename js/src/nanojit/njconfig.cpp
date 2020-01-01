@@ -756,6 +756,10 @@ harden_function_alignment
 =
 false
 ;
+harden_nop_insertion
+=
+false
+;
 #
 if
 defined
