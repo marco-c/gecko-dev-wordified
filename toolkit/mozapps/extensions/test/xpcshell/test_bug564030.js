@@ -186,12 +186,15 @@ modified
 time
 change
 .
+setExtensionModifiedTime
+(
+dest
 dest
 .
 lastModifiedTime
 -
-=
 5000
+)
 ;
 startupManager
 (
