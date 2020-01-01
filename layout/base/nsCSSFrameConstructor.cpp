@@ -63745,7 +63745,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_NOT_REACHED
 (
 "
 Colgroups
