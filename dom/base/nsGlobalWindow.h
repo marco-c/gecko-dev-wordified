@@ -1056,6 +1056,9 @@ class
 nsHistory
 ;
 class
+nsPerformance
+;
+class
 nsIDocShellLoadInfo
 ;
 class
@@ -2076,6 +2079,8 @@ public
 nsWrapperCache
 public
 PRCListStr
+public
+nsIDOMWindowPerformance
 {
 public
 :
@@ -2255,6 +2260,10 @@ NS_DECL_NSIDOMWINDOW
 /
 nsIDOMWindowInternal
 NS_DECL_NSIDOMWINDOWINTERNAL
+/
+/
+nsIDOMWindowPerformance
+NS_DECL_NSIDOMWINDOWPERFORMANCE
 /
 /
 nsIDOMJSWindow
@@ -3458,6 +3467,12 @@ nsnull
 static
 bool
 HasIndexedDBSupport
+(
+)
+;
+static
+bool
+HasPerformanceSupport
 (
 )
 ;
@@ -5598,6 +5613,12 @@ nsRefPtr
 nsScreen
 >
 mScreen
+;
+nsRefPtr
+<
+nsPerformance
+>
+mPerformance
 ;
 nsRefPtr
 <
