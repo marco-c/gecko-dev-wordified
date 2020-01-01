@@ -5647,7 +5647,7 @@ point
 /
 is
 for
-LIR_qjoin
+LIR_ii2d
 .
 NanoAssert
 (
@@ -5661,7 +5661,7 @@ arg
 >
 isop
 (
-LIR_qjoin
+LIR_ii2d
 )
 )
 ;
@@ -6495,7 +6495,7 @@ p
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 )
 {
@@ -6732,7 +6732,7 @@ the
 comments
 in
 asm_arg_64
-LIR_qjoin
+LIR_ii2d
 /
 /
 can
@@ -6908,7 +6908,7 @@ arg
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 )
 {
@@ -7022,7 +7022,7 @@ ins
 >
 isop
 (
-LIR_fcall
+LIR_calld
 )
 )
 {
@@ -7379,7 +7379,7 @@ ins
 >
 isop
 (
-LIR_icall
+LIR_calli
 )
 )
 ;
@@ -7522,7 +7522,7 @@ opcode
 )
 =
 =
-LIR_fcall
+LIR_calld
 )
 ;
 if
@@ -9771,7 +9771,7 @@ if
 op
 =
 =
-LIR_icall
+LIR_calli
 )
 prefer
 =
@@ -9786,7 +9786,7 @@ if
 op
 =
 =
-LIR_callh
+LIR_hcalli
 )
 prefer
 =
@@ -9801,7 +9801,7 @@ if
 op
 =
 =
-LIR_param
+LIR_paramp
 )
 {
 if
@@ -10043,7 +10043,7 @@ dr
 return
 ;
 case
-LIR_stb
+LIR_sti2c
 :
 if
 (
@@ -10088,7 +10088,7 @@ dr
 return
 ;
 case
-LIR_sts
+LIR_sti2s
 :
 /
 /
@@ -10288,7 +10288,7 @@ ins
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 |
 |
@@ -10317,7 +10317,7 @@ i
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 )
 {
@@ -11075,7 +11075,7 @@ opcode
 )
 {
 case
-LIR_ldf
+LIR_ldd
 :
 if
 (
@@ -11288,7 +11288,7 @@ offset
 return
 ;
 case
-LIR_ld32f
+LIR_ldf2d
 :
 if
 (
@@ -11555,7 +11555,7 @@ op
 )
 {
 case
-LIR_stfi
+LIR_std
 :
 if
 (
@@ -11833,7 +11833,7 @@ da
 return
 ;
 case
-LIR_st32f
+LIR_std2f
 :
 if
 (
@@ -17729,7 +17729,7 @@ op
 )
 {
 case
-LIR_fadd
+LIR_addd
 :
 FADDD
 (
@@ -17741,7 +17741,7 @@ rb
 break
 ;
 case
-LIR_fsub
+LIR_subd
 :
 FSUBD
 (
@@ -17753,7 +17753,7 @@ rb
 break
 ;
 case
-LIR_fmul
+LIR_muld
 :
 FMULD
 (
@@ -17765,7 +17765,7 @@ rb
 break
 ;
 case
-LIR_fdiv
+LIR_divd
 :
 FDIVD
 (
@@ -17856,7 +17856,7 @@ e_bit
 op
 !
 =
-LIR_feq
+LIR_eqd
 )
 ;
 /
@@ -18069,7 +18069,7 @@ always
 signed
 .
 case
-LIR_feq
+LIR_eqd
 :
 cc
 =
@@ -18082,7 +18082,7 @@ true
 break
 ;
 case
-LIR_flt
+LIR_ltd
 :
 cc
 =
@@ -18095,7 +18095,7 @@ true
 break
 ;
 case
-LIR_fle
+LIR_led
 :
 cc
 =
@@ -18108,7 +18108,7 @@ true
 break
 ;
 case
-LIR_fge
+LIR_ged
 :
 cc
 =
@@ -18121,7 +18121,7 @@ true
 break
 ;
 case
-LIR_fgt
+LIR_gtd
 :
 cc
 =
@@ -18143,7 +18143,7 @@ integer
 comparisons
 .
 case
-LIR_eq
+LIR_eqi
 :
 cc
 =
@@ -18156,7 +18156,7 @@ false
 break
 ;
 case
-LIR_lt
+LIR_lti
 :
 cc
 =
@@ -18169,7 +18169,7 @@ false
 break
 ;
 case
-LIR_le
+LIR_lei
 :
 cc
 =
@@ -18182,7 +18182,7 @@ false
 break
 ;
 case
-LIR_gt
+LIR_gti
 :
 cc
 =
@@ -18195,7 +18195,7 @@ false
 break
 ;
 case
-LIR_ge
+LIR_gei
 :
 cc
 =
@@ -18208,7 +18208,7 @@ false
 break
 ;
 case
-LIR_ult
+LIR_ltui
 :
 cc
 =
@@ -18221,7 +18221,7 @@ false
 break
 ;
 case
-LIR_ule
+LIR_leui
 :
 cc
 =
@@ -18234,7 +18234,7 @@ false
 break
 ;
 case
-LIR_ugt
+LIR_gtui
 :
 cc
 =
@@ -18247,7 +18247,7 @@ false
 break
 ;
 case
-LIR_uge
+LIR_geui
 :
 cc
 =
@@ -18485,7 +18485,7 @@ if
 we
 have
 a
-LIR_mulxov
+LIR_mulxovi
 we
 must
 /
@@ -18505,7 +18505,7 @@ cc
 op
 =
 =
-LIR_mulxov
+LIR_mulxovi
 ?
 NE
 :
@@ -18625,7 +18625,7 @@ cond
 >
 isop
 (
-LIR_eq
+LIR_eqi
 )
 )
 {
@@ -18812,7 +18812,7 @@ opcode
 )
 {
 case
-LIR_feq
+LIR_eqd
 :
 SETEQ
 (
@@ -18822,7 +18822,7 @@ r
 break
 ;
 case
-LIR_flt
+LIR_ltd
 :
 SETLO
 (
@@ -18845,7 +18845,7 @@ require
 use
 of
 case
-LIR_fle
+LIR_led
 :
 SETLS
 (
@@ -18865,7 +18865,7 @@ condition
 codes
 !
 case
-LIR_fge
+LIR_ged
 :
 SETGE
 (
@@ -18875,7 +18875,7 @@ r
 break
 ;
 case
-LIR_fgt
+LIR_gtd
 :
 SETGT
 (
@@ -18935,7 +18935,7 @@ op
 )
 {
 case
-LIR_eq
+LIR_eqi
 :
 SETEQ
 (
@@ -18945,7 +18945,7 @@ r
 break
 ;
 case
-LIR_lt
+LIR_lti
 :
 SETLT
 (
@@ -18955,7 +18955,7 @@ r
 break
 ;
 case
-LIR_le
+LIR_lei
 :
 SETLE
 (
@@ -18965,7 +18965,7 @@ r
 break
 ;
 case
-LIR_gt
+LIR_gti
 :
 SETGT
 (
@@ -18975,7 +18975,7 @@ r
 break
 ;
 case
-LIR_ge
+LIR_gei
 :
 SETGE
 (
@@ -18985,7 +18985,7 @@ r
 break
 ;
 case
-LIR_ult
+LIR_ltui
 :
 SETLO
 (
@@ -18995,7 +18995,7 @@ r
 break
 ;
 case
-LIR_ule
+LIR_leui
 :
 SETLS
 (
@@ -19005,7 +19005,7 @@ r
 break
 ;
 case
-LIR_ugt
+LIR_gtui
 :
 SETHI
 (
@@ -19015,7 +19015,7 @@ r
 break
 ;
 case
-LIR_uge
+LIR_geui
 :
 SETHS
 (
@@ -19325,7 +19325,7 @@ multiplications
 /
 /
 However
-LIR_mul
+LIR_muli
 is
 never
 invoked
@@ -19364,13 +19364,13 @@ isImmI
 op
 !
 =
-LIR_mul
+LIR_muli
 &
 &
 op
 !
 =
-LIR_mulxov
+LIR_mulxovi
 )
 {
 if
@@ -19379,13 +19379,13 @@ if
 op
 =
 =
-LIR_add
+LIR_addi
 |
 |
 op
 =
 =
-LIR_addxov
+LIR_addxovi
 )
 &
 &
@@ -19394,7 +19394,7 @@ lhs
 >
 isop
 (
-LIR_ialloc
+LIR_alloci
 )
 )
 {
@@ -19477,7 +19477,7 @@ op
 )
 {
 case
-LIR_add
+LIR_addi
 :
 asm_add_imm
 (
@@ -19489,7 +19489,7 @@ immI
 break
 ;
 case
-LIR_addxov
+LIR_addxovi
 :
 asm_add_imm
 (
@@ -19502,7 +19502,7 @@ immI
 break
 ;
 case
-LIR_sub
+LIR_subi
 :
 asm_sub_imm
 (
@@ -19514,7 +19514,7 @@ immI
 break
 ;
 case
-LIR_subxov
+LIR_subxovi
 :
 asm_sub_imm
 (
@@ -19527,7 +19527,7 @@ immI
 break
 ;
 case
-LIR_and
+LIR_andi
 :
 asm_and_imm
 (
@@ -19539,7 +19539,7 @@ immI
 break
 ;
 case
-LIR_or
+LIR_ori
 :
 asm_orr_imm
 (
@@ -19551,7 +19551,7 @@ immI
 break
 ;
 case
-LIR_xor
+LIR_xori
 :
 asm_eor_imm
 (
@@ -19563,7 +19563,7 @@ immI
 break
 ;
 case
-LIR_lsh
+LIR_lshi
 :
 LSLi
 (
@@ -19575,7 +19575,7 @@ immI
 break
 ;
 case
-LIR_rsh
+LIR_rshi
 :
 ASRi
 (
@@ -19587,7 +19587,7 @@ immI
 break
 ;
 case
-LIR_ush
+LIR_rshui
 :
 LSRi
 (
@@ -19717,7 +19717,7 @@ op
 )
 {
 case
-LIR_add
+LIR_addi
 :
 ADDs
 (
@@ -19730,7 +19730,7 @@ rb
 break
 ;
 case
-LIR_addxov
+LIR_addxovi
 :
 ADDs
 (
@@ -19743,7 +19743,7 @@ rb
 break
 ;
 case
-LIR_sub
+LIR_subi
 :
 SUBs
 (
@@ -19756,7 +19756,7 @@ rb
 break
 ;
 case
-LIR_subxov
+LIR_subxovi
 :
 SUBs
 (
@@ -19769,7 +19769,7 @@ rb
 break
 ;
 case
-LIR_and
+LIR_andi
 :
 ANDs
 (
@@ -19782,7 +19782,7 @@ rb
 break
 ;
 case
-LIR_or
+LIR_ori
 :
 ORRs
 (
@@ -19795,7 +19795,7 @@ rb
 break
 ;
 case
-LIR_xor
+LIR_xori
 :
 EORs
 (
@@ -19811,24 +19811,24 @@ break
 /
 XXX
 :
-LIR_mul
+LIR_muli
 can
 be
 done
 more
 efficiently
 than
-LIR_mulxov
+LIR_mulxovi
 .
 See
 bug
 542629
 .
 case
-LIR_mul
+LIR_muli
 :
 case
-LIR_mulxov
+LIR_mulxovi
 :
 /
 /
@@ -20511,7 +20511,7 @@ than
 JavaScript
 .
 case
-LIR_lsh
+LIR_lshi
 :
 LSL
 (
@@ -20530,7 +20530,7 @@ rb
 break
 ;
 case
-LIR_rsh
+LIR_rshi
 :
 ASR
 (
@@ -20549,7 +20549,7 @@ rb
 break
 ;
 case
-LIR_ush
+LIR_rshui
 :
 LSR
 (
@@ -20690,7 +20690,7 @@ if
 op
 =
 =
-LIR_not
+LIR_noti
 )
 MVN
 (
@@ -20772,7 +20772,7 @@ op
 )
 {
 case
-LIR_ldzb
+LIR_lduc2ui
 :
 if
 (
@@ -20817,7 +20817,7 @@ d
 return
 ;
 case
-LIR_ldzs
+LIR_ldus2ui
 :
 /
 /
@@ -20890,7 +20890,7 @@ d
 return
 ;
 case
-LIR_ld
+LIR_ldi
 :
 /
 /
@@ -20947,7 +20947,7 @@ d
 return
 ;
 case
-LIR_ldsb
+LIR_ldc2i
 :
 if
 (
@@ -20992,7 +20992,7 @@ d
 return
 ;
 case
-LIR_ldss
+LIR_lds2i
 :
 if
 (
@@ -21119,7 +21119,7 @@ opcode
 )
 =
 =
-LIR_cmov
+LIR_cmovi
 &
 &
 iftrue
@@ -21221,7 +21221,7 @@ opposites
 .
 .
 case
-LIR_eq
+LIR_eqi
 :
 MOVNE
 (
@@ -21232,7 +21232,7 @@ iffalsereg
 break
 ;
 case
-LIR_lt
+LIR_lti
 :
 MOVGE
 (
@@ -21243,7 +21243,7 @@ iffalsereg
 break
 ;
 case
-LIR_le
+LIR_lei
 :
 MOVGT
 (
@@ -21254,7 +21254,7 @@ iffalsereg
 break
 ;
 case
-LIR_gt
+LIR_gti
 :
 MOVLE
 (
@@ -21265,7 +21265,7 @@ iffalsereg
 break
 ;
 case
-LIR_ge
+LIR_gei
 :
 MOVLT
 (
@@ -21276,7 +21276,7 @@ iffalsereg
 break
 ;
 case
-LIR_ult
+LIR_ltui
 :
 MOVHS
 (
@@ -21287,7 +21287,7 @@ iffalsereg
 break
 ;
 case
-LIR_ule
+LIR_leui
 :
 MOVHI
 (
@@ -21298,7 +21298,7 @@ iffalsereg
 break
 ;
 case
-LIR_ugt
+LIR_gtui
 :
 MOVLS
 (
@@ -21309,7 +21309,7 @@ iffalsereg
 break
 ;
 case
-LIR_uge
+LIR_geui
 :
 MOVLO
 (
@@ -21767,7 +21767,7 @@ ins
 >
 isop
 (
-LIR_ret
+LIR_reti
 )
 )
 {
@@ -21787,7 +21787,7 @@ ins
 >
 isop
 (
-LIR_fret
+LIR_retd
 )
 )
 ;
@@ -21824,7 +21824,7 @@ value
 >
 isop
 (
-LIR_qjoin
+LIR_ii2d
 )
 )
 ;
