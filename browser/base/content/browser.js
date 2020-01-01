@@ -39899,6 +39899,12 @@ function
 event
 )
 {
+event
+.
+stopPropagation
+(
+)
+;
 if
 (
 event
