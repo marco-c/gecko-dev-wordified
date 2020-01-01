@@ -14705,7 +14705,6 @@ nsDisplayTransform
 "
 TYPE_TRANSFORM
 )
-;
 virtual
 nsRect
 GetComponentAlphaBounds
