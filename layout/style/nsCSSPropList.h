@@ -762,38 +762,6 @@ flags
 -
 .
 '
-datastruct
-'
-says
-which
-nsRuleData
-*
-struct
-this
-property
-goes
-in
-.
--
-.
-'
-member
-'
-gives
-the
-name
-of
-the
-member
-variable
-in
-the
-nsRuleData
-struct
-.
--
-.
-'
 parsevariant
 '
 to
@@ -1131,8 +1099,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1144,8 +1110,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 Font
@@ -1160,8 +1124,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1173,8 +1135,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 Color
@@ -1189,8 +1149,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1202,8 +1160,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 Background
@@ -1218,8 +1174,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1231,8 +1185,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 List
@@ -1247,8 +1199,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1260,8 +1210,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 Position
@@ -1276,8 +1224,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1289,8 +1235,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 Text
@@ -1305,8 +1249,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1318,8 +1260,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 TextReset
@@ -1334,8 +1274,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1347,8 +1285,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 Display
@@ -1363,8 +1299,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1376,8 +1310,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 Visibility
@@ -1392,8 +1324,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1405,8 +1335,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 Content
@@ -1421,8 +1349,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1434,8 +1360,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 Quotes
@@ -1450,8 +1374,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1463,8 +1385,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 UserInterface
@@ -1479,8 +1399,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1492,8 +1410,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 UIReset
@@ -1508,8 +1424,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1521,8 +1435,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 Table
@@ -1537,8 +1449,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1550,8 +1460,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 TableBorder
@@ -1566,8 +1474,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1579,8 +1485,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 Margin
@@ -1595,8 +1499,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1608,8 +1510,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 Padding
@@ -1624,8 +1524,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1637,8 +1535,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 Border
@@ -1653,8 +1549,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1666,8 +1560,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 Outline
@@ -1682,8 +1574,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1695,8 +1585,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 XUL
@@ -1711,8 +1599,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1724,8 +1610,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 Column
@@ -1740,8 +1624,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1753,8 +1635,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 SVG
@@ -1769,8 +1649,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1782,8 +1660,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 SVGReset
@@ -1839,8 +1715,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 )
@@ -1850,8 +1724,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 BackendOnly
@@ -1921,8 +1793,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1949,8 +1819,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -1977,8 +1845,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2005,8 +1871,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2033,8 +1897,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2061,8 +1923,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2089,8 +1949,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2117,8 +1975,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2145,8 +2001,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2173,8 +2027,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2201,8 +2053,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2229,8 +2079,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2257,8 +2105,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2285,8 +2131,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2313,8 +2157,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2341,8 +2183,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2369,8 +2209,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2397,8 +2235,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2425,8 +2261,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2453,8 +2287,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2481,8 +2313,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2509,8 +2339,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2537,8 +2365,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 stylestructoffset_
@@ -2565,8 +2391,6 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
 parsevariant_
 kwtable_
 )
@@ -3041,8 +2865,6 @@ CSS_PROP_DOMPROP_PREFIXED
 Appearance
 )
 CSS_PROPERTY_PARSE_VALUE
-Display
-mAppearance
 VARIANT_HK
 kAppearanceKTable
 CSS_PROP_NO_OFFSET
@@ -3081,10 +2903,6 @@ OutlineRadiusTopleft
 CSS_PROPERTY_PARSE_FUNCTION
 |
 CSS_PROPERTY_STORES_CALC
-Margin
-mOutlineRadius
-.
-mTopLeft
 0
 nsnull
 offsetof
@@ -3112,10 +2930,6 @@ OutlineRadiusTopright
 CSS_PROPERTY_PARSE_FUNCTION
 |
 CSS_PROPERTY_STORES_CALC
-Margin
-mOutlineRadius
-.
-mTopRight
 0
 nsnull
 offsetof
@@ -3143,10 +2957,6 @@ OutlineRadiusBottomright
 CSS_PROPERTY_PARSE_FUNCTION
 |
 CSS_PROPERTY_STORES_CALC
-Margin
-mOutlineRadius
-.
-mBottomRight
 0
 nsnull
 offsetof
@@ -3174,10 +2984,6 @@ OutlineRadiusBottomleft
 CSS_PROPERTY_PARSE_FUNCTION
 |
 CSS_PROPERTY_STORES_CALC
-Margin
-mOutlineRadius
-.
-mBottomLeft
 0
 nsnull
 offsetof
@@ -3203,8 +3009,6 @@ TabSize
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_VALUE_NONNEGATIVE
-Text
-mTabSize
 VARIANT_HI
 nsnull
 offsetof
@@ -3233,8 +3037,6 @@ SystemFont
 CSS_PROPERTY_PARSE_INACCESSIBLE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
-Font
-mSystemFont
 0
 kFontKTable
 CSS_PROP_NO_OFFSET
@@ -3250,8 +3052,6 @@ Azimuth
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_VALUE_PARSER_FUNCTION
-Aural
-mAzimuth
 0
 kAzimuthKTable
 )
@@ -3274,8 +3074,6 @@ CSS_PROPERTY_PARSE_VALUE_LIST
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 |
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
-Color
-mBackAttachment
 VARIANT_KEYWORD
 /
 /
@@ -3299,8 +3097,6 @@ CSS_PROPERTY_PARSE_VALUE_LIST
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 |
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
-Color
-mBackClip
 VARIANT_KEYWORD
 /
 /
@@ -3324,8 +3120,6 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 |
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
-Color
-mBackColor
 VARIANT_HC
 nsnull
 offsetof
@@ -3351,8 +3145,6 @@ CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 |
 CSS_PROPERTY_START_IMAGE_LOADS
-Color
-mBackImage
 VARIANT_IMAGE
 /
 /
@@ -3382,8 +3174,6 @@ BackgroundInlinePolicy
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
-Color
-mBackInlinePolicy
 VARIANT_HK
 kBackgroundInlinePolicyKTable
 CSS_PROP_NO_OFFSET
@@ -3401,8 +3191,6 @@ CSS_PROPERTY_PARSE_VALUE_LIST
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 |
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
-Color
-mBackOrigin
 VARIANT_KEYWORD
 /
 /
@@ -3428,8 +3216,6 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 |
 CSS_PROPERTY_STORES_CALC
-Color
-mBackPosition
 0
 kBackgroundPositionKTable
 CSS_PROP_NO_OFFSET
@@ -3447,8 +3233,6 @@ CSS_PROPERTY_PARSE_VALUE_LIST
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 |
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
-Color
-mBackRepeat
 VARIANT_KEYWORD
 /
 /
@@ -3474,8 +3258,6 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 |
 CSS_PROPERTY_STORES_CALC
-Color
-mBackSize
 0
 kBackgroundSizeKTable
 CSS_PROP_NO_OFFSET
@@ -3493,8 +3275,6 @@ CSS_PROP_DOMPROP_PREFIXED
 Binding
 )
 CSS_PROPERTY_PARSE_VALUE
-Display
-mBinding
 VARIANT_HUO
 nsnull
 CSS_PROP_NO_OFFSET
@@ -3535,10 +3315,6 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
-Margin
-mBorderColor
-.
-mBottom
 VARIANT_HCK
 kBorderColorKTable
 CSS_PROP_NO_OFFSET
@@ -3564,10 +3340,6 @@ CSS_PROPERTY_PARSE_FUNCTION
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
-Margin
-mBorderColors
-.
-mBottom
 0
 nsnull
 CSS_PROP_NO_OFFSET
@@ -3585,10 +3357,6 @@ BorderBottomStyle
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
-Margin
-mBorderStyle
-.
-mBottom
 VARIANT_HK
 kBorderStyleKTable
 CSS_PROP_NO_OFFSET
@@ -3616,10 +3384,6 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_VALUE_NONNEGATIVE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
-Margin
-mBorderWidth
-.
-mBottom
 VARIANT_HKL
 |
 VARIANT_CALC
@@ -3635,8 +3399,6 @@ collapse
 border_collapse
 BorderCollapse
 CSS_PROPERTY_PARSE_VALUE
-Table
-mBorderCollapse
 VARIANT_HK
 kBorderCollapseKTable
 CSS_PROP_NO_OFFSET
@@ -3700,8 +3462,6 @@ BorderEndColorValue
 CSS_PROPERTY_PARSE_INACCESSIBLE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
-Margin
-mBorderEndColor
 VARIANT_HCK
 /
 /
@@ -3748,8 +3508,6 @@ BorderEndStyleValue
 CSS_PROPERTY_PARSE_INACCESSIBLE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
-Margin
-mBorderEndStyle
 VARIANT_HK
 /
 /
@@ -3798,8 +3556,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_VALUE_NONNEGATIVE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
-Margin
-mBorderEndWidth
 VARIANT_HKL
 |
 VARIANT_CALC
@@ -3829,8 +3585,6 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_START_IMAGE_LOADS
 |
 CSS_PROPERTY_IMAGE_IS_IN_ARRAY_0
-Margin
-mBorderImage
 0
 kBorderImageKTable
 CSS_PROP_NO_OFFSET
@@ -3877,10 +3631,6 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 |
 CSS_PROPERTY_REPORT_OTHER_NAME
-Margin
-mBorderColor
-.
-mLeft
 VARIANT_HCK
 /
 /
@@ -3911,8 +3661,6 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 |
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
-Margin
-mBorderLeftColorLTRSource
 0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
@@ -3938,8 +3686,6 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 |
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
-Margin
-mBorderLeftColorRTLSource
 0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
@@ -3967,10 +3713,6 @@ CSS_PROPERTY_PARSE_FUNCTION
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
-Margin
-mBorderColors
-.
-mLeft
 0
 nsnull
 CSS_PROP_NO_OFFSET
@@ -4014,10 +3756,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_REPORT_OTHER_NAME
-Margin
-mBorderStyle
-.
-mLeft
 VARIANT_HK
 /
 /
@@ -4046,8 +3784,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
-Margin
-mBorderLeftStyleLTRSource
 0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
@@ -4071,8 +3807,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
-Margin
-mBorderLeftStyleRTLSource
 0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
@@ -4112,10 +3846,6 @@ CSS_PROPERTY_VALUE_NONNEGATIVE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_REPORT_OTHER_NAME
-Margin
-mBorderWidth
-.
-mLeft
 VARIANT_HKL
 |
 VARIANT_CALC
@@ -4141,8 +3871,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
-Margin
-mBorderLeftWidthLTRSource
 0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
@@ -4166,8 +3894,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
-Margin
-mBorderLeftWidthRTLSource
 0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
@@ -4216,10 +3942,6 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 |
 CSS_PROPERTY_REPORT_OTHER_NAME
-Margin
-mBorderColor
-.
-mRight
 VARIANT_HCK
 /
 /
@@ -4250,8 +3972,6 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 |
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
-Margin
-mBorderRightColorLTRSource
 0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
@@ -4277,8 +3997,6 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 |
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
-Margin
-mBorderRightColorRTLSource
 0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
@@ -4306,10 +4024,6 @@ CSS_PROPERTY_PARSE_FUNCTION
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
-Margin
-mBorderColors
-.
-mRight
 0
 nsnull
 CSS_PROP_NO_OFFSET
@@ -4353,10 +4067,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_REPORT_OTHER_NAME
-Margin
-mBorderStyle
-.
-mRight
 VARIANT_HK
 /
 /
@@ -4385,8 +4095,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
-Margin
-mBorderRightStyleLTRSource
 0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
@@ -4410,8 +4118,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
-Margin
-mBorderRightStyleRTLSource
 0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
@@ -4451,10 +4157,6 @@ CSS_PROPERTY_VALUE_NONNEGATIVE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_REPORT_OTHER_NAME
-Margin
-mBorderWidth
-.
-mRight
 VARIANT_HKL
 |
 VARIANT_CALC
@@ -4480,8 +4182,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
-Margin
-mBorderRightWidthLTRSource
 0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
@@ -4505,8 +4205,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
-Margin
-mBorderRightWidthRTLSource
 0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
@@ -4522,8 +4220,6 @@ spacing
 border_spacing
 BorderSpacing
 CSS_PROPERTY_PARSE_FUNCTION
-Table
-mBorderSpacing
 0
 nsnull
 CSS_PROP_NO_OFFSET
@@ -4583,8 +4279,6 @@ BorderStartColorValue
 CSS_PROPERTY_PARSE_INACCESSIBLE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
-Margin
-mBorderStartColor
 VARIANT_HCK
 /
 /
@@ -4631,8 +4325,6 @@ BorderStartStyleValue
 CSS_PROPERTY_PARSE_INACCESSIBLE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
-Margin
-mBorderStartStyle
 VARIANT_HK
 /
 /
@@ -4681,8 +4373,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_VALUE_NONNEGATIVE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
-Margin
-mBorderStartWidth
 VARIANT_HKL
 |
 VARIANT_CALC
@@ -4732,10 +4422,6 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
-Margin
-mBorderColor
-.
-mTop
 VARIANT_HCK
 kBorderColorKTable
 CSS_PROP_NO_OFFSET
@@ -4761,10 +4447,6 @@ CSS_PROPERTY_PARSE_FUNCTION
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
-Margin
-mBorderColors
-.
-mTop
 0
 nsnull
 CSS_PROP_NO_OFFSET
@@ -4782,10 +4464,6 @@ BorderTopStyle
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
-Margin
-mBorderStyle
-.
-mTop
 VARIANT_HK
 kBorderStyleKTable
 CSS_PROP_NO_OFFSET
@@ -4813,10 +4491,6 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_VALUE_NONNEGATIVE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
-Margin
-mBorderWidth
-.
-mTop
 VARIANT_HKL
 |
 VARIANT_CALC
@@ -4858,10 +4532,6 @@ CSS_PROPERTY_PARSE_FUNCTION
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_STORES_CALC
-Margin
-mBorderRadius
-.
-mTopLeft
 0
 nsnull
 offsetof
@@ -4887,10 +4557,6 @@ CSS_PROPERTY_PARSE_FUNCTION
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_STORES_CALC
-Margin
-mBorderRadius
-.
-mTopRight
 0
 nsnull
 offsetof
@@ -4916,10 +4582,6 @@ CSS_PROPERTY_PARSE_FUNCTION
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_STORES_CALC
-Margin
-mBorderRadius
-.
-mBottomRight
 0
 nsnull
 offsetof
@@ -4945,10 +4607,6 @@ CSS_PROPERTY_PARSE_FUNCTION
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_STORES_CALC
-Margin
-mBorderRadius
-.
-mBottomLeft
 0
 nsnull
 offsetof
@@ -4966,10 +4624,6 @@ Bottom
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_STORES_CALC
-Position
-mOffset
-.
-mBottom
 VARIANT_AHLP
 |
 VARIANT_CALC
@@ -4995,8 +4649,6 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 |
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
-Margin
-mBoxShadow
 0
 kBoxShadowTypeKTable
 offsetof
@@ -5020,8 +4672,6 @@ CSS_PROP_DOMPROP_PREFIXED
 BoxSizing
 )
 CSS_PROPERTY_PARSE_VALUE
-Position
-mBoxSizing
 VARIANT_HK
 kBoxSizingKTable
 CSS_PROP_NO_OFFSET
@@ -5040,8 +4690,6 @@ side
 caption_side
 CaptionSide
 CSS_PROPERTY_PARSE_VALUE
-Table
-mCaptionSide
 VARIANT_HK
 kCaptionSideKTable
 CSS_PROP_NO_OFFSET
@@ -5053,8 +4701,6 @@ clear
 clear
 Clear
 CSS_PROPERTY_PARSE_VALUE
-Display
-mClear
 VARIANT_HK
 kClearKTable
 CSS_PROP_NO_OFFSET
@@ -5066,8 +4712,6 @@ clip
 clip
 Clip
 CSS_PROPERTY_PARSE_FUNCTION
-Display
-mClip
 0
 nsnull
 offsetof
@@ -5087,8 +4731,6 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 |
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
-Color
-mColor
 VARIANT_HC
 nsnull
 offsetof
@@ -5140,8 +4782,6 @@ something
 else
 .
 CSS_PROPERTY_VALUE_POSITIVE_NONZERO
-Column
-mColumnCount
 VARIANT_AHI
 nsnull
 offsetof
@@ -5167,8 +4807,6 @@ ColumnWidth
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_VALUE_NONNEGATIVE
-Column
-mColumnWidth
 VARIANT_AHL
 |
 VARIANT_CALC
@@ -5196,8 +4834,6 @@ ColumnGap
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_VALUE_NONNEGATIVE
-Column
-mColumnGap
 VARIANT_HL
 |
 VARIANT_NORMAL
@@ -5244,8 +4880,6 @@ ColumnRuleColor
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
-Column
-mColumnRuleColor
 VARIANT_HCK
 kBorderColorKTable
 CSS_PROP_NO_OFFSET
@@ -5267,8 +4901,6 @@ CSS_PROP_DOMPROP_PREFIXED
 ColumnRuleStyle
 )
 CSS_PROPERTY_PARSE_VALUE
-Column
-mColumnRuleStyle
 VARIANT_HK
 kBorderStyleKTable
 CSS_PROP_NO_OFFSET
@@ -5292,8 +4924,6 @@ ColumnRuleWidth
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_VALUE_NONNEGATIVE
-Column
-mColumnRuleWidth
 VARIANT_HKL
 |
 VARIANT_CALC
@@ -5309,8 +4939,6 @@ Content
 CSS_PROPERTY_PARSE_FUNCTION
 |
 CSS_PROPERTY_START_IMAGE_LOADS
-Content
-mContent
 0
 kContentKTable
 CSS_PROP_NO_OFFSET
@@ -5324,8 +4952,6 @@ increment
 counter_increment
 CounterIncrement
 CSS_PROPERTY_PARSE_FUNCTION
-Content
-mCounterIncrement
 0
 nsnull
 CSS_PROP_NO_OFFSET
@@ -5344,8 +4970,6 @@ reset
 counter_reset
 CounterReset
 CSS_PROPERTY_PARSE_FUNCTION
-Content
-mCounterReset
 0
 nsnull
 CSS_PROP_NO_OFFSET
@@ -5371,8 +4995,6 @@ after
 cue_after
 CueAfter
 CSS_PROPERTY_PARSE_VALUE
-Aural
-mCueAfter
 VARIANT_HUO
 nsnull
 )
@@ -5384,8 +5006,6 @@ before
 cue_before
 CueBefore
 CSS_PROPERTY_PARSE_VALUE
-Aural
-mCueBefore
 VARIANT_HUO
 nsnull
 )
@@ -5401,8 +5021,6 @@ CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 CSS_PROPERTY_START_IMAGE_LOADS
 |
 CSS_PROPERTY_IMAGE_IS_IN_ARRAY_0
-UserInterface
-mCursor
 0
 kCursorKTable
 CSS_PROP_NO_OFFSET
@@ -5414,8 +5032,6 @@ direction
 direction
 Direction
 CSS_PROPERTY_PARSE_VALUE
-Display
-mDirection
 VARIANT_HK
 kDirectionKTable
 CSS_PROP_NO_OFFSET
@@ -5427,8 +5043,6 @@ display
 display
 Display
 CSS_PROPERTY_PARSE_VALUE
-Display
-mDisplay
 VARIANT_HK
 kDisplayKTable
 offsetof
@@ -5444,8 +5058,6 @@ elevation
 elevation
 Elevation
 CSS_PROPERTY_PARSE_VALUE
-Aural
-mElevation
 VARIANT_HK
 |
 VARIANT_ANGLE
@@ -5459,8 +5071,6 @@ cells
 empty_cells
 EmptyCells
 CSS_PROPERTY_PARSE_VALUE
-Table
-mEmptyCells
 VARIANT_HK
 kEmptyCellsKTable
 CSS_PROP_NO_OFFSET
@@ -5474,8 +5084,6 @@ CssFloat
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
-Display
-mFloat
 VARIANT_HK
 kFloatKTable
 CSS_PROP_NO_OFFSET
@@ -5495,8 +5103,6 @@ CSS_PROP_DOMPROP_PREFIXED
 FloatEdge
 )
 CSS_PROPERTY_PARSE_VALUE
-Margin
-mFloatEdge
 VARIANT_HK
 kFloatEdgeKTable
 CSS_PROP_NO_OFFSET
@@ -5526,8 +5132,6 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_VALUE_PARSER_FUNCTION
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
-Font
-mFamily
 0
 nsnull
 CSS_PROP_NO_OFFSET
@@ -5551,8 +5155,6 @@ FontFeatureSettings
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
-Font
-mFontFeatureSettings
 VARIANT_NORMAL
 |
 VARIANT_INHERIT
@@ -5580,8 +5182,6 @@ FontLanguageOverride
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
-Font
-mFontLanguageOverride
 VARIANT_NORMAL
 |
 VARIANT_INHERIT
@@ -5603,8 +5203,6 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_VALUE_NONNEGATIVE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
-Font
-mSize
 VARIANT_HKLP
 |
 VARIANT_SYSFONT
@@ -5659,8 +5257,6 @@ FontSizeAdjust
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
-Font
-mSizeAdjust
 VARIANT_HON
 |
 VARIANT_SYSFONT
@@ -5684,8 +5280,6 @@ FontStretch
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
-Font
-mStretch
 VARIANT_HK
 |
 VARIANT_SYSFONT
@@ -5709,8 +5303,6 @@ FontStyle
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
-Font
-mStyle
 VARIANT_HK
 |
 VARIANT_SYSFONT
@@ -5734,8 +5326,6 @@ FontVariant
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
-Font
-mVariant
 VARIANT_HK
 |
 VARIANT_SYSFONT
@@ -5761,8 +5351,6 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_VALUE_PARSER_FUNCTION
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
-Font
-mWeight
 0
 kFontWeightKTable
 offsetof
@@ -5794,8 +5382,6 @@ ForceBrokenImageIcon
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_VALUE_NONNEGATIVE
-UserInterface
-mForceBrokenImageIcon
 VARIANT_HI
 nsnull
 CSS_PROP_NO_OFFSET
@@ -5815,8 +5401,6 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_VALUE_NONNEGATIVE
 |
 CSS_PROPERTY_STORES_CALC
-Position
-mHeight
 VARIANT_AHLP
 |
 VARIANT_CALC
@@ -5842,8 +5426,6 @@ CSS_PROP_DOMPROP_PREFIXED
 ImageRegion
 )
 CSS_PROPERTY_PARSE_FUNCTION
-List
-mImageRegion
 0
 nsnull
 offsetof
@@ -5861,8 +5443,6 @@ mode
 ime_mode
 ImeMode
 CSS_PROPERTY_PARSE_VALUE
-UserInterface
-mIMEMode
 VARIANT_HK
 kIMEModeKTable
 CSS_PROP_NO_OFFSET
@@ -5876,10 +5456,6 @@ Left
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_STORES_CALC
-Position
-mOffset
-.
-mLeft
 VARIANT_AHLP
 |
 VARIANT_CALC
@@ -5901,8 +5477,6 @@ LetterSpacing
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
-Text
-mLetterSpacing
 VARIANT_HL
 |
 VARIANT_NORMAL
@@ -5928,8 +5502,6 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_VALUE_NONNEGATIVE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
-Text
-mLineHeight
 VARIANT_HLPN
 |
 VARIANT_KEYWORD
@@ -5966,8 +5538,6 @@ ListStyleImage
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_START_IMAGE_LOADS
-List
-mImage
 VARIANT_HUO
 nsnull
 CSS_PROP_NO_OFFSET
@@ -5983,8 +5553,6 @@ position
 list_style_position
 ListStylePosition
 CSS_PROPERTY_PARSE_VALUE
-List
-mPosition
 VARIANT_HK
 kListStylePositionKTable
 CSS_PROP_NO_OFFSET
@@ -6000,8 +5568,6 @@ type
 list_style_type
 ListStyleType
 CSS_PROPERTY_PARSE_VALUE
-List
-mType
 VARIANT_HK
 kListStyleKTable
 CSS_PROP_NO_OFFSET
@@ -6026,10 +5592,6 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_STORES_CALC
-Margin
-mMargin
-.
-mBottom
 VARIANT_AHLP
 |
 VARIANT_CALC
@@ -6073,8 +5635,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_STORES_CALC
-Margin
-mMarginEnd
 VARIANT_AHLP
 |
 VARIANT_CALC
@@ -6117,10 +5677,6 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_REPORT_OTHER_NAME
 |
 CSS_PROPERTY_STORES_CALC
-Margin
-mMargin
-.
-mLeft
 VARIANT_AHLP
 |
 VARIANT_CALC
@@ -6153,8 +5709,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
-Margin
-mMarginLeftLTRSource
 0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
@@ -6176,8 +5730,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
-Margin
-mMarginLeftRTLSource
 0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
@@ -6213,10 +5765,6 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_REPORT_OTHER_NAME
 |
 CSS_PROPERTY_STORES_CALC
-Margin
-mMargin
-.
-mRight
 VARIANT_AHLP
 |
 VARIANT_CALC
@@ -6249,8 +5797,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
-Margin
-mMarginRightLTRSource
 0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
@@ -6272,8 +5818,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
-Margin
-mMarginRightRTLSource
 0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
@@ -6313,8 +5857,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_STORES_CALC
-Margin
-mMarginStart
 VARIANT_AHLP
 |
 VARIANT_CALC
@@ -6341,10 +5883,6 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_STORES_CALC
-Margin
-mMargin
-.
-mTop
 VARIANT_AHLP
 |
 VARIANT_CALC
@@ -6364,8 +5902,6 @@ offset
 marker_offset
 MarkerOffset
 CSS_PROPERTY_PARSE_VALUE
-Content
-mMarkerOffset
 VARIANT_AHL
 |
 VARIANT_CALC
@@ -6385,8 +5921,6 @@ Marks
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_VALUE_PARSER_FUNCTION
-Page
-mMarks
 0
 kPageMarksKTable
 )
@@ -6402,8 +5936,6 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_VALUE_NONNEGATIVE
 |
 CSS_PROPERTY_STORES_CALC
-Position
-mMaxHeight
 VARIANT_HLPO
 |
 VARIANT_CALC
@@ -6427,8 +5959,6 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_VALUE_NONNEGATIVE
 |
 CSS_PROPERTY_STORES_CALC
-Position
-mMaxWidth
 VARIANT_HKLPO
 |
 VARIANT_CALC
@@ -6452,8 +5982,6 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_VALUE_NONNEGATIVE
 |
 CSS_PROPERTY_STORES_CALC
-Position
-mMinHeight
 VARIANT_HLP
 |
 VARIANT_CALC
@@ -6477,8 +6005,6 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_VALUE_NONNEGATIVE
 |
 CSS_PROPERTY_STORES_CALC
-Position
-mMinWidth
 VARIANT_HKLP
 |
 VARIANT_CALC
@@ -6496,8 +6022,6 @@ opacity
 opacity
 Opacity
 CSS_PROPERTY_PARSE_VALUE
-Display
-mOpacity
 VARIANT_HN
 nsnull
 offsetof
@@ -6520,8 +6044,6 @@ Orphans
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_VALUE_POSITIVE_NONZERO
-Breaks
-mOrphans
 VARIANT_HI
 nsnull
 )
@@ -6542,8 +6064,6 @@ OutlineColor
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
-Margin
-mOutlineColor
 VARIANT_HCK
 kOutlineColorKTable
 CSS_PROP_NO_OFFSET
@@ -6557,8 +6077,6 @@ style
 outline_style
 OutlineStyle
 CSS_PROPERTY_PARSE_VALUE
-Margin
-mOutlineStyle
 VARIANT_HK
 kOutlineStyleKTable
 CSS_PROP_NO_OFFSET
@@ -6574,8 +6092,6 @@ OutlineWidth
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_VALUE_NONNEGATIVE
-Margin
-mOutlineWidth
 VARIANT_HKL
 |
 VARIANT_CALC
@@ -6595,8 +6111,6 @@ offset
 outline_offset
 OutlineOffset
 CSS_PROPERTY_PARSE_VALUE
-Margin
-mOutlineOffset
 VARIANT_HL
 |
 VARIANT_CALC
@@ -6623,8 +6137,6 @@ x
 overflow_x
 OverflowX
 CSS_PROPERTY_PARSE_VALUE
-Display
-mOverflowX
 VARIANT_HK
 kOverflowSubKTable
 CSS_PROP_NO_OFFSET
@@ -6638,8 +6150,6 @@ y
 overflow_y
 OverflowY
 CSS_PROPERTY_PARSE_VALUE
-Display
-mOverflowY
 VARIANT_HK
 kOverflowSubKTable
 CSS_PROP_NO_OFFSET
@@ -6666,10 +6176,6 @@ CSS_PROPERTY_VALUE_NONNEGATIVE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_STORES_CALC
-Margin
-mPadding
-.
-mBottom
 VARIANT_HLP
 |
 VARIANT_CALC
@@ -6715,8 +6221,6 @@ CSS_PROPERTY_VALUE_NONNEGATIVE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_STORES_CALC
-Margin
-mPaddingEnd
 VARIANT_HLP
 |
 VARIANT_CALC
@@ -6761,10 +6265,6 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_REPORT_OTHER_NAME
 |
 CSS_PROPERTY_STORES_CALC
-Margin
-mPadding
-.
-mLeft
 VARIANT_HLP
 |
 VARIANT_CALC
@@ -6797,8 +6297,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
-Margin
-mPaddingLeftLTRSource
 0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
@@ -6820,8 +6318,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
-Margin
-mPaddingLeftRTLSource
 0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
@@ -6859,10 +6355,6 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_REPORT_OTHER_NAME
 |
 CSS_PROPERTY_STORES_CALC
-Margin
-mPadding
-.
-mRight
 VARIANT_HLP
 |
 VARIANT_CALC
@@ -6895,8 +6387,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
-Margin
-mPaddingRightLTRSource
 0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
@@ -6918,8 +6408,6 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
-Margin
-mPaddingRightRTLSource
 0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
@@ -6961,8 +6449,6 @@ CSS_PROPERTY_VALUE_NONNEGATIVE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_STORES_CALC
-Margin
-mPaddingStart
 VARIANT_HLP
 |
 VARIANT_CALC
@@ -6991,10 +6477,6 @@ CSS_PROPERTY_VALUE_NONNEGATIVE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_STORES_CALC
-Margin
-mPadding
-.
-mTop
 VARIANT_HLP
 |
 VARIANT_CALC
@@ -7012,8 +6494,6 @@ page
 page
 Page
 CSS_PROPERTY_PARSE_VALUE
-Breaks
-mPage
 VARIANT_AUTO
 |
 VARIANT_IDENTIFIER
@@ -7029,8 +6509,6 @@ after
 page_break_after
 PageBreakAfter
 CSS_PROPERTY_PARSE_VALUE
-Display
-mBreakAfter
 VARIANT_HK
 kPageBreakKTable
 CSS_PROP_NO_OFFSET
@@ -7053,8 +6531,6 @@ before
 page_break_before
 PageBreakBefore
 CSS_PROPERTY_PARSE_VALUE
-Display
-mBreakBefore
 VARIANT_HK
 kPageBreakKTable
 CSS_PROP_NO_OFFSET
@@ -7077,8 +6553,6 @@ inside
 page_break_inside
 PageBreakInside
 CSS_PROPERTY_PARSE_VALUE
-Breaks
-mPageBreakInside
 VARIANT_HK
 kPageBreakInsideKTable
 )
@@ -7097,8 +6571,6 @@ after
 pause_after
 PauseAfter
 CSS_PROPERTY_PARSE_VALUE
-Aural
-mPauseAfter
 VARIANT_HTP
 nsnull
 )
@@ -7110,8 +6582,6 @@ before
 pause_before
 PauseBefore
 CSS_PROPERTY_PARSE_VALUE
-Aural
-mPauseBefore
 VARIANT_HTP
 nsnull
 )
@@ -7121,8 +6591,6 @@ pitch
 pitch
 Pitch
 CSS_PROPERTY_PARSE_VALUE
-Aural
-mPitch
 VARIANT_HKF
 kPitchKTable
 )
@@ -7134,8 +6602,6 @@ range
 pitch_range
 PitchRange
 CSS_PROPERTY_PARSE_VALUE
-Aural
-mPitchRange
 VARIANT_HN
 nsnull
 )
@@ -7147,8 +6613,6 @@ events
 pointer_events
 PointerEvents
 CSS_PROPERTY_PARSE_VALUE
-Display
-mPointerEvents
 VARIANT_HK
 kPointerEventsKTable
 offsetof
@@ -7164,8 +6628,6 @@ position
 position
 Position
 CSS_PROPERTY_PARSE_VALUE
-Display
-mPosition
 VARIANT_HK
 kPositionKTable
 CSS_PROP_NO_OFFSET
@@ -7177,8 +6639,6 @@ quotes
 quotes
 Quotes
 CSS_PROPERTY_PARSE_FUNCTION
-Content
-mQuotes
 0
 nsnull
 CSS_PROP_NO_OFFSET
@@ -7190,8 +6650,6 @@ resize
 resize
 Resize
 CSS_PROPERTY_PARSE_VALUE
-Display
-mResize
 VARIANT_HK
 kResizeKTable
 CSS_PROP_NO_OFFSET
@@ -7203,8 +6661,6 @@ richness
 richness
 Richness
 CSS_PROPERTY_PARSE_VALUE
-Aural
-mRichness
 VARIANT_HN
 nsnull
 )
@@ -7216,10 +6672,6 @@ Right
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_STORES_CALC
-Position
-mOffset
-.
-mRight
 VARIANT_AHLP
 |
 VARIANT_CALC
@@ -7237,8 +6689,6 @@ size
 size
 Size
 CSS_PROPERTY_PARSE_FUNCTION
-Page
-mSize
 0
 kPageSizeKTable
 )
@@ -7248,8 +6698,6 @@ speak
 speak
 Speak
 CSS_PROPERTY_PARSE_VALUE
-Aural
-mSpeak
 VARIANT_HK
 kSpeakKTable
 )
@@ -7261,8 +6709,6 @@ header
 speak_header
 SpeakHeader
 CSS_PROPERTY_PARSE_VALUE
-Aural
-mSpeakHeader
 VARIANT_HK
 kSpeakHeaderKTable
 )
@@ -7274,8 +6720,6 @@ numeral
 speak_numeral
 SpeakNumeral
 CSS_PROPERTY_PARSE_VALUE
-Aural
-mSpeakNumeral
 VARIANT_HK
 kSpeakNumeralKTable
 )
@@ -7287,8 +6731,6 @@ punctuation
 speak_punctuation
 SpeakPunctuation
 CSS_PROPERTY_PARSE_VALUE
-Aural
-mSpeakPunctuation
 VARIANT_HK
 kSpeakPunctuationKTable
 )
@@ -7300,8 +6742,6 @@ rate
 speech_rate
 SpeechRate
 CSS_PROPERTY_PARSE_VALUE
-Aural
-mSpeechRate
 VARIANT_HN
 |
 VARIANT_KEYWORD
@@ -7313,8 +6753,6 @@ stress
 stress
 Stress
 CSS_PROPERTY_PARSE_VALUE
-Aural
-mStress
 VARIANT_HN
 nsnull
 )
@@ -7326,8 +6764,6 @@ layout
 table_layout
 TableLayout
 CSS_PROPERTY_PARSE_VALUE
-Table
-mLayout
 VARIANT_HK
 kTableLayoutKTable
 CSS_PROP_NO_OFFSET
@@ -7341,8 +6777,6 @@ align
 text_align
 TextAlign
 CSS_PROPERTY_PARSE_VALUE
-Text
-mTextAlign
 /
 /
 When
@@ -7390,8 +6824,6 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_VALUE_PARSER_FUNCTION
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
-Text
-mDecoration
 0
 kTextDecorationKTable
 offsetof
@@ -7411,8 +6843,6 @@ TextIndent
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_STORES_CALC
-Text
-mTextIndent
 VARIANT_HLP
 |
 VARIANT_CALC
@@ -7438,8 +6868,6 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 |
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
-Text
-mTextShadow
 0
 nsnull
 offsetof
@@ -7459,8 +6887,6 @@ TextTransform
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
-Text
-mTextTransform
 VARIANT_HK
 kTextTransformKTable
 CSS_PROP_NO_OFFSET
@@ -7478,8 +6904,6 @@ CSS_PROP_DOMPROP_PREFIXED
 Transform
 )
 CSS_PROPERTY_PARSE_FUNCTION
-Display
-mTransform
 0
 kDisplayKTable
 offsetof
@@ -7505,8 +6929,6 @@ TransformOrigin
 CSS_PROPERTY_PARSE_FUNCTION
 |
 CSS_PROPERTY_STORES_CALC
-Display
-mTransformOrigin
 0
 kBackgroundPositionKTable
 CSS_PROP_NO_OFFSET
@@ -7520,10 +6942,6 @@ Top
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_STORES_CALC
-Position
-mOffset
-.
-mTop
 VARIANT_AHLP
 |
 VARIANT_CALC
@@ -7564,8 +6982,6 @@ TransitionDelay
 CSS_PROPERTY_PARSE_VALUE_LIST
 |
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
-Display
-mTransitionDelay
 VARIANT_TIME
 /
 /
@@ -7593,8 +7009,6 @@ TransitionDuration
 CSS_PROPERTY_PARSE_VALUE_LIST
 |
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
-Display
-mTransitionDuration
 VARIANT_TIME
 /
 /
@@ -7622,8 +7036,6 @@ TransitionProperty
 CSS_PROPERTY_PARSE_FUNCTION
 |
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
-Display
-mTransitionProperty
 VARIANT_IDENTIFIER
 |
 VARIANT_NONE
@@ -7657,8 +7069,6 @@ TransitionTimingFunction
 CSS_PROPERTY_PARSE_VALUE_LIST
 |
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
-Display
-mTransitionTimingFunction
 VARIANT_TIMING_FUNCTION
 /
 /
@@ -7678,8 +7088,6 @@ bidi
 unicode_bidi
 UnicodeBidi
 CSS_PROPERTY_PARSE_VALUE
-Text
-mUnicodeBidi
 VARIANT_HK
 kUnicodeBidiKTable
 CSS_PROP_NO_OFFSET
@@ -7699,8 +7107,6 @@ CSS_PROP_DOMPROP_PREFIXED
 UserFocus
 )
 CSS_PROPERTY_PARSE_VALUE
-UserInterface
-mUserFocus
 VARIANT_HK
 kUserFocusKTable
 CSS_PROP_NO_OFFSET
@@ -7725,8 +7131,6 @@ CSS_PROP_DOMPROP_PREFIXED
 UserInput
 )
 CSS_PROPERTY_PARSE_VALUE
-UserInterface
-mUserInput
 VARIANT_HK
 kUserInputKTable
 CSS_PROP_NO_OFFSET
@@ -7757,8 +7161,6 @@ CSS_PROP_DOMPROP_PREFIXED
 UserModify
 )
 CSS_PROPERTY_PARSE_VALUE
-UserInterface
-mUserModify
 VARIANT_HK
 kUserModifyKTable
 CSS_PROP_NO_OFFSET
@@ -7783,8 +7185,6 @@ CSS_PROP_DOMPROP_PREFIXED
 UserSelect
 )
 CSS_PROPERTY_PARSE_VALUE
-UserInterface
-mUserSelect
 VARIANT_HK
 kUserSelectKTable
 CSS_PROP_NO_OFFSET
@@ -7850,8 +7250,6 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 |
 CSS_PROPERTY_STORES_CALC
-Text
-mVerticalAlign
 VARIANT_HKLP
 |
 VARIANT_CALC
@@ -7869,8 +7267,6 @@ visibility
 visibility
 Visibility
 CSS_PROPERTY_PARSE_VALUE
-Display
-mVisibility
 VARIANT_HK
 kVisibilityKTable
 offsetof
@@ -7895,8 +7291,6 @@ VoiceFamily
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_VALUE_PARSER_FUNCTION
-Aural
-mVoiceFamily
 0
 nsnull
 )
@@ -7906,8 +7300,6 @@ volume
 volume
 Volume
 CSS_PROPERTY_PARSE_VALUE
-Aural
-mVolume
 VARIANT_HPN
 |
 VARIANT_KEYWORD
@@ -7921,8 +7313,6 @@ space
 white_space
 WhiteSpace
 CSS_PROPERTY_PARSE_VALUE
-Text
-mWhiteSpace
 VARIANT_HK
 kWhitespaceKTable
 CSS_PROP_NO_OFFSET
@@ -7936,8 +7326,6 @@ Widows
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_VALUE_POSITIVE_NONZERO
-Breaks
-mWidows
 VARIANT_HI
 nsnull
 )
@@ -7951,8 +7339,6 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_VALUE_NONNEGATIVE
 |
 CSS_PROPERTY_STORES_CALC
-Position
-mWidth
 VARIANT_AHKLP
 |
 VARIANT_CALC
@@ -7978,8 +7364,6 @@ CSS_PROP_DOMPROP_PREFIXED
 WindowShadow
 )
 CSS_PROPERTY_PARSE_VALUE
-UserInterface
-mWindowShadow
 VARIANT_HK
 kWindowShadowKTable
 CSS_PROP_NO_OFFSET
@@ -7995,8 +7379,6 @@ WordSpacing
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
-Text
-mWordSpacing
 VARIANT_HL
 |
 VARIANT_NORMAL
@@ -8018,8 +7400,6 @@ wrap
 word_wrap
 WordWrap
 CSS_PROPERTY_PARSE_VALUE
-Text
-mWordWrap
 VARIANT_HK
 kWordwrapKTable
 CSS_PROP_NO_OFFSET
@@ -8033,8 +7413,6 @@ index
 z_index
 ZIndex
 CSS_PROPERTY_PARSE_VALUE
-Position
-mZIndex
 VARIANT_AHI
 nsnull
 offsetof
@@ -8058,8 +7436,6 @@ CSS_PROP_DOMPROP_PREFIXED
 BoxAlign
 )
 CSS_PROPERTY_PARSE_VALUE
-XUL
-mBoxAlign
 VARIANT_HK
 kBoxAlignKTable
 CSS_PROP_NO_OFFSET
@@ -8084,8 +7460,6 @@ CSS_PROP_DOMPROP_PREFIXED
 BoxDirection
 )
 CSS_PROPERTY_PARSE_VALUE
-XUL
-mBoxDirection
 VARIANT_HK
 kBoxDirectionKTable
 CSS_PROP_NO_OFFSET
@@ -8112,8 +7486,6 @@ BoxFlex
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_VALUE_NONNEGATIVE
-XUL
-mBoxFlex
 VARIANT_HN
 nsnull
 offsetof
@@ -8142,8 +7514,6 @@ CSS_PROP_DOMPROP_PREFIXED
 BoxOrient
 )
 CSS_PROPERTY_PARSE_VALUE
-XUL
-mBoxOrient
 VARIANT_HK
 kBoxOrientKTable
 CSS_PROP_NO_OFFSET
@@ -8168,8 +7538,6 @@ CSS_PROP_DOMPROP_PREFIXED
 BoxPack
 )
 CSS_PROPERTY_PARSE_VALUE
-XUL
-mBoxPack
 VARIANT_HK
 kBoxPackKTable
 CSS_PROP_NO_OFFSET
@@ -8198,8 +7566,6 @@ BoxOrdinalGroup
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_VALUE_POSITIVE_NONZERO
-XUL
-mBoxOrdinal
 VARIANT_HI
 nsnull
 CSS_PROP_NO_OFFSET
@@ -8219,8 +7585,6 @@ CSS_PROP_DOMPROP_PREFIXED
 StackSizing
 )
 CSS_PROPERTY_PARSE_VALUE
-XUL
-mStackSizing
 VARIANT_HK
 kStackSizingKTable
 CSS_PROP_NO_OFFSET
@@ -8243,8 +7607,6 @@ level
 script_level
 ScriptLevel
 CSS_PROPERTY_PARSE_VALUE
-Font
-mScriptLevel
 /
 /
 script
@@ -8293,8 +7655,6 @@ multiplier
 script_size_multiplier
 ScriptSizeMultiplier
 CSS_PROPERTY_PARSE_VALUE
-Font
-mScriptSizeMultiplier
 0
 nsnull
 CSS_PROP_NO_OFFSET
@@ -8313,8 +7673,6 @@ size
 script_min_size
 ScriptMinSize
 CSS_PROPERTY_PARSE_VALUE
-Font
-mScriptMinSize
 0
 nsnull
 CSS_PROP_NO_OFFSET
@@ -8332,8 +7690,6 @@ path
 clip_path
 ClipPath
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mClipPath
 VARIANT_HUO
 nsnull
 CSS_PROP_NO_OFFSET
@@ -8347,8 +7703,6 @@ rule
 clip_rule
 ClipRule
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mClipRule
 VARIANT_HK
 kFillRuleKTable
 offsetof
@@ -8366,8 +7720,6 @@ interpolation
 color_interpolation
 ColorInterpolation
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mColorInterpolation
 VARIANT_HK
 kColorInterpolationKTable
 offsetof
@@ -8387,8 +7739,6 @@ filters
 color_interpolation_filters
 ColorInterpolationFilters
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mColorInterpolationFilters
 VARIANT_HK
 kColorInterpolationKTable
 offsetof
@@ -8406,8 +7756,6 @@ baseline
 dominant_baseline
 DominantBaseline
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mDominantBaseline
 VARIANT_HK
 kDominantBaselineKTable
 offsetof
@@ -8423,8 +7771,6 @@ fill
 fill
 Fill
 CSS_PROPERTY_PARSE_FUNCTION
-SVG
-mFill
 0
 nsnull
 offsetof
@@ -8442,8 +7788,6 @@ opacity
 fill_opacity
 FillOpacity
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mFillOpacity
 VARIANT_HN
 nsnull
 offsetof
@@ -8461,8 +7805,6 @@ rule
 fill_rule
 FillRule
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mFillRule
 VARIANT_HK
 kFillRuleKTable
 offsetof
@@ -8478,8 +7820,6 @@ filter
 filter
 Filter
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mFilter
 VARIANT_HUO
 nsnull
 CSS_PROP_NO_OFFSET
@@ -8493,8 +7833,6 @@ color
 flood_color
 FloodColor
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mFloodColor
 VARIANT_HC
 nsnull
 offsetof
@@ -8512,8 +7850,6 @@ opacity
 flood_opacity
 FloodOpacity
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mFloodOpacity
 VARIANT_HN
 nsnull
 offsetof
@@ -8531,8 +7867,6 @@ rendering
 image_rendering
 ImageRendering
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mImageRendering
 VARIANT_HK
 kImageRenderingKTable
 offsetof
@@ -8550,8 +7884,6 @@ color
 lighting_color
 LightingColor
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mLightingColor
 VARIANT_HC
 nsnull
 offsetof
@@ -8576,8 +7908,6 @@ end
 marker_end
 MarkerEnd
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mMarkerEnd
 VARIANT_HUO
 nsnull
 CSS_PROP_NO_OFFSET
@@ -8591,8 +7921,6 @@ mid
 marker_mid
 MarkerMid
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mMarkerMid
 VARIANT_HUO
 nsnull
 CSS_PROP_NO_OFFSET
@@ -8606,8 +7934,6 @@ start
 marker_start
 MarkerStart
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mMarkerStart
 VARIANT_HUO
 nsnull
 CSS_PROP_NO_OFFSET
@@ -8619,8 +7945,6 @@ mask
 mask
 Mask
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mMask
 VARIANT_HUO
 nsnull
 CSS_PROP_NO_OFFSET
@@ -8634,8 +7958,6 @@ rendering
 shape_rendering
 ShapeRendering
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mShapeRendering
 VARIANT_HK
 kShapeRenderingKTable
 offsetof
@@ -8653,8 +7975,6 @@ color
 stop_color
 StopColor
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mStopColor
 VARIANT_HC
 nsnull
 offsetof
@@ -8672,8 +7992,6 @@ opacity
 stop_opacity
 StopOpacity
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mStopOpacity
 VARIANT_HN
 nsnull
 offsetof
@@ -8689,8 +8007,6 @@ stroke
 stroke
 Stroke
 CSS_PROPERTY_PARSE_FUNCTION
-SVG
-mStroke
 0
 nsnull
 offsetof
@@ -8710,8 +8026,6 @@ StrokeDasharray
 CSS_PROPERTY_PARSE_FUNCTION
 |
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
-SVG
-mStrokeDasharray
 0
 nsnull
 CSS_PROP_NO_OFFSET
@@ -8735,8 +8049,6 @@ dashoffset
 stroke_dashoffset
 StrokeDashoffset
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mStrokeDashoffset
 VARIANT_HLPN
 nsnull
 offsetof
@@ -8754,8 +8066,6 @@ linecap
 stroke_linecap
 StrokeLinecap
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mStrokeLinecap
 VARIANT_HK
 kStrokeLinecapKTable
 offsetof
@@ -8773,8 +8083,6 @@ linejoin
 stroke_linejoin
 StrokeLinejoin
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mStrokeLinejoin
 VARIANT_HK
 kStrokeLinejoinKTable
 offsetof
@@ -8794,8 +8102,6 @@ StrokeMiterlimit
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_VALUE_AT_LEAST_ONE
-SVG
-mStrokeMiterlimit
 VARIANT_HN
 nsnull
 offsetof
@@ -8813,8 +8119,6 @@ opacity
 stroke_opacity
 StrokeOpacity
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mStrokeOpacity
 VARIANT_HN
 nsnull
 offsetof
@@ -8834,8 +8138,6 @@ StrokeWidth
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_VALUE_NONNEGATIVE
-SVG
-mStrokeWidth
 VARIANT_HLPN
 nsnull
 offsetof
@@ -8853,8 +8155,6 @@ anchor
 text_anchor
 TextAnchor
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mTextAnchor
 VARIANT_HK
 kTextAnchorKTable
 offsetof
@@ -8872,8 +8172,6 @@ rendering
 text_rendering
 TextRendering
 CSS_PROPERTY_PARSE_VALUE
-SVG
-mTextRendering
 VARIANT_HK
 kTextRenderingKTable
 offsetof
@@ -8983,8 +8281,6 @@ lang
 _x_lang
 Lang
 CSS_PROPERTY_PARSE_INACCESSIBLE
-Display
-mLang
 0
 nsnull
 CSS_PROP_NO_OFFSET
@@ -8999,8 +8295,6 @@ cols
 _x_cols
 Cols
 CSS_PROPERTY_PARSE_INACCESSIBLE
-Table
-mCols
 0
 nsnull
 CSS_PROP_NO_OFFSET
@@ -9015,8 +8309,6 @@ span
 _x_span
 Span
 CSS_PROPERTY_PARSE_INACCESSIBLE
-Table
-mSpan
 0
 nsnull
 CSS_PROP_NO_OFFSET
