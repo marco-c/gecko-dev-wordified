@@ -549,8 +549,16 @@ gfxFloat
 GetAdjustedSize
 (
 )
-const
 {
+if
+(
+!
+mMetrics
+)
+Initialize
+(
+)
+;
 return
 mAdjustedSize
 ;

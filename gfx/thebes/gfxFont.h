@@ -6336,11 +6336,11 @@ return
 nsnull
 ;
 }
+virtual
 gfxFloat
 GetAdjustedSize
 (
 )
-const
 {
 return
 mAdjustedSize
