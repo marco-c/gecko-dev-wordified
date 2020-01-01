@@ -444,11 +444,6 @@ GuardString
 \
 _
 (
-AssertRange
-)
-\
-_
-(
 ToDouble
 )
 \
