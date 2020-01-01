@@ -1290,10 +1290,6 @@ bailing
 return
 ;
 }
-StopBootAnimation
-(
-)
-;
 nsIntRegion
 region
 =
@@ -2784,6 +2780,10 @@ return
 mLayerManager
 ;
 }
+StopBootAnimation
+(
+)
+;
 /
 /
 Set
