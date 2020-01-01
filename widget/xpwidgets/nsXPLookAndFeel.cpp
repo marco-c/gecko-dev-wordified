@@ -269,6 +269,16 @@ false
 "
 ui
 .
+useOverlayScrollbars
+"
+eIntID_UseOverlayScrollbars
+false
+0
+}
+{
+"
+ui
+.
 showHideScrollbars
 "
 eIntID_ShowHideScrollbars

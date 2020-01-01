@@ -196,6 +196,12 @@ return
 0x2022
 ;
 }
+static
+bool
+UseOverlayScrollbars
+(
+)
+;
 protected
 :
 /

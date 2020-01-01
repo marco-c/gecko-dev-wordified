@@ -720,6 +720,15 @@ bar
 eIntID_MenusCanOverlapOSBar
 /
 /
+should
+overlay
+scrollbars
+be
+used
+?
+eIntID_UseOverlayScrollbars
+/
+/
 show
 /
 hide
