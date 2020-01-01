@@ -1083,6 +1083,9 @@ aCx
 ;
 if
 (
+data
+&
+&
 length
 <
 WEBAUDIO_BLOCK_SIZE
