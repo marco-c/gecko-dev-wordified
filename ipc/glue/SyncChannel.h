@@ -652,6 +652,16 @@ aReply
 =
 0
 ;
+virtual
+void
+OnChannelConnected
+(
+int32
+peer_pid
+)
+{
+}
+;
 }
 ;
 SyncChannel
