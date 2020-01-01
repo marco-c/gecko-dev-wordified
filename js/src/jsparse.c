@@ -12429,6 +12429,9 @@ pn_head
 if
 (
 pnhead
+&
+&
+pnhead
 -
 >
 pn_type
