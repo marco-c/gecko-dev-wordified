@@ -1124,10 +1124,6 @@ static
 bool
 sIsInitialized
 ;
-static
-bool
-sDisableDocumentAllSupport
-;
 public
 :
 static
