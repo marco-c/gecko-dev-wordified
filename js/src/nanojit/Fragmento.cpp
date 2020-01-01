@@ -918,9 +918,8 @@ size
 {
 /
 /
-fprintf
+nj_dprintf
 (
-stderr
 "
 dealloc
 %
@@ -1431,9 +1430,8 @@ memory
 ;
 /
 /
-fprintf
+nj_dprintf
 (
-stderr
 "
 head
 alloc
@@ -1526,9 +1524,8 @@ count
 {
 /
 /
-fprintf
+nj_dprintf
 (
-stderr
 "
 Fragmento
 :
@@ -1750,9 +1747,8 @@ compiles
 ;
 /
 /
-fprintf
+nj_dprintf
 (
-stderr
 "
 Fragmento
 .

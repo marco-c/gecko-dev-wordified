@@ -1532,7 +1532,7 @@ _nExitSlot
 ;
 /
 /
-printf
+nj_dprintf
 (
 "
 jmp_l_n

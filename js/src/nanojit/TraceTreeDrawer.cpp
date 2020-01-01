@@ -906,7 +906,7 @@ treeBranch
 {
 verbose_draw_only
 (
-printf
+nj_dprintf
 (
 "
 Adding
@@ -1018,7 +1018,7 @@ eot_target
 {
 verbose_draw_only
 (
-printf
+nj_dprintf
 (
 "
 Found
@@ -1078,7 +1078,7 @@ root
 {
 verbose_draw_only
 (
-printf
+nj_dprintf
 (
 "
 Adding
@@ -1138,7 +1138,7 @@ root
 {
 verbose_draw_only
 (
-printf
+nj_dprintf
 (
 "
 Found
@@ -1210,7 +1210,7 @@ root
 {
 verbose_draw_only
 (
-printf
+nj_dprintf
 (
 "
 Found
@@ -1277,7 +1277,7 @@ root
 {
 verbose_draw_only
 (
-printf
+nj_dprintf
 (
 "
 %
@@ -1335,7 +1335,7 @@ mergeRoot
 {
 verbose_draw_only
 (
-printf
+nj_dprintf
 (
 "
 Found
@@ -1381,7 +1381,7 @@ mergeRoot
 {
 verbose_draw_only
 (
-printf
+nj_dprintf
 (
 "
 Found
@@ -1434,7 +1434,7 @@ mergeRoot
 {
 verbose_draw_only
 (
-printf
+nj_dprintf
 (
 "
 Merge
@@ -1474,7 +1474,7 @@ else
 {
 verbose_draw_only
 (
-printf
+nj_dprintf
 (
 "
 Merge
@@ -1530,7 +1530,7 @@ root
 ;
 verbose_draw_only
 (
-printf
+nj_dprintf
 (
 "
 \
@@ -1633,7 +1633,7 @@ the
 0
 verbose_draw_only
 (
-printf
+nj_dprintf
 (
 "
 output
@@ -2380,7 +2380,7 @@ root
 return
 ;
 }
-printf
+nj_dprintf
 (
 "
 \
@@ -2416,7 +2416,7 @@ root
 compileNbr
 )
 {
-printf
+nj_dprintf
 (
 "
 Found
@@ -2508,7 +2508,7 @@ x
 compileNbr
 )
 {
-printf
+nj_dprintf
 (
 "
 Found
@@ -2540,7 +2540,7 @@ x
 ;
 }
 }
-printf
+nj_dprintf
 (
 "
 \

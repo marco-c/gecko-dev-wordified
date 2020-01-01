@@ -8347,7 +8347,7 @@ JSVAL_BOXED
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 capture
@@ -8448,7 +8448,7 @@ JSVAL_BOXED
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 capture
@@ -8662,7 +8662,7 @@ JSVAL_BOXED
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 capture
@@ -9467,7 +9467,7 @@ generatedTraceableNative
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 recording
@@ -9500,7 +9500,7 @@ treePCOffset
 )
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 globalObj
@@ -10311,7 +10311,7 @@ deepAbort
 {
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 deep
@@ -11502,7 +11502,7 @@ v
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 object
@@ -11612,7 +11612,7 @@ v
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 int
@@ -11686,7 +11686,7 @@ d
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 double
@@ -11746,7 +11746,7 @@ v
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 string
@@ -11796,7 +11796,7 @@ NULL
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 null
@@ -11842,7 +11842,7 @@ v
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 boolean
@@ -11908,7 +11908,7 @@ obj
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 function
@@ -12446,7 +12446,7 @@ JSVAL_ERROR_COOKIE
 /
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 object
@@ -12504,7 +12504,7 @@ slot
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 int
@@ -12557,7 +12557,7 @@ slot
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 double
@@ -12710,7 +12710,7 @@ JSVAL_ERROR_COOKIE
 /
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 box
@@ -12770,7 +12770,7 @@ aligned
 /
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 string
@@ -12820,7 +12820,7 @@ JSVAL_NULL
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 null
@@ -12875,7 +12875,7 @@ slot
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 boolean
@@ -12944,7 +12944,7 @@ v
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 function
@@ -13035,7 +13035,7 @@ np
 {
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 global
@@ -13072,7 +13072,7 @@ mp
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 \
@@ -13118,7 +13118,7 @@ np
 {
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 stack
@@ -13133,7 +13133,7 @@ cx
 callDepth
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 %
@@ -13169,7 +13169,7 @@ np
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 \
@@ -13231,7 +13231,7 @@ ngslots
 gslots
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 %
@@ -13268,7 +13268,7 @@ mp
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 \
@@ -13933,7 +13933,7 @@ skip
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 %
@@ -14529,7 +14529,7 @@ JSFRAME_COMPUTED_THIS
 }
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 \
@@ -15124,7 +15124,7 @@ function
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 import
@@ -16687,7 +16687,7 @@ dslots
 {
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 globalObj
@@ -18796,7 +18796,7 @@ guardIns
 {
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 SideExit
@@ -18827,7 +18827,7 @@ else
 {
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 redundant
@@ -19252,7 +19252,7 @@ demoted
 /
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 checkType
@@ -19440,7 +19440,7 @@ JSVAL_DOUBLE
 {
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 checkType
@@ -19683,7 +19683,7 @@ t
 {
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Type
@@ -19712,7 +19712,7 @@ t
 endif
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 checkType
@@ -20032,7 +20032,7 @@ false
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Checking
@@ -20072,7 +20072,7 @@ ngslots
 gslots
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 %
@@ -20195,7 +20195,7 @@ cx
 0
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 %
@@ -20447,7 +20447,7 @@ peer
 {
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Checking
@@ -21159,7 +21159,7 @@ cx
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Flushing
@@ -21252,7 +21252,7 @@ prohibitFlush
 {
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Deferring
@@ -21498,7 +21498,7 @@ MAX_NATIVE_STACK_SLOTS
 {
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Blacklist
@@ -21638,7 +21638,7 @@ None
 {
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Blacklisted
@@ -22225,7 +22225,7 @@ callDepth
 {
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Blacklisted
@@ -22363,7 +22363,7 @@ trashSelf
 {
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Trashing
@@ -22509,7 +22509,7 @@ together
 /
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Trace
@@ -22592,7 +22592,7 @@ peer
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Joining
@@ -22727,7 +22727,7 @@ peer_root
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 updating
@@ -22815,7 +22815,7 @@ outerArgc
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 recording
@@ -23051,7 +23051,7 @@ if
 remove
 )
 {
-printf
+nj_dprintf
 (
 "
 Joining
@@ -23573,7 +23573,7 @@ callDepth
 {
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Blacklisted
@@ -23744,7 +23744,7 @@ trees
 /
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 updating
@@ -23832,7 +23832,7 @@ outerArgc
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 recording
@@ -24119,7 +24119,7 @@ sp
 /
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 sp_adj
@@ -25077,7 +25077,7 @@ JSOP_IFEQX
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Walking
@@ -26344,7 +26344,7 @@ globalShapeMismatchAtEntry
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Global
@@ -26604,7 +26604,7 @@ globalShapeMismatchAtEntry
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 No
@@ -26869,7 +26869,7 @@ treesTrashed
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Trashing
@@ -28944,7 +28944,7 @@ cx
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Out
@@ -30720,7 +30720,7 @@ pc
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 trying
@@ -31340,7 +31340,7 @@ imacpc
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 loop
@@ -31561,7 +31561,7 @@ false
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Looking
@@ -32128,7 +32128,7 @@ default
 :
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 exit_type
@@ -32186,7 +32186,7 @@ vp
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 %
@@ -32249,7 +32249,7 @@ true
 }
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 object
@@ -32309,7 +32309,7 @@ true
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 int
@@ -32360,7 +32360,7 @@ true
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 double
@@ -32412,7 +32412,7 @@ true
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 string
@@ -32445,7 +32445,7 @@ true
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 null
@@ -32477,7 +32477,7 @@ true
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 bool
@@ -32537,7 +32537,7 @@ true
 }
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 fun
@@ -32654,7 +32654,7 @@ vmprivate
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 checking
@@ -32816,7 +32816,7 @@ cx
 0
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 %
@@ -32927,7 +32927,7 @@ ngslots
 gslots
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 %
@@ -33056,7 +33056,7 @@ length
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 %
@@ -33282,7 +33282,7 @@ gslots
 0
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 %
@@ -33352,7 +33352,7 @@ length
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 \
@@ -33368,7 +33368,7 @@ check_fail
 :
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 \
@@ -33485,7 +33485,7 @@ continue
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 checking
@@ -34114,7 +34114,7 @@ globalFrameSize
 )
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 entering
@@ -35593,7 +35593,7 @@ fp
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 synthesized
@@ -35778,7 +35778,7 @@ fp
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 synthesized
@@ -36052,7 +36052,7 @@ cycles
 endif
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 leaving
@@ -37283,7 +37283,7 @@ argc
 }
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Looking
@@ -37399,7 +37399,7 @@ loop
 /
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Blacklisted
@@ -38326,7 +38326,7 @@ getTreeInfo
 ;
 debug_only_a
 (
-printf
+nj_dprintf
 (
 "
 Abort
@@ -40503,7 +40503,7 @@ jitstats
 recorderStarted
 )
 {
-printf
+nj_dprintf
 (
 "
 recorder
@@ -40602,7 +40602,7 @@ jitstats
 noCompatInnerTrees
 )
 ;
-printf
+nj_dprintf
 (
 "
 monitor
@@ -41112,7 +41112,7 @@ return
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Purging
@@ -41236,7 +41236,7 @@ frag
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Disconnecting
@@ -41907,7 +41907,7 @@ prohibitFlush
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 Deep
@@ -52001,7 +52001,7 @@ call
 ;
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 EnterFrame
@@ -52048,7 +52048,7 @@ JS_TRUE
 stdout
 )
 ;
-printf
+nj_dprintf
 (
 "
 -
@@ -52222,7 +52222,7 @@ fp
 >
 fun
 )
-printf
+nj_dprintf
 (
 "
 LeaveFrame
@@ -52674,7 +52674,7 @@ rval
 }
 debug_only_v
 (
-printf
+nj_dprintf
 (
 "
 returning
@@ -74780,7 +74780,7 @@ vmprivate
 )
 continue
 ;
-printf
+nj_dprintf
 (
 "
 fragment
@@ -74842,7 +74842,7 @@ i
 +
 +
 )
-printf
+nj_dprintf
 (
 "
 S
@@ -74880,7 +74880,7 @@ i
 +
 +
 )
-printf
+nj_dprintf
 (
 "
 G
@@ -74898,7 +74898,7 @@ i
 ]
 )
 ;
-printf
+nj_dprintf
 (
 "
 \
@@ -74923,7 +74923,7 @@ uexit
 NULL
 )
 {
-printf
+nj_dprintf
 (
 "
 EXIT
@@ -74964,7 +74964,7 @@ i
 +
 +
 )
-printf
+nj_dprintf
 (
 "
 S
@@ -74998,7 +74998,7 @@ i
 +
 +
 )
-printf
+nj_dprintf
 (
 "
 G
@@ -75019,7 +75019,7 @@ i
 ]
 )
 ;
-printf
+nj_dprintf
 (
 "
 \

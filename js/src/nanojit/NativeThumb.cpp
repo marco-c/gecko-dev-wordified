@@ -1885,7 +1885,7 @@ branch
 ;
 /
 /
-printf
+nj_dprintf
 (
 "
 -
@@ -6112,9 +6112,8 @@ true
 ;
 /
 /
-fprintf
+nj_dprintf
 (
-stderr
 "
 assemble
 onto

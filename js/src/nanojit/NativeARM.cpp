@@ -5827,9 +5827,8 @@ true
 ;
 /
 /
-fprintf
+nj_dprintf
 (
-stderr
 "
 assemble
 onto
@@ -6657,9 +6656,8 @@ _nIns
 ;
 /
 /
-fprintf
+nj_dprintf
 (
-stderr
 "
 BL
 :
@@ -8091,9 +8089,8 @@ _nIns
 ;
 /
 /
-fprintf
+nj_dprintf
 (
-stderr
 "
 B_cond_chk
 target
