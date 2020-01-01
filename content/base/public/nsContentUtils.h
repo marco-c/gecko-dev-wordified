@@ -13709,6 +13709,9 @@ JSContext
 *
 mPushedContext
 ;
+unsigned
+mCompartmentDepthOnEntry
+;
 #
 endif
 }
