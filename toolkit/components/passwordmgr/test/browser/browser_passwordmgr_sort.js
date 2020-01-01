@@ -702,7 +702,6 @@ arguments
 .
 callee
 aTopic
-false
 )
 ;
 func
