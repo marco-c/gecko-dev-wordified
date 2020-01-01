@@ -632,6 +632,7 @@ let
 self
 =
 yield
+timer
 ;
 if
 (
@@ -639,7 +640,6 @@ this
 .
 _yieldDuringApply
 )
-let
 timer
 =
 Cc
