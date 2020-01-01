@@ -4306,15 +4306,6 @@ Failed
 )
 )
 {
-rv
-=
-NS_OK
-;
-/
-/
-See
-bug
-645792
 return
 nullptr
 ;
