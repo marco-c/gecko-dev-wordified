@@ -820,6 +820,9 @@ mTransform
 PRPackedBool
 mReading
 ;
+PRUint32
+mCMSMode
+;
 }
 ;
 }
