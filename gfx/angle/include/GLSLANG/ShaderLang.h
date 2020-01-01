@@ -426,6 +426,7 @@ zero
 .
 /
 /
+ANGLE_API
 int
 ShInitialize
 (
@@ -458,6 +459,7 @@ zero
 .
 /
 /
+ANGLE_API
 int
 ShFinalize
 (
