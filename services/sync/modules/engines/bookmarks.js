@@ -4019,6 +4019,7 @@ BookmarkFolder
 (
 )
 ;
+}
 record
 .
 title
@@ -4032,7 +4033,6 @@ getItemTitle
 placeId
 )
 ;
-}
 break
 ;
 case
