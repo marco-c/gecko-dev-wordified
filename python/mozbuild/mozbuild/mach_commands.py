@@ -3542,11 +3542,46 @@ program
 '
 )
     
+CommandArgument
+(
+'
++
+remote
+'
+'
++
+r
+'
+action
+=
+'
+store_true
+'
+        
+help
+=
+'
+Do
+not
+pass
+the
+-
+no
+-
+remote
+argument
+by
+default
+.
+'
+)
+    
 def
 run
 (
 self
 params
+remote
 )
 :
         
@@ -3564,12 +3599,6 @@ get_binary_path
 app
 '
 )
-'
--
-no
--
-remote
-'
 ]
         
 except
@@ -3615,6 +3644,23 @@ e
             
 return
 1
+        
+if
+not
+remote
+:
+            
+args
+.
+append
+(
+'
+-
+no
+-
+remote
+'
+)
         
 if
 params
@@ -3721,11 +3767,45 @@ program
 '
 )
     
+CommandArgument
+(
+'
++
+remote
+'
+'
++
+r
+'
+action
+=
+'
+store_true
+'
+        
+help
+=
+'
+Do
+not
+pass
+the
+-
+no
+-
+remote
+argument
+by
+default
+'
+)
+    
 def
 debug
 (
 self
 params
+remote
 )
 :
         
@@ -3795,12 +3875,6 @@ get_binary_path
 app
 '
 )
-'
--
-no
--
-remote
-'
 ]
         
 except
@@ -3846,6 +3920,23 @@ e
             
 return
 1
+        
+if
+not
+remote
+:
+            
+args
+.
+append
+(
+'
+-
+no
+-
+remote
+'
+)
         
 if
 params
