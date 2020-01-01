@@ -4690,7 +4690,7 @@ initialized
 {
 if
 (
-PR_ATOMIC_SET
+PR_AtomicSet
 (
 &
 once
@@ -4845,7 +4845,7 @@ initialized
 {
 if
 (
-PR_ATOMIC_SET
+PR_AtomicSet
 (
 &
 once
