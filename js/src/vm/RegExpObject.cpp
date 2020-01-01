@@ -875,12 +875,11 @@ if
 ts
 )
 \
-ReportCompileErrorNumber
-(
-cx
 ts
-NULL
-JSREPORT_ERROR
+-
+>
+reportError
+(
 __msg
 )
 ;
