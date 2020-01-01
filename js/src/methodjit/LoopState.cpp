@@ -14183,6 +14183,16 @@ int32_t
 pconstant
 )
 {
+*
+pslot
+=
+UNASSIGNED
+;
+*
+pconstant
+=
+1
+;
 CrossSSAValue
 cv
 =
