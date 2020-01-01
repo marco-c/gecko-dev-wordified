@@ -6349,7 +6349,7 @@ IsAsmJSFunction
 1
 0
 "
-isAsmJSModule
+isAsmJSFunction
 (
 fn
 )
