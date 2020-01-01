@@ -1641,7 +1641,7 @@ mLengthAttributes
 SVGSVGElement
 :
 :
-WIDTH
+ATTR_WIDTH
 ]
 ;
 if
@@ -1817,7 +1817,7 @@ mLengthAttributes
 SVGSVGElement
 :
 :
-WIDTH
+ATTR_WIDTH
 ]
 ;
 nsSVGLength2
@@ -1832,7 +1832,7 @@ mLengthAttributes
 SVGSVGElement
 :
 :
-HEIGHT
+ATTR_HEIGHT
 ]
 ;
 if
@@ -2025,7 +2025,7 @@ mLengthAttributes
 SVGSVGElement
 :
 :
-WIDTH
+ATTR_WIDTH
 ]
 ;
 nsSVGLength2
@@ -2040,7 +2040,7 @@ mLengthAttributes
 SVGSVGElement
 :
 :
-HEIGHT
+ATTR_HEIGHT
 ]
 ;
 if
@@ -2615,7 +2615,7 @@ mLengthAttributes
 SVGSVGElement
 :
 :
-WIDTH
+ATTR_WIDTH
 ]
 ;
 if
@@ -2705,7 +2705,7 @@ mLengthAttributes
 SVGSVGElement
 :
 :
-HEIGHT
+ATTR_HEIGHT
 ]
 ;
 NS_ASSERTION
@@ -6444,7 +6444,7 @@ mLengthAttributes
 SVGSVGElement
 :
 :
-HEIGHT
+ATTR_HEIGHT
 ]
 ;
 return
