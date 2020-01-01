@@ -70,6 +70,15 @@ Components
 .
 utils
 ;
+const
+ROLE_INTERNAL_FRAME
+=
+Ci
+.
+nsIAccessibleRole
+.
+ROLE_INTERNAL_FRAME
+;
 Cu
 .
 import
@@ -743,10 +752,6 @@ acc
 role
 =
 =
-Ci
-.
-nsIAccessibleRole
-.
 ROLE_INTERNAL_FRAME
 )
 {
