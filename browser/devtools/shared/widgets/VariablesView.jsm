@@ -782,7 +782,7 @@ object
 *
 param
 object
-aData
+aObject
 *
 The
 raw
@@ -836,6 +836,11 @@ addItem
 populate
 (
 aObject
+{
+sorted
+:
+true
+}
 )
 ;
 }
