@@ -1140,6 +1140,10 @@ hadOutOfMemory
 (
 false
 )
+haveCreatedContext
+(
+false
+)
 data
 (
 NULL
