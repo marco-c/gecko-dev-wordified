@@ -174,9 +174,6 @@ h
 #
 endif
 #
-define
-UPDATER_NO_STRING_GLUE_STL
-#
 include
 "
 .
@@ -199,9 +196,6 @@ nsVersionComparator
 .
 cpp
 "
-#
-undef
-UPDATER_NO_STRING_GLUE_STL
 #
 if
 defined
