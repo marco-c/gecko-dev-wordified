@@ -4059,9 +4059,6 @@ o
 ;
 }
 bool
-LIns
-:
-:
 isQuad
 (
 )
@@ -4545,9 +4542,6 @@ pointer
 value
 .
 bool
-LIns
-:
-:
 isconstp
 (
 )
