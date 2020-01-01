@@ -567,14 +567,8 @@ extern
 JSBool
 js_ValueToBoolean
 (
-JSContext
-*
-cx
 jsval
 v
-JSBool
-*
-bp
 )
 ;
 JS_END_EXTERN_C
