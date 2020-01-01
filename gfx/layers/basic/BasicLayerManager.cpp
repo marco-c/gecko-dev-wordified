@@ -3862,17 +3862,6 @@ nsRefPtr
 gfxImageSurface
 >
 destImage
-=
-dest
--
->
-GetAsImageSurface
-(
-)
-;
-destImage
-=
-nsnull
 ;
 gfxPoint
 offset
