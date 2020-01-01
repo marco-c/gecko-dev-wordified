@@ -426,6 +426,17 @@ nsIRequest
 LOAD_ANONYMOUS
 )
 ;
+chan
+-
+>
+SetLoadFlags
+(
+nsIRequest
+:
+:
+LOAD_ANONYMOUS
+)
+;
 /
 /
 Create
