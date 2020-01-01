@@ -2607,6 +2607,17 @@ expected
 *
 *
 /
+reportCompare
+(
+expect
+actual
+"
+Object
+.
+getOwnPropertyDescriptor
+"
+)
+;
 printStatus
 (
 "
