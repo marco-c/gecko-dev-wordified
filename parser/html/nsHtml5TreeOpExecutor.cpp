@@ -4264,6 +4264,11 @@ AppendObject
 sele
 )
 ;
+if
+(
+mParser
+)
+{
 mParser
 -
 >
@@ -4271,6 +4276,7 @@ BlockParser
 (
 )
 ;
+}
 }
 else
 {
