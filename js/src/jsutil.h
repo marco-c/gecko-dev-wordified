@@ -1908,6 +1908,9 @@ i
 0
 ;
 }
+#
+if
+USE_ZLIB
 /
 *
 *
@@ -2020,6 +2023,8 @@ size_t
 outlen
 )
 ;
+#
+endif
 }
 /
 *
