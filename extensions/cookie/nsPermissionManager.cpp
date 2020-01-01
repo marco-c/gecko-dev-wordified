@@ -7136,6 +7136,16 @@ GetType
 type
 )
 ;
+if
+(
+aBrowserOnly
+&
+&
+!
+isInBrowserElement
+)
+continue
+;
 nsCOMPtr
 <
 nsIPrincipal
