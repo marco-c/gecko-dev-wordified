@@ -1140,7 +1140,7 @@ CoreProtocolPNames
 USER_AGENT
 GlobalConstants
 .
-USER_AGENT
+SYNC_USER_AGENT
 )
 ;
 /
