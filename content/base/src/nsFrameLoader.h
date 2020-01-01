@@ -954,6 +954,9 @@ virtual
 bool
 DoSendAsyncMessage
 (
+JSContext
+*
+aCx
 const
 nsAString
 &
@@ -968,8 +971,16 @@ dom
 StructuredCloneData
 &
 aData
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aCpows
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
