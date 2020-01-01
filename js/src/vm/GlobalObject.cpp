@@ -488,6 +488,13 @@ h
 #
 include
 "
+jsweakmap
+.
+h
+"
+#
+include
+"
 builtin
 /
 RegExp
@@ -2237,6 +2244,13 @@ this
 #
 endif
 js_InitDateClass
+(
+cx
+this
+)
+&
+&
+js_InitWeakMapClass
 (
 cx
 this
