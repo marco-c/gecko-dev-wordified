@@ -118,6 +118,9 @@ StorageServerCollection
 "
 StorageServer
 "
+"
+storageServerForUsers
+"
 ]
 ;
 Cu

@@ -53,6 +53,11 @@ rest
 js
 "
 "
+storageservice
+.
+js
+"
+"
 stringbundle
 .
 js
