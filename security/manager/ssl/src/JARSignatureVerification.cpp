@@ -1696,11 +1696,6 @@ rsa
 #
 define
 JAR_MF_HEADER
-(
-const
-char
-*
-)
 "
 Manifest
 -
@@ -1713,11 +1708,6 @@ Version
 #
 define
 JAR_SF_HEADER
-(
-const
-char
-*
-)
 "
 Signature
 -
@@ -2357,7 +2347,7 @@ rv
 CheckManifestVersion
 (
 nextLineStart
-nsLiteralCString
+NS_LITERAL_CSTRING
 (
 JAR_SF_HEADER
 )
@@ -2710,7 +2700,7 @@ rv
 CheckManifestVersion
 (
 nextLineStart
-nsLiteralCString
+NS_LITERAL_CSTRING
 (
 JAR_MF_HEADER
 )
@@ -3971,10 +3961,8 @@ zip
 >
 FindEntries
 (
-NS_LITERAL_CSTRING
+EmptyCString
 (
-"
-"
 )
 getter_AddRefs
 (
