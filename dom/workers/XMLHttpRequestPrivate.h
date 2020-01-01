@@ -575,7 +575,7 @@ aCx
 ;
 }
 void
-UnrootJSObject
+Unpin
 (
 JSContext
 *
@@ -832,7 +832,7 @@ ReleaseProxy
 )
 ;
 bool
-RootJSObject
+Pin
 (
 JSContext
 *
