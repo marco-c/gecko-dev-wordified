@@ -1731,6 +1731,11 @@ if
 (
 !
 policy
+|
+|
+policy
+.
+healthReportUploadLocked
 )
 {
 checkbox
