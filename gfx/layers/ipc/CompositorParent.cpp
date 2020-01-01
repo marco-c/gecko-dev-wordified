@@ -1614,6 +1614,15 @@ ShadowLayersUpdated
 (
 )
 {
+printf_stderr
+(
+"
+ShadowLayersUpdated
+\
+n
+"
+)
+;
 const
 nsTArray
 <
