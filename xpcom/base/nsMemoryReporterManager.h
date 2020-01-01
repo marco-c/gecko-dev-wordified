@@ -180,6 +180,15 @@ nsMemoryReporterManager
 ;
 private
 :
+nsresult
+DumpMemoryReportsToFileImpl
+(
+const
+nsAString
+&
+aIdentifier
+)
+;
 nsCOMArray
 <
 nsIMemoryReporter
