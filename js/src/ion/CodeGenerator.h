@@ -842,7 +842,15 @@ visitNewArray
 (
 LNewArray
 *
-builder
+lir
+)
+;
+bool
+visitNewObject
+(
+LNewObject
+*
+lir
 )
 ;
 bool

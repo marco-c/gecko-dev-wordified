@@ -2107,6 +2107,14 @@ count
 )
 ;
 bool
+jsop_newobject
+(
+JSObject
+*
+baseObj
+)
+;
+bool
 jsop_initelem
 (
 )

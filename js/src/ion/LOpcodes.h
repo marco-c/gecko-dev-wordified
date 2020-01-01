@@ -530,6 +530,11 @@ NewArray
 \
 _
 (
+NewObject
+)
+\
+_
+(
 CheckOverRecursed
 )
 \
