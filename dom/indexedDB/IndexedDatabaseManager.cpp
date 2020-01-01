@@ -4347,6 +4347,8 @@ const
 nsACString
 &
 aOrigin
+FactoryPrivilege
+mPrivilege
 nsIFile
 *
 *
@@ -4598,6 +4600,8 @@ start
 tracking
 this
 pattern
+for
+content
 .
 nsCOMPtr
 <
@@ -4616,6 +4620,14 @@ ss
 NS_ERROR_FAILURE
 )
 ;
+if
+(
+mPrivilege
+!
+=
+Chrome
+)
+{
 rv
 =
 ss
@@ -4632,7 +4644,7 @@ GetIndexedDBQuotaMB
 *
 1024
 mQuotaCallbackSingleton
-nullptr
+nsnull
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4641,6 +4653,7 @@ rv
 rv
 )
 ;
+}
 /
 /
 We
@@ -5145,6 +5158,14 @@ AppendElement
 fileManager
 )
 ;
+if
+(
+mPrivilege
+!
+=
+Chrome
+)
+{
 rv
 =
 ss
@@ -5161,6 +5182,7 @@ rv
 rv
 )
 ;
+}
 validSubdirs
 .
 PutEntry
