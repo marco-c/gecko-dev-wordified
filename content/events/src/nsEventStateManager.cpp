@@ -20490,6 +20490,10 @@ mCurrentTarget
 =
 nsnull
 ;
+mCurrentTargetContent
+=
+nsnull
+;
 return
 ret
 ;
@@ -21950,6 +21954,11 @@ aEvent
 >
 inputSource
 ;
+nsWeakFrame
+previousTarget
+=
+mCurrentTarget
+;
 mCurrentTargetContent
 =
 aTargetContent
@@ -22042,6 +22051,10 @@ aTargetContent
 mCurrentTargetContent
 =
 nsnull
+;
+mCurrentTarget
+=
+previousTarget
 ;
 return
 targetFrame
