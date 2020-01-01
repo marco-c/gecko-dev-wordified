@@ -1388,7 +1388,7 @@ void
 )
 ]
 ;
-int
+size_t
 len
 =
 sizeof
@@ -2090,6 +2090,8 @@ array
 uint32_t
 maxFrames
 =
+uint32_t
+(
 array
 .
 size
@@ -2097,6 +2099,7 @@ size
 array
 .
 count
+)
 ;
 #
 ifdef

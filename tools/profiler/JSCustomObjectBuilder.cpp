@@ -552,9 +552,12 @@ encoder
 write
 (
 utf8CharStart
+uint32_t
+(
 str
 -
 utf8CharStart
+)
 )
 ;
 char
@@ -1214,7 +1217,7 @@ stream
 ;
 for
 (
-size_t
+uint32_t
 i
 =
 0
