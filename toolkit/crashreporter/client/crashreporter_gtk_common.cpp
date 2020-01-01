@@ -872,6 +872,7 @@ port
 host
 &
 &
+*
 host
 !
 =
