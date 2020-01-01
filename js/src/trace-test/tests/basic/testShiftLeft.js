@@ -1,4 +1,14 @@
 /
+/
+|
+trace
+-
+test
+|
+TMFLAGS
+:
+full
+/
 *
 Test
 the

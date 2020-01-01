@@ -1,3 +1,13 @@
+/
+/
+|
+trace
+-
+test
+|
+TMFLAGS
+:
+full
 function
 testSideExitInConstructor
 (
