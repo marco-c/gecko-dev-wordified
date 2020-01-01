@@ -631,12 +631,6 @@ JSVAL_IS_GCTHING
 (
 mJSVal
 )
-|
-|
-JSVAL_IS_NULL
-(
-mJSVal
-)
 "
 Must
 be

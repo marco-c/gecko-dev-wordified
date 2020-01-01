@@ -30696,6 +30696,12 @@ JSVAL_IS_GCTHING
 (
 val
 )
+|
+|
+JSVAL_IS_NULL
+(
+val
+)
 )
 {
 return
@@ -31426,11 +31432,11 @@ obj
 js
 :
 :
-AutoObjectRooter
+AutoValueRooter
 tvr
 (
 cx
-obj
+output
 )
 ;
 CloneStack
