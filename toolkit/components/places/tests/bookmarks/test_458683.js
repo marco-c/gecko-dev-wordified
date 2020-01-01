@@ -938,11 +938,13 @@ json
 file
 try
 {
-PlacesUtils
+yield
+BookmarkJSONUtils
 .
-restoreBookmarksFromJSONFile
+importFromFile
 (
 jsonFile
+true
 )
 ;
 }
