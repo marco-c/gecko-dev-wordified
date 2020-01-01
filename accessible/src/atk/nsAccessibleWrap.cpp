@@ -4802,11 +4802,6 @@ childAtkObj
 return
 nsnull
 ;
-g_object_ref
-(
-childAtkObj
-)
-;
 /
 /
 this
@@ -4817,6 +4812,11 @@ atk_object_set_parent
 (
 childAtkObj
 aAtkObj
+)
+;
+g_object_ref
+(
+childAtkObj
 )
 ;
 return
