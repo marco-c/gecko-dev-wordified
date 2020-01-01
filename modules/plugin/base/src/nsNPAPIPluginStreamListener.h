@@ -604,6 +604,13 @@ nsNPAPIPluginInstance
 *
 mInst
 ;
+/
+/
+weak
+must
+always
+be
+valid
 NPStream
 mNPStream
 ;
