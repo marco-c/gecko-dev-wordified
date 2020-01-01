@@ -834,11 +834,11 @@ aHWnd
 LPARAM
 aLParam
 bool
-aUseCustomFlags
+aForCalcSize
 =
 false
-UINT
-aFlags
+WPARAM
+aWParam
 =
 0
 )
