@@ -62,6 +62,10 @@ os
 import
 unittest
 from
+mozunit
+import
+main
+from
 mozbuild
 .
 frontend
@@ -690,4 +694,16 @@ bar
 baz
 '
 ]
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+main
+(
 )
