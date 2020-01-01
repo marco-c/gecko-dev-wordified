@@ -870,6 +870,13 @@ POINTL
 pt
 )
 ;
+void
+AddLinkSupportIfCanBeGenerated
+(
+LPDATAOBJECT
+aIDataSource
+)
+;
 /
 /
 Native
@@ -885,7 +892,7 @@ HWND
 mHWnd
 ;
 DWORD
-mEffect
+mEffectsAllowed
 ;
 PRBool
 mMovePreferred
