@@ -3316,10 +3316,6 @@ pusher
 Push
 (
 ctx
-nsCxPusher
-:
-:
-ALWAYS_PUSH
 )
 )
 ;

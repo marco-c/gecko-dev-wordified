@@ -17613,10 +17613,6 @@ pusher
 Push
 (
 cx
-nsCxPusher
-:
-:
-ALWAYS_PUSH
 )
 )
 ;
@@ -37984,10 +37980,6 @@ pusher
 Push
 (
 cx
-nsCxPusher
-:
-:
-ALWAYS_PUSH
 )
 ;
 JSObject
