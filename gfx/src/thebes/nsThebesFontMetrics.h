@@ -999,6 +999,13 @@ return
 mFontGroup
 ;
 }
+virtual
+gfxUserFontSet
+*
+GetUserFontSet
+(
+)
+;
 PRBool
 GetRightToLeftTextRunMode
 (
