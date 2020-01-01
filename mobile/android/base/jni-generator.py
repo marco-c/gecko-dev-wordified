@@ -663,6 +663,9 @@ jfloat
 '
 jdouble
 '
+'
+jlong
+'
 )
 :
                     
