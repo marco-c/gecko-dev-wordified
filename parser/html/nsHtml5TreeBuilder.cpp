@@ -4507,10 +4507,7 @@ if
 !
 isCurrent
 (
-nsHtml5Atoms
-:
-:
-button
+name
 )
 )
 {
@@ -4528,10 +4525,6 @@ pop
 )
 ;
 }
-clearTheListOfActiveFormattingElementsUpToTheLastMarker
-(
-)
-;
 goto
 starttagloop
 ;
@@ -4548,10 +4541,6 @@ kNameSpaceID_XHTML
 elementName
 attributes
 formPointer
-)
-;
-insertMarker
-(
 )
 ;
 attributes
@@ -8985,6 +8974,9 @@ case
 NS_HTML5TREE_BUILDER_FIELDSET
 :
 case
+NS_HTML5TREE_BUILDER_BUTTON
+:
+case
 NS_HTML5TREE_BUILDER_ADDRESS_OR_DIR_OR_ARTICLE_OR_ASIDE_OR_DATAGRID_OR_DETAILS_OR_HGROUP_OR_FIGURE_OR_FOOTER_OR_HEADER_OR_NAV_OR_SECTION
 :
 {
@@ -9384,9 +9376,6 @@ goto
 endtagloop_end
 ;
 }
-case
-NS_HTML5TREE_BUILDER_BUTTON
-:
 case
 NS_HTML5TREE_BUILDER_OBJECT
 :
