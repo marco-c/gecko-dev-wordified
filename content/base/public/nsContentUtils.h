@@ -3255,11 +3255,6 @@ aLength
 nsACString
 &
 aCharset
-PRBool
-*
-bigEndian
-=
-nsnull
 )
 ;
 /
