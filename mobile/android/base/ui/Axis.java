@@ -1553,7 +1553,6 @@ false
 .
 *
 /
-private
 boolean
 scrollable
 (
