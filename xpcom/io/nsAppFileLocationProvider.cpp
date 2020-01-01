@@ -510,7 +510,7 @@ h
 if
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 #
 include
@@ -624,7 +624,7 @@ resources
 if
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 #
 define
@@ -722,7 +722,7 @@ UserPlugins
 "
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 #
 define
 NS_MACOSX_USER_PLUGIN_DIR
@@ -1370,7 +1370,7 @@ PR_TRUE
 ;
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 FSRef
 fileRef
 ;
@@ -1824,7 +1824,7 @@ PLUGINS_DIR_NAME
 }
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 else
 if
 (
@@ -2872,7 +2872,7 @@ localDir
 if
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 FSRef
 fsRef
@@ -3568,7 +3568,7 @@ rv
 if
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 |
 |
@@ -4484,7 +4484,7 @@ NS_APP_PLUGINS_DIR_LIST
 {
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 /
 /
 As

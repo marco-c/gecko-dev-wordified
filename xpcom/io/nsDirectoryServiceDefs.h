@@ -761,7 +761,7 @@ XP_UNIX
 |
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 #
 define
@@ -775,7 +775,7 @@ endif
 if
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 #
 define

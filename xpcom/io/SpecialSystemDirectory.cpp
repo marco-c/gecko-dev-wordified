@@ -3381,7 +3381,7 @@ aFile
 elif
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 {
 return
@@ -4844,7 +4844,7 @@ NS_ERROR_NOT_AVAILABLE
 if
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 nsresult
 GetOSXFolderType
