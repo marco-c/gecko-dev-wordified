@@ -2381,7 +2381,7 @@ count
 =
 mListeners
 .
-Length
+Count
 (
 )
 ;
@@ -2404,7 +2404,7 @@ i
 delete
 mListeners
 .
-ElementAt
+FastObserverAt
 (
 i
 )
@@ -2489,7 +2489,7 @@ tmp
 >
 mListeners
 .
-Length
+Count
 (
 )
 ;
@@ -2517,7 +2517,7 @@ tmp
 >
 mListeners
 .
-ElementAt
+FastObserverAt
 (
 i
 )
@@ -2954,7 +2954,7 @@ count
 =
 mListeners
 .
-Length
+Count
 (
 )
 ;
@@ -2978,7 +2978,7 @@ ls
 =
 mListeners
 .
-ElementAt
+FastObserverAt
 (
 i
 )
@@ -3109,7 +3109,7 @@ aTypeData
 ;
 mListeners
 .
-AppendElement
+AppendObserver
 (
 ls
 )
@@ -3448,7 +3448,7 @@ count
 =
 mListeners
 .
-Length
+Count
 (
 )
 ;
@@ -3472,7 +3472,7 @@ ls
 =
 mListeners
 .
-ElementAt
+FastObserverAt
 (
 i
 )
@@ -3546,7 +3546,7 @@ aTypeData
 {
 mListeners
 .
-RemoveElementAt
+RemoveObserverAt
 (
 i
 )
@@ -3884,7 +3884,7 @@ count
 =
 mListeners
 .
-Length
+Count
 (
 )
 ;
@@ -3908,7 +3908,7 @@ ls
 =
 mListeners
 .
-ElementAt
+FastObserverAt
 (
 i
 )
@@ -5015,7 +5015,7 @@ ls
 {
 mListeners
 .
-RemoveElement
+RemoveObserver
 (
 ls
 )
@@ -6443,9 +6443,12 @@ if
 (
 mListeners
 .
-IsEmpty
+Count
 (
 )
+=
+=
+0
 |
 |
 aEvent
@@ -6763,7 +6766,6 @@ found
 nsTObserverArray
 <
 nsListenerStruct
-*
 >
 :
 :
@@ -6790,17 +6792,13 @@ hasListener
 =
 PR_FALSE
 ;
-while
-(
-iter
-.
-HasMore
-(
-)
-)
-{
 nsListenerStruct
 *
+ls
+;
+while
+(
+(
 ls
 =
 iter
@@ -6808,7 +6806,9 @@ iter
 GetNext
 (
 )
-;
+)
+)
+{
 PRBool
 useTypeInterface
 =
@@ -10065,7 +10065,7 @@ count
 =
 mListeners
 .
-Length
+Count
 (
 )
 ;
@@ -10091,7 +10091,7 @@ ls
 =
 mListeners
 .
-ElementAt
+FastObserverAt
 (
 i
 )
@@ -10154,7 +10154,7 @@ count
 =
 mListeners
 .
-Length
+Count
 (
 )
 ;
@@ -10179,7 +10179,7 @@ ls
 =
 mListeners
 .
-ElementAt
+FastObserverAt
 (
 i
 )
@@ -10393,7 +10393,7 @@ count
 =
 mListeners
 .
-Length
+Count
 (
 )
 ;
@@ -10418,7 +10418,7 @@ ls
 =
 mListeners
 .
-ElementAt
+FastObserverAt
 (
 i
 )
@@ -10466,7 +10466,7 @@ count
 =
 mListeners
 .
-Length
+Count
 (
 )
 ;
@@ -10492,7 +10492,7 @@ ls
 =
 mListeners
 .
-ElementAt
+FastObserverAt
 (
 i
 )

@@ -3724,7 +3724,6 @@ observers
 nsTObserverArray
 <
 nsIMutationObserver
-*
 >
 mMutationObservers
 ;
