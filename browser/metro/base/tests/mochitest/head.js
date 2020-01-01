@@ -1287,8 +1287,9 @@ aTarget
 {
 SelectionHelperUI
 .
-closeEditSessionAndClear
+closeEditSession
 (
+true
 )
 ;
 getSelection
