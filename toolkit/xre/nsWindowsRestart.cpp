@@ -1358,6 +1358,15 @@ s
 env
 )
 ;
+if
+(
+env
+)
+free
+(
+env
+)
+;
 #
 endif
 return
