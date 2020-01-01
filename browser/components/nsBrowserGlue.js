@@ -12531,6 +12531,13 @@ PopupNotification
 anchor
 .
 *
+param
+aOptions
+Options
+for
+the
+PopupNotification
+*
 /
 _showPrompt
 :
@@ -12543,6 +12550,7 @@ aPermission
 aActions
 aNotificationId
 aAnchorId
+aOptions
 )
 {
 function
@@ -12876,11 +12884,6 @@ splice
 1
 )
 ;
-var
-options
-=
-null
-;
 if
 (
 aRequest
@@ -12914,7 +12917,7 @@ autoAllow
 !
 mainAction
 ;
-options
+aOptions
 =
 {
 removeOnDismissal
@@ -12922,10 +12925,9 @@ removeOnDismissal
 autoAllow
 eventCallback
 :
-function
-(
 type
-)
+=
+>
 {
 if
 (
@@ -12952,12 +12954,14 @@ if
 (
 autoAllow
 )
+{
 aRequest
 .
 allow
 (
 )
 ;
+}
 }
 }
 }
@@ -12978,7 +12982,7 @@ aMessage
 aAnchorId
 mainAction
 secondaryActions
-options
+aOptions
 )
 ;
 if
@@ -13417,6 +13421,7 @@ notification
 -
 icon
 "
+null
 )
 ;
 }
@@ -13594,6 +13599,7 @@ notification
 -
 icon
 "
+null
 )
 ;
 }
@@ -13827,6 +13833,7 @@ notification
 -
 icon
 "
+null
 )
 ;
 }
