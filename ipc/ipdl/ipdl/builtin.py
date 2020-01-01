@@ -307,4 +307,10 @@ ProtocolUtils
 .
 h
 '
+    
+'
+GeckoProfiler
+.
+h
+'
 )
