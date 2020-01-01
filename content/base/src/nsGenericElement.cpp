@@ -28824,6 +28824,8 @@ RuleProcessorData
 >
 (
 databuf
+.
+c
 )
 ;
 PRBool
