@@ -5980,6 +5980,9 @@ about
 "
 errors
 "
+"
+sync
+"
 ]
 .
 forEach
