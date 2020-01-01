@@ -578,7 +578,7 @@ final
 int
 FEEDBACK_LAUNCH_COUNT
 =
-10
+15
 ;
 Override
 public
