@@ -1482,6 +1482,9 @@ submit
 '
 image
 '
+'
+range
+'
 ]
 )
 isKeyboardOpened
@@ -2406,6 +2409,13 @@ case
 input
 "
 :
+if
+(
+this
+.
+focusedElement
+)
+{
 /
 /
 When
@@ -2422,6 +2432,7 @@ updateSelection
 (
 )
 ;
+}
 break
 ;
 case
