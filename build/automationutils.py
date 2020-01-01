@@ -3356,13 +3356,7 @@ log
 info
 (
 "
-TEST
--
-UNEXPECTED
--
-FAIL
-%
-s
+WARNING
 |
 automationutils
 .
