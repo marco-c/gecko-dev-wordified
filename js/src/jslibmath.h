@@ -440,13 +440,6 @@ math
 .
 h
 >
-#
-include
-"
-jsversion
-.
-h
-"
 /
 *
 *

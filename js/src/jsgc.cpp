@@ -21140,7 +21140,10 @@ nodes
 .
 *
 /
-js_SweepScopeProperties
+js
+:
+:
+SweepScopeProperties
 (
 cx
 )
