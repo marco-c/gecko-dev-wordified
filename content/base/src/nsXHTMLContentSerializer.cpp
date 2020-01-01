@@ -4254,9 +4254,6 @@ return
 true
 ;
 }
-#
-ifdef
-MOZ_MEDIA
 /
 /
 autoplay
@@ -4317,8 +4314,6 @@ return
 true
 ;
 }
-#
-endif
 return
 false
 ;

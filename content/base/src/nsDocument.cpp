@@ -1025,9 +1025,6 @@ nsIDOMElementReplaceEvent
 h
 "
 #
-ifdef
-MOZ_MEDIA
-#
 include
 "
 mozilla
@@ -1038,11 +1035,6 @@ HTMLMediaElement
 .
 h
 "
-#
-endif
-/
-/
-MOZ_MEDIA
 #
 ifdef
 MOZ_WEBRTC
@@ -21849,9 +21841,6 @@ void
 aUnused
 )
 {
-#
-ifdef
-MOZ_MEDIA
 nsCOMPtr
 <
 nsIDOMHTMLMediaElement
@@ -21890,8 +21879,6 @@ NotifyOwnerDocumentActivityChanged
 )
 ;
 }
-#
-endif
 nsCOMPtr
 <
 nsIObjectLoadingContent
@@ -47960,9 +47947,6 @@ void
 aUnused
 )
 {
-#
-ifdef
-MOZ_MEDIA
 nsCOMPtr
 <
 nsIDOMHTMLMediaElement
@@ -48001,8 +47985,6 @@ NotifyAudioAvailableListener
 )
 ;
 }
-#
-endif
 }
 void
 nsDocument

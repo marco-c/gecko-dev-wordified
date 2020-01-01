@@ -1413,9 +1413,6 @@ SetHasPaintEventListeners
 )
 ;
 }
-#
-ifdef
-MOZ_MEDIA
 }
 else
 if
@@ -1451,11 +1448,6 @@ SetHasAudioAvailableEventListeners
 )
 ;
 }
-#
-endif
-/
-/
-MOZ_MEDIA
 }
 else
 if

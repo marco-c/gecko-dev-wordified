@@ -15103,9 +15103,6 @@ nsIDocument
 aInstancePtrResult
 )
 ;
-#
-ifdef
-MOZ_MEDIA
 nsresult
 NS_NewVideoDocument
 (
@@ -15115,8 +15112,6 @@ nsIDocument
 aInstancePtrResult
 )
 ;
-#
-endif
 already_AddRefed
 <
 mozilla
