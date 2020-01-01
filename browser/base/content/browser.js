@@ -42065,7 +42065,7 @@ seconds
 const
 firstTimeoutDuration
 =
-360000
+300000
 ;
 /
 /
