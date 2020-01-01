@@ -99,7 +99,7 @@ h
 #
 include
 "
-nsIStrictTransportSecurityService
+nsISiteSecurityService
 .
 h
 "
@@ -226,9 +226,9 @@ uint64_t
 expectedMaxAge
 bool
 expectedIncludeSubdomains
-nsIStrictTransportSecurityService
+nsISiteSecurityService
 *
-stss
+sss
 nsIPermissionManager
 *
 pm
@@ -287,7 +287,7 @@ false
 ;
 rv
 =
-stss
+sss
 -
 >
 ProcessStsHeader
@@ -405,9 +405,9 @@ const
 char
 *
 hdr
-nsIStrictTransportSecurityService
+nsISiteSecurityService
 *
-stss
+sss
 nsIPermissionManager
 *
 pm
@@ -456,7 +456,7 @@ URI
 ;
 rv
 =
-stss
+sss
 -
 >
 ProcessStsHeader
@@ -586,11 +586,11 @@ the
 service
 nsCOMPtr
 <
-nsIStrictTransportSecurityService
+nsISiteSecurityService
 >
-stss
+sss
 ;
-stss
+sss
 =
 do_GetService
 (
@@ -599,7 +599,7 @@ mozilla
 .
 org
 /
-stsservice
+ssservice
 ;
 1
 "
@@ -705,7 +705,7 @@ age
 false
 100
 false
-stss
+sss
 pm
 )
 )
@@ -726,7 +726,7 @@ age
 false
 100
 false
-stss
+sss
 pm
 )
 )
@@ -747,7 +747,7 @@ age
 false
 100
 false
-stss
+sss
 pm
 )
 )
@@ -768,32 +768,7 @@ age
 false
 100
 false
-stss
-pm
-)
-)
-;
-rvs
-.
-AppendElement
-(
-TestSuccess
-(
-"
-max
--
-age
-=
-\
-"
-100
-\
-"
-"
-false
-100
-false
-stss
+sss
 pm
 )
 )
@@ -818,7 +793,7 @@ age
 false
 100
 false
-stss
+sss
 pm
 )
 )
@@ -843,7 +818,32 @@ age
 false
 100
 false
-stss
+sss
+pm
+)
+)
+;
+rvs
+.
+AppendElement
+(
+TestSuccess
+(
+"
+max
+-
+age
+=
+\
+"
+100
+\
+"
+"
+false
+100
+false
+sss
 pm
 )
 )
@@ -875,7 +875,7 @@ t
 false
 100
 false
-stss
+sss
 pm
 )
 )
@@ -896,7 +896,7 @@ age
 false
 100
 false
-stss
+sss
 pm
 )
 )
@@ -917,7 +917,7 @@ aGe
 false
 100
 false
-stss
+sss
 pm
 )
 )
@@ -938,7 +938,7 @@ age
 false
 100
 false
-stss
+sss
 pm
 )
 )
@@ -959,7 +959,7 @@ AGE
 false
 100
 false
-stss
+sss
 pm
 )
 )
@@ -980,7 +980,7 @@ Age
 false
 100
 false
-stss
+sss
 pm
 )
 )
@@ -1001,7 +1001,7 @@ AGE
 false
 100
 false
-stss
+sss
 pm
 )
 )
@@ -1024,7 +1024,7 @@ includeSubdomains
 false
 100
 true
-stss
+sss
 pm
 )
 )
@@ -1049,7 +1049,7 @@ includeSubdomains
 false
 100
 true
-stss
+sss
 pm
 )
 )
@@ -1072,7 +1072,7 @@ includeSubdomains
 false
 100
 true
-stss
+sss
 pm
 )
 )
@@ -1095,7 +1095,7 @@ includeSubdomains
 false
 100
 true
-stss
+sss
 pm
 )
 )
@@ -1118,7 +1118,7 @@ includeSubdomains
 false
 100
 true
-stss
+sss
 pm
 )
 )
@@ -1141,7 +1141,7 @@ includeSUBDOMAINS
 false
 100
 true
-stss
+sss
 pm
 )
 )
@@ -1164,7 +1164,7 @@ includeSubDomains
 false
 100
 true
-stss
+sss
 pm
 )
 )
@@ -1187,7 +1187,7 @@ iNcLuDeSuBdoMaInS
 false
 100
 true
-stss
+sss
 pm
 )
 )
@@ -1210,7 +1210,7 @@ includesubdomains
 false
 100
 true
-stss
+sss
 pm
 )
 )
@@ -1233,7 +1233,7 @@ AgE
 false
 100
 true
-stss
+sss
 pm
 )
 )
@@ -1275,7 +1275,7 @@ includeSubdomains
 true
 100
 true
-stss
+sss
 pm
 )
 )
@@ -1322,7 +1322,7 @@ includesubdomainsSomeStuff
 true
 100
 false
-stss
+sss
 pm
 )
 )
@@ -1373,7 +1373,7 @@ t
 true
 34520103
 true
-stss
+sss
 pm
 )
 )
@@ -1411,7 +1411,7 @@ thingy
 true
 100
 false
-stss
+sss
 pm
 )
 )
@@ -1504,7 +1504,7 @@ max
 -
 age
 "
-stss
+sss
 pm
 )
 )
@@ -1520,7 +1520,7 @@ max
 -
 age
 "
-stss
+sss
 pm
 )
 )
@@ -1538,7 +1538,7 @@ age
 =
 p
 "
-stss
+sss
 pm
 )
 )
@@ -1557,7 +1557,7 @@ age
 *
 1p2
 "
-stss
+sss
 pm
 )
 )
@@ -1576,7 +1576,7 @@ age
 .
 20032
 "
-stss
+sss
 pm
 )
 )
@@ -1595,7 +1595,7 @@ age
 !
 20032
 "
-stss
+sss
 pm
 )
 )
@@ -1614,7 +1614,7 @@ age
 =
 20032
 "
-stss
+sss
 pm
 )
 )
@@ -1632,7 +1632,7 @@ TestFailure
 "
 foobar
 "
-stss
+sss
 pm
 )
 )
@@ -1648,7 +1648,7 @@ maxage
 =
 100
 "
-stss
+sss
 pm
 )
 )
@@ -1666,7 +1666,7 @@ ge
 =
 100
 "
-stss
+sss
 pm
 )
 )
@@ -1684,7 +1684,7 @@ ag
 =
 100
 "
-stss
+sss
 pm
 )
 )
@@ -1698,7 +1698,7 @@ TestFailure
 "
 includesubdomains
 "
-stss
+sss
 pm
 )
 )
@@ -1712,7 +1712,7 @@ TestFailure
 "
 ;
 "
-stss
+sss
 pm
 )
 )
@@ -1732,7 +1732,7 @@ age
 "
 100
 "
-stss
+sss
 pm
 )
 )
@@ -1801,7 +1801,7 @@ age
 ;
 includeSubdomains
 "
-stss
+sss
 pm
 )
 )
@@ -1820,7 +1820,7 @@ age
 100
 includesubdomains
 "
-stss
+sss
 pm
 )
 )
@@ -1840,7 +1840,7 @@ age
 bar
 foo
 "
-stss
+sss
 pm
 )
 )
@@ -1858,7 +1858,7 @@ age
 =
 100randomstuffhere
 "
-stss
+sss
 pm
 )
 )
@@ -1896,7 +1896,7 @@ age
 =
 200
 "
-stss
+sss
 pm
 )
 )
@@ -1918,7 +1918,7 @@ age
 ;
 includeSubdomains
 "
-stss
+sss
 pm
 )
 )
@@ -1940,7 +1940,7 @@ includeSubdomains
 ;
 includeSubdomains
 "
-stss
+sss
 pm
 )
 )
@@ -1970,7 +1970,7 @@ includeSubdomains
 =
 unexpected
 "
-stss
+sss
 pm
 )
 )
@@ -2003,7 +2003,7 @@ age
 =
 200
 "
-stss
+sss
 pm
 )
 )

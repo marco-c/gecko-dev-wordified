@@ -1020,7 +1020,7 @@ h
 #
 include
 "
-nsIStrictTransportSecurityService
+nsISiteSecurityService
 .
 h
 "
@@ -24168,13 +24168,13 @@ section
 .
 nsCOMPtr
 <
-nsIStrictTransportSecurityService
+nsISiteSecurityService
 >
-stss
+sss
 =
 do_GetService
 (
-NS_STSSERVICE_CONTRACTID
+NS_SSSERVICE_CONTRACTID
 &
 rv
 )
@@ -24204,7 +24204,7 @@ false
 ;
 rv
 =
-stss
+sss
 -
 >
 IsStsURI
