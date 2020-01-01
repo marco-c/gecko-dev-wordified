@@ -997,6 +997,9 @@ TraceTreeCache
 }
 #
 endif
+#
+ifdef
+JS_METHODJIT_SPEW
 Profiler
 prof
 ;
@@ -1006,6 +1009,8 @@ start
 (
 )
 ;
+#
+endif
 CHECK_STATUS
 (
 generatePrologue
