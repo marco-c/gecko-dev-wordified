@@ -646,7 +646,6 @@ MarkBaseShapeUnbarriered
 JSTracer
 *
 trc
-const
 BaseShape
 *
 shape
