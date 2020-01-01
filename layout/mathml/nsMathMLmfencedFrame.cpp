@@ -1173,10 +1173,8 @@ else
 {
 value
 .
-Trim
+StripWhitespace
 (
-"
-"
 )
 ;
 }
