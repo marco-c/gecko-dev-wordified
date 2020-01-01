@@ -2528,6 +2528,10 @@ refcount_
 (
 0
 )
+slowCallCount
+(
+0
+)
 {
 }
 static
