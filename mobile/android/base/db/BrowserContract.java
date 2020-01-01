@@ -89,9 +89,6 @@ MPL
 .
 *
 /
-#
-filter
-substitution
 package
 org
 .

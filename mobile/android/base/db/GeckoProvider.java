@@ -56,11 +56,12 @@ MPL
 .
 *
 /
-#
-filter
-substitution
 package
-ANDROID_PACKAGE_NAME
+org
+.
+mozilla
+.
+gecko
 .
 db
 ;
