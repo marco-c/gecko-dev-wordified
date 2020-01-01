@@ -34587,8 +34587,6 @@ uint8_t
 zeal
 uint32_t
 frequency
-JSBool
-compartment
 )
 ;
 extern
@@ -34603,8 +34601,6 @@ JSContext
 cx
 uint32_t
 count
-JSBool
-compartment
 )
 ;
 #
