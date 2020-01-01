@@ -663,6 +663,8 @@ newBaseValue
 DOMSVGPointList
 *
 animValWrapper
+=
+nsnull
 ;
 if
 (
