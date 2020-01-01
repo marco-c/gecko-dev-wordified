@@ -852,6 +852,9 @@ e
 accelKey
 :
 true
+shiftKey
+:
+true
 }
 )
 ;
