@@ -204,7 +204,7 @@ Key
 operator
 =
 (
-int64_t
+PRInt64
 aInt
 )
 {
@@ -679,7 +679,7 @@ TrimBuffer
 void
 SetFromInteger
 (
-int64_t
+PRInt64
 aInt
 )
 {
@@ -950,7 +950,7 @@ aParamName
 reinterpret_cast
 <
 const
-uint8_t
+PRUint8
 *
 >
 (
@@ -984,15 +984,15 @@ SetFromStatement
 mozIStorageStatement
 *
 aStatement
-uint32_t
+PRUint32
 aIndex
 )
 {
-uint8_t
+PRUint8
 *
 data
 ;
-uint32_t
+PRUint32
 dataLength
 =
 0
@@ -1030,7 +1030,7 @@ char
 (
 const_cast
 <
-uint8_t
+PRUint8
 *
 >
 (
@@ -1045,7 +1045,7 @@ NS_OK
 ;
 }
 static
-int16_t
+PRInt16
 CompareKeys
 (
 Key
@@ -1056,7 +1056,7 @@ Key
 aSecond
 )
 {
-int32_t
+PRInt32
 result
 =
 Compare
@@ -1263,7 +1263,7 @@ aCx
 const
 jsval
 aVal
-uint8_t
+PRUint8
 aTypeOffset
 )
 {
@@ -1284,7 +1284,7 @@ const
 nsAString
 &
 aString
-uint8_t
+PRUint8
 aTypeOffset
 )
 ;
@@ -1293,7 +1293,7 @@ EncodeNumber
 (
 double
 aFloat
-uint8_t
+PRUint8
 aType
 )
 ;
@@ -1337,7 +1337,7 @@ aEnd
 JSContext
 *
 aCx
-uint8_t
+PRUint8
 aTypeOffset
 jsval
 *
@@ -1407,9 +1407,9 @@ aCx
 const
 jsval
 aVal
-uint8_t
+PRUint8
 aTypeOffset
-uint16_t
+PRUint16
 aRecursionDepth
 )
 ;
@@ -1431,12 +1431,12 @@ aEnd
 JSContext
 *
 aCx
-uint8_t
+PRUint8
 aTypeOffset
 jsval
 *
 aVal
-uint16_t
+PRUint16
 aRecursionDepth
 )
 ;
