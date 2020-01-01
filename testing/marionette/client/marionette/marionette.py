@@ -315,6 +315,12 @@ def
 single_tap
 (
 self
+x
+=
+None
+y
+=
+None
 )
 :
         
@@ -336,12 +342,24 @@ element
 self
 .
 id
+x
+=
+x
+y
+=
+y
 )
     
 def
 double_tap
 (
 self
+x
+=
+None
+y
+=
+None
 )
 :
         
@@ -363,6 +381,12 @@ element
 self
 .
 id
+x
+=
+x
+y
+=
+y
 )
     
 property
