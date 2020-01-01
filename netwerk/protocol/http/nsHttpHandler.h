@@ -968,6 +968,15 @@ MaxSocketCount
 )
 ;
 bool
+EnforceAssocReq
+(
+)
+{
+return
+mEnforceAssocReq
+;
+}
+bool
 IsPersistentHttpsCachingEnabled
 (
 )
@@ -1948,6 +1957,9 @@ mQoSBits
 ;
 bool
 mPipeliningOverSSL
+;
+bool
+mEnforceAssocReq
 ;
 /
 /

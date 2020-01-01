@@ -1548,6 +1548,9 @@ restarted
 PRUint8
 mCaps
 ;
+PRInt32
+mPipelinePosition
+;
 /
 /
 state
