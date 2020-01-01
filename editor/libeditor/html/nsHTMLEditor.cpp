@@ -27768,6 +27768,9 @@ bool
 aSuppressTransaction
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 nsresult
 res
 =
