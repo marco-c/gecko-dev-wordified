@@ -9024,7 +9024,7 @@ nsGkAtoms
 :
 html
 nsnull
-kNameSpaceID_None
+kNameSpaceID_XHTML
 )
 ;
 NS_ENSURE_TRUE
@@ -9214,7 +9214,7 @@ nsGkAtoms
 :
 head
 nsnull
-kNameSpaceID_None
+kNameSpaceID_XHTML
 )
 ;
 NS_ENSURE_TRUE
@@ -15753,7 +15753,7 @@ nsGkAtoms
 :
 link
 nsnull
-kNameSpaceID_None
+kNameSpaceID_XHTML
 )
 ;
 result
