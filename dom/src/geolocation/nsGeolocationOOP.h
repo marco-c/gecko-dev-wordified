@@ -446,7 +446,7 @@ mozilla
 /
 dom
 /
-PGeolocationRequestParent
+PContentPermissionRequestParent
 .
 h
 "
@@ -463,7 +463,7 @@ class
 GeolocationRequestParent
 :
 public
-PGeolocationRequestParent
+PContentPermissionRequestParent
 {
 public
 :
