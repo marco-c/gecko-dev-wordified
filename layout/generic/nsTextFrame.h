@@ -2593,6 +2593,7 @@ PRInt32
 GetEnd
 (
 )
+const
 {
 return
 mStart
