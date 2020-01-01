@@ -9275,12 +9275,12 @@ causes
 unfreezing
 if
 (
+!
 self
 .
 expanded
 )
-return
-;
+{
 /
 /
 unfreeze
@@ -9348,6 +9348,7 @@ data
 onMouseMove
 )
 ;
+}
 }
 this
 .
