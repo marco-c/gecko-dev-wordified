@@ -16408,7 +16408,7 @@ JS_PUBLIC_API
 (
 void
 )
-JS_SetExtraGCRoots
+JS_SetExtraGCRootsTracer
 (
 JSRuntime
 *
