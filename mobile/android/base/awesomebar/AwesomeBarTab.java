@@ -586,6 +586,13 @@ encode
 (
 url
 )
++
+"
+&
+readingList
+=
+1
+"
 ;
 }
 protected
