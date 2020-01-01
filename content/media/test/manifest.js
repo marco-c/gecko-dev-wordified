@@ -2606,7 +2606,7 @@ These
 files
 ensure
 our
-hanlding
+handling
 of
 404
 errors
