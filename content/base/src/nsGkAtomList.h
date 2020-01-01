@@ -5237,6 +5237,13 @@ oniccinfochange
 )
 GK_ATOM
 (
+onicccardlockerror
+"
+onicccardlockerror
+"
+)
+GK_ATOM
+(
 onincoming
 "
 onincoming
