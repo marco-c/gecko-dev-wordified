@@ -3217,6 +3217,17 @@ MutableHandleValue
 rval
 )
 ;
+JSFixedString
+*
+StringFromCharCode
+(
+JSContext
+*
+cx
+int32_t
+code
+)
+;
 bool
 SetProperty
 (
