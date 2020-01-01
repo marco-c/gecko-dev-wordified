@@ -12753,10 +12753,14 @@ eDelayedEvent
 isAsynch
 )
 ;
-NS_ENSURE_SUCCESS
+if
+(
+NS_FAILED
 (
 rv
 )
+)
+return
 ;
 if
 (
