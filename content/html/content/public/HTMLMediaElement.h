@@ -2766,11 +2766,6 @@ DOMMediaStream
 aValue
 )
 ;
-double
-InitialTime
-(
-)
-;
 bool
 MozPreservesPitch
 (
