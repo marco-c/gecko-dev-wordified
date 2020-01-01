@@ -642,9 +642,9 @@ int
 aX
 int
 aY
-uint32_t
+int
 aWidth
-uint32_t
+int
 aHeight
 )
 ;
