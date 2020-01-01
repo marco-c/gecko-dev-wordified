@@ -770,16 +770,7 @@ types
 /
 #
 ifdef
-DEBUG_brendan
-#
-define
-METERING
-1
-#
-endif
-#
-ifdef
-METERING
+XML_METERING
 static
 struct
 {
