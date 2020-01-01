@@ -1120,6 +1120,7 @@ NotifyMaybeChannelError
 (
 )
 ;
+virtual
 void
 Clear
 (
