@@ -11065,6 +11065,12 @@ AreTransformAnimationsEnabled
 (
 )
 ;
+static
+bool
+AreAsyncAnimationsEnabled
+(
+)
+;
 /
 *
 *
