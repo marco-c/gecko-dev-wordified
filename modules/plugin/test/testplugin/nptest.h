@@ -482,6 +482,9 @@ hasWidget
 bool
 npnNewStream
 ;
+bool
+throwOnNextInvoke
+;
 uint32_t
 timerID1
 ;
