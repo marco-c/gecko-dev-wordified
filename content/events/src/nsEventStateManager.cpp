@@ -19949,7 +19949,7 @@ newTop
 currentWindow
 -
 >
-GetScriptableTop
+GetTop
 (
 getter_AddRefs
 (
@@ -19965,7 +19965,7 @@ GetWindow
 )
 -
 >
-GetScriptableTop
+GetTop
 (
 getter_AddRefs
 (
