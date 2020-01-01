@@ -1264,9 +1264,9 @@ true
 void
 MarkFromIon
 (
-JSCompartment
+JSRuntime
 *
-comp
+rt
 Value
 *
 vp
