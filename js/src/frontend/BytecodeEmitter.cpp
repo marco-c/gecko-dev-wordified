@@ -11143,9 +11143,7 @@ if
 funbox
 -
 >
-tcflags
-&
-TCF_IN_WITH
+inWith
 )
 return
 true
