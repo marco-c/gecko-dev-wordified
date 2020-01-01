@@ -30405,7 +30405,7 @@ JSVAL_HOLE
 {
 if
 (
-js_ObjectHasNumericPropertiesInAnyPrototype
+js_PrototypeHasIndexedProperties
 (
 cx
 obj
