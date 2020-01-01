@@ -60,7 +60,7 @@ x
 .
 type
 "
-object
+with
 "
 )
 ;
