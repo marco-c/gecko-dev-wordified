@@ -31862,6 +31862,9 @@ gAutoCompleteFeedback
 0
 )
 {
+#
+ifdef
+MOZ_XUL
 nsCOMPtr
 <
 nsIAutoCompleteInput
@@ -32025,6 +32028,8 @@ rv
 rv
 )
 ;
+#
+endif
 }
 else
 if

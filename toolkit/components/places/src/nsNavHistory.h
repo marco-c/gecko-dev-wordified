@@ -4024,6 +4024,9 @@ ProcessTokensForSpecialSearch
 (
 )
 ;
+#
+ifdef
+MOZ_XUL
 nsresult
 AutoCompleteFeedback
 (
@@ -4034,9 +4037,6 @@ nsIAutoCompleteController
 aController
 )
 ;
-#
-ifdef
-MOZ_XUL
 nsCOMPtr
 <
 nsIAutoCompleteObserver
