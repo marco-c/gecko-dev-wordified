@@ -900,6 +900,8 @@ GetTypelibRecord
 PRBool
 success
 =
+!
+!
 PR_fprintf
 (
 fd
