@@ -3127,6 +3127,9 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
+js
+:
+:
 ToInt32
 )
 )
