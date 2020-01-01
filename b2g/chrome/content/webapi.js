@@ -301,11 +301,6 @@ MozKeyboard
 }
 )
 ;
-updateApplicationCache
-(
-window
-)
-;
 }
 ;
 let
