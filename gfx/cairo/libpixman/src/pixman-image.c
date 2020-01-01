@@ -2550,10 +2550,10 @@ sizeof
 (
 pixman_transform_t
 )
+)
 =
 =
 0
-)
 )
 {
 return
