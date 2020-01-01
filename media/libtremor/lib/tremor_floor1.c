@@ -1112,6 +1112,15 @@ j
 ]
 ]
 ;
+if
+(
+count
+>
+VIF_POSIT
+)
+goto
+err_out
+;
 for
 (
 ;
