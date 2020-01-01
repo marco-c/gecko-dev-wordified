@@ -2449,6 +2449,14 @@ __stmtUpdatePref
 null
 ;
 }
+this
+.
+_dbConnection
+.
+asyncClose
+(
+)
+;
 /
 /
 Delete
