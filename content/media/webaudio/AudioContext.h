@@ -306,6 +306,9 @@ class
 ChannelSplitterNode
 ;
 class
+ConvolverNode
+;
+class
 DelayNode
 ;
 class
@@ -686,6 +689,14 @@ already_AddRefed
 PannerNode
 >
 CreatePanner
+(
+)
+;
+already_AddRefed
+<
+ConvolverNode
+>
+CreateConvolver
 (
 )
 ;
