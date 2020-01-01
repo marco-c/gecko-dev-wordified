@@ -235,9 +235,6 @@ cid
 CERTCertificate
 *
 ca
-CERTCertificate
-*
-cert
 )
 {
 SECItem
@@ -288,7 +285,7 @@ future
 /
 sr
 =
-OCSP_CreateSingleResponseGood
+CERT_CreateOCSPSingleResponseGood
 (
 arena
 cid
@@ -348,11 +345,11 @@ NULL
 ;
 response
 =
-OCSP_CreateSuccessResponseEncodedBasicV1
+CERT_CreateEncodedOCSPSuccessResponse
 (
 arena
 ca
-PR_TRUE
+ocspResponderID_byName
 now
 responses
 &
@@ -377,9 +374,6 @@ cid
 CERTCertificate
 *
 ca
-CERTCertificate
-*
-cert
 )
 {
 SECItem
@@ -430,13 +424,14 @@ past
 /
 sr
 =
-OCSP_CreateSingleResponseRevoked
+CERT_CreateOCSPSingleResponseRevoked
 (
 arena
 cid
 now
 NULL
 revocationTime
+NULL
 )
 ;
 /
@@ -490,11 +485,11 @@ NULL
 ;
 response
 =
-OCSP_CreateSuccessResponseEncodedBasicV1
+CERT_CreateEncodedOCSPSuccessResponse
 (
 arena
 ca
-PR_TRUE
+ocspResponderID_byName
 now
 responses
 &
@@ -508,6 +503,7 @@ response
 int
 Usage
 (
+void
 )
 {
 PRFileDesc
@@ -1016,7 +1012,6 @@ encode
 arena
 cid
 caCert
-cert
 )
 ;
 PORT_Assert
@@ -1098,7 +1093,6 @@ encodeRevoked
 arena
 cid
 caCert
-cert
 )
 ;
 PORT_Assert
@@ -1185,7 +1179,7 @@ obtainedSignerCert
 ;
 encodedFail
 =
-OCSP_CreateFailureResponse
+CERT_CreateEncodedOCSPErrorResponse
 (
 arena
 SEC_ERROR_OCSP_TRY_SERVER_LATER

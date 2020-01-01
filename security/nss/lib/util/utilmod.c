@@ -884,8 +884,6 @@ static
 SECStatus
 nssutil_AddSecmodDB
 (
-NSSDBType
-dbType
 const
 char
 *
@@ -1040,8 +1038,6 @@ char
 *
 nssutil_ReadSecmodDB
 (
-NSSDBType
-dbType
 const
 char
 *
@@ -2632,7 +2628,6 @@ module
 /
 nssutil_AddSecmodDB
 (
-dbType
 appName
 filename
 dbname
@@ -2652,8 +2647,6 @@ static
 SECStatus
 nssutil_ReleaseSecmodDBData
 (
-NSSDBType
-dbType
 const
 char
 *
@@ -2705,8 +2698,6 @@ static
 SECStatus
 nssutil_DeleteSecmodDB
 (
-NSSDBType
-dbType
 const
 char
 *
@@ -3505,8 +3496,6 @@ static
 SECStatus
 nssutil_AddSecmodDB
 (
-NSSDBType
-dbType
 const
 char
 *
@@ -3604,7 +3593,6 @@ void
 )
 nssutil_DeleteSecmodDB
 (
-dbType
 appName
 filename
 dbname
@@ -4020,7 +4008,6 @@ rvstr
 =
 nssutil_ReadSecmodDB
 (
-dbType
 appName
 filename
 secmod
@@ -4042,7 +4029,6 @@ rvstr
 (
 nssutil_AddSecmodDB
 (
-dbType
 appName
 filename
 secmod
@@ -4073,7 +4059,6 @@ rvstr
 (
 nssutil_DeleteSecmodDB
 (
-dbType
 appName
 filename
 secmod
@@ -4104,7 +4089,6 @@ rvstr
 (
 nssutil_ReleaseSecmodDBData
 (
-dbType
 appName
 filename
 secmod
