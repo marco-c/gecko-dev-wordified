@@ -1722,6 +1722,22 @@ OBJECT_FLAG_NON_TYPED_ARRAY
 *
 Whether
 any
+objects
+this
+represents
+are
+not
+DOM
+objects
+*
+/
+OBJECT_FLAG_NON_DOM
+=
+0x00080000
+/
+*
+Whether
+any
 represented
 script
 is
@@ -1732,7 +1748,7 @@ uninlineable
 /
 OBJECT_FLAG_UNINLINEABLE
 =
-0x00080000
+0x00100000
 /
 *
 Whether
@@ -1747,7 +1763,7 @@ hook
 /
 OBJECT_FLAG_SPECIAL_EQUALITY
 =
-0x00100000
+0x00200000
 /
 *
 Whether
@@ -1762,7 +1778,7 @@ over
 /
 OBJECT_FLAG_ITERATED
 =
-0x00200000
+0x00400000
 /
 *
 Outer
@@ -1777,7 +1793,7 @@ reentrant
 /
 OBJECT_FLAG_REENTRANT_FUNCTION
 =
-0x00400000
+0x00800000
 /
 *
 For
@@ -1796,7 +1812,7 @@ RegExpStatics
 /
 OBJECT_FLAG_REGEXP_FLAGS_SET
 =
-0x00800000
+0x01000000
 /
 *
 Flags
@@ -1812,7 +1828,7 @@ objects
 /
 OBJECT_FLAG_DYNAMIC_MASK
 =
-0x00ff0000
+0x01ff0000
 /
 *
 *
@@ -8549,6 +8565,10 @@ JSObject
 proto
 bool
 unknown
+=
+false
+bool
+isDOM
 =
 false
 )
