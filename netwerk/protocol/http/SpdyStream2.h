@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-mozilla_net_SpdyStream_h
+mozilla_net_SpdyStream2_h
 #
 define
-mozilla_net_SpdyStream_h
+mozilla_net_SpdyStream2_h
 #
 include
 "
@@ -131,7 +131,7 @@ namespace
 net
 {
 class
-SpdyStream
+SpdyStream2
 :
 public
 nsAHttpSegmentReader
@@ -142,11 +142,11 @@ public
 :
 NS_DECL_NSAHTTPSEGMENTREADER
 NS_DECL_NSAHTTPSEGMENTWRITER
-SpdyStream
+SpdyStream2
 (
 nsAHttpTransaction
 *
-SpdySession
+SpdySession2
 *
 nsISocketTransport
 *
@@ -350,7 +350,7 @@ private
 /
 /
 a
-SpdyStream
+SpdyStream2
 object
 is
 only
@@ -362,7 +362,7 @@ from
 the
 /
 /
-SpdySession
+SpdySession2
 mStreamTransactionHash
 -
 make
@@ -385,11 +385,11 @@ friend
 class
 nsAutoPtr
 <
-SpdyStream
+SpdyStream2
 >
 ;
 ~
-SpdyStream
+SpdyStream2
 (
 )
 ;
@@ -549,7 +549,7 @@ key
 /
 in
 the
-SpdySession
+SpdySession2
 mStreamTransactionHash
 so
 it
@@ -616,7 +616,7 @@ is
 a
 subset
 of
-SpdySession
+SpdySession2
 *
 mSession
 ;
@@ -937,7 +937,7 @@ is
 a
 copy
 of
-SpdySession
+SpdySession2
 :
 :
 mUpstreamZlib
@@ -1068,4 +1068,4 @@ net
 endif
 /
 /
-mozilla_net_SpdyStream_h
+mozilla_net_SpdyStream2_h

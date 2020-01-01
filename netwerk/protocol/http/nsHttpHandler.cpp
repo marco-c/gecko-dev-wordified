@@ -332,7 +332,7 @@ h
 #
 include
 "
-SpdySession
+ASpdySession
 .
 h
 "
@@ -1262,7 +1262,7 @@ false
 )
 mSpdySendingChunkSize
 (
-SpdySession
+ASpdySession
 :
 :
 kSendingChunkSize

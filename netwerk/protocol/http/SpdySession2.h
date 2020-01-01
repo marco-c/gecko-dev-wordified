@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-mozilla_net_SpdySession_h
+mozilla_net_SpdySession2_h
 #
 define
-mozilla_net_SpdySession_h
+mozilla_net_SpdySession2_h
 /
 /
 SPDY
@@ -131,14 +131,7 @@ draft2
 #
 include
 "
-nsAHttpTransaction
-.
-h
-"
-#
-include
-"
-nsAHttpConnection
+ASpdySession
 .
 h
 "
@@ -190,13 +183,13 @@ namespace
 net
 {
 class
-SpdyStream
+SpdyStream2
 ;
 class
-SpdySession
+SpdySession2
 :
 public
-nsAHttpTransaction
+ASpdySession
 public
 nsAHttpConnection
 public
@@ -214,7 +207,7 @@ mConnection
 )
 NS_DECL_NSAHTTPSEGMENTREADER
 NS_DECL_NSAHTTPSEGMENTWRITER
-SpdySession
+SpdySession2
 (
 nsAHttpTransaction
 *
@@ -224,7 +217,7 @@ PRInt32
 )
 ;
 ~
-SpdySession
+SpdySession2
 (
 )
 ;
@@ -304,7 +297,7 @@ IdleTime
 PRUint32
 RegisterStreamID
 (
-SpdyStream
+SpdyStream2
 *
 )
 ;
@@ -711,13 +704,6 @@ kQueueReserved
 const
 static
 PRUint32
-kSendingChunkSize
-=
-4096
-;
-const
-static
-PRUint32
 kDefaultMaxConcurrent
 =
 100
@@ -763,7 +749,7 @@ static
 nsresult
 HandleSynStream
 (
-SpdySession
+SpdySession2
 *
 )
 ;
@@ -771,7 +757,7 @@ static
 nsresult
 HandleSynReply
 (
-SpdySession
+SpdySession2
 *
 )
 ;
@@ -779,7 +765,7 @@ static
 nsresult
 HandleRstStream
 (
-SpdySession
+SpdySession2
 *
 )
 ;
@@ -787,7 +773,7 @@ static
 nsresult
 HandleSettings
 (
-SpdySession
+SpdySession2
 *
 )
 ;
@@ -795,7 +781,7 @@ static
 nsresult
 HandleNoop
 (
-SpdySession
+SpdySession2
 *
 )
 ;
@@ -803,7 +789,7 @@ static
 nsresult
 HandlePing
 (
-SpdySession
+SpdySession2
 *
 )
 ;
@@ -811,7 +797,7 @@ static
 nsresult
 HandleGoAway
 (
-SpdySession
+SpdySession2
 *
 )
 ;
@@ -819,7 +805,7 @@ static
 nsresult
 HandleHeaders
 (
-SpdySession
+SpdySession2
 *
 )
 ;
@@ -827,7 +813,7 @@ static
 nsresult
 HandleWindowUpdate
 (
-SpdySession
+SpdySession2
 *
 )
 ;
@@ -860,9 +846,9 @@ static
 void
 LogIO
 (
-SpdySession
+SpdySession2
 *
-SpdyStream
+SpdyStream2
 *
 const
 char
@@ -892,11 +878,11 @@ a
 similar
 version
 for
-SpdyStream
+SpdyStream2
 void
 TransactionHasDataToWrite
 (
-SpdyStream
+SpdyStream2
 *
 )
 ;
@@ -1011,7 +997,7 @@ GenerateGoAway
 void
 CleanupStream
 (
-SpdyStream
+SpdyStream2
 *
 nsresult
 rstReason
@@ -1035,7 +1021,7 @@ RoomForMoreConcurrent
 void
 ActivateStream
 (
-SpdyStream
+SpdyStream2
 *
 )
 ;
@@ -1053,7 +1039,7 @@ PRUint32
 bool
 VerifyStream
 (
-SpdyStream
+SpdyStream2
 *
 PRUint32
 )
@@ -1109,7 +1095,7 @@ nsAHttpTransaction
 *
 nsAutoPtr
 <
-SpdyStream
+SpdyStream2
 >
 &
 void
@@ -1351,7 +1337,7 @@ there
 nsDataHashtable
 <
 nsUint32HashKey
-SpdyStream
+SpdyStream2
 *
 >
 mStreamIDHash
@@ -1362,7 +1348,7 @@ nsPtrHashKey
 <
 nsAHttpTransaction
 >
-SpdyStream
+SpdyStream2
 >
 mStreamTransactionHash
 ;
@@ -1597,7 +1583,7 @@ to
 the
 stream
 .
-SpdyStream
+SpdyStream2
 *
 mInputFrameDataStream
 ;
@@ -1676,7 +1662,7 @@ at
 that
 time
 .
-SpdyStream
+SpdyStream2
 *
 mNeedsCleanup
 ;
@@ -2159,4 +2145,4 @@ net
 endif
 /
 /
-mozilla_net_SpdySession_h
+mozilla_net_SpdySession2_h

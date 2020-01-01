@@ -2573,7 +2573,7 @@ NPN
 =
 spdy
 /
-2
+*
 at
 some
 point
@@ -4274,7 +4274,7 @@ only
 for
 spdy
 /
-2
+*
 upgrades
 for
 now
