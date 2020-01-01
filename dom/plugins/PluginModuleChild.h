@@ -498,13 +498,6 @@ h
 #
 include
 "
-nsplugindefs
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
