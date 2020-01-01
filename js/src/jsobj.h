@@ -727,7 +727,7 @@ JSSLOT_PRIVATE
 2
 ;
 const
-uint32
+uintptr_t
 JSSLOT_CLASS_MASK_BITS
 =
 3
@@ -2316,10 +2316,6 @@ care
 .
 *
 /
-#
-define
-JSSLOT_CLASS_MASK_BITS
-3
 JS_ALWAYS_INLINE
 JSClass
 *
