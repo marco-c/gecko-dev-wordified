@@ -1522,6 +1522,16 @@ return
 mWebNav
 ;
 }
+JSContext
+*
+GetJSContext
+(
+)
+{
+return
+mCx
+;
+}
 nsIPrincipal
 *
 GetPrincipal
