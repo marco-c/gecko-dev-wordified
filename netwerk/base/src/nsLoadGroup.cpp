@@ -3005,7 +3005,10 @@ LOAD_DOCUMENT_URI
 mLoadFlags
 &
 =
-0xFFFF
+nsIRequest
+:
+:
+LOAD_REQUESTMASK
 ;
 }
 /
