@@ -4497,9 +4497,9 @@ after
 them
 too
 .
-eCSSKeyword__moz_flex
+eCSSKeyword_flex
 NS_STYLE_DISPLAY_FLEX
-eCSSKeyword__moz_inline_flex
+eCSSKeyword_inline_flex
 NS_STYLE_DISPLAY_INLINE_FLEX
 #
 endif

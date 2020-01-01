@@ -46122,9 +46122,6 @@ flexProperties
 =
 {
 "
--
-moz
--
 align
 -
 items
@@ -46134,7 +46131,7 @@ items
 domProp
 :
 "
-MozAlignItems
+alignItems
 "
 inherited
 :
@@ -46186,9 +46183,6 @@ abc
 ]
 }
 "
--
-moz
--
 align
 -
 self
@@ -46198,7 +46192,7 @@ self
 domProp
 :
 "
-MozAlignSelf
+alignSelf
 "
 inherited
 :
@@ -46272,9 +46266,6 @@ abc
 ]
 }
 "
--
-moz
--
 flex
 "
 :
@@ -46282,7 +46273,7 @@ flex
 domProp
 :
 "
-MozFlex
+flex
 "
 inherited
 :
@@ -46294,25 +46285,16 @@ subproperties
 :
 [
 "
--
-moz
--
 flex
 -
 grow
 "
 "
--
-moz
--
 flex
 -
 shrink
 "
 "
--
-moz
--
 flex
 -
 basis
@@ -46493,9 +46475,6 @@ auto
 ]
 }
 "
--
-moz
--
 flex
 -
 basis
@@ -46505,7 +46484,7 @@ basis
 domProp
 :
 "
-MozFlexBasis
+flexBasis
 "
 inherited
 :
@@ -47152,9 +47131,6 @@ calc
 ]
 }
 "
--
-moz
--
 flex
 -
 direction
@@ -47164,7 +47140,7 @@ direction
 domProp
 :
 "
-MozFlexDirection
+flexDirection
 "
 inherited
 :
@@ -47216,9 +47192,6 @@ wrap
 ]
 }
 "
--
-moz
--
 flex
 -
 grow
@@ -47228,7 +47201,7 @@ grow
 domProp
 :
 "
-MozFlexGrow
+flexGrow
 "
 inherited
 :
@@ -47292,9 +47265,6 @@ auto
 ]
 }
 "
--
-moz
--
 flex
 -
 shrink
@@ -47304,7 +47274,7 @@ shrink
 domProp
 :
 "
-MozFlexShrink
+flexShrink
 "
 inherited
 :
@@ -47368,9 +47338,6 @@ auto
 ]
 }
 "
--
-moz
--
 order
 "
 :
@@ -47378,7 +47345,7 @@ order
 domProp
 :
 "
-MozOrder
+order
 "
 inherited
 :
@@ -47444,9 +47411,6 @@ stretch
 ]
 }
 "
--
-moz
--
 justify
 -
 content
@@ -47456,7 +47420,7 @@ content
 domProp
 :
 "
-MozJustifyContent
+justifyContent
 "
 inherited
 :
@@ -47546,9 +47510,6 @@ other_values
 push
 (
 "
--
-moz
--
 flex
 "
 )
@@ -47565,9 +47526,6 @@ other_values
 push
 (
 "
--
-moz
--
 inline
 -
 flex
