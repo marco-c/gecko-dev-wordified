@@ -1638,6 +1638,9 @@ cx
 JSString
 *
 str
+jsbytecode
+*
+pc
 JSObject
 *
 regexp
@@ -1646,7 +1649,7 @@ regexp
 jsval
 vp
 [
-4
+3
 ]
 =
 {
@@ -1664,11 +1667,12 @@ regexp
 if
 (
 !
-js_str_match
+js_StringMatchHelper
 (
 cx
 1
 vp
+pc
 )
 )
 return
