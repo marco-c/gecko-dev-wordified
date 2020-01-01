@@ -17756,6 +17756,13 @@ file
 ;
 if
 (
+len
+=
+=
+-
+1
+|
+|
 fseek
 (
 file
