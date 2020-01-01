@@ -464,10 +464,6 @@ DOMCI_CLASS
 (
 SVGRect
 )
-DOMCI_CLASS
-(
-SVGZoomEvent
-)
 /
 /
 Canvas
