@@ -340,6 +340,16 @@ webappsDir
 "
 ;
 #
+elifdef
+ANDROID
+const
+DIRECTORY_NAME
+=
+"
+webappsDir
+"
+;
+#
 else
 /
 /
