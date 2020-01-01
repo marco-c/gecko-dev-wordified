@@ -3346,9 +3346,6 @@ fail
 "
 )
 ;
-return
-NS_ERROR_UNEXPECTED
-;
 }
 if
 (
@@ -3373,7 +3370,7 @@ memory
 )
 ;
 return
-NS_ERROR_OUT_OF_MEMORY
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
 arrayOfNames
@@ -3431,7 +3428,7 @@ ElementAt
 index
 )
 )
-NS_ERROR_OUT_OF_MEMORY
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
 }
@@ -3483,7 +3480,7 @@ TransactionIsOpen
 )
 {
 return
-NS_ERROR_UNEXPECTED
+NS_ERROR_DOM_INDEXEDDB_NOT_ALLOWED_ERR
 ;
 }
 ObjectStoreInfo
@@ -3535,7 +3532,7 @@ info
 )
 {
 return
-NS_ERROR_NOT_AVAILABLE
+NS_ERROR_DOM_INDEXEDDB_NOT_FOUND_ERR
 ;
 }
 nsRefPtr
@@ -3553,7 +3550,7 @@ info
 NS_ENSURE_TRUE
 (
 objectStore
-NS_ERROR_FAILURE
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
 objectStore
@@ -3596,7 +3593,7 @@ TransactionIsOpen
 )
 {
 return
-NS_ERROR_UNEXPECTED
+NS_ERROR_DOM_INDEXEDDB_NOT_ALLOWED_ERR
 ;
 }
 mAborted
@@ -4070,7 +4067,7 @@ COMPLETE_EVT_STR
 NS_ENSURE_TRUE
 (
 event
-NS_ERROR_FAILURE
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
 PRBool

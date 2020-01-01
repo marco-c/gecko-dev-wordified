@@ -465,13 +465,6 @@ h
 #
 include
 "
-nsIIDBDatabaseException
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h

@@ -458,13 +458,6 @@ h
 #
 include
 "
-nsIIDBDatabaseException
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h
@@ -3007,10 +3000,7 @@ aHelper
 >
 SetError
 (
-nsIIDBDatabaseException
-:
-:
-DEADLOCK_ERR
+NS_ERROR_DOM_INDEXEDDB_DEADLOCK_ERR
 )
 ;
 rv

@@ -701,8 +701,8 @@ Create
 IDBRequest
 *
 aRequest
-PRUint16
-aCode
+nsresult
+aResult
 )
 ;
 static
@@ -715,8 +715,8 @@ CreateRunnable
 IDBRequest
 *
 aRequest
-PRUint16
-aCode
+nsresult
+aResult
 )
 ;
 protected

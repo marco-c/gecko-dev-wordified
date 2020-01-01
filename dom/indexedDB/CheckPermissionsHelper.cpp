@@ -465,13 +465,6 @@ h
 #
 include
 "
-nsIIDBDatabaseException
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h
@@ -1071,10 +1064,7 @@ helper
 >
 SetError
 (
-nsIIDBDatabaseException
-:
-:
-NOT_ALLOWED_ERR
+NS_ERROR_DOM_INDEXEDDB_NOT_ALLOWED_ERR
 )
 ;
 return

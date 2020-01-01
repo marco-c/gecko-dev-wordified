@@ -2100,3 +2100,7 @@ DOMCI_CLASS
 (
 IDBVersionChangeRequest
 )
+DOMCI_CLASS
+(
+IDBDatabaseException
+)
