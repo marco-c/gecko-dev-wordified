@@ -632,7 +632,7 @@ to
 check
 .
 *
-returns
+return
 true
 if
 we
@@ -697,7 +697,7 @@ temporary
 file
 .
 function
-nsUnkownContentTypeDialogProgressListener
+nsUnknownContentTypeDialogProgressListener
 (
 aHelperAppDialog
 )
@@ -709,7 +709,7 @@ helperAppDlg
 aHelperAppDialog
 ;
 }
-nsUnkownContentTypeDialogProgressListener
+nsUnknownContentTypeDialogProgressListener
 .
 prototype
 =
@@ -1034,7 +1034,7 @@ true
 /
 /
 /
-nsUnkownContentTypeDialog
+nsUnknownContentTypeDialog
 /
 *
 This
@@ -1746,7 +1746,7 @@ var
 progressListener
 =
 new
-nsUnkownContentTypeDialogProgressListener
+nsUnknownContentTypeDialogProgressListener
 (
 this
 )
@@ -2780,7 +2780,7 @@ it
 *
 *
 param
-aLocalFile
+aLocalFolder
 *
 the
 folder
@@ -2843,7 +2843,7 @@ non
 -
 empty
 *
-returns
+return
 nsILocalFile
 *
 the
@@ -2855,7 +2855,7 @@ validateLeafName
 :
 function
 (
-aLocalFile
+aLocalFolder
 aLeafName
 aFileExt
 )
@@ -2864,12 +2864,12 @@ if
 (
 !
 (
-aLocalFile
+aLocalFolder
 &
 &
 isUsableDirectory
 (
-aLocalFile
+aLocalFolder
 )
 )
 )
@@ -2939,7 +2939,7 @@ aFileExt
 "
 )
 ;
-aLocalFile
+aLocalFolder
 .
 append
 (
@@ -2953,7 +2953,7 @@ DownloadPaths
 .
 createNiceUniqueFile
 (
-aLocalFile
+aLocalFolder
 )
 ;
 #
@@ -3069,7 +3069,7 @@ remove
 false
 )
 ;
-aLocalFile
+aLocalFolder
 .
 leafName
 =
@@ -3083,7 +3083,7 @@ DownloadPaths
 .
 createNiceUniqueFile
 (
-aLocalFile
+aLocalFolder
 )
 ;
 }
