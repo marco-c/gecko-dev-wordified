@@ -6294,10 +6294,6 @@ AF_INET
 ;
 snprintf
 (
-(
-char
-*
-)
 addr
 -
 >
@@ -6309,12 +6305,6 @@ addr
 >
 sun_path
 )
-"
-%
-s_
-%
-d
-"
 name
 pid
 )

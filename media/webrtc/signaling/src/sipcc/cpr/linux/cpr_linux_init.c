@@ -1245,6 +1245,9 @@ return
 CPR_FAILURE
 ;
 }
+#
+if
+CPR_TIMERS_ENABLED
 returnCode
 =
 cpr_timer_pre_init
@@ -1282,6 +1285,8 @@ return
 CPR_FAILURE
 ;
 }
+#
+endif
 return
 CPR_SUCCESS
 ;
