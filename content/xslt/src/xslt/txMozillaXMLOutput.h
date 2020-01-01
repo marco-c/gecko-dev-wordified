@@ -358,8 +358,6 @@ aNsID
 nsIDOMDocument
 *
 aSourceDocument
-bool
-aLoadedAsData
 )
 ;
 private

@@ -12585,10 +12585,6 @@ nsIDocument
 *
 *
 aInstancePtrResult
-bool
-aLoadedAsData
-=
-false
 )
 ;
 nsresult
@@ -12598,10 +12594,6 @@ nsIDocument
 *
 *
 aInstancePtrResult
-bool
-aLoadedAsData
-=
-false
 )
 ;
 nsresult
