@@ -728,7 +728,7 @@ mCurAttrIndex
 =
 0
 ;
-mNode
+element
 -
 >
 GetAttributes
