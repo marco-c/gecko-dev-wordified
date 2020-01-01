@@ -375,7 +375,7 @@ AlarmsManager
 Add
 "
 {
-requestID
+requestId
 :
 this
 .
@@ -478,7 +478,7 @@ AlarmsManager
 GetAll
 "
 {
-requestID
+requestId
 :
 this
 .
@@ -531,7 +531,7 @@ getRequest
 (
 json
 .
-requestID
+requestId
 )
 ;
 if
@@ -551,7 +551,7 @@ stored
 +
 json
 .
-requestID
+requestId
 )
 ;
 return
@@ -688,7 +688,7 @@ removeRequest
 (
 json
 .
-requestID
+requestId
 )
 ;
 }
