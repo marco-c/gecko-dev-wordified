@@ -607,11 +607,6 @@ public
 nsIProxiedChannel
 public
 nsIChildChannel
-public
-ChannelEventQueue
-<
-FTPChannelChild
->
 {
 public
 :
@@ -903,6 +898,9 @@ mUploadStream
 ;
 bool
 mIPCOpen
+;
+ChannelEventQueue
+mEventQ
 ;
 bool
 mCanceled
