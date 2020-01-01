@@ -802,7 +802,7 @@ GetClassInfoW
 (
 GetModuleHandle
 (
-NULL
+nullptr
 )
 kClassName
 &
@@ -826,7 +826,7 @@ hInstance
 =
 GetModuleHandle
 (
-NULL
+nullptr
 )
 ;
 wc
@@ -888,13 +888,13 @@ CW_USEDEFAULT
 0
 CW_USEDEFAULT
 0
-NULL
-NULL
+nullptr
+nullptr
 GetModuleHandle
 (
-NULL
+nullptr
 )
-NULL
+nullptr
 )
 ;
 if
@@ -1267,7 +1267,7 @@ D3DCREATE_MULTITHREADED
 D3DCREATE_MIXED_VERTEXPROCESSING
 &
 pp
-NULL
+nullptr
 getter_AddRefs
 (
 mDeviceEx
@@ -1512,7 +1512,7 @@ IUnknown
 *
 devUnknown
 =
-NULL
+nullptr
 ;
 if
 (
@@ -4006,7 +4006,7 @@ getter_AddRefs
 (
 mVB
 )
-NULL
+nullptr
 )
 ;
 if

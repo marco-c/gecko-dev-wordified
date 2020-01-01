@@ -938,7 +938,7 @@ GetNv3DVUtils
 (
 )
 :
-NULL
+nullptr
 ;
 }
 static
@@ -1085,7 +1085,7 @@ mWidget
 *
 Context
 target
-NULL
+nullptr
 when
 drawing
 directly
@@ -1688,7 +1688,7 @@ LockRect
 0
 &
 mR
-NULL
+nullptr
 0
 )
 ;

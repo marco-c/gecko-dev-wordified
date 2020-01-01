@@ -207,7 +207,7 @@ aManager
 ThebesLayer
 (
 aManager
-NULL
+nullptr
 )
 LayerD3D9
 (
@@ -1773,7 +1773,7 @@ device
 SetTexture
 (
 1
-NULL
+nullptr
 )
 ;
 }
@@ -2085,7 +2085,7 @@ aUpdateRegion
 )
 mDC
 (
-NULL
+nullptr
 )
 {
 }
@@ -2199,7 +2199,7 @@ getter_AddRefs
 (
 mTmpTexture
 )
-NULL
+nullptr
 )
 ;
 if
@@ -2366,11 +2366,11 @@ mDC
 ;
 mSurface
 =
-NULL
+nullptr
 ;
 mDC
 =
-NULL
+nullptr
 ;
 }
 }
@@ -2563,7 +2563,7 @@ getter_AddRefs
 (
 tmpTexture
 )
-NULL
+nullptr
 )
 ;
 if
@@ -3289,7 +3289,7 @@ Paint
 }
 imgSurface
 =
-NULL
+nullptr
 ;
 srcTextures
 .
@@ -3663,7 +3663,7 @@ getter_AddRefs
 (
 mTexture
 )
-NULL
+nullptr
 )
 ;
 if
@@ -3729,7 +3729,7 @@ getter_AddRefs
 (
 mTextureOnWhite
 )
-NULL
+nullptr
 )
 ;
 if

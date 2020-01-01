@@ -150,7 +150,7 @@ aManager
 ImageLayer
 (
 aManager
-NULL
+nullptr
 )
 LayerD3D9
 (

@@ -221,13 +221,13 @@ mCurrentCallbackInfo
 .
 Callback
 =
-NULL
+nullptr
 ;
 mCurrentCallbackInfo
 .
 CallbackData
 =
-NULL
+nullptr
 ;
 }
 LayerManagerD3D9
@@ -842,13 +842,13 @@ mCurrentCallbackInfo
 .
 Callback
 =
-NULL
+nullptr
 ;
 mCurrentCallbackInfo
 .
 CallbackData
 =
-NULL
+nullptr
 ;
 }
 /
@@ -863,7 +863,7 @@ no
 target
 mTarget
 =
-NULL
+nullptr
 ;
 }
 void
@@ -1251,7 +1251,7 @@ device
 Clear
 (
 0
-NULL
+nullptr
 D3DCLEAR_TARGET
 0x00000000
 0
@@ -1784,7 +1784,7 @@ getter_AddRefs
 (
 destSurf
 )
-NULL
+nullptr
 )
 ;
 device
@@ -1808,7 +1808,7 @@ LockRect
 (
 &
 rect
-NULL
+nullptr
 D3DLOCK_READONLY
 )
 ;
