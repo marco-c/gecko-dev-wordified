@@ -484,13 +484,6 @@ nsCURILoader
 h
 "
 #
-include
-"
-nsXPFEComponentsCID
-.
-h
-"
-#
 ifdef
 MOZ_RDF
 /
