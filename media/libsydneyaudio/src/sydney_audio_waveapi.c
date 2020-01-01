@@ -447,11 +447,11 @@ track
 #
 define
 BLOCK_SIZE
-1024
+16384
 #
 define
 BLOCK_COUNT
-32
+10
 #
 define
 DEFAULT_DEVICE_NAME
