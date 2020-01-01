@@ -5758,15 +5758,9 @@ cx
 securityCallbacks
 )
 ;
-static
-JSDebugHooks
-debugHooks
-;
-JS_SetContextDebugHooks
+JS_ClearContextDebugHooks
 (
 cx
-&
-debugHooks
 )
 ;
 nsresult
