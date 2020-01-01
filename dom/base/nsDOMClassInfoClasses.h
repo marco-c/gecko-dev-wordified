@@ -155,10 +155,6 @@ DocumentType
 )
 DOMCI_CLASS
 (
-DOMImplementation
-)
-DOMCI_CLASS
-(
 DOMException
 )
 DOMCI_CLASS
