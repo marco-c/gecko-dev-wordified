@@ -525,7 +525,10 @@ we
 query
 cache
 .
-ApplicationAcc
+nsAccessNode
+:
+:
+GetApplicationAccessible
 (
 )
 -
@@ -2738,7 +2741,10 @@ Accessible
 *
 appAcc
 =
-ApplicationAcc
+nsAccessNode
+:
+:
+GetApplicationAccessible
 (
 )
 ;
