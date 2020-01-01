@@ -150,6 +150,13 @@ nsIConstraintValidation
 .
 h
 "
+#
+include
+"
+nsIDOMGetSVGDocument
+.
+h
+"
 namespace
 mozilla
 {
@@ -168,6 +175,8 @@ public
 nsIDOMHTMLObjectElement
 public
 nsIConstraintValidation
+public
+nsIDOMGetSVGDocument
 {
 public
 :
@@ -217,6 +226,10 @@ MOZ_OVERRIDE
 /
 nsIDOMHTMLObjectElement
 NS_DECL_NSIDOMHTMLOBJECTELEMENT
+/
+/
+nsIDOMGetSVGDocument
+NS_DECL_NSIDOMGETSVGDOCUMENT
 virtual
 nsresult
 BindToTree
