@@ -19824,6 +19824,17 @@ updatePageAction
 this
 )
 ;
+HelperApps
+.
+updatePageAction
+(
+this
+.
+browser
+.
+currentURI
+)
+;
 }
 else
 {
