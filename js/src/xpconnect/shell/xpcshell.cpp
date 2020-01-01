@@ -5376,11 +5376,6 @@ OSF1
 |
 |
 defined
-IRIX
-\
-|
-|
-defined
 SCO
 {
 char
