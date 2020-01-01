@@ -78,6 +78,9 @@ var
 gCategoryUtilities
 ;
 var
+gProvider
+;
+var
 gApp
 =
 document

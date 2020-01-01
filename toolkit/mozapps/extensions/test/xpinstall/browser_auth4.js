@@ -92,6 +92,9 @@ to
 the
 appropriate
 tab
+var
+gNewTab
+;
 function
 test
 (
