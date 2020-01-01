@@ -20218,7 +20218,7 @@ aNewInnerFrame
 *
 (
 (
-void
+int
 *
 )
 0
