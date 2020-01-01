@@ -43204,7 +43204,8 @@ offsetOfEnclosingScope
 reg
 )
 ;
-RawShape
+Shape
+*
 shape
 =
 ScopeCoordinateToStaticScopeShape
@@ -44400,7 +44401,8 @@ Address
 T2
 sizeof
 (
-RawShape
+Shape
+*
 )
 )
 T2
@@ -46690,7 +46692,8 @@ name
 )
 )
 ;
-RawShape
+Shape
+*
 shape
 =
 globalObj

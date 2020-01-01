@@ -6355,7 +6355,8 @@ i
 next
 )
 ;
-RawShape
+Shape
+*
 shape
 =
 mir
@@ -6773,7 +6774,8 @@ i
 next
 )
 ;
-RawShape
+Shape
+*
 shape
 =
 mir

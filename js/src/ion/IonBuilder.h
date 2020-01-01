@@ -2096,8 +2096,9 @@ addShapeGuard
 MDefinition
 *
 obj
+Shape
+*
 const
-RawShape
 shape
 BailoutKind
 bailoutKind
@@ -2136,7 +2137,8 @@ loadSlot
 MDefinition
 *
 obj
-RawShape
+Shape
+*
 shape
 MIRType
 rvalType
@@ -2156,7 +2158,8 @@ storeSlot
 MDefinition
 *
 obj
-RawShape
+Shape
+*
 shape
 MDefinition
 *

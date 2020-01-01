@@ -2827,7 +2827,8 @@ slength
 *
 sizeof
 (
-RawShape
+Shape
+*
 )
 )
 ;
@@ -4006,7 +4007,8 @@ true
 }
 Vector
 <
-RawShape
+Shape
+*
 8
 >
 shapes
@@ -4433,7 +4435,8 @@ goto
 miss
 ;
 }
-RawShape
+Shape
+*
 shape
 =
 pobj

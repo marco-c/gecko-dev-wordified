@@ -3248,7 +3248,8 @@ inline
 js
 :
 :
-RawShape
+Shape
+*
 js_NewGCShape
 (
 JSContext

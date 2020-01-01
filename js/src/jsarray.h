@@ -617,7 +617,8 @@ globalObj
 *
 /
 extern
-RawShape
+Shape
+*
 GetDenseArrayShape
 (
 JSContext

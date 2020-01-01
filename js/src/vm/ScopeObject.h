@@ -652,7 +652,8 @@ hasDynamicScopeObject
 )
 const
 ;
-RawShape
+Shape
+*
 scopeShape
 (
 )
@@ -932,7 +933,8 @@ pc
 *
 /
 extern
-RawShape
+Shape
+*
 ScopeCoordinateToStaticScopeShape
 (
 JSContext
@@ -2532,7 +2534,8 @@ resetPrevBlockChainFromParser
 )
 ;
 static
-RawShape
+Shape
+*
 addVar
 (
 JSContext

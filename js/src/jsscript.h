@@ -1145,7 +1145,8 @@ scope
 .
 *
 /
-RawShape
+Shape
+*
 callObjShape
 (
 )
@@ -1280,7 +1281,8 @@ IsPoisonedPtr
 (
 static_cast
 <
-RawShape
+Shape
+*
 >
 (
 bindings

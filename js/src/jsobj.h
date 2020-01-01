@@ -279,10 +279,8 @@ NativeIterator
 class
 Nursery
 ;
-ForwardDeclare
-(
+class
 Shape
-)
 ;
 struct
 StackShape
@@ -1686,7 +1684,8 @@ setLastPropertyInfallible
 js
 :
 :
-RawShape
+Shape
+*
 shape
 )
 ;
@@ -4989,7 +4988,8 @@ static
 js
 :
 :
-RawShape
+Shape
+*
 getChildProperty
 (
 JSContext
@@ -5074,7 +5074,8 @@ static
 js
 :
 :
-RawShape
+Shape
+*
 addPropertyInternal
 (
 JSContext
@@ -5176,7 +5177,8 @@ static
 js
 :
 :
-RawShape
+Shape
+*
 addProperty
 (
 JSContext
@@ -5229,7 +5231,8 @@ scope
 js
 :
 :
-RawShape
+Shape
+*
 addDataProperty
 (
 JSContext
@@ -5295,7 +5298,8 @@ attrs
 js
 :
 :
-RawShape
+Shape
+*
 addDataProperty
 (
 JSContext
@@ -5383,7 +5387,8 @@ static
 js
 :
 :
-RawShape
+Shape
+*
 putProperty
 (
 JSContext
@@ -5417,7 +5422,8 @@ static
 js
 :
 :
-RawShape
+Shape
+*
 putProperty
 (
 JSContext
@@ -5502,7 +5508,8 @@ static
 js
 :
 :
-RawShape
+Shape
+*
 changeProperty
 (
 JSContext
@@ -8294,7 +8301,8 @@ extern
 js
 :
 :
-RawShape
+Shape
+*
 js_AddNativeProperty
 (
 JSContext

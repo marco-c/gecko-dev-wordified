@@ -1189,7 +1189,8 @@ cap
 *
 sizeof
 (
-RawShape
+Shape
+*
 )
 ;
 }
@@ -1401,7 +1402,8 @@ init
 JSRuntime
 *
 rt
-RawShape
+Shape
+*
 lastProp
 )
 ;
@@ -1862,12 +1864,10 @@ however
 *
 /
 class
-UnownedBaseShape
-;
-ForwardDeclare
-(
 Shape
-)
+;
+class
+UnownedBaseShape
 ;
 struct
 StackBaseShape
@@ -3040,7 +3040,8 @@ comp
 inline
 StackBaseShape
 (
-RawShape
+Shape
+*
 shape
 )
 ;
@@ -3669,7 +3670,8 @@ shape_
 ;
 static
 inline
-RawShape
+Shape
+*
 search
 (
 JSContext
@@ -3737,7 +3739,8 @@ HeapPtrShape
 dictp
 )
 ;
-RawShape
+Shape
+*
 getChildBinding
 (
 JSContext
@@ -3771,7 +3774,8 @@ base
 *
 /
 static
-RawShape
+Shape
+*
 replaceLastProperty
 (
 JSContext
@@ -3802,7 +3806,8 @@ shape
 void
 handoffTableTo
 (
-RawShape
+Shape
+*
 newShape
 )
 ;
@@ -3810,7 +3815,8 @@ inline
 void
 setParent
 (
-RawShape
+Shape
+*
 p
 )
 ;
@@ -4185,7 +4191,8 @@ parent
 ;
 }
 static
-RawShape
+Shape
+*
 setObjectParent
 (
 JSContext
@@ -4202,7 +4209,8 @@ last
 )
 ;
 static
-RawShape
+Shape
+*
 setObjectFlag
 (
 JSContext
@@ -4939,7 +4947,8 @@ bool
 matches
 (
 const
-RawShape
+Shape
+*
 other
 )
 const
@@ -5720,7 +5729,8 @@ table
 .
 entryCount
 ;
-RawShape
+Shape
+*
 shape
 =
 this
@@ -5778,7 +5788,8 @@ hasTable
 )
 )
 ;
-RawShape
+Shape
+*
 shape
 =
 this
@@ -5885,7 +5896,8 @@ fop
 void
 removeChild
 (
-RawShape
+Shape
+*
 child
 )
 ;
@@ -5910,7 +5922,8 @@ inline
 void
 writeBarrierPre
 (
-RawShape
+Shape
+*
 shape
 )
 ;
@@ -5919,7 +5932,8 @@ inline
 void
 writeBarrierPost
 (
-RawShape
+Shape
+*
 shape
 void
 *
@@ -5969,7 +5983,8 @@ inline
 void
 readBarrier
 (
-RawShape
+Shape
+*
 shape
 )
 ;
@@ -5994,7 +6009,8 @@ trc
 )
 ;
 inline
-RawShape
+Shape
+*
 search
 (
 JSContext
@@ -6841,8 +6857,9 @@ SHAPE_INVALID_SLOT
 }
 StackShape
 (
+Shape
+*
 const
-RawShape
 &
 shape
 )
@@ -7131,7 +7148,8 @@ define
 SHAPE_REMOVED
 (
 (
-RawShape
+Shape
+*
 )
 SHAPE_COLLISION
 )
@@ -7206,7 +7224,8 @@ spp
 )
 =
 (
-RawShape
+Shape
+*
 )
 \
 (
@@ -7254,7 +7273,8 @@ shape
 \
 (
 (
-RawShape
+Shape
+*
 )
 (
 uintptr_t
@@ -7281,7 +7301,8 @@ spp
 )
 =
 (
-RawShape
+Shape
+*
 )
 (
 uintptr_t
@@ -7302,7 +7323,8 @@ namespace
 js
 {
 inline
-RawShape
+Shape
+*
 Shape
 :
 :
@@ -7517,7 +7539,8 @@ incrementNumLinearSearches
 }
 for
 (
-RawShape
+Shape
+*
 shape
 =
 start

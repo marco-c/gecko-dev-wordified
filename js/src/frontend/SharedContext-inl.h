@@ -771,7 +771,8 @@ stmt
 >
 blockObj
 ;
-RawShape
+Shape
+*
 shape
 =
 blockObj

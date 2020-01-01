@@ -365,7 +365,8 @@ propertyCache
 )
 )
 ;
-RawShape
+Shape
+*
 kshape
 =
 (
@@ -617,7 +618,8 @@ propertyCache
 )
 )
 ;
-RawShape
+Shape
+*
 kshape
 =
 obj

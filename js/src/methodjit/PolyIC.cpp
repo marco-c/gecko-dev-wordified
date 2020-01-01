@@ -1297,7 +1297,8 @@ target
 LookupStatus
 patchInline
 (
-RawShape
+Shape
+*
 shape
 )
 {
@@ -7245,7 +7246,8 @@ patchInline
 JSObject
 *
 holder
-RawShape
+Shape
+*
 shape
 )
 {
@@ -7505,7 +7507,8 @@ generateGetterStub
 Assembler
 &
 masm
-RawShape
+Shape
+*
 shape
 jsid
 userid
@@ -8467,7 +8470,8 @@ generateNativeGetterStub
 Assembler
 &
 masm
-RawShape
+Shape
+*
 shape
 Label
 start
@@ -12167,7 +12171,8 @@ global
 )
 )
 ;
-RawShape
+Shape
+*
 shape
 =
 getprop

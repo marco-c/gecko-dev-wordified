@@ -2476,7 +2476,8 @@ it
 .
 *
 /
-RawShape
+Shape
+*
 assignInitialShape
 (
 JSContext

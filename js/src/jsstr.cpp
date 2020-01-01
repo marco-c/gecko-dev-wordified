@@ -22683,7 +22683,8 @@ endif
 JS_FS_END
 }
 ;
-RawShape
+Shape
+*
 StringObject
 :
 :

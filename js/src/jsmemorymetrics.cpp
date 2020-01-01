@@ -1464,12 +1464,14 @@ case
 JSTRACE_SHAPE
 :
 {
-RawShape
+Shape
+*
 shape
 =
 static_cast
 <
-RawShape
+Shape
+*
 >
 (
 thing

@@ -24553,7 +24553,8 @@ to
 guard
 against
 .
-RawShape
+Shape
+*
 objShape
 ;
 /
@@ -24563,7 +24564,8 @@ property
 to
 laod
 .
-RawShape
+Shape
+*
 shape
 ;
 }
@@ -24711,9 +24713,11 @@ this
 bool
 addShape
 (
-RawShape
+Shape
+*
 objShape
-RawShape
+Shape
+*
 shape
 )
 {
@@ -24755,7 +24759,8 @@ length
 )
 ;
 }
-RawShape
+Shape
+*
 objShape
 (
 size_t
@@ -24772,7 +24777,8 @@ i
 objShape
 ;
 }
-RawShape
+Shape
+*
 shape
 (
 size_t
@@ -24894,7 +24900,8 @@ to
 guard
 against
 .
-RawShape
+Shape
+*
 objShape
 ;
 /
@@ -24904,7 +24911,8 @@ property
 to
 laod
 .
-RawShape
+Shape
+*
 shape
 ;
 }
@@ -24982,9 +24990,11 @@ this
 bool
 addShape
 (
-RawShape
+Shape
+*
 objShape
-RawShape
+Shape
+*
 shape
 )
 {
@@ -25026,7 +25036,8 @@ length
 )
 ;
 }
-RawShape
+Shape
+*
 objShape
 (
 size_t
@@ -25043,7 +25054,8 @@ i
 objShape
 ;
 }
-RawShape
+Shape
+*
 shape
 (
 size_t
@@ -26952,7 +26964,8 @@ getOperand
 ;
 }
 const
-RawShape
+Shape
+*
 shape
 (
 )

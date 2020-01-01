@@ -879,7 +879,8 @@ StackBaseShape
 :
 StackBaseShape
 (
-RawShape
+Shape
+*
 shape
 )
 :
@@ -1533,7 +1534,8 @@ Shape
 matches
 (
 const
-RawShape
+Shape
+*
 other
 )
 const
@@ -2138,7 +2140,8 @@ Shape
 :
 setParent
 (
-RawShape
+Shape
+*
 p
 )
 {
@@ -2541,7 +2544,8 @@ Shape
 :
 writeBarrierPre
 (
-RawShape
+Shape
+*
 shape
 )
 {
@@ -2593,7 +2597,8 @@ needsBarrier
 )
 )
 {
-RawShape
+Shape
+*
 tmp
 =
 shape
@@ -2633,7 +2638,8 @@ Shape
 :
 writeBarrierPost
 (
-RawShape
+Shape
+*
 shape
 void
 *
@@ -2648,7 +2654,8 @@ Shape
 :
 readBarrier
 (
-RawShape
+Shape
+*
 shape
 )
 {
@@ -2679,7 +2686,8 @@ needsBarrier
 )
 )
 {
-RawShape
+Shape
+*
 tmp
 =
 shape

@@ -16036,7 +16036,8 @@ cx
 ICStub
 *
 firstMonitorStub
-RawShape
+Shape
+*
 shape
 )
 :
@@ -16247,7 +16248,8 @@ Compiler
 JSContext
 *
 cx
-RawShape
+Shape
+*
 shape
 uint32_t
 type
@@ -16854,7 +16856,8 @@ Compiler
 JSContext
 *
 cx
-RawShape
+Shape
+*
 shape
 HandleTypeObject
 type
@@ -17645,7 +17648,8 @@ Compiler
 JSContext
 *
 cx
-RawShape
+Shape
+*
 shape
 uint32_t
 type

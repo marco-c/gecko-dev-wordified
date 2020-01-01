@@ -877,7 +877,8 @@ patchInlineShapeGuard
 Repatcher
 &
 repatcher
-RawShape
+Shape
+*
 shape
 )
 {
@@ -919,7 +920,8 @@ ic
 JSObject
 *
 obj
-RawShape
+Shape
+*
 shape
 )
 {
@@ -1187,7 +1189,8 @@ name
 )
 )
 ;
-RawShape
+Shape
+*
 shape
 =
 obj

@@ -2117,7 +2117,8 @@ setLastPropertyInfallible
 js
 :
 :
-RawShape
+Shape
+*
 shape
 )
 {
@@ -2340,7 +2341,8 @@ inDictionaryMode
 js
 :
 :
-RawShape
+Shape
+*
 previous
 =
 lastProperty

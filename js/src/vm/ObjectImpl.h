@@ -212,10 +212,8 @@ ObjectImpl
 class
 Nursery
 ;
-ForwardDeclare
-(
+class
 Shape
-)
 ;
 class
 AutoPropDescArrayRooter
@@ -2223,7 +2221,8 @@ friend
 class
 SparseElementsHeader
 ;
-RawShape
+Shape
+*
 shape
 ;
 }
@@ -2816,7 +2815,8 @@ ElementsHeader
 {
 public
 :
-RawShape
+Shape
+*
 shape
 (
 )
@@ -8187,7 +8187,8 @@ numDynamicSlots
 )
 const
 ;
-RawShape
+Shape
+*
 nativeLookup
 (
 JSContext
@@ -8198,7 +8199,8 @@ id
 )
 ;
 inline
-RawShape
+Shape
+*
 nativeLookup
 (
 JSContext
@@ -8209,7 +8211,8 @@ pid
 )
 ;
 inline
-RawShape
+Shape
+*
 nativeLookup
 (
 JSContext

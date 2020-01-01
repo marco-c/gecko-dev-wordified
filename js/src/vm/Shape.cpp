@@ -316,7 +316,8 @@ init
 JSRuntime
 *
 rt
-RawShape
+Shape
+*
 lastProp
 )
 {
@@ -664,7 +665,8 @@ Shape
 :
 handoffTableTo
 (
-RawShape
+Shape
+*
 shape
 )
 {
@@ -1680,7 +1682,8 @@ return
 true
 ;
 }
-RawShape
+Shape
+*
 Shape
 :
 :
@@ -1770,7 +1773,8 @@ child
 static
 *
 /
-RawShape
+Shape
+*
 Shape
 :
 :
@@ -1991,7 +1995,8 @@ parent
 static
 *
 /
-RawShape
+Shape
+*
 JSObject
 :
 :
@@ -2538,7 +2543,8 @@ inDictionary
 )
 )
 ;
-RawShape
+Shape
+*
 dprop
 =
 js_NewGCShape
@@ -2820,7 +2826,8 @@ true
 static
 *
 /
-RawShape
+Shape
+*
 JSObject
 :
 :
@@ -2949,7 +2956,8 @@ allowDictionary
 static
 *
 /
-RawShape
+Shape
+*
 JSObject
 :
 :
@@ -3442,7 +3450,8 @@ SHAPE_STORE_PRESERVING_COLLISION
 spp
 static_cast
 <
-RawShape
+Shape
+*
 >
 (
 shape
@@ -3698,7 +3707,8 @@ true
 static
 *
 /
-RawShape
+Shape
+*
 JSObject
 :
 :
@@ -4695,7 +4705,8 @@ shape
 parent
 )
 ;
-RawShape
+Shape
+*
 newShape
 =
 JSObject
@@ -4863,7 +4874,8 @@ shape
 static
 *
 /
-RawShape
+Shape
+*
 JSObject
 :
 :
@@ -5144,7 +5156,8 @@ propid
 )
 )
 ;
-RawShape
+Shape
+*
 newShape
 =
 putProperty
@@ -5814,7 +5827,8 @@ bug
 .
 *
 /
-RawShape
+Shape
+*
 aprop
 =
 self
@@ -5886,7 +5900,8 @@ list
 .
 *
 /
-RawShape
+Shape
+*
 oldLastProp
 =
 self
@@ -6864,7 +6879,8 @@ return
 true
 ;
 }
-RawShape
+Shape
+*
 newShape
 =
 Shape
@@ -6910,7 +6926,8 @@ true
 static
 *
 /
-RawShape
+Shape
+*
 Shape
 :
 :
@@ -7358,7 +7375,8 @@ return
 true
 ;
 }
-RawShape
+Shape
+*
 newShape
 =
 Shape
@@ -7525,7 +7543,8 @@ true
 static
 *
 /
-RawShape
+Shape
+*
 Shape
 :
 :
@@ -8516,7 +8535,8 @@ nbase
 return
 NULL
 ;
-RawShape
+Shape
+*
 shape
 =
 cx
@@ -8932,7 +8952,8 @@ one
 #
 ifdef
 DEBUG
-RawShape
+Shape
+*
 nshape
 =
 shape
@@ -9332,7 +9353,8 @@ front
 (
 )
 ;
-RawShape
+Shape
+*
 shape
 =
 entry

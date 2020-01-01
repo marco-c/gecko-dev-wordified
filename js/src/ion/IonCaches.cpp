@@ -2921,7 +2921,8 @@ obj
 JSObject
 *
 holder
-RawShape
+Shape
+*
 shape
 )
 {
@@ -2977,7 +2978,8 @@ obj
 JSObject
 *
 holder
-RawShape
+Shape
+*
 shape
 jsbytecode
 *
@@ -3334,7 +3336,8 @@ obj
 JSObject
 *
 holder
-RawShape
+Shape
+*
 shape
 )
 {
@@ -3428,7 +3431,8 @@ obj
 JSObject
 *
 holder
-RawShape
+Shape
+*
 shape
 )
 {
@@ -10912,7 +10916,8 @@ while
 proto
 )
 {
-RawShape
+Shape
+*
 protoShape
 =
 proto
@@ -11309,7 +11314,8 @@ MutableHandleShape
 pshape
 )
 {
-RawShape
+Shape
+*
 shape
 =
 obj
@@ -11732,7 +11738,8 @@ don
 '
 t
 optimize
-RawShape
+Shape
+*
 protoShape
 =
 proto
@@ -14502,7 +14509,8 @@ JSObject
 scopeObj
 Register
 scopeObjReg
-RawShape
+Shape
+*
 shape
 Label
 *
@@ -15974,7 +15982,8 @@ obj
 JSObject
 *
 holder
-RawShape
+Shape
+*
 shape
 )
 {

@@ -6055,7 +6055,8 @@ false
 #
 endif
 }
-RawShape
+Shape
+*
 GetPICSingleShape
 (
 JSContext

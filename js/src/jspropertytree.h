@@ -142,10 +142,8 @@ h
 namespace
 js
 {
-ForwardDeclare
-(
+class
 Shape
-)
 ;
 struct
 StackShape
@@ -154,7 +152,8 @@ struct
 ShapeHasher
 {
 typedef
-RawShape
+Shape
+*
 Key
 ;
 typedef
@@ -190,7 +189,8 @@ l
 typedef
 HashSet
 <
-RawShape
+Shape
+*
 ShapeHasher
 SystemAllocPolicy
 >
@@ -263,7 +263,8 @@ isNull
 )
 ;
 }
-RawShape
+Shape
+*
 toShape
 (
 )
@@ -279,7 +280,8 @@ isShape
 return
 reinterpret_cast
 <
-RawShape
+Shape
+*
 >
 (
 w
@@ -295,7 +297,8 @@ TAG
 void
 setShape
 (
-RawShape
+Shape
+*
 shape
 )
 {
@@ -314,7 +317,8 @@ uintptr_t
 (
 static_cast
 <
-RawShape
+Shape
+*
 >
 (
 shape
@@ -337,7 +341,8 @@ uintptr_t
 (
 static_cast
 <
-RawShape
+Shape
+*
 >
 (
 shape
@@ -445,7 +450,8 @@ DEBUG
 void
 checkConsistency
 (
-RawShape
+Shape
+*
 aKid
 )
 const
@@ -473,9 +479,11 @@ insertChild
 JSContext
 *
 cx
-RawShape
+Shape
+*
 parent
-RawShape
+Shape
+*
 child
 )
 ;
@@ -505,7 +513,8 @@ comp
 )
 {
 }
-RawShape
+Shape
+*
 newShape
 (
 JSContext
@@ -513,7 +522,8 @@ JSContext
 cx
 )
 ;
-RawShape
+Shape
+*
 getChild
 (
 JSContext

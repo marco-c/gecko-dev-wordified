@@ -972,7 +972,8 @@ isNative
 {
 if
 (
-RawShape
+Shape
+*
 shape
 =
 obj

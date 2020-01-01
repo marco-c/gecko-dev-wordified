@@ -10859,7 +10859,8 @@ a
 dense
 array
 .
-RawShape
+Shape
+*
 shape
 =
 GetDenseArrayShape
@@ -15385,7 +15386,8 @@ a
 dense
 array
 .
-RawShape
+Shape
+*
 shape
 =
 GetDenseArrayShape
