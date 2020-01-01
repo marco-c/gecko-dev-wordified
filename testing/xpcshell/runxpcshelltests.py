@@ -902,6 +902,8 @@ testheadfiles
 for
 f
 in
+sorted
+(
 glob
 (
 os
@@ -917,6 +919,7 @@ head_
 .
 js
 "
+)
 )
 )
 :
@@ -951,6 +954,8 @@ testtailfiles
 for
 f
 in
+sorted
+(
 glob
 (
 os
@@ -966,6 +971,7 @@ tail_
 .
 js
 "
+)
 )
 )
 :
@@ -1017,6 +1023,8 @@ test
     
 testfiles
 =
+sorted
+(
 glob
 (
 os
@@ -1032,6 +1040,7 @@ test_
 .
 js
 "
+)
 )
 )
     
