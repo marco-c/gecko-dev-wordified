@@ -5997,7 +5997,7 @@ leaking
 #
 ifdef
 DEBUG
-NS_ASSERTION
+MOZ_ASSERT
 (
 mPresArenaAllocCount
 =
