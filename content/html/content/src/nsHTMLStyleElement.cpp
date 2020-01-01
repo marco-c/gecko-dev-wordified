@@ -1568,9 +1568,15 @@ PR_TRUE
 return
 ;
 }
+*
+aURI
+=
 GetHrefURIForAnchors
 (
-aURI
+)
+.
+get
+(
 )
 ;
 return

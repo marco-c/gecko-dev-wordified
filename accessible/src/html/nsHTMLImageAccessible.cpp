@@ -1903,7 +1903,7 @@ NS_ERROR_INVALID_ARG
 ;
 nsCOMPtr
 <
-nsILink
+nsIContent
 >
 link
 (
@@ -1917,12 +1917,14 @@ if
 (
 link
 )
+*
+aURI
+=
 link
 -
 >
 GetHrefURI
 (
-aURI
 )
 ;
 return

@@ -1392,13 +1392,12 @@ LINK
 and
 STYLE
 .
-nsresult
+already_AddRefed
+<
+nsIURI
+>
 GetHrefURIForAnchors
 (
-nsIURI
-*
-*
-aURI
 )
 const
 ;

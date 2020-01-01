@@ -557,9 +557,6 @@ IsHTMLLink
 nsIContent
 *
 aContent
-nsIAtom
-*
-aTag
 nsILinkHandler
 *
 aLinkHandler
