@@ -4360,7 +4360,10 @@ position
 after
 unlocking
 .
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 mPreLockPoint
 ;
 /
@@ -4440,7 +4443,10 @@ to
 content
 .
 static
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 sSynthCenteringPoint
 ;
 nsWeakFrame
@@ -4492,7 +4498,10 @@ mouse
 event
 .
 static
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 sLastRefPoint
 ;
 /
@@ -4507,7 +4516,10 @@ d
 gesture
 state
 machine
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 mGestureDownPoint
 ;
 /

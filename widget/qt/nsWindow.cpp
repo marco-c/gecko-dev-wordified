@@ -12158,7 +12158,7 @@ gestureNotifyEvent
 .
 refPoint
 =
-nsIntPoint
+LayoutDeviceIntPoint
 (
 fpos
 .
@@ -12786,7 +12786,13 @@ mozGesture
 .
 refPoint
 =
+LayoutDeviceIntPoint
+:
+:
+FromUntyped
+(
 aRefPoint
+)
 ;
 Qt
 :
@@ -15448,7 +15454,7 @@ aEvent
 .
 refPoint
 =
-nsIntPoint
+LayoutDeviceIntPoint
 (
 0
 0

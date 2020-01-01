@@ -7577,10 +7577,16 @@ return
 GetEventCoordinatesRelativeTo
 (
 aEvent
+LayoutDeviceIntPoint
+:
+:
+ToUntyped
+(
 GUIEvent
 -
 >
 refPoint
+)
 aFrame
 )
 ;

@@ -2943,7 +2943,7 @@ maximum
 -
 minimum
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 absPoint
 ;
 if
@@ -2987,6 +2987,11 @@ touches
 ;
 absPoint
 =
+LayoutDeviceIntPoint
+:
+:
+FromUntyped
+(
 static_cast
 <
 nsTouchEvent
@@ -3004,6 +3009,7 @@ touches
 -
 >
 mRefPoint
+)
 ;
 }
 else
@@ -3025,7 +3031,13 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 aEvent
+LayoutDeviceIntPoint
+:
+:
+ToUntyped
+(
 absPoint
+)
 this
 )
 ;

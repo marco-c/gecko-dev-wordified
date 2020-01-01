@@ -13776,7 +13776,7 @@ relative
 to
 screen
 :
-nsIntPoint
+LayoutDeviceIntPoint
 rootPoint
 (
 -
@@ -13795,11 +13795,17 @@ anEvent
 .
 refPoint
 +
+LayoutDeviceIntPoint
+:
+:
+FromUntyped
+(
 widget
 -
 >
 WidgetToScreenOffset
 (
+)
 )
 ;
 #

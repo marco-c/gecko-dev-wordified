@@ -639,7 +639,7 @@ nsIntPoint
 DevPixelsToCSSPixels
 (
 const
-nsIntPoint
+LayoutDeviceIntPoint
 &
 aPoint
 nsPresContext
@@ -1846,7 +1846,13 @@ mEvent
 >
 refPoint
 =
+LayoutDeviceIntPoint
+:
+:
+FromUntyped
+(
 screenPoint
+)
 ;
 }
 return

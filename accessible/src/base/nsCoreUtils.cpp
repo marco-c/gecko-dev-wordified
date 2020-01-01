@@ -321,6 +321,10 @@ nsITreeColumns
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 /
@@ -971,7 +975,7 @@ event
 .
 refPoint
 =
-nsIntPoint
+LayoutDeviceIntPoint
 (
 aX
 aY

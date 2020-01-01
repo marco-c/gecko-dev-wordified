@@ -1912,7 +1912,7 @@ aOutEvent
 >
 refPoint
 =
-nsIntPoint
+LayoutDeviceIntPoint
 (
 refPoint
 .
