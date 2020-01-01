@@ -456,6 +456,13 @@ jsfile
 .
 h
 "
+#
+include
+"
+jsstdint
+.
+h
+"
 /
 *
 -
