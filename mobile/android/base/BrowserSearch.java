@@ -3526,9 +3526,9 @@ in
 memory
 favicons
 .
-mList
+mAdapter
 .
-requestLayout
+notifyDataSetChanged
 (
 )
 ;
