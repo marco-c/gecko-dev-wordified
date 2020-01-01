@@ -17334,11 +17334,15 @@ nsIURI
 overlayURI
 =
 mCurrentPrototype
+?
+mCurrentPrototype
 -
 >
 GetURI
 (
 )
+:
+nsnull
 ;
 while
 (
