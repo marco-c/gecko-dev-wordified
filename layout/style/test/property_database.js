@@ -790,6 +790,10 @@ none
 red
 inherit
 "
+"
+red
+green
+"
 ]
 }
 "
@@ -849,6 +853,10 @@ none
 "
 red
 inherit
+"
+"
+red
+green
 "
 ]
 }
@@ -1269,6 +1277,10 @@ none
 red
 inherit
 "
+"
+red
+green
+"
 ]
 }
 "
@@ -1328,6 +1340,10 @@ none
 "
 red
 inherit
+"
+"
+red
+green
 "
 ]
 }
