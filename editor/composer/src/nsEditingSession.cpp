@@ -3559,17 +3559,6 @@ presShell
 NS_ERROR_FAILURE
 )
 ;
-nsCOMPtr
-<
-nsISelectionController
->
-selCon
-=
-do_QueryInterface
-(
-presShell
-)
-;
 rv
 =
 editor
@@ -3586,7 +3575,7 @@ root
 content
 *
 /
-selCon
+nsnull
 mEditorFlags
 )
 ;

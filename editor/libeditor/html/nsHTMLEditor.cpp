@@ -1762,6 +1762,10 @@ aDoc
 &
 &
 aPresShell
+&
+&
+!
+aSelCon
 "
 bad
 arg
@@ -1871,7 +1875,7 @@ Init
 aDoc
 aPresShell
 aRoot
-aSelCon
+nsnull
 aFlags
 )
 ;
