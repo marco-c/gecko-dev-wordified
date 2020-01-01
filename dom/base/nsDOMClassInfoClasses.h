@@ -474,10 +474,6 @@ SVGRect
 )
 DOMCI_CLASS
 (
-SVGStringList
-)
-DOMCI_CLASS
-(
 SVGZoomEvent
 )
 /
