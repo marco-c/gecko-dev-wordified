@@ -589,6 +589,13 @@ gInstance
 =
 this
 ;
+nsLayoutStatics
+:
+:
+AddRef
+(
+)
+;
 }
 nsStyleSheetService
 :
@@ -601,6 +608,13 @@ nsStyleSheetService
 gInstance
 =
 nsnull
+;
+nsLayoutStatics
+:
+:
+Release
+(
+)
 ;
 }
 NS_IMPL_ISUPPORTS1
