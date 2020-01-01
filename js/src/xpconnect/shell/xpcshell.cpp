@@ -1846,6 +1846,7 @@ gOutFile
 ;
 if
 (
+(
 !
 fgets
 (
@@ -1860,6 +1861,7 @@ errno
 !
 =
 EINTR
+)
 |
 |
 feof

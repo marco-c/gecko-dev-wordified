@@ -692,7 +692,7 @@ h
 #
 include
 "
-jsdbgapi
+jsfriendapi
 .
 h
 "
@@ -1160,9 +1160,8 @@ JSObject
 *
 scope
 =
-JS_GetFrameScopeChain
+JS_GetGlobalForFrame
 (
-cx
 fp
 )
 ;

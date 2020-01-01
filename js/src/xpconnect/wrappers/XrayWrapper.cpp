@@ -3587,6 +3587,7 @@ anyway
 (
 (
 (
+(
 id
 =
 =
@@ -3657,6 +3658,7 @@ wrapper
 &
 IsPrivilegedScript
 (
+)
 )
 )
 )

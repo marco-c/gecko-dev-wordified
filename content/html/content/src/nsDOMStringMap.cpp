@@ -1182,7 +1182,7 @@ nsContentUtils
 WrapNative
 (
 cx
-JS_GetScopeChain
+JS_GetGlobalForScopeChain
 (
 cx
 )

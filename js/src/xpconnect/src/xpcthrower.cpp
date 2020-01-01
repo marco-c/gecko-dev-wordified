@@ -1791,7 +1791,7 @@ JSObject
 *
 glob
 =
-JS_GetScopeChain
+JS_GetGlobalForScopeChain
 (
 cx
 )
@@ -1803,14 +1803,6 @@ glob
 )
 return
 JS_FALSE
-;
-glob
-=
-JS_GetGlobalForObject
-(
-cx
-glob
-)
 ;
 nsCOMPtr
 <
