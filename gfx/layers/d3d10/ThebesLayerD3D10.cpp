@@ -2722,6 +2722,13 @@ GetDesc
 desc
 )
 ;
+mD3DManager
+-
+>
+SetupInputAssembler
+(
+)
+;
 nsIntSize
 oldVP
 =
