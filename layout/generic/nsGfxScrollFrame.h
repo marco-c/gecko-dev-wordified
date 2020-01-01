@@ -1771,6 +1771,14 @@ ScrollReflowState
 aState
 )
 ;
+nscoord
+GetIntrinsicVScrollbarWidth
+(
+nsIRenderingContext
+*
+aRenderingContext
+)
+;
 virtual
 nscoord
 GetMinWidth
