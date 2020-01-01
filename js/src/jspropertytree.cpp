@@ -2471,14 +2471,6 @@ front
 ;
 }
 double
-props
-=
-rt
--
->
-liveObjectPropsPreSweep
-;
-double
 nodes
 =
 compartment
@@ -2545,9 +2537,6 @@ fprintf
 (
 logfp
 "
-props
-%
-g
 nodes
 %
 g
@@ -2556,9 +2545,6 @@ dicts
 %
 g
 )
-beta
-%
-g
 meankids
 %
 g
@@ -2571,12 +2557,8 @@ u
 \
 n
 "
-props
 nodes
 dicts
-nodes
-/
-props
 mean
 sigma
 bs
