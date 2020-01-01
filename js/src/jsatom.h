@@ -1557,6 +1557,10 @@ arityAtom
 ;
 JSAtom
 *
+callAtom
+;
+JSAtom
+*
 calleeAtom
 ;
 JSAtom
@@ -2232,6 +2236,13 @@ extern
 const
 char
 js_arity_str
+[
+]
+;
+extern
+const
+char
+js_call_str
 [
 ]
 ;

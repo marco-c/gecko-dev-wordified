@@ -30662,9 +30662,7 @@ apply
 ?
 js_apply_str
 :
-"
-call
-"
+js_call_str
 bytes
 )
 ;
@@ -31002,9 +31000,7 @@ apply
 ?
 js_apply_str
 :
-"
-call
-"
+js_call_str
 )
 ;
 goto
