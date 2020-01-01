@@ -511,7 +511,10 @@ part
 of
 JSObject
 construction
-NS_RELEASE
+nsContentUtils
+:
+:
+DeferredFinalize
 (
 nativeThis
 )
