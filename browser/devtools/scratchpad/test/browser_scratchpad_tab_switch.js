@@ -680,7 +680,7 @@ run
 (
 )
 [
-1
+2
 ]
 "
 undefined
