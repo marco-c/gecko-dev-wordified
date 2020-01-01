@@ -359,6 +359,10 @@ Shutdown
 (
 )
 {
+Suspend
+(
+)
+;
 mDecoder
 .
 Shutdown
