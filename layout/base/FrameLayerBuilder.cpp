@@ -6325,12 +6325,17 @@ nsDisplayItem
 :
 TYPE_HEADER_FOOTER
 :
+#
+ifdef
+MOZ_MATHML
 case
 nsDisplayItem
 :
 :
 TYPE_MATHML_CHAR_FOREGROUND
 :
+#
+endif
 #
 ifdef
 MOZ_XUL
