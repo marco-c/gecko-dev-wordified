@@ -3348,7 +3348,7 @@ JS_ASSERT
 script
 -
 >
-hasIonScript
+hasAnyIonScript
 (
 )
 )
@@ -3357,6 +3357,13 @@ script
 -
 >
 ion
+=
+ION_DISABLED_SCRIPT
+;
+script
+-
+>
+parallelIon
 =
 ION_DISABLED_SCRIPT
 ;
