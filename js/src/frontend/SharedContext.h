@@ -157,6 +157,15 @@ h
 #
 include
 "
+builtin
+/
+Module
+.
+h
+"
+#
+include
+"
 frontend
 /
 ParseMaps
