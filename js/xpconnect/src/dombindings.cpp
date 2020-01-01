@@ -245,12 +245,6 @@ s_iterator_id
 =
 JSID_VOID
 ;
-static
-jsid
-s_VOID_id
-=
-JSID_VOID
-;
 bool
 DefineStaticJSVal
 (
@@ -750,7 +744,7 @@ sProtoProperties
 =
 {
 {
-s_VOID_id
+JSID_VOID
 NULL
 NULL
 }
@@ -797,7 +791,7 @@ sProtoMethods
 =
 {
 {
-s_VOID_id
+JSID_VOID
 NULL
 0
 }
