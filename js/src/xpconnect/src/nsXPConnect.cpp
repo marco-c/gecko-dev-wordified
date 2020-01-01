@@ -5377,7 +5377,7 @@ NS_CYCLE_COLLECTION_NOTE_EDGE_NAME
 cb
 "
 scope
-prinicpal
+principal
 "
 )
 ;
