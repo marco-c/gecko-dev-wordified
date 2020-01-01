@@ -39848,6 +39848,7 @@ NoCompilerRunning
 ;
 if
 (
+!
 isCompiling
 &
 &
