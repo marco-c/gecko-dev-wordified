@@ -2227,7 +2227,7 @@ iterobj_ins
 )
 ;
 bool
-forInOp
+forInLoop
 (
 nanojit
 :
