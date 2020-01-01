@@ -753,7 +753,7 @@ nsIAndroidBrowserApp
 mBrowserApp
 ;
 bool
-mPendingSensorEvents
+mPendingOrientationEvents
 ;
 }
 ;
