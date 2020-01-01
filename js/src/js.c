@@ -4009,7 +4009,6 @@ rval
 {
 uintN
 i
-n
 ;
 JSString
 *
@@ -4018,8 +4017,6 @@ str
 for
 (
 i
-=
-n
 =
 0
 ;
@@ -4074,14 +4071,6 @@ str
 )
 ;
 }
-n
-+
-+
-;
-if
-(
-n
-)
 fputc
 (
 '
