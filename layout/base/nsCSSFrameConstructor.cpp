@@ -46070,10 +46070,9 @@ to
 that
 ancestor
 .
-const
-nsStyleBackground
+nsStyleContext
 *
-bg
+bgSC
 ;
 while
 (
@@ -46086,7 +46085,7 @@ FindBackground
 aPresContext
 aFrame
 &
-bg
+bgSC
 )
 )
 {

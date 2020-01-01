@@ -25206,10 +25206,9 @@ nsRect
 aRect
 )
 {
-const
-nsStyleBackground
+nsStyleContext
 *
-bg
+bgSC
 ;
 if
 (
@@ -25227,7 +25226,7 @@ PresContext
 )
 aFrame
 &
-bg
+bgSC
 )
 )
 {
