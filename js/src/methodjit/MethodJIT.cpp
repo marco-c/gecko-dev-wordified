@@ -8777,10 +8777,6 @@ IonContext
 ictx
 (
 cx
-cx
--
->
-compartment
 NULL
 )
 ;

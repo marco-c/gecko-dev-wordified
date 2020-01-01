@@ -2395,7 +2395,9 @@ ExpandInlineFrames
 cx
 -
 >
-compartment
+zone
+(
+)
 )
 ;
 JS_ASSERT
@@ -2756,7 +2758,9 @@ ExpandInlineFrames
 cx
 -
 >
-compartment
+zone
+(
+)
 )
 ;
 JS_ASSERT
@@ -3810,7 +3814,9 @@ ExpandInlineFrames
 cx
 -
 >
-compartment
+zone
+(
+)
 )
 ;
 /
@@ -5192,7 +5198,9 @@ f
 cx
 -
 >
-compartment
+zone
+(
+)
 )
 ;
 RootedScript

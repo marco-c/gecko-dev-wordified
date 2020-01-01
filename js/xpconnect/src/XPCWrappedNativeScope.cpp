@@ -1503,6 +1503,12 @@ proto
 =
 global
 ;
+options
+.
+sameZoneAs
+=
+global
+;
 /
 /
 Use
