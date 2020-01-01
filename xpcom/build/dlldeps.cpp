@@ -2092,7 +2092,7 @@ XRE_AddStaticComponent
 NULL
 )
 ;
-XRE_AddComponentLocation
+XRE_AddManifestLocation
 (
 NS_COMPONENT_LOCATION
 NULL

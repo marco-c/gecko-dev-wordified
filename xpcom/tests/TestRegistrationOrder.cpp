@@ -1348,7 +1348,7 @@ argv
 1
 ]
 ;
-XRE_AddComponentLocation
+XRE_AddManifestLocation
 (
 NS_COMPONENT_LOCATION
 nsCOMPtr
@@ -1366,7 +1366,7 @@ core
 )
 )
 ;
-XRE_AddComponentLocation
+XRE_AddManifestLocation
 (
 NS_COMPONENT_LOCATION
 nsCOMPtr

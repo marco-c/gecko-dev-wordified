@@ -3272,7 +3272,7 @@ manifest
 "
 )
 ;
-XRE_AddComponentLocation
+XRE_AddManifestLocation
 (
 aType
 manifest
@@ -3561,7 +3561,7 @@ manifest
 "
 )
 ;
-XRE_AddComponentLocation
+XRE_AddManifestLocation
 (
 NS_COMPONENT_LOCATION
 manifest
