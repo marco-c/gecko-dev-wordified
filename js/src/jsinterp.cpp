@@ -3476,9 +3476,11 @@ fp
 =
 frame
 .
-getFrame
+getRegs
 (
 )
+.
+fp
 ;
 /
 *
@@ -4092,6 +4094,8 @@ cx
 -
 >
 fp
+(
+)
 =
 =
 fp
@@ -4316,6 +4320,8 @@ cx
 -
 >
 fp
+(
+)
 ;
 JSObject
 *
@@ -5945,6 +5951,8 @@ cx
 -
 >
 fp
+(
+)
 |
 the
 callstack
@@ -5981,6 +5989,8 @@ cx
 -
 >
 fp
+(
+)
 |
 we
 need
@@ -6010,7 +6020,9 @@ down
 cx
 -
 >
-fp
+maybefp
+(
+)
 )
 ?
 down
@@ -8444,6 +8456,8 @@ cx
 -
 >
 fp
+(
+)
 ;
 Value
 *
@@ -8638,6 +8652,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 getScopeChain
@@ -8675,6 +8691,8 @@ cx
 -
 >
 fp
+(
+)
 )
 )
 ;
@@ -8694,6 +8712,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 setScopeChain
@@ -8776,6 +8796,8 @@ cx
 -
 >
 fp
+(
+)
 )
 &
 &
@@ -8862,6 +8884,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 base
@@ -8888,6 +8912,8 @@ cx
 -
 >
 fp
+(
+)
 ;
 for
 (
@@ -9454,6 +9480,8 @@ cx
 -
 >
 fp
+(
+)
 ;
 regs
 =
@@ -15050,6 +15078,8 @@ cx
 -
 >
 fp
+(
+)
 ;
 JSScript
 *
@@ -15453,6 +15483,8 @@ cx
 -
 >
 fp
+(
+)
 ;
 \
 script
@@ -18084,6 +18116,8 @@ cx
 -
 >
 fp
+(
+)
 ;
 script
 =
@@ -30833,6 +30867,12 @@ pc
 /
 regs
 .
+fp
+=
+newfp
+;
+regs
+.
 pc
 =
 newscript
@@ -30863,6 +30903,8 @@ cx
 -
 >
 fp
+(
+)
 )
 ;
 fp

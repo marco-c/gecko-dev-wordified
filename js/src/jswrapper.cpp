@@ -2403,12 +2403,16 @@ global
 cx
 -
 >
-fp
+hasfp
+(
+)
 ?
 cx
 -
 >
 fp
+(
+)
 -
 >
 getScopeChain
