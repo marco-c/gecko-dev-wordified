@@ -785,12 +785,10 @@ GetUnignoredChildren
 (
 nsTArray
 <
-nsRefPtr
-<
-nsAccessibleWrap
+nsAccessible
+*
 >
->
-&
+*
 aChildrenArray
 )
 ;
