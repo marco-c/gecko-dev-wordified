@@ -1835,6 +1835,11 @@ buffer
 "
 )
 ;
+close
+(
+fd
+)
+;
 return
 ;
 }
@@ -3301,6 +3306,11 @@ failed
 "
 )
 ;
+close
+(
+fd
+)
+;
 return
 NULL
 ;
@@ -3334,6 +3344,11 @@ the
 file
 failed
 "
+)
+;
+close
+(
+fd
 )
 ;
 return
