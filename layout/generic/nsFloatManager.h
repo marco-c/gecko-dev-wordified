@@ -1538,6 +1538,14 @@ aRect
 #
 ifdef
 NS_BUILD_REFCNT_LOGGING
+FloatInfo
+(
+const
+FloatInfo
+&
+aOther
+)
+;
 ~
 FloatInfo
 (
