@@ -690,10 +690,6 @@ chrome
 window
 :
 *
-URLChanged
-*
-TabSelect
-*
 mousedown
 *
 mouseup

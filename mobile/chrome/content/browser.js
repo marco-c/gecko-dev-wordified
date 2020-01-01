@@ -16836,16 +16836,6 @@ updateURI
 )
 ;
 }
-/
-/
-broadcast
-a
-URLChanged
-message
-for
-consumption
-by
-InputHandler
 let
 event
 =
