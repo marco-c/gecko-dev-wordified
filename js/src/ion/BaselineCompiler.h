@@ -267,6 +267,11 @@ JSOP_DUP
 \
 _
 (
+JSOP_DUP2
+)
+\
+_
+(
 JSOP_GOTO
 )
 \
