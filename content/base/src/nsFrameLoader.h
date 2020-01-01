@@ -584,6 +584,16 @@ Finalize
 (
 )
 ;
+nsIDocShell
+*
+GetExistingDocShell
+(
+)
+{
+return
+mDocShell
+;
+}
 private
 :
 NS_HIDDEN_
