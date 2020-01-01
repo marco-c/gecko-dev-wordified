@@ -669,6 +669,13 @@ h
 #
 include
 "
+jsstaticcheck
+.
+h
+"
+#
+include
+"
 jsstdint
 .
 h

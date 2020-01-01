@@ -444,6 +444,13 @@ jsutil
 .
 h
 "
+#
+include
+"
+jsstaticcheck
+.
+h
+"
 namespace
 js
 {

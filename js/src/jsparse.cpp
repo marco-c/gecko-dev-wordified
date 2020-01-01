@@ -747,6 +747,13 @@ h
 #
 include
 "
+jsstaticcheck
+.
+h
+"
+#
+include
+"
 jslibmath
 .
 h

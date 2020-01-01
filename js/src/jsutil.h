@@ -441,6 +441,13 @@ jsutil_h___
 #
 include
 "
+jsstaticcheck
+.
+h
+"
+#
+include
+"
 js
 /
 Utility

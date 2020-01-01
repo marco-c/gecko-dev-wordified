@@ -630,6 +630,13 @@ jsscript
 h
 "
 #
+include
+"
+jsstaticcheck
+.
+h
+"
+#
 if
 JS_HAS_XML_SUPPORT
 #

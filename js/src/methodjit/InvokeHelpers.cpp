@@ -495,6 +495,13 @@ h
 #
 include
 "
+jsstaticcheck
+.
+h
+"
+#
+include
+"
 jsbool
 .
 h
