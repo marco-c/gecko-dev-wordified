@@ -1508,6 +1508,8 @@ numPICs
 )
 {
 return
+pics
+?
 *
 (
 uint32
@@ -1525,6 +1527,8 @@ sizeof
 uint32
 )
 )
+:
+0
 ;
 }
 #

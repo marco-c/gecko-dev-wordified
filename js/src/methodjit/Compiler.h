@@ -1456,6 +1456,14 @@ jsop_instanceof
 (
 )
 ;
+void
+jsop_name
+(
+JSAtom
+*
+atom
+)
+;
 /
 *
 Fast
