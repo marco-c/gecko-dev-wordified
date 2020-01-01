@@ -584,7 +584,7 @@ remainder
 )
 .
 class
-LAsmJSDivOrMod
+LUDivOrMod
 :
 public
 LBinaryMath
@@ -596,10 +596,10 @@ public
 :
 LIR_HEADER
 (
-AsmJSDivOrMod
+UDivOrMod
 )
 ;
-LAsmJSDivOrMod
+LUDivOrMod
 (
 const
 LAllocation

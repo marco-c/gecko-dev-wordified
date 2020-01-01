@@ -183,7 +183,7 @@ UInt32ToDouble
 \
 _
 (
-AsmJSDivOrMod
+UDivOrMod
 )
 \
 _

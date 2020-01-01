@@ -13857,9 +13857,9 @@ bool
 CodeGeneratorARM
 :
 :
-visitAsmJSDivOrMod
+visitUDivOrMod
 (
-LAsmJSDivOrMod
+LUDivOrMod
 *
 ins
 )

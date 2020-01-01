@@ -4228,9 +4228,9 @@ bool
 CodeGeneratorX86Shared
 :
 :
-visitAsmJSDivOrMod
+visitUDivOrMod
 (
-LAsmJSDivOrMod
+LUDivOrMod
 *
 ins
 )
