@@ -3752,6 +3752,8 @@ http
 .
 max
 -
+persistent
+-
 connections
 -
 per
@@ -3800,6 +3802,8 @@ network
 http
 .
 max
+-
+persistent
 -
 connections
 -
