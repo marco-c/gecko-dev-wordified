@@ -550,7 +550,6 @@ return
 NS_OK
 ;
 }
-;
 /
 /
 nsITimerCallback
