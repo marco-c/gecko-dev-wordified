@@ -60,9 +60,6 @@ true
 .
 *
 /
-var
-gCheckFunc
-;
 function
 run_test
 (

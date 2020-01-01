@@ -57,9 +57,6 @@ open
 .
 *
 /
-var
-gCheckFunc
-;
 function
 run_test
 (

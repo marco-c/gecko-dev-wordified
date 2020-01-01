@@ -426,11 +426,10 @@ do_register_cleanup
 end_test
 )
 ;
-dump
+logTestInfo
 (
 "
-Testing
-:
+testing
 removing
 an
 active
@@ -441,10 +440,10 @@ channel
 that
 is
 not
-valid
 "
 +
 "
+valid
 due
 to
 switching
