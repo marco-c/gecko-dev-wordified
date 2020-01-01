@@ -518,6 +518,13 @@ h
 #
 include
 "
+jsbuiltins
+.
+h
+"
+#
+include
+"
 jscntxt
 .
 h
