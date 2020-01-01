@@ -953,15 +953,6 @@ nsIDOMEvent
 aEvent
 )
 ;
-virtual
-PRBool
-IsEditable
-(
-nsIDOMNode
-*
-aNode
-)
-;
 /
 *
 -
