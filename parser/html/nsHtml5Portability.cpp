@@ -910,6 +910,7 @@ if
 (
 strPtr
 =
+=
 end
 )
 {
