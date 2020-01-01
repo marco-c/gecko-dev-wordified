@@ -537,12 +537,14 @@ size
 .
 *
 /
-struct
+class
 ArrayBufferObject
 :
 public
 JSObject
 {
+public
+:
 static
 Class
 protoClass
