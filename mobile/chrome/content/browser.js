@@ -4107,12 +4107,6 @@ left
 0
 )
 ;
-this
-.
-tryUnfloatToolbar
-(
-)
-;
 }
 hideTitlebar
 :
