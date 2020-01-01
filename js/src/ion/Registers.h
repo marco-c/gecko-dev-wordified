@@ -458,6 +458,13 @@ jsion_cpu_registers_h__
 #
 include
 "
+jsutil
+.
+h
+"
+#
+include
+"
 IonTypes
 .
 h
