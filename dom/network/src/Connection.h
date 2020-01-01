@@ -311,10 +311,6 @@ bandwidth
 double
 mBandwidth
 ;
-NS_DECL_EVENT_HANDLER
-(
-change
-)
 static
 const
 char

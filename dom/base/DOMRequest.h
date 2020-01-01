@@ -185,14 +185,6 @@ mDone
 bool
 mRooted
 ;
-NS_DECL_EVENT_HANDLER
-(
-success
-)
-NS_DECL_EVENT_HANDLER
-(
-error
-)
 public
 :
 NS_DECL_ISUPPORTS_INHERITED

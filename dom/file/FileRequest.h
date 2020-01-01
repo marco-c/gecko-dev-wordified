@@ -265,10 +265,6 @@ mLockedFile
 bool
 mIsFileRequest
 ;
-NS_DECL_EVENT_HANDLER
-(
-progress
-)
 }
 ;
 END_FILE_NAMESPACE

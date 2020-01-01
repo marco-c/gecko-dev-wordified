@@ -312,10 +312,6 @@ FullScreenEventListener
 >
 mEventListener
 ;
-NS_DECL_EVENT_HANDLER
-(
-mozorientationchange
-)
 }
 ;
 #

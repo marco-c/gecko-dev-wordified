@@ -277,14 +277,6 @@ aData
 bool
 mEnabled
 ;
-NS_DECL_EVENT_HANDLER
-(
-enabled
-)
-NS_DECL_EVENT_HANDLER
-(
-disabled
-)
 }
 ;
 END_BLUETOOTH_NAMESPACE
