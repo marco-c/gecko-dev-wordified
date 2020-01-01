@@ -601,7 +601,7 @@ NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 nsISupports
 nsIViewSourceChannel
 )
-NS_INTERFACE_MAP_END_THREADSAFE
+NS_INTERFACE_MAP_END
 nsresult
 nsViewSourceChannel
 :
