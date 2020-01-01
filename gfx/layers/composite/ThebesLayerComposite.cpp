@@ -109,7 +109,7 @@ mozilla
 /
 layers
 /
-PLayers
+PLayerTransaction
 .
 h
 "
@@ -121,7 +121,7 @@ TiledLayerBuffer
 h
 "
 /
-*
+/
 This
 must
 occur
@@ -130,16 +130,16 @@ after
 *
 layers
 /
-PLayers
+PLayerTransaction
 .
 h
 to
 avoid
+/
+/
 typedefs
 conflicts
 .
-*
-/
 #
 include
 "

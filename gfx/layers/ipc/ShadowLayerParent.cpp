@@ -107,7 +107,7 @@ MPL
 #
 include
 "
-ShadowLayersParent
+LayerTransactionParent
 .
 h
 "
@@ -388,7 +388,7 @@ isn
 t
 possible
 in
-PLayers
+PLayerTransaction
 "
 )
 ;

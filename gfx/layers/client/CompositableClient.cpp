@@ -133,7 +133,7 @@ mozilla
 /
 layers
 /
-ShadowLayersChild
+LayerTransactionChild
 .
 h
 "
