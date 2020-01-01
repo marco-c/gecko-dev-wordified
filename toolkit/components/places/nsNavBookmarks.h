@@ -2024,6 +2024,15 @@ PRTime
 aDateAdded
 PRTime
 aLastModified
+const
+nsACString
+&
+aParentGuid
+PRInt64
+aGrandParentId
+nsIURI
+*
+aURI
 PRInt64
 *
 _itemId
