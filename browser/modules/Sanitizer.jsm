@@ -1214,8 +1214,6 @@ searchBar
 {
 searchBar
 .
-textbox
-.
 value
 =
 "
