@@ -18033,7 +18033,9 @@ ccx
 JSObject
 *
 aJSObj
-jsval
+const
+nsAString
+&
 aName
 nsIVariant
 *
