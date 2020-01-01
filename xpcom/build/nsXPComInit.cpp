@@ -889,13 +889,6 @@ h
 #
 include
 "
-nsRecyclingAllocator
-.
-h
-"
-#
-include
-"
 SpecialSystemDirectory
 .
 h
@@ -1322,10 +1315,6 @@ nsScriptableBase64Encoder
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsVariant
-)
-NS_GENERIC_FACTORY_CONSTRUCTOR
-(
-nsRecyclingAllocatorImpl
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
