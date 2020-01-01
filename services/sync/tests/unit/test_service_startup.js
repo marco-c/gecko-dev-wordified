@@ -169,11 +169,6 @@ Trace
 "
 )
 ;
-new
-SyncTestingInfrastructure
-(
-)
-;
 /
 /
 Test
