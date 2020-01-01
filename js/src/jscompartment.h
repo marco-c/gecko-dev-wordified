@@ -777,6 +777,9 @@ class
 AutoDebugModeGC
 ;
 class
+ArrayBufferObject
+;
+class
 DebugScopes
 ;
 }
@@ -1613,7 +1616,10 @@ view
 .
 *
 /
-JSObject
+js
+:
+:
+ArrayBufferObject
 *
 gcLiveArrayBuffers
 ;
