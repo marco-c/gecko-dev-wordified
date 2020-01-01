@@ -138,6 +138,13 @@ getBuffer
 ;
 public
 abstract
+void
+destroy
+(
+)
+;
+public
+abstract
 IntSize
 getSize
 (
