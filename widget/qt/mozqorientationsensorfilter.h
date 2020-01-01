@@ -141,10 +141,6 @@ include
 <
 QTransform
 >
-using
-namespace
-QtMobility
-;
 class
 MozQOrientationSensorFilter
 :
