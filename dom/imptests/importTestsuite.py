@@ -838,21 +838,6 @@ dest
 d
 )
     
-abspath
-=
-"
-%
-s
-/
-%
-s
-"
-%
-(
-thissrcdir
-path
-)
-    
 files
 =
 [
@@ -889,7 +874,6 @@ importTestsuite
 .
 py
 "
-abspath
 subdirs
 files
 )

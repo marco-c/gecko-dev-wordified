@@ -367,14 +367,6 @@ parseFailures
 .
 py
 '
-'
-dom
-/
-imptests
-/
-'
-+
-k
 [
 ]
 v
