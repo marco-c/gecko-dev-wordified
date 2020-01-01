@@ -9566,6 +9566,10 @@ setResultType
 type
 )
 ;
+specialization_
+=
+type
+;
 }
 public
 :
