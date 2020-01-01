@@ -4073,6 +4073,10 @@ setResultType
 type
 )
 ;
+setIdempotent
+(
+)
+;
 }
 public
 :
