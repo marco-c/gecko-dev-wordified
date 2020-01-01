@@ -365,7 +365,7 @@ ArchiveRequest
 :
 GetReader
 (
-nsIDOMArchiveReader
+nsISupports
 *
 *
 aArchiveReader
@@ -385,7 +385,7 @@ thread
 ;
 nsCOMPtr
 <
-nsIDOMArchiveReader
+nsISupports
 >
 archiveReader
 (

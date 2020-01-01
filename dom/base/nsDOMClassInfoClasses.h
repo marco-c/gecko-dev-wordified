@@ -710,10 +710,6 @@ FileReader
 )
 DOMCI_CLASS
 (
-ArchiveReader
-)
-DOMCI_CLASS
-(
 ArchiveRequest
 )
 /
