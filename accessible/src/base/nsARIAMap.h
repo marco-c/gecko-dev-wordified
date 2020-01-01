@@ -521,11 +521,9 @@ eNoAction
 eActivateAction
 eClickAction
 eCheckUncheckAction
-eExpandAction
 eJumpAction
 eOpenCloseAction
 eSelectAction
-eSortAction
 eSwitchAction
 }
 ;
