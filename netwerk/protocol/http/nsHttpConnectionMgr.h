@@ -2143,14 +2143,6 @@ EnsureSocketThreadTargetIfOnline
 (
 )
 ;
-void
-ClosePersistentConnections
-(
-nsConnectionEntry
-*
-ent
-)
-;
 /
 /
 message
