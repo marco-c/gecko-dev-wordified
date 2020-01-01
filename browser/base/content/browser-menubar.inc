@@ -4340,7 +4340,7 @@ label
 =
 "
 &
-showAllBookmarksCmd2
+organizeBookmarks
 .
 label
 ;
