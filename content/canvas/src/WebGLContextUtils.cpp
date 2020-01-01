@@ -1521,7 +1521,7 @@ ap
 char
 buf
 [
-256
+1024
 ]
 ;
 nsCOMPtr
@@ -1544,7 +1544,7 @@ console
 PR_vsnprintf
 (
 buf
-256
+1024
 fmt
 ap
 )
