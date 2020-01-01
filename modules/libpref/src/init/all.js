@@ -38342,7 +38342,6 @@ ja
 "
 Droid
 Sans
-Japanese
 "
 )
 ;
@@ -38378,6 +38377,9 @@ serif
 ja
 "
 "
+Roboto
+Droid
+Sans
 MotoyaLMaru
 MotoyaLCedar
 Droid
@@ -38402,6 +38404,9 @@ ja
 "
 MotoyaLMaru
 MotoyaLCedar
+Droid
+Sans
+Mono
 "
 )
 ;
