@@ -1320,6 +1320,7 @@ consumer
 {
 if
 (
+!
 insertInWorklist
 (
 consumer
