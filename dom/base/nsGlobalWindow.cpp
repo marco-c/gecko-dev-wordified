@@ -14406,9 +14406,22 @@ scripts
 were
 disabled
 .
-RunTimeout
+nsCOMPtr
+<
+nsIRunnable
+>
+event
+=
+NS_NEW_RUNNABLE_METHOD
 (
-nsnull
+nsGlobalWindow
+this
+RunTimeout
+)
+;
+NS_DispatchToCurrentThread
+(
+event
 )
 ;
 }
@@ -18210,7 +18223,7 @@ assume
 1
 :
 1
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -18269,7 +18282,7 @@ assume
 1
 :
 1
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -18328,7 +18341,7 @@ assume
 1
 :
 1
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -18401,7 +18414,7 @@ assume
 1
 :
 1
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -18491,7 +18504,7 @@ mDocShell
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -18778,7 +18791,7 @@ mDocShell
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -36110,7 +36123,7 @@ GetPrimaryShell
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -38924,6 +38937,7 @@ state
 object
 .
 nsAutoGCRoot
+root
 (
 &
 jsStateObj
@@ -39074,7 +39088,7 @@ GetPrimaryShell
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -52870,7 +52884,7 @@ NS_OK
 ;
 }
 }
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
