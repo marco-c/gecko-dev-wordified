@@ -3543,9 +3543,9 @@ cx
 JSScript
 *
 script
-JSThreadData
+JSCompartment
 *
-data
+comp
 )
 ;
 extern
