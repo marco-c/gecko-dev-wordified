@@ -6285,9 +6285,14 @@ png_write_chunk_header
 (
 png_ptr
 png_fdAT
+(
+png_uint_32
+)
+(
 4
 +
 length
+)
 )
 ;
 png_save_uint_32
