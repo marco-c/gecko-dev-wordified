@@ -6395,6 +6395,9 @@ parentDocShell
 GetSessionStorageForPrincipal
 (
 subjectPrincipal
+EmptyString
+(
+)
 PR_FALSE
 getter_AddRefs
 (
