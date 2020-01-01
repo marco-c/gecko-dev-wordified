@@ -190,7 +190,7 @@ established
 in
 /
 /
-anticiation
+anticipation
 of
 a
 real

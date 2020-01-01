@@ -2498,7 +2498,7 @@ void
 nsHttpPipeline
 :
 :
-SetSSLConnectFailed
+SetProxyConnectFailed
 (
 )
 {
@@ -2518,7 +2518,7 @@ trans
 trans
 -
 >
-SetSSLConnectFailed
+SetProxyConnectFailed
 (
 )
 ;
@@ -4248,8 +4248,7 @@ HTTP
 transaction
 to
 establish
-an
-SSL
+a
 tunnel
 as
 a
