@@ -2629,6 +2629,10 @@ n
 )
 )
 ;
+LogFlush
+(
+)
+;
 StartServiceUpdate
 (
 argc
@@ -2669,6 +2673,10 @@ GetLastError
 (
 )
 )
+)
+;
+LogFlush
+(
 )
 ;
 /
