@@ -1368,14 +1368,6 @@ mBlock
 =
 aBlockFrame
 ;
-mMarkerList
-=
-aLists
-.
-PositionedDescendants
-(
-)
-;
 mContentArea
 =
 aBlockFrame
@@ -4381,7 +4373,6 @@ nsRect
 &
 aInsideMarkersArea
 )
-const
 {
 if
 (
@@ -4480,8 +4471,7 @@ markerRect
 ;
 }
 mMarkerList
--
->
+.
 AppendNewToTop
 (
 marker
@@ -4583,8 +4573,7 @@ markerRect
 ;
 }
 mMarkerList
--
->
+.
 AppendNewToTop
 (
 marker
