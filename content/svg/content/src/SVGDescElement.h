@@ -106,13 +106,6 @@ nsSVGElement
 .
 h
 "
-#
-include
-"
-nsIDOMSVGDescElement
-.
-h
-"
 nsresult
 NS_NewSVGDescElement
 (
@@ -144,7 +137,7 @@ MOZ_FINAL
 public
 SVGDescElementBase
 public
-nsIDOMSVGDescElement
+nsIDOMSVGElement
 {
 protected
 :
@@ -200,7 +193,6 @@ public
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGDESCELEMENT
 /
 /
 xxx
@@ -232,13 +224,6 @@ nsINode
 aResult
 )
 const
-;
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
 ;
 virtual
 nsIDOMNode
