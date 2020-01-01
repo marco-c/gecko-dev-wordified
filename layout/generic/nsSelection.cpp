@@ -25670,8 +25670,8 @@ nsRect
 aPoint
 nsSize
 (
-1
-1
+0
+0
 )
 )
 nsIPresShell
