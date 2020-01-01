@@ -543,6 +543,13 @@ nsIFTPChannel
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsDirectoryViewerFactory
 :
@@ -933,7 +940,12 @@ NS_DECL_NSIFTPEVENTSINK
 /
 nsISupports
 interface
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
+(
+nsHTTPIndex
+nsIHTTPIndex
+)
 }
 ;
 #
