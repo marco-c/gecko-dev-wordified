@@ -6997,11 +6997,11 @@ detection
 webglcontextlost
 webglcontextrestored
 .
-NS_IMETHODIMP
+void
 WebGLContext
 :
 :
-Notify
+RobustnessTimerCallback
 (
 nsITimer
 *
@@ -7058,7 +7058,6 @@ t
 crash
 .
 return
-NS_OK
 ;
 }
 /
@@ -7272,7 +7271,6 @@ SetupContextLossTimer
 )
 ;
 return
-NS_OK
 ;
 }
 mContextStatus
@@ -7342,7 +7340,6 @@ MaybeRestoreContext
 )
 ;
 return
-NS_OK
 ;
 }
 void
@@ -8207,10 +8204,6 @@ nsICanvasRenderingContextInternal
 NS_INTERFACE_MAP_ENTRY
 (
 nsISupportsWeakReference
-)
-NS_INTERFACE_MAP_ENTRY
-(
-nsITimerCallback
 )
 /
 /
