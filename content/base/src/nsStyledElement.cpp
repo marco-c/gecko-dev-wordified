@@ -1008,6 +1008,9 @@ PRBool
 aNotify
 )
 {
+nsAutoRemovableScriptBlocker
+scriptBlocker
+;
 if
 (
 aAttribute
