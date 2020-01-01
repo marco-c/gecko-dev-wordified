@@ -1610,7 +1610,7 @@ add
 additional
 methods
 to
-MutableHandle
+Rooted
 for
 a
 specific
@@ -1618,13 +1618,12 @@ specific
 specialization
 define
 a
-MutableHandleBase
+RootedBase
 <
 T
 >
 specialization
 containing
-*
 them
 .
 *
