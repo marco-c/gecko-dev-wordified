@@ -2057,6 +2057,9 @@ nsIntRect
 aRect
 uint32_t
 aFlags
+gfxASurface
+*
+*
 )
 {
 NS_ASSERTION

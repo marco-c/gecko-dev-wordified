@@ -2217,6 +2217,9 @@ const
 nsIntRect
 &
 uint32_t
+gfxASurface
+*
+*
 )
 {
 NS_RUNTIMEABORT
