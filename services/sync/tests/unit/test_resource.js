@@ -983,6 +983,10 @@ run_test
 (
 )
 {
+do_test_pending
+(
+)
+;
 logger
 =
 Log4Moz
@@ -3397,11 +3401,7 @@ server
 .
 stop
 (
-function
-(
-)
-{
-}
+do_test_finished
 )
 ;
 }

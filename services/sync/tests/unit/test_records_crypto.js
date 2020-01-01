@@ -339,6 +339,10 @@ run_test
 let
 server
 ;
+do_test_pending
+(
+)
+;
 try
 {
 let
@@ -964,11 +968,7 @@ server
 .
 stop
 (
-function
-(
-)
-{
-}
+do_test_finished
 )
 ;
 }
