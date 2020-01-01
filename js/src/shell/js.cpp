@@ -18266,7 +18266,7 @@ global
 (
 )
 &
-DirectWrapper
+Wrapper
 :
 :
 singleton
@@ -18412,7 +18412,7 @@ global
 (
 )
 &
-DirectWrapper
+Wrapper
 :
 :
 singletonWithPrototype

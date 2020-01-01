@@ -290,7 +290,7 @@ X
 ray
 wrapper
 .
-DirectWrapper
+Wrapper
 XrayWaiver
 (
 WrapperFactory
@@ -4353,7 +4353,7 @@ wrapper
 &
 XrayWrapper
 <
-DirectWrapper
+Wrapper
 >
 :
 :
@@ -4372,7 +4372,7 @@ wrapper
 &
 XrayWrapper
 <
-DirectWrapper
+Wrapper
 DOMXrayTraits
 >
 :

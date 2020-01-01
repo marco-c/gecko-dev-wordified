@@ -17978,7 +17978,7 @@ public
 js
 :
 :
-DirectWrapper
+Wrapper
 {
 public
 :
@@ -17989,7 +17989,7 @@ SandboxCallableProxyHandler
 js
 :
 :
-DirectWrapper
+Wrapper
 (
 0
 )

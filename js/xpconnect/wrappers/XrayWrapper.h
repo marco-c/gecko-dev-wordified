@@ -694,7 +694,7 @@ public
 js
 :
 :
-DirectWrapper
+Wrapper
 {
 public
 :
@@ -705,7 +705,7 @@ SandboxProxyHandler
 js
 :
 :
-DirectWrapper
+Wrapper
 (
 0
 )

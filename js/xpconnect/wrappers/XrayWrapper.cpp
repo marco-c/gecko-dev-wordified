@@ -10674,7 +10674,7 @@ define
 XRAY
 XrayWrapper
 <
-DirectWrapper
+Wrapper
 XPCWrappedNativeXrayTraits
 >
 template
@@ -10701,7 +10701,7 @@ define
 XRAY
 XrayWrapper
 <
-DirectWrapper
+Wrapper
 DOMXrayTraits
 >
 template
