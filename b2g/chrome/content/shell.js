@@ -4147,6 +4147,16 @@ type
 activity
 '
 )
+onlyShowApp
+:
+msg
+.
+onlyShowApp
+showApp
+:
+msg
+.
+showApp
 target
 :
 msg
