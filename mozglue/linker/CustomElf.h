@@ -882,7 +882,7 @@ ptr
 =
 ptr
 ;
-debug
+DEBUG_LOG
 (
 "
 %

@@ -428,7 +428,7 @@ Phdr
 phdr
 )
 {
-debug
+DEBUG_LOG
 (
 "
 %
@@ -704,7 +704,7 @@ int
 flags
 )
 {
-debug
+DEBUG_LOG
 (
 "
 CustomElf
@@ -1047,7 +1047,7 @@ phdr
 }
 else
 {
-log
+LOG
 (
 "
 %
@@ -1091,7 +1091,7 @@ phdr
 p_memsz
 )
 {
-log
+LOG
 (
 "
 %
@@ -1150,7 +1150,7 @@ p_flags
 PF_X
 )
 {
-log
+LOG
 (
 "
 %
@@ -1180,7 +1180,7 @@ break
 ;
 default
 :
-debug
+DEBUG_LOG
 (
 "
 %
@@ -1219,7 +1219,7 @@ min_vaddr
 0
 )
 {
-log
+LOG
 (
 "
 %
@@ -1254,7 +1254,7 @@ if
 dyn
 )
 {
-log
+LOG
 (
 "
 %
@@ -1459,7 +1459,7 @@ base
 )
 )
 {
-log
+LOG
 (
 "
 %
@@ -1663,7 +1663,7 @@ oneLibLoaded
 "
 )
 ;
-debug
+DEBUG_LOG
 (
 "
 CustomElf
@@ -1709,7 +1709,7 @@ CustomElf
 (
 )
 {
-debug
+DEBUG_LOG
 (
 "
 CustomElf
@@ -2000,7 +2000,7 @@ sym
 st_value
 )
 ;
-debug
+DEBUG_LOG
 (
 "
 CustomElf
@@ -2476,7 +2476,7 @@ RTLD_DEFAULT
 symbol
 )
 ;
-debug
+DEBUG_LOG
 (
 "
 dlsym
@@ -2953,7 +2953,7 @@ p_type
 PT_LOAD
 )
 {
-debug
+DEBUG_LOG
 (
 "
 %
@@ -3074,7 +3074,7 @@ p_vaddr
 align_offset
 )
 ;
-debug
+DEBUG_LOG
 (
 "
 %
@@ -3260,7 +3260,7 @@ boundary
 .
 *
 /
-debug
+DEBUG_LOG
 (
 "
 %
@@ -3305,7 +3305,7 @@ mapped
 MAP_FAILED
 )
 {
-log
+LOG
 (
 "
 %
@@ -3323,7 +3323,7 @@ GetPath
 }
 else
 {
-log
+LOG
 (
 "
 %
@@ -3658,7 +3658,7 @@ prot
 0
 )
 {
-log
+LOG
 (
 "
 %
@@ -3698,7 +3698,7 @@ Dyn
 dyn
 )
 {
-debug
+DEBUG_LOG
 (
 "
 %
@@ -4007,7 +4007,7 @@ Sym
 )
 )
 {
-log
+LOG
 (
 "
 %
@@ -4030,7 +4030,7 @@ break
 case
 DT_TEXTREL
 :
-log
+LOG
 (
 "
 %
@@ -4085,7 +4085,7 @@ UNSUPPORTED_RELOC
 ENT
 )
 :
-log
+LOG
 (
 "
 %
@@ -4192,7 +4192,7 @@ Reloc
 )
 )
 {
-log
+LOG
 (
 "
 %
@@ -4446,7 +4446,7 @@ RELOC
 )
 )
 {
-log
+LOG
 (
 "
 %
@@ -4502,7 +4502,7 @@ flags
 DF_TEXTREL
 )
 {
-log
+LOG
 (
 "
 %
@@ -4546,7 +4546,7 @@ if
 (
 flags
 )
-log
+LOG
 (
 "
 %
@@ -4769,7 +4769,7 @@ break
 ;
 default
 :
-log
+LOG
 (
 "
 %
@@ -4809,7 +4809,7 @@ buckets
 symnum
 )
 {
-log
+LOG
 (
 "
 %
@@ -4835,7 +4835,7 @@ if
 strtab
 )
 {
-log
+LOG
 (
 "
 %
@@ -4859,7 +4859,7 @@ if
 symtab
 )
 {
-log
+LOG
 (
 "
 %
@@ -4985,7 +4985,7 @@ Relocate
 (
 )
 {
-debug
+DEBUG_LOG
 (
 "
 Relocate
@@ -5217,7 +5217,7 @@ symptr
 =
 NULL
 )
-log
+LOG
 (
 "
 %
@@ -5335,7 +5335,7 @@ break
 ;
 default
 :
-log
+LOG
 (
 "
 %
@@ -5462,7 +5462,7 @@ r_info
 R_JMP_SLOT
 )
 {
-log
+LOG
 (
 "
 %
@@ -5555,7 +5555,7 @@ symptr
 NULL
 )
 {
-log
+LOG
 (
 "
 %

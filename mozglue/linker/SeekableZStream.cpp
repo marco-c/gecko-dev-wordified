@@ -133,7 +133,7 @@ if
 header
 )
 {
-log
+LOG
 (
 "
 Not
@@ -300,7 +300,7 @@ totalSize
 )
 )
 {
-log
+LOG
 (
 "
 Malformed
@@ -425,7 +425,7 @@ numElements
 )
 )
 {
-log
+LOG
 (
 "
 DecompressChunk
@@ -501,7 +501,7 @@ length
 =
 chunkLen
 ;
-debug
+DEBUG_LOG
 (
 "
 DecompressChunk
@@ -631,7 +631,7 @@ windowBits
 Z_OK
 )
 {
-log
+LOG
 (
 "
 inflateInit
@@ -670,7 +670,7 @@ numElements
 Z_OK
 )
 {
-log
+LOG
 (
 "
 inflateSetDictionary
@@ -719,7 +719,7 @@ Z_STREAM_END
 Z_OK
 )
 {
-log
+LOG
 (
 "
 inflate
@@ -749,7 +749,7 @@ zStream
 Z_OK
 )
 {
-log
+LOG
 (
 "
 inflateEnd
