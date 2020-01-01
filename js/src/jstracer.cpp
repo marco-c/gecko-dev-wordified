@@ -3170,7 +3170,8 @@ prefix
 JS_snprintf
 (
 name
-15
+sizeof
+name
 "
 %
 s
