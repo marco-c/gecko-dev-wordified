@@ -4510,7 +4510,7 @@ Preferences
 GetRootBranch
 (
 )
-!
+=
 =
 nsnull
 )
