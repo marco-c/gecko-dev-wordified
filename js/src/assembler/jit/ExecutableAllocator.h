@@ -2404,7 +2404,7 @@ endif
 }
 #
 elif
-WTF_CPU_ARM_THUMB2
+WTF_CPU_ARM
 &
 &
 WTF_OS_IOS
