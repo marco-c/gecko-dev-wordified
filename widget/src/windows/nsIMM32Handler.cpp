@@ -11242,11 +11242,7 @@ positioning
 2301
 nsIntRect
 cursorInTopLevel
-;
-ResolveIMECaretPos
-(
-aWindow
-nsIntRect
+cursorRect
 (
 cursor
 nsIntSize
@@ -11255,6 +11251,11 @@ nsIntSize
 0
 )
 )
+;
+ResolveIMECaretPos
+(
+aWindow
+cursorRect
 aWindow
 -
 >
