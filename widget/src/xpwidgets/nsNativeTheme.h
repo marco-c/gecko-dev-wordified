@@ -1085,6 +1085,14 @@ nsIFrame
 aFrame
 )
 ;
+PRBool
+IsMenuListEditable
+(
+nsIFrame
+*
+aFrame
+)
+;
 nsIPresShell
 *
 GetPresShell
