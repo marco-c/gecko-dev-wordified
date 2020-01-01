@@ -127,13 +127,6 @@ InitStatics
 (
 )
 ;
-XPCPerThreadData
-:
-:
-InitStatics
-(
-)
-;
 return
 NS_OK
 ;
