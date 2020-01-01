@@ -147,6 +147,15 @@ include
 "
 mozilla
 /
+ReentrantMonitor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -4033,7 +4042,7 @@ mState
 |
 updated
 .
-Monitor
+ReentrantMonitor
 mMonitor
 ;
 private

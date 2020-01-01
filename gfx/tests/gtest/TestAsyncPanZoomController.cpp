@@ -359,7 +359,7 @@ FrameMetrics
 metrics
 )
 {
-MonitorAutoLock
+ReentrantMonitorAutoEnter
 lock
 (
 mMonitor
