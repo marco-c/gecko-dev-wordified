@@ -530,15 +530,6 @@ _dav
 identity
 )
 ;
-this
-.
-_dav
-.
-defaultPrefix
-=
-"
-"
-;
 let
 cmd
 =
