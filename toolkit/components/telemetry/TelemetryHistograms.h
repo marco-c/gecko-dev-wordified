@@ -665,7 +665,7 @@ instantiated
 HISTOGRAM_ENUMERATED_VALUES
 (
 A11Y_CONSUMERS
-10
+11
 "
 Accessibility
 client
