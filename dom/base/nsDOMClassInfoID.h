@@ -641,6 +641,7 @@ Crypto
 classes
 eDOMClassInfo_Crypto_id
 eDOMClassInfo_CRMFObject_id
+eDOMClassInfo_Pkcs11_id
 /
 /
 DOM
