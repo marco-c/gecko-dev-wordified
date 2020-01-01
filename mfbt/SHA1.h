@@ -120,6 +120,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Types
+.
+h
+"
+#
+include
 <
 stddef
 .
@@ -311,6 +320,9 @@ mDone
 ;
 public
 :
+MFBT_API
+(
+)
 SHA1Sum
 (
 )
@@ -345,7 +357,10 @@ hashed
 .
 *
 /
+MFBT_API
+(
 void
+)
 update
 (
 const
@@ -370,7 +385,10 @@ hashOut
 .
 *
 /
+MFBT_API
+(
 void
+)
 finish
 (
 SHA1Sum
