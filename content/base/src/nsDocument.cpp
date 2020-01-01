@@ -29692,6 +29692,11 @@ nsAString
 aInputEncoding
 )
 {
+WarnOnceAbout
+(
+eInputEncoding
+)
+;
 if
 (
 mHaveInputEncoding
@@ -29724,6 +29729,11 @@ nsAString
 aXmlEncoding
 )
 {
+WarnOnceAbout
+(
+eXmlEncoding
+)
+;
 if
 (
 !
@@ -29800,6 +29810,11 @@ PRBool
 aXmlStandalone
 )
 {
+WarnOnceAbout
+(
+eXmlStandalone
+)
+;
 *
 aXmlStandalone
 =
@@ -29878,6 +29893,11 @@ nsAString
 aXmlVersion
 )
 {
+WarnOnceAbout
+(
+eXmlVersion
+)
+;
 if
 (
 IsHTML
