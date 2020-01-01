@@ -1634,16 +1634,6 @@ void
 aFreeChunk
 )
 {
-NS_ASSERTION
-(
-mShell
-"
-freeing
-after
-shutdown
-"
-)
-;
 if
 (
 mShell
