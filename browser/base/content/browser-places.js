@@ -4678,7 +4678,9 @@ isLoggedIn
 &
 Weave
 .
-Engines
+Service
+.
+engineManager
 .
 get
 (
@@ -4690,7 +4692,9 @@ tabs
 &
 Weave
 .
-Engines
+Service
+.
+engineManager
 .
 get
 (
