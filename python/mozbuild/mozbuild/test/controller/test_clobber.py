@@ -1537,7 +1537,7 @@ self
 assertEqual
 (
 status
-1
+0
 )
         
 self
