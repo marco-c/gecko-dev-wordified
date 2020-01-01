@@ -43,11 +43,6 @@ success
 "
 ;
 }
-dis
-(
-main
-)
-;
 function
 failure
 (
