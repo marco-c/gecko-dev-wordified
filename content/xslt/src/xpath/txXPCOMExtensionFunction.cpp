@@ -2692,7 +2692,7 @@ else
 {
 returnParam
 .
-SetPtrIsData
+SetIndirect
 (
 )
 ;
@@ -2717,15 +2717,6 @@ SetValIsInterface
 )
 ;
 }
-returnParam
-.
-ptr
-=
-&
-returnParam
-.
-val
-;
 }
 rv
 =
