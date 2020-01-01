@@ -577,7 +577,6 @@ aOptions
 {
 MOZ_ASSERT
 (
-!
 NS_IsMainThread
 (
 )
