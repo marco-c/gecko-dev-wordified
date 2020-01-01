@@ -13616,10 +13616,6 @@ child
 bool
 isPositioned
 =
-!
-isSVG
-&
-&
 disp
 -
 >
