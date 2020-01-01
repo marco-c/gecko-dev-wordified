@@ -489,6 +489,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -551,6 +558,13 @@ ipc
 namespace
 plugins
 {
+enum
+ScriptableObjectType
+{
+LocalObject
+Proxy
+}
+;
 extern
 PRLogModuleInfo
 *
