@@ -1781,6 +1781,11 @@ fused
 )
 ;
 void
+jsop_mod
+(
+)
+;
+void
 jsop_neg
 (
 )

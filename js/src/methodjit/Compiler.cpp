@@ -4383,13 +4383,8 @@ BEGIN_CASE
 (
 JSOP_MOD
 )
-jsop_binary
+jsop_mod
 (
-op
-stubs
-:
-:
-Mod
 )
 ;
 END_CASE
