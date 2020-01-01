@@ -57,13 +57,6 @@ tests
 .
 h
 "
-#
-include
-"
-jsxdrapi
-.
-h
-"
 static
 JSBool
 native
