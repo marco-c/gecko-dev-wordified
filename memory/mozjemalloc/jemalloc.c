@@ -38990,6 +38990,9 @@ problems
 *
 /
 #
+ifndef
+MOZ_MEMORY_GONK
+#
 if
 defined
 (
@@ -39192,6 +39195,8 @@ malloc_usable_size
 (
 a
 )
+#
+endif
 #
 endif
 /
