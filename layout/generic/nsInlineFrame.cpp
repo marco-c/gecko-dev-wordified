@@ -2834,13 +2834,10 @@ IsFrameTreeTooDeep
 (
 aReflowState
 aMetrics
+aStatus
 )
 )
 {
-aStatus
-=
-NS_FRAME_COMPLETE
-;
 return
 NS_OK
 ;
