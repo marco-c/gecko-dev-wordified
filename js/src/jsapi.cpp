@@ -21899,6 +21899,7 @@ cx
 JSObject
 *
 objArg
+const
 JSPropertySpec
 *
 ps
@@ -27676,6 +27677,7 @@ cx
 JSObject
 *
 objArg
+const
 JSFunctionSpec
 *
 fs
@@ -27918,7 +27920,14 @@ setExtendedSlot
 0
 PrivateValue
 (
+const_cast
+<
+JSFunctionSpec
+*
+>
+(
 fs
+)
 )
 )
 ;
@@ -28119,7 +28128,14 @@ setExtendedSlot
 0
 PrivateValue
 (
+const_cast
+<
+JSFunctionSpec
+*
+>
+(
 fs
+)
 )
 )
 ;

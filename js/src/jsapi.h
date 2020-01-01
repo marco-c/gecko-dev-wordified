@@ -19415,6 +19415,7 @@ cx
 JSObject
 *
 obj
+const
 JSPropertySpec
 *
 ps
@@ -22778,6 +22779,7 @@ cx
 JSObject
 *
 obj
+const
 JSFunctionSpec
 *
 fs
