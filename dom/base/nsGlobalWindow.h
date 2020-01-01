@@ -6945,6 +6945,9 @@ nsIDocShellLoadInfo
 aLoadInfo
 )
 ;
+nsString
+mCachedHash
+;
 nsWeakPtr
 mDocShell
 ;
