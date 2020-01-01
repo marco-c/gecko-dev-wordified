@@ -24126,7 +24126,16 @@ nsnull
 if
 (
 aContainer
+&
+&
+aContainer
+-
+>
+IsElement
+(
 )
+)
+{
 mFrameConstructor
 -
 >
@@ -24142,6 +24151,7 @@ aChild
 oldNextSibling
 )
 ;
+}
 bool
 didReconstruct
 ;
