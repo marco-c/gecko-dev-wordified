@@ -10196,8 +10196,13 @@ mState
 =
 DECODER_STATE_SHUTDOWN
 )
+{
+delete
+frame
+;
 continue
 ;
+}
 NS_ASSERTION
 (
 frame
