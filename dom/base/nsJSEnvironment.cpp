@@ -7031,12 +7031,10 @@ JS_TRUE
 case
 JSTRAP_ERROR
 :
+JS_ClearPendingException
+(
 cx
--
->
-throwing
-=
-JS_FALSE
+)
 ;
 return
 JS_FALSE

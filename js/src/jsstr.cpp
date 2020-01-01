@@ -11081,7 +11081,9 @@ check
 cx
 -
 >
-throwing
+isExceptionPending
+(
+)
 .
 *
 /
@@ -12299,7 +12301,9 @@ if
 cx
 -
 >
-throwing
+isExceptionPending
+(
+)
 )
 /
 *
@@ -12513,7 +12517,9 @@ if
 cx
 -
 >
-throwing
+isExceptionPending
+(
+)
 )
 /
 *
@@ -16856,7 +16862,9 @@ if
 cx
 -
 >
-throwing
+isExceptionPending
+(
+)
 )
 /
 *

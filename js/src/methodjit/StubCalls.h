@@ -2134,6 +2134,15 @@ Value
 vp
 )
 ;
+void
+JS_FASTCALL
+Exception
+(
+VMFrame
+&
+f
+)
+;
 }
 /
 *
