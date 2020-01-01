@@ -460,13 +460,6 @@ jsobj
 h
 "
 #
-include
-"
-jsatom
-.
-h
-"
-#
 define
 ARRAY_CAPACITY_MIN
 7
@@ -537,7 +530,7 @@ if
 JS_UNLIKELY
 (
 !
-JSID_IS_ATOM
+JSID_IS_STRING
 (
 id
 )
@@ -1831,7 +1824,7 @@ js_NewArrayObjectWithCapacity
 JSContext
 *
 cx
-jsuint
+uint32
 capacity
 jsval
 *
