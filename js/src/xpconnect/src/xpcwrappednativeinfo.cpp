@@ -1467,9 +1467,11 @@ funobj
 )
 )
 ;
-STOBJ_CLEAR_PARENT
-(
 funobj
+-
+>
+clearParent
+(
 )
 ;
 funobj

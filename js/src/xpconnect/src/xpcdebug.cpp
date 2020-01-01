@@ -2962,9 +2962,11 @@ JSObject
 *
 parent
 =
-STOBJ_GET_PARENT
-(
 obj
+-
+>
+getParent
+(
 )
 ;
 JSObject

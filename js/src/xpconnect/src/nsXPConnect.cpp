@@ -4308,9 +4308,11 @@ XPCWrappedNative
 )
 xpc_GetJSPrivate
 (
-STOBJ_GET_PARENT
-(
 obj
+-
+>
+getParent
+(
 )
 )
 ;
