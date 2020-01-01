@@ -864,11 +864,11 @@ chrome
 :
 /
 /
-branding
+browser
 /
-content
+skin
 /
-icon48
+Info
 .
 png
 "
