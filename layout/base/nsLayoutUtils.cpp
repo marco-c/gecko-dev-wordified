@@ -9095,7 +9095,7 @@ list
 endif
 list
 .
-ComputeVisibility
+ComputeVisibilityForRoot
 (
 &
 builder
