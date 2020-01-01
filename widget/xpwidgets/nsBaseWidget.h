@@ -1471,6 +1471,13 @@ aNewParent
 =
 0
 ;
+virtual
+PRUint32
+GetGLFrameBufferFormat
+(
+)
+MOZ_OVERRIDE
+;
 /
 *
 *

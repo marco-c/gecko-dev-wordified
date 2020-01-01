@@ -3271,7 +3271,8 @@ NS_SUCCEEDED
 (
 GetDefaultCompleteValue
 (
-selectedIndex
+-
+1
 false
 value
 )
@@ -6441,7 +6442,8 @@ NS_SUCCEEDED
 (
 GetDefaultCompleteValue
 (
-selectedIndex
+-
+1
 false
 defaultIndexValue
 )

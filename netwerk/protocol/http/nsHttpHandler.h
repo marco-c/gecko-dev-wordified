@@ -1003,6 +1003,15 @@ return
 mUseAlternateProtocol
 ;
 }
+PRUint32
+SpdySendingChunkSize
+(
+)
+{
+return
+mSpdySendingChunkSize
+;
+}
 bool
 PromptTempRedirect
 (
@@ -2067,6 +2076,9 @@ mCoalesceSpdy
 ;
 bool
 mUseAlternateProtocol
+;
+PRUint32
+mSpdySendingChunkSize
 ;
 }
 ;

@@ -1253,17 +1253,11 @@ length
 nsresult
 ResumeSend
 (
-nsAHttpTransaction
-*
-caller
 )
 ;
 nsresult
 ResumeRecv
 (
-nsAHttpTransaction
-*
-caller
 )
 ;
 PRInt64

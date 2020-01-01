@@ -3894,6 +3894,13 @@ nsJSContext
 :
 GarbageCollectNow
 (
+js
+:
+:
+gcreason
+:
+:
+DOM_IPC
 )
 ;
 return
@@ -3913,6 +3920,13 @@ nsJSContext
 :
 GarbageCollectNow
 (
+js
+:
+:
+gcreason
+:
+:
+DOM_IPC
 )
 ;
 nsJSContext

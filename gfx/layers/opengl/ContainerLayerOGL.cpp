@@ -1541,6 +1541,7 @@ CreateFBOWithTexture
 (
 framebufferRect
 mode
+aPreviousFrameBuffer
 &
 frameBuffer
 &

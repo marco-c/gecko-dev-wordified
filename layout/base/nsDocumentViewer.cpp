@@ -1434,6 +1434,13 @@ Element
 .
 h
 "
+#
+include
+"
+jsfriendapi
+.
+h
+"
 using
 namespace
 mozilla
@@ -7459,6 +7466,13 @@ nsJSContext
 :
 PokeGC
 (
+js
+:
+:
+gcreason
+:
+:
+PAGE_HIDE
 )
 ;
 /

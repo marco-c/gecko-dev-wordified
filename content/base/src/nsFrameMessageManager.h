@@ -1042,6 +1042,16 @@ true
 )
 ;
 void
+*
+GetCallbackData
+(
+)
+{
+return
+mCallbackData
+;
+}
+void
 GetParamsForMessage
 (
 const
