@@ -1129,8 +1129,6 @@ to
 post
 SHUTDOWN
 message
-\
-n
 "
 )
 ;
