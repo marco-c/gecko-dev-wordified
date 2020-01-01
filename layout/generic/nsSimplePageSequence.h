@@ -805,6 +805,12 @@ DetermineWhetherToPrintPage
 (
 )
 ;
+nsIFrame
+*
+GetCurrentPageFrame
+(
+)
+;
 nsMargin
 mMargin
 ;
@@ -848,10 +854,6 @@ nsPageFrames
 /
 Asynch
 Printing
-nsIFrame
-*
-mCurrentPageFrame
-;
 int32_t
 mPageNum
 ;
