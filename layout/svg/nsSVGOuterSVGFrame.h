@@ -920,11 +920,15 @@ GetInvalidRegion
 (
 )
 {
+nsRect
+rect
+;
 if
 (
 !
 IsInvalid
 (
+rect
 )
 )
 {
