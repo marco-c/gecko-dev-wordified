@@ -630,7 +630,7 @@ code
 cx
 -
 >
-analysisLifoAlloc
+typeLifoAlloc
 (
 )
 .
@@ -836,7 +836,7 @@ alloc
 cx
 -
 >
-analysisLifoAlloc
+typeLifoAlloc
 (
 )
 ;
@@ -3222,7 +3222,7 @@ alloc
 cx
 -
 >
-analysisLifoAlloc
+typeLifoAlloc
 (
 )
 ;
@@ -4769,7 +4769,7 @@ lifetime
 cx
 -
 >
-analysisLifoAlloc
+typeLifoAlloc
 (
 )
 .
@@ -4863,7 +4863,7 @@ lifetime
 cx
 -
 >
-analysisLifoAlloc
+typeLifoAlloc
 (
 )
 .
@@ -5102,7 +5102,7 @@ lifetime
 cx
 -
 >
-analysisLifoAlloc
+typeLifoAlloc
 (
 )
 .
@@ -5797,7 +5797,7 @@ tail
 cx
 -
 >
-analysisLifoAlloc
+typeLifoAlloc
 (
 )
 .
@@ -6256,7 +6256,7 @@ alloc
 cx
 -
 >
-analysisLifoAlloc
+typeLifoAlloc
 (
 )
 ;
@@ -9081,7 +9081,7 @@ node
 cx
 -
 >
-analysisLifoAlloc
+typeLifoAlloc
 (
 )
 .
@@ -9099,7 +9099,7 @@ options
 cx
 -
 >
-analysisLifoAlloc
+typeLifoAlloc
 (
 )
 .
@@ -9311,7 +9311,7 @@ use
 cx
 -
 >
-analysisLifoAlloc
+typeLifoAlloc
 (
 )
 .
@@ -9416,7 +9416,7 @@ newOptions
 cx
 -
 >
-analysisLifoAlloc
+typeLifoAlloc
 (
 )
 .
@@ -10827,7 +10827,7 @@ newValues
 cx
 -
 >
-analysisLifoAlloc
+typeLifoAlloc
 (
 )
 .

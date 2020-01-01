@@ -785,9 +785,6 @@ size_t
 typeResults
 ;
 size_t
-analysisPool
-;
-size_t
 pendingArrays
 ;
 size_t
@@ -841,16 +838,6 @@ typeResults
 sizes
 .
 typeResults
-;
-this
--
->
-analysisPool
-+
-=
-sizes
-.
-analysisPool
 ;
 this
 -

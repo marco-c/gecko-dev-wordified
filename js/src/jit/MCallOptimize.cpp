@@ -1204,7 +1204,7 @@ StackTypeSet
 IonBuilder
 :
 :
-getInlineReturnTypeSet
+getOriginalInlineReturnTypeSet
 (
 )
 {
@@ -1224,6 +1224,27 @@ pc
 )
 ;
 }
+types
+:
+:
+TemporaryTypeSet
+*
+IonBuilder
+:
+:
+getInlineReturnTypeSet
+(
+)
+{
+return
+cloneTypeSet
+(
+getOriginalInlineReturnTypeSet
+(
+)
+)
+;
+}
 MIRType
 IonBuilder
 :
@@ -1235,7 +1256,7 @@ getInlineReturnType
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 returnTypes
 =
@@ -1747,7 +1768,7 @@ InliningStatus_Error
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 :
 :
 DoubleConversion
@@ -1771,7 +1792,7 @@ conversion
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 :
 :
 AlwaysConvertToDoubles
@@ -1986,7 +2007,7 @@ conversion
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 :
 :
 AlwaysConvertToDoubles
@@ -2223,7 +2244,7 @@ OBJECT_FLAG_ITERATED
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 thisTypes
 =
@@ -2309,7 +2330,7 @@ StackTypeSet
 *
 returnTypes
 =
-getInlineReturnTypeSet
+getOriginalInlineReturnTypeSet
 (
 )
 ;
@@ -2438,7 +2459,10 @@ if
 pushTypeBarrier
 (
 ins
+cloneTypeSet
+(
 returnTypes
+)
 barrier
 )
 )
@@ -2600,7 +2624,7 @@ InliningStatus_NotInlined
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 thisTypes
 =
@@ -2686,7 +2710,7 @@ InliningStatus_NotInlined
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 :
 :
 DoubleConversion
@@ -2708,7 +2732,7 @@ conversion
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 :
 :
 AmbiguousDoubleConversion
@@ -2739,7 +2763,7 @@ conversion
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 :
 :
 AlwaysConvertToDoubles
@@ -2751,7 +2775,7 @@ conversion
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 :
 :
 MaybeConvertToDoubles
@@ -2973,7 +2997,7 @@ arrays
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 thisTypes
 =
@@ -2991,7 +3015,7 @@ resultTypeSet
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 argTypes
 =
@@ -3359,7 +3383,7 @@ InliningStatus_Error
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 resTypes
 =
@@ -6659,7 +6683,7 @@ InliningStatus_NotInlined
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 thisTypes
 =
@@ -7370,7 +7394,7 @@ base
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 :
 :
 DoubleConversion
@@ -7771,7 +7795,7 @@ InliningStatus_NotInlined
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 ctorTypes
 =
@@ -8084,7 +8108,7 @@ ctor
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 ctorTypes
 uint32_t
@@ -8185,7 +8209,7 @@ objects
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 returnTypes
 =
@@ -8990,7 +9014,7 @@ objects
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 returnTypes
 =
@@ -9836,7 +9860,7 @@ InliningStatus_NotInlined
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 arg1Types
 =
@@ -9855,7 +9879,7 @@ resultTypeSet
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 arg2Types
 =
@@ -10136,7 +10160,7 @@ else
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 =

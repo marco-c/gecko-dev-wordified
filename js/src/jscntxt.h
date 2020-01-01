@@ -3013,16 +3013,6 @@ runtime
 tempLifoAlloc
 ;
 }
-inline
-js
-:
-:
-LifoAlloc
-&
-analysisLifoAlloc
-(
-)
-;
 #
 ifdef
 JS_THREADSAFE

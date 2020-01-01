@@ -1682,7 +1682,7 @@ type
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 resultTypeSet_
 ;
@@ -2517,7 +2517,7 @@ resultType_
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 resultTypeSet
 (
@@ -3104,7 +3104,7 @@ setResultTypeSet
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 )
@@ -5367,7 +5367,7 @@ index
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 )
@@ -5404,7 +5404,7 @@ index
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 )
@@ -6948,7 +6948,7 @@ object
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 MakeSingletonTypeSet
 (
@@ -6966,7 +6966,7 @@ ptype
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 *
 ptypeSet
@@ -6975,7 +6975,7 @@ newType
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 newTypeSet
 )
@@ -10282,7 +10282,7 @@ new_
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 >
 (
 ntype
@@ -18601,7 +18601,7 @@ type
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 typeSet
 )
@@ -20181,7 +20181,7 @@ fun
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 resultTypes
 )
@@ -26740,7 +26740,7 @@ const
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 buildTypeSetForFunction
 (
@@ -33981,7 +33981,7 @@ templateObject
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 resultTypes
 )
@@ -34346,7 +34346,7 @@ def
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 BailoutKind
@@ -34422,7 +34422,7 @@ def
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 )
@@ -34462,7 +34462,7 @@ def
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 BailoutKind
@@ -34692,7 +34692,7 @@ const
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 typeSet_
 ;
@@ -34705,7 +34705,7 @@ const
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 )
@@ -34753,7 +34753,7 @@ const
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 )
@@ -34781,7 +34781,7 @@ const
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 typeSet
 (
