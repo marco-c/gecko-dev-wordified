@@ -579,16 +579,6 @@ nsIPersistentProperties
 aAttributes
 )
 ;
-static
-nsIDOMNode
-*
-GetLastEventAtomicRegion
-(
-nsIDOMNode
-*
-aNode
-)
-;
 protected
 :
 already_AddRefed
