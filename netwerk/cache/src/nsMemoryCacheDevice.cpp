@@ -1384,7 +1384,6 @@ return
 rv
 ;
 }
-}
 /
 /
 add
@@ -1422,6 +1421,7 @@ EvictEntriesIfNecessary
 (
 )
 ;
+}
 return
 NS_OK
 ;
