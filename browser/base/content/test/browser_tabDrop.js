@@ -504,9 +504,10 @@ bad
 drop
 (
 "
-space
-bad
+search
+this
 "
+true
 )
 ;
 drop
