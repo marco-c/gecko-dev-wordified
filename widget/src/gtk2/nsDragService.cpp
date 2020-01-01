@@ -629,6 +629,13 @@ nsIDocument
 .
 h
 "
+#
+include
+"
+nsISelection
+.
+h
+"
 static
 PRLogModuleInfo
 *
