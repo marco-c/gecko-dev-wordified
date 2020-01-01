@@ -590,10 +590,8 @@ nsresult
 nsIconDecoder
 :
 :
-ShutdownInternal
+FinishInternal
 (
-PRUint32
-aFlags
 )
 {
 /
@@ -627,14 +625,6 @@ error
 mode
 if
 (
-!
-(
-aFlags
-&
-CLOSE_FLAG_DONTNOTIFY
-)
-&
-&
 !
 IsSizeDecode
 (

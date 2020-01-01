@@ -696,10 +696,8 @@ aCount
 ;
 virtual
 nsresult
-ShutdownInternal
+FinishInternal
 (
-PRUint32
-aFlags
 )
 ;
 void
