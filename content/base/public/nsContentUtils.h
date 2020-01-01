@@ -7225,9 +7225,8 @@ used
 to
 fill
 nsNativeKeyEvent
-*
-nsNativeKeyEvent
 .
+*
 It
 '
 s
@@ -7259,9 +7258,9 @@ static
 PRBool
 DOMEventToNativeKeyEvent
 (
-nsIDOMEvent
+nsIDOMKeyEvent
 *
-aDOMEvent
+aKeyEvent
 nsNativeKeyEvent
 *
 aNativeEvent
