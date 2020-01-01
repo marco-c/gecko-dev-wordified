@@ -1426,7 +1426,7 @@ get
 size
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Fingerprint
 too
@@ -1551,7 +1551,7 @@ else
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Invalid
 fingerprint

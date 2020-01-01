@@ -383,7 +383,7 @@ len
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 LAYER_INFO
 <
 <
@@ -409,7 +409,7 @@ peer_
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Discarding
 packet
@@ -474,7 +474,7 @@ len
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 LAYER_INFO
 <
 <
@@ -588,7 +588,7 @@ pop
 ;
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 LAYER_INFO
 <
 <

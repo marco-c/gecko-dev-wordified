@@ -521,7 +521,7 @@ TS_ERROR
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 id_
 +
 "
@@ -602,7 +602,7 @@ failed
 .
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 id_
 <
 <
@@ -812,7 +812,7 @@ empty
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 id_
 <
 <
@@ -860,7 +860,7 @@ TS_ERROR
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 id_
 <
 <
@@ -972,7 +972,7 @@ rv
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 id_
 <
 <

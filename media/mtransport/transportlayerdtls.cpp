@@ -281,7 +281,7 @@ UNIMPLEMENTED
 \
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 \
 "
 Call
@@ -1714,7 +1714,7 @@ rv
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -1749,7 +1749,7 @@ rv
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -1982,7 +1982,7 @@ downward_
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 DTLS
 layer
@@ -2016,7 +2016,7 @@ identity_
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Can
 '
@@ -2043,7 +2043,7 @@ VERIFY_UNSET
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Can
 '
@@ -2203,7 +2203,7 @@ CLIENT
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Setting
 up
@@ -2232,7 +2232,7 @@ SECSuccess
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -2251,7 +2251,7 @@ else
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Setting
 up
@@ -2295,7 +2295,7 @@ SECSuccess
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -2337,7 +2337,7 @@ SECSuccess
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -2370,7 +2370,7 @@ SECSuccess
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -2439,7 +2439,7 @@ SECSuccess
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Can
 '
@@ -2472,7 +2472,7 @@ SECSuccess
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -2506,7 +2506,7 @@ SECSuccess
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -2540,7 +2540,7 @@ SECSuccess
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -2573,7 +2573,7 @@ SECSuccess
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -2606,7 +2606,7 @@ SECSuccess
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -2640,7 +2640,7 @@ SECSuccess
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -2708,7 +2708,7 @@ SECSuccess
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -2755,7 +2755,7 @@ SECSuccess
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -2802,7 +2802,7 @@ SECSuccess
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -2907,7 +2907,7 @@ state_
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Lower
 layer
@@ -2954,7 +2954,7 @@ TS_INIT
 :
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 LAYER_INFO
 <
 <
@@ -2982,7 +2982,7 @@ TS_CONNECTING
 :
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 LAYER_INFO
 <
 <
@@ -3002,7 +3002,7 @@ TS_OPEN
 :
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 LAYER_INFO
 <
 <
@@ -3029,7 +3029,7 @@ TS_CLOSED
 :
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 LAYER_INFO
 <
 <
@@ -3054,7 +3054,7 @@ TS_ERROR
 :
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 LAYER_INFO
 <
 <
@@ -3120,7 +3120,7 @@ SECSuccess
 {
 MOZ_MTLOG
 (
-PR_LOG_NOTICE
+ML_NOTICE
 LAYER_INFO
 <
 <
@@ -3151,7 +3151,7 @@ cert_ok_
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 LAYER_INFO
 <
 <
@@ -3204,7 +3204,7 @@ DGRAM
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 LAYER_INFO
 <
 <
@@ -3225,7 +3225,7 @@ else
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 LAYER_INFO
 <
 <
@@ -3248,7 +3248,7 @@ PR_WOULD_BLOCK_ERROR
 :
 MOZ_MTLOG
 (
-PR_LOG_NOTICE
+ML_NOTICE
 LAYER_INFO
 <
 <
@@ -3297,7 +3297,7 @@ timeout
 ;
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 LAYER_INFO
 <
 <
@@ -3342,7 +3342,7 @@ default
 :
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 LAYER_INFO
 <
 <
@@ -3390,7 +3390,7 @@ CheckThread
 ;
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 LAYER_INFO
 <
 <
@@ -3424,7 +3424,7 @@ TS_OPEN
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 LAYER_INFO
 <
 <
@@ -3534,7 +3534,7 @@ have
 data
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 LAYER_INFO
 <
 <
@@ -3600,7 +3600,7 @@ gets
 ignored
 MOZ_MTLOG
 (
-PR_LOG_NOTICE
+ML_NOTICE
 LAYER_INFO
 <
 <
@@ -3616,7 +3616,7 @@ else
 {
 MOZ_MTLOG
 (
-PR_LOG_NOTICE
+ML_NOTICE
 LAYER_INFO
 <
 <
@@ -3667,7 +3667,7 @@ TS_OPEN
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 LAYER_INFO
 <
 <
@@ -3717,7 +3717,7 @@ have
 data
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 LAYER_INFO
 <
 <
@@ -3780,7 +3780,7 @@ gets
 ignored
 MOZ_MTLOG
 (
-PR_LOG_NOTICE
+ML_NOTICE
 LAYER_INFO
 <
 <
@@ -3797,7 +3797,7 @@ TE_WOULDBLOCK
 }
 MOZ_MTLOG
 (
-PR_LOG_NOTICE
+ML_NOTICE
 LAYER_INFO
 <
 <
@@ -3846,7 +3846,7 @@ pRetKey
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Server
 requested
@@ -3886,7 +3886,7 @@ identity_
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 No
 identity
@@ -4049,7 +4049,7 @@ SECSuccess
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 No
 SRTP
@@ -4151,7 +4151,7 @@ SECSuccess
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -4251,7 +4251,7 @@ computed_digest_len
 ;
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 LAYER_INFO
 <
 <
@@ -4301,7 +4301,7 @@ res
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Could
 not
@@ -4347,7 +4347,7 @@ len_
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Digest
 is
@@ -4411,7 +4411,7 @@ computed_digest_len
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Digest
 does
@@ -4738,7 +4738,7 @@ arg
 ;
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 DTLS
 timer

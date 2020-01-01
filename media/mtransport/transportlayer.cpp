@@ -240,7 +240,7 @@ id
 ;
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 LAYER_INFO
 <
 <
@@ -299,7 +299,7 @@ state_
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 LAYER_INFO
 <
 <

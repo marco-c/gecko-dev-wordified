@@ -684,7 +684,7 @@ rv
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Could
 not
@@ -740,7 +740,7 @@ r
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 nr_resolver_create_int
 failed
@@ -1010,7 +1010,7 @@ IPPROTO_UDP
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Only
 UDP
@@ -1082,7 +1082,7 @@ request_
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 AsyncResolve
 failed

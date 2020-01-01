@@ -1420,7 +1420,7 @@ potential_ct
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 select
 pair
@@ -1454,7 +1454,7 @@ stream
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 stream_ready
 called
@@ -1538,7 +1538,7 @@ stream
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 stream_failed
 called
@@ -1630,7 +1630,7 @@ pctx
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 ice_completed
 called
@@ -2426,7 +2426,7 @@ r
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -2644,7 +2644,7 @@ r
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -2710,7 +2710,7 @@ NrIceCtx
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Destroying
 ICE
@@ -2836,7 +2836,7 @@ ICE_CONTROLLING
 ;
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 ICE
 ctx
@@ -2953,7 +2953,7 @@ rv
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -3000,7 +3000,7 @@ r
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -3152,7 +3152,7 @@ rv
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -3199,7 +3199,7 @@ r
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -3277,7 +3277,7 @@ r
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -3337,7 +3337,7 @@ ICE_CTX_INIT
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 ICE
 ctx
@@ -3396,7 +3396,7 @@ R_WOULDBLOCK
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -3445,7 +3445,7 @@ EmitAllCandidates
 {
 MOZ_MTLOG
 (
-PR_LOG_NOTICE
+ML_NOTICE
 "
 Gathered
 all
@@ -3618,7 +3618,7 @@ r
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -3798,7 +3798,7 @@ r
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -3851,7 +3851,7 @@ r
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -3902,7 +3902,7 @@ R_NOT_FOUND
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -3930,7 +3930,7 @@ else
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -4040,7 +4040,7 @@ r
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -4086,7 +4086,7 @@ return
 ;
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 NrIceCtx
 (

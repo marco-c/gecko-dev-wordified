@@ -231,30 +231,6 @@ using
 namespace
 mozilla
 ;
-#
-ifdef
-DEBUG
-/
-/
-Dial
-up
-pipeline
-logging
-in
-debug
-mode
-#
-define
-MP_LOG_INFO
-PR_LOG_WARN
-#
-else
-#
-define
-MP_LOG_INFO
-PR_LOG_DEBUG
-#
-endif
 /
 /
 Logging
@@ -306,7 +282,7 @@ already
 .
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Destroying
 MediaPipeline
@@ -443,7 +419,7 @@ res
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Error
 calling
@@ -497,7 +473,7 @@ TS_ERROR
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 RTP
 transport
@@ -574,7 +550,7 @@ res
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Error
 calling
@@ -628,7 +604,7 @@ TS_ERROR
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 RTCP
 transport
@@ -764,7 +740,7 @@ TS_OPEN
 {
 MOZ_MTLOG
 (
-MP_LOG_INFO
+ML_DEBUG
 "
 Flow
 is
@@ -884,7 +860,7 @@ MP_CONNECTING
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Transport
 ready
@@ -927,7 +903,7 @@ res
 ;
 MOZ_MTLOG
 (
-MP_LOG_INFO
+ML_DEBUG
 "
 Transport
 ready
@@ -1037,7 +1013,7 @@ res
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Failed
 to
@@ -1112,7 +1088,7 @@ res
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Failed
 to
@@ -1384,7 +1360,7 @@ rtp_recv_srtp_
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -1435,7 +1411,7 @@ rtp_recv_srtp_
 ;
 MOZ_MTLOG
 (
-MP_LOG_INFO
+ML_DEBUG
 "
 Listening
 for
@@ -1485,7 +1461,7 @@ else
 {
 MOZ_MTLOG
 (
-MP_LOG_INFO
+ML_DEBUG
 "
 Listening
 for
@@ -1583,7 +1559,7 @@ rtcp_recv_srtp_
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -1607,7 +1583,7 @@ NS_ERROR_FAILURE
 }
 MOZ_MTLOG
 (
-MP_LOG_INFO
+ML_DEBUG
 "
 Listening
 for
@@ -1713,7 +1689,7 @@ MP_CLOSED
 ;
 MOZ_MTLOG
 (
-MP_LOG_INFO
+ML_DEBUG
 "
 Transport
 closed
@@ -1924,7 +1900,7 @@ NS_OK
 ;
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Failed
 write
@@ -1965,7 +1941,7 @@ rtp_packets_sent_
 {
 MOZ_MTLOG
 (
-MP_LOG_INFO
+ML_DEBUG
 "
 RTP
 sent
@@ -2043,7 +2019,7 @@ rtcp_packets_sent_
 {
 MOZ_MTLOG
 (
-MP_LOG_INFO
+ML_DEBUG
 "
 RTCP
 sent
@@ -2121,7 +2097,7 @@ rtp_packets_received_
 {
 MOZ_MTLOG
 (
-MP_LOG_INFO
+ML_DEBUG
 "
 RTP
 received
@@ -2199,7 +2175,7 @@ rtcp_packets_received_
 {
 MOZ_MTLOG
 (
-MP_LOG_INFO
+ML_DEBUG
 "
 RTCP
 received
@@ -2284,7 +2260,7 @@ pipeline
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Discarding
 incoming
@@ -2306,7 +2282,7 @@ conduit_
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Discarding
 incoming
@@ -2330,7 +2306,7 @@ MP_OPEN
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Discarding
 incoming
@@ -2363,7 +2339,7 @@ TS_OPEN
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Discarding
 incoming
@@ -2568,7 +2544,7 @@ pipeline
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Discarding
 incoming
@@ -2590,7 +2566,7 @@ conduit_
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Discarding
 incoming
@@ -2614,7 +2590,7 @@ MP_OPEN
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Discarding
 incoming
@@ -2647,7 +2623,7 @@ TS_OPEN
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Discarding
 incoming
@@ -3083,7 +3059,7 @@ pipeline
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Discarding
 incoming
@@ -3239,7 +3215,7 @@ for
 errors
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Attaching
 pipeline
@@ -3477,7 +3453,7 @@ rtp_send_srtp_
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Couldn
 '
@@ -3761,7 +3737,7 @@ rtcp_send_srtp_
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Couldn
 '
@@ -3965,7 +3941,7 @@ queued_media
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 MediaPipeline
 :
@@ -3984,7 +3960,7 @@ active_
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Discarding
 packets
@@ -4341,7 +4317,7 @@ AUDIO_FORMAT_FLOAT32
 :
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Can
 '
@@ -5103,7 +5079,7 @@ cbcrPlaneLen
 ;
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Sending
 a
@@ -5668,7 +5644,7 @@ the
 conduit
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Sending
 a
@@ -5709,7 +5685,7 @@ else
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Unsupported
 video
@@ -5749,7 +5725,7 @@ main_thread_
 ;
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 __FUNCTION__
 )
 ;
@@ -6013,7 +5989,7 @@ current_end
 {
 MOZ_MTLOG
 (
-MP_LOG_INFO
+ML_DEBUG
 "
 added
 track
@@ -6395,7 +6371,7 @@ source_
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 NotifyPull
 (
@@ -6618,7 +6594,7 @@ unlikely
 )
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Audio
 conduit
@@ -6715,7 +6691,7 @@ samples_length
 }
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Audio
 conduit
@@ -6803,7 +6779,7 @@ else
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 AppendToTrack
 failed
@@ -6871,7 +6847,7 @@ main_thread_
 ;
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 __FUNCTION__
 )
 ;
@@ -7477,7 +7453,7 @@ else
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 AppendToTrack
 failed
