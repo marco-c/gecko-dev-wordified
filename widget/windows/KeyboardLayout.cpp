@@ -726,6 +726,10 @@ aInputEvent
 ;
 break
 ;
+default
+:
+break
+;
 }
 }
 void

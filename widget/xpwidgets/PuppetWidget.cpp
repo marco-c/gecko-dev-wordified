@@ -1432,6 +1432,10 @@ NS_OK
 ;
 break
 ;
+default
+:
+break
+;
 }
 aStatus
 =

@@ -15658,6 +15658,12 @@ nullptr
 ;
 }
 }
+break
+;
+default
+:
+break
+;
 }
 rv
 =

@@ -4248,7 +4248,8 @@ aEvent
 )
 )
 ;
-}
+default
+:
 /
 /
 For
@@ -4271,6 +4272,7 @@ aPresContext
 aEvent
 )
 ;
+}
 }
 /
 /

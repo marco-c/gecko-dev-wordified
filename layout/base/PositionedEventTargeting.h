@@ -69,9 +69,13 @@ nsPoint
 .
 h
 "
-class
+#
+include
+"
 nsGUIEvent
-;
+.
+h
+"
 class
 nsIFrame
 ;
@@ -135,7 +139,7 @@ nsIFrame
 *
 FindFrameTargetedByInputEvent
 (
-uint8_t
+nsEventStructType
 aEventStructType
 nsIFrame
 *
