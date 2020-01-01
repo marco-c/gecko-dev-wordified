@@ -20529,12 +20529,6 @@ objp
 ;
 }
 static
-JSNewResolveOp
-resolver_resolve_check
-=
-resolver_resolve
-;
-static
 JSBool
 resolver_enumerate
 (
