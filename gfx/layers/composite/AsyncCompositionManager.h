@@ -226,10 +226,10 @@ ViewTransform
 {
 ViewTransform
 (
-LayoutDevicePoint
+LayerPoint
 aTranslation
 =
-LayoutDevicePoint
+LayerPoint
 (
 )
 LayoutDeviceToScreenScale
@@ -338,7 +338,7 @@ rhs
 )
 ;
 }
-LayoutDevicePoint
+LayerPoint
 mTranslation
 ;
 LayoutDeviceToScreenScale
