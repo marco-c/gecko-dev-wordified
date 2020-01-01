@@ -546,13 +546,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLSelectElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLOptionElement
 .
 h
@@ -2176,9 +2169,9 @@ focusedContent
 ;
 nsCOMPtr
 <
-nsIDOMNSHTMLSelectElement
+nsIDOMHTMLSelectElement
 >
-selectNSElement
+selectDOMElement
 (
 do_QueryInterface
 (
@@ -2188,7 +2181,7 @@ mContent
 ;
 NS_ASSERTION
 (
-selectNSElement
+selectDOMElement
 "
 Can
 '
@@ -2405,7 +2398,7 @@ if
 (
 NS_FAILED
 (
-selectNSElement
+selectDOMElement
 -
 >
 Item

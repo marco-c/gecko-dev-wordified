@@ -497,13 +497,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLSelectElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLFormElement
 .
 h
@@ -1407,8 +1400,6 @@ nsGenericHTMLFormElement
 public
 nsIDOMHTMLSelectElement
 public
-nsIDOMNSHTMLSelectElement
-public
 nsISelectElement
 {
 public
@@ -1467,10 +1458,6 @@ nsGenericHTMLFormElement
 /
 nsIDOMHTMLSelectElement
 NS_DECL_NSIDOMHTMLSELECTELEMENT
-/
-/
-nsIDOMNSHTMLSelectElement
-NS_DECL_NSIDOMNSHTMLSELECTELEMENT
 /
 /
 nsIContent
