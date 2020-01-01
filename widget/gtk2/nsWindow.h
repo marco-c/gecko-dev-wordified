@@ -1477,10 +1477,6 @@ aLEDState
 void
 ResizeTransparencyBitmap
 (
-int32_t
-aNewWidth
-int32_t
-aNewHeight
 )
 ;
 void
