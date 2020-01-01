@@ -1014,9 +1014,9 @@ input
 "
 static
 %
-s
+255s
 %
-s
+255s
 "
 varyingType
 varyingName
@@ -2026,10 +2026,10 @@ input
 "
 static
 %
-s
+255s
 _
 %
-s
+255s
 "
 attributeType
 attributeName
