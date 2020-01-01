@@ -333,10 +333,14 @@ buf
 int32_t
 ulen
 =
+text
+?
 NS_strlen
 (
 text
 )
+:
+0
 ;
 int32_t
 outlen
