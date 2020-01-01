@@ -122,7 +122,14 @@ android
 .
 graphics
 .
-*
+Bitmap
+;
+import
+android
+.
+graphics
+.
+BitmapFactory
 ;
 import
 android
@@ -150,7 +157,7 @@ java
 .
 net
 .
-*
+URL
 ;
 import
 java
