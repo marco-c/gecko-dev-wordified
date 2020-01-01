@@ -26,7 +26,7 @@ var
 summary
 =
 '
-BinaryData
+TypedObjects
 StructType
 structural
 assignment

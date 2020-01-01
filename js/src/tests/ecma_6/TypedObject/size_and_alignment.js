@@ -30,7 +30,7 @@ Size
 and
 Alignment
 of
-BinaryData
+TypedObjects
 types
 '
 ;

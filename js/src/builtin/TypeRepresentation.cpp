@@ -1462,7 +1462,7 @@ JS_ReportErrorNumber
 cx
 js_GetErrorMessage
 NULL
-JSMSG_BINARYDATA_TOO_BIG
+JSMSG_TYPEDOBJECT_TOO_BIG
 )
 ;
 return
@@ -1528,7 +1528,7 @@ JS_ReportErrorNumber
 cx
 js_GetErrorMessage
 NULL
-JSMSG_BINARYDATA_TOO_BIG
+JSMSG_TYPEDOBJECT_TOO_BIG
 )
 ;
 return
@@ -1561,7 +1561,7 @@ JS_ReportErrorNumber
 cx
 js_GetErrorMessage
 NULL
-JSMSG_BINARYDATA_TOO_BIG
+JSMSG_TYPEDOBJECT_TOO_BIG
 )
 ;
 return
@@ -2073,7 +2073,7 @@ JS_ReportErrorNumber
 cx
 js_GetErrorMessage
 NULL
-JSMSG_BINARYDATA_TOO_BIG
+JSMSG_TYPEDOBJECT_TOO_BIG
 )
 ;
 return

@@ -26,7 +26,7 @@ var
 summary
 =
 '
-BinaryData
+TypedObjects
 ArrayType
 implementation
 '

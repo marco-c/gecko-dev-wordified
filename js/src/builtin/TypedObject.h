@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-builtin_BinaryData_h
+builtin_TypedObject_h
 #
 define
-builtin_BinaryData_h
+builtin_TypedObject_h
 #
 include
 "
@@ -1321,6 +1321,6 @@ js
 endif
 /
 *
-builtin_BinaryData_h
+builtin_TypedObject_h
 *
 /

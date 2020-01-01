@@ -224,7 +224,7 @@ obj
 extern
 JSObject
 *
-js_InitBinaryDataClasses
+js_InitTypedObjectClasses
 (
 JSContext
 *
@@ -3046,7 +3046,7 @@ Implemented
 in
 builtin
 /
-BinaryData
+TypedObject
 .
 cpp
 static

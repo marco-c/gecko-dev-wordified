@@ -26,7 +26,7 @@ var
 summary
 =
 '
-BinaryData
+TypedObjects
 numeric
 types
 '
@@ -1510,7 +1510,7 @@ reportCompare
 0
 TestFailCount
 "
-BinaryData
+TypedObjects
 numeric
 type
 tests

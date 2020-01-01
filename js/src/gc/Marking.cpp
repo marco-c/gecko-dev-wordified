@@ -7414,7 +7414,7 @@ types
 TypeObjectAddendum
 :
 :
-BinaryData
+TypedObject
 :
 PushMarkStack
 (
@@ -7422,7 +7422,7 @@ gcmarker
 type
 -
 >
-binaryData
+typedObject
 (
 )
 -
@@ -7662,12 +7662,12 @@ types
 TypeObjectAddendum
 :
 :
-BinaryData
+TypedObject
 :
 type
 -
 >
-binaryData
+typedObject
 (
 )
 -
