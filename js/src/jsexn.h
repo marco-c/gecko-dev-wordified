@@ -547,7 +547,6 @@ set
 JS_FALSE
 otherwise
 .
-.
 *
 /
 extern

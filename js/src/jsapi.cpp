@@ -25303,6 +25303,7 @@ js_CompileScript
 (
 cx
 obj
+NULL
 principals
 tcflags
 chars
@@ -25429,6 +25430,7 @@ js_InitParseContext
 cx
 &
 pc
+NULL
 NULL
 chars
 length
@@ -25653,6 +25655,7 @@ js_CompileScript
 cx
 obj
 NULL
+NULL
 tcflags
 NULL
 0
@@ -25766,6 +25769,7 @@ js_CompileScript
 (
 cx
 obj
+NULL
 principals
 tcflags
 NULL
@@ -27414,6 +27418,7 @@ js_CompileScript
 (
 cx
 obj
+NULL
 principals
 !
 rval
@@ -31335,6 +31340,12 @@ reportp
 )
 {
 return
+cx
+-
+>
+fp
+&
+&
 js_ErrorToException
 (
 cx

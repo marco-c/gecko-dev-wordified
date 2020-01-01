@@ -5501,6 +5501,13 @@ scheme
 if
 (
 !
+cx
+-
+>
+fp
+|
+|
+!
 js_ErrorToException
 (
 cx
