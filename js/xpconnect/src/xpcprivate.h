@@ -7403,6 +7403,7 @@ are
 inlined
 .
 class
+MOZ_STACK_CLASS
 XPCCallContext
 :
 public
