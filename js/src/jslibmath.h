@@ -375,7 +375,12 @@ NaN
 endif
 )
 return
-js_NaN
+JS
+:
+:
+GenericNaN
+(
+)
 ;
 if
 (
@@ -437,7 +442,12 @@ b
 0
 )
 return
-js_NaN
+JS
+:
+:
+GenericNaN
+(
+)
 ;
 return
 js_fmod

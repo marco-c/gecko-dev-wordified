@@ -1277,6 +1277,17 @@ SpecificNaN
 ;
 MOZ_ASSERT
 (
+!
+IsNegativeZero
+(
+UnspecifiedNaN
+(
+)
+)
+)
+;
+MOZ_ASSERT
+(
 IsNegativeZero
 (
 -

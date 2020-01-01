@@ -218,6 +218,12 @@ mozilla
 :
 MoveRef
 ;
+using
+JS
+:
+:
+DoubleNaNValue
+;
 /
 *
 *
@@ -6214,9 +6220,8 @@ identically
 .
 value
 =
-DoubleValue
+DoubleNaNValue
 (
-js_NaN
 )
 ;
 }

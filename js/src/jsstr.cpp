@@ -5646,9 +5646,8 @@ rval
 (
 )
 .
-setDouble
+setNaN
 (
-js_NaN
 )
 ;
 return

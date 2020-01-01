@@ -157,6 +157,12 @@ using
 namespace
 js
 ;
+using
+JS
+:
+:
+GenericNaN
+;
 PropDesc
 :
 :
@@ -5919,7 +5925,9 @@ isUndefined
 {
 d
 =
-js_NaN
+GenericNaN
+(
+)
 ;
 }
 else
@@ -5958,7 +5966,9 @@ arrays
 )
 d
 =
-js_NaN
+GenericNaN
+(
+)
 ;
 }
 assign

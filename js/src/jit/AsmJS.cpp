@@ -362,6 +362,12 @@ mozilla
 :
 PositiveInfinity
 ;
+using
+JS
+:
+:
+GenericNaN
+;
 static
 const
 size_t
@@ -20237,7 +20243,9 @@ m
 addGlobalConstant
 (
 varName
-js_NaN
+GenericNaN
+(
+)
 field
 )
 ;
@@ -37915,7 +37923,9 @@ masm
 .
 ma_vimm
 (
-js_NaN
+GenericNaN
+(
+)
 NANReg
 )
 ;

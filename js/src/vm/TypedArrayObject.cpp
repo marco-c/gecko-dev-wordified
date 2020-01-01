@@ -390,6 +390,12 @@ mozilla
 :
 PodCopy
 ;
+using
+JS
+:
+:
+GenericNaN
+;
 /
 *
 *
@@ -7788,7 +7794,9 @@ isUndefined
 *
 d
 =
-js_NaN
+GenericNaN
+(
+)
 ;
 }
 else
@@ -7829,7 +7837,9 @@ arrays
 *
 d
 =
-js_NaN
+GenericNaN
+(
+)
 ;
 }
 #
@@ -14172,7 +14182,9 @@ ArrayTypeIsFloatingPoint
 ?
 NativeType
 (
-js_NaN
+GenericNaN
+(
+)
 )
 :
 NativeType

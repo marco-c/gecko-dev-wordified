@@ -155,6 +155,12 @@ js
 :
 jit
 ;
+using
+JS
+:
+:
+DoubleNaNValue
+;
 MDefinition
 *
 BoxInputsPolicy
@@ -4551,9 +4557,8 @@ MConstant
 :
 New
 (
-DoubleValue
+DoubleNaNValue
 (
-js_NaN
 )
 )
 ;
