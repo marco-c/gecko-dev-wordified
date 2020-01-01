@@ -1138,7 +1138,7 @@ finalizeKind
 JSFunction
 :
 :
-ExtendedFinalizeKind
+FinalizeKind
 ;
 gc
 :
@@ -1164,9 +1164,9 @@ isExtended
 (
 )
 ?
-finalizeKind
-:
 extendedFinalizeKind
+:
+finalizeKind
 ;
 return
 CloneFunctionObject
