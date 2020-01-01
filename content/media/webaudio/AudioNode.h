@@ -780,7 +780,7 @@ to
 1
 .
 virtual
-uint32_t
+uint16_t
 NumberOfInputs
 (
 )
@@ -791,7 +791,7 @@ return
 ;
 }
 virtual
-uint32_t
+uint16_t
 NumberOfOutputs
 (
 )

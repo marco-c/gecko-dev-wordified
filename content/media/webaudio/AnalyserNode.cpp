@@ -383,6 +383,7 @@ bool
 *
 aFinished
 )
+MOZ_OVERRIDE
 {
 *
 aOutput
