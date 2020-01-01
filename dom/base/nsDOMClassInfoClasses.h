@@ -1508,6 +1508,10 @@ DeviceStorage
 )
 DOMCI_CLASS
 (
+DeviceStorageChangeEvent
+)
+DOMCI_CLASS
+(
 DeviceStorageCursor
 )
 /
