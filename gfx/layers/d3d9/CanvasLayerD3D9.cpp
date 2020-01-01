@@ -1879,7 +1879,7 @@ SetShaderMode
 DeviceManagerD3D9
 :
 :
-RGBLAYER
+RGBALAYER
 )
 ;
 if
