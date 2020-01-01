@@ -1088,6 +1088,14 @@ JaegerTrampolineReturn
 )
 )
 ;
+f
+.
+regs
+.
+inlined
+=
+NULL
+;
 }
 extern
 "

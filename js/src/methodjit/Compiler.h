@@ -2929,14 +2929,6 @@ helpers
 .
 *
 /
-void
-restoreFrameRegs
-(
-Assembler
-&
-masm
-)
-;
 bool
 emitStubCmpOp
 (
