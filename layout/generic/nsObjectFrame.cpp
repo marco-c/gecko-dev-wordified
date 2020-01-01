@@ -5997,7 +5997,7 @@ aSnap
 *
 aSnap
 =
-false
+true
 ;
 return
 GetDisplayItemBounds

@@ -2376,7 +2376,7 @@ aSnap
 *
 aSnap
 =
-false
+true
 ;
 nsIFrame
 *
