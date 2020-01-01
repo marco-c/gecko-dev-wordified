@@ -6585,6 +6585,8 @@ bug
 #
 ifdef
 JS_VALGRIND
+JS_SILENCE_UNUSED_VALUE_IN_EXPR
+(
 VALGRIND_MAKE_MEM_DEFINED
 (
 &
@@ -6592,6 +6594,7 @@ w
 sizeof
 (
 w
+)
 )
 )
 ;
