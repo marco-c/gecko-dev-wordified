@@ -6831,7 +6831,7 @@ CPPONLY
 :
 pos
 =
-stateLoopReportTransitions
+stateLoop
 (
 state
 c
@@ -17319,9 +17319,7 @@ table
 /
 CPPONLY
 :
-mViewSource
-.
-CompletedNamedCharacterReference
+completedNamedCharacterReference
 (
 )
 ;
