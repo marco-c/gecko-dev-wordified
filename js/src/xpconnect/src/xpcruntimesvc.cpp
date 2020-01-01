@@ -582,7 +582,7 @@ in
 JSObjectPtr
 obj
 in
-JSVal
+jsval
 id
 in
 PRUint32

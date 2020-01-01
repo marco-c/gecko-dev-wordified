@@ -1754,7 +1754,7 @@ in
 nsIClassInfo
 aClassInfo
 in
-JSVal
+jsval
 aName
 inout
 voidPtr

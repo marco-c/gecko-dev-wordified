@@ -2670,7 +2670,7 @@ in
 JSObjectPtr
 obj
 in
-JSVal
+jsval
 id
 )
 ;
@@ -3027,7 +3027,7 @@ in
 JSObjectPtr
 obj
 in
-JSVal
+jsval
 val
 out
 PRBool
@@ -5240,7 +5240,7 @@ in
 JSObjectPtr
 obj
 in
-JSVal
+jsval
 val
 out
 PRBool

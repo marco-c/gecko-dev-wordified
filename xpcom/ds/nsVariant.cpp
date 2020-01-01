@@ -11858,7 +11858,7 @@ Can
 only
 get
 the
-JSVal
+jsval
 from
 an
 XPCVariant

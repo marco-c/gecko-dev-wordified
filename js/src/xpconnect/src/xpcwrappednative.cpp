@@ -2744,7 +2744,7 @@ are
 also
 nsIXPCScriptable
 helper
-implementations
+implmentations
 but
 the
 helper
@@ -17878,7 +17878,7 @@ XPCNativeInterface
 FindInterfaceWithMember
 (
 in
-JSVal
+jsval
 name
 )
 ;
@@ -17964,7 +17964,7 @@ XPCNativeInterface
 FindInterfaceWithName
 (
 in
-JSVal
+jsval
 name
 )
 ;
