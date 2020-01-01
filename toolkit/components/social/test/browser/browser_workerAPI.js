@@ -238,14 +238,13 @@ event
 )
 {
 let
-{
 topic
-data
-}
 =
 event
 .
 data
+.
+topic
 ;
 if
 (
