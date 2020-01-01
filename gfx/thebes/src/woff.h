@@ -490,6 +490,11 @@ unsigned
 int
 uint32_t
 ;
+typedef
+unsigned
+__int64
+uint64_t
+;
 #
 else
 #
