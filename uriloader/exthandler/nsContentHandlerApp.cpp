@@ -460,13 +460,6 @@ h
 #
 include
 "
-nsIGenericFactory
-.
-h
-"
-#
-include
-"
 nsIClassInfoImpl
 .
 h
@@ -485,7 +478,7 @@ nsString
 .
 h
 "
-NS_IMPL_ISUPPORTS1_CI
+NS_IMPL_ISUPPORTS1
 (
 nsContentHandlerApp
 nsIHandlerApp
@@ -858,7 +851,3 @@ return
 NS_OK
 ;
 }
-NS_DECL_CLASSINFO
-(
-nsContentHandlerApp
-)
