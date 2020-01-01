@@ -84,6 +84,11 @@ gView
 =
 null
 ;
+requestLongerTimeout
+(
+2
+)
+;
 function
 test
 (
