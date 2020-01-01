@@ -560,6 +560,9 @@ nsRawReader
 :
 ReadMetadata
 (
+nsVideoInfo
+*
+aInfo
 )
 {
 NS_ASSERTION
@@ -1032,6 +1035,11 @@ mFrameRate
 )
 ;
 }
+*
+aInfo
+=
+mInfo
+;
 return
 NS_OK
 ;
