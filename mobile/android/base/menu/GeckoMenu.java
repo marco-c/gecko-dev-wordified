@@ -664,7 +664,6 @@ mAdapter
 new
 MenuItemsAdapter
 (
-context
 )
 ;
 setAdapter
@@ -2450,8 +2449,6 @@ mItems
 public
 MenuItemsAdapter
 (
-Context
-context
 )
 {
 mItems
