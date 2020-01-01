@@ -876,10 +876,11 @@ NS_DECL_NSIACCESSIBLETABLECELL
 /
 nsAccessNode
 virtual
-PRBool
+bool
 IsDefunct
 (
 )
+const
 ;
 virtual
 PRBool

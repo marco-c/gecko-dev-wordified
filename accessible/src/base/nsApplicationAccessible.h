@@ -907,10 +907,11 @@ NS_DECL_NSIACCESSIBLEAPPLICATION
 /
 nsAccessNode
 virtual
-PRBool
+bool
 IsDefunct
 (
 )
+const
 ;
 virtual
 PRBool

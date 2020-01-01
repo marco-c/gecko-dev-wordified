@@ -1806,13 +1806,14 @@ NS_OK
 nsAccessNode
 public
 methods
-PRBool
+bool
 nsApplicationAccessible
 :
 :
 IsDefunct
 (
 )
+const
 {
 return
 nsAccessibilityService

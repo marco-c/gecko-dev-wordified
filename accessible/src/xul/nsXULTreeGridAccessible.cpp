@@ -6303,13 +6303,14 @@ nsXULTreeGridCellAccessible
 :
 nsAccessNode
 implementation
-PRBool
+bool
 nsXULTreeGridCellAccessible
 :
 :
 IsDefunct
 (
 )
+const
 {
 return
 nsLeafAccessible
