@@ -587,10 +587,11 @@ nsAutoPtr
 TextureD3D10BackendData
 >
 dat
-=
+(
 new
 TextureD3D10BackendData
 (
+)
 )
 ;
 dat
@@ -741,10 +742,11 @@ nsAutoPtr
 TextureD3D10BackendData
 >
 dat
-=
+(
 new
 TextureD3D10BackendData
 (
+)
 )
 ;
 dat
