@@ -1539,7 +1539,6 @@ layer
 .
 beginTransaction
 (
-null
 )
 ;
 }
@@ -1663,15 +1662,12 @@ public
 void
 beginTransaction
 (
-LayerView
-aView
 )
 {
 super
 .
 beginTransaction
 (
-aView
 )
 ;
 for
@@ -1686,7 +1682,6 @@ layer
 .
 beginTransaction
 (
-aView
 )
 ;
 }

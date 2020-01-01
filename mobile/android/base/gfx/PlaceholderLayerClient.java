@@ -714,11 +714,6 @@ tileLayer
 .
 beginTransaction
 (
-mLayerController
-.
-getView
-(
-)
 )
 ;
 try
