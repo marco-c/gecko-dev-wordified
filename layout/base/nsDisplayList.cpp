@@ -614,6 +614,10 @@ mAccurateVisibleRegions
 (
 PR_FALSE
 )
+mInTransform
+(
+PR_FALSE
+)
 {
 PL_InitArenaPool
 (
