@@ -8288,6 +8288,7 @@ NonGenericMethodGuard
 (
 cx
 args
+fun_subarray
 fastClass
 (
 )
@@ -8570,6 +8571,7 @@ NonGenericMethodGuard
 (
 cx
 args
+fun_set
 fastClass
 (
 )

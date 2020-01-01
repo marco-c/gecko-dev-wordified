@@ -15589,6 +15589,8 @@ JSContext
 cx
 CallArgs
 args
+Native
+native
 Class
 *
 clasp
@@ -15684,6 +15686,8 @@ JSContext
 cx
 CallArgs
 args
+Native
+native
 Class
 *
 clasp
@@ -15794,6 +15798,8 @@ JSContext
 cx
 CallArgs
 args
+Native
+native
 T
 *
 v

@@ -3701,6 +3701,7 @@ NonGenericMethodGuard
 (
 cx
 args
+regexp_toString
 &
 RegExpClass
 &
@@ -4121,13 +4122,6 @@ return
 true
 ;
 }
-enum
-ExecType
-{
-RegExpExec
-RegExpTest
-}
-;
 /
 *
 *
@@ -4196,8 +4190,8 @@ ExecuteRegExp
 JSContext
 *
 cx
-ExecType
-execType
+Native
+native
 uintN
 argc
 Value
@@ -4232,6 +4226,7 @@ NonGenericMethodGuard
 (
 cx
 args
+native
 &
 RegExpClass
 &
@@ -4528,10 +4523,10 @@ res
 input
 &
 lastIndexInt
-execType
+native
 =
 =
-RegExpTest
+js_regexp_test
 &
 args
 .
@@ -4650,7 +4645,7 @@ return
 ExecuteRegExp
 (
 cx
-RegExpExec
+js_regexp_exec
 argc
 vp
 )
@@ -4688,7 +4683,7 @@ if
 ExecuteRegExp
 (
 cx
-RegExpTest
+js_regexp_test
 argc
 vp
 )
@@ -5209,6 +5204,7 @@ NonGenericMethodGuard
 (
 cx
 args
+regexp_compile
 &
 RegExpClass
 &

@@ -791,6 +791,7 @@ NonGenericMethodGuard
 (
 cx
 args
+WeakMap_has
 &
 WeakMapClass
 &
@@ -959,6 +960,7 @@ NonGenericMethodGuard
 (
 cx
 args
+WeakMap_get
 &
 WeakMapClass
 &
@@ -1141,6 +1143,7 @@ NonGenericMethodGuard
 (
 cx
 args
+WeakMap_delete
 &
 WeakMapClass
 &
@@ -1317,6 +1320,7 @@ NonGenericMethodGuard
 (
 cx
 args
+WeakMap_set
 &
 WeakMapClass
 &

@@ -4647,7 +4647,7 @@ wrapper
 )
 -
 >
-isProxy
+isCrossCompartmentWrapper
 (
 )
 )

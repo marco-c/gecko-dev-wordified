@@ -9311,6 +9311,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_getTime
 &
 DateClass
 &
@@ -9376,6 +9377,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_getYear
 &
 DateClass
 &
@@ -9513,6 +9515,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_getFullYear
 &
 DateClass
 &
@@ -9594,6 +9597,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_getUTCFullYear
 &
 DateClass
 &
@@ -9685,6 +9689,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_getMonth
 &
 DateClass
 &
@@ -9766,6 +9771,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_getUTCMonth
 &
 DateClass
 &
@@ -9857,6 +9863,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_getDate
 &
 DateClass
 &
@@ -9938,6 +9945,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_getUTCDate
 &
 DateClass
 &
@@ -10029,6 +10037,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_getDay
 &
 DateClass
 &
@@ -10110,6 +10119,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_getUTCDay
 &
 DateClass
 &
@@ -10201,6 +10211,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_getHours
 &
 DateClass
 &
@@ -10282,6 +10293,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_getUTCHours
 &
 DateClass
 &
@@ -10373,6 +10385,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_getMinutes
 &
 DateClass
 &
@@ -10454,6 +10467,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_getUTCMinutes
 &
 DateClass
 &
@@ -10556,6 +10570,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_getUTCSeconds
 &
 DateClass
 &
@@ -10648,6 +10663,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_getUTCMilliseconds
 &
 DateClass
 &
@@ -10739,6 +10755,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_getTimezoneOffset
 &
 DateClass
 &
@@ -10881,6 +10898,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_setTime
 &
 DateClass
 &
@@ -10968,6 +10986,8 @@ date_makeTime
 JSContext
 *
 cx
+Native
+native
 uintN
 maxargs
 JSBool
@@ -10999,6 +11019,7 @@ NonGenericMethodGuard
 (
 cx
 args
+native
 &
 DateClass
 &
@@ -11520,6 +11541,7 @@ return
 date_makeTime
 (
 cx
+date_setMilliseconds
 1
 JS_TRUE
 argc
@@ -11545,6 +11567,7 @@ return
 date_makeTime
 (
 cx
+date_setUTCMilliseconds
 1
 JS_FALSE
 argc
@@ -11570,6 +11593,7 @@ return
 date_makeTime
 (
 cx
+date_setSeconds
 2
 JS_TRUE
 argc
@@ -11595,6 +11619,7 @@ return
 date_makeTime
 (
 cx
+date_setUTCSeconds
 2
 JS_FALSE
 argc
@@ -11620,6 +11645,7 @@ return
 date_makeTime
 (
 cx
+date_setMinutes
 3
 JS_TRUE
 argc
@@ -11645,6 +11671,7 @@ return
 date_makeTime
 (
 cx
+date_setUTCMinutes
 3
 JS_FALSE
 argc
@@ -11670,6 +11697,7 @@ return
 date_makeTime
 (
 cx
+date_setHours
 4
 JS_TRUE
 argc
@@ -11695,6 +11723,7 @@ return
 date_makeTime
 (
 cx
+date_setUTCHours
 4
 JS_FALSE
 argc
@@ -11709,6 +11738,8 @@ date_makeDate
 JSContext
 *
 cx
+Native
+native
 uintN
 maxargs
 JSBool
@@ -11740,6 +11771,7 @@ NonGenericMethodGuard
 (
 cx
 args
+native
 &
 DateClass
 &
@@ -12194,6 +12226,7 @@ return
 date_makeDate
 (
 cx
+date_setDate
 1
 JS_TRUE
 argc
@@ -12219,6 +12252,7 @@ return
 date_makeDate
 (
 cx
+date_setUTCDate
 1
 JS_FALSE
 argc
@@ -12244,6 +12278,7 @@ return
 date_makeDate
 (
 cx
+date_setMonth
 2
 JS_TRUE
 argc
@@ -12269,6 +12304,7 @@ return
 date_makeDate
 (
 cx
+date_setUTCMonth
 2
 JS_FALSE
 argc
@@ -12294,6 +12330,7 @@ return
 date_makeDate
 (
 cx
+date_setFullYear
 3
 JS_TRUE
 argc
@@ -12319,6 +12356,7 @@ return
 date_makeDate
 (
 cx
+date_setUTCFullYear
 3
 JS_FALSE
 argc
@@ -12360,6 +12398,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_setYear
 &
 DateClass
 &
@@ -12869,6 +12908,8 @@ date_utc_format
 JSContext
 *
 cx
+Native
+native
 CallArgs
 args
 void
@@ -12895,6 +12936,7 @@ NonGenericMethodGuard
 (
 cx
 args
+native
 &
 DateClass
 &
@@ -13032,6 +13074,7 @@ return
 date_utc_format
 (
 cx
+date_toGMTString
 CallArgsFromVp
 (
 argc
@@ -13059,6 +13102,7 @@ return
 date_utc_format
 (
 cx
+date_toISOString
 CallArgsFromVp
 (
 argc
@@ -14786,6 +14830,8 @@ argc
 Value
 *
 vp
+Native
+native
 const
 char
 *
@@ -14812,6 +14858,7 @@ NonGenericMethodGuard
 (
 cx
 args
+native
 &
 DateClass
 &
@@ -14838,11 +14885,13 @@ format
 }
 static
 JSBool
-date_toLocaleString
+date_toLocaleStringHelper
 (
 JSContext
 *
 cx
+Native
+native
 uintN
 argc
 Value
@@ -14903,6 +14952,7 @@ date_toLocaleHelper
 cx
 argc
 vp
+native
 #
 if
 defined
@@ -14929,6 +14979,30 @@ c
 "
 #
 endif
+)
+;
+}
+static
+JSBool
+date_toLocaleString
+(
+JSContext
+*
+cx
+uintN
+argc
+Value
+*
+vp
+)
+{
+return
+date_toLocaleStringHelper
+(
+cx
+date_toLocaleString
+argc
+vp
 )
 ;
 }
@@ -14999,6 +15073,7 @@ date_toLocaleHelper
 cx
 argc
 vp
+date_toLocaleDateString
 #
 if
 defined
@@ -15048,6 +15123,7 @@ date_toLocaleHelper
 cx
 argc
 vp
+date_toLocaleTimeString
 "
 %
 X
@@ -15077,9 +15153,10 @@ argc
 0
 )
 return
-date_toLocaleString
+date_toLocaleStringHelper
 (
 cx
+date_toLocaleFormat
 argc
 vp
 )
@@ -15104,6 +15181,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_toLocaleFormat
 &
 DateClass
 &
@@ -15212,6 +15290,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_toTimeString
 &
 DateClass
 &
@@ -15279,6 +15358,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_toDateString
 &
 DateClass
 &
@@ -15363,6 +15443,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_toSource
 &
 DateClass
 &
@@ -15534,6 +15615,7 @@ NonGenericMethodGuard
 (
 cx
 args
+date_toString
 &
 DateClass
 &
