@@ -539,7 +539,8 @@ PR_ASSERT
 (
 l
 <
-2147483647
+=
+PR_INT32_MAX
 )
 ;
 return
