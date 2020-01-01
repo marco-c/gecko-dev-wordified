@@ -18105,6 +18105,16 @@ mutation
 listeners
 now
 .
+if
+(
+aNode
+-
+>
+IsInDoc
+(
+)
+)
+{
 nsCOMPtr
 <
 nsPIDOMEventTarget
@@ -18167,6 +18177,7 @@ hasListeners
 return
 PR_TRUE
 ;
+}
 }
 }
 }
