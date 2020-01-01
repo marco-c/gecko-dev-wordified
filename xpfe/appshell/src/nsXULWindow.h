@@ -815,7 +815,7 @@ aDOMElement
 /
 /
 See
-nsIDocShellTreeOwner_MOZILLA_1_8_BRANCH
+nsIDocShellTreeOwner
 for
 docs
 on
