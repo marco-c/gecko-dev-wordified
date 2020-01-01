@@ -1403,6 +1403,9 @@ nsRestyleHint
 aRestyleHint
 nsChangeHint
 aChangeHint
+OverflowChangedTracker
+&
+aTracker
 )
 ;
 /
