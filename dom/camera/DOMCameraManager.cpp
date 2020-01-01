@@ -704,7 +704,7 @@ trigger
 the
 onSuccess
 handler
-nsCOMPtr
+nsRefPtr
 <
 nsDOMCameraControl
 >
@@ -729,7 +729,7 @@ Value
 )
 :
 nullptr
-mWindowId
+mWindow
 )
 ;
 Register
