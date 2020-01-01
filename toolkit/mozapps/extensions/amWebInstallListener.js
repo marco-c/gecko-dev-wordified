@@ -1833,8 +1833,7 @@ amIWebInstallListener
 )
 }
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

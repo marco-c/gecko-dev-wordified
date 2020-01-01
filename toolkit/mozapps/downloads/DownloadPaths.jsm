@@ -114,8 +114,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -207,8 +206,7 @@ Components
 .
 results
 ;
-this
-.
+const
 DownloadPaths
 =
 {

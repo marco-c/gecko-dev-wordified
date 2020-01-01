@@ -112,8 +112,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -2245,8 +2244,7 @@ null
 }
 }
 ;
-this
-.
+let
 IdentityService
 =
 new

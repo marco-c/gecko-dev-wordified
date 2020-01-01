@@ -93,8 +93,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -229,8 +228,7 @@ PlacesUtils
 }
 )
 ;
-this
-.
+var
 PlacesUIUtils
 =
 {

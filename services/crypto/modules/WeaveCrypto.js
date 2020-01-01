@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -244,10 +243,6 @@ INITIAL_BUFFER_SIZE
 =
 1024
 ;
-this
-.
-WeaveCrypto
-=
 function
 WeaveCrypto
 (

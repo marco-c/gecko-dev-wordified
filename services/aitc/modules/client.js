@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -362,10 +361,6 @@ object
 .
 *
 /
-this
-.
-AitcClient
-=
 function
 AitcClient
 (

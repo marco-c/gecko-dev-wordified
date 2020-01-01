@@ -81,8 +81,7 @@ Components
 .
 interfaces
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -105,8 +104,7 @@ objects
 to
 content
 .
-this
-.
+let
 ObjectWrapper
 =
 {

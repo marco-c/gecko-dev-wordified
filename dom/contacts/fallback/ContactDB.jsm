@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -180,10 +179,6 @@ STORE_NAME
 contacts
 "
 ;
-this
-.
-ContactDB
-=
 function
 ContactDB
 (

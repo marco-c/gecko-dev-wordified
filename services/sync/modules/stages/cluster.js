@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -168,10 +167,6 @@ in
 .
 *
 /
-this
-.
-ClusterManager
-=
 function
 ClusterManager
 (

@@ -1909,8 +1909,7 @@ s
 {
 }
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

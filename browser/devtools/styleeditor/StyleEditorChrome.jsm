@@ -79,8 +79,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -290,10 +289,6 @@ chrome
 .
 *
 /
-this
-.
-StyleEditorChrome
-=
 function
 StyleEditorChrome
 (

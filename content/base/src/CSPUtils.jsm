@@ -171,8 +171,7 @@ jsm
 /
 Module
 stuff
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -998,10 +997,6 @@ debug
 }
 }
 ;
-this
-.
-CSPdebug
-=
 function
 CSPdebug
 (
@@ -1513,10 +1508,6 @@ structure
 .
 *
 /
-this
-.
-CSPRep
-=
 function
 CSPRep
 (
@@ -5336,10 +5327,6 @@ of
 sources
 *
 /
-this
-.
-CSPSourceList
-=
 function
 CSPSourceList
 (
@@ -6853,10 +6840,6 @@ port
 )
 *
 /
-this
-.
-CSPSource
-=
 function
 CSPSource
 (
@@ -10337,10 +10320,6 @@ y
 .
 *
 /
-this
-.
-CSPHost
-=
 function
 CSPHost
 (
@@ -11563,10 +11542,6 @@ errors
 .
 *
 /
-this
-.
-CSPViolationReportListener
-=
 function
 CSPViolationReportListener
 (
@@ -12043,8 +12018,6 @@ aMessage
 /
 /
 /
-this
-.
 CSPLocalizer
 =
 {

@@ -178,8 +178,7 @@ jsm
 "
 )
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -693,8 +692,7 @@ break
 }
 }
 ;
-this
-.
+let
 IdentityStore
 =
 new

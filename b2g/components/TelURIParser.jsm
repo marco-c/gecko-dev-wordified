@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -88,8 +87,7 @@ sms
 URIs
 *
 /
-this
-.
+let
 TelURIParser
 =
 {

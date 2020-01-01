@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -191,8 +190,7 @@ js
 "
 )
 ;
-this
-.
+const
 TEST_SERVER_URL
 =
 "
@@ -206,8 +204,7 @@ localhost
 /
 "
 ;
-this
-.
+const
 TEST_CLUSTER_URL
 =
 TEST_SERVER_URL
@@ -265,10 +262,6 @@ autoConnect
 .
 *
 /
-this
-.
-waitForZeroTimer
-=
 function
 waitForZeroTimer
 (
@@ -324,10 +317,6 @@ timer
 )
 ;
 }
-this
-.
-setBasicCredentials
-=
 function
 setBasicCredentials
 (
@@ -390,10 +379,6 @@ syncKey
 syncKey
 ;
 }
-this
-.
-SyncTestingInfrastructure
-=
 function
 SyncTestingInfrastructure
 (
@@ -546,10 +531,6 @@ wire
 .
 *
 /
-this
-.
-encryptPayload
-=
 function
 encryptPayload
 (

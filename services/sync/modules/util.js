@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -220,7 +219,6 @@ async
 .
 js
 "
-this
 )
 ;
 Cu
@@ -278,7 +276,6 @@ XPCOMUtils
 .
 jsm
 "
-this
 )
 ;
 Cu
@@ -298,7 +295,6 @@ Services
 .
 jsm
 "
-this
 )
 ;
 Cu
@@ -318,7 +314,6 @@ PlacesUtils
 .
 jsm
 "
-this
 )
 ;
 Cu
@@ -338,7 +333,6 @@ NetUtil
 .
 jsm
 "
-this
 )
 ;
 Cu
@@ -358,7 +352,6 @@ FileUtils
 .
 jsm
 "
-this
 )
 ;
 /
@@ -368,8 +361,7 @@ Utility
 functions
 *
 /
-this
-.
+let
 Utils
 =
 {
@@ -3629,8 +3621,7 @@ used
 services
 *
 /
-this
-.
+let
 Svc
 =
 {
@@ -3922,8 +3913,7 @@ cryptoSvc
 }
 )
 ;
-this
-.
+let
 Str
 =
 {

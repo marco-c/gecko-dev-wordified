@@ -1729,8 +1729,7 @@ RecommendedSearchResults
 ;
 }
 }
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

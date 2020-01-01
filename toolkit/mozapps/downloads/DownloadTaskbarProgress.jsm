@@ -104,8 +104,7 @@ MPL
 .
 *
 /
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -314,8 +313,7 @@ taskbar
 /
 DownloadTaskbarProgress
 Object
-this
-.
+const
 DownloadTaskbarProgress
 =
 {

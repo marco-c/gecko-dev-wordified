@@ -141,8 +141,7 @@ jsm
 "
 )
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -200,8 +199,7 @@ Jones
 .
 *
 /
-this
-.
+const
 EPSILON
 =
 0
@@ -252,8 +250,7 @@ Vector
 .
 *
 /
-this
-.
+let
 vec3
 =
 {
@@ -3039,8 +3036,7 @@ Matrix
 .
 *
 /
-this
-.
+let
 mat3
 =
 {
@@ -4051,8 +4047,7 @@ Matrix
 .
 *
 /
-this
-.
+let
 mat4
 =
 {
@@ -12272,8 +12267,7 @@ Quaternion
 .
 *
 /
-this
-.
+let
 quat4
 =
 {
@@ -15441,8 +15435,7 @@ engine
 .
 *
 /
-this
-.
+let
 TiltMath
 =
 {

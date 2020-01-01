@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -92,8 +91,7 @@ jsm
 "
 )
 ;
-this
-.
+let
 UpdateChannel
 =
 {

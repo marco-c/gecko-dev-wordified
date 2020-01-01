@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -199,8 +198,7 @@ DOMApplicationRegistry
 }
 )
 ;
-this
-.
+let
 WebappRT
 =
 {

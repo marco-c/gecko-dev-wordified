@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -104,8 +103,7 @@ jsm
 "
 )
 ;
-this
-.
+let
 webrtcUI
 =
 {

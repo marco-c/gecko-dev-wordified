@@ -2980,8 +2980,7 @@ AutoCompleteCache
 BookmarkObserver
 ]
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

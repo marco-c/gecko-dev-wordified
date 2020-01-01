@@ -70,8 +70,7 @@ engines
 .
 *
 /
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -214,10 +213,6 @@ love
 .
 *
 /
-this
-.
-EngineSynchronizer
-=
 function
 EngineSynchronizer
 (

@@ -132,8 +132,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -417,8 +416,7 @@ vibration
 device
 -
 capabilities
-this
-.
+const
 PermissionsTable
 =
 {
@@ -1235,10 +1233,6 @@ Array
 *
 *
 /
-this
-.
-expandPermissions
-=
 function
 expandPermissions
 (
@@ -1535,9 +1529,7 @@ return
 expandedPerms
 ;
 }
-;
-this
-.
+let
 PermissionsInstaller
 =
 {
@@ -2268,4 +2260,3 @@ false
 ;
 }
 }
-;

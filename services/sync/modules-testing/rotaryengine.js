@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -175,10 +174,6 @@ implementations
 .
 *
 /
-this
-.
-RotaryRecord
-=
 function
 RotaryRecord
 (
@@ -223,10 +218,6 @@ denomination
 ]
 )
 ;
-this
-.
-RotaryStore
-=
 function
 RotaryStore
 (
@@ -504,10 +495,6 @@ items
 }
 }
 ;
-this
-.
-RotaryTracker
-=
 function
 RotaryTracker
 (
@@ -538,10 +525,6 @@ Tracker
 prototype
 }
 ;
-this
-.
-RotaryEngine
-=
 function
 RotaryEngine
 (

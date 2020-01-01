@@ -277,8 +277,7 @@ l10n
 STRINGS_URI
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -325,10 +324,6 @@ panel
 .
 *
 /
-this
-.
-NetworkPanel
-=
 function
 NetworkPanel
 (

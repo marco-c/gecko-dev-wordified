@@ -160,8 +160,7 @@ nsIMessageBroadcaster
 "
 )
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [

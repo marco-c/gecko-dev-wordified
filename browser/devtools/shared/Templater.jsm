@@ -127,8 +127,7 @@ License
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -416,10 +415,6 @@ by
 DOMTemplate
 *
 /
-this
-.
-template
-=
 function
 template
 (
@@ -484,10 +479,6 @@ options
 ;
 *
 /
-this
-.
-Templater
-=
 function
 Templater
 (

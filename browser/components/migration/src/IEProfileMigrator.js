@@ -4810,8 +4810,7 @@ b7ba
 "
 )
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

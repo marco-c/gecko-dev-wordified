@@ -638,8 +638,7 @@ nsIBlocklistPrompt
 )
 }
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

@@ -10317,8 +10317,6 @@ target
 More
 XPCOM
 Plumbing
-this
-.
 NSGetFactory
 =
 XPCOMUtils

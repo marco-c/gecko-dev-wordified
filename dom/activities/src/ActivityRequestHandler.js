@@ -497,8 +497,7 @@ Handler
 }
 )
 }
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

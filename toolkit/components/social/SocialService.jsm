@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -678,8 +677,7 @@ DISPATCH_NORMAL
 /
 Public
 API
-this
-.
+const
 SocialService
 =
 {

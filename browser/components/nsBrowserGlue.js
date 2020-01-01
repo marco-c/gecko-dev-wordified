@@ -13313,8 +13313,7 @@ BrowserGlue
 ContentPermissionPrompt
 ]
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

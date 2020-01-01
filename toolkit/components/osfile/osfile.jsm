@@ -82,8 +82,7 @@ undefined
 "
 )
 {
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -113,7 +112,6 @@ osfile_async_front
 .
 jsm
 "
-this
 )
 ;
 }

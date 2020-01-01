@@ -2478,8 +2478,7 @@ aStatusArg
 }
 }
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

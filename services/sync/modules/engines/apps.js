@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -206,10 +205,6 @@ jsm
 "
 )
 ;
-this
-.
-AppRec
-=
 function
 AppRec
 (
@@ -821,10 +816,6 @@ break
 }
 }
 }
-this
-.
-AppsEngine
-=
 function
 AppsEngine
 (

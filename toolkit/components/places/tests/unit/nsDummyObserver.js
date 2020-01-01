@@ -408,8 +408,7 @@ nsINavHistoryObserver
 )
 }
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

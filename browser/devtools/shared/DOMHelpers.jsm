@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -100,10 +99,6 @@ traverse
 .
 *
 /
-this
-.
-DOMHelpers
-=
 function
 DOMHelpers
 (

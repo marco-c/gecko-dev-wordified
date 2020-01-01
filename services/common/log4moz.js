@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -151,8 +150,7 @@ jsm
 "
 )
 ;
-this
-.
+let
 Log4Moz
 =
 {

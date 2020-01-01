@@ -102,8 +102,7 @@ Cu
 =
 Components
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -484,10 +483,6 @@ used
 .
 *
 /
-this
-.
-ServerBSO
-=
 function
 ServerBSO
 (
@@ -1651,10 +1646,6 @@ new_timestamp
 .
 *
 /
-this
-.
-StorageServerCollection
-=
 function
 StorageServerCollection
 (
@@ -5232,8 +5223,7 @@ appropriate
 .
 *
 /
-this
-.
+let
 StorageServerCallback
 =
 {
@@ -5342,10 +5332,6 @@ input
 .
 *
 /
-this
-.
-StorageServer
-=
 function
 StorageServer
 (
@@ -10410,10 +10396,6 @@ password
 .
 *
 /
-this
-.
-storageServerForUsers
-=
 function
 storageServerForUsers
 (

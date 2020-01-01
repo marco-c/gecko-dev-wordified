@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -151,10 +150,6 @@ js
 .
 btoa
 ;
-this
-.
-FakeFilesystemService
-=
 function
 FakeFilesystemService
 (
@@ -300,10 +295,6 @@ obj
 ;
 }
 ;
-this
-.
-fakeSHA256HMAC
-=
 function
 fakeSHA256HMAC
 (
@@ -340,10 +331,6 @@ return
 message
 ;
 }
-this
-.
-FakeGUIDService
-=
 function
 FakeGUIDService
 (
@@ -401,10 +388,6 @@ verbatim
 .
 *
 /
-this
-.
-FakeCryptoService
-=
 function
 FakeCryptoService
 (

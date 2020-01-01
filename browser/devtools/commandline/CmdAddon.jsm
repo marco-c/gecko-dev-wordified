@@ -71,8 +71,7 @@ Cu
 =
 Components
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -185,8 +184,7 @@ would
 remain
 undefined
 .
-this
-.
+let
 Flags
 =
 {

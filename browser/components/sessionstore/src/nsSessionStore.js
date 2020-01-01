@@ -317,8 +317,7 @@ nsISessionStore
 ]
 )
 ;
-this
-.
+let
 NSGetFactory
 =
 XPCOMUtils

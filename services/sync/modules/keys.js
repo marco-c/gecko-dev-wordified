@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -696,10 +695,6 @@ attached
 .
 *
 /
-this
-.
-BulkKeyBundle
-=
 function
 BulkKeyBundle
 (
@@ -1050,10 +1045,6 @@ thrown
 .
 *
 /
-this
-.
-SyncKeyBundle
-=
 function
 SyncKeyBundle
 (

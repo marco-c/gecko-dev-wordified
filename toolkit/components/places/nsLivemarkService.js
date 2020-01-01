@@ -8273,8 +8273,7 @@ nsIInterfaceRequestor
 ]
 )
 }
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

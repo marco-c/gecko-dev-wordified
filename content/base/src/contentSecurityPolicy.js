@@ -4007,8 +4007,7 @@ NS_BINDING_REDIRECTED
 }
 }
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

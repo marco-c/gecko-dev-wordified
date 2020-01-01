@@ -119,8 +119,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -751,8 +750,7 @@ interface
 .
 *
 /
-this
-.
+const
 DownloadsCommon
 =
 {

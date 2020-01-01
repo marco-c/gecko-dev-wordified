@@ -67,8 +67,7 @@ clients
 and
 workers
 .
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -77,10 +76,6 @@ AbstractPort
 "
 ]
 ;
-this
-.
-AbstractPort
-=
 function
 AbstractPort
 (
@@ -122,7 +117,6 @@ _pendingMessagesIncoming
 ]
 ;
 }
-;
 AbstractPort
 .
 prototype
@@ -738,4 +732,3 @@ null
 ;
 }
 }
-;

@@ -203,8 +203,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -213,10 +212,6 @@ LayoutView
 "
 ]
 ;
-this
-.
-LayoutView
-=
 function
 LayoutView
 (

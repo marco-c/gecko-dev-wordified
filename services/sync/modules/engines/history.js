@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -239,10 +238,6 @@ js
 "
 )
 ;
-this
-.
-HistoryRec
-=
 function
 HistoryRec
 (
@@ -305,10 +300,6 @@ visits
 ]
 )
 ;
-this
-.
-HistoryEngine
-=
 function
 HistoryEngine
 (

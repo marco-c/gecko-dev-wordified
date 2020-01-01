@@ -193,8 +193,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -923,10 +922,6 @@ object
 aWindow
 *
 /
-this
-.
-Highlighter
-=
 function
 Highlighter
 (

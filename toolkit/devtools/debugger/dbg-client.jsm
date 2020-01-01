@@ -145,8 +145,7 @@ Components
 .
 results
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1298,10 +1297,6 @@ API
 .
 *
 /
-this
-.
-DebuggerClient
-=
 function
 DebuggerClient
 (
@@ -7382,10 +7377,6 @@ server
 .
 *
 /
-this
-.
-debuggerSocketConnect
-=
 function
 debuggerSocketConnect
 (

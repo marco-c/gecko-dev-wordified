@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -223,10 +222,6 @@ delay
 .
 *
 /
-this
-.
-DeferredTask
-=
 function
 DeferredTask
 (

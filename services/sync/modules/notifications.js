@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -157,8 +156,7 @@ js
 "
 )
 ;
-this
-.
+let
 Notifications
 =
 {
@@ -628,10 +626,6 @@ notifications
 .
 *
 /
-this
-.
-Notification
-=
 function
 Notification
 (
@@ -774,10 +768,6 @@ notification
 .
 *
 /
-this
-.
-NotificationButton
-=
 function
 NotificationButton
 (

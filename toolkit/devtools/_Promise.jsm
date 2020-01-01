@@ -41,8 +41,7 @@ BSD
 Clause
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -75,10 +74,6 @@ value
 constructor
 *
 /
-this
-.
-Promise
-=
 function
 Promise
 (

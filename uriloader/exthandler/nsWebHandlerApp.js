@@ -1517,8 +1517,6 @@ nsIHandlerApp
 /
 /
 Module
-this
-.
 NSGetFactory
 =
 XPCOMUtils
