@@ -3826,6 +3826,15 @@ nsIPermissionManager
 :
 :
 ALLOW_ACTION
+|
+|
+perm
+=
+=
+nsIOfflineCacheUpdateService
+:
+:
+ALLOW_NO_WARN
 )
 {
 *
