@@ -463,6 +463,9 @@ void
 *
 *
 bp
+void
+*
+stackEnd
 )
 ;
 }
