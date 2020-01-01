@@ -1752,6 +1752,8 @@ getter_AddRefs
 (
 mAudioPlaybackThread
 )
+nsnull
+MEDIA_THREAD_STACK_SIZE
 )
 ;
 }
