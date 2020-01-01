@@ -64,6 +64,9 @@ CRASH_RUNTIMEABORT
 CRASH_OOM
 :
 3
+CRASH_MOZ_CRASH
+:
+4
 /
 /
 Constants
