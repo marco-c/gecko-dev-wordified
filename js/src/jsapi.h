@@ -15925,7 +15925,7 @@ cx
 JSObject
 *
 obj
-jsint
+uint32
 index
 jsval
 value
