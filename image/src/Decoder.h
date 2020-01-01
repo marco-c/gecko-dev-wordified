@@ -233,6 +233,9 @@ uint32_t
 colormap
 uint32_t
 colormapSize
+imgFrame
+*
+currentFrame
 )
 ;
 /
@@ -1397,6 +1400,10 @@ variables
 RasterImage
 &
 mImage
+;
+imgFrame
+*
+mCurrentFrame
 ;
 RefPtr
 <

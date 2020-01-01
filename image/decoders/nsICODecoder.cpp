@@ -2030,6 +2030,7 @@ mImageData
 mImageDataLength
 mColormap
 mColormapSize
+mCurrentFrame
 )
 ;
 if
@@ -2579,6 +2580,7 @@ mImageData
 mImageDataLength
 mColormap
 mColormapSize
+mCurrentFrame
 )
 ;
 /
