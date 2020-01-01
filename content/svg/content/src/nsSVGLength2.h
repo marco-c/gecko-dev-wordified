@@ -769,6 +769,16 @@ mSpecifiedUnitType
 )
 ;
 }
+bool
+HasBaseVal
+(
+)
+const
+{
+return
+mIsBaseSet
+;
+}
 /
 /
 Returns
