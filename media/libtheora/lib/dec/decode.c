@@ -15126,7 +15126,7 @@ _strong
 static
 const
 int
-MOD_MAX
+OCDB_MOD_MAX
 [
 2
 ]
@@ -15139,7 +15139,7 @@ MOD_MAX
 static
 const
 int
-MOD_SHIFT
+OCDB_MOD_SHIFT
 [
 2
 ]
@@ -15200,7 +15200,7 @@ OC_MINI
 3
 *
 _dc_scale
-MOD_MAX
+OCDB_MOD_MAX
 [
 _strong
 ]
@@ -15284,7 +15284,7 @@ bx
 )
 <
 <
-MOD_SHIFT
+OCDB_MOD_SHIFT
 [
 _strong
 ]
@@ -15410,7 +15410,7 @@ psrc
 )
 <
 <
-MOD_SHIFT
+OCDB_MOD_SHIFT
 [
 _strong
 ]
