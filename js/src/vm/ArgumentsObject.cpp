@@ -490,6 +490,8 @@ frame
 void
 copyArgs
 (
+JSContext
+*
 HeapValue
 *
 dst
@@ -577,6 +579,9 @@ iter
 void
 copyArgs
 (
+JSContext
+*
+cx
 HeapValue
 *
 dstBase
@@ -618,6 +623,7 @@ iter_
 .
 ionForEachCanonicalActualArg
 (
+cx
 CopyToHeap
 (
 dstBase
@@ -1041,6 +1047,7 @@ copy
 .
 copyArgs
 (
+cx
 dst
 )
 ;

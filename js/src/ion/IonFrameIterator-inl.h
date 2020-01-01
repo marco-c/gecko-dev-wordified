@@ -333,6 +333,9 @@ InlineFrameIterator
 :
 forEachCanonicalActualArg
 (
+JSContext
+*
+cx
 Op
 op
 unsigned
@@ -463,6 +466,7 @@ JSOP_SETARG
 InlineFrameIterator
 it
 (
+cx
 this
 )
 ;

@@ -3862,6 +3862,9 @@ StackIter
 :
 ionForEachCanonicalActualArg
 (
+JSContext
+*
+cx
 Op
 op
 )
@@ -3880,6 +3883,7 @@ ionInlineFrames_
 .
 forEachCanonicalActualArg
 (
+cx
 op
 0
 -
