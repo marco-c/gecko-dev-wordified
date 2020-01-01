@@ -2518,6 +2518,10 @@ WebGLenum
 usage
 )
 {
+InvalidateCachedMinInUseAttribArrayLength
+(
+)
+;
 if
 (
 !
@@ -2715,6 +2719,10 @@ WebGLenum
 usage
 )
 {
+InvalidateCachedMinInUseAttribArrayLength
+(
+)
+;
 if
 (
 !
@@ -2957,6 +2965,10 @@ WebGLenum
 usage
 )
 {
+InvalidateCachedMinInUseAttribArrayLength
+(
+)
+;
 if
 (
 !
@@ -7602,6 +7614,10 @@ WebGLuint
 index
 )
 {
+InvalidateCachedMinInUseAttribArrayLength
+(
+)
+;
 if
 (
 !
@@ -10322,6 +10338,10 @@ WebGLuint
 index
 )
 {
+InvalidateCachedMinInUseAttribArrayLength
+(
+)
+;
 if
 (
 !
@@ -19176,6 +19196,10 @@ ErrorResult
 rv
 )
 {
+InvalidateCachedMinInUseAttribArrayLength
+(
+)
+;
 if
 (
 !
@@ -26129,6 +26153,10 @@ WebGLProgram
 prog
 )
 {
+InvalidateCachedMinInUseAttribArrayLength
+(
+)
+;
 if
 (
 !
@@ -29574,6 +29602,10 @@ WebGLintptr
 byteOffset
 )
 {
+InvalidateCachedMinInUseAttribArrayLength
+(
+)
+;
 if
 (
 !
