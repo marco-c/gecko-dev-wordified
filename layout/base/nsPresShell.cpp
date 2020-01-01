@@ -27462,7 +27462,6 @@ Invalidate
 rect
 )
 ;
-}
 mPresContext
 -
 >
@@ -27476,6 +27475,7 @@ UpdatePluginGeometry
 rootFrame
 )
 ;
+}
 /
 /
 now
