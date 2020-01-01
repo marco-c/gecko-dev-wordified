@@ -1160,6 +1160,11 @@ Start
 (
 )
 ;
+void
+Join
+(
+)
+;
 inline
 const
 char
