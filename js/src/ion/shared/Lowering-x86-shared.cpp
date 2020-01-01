@@ -435,6 +435,7 @@ Bailout_RecompileCheck
 add
 (
 lir
+ins
 )
 ;
 }

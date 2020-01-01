@@ -1167,6 +1167,17 @@ JSScript
 script
 )
 ;
+uint32_t
+UsesBeforeIonRecompile
+(
+JSScript
+*
+script
+jsbytecode
+*
+pc
+)
+;
 }
 /
 /
