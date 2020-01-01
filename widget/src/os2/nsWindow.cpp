@@ -28056,7 +28056,6 @@ the
 current
 time
 .
-*
 aHasPending
 =
 !
