@@ -51488,12 +51488,12 @@ t
 >
 mTimeRemaining
 =
-now
--
 t
 -
 >
 mWhen
+-
+now
 ;
 else
 t
