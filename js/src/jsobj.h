@@ -3113,9 +3113,6 @@ js_PutBlockObject
 JSContext
 *
 cx
-JSObject
-*
-obj
 JSBool
 normalUnwind
 )
