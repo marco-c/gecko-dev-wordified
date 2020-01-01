@@ -741,10 +741,6 @@ friend
 class
 nsDiskCacheDeviceDeactivateEntryEvent
 ;
-friend
-class
-nsEvictDiskCacheEntriesEvent
-;
 /
 *
 *
