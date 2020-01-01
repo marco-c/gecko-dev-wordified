@@ -1695,6 +1695,11 @@ nsAHttpConnection
 *
 )
 ;
+PRBool
+MustValidateBasedOnQueryUrl
+(
+)
+;
 private
 :
 nsCOMPtr
