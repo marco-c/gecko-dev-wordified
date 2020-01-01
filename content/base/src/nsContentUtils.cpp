@@ -25382,6 +25382,9 @@ sRunnersCountAtFirstBlocker
 PRUint32
 lastBlocker
 =
+(
+PRUint32
+)
 sBlockedScriptRunners
 -
 >
