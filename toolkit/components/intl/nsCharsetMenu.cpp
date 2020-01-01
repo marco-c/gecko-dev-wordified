@@ -7397,8 +7397,10 @@ mCharset
 =
 aCharset
 ;
-res
-=
+if
+(
+NS_FAILED
+(
 mCCManager
 -
 >
@@ -7414,12 +7416,6 @@ item
 >
 mTitle
 )
-;
-if
-(
-NS_FAILED
-(
-res
 )
 )
 {
