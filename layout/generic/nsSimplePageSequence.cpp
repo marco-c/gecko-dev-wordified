@@ -4273,7 +4273,7 @@ IsAlive
 }
 }
 }
-int32_t
+uint32_t
 doneCounter
 =
 0
