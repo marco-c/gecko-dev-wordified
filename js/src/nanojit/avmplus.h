@@ -594,6 +594,8 @@ p
 )
 +
 kNativePageSize
+-
+1
 )
 )
 &
@@ -666,6 +668,13 @@ void
 p
 )
 {
+/
+/
+free
+(
+p
+)
+;
 }
 static
 inline
