@@ -6080,6 +6080,14 @@ recursion
 bool
 generatingError
 ;
+#
+ifdef
+DEBUG
+bool
+rootingUnnecessary
+;
+#
+endif
 /
 *
 GC
