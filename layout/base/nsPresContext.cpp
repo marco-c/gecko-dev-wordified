@@ -14939,7 +14939,10 @@ builder
 closure
 .
 mRootFrame
-PR_FALSE
+nsDisplayListBuilder
+:
+:
+PLUGIN_GEOMETRY
 PR_FALSE
 )
 ;
