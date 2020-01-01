@@ -448,13 +448,6 @@ nsIStringBundle
 h
 "
 #
-include
-"
-nsISupportsArray
-.
-h
-"
-#
 ifdef
 MOZ_USE_NATIVE_UCONV
 #
