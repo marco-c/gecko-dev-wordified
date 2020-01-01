@@ -4713,7 +4713,7 @@ const
 IPC
 :
 :
-URI
+Principal
 &
 )
 {

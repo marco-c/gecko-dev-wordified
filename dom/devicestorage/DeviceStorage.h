@@ -79,6 +79,13 @@ h
 #
 include
 "
+nsIPrincipal
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
@@ -235,9 +242,9 @@ mFile
 ;
 nsCOMPtr
 <
-nsIURI
+nsIPrincipal
 >
-mURI
+mPrincipal
 ;
 friend
 class

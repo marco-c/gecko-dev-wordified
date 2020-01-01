@@ -148,11 +148,11 @@ Services
 .
 perms
 .
-testExactPermission
+testExactPermissionFromPrincipal
 (
 request
 .
-uri
+principal
 request
 .
 type
@@ -380,7 +380,9 @@ url
 :
 request
 .
-uri
+principal
+.
+URI
 .
 spec
 }

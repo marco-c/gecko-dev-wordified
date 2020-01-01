@@ -145,6 +145,13 @@ h
 #
 include
 "
+nsIPrincipal
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -481,9 +488,9 @@ nsDOMDeviceStorageCursor
 nsIDOMWindow
 *
 aWindow
-nsIURI
+nsIPrincipal
 *
-aURI
+aPrincipal
 DeviceStorageFile
 *
 aFile
@@ -537,9 +544,9 @@ mFile
 ;
 nsCOMPtr
 <
-nsIURI
+nsIPrincipal
 >
-mURI
+mPrincipal
 ;
 }
 ;
