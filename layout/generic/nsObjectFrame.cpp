@@ -21937,11 +21937,6 @@ EndDrawPlugin
 ;
 }
 }
-StartTimer
-(
-PR_TRUE
-)
-;
 #
 endif
 return
