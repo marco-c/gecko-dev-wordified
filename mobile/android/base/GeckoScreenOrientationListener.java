@@ -559,8 +559,9 @@ GeckoAppShell
 .
 sendEventToGecko
 (
-new
 GeckoEvent
+.
+createScreenOrientationEvent
 (
 mOrientation
 )
