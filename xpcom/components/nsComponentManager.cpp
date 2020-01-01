@@ -4995,6 +4995,12 @@ Clear
 (
 )
 ;
+delete
+sStaticModules
+;
+delete
+sModuleLocations
+;
 /
 /
 Unload
