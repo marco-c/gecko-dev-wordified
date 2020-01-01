@@ -3197,7 +3197,7 @@ _setupPrompt
 (
 doc
 "
-prompt
+confirm
 "
 aTitle
 aText
