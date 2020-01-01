@@ -3052,8 +3052,6 @@ discardJitCode
 FreeOp
 *
 fop
-bool
-discardConstraints
 )
 {
 #
@@ -3308,7 +3306,6 @@ types
 sweepCompilerOutputs
 (
 fop
-discardConstraints
 )
 ;
 }
@@ -3380,12 +3377,6 @@ PHASE_SWEEP_DISCARD_CODE
 discardJitCode
 (
 fop
-!
-activeAnalysis
-&
-&
-!
-gcPreserveCode
 )
 ;
 }
@@ -3545,14 +3536,6 @@ activeAnalysis
 gcPreserveCode
 )
 {
-JS_ASSERT
-(
-!
-types
-.
-constrainedOutputs
-)
-;
 gcstats
 :
 :
