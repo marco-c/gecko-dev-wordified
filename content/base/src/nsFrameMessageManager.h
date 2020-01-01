@@ -583,7 +583,7 @@ const
 nsAString
 &
 aJSON
-nsTArray
+InfallibleTArray
 <
 nsString
 >
@@ -916,7 +916,7 @@ aJSON
 JSObject
 *
 aObjectsArray
-nsTArray
+InfallibleTArray
 <
 nsString
 >

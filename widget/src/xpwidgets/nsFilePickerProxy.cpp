@@ -938,7 +938,7 @@ NULL
 "
 )
 ;
-nsTArray
+InfallibleTArray
 <
 nsString
 >

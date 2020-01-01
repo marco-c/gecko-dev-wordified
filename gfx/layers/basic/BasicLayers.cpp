@@ -13024,7 +13024,7 @@ changeset
 to
 our
 ShadowLayerManager
-nsAutoTArray
+AutoInfallibleTArray
 <
 EditReply
 10

@@ -1080,7 +1080,7 @@ nsString
 &
 messageName
 const
-nsTArray
+InfallibleTArray
 <
 Variant
 >
@@ -1291,7 +1291,7 @@ MessageResult
 nsString
 msgName
 ;
-nsTArray
+InfallibleTArray
 <
 Variant
 >
@@ -1615,7 +1615,7 @@ smr
 return
 JS_FALSE
 ;
-nsTArray
+InfallibleTArray
 <
 Variant
 >

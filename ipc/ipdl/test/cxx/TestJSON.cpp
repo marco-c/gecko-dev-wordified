@@ -61,7 +61,7 @@ str
 ;
 }
 static
-nsTArray
+InfallibleTArray
 <
 JSONVariant
 >
@@ -69,7 +69,7 @@ Array123
 (
 )
 {
-nsTArray
+InfallibleTArray
 <
 JSONVariant
 >
@@ -230,7 +230,7 @@ array
 ]
 /
 /
-nsTArray
+InfallibleTArray
 <
 JSONVariant
 >
@@ -299,7 +299,7 @@ Array123
 )
 )
 ;
-nsTArray
+InfallibleTArray
 <
 KeyValue
 >

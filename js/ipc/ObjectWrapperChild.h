@@ -798,7 +798,7 @@ PObjectWrapperChild
 *
 receiver
 const
-nsTArray
+InfallibleTArray
 <
 JSVariant
 >
@@ -816,7 +816,7 @@ bool
 AnswerConstruct
 (
 const
-nsTArray
+InfallibleTArray
 <
 JSVariant
 >

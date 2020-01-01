@@ -961,7 +961,7 @@ XRE_GetProcessType
 GeckoProcessType_Content
 )
 {
-nsTArray
+InfallibleTArray
 <
 PrefTuple
 >
@@ -2079,6 +2079,7 @@ MirrorPreferences
 nsTArray
 <
 PrefTuple
+nsTArrayInfallibleAllocator
 >
 *
 aArray

@@ -1460,7 +1460,7 @@ from
 the
 parent
 process
-nsTArray
+InfallibleTArray
 <
 IPC
 :

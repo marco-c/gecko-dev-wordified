@@ -3709,7 +3709,7 @@ GetGlobalObjectWrapper
 )
 ;
 }
-nsTArray
+InfallibleTArray
 <
 JSVariant
 >
@@ -3892,7 +3892,7 @@ cx
 constructor
 )
 ;
-nsTArray
+InfallibleTArray
 <
 JSVariant
 >

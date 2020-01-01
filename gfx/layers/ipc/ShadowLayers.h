@@ -1691,7 +1691,7 @@ EndTransaction
 PRBool
 EndTransaction
 (
-nsTArray
+InfallibleTArray
 <
 EditReply
 >

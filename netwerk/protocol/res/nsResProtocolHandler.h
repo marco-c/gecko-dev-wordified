@@ -578,7 +578,7 @@ MOZ_IPC
 void
 CollectSubstitutions
 (
-nsTArray
+InfallibleTArray
 <
 ResourceMapping
 >

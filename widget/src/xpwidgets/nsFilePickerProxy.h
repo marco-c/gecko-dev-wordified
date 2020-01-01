@@ -724,13 +724,13 @@ mDefault
 nsString
 mDefaultExtension
 ;
-nsTArray
+InfallibleTArray
 <
 nsString
 >
 mFilters
 ;
-nsTArray
+InfallibleTArray
 <
 nsString
 >

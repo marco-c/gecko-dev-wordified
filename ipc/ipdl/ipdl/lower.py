@@ -2363,7 +2363,7 @@ would
 turn
 into
 |
-nsTArray
+Array
 <
 ActorParent
 *
@@ -2557,7 +2557,7 @@ return
 Type
 (
 '
-nsTArray
+InfallibleTArray
 '
 T
 =

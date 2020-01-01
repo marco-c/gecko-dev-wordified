@@ -646,7 +646,7 @@ TabParent
 :
 GetGlobalJSObject
 .
-nsTArray
+InfallibleTArray
 <
 PContextWrapperParent
 *
