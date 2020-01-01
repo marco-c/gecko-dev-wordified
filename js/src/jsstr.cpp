@@ -10896,8 +10896,7 @@ BuildGlobalMatchArray
 JSContext
 *
 cx
-JSString
-*
+HandleString
 matchesInput
 const
 MatchPair
@@ -11019,8 +11018,11 @@ cx
 RegExpStatics
 *
 res
+Handle
+<
 JSLinearString
 *
+>
 linearPtr
 RegExpShared
 &
