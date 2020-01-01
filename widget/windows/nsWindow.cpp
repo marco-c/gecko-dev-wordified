@@ -8644,6 +8644,14 @@ Invalidate
 if
 (
 syncInvalidate
+&
+&
+!
+mInDtor
+&
+&
+!
+mOnDestroyCalled
 )
 {
 :
