@@ -13821,6 +13821,7 @@ group
 newGroup
 :
 function
+GroupItems_newGroup
 (
 )
 {
