@@ -9189,6 +9189,11 @@ SaveSentMessage
 ;
 AutoLocalJNIFrame
 jniFrame
+(
+GetJNIForThread
+(
+)
+)
 ;
 jstring
 jRecipient
