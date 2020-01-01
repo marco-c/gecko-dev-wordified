@@ -1314,6 +1314,12 @@ nsHTMLScriptElement
 Event
 event
 )
+NS_IMPL_STRING_ATTR
+(
+nsHTMLScriptElement
+CrossOrigin
+crossorigin
+)
 nsresult
 nsHTMLScriptElement
 :
