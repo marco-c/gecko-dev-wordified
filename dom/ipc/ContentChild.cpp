@@ -3291,6 +3291,7 @@ BlobChild
 :
 Create
 (
+this
 aParams
 )
 ;
@@ -3807,6 +3808,7 @@ BlobChild
 :
 Create
 (
+this
 aBlob
 )
 ;

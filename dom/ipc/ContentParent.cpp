@@ -9888,6 +9888,7 @@ BlobParent
 :
 Create
 (
+this
 aParams
 )
 ;
@@ -10361,6 +10362,7 @@ BlobParent
 :
 Create
 (
+this
 aBlob
 )
 ;
