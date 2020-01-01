@@ -353,13 +353,6 @@ nsCWebBrowser
 .
 h
 "
-#
-include
-"
-nsIProfileChangeStatus
-.
-h
-"
 /
 /
 Glue
