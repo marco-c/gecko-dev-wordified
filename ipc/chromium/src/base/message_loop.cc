@@ -776,6 +776,11 @@ Get
 )
 ;
 }
+PRInt32
+message_loop_id_seq
+=
+0
+;
 MessageLoop
 :
 :
@@ -820,6 +825,14 @@ OS_WIN
 next_sequence_num_
 (
 0
+)
+id_
+(
+PR_ATOMIC_INCREMENT
+(
+&
+message_loop_id_seq
+)
 )
 {
 DCHECK
