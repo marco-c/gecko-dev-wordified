@@ -925,6 +925,12 @@ nsIPrintSettings
 >
 mPrintSettings
 ;
+HDC
+mPrintDC
+;
+PRPackedBool
+mPrintingStarted
+;
 }
 ;
 /
