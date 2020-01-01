@@ -4942,6 +4942,7 @@ sprop
 &
 &
 (
+(
 slot
 =
 sprop
@@ -4955,6 +4956,19 @@ slot
 uint16
 )
 slot
+)
+&
+&
+!
+VALUE_IS_FUNCTION
+(
+cx
+STOBJ_GET_SLOT
+(
+globalObj
+slot
+)
+)
 )
 {
 if
