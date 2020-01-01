@@ -12002,7 +12002,7 @@ nsDisplayScrollLayer
 (
 aBuilder
 aList
-nsnull
+mScrolledFrame
 mScrolledFrame
 mScrollFrame
 )
