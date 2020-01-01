@@ -1756,7 +1756,7 @@ image
 map
 "
 ATK_ROLE_IMAGE
-NSAccessibilityImageRole
+NSAccessibilityUnknownRole
 ROLE_SYSTEM_GRAPHIC
 ROLE_SYSTEM_GRAPHIC
 )
