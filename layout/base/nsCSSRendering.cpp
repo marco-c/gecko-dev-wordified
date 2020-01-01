@@ -8693,7 +8693,7 @@ if
 !
 shadowContext
 )
-return
+continue
 ;
 /
 /
