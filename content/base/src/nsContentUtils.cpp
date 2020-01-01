@@ -22867,7 +22867,8 @@ DocumentFragment
 >
 frag
 =
-NS_NewDocumentFragment
+new
+DocumentFragment
 (
 document
 -
@@ -22875,7 +22876,6 @@ document
 NodeInfoManager
 (
 )
-aRv
 )
 ;
 nsCOMPtr
