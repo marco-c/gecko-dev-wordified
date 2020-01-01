@@ -96,12 +96,8 @@ MPL
 namespace
 mozilla
 {
-extern
 int
-(
-*
 RunGTest
-)
 (
 )
 ;
