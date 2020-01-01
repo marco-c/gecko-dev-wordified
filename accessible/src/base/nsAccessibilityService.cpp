@@ -489,6 +489,13 @@ h
 #
 include
 "
+HTMLListAccessible
+.
+h
+"
+#
+include
+"
 nsAccessiblePivot
 .
 h
@@ -1724,7 +1731,7 @@ nsAccessible
 accessible
 =
 new
-nsHTMLLIAccessible
+HTMLLIAccessible
 (
 aContent
 GetDocAccessible
@@ -3509,7 +3516,7 @@ if
 accessible
 )
 {
-nsHTMLLIAccessible
+HTMLLIAccessible
 *
 listItem
 =
@@ -10432,7 +10439,7 @@ nsAccessible
 accessible
 =
 new
-nsHTMLListAccessible
+HTMLListAccessible
 (
 aContent
 aDoc
@@ -10642,7 +10649,7 @@ nsAccessible
 accessible
 =
 new
-nsHTMLLIAccessible
+HTMLLIAccessible
 (
 aContent
 aDoc
