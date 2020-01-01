@@ -34,7 +34,7 @@ C
 )
 2009
 -
-2010
+2011
 D
 .
 R
@@ -2877,6 +2877,18 @@ JCS_EXT_XBGR
 :
 case
 JCS_EXT_XRGB
+:
+case
+JCS_EXT_RGBA
+:
+case
+JCS_EXT_BGRA
+:
+case
+JCS_EXT_ABGR
+:
+case
+JCS_EXT_ARGB
 :
 jpeg_set_colorspace
 (
