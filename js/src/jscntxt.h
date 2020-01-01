@@ -549,6 +549,13 @@ h
 #
 include
 "
+jsstdint
+.
+h
+"
+#
+include
+"
 jsutil
 .
 h
