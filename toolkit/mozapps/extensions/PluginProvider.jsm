@@ -1351,8 +1351,7 @@ creator
 function
 (
 )
-"
-"
+null
 )
 ;
 this

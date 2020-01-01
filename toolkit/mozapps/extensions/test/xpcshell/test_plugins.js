@@ -462,8 +462,7 @@ do_check_eq
 p
 .
 creator
-"
-"
+null
 )
 ;
 do_check_eq

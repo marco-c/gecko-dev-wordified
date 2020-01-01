@@ -685,9 +685,7 @@ do_check_eq
 t1
 .
 screenshots
-.
-length
-0
+null
 )
 ;
 do_check_true
@@ -759,9 +757,7 @@ do_check_eq
 t2
 .
 screenshots
-.
-length
-0
+null
 )
 ;
 do_check_true
