@@ -6142,11 +6142,6 @@ postion
 %
 d
 "
-*
-(
-gint
-*
-)
 caretOffset
 )
 )
@@ -6162,11 +6157,6 @@ text_caret_moved
 Curent
 caret
 position
-*
-(
-gint
-*
-)
 caretOffset
 )
 ;
