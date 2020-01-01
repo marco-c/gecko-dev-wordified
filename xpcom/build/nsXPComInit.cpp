@@ -3064,10 +3064,7 @@ CommandLine
 :
 Init
 (
-sizeof
-(
-argv
-)
+1
 &
 argv
 )
