@@ -5380,7 +5380,7 @@ stubs
 :
 :
 CreateFunCallObject
-REJOIN_NONE
+REJOIN_CREATE_CALL_OBJECT
 )
 ;
 }
@@ -18085,7 +18085,7 @@ stubs
 :
 :
 RegExp
-REJOIN_NONE
+REJOIN_PUSH_OBJECT
 )
 ;
 frame
@@ -22956,7 +22956,7 @@ stubs
 :
 :
 Arguments
-REJOIN_NONE
+REJOIN_RESUME
 )
 ;
 frameDepthAdjust
