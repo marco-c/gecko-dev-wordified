@@ -74,7 +74,7 @@ gre
 /
 modules
 /
-Task
+Preferences
 .
 jsm
 "
@@ -89,13 +89,13 @@ resource
 :
 /
 /
-services
--
-common
+gre
 /
-preferences
+modules
+/
+Task
 .
-js
+jsm
 "
 )
 ;

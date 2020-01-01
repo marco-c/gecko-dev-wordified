@@ -208,13 +208,13 @@ resource
 :
 /
 /
-services
--
-common
+gre
 /
-preferences
+modules
+/
+LightweightThemeManager
 .
-js
+jsm
 "
 )
 ;
@@ -231,7 +231,7 @@ gre
 /
 modules
 /
-LightweightThemeManager
+Preferences
 .
 jsm
 "
