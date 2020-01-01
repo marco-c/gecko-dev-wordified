@@ -4810,9 +4810,9 @@ _events
 ;
 this
 .
-_zoomed
+_zoomedTo
 =
-false
+null
 ;
 }
 ContentClickingModule
@@ -5306,6 +5306,11 @@ clientY
 if
 (
 zoomElement
+)
+{
+if
+(
+zoomElement
 !
 =
 this
@@ -5346,6 +5351,7 @@ zoomFromElement
 zoomElement
 )
 ;
+}
 }
 this
 .
