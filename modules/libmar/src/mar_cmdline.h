@@ -78,13 +78,6 @@ uint32_t
 *
 /
 #
-include
-"
-prtypes
-.
-h
-"
-#
 ifdef
 __cplusplus
 extern
