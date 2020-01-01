@@ -1530,7 +1530,9 @@ just
 use
 /
 /
-nsChangeHint_ReflowFrame
+nsChangeHint_NeedReflow
+|
+nsChangeHint_NeedDirtyReflow
 here
 .
 nsSVGUtils

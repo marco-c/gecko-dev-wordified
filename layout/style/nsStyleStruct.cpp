@@ -2956,7 +2956,7 @@ mBorderImageOutset
 (
 shadowDifference
 &
-nsChangeHint_ReflowFrame
+nsChangeHint_NeedReflow
 )
 )
 return
