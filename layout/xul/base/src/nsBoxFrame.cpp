@@ -930,13 +930,6 @@ h
 #
 include
 "
-nsIEventStateManager
-.
-h
-"
-#
-include
-"
 nsIDOMDocument
 .
 h
@@ -965,7 +958,7 @@ h
 #
 include
 "
-nsIEventStateManager
+nsEventStateManager
 .
 h
 "
@@ -11374,7 +11367,7 @@ register
 the
 access
 key
-nsIEventStateManager
+nsEventStateManager
 *
 esm
 =
@@ -11386,9 +11379,6 @@ PresContext
 EventStateManager
 (
 )
-;
-nsresult
-rv
 ;
 PRUint32
 key
@@ -11403,8 +11393,6 @@ if
 (
 aDoReg
 )
-rv
-=
 esm
 -
 >
@@ -11415,8 +11403,6 @@ key
 )
 ;
 else
-rv
-=
 esm
 -
 >
@@ -11427,7 +11413,7 @@ key
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 PRBool

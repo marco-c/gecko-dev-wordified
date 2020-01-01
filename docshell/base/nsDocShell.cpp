@@ -1520,7 +1520,7 @@ DEBUG_DOCSHELL_FOCUS
 #
 include
 "
-nsIEventStateManager
+nsEventStateManager
 .
 h
 "

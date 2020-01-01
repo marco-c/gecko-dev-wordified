@@ -443,7 +443,7 @@ class
 nsIDOMWindowInternal
 ;
 class
-nsIEventStateManager
+nsEventStateManager
 ;
 class
 nsIFrame
@@ -500,7 +500,7 @@ aElement
 )
 ;
 static
-nsIEventStateManager
+nsEventStateManager
 *
 GetEventStateManagerFor
 (

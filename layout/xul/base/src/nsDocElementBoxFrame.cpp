@@ -488,13 +488,6 @@ h
 #
 include
 "
-nsIEventStateManager
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h

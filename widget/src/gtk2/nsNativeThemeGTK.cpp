@@ -535,13 +535,6 @@ h
 #
 include
 "
-nsIEventStateManager
-.
-h
-"
-#
-include
-"
 nsIViewManager
 .
 h
