@@ -523,7 +523,7 @@ graph
 )
 ;
 bool
-ReorderBlocks
+RenumberBlocks
 (
 MIRGraph
 &
