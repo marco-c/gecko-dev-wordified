@@ -70,13 +70,6 @@ type
 download
 "
 ]
-[
-alternate
-=
-"
-true
-"
-]
 :
 not
 (
@@ -87,6 +80,13 @@ selected
 true
 "
 ]
+)
+:
+nth
+-
+child
+(
+odd
 )
 {
 background
