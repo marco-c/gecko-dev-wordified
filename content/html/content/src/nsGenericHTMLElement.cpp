@@ -14233,7 +14233,10 @@ aContentEditable
 nsString
 contentEditable
 ;
-ToLowerCase
+nsContentUtils
+:
+:
+ASCIIToLower
 (
 aContentEditable
 contentEditable
