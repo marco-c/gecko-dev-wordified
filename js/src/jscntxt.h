@@ -2660,9 +2660,6 @@ SystemAllocPolicy
 >
 gcSavedRoots
 ;
-bool
-gcRelaxRootChecks
-;
 #
 endif
 /

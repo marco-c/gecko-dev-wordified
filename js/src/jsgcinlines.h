@@ -2481,13 +2481,6 @@ allowGC
 MaybeCheckStackRoots
 (
 cx
-/
-*
-relax
-=
-*
-/
-false
 )
 ;
 JS
