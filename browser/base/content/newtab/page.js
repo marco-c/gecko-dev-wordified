@@ -522,6 +522,9 @@ init
 (
 )
 ;
+#
+ifdef
+XP_MACOSX
 /
 /
 Workaround
@@ -538,14 +541,7 @@ slow
 drop
 animation
 .
-let
-doc
-=
 document
-.
-documentElement
-;
-doc
 .
 addEventListener
 (
@@ -558,7 +554,7 @@ onDragOver
 false
 )
 ;
-doc
+document
 .
 addEventListener
 (
@@ -571,6 +567,8 @@ onDrop
 false
 )
 ;
+#
+endif
 }
 .
 bind
@@ -1045,6 +1043,11 @@ isValid
 (
 aEvent
 )
+&
+&
+gDrag
+.
+draggedSite
 )
 aEvent
 .
@@ -1106,6 +1109,11 @@ isValid
 (
 aEvent
 )
+&
+&
+gDrag
+.
+draggedSite
 )
 {
 aEvent
