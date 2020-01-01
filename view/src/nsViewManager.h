@@ -1068,6 +1068,12 @@ ProcessPendingUpdates
 (
 )
 ;
+virtual
+void
+UpdateWidgetGeometry
+(
+)
+;
 protected
 :
 virtual
@@ -1089,6 +1095,10 @@ ProcessPendingUpdatesForView
 nsView
 *
 aView
+bool
+aFlushDirtyRegion
+=
+true
 )
 ;
 void
@@ -1675,6 +1685,9 @@ mRecursiveRefreshPending
 ;
 bool
 mHasPendingUpdates
+;
+bool
+mHasPendingWidgetGeometryChanges
 ;
 bool
 mInScroll
