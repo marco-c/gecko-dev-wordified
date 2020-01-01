@@ -29563,14 +29563,11 @@ nsIDocument
 >
 doc
 =
-do_QueryInterface
-(
 win
 -
 >
-GetExtantDocument
+GetExtantDoc
 (
-)
 )
 ;
 if

@@ -3132,7 +3132,7 @@ static
 void
 FirePopupBlockedEvent
 (
-nsIDOMDocument
+nsIDocument
 *
 aDoc
 nsIDOMWindow

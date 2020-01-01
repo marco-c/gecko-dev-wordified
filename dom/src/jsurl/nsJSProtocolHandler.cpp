@@ -3486,14 +3486,11 @@ rv
 }
 mDocumentOnloadBlockedOn
 =
-do_QueryInterface
-(
 mOriginalInnerWindow
 -
 >
-GetExtantDocument
+GetExtantDoc
 (
-)
 )
 ;
 if
