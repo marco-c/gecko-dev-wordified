@@ -34599,6 +34599,16 @@ WINCE
 case
 WM_SYSCOMMAND
 :
+{
+WPARAM
+filteredWParam
+=
+(
+wParam
+&
+0xFFF0
+)
+;
 /
 /
 prevent
@@ -34617,7 +34627,7 @@ if
 sTrimOnMinimize
 &
 &
-wParam
+filteredWParam
 =
 =
 SC_MINIMIZE
@@ -34663,7 +34673,7 @@ options
 .
 if
 (
-wParam
+filteredWParam
 =
 =
 SC_KEYMENU
@@ -34694,6 +34704,7 @@ result
 =
 PR_TRUE
 ;
+}
 }
 break
 ;
