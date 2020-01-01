@@ -866,8 +866,8 @@ void
 )
 ;
 #
-if
-0
+ifdef
+DEBUG
 #
 define
 JS_BASIC_STATS
