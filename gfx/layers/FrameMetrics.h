@@ -900,7 +900,7 @@ See
 bug
 775452
 .
-nsIntRect
+LayerIntRect
 mCompositionBounds
 ;
 /
@@ -1855,10 +1855,10 @@ has
 no
 content
 .
-gfx
+mozilla
 :
 :
-Rect
+CSSRect
 mScrollableRect
 ;
 /

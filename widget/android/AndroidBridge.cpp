@@ -12843,10 +12843,7 @@ nsIntRect
 &
 aPageRect
 const
-gfx
-:
-:
-Rect
+CSSRect
 &
 aCssPageRect
 )
@@ -12883,10 +12880,7 @@ AndroidBridge
 SetPageRect
 (
 const
-gfx
-:
-:
-Rect
+CSSRect
 &
 aCssPageRect
 )
@@ -12995,10 +12989,7 @@ aScrollOffset
 float
 aZoom
 const
-gfx
-:
-:
-Rect
+CSSRect
 &
 aCssPageRect
 bool

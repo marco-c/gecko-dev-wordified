@@ -976,7 +976,7 @@ void
 UpdateCompositionBounds
 (
 const
-nsIntRect
+LayerIntRect
 &
 aCompositionBounds
 )
@@ -1804,10 +1804,7 @@ void
 SetPageRect
 (
 const
-gfx
-:
-:
-Rect
+CSSRect
 &
 aCSSPageRect
 )
@@ -2074,10 +2071,7 @@ aMetrics
 )
 ;
 static
-gfx
-:
-:
-Rect
+CSSRect
 CalculateCompositedRectInCssPixels
 (
 const
