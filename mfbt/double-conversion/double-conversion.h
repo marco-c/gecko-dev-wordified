@@ -1358,10 +1358,7 @@ to
 the
 constructor
 .
-MFBT_API
-(
 bool
-)
 ToShortest
 (
 double
@@ -1393,10 +1390,7 @@ single
 precision
 floats
 .
-MFBT_API
-(
 bool
-)
 ToShortestSingle
 (
 float
