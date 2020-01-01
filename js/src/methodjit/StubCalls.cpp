@@ -4482,7 +4482,6 @@ else
 {
 if
 (
-!
 f
 .
 script
