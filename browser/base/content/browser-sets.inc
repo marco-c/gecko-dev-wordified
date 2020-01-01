@@ -1393,7 +1393,7 @@ oncommand
 "
 gBrowser
 .
-mTabContainer
+tabContainer
 .
 advanceSelectedTab
 (
@@ -1418,7 +1418,7 @@ oncommand
 "
 gBrowser
 .
-mTabContainer
+tabContainer
 .
 advanceSelectedTab
 (

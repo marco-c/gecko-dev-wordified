@@ -8262,7 +8262,7 @@ tabs
 =
 tabbrowser
 .
-mTabs
+tabs
 ;
 var
 tabsData
@@ -14146,7 +14146,7 @@ openTabCount
 ?
 tabbrowser
 .
-mTabs
+tabs
 [
 t
 ]
@@ -14221,7 +14221,7 @@ slice
 (
 tabbrowser
 .
-mTabs
+tabs
 newTabCount
 openTabCount
 )

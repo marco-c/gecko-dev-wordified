@@ -1126,9 +1126,7 @@ top
 .
 gBrowser
 .
-tabContainer
-.
-childNodes
+tabs
 .
 length
 =
@@ -1240,9 +1238,7 @@ removeTab
 (
 tabbrowser
 .
-tabContainer
-.
-childNodes
+tabs
 [
 tabIndex
 ]

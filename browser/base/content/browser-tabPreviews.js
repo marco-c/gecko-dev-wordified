@@ -1596,7 +1596,7 @@ slice
 (
 gBrowser
 .
-mTabs
+tabs
 )
 ;
 if
@@ -3106,7 +3106,7 @@ if
 (
 gBrowser
 .
-mTabs
+tabs
 .
 length
 >
@@ -3125,7 +3125,7 @@ if
 (
 gBrowser
 .
-mTabs
+tabs
 .
 length
 =
@@ -3947,7 +3947,7 @@ forEach
 (
 gBrowser
 .
-mTabs
+tabs
 function
 (
 tab
