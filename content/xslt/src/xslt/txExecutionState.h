@@ -996,6 +996,12 @@ txAXMLEventHandler
 *
 mResultHandler
 ;
+nsAutoPtr
+<
+txAXMLEventHandler
+>
+mObsoleteHandler
+;
 txAOutputHandlerFactory
 *
 mOutputHandlerFactory
