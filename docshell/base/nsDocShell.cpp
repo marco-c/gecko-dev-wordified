@@ -30342,6 +30342,10 @@ LOAD_ERROR_PAGE
 &
 &
 mUseGlobalHistory
+&
+&
+!
+mInPrivateBrowsing
 )
 {
 nsCOMPtr
@@ -53379,6 +53383,10 @@ url
 if
 (
 mUseGlobalHistory
+&
+&
+!
+mInPrivateBrowsing
 )
 {
 nsCOMPtr
@@ -62178,6 +62186,10 @@ here
 if
 (
 mUseGlobalHistory
+&
+&
+!
+mInPrivateBrowsing
 )
 {
 nsCOMPtr
@@ -66860,6 +66872,9 @@ typeContent
 |
 !
 mUseGlobalHistory
+|
+|
+mInPrivateBrowsing
 )
 {
 return

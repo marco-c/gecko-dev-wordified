@@ -193,6 +193,13 @@ h
 #
 include
 "
+nsPlacesMacros
+.
+h
+"
+#
+include
+"
 mozilla
 /
 storage
@@ -12537,6 +12544,8 @@ NS_ENSURE_ARG
 (
 aSource
 )
+;
+ENSURE_NOT_PRIVATE_BROWSING
 ;
 if
 (

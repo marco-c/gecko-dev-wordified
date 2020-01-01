@@ -15225,6 +15225,10 @@ if
 (
 !
 mMIMEInfo
+&
+&
+!
+mPrivate
 )
 {
 nsCOMPtr
