@@ -115,17 +115,6 @@ if
 !
 success
 )
-{
-/
-/
-This
-is
-failing
-:
-bug
-431890
-/
-/
 do_throw
 (
 "
@@ -147,7 +136,6 @@ hostname
 "
 )
 ;
-}
 success
 =
 false
