@@ -4915,7 +4915,7 @@ tarray
 }
 /
 *
-slice
+subarray
 (
 start
 [
@@ -4926,7 +4926,7 @@ end
 /
 static
 JSBool
-fun_slice
+fun_subarray
 (
 JSContext
 *
@@ -5003,7 +5003,7 @@ tried
 to
 apply
 this
-slice
+subarray
 (
 )
 to
@@ -5023,7 +5023,7 @@ fastClass
 >
 name
 "
-slice
+subarray
 "
 obj
 -
@@ -5238,7 +5238,7 @@ ntarray
 tarray
 -
 >
-slice
+subarray
 (
 cx
 begin
@@ -5848,7 +5848,7 @@ both
 the
 constructor
 and
-Slice
+Subarray
 (
 )
 static
@@ -6506,7 +6506,7 @@ vp
 ;
 ThisTypeArray
 *
-slice
+subarray
 (
 JSContext
 *
@@ -8979,12 +8979,12 @@ jsfuncs
 JS_FN
 (
 "
-slice
+subarray
 "
 _typedArray
 :
 :
-fun_slice
+fun_subarray
 2
 0
 )
