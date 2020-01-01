@@ -69869,6 +69869,9 @@ eHTML
 )
 ;
 }
+return
+hasFirstLine
+;
 }
 void
 nsCSSFrameConstructor
