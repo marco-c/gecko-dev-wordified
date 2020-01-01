@@ -2080,7 +2080,7 @@ if
 !
 this
 .
-_syncKeyBundle
+syncKeyBundle
 )
 {
 return
