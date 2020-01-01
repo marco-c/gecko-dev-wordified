@@ -24477,7 +24477,9 @@ document
 getElementById
 (
 "
-fullScreenItem
+View
+:
+FullScreen
 "
 )
 .
