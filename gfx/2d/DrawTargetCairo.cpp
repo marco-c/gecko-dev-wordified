@@ -758,6 +758,16 @@ GetDataSurface
 (
 )
 ;
+if
+(
+!
+data
+)
+{
+return
+nullptr
+;
+}
 cairo_surface_t
 *
 surf
