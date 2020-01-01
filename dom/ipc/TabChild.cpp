@@ -8229,6 +8229,15 @@ nsMouseEvent
 :
 eLeftButton
 ;
+event
+.
+inputSource
+=
+nsIDOMMouseEvent
+:
+:
+MOZ_SOURCE_TOUCH
+;
 if
 (
 aMsg
