@@ -770,6 +770,8 @@ CalculateChecksum
 nsAutoCString
 &
 aChecksum
+int64_t
+aSize
 bool
 aChecksumPresent
 )
