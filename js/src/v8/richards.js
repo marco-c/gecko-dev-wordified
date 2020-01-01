@@ -1,9 +1,13 @@
 /
 /
 Copyright
-2007
-Google
-Inc
+2006
+-
+2008
+the
+V8
+project
+authors
 .
 All
 rights
@@ -356,7 +360,7 @@ BenchmarkSuite
 '
 Richards
 '
-34886
+35302
 [
 new
 Benchmark
@@ -591,7 +595,9 @@ holdCount
 .
 "
 ;
-print
+throw
+new
+Error
 (
 msg
 )

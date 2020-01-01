@@ -2,12 +2,14 @@
 /
 Copyright
 2008
-Google
-Inc
+the
+V8
+project
+authors
 .
 All
-Rights
-Reserved
+rights
+reserved
 .
 /
 /
@@ -233,7 +235,7 @@ BenchmarkSuite
 '
 DeltaBlue
 '
-71104
+66118
 [
 new
 Benchmark
@@ -256,7 +258,7 @@ implementation
 of
 the
 DeltaBlue
-constrain
+constraint
 -
 solving
 *
@@ -381,7 +383,7 @@ Object
 .
 prototype
 .
-inherits
+inheritsFrom
 =
 function
 (
@@ -1449,7 +1451,7 @@ addConstraint
 }
 UnaryConstraint
 .
-inherits
+inheritsFrom
 (
 Constraint
 )
@@ -1896,7 +1898,7 @@ str
 }
 StayConstraint
 .
-inherits
+inheritsFrom
 (
 UnaryConstraint
 )
@@ -1989,7 +1991,7 @@ str
 }
 EditConstraint
 .
-inherits
+inheritsFrom
 (
 UnaryConstraint
 )
@@ -2164,7 +2166,7 @@ addConstraint
 }
 BinaryConstraint
 .
-inherits
+inheritsFrom
 (
 Constraint
 )
@@ -2176,7 +2178,7 @@ Constraint
 Decides
 if
 this
-constratint
+constraint
 can
 be
 satisfied
@@ -2234,7 +2236,7 @@ direction
 (
 this
 .
-v1
+v2
 .
 mark
 !
@@ -2960,7 +2962,7 @@ strength
 }
 ScaleConstraint
 .
-inherits
+inheritsFrom
 (
 BinaryConstraint
 )
@@ -3398,7 +3400,7 @@ strength
 }
 EqualityConstraint
 .
-inherits
+inheritsFrom
 (
 BinaryConstraint
 )
