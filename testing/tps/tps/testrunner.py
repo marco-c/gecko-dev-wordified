@@ -3659,8 +3659,6 @@ serverURL
 '
 ]
                                  
-self
-.
 buildUrl
 )
       
