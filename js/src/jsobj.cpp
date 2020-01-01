@@ -6510,7 +6510,10 @@ rval
 ;
 }
 JSBool
-js_DefineOwnProperty
+js
+:
+:
+DefineOwnProperty
 (
 JSContext
 *
@@ -6519,9 +6522,7 @@ HandleObject
 obj
 HandleId
 id
-const
-Value
-&
+HandleValue
 descriptor
 JSBool
 *
@@ -6596,7 +6597,10 @@ true
 ;
 }
 JSBool
-js_DefineOwnProperty
+js
+:
+:
+DefineOwnProperty
 (
 JSContext
 *

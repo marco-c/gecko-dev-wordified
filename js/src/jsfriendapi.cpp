@@ -5996,7 +5996,7 @@ setter
 )
 ;
 return
-js_DefineOwnProperty
+DefineOwnProperty
 (
 cx
 HandleObject
