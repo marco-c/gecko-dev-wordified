@@ -4632,9 +4632,7 @@ sslExceptions
 addPermanentException
 (
 uri
-errorDoc
-.
-defaultView
+window
 )
 ;
 else
@@ -4643,9 +4641,7 @@ sslExceptions
 addTemporaryException
 (
 uri
-errorDoc
-.
-defaultView
+window
 )
 ;
 }
