@@ -448,6 +448,14 @@ next
 public
 :
 virtual
+~
+JSBackgroundTask
+(
+)
+=
+0
+;
+virtual
 void
 run
 (
