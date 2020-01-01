@@ -7067,6 +7067,10 @@ rhs
 !
 =
 UNASSIGNED
+&
+&
+!
+rhsLength
 )
 {
 types
