@@ -761,13 +761,6 @@ localhost
 PORT
 )
   
-automation
-.
-initializeProfile
-(
-PROFILE_DIRECTORY
-)
-  
 browserEnv
 =
 automation
@@ -863,6 +856,13 @@ i
 +
 1
 num_runs
+)
+      
+automation
+.
+initializeProfile
+(
+PROFILE_DIRECTORY
 )
       
 status
