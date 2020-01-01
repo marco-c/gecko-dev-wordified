@@ -5218,7 +5218,7 @@ pinReg
 (
 type
 .
-getReg
+reg
 (
 )
 )
@@ -5356,7 +5356,7 @@ Assembler
 NotEqual
 type
 .
-getReg
+reg
 (
 )
 )
@@ -5465,12 +5465,12 @@ branchTest32
 ncond
 data
 .
-getReg
+reg
 (
 )
 data
 .
-getReg
+reg
 (
 )
 )
@@ -7949,7 +7949,7 @@ Assembler
 AboveOrEqual
 idReg
 .
-getReg
+reg
 (
 )
 masm
@@ -7996,7 +7996,7 @@ slot
 objReg
 idReg
 .
-getReg
+reg
 (
 )
 Assembler
@@ -8220,7 +8220,7 @@ freeReg
 (
 idReg
 .
-getReg
+reg
 (
 )
 )
@@ -8582,7 +8582,7 @@ id
 objReg
 idReg
 .
-getReg
+reg
 (
 )
 tmpReg
@@ -8622,7 +8622,7 @@ freeReg
 (
 idReg
 .
-getReg
+reg
 (
 )
 )
@@ -8786,7 +8786,7 @@ freeReg
 (
 idReg
 .
-getReg
+reg
 (
 )
 )
