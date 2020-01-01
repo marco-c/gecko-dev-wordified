@@ -412,6 +412,7 @@ mObserver
 >
 ReceiveSocketData
 (
+this
 aMessage
 )
 ;
@@ -441,6 +442,7 @@ mObserver
 >
 OnConnectSuccess
 (
+this
 )
 ;
 }
@@ -469,6 +471,7 @@ mObserver
 >
 OnConnectError
 (
+this
 )
 ;
 }
@@ -497,6 +500,7 @@ mObserver
 >
 OnDisconnect
 (
+this
 )
 ;
 }
