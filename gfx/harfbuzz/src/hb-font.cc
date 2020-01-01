@@ -267,6 +267,7 @@ h
 hb_font_funcs_t
 *
 /
+HB_BEGIN_DECLS
 static
 hb_codepoint_t
 hb_font_get_glyph_nil
@@ -390,6 +391,7 @@ return
 0
 ;
 }
+HB_END_DECLS
 hb_font_funcs_t
 _hb_font_funcs_nil
 =
