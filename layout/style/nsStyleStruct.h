@@ -3822,6 +3822,7 @@ reset
 ]
 coord
 percent
+calc
 auto
 PRBool
 GetMargin
@@ -3954,6 +3955,7 @@ reset
 ]
 coord
 percent
+calc
 PRBool
 GetPadding
 (
