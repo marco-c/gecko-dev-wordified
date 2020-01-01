@@ -1557,8 +1557,6 @@ LIR
 .
 h
 "
-/
-*
 #
 include
 "
@@ -1573,6 +1571,8 @@ Fragmento
 .
 h
 "
+/
+*
 #
 include
 "
