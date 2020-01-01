@@ -7949,10 +7949,6 @@ object
 .
 *
 /
-scopeobj
-=
-NULL
-;
 if
 (
 argc
