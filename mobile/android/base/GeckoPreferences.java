@@ -954,6 +954,17 @@ setOnPreferenceChangeListener
 this
 )
 ;
+if
+(
+pref
+.
+getKey
+(
+)
+!
+=
+null
+)
 mPreferencesList
 .
 add
