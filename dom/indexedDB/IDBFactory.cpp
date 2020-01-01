@@ -537,6 +537,10 @@ if
 mRootedOwningObject
 )
 {
+mOwningObject
+=
+nullptr
+;
 NS_DROP_JS_OBJECTS
 (
 this

@@ -899,6 +899,14 @@ mIsRooted
 return
 ;
 }
+mJsUuids
+=
+nullptr
+;
+mJsDeviceAddresses
+=
+nullptr
+;
 NS_DROP_JS_OBJECTS
 (
 this

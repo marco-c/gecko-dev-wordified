@@ -295,12 +295,6 @@ mDataRooted
 "
 )
 ;
-NS_DROP_JS_OBJECTS
-(
-this
-nsDOMMessageEvent
-)
-;
 mDataRooted
 =
 false
@@ -308,6 +302,12 @@ false
 mData
 =
 JSVAL_VOID
+;
+NS_DROP_JS_OBJECTS
+(
+this
+nsDOMMessageEvent
+)
 ;
 }
 NS_IMETHODIMP

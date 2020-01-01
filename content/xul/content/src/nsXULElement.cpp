@@ -15049,6 +15049,12 @@ mScriptObject
 mObject
 )
 {
+mScriptObject
+.
+mObject
+=
+nullptr
+;
 nsContentUtils
 :
 :
@@ -15056,12 +15062,6 @@ DropJSObjects
 (
 this
 )
-;
-mScriptObject
-.
-mObject
-=
-nullptr
 ;
 }
 }
