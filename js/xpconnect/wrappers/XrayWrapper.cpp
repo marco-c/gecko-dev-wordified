@@ -501,7 +501,6 @@ h
 "
 /
 /
-JSID_IS_ATOM
 js
 :
 :
@@ -1737,7 +1736,7 @@ property
 if
 (
 !
-JSID_IS_ATOM
+JSID_IS_STRING
 (
 id
 )
