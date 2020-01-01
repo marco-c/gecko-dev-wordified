@@ -1746,8 +1746,6 @@ SurfaceControl
 surfaceControl
 )
 ;
-#
-endif
 void
 handleMessage
 (
@@ -1757,6 +1755,8 @@ Message
 message
 )
 ;
+#
+endif
 void
 doUpdateSprites
 (
