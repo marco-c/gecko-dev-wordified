@@ -4849,13 +4849,6 @@ self
 [
 e
 {
-position
-:
-box
-.
-position
-(
-)
 }
 ]
 )
