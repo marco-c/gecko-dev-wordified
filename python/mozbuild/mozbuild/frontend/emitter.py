@@ -68,6 +68,8 @@ import
 DirectoryTraversal
     
 ConfigFileSubstitution
+    
+ReaderSummary
 )
 from
 .
@@ -195,6 +197,16 @@ function
 "
 "
         
+file_count
+=
+0
+        
+execution_time
+=
+0
+.
+0
+        
 for
 out
 in
@@ -222,6 +234,29 @@ out
                     
 yield
 o
+                
+#
+Update
+the
+stats
+.
+                
+file_count
++
+=
+len
+(
+out
+.
+all_paths
+)
+                
+execution_time
++
+=
+out
+.
+execution_time
             
 else
 :
@@ -239,6 +274,13 @@ s
 '
 %
 out
+)
+        
+yield
+ReaderSummary
+(
+file_count
+execution_time
 )
     
 def
