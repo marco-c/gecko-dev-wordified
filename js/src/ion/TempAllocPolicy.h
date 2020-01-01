@@ -455,12 +455,6 @@ jsion_temp_alloc_policy_h__
 #
 define
 jsion_temp_alloc_policy_h__
-namespace
-js
-{
-namespace
-ion
-{
 #
 include
 "
@@ -475,6 +469,12 @@ jsarena
 .
 h
 "
+namespace
+js
+{
+namespace
+ion
+{
 class
 TempAllocPolicy
 {

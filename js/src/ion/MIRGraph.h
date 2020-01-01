@@ -706,7 +706,7 @@ pred
 void
 assertUsesAreNotWithin
 (
-MOperand
+MUse
 *
 use
 )
