@@ -5237,6 +5237,7 @@ ok
 js_Interpret
 (
 cx
+0
 )
 ;
 cx
