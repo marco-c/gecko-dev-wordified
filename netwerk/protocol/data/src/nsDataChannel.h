@@ -495,10 +495,6 @@ nsIInputStream
 *
 *
 result
-nsIChannel
-*
-*
-channel
 )
 ;
 }

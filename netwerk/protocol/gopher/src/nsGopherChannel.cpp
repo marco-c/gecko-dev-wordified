@@ -3121,10 +3121,6 @@ nsIInputStream
 *
 *
 result
-nsIChannel
-*
-*
-channel
 )
 {
 /

@@ -529,10 +529,6 @@ nsIInputStream
 *
 *
 result
-nsIChannel
-*
-*
-channel
 )
 ;
 virtual
