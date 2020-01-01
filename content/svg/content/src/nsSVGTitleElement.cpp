@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsSVGStylableElement
+nsSVGElement
 .
 h
 "
@@ -115,7 +115,7 @@ nsStubMutationObserver
 h
 "
 typedef
-nsSVGStylableElement
+nsSVGElement
 nsSVGTitleElementBase
 ;
 class

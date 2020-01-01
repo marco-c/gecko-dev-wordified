@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsSVGStylableElement
+nsSVGElement
 .
 h
 "
@@ -108,7 +108,7 @@ nsIDOMSVGDescElement
 h
 "
 typedef
-nsSVGStylableElement
+nsSVGElement
 nsSVGDescElementBase
 ;
 class
