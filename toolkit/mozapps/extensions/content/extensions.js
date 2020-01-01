@@ -729,9 +729,8 @@ addons
 :
 /
 /
-list
+discover
 /
-extension
 "
 ;
 var
