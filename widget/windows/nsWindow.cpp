@@ -1163,7 +1163,11 @@ h
 #
 include
 "
-nsIAccessibleDocument
+mozilla
+/
+a11y
+/
+Platform
 .
 h
 "

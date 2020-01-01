@@ -340,8 +340,10 @@ Init
 )
 ;
 friend
-class
-nsAccessNodeWrap
+void
+PlatformInit
+(
+)
 ;
 /
 *
