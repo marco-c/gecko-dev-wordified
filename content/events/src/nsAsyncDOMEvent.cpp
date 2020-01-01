@@ -429,7 +429,7 @@ BLOCK
 #
 include
 "
-nsPLDOMEvent
+nsAsyncDOMEvent
 .
 h
 "
@@ -482,10 +482,10 @@ nsGUIEvent
 .
 h
 "
-nsPLDOMEvent
+nsAsyncDOMEvent
 :
 :
-nsPLDOMEvent
+nsAsyncDOMEvent
 (
 nsINode
 *
@@ -587,7 +587,7 @@ trusted
 ;
 }
 NS_IMETHODIMP
-nsPLDOMEvent
+nsAsyncDOMEvent
 :
 :
 Run
@@ -710,7 +710,7 @@ NS_OK
 ;
 }
 nsresult
-nsPLDOMEvent
+nsAsyncDOMEvent
 :
 :
 PostDOMEvent
@@ -725,7 +725,7 @@ this
 ;
 }
 void
-nsPLDOMEvent
+nsAsyncDOMEvent
 :
 :
 RunDOMEventWhenSafe

@@ -1075,7 +1075,7 @@ h
 #
 include
 "
-nsPLDOMEvent
+nsAsyncDOMEvent
 .
 h
 "
@@ -20100,7 +20100,7 @@ this
 ;
 (
 new
-nsPLDOMEvent
+nsAsyncDOMEvent
 (
 aKid
 mutation
@@ -22193,7 +22193,7 @@ aParent
 ;
 (
 new
-nsPLDOMEvent
+nsAsyncDOMEvent
 (
 childContent
 mutation
@@ -26369,7 +26369,7 @@ this
 ;
 (
 new
-nsPLDOMEvent
+nsAsyncDOMEvent
 (
 this
 mutation
@@ -27450,7 +27450,7 @@ this
 ;
 (
 new
-nsPLDOMEvent
+nsAsyncDOMEvent
 (
 this
 mutation
