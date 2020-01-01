@@ -2542,6 +2542,11 @@ baseObj
 )
 ;
 bool
+jsop_initelem
+(
+)
+;
+bool
 jsop_initelem_array
 (
 )
