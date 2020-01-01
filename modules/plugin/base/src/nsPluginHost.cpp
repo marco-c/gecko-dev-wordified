@@ -12890,6 +12890,12 @@ if
 bAddIt
 )
 {
+if
+(
+!
+seenBefore
+)
+{
 /
 /
 We
@@ -12910,6 +12916,7 @@ aPluginsChanged
 =
 PR_TRUE
 ;
+}
 /
 /
 If
