@@ -2065,6 +2065,9 @@ jGetAdminAreaMethod
 jenv
 )
 ;
+#
+ifdef
+DEBUG
 printf_stderr
 (
 "
@@ -2218,6 +2221,8 @@ get
 )
 )
 ;
+#
+endif
 return
 new
 nsGeoPositionAddress

@@ -667,6 +667,10 @@ mLibLoadThread
 =
 null
 ;
+public
+Handler
+mMainHandler
+;
 enum
 LaunchState
 {
@@ -1236,6 +1240,13 @@ savedInstanceState
 mAppContext
 =
 this
+;
+mMainHandler
+=
+new
+Handler
+(
+)
 ;
 SharedPreferences
 settings

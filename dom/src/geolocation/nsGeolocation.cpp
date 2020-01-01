@@ -1465,10 +1465,6 @@ mCleared
 (
 PR_FALSE
 )
-mIsFirstUpdate
-(
-PR_TRUE
-)
 mIsWatchPositionRequest
 (
 aWatchPositionRequest
@@ -2430,15 +2426,6 @@ nsIDOMGeoPosition
 aPosition
 )
 {
-if
-(
-mIsFirstUpdate
-)
-{
-mIsFirstUpdate
-=
-PR_FALSE
-;
 nsCOMPtr
 <
 nsIRunnable
@@ -2457,7 +2444,6 @@ NS_DispatchToMainThread
 ev
 )
 ;
-}
 }
 void
 nsGeolocationRequest
