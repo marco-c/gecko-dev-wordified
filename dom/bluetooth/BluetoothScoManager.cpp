@@ -214,7 +214,6 @@ nsVariant
 .
 h
 "
-USING_BLUETOOTH_NAMESPACE
 using
 namespace
 mozilla

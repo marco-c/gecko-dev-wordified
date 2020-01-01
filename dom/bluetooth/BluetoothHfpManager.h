@@ -204,6 +204,9 @@ const
 nsAString
 &
 aDeviceObjectPath
+const
+bool
+aIsHandsfree
 BluetoothReplyRunnable
 *
 aRunnable
