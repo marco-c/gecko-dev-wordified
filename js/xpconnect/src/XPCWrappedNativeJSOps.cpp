@@ -8760,7 +8760,7 @@ JSString
 *
 funid
 =
-JS_GetFunctionId
+JS_GetFunctionDisplayId
 (
 fun
 )
@@ -9012,7 +9012,7 @@ JSString
 *
 funid
 =
-JS_GetFunctionId
+JS_GetFunctionDisplayId
 (
 funobj
 -

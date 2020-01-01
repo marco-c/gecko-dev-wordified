@@ -4889,7 +4889,7 @@ JSString
 *
 str
 =
-JS_GetFunctionId
+JS_GetFunctionDisplayId
 (
 fun
 )
