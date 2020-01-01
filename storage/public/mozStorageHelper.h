@@ -439,6 +439,13 @@ mozIStorageConnection
 .
 h
 "
+#
+include
+"
+mozIStorageStatement
+.
+h
+"
 /
 *
 *
