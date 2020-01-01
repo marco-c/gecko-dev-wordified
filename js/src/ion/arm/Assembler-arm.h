@@ -587,6 +587,13 @@ sp
 static
 const
 Register
+FramePointer
+=
+InvalidReg
+;
+static
+const
+Register
 ReturnReg
 =
 r0

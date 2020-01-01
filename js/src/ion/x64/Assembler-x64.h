@@ -732,6 +732,13 @@ rsp
 static
 const
 Register
+FramePointer
+=
+rbp
+;
+static
+const
+Register
 JSReturnReg
 =
 rcx
