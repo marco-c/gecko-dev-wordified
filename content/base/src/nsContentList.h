@@ -532,6 +532,13 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+nsWrapperCache
+.
+h
+"
 /
 /
 Magic
@@ -1155,6 +1162,8 @@ public
 nsIHTMLCollection
 public
 nsStubMutationObserver
+public
+nsWrapperCache
 {
 public
 :
