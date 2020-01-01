@@ -2004,13 +2004,6 @@ mValue
 aStyle
 -
 >
-kerning
-=
-false
-;
-aStyle
--
->
 featureSettings
 .
 AppendElement
@@ -2028,13 +2021,6 @@ setting
 mValue
 =
 1
-;
-aStyle
--
->
-kerning
-=
-true
 ;
 aStyle
 -
