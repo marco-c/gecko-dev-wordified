@@ -7524,6 +7524,12 @@ LIR_rsh
 case
 LIR_ush
 :
+case
+LIR_div
+:
+case
+LIR_mod
+:
 {
 countlir_alu
 (
