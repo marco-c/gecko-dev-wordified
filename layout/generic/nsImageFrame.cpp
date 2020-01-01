@@ -8266,9 +8266,6 @@ ImageContainer
 >
 container
 ;
-nsresult
-rv
-=
 mImage
 -
 >
