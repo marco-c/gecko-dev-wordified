@@ -1950,6 +1950,15 @@ null
 "
 )
 ;
+if
+(
+lpMsgBuf
+)
+LocalFree
+(
+lpMsgBuf
+)
+;
 }
 free
 (
