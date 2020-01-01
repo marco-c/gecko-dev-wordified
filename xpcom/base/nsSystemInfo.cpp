@@ -1341,6 +1341,7 @@ android
 os
 /
 Build
+VERSION
 "
 "
 CODENAME
