@@ -1415,6 +1415,12 @@ GL_BLEND
 )
 ;
 }
+PanningPerfAPI
+.
+recordFrameTime
+(
+)
+;
 }
 private
 RenderContext
