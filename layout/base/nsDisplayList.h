@@ -6820,7 +6820,7 @@ be
 those
 returned
 by
-nsIFrameDebug
+nsFrame
 :
 :
 GetFrameName

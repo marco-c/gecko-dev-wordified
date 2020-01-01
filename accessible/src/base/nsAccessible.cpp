@@ -796,13 +796,6 @@ NS_DEBUG
 #
 include
 "
-nsIFrameDebug
-.
-h
-"
-#
-include
-"
 nsIDOMCharacterData
 .
 h

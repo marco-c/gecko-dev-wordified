@@ -566,11 +566,6 @@ aModType
 #
 ifdef
 DEBUG
-/
-/
-nsIFrameDebug
-interface
-:
 NS_IMETHOD
 GetFrameName
 (
@@ -1302,11 +1297,6 @@ aModType
 #
 ifdef
 DEBUG
-/
-/
-nsIFrameDebug
-interface
-:
 NS_IMETHOD
 GetFrameName
 (
@@ -1607,11 +1597,6 @@ aModType
 #
 ifdef
 DEBUG
-/
-/
-nsIFrameDebug
-interface
-:
 NS_IMETHOD
 GetFrameName
 (

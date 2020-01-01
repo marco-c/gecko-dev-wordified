@@ -798,9 +798,6 @@ aFlags
 #
 ifdef
 DEBUG
-/
-/
-nsIFrameDebug
 NS_IMETHOD
 GetFrameName
 (

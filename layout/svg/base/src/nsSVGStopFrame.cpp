@@ -653,11 +653,6 @@ eSVG
 #
 ifdef
 DEBUG
-/
-/
-nsIFrameDebug
-interface
-:
 NS_IMETHOD
 GetFrameName
 (

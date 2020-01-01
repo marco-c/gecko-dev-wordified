@@ -869,13 +869,6 @@ h
 #
 include
 "
-nsIFrameDebug
-.
-h
-"
-#
-include
-"
 nsILayoutHistoryState
 .
 h

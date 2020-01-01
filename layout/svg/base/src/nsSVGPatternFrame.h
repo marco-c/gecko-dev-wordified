@@ -663,11 +663,6 @@ const
 #
 ifdef
 DEBUG
-/
-/
-nsIFrameDebug
-interface
-:
 NS_IMETHOD
 GetFrameName
 (
