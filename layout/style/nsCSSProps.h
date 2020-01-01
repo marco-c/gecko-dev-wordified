@@ -697,6 +697,11 @@ eStyleAnimType_Sides_Bottom
 eStyleAnimType_Sides_Left
 /
 /
+nscoord
+values
+eStyleAnimType_nscoord
+/
+/
 property
 not
 animatable
