@@ -3046,6 +3046,16 @@ _cairo_rectangles_not_representable
 ;
 }
 }
+_cairo_region_boxes_fini
+(
+&
+clip
+-
+>
+region
+boxes
+)
+;
 }
 else
 {
