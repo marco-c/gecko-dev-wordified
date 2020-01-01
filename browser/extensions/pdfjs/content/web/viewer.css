@@ -7672,6 +7672,14 @@ bottom
 35px
 ;
 }
+.
+canvasWrapper
+{
+overflow
+:
+hidden
+;
+}
 canvas
 {
 margin
