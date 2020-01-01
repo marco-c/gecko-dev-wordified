@@ -972,6 +972,10 @@ HandleFunction
 fun
 HandleObject
 parent
+NewObjectKind
+newKind
+=
+GenericObject
 )
 {
 /
@@ -1229,6 +1233,7 @@ cx
 fun
 parent
 kind
+newKind
 )
 ;
 }

@@ -2726,6 +2726,10 @@ JSFunction
 :
 :
 FinalizeKind
+NewObjectKind
+newKindArg
+=
+GenericObject
 )
 ;
 }
@@ -2856,6 +2860,10 @@ HandleObject
 enclosingScope
 HandleFunction
 fun
+NewObjectKind
+newKind
+=
+GenericObject
 )
 ;
 /
