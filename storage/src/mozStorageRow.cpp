@@ -1573,6 +1573,11 @@ aIndex
 mNumCols
 )
 ;
+NS_ENSURE_ARG_POINTER
+(
+_isNull
+)
+;
 PRUint16
 type
 ;
@@ -1602,7 +1607,7 @@ type
 nsIDataType
 :
 :
-VTYPE_VOID
+VTYPE_EMPTY
 ;
 return
 NS_OK
