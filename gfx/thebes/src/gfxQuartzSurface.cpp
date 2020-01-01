@@ -458,6 +458,16 @@ mSize
 size
 )
 {
+if
+(
+!
+CheckSurfaceSize
+(
+size
+)
+)
+return
+;
 cairo_surface_t
 *
 surf
