@@ -6152,6 +6152,7 @@ mMarkedCCGeneration
 nsTObserverArray
 <
 nsIPresShell
+*
 >
 mPresShells
 ;

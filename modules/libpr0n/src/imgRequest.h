@@ -1033,6 +1033,7 @@ mProperties
 nsTObserverArray
 <
 imgRequestProxy
+*
 >
 mObservers
 ;
