@@ -564,7 +564,7 @@ ImageFormatRGB24
 )
 )
 return
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -591,7 +591,7 @@ whiteSurf
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -684,7 +684,7 @@ blackData
 whiteData
 )
 return
-PR_FALSE
+false
 ;
 first
 =
@@ -864,7 +864,7 @@ analysis
 >
 uniformColor
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1052,6 +1052,6 @@ d_first_alpha
 }
 }
 return
-PR_TRUE
+true
 ;
 }

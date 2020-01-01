@@ -805,7 +805,7 @@ UnicodeToGBKChar
 (
 *
 aSrc
-PR_TRUE
+true
 &
 aDest
 [

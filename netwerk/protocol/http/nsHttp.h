@@ -1991,7 +1991,7 @@ would
 exceed
 LL_MAXINT
 then
-PR_FALSE
+false
 is
 /
 /
@@ -2001,7 +2001,7 @@ Otherwise
 this
 function
 returns
-PR_TRUE
+true
 and
 stores
 the

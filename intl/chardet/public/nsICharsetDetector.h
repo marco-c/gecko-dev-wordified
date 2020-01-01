@@ -570,7 +570,7 @@ aBytesArray
 oDontFeedMe
 -
 return
-PR_TRUE
+true
 if
 the
 detector
@@ -580,7 +580,7 @@ need
 the
 following
 block
-PR_FALSE
+false
 it
 need
 more

@@ -1868,7 +1868,7 @@ eEnum
 GetEnumString
 (
 aResult
-PR_FALSE
+false
 )
 ;
 break
@@ -2105,7 +2105,7 @@ attr
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 aColor
@@ -2118,7 +2118,7 @@ GetMiscContainer
 mColor
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -2813,7 +2813,7 @@ BaseType
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 switch
@@ -2899,7 +2899,7 @@ mType
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -2935,7 +2935,7 @@ mInteger
 {
 needsStringComparison
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -2961,7 +2961,7 @@ mEnumValue
 {
 needsStringComparison
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -2987,7 +2987,7 @@ mPercent
 {
 needsStringComparison
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -3013,7 +3013,7 @@ mColor
 {
 needsStringComparison
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -3084,12 +3084,12 @@ mAtomArray
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 needsStringComparison
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3143,7 +3143,7 @@ MiscContainer
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -3167,7 +3167,7 @@ mStringBits
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -3247,7 +3247,7 @@ mStringBits
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -3855,7 +3855,7 @@ cur
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -3863,7 +3863,7 @@ PR_TRUE
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -3967,7 +3967,7 @@ iter
 {
 hasSpace
 =
-PR_TRUE
+true
 ;
 +
 +
@@ -4087,7 +4087,7 @@ iter
 {
 hasSpace
 =
-PR_TRUE
+true
 ;
 +
 +
@@ -4805,7 +4805,7 @@ properly
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 tableEntry
@@ -4851,11 +4851,11 @@ aValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -4901,7 +4901,7 @@ aString
 strict
 &
 ec
-PR_TRUE
+true
 &
 isPercent
 )
@@ -4915,7 +4915,7 @@ ec
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -4953,7 +4953,7 @@ RFindChar
 {
 isPercent
 =
-PR_TRUE
+true
 ;
 }
 strict
@@ -4985,7 +4985,7 @@ aString
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -5046,7 +5046,7 @@ ec
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -5091,7 +5091,7 @@ aString
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -5142,7 +5142,7 @@ originalVal
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 SetIntValueAndType
@@ -5158,7 +5158,7 @@ aString
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -5210,7 +5210,7 @@ originalVal
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 SetIntValueAndType
@@ -5226,7 +5226,7 @@ aString
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -5415,8 +5415,8 @@ colorStr
 .
 CompressWhitespace
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 if
@@ -5429,7 +5429,7 @@ IsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nscolor
@@ -5508,7 +5508,7 @@ aString
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -5531,7 +5531,7 @@ aString
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -5637,11 +5637,11 @@ aString
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -5686,7 +5686,7 @@ ec
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5744,11 +5744,11 @@ aString
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -5783,7 +5783,7 @@ margins
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -5825,11 +5825,11 @@ aString
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -6270,7 +6270,7 @@ MiscContainer
 NS_ENSURE_TRUE
 (
 cont
-PR_FALSE
+false
 )
 ;
 SetPtrValueAndType
@@ -6302,7 +6302,7 @@ mColor
 0
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -6337,7 +6337,7 @@ Clear
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -6355,7 +6355,7 @@ already
 be
 reset
 return
-PR_FALSE
+false
 ;
 }
 AtomArray
@@ -6376,7 +6376,7 @@ Reset
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 MiscContainer
@@ -6402,7 +6402,7 @@ mType
 eAtomArray
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsStringBuffer

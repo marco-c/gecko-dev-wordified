@@ -1183,7 +1183,7 @@ it
 needs
 to
 return
-PR_FALSE
+false
 to
 cause
 an
@@ -1231,7 +1231,7 @@ also
 needs
 to
 return
-PR_FALSE
+false
 /
 /
 see
@@ -1313,7 +1313,7 @@ ComputedWidth
 )
 )
 ?
-PR_FALSE
+false
 :
 HaveFixedSize
 (
@@ -1376,7 +1376,7 @@ mIntrinsicRatio
 )
 mDisplayingIcon
 (
-PR_FALSE
+false
 )
 {
 /
@@ -2004,7 +2004,7 @@ if
 aImage
 )
 return
-PR_FALSE
+false
 ;
 nsIFrame
 :
@@ -2183,7 +2183,7 @@ if
 aImage
 )
 return
-PR_FALSE
+false
 ;
 nsSize
 oldIntrinsicRatio
@@ -2518,11 +2518,11 @@ GetCoordValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -2694,7 +2694,7 @@ container
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -2758,7 +2758,7 @@ request
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -3351,7 +3351,7 @@ image
 frame
 thing
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -3503,7 +3503,7 @@ mForceBrokenImageIcon
 {
 useSizedBox
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3520,7 +3520,7 @@ mPrefForceInlineAltText
 {
 useSizedBox
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -3545,7 +3545,7 @@ eCompatibility_NavQuirks
 {
 useSizedBox
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -3663,7 +3663,7 @@ input
 {
 useSizedBox
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -6109,7 +6109,7 @@ aContext
 .
 SetTextRunRTL
 (
-PR_FALSE
+false
 )
 ;
 nscoord
@@ -6204,7 +6204,7 @@ when
 measuring
 trailingSpace
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -6363,7 +6363,7 @@ the
 width
 fits
 =
-PR_FALSE
+false
 ;
 }
 len
@@ -6855,7 +6855,7 @@ height
 ;
 firstLine
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -7352,7 +7352,7 @@ this
 ;
 mDisplayingIcon
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -7483,7 +7483,7 @@ FLAG_NONE
 ;
 iconUsed
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -7816,7 +7816,7 @@ aDirtyRect
 IMAGE_OK
 (
 state
-PR_TRUE
+true
 )
 ?
 nsImageFrame
@@ -8950,7 +8950,7 @@ STATUS_SIZE_AVAILABLE
 )
 haveSize
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -9103,7 +9103,7 @@ this
 ;
 mDisplayingIcon
 =
-PR_FALSE
+false
 ;
 }
 #
@@ -10726,7 +10726,7 @@ nsEventStatus_eConsumeDoDefault
 ;
 clicked
 =
-PR_TRUE
+true
 ;
 }
 nsContentUtils
@@ -10739,8 +10739,8 @@ aPresContext
 uri
 target
 clicked
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 }
@@ -12290,7 +12290,7 @@ wrong
 pref
 "
 )
-PR_FALSE
+false
 )
 ;
 +
@@ -12891,7 +12891,7 @@ CompatibilityMode
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -12992,7 +12992,7 @@ eStyleUnit_Auto
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -13089,7 +13089,7 @@ aData
 >
 skipWhitespace
 =
-PR_FALSE
+false
 ;
 aData
 -
@@ -13122,7 +13122,7 @@ aData
 >
 atStartOfLine
 =
-PR_FALSE
+false
 ;
 if
 (

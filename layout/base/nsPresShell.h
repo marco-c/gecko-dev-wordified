@@ -3340,7 +3340,7 @@ frameSelection
 >
 SetMouseDownState
 (
-PR_FALSE
+false
 )
 ;
 }

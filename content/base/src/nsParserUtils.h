@@ -565,7 +565,7 @@ present
 .
 *
 return
-PR_TRUE
+true
 if
 the
 attribute
@@ -576,7 +576,7 @@ successfully
 parsed
 .
 *
-PR_FALSE
+false
 if
 the
 attribute

@@ -940,7 +940,7 @@ rendering
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1130,7 +1130,7 @@ ok
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1205,7 +1205,7 @@ ok
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1426,7 +1426,7 @@ further
 drawing
 .
 return
-PR_FALSE
+false
 ;
 }
 cairo_set_scaled_font
@@ -1441,7 +1441,7 @@ mScaledFont
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 gfxFont
@@ -2255,7 +2255,7 @@ seatbelt
 ;
 mIsValid
 =
-PR_FALSE
+false
 ;
 memset
 (
@@ -2902,7 +2902,7 @@ endif
 }
 mIsValid
 =
-PR_TRUE
+true
 ;
 #
 if
@@ -3205,7 +3205,7 @@ IsItalic
 )
 italic
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3270,9 +3270,9 @@ mAntialiasOption
 kAntialiasSubpixel
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 )
 ;
 }

@@ -1981,7 +1981,7 @@ mutableBlob
 >
 SetMutable
 (
-PR_FALSE
+false
 )
 )
 &
@@ -2691,7 +2691,7 @@ mutableFile
 >
 SetMutable
 (
-PR_FALSE
+false
 )
 )
 )
@@ -2788,7 +2788,7 @@ mutableBlob
 >
 SetMutable
 (
-PR_FALSE
+false
 )
 )
 )
@@ -10350,7 +10350,7 @@ failed
 ;
 isChrome
 =
-PR_FALSE
+false
 ;
 }
 /

@@ -586,7 +586,7 @@ network
 *
 *
 return
-PR_TRUE
+true
 if
 the
 node

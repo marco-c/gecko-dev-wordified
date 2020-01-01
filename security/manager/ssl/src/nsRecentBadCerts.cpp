@@ -816,12 +816,12 @@ nsnull
 /
 no
 nickname
-PR_FALSE
+false
 /
 /
 not
 perm
-PR_TRUE
+true
 )
 ;
 /
@@ -832,7 +832,7 @@ SECITEM_FreeItem
 (
 &
 foundDER
-PR_FALSE
+false
 )
 ;
 if
@@ -866,7 +866,7 @@ status
 >
 mHaveCertErrorBits
 =
-PR_TRUE
+true
 ;
 status
 -

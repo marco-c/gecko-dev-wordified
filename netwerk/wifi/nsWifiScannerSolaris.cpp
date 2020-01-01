@@ -921,7 +921,7 @@ escape
 {
 escape
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -963,7 +963,7 @@ sout_char
 {
 escape
 =
-PR_TRUE
+true
 ;
 continue
 ;

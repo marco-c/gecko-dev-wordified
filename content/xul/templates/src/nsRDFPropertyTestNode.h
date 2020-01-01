@@ -967,7 +967,7 @@ mTarget
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 protected

@@ -689,7 +689,7 @@ NS_ERROR_FAILURE
 nsEvent
 event
 (
-PR_TRUE
+true
 NS_SHOW_EVENT
 )
 ;
@@ -911,7 +911,7 @@ ParseEnumValue
 (
 aValue
 kMenuTypeTable
-PR_FALSE
+false
 )
 ;
 if
@@ -1045,7 +1045,7 @@ IsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIDocument
@@ -1066,7 +1066,7 @@ doc
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -1109,7 +1109,7 @@ uri
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return

@@ -572,7 +572,7 @@ Declaration
 :
 mImmutable
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -640,7 +640,7 @@ nsnull
 )
 mImmutable
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -975,7 +975,7 @@ val
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 val
@@ -988,7 +988,7 @@ aResult
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -2182,7 +2182,7 @@ eCSSUnit_Pair
 {
 needY
 =
-PR_TRUE
+true
 ;
 vals
 [
@@ -2506,7 +2506,7 @@ otherSide
 )
 match
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -5903,7 +5903,7 @@ eCSSProperty_UNKNOWN
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -5930,7 +5930,7 @@ if
 mImportantData
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -6016,12 +6016,12 @@ p
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -6377,7 +6377,7 @@ shorthands
 {
 doneProperty
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -6535,7 +6535,7 @@ shorthand
 ;
 doneProperty
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -6646,7 +6646,7 @@ Truncate
 ;
 didSystemFont
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -6772,7 +6772,7 @@ eCSSUnit_System_Font
 {
 doneProperty
 =
-PR_TRUE
+true
 ;
 }
 }

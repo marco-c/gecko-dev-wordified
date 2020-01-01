@@ -1197,7 +1197,7 @@ get
 ;
 gssNativeImp
 =
-PR_FALSE
+false
 ;
 lib
 =
@@ -2171,7 +2171,7 @@ n
 ;
 mComplete
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2444,7 +2444,7 @@ GSS_C_NO_CONTEXT
 ;
 mComplete
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -3173,7 +3173,7 @@ afresh
 .
 mComplete
 =
-PR_TRUE
+true
 ;
 }
 else

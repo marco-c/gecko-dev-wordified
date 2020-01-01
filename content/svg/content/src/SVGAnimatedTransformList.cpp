@@ -707,7 +707,7 @@ else
 {
 mIsAttrSet
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -774,7 +774,7 @@ Clear
 ;
 mIsAttrSet
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1280,7 +1280,7 @@ we
 set
 mIsAttrSet
 to
-PR_TRUE
+true
 on
 any
 successful
@@ -1573,7 +1573,7 @@ aValue
 ;
 aPreventCachingOfSandwich
 =
-PR_FALSE
+false
 ;
 return
 aValue

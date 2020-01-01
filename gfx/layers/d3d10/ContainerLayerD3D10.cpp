@@ -1115,11 +1115,11 @@ Layer
 CONTENT_OPAQUE
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -2272,7 +2272,7 @@ GetBounds
 ;
 mSupportsComponentAlphaChildren
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2333,7 +2333,7 @@ opaque
 stuff
 mSupportsComponentAlphaChildren
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2399,7 +2399,7 @@ RenderLayer
 .
 mSupportsComponentAlphaChildren
 =
-PR_TRUE
+true
 ;
 }
 }

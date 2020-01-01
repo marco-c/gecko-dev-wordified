@@ -3215,7 +3215,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -3224,7 +3224,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -6707,7 +6707,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -6716,7 +6716,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -6725,7 +6725,7 @@ nsGkAtoms
 :
 in2
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -8114,7 +8114,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -8123,7 +8123,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -10073,7 +10073,7 @@ nsGkAtoms
 :
 k1
 0
-PR_FALSE
+false
 }
 {
 &
@@ -10082,7 +10082,7 @@ nsGkAtoms
 :
 k2
 0
-PR_FALSE
+false
 }
 {
 &
@@ -10091,7 +10091,7 @@ nsGkAtoms
 :
 k3
 0
-PR_FALSE
+false
 }
 {
 &
@@ -10100,7 +10100,7 @@ nsGkAtoms
 :
 k4
 0
-PR_FALSE
+false
 }
 }
 ;
@@ -10232,7 +10232,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -10241,7 +10241,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -10250,7 +10250,7 @@ nsGkAtoms
 :
 in2
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -11973,7 +11973,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -11982,7 +11982,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -13069,7 +13069,7 @@ nsGkAtoms
 :
 slope
 1
-PR_FALSE
+false
 }
 {
 &
@@ -13078,7 +13078,7 @@ nsGkAtoms
 :
 intercept
 0
-PR_FALSE
+false
 }
 {
 &
@@ -13087,7 +13087,7 @@ nsGkAtoms
 :
 amplitude
 1
-PR_FALSE
+false
 }
 {
 &
@@ -13096,7 +13096,7 @@ nsGkAtoms
 :
 exponent
 1
-PR_FALSE
+false
 }
 {
 &
@@ -13105,7 +13105,7 @@ nsGkAtoms
 :
 offset
 0
-PR_FALSE
+false
 }
 }
 ;
@@ -15318,7 +15318,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -15865,7 +15865,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -16663,7 +16663,7 @@ nsGkAtoms
 :
 dx
 0
-PR_FALSE
+false
 }
 {
 &
@@ -16672,7 +16672,7 @@ nsGkAtoms
 :
 dy
 0
-PR_FALSE
+false
 }
 }
 ;
@@ -16696,7 +16696,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -16705,7 +16705,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -17749,7 +17749,7 @@ Image
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 virtual
@@ -17798,7 +17798,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -18794,7 +18794,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -18803,7 +18803,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -20672,7 +20672,7 @@ nsGkAtoms
 :
 seed
 0
-PR_FALSE
+false
 }
 }
 ;
@@ -20856,7 +20856,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -21621,7 +21621,7 @@ SVG_STITCHTYPE_STITCH
 {
 doStitch
 =
-PR_TRUE
+true
 ;
 float
 lowFreq
@@ -21879,7 +21879,7 @@ point
 fX
 fY
 octaves
-PR_FALSE
+false
 doStitch
 filterX
 filterY
@@ -21920,7 +21920,7 @@ point
 fX
 fY
 octaves
-PR_TRUE
+true
 doStitch
 filterX
 filterY
@@ -24059,7 +24059,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -24068,7 +24068,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -26309,7 +26309,7 @@ nsGkAtoms
 :
 divisor
 1
-PR_FALSE
+false
 }
 {
 &
@@ -26318,7 +26318,7 @@ nsGkAtoms
 :
 bias
 0
-PR_FALSE
+false
 }
 }
 ;
@@ -26420,7 +26420,7 @@ nsGkAtoms
 :
 :
 preserveAlpha
-PR_FALSE
+false
 }
 }
 ;
@@ -26519,7 +26519,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -26528,7 +26528,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -28851,7 +28851,7 @@ nsGkAtoms
 :
 azimuth
 0
-PR_FALSE
+false
 }
 {
 &
@@ -28860,7 +28860,7 @@ nsGkAtoms
 :
 elevation
 0
-PR_FALSE
+false
 }
 }
 ;
@@ -29487,7 +29487,7 @@ nsGkAtoms
 :
 x
 0
-PR_FALSE
+false
 }
 {
 &
@@ -29496,7 +29496,7 @@ nsGkAtoms
 :
 y
 0
-PR_FALSE
+false
 }
 {
 &
@@ -29505,7 +29505,7 @@ nsGkAtoms
 :
 z
 0
-PR_FALSE
+false
 }
 }
 ;
@@ -30166,7 +30166,7 @@ nsGkAtoms
 :
 x
 0
-PR_FALSE
+false
 }
 {
 &
@@ -30175,7 +30175,7 @@ nsGkAtoms
 :
 y
 0
-PR_FALSE
+false
 }
 {
 &
@@ -30184,7 +30184,7 @@ nsGkAtoms
 :
 z
 0
-PR_FALSE
+false
 }
 {
 &
@@ -30193,7 +30193,7 @@ nsGkAtoms
 :
 pointsAtX
 0
-PR_FALSE
+false
 }
 {
 &
@@ -30202,7 +30202,7 @@ nsGkAtoms
 :
 pointsAtY
 0
-PR_FALSE
+false
 }
 {
 &
@@ -30211,7 +30211,7 @@ nsGkAtoms
 :
 pointsAtZ
 0
-PR_FALSE
+false
 }
 {
 &
@@ -30220,7 +30220,7 @@ nsGkAtoms
 :
 specularExponent
 1
-PR_FALSE
+false
 }
 {
 &
@@ -30229,7 +30229,7 @@ nsGkAtoms
 :
 limitingConeAngle
 0
-PR_FALSE
+false
 }
 }
 ;
@@ -31175,7 +31175,7 @@ nsGkAtoms
 :
 surfaceScale
 1
-PR_FALSE
+false
 }
 {
 &
@@ -31184,7 +31184,7 @@ nsGkAtoms
 :
 diffuseConstant
 1
-PR_FALSE
+false
 }
 {
 &
@@ -31193,7 +31193,7 @@ nsGkAtoms
 :
 specularConstant
 1
-PR_FALSE
+false
 }
 {
 &
@@ -31202,7 +31202,7 @@ nsGkAtoms
 :
 specularExponent
 1
-PR_FALSE
+false
 }
 }
 ;
@@ -31250,7 +31250,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -31259,7 +31259,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -35778,7 +35778,7 @@ Image
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 virtual
@@ -35846,7 +35846,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -35855,7 +35855,7 @@ nsGkAtoms
 :
 href
 kNameSpaceID_XLink
-PR_TRUE
+true
 }
 }
 ;
@@ -36510,7 +36510,7 @@ aValue
 {
 LoadSVGImage
 (
-PR_TRUE
+true
 aNotify
 )
 ;
@@ -36562,8 +36562,8 @@ NS_FAILED
 (
 LoadSVGImage
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 )
 |
@@ -36577,7 +36577,7 @@ LoadingEnabled
 {
 CancelImageRequests
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -37473,8 +37473,8 @@ HREF
 {
 LoadSVGImage
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 return
@@ -38151,7 +38151,7 @@ model
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -38276,7 +38276,7 @@ nsGkAtoms
 :
 scale
 0
-PR_FALSE
+false
 }
 }
 ;
@@ -38398,7 +38398,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -38407,7 +38407,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -38416,7 +38416,7 @@ nsGkAtoms
 :
 in2
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;

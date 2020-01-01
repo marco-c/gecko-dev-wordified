@@ -1049,7 +1049,7 @@ retval
 *
 retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1150,8 +1150,8 @@ getter_AddRefs
 (
 output
 )
-PR_FALSE
-PR_FALSE
+false
+false
 SEGMENT_SIZE
 SEGMENT_COUNT
 allocator

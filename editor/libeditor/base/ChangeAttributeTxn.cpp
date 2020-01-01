@@ -565,7 +565,7 @@ aRemoveAttribute
 ;
 mAttributeWasSet
 =
-PR_FALSE
+false
 ;
 mUndoValue
 .
@@ -669,7 +669,7 @@ IsEmpty
 )
 mAttributeWasSet
 =
-PR_TRUE
+true
 ;
 /
 /

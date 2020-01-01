@@ -513,7 +513,7 @@ if
 newptr
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -548,7 +548,7 @@ curPtr
 {
 meetMSB
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -665,7 +665,7 @@ newptr
 ;
 meetMSB
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -730,7 +730,7 @@ newptr
 newBuf
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -816,7 +816,7 @@ if
 newptr
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -853,7 +853,7 @@ curPtr
 )
 isInTag
 =
-PR_FALSE
+false
 ;
 else
 if
@@ -868,7 +868,7 @@ curPtr
 )
 isInTag
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1042,6 +1042,6 @@ newptr
 newBuf
 ;
 return
-PR_TRUE
+true
 ;
 }

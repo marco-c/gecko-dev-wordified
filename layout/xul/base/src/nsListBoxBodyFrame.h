@@ -1079,7 +1079,7 @@ NS_ENSURE_TRUE
 (
 !
 mBoxObject
-PR_FALSE
+false
 )
 ;
 mBoxObject
@@ -1087,7 +1087,7 @@ mBoxObject
 aBoxObject
 ;
 return
-PR_TRUE
+true
 ;
 }
 virtual

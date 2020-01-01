@@ -3612,7 +3612,7 @@ define
 MOZ_SEH_TRY
 if
 (
-PR_TRUE
+true
 )
 #
 define

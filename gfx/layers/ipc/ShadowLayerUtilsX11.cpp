@@ -670,7 +670,7 @@ out
 of
 scope
 return
-PR_TRUE
+true
 ;
 }
 SurfaceDescriptorX11
@@ -926,7 +926,7 @@ Shmem
 instead
 .
 return
-PR_FALSE
+false
 ;
 }
 gfxPlatform
@@ -990,7 +990,7 @@ failed
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 gfxXlibSurface
@@ -1035,7 +1035,7 @@ bufferX
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1117,7 +1117,7 @@ type
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -1335,7 +1335,7 @@ type
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return

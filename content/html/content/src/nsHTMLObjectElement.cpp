@@ -769,7 +769,7 @@ IsDisabled
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 virtual
@@ -877,7 +877,7 @@ StartObjectLoad
 {
 StartObjectLoad
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1019,7 +1019,7 @@ validation
 .
 SetBarredFromConstraintValidation
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -1080,7 +1080,7 @@ aHaveNotified
 {
 mIsDoneAddingChildren
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1590,7 +1590,7 @@ NS_ConvertUTF16toUTF8
 (
 type
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -1804,10 +1804,10 @@ aTabIndex
 *
 aIsFocusable
 =
-PR_FALSE
+false
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1913,10 +1913,10 @@ aTabIndex
 *
 aIsFocusable
 =
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1993,7 +1993,7 @@ GetIntegerValue
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -2444,7 +2444,7 @@ aResult
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -2687,7 +2687,7 @@ ctype
 }
 SetIsNetworkCreated
 (
-PR_FALSE
+false
 )
 ;
 }

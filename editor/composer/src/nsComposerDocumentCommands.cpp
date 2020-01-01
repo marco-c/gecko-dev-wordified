@@ -742,7 +742,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1429,7 +1429,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2694,7 +2694,7 @@ DoCommand
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

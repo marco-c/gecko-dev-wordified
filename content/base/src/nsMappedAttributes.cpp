@@ -1087,7 +1087,7 @@ aOther
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -1111,7 +1111,7 @@ mAttrCount
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -1187,12 +1187,12 @@ mValue
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 PRUint32

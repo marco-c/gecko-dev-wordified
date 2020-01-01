@@ -1488,7 +1488,7 @@ rv
 NS_NewLocalFile
 (
 filenameString
-PR_FALSE
+false
 getter_AddRefs
 (
 location
@@ -1542,7 +1542,7 @@ rv
 NS_NewLocalFile
 (
 absolutePath
-PR_FALSE
+false
 getter_AddRefs
 (
 location
@@ -8446,7 +8446,7 @@ _retval
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -8805,7 +8805,7 @@ _retval
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -9015,7 +9015,7 @@ _retval
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -11809,7 +11809,7 @@ crashReporter
 >
 SetEnabled
 (
-PR_FALSE
+false
 )
 ;
 crashReporter
@@ -11938,7 +11938,7 @@ NS_GRE_DIR
 *
 persistent
 =
-PR_TRUE
+true
 ;
 return
 mGREDir
@@ -11973,7 +11973,7 @@ file
 *
 persistent
 =
-PR_TRUE
+true
 ;
 if
 (

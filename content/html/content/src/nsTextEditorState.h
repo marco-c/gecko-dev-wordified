@@ -1824,7 +1824,7 @@ length
 attr
 *
 returns
-PR_FALSE
+false
 if
 attr
 not
@@ -1967,7 +1967,7 @@ WillInitEagerly
 {
 mSelectionRestoreEagerInit
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -2068,7 +2068,7 @@ aState
 )
 mGuardSet
 (
-PR_FALSE
+false
 )
 {
 if
@@ -2081,13 +2081,13 @@ mInitializing
 {
 mGuardSet
 =
-PR_TRUE
+true
 ;
 mState
 .
 mInitializing
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2105,7 +2105,7 @@ mState
 .
 mInitializing
 =
-PR_FALSE
+false
 ;
 }
 }

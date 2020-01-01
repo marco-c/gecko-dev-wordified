@@ -799,7 +799,7 @@ c
 }
 sTablesInitialized
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -2122,7 +2122,7 @@ needed
 TopLeft
 (
 )
-PR_TRUE
+true
 gfxPattern
 :
 :
@@ -2259,11 +2259,11 @@ aContext
 )
 mSucceeded
 (
-PR_TRUE
+true
 )
 mPushedGroup
 (
-PR_FALSE
+false
 )
 {
 /
@@ -2343,7 +2343,7 @@ out
 ;
 mSucceeded
 =
-PR_FALSE
+false
 ;
 return
 ;
@@ -2509,7 +2509,7 @@ OPERATOR_OVER
 ;
 mPushedGroup
 =
-PR_TRUE
+true
 ;
 }
 ~
@@ -2950,7 +2950,7 @@ tiling
 .
 doTile
 =
-PR_FALSE
+false
 ;
 }
 gfxContext
@@ -3218,7 +3218,7 @@ ClipToRegionInternal
 (
 aContext
 aRegion
-PR_FALSE
+false
 )
 ;
 }
@@ -3246,7 +3246,7 @@ ClipToRegionInternal
 (
 aContext
 aRegion
-PR_TRUE
+true
 )
 ;
 }
@@ -3443,7 +3443,7 @@ PathFromRegionInternal
 (
 aContext
 aRegion
-PR_FALSE
+false
 )
 ;
 }
@@ -3471,7 +3471,7 @@ PathFromRegionInternal
 (
 aContext
 aRegion
-PR_TRUE
+true
 )
 ;
 }
@@ -3755,7 +3755,7 @@ yuvtype
 {
 prescale
 =
-PR_FALSE
+false
 ;
 }
 #
@@ -3869,7 +3869,7 @@ YV24
 )
 prescale
 =
-PR_FALSE
+false
 ;
 }
 if

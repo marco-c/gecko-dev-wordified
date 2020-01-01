@@ -1517,7 +1517,7 @@ child
 container
 *
 return
-PR_TRUE
+true
 if
 parent
 can
@@ -1606,7 +1606,7 @@ not
 bool
 *
 return
-PR_TRUE
+true
 if
 given
 tag
@@ -1684,7 +1684,7 @@ of
 child
 *
 return
-PR_TRUE
+true
 if
 closure
 was
@@ -1782,7 +1782,7 @@ of
 child
 *
 return
-PR_TRUE
+true
 if
 closure
 was
@@ -1963,7 +1963,7 @@ about
 .
 *
 return
-PR_TRUE
+true
 if
 any
 of

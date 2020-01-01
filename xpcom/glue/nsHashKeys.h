@@ -736,7 +736,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 private
@@ -885,7 +885,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 private
@@ -1027,7 +1027,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 private
@@ -1172,7 +1172,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 private
@@ -1325,7 +1325,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 private
@@ -1488,7 +1488,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 protected
@@ -1766,7 +1766,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 private
@@ -1975,7 +1975,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 private
@@ -2171,7 +2171,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 private
@@ -2367,7 +2367,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 private
@@ -2509,7 +2509,7 @@ eq
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -2599,7 +2599,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 private

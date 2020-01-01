@@ -681,7 +681,7 @@ mBaseVal
 .
 mDefer
 =
-PR_FALSE
+false
 ;
 mAnimVal
 =
@@ -689,11 +689,11 @@ mBaseVal
 ;
 mIsAnimated
 =
-PR_FALSE
+false
 ;
 mIsBaseSet
 =
-PR_FALSE
+false
 ;
 }
 nsresult

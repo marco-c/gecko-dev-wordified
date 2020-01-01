@@ -2849,7 +2849,7 @@ nsnull
 )
 mUseShadowClipRect
 (
-PR_FALSE
+false
 )
 {
 }

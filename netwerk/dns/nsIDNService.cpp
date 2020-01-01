@@ -1015,7 +1015,7 @@ AddObserver
 (
 NS_NET_PREF_IDNTESTBED
 this
-PR_TRUE
+true
 )
 ;
 prefInternal
@@ -1025,7 +1025,7 @@ AddObserver
 (
 NS_NET_PREF_IDNPREFIX
 this
-PR_TRUE
+true
 )
 ;
 prefInternal
@@ -1035,7 +1035,7 @@ AddObserver
 (
 NS_NET_PREF_IDNBLACKLIST
 this
-PR_TRUE
+true
 )
 ;
 prefInternal
@@ -1045,7 +1045,7 @@ AddObserver
 (
 NS_NET_PREF_SHOWPUNYCODE
 this
-PR_TRUE
+true
 )
 ;
 prefsChanged
@@ -1392,7 +1392,7 @@ kIDNSPrefix
 ;
 mMultilingualTestBed
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1473,7 +1473,7 @@ UTF8toACE
 (
 input
 ace
-PR_TRUE
+true
 )
 ;
 }
@@ -1745,7 +1745,7 @@ ACEtoUTF8
 (
 input
 _retval
-PR_TRUE
+true
 )
 ;
 }
@@ -2280,7 +2280,7 @@ len
 1
 )
 outLabel
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2335,7 +2335,7 @@ offset
 len
 )
 outLabel
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2518,7 +2518,7 @@ ACEtoUTF8
 (
 temp
 _retval
-PR_FALSE
+false
 )
 ;
 *
@@ -2535,7 +2535,7 @@ else
 *
 _isASCII
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2609,7 +2609,7 @@ _retval
 *
 _isASCII
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2689,7 +2689,7 @@ _retval
 *
 _isASCII
 =
-PR_TRUE
+true
 ;
 return
 ConvertUTF8toACE
@@ -4556,13 +4556,13 @@ UTF8toACE
 (
 tld
 tld
-PR_FALSE
+false
 )
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -4600,7 +4600,7 @@ pos
 kNotFound
 )
 return
-PR_FALSE
+false
 ;
 tld
 .
@@ -4639,6 +4639,6 @@ safe
 ;
 }
 return
-PR_FALSE
+false
 ;
 }

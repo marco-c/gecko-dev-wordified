@@ -1176,7 +1176,7 @@ leafName
 Find
 (
 token
-PR_TRUE
+true
 )
 !
 =
@@ -1511,7 +1511,7 @@ nsTraceRefcntImpl
 :
 SetActivityIsLegal
 (
-PR_FALSE
+false
 )
 ;
 #
@@ -1574,7 +1574,7 @@ nsTraceRefcntImpl
 :
 SetActivityIsLegal
 (
-PR_TRUE
+true
 )
 ;
 #

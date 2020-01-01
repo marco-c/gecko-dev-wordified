@@ -1475,7 +1475,7 @@ newJArray
 ;
 needToDropLF
 =
-PR_FALSE
+false
 ;
 originalMode
 =
@@ -1528,7 +1528,7 @@ newJArray
 ;
 framesetOk
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1790,7 +1790,7 @@ forceQuirks
 {
 needToDropLF
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1869,7 +1869,7 @@ documentModeInternal
 QUIRKS_MODE
 publicIdentifier
 systemIdentifier
-PR_FALSE
+false
 )
 ;
 }
@@ -1888,7 +1888,7 @@ documentModeInternal
 ALMOST_STANDARDS_MODE
 publicIdentifier
 systemIdentifier
-PR_FALSE
+false
 )
 ;
 }
@@ -1899,7 +1899,7 @@ documentModeInternal
 STANDARDS_MODE
 publicIdentifier
 systemIdentifier
-PR_FALSE
+false
 )
 ;
 }
@@ -1938,7 +1938,7 @@ length
 {
 needToDropLF
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2053,7 +2053,7 @@ needToDropLF
 {
 needToDropLF
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2417,7 +2417,7 @@ documentModeInternal
 QUIRKS_MODE
 nsnull
 nsnull
-PR_FALSE
+false
 )
 ;
 mode
@@ -2636,7 +2636,7 @@ NS_HTML5TREE_BUILDER_FRAMESET_OK
 {
 framesetOk
 =
-PR_FALSE
+false
 ;
 mode
 =
@@ -3073,7 +3073,7 @@ documentModeInternal
 QUIRKS_MODE
 nsnull
 nsnull
-PR_FALSE
+false
 )
 ;
 mode
@@ -3459,7 +3459,7 @@ eltPos
 ;
 needToDropLF
 =
-PR_FALSE
+false
 ;
 starttagloop
 :
@@ -3750,7 +3750,7 @@ attributes
 ;
 selfClosing
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -3794,7 +3794,7 @@ attributes
 ;
 selfClosing
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -4414,7 +4414,7 @@ formPointer
 ;
 selfClosing
 =
-PR_FALSE
+false
 ;
 attributes
 =
@@ -4825,7 +4825,7 @@ ATTR_TYPE
 {
 framesetOk
 =
-PR_FALSE
+false
 ;
 mode
 =
@@ -4943,7 +4943,7 @@ starttagloop
 }
 framesetOk
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -5096,7 +5096,7 @@ attributes
 ;
 needToDropLF
 =
-PR_TRUE
+true
 ;
 attributes
 =
@@ -5709,7 +5709,7 @@ attributes
 ;
 selfClosing
 =
-PR_FALSE
+false
 ;
 attributes
 =
@@ -5737,7 +5737,7 @@ attributes
 ;
 selfClosing
 =
-PR_FALSE
+false
 ;
 attributes
 =
@@ -5786,7 +5786,7 @@ formPointer
 ;
 selfClosing
 =
-PR_FALSE
+false
 ;
 attributes
 =
@@ -6131,7 +6131,7 @@ pop
 ;
 selfClosing
 =
-PR_FALSE
+false
 ;
 NS_HTML5_BREAK
 (
@@ -6169,7 +6169,7 @@ NS_HTML5TREE_BUILDER_TEXT
 ;
 needToDropLF
 =
-PR_TRUE
+true
 ;
 attributes
 =
@@ -6505,7 +6505,7 @@ attributes
 ;
 selfClosing
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -6555,7 +6555,7 @@ attributes
 ;
 selfClosing
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -6721,7 +6721,7 @@ attributes
 ;
 selfClosing
 =
-PR_FALSE
+false
 ;
 attributes
 =
@@ -6996,7 +6996,7 @@ attributes
 ;
 selfClosing
 =
-PR_FALSE
+false
 ;
 attributes
 =
@@ -7025,7 +7025,7 @@ attributes
 ;
 selfClosing
 =
-PR_FALSE
+false
 ;
 attributes
 =
@@ -7160,7 +7160,7 @@ attributes
 ;
 selfClosing
 =
-PR_FALSE
+false
 ;
 attributes
 =
@@ -7646,7 +7646,7 @@ attributes
 ;
 selfClosing
 =
-PR_FALSE
+false
 ;
 attributes
 =
@@ -7759,7 +7759,7 @@ documentModeInternal
 QUIRKS_MODE
 nsnull
 nsnull
-PR_FALSE
+false
 )
 ;
 mode
@@ -7979,7 +7979,7 @@ attributes
 }
 framesetOk
 =
-PR_FALSE
+false
 ;
 mode
 =
@@ -8035,7 +8035,7 @@ attributes
 ;
 selfClosing
 =
-PR_FALSE
+false
 ;
 pop
 (
@@ -8067,7 +8067,7 @@ attributes
 ;
 selfClosing
 =
-PR_FALSE
+false
 ;
 pop
 (
@@ -8104,7 +8104,7 @@ attributes
 ;
 selfClosing
 =
-PR_FALSE
+false
 ;
 pop
 (
@@ -9348,7 +9348,7 @@ flushCharacters
 ;
 needToDropLF
 =
-PR_FALSE
+false
 ;
 PRInt32
 eltPos
@@ -11361,7 +11361,7 @@ documentModeInternal
 QUIRKS_MODE
 nsnull
 nsnull
-PR_FALSE
+false
 )
 ;
 mode
@@ -12427,7 +12427,7 @@ publicIdentifier
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -12459,7 +12459,7 @@ publicIdentifier
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -12496,7 +12496,7 @@ publicIdentifier
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -12528,12 +12528,12 @@ publicIdentifier
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -12561,7 +12561,7 @@ forceQuirks
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -12576,7 +12576,7 @@ html
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -12624,7 +12624,7 @@ publicIdentifier
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -12695,7 +12695,7 @@ publicIdentifier
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -12734,7 +12734,7 @@ publicIdentifier
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -12767,7 +12767,7 @@ publicIdentifier
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -12807,11 +12807,11 @@ systemIdentifier
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -13438,7 +13438,7 @@ currentPtr
 nsnull
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -13457,7 +13457,7 @@ listPtr
 nsnull
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -14051,7 +14051,7 @@ formattingEltListPos
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsHtml5StackNode
@@ -14114,7 +14114,7 @@ isScoping
 {
 inScope
 =
-PR_FALSE
+false
 ;
 }
 formattingEltStackPos
@@ -14137,7 +14137,7 @@ formattingEltListPos
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -14147,7 +14147,7 @@ inScope
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 PRInt32
@@ -14218,7 +14218,7 @@ formattingEltListPos
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsHtml5StackNode
@@ -14623,7 +14623,7 @@ furthestBlockPos
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -15128,12 +15128,12 @@ attributes
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -15538,12 +15538,12 @@ node
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -16268,7 +16268,7 @@ attributes
 {
 markAsHtmlIntegrationPoint
 =
-PR_TRUE
+true
 ;
 }
 nsHtml5StackNode
@@ -16323,7 +16323,7 @@ encoding
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -17448,13 +17448,13 @@ default
 :
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsAHtml5TreeBuilderState
@@ -17897,7 +17897,7 @@ isQuirks
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -17956,7 +17956,7 @@ i
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -17980,7 +17980,7 @@ node
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -18024,12 +18024,12 @@ node
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 void

@@ -1849,7 +1849,7 @@ NS_GET_IID
 (
 nsISupports
 )
-PR_TRUE
+true
 &
 retval
 nsnull
@@ -2299,7 +2299,7 @@ nsnull
 )
 mInitialized
 (
-PR_FALSE
+false
 )
 {
 NS_ASSERTION
@@ -2713,7 +2713,7 @@ shutdown
 -
 loaders
 "
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2757,7 +2757,7 @@ n
 endif
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4649,7 +4649,7 @@ out
 .
 writeToCache
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5698,7 +5698,7 @@ UnloadModules
 {
 mInitialized
 =
-PR_FALSE
+false
 ;
 mInProgressImports
 .

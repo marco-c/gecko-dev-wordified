@@ -726,7 +726,7 @@ set_default
 is
 set
 to
-PR_TRUE
+true
 however
 it
 sets

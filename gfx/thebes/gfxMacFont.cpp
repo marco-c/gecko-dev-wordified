@@ -572,7 +572,7 @@ mCGFont
 {
 mIsValid
 =
-PR_FALSE
+false
 ;
 return
 ;
@@ -626,7 +626,7 @@ CAIRO_STATUS_SUCCESS
 {
 mIsValid
 =
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -889,7 +889,7 @@ CAIRO_STATUS_SUCCESS
 {
 mIsValid
 =
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -1032,7 +1032,7 @@ rendering
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1142,7 +1142,7 @@ further
 drawing
 .
 return
-PR_FALSE
+false
 ;
 }
 cairo_set_scaled_font
@@ -1157,7 +1157,7 @@ mScaledFont
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 gfxFont
@@ -1297,7 +1297,7 @@ InitMetrics
 {
 mIsValid
 =
-PR_FALSE
+false
 ;
 :
 :
@@ -3155,7 +3155,7 @@ ctFont
 ;
 mIsValid
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -3361,6 +3361,6 @@ mAdjustedSize
 ;
 mIsValid
 =
-PR_TRUE
+true
 ;
 }

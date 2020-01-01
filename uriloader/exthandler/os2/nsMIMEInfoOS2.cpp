@@ -1578,7 +1578,7 @@ rwsSvc
 {
 sUseRws
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1844,7 +1844,7 @@ rwsSvc
 {
 sUseRws
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1941,7 +1941,7 @@ process
 >
 Run
 (
-PR_FALSE
+false
 &
 strPath
 1
@@ -3284,7 +3284,7 @@ uURL
 ;
 replaced
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3727,7 +3727,7 @@ kNotFound
 {
 replaced
 =
-PR_TRUE
+true
 ;
 parameters
 .
@@ -3766,7 +3766,7 @@ kNotFound
 {
 replaced
 =
-PR_TRUE
+true
 ;
 parameters
 .
@@ -3805,7 +3805,7 @@ kNotFound
 {
 replaced
 =
-PR_TRUE
+true
 ;
 parameters
 .
@@ -3844,7 +3844,7 @@ kNotFound
 {
 replaced
 =
-PR_TRUE
+true
 ;
 parameters
 .
@@ -3883,7 +3883,7 @@ kNotFound
 {
 replaced
 =
-PR_TRUE
+true
 ;
 parameters
 .
@@ -3922,7 +3922,7 @@ kNotFound
 {
 replaced
 =
-PR_TRUE
+true
 ;
 parameters
 .
@@ -3961,7 +3961,7 @@ kNotFound
 {
 replaced
 =
-PR_TRUE
+true
 ;
 parameters
 .
@@ -4000,7 +4000,7 @@ kNotFound
 {
 replaced
 =
-PR_TRUE
+true
 ;
 parameters
 .
@@ -4039,7 +4039,7 @@ kNotFound
 {
 replaced
 =
-PR_TRUE
+true
 ;
 parameters
 .
@@ -4179,7 +4179,7 @@ get
 (
 )
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 application
@@ -4254,7 +4254,7 @@ nsDependentCString
 (
 szAppPath
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 application
@@ -4301,7 +4301,7 @@ COMSPEC
 "
 )
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 application
@@ -4398,7 +4398,7 @@ process
 >
 Run
 (
-PR_FALSE
+false
 params
 numParams
 )

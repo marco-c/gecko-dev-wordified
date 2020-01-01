@@ -2656,7 +2656,7 @@ UTF
 )
 gIsNativeUTF8
 =
-PR_TRUE
+true
 ;
 gNativeToUnicode
 =
@@ -3089,7 +3089,7 @@ output_left
 endif
 gInitialized
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -3252,7 +3252,7 @@ INVALID_ICONV_T
 endif
 gInitialized
 =
-PR_FALSE
+false
 ;
 }
 nsNativeCharsetConverter
@@ -5418,7 +5418,7 @@ IsNativeUTF8
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 #

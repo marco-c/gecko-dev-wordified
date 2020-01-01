@@ -698,25 +698,25 @@ appProtocols
 "
 http
 "
-PR_TRUE
+true
 }
 {
 "
 https
 "
-PR_TRUE
+true
 }
 {
 "
 ftp
 "
-PR_FALSE
+false
 }
 {
 "
 chrome
 "
-PR_FALSE
+false
 }
 }
 ;
@@ -1164,7 +1164,7 @@ if
 launcher
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1208,7 +1208,7 @@ fullpath
 )
 mAppIsInPath
 =
-PR_TRUE
+true
 ;
 g_free
 (
@@ -1231,7 +1231,7 @@ if
 tmp
 )
 return
-PR_FALSE
+false
 ;
 mAppPath
 =
@@ -1239,7 +1239,7 @@ tmp
 ;
 mAppIsInPath
 =
-PR_TRUE
+true
 ;
 }
 g_free
@@ -1248,7 +1248,7 @@ tmp
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1306,7 +1306,7 @@ encoding
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 commandPath
@@ -1338,7 +1338,7 @@ if
 commandPath
 )
 return
-PR_FALSE
+false
 ;
 bool
 matches
@@ -1477,7 +1477,7 @@ get
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -1489,7 +1489,7 @@ to
 another
 app
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -1508,7 +1508,7 @@ aIsDefaultBrowser
 *
 aIsDefaultBrowser
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1516,7 +1516,7 @@ aStartupCheck
 )
 mCheckedThisSession
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -1713,7 +1713,7 @@ app
 *
 aIsDefaultBrowser
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2246,7 +2246,7 @@ mCheckedThisSession
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2969,7 +2969,7 @@ NS_LITERAL_CSTRING
 (
 kDesktopDrawBGGSKey
 )
-PR_TRUE
+true
 )
 ;
 return
@@ -3100,7 +3100,7 @@ NS_LITERAL_CSTRING
 (
 kDesktopDrawBGKey
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -3994,7 +3994,7 @@ process
 >
 Run
 (
-PR_FALSE
+false
 &
 specStr
 1

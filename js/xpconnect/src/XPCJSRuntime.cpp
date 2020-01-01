@@ -2989,7 +2989,7 @@ closure
 >
 cycleCollectionEnabled
 =
-PR_FALSE
+false
 ;
 entry
 -
@@ -3784,7 +3784,7 @@ closure
 =
 {
 cx
-PR_TRUE
+true
 &
 cb
 }
@@ -6234,7 +6234,7 @@ self
 >
 mWatchdogHibernating
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -6374,7 +6374,7 @@ self
 >
 mWatchdogHibernating
 =
-PR_FALSE
+false
 ;
 PR_NotifyCondVar
 (
@@ -12751,7 +12751,7 @@ nsnull
 )
 mWatchdogHibernating
 (
-PR_FALSE
+false
 )
 mLastActiveTime
 (

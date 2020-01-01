@@ -1246,11 +1246,11 @@ LAYERS_D3D10
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 Layer
@@ -2450,7 +2450,7 @@ aDevice
 )
 mHasData
 (
-PR_FALSE
+false
 )
 {
 }
@@ -2485,7 +2485,7 @@ AllocateTextures
 ;
 mHasData
 =
-PR_TRUE
+true
 ;
 }
 void

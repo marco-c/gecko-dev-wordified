@@ -974,7 +974,7 @@ pagenumber
 1
 d
 "
-PR_TRUE
+true
 )
 ;
 SetPageNumberFormat
@@ -991,7 +991,7 @@ of
 2
 d
 "
-PR_FALSE
+false
 )
 ;
 }
@@ -3785,7 +3785,7 @@ this
 page
 mPrintThisPage
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -3824,7 +3824,7 @@ mFromPageNum
 {
 mPrintThisPage
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -3873,7 +3873,7 @@ printOddPages
 {
 mPrintThisPage
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3896,7 +3896,7 @@ printEvenPages
 {
 mPrintThisPage
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3922,7 +3922,7 @@ mPrintRangeType
 {
 mPrintThisPage
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -4484,7 +4484,7 @@ else
 {
 continuePrinting
 =
-PR_FALSE
+false
 ;
 }
 }

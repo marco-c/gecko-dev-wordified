@@ -546,7 +546,7 @@ If
 they
 are
 then
-PR_TRUE
+true
 is
 returned
 and
@@ -567,7 +567,7 @@ in
 the
 map
 then
-PR_FALSE
+false
 *
 is
 returned

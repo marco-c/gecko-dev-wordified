@@ -534,7 +534,7 @@ eStateUninitialized
 )
 mFirstDoOfFirstUndo
 (
-PR_TRUE
+true
 )
 {
 }
@@ -795,7 +795,7 @@ aInterrupt
 *
 aInterrupt
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -869,7 +869,7 @@ undo
 ;
 mFirstDoOfFirstUndo
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -896,7 +896,7 @@ aInterrupt
 *
 aInterrupt
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -939,7 +939,7 @@ undoCount
 )
 mFirstDoOfFirstUndo
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -984,7 +984,7 @@ aInterrupt
 *
 aInterrupt
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1037,7 +1037,7 @@ aInterrupt
 *
 aInterrupt
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1077,7 +1077,7 @@ aInterrupt
 *
 aInterrupt
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1123,7 +1123,7 @@ aInterrupt
 *
 aInterrupt
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1872,7 +1872,7 @@ mDOMWindow
 NS_ENSURE_TRUE
 (
 domWindow
-PR_TRUE
+true
 )
 ;
 nsCOMPtr
@@ -1933,7 +1933,7 @@ domSelection
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 already_AddRefed

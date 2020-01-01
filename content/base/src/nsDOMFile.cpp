@@ -1050,7 +1050,7 @@ GetMutable
 )
 =
 =
-PR_FALSE
+false
 NS_IMPL_THREADSAFE_ADDREF
 (
 nsDOMFileBase
@@ -2321,7 +2321,7 @@ mContentType
 .
 SetIsVoid
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2652,7 +2652,7 @@ rv
 NS_NewLocalFile
 (
 xpcomStr
-PR_FALSE
+false
 getter_AddRefs
 (
 localFile

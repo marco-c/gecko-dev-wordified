@@ -1184,7 +1184,7 @@ mTarget
 >
 GetListenerManager
 (
-PR_FALSE
+false
 )
 )
 ;
@@ -2840,7 +2840,7 @@ newTarget
 ;
 retargeted
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3937,7 +3937,7 @@ NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_CAPTURE
 aCallback
-PR_FALSE
+false
 &
 pusher
 )

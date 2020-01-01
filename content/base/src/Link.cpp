@@ -3147,7 +3147,7 @@ NS_ConvertUTF8toUTF16
 (
 href
 )
-PR_TRUE
+true
 )
 ;
 }

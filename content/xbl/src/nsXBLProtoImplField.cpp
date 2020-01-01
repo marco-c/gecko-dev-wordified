@@ -786,7 +786,7 @@ happen
 *
 aDidInstall
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -999,7 +999,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 aDidInstall
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

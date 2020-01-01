@@ -2393,7 +2393,7 @@ aResult
 >
 mWasAsync
 =
-PR_TRUE
+true
 ;
 return
 ReadParam

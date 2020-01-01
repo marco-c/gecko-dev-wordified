@@ -505,7 +505,7 @@ mNext
 mLimit
 )
 return
-PR_FALSE
+false
 ;
 mCur
 =
@@ -565,7 +565,7 @@ mNext
 break
 ;
 return
-PR_TRUE
+true
 ;
 }
 +
@@ -578,7 +578,7 @@ mLength
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 int

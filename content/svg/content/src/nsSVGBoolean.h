@@ -477,7 +477,7 @@ aAttrEnum
 ;
 mIsAnimated
 =
-PR_FALSE
+false
 ;
 }
 nsresult

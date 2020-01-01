@@ -656,27 +656,27 @@ nsAutoCompleteController
 :
 mDefaultIndexCompleted
 (
-PR_FALSE
+false
 )
 mBackspaced
 (
-PR_FALSE
+false
 )
 mPopupClosedByCompositionStart
 (
-PR_FALSE
+false
 )
 mIsIMEComposing
 (
-PR_FALSE
+false
 )
 mIgnoreHandleText
 (
-PR_FALSE
+false
 )
 mIsOpen
 (
-PR_FALSE
+false
 )
 mSearchStatus
 (
@@ -695,7 +695,7 @@ mSearchesOngoing
 )
 mFirstSearchResult
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1016,11 +1016,11 @@ newValue
 ;
 mDefaultIndexCompleted
 =
-PR_FALSE
+false
 ;
 mBackspaced
 =
-PR_FALSE
+false
 ;
 mSearchStatus
 =
@@ -1453,7 +1453,7 @@ mIgnoreHandleText
 {
 mIgnoreHandleText
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1686,13 +1686,13 @@ ClearResults
 ;
 mBackspaced
 =
-PR_TRUE
+true
 ;
 }
 else
 mBackspaced
 =
-PR_FALSE
+false
 ;
 mSearchString
 =
@@ -1753,7 +1753,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1872,7 +1872,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1949,11 +1949,11 @@ NS_OK
 ;
 mPopupClosedByCompositionStart
 =
-PR_FALSE
+false
 ;
 mIsIMEComposing
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2069,7 +2069,7 @@ NS_OK
 ;
 mIsIMEComposing
 =
-PR_FALSE
+false
 ;
 bool
 forceOpenPopup
@@ -2078,7 +2078,7 @@ mPopupClosedByCompositionStart
 ;
 mPopupClosedByCompositionStart
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2184,7 +2184,7 @@ research
 .
 mIgnoreHandleText
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2204,7 +2204,7 @@ cancel
 return
 HandleEnter
 (
-PR_FALSE
+false
 &
 cancel
 )
@@ -2236,7 +2236,7 @@ event
 *
 _retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2444,7 +2444,7 @@ systems
 *
 _retval
 =
-PR_TRUE
+true
 ;
 bool
 isOpen
@@ -2485,9 +2485,9 @@ nsIDOMKeyEvent
 :
 DOM_VK_PAGE_UP
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 bool
 page
@@ -2509,9 +2509,9 @@ nsIDOMKeyEvent
 :
 DOM_VK_PAGE_DOWN
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 /
 /
@@ -2635,7 +2635,7 @@ NS_SUCCEEDED
 GetResultValueAt
 (
 selectedIndex
-PR_TRUE
+true
 value
 )
 )
@@ -2816,7 +2816,7 @@ end
 *
 _retval
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2882,7 +2882,7 @@ Length
 *
 _retval
 =
-PR_FALSE
+false
 ;
 }
 #
@@ -3132,7 +3132,7 @@ NS_SUCCEEDED
 GetResultValueAt
 (
 selectedIndex
-PR_TRUE
+true
 value
 )
 )
@@ -3251,7 +3251,7 @@ NS_SUCCEEDED
 GetDefaultCompleteValue
 (
 selectedIndex
-PR_FALSE
+false
 value
 )
 )
@@ -3384,7 +3384,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3546,7 +3546,7 @@ result
 RemoveValueAt
 (
 rowIndex
-PR_TRUE
+true
 )
 ;
 -
@@ -3573,7 +3573,7 @@ call
 *
 _retval
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -3707,7 +3707,7 @@ NS_SUCCEEDED
 GetResultValueAt
 (
 index
-PR_TRUE
+true
 value
 )
 )
@@ -3847,7 +3847,7 @@ _retval
 GetResultLabelAt
 (
 aIndex
-PR_FALSE
+false
 _retval
 )
 ;
@@ -3871,7 +3871,7 @@ _retval
 GetResultLabelAt
 (
 aIndex
-PR_FALSE
+false
 _retval
 )
 ;
@@ -4750,7 +4750,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -4871,7 +4871,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -5061,7 +5061,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -5086,7 +5086,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -5108,7 +5108,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -5128,7 +5128,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -5337,7 +5337,7 @@ minResults
 {
 mIsOpen
 =
-PR_TRUE
+true
 ;
 return
 mInput
@@ -5345,7 +5345,7 @@ mInput
 >
 SetPopupOpen
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -5430,7 +5430,7 @@ SetSelectedIndex
 ;
 mIsOpen
 =
-PR_FALSE
+false
 ;
 return
 mInput
@@ -5438,7 +5438,7 @@ mInput
 >
 SetPopupOpen
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -5473,7 +5473,7 @@ STATUS_SEARCHING
 ;
 mDefaultIndexCompleted
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -5533,7 +5533,7 @@ count
 ;
 mFirstSearchResult
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -6313,7 +6313,7 @@ aIsPopupSelection
 GetResultValueAt
 (
 selectedIndex
-PR_TRUE
+true
 value
 )
 ;
@@ -6403,7 +6403,7 @@ NS_SUCCEEDED
 GetDefaultCompleteValue
 (
 selectedIndex
-PR_FALSE
+false
 defaultIndexValue
 )
 )
@@ -6935,7 +6935,7 @@ ClearResults
 ;
 mFirstSearchResult
 =
-PR_FALSE
+false
 ;
 }
 PRUint16
@@ -7767,7 +7767,7 @@ NS_SUCCEEDED
 GetDefaultCompleteValue
 (
 aSearchIndex
-PR_TRUE
+true
 resultValue
 )
 )
@@ -7779,7 +7779,7 @@ resultValue
 ;
 mDefaultIndexCompleted
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -8600,7 +8600,7 @@ GetResultValueLabelAt
 (
 aIndex
 aValueOnly
-PR_FALSE
+false
 _retval
 )
 ;
@@ -8625,7 +8625,7 @@ GetResultValueLabelAt
 (
 aIndex
 aValueOnly
-PR_TRUE
+true
 _retval
 )
 ;

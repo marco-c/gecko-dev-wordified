@@ -1560,7 +1560,7 @@ len
 {
 invalid
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -1834,11 +1834,11 @@ val
 ;
 invalid
 =
-PR_FALSE
+false
 ;
 first
 =
-PR_FALSE
+false
 ;
 }
 CopyASCIItoUTF16
@@ -5163,7 +5163,7 @@ escapedValue
 SECITEM_FreeItem
 (
 decodeItem
-PR_TRUE
+true
 )
 ;
 return
@@ -5206,7 +5206,7 @@ status
 SECITEM_FreeItem
 (
 decodeItem
-PR_TRUE
+true
 )
 ;
 return
@@ -5223,7 +5223,7 @@ escapedValue
 SECITEM_FreeItem
 (
 decodeItem
-PR_TRUE
+true
 )
 ;
 params
@@ -5738,7 +5738,7 @@ if
 !
 PORT_UCS2_UTF8Conversion
 (
-PR_FALSE
+false
 data
 len
 utf8Val
@@ -5840,7 +5840,7 @@ text
 PORT_FreeArena
 (
 arena
-PR_FALSE
+false
 )
 ;
 return
@@ -7004,7 +7004,7 @@ finish
 PORT_FreeArena
 (
 arena
-PR_FALSE
+false
 )
 ;
 return
@@ -7125,7 +7125,7 @@ finish
 PORT_FreeArena
 (
 arena
-PR_FALSE
+false
 )
 ;
 return
@@ -7385,7 +7385,7 @@ finish
 PORT_FreeArena
 (
 arena
-PR_FALSE
+false
 )
 ;
 return
@@ -7789,7 +7789,7 @@ notice
 PORT_FreeArena
 (
 arena
-PR_FALSE
+false
 )
 ;
 return
@@ -8027,7 +8027,7 @@ SEPARATOR
 ;
 needColon
 =
-PR_FALSE
+false
 ;
 nssComponent
 -
@@ -8967,7 +8967,7 @@ finish
 PORT_FreeArena
 (
 arena
-PR_FALSE
+false
 )
 ;
 return
@@ -9178,7 +9178,7 @@ finish
 PORT_FreeArena
 (
 arena
-PR_FALSE
+false
 )
 ;
 return
@@ -9860,7 +9860,7 @@ extension
 >
 value
 extvalue
-PR_FALSE
+false
 )
 ;
 }
@@ -10012,7 +10012,7 @@ sequence
 >
 SetIsValidContainer
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -10070,7 +10070,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-PR_FALSE
+false
 )
 ;
 nssComponent
@@ -10115,7 +10115,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-PR_FALSE
+false
 )
 ;
 nssComponent
@@ -10447,7 +10447,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-PR_FALSE
+false
 )
 ;
 return
@@ -10587,7 +10587,7 @@ asn1Objects
 AppendElement
 (
 sequenceItem
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -10710,7 +10710,7 @@ rsa
 .
 modulus
 data1
-PR_FALSE
+false
 )
 ;
 ProcessRawBytes
@@ -10726,7 +10726,7 @@ rsa
 .
 publicExponent
 data2
-PR_FALSE
+false
 )
 ;
 const
@@ -10855,7 +10855,7 @@ ecpk
 .
 publicValue
 s_pv
-PR_FALSE
+false
 )
 ;
 }
@@ -11064,7 +11064,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-PR_FALSE
+false
 )
 ;
 parentSequence
@@ -11084,7 +11084,7 @@ asn1Objects
 AppendElement
 (
 spkiSequence
-PR_FALSE
+false
 )
 ;
 return
@@ -11237,7 +11237,7 @@ asn1Objects
 AppendElement
 (
 newExtension
-PR_FALSE
+false
 )
 ;
 }
@@ -11258,7 +11258,7 @@ asn1Objects
 AppendElement
 (
 extensionSequence
-PR_FALSE
+false
 )
 ;
 return
@@ -11645,7 +11645,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-PR_FALSE
+false
 )
 ;
 rv
@@ -11680,7 +11680,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -11740,7 +11740,7 @@ asn1Objects
 AppendElement
 (
 algID
-PR_FALSE
+false
 )
 ;
 nsXPIDLString
@@ -11810,7 +11810,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -11849,7 +11849,7 @@ asn1Objects
 AppendElement
 (
 validitySequence
-PR_FALSE
+false
 )
 ;
 nssComponent
@@ -12024,7 +12024,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-PR_FALSE
+false
 )
 ;
 rv
@@ -12193,7 +12193,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-PR_FALSE
+false
 )
 ;
 }
@@ -12327,7 +12327,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-PR_FALSE
+false
 )
 ;
 }
@@ -12566,7 +12566,7 @@ asn1Objects
 AppendElement
 (
 sequence
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -12631,7 +12631,7 @@ asn1Objects
 AppendElement
 (
 algID
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -12761,7 +12761,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-PR_FALSE
+false
 )
 ;
 return
@@ -12825,9 +12825,9 @@ trust
 .
 HasPeer
 (
-PR_TRUE
-PR_FALSE
-PR_FALSE
+true
+false
+false
 )
 )
 return
@@ -12842,9 +12842,9 @@ trust
 .
 HasPeer
 (
-PR_FALSE
-PR_TRUE
-PR_FALSE
+false
+true
+false
 )
 &
 &

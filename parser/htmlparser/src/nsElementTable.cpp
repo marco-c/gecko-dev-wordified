@@ -14230,7 +14230,7 @@ mCount
 )
 result
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -14305,7 +14305,7 @@ eHTMLTag_head
 :
 result
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -14313,7 +14313,7 @@ default
 :
 result
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -14456,7 +14456,7 @@ they
 please
 .
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -14494,7 +14494,7 @@ mCount
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -14518,7 +14518,7 @@ mExclusionBits
 {
 result
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -14598,7 +14598,7 @@ mCount
 )
 result
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -14734,7 +14734,7 @@ eHTMLTag_tr
 :
 result
 =
-PR_TRUE
+true
 ;
 default
 :
@@ -14906,7 +14906,7 @@ aExclusively
 {
 aExclusively
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -14931,7 +14931,7 @@ kHeadContent
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -14961,14 +14961,14 @@ kHeadMisc
 {
 aExclusively
 =
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -15079,7 +15079,7 @@ allowDepthSearch
 else
 result
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -15353,7 +15353,7 @@ eHTMLTag_u
 :
 result
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -15389,7 +15389,7 @@ eHTMLTag_var
 :
 result
 =
-PR_FALSE
+false
 ;
 default
 :
@@ -15496,7 +15496,7 @@ eHTMLTag_whitespace
 :
 result
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -15560,7 +15560,7 @@ eHTMLTag_whitespace
 :
 result
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -15796,7 +15796,7 @@ eHTMLTag_td
 {
 result
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -17170,7 +17170,7 @@ they
 please
 .
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -17233,7 +17233,7 @@ mCount
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -17274,7 +17274,7 @@ mCount
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -17290,7 +17290,7 @@ mTagID
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -17317,7 +17317,7 @@ mTagID
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -17344,7 +17344,7 @@ mTagID
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -17371,7 +17371,7 @@ mTagID
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -17414,7 +17414,7 @@ kCDATA
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -17432,7 +17432,7 @@ mParentBits
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -17457,7 +17457,7 @@ mCount
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -17502,12 +17502,12 @@ eDTDMode_quirks
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 #

@@ -661,7 +661,7 @@ nsIFrame
 (
 this
 )
-PR_FALSE
+false
 )
 ;
 nsContentUtils
@@ -1009,7 +1009,7 @@ nsFormControlFrame
 RegUnRegAccessKey
 (
 this
-PR_TRUE
+true
 )
 ;
 }

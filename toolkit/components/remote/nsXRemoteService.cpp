@@ -966,7 +966,7 @@ end
 )
 )
 return
-PR_FALSE
+false
 ;
 nsACString
 :
@@ -1027,7 +1027,7 @@ idEnd
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsXRemoteService
@@ -1109,7 +1109,7 @@ xpcom
 -
 shutdown
 "
-PR_FALSE
+false
 )
 ;
 obs
@@ -1123,7 +1123,7 @@ quit
 -
 application
 "
-PR_FALSE
+false
 )
 ;
 }
@@ -1539,7 +1539,7 @@ result
 Success
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -1579,7 +1579,7 @@ data
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -1668,7 +1668,7 @@ data
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -1692,7 +1692,7 @@ on
 wayne
 .
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -1711,11 +1711,11 @@ locked
 the
 window
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -1882,8 +1882,8 @@ Trim
 (
 "
 "
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 ToLowerCase
@@ -2230,7 +2230,7 @@ nsDependentCString
 (
 wd
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 lf

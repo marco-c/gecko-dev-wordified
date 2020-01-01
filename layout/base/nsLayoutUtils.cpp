@@ -1129,7 +1129,7 @@ s3DTransformPrefCached
 {
 s3DTransformPrefCached
 =
-PR_TRUE
+true
 ;
 mozilla
 :
@@ -3033,7 +3033,7 @@ IsGeneratedContentFrame
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIFrame
@@ -3082,7 +3082,7 @@ the
 generated
 content
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3102,7 +3102,7 @@ aContent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -3300,7 +3300,7 @@ aFrame
 aCommonAncestor
 )
 return
-PR_FALSE
+false
 ;
 nsIFrame
 *
@@ -3327,7 +3327,7 @@ parentFrame
 aAncestorFrame
 )
 return
-PR_TRUE
+true
 ;
 parentFrame
 =
@@ -3338,7 +3338,7 @@ parentFrame
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3369,7 +3369,7 @@ aFrame
 aAncestorFrame
 )
 return
-PR_TRUE
+true
 ;
 return
 IsProperAncestorFrameCrossDoc
@@ -3409,7 +3409,7 @@ aCommonAncestor
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIFrame
@@ -3440,7 +3440,7 @@ aAncestorFrame
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 parentFrame
@@ -3454,7 +3454,7 @@ GetParent
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -4072,7 +4072,7 @@ f
 aFrame1
 )
 return
-PR_TRUE
+true
 ;
 }
 while
@@ -4081,7 +4081,7 @@ f
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -5002,7 +5002,7 @@ aShouldFixToViewport
 *
 aShouldFixToViewport
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -5034,7 +5034,7 @@ aShouldFixToViewport
 *
 aShouldFixToViewport
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -5846,7 +5846,7 @@ IsTransformed
 )
 transformFound
 =
-PR_TRUE
+true
 ;
 rootFrame
 =
@@ -7719,7 +7719,7 @@ nsDisplayListBuilder
 :
 :
 EVENT_DELIVERY
-PR_FALSE
+false
 )
 ;
 nsDisplayList
@@ -7948,7 +7948,7 @@ nsDisplayListBuilder
 :
 :
 EVENT_DELIVERY
-PR_FALSE
+false
 )
 ;
 nsDisplayList
@@ -8268,7 +8268,7 @@ ReferenceFrame
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 nsDisplayItem
@@ -9317,7 +9317,7 @@ builder
 .
 SetInTransform
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -9332,7 +9332,7 @@ builder
 .
 SetSyncDecodeImages
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -9351,7 +9351,7 @@ builder
 .
 SetPaintingToWindow
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -9396,7 +9396,7 @@ builder
 .
 SetSnappingEnabled
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -10363,7 +10363,7 @@ canvasColor
 {
 willFlushRetainedLayers
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -10394,7 +10394,7 @@ GetHadToIgnorePaintSuppression
 {
 willFlushRetainedLayers
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -11179,7 +11179,7 @@ aIndex
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 PRInt32
@@ -11258,7 +11258,7 @@ aIndex
 inx
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -11290,7 +11290,7 @@ aTextWidth
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -11317,12 +11317,12 @@ aTextWidth
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -11689,7 +11689,7 @@ RectAccumulator
 :
 mSeenFirstRect
 (
-PR_FALSE
+false
 )
 {
 }
@@ -11724,7 +11724,7 @@ mSeenFirstRect
 {
 mSeenFirstRect
 =
-PR_TRUE
+true
 ;
 mFirstRect
 =
@@ -12655,7 +12655,7 @@ NS_FRAME_IS_SPECIAL
 {
 while
 (
-PR_TRUE
+true
 )
 {
 nsIFrame
@@ -12720,7 +12720,7 @@ if
 aFrame
 )
 return
-PR_FALSE
+false
 ;
 nsIFrame
 *
@@ -12749,7 +12749,7 @@ if
 rootScrollFrame
 )
 return
-PR_FALSE
+false
 ;
 nsIScrollableFrame
 *
@@ -12783,7 +12783,7 @@ aFrame
 )
 )
 return
-PR_FALSE
+false
 ;
 nsIFrame
 *
@@ -12966,7 +12966,7 @@ CalcHasPercent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -13007,7 +13007,7 @@ aResult
 0
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -13022,7 +13022,7 @@ GetUnit
 )
 )
 return
-PR_FALSE
+false
 ;
 aResult
 =
@@ -13047,7 +13047,7 @@ allowed
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -13078,7 +13078,7 @@ GetUnit
 )
 )
 return
-PR_FALSE
+false
 ;
 nsIFrame
 *
@@ -13112,7 +13112,7 @@ block
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -13296,7 +13296,7 @@ to
 -
 LDB
 return
-PR_FALSE
+false
 ;
 }
 NS_ASSERTION
@@ -13381,7 +13381,7 @@ basis
 after
 all
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -13530,7 +13530,7 @@ h
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -13661,7 +13661,7 @@ GetUnit
 eStyleUnit_Enumerated
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 val
@@ -13714,7 +13714,7 @@ val
 NS_STYLE_WIDTH_AVAILABLE
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -13732,7 +13732,7 @@ aProperty
 PROP_WIDTH
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -13852,7 +13852,7 @@ aRenderingContext
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -16772,7 +16772,7 @@ eStyleUnit_Coord
 {
 hasIntrinsicWidth
 =
-PR_TRUE
+true
 ;
 intrinsicWidth
 =
@@ -16817,7 +16817,7 @@ unit
 ;
 hasIntrinsicWidth
 =
-PR_FALSE
+false
 ;
 intrinsicWidth
 =
@@ -16840,7 +16840,7 @@ eStyleUnit_Coord
 {
 hasIntrinsicHeight
 =
-PR_TRUE
+true
 ;
 intrinsicHeight
 =
@@ -16885,7 +16885,7 @@ unit
 ;
 hasIntrinsicHeight
 =
-PR_FALSE
+false
 ;
 intrinsicHeight
 =
@@ -18362,7 +18362,7 @@ aContext
 UserToDevicePixelSnapped
 (
 putativeRect
-PR_TRUE
+true
 )
 )
 return
@@ -18517,7 +18517,7 @@ aContext
 >
 SetTextRunRTL
 (
-PR_FALSE
+false
 )
 ;
 aContext
@@ -18636,7 +18636,7 @@ aContext
 >
 SetTextRunRTL
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -19079,7 +19079,7 @@ position
 )
 )
 return
-PR_FALSE
+false
 ;
 *
 aResult
@@ -19089,7 +19089,7 @@ position
 mBaseline
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -19249,7 +19249,7 @@ GetSize
 height
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -19372,11 +19372,11 @@ GetUsedBorderAndPadding
 top
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -19444,11 +19444,11 @@ GetPosition
 y
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -19457,7 +19457,7 @@ No
 baseline
 .
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -19540,7 +19540,7 @@ GetPosition
 y
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -19640,13 +19640,13 @@ GetHeight
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -19712,7 +19712,7 @@ frames
 .
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -19794,7 +19794,7 @@ GetPosition
 y
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -19855,7 +19855,7 @@ YMost
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -19927,13 +19927,13 @@ GetAscent
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -20936,7 +20936,7 @@ mShouldDraw
 ;
 /
 /
-PR_TRUE
+true
 iff
 the
 CTM
@@ -20965,11 +20965,11 @@ SnappedImageDrawingParameters
 :
 mShouldDraw
 (
-PR_FALSE
+false
 )
 mResetCTM
 (
-PR_FALSE
+false
 )
 {
 }
@@ -21005,7 +21005,7 @@ aSubimage
 )
 mShouldDraw
 (
-PR_TRUE
+true
 )
 mResetCTM
 (
@@ -21164,7 +21164,7 @@ ifdef
 MOZ_GFX_OPTIMIZE_MOBILE
 ignoreScale
 =
-PR_TRUE
+true
 ;
 #
 endif
@@ -23240,7 +23240,7 @@ aCoord
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -23278,11 +23278,11 @@ corner
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -23615,11 +23615,11 @@ aSide
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -24107,7 +24107,7 @@ GetCoordValue
 0
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -24749,11 +24749,11 @@ SFE_NO_PREMULTIPLY_ALPHA
 {
 forceCopy
 =
-PR_TRUE
+true
 ;
 wantImageSurface
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -25238,7 +25238,7 @@ result
 .
 mIsStillLoading
 =
-PR_TRUE
+true
 ;
 return
 result
@@ -25420,7 +25420,7 @@ result
 .
 mIsWriteOnly
 =
-PR_FALSE
+false
 ;
 return
 result
@@ -25840,7 +25840,7 @@ SurfaceTypeImage
 {
 forceCopy
 =
-PR_TRUE
+true
 ;
 }
 nsRefPtr
@@ -26862,7 +26862,7 @@ GetFontFacesForText
 aFrame
 0
 PR_INT32_MAX
-PR_FALSE
+false
 aFontFaceList
 )
 ;
@@ -27564,7 +27564,7 @@ SetAttr
 kNameSpaceID_None
 mAttrName
 mValue
-PR_TRUE
+true
 )
 ;
 }
@@ -27622,7 +27622,7 @@ UnsetAttr
 (
 kNameSpaceID_None
 mAttrName
-PR_TRUE
+true
 )
 ;
 }

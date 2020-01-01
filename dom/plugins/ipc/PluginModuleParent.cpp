@@ -3395,7 +3395,7 @@ string
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -5791,7 +5791,7 @@ nativeCursorsSupported
 {
 nativeCursorsSupported
 =
-PR_FALSE
+false
 ;
 }
 }

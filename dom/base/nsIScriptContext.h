@@ -2323,10 +2323,10 @@ process
 *
 *
 return
-PR_TRUE
+true
 if
 initialized
-PR_FALSE
+false
 if
 not
 *

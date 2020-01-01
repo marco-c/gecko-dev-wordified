@@ -1183,7 +1183,7 @@ param
 aIsEndOffset
 -
 if
-PR_TRUE
+true
 then
 then
 this
@@ -1239,7 +1239,7 @@ characer
 .
 *
 If
-PR_FALSE
+false
 then
 the
 offset

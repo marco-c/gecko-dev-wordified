@@ -770,7 +770,7 @@ NS_ASSERTION
 isNonBlocking
 =
 =
-PR_FALSE
+false
 "
 mSink
 is
@@ -1499,7 +1499,7 @@ writeCount
 0
 )
 :
-PR_TRUE
+true
 )
 "
 writer

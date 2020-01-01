@@ -557,7 +557,7 @@ Object
 :
 mExpired
 (
-PR_FALSE
+false
 )
 {
 Touch
@@ -578,7 +578,7 @@ PR_IntervalNow
 ;
 mExpired
 =
-PR_FALSE
+false
 ;
 }
 nsExpirationState
@@ -667,7 +667,7 @@ n
 ;
 error
 =
-PR_TRUE
+true
 ;
 }
 template
@@ -1274,7 +1274,7 @@ aObj
 >
 mExpired
 =
-PR_TRUE
+true
 ;
 DoRandomOperation
 (
@@ -1309,7 +1309,7 @@ K
 ;
 error
 =
-PR_FALSE
+false
 ;
 for
 (

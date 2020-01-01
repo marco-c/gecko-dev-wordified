@@ -1028,7 +1028,7 @@ else
 *
 aDisabled
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -1561,8 +1561,8 @@ nsPLDOMEvent
 (
 this
 aEventName
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 if
@@ -2203,7 +2203,7 @@ aIsInline
 *
 aIsInline
 =
-PR_FALSE
+false
 ;
 nsAutoString
 href
@@ -2281,7 +2281,7 @@ Truncate
 *
 aIsAlternate
 =
-PR_FALSE
+false
 ;
 nsAutoString
 rel
@@ -2412,7 +2412,7 @@ else
 *
 aIsAlternate
 =
-PR_TRUE
+true
 ;
 }
 }

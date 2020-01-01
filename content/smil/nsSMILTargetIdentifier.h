@@ -574,7 +574,7 @@ kNameSpaceID_Unknown
 )
 mIsCSS
 (
-PR_FALSE
+false
 )
 {
 }
@@ -745,7 +745,7 @@ nsnull
 )
 mIsCSS
 (
-PR_FALSE
+false
 )
 {
 }

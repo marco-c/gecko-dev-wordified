@@ -1069,7 +1069,7 @@ StripCitesAndLinebreaks
 (
 aInString
 aOutString
-PR_FALSE
+false
 0
 )
 ;
@@ -2043,7 +2043,7 @@ loopcount
 )
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 possible
 infinite

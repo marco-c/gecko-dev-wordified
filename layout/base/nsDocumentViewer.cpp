@@ -1691,11 +1691,11 @@ NULL
 )
 mGotSelectionState
 (
-PR_FALSE
+false
 )
 mSelectionWasCollapsed
 (
-PR_FALSE
+false
 )
 {
 }
@@ -3136,38 +3136,38 @@ PrepareToStartLoad
 {
 mStopped
 =
-PR_FALSE
+false
 ;
 mLoaded
 =
-PR_FALSE
+false
 ;
 mAttachedToParent
 =
-PR_FALSE
+false
 ;
 mDeferredWindowClose
 =
-PR_FALSE
+false
 ;
 mCallerIsClosingWindow
 =
-PR_FALSE
+false
 ;
 #
 ifdef
 NS_PRINTING
 mPrintIsPending
 =
-PR_FALSE
+false
 ;
 mPrintDocIsFullyLoaded
 =
-PR_FALSE
+false
 ;
 mClosingWhilePrinting
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3203,7 +3203,7 @@ ifdef
 NS_PRINT_PREVIEW
 SetIsPrintPreview
 (
-PR_FALSE
+false
 )
 ;
 #
@@ -3267,7 +3267,7 @@ mMinFontSize
 )
 mIsSticky
 (
-PR_TRUE
+true
 )
 #
 ifdef
@@ -3286,11 +3286,11 @@ kCharsetUninitialized
 )
 mInitializedForPrintPreview
 (
-PR_FALSE
+false
 )
 mHidden
 (
-PR_FALSE
+false
 )
 {
 PrepareToStartLoad
@@ -3932,7 +3932,7 @@ InitInternal
 aParentWidget
 nsnull
 aBounds
-PR_TRUE
+true
 )
 ;
 }
@@ -4559,8 +4559,8 @@ focus
 "
 )
 mFocusListener
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 mDocument
@@ -4575,8 +4575,8 @@ blur
 "
 )
 mFocusListener
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 if
@@ -4596,7 +4596,7 @@ focus
 "
 )
 oldFocusListener
-PR_FALSE
+false
 )
 ;
 mDocument
@@ -4611,7 +4611,7 @@ blur
 "
 )
 oldFocusListener
-PR_FALSE
+false
 )
 ;
 }
@@ -4809,7 +4809,7 @@ in
 SetPageMode
 just
 pass
-PR_FALSE
+false
 /
 /
 here
@@ -4817,7 +4817,7 @@ itself
 ?
 aForceSetNewDocument
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -5150,7 +5150,7 @@ mode
 else
 makeCX
 =
-PR_TRUE
+true
 ;
 #
 endif
@@ -5375,7 +5375,7 @@ mPresContext
 >
 SetIsRootPaginatedDocument
 (
-PR_TRUE
+true
 )
 ;
 mPresContext
@@ -5524,7 +5524,7 @@ SetNewDocument
 (
 mDocument
 aState
-PR_FALSE
+false
 )
 ;
 nsJSContext
@@ -5852,7 +5852,7 @@ GetWindow
 ;
 mLoaded
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -5977,7 +5977,7 @@ nsEventStatus_eIgnore
 nsEvent
 event
 (
-PR_TRUE
+true
 NS_LOAD
 )
 ;
@@ -6378,11 +6378,11 @@ mPrintIsPending
 {
 mPrintIsPending
 =
-PR_FALSE
+false
 ;
 mPrintDocIsFullyLoaded
 =
-PR_TRUE
+true
 ;
 Print
 (
@@ -6421,7 +6421,7 @@ aPermitUnload
 *
 aPermitUnload
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -6608,8 +6608,8 @@ NS_LITERAL_STRING
 beforeunload
 "
 )
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6659,7 +6659,7 @@ pEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -6724,12 +6724,12 @@ nsAutoPopupStatePusher
 popupStatePusher
 (
 openAbused
-PR_TRUE
+true
 )
 ;
 mInPermitUnload
 =
-PR_TRUE
+true
 ;
 nsEventDispatcher
 :
@@ -6745,7 +6745,7 @@ nsnull
 ;
 mInPermitUnload
 =
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -7176,7 +7176,7 @@ aPermitUnload
 )
 mCallerIsClosingWindow
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -7192,7 +7192,7 @@ ResetCloseWindow
 {
 mCallerIsClosingWindow
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -7323,7 +7323,7 @@ aIsUnload
 {
 mHidden
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -7509,7 +7509,7 @@ nsEventStatus_eIgnore
 nsEvent
 event
 (
-PR_TRUE
+true
 NS_PAGE_UNLOAD
 )
 ;
@@ -7565,7 +7565,7 @@ nsAutoPopupStatePusher
 popupStatePusher
 (
 openAbused
-PR_TRUE
+true
 )
 ;
 nsEventDispatcher
@@ -7901,7 +7901,7 @@ InitInternal
 mParentWidget
 aState
 mBounds
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7912,7 +7912,7 @@ rv
 ;
 mHidden
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -8028,8 +8028,8 @@ focus
 "
 )
 mFocusListener
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 mDocument
@@ -8044,8 +8044,8 @@ blur
 "
 )
 mFocusListener
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -8293,7 +8293,7 @@ mParentWidget
 ;
 mAttachedToParent
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -8478,7 +8478,7 @@ mPrintEngine
 >
 TurnScriptingOn
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -8524,7 +8524,7 @@ mClosingWhilePrinting
 {
 mClosingWhilePrinting
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -8583,7 +8583,7 @@ focus
 "
 )
 mFocusListener
-PR_FALSE
+false
 )
 ;
 mDocument
@@ -8598,7 +8598,7 @@ blur
 "
 )
 mFocusListener
-PR_FALSE
+false
 )
 ;
 }
@@ -9103,7 +9103,7 @@ mIsSticky
 ;
 mIsSticky
 =
-PR_TRUE
+true
 ;
 bool
 savePresentation
@@ -9347,7 +9347,7 @@ then
 ?
 savePresentation
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -9928,7 +9928,7 @@ kDontAnimMode
 ;
 mStopped
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -10168,7 +10168,7 @@ return
 SetDocumentInternal
 (
 newDoc
-PR_FALSE
+false
 )
 ;
 }
@@ -10478,9 +10478,9 @@ InitInternal
 mParentWidget
 nsnull
 mBounds
-PR_TRUE
-PR_TRUE
-PR_FALSE
+true
+true
+false
 )
 ;
 }
@@ -10983,7 +10983,7 @@ width
 aBounds
 .
 height
-PR_FALSE
+false
 )
 ;
 else
@@ -11004,7 +11004,7 @@ width
 aBounds
 .
 height
-PR_FALSE
+false
 )
 ;
 }
@@ -11544,7 +11544,7 @@ mWindow
 >
 Show
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -11904,7 +11904,7 @@ mWindow
 >
 Show
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -12040,7 +12040,7 @@ getter_AddRefs
 (
 layoutState
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -12175,11 +12175,11 @@ GetIsPrinting
 *
 aCanClose
 =
-PR_FALSE
+false
 ;
 mDeferredWindowClose
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -12188,7 +12188,7 @@ endif
 *
 aCanClose
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -12232,7 +12232,7 @@ aSheet
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -12273,7 +12273,7 @@ aSheet
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -12742,7 +12742,7 @@ csssheet
 ;
 shouldOverride
 =
-PR_TRUE
+true
 ;
 }
 nsMemory
@@ -13472,7 +13472,7 @@ mParentWidget
 ;
 mAttachedToParent
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -13494,8 +13494,8 @@ CreateWidgetForParent
 (
 mParentWidget
 initDataPtr
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 }
@@ -13509,8 +13509,8 @@ view
 CreateWidget
 (
 initDataPtr
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 }
@@ -13657,7 +13657,7 @@ DetachFromTopLevelWidget
 }
 mAttachedToParent
 =
-PR_FALSE
+false
 ;
 }
 nsIView
@@ -15157,7 +15157,7 @@ aCanGetContents
 *
 aCanGetContents
 =
-PR_FALSE
+false
 ;
 NS_ENSURE_STATE
 (
@@ -15592,7 +15592,7 @@ printSettings
 >
 SetShowPrintProgress
 (
-PR_FALSE
+false
 )
 ;
 #
@@ -16335,7 +16335,7 @@ mZoom
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -16396,7 +16396,7 @@ aClosure
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -16485,7 +16485,7 @@ mZoom
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -17037,7 +17037,7 @@ GetPrintPreviewScale
 ;
 mPrintPreviewZoomed
 =
-PR_TRUE
+true
 ;
 }
 mPrintPreviewZoom
@@ -17410,7 +17410,7 @@ else
 *
 aStyleDisabled
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -18398,7 +18398,7 @@ mPresContext
 SetBidi
 (
 aBidiOptions
-PR_TRUE
+true
 )
 ;
 /
@@ -19647,7 +19647,7 @@ so
 *
 aInLink
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -19704,7 +19704,7 @@ link
 *
 aInLink
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -19762,7 +19762,7 @@ so
 *
 aInImage
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -19819,7 +19819,7 @@ image
 *
 aInImage
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -20003,7 +20003,7 @@ select
 ;
 mGotSelectionState
 =
-PR_TRUE
+true
 ;
 mSelectionWasCollapsed
 =
@@ -20554,7 +20554,7 @@ aWebProgressListener
 ;
 mPrintIsPending
 =
-PR_TRUE
+true
 ;
 }
 PR_PL
@@ -21029,7 +21029,7 @@ nsPrintEngine
 ShowPrintErrorDialog
 (
 NS_ERROR_GFX_PRINTER_NO_XUL
-PR_FALSE
+false
 )
 ;
 return
@@ -21222,7 +21222,7 @@ aWebProgressListener
 ;
 mPrintPreviewZoomed
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -21895,7 +21895,7 @@ XXX
 This
 always
 returns
-PR_FALSE
+false
 for
 subdocuments
 NS_IMETHODIMP
@@ -21917,7 +21917,7 @@ aDoingPrint
 *
 aDoingPrint
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -21965,7 +21965,7 @@ XXX
 This
 always
 returns
-PR_FALSE
+false
 for
 subdocuments
 NS_IMETHODIMP
@@ -21987,7 +21987,7 @@ aDoingPrintPreview
 *
 aDoingPrintPreview
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -22342,7 +22342,7 @@ NS_PRINTING
 *
 aIsFramesetFrameSelected
 =
-PR_FALSE
+false
 ;
 NS_ENSURE_TRUE
 (
@@ -22444,7 +22444,7 @@ NS_PRINTING
 *
 aIsFramesetDocument
 =
-PR_FALSE
+false
 ;
 NS_ENSURE_TRUE
 (
@@ -22495,7 +22495,7 @@ NS_PRINTING
 *
 aIsIFrameSelected
 =
-PR_FALSE
+false
 ;
 NS_ENSURE_TRUE
 (
@@ -22546,7 +22546,7 @@ NS_PRINTING
 *
 aIsRangeSelection
 =
-PR_FALSE
+false
 ;
 NS_ENSURE_TRUE
 (
@@ -23093,7 +23093,7 @@ SetIsPrintingInDocShellTree
 (
 childAsNode
 aIsPrintingOrPP
-PR_FALSE
+false
 )
 ;
 }
@@ -23118,7 +23118,7 @@ if
 mParentWidget
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -23137,7 +23137,7 @@ if
 containerItem
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -23158,7 +23158,7 @@ UsePuppetWidgets
 )
 )
 return
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -23235,12 +23235,12 @@ nsIDocShellTreeItem
 typeChrome
 )
 return
-PR_TRUE
+true
 ;
 #
 endif
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -23288,7 +23288,7 @@ aData
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -23361,8 +23361,8 @@ GetWindow
 (
 )
 aEvent
-PR_FALSE
-PR_FALSE
+false
+false
 nsnull
 )
 ;
@@ -23436,7 +23436,7 @@ XXX
 this
 always
 returns
-PR_FALSE
+false
 for
 subdocuments
 bool
@@ -23467,7 +23467,7 @@ GetIsPrinting
 #
 endif
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -23612,7 +23612,7 @@ SetIsPrintingInDocShellTree
 (
 docShellTreeNode
 aIsPrinting
-PR_TRUE
+true
 )
 ;
 }
@@ -23721,7 +23721,7 @@ XXX
 it
 always
 returns
-PR_FALSE
+false
 for
 subdocuments
 bool
@@ -23752,7 +23752,7 @@ GetIsPrintPreview
 #
 endif
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -23897,7 +23897,7 @@ SetIsPrintingInDocShellTree
 (
 docShellTreeNode
 aIsPrintPreview
-PR_TRUE
+true
 )
 ;
 }
@@ -24301,7 +24301,7 @@ return
 }
 SetIsPrintPreview
 (
-PR_FALSE
+false
 )
 ;
 mPrintEngine
@@ -24309,7 +24309,7 @@ mPrintEngine
 >
 TurnScriptingOn
 (
-PR_TRUE
+true
 )
 ;
 mPrintEngine
@@ -24783,7 +24783,7 @@ mDeferredWindowClose
 {
 mDeferredWindowClose
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -24852,7 +24852,7 @@ nsnull
 }
 mClosingWhilePrinting
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -24969,7 +24969,7 @@ mPresContext
 >
 SetPaginatedScrolling
 (
-PR_TRUE
+true
 )
 ;
 mPresContext
@@ -25003,8 +25003,8 @@ InitInternal
 mParentWidget
 nsnull
 mBounds
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 Show
@@ -25195,7 +25195,7 @@ InitializeForPrintPreview
 {
 mInitializedForPrintPreview
 =
-PR_TRUE
+true
 ;
 }
 void

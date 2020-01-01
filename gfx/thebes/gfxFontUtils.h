@@ -779,7 +779,7 @@ Length
 )
 )
 return
-PR_FALSE
+false
 ;
 Block
 *
@@ -796,7 +796,7 @@ if
 block
 )
 return
-PR_FALSE
+false
 ;
 return
 (
@@ -890,7 +890,7 @@ startBlock
 blockLen
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -952,7 +952,7 @@ blockIndex
 )
 hasBlocksInRange
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -961,7 +961,7 @@ if
 hasBlocksInRange
 )
 return
-PR_FALSE
+false
 ;
 Block
 *
@@ -1064,7 +1064,7 @@ i
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -1076,7 +1076,7 @@ endBlock
 startBlock
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -1157,7 +1157,7 @@ index
 ]
 )
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -1246,12 +1246,12 @@ i
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -1560,7 +1560,7 @@ blockLastBit
 )
 fullBlock
 =
-PR_TRUE
+true
 ;
 block
 =
@@ -4786,11 +4786,11 @@ know
 how
 ;
 return
-PR_TRUE
+true
 if
 successful
 or
-PR_FALSE
+false
 /
 /
 if
@@ -5044,7 +5044,7 @@ all
 encoded
 together
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -5074,7 +5074,7 @@ trigger
 bidi
 layout
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -5099,7 +5099,7 @@ and
 Hebrew
 letters
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -5133,7 +5133,7 @@ Phoenecian
 etc
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -5147,7 +5147,7 @@ trigger
 bidi
 reordering
 return
-PR_FALSE
+false
 ;
 }
 static

@@ -614,7 +614,7 @@ mLineStart
 ;
 mHasDescription
 =
-PR_FALSE
+false
 ;
 mFormat
 =
@@ -1481,7 +1481,7 @@ description
 )
 mHasDescription
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -1953,7 +1953,7 @@ result
 ;
 success
 =
-PR_TRUE
+true
 ;
 }
 NS_Free
@@ -2160,7 +2160,7 @@ if
 PR_ParseTimeString
 (
 value
-PR_FALSE
+false
 &
 tm
 )
@@ -2532,7 +2532,7 @@ numItems
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 +

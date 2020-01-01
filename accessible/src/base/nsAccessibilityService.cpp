@@ -5904,7 +5904,7 @@ IsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -5961,7 +5961,7 @@ id
 )
 )
 return
-PR_TRUE
+true
 ;
 nsIContent
 *
@@ -6013,12 +6013,12 @@ could
 be
 active
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsAccessible
@@ -7492,7 +7492,7 @@ accessible
 .
 tryTagNameOrFrame
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -7540,7 +7540,7 @@ table
 .
 tryTagNameOrFrame
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -7553,7 +7553,7 @@ tableContent
 )
 tryTagNameOrFrame
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -8505,7 +8505,7 @@ Init
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -8534,7 +8534,7 @@ if
 observerService
 )
 return
-PR_FALSE
+false
 ;
 observerService
 -
@@ -8543,7 +8543,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 /
@@ -8560,10 +8560,10 @@ InitAccessibility
 ;
 gIsShutdown
 =
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -8688,7 +8688,7 @@ already
 ;
 gIsShutdown
 =
-PR_TRUE
+true
 ;
 nsAccessNodeWrap
 :

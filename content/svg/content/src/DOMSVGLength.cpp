@@ -805,7 +805,7 @@ mAttrEnum
 )
 mIsAnimValItem
 (
-PR_FALSE
+false
 )
 mUnit
 (
@@ -864,7 +864,7 @@ HasOwner
 )
 =
 =
-PR_FALSE
+false
 }
 #
 endif
@@ -931,7 +931,7 @@ HasOwner
 )
 =
 =
-PR_FALSE
+false
 }
 #
 endif
@@ -1151,7 +1151,7 @@ Element
 DidChangeLengthList
 (
 mAttrEnum
-PR_TRUE
+true
 )
 ;
 #
@@ -1285,7 +1285,7 @@ HasOwner
 )
 =
 =
-PR_FALSE
+false
 }
 #
 endif
@@ -1366,7 +1366,7 @@ Element
 DidChangeLengthList
 (
 mAttrEnum
-PR_TRUE
+true
 )
 ;
 #
@@ -1469,7 +1469,7 @@ Element
 DidChangeLengthList
 (
 mAttrEnum
-PR_TRUE
+true
 )
 ;
 #
@@ -1566,7 +1566,7 @@ HasOwner
 )
 =
 =
-PR_FALSE
+false
 }
 #
 endif
@@ -1683,7 +1683,7 @@ Element
 DidChangeLengthList
 (
 mAttrEnum
-PR_TRUE
+true
 )
 ;
 #
@@ -1961,7 +1961,7 @@ nsnull
 ;
 mIsAnimValItem
 =
-PR_FALSE
+false
 ;
 }
 SVGLength

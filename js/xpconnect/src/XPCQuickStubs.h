@@ -3769,7 +3769,7 @@ optimization
 Set
 it
 to
-PR_TRUE
+true
 *
 only
 if

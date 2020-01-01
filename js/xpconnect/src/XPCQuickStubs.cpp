@@ -2074,7 +2074,7 @@ return
 LookupGetterOrSetter
 (
 cx
-PR_TRUE
+true
 argc
 vp
 )
@@ -2098,7 +2098,7 @@ return
 LookupGetterOrSetter
 (
 cx
-PR_FALSE
+false
 argc
 vp
 )
@@ -2395,7 +2395,7 @@ DefineGetterOrSetter
 (
 cx
 argc
-PR_TRUE
+true
 vp
 )
 ;
@@ -2419,7 +2419,7 @@ DefineGetterOrSetter
 (
 cx
 argc
-PR_FALSE
+false
 vp
 )
 ;
@@ -2606,7 +2606,7 @@ ps
 {
 definedProperty
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -6264,7 +6264,7 @@ nsnull
 aHelper
 iid
 iface
-PR_TRUE
+true
 OBJ_IS_NOT_GLOBAL
 &
 rv

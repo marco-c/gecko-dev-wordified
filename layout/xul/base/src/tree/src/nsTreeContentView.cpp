@@ -1296,7 +1296,7 @@ IsCallerTrustedForWrite
 )
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -2069,7 +2069,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2142,7 +2142,7 @@ NS_ERROR_INVALID_ARG
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3576,7 +3576,7 @@ NS_LITERAL_STRING
 false
 "
 )
-PR_TRUE
+true
 )
 ;
 else
@@ -3599,7 +3599,7 @@ NS_LITERAL_STRING
 true
 "
 )
-PR_TRUE
+true
 )
 ;
 return
@@ -3909,7 +3909,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 NS_ENSURE_NATIVE_COLUMN
 (
@@ -3965,7 +3965,7 @@ NS_ERROR_INVALID_ARG
 *
 _retval
 =
-PR_TRUE
+true
 ;
 Row
 *
@@ -4036,7 +4036,7 @@ eCaseMatters
 *
 _retval
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -4114,7 +4114,7 @@ NS_ERROR_INVALID_ARG
 *
 _retval
 =
-PR_TRUE
+true
 ;
 Row
 *
@@ -4185,7 +4185,7 @@ eCaseMatters
 *
 _retval
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -4319,7 +4319,7 @@ nsGkAtoms
 :
 value
 aValue
-PR_TRUE
+true
 )
 ;
 }
@@ -4453,7 +4453,7 @@ nsGkAtoms
 :
 label
 aValue
-PR_TRUE
+true
 )
 ;
 }
@@ -6107,7 +6107,7 @@ row
 >
 SetEmpty
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -6613,7 +6613,7 @@ row
 >
 SetEmpty
 (
-PR_TRUE
+true
 )
 ;
 PRInt32
@@ -7128,7 +7128,7 @@ row
 >
 SetContainer
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -7156,7 +7156,7 @@ row
 >
 SetOpen
 (
-PR_TRUE
+true
 )
 ;
 nsIContent
@@ -7245,7 +7245,7 @@ row
 >
 SetEmpty
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -7275,7 +7275,7 @@ row
 >
 SetEmpty
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -7344,7 +7344,7 @@ row
 >
 SetSeparator
 (
-PR_TRUE
+true
 )
 ;
 aRows
@@ -7944,7 +7944,7 @@ container
 .
 insertRow
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -8029,7 +8029,7 @@ IsOpen
 )
 insertRow
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -8440,7 +8440,7 @@ row
 >
 SetOpen
 (
-PR_TRUE
+true
 )
 ;
 PRInt32
@@ -8501,7 +8501,7 @@ row
 >
 SetOpen
 (
-PR_FALSE
+false
 )
 ;
 PRInt32

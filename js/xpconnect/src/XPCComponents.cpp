@@ -7209,7 +7209,7 @@ str
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -7249,7 +7249,7 @@ registered
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 registered
@@ -16477,7 +16477,7 @@ cc
 >
 SetReturnValueWasSet
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -19517,7 +19517,7 @@ _retval
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 rv
@@ -20306,7 +20306,7 @@ get
 )
 lineNo
 jsVersion
-PR_FALSE
+false
 rval
 )
 ;
@@ -20329,7 +20329,7 @@ cc
 >
 SetReturnValueWasSet
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -22153,7 +22153,7 @@ cc
 >
 SetReturnValueWasSet
 (
-PR_TRUE
+true
 )
 ;
 return

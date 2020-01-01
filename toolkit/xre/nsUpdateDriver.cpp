@@ -1304,7 +1304,7 @@ rv
 NS_NewLocalFileWithCFURL
 (
 bundleURL
-PR_TRUE
+true
 getter_AddRefs
 (
 lfm
@@ -1407,7 +1407,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
@@ -1427,7 +1427,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -1513,7 +1513,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 char
 buf
@@ -1547,7 +1547,7 @@ n
 0
 )
 return
-PR_FALSE
+false
 ;
 const
 char
@@ -1615,7 +1615,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 static
 const
@@ -1648,7 +1648,7 @@ fd
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1770,7 +1770,7 @@ rv
 )
 )
 return
-PR_TRUE
+true
 ;
 char
 buf
@@ -1804,7 +1804,7 @@ n
 0
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -1903,7 +1903,7 @@ kNull
 0
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1916,10 +1916,10 @@ buf
 0
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -1987,7 +1987,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
@@ -2007,14 +2007,14 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 file
 -
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -2047,7 +2047,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
@@ -2067,7 +2067,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
@@ -2090,10 +2090,10 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -2150,7 +2150,7 @@ updateDir
 )
 )
 return
-PR_FALSE
+false
 ;
 #
 else
@@ -2165,7 +2165,7 @@ updateDir
 )
 )
 return
-PR_FALSE
+false
 ;
 #
 endif
@@ -2230,7 +2230,7 @@ updateDir
 )
 )
 return
-PR_FALSE
+false
 ;
 #
 endif
@@ -2267,7 +2267,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 #
 if
@@ -2328,7 +2328,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 #
 endif
@@ -3269,7 +3269,7 @@ SetupMacCommandLine
 (
 argc
 argv
-PR_TRUE
+true
 )
 ;
 /
@@ -3550,7 +3550,7 @@ updatesDir
 >
 Remove
 (
-PR_TRUE
+true
 )
 ;
 }

@@ -1084,7 +1084,7 @@ nsnull
 )
 mInitialized
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -2021,7 +2021,7 @@ mInner
 }
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

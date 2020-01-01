@@ -621,7 +621,7 @@ fails
 *
 (
 returns
-PR_FALSE
+false
 )
 .
 *
@@ -664,7 +664,7 @@ pixels
 .
 *
 return
-PR_FALSE
+false
 to
 indicate
 failure
@@ -679,7 +679,7 @@ percent
 value
 .
 Otherwise
-PR_TRUE
+true
 .
 *
 *
@@ -862,7 +862,7 @@ successfully
 *
 *
 return
-PR_TRUE
+true
 if
 the
 document
@@ -871,7 +871,7 @@ been
 parsed
 successfully
 *
-PR_FALSE
+false
 otherwise
 (
 e
@@ -1065,7 +1065,7 @@ animations
 *
 *
 return
-PR_TRUE
+true
 if
 the
 document
@@ -1075,7 +1075,7 @@ SMIL
 animations
 .
 Else
-PR_FALSE
+false
 .
 *
 /
@@ -1107,7 +1107,7 @@ doc
 *
 *
 return
-PR_TRUE
+true
 if
 we
 should

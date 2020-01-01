@@ -555,7 +555,7 @@ it
 fails
 it
 returns
-PR_FALSE
+false
 from
 *
 the
@@ -671,7 +671,7 @@ A
 \
 else
 return
-PR_FALSE
+false
 /
 *
 *
@@ -714,7 +714,7 @@ fails
 it
 returns
 *
-PR_FALSE
+false
 from
 the
 function
@@ -800,7 +800,7 @@ there
 the
 function
 returns
-PR_FALSE
+false
 from
 the
 function
@@ -841,7 +841,7 @@ char_pointer
 '
 )
 return
-PR_FALSE
+false
 /
 *
 *
@@ -905,7 +905,7 @@ aIDStr
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1032,7 +1032,7 @@ aIDStr
 }
 '
 :
-PR_TRUE
+true
 ;
 }
 #

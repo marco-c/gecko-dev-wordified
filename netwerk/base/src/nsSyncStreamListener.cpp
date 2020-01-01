@@ -431,8 +431,8 @@ PR_UINT32_MAX
 no
 size
 limit
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -446,7 +446,7 @@ WaitForData
 {
 mKeepWaiting
 =
-PR_TRUE
+true
 ;
 while
 (
@@ -1151,7 +1151,7 @@ data
 ;
 mKeepWaiting
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1183,7 +1183,7 @@ status
 ;
 mKeepWaiting
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1191,7 +1191,7 @@ unblock
 Read
 mDone
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1375,7 +1375,7 @@ NS_BASE_STREAM_CLOSED
 ;
 mDone
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1693,7 +1693,7 @@ result
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

@@ -617,7 +617,7 @@ Initialize
 {
 sInitialized
 =
-PR_TRUE
+true
 ;
 #
 if

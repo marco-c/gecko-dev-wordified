@@ -2123,7 +2123,7 @@ aParser
 >
 SetParsingCompoundProperty
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2137,7 +2137,7 @@ mParser
 >
 SetParsingCompoundProperty
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -4857,34 +4857,34 @@ nsnull
 )
 mHavePushBack
 (
-PR_FALSE
+false
 )
 mNavQuirkMode
 (
-PR_FALSE
+false
 )
 mUnsafeRulesEnabled
 (
-PR_FALSE
+false
 )
 mHTMLMediaMode
 (
-PR_FALSE
+false
 )
 mParsingCompoundProperty
 (
-PR_FALSE
+false
 )
 mFoundUnresolvablePrefix
 (
-PR_FALSE
+false
 )
 #
 ifdef
 DEBUG
 mScannerInited
 (
-PR_FALSE
+false
 )
 #
 endif
@@ -5033,13 +5033,13 @@ NS_ASSERTION
 aSVGMode
 =
 =
-PR_TRUE
+true
 |
 |
 aSVGMode
 =
 =
-PR_FALSE
+false
 "
 bad
 bool
@@ -5118,12 +5118,12 @@ nsnull
 ;
 SetQuirkMode
 (
-PR_FALSE
+false
 )
 ;
 SetSVGMode
 (
-PR_FALSE
+false
 )
 ;
 SetChildLoader
@@ -5220,7 +5220,7 @@ ifdef
 DEBUG
 mScannerInited
 =
-PR_TRUE
+true
 ;
 #
 endif
@@ -5238,7 +5238,7 @@ aSheetPrincipal
 ;
 mHavePushBack
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -5261,7 +5261,7 @@ ifdef
 DEBUG
 mScannerInited
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -5605,7 +5605,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -5680,7 +5680,7 @@ ReleaseScanner
 ;
 mUnsafeRulesEnabled
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -5896,7 +5896,7 @@ mNavQuirkMode
 &
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -5928,7 +5928,7 @@ else
 {
 haveBraces
 =
-PR_FALSE
+false
 ;
 }
 css
@@ -6047,7 +6047,7 @@ AssertInitialState
 *
 aChanged
 =
-PR_FALSE
+false
 ;
 InitScanner
 (
@@ -6092,7 +6092,7 @@ but
 *
 aChanged
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -6132,8 +6132,8 @@ if
 ParseDeclaration
 (
 aDeclaration
-PR_FALSE
-PR_TRUE
+false
+true
 aChanged
 )
 )
@@ -6160,7 +6160,7 @@ if
 !
 SkipDeclaration
 (
-PR_FALSE
+false
 )
 )
 {
@@ -6296,7 +6296,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -6474,7 +6474,7 @@ eCSSSection_General
 *
 aChanged
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -6561,7 +6561,7 @@ parsedOK
 &
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -6572,7 +6572,7 @@ PEExpectEndValue
 ;
 parsedOK
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -6751,8 +6751,8 @@ TransferFromBlock
 mTempData
 aPropID
 aIsImportant
-PR_TRUE
-PR_FALSE
+true
+false
 aDeclaration
 )
 ;
@@ -6890,13 +6890,13 @@ NS_ASSERTION
 aHTMLMode
 =
 =
-PR_TRUE
+true
 |
 |
 aHTMLMode
 =
 =
-PR_FALSE
+false
 "
 invalid
 bool
@@ -7079,7 +7079,7 @@ if
 GatherMedia
 (
 aMediaList
-PR_FALSE
+false
 )
 )
 {
@@ -7135,7 +7135,7 @@ ReleaseScanner
 ;
 mHTMLMediaMode
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -7512,7 +7512,7 @@ it
 .
 mFoundUnresolvablePrefix
 =
-PR_FALSE
+false
 ;
 bool
 success
@@ -7757,7 +7757,7 @@ if
 (
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -7870,7 +7870,7 @@ string
 !
 GetToken
 (
-PR_TRUE
+true
 )
 ;
 OUTPUT_ERROR
@@ -8027,7 +8027,7 @@ break
 }
 mHavePushBack
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -8048,11 +8048,11 @@ continue
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -8097,7 +8097,7 @@ mToken
 /
 EOF
 return
-PR_FALSE
+false
 ;
 }
 aURL
@@ -8199,11 +8199,11 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -8226,7 +8226,7 @@ pushback
 ;
 mHavePushBack
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -8351,12 +8351,12 @@ aSymbol
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -8370,7 +8370,7 @@ aSymbol
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 UngetToken
@@ -8378,7 +8378,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -8426,12 +8426,12 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -8526,7 +8526,7 @@ UngetToken
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 UngetToken
@@ -8534,7 +8534,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -8574,7 +8574,7 @@ CheckEndProperty
 )
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -8599,7 +8599,7 @@ PEExpectEndValue
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -8642,7 +8642,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -8696,7 +8696,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -8777,7 +8777,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -8831,7 +8831,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -8841,7 +8841,7 @@ PESkipAtRuleEOF
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -8994,7 +8994,7 @@ SkipUntil
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -9419,7 +9419,7 @@ section
 return
 SkipAtRule
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -9458,7 +9458,7 @@ OUTPUT_ERROR
 return
 SkipAtRule
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -9467,7 +9467,7 @@ mSection
 newSection
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -9488,7 +9488,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -9498,7 +9498,7 @@ PECharsetRuleEOF
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -9521,7 +9521,7 @@ PECharsetRuleNotString
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsAutoString
@@ -9539,12 +9539,12 @@ ExpectSymbol
 '
 ;
 '
-PR_TRUE
+true
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsRefPtr
@@ -9575,7 +9575,7 @@ aData
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -9594,12 +9594,12 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -9627,7 +9627,7 @@ mToken
 mIdent
 ;
 return
-PR_TRUE
+true
 ;
 }
 UngetToken
@@ -9635,7 +9635,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -9666,12 +9666,12 @@ nsnull
 *
 aParsedSomething
 =
-PR_FALSE
+false
 ;
 *
 aHitStop
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -9718,14 +9718,14 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
 *
 aHitStop
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -9739,7 +9739,7 @@ if
 aInAtRule
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -9753,7 +9753,7 @@ PEGatherMediaEOF
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -9794,14 +9794,14 @@ mSymbol
 *
 aHitStop
 =
-PR_TRUE
+true
 ;
 UngetToken
 (
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 UngetToken
@@ -9811,7 +9811,7 @@ UngetToken
 *
 aParsedSomething
 =
-PR_TRUE
+true
 ;
 nsAutoPtr
 <
@@ -9837,7 +9837,7 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -9847,7 +9847,7 @@ ExpectSymbol
 '
 (
 '
-PR_TRUE
+true
 )
 )
 {
@@ -9945,7 +9945,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -9955,7 +9955,7 @@ PEGatherMediaEOF
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -9978,7 +9978,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -10039,7 +10039,7 @@ break
 ;
 gotNotOrOnly
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -10087,14 +10087,14 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
 *
 aHitStop
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -10161,7 +10161,7 @@ mSymbol
 *
 aHitStop
 =
-PR_TRUE
+true
 ;
 UngetToken
 (
@@ -10234,7 +10234,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -10269,7 +10269,7 @@ forget
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -10371,7 +10371,7 @@ GetLowLevelError
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -10479,7 +10479,7 @@ UngetToken
 ;
 hitStop
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -10528,7 +10528,7 @@ rv
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -10542,7 +10542,7 @@ break
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -10564,7 +10564,7 @@ ExpectSymbol
 '
 (
 '
-PR_TRUE
+true
 )
 )
 {
@@ -10574,7 +10574,7 @@ PEMQExpectedExpressionStart
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -10582,7 +10582,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -10592,7 +10592,7 @@ PEMQExpressionEOF
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -10622,7 +10622,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsMediaExpression
@@ -10657,7 +10657,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -10890,7 +10890,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 expr
@@ -10905,7 +10905,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 |
 |
@@ -10964,7 +10964,7 @@ PEMQNoMinMaxWithoutValue
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 expr
@@ -10977,7 +10977,7 @@ Reset
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -11010,7 +11010,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -11105,7 +11105,7 @@ GetIntValue
 )
 rv
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -11273,7 +11273,7 @@ ExpectSymbol
 '
 /
 '
-PR_TRUE
+true
 )
 &
 &
@@ -11318,7 +11318,7 @@ rv
 =
 GetToken
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -11462,7 +11462,7 @@ else
 {
 rv
 =
-PR_FALSE
+false
 ;
 }
 break
@@ -11525,7 +11525,7 @@ ExpectSymbol
 '
 )
 '
-PR_TRUE
+true
 )
 )
 {
@@ -11542,11 +11542,11 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -11607,7 +11607,7 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsAutoString
@@ -11628,7 +11628,7 @@ PEImportNotURI
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -11639,7 +11639,7 @@ ExpectSymbol
 '
 ;
 '
-PR_TRUE
+true
 )
 )
 {
@@ -11649,7 +11649,7 @@ if
 GatherMedia
 (
 media
-PR_TRUE
+true
 )
 |
 |
@@ -11659,7 +11659,7 @@ ExpectSymbol
 '
 ;
 '
-PR_TRUE
+true
 )
 )
 {
@@ -11680,7 +11680,7 @@ ignore
 invalid
 import
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -11745,7 +11745,7 @@ aData
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -11972,12 +11972,12 @@ ExpectSymbol
 '
 {
 '
-PR_TRUE
+true
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -12006,7 +12006,7 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsCSSSection
@@ -12037,7 +12037,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -12093,7 +12093,7 @@ OUTPUT_ERROR
 ;
 SkipAtRule
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -12114,7 +12114,7 @@ ParseRuleSet
 (
 AppendRuleToSheet
 this
-PR_TRUE
+true
 )
 ;
 }
@@ -12130,7 +12130,7 @@ ExpectSymbol
 '
 }
 '
-PR_TRUE
+true
 )
 )
 {
@@ -12139,7 +12139,7 @@ mSection
 holdSection
 ;
 return
-PR_FALSE
+false
 ;
 }
 (
@@ -12152,7 +12152,7 @@ aData
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -12204,7 +12204,7 @@ if
 GatherMedia
 (
 media
-PR_TRUE
+true
 )
 )
 {
@@ -12277,12 +12277,12 @@ media
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -12381,7 +12381,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 |
 |
@@ -12455,7 +12455,7 @@ delete
 urls
 ;
 return
-PR_FALSE
+false
 ;
 }
 css
@@ -12605,7 +12605,7 @@ eRegExp
 ;
 GetToken
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -12656,7 +12656,7 @@ ExpectSymbol
 '
 )
 '
-PR_TRUE
+true
 )
 )
 {
@@ -12676,7 +12676,7 @@ delete
 urls
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -12762,7 +12762,7 @@ delete
 urls
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -12826,7 +12826,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 ;
@@ -12900,7 +12900,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -12910,7 +12910,7 @@ PEAtNSPrefixEOF
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsAutoString
@@ -12972,7 +12972,7 @@ ExpectSymbol
 '
 ;
 '
-PR_TRUE
+true
 )
 )
 {
@@ -12996,7 +12996,7 @@ PEAtNSURIEOF
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 ProcessNameSpace
@@ -13008,7 +13008,7 @@ aData
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -13175,7 +13175,7 @@ ExpectSymbol
 '
 {
 '
-PR_TRUE
+true
 )
 )
 {
@@ -13185,7 +13185,7 @@ PEBadFontBlockStart
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsRefPtr
@@ -13214,7 +13214,7 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -13228,7 +13228,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -13304,7 +13304,7 @@ if
 !
 SkipDeclaration
 (
-PR_TRUE
+true
 )
 )
 break
@@ -13319,7 +13319,7 @@ ExpectSymbol
 '
 }
 '
-PR_TRUE
+true
 )
 )
 {
@@ -13329,7 +13329,7 @@ PEBadFontBlockEnd
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 (
@@ -13342,7 +13342,7 @@ aData
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -13461,7 +13461,7 @@ PEFontDescExpected
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsString
@@ -13479,7 +13479,7 @@ ExpectSymbol
 '
 :
 '
-PR_TRUE
+true
 )
 )
 {
@@ -13493,7 +13493,7 @@ OUTPUT_ERROR
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsCSSFontDesc
@@ -13536,11 +13536,11 @@ vendors
 extensions
 SkipDeclaration
 (
-PR_TRUE
+true
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -13567,7 +13567,7 @@ params
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -13603,7 +13603,7 @@ params
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -13614,7 +13614,7 @@ ExpectEndProperty
 )
 )
 return
-PR_FALSE
+false
 ;
 aRule
 -
@@ -13626,7 +13626,7 @@ value
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -13649,7 +13649,7 @@ not
 yet
 implemented
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -13670,7 +13670,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -13680,7 +13680,7 @@ PEKeyframeNameEOF
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -13703,7 +13703,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsString
@@ -13722,7 +13722,7 @@ ExpectSymbol
 '
 {
 '
-PR_TRUE
+true
 )
 )
 {
@@ -13732,7 +13732,7 @@ PEKeyframeBrace
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsRefPtr
@@ -13755,7 +13755,7 @@ ExpectSymbol
 '
 }
 '
-PR_TRUE
+true
 )
 )
 {
@@ -13791,7 +13791,7 @@ OUTPUT_ERROR
 ;
 SkipRuleSet
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -13806,7 +13806,7 @@ aData
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 already_AddRefed
@@ -13855,7 +13855,7 @@ declaration
 (
 ParseDeclarationBlock
 (
-PR_TRUE
+true
 )
 )
 ;
@@ -13932,7 +13932,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -13964,7 +13964,7 @@ trailing
 comma
 .
 return
-PR_FALSE
+false
 ;
 }
 float
@@ -14075,7 +14075,7 @@ trailing
 comma
 .
 return
-PR_FALSE
+false
 ;
 }
 aSelectorList
@@ -14092,12 +14092,12 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -14144,7 +14144,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -14379,7 +14379,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -14539,7 +14539,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -14555,7 +14555,7 @@ PESkipDeclBraceEOF
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -14701,7 +14701,7 @@ SkipUntil
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -14732,7 +14732,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -14910,10 +14910,10 @@ aRule
 )
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -15078,7 +15078,7 @@ aInsideBraces
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_ASSERTION
@@ -15114,7 +15114,7 @@ declaration
 =
 ParseDeclarationBlock
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -15129,7 +15129,7 @@ delete
 slist
 ;
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -15220,7 +15220,7 @@ aData
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -15266,7 +15266,7 @@ aListHead
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_ASSERTION
@@ -15330,7 +15330,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -15346,7 +15346,7 @@ PRUnichar
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 REPORT_UNEXPECTED_EOF
@@ -15457,7 +15457,7 @@ UngetToken
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -15481,7 +15481,7 @@ aListHead
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -15614,7 +15614,7 @@ combinator
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -15629,7 +15629,7 @@ if
 !
 GetToken
 (
-PR_FALSE
+false
 )
 )
 {
@@ -15663,7 +15663,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -15805,7 +15805,7 @@ PESelectorListExtra
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -15818,7 +15818,7 @@ forget
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -15950,7 +15950,7 @@ if
 !
 GetToken
 (
-PR_FALSE
+false
 )
 )
 {
@@ -16091,7 +16091,7 @@ ExpectSymbol
 '
 |
 '
-PR_FALSE
+false
 )
 )
 {
@@ -16120,7 +16120,7 @@ if
 !
 GetToken
 (
-PR_FALSE
+false
 )
 )
 {
@@ -16243,7 +16243,7 @@ if
 !
 GetToken
 (
-PR_FALSE
+false
 )
 )
 {
@@ -16299,7 +16299,7 @@ ExpectSymbol
 '
 |
 '
-PR_FALSE
+false
 )
 )
 {
@@ -16344,7 +16344,7 @@ if
 !
 GetToken
 (
-PR_FALSE
+false
 )
 )
 {
@@ -16462,7 +16462,7 @@ if
 !
 GetToken
 (
-PR_FALSE
+false
 )
 )
 {
@@ -16525,7 +16525,7 @@ if
 !
 GetToken
 (
-PR_FALSE
+false
 )
 )
 {
@@ -16617,7 +16617,7 @@ if
 !
 GetToken
 (
-PR_FALSE
+false
 )
 )
 {
@@ -16742,7 +16742,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -16794,7 +16794,7 @@ ExpectSymbol
 '
 |
 '
-PR_FALSE
+false
 )
 )
 {
@@ -16803,7 +16803,7 @@ if
 !
 GetToken
 (
-PR_FALSE
+false
 )
 )
 {
@@ -16891,7 +16891,7 @@ if
 !
 GetToken
 (
-PR_FALSE
+false
 )
 )
 {
@@ -16981,7 +16981,7 @@ ExpectSymbol
 '
 |
 '
-PR_FALSE
+false
 )
 )
 {
@@ -17014,7 +17014,7 @@ if
 !
 GetToken
 (
-PR_FALSE
+false
 )
 )
 {
@@ -17092,7 +17092,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -17338,7 +17338,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -17390,7 +17390,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -17708,7 +17708,7 @@ htmlAttr
 {
 isCaseSensitive
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -17896,7 +17896,7 @@ if
 !
 GetToken
 (
-PR_FALSE
+false
 )
 )
 {
@@ -17946,14 +17946,14 @@ IsSymbol
 {
 parsingPseudoElement
 =
-PR_TRUE
+true
 ;
 if
 (
 !
 GetToken
 (
-PR_FALSE
+false
 )
 )
 {
@@ -19115,7 +19115,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -19364,7 +19364,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -19617,7 +19617,7 @@ ParsePseudoSelector
 aDataMask
 *
 newSel
-PR_TRUE
+true
 nsnull
 nsnull
 nsnull
@@ -19698,7 +19698,7 @@ ParseTypeOrUniversalSelector
 aDataMask
 *
 newSel
-PR_TRUE
+true
 )
 ;
 }
@@ -19739,7 +19739,7 @@ ExpectSymbol
 '
 )
 '
-PR_TRUE
+true
 )
 )
 {
@@ -19859,7 +19859,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -20032,7 +20032,7 @@ ExpectSymbol
 '
 )
 '
-PR_TRUE
+true
 )
 )
 {
@@ -20134,7 +20134,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -20376,7 +20376,7 @@ numbers
 ;
 lookForB
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -20410,7 +20410,7 @@ numbers
 ;
 lookForB
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -20534,7 +20534,7 @@ mInteger
 ;
 lookForB
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -20651,7 +20651,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -20760,7 +20760,7 @@ IsSymbol
 {
 haveSign
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -20785,7 +20785,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -20859,7 +20859,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -21134,7 +21134,7 @@ ExpectSymbol
 '
 )
 '
-PR_TRUE
+true
 )
 )
 {
@@ -21215,7 +21215,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -21225,7 +21225,7 @@ PESelectorEOF
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsCSSSelector
@@ -21276,7 +21276,7 @@ ParseTypeOrUniversalSelector
 dataMask
 *
 selector
-PR_FALSE
+false
 )
 ;
 while
@@ -21362,7 +21362,7 @@ ParsePseudoSelector
 dataMask
 *
 selector
-PR_FALSE
+false
 getter_AddRefs
 (
 pseudoElement
@@ -21458,7 +21458,7 @@ if
 !
 GetToken
 (
-PR_FALSE
+false
 )
 )
 {
@@ -21489,7 +21489,7 @@ eSelectorParsingStatus_Error
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -21521,7 +21521,7 @@ PESelectorGroupNoSelector
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -21581,7 +21581,7 @@ PEAnonBoxNotAlone
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -21636,7 +21636,7 @@ pseudoElementType
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 aList
@@ -21729,7 +21729,7 @@ pseudoElementType
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 css
@@ -21759,7 +21759,7 @@ ExpectSymbol
 '
 {
 '
-PR_TRUE
+true
 )
 )
 {
@@ -21819,7 +21819,7 @@ ParseDeclaration
 (
 declaration
 aCheckForBraces
-PR_TRUE
+true
 &
 changed
 )
@@ -21849,7 +21849,7 @@ ExpectSymbol
 '
 }
 '
-PR_TRUE
+true
 )
 )
 {
@@ -21946,7 +21946,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -21956,7 +21956,7 @@ PEColorEOF
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsCSSToken
@@ -22008,7 +22008,7 @@ rgba
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 break
@@ -22041,7 +22041,7 @@ eCSSUnit_Ident
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -22099,7 +22099,7 @@ eCSSUnit_EnumColor
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -22184,7 +22184,7 @@ b
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 SkipUntil
@@ -22195,7 +22195,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -22297,7 +22297,7 @@ a
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 SkipUntil
@@ -22308,7 +22308,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -22371,7 +22371,7 @@ rgba
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 SkipUntil
@@ -22382,7 +22382,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -22492,7 +22492,7 @@ a
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 SkipUntil
@@ -22503,7 +22503,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 break
@@ -22913,7 +22913,7 @@ rgba
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -22935,7 +22935,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -22979,7 +22979,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -22989,7 +22989,7 @@ PEColorComponentEOF
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 float
@@ -23045,7 +23045,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 default
 :
@@ -23085,7 +23085,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 value
@@ -23127,7 +23127,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 case
 COLOR_TYPE_PERCENTAGES
@@ -23179,7 +23179,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -23187,7 +23187,7 @@ if
 ExpectSymbol
 (
 aStop
-PR_TRUE
+true
 )
 )
 {
@@ -23227,7 +23227,7 @@ value
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 const
@@ -23266,7 +23266,7 @@ params
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -23297,7 +23297,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -23307,7 +23307,7 @@ PEColorHueEOF
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -23330,7 +23330,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 h
@@ -23368,7 +23368,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 {
@@ -23378,7 +23378,7 @@ PEExpectedComma
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -23391,7 +23391,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -23401,7 +23401,7 @@ PEColorSaturationEOF
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -23424,7 +23424,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 s
@@ -23468,7 +23468,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 {
@@ -23478,7 +23478,7 @@ PEExpectedComma
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -23491,7 +23491,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -23501,7 +23501,7 @@ PEColorLightnessEOF
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -23524,7 +23524,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 l
@@ -23566,7 +23566,7 @@ if
 ExpectSymbol
 (
 aStop
-PR_TRUE
+true
 )
 )
 {
@@ -23580,7 +23580,7 @@ l
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 const
@@ -23619,7 +23619,7 @@ params
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -23638,7 +23638,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -23648,7 +23648,7 @@ PEColorOpacityEOF
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -23671,7 +23671,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -23784,7 +23784,7 @@ ExpectSymbol
 '
 )
 '
-PR_TRUE
+true
 )
 )
 {
@@ -23794,7 +23794,7 @@ PEExpectedCloseParen
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 aOpacity
@@ -23802,7 +23802,7 @@ aOpacity
 value
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -23887,7 +23887,7 @@ ExpectSymbol
 '
 )
 '
-PR_TRUE
+true
 )
 )
 {
@@ -23896,12 +23896,12 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -23949,7 +23949,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -23967,7 +23967,7 @@ mClassList
 nsnull
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -24097,7 +24097,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -24113,7 +24113,7 @@ PEDeclEndEOF
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -24153,7 +24153,7 @@ ExpectSymbol
 '
 :
 '
-PR_TRUE
+true
 )
 )
 {
@@ -24172,7 +24172,7 @@ OUTPUT_ERROR
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 break
@@ -24242,7 +24242,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -24322,7 +24322,7 @@ OUTPUT_ERROR
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -24394,7 +24394,7 @@ AssertInitialState
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 CLEAR_ERROR
@@ -24440,7 +24440,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -24575,7 +24575,7 @@ AssertInitialState
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 *
@@ -24592,13 +24592,13 @@ status
 =
 =
 ePriority_Important
-PR_FALSE
+false
 aMustCallValueAppended
 aDeclaration
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -24737,7 +24737,7 @@ ident
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCSSKeyword
@@ -24784,7 +24784,7 @@ eCSSUnit_Enumerated
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -24802,7 +24802,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 struct
@@ -25165,7 +25165,7 @@ UnitData
 Unknown
 unit
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -25275,7 +25275,7 @@ called
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -25300,11 +25300,11 @@ units
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -25573,7 +25573,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -25606,7 +25606,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -25639,16 +25639,16 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -25806,7 +25806,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -25841,16 +25841,16 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -25861,7 +25861,7 @@ aValue
 iff
 it
 returns
-PR_TRUE
+true
 .
 bool
 CSSParserImpl
@@ -25946,12 +25946,12 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCSSToken
@@ -26046,7 +26046,7 @@ SetAutoValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -26115,7 +26115,7 @@ SetInheritValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -26147,7 +26147,7 @@ SetInitialValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -26178,7 +26178,7 @@ SetNoneValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -26209,7 +26209,7 @@ SetAllValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -26240,7 +26240,7 @@ SetNormalValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -26277,7 +26277,7 @@ SetSystemFontValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -26318,7 +26318,7 @@ eCSSUnit_Enumerated
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -26374,7 +26374,7 @@ eCSSUnit_Number
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -26420,7 +26420,7 @@ eCSSUnit_Integer
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -26518,7 +26518,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -26539,7 +26539,7 @@ mIdent
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -26567,7 +26567,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -26606,7 +26606,7 @@ mNumber
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -26667,7 +26667,7 @@ eCSSUnit_Pixel
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -26754,7 +26754,7 @@ eCSSUnit_Pixel
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -26791,7 +26791,7 @@ mIdent
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -26843,8 +26843,8 @@ return
 ParseGradient
 (
 aValue
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 if
@@ -26870,8 +26870,8 @@ return
 ParseGradient
 (
 aValue
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 if
@@ -26899,8 +26899,8 @@ return
 ParseGradient
 (
 aValue
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 if
@@ -26928,8 +26928,8 @@ return
 ParseGradient
 (
 aValue
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 }
@@ -27221,11 +27221,11 @@ aValue
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -27276,7 +27276,7 @@ eCSSUnit_String
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -27361,7 +27361,7 @@ eCSSUnit_Ident
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -27479,11 +27479,11 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -27545,11 +27545,11 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -27584,11 +27584,11 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -27657,7 +27657,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -27718,7 +27718,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -27811,14 +27811,14 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 |
 |
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -27875,7 +27875,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 {
@@ -27884,7 +27884,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -27979,7 +27979,7 @@ ExpectSymbol
 '
 )
 '
-PR_TRUE
+true
 )
 )
 {
@@ -27995,7 +27995,7 @@ unit
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 SkipUntil
@@ -28006,7 +28006,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -28025,12 +28025,12 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsAutoString
@@ -28067,7 +28067,7 @@ ExpectSymbol
 '
 |
 '
-PR_FALSE
+false
 )
 )
 {
@@ -28091,7 +28091,7 @@ kNameSpaceID_Unknown
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 attr
@@ -28119,7 +28119,7 @@ if
 !
 GetToken
 (
-PR_FALSE
+false
 )
 )
 {
@@ -28129,7 +28129,7 @@ PEAttributeNameEOF
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -28164,7 +28164,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -28219,7 +28219,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -28245,7 +28245,7 @@ if
 !
 GetToken
 (
-PR_FALSE
+false
 )
 )
 {
@@ -28255,7 +28255,7 @@ PEAttributeNameEOF
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -28290,7 +28290,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -28306,7 +28306,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -28317,12 +28317,12 @@ ExpectSymbol
 '
 )
 '
-PR_TRUE
+true
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aValue
@@ -28334,7 +28334,7 @@ eCSSUnit_Attr
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -28379,7 +28379,7 @@ principal
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsRefPtr
@@ -28414,7 +28414,7 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -28467,7 +28467,7 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 aValue
@@ -28478,7 +28478,7 @@ urlVal
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -28700,7 +28700,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 {
@@ -28732,7 +28732,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 |
 |
@@ -28750,7 +28750,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 |
 |
@@ -28768,7 +28768,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 |
 |
@@ -28787,7 +28787,7 @@ ExpectSymbol
 '
 )
 '
-PR_TRUE
+true
 )
 )
 break
@@ -28797,7 +28797,7 @@ aImage
 newFunction
 ;
 return
-PR_TRUE
+true
 ;
 }
 SkipUntil
@@ -28808,7 +28808,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -28865,7 +28865,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 break
@@ -28908,13 +28908,13 @@ ExpectSymbol
 '
 )
 '
-PR_TRUE
+true
 )
 )
 break
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -28956,7 +28956,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -29018,7 +29018,7 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -29036,7 +29036,7 @@ nsnull
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -29092,7 +29092,7 @@ SetNoneValue
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -29386,12 +29386,12 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCSSTokenType
@@ -29433,7 +29433,7 @@ eCSSToken_Dimension
 :
 haveGradientLine
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -29457,7 +29457,7 @@ calc
 {
 haveGradientLine
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -29539,7 +29539,7 @@ junk
 {
 haveGradientLine
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -29558,7 +29558,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -29608,7 +29608,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 {
@@ -29621,7 +29621,7 @@ cssGradient
 -
 >
 mBgPos
-PR_FALSE
+false
 )
 )
 {
@@ -29633,7 +29633,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -29643,7 +29643,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 &
 &
@@ -29700,7 +29700,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 )
@@ -29713,7 +29713,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -29814,7 +29814,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 {
@@ -29826,7 +29826,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -29853,7 +29853,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 |
 |
@@ -29872,7 +29872,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -29886,7 +29886,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 {
@@ -29907,7 +29907,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -29919,7 +29919,7 @@ ExpectSymbol
 '
 )
 '
-PR_TRUE
+true
 )
 )
 {
@@ -29931,7 +29931,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 aValue
@@ -29942,7 +29942,7 @@ cssGradient
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 PRInt32
@@ -30493,7 +30493,7 @@ count
 |
 |
 (
-PR_FALSE
+false
 =
 =
 ExpectEndProperty
@@ -30503,7 +30503,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -30565,7 +30565,7 @@ unit
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -30669,7 +30669,7 @@ index
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -30741,7 +30741,7 @@ ExpectEndProperty
 )
 )
 return
-PR_FALSE
+false
 ;
 AppendValue
 (
@@ -30778,7 +30778,7 @@ typeVal
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -30813,7 +30813,7 @@ nsnull
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -30908,7 +30908,7 @@ value
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -31025,7 +31025,7 @@ countX
 0
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -31034,7 +31034,7 @@ ExpectSymbol
 '
 /
 '
-PR_TRUE
+true
 )
 )
 {
@@ -31079,7 +31079,7 @@ countY
 0
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -31090,7 +31090,7 @@ ExpectEndProperty
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -31147,7 +31147,7 @@ eCSSUnit_Initial
 unit
 )
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -31413,7 +31413,7 @@ pair
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -31557,7 +31557,7 @@ PEInaccessibleProperty2
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 case
@@ -31601,7 +31601,7 @@ value
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -31618,7 +31618,7 @@ Report
 errors
 ?
 return
-PR_FALSE
+false
 ;
 }
 case
@@ -31635,7 +31635,7 @@ aPropID
 }
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 Property
 '
@@ -31660,7 +31660,7 @@ constants
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -31716,7 +31716,7 @@ return
 ParseBorderSide
 (
 kBorderTopIDs
-PR_TRUE
+true
 )
 ;
 case
@@ -31750,7 +31750,7 @@ return
 ParseBorderSide
 (
 kBorderBottomIDs
-PR_FALSE
+false
 )
 ;
 case
@@ -31800,7 +31800,7 @@ return
 ParseBorderSide
 (
 kBorderTopIDs
-PR_FALSE
+false
 )
 ;
 case
@@ -32041,7 +32041,7 @@ return
 ParseBorderSide
 (
 kColumnRuleIDs
-PR_FALSE
+false
 )
 ;
 case
@@ -32247,7 +32247,7 @@ eCSSProperty__moz_transform_origin
 return
 ParseMozTransformOrigin
 (
-PR_FALSE
+false
 )
 ;
 case
@@ -32256,7 +32256,7 @@ eCSSProperty_perspective_origin
 return
 ParseMozTransformOrigin
 (
-PR_TRUE
+true
 )
 ;
 case
@@ -32315,7 +32315,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 should
 not
@@ -32325,7 +32325,7 @@ called
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -32447,7 +32447,7 @@ eCSSProperty_COUNT_no_shorthands
 {
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 not
 a
@@ -32458,7 +32458,7 @@ property
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -32527,7 +32527,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 should
 not
@@ -32537,7 +32537,7 @@ here
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -32562,7 +32562,7 @@ variant
 {
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 not
 a
@@ -32573,7 +32573,7 @@ property
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -32626,7 +32626,7 @@ eCSSProperty_script_level
 mUnsafeRulesEnabled
 )
 return
-PR_FALSE
+false
 ;
 const
 PRInt32
@@ -32656,7 +32656,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 should
 not
@@ -32728,7 +32728,7 @@ mFamilyName
 )
 mGood
 (
-PR_FALSE
+false
 )
 {
 }
@@ -32781,10 +32781,10 @@ realData
 >
 mGood
 =
-PR_FALSE
+false
 ;
 return
-PR_FALSE
+false
 ;
 }
 realData
@@ -32802,10 +32802,10 @@ realData
 >
 mGood
 =
-PR_TRUE
+true
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -32900,7 +32900,7 @@ GetUnit
 eCSSUnit_Families
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -32971,7 +32971,7 @@ dat
 mGood
 )
 return
-PR_FALSE
+false
 ;
 aValue
 .
@@ -32984,7 +32984,7 @@ eCSSUnit_String
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -33183,7 +33183,7 @@ find
 missing
 descriptors
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -33384,7 +33384,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -33422,7 +33422,7 @@ color
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsCSSValue
@@ -33491,7 +33491,7 @@ state
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -33536,7 +33536,7 @@ PEExpectEndValue
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -33554,12 +33554,12 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -33811,7 +33811,7 @@ color
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -33980,28 +33980,28 @@ haveColor
 false
 haveImage
 =
-PR_FALSE
+false
 haveRepeat
 =
-PR_FALSE
+false
 haveAttach
 =
-PR_FALSE
+false
 havePosition
 =
-PR_FALSE
+false
 haveOrigin
 =
-PR_FALSE
+false
 haveSomething
 =
-PR_FALSE
+false
 ;
 while
 (
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -34098,7 +34098,7 @@ eCSSKeyword__moz_initial
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -34115,11 +34115,11 @@ if
 haveImage
 )
 return
-PR_FALSE
+false
 ;
 haveImage
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -34148,7 +34148,7 @@ parse
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -34174,11 +34174,11 @@ if
 haveAttach
 )
 return
-PR_FALSE
+false
 ;
 haveAttach
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -34207,7 +34207,7 @@ parse
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -34233,11 +34233,11 @@ if
 haveRepeat
 )
 return
-PR_FALSE
+false
 ;
 haveRepeat
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -34266,7 +34266,7 @@ parse
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -34292,11 +34292,11 @@ if
 havePosition
 )
 return
-PR_FALSE
+false
 ;
 havePosition
 =
-PR_TRUE
+true
 ;
 nsCSSValuePair
 scratch
@@ -34307,12 +34307,12 @@ if
 ParseBoxPositionValues
 (
 scratch
-PR_FALSE
+false
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aState
@@ -34360,11 +34360,11 @@ if
 haveOrigin
 )
 return
-PR_FALSE
+false
 ;
 haveOrigin
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -34393,7 +34393,7 @@ parse
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PR_STATIC_ASSERT
@@ -34442,11 +34442,11 @@ if
 haveColor
 )
 return
-PR_FALSE
+false
 ;
 haveColor
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -34461,7 +34461,7 @@ eCSSProperty_background_color
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -34594,11 +34594,11 @@ if
 haveImage
 )
 return
-PR_FALSE
+false
 ;
 haveImage
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -34616,7 +34616,7 @@ eCSSProperty_background_image
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -34669,11 +34669,11 @@ if
 havePosition
 )
 return
-PR_FALSE
+false
 ;
 havePosition
 =
-PR_TRUE
+true
 ;
 nsCSSValuePair
 scratch
@@ -34684,12 +34684,12 @@ if
 ParseBoxPositionValues
 (
 scratch
-PR_FALSE
+false
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aState
@@ -34722,11 +34722,11 @@ if
 haveColor
 )
 return
-PR_FALSE
+false
 ;
 haveColor
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -34770,13 +34770,13 @@ eCSSProperty_background_color
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 haveSomething
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -34854,7 +34854,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -34890,7 +34890,7 @@ aPropID
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -34910,12 +34910,12 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 item
@@ -34942,7 +34942,7 @@ value
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -35002,7 +35002,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -35017,12 +35017,12 @@ if
 ParseBoxPositionValues
 (
 valuePair
-PR_FALSE
+false
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCSSValuePairList
@@ -35076,12 +35076,12 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -35090,12 +35090,12 @@ if
 ParseBoxPositionValues
 (
 valuePair
-PR_FALSE
+false
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 item
@@ -35122,7 +35122,7 @@ value
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -35305,7 +35305,7 @@ yValue
 xValue
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -35352,7 +35352,7 @@ have
 two
 numbers
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -35405,7 +35405,7 @@ or
 bottom
 '
 return
-PR_FALSE
+false
 ;
 }
 yValue
@@ -35413,11 +35413,11 @@ yValue
 BoxPositionMaskToCSSValue
 (
 yVal
-PR_FALSE
+false
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -35458,7 +35458,7 @@ SetPercentValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -35630,7 +35630,7 @@ be
 duplicated
 .
 return
-PR_FALSE
+false
 ;
 }
 mask
@@ -35698,7 +35698,7 @@ or
 right
 '
 return
-PR_FALSE
+false
 ;
 }
 xValue
@@ -35706,11 +35706,11 @@ xValue
 BoxPositionMaskToCSSValue
 (
 mask
-PR_TRUE
+true
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -35777,7 +35777,7 @@ BG_RIGHT
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -35790,7 +35790,7 @@ xValue
 BoxPositionMaskToCSSValue
 (
 mask
-PR_TRUE
+true
 )
 ;
 yValue
@@ -35798,11 +35798,11 @@ yValue
 BoxPositionMaskToCSSValue
 (
 mask
-PR_FALSE
+false
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -35864,7 +35864,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -35883,7 +35883,7 @@ valuePair
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCSSValuePairList
@@ -35937,12 +35937,12 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -35955,7 +35955,7 @@ valuePair
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 item
@@ -35982,7 +35982,7 @@ value
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -36190,7 +36190,7 @@ calc
 auto
 .
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -36232,7 +36232,7 @@ SetAutoValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -36260,7 +36260,7 @@ kBackgroundSizeKTable
 )
 )
 return
-PR_FALSE
+false
 ;
 yValue
 .
@@ -36269,7 +36269,7 @@ Reset
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -36353,7 +36353,7 @@ val
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -36569,7 +36569,7 @@ nsnull
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -36601,7 +36601,7 @@ nsnull
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -36680,7 +36680,7 @@ ExpectSymbol
 '
 /
 '
-PR_TRUE
+true
 )
 )
 {
@@ -36709,7 +36709,7 @@ nsnull
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -36821,7 +36821,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 val
@@ -36839,7 +36839,7 @@ val
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -36868,7 +36868,7 @@ nsnull
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -36930,7 +36930,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -36979,7 +36979,7 @@ pair
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -37029,7 +37029,7 @@ found
 |
 |
 (
-PR_FALSE
+false
 =
 =
 ExpectEndProperty
@@ -37039,7 +37039,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -37393,7 +37393,7 @@ index
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -37443,7 +37443,7 @@ found
 |
 |
 (
-PR_FALSE
+false
 =
 =
 ExpectEndProperty
@@ -37453,7 +37453,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -37644,7 +37644,7 @@ typeVal
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -37795,7 +37795,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -37837,7 +37837,7 @@ kBorderColorKTable
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -37874,7 +37874,7 @@ value
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -38068,7 +38068,7 @@ ExpectSymbol
 '
 )
 '
-PR_TRUE
+true
 )
 )
 break
@@ -38082,12 +38082,12 @@ eCSSUnit_Calc
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 while
 (
-PR_FALSE
+false
 )
 ;
 SkipUntil
@@ -38098,7 +38098,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -38133,7 +38133,7 @@ ExpectSymbol
 '
 )
 with
-PR_TRUE
+true
 for
 aSkipWS
 .
@@ -38306,7 +38306,7 @@ haveWS
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -38317,11 +38317,11 @@ haveWS
 !
 GetToken
 (
-PR_FALSE
+false
 )
 )
 return
-PR_TRUE
+true
 ;
 nsCSSUnit
 unit
@@ -38368,7 +38368,7 @@ UngetToken
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -38379,7 +38379,7 @@ RequireWhitespace
 )
 )
 return
-PR_FALSE
+false
 ;
 nsRefPtr
 <
@@ -38754,7 +38754,7 @@ variantMask
 )
 )
 return
-PR_FALSE
+false
 ;
 NS_ABORT_IF_FALSE
 (
@@ -38858,7 +38858,7 @@ number
 afterDivision
 )
 return
-PR_FALSE
+false
 ;
 storage
 -
@@ -38874,7 +38874,7 @@ else
 {
 gotValue
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -38989,7 +38989,7 @@ if
 !
 GetToken
 (
-PR_FALSE
+false
 )
 )
 {
@@ -39026,7 +39026,7 @@ eCSSUnit_Calc_Times_L
 ;
 afterDivision
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -39048,7 +39048,7 @@ eCSSUnit_Calc_Divided
 ;
 afterDivision
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -39187,12 +39187,12 @@ didn
 t
 .
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -39320,11 +39320,11 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -39365,7 +39365,7 @@ ExpectSymbol
 '
 )
 '
-PR_TRUE
+true
 )
 )
 {
@@ -39377,11 +39377,11 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -39428,7 +39428,7 @@ nsnull
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -39464,7 +39464,7 @@ eCSSUnit_Number
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -39531,7 +39531,7 @@ VARIANT_NUMBER
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -39564,11 +39564,11 @@ if
 !
 GetToken
 (
-PR_FALSE
+false
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -39585,7 +39585,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -39600,7 +39600,7 @@ if
 (
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -39610,7 +39610,7 @@ UngetToken
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -39628,12 +39628,12 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCSSValue
@@ -39679,7 +39679,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 val
@@ -39702,7 +39702,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 val
@@ -39725,7 +39725,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 val
@@ -39743,7 +39743,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -39811,7 +39811,7 @@ nsnull
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -39828,7 +39828,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 ;
 }
@@ -39869,12 +39869,12 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -39887,12 +39887,12 @@ ExpectSymbol
 '
 )
 '
-PR_TRUE
+true
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -39904,7 +39904,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -39915,7 +39915,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 AppendValue
@@ -39925,7 +39925,7 @@ val
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -40061,7 +40061,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -40112,7 +40112,7 @@ which
 is
 invalid
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -40216,7 +40216,7 @@ index
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -40433,7 +40433,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -40470,7 +40470,7 @@ kContentListKWs
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -40507,7 +40507,7 @@ value
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -40541,7 +40541,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 |
 |
@@ -40554,7 +40554,7 @@ eCSSToken_Ident
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCSSValuePairList
@@ -40591,7 +40591,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
@@ -40649,7 +40649,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 |
 |
@@ -40662,7 +40662,7 @@ eCSSToken_Ident
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 cur
@@ -40689,7 +40689,7 @@ value
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -40734,7 +40734,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -40774,7 +40774,7 @@ kCursorKTable
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -40809,7 +40809,7 @@ break
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -40923,7 +40923,7 @@ nsnull
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -40945,7 +40945,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 {
@@ -40957,7 +40957,7 @@ not
 be
 last
 return
-PR_FALSE
+false
 ;
 }
 cur
@@ -40984,7 +40984,7 @@ value
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -41199,11 +41199,11 @@ systemFont
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -41291,7 +41291,7 @@ GetUnit
 illegal
 data
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -41414,7 +41414,7 @@ kFontSizeKTable
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -41437,7 +41437,7 @@ ExpectSymbol
 '
 /
 '
-PR_TRUE
+true
 )
 )
 {
@@ -41457,7 +41457,7 @@ nsnull
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -41615,12 +41615,12 @@ eCSSUnit_Normal
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -41706,7 +41706,7 @@ intValue
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -41716,16 +41716,16 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -41744,11 +41744,11 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCSSToken
 *
@@ -41789,7 +41789,7 @@ if
 !
 GetToken
 (
-PR_FALSE
+false
 )
 )
 break
@@ -41851,7 +41851,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 break
@@ -41896,7 +41896,7 @@ break
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -41957,7 +41957,7 @@ mSymbol
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -41967,7 +41967,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -42119,7 +42119,7 @@ nsnull
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -42140,7 +42140,7 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -42165,7 +42165,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 {
@@ -42201,7 +42201,7 @@ ExpectSymbol
 '
 )
 '
-PR_TRUE
+true
 )
 &
 &
@@ -42240,7 +42240,7 @@ many
 elements
 .
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -42293,7 +42293,7 @@ the
 return
 value
 is
-PR_FALSE
+false
 .
 *
 *
@@ -42595,7 +42595,7 @@ foundValues
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 *
@@ -42797,7 +42797,7 @@ it
 *
 /
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -43121,7 +43121,7 @@ eNumVariantMasks
 ;
 aIs3D
 =
-PR_FALSE
+false
 ;
 switch
 (
@@ -43182,7 +43182,7 @@ aMaxElems
 ;
 aIs3D
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -43215,7 +43215,7 @@ aMaxElems
 ;
 aIs3D
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -43224,7 +43224,7 @@ eCSSKeyword_scalez
 :
 aIs3D
 =
-PR_TRUE
+true
 ;
 case
 eCSSKeyword_scalex
@@ -43281,7 +43281,7 @@ aMaxElems
 ;
 aIs3D
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -43293,7 +43293,7 @@ eCSSKeyword_rotatey
 :
 aIs3D
 =
-PR_TRUE
+true
 ;
 case
 eCSSKeyword_rotate
@@ -43340,7 +43340,7 @@ aMaxElems
 ;
 aIs3D
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -43533,7 +43533,7 @@ aMaxElems
 ;
 aIs3D
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -43563,7 +43563,7 @@ aMaxElems
 ;
 aIs3D
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -43586,7 +43586,7 @@ error
 *
 /
 return
-PR_FALSE
+false
 ;
 }
 NS_ASSERTION
@@ -43704,7 +43704,7 @@ variantIndex
 ]
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -43748,11 +43748,11 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -43769,7 +43769,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -43807,7 +43807,7 @@ aIs3D
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 ParseFunction
@@ -43894,7 +43894,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -43933,7 +43933,7 @@ is3D
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -43951,7 +43951,7 @@ Are3DTransformsEnabled
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -43988,7 +43988,7 @@ value
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -44010,11 +44010,11 @@ if
 ParseBoxPositionValues
 (
 position
-PR_TRUE
+true
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCSSProperty
 prop
@@ -44035,7 +44035,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 prop
@@ -44220,7 +44220,7 @@ value
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -44239,11 +44239,11 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -44283,7 +44283,7 @@ SetInheritValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -44301,7 +44301,7 @@ SetInitialValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -44325,7 +44325,7 @@ SetSystemFontValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -44351,7 +44351,7 @@ family
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -44360,7 +44360,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 break
@@ -44387,7 +44387,7 @@ IsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aValue
@@ -44399,7 +44399,7 @@ eCSSUnit_Families
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -44517,7 +44517,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 break
@@ -44556,7 +44556,7 @@ values
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -44662,7 +44662,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -44673,7 +44673,7 @@ ExpectSymbol
 '
 )
 '
-PR_TRUE
+true
 )
 )
 {
@@ -44685,7 +44685,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -44747,7 +44747,7 @@ dat
 mGood
 )
 return
-PR_FALSE
+false
 ;
 cur
 .
@@ -44770,7 +44770,7 @@ cur
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -44780,7 +44780,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 break
@@ -44798,7 +44798,7 @@ Length
 0
 )
 return
-PR_FALSE
+false
 ;
 nsRefPtr
 <
@@ -44844,7 +44844,7 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -44890,7 +44890,7 @@ eCSSUnit_Array
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -44912,11 +44912,11 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -44951,7 +44951,7 @@ UngetToken
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 do
@@ -44961,11 +44961,11 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -44997,7 +44997,7 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsCSSValue
@@ -45023,7 +45023,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 ;
@@ -45035,7 +45035,7 @@ ExpectSymbol
 '
 )
 '
-PR_TRUE
+true
 )
 )
 {
@@ -45047,11 +45047,11 @@ SkipUntil
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -45095,7 +45095,7 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 break
@@ -45145,7 +45145,7 @@ mToken
 mIntegerValid
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 low
@@ -45257,7 +45257,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 break
@@ -45275,7 +45275,7 @@ Length
 0
 )
 return
-PR_FALSE
+false
 ;
 nsRefPtr
 <
@@ -45321,7 +45321,7 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -45369,7 +45369,7 @@ eCSSUnit_Array
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -45509,7 +45509,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -45606,7 +45606,7 @@ of
 them
 .
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -45813,7 +45813,7 @@ index
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -45926,7 +45926,7 @@ GetIntValue
 )
 &
 &
-PR_FALSE
+false
 =
 =
 CheckEndProperty
@@ -45993,21 +45993,21 @@ eCSSUnit_Enumerated
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -46063,7 +46063,7 @@ found
 |
 |
 (
-PR_FALSE
+false
 =
 =
 ExpectEndProperty
@@ -46073,7 +46073,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -46224,7 +46224,7 @@ index
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -46258,7 +46258,7 @@ ExpectEndProperty
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCSSValue
 overflowX
@@ -46348,7 +46348,7 @@ overflowY
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -46436,7 +46436,7 @@ nsnull
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -46460,7 +46460,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -46514,7 +46514,7 @@ nsnull
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -46545,7 +46545,7 @@ nsnull
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 quotes
@@ -46572,7 +46572,7 @@ value
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -46602,7 +46602,7 @@ kPageSizeKTable
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -46631,7 +46631,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -46680,7 +46680,7 @@ pair
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -46785,7 +46785,7 @@ kTextDecorationKTable
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCSSValue
@@ -46963,7 +46963,7 @@ not
 allowed
 .
 return
-PR_FALSE
+false
 ;
 }
 intValue
@@ -47047,7 +47047,7 @@ style
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -47187,7 +47187,7 @@ not
 allowed
 .
 return
-PR_FALSE
+false
 ;
 }
 intValue
@@ -47213,11 +47213,11 @@ eCSSUnit_Enumerated
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -47254,7 +47254,7 @@ must
 be
 alone
 return
-PR_TRUE
+true
 ;
 }
 nsCSSValue
@@ -47276,7 +47276,7 @@ kTextOverflowKTable
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCSSValue
 right
@@ -47311,7 +47311,7 @@ left
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -47366,7 +47366,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -47456,7 +47456,7 @@ nsnull
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsDependentString
@@ -47585,7 +47585,7 @@ initial
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -47605,7 +47605,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 {
@@ -47615,7 +47615,7 @@ PEExpectedComma
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 cur
@@ -47642,7 +47642,7 @@ value
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -47723,7 +47723,7 @@ ParseTransitionTimingFunctionValueComponent
 x1
 '
 '
-PR_TRUE
+true
 )
 |
 |
@@ -47733,7 +47733,7 @@ ParseTransitionTimingFunctionValueComponent
 y1
 '
 '
-PR_FALSE
+false
 )
 |
 |
@@ -47743,7 +47743,7 @@ ParseTransitionTimingFunctionValueComponent
 x2
 '
 '
-PR_TRUE
+true
 )
 |
 |
@@ -47754,12 +47754,12 @@ y2
 '
 )
 '
-PR_FALSE
+false
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 val
@@ -47827,7 +47827,7 @@ eCSSUnit_Cubic_Bezier
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -47850,12 +47850,12 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCSSToken
@@ -47906,7 +47906,7 @@ num
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aComponent
@@ -47918,17 +47918,17 @@ if
 ExpectSymbol
 (
 aStop
-PR_TRUE
+true
 )
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -48011,7 +48011,7 @@ nsnull
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -48025,7 +48025,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 {
@@ -48034,12 +48034,12 @@ if
 !
 GetToken
 (
-PR_TRUE
+true
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 type
@@ -48111,7 +48111,7 @@ UngetToken
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -48137,12 +48137,12 @@ ExpectSymbol
 '
 )
 '
-PR_TRUE
+true
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aValue
@@ -48154,7 +48154,7 @@ eCSSUnit_Steps
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -48506,7 +48506,7 @@ parsedProperty
 i
 ]
 =
-PR_FALSE
+false
 ;
 }
 for
@@ -48577,7 +48577,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 break
@@ -48591,7 +48591,7 @@ CheckEndProperty
 {
 atEOP
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -48671,7 +48671,7 @@ parsedProperty
 i
 ]
 =
-PR_TRUE
+true
 ;
 cur
 [
@@ -48693,7 +48693,7 @@ tempValue
 ;
 foundProperty
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -49324,7 +49324,7 @@ syntax
 error
 .
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -49410,7 +49410,7 @@ initial
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -49468,7 +49468,7 @@ i
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -49816,7 +49816,7 @@ i
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -49946,7 +49946,7 @@ nsnull
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -50042,7 +50042,7 @@ xOrColor
 ;
 haveColor
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -50071,7 +50071,7 @@ nsnull
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -50101,7 +50101,7 @@ nsnull
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -50196,7 +50196,7 @@ GetFloatValue
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -50300,7 +50300,7 @@ eCSSUnit_Array
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -50366,7 +50366,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -50402,7 +50402,7 @@ isBoxShadow
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -50422,12 +50422,12 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 cur
@@ -50454,7 +50454,7 @@ value
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 PRInt32
@@ -50575,7 +50575,7 @@ params
 ;
 mFoundUnresolvablePrefix
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -50655,7 +50655,7 @@ nsnull
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -50702,7 +50702,7 @@ ExpectEndProperty
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -50744,7 +50744,7 @@ val
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -50797,7 +50797,7 @@ ExpectEndProperty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -50834,7 +50834,7 @@ nsnull
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -50861,7 +50861,7 @@ ExpectSymbol
 (
 '
 '
-PR_TRUE
+true
 )
 ;
 cur
@@ -50888,7 +50888,7 @@ value
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -50937,12 +50937,12 @@ marker
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 }

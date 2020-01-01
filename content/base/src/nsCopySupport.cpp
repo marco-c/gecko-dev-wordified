@@ -1979,7 +1979,7 @@ SelectionCopyHelper
 (
 aSel
 aDoc
-PR_TRUE
+true
 aClipboardID
 nsIDocumentEncoder
 :
@@ -2012,7 +2012,7 @@ SelectionCopyHelper
 (
 aSel
 aDoc
-PR_FALSE
+false
 0
 nsIDocumentEncoder
 :
@@ -2175,7 +2175,7 @@ SelectionCopyHelper
 (
 selection
 aDoc
-PR_FALSE
+false
 0
 flags
 aTransferable
@@ -2207,7 +2207,7 @@ aDoc
 *
 aDoPutOnClipboard
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -2436,7 +2436,7 @@ NS_ERROR_NULL_POINTER
 *
 aIsPlainTextContext
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -2661,7 +2661,7 @@ textarea
 *
 aIsPlainTextContext
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2787,7 +2787,7 @@ wrap
 *
 aIsPlainTextContext
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2889,7 +2889,7 @@ IsHTML
 *
 aIsPlainTextContext
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3988,7 +3988,7 @@ aDocument
 GetWindow
 (
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 focusedWindow
@@ -4114,7 +4114,7 @@ if
 aDocument
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -4134,7 +4134,7 @@ sel
 NS_ENSURE_TRUE
 (
 sel
-PR_FALSE
+false
 )
 ;
 bool
@@ -4210,7 +4210,7 @@ if
 presShell
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -4231,7 +4231,7 @@ if
 doc
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -4252,7 +4252,7 @@ if
 piWindow
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -4357,7 +4357,7 @@ if
 isCollapsed
 )
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -4455,7 +4455,7 @@ if
 content
 )
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -4487,7 +4487,7 @@ IsSafeToRunScript
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -4506,7 +4506,7 @@ nsEventStatus_eIgnore
 nsEvent
 evt
 (
-PR_TRUE
+true
 aType
 )
 ;
@@ -4551,7 +4551,7 @@ status
 nsEventStatus_eConsumeNoDefault
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4563,7 +4563,7 @@ IsDestroying
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -4619,7 +4619,7 @@ aType
 NS_PASTE
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -4658,7 +4658,7 @@ IsDestroying
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -4685,7 +4685,7 @@ kGlobalClipboard
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -4727,6 +4727,6 @@ clipboard
 )
 ;
 return
-PR_TRUE
+true
 ;
 }

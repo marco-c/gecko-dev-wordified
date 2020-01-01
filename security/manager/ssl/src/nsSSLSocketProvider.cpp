@@ -515,7 +515,7 @@ proxyHost
 proxyPort
 _result
 securityInfo
-PR_FALSE
+false
 flags
 &
 ANONYMOUS_CONNECT
@@ -588,7 +588,7 @@ proxyHost
 proxyPort
 aSocket
 securityInfo
-PR_FALSE
+false
 flags
 &
 ANONYMOUS_CONNECT

@@ -1611,7 +1611,7 @@ direction
 if
 draw_clockwise
 is
-PR_FALSE
+false
 *
 then
 it
@@ -2161,7 +2161,7 @@ the
 method
 will
 return
-PR_TRUE
+true
 and
 the
 rect
@@ -2187,7 +2187,7 @@ the
 method
 will
 return
-PR_FALSE
+false
 and
 the
 rect
@@ -2202,7 +2202,7 @@ changed
 If
 ignoreScale
 is
-PR_TRUE
+true
 then
 snapping
 will
@@ -2272,7 +2272,7 @@ the
 method
 will
 return
-PR_TRUE
+true
 and
 the
 point
@@ -2298,7 +2298,7 @@ the
 method
 will
 return
-PR_FALSE
+false
 and
 the
 point
@@ -2313,7 +2313,7 @@ changed
 If
 ignoreScale
 is
-PR_TRUE
+true
 then
 snapping
 will
@@ -2508,7 +2508,7 @@ space
 .
 *
 returns
-PR_FALSE
+false
 if
 there
 is
@@ -4705,7 +4705,7 @@ mSurface
 >
 SetSubpixelAntialiasingEnabled
 (
-PR_FALSE
+false
 )
 ;
 }

@@ -2406,7 +2406,7 @@ mSortState
 .
 initialized
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -2471,7 +2471,7 @@ mSortState
 .
 initialized
 =
-PR_FALSE
+false
 ;
 nsXULTemplateBuilder
 :
@@ -3620,11 +3620,11 @@ IsActive
 {
 isGenerationElement
 =
-PR_TRUE
+true
 ;
 isUnique
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -3713,7 +3713,7 @@ endif
 /
 Set
 to
-PR_TRUE
+true
 if
 the
 child
@@ -3837,7 +3837,7 @@ NS_ELEMENT_WAS_THERE
 {
 realKidAlreadyExisted
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -4005,7 +4005,7 @@ BuildContentFromTemplate
 tmplKid
 aResourceNode
 realKid
-PR_TRUE
+true
 aIsSelfReference
 aChild
 aNotify
@@ -4166,7 +4166,7 @@ nsGkAtoms
 :
 id
 id
-PR_FALSE
+false
 )
 ;
 if
@@ -4200,8 +4200,8 @@ SetContainerAttrs
 (
 realKid
 aChild
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 }
@@ -4387,7 +4387,7 @@ content
 SetText
 (
 value
-PR_FALSE
+false
 )
 ;
 rv
@@ -4493,7 +4493,7 @@ tmplTextNode
 >
 CloneNode
 (
-PR_FALSE
+false
 getter_AddRefs
 (
 clonedNode
@@ -4738,7 +4738,7 @@ CopyAttributesToElement
 tmplKid
 realKid
 aChild
-PR_FALSE
+false
 )
 ;
 if
@@ -4889,10 +4889,10 @@ BuildContentFromTemplate
 tmplKid
 aResourceNode
 realKid
-PR_FALSE
-PR_FALSE
+false
+false
 aChild
-PR_FALSE
+false
 aMatch
 nsnull
 /
@@ -4943,9 +4943,9 @@ CreateContainerContents
 (
 realKid
 aChild
-PR_FALSE
-PR_FALSE
-PR_FALSE
+false
+false
+false
 )
 ;
 if
@@ -5641,7 +5641,7 @@ GetTarget
 (
 resource
 property
-PR_TRUE
+true
 getter_AddRefs
 (
 target
@@ -5731,7 +5731,7 @@ nsDependentString
 (
 valueStr
 )
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5797,7 +5797,7 @@ CopyAttributesToElement
 aTemplateNode
 aRealElement
 aResult
-PR_TRUE
+true
 )
 ;
 if
@@ -5983,7 +5983,7 @@ realKid
 SetText
 (
 value
-PR_TRUE
+true
 )
 ;
 }
@@ -6129,7 +6129,7 @@ parent
 RemoveChildAt
 (
 pos
-PR_TRUE
+true
 )
 ;
 if
@@ -6344,8 +6344,8 @@ CreateContainerContents
 aElement
 mRootResult
 aForceCreation
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 }
@@ -6422,8 +6422,8 @@ match
 >
 mResult
 aForceCreation
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 }
@@ -6849,7 +6849,7 @@ GetCurrentDoc
 (
 )
 UPDATE_CONTENT_MODEL
-PR_TRUE
+true
 )
 ;
 nsNodeUtils
@@ -7383,7 +7383,7 @@ IsActive
 )
 generateContent
 =
-PR_FALSE
+false
 ;
 }
 prevmatch
@@ -7447,7 +7447,7 @@ OutputMatchToLog
 (
 resultid
 removematch
-PR_FALSE
+false
 )
 ;
 }
@@ -7514,7 +7514,7 @@ Destroy
 (
 mPool
 newmatch
-PR_FALSE
+false
 )
 ;
 return
@@ -7554,7 +7554,7 @@ Destroy
 (
 mPool
 newmatch
-PR_FALSE
+false
 )
 ;
 return
@@ -7585,7 +7585,7 @@ BuildContentFromTemplate
 action
 aElement
 aElement
-PR_TRUE
+true
 mRefVariable
 =
 =
@@ -7614,7 +7614,7 @@ OutputMatchToLog
 (
 resultid
 newmatch
-PR_TRUE
+true
 )
 ;
 if
@@ -7650,7 +7650,7 @@ Destroy
 (
 mPool
 newmatch
-PR_TRUE
+true
 )
 ;
 return
@@ -7679,7 +7679,7 @@ Destroy
 (
 mPool
 removematch
-PR_TRUE
+true
 )
 ;
 }
@@ -7895,7 +7895,7 @@ IsXUL
 )
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -7986,7 +7986,7 @@ eCaseMatters
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -8345,7 +8345,7 @@ element
 RemoveChildAt
 (
 i
-PR_TRUE
+true
 )
 ;
 /
@@ -8958,7 +8958,7 @@ aGenerated
 *
 aGenerated
 =
-PR_FALSE
+false
 ;
 NS_ENSURE_TRUE
 (
@@ -9036,7 +9036,7 @@ aTag
 *
 aGenerated
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -9219,7 +9219,7 @@ aTag
 *
 aGenerated
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -9620,7 +9620,7 @@ mSortState
 .
 initialized
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -9812,7 +9812,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -9836,7 +9836,7 @@ if
 xuldoc
 )
 return
-PR_FALSE
+false
 ;
 *
 aLocations
@@ -9851,7 +9851,7 @@ NS_ENSURE_TRUE
 (
 *
 aLocations
-PR_FALSE
+false
 )
 ;
 xuldoc
@@ -10032,7 +10032,7 @@ GetTemplateGenerated
 {
 found
 =
-PR_TRUE
+true
 ;
 continue
 ;
@@ -10210,8 +10210,8 @@ SetContainerAttrs
 (
 content
 refResult
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 }
@@ -10349,7 +10349,7 @@ BuildContentFromTemplate
 action
 content
 content
-PR_TRUE
+true
 mRefVariable
 =
 =
@@ -10363,7 +10363,7 @@ aNewMatch
 -
 >
 mResult
-PR_TRUE
+true
 aNewMatch
 nsnull
 nsnull
@@ -10712,7 +10712,7 @@ this
 )
 rightBuilder
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -10744,7 +10744,7 @@ NS_OK
 CreateTemplateAndContainerContents
 (
 aElement
-PR_FALSE
+false
 )
 ;
 return
@@ -10819,7 +10819,7 @@ mQueriesCompiled
 )
 Uninit
 (
-PR_FALSE
+false
 )
 ;
 nsresult
@@ -10901,7 +10901,7 @@ element
 CreateTemplateAndContainerContents
 (
 mRoot
-PR_FALSE
+false
 )
 ;
 return
@@ -11341,7 +11341,7 @@ mSortState
 .
 isContainerRDFSeq
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -11679,7 +11679,7 @@ nsGkAtoms
 :
 staticHint
 valueStr
-PR_FALSE
+false
 )
 ;
 }
@@ -11833,7 +11833,7 @@ aNotify
 ;
 childAdded
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -11841,7 +11841,7 @@ mSortState
 .
 lastWasFirst
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -11897,7 +11897,7 @@ aNotify
 ;
 childAdded
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -11905,7 +11905,7 @@ mSortState
 .
 lastWasLast
 =
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -12029,7 +12029,7 @@ aNotify
 ;
 childAdded
 =
-PR_TRUE
+true
 ;
 mSortState
 .

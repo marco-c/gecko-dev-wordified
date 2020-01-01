@@ -2044,7 +2044,7 @@ mResultHandler
 characters
 (
 nodeValue
-PR_FALSE
+false
 )
 ;
 }
@@ -2155,7 +2155,7 @@ mResultHandler
 characters
 (
 empty
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2170,7 +2170,7 @@ aEs
 .
 pushBool
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2252,7 +2252,7 @@ aEs
 .
 pushBool
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2510,7 +2510,7 @@ mResultHandler
 characters
 (
 value
-PR_FALSE
+false
 )
 ;
 }
@@ -3212,7 +3212,7 @@ mResultHandler
 characters
 (
 res
-PR_FALSE
+false
 )
 ;
 }
@@ -4583,7 +4583,7 @@ NS_ERROR_XSLT_BAD_NODE_NAME
 {
 success
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -4622,7 +4622,7 @@ characters
 EmptyString
 (
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -4735,7 +4735,7 @@ aEs
 .
 pushBool
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS

@@ -989,7 +989,7 @@ mPrefPercent
 ;
 mHasSpecifiedCoord
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -1294,7 +1294,7 @@ mMinCoord
 ;
 mHasSpecifiedCoord
 =
-PR_TRUE
+true
 ;
 }
 if

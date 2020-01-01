@@ -861,7 +861,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 }
@@ -1197,7 +1197,7 @@ GetTarget
 (
 windowResource
 kNC_Name
-PR_TRUE
+true
 getter_AddRefs
 (
 oldTitleNode
@@ -1252,7 +1252,7 @@ Assert
 windowResource
 kNC_Name
 newTitleLiteral
-PR_TRUE
+true
 )
 ;
 if
@@ -1479,7 +1479,7 @@ GetTarget
 (
 resource
 kNC_KeyIndex
-PR_TRUE
+true
 getter_AddRefs
 (
 oldKeyNode
@@ -1578,7 +1578,7 @@ mContainer
 RemoveElement
 (
 resource
-PR_TRUE
+true
 )
 ;
 nsCOMPtr
@@ -1744,7 +1744,7 @@ GetTarget
 (
 windowResource
 kNC_KeyIndex
-PR_TRUE
+true
 getter_AddRefs
 (
 newKeyNode
@@ -1827,7 +1827,7 @@ Assert
 windowResource
 kNC_KeyIndex
 newKeyInt
-PR_TRUE
+true
 )
 ;
 /
@@ -1963,7 +1963,7 @@ GetValue
 )
 ;
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -1971,7 +1971,7 @@ stop
 enumerating
 }
 return
-PR_TRUE
+true
 ;
 }
 /

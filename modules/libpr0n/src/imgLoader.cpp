@@ -2748,7 +2748,7 @@ nsIRequest
 LOAD_BYPASS_CACHE
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2762,7 +2762,7 @@ VALIDATE_ALWAYS
 {
 bValidateEntry
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2778,7 +2778,7 @@ GetMustValidate
 {
 bValidateEntry
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -2869,7 +2869,7 @@ VALIDATE_ONCE_PER_SESSION
 {
 bValidateEntry
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -2915,7 +2915,7 @@ LOAD_FROM_CACHE
 {
 bValidateEntry
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3480,7 +3480,7 @@ Accept
 "
 )
 aAcceptHeader
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -3596,7 +3596,7 @@ aLoadingPrincipal
 *
 aResult
 aURI
-PR_FALSE
+false
 )
 ;
 *
@@ -3666,7 +3666,7 @@ mExpiryTime
 )
 mMustValidate
 (
-PR_FALSE
+false
 )
 /
 /
@@ -3697,11 +3697,11 @@ false
 .
 mEvicted
 (
-PR_TRUE
+true
 )
 mHasNoProxies
 (
-PR_TRUE
+true
 )
 mForcePrincipalCheck
 (
@@ -3973,7 +3973,7 @@ imgCacheQueue
 :
 mDirty
 (
-PR_FALSE
+false
 )
 mSize
 (
@@ -4257,7 +4257,7 @@ CompareCacheEntries
 ;
 mDirty
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -4270,7 +4270,7 @@ MarkDirty
 {
 mDirty
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -5331,7 +5331,7 @@ memory
 -
 pressure
 "
-PR_FALSE
+false
 )
 ;
 os
@@ -5349,7 +5349,7 @@ skin
 -
 caches
 "
-PR_FALSE
+false
 )
 ;
 os
@@ -5365,7 +5365,7 @@ flush
 -
 caches
 "
-PR_FALSE
+false
 )
 ;
 gCacheTracker
@@ -5703,7 +5703,7 @@ AddObserver
 (
 this
 NS_PRIVATE_BROWSING_SWITCH_TOPIC
-PR_TRUE
+true
 )
 ;
 return
@@ -6460,7 +6460,7 @@ entry
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -6488,7 +6488,7 @@ entry
 >
 SetEvicted
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -6591,11 +6591,11 @@ request
 >
 SetIsInCache
 (
-PR_TRUE
+true
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -6660,7 +6660,7 @@ Evicted
 )
 )
 return
-PR_FALSE
+false
 ;
 imgCacheQueue
 &
@@ -6710,7 +6710,7 @@ entry
 >
 SetHasNoProxies
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -6730,7 +6730,7 @@ queue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -6851,15 +6851,15 @@ entry
 >
 SetHasNoProxies
 (
-PR_FALSE
+false
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -7270,7 +7270,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -7356,7 +7356,7 @@ proxy
 >
 SetNotificationsDeferred
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -7460,7 +7460,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -7493,7 +7493,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -7532,7 +7532,7 @@ if
 progressproxy
 )
 return
-PR_FALSE
+false
 ;
 nsRefPtr
 <
@@ -7609,7 +7609,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 listener
@@ -7719,7 +7719,7 @@ proxy
 >
 SetNotificationsDeferred
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -7862,14 +7862,14 @@ PR_Now
 {
 hasExpired
 =
-PR_TRUE
+true
 ;
 }
 else
 {
 hasExpired
 =
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -8013,7 +8013,7 @@ if
 request
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -8032,7 +8032,7 @@ aLoadingPrincipal
 )
 )
 return
-PR_FALSE
+false
 ;
 bool
 validateRequest
@@ -8165,7 +8165,7 @@ nsIRequest
 LOAD_BYPASS_CACHE
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -8412,7 +8412,7 @@ request
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -8481,7 +8481,7 @@ if
 aKey
 )
 return
-PR_FALSE
+false
 ;
 imgCacheTable
 &
@@ -8628,7 +8628,7 @@ entry
 >
 SetEvicted
 (
-PR_TRUE
+true
 )
 ;
 nsRefPtr
@@ -8653,16 +8653,16 @@ request
 >
 SetIsInCache
 (
-PR_FALSE
+false
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -8843,7 +8843,7 @@ entry
 >
 SetEvicted
 (
-PR_TRUE
+true
 )
 ;
 request
@@ -8851,16 +8851,16 @@ request
 >
 SetIsInCache
 (
-PR_FALSE
+false
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -9660,7 +9660,7 @@ aLoadGroup
 aObserver
 aCX
 requestFlags
-PR_TRUE
+true
 aRequest
 _retval
 aPolicy
@@ -11149,7 +11149,7 @@ nsnull
 aObserver
 aCX
 requestFlags
-PR_FALSE
+false
 nsnull
 nsnull
 nsnull
@@ -11207,7 +11207,7 @@ bUseCacheCopy
 else
 bUseCacheCopy
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -11496,7 +11496,7 @@ channel
 .
 NewRequestAndEntry
 (
-PR_TRUE
+true
 getter_AddRefs
 (
 request
@@ -11745,7 +11745,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 nsCAutoString
 mimeType
@@ -11781,9 +11781,9 @@ Image
 eDecoderType_unknown
 )
 ?
-PR_FALSE
+false
 :
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -13316,7 +13316,7 @@ proxy
 >
 SetNotificationsDeferred
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -13743,7 +13743,7 @@ proxy
 >
 SetNotificationsDeferred
 (
-PR_FALSE
+false
 )
 ;
 /

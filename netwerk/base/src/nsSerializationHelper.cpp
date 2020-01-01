@@ -553,7 +553,7 @@ NS_GET_IID
 (
 nsISupports
 )
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -868,7 +868,7 @@ objstream
 >
 ReadObject
 (
-PR_TRUE
+true
 obj
 )
 ;

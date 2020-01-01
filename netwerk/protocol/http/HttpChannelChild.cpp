@@ -725,11 +725,11 @@ this
 )
 mIsFromCache
 (
-PR_FALSE
+false
 )
 mCacheEntryAvailable
 (
-PR_FALSE
+false
 )
 mCacheExpirationTime
 (
@@ -1604,7 +1604,7 @@ return
 ;
 mLoadedFromApplicationCache
 =
-PR_TRUE
+true
 ;
 mApplicationCache
 -
@@ -2097,7 +2097,7 @@ this
 ;
 mTracingEnabled
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -2946,7 +2946,7 @@ statusCode
 ;
 mIsPending
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3028,7 +3028,7 @@ mListenerContext
 ;
 mCacheEntryAvailable
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3868,7 +3868,7 @@ status
 ;
 mIsPending
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -5047,11 +5047,11 @@ state
 /
 mIsPending
 =
-PR_TRUE
+true
 ;
 mWasOpened
 =
-PR_TRUE
+true
 ;
 mListener
 =
@@ -6226,11 +6226,11 @@ this
 ;
 mIsPending
 =
-PR_TRUE
+true
 ;
 mWasOpened
 =
-PR_TRUE
+true
 ;
 mListener
 =

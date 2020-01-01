@@ -1345,7 +1345,7 @@ xpcom
 -
 shutdown
 "
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3442,7 +3442,7 @@ backupDB
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS

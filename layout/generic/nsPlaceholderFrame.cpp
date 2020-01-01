@@ -1289,7 +1289,7 @@ mOutOfFlowFrame
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /

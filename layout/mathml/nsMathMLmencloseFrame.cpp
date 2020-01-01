@@ -917,7 +917,7 @@ mMathMLChar
 [
 i
 ]
-PR_TRUE
+true
 )
 ;
 return
@@ -2113,9 +2113,9 @@ return
 PlaceInternal
 (
 aRenderingContext
-PR_FALSE
+false
 aDesiredSize
-PR_TRUE
+true
 )
 ;
 }
@@ -2146,7 +2146,7 @@ PlaceInternal
 aRenderingContext
 aPlaceOrigin
 aDesiredSize
-PR_FALSE
+false
 )
 ;
 }
@@ -2221,7 +2221,7 @@ nsMathMLContainerFrame
 Place
 (
 aRenderingContext
-PR_FALSE
+false
 baseSize
 )
 ;
@@ -4713,7 +4713,7 @@ gfxCornerSizes
 *
 e
 )
-PR_TRUE
+true
 )
 ;
 break

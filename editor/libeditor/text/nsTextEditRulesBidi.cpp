@@ -530,7 +530,7 @@ aCancel
 *
 aCancel
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -655,7 +655,7 @@ GetPrevNextBidiLevels
 (
 content
 aSelOffset
-PR_TRUE
+true
 )
 ;
 levelBefore
@@ -743,7 +743,7 @@ else
 *
 aCancel
 =
-PR_TRUE
+true
 ;
 /
 /

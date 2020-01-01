@@ -1354,7 +1354,7 @@ NextTile
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 ;
@@ -2854,7 +2854,7 @@ nsnull
 :
 mInitialized
 (
-PR_FALSE
+false
 )
 mIsOffscreen
 (
@@ -2865,19 +2865,19 @@ ifdef
 USE_GLES2
 mIsGLES2
 (
-PR_TRUE
+true
 )
 #
 else
 mIsGLES2
 (
-PR_FALSE
+false
 )
 #
 endif
 mIsGlobalSharedContext
 (
-PR_FALSE
+false
 )
 mVendor
 (
@@ -2902,7 +2902,7 @@ mOffscreenTexture
 )
 mFlipped
 (
-PR_FALSE
+false
 )
 mBlitProgram
 (
@@ -3370,7 +3370,7 @@ mIsGLES2
 *
 *
 Returns
-PR_TRUE
+true
 if
 either
 this
@@ -3724,7 +3724,7 @@ GetContextType
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3737,7 +3737,7 @@ mOffscreenFBO
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3759,7 +3759,7 @@ mSharedContext
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 fBindTexture
@@ -3772,7 +3772,7 @@ mOffscreenTexture
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 virtual
@@ -3877,7 +3877,7 @@ aNewSize
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -4077,7 +4077,7 @@ TextureImageSupportsGetBackingSurface
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 virtual
@@ -4140,7 +4140,7 @@ Specify
 |
 aUseNearestFilter
 =
-PR_TRUE
+true
 |
 for
 GL_NEAREST
@@ -4957,7 +4957,7 @@ nsIntPoint
 bool
 aPixelBuffer
 =
-PR_FALSE
+false
 )
 ;
 void
@@ -11261,7 +11261,7 @@ name
 )
 originDeleted
 (
-PR_FALSE
+false
 )
 {
 }
@@ -11284,7 +11284,7 @@ aName
 )
 originDeleted
 (
-PR_FALSE
+false
 )
 {
 }
@@ -11448,7 +11448,7 @@ aVendorString
 aWantedVendor
 )
 return
-PR_FALSE
+false
 ;
 const
 char
@@ -11472,7 +11472,7 @@ if
 occurrence
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -11500,7 +11500,7 @@ occurrence
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -11530,10 +11530,10 @@ afterOccurrence
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 }

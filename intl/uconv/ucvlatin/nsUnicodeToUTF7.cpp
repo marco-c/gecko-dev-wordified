@@ -1575,11 +1575,11 @@ aChar
 )
 )
 return
-PR_TRUE
+true
 ;
 else
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -2081,7 +2081,7 @@ Z
 )
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -2106,7 +2106,7 @@ z
 )
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -2131,7 +2131,7 @@ aChar
 )
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -2152,7 +2152,7 @@ aChar
 )
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -2173,7 +2173,7 @@ aChar
 )
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -2184,7 +2184,7 @@ aChar
 58
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -2195,7 +2195,7 @@ aChar
 63
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -2207,7 +2207,7 @@ aChar
 '
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -2218,7 +2218,7 @@ aChar
 9
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -2229,7 +2229,7 @@ aChar
 13
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -2240,7 +2240,7 @@ aChar
 10
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -2251,7 +2251,7 @@ aChar
 60
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -2267,7 +2267,7 @@ aChar
 33
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -2283,7 +2283,7 @@ aChar
 34
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -2299,7 +2299,7 @@ aChar
 62
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -2315,7 +2315,7 @@ aChar
 61
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -2331,7 +2331,7 @@ aChar
 59
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -2347,7 +2347,7 @@ aChar
 91
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -2363,7 +2363,7 @@ aChar
 93
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -2372,6 +2372,6 @@ PR_TRUE
 '
 else
 return
-PR_FALSE
+false
 ;
 }

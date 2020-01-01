@@ -479,7 +479,7 @@ result
 *
 result
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -519,7 +519,7 @@ result
 *
 result
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

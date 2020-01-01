@@ -1057,7 +1057,7 @@ nsContentSink
 :
 StartLayout
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1338,7 +1338,7 @@ nsContentSink
 :
 StartLayout
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1989,7 +1989,7 @@ ssle
 >
 SetEnableUpdates
 (
-PR_TRUE
+true
 )
 ;
 bool
@@ -2417,7 +2417,7 @@ mExecutor
 >
 mRunFlushLoopOnStack
 =
-PR_TRUE
+true
 ;
 }
 ~
@@ -2486,7 +2486,7 @@ mExecutor
 >
 mRunFlushLoopOnStack
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -3784,7 +3784,7 @@ mDocument
 mDocShell
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -3838,7 +3838,7 @@ mDocShell
 NS_ENSURE_TRUE
 (
 owner
-PR_TRUE
+true
 )
 ;
 globalObject
@@ -3853,7 +3853,7 @@ GetScriptGlobalObject
 NS_ENSURE_TRUE
 (
 globalObject
-PR_TRUE
+true
 )
 ;
 }
@@ -3871,7 +3871,7 @@ GetContext
 NS_ENSURE_TRUE
 (
 scriptContext
-PR_TRUE
+true
 )
 ;
 JSContext
@@ -3888,7 +3888,7 @@ GetNativeContext
 NS_ENSURE_TRUE
 (
 cx
-PR_TRUE
+true
 )
 ;
 bool
@@ -4050,7 +4050,7 @@ nsContentSink
 :
 StartLayout
 (
-PR_FALSE
+false
 )
 ;
 BeginDocUpdate
@@ -4321,7 +4321,7 @@ aScriptElement
 >
 DoneAddingChildren
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -4370,7 +4370,7 @@ flushing
 ;
 mReadingFromStage
 =
-PR_FALSE
+false
 ;
 sele
 -
@@ -4479,7 +4479,7 @@ aScriptElement
 >
 DoneAddingChildren
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -4694,7 +4694,7 @@ started
 ;
 mStarted
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -4888,7 +4888,7 @@ DropHeldElements
 ;
 mReadingFromStage
 =
-PR_FALSE
+false
 ;
 mOpQueue
 .
@@ -4898,7 +4898,7 @@ Clear
 ;
 mStarted
 =
-PR_FALSE
+false
 ;
 mFlushState
 =
@@ -4906,7 +4906,7 @@ eNotFlushing
 ;
 mRunFlushLoopOnStack
 =
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (

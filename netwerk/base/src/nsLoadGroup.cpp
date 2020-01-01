@@ -927,7 +927,7 @@ request
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1050,7 +1050,7 @@ PRIORITY_NORMAL
 )
 mIsCanceling
 (
-PR_FALSE
+false
 )
 mDefaultLoadIsTimed
 (
@@ -1554,9 +1554,9 @@ mForegroundCount
 0
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1919,7 +1919,7 @@ operation
 /
 mIsCanceling
 =
-PR_TRUE
+true
 ;
 nsresult
 firstError
@@ -2202,7 +2202,7 @@ NS_OK
 ;
 mIsCanceling
 =
-PR_FALSE
+false
 ;
 return
 firstError
@@ -3072,7 +3072,7 @@ timedChannel
 >
 SetTimingEnabled
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -3457,7 +3457,7 @@ timedChannel
 >
 SetTimingEnabled
 (
-PR_TRUE
+true
 )
 ;
 if

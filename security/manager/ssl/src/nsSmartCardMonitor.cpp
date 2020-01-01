@@ -1929,7 +1929,7 @@ mModule
 dllName
 nsnull
 nsnull
-PR_TRUE
+true
 )
 ;
 PK11SlotListElement
@@ -1958,7 +1958,7 @@ PK11_GetNextSafe
 (
 sl
 sle
-PR_FALSE
+false
 )
 )
 {

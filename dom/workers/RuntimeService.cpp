@@ -2263,7 +2263,7 @@ failed
 ;
 isChrome
 =
-PR_FALSE
+false
 ;
 }
 isChrome
@@ -4566,7 +4566,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_THREADS_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS

@@ -831,7 +831,7 @@ Truncate
 ;
 needsReset
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -851,7 +851,7 @@ lastSeparatorPos
 ;
 needsReset
 =
-PR_TRUE
+true
 ;
 }
 }

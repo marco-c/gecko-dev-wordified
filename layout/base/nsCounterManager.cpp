@@ -601,7 +601,7 @@ GetContent
 SetText
 (
 contentString
-PR_FALSE
+false
 )
 ;
 }
@@ -661,12 +661,12 @@ SetDirty
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1586,7 +1586,7 @@ RecalcAll
 {
 mDirty
 =
-PR_FALSE
+false
 ;
 nsCounterNode
 *
@@ -1783,7 +1783,7 @@ CounterResetCount
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -1981,7 +1981,7 @@ OOM
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 counterList
@@ -2029,7 +2029,7 @@ SetDirty
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2094,7 +2094,7 @@ counterList
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsCounterList
@@ -2253,7 +2253,7 @@ aFrame
 )
 mDestroyedAny
 (
-PR_FALSE
+false
 )
 {
 }
@@ -2314,7 +2314,7 @@ data
 >
 mDestroyedAny
 =
-PR_TRUE
+true
 ;
 aList
 -

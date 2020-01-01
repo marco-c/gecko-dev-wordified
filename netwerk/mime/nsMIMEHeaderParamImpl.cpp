@@ -993,7 +993,7 @@ get
 (
 )
 nsnull
-PR_FALSE
+false
 str1
 )
 ;
@@ -1049,7 +1049,7 @@ aFallbackCharset
 get
 (
 )
-PR_FALSE
+false
 str2
 )
 )
@@ -2021,7 +2021,7 @@ str
 ;
 seenEquals
 =
-PR_TRUE
+true
 ;
 }
 while
@@ -2123,7 +2123,7 @@ string
 .
 needUnquote
 =
-PR_TRUE
+true
 ;
 +
 +
@@ -3685,7 +3685,7 @@ else
 {
 aEatContinuations
 =
-PR_FALSE
+false
 ;
 aResult
 =
@@ -4106,7 +4106,7 @@ get
 )
 aDefaultCharset
 aOverrideCharset
-PR_TRUE
+true
 decoded
 )
 ;
@@ -4644,7 +4644,7 @@ c
 0x80
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4654,7 +4654,7 @@ c
 0x1B
 )
 return
-PR_TRUE
+true
 ;
 if
 (

@@ -895,7 +895,7 @@ may
 fail
 (
 return
-PR_FALSE
+false
 )
 on
 OOM

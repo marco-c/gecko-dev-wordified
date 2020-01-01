@@ -701,7 +701,7 @@ nsnull
 )
 mInitialized
 (
-PR_FALSE
+false
 )
 {
 }

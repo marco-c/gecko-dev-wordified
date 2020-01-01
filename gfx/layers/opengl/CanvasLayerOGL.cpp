@@ -597,7 +597,7 @@ mTexture
 }
 mDestroyed
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -688,7 +688,7 @@ mSurface
 ;
 mNeedsYFlip
 =
-PR_FALSE
+false
 ;
 #
 if
@@ -848,7 +848,7 @@ mGLBufferIsPremultiplied
 ;
 mNeedsYFlip
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -951,7 +951,7 @@ texSize
 {
 mDelayedUpdates
 =
-PR_TRUE
+true
 ;
 MakeTexture
 (
@@ -1120,7 +1120,7 @@ return
 ;
 mDirty
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1474,7 +1474,7 @@ GetBasicLayerProgram
 CanUseOpaqueSurface
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -1738,7 +1738,7 @@ aManager
 )
 mNeedsYFlip
 (
-PR_FALSE
+false
 )
 {
 mImplData
@@ -1986,7 +1986,7 @@ mDestroyed
 {
 mDestroyed
 =
-PR_TRUE
+true
 ;
 mTexImage
 =

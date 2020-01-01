@@ -634,7 +634,7 @@ rv
 ;
 mLoaded
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -700,7 +700,7 @@ after
 -
 change
 "
-PR_TRUE
+true
 )
 ;
 return
@@ -1096,9 +1096,9 @@ Length
 (
 )
 nsnull
-PR_FALSE
-PR_TRUE
-PR_FALSE
+false
+true
+false
 )
 ;
 if
@@ -1164,7 +1164,7 @@ start
 execution
 mLoaded
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2223,7 +2223,7 @@ firstTime
 {
 firstTime
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2516,7 +2516,7 @@ done
 /
 mLoaded
 =
-PR_TRUE
+true
 ;
 bool
 failCache
@@ -2617,7 +2617,7 @@ ios
 >
 SetOffline
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -2664,7 +2664,7 @@ network
 .
 online
 "
-PR_FALSE
+false
 )
 ;
 if
@@ -2919,9 +2919,9 @@ EvaluateAdminConfigScript
 buf
 fs
 nsnull
-PR_FALSE
-PR_TRUE
-PR_FALSE
+false
+true
+false
 )
 ;
 }

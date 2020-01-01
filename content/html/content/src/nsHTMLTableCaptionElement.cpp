@@ -769,7 +769,7 @@ ParseEnumValue
 (
 aValue
 kCaptionAlignTable
-PR_FALSE
+false
 )
 ;
 }

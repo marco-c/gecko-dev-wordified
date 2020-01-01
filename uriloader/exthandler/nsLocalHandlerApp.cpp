@@ -745,7 +745,7 @@ aHandlerApp
 *
 _retval
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -861,7 +861,7 @@ mExecutable
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1113,7 +1113,7 @@ process
 >
 Run
 (
-PR_FALSE
+false
 &
 string
 1

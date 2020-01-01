@@ -930,7 +930,7 @@ mState
 .
 mIsBidi
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1548,13 +1548,13 @@ mState
 .
 mInHeap
 =
-PR_FALSE
+false
 ;
 mState
 .
 mIs2b
 =
-PR_FALSE
+false
 ;
 mState
 .
@@ -1807,13 +1807,13 @@ mState
 .
 mInHeap
 =
-PR_FALSE
+false
 ;
 mState
 .
 mIs2b
 =
-PR_FALSE
+false
 ;
 mState
 .
@@ -1908,7 +1908,7 @@ mState
 .
 mIs2b
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1995,7 +1995,7 @@ mState
 .
 mIs2b
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -2007,7 +2007,7 @@ mState
 .
 mInHeap
 =
-PR_TRUE
+true
 ;
 mState
 .
@@ -2515,7 +2515,7 @@ mState
 .
 mIs2b
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2541,7 +2541,7 @@ mState
 .
 mInHeap
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2678,7 +2678,7 @@ mState
 .
 mInHeap
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -2858,7 +2858,7 @@ mState
 .
 mIsBidi
 =
-PR_TRUE
+true
 ;
 break
 ;

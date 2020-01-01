@@ -1845,7 +1845,7 @@ isMenuButton
 =
 isMenu
 ?
-PR_FALSE
+false
 :
 mContent
 -
@@ -1892,7 +1892,7 @@ walker
 (
 mWeakShell
 mContent
-PR_TRUE
+true
 )
 ;
 nsAccessible
@@ -2523,7 +2523,7 @@ if
 (
 DropmarkerOpen
 (
-PR_FALSE
+false
 )
 )
 aName
@@ -2586,7 +2586,7 @@ eAction_Click
 {
 DropmarkerOpen
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -2629,7 +2629,7 @@ NativeState
 return
 DropmarkerOpen
 (
-PR_FALSE
+false
 )
 ?
 states
@@ -5043,7 +5043,7 @@ if
 contentDomNode
 )
 return
-PR_FALSE
+false
 ;
 return
 (
@@ -6308,7 +6308,7 @@ GetAllowsAnonChildAccessibles
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -6500,7 +6500,7 @@ walker
 (
 mWeakShell
 inputContent
-PR_FALSE
+false
 )
 ;
 nsAccessible

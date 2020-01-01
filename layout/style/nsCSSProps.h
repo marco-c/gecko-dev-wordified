@@ -1615,7 +1615,7 @@ If
 not
 found
 return
-PR_FALSE
+false
 and
 do
 not

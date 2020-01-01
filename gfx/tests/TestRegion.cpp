@@ -505,11 +505,11 @@ height
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -914,7 +914,7 @@ i
 ;
 success
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1157,7 +1157,7 @@ i
 ;
 success
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1235,11 +1235,11 @@ rectangle
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1312,11 +1312,11 @@ rectangle
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 public
@@ -1400,7 +1400,7 @@ nsRect
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1410,7 +1410,7 @@ TestNonRectangular
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1420,7 +1420,7 @@ TwoRectTest
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1430,7 +1430,7 @@ TestContainsSpecifiedRect
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1440,7 +1440,7 @@ TestContainsSpecifiedOverflowingRect
 )
 )
 return
-PR_FALSE
+false
 ;
 passed
 (
@@ -1450,7 +1450,7 @@ TestLargestRegion
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }

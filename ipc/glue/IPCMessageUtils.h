@@ -1242,7 +1242,7 @@ aResult
 >
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -1491,7 +1491,7 @@ aResult
 >
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 return

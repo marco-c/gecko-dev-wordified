@@ -1058,8 +1058,8 @@ aName
 get
 (
 )
-PR_FALSE
-PR_FALSE
+false
+false
 nsnull
 nsnull
 getter_AddRefs

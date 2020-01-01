@@ -447,7 +447,7 @@ WGLLibrary
 :
 mInitialized
 (
-PR_FALSE
+false
 )
 mOGLLibrary
 (

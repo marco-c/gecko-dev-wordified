@@ -677,7 +677,7 @@ SetBaseValue
 (
 aValue
 mSVGElement
-PR_TRUE
+true
 )
 ;
 return

@@ -893,7 +893,7 @@ NS_ERROR_NULL_POINTER
 *
 aIsMisspelled
 =
-PR_FALSE
+false
 ;
 result
 =
@@ -1011,7 +1011,7 @@ words
 *
 aIsMisspelled
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -2882,7 +2882,7 @@ FirstBlock
 ;
 mFromStart
 =
-PR_FALSE
+false
 ;
 }
 return

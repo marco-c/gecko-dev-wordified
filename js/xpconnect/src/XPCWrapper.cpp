@@ -822,7 +822,7 @@ xpcnativewrapper
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return

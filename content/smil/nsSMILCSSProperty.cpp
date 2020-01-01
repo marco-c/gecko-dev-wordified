@@ -623,7 +623,7 @@ bug
 534975
 .
 return
-PR_FALSE
+false
 ;
 }
 nsIPresShell
@@ -661,7 +661,7 @@ shell
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsRefPtr
@@ -716,11 +716,11 @@ aResult
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1394,7 +1394,7 @@ eCSSProperty_display
 {
 aPreventCachingOfSandwich
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -1830,7 +1830,7 @@ case
 eCSSProperty_word_spacing
 :
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -1978,12 +1978,12 @@ case
 eCSSProperty_unicode_bidi
 :
 return
-PR_FALSE
+false
 ;
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 }

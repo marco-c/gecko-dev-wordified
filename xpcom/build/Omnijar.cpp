@@ -865,7 +865,7 @@ equals
 )
 sIsUnified
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -945,7 +945,7 @@ case
 .
 sIsUnified
 =
-PR_TRUE
+true
 ;
 return
 ;
@@ -1042,7 +1042,7 @@ APP
 ;
 sInitialized
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -1065,7 +1065,7 @@ APP
 ;
 sInitialized
 =
-PR_FALSE
+false
 ;
 }
 nsZipArchive

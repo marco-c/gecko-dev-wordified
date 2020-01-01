@@ -1737,7 +1737,7 @@ url
 new
 nsStandardURL
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -1926,7 +1926,7 @@ anything
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2048,7 +2048,7 @@ url
 new
 nsStandardURL
 (
-PR_TRUE
+true
 )
 ;
 if

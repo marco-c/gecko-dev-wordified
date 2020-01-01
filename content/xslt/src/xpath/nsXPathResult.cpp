@@ -548,11 +548,11 @@ ANY_TYPE
 )
 mInvalidIteratorState
 (
-PR_TRUE
+true
 )
 mBooleanResult
 (
-PR_FALSE
+false
 )
 mNumberResult
 (
@@ -1590,7 +1590,7 @@ NS_OK
 }
 mInvalidIteratorState
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1902,7 +1902,7 @@ return
 }
 mInvalidIteratorState
 =
-PR_TRUE
+true
 ;
 /
 /

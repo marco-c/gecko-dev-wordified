@@ -1134,12 +1134,12 @@ i
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -1268,7 +1268,7 @@ otherLength
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -1345,7 +1345,7 @@ NS_HTML5ATTRIBUTE_NAME_HTML
 {
 found
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1370,7 +1370,7 @@ j
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1382,12 +1382,12 @@ found
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 void

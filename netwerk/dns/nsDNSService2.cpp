@@ -766,7 +766,7 @@ mIterGenCnt
 )
 mDone
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1104,7 +1104,7 @@ addr_info_gencnt
 ;
 startedFresh
 =
-PR_TRUE
+true
 ;
 }
 do
@@ -1225,7 +1225,7 @@ mIter
 {
 mDone
 =
-PR_TRUE
+true
 ;
 return
 NS_ERROR_NOT_AVAILABLE
@@ -1350,7 +1350,7 @@ port
 ;
 mDone
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1467,7 +1467,7 @@ mDone
 *
 result
 =
-PR_FALSE
+false
 ;
 else
 {
@@ -1546,7 +1546,7 @@ backup
 iterator
 mDone
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -1576,7 +1576,7 @@ mIterGenCnt
 ;
 mDone
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2165,7 +2165,7 @@ mon
 :
 mDone
 (
-PR_FALSE
+false
 )
 mStatus
 (
@@ -2252,7 +2252,7 @@ mMonitor
 ;
 mDone
 =
-PR_TRUE
+true
 ;
 mStatus
 =
@@ -2369,7 +2369,7 @@ mLock
 )
 mFirstTime
 (
-PR_TRUE
+true
 )
 {
 }
@@ -2612,7 +2612,7 @@ mFirstTime
 {
 mFirstTime
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2632,7 +2632,7 @@ AddObserver
 (
 kPrefDnsCacheEntries
 this
-PR_FALSE
+false
 )
 ;
 prefs
@@ -2642,7 +2642,7 @@ AddObserver
 (
 kPrefDnsCacheExpiration
 this
-PR_FALSE
+false
 )
 ;
 prefs
@@ -2652,7 +2652,7 @@ AddObserver
 (
 kPrefEnableIDN
 this
-PR_FALSE
+false
 )
 ;
 prefs
@@ -2662,7 +2662,7 @@ AddObserver
 (
 kPrefIPv4OnlyDomains
 this
-PR_FALSE
+false
 )
 ;
 prefs
@@ -2672,7 +2672,7 @@ AddObserver
 (
 kPrefDisableIPv6
 this
-PR_FALSE
+false
 )
 ;
 prefs
@@ -2682,7 +2682,7 @@ AddObserver
 (
 kPrefDisablePrefetch
 this
-PR_FALSE
+false
 )
 ;
 /
@@ -2724,7 +2724,7 @@ proxy
 type
 "
 this
-PR_FALSE
+false
 )
 ;
 }

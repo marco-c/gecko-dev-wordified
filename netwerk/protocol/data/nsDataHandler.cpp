@@ -1273,7 +1273,7 @@ anything
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1307,7 +1307,7 @@ hashRef
 {
 isBase64
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1423,7 +1423,7 @@ base64
 {
 isBase64
 =
-PR_TRUE
+true
 ;
 *
 base64

@@ -667,7 +667,7 @@ aIsSelected
 [
 OUT
 ]
-PR_TRUE
+true
 if
 the
 frame

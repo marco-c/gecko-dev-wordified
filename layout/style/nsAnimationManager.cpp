@@ -2839,7 +2839,7 @@ aStyleContext
 GetPseudoType
 (
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -3438,7 +3438,7 @@ aStyleContext
 GetPseudoType
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -3698,7 +3698,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 private
@@ -5500,7 +5500,7 @@ GetElementAnimations
 (
 aElement
 aPseudoType
-PR_FALSE
+false
 )
 ;
 if

@@ -573,7 +573,7 @@ result
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_CStringSetData
@@ -619,7 +619,7 @@ result
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -644,7 +644,7 @@ result
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 clone
@@ -681,7 +681,7 @@ result
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_Free
@@ -739,7 +739,7 @@ result
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -764,7 +764,7 @@ result
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_CStringContainerFinish
@@ -778,7 +778,7 @@ s
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -841,7 +841,7 @@ result
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_StringSetData
@@ -884,7 +884,7 @@ result
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -918,7 +918,7 @@ result
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 clone
@@ -959,7 +959,7 @@ result
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_Free
@@ -1014,7 +1014,7 @@ result
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1048,7 +1048,7 @@ result
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_StringContainerFinish
@@ -1062,7 +1062,7 @@ s
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1132,7 +1132,7 @@ kAsciiData
 0
 )
 return
-PR_FALSE
+false
 ;
 NS_UTF16ToCString
 (
@@ -1160,7 +1160,7 @@ kAsciiData
 0
 )
 return
-PR_FALSE
+false
 ;
 NS_CStringContainerFinish
 (
@@ -1173,7 +1173,7 @@ s
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1212,7 +1212,7 @@ s
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1455,7 +1455,7 @@ finalVal
 0
 )
 return
-PR_FALSE
+false
 ;
 NS_CStringContainerFinish
 (
@@ -1473,7 +1473,7 @@ a
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1604,7 +1604,7 @@ return
 rv
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1900,7 +1900,7 @@ kData
 1
 NS_CSTRING_CONTAINER_INIT_DEPEND
 )
-PR_FALSE
+false
 )
 ;
 const
@@ -1971,7 +1971,7 @@ NS_CSTRING_CONTAINER_INIT_DEPEND
 |
 NS_CSTRING_CONTAINER_INIT_SUBSTRING
 )
-PR_FALSE
+false
 )
 ;
 bool
@@ -2072,7 +2072,7 @@ if
 data
 )
 return
-PR_FALSE
+false
 ;
 nsCStringContainer
 s
@@ -2086,7 +2086,7 @@ data
 PR_UINT32_MAX
 NS_CSTRING_CONTAINER_INIT_ADOPT
 )
-PR_FALSE
+false
 )
 ;
 /
@@ -2175,7 +2175,7 @@ if
 data
 )
 return
-PR_FALSE
+false
 ;
 nsCStringContainer
 s
@@ -2196,7 +2196,7 @@ NS_CSTRING_CONTAINER_INIT_ADOPT
 |
 NS_CSTRING_CONTAINER_INIT_SUBSTRING
 )
-PR_FALSE
+false
 )
 ;
 /
@@ -2328,7 +2328,7 @@ kText
 1
 )
 return
-PR_FALSE
+false
 ;
 memcpy
 (
@@ -2364,7 +2364,7 @@ kText
 0
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 newLen
@@ -2395,7 +2395,7 @@ len
 newLen
 )
 return
-PR_FALSE
+false
 ;
 buf
 [
@@ -2443,7 +2443,7 @@ len
 '
 )
 return
-PR_FALSE
+false
 ;
 NS_CStringContainerFinish
 (
@@ -2451,7 +2451,7 @@ s
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -2481,7 +2481,7 @@ kAsciiData
 )
 )
 return
-PR_FALSE
+false
 ;
 testCString
 .
@@ -2504,7 +2504,7 @@ world
 )
 )
 return
-PR_FALSE
+false
 ;
 nsString
 testString
@@ -2527,7 +2527,7 @@ kAsciiData
 )
 )
 return
-PR_FALSE
+false
 ;
 testString
 .
@@ -2550,10 +2550,10 @@ world
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -2582,7 +2582,7 @@ H
 '
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2598,7 +2598,7 @@ d
 '
 )
 return
-PR_FALSE
+false
 ;
 testCString
 .
@@ -2624,7 +2624,7 @@ Would
 )
 )
 return
-PR_FALSE
+false
 ;
 nsString
 testString
@@ -2646,7 +2646,7 @@ H
 '
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2662,7 +2662,7 @@ d
 '
 )
 return
-PR_FALSE
+false
 ;
 testString
 .
@@ -2688,10 +2688,10 @@ Would
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -2729,7 +2729,7 @@ Wor
 )
 )
 return
-PR_FALSE
+false
 ;
 test
 .
@@ -2757,10 +2757,10 @@ HelloWorld
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -2836,8 +2836,8 @@ test2
 Trim
 (
 kWS
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 test3
@@ -2845,8 +2845,8 @@ test3
 Trim
 (
 kWS
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 if
@@ -2865,7 +2865,7 @@ Testing
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2887,7 +2887,7 @@ r
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2908,10 +2908,10 @@ tTesting
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -2980,7 +2980,7 @@ found
 0
 )
 return
-PR_FALSE
+false
 ;
 found
 =
@@ -3001,7 +3001,7 @@ found
 1
 )
 return
-PR_FALSE
+false
 ;
 found
 =
@@ -3021,7 +3021,7 @@ found
 0
 )
 return
-PR_FALSE
+false
 ;
 found
 =
@@ -3041,7 +3041,7 @@ found
 1
 )
 return
-PR_FALSE
+false
 ;
 found
 =
@@ -3065,7 +3065,7 @@ found
 6
 )
 return
-PR_FALSE
+false
 ;
 found
 =
@@ -3084,10 +3084,10 @@ found
 0
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -3210,7 +3210,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3227,7 +3227,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3243,7 +3243,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3259,7 +3259,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3275,7 +3275,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -3296,7 +3296,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3312,7 +3312,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3329,7 +3329,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3346,7 +3346,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3363,7 +3363,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -3381,7 +3381,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3397,7 +3397,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3413,7 +3413,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3428,7 +3428,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3443,7 +3443,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3459,7 +3459,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3474,7 +3474,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -3494,7 +3494,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3511,7 +3511,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3528,7 +3528,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3544,7 +3544,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3561,7 +3561,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3578,7 +3578,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3594,7 +3594,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -3613,7 +3613,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3628,7 +3628,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3643,7 +3643,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3659,7 +3659,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3674,7 +3674,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3689,7 +3689,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3705,7 +3705,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -3726,7 +3726,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3742,7 +3742,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3758,7 +3758,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3775,7 +3775,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3792,7 +3792,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3808,7 +3808,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3825,7 +3825,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -3888,7 +3888,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3905,7 +3905,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3921,7 +3921,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3937,7 +3937,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3953,7 +3953,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -3974,7 +3974,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -3990,7 +3990,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4007,7 +4007,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4024,7 +4024,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4041,7 +4041,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -4059,7 +4059,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4075,7 +4075,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4091,7 +4091,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4106,7 +4106,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4121,7 +4121,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4137,7 +4137,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4152,7 +4152,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -4172,7 +4172,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4189,7 +4189,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4206,7 +4206,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4222,7 +4222,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4239,7 +4239,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4256,7 +4256,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4272,7 +4272,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -4291,7 +4291,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4306,7 +4306,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4321,7 +4321,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4337,7 +4337,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4352,7 +4352,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4367,7 +4367,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4383,7 +4383,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -4404,7 +4404,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4420,7 +4420,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4436,7 +4436,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4453,7 +4453,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4470,7 +4470,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4486,7 +4486,7 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 result
 =
@@ -4503,10 +4503,10 @@ if
 result
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -4554,7 +4554,7 @@ results
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4571,7 +4571,7 @@ Length
 len
 )
 return
-PR_FALSE
+false
 ;
 const
 char
@@ -4618,11 +4618,11 @@ i
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static

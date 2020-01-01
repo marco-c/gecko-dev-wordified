@@ -1114,7 +1114,7 @@ rv
 )
 ScrollSelectionIntoView
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -1758,7 +1758,7 @@ on
 /
 deleteSelection
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1834,7 +1834,7 @@ t
 delete
 deleteSelection
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -2060,7 +2060,7 @@ selection
 *
 aCanDrag
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2094,7 +2094,7 @@ mIgnoreSpuriousDragEvent
 {
 mIgnoreSpuriousDragEvent
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2241,7 +2241,7 @@ selection
 ContainsNode
 (
 eventTargetDomNode
-PR_FALSE
+false
 &
 isTargetedCorrectly
 )
@@ -2774,7 +2774,7 @@ InsertTextFromTransferable
 trans
 nsnull
 nsnull
-PR_TRUE
+true
 )
 ;
 }
@@ -2870,7 +2870,7 @@ InsertTextFromTransferable
 aTransferable
 nsnull
 nsnull
-PR_TRUE
+true
 )
 ;
 }
@@ -2895,7 +2895,7 @@ aCanPaste
 *
 aCanPaste
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3041,7 +3041,7 @@ IsModifiable
 *
 aCanPaste
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3071,7 +3071,7 @@ aTransferable
 *
 aCanPaste
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3116,13 +3116,13 @@ data
 *
 aCanPaste
 =
-PR_TRUE
+true
 ;
 else
 *
 aCanPaste
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

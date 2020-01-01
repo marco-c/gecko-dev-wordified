@@ -1232,7 +1232,7 @@ mVerifier
 >
 Finish
 (
-PR_FALSE
+false
 hashString
 )
 ;
@@ -4147,7 +4147,7 @@ Digest
 *
 stale
 =
-PR_FALSE
+false
 ;
 *
 algorithm
@@ -4329,7 +4329,7 @@ p
 ;
 quoted
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -4645,13 +4645,13 @@ true
 *
 stale
 =
-PR_TRUE
+true
 ;
 else
 *
 stale
 =
-PR_FALSE
+false
 ;
 }
 else

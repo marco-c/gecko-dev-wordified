@@ -2520,7 +2520,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2717,8 +2717,8 @@ outputStream
 )
 MAX_FAVICON_SIZE
 MAX_FAVICON_SIZE
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 NS_ENSURE_SUCCESS

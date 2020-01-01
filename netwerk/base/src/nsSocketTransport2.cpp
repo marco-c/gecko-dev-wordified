@@ -2632,7 +2632,7 @@ nonblocking
 *
 nonblocking
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3908,7 +3908,7 @@ nonblocking
 *
 nonblocking
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4347,11 +4347,11 @@ mProxyPort
 )
 mProxyTransparent
 (
-PR_FALSE
+false
 )
 mProxyTransparentResolvesHost
 (
-PR_FALSE
+false
 )
 mConnectionFlags
 (
@@ -4363,19 +4363,19 @@ STATE_CLOSED
 )
 mAttached
 (
-PR_FALSE
+false
 )
 mInputClosed
 (
-PR_TRUE
+true
 )
 mOutputClosed
 (
-PR_TRUE
+true
 )
 mResolving
 (
-PR_FALSE
+false
 )
 mLock
 (
@@ -4395,7 +4395,7 @@ mFDref
 )
 mFDconnected
 (
-PR_FALSE
+false
 )
 mInput
 (
@@ -5053,7 +5053,7 @@ socks4
 {
 mProxyTransparent
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -5097,7 +5097,7 @@ DNS
 .
 mProxyTransparentResolvesHost
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5264,7 +5264,7 @@ value
 .
 non_blocking
 =
-PR_TRUE
+true
 ;
 PR_SetSocketOption
 (
@@ -5765,7 +5765,7 @@ rv
 ;
 mResolving
 =
-PR_TRUE
+true
 ;
 PRUint32
 dnsFlags
@@ -5903,11 +5903,11 @@ rv
 ;
 proxyTransparent
 =
-PR_FALSE
+false
 ;
 usingSSL
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -6545,7 +6545,7 @@ proxyPort
 ;
 proxyTransparent
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -6881,7 +6881,7 @@ rv
 )
 mAttached
 =
-PR_TRUE
+true
 ;
 return
 rv
@@ -6981,7 +6981,7 @@ value
 .
 non_blocking
 =
-PR_TRUE
+true
 ;
 status
 =
@@ -7061,7 +7061,7 @@ value
 .
 no_delay
 =
-PR_TRUE
+true
 ;
 PR_SetSocketOption
 (
@@ -7221,7 +7221,7 @@ rv
 }
 mAttached
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -7261,7 +7261,7 @@ mFDref
 ;
 mFDconnected
 =
-PR_FALSE
+false
 ;
 }
 SOCKET_LOG
@@ -7871,7 +7871,7 @@ mState
 STATE_CONNECTING
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -7934,7 +7934,7 @@ mCondition
 NS_ERROR_UNKNOWN_PROXY_HOST
 )
 return
-PR_FALSE
+false
 ;
 bool
 tryAgain
@@ -8018,7 +8018,7 @@ n
 ;
 tryAgain
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -8167,7 +8167,7 @@ rv
 )
 tryAgain
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -8234,7 +8234,7 @@ thread
 ;
 mInputClosed
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -8381,7 +8381,7 @@ thread
 ;
 mOutputClosed
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -8571,7 +8571,7 @@ count
 ;
 mFDconnected
 =
-PR_TRUE
+true
 ;
 }
 SendStatus
@@ -10373,7 +10373,7 @@ mFD
 .
 mFDconnected
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -10712,7 +10712,7 @@ pipeOut
 )
 !
 openBlocking
-PR_TRUE
+true
 segsize
 segcount
 segalloc
@@ -10780,7 +10780,7 @@ as
 open
 mInputClosed
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -10964,7 +10964,7 @@ getter_AddRefs
 (
 pipeOut
 )
-PR_TRUE
+true
 !
 openBlocking
 segsize
@@ -11034,7 +11034,7 @@ as
 open
 mOutputClosed
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -11352,7 +11352,7 @@ result
 *
 result
 =
-PR_FALSE
+false
 ;
 PRFileDesc
 *
@@ -11444,7 +11444,7 @@ PR_WOULD_BLOCK_ERROR
 *
 result
 =
-PR_TRUE
+true
 ;
 {
 MutexAutoLock
@@ -11924,7 +11924,7 @@ method
 .
 mResolving
 =
-PR_FALSE
+false
 ;
 nsresult
 rv

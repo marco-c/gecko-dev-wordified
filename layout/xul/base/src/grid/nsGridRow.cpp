@@ -474,7 +474,7 @@ nsGridRow
 :
 mIsBogus
 (
-PR_FALSE
+false
 )
 mBox
 (

@@ -493,7 +493,7 @@ callback
 function
 .
 Return
-PR_FALSE
+false
 to
 stop
 typedef
@@ -1131,10 +1131,10 @@ only
 /
 /
 returns
-PR_TRUE
+true
 if
 completed
-PR_FALSE
+false
 if
 stopped
 /

@@ -684,7 +684,7 @@ TagPart
 default
 :
 return
-PR_FALSE
+false
 ;
 case
 T_INTERFACE
@@ -693,7 +693,7 @@ case
 T_INTERFACE_IS
 :
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -775,7 +775,7 @@ TagPart
 default
 :
 return
-PR_FALSE
+false
 ;
 case
 T_INTERFACE_IS
@@ -790,7 +790,7 @@ case
 T_PWSTRING_SIZE_IS
 :
 return
-PR_TRUE
+true
 ;
 }
 }

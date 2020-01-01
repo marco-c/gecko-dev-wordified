@@ -465,7 +465,7 @@ aIsRTL
 *
 aIsRTL
 =
-PR_FALSE
+false
 ;
 /
 /

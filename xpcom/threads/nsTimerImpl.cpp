@@ -1215,7 +1215,7 @@ mArmed
 {
 mCanceled
 =
-PR_TRUE
+true
 ;
 NS_ASSERTION
 (
@@ -1272,15 +1272,15 @@ CALLBACK_TYPE_UNKNOWN
 )
 mFiring
 (
-PR_FALSE
+false
 )
 mArmed
 (
-PR_FALSE
+false
 )
 mCanceled
 (
-PR_FALSE
+false
 )
 mGeneration
 (
@@ -1723,7 +1723,7 @@ this
 ;
 mCanceled
 =
-PR_FALSE
+false
 ;
 mGeneration
 =
@@ -1911,7 +1911,7 @@ Cancel
 {
 mCanceled
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2680,7 +2680,7 @@ i
 ;
 mFiring
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -2912,7 +2912,7 @@ o
 }
 mFiring
 =
-PR_FALSE
+false
 ;
 mTimerCallbackWhileFiring
 =

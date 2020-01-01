@@ -2136,7 +2136,7 @@ argv
 ;
 sync
 =
-PR_TRUE
+true
 ;
 i
 =

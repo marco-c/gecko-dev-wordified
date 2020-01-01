@@ -2599,7 +2599,7 @@ mDirBufCursor
 )
 mDirOpen
 (
-PR_FALSE
+false
 )
 {
 }
@@ -3415,7 +3415,7 @@ else
 {
 mDirOpen
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -4881,7 +4881,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -5093,7 +5093,7 @@ AddObserver
 (
 MOZ_GNOMEVFS_SUPPORTED_PROTOCOLS
 this
-PR_FALSE
+false
 )
 ;
 }
@@ -5236,7 +5236,7 @@ if
 colon
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 length
@@ -5287,7 +5287,7 @@ if
 found
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -5313,10 +5313,10 @@ length
 '
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -5947,7 +5947,7 @@ anything
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

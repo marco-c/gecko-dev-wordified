@@ -869,7 +869,7 @@ sHistory
 GetEntryAtIndex
 (
 curIndex
-PR_FALSE
+false
 getter_AddRefs
 (
 curEntry
@@ -1033,7 +1033,7 @@ curIndex
 -
 1
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 prevEntry
@@ -1184,7 +1184,7 @@ curIndex
 +
 1
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 nextEntry
@@ -1868,7 +1868,7 @@ NS_ERROR_FAILURE
 ;
 /
 /
-PR_FALSE
+false
 tells
 the
 docshell
@@ -1898,7 +1898,7 @@ AddState
 aData
 aTitle
 aURL
-PR_FALSE
+false
 aCx
 )
 ;
@@ -2051,7 +2051,7 @@ NS_ERROR_FAILURE
 ;
 /
 /
-PR_TRUE
+true
 tells
 the
 docshell
@@ -2078,7 +2078,7 @@ AddState
 aData
 aTitle
 aURL
-PR_TRUE
+true
 aCx
 )
 ;
@@ -2255,7 +2255,7 @@ session_history
 GetEntryAtIndex
 (
 aIndex
-PR_FALSE
+false
 getter_AddRefs
 (
 sh_entry

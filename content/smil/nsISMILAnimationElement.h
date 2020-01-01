@@ -745,7 +745,7 @@ the
 attr
 *
 returns
-PR_TRUE
+true
 if
 the
 attribute
@@ -760,7 +760,7 @@ empty
 string
 )
 *
-PR_FALSE
+false
 when
 not
 set
@@ -830,7 +830,7 @@ OUT
 ]
 *
 returns
-PR_TRUE
+true
 if
 the
 attribute
@@ -845,7 +845,7 @@ empty
 string
 )
 *
-PR_FALSE
+false
 when
 not
 set

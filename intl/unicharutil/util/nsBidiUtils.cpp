@@ -1241,12 +1241,12 @@ ch
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsCharType

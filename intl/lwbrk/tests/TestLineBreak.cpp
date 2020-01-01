@@ -950,7 +950,7 @@ outlen
 {
 ok
 =
-PR_FALSE
+false
 ;
 printf
 (
@@ -1137,7 +1137,7 @@ j
 {
 ok
 =
-PR_FALSE
+false
 ;
 printf
 (
@@ -1173,7 +1173,7 @@ else
 {
 ok
 =
-PR_FALSE
+false
 ;
 printf
 (
@@ -1340,7 +1340,7 @@ outlen
 {
 ok
 =
-PR_FALSE
+false
 ;
 printf
 (
@@ -1527,7 +1527,7 @@ j
 {
 ok
 =
-PR_FALSE
+false
 ;
 printf
 (
@@ -1563,7 +1563,7 @@ else
 {
 ok
 =
-PR_FALSE
+false
 ;
 printf
 (
@@ -1745,7 +1745,7 @@ n
 ;
 ok
 =
-PR_FALSE
+false
 ;
 }
 NS_IF_RELEASE
@@ -1792,7 +1792,7 @@ n
 ;
 ok
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1862,7 +1862,7 @@ else
 {
 ok
 =
-PR_FALSE
+false
 ;
 printf
 (
@@ -1943,7 +1943,7 @@ else
 {
 ok
 =
-PR_FALSE
+false
 ;
 printf
 (
@@ -2024,7 +2024,7 @@ else
 {
 ok
 =
-PR_FALSE
+false
 ;
 printf
 (
@@ -2285,7 +2285,7 @@ n
 ;
 ok
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2335,7 +2335,7 @@ n
 ;
 ok
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2405,7 +2405,7 @@ else
 {
 ok
 =
-PR_FALSE
+false
 ;
 printf
 (
@@ -2486,7 +2486,7 @@ else
 {
 ok
 =
-PR_FALSE
+false
 ;
 printf
 (
@@ -2567,7 +2567,7 @@ else
 {
 ok
 =
-PR_FALSE
+false
 ;
 printf
 (

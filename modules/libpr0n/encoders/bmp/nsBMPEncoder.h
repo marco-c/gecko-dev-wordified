@@ -854,7 +854,7 @@ mImageBufferReadPoint
 /
 /
 Stores
-PR_TRUE
+true
 if
 the
 image

@@ -644,7 +644,7 @@ aFontStyle
 >
 systemFont
 =
-PR_TRUE
+true
 ;
 NS_NAMED_LITERAL_STRING
 (

@@ -1096,7 +1096,7 @@ node
 The
 only
 time
-PR_FALSE
+false
 should
 be
 passed
@@ -2722,7 +2722,7 @@ OUT
 ]
 *
 returns
-PR_TRUE
+true
 if
 the
 attribute
@@ -2737,7 +2737,7 @@ empty
 string
 )
 *
-PR_FALSE
+false
 when
 not
 set
@@ -2926,7 +2926,7 @@ aCaseSensitive
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3042,7 +3042,7 @@ aCaseSensitive
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 enum
@@ -3576,7 +3576,7 @@ value
 If
 aNotify
 is
-PR_TRUE
+true
 then
 *
 the
@@ -3633,7 +3633,7 @@ text
 If
 aNotify
 is
-PR_TRUE
+true
 then
 *
 the
@@ -3689,7 +3689,7 @@ value
 If
 aNotify
 is
-PR_TRUE
+true
 then
 *
 the
@@ -3762,7 +3762,7 @@ NOTE
 :
 Always
 returns
-PR_FALSE
+false
 for
 elements
 *
@@ -4089,7 +4089,7 @@ Default
 not
 tabbable
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -4663,7 +4663,7 @@ the
 return
 value
 is
-PR_TRUE
+true
 .
 *
 *
@@ -5412,7 +5412,7 @@ object
 elements
 returns
 *
-PR_TRUE
+true
 if
 all
 children
@@ -5432,7 +5432,7 @@ the
 parser
 .
 Returns
-PR_TRUE
+true
 for
 all
 other
@@ -5440,7 +5440,7 @@ elements
 .
 *
 returns
-PR_FALSE
+false
 if
 the
 element
@@ -5472,7 +5472,7 @@ added
 .
 *
 returns
-PR_TRUE
+true
 otherwise
 .
 *
@@ -5484,7 +5484,7 @@ IsDoneAddingChildren
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /

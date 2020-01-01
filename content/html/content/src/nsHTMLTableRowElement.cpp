@@ -1090,7 +1090,7 @@ i
 ;
 found
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1244,7 +1244,7 @@ i
 ;
 found
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1347,10 +1347,10 @@ nsnull
 /
 closure
 data
-PR_FALSE
+false
 nsnull
 kNameSpaceID_XHTML
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE

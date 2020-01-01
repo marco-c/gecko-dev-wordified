@@ -862,7 +862,7 @@ mImageBufferReadPoint
 /
 /
 Stores
-PR_TRUE
+true
 if
 the
 image
@@ -876,7 +876,7 @@ mFinished
 /
 /
 Stores
-PR_TRUE
+true
 if
 the
 contained

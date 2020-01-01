@@ -1102,7 +1102,7 @@ aStringItr
 ;
 lastWasEscape
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1125,7 +1125,7 @@ CASE
 3
 lastWasEscape
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1184,7 +1184,7 @@ aStringItr
 ;
 lastWasEscape
 =
-PR_FALSE
+false
 ;
 }
 aPatternItr

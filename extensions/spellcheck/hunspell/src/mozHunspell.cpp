@@ -851,7 +851,7 @@ do
 -
 change
 "
-PR_TRUE
+true
 )
 ;
 obs
@@ -867,7 +867,7 @@ after
 -
 change
 "
-PR_TRUE
+true
 )
 ;
 }
@@ -1556,7 +1556,7 @@ aProvidesPersonalDictionary
 *
 aProvidesPersonalDictionary
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1590,7 +1590,7 @@ aProvidesWordUtils
 *
 aProvidesWordUtils
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1778,7 +1778,7 @@ ans
 >
 failed
 =
-PR_TRUE
+true
 ;
 return
 PL_DHASH_STOP
@@ -1869,7 +1869,7 @@ Count
 )
 )
 0
-PR_FALSE
+false
 }
 ;
 /

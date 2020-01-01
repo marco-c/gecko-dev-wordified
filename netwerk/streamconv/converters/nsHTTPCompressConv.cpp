@@ -574,15 +574,15 @@ mInpBufferLen
 )
 mCheckHeaderDone
 (
-PR_FALSE
+false
 )
 mStreamEnded
 (
-PR_FALSE
+false
 )
 mStreamInitialized
 (
-PR_FALSE
+false
 )
 mLen
 (
@@ -1250,7 +1250,7 @@ NS_ERROR_FAILURE
 ;
 mStreamInitialized
 =
-PR_TRUE
+true
 ;
 }
 d_stream
@@ -1270,7 +1270,7 @@ streamLen
 ;
 mDummyStreamInitialised
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -1362,7 +1362,7 @@ d_stream
 ;
 mStreamEnded
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1606,7 +1606,7 @@ NS_ERROR_INVALID_CONTENT_ENCODING
 }
 mDummyStreamInitialised
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1681,7 +1681,7 @@ NS_ERROR_FAILURE
 ;
 mStreamInitialized
 =
-PR_TRUE
+true
 ;
 }
 d_stream
@@ -1789,7 +1789,7 @@ d_stream
 ;
 mStreamEnded
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2728,7 +2728,7 @@ mSkipCount
 {
 mCheckHeaderDone
 =
-PR_TRUE
+true
 ;
 return
 streamLen
@@ -2739,7 +2739,7 @@ else
 {
 mCheckHeaderDone
 =
-PR_TRUE
+true
 ;
 return
 streamLen

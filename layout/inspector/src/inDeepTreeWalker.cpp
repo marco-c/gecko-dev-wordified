@@ -774,11 +774,11 @@ inDeepTreeWalker
 :
 mShowAnonymousContent
 (
-PR_FALSE
+false
 )
 mShowSubDocuments
 (
-PR_FALSE
+false
 )
 mWhatToShow
 (

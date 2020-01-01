@@ -1064,7 +1064,7 @@ ParseEnumValue
 (
 aValue
 kListTypeTable
-PR_FALSE
+false
 )
 |
 |
@@ -1074,7 +1074,7 @@ ParseEnumValue
 (
 aValue
 kOldListTypeTable
-PR_TRUE
+true
 )
 ;
 }

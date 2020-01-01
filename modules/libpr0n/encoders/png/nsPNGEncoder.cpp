@@ -523,11 +523,11 @@ nsnull
 )
 mIsAnimation
 (
-PR_FALSE
+false
 )
 mFinished
 (
-PR_FALSE
+false
 )
 mImageBuffer
 (
@@ -950,7 +950,7 @@ numFrames
 )
 mIsAnimation
 =
-PR_TRUE
+true
 ;
 #
 endif
@@ -2079,7 +2079,7 @@ mPNGinfo
 ;
 mFinished
 =
-PR_TRUE
+true
 ;
 NotifyListener
 (
@@ -2366,7 +2366,7 @@ no
 *
 useTransparency
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2390,7 +2390,7 @@ yes
 *
 useTransparency
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2458,7 +2458,7 @@ no
 *
 skipFirstFrame
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2482,7 +2482,7 @@ yes
 *
 skipFirstFrame
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3370,7 +3370,7 @@ _retval
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

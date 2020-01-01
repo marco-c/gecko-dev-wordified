@@ -698,7 +698,7 @@ end
 &
 &
 (
-PR_FALSE
+false
 =
 =
 nsCRT
@@ -761,7 +761,7 @@ start
 {
 result
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -790,7 +790,7 @@ nsCaseInsensitiveStringComparator
 {
 result
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -954,7 +954,7 @@ end
 &
 &
 (
-PR_FALSE
+false
 =
 =
 nsCRT
@@ -1137,11 +1137,11 @@ aRemoveProperty
 ;
 mUndoAttributeWasSet
 =
-PR_FALSE
+false
 ;
 mRedoAttributeWasSet
 =
-PR_FALSE
+false
 ;
 mUndoValue
 .
@@ -1679,7 +1679,7 @@ result
 else
 mRedoAttributeWasSet
 =
-PR_TRUE
+true
 ;
 return
 cssDecl
@@ -2139,7 +2139,7 @@ ValueIncludes
 (
 aValues
 aNewValue
-PR_FALSE
+false
 )
 )
 {

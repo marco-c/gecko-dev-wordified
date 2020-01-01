@@ -1246,7 +1246,7 @@ _nscoordSaturatingMultiply
 (
 aCoord
 aScale
-PR_TRUE
+true
 )
 ;
 }
@@ -1293,7 +1293,7 @@ _nscoordSaturatingMultiply
 (
 aCoord
 aScale
-PR_FALSE
+false
 )
 ;
 }

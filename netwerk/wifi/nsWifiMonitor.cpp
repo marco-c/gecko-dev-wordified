@@ -554,7 +554,7 @@ nsWifiMonitor
 :
 mKeepGoing
 (
-PR_TRUE
+true
 )
 mReentrantMonitor
 (
@@ -613,7 +613,7 @@ xpcom
 -
 shutdown
 "
-PR_FALSE
+false
 )
 ;
 LOG
@@ -685,7 +685,7 @@ n
 ;
 mKeepGoing
 =
-PR_FALSE
+false
 ;
 ReentrantMonitorAutoEnter
 mon
@@ -764,7 +764,7 @@ mReentrantMonitor
 ;
 mKeepGoing
 =
-PR_TRUE
+true
 ;
 mListeners
 .
@@ -892,7 +892,7 @@ Length
 {
 mKeepGoing
 =
-PR_FALSE
+false
 ;
 mon
 .
@@ -1429,7 +1429,7 @@ i
 .
 mHasSentData
 =
-PR_TRUE
+true
 ;
 currentListeners
 -

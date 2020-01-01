@@ -1895,7 +1895,7 @@ appCacheChan
 >
 SetInheritApplicationCache
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -1946,7 +1946,7 @@ appCache
 ;
 setChooseApplicationCache
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -2014,7 +2014,7 @@ appCacheChan
 >
 SetChooseApplicationCache
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2967,7 +2967,7 @@ encodedChannel
 >
 SetApplyConversion
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -3139,9 +3139,9 @@ headers
 isFromCache
 mCacheDescriptor
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 expirationTime
 cachedCharset
 secInfoSerialization

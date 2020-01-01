@@ -789,7 +789,7 @@ mIsActive
 i
 ]
 =
-PR_TRUE
+true
 ;
 +
 +
@@ -802,7 +802,7 @@ mIsActive
 i
 ]
 =
-PR_FALSE
+false
 ;
 }
 mBestGuess

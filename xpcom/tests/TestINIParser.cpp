@@ -450,7 +450,7 @@ aValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -511,7 +511,7 @@ n
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 int
@@ -576,7 +576,7 @@ argv
 1
 ]
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 lf

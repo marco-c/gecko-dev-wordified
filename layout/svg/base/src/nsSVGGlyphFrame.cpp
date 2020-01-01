@@ -984,7 +984,7 @@ IsSingular
 {
 mInError
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1460,7 +1460,7 @@ InvalidCluster
 ;
 mInError
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -2674,7 +2674,7 @@ CharacterIterator
 iter
 (
 this
-PR_TRUE
+true
 )
 ;
 iter
@@ -2824,7 +2824,7 @@ CharacterIterator
 iter
 (
 this
-PR_TRUE
+true
 )
 ;
 iter
@@ -3017,7 +3017,7 @@ CharacterIterator
 iter
 (
 this
-PR_TRUE
+true
 )
 ;
 iter
@@ -3457,13 +3457,13 @@ NS_OK
 }
 mPropagateTransform
 =
-PR_FALSE
+false
 ;
 CharacterIterator
 iter
 (
 this
-PR_TRUE
+true
 )
 ;
 iter
@@ -3482,7 +3482,7 @@ tmpCtx
 ;
 mPropagateTransform
 =
-PR_TRUE
+true
 ;
 tmpCtx
 -
@@ -4366,7 +4366,7 @@ CharacterIterator
 iter
 (
 this
-PR_TRUE
+true
 )
 ;
 iter
@@ -4958,7 +4958,7 @@ if
 data
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4972,7 +4972,7 @@ strLength
 )
 )
 return
-PR_FALSE
+false
 ;
 gfxFloat
 pathScale
@@ -5312,7 +5312,7 @@ halfAdvance
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -5372,7 +5372,7 @@ without
 individual
 positioning
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -5387,7 +5387,7 @@ strLength
 )
 )
 return
-PR_FALSE
+false
 ;
 CharacterPosition
 *
@@ -5430,7 +5430,7 @@ i
 .
 draw
 =
-PR_TRUE
+true
 ;
 gfxFloat
 advance
@@ -5654,7 +5654,7 @@ angle
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 PRUint32
@@ -6634,7 +6634,7 @@ fragment
 GetLength
 (
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -7430,7 +7430,7 @@ CharacterIterator
 iter
 (
 this
-PR_FALSE
+false
 )
 ;
 if
@@ -7491,7 +7491,7 @@ CharacterIterator
 iter
 (
 this
-PR_FALSE
+false
 )
 ;
 if
@@ -7595,7 +7595,7 @@ CharacterIterator
 iter
 (
 this
-PR_FALSE
+false
 )
 ;
 if
@@ -7790,7 +7790,7 @@ CharacterIterator
 iter
 (
 this
-PR_FALSE
+false
 )
 ;
 if
@@ -8052,7 +8052,7 @@ elements
 .
 )
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -8653,7 +8653,7 @@ svgTextPathFrame
 {
 hasTextPathAncestor
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -8700,7 +8700,7 @@ this
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -8939,7 +8939,7 @@ GetComputedTextLength
 return
 GetAdvance
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -8968,7 +8968,7 @@ EnsureTextRun
 drawScale
 &
 metricsScale
-PR_FALSE
+false
 )
 )
 return
@@ -9032,7 +9032,7 @@ CharacterIterator
 iter
 (
 this
-PR_FALSE
+false
 )
 ;
 PRUint32
@@ -9586,7 +9586,7 @@ Is2b
 )
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 len
@@ -9638,11 +9638,11 @@ i
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -9777,7 +9777,7 @@ Reset
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 *
@@ -10022,7 +10022,7 @@ text
 )
 )
 return
-PR_FALSE
+false
 ;
 nsAutoString
 visualText
@@ -10374,7 +10374,7 @@ m
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -10839,7 +10839,7 @@ if
 mTextRun
 )
 return
-PR_FALSE
+false
 ;
 }
 *
@@ -10865,7 +10865,7 @@ GetTextRunUnitsFactor
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -10974,7 +10974,7 @@ PRUint32
 )
 mInError
 (
-PR_FALSE
+false
 )
 {
 if
@@ -11007,7 +11007,7 @@ mMetricsScale
 {
 mInError
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -11037,7 +11037,7 @@ IsEmpty
 mInError
 )
 return
-PR_FALSE
+false
 ;
 aContext
 -
@@ -11068,7 +11068,7 @@ aScale
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 PRUint32
@@ -11142,7 +11142,7 @@ InvalidCluster
 }
 while
 (
-PR_TRUE
+true
 )
 {
 if
@@ -11211,7 +11211,7 @@ GetLength
 {
 mInError
 =
-PR_TRUE
+true
 ;
 return
 InvalidCluster
@@ -11349,11 +11349,11 @@ mCurrentChar
 aIndex
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -11517,7 +11517,7 @@ advance
 0
 )
 0
-PR_TRUE
+true
 }
 ;
 return

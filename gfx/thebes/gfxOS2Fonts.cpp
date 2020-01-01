@@ -2566,7 +2566,7 @@ emHeight
 SanitizeMetrics
 (
 mMetrics
-PR_FALSE
+false
 )
 ;
 #
@@ -4127,7 +4127,7 @@ further
 drawing
 .
 return
-PR_FALSE
+false
 ;
 }
 cairo_set_scaled_font
@@ -4142,7 +4142,7 @@ scaledFont
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -4573,7 +4573,7 @@ Find
 "
 WarpSans
 "
-PR_FALSE
+false
 0
 -
 1
@@ -4692,7 +4692,7 @@ gfxAtoms
 :
 x_unicode
 fontString
-PR_FALSE
+false
 )
 ;
 ForEachFont
@@ -4722,7 +4722,7 @@ gfxAtoms
 :
 x_user_def
 fontString
-PR_FALSE
+false
 )
 ;
 ForEachFont
@@ -6082,7 +6082,7 @@ gfxTextRange
 :
 kFontGroup
 0
-PR_FALSE
+false
 )
 ;
 /
@@ -6709,7 +6709,7 @@ gfxTextRange
 :
 kFontGroup
 utf16Offset
-PR_FALSE
+false
 )
 ;
 PRInt32
@@ -7162,7 +7162,7 @@ gid
 ;
 glyphFound
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -7228,7 +7228,7 @@ ch
 }
 glyphFound
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -7292,7 +7292,7 @@ IsClusterStart
 (
 utf16Offset
 )
-PR_TRUE
+true
 1
 )
 ;
@@ -7309,7 +7309,7 @@ details
 ;
 glyphFound
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -7484,6 +7484,6 @@ aFontName
 ;
 }
 return
-PR_TRUE
+true
 ;
 }

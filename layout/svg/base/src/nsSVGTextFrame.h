@@ -509,7 +509,7 @@ unsuspended
 )
 mPositioningDirty
 (
-PR_TRUE
+true
 )
 {
 }

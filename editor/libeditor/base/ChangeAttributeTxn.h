@@ -545,7 +545,7 @@ false
 param
 aRemoveAttribute
 if
-PR_TRUE
+true
 remove
 aAttribute
 from
@@ -650,7 +650,7 @@ if
 mRemoveAttribute
 =
 =
-PR_TRUE
+true
 )
 *
 /
@@ -677,7 +677,7 @@ mUndoValue
 /
 *
 *
-PR_TRUE
+true
 if
 the
 mAttribute
@@ -698,7 +698,7 @@ mAttributeWasSet
 /
 *
 *
-PR_TRUE
+true
 if
 the
 operation

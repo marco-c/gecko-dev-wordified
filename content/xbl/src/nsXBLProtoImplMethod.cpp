@@ -1470,7 +1470,7 @@ GetLineNumber
 (
 )
 JSVERSION_LATEST
-PR_TRUE
+true
 (
 void
 *

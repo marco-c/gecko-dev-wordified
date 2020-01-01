@@ -1280,7 +1280,7 @@ nsNSSComponent
 set
 this
 to
-PR_TRUE
+true
 .
 /
 /
@@ -1292,7 +1292,7 @@ have
 this
 set
 to
-PR_FALSE
+false
 .
 NS_NSS_GENERIC_FACTORY_CONSTRUCTOR
 (

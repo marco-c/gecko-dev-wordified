@@ -1229,7 +1229,7 @@ false
 ;
 aValue
 =
-PR_FALSE
+false
 ;
 return
 NS_SUCCEEDED
@@ -3264,7 +3264,7 @@ data
 -
 gfxItems
 "
-PR_TRUE
+true
 )
 ;
 }

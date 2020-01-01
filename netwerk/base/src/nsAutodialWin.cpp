@@ -1045,7 +1045,7 @@ soon
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -2397,7 +2397,7 @@ LoadRASapi32DLL
 )
 )
 return
-PR_FALSE
+false
 ;
 DWORD
 result
@@ -2470,7 +2470,7 @@ result
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3217,7 +3217,7 @@ GetLastError
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 SC_HANDLE
@@ -3258,7 +3258,7 @@ service
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 SERVICE_STATUS
@@ -3302,7 +3302,7 @@ GetLastError
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -3359,7 +3359,7 @@ LoadRASapi32DLL
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -3464,7 +3464,7 @@ hostName
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 autodialEntry
@@ -3546,7 +3546,7 @@ result
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 LOGD
@@ -3584,7 +3584,7 @@ get
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -3798,7 +3798,7 @@ location
 0
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -3808,7 +3808,7 @@ LoadRASapi32DLL
 )
 )
 return
-PR_FALSE
+false
 ;
 BOOL
 enabled
@@ -3845,7 +3845,7 @@ RasGetAutodialEnable
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -4047,11 +4047,11 @@ DLL
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -4161,10 +4161,10 @@ DLL
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }

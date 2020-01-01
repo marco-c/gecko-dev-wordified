@@ -497,11 +497,11 @@ mScrollState
 )
 mDisabledSet
 (
-PR_FALSE
+false
 )
 mDisabled
 (
-PR_FALSE
+false
 )
 {
 }
@@ -539,7 +539,7 @@ nsnull
 ;
 mDisabledSet
 =
-PR_FALSE
+false
 ;
 }
 bool
@@ -564,7 +564,7 @@ aDisabled
 ;
 mDisabledSet
 =
-PR_TRUE
+true
 ;
 }
 bool

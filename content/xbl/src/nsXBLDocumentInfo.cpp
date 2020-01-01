@@ -1713,7 +1713,7 @@ aScriptContext
 >
 SetGCOnDestruction
 (
-PR_FALSE
+false
 )
 ;
 aScriptContext
@@ -2580,7 +2580,7 @@ return
 isChrome
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -2918,11 +2918,11 @@ aDocument
 )
 mScriptAccess
 (
-PR_TRUE
+true
 )
 mIsChrome
 (
-PR_FALSE
+false
 )
 mBindingTable
 (
@@ -3008,7 +3008,7 @@ allow
 }
 mIsChrome
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3187,7 +3187,7 @@ delete
 binding
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -3324,7 +3324,7 @@ FlushSkinSheets
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

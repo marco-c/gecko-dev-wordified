@@ -573,7 +573,7 @@ NS_LITERAL_STRING
 layoutdebug
 "
 )
-PR_FALSE
+false
 &
 idx
 )
@@ -805,7 +805,7 @@ aCmdLine
 >
 SetPreventDefault
 (
-PR_TRUE
+true
 )
 ;
 return

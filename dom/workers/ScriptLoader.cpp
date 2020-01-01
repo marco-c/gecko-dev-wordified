@@ -1799,7 +1799,7 @@ principal
 CheckMayLoad
 (
 uri
-PR_FALSE
+false
 )
 :
 secMan
@@ -2880,7 +2880,7 @@ loadPrincipal
 CheckMayLoad
 (
 finalURI
-PR_FALSE
+false
 )
 )
 )

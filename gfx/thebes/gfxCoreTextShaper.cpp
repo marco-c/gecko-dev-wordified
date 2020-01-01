@@ -1010,7 +1010,7 @@ i
 {
 bidiWrap
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1529,7 +1529,7 @@ NS_OK
 {
 success
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3303,7 +3303,7 @@ charEnd
 {
 allGlyphsAreWithinCluster
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3317,7 +3317,7 @@ prevGlyphCharIndex
 {
 inOrder
 =
-PR_FALSE
+false
 ;
 }
 prevGlyphCharIndex
@@ -3342,7 +3342,7 @@ charEnd
 {
 allGlyphsAreWithinCluster
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3356,7 +3356,7 @@ prevGlyphCharIndex
 {
 inOrder
 =
-PR_FALSE
+false
 ;
 }
 prevGlyphCharIndex
@@ -4077,7 +4077,7 @@ IsClusterStart
 (
 baseCharIndex
 )
-PR_TRUE
+true
 detailedGlyphs
 .
 Length
@@ -4153,7 +4153,7 @@ IsClusterStart
 (
 baseCharIndex
 )
-PR_FALSE
+false
 0
 )
 ;

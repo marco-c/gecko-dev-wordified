@@ -2737,7 +2737,7 @@ destBufferRect
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 mode
@@ -4625,7 +4625,7 @@ surf
 >
 SetAllowUseAsSource
 (
-PR_FALSE
+false
 )
 ;
 result
@@ -4998,7 +4998,7 @@ nsnull
 ;
 mDestroyed
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5032,7 +5032,7 @@ IsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5076,7 +5076,7 @@ this
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -6177,7 +6177,7 @@ mDestroyed
 {
 mDestroyed
 =
-PR_TRUE
+true
 ;
 mBuffer
 =

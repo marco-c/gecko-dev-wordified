@@ -1444,9 +1444,9 @@ aIsFromUserInput
 =
 eFromUserInput
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 return
 ;

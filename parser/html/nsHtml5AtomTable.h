@@ -646,7 +646,7 @@ IsStaticAtom
 (
 )
 returns
-PR_FALSE
+false
 )
 obtained
 from
@@ -932,12 +932,12 @@ before
 use
 .
 Returns
-PR_TRUE
+true
 *
 when
 successful
 and
-PR_FALSE
+false
 on
 OOM
 failure

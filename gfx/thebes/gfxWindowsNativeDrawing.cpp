@@ -1165,7 +1165,7 @@ m
 .
 ScaleFactors
 (
-PR_TRUE
+true
 )
 ;
 mWorldTransform
@@ -1620,7 +1620,7 @@ SurfaceTypeWin32Printing
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -1665,10 +1665,10 @@ CAN_DRAW_TO_COLOR_ALPHA
 )
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1688,7 +1688,7 @@ case
 RENDER_STATE_NATIVE_DRAWING_DONE
 :
 return
-PR_FALSE
+false
 ;
 case
 RENDER_STATE_ALPHA_RECOVERY_BLACK_DONE
@@ -1698,13 +1698,13 @@ mRenderState
 RENDER_STATE_ALPHA_RECOVERY_WHITE
 ;
 return
-PR_TRUE
+true
 ;
 case
 RENDER_STATE_ALPHA_RECOVERY_WHITE_DONE
 :
 return
-PR_FALSE
+false
 ;
 default
 :
@@ -1725,7 +1725,7 @@ break
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void

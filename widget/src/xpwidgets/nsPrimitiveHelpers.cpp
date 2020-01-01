@@ -1761,7 +1761,7 @@ NS_ERROR_FAILURE
 ;
 hasConverter
 =
-PR_TRUE
+true
 ;
 }
 /

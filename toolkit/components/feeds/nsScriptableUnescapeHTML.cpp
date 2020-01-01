@@ -854,7 +854,7 @@ text
 html
 "
 )
-PR_TRUE
+true
 eDTDMode_fragment
 )
 ;
@@ -1058,7 +1058,7 @@ loader
 >
 SetEnabled
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1258,7 +1258,7 @@ ParseFragmentXML
 aFragment
 document
 tagStack
-PR_TRUE
+true
 aReturn
 )
 ;
@@ -1306,8 +1306,8 @@ nsGkAtoms
 :
 body
 kNameSpaceID_XHTML
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 /
@@ -1385,7 +1385,7 @@ nsGkAtoms
 :
 xml
 spec16
-PR_FALSE
+false
 )
 ;
 }
@@ -1409,8 +1409,8 @@ fragment
 nsTreeSanitizer
 sanitizer
 (
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 sanitizer
@@ -1431,7 +1431,7 @@ loader
 >
 SetEnabled
 (
-PR_TRUE
+true
 )
 ;
 return

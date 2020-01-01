@@ -973,11 +973,11 @@ reflowed
 The
 methods
 return
-PR_TRUE
+true
 on
 success
 or
-PR_FALSE
+false
 on
 *
 failure

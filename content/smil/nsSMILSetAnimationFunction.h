@@ -634,7 +634,7 @@ succeeds
 .
 *
 returns
-PR_TRUE
+true
 if
 aAttribute
 is
@@ -646,7 +646,7 @@ related
 *
 attribute
 ;
-PR_FALSE
+false
 otherwise
 .
 *
@@ -683,7 +683,7 @@ attribute
 *
 *
 returns
-PR_TRUE
+true
 if
 aAttribute
 is
@@ -695,7 +695,7 @@ related
 *
 attribute
 ;
-PR_FALSE
+false
 otherwise
 .
 *
@@ -739,7 +739,7 @@ values
 /
 /
 Returning
-PR_FALSE
+false
 here
 will
 mean
@@ -772,7 +772,7 @@ IsToAnimation
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -799,7 +799,7 @@ IsValueFixedForSimpleDuration
 const
 {
 return
-PR_TRUE
+true
 ;
 }
 NS_OVERRIDE

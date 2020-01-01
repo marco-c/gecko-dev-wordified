@@ -1163,7 +1163,7 @@ mDocShell
 *
 aAbortOpen
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1271,7 +1271,7 @@ request
 *
 aAbortProcess
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1280,7 +1280,7 @@ NS_OK
 *
 aAbortProcess
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1734,7 +1734,7 @@ return
 CanHandleContent
 (
 aContentType
-PR_TRUE
+true
 aDesiredContentType
 aCanHandle
 )
@@ -1780,7 +1780,7 @@ aDesiredContentType
 *
 aCanHandleContent
 =
-PR_FALSE
+false
 ;
 *
 aDesiredContentType
@@ -2685,7 +2685,7 @@ CheckSameOriginURI
 (
 uri
 topUri
-PR_TRUE
+true
 )
 ;
 if

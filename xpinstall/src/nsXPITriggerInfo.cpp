@@ -584,7 +584,7 @@ aIconURL
 )
 mHashFound
 (
-PR_FALSE
+false
 )
 mFlags
 (
@@ -830,7 +830,7 @@ aHash
 {
 mHashFound
 =
-PR_TRUE
+true
 ;
 char
 *

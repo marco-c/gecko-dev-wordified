@@ -1293,7 +1293,7 @@ as
 initialized
 sInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1526,7 +1526,7 @@ NS_OK
 ;
 sTimerOn
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1597,7 +1597,7 @@ return
 ;
 sTimerOn
 =
-PR_FALSE
+false
 ;
 /
 /

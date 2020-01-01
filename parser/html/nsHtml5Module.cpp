@@ -661,7 +661,7 @@ ifdef
 DEBUG
 sNsHtml5ModuleInitialized
 =
-PR_TRUE
+true
 ;
 #
 endif
@@ -682,7 +682,7 @@ ifdef
 DEBUG
 sNsHtml5ModuleInitialized
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -1047,7 +1047,7 @@ shutdown
 -
 threads
 "
-PR_FALSE
+false
 )
 ;
 }

@@ -1104,7 +1104,7 @@ cachingChannel
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1148,7 +1148,7 @@ fromCache
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -1175,7 +1175,7 @@ cacheToken
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -1196,7 +1196,7 @@ cacheEntry
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsXPIDLCString

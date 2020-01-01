@@ -486,7 +486,7 @@ aEvent
 new
 nsUIEvent
 (
-PR_FALSE
+false
 0
 0
 )
@@ -503,14 +503,14 @@ aEvent
 {
 mEventIsInternal
 =
-PR_FALSE
+false
 ;
 }
 else
 {
 mEventIsInternal
 =
-PR_TRUE
+true
 ;
 mEvent
 -
@@ -740,7 +740,7 @@ nsDOMEvent
 InitEvent
 (
 aTypeArg
-PR_FALSE
+false
 /
 *
 doesn
@@ -749,7 +749,7 @@ t
 bubble
 *
 /
-PR_FALSE
+false
 /
 *
 can

@@ -656,7 +656,7 @@ aIsDefaultBrowser
 *
 aIsDefaultBrowser
 =
-PR_FALSE
+false
 ;
 CFStringRef
 firefoxID
@@ -835,7 +835,7 @@ aStartupCheck
 )
 mCheckedThisSession
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1041,7 +1041,7 @@ mCheckedThisSession
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2308,7 +2308,7 @@ rv
 NS_NewNativeLocalFile
 (
 NETWORK_PREFPANE
-PR_TRUE
+true
 getter_AddRefs
 (
 lf
@@ -2370,7 +2370,7 @@ rv
 NS_NewNativeLocalFile
 (
 DESKTOP_PREFPANE
-PR_TRUE
+true
 getter_AddRefs
 (
 lf

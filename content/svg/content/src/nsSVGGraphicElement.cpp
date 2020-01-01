@@ -1024,7 +1024,7 @@ nsSVGUtils
 GetCTM
 (
 this
-PR_FALSE
+false
 )
 ;
 *
@@ -1084,7 +1084,7 @@ nsSVGUtils
 GetCTM
 (
 this
-PR_TRUE
+true
 )
 ;
 *

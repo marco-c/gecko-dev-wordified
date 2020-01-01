@@ -1406,7 +1406,7 @@ mDescriptorQ
 )
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -1427,7 +1427,7 @@ mRequestQ
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -1439,7 +1439,7 @@ we
 can
 deactivate
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -2224,7 +2224,7 @@ nsCacheEntryHashTable
 :
 initialized
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -2318,7 +2318,7 @@ table
 ;
 initialized
 =
-PR_FALSE
+false
 ;
 }
 }

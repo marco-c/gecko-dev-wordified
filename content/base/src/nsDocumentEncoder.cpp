@@ -1024,11 +1024,11 @@ is
 visible
 .
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1064,12 +1064,12 @@ eTEXT
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1377,11 +1377,11 @@ mEndRootIndex
 ;
 mHaltRangeHint
 =
-PR_FALSE
+false
 ;
 mNodeIsContainer
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1517,7 +1517,7 @@ aFlags
 ;
 mIsCopying
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1595,7 +1595,7 @@ aNode
 {
 mNodeIsContainer
 =
-PR_FALSE
+false
 ;
 mNode
 =
@@ -1621,7 +1621,7 @@ aContainer
 {
 mNodeIsContainer
 =
-PR_TRUE
+true
 ;
 mNode
 =
@@ -1647,7 +1647,7 @@ aContainer
 {
 mNodeIsContainer
 =
-PR_TRUE
+true
 ;
 mNode
 =
@@ -1708,7 +1708,7 @@ aNode
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -2309,7 +2309,7 @@ isSelectable
 {
 aDontSerializeRoot
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2381,7 +2381,7 @@ SerializeToStringRecursive
 (
 child
 aStr
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2416,7 +2416,7 @@ return
 FlushText
 (
 aStr
-PR_FALSE
+false
 )
 ;
 }
@@ -3719,7 +3719,7 @@ hasChildNodes
 ;
 if
 (
-PR_TRUE
+true
 =
 =
 hasChildNodes
@@ -3951,7 +3951,7 @@ SerializeToStringRecursive
 (
 aNode
 aString
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4122,7 +4122,7 @@ paste
 .
 mHaltRangeHint
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -4503,7 +4503,7 @@ SerializeToStringRecursive
 (
 childAsNode
 aString
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5243,7 +5243,7 @@ ToString
 (
 0
 output
-PR_TRUE
+true
 )
 ;
 /
@@ -5781,7 +5781,7 @@ SerializeToStringRecursive
 (
 mDocument
 output
-PR_FALSE
+false
 )
 ;
 }
@@ -5917,7 +5917,7 @@ aOutputString
 ;
 setOutput
 =
-PR_TRUE
+true
 ;
 }
 mCachedBuffer
@@ -6096,7 +6096,7 @@ data
 FlushText
 (
 buf
-PR_TRUE
+true
 )
 ;
 mStream
@@ -6411,7 +6411,7 @@ nsHTMLCopyEncoder
 {
 mIsTextWidget
 =
-PR_FALSE
+false
 ;
 }
 nsHTMLCopyEncoder
@@ -6450,7 +6450,7 @@ NS_ERROR_INVALID_ARG
 ;
 mIsTextWidget
 =
-PR_FALSE
+false
 ;
 Initialize
 (
@@ -6458,7 +6458,7 @@ Initialize
 ;
 mIsCopying
 =
-PR_TRUE
+true
 ;
 mDocument
 =
@@ -6802,7 +6802,7 @@ textarea
 {
 mIsTextWidget
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -6928,7 +6928,7 @@ wrap
 {
 mIsTextWidget
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -6981,7 +6981,7 @@ IsHTML
 )
 mIsTextWidget
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -7711,7 +7711,7 @@ if
 content
 )
 return
-PR_FALSE
+false
 ;
 nsIAtom
 *
@@ -8476,7 +8476,7 @@ parent
 )
 done
 =
-PR_TRUE
+true
 ;
 else
 {
@@ -8634,7 +8634,7 @@ isEditable
 )
 done
 =
-PR_TRUE
+true
 ;
 else
 {
@@ -8877,7 +8877,7 @@ NS_OK
 ;
 bResetPromotion
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -9118,7 +9118,7 @@ isBlock
 {
 bResetPromotion
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -9364,7 +9364,7 @@ NS_OK
 ;
 bResetPromotion
 =
-PR_TRUE
+true
 ;
 }
 rv
@@ -9617,7 +9617,7 @@ isBlock
 {
 bResetPromotion
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -9911,15 +9911,15 @@ _moz
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -10134,7 +10134,7 @@ th
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -10192,7 +10192,7 @@ IsFirstNode
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -10212,7 +10212,7 @@ first
 dom
 child
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -10220,7 +10220,7 @@ if
 parent
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -10333,7 +10333,7 @@ IsFirstNode
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 while
@@ -10364,7 +10364,7 @@ child
 )
 )
 return
-PR_FALSE
+false
 ;
 j
 +
@@ -10372,7 +10372,7 @@ j
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -10431,7 +10431,7 @@ IsLastNode
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 GetLengthOfDOMNode
@@ -10462,7 +10462,7 @@ last
 dom
 child
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -10470,7 +10470,7 @@ if
 parent
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -10592,7 +10592,7 @@ IsLastNode
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 while
@@ -10644,11 +10644,11 @@ child
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool

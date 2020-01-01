@@ -861,7 +861,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_FALSE
+false
 }
 ;
 /

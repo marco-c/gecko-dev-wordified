@@ -946,7 +946,7 @@ end
 )
 )
 return
-PR_TRUE
+true
 ;
 if
 (

@@ -898,7 +898,7 @@ nsXULTemplateQueryProcessorXML
 :
 mGenerationStarted
 (
-PR_FALSE
+false
 )
 {
 }

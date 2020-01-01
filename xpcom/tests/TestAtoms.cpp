@@ -553,7 +553,7 @@ str8
 )
 )
 return
-PR_FALSE
+false
 ;
 nsString
 tmp16
@@ -597,7 +597,7 @@ tmp8
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -618,7 +618,7 @@ str16
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -658,11 +658,11 @@ str8
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -730,11 +730,11 @@ atom16
 atom8
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -828,7 +828,7 @@ strCut
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -973,7 +973,7 @@ m16
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -986,7 +986,7 @@ NS_GetNumberOfAtoms
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -1075,7 +1075,7 @@ m16
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1088,7 +1088,7 @@ NS_GetNumberOfAtoms
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1179,13 +1179,13 @@ NS_GetNumberOfAtoms
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 #
 endif
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -1448,7 +1448,7 @@ thirdNonPerm
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1466,7 +1466,7 @@ count
 1
 )
 return
-PR_FALSE
+false
 ;
 NS_RegisterStaticAtoms
 (
@@ -1624,7 +1624,7 @@ first
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1668,7 +1668,7 @@ first
 first_p
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1706,7 +1706,7 @@ second_p
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1747,7 +1747,7 @@ second
 second_p
 )
 return
-PR_FALSE
+false
 ;
 }
 return

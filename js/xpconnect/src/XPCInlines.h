@@ -586,7 +586,7 @@ mPtr
 mPtr
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -599,7 +599,7 @@ mPrincipal
 mPrincipal
 )
 return
-PR_TRUE
+true
 ;
 bool
 equals
@@ -634,7 +634,7 @@ guessing
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -2712,7 +2712,7 @@ nsISupports
 )
 )
 return
-PR_TRUE
+true
 ;
 return
 JS_FALSE

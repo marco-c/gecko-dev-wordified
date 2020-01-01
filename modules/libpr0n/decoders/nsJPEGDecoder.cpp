@@ -807,7 +807,7 @@ JPEG_HEADER
 ;
 mReading
 =
-PR_TRUE
+true
 ;
 mImageData
 =
@@ -1878,7 +1878,7 @@ icSigGrayData
 )
 mismatch
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1894,7 +1894,7 @@ icSigRgbData
 )
 mismatch
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1925,7 +1925,7 @@ support
 ycbcr
 mismatch
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1945,7 +1945,7 @@ support
 cmyk
 mismatch
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3443,7 +3443,7 @@ suspend
 *
 suspend
 =
-PR_FALSE
+false
 ;
 const
 PRUint32
@@ -3549,7 +3549,7 @@ imageRow
 *
 suspend
 =
-PR_TRUE
+true
 ;
 /
 *
@@ -3647,7 +3647,7 @@ sampleRow
 *
 suspend
 =
-PR_TRUE
+true
 ;
 /
 *
@@ -5682,7 +5682,7 @@ new_buflen
 0
 )
 return
-PR_FALSE
+false
 ;
 /
 *
@@ -5781,7 +5781,7 @@ size_t
 new_buflen
 ;
 return
-PR_FALSE
+false
 ;
 /
 *
@@ -5822,10 +5822,10 @@ decoder
 >
 mReading
 =
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -6152,10 +6152,10 @@ decoder
 >
 mReading
 =
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 /

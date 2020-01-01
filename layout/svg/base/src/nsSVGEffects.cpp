@@ -584,7 +584,7 @@ this
 ;
 mInObserverList
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -864,7 +864,7 @@ GetContent
 (
 )
 aURI
-PR_TRUE
+true
 aReferenceImage
 )
 ;
@@ -1032,7 +1032,7 @@ this
 ;
 mInObserverList
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -1120,7 +1120,7 @@ aOK
 *
 aOK
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1191,7 +1191,7 @@ this
 ;
 mInObserverList
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -1252,7 +1252,7 @@ InvalidateViaReferencedElement
 {
 mInObserverList
 =
-PR_FALSE
+false
 ;
 DoUpdate
 (
@@ -1269,7 +1269,7 @@ NotifyEvictedFromRenderingObserverList
 {
 mInObserverList
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2147,7 +2147,7 @@ aCreate
 (
 aURI
 aFrame
-PR_FALSE
+false
 )
 ;
 if

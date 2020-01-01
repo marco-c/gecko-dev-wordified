@@ -673,7 +673,7 @@ aShell
 )
 mActivated
 (
-PR_FALSE
+false
 )
 {
 }

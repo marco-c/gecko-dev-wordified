@@ -841,7 +841,7 @@ ParseEnumValue
 (
 aValue
 kOrderedListItemTypeTable
-PR_TRUE
+true
 )
 |
 |
@@ -851,7 +851,7 @@ ParseEnumValue
 (
 aValue
 kUnorderedListItemTypeTable
-PR_FALSE
+false
 )
 ;
 }

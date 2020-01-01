@@ -3754,7 +3754,7 @@ true
 *
 _moreResults
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3786,7 +3786,7 @@ false
 *
 _moreResults
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3809,7 +3809,7 @@ SQLITE_MISUSE
 {
 mExecuting
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -3842,7 +3842,7 @@ true
 endif
 mExecuting
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -4416,7 +4416,7 @@ _value
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -4553,7 +4553,7 @@ _value
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }

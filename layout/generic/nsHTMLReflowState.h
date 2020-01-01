@@ -1168,7 +1168,7 @@ member
 .
 *
 return
-PR_TRUE
+true
 if
 the
 margin
@@ -1211,7 +1211,7 @@ member
 .
 *
 return
-PR_TRUE
+true
 if
 the
 padding

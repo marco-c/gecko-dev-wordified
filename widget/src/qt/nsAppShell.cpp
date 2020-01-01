@@ -754,7 +754,7 @@ if
 dispatcher
 )
 return
-PR_FALSE
+false
 ;
 return
 dispatcher
@@ -765,9 +765,9 @@ processEvents
 flags
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 }
 bool

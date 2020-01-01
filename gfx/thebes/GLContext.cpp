@@ -652,10 +652,10 @@ if
 mLibrary
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1014,9 +1014,9 @@ failCount
 =
 0
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 }
 /
@@ -1086,7 +1086,7 @@ SetSuccessful
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 SymLoadStruct
@@ -4406,7 +4406,7 @@ extension
 nsnull
 )
 return
-PR_FALSE
+false
 ;
 const
 GLubyte
@@ -4458,7 +4458,7 @@ extension
 '
 )
 return
-PR_FALSE
+false
 ;
 /
 *
@@ -4582,7 +4582,7 @@ terminator
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -4592,7 +4592,7 @@ terminator
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 already_AddRefed
@@ -5477,7 +5477,7 @@ TopLeft
 )
 +
 aFrom
-PR_FALSE
+false
 )
 ;
 mTextureState
@@ -5585,7 +5585,7 @@ mCurrentImage
 )
 mInUpdate
 (
-PR_FALSE
+false
 )
 mGL
 (
@@ -6141,7 +6141,7 @@ update
 ;
 mInUpdate
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -6631,7 +6631,7 @@ EndUpdate
 ;
 mInUpdate
 =
-PR_FALSE
+false
 ;
 mTextureState
 =
@@ -6852,7 +6852,7 @@ nsnull
 ;
 mInUpdate
 =
-PR_FALSE
+false
 ;
 mShaderType
 =
@@ -6910,11 +6910,11 @@ mCurrentImage
 +
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsIntRect
@@ -7280,7 +7280,7 @@ aSize
 )
 )
 return
-PR_FALSE
+false
 ;
 MakeCurrent
 (
@@ -8006,7 +8006,7 @@ complete
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mOffscreenSize
@@ -8282,7 +8282,7 @@ viewport
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -15128,7 +15128,7 @@ i
 ;
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -15375,7 +15375,7 @@ i
 .
 originDeleted
 =
-PR_TRUE
+true
 ;
 }
 }

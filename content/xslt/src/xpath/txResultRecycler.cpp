@@ -632,7 +632,7 @@ mTrueResult
 new
 BooleanResult
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_TRUE
@@ -651,7 +651,7 @@ mFalseResult
 new
 BooleanResult
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE

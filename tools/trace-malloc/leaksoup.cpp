@@ -1313,7 +1313,7 @@ cur_node
 >
 reached
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -1688,7 +1688,7 @@ n
 >
 reached
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1943,7 +1943,7 @@ i
 .
 reached
 =
-PR_FALSE
+false
 ;
 }
 nsVoidArray
@@ -2057,7 +2057,7 @@ n
 >
 reached
 =
-PR_TRUE
+true
 ;
 n
 -
@@ -2143,7 +2143,7 @@ i
 .
 is_root
 =
-PR_TRUE
+true
 ;
 }
 nsVoidArray
@@ -2330,7 +2330,7 @@ n
 >
 is_root
 =
-PR_FALSE
+false
 ;
 -
 -
@@ -2571,7 +2571,7 @@ i
 .
 reached
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -2600,18 +2600,18 @@ for
 PRInt32
 root_type
 =
-PR_TRUE
+true
 ;
 root_type
 =
 =
-PR_TRUE
+true
 |
 |
 root_type
 =
 =
-PR_FALSE
+false
 ;
 -
 -

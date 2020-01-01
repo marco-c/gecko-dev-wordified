@@ -892,7 +892,7 @@ aEndNode
 aNode
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -947,7 +947,7 @@ aEndNode
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsINode
@@ -967,7 +967,7 @@ if
 parent
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 indx
@@ -1906,7 +1906,7 @@ iter
 new
 nsContentIterator
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -1947,7 +1947,7 @@ iter
 new
 nsContentIterator
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -2266,7 +2266,7 @@ mCachedIndex
 )
 mIsDone
 (
-PR_FALSE
+false
 )
 mPre
 (
@@ -2417,7 +2417,7 @@ NS_ERROR_NULL_POINTER
 ;
 mIsDone
 =
-PR_FALSE
+false
 ;
 mIndexes
 .
@@ -2521,7 +2521,7 @@ aRange
 ;
 mIsDone
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3776,7 +3776,7 @@ nsnull
 ;
 mIsDone
 =
-PR_TRUE
+true
 ;
 mIndexes
 .
@@ -6077,7 +6077,7 @@ mLast
 {
 mIsDone
 =
-PR_TRUE
+true
 ;
 return
 ;
@@ -6120,7 +6120,7 @@ mFirst
 {
 mIsDone
 =
-PR_TRUE
+true
 ;
 return
 ;
@@ -6226,7 +6226,7 @@ tempNode
 {
 mIsDone
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -6455,7 +6455,7 @@ lastOffset
 {
 mIsDone
 =
-PR_TRUE
+true
 ;
 return
 NS_ERROR_FAILURE
@@ -6834,7 +6834,7 @@ Length
 ;
 mIsDone
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -7085,7 +7085,7 @@ phew
 !
 mIsDone
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -7453,7 +7453,7 @@ nsContentSubtreeIterator
 :
 nsContentIterator
 (
-PR_FALSE
+false
 )
 {
 }
@@ -8038,7 +8038,7 @@ NS_ERROR_NULL_POINTER
 ;
 mIsDone
 =
-PR_FALSE
+false
 ;
 mRange
 =
@@ -9146,7 +9146,7 @@ mLast
 {
 mIsDone
 =
-PR_TRUE
+true
 ;
 return
 ;
@@ -9434,7 +9434,7 @@ mFirst
 {
 mIsDone
 =
-PR_TRUE
+true
 ;
 return
 ;

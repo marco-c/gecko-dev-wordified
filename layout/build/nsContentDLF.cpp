@@ -924,7 +924,7 @@ securityManager
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -948,7 +948,7 @@ principal
 NS_ENSURE_TRUE
 (
 principal
-PR_FALSE
+false
 )
 ;
 return
@@ -1267,7 +1267,7 @@ VIEWSOURCE_CONTENT_TYPE
 {
 knownType
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1306,7 +1306,7 @@ typeIndex
 {
 knownType
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1345,7 +1345,7 @@ typeIndex
 {
 knownType
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1384,7 +1384,7 @@ typeIndex
 {
 knownType
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2229,7 +2229,7 @@ blankDoc
 AppendChildTo
 (
 htmlElement
-PR_FALSE
+false
 )
 ;
 if
@@ -2248,7 +2248,7 @@ htmlElement
 AppendChildTo
 (
 headElement
-PR_FALSE
+false
 )
 ;
 if
@@ -2273,7 +2273,7 @@ htmlElement
 AppendChildTo
 (
 bodyElement
-PR_FALSE
+false
 )
 ;
 }
@@ -2765,7 +2765,7 @@ aChannel
 aLoadGroup
 aContainer
 aDocListener
-PR_TRUE
+true
 )
 ;
 if

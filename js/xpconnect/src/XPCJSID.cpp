@@ -726,9 +726,9 @@ name
 return
 mName
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -939,7 +939,7 @@ GetInvalidIID
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2196,7 +2196,7 @@ aValid
 *
 aValid
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2233,7 +2233,7 @@ other
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3878,7 +3878,7 @@ str
 )
 success
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -4426,7 +4426,7 @@ obj
 inst
 nsnull
 iid
-PR_TRUE
+true
 vp
 nsnull
 )

@@ -1534,7 +1534,7 @@ gess
 00
 *
 return
-PR_FALSE
+false
 ;
 subclasses
 MUST

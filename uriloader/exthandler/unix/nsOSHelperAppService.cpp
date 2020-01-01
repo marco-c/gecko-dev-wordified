@@ -1075,7 +1075,7 @@ case
 :
 semicolonFound
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1866,7 +1866,7 @@ the
 format
 to
 *
-PR_TRUE
+true
 for
 netscape
 files
@@ -2005,7 +2005,7 @@ file
 1
 -
 1
-PR_FALSE
+false
 )
 ;
 if
@@ -5279,7 +5279,7 @@ aTypeOptions
 aHandler
 aDescription
 aMozillaFlags
-PR_TRUE
+true
 )
 ;
 if
@@ -5300,7 +5300,7 @@ aTypeOptions
 aHandler
 aDescription
 aMozillaFlags
-PR_FALSE
+false
 )
 ;
 }
@@ -5341,7 +5341,7 @@ aTypeOptions
 aHandler
 aDescription
 aMozillaFlags
-PR_TRUE
+true
 )
 ;
 }
@@ -5368,7 +5368,7 @@ aTypeOptions
 aHandler
 aDescription
 aMozillaFlags
-PR_FALSE
+false
 )
 ;
 }
@@ -5741,7 +5741,7 @@ file
 1
 -
 1
-PR_FALSE
+false
 )
 ;
 if
@@ -6364,7 +6364,7 @@ start_option_iter
 ;
 equalSignFound
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -6406,7 +6406,7 @@ case
 :
 equalSignFound
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -6709,7 +6709,7 @@ process
 >
 Run
 (
-PR_TRUE
+true
 args
 2
 )
@@ -6769,7 +6769,7 @@ exitValue
 {
 match
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -6810,7 +6810,7 @@ needsterminal
 {
 match
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -6984,7 +6984,7 @@ aProtocolScheme
 *
 aHandlerExists
 =
-PR_FALSE
+false
 ;
 #
 if
@@ -7037,7 +7037,7 @@ isValid
 *
 aHandlerExists
 =
-PR_TRUE
+true
 ;
 #
 endif
@@ -7679,7 +7679,7 @@ aFileExt
 majorType
 minorType
 mime_types_description
-PR_TRUE
+true
 )
 ;
 if
@@ -7767,7 +7767,7 @@ aFileExt
 majorType
 minorType
 mime_types_description
-PR_FALSE
+false
 )
 ;
 }
@@ -8343,7 +8343,7 @@ typeOptions
 handler
 mailcap_description
 mozillaFlags
-PR_TRUE
+true
 )
 ;
 LOG
@@ -8651,7 +8651,7 @@ typeOptions
 handler
 mailcap_description
 mozillaFlags
-PR_FALSE
+false
 )
 ;
 }
@@ -8677,7 +8677,7 @@ typeOptions
 handler
 mailcap_description
 mozillaFlags
-PR_TRUE
+true
 )
 ;
 }
@@ -8703,7 +8703,7 @@ typeOptions
 handler
 mailcap_description
 mozillaFlags
-PR_FALSE
+false
 )
 ;
 }
@@ -9005,7 +9005,7 @@ aFound
 *
 aFound
 =
-PR_TRUE
+true
 ;
 nsMIMEInfoBase
 *
@@ -9166,7 +9166,7 @@ retval
 *
 aFound
 =
-PR_FALSE
+false
 ;
 retval
 =

@@ -702,12 +702,12 @@ i
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -736,7 +736,7 @@ sLen
 1
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -785,12 +785,12 @@ i
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -901,7 +901,7 @@ len
 )
 )
 return
-PR_FALSE
+false
 ;
 out
 .
@@ -959,7 +959,7 @@ i
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1781,7 +1781,7 @@ i
 {
 foundNonZero
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2290,7 +2290,7 @@ ulGXLen
 {
 gx4Good
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2378,7 +2378,7 @@ NUM_ELEM
 (
 keyTemplate
 )
-PR_FALSE
+false
 )
 ;
 if

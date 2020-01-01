@@ -541,11 +541,11 @@ aAttrEnum
 ;
 mIsAnimated
 =
-PR_FALSE
+false
 ;
 mIsBaseSet
 =
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -653,7 +653,7 @@ eFirst
 /
 /
 Returns
-PR_TRUE
+true
 if
 the
 animated
@@ -692,7 +692,7 @@ a
 DOM
 call
 )
-PR_FALSE
+false
 otherwise
 .
 /
@@ -700,7 +700,7 @@ otherwise
 If
 this
 returns
-PR_FALSE
+false
 the
 animated
 value

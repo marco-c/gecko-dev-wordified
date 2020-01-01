@@ -1324,7 +1324,7 @@ aTabIndex
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1395,10 +1395,10 @@ GetLinkHandler
 *
 aIsFocusable
 =
-PR_FALSE
+false
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1425,10 +1425,10 @@ aTabIndex
 *
 aIsFocusable
 =
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -1511,10 +1511,10 @@ aTabIndex
 *
 aIsFocusable
 =
-PR_FALSE
+false
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1543,10 +1543,10 @@ aTabIndex
 *
 aIsFocusable
 =
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -1698,7 +1698,7 @@ nsGkAtoms
 :
 target
 aValue
-PR_TRUE
+true
 )
 ;
 }
@@ -1833,7 +1833,7 @@ nsContentUtils
 GetNodeTextContent
 (
 this
-PR_TRUE
+true
 aText
 )
 ;
@@ -1861,7 +1861,7 @@ SetNodeTextContent
 (
 this
 aText
-PR_FALSE
+false
 )
 ;
 }
@@ -1926,7 +1926,7 @@ nsGkAtoms
 :
 ping
 aValue
-PR_TRUE
+true
 )
 ;
 }

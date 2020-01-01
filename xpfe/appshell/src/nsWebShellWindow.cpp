@@ -2230,7 +2230,7 @@ windowSize
 -
 >
 height
-PR_FALSE
+false
 )
 ;
 /
@@ -2524,7 +2524,7 @@ ourWindow
 >
 SetFullScreen
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -3679,11 +3679,11 @@ NS_OK
 }
 mChromeLoaded
 =
-PR_TRUE
+true
 ;
 mLockedUntilChromeLoad
 =
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -4425,7 +4425,7 @@ any
 .
 *
 return
-PR_TRUE
+true
 iff
 we
 found
@@ -4588,7 +4588,7 @@ nsEventStatus_eIgnore
 nsMouseEvent
 event
 (
-PR_TRUE
+true
 NS_XUL_CLOSE
 nsnull
 nsMouseEvent
@@ -4627,7 +4627,7 @@ status
 nsEventStatus_eConsumeNoDefault
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -4636,11 +4636,11 @@ fall
 through
 and
 return
-PR_FALSE
+false
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 /

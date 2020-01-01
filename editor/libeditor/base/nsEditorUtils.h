@@ -1115,7 +1115,7 @@ ed
 )
 mDoNothing
 (
-PR_FALSE
+false
 )
 {
 if
@@ -1155,7 +1155,7 @@ aDirection
 else
 mDoNothing
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1313,7 +1313,7 @@ ed
 )
 mOldState
 (
-PR_TRUE
+true
 )
 {
 if
@@ -1335,7 +1335,7 @@ mEd
 >
 SetShouldTxnSetSelection
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1867,7 +1867,7 @@ iterator
 covers
 {
 return
-PR_TRUE
+true
 ;
 }
 }

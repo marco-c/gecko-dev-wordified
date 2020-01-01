@@ -1281,7 +1281,7 @@ mWordOffset
 )
 mHashedByFont
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1345,7 +1345,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 gfxTextRun
@@ -2400,7 +2400,7 @@ aEnd
 aStart
 )
 return
-PR_TRUE
+true
 ;
 gfxFontGroup
 *
@@ -2471,7 +2471,7 @@ if
 fontEntry
 )
 return
-PR_FALSE
+false
 ;
 CacheHashEntry
 *
@@ -2769,7 +2769,7 @@ aStart
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -2836,10 +2836,10 @@ fontEntry
 >
 mHashedByFont
 =
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3536,7 +3536,7 @@ groupEntry
 >
 mHashedByFont
 =
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -4185,7 +4185,7 @@ gfxTextRange
 :
 kFontGroup
 0
-PR_FALSE
+false
 )
 ;
 #
@@ -4424,7 +4424,7 @@ gfxTextRange
 :
 kFontGroup
 0
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4575,7 +4575,7 @@ ch
 )
 seenDigitToModify
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -4893,7 +4893,7 @@ else
 {
 seenDigitToModify
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -5020,7 +5020,7 @@ textRun
 nsnull
 nsnull
 deferredWords
-PR_FALSE
+false
 )
 ;
 return
@@ -5129,7 +5129,7 @@ else
 {
 seenDigitToModify
 =
-PR_FALSE
+false
 ;
 }
 hash
@@ -5527,7 +5527,7 @@ gfxTextRange
 :
 kFontGroup
 0
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5666,7 +5666,7 @@ ch
 )
 seenDigitToModify
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -5861,7 +5861,7 @@ else
 {
 seenDigitToModify
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -5961,7 +5961,7 @@ textRun
 nsnull
 nsnull
 deferredWords
-PR_FALSE
+false
 )
 ;
 return
@@ -6070,7 +6070,7 @@ else
 {
 seenDigitToModify
 =
-PR_FALSE
+false
 ;
 }
 hash
@@ -6803,11 +6803,11 @@ i
 ]
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -6839,7 +6839,7 @@ aOffset
 runLength
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -6848,7 +6848,7 @@ aOffset
 runLength
 )
 return
-PR_FALSE
+false
 ;
 return
 IsWordBoundary
@@ -6924,7 +6924,7 @@ if
 mTextRun
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 length
@@ -7066,7 +7066,7 @@ GetUserFontSetGeneration
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (

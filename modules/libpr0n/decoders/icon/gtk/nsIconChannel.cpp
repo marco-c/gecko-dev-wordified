@@ -2116,7 +2116,7 @@ ensure_libgnomevfs
 {
 gTriedToLoadGnomeLibs
 =
-PR_TRUE
+true
 ;
 return
 NS_ERROR_NOT_AVAILABLE
@@ -2124,7 +2124,7 @@ NS_ERROR_NOT_AVAILABLE
 }
 gTriedToLoadGnomeLibs
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3876,7 +3876,7 @@ icon
 {
 useIconName
 =
-PR_TRUE
+true
 ;
 gtk_icon_info_free
 (
@@ -3964,7 +3964,7 @@ name
 .
 useIconName
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -4184,7 +4184,7 @@ nsnull
 }
 gTriedToLoadGnomeLibs
 =
-PR_FALSE
+false
 ;
 if
 (

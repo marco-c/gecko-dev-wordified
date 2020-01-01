@@ -937,7 +937,7 @@ be
 set
 to
 *
-PR_TRUE
+true
 if
 the
 value
@@ -947,7 +947,7 @@ string
 "
 media
 "
-PR_FALSE
+false
 *
 otherwise
 .

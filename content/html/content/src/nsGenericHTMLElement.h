@@ -1359,7 +1359,7 @@ isFocusable
 *
 *
 Returns
-PR_TRUE
+true
 if
 a
 subclass
@@ -1417,14 +1417,14 @@ be
 handled
 *
 return
-PR_TRUE
+true
 if
 the
 event
 can
 be
 handled
-PR_FALSE
+false
 otherwise
 *
 /
@@ -3096,7 +3096,7 @@ form
 control
 *
 return
-PR_FALSE
+false
 if
 RestoreState
 (
@@ -3673,7 +3673,7 @@ NODE_HAS_ACCESSKEY
 {
 RegUnRegAccessKey
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -3693,7 +3693,7 @@ NODE_HAS_ACCESSKEY
 {
 RegUnRegAccessKey
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -4654,13 +4654,13 @@ param
 *
 *
 return
-PR_TRUE
+true
 if
 we
 had
 the
 attr
-PR_FALSE
+false
 otherwise
 .
 *
@@ -5589,7 +5589,7 @@ aState
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 virtual
@@ -5599,7 +5599,7 @@ AllowDrop
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /

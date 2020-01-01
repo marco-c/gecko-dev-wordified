@@ -484,7 +484,7 @@ aReflowDepth
 )
 mPaintingDisabled
 (
-PR_FALSE
+false
 )
 {
 NS_ASSERTION

@@ -548,7 +548,7 @@ aEvent
 new
 nsEvent
 (
-PR_FALSE
+false
 0
 )
 )
@@ -560,14 +560,14 @@ aEvent
 {
 mEventIsInternal
 =
-PR_FALSE
+false
 ;
 }
 else
 {
 mEventIsInternal
 =
-PR_TRUE
+true
 ;
 mEvent
 -

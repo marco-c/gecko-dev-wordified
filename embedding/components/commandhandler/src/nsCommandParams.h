@@ -793,7 +793,7 @@ mData
 .
 mBoolean
 =
-PR_FALSE
+false
 ;
 break
 ;

@@ -1230,7 +1230,7 @@ void
 :
 mQueriesCompiled
 (
-PR_FALSE
+false
 )
 mFlags
 (
@@ -1306,7 +1306,7 @@ Destroy
 *
 pool
 aMatch
-PR_TRUE
+true
 )
 ;
 aMatch
@@ -1365,7 +1365,7 @@ gObserverService
 }
 Uninit
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1699,7 +1699,7 @@ nsnull
 ;
 mQueriesCompiled
 =
-PR_FALSE
+false
 ;
 }
 static
@@ -2720,7 +2720,7 @@ rds
 >
 Refresh
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2862,7 +2862,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 gObserverService
@@ -2872,7 +2872,7 @@ AddObserver
 (
 this
 DOM_WINDOW_DESTROYED_TOPIC
-PR_FALSE
+false
 )
 ;
 }
@@ -2917,7 +2917,7 @@ aGenerated
 *
 aGenerated
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -4777,7 +4777,7 @@ later
 .
 oldMatchWasActive
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -5002,7 +5002,7 @@ OutputMatchToLog
 (
 aOldId
 removedmatch
-PR_FALSE
+false
 )
 ;
 }
@@ -5311,7 +5311,7 @@ IsActive
 )
 hasEarlierActiveMatch
 =
-PR_TRUE
+true
 ;
 }
 prevmatch
@@ -5622,7 +5622,7 @@ Destroy
 (
 mPool
 newmatch
-PR_FALSE
+false
 )
 ;
 return
@@ -5665,7 +5665,7 @@ Destroy
 (
 mPool
 newmatch
-PR_FALSE
+false
 )
 ;
 return
@@ -5964,7 +5964,7 @@ Destroy
 (
 mPool
 newmatch
-PR_FALSE
+false
 )
 ;
 return
@@ -6007,7 +6007,7 @@ Destroy
 (
 mPool
 newmatch
-PR_FALSE
+false
 )
 ;
 return
@@ -6101,7 +6101,7 @@ Destroy
 (
 mPool
 newmatch
-PR_TRUE
+true
 )
 ;
 return
@@ -6189,7 +6189,7 @@ Destroy
 (
 mPool
 newmatch
-PR_FALSE
+false
 )
 ;
 return
@@ -6229,7 +6229,7 @@ Destroy
 (
 mPool
 newmatch
-PR_FALSE
+false
 )
 ;
 return
@@ -6260,7 +6260,7 @@ Destroy
 (
 mPool
 newmatch
-PR_TRUE
+true
 )
 ;
 return
@@ -6333,7 +6333,7 @@ OutputMatchToLog
 (
 aNewId
 replacedmatch
-PR_FALSE
+false
 )
 ;
 }
@@ -6359,7 +6359,7 @@ Destroy
 (
 mPool
 replacedmatchtodelete
-PR_TRUE
+true
 )
 ;
 /
@@ -6463,7 +6463,7 @@ Destroy
 (
 mPool
 removedmatch
-PR_TRUE
+true
 )
 ;
 if
@@ -6479,7 +6479,7 @@ OutputMatchToLog
 (
 aNewId
 newmatch
-PR_TRUE
+true
 )
 ;
 return
@@ -7560,7 +7560,7 @@ nsnull
 *
 aShouldDelayBuilding
 =
-PR_FALSE
+false
 ;
 nsAutoString
 datasources
@@ -7665,7 +7665,7 @@ rdf
 {
 isRDFQuery
 =
-PR_TRUE
+true
 ;
 mQueryProcessor
 =
@@ -8259,7 +8259,7 @@ uriList
 AppendElement
 (
 dsnode
-PR_FALSE
+false
 )
 ;
 continue
@@ -8376,7 +8376,7 @@ docPrincipal
 CheckMayLoad
 (
 uri
-PR_TRUE
+true
 )
 )
 )
@@ -8388,7 +8388,7 @@ uriList
 AppendElement
 (
 uri
-PR_FALSE
+false
 )
 ;
 }
@@ -9225,7 +9225,7 @@ done_parsing
 {
 isvar
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -9329,14 +9329,14 @@ done_parsing
 {
 isvar
 =
-PR_TRUE
+true
 ;
 }
 else
 {
 isvar
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -11172,7 +11172,7 @@ CompileTemplate
 (
 tmpl
 queryset
-PR_FALSE
+false
 &
 priority
 &
@@ -11236,7 +11236,7 @@ Clear
 }
 mQueriesCompiled
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -11416,7 +11416,7 @@ continue
 }
 isQuerySetMode
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -11508,7 +11508,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 hasQuerySet
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -11516,7 +11516,7 @@ CompileTemplate
 (
 rulenode
 aQuerySet
-PR_TRUE
+true
 aPriority
 aCanUseTemplate
 )
@@ -11753,7 +11753,7 @@ rv
 *
 aCanUseTemplate
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -11913,7 +11913,7 @@ tag
 ;
 hasQuerySet
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -11995,7 +11995,7 @@ rv
 *
 aCanUseTemplate
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -12066,7 +12066,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 hasQuerySet
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -12090,7 +12090,7 @@ rv
 }
 hasRule
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -12124,7 +12124,7 @@ rulenode
 ;
 hasQuery
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -12305,7 +12305,7 @@ memberVariable
 *
 aCanUseTemplate
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -13079,7 +13079,7 @@ mCompiledQuery
 *
 aCanUseTemplate
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -13165,7 +13165,7 @@ tagatom
 *
 aCanUseTemplate
 =
-PR_TRUE
+true
 ;
 return
 AddSimpleRuleBindings
@@ -14833,11 +14833,11 @@ mResource
 aResource
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult

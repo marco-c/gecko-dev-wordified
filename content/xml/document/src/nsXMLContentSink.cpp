@@ -1083,11 +1083,11 @@ nsXMLContentSink
 :
 mConstrainSize
 (
-PR_TRUE
+true
 )
 mPrettyPrintXML
 (
-PR_TRUE
+true
 )
 {
 }
@@ -1175,7 +1175,7 @@ this
 ;
 mIsDocumentObserver
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1185,7 +1185,7 @@ mDocShell
 {
 mPrettyPrintXML
 =
-PR_FALSE
+false
 ;
 }
 mState
@@ -1393,7 +1393,7 @@ view
 {
 mPrettyPrintXML
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1440,7 +1440,7 @@ CanStillPrettyPrint
 {
 mPrettyPrintXML
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1468,7 +1468,7 @@ this
 ;
 mIsDocumentObserver
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1492,7 +1492,7 @@ mCSSLoader
 >
 SetEnabled
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1739,7 +1739,7 @@ select
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1764,7 +1764,7 @@ value
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1846,7 +1846,7 @@ this
 ;
 mIsDocumentObserver
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2119,7 +2119,7 @@ to
 load
 startLayout
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -2130,7 +2130,7 @@ startLayout
 {
 StartLayout
 (
-PR_FALSE
+false
 )
 ;
 ScrollToRef
@@ -2148,7 +2148,7 @@ this
 ;
 mIsDocumentObserver
 =
-PR_FALSE
+false
 ;
 mDocument
 -
@@ -2203,7 +2203,7 @@ htmlDoc
 >
 SetDocWriteDisabled
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2236,7 +2236,7 @@ contentViewer
 SetDocumentInternal
 (
 aResultDocument
-PR_TRUE
+true
 )
 ;
 }
@@ -2335,7 +2335,7 @@ aResultDocument
 >
 SetMayStartLayout
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -2458,7 +2458,7 @@ htmlDoc
 >
 SetDocWriteDisabled
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2593,7 +2593,7 @@ layout
 process
 StartLayout
 (
-PR_FALSE
+false
 )
 ;
 ScrollToRef
@@ -2675,7 +2675,7 @@ this
 ;
 StartLayout
 (
-PR_FALSE
+false
 )
 ;
 ScrollToRef
@@ -2800,7 +2800,7 @@ nsnull
 *
 aAppendContent
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -2906,7 +2906,7 @@ mParser
 ;
 mConstrainSize
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -2929,7 +2929,7 @@ kNameSpaceID_XHTML
 {
 mPrettyPrintHasFactoredElements
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3071,7 +3071,7 @@ ssle
 >
 InitStyleLinkElement
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -3084,7 +3084,7 @@ ssle
 >
 SetEnableUpdates
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -3406,7 +3406,7 @@ kNameSpaceID_SVG
 {
 mConstrainSize
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3492,7 +3492,7 @@ aContent
 >
 DoneAddingChildren
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -3749,7 +3749,7 @@ ssle
 >
 SetEnableUpdates
 (
-PR_TRUE
+true
 )
 ;
 bool
@@ -4094,7 +4094,7 @@ mDocument
 AppendChildTo
 (
 aContent
-PR_FALSE
+false
 )
 ;
 }
@@ -4123,7 +4123,7 @@ parent
 AppendChildTo
 (
 aContent
-PR_FALSE
+false
 )
 ;
 }
@@ -4350,7 +4350,7 @@ NS_OK
 ;
 mPrettyPrintXML
 =
-PR_FALSE
+false
 ;
 nsCAutoString
 cmd
@@ -4903,7 +4903,7 @@ SetText
 (
 mText
 mTextLength
-PR_FALSE
+false
 )
 ;
 mLastTextNodeSize
@@ -5180,7 +5180,7 @@ GetChildCount
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -5328,7 +5328,7 @@ if
 mDocElement
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -5393,7 +5393,7 @@ transform
 {
 mPrettyPrintHasSpecialRoot
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -5431,7 +5431,7 @@ ScriptLoader
 >
 SetEnabled
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -5444,7 +5444,7 @@ mCSSLoader
 >
 SetEnabled
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -5486,7 +5486,7 @@ rv
 If
 we
 return
-PR_FALSE
+false
 here
 the
 caller
@@ -5513,7 +5513,7 @@ is
 fine
 .
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5540,7 +5540,7 @@ aContent
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -5574,7 +5574,7 @@ aAtts
 aAttsCount
 aIndex
 aLineNumber
-PR_TRUE
+true
 )
 ;
 }
@@ -6060,7 +6060,7 @@ parent
 AppendChildTo
 (
 content
-PR_FALSE
+false
 )
 ;
 }
@@ -6233,7 +6233,7 @@ start
 layout
 MaybeStartLayout
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -6283,7 +6283,7 @@ return
 HandleEndElement
 (
 aName
-PR_TRUE
+true
 )
 ;
 }
@@ -6565,7 +6565,7 @@ now
 .
 MaybeStartLayout
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -6748,7 +6748,7 @@ nsDependentString
 (
 aName
 )
-PR_FALSE
+false
 )
 ;
 rv
@@ -6860,7 +6860,7 @@ SetText
 (
 aData
 aLength
-PR_FALSE
+false
 )
 ;
 rv
@@ -7074,8 +7074,8 @@ mCSSLoader
 LoadSheetSync
 (
 uri
-PR_TRUE
-PR_TRUE
+true
+true
 getter_AddRefs
 (
 sheet
@@ -7199,7 +7199,7 @@ mDocument
 AppendChildTo
 (
 content
-PR_FALSE
+false
 )
 ;
 DidAddContent
@@ -7238,7 +7238,7 @@ HandleCharacterData
 (
 aData
 aLength
-PR_TRUE
+true
 )
 ;
 }
@@ -7387,7 +7387,7 @@ ssle
 >
 InitStyleLinkElement
 (
-PR_FALSE
+false
 )
 ;
 ssle
@@ -7395,12 +7395,12 @@ ssle
 >
 SetEnableUpdates
 (
-PR_FALSE
+false
 )
 ;
 mPrettyPrintXML
 =
-PR_FALSE
+false
 ;
 }
 rv
@@ -7462,7 +7462,7 @@ ssle
 >
 SetEnableUpdates
 (
-PR_TRUE
+true
 )
 ;
 bool
@@ -7743,7 +7743,7 @@ aHref
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsParserUtils
@@ -7800,7 +7800,7 @@ yes
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -7904,11 +7904,11 @@ mess
 *
 _retval
 =
-PR_TRUE
+true
 ;
 mPrettyPrintXML
 =
-PR_FALSE
+false
 ;
 mState
 =
@@ -7947,7 +7947,7 @@ this
 ;
 mIsDocumentObserver
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -8269,7 +8269,7 @@ PRUint32
 )
 -
 1
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8290,7 +8290,7 @@ strlen
 (
 aErrorText
 )
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8342,7 +8342,7 @@ PRUint32
 )
 -
 1
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8363,7 +8363,7 @@ strlen
 (
 aSourceText
 )
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8381,7 +8381,7 @@ sourcetext
 get
 (
 )
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8399,7 +8399,7 @@ parsererror
 get
 (
 )
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8499,7 +8499,7 @@ aAtts
 1
 ]
 )
-PR_FALSE
+false
 )
 ;
 aAtts
@@ -8852,7 +8852,7 @@ else
 {
 FlushText
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -8886,7 +8886,7 @@ happen
 .
 MaybeStartLayout
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -8979,7 +8979,7 @@ FlushTags
 {
 mDeferredFlushTags
 =
-PR_FALSE
+false
 ;
 bool
 oldBeganUpdate
@@ -9016,12 +9016,12 @@ updateBatch
 (
 mDocument
 UPDATE_CONTENT_MODEL
-PR_TRUE
+true
 )
 ;
 mBeganUpdate
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -9043,7 +9043,7 @@ it
 again
 FlushText
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -9174,7 +9174,7 @@ mNumFlushed
 ;
 flushed
 =
-PR_TRUE
+true
 ;
 }
 mContentStack

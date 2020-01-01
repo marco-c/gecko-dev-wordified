@@ -1107,7 +1107,7 @@ subjectPrincipal
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 if
@@ -1139,7 +1139,7 @@ that
 case
 .
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -1166,7 +1166,7 @@ codebase
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -1187,7 +1187,7 @@ innerUri
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1635,7 +1635,7 @@ nsDOMStorageManager
 :
 mInPrivateBrowsing
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1756,7 +1756,7 @@ cookie
 -
 changed
 "
-PR_FALSE
+false
 )
 ;
 os
@@ -1772,7 +1772,7 @@ app
 -
 removed
 "
-PR_FALSE
+false
 )
 ;
 os
@@ -1782,7 +1782,7 @@ AddObserver
 (
 gStorageManager
 NS_PRIVATE_BROWSING_SWITCH_TOPIC
-PR_FALSE
+false
 )
 ;
 os
@@ -1798,7 +1798,7 @@ after
 -
 change
 "
-PR_FALSE
+false
 )
 ;
 os
@@ -1812,7 +1812,7 @@ perm
 -
 changed
 "
-PR_FALSE
+false
 )
 ;
 os
@@ -1830,7 +1830,7 @@ domain
 -
 data
 "
-PR_FALSE
+false
 )
 ;
 /
@@ -1853,7 +1853,7 @@ before
 -
 change
 "
-PR_FALSE
+false
 )
 ;
 os
@@ -1863,7 +1863,7 @@ AddObserver
 (
 gStorageManager
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 os
@@ -1873,7 +1873,7 @@ AddObserver
 (
 gStorageManager
 NS_DOMSTORAGE_FLUSH_TIMER_OBSERVER
-PR_FALSE
+false
 )
 ;
 return
@@ -2367,7 +2367,7 @@ NS_ConvertUTF16toUTF8
 (
 aData
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -2475,8 +2475,8 @@ gStorageDB
 RemoveOwners
 (
 domains
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 }
@@ -2520,7 +2520,7 @@ get
 )
 mInPrivateBrowsing
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -2544,7 +2544,7 @@ get
 )
 mInPrivateBrowsing
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -2949,7 +2949,7 @@ gStorageDB
 RemoveOwner
 (
 aceDomain
-PR_TRUE
+true
 )
 ;
 }
@@ -3123,7 +3123,7 @@ NS_ConvertUTF16toUTF8
 (
 aDomain
 )
-PR_FALSE
+false
 aUsage
 )
 ;
@@ -3181,8 +3181,8 @@ gStorageDB
 RemoveOwners
 (
 domains
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 }
@@ -3559,11 +3559,11 @@ Unknown
 )
 mUseDB
 (
-PR_FALSE
+false
 )
 mSessionOnly
 (
-PR_TRUE
+true
 )
 mCanUseChromePersist
 (
@@ -3589,7 +3589,7 @@ mStorageType
 )
 mUseDB
 (
-PR_FALSE
+false
 )
 /
 /
@@ -3602,7 +3602,7 @@ the
 DB
 mSessionOnly
 (
-PR_TRUE
+true
 )
 mDomain
 (
@@ -3730,7 +3730,7 @@ mDomain
 ;
 mUseDB
 =
-PR_FALSE
+false
 ;
 mScopeDBKey
 .
@@ -3946,8 +3946,8 @@ nsDOMStorageDBWrapper
 CreateQuotaDomainDBKey
 (
 mDomain
-PR_TRUE
-PR_FALSE
+true
+false
 mQuotaDomainDBKey
 )
 ;
@@ -3957,8 +3957,8 @@ nsDOMStorageDBWrapper
 CreateQuotaDomainDBKey
 (
 mDomain
-PR_TRUE
-PR_TRUE
+true
+true
 mQuotaETLDplus1DomainDBKey
 )
 ;
@@ -4083,8 +4083,8 @@ nsDOMStorageDBWrapper
 CreateQuotaDomainDBKey
 (
 aDomainDemanded
-PR_TRUE
-PR_FALSE
+true
+false
 mQuotaDomainDBKey
 )
 ;
@@ -4094,8 +4094,8 @@ nsDOMStorageDBWrapper
 CreateQuotaDomainDBKey
 (
 aDomainDemanded
-PR_TRUE
-PR_TRUE
+true
+true
 mQuotaETLDplus1DomainDBKey
 )
 ;
@@ -4693,7 +4693,7 @@ Truncate
 *
 aSecure
 =
-PR_FALSE
+false
 ;
 nsSessionStorageEntry
 *
@@ -5394,7 +5394,7 @@ aEntry
 GetKey
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -6919,7 +6919,7 @@ IsSecure
 *
 secure
 =
-PR_TRUE
+true
 ;
 return
 PL_DHASH_STOP
@@ -7365,7 +7365,7 @@ rv
 GetDomainURI
 (
 aPrincipal
-PR_TRUE
+true
 getter_AddRefs
 (
 domainURI
@@ -7425,7 +7425,7 @@ rv
 GetDomainURI
 (
 aPrincipal
-PR_FALSE
+false
 getter_AddRefs
 (
 domainURI
@@ -7582,7 +7582,7 @@ flag
 *
 aSessionOnly
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -7597,7 +7597,7 @@ kStorageEnabled
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -7621,7 +7621,7 @@ IsCallerChrome
 )
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -7651,7 +7651,7 @@ subjectPrincipal
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 /
@@ -7698,7 +7698,7 @@ unused
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -7718,7 +7718,7 @@ if
 permissionManager
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 perm
@@ -7745,7 +7745,7 @@ nsIPermissionManager
 DENY_ACTION
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -7812,7 +7812,7 @@ InPrivateBrowsingMode
 *
 aSessionOnly
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -7896,7 +7896,7 @@ subjectURI
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -7908,11 +7908,11 @@ ACCEPT_SESSION
 *
 aSessionOnly
 =
-PR_TRUE
+true
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -7976,7 +7976,7 @@ mSessionOnly
 )
 )
 return
-PR_FALSE
+false
 ;
 nsIScriptSecurityManager
 *
@@ -7995,7 +7995,7 @@ if
 ssm
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -8020,7 +8020,7 @@ subjectPrincipal
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 NS_ASSERTION
@@ -8703,7 +8703,7 @@ Clone
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Old
 DOMStorage
@@ -8736,7 +8736,7 @@ aDocumentURI
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Old
 DOMStorage
@@ -8765,7 +8765,7 @@ aThat
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Old
 DOMStorage
@@ -8778,7 +8778,7 @@ forking
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -8862,7 +8862,7 @@ if
 aPrincipal
 )
 return
-PR_TRUE
+true
 ;
 nsIScriptSecurityManager
 *
@@ -8881,7 +8881,7 @@ if
 ssm
 )
 return
-PR_FALSE
+false
 ;
 bool
 isSystem
@@ -8941,7 +8941,7 @@ aPrincipal
 )
 )
 return
-PR_TRUE
+true
 ;
 nsCAutoString
 domain
@@ -8968,7 +8968,7 @@ domain
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 return
@@ -9368,7 +9368,7 @@ aDomainDemanded
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Should
 not
@@ -9536,7 +9536,7 @@ if
 aThat
 )
 return
-PR_FALSE
+false
 ;
 nsDOMStorage2
 *
@@ -9686,7 +9686,7 @@ if
 aPrincipal
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -9729,7 +9729,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 subsumes
@@ -9901,8 +9901,8 @@ NS_LITERAL_STRING
 storage
 "
 )
-PR_FALSE
-PR_FALSE
+false
+false
 aKey
 aOldValue
 aNewValue

@@ -841,7 +841,7 @@ key
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 buf
@@ -878,7 +878,7 @@ colon
 1
 ;
 return
-PR_TRUE
+true
 ;
 }
 class
@@ -1701,7 +1701,7 @@ i
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -3254,7 +3254,7 @@ aStreamBased
 *
 aStreamBased
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3565,7 +3565,7 @@ nsnull
 )
 mValid
 (
-PR_TRUE
+true
 )
 {
 }
@@ -3601,7 +3601,7 @@ clientID
 )
 mValid
 (
-PR_TRUE
+true
 )
 {
 }
@@ -3676,7 +3676,7 @@ MarkInvalid
 {
 mValid
 =
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -3849,7 +3849,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 mValid
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4082,7 +4082,7 @@ mDevice
 -
 >
 mDB
-PR_FALSE
+false
 )
 ;
 PRUint32
@@ -4653,7 +4653,7 @@ more
 strict
 )
 return
-PR_TRUE
+true
 ;
 }
 PRUint32
@@ -5496,7 +5496,7 @@ mDataFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -8305,7 +8305,7 @@ isFile
 DeleteEntry
 (
 entry
-PR_FALSE
+false
 )
 ;
 delete
@@ -9316,7 +9316,7 @@ deactivated
 DeleteEntry
 (
 entry
-PR_FALSE
+false
 )
 ;
 }
@@ -11337,7 +11337,7 @@ rv
 ;
 found
 =
-PR_TRUE
+true
 ;
 }
 rv
@@ -12775,7 +12775,7 @@ groupID
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -12879,12 +12879,12 @@ GetStrictFileOriginPolicy
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP

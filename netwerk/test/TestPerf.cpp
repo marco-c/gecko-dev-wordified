@@ -241,7 +241,7 @@ rv
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 char
@@ -338,7 +338,7 @@ break
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -709,7 +709,7 @@ if
 uri
 )
 return
-PR_TRUE
+true
 ;
 MyListener
 *
@@ -726,7 +726,7 @@ if
 listener
 )
 return
-PR_TRUE
+true
 ;
 NS_ADDREF
 (
@@ -781,7 +781,7 @@ rv
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1269,7 +1269,7 @@ sync
 )
 sync
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -1291,7 +1291,7 @@ async
 )
 sync
 =
-PR_FALSE
+false
 ;
 else
 {

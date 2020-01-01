@@ -704,11 +704,11 @@ nsnull
 )
 mStayActive
 (
-PR_FALSE
+false
 )
 mIsActive
 (
-PR_FALSE
+false
 )
 mCurrentMenu
 (
@@ -880,7 +880,7 @@ keypress
 "
 )
 mMenuBarListener
-PR_FALSE
+false
 )
 ;
 target
@@ -895,7 +895,7 @@ keydown
 "
 )
 mMenuBarListener
-PR_FALSE
+false
 )
 ;
 target
@@ -910,7 +910,7 @@ keyup
 "
 )
 mMenuBarListener
-PR_FALSE
+false
 )
 ;
 /
@@ -935,7 +935,7 @@ mousedown
 "
 )
 mMenuBarListener
-PR_TRUE
+true
 )
 ;
 target
@@ -950,7 +950,7 @@ mousedown
 "
 )
 mMenuBarListener
-PR_FALSE
+false
 )
 ;
 target
@@ -965,7 +965,7 @@ blur
 "
 )
 mMenuBarListener
-PR_TRUE
+true
 )
 ;
 return
@@ -1121,7 +1121,7 @@ else
 {
 mActiveByKeyboard
 =
-PR_FALSE
+false
 ;
 RemoveKeyboardNavigator
 (
@@ -1180,7 +1180,7 @@ menu
 bar
 SetActive
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -1199,7 +1199,7 @@ closeframe
 >
 SelectMenu
 (
-PR_FALSE
+false
 )
 ;
 mCurrentMenu
@@ -1238,7 +1238,7 @@ mCurrentMenu
 >
 SelectMenu
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -1249,7 +1249,7 @@ menu
 bar
 SetActive
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -1304,7 +1304,7 @@ GetNextMenuItem
 (
 this
 nsnull
-PR_FALSE
+false
 )
 ;
 if
@@ -1317,7 +1317,7 @@ firstFrame
 >
 SelectMenu
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -1614,7 +1614,7 @@ PresContext
 (
 )
 current
-PR_FALSE
+false
 )
 )
 {
@@ -1891,9 +1891,9 @@ popup
 GetContent
 (
 )
-PR_TRUE
-PR_TRUE
-PR_TRUE
+true
+true
+true
 )
 ;
 }
@@ -1904,7 +1904,7 @@ nsnull
 ;
 SetActive
 (
-PR_FALSE
+false
 )
 ;
 #
@@ -1966,7 +1966,7 @@ mCurrentMenu
 >
 SelectMenu
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -1978,7 +1978,7 @@ aMenuItem
 >
 SelectMenu
 (
-PR_TRUE
+true
 )
 ;
 mCurrentMenu
@@ -2002,7 +2002,7 @@ mCurrentMenu
 >
 SelectMenu
 (
-PR_FALSE
+false
 )
 ;
 mCurrentMenu
@@ -2139,7 +2139,7 @@ nsGkAtoms
 :
 :
 menuBarFrame
-PR_FALSE
+false
 )
 )
 ;
@@ -2152,7 +2152,7 @@ menubar
 >
 SetStayActive
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2173,9 +2173,9 @@ pm
 HidePopup
 (
 mOldMenu
-PR_FALSE
-PR_FALSE
-PR_FALSE
+false
+false
+false
 )
 ;
 /
@@ -2200,7 +2200,7 @@ menubar
 >
 SetStayActive
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2215,7 +2215,7 @@ ShowMenu
 (
 mNewMenu
 mSelectFirstItem
-PR_FALSE
+false
 )
 ;
 return
@@ -2352,7 +2352,7 @@ mCurrentMenu
 >
 SelectMenu
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -2434,7 +2434,7 @@ aMenuItem
 >
 SelectMenu
 (
-PR_TRUE
+true
 )
 ;
 mCurrentMenu
@@ -2554,7 +2554,7 @@ MenuClosed
 {
 SetActive
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -2571,7 +2571,7 @@ mCurrentMenu
 >
 SelectMenu
 (
-PR_FALSE
+false
 )
 ;
 mCurrentMenu
@@ -2579,11 +2579,11 @@ mCurrentMenu
 nsnull
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -2615,7 +2615,7 @@ pm
 SetActiveMenuBar
 (
 this
-PR_TRUE
+true
 )
 ;
 }
@@ -2654,7 +2654,7 @@ pm
 SetActiveMenuBar
 (
 this
-PR_FALSE
+false
 )
 ;
 }
@@ -2691,7 +2691,7 @@ pm
 SetActiveMenuBar
 (
 this
-PR_FALSE
+false
 )
 ;
 mTarget
@@ -2706,7 +2706,7 @@ keypress
 "
 )
 mMenuBarListener
-PR_FALSE
+false
 )
 ;
 mTarget
@@ -2721,7 +2721,7 @@ keydown
 "
 )
 mMenuBarListener
-PR_FALSE
+false
 )
 ;
 mTarget
@@ -2736,7 +2736,7 @@ keyup
 "
 )
 mMenuBarListener
-PR_FALSE
+false
 )
 ;
 mTarget
@@ -2751,7 +2751,7 @@ mousedown
 "
 )
 mMenuBarListener
-PR_TRUE
+true
 )
 ;
 mTarget
@@ -2766,7 +2766,7 @@ mousedown
 "
 )
 mMenuBarListener
-PR_FALSE
+false
 )
 ;
 mTarget
@@ -2781,7 +2781,7 @@ blur
 "
 )
 mMenuBarListener
-PR_TRUE
+true
 )
 ;
 NS_IF_RELEASE

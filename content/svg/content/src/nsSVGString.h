@@ -469,7 +469,7 @@ aAttrEnum
 ;
 mIsBaseSet
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -536,7 +536,7 @@ const
 /
 /
 Returns
-PR_TRUE
+true
 if
 the
 animated
@@ -575,7 +575,7 @@ a
 DOM
 call
 )
-PR_FALSE
+false
 otherwise
 .
 /
@@ -583,7 +583,7 @@ otherwise
 If
 this
 returns
-PR_FALSE
+false
 the
 animated
 value
@@ -771,7 +771,7 @@ SetBaseValue
 (
 aValue
 mSVGElement
-PR_TRUE
+true
 )
 ;
 return

@@ -694,7 +694,7 @@ aTextRangeList
 ;
 mFixed
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1120,7 +1120,7 @@ mFixed
 *
 aDidMerge
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1224,7 +1224,7 @@ newTextRangeList
 *
 aDidMerge
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -1258,7 +1258,7 @@ NS_OK
 *
 aDidMerge
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1275,7 +1275,7 @@ void
 {
 mFixed
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2167,7 +2167,7 @@ result
 )
 setCaret
 =
-PR_TRUE
+true
 ;
 }
 else

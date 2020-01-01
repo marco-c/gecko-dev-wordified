@@ -645,7 +645,7 @@ protected
 *
 *
 return
-PR_TRUE
+true
 if
 aOtherTxn
 immediately

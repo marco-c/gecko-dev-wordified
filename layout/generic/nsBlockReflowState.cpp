@@ -716,7 +716,7 @@ top
 SetFlag
 (
 BRS_ISTOPMARGINROOT
-PR_TRUE
+true
 )
 ;
 }
@@ -738,7 +738,7 @@ bottom
 SetFlag
 (
 BRS_ISBOTTOMMARGINROOT
-PR_TRUE
+true
 )
 ;
 }
@@ -753,7 +753,7 @@ BRS_ISTOPMARGINROOT
 SetFlag
 (
 BRS_APPLYTOPMARGIN
-PR_TRUE
+true
 )
 ;
 }
@@ -765,7 +765,7 @@ aBlockNeedsFloatManager
 SetFlag
 (
 BRS_FLOAT_MGR
-PR_TRUE
+true
 )
 ;
 }
@@ -1070,7 +1070,7 @@ height
 SetFlag
 (
 BRS_UNCONSTRAINEDHEIGHT
-PR_TRUE
+true
 )
 ;
 mContentArea
@@ -2930,7 +2930,7 @@ EnsurePushedFloats
 SetFlag
 (
 BRS_PROPTABLE_FLOATCLIST
-PR_TRUE
+true
 )
 ;
 }
@@ -4332,7 +4332,7 @@ in
 PlaceBelowCurrentLineFloats
 placed
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -4597,7 +4597,7 @@ TopBottom
 (
 )
 )
-PR_TRUE
+true
 )
 .
 width
@@ -5054,7 +5054,7 @@ this
 adjustedAvailableSpace
 aFloat
 floatMargin
-PR_FALSE
+false
 reflowStatus
 )
 ;
@@ -5297,7 +5297,7 @@ aFloat
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5603,7 +5603,7 @@ eIgnoreCase
 {
 keepFloatOnSameLine
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -5735,7 +5735,7 @@ offsets
 }
 mustPlaceFloat
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -6204,7 +6204,7 @@ aFloat
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -6818,7 +6818,7 @@ height
 #
 endif
 return
-PR_TRUE
+true
 ;
 }
 void

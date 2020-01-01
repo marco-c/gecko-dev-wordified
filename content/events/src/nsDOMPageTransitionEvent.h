@@ -476,7 +476,7 @@ aEvent
 )
 mPersisted
 (
-PR_FALSE
+false
 )
 {
 }

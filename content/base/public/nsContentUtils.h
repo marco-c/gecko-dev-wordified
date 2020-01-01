@@ -1429,7 +1429,7 @@ of
 aPossibleDescendant
 *
 return
-PR_TRUE
+true
 if
 aPossibleDescendant
 is
@@ -1444,7 +1444,7 @@ is
 aPossibleAncestor
 )
 .
-PR_FALSE
+false
 *
 otherwise
 .
@@ -1877,7 +1877,7 @@ parameter
 is
 set
 to
-PR_TRUE
+true
 .
 *
 /
@@ -3308,13 +3308,13 @@ isn
 '
 t
 ALLOW_ACTION
-PR_FALSE
+false
 is
 /
 /
 returned
 otherwise
-PR_TRUE
+true
 is
 returned
 .
@@ -3413,7 +3413,7 @@ aObserver
 *
 *
 return
-PR_TRUE
+true
 if
 aContent
 has
@@ -3615,14 +3615,14 @@ null
 .
 *
 return
-PR_TRUE
+true
 if
 the
 load
 can
 proceed
 or
-PR_FALSE
+false
 if
 it
 is
@@ -3642,7 +3642,7 @@ ACCEPT
 *
 status
 if
-PR_TRUE
+true
 is
 returned
 and
@@ -3654,7 +3654,7 @@ REJECT_
 status
 if
 *
-PR_FALSE
+false
 is
 returned
 .
@@ -4334,7 +4334,7 @@ a
 return
 value
 of
-PR_FALSE
+false
 from
 this
 *
@@ -5000,7 +5000,7 @@ by
 "
 .
 Returns
-PR_TRUE
+true
 *
 if
 the
@@ -5009,7 +5009,7 @@ file
 name
 was
 modified
-PR_FALSE
+false
 if
 it
 '
@@ -5262,7 +5262,7 @@ function
 always
 *
 returns
-PR_TRUE
+true
 .
 *
 *
@@ -6142,7 +6142,7 @@ aCreated
 is
 set
 to
-PR_TRUE
+true
 .
 *
 *
@@ -6162,7 +6162,7 @@ manager
 param
 aCreateIfNotFound
 If
-PR_FALSE
+false
 returns
 a
 listener
@@ -7735,7 +7735,7 @@ aCache
 >
 SetPreservingWrapper
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -8225,7 +8225,7 @@ it
 param
 aIsTrusted
 If
-PR_FALSE
+false
 JS
 Context
 will
@@ -9705,9 +9705,9 @@ this
 *
 method
 returns
-PR_TRUE
+true
 otherwise
-PR_FALSE
+false
 .
 *
 /
@@ -10414,7 +10414,7 @@ aContent
 *
 *
 Returns
-PR_TRUE
+true
 if
 the
 DOM
@@ -10438,7 +10438,7 @@ IsFullScreenApiEnabled
 *
 *
 Returns
-PR_TRUE
+true
 if
 requests
 for
@@ -10516,7 +10516,7 @@ IsRequestFullScreenAllowed
 *
 *
 Returns
-PR_TRUE
+true
 if
 key
 input
@@ -10588,7 +10588,7 @@ IsHandlingUserInput
 )
 stops
 returning
-PR_TRUE
+true
 .
 *
 This
@@ -11648,7 +11648,7 @@ Pop
 /
 /
 Returns
-PR_FALSE
+false
 if
 something
 erroneous

@@ -845,7 +845,7 @@ SetOffsets
 .
 .
 .
-PR_TRUE
+true
 )
 O
 (
@@ -1484,7 +1484,7 @@ aRunLength
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1688,7 +1688,7 @@ chars
 {
 mInErrorState
 =
-PR_TRUE
+true
 ;
 return
 ;
@@ -1720,7 +1720,7 @@ AppendElement
 {
 mInErrorState
 =
-PR_TRUE
+true
 ;
 return
 ;

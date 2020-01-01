@@ -4540,7 +4540,7 @@ LL_MININT
 )
 mAutoIncrement
 (
-PR_FALSE
+false
 )
 {
 NS_ASSERTION

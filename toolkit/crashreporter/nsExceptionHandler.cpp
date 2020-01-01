@@ -2198,7 +2198,7 @@ c_str
 (
 )
 )
-PR_FALSE
+false
 file
 )
 ;
@@ -2229,7 +2229,7 @@ c_str
 (
 )
 )
-PR_FALSE
+false
 file
 )
 ;
@@ -8262,7 +8262,7 @@ rv
 *
 aSubmitReports
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -8390,7 +8390,7 @@ else
 *
 aSubmitReports
 =
-PR_TRUE
+true
 ;
 Boolean
 keyExistsAndHasValidFormat
@@ -8571,7 +8571,7 @@ exist
 *
 aSubmitReports
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -8837,7 +8837,7 @@ rv
 *
 aSubmitReports
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -8854,13 +8854,13 @@ EqualsASCII
 *
 aSubmitReports
 =
-PR_FALSE
+false
 ;
 else
 *
 aSubmitReports
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

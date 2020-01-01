@@ -335,7 +335,7 @@ IsNull
 (
 0
 )
-PR_TRUE
+true
 )
 ;
 return
@@ -542,7 +542,7 @@ IsNull
 (
 0
 )
-PR_TRUE
+true
 )
 ;
 do_check_eq
@@ -664,7 +664,7 @@ IsNull
 (
 0
 )
-PR_TRUE
+true
 )
 ;
 }

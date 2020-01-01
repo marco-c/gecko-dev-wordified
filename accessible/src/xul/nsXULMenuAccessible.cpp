@@ -1150,7 +1150,7 @@ nsIAccessible
 (
 item
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -1228,7 +1228,7 @@ nsIAccessible
 (
 item
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -2455,7 +2455,7 @@ INVISIBLE
 )
 isCollapsed
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3618,7 +3618,7 @@ children
 for
 menuitems
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP

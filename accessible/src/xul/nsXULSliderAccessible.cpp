@@ -1178,7 +1178,7 @@ be
 accessible
 .
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1438,7 +1438,7 @@ SetAttr
 kNameSpaceID_None
 aName
 aValue
-PR_TRUE
+true
 )
 ;
 return

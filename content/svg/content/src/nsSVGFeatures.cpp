@@ -704,7 +704,7 @@ external
 resource
 documents
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -739,7 +739,7 @@ str
 )
 )
 return
-PR_TRUE
+true
 ;
 #
 define
@@ -761,7 +761,7 @@ SVG_SUPPORTED_FEATURE
 undef
 SVG_UNSUPPORTED_FEATURE
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -814,12 +814,12 @@ nextToken
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -855,7 +855,7 @@ str
 )
 )
 return
-PR_TRUE
+true
 ;
 SVG_SUPPORTED_EXTENSION
 (
@@ -899,7 +899,7 @@ MathML
 undef
 SVG_SUPPORTED_EXTENSION
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -948,12 +948,12 @@ nextToken
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1047,13 +1047,13 @@ defaultComparator
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1303,7 +1303,7 @@ h
 undef
 SVG_ELEMENT
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -1353,7 +1353,7 @@ IsElement
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1372,7 +1372,7 @@ ATTRS_CONDITIONAL
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1416,7 +1416,7 @@ value
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1523,7 +1523,7 @@ value
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1536,7 +1536,7 @@ kIgnoreSystemLanguage
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1718,6 +1718,6 @@ IsEmpty
 }
 }
 return
-PR_TRUE
+true
 ;
 }

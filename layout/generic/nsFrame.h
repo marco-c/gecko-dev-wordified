@@ -668,7 +668,7 @@ _method
 Trace
 (
 _method
-PR_TRUE
+true
 )
 #
 define
@@ -679,7 +679,7 @@ _method
 Trace
 (
 _method
-PR_FALSE
+false
 )
 /
 /
@@ -759,7 +759,7 @@ _method
 Trace
 (
 _method
-PR_TRUE
+true
 )
 #
 define
@@ -772,7 +772,7 @@ _status
 Trace
 (
 _method
-PR_FALSE
+false
 _status
 )
 #
@@ -2796,7 +2796,7 @@ reflow
 status
 and
 returns
-PR_TRUE
+true
 .
 Otherwise
 the
@@ -2820,7 +2820,7 @@ not
 /
 touched
 and
-PR_FALSE
+false
 is
 returned
 .
@@ -4637,7 +4637,7 @@ Or
 call
 SetVerifyStyleTreeEnable
 with
-PR_TRUE
+true
 .
 *
 /

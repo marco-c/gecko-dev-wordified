@@ -1857,7 +1857,7 @@ DEBUG_DumpedWrapperStats
 {
 DEBUG_DumpedWrapperStats
 =
-PR_TRUE
+true
 ;
 printf
 (

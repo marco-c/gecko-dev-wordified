@@ -1294,7 +1294,7 @@ SkipHarfBuzz
 {
 mSkipHarfBuzz
 =
-PR_TRUE
+true
 ;
 }
 static
@@ -1455,12 +1455,12 @@ aCh
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 protected
@@ -1479,11 +1479,11 @@ aName
 )
 mSkipHarfBuzz
 (
-PR_FALSE
+false
 )
 mSkipGraphiteCheck
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1799,7 +1799,7 @@ aRunScript
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1808,7 +1808,7 @@ mSkipGraphiteCheck
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1895,10 +1895,10 @@ Silf
 {
 mSkipGraphiteCheck
 =
-PR_TRUE
+true
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2116,12 +2116,12 @@ otCap
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -2761,7 +2761,7 @@ mStretch
 ;
 mIsUserFont
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -3341,7 +3341,7 @@ pattern
 }
 mIsLocalUserFont
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4663,7 +4663,7 @@ ReleaseDownloadedFontEntry
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -4687,7 +4687,7 @@ this
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -7342,7 +7342,7 @@ mFcFontsTrimmed
 )
 mHaveFallbackFonts
 (
-PR_FALSE
+false
 )
 {
 bool
@@ -8202,7 +8202,7 @@ aRequestedSlant
 FC_SLANT_ITALIC
 )
 return
-PR_TRUE
+true
 ;
 int
 slant
@@ -8251,7 +8251,7 @@ result
 FcResultMatch
 )
 return
-PR_TRUE
+true
 ;
 switch
 (
@@ -8302,7 +8302,7 @@ FC_SLANT_ITALIC
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -8386,7 +8386,7 @@ aRequestedSize
 aRequestedSize
 )
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -8440,7 +8440,7 @@ aWaitForUserFont
 {
 aWaitForUserFont
 =
-PR_FALSE
+false
 ;
 gfxFontconfigUtils
 *
@@ -8960,7 +8960,7 @@ userPrefix
 {
 isUserFont
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -9036,7 +9036,7 @@ waitForUserFont
 {
 aWaitForUserFont
 =
-PR_TRUE
+true
 ;
 }
 NS_ASSERTION
@@ -9611,7 +9611,7 @@ continue
 ;
 haveLangFont
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -10195,7 +10195,7 @@ SortFallbackFonts
 ;
 mHaveFallbackFonts
 =
-PR_TRUE
+true
 ;
 mFcFontsTrimmed
 =
@@ -11482,7 +11482,7 @@ fontName
 3
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -11864,7 +11864,7 @@ fontName
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 gfxPangoFontGroup
@@ -12048,9 +12048,9 @@ ForEachFontInternal
 (
 mFamilies
 aLanguage
-PR_TRUE
-PR_FALSE
-PR_TRUE
+true
+false
+true
 FamilyCallback
 &
 data
@@ -12272,7 +12272,7 @@ newGeneration
 ;
 mSkipDrawing
 =
-PR_FALSE
+false
 ;
 }
 already_AddRefed
@@ -13808,7 +13808,7 @@ aRunScript
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -15218,8 +15218,8 @@ language
 0
 .
 0
-PR_TRUE
-PR_FALSE
+true
+false
 NS_LITERAL_STRING
 (
 "
@@ -17244,8 +17244,8 @@ g
 .
 SetComplex
 (
-PR_FALSE
-PR_TRUE
+false
+true
 0
 )
 nsnull
@@ -17329,8 +17329,8 @@ g
 .
 SetComplex
 (
-PR_FALSE
-PR_FALSE
+false
+false
 0
 )
 nsnull
@@ -17970,7 +17970,7 @@ g
 SetComplex
 (
 atClusterStart
-PR_TRUE
+true
 detailedIndex
 )
 ;
@@ -18198,7 +18198,7 @@ IsClusterStart
 (
 utf16Offset
 )
-PR_FALSE
+false
 0
 )
 ;
@@ -18754,7 +18754,7 @@ behdad
 yes
 haveMissingGlyph
 =
-PR_TRUE
+true
 ;
 }
 glyphIndex
@@ -19643,7 +19643,7 @@ shapeMap
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -19676,7 +19676,7 @@ shapeEngine
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PangoEngineShapeClass
@@ -20210,7 +20210,7 @@ spaceWidth
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /

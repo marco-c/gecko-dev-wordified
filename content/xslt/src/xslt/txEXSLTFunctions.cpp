@@ -813,7 +813,7 @@ mozHandler
 &
 format
 domFragment
-PR_TRUE
+true
 )
 ;
 rv
@@ -839,7 +839,7 @@ mozHandler
 .
 closePrevious
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -867,7 +867,7 @@ txXPathNativeNode
 createXPathNode
 (
 domFragment
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_TRUE
@@ -1002,7 +1002,7 @@ text
 SetText
 (
 aValue
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1020,7 +1020,7 @@ txXPathNativeNode
 createXPathNode
 (
 text
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_TRUE
@@ -1223,7 +1223,7 @@ aName
 )
 nsnull
 kNameSpaceID_None
-PR_FALSE
+false
 getter_AddRefs
 (
 elem
@@ -1272,7 +1272,7 @@ text
 SetText
 (
 aValue
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1289,7 +1289,7 @@ elem
 AppendChildTo
 (
 text
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1306,7 +1306,7 @@ aResultHolder
 AppendChildTo
 (
 elem
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1327,7 +1327,7 @@ txXPathNativeNode
 createXPathNode
 (
 elem
-PR_TRUE
+true
 )
 )
 ;
@@ -2948,7 +2948,7 @@ i
 {
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -4762,11 +4762,11 @@ kNameSpaceID_Unknown
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }

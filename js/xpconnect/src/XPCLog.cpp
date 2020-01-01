@@ -577,7 +577,7 @@ XPC_Log_Finish
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 memset
@@ -600,7 +600,7 @@ g_InitState
 1
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

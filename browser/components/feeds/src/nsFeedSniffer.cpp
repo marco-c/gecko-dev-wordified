@@ -916,7 +916,7 @@ if
 httpChannel
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 disp
@@ -950,10 +950,10 @@ nsIChannel
 DISPOSITION_ATTACHMENT
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1163,7 +1163,7 @@ found
 .
 *
 returns
-PR_TRUE
+true
 if
 the
 found
@@ -1171,7 +1171,7 @@ substring
 is
 the
 documentElement
-PR_FALSE
+false
 *
 otherwise
 .
@@ -1248,7 +1248,7 @@ start
 end
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -1317,7 +1317,7 @@ start
 '
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -1391,7 +1391,7 @@ if
 start
 )
 return
-PR_FALSE
+false
 ;
 +
 +
@@ -1399,7 +1399,7 @@ start
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1450,7 +1450,7 @@ ness
 .
 *
 returns
-PR_TRUE
+true
 if
 the
 substring
@@ -1459,7 +1459,7 @@ and
 is
 the
 documentElement
-PR_FALSE
+false
 *
 otherwise
 .
@@ -1497,7 +1497,7 @@ offset
 1
 )
 return
-PR_FALSE
+false
 ;
 const
 char
@@ -2046,7 +2046,7 @@ NS_LITERAL_CSTRING
 1
 "
 )
-PR_FALSE
+false
 )
 ;
 sniffedType

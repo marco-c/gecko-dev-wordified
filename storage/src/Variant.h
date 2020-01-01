@@ -1814,7 +1814,7 @@ _str
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -1847,7 +1847,7 @@ _str
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 return

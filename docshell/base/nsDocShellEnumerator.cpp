@@ -466,7 +466,7 @@ typeAll
 )
 mArrayValid
 (
-PR_FALSE
+false
 )
 mEnumerationDirection
 (
@@ -617,7 +617,7 @@ outHasMore
 *
 outHasMore
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -799,7 +799,7 @@ mArrayValid
 {
 mArrayValid
 =
-PR_TRUE
+true
 ;
 return
 BuildDocShellArray
@@ -828,7 +828,7 @@ Clear
 ;
 mArrayValid
 =
-PR_FALSE
+false
 ;
 mCurIndex
 =

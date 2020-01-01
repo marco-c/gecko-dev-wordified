@@ -494,10 +494,10 @@ defPref
 preference
 type
 (
-PR_TRUE
+true
 :
 default
-PR_FALSE
+false
 :
 user
 preference
@@ -929,7 +929,7 @@ buffer
 *
 *
 return
-PR_FALSE
+false
 if
 buffer
 contains

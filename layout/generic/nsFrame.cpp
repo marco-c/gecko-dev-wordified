@@ -2255,7 +2255,7 @@ IsBoxWrapped
 )
 InitBoxMetrics
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -2351,7 +2351,7 @@ aFrameList
 {
 NS_PRECONDITION
 (
-PR_FALSE
+false
 "
 not
 a
@@ -2381,7 +2381,7 @@ aFrameList
 {
 NS_PRECONDITION
 (
-PR_FALSE
+false
 "
 not
 a
@@ -2408,7 +2408,7 @@ aOldFrame
 {
 NS_PRECONDITION
 (
-PR_FALSE
+false
 "
 not
 a
@@ -3180,7 +3180,7 @@ aOldImage
 aNewImage
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -3192,7 +3192,7 @@ aOldImage
 aNewImage
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -5160,7 +5160,7 @@ IsTransformed
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -5198,7 +5198,7 @@ nsGkAtoms
 scrollFrame
 )
 return
-PR_FALSE
+false
 ;
 nsRect
 temp
@@ -5277,11 +5277,11 @@ IsTransformed
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsRect
@@ -5697,8 +5697,8 @@ hc1
 NS_SIDE_TO_HALF_CORNER
 (
 side
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 PRUint32
@@ -5707,8 +5707,8 @@ hc2
 NS_SIDE_TO_HALF_CORNER
 (
 side
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 nscoord
@@ -5746,7 +5746,7 @@ sum
 )
 haveRadius
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -5849,8 +5849,8 @@ hc1
 NS_SIDE_TO_HALF_CORNER
 (
 side
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 PRUint32
@@ -5859,8 +5859,8 @@ hc2
 NS_SIDE_TO_HALF_CORNER
 (
 side
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 aRadii
@@ -5940,8 +5940,8 @@ hc1
 NS_SIDE_TO_HALF_CORNER
 (
 side
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 PRUint32
@@ -5950,8 +5950,8 @@ hc2
 NS_SIDE_TO_HALF_CORNER
 (
 side
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 if
@@ -6116,7 +6116,7 @@ corner
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsSize
@@ -6167,7 +6167,7 @@ aRadii
 )
 )
 return
-PR_FALSE
+false
 ;
 InsetBorderRadii
 (
@@ -6190,11 +6190,11 @@ corner
 ]
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -6220,7 +6220,7 @@ aRadii
 )
 )
 return
-PR_FALSE
+false
 ;
 InsetBorderRadii
 (
@@ -6243,11 +6243,11 @@ corner
 ]
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsStyleContext
@@ -6634,7 +6634,7 @@ SELECTION_OFF
 ;
 isOkToTurnOn
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -6922,7 +6922,7 @@ pxRect
 .
 height
 )
-PR_TRUE
+true
 )
 ;
 ctx
@@ -7278,7 +7278,7 @@ LookUpSelection
 newContent
 offset
 1
-PR_FALSE
+false
 )
 ;
 /
@@ -7632,7 +7632,7 @@ aForceBackground
 to
 /
 /
-PR_TRUE
+true
 .
 if
 (
@@ -7947,7 +7947,7 @@ NS_STYLE_CLIP_RECT
 )
 )
 return
-PR_FALSE
+false
 ;
 *
 aRect
@@ -8008,7 +8008,7 @@ y
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -8050,7 +8050,7 @@ GetSize
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -8071,7 +8071,7 @@ aFrame
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -8079,7 +8079,7 @@ PR_TRUE
 *
 *
 Returns
-PR_TRUE
+true
 if
 aFrame
 is
@@ -8128,7 +8128,7 @@ mOverflowX
 NS_STYLE_OVERFLOW_HIDDEN
 )
 return
-PR_FALSE
+false
 ;
 nsIAtom
 *
@@ -8420,7 +8420,7 @@ if
 clip
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -8499,7 +8499,7 @@ aFrame
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 class
@@ -8529,7 +8529,7 @@ param
 aClipBorderBackground
 set
 to
-PR_TRUE
+true
 to
 clip
 the
@@ -8549,7 +8549,7 @@ param
 aClipAll
 set
 to
-PR_TRUE
+true
 to
 clip
 all
@@ -8607,7 +8607,7 @@ aClipAll
 )
 mHaveRadius
 (
-PR_FALSE
+false
 )
 {
 memcpy
@@ -8637,7 +8637,7 @@ corner
 {
 mHaveRadius
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -10208,7 +10208,7 @@ GetVisualOverflowRectRelativeToSelf
 }
 inTransform
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -10292,7 +10292,7 @@ AutoIsRootSetter
 rootSetter
 (
 aBuilder
-PR_TRUE
+true
 )
 ;
 nsDisplayListBuilder
@@ -10521,8 +10521,8 @@ wrapper
 this
 overflowClip
 radii
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 rv
@@ -11503,7 +11503,7 @@ GetStyleDisplay
 ;
 /
 /
-PR_TRUE
+true
 if
 this
 is
@@ -11623,7 +11623,7 @@ context
 .
 pseudoStackingContext
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -11900,7 +11900,7 @@ SetEmpty
 }
 pseudoStackingContext
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -12390,7 +12390,7 @@ IsPseudoStackingContextFromStyle
 )
 pseudoStackingContext
 =
-PR_TRUE
+true
 ;
 }
 nsRect
@@ -13368,8 +13368,8 @@ set
 aToLists
 clipRect
 radii
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 return
@@ -13476,8 +13476,8 @@ nsPLDOMEvent
 (
 target
 aDOMEventName
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 if
@@ -14079,7 +14079,7 @@ cellElement
 {
 foundCell
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -14172,7 +14172,7 @@ tableElement
 {
 foundTable
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -14854,7 +14854,7 @@ NS_FRAME_GENERATED_CONTENT
 *
 aSelectable
 =
-PR_FALSE
+false
 ;
 else
 *
@@ -15593,7 +15593,7 @@ fc
 >
 SetMouseDownState
 (
-PR_TRUE
+true
 )
 ;
 fc
@@ -15601,7 +15601,7 @@ fc
 >
 SetMouseDoubleDown
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -15705,7 +15705,7 @@ fc
 >
 SetMouseDownState
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -15828,7 +15828,7 @@ offsets
 EndOffset
 (
 )
-PR_FALSE
+false
 )
 ;
 /
@@ -15986,7 +15986,7 @@ mEnd
 {
 inSelection
 =
-PR_TRUE
+true
 ;
 }
 SelectionDetails
@@ -16016,7 +16016,7 @@ fc
 >
 SetMouseDownState
 (
-PR_FALSE
+false
 )
 ;
 fc
@@ -16037,7 +16037,7 @@ fc
 >
 SetMouseDownState
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -16230,7 +16230,7 @@ fc
 >
 SetMouseDownState
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -16718,15 +16718,15 @@ eDirNext
 aStartPos
 0
 aJumpLines
-PR_TRUE
+true
 /
 /
 limit
 on
 scrolled
 views
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 rv
@@ -16782,15 +16782,15 @@ eDirPrevious
 baseOffset
 0
 aJumpLines
-PR_TRUE
+true
 /
 /
 limit
 on
 scrolled
 views
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 rv
@@ -16826,15 +16826,15 @@ eDirNext
 aStartPos
 0
 aJumpLines
-PR_TRUE
+true
 /
 /
 limit
 on
 scrolled
 views
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 rv
@@ -16887,7 +16887,7 @@ mContentOffset
 startpos
 .
 mContentOffset
-PR_FALSE
+false
 aMultipleSelection
 nsFrameSelection
 :
@@ -16921,8 +16921,8 @@ mContentOffset
 endpos
 .
 mContentOffset
-PR_TRUE
-PR_FALSE
+true
+false
 nsFrameSelection
 :
 :
@@ -17562,7 +17562,7 @@ aFrameSelection
 >
 SetMouseDownState
 (
-PR_TRUE
+true
 )
 ;
 rv
@@ -17589,7 +17589,7 @@ me
 -
 >
 isShift
-PR_FALSE
+false
 aOffsets
 .
 associateWithNext
@@ -17619,7 +17619,7 @@ aFrameSelection
 >
 SetMouseDownState
 (
-PR_FALSE
+false
 )
 ;
 rv
@@ -17666,7 +17666,7 @@ aFrameSelection
 >
 SetMouseDownState
 (
-PR_FALSE
+false
 )
 ;
 aFrameSelection
@@ -17915,7 +17915,7 @@ pt
 ;
 handleTableSelection
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -18145,7 +18145,7 @@ frameSelection
 >
 SetMouseDownState
 (
-PR_FALSE
+false
 )
 ;
 frameSelection
@@ -18597,8 +18597,8 @@ return
 FrameTarget
 (
 nsnull
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -18950,8 +18950,8 @@ return
 FrameTarget
 (
 aChild
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -19232,7 +19232,7 @@ return
 FrameTarget
 (
 aFrame
-PR_TRUE
+true
 aEndFrame
 )
 ;
@@ -19324,7 +19324,7 @@ return
 DrillDownToSelectionFrame
 (
 aParent
-PR_TRUE
+true
 )
 ;
 nsIFrame
@@ -19795,9 +19795,9 @@ return
 FrameTarget
 (
 aFrame
-PR_FALSE
-PR_FALSE
-PR_TRUE
+false
+false
+true
 )
 ;
 }
@@ -20074,7 +20074,7 @@ return
 DrillDownToSelectionFrame
 (
 aFrame
-PR_FALSE
+false
 )
 ;
 closestLine
@@ -20102,7 +20102,7 @@ return
 DrillDownToSelectionFrame
 (
 aFrame
-PR_TRUE
+true
 )
 ;
 closestLine
@@ -20209,7 +20209,7 @@ return
 DrillDownToSelectionFrame
 (
 aFrame
-PR_TRUE
+true
 )
 ;
 }
@@ -20611,8 +20611,8 @@ return
 FrameTarget
 (
 aFrame
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -20714,7 +20714,7 @@ offsets
 .
 associateWithNext
 =
-PR_TRUE
+true
 ;
 return
 offsets
@@ -21336,7 +21336,7 @@ offsets
 .
 associateWithNext
 =
-PR_TRUE
+true
 ;
 return
 offsets
@@ -21877,7 +21877,7 @@ aData
 >
 skipWhitespace
 =
-PR_FALSE
+false
 ;
 aData
 -
@@ -21910,7 +21910,7 @@ aData
 >
 atStartOfLine
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -21959,7 +21959,7 @@ aData
 >
 skipWhitespace
 =
-PR_FALSE
+false
 ;
 nscoord
 myPref
@@ -22097,7 +22097,7 @@ nsnull
 ;
 skipWhitespace
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -22533,7 +22533,7 @@ trailingWhitespace
 ;
 skipWhitespace
 =
-PR_TRUE
+true
 ;
 }
 static
@@ -22798,7 +22798,7 @@ hMargin
 result
 .
 hPctMargin
-PR_FALSE
+false
 )
 ;
 AddCoord
@@ -22821,7 +22821,7 @@ hMargin
 result
 .
 hPctMargin
-PR_FALSE
+false
 )
 ;
 const
@@ -22853,7 +22853,7 @@ hPadding
 result
 .
 hPctPadding
-PR_TRUE
+true
 )
 ;
 AddCoord
@@ -22876,7 +22876,7 @@ hPadding
 result
 .
 hPctPadding
-PR_TRUE
+true
 )
 ;
 const
@@ -24597,7 +24597,7 @@ through
 it
 .
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -26552,7 +26552,7 @@ nsViewVisibility_kHide
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 parent
@@ -26666,7 +26666,7 @@ break
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 nsIWidget
@@ -26761,7 +26761,7 @@ IsLeaf
 const
 {
 return
-PR_TRUE
+true
 ;
 }
 Layer
@@ -29412,7 +29412,7 @@ aOverflowRect
 *
 aAnyOutlineOrEffects
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -29587,7 +29587,7 @@ shadows
 *
 aAnyOutlineOrEffects
 =
-PR_TRUE
+true
 ;
 }
 const
@@ -29786,7 +29786,7 @@ inflateBy
 *
 aAnyOutlineOrEffects
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -29894,7 +29894,7 @@ aFrame
 *
 aAnyOutlineOrEffects
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -30715,7 +30715,7 @@ this
 anyOutlineOrEffects
 aOldVisualOverflowRect
 aNewDesiredSize
-PR_FALSE
+false
 )
 ;
 if
@@ -31318,7 +31318,7 @@ NS_FRAME_COMPLETE
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 mState
@@ -31328,7 +31328,7 @@ mState
 NS_FRAME_TOO_DEEP_IN_FRAME_TREE
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -32585,7 +32585,7 @@ IsVisible
 )
 )
 return
-PR_FALSE
+false
 ;
 nsISelection
 *
@@ -32630,7 +32630,7 @@ IsVisible
 )
 )
 return
-PR_FALSE
+false
 ;
 nsPresContext
 *
@@ -32651,7 +32651,7 @@ IsRenderingOnlySelection
 )
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -32708,7 +32708,7 @@ sel
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -32768,7 +32768,7 @@ IsVisibleOrCollapsed
 )
 )
 return
-PR_FALSE
+false
 ;
 nsISelection
 *
@@ -32815,7 +32815,7 @@ NS_FRAME_SELECTED_CONTENT
 NS_FRAME_SELECTED_CONTENT
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -32841,7 +32841,7 @@ aSelection
 ContainsNode
 (
 node
-PR_TRUE
+true
 &
 vis
 )
@@ -32870,7 +32870,7 @@ IsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -32922,7 +32922,7 @@ IsSelfEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -34905,7 +34905,7 @@ frameTraversal
 aPresContext
 resultFrame
 ePostOrder
-PR_FALSE
+false
 /
 /
 aVisual
@@ -34913,7 +34913,7 @@ aPos
 -
 >
 mScrollViewStop
-PR_FALSE
+false
 /
 /
 aFollowOOFs
@@ -35230,7 +35230,7 @@ aPos
 >
 mAttachForward
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -35273,7 +35273,7 @@ aPos
 >
 mAttachForward
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -35401,7 +35401,7 @@ selectable
 {
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -35509,7 +35509,7 @@ frameTraversal
 aPresContext
 resultFrame
 eLeaf
-PR_FALSE
+false
 /
 /
 aVisual
@@ -35517,7 +35517,7 @@ aPos
 -
 >
 mScrollViewStop
-PR_FALSE
+false
 /
 /
 aFollowOOFs
@@ -35624,7 +35624,7 @@ selectable
 {
 found
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -35638,7 +35638,7 @@ aPos
 >
 mAttachForward
 =
-PR_FALSE
+false
 ;
 else
 aPos
@@ -35646,7 +35646,7 @@ aPos
 >
 mAttachForward
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -36564,7 +36564,7 @@ GetParent
 {
 reachedBlockAncestor
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -36754,7 +36754,7 @@ GetParent
 {
 reachedBlockAncestor
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -36940,7 +36940,7 @@ frame
 1
 )
 :
-PR_FALSE
+false
 ;
 return
 aDirection
@@ -37197,7 +37197,7 @@ jumpedLine
 )
 eatingNonRenderableWS
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -37738,7 +37738,7 @@ then
 eatingWS
 =
 =
-PR_TRUE
+true
 means
 /
 /
@@ -37785,7 +37785,7 @@ then
 eatingWS
 =
 =
-PR_TRUE
+true
 means
 /
 /
@@ -37953,7 +37953,7 @@ mSawBeforeType
 {
 done
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -38390,7 +38390,7 @@ frame
 .
 doneLooping
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -38606,7 +38606,7 @@ frame
 ;
 searchTableBool
 =
-PR_TRUE
+true
 ;
 result
 =
@@ -38686,7 +38686,7 @@ element
 {
 doneLooping
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -39272,7 +39272,7 @@ default
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Invalid
 amount
@@ -39329,7 +39329,7 @@ right
 here
 .
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -39452,11 +39452,11 @@ aOffset
 startOffset
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -39622,13 +39622,13 @@ BreakWordBetweenPunctuation
 (
 aState
 aForward
-PR_FALSE
-PR_FALSE
+false
+false
 aIsKeyboardSelect
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -39653,7 +39653,7 @@ aState
 mSawBeforeType
 )
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -39686,12 +39686,12 @@ aState
 >
 Update
 (
-PR_FALSE
+false
 /
 /
 not
 punctuation
-PR_FALSE
+false
 /
 /
 not
@@ -39712,7 +39712,7 @@ SetSawBeforeType
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -39772,7 +39772,7 @@ whitespace
 and
 punctuation
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -39816,7 +39816,7 @@ s
 after
 whitespace
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -39845,7 +39845,7 @@ every
 punctuation
 boundary
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -39881,7 +39881,7 @@ content
 order
 )
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -40270,7 +40270,7 @@ aOutOffset
 *
 aOutJumpedLine
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -40514,7 +40514,7 @@ else
 {
 atLineEdge
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -40671,7 +40671,7 @@ atLineEdge
 *
 aOutJumpedLine
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -40718,7 +40718,7 @@ BidiEnabled
 (
 )
 aScrollViewStop
-PR_TRUE
+true
 /
 /
 aFollowOOFs
@@ -42340,7 +42340,7 @@ VisualOverflow
 (
 )
 aNewSize
-PR_TRUE
+true
 )
 ;
 /
@@ -45957,7 +45957,7 @@ for
 overflow
 isFocusable
 =
-PR_TRUE
+true
 ;
 tabIndex
 =
@@ -45987,7 +45987,7 @@ isFocusable
 *
 *
 return
-PR_TRUE
+true
 if
 this
 text
@@ -46002,7 +46002,7 @@ It
 *
 should
 return
-PR_FALSE
+false
 if
 this
 is
@@ -46023,7 +46023,7 @@ HasTerminalNewline
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -46062,7 +46062,7 @@ aCursor
 .
 mHaveHotspot
 =
-PR_FALSE
+false
 ;
 aCursor
 .
@@ -48293,7 +48293,7 @@ aHeight
 {
 needsReflow
 =
-PR_FALSE
+false
 ;
 aDesiredSize
 .
@@ -48404,12 +48404,12 @@ aHeight
 )
 needsReflow
 =
-PR_FALSE
+false
 ;
 else
 needsReflow
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -48441,7 +48441,7 @@ be
 .
 needsReflow
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -49067,7 +49067,7 @@ TopBottom
 (
 )
 )
-PR_FALSE
+false
 )
 .
 height
@@ -49165,7 +49165,7 @@ mFlags
 .
 mHResize
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -49185,7 +49185,7 @@ mFlags
 .
 mVResize
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -49689,7 +49689,7 @@ IsBoxWrapped
 {
 InitBoxMetrics
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -51346,7 +51346,7 @@ nsnull
 )
 mDisplay
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -51657,11 +51657,11 @@ DR_State
 :
 mInited
 (
-PR_FALSE
+false
 )
 mActive
 (
-PR_FALSE
+false
 )
 mCount
 (
@@ -51678,11 +51678,11 @@ mIndent
 )
 mIndentUndisplayedFrames
 (
-PR_FALSE
+false
 )
 mDisplayPixelErrors
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -51882,7 +51882,7 @@ ParseRulesFile
 ;
 mInited
 =
-PR_TRUE
+true
 ;
 }
 DR_State
@@ -52003,11 +52003,11 @@ aNumber
 0
 )
 return
-PR_TRUE
+true
 ;
 else
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -52144,7 +52144,7 @@ c
 {
 haveToken
 =
-PR_TRUE
+true
 ;
 aBuf
 [
@@ -52643,7 +52643,7 @@ rule
 }
 mActive
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -53652,14 +53652,14 @@ GetType
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 else
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 program
 error
@@ -53675,7 +53675,7 @@ card
 match
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -53699,7 +53699,7 @@ mFrame
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 invalid
 DR_FrameTreeNode
@@ -53807,7 +53807,7 @@ mDisplay
 ;
 matchingRule
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -54907,7 +54907,7 @@ aFrame
 aReflowState
 *
 treeNode
-PR_FALSE
+false
 )
 ;
 }
@@ -56242,7 +56242,7 @@ mFrame
 mReflowState
 *
 treeNode
-PR_TRUE
+true
 )
 ;
 }

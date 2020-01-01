@@ -808,7 +808,7 @@ order
 MBool
 upperFirst
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -849,7 +849,7 @@ upperFirst
 {
 upperFirst
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1884,10 +1884,10 @@ mRv
 rv
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }

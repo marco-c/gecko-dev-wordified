@@ -5543,11 +5543,11 @@ _44
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -5571,7 +5571,7 @@ Is2D
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5623,7 +5623,7 @@ _42
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -5673,7 +5673,7 @@ _44
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5725,7 +5725,7 @@ _42
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 gfx3DMatrix

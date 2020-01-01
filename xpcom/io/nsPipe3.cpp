@@ -1003,11 +1003,11 @@ mLogicalOffset
 )
 mBlocking
 (
-PR_TRUE
+true
 )
 mBlocked
 (
-PR_FALSE
+false
 )
 mAvailable
 (
@@ -1393,15 +1393,15 @@ mLogicalOffset
 )
 mBlocking
 (
-PR_TRUE
+true
 )
 mBlocked
 (
-PR_FALSE
+false
 )
 mWritable
 (
-PR_TRUE
+true
 )
 mCallbackFlags
 (
@@ -2639,7 +2639,7 @@ NS_OK
 )
 mInited
 (
-PR_FALSE
+false
 )
 {
 }
@@ -2678,7 +2678,7 @@ segmentAlloc
 {
 mInited
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3994,7 +3994,7 @@ mOutput
 .
 SetWritable
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -4142,7 +4142,7 @@ Available
 )
 outputOnly
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4659,7 +4659,7 @@ n
 ;
 mBlocked
 =
-PR_TRUE
+true
 ;
 mon
 .
@@ -4669,7 +4669,7 @@ Wait
 ;
 mBlocked
 =
-PR_FALSE
+false
 ;
 LOG
 (
@@ -4782,7 +4782,7 @@ mBlocked
 )
 result
 =
-PR_TRUE
+true
 ;
 return
 result
@@ -4889,7 +4889,7 @@ mBlocked
 )
 result
 =
-PR_TRUE
+true
 ;
 return
 result
@@ -5925,7 +5925,7 @@ limit1
 *
 found
 =
-PR_FALSE
+false
 ;
 *
 offsetSearchedTo
@@ -5963,7 +5963,7 @@ NS_OK
 }
 while
 (
-PR_TRUE
+true
 )
 {
 PRUint32
@@ -6024,7 +6024,7 @@ strLen
 *
 found
 =
-PR_TRUE
+true
 ;
 *
 offsetSearchedTo
@@ -6108,7 +6108,7 @@ limit2
 *
 found
 =
-PR_FALSE
+false
 ;
 *
 offsetSearchedTo
@@ -6259,7 +6259,7 @@ strPart2Len
 *
 found
 =
-PR_TRUE
+true
 ;
 *
 offsetSearchedTo
@@ -6581,7 +6581,7 @@ n
 ;
 mBlocked
 =
-PR_TRUE
+true
 ;
 mon
 .
@@ -6591,7 +6591,7 @@ Wait
 ;
 mBlocked
 =
-PR_FALSE
+false
 ;
 LOG
 (
@@ -6662,7 +6662,7 @@ false
 ;
 mWritable
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -6701,7 +6701,7 @@ mBlocked
 )
 result
 =
-PR_TRUE
+true
 ;
 return
 result
@@ -6767,7 +6767,7 @@ exception
 ;
 mWritable
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -6798,7 +6798,7 @@ mBlocked
 )
 result
 =
-PR_TRUE
+true
 ;
 return
 result
@@ -6921,7 +6921,7 @@ mPipe
 OnPipeException
 (
 reason
-PR_TRUE
+true
 )
 ;
 return

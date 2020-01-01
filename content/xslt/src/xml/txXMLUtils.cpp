@@ -1281,12 +1281,12 @@ start
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1477,7 +1477,7 @@ preserve
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -1493,7 +1493,7 @@ _default
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1508,6 +1508,6 @@ moveToParent
 )
 ;
 return
-PR_FALSE
+false
 ;
 }

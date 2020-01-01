@@ -1210,7 +1210,7 @@ result
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1397,7 +1397,7 @@ _equals
 *
 _equals
 =
-PR_FALSE
+false
 ;
 nsNullPrincipalURI
 *

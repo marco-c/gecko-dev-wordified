@@ -725,7 +725,7 @@ SetBaseValueString
 (
 aValue
 nsnull
-PR_FALSE
+false
 )
 ;
 }
@@ -1031,10 +1031,10 @@ nsIDOMSVGAngle
 SVG_ANGLETYPE_GRAD
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -1496,7 +1496,7 @@ aSVGElement
 DidChangeAngle
 (
 mAttrEnum
-PR_TRUE
+true
 )
 ;
 }
@@ -1635,7 +1635,7 @@ aSVGElement
 DidChangeAngle
 (
 mAttrEnum
-PR_TRUE
+true
 )
 ;
 }
@@ -1967,7 +1967,7 @@ aSVGElement
 DidChangeAngle
 (
 mAttrEnum
-PR_TRUE
+true
 )
 ;
 }
@@ -1997,7 +1997,7 @@ aUnit
 ;
 mIsAnimated
 =
-PR_TRUE
+true
 ;
 aSVGElement
 -
@@ -2342,7 +2342,7 @@ val
 ;
 aPreventCachingOfSandwich
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2472,7 +2472,7 @@ mAngle
 >
 mIsAnimated
 =
-PR_FALSE
+false
 ;
 }
 }

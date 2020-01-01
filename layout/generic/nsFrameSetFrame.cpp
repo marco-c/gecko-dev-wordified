@@ -944,7 +944,7 @@ UnSet
 {
 mVertical
 =
-PR_TRUE
+true
 ;
 mIndex
 =
@@ -1918,7 +1918,7 @@ nsnull
 ;
 mForceFrameResizability
 =
-PR_FALSE
+false
 ;
 }
 nsHTMLFramesetFrame
@@ -2037,7 +2037,7 @@ updateBatch
 (
 doc
 UPDATE_CONTENT_MODEL
-PR_TRUE
+true
 )
 ;
 if
@@ -2275,7 +2275,7 @@ borderWidth
 GetBorderWidth
 (
 presContext
-PR_FALSE
+false
 )
 ;
 nscolor
@@ -6354,7 +6354,7 @@ borderWidth
 GetBorderWidth
 (
 aPresContext
-PR_TRUE
+true
 )
 ;
 width
@@ -6697,7 +6697,7 @@ verBordersVis
 verX
 ]
 =
-PR_FALSE
+false
 ;
 verBorderColors
 [
@@ -6756,7 +6756,7 @@ horBordersVis
 horX
 ]
 =
-PR_FALSE
+false
 ;
 horBorderColors
 [
@@ -6917,8 +6917,8 @@ nsHTMLFramesetBorderFrame
 (
 pseudoStyleContext
 borderWidth
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 if
@@ -7148,8 +7148,8 @@ nsHTMLFramesetBorderFrame
 (
 pseudoStyleContext
 borderWidth
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 if
@@ -7690,7 +7690,7 @@ cellIndex
 x
 ]
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -7707,7 +7707,7 @@ cellIndex
 y
 ]
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -7737,7 +7737,7 @@ x
 1
 ]
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -7767,7 +7767,7 @@ y
 1
 ]
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -8031,7 +8031,7 @@ verX
 >
 mVisibilityOverride
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -8131,7 +8131,7 @@ horX
 >
 mVisibilityOverride
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -8298,7 +8298,7 @@ our
 kids
 manually
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -8327,11 +8327,11 @@ childFrame
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -8414,7 +8414,7 @@ child
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -8484,13 +8484,13 @@ child
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -8891,7 +8891,7 @@ verX
 >
 mCanResize
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -8906,7 +8906,7 @@ verX
 >
 mVisibilityOverride
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -8919,7 +8919,7 @@ verX
 >
 mVisibilityOverride
 =
-PR_FALSE
+false
 ;
 SetBorderResize
 (
@@ -8969,7 +8969,7 @@ horX
 >
 mCanResize
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -8984,7 +8984,7 @@ horX
 >
 mVisibilityOverride
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -8997,7 +8997,7 @@ horX
 >
 mVisibilityOverride
 =
-PR_FALSE
+false
 ;
 SetBorderResize
 (
@@ -9069,8 +9069,8 @@ if
 !
 CanChildResize
 (
-PR_TRUE
-PR_FALSE
+true
+false
 childX
 (
 FRAMESET
@@ -9087,8 +9087,8 @@ childX
 !
 CanChildResize
 (
-PR_TRUE
-PR_TRUE
+true
+true
 childX
 +
 1
@@ -9111,7 +9111,7 @@ aBorderFrame
 >
 mCanResize
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -9152,8 +9152,8 @@ if
 !
 CanChildResize
 (
-PR_FALSE
-PR_FALSE
+false
+false
 childX
 (
 FRAMESET
@@ -9172,7 +9172,7 @@ aBorderFrame
 >
 mCanResize
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -9199,8 +9199,8 @@ if
 !
 CanChildResize
 (
-PR_FALSE
-PR_TRUE
+false
+true
 childX
 (
 FRAMESET
@@ -9219,7 +9219,7 @@ aBorderFrame
 >
 mCanResize
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -9361,7 +9361,7 @@ mNextNeighbor
 }
 gDragInProgress
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -9409,7 +9409,7 @@ nsnull
 ;
 gDragInProgress
 =
-PR_FALSE
+false
 ;
 return
 ;
@@ -9558,7 +9558,7 @@ mNumCols
 GetBorderWidth
 (
 aPresContext
-PR_TRUE
+true
 )
 ;
 nsHTMLFrameSetElement
@@ -9639,7 +9639,7 @@ nsGkAtoms
 :
 cols
 newColAttr
-PR_TRUE
+true
 )
 ;
 }
@@ -9757,7 +9757,7 @@ mNumRows
 GetBorderWidth
 (
 aPresContext
-PR_TRUE
+true
 )
 ;
 nsHTMLFrameSetElement
@@ -9838,7 +9838,7 @@ nsGkAtoms
 :
 rows
 newRowAttr
-PR_TRUE
+true
 )
 ;
 }
@@ -9981,7 +9981,7 @@ nsnull
 ;
 gDragInProgress
 =
-PR_FALSE
+false
 ;
 }
 nsIFrame
@@ -10255,11 +10255,11 @@ aVisibility
 {
 mVisibilityOverride
 =
-PR_FALSE
+false
 ;
 mCanResize
 =
-PR_TRUE
+true
 ;
 mColor
 =

@@ -1028,7 +1028,7 @@ CharacterDataChangeInfo
 info
 =
 {
-PR_TRUE
+true
 oldLength
 oldLength
 aLength
@@ -1053,7 +1053,7 @@ AppendText
 (
 aBuffer
 aLength
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1084,7 +1084,7 @@ AppendText
 (
 aBuffer
 aLength
-PR_FALSE
+false
 )
 ;
 }
@@ -1208,7 +1208,7 @@ SetText
 (
 aBuffer
 aLength
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1329,7 +1329,7 @@ aParent
 AppendChildTo
 (
 aNode
-PR_FALSE
+false
 )
 ;
 if
@@ -1390,7 +1390,7 @@ aParent
 AppendChildTo
 (
 aNode
-PR_FALSE
+false
 )
 ;
 if
@@ -1525,7 +1525,7 @@ doc
 AppendChildTo
 (
 aNode
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1745,7 +1745,7 @@ parent
 RemoveChildAt
 (
 pos
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1858,7 +1858,7 @@ node
 RemoveChildAt
 (
 0
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1875,7 +1875,7 @@ parent
 AppendChildTo
 (
 child
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1886,7 +1886,7 @@ rv
 ;
 didAppend
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -2020,7 +2020,7 @@ InsertChildAt
 (
 node
 pos
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2265,7 +2265,7 @@ getValue
 i
 )
 )
-PR_TRUE
+true
 )
 ;
 /
@@ -2515,7 +2515,7 @@ ssle
 >
 InitStyleLinkElement
 (
-PR_FALSE
+false
 )
 ;
 ssle
@@ -2523,7 +2523,7 @@ ssle
 >
 SetEnableUpdates
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2600,7 +2600,7 @@ nsGkAtoms
 moztype
 nsnull
 theAttribute
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -2746,7 +2746,7 @@ theContent
 [
 i
 ]
-PR_FALSE
+false
 )
 ;
 optionElt
@@ -2755,7 +2755,7 @@ optionElt
 AppendChildTo
 (
 optionText
-PR_FALSE
+false
 )
 ;
 newContent
@@ -2764,7 +2764,7 @@ newContent
 AppendChildTo
 (
 optionElt
-PR_FALSE
+false
 )
 ;
 newContent
@@ -2772,7 +2772,7 @@ newContent
 >
 DoneAddingChildren
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2846,7 +2846,7 @@ htmlDocument
 >
 SetIsFrameset
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -3021,7 +3021,7 @@ getPrefix
 i
 )
 uv
-PR_FALSE
+false
 )
 ;
 }
@@ -3057,7 +3057,7 @@ getValue
 i
 )
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -3514,7 +3514,7 @@ SetText
 (
 buffer
 length
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3532,7 +3532,7 @@ InsertChildAt
 (
 text
 pos
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3631,7 +3631,7 @@ SetText
 (
 buffer
 length
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3706,7 +3706,7 @@ SetText
 (
 buffer
 length
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3788,7 +3788,7 @@ voidString
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 NS_NewDOMDocumentType
@@ -4191,7 +4191,7 @@ aBuilder
 >
 DidBuildModel
 (
-PR_FALSE
+false
 )
 ;
 /

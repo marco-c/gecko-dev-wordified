@@ -705,7 +705,7 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -871,7 +871,7 @@ mMac
 {
 found
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -881,7 +881,7 @@ if
 found
 )
 return
-PR_FALSE
+false
 ;
 }
 LOG
@@ -897,7 +897,7 @@ n
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

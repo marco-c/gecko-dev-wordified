@@ -1103,7 +1103,7 @@ temp
 ;
 mLocalePreferred24hour
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -1153,7 +1153,7 @@ time
 format
 mLocalePreferred24hour
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1161,14 +1161,14 @@ break
 }
 mLocaleAMPMfirst
 =
-PR_TRUE
+true
 ;
 if
 (
 mLocalePreferred24hour
 =
 =
-PR_FALSE
+false
 )
 {
 if
@@ -1216,7 +1216,7 @@ after
 00
 mLocaleAMPMfirst
 =
-PR_FALSE
+false
 ;
 }
 }

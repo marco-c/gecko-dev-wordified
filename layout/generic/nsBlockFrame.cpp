@@ -1240,7 +1240,7 @@ firstTime
 {
 firstTime
 =
-PR_FALSE
+false
 ;
 char
 *
@@ -1348,7 +1348,7 @@ bdf
 on
 )
 =
-PR_TRUE
+true
 ;
 printf
 (
@@ -1372,11 +1372,11 @@ name
 ;
 gNoisy
 =
-PR_TRUE
+true
 ;
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1390,7 +1390,7 @@ found
 {
 error
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -4201,7 +4201,7 @@ IsFloatContainingBlock
 const
 {
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -7032,7 +7032,7 @@ tracker
 (
 aPresContext
 this
-PR_FALSE
+false
 )
 ;
 state
@@ -8947,7 +8947,7 @@ end_lines
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 if
@@ -8959,7 +8959,7 @@ line
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 -
@@ -8989,7 +8989,7 @@ CachedIsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -9003,7 +9003,7 @@ HasClearance
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -10892,7 +10892,7 @@ aLine
 >
 SetInvalidateTextRuns
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -11053,7 +11053,7 @@ prev
 >
 SetInvalidateTextRuns
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -11269,7 +11269,7 @@ gDisableResizeOpt
 {
 tryAndSkipLines
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -14156,7 +14156,7 @@ needToRecoverState
 {
 needToRecoverState
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -14386,7 +14386,7 @@ willReflowAgain
 {
 lastLineMovedUp
 =
-PR_TRUE
+true
 ;
 bool
 maybeReflowingForFirstTime
@@ -14586,7 +14586,7 @@ MarkDirty
 ;
 willReflowAgain
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -14649,7 +14649,7 @@ HasFloats
 {
 reflowedFloat
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -15347,7 +15347,7 @@ deltaY
 else
 repositionViews
 =
-PR_TRUE
+true
 ;
 NS_ASSERTION
 (
@@ -15667,7 +15667,7 @@ YMost
 }
 needToRecoverState
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -15822,7 +15822,7 @@ get
 {
 foundAnyClears
 =
-PR_TRUE
+true
 ;
 }
 DumpLine
@@ -15848,7 +15848,7 @@ HasPendingInterrupt
 {
 willReflowAgain
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -16421,7 +16421,7 @@ bifLineIter
 (
 this
 lineIter
-PR_FALSE
+false
 )
 ;
 /
@@ -16485,7 +16485,7 @@ IsDirty
 {
 skipPull
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -16655,7 +16655,7 @@ nifLine
 ;
 toMoveIsOverflowLine
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -16845,7 +16845,7 @@ overflowLines
 }
 toMoveIsOverflowLine
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -17230,7 +17230,7 @@ toMove
 mFirstChild
 nextInFlow
 toMoveIsOverflowLine
-PR_TRUE
+true
 )
 ;
 DumpLine
@@ -17372,7 +17372,7 @@ MarkDirty
 ;
 keepGoing
 =
-PR_FALSE
+false
 ;
 NS_FRAME_SET_INCOMPLETE
 (
@@ -17437,7 +17437,7 @@ get
 {
 foundAnyClears
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -19195,7 +19195,7 @@ aLine
 >
 SetLineWrapped
 (
-PR_FALSE
+false
 )
 ;
 rv
@@ -19380,7 +19380,7 @@ PullFrameFrom
 aState
 aLine
 this
-PR_FALSE
+false
 aLine
 .
 next
@@ -19461,7 +19461,7 @@ PullFrameFrom
 aState
 aLine
 nextInFlow
-PR_FALSE
+false
 nextInFlow
 -
 >
@@ -19495,7 +19495,7 @@ PullFrameFrom
 aState
 aLine
 nextInFlow
-PR_TRUE
+true
 overflowLines
 -
 >
@@ -19969,7 +19969,7 @@ ReparentFloats
 frame
 aFromContainer
 aFromOverflowLine
-PR_TRUE
+true
 )
 ;
 }
@@ -20271,7 +20271,7 @@ ifdef
 DEBUG
 VerifyLines
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -20907,7 +20907,7 @@ GetUnit
 eStyleUnit_Auto
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -21004,7 +21004,7 @@ aCoord
 }
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 unexpected
 unit
@@ -21018,7 +21018,7 @@ height
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -21082,7 +21082,7 @@ GetStateBits
 NS_BLOCK_MARGIN_ROOT
 )
 return
-PR_FALSE
+false
 ;
 const
 nsStylePosition
@@ -21113,7 +21113,7 @@ mHeight
 )
 )
 return
-PR_FALSE
+false
 ;
 const
 nsStyleBorder
@@ -21194,7 +21194,7 @@ GetBottom
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -21211,11 +21211,11 @@ BulletIsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -21235,7 +21235,7 @@ IsSelfEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -21273,11 +21273,11 @@ CachedIsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -21297,7 +21297,7 @@ IsSelfEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -21335,11 +21335,11 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -21380,7 +21380,7 @@ the
 line
 list
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -21434,11 +21434,11 @@ aState
 SetFlag
 (
 BRS_APPLYTOPMARGIN
-PR_TRUE
+true
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -21533,11 +21533,11 @@ aState
 SetFlag
 (
 BRS_APPLYTOPMARGIN
-PR_TRUE
+true
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -21574,7 +21574,7 @@ aState
 SetFlag
 (
 BRS_HAVELINEADJACENTTOTOP
-PR_TRUE
+true
 )
 ;
 aState
@@ -21626,7 +21626,7 @@ us
 )
 .
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -21677,7 +21677,7 @@ frame
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 program
 error
@@ -21875,7 +21875,7 @@ ShouldApplyTopMargin
 /
 /
 returned
-PR_FALSE
+false
 (
 in
 which
@@ -21958,7 +21958,7 @@ frame
 {
 mightClearFloats
 =
-PR_TRUE
+true
 ;
 replacedBlock
 =
@@ -22108,7 +22108,7 @@ reflow
 .
 treatWithClearance
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -22178,7 +22178,7 @@ treatWithClearance
 {
 applyTopMargin
 =
-PR_TRUE
+true
 ;
 }
 nsIFrame
@@ -22237,7 +22237,7 @@ GetPosition
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 /
@@ -22596,7 +22596,7 @@ fixed
 .
 mayNeedRetry
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -22746,7 +22746,7 @@ collapsed
 margin
 treatWithClearance
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -22805,7 +22805,7 @@ this
 time
 mayNeedRetry
 =
-PR_FALSE
+false
 ;
 nsBlockReflowContext
 :
@@ -23439,7 +23439,7 @@ mReflowStatus
 *
 aKeepReflowGoing
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -23884,7 +23884,7 @@ REFLOW_STATUS_COVERAGE
 )
 RecordReflowStatus
 (
-PR_TRUE
+true
 frameReflowStatus
 )
 ;
@@ -23920,7 +23920,7 @@ prev
 *
 aKeepReflowGoing
 =
-PR_FALSE
+false
 ;
 NS_FRAME_SET_INCOMPLETE
 (
@@ -24370,7 +24370,7 @@ nextFrame
 ;
 madeContinuation
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -24425,7 +24425,7 @@ NewLineBox
 (
 nextFrame
 1
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_TRUE
@@ -24690,7 +24690,7 @@ break
 *
 aKeepReflowGoing
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -25389,7 +25389,7 @@ ifdef
 DEBUG
 VerifyLines
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -25422,14 +25422,14 @@ NS_OK
 *
 aKeepReflowGoing
 =
-PR_TRUE
+true
 ;
 aLine
 -
 >
 SetLineIsImpactedByFloat
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -25878,7 +25878,7 @@ LINE_REFLOW_REDO_NO_PULL
 pass
 allowPullUp
 =
-PR_FALSE
+false
 ;
 }
 while
@@ -25944,7 +25944,7 @@ prevLine
 ;
 aKeepReflowGoing
 =
-PR_FALSE
+false
 ;
 NS_FRAME_SET_INCOMPLETE
 (
@@ -26087,7 +26087,7 @@ aLine
 >
 SetLineIsImpactedByFloat
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -26214,7 +26214,7 @@ availHeight
 aFloatAvailableSpace
 .
 mHasFloats
-PR_FALSE
+false
 /
 *
 XXX
@@ -26228,7 +26228,7 @@ aState
 SetFlag
 (
 BRS_LINE_LAYOUT_EMPTY
-PR_FALSE
+false
 )
 ;
 /
@@ -26287,7 +26287,7 @@ aLineLayout
 .
 SetFirstLetterStyleOK
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -26404,7 +26404,7 @@ GetContent
 (
 )
 0
-PR_TRUE
+true
 eNormalBreak
 )
 )
@@ -26928,7 +26928,7 @@ it
 ;
 needsBackup
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -27854,7 +27854,7 @@ status
 is
 simple
 :
-PR_TRUE
+true
 means
 keep
 placing
@@ -27864,7 +27864,7 @@ on
 the
 line
 ;
-PR_FALSE
+false
 means
 don
 '
@@ -28076,7 +28076,7 @@ REFLOW_STATUS_COVERAGE
 )
 RecordReflowStatus
 (
-PR_FALSE
+false
 frameReflowStatus
 )
 ;
@@ -28538,7 +28538,7 @@ aLine
 >
 SetLineWrapped
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -28820,7 +28820,7 @@ aLine
 >
 SetLineWrapped
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -28968,7 +28968,7 @@ aMadeNewFrame
 {
 aMadeNewFrame
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -29058,7 +29058,7 @@ GetChildCount
 }
 aMadeNewFrame
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -29066,7 +29066,7 @@ ifdef
 DEBUG
 VerifyLines
 (
-PR_FALSE
+false
 )
 ;
 #
@@ -29386,7 +29386,7 @@ if
 aFC
 )
 return
-PR_TRUE
+true
 ;
 NS_ASSERTION
 (
@@ -29517,7 +29517,7 @@ f
 }
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 aBlock
 is
@@ -29531,7 +29531,7 @@ aFrame
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -29820,7 +29820,7 @@ NewLineBox
 (
 aFrame
 pushCount
-PR_FALSE
+false
 )
 ;
 if
@@ -30040,7 +30040,7 @@ ifdef
 DEBUG
 VerifyLines
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -30276,7 +30276,7 @@ t
 allow
 justification
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -30569,7 +30569,7 @@ metrics
 ;
 addedBullet
 =
-PR_TRUE
+true
 ;
 }
 aLineLayout
@@ -30798,7 +30798,7 @@ aFloatAvailableSpace
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -31541,11 +31541,11 @@ mReflowStatus
 *
 aKeepReflowGoing
 =
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 aState
@@ -31933,7 +31933,7 @@ GetBreakTypeAfter
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -32015,8 +32015,8 @@ overBegin
 >
 mFirstChild
 floats
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 if
@@ -32863,7 +32863,7 @@ constrained
 height
 reflows
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -33129,7 +33129,7 @@ ourOverflowLines
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -34664,7 +34664,7 @@ nsGkAtoms
 brFrame
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -34698,7 +34698,7 @@ NewlineIsSignificant
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -35204,7 +35204,7 @@ GetNextSibling
 (
 )
 rem
-PR_FALSE
+false
 )
 ;
 if
@@ -35322,7 +35322,7 @@ line
 >
 SetInvalidateTextRuns
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -35361,7 +35361,7 @@ front
 >
 SetInvalidateTextRuns
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -35847,7 +35847,7 @@ ifdef
 DEBUG
 VerifyLines
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -36135,7 +36135,7 @@ blockWithFloatMgr
 *
 *
 Returns
-PR_TRUE
+true
 if
 aFrame
 is
@@ -36178,7 +36178,7 @@ if
 block
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -36194,7 +36194,7 @@ kFloatList
 )
 )
 return
-PR_TRUE
+true
 ;
 nsLineList
 :
@@ -36249,7 +36249,7 @@ mFirstChild
 )
 )
 return
-PR_TRUE
+true
 ;
 +
 +
@@ -36257,7 +36257,7 @@ line
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -36742,7 +36742,7 @@ PresContext
 (
 )
 nif
-PR_FALSE
+false
 )
 ;
 }
@@ -36837,7 +36837,7 @@ aInOverflowLines
 *
 aInOverflowLines
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -37019,7 +37019,7 @@ child
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 nsIFrame
@@ -37139,7 +37139,7 @@ nsnull
 *
 aFoundValidLine
 =
-PR_FALSE
+false
 ;
 nsIFrame
 *
@@ -37397,7 +37397,7 @@ child
 *
 aFoundValidLine
 =
-PR_TRUE
+true
 ;
 mLine
 =
@@ -37433,7 +37433,7 @@ child
 *
 aFoundValidLine
 =
-PR_TRUE
+true
 ;
 mLine
 =
@@ -37559,7 +37559,7 @@ child
 *
 aFoundValidLine
 =
-PR_TRUE
+true
 ;
 return
 ;
@@ -37692,7 +37692,7 @@ begin
 mLine
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -37705,7 +37705,7 @@ nsnull
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 if
@@ -37744,7 +37744,7 @@ begin_lines
 mLine
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -37772,7 +37772,7 @@ if
 mFrame
 )
 return
-PR_FALSE
+false
 ;
 mInOverflowLines
 =
@@ -37822,7 +37822,7 @@ list
 mLine
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -37868,7 +37868,7 @@ mLine
 end
 )
 return
-PR_TRUE
+true
 ;
 bool
 currentlyInOverflowLines
@@ -37880,7 +37880,7 @@ nsnull
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 if
@@ -37910,7 +37910,7 @@ if
 mFrame
 )
 return
-PR_FALSE
+false
 ;
 mInOverflowLines
 =
@@ -37938,7 +37938,7 @@ end_lines
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -37987,7 +37987,7 @@ list
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -38452,7 +38452,7 @@ prev
 >
 SetInvalidateTextRuns
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -38490,7 +38490,7 @@ back
 >
 SetInvalidateTextRuns
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -38571,7 +38571,7 @@ line
 >
 SetInvalidateTextRuns
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -39097,7 +39097,7 @@ DeleteNextInFlowChild
 (
 presContext
 deletedNextContinuation
-PR_FALSE
+false
 )
 ;
 deletedNextContinuation
@@ -39491,7 +39491,7 @@ MarkPreviousMarginDirty
 }
 haveAdvancedToNextLine
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -39548,7 +39548,7 @@ line
 ;
 haveAdvancedToNextLine
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -39851,7 +39851,7 @@ next
 >
 SetInvalidateTextRuns
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -39860,7 +39860,7 @@ ifdef
 DEBUG
 VerifyLines
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -41366,7 +41366,7 @@ mFlags
 .
 mIsTopOfPage
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -41521,7 +41521,7 @@ brc
 ReflowBlock
 (
 aAdjustedAvailableSpace
-PR_TRUE
+true
 margin
 0
 isAdjacentWithTop
@@ -43585,7 +43585,7 @@ html
 body
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -43611,7 +43611,7 @@ aSelection
 ContainsNode
 (
 node
-PR_TRUE
+true
 &
 visible
 )
@@ -44855,7 +44855,7 @@ lastYMost
 {
 nonDecreasingYs
 =
-PR_FALSE
+false
 ;
 }
 lastY
@@ -47101,7 +47101,7 @@ IsHTML
 )
 )
 return
-PR_FALSE
+false
 ;
 nsIAtom
 *
@@ -47203,7 +47203,7 @@ list
 items
 .
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -47371,7 +47371,7 @@ if
 foundValidLine
 )
 return
-PR_FALSE
+false
 ;
 bool
 renumberedABullet
@@ -47446,7 +47446,7 @@ MarkDirty
 ;
 renumberedABullet
 =
-PR_TRUE
+true
 ;
 }
 kid
@@ -47533,7 +47533,7 @@ MAX_DEPTH_FOR_LIST_RENUMBERING
 aDepth
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -47609,7 +47609,7 @@ if
 kid
 )
 return
-PR_FALSE
+false
 ;
 bool
 kidRenumberedABullet
@@ -47736,7 +47736,7 @@ changed
 {
 kidRenumberedABullet
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -47828,7 +47828,7 @@ meToo
 {
 kidRenumberedABullet
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -48914,7 +48914,7 @@ GetFirstPrincipalChild
 )
 aList
 aFromOverflow
-PR_TRUE
+true
 )
 ;
 /
@@ -48974,7 +48974,7 @@ kOverflowList
 )
 aList
 aFromOverflow
-PR_TRUE
+true
 )
 ;
 }
@@ -49173,7 +49173,7 @@ IsDirty
 {
 anyLineDirty
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -49263,7 +49263,7 @@ f
 {
 equal
 =
-PR_FALSE
+false
 ;
 }
 +
@@ -50547,7 +50547,7 @@ IsBlock
 {
 seenBlock
 =
-PR_TRUE
+true
 ;
 }
 if

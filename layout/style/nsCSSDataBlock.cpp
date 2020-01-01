@@ -1846,10 +1846,10 @@ oldValue
 *
 aChanged
 =
-PR_FALSE
+false
 ;
 return
-PR_FALSE
+false
 ;
 }
 *
@@ -1876,7 +1876,7 @@ aProperty
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsCSSCompressedDataBlock
@@ -2610,7 +2610,7 @@ AssertInitialState
 DoExpand
 (
 aNormalBlock
-PR_FALSE
+false
 )
 ;
 if
@@ -2621,7 +2621,7 @@ aImportantBlock
 DoExpand
 (
 aImportantBlock
-PR_TRUE
+true
 )
 ;
 }
@@ -3628,7 +3628,7 @@ aPropID
 )
 changed
 =
-PR_TRUE
+true
 ;
 SetImportantBit
 (
@@ -3714,12 +3714,12 @@ aPropID
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 changed
 =
-PR_TRUE
+true
 ;
 ClearImportantBit
 (

@@ -710,7 +710,7 @@ mSegmentSize
 )
 mWriteInProgress
 (
-PR_FALSE
+false
 )
 mLastSegmentNum
 (
@@ -1010,7 +1010,7 @@ this
 ;
 mWriteInProgress
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1032,7 +1032,7 @@ NS_ERROR_NOT_INITIALIZED
 ;
 mWriteInProgress
 =
-PR_FALSE
+false
 ;
 PRInt32
 segmentOffset
@@ -1349,7 +1349,7 @@ firstTime
 {
 firstTime
 =
-PR_FALSE
+false
 ;
 availableInSegment
 =
@@ -1610,7 +1610,7 @@ aNonBlocking
 *
 aNonBlocking
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2710,7 +2710,7 @@ isWriteInProgress
 )
 isWriteInProgress
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2767,7 +2767,7 @@ errors
 *
 aNonBlocking
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

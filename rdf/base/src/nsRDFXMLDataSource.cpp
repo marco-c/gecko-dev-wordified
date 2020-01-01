@@ -2485,11 +2485,11 @@ void
 :
 mIsWritable
 (
-PR_TRUE
+true
 )
 mIsDirty
 (
-PR_FALSE
+false
 )
 mLoadState
 (
@@ -3498,7 +3498,7 @@ kResourceURIPrefix
 {
 mIsWritable
 =
-PR_FALSE
+false
 ;
 }
 rv
@@ -3509,7 +3509,7 @@ gRDFService
 RegisterDataSource
 (
 this
-PR_FALSE
+false
 )
 ;
 if
@@ -3830,7 +3830,7 @@ NS_RDF_ASSERTION_ACCEPTED
 )
 mIsDirty
 =
-PR_TRUE
+true
 ;
 return
 rv
@@ -3931,7 +3931,7 @@ NS_RDF_ASSERTION_ACCEPTED
 )
 mIsDirty
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -4006,7 +4006,7 @@ NS_RDF_ASSERTION_ACCEPTED
 )
 mIsDirty
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -4081,7 +4081,7 @@ NS_RDF_ASSERTION_ACCEPTED
 )
 mIsDirty
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -4737,7 +4737,7 @@ mURL
 {
 mIsDirty
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -4864,7 +4864,7 @@ aIsReadOnly
 )
 mIsWritable
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -5023,7 +5023,7 @@ oldPrincipal
 CheckMayLoad
 (
 newURI
-PR_FALSE
+false
 )
 ;
 if
@@ -5048,7 +5048,7 @@ oldPrincipal
 CheckMayLoad
 (
 newOriginalURI
-PR_FALSE
+false
 )
 ;
 }

@@ -1940,7 +1940,7 @@ aName
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -3332,7 +3332,7 @@ children
 AppendElement
 (
 child
-PR_FALSE
+false
 )
 ;
 }
@@ -3357,7 +3357,7 @@ GetAllowsAnonChildAccessibles
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -3577,7 +3577,7 @@ hidden
 *
 aIsOffscreen
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3586,7 +3586,7 @@ IsDefunct
 )
 )
 return
-PR_FALSE
+false
 ;
 const
 PRUint16
@@ -3630,7 +3630,7 @@ if
 shell
 )
 return
-PR_FALSE
+false
 ;
 nsIFrame
 *
@@ -3647,7 +3647,7 @@ frame
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3681,7 +3681,7 @@ IsVisible
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3995,7 +3995,7 @@ non
 zero
 size
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -4042,7 +4042,7 @@ nsRectVisibility_kVisible
 *
 aIsOffscreen
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -6538,7 +6538,7 @@ NS_LITERAL_STRING
 true
 "
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -6553,7 +6553,7 @@ nsGkAtoms
 :
 :
 aria_selected
-PR_TRUE
+true
 )
 ;
 }
@@ -6647,7 +6647,7 @@ ClearSelection
 return
 SetSelected
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -6879,7 +6879,7 @@ nsGkAtoms
 :
 aria_activedescendant
 id
-PR_TRUE
+true
 )
 ;
 }
@@ -8782,7 +8782,7 @@ mContent
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 NS_ENSURE_STATE
@@ -10978,7 +10978,7 @@ nsGkAtoms
 :
 aria_valuenow
 newValue
-PR_TRUE
+true
 )
 ;
 }
@@ -13393,7 +13393,7 @@ relations
 AppendElement
 (
 relation
-PR_FALSE
+false
 )
 ;
 }
@@ -13925,7 +13925,7 @@ aIsSelected
 *
 aIsSelected
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -14013,7 +14013,7 @@ aIsMultiSelect
 *
 aIsMultiSelect
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -14394,7 +14394,7 @@ aValid
 *
 aValid
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -14444,7 +14444,7 @@ aSelected
 *
 aSelected
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -15192,7 +15192,7 @@ if
 aChild
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -15205,7 +15205,7 @@ aChild
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -15239,7 +15239,7 @@ Length
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -15261,7 +15261,7 @@ if
 aChild
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -15275,7 +15275,7 @@ aChild
 )
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -15364,7 +15364,7 @@ aIndex
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -15384,7 +15384,7 @@ if
 aChild
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -15407,7 +15407,7 @@ mIndexInParent
 1
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 index
@@ -15474,7 +15474,7 @@ UnbindFromParent
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -15554,7 +15554,7 @@ mEmbeddedObjCollector
 nsnull
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsAccessible
@@ -16584,7 +16584,7 @@ selectedItems
 AppendElement
 (
 selected
-PR_FALSE
+false
 )
 ;
 nsIMutableArray
@@ -16857,7 +16857,7 @@ selected
 >
 SetSelected
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -16935,7 +16935,7 @@ selected
 >
 SetSelected
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -17003,7 +17003,7 @@ selectable
 >
 SetSelected
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -17066,7 +17066,7 @@ selected
 >
 SetSelected
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -17973,7 +17973,7 @@ nsIDOMNodeFilter
 :
 SHOW_TEXT
 nsnull
-PR_FALSE
+false
 getter_AddRefs
 (
 walker

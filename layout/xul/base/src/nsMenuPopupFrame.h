@@ -1208,7 +1208,7 @@ consumed
 ?
 *
 Return
-PR_TRUE
+true
 if
 the
 popup
@@ -1236,7 +1236,7 @@ else
 .
 *
 Return
-PR_FALSE
+false
 to
 allow
 clicks
@@ -1706,7 +1706,7 @@ SetGeneratedChildren
 {
 mGeneratedChildren
 =
-PR_TRUE
+true
 ;
 }
 /

@@ -1885,7 +1885,7 @@ set
 *
 mIsAuto
 :
-PR_TRUE
+true
 if
 the
 view
@@ -1905,7 +1905,7 @@ zindex
 :
 auto
 *
-PR_TRUE
+true
 if
 the
 view
@@ -2018,12 +2018,12 @@ views
 .
 *
 result
-PR_TRUE
+true
 if
 the
 view
 floats
-PR_FALSE
+false
 otherwise
 .
 *
@@ -2942,7 +2942,7 @@ mWindow
 *
 *
 Returns
-PR_TRUE
+true
 if
 the
 view

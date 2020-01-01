@@ -844,7 +844,7 @@ mIsAutoArray
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1300,7 +1300,7 @@ mHdr
 mCapacity
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -1404,7 +1404,7 @@ array
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1456,7 +1456,7 @@ if
 header
 )
 return
-PR_FALSE
+false
 ;
 header
 -
@@ -1484,7 +1484,7 @@ mHdr
 header
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1754,7 +1754,7 @@ if
 header
 )
 return
-PR_FALSE
+false
 ;
 memcpy
 (
@@ -1806,7 +1806,7 @@ if
 header
 )
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1864,7 +1864,7 @@ mHdr
 header
 ;
 return
-PR_TRUE
+true
 ;
 }
 template
@@ -2352,7 +2352,7 @@ Capacity
 newLen
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -2389,7 +2389,7 @@ elemAlign
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2845,7 +2845,7 @@ elemSize
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 Header
@@ -2867,7 +2867,7 @@ mHdr
 temp
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -3059,7 +3059,7 @@ elemSize
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3316,7 +3316,7 @@ elemSize
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 memcpy
@@ -3443,7 +3443,7 @@ mLength
 tempLength
 ;
 return
-PR_TRUE
+true
 ;
 }
 template
@@ -3554,7 +3554,7 @@ EmptyHdr
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 size_type
@@ -3596,7 +3596,7 @@ if
 header
 )
 return
-PR_FALSE
+false
 ;
 memcpy
 (
@@ -3620,6 +3620,6 @@ header
 ;
 }
 return
-PR_TRUE
+true
 ;
 }

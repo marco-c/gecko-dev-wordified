@@ -2184,7 +2184,7 @@ nsIWebNavigation
 :
 :
 LOAD_FLAGS_NONE
-PR_TRUE
+true
 )
 ;
 }
@@ -2591,7 +2591,7 @@ getter_AddRefs
 (
 uri
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -2732,7 +2732,7 @@ getter_AddRefs
 (
 uri
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -3006,7 +3006,7 @@ SetHrefWithContext
 (
 cx
 aHref
-PR_FALSE
+false
 )
 ;
 }
@@ -3055,7 +3055,7 @@ SetHrefWithBase
 (
 aHref
 oldUri
-PR_FALSE
+false
 )
 ;
 }
@@ -3712,7 +3712,7 @@ getter_AddRefs
 (
 uri
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -4669,7 +4669,7 @@ SetHrefWithContext
 (
 cx
 aUrl
-PR_TRUE
+true
 )
 ;
 }
@@ -4718,7 +4718,7 @@ SetHrefWithBase
 (
 aUrl
 oldUri
-PR_TRUE
+true
 )
 ;
 }
@@ -4785,7 +4785,7 @@ SetHrefWithBase
 (
 aUrl
 oldUri
-PR_FALSE
+false
 )
 ;
 }

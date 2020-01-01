@@ -903,7 +903,7 @@ Length
 2
 )
 return
-PR_FALSE
+false
 ;
 nsACString
 :
@@ -963,7 +963,7 @@ as
 '
 )
 return
-PR_TRUE
+true
 ;
 +
 +
@@ -992,7 +992,7 @@ bs
 be
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -1046,7 +1046,7 @@ as
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsChromeRegistryChrome
@@ -1058,7 +1058,7 @@ nsChromeRegistryChrome
 :
 mProfileLoaded
 (
-PR_FALSE
+false
 )
 {
 mPackagesHash
@@ -1333,7 +1333,7 @@ AddObserver
 (
 MATCH_OS_LOCALE_PREF
 this
-PR_TRUE
+true
 )
 ;
 rv
@@ -1345,7 +1345,7 @@ AddObserver
 (
 SELECTED_LOCALE_PREF
 this
-PR_TRUE
+true
 )
 ;
 rv
@@ -1357,7 +1357,7 @@ AddObserver
 (
 SELECTED_SKIN_PREF
 this
-PR_TRUE
+true
 )
 ;
 }
@@ -1396,7 +1396,7 @@ line
 -
 startup
 "
-PR_TRUE
+true
 )
 ;
 obsService
@@ -1412,7 +1412,7 @@ initial
 -
 state
 "
-PR_TRUE
+true
 )
 ;
 }
@@ -1705,7 +1705,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 nsCAutoString
 locale
@@ -2348,7 +2348,7 @@ NS_LITERAL_STRING
 (
 UILOCALE_CMD_LINE_ARG
 )
-PR_FALSE
+false
 uiLocale
 )
 ;
@@ -2423,7 +2423,7 @@ aTopic
 {
 mProfileLoaded
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3496,7 +3496,7 @@ str
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 const

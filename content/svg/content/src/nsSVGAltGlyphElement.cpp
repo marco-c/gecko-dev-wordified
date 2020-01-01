@@ -671,7 +671,7 @@ nsGkAtoms
 :
 href
 kNameSpaceID_XLink
-PR_FALSE
+false
 }
 }
 ;
@@ -1206,7 +1206,7 @@ nsGkAtoms
 :
 glyphRef
 aGlyphRef
-PR_TRUE
+true
 )
 ;
 }
@@ -1264,7 +1264,7 @@ nsGkAtoms
 :
 format
 aFormat
-PR_TRUE
+true
 )
 ;
 }

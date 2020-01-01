@@ -462,15 +462,15 @@ kNormalAnimMode
 )
 mInitialized
 (
-PR_FALSE
+false
 )
 mAnimating
 (
-PR_FALSE
+false
 )
 mError
 (
-PR_FALSE
+false
 )
 {
 if
@@ -1176,7 +1176,7 @@ StopAnimation
 ;
 mAnimating
 =
-PR_FALSE
+false
 ;
 }
 }

@@ -770,7 +770,7 @@ window
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return

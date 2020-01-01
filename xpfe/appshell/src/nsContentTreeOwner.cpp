@@ -1074,7 +1074,7 @@ fPrimary
 )
 mContentTitleSetting
 (
-PR_FALSE
+false
 )
 {
 /
@@ -2373,7 +2373,7 @@ looking
 .
 fIs_Content
 =
-PR_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -3009,7 +3009,7 @@ index
 ;
 saveString
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3034,7 +3034,7 @@ screenX
 ;
 saveString
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -3074,7 +3074,7 @@ index
 ;
 saveString
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3099,7 +3099,7 @@ screenY
 ;
 saveString
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -3139,7 +3139,7 @@ index
 ;
 saveString
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3164,7 +3164,7 @@ width
 ;
 saveString
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -3204,7 +3204,7 @@ index
 ;
 saveString
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3229,7 +3229,7 @@ height
 ;
 saveString
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -3271,7 +3271,7 @@ index
 ;
 saveString
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3298,7 +3298,7 @@ sizemode
 ;
 saveString
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -3454,9 +3454,9 @@ screenY
 =
 0
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 if
 (
@@ -3490,9 +3490,9 @@ height
 =
 0
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 if
 (
@@ -3513,9 +3513,9 @@ sizemode
 =
 0
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -4754,7 +4754,7 @@ x
 y
 cx
 cy
-PR_FALSE
+false
 )
 NS_ERROR_FAILURE
 )
@@ -4773,7 +4773,7 @@ Create
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 You
 can
@@ -5069,7 +5069,7 @@ aParentWidget
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 You
 can
@@ -5122,7 +5122,7 @@ aParentNativeWindow
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 You
 can
@@ -6989,7 +6989,7 @@ true
 {
 mContentTitleSetting
 =
-PR_TRUE
+true
 ;
 docShellElement
 -
@@ -7420,7 +7420,7 @@ aX
 aY
 aCX
 aCY
-PR_TRUE
+true
 )
 ;
 }
@@ -7685,7 +7685,7 @@ windowMediator
 GetZOrderXULWindowEnumerator
 (
 0
-PR_TRUE
+true
 getter_AddRefs
 (
 windowEnumerator
@@ -7712,7 +7712,7 @@ level
 windows
 foundUs
 =
-PR_FALSE
+false
 ;
 windowEnumerator
 -
@@ -7814,7 +7814,7 @@ ourWindow
 )
 foundUs
 =
-PR_TRUE
+true
 ;
 windowEnumerator
 -

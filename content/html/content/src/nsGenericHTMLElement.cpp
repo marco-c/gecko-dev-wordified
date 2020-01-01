@@ -1242,7 +1242,7 @@ aData
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -2044,7 +2044,7 @@ aDst
 SetInlineStyleRule
 (
 styleRule
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2093,7 +2093,7 @@ GetPrefix
 (
 )
 valStr
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2148,7 +2148,7 @@ nsContentUtils
 CheckQName
 (
 aName
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2212,7 +2212,7 @@ SetAttr
 kNameSpaceID_None
 nameAtom
 aValue
-PR_TRUE
+true
 )
 ;
 }
@@ -2238,7 +2238,7 @@ GetPrefix
 (
 )
 aValue
-PR_TRUE
+true
 )
 ;
 }
@@ -2422,7 +2422,7 @@ nsGkAtoms
 :
 id
 aId
-PR_TRUE
+true
 )
 ;
 return
@@ -2474,7 +2474,7 @@ nsGkAtoms
 :
 title
 aTitle
-PR_TRUE
+true
 )
 ;
 return
@@ -2526,7 +2526,7 @@ nsGkAtoms
 :
 lang
 aLang
-PR_TRUE
+true
 )
 ;
 return
@@ -2613,7 +2613,7 @@ nsGkAtoms
 :
 _class
 aClassName
-PR_TRUE
+true
 )
 ;
 return
@@ -4267,7 +4267,7 @@ updateBatch
 (
 doc
 UPDATE_CONTENT_MODEL
-PR_TRUE
+true
 )
 ;
 /
@@ -4301,7 +4301,7 @@ i
 RemoveChildAt
 (
 0
-PR_TRUE
+true
 )
 ;
 }
@@ -4358,7 +4358,7 @@ GetCompatibilityMode
 =
 =
 eCompatibility_NavQuirks
-PR_TRUE
+true
 )
 ;
 /
@@ -4392,7 +4392,7 @@ CreateContextualFragment
 (
 this
 aInnerHTML
-PR_TRUE
+true
 getter_AddRefs
 (
 df
@@ -4662,7 +4662,7 @@ updateBatch
 (
 doc
 UPDATE_CONTENT_MODEL
-PR_TRUE
+true
 )
 ;
 nsAutoScriptLoaderDisabler
@@ -4873,7 +4873,7 @@ GetCompatibilityMode
 =
 =
 eCompatibility_NavQuirks
-PR_TRUE
+true
 )
 ;
 /
@@ -4921,7 +4921,7 @@ CreateContextualFragment
 (
 destination
 aText
-PR_TRUE
+true
 getter_AddRefs
 (
 df
@@ -5159,7 +5159,7 @@ optional_argc
 {
 aTop
 =
-PR_TRUE
+true
 ;
 }
 PRIntn
@@ -5208,7 +5208,7 @@ aSpellcheck
 *
 aSpellcheck
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -5313,7 +5313,7 @@ true
 *
 aSpellcheck
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -5470,7 +5470,7 @@ NS_FORM_TEXTAREA
 *
 aSpellcheck
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -5613,7 +5613,7 @@ line
 *
 aSpellcheck
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -6560,7 +6560,7 @@ without
 one
 ?
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -7253,7 +7253,7 @@ nsHTMLFramesetElement
 *
 aDefer
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -7298,7 +7298,7 @@ piTarget
 >
 GetListenerManager
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -7581,7 +7581,7 @@ contenteditable
 {
 contentEditable
 =
-PR_TRUE
+true
 ;
 contentEditableChange
 =
@@ -7650,7 +7650,7 @@ manager
 =
 GetListenerManager
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -7959,7 +7959,7 @@ ParseEnumValue
 (
 aValue
 kDirTable
-PR_FALSE
+false
 )
 ;
 }
@@ -8046,7 +8046,7 @@ ClearHasName
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 aResult
@@ -8081,7 +8081,7 @@ GetAtomValue
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -8103,7 +8103,7 @@ aValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -8374,7 +8374,7 @@ key
 GetLayoutHistoryAndKey
 (
 aContent
-PR_FALSE
+false
 getter_AddRefs
 (
 history
@@ -8736,7 +8736,7 @@ rv
 GetLayoutHistoryAndKey
 (
 aContent
-PR_TRUE
+true
 getter_AddRefs
 (
 history
@@ -8751,7 +8751,7 @@ history
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsPresState
@@ -8808,7 +8808,7 @@ result
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -9173,7 +9173,7 @@ ParseEnumValue
 (
 aString
 kAlignTable
-PR_FALSE
+false
 )
 ;
 }
@@ -9287,7 +9287,7 @@ ParseEnumValue
 (
 aString
 kTableHAlignTable
-PR_FALSE
+false
 )
 ;
 }
@@ -9429,7 +9429,7 @@ ParseEnumValue
 (
 aString
 kTableCellHAlignTable
-PR_FALSE
+false
 )
 ;
 }
@@ -9497,7 +9497,7 @@ ParseEnumValue
 (
 aString
 kTableVAlignTable
-PR_FALSE
+false
 )
 ;
 }
@@ -9523,7 +9523,7 @@ ParseEnumValue
 (
 aString
 kDivAlignTable
-PR_FALSE
+false
 )
 ;
 }
@@ -9625,7 +9625,7 @@ aString
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -9650,7 +9650,7 @@ ParseEnumValue
 (
 aString
 kFrameborderTable
-PR_FALSE
+false
 )
 ;
 }
@@ -9676,7 +9676,7 @@ ParseEnumValue
 (
 aString
 kScrollingTable
-PR_FALSE
+false
 )
 ;
 }
@@ -10080,7 +10080,7 @@ NODE_IS_EDITABLE
 {
 DoSetEditableFlag
 (
-PR_TRUE
+true
 aNotify
 )
 ;
@@ -10092,13 +10092,13 @@ if
 !
 IsTextControl
 (
-PR_FALSE
+false
 )
 )
 {
 DoSetEditableFlag
 (
-PR_FALSE
+false
 aNotify
 )
 ;
@@ -12787,7 +12787,7 @@ SetAttr
 kNameSpaceID_None
 aAttr
 aValue
-PR_TRUE
+true
 )
 ;
 }
@@ -12817,7 +12817,7 @@ aAttr
 EmptyString
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -12826,7 +12826,7 @@ UnsetAttr
 (
 kNameSpaceID_None
 aAttr
-PR_TRUE
+true
 )
 ;
 }
@@ -12957,7 +12957,7 @@ SetAttr
 kNameSpaceID_None
 aAttr
 value
-PR_TRUE
+true
 )
 ;
 }
@@ -13060,7 +13060,7 @@ SetAttr
 kNameSpaceID_None
 aAttr
 value
-PR_TRUE
+true
 )
 ;
 }
@@ -13163,7 +13163,7 @@ SetAttr
 kNameSpaceID_None
 aAttr
 value
-PR_TRUE
+true
 )
 ;
 }
@@ -13307,7 +13307,7 @@ attr
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -13372,7 +13372,7 @@ rv
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 baseURI
@@ -13404,7 +13404,7 @@ to
 /
 /
 return
-PR_TRUE
+true
 and
 *
 aURI
@@ -13431,7 +13431,7 @@ baseURI
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -13765,7 +13765,7 @@ attrVal
 GetEnumString
 (
 aResult
-PR_TRUE
+true
 )
 ;
 }
@@ -13900,7 +13900,7 @@ nsGkAtoms
 :
 :
 contenteditable
-PR_TRUE
+true
 )
 ;
 return
@@ -13943,7 +13943,7 @@ nsGkAtoms
 :
 contenteditable
 contentEditable
-PR_TRUE
+true
 )
 ;
 return
@@ -14035,7 +14035,7 @@ NS_OK
 *
 aContentEditable
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -14757,7 +14757,7 @@ aTabIndex
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 *
@@ -14789,7 +14789,7 @@ aTabIndex
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -15068,7 +15068,7 @@ state
 .
 UpdateFieldSet
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -15126,7 +15126,7 @@ more
 form
 ClearForm
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -15164,7 +15164,7 @@ mForm
 {
 ClearForm
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -15274,7 +15274,7 @@ anymore
 .
 UpdateFieldSet
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -16039,7 +16039,7 @@ formControlFrame
 =
 GetFormControlFrame
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -16069,8 +16069,8 @@ formControlFrame
 >
 SetFocus
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 break
@@ -16086,7 +16086,7 @@ formControlFrame
 =
 GetFormControlFrame
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -16098,8 +16098,8 @@ formControlFrame
 >
 SetFocus
 (
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 break
@@ -16265,7 +16265,7 @@ aTabIndex
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -16292,7 +16292,7 @@ aIsFocusable
 #
 endif
 return
-PR_FALSE
+false
 ;
 }
 nsEventStates
@@ -16749,7 +16749,7 @@ AddIDTargetObserver
 atom
 FormIdUpdated
 this
-PR_FALSE
+false
 )
 ;
 }
@@ -16956,7 +16956,7 @@ RemoveIDTargetObserver
 atom
 FormIdUpdated
 this
-PR_FALSE
+false
 )
 ;
 }
@@ -17023,7 +17023,7 @@ aNewElement
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -17159,7 +17159,7 @@ this
 ;
 ClearForm
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -18424,7 +18424,7 @@ flag
 .
 mNetworkCreated
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -18742,7 +18742,7 @@ nsFrameLoader
 Create
 (
 dest
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_STATE
@@ -19535,10 +19535,10 @@ aTabIndex
 *
 aIsFocusable
 =
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 PRInt32
@@ -19591,7 +19591,7 @@ focusable
 .
 override
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -19648,7 +19648,7 @@ else
 {
 override
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -20236,7 +20236,7 @@ bodyElement
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -20259,7 +20259,7 @@ htmlDocument
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -20498,7 +20498,7 @@ AddScriptEventListener
 (
 attr
 value
-PR_TRUE
+true
 )
 ;
 }
@@ -20527,7 +20527,7 @@ document
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -20542,7 +20542,7 @@ NODE_IS_EDITABLE
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -20556,7 +20556,7 @@ eTrue
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIContent
@@ -20654,7 +20654,7 @@ aContent
 >
 UpdateEditableState
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -20676,7 +20676,7 @@ element
 >
 UpdateEditableState
 (
-PR_TRUE
+true
 )
 ;
 for

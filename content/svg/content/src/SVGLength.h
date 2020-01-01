@@ -740,7 +740,7 @@ const
 This
 method
 returns
-PR_TRUE
+true
 unless
 there
 was
@@ -753,7 +753,7 @@ which
 case
 it
 returns
-PR_FALSE
+false
 (
 and
 the
@@ -1076,7 +1076,7 @@ unchanged
 This
 method
 returns
-PR_TRUE
+true
 unless
 the
 user
@@ -1100,7 +1100,7 @@ which
 case
 it
 returns
-PR_FALSE
+false
 *
 (
 and
@@ -1171,11 +1171,11 @@ SVGLength
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1258,7 +1258,7 @@ specified
 This
 method
 returns
-PR_TRUE
+true
 unless
 it
 isn
@@ -1288,7 +1288,7 @@ and
 this
 method
 returns
-PR_FALSE
+false
 .
 *
 /
@@ -1343,11 +1343,11 @@ SVGLength
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool

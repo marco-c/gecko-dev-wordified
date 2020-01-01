@@ -822,19 +822,19 @@ mContentLength
 )
 mDialogOpen
 (
-PR_FALSE
+false
 )
 mCancelled
 (
-PR_FALSE
+false
 )
 mNeedsShutdown
 (
-PR_FALSE
+false
 )
 mFromChrome
 (
-PR_FALSE
+false
 )
 {
 /
@@ -1085,7 +1085,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 mNeedsShutdown
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -1167,7 +1167,7 @@ item
 }
 mFromChrome
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -1386,7 +1386,7 @@ NS_OK
 ;
 mNeedsShutdown
 =
-PR_TRUE
+true
 ;
 mTriggers
 =
@@ -2139,7 +2139,7 @@ rv
 )
 OKtoInstall
 =
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -2504,7 +2504,7 @@ aRetval
 *
 aRetval
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -2739,9 +2739,9 @@ aRetval
 =
 buttonPressed
 ?
-PR_FALSE
+false
 :
-PR_TRUE
+true
 ;
 }
 }
@@ -2797,7 +2797,7 @@ if
 bundleSvc
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -2823,7 +2823,7 @@ if
 xpiBundle
 )
 return
-PR_FALSE
+false
 ;
 const
 PRUnichar
@@ -2953,7 +2953,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -3696,7 +3696,7 @@ to
 do
 mDialogOpen
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -3730,7 +3730,7 @@ AddObserver
 (
 this
 NS_IOSERVICE_GOING_OFFLINE_TOPIC
-PR_TRUE
+true
 )
 ;
 os
@@ -3744,7 +3744,7 @@ quit
 -
 application
 "
-PR_TRUE
+true
 )
 ;
 }
@@ -3800,7 +3800,7 @@ the
 download
 mCancelled
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3870,7 +3870,7 @@ application
 {
 mCancelled
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -6656,7 +6656,7 @@ aItem
 mHasher
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -6686,7 +6686,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
@@ -6710,7 +6710,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCAutoString
 binaryHash
@@ -6725,7 +6725,7 @@ mHasher
 >
 Finish
 (
-PR_FALSE
+false
 binaryHash
 )
 ;
@@ -6737,7 +6737,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 char
 *
@@ -6856,7 +6856,7 @@ mNeedsShutdown
 {
 mNeedsShutdown
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -7014,7 +7014,7 @@ mFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -8119,7 +8119,7 @@ mFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 mItem
@@ -8830,7 +8830,7 @@ _retval
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -8863,7 +8863,7 @@ _retval
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

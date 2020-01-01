@@ -565,8 +565,8 @@ testcomp
 service
 "
 NS_WALLETSERVICE_CONTRACTID
-PR_TRUE
-PR_TRUE
+true
+true
 getter_Copies
 (
 previous

@@ -1033,7 +1033,7 @@ UNINITIALIZED_VALUE
 ;
 mUsingGDIFonts
 =
-PR_FALSE
+false
 ;
 /
 *
@@ -1343,7 +1343,7 @@ FEATURE_NO_INFO
 {
 d2dDisabled
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1367,7 +1367,7 @@ FEATURE_BLOCKED_DEVICE
 {
 d2dBlocked
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1482,7 +1482,7 @@ RENDER_DIRECT2D
 ;
 mUseDirectWrite
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2200,11 +2200,11 @@ of
 Windows
 7
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -2220,7 +2220,7 @@ CreatePlatformFontList
 {
 mUsingGDIFonts
 =
-PR_FALSE
+false
 ;
 gfxPlatformFontList
 *
@@ -2331,7 +2331,7 @@ gfxGDIFontList
 ;
 mUsingGDIFonts
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2897,7 +2897,7 @@ resolvedName
 {
 aAborted
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3119,7 +3119,7 @@ FLAG_FORMAT_TRUETYPE
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -3140,7 +3140,7 @@ aFormatFlags
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3155,7 +3155,7 @@ look
 at
 data
 return
-PR_TRUE
+true
 ;
 }
 gfxFontFamily
@@ -4481,7 +4481,7 @@ else
 {
 clearTextFontCaches
 =
-PR_FALSE
+false
 ;
 }
 if

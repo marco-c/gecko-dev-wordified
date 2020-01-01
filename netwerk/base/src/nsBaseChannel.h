@@ -1187,7 +1187,7 @@ statusArg
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -2071,7 +2071,7 @@ nsnull
 ;
 mQueriedProgressSink
 =
-PR_FALSE
+false
 ;
 OnCallbacksChanged
 (

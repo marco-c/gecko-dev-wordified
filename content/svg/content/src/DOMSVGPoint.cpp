@@ -715,7 +715,7 @@ HasOwner
 )
 =
 =
-PR_FALSE
+false
 }
 #
 endif
@@ -790,7 +790,7 @@ Element
 >
 DidChangePointList
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -874,7 +874,7 @@ HasOwner
 )
 =
 =
-PR_FALSE
+false
 }
 #
 endif
@@ -949,7 +949,7 @@ Element
 >
 DidChangePointList
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -1136,7 +1136,7 @@ aListIndex
 ;
 mIsReadonly
 =
-PR_FALSE
+false
 ;
 mIsAnimValItem
 =
@@ -1189,7 +1189,7 @@ list
 ;
 mIsAnimValItem
 =
-PR_FALSE
+false
 ;
 }
 SVGPoint

@@ -610,7 +610,7 @@ nsGkAtoms
 :
 href
 kNameSpaceID_XLink
-PR_TRUE
+true
 }
 }
 ;
@@ -1610,7 +1610,7 @@ aValue
 {
 LoadSVGImage
 (
-PR_TRUE
+true
 aNotify
 )
 ;
@@ -1662,8 +1662,8 @@ NS_FAILED
 (
 LoadSVGImage
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 )
 |
@@ -1677,7 +1677,7 @@ LoadingEnabled
 {
 CancelImageRequests
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2177,8 +2177,8 @@ HREF
 {
 LoadSVGImage
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 return

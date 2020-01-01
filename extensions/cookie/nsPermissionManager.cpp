@@ -1388,7 +1388,7 @@ before
 -
 change
 "
-PR_TRUE
+true
 )
 ;
 mObserverService
@@ -1404,7 +1404,7 @@ do
 -
 change
 "
-PR_TRUE
+true
 )
 ;
 }
@@ -1568,7 +1568,7 @@ this
 ?
 InitDB
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -1667,7 +1667,7 @@ permissionsFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1757,7 +1757,7 @@ permissionsFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2955,7 +2955,7 @@ aType
 get
 (
 )
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_TRUE
@@ -3826,7 +3826,7 @@ rv
 =
 InitDB
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -3862,7 +3862,7 @@ CommonTestPermission
 aURI
 aType
 aPermission
-PR_TRUE
+true
 )
 ;
 }
@@ -3890,7 +3890,7 @@ CommonTestPermission
 aURI
 aType
 aPermission
-PR_FALSE
+false
 )
 ;
 }
@@ -4043,7 +4043,7 @@ typeIndex
 GetTypeIndex
 (
 aType
-PR_FALSE
+false
 )
 ;
 /
@@ -4763,7 +4763,7 @@ new
 location
 InitDB
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -5829,7 +5829,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_TRUE
+true
 )
 ;
 /
@@ -6104,7 +6104,7 @@ permissionsFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 return

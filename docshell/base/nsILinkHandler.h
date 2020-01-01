@@ -579,7 +579,7 @@ aHeadersDataStream
 *
 param
 aIsTrusted
-PR_FALSE
+false
 if
 the
 triggerer

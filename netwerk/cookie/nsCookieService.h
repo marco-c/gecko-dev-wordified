@@ -812,7 +812,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 inline

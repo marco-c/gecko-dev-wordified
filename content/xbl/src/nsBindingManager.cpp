@@ -1825,7 +1825,7 @@ entry
 ObjectEntry
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -2360,7 +2360,7 @@ tmp
 >
 mDestroyed
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2811,11 +2811,11 @@ aDocument
 :
 mProcessingAttachedStack
 (
-PR_FALSE
+false
 )
 mDestroyed
 (
-PR_FALSE
+false
 )
 mAttachedStackSizeOnOutermost
 (
@@ -2862,7 +2862,7 @@ void
 {
 mDestroyed
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -4312,7 +4312,7 @@ result
 *
 aIsAnonymousContentList
 =
-PR_FALSE
+false
 ;
 nsXBLBinding
 *
@@ -4343,7 +4343,7 @@ else
 *
 aIsAnonymousContentList
 =
-PR_TRUE
+true
 ;
 return
 result
@@ -4609,7 +4609,7 @@ aContent
 *
 aIsAnonymousContentList
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4758,7 +4758,7 @@ aMultipleInsertionPoints
 *
 aMultipleInsertionPoints
 =
-PR_FALSE
+false
 ;
 return
 nsnull
@@ -4846,7 +4846,7 @@ LoadBindings
 aContent
 aURL
 aOriginPrincipal
-PR_TRUE
+true
 getter_AddRefs
 (
 binding
@@ -5346,7 +5346,7 @@ nsnull
 aBoundDoc
 aURL
 aOriginPrincipal
-PR_TRUE
+true
 getter_AddRefs
 (
 info
@@ -5622,7 +5622,7 @@ doc
 >
 UnblockOnload
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -5657,7 +5657,7 @@ NS_TIME_FUNCTION
 ;
 mProcessingAttachedStack
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -5753,7 +5753,7 @@ mDocument
 {
 mProcessingAttachedStack
 =
-PR_FALSE
+false
 ;
 }
 NS_ASSERTION
@@ -7115,7 +7115,7 @@ aCutOffInheritance
 *
 aCutOffInheritance
 =
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -7746,7 +7746,7 @@ aRulesChanged
 *
 aRulesChanged
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -8100,7 +8100,7 @@ aMultipleInsertionPoints
 *
 aMultipleInsertionPoints
 =
-PR_FALSE
+false
 ;
 PRUint32
 index
@@ -8787,7 +8787,7 @@ GetChildAt
 idx
 )
 idx
-PR_TRUE
+true
 )
 ;
 }
@@ -8810,7 +8810,7 @@ FindInsertionPointAndIndex
 aContainer
 ins
 aNewIndexInContainer
-PR_TRUE
+true
 &
 insertionIndex
 )
@@ -8946,7 +8946,7 @@ HandleChildInsertion
 aContainer
 aChild
 aIndexInContainer
-PR_FALSE
+false
 )
 ;
 }
@@ -9279,7 +9279,7 @@ nodeList
 )
 )
 aChild
-PR_FALSE
+false
 )
 ;
 SetInsertionParent
@@ -9362,7 +9362,7 @@ otherNodeList
 )
 )
 aChild
-PR_FALSE
+false
 )
 ;
 }
@@ -9446,7 +9446,7 @@ RemoveChildFromInsertionPoint
 (
 insertionPointList
 aChild
-PR_TRUE
+true
 )
 ;
 }
@@ -9463,7 +9463,7 @@ DropDocumentReference
 {
 mDestroyed
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -9478,7 +9478,7 @@ XBL
 constructors
 mProcessingAttachedStack
 =
-PR_TRUE
+true
 ;
 if
 (

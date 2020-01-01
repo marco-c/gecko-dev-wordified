@@ -4490,8 +4490,8 @@ aDest
 return
 mdn_normalize
 (
-PR_FALSE
-PR_FALSE
+false
+false
 aSrc
 aDest
 )
@@ -4515,8 +4515,8 @@ aDest
 return
 mdn_normalize
 (
-PR_TRUE
-PR_FALSE
+true
+false
 aSrc
 aDest
 )
@@ -4540,8 +4540,8 @@ aDest
 return
 mdn_normalize
 (
-PR_FALSE
-PR_TRUE
+false
+true
 aSrc
 aDest
 )
@@ -4565,8 +4565,8 @@ aDest
 return
 mdn_normalize
 (
-PR_TRUE
-PR_TRUE
+true
+true
 aSrc
 aDest
 )

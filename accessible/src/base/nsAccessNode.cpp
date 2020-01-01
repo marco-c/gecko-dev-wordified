@@ -944,7 +944,7 @@ ifdef
 DEBUG_A11Y
 mIsInitialized
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -1141,7 +1141,7 @@ Init
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -1391,7 +1391,7 @@ gIsFormFillEnabled
 }
 NotifyA11yInitOrShutdown
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1591,7 +1591,7 @@ gApplicationAccessible
 }
 NotifyA11yInitOrShutdown
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2545,7 +2545,7 @@ fm
 GetFocusedElementForWindow
 (
 win
-PR_TRUE
+true
 getter_AddRefs
 (
 focusedWindow

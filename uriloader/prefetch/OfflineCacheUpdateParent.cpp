@@ -1150,7 +1150,7 @@ update
 AddObserver
 (
 this
-PR_FALSE
+false
 )
 ;
 if

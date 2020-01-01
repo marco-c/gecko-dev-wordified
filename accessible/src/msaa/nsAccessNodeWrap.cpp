@@ -4714,7 +4714,7 @@ if
 jhookhandle
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -5065,7 +5065,7 @@ Preferences
 SetBool
 (
 CTRLTAB_DISALLOW_FOR_SCREEN_READERS_PREF
-PR_TRUE
+true
 )
 ;
 }
@@ -5098,7 +5098,7 @@ not
 compatible
 gIsIA2Disabled
 =
-PR_TRUE
+true
 ;
 TurnOffNewTabSwitchingForJawsAndWE
 (

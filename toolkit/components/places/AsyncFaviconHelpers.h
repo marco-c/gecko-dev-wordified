@@ -695,7 +695,7 @@ guid
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }

@@ -1971,7 +1971,7 @@ operation
 aScrollToAnchor
 should
 be
-PR_TRUE
+true
 if
 you
 *
@@ -1989,7 +1989,7 @@ started
 .
 *
 If
-PR_FALSE
+false
 it
 attempts
 to
@@ -2545,7 +2545,7 @@ aNodeToKeep
 param
 aNodeToKeepIsFirst
 if
-PR_TRUE
+true
 the
 contents
 |
@@ -2773,7 +2773,7 @@ search
 param
 aEditableNode
 if
-PR_TRUE
+true
 only
 return
 an
@@ -2803,7 +2803,7 @@ nodes
 if
 aEditableNode
 is
-PR_TRUE
+true
 .
 *
 If
@@ -2903,7 +2903,7 @@ search
 param
 aEditableNode
 if
-PR_TRUE
+true
 only
 return
 an
@@ -2933,7 +2933,7 @@ nodes
 if
 aEditableNode
 is
-PR_TRUE
+true
 .
 *
 If
@@ -3086,7 +3086,7 @@ false
 *
 *
 returns
-PR_TRUE
+true
 if
 aNode
 is
@@ -3173,7 +3173,7 @@ aTag
 *
 *
 returns
-PR_TRUE
+true
 if
 aParent
 can
@@ -3227,7 +3227,7 @@ aChildTag
 *
 *
 returns
-PR_TRUE
+true
 if
 aNode
 is
@@ -3248,7 +3248,7 @@ inNode
 *
 *
 returns
-PR_TRUE
+true
 if
 aNode
 is
@@ -3272,7 +3272,7 @@ inNode
 *
 *
 returns
-PR_TRUE
+true
 if
 aNode
 is
@@ -3293,7 +3293,7 @@ aNode
 *
 *
 returns
-PR_TRUE
+true
 if
 aNode
 is
@@ -3323,7 +3323,7 @@ aNode
 *
 *
 returns
-PR_TRUE
+true
 if
 aNode
 is

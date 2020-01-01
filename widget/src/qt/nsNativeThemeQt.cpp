@@ -2331,11 +2331,11 @@ SizeTo
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -2379,7 +2379,7 @@ height
 *
 aIsOverridable
 =
-PR_TRUE
+true
 ;
 QStyle
 *
@@ -2626,7 +2626,7 @@ width
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -2675,7 +2675,7 @@ height
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -2725,7 +2725,7 @@ PM_ScrollBarSliderMin
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -2775,7 +2775,7 @@ PM_ScrollBarExtent
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -2958,7 +2958,7 @@ height
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3055,7 +3055,7 @@ height
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3144,7 +3144,7 @@ height
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3271,7 +3271,7 @@ height
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3466,7 +3466,7 @@ break
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -3508,13 +3508,13 @@ NS_THEME_CHECKBOX
 /
 /
 return
-PR_FALSE
+false
 ;
 /
 /
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -3554,11 +3554,11 @@ NS_THEME_TREEVIEW_HEADER_CELL
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -3570,7 +3570,7 @@ ThemeNeedsComboboxDropmarker
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 void

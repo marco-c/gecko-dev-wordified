@@ -840,7 +840,7 @@ aFoundResult
 *
 aFoundResult
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -907,7 +907,7 @@ aFoundResult
 *
 aFoundResult
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -1015,7 +1015,7 @@ aFoundResult
 *
 aFoundResult
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -1077,7 +1077,7 @@ aFoundResult
 *
 aFoundResult
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -1175,7 +1175,7 @@ aFoundResult
 *
 aFoundResult
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -1286,7 +1286,7 @@ aFoundResult
 *
 aFoundResult
 =
-PR_TRUE
+true
 ;
 }
 void

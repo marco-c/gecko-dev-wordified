@@ -674,7 +674,7 @@ Override
 IsPersistent
 to
 return
-PR_TRUE
+true
 if
 you
 want

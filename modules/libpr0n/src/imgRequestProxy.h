@@ -1213,7 +1213,7 @@ DoRemoveFromLoadGroup
 {
 RemoveFromLoadGroup
 (
-PR_TRUE
+true
 )
 ;
 }

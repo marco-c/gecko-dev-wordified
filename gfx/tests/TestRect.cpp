@@ -543,7 +543,7 @@ constructor
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -641,7 +641,7 @@ constructor
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 passed
@@ -652,7 +652,7 @@ TestConstructors
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 template
@@ -712,7 +712,7 @@ operator
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -743,7 +743,7 @@ operator
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -797,7 +797,7 @@ equal
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 passed
@@ -808,7 +808,7 @@ TestEqualityOperator
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 template
@@ -902,7 +902,7 @@ rect
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -953,7 +953,7 @@ edges
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1007,7 +1007,7 @@ extents
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1070,7 +1070,7 @@ rect1
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1129,7 +1129,7 @@ rect1
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -1194,7 +1194,7 @@ rect1
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -1259,7 +1259,7 @@ rect1
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -1324,7 +1324,7 @@ rect1
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -1341,7 +1341,7 @@ TestContainment
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1435,7 +1435,7 @@ rect1
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1500,7 +1500,7 @@ rect1
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -1545,7 +1545,7 @@ correctly
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1599,7 +1599,7 @@ rect1
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -1665,7 +1665,7 @@ left
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -1728,7 +1728,7 @@ rect1
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -1794,7 +1794,7 @@ top
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -1857,7 +1857,7 @@ rect1
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -1923,7 +1923,7 @@ right
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -1986,7 +1986,7 @@ rect1
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -2052,7 +2052,7 @@ bottom
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -2072,7 +2072,7 @@ TestIntersects
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2172,7 +2172,7 @@ rect1
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -2237,7 +2237,7 @@ rect1
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -2324,7 +2324,7 @@ rect1
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -2391,7 +2391,7 @@ left
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -2430,7 +2430,7 @@ returned
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -2518,7 +2518,7 @@ rect1
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -2585,7 +2585,7 @@ top
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -2624,7 +2624,7 @@ returned
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -2714,7 +2714,7 @@ rect1
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -2781,7 +2781,7 @@ right
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -2820,7 +2820,7 @@ returned
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -2910,7 +2910,7 @@ rect1
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -2977,7 +2977,7 @@ bottom
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3016,7 +3016,7 @@ returned
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rect2
@@ -3099,7 +3099,7 @@ empty
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3185,7 +3185,7 @@ empty
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3274,7 +3274,7 @@ empty
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3349,7 +3349,7 @@ empty
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 passed
@@ -3360,7 +3360,7 @@ TestIntersection
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 template
@@ -3447,7 +3447,7 @@ rect
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3514,7 +3514,7 @@ rect
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3568,7 +3568,7 @@ empty
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3675,7 +3675,7 @@ all
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3772,7 +3772,7 @@ overlap
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 passed
@@ -3783,7 +3783,7 @@ TestUnion
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 int

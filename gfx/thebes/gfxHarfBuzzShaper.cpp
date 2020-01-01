@@ -779,7 +779,7 @@ ProvidesGetGlyph
 )
 mUseFontGlyphWidths
 (
-PR_FALSE
+false
 )
 {
 }
@@ -4454,7 +4454,7 @@ missing
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -4794,7 +4794,7 @@ with
 this
 font
 return
-PR_FALSE
+false
 ;
 }
 FontCallbackData
@@ -5593,7 +5593,7 @@ aRoundY
 *
 aRoundX
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -5646,7 +5646,7 @@ HasNonTranslation
 *
 aRoundY
 =
-PR_FALSE
+false
 ;
 return
 ;
@@ -5672,7 +5672,7 @@ CAIRO_HINT_METRICS_OFF
 *
 aRoundY
 =
-PR_TRUE
+true
 ;
 cairo_t
 *
@@ -5746,7 +5746,7 @@ CAIRO_HINT_METRICS_OFF
 *
 aRoundY
 =
-PR_FALSE
+false
 ;
 return
 ;
@@ -5941,7 +5941,7 @@ break
 *
 aRoundX
 =
-PR_TRUE
+true
 ;
 return
 ;
@@ -6624,7 +6624,7 @@ charEnd
 {
 allGlyphsAreWithinCluster
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -6639,7 +6639,7 @@ prevGlyphCharIndex
 {
 inOrder
 =
-PR_FALSE
+false
 ;
 }
 prevGlyphCharIndex
@@ -7429,7 +7429,7 @@ aTextRunOffset
 +
 baseCharIndex
 )
-PR_TRUE
+true
 detailedGlyphs
 .
 Length
@@ -7518,7 +7518,7 @@ aTextRunOffset
 +
 baseCharIndex
 )
-PR_FALSE
+false
 0
 )
 ;

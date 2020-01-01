@@ -1252,7 +1252,7 @@ mSink
 )
 sink
 target
-PR_TRUE
+true
 )
 ;
 if
@@ -2477,7 +2477,7 @@ rv
 ;
 EnableSynthesizedProgressEvents
 (
-PR_TRUE
+true
 )
 ;
 /

@@ -2344,7 +2344,7 @@ aDBFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2355,7 +2355,7 @@ rv
 ;
 exists
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -2447,7 +2447,7 @@ aDBFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2482,7 +2482,7 @@ mozStorageTransaction
 transaction
 (
 connection
-PR_FALSE
+false
 mozIStorageConnection
 :
 :
@@ -3898,7 +3898,7 @@ version
 .
 SetIsVoid
 (
-PR_FALSE
+false
 )
 ;
 }

@@ -814,15 +814,15 @@ aNodeInfo
 )
 mSelectedChanged
 (
-PR_FALSE
+false
 )
 mIsSelected
 (
-PR_FALSE
+false
 )
 mIsInSetDefaultSelected
 (
-PR_FALSE
+false
 )
 {
 /
@@ -955,7 +955,7 @@ aNotify
 {
 mSelectedChanged
 =
-PR_TRUE
+true
 ;
 mIsSelected
 =
@@ -1091,9 +1091,9 @@ SetOptionsSelectedByIndex
 index
 index
 aValue
-PR_FALSE
-PR_TRUE
-PR_TRUE
+false
+true
+true
 nsnull
 )
 ;
@@ -1103,7 +1103,7 @@ else
 SetSelectedInternal
 (
 aValue
-PR_TRUE
+true
 )
 ;
 return
@@ -1637,7 +1637,7 @@ mIsInSetDefaultSelected
 ;
 mIsInSetDefaultSelected
 =
-PR_TRUE
+true
 ;
 PRInt32
 index
@@ -1694,8 +1694,8 @@ SetOptionsSelectedByIndex
 index
 index
 newSelected
-PR_FALSE
-PR_TRUE
+false
+true
 aNotify
 nsnull
 )
@@ -1732,7 +1732,7 @@ inSetDefaultSelected
 ;
 mSelectedChanged
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1769,7 +1769,7 @@ nsContentUtils
 GetNodeTextContent
 (
 this
-PR_FALSE
+false
 text
 )
 ;
@@ -1787,8 +1787,8 @@ text
 .
 CompressWhitespace
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 aText
@@ -1819,7 +1819,7 @@ SetNodeTextContent
 (
 this
 aText
-PR_TRUE
+true
 )
 ;
 }
@@ -2159,7 +2159,7 @@ SetText
 (
 chars
 length
-PR_FALSE
+false
 )
 ;
 result
@@ -2167,7 +2167,7 @@ result
 AppendChildTo
 (
 textContent
-PR_FALSE
+false
 )
 ;
 if
@@ -2276,7 +2276,7 @@ nsGkAtoms
 :
 value
 value
-PR_FALSE
+false
 )
 ;
 if
@@ -2341,7 +2341,7 @@ selected
 EmptyString
 (
 )
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS

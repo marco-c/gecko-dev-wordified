@@ -1146,7 +1146,7 @@ mUpdate
 AddObserver
 (
 this
-PR_FALSE
+false
 )
 ;
 return

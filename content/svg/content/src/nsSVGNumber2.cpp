@@ -808,7 +808,7 @@ val
 ;
 mIsBaseSet
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -922,7 +922,7 @@ aValue
 ;
 mIsBaseSet
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -979,7 +979,7 @@ aValue
 ;
 mIsAnimated
 =
-PR_TRUE
+true
 ;
 aSVGElement
 -
@@ -1147,7 +1147,7 @@ val
 ;
 aPreventCachingOfSandwich
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1226,7 +1226,7 @@ mVal
 >
 mIsAnimated
 =
-PR_FALSE
+false
 ;
 }
 }

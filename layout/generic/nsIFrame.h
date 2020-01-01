@@ -4016,11 +4016,11 @@ nsDidReflowStatus
 #
 define
 NS_FRAME_REFLOW_NOT_FINISHED
-PR_FALSE
+false
 #
 define
 NS_FRAME_REFLOW_FINISHED
-PR_TRUE
+true
 /
 *
 *
@@ -6269,7 +6269,7 @@ aStyleContext
 *
 *
 return
-PR_FALSE
+false
 if
 this
 frame
@@ -8690,7 +8690,7 @@ aDisp
 mAppearance
 )
 return
-PR_FALSE
+false
 ;
 nsPresContext
 *
@@ -8732,7 +8732,7 @@ mAppearance
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -8756,7 +8756,7 @@ mAppearance
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -8894,7 +8894,7 @@ aClipBorderBackground
 is
 set
 to
-PR_TRUE
+true
 .
 (
 We
@@ -10986,7 +10986,7 @@ currentLine
 )
 skipWhitespace
 (
-PR_TRUE
+true
 )
 trailingWhitespace
 (
@@ -11203,7 +11203,7 @@ nsnull
 )
 atStartOfLine
 (
-PR_TRUE
+true
 )
 {
 }
@@ -13224,7 +13224,7 @@ done
 *
 return
 *
-PR_TRUE
+true
 if
 we
 can
@@ -13541,7 +13541,7 @@ HasAnyNoncollapsedCharacters
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -16466,7 +16466,7 @@ below
 )
 will
 return
-PR_TRUE
+true
 when
 this
 overflow
@@ -16722,7 +16722,7 @@ below
 )
 will
 return
-PR_TRUE
+true
 when
 this
 overflow
@@ -17589,12 +17589,12 @@ behavior
 is
 visual
 (
-PR_TRUE
+true
 )
 or
 logical
 (
-PR_FALSE
+false
 )
 *
 param
@@ -17739,7 +17739,7 @@ any
 state
 .
 returns
-PR_TRUE
+true
 only
 if
 the
@@ -17772,7 +17772,7 @@ aEnd
 result
 will
 be
-PR_FALSE
+false
 *
 param
 aStart
@@ -18255,7 +18255,7 @@ selection
 .
 Returns
 *
-PR_TRUE
+true
 if
 there
 is
@@ -18770,7 +18770,7 @@ EmbeddingLevelProperty
 *
 *
 Return
-PR_TRUE
+true
 if
 and
 only
@@ -18824,7 +18824,7 @@ true
 *
 *
 Returns
-PR_TRUE
+true
 if
 the
 frame
@@ -19488,7 +19488,7 @@ box
 You
 can
 pass
-PR_TRUE
+true
 to
 aRemoveOverflowArea
 as
@@ -19867,7 +19867,7 @@ endif
 *
 *
 return
-PR_TRUE
+true
 if
 this
 text
@@ -19882,7 +19882,7 @@ It
 *
 should
 return
-PR_FALSE
+false
 if
 this
 is
@@ -21013,7 +21013,7 @@ stop
 .
 *
 return
-PR_TRUE
+true
 :
 An
 appropriate
@@ -21031,7 +21031,7 @@ by
 aOffset
 .
 *
-PR_FALSE
+false
 :
 Not
 found
@@ -21175,7 +21175,7 @@ character
 )
 *
 return
-PR_TRUE
+true
 :
 An
 appropriate
@@ -21193,7 +21193,7 @@ by
 aOffset
 .
 *
-PR_FALSE
+false
 :
 Not
 found
@@ -21262,7 +21262,7 @@ aWordSelectEatSpace
 [
 in
 ]
-PR_TRUE
+true
 :
 look
 for
@@ -21281,7 +21281,7 @@ movement
 )
 .
 *
-PR_FALSE
+false
 :
 look
 for
@@ -21316,7 +21316,7 @@ operation
 ?
 *
 If
-PR_TRUE
+true
 punctuation
 immediately
 following
@@ -21403,7 +21403,7 @@ to
 frame
 *
 return
-PR_TRUE
+true
 :
 An
 appropriate
@@ -21421,7 +21421,7 @@ by
 aOffset
 .
 *
-PR_FALSE
+false
 :
 Not
 found
@@ -21602,23 +21602,23 @@ PeekWordState
 :
 mAtStart
 (
-PR_TRUE
+true
 )
 mSawBeforeType
 (
-PR_FALSE
+false
 )
 mLastCharWasPunctuation
 (
-PR_FALSE
+false
 )
 mLastCharWasWhitespace
 (
-PR_FALSE
+false
 )
 mSeenNonPunctuationSinceWhitespace
 (
-PR_FALSE
+false
 )
 {
 }
@@ -21629,7 +21629,7 @@ SetSawBeforeType
 {
 mSawBeforeType
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -21656,7 +21656,7 @@ aAfterWhitespace
 {
 mSeenNonPunctuationSinceWhitespace
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -21668,12 +21668,12 @@ aAfterPunctuation
 {
 mSeenNonPunctuationSinceWhitespace
 =
-PR_TRUE
+true
 ;
 }
 mAtStart
 =
-PR_FALSE
+false
 ;
 }
 }

@@ -1116,7 +1116,7 @@ txRootPattern
 :
 mSerialize
 (
-PR_TRUE
+true
 )
 {
 }

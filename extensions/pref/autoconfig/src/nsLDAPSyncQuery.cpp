@@ -525,7 +525,7 @@ nsLDAPSyncQuery
 :
 mFinished
 (
-PR_FALSE
+false
 )
 /
 /
@@ -2263,7 +2263,7 @@ eventloop
 /
 mFinished
 =
-PR_TRUE
+true
 ;
 /
 /

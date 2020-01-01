@@ -545,7 +545,7 @@ AttemptedInitMarker
 *
 mAttemptedInit
 =
-PR_TRUE
+true
 ;
 }
 private

@@ -975,11 +975,11 @@ c
 255
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -2023,7 +2023,7 @@ script
 )
 cx
 sandbox
-PR_TRUE
+true
 &
 rval
 )
@@ -2057,7 +2057,7 @@ cx
 ;
 isUndefined
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2120,7 +2120,7 @@ cx
 ;
 isUndefined
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2814,15 +2814,15 @@ EXECUTE_IN_SANDBOX
 )
 mIsAsync
 (
-PR_TRUE
+true
 )
 mIsActive
 (
-PR_FALSE
+false
 )
 mOpenedStreamChannel
 (
-PR_FALSE
+false
 )
 {
 }
@@ -3581,7 +3581,7 @@ aContext
 ;
 mIsActive
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -3718,7 +3718,7 @@ rv
 {
 mIsActive
 =
-PR_FALSE
+false
 ;
 CleanupStrongRefs
 (
@@ -4125,7 +4125,7 @@ rv
 ;
 mIsActive
 =
-PR_FALSE
+false
 ;
 CleanupStrongRefs
 (
@@ -4400,7 +4400,7 @@ needed
 .
 mIsActive
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4581,7 +4581,7 @@ cv
 >
 PermitUnload
 (
-PR_FALSE
+false
 &
 okToUnload
 )
@@ -4713,7 +4713,7 @@ listener
 .
 mOpenedStreamChannel
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -4734,7 +4734,7 @@ notifications
 .
 mIsActive
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -4881,7 +4881,7 @@ mDocumentOnloadBlockedOn
 >
 UnblockOnload
 (
-PR_FALSE
+false
 )
 ;
 mDocumentOnloadBlockedOn
@@ -5931,7 +5931,7 @@ mStatus
 }
 mIsActive
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -6807,7 +6807,7 @@ anything
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -7053,7 +7053,7 @@ aStream
 >
 ReadObject
 (
-PR_TRUE
+true
 getter_AddRefs
 (
 mBaseURI
@@ -7143,7 +7143,7 @@ aStream
 WriteObject
 (
 mBaseURI
-PR_TRUE
+true
 )
 ;
 if
@@ -7325,7 +7325,7 @@ rv
 *
 aResult
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -7373,7 +7373,7 @@ aRefHandlingMode
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

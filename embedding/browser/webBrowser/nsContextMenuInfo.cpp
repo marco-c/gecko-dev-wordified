@@ -1637,7 +1637,7 @@ aDOMNode
 NS_ENSURE_TRUE
 (
 aDOMNode
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -2072,7 +2072,7 @@ TYPE_IMAGE
 }
 while
 (
-PR_TRUE
+true
 )
 {
 nsCOMPtr

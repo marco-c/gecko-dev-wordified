@@ -1149,7 +1149,7 @@ for
 Explicit
 .
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1804,7 +1804,7 @@ Length
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1877,12 +1877,12 @@ i
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 /
 /

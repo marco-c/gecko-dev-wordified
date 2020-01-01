@@ -719,7 +719,7 @@ elm
 =
 GetListenerManager
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -886,7 +886,7 @@ set
 "
 aWantsUntrusted
 to
-PR_FALSE
+false
 or
 make
 the
@@ -910,7 +910,7 @@ elm
 =
 GetListenerManager
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_STATE
@@ -1009,13 +1009,13 @@ aVisitor
 .
 mCanHandle
 =
-PR_TRUE
+true
 ;
 aVisitor
 .
 mForceContentDispatch
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1150,7 +1150,7 @@ nsFocusManager
 GetFocusedDescendant
 (
 mWindow
-PR_TRUE
+true
 getter_AddRefs
 (
 focusedWindow
@@ -1387,7 +1387,7 @@ nsFocusManager
 GetFocusedDescendant
 (
 mWindow
-PR_TRUE
+true
 getter_AddRefs
 (
 focusedWindow

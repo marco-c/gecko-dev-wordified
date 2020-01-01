@@ -521,7 +521,7 @@ validation
 .
 SetBarredFromConstraintValidation
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -705,7 +705,7 @@ aVisitor
 .
 mCanHandle
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -794,7 +794,7 @@ this
 MatchListedElements
 nsnull
 nsnull
-PR_TRUE
+true
 )
 ;
 }
@@ -806,7 +806,7 @@ mElements
 >
 Length
 (
-PR_TRUE
+true
 )
 ;
 for
@@ -998,7 +998,7 @@ this
 MatchListedElements
 nsnull
 nsnull
-PR_TRUE
+true
 )
 ;
 }
@@ -1406,7 +1406,7 @@ this
 MatchListedElements
 nsnull
 nsnull
-PR_TRUE
+true
 )
 ;
 }
@@ -1418,7 +1418,7 @@ mElements
 >
 Length
 (
-PR_TRUE
+true
 )
 ;
 for

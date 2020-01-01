@@ -1505,7 +1505,7 @@ mPendingMediaFeatureValuesChanged
 )
 MediaFeatureValuesChanged
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2026,7 +2026,7 @@ GetCachedBoolPref
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -2119,7 +2119,7 @@ GetCachedIntPref
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3225,7 +3225,7 @@ them
 .
 MediaFeatureValuesChanged
 (
-PR_TRUE
+true
 )
 ;
 RebuildAllStyleData
@@ -3300,7 +3300,7 @@ them
 .
 MediaFeatureValuesChanged
 (
-PR_TRUE
+true
 )
 ;
 RebuildAllStyleData
@@ -4783,7 +4783,7 @@ InvalidateIsChromeCacheInternal
 {
 mIsChromeIsCached
 =
-PR_FALSE
+false
 ;
 }
 #
@@ -5333,14 +5333,14 @@ mCtx
 >
 mInterruptsEnabled
 =
-PR_FALSE
+false
 ;
 mCtx
 -
 >
 mHasPendingInterrupt
 =
-PR_FALSE
+false
 ;
 }
 ~
@@ -5687,7 +5687,7 @@ SetHasFixedBackgroundFrame
 {
 mMayHaveFixedBackgroundFrames
 =
-PR_TRUE
+true
 ;
 }
 PRUint32
@@ -5885,7 +5885,7 @@ HandleRebuildUserFontSet
 {
 mPostedFlushUserFontSet
 =
-PR_FALSE
+false
 ;
 FlushUserFontSet
 (

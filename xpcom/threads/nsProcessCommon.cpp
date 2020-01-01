@@ -1019,7 +1019,7 @@ mLock
 )
 mShutdown
 (
-PR_FALSE
+false
 )
 mPid
 (
@@ -2438,7 +2438,7 @@ blocking
 args
 count
 nsnull
-PR_FALSE
+false
 )
 ;
 }
@@ -2477,7 +2477,7 @@ holdWeak
 return
 CopyArgsAndRunProcess
 (
-PR_FALSE
+false
 args
 count
 observer
@@ -2627,7 +2627,7 @@ blocking
 my_argv
 observer
 holdWeak
-PR_FALSE
+false
 )
 ;
 NS_Free
@@ -2683,7 +2683,7 @@ blocking
 args
 count
 nsnull
-PR_FALSE
+false
 )
 ;
 }
@@ -2722,7 +2722,7 @@ holdWeak
 return
 CopyArgsAndRunProcessw
 (
-PR_FALSE
+false
 args
 count
 observer
@@ -2871,7 +2871,7 @@ blocking
 my_argv
 observer
 holdWeak
-PR_TRUE
+true
 )
 ;
 for
@@ -3631,7 +3631,7 @@ xpcom
 -
 shutdown
 "
-PR_FALSE
+false
 )
 ;
 }
@@ -3657,13 +3657,13 @@ mThread
 *
 aIsRunning
 =
-PR_TRUE
+true
 ;
 else
 *
 aIsRunning
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3971,7 +3971,7 @@ mLock
 ;
 mShutdown
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

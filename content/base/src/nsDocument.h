@@ -1376,7 +1376,7 @@ by
 *
 GetIdElement
 (
-PR_TRUE
+true
 )
 if
 non
@@ -1635,7 +1635,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 ChangeCallback
@@ -2111,7 +2111,7 @@ Clear
 ;
 mHaveShutDown
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -5298,12 +5298,12 @@ is
 .
 *
 returns
-PR_TRUE
+true
 if
 aId
 looks
 correct
-PR_FALSE
+false
 otherwise
 .
 *
@@ -5332,11 +5332,11 @@ ReportEmptyGetElementByIdArg
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void

@@ -579,7 +579,7 @@ mCertSerialization
 SECITEM_FreeItem
 (
 mCertSerialization
-PR_TRUE
+true
 )
 ;
 }

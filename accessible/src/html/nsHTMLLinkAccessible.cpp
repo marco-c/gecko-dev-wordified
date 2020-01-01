@@ -1468,7 +1468,7 @@ IsDefunct
 )
 )
 return
-PR_FALSE
+false
 ;
 nsEventStates
 state

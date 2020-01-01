@@ -624,7 +624,7 @@ IsTransformed
 const
 {
 return
-PR_TRUE
+true
 ;
 }
 /

@@ -1688,7 +1688,7 @@ RootViewManager
 >
 mHasPendingUpdates
 =
-PR_TRUE
+true
 ;
 }
 PRUint32

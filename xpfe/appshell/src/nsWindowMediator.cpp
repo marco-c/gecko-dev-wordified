@@ -707,11 +707,11 @@ mTimeStamp
 )
 mSortingZOrder
 (
-PR_FALSE
+false
 )
 mReady
 (
-PR_FALSE
+false
 )
 mListLock
 (
@@ -794,7 +794,7 @@ xpcom
 -
 shutdown
 "
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -805,7 +805,7 @@ rv
 ;
 mReady
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1112,8 +1112,8 @@ inInfo
 >
 Unlink
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 if
@@ -2257,7 +2257,7 @@ inPosition
 *
 outAltered
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2378,7 +2378,7 @@ mTopmostWindow
 else
 found
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2545,7 +2545,7 @@ mWindow
 *
 outAltered
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2641,7 +2641,7 @@ mWindow
 *
 outAltered
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2768,7 +2768,7 @@ mWindow
 *
 outAltered
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2852,7 +2852,7 @@ zLevelTop
 *
 outAltered
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -3205,8 +3205,8 @@ inInfo
 >
 Unlink
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 inInfo
@@ -3643,7 +3643,7 @@ not
 dangerous
 mSortingZOrder
 =
-PR_TRUE
+true
 ;
 /
 *
@@ -3683,7 +3683,7 @@ do
 {
 finished
 =
-PR_TRUE
+true
 ;
 lowest
 =
@@ -3795,8 +3795,8 @@ scan
 >
 Unlink
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 scan
@@ -3893,12 +3893,12 @@ PlaceBehind
 (
 eZPlacementBelow
 prevWidget
-PR_FALSE
+false
 )
 ;
 finished
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3920,7 +3920,7 @@ finished
 ;
 mSortingZOrder
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -4008,7 +4008,7 @@ not
 dangerous
 mSortingZOrder
 =
-PR_TRUE
+true
 ;
 /
 *
@@ -4048,7 +4048,7 @@ do
 {
 finished
 =
-PR_TRUE
+true
 ;
 lowest
 =
@@ -4156,8 +4156,8 @@ scan
 >
 Unlink
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 scan
@@ -4275,12 +4275,12 @@ PlaceBehind
 (
 eZPlacementBelow
 searchWidget
-PR_FALSE
+false
 )
 ;
 finished
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -4302,7 +4302,7 @@ finished
 ;
 mSortingZOrder
 =
-PR_FALSE
+false
 ;
 }
 NS_IMPL_ISUPPORTS3
@@ -4459,7 +4459,7 @@ mOldestWindow
 ;
 mReady
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -4515,7 +4515,7 @@ mWindow
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -4567,7 +4567,7 @@ mWindow
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -4623,6 +4623,6 @@ mTitle
 )
 ;
 return
-PR_TRUE
+true
 ;
 }

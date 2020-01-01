@@ -2384,11 +2384,11 @@ parameter
 .
 *
 Return
-PR_TRUE
+true
 if
 keys
 match
-PR_FALSE
+false
 otherwise
 .
 *
@@ -2796,10 +2796,10 @@ ctor
 .
 *
 Return
-PR_TRUE
+true
 on
 success
-PR_FALSE
+false
 on
 error
 .

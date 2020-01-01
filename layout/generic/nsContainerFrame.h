@@ -3167,14 +3167,14 @@ mapping
 *
 *
 return
-PR_TRUE
+true
 if
 any
 frames
 were
 moved
 and
-PR_FALSE
+false
 otherwise
 *
 /
@@ -4267,7 +4267,7 @@ t
 set
 aSkipOverflowContainerChildren
 to
-PR_FALSE
+false
 unless
 you
 plan

@@ -622,7 +622,7 @@ IsDisabled
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 /

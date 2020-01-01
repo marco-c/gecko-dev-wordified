@@ -1038,7 +1038,7 @@ current
 sequence
 mFirst
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1880,7 +1880,7 @@ mBytes
 ;
 mFirst
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -1927,7 +1927,7 @@ mFirst
 Set
 mFirst
 to
-PR_FALSE
+false
 now
 so
 we
@@ -1972,7 +1972,7 @@ aSrc
 )
 mFirst
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -2848,7 +2848,7 @@ mBytes
 ;
 mFirst
 =
-PR_FALSE
+false
 ;
 }
 }

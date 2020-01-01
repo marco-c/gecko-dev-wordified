@@ -1236,7 +1236,7 @@ k1
 k2
 )
 return
-PR_FALSE
+false
 ;
 SECItem
 *
@@ -1273,7 +1273,7 @@ len
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 unsigned
@@ -1337,12 +1337,12 @@ c2
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1381,7 +1381,7 @@ v1
 v2
 )
 return
-PR_FALSE
+false
 ;
 CERTCertificate
 *
@@ -1824,7 +1824,7 @@ GetPanic
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1907,7 +1907,7 @@ PSM
 initiated
 .
 return
-PR_TRUE
+true
 ;
 }
 NS_ERROR
@@ -1930,7 +1930,7 @@ process
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -1998,7 +1998,7 @@ if
 loading
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -2011,10 +2011,10 @@ component
 creation
 loading
 =
-PR_TRUE
+true
 ;
 return
-PR_TRUE
+true
 ;
 case
 nssInitSucceeded
@@ -2035,7 +2035,7 @@ nssInitSucceeded
 ;
 loading
 =
-PR_FALSE
+false
 ;
 PR_AtomicSet
 (
@@ -2045,7 +2045,7 @@ haveLoaded
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 nssInitFailed
@@ -2066,7 +2066,7 @@ nssInitFailed
 ;
 loading
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2083,7 +2083,7 @@ haveLoaded
 )
 ;
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -2161,7 +2161,7 @@ haveLoaded
 loading
 )
 return
-PR_TRUE
+true
 ;
 {
 nsCOMPtr
@@ -2206,7 +2206,7 @@ if
 nssComponent
 )
 return
-PR_FALSE
+false
 ;
 bool
 isInitialized
@@ -2237,7 +2237,7 @@ default
 :
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Bad
 operator
@@ -2247,7 +2247,7 @@ EnsureNSSInitialized
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -2268,7 +2268,7 @@ mutex
 )
 mNSSInitialized
 (
-PR_FALSE
+false
 )
 mCrlTimerLock
 (
@@ -2328,11 +2328,11 @@ n
 ;
 mUpdateTimerInitialized
 =
-PR_FALSE
+false
 ;
 crlDownloadTimerOn
 =
-PR_FALSE
+false
 ;
 crlsScheduledForDownload
 =
@@ -2344,7 +2344,7 @@ nsnull
 ;
 mObserversRegistered
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2420,7 +2420,7 @@ construct
 ;
 mIsNetworkDown
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -2630,7 +2630,7 @@ Cancel
 }
 crlDownloadTimerOn
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -2654,7 +2654,7 @@ crlsScheduledForDownload
 }
 mUpdateTimerInitialized
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -4908,7 +4908,7 @@ nsnull
 /
 no
 parent
-PR_FALSE
+false
 )
 ;
 /
@@ -6898,7 +6898,7 @@ break
 #
 define
 CRL_DOWNLOAD_DEFAULT
-PR_FALSE
+false
 #
 define
 OCSP_ENABLED_DEFAULT
@@ -6910,11 +6910,11 @@ OCSP_REQUIRED_DEFAULT
 #
 define
 FRESH_REVOCATION_REQUIRED_DEFAULT
-PR_FALSE
+false
 #
 define
 MISSING_CERT_DOWNLOAD_DEFAULT
-PR_FALSE
+false
 #
 define
 FIRST_REVO_METHOD_DEFAULT
@@ -6924,7 +6924,7 @@ ocsp
 #
 define
 USE_NSS_LIBPKIX_DEFAULT
-PR_FALSE
+false
 /
 /
 Caller
@@ -7633,7 +7633,7 @@ psmDownloader
 >
 setSilentDownload
 (
-PR_TRUE
+true
 )
 ;
 psmDownloader
@@ -8043,7 +8043,7 @@ rv
 PR_ParseTimeString
 (
 tempTimeString
-PR_TRUE
+true
 &
 tempTime
 )
@@ -8236,7 +8236,7 @@ mCrlTimerLock
 ;
 crlDownloadTimerOn
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -8591,7 +8591,7 @@ TYPE_ONE_SHOT
 ;
 crlDownloadTimerOn
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -8714,12 +8714,12 @@ Cancel
 }
 crlDownloadTimerOn
 =
-PR_FALSE
+false
 ;
 }
 mUpdateTimerInitialized
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -8793,7 +8793,7 @@ new
 nsHashtable
 (
 16
-PR_TRUE
+true
 )
 ;
 DefineNextTimer
@@ -8802,7 +8802,7 @@ DefineNextTimer
 ;
 mUpdateTimerInitialized
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -10104,7 +10104,7 @@ rv
 {
 supress_warning_preference
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -10490,7 +10490,7 @@ which_nss_problem
 {
 mNSSInitialized
 =
-PR_TRUE
+true
 ;
 :
 :
@@ -10554,19 +10554,19 @@ security
 .
 "
 this
-PR_FALSE
+false
 )
 ;
 SSL_OptionSetDefault
 (
 SSL_ENABLE_SSL2
-PR_FALSE
+false
 )
 ;
 SSL_OptionSetDefault
 (
 SSL_V2_COMPATIBLE_HELLO
-PR_FALSE
+false
 )
 ;
 bool
@@ -10761,7 +10761,7 @@ i
 SSL_CipherPrefSetDefault
 (
 cipher_id
-PR_FALSE
+false
 )
 ;
 }
@@ -10822,7 +10822,7 @@ rv
 )
 enabled
 =
-PR_FALSE
+false
 ;
 SSL_CipherPrefSetDefault
 (
@@ -11167,7 +11167,7 @@ mNSSInitialized
 {
 mNSSInitialized
 =
-PR_FALSE
+false
 ;
 PK11_SetPasswordFunc
 (
@@ -11599,7 +11599,7 @@ rv
 =
 InitializeNSS
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -12256,7 +12256,7 @@ certUsageObjectSigner
 &
 digest
 HASH_AlgSHA1
-PR_FALSE
+false
 )
 ;
 if
@@ -13070,7 +13070,7 @@ it
 again
 needsInit
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -13085,7 +13085,7 @@ NS_FAILED
 (
 InitializeNSS
 (
-PR_FALSE
+false
 )
 )
 )
@@ -13353,7 +13353,7 @@ enabled
 ;
 clearSessionCache
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -13393,7 +13393,7 @@ enabled
 ;
 clearSessionCache
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -13893,7 +13893,7 @@ enabled
 ;
 clearSessionCache
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -14367,7 +14367,7 @@ observerService
 {
 mObserversRegistered
 =
-PR_TRUE
+true
 ;
 PR_LOG
 (
@@ -14422,7 +14422,7 @@ expensive
 /
 By
 using
-PR_FALSE
+false
 for
 parameter
 ownsWeak
@@ -14453,7 +14453,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 observerService
@@ -14463,7 +14463,7 @@ AddObserver
 (
 this
 PROFILE_APPROVE_CHANGE_TOPIC
-PR_FALSE
+false
 )
 ;
 observerService
@@ -14473,7 +14473,7 @@ AddObserver
 (
 this
 PROFILE_CHANGE_TEARDOWN_TOPIC
-PR_FALSE
+false
 )
 ;
 observerService
@@ -14483,7 +14483,7 @@ AddObserver
 (
 this
 PROFILE_CHANGE_TEARDOWN_VETO_TOPIC
-PR_FALSE
+false
 )
 ;
 observerService
@@ -14493,7 +14493,7 @@ AddObserver
 (
 this
 PROFILE_BEFORE_CHANGE_TOPIC
-PR_FALSE
+false
 )
 ;
 observerService
@@ -14503,7 +14503,7 @@ AddObserver
 (
 this
 PROFILE_DO_CHANGE_TOPIC
-PR_FALSE
+false
 )
 ;
 observerService
@@ -14513,7 +14513,7 @@ AddObserver
 (
 this
 PROFILE_CHANGE_NET_TEARDOWN_TOPIC
-PR_FALSE
+false
 )
 ;
 observerService
@@ -14523,7 +14523,7 @@ AddObserver
 (
 this
 PROFILE_CHANGE_NET_RESTORE_TOPIC
-PR_FALSE
+false
 )
 ;
 }
@@ -14588,7 +14588,7 @@ observerService
 {
 mObserversRegistered
 =
-PR_FALSE
+false
 ;
 PR_LOG
 (
@@ -14892,7 +14892,7 @@ requestExit
 ;
 mIsNetworkDown
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -14924,7 +14924,7 @@ ifPossibleDisallowUI
 {
 callVeto
 =
-PR_TRUE
+true
 ;
 ShowAlert
 (
@@ -14945,7 +14945,7 @@ areSSLSocketsActive
 {
 callVeto
 =
-PR_TRUE
+true
 ;
 ShowAlert
 (
@@ -15072,7 +15072,7 @@ times
 .
 needsCleanup
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -15163,7 +15163,7 @@ createBackgroundThreads
 ;
 mIsNetworkDown
 =
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -15404,7 +15404,7 @@ nsnull
 )
 mInitialized
 (
-PR_FALSE
+false
 )
 {
 }
@@ -15532,7 +15532,7 @@ hashType
 {
 mInitialized
 =
-PR_TRUE
+true
 ;
 HASH_Begin
 (
@@ -15571,7 +15571,7 @@ mHashContext
 ;
 mInitialized
 =
-PR_FALSE
+false
 ;
 }
 mHashContext
@@ -15596,7 +15596,7 @@ mHashContext
 ;
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -16065,7 +16065,7 @@ HASH_LENGTH_MAX
 ;
 mInitialized
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -16301,7 +16301,7 @@ mHMACContext
 PK11_DestroyContext
 (
 mHMACContext
-PR_TRUE
+true
 )
 ;
 mHMACContext
@@ -16349,7 +16349,7 @@ mHMACContext
 PK11_DestroyContext
 (
 mHMACContext
-PR_TRUE
+true
 )
 ;
 mHMACContext
@@ -17469,7 +17469,7 @@ type
 )
 mDoSilentDownload
 (
-PR_FALSE
+false
 )
 {
 }
@@ -18918,7 +18918,7 @@ handle
 the
 URI
 return
-PR_TRUE
+true
 in
 /
 /
@@ -18951,7 +18951,7 @@ return
 CanHandleContent
 (
 aContentType
-PR_TRUE
+true
 aDesiredContentType
 aCanHandleContent
 )
@@ -19002,7 +19002,7 @@ UNKNOWN_TYPE
 *
 aCanHandleContent
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -19010,7 +19010,7 @@ else
 *
 aCanHandleContent
 =
-PR_TRUE
+true
 ;
 }
 return

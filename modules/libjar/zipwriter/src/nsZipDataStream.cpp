@@ -1042,7 +1042,7 @@ mHeader
 >
 mWriteOnClose
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

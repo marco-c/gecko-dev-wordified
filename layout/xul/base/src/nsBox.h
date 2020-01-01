@@ -684,7 +684,7 @@ nsBox
 *
 *
 Returns
-PR_TRUE
+true
 if
 this
 box

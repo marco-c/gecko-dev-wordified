@@ -473,7 +473,7 @@ nsnull
 ;
 mIgnoreEmptyNotification
 =
-PR_FALSE
+false
 ;
 }
 nsBaseClipboard
@@ -831,7 +831,7 @@ outResult
 *
 outResult
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -858,7 +858,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 /
 /

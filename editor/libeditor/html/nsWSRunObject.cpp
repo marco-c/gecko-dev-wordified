@@ -598,7 +598,7 @@ aOffset
 )
 mPRE
 (
-PR_FALSE
+false
 )
 mStartNode
 (
@@ -1596,7 +1596,7 @@ aInOutParent
 aInOutOffset
 &
 beforeRun
-PR_FALSE
+false
 )
 ;
 res
@@ -1609,7 +1609,7 @@ aInOutParent
 aInOutOffset
 &
 afterRun
-PR_TRUE
+true
 )
 ;
 {
@@ -2307,7 +2307,7 @@ aInOutParent
 aInOutOffset
 &
 beforeRun
-PR_FALSE
+false
 )
 ;
 res
@@ -2320,7 +2320,7 @@ aInOutParent
 aInOutOffset
 &
 afterRun
-PR_TRUE
+true
 )
 ;
 {
@@ -3168,7 +3168,7 @@ else
 {
 prevWS
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3176,7 +3176,7 @@ else
 {
 prevWS
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -3999,7 +3999,7 @@ aNode
 aOffset
 &
 run
-PR_FALSE
+false
 )
 ;
 /
@@ -4288,7 +4288,7 @@ aNode
 aOffset
 &
 run
-PR_TRUE
+true
 )
 ;
 /
@@ -8921,7 +8921,7 @@ mNode
 mOffset
 &
 beforeRun
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8947,7 +8947,7 @@ aEndObject
 mOffset
 &
 afterRun
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -9522,7 +9522,7 @@ mNode
 mOffset
 &
 beforeRun
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -9539,7 +9539,7 @@ mNode
 mOffset
 &
 afterRun
-PR_TRUE
+true
 )
 ;
 /
@@ -11189,7 +11189,7 @@ textNode
 aPoint
 .
 mOffset
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -12965,12 +12965,12 @@ mChar
 )
 leftCheck
 =
-PR_TRUE
+true
 ;
 else
 spaceNBSP
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -12986,7 +12986,7 @@ eText
 )
 leftCheck
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -13001,7 +13001,7 @@ eSpecial
 )
 leftCheck
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -13042,7 +13042,7 @@ eText
 )
 rightCheck
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -13056,7 +13056,7 @@ eSpecial
 )
 rightCheck
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -13070,7 +13070,7 @@ eBreak
 )
 rightCheck
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -13551,7 +13551,7 @@ res
 ;
 rightCheck
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -13623,7 +13623,7 @@ textNode
 thePoint
 .
 mOffset
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -13923,7 +13923,7 @@ InsertTextIntoTextNodeImpl
 nbspStr
 textNode
 startOffset
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -14114,7 +14114,7 @@ mChar
 )
 canConvert
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -14130,7 +14130,7 @@ eText
 )
 canConvert
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -14145,7 +14145,7 @@ eSpecial
 )
 canConvert
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -14206,7 +14206,7 @@ textNode
 thePoint
 .
 mOffset
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -14440,7 +14440,7 @@ mChar
 )
 canConvert
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -14456,7 +14456,7 @@ eText
 )
 canConvert
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -14471,7 +14471,7 @@ eSpecial
 )
 canConvert
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -14486,7 +14486,7 @@ eBreak
 )
 canConvert
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -14547,7 +14547,7 @@ textNode
 thePoint
 .
 mOffset
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS

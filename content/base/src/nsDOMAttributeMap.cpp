@@ -1190,7 +1190,7 @@ forget
 (
 )
 value
-PR_TRUE
+true
 )
 ;
 if
@@ -1419,7 +1419,7 @@ return
 GetAttribute
 (
 ni
-PR_FALSE
+false
 )
 ;
 }
@@ -1489,7 +1489,7 @@ SetNamedItemInternal
 (
 aNode
 aReturn
-PR_FALSE
+false
 )
 ;
 }
@@ -1513,7 +1513,7 @@ SetNamedItemInternal
 (
 aNode
 aReturn
-PR_TRUE
+true
 )
 ;
 }
@@ -2104,7 +2104,7 @@ GetPrefixAtom
 (
 )
 value
-PR_TRUE
+true
 )
 ;
 if
@@ -2218,7 +2218,7 @@ aReturn
 GetAttribute
 (
 ni
-PR_TRUE
+true
 )
 )
 ;
@@ -2253,7 +2253,7 @@ ni
 NameAtom
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -2389,7 +2389,7 @@ node
 GetAttribute
 (
 ni
-PR_TRUE
+true
 )
 ;
 }
@@ -2739,7 +2739,7 @@ aReturn
 GetAttribute
 (
 ni
-PR_TRUE
+true
 )
 )
 ;
@@ -2790,7 +2790,7 @@ GetNamedItemNSInternal
 aNamespaceURI
 aLocalName
 aReturn
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2877,7 +2877,7 @@ ni
 NameAtom
 (
 )
-PR_TRUE
+true
 )
 ;
 return

@@ -833,7 +833,7 @@ mMaxProgress
 )
 mUploading
 (
-PR_FALSE
+false
 )
 mLastStatus
 (
@@ -948,7 +948,7 @@ key
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1076,19 +1076,19 @@ mCompletedTotalProgress
 )
 mIsLoadingDocument
 (
-PR_FALSE
+false
 )
 mIsRestoringDocument
 (
-PR_FALSE
+false
 )
 mDontFlushLayout
 (
-PR_FALSE
+false
 )
 mIsFlushingLayout
 (
-PR_FALSE
+false
 )
 {
 #
@@ -1879,7 +1879,7 @@ call
 .
 mIsFlushingLayout
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2068,7 +2068,7 @@ here
 ;
 DocLoaderIsEmpty
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -2189,7 +2189,7 @@ mIsFlushingLayout
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2209,7 +2209,7 @@ mIsLoadingDocument
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -2235,7 +2235,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2244,7 +2244,7 @@ busy
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2333,11 +2333,11 @@ IsBusy
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -2858,11 +2858,11 @@ LOAD_DOCUMENT_URI
 {
 bJustStartedLoading
 =
-PR_TRUE
+true
 ;
 mIsLoadingDocument
 =
-PR_TRUE
+true
 ;
 ClearInternalProgress
 (
@@ -3665,7 +3665,7 @@ aStatus
 {
 bFireTransferring
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -3848,7 +3848,7 @@ later
 /
 bFireTransferring
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4049,7 +4049,7 @@ mIsLoadingDocument
 {
 DocLoaderIsEmpty
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -4461,7 +4461,7 @@ mDontFlushLayout
 =
 mIsFlushingLayout
 =
-PR_TRUE
+true
 ;
 doc
 -
@@ -4475,7 +4475,7 @@ mDontFlushLayout
 =
 mIsFlushingLayout
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -4593,7 +4593,7 @@ mDocumentRequest
 ;
 mIsLoadingDocument
 =
-PR_FALSE
+false
 ;
 /
 /

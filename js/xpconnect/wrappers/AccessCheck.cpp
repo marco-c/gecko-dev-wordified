@@ -1788,7 +1788,7 @@ xpc
 GetPrincipal
 (
 obj
-PR_TRUE
+true
 )
 ;
 }

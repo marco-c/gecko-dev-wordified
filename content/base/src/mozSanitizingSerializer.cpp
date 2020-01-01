@@ -900,7 +900,7 @@ prop
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -977,8 +977,8 @@ Init
 aFlags
 0
 nsnull
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1162,7 +1162,7 @@ aReturn
 *
 aReturn
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3067,7 +3067,7 @@ tag_key
 NS_ENSURE_TRUE
 (
 attr_bag
-PR_FALSE
+false
 )
 ;
 bool
@@ -3111,7 +3111,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 #
 ifdef

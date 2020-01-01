@@ -638,7 +638,7 @@ be
 conservative
 (
 return
-PR_FALSE
+false
 /
 /
 more

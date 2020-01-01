@@ -536,7 +536,7 @@ succeeds
 This
 method
 returns
-PR_TRUE
+true
 if
 the
 /
@@ -551,7 +551,7 @@ queue
 and
 it
 returns
-PR_FALSE
+false
 if
 it
 could
@@ -692,7 +692,7 @@ HasPendingEvent
 return
 GetEvent
 (
-PR_FALSE
+false
 nsnull
 )
 ;
@@ -721,7 +721,7 @@ runnable
 return
 GetEvent
 (
-PR_FALSE
+false
 runnable
 )
 ;
@@ -751,7 +751,7 @@ runnable
 return
 GetEvent
 (
-PR_TRUE
+true
 runnable
 )
 ;

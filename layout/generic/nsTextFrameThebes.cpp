@@ -2488,7 +2488,7 @@ aBackColor
 if
 this
 returns
-PR_FALSE
+false
 we
 don
 '
@@ -2519,7 +2519,7 @@ aStyle
 if
 this
 returns
-PR_FALSE
+false
 we
 don
 '
@@ -2910,7 +2910,7 @@ at
 .
 *
 Return
-PR_TRUE
+true
 if
 |
 aStartContinuation
@@ -4577,7 +4577,7 @@ Is2b
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 nsTextFrameUtils
@@ -4727,7 +4727,7 @@ NewlineIsSignificant
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -5043,7 +5043,7 @@ WhiteSpaceIsSignificant
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -5383,7 +5383,7 @@ Is2b
 )
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 len
@@ -5474,11 +5474,11 @@ aAllowNewline
 continue
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -5618,7 +5618,7 @@ BidiEnabled
 )
 mSkipIncompleteTextRuns
 (
-PR_FALSE
+false
 )
 mNextRunContextInfo
 (
@@ -5713,11 +5713,11 @@ SetAtStartOfLine
 {
 mStartOfLine
 =
-PR_TRUE
+true
 ;
 mCanStopOnThisLine
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -5854,7 +5854,7 @@ mMaxTextLength
 ;
 mDoubleByteText
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -6192,7 +6192,7 @@ aOffsetIntoTextRun
 )
 mChangedBreaks
 (
-PR_FALSE
+false
 )
 mExistingTextRun
 (
@@ -6231,7 +6231,7 @@ mContext
 {
 mChangedBreaks
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -6790,11 +6790,11 @@ i
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -6840,11 +6840,11 @@ i
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -7107,7 +7107,7 @@ result
 .
 mLineBreakerCanCrossFrameBoundary
 =
-PR_TRUE
+true
 ;
 result
 .
@@ -7216,13 +7216,13 @@ result
 .
 mScanSiblings
 =
-PR_FALSE
+false
 ;
 result
 .
 mTextRunCanCrossFrameBoundary
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -7237,7 +7237,7 @@ result
 .
 mTextRunCanCrossFrameBoundary
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -7297,19 +7297,19 @@ result
 .
 mScanSiblings
 =
-PR_TRUE
+true
 ;
 result
 .
 mTextRunCanCrossFrameBoundary
 =
-PR_TRUE
+true
 ;
 result
 .
 mLineBreakerCanCrossFrameBoundary
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -7330,13 +7330,13 @@ result
 .
 mTextRunCanCrossFrameBoundary
 =
-PR_FALSE
+false
 ;
 result
 .
 mLineBreakerCanCrossFrameBoundary
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -7438,7 +7438,7 @@ aState
 >
 mSeenTextRunBoundaryOnThisLine
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -7601,7 +7601,7 @@ aState
 >
 mSeenSpaceForLineBreakingOnThisLine
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -7641,7 +7641,7 @@ aState
 >
 mSeenTextRunBoundaryOnThisLine
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -7710,7 +7710,7 @@ aState
 >
 mSeenTextRunBoundaryOnThisLine
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -8129,8 +8129,8 @@ scanner
 .
 FlushFrames
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 return
@@ -8168,7 +8168,7 @@ nsBlockInFlowLineIterator
 block
 *
 aForFrameLine
-PR_FALSE
+false
 )
 ;
 }
@@ -8442,7 +8442,7 @@ true
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 forwardIterator
@@ -8485,7 +8485,7 @@ IsBlock
 {
 mayBeginInTextRun
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -8576,7 +8576,7 @@ FB_FOUND_VALID_TEXTRUN_BOUNDARY
 {
 foundBoundary
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -8661,7 +8661,7 @@ break
 ;
 seenTextRunBoundaryOnLaterLine
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -8674,7 +8674,7 @@ mSeenTextRunBoundaryOnThisLine
 {
 seenTextRunBoundaryOnLaterLine
 =
-PR_TRUE
+true
 ;
 }
 stopAtFrame
@@ -8800,7 +8800,7 @@ line
 >
 SetInvalidateTextRuns
 (
-PR_FALSE
+false
 )
 ;
 scanner
@@ -8886,7 +8886,7 @@ get
 {
 seenStartLine
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -9055,8 +9055,8 @@ scanner
 .
 FlushFrames
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 }
@@ -9205,7 +9205,7 @@ Length
 )
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 i
@@ -9286,11 +9286,11 @@ GetContentOffset
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -9477,8 +9477,8 @@ appropriately
 SetupBreakSinksForTextRun
 (
 textRun
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 mNextRunContextInfo
@@ -9614,7 +9614,7 @@ textRun
 }
 mCanStopOnThisLine
 =
-PR_TRUE
+true
 ;
 ResetRunInfo
 (
@@ -10046,7 +10046,7 @@ aFrame
 ;
 mStartOfLine
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -10110,7 +10110,7 @@ GetContentLength
 0
 )
 return
-PR_FALSE
+false
 ;
 const
 nsTextFragment
@@ -10183,7 +10183,7 @@ aFrame2
 )
 )
 return
-PR_FALSE
+false
 ;
 nsStyleContext
 *
@@ -10317,7 +10317,7 @@ aFrame1
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -10433,7 +10433,7 @@ content
 elements
 .
 return
-PR_FALSE
+false
 ;
 }
 nsStyleContext
@@ -10455,7 +10455,7 @@ sc1
 sc2
 )
 return
-PR_TRUE
+true
 ;
 const
 nsStyleFont
@@ -10816,8 +10816,8 @@ frame
 {
 FlushFrames
 (
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -10971,7 +10971,7 @@ frame
 .
 FlushFrames
 (
-PR_TRUE
+true
 isBR
 )
 ;
@@ -10990,7 +10990,7 @@ INCOMING_WHITESPACE
 ;
 mStartOfLine
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -11004,8 +11004,8 @@ mTextRunCanCrossFrameBoundary
 {
 FlushFrames
 (
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -11083,7 +11083,7 @@ descendInto
 .
 FlushFrames
 (
-PR_TRUE
+true
 isBR
 )
 ;
@@ -11112,8 +11112,8 @@ mTextRunCanCrossFrameBoundary
 {
 FlushFrames
 (
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -12190,7 +12190,7 @@ mTextTransform
 {
 anyTextTransformStyle
 =
-PR_TRUE
+true
 ;
 }
 textFlags
@@ -12279,7 +12279,7 @@ variant
 {
 anySmallcapsStyle
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -13688,7 +13688,7 @@ this
 SetupBreakSinksForTextRun
 (
 textRun
-PR_FALSE
+false
 mSkipIncompleteTextRuns
 )
 ;
@@ -13881,7 +13881,7 @@ IsOriginalCharSkipped
 )
 )
 return
-PR_FALSE
+false
 ;
 gfxSkipCharsIterator
 iter
@@ -13939,7 +13939,7 @@ aStyleText
 )
 )
 return
-PR_TRUE
+true
 ;
 +
 +
@@ -13954,7 +13954,7 @@ AdvanceOriginal
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -16257,7 +16257,7 @@ r
 '
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -16297,7 +16297,7 @@ Is2b
 )
 )
 return
-PR_TRUE
+true
 ;
 return
 !
@@ -16338,7 +16338,7 @@ ch
 0x2150u
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -16580,10 +16580,10 @@ part
 )
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -16793,7 +16793,7 @@ language
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -16907,7 +16907,7 @@ GetSkippedOffset
 aOffset
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -16917,7 +16917,7 @@ aContentLength
 PR_INT32_MAX
 )
 return
-PR_TRUE
+true
 ;
 gfxSkipCharsIterator
 iter
@@ -17151,7 +17151,7 @@ aOffsetFromBlockOriginForTabs
 )
 mReflowing
 (
-PR_TRUE
+true
 )
 {
 NS_ASSERTION
@@ -17326,7 +17326,7 @@ mOffsetFromBlockOriginForTabs
 )
 mReflowing
 (
-PR_FALSE
+false
 )
 {
 NS_ASSERTION
@@ -18228,7 +18228,7 @@ GetLength
 )
 )
 return
-PR_TRUE
+true
 ;
 return
 aTextRun
@@ -19374,7 +19374,7 @@ i
 1
 &
 spacing
-PR_TRUE
+true
 )
 ;
 mOffsetFromBlockOriginForTabs
@@ -19740,7 +19740,7 @@ NS_STYLE_HYPHENS_NONE
 memset
 (
 aBreakBefore
-PR_FALSE
+false
 aLength
 )
 ;
@@ -19974,7 +19974,7 @@ memset
 aBreakBefore
 +
 runOffsetInSubstring
-PR_FALSE
+false
 run
 .
 GetRunLength
@@ -20033,7 +20033,7 @@ GetSkippedOffset
 ;
 allowHyphenBreakBeforeNextChar
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -20082,7 +20082,7 @@ aBreakBefore
 i
 ]
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -20463,7 +20463,7 @@ is
 /
 called
 with
-PR_FALSE
+false
 for
 aTrimAfter
 we
@@ -20494,7 +20494,7 @@ mFrame
 GetTrimmedOffsets
 (
 mFrag
-PR_TRUE
+true
 )
 ;
 end
@@ -21186,7 +21186,7 @@ Stop
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 PRInt32
@@ -21773,11 +21773,11 @@ PresContext
 )
 mInitCommonColors
 (
-PR_FALSE
+false
 )
 mInitSelectionColors
 (
-PR_FALSE
+false
 )
 {
 for
@@ -21805,7 +21805,7 @@ i
 .
 mInit
 =
-PR_FALSE
+false
 ;
 }
 bool
@@ -21870,7 +21870,7 @@ backLuminosityDifference
 mSufficientContrast
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -21926,11 +21926,11 @@ aBackColor
 tmpColor
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nscolor
@@ -21994,7 +21994,7 @@ InitSelectionColors
 )
 )
 return
-PR_FALSE
+false
 ;
 *
 aForeColor
@@ -22007,7 +22007,7 @@ aBackColor
 mSelectionBGColor
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -22352,7 +22352,7 @@ mUnderlineRelativeSize
 0f
 )
 return
-PR_FALSE
+false
 ;
 *
 aLineColor
@@ -22379,7 +22379,7 @@ selectionStyle
 mUnderlineStyle
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -22474,7 +22474,7 @@ mSufficientContrast
 ;
 mInitCommonColors
 =
-PR_TRUE
+true
 ;
 return
 ;
@@ -22562,7 +22562,7 @@ selectionBGColor
 ;
 mInitCommonColors
 =
-PR_TRUE
+true
 ;
 }
 static
@@ -22671,7 +22671,7 @@ if
 mInitSelectionColors
 )
 return
-PR_TRUE
+true
 ;
 PRInt16
 selectionFlags
@@ -22752,12 +22752,12 @@ worth
 it
 .
 return
-PR_FALSE
+false
 ;
 }
 mInitSelectionColors
 =
-PR_TRUE
+true
 ;
 nsIFrame
 *
@@ -22868,7 +22868,7 @@ eCSSProperty_color
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -23029,7 +23029,7 @@ mSelectionBGColor
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsTextPaintStyle
@@ -23482,7 +23482,7 @@ selectionStyle
 >
 mInit
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -26855,7 +26855,7 @@ this
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 next
@@ -27419,7 +27419,7 @@ aFrame
 )
 mDisableSubpixelAA
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -27564,7 +27564,7 @@ DisableComponentAlpha
 {
 mDisableSubpixelAA
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -27840,7 +27840,7 @@ aIsBefore
 *
 aIsBefore
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -27883,7 +27883,7 @@ before
 *
 aIsBefore
 =
-PR_TRUE
+true
 ;
 }
 aFrame
@@ -27946,7 +27946,7 @@ GetContentOffset
 GetContentLength
 (
 )
-PR_FALSE
+false
 )
 ;
 SelectionDetails
@@ -28081,7 +28081,7 @@ GetChildCount
 (
 )
 0
-PR_FALSE
+false
 )
 ;
 SelectionDetails
@@ -28237,7 +28237,7 @@ Height
 /
 app
 )
-PR_TRUE
+true
 )
 ;
 aCtx
@@ -28506,7 +28506,7 @@ green
 .
 useOverride
 =
-PR_TRUE
+true
 ;
 overrideColor
 =
@@ -30862,7 +30862,7 @@ aBackground
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 nsISelectionController
@@ -30889,7 +30889,7 @@ NS_RGBA
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 nsISelectionController
@@ -30963,7 +30963,7 @@ IsBackgroundColorDefined
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -31001,7 +31001,7 @@ mBackgroundColor
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 aTextPaintStyle
@@ -31020,7 +31020,7 @@ aBackground
 )
 ;
 return
-PR_TRUE
+true
 ;
 default
 :
@@ -31045,7 +31045,7 @@ NS_RGBA
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -31500,7 +31500,7 @@ GetOriginalOffset
 mOriginalEnd
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -31741,7 +31741,7 @@ aStyle
 style
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -32553,7 +32553,7 @@ background
 {
 anyBackgrounds
 =
-PR_TRUE
+true
 ;
 }
 for
@@ -34312,7 +34312,7 @@ provider
 .
 InitializeForDisplay
 (
-PR_TRUE
+true
 )
 ;
 PRUint32
@@ -34851,7 +34851,7 @@ provider
 .
 InitializeForDisplay
 (
-PR_TRUE
+true
 )
 ;
 gfxContext
@@ -36248,7 +36248,7 @@ if
 isSelected
 )
 return
-PR_FALSE
+false
 ;
 SelectionDetails
 *
@@ -36320,7 +36320,7 @@ SELECTION_NORMAL
 {
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -36511,7 +36511,7 @@ return
 GetCharacterOffsetAtFramePointInternal
 (
 aPoint
-PR_TRUE
+true
 )
 ;
 }
@@ -36534,7 +36534,7 @@ return
 GetCharacterOffsetAtFramePointInternal
 (
 aPoint
-PR_FALSE
+false
 )
 ;
 }
@@ -36594,7 +36594,7 @@ provider
 .
 InitializeForDisplay
 (
-PR_FALSE
+false
 )
 ;
 gfxFloat
@@ -37005,7 +37005,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 nsRect
 givenRect
@@ -37059,7 +37059,7 @@ if
 firstFont
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -37572,7 +37572,7 @@ NS_FRAME_SELECTED_CONTENT
 {
 anySelected
 =
-PR_TRUE
+true
 ;
 }
 f
@@ -37633,7 +37633,7 @@ NS_FRAME_SELECTED_CONTENT
 ;
 anySelected
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -37669,7 +37669,7 @@ details
 {
 anySelected
 =
-PR_TRUE
+true
 ;
 DestroySelectionDetails
 (
@@ -37871,7 +37871,7 @@ NS_FRAME_SELECTED_CONTENT
 {
 anySelected
 =
-PR_TRUE
+true
 ;
 }
 f
@@ -38052,7 +38052,7 @@ properties
 .
 InitializeForDisplay
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -38508,7 +38508,7 @@ offset
 {
 while
 (
-PR_TRUE
+true
 )
 {
 nsTextFrame
@@ -38582,7 +38582,7 @@ else
 {
 while
 (
-PR_TRUE
+true
 )
 {
 nsTextFrame
@@ -38747,7 +38747,7 @@ if
 mTextRun
 )
 return
-PR_FALSE
+false
 ;
 TrimmedOffsets
 trimmed
@@ -38760,7 +38760,7 @@ mContent
 GetText
 (
 )
-PR_TRUE
+true
 )
 ;
 /
@@ -39016,7 +39016,7 @@ IsOriginalCharSkipped
 )
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 index
@@ -39042,7 +39042,7 @@ index
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -39197,11 +39197,11 @@ index
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -39266,7 +39266,7 @@ selectStyle
 NS_STYLE_USER_SELECT_ALL
 )
 return
-PR_FALSE
+false
 ;
 gfxSkipCharsIterator
 iter
@@ -39281,7 +39281,7 @@ if
 mTextRun
 )
 return
-PR_FALSE
+false
 ;
 TrimmedOffsets
 trimmed
@@ -39294,7 +39294,7 @@ mContent
 GetText
 (
 )
-PR_FALSE
+false
 )
 ;
 /
@@ -39403,7 +39403,7 @@ i
 mContentOffset
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -39565,7 +39565,7 @@ i
 mContentOffset
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -39577,7 +39577,7 @@ contentLength
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -39636,7 +39636,7 @@ if
 mCategories
 )
 return
-PR_FALSE
+false
 ;
 nsIUGenCategory
 :
@@ -39761,7 +39761,7 @@ if
 mDirection
 )
 return
-PR_FALSE
+false
 ;
 gfxTextRun
 *
@@ -39776,11 +39776,11 @@ GetTextRun
 ;
 mHaveWordBreak
 =
-PR_FALSE
+false
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 bool
@@ -39811,7 +39811,7 @@ GetEnd
 )
 )
 return
-PR_FALSE
+false
 ;
 keepGoing
 =
@@ -39878,7 +39878,7 @@ mTrimmed
 mStart
 )
 return
-PR_FALSE
+false
 ;
 mIterator
 .
@@ -39952,7 +39952,7 @@ GetContentOffset
 {
 mHaveWordBreak
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -39961,7 +39961,7 @@ if
 keepGoing
 )
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -40063,7 +40063,7 @@ aTextFrame
 GetTrimmedOffsets
 (
 mFrag
-PR_TRUE
+true
 )
 ;
 PRInt32
@@ -40117,7 +40117,7 @@ mWordBreaks
 Elements
 (
 )
-PR_FALSE
+false
 textLen
 +
 1
@@ -40164,7 +40164,7 @@ mWordBreaks
 0
 ]
 =
-PR_TRUE
+true
 ;
 }
 textStart
@@ -40219,7 +40219,7 @@ mWordBreaks
 textLen
 ]
 =
-PR_TRUE
+true
 ;
 }
 textStart
@@ -40387,7 +40387,7 @@ selectStyle
 NS_STYLE_USER_SELECT_ALL
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 offset
@@ -40435,7 +40435,7 @@ NextCluster
 )
 )
 return
-PR_FALSE
+false
 ;
 do
 {
@@ -40636,7 +40636,7 @@ Chinese
 .
 canBreak
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -40669,7 +40669,7 @@ GetBeforeOffset
 mContentOffset
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -40704,7 +40704,7 @@ GetAfterOffset
 mContentOffset
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -40851,7 +40851,7 @@ f
 >
 PeekOffsetNoAmount
 (
-PR_TRUE
+true
 &
 dummyOffset
 )
@@ -40860,7 +40860,7 @@ dummyOffset
 *
 aRetval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -40870,7 +40870,7 @@ NS_OK
 *
 aRetval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -41007,7 +41007,7 @@ i
 *
 *
 Returns
-PR_TRUE
+true
 if
 this
 text
@@ -41017,7 +41017,7 @@ the
 first
 -
 letter
-PR_FALSE
+false
 *
 if
 it
@@ -41033,7 +41033,7 @@ letter
 *
 If
 returns
-PR_TRUE
+true
 then
 it
 also
@@ -41201,7 +41201,7 @@ i
 length
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -41225,7 +41225,7 @@ letter
 /
 /
 Return
-PR_TRUE
+true
 so
 that
 we
@@ -41262,7 +41262,7 @@ aLength
 0
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -41313,7 +41313,7 @@ i
 length
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -41350,7 +41350,7 @@ aLength
 i
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -42049,7 +42049,7 @@ aData
 >
 atStartOfLine
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -43814,7 +43814,7 @@ provider
 .
 InitializeForDisplay
 (
-PR_TRUE
+true
 )
 ;
 gfxTextRun
@@ -43947,7 +43947,7 @@ GetSkippedOffset
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -43968,7 +43968,7 @@ TEXT_HAS_SHY
 )
 )
 return
-PR_FALSE
+false
 ;
 gfxSkipCharsIterator
 iter
@@ -44023,11 +44023,11 @@ GetOriginalOffset
 CH_SHY
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -45633,7 +45633,7 @@ TEXT_FIRST_LETTER
 )
 )
 return
-PR_FALSE
+false
 ;
 nsIFrame
 *
@@ -45663,7 +45663,7 @@ nsGkAtoms
 letterFrame
 )
 return
-PR_FALSE
+false
 ;
 return
 frame
@@ -46987,7 +46987,7 @@ false
 .
 completedFirstLetter
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -47080,7 +47080,7 @@ firstLetterLength
 ;
 completedFirstLetter
 =
-PR_TRUE
+true
 ;
 }
 length
@@ -48347,7 +48347,7 @@ end
 {
 usedHyphenation
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -48728,7 +48728,7 @@ NotifyOptionalBreakPosition
 (
 mContent
 lastBreak
-PR_TRUE
+true
 breakPriority
 )
 ;
@@ -49825,7 +49825,7 @@ availWidth
 {
 breakAfter
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -49838,7 +49838,7 @@ mContent
 offset
 +
 length
-PR_TRUE
+true
 eNormalBreak
 )
 ;
@@ -49927,7 +49927,7 @@ aLineLayout
 .
 SetLineEndsInBR
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -49954,7 +49954,7 @@ aLineLayout
 .
 SetFirstLetterStyleOK
 (
-PR_FALSE
+false
 )
 ;
 aStatus
@@ -50373,7 +50373,7 @@ a
 text
 frame
 return
-PR_TRUE
+true
 ;
 }
 nsTextFrame
@@ -50397,13 +50397,13 @@ result
 .
 mChanged
 =
-PR_FALSE
+false
 ;
 result
 .
 mLastCharIsJustifiable
 =
-PR_FALSE
+false
 ;
 result
 .
@@ -50483,7 +50483,7 @@ trimmed
 GetTrimmedOffsets
 (
 frag
-PR_TRUE
+true
 )
 ;
 gfxSkipCharsIterator
@@ -50546,7 +50546,7 @@ result
 .
 mLastCharIsJustifiable
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -50700,13 +50700,13 @@ result
 .
 mLastCharIsJustifiable
 =
-PR_TRUE
+true
 ;
 result
 .
 mChanged
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -50820,7 +50820,7 @@ result
 .
 mLastCharIsJustifiable
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -50847,7 +50847,7 @@ TEXT_START_OF_LINE
 !
 =
 0
-PR_TRUE
+true
 &
 advanceDelta
 ctx
@@ -50865,7 +50865,7 @@ result
 .
 mChanged
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -51223,7 +51223,7 @@ provider
 .
 InitializeForDisplay
 (
-PR_TRUE
+true
 )
 ;
 gfxTextRun
@@ -51642,7 +51642,7 @@ GetTrimmedOffsets
 (
 )
 with
-PR_TRUE
+true
 to
 trim
 whitespace
@@ -51661,7 +51661,7 @@ textFrame
 GetTrimmedOffsets
 (
 textFrag
-PR_FALSE
+false
 )
 ;
 PRInt32
@@ -52296,7 +52296,7 @@ is
 zero
 ?
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -52307,7 +52307,7 @@ TEXT_ISNOT_ONLY_WHITESPACE
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -52318,7 +52318,7 @@ TEXT_IS_ONLY_WHITESPACE
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -53283,7 +53283,7 @@ UndefineCaretBidiLevel
 *
 *
 return
-PR_TRUE
+true
 if
 this
 text
@@ -53298,7 +53298,7 @@ It
 should
 return
 *
-PR_FALSE
+false
 if
 it
 is

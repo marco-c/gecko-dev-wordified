@@ -417,7 +417,7 @@ nsCERTValInParamWrapper
 :
 mAlreadyConstructed
 (
-PR_FALSE
+false
 )
 mCVIN
 (
@@ -971,7 +971,7 @@ CERT_REV_MI_NO_OVERALL_INFO_REQUIREMENT
 ;
 mAlreadyConstructed
 =
-PR_TRUE
+true
 ;
 mCVIN
 =

@@ -717,7 +717,7 @@ NS_NewStringEnumerator
 enumerator
 &
 array
-PR_TRUE
+true
 )
 ;
 /

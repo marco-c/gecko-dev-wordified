@@ -481,7 +481,7 @@ aContainer
 >
 mMayHaveReadbackChild
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -548,7 +548,7 @@ aContainer
 >
 mMayHaveReadbackChild
 =
-PR_TRUE
+true
 ;
 BuildUpdatesForLayer
 (

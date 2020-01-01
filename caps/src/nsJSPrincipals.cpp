@@ -990,7 +990,7 @@ nsjsprin
 -
 >
 nsIPrincipalPtr
-PR_TRUE
+true
 )
 ;
 }
@@ -1046,7 +1046,7 @@ stream
 >
 ReadObject
 (
-PR_TRUE
+true
 getter_AddRefs
 (
 prin

@@ -529,11 +529,11 @@ aStage
 :
 scriptingEnabled
 (
-PR_FALSE
+false
 )
 fragment
 (
-PR_FALSE
+false
 )
 contextNode
 (
@@ -570,14 +570,14 @@ aStage
 )
 mCurrentHtmlScriptIsAsyncOrDefer
 (
-PR_FALSE
+false
 )
 #
 ifdef
 DEBUG
 mActive
 (
-PR_FALSE
+false
 )
 #
 endif
@@ -2904,7 +2904,7 @@ fragment
 {
 mCurrentHtmlScriptIsAsyncOrDefer
 =
-PR_FALSE
+false
 ;
 deepTreeSurrogateParent
 =
@@ -2915,7 +2915,7 @@ ifdef
 DEBUG
 mActive
 =
-PR_TRUE
+true
 ;
 #
 endif
@@ -2939,7 +2939,7 @@ ifdef
 DEBUG
 mActive
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -3627,7 +3627,7 @@ aElement
 ;
 mCurrentHtmlScriptIsAsyncOrDefer
 =
-PR_FALSE
+false
 ;
 return
 ;
@@ -4440,7 +4440,7 @@ len
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -4608,7 +4608,7 @@ Clear
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 void

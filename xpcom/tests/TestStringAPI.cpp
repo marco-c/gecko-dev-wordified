@@ -1240,7 +1240,7 @@ Find
 world
 "
 20
-PR_FALSE
+false
 )
 )
 ;
@@ -1278,7 +1278,7 @@ Find
 world
 "
 12
-PR_FALSE
+false
 )
 )
 ;
@@ -1480,7 +1480,7 @@ s
 .
 SetIsVoid
 (
-PR_FALSE
+false
 )
 ;
 ret
@@ -1500,7 +1500,7 @@ s
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 ret
@@ -1519,7 +1519,7 @@ s
 .
 SetIsVoid
 (
-PR_FALSE
+false
 )
 ;
 ret
@@ -1539,7 +1539,7 @@ s
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 s
@@ -1712,7 +1712,7 @@ RFind
 "
 world
 "
-PR_FALSE
+false
 )
 )
 ;
@@ -1731,7 +1731,7 @@ RFind
 "
 world
 "
-PR_TRUE
+true
 )
 )
 ;
@@ -1752,7 +1752,7 @@ world
 "
 -
 1
-PR_FALSE
+false
 )
 )
 ;
@@ -1773,7 +1773,7 @@ world
 "
 -
 1
-PR_TRUE
+true
 )
 )
 ;
@@ -1793,7 +1793,7 @@ RFind
 world
 "
 17
-PR_FALSE
+false
 )
 )
 ;
@@ -1813,7 +1813,7 @@ RFind
 hello
 "
 0
-PR_FALSE
+false
 )
 )
 ;
@@ -1833,7 +1833,7 @@ RFind
 world
 "
 19
-PR_TRUE
+true
 )
 )
 ;
@@ -1853,7 +1853,7 @@ RFind
 world
 "
 22
-PR_TRUE
+true
 )
 )
 ;
@@ -1873,7 +1873,7 @@ RFind
 world
 "
 23
-PR_TRUE
+true
 )
 )
 ;

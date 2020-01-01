@@ -564,7 +564,7 @@ nsnull
 )
 mCheckedNext
 (
-PR_FALSE
+false
 )
 {
 }

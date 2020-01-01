@@ -701,11 +701,11 @@ aMenuBar
 :
 mAccessKeyDown
 (
-PR_FALSE
+false
 )
 mAccessKeyDownCanceled
 (
-PR_FALSE
+false
 )
 {
 mMenuBarFrame
@@ -1070,9 +1070,9 @@ popupFrame
 GetContent
 (
 )
-PR_FALSE
-PR_FALSE
-PR_TRUE
+false
+false
+true
 )
 ;
 }
@@ -1356,11 +1356,11 @@ ToggleMenuActiveState
 }
 mAccessKeyDown
 =
-PR_FALSE
+false
 ;
 mAccessKeyDownCanceled
 =
-PR_FALSE
+false
 ;
 bool
 active
@@ -1767,7 +1767,7 @@ mAccessKey
 {
 mAccessKeyDownCanceled
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -1846,7 +1846,7 @@ mMenuBarFrame
 >
 SetActive
 (
-PR_TRUE
+true
 )
 ;
 result
@@ -1854,7 +1854,7 @@ result
 >
 OpenMenu
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -1883,7 +1883,7 @@ mAccessKeyDown
 =
 mAccessKeyDownCanceled
 =
-PR_FALSE
+false
 ;
 aKeyEvent
 -
@@ -2439,7 +2439,7 @@ this
 .
 mAccessKeyDown
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2478,7 +2478,7 @@ released
 .
 mAccessKeyDownCanceled
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2602,11 +2602,11 @@ ToggleMenuActiveState
 ;
 mAccessKeyDown
 =
-PR_FALSE
+false
 ;
 mAccessKeyDownCanceled
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -2760,7 +2760,7 @@ mAccessKeyDown
 {
 mAccessKeyDownCanceled
 =
-PR_TRUE
+true
 ;
 }
 PRUint16

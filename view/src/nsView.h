@@ -874,12 +874,12 @@ views
 .
 *
 result
-PR_TRUE
+true
 if
 the
 view
 floats
-PR_FALSE
+false
 otherwise
 .
 *

@@ -901,7 +901,7 @@ Parse
 (
 inputURI
 0
-PR_FALSE
+false
 eDTDMode_unknown
 )
 ;
@@ -1064,7 +1064,7 @@ ch2
 {
 result
 =
-PR_FALSE
+false
 ;
 break
 ;

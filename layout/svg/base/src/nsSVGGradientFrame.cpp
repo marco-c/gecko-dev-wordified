@@ -612,11 +612,11 @@ aContext
 )
 mLoopFlag
 (
-PR_FALSE
+false
 )
 mNoHRefURI
 (
-PR_FALSE
+false
 )
 {
 }
@@ -837,7 +837,7 @@ HrefProperty
 ;
 mNoHRefURI
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1916,7 +1916,7 @@ IsEmpty
 {
 mNoHRefURI
 =
-PR_TRUE
+true
 ;
 return
 nsnull
@@ -2142,7 +2142,7 @@ are
 mNextGrad
 mLoopFlag
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -2202,7 +2202,7 @@ aDefault
 ;
 mLoopFlag
 =
-PR_FALSE
+false
 ;
 return
 grad
@@ -2301,7 +2301,7 @@ are
 mNextGrad
 mLoopFlag
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -2362,7 +2362,7 @@ aDefault
 ;
 mLoopFlag
 =
-PR_FALSE
+false
 ;
 return
 grad
@@ -2545,7 +2545,7 @@ are
 mNextGrad
 mLoopFlag
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -2605,7 +2605,7 @@ aStopFrame
 ;
 mLoopFlag
 =
-PR_FALSE
+false
 ;
 return
 stopCount

@@ -645,7 +645,7 @@ aSection
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -769,7 +769,7 @@ aKey
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP

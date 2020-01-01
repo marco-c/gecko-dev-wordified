@@ -1153,7 +1153,7 @@ MutationListenerBits
 *
 *
 Returns
-PR_TRUE
+true
 if
 there
 is
@@ -1181,7 +1181,7 @@ aEventName
 *
 *
 Returns
-PR_TRUE
+true
 if
 there
 is
@@ -1252,7 +1252,7 @@ Shutdown
 *
 *
 Returns
-PR_TRUE
+true
 if
 there
 may
@@ -1263,7 +1263,7 @@ event
 listener
 registered
 *
-PR_FALSE
+false
 if
 there
 definitely
@@ -1287,7 +1287,7 @@ mMayHavePaintEventListener
 *
 *
 Returns
-PR_TRUE
+true
 if
 there
 may
@@ -1298,7 +1298,7 @@ event
 listener
 registered
 *
-PR_FALSE
+false
 if
 there
 definitely
@@ -1322,7 +1322,7 @@ mMayHaveAudioAvailableEventListener
 *
 *
 Returns
-PR_TRUE
+true
 if
 there
 may
@@ -1333,7 +1333,7 @@ event
 listener
 registered
 *
-PR_FALSE
+false
 if
 there
 definitely

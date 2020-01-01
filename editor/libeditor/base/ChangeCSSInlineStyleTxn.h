@@ -580,7 +580,7 @@ aRemoveProperty
 IN
 ]
 if
-PR_TRUE
+true
 remove
 aProperty
 from
@@ -1028,7 +1028,7 @@ if
 mRemoveProperty
 =
 =
-PR_TRUE
+true
 )
 *
 /
@@ -1112,7 +1112,7 @@ mRedoAttributeWasSet
 /
 *
 *
-PR_TRUE
+true
 if
 the
 operation

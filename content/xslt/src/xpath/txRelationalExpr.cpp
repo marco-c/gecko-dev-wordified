@@ -628,7 +628,7 @@ strResult
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 PRInt32
@@ -692,12 +692,12 @@ aRight
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -791,7 +791,7 @@ strResult
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 PRInt32
@@ -855,12 +855,12 @@ strResult
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1274,7 +1274,7 @@ cases
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult

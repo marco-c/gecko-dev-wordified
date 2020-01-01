@@ -729,7 +729,7 @@ resolvedName
 {
 aAborted
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -898,7 +898,7 @@ FLAG_FORMAT_TRUETYPE
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -919,7 +919,7 @@ aFormatFlags
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -934,7 +934,7 @@ look
 at
 data
 return
-PR_TRUE
+true
 ;
 }
 gfxFontGroup

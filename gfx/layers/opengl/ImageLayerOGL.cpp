@@ -2188,7 +2188,7 @@ mManager
 nsnull
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2208,7 +2208,7 @@ LAYERS_OPENGL
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 LayerManagerOGL
@@ -2291,7 +2291,7 @@ this
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 Layer
@@ -4284,7 +4284,7 @@ aRecycleBin
 )
 mHasData
 (
-PR_FALSE
+false
 )
 {
 #
@@ -4528,7 +4528,7 @@ aData
 ;
 mHasData
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -5410,7 +5410,7 @@ LOCAL_GL_CLAMP_TO_EDGE
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -5654,11 +5654,11 @@ mCbCrSize
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -6047,7 +6047,7 @@ mDestroyed
 {
 mDestroyed
 =
-PR_TRUE
+true
 ;
 mTexImage
 =

@@ -760,7 +760,7 @@ Verbosify
 ccx
 &
 sz
-PR_FALSE
+false
 )
 ;
 BuildAndThrowException
@@ -981,7 +981,7 @@ Verbosify
 ccx
 &
 sz
-PR_TRUE
+true
 )
 ;
 BuildAndThrowException
@@ -1074,7 +1074,7 @@ Verbosify
 ccx
 &
 sz
-PR_TRUE
+true
 )
 ;
 BuildAndThrowException
@@ -1549,7 +1549,7 @@ if
 xpc
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1590,7 +1590,7 @@ rv
 xpcSecMan
 )
 return
-PR_FALSE
+false
 ;
 secMan
 =
@@ -1606,7 +1606,7 @@ if
 secMan
 )
 return
-PR_FALSE
+false
 ;
 bool
 isChrome

@@ -1690,7 +1690,7 @@ aFrame
 GetChildFrameContainingOffset
 (
 startContentOffset
-PR_FALSE
+false
 &
 startContentOffsetInFrame
 &
@@ -2622,7 +2622,7 @@ frame
 GetChildFrameContainingOffset
 (
 contentOffset
-PR_TRUE
+true
 &
 outStartLineUnused
 &
@@ -6100,7 +6100,7 @@ BOUNDARY_WORD_START
 :
 needsStart
 =
-PR_TRUE
+true
 ;
 amount
 =
@@ -6167,7 +6167,7 @@ string
 .
 needsStart
 =
-PR_TRUE
+true
 ;
 amount
 =
@@ -6238,7 +6238,7 @@ rv
 =
 GetTextAttributes
 (
-PR_FALSE
+false
 aOffset
 aStartOffset
 aEndOffset
@@ -7346,7 +7346,7 @@ nsTextAttrsMgr
 textAttrsMgr
 (
 this
-PR_TRUE
+true
 nsnull
 -
 1
@@ -7627,7 +7627,7 @@ nsTextAttrsMgr
 textAttrsMgr
 (
 this
-PR_TRUE
+true
 )
 ;
 return
@@ -8734,7 +8734,7 @@ frame
 GetContentOffsetsFromPointExternal
 (
 pointInFrame
-PR_TRUE
+true
 )
 ;
 if
@@ -11458,7 +11458,7 @@ DOMPointToHypertextOffset
 endNode
 endOffset
 aEndOffset
-PR_TRUE
+true
 )
 ;
 return
@@ -11702,7 +11702,7 @@ range
 >
 Collapse
 (
-PR_TRUE
+true
 )
 :
 range
@@ -12428,7 +12428,7 @@ rv
 ;
 initialScrolled
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -14436,8 +14436,8 @@ rv
 DOMRangeBoundToHypertextOffset
 (
 range
-PR_FALSE
-PR_TRUE
+false
+true
 &
 startHTOffset
 )
@@ -14488,8 +14488,8 @@ rv
 DOMRangeBoundToHypertextOffset
 (
 range
-PR_TRUE
-PR_FALSE
+true
+false
 &
 endHTOffset
 )
@@ -14532,8 +14532,8 @@ rv
 DOMRangeBoundToHypertextOffset
 (
 range
-PR_TRUE
-PR_TRUE
+true
+true
 &
 startHTOffset
 )
@@ -14554,8 +14554,8 @@ rv
 DOMRangeBoundToHypertextOffset
 (
 range
-PR_FALSE
-PR_FALSE
+false
+false
 &
 endHTOffset
 )

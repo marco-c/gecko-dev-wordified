@@ -543,7 +543,7 @@ PropItem
 )
 mPresent
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -575,7 +575,7 @@ aValue
 )
 mPresent
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR

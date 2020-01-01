@@ -1526,11 +1526,11 @@ aName
 )
 mDidGetFlags
 (
-PR_FALSE
+false
 )
 mMustFreeName
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1603,7 +1603,7 @@ mFlags
 }
 mDidGetFlags
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -1665,7 +1665,7 @@ mName
 {
 mMustFreeName
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2413,7 +2413,7 @@ aData
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2514,7 +2514,7 @@ len
 thisLen
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2589,7 +2589,7 @@ thisLen
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2599,7 +2599,7 @@ len
 thisLen
 )
 return
-PR_TRUE
+true
 ;
 char
 charBefore
@@ -2720,7 +2720,7 @@ entry
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -5789,7 +5789,7 @@ else
 {
 subjectSetDomain
 =
-PR_TRUE
+true
 ;
 }
 aObject
@@ -5825,7 +5825,7 @@ else
 {
 objectSetDomain
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -8177,7 +8177,7 @@ aPrincipal
 CheckMayLoad
 (
 targetBaseURI
-PR_TRUE
+true
 )
 ;
 }
@@ -9992,7 +9992,7 @@ result
 *
 result
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -10018,7 +10018,7 @@ scripts
 *
 result
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -10075,7 +10075,7 @@ folks
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -10319,7 +10319,7 @@ Disallow
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_ERROR_UNEXPECTED
@@ -10414,7 +10414,7 @@ ALLOW_SCRIPT
 *
 result
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -10509,7 +10509,7 @@ SCRIPT_SECURITY_NO_ACCESS
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -10531,7 +10531,7 @@ run
 *
 result
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -10715,7 +10715,7 @@ aIsSystem
 *
 aIsSystem
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -10782,7 +10782,7 @@ code
 *
 aIsSystem
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -10863,7 +10863,7 @@ aSubjectName
 aPrettyName
 aCertificate
 aURI
-PR_TRUE
+true
 result
 )
 ;
@@ -11382,8 +11382,8 @@ aPrettyName
 granted
 denied
 aCertificate
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 if
@@ -11884,7 +11884,7 @@ EmptyCString
 granted
 denied
 nsnull
-PR_FALSE
+false
 isTrusted
 )
 ;
@@ -13496,7 +13496,7 @@ DEBUG
 aAllowShortCircuit
 #
 else
-PR_TRUE
+true
 #
 endif
 )
@@ -13684,7 +13684,7 @@ principal
 doGetObjectPrincipal
 (
 origObj
-PR_FALSE
+false
 )
 ;
 /
@@ -13887,7 +13887,7 @@ NS_ERROR_FAILURE
 ;
 mIsWritingPrefs
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -14013,7 +14013,7 @@ get
 }
 mIsWritingPrefs
 =
-PR_FALSE
+false
 ;
 nsIPrefService
 *
@@ -14255,7 +14255,7 @@ targetPrincipal
 mSystemPrincipal
 )
 :
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -14264,7 +14264,7 @@ NS_OK
 *
 result
 =
-PR_FALSE
+false
 ;
 nsIPrincipal
 *
@@ -14832,7 +14832,7 @@ rv
 *
 checkValue
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -14963,7 +14963,7 @@ if
 prompter
 )
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -15008,7 +15008,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 nsXPIDLString
 title
@@ -15044,7 +15044,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 nsXPIDLString
 yesStr
@@ -15080,7 +15080,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 nsXPIDLString
 noStr
@@ -15116,7 +15116,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCAutoString
 val
@@ -15164,7 +15164,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 NS_ConvertUTF8toUTF16
 location
@@ -15242,7 +15242,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 buttonPressed
@@ -15351,7 +15351,7 @@ rv
 *
 checkValue
 =
-PR_FALSE
+false
 ;
 return
 (
@@ -16702,7 +16702,7 @@ EmptyCString
 )
 nsnull
 nsnull
-PR_FALSE
+false
 getter_AddRefs
 (
 objectPrincipal
@@ -18475,7 +18475,7 @@ pref
 table
 mPolicyPrefsChanged
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -18718,19 +18718,19 @@ nsnull
 )
 mPrefInitialized
 (
-PR_FALSE
+false
 )
 mIsJavaScriptEnabled
 (
-PR_FALSE
+false
 )
 mIsWritingPrefs
 (
-PR_FALSE
+false
 )
 mPolicyPrefsChanged
 (
-PR_TRUE
+true
 )
 {
 NS_ASSERTION
@@ -20399,7 +20399,7 @@ dirty
 flag
 mPolicyPrefsChanged
 =
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -21927,7 +21927,7 @@ certificateName
 {
 isCert
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -22075,11 +22075,11 @@ cases
 .
 mIsJavaScriptEnabled
 =
-PR_TRUE
+true
 ;
 sStrictFileOriginPolicy
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -22159,7 +22159,7 @@ NS_ERROR_FAILURE
 ;
 mPrefInitialized
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -22767,7 +22767,7 @@ aClosure
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -22808,7 +22808,7 @@ cap
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

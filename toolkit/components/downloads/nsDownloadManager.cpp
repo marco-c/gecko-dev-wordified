@@ -1906,7 +1906,7 @@ dlMgr
 >
 ResumeAllDownloads
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2015,7 +2015,7 @@ dbFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2436,7 +2436,7 @@ mozStorageTransaction
 safeTransaction
 (
 mDBConn
-PR_TRUE
+true
 )
 ;
 /
@@ -4618,7 +4618,7 @@ rv
 =
 ResumeAllDownloads
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5289,7 +5289,7 @@ oldDownloadsFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -5642,7 +5642,7 @@ quit
 -
 application
 "
-PR_FALSE
+false
 )
 ;
 (
@@ -5661,7 +5661,7 @@ application
 -
 requested
 "
-PR_FALSE
+false
 )
 ;
 (
@@ -5678,7 +5678,7 @@ offline
 -
 requested
 "
-PR_FALSE
+false
 )
 ;
 (
@@ -5693,7 +5693,7 @@ this
 "
 sleep_notification
 "
-PR_FALSE
+false
 )
 ;
 (
@@ -5708,7 +5708,7 @@ this
 "
 wake_notification
 "
-PR_FALSE
+false
 )
 ;
 (
@@ -5721,7 +5721,7 @@ AddObserver
 (
 this
 NS_IOSERVICE_GOING_OFFLINE_TOPIC
-PR_FALSE
+false
 )
 ;
 (
@@ -5734,7 +5734,7 @@ AddObserver
 (
 this
 NS_IOSERVICE_OFFLINE_STATUS_TOPIC
-PR_FALSE
+false
 )
 ;
 (
@@ -5747,7 +5747,7 @@ AddObserver
 (
 this
 NS_PRIVATE_BROWSING_REQUEST_TOPIC
-PR_FALSE
+false
 )
 ;
 (
@@ -5760,7 +5760,7 @@ AddObserver
 (
 this
 NS_PRIVATE_BROWSING_SWITCH_TOPIC
-PR_FALSE
+false
 )
 ;
 if
@@ -5776,7 +5776,7 @@ history
 AddObserver
 (
 this
-PR_FALSE
+false
 )
 ;
 return
@@ -6308,7 +6308,7 @@ rv
 NS_NewLocalFile
 (
 tempPath
-PR_TRUE
+true
 getter_AddRefs
 (
 dl
@@ -6635,7 +6635,7 @@ NS_NewNativeLocalFile
 EmptyCString
 (
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 localExecutable
@@ -7525,7 +7525,7 @@ nsDependentCString
 (
 downloadDirPath
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 downloadDir
@@ -9358,7 +9358,7 @@ mTempFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -9406,7 +9406,7 @@ file
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -10479,7 +10479,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 DownloadState
 states
@@ -10684,7 +10684,7 @@ count
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 rv
@@ -11040,7 +11040,7 @@ void
 )
 PauseAllDownloads
 (
-PR_TRUE
+true
 )
 ;
 (
@@ -11251,7 +11251,7 @@ new
 mozStorageTransaction
 (
 mDBConn
-PR_TRUE
+true
 )
 ;
 return
@@ -12102,7 +12102,7 @@ void
 )
 PauseAllDownloads
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -12151,7 +12151,7 @@ void
 )
 ResumeAllDownloads
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -12312,7 +12312,7 @@ void
 )
 PauseAllDownloads
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -12696,7 +12696,7 @@ void
 )
 PauseAllDownloads
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -12719,7 +12719,7 @@ DATABASE_MEMORY
 ;
 mInPrivateBrowsing
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -12751,7 +12751,7 @@ void
 )
 ResumeAllDownloads
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -12775,7 +12775,7 @@ DATABASE_DISK
 ;
 mInPrivateBrowsing
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -13281,7 +13281,7 @@ mSpeed
 )
 mHasMultipleFiles
 (
-PR_FALSE
+false
 )
 mAutoResume
 (
@@ -15178,7 +15178,7 @@ aMaxTotalProgress
 )
 mHasMultipleFiles
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -15208,7 +15208,7 @@ allowRefresh
 *
 allowRefresh
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -17038,7 +17038,7 @@ target
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -17353,13 +17353,13 @@ now
 .
 deleteTempFileOnExit
 =
-PR_TRUE
+true
 ;
 #
 else
 deleteTempFileOnExit
 =
-PR_FALSE
+false
 ;
 #
 endif

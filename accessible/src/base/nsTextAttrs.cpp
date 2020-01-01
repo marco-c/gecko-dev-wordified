@@ -1906,7 +1906,7 @@ currElm
 {
 offsetFound
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2082,7 +2082,7 @@ currElm
 {
 offsetFound
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2615,7 +2615,7 @@ if
 currStyleDecl
 )
 return
-PR_FALSE
+false
 ;
 NS_ConvertASCIItoUTF16
 cssName
@@ -2649,7 +2649,7 @@ rv
 )
 )
 return
-PR_TRUE
+true
 ;
 const
 char
@@ -2681,10 +2681,10 @@ cssValue
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -2978,7 +2978,7 @@ if
 frame
 )
 return
-PR_FALSE
+false
 ;
 return
 GetColor
@@ -3139,7 +3139,7 @@ styleBackground
 mBackgroundColor
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsIFrame
@@ -3175,7 +3175,7 @@ DefaultBackgroundColor
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -3227,7 +3227,7 @@ parentFrame
 mRootFrame
 )
 return
-PR_FALSE
+false
 ;
 return
 GetColor
@@ -3447,7 +3447,7 @@ aRootFrame
 ;
 mIsRootDefined
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3463,7 +3463,7 @@ aFrame
 ;
 mIsDefined
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3498,7 +3498,7 @@ if
 frame
 )
 return
-PR_FALSE
+false
 ;
 *
 aValue
@@ -3509,7 +3509,7 @@ frame
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -3895,7 +3895,7 @@ aRootFrame
 ;
 mIsRootDefined
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3911,7 +3911,7 @@ aFrame
 ;
 mIsDefined
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3946,7 +3946,7 @@ if
 frame
 )
 return
-PR_FALSE
+false
 ;
 *
 aValue
@@ -3957,7 +3957,7 @@ frame
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

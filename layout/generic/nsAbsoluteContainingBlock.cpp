@@ -883,7 +883,7 @@ PresContext
 (
 )
 nif
-PR_FALSE
+false
 )
 ;
 }
@@ -952,7 +952,7 @@ tracker
 (
 aPresContext
 aDelegatingFrame
-PR_TRUE
+true
 )
 ;
 for
@@ -1203,7 +1203,7 @@ DeleteNextInFlowChild
 (
 aPresContext
 nextFrame
-PR_TRUE
+true
 )
 ;
 }
@@ -1802,7 +1802,7 @@ eStyleUnit_Auto
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -1822,7 +1822,7 @@ getting
 style
 data
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -1996,7 +1996,7 @@ GetRight
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2074,7 +2074,7 @@ GetRight
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2200,7 +2200,7 @@ eStyleUnit_Auto
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -2223,7 +2223,7 @@ GetLeft
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -2418,7 +2418,7 @@ GetBottom
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2464,7 +2464,7 @@ GetBottom
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2484,12 +2484,12 @@ GetTop
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -2524,7 +2524,7 @@ MarkSizeDependentFramesDirty
 {
 DoMarkFramesDirty
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2538,7 +2538,7 @@ MarkAllFramesDirty
 {
 DoMarkFramesDirty
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2596,8 +2596,8 @@ if
 FrameDependsOnContainer
 (
 kidFrame
-PR_TRUE
-PR_TRUE
+true
+true
 )
 )
 {

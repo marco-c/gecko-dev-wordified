@@ -836,7 +836,7 @@ EndNativeDrawing
 /
 *
 Returns
-PR_TRUE
+true
 if
 the
 native
@@ -855,7 +855,7 @@ ShouldRenderAgain
 /
 *
 Returns
-PR_TRUE
+true
 if
 double
 pass

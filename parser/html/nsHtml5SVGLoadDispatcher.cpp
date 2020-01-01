@@ -481,7 +481,7 @@ Run
 nsEvent
 event
 (
-PR_TRUE
+true
 NS_SVG_LOAD
 )
 ;
@@ -635,7 +635,7 @@ mDocument
 >
 UnblockOnload
 (
-PR_FALSE
+false
 )
 ;
 return

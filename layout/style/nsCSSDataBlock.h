@@ -796,7 +796,7 @@ will
 fail
 (
 returning
-PR_FALSE
+false
 )
 if
 |
@@ -834,7 +834,7 @@ if
 it
 *
 returns
-PR_TRUE
+true
 the
 value
 in

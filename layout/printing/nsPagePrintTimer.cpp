@@ -790,7 +790,7 @@ NS_OK
 {
 initNewTimer
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -857,7 +857,7 @@ result
 {
 donePrinting
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -876,7 +876,7 @@ mPrintEngine
 >
 SetIsPrinting
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -940,7 +940,7 @@ aPO
 return
 StartTimer
 (
-PR_FALSE
+false
 )
 ;
 }

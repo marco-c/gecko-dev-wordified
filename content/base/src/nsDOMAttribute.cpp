@@ -1565,7 +1565,7 @@ GetPrefixAtom
 (
 )
 aValue
-PR_TRUE
+true
 )
 ;
 }
@@ -1603,7 +1603,7 @@ mChild
 SetText
 (
 mValue
-PR_FALSE
+false
 )
 ;
 }
@@ -1664,7 +1664,7 @@ eSpecified
 *
 aSpecified
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2139,7 +2139,7 @@ eHasAttributes
 *
 aHasAttributes
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2446,7 +2446,7 @@ eInsertBefore
 return
 ReplaceOrInsertBefore
 (
-PR_FALSE
+false
 aNewChild
 aRefChild
 aReturn
@@ -2499,7 +2499,7 @@ eReplaceChild
 return
 ReplaceOrInsertBefore
 (
-PR_TRUE
+true
 aNewChild
 aOldChild
 aReturn
@@ -2732,7 +2732,7 @@ CloneNodeImpl
 (
 this
 aDeep
-PR_TRUE
+true
 aResult
 )
 ;
@@ -3416,7 +3416,7 @@ content
 *
 aReturn
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3442,7 +3442,7 @@ idAtom
 *
 aReturn
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3713,7 +3713,7 @@ aVisitor
 .
 mCanHandle
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3793,7 +3793,7 @@ mChild
 SetText
 (
 value
-PR_FALSE
+false
 )
 ;
 }
@@ -3923,7 +3923,7 @@ Initialize
 {
 sInitialized
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -3936,7 +3936,7 @@ Shutdown
 {
 sInitialized
 =
-PR_FALSE
+false
 ;
 }
 void

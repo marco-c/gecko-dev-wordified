@@ -659,39 +659,39 @@ aBuildCaret
 )
 mIgnoreSuppression
 (
-PR_FALSE
+false
 )
 mHadToIgnoreSuppression
 (
-PR_FALSE
+false
 )
 mIsAtRootOfPseudoStackingContext
 (
-PR_FALSE
+false
 )
 mIncludeAllOutOfFlows
 (
-PR_FALSE
+false
 )
 mSelectedFramesOnly
 (
-PR_FALSE
+false
 )
 mAccurateVisibleRegions
 (
-PR_FALSE
+false
 )
 mInTransform
 (
-PR_FALSE
+false
 )
 mSyncDecodeImages
 (
-PR_FALSE
+false
 )
 mIsPaintingToWindow
 (
-PR_FALSE
+false
 )
 mSnappingEnabled
 (
@@ -702,11 +702,11 @@ EVENT_DELIVERY
 )
 mHasDisplayPort
 (
-PR_FALSE
+false
 )
 mHasFixedItems
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -854,7 +854,7 @@ IsEmpty
 {
 mHasFixedItems
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1147,7 +1147,7 @@ fixedPositionLayersEnabled
 {
 mHasDisplayPort
 =
-PR_TRUE
+true
 ;
 mDisplayPort
 =
@@ -2113,7 +2113,7 @@ IsPaintingSuppressed
 {
 mHadToIgnoreSuppression
 =
-PR_TRUE
+true
 ;
 }
 state
@@ -2121,7 +2121,7 @@ state
 >
 mIsBackgroundOnly
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2131,11 +2131,11 @@ state
 >
 mIsBackgroundOnly
 =
-PR_TRUE
+true
 ;
 buildCaret
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -3344,7 +3344,7 @@ aAllowVisibleRegionExpansion
 {
 anyVisible
 =
-PR_TRUE
+true
 ;
 bool
 transparentBackground
@@ -3414,7 +3414,7 @@ ifdef
 DEBUG
 mDidComputeVisibility
 =
-PR_TRUE
+true
 ;
 #
 endif
@@ -4204,7 +4204,7 @@ IsBoxFrame
 )
 )
 return
-PR_FALSE
+false
 ;
 const
 nsIFrame
@@ -4231,7 +4231,7 @@ NS_FRAME_MOUSE_THROUGH_ALWAYS
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -4248,7 +4248,7 @@ NS_FRAME_MOUSE_THROUGH_NEVER
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 frame
@@ -4262,7 +4262,7 @@ GetParentBox
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -5147,7 +5147,7 @@ aClosure
 {
 sorted
 =
-PR_FALSE
+false
 ;
 }
 prev
@@ -5540,7 +5540,7 @@ GetUnderlyingFrame
 {
 anyAnonymousItems
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -5883,7 +5883,7 @@ nsRect
 )
 )
 return
-PR_FALSE
+false
 ;
 bool
 forceTransparentBackground
@@ -5909,7 +5909,7 @@ opaque
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -6531,7 +6531,7 @@ aYOffset
 aYRadius
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -6965,7 +6965,7 @@ aTestRect
 )
 )
 return
-PR_FALSE
+false
 ;
 nscoord
 radii
@@ -7243,7 +7243,7 @@ aAllowVisibleRegionExpansion
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -7551,7 +7551,7 @@ aForceTransparentSurface
 *
 aForceTransparentSurface
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -7994,11 +7994,11 @@ NS_RGBA
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsStyleContext
@@ -8042,7 +8042,7 @@ NS_RGBA
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 const
@@ -8172,11 +8172,11 @@ bg
 mBackgroundColor
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -8210,7 +8210,7 @@ if
 mIsThemed
 )
 return
-PR_FALSE
+false
 ;
 nsPresContext
 *
@@ -8247,7 +8247,7 @@ if
 hasBG
 )
 return
-PR_FALSE
+false
 ;
 const
 nsStyleBackground
@@ -8272,7 +8272,7 @@ HasFixedBackground
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -8359,7 +8359,7 @@ if
 mIsThemed
 )
 return
-PR_FALSE
+false
 ;
 nsPresContext
 *
@@ -8396,7 +8396,7 @@ if
 hasBG
 )
 return
-PR_FALSE
+false
 ;
 const
 nsStyleBackground
@@ -8421,7 +8421,7 @@ HasFixedBackground
 )
 )
 return
-PR_FALSE
+false
 ;
 NS_FOR_VISIBLE_BACKGROUND_LAYERS_BACK_TO_FRONT
 (
@@ -8466,7 +8466,7 @@ IsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -8479,7 +8479,7 @@ mClip
 NS_STYLE_BG_CLIP_BORDER
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -8501,7 +8501,7 @@ mBorderRadius
 )
 )
 return
-PR_FALSE
+false
 ;
 nsRect
 bounds
@@ -8533,7 +8533,7 @@ if
 rootScrollFrame
 )
 return
-PR_FALSE
+false
 ;
 nsIScrollableFrame
 *
@@ -8880,7 +8880,7 @@ aAllowVisibleRegionExpansion
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -8981,12 +8981,12 @@ is
 not
 visible
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -9144,7 +9144,7 @@ aAllowVisibleRegionExpansion
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsRect
@@ -9293,11 +9293,11 @@ in
 )
 .
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -9497,7 +9497,7 @@ aRegion
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 const
@@ -9770,7 +9770,7 @@ aAllowVisibleRegionExpansion
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -9829,7 +9829,7 @@ visibleBounds
 )
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -9888,7 +9888,7 @@ if
 hasBorderRadii
 )
 return
-PR_FALSE
+false
 ;
 return
 !
@@ -10056,7 +10056,7 @@ aAllowVisibleRegionExpansion
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -10076,7 +10076,7 @@ mVisibleRect
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsDisplayWrapList
@@ -10282,7 +10282,7 @@ aForceTransparentSurface
 *
 aForceTransparentSurface
 =
-PR_FALSE
+false
 ;
 }
 nsRegion
@@ -10338,10 +10338,10 @@ s
 conservatively
 just
 return
-PR_FALSE
+false
 .
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -10385,10 +10385,10 @@ s
 conservatively
 just
 return
-PR_TRUE
+true
 .
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -10502,7 +10502,7 @@ activeScrolledRoot
 aActiveScrolledRoot
 )
 return
-PR_FALSE
+false
 ;
 }
 LayerState
@@ -10525,7 +10525,7 @@ state
 LAYER_ACTIVE
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -10562,12 +10562,12 @@ aActiveScrolledRoot
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 nsRect
@@ -11196,7 +11196,7 @@ aForceTransparentSurface
 *
 aForceTransparentSurface
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -11527,7 +11527,7 @@ GetType
 TYPE_OPACITY
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -11587,7 +11587,7 @@ GetContent
 )
 )
 return
-PR_FALSE
+false
 ;
 mList
 .
@@ -11608,7 +11608,7 @@ mList
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsDisplayOwnLayer
@@ -12344,7 +12344,7 @@ TYPE_SCROLL_LAYER
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsDisplayScrollLayer
@@ -12375,7 +12375,7 @@ mScrolledFrame
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 FrameProperties
@@ -12424,7 +12424,7 @@ mList
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -12714,7 +12714,7 @@ aItem
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -13096,7 +13096,7 @@ GetType
 TYPE_CLIP
 )
 return
-PR_FALSE
+false
 ;
 nsDisplayClip
 *
@@ -13125,7 +13125,7 @@ mClip
 )
 )
 return
-PR_FALSE
+false
 ;
 mList
 .
@@ -13139,7 +13139,7 @@ mList
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsDisplayWrapList
@@ -13315,7 +13315,7 @@ aForceTransparentSurface
 *
 aForceTransparentSurface
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -13575,7 +13575,7 @@ GetType
 TYPE_CLIP_ROUNDED_RECT
 )
 return
-PR_FALSE
+false
 ;
 nsDisplayClipRoundedRect
 *
@@ -13621,7 +13621,7 @@ mRadii
 0
 )
 return
-PR_FALSE
+false
 ;
 mList
 .
@@ -13635,7 +13635,7 @@ mList
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsDisplayZoom
@@ -16630,7 +16630,7 @@ untransformedVisible
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -17508,7 +17508,7 @@ aForceTransparentSurface
 *
 aForceTransparentSurface
 =
-PR_FALSE
+false
 ;
 }
 nsRect
@@ -17662,7 +17662,7 @@ untransformedVisible
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -17770,7 +17770,7 @@ aItem
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -17851,7 +17851,7 @@ GetType
 TYPE_TRANSFORM
 )
 return
-PR_FALSE
+false
 ;
 /
 *
@@ -17893,7 +17893,7 @@ GetContent
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 *
@@ -17938,7 +17938,7 @@ mStoredList
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -18318,7 +18318,7 @@ IsSingular
 )
 )
 return
-PR_FALSE
+false
 ;
 gfxRect
 result
@@ -18395,7 +18395,7 @@ factor
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsDisplaySVGEffects
@@ -18481,7 +18481,7 @@ aForceTransparentSurface
 *
 aForceTransparentSurface
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -18704,7 +18704,7 @@ nsRect
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -18734,7 +18734,7 @@ GetType
 TYPE_SVG_EFFECTS
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -18794,7 +18794,7 @@ GetContent
 )
 )
 return
-PR_FALSE
+false
 ;
 nsDisplaySVGEffects
 *
@@ -18843,7 +18843,7 @@ mEffectsFrame
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsDisplayForcePaintOnScroll
@@ -18905,6 +18905,6 @@ aFrame
 )
 {
 return
-PR_TRUE
+true
 ;
 }

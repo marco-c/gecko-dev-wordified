@@ -529,11 +529,11 @@ mControlStopped
 )
 mHasSeenLocation
 (
-PR_FALSE
+false
 )
 mHasGPS
 (
-PR_TRUE
+true
 )
 mGPSControl
 (
@@ -545,7 +545,7 @@ nsnull
 )
 mIgnoreMinorChanges
 (
-PR_FALSE
+false
 )
 mPrevLat
 (
@@ -561,7 +561,7 @@ mPrevLong
 )
 mIgnoreBigHErr
 (
-PR_TRUE
+true
 )
 mMaxHErr
 (
@@ -569,7 +569,7 @@ mMaxHErr
 )
 mIgnoreBigVErr
 (
-PR_TRUE
+true
 )
 mMaxVErr
 (
@@ -1582,7 +1582,7 @@ mControlStopped
 ;
 mHasSeenLocation
 =
-PR_FALSE
+false
 ;
 mCallback
 =
@@ -1640,7 +1640,7 @@ aPosition
 {
 mHasSeenLocation
 =
-PR_TRUE
+true
 ;
 if
 (

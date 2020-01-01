@@ -1506,7 +1506,7 @@ else
 {
 mFreshBase64
 =
-PR_FALSE
+false
 ;
 res
 =
@@ -1578,7 +1578,7 @@ ENC_BASE64
 ;
 mFreshBase64
 =
-PR_TRUE
+true
 ;
 mEncBits
 =

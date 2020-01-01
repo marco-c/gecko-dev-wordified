@@ -1923,8 +1923,8 @@ NS_ConvertASCIItoUTF16
 e
 )
 this
-PR_TRUE
-PR_TRUE
+true
+true
 2
 )
 ;
@@ -2028,7 +2028,7 @@ NS_ConvertASCIItoUTF16
 e
 )
 this
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4697,7 +4697,7 @@ states
 :
 :
 EXPANDED
-PR_TRUE
+true
 )
 ;
 if
@@ -5399,7 +5399,7 @@ states
 :
 :
 EXPANDED
-PR_FALSE
+false
 )
 ;
 document

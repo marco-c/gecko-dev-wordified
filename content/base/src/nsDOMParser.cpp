@@ -604,7 +604,7 @@ nsDOMParser
 :
 mAttemptedInit
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1354,7 +1354,7 @@ listener
 Have
 to
 pass
-PR_FALSE
+false
 for
 reset
 here
@@ -1452,7 +1452,7 @@ getter_AddRefs
 (
 listener
 )
-PR_FALSE
+false
 )
 ;
 /
@@ -1702,7 +1702,7 @@ mAttemptedInit
 ;
 mAttemptedInit
 =
-PR_TRUE
+true
 ;
 NS_ENSURE_ARG
 (
@@ -2035,7 +2035,7 @@ JSVAL_NULL
 *
 wasNull
 =
-PR_TRUE
+true
 ;
 return
 nsQueryInterface
@@ -2047,7 +2047,7 @@ nsnull
 *
 wasNull
 =
-PR_FALSE
+false
 ;
 if
 (

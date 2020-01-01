@@ -466,7 +466,7 @@ nsComposeTxtSrvFilter
 :
 mIsForMail
 (
-PR_FALSE
+false
 )
 {
 mBlockQuoteAtom
@@ -620,7 +620,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -797,7 +797,7 @@ mMapAtom
 *
 _retval
 =
-PR_TRUE
+true
 ;
 }
 else

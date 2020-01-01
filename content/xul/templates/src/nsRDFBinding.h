@@ -563,7 +563,7 @@ aTargetVariable
 )
 mHasDependency
 (
-PR_FALSE
+false
 )
 mNext
 (

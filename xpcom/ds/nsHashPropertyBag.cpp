@@ -1028,7 +1028,7 @@ propertyArray
 AppendElement
 (
 sprop
-PR_FALSE
+false
 )
 ;
 return

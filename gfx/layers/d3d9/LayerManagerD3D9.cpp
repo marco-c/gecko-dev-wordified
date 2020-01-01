@@ -714,7 +714,7 @@ system
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -746,7 +746,7 @@ mDeviceManager
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 mDefaultDeviceManager
@@ -787,7 +787,7 @@ mSwapChain
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 reporter
@@ -797,7 +797,7 @@ SetSuccessful
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

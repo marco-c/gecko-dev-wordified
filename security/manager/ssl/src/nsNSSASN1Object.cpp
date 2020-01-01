@@ -780,7 +780,7 @@ length
 *
 indefinite
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -865,7 +865,7 @@ else
 *
 indefinite
 =
-PR_TRUE
+true
 ;
 length
 =
@@ -1356,7 +1356,7 @@ parentObjects
 AppendElement
 (
 asn1Obj
-PR_FALSE
+false
 )
 ;
 }
@@ -1510,11 +1510,11 @@ mTag
 )
 mIsValidContainer
 (
-PR_TRUE
+true
 )
 mIsExpanded
 (
-PR_TRUE
+true
 )
 {
 /

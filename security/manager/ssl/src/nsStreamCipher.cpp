@@ -452,7 +452,7 @@ mContext
 PK11_DestroyContext
 (
 mContext
-PR_TRUE
+true
 /
 *
 free
@@ -533,7 +533,7 @@ mContext
 PK11_DestroyContext
 (
 mContext
-PR_TRUE
+true
 /
 *
 free
@@ -650,7 +650,7 @@ param
 SECITEM_FreeItem
 (
 param
-PR_TRUE
+true
 )
 ;
 /

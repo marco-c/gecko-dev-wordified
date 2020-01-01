@@ -682,7 +682,7 @@ init
 (
 keyQName
 mMappings
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -930,7 +930,7 @@ getCurrentPosition
 (
 )
 val
-PR_TRUE
+true
 getter_AddRefs
 (
 res
@@ -1620,7 +1620,7 @@ indexEntry
 >
 mIndexed
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1765,12 +1765,12 @@ use
 expression
 *
 return
-PR_FALSE
+false
 if
 an
 error
 occurred
-PR_TRUE
+true
 otherwise
 *
 /
@@ -1802,7 +1802,7 @@ aMatch
 aUse
 )
 return
-PR_FALSE
+false
 ;
 Key
 *
@@ -1820,7 +1820,7 @@ if
 key
 )
 return
-PR_FALSE
+false
 ;
 key
 -
@@ -1837,7 +1837,7 @@ useExpr
 aUse
 ;
 return
-PR_TRUE
+true
 ;
 }
 /

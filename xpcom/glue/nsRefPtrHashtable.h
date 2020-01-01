@@ -638,7 +638,7 @@ will
 be
 set
 to
-PR_TRUE
+true
 if
 the
 entry
@@ -646,7 +646,7 @@ is
 found
 *
 to
-PR_FALSE
+false
 otherwise
 .
 *
@@ -937,7 +937,7 @@ pRefPtr
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -974,7 +974,7 @@ pRefPtr
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 template
@@ -1031,7 +1031,7 @@ aFound
 *
 aFound
 =
-PR_TRUE
+true
 ;
 return
 ent
@@ -1052,7 +1052,7 @@ and
 set
 aFound
 to
-PR_FALSE
+false
 if
 (
 aFound
@@ -1060,7 +1060,7 @@ aFound
 *
 aFound
 =
-PR_FALSE
+false
 ;
 return
 nsnull
@@ -1157,7 +1157,7 @@ mLock
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1202,7 +1202,7 @@ mLock
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 #

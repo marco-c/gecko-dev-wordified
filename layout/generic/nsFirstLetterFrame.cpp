@@ -1431,8 +1431,8 @@ availSize
 .
 width
 NS_UNCONSTRAINEDSIZE
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 rs
@@ -1446,14 +1446,14 @@ ll
 .
 SetInFirstLetter
 (
-PR_TRUE
+true
 )
 ;
 ll
 .
 SetFirstLetterStyleOK
 (
-PR_TRUE
+true
 )
 ;
 kid
@@ -1485,7 +1485,7 @@ ll
 .
 SetInFirstLetter
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -1611,7 +1611,7 @@ ll
 >
 SetInFirstLetter
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1796,7 +1796,7 @@ mLineLayout
 >
 SetFirstLetterStyleOK
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1847,7 +1847,7 @@ DeleteNextInFlowChild
 (
 aPresContext
 kidNextInFlow
-PR_TRUE
+true
 )
 ;
 }
@@ -2020,7 +2020,7 @@ aPresContext
 kid
 &
 continuation
-PR_TRUE
+true
 )
 ;
 }
@@ -2073,7 +2073,7 @@ letter
 frame
 .
 return
-PR_TRUE
+true
 ;
 }
 nsresult

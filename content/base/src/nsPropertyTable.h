@@ -857,7 +857,7 @@ GetPropertyInternal
 (
 aObject
 aPropertyName
-PR_FALSE
+false
 aResult
 )
 ;
@@ -1017,7 +1017,7 @@ If
 aTransfer
 |
 is
-PR_TRUE
+true
 *
 the
 property
@@ -1071,7 +1071,7 @@ If
 aTransfer
 |
 is
-PR_FALSE
+false
 the
 property
 will
@@ -1234,7 +1234,7 @@ GetPropertyInternal
 (
 aObject
 aPropertyName
-PR_TRUE
+true
 aStatus
 )
 ;
@@ -1297,7 +1297,7 @@ aTransfer
 |
 argument
 as
-PR_TRUE
+true
 to
 |
 aTable

@@ -644,7 +644,7 @@ file
 header
 buffer
 returns
-PR_TRUE
+true
 if
 successful
 bool

@@ -2068,7 +2068,7 @@ return
 FlushText
 (
 aDidFlush
-PR_TRUE
+true
 )
 ;
 }
@@ -3673,7 +3673,7 @@ mTextSize
 )
 mLastTextCharWasCR
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -3862,11 +3862,11 @@ mType
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -4524,7 +4524,7 @@ ssle
 >
 InitStyleLinkElement
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -4549,7 +4549,7 @@ ssle
 >
 InitStyleLinkElement
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -4558,7 +4558,7 @@ ssle
 >
 SetEnableUpdates
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -4812,7 +4812,7 @@ GetChildCount
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsIContent
@@ -4884,7 +4884,7 @@ child
 mInsertionPoint
 +
 +
-PR_FALSE
+false
 )
 ;
 }
@@ -4896,7 +4896,7 @@ mContent
 AppendChildTo
 (
 child
-PR_FALSE
+false
 )
 ;
 }
@@ -5360,7 +5360,7 @@ mSink
 >
 mFormOnStack
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -5448,7 +5448,7 @@ result
 CloseContainer
 (
 aTag
-PR_FALSE
+false
 )
 ;
 }
@@ -6129,7 +6129,7 @@ aNode
 GetText
 (
 )
-PR_FALSE
+false
 )
 ;
 NS_ASSERTION
@@ -6806,7 +6806,7 @@ mSink
 >
 mDeferredFlushTags
 =
-PR_FALSE
+false
 ;
 bool
 oldBeganUpdate
@@ -6860,7 +6860,7 @@ mSink
 >
 mDocument
 UPDATE_CONTENT_MODEL
-PR_TRUE
+true
 )
 ;
 mSink
@@ -6868,7 +6868,7 @@ mSink
 >
 mBeganUpdate
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -7255,7 +7255,7 @@ mNumFlushed
 }
 flushed
 =
-PR_TRUE
+true
 ;
 }
 mStack
@@ -7661,7 +7661,7 @@ mTextLength
 ;
 didFlush
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -7713,7 +7713,7 @@ SetText
 (
 mText
 mTextLength
-PR_FALSE
+false
 )
 ;
 /
@@ -7753,7 +7753,7 @@ rv
 ;
 didFlush
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -7783,7 +7783,7 @@ nsnull
 ;
 mLastTextCharWasCR
 =
-PR_FALSE
+false
 ;
 }
 #
@@ -8315,7 +8315,7 @@ aDoc
 &
 &
 aContainer
-PR_TRUE
+true
 )
 ;
 nsCOMPtr
@@ -8370,7 +8370,7 @@ aContainer
 NS_ENSURE_TRUE
 (
 owner
-PR_TRUE
+true
 )
 ;
 globalObject
@@ -8385,7 +8385,7 @@ GetScriptGlobalObject
 NS_ENSURE_TRUE
 (
 globalObject
-PR_TRUE
+true
 )
 ;
 }
@@ -8403,7 +8403,7 @@ GetContext
 NS_ENSURE_TRUE
 (
 scriptContext
-PR_TRUE
+true
 )
 ;
 JSContext
@@ -8420,7 +8420,7 @@ GetNativeContext
 NS_ENSURE_TRUE
 (
 cx
-PR_TRUE
+true
 )
 ;
 bool
@@ -8515,7 +8515,7 @@ this
 ;
 mIsDocumentObserver
 =
-PR_TRUE
+true
 ;
 mHTMLDocument
 =
@@ -8613,7 +8613,7 @@ subFramesEnabled
 {
 mFramesEnabled
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -8643,7 +8643,7 @@ mDocShell
 {
 mScriptEnabled
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -8770,7 +8770,7 @@ mDocument
 AppendChildTo
 (
 mRoot
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8838,7 +8838,7 @@ mRoot
 AppendChildTo
 (
 mHead
-PR_FALSE
+false
 )
 ;
 mCurrentContext
@@ -9219,7 +9219,7 @@ bDestroying
 {
 StartLayout
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -9324,7 +9324,7 @@ this
 ;
 mIsDocumentObserver
 =
-PR_FALSE
+false
 ;
 mDocument
 -
@@ -10158,8 +10158,8 @@ AddAttributes
 (
 aNode
 mBody
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 return
@@ -10397,7 +10397,7 @@ oldUpdates
 }
 StartLayout
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -10499,7 +10499,7 @@ mCurrentContext
 CloseContainer
 (
 eHTMLTag_body
-PR_FALSE
+false
 )
 ;
 return
@@ -10696,7 +10696,7 @@ else
 {
 mFormOnStack
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -10793,12 +10793,12 @@ mCurrentContext
 CloseContainer
 (
 eHTMLTag_form
-PR_FALSE
+false
 )
 ;
 mFormOnStack
 =
-PR_FALSE
+false
 ;
 }
 mCurrentForm
@@ -11272,7 +11272,7 @@ sc
 CloseContainer
 (
 eHTMLTag_frameset
-PR_FALSE
+false
 )
 ;
 if
@@ -11285,7 +11285,7 @@ mFramesEnabled
 {
 StartLayout
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -11348,7 +11348,7 @@ else
 *
 aReturn
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -11416,13 +11416,13 @@ AddAttributes
 (
 aNode
 mHead
-PR_TRUE
+true
 mHaveSeenHead
 )
 ;
 mHaveSeenHead
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -11476,7 +11476,7 @@ AddAttributes
 (
 aNode
 mRoot
-PR_TRUE
+true
 mNotifiedRootInsertion
 )
 ;
@@ -11614,7 +11614,7 @@ mCurrentContext
 CloseContainer
 (
 aTag
-PR_FALSE
+false
 )
 ;
 break
@@ -11642,7 +11642,7 @@ mCurrentContext
 CloseContainer
 (
 aTag
-PR_TRUE
+true
 )
 ;
 }
@@ -11907,7 +11907,7 @@ Find
 "
 PUBLIC
 "
-PR_TRUE
+true
 )
 ;
 PRInt32
@@ -11920,7 +11920,7 @@ Find
 "
 SYSTEM
 "
-PR_TRUE
+true
 )
 ;
 nsAutoString
@@ -12226,7 +12226,7 @@ else
 {
 hasQuote
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -12352,7 +12352,7 @@ Find
 "
 SYSTEM
 "
-PR_TRUE
+true
 pos
 +
 publicId
@@ -13250,7 +13250,7 @@ voidString
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 rv
@@ -13399,7 +13399,7 @@ InsertChildAt
 (
 content
 0
-PR_TRUE
+true
 )
 ;
 }
@@ -14020,7 +14020,7 @@ ssle
 >
 InitStyleLinkElement
 (
-PR_FALSE
+false
 )
 ;
 ssle
@@ -14028,7 +14028,7 @@ ssle
 >
 SetEnableUpdates
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -14039,7 +14039,7 @@ ssle
 >
 InitStyleLinkElement
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -14109,7 +14109,7 @@ ssle
 >
 SetEnableUpdates
 (
-PR_TRUE
+true
 )
 ;
 bool
@@ -14642,7 +14642,7 @@ tag
 .
 mNotifiedRootInsertion
 =
-PR_TRUE
+true
 ;
 PRInt32
 index
@@ -14748,11 +14748,11 @@ eHTMLTag_object
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -15169,7 +15169,7 @@ content
 >
 DoneAddingChildren
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -15476,7 +15476,7 @@ element
 with
 mDontLoadStyle
 =
-PR_TRUE
+true
 so
 these
 two
@@ -15491,7 +15491,7 @@ ssle
 >
 SetEnableUpdates
 (
-PR_TRUE
+true
 )
 ;
 bool
@@ -15681,7 +15681,7 @@ happen
 .
 StartLayout
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -16136,7 +16136,7 @@ DumpContent
 (
 out
 0
-PR_FALSE
+false
 )
 ;
 fputs

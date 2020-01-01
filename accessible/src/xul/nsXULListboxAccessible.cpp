@@ -1386,7 +1386,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 numColumns
@@ -2686,7 +2686,7 @@ aIsSelected
 *
 aIsSelected
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2798,7 +2798,7 @@ aIsSelected
 *
 aIsSelected
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3497,7 +3497,7 @@ nsIAccessible
 (
 cell
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -4438,7 +4438,7 @@ aIsProbablyForLayout
 *
 aIsProbablyForLayout
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -5713,7 +5713,7 @@ children
 for
 listitems
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -6878,7 +6878,7 @@ headerCells
 AppendElement
 (
 headerCell
-PR_FALSE
+false
 )
 ;
 NS_ADDREF
@@ -7034,7 +7034,7 @@ aIsSelected
 *
 aIsSelected
 =
-PR_FALSE
+false
 ;
 if
 (

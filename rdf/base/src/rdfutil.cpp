@@ -998,7 +998,7 @@ aTime
 get
 (
 )
-PR_TRUE
+true
 &
 t
 )

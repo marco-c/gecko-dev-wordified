@@ -810,7 +810,7 @@ succeeds
 .
 *
 return
-PR_TRUE
+true
 if
 aAttribute
 is
@@ -822,7 +822,7 @@ related
 *
 attribute
 ;
-PR_FALSE
+false
 otherwise
 .
 *
@@ -859,7 +859,7 @@ attribute
 *
 *
 returns
-PR_TRUE
+true
 if
 aAttribute
 is
@@ -871,7 +871,7 @@ related
 *
 attribute
 ;
-PR_FALSE
+false
 otherwise
 .
 *
@@ -1174,7 +1174,7 @@ sandwich
 *
 param
 aIsFrozen
-PR_TRUE
+true
 if
 this
 animation
@@ -1429,7 +1429,7 @@ result
 *
 *
 return
-PR_TRUE
+true
 if
 the
 animation
@@ -1437,7 +1437,7 @@ is
 active
 or
 frozen
-PR_FALSE
+false
 otherwise
 .
 *
@@ -1642,14 +1642,14 @@ method
 *
 *
 return
-PR_TRUE
+true
 if
 the
 animation
 parameters
 have
 changed
-PR_FALSE
+false
 *
 otherwise
 .
@@ -1726,7 +1726,7 @@ and
 *
 that
 returns
-PR_TRUE
+true
 from
 HasChanged
 (
@@ -1753,7 +1753,7 @@ it
 '
 s
 already
-PR_FALSE
+false
 "
 )
 ;
@@ -1775,7 +1775,7 @@ animation
 ;
 mHasChanged
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -1869,7 +1869,7 @@ sample
 .
 *
 return
-PR_TRUE
+true
 if
 |
 aNewTarget
@@ -1884,7 +1884,7 @@ value
 ;
 *
 otherwise
-PR_FALSE
+false
 .
 *
 /
@@ -2412,7 +2412,7 @@ from
 /
 /
 Returns
-PR_TRUE
+true
 if
 we
 know

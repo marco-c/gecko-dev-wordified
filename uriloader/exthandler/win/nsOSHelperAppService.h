@@ -660,10 +660,10 @@ result
 .
 *
 return
-PR_TRUE
+true
 on
 success
-PR_FALSE
+false
 on
 failure
 *

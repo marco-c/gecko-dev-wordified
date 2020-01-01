@@ -877,7 +877,7 @@ applicable
 otherwise
 we
 return
-PR_FALSE
+false
 )
 .
 /
@@ -932,11 +932,11 @@ below
 /
 /
 Returns
-PR_TRUE
+true
 on
 success
 or
-PR_FALSE
+false
 .
 static
 const
@@ -1210,7 +1210,7 @@ sZeroFloat
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1808,7 +1808,7 @@ null
 right
 null
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1825,7 +1825,7 @@ non
 -
 null
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1833,7 +1833,7 @@ PR_FALSE
 Both
 null
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -2781,7 +2781,7 @@ absValuePos
 {
 isNegative
 =
-PR_TRUE
+true
 ;
 subStringBegin
 =
@@ -2818,14 +2818,14 @@ ComputeValue
 aPropID
 aTargetElement
 subString
-PR_TRUE
+true
 aStyleAnimValue
 aIsContextSensitive
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2908,7 +2908,7 @@ TextZoom
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /

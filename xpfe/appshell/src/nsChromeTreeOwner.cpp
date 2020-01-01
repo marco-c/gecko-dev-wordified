@@ -1925,7 +1925,7 @@ mXULWindow
 ;
 fIs_Content
 =
-PR_TRUE
+true
 ;
 mXULWindow
 -
@@ -2523,7 +2523,7 @@ Length
 \
 saveString
 =
-PR_TRUE
+true
 ;
 \
 }
@@ -2555,7 +2555,7 @@ aString
 \
 saveString
 =
-PR_TRUE
+true
 ;
 \
 }
@@ -3041,7 +3041,7 @@ x
 y
 cx
 cy
-PR_FALSE
+false
 )
 NS_ERROR_FAILURE
 )
@@ -3060,7 +3060,7 @@ Create
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 You
 can
@@ -3356,7 +3356,7 @@ aParentWidget
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 You
 can
@@ -3409,7 +3409,7 @@ aParentNativeWindow
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 You
 can
@@ -3941,7 +3941,7 @@ progressWin
 )
 itsForYou
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -3973,7 +3973,7 @@ mXULWindow
 >
 mChromeLoaded
 =
-PR_FALSE
+false
 ;
 }
 return

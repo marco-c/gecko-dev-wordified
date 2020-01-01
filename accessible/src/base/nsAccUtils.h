@@ -988,7 +988,7 @@ IDREFS
 *
 *
 Return
-PR_TRUE
+true
 if
 the
 ARIA
@@ -996,7 +996,7 @@ property
 is
 defined
 otherwise
-PR_FALSE
+false
 *
 /
 static

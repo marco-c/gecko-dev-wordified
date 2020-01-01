@@ -809,11 +809,11 @@ BasicImplData
 :
 mHidden
 (
-PR_FALSE
+false
 )
 mClipToVisibleRegion
 (
-PR_FALSE
+false
 )
 mOperator
 (
@@ -1480,7 +1480,7 @@ BasicContainerLayer
 ;
 mSupportsComponentAlphaChildren
 =
-PR_TRUE
+true
 ;
 }
 virtual
@@ -1687,7 +1687,7 @@ gfx3DMatrix
 ;
 mUseIntermediateSurface
 =
-PR_TRUE
+true
 ;
 return
 ;
@@ -1954,7 +1954,7 @@ ForceIntermediateSurface
 {
 mUseIntermediateSurface
 =
-PR_TRUE
+true
 ;
 }
 protected
@@ -2040,7 +2040,7 @@ HasNonIntegerTranslation
 )
 )
 return
-PR_FALSE
+false
 ;
 nsIntPoint
 offset
@@ -2154,7 +2154,7 @@ GetEffectiveOpacity
 0
 )
 return
-PR_FALSE
+false
 ;
 nsIntRegion
 childRegion
@@ -2240,7 +2240,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 covered
 .
@@ -4145,7 +4145,7 @@ else
 *
 aNeedsClipToVisibleRegion
 =
-PR_FALSE
+false
 ;
 result
 =
@@ -4479,7 +4479,7 @@ OPERATOR_OVER
 {
 needsClipToVisibleRegion
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -6613,7 +6613,7 @@ GLContext
 ;
 mNeedsYFlip
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -6668,7 +6668,7 @@ GetOffscreenFBO
 ;
 mNeedsYFlip
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -6702,7 +6702,7 @@ mDrawTarget
 ;
 mNeedsYFlip
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -6820,7 +6820,7 @@ return
 ;
 mDirty
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -7902,11 +7902,11 @@ BUFFER_NONE
 )
 mUsingDefaultTarget
 (
-PR_FALSE
+false
 )
 mCachedSurfaceInUse
 (
-PR_FALSE
+false
 )
 mTransactionIncomplete
 (
@@ -7956,7 +7956,7 @@ BUFFER_NONE
 )
 mUsingDefaultTarget
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -8049,7 +8049,7 @@ BeginTransaction
 {
 mUsingDefaultTarget
 =
-PR_TRUE
+true
 ;
 BeginTransactionWithTarget
 (
@@ -8107,7 +8107,7 @@ forget
 }
 mCachedSurfaceInUse
 =
-PR_TRUE
+true
 ;
 gfxContextMatrixAutoSaveRestore
 saveMatrix
@@ -8264,7 +8264,7 @@ current
 ;
 mCachedSurfaceInUse
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -8819,7 +8819,7 @@ data
 >
 SetClipToVisibleRegion
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -8858,7 +8858,7 @@ data
 >
 SetHidden
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -9062,7 +9062,7 @@ IsHidden
 {
 allHidden
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -9522,7 +9522,7 @@ child
 >
 SetClipToVisibleRegion
 (
-PR_TRUE
+true
 )
 ;
 ApplyDoubleBuffering
@@ -9975,7 +9975,7 @@ incomplete
 .
 mUsingDefaultTarget
 =
-PR_FALSE
+false
 ;
 }
 NS_ASSERTION
@@ -10877,7 +10877,7 @@ TopLeft
 ;
 blitComplete
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -10894,7 +10894,7 @@ GetDeviceOffset
 ;
 blitComplete
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -11223,7 +11223,7 @@ clipRect
 >
 height
 )
-PR_TRUE
+true
 )
 ;
 aTarget
@@ -11394,7 +11394,7 @@ region
 again
 needsClipToVisibleRegion
 =
-PR_FALSE
+false
 ;
 }
 bool
@@ -11541,7 +11541,7 @@ height
 ;
 pushedTargetOpaqueRect
 =
-PR_TRUE
+true
 ;
 }
 nsRefPtr
@@ -16999,7 +16999,7 @@ gfx3DMatrix
 ;
 mUseIntermediateSurface
 =
-PR_TRUE
+true
 ;
 return
 ;

@@ -901,8 +901,8 @@ normalZ
 {
 ReferenceSelf
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 }
@@ -1413,9 +1413,9 @@ retval
 =
 mCurrentPosition
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 return
 NS_OK

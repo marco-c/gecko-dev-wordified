@@ -1481,7 +1481,7 @@ param
 *
 aComplete
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1839,7 +1839,7 @@ nsGkAtoms
 :
 height
 val
-PR_TRUE
+true
 )
 ;
 }
@@ -1899,7 +1899,7 @@ nsGkAtoms
 :
 width
 val
-PR_TRUE
+true
 )
 ;
 }
@@ -1968,7 +1968,7 @@ ParseEnumValue
 (
 aValue
 kCrossOriginTable
-PR_FALSE
+false
 /
 /
 default
@@ -2004,7 +2004,7 @@ aResult
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -2502,10 +2502,10 @@ into
 *
 aIsFocusable
 =
-PR_FALSE
+false
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -2585,7 +2585,7 @@ tabindex
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -2781,7 +2781,7 @@ bug
 .
 mNewRequestsWillNeedAnimationReset
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -2844,7 +2844,7 @@ we
 could
 start
 passing
-PR_FALSE
+false
 instead
 of
 aNotify
@@ -2855,13 +2855,13 @@ here
 LoadImage
 (
 aValue
-PR_TRUE
+true
 aNotify
 )
 ;
 mNewRequestsWillNeedAnimationReset
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -3144,8 +3144,8 @@ NS_FAILED
 LoadImage
 (
 uri
-PR_FALSE
-PR_TRUE
+false
+true
 )
 )
 |
@@ -3159,7 +3159,7 @@ LoadingEnabled
 {
 CancelImageRequests
 (
-PR_TRUE
+true
 )
 ;
 }

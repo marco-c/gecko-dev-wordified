@@ -2952,7 +2952,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3147,7 +3147,7 @@ return
 *
 _retval
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3561,7 +3561,7 @@ supportsSelection
 *
 _retval
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -3576,7 +3576,7 @@ else
 *
 _retval
 =
-PR_FALSE
+false
 ;
 }
 return

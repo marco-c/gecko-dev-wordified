@@ -615,7 +615,7 @@ eSVG
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -2173,7 +2173,7 @@ isTrivialClip
 {
 complexEffects
 =
-PR_TRUE
+true
 ;
 gfx
 -
@@ -3021,7 +3021,7 @@ GetStateBits
 NS_FRAME_DRAWING_AS_PAINTSERVER
 )
 return
-PR_FALSE
+false
 ;
 mFrame
 -
@@ -3386,7 +3386,7 @@ NS_FRAME_DRAWING_AS_PAINTSERVER
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static

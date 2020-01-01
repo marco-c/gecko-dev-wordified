@@ -1787,7 +1787,7 @@ nsGkAtoms
 :
 space
 aXmlspace
-PR_TRUE
+true
 )
 ;
 }
@@ -1845,7 +1845,7 @@ nsGkAtoms
 :
 type
 aType
-PR_TRUE
+true
 )
 ;
 }
@@ -1903,7 +1903,7 @@ nsGkAtoms
 :
 media
 aMedia
-PR_TRUE
+true
 )
 ;
 }
@@ -1961,7 +1961,7 @@ nsGkAtoms
 :
 title
 aTitle
-PR_TRUE
+true
 )
 ;
 }
@@ -2058,7 +2058,7 @@ aIsInline
 *
 aIsInline
 =
-PR_TRUE
+true
 ;
 return
 nsnull
@@ -2087,7 +2087,7 @@ aIsAlternate
 *
 aIsAlternate
 =
-PR_FALSE
+false
 ;
 nsAutoString
 title

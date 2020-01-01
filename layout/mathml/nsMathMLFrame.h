@@ -1109,7 +1109,7 @@ hierarchy
 /
 /
 return
-PR_TRUE
+true
 -
 -
 if
@@ -1117,7 +1117,7 @@ attribute
 exists
 /
 /
-PR_FALSE
+false
 -
 -
 if

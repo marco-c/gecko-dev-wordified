@@ -1487,7 +1487,7 @@ rv
 =
 RegUnregAccessKey
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -1827,7 +1827,7 @@ GetContent
 )
 )
 return
-PR_FALSE
+false
 ;
 static
 nsIContent
@@ -1887,11 +1887,11 @@ index
 1
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -1918,7 +1918,7 @@ GetContent
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -2002,7 +2002,7 @@ index
 ]
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2165,7 +2165,7 @@ the
 default
 .
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2183,7 +2183,7 @@ index
 ]
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2261,7 +2261,7 @@ nsBoxFrame
 hAlign_Left
 ;
 return
-PR_TRUE
+true
 ;
 case
 NS_STYLE_BOX_PACK_CENTER
@@ -2274,7 +2274,7 @@ nsBoxFrame
 hAlign_Center
 ;
 return
-PR_TRUE
+true
 ;
 case
 NS_STYLE_BOX_PACK_END
@@ -2287,7 +2287,7 @@ nsBoxFrame
 hAlign_Right
 ;
 return
-PR_TRUE
+true
 ;
 default
 :
@@ -2300,7 +2300,7 @@ Just
 bail
 .
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -2325,7 +2325,7 @@ nsBoxFrame
 hAlign_Left
 ;
 return
-PR_TRUE
+true
 ;
 case
 NS_STYLE_BOX_ALIGN_CENTER
@@ -2338,7 +2338,7 @@ nsBoxFrame
 hAlign_Center
 ;
 return
-PR_TRUE
+true
 ;
 case
 NS_STYLE_BOX_ALIGN_END
@@ -2351,7 +2351,7 @@ nsBoxFrame
 hAlign_Right
 ;
 return
-PR_TRUE
+true
 ;
 default
 :
@@ -2364,12 +2364,12 @@ Just
 bail
 .
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -2394,7 +2394,7 @@ GetContent
 )
 )
 return
-PR_FALSE
+false
 ;
 static
 nsIContent
@@ -2478,7 +2478,7 @@ index
 ]
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2647,7 +2647,7 @@ the
 default
 .
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2665,7 +2665,7 @@ index
 ]
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2743,7 +2743,7 @@ nsBoxFrame
 vAlign_Top
 ;
 return
-PR_TRUE
+true
 ;
 case
 NS_STYLE_BOX_ALIGN_CENTER
@@ -2756,7 +2756,7 @@ nsBoxFrame
 vAlign_Middle
 ;
 return
-PR_TRUE
+true
 ;
 case
 NS_STYLE_BOX_ALIGN_BASELINE
@@ -2769,7 +2769,7 @@ nsBoxFrame
 vAlign_BaseLine
 ;
 return
-PR_TRUE
+true
 ;
 case
 NS_STYLE_BOX_ALIGN_END
@@ -2782,7 +2782,7 @@ nsBoxFrame
 vAlign_Bottom
 ;
 return
-PR_TRUE
+true
 ;
 default
 :
@@ -2795,7 +2795,7 @@ Just
 bail
 .
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -2820,7 +2820,7 @@ nsBoxFrame
 vAlign_Top
 ;
 return
-PR_TRUE
+true
 ;
 case
 NS_STYLE_BOX_PACK_CENTER
@@ -2833,7 +2833,7 @@ nsBoxFrame
 vAlign_Middle
 ;
 return
-PR_TRUE
+true
 ;
 case
 NS_STYLE_BOX_PACK_END
@@ -2846,7 +2846,7 @@ nsBoxFrame
 vAlign_Bottom
 ;
 return
-PR_TRUE
+true
 ;
 default
 :
@@ -2859,12 +2859,12 @@ Just
 bail
 .
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -2928,12 +2928,12 @@ NS_STYLE_BOX_ORIENT_HORIZONTAL
 )
 aIsHorizontal
 =
-PR_TRUE
+true
 ;
 else
 aIsHorizontal
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3104,7 +3104,7 @@ we
 else
 aIsNormal
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -3300,7 +3300,7 @@ GetContent
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -3326,14 +3326,14 @@ eCaseMatters
 {
 aEqualSize
 =
-PR_TRUE
+true
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3366,7 +3366,7 @@ GetContent
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -3442,7 +3442,7 @@ index
 1
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -3477,7 +3477,7 @@ NS_STYLE_BOX_ALIGN_STRETCH
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -5396,7 +5396,7 @@ access
 key
 RegUnregAccessKey
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -5976,7 +5976,7 @@ mFrames
 FirstChild
 (
 )
-PR_TRUE
+true
 )
 ;
 #
@@ -6173,7 +6173,7 @@ mFrames
 FirstChild
 (
 )
-PR_TRUE
+true
 )
 ;
 #
@@ -7167,7 +7167,7 @@ accesskey
 {
 RegUnregAccessKey
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -11185,7 +11185,7 @@ SupportsOrdinalsInChildren
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -12666,7 +12666,7 @@ i
 ;
 topMostAdded
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -12709,7 +12709,7 @@ topMostAdded
 {
 topMostAdded
 =
-PR_TRUE
+true
 ;
 aOutFrames
 -

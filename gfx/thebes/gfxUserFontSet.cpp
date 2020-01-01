@@ -650,7 +650,7 @@ NOT_LOADING
 {
 mIsProxy
 =
-PR_TRUE
+true
 ;
 mSrcList
 =
@@ -696,7 +696,7 @@ aLanguageOverride
 ;
 mIsUserFont
 =
-PR_TRUE
+true
 ;
 }
 gfxProxyFontEntry
@@ -1127,7 +1127,7 @@ aWaitForUserFont
 {
 aWaitForUserFont
 =
-PR_FALSE
+false
 ;
 gfxMixedFontFamily
 *
@@ -1155,7 +1155,7 @@ family
 {
 aFoundFamily
 =
-PR_FALSE
+false
 ;
 return
 nsnull
@@ -1163,7 +1163,7 @@ nsnull
 }
 aFoundFamily
 =
-PR_TRUE
+true
 ;
 gfxFontEntry
 *
@@ -3458,7 +3458,7 @@ IncrementGeneration
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -3664,7 +3664,7 @@ IncrementGeneration
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 gfxUserFontSet

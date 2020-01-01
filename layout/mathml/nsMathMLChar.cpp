@@ -4214,7 +4214,7 @@ aChar
 mParent
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -4276,7 +4276,7 @@ Length
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -5051,7 +5051,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5138,7 +5138,7 @@ NS_ERROR_FAILURE
 ;
 gInitialized
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -5812,7 +5812,7 @@ break
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -5981,7 +5981,7 @@ aFamily
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -5992,7 +5992,7 @@ low
 memory
 situations
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -6025,7 +6025,7 @@ initialized
 ;
 gInitialized
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -8068,7 +8068,7 @@ if
 olda
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -8785,8 +8785,8 @@ family
 .
 CompressWhitespace
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 PRUint8
@@ -9078,11 +9078,11 @@ aFamilies
 )
 mTryVariants
 (
-PR_TRUE
+true
 )
 mTryParts
 (
-PR_TRUE
+true
 )
 mGlyphFound
 (
@@ -9234,13 +9234,13 @@ size
 /
 /
 Returns
-PR_TRUE
+true
 if
 the
 size
 is
 OK
-PR_FALSE
+false
 to
 keep
 searching
@@ -9611,7 +9611,7 @@ mStretchHint
 {
 mGlyphFound
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -9717,7 +9717,7 @@ bm
 ;
 haveBetter
 =
-PR_TRUE
+true
 ;
 bestSize
 =
@@ -9854,13 +9854,13 @@ parts
 /
 /
 Returns
-PR_TRUE
+true
 if
 the
 size
 is
 OK
-PR_FALSE
+false
 to
 keep
 searching
@@ -9909,7 +9909,7 @@ mChar
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -10062,7 +10062,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -10102,7 +10102,7 @@ by
 parts
 mGlyphFound
 =
-PR_TRUE
+true
 ;
 mChar
 -
@@ -10116,7 +10116,7 @@ mBoundingMetrics
 compositeSize
 ;
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -10613,7 +10613,7 @@ get
 #
 endif
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -11015,14 +11015,14 @@ computedSize
 }
 mGlyphFound
 =
-PR_TRUE
+true
 ;
 if
 (
 maxWidth
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -11246,7 +11246,7 @@ if
 isOK
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -11280,7 +11280,7 @@ if
 isOK
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -11290,7 +11290,7 @@ to
 continue
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -11396,7 +11396,7 @@ glyphTable
 )
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -12467,7 +12467,7 @@ aStretchHint
 )
 done
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -12746,7 +12746,7 @@ enumData
 .
 mTryParts
 =
-PR_FALSE
+false
 ;
 done
 =
@@ -12825,7 +12825,7 @@ enumData
 .
 mTryVariants
 =
-PR_FALSE
+false
 ;
 done
 =
@@ -13535,7 +13535,7 @@ flags
 ;
 mDrawNormal
 =
-PR_TRUE
+true
 ;
 mScaleY
 =

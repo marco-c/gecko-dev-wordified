@@ -654,7 +654,7 @@ aReturn
 *
 aReturn
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

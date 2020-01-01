@@ -577,7 +577,7 @@ Transaction
 :
 mOpen
 (
-PR_FALSE
+false
 )
 {
 }
@@ -588,7 +588,7 @@ Begin
 {
 mOpen
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -761,7 +761,7 @@ clear
 ;
 mOpen
 =
-PR_FALSE
+false
 ;
 }
 bool
@@ -1512,7 +1512,7 @@ Update
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 MOZ_LAYERS_LOG
@@ -2103,7 +2103,7 @@ failed
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 MOZ_LAYERS_LOG
@@ -2122,7 +2122,7 @@ done
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -2469,7 +2469,7 @@ if
 back
 )
 return
-PR_FALSE
+false
 ;
 *
 aBuffer
@@ -2485,7 +2485,7 @@ aBuffer
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -2546,7 +2546,7 @@ aBackBuffer
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsRefPtr
@@ -2580,7 +2580,7 @@ back
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 *
@@ -2604,7 +2604,7 @@ GetShmem
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -2661,7 +2661,7 @@ aBuffer
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsRefPtr
@@ -2684,7 +2684,7 @@ buffer
 )
 )
 return
-PR_FALSE
+false
 ;
 *
 aBuffer
@@ -2697,7 +2697,7 @@ GetShmem
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -3072,7 +3072,7 @@ SurfaceDescriptor
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -3093,7 +3093,7 @@ SurfaceDescriptor
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3130,7 +3130,7 @@ SurfaceDescriptor
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -3158,7 +3158,7 @@ SurfaceDescriptor
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /

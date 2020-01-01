@@ -877,7 +877,7 @@ nsDependentCString
 (
 resultPath
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 resultFile

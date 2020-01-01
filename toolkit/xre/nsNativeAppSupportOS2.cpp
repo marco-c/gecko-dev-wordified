@@ -4777,7 +4777,7 @@ nsDependentCString
 (
 wdpath
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 workingDir
@@ -4973,7 +4973,7 @@ NS_ERROR_FAILURE
 *
 aResult
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -5067,7 +5067,7 @@ i
 )
 mUseDDE
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -5179,12 +5179,12 @@ MOZ_NO_REMOTE
 {
 mUseDDE
 =
-PR_FALSE
+false
 ;
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -5459,7 +5459,7 @@ loop
 *
 aResult
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5475,7 +5475,7 @@ if
 aResult
 =
 =
-PR_FALSE
+false
 )
 {
 /
@@ -5574,12 +5574,12 @@ CP_WINANSI
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 int
@@ -5774,7 +5774,7 @@ DDEML
 set
 mUSEDDE
 to
-PR_FALSE
+false
 *
 /
 /
@@ -5799,7 +5799,7 @@ bDDEML
 {
 mUseDDE
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -5945,7 +5945,7 @@ NS_OK
 *
 aResult
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -5994,7 +5994,7 @@ else
 *
 aResult
 =
-PR_FALSE
+false
 ;
 }
 ddeLock
@@ -6028,7 +6028,7 @@ ahead
 *
 aResult
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -6345,7 +6345,7 @@ Enable
 {
 mCanHandleRequests
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -6379,7 +6379,7 @@ quit
 -
 application
 "
-PR_FALSE
+false
 )
 ;
 }
@@ -7956,7 +7956,7 @@ endif
 }
 while
 (
-PR_FALSE
+false
 )
 ;
 break
@@ -8130,7 +8130,7 @@ result
 =
 CreateDDEData
 (
-PR_FALSE
+false
 )
 ;
 break
@@ -8154,7 +8154,7 @@ result
 =
 CreateDDEData
 (
-PR_FALSE
+false
 )
 ;
 break
@@ -10197,7 +10197,7 @@ NS_LITERAL_STRING
 console
 "
 )
-PR_FALSE
+false
 &
 found
 )
@@ -10213,7 +10213,7 @@ NS_LITERAL_STRING
 dde
 "
 )
-PR_FALSE
+false
 &
 found
 )
@@ -11161,7 +11161,7 @@ window
 }
 while
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -11564,7 +11564,7 @@ arg
 {
 rv
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -11872,7 +11872,7 @@ ERROR_SMG_START_IN_BACKGROUND
 )
 rv
 =
-PR_TRUE
+true
 ;
 return
 rv

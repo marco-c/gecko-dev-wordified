@@ -680,7 +680,7 @@ aRuleData
 {
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 should
 not
@@ -2591,7 +2591,7 @@ clone
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 namespace
@@ -2646,7 +2646,7 @@ parentRule
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 GroupRule
@@ -2771,7 +2771,7 @@ sheet
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -4274,7 +4274,7 @@ aKey
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -5130,7 +5130,7 @@ url
 url
 )
 return
-PR_TRUE
+true
 ;
 }
 break
@@ -5151,7 +5151,7 @@ url
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 break
@@ -5212,7 +5212,7 @@ url
 url
 )
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -5244,7 +5244,7 @@ lenDiff
 '
 )
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -5283,7 +5283,7 @@ doc
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -5292,7 +5292,7 @@ break
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 DocumentRule
@@ -10619,7 +10619,7 @@ aKey
 {
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 should
 not
@@ -10629,6 +10629,6 @@ called
 )
 ;
 return
-PR_FALSE
+false
 ;
 }

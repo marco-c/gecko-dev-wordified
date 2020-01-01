@@ -548,7 +548,7 @@ context
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 void

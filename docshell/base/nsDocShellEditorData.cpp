@@ -642,15 +642,15 @@ inOwningDocShell
 )
 mMakeEditable
 (
-PR_FALSE
+false
 )
 mIsDetached
 (
-PR_FALSE
+false
 )
 mDetachedMakeEditable
 (
-PR_FALSE
+false
 )
 mDetachedEditingState
 (
@@ -861,7 +861,7 @@ mEditor
 >
 PreDestroy
 (
-PR_FALSE
+false
 )
 ;
 mEditor
@@ -875,7 +875,7 @@ nsnull
 ;
 mIsDetached
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -1090,7 +1090,7 @@ mEditor
 >
 PreDestroy
 (
-PR_FALSE
+false
 )
 ;
 mEditor
@@ -1104,7 +1104,7 @@ inWaitForUriLoad
 )
 mMakeEditable
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2115,7 +2115,7 @@ mEditor
 >
 PreDestroy
 (
-PR_FALSE
+false
 )
 ;
 mEditor
@@ -2138,7 +2138,7 @@ mEditor
 )
 mMakeEditable
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -2444,7 +2444,7 @@ rv
 ;
 mIsDetached
 =
-PR_TRUE
+true
 ;
 mDetachedMakeEditable
 =
@@ -2452,7 +2452,7 @@ mMakeEditable
 ;
 mMakeEditable
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -2548,7 +2548,7 @@ rv
 ;
 mIsDetached
 =
-PR_FALSE
+false
 ;
 mMakeEditable
 =

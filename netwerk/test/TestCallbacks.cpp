@@ -651,7 +651,7 @@ _retval
 *
 _retval
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -663,7 +663,7 @@ this
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -851,7 +851,7 @@ n
 }
 mOnStart
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -940,7 +940,7 @@ mOnStart
 {
 gError
 =
-PR_TRUE
+true
 ;
 fprintf
 (
@@ -998,7 +998,7 @@ mOnDataCount
 ;
 mOnStop
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -1096,7 +1096,7 @@ mOnStart
 {
 gError
 =
-PR_TRUE
+true
 ;
 fprintf
 (
@@ -1176,7 +1176,7 @@ mOnStart
 =
 mOnStop
 =
-PR_FALSE
+false
 ;
 mOnDataCount
 =
@@ -1222,7 +1222,7 @@ mOnStart
 {
 gError
 =
-PR_TRUE
+true
 ;
 fprintf
 (
@@ -1248,7 +1248,7 @@ mOnStop
 {
 gError
 =
-PR_TRUE
+true
 ;
 fprintf
 (
@@ -1475,7 +1475,7 @@ same
 {
 gError
 =
-PR_TRUE
+true
 ;
 fprintf
 (
@@ -1560,7 +1560,7 @@ url
 mode
 cmdLineURL
 =
-PR_TRUE
+true
 ;
 }
 rv

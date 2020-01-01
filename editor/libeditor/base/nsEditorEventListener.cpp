@@ -759,26 +759,26 @@ nsnull
 )
 mCommitText
 (
-PR_FALSE
+false
 )
 mInTransaction
 (
-PR_FALSE
+false
 )
 #
 ifdef
 HANDLE_NATIVE_TEXT_DIRECTION_SWITCH
 mHaveBidiKeyboards
 (
-PR_FALSE
+false
 )
 mShouldSwitchTextDirection
 (
-PR_FALSE
+false
 )
 mSwitchToRTL
 (
-PR_FALSE
+false
 )
 #
 endif
@@ -956,7 +956,7 @@ piTarget
 >
 GetListenerManager
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_STATE
@@ -1337,7 +1337,7 @@ piTarget
 >
 GetListenerManager
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -2530,7 +2530,7 @@ eEditorLeftToRight
 ;
 mShouldSwitchTextDirection
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -2627,7 +2627,7 @@ switchToRTL
 {
 mShouldSwitchTextDirection
 =
-PR_TRUE
+true
 ;
 mSwitchToRTL
 =
@@ -2663,7 +2663,7 @@ and
 Shift
 mShouldSwitchTextDirection
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -3663,7 +3663,7 @@ mCaret
 >
 SetCaretReadOnly
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -3859,7 +3859,7 @@ mCaret
 >
 SetCaretVisible
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -3926,7 +3926,7 @@ mCaret
 >
 SetCaretVisible
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -4287,7 +4287,7 @@ IsDisabled
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -4310,7 +4310,7 @@ dataTransfer
 NS_ENSURE_TRUE
 (
 dataTransfer
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -4333,7 +4333,7 @@ types
 NS_ENSURE_TRUE
 (
 types
-PR_FALSE
+false
 )
 ;
 /
@@ -4445,7 +4445,7 @@ typeSupported
 NS_ENSURE_TRUE
 (
 typeSupported
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -4463,7 +4463,7 @@ dataTransfer
 NS_ENSURE_TRUE
 (
 dataTransferNS
-PR_FALSE
+false
 )
 ;
 /
@@ -4531,7 +4531,7 @@ if
 sourceNode
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -4581,7 +4581,7 @@ domdoc
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -4606,7 +4606,7 @@ sourceDoc
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 if
@@ -4663,7 +4663,7 @@ rv
 selection
 )
 return
-PR_FALSE
+false
 ;
 bool
 isCollapsed
@@ -4682,7 +4682,7 @@ isCollapsed
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 /
@@ -4734,7 +4734,7 @@ rv
 parent
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 offset
@@ -4755,7 +4755,7 @@ offset
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 PRInt32
@@ -4775,7 +4775,7 @@ rangeCount
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 for
@@ -4874,7 +4874,7 @@ if
 inRange
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -4893,7 +4893,7 @@ selection
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -5626,7 +5626,7 @@ caret
 >
 SetIgnoreUserModify
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -5636,7 +5636,7 @@ selCon
 >
 SetCaretEnabled
 (
-PR_FALSE
+false
 )
 ;
 if

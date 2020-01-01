@@ -861,19 +861,19 @@ nsnull
 )
 mTrusted
 (
-PR_FALSE
+false
 )
 mInitialized
 (
-PR_FALSE
+false
 )
 mCodebaseImmutable
 (
-PR_FALSE
+false
 )
 mDomainImmutable
 (
-PR_FALSE
+false
 )
 {
 if
@@ -899,7 +899,7 @@ applets
 .
 codebase_principal_support
 "
-PR_FALSE
+false
 )
 ;
 gIsObservingCodeBasePrincipalSupport
@@ -977,7 +977,7 @@ these
 .
 mInitialized
 =
-PR_TRUE
+true
 ;
 mCodebase
 =
@@ -1573,7 +1573,7 @@ Not
 equal
 .
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1582,7 +1582,7 @@ if
 mCert
 )
 return
-PR_TRUE
+true
 ;
 nsCAutoString
 str
@@ -1609,7 +1609,7 @@ fingerprint
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -1706,7 +1706,7 @@ IsEmpty
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -1746,7 +1746,7 @@ to
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1772,7 +1772,7 @@ aOther
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1855,7 +1855,7 @@ rv
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -1874,7 +1874,7 @@ mCodebase
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1924,7 +1924,7 @@ NS_OK
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1955,7 +1955,7 @@ aOther
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1964,7 +1964,7 @@ NS_OK
 *
 aResult
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2535,7 +2535,7 @@ codebaseFile
 Contains
 (
 targetFile
-PR_TRUE
+true
 &
 contained
 )
@@ -2581,7 +2581,7 @@ codebaseParent
 Contains
 (
 targetFile
-PR_TRUE
+true
 &
 contained
 )
@@ -3238,7 +3238,7 @@ result
 *
 result
 =
-PR_FALSE
+false
 ;
 nsHashtable
 *
@@ -4382,7 +4382,7 @@ initialized
 ;
 mInitialized
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -4828,7 +4828,7 @@ Append
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -5726,7 +5726,7 @@ aStream
 >
 ReadObject
 (
-PR_TRUE
+true
 getter_AddRefs
 (
 cert
@@ -5757,7 +5757,7 @@ rv
 NS_ReadOptionalObject
 (
 aStream
-PR_TRUE
+true
 getter_AddRefs
 (
 codebase
@@ -5804,7 +5804,7 @@ rv
 NS_ReadOptionalObject
 (
 aStream
-PR_TRUE
+true
 getter_AddRefs
 (
 domain
@@ -6149,7 +6149,7 @@ NS_GET_IID
 (
 nsISupports
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -6214,7 +6214,7 @@ NS_GET_IID
 (
 nsIURI
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -6239,7 +6239,7 @@ NS_GET_IID
 (
 nsIURI
 )
-PR_TRUE
+true
 )
 ;
 if

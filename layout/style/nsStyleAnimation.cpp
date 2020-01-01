@@ -1264,7 +1264,7 @@ result
 .
 mHasPercent
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1380,7 +1380,7 @@ result
 .
 mHasPercent
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -1459,7 +1459,7 @@ result
 .
 mHasPercent
 =
-PR_FALSE
+false
 ;
 return
 result
@@ -1502,7 +1502,7 @@ result
 .
 mHasPercent
 =
-PR_TRUE
+true
 ;
 return
 result
@@ -1592,7 +1592,7 @@ result
 .
 mHasPercent
 =
-PR_FALSE
+false
 ;
 return
 result
@@ -1632,7 +1632,7 @@ result
 .
 mHasPercent
 =
-PR_TRUE
+true
 ;
 return
 result
@@ -1905,7 +1905,7 @@ case
 eUnit_UnparsedString
 :
 return
-PR_FALSE
+false
 ;
 case
 eUnit_Enumerated
@@ -1953,13 +1953,13 @@ startInt
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 case
@@ -2000,7 +2000,7 @@ endVal
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -2035,7 +2035,7 @@ startInt
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -2073,7 +2073,7 @@ startCoord
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -2111,7 +2111,7 @@ startPct
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -2149,7 +2149,7 @@ startFloat
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -2500,7 +2500,7 @@ diffB
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -2559,7 +2559,7 @@ diffpct
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -2676,7 +2676,7 @@ eCSSUnit_URL
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 double
@@ -2897,7 +2897,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 unexpected
 unit
@@ -2905,7 +2905,7 @@ unit
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 squareDistance
@@ -2922,7 +2922,7 @@ squareDistance
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -3065,7 +3065,7 @@ eCSSUnit_URL
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 double
@@ -3296,7 +3296,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 unexpected
 unit
@@ -3304,7 +3304,7 @@ unit
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 squareDistance
@@ -3321,7 +3321,7 @@ squareDistance
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -3443,7 +3443,7 @@ calc
 (
 )
 return
-PR_FALSE
+false
 ;
 }
 double
@@ -3586,7 +3586,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 unexpected
 unit
@@ -3594,7 +3594,7 @@ unit
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 squareDistance
@@ -3613,7 +3613,7 @@ squareDistance
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -3719,7 +3719,7 @@ normValue2
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 double
@@ -3872,7 +3872,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 unexpected
 unit
@@ -3880,7 +3880,7 @@ unit
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 squareDistance
@@ -3930,7 +3930,7 @@ squareDistance
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -3989,7 +3989,7 @@ normValue2
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -4434,7 +4434,7 @@ squareDistance
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -4442,7 +4442,7 @@ eUnit_Transform
 :
 {
 return
-PR_FALSE
+false
 ;
 }
 case
@@ -4582,7 +4582,7 @@ eCSSUnit_Null
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 double
@@ -4719,7 +4719,7 @@ v2
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 break
@@ -4775,7 +4775,7 @@ different
 lengths
 .
 return
-PR_FALSE
+false
 ;
 }
 aDistance
@@ -4786,7 +4786,7 @@ squareDistance
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -4808,7 +4808,7 @@ unit
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -4919,7 +4919,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 bad
 value
@@ -5725,7 +5725,7 @@ not
 inset
 .
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5871,7 +5871,7 @@ resultItem
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 resultItem
@@ -5899,7 +5899,7 @@ resultItem
 mNext
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -8283,7 +8283,7 @@ C
 singular
 matrix
 return
-PR_FALSE
+false
 ;
 }
 float
@@ -8531,7 +8531,7 @@ aMatrix
 y0
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -8682,7 +8682,7 @@ local
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -8766,7 +8766,7 @@ Determinant
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -9349,7 +9349,7 @@ local
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 template
@@ -9425,7 +9425,7 @@ one
 of
 these
 returns
-PR_FALSE
+false
 (
 singular
 matrix
@@ -10022,7 +10022,7 @@ func2
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -10056,11 +10056,11 @@ eCSSKeyword_rotatez
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -11501,7 +11501,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 unknown
 transform
@@ -11667,7 +11667,7 @@ case
 eUnit_UnparsedString
 :
 return
-PR_FALSE
+false
 ;
 case
 eUnit_Enumerated
@@ -11750,13 +11750,13 @@ eUnit_Enumerated
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 case
@@ -11820,7 +11820,7 @@ eUnit_Visibility
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -11950,7 +11950,7 @@ eUnit_Integer
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -11986,7 +11986,7 @@ GetCoordValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -12019,7 +12019,7 @@ GetPercentValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -12052,7 +12052,7 @@ GetFloatValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -12417,7 +12417,7 @@ resultColor
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -12629,7 +12629,7 @@ eUnit_Calc
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -12746,7 +12746,7 @@ eCSSUnit_URL
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsAutoPtr
@@ -12915,7 +12915,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 unexpected
 unit
@@ -12923,7 +12923,7 @@ unit
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -12940,7 +12940,7 @@ eUnit_CSSValuePair
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -13140,7 +13140,7 @@ eCSSUnit_URL
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsAutoPtr
@@ -13320,7 +13320,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 unexpected
 unit
@@ -13328,7 +13328,7 @@ unit
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -13385,7 +13385,7 @@ eUnit_CSSValueTriplet
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -13530,7 +13530,7 @@ calc
 (
 )
 return
-PR_FALSE
+false
 ;
 }
 nsAutoPtr
@@ -13693,7 +13693,7 @@ does
 not
 .
 return
-PR_FALSE
+false
 ;
 }
 (
@@ -13714,7 +13714,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 unexpected
 unit
@@ -13722,7 +13722,7 @@ unit
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -13739,7 +13739,7 @@ eUnit_CSSRect
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -13945,7 +13945,7 @@ element
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsAutoPtr
@@ -14092,7 +14092,7 @@ calc
 )
 .
 return
-PR_FALSE
+false
 ;
 }
 nsCSSValueList
@@ -14109,7 +14109,7 @@ item
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 *
@@ -14225,7 +14225,7 @@ eUnit_Dasharray
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -14369,7 +14369,7 @@ resultTail
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 shadow1
@@ -14486,7 +14486,7 @@ resultTail
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 longShadow
@@ -14511,7 +14511,7 @@ eUnit_Shadow
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -14833,7 +14833,7 @@ mismatch
 .
 match
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -14881,7 +14881,7 @@ eUnit_Transform
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -14942,7 +14942,7 @@ item
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 *
@@ -15086,7 +15086,7 @@ eCSSUnit_Null
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 switch
@@ -15149,7 +15149,7 @@ v2
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 vr
@@ -15204,7 +15204,7 @@ different
 lengths
 .
 return
-PR_FALSE
+false
 ;
 }
 aResultValue
@@ -15219,7 +15219,7 @@ forget
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -15240,7 +15240,7 @@ unit
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 already_AddRefed
@@ -15357,7 +15357,7 @@ parser
 .
 SetSVGMode
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -15442,7 +15442,7 @@ NodePrincipal
 declaration
 &
 changed
-PR_FALSE
+false
 )
 )
 |
@@ -15694,7 +15694,7 @@ styleRule
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -15771,11 +15771,11 @@ context
 *
 aIsContextSensitive
 =
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -15806,7 +15806,7 @@ styleContext
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsStyleSet
@@ -15886,7 +15886,7 @@ tmpStyleContext
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -16103,7 +16103,7 @@ tmpStyleContext
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -16624,11 +16624,11 @@ break
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -16698,7 +16698,7 @@ aSpecifiedValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsCSSValue
@@ -16720,7 +16720,7 @@ val
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 val
@@ -16732,7 +16732,7 @@ aSpecifiedValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 inline
@@ -17066,11 +17066,11 @@ break
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -17145,7 +17145,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 unexpected
 unit
@@ -17153,11 +17153,11 @@ unit
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -17278,7 +17278,7 @@ c2
 .
 mHasPercent
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -18092,7 +18092,7 @@ pair
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nscoordToCSSValue
@@ -18221,7 +18221,7 @@ mZValue
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -18349,7 +18349,7 @@ mYValue
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aComputedValue
@@ -18497,7 +18497,7 @@ item
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 *
@@ -18642,7 +18642,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 unexpected
 unit
@@ -18650,7 +18650,7 @@ unit
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -18669,7 +18669,7 @@ result
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 result
@@ -18749,7 +18749,7 @@ NS_STYLE_FONT_STRETCH_ULTRA_EXPANDED
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aComputedValue
@@ -18761,7 +18761,7 @@ eUnit_Enumerated
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -18797,7 +18797,7 @@ weight
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aComputedValue
@@ -18809,7 +18809,7 @@ eUnit_Integer
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -20199,7 +20199,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 missing
 property
@@ -20208,12 +20208,12 @@ implementation
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 ;
 return
-PR_TRUE
+true
 ;
 case
 eStyleAnimType_Coord
@@ -20423,7 +20423,7 @@ Get
 NS_FULL_TO_HALF_CORNER
 (
 fullCorner
-PR_FALSE
+false
 )
 )
 ;
@@ -20440,7 +20440,7 @@ Get
 NS_FULL_TO_HALF_CORNER
 (
 fullCorner
-PR_TRUE
+true
 )
 )
 ;
@@ -20483,7 +20483,7 @@ mYValue
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aComputedValue
@@ -20499,7 +20499,7 @@ eUnit_CSSValuePair
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -20526,7 +20526,7 @@ ssOffset
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 eStyleAnimType_EnumU8
@@ -20553,7 +20553,7 @@ eUnit_Enumerated
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 eStyleAnimType_float
@@ -20661,7 +20661,7 @@ SetNoneValue
 ;
 }
 return
-PR_TRUE
+true
 ;
 case
 eStyleAnimType_Color
@@ -20687,7 +20687,7 @@ ssOffset
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 eStyleAnimType_PaintServer
@@ -20735,7 +20735,7 @@ mColor
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -20768,7 +20768,7 @@ server
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsAutoPtr
@@ -20801,7 +20801,7 @@ NS_ENSURE_TRUE
 !
 !
 uriAsStringBuffer
-PR_FALSE
+false
 )
 ;
 nsIDocument
@@ -20890,7 +20890,7 @@ eUnit_CSSValuePair
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_ABORT_IF_FALSE
@@ -20916,7 +20916,7 @@ SetNoneValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -20961,7 +20961,7 @@ eUnit_Shadow
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsAutoPtr
@@ -21192,7 +21192,7 @@ resultItem
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 resultItem
@@ -21233,7 +21233,7 @@ eUnit_Shadow
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -21256,7 +21256,7 @@ properties
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsStyleAnimation
@@ -22724,7 +22724,7 @@ mUnit
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 switch
@@ -22745,7 +22745,7 @@ case
 eUnit_None
 :
 return
-PR_TRUE
+true
 ;
 case
 eUnit_Enumerated
@@ -22955,6 +22955,6 @@ case
 )
 ;
 return
-PR_FALSE
+false
 ;
 }

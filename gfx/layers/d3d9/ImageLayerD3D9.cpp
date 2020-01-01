@@ -1491,11 +1491,11 @@ LAYERS_D3D9
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 Layer
@@ -2531,7 +2531,7 @@ mBufferSize
 )
 mHasData
 (
-PR_FALSE
+false
 )
 {
 }
@@ -2562,7 +2562,7 @@ aData
 ;
 mHasData
 =
-PR_TRUE
+true
 ;
 }
 void

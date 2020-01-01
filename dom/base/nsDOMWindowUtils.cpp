@@ -758,7 +758,7 @@ hasCap
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 return
@@ -1061,7 +1061,7 @@ aIsForced
 *
 aIsForced
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1703,7 +1703,7 @@ presShell
 >
 SetIgnoreViewportScrolling
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -1979,7 +1979,7 @@ aButton
 aClickCount
 aModifiers
 aIgnoreRootScrollFrame
-PR_FALSE
+false
 )
 ;
 }
@@ -2017,7 +2017,7 @@ aButton
 aClickCount
 aModifiers
 aIgnoreRootScrollFrame
-PR_TRUE
+true
 )
 ;
 }
@@ -2213,7 +2213,7 @@ NS_ERROR_FAILURE
 nsMouseEvent
 event
 (
-PR_TRUE
+true
 msg
 widget
 nsMouseEvent
@@ -2246,9 +2246,9 @@ nsIDOMNSEvent
 SHIFT_MASK
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 event
 .
@@ -2263,9 +2263,9 @@ nsIDOMNSEvent
 CONTROL_MASK
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 event
 .
@@ -2280,9 +2280,9 @@ nsIDOMNSEvent
 ALT_MASK
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 event
 .
@@ -2297,9 +2297,9 @@ nsIDOMNSEvent
 META_MASK
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 event
 .
@@ -2507,7 +2507,7 @@ HandleEvent
 view
 &
 event
-PR_FALSE
+false
 &
 status
 )
@@ -2635,7 +2635,7 @@ NS_ERROR_UNEXPECTED
 nsMouseScrollEvent
 event
 (
-PR_TRUE
+true
 msg
 widget
 )
@@ -2653,9 +2653,9 @@ nsIDOMNSEvent
 SHIFT_MASK
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 event
 .
@@ -2670,9 +2670,9 @@ nsIDOMNSEvent
 CONTROL_MASK
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 event
 .
@@ -2687,9 +2687,9 @@ nsIDOMNSEvent
 ALT_MASK
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 event
 .
@@ -2704,9 +2704,9 @@ nsIDOMNSEvent
 META_MASK
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 event
 .
@@ -2945,7 +2945,7 @@ NS_ERROR_FAILURE
 nsKeyEvent
 event
 (
-PR_TRUE
+true
 msg
 widget
 )
@@ -2963,9 +2963,9 @@ nsIDOMNSEvent
 SHIFT_MASK
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 event
 .
@@ -2980,9 +2980,9 @@ nsIDOMNSEvent
 CONTROL_MASK
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 event
 .
@@ -2997,9 +2997,9 @@ nsIDOMNSEvent
 ALT_MASK
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 event
 .
@@ -3014,9 +3014,9 @@ nsIDOMNSEvent
 META_MASK
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 event
 .
@@ -4053,7 +4053,7 @@ NS_ERROR_FAILURE
 nsSimpleGestureEvent
 event
 (
-PR_TRUE
+true
 msg
 widget
 aDirection
@@ -4073,9 +4073,9 @@ nsIDOMNSEvent
 SHIFT_MASK
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 event
 .
@@ -4090,9 +4090,9 @@ nsIDOMNSEvent
 CONTROL_MASK
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 event
 .
@@ -4107,9 +4107,9 @@ nsIDOMNSEvent
 ALT_MASK
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 event
 .
@@ -4124,9 +4124,9 @@ nsIDOMNSEvent
 META_MASK
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 event
 .
@@ -4872,7 +4872,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 nsPresContext
 *
@@ -5084,7 +5084,7 @@ doc
 >
 UnsuppressEventHandlingAndFireEvents
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -5954,7 +5954,7 @@ NS_ERROR_FAILURE
 nsCompositionEvent
 compositionEvent
 (
-PR_TRUE
+true
 msg
 widget
 )
@@ -6227,7 +6227,7 @@ NS_ERROR_FAILURE
 nsTextEvent
 textEvent
 (
-PR_TRUE
+true
 NS_TEXT_TEXT
 widget
 )
@@ -6629,7 +6629,7 @@ point
 nsQueryContentEvent
 dummyEvent
 (
-PR_TRUE
+true
 NS_QUERY_CONTENT_STATE
 widget
 )
@@ -6768,7 +6768,7 @@ WidgetToScreenOffset
 nsQueryContentEvent
 queryEvent
 (
-PR_TRUE
+true
 aType
 targetWidget
 )
@@ -6902,7 +6902,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -6949,7 +6949,7 @@ NS_ERROR_FAILURE
 nsSelectionEvent
 selectionEvent
 (
-PR_TRUE
+true
 NS_SELECTION_SET
 widget
 )
@@ -7186,7 +7186,7 @@ NS_ERROR_FAILURE
 nsContentCommandEvent
 event
 (
-PR_TRUE
+true
 msg
 widget
 )
@@ -7532,7 +7532,7 @@ get
 >
 SetExposeVisitedStyle
 (
-PR_TRUE
+true
 )
 ;
 rv
@@ -7562,7 +7562,7 @@ get
 >
 SetExposeVisitedStyle
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -8015,7 +8015,7 @@ cc
 >
 SetReturnValueWasSet
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -8281,13 +8281,13 @@ ComputeValue
 aProperty
 aElement
 aInput
-PR_FALSE
+false
 aOutput
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -8344,7 +8344,7 @@ eUnit_Visibility
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -8864,7 +8864,7 @@ get
 {
 isSameDoc
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -9084,7 +9084,7 @@ ios
 >
 SetOffline
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -9266,7 +9266,7 @@ HasNonIntegerTranslation
 )
 )
 return
-PR_FALSE
+false
 ;
 transform
 .
@@ -9321,7 +9321,7 @@ aCoveredRegion
 )
 )
 return
-PR_FALSE
+false
 ;
 child
 =
@@ -9375,7 +9375,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 aCoveredRegion
 -
@@ -9389,7 +9389,7 @@ rgn
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -9420,7 +9420,7 @@ NS_ERROR_DOM_SECURITY_ERR
 *
 aResult
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -9520,7 +9520,7 @@ coveredRegion
 *
 aResult
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -9542,7 +9542,7 @@ GetVisibleRegion
 *
 aResult
 =
-PR_FALSE
+false
 ;
 }
 #
@@ -9597,7 +9597,7 @@ HasTouchEventListeners
 (
 )
 :
-PR_FALSE
+false
 ;
 return
 NS_OK

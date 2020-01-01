@@ -806,7 +806,7 @@ SetActiveByKeyboard
 {
 mActiveByKeyboard
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -928,7 +928,7 @@ eReplaced
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 nsBoxFrame

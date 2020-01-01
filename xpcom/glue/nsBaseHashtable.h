@@ -735,7 +735,7 @@ class
 methods
 *
 return
-PR_TRUE
+true
 if
 the
 object
@@ -791,7 +791,7 @@ hashtables
 .
 *
 return
-PR_TRUE
+true
 if
 the
 table
@@ -908,7 +908,7 @@ null
 .
 *
 return
-PR_TRUE
+true
 if
 the
 key
@@ -957,7 +957,7 @@ if
 ent
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -972,7 +972,7 @@ ent
 mData
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1114,7 +1114,7 @@ data
 *
 return
 always
-PR_TRUE
+true
 unless
 memory
 allocation
@@ -1148,7 +1148,7 @@ if
 ent
 )
 return
-PR_FALSE
+false
 ;
 ent
 -
@@ -1158,7 +1158,7 @@ mData
 aData
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2253,7 +2253,7 @@ initSize
 )
 )
 return
-PR_FALSE
+false
 ;
 this
 -

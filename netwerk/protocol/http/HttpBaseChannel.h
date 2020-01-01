@@ -2191,7 +2191,7 @@ mThis
 >
 mIsPending
 =
-PR_FALSE
+false
 ;
 /
 /

@@ -838,7 +838,7 @@ aOther
 *
 *
 Return
-PR_TRUE
+true
 if
 this
 fragment
@@ -866,7 +866,7 @@ mIs2b
 *
 *
 Return
-PR_TRUE
+true
 if
 this
 fragment

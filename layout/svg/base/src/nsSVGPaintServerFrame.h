@@ -515,7 +515,7 @@ to
 rendering
 *
 return
-PR_FALSE
+false
 to
 skip
 rendering

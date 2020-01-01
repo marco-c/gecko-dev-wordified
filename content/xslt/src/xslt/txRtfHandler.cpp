@@ -545,7 +545,7 @@ booleanValue
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 double

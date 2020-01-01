@@ -645,7 +645,7 @@ PATH_MAX
 If
 toPrinter
 =
-PR_FALSE
+false
 dest
 file
 *

@@ -1129,7 +1129,7 @@ for
 /
 /
 return
-PR_TRUE
+true
 if
 the
 element
@@ -1315,7 +1315,7 @@ prepend
 /
 /
 return
-PR_TRUE
+true
 if
 the
 element
@@ -1490,7 +1490,7 @@ append
 /
 /
 return
-PR_TRUE
+true
 if
 the
 element
@@ -1642,7 +1642,7 @@ for
 /
 /
 return
-PR_TRUE
+true
 if
 the
 element
@@ -1687,7 +1687,7 @@ array_type
 NoIndex
 )
 return
-PR_FALSE
+false
 ;
 mArray
 .
@@ -1704,7 +1704,7 @@ index
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2111,7 +2111,7 @@ mPosition
 /
 /
 Returns
-PR_TRUE
+true
 if
 there
 are
@@ -2133,7 +2133,7 @@ GetNext
 )
 .
 If
-PR_FALSE
+false
 is
 /
 /
@@ -2309,7 +2309,7 @@ Length
 /
 /
 Returns
-PR_TRUE
+true
 if
 there
 are
@@ -2331,7 +2331,7 @@ GetNext
 )
 .
 If
-PR_FALSE
+false
 is
 /
 /

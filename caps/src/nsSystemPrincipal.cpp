@@ -818,7 +818,7 @@ nsnull
 *
 aIsTrusted
 =
-PR_FALSE
+false
 ;
 return
 NS_ERROR_FAILURE
@@ -891,7 +891,7 @@ result
 *
 result
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1012,7 +1012,7 @@ result
 *
 result
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1252,7 +1252,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

@@ -783,7 +783,7 @@ GetEchoPasswordImpl
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 protected

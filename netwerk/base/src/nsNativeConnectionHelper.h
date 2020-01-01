@@ -419,7 +419,7 @@ OnConnectionFailed
 *
 *
 Return
-PR_TRUE
+true
 if
 the
 connection
@@ -449,7 +449,7 @@ IsAutoDialEnabled
 *
 *
 Return
-PR_TRUE
+true
 if
 autodial
 is

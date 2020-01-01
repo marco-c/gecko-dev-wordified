@@ -1845,7 +1845,7 @@ str
 {
 abortLoad
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1963,7 +1963,7 @@ str
 {
 abortLoad
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2026,7 +2026,7 @@ str
 {
 abortLoad
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2099,7 +2099,7 @@ str
 {
 abortLoad
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2126,7 +2126,7 @@ str
 {
 abortLoad
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2263,7 +2263,7 @@ rv
 )
 abortLoad
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2291,7 +2291,7 @@ rv
 )
 abortLoad
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -2348,14 +2348,14 @@ item
 else
 abortLoad
 =
-PR_TRUE
+true
 ;
 }
 }
 else
 abortLoad
 =
-PR_TRUE
+true
 ;
 }
 JS_DestroyIdArray
@@ -3996,7 +3996,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-PR_FALSE
+false
 =
 =
 JS_DefineConstDoubles
@@ -4084,7 +4084,7 @@ vp
 if
 (
 (
-PR_TRUE
+true
 !
 =
 JS_LookupProperty
@@ -4123,7 +4123,7 @@ nsnull
 |
 |
 (
-PR_TRUE
+true
 !
 =
 JS_LookupProperty

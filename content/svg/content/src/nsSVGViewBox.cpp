@@ -540,7 +540,7 @@ aOther
 this
 )
 return
-PR_TRUE
+true
 ;
 return
 x
@@ -746,7 +746,7 @@ nsnull
 ;
 mHasBaseVal
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -872,7 +872,7 @@ aHeight
 ;
 mHasBaseVal
 =
-PR_TRUE
+true
 ;
 aSVGElement
 -
@@ -1205,7 +1205,7 @@ height
 ;
 mHasBaseVal
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -1810,7 +1810,7 @@ val
 ;
 aPreventCachingOfSandwich
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

@@ -963,14 +963,14 @@ and
 sets
 aLoaded
 to
-PR_FALSE
+false
 .
 *
 Otherwise
 sets
 aLoaded
 to
-PR_TRUE
+true
 .
 *
 /

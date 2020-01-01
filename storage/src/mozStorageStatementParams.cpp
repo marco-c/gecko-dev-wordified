@@ -943,7 +943,7 @@ NS_ERROR_INVALID_ARG
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1202,7 +1202,7 @@ _idp
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

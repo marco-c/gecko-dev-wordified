@@ -975,7 +975,7 @@ aForFrame
 *
 *
 return
-PR_TRUE
+true
 if
 |
 aFrame
@@ -1039,7 +1039,7 @@ canvas
 .
 *
 return
-PR_TRUE
+true
 if
 there
 is

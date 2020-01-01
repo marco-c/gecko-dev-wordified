@@ -1024,7 +1024,7 @@ ReadCMAP
 {
 mCmapInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2007,7 +2007,7 @@ entry
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 *
@@ -2021,7 +2021,7 @@ GetBlob
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 hb_blob_t
@@ -2323,7 +2323,7 @@ with
 mStandardFace
 =
 =
-PR_TRUE
+true
 to
 be
 "
@@ -2332,7 +2332,7 @@ than
 "
 those
 with
-PR_FALSE
+false
 /
 /
 because
@@ -2411,7 +2411,7 @@ a
 mStandardFace
 =
 =
-PR_FALSE
+false
 &
 &
 b
@@ -2420,7 +2420,7 @@ b
 mStandardFace
 =
 =
-PR_TRUE
+true
 )
 ;
 }
@@ -2546,7 +2546,7 @@ faces
 ;
 aNeedsSyntheticBold
 =
-PR_FALSE
+false
 ;
 PRInt8
 baseWeight
@@ -3358,7 +3358,7 @@ baseWeight
 {
 aNeedsSyntheticBold
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -3434,7 +3434,7 @@ count
 {
 mIsSimpleFamily
 =
-PR_TRUE
+true
 ;
 return
 ;
@@ -3664,7 +3664,7 @@ i
 }
 mIsSimpleFamily
 =
-PR_TRUE
+true
 ;
 }
 static
@@ -4156,7 +4156,7 @@ found
 one
 weight
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -5003,7 +5003,7 @@ records
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -5119,7 +5119,7 @@ strings
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRUint16
@@ -5245,7 +5245,7 @@ otherFamilyName
 ;
 foundNames
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5273,7 +5273,7 @@ return
 ;
 mOtherFamilyNamesInitialized
 =
-PR_TRUE
+true
 ;
 FindStyleVariations
 (
@@ -5785,16 +5785,16 @@ foundOtherName
 {
 mHasOtherFamilyNames
 =
-PR_TRUE
+true
 ;
 readAllFaces
 =
-PR_TRUE
+true
 ;
 }
 firstTime
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -5823,11 +5823,11 @@ break
 }
 mFaceNamesInitialized
 =
-PR_TRUE
+true
 ;
 mOtherFamilyNamesInitialized
 =
-PR_TRUE
+true
 ;
 }
 gfxFontEntry
@@ -6753,11 +6753,11 @@ aFontEntry
 )
 mIsValid
 (
-PR_TRUE
+true
 )
 mApplySyntheticBold
 (
-PR_FALSE
+false
 )
 mStyle
 (
@@ -8474,7 +8474,7 @@ Flush
 cr
 aDrawToPath
 isRTL
-PR_TRUE
+true
 )
 ;
 *
@@ -8627,7 +8627,7 @@ gfxTextRunFactory
 TEXT_NEED_BOUNDING_BOX
 )
 return
-PR_TRUE
+true
 ;
 PRUint32
 numRuns
@@ -8685,11 +8685,11 @@ IsUserFont
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 gfxFont
@@ -9987,7 +9987,7 @@ thisRunLength
 ;
 ok
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -10823,7 +10823,7 @@ aMetrics
 {
 mIsValid
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -11000,7 +11000,7 @@ HeadTable
 )
 {
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -11047,7 +11047,7 @@ unitsPerEm
 )
 {
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -11115,7 +11115,7 @@ HheaTable
 )
 {
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -11258,7 +11258,7 @@ postData
 )
 {
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -11295,7 +11295,7 @@ PRUint16
 )
 {
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -11568,10 +11568,10 @@ yStrikeoutPosition
 }
 mIsValid
 =
-PR_TRUE
+true
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -13129,7 +13129,7 @@ aContext
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 aFont
@@ -13156,7 +13156,7 @@ SetupGlyphExtents
 (
 aContext
 aGlyphID
-PR_TRUE
+true
 this
 )
 ;
@@ -13187,7 +13187,7 @@ extents
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -13215,7 +13215,7 @@ height
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 gfxGlyphExtents
@@ -13751,7 +13751,7 @@ aUserFontSet
 ;
 mSkipDrawing
 =
-PR_FALSE
+false
 ;
 mPageLang
 =
@@ -14490,7 +14490,7 @@ fontGroup
 >
 mSkipDrawing
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -14595,7 +14595,7 @@ font
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -14648,11 +14648,11 @@ GetFontEntry
 aFontEntry
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 gfxFontGroup
@@ -14896,9 +14896,9 @@ mFamilies
 mStyle
 .
 language
-PR_TRUE
-PR_TRUE
-PR_TRUE
+true
+true
+true
 fc
 closure
 )
@@ -14929,9 +14929,9 @@ ForEachFontInternal
 (
 aFamilies
 aLanguage
-PR_FALSE
-PR_TRUE
-PR_TRUE
+false
+true
+true
 fc
 closure
 )
@@ -15196,7 +15196,7 @@ p
 p_end
 )
 return
-PR_TRUE
+true
 ;
 bool
 generic
@@ -15238,7 +15238,7 @@ p
 p_end
 )
 return
-PR_TRUE
+true
 ;
 const
 PRUnichar
@@ -15274,7 +15274,7 @@ p
 p_end
 )
 return
-PR_TRUE
+true
 ;
 family
 =
@@ -15286,13 +15286,13 @@ p
 ;
 generic
 =
-PR_FALSE
+false
 ;
 genericFamily
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 while
@@ -15366,8 +15366,8 @@ family
 .
 CompressWhitespace
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 if
@@ -15431,7 +15431,7 @@ fantasy
 {
 generic
 =
-PR_TRUE
+true
 ;
 ToLowerCase
 (
@@ -15512,13 +15512,13 @@ else
 {
 generic
 =
-PR_FALSE
+false
 ;
 genericFamily
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -15538,9 +15538,9 @@ ForEachFontInternal
 (
 family
 groupAtom
-PR_FALSE
+false
 aResolveFontName
-PR_FALSE
+false
 fc
 closure
 )
@@ -15633,7 +15633,7 @@ waitForUserFont
 {
 mSkipDrawing
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -15683,7 +15683,7 @@ rv
 aborted
 )
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -15700,7 +15700,7 @@ closure
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -15772,9 +15772,9 @@ ForEachFontInternal
 (
 value
 groupAtom
-PR_FALSE
+false
 aResolveFontName
-PR_FALSE
+false
 fc
 closure
 )
@@ -15793,7 +15793,7 @@ past
 p_end
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -16027,7 +16027,7 @@ gfxTextRange
 :
 kFontGroup
 0
-PR_FALSE
+false
 )
 ;
 }
@@ -17387,8 +17387,8 @@ g
 .
 SetComplex
 (
-PR_TRUE
-PR_TRUE
+true
+true
 1
 )
 ;
@@ -18444,7 +18444,7 @@ UNDERLINE_OFFSET_NOT_SET
 ;
 mSkipDrawing
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -18598,7 +18598,7 @@ family
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -19208,7 +19208,7 @@ FindOrMakeFont
 (
 &
 mStyle
-PR_FALSE
+false
 )
 ;
 /
@@ -19721,11 +19721,11 @@ FONT_STYLE_NORMAL
 )
 systemFont
 (
-PR_TRUE
+true
 )
 printerFont
 (
-PR_FALSE
+false
 )
 weight
 (
@@ -20070,7 +20070,7 @@ Length
 )
 )
 return
-PR_FALSE
+false
 ;
 mGlyphRun
 =
@@ -20094,7 +20094,7 @@ mCharacterOffset
 mEndOffset
 )
 return
-PR_FALSE
+false
 ;
 mStringStart
 =
@@ -20153,7 +20153,7 @@ last
 mNextIndex
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -21212,7 +21212,7 @@ if
 mCharacterGlyphs
 )
 return
-PR_TRUE
+true
 ;
 PRUint32
 changed
@@ -21670,7 +21670,7 @@ result
 .
 mClipAfterPart
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -22253,7 +22253,7 @@ TEXT_ENABLE_SPACING
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -22269,7 +22269,7 @@ aStart
 )
 )
 return
-PR_FALSE
+false
 ;
 memset
 (
@@ -22342,7 +22342,7 @@ aSpacingEnd
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -22889,7 +22889,7 @@ Height
 (
 )
 )
-PR_TRUE
+true
 )
 ;
 aCtx
@@ -22929,7 +22929,7 @@ DrawGlyphs
 (
 aFont
 aCtx
-PR_FALSE
+false
 &
 pt
 data
@@ -23041,12 +23041,12 @@ IsSyntheticBold
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -23129,12 +23129,12 @@ a
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -23238,7 +23238,7 @@ Height
 /
 appsPerDevUnit
 )
-PR_TRUE
+true
 )
 ;
 mContext
@@ -23575,8 +23575,8 @@ glyphData
 >
 SetComplex
 (
-PR_TRUE
-PR_TRUE
+true
+true
 1
 )
 ;
@@ -23872,7 +23872,7 @@ aLength
 {
 needToRestore
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -24004,7 +24004,7 @@ DrawGlyphs
 (
 font
 aContext
-PR_FALSE
+false
 &
 pt
 ligatureRunStart
@@ -24225,7 +24225,7 @@ DrawGlyphs
 (
 font
 aContext
-PR_TRUE
+true
 &
 pt
 ligatureRunStart
@@ -25452,7 +25452,7 @@ fits
 Abort
 aborted
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -26058,7 +26058,7 @@ aAdvanceWidthDelta
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -27551,12 +27551,12 @@ SetMissing
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -27627,7 +27627,7 @@ mSkipDrawing
 {
 mSkipDrawing
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -28115,7 +28115,7 @@ start
 aStart
 +
 aDest
-PR_FALSE
+false
 )
 ;
 if
@@ -28293,7 +28293,7 @@ gfxTextRange
 :
 kFontGroup
 aCharIndex
-PR_FALSE
+false
 )
 ;
 CompressedGlyph
@@ -28552,7 +28552,7 @@ aRefContext
 ;
 fontIsSetup
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -28571,7 +28571,7 @@ SetupGlyphExtents
 (
 aRefContext
 glyphIndex
-PR_FALSE
+false
 extents
 )
 ;
@@ -28688,7 +28688,7 @@ aRefContext
 ;
 fontIsSetup
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -28707,7 +28707,7 @@ SetupGlyphExtents
 (
 aRefContext
 glyphIndex
-PR_TRUE
+true
 extents
 )
 ;
@@ -28801,7 +28801,7 @@ mCurrentChar
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -28814,7 +28814,7 @@ PRUint32
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRUint32

@@ -453,7 +453,7 @@ CharDistributionAnalysis
 {
 Reset
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -606,7 +606,7 @@ aIsPreferredLanguage
 {
 mDone
 =
-PR_FALSE
+false
 ;
 mTotalChars
 =
@@ -755,7 +755,7 @@ flag
 is
 set
 to
-PR_TRUE
+true
 detection
 is
 done

@@ -517,7 +517,7 @@ aCanceled
 *
 aCanceled
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -771,7 +771,7 @@ status
 *
 aCanceled
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -779,7 +779,7 @@ else
 *
 aCanceled
 =
-PR_FALSE
+false
 ;
 rv
 =

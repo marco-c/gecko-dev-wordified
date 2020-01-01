@@ -1614,11 +1614,11 @@ idx
 0x30
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1800,7 +1800,7 @@ for
 surrogate
 characters
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1858,11 +1858,11 @@ aOutLen
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1903,7 +1903,7 @@ for
 surrogate
 characters
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1993,11 +1993,11 @@ aOutLen
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -2016,7 +2016,7 @@ aOut
 )
 {
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -2152,7 +2152,7 @@ mUtil
 UnicodeToGBKChar
 (
 unicode
-PR_FALSE
+false
 &
 byte1
 &

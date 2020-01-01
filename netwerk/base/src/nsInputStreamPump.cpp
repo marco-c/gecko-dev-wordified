@@ -759,11 +759,11 @@ LOAD_NORMAL
 )
 mWaiting
 (
-PR_FALSE
+false
 )
 mCloseWhenDone
 (
-PR_FALSE
+false
 )
 {
 #
@@ -1175,7 +1175,7 @@ rv
 }
 mWaiting
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -2925,7 +2925,7 @@ STATE_IDLE
 {
 mWaiting
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3010,7 +3010,7 @@ status
 ;
 mWaiting
 =
-PR_FALSE
+false
 ;
 mStatus
 =
@@ -4179,7 +4179,7 @@ mTargetThread
 ;
 mIsPending
 =
-PR_FALSE
+false
 ;
 mListener
 -

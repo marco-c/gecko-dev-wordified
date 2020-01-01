@@ -1028,11 +1028,11 @@ i
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1081,7 +1081,7 @@ aValue
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -1436,9 +1436,9 @@ aResult
 =
 res
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 g_variant_unref
 (

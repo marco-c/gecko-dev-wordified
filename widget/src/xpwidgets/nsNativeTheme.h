@@ -724,7 +724,7 @@ return
 GetCheckedOrSelected
 (
 aFrame
-PR_FALSE
+false
 )
 ;
 }
@@ -744,7 +744,7 @@ return
 GetCheckedOrSelected
 (
 aFrame
-PR_TRUE
+true
 )
 ;
 }

@@ -2511,7 +2511,7 @@ percentage
 value
 .
 Returns
-PR_TRUE
+true
 *
 if
 a
@@ -2520,7 +2520,7 @@ base
 value
 was
 determined
-PR_FALSE
+false
 otherwise
 .
 *
@@ -2570,7 +2570,7 @@ If
 it
 *
 returns
-PR_TRUE
+true
 the
 percentage
 base
@@ -2596,7 +2596,7 @@ is
 null
 or
 returns
-PR_FALSE
+false
 *
 the
 percent

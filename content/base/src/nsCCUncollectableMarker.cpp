@@ -657,7 +657,7 @@ xpcom
 -
 shutdown
 "
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -681,7 +681,7 @@ collector
 -
 begin
 "
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -692,7 +692,7 @@ rv
 ;
 sInited
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1034,7 +1034,7 @@ history
 GetEntryAtIndex
 (
 i
-PR_FALSE
+false
 getter_AddRefs
 (
 historyEntry

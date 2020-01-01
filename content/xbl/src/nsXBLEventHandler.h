@@ -520,7 +520,7 @@ aEvent
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }

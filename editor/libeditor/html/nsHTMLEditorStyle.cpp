@@ -2720,7 +2720,7 @@ RemoveStyleInside
 tmp
 aProperty
 aAttribute
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2759,7 +2759,7 @@ aAttribute
 aValue
 &
 count
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3006,7 +3006,7 @@ RemoveStyleInside
 aNode
 aProperty
 aAttribute
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3832,7 +3832,7 @@ tmp
 {
 isSet
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4021,7 +4021,7 @@ aNode
 aOffset
 &
 offset
-PR_FALSE
+false
 outLeftNode
 outRightNode
 )
@@ -4090,7 +4090,7 @@ aNode
 NS_ENSURE_TRUE
 (
 aNode
-PR_FALSE
+false
 )
 ;
 if
@@ -4102,7 +4102,7 @@ aNode
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4113,7 +4113,7 @@ aNode
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4123,7 +4123,7 @@ aNode
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4137,10 +4137,10 @@ a
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -4692,7 +4692,7 @@ aProperty
 aAttribute
 &
 propertyValue
-PR_FALSE
+false
 )
 ;
 /
@@ -4953,7 +4953,7 @@ aProperty
 aAttribute
 &
 propertyValue
-PR_FALSE
+false
 )
 ;
 /
@@ -5118,7 +5118,7 @@ aNode
 &
 &
 aAttribute
-PR_FALSE
+false
 )
 ;
 /
@@ -5138,7 +5138,7 @@ aNode
 NS_ENSURE_TRUE
 (
 content
-PR_FALSE
+false
 )
 ;
 /
@@ -5199,7 +5199,7 @@ kNameSpaceID_None
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 name
@@ -5264,7 +5264,7 @@ _moz
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -5290,9 +5290,9 @@ than
 aAttribute
 then
 return
-PR_TRUE
+true
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -5313,7 +5313,7 @@ aAttribute
 NS_ENSURE_TRUE
 (
 aNode
-PR_FALSE
+false
 )
 ;
 if
@@ -5330,7 +5330,7 @@ IsEmpty
 )
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -5359,7 +5359,7 @@ aNode
 NS_ENSURE_TRUE
 (
 elem
-PR_FALSE
+false
 )
 ;
 /
@@ -5403,10 +5403,10 @@ res
 attNode
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -5431,7 +5431,7 @@ aValue
 NS_ENSURE_TRUE
 (
 aNode
-PR_FALSE
+false
 )
 ;
 if
@@ -5448,7 +5448,7 @@ IsEmpty
 )
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -5477,7 +5477,7 @@ aNode
 NS_ENSURE_TRUE
 (
 elem
-PR_FALSE
+false
 )
 ;
 /
@@ -5521,7 +5521,7 @@ res
 attNode
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -5578,7 +5578,7 @@ IsEmpty
 )
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -5616,10 +5616,10 @@ nsCaseInsensitiveStringComparator
 )
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -6237,7 +6237,7 @@ aOffset
 NS_ENSURE_TRUE
 (
 aNode
-PR_FALSE
+false
 )
 ;
 /
@@ -6250,7 +6250,7 @@ aOffset
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -6262,7 +6262,7 @@ aNode
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -6285,7 +6285,7 @@ firstNode
 NS_ENSURE_TRUE
 (
 firstNode
-PR_TRUE
+true
 )
 ;
 PRInt32
@@ -6308,10 +6308,10 @@ offset
 aOffset
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -6331,7 +6331,7 @@ aOffset
 NS_ENSURE_TRUE
 (
 aNode
-PR_FALSE
+false
 )
 ;
 /
@@ -6357,7 +6357,7 @@ PRInt32
 len
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -6368,7 +6368,7 @@ aNode
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -6391,7 +6391,7 @@ lastNode
 NS_ENSURE_TRUE
 (
 lastNode
-PR_TRUE
+true
 )
 ;
 PRInt32
@@ -6414,10 +6414,10 @@ offset
 aOffset
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -6466,17 +6466,17 @@ result
 *
 aAny
 =
-PR_FALSE
+false
 ;
 *
 aAll
 =
-PR_TRUE
+true
 ;
 *
 aFirst
 =
-PR_FALSE
+false
 ;
 bool
 first
@@ -6905,7 +6905,7 @@ aAny
 *
 aAll
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -7120,7 +7120,7 @@ text
 {
 skipNode
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -7143,7 +7143,7 @@ firstNodeInRange
 {
 firstNodeInRange
 =
-PR_FALSE
+false
 ;
 PRInt32
 startOffset
@@ -7182,7 +7182,7 @@ count
 {
 skipNode
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -7201,7 +7201,7 @@ endOffset
 {
 skipNode
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -7227,7 +7227,7 @@ nodes
 here
 skipNode
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -7356,7 +7356,7 @@ isSet
 ;
 first
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -7472,7 +7472,7 @@ theValue
 *
 aAll
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -7483,7 +7483,7 @@ isSet
 *
 aAny
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -7491,7 +7491,7 @@ else
 *
 aAll
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -7535,7 +7535,7 @@ set
 *
 aAll
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -11695,7 +11695,7 @@ NS_ERROR_FAILURE
 *
 aMixed
 =
-PR_TRUE
+true
 ;
 outFace
 .
@@ -11768,7 +11768,7 @@ all
 *
 aMixed
 =
-PR_FALSE
+false
 ;
 return
 res
@@ -11832,7 +11832,7 @@ all
 *
 aMixed
 =
-PR_FALSE
+false
 ;
 nsEditProperty
 :
@@ -11879,7 +11879,7 @@ Truncate
 *
 aMixed
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -11909,7 +11909,7 @@ NS_ERROR_NULL_POINTER
 *
 aMixed
 =
-PR_TRUE
+true
 ;
 aOutColor
 .
@@ -11982,7 +11982,7 @@ all
 *
 aMixed
 =
-PR_FALSE
+false
 ;
 return
 res
@@ -12016,7 +12016,7 @@ Truncate
 *
 aMixed
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -12079,7 +12079,7 @@ aIsCSSEnabled
 *
 aIsCSSEnabled
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -12188,7 +12188,7 @@ isStyleSet
 *
 aHasStyleOrIdOrClass
 =
-PR_TRUE
+true
 ;
 nsresult
 res

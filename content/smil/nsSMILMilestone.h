@@ -740,7 +740,7 @@ mTime
 )
 mIsEnd
 (
-PR_FALSE
+false
 )
 {
 }
@@ -940,7 +940,7 @@ interval
 /
 /
 end
-PR_FALSE
+false
 otherwise
 .
 }

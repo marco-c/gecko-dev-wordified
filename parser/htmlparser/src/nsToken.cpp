@@ -636,7 +636,7 @@ mLineNumber
 ;
 mInError
 =
-PR_FALSE
+false
 ;
 mTypeID
 =

@@ -602,7 +602,7 @@ AddObserver
 (
 this
 NS_PRIVATE_BROWSING_SWITCH_TOPIC
-PR_TRUE
+true
 )
 ;
 }
@@ -681,7 +681,7 @@ data
 >
 SetData
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS

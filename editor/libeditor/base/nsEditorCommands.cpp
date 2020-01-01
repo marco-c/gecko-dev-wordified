@@ -601,7 +601,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -798,7 +798,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -963,7 +963,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1006,7 +1006,7 @@ editor
 >
 EnableUndo
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -1025,7 +1025,7 @@ editor
 >
 EnableUndo
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -1201,7 +1201,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1365,7 +1365,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1628,7 +1628,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1792,7 +1792,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2059,7 +2059,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2256,7 +2256,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2532,7 +2532,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2684,7 +2684,7 @@ aCommandRefCon
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2774,7 +2774,7 @@ cmd_deleteCharBackward
 *
 outCmdEnabled
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -2794,7 +2794,7 @@ cmd_deleteCharForward
 *
 outCmdEnabled
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -2814,7 +2814,7 @@ cmd_deleteWordBackward
 *
 outCmdEnabled
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -2834,7 +2834,7 @@ cmd_deleteWordForward
 *
 outCmdEnabled
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -2854,7 +2854,7 @@ cmd_deleteToBeginningOfLine
 *
 outCmdEnabled
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -2874,7 +2874,7 @@ cmd_deleteToEndOfLine
 *
 outCmdEnabled
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3183,7 +3183,7 @@ NS_OK
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 bool
 docIsEmpty
@@ -3430,7 +3430,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3590,7 +3590,7 @@ selCont
 >
 CompleteScroll
 (
-PR_FALSE
+false
 )
 ;
 else
@@ -3614,7 +3614,7 @@ selCont
 >
 CompleteScroll
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -3643,8 +3643,8 @@ selCont
 >
 CompleteMove
 (
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 else
@@ -3668,8 +3668,8 @@ selCont
 >
 CompleteMove
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 else
@@ -3693,8 +3693,8 @@ selCont
 >
 CompleteMove
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 else
@@ -3718,8 +3718,8 @@ selCont
 >
 CompleteMove
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 /
@@ -3748,8 +3748,8 @@ selCont
 >
 LineMove
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 else
@@ -3773,8 +3773,8 @@ selCont
 >
 LineMove
 (
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 else
@@ -3798,8 +3798,8 @@ selCont
 >
 LineMove
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 else
@@ -3823,8 +3823,8 @@ selCont
 >
 LineMove
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 /
@@ -3853,8 +3853,8 @@ selCont
 >
 CharacterMove
 (
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 else
@@ -3878,8 +3878,8 @@ selCont
 >
 CharacterMove
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 else
@@ -3903,8 +3903,8 @@ selCont
 >
 CharacterMove
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 else
@@ -3928,8 +3928,8 @@ selCont
 >
 CharacterMove
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 /
@@ -3959,8 +3959,8 @@ selCont
 >
 IntraLineMove
 (
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 else
@@ -3984,8 +3984,8 @@ selCont
 >
 IntraLineMove
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 else
@@ -4009,8 +4009,8 @@ selCont
 >
 IntraLineMove
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 else
@@ -4034,8 +4034,8 @@ selCont
 >
 IntraLineMove
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 /
@@ -4064,8 +4064,8 @@ selCont
 >
 WordMove
 (
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 else
@@ -4089,8 +4089,8 @@ selCont
 >
 WordMove
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 else
@@ -4114,8 +4114,8 @@ selCont
 >
 WordMove
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 else
@@ -4139,8 +4139,8 @@ selCont
 >
 WordMove
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 /
@@ -4169,7 +4169,7 @@ selCont
 >
 ScrollPage
 (
-PR_FALSE
+false
 )
 ;
 else
@@ -4193,7 +4193,7 @@ selCont
 >
 ScrollPage
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -4222,7 +4222,7 @@ selCont
 >
 ScrollLine
 (
-PR_FALSE
+false
 )
 ;
 else
@@ -4246,7 +4246,7 @@ selCont
 >
 ScrollLine
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -4275,8 +4275,8 @@ selCont
 >
 PageMove
 (
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 else
@@ -4300,8 +4300,8 @@ selCont
 >
 PageMove
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 else
@@ -4325,8 +4325,8 @@ selCont
 >
 PageMove
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 else
@@ -4350,8 +4350,8 @@ selCont
 >
 PageMove
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 return
@@ -4474,7 +4474,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -4732,7 +4732,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

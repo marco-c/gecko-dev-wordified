@@ -576,7 +576,7 @@ service
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsCAutoString
@@ -696,11 +696,11 @@ UTF
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsCAutoString
@@ -741,7 +741,7 @@ service
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 res
@@ -764,7 +764,7 @@ res
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -872,7 +872,7 @@ defined
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 res
@@ -902,7 +902,7 @@ NS_ERROR_UCONV_NOCONV
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -935,7 +935,7 @@ mUnicodeDecoder
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -964,7 +964,7 @@ preferred
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }

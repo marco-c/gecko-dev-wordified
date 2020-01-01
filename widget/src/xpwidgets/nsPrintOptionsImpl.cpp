@@ -5658,7 +5658,7 @@ aPrinter
 *
 aDisplayed
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -5707,7 +5707,7 @@ rv
 *
 aDisplayed
 =
-PR_TRUE
+true
 ;
 return
 rv
@@ -5819,7 +5819,7 @@ InitPrintSettingsFromPrefs
 (
 *
 _retval
-PR_FALSE
+false
 nsIPrintSettings
 :
 :
@@ -6073,7 +6073,7 @@ printer
 {
 isValid
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -6266,7 +6266,7 @@ aPrintSettings
 >
 SetIsInitializedFromPrinter
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -6595,7 +6595,7 @@ Names
 GetAdjustedPrinterName
 (
 aPrintSettings
-PR_TRUE
+true
 prtName
 )
 ;
@@ -6815,7 +6815,7 @@ aPS
 >
 SetIsInitializedFromPrefs
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -7904,7 +7904,7 @@ nsIPrintSettings
 :
 :
 kPrintOddPages
-PR_TRUE
+true
 )
 ;
 ps
@@ -7916,7 +7916,7 @@ nsIPrintSettings
 :
 :
 kPrintEvenPages
-PR_FALSE
+false
 )
 ;
 ps
@@ -7974,7 +7974,7 @@ ps
 >
 SetPrintBGColors
 (
-PR_TRUE
+true
 )
 ;
 ps
@@ -7982,7 +7982,7 @@ ps
 >
 SetPrintBGImages
 (
-PR_TRUE
+true
 )
 ;
 ps
@@ -8183,7 +8183,7 @@ ps
 >
 SetPrintReversed
 (
-PR_TRUE
+true
 )
 ;
 ps
@@ -8191,7 +8191,7 @@ ps
 >
 SetPrintInColor
 (
-PR_TRUE
+true
 )
 ;
 ps
@@ -8253,7 +8253,7 @@ ps
 >
 SetPrintToFile
 (
-PR_TRUE
+true
 )
 ;
 ps
@@ -8287,7 +8287,7 @@ ps
 >
 SetShrinkToFit
 (
-PR_TRUE
+true
 )
 ;
 struct
@@ -8627,7 +8627,7 @@ printService
 SavePrintSettingsToPrefs
 (
 ps
-PR_TRUE
+true
 gSettings
 [
 i
@@ -8642,7 +8642,7 @@ printService
 InitPrintSettingsFromPrefs
 (
 ps
-PR_TRUE
+true
 gSettings
 [
 i

@@ -957,7 +957,7 @@ delete
 entry
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -998,6 +998,6 @@ Release
 )
 ;
 return
-PR_TRUE
+true
 ;
 }

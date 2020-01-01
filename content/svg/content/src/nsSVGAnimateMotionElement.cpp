@@ -928,7 +928,7 @@ nsGkAtoms
 mozAnimateMotionDummyAttr
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsSMILTargetAttrType

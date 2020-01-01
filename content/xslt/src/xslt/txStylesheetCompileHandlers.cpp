@@ -856,7 +856,7 @@ nsGkAtoms
 :
 :
 useAttributeSets
-PR_FALSE
+false
 &
 attr
 )
@@ -909,7 +909,7 @@ mElementContext
 -
 >
 mMappings
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -988,7 +988,7 @@ nsGkAtoms
 :
 :
 excludeResultPrefixes
-PR_FALSE
+false
 &
 attr
 )
@@ -1089,7 +1089,7 @@ mElementContext
 -
 >
 mMappings
-PR_FALSE
+false
 )
 ;
 if
@@ -2291,7 +2291,7 @@ nsGkAtoms
 :
 :
 id
-PR_FALSE
+false
 &
 attr
 )
@@ -2328,7 +2328,7 @@ nsGkAtoms
 :
 :
 version
-PR_TRUE
+true
 &
 attr
 )
@@ -2437,7 +2437,7 @@ nsGkAtoms
 :
 :
 version
-PR_TRUE
+true
 &
 attr
 )
@@ -2880,7 +2880,7 @@ nsGkAtoms
 :
 :
 name
-PR_TRUE
+true
 aState
 name
 )
@@ -2944,7 +2944,7 @@ parseUseAttrSets
 (
 aAttributes
 aAttrCount
-PR_FALSE
+false
 aState
 )
 ;
@@ -3069,7 +3069,7 @@ nsGkAtoms
 :
 :
 name
-PR_FALSE
+false
 aState
 name
 )
@@ -3106,7 +3106,7 @@ nsGkAtoms
 :
 :
 decimalSeparator
-PR_FALSE
+false
 aState
 format
 -
@@ -3130,7 +3130,7 @@ nsGkAtoms
 :
 :
 groupingSeparator
-PR_FALSE
+false
 aState
 format
 -
@@ -3161,7 +3161,7 @@ nsGkAtoms
 :
 :
 infinity
-PR_FALSE
+false
 &
 attr
 )
@@ -3198,7 +3198,7 @@ nsGkAtoms
 :
 :
 minusSign
-PR_FALSE
+false
 aState
 format
 -
@@ -3223,7 +3223,7 @@ nsGkAtoms
 :
 :
 NaN
-PR_FALSE
+false
 &
 attr
 )
@@ -3260,7 +3260,7 @@ nsGkAtoms
 :
 :
 percent
-PR_FALSE
+false
 aState
 format
 -
@@ -3284,7 +3284,7 @@ nsGkAtoms
 :
 :
 perMille
-PR_FALSE
+false
 aState
 format
 -
@@ -3308,7 +3308,7 @@ nsGkAtoms
 :
 :
 zeroDigit
-PR_FALSE
+false
 aState
 format
 -
@@ -3332,7 +3332,7 @@ nsGkAtoms
 :
 :
 digit
-PR_FALSE
+false
 aState
 format
 -
@@ -3356,7 +3356,7 @@ nsGkAtoms
 :
 :
 patternSeparator
-PR_FALSE
+false
 aState
 format
 -
@@ -3523,7 +3523,7 @@ nsGkAtoms
 :
 :
 href
-PR_TRUE
+true
 &
 attr
 )
@@ -3647,7 +3647,7 @@ nsGkAtoms
 :
 :
 href
-PR_TRUE
+true
 &
 attr
 )
@@ -3767,7 +3767,7 @@ nsGkAtoms
 :
 :
 name
-PR_TRUE
+true
 aState
 name
 )
@@ -3794,7 +3794,7 @@ nsGkAtoms
 :
 :
 match
-PR_TRUE
+true
 aState
 match
 )
@@ -3821,7 +3821,7 @@ nsGkAtoms
 :
 :
 use
-PR_TRUE
+true
 aState
 use
 )
@@ -3927,7 +3927,7 @@ nsGkAtoms
 :
 :
 stylesheetPrefix
-PR_TRUE
+true
 &
 attr
 )
@@ -3949,7 +3949,7 @@ nsGkAtoms
 :
 :
 resultPrefix
-PR_TRUE
+true
 &
 attr
 )
@@ -4057,7 +4057,7 @@ nsGkAtoms
 :
 :
 method
-PR_FALSE
+false
 aState
 methodExpName
 )
@@ -4211,7 +4211,7 @@ nsGkAtoms
 :
 :
 version
-PR_FALSE
+false
 &
 attr
 )
@@ -4243,7 +4243,7 @@ nsGkAtoms
 :
 :
 encoding
-PR_FALSE
+false
 &
 attr
 )
@@ -4276,7 +4276,7 @@ nsGkAtoms
 :
 :
 omitXmlDeclaration
-PR_FALSE
+false
 aState
 item
 -
@@ -4302,7 +4302,7 @@ nsGkAtoms
 :
 :
 standalone
-PR_FALSE
+false
 aState
 item
 -
@@ -4327,7 +4327,7 @@ nsGkAtoms
 :
 :
 doctypePublic
-PR_FALSE
+false
 &
 attr
 )
@@ -4359,7 +4359,7 @@ nsGkAtoms
 :
 :
 doctypeSystem
-PR_FALSE
+false
 &
 attr
 )
@@ -4391,7 +4391,7 @@ nsGkAtoms
 :
 :
 cdataSectionElements
-PR_FALSE
+false
 &
 attr
 )
@@ -4455,7 +4455,7 @@ mElementContext
 -
 >
 mMappings
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4502,7 +4502,7 @@ nsGkAtoms
 :
 :
 indent
-PR_FALSE
+false
 aState
 item
 -
@@ -4527,7 +4527,7 @@ nsGkAtoms
 :
 :
 mediaType
-PR_FALSE
+false
 &
 attr
 )
@@ -4652,7 +4652,7 @@ nsGkAtoms
 :
 :
 elements
-PR_TRUE
+true
 &
 attr
 )
@@ -5107,7 +5107,7 @@ nsGkAtoms
 :
 :
 name
-PR_FALSE
+false
 aState
 name
 )
@@ -5131,7 +5131,7 @@ nsGkAtoms
 :
 :
 mode
-PR_FALSE
+false
 aState
 mode
 )
@@ -5160,7 +5160,7 @@ nsGkAtoms
 :
 :
 priority
-PR_FALSE
+false
 aState
 prio
 )
@@ -5368,7 +5368,7 @@ nsGkAtoms
 :
 :
 name
-PR_TRUE
+true
 aState
 name
 )
@@ -5395,7 +5395,7 @@ nsGkAtoms
 :
 :
 select
-PR_FALSE
+false
 aState
 select
 )
@@ -5881,7 +5881,7 @@ parseUseAttrSets
 (
 aAttributes
 aAttrCount
-PR_TRUE
+true
 aState
 )
 ;
@@ -6379,7 +6379,7 @@ nsGkAtoms
 :
 :
 mode
-PR_FALSE
+false
 aState
 mode
 )
@@ -6441,7 +6441,7 @@ nsGkAtoms
 :
 :
 select
-PR_FALSE
+false
 aState
 select
 )
@@ -6795,7 +6795,7 @@ instr
 new
 txPushStringHandler
 (
-PR_TRUE
+true
 )
 )
 ;
@@ -6836,7 +6836,7 @@ nsGkAtoms
 :
 :
 name
-PR_TRUE
+true
 aState
 name
 )
@@ -6863,7 +6863,7 @@ nsGkAtoms
 :
 :
 _namespace
-PR_FALSE
+false
 aState
 nspace
 )
@@ -7087,7 +7087,7 @@ nsGkAtoms
 :
 :
 name
-PR_TRUE
+true
 aState
 name
 )
@@ -7467,7 +7467,7 @@ instr
 new
 txPushStringHandler
 (
-PR_TRUE
+true
 )
 )
 ;
@@ -7661,7 +7661,7 @@ parseUseAttrSets
 (
 aAttributes
 aAttrCount
-PR_FALSE
+false
 aState
 )
 ;
@@ -7809,7 +7809,7 @@ nsGkAtoms
 :
 :
 select
-PR_TRUE
+true
 aState
 select
 )
@@ -7948,7 +7948,7 @@ nsGkAtoms
 :
 :
 name
-PR_TRUE
+true
 aState
 name
 )
@@ -7975,7 +7975,7 @@ nsGkAtoms
 :
 :
 _namespace
-PR_FALSE
+false
 aState
 nspace
 )
@@ -8033,7 +8033,7 @@ parseUseAttrSets
 (
 aAttributes
 aAttrCount
-PR_FALSE
+false
 aState
 )
 ;
@@ -8128,7 +8128,7 @@ aState
 .
 mSearchingForFallback
 =
-PR_FALSE
+false
 ;
 return
 aState
@@ -8258,7 +8258,7 @@ nsGkAtoms
 :
 :
 select
-PR_TRUE
+true
 aState
 select
 )
@@ -8622,7 +8622,7 @@ nsGkAtoms
 :
 :
 test
-PR_TRUE
+true
 aState
 test
 )
@@ -8782,7 +8782,7 @@ instr
 new
 txPushStringHandler
 (
-PR_FALSE
+false
 )
 )
 ;
@@ -8821,7 +8821,7 @@ nsGkAtoms
 :
 :
 terminate
-PR_FALSE
+false
 aState
 term
 )
@@ -8974,7 +8974,7 @@ nsGkAtoms
 :
 :
 level
-PR_FALSE
+false
 aState
 getter_AddRefs
 (
@@ -9081,7 +9081,7 @@ nsGkAtoms
 :
 :
 count
-PR_FALSE
+false
 aState
 count
 )
@@ -9108,7 +9108,7 @@ nsGkAtoms
 :
 :
 from
-PR_FALSE
+false
 aState
 from
 )
@@ -9135,7 +9135,7 @@ nsGkAtoms
 :
 :
 value
-PR_FALSE
+false
 aState
 value
 )
@@ -9162,7 +9162,7 @@ nsGkAtoms
 :
 :
 format
-PR_FALSE
+false
 aState
 format
 )
@@ -9189,7 +9189,7 @@ nsGkAtoms
 :
 :
 lang
-PR_FALSE
+false
 aState
 lang
 )
@@ -9216,7 +9216,7 @@ nsGkAtoms
 :
 :
 letterValue
-PR_FALSE
+false
 aState
 letterValue
 )
@@ -9243,7 +9243,7 @@ nsGkAtoms
 :
 :
 groupingSeparator
-PR_FALSE
+false
 aState
 groupingSeparator
 )
@@ -9270,7 +9270,7 @@ nsGkAtoms
 :
 :
 groupingSize
-PR_FALSE
+false
 aState
 groupingSize
 )
@@ -9496,7 +9496,7 @@ nsGkAtoms
 :
 :
 name
-PR_TRUE
+true
 aState
 name
 )
@@ -9585,7 +9585,7 @@ nsGkAtoms
 :
 :
 select
-PR_FALSE
+false
 aState
 select
 )
@@ -9916,7 +9916,7 @@ instr
 new
 txPushStringHandler
 (
-PR_TRUE
+true
 )
 )
 ;
@@ -9958,7 +9958,7 @@ nsGkAtoms
 :
 :
 name
-PR_TRUE
+true
 aState
 name
 )
@@ -10111,7 +10111,7 @@ nsGkAtoms
 :
 :
 select
-PR_FALSE
+false
 aState
 select
 )
@@ -10191,7 +10191,7 @@ nsGkAtoms
 :
 :
 lang
-PR_FALSE
+false
 aState
 lang
 )
@@ -10218,7 +10218,7 @@ nsGkAtoms
 :
 :
 dataType
-PR_FALSE
+false
 aState
 dataType
 )
@@ -10245,7 +10245,7 @@ nsGkAtoms
 :
 :
 order
-PR_FALSE
+false
 aState
 order
 )
@@ -10272,7 +10272,7 @@ nsGkAtoms
 :
 :
 caseOrder
-PR_FALSE
+false
 aState
 caseOrder
 )
@@ -10407,7 +10407,7 @@ nsGkAtoms
 :
 :
 disableOutputEscaping
-PR_FALSE
+false
 aState
 doe
 )
@@ -10566,7 +10566,7 @@ nsGkAtoms
 :
 :
 disableOutputEscaping
-PR_FALSE
+false
 aState
 doe
 )
@@ -10593,7 +10593,7 @@ nsGkAtoms
 :
 :
 select
-PR_TRUE
+true
 aState
 select
 )
@@ -10732,7 +10732,7 @@ nsGkAtoms
 :
 :
 name
-PR_TRUE
+true
 aState
 name
 )
@@ -10759,7 +10759,7 @@ nsGkAtoms
 :
 :
 select
-PR_FALSE
+false
 aState
 select
 )
@@ -11198,7 +11198,7 @@ nsGkAtoms
 :
 :
 test
-PR_TRUE
+true
 aState
 test
 )
@@ -11463,7 +11463,7 @@ nsGkAtoms
 :
 :
 name
-PR_TRUE
+true
 aState
 name
 )
@@ -11490,7 +11490,7 @@ nsGkAtoms
 :
 :
 select
-PR_FALSE
+false
 aState
 select
 )
@@ -11816,7 +11816,7 @@ aState
 .
 mSearchingForFallback
 =
-PR_TRUE
+true
 ;
 return
 aState
@@ -11888,7 +11888,7 @@ aState
 .
 mSearchingForFallback
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -13107,7 +13107,7 @@ Handler
 )
 \
 return
-PR_FALSE
+false
 #
 define
 INIT_HANDLER_WITH_ELEMENT_HANDLERS
@@ -13165,7 +13165,7 @@ rv
 )
 \
 return
-PR_FALSE
+false
 #
 define
 SHUTDOWN_HANDLER

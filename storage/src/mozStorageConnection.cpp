@@ -2799,7 +2799,7 @@ false
 )
 mTransactionInProgress
 (
-PR_FALSE
+false
 )
 mProgressHandler
 (
@@ -3946,7 +3946,7 @@ SQLITE_ROW
 *
 _exists
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3963,7 +3963,7 @@ SQLITE_DONE
 *
 _exists
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -6107,7 +6107,7 @@ rv
 )
 mTransactionInProgress
 =
-PR_TRUE
+true
 ;
 return
 rv
@@ -6166,7 +6166,7 @@ rv
 )
 mTransactionInProgress
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -6225,7 +6225,7 @@ rv
 )
 mTransactionInProgress
 =
-PR_FALSE
+false
 ;
 return
 rv

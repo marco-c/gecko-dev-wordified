@@ -2124,7 +2124,7 @@ FALSE
 ;
 mDoingDrag
 =
-PR_TRUE
+true
 ;
 LONG
 escState
@@ -2198,7 +2198,7 @@ escState
 )
 mUserCancelled
 =
-PR_TRUE
+true
 ;
 FireDragEventAtSource
 (
@@ -2207,7 +2207,7 @@ NS_DRAGDROP_END
 ;
 mDoingDrag
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2289,11 +2289,11 @@ nsnull
 ;
 mUserCancelled
 =
-PR_FALSE
+false
 ;
 mHasImage
 =
-PR_FALSE
+false
 ;
 mImage
 =
@@ -3818,7 +3818,7 @@ NS_ERROR_INVALID_ARG
 *
 _retval
 =
-PR_FALSE
+false
 ;
 PRUint32
 numDragItems
@@ -3867,7 +3867,7 @@ itemIndex
 *
 _retval
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -3889,7 +3889,7 @@ itemIndex
 *
 _retval
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -4074,7 +4074,7 @@ aDataFlavor
 *
 _retval
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -4257,7 +4257,7 @@ nsDependentCString
 (
 pszDest
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 file
@@ -4468,7 +4468,7 @@ nsDependentCString
 (
 pszDest
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 file
@@ -4692,7 +4692,7 @@ nsDependentCString
 (
 pszDest
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 file
@@ -6364,7 +6364,7 @@ mDoingDrag
 {
 SetCanDrop
 (
-PR_FALSE
+false
 )
 ;
 switch
@@ -7005,7 +7005,7 @@ NS_SUCCEEDED
 NS_NewNativeLocalFile
 (
 someText
-PR_TRUE
+true
 getter_AddRefs
 (
 file
@@ -8410,7 +8410,7 @@ rendering
 *
 rendering
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -8544,7 +8544,7 @@ rv
 *
 rendering
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -8657,7 +8657,7 @@ rv
 *
 rendering
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -8735,7 +8735,7 @@ else
 {
 isUrl
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -8750,7 +8750,7 @@ NS_SUCCEEDED
 NS_NewNativeLocalFile
 (
 fileName
-PR_TRUE
+true
 getter_AddRefs
 (
 file
@@ -9561,7 +9561,7 @@ RenderToOS2FileComplete
 (
 pdxfer
 usResult
-PR_TRUE
+true
 getter_Copies
 (
 dropText
@@ -10920,7 +10920,7 @@ return
 content
 content
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -10975,7 +10975,7 @@ nsDependentCString
 (
 gTempFile
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 file

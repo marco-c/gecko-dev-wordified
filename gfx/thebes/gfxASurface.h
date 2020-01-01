@@ -1640,11 +1640,11 @@ mBytesRecorded
 )
 mSurfaceValid
 (
-PR_FALSE
+false
 )
 mAllowUseAsSource
 (
-PR_TRUE
+true
 )
 {
 MOZ_COUNT_CTOR
@@ -1865,7 +1865,7 @@ surf
 Init
 (
 surf
-PR_TRUE
+true
 )
 ;
 }

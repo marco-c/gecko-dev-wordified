@@ -1422,7 +1422,7 @@ statusArg
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

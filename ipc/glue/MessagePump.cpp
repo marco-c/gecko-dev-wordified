@@ -802,7 +802,7 @@ did_work
 NS_ProcessNextEvent
 (
 mThread
-PR_FALSE
+false
 )
 ?
 true
@@ -906,7 +906,7 @@ event
 NS_ProcessNextEvent
 (
 mThread
-PR_TRUE
+true
 )
 ;
 }

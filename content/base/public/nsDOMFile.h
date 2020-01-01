@@ -643,7 +643,7 @@ mContentType
 .
 SetIsVoid
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -691,7 +691,7 @@ mContentType
 .
 SetIsVoid
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -757,7 +757,7 @@ mContentType
 .
 SetIsVoid
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -891,7 +891,7 @@ mContentType
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 mFile
@@ -996,14 +996,14 @@ mContentType
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 mName
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }

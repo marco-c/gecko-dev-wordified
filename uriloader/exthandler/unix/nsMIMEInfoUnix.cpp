@@ -758,7 +758,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 nsRefPtr
 <
@@ -818,7 +818,7 @@ mimeInfo
 *
 _retval
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -864,7 +864,7 @@ action
 *
 _retval
 =
-PR_TRUE
+true
 ;
 hildon_uri_action_unref
 (
@@ -922,7 +922,7 @@ isValid
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1639,7 +1639,7 @@ action
 {
 isEnabled
 =
-PR_TRUE
+true
 ;
 hildon_uri_action_unref
 (
@@ -1936,7 +1936,7 @@ mPossibleApplications
 AppendElement
 (
 app
-PR_FALSE
+false
 )
 ;
 }
@@ -2091,7 +2091,7 @@ mPossibleApplications
 AppendElement
 (
 app
-PR_FALSE
+false
 )
 ;
 }

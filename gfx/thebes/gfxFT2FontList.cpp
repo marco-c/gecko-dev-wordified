@@ -2144,7 +2144,7 @@ blank
 cmap
 mCmapInitialized
 =
-PR_TRUE
+true
 ;
 AutoFallibleTArray
 <
@@ -2571,7 +2571,7 @@ FontNameCache
 :
 mWriteNeeded
 (
-PR_FALSE
+false
 )
 {
 mOps
@@ -3042,7 +3042,7 @@ mapEntry
 >
 mFileExists
 =
-PR_FALSE
+false
 ;
 }
 beginning
@@ -3236,7 +3236,7 @@ entry
 >
 mFileExists
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3334,12 +3334,12 @@ entry
 >
 mFileExists
 =
-PR_TRUE
+true
 ;
 }
 mWriteNeeded
 =
-PR_TRUE
+true
 ;
 }
 private
@@ -4637,7 +4637,7 @@ fe
 >
 mIsBadUnderlineFont
 =
-PR_TRUE
+true
 ;
 }
 AppendToFaceList
@@ -4887,7 +4887,7 @@ family
 >
 SetHasStyles
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -5380,7 +5380,7 @@ fonts
 [
 i
 ]
-PR_FALSE
+false
 )
 ;
 }
@@ -6126,7 +6126,7 @@ fe
 >
 mIsBadUnderlineFont
 =
-PR_TRUE
+true
 ;
 }
 }

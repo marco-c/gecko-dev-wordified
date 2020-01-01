@@ -1192,7 +1192,7 @@ aPrimaryFrame
 *
 IsGeneratedContentFor
 returns
-PR_TRUE
+true
 if
 aFrame
 is
@@ -2721,7 +2721,7 @@ aFrame
 *
 HasPseudoStyle
 returns
-PR_TRUE
+true
 if
 aContent
 (
@@ -2745,7 +2745,7 @@ to
 it
 ;
 returns
-PR_FALSE
+false
 otherwise
 .
 *
@@ -8584,7 +8584,7 @@ to
 check
 *
 return
-PR_TRUE
+true
 unless
 all
 the
@@ -9585,15 +9585,15 @@ values
 here
 mIsWriteOnly
 (
-PR_TRUE
+true
 )
 mIsStillLoading
 (
-PR_FALSE
+false
 )
 mCORSUsed
 (
-PR_FALSE
+false
 )
 {
 }

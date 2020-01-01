@@ -786,7 +786,7 @@ parsed
 The
 method
 returns
-PR_TRUE
+true
 /
 /
 if
@@ -812,7 +812,7 @@ the
 parse
 fails
 then
-PR_FALSE
+false
 is
 returned
 /

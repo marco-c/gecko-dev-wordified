@@ -1421,7 +1421,7 @@ const
 *
 *
 return
-PR_TRUE
+true
 if
 this
 text
@@ -1436,7 +1436,7 @@ It
 *
 should
 return
-PR_FALSE
+false
 if
 this
 is
@@ -3599,7 +3599,7 @@ given
 rect
 this
 returns
-PR_TRUE
+true
 .
 bool
 CombineSelectionUnderlineRect

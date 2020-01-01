@@ -623,7 +623,7 @@ Open
 (
 getString
 aURL
-PR_FALSE
+false
 empty
 empty
 )

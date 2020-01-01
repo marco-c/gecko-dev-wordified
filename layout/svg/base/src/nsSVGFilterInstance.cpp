@@ -3201,7 +3201,7 @@ mImage
 .
 mConstantColorChannels
 =
-PR_TRUE
+true
 ;
 }
 return

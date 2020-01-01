@@ -1016,9 +1016,9 @@ if
 SetSecurityDescriptorDacl
 (
 dirSD
-PR_TRUE
+true
 dirACL
-PR_FALSE
+false
 )
 )
 {
@@ -1064,7 +1064,7 @@ sa
 .
 bInheritHandle
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1132,7 +1132,7 @@ nsEmbedString
 (
 dir1Path
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 tempDirectory1
@@ -1260,7 +1260,7 @@ nsEmbedString
 (
 filePath
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 tempFile
@@ -1374,9 +1374,9 @@ if
 SetSecurityDescriptorDacl
 (
 dirSD
-PR_TRUE
+true
 dirACL
-PR_FALSE
+false
 )
 )
 {
@@ -1463,7 +1463,7 @@ nsEmbedString
 (
 dir2Path
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 tempDirectory2
@@ -1773,7 +1773,7 @@ tempDirectory1
 >
 Remove
 (
-PR_TRUE
+true
 )
 ;
 tempDirectory2
@@ -1781,7 +1781,7 @@ tempDirectory2
 >
 Remove
 (
-PR_TRUE
+true
 )
 ;
 return

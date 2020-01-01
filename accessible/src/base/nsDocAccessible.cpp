@@ -3645,7 +3645,7 @@ if
 mNotificationController
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -3711,7 +3711,7 @@ AddEventListeners
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -5430,7 +5430,7 @@ states
 :
 :
 EDITABLE
-PR_TRUE
+true
 )
 ;
 FireDelayedAccessibleEvent
@@ -7660,7 +7660,7 @@ states
 :
 :
 INVALID
-PR_TRUE
+true
 )
 ;
 FireDelayedAccessibleEvent
@@ -9401,7 +9401,7 @@ states
 :
 :
 BUSY
-PR_TRUE
+true
 )
 ;
 FireDelayedAccessibleEvent
@@ -9763,7 +9763,7 @@ states
 :
 :
 BUSY
-PR_FALSE
+false
 )
 ;
 nsEventShell

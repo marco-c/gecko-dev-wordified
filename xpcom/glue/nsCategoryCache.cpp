@@ -680,7 +680,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 serv
@@ -690,7 +690,7 @@ AddObserver
 (
 this
 NS_XPCOM_CATEGORY_ENTRY_ADDED_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 serv
@@ -700,7 +700,7 @@ AddObserver
 (
 this
 NS_XPCOM_CATEGORY_ENTRY_REMOVED_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 serv
@@ -710,7 +710,7 @@ AddObserver
 (
 this
 NS_XPCOM_CATEGORY_CLEARED_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 }

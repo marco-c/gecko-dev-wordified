@@ -1623,7 +1623,7 @@ states
 :
 CHECKED
 0
-PR_TRUE
+true
 )
 /
 /
@@ -1645,7 +1645,7 @@ states
 :
 CHECKED
 0
-PR_TRUE
+true
 )
 /
 /
@@ -1760,7 +1760,7 @@ states
 :
 :
 SINGLE_LINE
-PR_TRUE
+true
 )
 /
 /
@@ -1867,7 +1867,7 @@ states
 :
 :
 EDITABLE
-PR_TRUE
+true
 )
 /
 /
@@ -1906,7 +1906,7 @@ states
 :
 SELECTED
 0
-PR_TRUE
+true
 )
 }
 ;
@@ -2467,7 +2467,7 @@ nsnull
 )
 mIsToken
 (
-PR_FALSE
+false
 )
 mPermanentState
 (
@@ -2503,7 +2503,7 @@ mDefaultState
 )
 mDefinedIfAbsent
 (
-PR_FALSE
+false
 )
 {
 }
@@ -2534,7 +2534,7 @@ aAttrName
 )
 mIsToken
 (
-PR_TRUE
+true
 )
 mPermanentState
 (
@@ -2633,7 +2633,7 @@ aAttrName
 )
 mIsToken
 (
-PR_FALSE
+false
 )
 mPermanentState
 (
@@ -2669,7 +2669,7 @@ mDefaultState
 )
 mDefinedIfAbsent
 (
-PR_FALSE
+false
 )
 {
 }
@@ -2710,7 +2710,7 @@ aAttrName
 )
 mIsToken
 (
-PR_TRUE
+true
 )
 mPermanentState
 (
@@ -2746,7 +2746,7 @@ mDefaultState
 )
 mDefinedIfAbsent
 (
-PR_TRUE
+true
 )
 {
 if
@@ -2794,7 +2794,7 @@ aStateMapEntryID
 eARIANone
 )
 return
-PR_FALSE
+false
 ;
 const
 nsStateMapEntry
@@ -2899,7 +2899,7 @@ entry
 mState1
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -3069,7 +3069,7 @@ entry
 mPermanentState
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -3107,7 +3107,7 @@ attrValue
 )
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -3155,7 +3155,7 @@ mValue1
 {
 applyDefaultStates
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3194,7 +3194,7 @@ mValue2
 {
 applyDefaultStates
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3233,7 +3233,7 @@ mValue3
 {
 applyDefaultStates
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3274,6 +3274,6 @@ mDefaultState
 ;
 }
 return
-PR_TRUE
+true
 ;
 }

@@ -758,7 +758,7 @@ nsContentUtils
 GetNodeTextContent
 (
 this
-PR_FALSE
+false
 aInnerHTML
 )
 ;

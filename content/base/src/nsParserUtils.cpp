@@ -668,7 +668,7 @@ SKIP_WHITESPACE
 (
 start
 end
-PR_FALSE
+false
 )
 iter
 =
@@ -688,7 +688,7 @@ iter
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -733,7 +733,7 @@ SKIP_WHITESPACE
 (
 start
 end
-PR_FALSE
+false
 )
 if
 (
@@ -784,7 +784,7 @@ handle
 it
 .
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -803,7 +803,7 @@ SKIP_WHITESPACE
 (
 start
 end
-PR_FALSE
+false
 )
 PRUnichar
 q
@@ -836,7 +836,7 @@ so
 bail
 .
 return
-PR_FALSE
+false
 ;
 }
 +
@@ -894,7 +894,7 @@ quoted
 string
 .
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -947,7 +947,7 @@ GetParserService
 NS_ENSURE_TRUE
 (
 parserService
-PR_FALSE
+false
 )
 ;
 /
@@ -1023,7 +1023,7 @@ Truncate
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1100,7 +1100,7 @@ Truncate
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 aValue
@@ -1155,7 +1155,7 @@ start
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1186,13 +1186,13 @@ iter
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
 /
 Returns
-PR_TRUE
+true
 if
 the
 language
@@ -1205,7 +1205,7 @@ JavaScript
 and
 /
 /
-PR_FALSE
+false
 otherwise
 bool
 nsParserUtils
@@ -1452,7 +1452,7 @@ version
 JSVERSION_UNKNOWN
 )
 return
-PR_FALSE
+false
 ;
 *
 aFlags
@@ -1460,7 +1460,7 @@ aFlags
 version
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

@@ -1897,7 +1897,7 @@ aNode
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -2224,7 +2224,7 @@ aNode
 NS_ENSURE_TRUE
 (
 contextDoc
-PR_FALSE
+false
 )
 ;
 nsRefPtr
@@ -2245,7 +2245,7 @@ mName
 *
 contextDoc
 mValue
-PR_TRUE
+true
 getter_AddRefs
 (
 nodes
@@ -2255,7 +2255,7 @@ nodes
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 return
@@ -2880,7 +2880,7 @@ exprResult
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 switch
@@ -3088,7 +3088,7 @@ exprResult
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 if

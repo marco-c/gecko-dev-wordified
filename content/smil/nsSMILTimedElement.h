@@ -1072,7 +1072,7 @@ time
 *
 param
 aIsBegin
-PR_TRUE
+true
 if
 the
 time
@@ -1085,7 +1085,7 @@ begin
 *
 time
 or
-PR_FALSE
+false
 if
 it
 represents
@@ -1167,7 +1167,7 @@ based
 *
 param
 aIsBegin
-PR_TRUE
+true
 if
 the
 time
@@ -1181,7 +1181,7 @@ begin
 instance
 time
 or
-PR_FALSE
+false
 if
 it
 represents
@@ -1250,7 +1250,7 @@ remove
 *
 param
 aIsBegin
-PR_TRUE
+true
 if
 the
 time
@@ -1263,7 +1263,7 @@ begin
 *
 time
 or
-PR_FALSE
+false
 if
 it
 represents
@@ -1338,7 +1338,7 @@ removed
 *
 param
 aIsBegin
-PR_TRUE
+true
 if
 the
 times
@@ -1350,7 +1350,7 @@ begin
 *
 times
 or
-PR_FALSE
+false
 if
 they
 are
@@ -1902,7 +1902,7 @@ successful
 *
 *
 return
-PR_TRUE
+true
 if
 the
 given
@@ -1911,7 +1911,7 @@ is
 a
 timing
 attribute
-PR_FALSE
+false
 *
 otherwise
 .
@@ -1987,7 +1987,7 @@ SetAttr
 *
 *
 return
-PR_TRUE
+true
 if
 the
 given
@@ -1996,7 +1996,7 @@ is
 a
 timing
 attribute
-PR_FALSE
+false
 *
 otherwise
 .
@@ -2225,7 +2225,7 @@ element
 .
 *
 return
-PR_TRUE
+true
 if
 this
 timed
@@ -2247,7 +2247,7 @@ indirectly
 derived
 from
 aOther
-PR_FALSE
+false
 *
 otherwise
 .
@@ -2865,7 +2865,7 @@ ending
 .
 *
 return
-PR_TRUE
+true
 if
 the
 end
@@ -2877,7 +2877,7 @@ interval
 was
 updated
 *
-PR_FALSE
+false
 otherwise
 .
 *
@@ -3277,7 +3277,7 @@ found
 in
 which
 case
-PR_FALSE
+false
 will
 be
 *
@@ -3286,14 +3286,14 @@ returned
 .
 *
 return
-PR_TRUE
+true
 if
 a
 suitable
 interval
 was
 found
-PR_FALSE
+false
 otherwise
 .
 *

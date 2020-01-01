@@ -857,7 +857,7 @@ removed
 If
 aKeepNext
 is
-PR_TRUE
+true
 aIndex
 is
 compared

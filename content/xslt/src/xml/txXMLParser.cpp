@@ -636,7 +636,7 @@ NodePrincipal
 (
 )
 loadGroup
-PR_TRUE
+true
 &
 theDocument
 )

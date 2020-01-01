@@ -1114,13 +1114,13 @@ NS_ASSERTION
 aSVGMode
 =
 =
-PR_TRUE
+true
 |
 |
 aSVGMode
 =
 =
-PR_FALSE
+false
 "
 bad
 bool
@@ -1318,7 +1318,7 @@ next
 token
 .
 Return
-PR_FALSE
+false
 on
 EOF
 .

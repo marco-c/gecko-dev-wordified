@@ -1784,7 +1784,7 @@ aVisitor
 .
 mCanHandle
 =
-PR_TRUE
+true
 ;
 aVisitor
 .

@@ -1543,7 +1543,7 @@ aFontStyle
 >
 systemFont
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1594,7 +1594,7 @@ spcBold
 get
 (
 )
-PR_FALSE
+false
 0
 -
 1
@@ -1717,7 +1717,7 @@ spcItalic
 get
 (
 )
-PR_FALSE
+false
 0
 -
 1
@@ -1763,7 +1763,7 @@ spcOblique
 get
 (
 )
-PR_FALSE
+false
 0
 -
 1
@@ -1838,7 +1838,7 @@ spcObli
 get
 (
 )
-PR_FALSE
+false
 0
 -
 1
@@ -1996,7 +1996,7 @@ Find
 "
 .
 "
-PR_FALSE
+false
 0
 -
 1

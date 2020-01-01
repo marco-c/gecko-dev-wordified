@@ -830,7 +830,7 @@ value
 .
 non_blocking
 =
-PR_FALSE
+false
 ;
 status
 =

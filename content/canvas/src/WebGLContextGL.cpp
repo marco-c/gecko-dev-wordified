@@ -1640,7 +1640,7 @@ buf
 >
 SetHasEverBeenBound
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1847,7 +1847,7 @@ wfb
 >
 SetHasEverBeenBound
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1959,7 +1959,7 @@ wrb
 >
 SetHasEverBeenBound
 (
-PR_TRUE
+true
 )
 ;
 MakeContextCurrent
@@ -4002,7 +4002,7 @@ ClearedToDefaultValues
 {
 needClearCallHere
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -7003,7 +7003,7 @@ index
 .
 enabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -7811,7 +7811,7 @@ mFakeBlackStatus
 DoNotNeedFakeBlack
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -8112,7 +8112,7 @@ LOCAL_GL_TEXTURE_CUBE_MAP
 ;
 mBlackTexturesAreInitialized
 =
-PR_TRUE
+true
 ;
 }
 for
@@ -9447,7 +9447,7 @@ index
 .
 enabled
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -13501,7 +13501,7 @@ default
 :
 pnameAndParamAreIncompatible
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -13534,7 +13534,7 @@ default
 :
 pnameAndParamAreIncompatible
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -13570,7 +13570,7 @@ default
 :
 pnameAndParamAreIncompatible
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -13606,7 +13606,7 @@ default
 :
 pnameAndParamAreIncompatible
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -14809,9 +14809,9 @@ iv
 0
 ]
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 )
 ;
 }
@@ -14852,9 +14852,9 @@ iv
 k
 ]
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 wrval
 -
@@ -16042,7 +16042,7 @@ program
 >
 SetLinkStatus
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -16085,7 +16085,7 @@ program
 >
 SetLinkStatus
 (
-PR_TRUE
+true
 )
 ;
 program
@@ -16104,7 +16104,7 @@ program
 >
 SetLinkStatus
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -18287,7 +18287,7 @@ mBoundRenderbuffer
 >
 SetInitialized
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -19673,7 +19673,7 @@ default
 \
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Coding
 error
@@ -19762,7 +19762,7 @@ Unmultiply
 \
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Floating
 point
@@ -19883,7 +19883,7 @@ default
 \
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Coding
 error
@@ -20023,7 +20023,7 @@ default
 :
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Coding
 error
@@ -20741,7 +20741,7 @@ default
 :
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Unsupported
 image
@@ -25497,7 +25497,7 @@ WebGLTexelFormat
 :
 :
 Auto
-PR_FALSE
+false
 )
 ;
 }
@@ -25567,7 +25567,7 @@ WebGLTexelFormat
 :
 :
 Auto
-PR_FALSE
+false
 )
 ;
 }
@@ -25634,7 +25634,7 @@ WebGLTexelFormat
 :
 :
 RGBA8
-PR_FALSE
+false
 )
 ;
 }
@@ -26593,7 +26593,7 @@ WebGLTexelFormat
 :
 :
 Auto
-PR_FALSE
+false
 )
 ;
 }
@@ -26672,7 +26672,7 @@ WebGLTexelFormat
 :
 :
 Auto
-PR_FALSE
+false
 )
 ;
 }
@@ -26751,7 +26751,7 @@ WebGLTexelFormat
 :
 :
 RGBA8
-PR_FALSE
+false
 )
 ;
 }
@@ -26865,7 +26865,7 @@ byteLength
 -
 1
 srcFormat
-PR_TRUE
+true
 )
 ;
 }
@@ -26968,7 +26968,7 @@ break
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 switch
@@ -27079,11 +27079,11 @@ break
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 int
@@ -27160,7 +27160,7 @@ default
 :
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Coding
 mistake
@@ -27249,7 +27249,7 @@ default
 :
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Coding
 mistake
@@ -27310,7 +27310,7 @@ default
 :
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Coding
 mistake
@@ -27461,7 +27461,7 @@ break
 }
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Coding
 mistake

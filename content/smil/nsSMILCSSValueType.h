@@ -842,7 +842,7 @@ out
 aIsContextSensitive
 Set
 to
-PR_TRUE
+true
 if
 |
 aString
@@ -879,7 +879,7 @@ inherit
 )
 .
 *
-PR_FALSE
+false
 otherwise
 .
 May
@@ -1039,10 +1039,10 @@ value
 .
 *
 return
-PR_TRUE
+true
 on
 success
-PR_FALSE
+false
 on
 failure
 .

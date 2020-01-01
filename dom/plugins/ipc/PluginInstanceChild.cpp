@@ -1119,7 +1119,7 @@ MOZ_PLATFORM_MAEMO
 )
 mMaemoImageRendering
 (
-PR_TRUE
+true
 )
 #
 endif
@@ -8015,7 +8015,7 @@ kOldWndProcProp
 )
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -8023,7 +8023,7 @@ prevent
 the
 subclass
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -12742,7 +12742,7 @@ return
 }
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Couldn
 '
@@ -14303,7 +14303,7 @@ NPImageExpose
 Maemo5
 NPAPI
 return
-PR_TRUE
+true
 ;
 }
 #

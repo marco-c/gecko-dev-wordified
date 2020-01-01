@@ -593,7 +593,7 @@ mUpdateDepth
 )
 mUnhookPending
 (
-PR_FALSE
+false
 )
 {
 }
@@ -640,7 +640,7 @@ aDidPrettyPrint
 *
 aDidPrettyPrint
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -876,7 +876,7 @@ it
 *
 aDidPrettyPrint
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -944,7 +944,7 @@ LoadDocument
 xslUri
 nsnull
 nsnull
-PR_TRUE
+true
 getter_AddRefs
 (
 xslDocument
@@ -1425,7 +1425,7 @@ us
 synchronously
 mUnhookPending
 =
-PR_TRUE
+true
 ;
 nsContentUtils
 :

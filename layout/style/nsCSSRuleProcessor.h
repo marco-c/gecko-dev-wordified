@@ -752,7 +752,7 @@ null
 in
 this
 case
-PR_FALSE
+false
 will
 be
 returned

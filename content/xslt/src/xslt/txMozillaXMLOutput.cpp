@@ -731,19 +731,19 @@ NORMAL
 )
 mCreatingNewDocument
 (
-PR_TRUE
+true
 )
 mOpenedElementIsHTML
 (
-PR_FALSE
+false
 )
 mRootContentCreated
 (
-PR_FALSE
+false
 )
 mNoFixup
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -822,15 +822,15 @@ NORMAL
 )
 mCreatingNewDocument
 (
-PR_FALSE
+false
 )
 mOpenedElementIsHTML
 (
-PR_FALSE
+false
 )
 mRootContentCreated
 (
-PR_FALSE
+false
 )
 mNoFixup
 (
@@ -1210,7 +1210,7 @@ aNsID
 aLocalName
 aPrefix
 aValue
-PR_FALSE
+false
 )
 ;
 }
@@ -1233,7 +1233,7 @@ rv
 =
 closePrevious
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1277,7 +1277,7 @@ rv
 =
 closePrevious
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1328,7 +1328,7 @@ comment
 SetText
 (
 aData
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1344,7 +1344,7 @@ mCurrentNode
 AppendChildTo
 (
 comment
-PR_TRUE
+true
 )
 ;
 }
@@ -1391,7 +1391,7 @@ rv
 =
 closePrevious
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -1469,7 +1469,7 @@ loader
 >
 ParsingComplete
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1608,7 +1608,7 @@ rv
 =
 closePrevious
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1831,7 +1831,7 @@ element
 >
 DoneAddingChildren
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -1980,7 +1980,7 @@ ssle
 >
 SetEnableUpdates
 (
-PR_TRUE
+true
 )
 ;
 bool
@@ -2147,7 +2147,7 @@ content
 ;
 mRootContentCreated
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -2188,7 +2188,7 @@ parent
 AppendChildTo
 (
 mNonAddedNode
-PR_TRUE
+true
 )
 ;
 }
@@ -2262,7 +2262,7 @@ rv
 =
 closePrevious
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2293,7 +2293,7 @@ nsContentUtils
 CheckQName
 (
 aTarget
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2355,7 +2355,7 @@ ssle
 >
 InitStyleLinkElement
 (
-PR_FALSE
+false
 )
 ;
 ssle
@@ -2363,7 +2363,7 @@ ssle
 >
 SetEnableUpdates
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2376,7 +2376,7 @@ mCurrentNode
 AppendChildTo
 (
 pi
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2395,7 +2395,7 @@ ssle
 >
 SetEnableUpdates
 (
-PR_TRUE
+true
 )
 ;
 bool
@@ -2821,7 +2821,7 @@ rv
 =
 closePrevious
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2949,7 +2949,7 @@ NORMAL
 ;
 mOpenedElementIsHTML
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3086,7 +3086,7 @@ ssle
 >
 InitStyleLinkElement
 (
-PR_FALSE
+false
 )
 ;
 ssle
@@ -3094,7 +3094,7 @@ ssle
 >
 SetEnableUpdates
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -3194,7 +3194,7 @@ mCurrentNode
 AppendChildTo
 (
 mOpenedElement
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3210,7 +3210,7 @@ currentIsDoc
 {
 mRootContentCreated
 =
-PR_TRUE
+true
 ;
 nsContentSink
 :
@@ -3330,7 +3330,7 @@ text
 SetText
 (
 mText
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3347,7 +3347,7 @@ mCurrentNode
 AppendChildTo
 (
 text
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3447,7 +3447,7 @@ nsGkAtoms
 :
 transformiix
 namespaceID
-PR_FALSE
+false
 getter_AddRefs
 (
 wrapper
@@ -3633,7 +3633,7 @@ mDocument
 RemoveChildAt
 (
 j
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3650,7 +3650,7 @@ wrapper
 AppendChildTo
 (
 childContent
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3684,7 +3684,7 @@ wrapper
 ;
 mRootContentCreated
 =
-PR_TRUE
+true
 ;
 NS_ASSERTION
 (
@@ -3711,7 +3711,7 @@ mDocument
 AppendChildTo
 (
 wrapper
-PR_TRUE
+true
 )
 ;
 }
@@ -3905,7 +3905,7 @@ mCurrentNode
 AppendChildTo
 (
 tbody
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4057,7 +4057,7 @@ Content
 Type
 "
 )
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4111,7 +4111,7 @@ nsGkAtoms
 :
 content
 metacontent
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4160,7 +4160,7 @@ aElement
 AppendChildTo
 (
 meta
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4987,7 +4987,7 @@ loader
 >
 SetEnabled
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -5185,7 +5185,7 @@ voidString
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 rv
@@ -5232,7 +5232,7 @@ mDocument
 AppendChildTo
 (
 docType
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5341,7 +5341,7 @@ mPendingStylesheetCount
 )
 mInTransform
 (
-PR_FALSE
+false
 )
 {
 }
@@ -5598,7 +5598,7 @@ aResult
 {
 mInTransform
 =
-PR_FALSE
+false
 ;
 SignalTransformEnd
 (
@@ -5616,7 +5616,7 @@ OnTransformStart
 {
 mInTransform
 =
-PR_TRUE
+true
 ;
 }
 nsresult

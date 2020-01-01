@@ -1252,7 +1252,7 @@ mLength
 )
 mIsDirty
 (
-PR_TRUE
+true
 )
 {
 }
@@ -1273,7 +1273,7 @@ nsnull
 )
 mIsDirty
 (
-PR_TRUE
+true
 )
 {
 Rebind
@@ -1477,7 +1477,7 @@ aEnd
 ;
 mIsDirty
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -1509,7 +1509,7 @@ aString
 ;
 mIsDirty
 =
-PR_TRUE
+true
 ;
 init_range_from_buffer_list
 (
@@ -1640,7 +1640,7 @@ mutable_this
 >
 mIsDirty
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -1891,7 +1891,7 @@ mEnd
 mBuffer
 )
 return
-PR_FALSE
+false
 ;
 frag
 .
@@ -1979,7 +1979,7 @@ DataEnd
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -2021,7 +2021,7 @@ mStart
 mBuffer
 )
 return
-PR_FALSE
+false
 ;
 frag
 .
@@ -2109,7 +2109,7 @@ DataEnd
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2194,7 +2194,7 @@ DataEnd
 ;
 mIsDirty
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -2261,7 +2261,7 @@ mBuffer
 ;
 mIsDirty
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -2514,7 +2514,7 @@ DataEnd
 ;
 mIsDirty
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -2587,7 +2587,7 @@ aChar
 ;
 mIsDirty
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -3351,7 +3351,7 @@ get
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 aSearchStart
@@ -3363,7 +3363,7 @@ fragmentLength
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -3671,7 +3671,7 @@ aPatternEnd
 {
 found_it
 =
-PR_TRUE
+true
 ;
 aSearchEnd
 =
@@ -3914,7 +3914,7 @@ aComparator
 {
 found_it
 =
-PR_TRUE
+true
 ;
 /
 /

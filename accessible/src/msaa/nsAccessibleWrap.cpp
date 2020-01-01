@@ -5161,7 +5161,7 @@ xpAccessible
 >
 SetSelected
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -5175,7 +5175,7 @@ xpAccessible
 >
 SetSelected
 (
-PR_FALSE
+false
 )
 ;
 if

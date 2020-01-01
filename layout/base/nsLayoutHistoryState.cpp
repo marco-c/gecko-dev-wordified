@@ -648,7 +648,7 @@ Init
 {
 mScrollPositionOnly
 =
-PR_FALSE
+false
 ;
 return
 mStates

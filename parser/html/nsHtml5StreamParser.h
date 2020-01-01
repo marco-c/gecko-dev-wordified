@@ -1098,7 +1098,7 @@ mTerminatedMutex
 ;
 mTerminated
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -1210,7 +1210,7 @@ mTerminatedMutex
 ;
 mInterrupted
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -1258,7 +1258,7 @@ stronger
 .
 mInterrupted
 =
-PR_FALSE
+false
 ;
 }
 /

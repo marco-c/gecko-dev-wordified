@@ -1145,7 +1145,7 @@ performed
 within
 *
 return
-PR_TRUE
+true
 if
 aPossibleAncestorNode
 is
@@ -1867,7 +1867,7 @@ ID
 string
 *
 return
-PR_TRUE
+true
 if
 there
 is
@@ -1956,7 +1956,7 @@ given
 element
 *
 return
-PR_TRUE
+true
 if
 the
 given

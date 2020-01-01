@@ -487,7 +487,7 @@ aContext
 )
 mInUse
 (
-PR_FALSE
+false
 )
 {
 }
@@ -718,7 +718,7 @@ mFrame
 >
 mInUse
 =
-PR_TRUE
+true
 ;
 }
 ~
@@ -731,7 +731,7 @@ mFrame
 >
 mInUse
 =
-PR_FALSE
+false
 ;
 }
 private

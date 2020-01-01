@@ -1918,7 +1918,7 @@ maiHyperlink
 =
 GetMaiHyperlink
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -5435,7 +5435,7 @@ states
 :
 :
 FOCUSED
-PR_TRUE
+true
 )
 ;
 return
@@ -6278,7 +6278,7 @@ FireAtkShowHideEvent
 (
 aEvent
 atkObj
-PR_TRUE
+true
 )
 ;
 case
@@ -6292,7 +6292,7 @@ FireAtkShowHideEvent
 (
 aEvent
 atkObj
-PR_FALSE
+false
 )
 ;
 /
@@ -6423,7 +6423,7 @@ rootAcc
 >
 mActivated
 =
-PR_TRUE
+true
 ;
 guint
 id
@@ -6507,7 +6507,7 @@ rootAcc
 >
 mActivated
 =
-PR_FALSE
+false
 ;
 guint
 id
@@ -6801,14 +6801,14 @@ atk_object_notify_state_change
 (
 atkObj
 ATK_STATE_VISIBLE
-PR_TRUE
+true
 )
 ;
 atk_object_notify_state_change
 (
 atkObj
 ATK_STATE_SHOWING
-PR_TRUE
+true
 )
 ;
 break
@@ -6839,14 +6839,14 @@ atk_object_notify_state_change
 (
 atkObj
 ATK_STATE_VISIBLE
-PR_FALSE
+false
 )
 ;
 atk_object_notify_state_change
 (
 atkObj
 ATK_STATE_SHOWING
-PR_FALSE
+false
 )
 ;
 break

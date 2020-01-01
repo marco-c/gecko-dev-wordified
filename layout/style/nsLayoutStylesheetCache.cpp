@@ -713,7 +713,7 @@ gStyleCache
 -
 >
 mScrollbarsSheet
-PR_FALSE
+false
 )
 ;
 NS_ASSERTION
@@ -822,7 +822,7 @@ gStyleCache
 -
 >
 mFormsSheet
-PR_TRUE
+true
 )
 ;
 NS_ASSERTION
@@ -1034,7 +1034,7 @@ before
 -
 change
 "
-PR_FALSE
+false
 )
 ;
 obsSvc
@@ -1050,7 +1050,7 @@ do
 -
 change
 "
-PR_FALSE
+false
 )
 ;
 obsSvc
@@ -1068,7 +1068,7 @@ skin
 -
 caches
 "
-PR_FALSE
+false
 )
 ;
 obsSvc
@@ -1084,7 +1084,7 @@ flush
 -
 caches
 "
-PR_FALSE
+false
 )
 ;
 }
@@ -1158,7 +1158,7 @@ LoadSheet
 (
 uri
 mUASheet
-PR_TRUE
+true
 )
 ;
 }
@@ -1205,7 +1205,7 @@ LoadSheet
 (
 uri
 mQuirkSheet
-PR_TRUE
+true
 )
 ;
 }
@@ -1478,7 +1478,7 @@ LoadSheet
 (
 uri
 aSheet
-PR_FALSE
+false
 )
 ;
 }
@@ -1560,7 +1560,7 @@ LoadSheetSync
 (
 aURI
 aEnableUnsafeRules
-PR_TRUE
+true
 getter_AddRefs
 (
 aSheet

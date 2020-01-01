@@ -881,7 +881,7 @@ Resample
 {
 DoSample
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -898,7 +898,7 @@ mRunningSample
 {
 mResampleNeeded
 =
-PR_TRUE
+true
 ;
 }
 }

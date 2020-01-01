@@ -2162,7 +2162,7 @@ aElement
 )
 )
 return
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -2186,7 +2186,7 @@ aElement
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2345,7 +2345,7 @@ hate
 hate
 !
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2395,7 +2395,7 @@ start
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2446,7 +2446,7 @@ aElement
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -2702,7 +2702,7 @@ FireChangeCallbacks
 (
 oldElement
 newElement
-PR_TRUE
+true
 )
 ;
 }
@@ -3475,7 +3475,7 @@ _retval
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3691,7 +3691,7 @@ nsExternalResourceMap
 :
 mHaveShutDown
 (
-PR_FALSE
+false
 )
 {
 mMap
@@ -4066,7 +4066,7 @@ args
 data
 )
 :
-PR_TRUE
+true
 ;
 return
 next
@@ -4573,7 +4573,7 @@ aToDoc
 >
 OnPageShow
 (
-PR_TRUE
+true
 nsnull
 )
 ;
@@ -4757,7 +4757,7 @@ aViewer
 >
 SetSticky
 (
-PR_FALSE
+false
 )
 ;
 rv
@@ -5873,7 +5873,7 @@ requestingPrincipal
 CheckMayLoad
 (
 aURI
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7374,7 +7374,7 @@ voidString
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -7475,7 +7475,7 @@ parserService
 CheckQName
 (
 qName
-PR_TRUE
+true
 &
 colon
 )
@@ -8248,11 +8248,11 @@ nsIDocument
 )
 mAnimatingImages
 (
-PR_TRUE
+true
 )
 mIsFullScreen
 (
-PR_FALSE
+false
 )
 mVisibilityState
 (
@@ -8432,11 +8432,11 @@ document
 ;
 mInDestructor
 =
-PR_TRUE
+true
 ;
 mInUnlinkOrDeletion
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -8919,7 +8919,7 @@ table
 .
 SetImageLockingState
 (
-PR_FALSE
+false
 )
 ;
 mImageTracker
@@ -10057,7 +10057,7 @@ tmp
 >
 mInUnlinkOrDeletion
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -10393,7 +10393,7 @@ tmp
 >
 mInUnlinkOrDeletion
 =
-PR_FALSE
+false
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 nsresult
@@ -11222,7 +11222,7 @@ mInUnlinkOrDeletion
 ;
 mInUnlinkOrDeletion
 =
-PR_TRUE
+true
 ;
 PRUint32
 count
@@ -11243,7 +11243,7 @@ MOZ_AUTO_DOC_UPDATE
 (
 this
 UPDATE_CONTENT_MODEL
-PR_TRUE
+true
 )
 ;
 for
@@ -11681,7 +11681,7 @@ upd
 (
 this
 UPDATE_STYLE
-PR_TRUE
+true
 )
 ;
 /
@@ -12561,7 +12561,7 @@ aCommand
 {
 mLoadedAsData
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -12623,7 +12623,7 @@ ScriptLoader
 >
 SetEnabled
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -12636,7 +12636,7 @@ CSSLoader
 >
 SetEnabled
 (
-PR_FALSE
+false
 )
 ;
 /
@@ -12686,17 +12686,17 @@ ScriptLoader
 >
 SetEnabled
 (
-PR_FALSE
+false
 )
 ;
 }
 mMayStartLayout
 =
-PR_FALSE
+false
 ;
 mHaveInputEncoding
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -14136,7 +14136,7 @@ isHTTPS
 {
 mAllowDNSPrefetch
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -14314,7 +14314,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 nsIFocusManager
 *
@@ -14445,7 +14445,7 @@ ancestor
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -14532,7 +14532,7 @@ nsFocusManager
 GetFocusedDescendant
 (
 window
-PR_FALSE
+false
 getter_AddRefs
 (
 focusedWindow
@@ -14757,8 +14757,8 @@ ElementFromPointHelper
 (
 aX
 aY
-PR_FALSE
-PR_TRUE
+false
+true
 aReturn
 )
 ;
@@ -14968,7 +14968,7 @@ GetFrameForPoint
 (
 rootFrame
 pt
-PR_TRUE
+true
 aIgnoreRootScrollFrame
 )
 ;
@@ -15447,7 +15447,7 @@ GetFramesForArea
 rootFrame
 rect
 outFrames
-PR_TRUE
+true
 aIgnoreRootScrollFrame
 )
 ;
@@ -16408,7 +16408,7 @@ data
 }
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -16704,7 +16704,7 @@ strings
 EnableStyleSheetsForSetInternal
 (
 aData
-PR_TRUE
+true
 )
 ;
 }
@@ -16920,7 +16920,7 @@ aCharsetSource
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -16998,14 +16998,14 @@ aCharsetSource
 kCharsetFromChannel
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -17571,7 +17571,7 @@ mSubDocument
 nsnull
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -18684,7 +18684,7 @@ StyleSheetAdded
 (
 this
 aSheet
-PR_TRUE
+true
 )
 )
 ;
@@ -18825,7 +18825,7 @@ StyleSheetRemoved
 (
 this
 aSheet
-PR_TRUE
+true
 )
 )
 ;
@@ -19060,7 +19060,7 @@ StyleSheetAdded
 (
 this
 newSheet
-PR_TRUE
+true
 )
 )
 ;
@@ -19132,7 +19132,7 @@ StyleSheetAdded
 (
 this
 aSheet
-PR_TRUE
+true
 )
 )
 ;
@@ -19417,7 +19417,7 @@ StyleSheetAdded
 (
 this
 aSheet
-PR_FALSE
+false
 )
 )
 ;
@@ -19569,8 +19569,8 @@ cssLoader
 LoadSheetSync
 (
 uri
-PR_TRUE
-PR_TRUE
+true
+true
 getter_AddRefs
 (
 sheet
@@ -20051,7 +20051,7 @@ nsnull
 ;
 mHasHadScriptHandlingObject
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -20655,7 +20655,7 @@ aScriptObject
 {
 mHasHadScriptHandlingObject
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -20803,7 +20803,7 @@ mAllowXULXBL
 eTriTrue
 ;
 return
-PR_TRUE
+true
 ;
 }
 mAllowXULXBL
@@ -20811,7 +20811,7 @@ mAllowXULXBL
 eTriFalse
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -21055,7 +21055,7 @@ IsSafeToRunScript
 {
 mInXBLUpdate
 =
-PR_FALSE
+false
 ;
 BindingManager
 (
@@ -21117,7 +21117,7 @@ mInXBLUpdate
 {
 mInXBLUpdate
 =
-PR_TRUE
+true
 ;
 BindingManager
 (
@@ -21831,8 +21831,8 @@ NS_LITERAL_STRING
 DOMContentLoaded
 "
 )
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 if
@@ -22052,8 +22052,8 @@ NS_LITERAL_STRING
 DOMFrameContentLoaded
 "
 )
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 privateEvent
@@ -22069,7 +22069,7 @@ privateEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -22277,14 +22277,14 @@ NS_LITERAL_STRING
 MozApplicationManifest
 "
 )
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 }
 UnblockOnload
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -22916,12 +22916,12 @@ c
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -22954,7 +22954,7 @@ nsContentUtils
 CheckQName
 (
 aTagName
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -23011,7 +23011,7 @@ kNameSpaceID_XHTML
 GetDefaultNamespaceID
 (
 )
-PR_TRUE
+true
 aReturn
 )
 ;
@@ -23263,7 +23263,7 @@ aReturn
 SetText
 (
 aData
-PR_FALSE
+false
 )
 ;
 }
@@ -23409,7 +23409,7 @@ comment
 SetText
 (
 aData
-PR_FALSE
+false
 )
 ;
 rv
@@ -23528,7 +23528,7 @@ content
 SetText
 (
 aData
-PR_FALSE
+false
 )
 ;
 rv
@@ -23578,7 +23578,7 @@ nsContentUtils
 CheckQName
 (
 aTarget
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -23686,7 +23686,7 @@ nsContentUtils
 CheckQName
 (
 aName
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -23746,7 +23746,7 @@ forget
 (
 )
 value
-PR_FALSE
+false
 )
 ;
 attribute
@@ -23847,7 +23847,7 @@ forget
 (
 )
 value
-PR_TRUE
+true
 )
 ;
 attribute
@@ -24463,7 +24463,7 @@ aSheetSet
 EnableStyleSheetsForSetInternal
 (
 aSheetSet
-PR_TRUE
+true
 )
 ;
 return
@@ -24657,7 +24657,7 @@ those
 EnableStyleSheetsForSetInternal
 (
 aSheetSet
-PR_FALSE
+false
 )
 ;
 }
@@ -25008,7 +25008,7 @@ nsIDOMUserDataHandler
 :
 :
 NODE_IMPORTED
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -26559,7 +26559,7 @@ nsContentUtils
 GetNodeTextContent
 (
 title
-PR_FALSE
+false
 aTitle
 )
 ;
@@ -26763,7 +26763,7 @@ nsGkAtoms
 :
 title
 aTitle
-PR_TRUE
+true
 )
 ;
 #
@@ -26795,7 +26795,7 @@ updateBatch
 (
 this
 UPDATE_CONTENT_MODEL
-PR_TRUE
+true
 )
 ;
 nsIContent
@@ -26889,7 +26889,7 @@ head
 AppendChildTo
 (
 title
-PR_TRUE
+true
 )
 ;
 }
@@ -26901,7 +26901,7 @@ SetNodeTextContent
 (
 title
 aTitle
-PR_FALSE
+false
 )
 ;
 }
@@ -26922,7 +26922,7 @@ aBoundTitleElement
 {
 mMayHaveTitleElement
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -26994,7 +26994,7 @@ Forget
 ;
 mHaveFiredTitleChange
 =
-PR_TRUE
+true
 ;
 nsAutoString
 title
@@ -27104,8 +27104,8 @@ NS_LITERAL_STRING
 DOMTitleChanged
 "
 )
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 }
@@ -27179,7 +27179,7 @@ IsXUL
 {
 mHasWarnedAboutBoxObjects
 =
-PR_TRUE
+true
 ;
 nsContentUtils
 :
@@ -28286,13 +28286,13 @@ aShell
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsIDocument
@@ -28899,7 +28899,7 @@ context
 SetBidi
 (
 options
-PR_TRUE
+true
 )
 ;
 }
@@ -29171,7 +29171,7 @@ aHasAttributes
 *
 aHasAttributes
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -29365,7 +29365,7 @@ aReturn
 return
 ReplaceOrInsertBefore
 (
-PR_FALSE
+false
 aNewChild
 aRefChild
 aReturn
@@ -29393,7 +29393,7 @@ aReturn
 return
 ReplaceOrInsertBefore
 (
-PR_TRUE
+true
 aNewChild
 aOldChild
 aReturn
@@ -30137,7 +30137,7 @@ NodeInfo
 NameAtom
 (
 )
-PR_FALSE
+false
 )
 ;
 /
@@ -30216,7 +30216,7 @@ aNode
 RemoveChildAt
 (
 0
-PR_FALSE
+false
 )
 ;
 /
@@ -30293,7 +30293,7 @@ nsIDOMUserDataHandler
 :
 :
 NODE_ADOPTED
-PR_FALSE
+false
 )
 ;
 return
@@ -30753,7 +30753,7 @@ IndexOf
 (
 adoptedNode
 )
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -31310,7 +31310,7 @@ aVisitor
 .
 mCanHandle
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -31338,7 +31338,7 @@ aVisitor
 .
 mForceContentDispatch
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -31876,7 +31876,7 @@ type
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -32191,7 +32191,7 @@ NS_SCRIPTSECURITYMANAGER_CONTRACTID
 NS_ENSURE_TRUE
 (
 sm
-PR_FALSE
+false
 )
 ;
 nsIScriptGlobalObject
@@ -32205,7 +32205,7 @@ GetScriptGlobalObject
 NS_ENSURE_TRUE
 (
 globalObject
-PR_FALSE
+false
 )
 ;
 nsIScriptContext
@@ -32222,7 +32222,7 @@ GetContext
 NS_ENSURE_TRUE
 (
 scriptContext
-PR_FALSE
+false
 )
 ;
 JSContext
@@ -32239,7 +32239,7 @@ GetNativeContext
 NS_ENSURE_TRUE
 (
 cx
-PR_FALSE
+false
 )
 ;
 bool
@@ -32264,7 +32264,7 @@ enabled
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 return
@@ -33675,7 +33675,7 @@ tmp
 get
 (
 )
-PR_TRUE
+true
 &
 time
 )
@@ -34302,7 +34302,7 @@ if
 we
 just
 used
-PR_TRUE
+true
 here
 .
 bool
@@ -34439,7 +34439,7 @@ if
 shell
 )
 return
-PR_TRUE
+true
 ;
 return
 shell
@@ -34701,7 +34701,7 @@ off
 {
 resetValue
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -34727,7 +34727,7 @@ password
 )
 resetValue
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -35127,7 +35127,7 @@ canCache
 *
 canCacheArg
 =
-PR_FALSE
+false
 ;
 return
 PL_DHASH_STOP
@@ -35164,7 +35164,7 @@ EventHandlingSuppressed
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsPIDOMWindow
@@ -35189,7 +35189,7 @@ TimeoutSuspendCount
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -35230,7 +35230,7 @@ piTarget
 >
 GetListenerManager
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -35247,7 +35247,7 @@ HasUnloadListeners
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -35495,7 +35495,7 @@ get
 #
 endif
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -35541,7 +35541,7 @@ win
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -35612,7 +35612,7 @@ return
 ;
 mIsGoingAway
 =
-PR_TRUE
+true
 ;
 RemovedFromDocShell
 (
@@ -35625,7 +35625,7 @@ mInUnlinkOrDeletion
 ;
 mInUnlinkOrDeletion
 =
-PR_TRUE
+true
 ;
 PRUint32
 i
@@ -35798,7 +35798,7 @@ return
 ;
 mRemovedFromDocShell
 =
-PR_TRUE
+true
 ;
 EnumerateFreezableElements
 (
@@ -36997,8 +36997,8 @@ ptEvent
 InitPageTransitionEvent
 (
 aType
-PR_TRUE
-PR_TRUE
+true
+true
 aPersisted
 )
 )
@@ -37009,7 +37009,7 @@ pEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 pEvent
@@ -37073,7 +37073,7 @@ nsnull
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -37091,7 +37091,7 @@ aDispatchStartTarget
 {
 mVisible
 =
-PR_TRUE
+true
 ;
 EnumerateFreezableElements
 (
@@ -37162,7 +37162,7 @@ links
 >
 Length
 (
-PR_TRUE
+true
 )
 ;
 for
@@ -37244,7 +37244,7 @@ around
 .
 mIsShowing
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -37272,7 +37272,7 @@ aPersisted
 {
 SetImagesNeedAnimating
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -37355,7 +37355,7 @@ nsnull
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -37438,7 +37438,7 @@ links
 >
 Length
 (
-PR_TRUE
+true
 )
 ;
 for
@@ -37520,7 +37520,7 @@ around
 .
 mIsShowing
 =
-PR_FALSE
+false
 ;
 }
 #
@@ -37548,7 +37548,7 @@ aPersisted
 {
 SetImagesNeedAnimating
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -37599,7 +37599,7 @@ aPersisted
 ;
 mVisible
 =
-PR_FALSE
+false
 ;
 UpdateVisibilityState
 (
@@ -37972,7 +37972,7 @@ k
 nsMutationEvent
 mutation
 (
-PR_TRUE
+true
 NS_MUTATION_SUBTREEMODIFIED
 )
 ;
@@ -38584,7 +38584,7 @@ clone
 >
 SetLoadedAsData
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -38826,8 +38826,8 @@ NS_LITERAL_STRING
 readystatechange
 "
 )
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 if
@@ -38974,7 +38974,7 @@ aData
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -39721,7 +39721,7 @@ Run
 FireOrClearDelayedEvents
 (
 mDocuments
-PR_TRUE
+true
 )
 ;
 return
@@ -39828,7 +39828,7 @@ docs
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -39877,7 +39877,7 @@ else
 FireOrClearDelayedEvents
 (
 documents
-PR_FALSE
+false
 )
 ;
 }
@@ -40383,7 +40383,7 @@ rv
 {
 mScrolledToRefAlready
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -40398,7 +40398,7 @@ ResetScrolledToRefAlready
 {
 mScrolledToRefAlready
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -40487,7 +40487,7 @@ if
 mFreezableElements
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -40501,7 +40501,7 @@ aContent
 )
 )
 return
-PR_FALSE
+false
 ;
 mFreezableElements
 -
@@ -40512,7 +40512,7 @@ aContent
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 struct
@@ -40651,7 +40651,7 @@ nsnull
 ;
 mCreatingStaticClone
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -40692,7 +40692,7 @@ domDoc
 >
 CloneNode
 (
-PR_TRUE
+true
 getter_AddRefs
 (
 clonedNode
@@ -40953,7 +40953,7 @@ clonedSheet
 }
 mCreatingStaticClone
 =
-PR_FALSE
+false
 ;
 return
 clonedDoc
@@ -41461,7 +41461,7 @@ mImageMaps
 >
 Length
 (
-PR_TRUE
+true
 )
 ;
 for
@@ -42946,8 +42946,8 @@ NS_LITERAL_STRING
 mozfullscreenchange
 "
 )
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 return
@@ -43095,7 +43095,7 @@ aData
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -43158,7 +43158,7 @@ nsEventStateManager
 SetFullScreenState
 (
 mFullScreenElement
-PR_FALSE
+false
 )
 ;
 }
@@ -43196,7 +43196,7 @@ aData
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -43312,7 +43312,7 @@ hierarchy
 UpdateFullScreenStatusInDocTree
 (
 this
-PR_FALSE
+false
 )
 ;
 /
@@ -43334,7 +43334,7 @@ GetWindow
 >
 SetFullScreen
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -43516,7 +43516,7 @@ nsEventStateManager
 SetFullScreenState
 (
 mFullScreenElement
-PR_TRUE
+true
 )
 ;
 nsIDocument
@@ -43584,7 +43584,7 @@ nsEventStateManager
 SetFullScreenState
 (
 element
-PR_TRUE
+true
 )
 ;
 static_cast
@@ -43623,7 +43623,7 @@ mode
 UpdateFullScreenStatusInDocTree
 (
 this
-PR_TRUE
+true
 )
 ;
 /
@@ -43700,7 +43700,7 @@ GetWindow
 >
 SetFullScreen
 (
-PR_TRUE
+true
 )
 ;
 }

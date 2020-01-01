@@ -1792,13 +1792,13 @@ to
 aArray
 .
 Return
-PR_TRUE
+true
 /
 /
 on
 success
 and
-PR_FALSE
+false
 on
 allocation
 failure

@@ -497,11 +497,11 @@ nsnull
 )
 mInUse
 (
-PR_FALSE
+false
 )
 mInUse2
 (
-PR_FALSE
+false
 )
 {
 }

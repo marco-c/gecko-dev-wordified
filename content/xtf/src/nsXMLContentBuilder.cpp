@@ -1153,7 +1153,7 @@ CreateElem
 tagname
 nsnull
 mNamespaceId
-PR_FALSE
+false
 getter_AddRefs
 (
 node
@@ -1254,7 +1254,7 @@ mCurrent
 AppendChildTo
 (
 node
-PR_TRUE
+true
 )
 ;
 mCurrent
@@ -1374,7 +1374,7 @@ SetAttr
 0
 nameAtom
 value
-PR_TRUE
+true
 )
 ;
 return
@@ -1494,7 +1494,7 @@ mCurrent
 AppendChildTo
 (
 textContent
-PR_TRUE
+true
 )
 ;
 return

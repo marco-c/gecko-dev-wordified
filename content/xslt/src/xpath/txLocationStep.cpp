@@ -935,7 +935,7 @@ moveToParent
 {
 cont
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -1008,7 +1008,7 @@ moveToParent
 {
 cont
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -1181,7 +1181,7 @@ moveToParent
 {
 cont
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -1254,7 +1254,7 @@ moveToParent
 {
 cont
 =
-PR_FALSE
+false
 ;
 break
 ;

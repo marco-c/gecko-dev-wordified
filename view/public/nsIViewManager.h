@@ -1341,7 +1341,7 @@ order
 if
 aAfter
 is
-PR_TRUE
+true
 otherwise
 it
 is
@@ -1361,7 +1361,7 @@ then
 if
 aAfter
 is
-PR_TRUE
+true
 the
 view
 is
@@ -1391,7 +1391,7 @@ order
 If
 it
 is
-PR_FALSE
+false
 the
 view
 is
@@ -1705,7 +1705,7 @@ param
 RepaintExposedAreaOnly
 *
 if
-PR_TRUE
+true
 Repaint
 only
 the
@@ -1715,7 +1715,7 @@ contracted
 region
 *
 if
-PR_FALSE
+false
 Repaint
 the
 union
@@ -2014,7 +2014,7 @@ auto
 views
 .
 *
-PR_TRUE
+true
 if
 the
 view
@@ -2790,14 +2790,14 @@ painting
 *
 param
 aPainting
-PR_TRUE
+true
 if
 the
 viewmanager
 is
 painting
 *
-PR_FALSE
+false
 otherwise
 *
 /

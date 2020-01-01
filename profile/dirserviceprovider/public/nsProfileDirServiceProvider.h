@@ -885,7 +885,7 @@ with
 aNotifyObservers
 =
 =
-PR_TRUE
+true
 .
 If
 this
@@ -897,7 +897,7 @@ with
 aNotifyObservers
 =
 =
-PR_FALSE
+false
 this
 method
 is

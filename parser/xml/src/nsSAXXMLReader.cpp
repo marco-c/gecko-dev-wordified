@@ -653,7 +653,7 @@ nsSAXXMLReader
 :
 mIsAsyncParse
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1729,7 +1729,7 @@ error
 *
 _retval
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1843,7 +1843,7 @@ console
 *
 _retval
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -2708,7 +2708,7 @@ aObserver
 ;
 mIsAsyncParse
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2849,7 +2849,7 @@ nsnull
 ;
 mIsAsyncParse
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -3048,7 +3048,7 @@ aCharsetSource
 kCharsetFromChannel
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -3125,14 +3125,14 @@ aCharsetSource
 kCharsetFromChannel
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult

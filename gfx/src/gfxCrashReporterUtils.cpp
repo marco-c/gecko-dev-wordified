@@ -729,7 +729,7 @@ xpcom
 -
 shutdown
 "
-PR_FALSE
+false
 )
 ;
 if

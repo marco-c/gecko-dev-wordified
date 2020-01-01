@@ -1002,7 +1002,7 @@ aContainer
 >
 mDestroyed
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1102,11 +1102,11 @@ Layer
 CONTENT_OPAQUE
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 template
@@ -1208,7 +1208,7 @@ aContainer
 >
 mSupportsComponentAlphaChildren
 =
-PR_FALSE
+false
 ;
 float
 opacity
@@ -1317,7 +1317,7 @@ aContainer
 >
 mSupportsComponentAlphaChildren
 =
-PR_TRUE
+true
 ;
 mode
 =
@@ -1447,7 +1447,7 @@ aContainer
 >
 mSupportsComponentAlphaChildren
 =
-PR_TRUE
+true
 ;
 }
 }

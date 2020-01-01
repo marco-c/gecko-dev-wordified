@@ -1156,7 +1156,7 @@ res
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 }

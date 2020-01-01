@@ -886,7 +886,7 @@ AddEventListener
 aType
 aListener
 aUseCapture
-PR_FALSE
+false
 2
 )
 ;

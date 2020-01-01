@@ -911,11 +911,11 @@ nsPlaintextEditor
 )
 mIgnoreSpuriousDragEvent
 (
-PR_FALSE
+false
 )
 mCRInParagraphCreatesParagraph
 (
-PR_FALSE
+false
 )
 mSelectedCellIndex
 (
@@ -923,35 +923,35 @@ mSelectedCellIndex
 )
 mIsObjectResizingEnabled
 (
-PR_TRUE
+true
 )
 mIsResizing
 (
-PR_FALSE
+false
 )
 mIsAbsolutelyPositioningEnabled
 (
-PR_TRUE
+true
 )
 mResizedObjectIsAbsolutelyPositioned
 (
-PR_FALSE
+false
 )
 mGrabberClicked
 (
-PR_FALSE
+false
 )
 mIsMoving
 (
-PR_FALSE
+false
 )
 mSnapToGridEnabled
 (
-PR_FALSE
+false
 )
 mIsInlineTableEditingEnabled
 (
-PR_TRUE
+true
 )
 mInfoXIncrement
 (
@@ -1700,12 +1700,12 @@ IsMailEditor
 {
 SetAbsolutePositioningEnabled
 (
-PR_FALSE
+false
 )
 ;
 SetSnapToGridEnabled
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2721,7 +2721,7 @@ mousemove
 "
 )
 mMouseMotionListenerP
-PR_FALSE
+false
 )
 ;
 target
@@ -2736,7 +2736,7 @@ mousemove
 "
 )
 mMouseMotionListenerP
-PR_TRUE
+true
 )
 ;
 }
@@ -2757,7 +2757,7 @@ resize
 "
 )
 mResizeEventListenerP
-PR_FALSE
+false
 )
 ;
 }
@@ -3109,7 +3109,7 @@ visOffset
 ;
 done
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3158,7 +3158,7 @@ res
 ;
 done
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3335,7 +3335,7 @@ res
 ;
 done
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3425,7 +3425,7 @@ curOffset
 ;
 done
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3854,7 +3854,7 @@ handled
 {
 ScrollSelectionIntoView
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -3897,7 +3897,7 @@ indent
 ;
 handled
 =
-PR_TRUE
+true
 ;
 }
 NS_ENSURE_SUCCESS
@@ -4234,7 +4234,7 @@ NS_ERROR_NULL_POINTER
 *
 aIsBlock
 =
-PR_FALSE
+false
 ;
 #
 define
@@ -4433,7 +4433,7 @@ pre
 *
 aIsBlock
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4812,7 +4812,7 @@ NS_ERROR_FAILURE
 *
 aIsBlock
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -5181,7 +5181,7 @@ legend
 *
 aIsBlock
 =
-PR_TRUE
+true
 ;
 }
 result
@@ -5226,7 +5226,7 @@ nodeAsText
 *
 aIsBlock
 =
-PR_FALSE
+false
 ;
 result
 =
@@ -5536,7 +5536,7 @@ GetBlockNodeParent
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -6310,7 +6310,7 @@ nodeType
 {
 isNotInlineOrText
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -7145,12 +7145,12 @@ NS_ERROR_NULL_POINTER
 *
 outIsSpace
 =
-PR_FALSE
+false
 ;
 *
 outIsNBSP
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -7664,12 +7664,12 @@ NS_ERROR_NULL_POINTER
 *
 outIsSpace
 =
-PR_FALSE
+false
 ;
 *
 outIsNBSP
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -8090,7 +8090,7 @@ aNode
 NS_ENSURE_TRUE
 (
 aNode
-PR_FALSE
+false
 )
 ;
 if
@@ -8105,7 +8105,7 @@ aNode
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -8134,7 +8134,7 @@ address_of
 (
 priorNode
 )
-PR_TRUE
+true
 )
 ;
 GetNextHTMLNode
@@ -8144,7 +8144,7 @@ address_of
 (
 nextNode
 )
-PR_TRUE
+true
 )
 ;
 /
@@ -8173,7 +8173,7 @@ priorNode
 )
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -8189,7 +8189,7 @@ nextNode
 )
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -8207,7 +8207,7 @@ visible
 NS_ENSURE_TRUE
 (
 nextNode
-PR_FALSE
+false
 )
 ;
 /
@@ -8231,7 +8231,7 @@ nextNode
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -8348,10 +8348,10 @@ nsWSRunObject
 eBlock
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -8427,7 +8427,7 @@ IsModifiable
 (
 )
 :
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -8805,7 +8805,7 @@ NS_ERROR_NULL_POINTER
 *
 outHandled
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -9108,7 +9108,7 @@ res
 *
 outHandled
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -9171,7 +9171,7 @@ res
 InsertTableRow
 (
 1
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -9183,7 +9183,7 @@ res
 *
 outHandled
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -9771,7 +9771,7 @@ selPriv
 >
 SetInterlinePosition
 (
-PR_TRUE
+true
 )
 ;
 res
@@ -9808,7 +9808,7 @@ selPriv
 >
 SetInterlinePosition
 (
-PR_TRUE
+true
 )
 ;
 res
@@ -10077,7 +10077,7 @@ selPriv
 >
 SetInterlinePosition
 (
-PR_TRUE
+true
 )
 ;
 res
@@ -12826,7 +12826,7 @@ parentSelectedNode
 )
 &
 offsetForInsert
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -14013,7 +14013,7 @@ GetCSSBackgroundColorState
 (
 aMixed
 aOutColor
-PR_TRUE
+true
 )
 ;
 }
@@ -14076,7 +14076,7 @@ useCSS
 *
 aMixed
 =
-PR_FALSE
+false
 ;
 aOutColor
 .
@@ -14138,7 +14138,7 @@ GetCSSBackgroundColorState
 (
 aMixed
 aOutColor
-PR_FALSE
+false
 )
 ;
 }
@@ -14171,7 +14171,7 @@ NS_ERROR_NULL_POINTER
 *
 aMixed
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -14362,7 +14362,7 @@ GetNextNode
 (
 parent
 offset
-PR_TRUE
+true
 address_of
 (
 nodeToExamine
@@ -14916,7 +14916,7 @@ NS_ERROR_NULL_POINTER
 *
 aMixed
 =
-PR_FALSE
+false
 ;
 aOutColor
 .
@@ -16005,14 +16005,14 @@ ruleInfo
 .
 bOrdered
 =
-PR_TRUE
+true
 ;
 else
 ruleInfo
 .
 bOrdered
 =
-PR_FALSE
+false
 ;
 res
 =
@@ -17665,7 +17665,7 @@ false
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 nsAutoString
@@ -17718,7 +17718,7 @@ currentNode
 {
 bNodeFound
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -17828,7 +17828,7 @@ NODE_FOUND
 :
 bNodeFound
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -18421,7 +18421,7 @@ selectedNode
 {
 bNodeFound
 =
-PR_TRUE
+true
 ;
 selectedElement
 =
@@ -18751,7 +18751,7 @@ the
 link
 bNodeFound
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -18811,7 +18811,7 @@ parentLinkOfAnchor
 )
 bNodeFound
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -18935,7 +18935,7 @@ anchorChild
 ;
 bNodeFound
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -19189,7 +19189,7 @@ bNodeFound
 {
 bNodeFound
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -19235,7 +19235,7 @@ TagName
 ;
 anyTag
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -19307,7 +19307,7 @@ selectedNode
 {
 bNodeFound
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -19330,7 +19330,7 @@ handled
 here
 bNodeFound
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -19379,7 +19379,7 @@ here
 ?
 isCollapsed
 =
-PR_TRUE
+true
 ;
 printf
 (
@@ -19743,7 +19743,7 @@ NS_LITERAL_STRING
 %
 "
 )
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -19769,7 +19769,7 @@ NS_LITERAL_STRING
 2
 "
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -19892,7 +19892,7 @@ NS_LITERAL_STRING
 top
 "
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -20023,7 +20023,7 @@ res
 )
 isCollapsed
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -21094,7 +21094,7 @@ return
 EnableStyleSheet
 (
 mLastStyleSheetURL
-PR_FALSE
+false
 )
 ;
 return
@@ -21462,8 +21462,8 @@ CSSLoader
 LoadSheetSync
 (
 uaURI
-PR_TRUE
-PR_TRUE
+true
+true
 getter_AddRefs
 (
 sheet
@@ -21609,7 +21609,7 @@ return
 EnableStyleSheet
 (
 mLastOverrideStyleSheetURL
-PR_FALSE
+false
 )
 ;
 return
@@ -21902,7 +21902,7 @@ sheet
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 /
@@ -21954,15 +21954,15 @@ sheet
 >
 SetDisabled
 (
-PR_FALSE
+false
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -24469,7 +24469,7 @@ aNode
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsAutoString
@@ -24489,7 +24489,7 @@ stringTag
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 PRInt32
@@ -24986,7 +24986,7 @@ result
 ;
 aIsSet
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -25125,7 +25125,7 @@ aValue
 {
 found
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -25152,7 +25152,7 @@ nsCaseInsensitiveStringComparator
 {
 found
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -25183,7 +25183,7 @@ else
 {
 found
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -25193,7 +25193,7 @@ found
 {
 aIsSet
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -25361,7 +25361,7 @@ node
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIContent
@@ -25379,7 +25379,7 @@ activeEditingHost
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -25672,7 +25672,7 @@ res
 )
 caretIsSet
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -25772,14 +25772,14 @@ captionTag
 {
 aIsTag
 =
-PR_TRUE
+true
 ;
 }
 else
 {
 aIsTag
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -28356,7 +28356,7 @@ res
 GetPriorNode
 (
 inNode
-PR_TRUE
+true
 address_of
 (
 *
@@ -28536,7 +28536,7 @@ GetPriorNode
 (
 inParent
 inOffset
-PR_TRUE
+true
 address_of
 (
 *
@@ -28718,7 +28718,7 @@ res
 GetNextNode
 (
 inNode
-PR_TRUE
+true
 address_of
 (
 *
@@ -28898,7 +28898,7 @@ GetNextNode
 (
 inParent
 inOffset
-PR_TRUE
+true
 address_of
 (
 *
@@ -28986,7 +28986,7 @@ parms
 *
 aOutIsFirst
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -29102,7 +29102,7 @@ parms
 *
 aOutIsLast
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -29660,7 +29660,7 @@ child
 GetRightmostChild
 (
 aNode
-PR_FALSE
+false
 )
 ;
 nsresult
@@ -29785,7 +29785,7 @@ IsVisTextNode
 aNode
 &
 isEmptyTextNode
-PR_FALSE
+false
 )
 ;
 if
@@ -29823,7 +29823,7 @@ visible
 .
 .
 return
-PR_TRUE
+true
 ;
 }
 return
@@ -29950,7 +29950,7 @@ NS_ERROR_NULL_POINTER
 *
 outIsEmptyNode
 =
-PR_TRUE
+true
 ;
 nsresult
 res
@@ -30163,7 +30163,7 @@ isVisible
 *
 outIsEmptyNode
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -30272,7 +30272,7 @@ else
 *
 outIsEmptyNode
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -30426,7 +30426,7 @@ NS_ERROR_NULL_POINTER
 *
 outIsEmptyNode
 =
-PR_TRUE
+true
 ;
 bool
 seenBR
@@ -30765,7 +30765,7 @@ aNode
 *
 outIsEmptyNode
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -31013,7 +31013,7 @@ indicated
 *
 aSeenBR
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -31091,7 +31091,7 @@ empty
 *
 outIsEmptyNode
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -31133,7 +31133,7 @@ empty
 *
 outIsEmptyNode
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -31180,7 +31180,7 @@ empty
 *
 outIsEmptyNode
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -32375,7 +32375,7 @@ bgcolor
 aColor
 &
 count
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -32456,7 +32456,7 @@ bgcolor
 aColor
 &
 count
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -32621,7 +32621,7 @@ bgcolor
 aColor
 &
 count
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -33035,7 +33035,7 @@ bgcolor
 aColor
 &
 count
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -33207,7 +33207,7 @@ bgcolor
 aColor
 &
 count
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -33341,7 +33341,7 @@ bgcolor
 aColor
 &
 count
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -33627,7 +33627,7 @@ NodesSameType
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -33686,19 +33686,19 @@ aNode2
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 else
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -35274,7 +35274,7 @@ IsActiveInDOMWindow
 NS_ENSURE_TRUE
 (
 mDocWeak
-PR_FALSE
+false
 )
 ;
 nsFocusManager
@@ -35291,7 +35291,7 @@ GetFocusManager
 NS_ENSURE_TRUE
 (
 fm
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -35340,7 +35340,7 @@ inDesignMode
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsPIDOMWindow
@@ -35370,7 +35370,7 @@ nsFocusManager
 GetFocusedDescendant
 (
 ourWindow
-PR_FALSE
+false
 getter_AddRefs
 (
 win
@@ -35384,7 +35384,7 @@ content
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -35441,11 +35441,11 @@ HasIndependentSelection
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsIContent
@@ -35460,7 +35460,7 @@ GetActiveEditingHost
 NS_ENSURE_TRUE
 (
 mDocWeak
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -35755,7 +35755,7 @@ our
 root
 .
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -36205,7 +36205,7 @@ OurWindowHasFocus
 NS_ENSURE_TRUE
 (
 mDocWeak
-PR_FALSE
+false
 )
 ;
 nsIFocusManager
@@ -36222,7 +36222,7 @@ GetFocusManager
 NS_ENSURE_TRUE
 (
 fm
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -36249,7 +36249,7 @@ focusedWindow
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -36310,13 +36310,13 @@ aEvent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 NS_ENSURE_TRUE
 (
 mDocWeak
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -36339,7 +36339,7 @@ target
 NS_ENSURE_TRUE
 (
 target
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -36440,7 +36440,7 @@ target
 NS_ENSURE_TRUE
 (
 targetContent
-PR_FALSE
+false
 )
 ;
 return
@@ -36489,7 +36489,7 @@ target
 NS_ENSURE_TRUE
 (
 targetContent
-PR_FALSE
+false
 )
 ;
 if
@@ -36513,7 +36513,7 @@ HasIndependentSelection
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /

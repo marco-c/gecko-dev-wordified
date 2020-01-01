@@ -807,7 +807,7 @@ _f
 )
 )
 return
-PR_FALSE
+false
 inline
 bool
 FloatValidate
@@ -822,7 +822,7 @@ f1
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 inline
@@ -846,7 +846,7 @@ f2
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 inline
@@ -877,7 +877,7 @@ f3
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 inline
@@ -915,7 +915,7 @@ f4
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 inline
@@ -960,7 +960,7 @@ f5
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 inline
@@ -1012,7 +1012,7 @@ f6
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 #

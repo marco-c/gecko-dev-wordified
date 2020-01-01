@@ -4478,7 +4478,7 @@ ClassIsMainThreadOnly
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -4687,12 +4687,12 @@ collector
 JSBool
 dontTraverse
 =
-PR_FALSE
+false
 ;
 JSBool
 markJSObject
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -7778,7 +7778,7 @@ helper
 &
 aIID
 nsnull
-PR_FALSE
+false
 OBJ_IS_GLOBAL
 &
 rv
@@ -8529,7 +8529,7 @@ aCOMObj
 nsnull
 &
 aIID
-PR_FALSE
+false
 &
 v
 aHolder
@@ -16982,9 +16982,9 @@ xpc
 >
 DebugDumpJSStack
 (
-PR_TRUE
-PR_TRUE
-PR_FALSE
+true
+true
+false
 )
 ;
 else
@@ -17050,9 +17050,9 @@ xpc
 >
 DebugPrintJSStack
 (
-PR_TRUE
-PR_TRUE
-PR_FALSE
+true
+true
+false
 )
 :
 nsnull

@@ -806,7 +806,7 @@ aHasChildNodes
 *
 aHasChildNodes
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -828,7 +828,7 @@ aHasAttributes
 *
 aHasAttributes
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -852,7 +852,7 @@ aReturn
 return
 ReplaceOrInsertBefore
 (
-PR_FALSE
+false
 aNewChild
 aRefChild
 aReturn
@@ -877,7 +877,7 @@ aReturn
 return
 ReplaceOrInsertBefore
 (
-PR_TRUE
+true
 aNewChild
 aOldChild
 aReturn
@@ -997,7 +997,7 @@ CloneNodeImpl
 (
 this
 aDeep
-PR_TRUE
+true
 aReturn
 )
 ;
@@ -1740,7 +1740,7 @@ aResult
 CloneDataNode
 (
 aNodeInfo
-PR_TRUE
+true
 )
 ;
 if

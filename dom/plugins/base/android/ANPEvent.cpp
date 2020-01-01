@@ -699,7 +699,7 @@ event
 )
 pluginFunctions
 )
-PR_TRUE
+true
 )
 ;
 LOG

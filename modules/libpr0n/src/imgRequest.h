@@ -691,7 +691,7 @@ proxy
 aNotify
 =
 =
-PR_FALSE
+false
 still
 sends
 OnStopRequest

@@ -803,7 +803,7 @@ mLength
 )
 mOwned
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1333,7 +1333,7 @@ dataLen
 ;
 mOwned
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1385,7 +1385,7 @@ dataLen
 ;
 mOwned
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1435,7 +1435,7 @@ mLength
 ;
 mOwned
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1695,7 +1695,7 @@ aNonBlocking
 *
 aNonBlocking
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1974,7 +1974,7 @@ value
 )
 )
 return
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -2001,10 +2001,10 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

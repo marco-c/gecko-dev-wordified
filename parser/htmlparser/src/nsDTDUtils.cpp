@@ -3472,7 +3472,7 @@ mStack
 .
 mCount
 ]
-PR_FALSE
+false
 )
 ;
 #
@@ -5325,7 +5325,7 @@ default
 :
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 nsDTDUtils
 :
@@ -5638,7 +5638,7 @@ default
 :
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 nsDTDUtils
 :

@@ -558,7 +558,7 @@ do_QueryFrame
 (
 GetFrame
 (
-PR_FALSE
+false
 )
 )
 ;
@@ -941,7 +941,7 @@ aScrollBox
 >
 GetFrame
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -1164,7 +1164,7 @@ shell
 =
 GetPresShell
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -1756,7 +1756,7 @@ shell
 =
 GetPresShell
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -2036,7 +2036,7 @@ shell
 =
 GetPresShell
 (
-PR_FALSE
+false
 )
 ;
 if

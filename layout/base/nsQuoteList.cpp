@@ -542,7 +542,7 @@ this
 else
 dirty
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -590,7 +590,7 @@ SetText
 Text
 (
 )
-PR_FALSE
+false
 )
 ;
 }

@@ -685,7 +685,7 @@ document
 *
 param
 aForceUpdate
-PR_TRUE
+true
 will
 force
 the
@@ -816,7 +816,7 @@ document
 *
 param
 aForceUpdate
-PR_TRUE
+true
 will
 force
 the

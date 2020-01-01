@@ -827,7 +827,7 @@ Should
 be
 set
 to
-PR_TRUE
+true
 if
 the
 os
@@ -836,7 +836,7 @@ a
 mapping
 to
 *
-PR_FALSE
+false
 otherwise
 .
 Must
@@ -1295,13 +1295,13 @@ type
 .
 *
 return
-PR_TRUE
+true
 if
 the
 extension
 was
 found
-PR_FALSE
+false
 otherwise
 .
 *

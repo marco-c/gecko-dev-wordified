@@ -625,7 +625,7 @@ SVGAnimatedTransformList
 :
 mIsAttrSet
 (
-PR_FALSE
+false
 )
 {
 }

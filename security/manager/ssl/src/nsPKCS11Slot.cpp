@@ -585,8 +585,8 @@ Trim
 (
 "
 "
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 /
@@ -644,8 +644,8 @@ Trim
 (
 "
 "
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 /
@@ -1834,7 +1834,7 @@ token
 Name
 *
 /
-PR_FALSE
+false
 )
 ;
 if
@@ -1875,7 +1875,7 @@ token
 Name
 *
 /
-PR_FALSE
+false
 )
 ;
 }

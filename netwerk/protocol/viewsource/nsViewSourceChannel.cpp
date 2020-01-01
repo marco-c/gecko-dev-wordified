@@ -1352,7 +1352,7 @@ rv
 {
 mOpened
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -1507,7 +1507,7 @@ rv
 {
 mOpened
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -1846,9 +1846,9 @@ nsIChannel
 LOAD_DOCUMENT_URI
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 return
 mChannel

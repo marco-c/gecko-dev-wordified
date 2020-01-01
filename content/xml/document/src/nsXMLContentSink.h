@@ -819,7 +819,7 @@ aLineNumber
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /

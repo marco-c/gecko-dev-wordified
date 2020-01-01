@@ -3234,7 +3234,7 @@ GetContextElement
 0
 )
 resource
-PR_TRUE
+true
 )
 ;
 }
@@ -3461,7 +3461,7 @@ error
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4090,11 +4090,11 @@ r
 continue
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -4479,7 +4479,7 @@ GetContextElement
 0
 )
 node
-PR_TRUE
+true
 )
 ;
 }
@@ -4994,7 +4994,7 @@ aIsAnonymous
 *
 aIsAnonymous
 =
-PR_FALSE
+false
 ;
 nsAutoString
 relURI
@@ -5087,7 +5087,7 @@ aIsAnonymous
 *
 aIsAnonymous
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -5336,7 +5336,7 @@ aIsAnonymous
 *
 aIsAnonymous
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -6147,7 +6147,7 @@ Assert
 aSubject
 property
 target
-PR_TRUE
+true
 )
 ;
 }
@@ -6739,7 +6739,7 @@ RDF_NAMESPACE_URI
 {
 isaTypedNode
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -6872,7 +6872,7 @@ typed
 node
 isaTypedNode
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -6938,7 +6938,7 @@ Assert
 source
 kRDF_type
 type
-PR_TRUE
+true
 )
 ;
 if
@@ -7413,7 +7413,7 @@ GetContextElement
 )
 property
 target
-PR_TRUE
+true
 )
 ;
 if
@@ -8919,7 +8919,7 @@ GetTarget
 (
 aContainer
 kRDF_nextVal
-PR_TRUE
+true
 getter_AddRefs
 (
 nextval
@@ -8982,7 +8982,7 @@ Assert
 aContainer
 kRDF_instanceOf
 aContainerType
-PR_TRUE
+true
 )
 ;
 NS_ASSERTION

@@ -3059,7 +3059,7 @@ aReturn
 return
 ReplaceOrInsertBefore
 (
-PR_FALSE
+false
 aNewChild
 aRefChild
 aReturn
@@ -3084,7 +3084,7 @@ aReturn
 return
 ReplaceOrInsertBefore
 (
-PR_TRUE
+true
 aNewChild
 aOldChild
 aReturn
@@ -3892,7 +3892,7 @@ destroyed
 param
 aTransfer
 if
-PR_TRUE
+true
 the
 property
 will
@@ -3908,7 +3908,7 @@ the
 node
 changes
 if
-PR_FALSE
+false
 it
 *
 will
@@ -4056,7 +4056,7 @@ destroyed
 param
 aTransfer
 if
-PR_TRUE
+true
 the
 property
 will
@@ -4072,7 +4072,7 @@ the
 node
 changes
 if
-PR_FALSE
+false
 it
 *
 will
@@ -5164,7 +5164,7 @@ If
 this
 function
 returns
-PR_TRUE
+true
 *
 it
 doesn
@@ -5617,7 +5617,7 @@ endif
 *
 *
 Returns
-PR_TRUE
+true
 if
 |
 this
@@ -5651,7 +5651,7 @@ NODE_IS_IN_ANONYMOUS_SUBTREE
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 CheckNotNativeAnonymous
@@ -5659,7 +5659,7 @@ CheckNotNativeAnonymous
 )
 ;
 return
-PR_FALSE
+false
 ;
 #
 else
@@ -6759,7 +6759,7 @@ return
 GetNextNodeImpl
 (
 aRoot
-PR_FALSE
+false
 )
 ;
 }
@@ -6863,7 +6863,7 @@ return
 GetNextNodeImpl
 (
 aRoot
-PR_TRUE
+true
 )
 ;
 }

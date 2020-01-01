@@ -599,7 +599,7 @@ saveToDisk
 )
 mAlwaysAskBeforeHandling
 (
-PR_TRUE
+true
 )
 {
 }
@@ -631,7 +631,7 @@ saveToDisk
 )
 mAlwaysAskBeforeHandling
 (
-PR_TRUE
+true
 )
 {
 }
@@ -745,7 +745,7 @@ saveToDisk
 )
 mAlwaysAskBeforeHandling
 (
-PR_TRUE
+true
 )
 {
 }
@@ -873,7 +873,7 @@ nsCaseInsensitiveCStringComparator
 {
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1005,7 +1005,7 @@ nsCaseInsensitiveCStringComparator
 {
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2037,7 +2037,7 @@ process
 >
 Run
 (
-PR_FALSE
+false
 &
 string
 1
@@ -2107,7 +2107,7 @@ process
 >
 Runw
 (
-PR_FALSE
+false
 &
 string
 1

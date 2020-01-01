@@ -591,7 +591,7 @@ RemoveFromIdTable
 ;
 isId
 =
-PR_TRUE
+true
 ;
 }
 nsMutationGuard
@@ -1053,7 +1053,7 @@ ClearHasID
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 aResult
@@ -1077,11 +1077,11 @@ GetAtomValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult

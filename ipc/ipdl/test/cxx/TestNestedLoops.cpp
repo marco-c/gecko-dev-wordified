@@ -427,7 +427,7 @@ if
 NS_ProcessNextEvent
 (
 nsnull
-PR_FALSE
+false
 )
 )
 fail

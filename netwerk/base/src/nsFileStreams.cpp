@@ -1750,7 +1750,7 @@ aFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -1909,7 +1909,7 @@ mFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 NS_ASSERTION
@@ -2352,7 +2352,7 @@ aNonBlocking
 *
 aNonBlocking
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2512,7 +2512,7 @@ flags
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -2541,7 +2541,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -2583,10 +2583,10 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -3728,7 +3728,7 @@ aNonBlocking
 *
 aNonBlocking
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3933,7 +3933,7 @@ exists
 ;
 mTargetFileExists
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -4060,7 +4060,7 @@ tempLocal
 >
 SetFollowLinks
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -4310,7 +4310,7 @@ mTempFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 mTempFile
@@ -4582,7 +4582,7 @@ mTempFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -4595,7 +4595,7 @@ mTempFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 /

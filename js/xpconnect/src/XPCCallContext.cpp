@@ -2201,7 +2201,7 @@ ent
 .
 mInUse
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -2331,7 +2331,7 @@ ent
 .
 mInUse
 =
-PR_FALSE
+false
 ;
 ent
 .

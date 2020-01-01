@@ -699,7 +699,7 @@ voidStr
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 rv

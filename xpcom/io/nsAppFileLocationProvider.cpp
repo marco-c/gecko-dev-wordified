@@ -1366,7 +1366,7 @@ nsnull
 *
 persistent
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -1686,7 +1686,7 @@ getter_AddRefs
 (
 localFile
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -1864,7 +1864,7 @@ NS_NewLocalFileWithFSRef
 (
 &
 fileRef
-PR_TRUE
+true
 getter_AddRefs
 (
 macFile
@@ -1923,7 +1923,7 @@ NS_NewLocalFileWithFSRef
 (
 &
 fileRef
-PR_TRUE
+true
 getter_AddRefs
 (
 macFile
@@ -1994,7 +1994,7 @@ nsDependentCString
 (
 java2PluginDirPath
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 localFile
@@ -2082,7 +2082,7 @@ nsDependentCString
 (
 pathVar
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 localFile
@@ -2206,7 +2206,7 @@ nsDependentCString
 (
 sysLPlgDir
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 localFile
@@ -2918,7 +2918,7 @@ NS_NewLocalFile
 EmptyString
 (
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 localDir
@@ -3177,7 +3177,7 @@ HOME
 "
 )
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 localDir
@@ -4342,7 +4342,7 @@ Substring
 pathVar
 mEndPath
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 localFile
@@ -4414,7 +4414,7 @@ mNext
 *
 result
 =
-PR_TRUE
+true
 ;
 else
 nsAppDirectoryEnumerator

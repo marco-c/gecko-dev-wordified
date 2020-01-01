@@ -705,7 +705,7 @@ Shutdown
 {
 gXPCOMShuttingDown
 =
-PR_TRUE
+true
 ;
 #
 define

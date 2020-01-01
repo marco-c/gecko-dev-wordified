@@ -588,7 +588,7 @@ mEvent
 Serialize
 (
 aMsg
-PR_TRUE
+true
 )
 ;
 }

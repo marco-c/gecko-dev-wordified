@@ -791,7 +791,7 @@ following
 functions
 all
 return
-PR_TRUE
+true
 if
 they
 were
@@ -801,7 +801,7 @@ to
 place
 the
 float
-PR_FALSE
+false
 if
 the
 float
@@ -1221,7 +1221,7 @@ BRS_LINE_LAYOUT_EMPTY
 SetFlag
 (
 BRS_LINE_LAYOUT_EMPTY
-PR_FALSE
+false
 )
 ;
 }
@@ -2246,13 +2246,13 @@ NS_ASSERTION
 aValue
 =
 =
-PR_FALSE
+false
 |
 |
 aValue
 =
 =
-PR_TRUE
+true
 "
 bad
 value

@@ -478,7 +478,7 @@ nsX509CertValidity
 :
 mTimesInitialized
 (
-PR_FALSE
+false
 )
 {
 /
@@ -503,7 +503,7 @@ cert
 :
 mTimesInitialized
 (
-PR_FALSE
+false
 )
 {
 nsNSSShutDownPreventionLock
@@ -535,7 +535,7 @@ SECSuccess
 )
 mTimesInitialized
 =
-PR_TRUE
+true
 ;
 }
 }

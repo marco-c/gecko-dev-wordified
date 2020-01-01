@@ -580,15 +580,15 @@ eEventloopNone
 )
 mRunning
 (
-PR_FALSE
+false
 )
 mExiting
 (
-PR_FALSE
+false
 )
 mBlockNativeEvent
 (
-PR_FALSE
+false
 )
 {
 }
@@ -694,7 +694,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 return
@@ -957,7 +957,7 @@ bug
 .
 mBlockNativeEvent
 =
-PR_TRUE
+true
 ;
 }
 +
@@ -977,7 +977,7 @@ THREAD_EVENT_STARVATION_LIMIT
 ;
 mProcessedGeckoEvents
 =
-PR_TRUE
+true
 ;
 mEventloopNestingState
 =
@@ -1319,7 +1319,7 @@ Run
 twice
 mRunning
 =
-PR_TRUE
+true
 ;
 nsIThread
 *
@@ -1348,7 +1348,7 @@ thread
 ;
 mRunning
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1387,7 +1387,7 @@ Quit
 }
 mExiting
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1754,7 +1754,7 @@ again
 .
 mBlockNativeEvent
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1807,7 +1807,7 @@ mBlockedWait
 *
 mBlockedWait
 =
-PR_FALSE
+false
 ;
 bool
 *
@@ -1890,7 +1890,7 @@ events
 .
 mProcessedGeckoEvents
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1931,7 +1931,7 @@ keepGoing
 =
 DoProcessNextNativeEvent
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1984,7 +1984,7 @@ start
 ;
 DoProcessNextNativeEvent
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2053,7 +2053,7 @@ mExiting
 )
 mayWait
 =
-PR_FALSE
+false
 ;
 mLastNativeEventTime
 =

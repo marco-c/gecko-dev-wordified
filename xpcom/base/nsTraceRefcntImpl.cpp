@@ -2515,7 +2515,7 @@ stats
 )
 )
 return
-PR_FALSE
+false
 ;
 fprintf
 (
@@ -2676,7 +2676,7 @@ out
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -3527,7 +3527,7 @@ gLogging
 ;
 gLogging
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -4281,7 +4281,7 @@ msg
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -4332,7 +4332,7 @@ msg
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -4368,7 +4368,7 @@ RFind
 .
 log
 "
-PR_TRUE
+true
 -
 1
 4
@@ -4565,7 +4565,7 @@ NULL
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -4603,7 +4603,7 @@ return
 ;
 gInitialized
 =
-PR_TRUE
+true
 ;
 bool
 defined
@@ -4676,7 +4676,7 @@ nsnull
 ;
 gLogLeaksOnly
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -4734,7 +4734,7 @@ defined
 {
 gLogToLeaky
 =
-PR_TRUE
+true
 ;
 PRFuncPtr
 p
@@ -4850,7 +4850,7 @@ else
 {
 gLogToLeaky
 =
-PR_FALSE
+false
 ;
 fprintf
 (
@@ -5552,7 +5552,7 @@ gCOMPtrLog
 {
 gLogging
 =
-PR_TRUE
+true
 ;
 }
 gTraceLock
@@ -5990,7 +5990,7 @@ nsTraceRefcntImpl
 :
 SetActivityIsLegal
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -6250,7 +6250,7 @@ nsTraceRefcntImpl
 :
 SetActivityIsLegal
 (
-PR_FALSE
+false
 )
 ;
 gActivityTLS
@@ -6715,7 +6715,7 @@ serialno
 GetSerialNumber
 (
 aPtr
-PR_FALSE
+false
 )
 ;
 NS_ASSERTION
@@ -7076,7 +7076,7 @@ serialno
 GetSerialNumber
 (
 aPtr
-PR_TRUE
+true
 )
 ;
 }
@@ -7255,7 +7255,7 @@ serialno
 GetSerialNumber
 (
 aPtr
-PR_FALSE
+false
 )
 ;
 RecycleSerialNumberPtr
@@ -7473,7 +7473,7 @@ serialno
 GetSerialNumber
 (
 object
-PR_FALSE
+false
 )
 ;
 if
@@ -7708,7 +7708,7 @@ serialno
 GetSerialNumber
 (
 object
-PR_FALSE
+false
 )
 ;
 if

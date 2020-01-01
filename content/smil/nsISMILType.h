@@ -1335,7 +1335,7 @@ A
 return
 value
 of
-PR_TRUE
+true
 represents
 a
 guarantee
@@ -1373,7 +1373,7 @@ A
 return
 value
 of
-PR_FALSE
+false
 simply
 indicates
 that
@@ -1402,7 +1402,7 @@ method
 to
 return
 *
-PR_FALSE
+false
 in
 all
 cases
@@ -1449,7 +1449,7 @@ check
 .
 *
 return
-PR_TRUE
+true
 if
 we
 '
@@ -1459,7 +1459,7 @@ the
 values
 are
 equal
-PR_FALSE
+false
 otherwise
 .
 *

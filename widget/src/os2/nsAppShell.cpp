@@ -967,7 +967,7 @@ PM_REMOVE
 {
 gotMessage
 =
-PR_TRUE
+true
 ;
 :
 :

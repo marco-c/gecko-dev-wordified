@@ -3108,12 +3108,12 @@ notifications
 *
 param
 aIsSafeToFlush
-PR_TRUE
+true
 if
 it
 is
 safe
-PR_FALSE
+false
 otherwise
 .
 *
@@ -4595,7 +4595,7 @@ itself
 param
 aInEnable
 if
-PR_TRUE
+true
 visual
 selection
 effects
@@ -4603,7 +4603,7 @@ are
 enabled
 *
 if
-PR_FALSE
+false
 visual
 selection
 effects
@@ -4922,12 +4922,12 @@ currently
 locked
 *
 returns
-PR_TRUE
+true
 if
 reflow
 is
 locked
-PR_FALSE
+false
 otherwise
 *
 /
@@ -5056,7 +5056,7 @@ bool
 .
 mIsThemeSupportDisabled
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -5320,7 +5320,7 @@ call
 SetVerifyReflowEnable
 *
 with
-PR_TRUE
+true
 .
 *
 /

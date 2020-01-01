@@ -512,7 +512,7 @@ m_totalResourceForkWritten
 ;
 m_headerOk
 =
-PR_FALSE
+false
 ;
 m_comment
 [
@@ -632,7 +632,7 @@ macFile
 >
 SetFollowLinks
 (
-PR_TRUE
+true
 )
 ;
 macFile
@@ -1263,7 +1263,7 @@ time
 /
 m_headerOk
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -1949,7 +1949,7 @@ offset
 }
 m_headerOk
 =
-PR_TRUE
+true
 ;
 m_state
 =

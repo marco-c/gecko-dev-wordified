@@ -1502,7 +1502,7 @@ nsnull
 ;
 mPreFormatHTML
 =
-PR_FALSE
+false
 ;
 }
 nsTXTToHTMLConv
@@ -1563,7 +1563,7 @@ token
 >
 prepend
 =
-PR_FALSE
+false
 ;
 token
 -
@@ -1619,7 +1619,7 @@ token
 >
 prepend
 =
-PR_FALSE
+false
 ;
 token
 -
@@ -1675,7 +1675,7 @@ token
 >
 prepend
 =
-PR_FALSE
+false
 ;
 token
 -
@@ -1731,7 +1731,7 @@ token
 >
 prepend
 =
-PR_TRUE
+true
 ;
 token
 -
@@ -1782,7 +1782,7 @@ token
 >
 prepend
 =
-PR_TRUE
+true
 ;
 token
 -

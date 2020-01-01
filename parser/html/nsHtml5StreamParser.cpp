@@ -1549,7 +1549,7 @@ this
 ;
 mFeedChardet
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1733,7 +1733,7 @@ eSureAnswer
 {
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2235,7 +2235,7 @@ kCharsetFromByteOrderMark
 ;
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 mTreeBuilder
 -
@@ -2402,7 +2402,7 @@ i
 2
 ]
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2431,7 +2431,7 @@ i
 2
 ]
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2497,7 +2497,7 @@ j
 2
 ]
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2534,7 +2534,7 @@ j
 2
 ]
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2588,7 +2588,7 @@ mCharsetSource
 ;
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -2643,7 +2643,7 @@ kCharsetFromHintPrevDoc
 {
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 return
 SetupDecodingAndWriteSniffingBufferAndCurrentSegment
@@ -2905,7 +2905,7 @@ later
 .
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -3555,7 +3555,7 @@ kCharsetFromMetaPrescan
 ;
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 mTreeBuilder
 -
@@ -3645,7 +3645,7 @@ kCharsetFromMetaPrescan
 ;
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 mTreeBuilder
 -
@@ -4690,7 +4690,7 @@ NS_OK
 ;
 mReparseForbidden
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -4783,11 +4783,11 @@ POST
 .
 mReparseForbidden
 =
-PR_TRUE
+true
 ;
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -4808,7 +4808,7 @@ kCharsetFromAutoDetection
 {
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -5430,7 +5430,7 @@ TYPE_ONE_SHOT
 ;
 mFlushTimerArmed
 =
-PR_TRUE
+true
 ;
 }
 class
@@ -5804,7 +5804,7 @@ the
 HTML5
 spec
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5813,7 +5813,7 @@ mReparseForbidden
 )
 {
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -5941,7 +5941,7 @@ available
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -5981,7 +5981,7 @@ failed
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5999,7 +5999,7 @@ become
 confident
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -6011,7 +6011,7 @@ chardet
 when
 confident
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -6054,7 +6054,7 @@ name
 is
 bogus
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -6169,7 +6169,7 @@ rough
 ASCII
 superset
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -6191,7 +6191,7 @@ request
 .
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 mTreeBuilder
 -
@@ -6280,7 +6280,7 @@ fail
 too
 .
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -6337,7 +6337,7 @@ Cancel
 ;
 mFlushTimerArmed
 =
-PR_FALSE
+false
 ;
 }
 mTreeBuilder
@@ -6567,7 +6567,7 @@ return
 }
 mAtEOF
 =
-PR_TRUE
+true
 ;
 mTokenizer
 -
@@ -6648,7 +6648,7 @@ mLastWasCR
 ;
 mLastWasCR
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -6815,7 +6815,7 @@ the
 pointer
 mSpeculating
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -7032,7 +7032,7 @@ GetSnapshot
 {
 speculationFailed
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -7372,7 +7372,7 @@ the
 stream
 mAtEOF
 =
-PR_FALSE
+false
 ;
 nsHtml5Speculation
 *
@@ -7568,7 +7568,7 @@ StartReadingFromStage
 ;
 mSpeculating
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -7787,7 +7787,7 @@ mTreeBuilder
 >
 Flush
 (
-PR_TRUE
+true
 )
 ;
 mTreeBuilder
@@ -7812,7 +7812,7 @@ StartReadingFromStage
 ;
 mSpeculating
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -8410,11 +8410,11 @@ though
 .
 mFlushTimerArmed
 =
-PR_FALSE
+false
 ;
 mFlushTimerEverFired
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -8463,7 +8463,7 @@ mTreeBuilder
 >
 Flush
 (
-PR_TRUE
+true
 )
 )
 {
@@ -8544,7 +8544,7 @@ mTreeBuilder
 >
 Flush
 (
-PR_FALSE
+false
 )
 ;
 NS_ASSERTION

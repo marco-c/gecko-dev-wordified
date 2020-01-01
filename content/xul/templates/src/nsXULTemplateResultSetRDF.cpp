@@ -452,7 +452,7 @@ aResult
 *
 aResult
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -473,7 +473,7 @@ mQuery
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -504,7 +504,7 @@ mHead
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -512,7 +512,7 @@ NS_OK
 }
 mCheckedNext
 =
-PR_TRUE
+true
 ;
 do
 {
@@ -545,7 +545,7 @@ mHead
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -761,7 +761,7 @@ nextresult
 ;
 mCheckedNext
 =
-PR_FALSE
+false
 ;
 *
 aResult

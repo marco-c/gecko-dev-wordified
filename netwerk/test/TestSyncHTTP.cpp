@@ -800,7 +800,7 @@ httpChannel
 >
 SetOpenHasEventQueue
 (
-PR_FALSE
+false
 )
 ;
 /

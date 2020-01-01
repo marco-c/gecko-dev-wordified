@@ -995,7 +995,7 @@ means
 .
 *
 return
-PR_TRUE
+true
 if
 profiling
 was
@@ -1062,9 +1062,9 @@ profileName
 return
 ok
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 }
 /
@@ -1122,7 +1122,7 @@ was
 started
 *
 return
-PR_TRUE
+true
 if
 profiling
 was
@@ -1171,9 +1171,9 @@ JS_StopProfiling
 profileName
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 }
 /
@@ -1402,7 +1402,7 @@ mProfD
 >
 Remove
 (
-PR_TRUE
+true
 )
 )
 )
@@ -1842,7 +1842,7 @@ rv
 *
 _persistent
 =
-PR_TRUE
+true
 ;
 clone
 .

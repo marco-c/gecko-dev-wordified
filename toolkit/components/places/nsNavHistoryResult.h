@@ -722,7 +722,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 private
@@ -4174,7 +4174,7 @@ spec
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 FindChildURI

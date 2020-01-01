@@ -925,7 +925,7 @@ JAR_INTERNAL
 )
 entryVerified
 (
-PR_FALSE
+false
 )
 status
 (
@@ -1077,7 +1077,7 @@ nsJARManifestItem
 aData
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1118,7 +1118,7 @@ nsnull
 )
 mParsedManifest
 (
-PR_FALSE
+false
 )
 mGlobalStatus
 (
@@ -1147,7 +1147,7 @@ mTotalItemsInManifest
 )
 mOpened
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1458,7 +1458,7 @@ Truncate
 ;
 mOpened
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1599,7 +1599,7 @@ rv
 ;
 mOpened
 =
-PR_TRUE
+true
 ;
 mOuterZipEntry
 .
@@ -1707,11 +1707,11 @@ Close
 {
 mOpened
 =
-PR_FALSE
+false
 ;
 mParsedManifest
 =
-PR_FALSE
+false
 ;
 mManifestData
 .
@@ -2030,7 +2030,7 @@ localFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -3813,7 +3813,7 @@ JAR_NO_MANIFEST
 ;
 mParsedManifest
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3881,7 +3881,7 @@ more
 {
 mParsedManifest
 =
-PR_TRUE
+true
 ;
 return
 NS_ERROR_FILE_CORRUPTED
@@ -4044,7 +4044,7 @@ JAR_NO_MANIFEST
 ;
 mParsedManifest
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4239,7 +4239,7 @@ JAR_NO_MANIFEST
 ;
 mParsedManifest
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4287,7 +4287,7 @@ JAR_NO_MANIFEST
 ;
 mParsedManifest
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4438,7 +4438,7 @@ JAR_SF
 ;
 mParsedManifest
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -5126,7 +5126,7 @@ aFileType
 JAR_SF
 foundName
 =
-PR_FALSE
+false
 ;
 continue
 ;
@@ -5402,7 +5402,7 @@ lineData
 ;
 foundName
 =
-PR_TRUE
+true
 ;
 continue
 ;
@@ -5626,7 +5626,7 @@ aManItem
 >
 entryVerified
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -6094,7 +6094,7 @@ hasher
 >
 Finish
 (
-PR_TRUE
+true
 digest
 )
 ;
@@ -6268,7 +6268,7 @@ NS_ERROR_FILE_TARGET_DOES_NOT_EXIST
 *
 aResult
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -6295,7 +6295,7 @@ translation
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -7589,7 +7589,7 @@ memory
 -
 pressure
 "
-PR_TRUE
+true
 )
 ;
 os
@@ -7605,7 +7605,7 @@ flush
 -
 caches
 "
-PR_TRUE
+true
 )
 ;
 os
@@ -7621,7 +7621,7 @@ cache
 -
 entry
 "
-PR_TRUE
+true
 )
 ;
 }
@@ -7672,7 +7672,7 @@ nsnull
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsZipReaderCache
@@ -8341,7 +8341,7 @@ current
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 struct
@@ -8401,14 +8401,14 @@ find_data
 >
 found
 =
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -8632,7 +8632,7 @@ find_data
 =
 {
 zip
-PR_FALSE
+false
 }
 ;
 mZips
@@ -8962,11 +8962,11 @@ nsnull
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -9012,7 +9012,7 @@ mLock
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 nsHashKey

@@ -586,7 +586,7 @@ NS_ERROR_FAILURE
 dbus_message_set_no_reply
 (
 msg
-PR_TRUE
+true
 )
 ;
 DBusMessageIter

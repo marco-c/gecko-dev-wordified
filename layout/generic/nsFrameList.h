@@ -1126,7 +1126,7 @@ list
 .
 *
 return
-PR_TRUE
+true
 if
 aFrame
 was
@@ -1305,7 +1305,7 @@ null
 .
 *
 return
-PR_TRUE
+true
 if
 the
 frame

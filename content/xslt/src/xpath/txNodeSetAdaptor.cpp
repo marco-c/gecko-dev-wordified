@@ -460,7 +460,7 @@ txXPathObjectAdaptor
 )
 mWritable
 (
-PR_TRUE
+true
 )
 {
 }
@@ -480,7 +480,7 @@ aNodeSet
 )
 mWritable
 (
-PR_FALSE
+false
 )
 {
 }
@@ -763,7 +763,7 @@ txXPathNativeNode
 createXPathNode
 (
 aNode
-PR_TRUE
+true
 )
 )
 ;

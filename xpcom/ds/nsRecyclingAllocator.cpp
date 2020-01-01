@@ -582,7 +582,7 @@ obj
 >
 mTouched
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -631,7 +631,7 @@ recycleAfter
 )
 mTouched
 (
-PR_FALSE
+false
 )
 #
 ifdef
@@ -948,7 +948,7 @@ memory
 .
 mTouched
 =
-PR_TRUE
+true
 ;
 Block
 *
@@ -1242,7 +1242,7 @@ memory
 .
 mTouched
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -2022,7 +2022,7 @@ nsRecyclingAllocatorImpl
 Malloc
 (
 size
-PR_FALSE
+false
 )
 ;
 }

@@ -1424,7 +1424,7 @@ const
 *
 *
 Returns
-PR_TRUE
+true
 except
 on
 OOM
@@ -1432,7 +1432,7 @@ in
 which
 case
 returns
-PR_FALSE
+false
 .
 *
 /
@@ -1453,7 +1453,7 @@ const
 *
 *
 Returns
-PR_TRUE
+true
 except
 on
 OOM
@@ -1461,7 +1461,7 @@ in
 which
 case
 returns
-PR_FALSE
+false
 .
 *
 /
@@ -1690,7 +1690,7 @@ may
 fail
 (
 return
-PR_FALSE
+false
 )
 on
 OOM
@@ -2088,11 +2088,11 @@ failure
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /

@@ -486,7 +486,7 @@ nsICOEncoder
 :
 mFinished
 (
-PR_FALSE
+false
 )
 mImageBufferStart
 (
@@ -518,7 +518,7 @@ mNotifyThreshold
 )
 mUsePNG
 (
-PR_TRUE
+true
 )
 {
 }
@@ -1629,7 +1629,7 @@ NS_ERROR_NOT_INITIALIZED
 }
 mFinished
 =
-PR_TRUE
+true
 ;
 NotifyListener
 (
@@ -1751,7 +1751,7 @@ usePNG
 *
 usePNG
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -2001,7 +2001,7 @@ nsCaseInsensitiveCStringComparator
 *
 usePNG
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2026,7 +2026,7 @@ nsCaseInsensitiveCStringComparator
 *
 usePNG
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2399,7 +2399,7 @@ _retval
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

@@ -729,7 +729,7 @@ aListener
 /
 /
 Returns
-PR_TRUE
+true
 if
 a
 listener

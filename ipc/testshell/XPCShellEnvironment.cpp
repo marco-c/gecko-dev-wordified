@@ -4138,7 +4138,7 @@ _retval
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4329,7 +4329,7 @@ _retval
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4455,7 +4455,7 @@ _retval
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4773,7 +4773,7 @@ NS_GRE_DIR
 *
 persistent
 =
-PR_TRUE
+true
 ;
 NS_ADDREF
 (

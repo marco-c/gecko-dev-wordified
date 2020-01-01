@@ -4071,7 +4071,7 @@ equality
 /
 /
 return
-PR_TRUE
+true
 if
 the
 element
@@ -4162,7 +4162,7 @@ for
 /
 /
 return
-PR_TRUE
+true
 if
 the
 element
@@ -5994,7 +5994,7 @@ idx
 mid
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -6096,7 +6096,7 @@ idx
 high
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -7054,7 +7054,7 @@ equality
 /
 /
 return
-PR_TRUE
+true
 if
 the
 element
@@ -7098,7 +7098,7 @@ i
 NoIndex
 )
 return
-PR_FALSE
+false
 ;
 RemoveElementAt
 (
@@ -7106,7 +7106,7 @@ i
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -7217,7 +7217,7 @@ equality
 /
 /
 return
-PR_TRUE
+true
 if
 the
 element
@@ -7614,7 +7614,7 @@ newLen
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -7829,7 +7829,7 @@ nsnull
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 /

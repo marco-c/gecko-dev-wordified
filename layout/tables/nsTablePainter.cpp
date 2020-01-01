@@ -1352,7 +1352,7 @@ nsnull
 )
 mVisible
 (
-PR_FALSE
+false
 )
 mBorder
 (
@@ -1468,7 +1468,7 @@ nsnull
 ;
 mVisible
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -1540,7 +1540,7 @@ IsVisibleForPainting
 {
 mVisible
 =
-PR_TRUE
+true
 ;
 mBorder
 =
@@ -1619,7 +1619,7 @@ mVisible
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -1658,11 +1658,11 @@ IsEmpty
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -3059,7 +3059,7 @@ cgData
 ;
 cgDataOwnershipTaken
 =
-PR_TRUE
+true
 ;
 if
 (

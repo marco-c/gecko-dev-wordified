@@ -550,7 +550,7 @@ kAutoDetect
 define
 IGNORE_CASE
 (
-PR_TRUE
+true
 )
 #
 endif

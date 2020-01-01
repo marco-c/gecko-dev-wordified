@@ -697,11 +697,11 @@ mResult
 aMenuItem
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 protected
@@ -781,7 +781,7 @@ ClearChecked
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 protected
@@ -872,7 +872,7 @@ mExcludeMenuItem
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 *
@@ -886,7 +886,7 @@ IsCheckedDirty
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 protected
@@ -945,7 +945,7 @@ SetCheckedDirty
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -1002,11 +1002,11 @@ aVisitor2
 )
 mContinue1
 (
-PR_TRUE
+true
 )
 mContinue2
 (
-PR_TRUE
+true
 )
 {
 }
@@ -1588,7 +1588,7 @@ originalCheckedValue
 {
 SetChecked
 (
-PR_TRUE
+true
 )
 ;
 aVisitor
@@ -1743,7 +1743,7 @@ selectedRadio
 >
 SetChecked
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -1756,7 +1756,7 @@ CMD_TYPE_RADIO
 {
 SetChecked
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1888,7 +1888,7 @@ ParseEnumValue
 (
 aValue
 kMenuItemTypeTable
-PR_FALSE
+false
 )
 ;
 if
@@ -1938,7 +1938,7 @@ aValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -2002,7 +2002,7 @@ nsContentUtils
 GetNodeTextContent
 (
 this
-PR_FALSE
+false
 text
 )
 ;
@@ -2010,8 +2010,8 @@ text
 .
 CompressWhitespace
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 aText

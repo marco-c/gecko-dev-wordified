@@ -514,7 +514,7 @@ needed
 If
 aFlush
 is
-PR_FALSE
+false
 we
 don
 '

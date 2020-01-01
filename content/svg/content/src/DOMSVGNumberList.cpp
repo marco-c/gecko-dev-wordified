@@ -1313,7 +1313,7 @@ DidChangeNumberList
 AttrEnum
 (
 )
-PR_TRUE
+true
 )
 ;
 #
@@ -1875,7 +1875,7 @@ DidChangeNumberList
 AttrEnum
 (
 )
-PR_TRUE
+true
 )
 ;
 #
@@ -2142,7 +2142,7 @@ DidChangeNumberList
 AttrEnum
 (
 )
-PR_TRUE
+true
 )
 ;
 #
@@ -2378,7 +2378,7 @@ DidChangeNumberList
 AttrEnum
 (
 )
-PR_TRUE
+true
 )
 ;
 #

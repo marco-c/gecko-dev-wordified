@@ -1206,7 +1206,7 @@ if
 stringLength
 )
 return
-PR_FALSE
+false
 ;
 nsAutoString
 number
@@ -1385,7 +1385,7 @@ aSign
 NS_MATHML_SIGN_INVALID
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1399,7 +1399,7 @@ c
 )
 gotDot
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -1524,7 +1524,7 @@ aSign
 NS_MATHML_SIGN_INVALID
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -1551,7 +1551,7 @@ aSign
 NS_MATHML_SIGN_INVALID
 ;
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1619,7 +1619,7 @@ i
 ;
 gotPercent
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1738,7 +1738,7 @@ aPseudoUnit
 NS_MATHML_PSEUDO_UNIT_ITSELF
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -1979,7 +1979,7 @@ aPseudoUnit
 NS_MATHML_PSEUDO_UNIT_NAMEDSPACE
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2019,7 +2019,7 @@ aCSSValue
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -2076,7 +2076,7 @@ eCSSUnit_Number
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -2128,7 +2128,7 @@ aSign
 NS_MATHML_SIGN_INVALID
 ;
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -2483,7 +2483,7 @@ nsMathMLContainerFrame
 Place
 (
 aRenderingContext
-PR_FALSE
+false
 aDesiredSize
 )
 ;

@@ -2902,7 +2902,7 @@ GetScrollTargetFrame
 NS_ENSURE_TRUE
 (
 sf
-PR_FALSE
+false
 )
 ;
 if
@@ -2941,7 +2941,7 @@ scrolled
 actually
 .
 return
-PR_FALSE
+false
 ;
 }
 SetTimeout
@@ -3041,7 +3041,7 @@ sMouseMoved
 0
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -3571,8 +3571,8 @@ NS_LITERAL_STRING
 MozMouseScrollFailed
 "
 )
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 }
@@ -3751,8 +3751,8 @@ NS_LITERAL_STRING
 MozMouseScrollTransactionTimeout
 "
 )
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 }
@@ -4785,19 +4785,19 @@ mRClickCount
 )
 m_haveShutdown
 (
-PR_FALSE
+false
 )
 mLastLineScrollConsumedX
 (
-PR_FALSE
+false
 )
 mLastLineScrollConsumedY
 (
-PR_FALSE
+false
 )
 mClickHoldContextMenu
 (
-PR_FALSE
+false
 )
 {
 if
@@ -5077,7 +5077,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_TRUE
+true
 )
 ;
 if
@@ -5389,7 +5389,7 @@ kObservedPrefs
 ;
 m_haveShutdown
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -6458,7 +6458,7 @@ aStatus
 ;
 sNormalLMouseEventInProcess
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -6590,7 +6590,7 @@ StopTrackingDragGesture
 endif
 sNormalLMouseEventInProcess
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -7892,7 +7892,7 @@ selectionEvent
 >
 mSucceeded
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -8087,7 +8087,7 @@ aEvent
 nsQueryContentEvent
 selectedText
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 compositionEvent
 -
@@ -8322,7 +8322,7 @@ eIgnoreCase
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -8355,7 +8355,7 @@ IsXUL
 )
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -8372,7 +8372,7 @@ if
 aFrame
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -8384,7 +8384,7 @@ IsFocusable
 )
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -8402,7 +8402,7 @@ IsVisible
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -8415,7 +8415,7 @@ AreAncestorViewsVisible
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -8442,7 +8442,7 @@ if
 control
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -8519,7 +8519,7 @@ nsGkAtoms
 legend
 )
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -8571,11 +8571,11 @@ nsGkAtoms
 label
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -8811,7 +8811,7 @@ accessKey
 )
 shouldActivate
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -8871,13 +8871,13 @@ FLAG_BYKEY
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -9934,7 +9934,7 @@ break
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 nsIContent
@@ -9983,7 +9983,7 @@ target
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -10004,7 +10004,7 @@ loaderOwner
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsRefPtr
@@ -10027,7 +10027,7 @@ frameLoader
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -10054,7 +10054,7 @@ EVENT_MODE_DONT_FORWARD_TO_CHILD
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsPoint
@@ -10093,7 +10093,7 @@ frameLoader
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -10956,7 +10956,7 @@ button
 )
 allowedToDispatch
 =
-PR_FALSE
+false
 ;
 else
 if
@@ -11009,7 +11009,7 @@ container
 {
 allowedToDispatch
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -11057,7 +11057,7 @@ eCaseMatters
 {
 allowedToDispatch
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -11204,7 +11204,7 @@ object
 {
 allowedToDispatch
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -11248,7 +11248,7 @@ good
 nsMouseEvent
 event
 (
-PR_TRUE
+true
 NS_CONTEXTMENU
 targetWidget
 nsMouseEvent
@@ -11343,7 +11343,7 @@ frameSel
 >
 SetMouseDownState
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -12902,7 +12902,7 @@ nsnull
 *
 aIsInEditor
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -13482,7 +13482,7 @@ editableElement
 *
 aIsInEditor
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -13650,7 +13650,7 @@ if
 dragService
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -13755,7 +13755,7 @@ if
 dragSession
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -13813,7 +13813,7 @@ if
 count
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -13911,7 +13911,7 @@ if
 dragTarget
 )
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -14160,7 +14160,7 @@ if
 transArray
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -14422,7 +14422,7 @@ aDataTransfer
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -16848,7 +16848,7 @@ isHorizontal
 {
 passToParent
 =
-PR_FALSE
+false
 ;
 nsMouseWheelTransaction
 :
@@ -16914,7 +16914,7 @@ passToParent
 {
 passToParent
 =
-PR_FALSE
+false
 ;
 frameToScroll
 =
@@ -16953,7 +16953,7 @@ passToParent
 {
 passToParent
 =
-PR_TRUE
+true
 ;
 nsMouseWheelTransaction
 :
@@ -17307,7 +17307,7 @@ aQueryEvent
 >
 mSucceeded
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -17861,7 +17861,7 @@ eXULBox
 {
 displayPanFeedback
 =
-PR_TRUE
+true
 ;
 nsRect
 scrollRange
@@ -17920,11 +17920,11 @@ want
 that
 canScrollHorizontally
 =
-PR_FALSE
+false
 ;
 displayPanFeedback
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -17984,7 +17984,7 @@ ePanHorizontal
 ;
 displayPanFeedback
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -18033,7 +18033,7 @@ ePanVertical
 ;
 displayPanFeedback
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -18057,7 +18057,7 @@ ePanHorizontal
 ;
 displayPanFeedback
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -18788,7 +18788,7 @@ IsFocusable
 (
 &
 tabIndexUnused
-PR_TRUE
+true
 )
 )
 {
@@ -19541,7 +19541,7 @@ frameSelection
 >
 SetMouseDownState
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -19774,7 +19774,7 @@ nsIScrollableFrame
 :
 :
 PAGES
-PR_FALSE
+false
 )
 ;
 break
@@ -19790,7 +19790,7 @@ nsIScrollableFrame
 :
 :
 DEVICE_PIXELS
-PR_FALSE
+false
 )
 ;
 break
@@ -19928,7 +19928,7 @@ dragSession
 >
 SetOnlyChromeDrop
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -20712,7 +20712,7 @@ dragSession
 >
 SetOnlyChromeDrop
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -21395,7 +21395,7 @@ queryEvent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -21420,7 +21420,7 @@ queryEvent
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 TabParent
@@ -21499,7 +21499,7 @@ IsEditable
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 TabParent
@@ -21919,7 +21919,7 @@ aTargetFrame
 GetNearestWidget
 (
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -26678,7 +26678,7 @@ are
 hierarchical
 updateAncestors
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -26735,7 +26735,7 @@ mUserInput
 NS_STYLE_USER_INPUT_NONE
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -26948,7 +26948,7 @@ else
 {
 updateAncestors
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -27126,7 +27126,7 @@ nsnull
 ;
 content1StateSet
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -27238,7 +27238,7 @@ UpdateAncestorState
 notifyContent2
 commonAncestor
 aState
-PR_FALSE
+false
 )
 ;
 }
@@ -27262,7 +27262,7 @@ DoStateChange
 (
 notifyContent2
 aState
-PR_FALSE
+false
 )
 ;
 }
@@ -27277,7 +27277,7 @@ content1StateSet
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -27896,7 +27896,7 @@ mDocument
 GetWindow
 (
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 focusedWindow
@@ -27964,7 +27964,7 @@ focusedWindow
 /
 /
 Return
-PR_TRUE
+true
 if
 the
 docshell
@@ -28008,7 +28008,7 @@ if
 basewin
 )
 return
-PR_TRUE
+true
 ;
 bool
 isVisible
@@ -28269,7 +28269,7 @@ aEvent
 >
 mIsEnabled
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -28437,7 +28437,7 @@ aEvent
 >
 mSucceeded
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -28563,7 +28563,7 @@ aEvent
 >
 mSucceeded
 =
-PR_TRUE
+true
 ;
 nsIScrollableFrame
 *
@@ -28604,7 +28604,7 @@ mScroll
 mIsHorizontal
 )
 :
-PR_FALSE
+false
 ;
 if
 (
@@ -28907,7 +28907,7 @@ PAGES
 ;
 allowOverrideSystemSettings
 =
-PR_FALSE
+false
 ;
 break
 ;

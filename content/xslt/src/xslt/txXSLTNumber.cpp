@@ -2567,7 +2567,7 @@ do
 nothing
 }
 return
-PR_TRUE
+true
 ;
 }
 return

@@ -795,7 +795,7 @@ nsHTTPDownloadEvent
 :
 mResponsibleForDoneSignal
 (
-PR_TRUE
+true
 )
 {
 }
@@ -974,7 +974,7 @@ getter_AddRefs
 (
 uploadStream
 )
-PR_FALSE
+false
 mRequestSession
 -
 >
@@ -1066,14 +1066,14 @@ rv
 ;
 mResponsibleForDoneSignal
 =
-PR_FALSE
+false
 ;
 mListener
 -
 >
 mResponsibleForDoneSignal
 =
-PR_TRUE
+true
 ;
 mListener
 -
@@ -1151,11 +1151,11 @@ mListener
 >
 mResponsibleForDoneSignal
 =
-PR_FALSE
+false
 ;
 mResponsibleForDoneSignal
 =
-PR_TRUE
+true
 ;
 NS_RELEASE
 (
@@ -1205,7 +1205,7 @@ mListener
 >
 FreeLoadGroup
 (
-PR_TRUE
+true
 )
 ;
 mListener
@@ -1545,7 +1545,7 @@ http_content_type
 {
 mHasPostData
 =
-PR_TRUE
+true
 ;
 mPostData
 .
@@ -1668,7 +1668,7 @@ http_header_value
 )
 /
 /
-PR_FALSE
+false
 )
 )
 )
@@ -1812,7 +1812,7 @@ retry_count
 ;
 retryable_error
 =
-PR_FALSE
+false
 ;
 result_sec_status
 =
@@ -2088,7 +2088,7 @@ mWaitFlag
 ;
 waitFlag
 =
-PR_TRUE
+true
 ;
 nsRefPtr
 <
@@ -2149,7 +2149,7 @@ event
 >
 mResponsibleForDoneSignal
 =
-PR_FALSE
+false
 ;
 return
 SECFailure
@@ -2382,7 +2382,7 @@ timeout
 {
 request_canceled
 =
-PR_TRUE
+true
 ;
 nsRefPtr
 <
@@ -2472,7 +2472,7 @@ NS_ERROR_NET_RESET
 {
 retryable_error
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -2697,7 +2697,7 @@ mRefCount
 )
 mHasPostData
 (
-PR_FALSE
+false
 )
 mTimeoutInterval
 (
@@ -2867,11 +2867,11 @@ mCondition
 )
 mWaitFlag
 (
-PR_TRUE
+true
 )
 mResponsibleForDoneSignal
 (
-PR_FALSE
+false
 )
 mLoadGroup
 (
@@ -2967,7 +2967,7 @@ PR_GetCurrentThread
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 attempt
 to
@@ -3052,7 +3052,7 @@ aStatus
 ;
 FreeLoadGroup
 (
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -3158,7 +3158,7 @@ rv
 )
 mHttpRequestSucceeded
 =
-PR_FALSE
+false
 ;
 mResultLen
 =
@@ -3250,7 +3250,7 @@ send_done_signal
 {
 mResponsibleForDoneSignal
 =
-PR_FALSE
+false
 ;
 {
 MutexAutoLock
@@ -3261,7 +3261,7 @@ mLock
 ;
 mWaitFlag
 =
-PR_FALSE
+false
 ;
 mCondition
 .
@@ -3715,7 +3715,7 @@ prompt
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 callbacks
 does
@@ -4624,7 +4624,7 @@ rv
 {
 equals_previous
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -4767,7 +4767,7 @@ status
 >
 mHaveKeyLengthAndCipher
 =
-PR_TRUE
+true
 ;
 status
 -
@@ -5610,7 +5610,7 @@ JUL
 :
 00
 "
-PR_TRUE
+true
 &
 cutoff
 )
@@ -5847,7 +5847,7 @@ DigiNotar
 {
 isDigiNotarIssuedCert
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -6666,7 +6666,7 @@ node
 cert
 CK_INVALID_HANDLE
 nickname
-PR_FALSE
+false
 )
 ;
 PK11_FreeSlot
@@ -7810,7 +7810,7 @@ i
 ]
 .
 issuerKeyID
-PR_TRUE
+true
 )
 ;
 myDefaultOCSPResponders
