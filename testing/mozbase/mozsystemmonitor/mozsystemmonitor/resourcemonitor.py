@@ -77,10 +77,7 @@ try
 import
 psutil
 except
-(
-ImportError
-NotImplementedError
-)
+Exception
 :
     
 psutil
