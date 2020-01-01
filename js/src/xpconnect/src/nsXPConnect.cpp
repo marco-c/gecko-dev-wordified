@@ -8030,8 +8030,10 @@ counts
 .
 nsTArray
 <
+nsRefPtr
+<
 XPCWrappedNative
-*
+>
 >
 *
 array
@@ -8040,8 +8042,10 @@ static_cast
 <
 nsTArray
 <
+nsRefPtr
+<
 XPCWrappedNative
-*
+>
 >
 *
 >
@@ -8204,8 +8208,10 @@ move
 .
 nsTArray
 <
+nsRefPtr
+<
 XPCWrappedNative
-*
+>
 >
 wrappersToMove
 ;
