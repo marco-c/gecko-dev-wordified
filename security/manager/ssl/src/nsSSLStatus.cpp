@@ -624,13 +624,9 @@ NS_ERROR_NOT_AVAILABLE
 *
 _result
 =
-PL_strdup
+ToNewCString
 (
 mCipherName
-.
-get
-(
-)
 )
 ;
 return
