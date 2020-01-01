@@ -6328,6 +6328,14 @@ updateStar
 (
 )
 ;
+this
+.
+_bookmarks
+.
+close
+(
+)
+;
 if
 (
 this
