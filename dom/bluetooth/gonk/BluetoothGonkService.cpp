@@ -185,6 +185,15 @@ License
 #
 include
 "
+base
+/
+basictypes
+.
+h
+"
+#
+include
+"
 BluetoothGonkService
 .
 h
