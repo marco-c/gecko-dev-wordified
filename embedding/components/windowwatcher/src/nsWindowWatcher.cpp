@@ -8557,6 +8557,10 @@ isChrome
 &
 aHasChromeParent
 )
+&
+&
+!
+aChromeURL
 )
 {
 \
