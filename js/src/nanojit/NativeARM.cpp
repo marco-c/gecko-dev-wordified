@@ -7970,7 +7970,7 @@ Assembler
 :
 nRegisterAllocFromSet
 (
-int
+RegisterMask
 set
 )
 {
