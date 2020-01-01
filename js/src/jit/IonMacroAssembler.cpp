@@ -7350,6 +7350,13 @@ Register
 dest
 )
 {
+if
+(
+framePtr
+!
+=
+dest
+)
 movePtr
 (
 framePtr
