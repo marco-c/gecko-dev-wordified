@@ -949,7 +949,7 @@ R
 .
 layout
 .
-home_item_row
+bookmark_item_row
 parent
 false
 )
