@@ -3568,7 +3568,7 @@ rt
 >
 gcStoreBuffer
 .
-putWholeObject
+putWholeCell
 (
 obj
 )
