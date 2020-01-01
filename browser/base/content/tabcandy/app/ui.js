@@ -7271,14 +7271,12 @@ if
 group
 )
 {
-iQ
-.
-each
-(
 set
+.
+forEach
+(
 function
 (
-index
 el
 )
 {
