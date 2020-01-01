@@ -5398,6 +5398,14 @@ def
 }
 MDefinition
 *
+foldsTo
+(
+bool
+useValueNumbers
+)
+;
+MDefinition
+*
 input
 (
 )
