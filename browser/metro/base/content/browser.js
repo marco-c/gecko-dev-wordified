@@ -9327,7 +9327,7 @@ strings
 GetStringFromName
 (
 "
-popupButtonAllowOnce
+popupButtonAllowOnce2
 "
 )
 accessKey
@@ -9355,7 +9355,7 @@ strings
 GetStringFromName
 (
 "
-popupButtonAlwaysAllow2
+popupButtonAlwaysAllow3
 "
 )
 accessKey
@@ -9384,7 +9384,7 @@ strings
 GetStringFromName
 (
 "
-popupButtonNeverWarn2
+popupButtonNeverWarn3
 "
 )
 accessKey
