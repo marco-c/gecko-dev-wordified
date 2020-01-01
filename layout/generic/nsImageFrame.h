@@ -1434,6 +1434,8 @@ mTransform
 void
 RecalculateTransform
 (
+PRBool
+aInnerAreaChanged
 )
 ;
 /
