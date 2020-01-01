@@ -463,6 +463,13 @@ xpcprivate
 .
 h
 "
+#
+include
+"
+nsNetError
+.
+h
+"
 /
 *
 *
