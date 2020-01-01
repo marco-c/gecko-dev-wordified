@@ -1170,7 +1170,7 @@ dom
 :
 Element
 >
-mContent
+mElement
 ;
 nsAString
 *

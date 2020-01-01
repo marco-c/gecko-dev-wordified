@@ -2354,7 +2354,7 @@ NS_ENSURE_ARG
 aElement
 )
 ;
-mContent
+mElement
 =
 aElement
 ;
@@ -2366,7 +2366,7 @@ id
 =
 GetIdForContent
 (
-mContent
+mElement
 )
 ;
 PRBool
@@ -2410,9 +2410,9 @@ EmptyString
 )
 ;
 }
-mContent
+mElement
 =
-0
+nsnull
 ;
 mOutputString
 =
@@ -2454,7 +2454,7 @@ NS_ENSURE_ARG
 aElement
 )
 ;
-mContent
+mElement
 =
 aElement
 ;
@@ -2466,7 +2466,7 @@ id
 =
 GetIdForContent
 (
-mContent
+mElement
 )
 ;
 PRBool
@@ -2499,9 +2499,9 @@ id
 )
 ;
 }
-mContent
+mElement
 =
-0
+nsnull
 ;
 mOutputString
 =
@@ -2949,7 +2949,7 @@ the
 DOM
 but
 then
-mContent
+mElement
 is
 *
 useable
@@ -6793,7 +6793,7 @@ the
 DOM
 but
 then
-mContent
+mElement
 is
 *
 useable
@@ -11888,12 +11888,12 @@ aValueRet
 {
 if
 (
-mContent
+mElement
 )
 {
 if
 (
-mContent
+mElement
 -
 >
 GetAttr
