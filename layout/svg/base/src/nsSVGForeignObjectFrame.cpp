@@ -4525,12 +4525,10 @@ localTM
 nsIntRect
 r
 =
-nsRect
-:
-:
+aRect
+.
 ToOutsidePixels
 (
-aRect
 presContext
 -
 >

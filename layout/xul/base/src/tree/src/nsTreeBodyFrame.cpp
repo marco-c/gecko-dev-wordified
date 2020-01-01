@@ -3590,12 +3590,10 @@ PresContext
 nsIntRect
 rect
 =
-nsRect
-:
-:
+mRect
+.
 ToOutsidePixels
 (
-mRect
 presContext
 -
 >

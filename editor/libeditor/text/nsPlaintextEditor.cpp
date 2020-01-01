@@ -10111,12 +10111,10 @@ aReply
 >
 mCursorPosition
 =
-nsRect
-:
-:
+rect
+.
 ToOutsidePixels
 (
-rect
 ps
 -
 >

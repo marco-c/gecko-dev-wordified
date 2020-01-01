@@ -3976,12 +3976,10 @@ endif
 nsIntRect
 dirtyPxRect
 =
-nsRect
-:
-:
+dirtyRect
+.
 ToOutsidePixels
 (
-dirtyRect
 PresContext
 (
 )

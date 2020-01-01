@@ -1141,13 +1141,11 @@ NS_OK
 nsRect
 r
 =
-nsIntRect
-:
-:
+dirtyRect
+-
+>
 ToAppUnits
 (
-*
-dirtyRect
 nsPresContext
 :
 :
