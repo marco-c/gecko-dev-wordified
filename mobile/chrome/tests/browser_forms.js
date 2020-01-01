@@ -186,6 +186,8 @@ canvas
 tile
 -
 container
+/
+*
 AsyncTests
 .
 waitFor
@@ -220,6 +222,8 @@ closed
 }
 )
 ;
+*
+/
 AsyncTests
 .
 waitFor
