@@ -1420,7 +1420,7 @@ R
 .
 id
 .
-open_new_tab
+top_bookmarks_open_new_tab
 )
 .
 setVisible
@@ -1437,7 +1437,7 @@ R
 .
 id
 .
-open_private_tab
+top_bookmarks_open_private_tab
 )
 .
 setVisible
@@ -1499,7 +1499,7 @@ R
 .
 id
 .
-open_new_tab
+top_bookmarks_open_new_tab
 )
 .
 setVisible
@@ -1515,7 +1515,7 @@ R
 .
 id
 .
-open_private_tab
+top_bookmarks_open_private_tab
 )
 .
 setVisible
@@ -1634,14 +1634,14 @@ R
 .
 id
 .
-open_new_tab
+top_bookmarks_open_new_tab
 :
 case
 R
 .
 id
 .
-open_private_tab
+top_bookmarks_open_private_tab
 :
 {
 if
@@ -1701,7 +1701,7 @@ R
 .
 id
 .
-open_private_tab
+top_bookmarks_open_private_tab
 )
 flags
 |

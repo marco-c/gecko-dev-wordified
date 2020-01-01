@@ -591,7 +591,7 @@ R
 .
 id
 .
-open_new_tab
+home_open_new_tab
 )
 .
 setVisible
@@ -608,7 +608,7 @@ R
 .
 id
 .
-open_private_tab
+home_open_private_tab
 )
 .
 setVisible
@@ -649,7 +649,7 @@ R
 .
 id
 .
-remove_history
+home_remove_history
 )
 .
 setVisible
@@ -675,7 +675,7 @@ R
 .
 id
 .
-remove_history
+home_remove_history
 )
 .
 setVisible
@@ -691,7 +691,7 @@ R
 .
 id
 .
-open_in_reader
+home_open_in_reader
 )
 .
 setVisible
@@ -1001,14 +1001,14 @@ R
 .
 id
 .
-open_private_tab
+home_open_private_tab
 :
 case
 R
 .
 id
 .
-open_new_tab
+home_open_new_tab
 :
 {
 if
@@ -1068,7 +1068,7 @@ R
 .
 id
 .
-open_private_tab
+home_open_private_tab
 )
 flags
 |
@@ -1119,7 +1119,7 @@ R
 .
 id
 .
-edit_bookmark
+home_edit_bookmark
 :
 {
 new
@@ -1144,7 +1144,7 @@ R
 .
 id
 .
-remove_bookmark
+home_remove_bookmark
 :
 {
 final
