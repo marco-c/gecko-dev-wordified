@@ -1393,6 +1393,7 @@ from
 }
 }
 }
+;
 this
 .
 _xmppClient
