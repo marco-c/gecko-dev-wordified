@@ -8020,6 +8020,12 @@ PRBool
 aIsAsynch
 )
 {
+NS_ENSURE_TRUE
+(
+aEvent
+NS_ERROR_FAILURE
+)
+;
 PRBool
 isTimerStarted
 =
