@@ -494,6 +494,13 @@ h
 #
 include
 "
+XPCQuickStubs
+.
+h
+"
+#
+include
+"
 nsReadableUtils
 .
 h

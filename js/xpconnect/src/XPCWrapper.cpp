@@ -848,8 +848,12 @@ nsnull
 ;
 }
 }
+/
+/
 namespace
-XPCWrapper
+XPCNativeWrapper
+namespace
+xpc
 {
 JSObject
 *
@@ -908,6 +912,14 @@ return
 nsnull
 ;
 }
+}
+/
+/
+namespace
+xpc
+namespace
+XPCWrapper
+{
 JSObject
 *
 UnsafeUnwrapSecurityWrapper
@@ -943,3 +955,7 @@ obj
 ;
 }
 }
+/
+/
+namespace
+XPCWrapper

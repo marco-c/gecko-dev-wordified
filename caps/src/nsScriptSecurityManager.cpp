@@ -463,6 +463,13 @@ h
 #
 include
 "
+XPCWrapper
+.
+h
+"
+#
+include
+"
 nsScriptSecurityManager
 .
 h
