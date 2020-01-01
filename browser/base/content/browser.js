@@ -29102,6 +29102,13 @@ about
 :
 permissions
 "
+"
+about
+:
+sync
+-
+progress
+"
 ]
 QueryInterface
 :
