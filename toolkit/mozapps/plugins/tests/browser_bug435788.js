@@ -2358,9 +2358,8 @@ install
 ;
 AddonManager
 .
-getInstalls
+getAllInstalls
 (
-null
 function
 (
 installs
@@ -3253,9 +3252,8 @@ install
 ;
 AddonManager
 .
-getInstalls
+getAllInstalls
 (
-null
 function
 (
 installs
@@ -3671,9 +3669,8 @@ install
 ;
 AddonManager
 .
-getInstalls
+getAllInstalls
 (
-null
 function
 (
 installs
