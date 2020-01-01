@@ -605,8 +605,11 @@ docElement
 ;
 is
 (
+SpecialPowers
+.
+call_Instanceof
+(
 res
-instanceof
 Components
 .
 interfaces
@@ -615,6 +618,7 @@ interfaces
 nsIArray
 "
 ]
+)
 true
 "
 getBindingURLs
