@@ -1414,6 +1414,7 @@ window
 .
 TabsManager
 =
+iQ
 .
 extend
 (
