@@ -2167,7 +2167,9 @@ JSOp
 script
 -
 >
-code
+main
+(
+)
 +
 tn
 -
