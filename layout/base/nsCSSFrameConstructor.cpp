@@ -6744,6 +6744,13 @@ HasTransform
 )
 )
 ;
+aNewAbsoluteContainingBlock
+-
+>
+MarkAsAbsoluteContainingBlock
+(
+)
+;
 }
 void
 nsFrameConstructorState
