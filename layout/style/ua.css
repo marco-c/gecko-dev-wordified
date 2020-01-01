@@ -1247,6 +1247,15 @@ gap
 :
 inherit
 ;
+-
+moz
+-
+column
+-
+rule
+:
+inherit
+;
 /
 *
 Do
