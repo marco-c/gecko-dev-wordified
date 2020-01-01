@@ -735,6 +735,10 @@ if
 login
 .
 username
+.
+toLowerCase
+(
+)
 =
 =
 this
