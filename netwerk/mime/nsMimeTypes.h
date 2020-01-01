@@ -1078,6 +1078,16 @@ webm
 "
 #
 define
+BINARY_OCTET_STREAM
+"
+binary
+/
+octet
+-
+stream
+"
+#
+define
 IMAGE_GIF
 "
 image
