@@ -708,13 +708,6 @@ h
 #
 include
 "
-nsIWeakReference
-.
-h
-"
-#
-include
-"
 nsIWritablePropertyBag2
 .
 h

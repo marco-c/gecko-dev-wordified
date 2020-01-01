@@ -452,13 +452,6 @@ h
 #
 include
 "
-nsIWeakReference
-.
-h
-"
-#
-include
-"
 nsIWeakReferenceUtils
 .
 h
