@@ -4417,6 +4417,10 @@ GetEventScope
 (
 )
 handler
+.
+getObject
+(
+)
 boundHandler
 )
 ;

@@ -730,7 +730,7 @@ aTarget
 JSObject
 *
 aScope
-void
+JSObject
 *
 aHandler
 nsScriptObjectHolder
