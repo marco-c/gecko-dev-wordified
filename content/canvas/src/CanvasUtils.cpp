@@ -325,6 +325,16 @@ CORSUsed
 )
 return
 ;
+/
+/
+Ignore
+document
+.
+domain
+in
+this
+check
+.
 bool
 subsumes
 ;
@@ -339,7 +349,7 @@ NodePrincipal
 )
 -
 >
-Subsumes
+SubsumesIgnoringDomain
 (
 aPrincipal
 &
