@@ -798,10 +798,7 @@ void
 SyncFrameMetrics
 (
 const
-gfx
-:
-:
-Point
+ScreenPoint
 &
 aScrollOffset
 float

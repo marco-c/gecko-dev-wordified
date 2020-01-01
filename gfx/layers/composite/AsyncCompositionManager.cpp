@@ -2239,10 +2239,7 @@ AsLayerComposite
 ViewTransform
 treeTransform
 ;
-gfx
-:
-:
-Point
+ScreenPoint
 scrollOffset
 ;
 *
@@ -3849,10 +3846,7 @@ AsyncCompositionManager
 SyncFrameMetrics
 (
 const
-gfx
-:
-:
-Point
+ScreenPoint
 &
 aScrollOffset
 float

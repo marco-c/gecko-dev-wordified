@@ -6007,10 +6007,7 @@ AndroidGeckoLayerClient
 SyncFrameMetrics
 (
 const
-gfx
-:
-:
-Point
+ScreenPoint
 &
 aScrollOffset
 float
@@ -6127,6 +6124,10 @@ LayerPoint
 FromUnknownPoint
 (
 aScrollOffset
+.
+ToUnknownPoint
+(
+)
 )
 ;
 LayerIntRect
