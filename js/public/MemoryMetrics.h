@@ -418,10 +418,7 @@ void
 extra
 ;
 size_t
-gcHeapArenaHeaders
-;
-size_t
-gcHeapArenaPadding
+gcHeapArenaAdmin
 ;
 size_t
 gcHeapArenaUnused
