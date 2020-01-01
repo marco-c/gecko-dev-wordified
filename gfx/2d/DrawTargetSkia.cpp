@@ -1479,7 +1479,7 @@ shader
 SkGradientShader
 :
 :
-CreateTwoPointRadial
+CreateTwoPointConical
 (
 points
 [
