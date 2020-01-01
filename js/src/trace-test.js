@@ -10460,13 +10460,13 @@ jitstats
 {
 recorderStarted
 :
-4
+3
 recorderAborted
 :
 0
 traceTriggered
 :
-6
+7
 }
 ;
 test
