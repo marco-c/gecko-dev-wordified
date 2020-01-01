@@ -2615,6 +2615,7 @@ and
 windows
 for
 (
+let
 ix
 in
 this
@@ -2988,11 +2989,9 @@ sessionstore
 max_tabs_undo
 "
 :
-var
-ix
-;
 for
 (
+let
 ix
 in
 this
