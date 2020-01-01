@@ -3722,15 +3722,6 @@ atomsCompartment
 (
 NULL
 )
-#
-ifdef
-JS_THREADSAFE
-atomsCompartmentIsLocked
-(
-false
-)
-#
-endif
 state
 (
 )

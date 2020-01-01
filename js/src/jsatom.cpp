@@ -3502,8 +3502,7 @@ allocation
 or
 OOM
 handling
-may
-unlock
+unlocks
 the
 atomsCompartment
 .
