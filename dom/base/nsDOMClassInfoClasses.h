@@ -516,10 +516,6 @@ SVGFEMorphologyElement
 )
 DOMCI_CLASS
 (
-SVGFEOffsetElement
-)
-DOMCI_CLASS
-(
 SVGFESpecularLightingElement
 )
 DOMCI_CLASS
