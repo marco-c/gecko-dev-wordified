@@ -4808,8 +4808,8 @@ SelectionType
 aType
 SelectionRegion
 aRegion
-PRBool
-aIsSynchronous
+PRInt16
+aFlags
 )
 ;
 NS_IMETHOD
@@ -15199,8 +15199,8 @@ SelectionType
 aType
 SelectionRegion
 aRegion
-PRBool
-aIsSynchronous
+PRInt16
+aFlags
 )
 {
 if
@@ -15219,7 +15219,7 @@ ScrollSelectionIntoView
 (
 aType
 aRegion
-aIsSynchronous
+aFlags
 )
 ;
 }
@@ -18055,7 +18055,10 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-PR_TRUE
+nsISelectionController
+:
+:
+SCROLL_SYNCHRONOUS
 )
 ;
 }
@@ -18642,7 +18645,10 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-PR_TRUE
+nsISelectionController
+:
+:
+SCROLL_SYNCHRONOUS
 )
 ;
 }
@@ -25346,6 +25352,9 @@ if
 (
 aFlags
 &
+nsIPresShell
+:
+:
 SCROLL_FIRST_ANCESTOR_ONLY
 )
 {
@@ -43573,7 +43582,10 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-PR_TRUE
+nsISelectionController
+:
+:
+SCROLL_SYNCHRONOUS
 )
 ;
 NS_ENSURE_SUCCESS

@@ -12012,7 +12012,7 @@ nsISelectionController
 :
 SELECTION_NORMAL
 region
-PR_FALSE
+0
 )
 ;
 }

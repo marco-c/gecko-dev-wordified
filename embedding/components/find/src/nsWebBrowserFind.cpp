@@ -2953,7 +2953,10 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-PR_TRUE
+nsISelectionController
+:
+:
+SCROLL_SYNCHRONOUS
 )
 ;
 }

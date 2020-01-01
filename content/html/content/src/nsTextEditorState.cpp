@@ -1074,8 +1074,8 @@ PRInt16
 aType
 PRInt16
 aRegion
-PRBool
-aIsSynchronous
+PRInt16
+aFlags
 )
 ;
 NS_IMETHOD
@@ -1585,8 +1585,8 @@ PRInt16
 aType
 PRInt16
 aRegion
-PRBool
-aIsSynchronous
+PRInt16
+aFlags
 )
 {
 if
@@ -1605,7 +1605,7 @@ ScrollSelectionIntoView
 (
 aType
 aRegion
-aIsSynchronous
+aFlags
 )
 ;
 }
@@ -2378,7 +2378,10 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-PR_TRUE
+nsISelectionController
+:
+:
+SCROLL_SYNCHRONOUS
 )
 ;
 }
