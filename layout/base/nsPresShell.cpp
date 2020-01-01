@@ -45202,6 +45202,7 @@ if
 (
 mCaret
 )
+{
 mCaret
 -
 >
@@ -45210,6 +45211,7 @@ SetCaretVisible
 PR_FALSE
 )
 ;
+}
 mPaintingSuppressed
 =
 PR_TRUE
@@ -45218,6 +45220,7 @@ if
 (
 mDocument
 )
+{
 mDocument
 -
 >
@@ -45227,6 +45230,7 @@ FreezeSubDocument
 nsnull
 )
 ;
+}
 nsPresContext
 *
 presContext
@@ -45273,10 +45277,16 @@ mFrozen
 =
 PR_TRUE
 ;
+if
+(
+mDocument
+)
+{
 UpdateImageLockingState
 (
 )
 ;
+}
 }
 void
 PresShell
