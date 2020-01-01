@@ -3868,6 +3868,13 @@ Accesses
 to
 typed
 arrays
+OP_SCRIPTED_GETTER
+/
+/
+Getters
+defined
+in
+JS
 OP_LIMIT
 }
 ;
