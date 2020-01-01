@@ -425,17 +425,6 @@ aReadback
 )
 {
 }
-virtual
-ShadowableLayer
-*
-AsShadowableLayer
-(
-)
-{
-return
-nsnull
-;
-}
 /
 *
 *

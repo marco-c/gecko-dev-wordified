@@ -1117,6 +1117,9 @@ nsIntPoint
 aTextureOffset
 nsIntSize
 aTextureBounds
+Layer
+*
+aMaskLayer
 )
 {
 gl
@@ -1157,6 +1160,7 @@ gl
 :
 :
 RGBXLayerProgramType
+aMaskLayer
 )
 ;
 }
@@ -1172,7 +1176,8 @@ GetProgram
 gl
 :
 :
-BGRARectLayerProgramType
+BGRALayerProgramType
+aMaskLayer
 )
 ;
 }
@@ -1215,6 +1220,16 @@ program
 SetRenderOffset
 (
 aOffset
+)
+;
+program
+-
+>
+LoadMask
+(
+GetMaskLayer
+(
+)
 )
 ;
 nsIntRegionRectIterator
@@ -1337,6 +1352,14 @@ ProcessUploadQueue
 (
 )
 ;
+Layer
+*
+maskLayer
+=
+GetMaskLayer
+(
+)
+;
 /
 /
 Render
@@ -1399,6 +1422,7 @@ GetEffectiveTransform
 (
 )
 aOffset
+maskLayer
 )
 ;
 }
@@ -1677,6 +1701,7 @@ nsIntSize
 tileSize
 tileSize
 )
+maskLayer
 )
 ;
 }

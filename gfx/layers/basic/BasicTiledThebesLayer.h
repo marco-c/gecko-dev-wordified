@@ -472,9 +472,6 @@ aCallback
 void
 *
 aCallbackData
-Layer
-*
-aMaskLayer
 )
 ;
 BasicTiledLayerTile

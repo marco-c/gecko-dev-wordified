@@ -1251,6 +1251,17 @@ Destroy
 )
 ;
 virtual
+bool
+LoadAsTexture
+(
+GLuint
+aTextureUnit
+gfxIntSize
+*
+aSize
+)
+;
+virtual
 Layer
 *
 GetLayer

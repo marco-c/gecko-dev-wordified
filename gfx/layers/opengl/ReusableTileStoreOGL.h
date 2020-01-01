@@ -458,6 +458,9 @@ const
 nsIntPoint
 &
 aRenderOffset
+Layer
+*
+aMaskLayer
 )
 ;
 private
