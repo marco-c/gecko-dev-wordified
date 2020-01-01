@@ -2820,17 +2820,6 @@ true
 pref
 (
 "
-keyword
-.
-URL
-"
-"
-"
-)
-;
-pref
-(
-"
 accessibility
 .
 typeaheadfind
