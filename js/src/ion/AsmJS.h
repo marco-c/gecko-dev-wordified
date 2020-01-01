@@ -176,14 +176,6 @@ JS_ION
 &
 &
 \
-!
-defined
-(
-ANDROID
-)
-&
-&
-\
 (
 defined
 (
