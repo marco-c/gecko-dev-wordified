@@ -64,7 +64,6 @@ if
 completed
 )
 return
-false
 ;
 try
 {
@@ -142,9 +141,6 @@ function
 finish
 (
 )
-;
-return
-false
 ;
 }
 v

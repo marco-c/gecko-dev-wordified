@@ -49,16 +49,12 @@ if
 completed
 )
 return
-false
 ;
 v
 .
 currentTime
 =
 seekTime
-;
-return
-false
 ;
 }
 function
@@ -92,7 +88,6 @@ if
 completed
 )
 return
-false
 ;
 ok
 (
@@ -140,9 +135,6 @@ startPassed
 =
 true
 ;
-return
-false
-;
 }
 function
 seekEnded
@@ -154,7 +146,6 @@ if
 completed
 )
 return
-false
 ;
 var
 t
@@ -217,9 +208,6 @@ true
 finish
 (
 )
-;
-return
-false
 ;
 }
 v

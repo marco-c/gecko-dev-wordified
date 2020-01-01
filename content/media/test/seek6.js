@@ -67,7 +67,6 @@ if
 completed
 )
 return
-false
 ;
 interval
 =
@@ -91,9 +90,6 @@ v
 .
 duration
 ;
-return
-false
-;
 }
 function
 seekEnded
@@ -105,7 +101,6 @@ if
 completed
 )
 return
-false
 ;
 seekCount
 +
@@ -160,9 +155,6 @@ v
 duration
 ;
 }
-return
-false
-;
 }
 v
 .

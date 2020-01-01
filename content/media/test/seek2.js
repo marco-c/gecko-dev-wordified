@@ -50,7 +50,6 @@ if
 completed
 )
 return
-false
 ;
 v
 .
@@ -64,9 +63,6 @@ play
 (
 )
 ;
-return
-false
-;
 }
 function
 seekStarted
@@ -78,7 +74,6 @@ if
 completed
 )
 return
-false
 ;
 ok
 (
@@ -115,9 +110,6 @@ startPassed
 =
 true
 ;
-return
-false
-;
 }
 function
 seekEnded
@@ -129,14 +121,10 @@ if
 completed
 )
 return
-false
 ;
 endPassed
 =
 true
-;
-return
-false
 ;
 }
 function
@@ -149,7 +137,7 @@ if
 completed
 )
 return
-false
+;
 completed
 =
 true
@@ -222,9 +210,6 @@ currentTime
 finish
 (
 )
-;
-return
-false
 ;
 }
 v

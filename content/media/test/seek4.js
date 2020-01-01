@@ -44,7 +44,6 @@ if
 completed
 )
 return
-false
 ;
 v
 .
@@ -58,9 +57,6 @@ _seekTarget
 =
 seekTime
 ;
-return
-false
-;
 }
 function
 seekStarted
@@ -72,7 +68,6 @@ if
 completed
 )
 return
-false
 ;
 seekCount
 +
@@ -139,9 +134,6 @@ seekTime
 2
 ;
 }
-return
-false
-;
 }
 function
 seekEnded
@@ -153,7 +145,6 @@ if
 completed
 )
 return
-false
 ;
 if
 (
@@ -203,9 +194,6 @@ finish
 )
 ;
 }
-return
-false
-;
 }
 v
 .
