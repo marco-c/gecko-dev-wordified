@@ -1951,7 +1951,7 @@ GetIPDLActor
 mTxn
 -
 >
-AddPaint
+AddNoSwapPaint
 (
 OpPaintTextureIncremental
 (
@@ -4118,7 +4118,7 @@ aBufferRect
 mTxn
 -
 >
-AddPaint
+AddNoSwapPaint
 (
 OpCreatedIncrementalTexture
 (
