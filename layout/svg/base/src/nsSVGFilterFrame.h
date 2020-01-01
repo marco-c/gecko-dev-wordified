@@ -466,7 +466,7 @@ nsStyleContext
 aContext
 )
 ;
-public
+protected
 :
 nsSVGFilterFrame
 (
@@ -481,6 +481,8 @@ aContext
 )
 {
 }
+public
+:
 nsresult
 FilterPaint
 (

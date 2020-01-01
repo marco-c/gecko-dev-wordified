@@ -457,7 +457,7 @@ nsSVGPaintServerFrameBase
 public
 nsSVGValue
 {
-public
+protected
 :
 nsSVGPaintServerFrame
 (
@@ -472,6 +472,8 @@ aContext
 )
 {
 }
+public
+:
 /
 *
 *

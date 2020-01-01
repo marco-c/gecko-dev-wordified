@@ -458,8 +458,6 @@ nsSVGMarkerFrame
 public
 nsSVGMarkerFrameBase
 {
-protected
-:
 friend
 nsIFrame
 *
@@ -476,7 +474,7 @@ nsStyleContext
 aContext
 )
 ;
-public
+protected
 :
 nsSVGMarkerFrame
 (
@@ -503,6 +501,8 @@ PR_FALSE
 )
 {
 }
+public
+:
 /
 *
 *

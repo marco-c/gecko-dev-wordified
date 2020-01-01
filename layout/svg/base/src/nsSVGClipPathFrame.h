@@ -458,6 +458,8 @@ nsStyleContext
 aContext
 )
 ;
+protected
+:
 nsSVGClipPathFrame
 (
 nsStyleContext
