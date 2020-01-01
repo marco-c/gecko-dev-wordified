@@ -228,7 +228,7 @@ h
 #
 include
 "
-nsISiteSecurityService
+nsIStrictTransportSecurityService
 .
 h
 "
@@ -1317,9 +1317,9 @@ GetCookieService
 /
 not
 addrefed
-nsISiteSecurityService
+nsIStrictTransportSecurityService
 *
-GetSSService
+GetSTSService
 (
 )
 ;
@@ -1864,9 +1864,9 @@ mCookieService
 ;
 nsCOMPtr
 <
-nsISiteSecurityService
+nsIStrictTransportSecurityService
 >
-mSSService
+mSTSService
 ;
 /
 /

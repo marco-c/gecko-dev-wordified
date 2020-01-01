@@ -80,14 +80,14 @@ thread
 /
 #
 ifndef
-__nsSiteSecurityService_h__
+__nsStrictTransportSecurityService_h__
 #
 define
-__nsSiteSecurityService_h__
+__nsStrictTransportSecurityService_h__
 #
 include
 "
-nsISiteSecurityService
+nsIStrictTransportSecurityService
 .
 h
 "
@@ -162,7 +162,7 @@ c42a465138a1
 }
 #
 define
-NS_SITE_SECURITY_SERVICE_CID
+NS_STRICT_TRANSPORT_SECURITY_CID
 \
 {
 0x16955eee
@@ -262,7 +262,7 @@ NS_SITE_SECURITY_SERVICE_CID
 /
 /
 /
-nsSSSHostEntry
+nsSTSHostEntry
 -
 similar
 to
@@ -293,7 +293,7 @@ permissions
 /
 /
 Each
-nsSSSHostEntry
+nsSTSHostEntry
 contains
 :
 /
@@ -363,7 +363,7 @@ The
 existence
 of
 the
-nsSSSHostEntry
+nsSTSHostEntry
 implies
 STS
 state
@@ -473,7 +473,7 @@ subdomains
 flag
 in
 the
-nsSSSHostEntry
+nsSTSHostEntry
 means
 both
 that
@@ -574,7 +574,7 @@ be
 shadowed
 .
 class
-nsSSSHostEntry
+nsSTSHostEntry
 :
 public
 PLDHashEntryHdr
@@ -582,7 +582,7 @@ PLDHashEntryHdr
 public
 :
 explicit
-nsSSSHostEntry
+nsSTSHostEntry
 (
 const
 char
@@ -591,10 +591,10 @@ aHost
 )
 ;
 explicit
-nsSSSHostEntry
+nsSTSHostEntry
 (
 const
-nsSSSHostEntry
+nsSTSHostEntry
 &
 toCopy
 )
@@ -895,10 +895,10 @@ class
 nsSTSPreload
 ;
 class
-nsSiteSecurityService
+nsStrictTransportSecurityService
 :
 public
-nsISiteSecurityService
+nsIStrictTransportSecurityService
 public
 nsIObserver
 {
@@ -906,8 +906,8 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIOBSERVER
-NS_DECL_NSISITESECURITYSERVICE
-nsSiteSecurityService
+NS_DECL_NSISTRICTTRANSPORTSECURITYSERVICE
+nsStrictTransportSecurityService
 (
 )
 ;
@@ -918,7 +918,7 @@ Init
 ;
 virtual
 ~
-nsSiteSecurityService
+nsStrictTransportSecurityService
 (
 )
 ;
@@ -948,10 +948,8 @@ aPrincipal
 )
 ;
 nsresult
-SetState
+SetStsState
 (
-uint32_t
-aType
 nsIURI
 *
 aSourceURI
@@ -964,10 +962,8 @@ flags
 )
 ;
 nsresult
-ProcessHeaderMutating
+ProcessStsHeaderMutating
 (
-uint32_t
-aType
 nsIURI
 *
 aSourceURI
@@ -1059,7 +1055,7 @@ mObserverService
 ;
 nsTHashtable
 <
-nsSSSHostEntry
+nsSTSHostEntry
 >
 mPrivateModeHostTable
 ;
@@ -1072,4 +1068,4 @@ mUsePreloadList
 endif
 /
 /
-__nsSiteSecurityService_h__
+__nsStrictTransportSecurityService_h__
