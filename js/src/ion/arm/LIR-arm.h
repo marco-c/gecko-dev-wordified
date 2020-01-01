@@ -614,7 +614,7 @@ payload
 return
 getOperand
 (
-1
+0
 )
 ;
 }
