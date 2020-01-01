@@ -11180,7 +11180,7 @@ jstype
 ]
 =
 "
-PRInt64
+int64_t
 "
         
 replacements
@@ -11191,7 +11191,10 @@ converter
 ]
 =
 "
-xpc_qsValueToInt64
+xpc
+:
+:
+ValueToInt64
 "
     
 elif
@@ -11239,7 +11242,7 @@ jstype
 ]
 =
 "
-PRUint64
+uint64_t
 "
         
 replacements
@@ -11250,7 +11253,10 @@ converter
 ]
 =
 "
-xpc_qsValueToUint64
+xpc
+:
+:
+ValueToUint64
 "
     
 elif
