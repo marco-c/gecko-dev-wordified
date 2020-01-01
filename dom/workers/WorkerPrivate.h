@@ -241,9 +241,6 @@ class
 nsIPrincipal
 ;
 class
-nsIMemoryMultiReporter
-;
-class
 nsIScriptContext
 ;
 class
@@ -259,6 +256,9 @@ class
 nsIXPCScriptNotify
 ;
 BEGIN_WORKERS_NAMESPACE
+class
+WorkerMemoryReporter
+;
 class
 WorkerPrivate
 ;
@@ -1541,6 +1541,10 @@ WorkerPrivateParent
 WorkerPrivate
 >
 ;
+friend
+class
+WorkerMemoryReporter
+;
 typedef
 WorkerPrivateParent
 <
@@ -1694,9 +1698,9 @@ nsITimer
 >
 mTimer
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIMemoryMultiReporter
+WorkerMemoryReporter
 >
 mMemoryReporter
 ;
@@ -1732,9 +1736,6 @@ mCloseHandlerFinished
 ;
 bool
 mMemoryReporterRunning
-;
-bool
-mMemoryReporterDisabled
 ;
 #
 ifdef
@@ -2160,9 +2161,6 @@ isQuick
 void
 *
 aData
-bool
-*
-aDisabled
 )
 ;
 bool
