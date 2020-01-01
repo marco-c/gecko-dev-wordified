@@ -915,7 +915,7 @@ litmus
 handleDialogCancel
 litmus
 .
-undisableAll
+handleDialogOK
 )
 ;
 }
@@ -2996,7 +2996,7 @@ prototype
 product
 :
 null
-platorm
+platform
 :
 null
 opsys
