@@ -1892,10 +1892,6 @@ mRetryPointerGrab
 :
 1
 ;
-GtkWindow
-*
-mTransientParent
-;
 nsSizeMode
 mSizeState
 ;
