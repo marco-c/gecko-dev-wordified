@@ -3268,6 +3268,9 @@ self
 automation
 options
 scriptdir
+debuggerInfo
+=
+None
 )
 :
     
@@ -3290,6 +3293,12 @@ self
 _scriptdir
 =
 scriptdir
+    
+self
+.
+debuggerInfo
+=
+debuggerInfo
   
 def
 start
@@ -3297,6 +3306,77 @@ start
 self
 )
 :
+    
+#
+If
+we
+'
+re
+running
+tests
+under
+an
+interactive
+debugger
+tell
+the
+server
+to
+    
+#
+ignore
+SIGINT
+so
+it
+doesn
+'
+t
+capture
+a
+ctrl
++
+c
+meant
+for
+the
+debugger
+.
+    
+if
+self
+.
+debuggerInfo
+and
+self
+.
+debuggerInfo
+[
+'
+interactive
+'
+]
+:
+        
+scriptPath
+=
+'
+pywebsocket_ignore_sigint
+.
+py
+'
+    
+else
+:
+        
+scriptPath
+=
+'
+pywebsocket
+/
+standalone
+.
+py
+'
     
 script
 =
@@ -3309,13 +3389,7 @@ join
 self
 .
 _scriptdir
-'
-pywebsocket
-/
-standalone
-.
-py
-'
+scriptPath
 )
     
 cmd
@@ -3841,6 +3915,7 @@ startWebSocketServer
 (
 self
 options
+debuggerInfo
 )
 :
     
@@ -3884,9 +3959,11 @@ self
 .
 automation
 options
+                                    
 self
 .
 SCRIPT_DIRECTORY
+debuggerInfo
 )
     
 self
@@ -5382,6 +5459,7 @@ self
 startWebSocketServer
 (
 options
+debuggerInfo
 )
     
 testURL
