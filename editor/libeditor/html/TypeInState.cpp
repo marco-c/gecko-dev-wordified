@@ -1576,7 +1576,7 @@ return
 relSize
 ;
 }
-nsresult
+void
 TypeInState
 :
 :
@@ -1593,7 +1593,6 @@ nsIAtom
 aProp
 )
 {
-return
 GetTypingState
 (
 isSet
@@ -1606,7 +1605,7 @@ nsnull
 )
 ;
 }
-nsresult
+void
 TypeInState
 :
 :
@@ -1675,9 +1674,6 @@ isSet
 false
 ;
 }
-return
-NS_OK
-;
 }
 /
 *
@@ -1819,7 +1815,7 @@ methods
 *
 *
 /
-nsresult
+void
 TypeInState
 :
 :
@@ -1916,11 +1912,8 @@ index
 )
 ;
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 TypeInState
 :
 :
@@ -1964,9 +1957,6 @@ index
 )
 ;
 }
-return
-NS_OK
-;
 }
 bool
 TypeInState

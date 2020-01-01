@@ -1789,19 +1789,7 @@ child
 slotSpan
 (
 )
-+
-1
 ;
-/
-*
-Add
-one
-for
-private
-data
-.
-*
-/
 gc
 :
 :
@@ -1898,8 +1886,6 @@ CallObject
 :
 :
 RESERVED_SLOTS
-+
-1
 ;
 JS_ASSERT
 (
@@ -1922,8 +1908,6 @@ CallObject
 :
 :
 RESERVED_SLOTS
-+
-1
 )
 ;
 }
@@ -1933,8 +1917,6 @@ shape
 setNumFixedSlots
 (
 nfixed
--
-1
 )
 ;
 }

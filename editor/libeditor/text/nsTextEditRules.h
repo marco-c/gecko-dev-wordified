@@ -380,7 +380,7 @@ DocumentModified
 ;
 public
 :
-nsresult
+void
 ResetIMETextPWBuf
 (
 )
@@ -632,7 +632,7 @@ contain
 *
 /
 static
-nsresult
+void
 FillBufWithPWChars
 (
 nsAString
@@ -1090,7 +1090,7 @@ password
 buffer
 *
 /
-nsresult
+void
 RemoveIMETextFromPWBuf
 (
 PRUint32

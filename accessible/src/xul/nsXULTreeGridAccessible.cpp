@@ -4363,7 +4363,7 @@ nsITreeColumn
 aColumn
 )
 :
-nsLeafAccessible
+LeafAccessible
 (
 aContent
 aDoc
@@ -4483,7 +4483,7 @@ nsXULTreeGridCellAccessible
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 nsXULTreeGridCellAccessible
-nsLeafAccessible
+LeafAccessible
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
 (
@@ -4497,7 +4497,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 nsXULTreeGridCellAccessible
-nsLeafAccessible
+LeafAccessible
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
@@ -4520,17 +4520,17 @@ nsXULTreeGridCellAccessible
 )
 NS_INTERFACE_TABLE_TAIL_INHERITING
 (
-nsLeafAccessible
+LeafAccessible
 )
 NS_IMPL_ADDREF_INHERITED
 (
 nsXULTreeGridCellAccessible
-nsLeafAccessible
+LeafAccessible
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsXULTreeGridCellAccessible
-nsLeafAccessible
+LeafAccessible
 )
 /
 /
@@ -5980,7 +5980,7 @@ Init
 if
 (
 !
-nsLeafAccessible
+LeafAccessible
 :
 :
 Init

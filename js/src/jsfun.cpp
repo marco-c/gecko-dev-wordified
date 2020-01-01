@@ -983,7 +983,7 @@ object
 .
 *
 /
-JSInlinedSite
+InlinedSite
 *
 inlined
 ;
@@ -4484,7 +4484,7 @@ fp
 )
 -
 >
-forEachCanonicalActualArg
+forEachUnaliasedActual
 (
 CopyTo
 (

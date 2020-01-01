@@ -965,7 +965,7 @@ punctures
 if
 (
 act
-=
+!
 =
 js
 :
@@ -974,11 +974,8 @@ Wrapper
 :
 :
 PUNCTURE
-)
-return
-false
-;
-if
+&
+&
 (
 AccessCheck
 :
@@ -999,6 +996,7 @@ isLocationObjectSameOrigin
 (
 cx
 wrapper
+)
 )
 )
 {

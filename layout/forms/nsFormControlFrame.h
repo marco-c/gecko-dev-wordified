@@ -190,6 +190,14 @@ nsStyleContext
 )
 ;
 virtual
+nsIAtom
+*
+GetType
+(
+)
+const
+;
+virtual
 bool
 IsFrameOfType
 (

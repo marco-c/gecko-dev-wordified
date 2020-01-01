@@ -516,7 +516,13 @@ class
 nsXULTreeGridCellAccessible
 :
 public
-nsLeafAccessible
+mozilla
+:
+:
+a11y
+:
+:
+LeafAccessible
 public
 nsIAccessibleTableCell
 {
@@ -553,7 +559,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 nsXULTreeGridCellAccessible
-nsLeafAccessible
+LeafAccessible
 )
 /
 /

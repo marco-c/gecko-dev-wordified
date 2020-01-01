@@ -102,7 +102,7 @@ __nsXULListboxAccessible_h__
 #
 include
 "
-nsCOMPtr
+BaseAccessibles
 .
 h
 "
@@ -110,13 +110,6 @@ h
 include
 "
 nsXULMenuAccessible
-.
-h
-"
-#
-include
-"
-nsBaseWidgetAccessible
 .
 h
 "
@@ -248,7 +241,13 @@ class
 nsXULColumnItemAccessible
 :
 public
-nsLeafAccessible
+mozilla
+:
+:
+a11y
+:
+:
+LeafAccessible
 {
 public
 :
