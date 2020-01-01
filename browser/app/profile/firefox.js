@@ -10935,6 +10935,9 @@ autostart
 false
 )
 ;
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 /
 /
 Whether
@@ -10960,6 +10963,8 @@ dont_prompt_on_enter
 false
 )
 ;
+#
+endif
 /
 /
 Don
