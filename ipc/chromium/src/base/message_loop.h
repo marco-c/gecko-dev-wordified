@@ -3631,6 +3631,14 @@ current
 (
 )
 ;
+if
+(
+!
+loop
+)
+return
+NULL
+;
 #
 ifdef
 CHROMIUM_MOZILLA_BUILD
