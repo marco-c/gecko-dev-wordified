@@ -2118,6 +2118,10 @@ mBlob
 =
 nullptr
 ;
+mPacketLeftLength
+=
+0
+;
 /
 /
 We
