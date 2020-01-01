@@ -94885,6 +94885,17 @@ the
 first
 positional
 parameter
+unless
+'
+this
+'
+is
+null
+.
+That
+'
+s
+ok
 .
 *
 /
@@ -94901,7 +94912,7 @@ vp
 2
 ]
 .
-isObject
+isObjectOrNull
 (
 )
 )
