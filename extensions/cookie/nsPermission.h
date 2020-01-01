@@ -546,6 +546,10 @@ nsACString
 aType
 PRUint32
 aCapability
+PRUint32
+aExpireType
+PRInt64
+aExpireTime
 )
 ;
 virtual
@@ -564,6 +568,12 @@ mType
 ;
 PRUint32
 mCapability
+;
+PRUint32
+mExpireType
+;
+PRInt64
+mExpireTime
 ;
 }
 ;

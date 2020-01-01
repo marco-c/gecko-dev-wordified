@@ -1584,6 +1584,11 @@ Add
 aURI
 kPermissionType
 aAccess
+nsIPermissionManager
+:
+:
+EXPIRE_NEVER
+0
 )
 ;
 }
@@ -2673,6 +2678,11 @@ nsIPermissionManager
 :
 :
 DENY_ACTION
+nsIPermissionManager
+:
+:
+EXPIRE_NEVER
+0
 )
 ;
 break
@@ -2697,6 +2707,11 @@ nsIPermissionManager
 :
 :
 ALLOW_ACTION
+nsIPermissionManager
+:
+:
+EXPIRE_NEVER
+0
 )
 ;
 break
@@ -2718,6 +2733,11 @@ nsICookiePermission
 :
 :
 ACCESS_SESSION
+nsIPermissionManager
+:
+:
+EXPIRE_NEVER
+0
 )
 ;
 break

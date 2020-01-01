@@ -2047,6 +2047,11 @@ Add
 uri
 XPI_PERMISSION
 aPermission
+nsIPermissionManager
+:
+:
+EXPIRE_NEVER
+0
 )
 ;
 }
