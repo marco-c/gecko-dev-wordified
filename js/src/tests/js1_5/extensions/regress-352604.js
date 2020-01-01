@@ -745,12 +745,11 @@ Function
 var
 g
 =
-new
-Function
+function
 (
-'
-'
 )
+{
+}
 ;
 expect
 =

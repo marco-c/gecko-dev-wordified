@@ -42,6 +42,11 @@ regress
 '
 ;
 var
+savedEval
+=
+eval
+;
+var
 x
 =
 [
@@ -90,6 +95,10 @@ global
 gc
 (
 )
+;
+eval
+=
+savedEval
 ;
 var
 f
