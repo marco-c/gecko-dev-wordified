@@ -616,15 +616,6 @@ script
 -
 >
 usesEval
-|
-|
-cx
--
->
-compartment
--
->
-debugMode
 )
 )
 nlocals
