@@ -3440,6 +3440,8 @@ xErrorHandler
 ;
 GLXPixmap
 glxpixmap
+=
+0
 ;
 bool
 error
