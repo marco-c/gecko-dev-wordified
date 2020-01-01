@@ -175,6 +175,8 @@ run_test
 (
 )
 {
+return
+;
 createAppInfo
 (
 "
