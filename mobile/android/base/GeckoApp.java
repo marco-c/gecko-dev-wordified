@@ -8593,6 +8593,15 @@ Bundle
 savedInstanceState
 )
 {
+System
+.
+loadLibrary
+(
+"
+mozutils
+"
+)
+;
 Log
 .
 w
