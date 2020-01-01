@@ -833,8 +833,8 @@ aPresContext
 )
 ;
 mBoundingMetrics
-.
-Clear
+=
+nsBoundingMetrics
 (
 )
 ;

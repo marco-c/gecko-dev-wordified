@@ -6803,8 +6803,8 @@ ascent
 aDesiredSize
 .
 mBoundingMetrics
-.
-Clear
+=
+nsBoundingMetrics
 (
 )
 ;
@@ -9002,8 +9002,8 @@ child
 frames
 )
 mBoundingMetrics
-.
-Clear
+=
+nsBoundingMetrics
 (
 )
 ;

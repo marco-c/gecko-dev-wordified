@@ -660,8 +660,8 @@ a
 bounding
 metrics
 mBoundingMetrics
-.
-Clear
+=
+nsBoundingMetrics
 (
 )
 ;
