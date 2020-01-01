@@ -797,6 +797,15 @@ nsIntSize
 size
 )
 ;
+nsIntSize
+CurrentSize
+(
+)
+{
+return
+mCurrentSize
+;
+}
 bool
 IsOnScreen
 (

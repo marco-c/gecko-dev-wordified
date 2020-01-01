@@ -1468,11 +1468,6 @@ VideoInfo
 aVideoInfo
 )
 ;
-nsIntRect
-GetVisibleRect
-(
-)
-;
 void
 Invalidate
 (
