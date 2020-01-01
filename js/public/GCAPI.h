@@ -1343,7 +1343,7 @@ null
 extern
 JS_FRIEND_API
 (
-void
+bool
 )
 UnmarkGrayGCThingRecursively
 (
