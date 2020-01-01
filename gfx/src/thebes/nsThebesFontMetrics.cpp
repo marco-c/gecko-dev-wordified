@@ -2314,7 +2314,7 @@ provider
 /
 note
 that
-TIGHT_UNHINTED_OUTLINE_EXTENTS
+TIGHT_HINTED_OUTLINE_EXTENTS
 can
 be
 expensive
