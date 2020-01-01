@@ -412,13 +412,7 @@ aResult
 ;
 friend
 class
-mozilla
-:
-:
-dom
-:
-:
-FragmentOrElement
+nsGenericElement
 ;
 /
 *

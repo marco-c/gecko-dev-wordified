@@ -151,11 +151,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-Element
+nsIContent
 .
 h
 "
@@ -810,13 +806,7 @@ class
 FragmentOrElement
 :
 public
-mozilla
-:
-:
-dom
-:
-:
-Element
+nsIContent
 {
 public
 :
@@ -975,6 +965,9 @@ aTextContent
 nsIContent
 interface
 methods
+#
+if
+0
 virtual
 void
 UpdateEditableState
@@ -1014,6 +1007,8 @@ aNullParent
 true
 )
 ;
+#
+endif
 virtual
 already_AddRefed
 <
@@ -1047,6 +1042,9 @@ aStr
 )
 const
 ;
+#
+if
+0
 nsresult
 SetAttr
 (
@@ -1440,6 +1438,8 @@ GetAttrCount
 )
 const
 ;
+#
+endif
 virtual
 const
 nsTextFragment
@@ -1578,6 +1578,9 @@ SaveSubtreeState
 (
 )
 ;
+#
+if
+0
 virtual
 nsISMILAttr
 *
@@ -1711,6 +1714,8 @@ const
 ;
 #
 endif
+#
+endif
 virtual
 const
 nsAttrValue
@@ -1728,6 +1733,9 @@ nsRuleWalker
 aRuleWalker
 )
 ;
+#
+if
+0
 virtual
 mozilla
 :
@@ -1762,6 +1770,8 @@ bool
 aNotify
 )
 ;
+#
+endif
 NS_IMETHOD_
 (
 bool
@@ -1951,6 +1961,9 @@ PRUint16
 aNodeType
 )
 ;
+#
+if
+0
 NS_IMETHOD
 GetAttributes
 (
@@ -1960,6 +1973,8 @@ nsIDOMNamedNodeMap
 aAttributes
 )
 ;
+#
+endif
 NS_IMETHOD
 GetNamespaceURI
 (
@@ -1992,6 +2007,9 @@ bool
 aReturn
 )
 ;
+#
+if
+0
 NS_IMETHOD
 HasAttributes
 (
@@ -2000,6 +2018,8 @@ bool
 aHasAttributes
 )
 ;
+#
+endif
 NS_IMETHOD
 HasChildNodes
 (
@@ -2102,12 +2122,17 @@ aReturn
 )
 ;
 }
+#
+if
+0
 /
 /
 nsIDOMElement
 method
 implementation
 NS_DECL_NSIDOMELEMENT
+#
+endif
 nsresult
 CloneNode
 (
@@ -2929,6 +2954,9 @@ RecompileScriptEventListeners
 )
 {
 }
+#
+if
+0
 PRInt32
 GetScrollTop
 (
@@ -3177,6 +3205,8 @@ aName
 )
 const
 ;
+#
+endif
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS
 (
 FragmentOrElement
@@ -3733,6 +3763,9 @@ AfterSetAttr
 ?
 *
 /
+#
+if
+0
 nsresult
 SetAttrAndNotify
 (
@@ -4022,6 +4055,8 @@ nsresult
 aRetval
 )
 ;
+#
+endif
 /
 *
 *
@@ -4500,6 +4535,9 @@ offset
 parent
 *
 /
+#
+if
+0
 virtual
 void
 GetOffsetRect
@@ -4585,6 +4623,8 @@ nsIDOMAttr
 aReturn
 )
 ;
+#
+endif
 public
 :
 /
@@ -5071,6 +5111,9 @@ this
 )
 ;
 }
+#
+if
+0
 /
 *
 *
@@ -5241,6 +5284,8 @@ DoGetID
 }
 }
 }
+#
+endif
 /
 *
 *
@@ -5560,6 +5605,9 @@ client
 area
 *
 /
+#
+if
+0
 nsRect
 GetClientAreaRect
 (
@@ -5577,6 +5625,10 @@ aStyledFrame
 nullptr
 )
 ;
+#
+endif
+protected
+:
 nsContentList
 *
 GetChildrenList

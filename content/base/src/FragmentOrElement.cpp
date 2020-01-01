@@ -911,6 +911,9 @@ sMutationCount
 =
 0
 ;
+#
+if
+0
 nsEventStates
 Element
 :
@@ -1659,6 +1662,8 @@ locks
 )
 ;
 }
+#
+endif
 nsIContent
 *
 nsIContent
@@ -3644,6 +3649,9 @@ aNamespaceURI
 )
 ;
 }
+#
+if
+0
 nsIContent
 *
 FragmentOrElement
@@ -4288,6 +4296,8 @@ aResult
 NS_OK
 ;
 }
+#
+endif
 nsContentList
 *
 FragmentOrElement
@@ -4346,6 +4356,9 @@ slots
 mChildrenList
 ;
 }
+#
+if
+0
 nsDOMTokenList
 *
 FragmentOrElement
@@ -6223,6 +6236,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 /
 /
 -
@@ -7225,7 +7240,7 @@ nsINodeInfo
 aNodeInfo
 )
 :
-Element
+nsIContent
 (
 aNodeInfo
 )
@@ -8056,6 +8071,9 @@ aReturn
 )
 ;
 }
+#
+if
+0
 NS_IMETHODIMP
 FragmentOrElement
 :
@@ -8158,6 +8176,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 nsresult
 FragmentOrElement
 :
@@ -8184,6 +8204,9 @@ return
 NS_OK
 ;
 }
+#
+if
+0
 NS_IMETHODIMP
 FragmentOrElement
 :
@@ -12072,6 +12095,8 @@ this
 )
 ;
 }
+#
+endif
 already_AddRefed
 <
 nsINodeList
@@ -13453,6 +13478,9 @@ return
 NS_OK
 ;
 }
+#
+if
+0
 nsICSSDeclaration
 *
 FragmentOrElement
@@ -13740,6 +13768,8 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
+#
+endif
 NS_IMETHODIMP_
 (
 bool
@@ -20256,6 +20286,9 @@ return
 NS_OK
 ;
 }
+#
+if
+0
 bool
 FragmentOrElement
 :
@@ -21562,6 +21595,8 @@ return
 false
 ;
 }
+#
+endif
 nsEventListenerManager
 *
 FragmentOrElement
@@ -21589,6 +21624,9 @@ true
 )
 ;
 }
+#
+if
+0
 FragmentOrElement
 :
 :
@@ -22629,6 +22667,8 @@ AttrCount
 )
 ;
 }
+#
+endif
 const
 nsTextFragment
 *
@@ -22815,6 +22855,9 @@ TextLength
 )
 ;
 }
+#
+if
+0
 #
 ifdef
 DEBUG
@@ -23925,6 +23968,8 @@ out
 )
 ;
 }
+#
+endif
 #
 endif
 PRUint32
@@ -26210,6 +26255,9 @@ contentList
 )
 ;
 }
+#
+if
+0
 bool
 FragmentOrElement
 :
@@ -26344,6 +26392,8 @@ return
 rv
 ;
 }
+#
+endif
 size_t
 FragmentOrElement
 :
@@ -26356,7 +26406,7 @@ aMallocSizeOf
 const
 {
 return
-Element
+nsIContent
 :
 :
 SizeOfExcludingThis
@@ -26565,6 +26615,9 @@ GetEnumValue
 )
 ;
 }
+#
+if
+0
 NS_IMETHODIMP
 FragmentOrElement
 :
@@ -27052,3 +27105,5 @@ return
 NS_OK
 ;
 }
+#
+endif

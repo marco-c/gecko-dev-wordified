@@ -153,7 +153,7 @@ module
 #
 include
 "
-nsString
+nsStringGlue
 .
 h
 "
