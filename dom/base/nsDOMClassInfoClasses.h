@@ -1363,6 +1363,10 @@ DOMCI_CLASS
 (
 MozCellBroadcast
 )
+DOMCI_CLASS
+(
+CFStateChangeEvent
+)
 #
 endif
 DOMCI_CLASS

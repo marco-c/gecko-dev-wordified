@@ -4873,6 +4873,13 @@ oncardstatechange
 )
 GK_ATOM
 (
+oncfstatechange
+"
+oncfstatechange
+"
+)
+GK_ATOM
+(
 onchange
 "
 onchange
