@@ -1144,9 +1144,11 @@ none
 !
 important
 ;
-color
+opacity
 :
-GrayText
+0
+.
+54
 ;
 }
 textarea
