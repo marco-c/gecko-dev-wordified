@@ -3919,10 +3919,6 @@ aPresContext
 nsStyleContext
 *
 aContext
-const
-nsRuleDataFont
-&
-aFontData
 PRUint8
 aGenericFontID
 nscoord
