@@ -11507,6 +11507,12 @@ false
 :
 true
 ;
+selEvent
+.
+mExpandToClusterBoundary
+=
+false
+;
 DispatchEvent
 (
 &
