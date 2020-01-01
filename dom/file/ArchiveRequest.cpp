@@ -271,6 +271,11 @@ mArchiveReader
 aReader
 )
 {
+MOZ_COUNT_CTOR
+(
+ArchiveRequest
+)
+;
 nsLayoutStatics
 :
 :
@@ -316,6 +321,11 @@ ArchiveRequest
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+ArchiveRequest
+)
+;
 nsLayoutStatics
 :
 :

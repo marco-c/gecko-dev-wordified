@@ -158,6 +158,12 @@ ZipCentral
 aCentralStruct
 )
 ;
+virtual
+~
+ArchiveZipItem
+(
+)
+;
 void
 SetFilename
 (
