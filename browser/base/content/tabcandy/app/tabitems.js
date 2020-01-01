@@ -481,6 +481,7 @@ function
 var
 container
 =
+iQ
 (
 this
 .
@@ -757,6 +758,7 @@ return
 var
 container
 =
+iQ
 (
 this
 .
@@ -766,6 +768,7 @@ container
 var
 title
 =
+iQ
 (
 '
 .
@@ -779,6 +782,7 @@ container
 var
 thumb
 =
+iQ
 (
 '
 .
@@ -790,6 +794,7 @@ container
 var
 close
 =
+iQ
 (
 '
 .
@@ -1015,6 +1020,7 @@ y
 }
 if
 (
+iQ
 .
 isEmptyObject
 (
@@ -1090,6 +1096,8 @@ _hasBeenDrawn
 )
 )
 {
+/
+*
 container
 .
 stop
@@ -1098,6 +1106,8 @@ true
 true
 )
 ;
+*
+/
 container
 .
 css
@@ -1119,9 +1129,9 @@ container
 animate
 (
 css
-{
-complete
-:
+'
+animate350
+'
 function
 (
 )
@@ -1133,14 +1143,13 @@ resumePainting
 )
 ;
 }
-duration
-:
-350
-easing
-:
-"
+)
+;
+/
+/
 tabcandyBounce
-"
+/
+*
 }
 )
 .
@@ -1148,6 +1157,8 @@ dequeue
 (
 )
 ;
+*
+/
 }
 if
 (
@@ -1177,6 +1188,9 @@ title
 fadeOut
 (
 )
+;
+/
+/
 .
 dequeue
 (
@@ -1188,6 +1202,9 @@ title
 fadeIn
 (
 )
+;
+/
+/
 .
 dequeue
 (
