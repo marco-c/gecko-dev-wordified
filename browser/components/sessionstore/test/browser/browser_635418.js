@@ -609,7 +609,7 @@ JSON
 .
 parse
 (
-SS_SVC
+ss
 .
 getBrowserState
 (
@@ -699,7 +699,7 @@ JSON
 .
 parse
 (
-SS_SVC
+ss
 .
 getBrowserState
 (

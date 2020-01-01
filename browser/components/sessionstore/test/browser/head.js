@@ -392,8 +392,8 @@ BLOCK
 *
 *
 /
-const
-SS_SVC
+let
+ss
 =
 Cc
 [
@@ -942,7 +942,7 @@ true
 Finally
 call
 setBrowserState
-SS_SVC
+ss
 .
 setBrowserState
 (

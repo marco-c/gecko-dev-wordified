@@ -209,14 +209,14 @@ delayed
 save
 while
 (
-SS_SVC
+ss
 .
 getClosedWindowCount
 (
 )
 )
 {
-SS_SVC
+ss
 .
 forgetClosedWindow
 (
@@ -226,7 +226,7 @@ forgetClosedWindow
 }
 is
 (
-SS_SVC
+ss
 .
 getClosedWindowCount
 (
@@ -300,7 +300,7 @@ closed
 windows
 is
 (
-SS_SVC
+ss
 .
 getClosedWindowCount
 (
@@ -470,7 +470,7 @@ is
 there
 is
 (
-SS_SVC
+ss
 .
 getClosedWindowCount
 (
@@ -681,7 +681,7 @@ is
 there
 is
 (
-SS_SVC
+ss
 .
 getClosedWindowCount
 (
@@ -895,7 +895,7 @@ sure
 .
 is
 (
-SS_SVC
+ss
 .
 getClosedWindowCount
 (
@@ -911,7 +911,7 @@ API
 "
 )
 ;
-SS_SVC
+ss
 .
 forgetClosedWindow
 (
