@@ -878,6 +878,8 @@ name
 PRInt64
 *
 aID
+PRInt64
+aParentID
 PRBool
 *
 aWasCreated
