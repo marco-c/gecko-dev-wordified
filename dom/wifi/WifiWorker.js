@@ -14656,7 +14656,7 @@ getConnectionInfo
 (
 function
 (
-info
+connInfo
 )
 {
 /
@@ -14673,7 +14673,7 @@ this
 if
 (
 !
-info
+connInfo
 )
 {
 self
@@ -14691,7 +14691,7 @@ rssi
 linkspeed
 }
 =
-info
+connInfo
 ;
 if
 (
