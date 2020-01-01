@@ -3030,14 +3030,6 @@ PRInt32
 aRunScript
 )
 {
-mFont
--
->
-SetupCairoFont
-(
-aContext
-)
-;
 DCFromContext
 aDC
 (
