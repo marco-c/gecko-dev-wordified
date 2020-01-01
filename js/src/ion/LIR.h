@@ -5830,6 +5830,17 @@ MIRGraph
 mir
 )
 ;
+MIRGraph
+&
+mir
+(
+)
+const
+{
+return
+mir_
+;
+}
 size_t
 numBlocks
 (

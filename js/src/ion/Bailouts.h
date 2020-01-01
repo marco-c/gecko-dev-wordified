@@ -1022,6 +1022,13 @@ BAILOUT_RETURN_OVERRECURSED
 =
 8
 ;
+static
+const
+uint32
+BAILOUT_RETURN_CACHED_SHAPE_GUARD
+=
+9
+;
 /
 /
 Attached
@@ -1594,6 +1601,11 @@ BoundsCheckFailure
 ;
 uint32
 ForceInvalidation
+(
+)
+;
+uint32
+CachedShapeGuardFailure
 (
 )
 ;
