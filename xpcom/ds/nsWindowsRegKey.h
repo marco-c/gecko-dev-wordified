@@ -364,7 +364,7 @@ result
 -
 #
 ifdef
-_IMPL_NS_COM
+IMPL_LIBXUL
 /
 /
 a53bc624
@@ -417,7 +417,7 @@ result
 endif
 /
 /
-_IMPL_NS_COM
+IMPL_LIBXUL
 /
 /
 -

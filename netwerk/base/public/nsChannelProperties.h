@@ -71,7 +71,7 @@ h
 "
 #
 ifdef
-IMPL_NS_NET
+IMPL_LIBXUL
 #
 include
 "
@@ -165,7 +165,7 @@ policy
 "
 #
 ifdef
-IMPL_NS_NET
+IMPL_LIBXUL
 #
 define
 NS_CHANNEL_PROP_CHANNEL_POLICY
