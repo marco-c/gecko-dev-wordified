@@ -225,6 +225,12 @@ ImageHost
 {
 public
 :
+using
+CompositableHost
+:
+:
+EnsureTextureHost
+;
 ImageHostSingle
 (
 const

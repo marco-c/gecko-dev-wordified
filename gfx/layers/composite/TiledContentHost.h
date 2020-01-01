@@ -813,6 +813,12 @@ TiledLayerComposer
 {
 public
 :
+using
+CompositableHost
+:
+:
+EnsureTextureHost
+;
 TiledContentHost
 (
 const
