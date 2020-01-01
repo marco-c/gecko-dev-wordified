@@ -226,8 +226,6 @@ NS_ILINK_IID
 *
 *
 *
-GetLinkState
-/
 SetLinkState
 /
 GetHrefURI

@@ -434,17 +434,6 @@ nsIAtom
 aLocalName
 )
 ;
-static
-const
-nsDependentSubstring
-getLocalPart
-(
-const
-nsAString
-&
-src
-)
-;
 /
 *
 *

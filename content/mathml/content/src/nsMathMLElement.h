@@ -503,14 +503,6 @@ aTarget
 MOZ_OVERRIDE
 ;
 virtual
-nsLinkState
-GetLinkState
-(
-)
-const
-MOZ_OVERRIDE
-;
-virtual
 already_AddRefed
 <
 nsIURI
