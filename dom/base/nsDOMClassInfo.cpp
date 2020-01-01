@@ -27312,6 +27312,9 @@ exn
 JSVAL_VOID
 ;
 {
+nsCxPusher
+pusher
+;
 Maybe
 <
 JSAutoCompartment
@@ -27352,6 +27355,13 @@ my_cx
 cx
 )
 {
+pusher
+.
+Push
+(
+my_cx
+)
+;
 ac
 .
 construct
