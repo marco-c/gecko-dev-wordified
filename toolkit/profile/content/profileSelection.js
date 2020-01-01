@@ -947,7 +947,9 @@ appName
 ]
 )
 ;
-gPromptService
+Services
+.
+prompt
 .
 alert
 (
