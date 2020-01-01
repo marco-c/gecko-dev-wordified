@@ -4681,17 +4681,6 @@ rt
 goto
 bad
 ;
-if
-(
-!
-js_InitTracer
-(
-rt
-)
-)
-goto
-bad
-;
 return
 rt
 ;
