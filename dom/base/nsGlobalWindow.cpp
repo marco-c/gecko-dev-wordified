@@ -12041,6 +12041,13 @@ JSObject
 aOuterObject
 )
 {
+JSAutoCompartment
+ac
+(
+aCx
+aOuterObject
+)
+;
 /
 /
 Force
