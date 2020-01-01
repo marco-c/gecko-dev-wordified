@@ -26556,8 +26556,10 @@ xpc_EvalInSandbox
 JSContext
 *
 cx
-JSObject
-*
+JS
+:
+:
+HandleObject
 sandbox
 const
 nsAString
@@ -26573,8 +26575,10 @@ JSVersion
 jsVersion
 bool
 returnStringOnly
-jsval
-*
+JS
+:
+:
+MutableHandleValue
 rval
 )
 ;
