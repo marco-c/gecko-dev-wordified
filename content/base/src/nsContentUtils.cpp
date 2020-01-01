@@ -11907,9 +11907,11 @@ nameSpace
 ;
 rv
 =
+aNamespaceResolver
+-
+>
 LookupNamespaceURI
 (
-aNamespaceResolver
 Substring
 (
 aQName
