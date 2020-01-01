@@ -28,10 +28,6 @@ subprocess
 import
 *
 from
-datetime
-import
-datetime
-from
 tests
 import
 TestCase
@@ -337,7 +333,7 @@ dir
 in
 dirs
 :
-          
+            
 _path
 =
 os
@@ -355,7 +351,7 @@ autoconf
 mk
 '
 )
-          
+            
 if
 os
 .
@@ -366,11 +362,11 @@ isfile
 _path
 )
 :
-              
+                
 path
 =
 _path
-              
+                
 break
         
 if
