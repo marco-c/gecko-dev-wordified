@@ -403,6 +403,11 @@ IntCount
 (
 )
 ;
+void
+clear
+(
+)
+;
 int
 countAdd
 (
