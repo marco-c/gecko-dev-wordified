@@ -144,7 +144,7 @@ WebGLVertexArray
 MOZ_FINAL
 :
 public
-nsISupports
+nsWrapperCache
 public
 WebGLRefCountedObject
 <
@@ -157,8 +157,6 @@ WebGLVertexArray
 >
 public
 WebGLContextBoundObject
-public
-nsWrapperCache
 {
 /
 /
@@ -460,8 +458,11 @@ scope
 )
 MOZ_OVERRIDE
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
+NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
+(
+WebGLVertexArray
+)
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
 WebGLVertexArray
 )
