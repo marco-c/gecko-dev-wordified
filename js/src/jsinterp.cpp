@@ -8019,6 +8019,13 @@ obj
 return
 JS_FALSE
 ;
+AutoObjectRooter
+tvr
+(
+cx
+obj
+)
+;
 /
 *
 Now
