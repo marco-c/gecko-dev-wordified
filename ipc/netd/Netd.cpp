@@ -561,10 +561,6 @@ LineWatcher
 '
 MAX_COMMAND_SIZE
 )
-mSocket
-(
-INVALID_SOCKET
-)
 mIOLoop
 (
 MessageLoopForIO
@@ -573,6 +569,10 @@ MessageLoopForIO
 current
 (
 )
+)
+mSocket
+(
+INVALID_SOCKET
 )
 mCurrentWriteOffset
 (
