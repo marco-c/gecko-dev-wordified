@@ -106,6 +106,16 @@ GuardObjects
 .
 h
 "
+#
+include
+"
+nscore
+.
+h
+"
+/
+/
+NS_STACK_CLASS
 namespace
 mozilla
 {
