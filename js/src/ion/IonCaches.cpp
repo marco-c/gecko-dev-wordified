@@ -3912,8 +3912,11 @@ instead
 of
 propertyname
 .
-jsid
+RootedId
 propId
+(
+cx
+)
 ;
 if
 (
@@ -8256,8 +8259,11 @@ instead
 of
 propertyname
 .
-jsid
+RootedId
 propId
+(
+cx
+)
 ;
 if
 (
