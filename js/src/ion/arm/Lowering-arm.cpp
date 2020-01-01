@@ -2950,6 +2950,7 @@ return
 assignSnapshot
 (
 guard
+Bailout_Invalidate
 )
 &
 &

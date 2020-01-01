@@ -664,6 +664,17 @@ check
 failure
 .
 Bailout_BoundsCheck
+/
+/
+Like
+Bailout_Normal
+but
+invalidate
+the
+current
+IonScript
+.
+Bailout_Invalidate
 }
 ;
 #

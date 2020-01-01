@@ -691,14 +691,6 @@ MDiv
 div
 )
 ;
-bool
-visitGuardShape
-(
-MGuardShape
-*
-ins
-)
-;
 public
 :
 bool
