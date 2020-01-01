@@ -550,7 +550,7 @@ nsIURI
 >
 mOriginalURI
 ;
-PRInt64
+PRInt32
 mContentLength
 ;
 nsCOMPtr

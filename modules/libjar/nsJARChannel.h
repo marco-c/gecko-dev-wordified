@@ -740,7 +740,7 @@ mContentType
 nsCString
 mContentCharset
 ;
-PRInt64
+PRInt32
 mContentLength
 ;
 PRUint32
