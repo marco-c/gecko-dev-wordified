@@ -2876,7 +2876,7 @@ this_ins
 )
 ;
 JS_REQUIRES_STACK
-bool
+void
 box_jsval
 (
 jsval
