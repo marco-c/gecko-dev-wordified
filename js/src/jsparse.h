@@ -493,6 +493,13 @@ h
 #
 include
 "
+jsscript
+.
+h
+"
+#
+include
+"
 jswin
 .
 h

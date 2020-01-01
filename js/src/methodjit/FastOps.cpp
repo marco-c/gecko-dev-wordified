@@ -16481,6 +16481,12 @@ NaN
 .
 *
 /
+frame
+.
+pop
+(
+)
+;
 if
 (
 lhs
@@ -16502,9 +16508,8 @@ JSVAL_TYPE_DOUBLE
 {
 frame
 .
-popn
+pop
 (
-2
 )
 ;
 frame
@@ -16827,9 +16832,8 @@ treg
 ;
 frame
 .
-popn
+pop
 (
-2
 )
 ;
 frame

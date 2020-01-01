@@ -668,6 +668,13 @@ h
 #
 include
 "
+jsinterpinlines
+.
+h
+"
+#
+include
+"
 jsobjinlines
 .
 h
@@ -5110,7 +5117,10 @@ script
 ;
 }
 }
+JS_FRIEND_DATA
+(
 Class
+)
 js
 :
 :

@@ -24934,7 +24934,7 @@ rval
 /
 *
 namespace
-js
+JS
 *
 /
 JS_BEGIN_EXTERN_C

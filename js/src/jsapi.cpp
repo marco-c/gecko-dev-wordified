@@ -6951,7 +6951,7 @@ compartment
 target
 -
 >
-getCompartment
+compartment
 (
 )
 )
@@ -7362,7 +7362,7 @@ destination
 target
 -
 >
-getCompartment
+compartment
 (
 )
 ;
@@ -7393,7 +7393,7 @@ if
 origobj
 -
 >
-getCompartment
+compartment
 (
 )
 =
@@ -8094,7 +8094,7 @@ if
 origobj
 -
 >
-getCompartment
+compartment
 (
 )
 !
@@ -8154,7 +8154,7 @@ NULL
 origobj
 -
 >
-getCompartment
+compartment
 (
 )
 -
@@ -8283,7 +8283,7 @@ destination
 targetobj
 -
 >
-getCompartment
+compartment
 (
 )
 ;
@@ -8954,7 +8954,7 @@ NULL
 origwrapper
 -
 >
-getCompartment
+compartment
 (
 )
 -
