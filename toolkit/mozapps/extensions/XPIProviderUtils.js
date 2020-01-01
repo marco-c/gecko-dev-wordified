@@ -613,9 +613,6 @@ rdf
 #
 "
 ;
-var
-XPIProvider
-;
 this
 .
 __defineGetter__
@@ -1678,7 +1675,8 @@ return
 aTarget
 ;
 }
-var
+this
+.
 XPIDatabase
 =
 {
