@@ -3308,14 +3308,6 @@ JSContext
 cx
 )
 ;
-void
-SweepCompartments
-(
-JSContext
-*
-cx
-)
-;
 }
 /
 *

@@ -1038,6 +1038,11 @@ struct
 JSCompartment
 JSCompartment
 ;
+typedef
+struct
+JSCrossCompartmentCall
+JSCrossCompartmentCall
+;
 /
 *
 JSClass
