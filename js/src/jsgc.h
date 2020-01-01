@@ -8732,6 +8732,8 @@ GCDebugSlice
 JSContext
 *
 cx
+bool
+limit
 int64_t
 objCount
 )
@@ -10319,11 +10321,16 @@ INTPTR_MAX
 void
 step
 (
+intptr_t
+amt
+=
+1
 )
 {
 counter
 -
--
+=
+amt
 ;
 }
 bool
@@ -10340,6 +10347,7 @@ if
 (
 counter
 >
+=
 0
 )
 return
