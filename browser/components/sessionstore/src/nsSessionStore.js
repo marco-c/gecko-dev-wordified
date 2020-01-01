@@ -11163,6 +11163,9 @@ _updateCookies
 total
 )
 ;
+#
+ifndef
+XP_MACOSX
 /
 /
 if
@@ -11243,6 +11246,8 @@ total
 )
 ;
 }
+#
+endif
 if
 (
 activeWindow
