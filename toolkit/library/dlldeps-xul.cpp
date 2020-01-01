@@ -498,7 +498,6 @@ XRE_RunAppShell
 ;
 XRE_ShutdownChildProcess
 (
-nsnull
 )
 ;
 #
