@@ -1855,6 +1855,7 @@ mAnimateMotionTransform
 )
 |
 |
+(
 aMatrix
 &
 &
@@ -1867,6 +1868,7 @@ aMatrix
 =
 *
 mAnimateMotionTransform
+)
 )
 {
 return
