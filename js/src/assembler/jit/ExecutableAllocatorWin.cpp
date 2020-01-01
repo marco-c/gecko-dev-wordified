@@ -313,15 +313,6 @@ MEM_RESERVE
 PAGE_EXECUTE_READWRITE
 )
 ;
-if
-(
-!
-allocation
-)
-CRASH
-(
-)
-;
 ExecutablePool
 :
 :

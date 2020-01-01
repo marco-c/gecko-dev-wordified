@@ -335,9 +335,9 @@ allocation
 =
 MAP_FAILED
 )
-CRASH
-(
-)
+allocation
+=
+NULL
 ;
 ExecutablePool
 :
