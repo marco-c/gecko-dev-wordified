@@ -744,16 +744,6 @@ PluginCrashed
 ;
 #
 endif
-void
-SetIsDefaultPlugin
-(
-)
-;
-PRBool
-IsDefaultPlugin
-(
-)
-;
 protected
 :
 /
@@ -810,9 +800,6 @@ mPluginFuncs
 PluginLibrary
 *
 mLibrary
-;
-PRBool
-mIsDefaultPlugin
 ;
 }
 ;
