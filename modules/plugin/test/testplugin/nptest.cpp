@@ -485,9 +485,13 @@ Intentional
 crash
 /
 /
-static
+int
+gCrashCount
+=
+0
+;
 void
-Crash
+IntentionalCrash
 (
 )
 {
@@ -644,6 +648,10 @@ calling
 null
 function
 pointer
++
++
+gCrashCount
+;
 }
 /
 /
@@ -4588,7 +4596,7 @@ newcrash
 0
 )
 {
-Crash
+IntentionalCrash
 (
 )
 ;
@@ -5061,7 +5069,7 @@ instanceData
 >
 crashOnDestroy
 )
-Crash
+IntentionalCrash
 (
 )
 ;
@@ -12393,7 +12401,7 @@ NPVariant
 result
 )
 {
-Crash
+IntentionalCrash
 (
 )
 ;
