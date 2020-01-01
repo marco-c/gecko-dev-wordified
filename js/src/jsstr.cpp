@@ -11845,14 +11845,8 @@ sp
 +
 -
 >
-setObjectOrNull
+setNull
 (
-lambda
--
->
-getParent
-(
-)
 )
 ;
 /
