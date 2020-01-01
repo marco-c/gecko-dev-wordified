@@ -250,14 +250,14 @@ h
 #
 include
 "
-nsSVGUtils
+nsSVGSVGElement
 .
 h
 "
 #
 include
 "
-nsSVGSVGElement
+nsSVGUtils
 .
 h
 "
@@ -272,6 +272,13 @@ h
 include
 "
 nsStyleUtil
+.
+h
+"
+#
+include
+"
+SVGContentUtils
 .
 h
 "
@@ -654,7 +661,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_NUMBER
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -670,7 +677,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_NUMBER
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -686,7 +693,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -702,7 +709,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -3633,7 +3640,7 @@ aNearestViewportElement
 *
 aNearestViewportElement
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetNearestViewportElement
@@ -3675,7 +3682,7 @@ NS_IF_ADDREF
 *
 aFarthestViewportElement
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetOuterSVGElement
@@ -3805,7 +3812,7 @@ aCTM
 gfxMatrix
 m
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetCTM
@@ -3865,7 +3872,7 @@ aCTM
 gfxMatrix
 m
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetCTM
@@ -4748,7 +4755,7 @@ nsSVGSVGElement
 *
 outerSVGElement
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetOuterSVGElement
@@ -5829,7 +5836,7 @@ gfxMatrix
 singular
 }
 return
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetViewBoxTransform
@@ -7406,7 +7413,7 @@ aCtxType
 )
 {
 case
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -7415,7 +7422,7 @@ return
 w
 ;
 case
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -7424,7 +7431,7 @@ return
 h
 ;
 case
-nsSVGUtils
+SVGContentUtils
 :
 :
 XY
@@ -7432,7 +7439,7 @@ XY
 return
 float
 (
-nsSVGUtils
+SVGContentUtils
 :
 :
 ComputeNormalizedHypotenuse

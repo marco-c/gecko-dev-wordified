@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences

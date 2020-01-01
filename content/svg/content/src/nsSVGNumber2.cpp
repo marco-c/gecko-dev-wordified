@@ -110,13 +110,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 nsTextFormatter
 .
 h

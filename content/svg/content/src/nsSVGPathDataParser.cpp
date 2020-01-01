@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 nsIDOMSVGPathSeg
 .
 h

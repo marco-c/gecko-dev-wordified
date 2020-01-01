@@ -3014,7 +3014,7 @@ eCannotInterpolate
 {
 /
 /
-nsSVGUtils
+SVGContentUtils
 :
 :
 ReportToConsole
@@ -3194,7 +3194,7 @@ id
 c18
 /
 /
-nsSVGUtils
+SVGContentUtils
 :
 :
 ReportToConsole
@@ -3369,7 +3369,7 @@ eCannotInterpolate
 {
 /
 /
-nsSVGUtils
+SVGContentUtils
 :
 :
 ReportToConsole

@@ -820,7 +820,7 @@ of
 /
 items
 .
-nsSVGUtils
+SVGContentUtils
 :
 :
 ReportToConsole
@@ -1007,7 +1007,7 @@ length
 .
 /
 /
-nsSVGUtils
+SVGContentUtils
 :
 :
 ReportToConsole
@@ -1370,7 +1370,7 @@ length
 .
 /
 /
-nsSVGUtils
+SVGContentUtils
 :
 :
 ReportToConsole

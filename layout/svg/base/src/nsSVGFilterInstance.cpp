@@ -174,6 +174,13 @@ nsSVGUtils
 .
 h
 "
+#
+include
+"
+SVGContentUtils
+.
+h
+"
 float
 nsSVGFilterInstance
 :
@@ -251,7 +258,7 @@ aCtxType
 )
 {
 case
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -270,7 +277,7 @@ Width
 )
 ;
 case
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -289,7 +296,7 @@ Height
 )
 ;
 case
-nsSVGUtils
+SVGContentUtils
 :
 :
 XY
@@ -299,7 +306,7 @@ default
 return
 value
 *
-nsSVGUtils
+SVGContentUtils
 :
 :
 ComputeNormalizedHypotenuse
@@ -353,7 +360,7 @@ val
 .
 Init
 (
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -375,7 +382,7 @@ val
 .
 Init
 (
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -404,7 +411,7 @@ val
 .
 Init
 (
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -423,7 +430,7 @@ val
 .
 Init
 (
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -478,7 +485,7 @@ aValues
 =
 GetPrimitiveNumber
 (
-nsSVGUtils
+SVGContentUtils
 :
 :
 XY

@@ -216,6 +216,13 @@ SVGAnimatedTransformList
 .
 h
 "
+#
+include
+"
+SVGContentUtils
+.
+h
+"
 using
 namespace
 mozilla
@@ -4398,7 +4405,7 @@ singular
 gfxMatrix
 tm
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetViewBoxTransform

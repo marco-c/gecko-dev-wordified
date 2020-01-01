@@ -133,13 +133,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 nsSVGMarkerElement
 .
 h
@@ -161,6 +154,13 @@ h
 /
 /
 NS_ENSURE_FINITE
+#
+include
+"
+SVGContentUtils
+.
+h
+"
 using
 namespace
 mozilla
@@ -189,7 +189,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_NUMBER
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -205,7 +205,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_NUMBER
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -221,7 +221,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_NUMBER
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -237,7 +237,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_NUMBER
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -2335,7 +2335,7 @@ disabled
 gfxMatrix
 viewBoxTM
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetViewBoxTransform

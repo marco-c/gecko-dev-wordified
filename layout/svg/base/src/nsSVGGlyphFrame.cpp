@@ -242,6 +242,13 @@ h
 #
 include
 "
+SVGContentUtils
+.
+h
+"
+#
+include
+"
 SVGLengthList
 .
 h
@@ -11841,7 +11848,7 @@ gfxPoint
 double
 contextScale
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 ComputeNormalizedHypotenuse

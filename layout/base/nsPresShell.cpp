@@ -902,7 +902,7 @@ h
 #
 include
 "
-nsSVGUtils
+SVGContentUtils
 .
 h
 "
@@ -17150,7 +17150,7 @@ eANIMATION
 )
 )
 {
-nsSVGUtils
+SVGContentUtils
 :
 :
 ActivateByHyperlink

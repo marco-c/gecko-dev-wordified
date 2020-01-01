@@ -499,7 +499,7 @@ aNearestViewportElement
 *
 aNearestViewportElement
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetNearestViewportElement
@@ -541,7 +541,7 @@ NS_IF_ADDREF
 *
 aFarthestViewportElement
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetOuterSVGElement
@@ -665,7 +665,7 @@ aCTM
 gfxMatrix
 m
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetCTM
@@ -725,7 +725,7 @@ aCTM
 gfxMatrix
 m
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetCTM

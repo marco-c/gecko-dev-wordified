@@ -126,7 +126,7 @@ h
 #
 include
 "
-nsSVGUtils
+SVGContentUtils
 .
 h
 "
@@ -889,7 +889,7 @@ Length
 .
 angle
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 AngleBisect

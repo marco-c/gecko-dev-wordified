@@ -313,6 +313,13 @@ gfxUtils
 h
 "
 #
+include
+"
+SVGContentUtils
+.
+h
+"
+#
 if
 defined
 (
@@ -692,7 +699,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -708,7 +715,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -724,7 +731,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -740,7 +747,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -1057,7 +1064,7 @@ aInstance
 >
 GetPrimitiveNumber
 (
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -1076,7 +1083,7 @@ aInstance
 >
 GetPrimitiveNumber
 (
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -4530,7 +4537,7 @@ aInstance
 .
 GetPrimitiveNumber
 (
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -4552,7 +4559,7 @@ aInstance
 .
 GetPrimitiveNumber
 (
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -17495,7 +17502,7 @@ aInstance
 .
 GetPrimitiveNumber
 (
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -17512,7 +17519,7 @@ aInstance
 .
 GetPrimitiveNumber
 (
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -25441,7 +25448,7 @@ aInstance
 .
 GetPrimitiveNumber
 (
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -25468,7 +25475,7 @@ aInstance
 .
 GetPrimitiveNumber
 (
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -25544,7 +25551,7 @@ ry
 /
 /
 XXX
-nsSVGUtils
+SVGContentUtils
 :
 :
 ReportToConsole
@@ -38198,7 +38205,7 @@ mFilterPrimitiveSubregion
 gfxMatrix
 viewBoxTM
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetViewBoxTransform
@@ -39961,7 +39968,7 @@ instance
 >
 GetPrimitiveNumber
 (
-nsSVGUtils
+SVGContentUtils
 :
 :
 XY

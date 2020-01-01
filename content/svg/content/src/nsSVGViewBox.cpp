@@ -103,13 +103,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 prdtoa
 .
 h
@@ -139,6 +132,13 @@ h
 include
 "
 nsSMILValue
+.
+h
+"
+#
+include
+"
+SVGContentUtils
 .
 h
 "

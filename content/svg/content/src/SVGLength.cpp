@@ -133,13 +133,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 nsTextFormatter
 .
 h
@@ -155,6 +148,13 @@ h
 include
 "
 nsMathUtils
+.
+h
+"
+#
+include
+"
+SVGContentUtils
 .
 h
 "
@@ -418,7 +418,7 @@ SVG_LENGTHTYPE_UNKNOWN
 {
 /
 /
-nsSVGUtils
+SVGContentUtils
 :
 :
 ReportToConsole
@@ -1190,7 +1190,7 @@ nsIDOMSVGLength
 SVG_LENGTHTYPE_EMS
 :
 return
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetFontSize
@@ -1212,7 +1212,7 @@ nsIDOMSVGLength
 SVG_LENGTHTYPE_EXS
 :
 return
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetFontXHeight

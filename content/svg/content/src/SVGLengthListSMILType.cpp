@@ -1090,7 +1090,7 @@ CanZeroPadList
 {
 /
 /
-nsSVGUtils
+SVGContentUtils
 :
 :
 ReportToConsole
@@ -1626,7 +1626,7 @@ CanZeroPadList
 {
 /
 /
-nsSVGUtils
+SVGContentUtils
 :
 :
 ReportToConsole
@@ -2298,7 +2298,7 @@ CanZeroPadList
 {
 /
 /
-nsSVGUtils
+SVGContentUtils
 :
 :
 ReportToConsole

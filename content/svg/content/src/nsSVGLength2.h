@@ -165,7 +165,7 @@ h
 #
 include
 "
-nsSVGUtils
+SVGContentUtils
 .
 h
 "
@@ -192,7 +192,7 @@ Init
 uint8_t
 aCtxType
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 XY
@@ -668,7 +668,7 @@ aFrame
 )
 {
 return
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetFontSize
@@ -687,7 +687,7 @@ aFrame
 )
 {
 return
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetFontXHeight
@@ -735,7 +735,7 @@ aSVGElement
 )
 {
 return
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetFontSize
@@ -754,7 +754,7 @@ aSVGElement
 )
 {
 return
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetFontXHeight

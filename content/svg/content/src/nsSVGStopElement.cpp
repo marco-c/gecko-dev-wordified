@@ -126,13 +126,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h

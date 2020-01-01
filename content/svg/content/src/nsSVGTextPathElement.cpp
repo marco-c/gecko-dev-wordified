@@ -186,7 +186,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_NUMBER
-nsSVGUtils
+SVGContentUtils
 :
 :
 X

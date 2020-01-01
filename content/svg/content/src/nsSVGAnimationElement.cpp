@@ -2648,7 +2648,7 @@ nsSVGSVGElement
 *
 element
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetOuterSVGElement

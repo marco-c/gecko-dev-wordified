@@ -154,13 +154,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 DOMSVGPoint
 .
 h

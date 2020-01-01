@@ -117,7 +117,7 @@ h
 #
 include
 "
-nsSVGUtils
+SVGContentUtils
 .
 h
 "
@@ -717,7 +717,7 @@ endMark
 >
 angle
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 AngleBisect
@@ -734,7 +734,7 @@ startMark
 >
 angle
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 AngleBisect

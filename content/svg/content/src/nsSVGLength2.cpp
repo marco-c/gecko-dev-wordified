@@ -884,7 +884,7 @@ mCtxType
 )
 {
 case
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -898,7 +898,7 @@ width
 break
 ;
 case
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -912,14 +912,14 @@ height
 break
 ;
 case
-nsSVGUtils
+SVGContentUtils
 :
 :
 XY
 :
 length
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 ComputeNormalizedHypotenuse
