@@ -11549,9 +11549,8 @@ state
 loop
 -
 >
-flushRegisters
+clearRegisters
 (
-stubcc
 )
 ;
 }

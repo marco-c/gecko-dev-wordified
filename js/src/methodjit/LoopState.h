@@ -1413,6 +1413,11 @@ StubCompiler
 stubcc
 )
 ;
+void
+clearRegisters
+(
+)
+;
 bool
 hoistArrayLengthCheck
 (
