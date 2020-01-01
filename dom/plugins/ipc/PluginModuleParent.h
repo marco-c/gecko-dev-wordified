@@ -1712,6 +1712,9 @@ endif
 void
 CleanupFromTimeout
 (
+const
+bool
+aByHangUI
 )
 ;
 void
