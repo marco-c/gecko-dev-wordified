@@ -48338,6 +48338,7 @@ this
 .
 onEnterPrivateBrowsing
 (
+true
 )
 ;
 }
@@ -48963,6 +48964,7 @@ onEnterPrivateBrowsing
 function
 PBUI_onEnterPrivateBrowsing
 (
+aOnWindowOpen
 )
 {
 if
@@ -49240,6 +49242,10 @@ updateStatus
 ;
 if
 (
+!
+aOnWindowOpen
+&
+&
 this
 .
 _disableUIOnToggle
