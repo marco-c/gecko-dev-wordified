@@ -2102,15 +2102,6 @@ DisableSensorNotifications
 aSensor
 )
 ;
-delete
-[
-]
-gSensorObservers
-;
-gSensorObservers
-=
-nsnull
-;
 }
 }
 void
