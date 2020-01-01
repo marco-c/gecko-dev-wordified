@@ -373,14 +373,13 @@ this
 )
 ;
 }
-setTimeout
+executeSoon
 (
 createTester
 (
 holder
 options
 )
-200
 )
 ;
 }
