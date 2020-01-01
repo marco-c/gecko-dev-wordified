@@ -7885,7 +7885,7 @@ with
 v
 .
 Return
-NULL
+false
 on
 oom
 .
