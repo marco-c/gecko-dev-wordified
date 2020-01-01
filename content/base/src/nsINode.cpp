@@ -14582,7 +14582,7 @@ nsINode
 :
 GetAttributes
 (
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 *
 *
 aAttributes

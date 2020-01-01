@@ -274,9 +274,6 @@ class
 nsDOMStringMap
 ;
 class
-nsIDOMNamedNodeMap
-;
-class
 nsIHTMLCollection
 ;
 class
@@ -1571,7 +1568,7 @@ mSMILOverrideStyleRule
 An
 object
 implementing
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 for
 this
 content

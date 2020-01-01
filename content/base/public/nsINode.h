@@ -314,6 +314,9 @@ class
 nsIDOMElement
 ;
 class
+nsIDOMMozNamedAttrMap
+;
+class
 nsIDOMNodeList
 ;
 class
@@ -10756,7 +10759,7 @@ aReturn
 nsresult
 GetAttributes
 (
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 *
 *
 aAttributes
@@ -12474,7 +12477,7 @@ aNextSibling
 NS_IMETHOD
 GetAttributes
 (
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 *
 *
 aAttributes

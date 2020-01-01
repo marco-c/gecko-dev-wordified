@@ -175,7 +175,7 @@ h
 #
 include
 "
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 .
 h
 "
@@ -16430,7 +16430,7 @@ anchor
 element
 nsCOMPtr
 <
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 >
 attrMap
 ;
@@ -16485,9 +16485,9 @@ i
 {
 nsCOMPtr
 <
-nsIDOMNode
+nsIDOMAttr
 >
-attrNode
+attribute
 ;
 res
 =
@@ -16499,7 +16499,7 @@ Item
 i
 getter_AddRefs
 (
-attrNode
+attribute
 )
 )
 ;
@@ -16507,17 +16507,6 @@ NS_ENSURE_SUCCESS
 (
 res
 res
-)
-;
-nsCOMPtr
-<
-nsIDOMAttr
->
-attribute
-=
-do_QueryInterface
-(
-attrNode
 )
 ;
 if

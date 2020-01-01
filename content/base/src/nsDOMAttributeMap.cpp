@@ -108,7 +108,7 @@ DOM
 Core
 '
 s
-nsIDOMNode
+Element
 object
 .
 *
@@ -487,7 +487,7 @@ cb
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 DOMCI_DATA
 (
-NamedNodeMap
+MozNamedAttrMap
 nsDOMAttributeMap
 )
 /
@@ -507,7 +507,7 @@ nsDOMAttributeMap
 NS_INTERFACE_TABLE_ENTRY
 (
 nsDOMAttributeMap
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 )
 NS_OFFSET_AND_INTERFACE_TABLE_END
 NS_OFFSET_AND_INTERFACE_TABLE_TO_MAP_SEGUE
@@ -517,7 +517,7 @@ nsDOMAttributeMap
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
-NamedNodeMap
+MozNamedAttrMap
 )
 NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTING_ADDREF
@@ -1025,7 +1025,7 @@ const
 nsAString
 &
 aAttrName
-nsIDOMNode
+nsIDOMAttr
 *
 *
 aAttribute
@@ -1057,10 +1057,10 @@ nsDOMAttributeMap
 :
 SetNamedItem
 (
-nsIDOMNode
+nsIDOMAttr
 *
-aNode
-nsIDOMNode
+aAttr
+nsIDOMAttr
 *
 *
 aReturn
@@ -1074,7 +1074,7 @@ aReturn
 =
 SetNamedItemInternal
 (
-aNode
+aAttr
 false
 rv
 )
@@ -1097,10 +1097,10 @@ nsDOMAttributeMap
 :
 SetNamedItemNS
 (
-nsIDOMNode
+nsIDOMAttr
 *
-aNode
-nsIDOMNode
+aAttr
+nsIDOMAttr
 *
 *
 aReturn
@@ -1114,7 +1114,7 @@ aReturn
 =
 SetNamedItemInternal
 (
-aNode
+aAttr
 true
 rv
 )
@@ -1140,9 +1140,9 @@ nsDOMAttributeMap
 :
 SetNamedItemInternal
 (
-nsIDOMNode
+nsIDOMAttr
 *
-aNode
+aAttr
 bool
 aWithNS
 ErrorResult
@@ -1166,7 +1166,7 @@ origin
 between
 mContent
 and
-aNode
+aAttr
 however
 /
 /
@@ -1189,7 +1189,7 @@ iAttribute
 (
 do_QueryInterface
 (
-aNode
+aAttr
 )
 )
 ;
@@ -1366,7 +1366,7 @@ domDoc
 >
 AdoptNode
 (
-aNode
+aAttr
 getter_AddRefs
 (
 adoptedNode
@@ -1397,7 +1397,7 @@ NS_ASSERTION
 adoptedNode
 =
 =
-aNode
+aAttr
 "
 Uh
 adopt
@@ -1777,7 +1777,7 @@ const
 nsAString
 &
 aName
-nsIDOMNode
+nsIDOMAttr
 *
 *
 aReturn
@@ -2031,7 +2031,7 @@ Item
 (
 uint32_t
 aIndex
-nsIDOMNode
+nsIDOMAttr
 *
 *
 aReturn
@@ -2115,7 +2115,7 @@ const
 nsAString
 &
 aLocalName
-nsIDOMNode
+nsIDOMAttr
 *
 *
 aReturn
@@ -2429,7 +2429,7 @@ const
 nsAString
 &
 aLocalName
-nsIDOMNode
+nsIDOMAttr
 *
 *
 aReturn

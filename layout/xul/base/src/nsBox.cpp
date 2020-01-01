@@ -173,7 +173,7 @@ h
 #
 include
 "
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 .
 h
 "
@@ -422,7 +422,7 @@ content
 ;
 nsCOMPtr
 <
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 >
 namedMap
 ;
@@ -451,7 +451,7 @@ length
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsIDOMAttr
 >
 attribute
 ;
@@ -483,19 +483,7 @@ attribute
 )
 )
 ;
-nsCOMPtr
-<
-nsIDOMAttr
->
-attr
-(
-do_QueryInterface
-(
 attribute
-)
-)
-;
-attr
 -
 >
 GetName
@@ -506,7 +494,7 @@ name
 nsAutoString
 value
 ;
-attr
+attribute
 -
 >
 GetValue
