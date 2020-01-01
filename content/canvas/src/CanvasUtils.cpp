@@ -449,6 +449,13 @@ h
 #
 include
 "
+prprf
+.
+h
+"
+#
+include
+"
 nsIServiceManager
 .
 h
@@ -823,7 +830,7 @@ if
 console
 )
 {
-vsnprintf
+PR_vsnprintf
 (
 buf
 256

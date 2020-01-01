@@ -443,6 +443,13 @@ h
 #
 include
 "
+prprf
+.
+h
+"
+#
+include
+"
 nsGLPbuffer
 .
 h
@@ -529,7 +536,7 @@ if
 console
 )
 {
-vsnprintf
+PR_vsnprintf
 (
 buf
 256

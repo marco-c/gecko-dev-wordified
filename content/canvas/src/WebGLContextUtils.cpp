@@ -45,6 +45,13 @@ h
 #
 include
 "
+prprf
+.
+h
+"
+#
+include
+"
 nsIConsoleService
 .
 h
@@ -1133,7 +1140,7 @@ if
 console
 )
 {
-vsnprintf
+PR_vsnprintf
 (
 buf
 256
@@ -1225,7 +1232,7 @@ if
 console
 )
 {
-vsnprintf
+PR_vsnprintf
 (
 buf
 256
