@@ -1044,6 +1044,8 @@ aDeclaration
 PRBool
 *
 aChanged
+PRBool
+aIsImportant
 )
 ;
 /
