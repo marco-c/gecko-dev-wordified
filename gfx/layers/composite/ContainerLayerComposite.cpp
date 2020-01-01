@@ -1199,7 +1199,7 @@ LayerManagerComposite
 aManager
 )
 :
-ShadowContainerLayer
+ContainerLayer
 (
 aManager
 nullptr
@@ -2201,7 +2201,7 @@ LayerManagerComposite
 aManager
 )
 :
-ShadowRefLayer
+RefLayer
 (
 aManager
 nullptr

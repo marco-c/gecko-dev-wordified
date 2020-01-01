@@ -241,7 +241,7 @@ LayerManagerComposite
 aManager
 )
 :
-ShadowThebesLayer
+ThebesLayer
 (
 aManager
 nullptr

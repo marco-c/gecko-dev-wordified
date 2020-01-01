@@ -159,7 +159,7 @@ class
 Layer
 ;
 class
-ShadowLayerManager
+LayerManagerComposite
 ;
 class
 ShadowLayerParent
@@ -203,7 +203,7 @@ public
 :
 LayerTransactionParent
 (
-ShadowLayerManager
+LayerManagerComposite
 *
 aManager
 ShadowLayersManager
@@ -223,7 +223,7 @@ Destroy
 (
 )
 ;
-ShadowLayerManager
+LayerManagerComposite
 *
 layer_manager
 (
@@ -482,7 +482,7 @@ private
 :
 nsRefPtr
 <
-ShadowLayerManager
+LayerManagerComposite
 >
 mLayerManager
 ;

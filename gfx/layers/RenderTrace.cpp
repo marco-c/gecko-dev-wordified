@@ -296,7 +296,7 @@ Name
 (
 )
 "
-ShadowContainerLayer
+ContainerLayerComposite
 "
 )
 !
