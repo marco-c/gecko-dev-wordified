@@ -4555,8 +4555,14 @@ nsDOMWorkerSecurityManager
 :
 :
 JSCheckAccess
-NULL
-NULL
+nsDOMWorkerSecurityManager
+:
+:
+JSTranscodePrincipals
+nsDOMWorkerSecurityManager
+:
+:
+JSFindPrincipal
 }
 ;
 JS_SetContextSecurityCallbacks
