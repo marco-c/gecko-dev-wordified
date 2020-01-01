@@ -2229,9 +2229,9 @@ value
 let
 event
 =
-target
+content
 .
-ownerDocument
+document
 .
 createEvent
 (
@@ -2416,9 +2416,9 @@ valueChanged
 let
 event
 =
-target
+content
 .
-ownerDocument
+document
 .
 createEvent
 (
