@@ -2954,7 +2954,10 @@ selectFirstItem
 (
 PRBool
 )
+NS_PTR_TO_INT32
+(
 aArg
+)
 ;
 if
 (
@@ -3193,11 +3196,10 @@ AddLazyChildren
 (
 mContent
 LazyGeneratePopupDone
+NS_INT32_TO_PTR
 (
-void
-*
-)
 aSelectFirstItem
+)
 )
 ;
 }
