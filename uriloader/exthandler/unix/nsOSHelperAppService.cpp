@@ -147,7 +147,7 @@ h
 "
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 #
 include
 "
@@ -6688,7 +6688,7 @@ true
 endif
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 /
 /
 Check
@@ -6760,7 +6760,7 @@ _retval
 {
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 nsGNOMERegistry
 :
 :
@@ -7344,7 +7344,7 @@ IsEmpty
 {
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 LOG
 (
 (
@@ -8032,7 +8032,7 @@ get
 ;
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 nsRefPtr
 <
 nsMIMEInfoBase
@@ -8199,7 +8199,7 @@ mime_types_description
 ;
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 if
 (
 gnomeInfo
