@@ -742,12 +742,6 @@ endif
 NS_DECL_NSIDOMNAVIGATORCAMERA
 private
 :
-bool
-IsSmsSupported
-(
-)
-const
-;
 nsRefPtr
 <
 nsMimeTypeArray
