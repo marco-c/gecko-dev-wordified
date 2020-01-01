@@ -24034,10 +24034,6 @@ rv
 rv
 )
 ;
-EnterModalState
-(
-)
-;
 if
 (
 shouldEnableDisableDialog
@@ -24125,10 +24121,6 @@ get
 )
 ;
 }
-LeaveModalState
-(
-)
-;
 return
 rv
 ;
@@ -24339,10 +24331,6 @@ rv
 rv
 )
 ;
-EnterModalState
-(
-)
-;
 if
 (
 shouldEnableDisableDialog
@@ -24432,10 +24420,6 @@ aReturn
 )
 ;
 }
-LeaveModalState
-(
-)
-;
 return
 rv
 ;
@@ -24698,10 +24682,6 @@ label
 )
 ;
 }
-EnterModalState
-(
-)
-;
 PRBool
 ok
 ;
@@ -24734,10 +24714,6 @@ get
 disallowDialog
 &
 ok
-)
-;
-LeaveModalState
-(
 )
 ;
 if
