@@ -8299,6 +8299,7 @@ this
 wish
 savableMessage
 )
+domMessage
 )
 ;
 }
@@ -8461,7 +8462,6 @@ this
 retrievalMode
 savableMessage
 )
-domMessage
 )
 ;
 }
@@ -9771,6 +9771,7 @@ notifyResult
 (
 aRv
 aMessageRecord
+aDomMessage
 )
 {
 if
@@ -10794,6 +10795,7 @@ bind
 (
 this
 )
+aDomMessage
 )
 )
 ;
