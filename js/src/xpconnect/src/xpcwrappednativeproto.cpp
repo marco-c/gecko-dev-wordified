@@ -1180,10 +1180,14 @@ ccx
 ClassInfo2WrappedNativeProtoMap
 *
 map
+=
+nsnull
 ;
 XPCLock
 *
 lock
+=
+nsnull
 ;
 JSBool
 shared
