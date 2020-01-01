@@ -3764,6 +3764,9 @@ cx
 ;
 public
 :
+#
+ifdef
+DEBUG
 /
 *
 Check
@@ -3801,6 +3804,8 @@ Value
 sp
 )
 ;
+#
+endif
 /
 *
 Get
