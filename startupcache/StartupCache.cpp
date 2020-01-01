@@ -2808,9 +2808,6 @@ PRBool
 aIsStrongRef
 )
 {
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsISupports
@@ -2882,9 +2879,6 @@ nsISupports
 aObject
 )
 {
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsISupports
@@ -2961,9 +2955,6 @@ PRBool
 aIsStrongRef
 )
 {
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsISupports
