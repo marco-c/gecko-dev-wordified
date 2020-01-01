@@ -3492,7 +3492,7 @@ JSTracer
 aClosure
 )
 ;
-JS_CALL_SCRIPT_TRACER
+JS_CallScriptTracer
 (
 trc
 aScriptEntry

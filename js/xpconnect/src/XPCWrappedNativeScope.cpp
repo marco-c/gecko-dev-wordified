@@ -2511,7 +2511,7 @@ void
 aClosure
 )
 {
-JS_CALL_OBJECT_TRACER
+JS_CallObjectTracer
 (
 static_cast
 <

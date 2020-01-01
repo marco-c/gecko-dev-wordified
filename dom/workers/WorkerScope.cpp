@@ -662,7 +662,7 @@ i
 +
 )
 {
-JS_CALL_VALUE_TRACER
+JS_CallValueTracer
 (
 aTrc
 mSlots

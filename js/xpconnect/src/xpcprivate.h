@@ -10227,7 +10227,7 @@ MOZ_ASSERT
 obj
 )
 ;
-JS_CALL_OBJECT_TRACER
+JS_CallObjectTracer
 (
 trc
 obj
@@ -10243,7 +10243,7 @@ if
 (
 mXBLScope
 )
-JS_CALL_OBJECT_TRACER
+JS_CallObjectTracer
 (
 trc
 mXBLScope
@@ -15333,7 +15333,7 @@ if
 (
 mJSProtoObject
 )
-JS_CALL_OBJECT_TRACER
+JS_CallObjectTracer
 (
 trc
 mJSProtoObject
@@ -17706,7 +17706,7 @@ if
 (
 wrapper
 )
-JS_CALL_OBJECT_TRACER
+JS_CallObjectTracer
 (
 trc
 wrapper
@@ -17848,7 +17848,7 @@ mFlatJSObject
 INVALID_OBJECT
 )
 {
-JS_CALL_OBJECT_TRACER
+JS_CallObjectTracer
 (
 trc
 mFlatJSObject
@@ -24311,7 +24311,7 @@ JSTracer
 trc
 )
 {
-JS_CALL_VALUE_TRACER
+JS_CallValueTracer
 (
 trc
 *

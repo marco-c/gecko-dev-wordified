@@ -175,7 +175,7 @@ if
 mXHR
 )
 {
-JS_CALL_OBJECT_TRACER
+JS_CallObjectTracer
 (
 aTrc
 mXHR

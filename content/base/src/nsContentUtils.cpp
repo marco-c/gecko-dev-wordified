@@ -9560,7 +9560,7 @@ cx
 )
 )
 {
-JS_CALL_OBJECT_TRACER
+JS_CallObjectTracer
 (
 aTrc
 global
