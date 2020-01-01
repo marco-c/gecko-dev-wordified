@@ -1615,9 +1615,10 @@ JSContext
 *
 cx
 uint32
-nactual
-uint32
 flags
+void
+*
+ncode
 )
 ;
 inline
@@ -1627,9 +1628,8 @@ initCallFrameEarlyPrologue
 JSFunction
 *
 fun
-void
-*
-ncode
+uint32
+nactual
 )
 ;
 inline
