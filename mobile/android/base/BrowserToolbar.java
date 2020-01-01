@@ -1843,12 +1843,6 @@ msg
 case
 TITLE
 :
-/
-/
-if
-(
-sameDocument
-)
 if
 (
 Tabs
