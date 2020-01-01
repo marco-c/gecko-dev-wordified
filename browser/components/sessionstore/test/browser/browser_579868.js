@@ -530,9 +530,7 @@ tab1
 .
 linkedBrowser
 .
-__SS_data
-.
-_tabStillLoading
+__SS_tabStillLoading
 true
 "
 _tabStillLoading
