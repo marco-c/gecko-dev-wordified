@@ -3373,7 +3373,7 @@ LOG
 (
 (
 "
-nsHttpChannel
+HttpBaseChannel
 :
 :
 ApplyContentConversions
