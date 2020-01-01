@@ -105,15 +105,10 @@ defined
 (
 XP_WIN
 )
-&
-&
-defined
-(
-ZLIB_DLL
-)
 #
-undef
+define
 ZLIB_DLL
+1
 #
 endif
 /
