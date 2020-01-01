@@ -236,6 +236,15 @@ netscape
 com
 >
 *
+Dan
+Mosedale
+<
+dmose
+mozilla
+.
+org
+>
+*
 *
 Alternatively
 the
@@ -521,7 +530,7 @@ protected
 helper
 function
 PRBool
-HaveProtocolHandler
+HaveOSProtocolHandler
 (
 nsIURI
 *

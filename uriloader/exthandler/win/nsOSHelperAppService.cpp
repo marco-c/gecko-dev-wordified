@@ -1111,11 +1111,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsOSHelperAppService
 :
 :
-ExternalProtocolHandlerExists
+OSProtocolHandlerExists
 (
 const
 char

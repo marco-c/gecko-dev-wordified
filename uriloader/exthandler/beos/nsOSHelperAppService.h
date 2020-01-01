@@ -498,8 +498,8 @@ aFound
 override
 nsIExternalProtocolService
 methods
-NS_IMETHOD
-ExternalProtocolHandlerExists
+nsresult
+OSProtocolHandlerExists
 (
 const
 char
