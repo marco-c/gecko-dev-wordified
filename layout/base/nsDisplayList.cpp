@@ -25294,6 +25294,16 @@ aContainerParameters
 newTransformMatrix
 )
 ;
+if
+(
+!
+container
+)
+{
+return
+nullptr
+;
+}
 /
 /
 Add
