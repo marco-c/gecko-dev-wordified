@@ -1636,6 +1636,9 @@ mNumAudioStreams
 int
 mNumVideoStreams
 ;
+bool
+mHaveDataStream
+;
 /
 /
 Holder
