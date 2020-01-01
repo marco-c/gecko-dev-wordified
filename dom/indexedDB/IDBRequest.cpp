@@ -376,9 +376,6 @@ BindToOwner
 aOwnerCache
 )
 ;
-if
-(
-!
 request
 -
 >
@@ -391,12 +388,7 @@ GetScriptOwner
 (
 )
 )
-)
-{
-return
-nullptr
 ;
-}
 request
 -
 >
@@ -1683,9 +1675,6 @@ BindToOwner
 aOwner
 )
 ;
-if
-(
-!
 request
 -
 >
@@ -1693,12 +1682,7 @@ SetScriptOwner
 (
 aScriptOwner
 )
-)
-{
-return
-nullptr
 ;
-}
 request
 -
 >
