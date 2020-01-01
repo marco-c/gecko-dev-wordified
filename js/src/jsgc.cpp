@@ -17862,6 +17862,8 @@ thingKind
 FINALIZE_FUNCTION
 )
 ;
+:
+:
 FinalizeGCThing
 (
 cx
@@ -18719,6 +18721,8 @@ flagp
 =
 0
 ;
+:
+:
 FinalizeGCThing
 (
 cx
