@@ -39231,6 +39231,9 @@ cx
 JSObject
 *
 obj
+JSObject
+*
+proto
 )
 {
 JS_ASSERT
@@ -39255,7 +39258,7 @@ js_NewObject
 cx
 &
 js_RegExpClass
-NULL
+proto
 NULL
 )
 ;
@@ -39311,12 +39314,13 @@ clone
 #
 ifdef
 JS_TRACER
-JS_DEFINE_CALLINFO_2
+JS_DEFINE_CALLINFO_3
 (
 extern
 OBJECT
 js_CloneRegExpObject
 CONTEXT
+OBJECT
 OBJECT
 0
 0

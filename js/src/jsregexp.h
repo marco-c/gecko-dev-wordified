@@ -1356,6 +1356,11 @@ cx
 JSObject
 *
 obj
+JSObject
+*
+proto
+=
+NULL
 )
 ;
 const
