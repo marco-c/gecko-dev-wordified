@@ -166,7 +166,6 @@ groupItem
 .
 addSubscriber
 (
-groupItem
 "
 expanded
 "
@@ -179,10 +178,10 @@ groupItem
 .
 removeSubscriber
 (
-groupItem
 "
 expanded
 "
+onExpanded
 )
 ;
 ok

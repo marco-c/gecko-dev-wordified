@@ -251,7 +251,6 @@ group
 .
 removeSubscriber
 (
-group
 "
 groupHidden
 "
@@ -270,7 +269,6 @@ tab
 .
 removeSubscriber
 (
-tab
 "
 tabRemoved
 "
@@ -337,7 +335,6 @@ group
 .
 addSubscriber
 (
-group
 "
 groupHidden
 "
@@ -357,7 +354,6 @@ tab
 .
 addSubscriber
 (
-tab
 "
 tabRemoved
 "

@@ -653,11 +653,11 @@ emptyGroupItem
 .
 addSubscriber
 (
-emptyGroupItem
 "
 close
 "
 function
+onClose
 (
 )
 {
@@ -665,10 +665,10 @@ emptyGroupItem
 .
 removeSubscriber
 (
-emptyGroupItem
 "
 close
 "
+onClose
 )
 ;
 /
