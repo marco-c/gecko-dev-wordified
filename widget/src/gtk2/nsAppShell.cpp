@@ -490,6 +490,13 @@ h
 #
 include
 "
+nsWindow
+.
+h
+"
+#
+include
+"
 prlog
 .
 h
