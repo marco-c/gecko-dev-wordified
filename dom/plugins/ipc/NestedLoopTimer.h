@@ -190,4 +190,7 @@ mozilla
 *
 /
 #
+undef
+slots
+#
 endif
