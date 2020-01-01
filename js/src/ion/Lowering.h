@@ -1392,6 +1392,14 @@ ins
 )
 ;
 bool
+visitInArray
+(
+MInArray
+*
+ins
+)
+;
+bool
 visitInstanceOf
 (
 MInstanceOf
