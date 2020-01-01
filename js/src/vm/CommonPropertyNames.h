@@ -452,6 +452,15 @@ deleteProperty
 \
 macro
 (
+done
+done
+"
+done
+"
+)
+\
+macro
+(
 each
 each
 "
