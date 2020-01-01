@@ -326,6 +326,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+SVGAnimatedEnumeration
+.
+h
+"
+#
+include
+"
 SVGAnimatedNumberList
 .
 h
