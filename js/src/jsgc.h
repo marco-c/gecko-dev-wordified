@@ -5775,15 +5775,6 @@ getCompartment
 const
 {
 return
-(
-(
-Cell
-*
-)
-this
-)
--
->
 compartment
 (
 )
