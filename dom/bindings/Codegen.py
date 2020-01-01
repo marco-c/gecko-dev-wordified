@@ -20108,7 +20108,7 @@ in
 question
           
 {
-valMutableHandle
+mutableVal
 }
 is
 a
@@ -23009,7 +23009,7 @@ temp
 "
                         
 "
-valMutableHandle
+mutableVal
 "
 :
 "
@@ -23372,7 +23372,7 @@ cx
 valHandle
 }
 {
-valMutableHandle
+mutableVal
 }
 tryNext
 )
@@ -23511,7 +23511,7 @@ cx
 valHandle
 }
 {
-valMutableHandle
+mutableVal
 }
 tryNext
 )
@@ -23620,7 +23620,7 @@ cx
 val
 }
 {
-valMutableHandle
+mutableVal
 }
 )
 ;
@@ -23745,7 +23745,7 @@ cx
 valHandle
 }
 {
-valMutableHandle
+mutableVal
 }
 tryNext
 )
@@ -24267,7 +24267,7 @@ cx
 valHandle
 }
 {
-valMutableHandle
+mutableVal
 }
 tryNext
 )
@@ -26913,7 +26913,7 @@ cx
 valHandle
 }
 {
-valMutableHandle
+mutableVal
 }
 %
 s
@@ -30918,7 +30918,7 @@ self
 replacementVariables
 [
 "
-valMutableHandle
+mutableVal
 "
 ]
 =
@@ -31541,7 +31541,7 @@ valHandle
 val
                         
 "
-valMutableHandle
+mutableVal
 "
 :
 val
@@ -40503,7 +40503,7 @@ valHandle
 distinguishingArg
                         
 "
-valMutableHandle
+mutableVal
 "
 :
 distinguishingArg
@@ -48728,7 +48728,7 @@ value
 "
                 
 "
-valMutableHandle
+mutableVal
 "
 :
 "
@@ -55477,7 +55477,7 @@ value
 "
                 
 "
-valMutableHandle
+mutableVal
 "
 :
 "
@@ -66295,7 +66295,7 @@ temp
 "
                          
 "
-valMutableHandle
+mutableVal
 "
 :
 "
@@ -79920,7 +79920,7 @@ rval
 "
             
 "
-valMutableHandle
+mutableVal
 "
 :
 "
