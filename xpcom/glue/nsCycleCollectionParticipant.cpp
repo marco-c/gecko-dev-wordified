@@ -436,7 +436,7 @@ nsCOMPtr
 .
 h
 "
-NS_IMETHODIMP
+nsresult
 nsXPCOMCycleCollectionParticipant
 :
 :
@@ -469,7 +469,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXPCOMCycleCollectionParticipant
 :
 :
@@ -484,7 +484,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXPCOMCycleCollectionParticipant
 :
 :
@@ -517,7 +517,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXPCOMCycleCollectionParticipant
 :
 :
@@ -535,10 +535,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP_
-(
 void
-)
 nsXPCOMCycleCollectionParticipant
 :
 :
@@ -550,9 +547,6 @@ n
 )
 {
 }
-#
-ifdef
-DEBUG
 PRBool
 nsXPCOMCycleCollectionParticipant
 :
@@ -592,5 +586,3 @@ s
 foo
 ;
 }
-#
-endif

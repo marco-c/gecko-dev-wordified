@@ -506,7 +506,7 @@ JSRuntime
 class
 nsIJSRuntimeService
 ;
-struct
+class
 nsCycleCollectionTraversalCallback
 ;
 struct

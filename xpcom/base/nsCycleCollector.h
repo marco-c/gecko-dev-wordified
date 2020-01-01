@@ -491,7 +491,8 @@ p
 ;
 }
 ;
-NS_COM
+/
+/
 PRBool
 nsCycleCollector_suspect
 (
@@ -509,6 +510,8 @@ nsISupports
 n
 )
 ;
+/
+/
 NS_COM
 PRBool
 nsCycleCollector_forget
