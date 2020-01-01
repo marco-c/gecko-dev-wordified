@@ -216,6 +216,7 @@ keypress
 this
 .
 onkeypress
+true
 )
 ;
 }

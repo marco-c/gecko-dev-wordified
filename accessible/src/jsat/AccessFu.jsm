@@ -641,7 +641,7 @@ Services
 .
 obs
 .
-addObserver
+removeObserver
 (
 this
 '
@@ -649,7 +649,6 @@ accessible
 -
 event
 '
-false
 )
 ;
 this
@@ -662,6 +661,7 @@ removeEventListener
 DOMActivate
 '
 this
+true
 )
 ;
 this
@@ -674,6 +674,7 @@ removeEventListener
 resize
 '
 this
+true
 )
 ;
 this
@@ -686,6 +687,7 @@ removeEventListener
 scroll
 '
 this
+true
 )
 ;
 this
@@ -698,6 +700,7 @@ removeEventListener
 TabOpen
 '
 this
+true
 )
 ;
 }
