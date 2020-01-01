@@ -12541,6 +12541,11 @@ CancelUpdate
 )
 )
 ;
+if
+(
+mUpdateObserver
+)
+{
 mUpdateStatus
 =
 NS_BINDING_ABORTED
@@ -12568,6 +12573,7 @@ ResetUpdate
 (
 )
 ;
+}
 return
 NS_OK
 ;
@@ -12630,6 +12636,10 @@ if
 mConnection
 )
 {
+CancelUpdate
+(
+)
+;
 mMainStore
 .
 Close
