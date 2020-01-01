@@ -1683,13 +1683,6 @@ mShuttingDown
 return
 NS_OK
 ;
-mozilla
-:
-:
-RecordShutdownStartTimeStamp
-(
-)
-;
 /
 /
 If
@@ -2103,6 +2096,13 @@ SAMPLE_MARKER
 Shutdown
 start
 "
+)
+;
+mozilla
+:
+:
+RecordShutdownStartTimeStamp
+(
 )
 ;
 mShuttingDown
