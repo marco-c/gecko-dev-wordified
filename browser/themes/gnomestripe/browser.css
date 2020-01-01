@@ -4825,9 +4825,6 @@ button
 disabled
 ]
 {
--
-moz
--
 transform
 :
 scale
@@ -10298,9 +10295,6 @@ dir
 rtl
 )
 {
--
-moz
--
 transform
 :
 scaleX
@@ -11169,9 +11163,6 @@ toolbarbutton
 -
 icon
 {
--
-moz
--
 transform
 :
 scaleX
@@ -14575,9 +14566,6 @@ toolbarbutton
 -
 icon
 {
--
-moz
--
 transform
 :
 scaleX
@@ -15026,9 +15014,6 @@ preview
 -
 label
 {
--
-moz
--
 transform
 :
 translate
@@ -16917,9 +16902,6 @@ calc
 7px
 )
 ;
--
-moz
--
 transform
 :
 rotate
@@ -17953,9 +17935,6 @@ dir
 ltr
 )
 {
--
-moz
--
 transform
 :
 scaleX
@@ -21110,9 +21089,6 @@ ew
 -
 resize
 ;
--
-moz
--
 transform
 :
 translate
@@ -21171,9 +21147,6 @@ se
 -
 resize
 ;
--
-moz
--
 transform
 :
 translate
