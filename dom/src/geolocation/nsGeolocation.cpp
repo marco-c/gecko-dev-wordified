@@ -5599,6 +5599,7 @@ PRUint32
 aWatchId
 )
 >
+=
 count
 )
 return
