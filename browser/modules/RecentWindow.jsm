@@ -257,6 +257,11 @@ checkPrivacy
 |
 PrivateBrowsingUtils
 .
+permanentPrivateBrowsing
+|
+|
+PrivateBrowsingUtils
+.
 isWindowPrivate
 (
 win
