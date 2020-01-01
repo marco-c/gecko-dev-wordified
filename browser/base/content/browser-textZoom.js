@@ -446,7 +446,7 @@ cpp
 const
 MOUSE_SCROLL_FULLZOOM
 =
-3
+5
 ;
 /
 *
