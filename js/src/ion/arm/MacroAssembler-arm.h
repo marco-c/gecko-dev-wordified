@@ -4265,13 +4265,7 @@ value
 )
 ScratchRegister
 Always
-hasMOVWT
-(
-)
-?
 L_MOVWT
-:
-L_LDR
 )
 ;
 ma_push
