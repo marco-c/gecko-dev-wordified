@@ -931,6 +931,13 @@ IonActivation
 *
 activation_
 ;
+private
+:
+void
+settle
+(
+)
+;
 public
 :
 IonActivationIterator
