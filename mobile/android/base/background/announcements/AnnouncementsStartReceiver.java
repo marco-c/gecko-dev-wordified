@@ -152,6 +152,16 @@ Intent
 intent
 )
 {
+if
+(
+AnnouncementsConstants
+.
+DISABLED
+)
+{
+return
+;
+}
 Logger
 .
 debug

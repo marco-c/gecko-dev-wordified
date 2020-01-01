@@ -182,6 +182,16 @@ Intent
 intent
 )
 {
+if
+(
+AnnouncementsConstants
+.
+DISABLED
+)
+{
+return
+;
+}
 Intent
 service
 =
