@@ -595,14 +595,9 @@ nsRect
 aRect
 )
 ;
-nsIDocShell
-*
-mDocShell
+bool
+mIsChrome
 ;
-/
-/
-Weak
-Reference
 mozilla
 :
 :
