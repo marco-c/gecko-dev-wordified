@@ -1057,6 +1057,7 @@ size
 (
 )
 )
+{
 pagesGrow
 (
 _pagesGrowth
@@ -1086,6 +1087,7 @@ _pagesGrowth
 =
 1
 ;
+}
 trackPages
 (
 )
