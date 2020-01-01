@@ -32241,6 +32241,9 @@ aOldDocument
 nsIDocument
 *
 aNewDocument
+nsCxPusher
+&
+aPusher
 JSContext
 *
 *
@@ -32460,6 +32463,19 @@ NS_ERROR_NOT_AVAILABLE
 }
 }
 }
+}
+if
+(
+cx
+)
+{
+aPusher
+.
+Push
+(
+cx
+)
+;
 }
 if
 (
@@ -33140,6 +33156,9 @@ newScope
 =
 nullptr
 ;
+nsCxPusher
+pusher
+;
 if
 (
 !
@@ -33152,6 +33171,7 @@ GetContextAndScope
 (
 oldDocument
 this
+pusher
 &
 cx
 &
