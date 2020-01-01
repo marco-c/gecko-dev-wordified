@@ -437,6 +437,15 @@ nsIconChannel_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIChannel
 .
 h
@@ -503,6 +512,7 @@ proxied
 /
 class
 nsIconChannel
+MOZ_FINAL
 :
 public
 nsIChannel

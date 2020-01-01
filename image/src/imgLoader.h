@@ -448,6 +448,15 @@ imgLoader_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 imgILoader
 .
 h
@@ -2023,6 +2032,7 @@ callbacks
 /
 class
 nsProgressNotificationProxy
+MOZ_FINAL
 :
 public
 nsIProgressEventSink

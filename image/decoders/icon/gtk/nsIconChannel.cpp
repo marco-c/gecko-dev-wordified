@@ -1874,6 +1874,18 @@ return
 GTK_ICON_SIZE_MENU
 ;
 }
+#
+if
+defined
+(
+MOZ_ENABLE_GNOMEUI
+)
+|
+|
+defined
+(
+MOZ_ENABLE_GIO
+)
 static
 PRInt32
 GetIconSize
@@ -2071,6 +2083,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 #
 ifdef
 MOZ_ENABLE_GNOMEUI
