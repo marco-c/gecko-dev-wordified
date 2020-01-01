@@ -655,6 +655,8 @@ const
 XPCNativeScriptableCreateInfo
 *
 scriptableCreateInfo
+bool
+callPostCreatePrototype
 )
 {
 nsIXPCScriptable
@@ -823,6 +825,10 @@ mJSProtoObject
 this
 )
 ;
+if
+(
+callPostCreatePrototype
+)
 success
 =
 CallPostCreatePrototype
@@ -1230,6 +1236,8 @@ scriptableCreateInfo
 QITableEntry
 *
 offsets
+bool
+callPostCreatePrototype
 )
 {
 NS_ASSERTION
@@ -1411,6 +1419,7 @@ Init
 (
 ccx
 scriptableCreateInfo
+callPostCreatePrototype
 )
 )
 {
