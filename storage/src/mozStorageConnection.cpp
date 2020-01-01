@@ -2946,12 +2946,7 @@ get
 &
 mDBConn
 mFlags
-mStorageService
--
->
-getVFSName
-(
-)
+NULL
 )
 ;
 if
@@ -3105,12 +3100,7 @@ get
 &
 mDBConn
 mFlags
-mStorageService
--
->
-getVFSName
-(
-)
+NULL
 )
 ;
 if
