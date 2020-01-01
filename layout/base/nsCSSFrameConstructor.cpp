@@ -615,6 +615,13 @@ h
 #
 include
 "
+nsFlexContainerFrame
+.
+h
+"
+#
+include
+"
 nsImageFrame
 .
 h
@@ -773,13 +780,6 @@ h
 "
 #
 endif
-#
-include
-"
-nsFlexContainerFrame
-.
-h
-"
 #
 ifdef
 ACCESSIBILITY
