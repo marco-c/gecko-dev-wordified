@@ -468,6 +468,11 @@ Remove
 id
 :
 aId
+manifestURL
+:
+this
+.
+_manifestURL
 }
 )
 ;
@@ -517,6 +522,11 @@ getRequestId
 (
 request
 )
+manifestURL
+:
+this
+.
+_manifestURL
 }
 )
 ;
