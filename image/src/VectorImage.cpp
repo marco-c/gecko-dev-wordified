@@ -166,6 +166,13 @@ h
 #
 include
 "
+nsMimeTypes
+.
+h
+"
+#
+include
+"
 nsComponentManagerUtils
 .
 h
@@ -1254,7 +1261,7 @@ NS_ABORT_IF_FALSE
 strcmp
 (
 aMimeType
-SVG_MIMETYPE
+IMAGE_SVG_XML
 )
 "
 Unexpected
