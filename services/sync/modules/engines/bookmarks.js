@@ -3150,11 +3150,20 @@ this
 _stmts
 )
 )
+{
 stmt
 .
 finalize
 (
 )
+;
+}
+this
+.
+_stmts
+=
+{
+}
 ;
 }
 this
@@ -7360,6 +7369,7 @@ this
 .
 _stmts
 )
+{
 return
 this
 .
@@ -7368,6 +7378,7 @@ _stmts
 query
 ]
 ;
+}
 this
 .
 _log
