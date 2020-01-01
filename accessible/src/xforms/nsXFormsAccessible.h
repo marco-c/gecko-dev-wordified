@@ -842,12 +842,6 @@ aDoc
 /
 SelectAccessible
 virtual
-bool
-IsSelect
-(
-)
-;
-virtual
 already_AddRefed
 <
 nsIArray

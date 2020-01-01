@@ -119,6 +119,13 @@ h
 #
 include
 "
+Accessible
+.
+h
+"
+#
+include
+"
 nsAccUtils
 .
 h
@@ -178,6 +185,13 @@ a11y
 :
 :
 aria
+;
+static
+const
+uint32_t
+kGenericAccType
+=
+0
 ;
 /
 *
@@ -329,6 +343,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -348,6 +363,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -367,6 +383,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -386,6 +403,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 eReadonlyUntilEditable
 }
@@ -406,6 +424,7 @@ kUseMapRole
 eNoValue
 ePressAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 eARIAPressed
 }
@@ -426,6 +445,7 @@ kUseMapRole
 eNoValue
 eCheckUncheckAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 eARIACheckableMixed
 eARIAReadonly
@@ -447,6 +467,7 @@ kUseMapRole
 eNoValue
 eSortAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 eARIASelectable
 eARIAReadonly
@@ -468,6 +489,7 @@ kUseMapRole
 eNoValue
 eOpenCloseAction
 eNoLiveAttr
+kGenericAccType
 states
 :
 :
@@ -497,6 +519,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -516,6 +539,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -535,6 +559,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 eReadonlyUntilEditable
 }
@@ -555,6 +580,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -574,6 +600,10 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+Accessible
+:
+:
+eSelectAccessible
 states
 :
 :
@@ -598,6 +628,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 eARIASelectable
 eARIAReadonly
@@ -619,6 +650,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -638,6 +670,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -657,6 +690,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -676,6 +710,7 @@ kUseMapRole
 eNoValue
 eJumpAction
 eNoLiveAttr
+kGenericAccType
 states
 :
 :
@@ -698,6 +733,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 states
 :
 :
@@ -720,6 +756,10 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+Accessible
+:
+:
+eSelectAccessible
 kNoReqStates
 eARIAMultiSelectable
 eARIAReadonly
@@ -751,6 +791,7 @@ state
 parent
 accessible
 eNoLiveAttr
+kGenericAccType
 states
 :
 :
@@ -773,6 +814,7 @@ kUseNativeRole
 eNoValue
 eNoAction
 ePoliteLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -792,6 +834,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eOffLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -811,6 +854,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -854,6 +898,7 @@ or
 close
 .
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -873,6 +918,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -892,6 +938,7 @@ kUseMapRole
 eNoValue
 eClickAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 eARIACheckedMixed
 }
@@ -912,6 +959,7 @@ kUseMapRole
 eNoValue
 eClickAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 eARIACheckableMixed
 }
@@ -932,6 +980,7 @@ kUseMapRole
 eNoValue
 eClickAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 eARIACheckableBool
 }
@@ -952,6 +1001,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -971,6 +1021,7 @@ kUseMapRole
 eNoValue
 eSelectAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 eARIASelectable
 eARIACheckedMixed
@@ -992,6 +1043,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -1011,6 +1063,7 @@ kUseMapRole
 eHasValueMinMax
 eNoAction
 eNoLiveAttr
+kGenericAccType
 states
 :
 :
@@ -1034,6 +1087,7 @@ kUseMapRole
 eNoValue
 eSelectAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 eARIACheckableBool
 }
@@ -1054,6 +1108,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -1073,6 +1128,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -1092,6 +1148,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 eARIASelectable
 }
@@ -1112,6 +1169,7 @@ kUseMapRole
 eNoValue
 eSortAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 eARIASelectable
 eARIAReadonly
@@ -1133,6 +1191,7 @@ kUseMapRole
 eHasValueMinMax
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 eARIAOrientation
 eARIAReadonly
@@ -1154,6 +1213,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 eARIAOrientation
 }
@@ -1174,6 +1234,7 @@ kUseMapRole
 eHasValueMinMax
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 eARIAOrientation
 eARIAReadonly
@@ -1195,6 +1256,7 @@ kUseMapRole
 eHasValueMinMax
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 eARIAReadonly
 }
@@ -1215,6 +1277,7 @@ kUseMapRole
 eNoValue
 eNoAction
 ePoliteLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -1234,6 +1297,7 @@ kUseMapRole
 eNoValue
 eSwitchAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 eARIASelectable
 }
@@ -1254,6 +1318,10 @@ kUseMapRole
 eNoValue
 eNoAction
 ePoliteLiveAttr
+Accessible
+:
+:
+eSelectAccessible
 kNoReqStates
 }
 {
@@ -1273,6 +1341,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -1292,6 +1361,7 @@ kUseMapRole
 eNoValue
 eActivateAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 eARIAAutoComplete
 eARIAMultiline
@@ -1333,6 +1403,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -1352,6 +1423,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 {
@@ -1371,6 +1443,10 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+Accessible
+:
+:
+eSelectAccessible
 kNoReqStates
 eARIAReadonly
 eARIAMultiSelectable
@@ -1392,6 +1468,10 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+Accessible
+:
+:
+eSelectAccessible
 kNoReqStates
 eARIAReadonly
 eARIAMultiSelectable
@@ -1431,6 +1511,7 @@ based
 on
 states
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 eARIASelectable
 eARIACheckedMixed
@@ -1455,6 +1536,7 @@ kUseNativeRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 ;
@@ -1478,6 +1560,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+kGenericAccType
 kNoReqStates
 }
 ;

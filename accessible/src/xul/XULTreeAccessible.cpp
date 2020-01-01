@@ -436,6 +436,8 @@ aDoc
 mFlags
 |
 =
+eSelectAccessible
+|
 eXULTreeAccessible
 ;
 mTree
@@ -1811,18 +1813,6 @@ child
 XULTreeAccessible
 :
 SelectAccessible
-bool
-XULTreeAccessible
-:
-:
-IsSelect
-(
-)
-{
-return
-true
-;
-}
 Accessible
 *
 XULTreeAccessible

@@ -257,12 +257,6 @@ NativeState
 SelectAccessible
 virtual
 bool
-IsSelect
-(
-)
-;
-virtual
-bool
 SelectAll
 (
 )
