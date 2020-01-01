@@ -626,6 +626,16 @@ mValidRegion
 mBuffer
 -
 >
+SetPaintWillResample
+(
+MayResample
+(
+)
+)
+;
+mBuffer
+-
+>
 Composite
 (
 effectChain

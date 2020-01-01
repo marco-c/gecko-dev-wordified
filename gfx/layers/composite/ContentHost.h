@@ -243,6 +243,15 @@ nullptr
 }
 #
 endif
+virtual
+void
+SetPaintWillResample
+(
+bool
+aResample
+)
+{
+}
 protected
 :
 ContentHost
@@ -543,6 +552,7 @@ GetTextureHost
 )
 MOZ_OVERRIDE
 ;
+virtual
 void
 SetPaintWillResample
 (
