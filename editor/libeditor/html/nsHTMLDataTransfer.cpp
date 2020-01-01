@@ -242,13 +242,6 @@ h
 #
 include
 "
-nsIPrivateDOMEvent
-.
-h
-"
-#
-include
-"
 nsIDocumentObserver
 .
 h
