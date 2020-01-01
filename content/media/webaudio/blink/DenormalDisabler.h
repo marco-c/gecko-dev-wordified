@@ -253,6 +253,13 @@ include
 <
 cmath
 >
+#
+include
+<
+float
+.
+h
+>
 namespace
 WebCore
 {
@@ -283,13 +290,6 @@ denormals
 to
 zero
 .
-#
-include
-<
-float
-.
-h
->
 #
 if
 defined
