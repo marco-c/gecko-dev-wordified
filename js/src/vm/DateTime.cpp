@@ -129,6 +129,12 @@ jsutil
 .
 h
 "
+using
+mozilla
+:
+:
+UnspecifiedNaN
+;
 static
 bool
 ComputeLocalTime
@@ -1146,7 +1152,7 @@ initialized
 .
 localTZA_
 =
-MOZ_DOUBLE_NaN
+UnspecifiedNaN
 (
 )
 ;

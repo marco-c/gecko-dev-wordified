@@ -1148,7 +1148,10 @@ twoWidthMin1
 if
 (
 !
-MOZ_DOUBLE_IS_FINITE
+mozilla
+:
+:
+IsFinite
 (
 d
 )
@@ -2829,7 +2832,10 @@ d
 if
 (
 !
-MOZ_DOUBLE_IS_FINITE
+mozilla
+:
+:
+IsFinite
 (
 d
 )
@@ -2837,7 +2843,10 @@ d
 {
 if
 (
-MOZ_DOUBLE_IS_NaN
+mozilla
+:
+:
+IsNaN
 (
 d
 )

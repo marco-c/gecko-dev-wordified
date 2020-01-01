@@ -683,7 +683,10 @@ const
 uint16_t
 MaxTruncatableExponent
 =
-MOZ_DOUBLE_EXPONENT_SHIFT
+mozilla
+:
+:
+DoubleExponentShift
 ;
 /
 /
@@ -706,7 +709,10 @@ const
 uint16_t
 MaxDoubleExponent
 =
-MOZ_DOUBLE_EXPONENT_BIAS
+mozilla
+:
+:
+DoubleExponentBias
 ;
 private
 :

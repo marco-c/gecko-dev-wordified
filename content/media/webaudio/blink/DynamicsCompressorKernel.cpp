@@ -326,6 +326,18 @@ dom
 :
 WebAudioUtils
 ;
+using
+mozilla
+:
+:
+IsInfinite
+;
+using
+mozilla
+:
+:
+IsNaN
+;
 namespace
 WebCore
 {
@@ -1979,7 +1991,7 @@ gremlins
 .
 if
 (
-MOZ_DOUBLE_IS_NaN
+IsNaN
 (
 m_detectorAverage
 )
@@ -1990,7 +2002,7 @@ m_detectorAverage
 ;
 if
 (
-MOZ_DOUBLE_IS_INFINITE
+IsInfinite
 (
 m_detectorAverage
 )
@@ -2330,7 +2342,7 @@ gremlins
 .
 if
 (
-MOZ_DOUBLE_IS_NaN
+IsNaN
 (
 compressionDiffDb
 )
@@ -2342,7 +2354,7 @@ compressionDiffDb
 ;
 if
 (
-MOZ_DOUBLE_IS_INFINITE
+IsInfinite
 (
 compressionDiffDb
 )
@@ -2533,7 +2545,7 @@ gremlins
 .
 if
 (
-MOZ_DOUBLE_IS_NaN
+IsNaN
 (
 compressionDiffDb
 )
@@ -2544,7 +2556,7 @@ compressionDiffDb
 ;
 if
 (
-MOZ_DOUBLE_IS_INFINITE
+IsInfinite
 (
 compressionDiffDb
 )
@@ -3157,7 +3169,7 @@ gremlins
 .
 if
 (
-MOZ_DOUBLE_IS_NaN
+IsNaN
 (
 detectorAverage
 )
@@ -3168,7 +3180,7 @@ detectorAverage
 ;
 if
 (
-MOZ_DOUBLE_IS_INFINITE
+IsInfinite
 (
 detectorAverage
 )

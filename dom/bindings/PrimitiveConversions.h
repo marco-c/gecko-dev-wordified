@@ -1344,7 +1344,10 @@ integers
 if
 (
 !
-MOZ_DOUBLE_IS_FINITE
+mozilla
+:
+:
+IsFinite
 (
 d
 )
@@ -1529,7 +1532,10 @@ integers
 ;
 if
 (
-MOZ_DOUBLE_IS_NaN
+mozilla
+:
+:
+IsNaN
 (
 d
 )
@@ -1612,7 +1618,10 @@ true
 }
 MOZ_ASSERT
 (
-MOZ_DOUBLE_IS_FINITE
+mozilla
+:
+:
+IsFinite
 (
 d
 )

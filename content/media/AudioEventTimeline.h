@@ -731,7 +731,10 @@ value
 )
 {
 return
-MOZ_DOUBLE_IS_FINITE
+mozilla
+:
+:
+IsFinite
 (
 value
 )

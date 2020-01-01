@@ -2212,7 +2212,10 @@ mPrio
 ;
 if
 (
-MOZ_DOUBLE_IS_NaN
+mozilla
+:
+:
+IsNaN
 (
 priority
 )
@@ -2230,7 +2233,10 @@ getDefaultPriority
 NS_ASSERTION
 (
 !
-MOZ_DOUBLE_IS_NaN
+mozilla
+:
+:
+IsNaN
 (
 priority
 )

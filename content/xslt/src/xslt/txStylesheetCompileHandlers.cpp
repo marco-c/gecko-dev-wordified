@@ -1228,7 +1228,7 @@ aNumber
 {
 aNumber
 =
-MOZ_DOUBLE_NaN
+UnspecifiedNaN
 (
 )
 ;
@@ -1277,7 +1277,10 @@ mValue
 ;
 if
 (
-MOZ_DOUBLE_IS_NaN
+mozilla
+:
+:
+IsNaN
 (
 aNumber
 )
@@ -2127,7 +2130,7 @@ nullExpr
 double
 prio
 =
-MOZ_DOUBLE_NaN
+UnspecifiedNaN
 (
 )
 ;
@@ -4817,7 +4820,7 @@ rv
 double
 prio
 =
-MOZ_DOUBLE_NaN
+UnspecifiedNaN
 (
 )
 ;

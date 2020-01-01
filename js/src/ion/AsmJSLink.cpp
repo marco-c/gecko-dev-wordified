@@ -963,7 +963,7 @@ NaN
 NaN
 if
 (
-MOZ_DOUBLE_IS_NaN
+IsNaN
 (
 global
 .
@@ -976,7 +976,7 @@ constantValue
 if
 (
 !
-MOZ_DOUBLE_IS_NaN
+IsNaN
 (
 v
 .

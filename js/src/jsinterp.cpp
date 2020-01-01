@@ -4770,7 +4770,10 @@ isDouble
 )
 &
 &
-MOZ_DOUBLE_IS_NEGATIVE_ZERO
+mozilla
+:
+:
+IsNegativeZero
 (
 v
 .
@@ -4799,7 +4802,10 @@ isDouble
 )
 &
 &
-MOZ_DOUBLE_IS_NaN
+mozilla
+:
+:
+IsNaN
 (
 v
 .
@@ -16393,7 +16399,10 @@ Don
 '
 t
 use
-MOZ_DOUBLE_IS_INT32
+mozilla
+:
+:
+DoubleIsInt32
 ;
 treat
 -

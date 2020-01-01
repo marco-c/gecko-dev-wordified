@@ -260,6 +260,12 @@ using
 mozilla
 :
 :
+IsFinite
+;
+using
+mozilla
+:
+:
 Maybe
 ;
 Class
@@ -3763,7 +3769,7 @@ isDouble
 if
 (
 !
-MOZ_DOUBLE_IS_FINITE
+IsFinite
 (
 v
 .

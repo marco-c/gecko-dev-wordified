@@ -548,13 +548,13 @@ aDouble
 {
 if
 (
-MOZ_DOUBLE_IS_NaN
+IsNaN
 (
 aDouble
 )
 |
 |
-MOZ_DOUBLE_IS_INFINITE
+IsInfinite
 (
 aDouble
 )

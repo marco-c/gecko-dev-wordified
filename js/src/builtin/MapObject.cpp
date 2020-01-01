@@ -185,6 +185,18 @@ using
 namespace
 js
 ;
+using
+mozilla
+:
+:
+DoubleIsInt32
+;
+using
+mozilla
+:
+:
+IsNaN
+;
 /
 *
 *
@@ -6129,7 +6141,7 @@ i
 ;
 if
 (
-MOZ_DOUBLE_IS_INT32
+DoubleIsInt32
 (
 d
 &
@@ -6163,7 +6175,7 @@ i
 else
 if
 (
-MOZ_DOUBLE_IS_NaN
+IsNaN
 (
 d
 )

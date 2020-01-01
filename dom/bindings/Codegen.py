@@ -18444,7 +18444,10 @@ inf
             
 return
 "
-MOZ_DOUBLE_POSITIVE_INFINITY
+mozilla
+:
+:
+PositiveInfinity
 (
 )
 "
@@ -18464,7 +18467,10 @@ inf
             
 return
 "
-MOZ_DOUBLE_NEGATIVE_INFINITY
+mozilla
+:
+:
+NegativeInfinity
 (
 )
 "
@@ -18480,7 +18486,10 @@ v
             
 return
 "
-MOZ_DOUBLE_NaN
+mozilla
+:
+:
+UnspecifiedNaN
 (
 )
 "
@@ -28294,7 +28303,10 @@ else
 if
 (
 !
-MOZ_DOUBLE_IS_FINITE
+mozilla
+:
+:
+IsFinite
 (
 %
 s
@@ -28310,7 +28322,10 @@ n
 /
 Note
 :
-MOZ_DOUBLE_IS_FINITE
+mozilla
+:
+:
+IsFinite
 will
 do
 the

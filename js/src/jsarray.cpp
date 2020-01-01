@@ -391,6 +391,12 @@ using
 mozilla
 :
 :
+IsNaN
+;
+using
+mozilla
+:
+:
 PointerRangeSize
 ;
 JSBool
@@ -9391,7 +9397,7 @@ it
 lessOrEqualp
 =
 (
-MOZ_DOUBLE_IS_NaN
+IsNaN
 (
 cmp
 )

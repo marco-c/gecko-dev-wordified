@@ -208,6 +208,18 @@ mozilla
 :
 DebugOnly
 ;
+using
+mozilla
+:
+:
+DoubleExponentBias
+;
+using
+mozilla
+:
+:
+DoubleExponentShift
+;
 CodeGeneratorX86
 :
 :
@@ -5220,7 +5232,7 @@ const
 uint32_t
 EXPONENT_SHIFT
 =
-MOZ_DOUBLE_EXPONENT_SHIFT
+DoubleExponentShift
 -
 32
 ;
@@ -5230,7 +5242,7 @@ uint32_t
 TOO_BIG_EXPONENT
 =
 (
-MOZ_DOUBLE_EXPONENT_BIAS
+DoubleExponentBias
 +
 63
 )

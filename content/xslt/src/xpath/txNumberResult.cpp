@@ -320,7 +320,10 @@ value
 &
 &
 !
-MOZ_DOUBLE_IS_NaN
+mozilla
+:
+:
+IsNaN
 (
 value
 )

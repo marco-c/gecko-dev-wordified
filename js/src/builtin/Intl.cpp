@@ -321,6 +321,18 @@ using
 namespace
 js
 ;
+using
+mozilla
+:
+:
+IsFinite
+;
+using
+mozilla
+:
+:
+IsNegativeZero
+;
 #
 if
 ENABLE_INTL_API
@@ -8441,7 +8453,7 @@ negative
 .
 if
 (
-MOZ_DOUBLE_IS_NEGATIVE_ZERO
+IsNegativeZero
 (
 x
 )
@@ -11539,7 +11551,7 @@ result
 if
 (
 !
-MOZ_DOUBLE_IS_FINITE
+IsFinite
 (
 x
 )
