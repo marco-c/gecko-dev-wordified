@@ -1457,6 +1457,7 @@ else
 if
 (
 (
+(
 childrenHeight
 -
 sAddTabHeight
@@ -1466,6 +1467,15 @@ sListItemHeight
 =
 =
 0
+)
+&
+&
+(
+childrenHeight
+>
+=
+sMaxHeight
+)
 )
 restrictedHeightSpec
 =
