@@ -17370,7 +17370,7 @@ browser
 |
 this
 .
-_lastThumbnailWindow
+_thumbnailWindowId
 =
 =
 browser
@@ -17425,7 +17425,7 @@ return
 ;
 this
 .
-_lastThumbnailWindow
+_thumbnailWindowId
 =
 browser
 .
