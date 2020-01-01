@@ -269,6 +269,14 @@ value
 )
 ;
 bool
+visitOsrValue
+(
+LOsrValue
+*
+value
+)
+;
+bool
 visitBox
 (
 LBox

@@ -713,11 +713,6 @@ OsrScopeChain
 \
 _
 (
-OsrReturnValue
-)
-\
-_
-(
 RegExp
 )
 \

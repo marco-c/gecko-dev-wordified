@@ -990,6 +990,14 @@ value
 )
 ;
 bool
+visitOsrValue
+(
+LOsrValue
+*
+value
+)
+;
+bool
 visitDouble
 (
 LDouble
