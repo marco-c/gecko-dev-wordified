@@ -646,13 +646,6 @@ h
 #
 include
 "
-nsIProfileInternal
-.
-h
-"
-#
-include
-"
 nsIXULWindow
 .
 h
