@@ -1357,7 +1357,7 @@ seconds
 milliseconds
 #
 define
-VACUUM_IDLE_TIME_IN_MSECS
+LONG_IDLE_TIME_IN_MSECS
 (
 900000
 )
@@ -12570,10 +12570,6 @@ transaction
 (
 mDBConn
 PR_FALSE
-mozIStorageConnection
-:
-:
-TRANSACTION_EXCLUSIVE
 )
 ;
 /
@@ -23133,7 +23129,7 @@ idle
 for
 more
 than
-VACUUM_IDLE_TIME_IN_MSECS
+LONG_IDLE_TIME_IN_MSECS
 /
 /
 perform
@@ -23146,7 +23142,7 @@ if
 (
 idleTime
 >
-VACUUM_IDLE_TIME_IN_MSECS
+LONG_IDLE_TIME_IN_MSECS
 )
 {
 /
@@ -23208,8 +23204,7 @@ oldIndexExists
 /
 wrap
 in
-an
-exclusive
+a
 transaction
 for
 safety
@@ -23220,10 +23215,6 @@ urlindexTransaction
 (
 mDBConn
 PR_FALSE
-mozIStorageConnection
-:
-:
-TRANSACTION_EXCLUSIVE
 )
 ;
 /
@@ -23231,13 +23222,6 @@ TRANSACTION_EXCLUSIVE
 drop
 old
 index
-PRTime
-start
-=
-PR_Now
-(
-)
-;
 rv
 =
 mDBConn
