@@ -6720,7 +6720,7 @@ its
 stack
 limit
 to
-NULL
+UINTPTR_MAX
 to
 trigger
 operaton
