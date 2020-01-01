@@ -9936,6 +9936,16 @@ fullBody
 |
 null
 ;
+message
+.
+timestamp
+=
+Date
+.
+now
+(
+)
+;
 /
 /
 TODO
