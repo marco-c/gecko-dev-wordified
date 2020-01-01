@@ -8997,7 +8997,7 @@ k
 LInsp
 findImmf
 (
-double
+uint64_t
 d
 uint32_t
 &
