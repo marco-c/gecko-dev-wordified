@@ -20800,7 +20800,6 @@ if
 !
 js_IsCallable
 (
-cx
 rval
 )
 )

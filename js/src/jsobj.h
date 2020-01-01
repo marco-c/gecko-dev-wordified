@@ -2162,9 +2162,6 @@ JSVAL_VOID
 bool
 isCallable
 (
-JSContext
-*
-cx
 )
 ;
 /
@@ -7397,9 +7394,6 @@ inline
 bool
 js_IsCallable
 (
-JSContext
-*
-cx
 jsval
 v
 )
@@ -7420,7 +7414,6 @@ v
 >
 isCallable
 (
-cx
 )
 ;
 }

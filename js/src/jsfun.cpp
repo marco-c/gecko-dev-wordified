@@ -12428,7 +12428,6 @@ if
 !
 js_IsCallable
 (
-cx
 fval
 )
 )
@@ -12813,7 +12812,6 @@ if
 !
 js_IsCallable
 (
-cx
 fval
 )
 )
@@ -16546,7 +16544,6 @@ callable
 >
 isCallable
 (
-cx
 )
 )
 {
