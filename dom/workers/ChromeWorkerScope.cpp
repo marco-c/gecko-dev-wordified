@@ -141,13 +141,6 @@ CTYPES_STR
 "
 ctypes
 "
-using
-namespace
-mozilla
-:
-:
-dom
-;
 USING_WORKERS_NAMESPACE
 namespace
 {

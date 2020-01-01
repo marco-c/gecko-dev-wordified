@@ -121,6 +121,14 @@ h
 namespace
 mozilla
 {
+using
+namespace
+mozilla
+;
+using
+namespace
+dom
+;
 /
 /
 Main

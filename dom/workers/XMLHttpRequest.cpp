@@ -253,13 +253,6 @@ using
 namespace
 mozilla
 ;
-using
-namespace
-mozilla
-:
-:
-dom
-;
 USING_WORKERS_NAMESPACE
 using
 mozilla

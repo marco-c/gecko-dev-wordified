@@ -639,12 +639,6 @@ GetImageContainer
 (
 NPP
 instance
-mozilla
-:
-:
-layers
-:
-:
 ImageContainer
 *
 *

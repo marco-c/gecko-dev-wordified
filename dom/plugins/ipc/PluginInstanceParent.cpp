@@ -356,13 +356,6 @@ mozilla
 :
 plugins
 ;
-using
-namespace
-mozilla
-:
-:
-layers
-;
 bool
 StreamNotifyParent
 :

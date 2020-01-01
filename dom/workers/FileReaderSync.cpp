@@ -266,8 +266,10 @@ h
 "
 USING_WORKERS_NAMESPACE
 using
-namespace
 mozilla
+:
+:
+ErrorResult
 ;
 using
 mozilla

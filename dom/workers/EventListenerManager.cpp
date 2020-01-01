@@ -146,13 +146,6 @@ EventTarget
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-dom
-;
 USING_WORKERS_NAMESPACE
 using
 mozilla

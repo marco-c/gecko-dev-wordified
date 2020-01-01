@@ -515,12 +515,6 @@ window
 nsresult
 GetImageContainer
 (
-mozilla
-:
-:
-layers
-:
-:
 ImageContainer
 *
 *

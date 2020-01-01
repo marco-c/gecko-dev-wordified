@@ -121,6 +121,10 @@ h
 namespace
 mozilla
 {
+using
+namespace
+dom
+;
 class
 GetPreviewStreamTask
 ;
@@ -219,9 +223,6 @@ aWindowId
 nsresult
 GetPreviewStream
 (
-dom
-:
-:
 CameraSize
 aSize
 nsICameraPreviewStreamCallback
@@ -259,9 +260,6 @@ onError
 nsresult
 TakePicture
 (
-dom
-:
-:
 CameraSize
 aSize
 int32_t
@@ -270,9 +268,6 @@ const
 nsAString
 &
 aFileFormat
-dom
-:
-:
 CameraPosition
 aPosition
 nsICameraTakePictureCallback
@@ -286,9 +281,6 @@ onError
 nsresult
 StartRecording
 (
-dom
-:
-:
 CameraStartRecordingOptions
 *
 aOptions
@@ -315,9 +307,6 @@ StopRecording
 nsresult
 GetPreviewStreamVideoMode
 (
-dom
-:
-:
 CameraRecorderOptions
 *
 aOptions
@@ -566,9 +555,6 @@ uint32_t
 aKey
 nsTArray
 <
-dom
-:
-:
 CameraRegion
 >
 &
@@ -628,9 +614,6 @@ aKey
 const
 nsTArray
 <
-dom
-:
-:
 CameraRegion
 >
 &
@@ -645,9 +628,6 @@ GetVideoSizes
 (
 nsTArray
 <
-dom
-:
-:
 CameraSize
 >
 &
@@ -1310,9 +1290,6 @@ GetPreviewStreamTask
 CameraControlImpl
 *
 aCameraControl
-dom
-:
-:
 CameraSize
 aSize
 nsICameraPreviewStreamCallback
@@ -1451,9 +1428,6 @@ return
 rv
 ;
 }
-dom
-:
-:
 CameraSize
 mSize
 ;
@@ -2009,9 +1983,6 @@ TakePictureTask
 CameraControlImpl
 *
 aCameraControl
-dom
-:
-:
 CameraSize
 aSize
 int32_t
@@ -2020,9 +1991,6 @@ const
 nsAString
 &
 aFileFormat
-dom
-:
-:
 CameraPosition
 aPosition
 nsICameraTakePictureCallback
@@ -2209,9 +2177,6 @@ CameraControlImpl
 >
 mCameraControl
 ;
-dom
-:
-:
 CameraSize
 mSize
 ;
@@ -2221,9 +2186,6 @@ mRotation
 nsString
 mFileFormat
 ;
-dom
-:
-:
 CameraPosition
 mPosition
 ;
@@ -2360,9 +2322,6 @@ StartRecordingTask
 CameraControlImpl
 *
 aCameraControl
-dom
-:
-:
 CameraStartRecordingOptions
 aOptions
 nsIFile
@@ -2606,9 +2565,6 @@ CameraControlImpl
 >
 mCameraControl
 ;
-dom
-:
-:
 CameraStartRecordingOptions
 mOptions
 ;
@@ -3228,9 +3184,6 @@ GetPreviewStreamVideoModeTask
 CameraControlImpl
 *
 aCameraControl
-dom
-:
-:
 CameraRecorderOptions
 aOptions
 nsICameraPreviewStreamCallback
@@ -3370,9 +3323,6 @@ CameraControlImpl
 >
 mCameraControl
 ;
-dom
-:
-:
 CameraRecorderOptions
 mOptions
 ;
