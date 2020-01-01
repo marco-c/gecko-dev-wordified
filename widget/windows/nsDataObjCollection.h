@@ -134,6 +134,15 @@ nsDataObj
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 CEnumFormatEtc
 ;
@@ -237,6 +246,7 @@ SetDragDrop
 /
 class
 nsDataObjCollection
+MOZ_FINAL
 :
 public
 nsIDataObjCollection

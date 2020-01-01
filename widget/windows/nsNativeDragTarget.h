@@ -145,6 +145,15 @@ image
 interfaces
 #
 endif
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIDragService
 ;
@@ -181,6 +190,7 @@ m_dragDrop
 /
 class
 nsNativeDragTarget
+MOZ_FINAL
 :
 public
 IDropTarget

@@ -134,6 +134,15 @@ oleidl
 .
 h
 >
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 class
@@ -166,6 +175,7 @@ m_dragDrop
 /
 class
 nsNativeDragSource
+MOZ_FINAL
 :
 public
 IDropSource

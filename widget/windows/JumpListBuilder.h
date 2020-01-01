@@ -183,6 +183,15 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -281,6 +290,7 @@ WinTaskbar
 ;
 class
 AsyncFaviconDataReady
+MOZ_FINAL
 :
 public
 nsIFaviconDataCallback

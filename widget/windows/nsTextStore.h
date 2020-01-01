@@ -136,6 +136,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 msctf
 .
@@ -229,6 +238,7 @@ store
 /
 class
 nsTextStore
+MOZ_FINAL
 :
 public
 ITextStoreACP

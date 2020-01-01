@@ -186,6 +186,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 objbase
 .
@@ -241,6 +250,7 @@ Windows
 /
 class
 AudioSession
+MOZ_FINAL
 :
 public
 IAudioSessionEvents
