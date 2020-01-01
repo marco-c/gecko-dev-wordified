@@ -1321,12 +1321,6 @@ to
 the
 framebuffer
 .
-const
-bool
-TESTING
-=
-true
-;
 bool
 fillColor
 =
@@ -1419,10 +1413,6 @@ false
 }
 if
 (
-!
-TESTING
-&
-&
 visibleRegion
 .
 GetNumRects
