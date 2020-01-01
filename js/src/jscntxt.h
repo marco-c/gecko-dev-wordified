@@ -5435,6 +5435,9 @@ void
 *
 tracefp
 ;
+JSOp
+tracePrevOp
+;
 #
 endif
 /

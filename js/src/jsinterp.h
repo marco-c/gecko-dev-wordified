@@ -4846,8 +4846,6 @@ js_TraceOpcode
 JSContext
 *
 cx
-jsint
-len
 )
 ;
 /
