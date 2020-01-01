@@ -1162,7 +1162,7 @@ NewDOMBindingsEnabled
 (
 )
 )
-mExperimentalBindingsEnabled
+mParisBindingsEnabled
 (
 ccx
 .
@@ -1171,7 +1171,7 @@ GetRuntime
 )
 -
 >
-ExperimentalBindingsEnabled
+ParisBindingsEnabled
 (
 )
 )
@@ -1220,7 +1220,7 @@ cur
 >
 mNext
 )
-NS_ASSERTION
+MOZ_ASSERT
 (
 aGlobal
 !
@@ -1228,7 +1228,7 @@ aGlobal
 cur
 -
 >
-GetGlobalJSObject
+GetGlobalJSObjectPreserveColor
 (
 )
 "
@@ -4682,7 +4682,7 @@ obj
 cur
 -
 >
-GetGlobalJSObject
+GetGlobalJSObjectPreserveColor
 (
 )
 )
