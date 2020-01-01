@@ -119,11 +119,6 @@ h
 "
 #
 include
-<
-vector
->
-#
-include
 "
 mozilla
 /
@@ -131,6 +126,11 @@ FloatingPoint
 .
 h
 "
+#
+include
+<
+vector
+>
 #
 include
 "
@@ -173,7 +173,7 @@ include
 "
 vm
 /
-TypedArrayObject
+GlobalObject
 .
 h
 "
@@ -200,7 +200,7 @@ include
 "
 vm
 /
-GlobalObject
+TypedArrayObject
 .
 h
 "

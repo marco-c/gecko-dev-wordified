@@ -124,14 +124,14 @@ h
 #
 include
 "
-jsobj
+jsfriendapi
 .
 h
 "
 #
 include
 "
-jsfriendapi
+jsobj
 .
 h
 "
