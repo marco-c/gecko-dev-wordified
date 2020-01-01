@@ -621,6 +621,15 @@ PLACES
 SQLITE_TELEMETRY
 (
 "
+urlclassifier3
+.
+sqlite
+"
+URLCLASSIFIER
+)
+SQLITE_TELEMETRY
+(
+"
 cookies
 .
 sqlite
