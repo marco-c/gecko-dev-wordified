@@ -953,14 +953,9 @@ if
 fullJarURI
 )
 {
-#
-ifdef
-DEBUG
 nsresult
 rv
 =
-#
-endif
 fullJarURI
 -
 >

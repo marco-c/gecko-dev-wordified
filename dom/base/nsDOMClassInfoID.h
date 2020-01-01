@@ -634,9 +634,6 @@ nsISupports
 *
 /
 #
-undef
-DOMCI_CASTABLE_INTERFACE
-#
 define
 DOMCI_CASTABLE_INTERFACES
 (
