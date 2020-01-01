@@ -595,6 +595,13 @@ asBits
 isDouble
 (
 )
+|
+|
+type
+.
+synced
+(
+)
 )
 ;
 return
