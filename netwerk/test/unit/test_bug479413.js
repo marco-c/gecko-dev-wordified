@@ -338,6 +338,15 @@ com
 reset
 the
 pref
+if
+(
+pbi
+.
+prefHasUserValue
+(
+whitelistPref
+)
+)
 pbi
 .
 clearUserPref

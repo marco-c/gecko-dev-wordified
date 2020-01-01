@@ -544,6 +544,17 @@ in
 prefData
 )
 {
+if
+(
+prefs
+.
+prefHasUserValue
+(
+pref
+.
+name
+)
+)
 prefs
 .
 clearUserPref

@@ -2495,6 +2495,15 @@ gTabsListener
 Restore
 history
 .
+if
+(
+gPrefService
+.
+prefHasUserValue
+(
+DISABLE_HISTORY_PREF
+)
+)
 gPrefService
 .
 clearUserPref

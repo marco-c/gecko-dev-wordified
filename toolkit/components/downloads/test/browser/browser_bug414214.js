@@ -764,6 +764,8 @@ to
 its
 default
 value
+try
+{
 Cc
 [
 "
@@ -791,6 +793,13 @@ clearUserPref
 PREF_BDM_CLOSEWHENDONE
 )
 ;
+}
+catch
+(
+err
+)
+{
+}
 finish
 (
 )

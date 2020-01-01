@@ -607,6 +607,15 @@ restore
 the
 changed
 prefs
+if
+(
+prefSvc
+.
+prefHasUserValue
+(
+kPrefName_AutoScroll
+)
+)
 prefSvc
 .
 clearUserPref
