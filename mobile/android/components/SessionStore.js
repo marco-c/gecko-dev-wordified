@@ -786,11 +786,7 @@ JSON
 .
 stringify
 (
-{
-gecko
-:
 aMsg
-}
 )
 )
 ;

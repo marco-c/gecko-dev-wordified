@@ -1771,9 +1771,6 @@ function
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 window
@@ -1791,7 +1788,6 @@ ToggleChrome
 :
 Hide
 "
-}
 }
 )
 ;
@@ -1813,9 +1809,6 @@ function
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 document
@@ -1833,7 +1826,6 @@ DOMFullScreen
 :
 Stop
 "
-}
 }
 )
 ;
@@ -2451,9 +2443,6 @@ loaded
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -2461,7 +2450,6 @@ Gecko
 :
 Ready
 "
-}
 }
 )
 ;
@@ -3297,9 +3285,6 @@ url
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -3313,7 +3298,6 @@ url
 title
 :
 title
-}
 }
 )
 ;
@@ -3755,9 +3739,6 @@ type
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -3771,7 +3752,6 @@ src
 mime
 :
 type
-}
 }
 )
 ;
@@ -3872,9 +3852,6 @@ src
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -3885,7 +3862,6 @@ Set
 url
 :
 src
-}
 }
 )
 ;
@@ -5081,9 +5057,6 @@ let
 message
 =
 {
-gecko
-:
-{
 type
 :
 "
@@ -5108,7 +5081,6 @@ title
 aBrowser
 .
 contentTitle
-}
 }
 ;
 sendMessageToJava
@@ -5382,9 +5354,6 @@ let
 message
 =
 {
-gecko
-:
-{
 type
 :
 "
@@ -5397,7 +5366,6 @@ tabID
 aTab
 .
 id
-}
 }
 ;
 sendMessageToJava
@@ -5625,9 +5593,6 @@ let
 message
 =
 {
-gecko
-:
-{
 type
 :
 "
@@ -5640,7 +5605,6 @@ tabID
 aTab
 .
 id
-}
 }
 ;
 sendMessageToJava
@@ -6989,9 +6953,6 @@ pref
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -7020,7 +6981,6 @@ whatever
 preferences
 :
 prefs
-}
 }
 )
 ;
@@ -7542,9 +7502,6 @@ false
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -7555,7 +7512,6 @@ Finished
 success
 :
 success
-}
 }
 )
 ;
@@ -8511,9 +8467,6 @@ init
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -8523,7 +8476,6 @@ Init
 :
 Return
 "
-}
 }
 )
 ;
@@ -8600,9 +8552,6 @@ DBConnection
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -8612,7 +8561,6 @@ Init
 :
 Return
 "
-}
 }
 )
 ;
@@ -8648,9 +8596,6 @@ complete
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -8658,7 +8603,6 @@ Session
 :
 StatePurged
 "
-}
 }
 )
 ;
@@ -8741,9 +8685,6 @@ telemetry
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -8751,7 +8692,6 @@ Telemetry
 :
 Gather
 "
-}
 }
 )
 ;
@@ -8944,9 +8884,6 @@ implClass
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -8966,7 +8903,6 @@ implClass
 Main
 "
 }
-}
 )
 ;
 }
@@ -8984,9 +8920,6 @@ aDuration
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -9000,7 +8933,6 @@ aMessage
 duration
 :
 aDuration
-}
 }
 )
 ;
@@ -9109,11 +9041,7 @@ _menuId
 ;
 sendMessageToJava
 (
-{
-gecko
-:
 options
-}
 )
 ;
 this
@@ -9153,9 +9081,6 @@ aId
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -9166,7 +9091,6 @@ Remove
 id
 :
 aId
-}
 }
 )
 ;
@@ -9189,9 +9113,6 @@ return
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -9205,7 +9126,6 @@ aId
 options
 :
 aOptions
-}
 }
 )
 ;
@@ -9434,9 +9354,6 @@ let
 json
 =
 {
-gecko
-:
-{
 type
 :
 "
@@ -9481,7 +9398,6 @@ aOptions
 {
 }
 }
-}
 ;
 sendMessageToJava
 (
@@ -9500,9 +9416,6 @@ aTabID
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -9516,7 +9429,6 @@ aValue
 tabID
 :
 aTabID
-}
 }
 )
 ;
@@ -11858,9 +11770,6 @@ let
 msg
 =
 {
-gecko
-:
-{
 type
 :
 "
@@ -11874,7 +11783,6 @@ title
 listitems
 :
 itemArray
-}
 }
 ;
 let
@@ -14161,9 +14069,6 @@ positionHandles
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -14181,7 +14086,6 @@ this
 .
 HANDLE_TYPE_END
 ]
-}
 }
 )
 ;
@@ -15246,9 +15150,6 @@ TYPE_NONE
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -15266,7 +15167,6 @@ this
 .
 HANDLE_TYPE_END
 ]
-}
 }
 )
 ;
@@ -16188,9 +16088,6 @@ positionHandles
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -16205,7 +16102,6 @@ this
 .
 HANDLE_TYPE_MIDDLE
 ]
-}
 }
 )
 ;
@@ -16234,9 +16130,6 @@ _cleanUp
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -16251,7 +16144,6 @@ this
 .
 HANDLE_TYPE_MIDDLE
 ]
-}
 }
 )
 ;
@@ -16707,9 +16599,6 @@ ey
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -16725,7 +16614,6 @@ rtl
 this
 .
 _isRTL
-}
 }
 )
 ;
@@ -19374,9 +19262,6 @@ let
 message
 =
 {
-gecko
-:
-{
 type
 :
 "
@@ -19457,7 +19342,6 @@ desktopMode
 isPrivate
 :
 isPrivate
-}
 }
 ;
 sendMessageToJava
@@ -19893,9 +19777,6 @@ let
 message
 =
 {
-gecko
-:
-{
 type
 :
 "
@@ -19924,7 +19805,6 @@ this
 browser
 .
 contentTitle
-}
 }
 ;
 sendMessageToJava
@@ -20103,9 +19983,6 @@ aDesktopMode
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -20121,7 +19998,6 @@ tabId
 this
 .
 id
-}
 }
 )
 ;
@@ -24529,9 +24405,6 @@ succeeds
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -24545,7 +24418,6 @@ id
 bgColor
 :
 backgroundColor
-}
 }
 )
 ;
@@ -25100,11 +24972,7 @@ maxSize
 ;
 sendMessageToJava
 (
-{
-gecko
-:
 json
-}
 )
 ;
 break
@@ -25151,9 +25019,6 @@ return
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -25177,7 +25042,6 @@ substring
 0
 255
 )
-}
 }
 )
 ;
@@ -25233,9 +25097,6 @@ preventDefault
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -25246,7 +25107,6 @@ tabID
 this
 .
 id
-}
 }
 )
 ;
@@ -25500,9 +25360,6 @@ return
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -25515,7 +25372,6 @@ tabID
 this
 .
 id
-}
 }
 )
 ;
@@ -25726,9 +25582,6 @@ article
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -25741,7 +25594,6 @@ tabID
 this
 .
 id
-}
 }
 )
 ;
@@ -26027,9 +25879,6 @@ let
 message
 =
 {
-gecko
-:
-{
 type
 :
 "
@@ -26054,7 +25903,6 @@ showProgress
 success
 :
 success
-}
 }
 ;
 sendMessageToJava
@@ -26321,9 +26169,6 @@ let
 message
 =
 {
-gecko
-:
-{
 type
 :
 "
@@ -26357,7 +26202,6 @@ contentType
 sameDocument
 :
 sameDocument
-}
 }
 ;
 sendMessageToJava
@@ -26528,9 +26372,6 @@ let
 message
 =
 {
-gecko
-:
-{
 type
 :
 "
@@ -26546,7 +26387,6 @@ id
 identity
 :
 identity
-}
 }
 ;
 sendMessageToJava
@@ -26592,9 +26432,6 @@ let
 message
 =
 {
-gecko
-:
-{
 type
 :
 "
@@ -26608,7 +26445,6 @@ tabID
 this
 .
 id
-}
 }
 ;
 if
@@ -26625,8 +26461,6 @@ in
 aParams
 )
 message
-.
-gecko
 .
 url
 =
@@ -26643,8 +26477,6 @@ in
 aParams
 )
 message
-.
-gecko
 .
 index
 =
@@ -26661,8 +26493,6 @@ in
 aParams
 )
 message
-.
-gecko
 .
 numEntries
 =
@@ -27909,9 +27739,6 @@ sendViewportMetadata
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -27961,7 +27788,6 @@ tabID
 this
 .
 id
-}
 }
 )
 ;
@@ -29237,9 +29063,6 @@ documentElement
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -29247,7 +29070,6 @@ Panning
 :
 Override
 "
-}
 }
 )
 ;
@@ -29484,9 +29306,6 @@ true
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -29499,7 +29318,6 @@ tabID
 tab
 .
 id
-}
 }
 )
 ;
@@ -29904,9 +29722,6 @@ documentElement
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -29914,7 +29729,6 @@ Panning
 :
 CancelOverride
 "
-}
 }
 )
 ;
@@ -29962,9 +29776,6 @@ y
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -29975,7 +29786,6 @@ ScrollAck
 scrolled
 :
 true
-}
 }
 )
 ;
@@ -29994,9 +29804,6 @@ else
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -30007,7 +29814,6 @@ ScrollAck
 scrolled
 :
 false
-}
 }
 )
 ;
@@ -30341,9 +30147,6 @@ resetMaxLineBoxWidth
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -30351,7 +30154,6 @@ Browser
 :
 ZoomToPageWidth
 "
-}
 }
 )
 ;
@@ -31238,11 +31040,7 @@ resetMaxLineBoxWidth
 }
 sendMessageToJava
 (
-{
-gecko
-:
 rect
-}
 )
 ;
 }
@@ -31380,11 +31178,7 @@ cssHeight
 ;
 sendMessageToJava
 (
-{
-gecko
-:
 rect
-}
 )
 ;
 }
@@ -37923,9 +37717,6 @@ aElement
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -37946,7 +37737,6 @@ zoom
 positionData
 .
 zoom
-}
 }
 )
 ;
@@ -38132,9 +37922,6 @@ aElement
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -38158,7 +37945,6 @@ positionData
 .
 zoom
 }
-}
 )
 ;
 return
@@ -38175,9 +37961,6 @@ _hideFormAssistPopup
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -38185,7 +37968,6 @@ FormAssist
 :
 Hide
 "
-}
 }
 )
 ;
@@ -43952,9 +43734,6 @@ endSelection
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -43965,7 +43744,6 @@ Text
 text
 :
 selectedText
-}
 }
 )
 ;
@@ -46750,9 +46528,6 @@ spec
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -46766,7 +46541,6 @@ host
 permissions
 :
 permissions
-}
 }
 )
 ;
@@ -47725,9 +47499,6 @@ pref
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -47738,7 +47509,6 @@ Data
 preferences
 :
 prefs
-}
 }
 )
 ;
@@ -47936,9 +47706,6 @@ Optional
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -47949,7 +47716,6 @@ State
 visible
 :
 showCharEncoding
-}
 }
 )
 ;
@@ -48203,9 +47969,6 @@ docCharset
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -48221,7 +47984,6 @@ _charsets
 selected
 :
 selected
-}
 }
 )
 ;
@@ -49557,9 +49319,6 @@ aCommand
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -49567,7 +49326,6 @@ ToggleChrome
 :
 Focus
 "
-}
 }
 )
 ;
@@ -49894,9 +49652,6 @@ spec
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -49940,7 +49695,6 @@ this
 .
 PREF_SUGGEST_PROMPTED
 )
-}
 }
 }
 )
@@ -51560,9 +51314,6 @@ uninstall
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -51575,7 +51326,6 @@ origin
 data
 .
 origin
-}
 }
 )
 ;
@@ -51965,9 +51715,6 @@ profilePath
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -51997,7 +51744,6 @@ origin
 iconURL
 :
 scaledIcon
-}
 }
 )
 ;
@@ -52462,9 +52208,6 @@ aOrigin
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -52478,7 +52221,6 @@ aManifestURL
 origin
 :
 aOrigin
-}
 }
 )
 ;
@@ -54867,9 +54609,6 @@ title
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -54886,7 +54625,6 @@ title
 url
 :
 url
-}
 }
 )
 ;

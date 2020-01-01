@@ -183,11 +183,7 @@ parse
 (
 sendMessageToJava
 (
-{
-gecko
-:
 list
-}
 )
 )
 ;

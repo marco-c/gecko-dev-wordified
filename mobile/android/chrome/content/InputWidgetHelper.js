@@ -274,11 +274,7 @@ parse
 (
 sendMessageToJava
 (
-{
-gecko
-:
 msg
-}
 )
 )
 ;
