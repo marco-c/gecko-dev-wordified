@@ -1245,12 +1245,13 @@ title
 }
 )
 ;
-var
-title
+let
+placeInfo
 =
-histsvc
+yield
+PlacesUtils
 .
-getPageTitle
+promisePlaceInfo
 (
 uri
 (
@@ -1268,6 +1269,8 @@ com
 ;
 do_check_eq
 (
+placeInfo
+.
 title
 "
 title
