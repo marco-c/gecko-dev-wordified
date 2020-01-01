@@ -698,6 +698,17 @@ NS_DECL_NSIOBSERVER
 nsGeolocationService
 (
 )
+{
+mTimeout
+=
+6000
+;
+}
+;
+nsresult
+Init
+(
+)
 ;
 /
 /
