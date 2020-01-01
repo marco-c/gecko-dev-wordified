@@ -9441,6 +9441,14 @@ cx
 )
 )
 {
+JS
+:
+:
+AssertGCThingMustBeTenured
+(
+global
+)
+;
 JS_CallObjectTracer
 (
 aTrc
