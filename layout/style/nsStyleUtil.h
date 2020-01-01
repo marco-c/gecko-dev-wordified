@@ -381,7 +381,7 @@ to
 string
 static
 void
-AppendFunctionalAlternates
+SerializeFunctionalAlternates
 (
 const
 nsTArray
@@ -413,7 +413,7 @@ value
 pairs
 static
 void
-AppendAlternateValues
+ComputeFunctionalAlternates
 (
 const
 nsCSSValueList

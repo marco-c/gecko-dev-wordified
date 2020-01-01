@@ -7702,7 +7702,7 @@ NS_FONT_VARIANT_ALTERNATES_FUNCTIONAL_MASK
 nsStyleUtil
 :
 :
-AppendFunctionalAlternates
+SerializeFunctionalAlternates
 (
 StyleFont
 (
