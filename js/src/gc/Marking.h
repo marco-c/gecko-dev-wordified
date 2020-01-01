@@ -1332,6 +1332,14 @@ Marking
 *
 *
 /
+bool
+IsSlotMarked
+(
+HeapSlot
+*
+s
+)
+;
 void
 MarkSlot
 (
