@@ -2880,7 +2880,7 @@ off
 -
 screen
 boxes
-reduce
+reduces
 the
 scrolling
 speed
