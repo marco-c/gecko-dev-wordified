@@ -1237,11 +1237,6 @@ VisitedHandling
 )
 ;
 }
-nsEventStates
-DocumentState
-(
-)
-;
 nsPresContext
 *
 mPresContext
