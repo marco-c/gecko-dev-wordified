@@ -1934,6 +1934,13 @@ KeyNameIndex
 keyNameIndex
 )
 ;
+aResult
+-
+>
+mNativeKeyEvent
+=
+NULL
+;
 return
 true
 ;
