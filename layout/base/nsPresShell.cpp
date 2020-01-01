@@ -62434,9 +62434,12 @@ GetDefaultZoom
 )
 >
 =
+CSSToScreenScale
+(
 1
 .
-0
+0f
+)
 |
 |
 vInf

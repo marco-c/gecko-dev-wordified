@@ -1471,6 +1471,8 @@ info
 GetDefaultZoom
 (
 )
+.
+scale
 ;
 *
 aAllowZoom
@@ -1489,6 +1491,8 @@ info
 GetMinZoom
 (
 )
+.
+scale
 ;
 *
 aMaxZoom
@@ -1498,6 +1502,8 @@ info
 GetMaxZoom
 (
 )
+.
+scale
 ;
 *
 aWidth
