@@ -197,6 +197,17 @@ CanvasPattern
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gfx
+/
+Rect
+.
+h
+"
 class
 nsXULElement
 ;
@@ -206,9 +217,6 @@ mozilla
 namespace
 gfx
 {
-struct
-Rect
-;
 class
 SourceSurface
 ;
