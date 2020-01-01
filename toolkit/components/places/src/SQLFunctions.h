@@ -726,8 +726,9 @@ open
 (
 See
 *
-nsIBrowserHistory
-.
+mozIPlacesAutoComplete
+:
+:
 registerOpenPage
 .
 )
