@@ -195,7 +195,7 @@ PTestBridgeMainSubParent
 TestBridgeMainParent
 :
 :
-AllocPTestBridgeMainSub
+AllocPTestBridgeMainSubParent
 (
 Transport
 *
@@ -1035,7 +1035,7 @@ PTestBridgeMainSubChild
 TestBridgeSubChild
 :
 :
-AllocPTestBridgeMainSub
+AllocPTestBridgeMainSubChild
 (
 Transport
 *

@@ -120,7 +120,7 @@ protected
 virtual
 PTestOpensOpenedParent
 *
-AllocPTestOpensOpened
+AllocPTestOpensOpenedParent
 (
 Transport
 *
@@ -258,7 +258,7 @@ MOZ_OVERRIDE
 virtual
 PTestOpensOpenedChild
 *
-AllocPTestOpensOpened
+AllocPTestOpensOpenedChild
 (
 Transport
 *

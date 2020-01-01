@@ -282,7 +282,7 @@ CallStackFrame
 virtual
 PTestShutdownSubsubParent
 *
-AllocPTestShutdownSubsub
+AllocPTestShutdownSubsubParent
 (
 const
 bool
@@ -301,7 +301,7 @@ expectParentDelete
 }
 virtual
 bool
-DeallocPTestShutdownSubsub
+DeallocPTestShutdownSubsubParent
 (
 PTestShutdownSubsubParent
 *
@@ -410,7 +410,7 @@ true
 virtual
 PTestShutdownSubParent
 *
-AllocPTestShutdownSub
+AllocPTestShutdownSubParent
 (
 const
 bool
@@ -429,7 +429,7 @@ expectCrash
 }
 virtual
 bool
-DeallocPTestShutdownSub
+DeallocPTestShutdownSubParent
 (
 PTestShutdownSubParent
 *
@@ -622,7 +622,7 @@ MOZ_OVERRIDE
 virtual
 PTestShutdownSubsubChild
 *
-AllocPTestShutdownSubsub
+AllocPTestShutdownSubsubChild
 (
 const
 bool
@@ -641,7 +641,7 @@ expectParentDelete
 }
 virtual
 bool
-DeallocPTestShutdownSubsub
+DeallocPTestShutdownSubsubChild
 (
 PTestShutdownSubsubChild
 *
@@ -703,7 +703,7 @@ RecvStart
 virtual
 PTestShutdownSubChild
 *
-AllocPTestShutdownSub
+AllocPTestShutdownSubChild
 (
 const
 bool
@@ -722,7 +722,7 @@ expectCrash
 }
 virtual
 bool
-DeallocPTestShutdownSub
+DeallocPTestShutdownSubChild
 (
 PTestShutdownSubChild
 *

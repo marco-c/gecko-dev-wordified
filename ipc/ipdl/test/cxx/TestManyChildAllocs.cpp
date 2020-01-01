@@ -132,7 +132,7 @@ bool
 TestManyChildAllocsParent
 :
 :
-DeallocPTestManyChildAllocsSub
+DeallocPTestManyChildAllocsSubParent
 (
 PTestManyChildAllocsSubParent
 *
@@ -151,7 +151,7 @@ PTestManyChildAllocsSubParent
 TestManyChildAllocsParent
 :
 :
-AllocPTestManyChildAllocsSub
+AllocPTestManyChildAllocsSubParent
 (
 )
 {
@@ -328,7 +328,7 @@ bool
 TestManyChildAllocsChild
 :
 :
-DeallocPTestManyChildAllocsSub
+DeallocPTestManyChildAllocsSubChild
 (
 PTestManyChildAllocsSubChild
 *
@@ -347,7 +347,7 @@ PTestManyChildAllocsSubChild
 TestManyChildAllocsChild
 :
 :
-AllocPTestManyChildAllocsSub
+AllocPTestManyChildAllocsSubChild
 (
 )
 {

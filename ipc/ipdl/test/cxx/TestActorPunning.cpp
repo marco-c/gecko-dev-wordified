@@ -187,7 +187,7 @@ PTestActorPunningPunnedParent
 TestActorPunningParent
 :
 :
-AllocPTestActorPunningPunned
+AllocPTestActorPunningPunnedParent
 (
 )
 {
@@ -202,7 +202,7 @@ bool
 TestActorPunningParent
 :
 :
-DeallocPTestActorPunningPunned
+DeallocPTestActorPunningPunnedParent
 (
 PTestActorPunningPunnedParent
 *
@@ -221,7 +221,7 @@ PTestActorPunningSubParent
 TestActorPunningParent
 :
 :
-AllocPTestActorPunningSub
+AllocPTestActorPunningSubParent
 (
 )
 {
@@ -236,7 +236,7 @@ bool
 TestActorPunningParent
 :
 :
-DeallocPTestActorPunningSub
+DeallocPTestActorPunningSubParent
 (
 PTestActorPunningSubParent
 *
@@ -337,7 +337,7 @@ PTestActorPunningPunnedChild
 TestActorPunningChild
 :
 :
-AllocPTestActorPunningPunned
+AllocPTestActorPunningPunnedChild
 (
 )
 {
@@ -352,7 +352,7 @@ bool
 TestActorPunningChild
 :
 :
-DeallocPTestActorPunningPunned
+DeallocPTestActorPunningPunnedChild
 (
 PTestActorPunningPunnedChild
 *
@@ -378,7 +378,7 @@ PTestActorPunningSubChild
 TestActorPunningChild
 :
 :
-AllocPTestActorPunningSub
+AllocPTestActorPunningSubChild
 (
 )
 {
@@ -393,7 +393,7 @@ bool
 TestActorPunningChild
 :
 :
-DeallocPTestActorPunningSub
+DeallocPTestActorPunningSubChild
 (
 PTestActorPunningSubChild
 *
