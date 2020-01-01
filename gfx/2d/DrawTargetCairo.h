@@ -253,9 +253,6 @@ DrawTarget
 {
 public
 :
-friend
-BorrowedCairoContext
-;
 DrawTargetCairo
 (
 )

@@ -387,9 +387,6 @@ MOZ_LOGGING
 *
 /
 class
-gfxPattern
-;
-class
 nsDragService
 ;
 #
@@ -1113,16 +1110,6 @@ MOZ_OVERRIDE
 endif
 private
 :
-void
-UpdateAlpha
-(
-gfxPattern
-*
-aPattern
-nsIntRect
-aBoundsRect
-)
-;
 void
 NativeResize
 (
