@@ -772,6 +772,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsWebShellWindow
 .
 h
