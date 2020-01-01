@@ -2488,7 +2488,7 @@ return
 region
 ;
 }
-nsresult
+void
 nsFloatManager
 :
 :
@@ -2502,11 +2502,6 @@ nsRect
 aRegion
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 nsRect
 rect
 =
@@ -2601,9 +2596,6 @@ aRegion
 rect
 ;
 }
-return
-rv
-;
 }
 nsresult
 nsFloatManager

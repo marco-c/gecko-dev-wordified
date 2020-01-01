@@ -832,7 +832,7 @@ region
 *
 /
 static
-nsresult
+void
 StoreRegionFor
 (
 nsIFrame
