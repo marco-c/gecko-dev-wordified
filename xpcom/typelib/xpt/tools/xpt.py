@@ -530,8 +530,6 @@ __future__
 import
 with_statement
 import
-mmap
-import
 os
 sys
 import
@@ -7911,15 +7909,10 @@ fileno
             
 map
 =
-mmap
-.
-mmap
-(
 f
 .
-fileno
+read
 (
-)
 st
 .
 st_size
@@ -8368,12 +8361,6 @@ read_descriptor
 xpt
 map
 data_pool_offset
-)
-            
-map
-.
-close
-(
 )
         
 return
