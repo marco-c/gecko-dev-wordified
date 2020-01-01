@@ -13916,12 +13916,6 @@ setLayerClient
 mSoftwareLayerClient
 )
 ;
-GeckoAppShell
-.
-scheduleRedraw
-(
-)
-;
 }
 private
 void
