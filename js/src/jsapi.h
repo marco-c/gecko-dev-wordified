@@ -24763,6 +24763,10 @@ CompileOptions
 JSContext
 *
 cx
+JSVersion
+version
+=
+JSVERSION_UNKNOWN
 )
 ;
 CompileOptions

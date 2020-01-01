@@ -1329,6 +1329,7 @@ FinalizePhaseScripts
 =
 {
 FINALIZE_SCRIPT
+FINALIZE_LAZY_SCRIPT
 }
 ;
 static
@@ -1484,7 +1485,6 @@ BackgroundPhaseShapes
 ]
 =
 {
-FINALIZE_LAZY_SCRIPT
 FINALIZE_SHAPE
 FINALIZE_BASE_SHAPE
 FINALIZE_TYPE_OBJECT
@@ -9084,7 +9084,7 @@ fop
 FINALIZE_SCRIPT
 )
 ;
-queueForBackgroundSweep
+queueForForegroundSweep
 (
 fop
 FINALIZE_LAZY_SCRIPT

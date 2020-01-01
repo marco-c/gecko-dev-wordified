@@ -1359,7 +1359,7 @@ false
 FINALIZE_SCRIPT
 *
 /
-true
+false
 /
 *
 FINALIZE_LAZY_SCRIPT
