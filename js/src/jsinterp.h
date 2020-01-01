@@ -3075,12 +3075,15 @@ JSVAL_VOID
 *
 /
 extern
-JSBool
+JSObject
+*
 js_ComputeThis
 (
 JSContext
 *
 cx
+JSBool
+lazy
 jsval
 *
 argv
