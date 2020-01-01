@@ -539,13 +539,6 @@ string
 >
 #
 include
-<
-time
-.
-h
->
-#
-include
 "
 lcms
 .
@@ -4021,17 +4014,6 @@ fontCount
 +
 fontCount
 ;
-PRUint32
-time
-=
-(
-PRUint32
-)
-_time32
-(
-nsnull
-)
-;
 char
 buf
 [
@@ -4052,7 +4034,11 @@ mozfont
 .
 8x
 "
-time
+:
+:
+GetTickCount
+(
+)
 fontCount
 )
 ;
@@ -4222,7 +4208,6 @@ LONG
 WINAPI
 TTLoadEmbeddedFont
 (
-__out
 HANDLE
 *
 phFontReference
@@ -4241,7 +4226,6 @@ installed
 /
 on
 system
-__in
 ULONG
 ulFlags
 /
@@ -4250,7 +4234,6 @@ flags
 specifying
 the
 request
-__out
 ULONG
 *
 pulPrivStatus
@@ -4262,7 +4245,6 @@ contains
 the
 embedding
 status
-__in
 ULONG
 ulPrivs
 /
@@ -4274,7 +4256,6 @@ reduction
 of
 licensing
 privileges
-__out
 ULONG
 *
 pulStatus
@@ -4288,7 +4269,6 @@ status
 flags
 for
 request
-__in
 READEMBEDPROC
 lpfnReadFromStream
 /
@@ -4300,7 +4280,6 @@ doc
 /
 disk
 reads
-__in
 LPVOID
 lpvReadStream
 /
@@ -4309,7 +4288,6 @@ the
 input
 stream
 tokin
-__in_opt
 LPWSTR
 szWinFamilyName
 /
@@ -4324,7 +4302,6 @@ name
 can
 be
 NULL
-__in_opt
 LPSTR
 szMacFamilyName
 /
@@ -4339,7 +4316,6 @@ name
 can
 be
 NULL
-__in_opt
 TTLOADINFO
 *
 pTTLoadInfo
