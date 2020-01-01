@@ -799,7 +799,7 @@ wantFocused
 )
 ;
 PRBool
-IsMenuActiveOrHover
+IsMenuActive
 (
 nsIFrame
 *
