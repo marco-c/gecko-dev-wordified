@@ -12221,7 +12221,6 @@ mQueryString
 =
 nsPrintfCString
 (
-1024
 "
 SELECT
 null
@@ -13656,7 +13655,6 @@ dateName
 nsPrintfCString
 dayRange
 (
-1024
 "
 SELECT
 :
@@ -13983,7 +13981,6 @@ mQueryString
 =
 nsPrintfCString
 (
-2048
 "
 SELECT
 null
@@ -14306,7 +14303,6 @@ mQueryString
 =
 nsPrintfCString
 (
-2048
 "
 SELECT
 null
@@ -15277,7 +15273,6 @@ mQueryString
 =
 nsPrintfCString
 (
-128
 "
 ORDER
 BY
@@ -15306,7 +15301,6 @@ mQueryString
 =
 nsPrintfCString
 (
-128
 "
 ORDER
 BY
@@ -15335,7 +15329,6 @@ mQueryString
 =
 nsPrintfCString
 (
-128
 "
 ORDER
 BY
@@ -15366,7 +15359,6 @@ mQueryString
 =
 nsPrintfCString
 (
-128
 "
 ORDER
 BY
@@ -25193,7 +25185,6 @@ Str
 (
 nsPrintfCString
 (
-17
 "
 0
 0

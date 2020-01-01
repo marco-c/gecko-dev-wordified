@@ -6481,7 +6481,6 @@ listener
 nsPrintfCString
 status
 (
-100
 "
 HTTP
 %

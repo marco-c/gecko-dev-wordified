@@ -927,7 +927,6 @@ value
 nsPrintfCString
 object
 (
-128
 "
 \
 "

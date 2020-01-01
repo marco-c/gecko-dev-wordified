@@ -2525,7 +2525,6 @@ Append
 (
 nsPrintfCString
 (
-1024
 "
 We
 fire
@@ -2739,7 +2738,6 @@ Append
 (
 nsPrintfCString
 (
-1024
 "
 We
 fire
@@ -2951,7 +2949,6 @@ Append
 (
 nsPrintfCString
 (
-1024
 "
 We
 fire

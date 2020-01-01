@@ -3940,7 +3940,6 @@ aDesc
 nsPrintfCString
 str
 (
-1024
 "
 The
 number

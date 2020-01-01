@@ -5041,7 +5041,6 @@ CopyUTF8toUTF16
 (
 nsPrintfCString
 (
-100
 "
 #
 %
@@ -5074,7 +5073,6 @@ CopyUTF8toUTF16
 (
 nsPrintfCString
 (
-100
 "
 rgba
 (
