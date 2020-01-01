@@ -1831,6 +1831,13 @@ width
 )
 ;
 }
+mLineBox
+-
+>
+DisableResizeReflowOptimization
+(
+)
+;
 }
 mTextIndent
 =
