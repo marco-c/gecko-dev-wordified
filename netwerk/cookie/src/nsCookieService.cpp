@@ -14091,11 +14091,6 @@ nsIURI
 aFirstURI
 )
 {
-return
-PR_FALSE
-;
-/
-*
 /
 /
 if
@@ -14667,8 +14662,6 @@ firstHost
 currentHost
 )
 ;
-*
-/
 }
 PRUint32
 nsCookieService
