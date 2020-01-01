@@ -168,10 +168,6 @@ class
 TextureImage
 ;
 }
-using
-namespace
-gl
-;
 namespace
 layers
 {
@@ -2460,10 +2456,16 @@ returned
 static
 already_AddRefed
 <
+gl
+:
+:
 TextureImage
 >
 OpenDescriptorForDirectTexturing
 (
+gl
+:
+:
 GLContext
 *
 aContext
