@@ -6835,7 +6835,8 @@ android
 .
 landscape_fullscreen
 "
-0
+-
+1
 )
 ;
 pref
@@ -6849,7 +6850,7 @@ android
 .
 fullscreen_threshold
 "
-300
+250
 )
 ;
 /
