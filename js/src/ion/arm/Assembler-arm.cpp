@@ -3434,7 +3434,7 @@ offset
 gc
 :
 :
-MarkThingOrValueRoot
+MarkThingOrValue
 (
 trc
 reinterpret_cast
@@ -3520,7 +3520,7 @@ offset
 gc
 :
 :
-MarkThingOrValueRoot
+MarkThingOrValue
 (
 trc
 reinterpret_cast
