@@ -3612,7 +3612,7 @@ left
 ;
 this
 .
-resizeBarV
+resizeBarH
 .
 setAttribute
 (
