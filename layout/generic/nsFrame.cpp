@@ -6303,6 +6303,7 @@ NS_FRAME_MAY_BE_TRANSFORMED
 &
 &
 (
+(
 GetStyleDisplay
 (
 )
@@ -6310,6 +6311,13 @@ GetStyleDisplay
 >
 HasTransform
 (
+)
+&
+&
+IsFrameOfType
+(
+eSupportsCSSTransforms
+)
 )
 |
 |
@@ -6329,6 +6337,12 @@ HasAnimationsForCompositor
 (
 mContent
 eCSSProperty_transform
+)
+&
+&
+IsFrameOfType
+(
+eSupportsCSSTransforms
 )
 &
 &
