@@ -894,7 +894,7 @@ don
 '
 t
 overflow
-uint32
+uint32_t
 .
 RootedValue
 value

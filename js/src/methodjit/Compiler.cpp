@@ -35925,7 +35925,7 @@ must
 fit
 in
 an
-int32
+int32_t
 .
 *
 /
@@ -36162,7 +36162,7 @@ always
 fits
 in
 an
-int32
+int32_t
 .
 *
 /

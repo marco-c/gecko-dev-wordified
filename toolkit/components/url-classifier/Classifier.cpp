@@ -858,7 +858,7 @@ restore
 .
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1413,7 +1413,7 @@ tables
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -2250,7 +2250,7 @@ updates
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -2509,7 +2509,7 @@ aTables
 {
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -2585,7 +2585,7 @@ DropStores
 {
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -2618,7 +2618,7 @@ Clear
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -2677,7 +2677,7 @@ foundTables
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -3628,14 +3628,14 @@ us
 common
 case
 )
-uint32
+uint32_t
 validupdates
 =
 0
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -3849,7 +3849,7 @@ Clear
 (
 )
 ;
-uint32
+uint32_t
 applied
 =
 0
@@ -3861,7 +3861,7 @@ false
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -4564,7 +4564,7 @@ aTable
 {
 for
 (
-uint32
+uint32_t
 i
 =
 0

@@ -125,9 +125,9 @@ PrepareAndDispatch
 nsXPTCStubBase
 *
 self
-uint32
+uint32_t
 methodIndex
-uint32
+uint32_t
 *
 args
 )
@@ -812,7 +812,7 @@ PrepareAndDispatch
 this
 n
 (
-uint32
+uint32_t
 *
 )
 frame

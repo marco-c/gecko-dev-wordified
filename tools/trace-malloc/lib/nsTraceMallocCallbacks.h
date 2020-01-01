@@ -180,7 +180,7 @@ malloc
 .
 *
 /
-uint32
+uint32_t
 suppress_tracing
 ;
 /

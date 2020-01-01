@@ -3588,7 +3588,7 @@ datum
 =
 (
 (
-int32
+int32_t
 )
 *
 ch

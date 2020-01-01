@@ -325,7 +325,7 @@ FrameEntry
 truncate
 to
 an
-int32
+int32_t
 .
 *
 /

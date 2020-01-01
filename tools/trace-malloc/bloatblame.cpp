@@ -287,7 +287,7 @@ function_dump
 NULL
 ;
 static
-uint32
+uint32_t
 min_subtotal
 =
 0
@@ -1457,7 +1457,7 @@ node1
 *
 node2
 ;
-uint32
+uint32_t
 key1
 key2
 ;
@@ -1718,7 +1718,7 @@ char
 *
 prettybig
 (
-uint32
+uint32_t
 num
 char
 *
@@ -1828,9 +1828,9 @@ static
 double
 percent
 (
-uint32
+uint32_t
 num
-uint32
+uint32_t
 total
 )
 {
@@ -2284,7 +2284,7 @@ FILE
 fp
 )
 {
-uint32
+uint32_t
 i
 count
 ;
@@ -3638,7 +3638,7 @@ i
 prettybig
 (
 (
-uint32
+uint32_t
 )
 mean
 buf1
@@ -3648,7 +3648,7 @@ buf1
 prettybig
 (
 (
-uint32
+uint32_t
 )
 sigma
 buf2

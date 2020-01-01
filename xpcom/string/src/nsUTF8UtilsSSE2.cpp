@@ -336,11 +336,11 @@ this
 as
 a
 saturating
-uint16
+uint16_t
 to
 /
 /
-uint8
+uint8_t
 conversion
 but
 since
@@ -356,7 +356,7 @@ of
 every
 /
 /
-uint16
+uint16_t
 we
 '
 re

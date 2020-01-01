@@ -1214,7 +1214,7 @@ Attempt
 to
 parse
 an
-int64
+int64_t
 literal
 optionally
 surrounded
@@ -1339,7 +1339,7 @@ a
 valid
 /
 /
-int64
+int64_t
 literal
 optionally
 surrounded

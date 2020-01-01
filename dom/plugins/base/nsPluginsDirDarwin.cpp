@@ -2515,7 +2515,7 @@ executablePath
 '
 ;
 }
-uint32
+uint32_t
 pluginLibArchitectures
 ;
 nsresult
@@ -2549,7 +2549,7 @@ return
 false
 ;
 }
-uint32
+uint32_t
 containerArchitectures
 =
 mozilla

@@ -6712,11 +6712,11 @@ double
 >
 int
 and
-int64
+int64_t
 <
 -
 >
-int32
+int32_t
 if
 (
 a_hasAnno

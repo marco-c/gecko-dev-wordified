@@ -1256,7 +1256,7 @@ pack
 the
 offsets
 into
-uint16
+uint16_t
 .
 *
 /

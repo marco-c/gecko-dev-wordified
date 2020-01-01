@@ -550,7 +550,7 @@ WorkerGlobalScope
 ;
 for
 (
-int32
+int32_t
 i
 =
 0
@@ -605,7 +605,7 @@ MOZ_OVERRIDE
 {
 for
 (
-int32
+int32_t
 i
 =
 0

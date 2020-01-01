@@ -1993,7 +1993,7 @@ syncing
 the
 type
 as
-int32
+int32_t
 .
 Only
 use

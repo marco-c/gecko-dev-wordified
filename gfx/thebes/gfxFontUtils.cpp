@@ -2909,7 +2909,7 @@ endCounts
 *
 skip
 one
-uint16
+uint16_t
 for
 reservedPad
 *

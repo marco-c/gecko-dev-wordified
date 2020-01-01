@@ -5408,12 +5408,12 @@ i
 /
 /
 Normalize
-int32
+int32_t
 -
 valued
 doubles
 to
-int32
+int32_t
 for
 faster
 hashing

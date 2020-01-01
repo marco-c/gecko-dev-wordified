@@ -1598,7 +1598,7 @@ This
 reconstructs
 *
 the
-int32
+int32_t
 based
 on
 the

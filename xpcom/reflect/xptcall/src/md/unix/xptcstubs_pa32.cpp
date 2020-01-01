@@ -156,10 +156,10 @@ floatargs
 typedef
 struct
 {
-uint32
+uint32_t
 hi
 ;
-uint32
+uint32_t
 lo
 ;
 }

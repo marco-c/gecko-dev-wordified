@@ -2221,7 +2221,7 @@ return
 Conversion
 from
 unsigned
-int64
+int64_t
 to
 double
 doesn

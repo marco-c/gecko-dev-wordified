@@ -193,7 +193,7 @@ length
 property
 as
 a
-uint32
+uint32_t
 accessible
 with
 *

@@ -138,7 +138,7 @@ PR_BYTES_PER_INT
 #
 define
 int
-int32
+int32_t
 #
 endif
 /

@@ -400,7 +400,7 @@ to
 be
 of
 type
-uint64
+uint64_t
 and
 the
 entire

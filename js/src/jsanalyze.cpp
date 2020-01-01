@@ -2000,7 +2000,7 @@ sets
 *
 overflows
 a
-uint16
+uint16_t
 .
 In
 the

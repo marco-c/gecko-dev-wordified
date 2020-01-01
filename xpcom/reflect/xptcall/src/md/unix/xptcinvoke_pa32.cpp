@@ -646,7 +646,7 @@ regwords
 *
 (
 (
-uint32
+uint32_t
 *
 )
 dest
@@ -666,7 +666,7 @@ lo
 *
 (
 (
-uint32
+uint32_t
 *
 )
 -
@@ -761,7 +761,7 @@ floatflags
 *
 (
 (
-uint32
+uint32_t
 *
 )
 dest
@@ -781,7 +781,7 @@ lo
 *
 (
 (
-uint32
+uint32_t
 *
 )
 -

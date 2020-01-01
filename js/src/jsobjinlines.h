@@ -2798,7 +2798,7 @@ the
 length
 cannot
 overflow
-int32
+int32_t
 .
 *
 /

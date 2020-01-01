@@ -218,7 +218,7 @@ accum_byte
 FILE
 *
 fp
-uint32
+uint32_t
 *
 uip
 )
@@ -265,7 +265,7 @@ get_uint32
 FILE
 *
 fp
-uint32
+uint32_t
 *
 uip
 )
@@ -273,7 +273,7 @@ uip
 int
 c
 ;
-uint32
+uint32_t
 ui
 ;
 c
@@ -359,7 +359,7 @@ else
 ui
 =
 (
-uint32
+uint32_t
 )
 c
 ;
@@ -383,7 +383,7 @@ else
 ui
 =
 (
-uint32
+uint32_t
 )
 c
 ;
@@ -407,7 +407,7 @@ else
 ui
 =
 (
-uint32
+uint32_t
 )
 c
 ;
@@ -431,7 +431,7 @@ else
 ui
 =
 (
-uint32
+uint32_t
 )
 c
 ;
@@ -5007,7 +5007,7 @@ tmcallsite
 *
 site
 ;
-uint32
+uint32_t
 size
 oldsize
 ;
@@ -5410,7 +5410,7 @@ tmcallsite
 *
 site
 ;
-uint32
+uint32_t
 size
 ;
 tmgraphnode
@@ -5655,7 +5655,7 @@ tmreader_library
 tmreader
 *
 tmr
-uint32
+uint32_t
 serial
 )
 {
@@ -5707,7 +5707,7 @@ tmreader_filename
 tmreader
 *
 tmr
-uint32
+uint32_t
 serial
 )
 {
@@ -5799,7 +5799,7 @@ tmreader_method
 tmreader
 *
 tmr
-uint32
+uint32_t
 serial
 )
 {
@@ -5851,7 +5851,7 @@ tmreader_callsite
 tmreader
 *
 tmr
-uint32
+uint32_t
 serial
 )
 {

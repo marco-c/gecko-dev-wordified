@@ -1265,7 +1265,7 @@ that
 '
 s
 a
-uint8
+uint8_t
 but
 assignments
 are
@@ -1284,7 +1284,7 @@ data
 type
 as
 a
-uint8
+uint8_t
 .
 *
 /

@@ -314,7 +314,7 @@ FILE
 *
 out
 ;
-uint32
+uint32_t
 len
 header_sz
 ;
@@ -590,7 +590,7 @@ wstring
 method2
 (
 in
-uint32
+uint32_t
 in
 bool
 )

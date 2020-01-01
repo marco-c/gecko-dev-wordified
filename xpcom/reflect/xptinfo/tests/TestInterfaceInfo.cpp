@@ -710,7 +710,7 @@ return
 1
 ;
 }
-uint16
+uint16_t
 methodcount
 ;
 info5
@@ -984,7 +984,7 @@ arg
 this
 refers
 to
-uint8
+uint8_t
 argnum
 ;
 info5

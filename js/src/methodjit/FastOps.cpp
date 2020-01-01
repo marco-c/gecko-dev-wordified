@@ -435,7 +435,7 @@ to
 *
 convert
 to
-int32
+int32_t
 .
 This
 has
@@ -11514,7 +11514,7 @@ that
 the
 id
 is
-int32
+int32_t
 .
 if
 (

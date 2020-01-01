@@ -692,7 +692,7 @@ OBJECT_TO_JSVAL
 destArray
 )
 ;
-uint32
+uint32_t
 n
 =
 0

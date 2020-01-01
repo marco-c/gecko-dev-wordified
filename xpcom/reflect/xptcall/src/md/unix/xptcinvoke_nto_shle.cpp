@@ -677,7 +677,7 @@ worst
 case
 is
 all
-int64
+int64_t
 parameters
 and
 even

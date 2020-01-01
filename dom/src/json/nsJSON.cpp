@@ -2997,7 +2997,7 @@ ParseJSONWithReviver
 mCx
 chars
 (
-uint32
+uint32_t
 )
 mBufferedChars
 .
