@@ -438,7 +438,7 @@ BLOCK
 #
 include
 "
-nsIRenderingContext
+nsSystemFontsWin
 .
 h
 "
@@ -446,13 +446,6 @@ h
 include
 "
 gfxWindowsSurface
-.
-h
-"
-#
-include
-"
-nsSystemFontsWin
 .
 h
 "
