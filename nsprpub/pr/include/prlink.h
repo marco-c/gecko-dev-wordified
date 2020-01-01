@@ -473,6 +473,7 @@ void
 fp
 )
 (
+void
 )
 ;
 }
@@ -1690,6 +1691,7 @@ void
 PRFuncPtr
 )
 (
+void
 )
 ;
 NSPR_API
