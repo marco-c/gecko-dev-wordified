@@ -526,7 +526,7 @@ h
 #
 include
 "
-nsINodeInfo
+nsNodeInfo
 .
 h
 "
@@ -873,7 +873,7 @@ PRUnichar
 aAtts
 PRUint32
 aAttsCount
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 PRUint32
@@ -1368,7 +1368,7 @@ PRUnichar
 aAtts
 PRUint32
 aAttsCount
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 PRUint32

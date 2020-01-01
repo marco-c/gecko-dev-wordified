@@ -468,7 +468,7 @@ nsSVGPolyElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )

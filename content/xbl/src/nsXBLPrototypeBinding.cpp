@@ -10705,9 +10705,9 @@ do_GetAtom
 tag
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 nodeInfo
 =
@@ -11036,9 +11036,9 @@ do_GetAtom
 prefix
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 ni
 =

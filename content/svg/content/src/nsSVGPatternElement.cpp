@@ -875,7 +875,7 @@ nsSVGPatternElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )

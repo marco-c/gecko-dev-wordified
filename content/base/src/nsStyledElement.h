@@ -539,7 +539,7 @@ nsStyledElementNotElementCSSInlineStyle
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )
@@ -826,7 +826,7 @@ nsStyledElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )

@@ -652,7 +652,7 @@ NS_NewHTMLOptionElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 FromParser
@@ -670,7 +670,7 @@ be
 created
 without
 a
-nsINodeInfo
+nsNodeInfo
 passed
 in
 *
@@ -698,7 +698,7 @@ that
 we
 request
 the
-nsINodeInfo
+nsNodeInfo
 from
 the
 document
@@ -709,9 +709,9 @@ list
 .
 *
 /
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 nodeInfo
 (
@@ -796,7 +796,7 @@ nsHTMLOptionElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )

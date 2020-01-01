@@ -564,9 +564,9 @@ NS_ENSURE_ARG_POINTER
 aName
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 ni
 =
@@ -627,7 +627,7 @@ nsDOMDocumentType
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 const
@@ -902,7 +902,7 @@ nsDOMDocumentType
 :
 CloneDataNode
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 bool
@@ -910,9 +910,9 @@ aCloneText
 )
 const
 {
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 ni
 =

@@ -563,7 +563,7 @@ h
 #
 include
 "
-nsINodeInfo
+nsNodeInfo
 .
 h
 "
@@ -3009,7 +3009,7 @@ document
 return
 E_FAIL
 ;
-nsINodeInfo
+nsNodeInfo
 *
 nodeInfo
 =

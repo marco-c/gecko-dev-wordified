@@ -6714,7 +6714,7 @@ documents
 }
 #
 endif
-nsINodeInfo
+nsNodeInfo
 *
 ni
 =
@@ -19230,7 +19230,7 @@ nsHTMLDocument
 :
 Clone
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 nsINode

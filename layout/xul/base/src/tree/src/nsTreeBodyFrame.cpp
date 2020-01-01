@@ -852,7 +852,7 @@ h
 #
 include
 "
-nsINodeInfo
+nsNodeInfo
 .
 h
 "
@@ -26068,7 +26068,7 @@ if
 content
 )
 {
-nsINodeInfo
+nsNodeInfo
 *
 ni
 =

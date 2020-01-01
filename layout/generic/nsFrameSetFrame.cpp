@@ -514,7 +514,7 @@ h
 #
 include
 "
-nsINodeInfo
+nsNodeInfo
 .
 h
 "
@@ -8729,7 +8729,7 @@ IsHTML
 )
 )
 {
-nsINodeInfo
+nsNodeInfo
 *
 ni
 =

@@ -767,7 +767,7 @@ nsSVGSwitchElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )

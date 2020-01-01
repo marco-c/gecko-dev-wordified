@@ -674,7 +674,7 @@ h
 #
 include
 "
-nsINodeInfo
+nsNodeInfo
 .
 h
 "
@@ -7854,9 +7854,9 @@ mDisplayContent
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 nodeInfo
 ;

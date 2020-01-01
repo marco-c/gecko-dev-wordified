@@ -477,7 +477,7 @@ nsXMLProcessingInstruction
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 const
@@ -535,7 +535,7 @@ nsGenericDOMDataNode
 *
 CloneDataNode
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 bool

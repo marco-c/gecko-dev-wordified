@@ -9828,7 +9828,7 @@ if
 parentContent
 )
 {
-nsINodeInfo
+nsNodeInfo
 *
 ni
 =

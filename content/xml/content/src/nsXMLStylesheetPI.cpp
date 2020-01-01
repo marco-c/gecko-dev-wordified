@@ -527,7 +527,7 @@ nsXMLStylesheetPI
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 const
@@ -663,7 +663,7 @@ nsGenericDOMDataNode
 *
 CloneDataNode
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 bool
@@ -719,7 +719,7 @@ nsXMLStylesheetPI
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 const
@@ -1336,7 +1336,7 @@ nsXMLStylesheetPI
 :
 CloneDataNode
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 bool
@@ -1355,9 +1355,9 @@ GetData
 data
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 ni
 =
@@ -1407,9 +1407,9 @@ aInstancePtrResult
 =
 nsnull
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 ni
 ;

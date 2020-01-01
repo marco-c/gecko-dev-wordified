@@ -530,13 +530,6 @@ h
 #
 include
 "
-nsINodeInfo
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h

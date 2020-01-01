@@ -475,13 +475,6 @@ h
 #
 include
 "
-nsINodeInfo
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h

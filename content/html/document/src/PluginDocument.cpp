@@ -1704,9 +1704,9 @@ false
 make
 plugin
 content
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 nodeInfo
 ;

@@ -504,7 +504,7 @@ class
 nsIContent
 ;
 class
-nsINodeInfo
+nsNodeInfo
 ;
 #
 define
@@ -535,7 +535,7 @@ nsIContent
 aResult
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 mozilla
@@ -582,7 +582,7 @@ nsIContent
 aResult
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )
@@ -591,7 +591,7 @@ nsSVGUseElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )
@@ -720,7 +720,7 @@ virtual
 nsresult
 Clone
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 nsINode

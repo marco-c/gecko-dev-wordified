@@ -8013,9 +8013,9 @@ content
 child
 list
 .
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 nodeInfo
 ;
@@ -8525,9 +8525,9 @@ anonymous
 content
 child
 list
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 nodeInfo
 ;

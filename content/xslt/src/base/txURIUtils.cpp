@@ -500,13 +500,6 @@ nsIPrincipal
 .
 h
 "
-#
-include
-"
-nsINodeInfo
-.
-h
-"
 /
 *
 *

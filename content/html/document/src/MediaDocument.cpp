@@ -1464,9 +1464,9 @@ document
 nsresult
 rv
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 nodeInfo
 ;
@@ -2128,9 +2128,9 @@ nsAString
 aStylesheet
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 nodeInfo
 ;

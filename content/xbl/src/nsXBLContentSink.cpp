@@ -578,7 +578,7 @@ h
 #
 include
 "
-nsINodeInfo
+nsNodeInfo
 .
 h
 "
@@ -5309,7 +5309,7 @@ PRUnichar
 aAtts
 PRUint32
 aAttsCount
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 PRUint32
@@ -5703,9 +5703,9 @@ localName
 }
 else
 {
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 ni
 ;

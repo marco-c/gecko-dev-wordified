@@ -619,7 +619,7 @@ h
 #
 include
 "
-nsINodeInfo
+nsNodeInfo
 .
 h
 "
@@ -13577,7 +13577,7 @@ nsNodeInfoManager
 aNodeInfoManager
 PRUint16
 aNodeType
-nsINodeInfo
+nsNodeInfo
 *
 *
 aNodeInfo
@@ -21677,7 +21677,7 @@ if
 setDefaultNamespace
 )
 {
-nsINodeInfo
+nsNodeInfo
 *
 info
 =

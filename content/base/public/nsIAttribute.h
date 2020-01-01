@@ -513,7 +513,7 @@ return
 mAttrMap
 ;
 }
-nsINodeInfo
+nsNodeInfo
 *
 NodeInfo
 (
@@ -581,7 +581,7 @@ nsDOMAttributeMap
 aAttrMap
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 bool

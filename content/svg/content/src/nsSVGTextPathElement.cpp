@@ -874,7 +874,7 @@ nsSVGTextPathElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )

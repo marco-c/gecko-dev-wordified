@@ -491,7 +491,7 @@ h
 #
 include
 "
-nsINodeInfo
+nsNodeInfo
 .
 h
 "
@@ -2303,7 +2303,7 @@ IsElement
 )
 )
 {
-nsINodeInfo
+nsNodeInfo
 *
 nodeInfo
 =
@@ -4027,7 +4027,7 @@ nsIAttribute
 "
 )
 ;
-nsINodeInfo
+nsNodeInfo
 *
 nodeInfo
 =

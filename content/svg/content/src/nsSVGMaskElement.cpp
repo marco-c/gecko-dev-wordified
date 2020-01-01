@@ -820,7 +820,7 @@ nsSVGMaskElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )

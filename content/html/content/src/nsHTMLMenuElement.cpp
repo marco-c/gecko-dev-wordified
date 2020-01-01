@@ -550,7 +550,7 @@ nsHTMLMenuElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )

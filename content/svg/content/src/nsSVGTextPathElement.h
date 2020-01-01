@@ -523,7 +523,7 @@ class
 nsINode
 ;
 class
-nsINodeInfo
+nsNodeInfo
 ;
 class
 nsXPCClassInfo
@@ -562,7 +562,7 @@ nsIContent
 aResult
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )
@@ -571,7 +571,7 @@ nsSVGTextPathElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )
@@ -651,7 +651,7 @@ virtual
 nsresult
 Clone
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 nsINode
