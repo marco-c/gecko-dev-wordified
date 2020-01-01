@@ -705,6 +705,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 Element
 .
 h
@@ -738,9 +742,6 @@ endif
 using
 namespace
 mozilla
-:
-:
-dom
 ;
 /
 /
@@ -1221,6 +1222,9 @@ nsIAccessibleRole
 :
 ROLE_DIALOG
 instead
+dom
+:
+:
 Element
 *
 root

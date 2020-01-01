@@ -689,6 +689,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 Element
 .
 h
@@ -696,9 +700,6 @@ h
 using
 namespace
 mozilla
-:
-:
-dom
 ;
 static
 NS_DEFINE_CID
@@ -2917,6 +2918,9 @@ IsElement
 )
 )
 {
+dom
+:
+:
 Element
 *
 element
