@@ -8189,6 +8189,7 @@ if
 (
 dataLength
 >
+=
 (
 PRUint32
 )
@@ -8254,6 +8255,7 @@ if
 (
 endOffset
 >
+=
 0
 )
 {
