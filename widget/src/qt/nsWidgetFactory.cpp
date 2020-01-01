@@ -593,8 +593,6 @@ nsClipboardHelper
 .
 h
 "
-/
-/
 #
 include
 "
@@ -763,8 +761,6 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsClipboardHelper
 )
-/
-/
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsDragService
@@ -1059,8 +1055,6 @@ clipboardhelper
 "
 nsClipboardHelperConstructor
 }
-/
-*
 {
 "
 Qt
@@ -1081,8 +1075,6 @@ dragservice
 "
 nsDragServiceConstructor
 }
-*
-/
 {
 "
 Qt
