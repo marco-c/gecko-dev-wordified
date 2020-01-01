@@ -849,6 +849,16 @@ icon
 PR_FALSE
 0
 0
+nsWindowGfx
+:
+:
+GetIconMetrics
+(
+nsWindowGfx
+:
+:
+kSmallIcon
+)
 &
 hIcon
 )
