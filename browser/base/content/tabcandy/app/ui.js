@@ -169,12 +169,6 @@ startX
 startY
 :
 70
-tabWidth
-:
-160
-tabHeight
-:
-137
 init
 :
 function
@@ -1454,10 +1448,10 @@ startX
 Page
 .
 startY
-Page
+TabItems
 .
 tabWidth
-Page
+TabItems
 .
 tabHeight
 )
