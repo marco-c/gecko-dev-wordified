@@ -3802,6 +3802,10 @@ if
 ferror
 (
 infile
+.
+get
+(
+)
 )
 )
 {
