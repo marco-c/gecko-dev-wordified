@@ -85,6 +85,13 @@ h
 #
 include
 <
+stdio
+.
+h
+>
+#
+include
+<
 algorithm
 >
 namespace
@@ -1019,7 +1026,7 @@ out
 "
 uniform
 float4
-dx_Window
+dx_Viewport
 ;
 \
 n

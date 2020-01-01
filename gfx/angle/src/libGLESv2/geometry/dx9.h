@@ -228,6 +228,11 @@ TranslatedAttribute
 attributes
 )
 ;
+void
+invalidate
+(
+)
+;
 private
 :
 IDirect3DDevice9
@@ -254,6 +259,7 @@ STREAM_FREQUENCY_UNINSTANCED
 0
 STREAM_FREQUENCY_INDEXED
 STREAM_FREQUENCY_INSTANCED
+STREAM_FREQUENCY_DIRTY
 }
 ;
 StreamFrequency
@@ -264,6 +270,14 @@ MAX_VERTEX_ATTRIBS
 1
 ]
 ;
+/
+/
+Stream
+frequencies
+as
+last
+set
+.
 struct
 TranslationInfo
 {

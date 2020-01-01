@@ -363,8 +363,6 @@ survive
 /
 across
 compiles
-/
-links
 .
 /
 /

@@ -95,8 +95,8 @@ ConstructCompiler
 (
 EShLanguage
 language
-int
-debugOptions
+EShSpec
+spec
 )
 {
 return
@@ -104,7 +104,7 @@ new
 TranslatorHLSL
 (
 language
-debugOptions
+spec
 )
 ;
 }
