@@ -2006,6 +2006,17 @@ aStringValue
 )
 ;
 void
+SetColorValue
+(
+nscolor
+aColor
+const
+nsAString
+&
+aString
+)
+;
+void
 SetMiscAtomOrString
 (
 const
