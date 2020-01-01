@@ -123,13 +123,6 @@ h
 #
 include
 "
-jsinterp
-.
-h
-"
-#
-include
-"
 ion
 /
 IonFrames
@@ -156,7 +149,7 @@ include
 "
 vm
 /
-StringObject
+Interpreter
 -
 inl
 .
@@ -165,7 +158,11 @@ h
 #
 include
 "
-jsinterpinlines
+vm
+/
+StringObject
+-
+inl
 .
 h
 "

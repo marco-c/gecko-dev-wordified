@@ -106,10 +106,10 @@ MPL
 /
 #
 ifndef
-jsinterp_h___
+Interpreter_h_
 #
 define
-jsinterp_h___
+Interpreter_h_
 /
 *
 *
@@ -2584,6 +2584,6 @@ js
 endif
 /
 *
-jsinterp_h___
+Interpreter_h_
 *
 /

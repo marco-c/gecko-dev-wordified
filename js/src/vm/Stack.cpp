@@ -183,13 +183,6 @@ h
 #
 include
 "
-jsinterpinlines
-.
-h
-"
-#
-include
-"
 jsopcode
 .
 h
