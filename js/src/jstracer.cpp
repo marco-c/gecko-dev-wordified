@@ -16535,6 +16535,13 @@ tempAlloc
 LirBufWriter
 (
 lirbuf
+nanojit
+:
+:
+AvmCore
+:
+:
+config
 )
 ;
 #
@@ -53435,7 +53442,7 @@ AvmCore
 :
 config
 .
-vfp
+arm_vfp
 =
 arm_vfp
 ;
@@ -53460,7 +53467,7 @@ AvmCore
 :
 config
 .
-thumb
+arm_thumb
 =
 arm_thumb
 ;
@@ -53472,7 +53479,7 @@ AvmCore
 :
 config
 .
-thumb2
+arm_thumb2
 =
 arm_thumb2
 ;
@@ -53484,7 +53491,7 @@ AvmCore
 :
 config
 .
-arch
+arm_arch
 =
 arm_arch
 ;

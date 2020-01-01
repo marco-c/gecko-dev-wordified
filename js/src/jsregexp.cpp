@@ -22397,6 +22397,13 @@ new
 LirBufWriter
 (
 lirbuf
+nanojit
+:
+:
+AvmCore
+:
+:
+config
 )
 ;
 /
