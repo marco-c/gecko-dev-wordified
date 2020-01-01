@@ -1168,7 +1168,7 @@ mImage
 PRUint32
 mState
 ;
-nsresult
+PRUint32
 mImageStatus
 ;
 bool

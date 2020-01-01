@@ -20255,7 +20255,7 @@ DOMAIN_LENGTH
 )
 )
 return
-false
+NS_OK
 ;
 domainval
 =
