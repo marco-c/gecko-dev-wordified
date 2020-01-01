@@ -2084,19 +2084,23 @@ if
 obj
 .
 test_tool_dirs
-:
+and
+\
             
-fh
+self
 .
-write
+environment
+.
+substs
+.
+get
 (
 '
-ifdef
 ENABLE_TESTS
-\
-n
 '
+False
 )
+:
             
 fh
 .
@@ -2121,17 +2125,6 @@ obj
 .
 test_tool_dirs
 )
-)
-            
-fh
-.
-write
-(
-'
-endif
-\
-n
-'
 )
         
 if
