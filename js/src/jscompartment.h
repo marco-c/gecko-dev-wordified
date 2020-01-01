@@ -606,11 +606,13 @@ wrapped
 ;
 struct
 WrapperHasher
-{
-typedef
+:
+public
+DefaultHasher
+<
 CrossCompartmentKey
-Lookup
-;
+>
+{
 static
 HashNumber
 hash

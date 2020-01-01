@@ -1748,6 +1748,12 @@ FieldInfos
 .
 struct
 FieldHashPolicy
+:
+DefaultHasher
+<
+JSFlatString
+*
+>
 {
 typedef
 JSFlatString

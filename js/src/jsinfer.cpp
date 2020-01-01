@@ -19814,6 +19814,15 @@ types
 :
 :
 ArrayTableKey
+:
+public
+DefaultHasher
+<
+types
+:
+:
+ArrayTableKey
+>
 {
 Type
 type
@@ -19841,10 +19850,6 @@ NULL
 )
 {
 }
-typedef
-ArrayTableKey
-Lookup
-;
 static
 inline
 uint32_t

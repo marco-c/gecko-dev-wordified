@@ -7519,6 +7519,14 @@ prototype
 /
 struct
 TypeObjectEntry
+:
+DefaultHasher
+<
+ReadBarriered
+<
+TypeObject
+>
+>
 {
 struct
 Lookup
