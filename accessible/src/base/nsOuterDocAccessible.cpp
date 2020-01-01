@@ -1730,9 +1730,9 @@ it
 s
 requested
 .
-mAreChildrenInitialized
+mChildrenFlags
 =
-PR_FALSE
+eChildrenUninitialized
 ;
 }
 PRBool
