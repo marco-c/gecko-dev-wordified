@@ -206,6 +206,14 @@ void
 aIter
 )
 ;
+already_AddRefed
+<
+nsPaintRequestList
+>
+PaintRequests
+(
+)
+;
 private
 :
 nsRegion
