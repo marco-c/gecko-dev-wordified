@@ -370,6 +370,13 @@ nsIAccessibleRole
 ROLE_PUSHBUTTON
 ;
 const
+ROLE_CELL
+=
+nsIAccessibleRole
+.
+ROLE_CELL
+;
+const
 ROLE_COMBOBOX
 =
 nsIAccessibleRole
@@ -417,6 +424,13 @@ ROLE_FORM
 nsIAccessibleRole
 .
 ROLE_FORM
+;
+const
+ROLE_GRID_CELL
+=
+nsIAccessibleRole
+.
+ROLE_GRID_CELL
 ;
 const
 ROLE_HEADING

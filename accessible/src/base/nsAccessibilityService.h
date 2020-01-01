@@ -1791,6 +1791,12 @@ equation
 /
 /
 ROLE_FLAT_EQUATION
+"
+gridcell
+"
+/
+/
+ROLE_GRID_CELL
 }
 ;
 /

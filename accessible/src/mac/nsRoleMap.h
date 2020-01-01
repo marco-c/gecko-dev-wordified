@@ -1205,6 +1205,10 @@ NSAccessibilityUnknownRole
 /
 /
 ROLE_FLAT_EQUATION
+NSAccessibilityGroupRole
+/
+/
+ROLE_GRID_CELL
 "
 ROLE_LAST_ENTRY
 "

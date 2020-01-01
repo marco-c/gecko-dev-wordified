@@ -669,7 +669,7 @@ eFromSubtree
 /
 /
 ROLE_ROW
-eFromSubtree
+eNoRule
 /
 /
 ROLE_CELL
@@ -1037,5 +1037,9 @@ eNoRule
 /
 /
 ROLE_FLAT_EQUATION
+eFromSubtree
+/
+/
+ROLE_GRID_CELL
 }
 ;

@@ -1471,6 +1471,14 @@ nsIAccessibleRole
 :
 ROLE_FLAT_EQUATION
 120
+ATK_ROLE_TABLE_CELL
+/
+/
+nsIAccessibleRole
+:
+:
+ROLE_GRID_CELL
+121
 kROLE_ATK_LAST_ENTRY
 /
 /
