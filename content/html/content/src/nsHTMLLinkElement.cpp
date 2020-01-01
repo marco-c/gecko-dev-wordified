@@ -744,7 +744,7 @@ ss
 =
 do_QueryInterface
 (
-GetSheet
+GetStyleSheet
 (
 )
 )
@@ -800,7 +800,7 @@ ss
 =
 do_QueryInterface
 (
-GetSheet
+GetStyleSheet
 (
 )
 )
@@ -1696,7 +1696,7 @@ nsGkAtoms
 rel
 &
 &
-GetSheet
+GetStyleSheet
 (
 )
 )
