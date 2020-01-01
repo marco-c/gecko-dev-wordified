@@ -3840,6 +3840,11 @@ id
 "
 menu_socialAmbientMenu
 "
+observes
+=
+"
+socialActiveBroadcaster
+"
 >
 <
 menupopup
