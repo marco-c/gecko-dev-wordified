@@ -2062,10 +2062,13 @@ data
 type
 *
 /
-typedef
-uint32_t
-nsresult
-;
+#
+include
+"
+nsError
+.
+h
+"
 /
 *
 *
