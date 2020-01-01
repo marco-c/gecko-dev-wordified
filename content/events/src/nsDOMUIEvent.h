@@ -1050,7 +1050,7 @@ nsIntPoint
 mPagePoint
 ;
 nsIntPoint
-mMovement
+mMovementPoint
 ;
 bool
 mIsPointerLocked
