@@ -1634,9 +1634,6 @@ ID2D1StrokeStyle
 >
 strokeStyle
 =
-DrawTargetD2D
-:
-:
 CreateStrokeStyleForOptions
 (
 aStrokeOptions
@@ -1800,9 +1797,6 @@ ID2D1StrokeStyle
 >
 strokeStyle
 =
-DrawTargetD2D
-:
-:
 CreateStrokeStyleForOptions
 (
 aStrokeOptions
