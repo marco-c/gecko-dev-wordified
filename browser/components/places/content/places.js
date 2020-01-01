@@ -4216,7 +4216,7 @@ likely
 to
 fill
 the
-infoPane
+infoBox
 anyway
 *
 thus
