@@ -864,6 +864,7 @@ SharedFontCache
 >
 LookupLocalFont
 (
+aProxyEntry
 aFontName
 )
 ;
