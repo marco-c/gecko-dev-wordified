@@ -2136,6 +2136,8 @@ ObjectImpl
 obj
 uint32_t
 index
+unsigned
+resolveFlags
 PropDesc
 *
 desc
@@ -2158,6 +2160,8 @@ PropDesc
 desc
 bool
 shouldThrow
+unsigned
+resolveFlags
 bool
 *
 succeeded
@@ -2181,6 +2185,8 @@ const
 Value
 &
 v
+unsigned
+resolveFlags
 bool
 *
 succeeded
@@ -2290,6 +2296,8 @@ ObjectImpl
 obj
 uint32_t
 index
+unsigned
+resolveFlags
 PropDesc
 *
 desc
@@ -2312,6 +2320,8 @@ PropDesc
 desc
 bool
 shouldThrow
+unsigned
+resolveFlags
 bool
 *
 succeeded
@@ -2335,6 +2345,8 @@ const
 Value
 &
 v
+unsigned
+resolveFlags
 bool
 *
 succeeded
@@ -3055,6 +3067,8 @@ ObjectImpl
 obj
 uint32_t
 index
+unsigned
+resolveFlags
 PropDesc
 *
 desc
@@ -3077,6 +3091,8 @@ PropDesc
 desc
 bool
 shouldThrow
+unsigned
+resolveFlags
 bool
 *
 succeeded
@@ -3100,6 +3116,8 @@ const
 Value
 &
 v
+unsigned
+resolveFlags
 bool
 *
 succeeded
@@ -3972,6 +3990,8 @@ ObjectImpl
 obj
 uint32_t
 index
+unsigned
+resolveFlags
 PropDesc
 *
 desc
@@ -3994,6 +4014,8 @@ PropDesc
 desc
 bool
 shouldThrow
+unsigned
+resolveFlags
 bool
 *
 succeeded
@@ -4017,6 +4039,8 @@ const
 Value
 &
 v
+unsigned
+resolveFlags
 bool
 *
 succeeded
@@ -7529,6 +7553,8 @@ ObjectImpl
 obj
 uint32_t
 index
+unsigned
+resolveFlags
 PropDesc
 *
 desc
@@ -7566,6 +7592,8 @@ ObjectImpl
 receiver
 uint32_t
 index
+unsigned
+resolveFlags
 Value
 *
 vp
@@ -7589,6 +7617,8 @@ PropDesc
 desc
 bool
 shouldThrow
+unsigned
+resolveFlags
 bool
 *
 succeeded
@@ -7631,6 +7661,8 @@ const
 Value
 &
 v
+unsigned
+resolveFlags
 bool
 *
 succeeded
@@ -7648,6 +7680,8 @@ ObjectImpl
 obj
 uint32_t
 index
+unsigned
+resolveFlags
 bool
 *
 found
