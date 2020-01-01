@@ -387,7 +387,7 @@ lPeriod
 int
 nMaxStrikes
 =
-3
+0
 ;
 /
 /
@@ -400,6 +400,14 @@ we
 consider
 network
 unreachable
+(
+0
+means
+don
+'
+t
+check
+)
 boolean
 bStartSUTAgent
 =
@@ -798,7 +806,7 @@ strikes
 "
 sIniFile
 "
-3
+0
 "
 )
 ;
