@@ -959,12 +959,6 @@ mIcon
 PageData
 mPage
 ;
-nsCOMPtr
-<
-nsIChannel
->
-mChannel
-;
 const
 bool
 mFaviconLoadPrivate
