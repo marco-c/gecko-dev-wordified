@@ -496,8 +496,7 @@ VMFrame
 f
 )
 ;
-JSObject
-*
+void
 JS_FASTCALL
 NewInitArray
 (
@@ -508,8 +507,7 @@ uint32
 count
 )
 ;
-JSObject
-*
+void
 JS_FASTCALL
 NewInitObject
 (

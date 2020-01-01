@@ -2600,6 +2600,14 @@ fe
 ;
 inline
 void
+setThis
+(
+RegisterID
+reg
+)
+;
+inline
+void
 learnThisIsObject
 (
 bool
