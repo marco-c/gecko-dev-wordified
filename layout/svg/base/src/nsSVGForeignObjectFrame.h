@@ -503,15 +503,14 @@ GetCanvasTMForChildren
 void
 InvalidateDirtyRect
 (
-nsSVGOuterSVGFrame
-*
-aOuter
 const
 nsRect
 &
 aRect
 PRUint32
 aFlags
+bool
+aDuringReflowSVG
 )
 ;
 void
@@ -519,6 +518,8 @@ FlushDirtyRegion
 (
 PRUint32
 aFlags
+bool
+aDuringReflowSVG
 )
 ;
 /
