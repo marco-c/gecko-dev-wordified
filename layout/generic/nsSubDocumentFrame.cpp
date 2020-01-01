@@ -1784,7 +1784,6 @@ nsDisplayClip
 (
 aBuilder
 this
-this
 &
 shadowTree
 bounds
