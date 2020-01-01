@@ -478,7 +478,7 @@ include
 "
 ion
 /
-IonLinker
+IonMacroAssembler
 .
 h
 "
@@ -505,7 +505,7 @@ LInstructionVisitor
 {
 protected
 :
-Assembler
+MacroAssembler
 masm
 ;
 MIRGenerator
