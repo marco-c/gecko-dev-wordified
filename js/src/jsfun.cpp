@@ -1623,7 +1623,7 @@ Value
 *
 dst
 ;
-void
+bool
 operator
 (
 )
@@ -1654,6 +1654,9 @@ src
 +
 +
 dst
+;
+return
+true
 ;
 }
 }

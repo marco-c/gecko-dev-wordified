@@ -941,10 +941,6 @@ f
 =
 start
 ;
-!
-found
-&
-&
 f
 !
 =
@@ -967,10 +963,14 @@ f
 =
 fp
 )
+{
 found
 =
 true
 ;
+break
+;
+}
 }
 JS_ASSERT
 (
