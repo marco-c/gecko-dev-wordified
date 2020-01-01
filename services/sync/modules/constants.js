@@ -708,15 +708,6 @@ service
 .
 disabled
 "
-STATUS_DELAYED
-:
-"
-service
-.
-startup
-.
-delayed
-"
 /
 /
 success
