@@ -21695,7 +21695,7 @@ masm
 .
 cmpPtr
 (
-Operand
+Address
 (
 output
 BaseShape
@@ -21755,7 +21755,7 @@ rhsFlags
 ;
 masm
 .
-andl
+and32
 (
 Imm32
 (
@@ -22263,7 +22263,7 @@ lhsTmp
 ;
 masm
 .
-testl
+test32
 (
 lhsTmp
 lhsTmp
@@ -22291,7 +22291,7 @@ to
 rhsShape
 masm
 .
-cmpl
+cmp32
 (
 lhsTmp
 rhsTmp
