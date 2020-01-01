@@ -215,6 +215,7 @@ nsIPrincipal
 ;
 class
 nsBindingManager
+MOZ_FINAL
 :
 public
 nsStubMutationObserver
