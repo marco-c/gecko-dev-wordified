@@ -820,7 +820,7 @@ nsCOMPtr
 <
 Link
 >
-link
+testLink
 ;
 }
 void
@@ -937,7 +937,7 @@ our
 test
 Link
 .
-link
+testLink
 =
 new
 mock_Link
@@ -975,7 +975,7 @@ history
 RegisterVisitedCallback
 (
 testURI
-link
+testLink
 )
 ;
 do_check_success
@@ -1175,7 +1175,7 @@ history
 UnregisterVisitedCallback
 (
 testURI
-link
+testLink
 )
 ;
 do_check_success
@@ -1195,7 +1195,7 @@ testURI
 =
 nsnull
 ;
-link
+testLink
 =
 nsnull
 ;
