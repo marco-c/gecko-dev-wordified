@@ -1513,6 +1513,14 @@ the
 box
 size
 here
+max
+=
+PR_MAX
+(
+min
+max
+)
+;
 pref
 =
 nsBox

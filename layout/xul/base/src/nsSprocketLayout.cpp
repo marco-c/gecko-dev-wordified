@@ -6169,6 +6169,14 @@ frameState
 NS_STATE_EQUAL_SIZE
 )
 {
+smallestMaxWidth
+=
+PR_MAX
+(
+smallestMaxWidth
+biggestMinWidth
+)
+;
 biggestPrefWidth
 =
 nsBox
