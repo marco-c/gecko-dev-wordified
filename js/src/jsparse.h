@@ -7094,11 +7094,11 @@ traceListHead
 NULL
 )
 {
-memset
+js
+:
+:
+PodArrayZero
 (
-tempFreeList
-0
-sizeof
 tempFreeList
 )
 ;

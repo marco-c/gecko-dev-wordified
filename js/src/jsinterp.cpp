@@ -3666,14 +3666,8 @@ cache
 return
 ;
 }
-memset
+PodArrayZero
 (
-cache
--
->
-table
-0
-sizeof
 cache
 -
 >
