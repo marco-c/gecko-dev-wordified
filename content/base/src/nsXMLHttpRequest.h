@@ -741,10 +741,6 @@ Init
 void
 GetEntry
 (
-const
-nsACString
-&
-aMethod
 nsIURI
 *
 aURI
@@ -759,10 +755,6 @@ _retval
 void
 PutEntry
 (
-const
-nsACString
-&
-aMethod
 nsIURI
 *
 aURI
@@ -818,10 +810,6 @@ static
 PRBool
 GetCacheKey
 (
-const
-nsACString
-&
-aMethod
 nsIURI
 *
 aURI
