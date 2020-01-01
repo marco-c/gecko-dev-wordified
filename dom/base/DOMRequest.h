@@ -274,13 +274,11 @@ bool
 aCancelable
 )
 ;
-virtual
 void
 RootResultVal
 (
 )
 ;
-virtual
 void
 UnrootResultVal
 (

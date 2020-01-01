@@ -256,12 +256,6 @@ uint64_t
 aTotal
 )
 ;
-virtual
-void
-RootResultVal
-(
-)
-;
 nsRefPtr
 <
 LockedFile
