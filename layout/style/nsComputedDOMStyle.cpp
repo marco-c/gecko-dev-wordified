@@ -7965,10 +7965,11 @@ GetROCSSPrimitiveValue
 ;
 if
 (
+!
 aGradient
 -
 >
-mToCorner
+mLegacySyntax
 )
 {
 AppendCSSGradientToBoxPosition
