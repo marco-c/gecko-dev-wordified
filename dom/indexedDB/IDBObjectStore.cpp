@@ -4529,9 +4529,9 @@ aCx
 JSStructuredCloneReader
 *
 aReader
-uint32
+uint32_t
 aTag
-uint32
+uint32_t
 aData
 void
 *
