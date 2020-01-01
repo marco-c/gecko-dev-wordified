@@ -4301,6 +4301,11 @@ abort
 )
 ;
 }
+(
+void
+)
+scratch
+;
 _exit
 (
 0

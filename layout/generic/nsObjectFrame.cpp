@@ -8766,6 +8766,16 @@ here
 .
 *
 /
+(
+void
+)
+window
+;
+(
+void
+)
+npprint
+;
 #
 elif
 defined
