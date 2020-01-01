@@ -9527,10 +9527,10 @@ gfxFloat
 mPartWidth
 ;
 PRPackedBool
-mPartIsStartOfLigature
+mClipBeforePart
 ;
 PRPackedBool
-mPartIsEndOfLigature
+mClipAfterPart
 ;
 }
 ;
