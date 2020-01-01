@@ -270,7 +270,7 @@ JSContext
 *
 aCx
 JSObject
-*
+&
 aBlob
 ErrorResult
 &
@@ -281,7 +281,7 @@ void
 ReadAsBinaryString
 (
 JSObject
-*
+&
 aBlob
 nsAString
 &
@@ -295,7 +295,7 @@ void
 ReadAsText
 (
 JSObject
-*
+&
 aBlob
 const
 Optional
@@ -316,7 +316,7 @@ void
 ReadAsDataURL
 (
 JSObject
-*
+&
 aBlob
 nsAString
 &
