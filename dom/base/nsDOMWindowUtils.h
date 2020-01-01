@@ -447,6 +447,9 @@ class
 nsGlobalWindow
 ;
 class
+nsIPresShell
+;
+class
 nsDOMWindowUtils
 :
 public
@@ -558,6 +561,12 @@ GetWidgetForElement
 nsIDOMElement
 *
 aElement
+)
+;
+nsIPresShell
+*
+GetPresShell
+(
 )
 ;
 nsPresContext
