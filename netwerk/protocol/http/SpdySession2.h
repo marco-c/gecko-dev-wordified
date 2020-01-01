@@ -910,6 +910,14 @@ PRUint32
 size
 )
 ;
+void
+PrintDiagnostics
+(
+nsCString
+&
+log
+)
+;
 private
 :
 enum

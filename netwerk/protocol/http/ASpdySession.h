@@ -266,6 +266,17 @@ nsISocketTransport
 PRInt32
 )
 ;
+virtual
+void
+PrintDiagnostics
+(
+nsCString
+&
+log
+)
+=
+0
+;
 const
 static
 PRUint32
