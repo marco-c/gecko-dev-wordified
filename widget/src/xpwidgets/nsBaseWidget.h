@@ -833,13 +833,6 @@ aFullScreen
 )
 ;
 virtual
-nsIRenderingContext
-*
-GetRenderingContext
-(
-)
-;
-virtual
 nsIDeviceContext
 *
 GetDeviceContext
