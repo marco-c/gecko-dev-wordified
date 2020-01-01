@@ -546,9 +546,6 @@ class
 nsSVGOuterSVGFrame
 ;
 class
-nsIPresShell
-;
-class
 nsSVGPreserveAspectRatio
 ;
 class

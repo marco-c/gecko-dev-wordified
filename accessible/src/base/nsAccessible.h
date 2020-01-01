@@ -573,9 +573,6 @@ class
 nsIFrame
 ;
 class
-nsIPresShell
-;
-class
 nsIDOMNode
 ;
 class

@@ -625,13 +625,6 @@ IBMBIDI
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsFrameSelection
 .
 h

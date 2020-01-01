@@ -481,13 +481,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsMappedAttributes
 .
 h

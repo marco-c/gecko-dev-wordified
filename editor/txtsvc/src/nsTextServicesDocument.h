@@ -438,13 +438,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsIDOMDocument
 .
 h

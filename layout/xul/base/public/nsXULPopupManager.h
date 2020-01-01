@@ -676,9 +676,6 @@ Rollup
 *
 /
 class
-nsIPresShell
-;
-class
 nsMenuFrame
 ;
 class

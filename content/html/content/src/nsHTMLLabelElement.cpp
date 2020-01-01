@@ -509,13 +509,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsGUIEvent
 .
 h

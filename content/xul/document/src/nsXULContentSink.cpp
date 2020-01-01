@@ -629,13 +629,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsIScriptContext
 .
 h

@@ -560,13 +560,6 @@ nsITextControlFrame
 .
 h
 "
-#
-include
-"
-nsIPresShell
-.
-h
-"
 /
 /
 /

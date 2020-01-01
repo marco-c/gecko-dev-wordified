@@ -483,6 +483,13 @@ nsQuickSort
 .
 h
 "
+#
+include
+"
+nsIPresShell
+.
+h
+"
 /
 /
 #

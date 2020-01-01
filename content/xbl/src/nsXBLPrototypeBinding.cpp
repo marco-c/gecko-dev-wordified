@@ -642,13 +642,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsIDocumentObserver
 .
 h

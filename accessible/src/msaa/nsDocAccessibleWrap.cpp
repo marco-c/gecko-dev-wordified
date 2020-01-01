@@ -486,13 +486,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsISelectionController
 .
 h

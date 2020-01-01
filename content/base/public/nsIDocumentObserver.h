@@ -449,9 +449,6 @@ class
 nsIContent
 ;
 class
-nsIPresShell
-;
-class
 nsIStyleSheet
 ;
 class

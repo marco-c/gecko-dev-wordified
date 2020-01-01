@@ -447,13 +447,7 @@ class
 nsIDOMWindow
 ;
 class
-nsIPresShell
-;
-class
 nsIDocShell
-;
-class
-nsIDocShellTreeItem
 ;
 /
 /

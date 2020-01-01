@@ -466,13 +466,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsStyleContext
 .
 h

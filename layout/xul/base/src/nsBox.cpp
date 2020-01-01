@@ -488,13 +488,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsHTMLContainerFrame
 .
 h

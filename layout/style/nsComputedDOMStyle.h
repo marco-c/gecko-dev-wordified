@@ -495,13 +495,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h
@@ -541,6 +534,9 @@ nsStyleStruct
 .
 h
 "
+class
+nsIPresShell
+;
 class
 nsComputedDOMStyle
 :

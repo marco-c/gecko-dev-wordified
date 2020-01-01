@@ -504,13 +504,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsIEventStateManager
 .
 h

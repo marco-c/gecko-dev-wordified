@@ -489,13 +489,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h

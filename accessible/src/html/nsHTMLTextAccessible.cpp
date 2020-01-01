@@ -473,13 +473,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsISelection
 .
 h

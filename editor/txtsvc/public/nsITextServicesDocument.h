@@ -442,9 +442,6 @@ class
 nsIDOMRange
 ;
 class
-nsIPresShell
-;
-class
 nsIEditor
 ;
 class

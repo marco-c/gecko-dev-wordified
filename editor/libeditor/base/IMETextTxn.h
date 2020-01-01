@@ -505,9 +505,6 @@ IME_TEXT_TXN_CID
 0x9b
 }
 }
-class
-nsIPresShell
-;
 /
 *
 *

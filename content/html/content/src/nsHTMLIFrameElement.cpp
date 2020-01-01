@@ -479,13 +479,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h

@@ -451,13 +451,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h
@@ -490,6 +483,9 @@ nsBindingManager
 .
 h
 "
+class
+nsIPresShell
+;
 class
 inLayoutUtils
 {

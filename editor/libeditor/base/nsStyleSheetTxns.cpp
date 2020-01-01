@@ -434,13 +434,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsICSSStyleSheet
 .
 h

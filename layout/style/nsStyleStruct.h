@@ -578,13 +578,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

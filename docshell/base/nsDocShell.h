@@ -452,13 +452,6 @@ nsDocShell_h__
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h

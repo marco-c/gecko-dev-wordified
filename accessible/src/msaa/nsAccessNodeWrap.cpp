@@ -535,13 +535,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
