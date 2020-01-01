@@ -483,6 +483,13 @@ h
 #
 include
 "
+jsobj
+.
+h
+"
+#
+include
+"
 nsIScriptSecurityManager
 .
 h
