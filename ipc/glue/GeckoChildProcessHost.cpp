@@ -1499,6 +1499,13 @@ defined
 (
 MOZ_CRASHREPORTER
 )
+&
+&
+!
+defined
+(
+XP_MACOSX
+)
 int
 childCrashFd
 childCrashRemapFd
