@@ -2327,7 +2327,7 @@ aLoadFlags
 -
 /
 /
-nsIRequestObserever
+nsIRequestObserver
 methods
 :
 /
