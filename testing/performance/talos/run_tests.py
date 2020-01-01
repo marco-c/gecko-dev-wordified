@@ -2095,7 +2095,8 @@ last_results
 full_results
 =
 '
-RETURN
+\
+nRETURN
 :
 <
 p
@@ -2236,7 +2237,8 @@ first_results
 first_results
 +
 "
-RETURN
+\
+nRETURN
 :
 "
 +
