@@ -235,6 +235,8 @@ MmsAttachment
 >
 &
 aAttachments
+uint64_t
+aExpiryDate
 )
 ;
 MmsMessage
@@ -303,6 +305,13 @@ JS
 Value
 &
 aAttachments
+const
+JS
+:
+:
+Value
+&
+aExpiryDate
 JSContext
 *
 aCx
@@ -378,6 +387,9 @@ idl
 MmsAttachment
 >
 mAttachments
+;
+uint64_t
+mExpiryDate
 ;
 }
 ;

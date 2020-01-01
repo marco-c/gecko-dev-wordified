@@ -312,6 +312,13 @@ JS
 Value
 &
 aAttachments
+const
+JS
+:
+:
+Value
+&
+aExpiryDate
 JSContext
 *
 aCx
@@ -338,6 +345,7 @@ aRead
 aSubject
 aSmil
 aAttachments
+aExpiryDate
 aCx
 aMessage
 )
