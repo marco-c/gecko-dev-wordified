@@ -1181,7 +1181,7 @@ includes
 #
 include
 "
-nsIPluginInstance
+nsNPAPIPluginInstance
 .
 h
 "
@@ -45981,7 +45981,7 @@ wrapper
 JSObject
 *
 obj
-nsIPluginInstance
+nsNPAPIPluginInstance
 *
 *
 _result
@@ -46427,9 +46427,9 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 pi
 ;
@@ -47733,9 +47733,9 @@ PRBool
 _retval
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 pi
 ;
@@ -47929,7 +47929,7 @@ cx
 JSObject
 *
 obj
-nsIPluginInstance
+nsNPAPIPluginInstance
 *
 plugin_inst
 JSObject
@@ -48094,9 +48094,9 @@ if
 /
 possible
 .
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 pi
 ;

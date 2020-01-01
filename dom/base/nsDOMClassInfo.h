@@ -587,7 +587,7 @@ class
 nsIHTMLDocument
 ;
 class
-nsIPluginInstance
+nsNPAPIPluginInstance
 ;
 class
 nsSVGTransformList
@@ -5238,7 +5238,7 @@ aWrapper
 JSObject
 *
 obj
-nsIPluginInstance
+nsNPAPIPluginInstance
 *
 *
 aResult
@@ -5254,7 +5254,7 @@ cx
 JSObject
 *
 obj
-nsIPluginInstance
+nsNPAPIPluginInstance
 *
 plugin_inst
 JSObject

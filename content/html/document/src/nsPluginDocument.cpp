@@ -460,7 +460,7 @@ h
 #
 include
 "
-nsIPluginInstance
+nsNPAPIPluginInstance
 .
 h
 "
@@ -1974,7 +1974,7 @@ objectFrame
 {
 nsCOMPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 pi
 ;
@@ -1983,7 +1983,6 @@ objectFrame
 >
 GetPluginInstance
 (
-*
 getter_AddRefs
 (
 pi

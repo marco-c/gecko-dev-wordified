@@ -585,14 +585,7 @@ h
 #
 include
 "
-nsIPluginHost
-.
-h
-"
-#
-include
-"
-nsIPluginInstance
+nsPluginHost
 .
 h
 "
@@ -4982,7 +4975,7 @@ nsObjectLoadingContent
 :
 EnsureInstantiation
 (
-nsIPluginInstance
+nsNPAPIPluginInstance
 *
 *
 aInstance
@@ -5377,7 +5370,6 @@ frame
 >
 GetPluginInstance
 (
-*
 aInstance
 )
 ;
@@ -5426,7 +5418,6 @@ frame
 >
 GetPluginInstance
 (
-*
 aInstance
 )
 ;
@@ -5579,9 +5570,9 @@ mPendingInstantiateEvent
 =
 nsnull
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 instance
 ;
@@ -5590,7 +5581,6 @@ aFrame
 >
 GetPluginInstance
 (
-*
 getter_AddRefs
 (
 instance
@@ -5849,7 +5839,7 @@ nsObjectLoadingContent
 :
 GetPluginInstance
 (
-nsIPluginInstance
+nsNPAPIPluginInstance
 *
 *
 aInstance
@@ -5885,7 +5875,6 @@ objFrame
 >
 GetPluginInstance
 (
-*
 aInstance
 )
 ;
@@ -10763,9 +10752,9 @@ have
 no
 frame
 }
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 instance
 ;
@@ -10774,7 +10763,6 @@ frame
 >
 GetPluginInstance
 (
-*
 getter_AddRefs
 (
 instance
@@ -11273,9 +11261,9 @@ mInstantiating
 =
 oldInstantiatingValue
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 pluginInstance
 ;
@@ -11293,7 +11281,6 @@ aFrame
 >
 GetPluginInstance
 (
-*
 getter_AddRefs
 (
 pluginInstance
@@ -11324,7 +11311,18 @@ MOZ_PLUGIN_HOST_CONTRACTID
 )
 )
 ;
+static_cast
+<
+nsPluginHost
+*
+>
+(
 host
+.
+get
+(
+)
+)
 -
 >
 GetPluginTagForInstance

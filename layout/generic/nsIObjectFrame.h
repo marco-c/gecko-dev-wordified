@@ -453,7 +453,7 @@ nsIFrame
 h
 "
 class
-nsIPluginInstance
+nsNPAPIPluginInstance
 ;
 class
 nsIObjectFrame
@@ -470,9 +470,9 @@ nsIObjectFrame
 NS_IMETHOD
 GetPluginInstance
 (
-nsIPluginInstance
+nsNPAPIPluginInstance
 *
-&
+*
 aPluginInstance
 )
 =

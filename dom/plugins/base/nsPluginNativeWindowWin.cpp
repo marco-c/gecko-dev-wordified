@@ -959,9 +959,9 @@ virtual
 nsresult
 CallSetWindow
 (
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 &
 aPluginInstance
@@ -1075,7 +1075,7 @@ ProcessFlashMessageDelayed
 nsPluginNativeWindowWin
 *
 aWin
-nsIPluginInstance
+nsNPAPIPluginInstance
 *
 aInst
 HWND
@@ -1232,7 +1232,7 @@ public
 :
 nsDelayedPopupsEnabledEvent
 (
-nsIPluginInstance
+nsNPAPIPluginInstance
 *
 inst
 )
@@ -1246,9 +1246,9 @@ inst
 NS_DECL_NSIRUNNABLE
 private
 :
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 mInst
 ;
@@ -1360,9 +1360,9 @@ that
 bug
 374229
 .
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 inst
 ;
@@ -3235,9 +3235,9 @@ hWnd
 return
 NS_OK
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 inst
 ;
@@ -3525,9 +3525,9 @@ nsPluginNativeWindowWin
 :
 CallSetWindow
 (
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 &
 aPluginInstance
