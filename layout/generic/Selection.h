@@ -316,14 +316,12 @@ nsPresContext
 aPresContext
 )
 ;
-nsresult
-GetPresShell
-(
 nsIPresShell
 *
-*
-aPresShell
+GetPresShell
+(
 )
+const
 ;
 /
 /
@@ -1363,9 +1361,6 @@ nsRefPtr
 nsFrameSelection
 >
 mFrameSelection
-;
-nsWeakPtr
-mPresShellWeak
 ;
 nsRefPtr
 <
