@@ -893,6 +893,7 @@ bool
 IsRectilinear
 (
 )
+const
 {
 if
 (
