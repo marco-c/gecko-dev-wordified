@@ -477,9 +477,6 @@ NS_IMPL_QUERY_INTERFACE1
 StartTransactionRunnable
 nsIRunnable
 )
-StartTransactionRunnable
-gStartTransactionRunnable
-;
 }
 /
 /
@@ -725,6 +722,10 @@ pool
 nullptr
 )
 ;
+static
+StartTransactionRunnable
+sStartTransactionRunnable
+;
 pool
 -
 >
@@ -732,7 +733,7 @@ Dispatch
 (
 transaction
 &
-gStartTransactionRunnable
+sStartTransactionRunnable
 false
 nullptr
 )

@@ -88,6 +88,15 @@ CreateEvent
 #
 include
 "
+mozilla
+/
+StaticPtr
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -608,7 +617,10 @@ GetGeolocationService
 )
 ;
 static
-nsRefPtr
+mozilla
+:
+:
+StaticRefPtr
 <
 nsGeolocationService
 >
