@@ -13934,7 +13934,7 @@ void
 SpdySession2
 :
 :
-SetSSLConnectFailed
+SetProxyConnectFailed
 (
 )
 {
@@ -13945,7 +13945,7 @@ false
 SpdySession2
 :
 :
-SetSSLConnectFailed
+SetProxyConnectFailed
 (
 )
 "

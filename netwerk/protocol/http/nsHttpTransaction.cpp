@@ -1067,7 +1067,7 @@ mHasRequestBody
 (
 false
 )
-mSSLConnectFailed
+mProxyConnectFailed
 (
 false
 )
@@ -2576,11 +2576,11 @@ void
 nsHttpTransaction
 :
 :
-SetSSLConnectFailed
+SetProxyConnectFailed
 (
 )
 {
-mSSLConnectFailed
+mProxyConnectFailed
 =
 true
 ;
