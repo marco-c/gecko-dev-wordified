@@ -1704,7 +1704,7 @@ GetFrameMetrics
 (
 )
 .
-mResolution
+mZoom
 .
 width
 )
@@ -1813,7 +1813,7 @@ currentScale
 =
 metrics
 .
-mResolution
+mZoom
 .
 width
 ;

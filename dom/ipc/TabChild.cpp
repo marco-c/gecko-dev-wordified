@@ -4596,7 +4596,7 @@ f
 "
 aFrameMetrics
 .
-mResolution
+mZoom
 .
 width
 )
