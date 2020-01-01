@@ -4390,6 +4390,7 @@ ArgumentsObject
 argsobj
 )
 ;
+inline
 JSObject
 *
 createRestParameter
