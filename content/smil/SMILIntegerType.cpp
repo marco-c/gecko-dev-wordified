@@ -463,7 +463,7 @@ SMILIntegerType
 :
 sSingleton
 ;
-nsresult
+void
 SMILIntegerType
 :
 :
@@ -502,9 +502,6 @@ aValue
 mType
 =
 this
-;
-return
-NS_OK
 ;
 }
 void

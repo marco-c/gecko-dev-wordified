@@ -470,7 +470,7 @@ SVGViewBoxSMILType
 :
 sSingleton
 ;
-nsresult
+void
 SVGViewBoxSMILType
 :
 :
@@ -505,12 +505,6 @@ nsSVGViewBoxRect
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-viewBox
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 aValue
 .
 mU
@@ -524,9 +518,6 @@ aValue
 mType
 =
 this
-;
-return
-NS_OK
 ;
 }
 void

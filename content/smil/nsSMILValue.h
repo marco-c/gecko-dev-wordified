@@ -708,7 +708,7 @@ mType
 ;
 protected
 :
-nsresult
+void
 InitAndCheckPostcondition
 (
 const
@@ -722,7 +722,7 @@ DestroyAndCheckPostcondition
 (
 )
 ;
-nsresult
+void
 DestroyAndReinit
 (
 const

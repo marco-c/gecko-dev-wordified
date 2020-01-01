@@ -446,7 +446,7 @@ nsISMILType
 public
 :
 virtual
-nsresult
+void
 Init
 (
 nsSMILValue

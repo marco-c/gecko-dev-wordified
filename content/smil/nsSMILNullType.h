@@ -507,7 +507,7 @@ Methods
 -
 -
 virtual
-nsresult
+void
 Init
 (
 nsSMILValue
@@ -516,9 +516,6 @@ aValue
 )
 const
 {
-return
-NS_OK
-;
 }
 virtual
 void

@@ -463,7 +463,7 @@ SMILEnumType
 :
 sSingleton
 ;
-nsresult
+void
 SMILEnumType
 :
 :
@@ -477,14 +477,6 @@ const
 {
 NS_PRECONDITION
 (
-aValue
-.
-mType
-=
-=
-this
-|
-|
 aValue
 .
 IsNull
@@ -510,9 +502,6 @@ aValue
 mType
 =
 this
-;
-return
-NS_OK
 ;
 }
 void

@@ -507,7 +507,7 @@ Methods
 -
 -
 virtual
-nsresult
+void
 Init
 (
 nsSMILValue
