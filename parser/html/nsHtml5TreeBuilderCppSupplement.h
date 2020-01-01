@@ -4625,6 +4625,8 @@ const
 nsACString
 &
 aCharset
+PRInt32
+aCharsetSource
 )
 {
 nsHtml5TreeOperation
@@ -4656,6 +4658,7 @@ Init
 (
 eTreeOpNeedsCharsetSwitchTo
 aCharset
+aCharsetSource
 )
 ;
 }

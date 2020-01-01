@@ -597,6 +597,8 @@ const
 nsACString
 &
 aEncoding
+PRInt32
+aSource
 )
 ;
 void

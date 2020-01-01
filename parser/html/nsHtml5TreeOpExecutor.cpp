@@ -4441,6 +4441,8 @@ const
 char
 *
 aEncoding
+PRInt32
+aSource
 )
 {
 EndDocUpdate
@@ -4511,7 +4513,7 @@ wss
 ReloadDocument
 (
 aEncoding
-kCharsetFromMetaTag
+aSource
 )
 ;
 }
