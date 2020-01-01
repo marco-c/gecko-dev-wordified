@@ -883,6 +883,13 @@ aNewEnd
 )
 MOZ_OVERRIDE
 ;
+virtual
+nsIMEUpdatePreference
+GetIMEUpdatePreference
+(
+)
+MOZ_OVERRIDE
+;
 /
 /
 FrameworkView
