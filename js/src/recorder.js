@@ -611,7 +611,7 @@ to
 v
 *
 /
-constant
+generate_constant
 :
 function
 (
@@ -627,7 +627,7 @@ emit
 op
 :
 "
-constant
+generate_constant
 "
 value
 :
