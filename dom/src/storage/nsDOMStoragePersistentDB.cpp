@@ -2723,7 +2723,7 @@ nsDOMStoragePersistentDB
 :
 EnsureLoadTemporaryTableForStorage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 )
@@ -2860,7 +2860,7 @@ nsDOMStoragePersistentDB
 :
 FlushAndDeleteTemporaryTableForStorage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 )
@@ -3088,7 +3088,7 @@ nsDOMStoragePersistentDB
 :
 GetAllKeys
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 nsTHashtable
@@ -3338,7 +3338,7 @@ nsDOMStoragePersistentDB
 :
 GetKeyValue
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -3554,7 +3554,7 @@ nsDOMStoragePersistentDB
 :
 SetKey
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -3924,7 +3924,7 @@ nsDOMStoragePersistentDB
 :
 SetSecure
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -4088,7 +4088,7 @@ nsDOMStoragePersistentDB
 :
 RemoveKey
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -4245,7 +4245,7 @@ nsDOMStoragePersistentDB
 :
 ClearStorage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 )
@@ -4960,7 +4960,7 @@ nsDOMStoragePersistentDB
 :
 GetUsage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 PRBool

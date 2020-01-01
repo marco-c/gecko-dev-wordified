@@ -589,7 +589,7 @@ nsnull
 nsresult
 GetItemsTable
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 nsInMemoryStorage
@@ -620,7 +620,7 @@ domain
 nsresult
 GetAllKeys
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 nsTHashtable
@@ -660,7 +660,7 @@ found
 nsresult
 GetKeyValue
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -696,7 +696,7 @@ storage
 nsresult
 SetKey
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -747,7 +747,7 @@ found
 nsresult
 SetSecure
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -774,7 +774,7 @@ storage
 nsresult
 RemoveKey
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -804,7 +804,7 @@ storage
 nsresult
 ClearStorage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 )
@@ -830,7 +830,7 @@ storages
 nsresult
 DropStorage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 )
@@ -945,7 +945,7 @@ key
 nsresult
 GetUsage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 PRBool

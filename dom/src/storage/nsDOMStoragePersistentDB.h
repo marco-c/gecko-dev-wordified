@@ -465,7 +465,7 @@ nsTHashtable
 h
 "
 class
-nsDOMStorage
+DOMStorageImpl
 ;
 class
 nsSessionStorageEntry
@@ -497,7 +497,7 @@ aDatabaseName
 nsresult
 EnsureLoadTemporaryTableForStorage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 )
@@ -505,7 +505,7 @@ aStorage
 nsresult
 FlushAndDeleteTemporaryTableForStorage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 )
@@ -532,7 +532,7 @@ domain
 nsresult
 GetAllKeys
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 nsTHashtable
@@ -572,7 +572,7 @@ found
 nsresult
 GetKeyValue
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -608,7 +608,7 @@ storage
 nsresult
 SetKey
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -659,7 +659,7 @@ found
 nsresult
 SetSecure
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -686,7 +686,7 @@ storage
 nsresult
 RemoveKey
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -716,7 +716,7 @@ storage
 nsresult
 ClearStorage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 )
@@ -831,7 +831,7 @@ key
 nsresult
 GetUsage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 PRBool
