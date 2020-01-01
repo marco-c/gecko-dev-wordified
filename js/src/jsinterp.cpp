@@ -31152,7 +31152,7 @@ newfun
 )
 )
 goto
-not_direct_eval
+call_using_invoke
 ;
 if
 (
@@ -31227,8 +31227,6 @@ getFunctionPrivate
 (
 )
 ;
-not_direct_eval
-:
 /
 *
 Clear
