@@ -2285,7 +2285,7 @@ failed
 ShowWindow
 (
 hWnd
-SW_SHOW
+SW_SHOWNOACTIVATE
 )
 ;
 TITLEBARINFOEX
