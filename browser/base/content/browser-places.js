@@ -6875,6 +6875,12 @@ this
 _starIcon
 |
 |
+(
+this
+.
+_uri
+&
+&
 gBrowser
 .
 currentURI
@@ -6884,6 +6890,7 @@ equals
 this
 .
 _uri
+)
 )
 )
 {
