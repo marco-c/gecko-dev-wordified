@@ -54,6 +54,7 @@ MockFilePicker
 .
 init
 (
+window
 )
 ;
 var
