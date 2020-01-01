@@ -2075,7 +2075,7 @@ flags
 OS_READAHEAD
 )
 {
-readahead
+posix_fadvise
 (
 PR_FileDesc2NativeHandle
 (
@@ -2084,6 +2084,7 @@ _retval
 )
 0
 0
+POSIX_FADV_SEQUENTIAL
 )
 ;
 }
