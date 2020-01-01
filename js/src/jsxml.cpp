@@ -1685,6 +1685,8 @@ js_NamespaceClass
 .
 base
 vp
++
+2
 )
 )
 return
