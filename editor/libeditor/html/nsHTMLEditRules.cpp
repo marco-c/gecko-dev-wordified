@@ -2563,6 +2563,8 @@ if
 (
 !
 mActionNesting
++
++
 )
 {
 /
@@ -2948,10 +2950,6 @@ mTheAction
 action
 ;
 }
-mActionNesting
-+
-+
-;
 return
 NS_OK
 ;
