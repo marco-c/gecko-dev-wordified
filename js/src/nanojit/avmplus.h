@@ -941,6 +941,9 @@ calldepth
 uint32
 numGlobalSlots
 ;
+uint32
+numStackSlots
+;
 uint8
 *
 typeMap
