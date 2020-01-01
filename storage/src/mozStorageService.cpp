@@ -2036,9 +2036,8 @@ rv
 ;
 backupDB
 .
-swap
+forget
 (
-*
 backup
 )
 ;
