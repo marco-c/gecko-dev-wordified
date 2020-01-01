@@ -1114,7 +1114,7 @@ define
 the
 constant
 .
-NSAccessibilityComboBoxRole
+NSAccessibilityUnknownRole
 /
 /
 ROLE_AUTOCOMPLETE
