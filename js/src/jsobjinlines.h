@@ -529,6 +529,13 @@ h
 #
 include
 "
+jsstdint
+.
+h
+"
+#
+include
+"
 jsxml
 .
 h
