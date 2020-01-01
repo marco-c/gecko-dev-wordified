@@ -338,6 +338,10 @@ aMessage
 {
 printf
 (
+"
+%
+s
+"
 aMessage
 .
 c_str
