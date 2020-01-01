@@ -7896,7 +7896,10 @@ cases
 .
 if
 (
-NS_SVGTextCSSFramesEnabled
+aFrame
+-
+>
+IsSVGText
 (
 )
 )
