@@ -2813,11 +2813,15 @@ NOTREACHED
 }
 #
 endif
+#
+if
+defined
+DEBUG
 static
 const
 char
 *
-js_ExitName
+getExitName
 (
 ExitType
 type
@@ -2869,6 +2873,8 @@ type
 ]
 ;
 }
+#
+endif
 /
 *
 The
@@ -20634,7 +20640,7 @@ void
 *
 )
 exit
-js_ExitName
+getExitName
 (
 exit
 -
@@ -34565,7 +34571,7 @@ s
 \
 n
 "
-js_ExitName
+getExitName
 (
 lr
 -
@@ -38745,7 +38751,7 @@ void
 *
 )
 lr
-js_ExitName
+getExitName
 (
 lr
 -
