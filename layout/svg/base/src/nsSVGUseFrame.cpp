@@ -1163,7 +1163,7 @@ mHasValidDimensions
 nsSVGUtils
 :
 :
-UpdateGraphic
+InvalidateAndScheduleBoundsUpdate
 (
 this
 )

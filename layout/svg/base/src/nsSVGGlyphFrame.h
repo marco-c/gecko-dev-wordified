@@ -1133,11 +1133,6 @@ nsPoint
 aPoint
 )
 ;
-NS_IMETHOD
-UpdateCoveredRegion
-(
-)
-;
 virtual
 gfxRect
 GetBBoxContribution
@@ -1158,8 +1153,9 @@ GetCoveredRegion
 (
 )
 ;
-NS_IMETHOD
-InitialUpdate
+virtual
+void
+UpdateBounds
 (
 )
 ;

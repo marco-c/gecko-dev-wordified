@@ -665,13 +665,9 @@ GetCoveredRegion
 (
 )
 ;
-NS_IMETHOD
-UpdateCoveredRegion
-(
-)
-;
-NS_IMETHOD
-InitialUpdate
+virtual
+void
+UpdateBounds
 (
 )
 ;
