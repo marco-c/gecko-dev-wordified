@@ -579,10 +579,6 @@ nsCString
 &
 aMimeContentType
 const
-nsCString
-&
-aContentDisposition
-const
 PRBool
 &
 aForceSave
@@ -619,9 +615,6 @@ mStatus
 ;
 PRInt64
 mContentLength
-;
-nsCString
-mContentDisposition
 ;
 nsCString
 mEntityID

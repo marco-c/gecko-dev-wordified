@@ -4404,10 +4404,6 @@ nsCString
 &
 aMimeContentType
 const
-nsCString
-&
-aContentDisposition
-const
 bool
 &
 aForceSave
@@ -4442,7 +4438,6 @@ Init
 (
 this
 aMimeContentType
-aContentDisposition
 aForceSave
 )
 ;
