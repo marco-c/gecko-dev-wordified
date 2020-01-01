@@ -3556,6 +3556,7 @@ inline
 bool
 isValidDisplacement
 (
+LOpcode
 int32_t
 )
 {

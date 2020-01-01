@@ -16402,6 +16402,7 @@ r
 =
 getBaseReg
 (
+condop
 lhs
 c
 GpRegs
@@ -18564,6 +18565,7 @@ ra
 =
 getBaseReg
 (
+op
 base
 d
 GpRegs

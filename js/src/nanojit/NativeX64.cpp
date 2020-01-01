@@ -8243,6 +8243,12 @@ rb
 =
 getBaseReg
 (
+ins
+-
+>
+opcode
+(
+)
 base
 dr
 BaseRegs
@@ -8517,6 +8523,7 @@ b
 =
 getBaseReg
 (
+LIR_stqi
 base
 d
 BaseRegs
@@ -8708,6 +8715,7 @@ b
 =
 getBaseReg
 (
+LIR_sti
 base
 d
 BaseRegs
