@@ -582,14 +582,16 @@ h
 #
 include
 "
-CheckedInt
+nsDataHashtable
 .
 h
 "
 #
 include
 "
-nsDataHashtable
+mozilla
+/
+CheckedInt
 .
 h
 "
@@ -3080,7 +3082,7 @@ if
 !
 mCurrentMonotonicHandle
 .
-valid
+isValid
 (
 )
 )
@@ -10575,7 +10577,7 @@ face
 return
 checked_index
 .
-valid
+isValid
 (
 )
 &
@@ -14049,7 +14051,7 @@ mGeneration
 1
 )
 .
-valid
+isValid
 (
 )
 )

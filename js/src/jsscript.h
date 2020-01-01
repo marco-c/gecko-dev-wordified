@@ -4666,7 +4666,12 @@ getGlobalObjectOrNull
 const
 {
 return
+(
 isCachedEval
+|
+|
+isActiveEval
+)
 ?
 NULL
 :

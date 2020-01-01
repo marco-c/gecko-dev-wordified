@@ -740,6 +740,12 @@ nsHTMLSourceElement
 Type
 type
 )
+NS_IMPL_STRING_ATTR
+(
+nsHTMLSourceElement
+Media
+media
+)
 nsresult
 nsHTMLSourceElement
 :

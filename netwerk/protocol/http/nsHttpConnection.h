@@ -1369,6 +1369,15 @@ return
 mUsingSpdy
 ;
 }
+bool
+EverUsedSpdy
+(
+)
+{
+return
+mEverUsedSpdy
+;
+}
 /
 /
 true

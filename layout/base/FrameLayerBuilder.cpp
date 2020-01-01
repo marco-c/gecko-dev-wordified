@@ -8167,13 +8167,6 @@ ConfigureLayer
 imageLayer
 )
 ;
-if
-(
-mParameters
-.
-mInActiveTransformedSubtree
-)
-{
 /
 /
 The
@@ -8225,7 +8218,6 @@ SetTransform
 transform
 )
 ;
-}
 if
 (
 data
