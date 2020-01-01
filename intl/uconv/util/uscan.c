@@ -6163,8 +6163,8 @@ in
 <
 0xa1
 )
-&
-&
+|
+|
 (
 in
 [
@@ -6317,8 +6317,8 @@ in
 <
 0xbf
 )
-&
-&
+|
+|
 (
 in
 [
@@ -6385,8 +6385,8 @@ in
 <
 0xa1
 )
-&
-&
+|
+|
 (
 in
 [
@@ -6400,7 +6400,7 @@ in
 /
 *
 illegal
-trailling
+trailing
 consonant
 *
 /
