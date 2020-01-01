@@ -1147,7 +1147,6 @@ Reader
 :
 FaviconReturn
 "
-false
 )
 ;
 break
