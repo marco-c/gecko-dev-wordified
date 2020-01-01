@@ -15150,7 +15150,7 @@ n
 fp
 -
 >
-argc
+nvars
 ;
 +
 +
@@ -15162,7 +15162,7 @@ set
 fp
 -
 >
-argv
+vars
 [
 n
 ]
