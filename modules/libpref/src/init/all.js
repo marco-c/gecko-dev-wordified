@@ -1203,6 +1203,16 @@ enable_automatic_image_resizing
 false
 )
 ;
+pref
+(
+"
+browser
+.
+enable_click_image_resizing
+"
+true
+)
+;
 /
 /
 See
