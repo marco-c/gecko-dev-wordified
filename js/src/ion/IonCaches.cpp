@@ -10883,6 +10883,11 @@ fun
 script
 (
 )
+.
+get
+(
+nogc
+)
 ;
 if
 (

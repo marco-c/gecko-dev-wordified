@@ -5967,6 +5967,11 @@ f
 script
 (
 )
+.
+get
+(
+nogc
+)
 )
 ;
 f
@@ -9265,6 +9270,11 @@ fp
 script
 (
 )
+.
+get
+(
+nogc
+)
 ;
 /
 *
@@ -11563,6 +11573,11 @@ fun
 script
 (
 )
+.
+get
+(
+nogc
+)
 ;
 /
 *
@@ -11962,6 +11977,11 @@ fp
 >
 script
 (
+)
+.
+get
+(
+nogc
 )
 ;
 JS_ASSERT

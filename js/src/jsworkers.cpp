@@ -606,6 +606,10 @@ builder
 script
 (
 )
+.
+unsafeGet
+(
+)
 )
 )
 {
@@ -703,6 +707,10 @@ ionBuilder
 script
 (
 )
+.
+unsafeGet
+(
+)
 )
 )
 {
@@ -795,6 +803,10 @@ builder
 -
 >
 script
+(
+)
+.
+unsafeGet
 (
 )
 )

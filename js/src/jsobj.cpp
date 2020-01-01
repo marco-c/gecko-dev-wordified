@@ -34052,6 +34052,9 @@ Value
 v
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 v
@@ -34250,6 +34253,11 @@ fun
 >
 script
 (
+)
+.
+get
+(
+nogc
 )
 ;
 fprintf
@@ -36414,6 +36422,11 @@ i
 script
 (
 )
+.
+get
+(
+nogc
+)
 )
 ;
 unsigned
@@ -36426,6 +36439,11 @@ i
 .
 script
 (
+)
+.
+get
+(
+nogc
 )
 i
 .
@@ -36441,6 +36459,11 @@ i
 .
 script
 (
+)
+.
+get
+(
+nogc
 )
 ;
 sprinter

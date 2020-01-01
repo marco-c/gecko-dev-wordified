@@ -4833,6 +4833,11 @@ f
 script
 (
 )
+.
+get
+(
+nogc
+)
 f
 .
 script
@@ -4878,6 +4883,11 @@ f
 .
 script
 (
+)
+.
+get
+(
+nogc
 )
 f
 .
