@@ -608,7 +608,11 @@ h
 #
 include
 "
-nsICSSNameSpaceRule
+mozilla
+/
+css
+/
+NameSpaceRule
 .
 h
 "
@@ -12565,9 +12569,12 @@ void
 aData
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsICSSNameSpaceRule
+css
+:
+:
+NameSpaceRule
 >
 rule
 ;
