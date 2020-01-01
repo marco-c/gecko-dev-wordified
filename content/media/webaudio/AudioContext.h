@@ -336,7 +336,7 @@ class
 WaveShaperNode
 ;
 class
-WaveTable
+PeriodicWave
 ;
 class
 AudioContext
@@ -755,9 +755,9 @@ CreateBiquadFilter
 ;
 already_AddRefed
 <
-WaveTable
+PeriodicWave
 >
-CreateWaveTable
+CreatePeriodicWave
 (
 const
 Float32Array
