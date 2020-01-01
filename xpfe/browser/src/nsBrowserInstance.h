@@ -501,7 +501,7 @@ class
 nsIDOMWindowInternal
 ;
 class
-nsIPref
+nsIPrefBranch
 ;
 /
 /
@@ -785,7 +785,7 @@ protected
 PRBool
 NeedHomepageOverride
 (
-nsIPref
+nsIPrefBranch
 *
 aPrefService
 )
