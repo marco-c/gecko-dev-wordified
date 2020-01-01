@@ -1592,18 +1592,14 @@ if
 !
 groups
 )
-{
 groups
 =
 cacheService
 .
 getGroups
 (
-{
-}
 )
 ;
-}
 var
 ios
 =
@@ -1862,8 +1858,6 @@ cacheService
 .
 getGroups
 (
-{
-}
 )
 ;
 var
@@ -2348,8 +2342,6 @@ cacheService
 .
 getGroups
 (
-{
-}
 )
 ;
 for
