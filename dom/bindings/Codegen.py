@@ -43967,10 +43967,11 @@ unwrapFailureCode
             
 '
 return
-ThrowInvalidMethodThis
+ThrowInvalidThis
 (
 cx
 args
+MSG_METHOD_THIS_DOES_NOT_IMPLEMENT_INTERFACE
 \
 "
 %
@@ -45304,9 +45305,11 @@ unwrapFailureCode
                 
 '
 return
-ThrowInvalidGetterThis
+ThrowInvalidThis
 (
 cx
+args
+MSG_GETTER_THIS_DOES_NOT_IMPLEMENT_INTERFACE
 "
 %
 s
@@ -45988,9 +45991,11 @@ unwrapFailureCode
                 
 '
 return
-ThrowInvalidSetterThis
+ThrowInvalidThis
 (
 cx
+args
+MSG_SETTER_THIS_DOES_NOT_IMPLEMENT_INTERFACE
 "
 %
 s
