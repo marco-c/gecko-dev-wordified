@@ -1455,12 +1455,12 @@ cert
 var
 viewText
 =
-bundle
+pageInfoBundle
 .
-GetStringFromName
+getString
 (
 "
-pageInfo_ViewCertificate
+securityCertText
 "
 )
 ;
@@ -1627,6 +1627,10 @@ securityNVisits
 "
 [
 visitCount
+.
+toLocaleString
+(
+)
 ]
 )
 )
