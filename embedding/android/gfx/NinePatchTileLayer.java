@@ -807,7 +807,7 @@ recreateVertexBuffers
 )
 ;
 }
-private
+public
 void
 recreateVertexBuffers
 (

@@ -1555,6 +1555,12 @@ getZoomFactor
 )
 )
 ;
+mView
+.
+notifyRendererOfPageSizeChange
+(
+)
+;
 }
 public
 boolean
