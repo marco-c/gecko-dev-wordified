@@ -1208,6 +1208,8 @@ namespaceURI
 :
 this
 .
+rawNode
+.
 namespaceURI
 nodeName
 :
