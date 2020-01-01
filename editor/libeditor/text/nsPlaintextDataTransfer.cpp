@@ -675,12 +675,6 @@ bool
 aDoDeleteSelection
 )
 {
-HandlingTrustedAction
-trusted
-(
-this
-)
-;
 nsresult
 rv
 =
