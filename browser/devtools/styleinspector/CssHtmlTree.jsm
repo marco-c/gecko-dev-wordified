@@ -256,8 +256,8 @@ mozilla
 com
 )
 (
-original
-author
+Original
+Author
 )
 *
 Mihai
@@ -275,6 +275,15 @@ Michael
 Ratcliffe
 <
 mratcliffe
+mozilla
+.
+com
+>
+*
+Rob
+Campbell
+<
+rcampbell
 mozilla
 .
 com
