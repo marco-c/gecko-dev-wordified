@@ -1596,7 +1596,7 @@ defunct
 .
 *
 /
-PRBool
+bool
 EnsureChildren
 (
 )
@@ -2124,6 +2124,8 @@ IsBoundToParent
 const
 {
 return
+!
+!
 mParent
 ;
 }

@@ -18643,7 +18643,7 @@ endif
 /
 nsAccessible
 public
-PRBool
+bool
 nsAccessible
 :
 :
@@ -18663,7 +18663,7 @@ mChildrenFlags
 eChildrenUninitialized
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -18674,7 +18674,7 @@ mChildrenFlags
 eChildrenUninitialized
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -18743,7 +18743,7 @@ this
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsAccessible
