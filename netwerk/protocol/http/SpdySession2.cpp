@@ -1599,6 +1599,16 @@ mNextPingID
 =
 2
 ;
+ResumeRecv
+(
+)
+;
+/
+/
+read
+the
+ping
+reply
 if
 (
 mNextPingID
