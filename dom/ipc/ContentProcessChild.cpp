@@ -135,6 +135,9 @@ iframe
 delete
 iframe
 ;
+return
+NS_OK
+;
 }
 }
 /
