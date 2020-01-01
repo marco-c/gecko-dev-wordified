@@ -9122,11 +9122,6 @@ frame
 regsInUse
 (
 )
-&
-Registers
-:
-:
-TempRegs
 ;
 /
 /
