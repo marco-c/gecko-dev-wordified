@@ -12288,8 +12288,13 @@ GetTop
 JS
 :
 :
-CompartmentOptions
-options
+ZoneSpecifier
+zoneSpec
+=
+JS
+:
+:
+FreshZone
 ;
 if
 (
@@ -12306,8 +12311,6 @@ GetGlobalJSObject
 )
 )
 {
-options
-.
 zoneSpec
 =
 JS
@@ -12416,7 +12419,7 @@ aNewInner
 )
 aPrincipal
 flags
-options
+zoneSpec
 getter_AddRefs
 (
 jsholder
