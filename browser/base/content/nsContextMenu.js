@@ -1840,7 +1840,7 @@ disableSetDesktopBackground
 }
 /
 /
-Show
+Reload
 image
 depends
 on
@@ -1859,7 +1859,7 @@ showItem
 "
 context
 -
-showimage
+reloadimage
 "
 (
 this
@@ -6046,7 +6046,7 @@ ownerDocument
 )
 ;
 }
-showImage
+reloadImage
 :
 function
 (

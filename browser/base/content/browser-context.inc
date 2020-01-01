@@ -1093,13 +1093,13 @@ id
 "
 context
 -
-showimage
+reloadimage
 "
 label
 =
 "
 &
-showImageCmd
+reloadImageCmd
 .
 label
 ;
@@ -1108,7 +1108,7 @@ accesskey
 =
 "
 &
-showImageCmd
+reloadImageCmd
 .
 accesskey
 ;
@@ -1118,7 +1118,7 @@ oncommand
 "
 gContextMenu
 .
-showImage
+reloadImage
 (
 )
 ;
