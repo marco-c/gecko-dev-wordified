@@ -461,6 +461,9 @@ nsStyleSet
 class
 nsWindowSizes
 ;
+class
+nsSmallVoidArray
+;
 namespace
 mozilla
 {
