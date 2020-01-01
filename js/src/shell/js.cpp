@@ -3990,6 +3990,11 @@ cx
 ;
 opts
 .
+setUTF8
+(
+true
+)
+.
 setCompileAndGo
 (
 true
