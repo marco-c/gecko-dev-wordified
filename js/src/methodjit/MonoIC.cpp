@@ -8777,15 +8777,6 @@ THROWV
 false
 )
 ;
-JS_ASSERT
-(
-!
-JS_ON_TRACE
-(
-cx
-)
-)
-;
 /
 *
 Step

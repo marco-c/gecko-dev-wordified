@@ -2986,7 +2986,7 @@ toNumber
 )
 ;
 }
-unsigned
+JSGCTraceKind
 gcKind
 (
 )
