@@ -5763,9 +5763,12 @@ nsStyleContext
 *
 aParentContext
 const
-nsCOMArray
+nsTArray
+<
+nsCOMPtr
 <
 nsIStyleRule
+>
 >
 &
 aRules
@@ -5814,7 +5817,7 @@ false
 ;
 for
 (
-int32_t
+uint32_t
 i
 =
 0
@@ -5823,7 +5826,7 @@ i
 <
 aRules
 .
-Count
+Length
 (
 )
 ;
@@ -5838,7 +5841,7 @@ ForwardOnPossiblyCSSRule
 (
 aRules
 .
-ObjectAt
+ElementAt
 (
 i
 )
