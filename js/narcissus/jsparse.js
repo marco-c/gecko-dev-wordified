@@ -1321,8 +1321,11 @@ match
 =
 /
 ^
+[
+_
 \
 w
+]
 +
 /
 (
@@ -1331,6 +1334,12 @@ input
 )
 )
 {
+/
+/
+FIXME
+no
+ES3
+unicode
 var
 id
 =
