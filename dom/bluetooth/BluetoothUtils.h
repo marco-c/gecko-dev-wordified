@@ -150,8 +150,14 @@ const
 BluetoothValue
 &
 aValue
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aObj
 )
 ;

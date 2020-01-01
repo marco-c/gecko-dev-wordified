@@ -1638,11 +1638,8 @@ global
 "
 HTTPIndex
 "
+&
 jslistener
-.
-address
-(
-)
 )
 ;
 NS_ASSERTION

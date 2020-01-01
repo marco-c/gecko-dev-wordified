@@ -4146,11 +4146,8 @@ NPIdentifierToJSId
 (
 id
 )
+&
 v
-.
-address
-(
-)
 )
 ;
 /

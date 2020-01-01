@@ -8397,11 +8397,8 @@ jselement
 "
 database
 "
+&
 jsdatabase
-.
-address
-(
-)
 )
 ;
 NS_ASSERTION
@@ -8501,11 +8498,8 @@ jselement
 "
 builder
 "
+&
 jsbuilder
-.
-address
-(
-)
 )
 ;
 if
