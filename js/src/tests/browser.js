@@ -3145,7 +3145,7 @@ setBoolPref
 '
 chrome
 '
-false
+true
 )
 ;
 }
