@@ -668,6 +668,12 @@ nsStyleSet
 (
 )
 ;
+size_t
+SizeOf
+(
+)
+const
+;
 /
 /
 Initialize
