@@ -29345,6 +29345,12 @@ high
 =
 i
 ;
+ParseNode
+*
+initialStmt
+=
+stmt
+;
 for
 (
 stmt
@@ -29450,7 +29456,7 @@ f
 .
 fail
 (
-stmt
+initialStmt
 "
 all
 switch
