@@ -25986,7 +25986,7 @@ timeout
 Timeout
 1
 0
-JS_TypeHandlerVoid
+JS_TypeHandlerDynamic
 )
 JS_FN_TYPE
 (
