@@ -1401,13 +1401,10 @@ return
 mIsMenuLocked
 ;
 }
-NS_IMETHOD
-GetWidget
-(
 nsIWidget
 *
-*
-aWidget
+GetWidget
+(
 )
 ;
 /
