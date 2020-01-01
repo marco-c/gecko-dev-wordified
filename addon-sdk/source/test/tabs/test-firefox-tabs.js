@@ -6876,6 +6876,8 @@ windows
 require
 (
 '
+sdk
+/
 windows
 '
 )

@@ -2450,6 +2450,17 @@ id
 base
 )
 {
+if
+(
+!
+isRelative
+(
+id
+)
+)
+return
+id
+;
 let
 paths
 =

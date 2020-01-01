@@ -86,6 +86,8 @@ data
 require
 (
 "
+sdk
+/
 self
 "
 )
