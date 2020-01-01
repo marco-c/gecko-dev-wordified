@@ -6408,7 +6408,7 @@ n
 "
 if
 (
-xpc_GetCachedSlimWrapper
+xpc_FastGetCachedWrapper
 (
 cache
 obj
@@ -11606,7 +11606,7 @@ n
 "
                     
 "
-xpc_GetCachedSlimWrapper
+xpc_FastGetCachedWrapper
 (
 cache
 obj
