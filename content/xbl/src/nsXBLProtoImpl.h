@@ -836,7 +836,7 @@ class
 .
 protected
 :
-void
+JSObject
 *
 mClassObject
 ;
