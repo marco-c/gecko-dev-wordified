@@ -751,7 +751,7 @@ dest
 void
 add32
 (
-Imm32
+TrustedImm32
 imm
 Address
 address
@@ -788,7 +788,7 @@ address
 void
 add32
 (
-Imm32
+TrustedImm32
 imm
 RegisterID
 dest
@@ -910,7 +910,7 @@ dest
 void
 add32
 (
-Imm32
+TrustedImm32
 imm
 RegisterID
 src
@@ -1257,7 +1257,7 @@ dest
 void
 or32
 (
-Imm32
+TrustedImm32
 imm
 RegisterID
 dest
@@ -1496,7 +1496,7 @@ dest
 void
 sub32
 (
-Imm32
+TrustedImm32
 imm
 RegisterID
 dest
@@ -1556,7 +1556,7 @@ dest
 void
 sub32
 (
-Imm32
+TrustedImm32
 imm
 Address
 address
@@ -1640,7 +1640,7 @@ dest
 void
 xor32
 (
-Imm32
+TrustedImm32
 imm
 RegisterID
 dest
@@ -3631,7 +3631,7 @@ g2
 void
 store32
 (
-Imm32
+TrustedImm32
 imm
 BaseIndex
 address
@@ -3697,7 +3697,7 @@ base
 void
 store32
 (
-Imm32
+TrustedImm32
 imm
 ImplicitAddress
 address
@@ -3769,7 +3769,7 @@ g3
 void
 store32
 (
-Imm32
+TrustedImm32
 imm
 void
 *
@@ -3918,7 +3918,7 @@ g2
 void
 move
 (
-Imm32
+TrustedImm32
 imm
 RegisterID
 dest
@@ -3986,7 +3986,7 @@ dest
 void
 move
 (
-ImmPtr
+TrustedImmPtr
 imm
 RegisterID
 dest
@@ -4139,7 +4139,7 @@ Condition
 cond
 RegisterID
 left
-Imm32
+TrustedImm32
 right
 )
 {
@@ -4193,7 +4193,7 @@ Condition
 cond
 RegisterID
 left
-Imm32
+TrustedImm32
 right
 )
 {
@@ -4229,7 +4229,7 @@ Condition
 cond
 RegisterID
 left
-Imm32
+TrustedImm32
 right
 DataLabel32
 &
@@ -4344,7 +4344,7 @@ Condition
 cond
 RegisterID
 left
-Imm32
+TrustedImm32
 right
 )
 {
@@ -4490,7 +4490,7 @@ Condition
 cond
 Address
 left
-Imm32
+TrustedImm32
 right
 )
 {
@@ -4522,7 +4522,7 @@ Condition
 cond
 BaseIndex
 left
-Imm32
+TrustedImm32
 right
 )
 {
@@ -4554,7 +4554,7 @@ Condition
 cond
 BaseIndex
 left
-Imm32
+TrustedImm32
 right
 )
 {
@@ -6997,7 +6997,7 @@ m_ptr
 void
 sub32
 (
-Imm32
+TrustedImm32
 imm
 AbsoluteAddress
 address
@@ -7116,7 +7116,7 @@ Condition
 cond
 AbsoluteAddress
 left
-Imm32
+TrustedImm32
 right
 )
 {
@@ -7283,7 +7283,7 @@ oldJump
 DataLabelPtr
 moveWithPatch
 (
-ImmPtr
+TrustedImmPtr
 initialValue
 RegisterID
 dest
@@ -7320,7 +7320,7 @@ dataLabel
 DataLabel32
 moveWithPatch
 (
-Imm32
+TrustedImm32
 initialValue
 RegisterID
 dest
@@ -7455,7 +7455,7 @@ jump
 DataLabelPtr
 storePtrWithPatch
 (
-ImmPtr
+TrustedImmPtr
 initialValue
 ImplicitAddress
 address
