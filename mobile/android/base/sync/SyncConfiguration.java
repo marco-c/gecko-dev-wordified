@@ -1038,13 +1038,6 @@ to
 preferences
 .
 *
-*
-param
-prefsPath
-*
-param
-prefsSource
-*
 /
 public
 SyncConfiguration
@@ -1122,9 +1115,6 @@ part
 of
 prefs
 .
-*
-param
-prefix
 *
 return
 *

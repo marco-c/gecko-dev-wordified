@@ -959,11 +959,6 @@ processed
 .
 *
 *
-param
-cur
-*
-return
-*
 throws
 NoGuidForIdException
 *
@@ -1039,11 +1034,6 @@ s
 record
 .
 *
-*
-param
-cur
-*
-return
 *
 throws
 NoGuidForIdException
@@ -3728,11 +3718,6 @@ the
 database
 .
 *
-*
-param
-guid
-*
-return
 *
 throws
 NoGuidForIdException

@@ -1536,12 +1536,6 @@ fetch
 results
 .
 *
-*
-param
-recordGUID
-*
-return
-*
 /
 public
 static

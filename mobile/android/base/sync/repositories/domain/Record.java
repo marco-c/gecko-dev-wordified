@@ -1041,12 +1041,6 @@ this
 object
 .
 *
-*
-param
-o
-*
-return
-*
 /
 public
 boolean

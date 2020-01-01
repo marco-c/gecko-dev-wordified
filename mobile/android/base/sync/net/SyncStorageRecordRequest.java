@@ -658,11 +658,6 @@ a
 payload
 .
 *
-param
-body
-*
-return
-*
 throws
 UnsupportedEncodingException
 *

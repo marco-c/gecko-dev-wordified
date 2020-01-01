@@ -1416,8 +1416,6 @@ test
 code
 .
 *
-return
-*
 /
 public
 static
