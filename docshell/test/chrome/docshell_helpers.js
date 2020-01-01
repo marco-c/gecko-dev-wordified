@@ -32,6 +32,9 @@ is
 isnot
 "
 "
+ise
+"
+"
 ok
 "
 "
