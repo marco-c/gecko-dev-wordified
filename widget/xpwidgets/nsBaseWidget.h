@@ -1962,6 +1962,9 @@ mTemporarilyUseBasicLayerManager
 bool
 mUseAttachedEvents
 ;
+bool
+mContextInitialized
+;
 nsIntRect
 mBounds
 ;

@@ -1447,6 +1447,17 @@ uint32_t
 aHotspotY
 )
 ;
+CGFloat
+BackingScaleFactor
+(
+)
+;
+virtual
+double
+GetDefaultScale
+(
+)
+;
 NS_IMETHOD
 SetTitle
 (
@@ -1949,6 +1960,9 @@ mShadowStyle
 ;
 NSUInteger
 mWindowFilter
+;
+CGFloat
+mBackingScaleFactor
 ;
 WindowAnimationType
 mAnimationType
