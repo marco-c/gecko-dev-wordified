@@ -1747,7 +1747,7 @@ if
 transaction
 -
 >
-TransactionIsOpen
+IsOpen
 (
 )
 )
@@ -1898,7 +1898,7 @@ if
 transaction
 -
 >
-TransactionIsOpen
+IsOpen
 (
 )
 )
@@ -2053,7 +2053,7 @@ if
 transaction
 -
 >
-TransactionIsOpen
+IsOpen
 (
 )
 )
@@ -2241,7 +2241,7 @@ if
 transaction
 -
 >
-TransactionIsOpen
+IsOpen
 (
 )
 )
@@ -2429,7 +2429,7 @@ if
 transaction
 -
 >
-TransactionIsOpen
+IsOpen
 (
 )
 )
@@ -2754,7 +2754,7 @@ if
 transaction
 -
 >
-TransactionIsOpen
+IsOpen
 (
 )
 )
