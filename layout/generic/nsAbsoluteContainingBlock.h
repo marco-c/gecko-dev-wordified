@@ -942,6 +942,11 @@ NotEmpty
 )
 ;
 }
+void
+MarkSizeDependentFramesDirty
+(
+)
+;
 protected
 :
 /
