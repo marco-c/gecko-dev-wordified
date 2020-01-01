@@ -2023,7 +2023,7 @@ init
 ;
 this
 .
-addBrowserContextMenuItems
+initContextMenu
 (
 )
 ;
@@ -2663,10 +2663,10 @@ return
 "
 ;
 }
-addBrowserContextMenuItems
+initContextMenu
 :
 function
-ba_addBrowserContextMenuItems
+ba_initContextMenu
 (
 )
 {
