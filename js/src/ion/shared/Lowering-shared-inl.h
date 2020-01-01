@@ -2430,7 +2430,7 @@ input
 s
 vreg
 .
-if
+while
 (
 mir
 -

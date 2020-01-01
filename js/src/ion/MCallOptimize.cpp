@@ -1996,8 +1996,9 @@ UndefinedType
 bool
 barrier
 =
-propertyReadNeedsTypeBarrier
+PropertyReadNeedsTypeBarrier
 (
+cx
 callInfo
 .
 thisArg
@@ -2144,8 +2145,10 @@ getArg
 ;
 if
 (
-propertyWriteNeedsTypeBarrier
+PropertyWriteNeedsTypeBarrier
 (
+cx
+current
 &
 obj
 NULL
@@ -6117,8 +6120,10 @@ elemi
 ;
 if
 (
-propertyWriteNeedsTypeBarrier
+PropertyWriteNeedsTypeBarrier
 (
+cx
+current
 &
 obj
 NULL
@@ -6135,7 +6140,7 @@ arrayType
 if
 (
 !
-elementAccessIsDenseNative
+ElementAccessIsDenseNative
 (
 obj
 id
@@ -6143,7 +6148,7 @@ id
 &
 &
 !
-elementAccessIsTypedArray
+ElementAccessIsTypedArray
 (
 obj
 id
@@ -6304,7 +6309,7 @@ idxi
 ;
 if
 (
-elementAccessIsDenseNative
+ElementAccessIsDenseNative
 (
 obj
 id
@@ -6331,7 +6336,7 @@ arrayType
 ;
 if
 (
-elementAccessIsTypedArray
+ElementAccessIsTypedArray
 (
 obj
 id
@@ -8520,7 +8525,7 @@ end
 bailout
 )
 ;
-setCurrent
+setCurrentAndSpecializePhis
 (
 newBlock
 (
