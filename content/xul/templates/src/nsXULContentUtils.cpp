@@ -1510,7 +1510,7 @@ if
 dateLiteral
 )
 {
-int64_t
+PRTime
 value
 ;
 rv
@@ -1554,10 +1554,7 @@ locale
 /
 kDateFormatShort
 kTimeFormatSeconds
-PRTime
-(
 value
-)
 str
 )
 ;
