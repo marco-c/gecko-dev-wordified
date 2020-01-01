@@ -2720,7 +2720,7 @@ want
 .
 *
 /
-nsISelection
+nsTypedSelection
 *
 GetSelection
 (

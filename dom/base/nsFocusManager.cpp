@@ -698,6 +698,13 @@ h
 #
 include
 "
+nsTypedSelection
+.
+h
+"
+#
+include
+"
 nsXULPopupManager
 .
 h
