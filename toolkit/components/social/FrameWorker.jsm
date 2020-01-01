@@ -791,9 +791,6 @@ workerAPI
 =
 [
 '
-MozWebSocket
-'
-'
 WebSocket
 '
 '
