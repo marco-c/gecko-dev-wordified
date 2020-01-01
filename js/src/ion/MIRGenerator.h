@@ -684,6 +684,17 @@ message
 )
 ;
 bool
+abortFmt
+(
+const
+char
+*
+message
+va_list
+ap
+)
+;
+bool
 errored
 (
 )
