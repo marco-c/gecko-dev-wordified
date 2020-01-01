@@ -692,17 +692,6 @@ aResult
 )
 const
 ;
-NS_IMETHOD
-List
-(
-FILE
-*
-out
-PRInt32
-aIndent
-)
-const
-;
 #
 endif
 protected
