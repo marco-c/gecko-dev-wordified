@@ -552,7 +552,6 @@ private
 :
 JSObject
 *
-const
 mObj
 ;
 bool
