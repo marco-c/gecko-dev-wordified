@@ -2512,10 +2512,13 @@ size
 .
 if
 (
-oldThumbRect
 !
-=
+oldThumbRect
+.
+IsEqualInterior
+(
 thumbRect
+)
 )
 Redraw
 (

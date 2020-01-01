@@ -4738,12 +4738,14 @@ const
 {
 return
 mDecoded
-=
-=
+.
+IsEqualInterior
+(
 nsIntRect
 (
 mOffset
 mSize
+)
 )
 ;
 }

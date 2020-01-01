@@ -3562,10 +3562,10 @@ aIsOpaque
 aIsOpaque
 &
 &
-(
 framerect
-!
-=
+.
+IsEqualInterior
+(
 nsIntRect
 (
 0

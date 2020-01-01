@@ -4691,9 +4691,11 @@ GetCoveredRegion
 if
 (
 oldRegion
-=
-=
+.
+IsEqualInterior
+(
 newRegion
+)
 )
 return
 PR_FALSE

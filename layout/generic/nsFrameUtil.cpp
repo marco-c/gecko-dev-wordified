@@ -4041,12 +4041,14 @@ tree1
 -
 >
 bbox
-!
-=
+.
+IsEqualInterior
+(
 tree2
 -
 >
 bbox
+)
 )
 {
 printf

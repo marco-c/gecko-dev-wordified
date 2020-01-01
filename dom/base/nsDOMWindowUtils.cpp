@@ -1618,9 +1618,11 @@ lastDisplayPort
 &
 &
 displayport
-=
-=
+.
+IsEqualInterior
+(
 lastDisplayPort
+)
 )
 {
 return

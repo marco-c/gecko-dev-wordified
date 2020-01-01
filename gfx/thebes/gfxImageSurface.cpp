@@ -1783,9 +1783,11 @@ IsEmpty
 |
 |
 source
-=
-=
+.
+IsEqualInterior
+(
 dest
+)
 )
 {
 return

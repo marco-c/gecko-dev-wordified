@@ -3533,8 +3533,10 @@ aOut
 >
 height
 )
-=
-=
+.
+IsEqualEdges
+(
 aIn
+)
 ;
 }

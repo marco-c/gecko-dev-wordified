@@ -6734,10 +6734,13 @@ manager
 .
 if
 (
-region
 !
-=
+region
+.
+IsEqualEdges
+(
 oldRegion
+)
 )
 {
 /

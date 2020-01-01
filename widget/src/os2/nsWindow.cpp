@@ -9785,11 +9785,13 @@ mClipRegion
 &
 &
 mBounds
-=
-=
+.
+IsEqualInterior
+(
 aConfiguration
 .
 mBounds
+)
 )
 {
 return

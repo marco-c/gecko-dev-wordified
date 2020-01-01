@@ -6100,10 +6100,13 @@ GetRect
 ;
 if
 (
-rect
 !
-=
+rect
+.
+IsEqualInterior
+(
 oldRect
+)
 )
 {
 nsRect

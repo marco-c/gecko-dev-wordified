@@ -1253,10 +1253,13 @@ dirty
 }
 if
 (
-oldBounds
 !
-=
+oldBounds
+.
+IsEqualEdges
+(
 mBounds
+)
 )
 {
 DispatchResizeEvent

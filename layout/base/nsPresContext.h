@@ -2820,7 +2820,7 @@ if
 !
 r
 .
-IsExactEqual
+IsEqualEdges
 (
 mVisibleArea
 )

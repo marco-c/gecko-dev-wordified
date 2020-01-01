@@ -43751,10 +43751,13 @@ IsEmpty
 )
 &
 &
-newBounds
 !
-=
+newBounds
+.
+IsEqualEdges
+(
 oldBounds
+)
 )
 {
 #
