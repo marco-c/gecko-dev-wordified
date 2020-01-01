@@ -4985,6 +4985,7 @@ EDtrOffImm
 )
 )
 JSReturnReg_Data
+JSReturnReg_Type
 )
 ;
 masm

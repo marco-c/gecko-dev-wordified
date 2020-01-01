@@ -2381,6 +2381,11 @@ EDtrAddr
 addr
 Register
 rt
+DebugOnly
+<
+Register
+>
+rt2
 Index
 mode
 =

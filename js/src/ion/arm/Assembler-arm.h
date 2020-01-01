@@ -6832,7 +6832,7 @@ JSC
 :
 AssemblerBufferWithConstantPool
 <
-2048
+1024
 4
 4
 js
