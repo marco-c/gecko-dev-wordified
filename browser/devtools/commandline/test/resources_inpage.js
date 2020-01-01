@@ -6,7 +6,7 @@ is
 used
 from
 within
-browser_styleeditor_cmd_edit
+browser_gcli_edit
 .
 html
 window
