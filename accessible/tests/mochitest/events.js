@@ -165,6 +165,13 @@ nsIAccessibleEvent
 .
 EVENT_TEXT_REMOVED
 ;
+const
+EVENT_VALUE_CHANGE
+=
+nsIAccessibleEvent
+.
+EVENT_VALUE_CHANGE
+;
 /
 /
 /

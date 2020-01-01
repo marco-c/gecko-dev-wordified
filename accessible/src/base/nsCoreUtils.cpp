@@ -2148,6 +2148,9 @@ aPossibleAncestorNode
 nsINode
 *
 aPossibleDescendantNode
+nsINode
+*
+aRootNode
 )
 {
 NS_ENSURE_TRUE
@@ -2177,6 +2180,9 @@ GetNodeParent
 (
 )
 )
+!
+=
+aRootNode
 )
 {
 if

@@ -2862,6 +2862,17 @@ if
 aText
 )
 {
+/
+/
+XXX
+:
+should
+use
+nsIAccessible
+:
+:
+AppendTextTo
+.
 if
 (
 frame
