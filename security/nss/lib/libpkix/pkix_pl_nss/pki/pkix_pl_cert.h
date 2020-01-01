@@ -572,6 +572,9 @@ of
 PKIX_PL_InfoAccess
 *
 /
+PKIX_Boolean
+isUserTrustAnchor
+;
 }
 ;
 /

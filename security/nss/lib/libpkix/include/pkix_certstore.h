@@ -2729,6 +2729,8 @@ issuer
 PKIX_PL_Date
 *
 date
+PKIX_Boolean
+delayCrlSigCheck
 PKIX_UInt32
 *
 reasonCode

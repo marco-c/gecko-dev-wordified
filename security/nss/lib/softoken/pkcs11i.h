@@ -3701,6 +3701,17 @@ isFIPS
 )
 ;
 extern
+PRBool
+sftk_ForkReset
+(
+CK_VOID_PTR
+pReserved
+CK_RV
+*
+crv
+)
+;
+extern
 CK_RV
 nsc_CommonGetSlotList
 (

@@ -1138,10 +1138,6 @@ tests
 struct
 PKIX_RevocationCheckerStruct
 {
-PKIX_PL_Date
-*
-date
-;
 PKIX_List
 *
 leafMethodList

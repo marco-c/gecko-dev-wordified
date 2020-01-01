@@ -5673,6 +5673,15 @@ node
 -
 >
 error
+&
+&
+node
+-
+>
+error
+-
+>
+plErr
 )
 {
 PKIX_INCREF

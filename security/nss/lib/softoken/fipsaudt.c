@@ -847,6 +847,7 @@ shObject
 sftk_LogAuditMessage
 (
 severity
+NSS_AUDIT_LOAD_KEY
 msg
 )
 ;
@@ -970,6 +971,7 @@ shNewObject
 sftk_LogAuditMessage
 (
 severity
+NSS_AUDIT_COPY_KEY
 msg
 )
 ;
@@ -1062,6 +1064,7 @@ rv
 sftk_LogAuditMessage
 (
 severity
+NSS_AUDIT_DESTROY_KEY
 msg
 )
 ;
@@ -1147,6 +1150,7 @@ rv
 sftk_LogAuditMessage
 (
 severity
+NSS_AUDIT_ACCESS_KEY
 msg
 )
 ;
@@ -1242,6 +1246,7 @@ rv
 sftk_LogAuditMessage
 (
 severity
+NSS_AUDIT_ACCESS_KEY
 msg
 )
 ;
@@ -1337,6 +1342,7 @@ rv
 sftk_LogAuditMessage
 (
 severity
+NSS_AUDIT_CHANGE_KEY
 msg
 )
 ;
@@ -1443,6 +1449,7 @@ rv
 sftk_LogAuditMessage
 (
 severity
+NSS_AUDIT_CRYPT
 msg
 )
 ;
@@ -1576,6 +1583,7 @@ shKey
 sftk_LogAuditMessage
 (
 severity
+NSS_AUDIT_GENERATE_KEY
 msg
 )
 ;
@@ -1758,6 +1766,7 @@ shPrivateKey
 sftk_LogAuditMessage
 (
 severity
+NSS_AUDIT_GENERATE_KEY
 msg
 )
 ;
@@ -1882,6 +1891,7 @@ rv
 sftk_LogAuditMessage
 (
 severity
+NSS_AUDIT_WRAP_KEY
 msg
 )
 ;
@@ -2045,6 +2055,7 @@ shKey
 sftk_LogAuditMessage
 (
 severity
+NSS_AUDIT_UNWRAP_KEY
 msg
 )
 ;
@@ -2316,6 +2327,7 @@ sTlsKeys
 sftk_LogAuditMessage
 (
 severity
+NSS_AUDIT_DERIVE_KEY
 msg
 )
 ;
@@ -2392,6 +2404,7 @@ rv
 sftk_LogAuditMessage
 (
 severity
+NSS_AUDIT_DIGEST_KEY
 msg
 )
 ;

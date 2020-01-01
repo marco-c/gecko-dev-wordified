@@ -860,6 +860,16 @@ SDB
 sdb
 )
 ;
+void
+(
+*
+sdb_SetForkState
+)
+(
+PRBool
+forked
+)
+;
 }
 ;
 CK_RV
