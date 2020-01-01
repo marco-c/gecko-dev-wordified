@@ -2330,6 +2330,16 @@ EnterSetVersionTransaction
 (
 )
 ;
+mDatabase
+-
+>
+mPreviousDatabaseInfo
+-
+>
+version
+=
+oldVersion
+;
 MainThreadEventTarget
 target
 ;

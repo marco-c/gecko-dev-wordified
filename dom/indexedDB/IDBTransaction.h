@@ -991,6 +991,15 @@ IDBObjectStore
 >
 mCreatedObjectStores
 ;
+nsTArray
+<
+nsRefPtr
+<
+IDBObjectStore
+>
+>
+mDeletedObjectStores
+;
 nsRefPtr
 <
 UpdateRefcountFunction
