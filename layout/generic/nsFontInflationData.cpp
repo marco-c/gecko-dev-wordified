@@ -194,7 +194,6 @@ NS_DECLARE_FRAME_PROPERTY
 FontInflationDataProperty
 DestroyFontInflationData
 )
-;
 /
 *
 static

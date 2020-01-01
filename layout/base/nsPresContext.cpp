@@ -13346,6 +13346,9 @@ sInterruptMode
 =
 ModeEvent
 ;
+#
+ifndef
+XP_WIN
 /
 /
 Used
@@ -13371,6 +13374,8 @@ sInterruptSeed
 =
 1
 ;
+#
+endif
 /
 /
 Used
