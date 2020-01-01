@@ -8055,7 +8055,7 @@ fprintf
 (
 gErrFile
 "
-gc
+dumpHeap
 :
 can
 '
@@ -8069,6 +8069,7 @@ s
 \
 n
 "
+fileName
 strerror
 (
 errno
