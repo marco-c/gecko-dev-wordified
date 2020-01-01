@@ -14283,8 +14283,8 @@ aActiveScrolledRoot
 *
 /
 static
-bool
-ChildrenCanBeInactive
+LayerState
+RequiredLayerStateForChildren
 (
 nsDisplayListBuilder
 *
