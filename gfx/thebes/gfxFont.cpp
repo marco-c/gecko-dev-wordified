@@ -16853,10 +16853,14 @@ selectedFont
 if
 this
 character
+is
+a
+join
+-
+control
 or
 the
 previous
-one
 is
 a
 join
@@ -16880,7 +16884,7 @@ if
 gfxFontUtils
 :
 :
-IsJoinCauser
+IsJoinControl
 (
 aCh
 )
