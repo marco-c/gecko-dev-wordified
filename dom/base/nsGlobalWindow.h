@@ -501,6 +501,13 @@ nsIIdleObserver
 .
 h
 "
+#
+include
+"
+nsIDOMWakeLock
+.
+h
+"
 /
 /
 JS
@@ -3346,6 +3353,12 @@ nsCOMPtr
 nsIIdleService
 >
 mIdleService
+;
+nsCOMPtr
+<
+nsIDOMMozWakeLock
+>
+mWakeLock
 ;
 static
 bool
