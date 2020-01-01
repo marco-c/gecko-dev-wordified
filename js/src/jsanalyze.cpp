@@ -365,8 +365,9 @@ jsbytecode
 pc
 )
 {
-printf
+fprintf
 (
+stderr
 "
 #
 %
@@ -416,7 +417,7 @@ sprinter
 ;
 fprintf
 (
-stdout
+stderr
 "
 %
 s

@@ -3992,7 +3992,7 @@ active
 /
 if
 (
-cx
+script
 -
 >
 compartment
