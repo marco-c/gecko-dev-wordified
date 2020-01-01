@@ -1868,11 +1868,13 @@ f
 ;
 void
 JS_FASTCALL
-CallPropSwap
+StubTypeHelper
 (
 VMFrame
 &
 f
+int32
+which
 )
 ;
 void
