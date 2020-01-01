@@ -12812,10 +12812,7 @@ callers
 .
 *
 /
-JS_FRIEND_API
-(
 void
-)
 checkMallocGCPressure
 (
 void
@@ -16426,10 +16423,7 @@ cx
 )
 ;
 extern
-JS_FRIEND_API
-(
 void
-)
 js_ReportAllocationOverflow
 (
 JSContext

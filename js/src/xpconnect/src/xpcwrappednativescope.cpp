@@ -6509,7 +6509,7 @@ NS_ASSERTION
 wrapper
 -
 >
-NeedsCOW
+IsDoubleWrapper
 (
 )
 "
@@ -6531,7 +6531,7 @@ if
 wrapper
 -
 >
-NeedsSOW
+NeedsChromeWrapper
 (
 )
 )
@@ -6695,7 +6695,7 @@ if
 wrapper
 -
 >
-NeedsSOW
+NeedsChromeWrapper
 (
 )
 )
@@ -6722,7 +6722,7 @@ if
 wrapper
 -
 >
-NeedsCOW
+IsDoubleWrapper
 (
 )
 )
