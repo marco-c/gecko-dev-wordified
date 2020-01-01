@@ -307,7 +307,10 @@ mCompressor
 new
 DynamicsCompressor
 (
-IdealAudioRate
+mDestination
+-
+>
+SampleRate
 (
 )
 2
@@ -560,7 +563,10 @@ WebCore
 :
 DynamicsCompressor
 (
-IdealAudioRate
+aStream
+-
+>
+SampleRate
 (
 )
 aInput
