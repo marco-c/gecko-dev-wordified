@@ -7469,13 +7469,8 @@ AutoCompartment
 *
 ac
 =
-reinterpret_cast
-<
-AutoCompartment
-*
->
+getAutoCompartment
 (
-bytes
 )
 ;
 CHECK_REQUEST
