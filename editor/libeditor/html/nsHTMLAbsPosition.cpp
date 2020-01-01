@@ -763,6 +763,9 @@ while
 resultNode
 &
 &
+node
+&
+&
 !
 nsEditor
 :
