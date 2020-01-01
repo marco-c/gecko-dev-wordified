@@ -15041,8 +15041,6 @@ browser
 /
 locale
 /
-devtools
-/
 inspector
 .
 properties
