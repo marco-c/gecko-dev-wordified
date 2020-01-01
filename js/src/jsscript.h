@@ -4593,7 +4593,7 @@ JSProtoKey
 key
 )
 ;
-void
+bool
 condenseTypes
 (
 JSContext

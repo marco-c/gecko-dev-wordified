@@ -5057,6 +5057,16 @@ return
 ;
 #
 endif
+cx
+-
+>
+runtime
+-
+>
+hadOutOfMemory
+=
+true
+;
 JSErrorReport
 report
 ;
