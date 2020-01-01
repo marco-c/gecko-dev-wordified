@@ -77,7 +77,7 @@ content
 /
 shell
 .
-html
+xul
 "
 )
 ;
