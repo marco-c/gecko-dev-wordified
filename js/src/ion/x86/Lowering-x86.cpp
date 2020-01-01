@@ -814,13 +814,10 @@ LBoxDouble
 use
 (
 inner
-)
-temp
-(
-LDefinition
+LUse
 :
 :
-DOUBLE
+COPY
 )
 )
 box
