@@ -3810,6 +3810,13 @@ nsDiskCache
 :
 :
 kData
+!
+!
+(
+flags
+&
+PR_CREATE_FILE
+)
 getter_AddRefs
 (
 mLocalFile
