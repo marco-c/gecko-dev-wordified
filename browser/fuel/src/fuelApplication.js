@@ -5615,6 +5615,15 @@ function
 aName
 )
 {
+if
+(
+this
+.
+has
+(
+aName
+)
+)
 return
 Utilities
 .
@@ -5627,6 +5636,9 @@ this
 _id
 aName
 )
+;
+return
+null
 ;
 }
 set
