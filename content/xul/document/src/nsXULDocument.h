@@ -565,9 +565,6 @@ class
 nsIRDFService
 ;
 class
-nsIXULPrototypeCache
-;
-class
 nsPIWindowRoot
 ;
 #

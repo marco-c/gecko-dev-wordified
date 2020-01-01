@@ -499,13 +499,6 @@ h
 #
 include
 "
-nsIXULPrototypeCache
-.
-h
-"
-#
-include
-"
 nsDataHashtable
 .
 h
@@ -656,7 +649,6 @@ class
 nsXULPrototypeCache
 :
 public
-nsIXULPrototypeCache
 nsIObserver
 {
 public
@@ -666,10 +658,6 @@ public
 nsISupports
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
-/
-/
-nsIXULPrototypeCache
-virtual
 PRBool
 IsCached
 (
@@ -688,7 +676,6 @@ aURI
 nsnull
 ;
 }
-virtual
 void
 AbortCaching
 (
