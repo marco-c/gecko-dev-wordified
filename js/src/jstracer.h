@@ -7801,7 +7801,7 @@ base
 ptrdiff_t
 offset
 bool
-demote
+shouldDemoteToInt32
 )
 ;
 #
@@ -7836,7 +7836,7 @@ LIns
 *
 l
 bool
-demote
+shouldDemoteToInt32
 =
 true
 )
@@ -7855,7 +7855,7 @@ LIns
 *
 l
 bool
-demote
+shouldDemoteToInt32
 =
 true
 )
@@ -7874,7 +7874,7 @@ LIns
 *
 l
 bool
-demote
+shouldDemoteToInt32
 =
 true
 )
