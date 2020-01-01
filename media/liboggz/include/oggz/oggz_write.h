@@ -1484,17 +1484,6 @@ for
 this
 OGGZ
 *
-\
-retval
-OGGZ_ERR_OUT_OF_MEMORY
-Unable
-to
-allocate
-memory
-to
-queue
-packet
-*
 *
 \
 note
