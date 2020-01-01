@@ -2833,6 +2833,17 @@ is
 a
 CoreGraphics
 plugin
+PRPackedBool
+mIsDispatchPaint
+;
+/
+/
+Is
+a
+paint
+event
+being
+dispatched
 NP_CGContext
 mPluginCGContext
 ;
