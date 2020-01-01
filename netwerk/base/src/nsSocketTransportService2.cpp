@@ -5520,11 +5520,6 @@ mProbedMaxCount
 =
 true
 ;
-int32_t
-startedMaxCount
-=
-gMaxCount
-;
 /
 /
 Allocate
