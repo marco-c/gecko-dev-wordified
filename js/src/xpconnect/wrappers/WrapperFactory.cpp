@@ -760,7 +760,6 @@ obj
 >
 getCompartment
 (
-cx
 )
 ;
 JSCompartment
