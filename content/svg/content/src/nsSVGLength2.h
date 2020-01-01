@@ -1719,6 +1719,9 @@ aSrcElement
 nsSMILValue
 &
 aValue
+PRBool
+&
+aCanCache
 )
 const
 ;

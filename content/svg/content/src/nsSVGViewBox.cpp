@@ -1685,6 +1685,9 @@ aSrcElement
 nsSMILValue
 &
 aValue
+PRBool
+&
+aCanCache
 )
 const
 {
@@ -1770,6 +1773,10 @@ viewBox
 aValue
 =
 val
+;
+aCanCache
+=
+PR_TRUE
 ;
 return
 NS_OK

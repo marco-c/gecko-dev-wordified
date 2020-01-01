@@ -551,6 +551,9 @@ aSrcElement
 nsSMILValue
 &
 aValue
+PRBool
+&
+aCanCache
 )
 const
 {
@@ -620,6 +623,10 @@ aStr
 transformType
 aValue
 )
+;
+aCanCache
+=
+PR_TRUE
 ;
 return
 aValue

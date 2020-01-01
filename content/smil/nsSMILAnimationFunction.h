@@ -2284,6 +2284,9 @@ aSMILAttr
 nsSMILValue
 &
 aResult
+PRBool
+&
+aCanCacheSoFar
 )
 const
 ;
@@ -2625,6 +2628,9 @@ mLastValue
 ;
 PRPackedBool
 mHasChanged
+;
+PRPackedBool
+mValueNeedsReparsingEverySample
 ;
 nsSMILTime
 mBeginTime

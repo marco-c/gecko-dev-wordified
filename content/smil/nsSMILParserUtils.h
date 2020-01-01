@@ -574,6 +574,9 @@ nsSMILValue
 >
 &
 aValuesArray
+PRBool
+&
+aCanCache
 )
 ;
 static
