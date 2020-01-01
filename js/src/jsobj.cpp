@@ -13256,6 +13256,14 @@ defaultPrivate
 (
 clasp
 )
+OPS_IS_NATIVE
+(
+ops
+)
+?
+DSLOTS_NULL_INIT_OBJECT_NATIVE
+:
+DSLOTS_NULL_INIT_OBJECT_NONNATIVE
 )
 ;
 if
@@ -13816,6 +13824,7 @@ clasp
 proto
 parent
 privateSlotValue
+DSLOTS_NULL_INIT_NATIVE
 )
 ;
 return
@@ -19688,6 +19697,7 @@ getParent
 (
 )
 privateSlotValue
+DSLOTS_NULL_INIT_JSNATIVE
 )
 ;
 return

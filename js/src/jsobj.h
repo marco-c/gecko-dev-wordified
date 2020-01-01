@@ -1690,6 +1690,9 @@ JSObject
 parent
 jsval
 privateSlotValue
+jsval
+*
+nullPtr
 )
 {
 JS_ASSERT
@@ -1801,7 +1804,7 @@ JSVAL_VOID
 ;
 dslots
 =
-DSLOTS_NULL_INIT
+nullPtr
 ;
 }
 JSBool
