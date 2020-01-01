@@ -1640,6 +1640,9 @@ presenter
 highlightNode
 (
 aNode
+"
+moveIntoView
+"
 )
 ;
 }
