@@ -490,6 +490,7 @@ aCallback
 aUri
 )
 ;
+else
 this
 .
 openUriInApp
