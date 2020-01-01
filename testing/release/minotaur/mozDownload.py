@@ -952,7 +952,15 @@ print
 Download
 Fails
 IOError
+error
+code
+:
 "
++
+str
+(
+errcode
+)
         
 traceback
 .
