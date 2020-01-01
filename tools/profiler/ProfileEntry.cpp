@@ -1159,6 +1159,9 @@ PseudoStack
 aStack
 int
 aThreadId
+PlatformData
+*
+aPlatform
 bool
 aIsMainThread
 )
@@ -1206,6 +1209,10 @@ aThreadId
 mIsMainThread
 (
 aIsMainThread
+)
+mPlatformData
+(
+aPlatform
 )
 {
 mEntries
