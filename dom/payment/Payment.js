@@ -247,7 +247,7 @@ generateQI
 [
 Ci
 .
-nsIDOMNavigatorPayment
+nsINavigatorPayment
 Ci
 .
 nsIDOMGlobalPropertyInitializer
@@ -300,13 +300,13 @@ interfaces
 [
 Ci
 .
-nsIDOMNavigatorPayment
+nsINavigatorPayment
 ]
 }
 )
 /
 /
-nsIDOMNavigatorPayment
+nsINavigatorPayment
 pay
 :
 function
