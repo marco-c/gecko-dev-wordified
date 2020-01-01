@@ -12120,7 +12120,7 @@ readICCContacts
 (
 CARD_APPTYPE_USIM
 "
-ADN
+adn
 "
 successCb
 errorCb
@@ -12261,7 +12261,7 @@ do_test
 (
 contact
 "
-ADN
+adn
 "
 ICC_EF_ADN
 )
@@ -12270,7 +12270,7 @@ do_test
 (
 contact
 "
-FDN
+fdn
 "
 ICC_EF_FDN
 "
