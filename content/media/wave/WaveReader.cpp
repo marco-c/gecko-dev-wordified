@@ -2121,7 +2121,7 @@ sizeof
 uint32_t
 )
 *
-2
+3
 <
 =
 RIFF_INITIAL_SIZE
@@ -2174,7 +2174,10 @@ field
 p
 +
 =
-4
+sizeof
+(
+uint32_t
+)
 ;
 if
 (
@@ -3446,7 +3449,10 @@ MAX_CHUNK_SIZE
 ;
 static_assert
 (
+uint64_t
+(
 MAX_CHUNK_SIZE
+)
 <
 UINT_MAX
 /
