@@ -3126,7 +3126,7 @@ R
 .
 id
 .
-preferences
+settings
 )
 .
 setEnabled
@@ -3823,7 +3823,7 @@ R
 .
 id
 .
-preferences
+settings
 :
 intent
 =
@@ -6753,7 +6753,7 @@ R
 .
 id
 .
-preferences
+settings
 )
 .
 setEnabled
