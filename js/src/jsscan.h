@@ -1504,16 +1504,6 @@ reserved
 keywords
 *
 /
-TOK_STRICT_RESERVED
-/
-*
-reserved
-keywords
-in
-strict
-mode
-*
-/
 TOK_LIMIT
 /
 *

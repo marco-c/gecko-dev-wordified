@@ -3208,7 +3208,7 @@ strict
 )
 ;
 extern
-JSBool
+void
 js_DestroyPrinter
 (
 JSPrinter

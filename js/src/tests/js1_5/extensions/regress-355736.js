@@ -728,7 +728,7 @@ function
 )
 {
 [
-implements
+super
 ]
 =
 q
@@ -743,7 +743,7 @@ function
 )
 {
 [
-implements
+super
 ]
 =
 q
@@ -779,7 +779,7 @@ function
 return
 {
 get
-implements
+super
 (
 )
 {
@@ -797,7 +797,7 @@ function
 return
 {
 get
-implements
+super
 (
 )
 {
