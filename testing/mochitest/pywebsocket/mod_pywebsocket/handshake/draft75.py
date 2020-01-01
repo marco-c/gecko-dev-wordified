@@ -846,6 +846,20 @@ self
 _send_handshake
 (
 )
+        
+self
+.
+_logger
+.
+debug
+(
+'
+Sent
+opening
+handshake
+response
+'
+)
     
 def
 _set_resource
