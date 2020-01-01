@@ -498,14 +498,7 @@ VK_RETURN
 ;
 executeSoon
 (
-(
-)
-=
->
-executeSoon
-(
 afterSearch
-)
 )
 ;
 }
