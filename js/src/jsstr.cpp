@@ -4012,11 +4012,9 @@ str
 ;
 if
 (
-id
-=
-=
-ATOM_TO_JSID
+JSID_IS_ATOM
 (
+id
 cx
 -
 >
@@ -4357,10 +4355,7 @@ obj
 defineProperty
 (
 cx
-INT_TO_JSID
-(
-slot
-)
+id
 StringTag
 (
 str1
@@ -10268,7 +10263,7 @@ JS_ASSERT
 count
 <
 =
-JSVAL_INT_MAX
+JSID_INT_MAX
 )
 ;
 /

@@ -84,7 +84,9 @@ cx
 JSObject
 *
 obj
+const
 jsval
+*
 JSBool
 *
 bp

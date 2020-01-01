@@ -5457,7 +5457,9 @@ list
 {
 id
 =
-JSVAL_NULL
+JSID_VOID
+(
+)
 ;
 next
 =
@@ -5492,7 +5494,7 @@ removeFree
 {
 JS_ASSERT
 (
-JSVAL_IS_NULL
+JSID_IS_VOID
 (
 id
 )
@@ -6844,7 +6846,7 @@ JS_ASSERT_IF
 (
 lastProp
 !
-JSVAL_IS_NULL
+JSID_IS_VOID
 (
 lastProp
 -
@@ -6901,7 +6903,7 @@ sprop
 JS_ASSERT
 (
 !
-JSVAL_IS_NULL
+JSID_IS_VOID
 (
 sprop
 -
@@ -6914,7 +6916,7 @@ JS_ASSERT_IF
 (
 lastProp
 !
-JSVAL_IS_NULL
+JSID_IS_VOID
 (
 lastProp
 -
@@ -6952,7 +6954,7 @@ lastProp
 >
 parent
 !
-JSVAL_IS_NULL
+JSID_IS_VOID
 (
 lastProp
 -
@@ -7016,7 +7018,7 @@ childp
 JS_ASSERT
 (
 !
-JSVAL_IS_NULL
+JSID_IS_VOID
 (
 sprop
 -
@@ -7054,7 +7056,7 @@ lastProp
 =
 sprop
 !
-JSVAL_IS_NULL
+JSID_IS_VOID
 (
 lastProp
 -
@@ -7070,7 +7072,7 @@ lastProp
 >
 parent
 !
-JSVAL_IS_NULL
+JSID_IS_VOID
 (
 lastProp
 -
@@ -7187,7 +7189,7 @@ childp
 JS_ASSERT
 (
 !
-JSVAL_IS_NULL
+JSID_IS_VOID
 (
 sprop
 -
@@ -7239,7 +7241,7 @@ JS_ASSERT_IF
 (
 lastProp
 !
-JSVAL_IS_NULL
+JSID_IS_VOID
 (
 lastProp
 -
@@ -7756,7 +7758,7 @@ vp
 JS_ASSERT
 (
 !
-JSVAL_IS_NULL
+JSID_IS_VOID
 (
 this
 -

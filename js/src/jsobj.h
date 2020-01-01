@@ -593,7 +593,7 @@ op
 }
 inline
 Value
-CastAsObjectJSVal
+CastAsObjectJsval
 (
 PropertyOp
 op
@@ -1332,9 +1332,6 @@ shape
 }
 enum
 {
-INVALID_SHAPE
-=
-0x8fffffff
 SHAPELESS
 =
 0xffffffff
@@ -2840,6 +2837,8 @@ arrays
 .
 *
 /
+private
+:
 /
 /
 Used
@@ -2856,8 +2855,6 @@ JSSLOT_ARRAY_LENGTH
 =
 JSSLOT_PRIVATE
 ;
-private
-:
 /
 /
 Used
@@ -8402,10 +8399,12 @@ cx
 JSObject
 *
 obj
+const
 js
 :
 :
 Value
+*
 v
 JSBool
 *

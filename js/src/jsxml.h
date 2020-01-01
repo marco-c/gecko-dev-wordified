@@ -1626,7 +1626,7 @@ set
 *
 funidp
 to
-0
+void
 .
 *
 /
