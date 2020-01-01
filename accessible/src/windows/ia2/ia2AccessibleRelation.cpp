@@ -730,6 +730,9 @@ aTargetIndex
 0
 |
 |
+(
+uint32_t
+)
 aTargetIndex
 >
 =
@@ -803,7 +806,7 @@ aNTargets
 =
 0
 ;
-uint32_t
+long
 maxTargets
 =
 mTargets
@@ -824,7 +827,7 @@ aMaxTargets
 ;
 for
 (
-uint32_t
+long
 idx
 =
 0

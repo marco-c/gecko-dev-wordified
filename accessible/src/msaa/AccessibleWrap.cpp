@@ -407,27 +407,6 @@ gAccessibles
 ;
 #
 endif
-EXTERN_C
-GUID
-CDECL
-CLSID_Accessible
-=
-{
-0x61044601
-0xa811
-0x4e2b
-{
-0xbb
-0xba
-0x17
-0xbf
-0xab
-0xd3
-0x29
-0xd7
-}
-}
-;
 static
 const
 int32_t
@@ -613,7 +592,6 @@ NS_IMPL_ISUPPORTS_INHERITED0
 AccessibleWrap
 Accessible
 )
-;
 /
 /
 -
@@ -914,6 +892,7 @@ IsDefunct
 )
 |
 |
+(
 !
 HasOwnContent
 (
@@ -923,6 +902,7 @@ HasOwnContent
 !
 IsDoc
 (
+)
 )
 )
 return
@@ -1208,7 +1188,7 @@ enable
 )
 )
 {
-IAccessibleEx
+uiaRawElmProvider
 *
 accEx
 =
@@ -1440,6 +1420,7 @@ ParentDocument
 )
 |
 |
+(
 nsWinUtils
 :
 :
@@ -1458,6 +1439,7 @@ doc
 >
 DocumentNode
 (
+)
 )
 )
 )
@@ -3442,6 +3424,7 @@ objects
 .
 class
 AccessibleEnumerator
+MOZ_FINAL
 :
 public
 IEnumVARIANT
@@ -5715,7 +5698,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-uint32_t
+long
 relIdx
 =
 0
@@ -7865,9 +7848,8 @@ EVENT_LAST_ENTRY
 NS_ERROR_FAILURE
 )
 ;
-uint32_t
-winLastEntry
-=
+NS_ASSERTION
+(
 gWinEventMap
 [
 nsIAccessibleEvent
@@ -7875,10 +7857,6 @@ nsIAccessibleEvent
 :
 EVENT_LAST_ENTRY
 ]
-;
-NS_ASSERTION
-(
-winLastEntry
 =
 =
 kEVENT_LAST_ENTRY
@@ -8764,7 +8742,7 @@ name
 return
 E_FAIL
 ;
-uint32_t
+int32_t
 offset
 =
 0
