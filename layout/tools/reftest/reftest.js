@@ -9997,7 +9997,11 @@ gDumpLog
 (
 "
 REFTEST
-INFO
+TEST
+-
+UNEXPECTED
+-
+FAIL
 |
 WARNING
 :
