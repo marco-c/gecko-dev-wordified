@@ -11624,11 +11624,6 @@ GetIonContext
 runtime
 -
 >
-ionRuntime
-(
-)
--
->
 signalHandlersInstalled
 (
 )

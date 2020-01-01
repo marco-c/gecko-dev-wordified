@@ -1072,7 +1072,7 @@ AsmJSModuleObject
 :
 create
 (
-JSContext
+ExclusiveContext
 *
 cx
 ScopedJSDeletePtr

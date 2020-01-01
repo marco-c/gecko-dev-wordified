@@ -159,7 +159,7 @@ JSFunction
 *
 NewAsmJSModuleFunction
 (
-JSContext
+ExclusiveContext
 *
 cx
 JSFunction

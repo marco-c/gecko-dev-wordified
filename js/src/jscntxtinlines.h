@@ -2105,7 +2105,11 @@ shouldPause
 AutoLockWorkerThreadState
 lock
 (
+*
 runtime_
+-
+>
+workerThreadState
 )
 ;
 workerThread
