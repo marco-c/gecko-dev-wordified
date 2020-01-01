@@ -727,7 +727,7 @@ nsIAccessibleRole
 :
 ROLE_COLUMN
 27
-ATK_ROLE_UNKNOWN
+ATK_ROLE_LIST_ITEM
 /
 /
 nsIAccessibleRole
