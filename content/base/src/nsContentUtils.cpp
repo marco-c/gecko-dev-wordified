@@ -13286,7 +13286,7 @@ document
 content
 -
 >
-GetDocument
+GetOwnerDoc
 (
 )
 ;
