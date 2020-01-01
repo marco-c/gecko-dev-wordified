@@ -538,13 +538,6 @@ nsUrlClassifierHashCompleter
 h
 "
 #
-include
-"
-nsDocShellCID
-.
-h
-"
-#
 endif
 #
 ifdef
