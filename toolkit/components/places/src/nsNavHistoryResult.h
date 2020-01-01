@@ -1154,7 +1154,7 @@ of
 the
 columns
 .
-PRUint32
+PRUint16
 mSortingMode
 ;
 /
@@ -3594,7 +3594,7 @@ nsCOMArrayComparatorFunc
 SortComparator
 ;
 virtual
-PRUint32
+PRUint16
 GetSortType
 (
 )
@@ -3612,7 +3612,7 @@ static
 SortComparator
 GetSortingComparator
 (
-PRUint32
+PRUint16
 aSortType
 )
 ;
@@ -4409,7 +4409,7 @@ Refresh
 )
 ;
 virtual
-PRUint32
+PRUint16
 GetSortType
 (
 )
