@@ -1317,10 +1317,6 @@ UNSAFE_OP
 (
 GetArgument
 )
-UNSAFE_OP
-(
-RunOncePrologue
-)
 CUSTOM_OP
 (
 Rest
