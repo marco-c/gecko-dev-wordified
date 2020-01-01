@@ -548,7 +548,7 @@ endif
 /
 nsContainerFrame
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )

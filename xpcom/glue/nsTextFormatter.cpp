@@ -4125,7 +4125,7 @@ void
 =
 sizeof
 (
-PRIntn
+int
 )
 )
 {
@@ -4396,7 +4396,7 @@ void
 va_arg
 (
 ap
-PRIntn
+int
 )
 ;
 break
@@ -4481,7 +4481,7 @@ void
 va_arg
 (
 ap
-PRIntn
+int
 *
 )
 ;

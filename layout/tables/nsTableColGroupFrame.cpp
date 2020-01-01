@@ -2190,7 +2190,7 @@ return
 NS_OK
 ;
 }
-PRIntn
+int
 nsTableColGroupFrame
 :
 :
@@ -2199,7 +2199,7 @@ GetSkipSides
 )
 const
 {
-PRIntn
+int
 skip
 =
 0

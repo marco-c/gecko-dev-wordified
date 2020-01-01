@@ -337,7 +337,7 @@ nsMathMLTokenFrame
 )
 ;
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )

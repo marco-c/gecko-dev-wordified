@@ -2883,7 +2883,7 @@ aURI
 static
 *
 /
-PRIntn
+int
 txXPathNodeUtils
 :
 :

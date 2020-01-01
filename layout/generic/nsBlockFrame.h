@@ -2743,7 +2743,7 @@ aDY
 )
 ;
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )

@@ -895,7 +895,7 @@ nsBorderColors
 const
 *
 aCompositeColors
-PRIntn
+int
 aSkipSides
 nscolor
 aBackgroundColor
@@ -3952,7 +3952,7 @@ const
 gfxFloat
 *
 aBorderSizes
-PRIntn
+int
 aSides
 const
 gfxRGBA
@@ -4949,7 +4949,7 @@ nsCSSBorderRenderer
 :
 DrawBorderSidesCompositeColors
 (
-PRIntn
+int
 aSides
 const
 nsBorderColors
@@ -5293,7 +5293,7 @@ nsCSSBorderRenderer
 :
 DrawBorderSides
 (
-PRIntn
+int
 aSides
 )
 {
@@ -11124,7 +11124,7 @@ Condition
 (
 )
 ;
-PRIntn
+int
 dashedSides
 =
 0
@@ -11546,7 +11546,7 @@ corner
 continue
 ;
 const
-PRIntn
+int
 sides
 [
 2
@@ -11560,7 +11560,7 @@ corner
 )
 }
 ;
-PRIntn
+int
 sideBits
 =
 (
@@ -12147,7 +12147,7 @@ clip
 in
 place
 .
-PRIntn
+int
 alreadyDrawnSides
 =
 0

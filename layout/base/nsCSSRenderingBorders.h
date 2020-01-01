@@ -509,7 +509,7 @@ nsBorderColors
 const
 *
 aCompositeColors
-PRIntn
+int
 aSkipSides
 nscolor
 aBackgroundColor
@@ -611,7 +611,7 @@ skip
 the
 background
 color
-PRIntn
+int
 mSkipSides
 ;
 nscolor
@@ -1055,7 +1055,7 @@ const
 gfxFloat
 *
 aBorderSizes
-PRIntn
+int
 aSides
 const
 gfxRGBA
@@ -1096,7 +1096,7 @@ bitmask
 void
 DrawBorderSides
 (
-PRIntn
+int
 aSides
 )
 ;
@@ -1118,7 +1118,7 @@ colors
 void
 DrawBorderSidesCompositeColors
 (
-PRIntn
+int
 aSides
 const
 nsBorderColors

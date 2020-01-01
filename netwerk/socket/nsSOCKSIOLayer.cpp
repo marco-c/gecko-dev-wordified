@@ -6330,7 +6330,7 @@ nsSOCKSIOLayerListen
 PRFileDesc
 *
 fd
-PRIntn
+int
 backlog
 )
 {

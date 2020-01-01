@@ -2173,7 +2173,7 @@ nsContainerFrame
 *
 /
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )

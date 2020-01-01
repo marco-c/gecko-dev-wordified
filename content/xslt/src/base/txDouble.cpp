@@ -822,7 +822,7 @@ buf
 buflen
 ]
 ;
-PRIntn
+int
 intDigits
 sign
 ;

@@ -3024,7 +3024,7 @@ aLists
 )
 ;
 }
-PRIntn
+int
 nsTableCellFrame
 :
 :
@@ -3033,7 +3033,7 @@ GetSkipSides
 )
 const
 {
-PRIntn
+int
 skip
 =
 0

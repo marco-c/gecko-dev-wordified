@@ -3366,7 +3366,7 @@ PRFileDesc
 *
 next
 ;
-PRIntn
+int
 lockCount
 ;
 /
@@ -3671,9 +3671,9 @@ const
 nsAFlatString
 &
 name
-PRIntn
+int
 osflags
-PRIntn
+int
 mode
 PRFileDesc
 *

@@ -12642,7 +12642,7 @@ key
 ;
 }
 static
-PRIntn
+int
 CompareKeys
 (
 void
@@ -13448,13 +13448,13 @@ us
 }
 }
 static
-PRIntn
+int
 RemoveUndisplayedEntry
 (
 PLHashEntry
 *
 he
-PRIntn
+int
 i
 void
 *

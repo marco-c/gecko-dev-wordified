@@ -1705,13 +1705,13 @@ non
 premultiplied
 alpha
 .
-PRIntn
+int
 r
 g
 b
 a
 ;
-PRIntn
+int
 bgAlpha
 =
 NS_GET_A
@@ -1719,7 +1719,7 @@ NS_GET_A
 aBG
 )
 ;
-PRIntn
+int
 fgAlpha
 =
 NS_GET_A
@@ -1771,7 +1771,7 @@ fgAlpha
 +
 a
 ;
-PRIntn
+int
 blendAlpha
 ;
 if

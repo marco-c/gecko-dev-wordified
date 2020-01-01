@@ -333,7 +333,7 @@ Close
 nsresult
 OpenCacheFile
 (
-PRIntn
+int
 flags
 PRFileDesc
 *

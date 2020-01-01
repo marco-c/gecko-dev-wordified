@@ -258,7 +258,7 @@ key
 )
 ;
 static
-PRIntn
+int
 Hash_CompareNSString
 (
 const
@@ -272,13 +272,13 @@ s2
 )
 ;
 static
-PRIntn
+int
 Hash_EnumerateDelete
 (
 PLHashEntry
 *
 he
-PRIntn
+int
 hashIndex
 void
 *

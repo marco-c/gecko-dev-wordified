@@ -1352,7 +1352,7 @@ child
 is
 -
 inline
-PRIntn
+int
 index
 =
 0
@@ -43522,7 +43522,7 @@ y
 Painting
 event
 handling
-PRIntn
+int
 nsBlockFrame
 :
 :
@@ -43553,7 +43553,7 @@ NS_SIDE_TOP
 NS_SIDE_BOTTOM
 )
 ;
-PRIntn
+int
 skip
 =
 0

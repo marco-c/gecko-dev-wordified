@@ -3426,7 +3426,7 @@ char
 unixPath
 )
 {
-PRIntn
+int
 len
 ;
 char
