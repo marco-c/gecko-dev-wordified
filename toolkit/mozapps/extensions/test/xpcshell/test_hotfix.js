@@ -278,6 +278,8 @@ extensions
 .
 update
 .
+background
+.
 url
 "
 "
