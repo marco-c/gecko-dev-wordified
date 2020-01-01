@@ -895,9 +895,6 @@ nsComposerCommandsUpdater
 >
 mStateMaintainer
 ;
-nsWeakPtr
-mWindowToBeEdited
-;
 /
 /
 Save
