@@ -2176,6 +2176,13 @@ nsIAtom
 aCommand
 )
 ;
+PRBool
+DispatchContentCommandEvent
+(
+PRInt32
+aMsg
+)
+;
 void
 SetWindowClipRegion
 (
