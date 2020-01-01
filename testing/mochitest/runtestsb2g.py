@@ -824,6 +824,19 @@ testPath
 "
 "
         
+defaults
+[
+"
+extensionsToExclude
+"
+]
+=
+[
+"
+specialpowers
+"
+]
+        
 self
 .
 set_defaults
