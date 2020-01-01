@@ -104,13 +104,6 @@ nsString
 .
 h
 "
-#
-include
-"
-jsapi
-.
-h
-"
 class
 nsIURI
 ;

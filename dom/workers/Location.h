@@ -120,13 +120,6 @@ WorkerPrivate
 .
 h
 "
-#
-include
-"
-jspubtd
-.
-h
-"
 BEGIN_WORKERS_NAMESPACE
 class
 WorkerLocation

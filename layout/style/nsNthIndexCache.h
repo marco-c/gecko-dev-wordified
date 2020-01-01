@@ -102,15 +102,6 @@ nsContentIndexCache_h__
 #
 include
 "
-js
-/
-HashTable
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

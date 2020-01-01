@@ -179,13 +179,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h

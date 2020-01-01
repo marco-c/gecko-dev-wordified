@@ -132,6 +132,13 @@ xpcpublic
 .
 h
 "
+#
+include
+"
+jswrapper
+.
+h
+"
 class
 nsIScriptSecurityManager
 ;

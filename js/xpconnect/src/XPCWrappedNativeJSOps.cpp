@@ -145,6 +145,13 @@ h
 #
 include
 "
+jsprf
+.
+h
+"
+#
+include
+"
 nsWrapperCacheInlines
 .
 h

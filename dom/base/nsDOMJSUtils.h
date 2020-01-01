@@ -65,13 +65,6 @@ nsDOMJSUtils_h__
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsIScriptContext
 .
 h

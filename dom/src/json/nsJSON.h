@@ -102,13 +102,6 @@ nsJSON_h__
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsIJSON
 .
 h

@@ -102,13 +102,6 @@ nsEventListenerManager_h__
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

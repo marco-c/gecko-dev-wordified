@@ -113,13 +113,6 @@ xpcpublic
 .
 h
 "
-#
-include
-"
-jsapi
-.
-h
-"
 inline
 JSObject
 *

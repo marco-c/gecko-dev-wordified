@@ -124,13 +124,6 @@ TimeStamp
 .
 h
 "
-#
-include
-"
-jsfriendapi
-.
-h
-"
 using
 mozilla
 :
@@ -142,6 +135,12 @@ mozilla
 :
 :
 TimeDuration
+;
+struct
+JSContext
+;
+class
+JSObject
 ;
 /
 /

@@ -109,13 +109,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 npapi
 .
 h

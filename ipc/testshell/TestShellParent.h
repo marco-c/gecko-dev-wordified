@@ -136,13 +136,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsAutoJSValHolder
 .
 h

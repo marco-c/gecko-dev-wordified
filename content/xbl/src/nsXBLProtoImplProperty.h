@@ -125,13 +125,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

@@ -139,7 +139,9 @@ h
 #
 include
 "
-jsapi
+js
+/
+Value
 .
 h
 "
@@ -257,7 +259,10 @@ void
 *
 tricks
 .
-jsval
+JS
+:
+:
+Value
 j
 ;
 }
@@ -512,7 +517,10 @@ memory
 deallocation
 interface
 release
-jsval
+JS
+:
+:
+Value
 unrooting
 etc
 )

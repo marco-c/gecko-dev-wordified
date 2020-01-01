@@ -201,7 +201,10 @@ aResult
 NS_IMETHOD
 GetArgvPtr
 (
-jsval
+JS
+:
+:
+Value
 *
 *
 aResult

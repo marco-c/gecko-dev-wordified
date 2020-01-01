@@ -106,13 +106,6 @@ Workers
 .
 h
 "
-#
-include
-"
-jsapi
-.
-h
-"
 class
 nsIPrincipal
 ;

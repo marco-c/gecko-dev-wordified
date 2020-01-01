@@ -141,13 +141,6 @@ h
 #
 include
 "
-jspubtd
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Mutex

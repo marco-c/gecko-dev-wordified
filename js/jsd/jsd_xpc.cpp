@@ -118,6 +118,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 jsd_xpc
 .
 h

@@ -182,6 +182,13 @@ h
 #
 include
 "
+jsprf
+.
+h
+"
+#
+include
+"
 nsJSUtils
 .
 h

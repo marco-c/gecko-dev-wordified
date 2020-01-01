@@ -135,6 +135,13 @@ jsd
 h
 "
 #
+include
+"
+jsprf
+.
+h
+"
+#
 ifdef
 DEBUG
 void

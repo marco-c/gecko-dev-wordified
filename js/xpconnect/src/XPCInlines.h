@@ -133,13 +133,6 @@ include
 <
 algorithm
 >
-#
-include
-"
-jsfriendapi
-.
-h
-"
 /
 *
 *

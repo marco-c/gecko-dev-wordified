@@ -99,15 +99,6 @@ nsXBLMaybeCompiled_h__
 #
 define
 nsXBLMaybeCompiled_h__
-#
-include
-"
-js
-/
-RootingAPI
-.
-h
-"
 /
 *
 *

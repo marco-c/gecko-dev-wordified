@@ -123,13 +123,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

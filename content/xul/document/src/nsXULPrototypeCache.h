@@ -172,13 +172,6 @@ h
 #
 include
 "
-jspubtd
-.
-h
-"
-#
-include
-"
 mozilla
 /
 scache

@@ -153,13 +153,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions

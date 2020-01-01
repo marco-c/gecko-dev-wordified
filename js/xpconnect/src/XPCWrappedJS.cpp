@@ -116,6 +116,13 @@ h
 #
 include
 "
+jsprf
+.
+h
+"
+#
+include
+"
 nsCxPusher
 .
 h

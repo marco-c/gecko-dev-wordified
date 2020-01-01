@@ -187,6 +187,13 @@ h
 #
 include
 "
+jsdbgapi
+.
+h
+"
+#
+include
+"
 jsproxy
 .
 h

@@ -148,6 +148,13 @@ h
 #
 include
 "
+jswrapper
+.
+h
+"
+#
+include
+"
 HeapAPI
 .
 h

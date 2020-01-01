@@ -161,13 +161,6 @@ xpcpublic
 .
 h
 "
-#
-include
-"
-jsapi
-.
-h
-"
 namespace
 mozilla
 {

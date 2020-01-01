@@ -122,13 +122,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 npfunctions
 .
 h

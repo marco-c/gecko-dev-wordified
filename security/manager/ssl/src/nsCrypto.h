@@ -165,13 +165,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h

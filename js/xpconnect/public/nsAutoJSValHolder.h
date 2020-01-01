@@ -102,13 +102,6 @@ __NSAUTOJSVALHOLDER_H__
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h
