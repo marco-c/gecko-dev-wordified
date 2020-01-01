@@ -120,6 +120,8 @@ gRecurseLimit
 (
 gDebugger
 .
+DebuggerController
+.
 StackFrames
 .
 pageSize
@@ -129,7 +131,9 @@ pageSize
 +
 1
 ;
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .
@@ -164,7 +168,7 @@ gDebugger
 .
 DebuggerView
 .
-Stackframes
+StackFrames
 .
 _frames
 ;
@@ -172,6 +176,8 @@ let
 pageSize
 =
 gDebugger
+.
+DebuggerController
 .
 StackFrames
 .
@@ -247,7 +253,9 @@ frames
 "
 )
 ;
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .
@@ -292,7 +300,9 @@ frames
 "
 )
 ;
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .
@@ -334,7 +344,7 @@ limit
 ;
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .

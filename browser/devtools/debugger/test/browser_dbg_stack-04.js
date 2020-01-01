@@ -113,7 +113,9 @@ testEvalCallResume
 (
 )
 {
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .
@@ -148,7 +150,7 @@ gDebugger
 .
 DebuggerView
 .
-Stackframes
+StackFrames
 .
 _frames
 ;
@@ -163,7 +165,7 @@ is
 (
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .
@@ -237,7 +239,9 @@ frames
 "
 )
 ;
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .
@@ -325,7 +329,9 @@ gTab
 }
 )
 ;
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .

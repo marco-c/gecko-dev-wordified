@@ -173,7 +173,9 @@ testSelectLine
 (
 )
 {
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .
@@ -215,7 +217,7 @@ is
 (
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .
@@ -498,7 +500,7 @@ selected
 ;
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .

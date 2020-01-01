@@ -95,7 +95,7 @@ is
 (
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .
@@ -111,7 +111,9 @@ debug_tab_pane
 "
 )
 ;
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .
@@ -146,7 +148,7 @@ gDebugger
 .
 DebuggerView
 .
-Stackframes
+StackFrames
 .
 _frames
 ;
@@ -161,7 +163,7 @@ is
 (
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .
@@ -207,7 +209,9 @@ stack
 "
 )
 ;
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .

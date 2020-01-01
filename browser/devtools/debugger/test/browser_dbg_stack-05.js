@@ -144,7 +144,9 @@ gPane
 .
 debuggerWindow
 ;
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .
@@ -286,7 +288,7 @@ gDebugger
 .
 DebuggerView
 .
-Stackframes
+StackFrames
 .
 _frames
 ;
@@ -691,7 +693,7 @@ again
 ;
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .

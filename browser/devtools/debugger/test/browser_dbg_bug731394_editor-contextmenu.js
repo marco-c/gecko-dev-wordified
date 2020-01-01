@@ -160,7 +160,9 @@ gPane
 .
 debuggerWindow
 ;
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .
@@ -309,7 +311,7 @@ is
 (
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .
@@ -719,7 +721,7 @@ hidePopup
 ;
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .

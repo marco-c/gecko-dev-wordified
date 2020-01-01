@@ -113,7 +113,9 @@ testSimpleCall
 (
 )
 {
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .
@@ -148,7 +150,7 @@ gDebugger
 .
 DebuggerView
 .
-Stackframes
+StackFrames
 .
 _frames
 ;
@@ -163,7 +165,7 @@ is
 (
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .
@@ -240,7 +242,7 @@ frames
 ;
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .

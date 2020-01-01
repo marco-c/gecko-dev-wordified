@@ -108,7 +108,7 @@ is
 (
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .
@@ -145,7 +145,7 @@ button
 label
 gDebugger
 .
-DebuggerView
+L10N
 .
 getStr
 (
@@ -165,7 +165,9 @@ running
 "
 )
 ;
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .
@@ -200,7 +202,7 @@ gDebugger
 .
 DebuggerView
 .
-Stackframes
+StackFrames
 .
 _frames
 ;
@@ -215,7 +217,7 @@ is
 (
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .
@@ -240,7 +242,7 @@ button
 label
 gDebugger
 .
-DebuggerView
+L10N
 .
 getStr
 (
@@ -333,7 +335,9 @@ testResume
 (
 )
 {
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .
@@ -365,7 +369,7 @@ is
 (
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .
@@ -404,7 +408,7 @@ button
 label
 gDebugger
 .
-DebuggerView
+L10N
 .
 getStr
 (

@@ -106,7 +106,9 @@ testAnonCall
 (
 )
 {
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .
@@ -141,7 +143,7 @@ gDebugger
 .
 DebuggerView
 .
-Stackframes
+StackFrames
 .
 _frames
 ;
@@ -149,7 +151,7 @@ is
 (
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .
@@ -254,7 +256,7 @@ resumeAndFinish
 {
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .

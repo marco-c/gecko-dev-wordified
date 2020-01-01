@@ -174,7 +174,9 @@ gPane
 .
 debuggerWindow
 ;
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .
@@ -320,7 +322,7 @@ is
 (
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .
@@ -401,8 +403,6 @@ selected
 gScripts
 .
 scriptLocations
-(
-)
 [
 0
 ]
@@ -1080,8 +1080,6 @@ script0
 gScripts
 .
 scriptLocations
-(
-)
 [
 0
 ]
@@ -1249,8 +1247,6 @@ url
 gScripts
 .
 scriptLocations
-(
-)
 [
 0
 ]
@@ -1335,8 +1331,6 @@ getBreakpoint
 gScripts
 .
 scriptLocations
-(
-)
 [
 0
 ]
@@ -1421,6 +1415,8 @@ selectedIndex
 0
 ;
 gDebugger
+.
+DebuggerController
 .
 SourceScripts
 .
@@ -1808,7 +1804,7 @@ function
 {
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .
@@ -1857,8 +1853,6 @@ getBreakpoint
 gScripts
 .
 scriptLocations
-(
-)
 [
 0
 ]
