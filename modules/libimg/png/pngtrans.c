@@ -28,10 +28,10 @@ libpng
 .
 2
 .
-13
-November
-13
-2006
+17
+May
+15
+2007
 *
 For
 conditions
@@ -53,7 +53,7 @@ c
 )
 1998
 -
-2006
+2007
 Glenn
 Randers
 -
