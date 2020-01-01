@@ -3408,10 +3408,16 @@ Reason
 reason
 )
 {
+this
+-
+>
 collectedCount
 =
 collectedCount
 ;
+this
+-
+>
 compartmentCount
 =
 compartmentCount
