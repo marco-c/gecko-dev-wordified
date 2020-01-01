@@ -3439,6 +3439,9 @@ self
 )
 :
     
+try
+:
+      
 ip
 =
 socket
@@ -3451,6 +3454,35 @@ gethostname
 (
 )
 )
+    
+except
+socket
+.
+gaierror
+:
+      
+ip
+=
+socket
+.
+gethostbyname
+(
+socket
+.
+gethostname
+(
+)
++
+"
+.
+local
+"
+)
+#
+for
+Mac
+OS
+X
     
 if
 ip
