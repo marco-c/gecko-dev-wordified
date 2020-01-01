@@ -1589,10 +1589,8 @@ mAuthCache
 the
 connection
 manager
-nsRefPtr
-<
 nsHttpConnectionMgr
->
+*
 mConnMgr
 ;
 /
