@@ -8603,6 +8603,17 @@ script
 (
 )
 stackfp
+-
+>
+fun
+(
+)
+stackfp
+-
+>
+scopeChain
+(
+)
 )
 ;
 gen

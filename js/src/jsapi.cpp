@@ -16729,7 +16729,7 @@ vp
 )
 ;
 return
-js_CreateThis
+js_NewInstance
 (
 cx
 JSVAL_TO_OBJECT

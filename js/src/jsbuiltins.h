@@ -4994,7 +4994,7 @@ js_Object_tn
 )
 JS_DECLARE_CALLINFO
 (
-js_CreateThisFromTrace
+js_NewInstanceFromTrace
 )
 JS_DECLARE_CALLINFO
 (

@@ -5893,7 +5893,7 @@ the
 return
 value
 of
-js_CreateThis
+js_NewInstance
 to
 record_NativeCallComplete
 .

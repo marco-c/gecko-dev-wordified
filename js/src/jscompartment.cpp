@@ -2252,9 +2252,7 @@ if
 script
 -
 >
-hasJITCode
-(
-)
+jit
 )
 mjit
 :
@@ -2334,9 +2332,7 @@ if
 script
 -
 >
-hasJITCode
-(
-)
+jit
 )
 {
 #
