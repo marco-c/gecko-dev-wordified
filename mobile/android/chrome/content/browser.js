@@ -7136,10 +7136,10 @@ offsetY
 0
 pageWidth
 :
-1
+gScreenWidth
 pageHeight
 :
-1
+gScreenHeight
 zoom
 :
 1
@@ -8964,10 +8964,10 @@ _viewport
 height
 pageWidth
 :
-1
+gScreenWidth
 pageHeight
 :
-1
+gScreenHeight
 zoom
 :
 zoom
