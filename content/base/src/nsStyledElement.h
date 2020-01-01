@@ -603,8 +603,7 @@ GetInlineStyleRule
 (
 )
 ;
-virtual
-nsresult
+NS_IMETHOD
 SetInlineStyleRule
 (
 mozilla

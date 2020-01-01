@@ -2356,6 +2356,15 @@ aDest
 )
 ;
 static
+nsISupports
+*
+GetClassInfoInstance
+(
+nsDOMClassInfoID
+aID
+)
+;
+static
 const
 nsDependentSubstring
 TrimCharsInSet

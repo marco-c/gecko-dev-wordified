@@ -1877,10 +1877,14 @@ nsGkAtoms
 aria_describedby
 )
 ;
-while
-(
 nsIContent
 *
+target
+=
+nsnull
+;
+while
+(
 target
 =
 iter

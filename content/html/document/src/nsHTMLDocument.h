@@ -824,12 +824,6 @@ nsDocument
 /
 nsIDOMHTMLDocument
 interface
-using
-nsDocument
-:
-:
-GetPlugins
-;
 NS_DECL_NSIDOMHTMLDOCUMENT
 /
 *

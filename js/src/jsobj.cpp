@@ -762,13 +762,6 @@ h
 #
 include
 "
-jscntxtinlines
-.
-h
-"
-#
-include
-"
 jsinterpinlines
 .
 h
@@ -16547,11 +16540,9 @@ propid
 ;
 last
 =
-cx
--
->
-propertyTree
+JS_PROPERTY_TREE
 (
+cx
 )
 .
 getChild
@@ -16573,7 +16564,7 @@ if
 last
 )
 return
-false
+NULL
 ;
 }
 JS_ASSERT

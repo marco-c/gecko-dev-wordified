@@ -466,15 +466,6 @@ PluginScriptableObjectParent
 h
 "
 #
-include
-"
-mozilla
-/
-unused
-.
-h
-"
-#
 if
 defined
 (
@@ -1521,9 +1512,6 @@ DidComposite
 (
 )
 {
-unused
-<
-<
 SendNPP_DidComposite
 (
 )

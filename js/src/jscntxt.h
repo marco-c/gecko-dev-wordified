@@ -5863,16 +5863,6 @@ typeLifoAlloc
 (
 )
 ;
-inline
-js
-:
-:
-PropertyTree
-&
-propertyTree
-(
-)
-;
 #
 ifdef
 JS_THREADSAFE

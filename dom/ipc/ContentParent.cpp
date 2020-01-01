@@ -2775,9 +2775,6 @@ information
 to
 content
 process
-unused
-<
-<
 SendAppInfo
 (
 version
@@ -4366,9 +4363,6 @@ request
 )
 )
 {
-unused
-<
-<
 SendGarbageCollect
 (
 )
@@ -4391,9 +4385,6 @@ request
 )
 )
 {
-unused
-<
-<
 SendCycleCollect
 (
 )

@@ -758,6 +758,7 @@ SCOPED_TEMPLATE
 ScopedXFree
 ScopedXFreePtrTraits
 )
+;
 /
 *
 *

@@ -10227,12 +10227,14 @@ return
 JSContext
 *
 cx
-=
+;
 stack
 -
 >
 GetSafeJSContext
 (
+&
+cx
 )
 ;
 if
