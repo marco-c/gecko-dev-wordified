@@ -1519,11 +1519,6 @@ ImageLayerOGL
 RenderLayer
 (
 int
-DrawThebesLayerCallback
-aCallback
-void
-*
-aCallbackData
 )
 {
 if
