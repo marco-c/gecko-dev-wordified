@@ -501,14 +501,10 @@ media
 stream
 download
 .
+virtual
 nsresult
 Load
 (
-MediaResource
-*
-aResource
-=
-nullptr
 nsIStreamListener
 *
 *
@@ -521,6 +517,7 @@ aCloneDonor
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 /
 /

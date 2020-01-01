@@ -397,12 +397,10 @@ main
 thread
 only
 .
+virtual
 nsresult
 Load
 (
-MediaResource
-*
-aResource
 nsIStreamListener
 *
 *
@@ -411,6 +409,7 @@ MediaDecoder
 *
 aCloneDonor
 )
+MOZ_OVERRIDE
 ;
 /
 /
