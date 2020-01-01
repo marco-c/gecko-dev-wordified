@@ -3505,7 +3505,7 @@ Step
 .
 *
 /
-jsuint
+uint32_t
 length
 ;
 if
@@ -4692,7 +4692,7 @@ ii
 .
 *
 /
-jsuint
+uint32_t
 len
 ;
 JS_ALWAYS_TRUE
@@ -4760,7 +4760,7 @@ iii
 .
 *
 /
-jsuint
+uint32_t
 i
 =
 0

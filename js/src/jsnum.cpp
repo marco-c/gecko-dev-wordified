@@ -4074,7 +4074,7 @@ base
 10
 )
 {
-jsuint
+unsigned
 u
 =
 (
@@ -4156,7 +4156,7 @@ case
 :
 do
 {
-jsuint
+unsigned
 newu
 =
 u
@@ -4212,7 +4212,7 @@ base
 ;
 do
 {
-jsuint
+unsigned
 newu
 =
 u
@@ -7288,12 +7288,12 @@ i
 ;
 if
 (
-jsuint
+unsigned
 (
 i
 )
 <
-jsuint
+unsigned
 (
 base
 )
@@ -8548,7 +8548,7 @@ d
 :
 d
 ;
-jsuint
+unsigned
 m
 =
 JS_BIT

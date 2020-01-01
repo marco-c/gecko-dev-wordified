@@ -4348,7 +4348,7 @@ JS_SetArrayLength
 (
 aCx
 array
-jsuint
+uint32_t
 (
 keys
 .

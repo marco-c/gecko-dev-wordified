@@ -4065,7 +4065,7 @@ exec
 (
 aObj
 .
-valueOf
+toString
 (
 )
 )
@@ -4083,7 +4083,7 @@ match
 return
 aObj
 .
-valueOf
+toString
 (
 )
 ;

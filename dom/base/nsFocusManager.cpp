@@ -5070,7 +5070,7 @@ mActiveWindow
 }
 NotifyFocusStateChange
 (
-aContent
+content
 shouldShowFocusRing
 false
 )

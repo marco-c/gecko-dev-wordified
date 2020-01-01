@@ -8535,7 +8535,7 @@ toObject
 (
 )
 ;
-jsuint
+uint32_t
 length
 ;
 if

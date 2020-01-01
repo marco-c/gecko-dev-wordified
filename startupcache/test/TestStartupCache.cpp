@@ -2343,7 +2343,7 @@ JSObject
 after
 )
 {
-jsuint
+uint32_t
 before_size
 after_size
 ;
@@ -2388,7 +2388,7 @@ NS_ERROR_UNEXPECTED
 }
 for
 (
-jsuint
+uint32_t
 i
 =
 0

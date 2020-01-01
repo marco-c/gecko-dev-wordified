@@ -1411,7 +1411,9 @@ GetBaseline
 const
 ;
 virtual
+const
 nsFrameList
+&
 GetChildList
 (
 ChildListID

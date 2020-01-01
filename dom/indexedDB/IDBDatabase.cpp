@@ -2140,7 +2140,7 @@ JSVAL_TO_OBJECT
 val
 )
 ;
-jsuint
+uint32_t
 length
 ;
 if
@@ -2178,7 +2178,7 @@ length
 ;
 for
 (
-jsuint
+uint32_t
 index
 =
 0
@@ -2871,7 +2871,7 @@ obj
 )
 )
 {
-jsuint
+uint32_t
 length
 ;
 if
@@ -2909,7 +2909,7 @@ length
 ;
 for
 (
-jsuint
+uint32_t
 index
 =
 0

@@ -4234,7 +4234,7 @@ lastProperty
 (
 )
 ;
-jsuint
+uint32_t
 index
 ;
 bool
@@ -4990,7 +4990,7 @@ cx
 )
 ;
 {
-jsuint
+uint32_t
 index
 ;
 bool

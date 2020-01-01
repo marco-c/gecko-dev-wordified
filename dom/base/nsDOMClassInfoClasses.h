@@ -1874,6 +1874,10 @@ MozPowerManager
 )
 DOMCI_CLASS
 (
+MozWakeLock
+)
+DOMCI_CLASS
+(
 MozSmsManager
 )
 DOMCI_CLASS

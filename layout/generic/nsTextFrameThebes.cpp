@@ -8138,7 +8138,6 @@ nsBlockInFlowLineIterator
 block
 *
 aForFrameLine
-false
 )
 ;
 }

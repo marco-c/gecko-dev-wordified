@@ -1471,10 +1471,6 @@ false
 NS_RegisterStaticAtoms
 (
 sAtoms_info
-ArrayLength
-(
-sAtoms_info
-)
 )
 ;
 return

@@ -2847,12 +2847,6 @@ cx
 >
 runtime
 ;
-AutoLockGC
-lock
-(
-rt
-)
-;
 JS_APPEND_LINK
 (
 &
@@ -22233,7 +22227,7 @@ referent
 obj
 -
 >
-setPrivate
+setPrivateUnbarriered
 (
 referent
 )
@@ -26556,7 +26550,7 @@ referent
 obj
 -
 >
-setPrivate
+setPrivateUnbarriered
 (
 referent
 )

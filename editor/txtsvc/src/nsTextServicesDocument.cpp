@@ -876,10 +876,6 @@ TS_ATOM
 NS_RegisterStaticAtoms
 (
 ts_atoms
-ArrayLength
-(
-ts_atoms
-)
 )
 ;
 }

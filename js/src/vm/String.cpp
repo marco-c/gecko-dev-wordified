@@ -4261,7 +4261,7 @@ chars
 ;
 return
 (
-jsuint
+unsigned
 (
 i
 )
