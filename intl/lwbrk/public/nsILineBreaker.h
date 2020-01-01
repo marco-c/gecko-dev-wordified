@@ -235,7 +235,7 @@ end
 We
 will
 apply
-JISx4501
+JISx4051
 /
 /
 rules
