@@ -1941,6 +1941,9 @@ if
 styleContext
 )
 {
+/
+/
+ReportToConsole
 NS_WARNING
 (
 "
@@ -2123,6 +2126,9 @@ if
 styleContext
 )
 {
+/
+/
+ReportToConsole
 NS_WARNING
 (
 "
@@ -2256,6 +2262,9 @@ if
 fontMetrics
 )
 {
+/
+/
+ReportToConsole
 NS_WARNING
 (
 "

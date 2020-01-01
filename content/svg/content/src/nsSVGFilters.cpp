@@ -591,13 +591,6 @@ h
 #
 include
 "
-nsSVGLengthList
-.
-h
-"
-#
-include
-"
 nsIDOMSVGURIReference
 .
 h

@@ -1006,8 +1006,8 @@ methods
 *
 readonly
 attribute
-nsIDOMSVGAnimatedLengthList
-x
+nsIDOMSVGAnimatedNumber
+offset
 ;
 *
 /
