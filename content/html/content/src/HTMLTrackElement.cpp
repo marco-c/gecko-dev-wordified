@@ -1732,10 +1732,10 @@ parent
 )
 )
 ;
-nsContentUtils
-:
-:
-AddScriptRunner
+mMediaParent
+-
+>
+RunInStableState
 (
 NS_NewRunnableMethod
 (
