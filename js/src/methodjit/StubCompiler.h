@@ -1041,14 +1041,6 @@ total
 )
 ;
 void
-finalize
-(
-uint8
-*
-ncode
-)
-;
-void
 jumpInScript
 (
 Jump

@@ -816,6 +816,13 @@ masm
 pool
 )
 ;
+masm
+.
+finalize
+(
+buffer
+)
+;
 uint8
 *
 result
@@ -832,13 +839,6 @@ finalizeCodeAddendum
 .
 dataLocation
 (
-)
-;
-masm
-.
-finalize
-(
-result
 )
 ;
 *

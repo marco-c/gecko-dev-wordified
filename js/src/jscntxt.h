@@ -1704,7 +1704,7 @@ JSC
 :
 ExecutableAllocator
 *
-execPool
+execAlloc
 ;
 /
 /
