@@ -3352,7 +3352,7 @@ editable
 &
 &
 !
-Util
+ViewableAreaObserver
 .
 isKeyboardOpened
 )
@@ -4295,7 +4295,7 @@ Resize
 if
 (
 !
-Util
+ViewableAreaObserver
 .
 isKeyboardOpened
 )
@@ -4388,7 +4388,7 @@ Update
 if
 (
 !
-Util
+ViewableAreaObserver
 .
 isKeyboardOpened
 )
