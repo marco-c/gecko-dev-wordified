@@ -30245,9 +30245,6 @@ endif
 JS_HAS_SHARP_VARS
 *
 /
-#
-if
-JS_HAS_DEBUGGER_KEYWORD
 case
 JSOP_DEBUGGER
 :
@@ -30270,13 +30267,6 @@ todo
 ;
 break
 ;
-#
-endif
-/
-*
-JS_HAS_DEBUGGER_KEYWORD
-*
-/
 #
 if
 JS_HAS_XML_SUPPORT

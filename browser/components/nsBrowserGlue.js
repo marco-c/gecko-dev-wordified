@@ -1150,7 +1150,7 @@ delay
 3
 ;
 let
-enum
+browserEnum
 =
 Services
 .
@@ -1167,7 +1167,7 @@ browser
 ;
 while
 (
-enum
+browserEnum
 .
 hasMoreElements
 (
@@ -1177,7 +1177,7 @@ hasMoreElements
 delay
 +
 =
-enum
+browserEnum
 .
 getNext
 (
