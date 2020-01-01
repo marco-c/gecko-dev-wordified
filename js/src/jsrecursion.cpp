@@ -1721,8 +1721,6 @@ RECURSIVE_SLURP_FAIL_EXIT
 )
 {
 return
-InjectStatus
-(
 slurpDownFrames
 (
 cx
@@ -1738,7 +1736,6 @@ regs
 -
 >
 pc
-)
 )
 ;
 }
