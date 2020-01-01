@@ -143,7 +143,7 @@ public
 :
 static
 bool
-isSameOrigin
+subsumes
 (
 JSCompartment
 *
