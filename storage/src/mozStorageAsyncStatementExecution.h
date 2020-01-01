@@ -498,6 +498,15 @@ h
 #
 include
 "
+mozilla
+/
+TimeStamp
+.
+h
+"
+#
+include
+"
 mozIStoragePendingStatement
 .
 h
@@ -1275,8 +1284,8 @@ construction
 *
 /
 const
-PRIntervalTime
-mMaxIntervalWait
+TimeDuration
+mMaxWait
 ;
 /
 *
@@ -1294,7 +1303,7 @@ results
 .
 *
 /
-PRIntervalTime
+TimeStamp
 mIntervalStart
 ;
 /
