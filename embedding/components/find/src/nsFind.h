@@ -474,13 +474,6 @@ h
 #
 include
 "
-nsIParserService
-.
-h
-"
-#
-include
-"
 nsIWordBreaker
 .
 h
@@ -648,12 +641,6 @@ nsCOMPtr
 nsIWordBreaker
 >
 mWordBreaker
-;
-nsCOMPtr
-<
-nsIParserService
->
-mParserService
 ;
 PRInt32
 mIterOffset
