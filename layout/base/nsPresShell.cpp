@@ -11583,7 +11583,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >
@@ -22679,7 +22679,7 @@ manager
 stays
 alive
 .
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >
@@ -51439,7 +51439,7 @@ new
 view
 manager
 .
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >

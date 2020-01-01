@@ -2207,7 +2207,7 @@ aDocShell
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >
@@ -2749,7 +2749,7 @@ ForceRefresh
 (
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >

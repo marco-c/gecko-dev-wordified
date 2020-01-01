@@ -18396,7 +18396,7 @@ return
 false
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >
