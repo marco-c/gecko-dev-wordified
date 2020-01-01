@@ -152,7 +152,12 @@ DebuggerView
 .
 Properties
 .
-globalScope
+addScope
+(
+"
+Global
+"
+)
 ;
 let
 localScope
@@ -163,7 +168,12 @@ DebuggerView
 .
 Properties
 .
-localScope
+addScope
+(
+"
+Local
+"
+)
 ;
 globalScope
 .
