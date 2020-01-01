@@ -908,7 +908,7 @@ path
 ;
 editor
 .
-run
+runw
 (
 false
 [
@@ -2257,7 +2257,7 @@ this
 .
 editor
 .
-run
+runw
 (
 false
 editorArgs
