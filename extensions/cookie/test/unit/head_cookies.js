@@ -2020,9 +2020,11 @@ cookie
 if
 (
 !
+(
 cookie
 instanceof
 Cookie
+)
 )
 do_throw
 (
@@ -2608,9 +2610,11 @@ cookie
 if
 (
 !
+(
 cookie
 instanceof
 Cookie
+)
 )
 do_throw
 (
@@ -2732,9 +2736,11 @@ cookie
 if
 (
 !
+(
 cookie
 instanceof
 Cookie
+)
 )
 do_throw
 (
