@@ -95,7 +95,8 @@ we
 /
 loop
 here
-twice
+multiple
+times
 overwriting
 the
 stack
@@ -115,7 +116,7 @@ j
 j
 !
 =
-2
+8
 ;
 +
 +
@@ -255,6 +256,8 @@ finalizeCount
 assertEq
 (
 base
++
+4
 <
 finalizeCount
 (

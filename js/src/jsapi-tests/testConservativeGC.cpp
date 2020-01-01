@@ -370,12 +370,12 @@ objShape
 savedCopy
 -
 >
-dslots
+slots
 =
 obj
 -
 >
-dslots
+slots
 ;
 CHECK
 (
