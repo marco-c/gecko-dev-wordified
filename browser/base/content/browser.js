@@ -46908,9 +46908,6 @@ CrashSubmit
 submit
 (
 pluginDumpID
-gBrowser
-null
-null
 )
 ;
 if
@@ -46924,9 +46921,6 @@ CrashSubmit
 submit
 (
 browserDumpID
-gBrowser
-null
-null
 )
 ;
 }

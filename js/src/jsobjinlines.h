@@ -9726,7 +9726,7 @@ DefineConstructorAndPrototype
 JSContext
 *
 cx
-JSObject
+GlobalObject
 *
 global
 JSProtoKey
@@ -9739,16 +9739,6 @@ JSObject
 proto
 )
 {
-JS_ASSERT
-(
-global
--
->
-isGlobal
-(
-)
-)
-;
 JS_ASSERT
 (
 !

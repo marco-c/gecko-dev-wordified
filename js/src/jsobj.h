@@ -4227,7 +4227,10 @@ numSlots
 const
 {
 return
+uint32
+(
 capacity
+)
 ;
 }
 inline
