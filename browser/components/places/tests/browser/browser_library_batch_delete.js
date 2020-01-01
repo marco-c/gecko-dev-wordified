@@ -51,9 +51,11 @@ http
 /
 www
 .
-mozilla
+batch
 .
-org
+delete
+.
+me
 /
 "
 ;
