@@ -378,6 +378,13 @@ nsHtml5ElementName
 .
 h
 "
+#
+include
+"
+nsHtml5ReleasableElementName
+.
+h
+"
 nsHtml5ElementName
 *
 nsHtml5ElementName
@@ -431,7 +438,7 @@ index
 {
 return
 new
-nsHtml5ElementName
+nsHtml5ReleasableElementName
 (
 nsHtml5Portability
 :
@@ -485,7 +492,7 @@ length
 {
 return
 new
-nsHtml5ElementName
+nsHtml5ReleasableElementName
 (
 nsHtml5Portability
 :
@@ -684,11 +691,11 @@ release
 )
 {
 }
-void
 nsHtml5ElementName
 :
 :
-destructor
+~
+nsHtml5ElementName
 (
 )
 {

@@ -399,8 +399,8 @@ PRInt32
 mode
 )
 ;
-void
-destructor
+~
+nsHtml5HtmlAttributes
 (
 )
 ;

@@ -6,7 +6,7 @@ Copyright
 c
 )
 2005
-2006
+-
 2007
 Henri
 Sivonen
@@ -17,7 +17,7 @@ c
 )
 2007
 -
-2008
+2009
 Mozilla
 Foundation
 *
@@ -27,7 +27,7 @@ comments
 Copyright
 2004
 -
-2007
+2008
 Apple
 Computer
 Inc
@@ -780,9 +780,6 @@ nsHtml5AttributeName
 attributeName
 ;
 PRBool
-shouldAddAttributes
-;
-PRBool
 html4
 ;
 PRBool
@@ -835,8 +832,8 @@ nsString
 newSystemId
 )
 ;
-void
-destructor
+~
+nsHtml5Tokenizer
 (
 )
 ;
@@ -955,7 +952,7 @@ strBufToString
 ;
 nsIAtom
 *
-strBufToLocal
+strBufToDoctypeName
 (
 )
 ;
@@ -1176,6 +1173,11 @@ eof
 ;
 private
 :
+void
+emitDoctypeToken
+(
+)
+;
 PRUnichar
 read
 (
