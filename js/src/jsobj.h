@@ -2241,6 +2241,13 @@ miscSize
 )
 const
 ;
+inline
+bool
+hasIdempotentProtoChain
+(
+)
+const
+;
 static
 const
 uint32_t
