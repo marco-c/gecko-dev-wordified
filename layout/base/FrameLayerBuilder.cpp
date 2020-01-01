@@ -5950,12 +5950,6 @@ and
 bug
 724786
 .
-Uncomment
-this
-code
-before
-review
-!
 #
 ifndef
 MOZ_JAVA_COMPOSITOR
