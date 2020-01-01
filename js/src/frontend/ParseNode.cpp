@@ -2131,7 +2131,7 @@ direct
 children
 of
 |
-pc
+tc
 |
 because
 we
@@ -2139,7 +2139,7 @@ only
 clean
 up
 |
-pc
+tc
 |
 '
 s
@@ -2170,7 +2170,7 @@ you
 ve
 updated
 |
-pc
+tc
 |
 -
 >
@@ -2984,7 +2984,7 @@ in
 this
 case
 |
-pc
+tc
 |
 may
 not
@@ -2995,7 +2995,7 @@ equal
 parser
 -
 >
-pc
+tc
 |
 .
 NameNode
@@ -3013,9 +3013,9 @@ atom
 Parser
 *
 parser
-ParseContext
+TreeContext
 *
-pc
+tc
 )
 {
 ParseNode
@@ -3055,7 +3055,7 @@ pn
 >
 initCommon
 (
-pc
+tc
 )
 ;
 }
@@ -3190,18 +3190,18 @@ Parser
 parser
 )
 {
-ParseContext
+TreeContext
 *
-pc
+tc
 =
 parser
 -
 >
-pc
+tc
 ;
 JS_CHECK_RECURSION
 (
-pc
+tc
 -
 >
 sc
@@ -3346,7 +3346,7 @@ pn_funbox
 >
 object
 pn
-pc
+tc
 )
 )
 ;

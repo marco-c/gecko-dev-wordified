@@ -108,10 +108,10 @@ MPL
 /
 #
 ifndef
-ParseContext_h__
+TreeContext_h__
 #
 define
-ParseContext_h__
+TreeContext_h__
 #
 include
 "
@@ -1684,14 +1684,14 @@ struct
 Parser
 ;
 struct
-StmtInfoPC
+StmtInfoTC
 ;
 struct
-ParseContext
+TreeContext
 {
 /
 *
-parse
+tree
 context
 for
 semantic
@@ -1699,7 +1699,7 @@ checks
 *
 /
 typedef
-StmtInfoPC
+StmtInfoTC
 StmtInfo
 ;
 SharedContext
@@ -1742,7 +1742,7 @@ number
 generator
 *
 /
-StmtInfoPC
+StmtInfoTC
 *
 topStmt
 ;
@@ -1755,7 +1755,7 @@ info
 stack
 *
 /
-StmtInfoPC
+StmtInfoTC
 *
 topScopeStmt
 ;
@@ -1909,10 +1909,10 @@ functionList
 ;
 private
 :
-ParseContext
+TreeContext
 *
 *
-parserPC
+parserTC
 ;
 /
 *
@@ -1924,7 +1924,7 @@ Parser
 '
 s
 active
-pc
+tc
 and
 holds
 either
@@ -1955,7 +1955,7 @@ name
 dependencies
 *
 /
-ParseContext
+TreeContext
 *
 parent
 ;
@@ -2202,7 +2202,7 @@ trc
 )
 ;
 inline
-ParseContext
+TreeContext
 (
 Parser
 *
@@ -2218,7 +2218,7 @@ bodyid
 ;
 inline
 ~
-ParseContext
+TreeContext
 (
 )
 ;
@@ -2678,7 +2678,7 @@ js
 :
 StmtInfo
 {
-PC
+TC
 BCE
 }
 of
@@ -2790,7 +2790,7 @@ too
 /
 /
 /
-StmtInfoPC
+StmtInfoTC
 is
 used
 by
@@ -3033,12 +3033,12 @@ STMT_SUBROUTINE
 }
 ;
 struct
-StmtInfoPC
+StmtInfoTC
 :
 public
 StmtInfoBase
 {
-StmtInfoPC
+StmtInfoTC
 *
 down
 ;
@@ -3050,7 +3050,7 @@ enclosing
 statement
 *
 /
-StmtInfoPC
+StmtInfoTC
 *
 downScope
 ;
@@ -3094,7 +3094,7 @@ body
 bool
 isFunctionBodyBlock
 ;
-StmtInfoPC
+StmtInfoTC
 (
 JSContext
 *
@@ -3116,9 +3116,9 @@ false
 bool
 GenerateBlockId
 (
-ParseContext
+TreeContext
 *
-pc
+tc
 uint32_t
 &
 blockid
@@ -3138,7 +3138,7 @@ at
 stmt
 onto
 the
-StmtInfoPC
+StmtInfoTC
 stack
 .
 template
@@ -3189,7 +3189,7 @@ blockObj
 /
 /
 Pop
-ct
+tc
 -
 >
 topStmt
@@ -3197,7 +3197,7 @@ topStmt
 If
 the
 top
-StmtInfoPC
+StmtInfoTC
 struct
 is
 not
@@ -3434,4 +3434,4 @@ js
 endif
 /
 /
-ParseContext_h__
+TreeContext_h__
