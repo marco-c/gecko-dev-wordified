@@ -1208,7 +1208,7 @@ Constants
 .
 Win
 .
-INVALID_HANDLE_VALUE
+ERROR_INVALID_HANDLE
 ;
 }
 }
@@ -2185,7 +2185,7 @@ Constants
 .
 Win
 .
-INVALID_HANDLE_VALUE
+ERROR_INVALID_HANDLE
 )
 ;
 }
