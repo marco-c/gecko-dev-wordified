@@ -4377,6 +4377,9 @@ HasDirectTexture
 (
 )
 {
+return
+false
+;
 static
 bool
 sTestedDirectTexture
