@@ -519,6 +519,7 @@ true
 ;
 openConsole
 (
+null
 testTextNodeInsertion
 )
 ;

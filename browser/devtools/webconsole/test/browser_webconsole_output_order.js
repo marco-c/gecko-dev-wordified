@@ -522,6 +522,7 @@ true
 ;
 openConsole
 (
+null
 testOutputOrder
 )
 ;

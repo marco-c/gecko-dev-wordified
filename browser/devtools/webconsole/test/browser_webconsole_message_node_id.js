@@ -477,6 +477,7 @@ false
 ;
 openConsole
 (
+null
 function
 (
 hud

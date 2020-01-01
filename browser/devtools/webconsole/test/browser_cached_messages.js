@@ -533,6 +533,7 @@ is
 opened
 openConsole
 (
+null
 function
 (
 hud

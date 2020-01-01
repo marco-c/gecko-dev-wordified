@@ -534,6 +534,7 @@ false
 ;
 openConsole
 (
+null
 function
 (
 aHud

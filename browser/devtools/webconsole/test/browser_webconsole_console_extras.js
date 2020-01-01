@@ -492,6 +492,7 @@ true
 ;
 openConsole
 (
+null
 consoleOpened
 )
 ;

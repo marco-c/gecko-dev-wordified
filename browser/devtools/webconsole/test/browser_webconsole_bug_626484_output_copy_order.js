@@ -30,6 +30,7 @@ zero
 let
 itemsSet
 HUD
+outputNode
 ;
 function
 test
@@ -85,6 +86,7 @@ true
 ;
 openConsole
 (
+null
 consoleOpened
 )
 ;
@@ -239,7 +241,7 @@ successFn
 nextTest
 failureFn
 :
-finish
+finishTest
 }
 )
 ;
@@ -276,10 +278,13 @@ clearOutput
 ;
 HUD
 =
+outputNode
+=
 null
 ;
-finish
+executeSoon
 (
+finishTest
 )
 ;
 }

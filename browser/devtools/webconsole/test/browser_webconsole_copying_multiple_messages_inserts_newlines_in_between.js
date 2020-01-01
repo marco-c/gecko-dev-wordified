@@ -166,6 +166,7 @@ false
 ;
 openConsole
 (
+null
 testNewlines
 )
 ;

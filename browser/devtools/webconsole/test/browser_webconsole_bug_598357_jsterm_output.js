@@ -832,6 +832,7 @@ function
 {
 openConsole
 (
+null
 function
 (
 aHud
