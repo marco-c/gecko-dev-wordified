@@ -1322,6 +1322,9 @@ SetLength
 (
 PRInt32
 aLength
+nsLineLayout
+*
+aLineLayout
 )
 ;
 NS_IMETHOD
