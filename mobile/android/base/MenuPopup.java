@@ -438,6 +438,15 @@ mShowArrow
 =
 true
 ;
+setAnimationStyle
+(
+R
+.
+style
+.
+PopupAnimation
+)
+;
 }
 /
 *
