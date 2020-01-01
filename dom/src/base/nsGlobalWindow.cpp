@@ -19531,6 +19531,12 @@ aFullScreen
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+NS_ENSURE_TRUE
+(
+mDocShell
+NS_ERROR_FAILURE
+)
+;
 PRBool
 rootWinFullScreen
 ;
@@ -19863,6 +19869,11 @@ do_QueryInterface
 mDocShell
 )
 ;
+if
+(
+treeItem
+)
+{
 nsCOMPtr
 <
 nsIDocShellTreeItem
@@ -19912,6 +19923,7 @@ GetFullScreen
 aFullScreen
 )
 ;
+}
 }
 /
 /
