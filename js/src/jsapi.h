@@ -31395,7 +31395,12 @@ HandleId
 JSID_EMPTYHANDLE
 ;
 }
-;
+/
+*
+namespace
+JS
+*
+/
 namespace
 js
 {
