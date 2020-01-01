@@ -643,7 +643,7 @@ gcliterm
 .
 opts
 .
-popup
+display
 .
 inputter
 .
