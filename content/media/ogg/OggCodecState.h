@@ -305,7 +305,7 @@ a
 packet
 used
 in
-PacketQueue
+OggPacketQueue
 below
 .
 class
@@ -502,14 +502,14 @@ memory
 usage
 .
 class
-PacketQueue
+OggPacketQueue
 :
 private
 nsDeque
 {
 public
 :
-PacketQueue
+OggPacketQueue
 (
 )
 :
@@ -523,7 +523,7 @@ OggPacketDeallocator
 {
 }
 ~
-PacketQueue
+OggPacketQueue
 (
 )
 {
@@ -1332,7 +1332,7 @@ a
 valid
 granulepos
 .
-PacketQueue
+OggPacketQueue
 mPackets
 ;
 /

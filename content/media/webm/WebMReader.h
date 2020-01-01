@@ -453,14 +453,14 @@ when
 destroyed
 .
 class
-PacketQueue
+WebMPacketQueue
 :
 private
 nsDeque
 {
 public
 :
-PacketQueue
+WebMPacketQueue
 (
 )
 :
@@ -474,7 +474,7 @@ PacketQueueDeallocator
 {
 }
 ~
-PacketQueue
+WebMPacketQueue
 (
 )
 {
@@ -514,7 +514,7 @@ aItem
 NULL
 pushed
 to
-PacketQueue
+WebMPacketQueue
 "
 )
 ;
@@ -543,7 +543,7 @@ aItem
 NULL
 pushed
 to
-PacketQueue
+WebMPacketQueue
 "
 )
 ;
@@ -1243,10 +1243,10 @@ state
 machine
 thread
 .
-PacketQueue
+WebMPacketQueue
 mVideoPackets
 ;
-PacketQueue
+WebMPacketQueue
 mAudioPackets
 ;
 /
