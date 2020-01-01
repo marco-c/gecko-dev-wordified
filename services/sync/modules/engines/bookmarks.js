@@ -1393,6 +1393,7 @@ from
 }
 }
 }
+;
 this
 .
 _xmppClient
@@ -2736,7 +2737,7 @@ cb
 let
 ret
 =
-yeild
+yield
 ;
 if
 (
