@@ -3508,12 +3508,12 @@ asm
 (
 "
 jmp
-Lconvertend
+convertend
 \
 n
 "
 "
-Lconvertloop
+convertloop
 :
 "
 "
@@ -3742,7 +3742,7 @@ add
 n
 "
 "
-Lconvertend
+convertend
 :
 "
 "
@@ -3755,12 +3755,12 @@ n
 "
 "
 jns
-Lconvertloop
+convertloop
 \
 n
 "
 "
-Lconvertnext
+convertnext
 :
 "
 "
@@ -3773,7 +3773,7 @@ n
 "
 "
 js
-Lconvertdone
+convertdone
 \
 n
 "
@@ -3919,7 +3919,7 @@ xmm1
 n
 "
 "
-Lconvertdone
+convertdone
 :
 "
 :
