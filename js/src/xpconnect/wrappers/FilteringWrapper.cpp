@@ -1129,8 +1129,10 @@ FilteringWrapper
 <
 XrayWrapper
 <
-CrossOriginWrapper
+JSCrossCompartmentWrapper
+CrossCompartmentXray
 >
+\
 CrossOriginAccessiblePropertiesOnly
 >
 #

@@ -530,6 +530,13 @@ xpcquickstubs
 .
 h
 "
+#
+include
+"
+jsproxy
+.
+h
+"
 /
 *
 *
