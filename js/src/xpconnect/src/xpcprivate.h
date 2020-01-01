@@ -4742,7 +4742,6 @@ IDX_ITEM
 IDX_PROTO
 IDX_ITERATOR
 IDX_PARENT
-IDX_EXPOSEDPROPS
 IDX_TOTAL_COUNT
 /
 /
@@ -26713,17 +26712,6 @@ JSObject
 obj
 jsval
 idval
-)
-;
-inline
-jsid
-GetRTIdByIndex
-(
-JSContext
-*
-cx
-uintN
-index
 )
 ;
 inline

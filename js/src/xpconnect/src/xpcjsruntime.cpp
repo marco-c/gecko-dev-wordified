@@ -649,12 +649,6 @@ __parent__
 /
 /
 IDX_PARENT
-"
-__exposedProps__
-"
-/
-/
-IDX_EXPOSEDPROPS
 }
 ;
 /
