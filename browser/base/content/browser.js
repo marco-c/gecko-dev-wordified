@@ -9430,7 +9430,6 @@ resource
 :
 /
 /
-app
 /
 modules
 /

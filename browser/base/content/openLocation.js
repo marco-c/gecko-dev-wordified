@@ -509,7 +509,6 @@ resource
 :
 /
 /
-app
 /
 modules
 /
