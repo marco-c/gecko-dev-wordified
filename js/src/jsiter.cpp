@@ -4522,7 +4522,10 @@ frame
 .
 argc
 =
-nargs
+fp
+-
+>
+argc
 ;
 gen
 -
