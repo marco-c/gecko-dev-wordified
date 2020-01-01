@@ -7624,7 +7624,7 @@ interruptCounter
 *
 /
 volatile
-jsword
+int32
 interruptFlags
 ;
 JSGCFreeLists
@@ -10265,7 +10265,7 @@ interrupts
 *
 /
 volatile
-jsword
+int32
 interruptCounter
 ;
 #
@@ -19138,10 +19138,7 @@ taken
 .
 *
 /
-JS_FRIEND_API
-(
 void
-)
 TriggerOperationCallback
 (
 JSContext
