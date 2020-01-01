@@ -3301,11 +3301,6 @@ mTextInputHandler
 protected
 :
 bool
-ReportDestroyEvent
-(
-)
-;
-bool
 ReportMoveEvent
 (
 )

@@ -5007,9 +5007,6 @@ break
 ;
 }
 case
-NS_DESTROY
-:
-case
 NS_SETZLEVEL
 :
 /
