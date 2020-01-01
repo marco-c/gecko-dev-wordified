@@ -1548,15 +1548,8 @@ split
 '
 =
 '
+1
 )
-      
-assert
-len
-(
-vals
-)
-<
-3
       
 if
 len
