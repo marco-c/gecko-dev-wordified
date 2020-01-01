@@ -2707,6 +2707,13 @@ SourceMapMap
 *
 sourceMapMap
 ;
+js
+:
+:
+DebugScriptMap
+*
+debugScriptMap
+;
 }
 ;
 #

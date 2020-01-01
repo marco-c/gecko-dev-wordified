@@ -740,6 +740,10 @@ sourceMapMap
 (
 NULL
 )
+debugScriptMap
+(
+NULL
+)
 {
 PodArrayZero
 (
@@ -841,6 +845,14 @@ Foreground
 delete_
 (
 sourceMapMap
+)
+;
+Foreground
+:
+:
+delete_
+(
+debugScriptMap
 )
 ;
 #
