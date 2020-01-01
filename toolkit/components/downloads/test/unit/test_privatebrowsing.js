@@ -971,6 +971,13 @@ nsILocalFile
 )
 )
 ;
+httpserv
+.
+start
+(
+4444
+)
+;
 let
 tmpDir
 =
@@ -1120,7 +1127,7 @@ name
 +
 aDownload
 .
-displayName
+name
 +
 "
 state
@@ -1702,13 +1709,6 @@ Create
 Download
 -
 C
-httpserv
-.
-start
-(
-4444
-)
-;
 dlC
 =
 addDownload
