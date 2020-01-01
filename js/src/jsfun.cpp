@@ -11081,6 +11081,8 @@ continue
 JSAtom
 *
 atom
+=
+NULL
 ;
 switch
 (

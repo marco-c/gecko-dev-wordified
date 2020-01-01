@@ -9830,10 +9830,12 @@ script
 {
 if
 (
+(
 typeFlags
 &
 ~
 TYPE_FLAG_INTERMEDIATE_SET
+)
 !
 =
 0
@@ -9890,10 +9892,12 @@ script
 {
 if
 (
+(
 typeFlags
 &
 ~
 TYPE_FLAG_INTERMEDIATE_SET
+)
 !
 =
 0
