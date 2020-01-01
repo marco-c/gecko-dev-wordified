@@ -94,6 +94,13 @@ MPL
 #
 include
 "
+nsCache
+.
+h
+"
+#
+include
+"
 nspr
 .
 h
@@ -144,13 +151,6 @@ h
 include
 "
 nsICacheService
-.
-h
-"
-#
-include
-"
-nsCache
 .
 h
 "

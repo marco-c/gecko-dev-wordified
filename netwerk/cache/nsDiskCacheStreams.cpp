@@ -94,6 +94,13 @@ MPL
 #
 include
 "
+nsCache
+.
+h
+"
+#
+include
+"
 nsDiskCache
 .
 h

@@ -93,6 +93,13 @@ MPL
 /
 #
 include
+"
+nsCache
+.
+h
+"
+#
+include
 <
 limits
 .
@@ -236,13 +243,6 @@ h
 include
 "
 nsCacheService
-.
-h
-"
-#
-include
-"
-nsCache
 .
 h
 "

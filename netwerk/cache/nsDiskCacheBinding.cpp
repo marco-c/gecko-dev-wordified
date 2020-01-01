@@ -93,6 +93,13 @@ MPL
 /
 #
 include
+"
+nsCache
+.
+h
+"
+#
+include
 <
 limits
 .
