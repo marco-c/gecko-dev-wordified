@@ -15382,7 +15382,7 @@ address
 =
 command
 .
-eventData
+event
 .
 number
 ;
@@ -15397,7 +15397,7 @@ cause
 =
 command
 .
-eventData
+event
 .
 error
 ;
@@ -15418,7 +15418,7 @@ sourceId
 (
 command
 .
-eventData
+event
 .
 isIssuedByRemote
 ?
