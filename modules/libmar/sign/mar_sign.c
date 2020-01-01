@@ -1529,7 +1529,7 @@ rv
 =
 -
 1
-oldMar
+hasSignatureBlock
 ;
 SGNContext
 *
@@ -1775,11 +1775,15 @@ not
 /
 if
 (
-is_old_mar
+get_mar_file_info
 (
 src
 &
-oldMar
+hasSignatureBlock
+NULL
+NULL
+NULL
+NULL
 )
 )
 {
@@ -1978,8 +1982,7 @@ failure
 }
 if
 (
-!
-oldMar
+hasSignatureBlock
 )
 {
 /
@@ -2242,7 +2245,8 @@ offsetToIndex
 ;
 if
 (
-oldMar
+!
+hasSignatureBlock
 )
 {
 dstOffsetToIndex
@@ -2328,7 +2332,8 @@ signatureSectionLength
 ;
 if
 (
-oldMar
+!
+hasSignatureBlock
 )
 {
 sizeOfEntireMAR
@@ -2963,7 +2968,8 @@ offsetToContent
 ;
 if
 (
-oldMar
+!
+hasSignatureBlock
 )
 {
 *
