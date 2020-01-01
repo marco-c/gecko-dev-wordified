@@ -159,13 +159,6 @@ nsROCSSPrimitiveValue
 .
 h
 "
-#
-include
-"
-nsDOMClassInfoID
-.
-h
-"
 using
 namespace
 mozilla
@@ -227,11 +220,6 @@ void
 )
 {
 }
-DOMCI_DATA
-(
-CSSRGBColor
-nsDOMCSSRGBColor
-)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsDOMCSSRGBColor
@@ -247,10 +235,6 @@ nsIDOMNSRGBAColor
 NS_INTERFACE_MAP_ENTRY
 (
 nsISupports
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-CSSRGBColor
 )
 NS_WRAPPERCACHE_INTERFACE_MAP_ENTRY
 NS_INTERFACE_MAP_END

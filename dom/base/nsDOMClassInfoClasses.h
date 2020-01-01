@@ -683,17 +683,6 @@ ChromeWindow
 )
 /
 /
-RGBColor
-object
-used
-by
-getComputedStyle
-DOMCI_CLASS
-(
-CSSRGBColor
-)
-/
-/
 ContentList
 object
 used
