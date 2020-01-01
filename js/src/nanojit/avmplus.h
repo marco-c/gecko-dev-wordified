@@ -747,12 +747,6 @@ defined
 (
 DEBUG
 )
-|
-|
-defined
-(
-NJ_NO_VARIADIC_MACROS
-)
 #
 if
 !
