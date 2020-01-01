@@ -387,7 +387,6 @@ aCounter
 =
 0
 )
-const
 {
 MOZ_ASSERT
 (
