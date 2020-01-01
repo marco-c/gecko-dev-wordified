@@ -1654,7 +1654,7 @@ of
 this
 *
 function
-bothe
+both
 because
 they
 '
