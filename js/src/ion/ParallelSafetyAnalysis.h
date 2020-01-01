@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-ion_ParallelArrayAnalysis_h
+ion_ParallelSafetyAnalysis_h
 #
 define
-ion_ParallelArrayAnalysis_h
+ion_ParallelSafetyAnalysis_h
 #
 include
 "
@@ -177,7 +177,7 @@ MParBailout
 blocks
 .
 class
-ParallelArrayAnalysis
+ParallelSafetyAnalysis
 {
 MIRGenerator
 *
@@ -205,7 +205,7 @@ withDef
 ;
 public
 :
-ParallelArrayAnalysis
+ParallelSafetyAnalysis
 (
 MIRGenerator
 *
@@ -332,6 +332,6 @@ js
 endif
 /
 *
-ion_ParallelArrayAnalysis_h
+ion_ParallelSafetyAnalysis_h
 *
 /
