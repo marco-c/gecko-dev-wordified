@@ -26637,20 +26637,6 @@ newifp
 frame
 ;
 }
-#
-ifdef
-DEBUG
-newifp
--
->
-frame
-.
-pcDisabledSave
-=
-0
-;
-#
-endif
 /
 *
 *
@@ -45727,6 +45713,7 @@ obj
 ;
 if
 (
+!
 js_FindPropertyHelper
 (
 cx
@@ -45740,8 +45727,6 @@ prop
 &
 entry
 )
-<
-0
 )
 ABORT_TRACE
 (
