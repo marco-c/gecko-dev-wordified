@@ -38708,7 +38708,10 @@ defined
 (
 DUMP_SCOPE_STATS
 )
+JS_FRIEND_API
+(
 size_t
+)
 js_PutEscapedStringImpl
 (
 char
