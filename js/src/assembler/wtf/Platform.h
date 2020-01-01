@@ -4826,6 +4826,7 @@ ENABLE_YARR_JIT
 *
 YARR
 supports
+ARM
 x86
 &
 x86
@@ -4853,6 +4854,10 @@ WTF_CPU_X86_64
 |
 |
 WTF_CPU_ARM_THUMB2
+\
+|
+|
+WTF_CPU_ARM_TRADITIONAL
 \
 |
 |
