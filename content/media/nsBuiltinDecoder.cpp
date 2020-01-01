@@ -1410,6 +1410,14 @@ SetDuration
 mDuration
 )
 ;
+mDecoderStateMachine
+-
+>
+SetVolume
+(
+mInitialVolume
+)
+;
 if
 (
 mFrameBufferLength
