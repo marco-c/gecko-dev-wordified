@@ -4707,9 +4707,11 @@ i
 +
 )
 {
-JSAtom
-*
+RootedAtom
 atom
+(
+cx
+)
 ;
 if
 (
@@ -5031,10 +5033,10 @@ id
 .
 *
 /
-JSAtom
-*
+RootedAtom
 atom
-=
+(
+cx
 JSID_IS_ATOM
 (
 propid
@@ -5052,6 +5054,7 @@ runtime
 -
 >
 emptyString
+)
 ;
 if
 (

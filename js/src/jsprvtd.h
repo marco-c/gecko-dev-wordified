@@ -1292,8 +1292,7 @@ JSDestroyScriptHook
 JSFreeOp
 *
 fop
-JSScript
-*
+JSRawScript
 script
 void
 *

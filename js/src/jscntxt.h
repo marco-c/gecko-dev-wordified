@@ -624,16 +624,6 @@ purge
 ;
 }
 ;
-inline
-GSNCache
-*
-GetGSNCache
-(
-JSContext
-*
-cx
-)
-;
 typedef
 Vector
 <

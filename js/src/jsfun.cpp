@@ -2812,11 +2812,8 @@ firstword
 XDRAtom
 (
 xdr
+&
 atom
-.
-address
-(
-)
 )
 )
 return
