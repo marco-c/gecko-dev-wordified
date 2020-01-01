@@ -665,6 +665,9 @@ lines
 PRBool
 mExpectAbsLoc
 ;
+nsString
+mEscapedEllipsis
+;
 }
 ;
 #
