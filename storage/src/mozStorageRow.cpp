@@ -470,6 +470,13 @@ mozStorageRow
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+storage
+;
 /
 /
 /
@@ -690,7 +697,7 @@ SQLITE_INTEGER
 variant
 =
 new
-mozStorageInteger
+IntegerVariant
 (
 sqlite3_column_int64
 (
@@ -707,7 +714,7 @@ SQLITE_FLOAT
 variant
 =
 new
-mozStorageFloat
+FloatVariant
 (
 sqlite3_column_double
 (
@@ -743,7 +750,7 @@ i
 variant
 =
 new
-mozStorageText
+TextVariant
 (
 str
 )
@@ -757,7 +764,7 @@ SQLITE_NULL
 variant
 =
 new
-mozStorageNull
+NullVariant
 (
 )
 ;
@@ -790,7 +797,7 @@ i
 variant
 =
 new
-mozStorageBlob
+BlobVariant
 (
 std
 :

@@ -45,7 +45,8 @@ ts
 sts
 =
 2
-expandtab
+et
+:
 *
 *
 *
@@ -449,6 +450,12 @@ mozStorageVariant
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+storage
+{
 /
 /
 /
@@ -533,10 +540,10 @@ h
 /
 /
 /
-mozStorageVariant_base
+Variant_base
 NS_IMPL_THREADSAFE_ISUPPORTS1
 (
-mozStorageVariant_base
+Variant_base
 nsIVariant
 )
 /
@@ -625,7 +632,7 @@ nsIVariant
 /
 nsIVariant
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetDataType
@@ -648,7 +655,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsInt32
@@ -662,7 +669,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsInt64
@@ -676,7 +683,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsDouble
@@ -690,7 +697,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsAUTF8String
@@ -704,7 +711,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsAString
@@ -718,7 +725,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsArray
@@ -739,7 +746,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsInt8
@@ -753,7 +760,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsInt16
@@ -767,7 +774,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsUint8
@@ -781,7 +788,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsUint16
@@ -795,7 +802,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsUint32
@@ -809,7 +816,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsUint64
@@ -823,7 +830,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsFloat
@@ -837,7 +844,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsBool
@@ -851,7 +858,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsChar
@@ -865,7 +872,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsWChar
@@ -879,7 +886,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsID
@@ -893,7 +900,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsDOMString
@@ -907,7 +914,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsString
@@ -922,7 +929,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsWString
@@ -937,7 +944,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsISupports
@@ -952,7 +959,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsInterface
@@ -970,7 +977,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsACString
@@ -984,7 +991,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsStringWithSize
@@ -1001,7 +1008,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-mozStorageVariant_base
+Variant_base
 :
 :
 GetAsWStringWithSize
@@ -1017,3 +1024,13 @@ return
 NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
+}
+/
+/
+namespace
+storage
+}
+/
+/
+namespace
+mozilla
