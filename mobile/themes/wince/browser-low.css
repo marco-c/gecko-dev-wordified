@@ -2419,10 +2419,16 @@ fixed
 image
 *
 /
+placeitem
+[
+type
+=
+folder
+]
 .
 bookmark
 -
-folder
+item
 -
 image
 {
