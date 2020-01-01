@@ -451,9 +451,6 @@ kCacheMissed
 }
 ;
 const
-mozilla
-:
-:
 Telemetry
 :
 :
@@ -462,9 +459,6 @@ UNKNOWN_DEVICE
 =
 static_cast
 <
-mozilla
-:
-:
 Telemetry
 :
 :
@@ -477,9 +471,6 @@ ID
 void
 AccumulateCacheHitTelemetry
 (
-mozilla
-:
-:
 Telemetry
 :
 :
@@ -544,17 +535,11 @@ hitOrMiss
 kCacheMissed
 )
 ;
-mozilla
-:
-:
 Telemetry
 :
 :
 Accumulate
 (
-mozilla
-:
-:
 Telemetry
 :
 :
@@ -570,9 +555,6 @@ deviceHistogram
 UNKNOWN_DEVICE
 )
 {
-mozilla
-:
-:
 Telemetry
 :
 :
@@ -1657,9 +1639,6 @@ mDidReval
 out
 *
 /
-mozilla
-:
-:
 Telemetry
 :
 :
@@ -1963,9 +1942,6 @@ PR_Now
 ;
 mChannelCreationTimestamp
 =
-mozilla
-:
-:
 TimeStamp
 :
 :
@@ -17689,9 +17665,6 @@ kDiskDeviceID
 {
 mCacheEntryDeviceTelemetryID
 =
-mozilla
-:
-:
 Telemetry
 :
 :
@@ -17711,9 +17684,6 @@ kMemoryDeviceID
 {
 mCacheEntryDeviceTelemetryID
 =
-mozilla
-:
-:
 Telemetry
 :
 :
@@ -17733,9 +17703,6 @@ kOfflineDeviceID
 {
 mCacheEntryDeviceTelemetryID
 =
-mozilla
-:
-:
 Telemetry
 :
 :
@@ -22295,9 +22262,6 @@ mTimingEnabled
 )
 mCacheReadStart
 =
-mozilla
-:
-:
 TimeStamp
 :
 :
@@ -28217,9 +28181,6 @@ timing
 .
 mAsyncOpenTime
 =
-mozilla
-:
-:
 TimeStamp
 :
 :
@@ -28378,9 +28339,6 @@ mTimingEnabled
 )
 mAsyncOpenTime
 =
-mozilla
-:
-:
 TimeStamp
 (
 )
@@ -30389,9 +30347,6 @@ nsHttpChannel
 :
 GetChannelCreation
 (
-mozilla
-:
-:
 TimeStamp
 *
 _retval
@@ -30412,9 +30367,6 @@ nsHttpChannel
 :
 GetAsyncOpen
 (
-mozilla
-:
-:
 TimeStamp
 *
 _retval
@@ -30435,9 +30387,6 @@ nsHttpChannel
 :
 GetDomainLookupStart
 (
-mozilla
-:
-:
 TimeStamp
 *
 _retval
@@ -30500,9 +30449,6 @@ nsHttpChannel
 :
 GetDomainLookupEnd
 (
-mozilla
-:
-:
 TimeStamp
 *
 _retval
@@ -30565,9 +30511,6 @@ nsHttpChannel
 :
 GetConnectStart
 (
-mozilla
-:
-:
 TimeStamp
 *
 _retval
@@ -30607,9 +30550,6 @@ nsHttpChannel
 :
 GetConnectEnd
 (
-mozilla
-:
-:
 TimeStamp
 *
 _retval
@@ -30649,9 +30589,6 @@ nsHttpChannel
 :
 GetRequestStart
 (
-mozilla
-:
-:
 TimeStamp
 *
 _retval
@@ -30691,9 +30628,6 @@ nsHttpChannel
 :
 GetResponseStart
 (
-mozilla
-:
-:
 TimeStamp
 *
 _retval
@@ -30733,9 +30667,6 @@ nsHttpChannel
 :
 GetResponseEnd
 (
-mozilla
-:
-:
 TimeStamp
 *
 _retval
@@ -30775,9 +30706,6 @@ nsHttpChannel
 :
 GetCacheReadStart
 (
-mozilla
-:
-:
 TimeStamp
 *
 _retval
@@ -30798,9 +30726,6 @@ nsHttpChannel
 :
 GetCacheReadEnd
 (
-mozilla
-:
-:
 TimeStamp
 *
 _retval
@@ -30841,9 +30766,6 @@ _retval
 )
 {
 \
-mozilla
-:
-:
 TimeStamp
 stamp
 ;
@@ -32436,9 +32358,6 @@ mCachePump
 {
 mCacheReadEnd
 =
-mozilla
-:
-:
 TimeStamp
 :
 :

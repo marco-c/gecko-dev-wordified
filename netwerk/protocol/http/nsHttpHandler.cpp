@@ -2170,9 +2170,6 @@ NS_HTTP_STARTUP_TOPIC
 ;
 mObserverService
 =
-mozilla
-:
-:
 services
 :
 :

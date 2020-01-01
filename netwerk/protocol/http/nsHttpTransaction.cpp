@@ -2925,9 +2925,6 @@ mTimings
 .
 domainLookupStart
 =
-mozilla
-:
-:
 TimeStamp
 :
 :
@@ -2949,9 +2946,6 @@ mTimings
 .
 domainLookupEnd
 =
-mozilla
-:
-:
 TimeStamp
 :
 :
@@ -2973,9 +2967,6 @@ mTimings
 .
 connectStart
 =
-mozilla
-:
-:
 TimeStamp
 :
 :
@@ -2997,9 +2988,6 @@ mTimings
 .
 connectEnd
 =
-mozilla
-:
-:
 TimeStamp
 :
 :
@@ -3456,9 +3444,6 @@ mTimings
 .
 requestStart
 =
-mozilla
-:
-:
 TimeStamp
 :
 :
@@ -3752,9 +3737,6 @@ mTimings
 .
 responseStart
 =
-mozilla
-:
-:
 TimeStamp
 :
 :
@@ -5057,9 +5039,6 @@ mTimings
 .
 responseEnd
 =
-mozilla
-:
-:
 TimeStamp
 :
 :
@@ -9109,9 +9088,6 @@ mTimings
 .
 responseEnd
 =
-mozilla
-:
-:
 TimeStamp
 :
 :
