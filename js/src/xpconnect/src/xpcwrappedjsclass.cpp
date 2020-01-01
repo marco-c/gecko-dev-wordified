@@ -7787,11 +7787,6 @@ for
 each
 item
 .
-js_LeaveTrace
-(
-cx
-)
-;
 /
 /
 setup
