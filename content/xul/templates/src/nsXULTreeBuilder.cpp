@@ -9133,6 +9133,7 @@ Destroy
 (
 mPool
 newmatch
+PR_FALSE
 )
 ;
 return
@@ -9179,6 +9180,7 @@ Destroy
 (
 mPool
 newmatch
+PR_FALSE
 )
 ;
 continue
@@ -9221,6 +9223,7 @@ Destroy
 (
 mPool
 newmatch
+PR_FALSE
 )
 ;
 return
@@ -9260,6 +9263,7 @@ Destroy
 (
 mPool
 newmatch
+PR_FALSE
 )
 ;
 return
@@ -9382,6 +9386,7 @@ Destroy
 (
 mPool
 newmatch
+PR_TRUE
 )
 ;
 return
@@ -9661,23 +9666,6 @@ while
 existingmatch
 )
 {
-if
-(
-existingmatch
--
->
-mResult
-)
-existingmatch
--
->
-mResult
--
->
-HasBeenRemoved
-(
-)
-;
 nsTemplateMatch
 *
 nextmatch
@@ -9694,6 +9682,7 @@ Destroy
 (
 mPool
 existingmatch
+PR_TRUE
 )
 ;
 existingmatch

@@ -8749,6 +8749,7 @@ Destroy
 (
 mPool
 newmatch
+PR_FALSE
 )
 ;
 return
@@ -8788,6 +8789,7 @@ Destroy
 (
 mPool
 newmatch
+PR_FALSE
 )
 ;
 return
@@ -8874,6 +8876,7 @@ Destroy
 (
 mPool
 newmatch
+PR_TRUE
 )
 ;
 return
@@ -8902,6 +8905,7 @@ Destroy
 (
 mPool
 removematch
+PR_TRUE
 )
 ;
 }
