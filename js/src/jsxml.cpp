@@ -6807,7 +6807,7 @@ top
 of
 jsfun
 .
-c
+cpp
 ;
 *
 (
