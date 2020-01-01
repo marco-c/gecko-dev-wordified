@@ -1103,7 +1103,7 @@ look
 &
 feel
 object
-PRBool
+PRInt32
 tempBool
 ;
 presContext

@@ -9385,7 +9385,7 @@ look
 &
 feel
 object
-PRBool
+PRInt32
 canOverlap
 ;
 nsPresContext
