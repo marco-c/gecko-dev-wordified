@@ -148,6 +148,8 @@ _ipdltest
 /
 /
 parent
+namespace
+{
 /
 /
 NB
@@ -337,6 +339,13 @@ __FILE__
 )
 ;
 }
+}
+/
+/
+namespace
+<
+anon
+>
 TestRPCErrorCleanupParent
 :
 :
