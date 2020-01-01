@@ -17224,6 +17224,15 @@ nthings
 ;
 }
 else
+{
+thing
+=
+FLAGP_TO_THING
+(
+flagp
+thingSize
+)
+;
 if
 (
 !
@@ -17236,6 +17245,7 @@ GCF_FINAL
 {
 /
 *
+*
 Call
 the
 finalizer
@@ -17247,14 +17257,6 @@ flags
 .
 *
 /
-thing
-=
-FLAGP_TO_THING
-(
-flagp
-thingSize
-)
-;
 *
 flagp
 =
@@ -17410,6 +17412,7 @@ cx
 ;
 break
 ;
+}
 }
 thing
 -
