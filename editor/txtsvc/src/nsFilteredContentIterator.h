@@ -531,6 +531,15 @@ aRange
 )
 ;
 virtual
+nsresult
+Init
+(
+nsIRange
+*
+aRange
+)
+;
+virtual
 void
 First
 (
