@@ -635,9 +635,13 @@ for
 details
 .
 return
-(
-PRBool
-)
+this
+=
+=
+&
+other
+|
+|
 (
 (
 (
