@@ -200,13 +200,6 @@ nsGUIEvent
 .
 h
 "
-#
-include
-"
-nsIPrivateDOMEvent
-.
-h
-"
 /
 /
 Notify

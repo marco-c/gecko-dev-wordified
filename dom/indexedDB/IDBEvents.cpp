@@ -121,13 +121,6 @@ h
 #
 include
 "
-nsIPrivateDOMEvent
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

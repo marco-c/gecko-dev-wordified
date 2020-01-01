@@ -326,6 +326,7 @@ line
 write
 (
 "
+#
 debugger
 "
 )
@@ -581,6 +582,7 @@ write
 "
 :
 bogus
+#
 debugger
 ;
 "
@@ -633,6 +635,7 @@ write
 "
 :
 13
+#
 debugger
 ;
 "
@@ -684,6 +687,7 @@ write
 (
 "
 :
+#
 debugger
 ;
 "
@@ -736,6 +740,7 @@ write
 "
 :
 :
+#
 debugger
 ;
 "
@@ -789,6 +794,7 @@ write
 :
 :
 :
+#
 debugger
 ;
 "
@@ -893,6 +899,7 @@ token
 write
 (
 "
+#
 __i
 do
 not
@@ -1009,13 +1016,19 @@ line
 write
 (
 "
+#
 don
 '
 t
+#
 find
+#
 me
+#
 instead
+#
 find
+#
 debugger
 "
 )

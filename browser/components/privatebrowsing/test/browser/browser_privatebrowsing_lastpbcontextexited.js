@@ -231,13 +231,11 @@ exited
 false
 )
 ;
+setPrivateWindow
+(
 newWin
-.
-gPrivateBrowsingUI
-.
-privateWindow
-=
 true
+)
 ;
 expected
 =

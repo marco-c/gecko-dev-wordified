@@ -643,7 +643,7 @@ not
 delete
 it
 .
-nsresult
+void
 GetInsertionPointsFor
 (
 nsIContent

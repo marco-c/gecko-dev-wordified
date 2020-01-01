@@ -116,14 +116,14 @@ self
 )
         
 for
-protoInc
+inc
 in
 tu
 .
-protocolIncludes
+includes
 :
             
-protoInc
+inc
 .
 accept
 (
@@ -150,6 +150,21 @@ using
 in
 tu
 .
+builtinUsing
+:
+            
+using
+.
+accept
+(
+self
+)
+        
+for
+using
+in
+tu
+.
 using
 :
             
@@ -160,6 +175,12 @@ accept
 self
 )
         
+if
+tu
+.
+protocol
+:
+            
 tu
 .
 protocol
@@ -180,7 +201,7 @@ inc
 pass
     
 def
-visitProtocolInclude
+visitInclude
 (
 self
 inc
@@ -246,7 +267,7 @@ field
         
 field
 .
-type
+typespec
 .
 accept
 (
@@ -904,7 +925,7 @@ namespaces
 class
 TranslationUnit
 (
-Node
+NamespacedNode
 )
 :
     
@@ -912,15 +933,26 @@ def
 __init__
 (
 self
+type
+name
 )
 :
         
-Node
+NamespacedNode
 .
 __init__
 (
 self
+name
+=
+name
 )
+        
+self
+.
+filetype
+=
+type
         
 self
 .
@@ -937,7 +969,14 @@ cxxIncludes
         
 self
 .
-protocolIncludes
+includes
+=
+[
+]
+        
+self
+.
+builtinUsing
 =
 [
 ]
@@ -979,19 +1018,19 @@ cxxInclude
 )
     
 def
-addProtocolInclude
+addInclude
 (
 self
-pInc
+inc
 )
 :
 self
 .
-protocolIncludes
+includes
 .
 append
 (
-pInc
+inc
 )
     
 def
@@ -1084,7 +1123,7 @@ file
 =
 cxxFile
 class
-ProtocolInclude
+Include
 (
 Node
 )
@@ -1095,7 +1134,8 @@ __init__
 (
 self
 loc
-protocolName
+type
+name
 )
 :
         
@@ -1107,6 +1147,28 @@ self
 loc
 )
         
+suffix
+=
+'
+ipdl
+'
+        
+if
+type
+=
+=
+'
+header
+'
+:
+            
+suffix
++
+=
+'
+h
+'
+        
 self
 .
 file
@@ -1115,10 +1177,14 @@ file
 %
 s
 .
-ipdl
+%
+s
 "
 %
-protocolName
+(
+name
+suffix
+)
 class
 UsingStmt
 (
@@ -1632,7 +1698,7 @@ loc
         
 self
 .
-type
+typespec
 =
 type
         

@@ -164,6 +164,13 @@ visibility
 collapse
 ;
 }
+#
+thepreviewimage
+{
+display
+:
+block
+;
 /
 *
 This
@@ -180,9 +187,6 @@ fixed
 .
 *
 /
-#
-thepreviewimage
-{
 min
 -
 width

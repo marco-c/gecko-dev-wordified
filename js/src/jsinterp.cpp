@@ -5393,8 +5393,7 @@ if
 ToNumber
 (
 cx
-*
-slot
+v
 &
 d
 )
@@ -19702,8 +19701,8 @@ NULL
 JSMSG_SPREAD_TOO_LARGE
 )
 ;
-return
-false
+goto
+error
 ;
 }
 regs

@@ -9417,11 +9417,6 @@ let
 s
 clean
 up
-bool
-wasAnimating
-=
-mAnimating
-;
 if
 (
 mAnimating
