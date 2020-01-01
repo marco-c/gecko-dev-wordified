@@ -3338,6 +3338,7 @@ PluginModuleParent
 :
 NP_GetMIMEDescription
 (
+const
 char
 *
 *
@@ -3349,10 +3350,6 @@ PLUGIN_LOG_DEBUG_METHOD
 *
 mimeDesc
 =
-(
-char
-*
-)
 "
 application
 /
