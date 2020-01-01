@@ -6681,7 +6681,7 @@ profile
 /
 Enable
 native
-identitity
+identity
 (
 persona
 /
