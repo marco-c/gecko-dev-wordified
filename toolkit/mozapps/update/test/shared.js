@@ -751,6 +751,13 @@ AUS_Ci
 .
 nsIObserver
 )
+.
+QueryInterface
+(
+AUS_Ci
+.
+nsIUpdateCheckListener
+)
 ;
 }
 )
