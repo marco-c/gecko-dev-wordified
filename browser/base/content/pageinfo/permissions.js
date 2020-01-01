@@ -570,6 +570,17 @@ return
 ALLOW
 ;
 }
+geo
+:
+function
+getGeoDefaultPermissions
+(
+)
+{
+return
+BLOCK
+;
+}
 }
 ;
 var
