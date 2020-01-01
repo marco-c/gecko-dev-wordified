@@ -612,6 +612,13 @@ h
 #
 include
 "
+nsStyleStructInlines
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences
@@ -12935,7 +12942,10 @@ if
 textStyle
 -
 >
-mTextShadow
+HasTextShadow
+(
+aFrame
+)
 )
 return
 aTextAndDecorationsRect
@@ -19946,7 +19956,10 @@ if
 textStyle
 -
 >
-mTextShadow
+HasTextShadow
+(
+aFrame
+)
 )
 return
 ;
