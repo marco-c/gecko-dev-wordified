@@ -8569,6 +8569,11 @@ mRequestedSeekTime
 .
 0
 )
+mDuration
+(
+-
+1
+)
 mNotifyOnShutdown
 (
 PR_FALSE
