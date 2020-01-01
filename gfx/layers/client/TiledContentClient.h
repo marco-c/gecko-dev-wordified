@@ -1393,6 +1393,15 @@ gfxImageSurface
 >
 mSinglePaintBuffer
 ;
+RefPtr
+<
+gfx
+:
+:
+DrawTarget
+>
+mSinglePaintDrawTarget
+;
 nsIntPoint
 mSinglePaintBufferOffset
 ;
