@@ -848,10 +848,6 @@ mPercentHeightObserver
 =
 nsnull
 ;
-mPercentHeightReflowInitiator
-=
-nsnull
-;
 Init
 (
 aPresContext
@@ -1277,12 +1273,6 @@ aParentReflowState
 mPercentHeightObserver
 :
 nsnull
-;
-mPercentHeightReflowInitiator
-=
-aParentReflowState
-.
-mPercentHeightReflowInitiator
 ;
 if
 (
