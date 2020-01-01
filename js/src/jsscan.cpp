@@ -573,13 +573,6 @@ JSIFY
 #
 include
 "
-jsdtoa
-.
-h
-"
-#
-include
-"
 jsprf
 .
 h

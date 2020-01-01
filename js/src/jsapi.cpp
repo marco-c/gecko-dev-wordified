@@ -598,13 +598,6 @@ h
 #
 include
 "
-jsdtoa
-.
-h
-"
-#
-include
-"
 jsemit
 .
 h
