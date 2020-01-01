@@ -453,6 +453,14 @@ stop
 gc
 "
 "
+start
+minor_gc
+"
+"
+stop
+minor_gc
+"
+"
 info
 engine
 interpreter
