@@ -29,7 +29,7 @@ basic
 -
 offset
 :
-2
+4
 -
 *
 -
@@ -562,15 +562,6 @@ include
 base
 /
 thread
-.
-h
-"
-#
-include
-"
-mozilla
-/
-Monitor
 .
 h
 "
@@ -1195,12 +1186,6 @@ mRenderToEGLSurface
 ;
 nsIntSize
 mEGLSurfaceSize
-;
-mozilla
-:
-:
-Monitor
-mPauseCompositionMonitor
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
