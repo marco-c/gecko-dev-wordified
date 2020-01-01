@@ -30815,7 +30815,7 @@ properties
 nscoord
 width
 =
-NSToCoordCeil
+NSToCoordCeilClamped
 (
 advanceWidth
 )
@@ -34047,7 +34047,7 @@ wordStart
 nscoord
 width
 =
-NSToCoordCeil
+NSToCoordCeilClamped
 (
 mTextRun
 -
@@ -34067,9 +34067,15 @@ aData
 -
 >
 currentLine
-+
 =
+NSCoordSaturatingAdd
+(
+aData
+-
+>
+currentLine
 width
+)
 ;
 aData
 -
@@ -34157,7 +34163,7 @@ aData
 >
 trailingWhitespace
 =
-NSToCoordCeil
+NSToCoordCeilClamped
 (
 mTextRun
 -
@@ -34987,7 +34993,7 @@ lineStart
 nscoord
 width
 =
-NSToCoordCeil
+NSToCoordCeilClamped
 (
 mTextRun
 -
@@ -35096,7 +35102,7 @@ aData
 >
 trailingWhitespace
 =
-NSToCoordCeil
+NSToCoordCeilClamped
 (
 mTextRun
 -
