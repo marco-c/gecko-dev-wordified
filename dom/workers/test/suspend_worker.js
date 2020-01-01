@@ -44,6 +44,15 @@ function
 (
 )
 {
+dump
+(
+"
+WorkerAlive
+\
+n
+"
+)
+;
 postMessage
 (
 +
