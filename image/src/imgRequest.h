@@ -886,6 +886,16 @@ nsIRequest
 aRequest
 )
 ;
+bool
+GetMultipart
+(
+)
+const
+{
+return
+mIsMultiPartChannel
+;
+}
 /
 /
 The
