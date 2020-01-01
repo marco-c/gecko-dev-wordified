@@ -355,6 +355,10 @@ friend
 class
 ShadowLayerForwarder
 ;
+friend
+class
+ShadowLayerManager
+;
 typedef
 android
 :
