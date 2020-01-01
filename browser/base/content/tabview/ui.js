@@ -2273,9 +2273,7 @@ on
 tab
 /
 *
-Utils
-.
-timeout
+setTimeout
 (
 function
 (
@@ -2830,9 +2828,7 @@ a
 better
 solution
 .
-Utils
-.
-timeout
+setTimeout
 (
 function
 (
@@ -2923,9 +2919,7 @@ gWindow
 )
 return
 ;
-Utils
-.
-timeout
+setTimeout
 (
 function
 (
@@ -3183,9 +3177,7 @@ _closedSelectedTabInTabView
 =
 false
 ;
-Utils
-.
-timeout
+setTimeout
 (
 function
 (

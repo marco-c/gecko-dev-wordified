@@ -5349,9 +5349,7 @@ gWindow
 )
 return
 ;
-Utils
-.
-timeout
+setTimeout
 (
 function
 (
@@ -5429,9 +5427,7 @@ gWindow
 )
 return
 ;
-Utils
-.
-timeout
+setTimeout
 (
 function
 (
@@ -5495,9 +5491,7 @@ gWindow
 )
 return
 ;
-Utils
-.
-timeout
+setTimeout
 (
 function
 (
@@ -6476,9 +6470,7 @@ _tabsWaitingForUpdate
 length
 )
 {
-Utils
-.
-timeout
+setTimeout
 (
 function
 (
@@ -7412,9 +7404,7 @@ to
 catch
 that
 .
-Utils
-.
-timeout
+setTimeout
 (
 function
 (
