@@ -1253,6 +1253,10 @@ share
 '
         
 '
+state
+'
+        
+'
 sync
 '
         
@@ -3136,10 +3140,8 @@ p
 "
 TransitionStmt
 :
+STATE
 State
-'
-:
-'
 Transitions
 "
 "
@@ -3159,7 +3161,7 @@ p
 )
 p
 [
-1
+2
 ]
 p
 [
