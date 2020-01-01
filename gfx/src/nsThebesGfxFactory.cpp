@@ -105,6 +105,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -210,6 +219,7 @@ namespace
 {
 class
 GfxInitialization
+MOZ_FINAL
 :
 public
 nsISupports

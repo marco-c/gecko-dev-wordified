@@ -249,6 +249,15 @@ Types
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 typedef
 struct
 _cairo_scaled_font
@@ -4909,6 +4918,7 @@ protected
 :
 class
 MemoryReporter
+MOZ_FINAL
 :
 public
 nsIMemoryMultiReporter
