@@ -4003,9 +4003,14 @@ void
 aClosure
 )
 ;
+PRBool
+mAutoCompleteFinishedSearch
+;
 void
 DoneSearching
 (
+PRBool
+aFinished
 )
 ;
 PRInt32

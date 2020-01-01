@@ -2478,6 +2478,10 @@ mAutoCompleteSearchTimeout
 (
 100
 )
+mAutoCompleteFinishedSearch
+(
+PR_FALSE
+)
 mExpireDaysMin
 (
 0
