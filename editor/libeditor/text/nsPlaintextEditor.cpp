@@ -947,9 +947,6 @@ Init
 nsIDOMDocument
 *
 aDoc
-nsIPresShell
-*
-aPresShell
 nsIContent
 *
 aRoot
@@ -965,9 +962,6 @@ NS_TIME_FUNCTION
 NS_PRECONDITION
 (
 aDoc
-&
-&
-aPresShell
 "
 bad
 arg
@@ -977,9 +971,6 @@ arg
 NS_ENSURE_TRUE
 (
 aDoc
-&
-&
-aPresShell
 NS_ERROR_NULL_POINTER
 )
 ;
@@ -1023,7 +1014,6 @@ nsEditor
 Init
 (
 aDoc
-aPresShell
 aRoot
 aSelCon
 aFlags
