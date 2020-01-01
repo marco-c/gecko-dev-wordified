@@ -1155,6 +1155,10 @@ DownloadUpdates
 const
 nsACString
 &
+aRequestTables
+const
+nsACString
+&
 aRequestBody
 const
 nsACString
@@ -1350,6 +1354,7 @@ mDBService
 BeginUpdate
 (
 this
+aRequestTables
 aClientKey
 )
 ;
