@@ -762,12 +762,6 @@ enum
 LAYER_CLIENT_TYPE_NONE
 =
 0
-LAYER_CLIENT_TYPE_SOFTWARE
-=
-1
-/
-/
-AndroidGeckoSoftwareLayerClient
 LAYER_CLIENT_TYPE_GL
 =
 2

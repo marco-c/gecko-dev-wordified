@@ -512,17 +512,6 @@ gecko
 .
 gfx
 .
-GeckoSoftwareLayerClient
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-gfx
-.
 IntSize
 ;
 import
