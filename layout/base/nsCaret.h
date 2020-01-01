@@ -1457,6 +1457,17 @@ width
 including
 bidi
 indicator
+PRUint32
+mAppPerDev
+;
+/
+/
+App
+units
+per
+device
+units
+metric
 }
 ;
 Metrics
