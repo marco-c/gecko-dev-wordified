@@ -112,6 +112,7 @@ define
 mozilla_ipc_SharedMemorySysV_h
 #
 if
+(
 defined
 (
 OS_LINUX
@@ -122,6 +123,13 @@ OS_LINUX
 defined
 (
 ANDROID
+)
+)
+|
+|
+defined
+(
+OS_BSD
 )
 /
 /
