@@ -23873,7 +23873,7 @@ ts
 tc
 )
 ;
-if
+while
 (
 pn
 &
@@ -23893,7 +23893,7 @@ cx
 TOK_OR
 JSOP_OR
 pn
-OrExpr
+AndExpr
 (
 cx
 ts
@@ -23935,7 +23935,7 @@ ts
 tc
 )
 ;
-if
+while
 (
 pn
 &
@@ -23955,7 +23955,7 @@ cx
 TOK_AND
 JSOP_AND
 pn
-AndExpr
+BitOrExpr
 (
 cx
 ts
