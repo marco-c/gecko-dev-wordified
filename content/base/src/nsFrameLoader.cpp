@@ -10529,6 +10529,9 @@ aModifiers
 aIgnoreRootScrollFrame
 )
 ;
+return
+NS_OK
+;
 }
 #
 endif
@@ -10621,6 +10624,9 @@ aCharCode
 aModifiers
 aPreventDefault
 )
+;
+return
+NS_OK
 ;
 }
 #
