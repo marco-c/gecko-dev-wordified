@@ -5595,6 +5595,9 @@ foreground
 "
 background
 "
+"
+backgroundHomescreen
+"
 }
 ;
 for
@@ -6058,6 +6061,17 @@ priorityStr
 =
 "
 background
+"
+;
+break
+;
+case
+PROCESS_PRIORITY_BACKGROUND_HOMESCREEN
+:
+priorityStr
+=
+"
+backgroundHomescreen
 "
 ;
 break

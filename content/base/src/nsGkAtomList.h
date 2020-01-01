@@ -829,6 +829,13 @@ templates
 )
 GK_ATOM
 (
+mozapptype
+"
+mozapptype
+"
+)
+GK_ATOM
+(
 archive
 "
 archive
