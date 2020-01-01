@@ -2796,6 +2796,7 @@ XP
 -
 class
 StandbyObserver
+MOZ_FINAL
 :
 public
 nsIObserver

@@ -105,6 +105,15 @@ h
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -752,7 +761,10 @@ tlsIndex
 BAD_TLS_INDEX
 )
 {
+DebugOnly
+<
 PRStatus
+>
 status
 ;
 status

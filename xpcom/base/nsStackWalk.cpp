@@ -1597,6 +1597,7 @@ supplied
 void
 PrintError
 (
+const
 char
 *
 prefix

@@ -154,6 +154,15 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 -
@@ -265,6 +274,7 @@ MAX_VALUE_NAME_LEN
 16383
 class
 nsWindowsRegKey
+MOZ_FINAL
 :
 public
 nsIWindowsRegKey
@@ -921,6 +931,7 @@ key
 ;
 if
 (
+(
 *
 result
 =
@@ -932,6 +943,7 @@ ERROR_SUCCESS
 &
 &
 key
+)
 )
 )
 RegCloseKey
