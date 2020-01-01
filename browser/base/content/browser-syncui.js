@@ -2372,6 +2372,8 @@ lastSync
 ;
 try
 {
+lastSync
+=
 Services
 .
 prefs
