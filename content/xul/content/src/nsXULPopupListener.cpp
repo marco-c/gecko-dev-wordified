@@ -3911,6 +3911,12 @@ if
 (
 !
 popupContent
+|
+|
+mElement
+=
+=
+popupContent
 )
 return
 NS_OK
