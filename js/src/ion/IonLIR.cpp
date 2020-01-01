@@ -745,7 +745,7 @@ LSnapshot
 :
 LSnapshot
 (
-MSnapshot
+MResumePoint
 *
 mir
 )
@@ -819,7 +819,7 @@ New
 MIRGenerator
 *
 gen
-MSnapshot
+MResumePoint
 *
 mir
 )

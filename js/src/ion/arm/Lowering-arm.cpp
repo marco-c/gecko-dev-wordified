@@ -1353,7 +1353,7 @@ LSnapshot
 New
 (
 gen
-last_snapshot_
+lastResumePoint_
 )
 ;
 if

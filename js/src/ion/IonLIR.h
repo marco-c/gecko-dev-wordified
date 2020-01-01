@@ -4302,7 +4302,7 @@ LAllocation
 *
 slots_
 ;
-MSnapshot
+MResumePoint
 *
 mir_
 ;
@@ -4314,7 +4314,7 @@ bailoutId_
 ;
 LSnapshot
 (
-MSnapshot
+MResumePoint
 *
 mir
 )
@@ -4337,7 +4337,7 @@ New
 MIRGenerator
 *
 gen
-MSnapshot
+MResumePoint
 *
 snapshot
 )
@@ -4496,7 +4496,7 @@ i
 alloc
 ;
 }
-MSnapshot
+MResumePoint
 *
 mir
 (

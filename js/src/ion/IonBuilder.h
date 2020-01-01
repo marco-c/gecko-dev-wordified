@@ -1576,7 +1576,8 @@ Honkin
 Comment
 about
 how
-snapshots
+resume
+points
 work
 in
 /
@@ -1592,7 +1593,7 @@ this
 function
 .
 bool
-snapshotAt
+resumeAt
 (
 MInstruction
 *
@@ -1603,7 +1604,7 @@ pc
 )
 ;
 bool
-snapshotAfter
+resumeAfter
 (
 MInstruction
 *

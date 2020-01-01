@@ -1010,17 +1010,18 @@ pred
 /
 Create
 a
-snapshot
+resume
+point
 using
 our
 initial
 stack
 state
 .
-entrySnapshot_
+entryResumePoint_
 =
 new
-MSnapshot
+MResumePoint
 (
 this
 pc
@@ -1031,7 +1032,7 @@ pc
 if
 (
 !
-entrySnapshot_
+entryResumePoint_
 -
 >
 init
@@ -1077,7 +1078,7 @@ i
 +
 +
 )
-entrySnapshot
+entryResumePoint
 (
 )
 -
@@ -1146,7 +1147,7 @@ set
 ins
 )
 ;
-entrySnapshot
+entryResumePoint
 (
 )
 -
@@ -3366,7 +3367,7 @@ i
 phi
 )
 ;
-entrySnapshot
+entryResumePoint
 (
 )
 -
@@ -3592,7 +3593,7 @@ stackPosition_
 ;
 JS_ASSERT
 (
-entrySnapshot
+entryResumePoint
 (
 )
 -
@@ -3730,7 +3731,7 @@ MDefinition
 *
 entryDef
 =
-entrySnapshot
+entryResumePoint
 (
 )
 -
@@ -5073,7 +5074,8 @@ are
 not
 captured
 in
-snapshots
+resume
+points
 .
 setSlot
 (

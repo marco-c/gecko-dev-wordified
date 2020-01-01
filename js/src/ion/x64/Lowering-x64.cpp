@@ -1144,7 +1144,7 @@ LSnapshot
 New
 (
 gen
-last_snapshot_
+lastResumePoint_
 )
 ;
 if
@@ -1164,7 +1164,7 @@ i
 ;
 i
 <
-last_snapshot_
+lastResumePoint_
 -
 >
 numOperands
@@ -1180,7 +1180,7 @@ MDefinition
 *
 def
 =
-last_snapshot_
+lastResumePoint_
 -
 >
 getOperand
