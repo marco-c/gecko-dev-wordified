@@ -2139,6 +2139,17 @@ aLayer
 from
 aScreenRegion
 .
+Any
+low
+-
+precision
+*
+rendering
+is
+included
+in
+aLowPrecisionScreenRegion
+.
 aTransform
 is
 the
@@ -2163,6 +2174,9 @@ aLayer
 nsIntRegion
 &
 aScreenRegion
+nsIntRegion
+&
+aLowPrecisionScreenRegion
 const
 gfx3DMatrix
 &
