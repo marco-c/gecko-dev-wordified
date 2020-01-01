@@ -6621,6 +6621,17 @@ nsChangeHint_UpdateEffects
 NS_UpdateHint
 (
 hint
+nsChangeHint_UpdateOverflow
+)
+;
+/
+/
+for
+filters
+only
+NS_UpdateHint
+(
+hint
 nsChangeHint_RepaintFrame
 )
 ;
