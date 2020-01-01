@@ -100,6 +100,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 Cu
 .
 import
@@ -1000,6 +1005,7 @@ addMessageListener
 pageshow
 "
 function
+onPageShow
 (
 )
 {
@@ -1029,10 +1035,7 @@ removeMessageListener
 "
 pageshow
 "
-arguments
-.
-callee
-true
+onPageShow
 )
 ;
 setTimeout
@@ -1142,6 +1145,7 @@ addEventListener
 UIReadyDelayed
 "
 function
+delayedInit
 (
 aEvent
 )
@@ -1165,12 +1169,10 @@ window
 .
 removeEventListener
 (
-aEvent
-.
-type
-arguments
-.
-callee
+"
+UIReadyDelayed
+"
+delayedInit
 false
 )
 ;
