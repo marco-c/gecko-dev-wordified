@@ -35350,9 +35350,6 @@ greedy
 Greedy
 register
 allocation
-(
-default
-)
 \
 n
 "
@@ -35363,6 +35360,9 @@ Linear
 Scan
 register
 allocation
+(
+default
+)
 "
 )
 #

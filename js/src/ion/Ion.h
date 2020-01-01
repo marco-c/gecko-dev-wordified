@@ -617,7 +617,7 @@ instead
 /
 Default
 :
-false
+true
 bool
 lsra
 ;
@@ -643,7 +643,7 @@ true
 )
 lsra
 (
-false
+true
 )
 {
 }
