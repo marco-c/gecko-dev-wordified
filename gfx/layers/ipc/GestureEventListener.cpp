@@ -201,7 +201,7 @@ twice
 /
 static
 const
-int
+uint32_t
 MAX_TAP_TIME
 =
 300
