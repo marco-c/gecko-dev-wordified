@@ -83,11 +83,12 @@ status
         
 self
 .
-assertIn
+assertTrue
 (
 "
 os
 "
+in
 status
 )
         
@@ -102,41 +103,45 @@ os
         
 self
 .
-assertIn
+assertTrue
 (
 "
 version
 "
+in
 status_os
 )
         
 self
 .
-assertIn
+assertTrue
 (
 "
 name
 "
+in
 status_os
 )
         
 self
 .
-assertIn
+assertTrue
 (
 "
 arch
 "
+in
 status_os
 )
         
 self
 .
-assertIn
+assertTrue
 (
 "
 build
 "
+in
 status
 )
         
@@ -151,30 +156,33 @@ build
         
 self
 .
-assertIn
+assertTrue
 (
 "
 revision
 "
+in
 status_build
 )
         
 self
 .
-assertIn
+assertTrue
 (
 "
 time
 "
+in
 status_build
 )
         
 self
 .
-assertIn
+assertTrue
 (
 "
 version
 "
+in
 status_build
 )
