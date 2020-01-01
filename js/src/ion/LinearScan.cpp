@@ -11643,6 +11643,10 @@ LUse
 FIXED
 )
 {
+fixedOpIsHint
+=
+false
+;
 fixedOp
 =
 op
