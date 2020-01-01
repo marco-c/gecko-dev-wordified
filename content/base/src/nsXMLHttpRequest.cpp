@@ -1234,7 +1234,7 @@ handler
 #
 define
 NS_PROGRESS_EVENT_INTERVAL
-350
+50
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 nsDOMEventListenerWrapper
