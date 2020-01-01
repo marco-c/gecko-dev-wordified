@@ -19664,7 +19664,7 @@ isElementClickable
 (
 element
 null
-true
+false
 )
 )
 Haptic
