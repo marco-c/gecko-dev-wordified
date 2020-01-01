@@ -14882,6 +14882,7 @@ AddDownload
 mSource
 mReferrer
 mStartTime
+mTarget
 )
 ;
 }
