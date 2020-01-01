@@ -671,6 +671,9 @@ backBuffer
 int32_t
 mouseUpEventCount
 ;
+int32_t
+bugMode
+;
 }
 InstanceData
 ;
