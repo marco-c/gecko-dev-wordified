@@ -44862,12 +44862,6 @@ reflow
 ;
 NS_ASSERTION
 (
-target
-=
-=
-rootFrame
-|
-|
 desiredSize
 .
 VisualOverflow
@@ -44895,9 +44889,6 @@ height
 )
 )
 "
-non
--
-root
 reflow
 roots
 must
@@ -44910,12 +44901,6 @@ overflow
 ;
 NS_ASSERTION
 (
-target
-=
-=
-rootFrame
-|
-|
 desiredSize
 .
 ScrollableOverflow
@@ -44943,9 +44928,6 @@ height
 )
 )
 "
-non
--
-root
 reflow
 roots
 must
