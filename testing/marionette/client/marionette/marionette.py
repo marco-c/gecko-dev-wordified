@@ -729,6 +729,9 @@ None
 busybox
 =
 None
+load_early
+=
+False
 )
 :
         
@@ -1031,23 +1034,18 @@ self
 .
 emulator
 .
-wait_for_system_message
+setup
 (
 self
-)
-            
-if
 gecko_path
-:
-                
+=
 self
 .
-emulator
-.
-install_gecko
-(
 gecko_path
-self
+                                
+load_early
+=
+load_early
 )
             
 if
