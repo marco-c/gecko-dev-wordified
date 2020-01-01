@@ -5681,6 +5681,17 @@ localroots
 tvr
 )
 ;
+#
+ifdef
+__GNUC__
+message
+=
+filename
+=
+NULL
+;
+#
+endif
 ok
 =
 JS_GetProperty
