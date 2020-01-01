@@ -1037,6 +1037,15 @@ aContext
 AudioNode
 (
 aContext
+2
+ChannelCountMode
+:
+:
+Clamped_max
+ChannelInterpretation
+:
+:
+Speakers
 )
 /
 /

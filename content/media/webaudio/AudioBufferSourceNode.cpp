@@ -2388,6 +2388,15 @@ aContext
 AudioNode
 (
 aContext
+2
+ChannelCountMode
+:
+:
+Max
+ChannelInterpretation
+:
+:
+Speakers
 )
 mLoopStart
 (

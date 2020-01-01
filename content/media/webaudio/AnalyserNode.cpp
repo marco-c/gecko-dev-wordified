@@ -450,6 +450,15 @@ aContext
 AudioNode
 (
 aContext
+1
+ChannelCountMode
+:
+:
+Explicit
+ChannelInterpretation
+:
+:
+Speakers
 )
 mFFTSize
 (
