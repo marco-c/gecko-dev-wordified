@@ -7356,12 +7356,6 @@ dialog
 =
 null
 ;
-this
-.
-mDialog
-=
-null
-;
 /
 /
 Close
@@ -7444,12 +7438,6 @@ this
 mDialog
 .
 dialog
-=
-null
-;
-this
-.
-mDialog
 =
 null
 ;
