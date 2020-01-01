@@ -2684,6 +2684,9 @@ jEGLSurfacePointerField
 jobject
 mGLControllerObj
 ;
+jmethodID
+jRequestContentRepaint
+;
 /
 /
 some

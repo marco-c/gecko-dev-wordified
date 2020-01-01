@@ -5278,6 +5278,8 @@ private
 void
 geometryChanged
 (
+DisplayPortMetrics
+displayPort
 )
 {
 /
@@ -5306,7 +5308,7 @@ getRedrawHint
 {
 adjustViewport
 (
-null
+displayPort
 )
 ;
 }
@@ -5867,6 +5869,7 @@ mGeckoIsReady
 {
 geometryChanged
 (
+null
 )
 ;
 }
@@ -6181,6 +6184,8 @@ public
 void
 forceRedraw
 (
+DisplayPortMetrics
+displayPort
 )
 {
 mForceRedraw
@@ -6194,6 +6199,7 @@ mGeckoIsReady
 {
 geometryChanged
 (
+displayPort
 )
 ;
 }
