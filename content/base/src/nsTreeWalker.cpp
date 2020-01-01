@@ -1835,6 +1835,10 @@ return
 NS_OK
 ;
 }
+node
+=
+parent
+;
 }
 while
 (
