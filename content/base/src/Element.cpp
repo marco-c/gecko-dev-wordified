@@ -9889,8 +9889,9 @@ aDefer
 true
 ;
 return
-ListenerManager
+GetListenerManager
 (
+true
 )
 ;
 }
