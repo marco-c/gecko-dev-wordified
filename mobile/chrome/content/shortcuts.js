@@ -1517,6 +1517,11 @@ s
 result
 |
 =
+m
+in
+modifierFlags
+&
+&
 modifierFlags
 [
 m
