@@ -723,10 +723,9 @@ eNotify
 nsresult
 AddInternal
 (
-const
-nsAFlatCString
-&
-aHost
+nsIPrincipal
+*
+aPrincipal
 const
 nsAFlatCString
 &
@@ -775,9 +774,9 @@ aExactHostMatch
 nsresult
 CommonTestPermission
 (
-nsIURI
+nsIPrincipal
 *
-aURI
+aPrincipal
 const
 char
 *

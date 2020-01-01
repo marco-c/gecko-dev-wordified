@@ -4196,15 +4196,9 @@ rv
 secMan
 -
 >
-GetAppCodebasePrincipal
+GetNoAppCodebasePrincipal
 (
 uri
-permission
-.
-appId
-permission
-.
-isInBrowserElement
 getter_AddRefs
 (
 principal
