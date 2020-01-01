@@ -206,6 +206,12 @@ CheckSubmit
 "
 #
 define
+ST_CHECKURL
+"
+CheckURL
+"
+#
+define
 ST_CHECKEMAIL
 "
 CheckEmail
