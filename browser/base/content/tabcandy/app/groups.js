@@ -2330,6 +2330,13 @@ group
 "
 null
 )
+.
+removeClass
+(
+"
+tabInGroup
+"
+)
 ;
 item
 .
