@@ -2256,6 +2256,10 @@ PRUint32
 aEventType
 WORD
 aCharCode
+PRUint32
+aUnshiftedCharCode
+PRUint32
+aShiftedCharCodes
 UINT
 aVirtualCharCode
 LPARAM
