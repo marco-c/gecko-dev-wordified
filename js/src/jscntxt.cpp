@@ -699,6 +699,7 @@ tpIndexInited
 =
 JS_FALSE
 ;
+JS_BEGIN_EXTERN_C
 JSBool
 js_InitThreadPrivateIndex
 (
@@ -751,6 +752,7 @@ status
 PR_SUCCESS
 ;
 }
+JS_END_EXTERN_C
 /
 *
 *
