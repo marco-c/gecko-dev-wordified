@@ -8002,8 +8002,6 @@ bad
 }
 else
 {
-have_fun
-:
 /
 *
 Get
