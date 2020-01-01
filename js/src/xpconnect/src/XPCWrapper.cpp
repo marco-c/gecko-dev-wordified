@@ -901,9 +901,6 @@ JSObject
 *
 UnsafeUnwrapSecurityWrapper
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
