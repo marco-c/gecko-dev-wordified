@@ -1795,7 +1795,7 @@ css
 }
 /
 /
-namespacs
+namespace
 mozilla
 #
 endif
