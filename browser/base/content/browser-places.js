@@ -5523,7 +5523,7 @@ false
 ;
 tooltipTitle
 .
-value
+textContent
 =
 title
 ;
