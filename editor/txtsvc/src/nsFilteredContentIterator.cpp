@@ -823,7 +823,7 @@ nsFilteredContentIterator
 :
 Init
 (
-nsIContent
+nsINode
 *
 aRoot
 )
@@ -1180,7 +1180,7 @@ PRPackedBool
 aChangeToForward
 )
 {
-nsIContent
+nsINode
 *
 node
 =
@@ -1401,9 +1401,9 @@ IsDone
 return
 ;
 }
-nsIContent
+nsINode
 *
-currentContent
+currentNode
 =
 mCurrentIterator
 -
@@ -1420,7 +1420,7 @@ node
 (
 do_QueryInterface
 (
-currentContent
+currentNode
 )
 )
 ;
@@ -1583,9 +1583,9 @@ IsDone
 return
 ;
 }
-nsIContent
+nsINode
 *
-currentContent
+currentNode
 =
 mCurrentIterator
 -
@@ -1602,7 +1602,7 @@ node
 (
 do_QueryInterface
 (
-currentContent
+currentNode
 )
 )
 ;
@@ -2880,9 +2880,9 @@ we
 can
 skip
 it
-nsIContent
+nsINode
 *
-currentContent
+currentNode
 =
 mCurrentIterator
 -
@@ -2899,7 +2899,7 @@ node
 (
 do_QueryInterface
 (
-currentContent
+currentNode
 )
 )
 ;
@@ -3033,9 +3033,9 @@ we
 can
 skip
 it
-nsIContent
+nsINode
 *
-currentContent
+currentNode
 =
 mCurrentIterator
 -
@@ -3052,7 +3052,7 @@ node
 (
 do_QueryInterface
 (
-currentContent
+currentNode
 )
 )
 ;
@@ -3064,7 +3064,7 @@ eBackward
 )
 ;
 }
-nsIContent
+nsINode
 *
 nsFilteredContentIterator
 :
@@ -3131,7 +3131,7 @@ nsFilteredContentIterator
 :
 PositionAt
 (
-nsIContent
+nsINode
 *
 aCurNode
 )
