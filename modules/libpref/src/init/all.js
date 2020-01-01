@@ -29324,7 +29324,7 @@ networkmanager
 .
 disable
 "
-false
+true
 )
 ;
 pref
