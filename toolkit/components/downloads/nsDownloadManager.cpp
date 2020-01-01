@@ -13818,9 +13818,8 @@ const
 nsACString
 &
 aGUID
-uint32_t
-*
-aAdded
+bool
+aHidden
 )
 {
 return
