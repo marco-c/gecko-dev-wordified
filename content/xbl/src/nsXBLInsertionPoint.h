@@ -535,6 +535,16 @@ GetInsertionParent
 (
 )
 ;
+void
+ClearInsertionParent
+(
+)
+{
+mParentElement
+=
+nsnull
+;
+}
 PRInt32
 GetInsertionIndex
 (

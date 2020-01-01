@@ -1541,6 +1541,14 @@ MEMBER
 VARIABLES
 protected
 :
+void
+RemoveInsertionParent
+(
+nsIContent
+*
+aParent
+)
+;
 /
 /
 A
