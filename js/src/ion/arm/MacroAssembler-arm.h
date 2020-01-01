@@ -2898,6 +2898,11 @@ FloatRegister
 rhs
 )
 ;
+void
+checkStackAlignment
+(
+)
+;
 /
 /
 Setup

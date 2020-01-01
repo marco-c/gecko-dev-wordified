@@ -5187,6 +5187,12 @@ this
 .
 masm
 .
+breakpoint
+(
+)
+;
+masm
+.
 ma_sub
 (
 pc
