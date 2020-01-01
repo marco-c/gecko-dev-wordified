@@ -1635,9 +1635,13 @@ GetTopLevelHWND
 HWND
 aWnd
 bool
-aStopOnDialogOrPopup
+aStopIfNotChild
 =
 false
+bool
+aStopIfNotPopup
+=
+true
 )
 ;
 HWND
