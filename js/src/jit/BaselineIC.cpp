@@ -29610,7 +29610,7 @@ idxReg
 ;
 regs
 .
-takeUnchecked
+take
 (
 scratchReg
 )
@@ -29818,6 +29818,13 @@ regs
 add
 (
 tempReg
+)
+;
+regs
+.
+add
+(
+argData
 )
 ;
 ValueOperand
