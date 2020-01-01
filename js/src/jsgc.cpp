@@ -23809,8 +23809,11 @@ rt
 -
 >
 shapeGen
-&
+>
+=
 SHAPE_OVERFLOW_BIT
+-
+1
 )
 {
 /

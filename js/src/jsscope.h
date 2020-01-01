@@ -2714,6 +2714,7 @@ js_GenerateShape
 cx
 )
 JS_FALSE
+NULL
 )
 )
 #
@@ -2791,6 +2792,7 @@ js_GenerateShape
 cx
 )
 JS_FALSE
+sprop
 )
 ;
 \
