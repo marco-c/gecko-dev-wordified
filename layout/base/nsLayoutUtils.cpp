@@ -8302,7 +8302,7 @@ visibleWindowRegion
 }
 list
 .
-Paint
+PaintRoot
 (
 &
 builder

@@ -30406,7 +30406,7 @@ PAINT_USE_WIDGET_LAYERS
 }
 list
 .
-Paint
+PaintRoot
 (
 &
 builder
@@ -32640,7 +32640,7 @@ rangeInfo
 >
 mList
 .
-Paint
+PaintRoot
 (
 &
 rangeInfo
