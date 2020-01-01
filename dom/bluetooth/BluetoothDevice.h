@@ -335,6 +335,14 @@ NS_DECL_EVENT_HANDLER
 (
 propertychanged
 )
+NS_DECL_EVENT_HANDLER
+(
+connected
+)
+NS_DECL_EVENT_HANDLER
+(
+disconnected
+)
 }
 ;
 END_BLUETOOTH_NAMESPACE
