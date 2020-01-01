@@ -331,6 +331,16 @@ Author
 :
 Dan
 Waylonis
+extern
+"
+C
+"
+{
+/
+/
+necessary
+for
+Leopard
 #
 include
 <
@@ -424,6 +434,7 @@ unistd
 .
 h
 >
+}
 #
 include
 "

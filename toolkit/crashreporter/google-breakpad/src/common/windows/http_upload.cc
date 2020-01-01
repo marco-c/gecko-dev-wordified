@@ -868,8 +868,14 @@ content_type_header
 c_str
 (
 )
+static_cast
+<
+DWORD
+>
+(
 -
 1
+)
 HTTP_ADDREQ_FLAG_ADD
 )
 ;
@@ -1082,6 +1088,8 @@ content_length
 ;
 DWORD
 claimed_size
+=
+0
 ;
 string
 response_body
