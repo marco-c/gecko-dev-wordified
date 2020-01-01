@@ -5783,12 +5783,9 @@ JSObject
 mJSObject
 ;
 typedef
-nsTArray
-<
-nsCOMPtr
+nsCOMArray
 <
 nsIDOMStorageEvent
->
 >
 nsDOMStorageEventArray
 ;
