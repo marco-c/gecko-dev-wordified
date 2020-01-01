@@ -1063,10 +1063,10 @@ mForScopedStyle
 "
 only
 call
-PopScopeForSelectorMatching
+PopStyleScopeForSelectorMatching
+"
+"
 when
-"
-"
 mForScopedStyle
 is
 true
