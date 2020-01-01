@@ -243,6 +243,13 @@ LAYERS_OPENGL
 GetMaxTextureSize
 (
 )
+mFBOTextureTarget
+=
+=
+LOCAL_GL_TEXTURE_2D
+SupportsPartialTextureUpdate
+(
+)
 )
 ;
 }
