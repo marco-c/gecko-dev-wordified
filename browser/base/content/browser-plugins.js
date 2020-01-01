@@ -885,6 +885,7 @@ nsIObjectLoadingContent
 )
 )
 return
+null
 ;
 switch
 (
@@ -1001,6 +1002,7 @@ to
 a
 handler
 return
+null
 ;
 }
 }

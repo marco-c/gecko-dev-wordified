@@ -2828,6 +2828,9 @@ uri
 .
 host
 ;
+var
+onFullscreenchange
+=
 function
 onFullscreenchange
 (
@@ -4433,6 +4436,9 @@ true
 }
 else
 {
+var
+restoreAttr
+=
 function
 restoreAttr
 (

@@ -773,6 +773,9 @@ reportError
 ex
 )
 ;
+return
+null
+;
 }
 }
 )
@@ -22571,6 +22574,9 @@ open
 a
 new
 one
+var
+observer
+=
 function
 observer
 (
@@ -28496,6 +28502,9 @@ functions
 for
 disabling
 find
+var
+shouldDisableFind
+=
 function
 shouldDisableFind
 (
@@ -28528,6 +28537,9 @@ true
 "
 ;
 }
+var
+disableFindCommands
+=
 function
 disableFindCommands
 (
@@ -28600,6 +28612,9 @@ disabled
 ;
 }
 }
+var
+onContentRSChange
+=
 function
 onContentRSChange
 (
@@ -35267,6 +35282,9 @@ commandDispatcher
 .
 focusedElement
 ;
+var
+isOnTextInput
+=
 function
 isOnTextInput
 (
@@ -42618,6 +42636,9 @@ emWindow
 let
 browserWindow
 ;
+var
+receivePong
+=
 function
 receivePong
 (
@@ -50958,6 +50979,9 @@ reportError
 (
 ex
 )
+;
+return
+null
 ;
 }
 }
