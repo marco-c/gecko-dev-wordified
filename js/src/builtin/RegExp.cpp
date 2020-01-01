@@ -2473,6 +2473,7 @@ args
 ;
 }
 static
+const
 JSFunctionSpec
 regexp_methods
 [

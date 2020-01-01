@@ -2449,6 +2449,7 @@ WeakMap_mark
 }
 ;
 static
+const
 JSFunctionSpec
 weak_map_methods
 [

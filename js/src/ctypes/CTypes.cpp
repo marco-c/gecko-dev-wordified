@@ -3614,6 +3614,7 @@ JSOP_NULLWRAPPER
 }
 ;
 static
+const
 JSFunctionSpec
 sCTypeFunctions
 [
@@ -3660,6 +3661,7 @@ JS_FS_END
 }
 ;
 static
+const
 JSFunctionSpec
 sCABIFunctions
 [
@@ -3734,6 +3736,7 @@ JSOP_NULLWRAPPER
 }
 ;
 static
+const
 JSFunctionSpec
 sCDataFunctions
 [
@@ -3821,6 +3824,7 @@ JSOP_NULLWRAPPER
 }
 ;
 static
+const
 JSFunctionSpec
 sCDataFinalizerFunctions
 [
@@ -3903,6 +3907,7 @@ JS_FS_END
 }
 ;
 static
+const
 JSFunctionSpec
 sPointerFunction
 =
@@ -3952,6 +3957,7 @@ JSOP_NULLWRAPPER
 }
 ;
 static
+const
 JSFunctionSpec
 sPointerInstanceFunctions
 [
@@ -4038,6 +4044,7 @@ JSOP_NULLWRAPPER
 }
 ;
 static
+const
 JSFunctionSpec
 sArrayFunction
 =
@@ -4102,6 +4109,7 @@ JSOP_NULLWRAPPER
 }
 ;
 static
+const
 JSFunctionSpec
 sArrayInstanceFunctions
 [
@@ -4160,6 +4168,7 @@ JSOP_NULLWRAPPER
 }
 ;
 static
+const
 JSFunctionSpec
 sStructFunction
 =
@@ -4209,6 +4218,7 @@ JSOP_NULLWRAPPER
 }
 ;
 static
+const
 JSFunctionSpec
 sStructFunctions
 [
@@ -4231,6 +4241,7 @@ JS_FS_END
 }
 ;
 static
+const
 JSFunctionSpec
 sStructInstanceFunctions
 [
@@ -4253,6 +4264,7 @@ JS_FS_END
 }
 ;
 static
+const
 JSFunctionSpec
 sFunctionFunction
 =
@@ -4347,6 +4359,7 @@ JSOP_NULLWRAPPER
 }
 ;
 static
+const
 JSFunctionSpec
 sFunctionInstanceFunctions
 [
@@ -4461,6 +4474,7 @@ Finalize
 }
 ;
 static
+const
 JSFunctionSpec
 sInt64StaticFunctions
 [
@@ -4519,6 +4533,7 @@ JS_FS_END
 }
 ;
 static
+const
 JSFunctionSpec
 sUInt64StaticFunctions
 [
@@ -4577,6 +4592,7 @@ JS_FS_END
 }
 ;
 static
+const
 JSFunctionSpec
 sInt64Functions
 [
@@ -4611,6 +4627,7 @@ JS_FS_END
 }
 ;
 static
+const
 JSFunctionSpec
 sUInt64Functions
 [
@@ -4710,6 +4727,7 @@ JSOP_NULLWRAPPER
 }
 ;
 static
+const
 JSFunctionSpec
 sModuleFunctions
 [

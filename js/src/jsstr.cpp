@@ -2339,6 +2339,7 @@ true
 #
 endif
 static
+const
 JSFunctionSpec
 string_functions
 [
@@ -21782,6 +21783,7 @@ JS_HAS_STR_HTML_HELPERS
 *
 /
 static
+const
 JSFunctionSpec
 string_methods
 [
@@ -22631,6 +22633,7 @@ JS_TRUE
 ;
 }
 static
+const
 JSFunctionSpec
 string_static_methods
 [

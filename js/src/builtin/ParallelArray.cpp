@@ -211,6 +211,7 @@ ctorNames
 NumCtors
 ]
 ;
+const
 JSFunctionSpec
 ParallelArrayObject
 :

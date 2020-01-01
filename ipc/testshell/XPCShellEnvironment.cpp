@@ -2659,6 +2659,7 @@ endif
 DEBUG
 *
 /
+const
 JSFunctionSpec
 gGlobalFunctions
 [

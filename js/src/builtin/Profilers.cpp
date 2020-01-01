@@ -1830,6 +1830,7 @@ JS_TRUE
 #
 endif
 static
+const
 JSFunctionSpec
 profiling_functions
 [

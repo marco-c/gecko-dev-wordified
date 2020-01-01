@@ -12089,6 +12089,7 @@ JS_TRUE
 ;
 }
 static
+const
 JSFunctionSpec
 TraceMallocFunctions
 [
@@ -12400,6 +12401,7 @@ dmd
 namespace
 mozilla
 static
+const
 JSFunctionSpec
 DMDFunctions
 [
@@ -12925,6 +12927,7 @@ JS_TRUE
 ;
 }
 static
+const
 JSFunctionSpec
 JProfFunctions
 [

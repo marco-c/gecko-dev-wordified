@@ -767,6 +767,7 @@ args
 ;
 }
 static
+const
 JSFunctionSpec
 boolean_methods
 [

@@ -1193,14 +1193,7 @@ JS_DefineFunctions
 (
 aCx
 aObject
-const_cast
-<
-JSFunctionSpec
-*
->
-(
 gKeyRangeConstructors
-)
 )
 ;
 }

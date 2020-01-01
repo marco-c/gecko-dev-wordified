@@ -553,6 +553,7 @@ JSPROP_READONLY
 JSPROP_PERMANENT
 ;
 static
+const
 JSFunctionSpec
 pm_fns
 [

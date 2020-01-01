@@ -6539,6 +6539,7 @@ SlotCount
 }
 ;
 static
+const
 JSFunctionSpec
 methods
 [
@@ -6723,6 +6724,7 @@ MapIteratorObject
 finalize
 }
 ;
+const
 JSFunctionSpec
 MapIteratorObject
 :
@@ -7685,6 +7687,7 @@ size
 JS_PS_END
 }
 ;
+const
 JSFunctionSpec
 MapObject
 :
@@ -10214,6 +10217,7 @@ SlotCount
 }
 ;
 static
+const
 JSFunctionSpec
 methods
 [
@@ -10383,6 +10387,7 @@ SetIteratorObject
 finalize
 }
 ;
+const
 JSFunctionSpec
 SetIteratorObject
 :
@@ -11133,6 +11138,7 @@ size
 JS_PS_END
 }
 ;
+const
 JSFunctionSpec
 SetObject
 :

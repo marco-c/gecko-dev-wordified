@@ -252,6 +252,7 @@ Class
 protoClass
 ;
 static
+const
 JSFunctionSpec
 jsfuncs
 [
@@ -2804,6 +2805,7 @@ method
 private
 :
 static
+const
 JSFunctionSpec
 jsfuncs
 [

@@ -199,6 +199,7 @@ sProperties
 ]
 ;
 static
+const
 JSFunctionSpec
 sFunctions
 [
@@ -1317,7 +1318,6 @@ false
 const
 char
 *
-&
 name
 =
 sFunctions
@@ -1399,7 +1399,6 @@ false
 const
 char
 *
-&
 name
 =
 sFunctions
@@ -1729,6 +1728,7 @@ JSOP_NULLWRAPPER
 }
 }
 ;
+const
 JSFunctionSpec
 Worker
 :

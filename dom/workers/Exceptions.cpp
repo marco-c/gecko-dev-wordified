@@ -214,6 +214,7 @@ sProperties
 ]
 ;
 static
+const
 JSFunctionSpec
 sFunctions
 [
@@ -841,6 +842,7 @@ JSOP_NULLWRAPPER
 }
 }
 ;
+const
 JSFunctionSpec
 DOMException
 :

@@ -7517,6 +7517,7 @@ isInterpretedLazy
 )
 )
 ;
+const
 JSFunctionSpec
 *
 fs
@@ -8675,6 +8676,7 @@ return
 false
 ;
 }
+const
 JSFunctionSpec
 js
 :

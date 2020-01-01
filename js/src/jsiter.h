@@ -792,6 +792,7 @@ target
 )
 ;
 static
+const
 JSFunctionSpec
 methods
 [

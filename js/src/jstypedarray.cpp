@@ -15991,6 +15991,7 @@ key
 JSProto_Int8Array
 ;
 static
+const
 JSFunctionSpec
 jsfuncs
 [
@@ -16024,6 +16025,7 @@ key
 JSProto_Uint8Array
 ;
 static
+const
 JSFunctionSpec
 jsfuncs
 [
@@ -16057,6 +16059,7 @@ key
 JSProto_Int16Array
 ;
 static
+const
 JSFunctionSpec
 jsfuncs
 [
@@ -16090,6 +16093,7 @@ key
 JSProto_Uint16Array
 ;
 static
+const
 JSFunctionSpec
 jsfuncs
 [
@@ -16123,6 +16127,7 @@ key
 JSProto_Int32Array
 ;
 static
+const
 JSFunctionSpec
 jsfuncs
 [
@@ -16156,6 +16161,7 @@ key
 JSProto_Uint32Array
 ;
 static
+const
 JSFunctionSpec
 jsfuncs
 [
@@ -16189,6 +16195,7 @@ key
 JSProto_Float32Array
 ;
 static
+const
 JSFunctionSpec
 jsfuncs
 [
@@ -16222,6 +16229,7 @@ key
 JSProto_Float64Array
 ;
 static
+const
 JSFunctionSpec
 jsfuncs
 [
@@ -16255,6 +16263,7 @@ key
 JSProto_Uint8ClampedArray
 ;
 static
+const
 JSFunctionSpec
 jsfuncs
 [
@@ -20719,6 +20728,7 @@ thisObject
 }
 }
 ;
+const
 JSFunctionSpec
 ArrayBufferObject
 :
@@ -20760,6 +20770,7 @@ IMPL_TYPED_ARRAY_STATICS
 _typedArray
 )
 \
+const
 JSFunctionSpec
 _typedArray
 :
@@ -20831,6 +20842,7 @@ IMPL_TYPED_ARRAY_STATICS
 _typedArray
 )
 \
+const
 JSFunctionSpec
 _typedArray
 :
@@ -22661,6 +22673,7 @@ JS_NULL_CLASS_EXT
 JS_NULL_OBJECT_OPS
 }
 ;
+const
 JSFunctionSpec
 DataViewObject
 :

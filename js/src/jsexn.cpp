@@ -4897,6 +4897,7 @@ true
 #
 endif
 static
+const
 JSFunctionSpec
 exception_methods
 [

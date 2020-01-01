@@ -6298,6 +6298,7 @@ return
 true
 ;
 }
+const
 JSFunctionSpec
 js
 :
@@ -6422,6 +6423,7 @@ endif
 JS_FS_END
 }
 ;
+const
 JSFunctionSpec
 js
 :

@@ -17999,6 +17999,7 @@ TraceXPCGlobal
 }
 ;
 static
+const
 JSFunctionSpec
 SandboxFunctions
 [

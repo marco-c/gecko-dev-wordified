@@ -5464,6 +5464,7 @@ args
 ;
 }
 static
+const
 JSFunctionSpec
 iterator_methods
 [
@@ -6267,6 +6268,7 @@ finalize
 /
 }
 ;
+const
 JSFunctionSpec
 ElementIteratorObject
 :
@@ -11249,6 +11251,7 @@ JSPROP_READONLY
 JSPROP_PERMANENT
 )
 static
+const
 JSFunctionSpec
 generator_methods
 [

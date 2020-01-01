@@ -2842,6 +2842,7 @@ true
 ;
 }
 static
+const
 JSFunctionSpec
 number_functions
 [
@@ -5675,6 +5676,7 @@ args
 ;
 }
 static
+const
 JSFunctionSpec
 number_methods
 [
@@ -6192,6 +6194,7 @@ true
 ;
 }
 static
+const
 JSFunctionSpec
 number_static_methods
 [

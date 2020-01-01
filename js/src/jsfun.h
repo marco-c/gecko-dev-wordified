@@ -2978,6 +2978,7 @@ Value
 )
 ;
 extern
+const
 JSFunctionSpec
 function_methods
 [

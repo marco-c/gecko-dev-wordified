@@ -438,6 +438,7 @@ sProperties
 ]
 ;
 static
+const
 JSFunctionSpec
 sFunctions
 [
@@ -3133,6 +3134,7 @@ JSOP_NULLWRAPPER
 }
 }
 ;
+const
 JSFunctionSpec
 WorkerGlobalScope
 :
@@ -3269,6 +3271,7 @@ sProperties
 ]
 ;
 static
+const
 JSFunctionSpec
 sFunctions
 [
@@ -4159,7 +4162,6 @@ false
 const
 char
 *
-&
 name
 =
 sFunctions
@@ -4510,6 +4512,7 @@ JSOP_NULLWRAPPER
 }
 }
 ;
+const
 JSFunctionSpec
 DedicatedWorkerGlobalScope
 :

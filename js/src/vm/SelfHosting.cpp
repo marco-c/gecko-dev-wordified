@@ -3301,6 +3301,7 @@ return
 true
 ;
 }
+const
 JSFunctionSpec
 intrinsic_functions
 [

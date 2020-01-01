@@ -6114,6 +6114,7 @@ JS_TRUE
 #
 endif
 static
+const
 JSFunctionSpec
 json_static_methods
 [

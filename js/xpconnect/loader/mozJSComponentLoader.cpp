@@ -1917,6 +1917,7 @@ true
 ;
 }
 static
+const
 JSFunctionSpec
 gGlobalFun
 [
