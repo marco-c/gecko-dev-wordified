@@ -414,7 +414,7 @@ nsICODecoder
 RasterImage
 &
 aImage
-imgIDecoderObserver
+imgDecoderObserver
 *
 aObserver
 )

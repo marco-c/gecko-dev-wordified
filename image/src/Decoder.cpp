@@ -135,7 +135,7 @@ Decoder
 RasterImage
 &
 aImage
-imgIDecoderObserver
+imgDecoderObserver
 *
 aObserver
 )

@@ -147,7 +147,7 @@ nsIconDecoder
 RasterImage
 &
 aImage
-imgIDecoderObserver
+imgDecoderObserver
 *
 aObserver
 )

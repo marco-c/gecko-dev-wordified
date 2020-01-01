@@ -312,7 +312,7 @@ virtual
 nsresult
 Init
 (
-imgIDecoderObserver
+imgDecoderObserver
 *
 aObserver
 const

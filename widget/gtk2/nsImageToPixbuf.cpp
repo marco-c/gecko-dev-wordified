@@ -261,7 +261,7 @@ originates
 /
 in
 an
-imgIDecoderObserver
+imgINotificationObserver
 event
 meaning
 that

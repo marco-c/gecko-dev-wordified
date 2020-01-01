@@ -114,7 +114,7 @@ h
 #
 include
 "
-imgIDecoderObserver
+imgDecoderObserver
 .
 h
 "
@@ -519,7 +519,7 @@ nsIconDecoder
 RasterImage
 &
 aImage
-imgIDecoderObserver
+imgDecoderObserver
 *
 aObserver
 )

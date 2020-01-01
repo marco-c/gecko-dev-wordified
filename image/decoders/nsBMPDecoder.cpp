@@ -294,7 +294,7 @@ nsBMPDecoder
 RasterImage
 &
 aImage
-imgIDecoderObserver
+imgDecoderObserver
 *
 aObserver
 )

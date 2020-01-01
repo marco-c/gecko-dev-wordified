@@ -3703,7 +3703,7 @@ NS_OK
 /
 *
 *
-imgIDecoderObserver
+imgDecoderObserver
 methods
 *
 *

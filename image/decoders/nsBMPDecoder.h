@@ -93,7 +93,7 @@ h
 #
 include
 "
-imgIDecoderObserver
+imgDecoderObserver
 .
 h
 "
@@ -159,7 +159,7 @@ nsBMPDecoder
 RasterImage
 &
 aImage
-imgIDecoderObserver
+imgDecoderObserver
 *
 aObserver
 )

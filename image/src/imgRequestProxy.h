@@ -715,7 +715,7 @@ notifications
 non
 -
 virtual
-imgIDecoderObserver
+imgDecoderObserver
 methods
 *
 /
