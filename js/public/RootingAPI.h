@@ -4261,16 +4261,6 @@ void
 this
 )
 ;
-#
-ifdef
-JSGC_ROOT_ANALYSIS
-this
--
->
-scanned
-=
-false
-;
 JS_ASSERT
 (
 !
@@ -4289,8 +4279,6 @@ ptr
 )
 )
 ;
-#
-endif
 #
 endif
 }
