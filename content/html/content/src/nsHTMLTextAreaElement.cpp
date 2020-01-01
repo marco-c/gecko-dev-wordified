@@ -786,6 +786,12 @@ nsIConstraintValidation
 {
 public
 :
+using
+nsIConstraintValidation
+:
+:
+GetValidationMessage
+;
 nsHTMLTextAreaElement
 (
 already_AddRefed

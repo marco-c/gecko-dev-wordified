@@ -490,6 +490,12 @@ nsIConstraintValidation
 {
 public
 :
+using
+nsIConstraintValidation
+:
+:
+GetValidationMessage
+;
 nsHTMLFieldSetElement
 (
 already_AddRefed

@@ -1413,6 +1413,12 @@ nsIConstraintValidation
 {
 public
 :
+using
+nsIConstraintValidation
+:
+:
+GetValidationMessage
+;
 nsHTMLSelectElement
 (
 already_AddRefed
