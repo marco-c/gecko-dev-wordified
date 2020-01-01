@@ -9520,6 +9520,13 @@ CSS_PROPERTY_PARSE_FUNCTION
 |
 CSS_PROPERTY_IS_ALIAS
 "
+layout
+.
+css
+.
+prefixes
+.
+transforms
 "
 )
 #
