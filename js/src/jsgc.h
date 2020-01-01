@@ -8736,6 +8736,15 @@ int64_t
 objCount
 )
 ;
+extern
+void
+PrepareForDebugGC
+(
+JSRuntime
+*
+rt
+)
+;
 }
 /
 *
