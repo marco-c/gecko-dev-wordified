@@ -1112,7 +1112,7 @@ extensionsBundle
 getFormattedString
 (
 "
-blocklistNotifyMsg
+blocklistNotifyMsg2
 "
 [
 brandShortName
@@ -1125,7 +1125,7 @@ extensionsBundle
 getFormattedString
 (
 "
-blocklistRestartMsg
+blocklistRestartMsg2
 "
 [
 brandShortName
@@ -1141,7 +1141,7 @@ extensionsBundle
 getString
 (
 "
-blocklistNotifyTitle
+blocklistNotifyTitle2
 "
 )
 }
