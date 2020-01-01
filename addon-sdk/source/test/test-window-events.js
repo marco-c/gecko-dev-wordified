@@ -474,6 +474,8 @@ bug
 require
 (
 "
+sdk
+/
 test
 "
 )
