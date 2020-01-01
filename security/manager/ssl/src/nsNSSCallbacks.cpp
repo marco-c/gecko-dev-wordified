@@ -3489,7 +3489,13 @@ SECSuccess
 :
 protAuthRetVal
 =
+ToNewCString
+(
+nsDependentCString
+(
 PK11_PW_AUTHENTICATED
+)
+)
 ;
 break
 ;
@@ -3498,7 +3504,13 @@ SECWouldBlock
 :
 protAuthRetVal
 =
+ToNewCString
+(
+nsDependentCString
+(
 PK11_PW_RETRY
+)
+)
 ;
 break
 ;
