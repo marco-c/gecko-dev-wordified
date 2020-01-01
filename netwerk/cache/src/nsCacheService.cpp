@@ -867,7 +867,7 @@ max_entry_size
 #
 define
 DISK_CACHE_CAPACITY
-51200
+102400
 #
 define
 OFFLINE_CACHE_ENABLE_PREF
