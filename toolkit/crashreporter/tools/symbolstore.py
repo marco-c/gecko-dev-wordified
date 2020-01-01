@@ -1510,11 +1510,28 @@ False
 )
 :
         
+#
+popen
+likes
+absolute
+paths
+at
+least
+on
+windows
+        
 self
 .
 dump_syms
 =
+os
+.
+path
+.
+abspath
+(
 dump_syms
+)
         
 self
 .
