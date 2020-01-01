@@ -241,6 +241,13 @@ GeckoBackgroundThread
 (
 )
 ;
+ThreadUtils
+.
+setBackgroundThread
+(
+lt
+)
+;
 lt
 .
 start

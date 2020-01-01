@@ -119,6 +119,17 @@ gfx
 LayerView
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
+ThreadUtils
+;
+import
 android
 .
 os
@@ -1548,7 +1559,7 @@ if
 DEBUG
 )
 {
-GeckoApp
+ThreadUtils
 .
 assertOnGeckoThread
 (
@@ -1638,7 +1649,7 @@ if
 DEBUG
 )
 {
-GeckoApp
+ThreadUtils
 .
 assertOnGeckoThread
 (
@@ -1913,7 +1924,7 @@ assertOnIcThread
 (
 )
 {
-GeckoApp
+ThreadUtils
 .
 assertOnThread
 (
@@ -3788,7 +3799,7 @@ from
 the
 Gecko
 thread
-GeckoApp
+ThreadUtils
 .
 assertOnGeckoThread
 (
@@ -4181,7 +4192,7 @@ from
 the
 Gecko
 thread
-GeckoApp
+ThreadUtils
 .
 assertOnGeckoThread
 (
@@ -4706,7 +4717,7 @@ from
 the
 Gecko
 thread
-GeckoApp
+ThreadUtils
 .
 assertOnGeckoThread
 (
@@ -5134,7 +5145,7 @@ from
 the
 Gecko
 thread
-GeckoApp
+ThreadUtils
 .
 assertOnGeckoThread
 (

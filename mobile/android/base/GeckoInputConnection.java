@@ -108,6 +108,17 @@ gfx
 InputConnectionHandler
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
+ThreadUtils
+;
+import
 android
 .
 R
@@ -345,7 +356,7 @@ sBackgroundHandler
 ;
 private
 class
-ThreadUtils
+InputThreadUtils
 {
 private
 Editable
@@ -373,7 +384,7 @@ Runnable
 mIcSignalRunnable
 ;
 public
-ThreadUtils
+InputThreadUtils
 (
 )
 {
@@ -421,7 +432,7 @@ if
 DEBUG
 )
 {
-GeckoApp
+ThreadUtils
 .
 assertOnUiThread
 (
@@ -612,7 +623,7 @@ if
 DEBUG
 )
 {
-GeckoApp
+ThreadUtils
 .
 assertOnUiThread
 (
@@ -662,7 +673,7 @@ if
 DEBUG
 )
 {
-GeckoApp
+ThreadUtils
 .
 assertOnThread
 (
@@ -765,7 +776,7 @@ if
 DEBUG
 )
 {
-GeckoApp
+ThreadUtils
 .
 assertOnThread
 (
@@ -891,7 +902,7 @@ if
 DEBUG
 )
 {
-GeckoApp
+ThreadUtils
 .
 assertOnThread
 (
@@ -1133,11 +1144,11 @@ mUiEditable
 }
 private
 final
-ThreadUtils
+InputThreadUtils
 mThreadUtils
 =
 new
-ThreadUtils
+InputThreadUtils
 (
 )
 ;

@@ -114,6 +114,17 @@ mozilla
 .
 gecko
 .
+util
+.
+ThreadUtils
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 widget
 .
 DateTimePicker
@@ -2423,7 +2434,7 @@ boolean
 aMultipleSelection
 )
 {
-GeckoApp
+ThreadUtils
 .
 assertOnUiThread
 (
@@ -3113,7 +3124,7 @@ int
 aWhich
 )
 {
-GeckoApp
+ThreadUtils
 .
 assertOnUiThread
 (
@@ -3400,7 +3411,7 @@ long
 id
 )
 {
-GeckoApp
+ThreadUtils
 .
 assertOnUiThread
 (
@@ -3427,7 +3438,7 @@ DialogInterface
 aDialog
 )
 {
-GeckoApp
+ThreadUtils
 .
 assertOnUiThread
 (
