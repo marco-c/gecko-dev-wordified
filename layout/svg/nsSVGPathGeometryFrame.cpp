@@ -3219,7 +3219,7 @@ wrong
 nsSVGUtils
 :
 :
-SetupCairoStrokeGeometry
+SetupCairoStrokeBBoxGeometry
 (
 this
 tmpCtx

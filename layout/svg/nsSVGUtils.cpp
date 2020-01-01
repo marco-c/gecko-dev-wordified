@@ -10425,7 +10425,7 @@ void
 nsSVGUtils
 :
 :
-SetupCairoStrokeGeometry
+SetupCairoStrokeBBoxGeometry
 (
 nsIFrame
 *
@@ -11005,7 +11005,7 @@ gfxTextObjectPaint
 aObjectPaint
 )
 {
-SetupCairoStrokeGeometry
+SetupCairoStrokeBBoxGeometry
 (
 aFrame
 aContext
