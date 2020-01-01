@@ -34677,7 +34677,7 @@ GetStyleText
 )
 -
 >
-WhiteSpaceIsSignificant
+NewlineIsSignificant
 (
 )
 ;
