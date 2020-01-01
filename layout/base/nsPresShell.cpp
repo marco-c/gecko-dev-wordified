@@ -15649,7 +15649,10 @@ rootFrame
 GetView
 (
 )
-nsnull
+&
+desiredSize
+.
+mOverflowArea
 )
 ;
 rootFrame
@@ -16555,7 +16558,10 @@ rootFrame
 GetView
 (
 )
-nsnull
+&
+desiredSize
+.
+mOverflowArea
 )
 ;
 rootFrame
@@ -18872,7 +18878,10 @@ SyncFrameViewAfterReflow
 mPresContext
 rootFrame
 view
-nsnull
+&
+desiredSize
+.
+mOverflowArea
 )
 ;
 rootFrame
