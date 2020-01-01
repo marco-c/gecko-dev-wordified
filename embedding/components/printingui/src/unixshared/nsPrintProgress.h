@@ -457,6 +457,13 @@ h
 #
 include
 "
+nsIPrintingPromptService
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -512,6 +519,9 @@ NS_DECL_NSIWEBPROGRESSLISTENER
 NS_DECL_NSIPRINTSTATUSFEEDBACK
 nsPrintProgress
 (
+nsIPrintSettings
+*
+aPrintSettings
 )
 ;
 virtual
@@ -560,6 +570,12 @@ nsCOMPtr
 nsIObserver
 >
 m_observer
+;
+nsCOMPtr
+<
+nsIPrintSettings
+>
+m_PrintSetting
 ;
 }
 ;
