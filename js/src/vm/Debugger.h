@@ -890,6 +890,9 @@ environments
 class
 FrameRange
 ;
+class
+ScriptQuery
+;
 bool
 addDebuggeeGlobal
 (
