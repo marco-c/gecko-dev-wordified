@@ -954,6 +954,7 @@ onGeneratorFrameChange
 (
 otherfp
 this
+cx
 )
 ;
 }
@@ -2177,6 +2178,7 @@ debugScopes
 onPopCall
 (
 this
+cx
 )
 ;
 Probes
