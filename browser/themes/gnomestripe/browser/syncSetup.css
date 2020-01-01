@@ -13,7 +13,7 @@ width
 ;
 height
 :
-42em
+45em
 ;
 padding
 :
@@ -84,7 +84,7 @@ margin
 padding
 :
 0
-8em
+6em
 ;
 background
 -
@@ -438,6 +438,14 @@ loading_16
 png
 "
 )
+;
+}
+#
+captchaFeedback
+{
+visibility
+:
+hidden
 ;
 }
 #
