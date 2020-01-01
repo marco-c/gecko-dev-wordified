@@ -49462,7 +49462,7 @@ dense
 native
 /
 /
-untill
+until
 the
 cache
 supports
@@ -49486,6 +49486,14 @@ if
 icInspect
 .
 sawDenseWrite
+(
+)
+&
+&
+!
+icInspect
+.
+sawTypedArrayWrite
 (
 )
 )

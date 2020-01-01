@@ -5696,6 +5696,10 @@ const
 Value
 &
 idval
+const
+Value
+&
+value
 )
 ;
 bool
@@ -5728,10 +5732,6 @@ ion
 TypedArrayObject
 *
 tarr
-const
-Value
-&
-idval
 )
 ;
 static
