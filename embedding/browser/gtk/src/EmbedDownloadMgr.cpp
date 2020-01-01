@@ -1354,6 +1354,8 @@ const
 PRUnichar
 *
 aSuggestedFileExtension
+PRBool
+aForcePrompt
 nsILocalFile
 *
 *

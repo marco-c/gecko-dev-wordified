@@ -991,6 +991,7 @@ aLauncher
 aContext
 aDefaultFile
 aSuggestedFileExtension
+aForcePrompt
 )
 {
 var
@@ -1172,6 +1173,10 @@ download
 directory
 if
 (
+!
+aForcePrompt
+&
+&
 autoDownload
 &
 &
