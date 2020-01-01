@@ -28318,10 +28318,9 @@ return
 list
 -
 >
-GetItemAt
+Item
 (
 aIndex
-aResult
 )
 ;
 }
