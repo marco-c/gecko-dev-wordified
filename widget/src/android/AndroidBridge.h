@@ -1068,6 +1068,14 @@ IsNetworkLinkKnown
 (
 )
 ;
+void
+SetSelectedLocale
+(
+const
+nsACString
+&
+)
+;
 struct
 AutoLocalJNIFrame
 {
@@ -1523,6 +1531,9 @@ jIsNetworkLinkUp
 ;
 jmethodID
 jIsNetworkLinkKnown
+;
+jmethodID
+jSetSelectedLocale
 ;
 /
 /
