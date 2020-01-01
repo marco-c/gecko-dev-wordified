@@ -5788,6 +5788,7 @@ alertLockScreen
 "
 +
 (
+!
 locked
 ?
 "
