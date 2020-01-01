@@ -474,6 +474,7 @@ XRE_InitChildProcess
 (
 0
 nsnull
+GeckoChildProcess_Default
 )
 ;
 XRE_InitParentProcess

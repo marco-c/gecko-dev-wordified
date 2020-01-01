@@ -2873,8 +2873,6 @@ aArgv
 ]
 GeckoChildProcessType
 aProcess
-=
-GeckoChildProcess_Default
 )
 )
 typedef
