@@ -1041,6 +1041,17 @@ reason
 .
 unknown_fail
 "
+ENGINE_METARECORD_DOWNLOAD_FAIL
+:
+"
+error
+.
+engine
+.
+reason
+.
+metarecord_download_fail
+"
 ENGINE_METARECORD_UPLOAD_FAIL
 :
 "
