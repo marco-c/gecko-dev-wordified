@@ -2109,9 +2109,9 @@ None
     
 cmdline
 =
-subprocess
+self
 .
-list2cmdline
+_escapedCommandLine
 (
 cmd
 )
