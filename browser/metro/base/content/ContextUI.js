@@ -1121,6 +1121,14 @@ dismissNavbar
 (
 )
 {
+if
+(
+!
+StartUI
+.
+isVisible
+)
+{
 Elements
 .
 navbar
@@ -1129,6 +1137,7 @@ dismiss
 (
 )
 ;
+}
 }
 /
 /
