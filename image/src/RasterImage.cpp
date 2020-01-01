@@ -14759,17 +14759,11 @@ bug
 return
 RequestDecodeCore
 (
-/
-/
 mHasBeenDecoded
 ?
 SYNCHRONOUS_NOTIFY
-/
-*
 :
 SYNCHRONOUS_NOTIFY_AND_SOME_DECODE
-*
-/
 )
 ;
 }
