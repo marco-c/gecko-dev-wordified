@@ -688,7 +688,7 @@ double
 )
 ;
 return
-0
+1
 ;
 }
 void
