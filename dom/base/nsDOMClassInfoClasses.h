@@ -522,10 +522,6 @@ IDBOpenDBRequest
 )
 DOMCI_CLASS
 (
-TouchList
-)
-DOMCI_CLASS
-(
 MozCSSKeyframeRule
 )
 DOMCI_CLASS

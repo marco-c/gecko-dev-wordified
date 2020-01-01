@@ -377,6 +377,9 @@ class
 nsDOMNavigationTiming
 ;
 class
+nsDOMTouchList
+;
+class
 nsEventStates
 ;
 class
@@ -429,9 +432,6 @@ nsIDOMElement
 ;
 class
 nsIDOMNodeList
-;
-class
-nsIDOMTouchList
 ;
 class
 nsIDOMXPathExpression
@@ -13021,7 +13021,7 @@ aForce
 ;
 already_AddRefed
 <
-nsIDOMTouchList
+nsDOMTouchList
 >
 CreateTouchList
 (
@@ -13029,7 +13029,7 @@ CreateTouchList
 ;
 already_AddRefed
 <
-nsIDOMTouchList
+nsDOMTouchList
 >
 CreateTouchList
 (
@@ -13074,7 +13074,7 @@ aTouches
 ;
 already_AddRefed
 <
-nsIDOMTouchList
+nsDOMTouchList
 >
 CreateTouchList
 (
