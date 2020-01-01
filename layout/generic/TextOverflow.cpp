@@ -467,6 +467,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 TextOverflow
 .
 h
@@ -678,7 +687,7 @@ kEllipsisChar
 nsDependentString
 (
 kEllipsisChar
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kEllipsisChar
 )
@@ -689,7 +698,7 @@ kEllipsisChar
 nsDependentString
 (
 kASCIIPeriodsChar
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kASCIIPeriodsChar
 )
@@ -3641,7 +3650,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 lists
 )

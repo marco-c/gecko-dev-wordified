@@ -425,6 +425,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsHTMLTags
 .
 h
@@ -464,6 +473,10 @@ nsUnicharUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 C
@@ -4363,7 +4376,7 @@ pointers
 NS_RegisterStaticAtoms
 (
 sTagAtoms_info
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sTagAtoms_info
 )

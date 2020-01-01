@@ -424,6 +424,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -2239,7 +2248,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sIntPrefs
 )
@@ -2286,7 +2295,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sFloatPrefs
 )
@@ -2333,7 +2342,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sColorPrefs
 )
@@ -2551,7 +2560,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sIntPrefs
 )
@@ -2579,7 +2588,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sFloatPrefs
 )
@@ -2607,7 +2616,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sColorPrefs
 )
@@ -3734,7 +3743,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sIntPrefs
 )
@@ -3817,7 +3826,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sFloatPrefs
 )

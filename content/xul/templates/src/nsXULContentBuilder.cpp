@@ -470,6 +470,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsContentCID
 .
 h
@@ -663,6 +672,10 @@ rdf
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -4279,7 +4292,7 @@ nsFixedString
 attrValue
 (
 attrbuf
-NS_ARRAY_LENGTH
+ArrayLength
 (
 attrbuf
 )
@@ -5244,7 +5257,7 @@ nsFixedString
 attribValue
 (
 attrbuf
-NS_ARRAY_LENGTH
+ArrayLength
 (
 attrbuf
 )
@@ -5912,7 +5925,7 @@ nsFixedString
 attrValue
 (
 attrbuf
-NS_ARRAY_LENGTH
+ArrayLength
 (
 attrbuf
 )

@@ -451,6 +451,15 @@ data
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsHTMLParts
 .
 h
@@ -12267,7 +12276,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kIconLoadPrefs
 )

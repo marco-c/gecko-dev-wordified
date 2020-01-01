@@ -627,6 +627,15 @@ include
 "
 mozilla
 /
+Util
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 SyncChannel
@@ -642,6 +651,10 @@ AutoRestore
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 mozilla
 :
@@ -8550,7 +8563,7 @@ GetClassNameW
 (
 hWnd
 szClass
-NS_ARRAY_LENGTH
+ArrayLength
 (
 szClass
 )

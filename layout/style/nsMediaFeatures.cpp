@@ -428,6 +428,15 @@ test
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsMediaFeatures
 .
 h
@@ -2086,7 +2095,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 themeStrings
 )

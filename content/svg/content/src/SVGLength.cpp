@@ -423,6 +423,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 SVGLength
 .
 h
@@ -1902,7 +1911,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 unitMap
 )

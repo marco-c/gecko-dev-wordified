@@ -514,6 +514,15 @@ BLOCK
 /
 #
 include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
+include
 <
 QtGui
 /
@@ -5036,7 +5045,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 extensions
 )
@@ -5067,7 +5076,7 @@ if
 i
 =
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 extensions
 )

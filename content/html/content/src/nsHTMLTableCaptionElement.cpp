@@ -425,6 +425,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLTableCaptionElem
 .
 h
@@ -471,6 +480,10 @@ nsRuleData
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsHTMLTableCaptionElement
 :
@@ -938,7 +951,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

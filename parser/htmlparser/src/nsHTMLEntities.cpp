@@ -425,6 +425,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsHTMLEntities
 .
 h
@@ -457,6 +466,10 @@ pldhash
 .
 h
 "
+using
+namespace
+mozilla
+;
 struct
 EntityNode
 {
@@ -734,7 +747,7 @@ NS_HTML_ENTITY_COUNT
 (
 PRInt32
 )
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gEntityArray
 )
@@ -845,9 +858,7 @@ gEntityArray
 *
 node_end
 =
-gEntityArray
-+
-NS_ARRAY_LENGTH
+ArrayEnd
 (
 gEntityArray
 )

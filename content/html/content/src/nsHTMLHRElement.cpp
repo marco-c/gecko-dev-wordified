@@ -425,6 +425,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsGenericHTMLElement
 .
 h
@@ -485,6 +494,10 @@ nsCSSProps
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsHTMLHRElement
 :
@@ -2267,7 +2280,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

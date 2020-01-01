@@ -425,6 +425,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsHTMLTableElement
 .
 h
@@ -569,6 +578,10 @@ dombindings
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 *
 -
@@ -6509,7 +6522,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

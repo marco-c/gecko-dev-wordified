@@ -611,6 +611,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsAppRunner
 .
 h
@@ -981,6 +990,10 @@ unused
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 mozilla
 :
@@ -13324,6 +13337,7 @@ application
 .
 static
 struct
+SavedVar
 {
 const
 char
@@ -13363,7 +13377,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gSavedVars
 )
@@ -13434,7 +13448,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gSavedVars
 )

@@ -423,6 +423,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSVGElement
 .
 h
@@ -2410,7 +2419,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -2518,7 +2527,7 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sLengthInfo
 )
@@ -6287,7 +6296,7 @@ NumberPairAttributesInfo
 (
 mNumberPairAttributes
 sNumberPairInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberPairInfo
 )
@@ -6310,7 +6319,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -7669,7 +7678,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sEnumInfo
 )
@@ -7692,7 +7701,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -9683,7 +9692,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sEnumInfo
 )
@@ -9706,7 +9715,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -9729,7 +9738,7 @@ NumberListAttributesInfo
 (
 mNumberListAttributes
 sNumberListInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberListInfo
 )
@@ -11642,7 +11651,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberInfo
 )
@@ -11665,7 +11674,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sEnumInfo
 )
@@ -11688,7 +11697,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -12375,7 +12384,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -14230,7 +14239,7 @@ NumberListAttributesInfo
 (
 mNumberListAttributes
 sNumberListInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberListInfo
 )
@@ -14253,7 +14262,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sEnumInfo
 )
@@ -14276,7 +14285,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberInfo
 )
@@ -15775,7 +15784,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -16306,7 +16315,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -17460,7 +17469,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberInfo
 )
@@ -17483,7 +17492,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -18353,7 +18362,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -18461,7 +18470,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -19834,7 +19843,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -23474,7 +23483,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberInfo
 )
@@ -23497,7 +23506,7 @@ NumberPairAttributesInfo
 (
 mNumberPairAttributes
 sNumberPairInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberPairInfo
 )
@@ -23520,7 +23529,7 @@ IntegerAttributesInfo
 (
 mIntegerAttributes
 sIntegerInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sIntegerInfo
 )
@@ -23543,7 +23552,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sEnumInfo
 )
@@ -23566,7 +23575,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -25743,7 +25752,7 @@ NumberPairAttributesInfo
 (
 mNumberPairAttributes
 sNumberPairInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberPairInfo
 )
@@ -25766,7 +25775,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sEnumInfo
 )
@@ -25789,7 +25798,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -28468,7 +28477,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberInfo
 )
@@ -28491,7 +28500,7 @@ NumberPairAttributesInfo
 (
 mNumberPairAttributes
 sNumberPairInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberPairInfo
 )
@@ -28514,7 +28523,7 @@ IntegerAttributesInfo
 (
 mIntegerAttributes
 sIntegerInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sIntegerInfo
 )
@@ -28537,7 +28546,7 @@ IntegerPairAttributesInfo
 (
 mIntegerPairAttributes
 sIntegerPairInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sIntegerPairInfo
 )
@@ -28560,7 +28569,7 @@ BooleanAttributesInfo
 (
 mBooleanAttributes
 sBooleanInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sBooleanInfo
 )
@@ -28583,7 +28592,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sEnumInfo
 )
@@ -28606,7 +28615,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -28629,7 +28638,7 @@ NumberListAttributesInfo
 (
 mNumberListAttributes
 sNumberListInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberListInfo
 )
@@ -29264,7 +29273,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberInfo
 )
@@ -29934,7 +29943,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberInfo
 )
@@ -30783,7 +30792,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberInfo
 )
@@ -31457,7 +31466,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -33549,7 +33558,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberInfo
 )
@@ -33572,7 +33581,7 @@ NumberPairAttributesInfo
 (
 mNumberPairAttributes
 sNumberPairInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberPairInfo
 )
@@ -33595,7 +33604,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -36442,7 +36451,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -37437,7 +37446,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -39619,7 +39628,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberInfo
 )
@@ -39642,7 +39651,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sEnumInfo
 )
@@ -39665,7 +39674,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )

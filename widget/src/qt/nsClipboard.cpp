@@ -488,6 +488,15 @@ QBuffer
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsClipboard
 .
 h
@@ -555,6 +564,10 @@ gfxImageSurface
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_IMPL_ISUPPORTS1
 (
 nsClipboard
@@ -1569,7 +1582,7 @@ ptrPrimitive
 &
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 imageMimeTypes
 )

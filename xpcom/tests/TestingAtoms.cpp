@@ -424,6 +424,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 TestingAtoms
 .
 h
@@ -548,7 +557,10 @@ AddRefAtoms
 NS_RegisterStaticAtoms
 (
 TestingAtoms_info
-NS_ARRAY_LENGTH
+mozilla
+:
+:
+ArrayLength
 (
 TestingAtoms_info
 )

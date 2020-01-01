@@ -500,6 +500,15 @@ cascading
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCSSRuleProcessor
 .
 h
@@ -5102,7 +5111,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 mPseudoElementRuleHashes
 )
@@ -5341,7 +5350,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 mPseudoElementRuleHashes
 )

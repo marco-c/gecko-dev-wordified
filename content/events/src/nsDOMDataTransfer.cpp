@@ -433,6 +433,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsDOMDataTransfer
 .
 h
@@ -549,6 +558,10 @@ nsIScriptObjectPrincipal
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_IMPL_CYCLE_COLLECTION_2
 (
 nsDOMDataTransfer
@@ -1176,7 +1189,7 @@ e
 ;
 e
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sEffects
 )
@@ -4799,7 +4812,7 @@ f
 ;
 f
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 formats
 )

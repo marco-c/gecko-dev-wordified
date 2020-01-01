@@ -461,6 +461,15 @@ BLOCK
 *
 *
 /
+#
+include
+"
+mozilla
+/
+Util
+.
+h
+"
 /
 /
 JavaScript
@@ -10269,7 +10278,7 @@ list
 size_t
 count
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 interface_list
 )
@@ -15686,7 +15695,7 @@ NS_DEBUG
 PRUint32
 i
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sClassInfoData
 )
@@ -21630,7 +21639,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kConstructorMap
 )
@@ -21690,7 +21699,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kConstructorFuncMap
 )
@@ -29331,7 +29340,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sOtherResolveFuncs
 )

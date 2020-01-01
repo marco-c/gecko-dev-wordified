@@ -438,6 +438,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsXBLContentSink
 .
 h
@@ -598,6 +607,10 @@ Element
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -1586,7 +1599,7 @@ eXBL_PROPERTIES
 UnexpectedElement
 "
 params
-NS_ARRAY_LENGTH
+ArrayLength
 (
 params
 )

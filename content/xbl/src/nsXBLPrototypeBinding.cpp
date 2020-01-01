@@ -439,6 +439,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -685,6 +694,10 @@ Element
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 Helper
@@ -1346,7 +1359,7 @@ Point
 Entries
 "
 kBucketSizes
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kBucketSizes
 )

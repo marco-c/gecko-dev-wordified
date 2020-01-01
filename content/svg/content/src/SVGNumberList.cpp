@@ -423,6 +423,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 SVGNumberList
 .
 h
@@ -644,7 +653,7 @@ nsTextFormatter
 snprintf
 (
 buf
-NS_ARRAY_LENGTH
+ArrayLength
 (
 buf
 )

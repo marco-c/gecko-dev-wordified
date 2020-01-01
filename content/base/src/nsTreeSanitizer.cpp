@@ -461,6 +461,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsTreeSanitizer
 .
 h
@@ -575,6 +584,10 @@ nsContentUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 /
@@ -10065,7 +10078,7 @@ sElementsHTML
 >
 Init
 (
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kElementsHTML
 )
@@ -10116,7 +10129,7 @@ sAttributesHTML
 >
 Init
 (
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kAttributesHTML
 )
@@ -10167,7 +10180,7 @@ sElementsSVG
 >
 Init
 (
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kElementsSVG
 )
@@ -10218,7 +10231,7 @@ sAttributesSVG
 >
 Init
 (
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kAttributesSVG
 )
@@ -10269,7 +10282,7 @@ sElementsMathML
 >
 Init
 (
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kElementsMathML
 )
@@ -10320,7 +10333,7 @@ sAttributesMathML
 >
 Init
 (
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kAttributesMathML
 )

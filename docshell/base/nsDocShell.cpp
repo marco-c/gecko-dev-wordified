@@ -487,6 +487,15 @@ BLOCK
 *
 /
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
 ifdef
 MOZ_LOGGING
 /
@@ -64146,7 +64155,7 @@ get
 (
 )
 formatStrings
-NS_ARRAY_LENGTH
+ArrayLength
 (
 formatStrings
 )

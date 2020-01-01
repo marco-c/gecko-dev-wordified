@@ -513,7 +513,10 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+mozilla
+:
+:
+ArrayLength
 (
 gTests
 )

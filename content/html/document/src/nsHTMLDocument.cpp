@@ -461,6 +461,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsICharsetAlias
 .
 h
@@ -18029,7 +18038,7 @@ j
 ;
 j
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gBlocks
 )
@@ -18073,7 +18082,7 @@ return
 j
 !
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gBlocks
 )

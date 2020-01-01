@@ -464,6 +464,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsAccessible
 .
 h
@@ -657,6 +666,10 @@ nsMaiInterfaceImage
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -2733,7 +2746,7 @@ index
 ;
 index
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 atk_if_infos
 )
@@ -4870,7 +4883,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 relationTypes
 )

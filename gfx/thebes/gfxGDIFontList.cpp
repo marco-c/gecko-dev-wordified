@@ -465,6 +465,15 @@ BLOCK
 *
 /
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
 ifdef
 MOZ_LOGGING
 #
@@ -3981,7 +3990,7 @@ aliasName
 ;
 lenAlias
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 aliasName
 )

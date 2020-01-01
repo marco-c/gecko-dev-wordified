@@ -523,6 +523,15 @@ endif
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsComponentManagerUtils
 .
 h

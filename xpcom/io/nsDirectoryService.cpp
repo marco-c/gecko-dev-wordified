@@ -448,6 +448,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -641,6 +650,10 @@ nsAppFileLocationProvider
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 define
 COMPONENT_DIRECTORY
@@ -2059,7 +2072,7 @@ rv
 NS_RegisterStaticAtoms
 (
 directory_atoms
-NS_ARRAY_LENGTH
+ArrayLength
 (
 directory_atoms
 )

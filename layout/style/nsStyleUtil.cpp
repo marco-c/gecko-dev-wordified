@@ -432,6 +432,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsStyleUtil
 .
 h
@@ -520,6 +529,10 @@ nsCSSProps
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 -
@@ -3440,7 +3453,7 @@ nsTextFormatter
 snprintf
 (
 buf
-NS_ARRAY_LENGTH
+ArrayLength
 (
 buf
 )
@@ -3974,7 +3987,7 @@ nsTextFormatter
 snprintf
 (
 buf
-NS_ARRAY_LENGTH
+ArrayLength
 (
 buf
 )

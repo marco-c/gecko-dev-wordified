@@ -462,6 +462,15 @@ localName
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -567,6 +576,10 @@ nsGkAtoms
 .
 h
 "
+using
+namespace
+mozilla
+;
 static
 const
 size_t
@@ -1255,7 +1268,7 @@ if
 (
 nsid
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kNSURIs
 )
