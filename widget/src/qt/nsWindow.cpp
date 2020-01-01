@@ -15503,6 +15503,16 @@ endif
 #
 ifdef
 MOZ_X11
+if
+(
+newView
+-
+>
+effectiveWinId
+(
+)
+)
+{
 XSetWindowBackgroundPixmap
 (
 QX11Info
@@ -15520,6 +15530,7 @@ effectiveWinId
 None
 )
 ;
+}
 #
 endif
 }
