@@ -8214,15 +8214,6 @@ nsNode3Tearoff
 this
 )
 )
-NS_INTERFACE_MAP_ENTRY_TEAROFF
-(
-nsIDOMNodeSelector
-new
-nsNodeSelectorTearoff
-(
-this
-)
-)
 if
 (
 aIID
