@@ -469,6 +469,13 @@ elements
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 nsScriptLoader
 .
 h
@@ -596,13 +603,6 @@ h
 include
 "
 nsIDocShell
-.
-h
-"
-#
-include
-"
-jscntxt
 .
 h
 "

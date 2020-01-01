@@ -454,6 +454,13 @@ h
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 nsAutoLock
 .
 h
@@ -602,13 +609,6 @@ h
 include
 "
 nsIPrincipal
-.
-h
-"
-#
-include
-"
-jscntxt
 .
 h
 "
