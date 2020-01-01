@@ -37869,7 +37869,6 @@ tmp
 WindowDraggingElement
 (
 tabsToolbar
-window
 )
 ;
 this
