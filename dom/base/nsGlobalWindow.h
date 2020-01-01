@@ -7102,9 +7102,6 @@ mLastOpenedURI
 ;
 #
 endif
-bool
-mCleanedUp
-;
 #
 ifdef
 MOZ_B2G
@@ -7119,6 +7116,9 @@ endif
 /
 /
 MOZ_B2G
+bool
+mCleanedUp
+;
 nsCOMPtr
 <
 nsIDOMOfflineResourceList
