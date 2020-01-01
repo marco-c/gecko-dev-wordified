@@ -1841,16 +1841,6 @@ case
 AnimatedZoomEnd
 "
 :
-popup
-.
-style
-.
-visibility
-=
-"
-visible
-"
-;
 this
 .
 anchorTo
