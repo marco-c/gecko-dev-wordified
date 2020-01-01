@@ -394,7 +394,11 @@ h
 #
 include
 "
-nsSVGPathElement
+mozilla
+/
+dom
+/
+SVGPathElement
 .
 h
 "
@@ -11090,7 +11094,7 @@ pathScale
 =
 static_cast
 <
-nsSVGPathElement
+SVGPathElement
 *
 >
 (
@@ -11100,7 +11104,7 @@ content
 >
 GetPathLengthScale
 (
-nsSVGPathElement
+SVGPathElement
 :
 :
 eForStroking
