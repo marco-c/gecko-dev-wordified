@@ -999,10 +999,6 @@ builtins
 [
 ]
 ;
-#
-define
-TYPEMAP_TYPE_ANY
-7
 class
 TraceRecorder
 {
@@ -1209,7 +1205,11 @@ getCallDepth
 )
 const
 ;
-bool
+nanojit
+:
+:
+LIns
+*
 guard
 (
 bool
