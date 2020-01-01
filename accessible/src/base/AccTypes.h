@@ -214,6 +214,7 @@ eImageMapType
 eMenuPopupType
 eProgressType
 eRootType
+eXULLabelType
 eXULTabpanelsType
 eXULTreeType
 eLastAccType

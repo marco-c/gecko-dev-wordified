@@ -3583,6 +3583,8 @@ if
 clip
 )
 return
+"
+"
 ;
 var
 trans
@@ -3628,6 +3630,8 @@ if
 trans
 )
 return
+"
+"
 ;
 trans
 .
