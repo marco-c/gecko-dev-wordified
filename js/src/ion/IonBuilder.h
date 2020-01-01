@@ -3050,7 +3050,7 @@ arrayType
 )
 ;
 InliningStatus
-inlineShouldForceSequentialOrInParallelSection
+inlineForceSequentialOrInParallelSection
 (
 CallInfo
 &

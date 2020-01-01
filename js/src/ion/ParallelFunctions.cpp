@@ -143,15 +143,6 @@ jscompartmentinlines
 .
 h
 "
-#
-include
-"
-vm
-/
-ParallelDo
-.
-h
-"
 using
 namespace
 js

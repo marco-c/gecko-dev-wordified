@@ -785,7 +785,7 @@ native
 intrinsic_ShouldForceSequential
 )
 return
-inlineShouldForceSequentialOrInParallelSection
+inlineForceSequentialOrInParallelSection
 (
 callInfo
 )
@@ -798,7 +798,7 @@ native
 testingFunc_inParallelSection
 )
 return
-inlineShouldForceSequentialOrInParallelSection
+inlineForceSequentialOrInParallelSection
 (
 callInfo
 )
@@ -6898,7 +6898,7 @@ InliningStatus
 IonBuilder
 :
 :
-inlineShouldForceSequentialOrInParallelSection
+inlineForceSequentialOrInParallelSection
 (
 CallInfo
 &

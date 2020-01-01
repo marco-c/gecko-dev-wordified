@@ -2147,7 +2147,7 @@ length
 var
 numSlices
 =
-ParallelSlices
+ForkJoinSlices
 (
 )
 ;
@@ -2160,7 +2160,7 @@ chunks
 numSlices
 )
 ;
-ParallelDo
+ForkJoin
 (
 constructSlice
 CheckParallel
@@ -2724,7 +2724,7 @@ length
 var
 numSlices
 =
-ParallelSlices
+ForkJoinSlices
 (
 )
 ;
@@ -2737,7 +2737,7 @@ chunks
 numSlices
 )
 ;
-ParallelDo
+ForkJoin
 (
 mapSlice
 CheckParallel
@@ -3093,7 +3093,7 @@ length
 var
 numSlices
 =
-ParallelSlices
+ForkJoinSlices
 (
 )
 ;
@@ -3123,7 +3123,7 @@ NewDenseArray
 numSlices
 )
 ;
-ParallelDo
+ForkJoin
 (
 reduceSlice
 CheckParallel
@@ -3717,7 +3717,7 @@ length
 var
 numSlices
 =
-ParallelSlices
+ForkJoinSlices
 (
 )
 ;
@@ -3753,7 +3753,7 @@ phase1
 )
 )
 .
-ParallelDo
+ForkJoin
 (
 phase1
 CheckParallel
@@ -3961,7 +3961,7 @@ phase2
 )
 )
 .
-ParallelDo
+ForkJoin
 (
 phase2
 CheckParallel
@@ -6212,7 +6212,7 @@ targetsLength
 var
 numSlices
 =
-ParallelSlices
+ForkJoinSlices
 (
 )
 ;
@@ -6293,7 +6293,7 @@ false
 )
 ;
 }
-ParallelDo
+ForkJoin
 (
 fill
 CheckParallel
@@ -6523,7 +6523,7 @@ indices
 var
 numSlices
 =
-ParallelSlices
+ForkJoinSlices
 (
 )
 ;
@@ -6717,7 +6717,7 @@ i
 defaultValue
 )
 ;
-ParallelDo
+ForkJoin
 (
 fill
 CheckParallel
@@ -7361,7 +7361,7 @@ length
 var
 numSlices
 =
-ParallelSlices
+ForkJoinSlices
 (
 )
 ;
@@ -7516,7 +7516,7 @@ NewDenseArray
 chunks
 )
 ;
-ParallelDo
+ForkJoin
 (
 findSurvivorsInSlice
 CheckParallel
@@ -7580,7 +7580,7 @@ count
 >
 0
 )
-ParallelDo
+ForkJoin
 (
 copySurvivorsInSlice
 CheckParallel
@@ -9442,7 +9442,7 @@ be
 supplied
 to
 *
-ParallelDo
+ForkJoin
 (
 )
 that
