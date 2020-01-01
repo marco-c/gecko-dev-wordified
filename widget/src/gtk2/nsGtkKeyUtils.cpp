@@ -502,6 +502,10 @@ keysym2ucs
 .
 h
 "
+#
+define
+MAX_UNICODE
+0x10FFFF
 struct
 nsKeyConverter
 {
@@ -2071,7 +2075,7 @@ ucs
 (
 ucs
 <
-0x10000
+MAX_UNICODE
 )
 )
 return
