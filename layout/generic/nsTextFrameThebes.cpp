@@ -43766,6 +43766,7 @@ GetHyphenWidth
 )
 ;
 }
+else
 {
 aData
 -
