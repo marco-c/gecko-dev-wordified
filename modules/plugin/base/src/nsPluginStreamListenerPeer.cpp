@@ -1794,6 +1794,10 @@ mOwner
 aOwner
 ;
 }
+mPendingRequests
+=
+1
+;
 mDataForwardToRequest
 =
 new
@@ -1898,6 +1902,10 @@ mDataForwardToRequest
 )
 return
 NS_ERROR_FAILURE
+;
+mPendingRequests
+=
+1
 ;
 return
 NS_OK
