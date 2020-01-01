@@ -763,9 +763,9 @@ protected
 MenuPanel
 mMenuPanel
 ;
-public
+protected
 Menu
-sMenu
+mMenu
 ;
 private
 static
@@ -2748,7 +2748,7 @@ icon
 {
 if
 (
-sMenu
+mMenu
 =
 =
 null
@@ -2759,7 +2759,7 @@ final
 MenuItem
 item
 =
-sMenu
+mMenu
 .
 add
 (
@@ -3080,7 +3080,7 @@ item
 ;
 if
 (
-sMenu
+mMenu
 =
 =
 null
@@ -3090,7 +3090,7 @@ break
 MenuItem
 menuItem
 =
-sMenu
+mMenu
 .
 findItem
 (
@@ -3104,7 +3104,7 @@ menuItem
 =
 null
 )
-sMenu
+mMenu
 .
 removeItem
 (
@@ -3125,7 +3125,7 @@ invalidateOptionsMenu
 {
 if
 (
-sMenu
+mMenu
 =
 =
 null
@@ -3134,7 +3134,7 @@ return
 ;
 onPrepareOptionsMenu
 (
-sMenu
+mMenu
 )
 ;
 if
@@ -3164,7 +3164,7 @@ Menu
 menu
 )
 {
-sMenu
+mMenu
 =
 menu
 ;
@@ -3184,7 +3184,7 @@ R
 menu
 .
 gecko_menu
-sMenu
+mMenu
 )
 ;
 return
@@ -3200,6 +3200,16 @@ Menu
 aMenu
 )
 {
+if
+(
+aMenu
+=
+=
+null
+)
+return
+false
+;
 if
 (
 !
@@ -3934,7 +3944,7 @@ onPreparePanel
 (
 featureId
 mMenuPanel
-sMenu
+mMenu
 )
 ;
 }
@@ -4121,7 +4131,7 @@ FEATURE_OPTIONS_PANEL
 {
 if
 (
-sMenu
+mMenu
 =
 =
 null
@@ -4137,7 +4147,7 @@ onPreparePanel
 (
 featureId
 mMenuPanel
-sMenu
+mMenu
 )
 ;
 }
@@ -7036,7 +7046,7 @@ final
 Menu
 menu
 =
-sMenu
+mMenu
 ;
 mMainHandler
 .
@@ -7563,7 +7573,7 @@ final
 Menu
 menu
 =
-sMenu
+mMenu
 ;
 mMainHandler
 .
