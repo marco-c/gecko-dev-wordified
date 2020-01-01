@@ -505,7 +505,7 @@ public
 nsPNGDecoder
 (
 RasterImage
-*
+&
 aImage
 imgIDecoderObserver
 *

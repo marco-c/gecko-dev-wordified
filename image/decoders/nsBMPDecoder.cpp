@@ -644,7 +644,7 @@ nsBMPDecoder
 nsBMPDecoder
 (
 RasterImage
-*
+&
 aImage
 imgIDecoderObserver
 *
@@ -2463,8 +2463,7 @@ BI_ALPHABITFIELDS
 rv
 =
 mImage
--
->
+.
 EnsureFrame
 (
 0
@@ -2587,8 +2586,7 @@ mUseAlphaData
 rv
 =
 mImage
--
->
+.
 EnsureFrame
 (
 0
@@ -2619,8 +2617,7 @@ else
 rv
 =
 mImage
--
->
+.
 EnsureFrame
 (
 0

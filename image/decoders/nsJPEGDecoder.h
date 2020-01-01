@@ -669,7 +669,7 @@ public
 nsJPEGDecoder
 (
 RasterImage
-*
+&
 aImage
 imgIDecoderObserver
 *

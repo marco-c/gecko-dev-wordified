@@ -510,7 +510,7 @@ public
 nsBMPDecoder
 (
 RasterImage
-*
+&
 aImage
 imgIDecoderObserver
 *

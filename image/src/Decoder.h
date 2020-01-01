@@ -465,7 +465,7 @@ public
 Decoder
 (
 RasterImage
-*
+&
 aImage
 imgIDecoderObserver
 *
@@ -1406,10 +1406,8 @@ variables
 *
 *
 /
-nsRefPtr
-<
 RasterImage
->
+&
 mImage
 ;
 nsCOMPtr
