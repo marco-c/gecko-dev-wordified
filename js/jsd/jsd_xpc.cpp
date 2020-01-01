@@ -12694,9 +12694,9 @@ RootedObject
 glob
 (
 cx
-JS_GetGlobalObject
+JSD_GetDefaultGlobal
 (
-cx
+mCx
 )
 )
 ;
