@@ -220,6 +220,12 @@ sp
 =
 null
 ;
+if
+(
+this
+.
+window
+)
 window
 .
 SpecialPowers
