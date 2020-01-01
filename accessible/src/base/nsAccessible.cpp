@@ -2071,8 +2071,10 @@ aName
 =
 name
 ;
+return
+NS_OK_NAME_FROM_TOOLTIP
+;
 }
-else
 if
 (
 rv
@@ -2080,7 +2082,6 @@ rv
 =
 NS_OK_EMPTY_NAME
 )
-{
 aName
 .
 SetIsVoid
@@ -2088,7 +2089,6 @@ SetIsVoid
 PR_TRUE
 )
 ;
-}
 return
 NS_OK
 ;
