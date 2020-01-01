@@ -5539,7 +5539,7 @@ current
 )
 -
 >
-PostTask
+PostDelayedTask
 (
 FROM_HERE
 new
@@ -5548,6 +5548,7 @@ SendRingIndicatorTask
 "
 "
 )
+sRingInterval
 )
 ;
 }
@@ -5605,7 +5606,7 @@ current
 )
 -
 >
-PostTask
+PostDelayedTask
 (
 FROM_HERE
 new
@@ -5614,6 +5615,7 @@ SendRingIndicatorTask
 aNumber
 type
 )
+sRingInterval
 )
 ;
 }
