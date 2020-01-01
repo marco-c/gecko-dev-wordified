@@ -529,7 +529,7 @@ tmp
 >
 mResult
 =
-JSVAL_NULL
+JSVAL_VOID
 ;
 tmp
 -
@@ -641,7 +641,7 @@ aScriptContext
 :
 mResult
 (
-JSVAL_NULL
+JSVAL_VOID
 )
 mResultRooted
 (
@@ -820,7 +820,7 @@ NS_PRECONDITION
 mResult
 =
 =
-JSVAL_NULL
+JSVAL_VOID
 "
 mResult
 shouldn
@@ -938,7 +938,7 @@ UnrootResult
 ;
 mResult
 =
-JSVAL_NULL
+JSVAL_VOID
 ;
 SetError
 (
@@ -1003,7 +1003,7 @@ NS_PRECONDITION
 mResult
 =
 =
-JSVAL_NULL
+JSVAL_VOID
 "
 mResult
 shouldn
@@ -1126,7 +1126,7 @@ eNoError
 mResult
 =
 =
-JSVAL_NULL
+JSVAL_VOID
 "
 mResult
 should
@@ -1197,7 +1197,7 @@ NS_ASSERTION
 mResult
 =
 =
-JSVAL_NULL
+JSVAL_VOID
 "
 When
 not
@@ -1213,7 +1213,7 @@ null
 *
 aResult
 =
-JSVAL_NULL
+JSVAL_VOID
 ;
 return
 NS_OK

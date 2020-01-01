@@ -1884,6 +1884,10 @@ const
 nsAString
 &
 aText
+PRInt32
+aRequestId
+PRUint64
+aProcessId
 )
 ;
 PRInt32
