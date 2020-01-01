@@ -4660,7 +4660,15 @@ if
 (
 owner
 .
-toObjectOrNull
+isUndefined
+(
+)
+|
+|
+&
+owner
+.
+toObject
 (
 )
 !
@@ -4675,7 +4683,7 @@ js_GetErrorMessage
 NULL
 owner
 .
-isNull
+isUndefined
 (
 )
 ?
@@ -30760,6 +30768,10 @@ objectProto
 (
 cx
 )
+envProto
+(
+cx
+)
 ;
 objProto
 =
@@ -30900,8 +30912,6 @@ objectProto
 return
 false
 ;
-JSObject
-*
 envProto
 =
 js_InitClass
