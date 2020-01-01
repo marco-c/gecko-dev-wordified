@@ -942,7 +942,7 @@ rv
 rv
 )
 ;
-char
+PRUint8
 buf
 [
 1024
@@ -1034,6 +1034,10 @@ rv
 ZW_ReadData
 (
 inputStream
+(
+char
+*
+)
 buf
 length
 )
@@ -1120,11 +1124,6 @@ sig
 =
 PEEK32
 (
-(
-unsigned
-char
-*
-)
 buf
 +
 pos
@@ -1217,6 +1216,11 @@ mComment
 .
 Assign
 (
+(
+const
+char
+*
+)
 buf
 +
 pos
@@ -3677,7 +3681,7 @@ GetCDSHeaderLength
 )
 ;
 }
-char
+PRUint8
 buf
 [
 ZIP_EOCDR_HEADER_SIZE
@@ -3770,6 +3774,11 @@ rv
 ZW_WriteData
 (
 mStream
+(
+const
+char
+*
+)
 buf
 pos
 )
