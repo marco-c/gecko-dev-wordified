@@ -163,6 +163,9 @@ uint8
 rgb_buf
 int
 width
+unsigned
+int
+x_shift
 )
 ;
 }
