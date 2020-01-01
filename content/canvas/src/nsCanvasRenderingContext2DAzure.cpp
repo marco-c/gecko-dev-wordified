@@ -15994,6 +15994,11 @@ y
 devUnitsPerAppUnit
 )
 ;
+float
+advanceSum
+=
+0
+;
 for
 (
 PRUint32
@@ -16104,11 +16109,6 @@ vector
 Glyph
 >
 glyphBuf
-;
-float
-advanceSum
-=
-0
 ;
 for
 (
