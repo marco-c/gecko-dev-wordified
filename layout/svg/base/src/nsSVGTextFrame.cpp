@@ -2033,6 +2033,11 @@ mPositioningDirty
 =
 PR_TRUE
 ;
+UpdateGlyphPositioning
+(
+PR_FALSE
+)
+;
 }
 static
 void
@@ -2177,6 +2182,10 @@ if
 node
 )
 return
+;
+mPositioningDirty
+=
+PR_FALSE
 ;
 /
 /
@@ -2348,10 +2357,6 @@ if
 firstFragment
 )
 {
-mPositioningDirty
-=
-PR_FALSE
-;
 return
 ;
 }
@@ -2791,8 +2796,4 @@ firstFragment
 fragment
 ;
 }
-mPositioningDirty
-=
-PR_FALSE
-;
 }

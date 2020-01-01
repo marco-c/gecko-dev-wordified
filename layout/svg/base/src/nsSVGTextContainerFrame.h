@@ -479,7 +479,7 @@ aContext
 {
 }
 void
-UpdateGraphic
+NotifyGlyphMetricsChange
 (
 )
 ;

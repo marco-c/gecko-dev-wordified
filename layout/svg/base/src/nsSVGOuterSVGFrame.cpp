@@ -938,7 +938,7 @@ frame
 containerFrame
 -
 >
-UpdateGraphic
+NotifyGlyphMetricsChange
 (
 )
 ;

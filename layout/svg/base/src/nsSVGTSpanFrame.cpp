@@ -912,7 +912,7 @@ dy
 )
 )
 {
-UpdateGraphic
+NotifyGlyphMetricsChange
 (
 )
 ;
