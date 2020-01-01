@@ -186,6 +186,8 @@ mozilla
 :
 Array
 ;
+namespace
+{
 /
 /
 Iterates
@@ -332,6 +334,13 @@ pos
 }
 }
 ;
+}
+/
+*
+anonymous
+namespace
+*
+/
 AliasAnalysis
 :
 :

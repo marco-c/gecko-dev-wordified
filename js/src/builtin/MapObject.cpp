@@ -6561,6 +6561,8 @@ MapIterator
 *
 *
 /
+namespace
+{
 class
 MapIteratorObject
 :
@@ -6680,6 +6682,13 @@ vp
 ;
 }
 ;
+}
+/
+*
+anonymous
+namespace
+*
+/
 Class
 MapIteratorObject
 :
@@ -10189,6 +10198,8 @@ SetIterator
 *
 *
 /
+namespace
+{
 class
 SetIteratorObject
 :
@@ -10308,6 +10319,13 @@ vp
 ;
 }
 ;
+}
+/
+*
+anonymous
+namespace
+*
+/
 Class
 SetIteratorObject
 :

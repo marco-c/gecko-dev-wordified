@@ -2972,6 +2972,8 @@ return
 true
 ;
 }
+namespace
+{
 /
 /
 The
@@ -3239,6 +3241,13 @@ analyze
 ;
 }
 ;
+}
+/
+*
+anonymous
+namespace
+*
+/
 /
 /
 Try

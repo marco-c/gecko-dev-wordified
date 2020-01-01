@@ -232,6 +232,8 @@ js
 :
 ion
 ;
+namespace
+{
 /
 /
 Emulate
@@ -444,6 +446,13 @@ NULL
 }
 }
 ;
+}
+/
+*
+anonymous
+namespace
+*
+/
 template
 <
 typename

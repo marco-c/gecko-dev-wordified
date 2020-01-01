@@ -2083,6 +2083,8 @@ jslock
 .
 h
 "
+namespace
+{
 class
 InstallSignalHandlersMutex
 {
@@ -2166,6 +2168,13 @@ true
 }
 signalMutex
 ;
+}
+/
+*
+anonymous
+namespace
+*
+/
 bool
 InstallSignalHandlersMutex
 :
@@ -2219,6 +2228,8 @@ else
 /
 /
 JS_THREADSAFE
+namespace
+{
 struct
 InstallSignalHandlersMutex
 {
@@ -2265,6 +2276,13 @@ true
 ;
 }
 ;
+}
+/
+*
+anonymous
+namespace
+*
+/
 bool
 InstallSignalHandlersMutex
 :
