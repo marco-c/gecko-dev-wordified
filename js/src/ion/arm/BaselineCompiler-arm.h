@@ -144,8 +144,7 @@ BaselineCompilerARM
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 )
 ;
