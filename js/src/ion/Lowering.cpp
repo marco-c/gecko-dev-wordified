@@ -1129,13 +1129,6 @@ LDefinition
 :
 GENERAL
 )
-temp
-(
-LDefinition
-:
-:
-GENERAL
-)
 )
 ;
 if

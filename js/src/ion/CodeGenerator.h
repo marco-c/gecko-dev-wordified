@@ -712,6 +712,14 @@ lir
 )
 ;
 bool
+visitCallGeneric
+(
+LCallGeneric
+*
+lir
+)
+;
+bool
 visitDoubleToInt32
 (
 LDoubleToInt32

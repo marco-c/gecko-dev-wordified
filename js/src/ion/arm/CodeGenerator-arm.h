@@ -1176,14 +1176,6 @@ ins
 )
 ;
 bool
-visitCallGeneric
-(
-LCallGeneric
-*
-call
-)
-;
-bool
 visitLoadSlotV
 (
 LLoadSlotV
