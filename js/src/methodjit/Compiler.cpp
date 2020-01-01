@@ -9359,6 +9359,8 @@ isPrimitive
 int32_t
 i
 ;
+JS_ALWAYS_TRUE
+(
 ValueToECMAInt32
 (
 cx
@@ -9370,6 +9372,7 @@ getValue
 )
 &
 i
+)
 )
 ;
 i
@@ -9448,6 +9451,8 @@ isPrimitive
 double
 d
 ;
+JS_ALWAYS_TRUE
+(
 ValueToNumber
 (
 cx
@@ -9459,6 +9464,7 @@ getValue
 )
 &
 d
+)
 )
 ;
 d
@@ -20086,6 +20092,8 @@ primitives
 .
 *
 /
+JS_ALWAYS_TRUE
+(
 ValueToNumber
 (
 cx
@@ -20093,13 +20101,17 @@ lhs
 &
 ld
 )
+)
 ;
+JS_ALWAYS_TRUE
+(
 ValueToNumber
 (
 cx
 rhs
 &
 rd
+)
 )
 ;
 switch

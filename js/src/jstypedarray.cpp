@@ -3642,6 +3642,8 @@ with
 a
 string
 arg
+JS_ALWAYS_TRUE
+(
 ValueToNumber
 (
 cx
@@ -3649,6 +3651,7 @@ cx
 vp
 &
 d
+)
 )
 ;
 }
