@@ -879,6 +879,10 @@ LDouble
 (
 double
 d
+const
+LDefinition
+&
+temp
 )
 :
 d_
@@ -886,6 +890,12 @@ d_
 d
 )
 {
+setTemp
+(
+0
+temp
+)
+;
 }
 double
 getDouble
