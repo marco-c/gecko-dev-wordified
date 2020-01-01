@@ -1368,15 +1368,6 @@ Accessible
 )
 {
 }
-void
-Accessible
-:
-:
-Init
-(
-)
-{
-}
 NS_IMETHODIMP
 Accessible
 :

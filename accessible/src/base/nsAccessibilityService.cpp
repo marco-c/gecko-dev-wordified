@@ -7047,13 +7047,6 @@ in
 Shutdown
 (
 )
-gApplicationAccessible
--
->
-Init
-(
-)
-;
 /
 /
 Initialize

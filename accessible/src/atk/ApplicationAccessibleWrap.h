@@ -164,15 +164,6 @@ ApplicationAccessibleWrap
 ;
 /
 /
-nsAccessNode
-virtual
-void
-Init
-(
-)
-;
-/
-/
 Accessible
 virtual
 mozilla
