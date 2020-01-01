@@ -910,13 +910,6 @@ h
 #
 include
 "
-nsISelectElement
-.
-h
-"
-#
-include
-"
 nsFrameSelection
 .
 h
