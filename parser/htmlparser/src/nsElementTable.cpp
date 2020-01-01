@@ -8052,6 +8052,8 @@ incl
 exclgroups
 *
 /
+kAllTags
+-
 kHeadContent
 kNone
 kNone
@@ -8065,6 +8067,8 @@ range
 *
 /
 kNonContainer
+|
+kPreferHead
 kDefaultPropRange
 /
 *
@@ -10662,6 +10666,8 @@ range
 *
 /
 kNoStyleLeaksIn
+|
+kPreferHead
 kNoPropRange
 /
 *
