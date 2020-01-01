@@ -175,8 +175,6 @@ nsPerformanceTiming
 MOZ_FINAL
 :
 public
-nsISupports
-public
 nsWrapperCache
 {
 public
@@ -191,8 +189,11 @@ nsITimedChannel
 aChannel
 )
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
+NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
+(
+nsPerformanceTiming
+)
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
 nsPerformanceTiming
 )
@@ -528,8 +529,6 @@ nsPerformanceNavigation
 MOZ_FINAL
 :
 public
-nsISupports
-public
 nsWrapperCache
 {
 public
@@ -542,8 +541,11 @@ nsPerformance
 aPerformance
 )
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
+NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
+(
+nsPerformanceNavigation
+)
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
 nsPerformanceNavigation
 )
