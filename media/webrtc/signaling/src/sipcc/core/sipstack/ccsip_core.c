@@ -39528,9 +39528,6 @@ ccb
 -
 >
 dn_line
-(
-sipSMStateType_t
-)
 SIP_REG_STATE_IDLE
 )
 ;
@@ -39568,7 +39565,12 @@ ccb
 -
 >
 dn_line
-SIP_STATE_IDLE_MSG_TIMER_OUTSTANDING
+SIP_REG_STATE_IDLE
+/
+*
+_MSG_TIMER_OUTSTANDING
+*
+/
 )
 ;
 }
@@ -39591,7 +39593,7 @@ ccb
 >
 index
 1
-SIP_STATE_IDLE
+SIP_REG_STATE_IDLE
 )
 ;
 }
@@ -39606,7 +39608,7 @@ line_t
 ccb_index
 int
 DN
-sipSMStateType_t
+sipRegSMStateType_t
 initial_state
 )
 {
@@ -42477,7 +42479,7 @@ i
 )
 i
 1
-SIP_STATE_IDLE
+SIP_REG_STATE_IDLE
 )
 <
 0

@@ -3173,10 +3173,7 @@ sip_sm_ccb_init
 ccb
 fallback_line
 dn_line
-(
-sipSMStateType_t
-)
-SIP_REG_PRE_FALLBACK
+SIP_REG_STATE_IN_FALLBACK
 )
 ;
 ccb
@@ -17979,8 +17976,6 @@ ti_common
 .
 addr_str
 "
-\
-0
 "
 )
 )

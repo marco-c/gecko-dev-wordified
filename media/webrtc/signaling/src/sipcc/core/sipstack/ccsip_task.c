@@ -4756,7 +4756,7 @@ line_t
 )
 idx
 idx
-SIP_STATE_IDLE
+SIP_REG_STATE_IDLE
 )
 ;
 sip_sm_event

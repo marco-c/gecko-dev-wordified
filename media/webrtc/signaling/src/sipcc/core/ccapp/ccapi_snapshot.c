@@ -2863,7 +2863,7 @@ g_deviceInfo
 .
 ins_cause
 =
-CC_CREATED_IDLE
+CC_CAUSE_NONE
 ;
 g_deviceInfo
 .

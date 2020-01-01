@@ -1496,7 +1496,7 @@ g_NotifyLineDebug
 =
 TRUE
 ;
-cc_srv_ctrl_cmd_t
+cc_srv_ctrl_req_t
 reset_type
 ;
 extern
@@ -2252,9 +2252,6 @@ if
 reset_type
 =
 =
-(
-int
-)
 CC_DEVICE_RESET
 )
 {
@@ -2269,9 +2266,6 @@ if
 reset_type
 =
 =
-(
-int
-)
 CC_DEVICE_RESTART
 )
 {
@@ -2286,9 +2280,6 @@ if
 reset_type
 !
 =
-(
-int
-)
 CC_DEVICE_ICMP_UNREACHABLE
 )
 &
@@ -2310,9 +2301,6 @@ if
 reset_type
 =
 =
-(
-int
-)
 CC_DEVICE_RESET
 )
 {
@@ -2327,9 +2315,6 @@ if
 reset_type
 =
 =
-(
-int
-)
 CC_DEVICE_RESTART
 )
 {
@@ -14745,6 +14730,9 @@ DEVICE_SERVICE_CONTROL_REQ
 :
 reset_type
 =
+(
+cc_srv_ctrl_req_t
+)
 featUpd
 -
 >

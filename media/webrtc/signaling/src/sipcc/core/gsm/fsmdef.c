@@ -20312,7 +20312,7 @@ NULL
 )
 {
 return
-CC_CAUSE_NO_RESOURCE
+SM_RC_ERROR
 ;
 }
 lsm_rc
