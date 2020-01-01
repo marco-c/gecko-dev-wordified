@@ -776,7 +776,7 @@ aComposition
 ;
 virtual
 bool
-RecvGetIMEEnabled
+RecvGetInputContext
 (
 PRUint32
 *
@@ -785,7 +785,7 @@ aValue
 ;
 virtual
 bool
-RecvSetInputMode
+RecvSetInputContext
 (
 const
 PRUint32
@@ -798,11 +798,15 @@ aType
 const
 nsString
 &
-aAction
+aActionHint
 const
-PRUint32
+PRInt32
 &
-aReason
+aCause
+const
+PRInt32
+&
+aFocusChange
 )
 ;
 virtual
