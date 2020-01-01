@@ -708,13 +708,6 @@ nsIFrame
 aDestructRoot
 )
 ;
-virtual
-bool
-IsContainingBlock
-(
-)
-const
-;
 NS_IMETHOD
 SetInitialChildList
 (

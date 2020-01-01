@@ -513,13 +513,6 @@ nsDisplayListSet
 aLists
 )
 ;
-virtual
-bool
-IsContainingBlock
-(
-)
-const
-;
 /
 *
 *

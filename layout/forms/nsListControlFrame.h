@@ -771,13 +771,6 @@ eReplacedContainsBlock
 ;
 }
 virtual
-bool
-IsContainingBlock
-(
-)
-const
-;
-virtual
 void
 InvalidateInternal
 (
