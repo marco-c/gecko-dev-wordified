@@ -777,11 +777,6 @@ struct
 JSTryNote
 JSTryNote
 ;
-typedef
-struct
-JSWeakRoots
-JSWeakRoots
-;
 /
 *
 Friend
