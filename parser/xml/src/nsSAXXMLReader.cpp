@@ -717,7 +717,7 @@ nsSAXXMLReader
 :
 SetParser
 (
-nsIParser
+nsParserBase
 *
 aParser
 )

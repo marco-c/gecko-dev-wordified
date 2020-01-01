@@ -527,7 +527,7 @@ WillResume
 NS_IMETHOD
 SetParser
 (
-nsIParser
+nsParserBase
 *
 aParser
 )
@@ -832,10 +832,6 @@ mSink
 ;
 bool
 mAutoDeleteOutput
-;
-nsIParser
-*
-mParser
 ;
 }
 ;

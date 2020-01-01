@@ -1981,9 +1981,9 @@ nsIDocument
 >
 mDocument
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIParser
+nsParserBase
 >
 mParser
 ;

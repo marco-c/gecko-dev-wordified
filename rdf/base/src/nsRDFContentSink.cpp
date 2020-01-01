@@ -1324,7 +1324,7 @@ void
 NS_IMETHOD
 SetParser
 (
-nsIParser
+nsParserBase
 *
 aParser
 )
@@ -3731,7 +3731,7 @@ RDFContentSinkImpl
 :
 SetParser
 (
-nsIParser
+nsParserBase
 *
 aParser
 )

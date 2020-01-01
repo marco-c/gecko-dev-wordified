@@ -633,7 +633,7 @@ void
 NS_IMETHOD
 SetParser
 (
-nsIParser
+nsParserBase
 *
 aParser
 )
@@ -733,6 +733,12 @@ aIsAlternate
 ;
 protected
 :
+nsIParser
+*
+GetParser
+(
+)
+;
 void
 ContinueInterruptedParsingIfEnabled
 (

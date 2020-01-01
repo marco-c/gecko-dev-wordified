@@ -555,7 +555,7 @@ nsIDTD
 h
 "
 class
-nsIParser
+nsParserBase
 ;
 #
 define
@@ -953,7 +953,7 @@ done
 NS_IMETHOD
 SetParser
 (
-nsIParser
+nsParserBase
 *
 aParser
 )
