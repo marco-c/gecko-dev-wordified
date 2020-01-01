@@ -651,7 +651,7 @@ float
 mStrokeWidth
 mX
 mY
-mAngle
+mAutoAngle
 ;
 /
 /

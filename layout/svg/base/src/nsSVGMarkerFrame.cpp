@@ -950,7 +950,7 @@ GetMarkerTransform
 mStrokeWidth
 mX
 mY
-mAngle
+mAutoAngle
 )
 ;
 gfxMatrix
@@ -1202,7 +1202,7 @@ aMark
 >
 y
 ;
-mAngle
+mAutoAngle
 =
 aMark
 -
@@ -1462,7 +1462,7 @@ aMark
 >
 y
 ;
-mAngle
+mAutoAngle
 =
 aMark
 -
