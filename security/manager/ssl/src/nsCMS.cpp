@@ -1249,6 +1249,14 @@ nsigners
 0
 )
 ;
+NS_ENSURE_TRUE
+(
+nsigners
+>
+0
+NS_ERROR_UNEXPECTED
+)
+;
 si
 =
 NSS_CMSSignedData_GetSignerInfo

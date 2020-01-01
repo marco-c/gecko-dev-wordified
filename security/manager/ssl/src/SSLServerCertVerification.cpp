@@ -5374,6 +5374,7 @@ NS_FAILED
 rv
 )
 )
+{
 PR_LOG
 (
 gPIPNSSLog
@@ -5398,6 +5399,7 @@ n
 )
 )
 ;
+}
 /
 /
 Check
