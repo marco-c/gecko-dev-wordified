@@ -1030,7 +1030,7 @@ checkFunc
 (
 stmt
 .
-step
+executeStep
 (
 )
 )
