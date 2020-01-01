@@ -470,6 +470,9 @@ nsXULMenuitemAccessibleWrap
 )
 {
 }
+/
+/
+nsIAccessible
 NS_IMETHOD
 GetName
 (
