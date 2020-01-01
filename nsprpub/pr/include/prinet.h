@@ -491,9 +491,7 @@ files
 *
 while
 Windows
-and
-Mac
-have
+has
 a
 "
 get
@@ -502,7 +500,6 @@ everything
 "
 socket
 header
-*
 file
 [
 2

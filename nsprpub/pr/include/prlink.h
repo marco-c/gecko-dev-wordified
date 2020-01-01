@@ -935,6 +935,7 @@ pathname
 .
 Mac
 OS
+Classic
 on
 the
 other
@@ -986,12 +987,13 @@ such
 as
 Mac
 OS
+Classic
 a
 shared
 library
+*
+*
 may
-*
-*
 contain
 code
 fragments
@@ -1137,6 +1139,7 @@ FSSpec
 *
 Mac
 OS
+Classic
 FSSpec
 *
 /

@@ -643,17 +643,12 @@ VERSIONING
 *
 /
 #
-ifndef
-XP_MAC
-#
 include
 "
 _pr_bld
 .
 h
 "
-#
-endif
 #
 if
 !

@@ -494,9 +494,6 @@ prnetdb
 h
 "
 #
-ifndef
-XP_MAC
-#
 include
 "
 private
@@ -505,17 +502,6 @@ pprio
 .
 h
 "
-#
-else
-#
-include
-"
-pprio
-.
-h
-"
-#
-endif
 #
 define
 CLIENT_LOOPS
