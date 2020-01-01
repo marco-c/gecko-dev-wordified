@@ -44704,10 +44704,6 @@ ThawSubDocument
 nsnull
 )
 ;
-UnsuppressPainting
-(
-)
-;
 /
 /
 Get
@@ -44745,6 +44741,10 @@ mFrozen
 PR_FALSE
 ;
 UpdateImageLockingState
+(
+)
+;
+UnsuppressPainting
 (
 )
 ;
