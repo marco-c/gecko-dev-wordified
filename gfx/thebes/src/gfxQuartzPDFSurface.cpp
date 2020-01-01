@@ -436,7 +436,7 @@ include
 "
 cairo
 -
-nquartz
+quartz
 .
 h
 "
@@ -514,7 +514,7 @@ fileURL
 ;
 Init
 (
-cairo_nquartz_surface_create_for_cg_context
+cairo_quartz_surface_create_for_cg_context
 (
 mCGContext
 aSizeInPoints
@@ -523,7 +523,6 @@ width
 aSizeInPoints
 .
 height
-PR_FALSE
 )
 )
 ;

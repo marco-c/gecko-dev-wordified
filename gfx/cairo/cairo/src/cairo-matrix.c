@@ -2227,7 +2227,7 @@ cairo_matrix_transform_point
 )
 ;
 void
-cairo_matrix_transform_bounding_box
+_cairo_matrix_transform_bounding_box
 (
 const
 cairo_matrix_t
@@ -2699,11 +2699,6 @@ quad_y
 ;
 }
 }
-slim_hidden_def
-(
-cairo_matrix_transform_bounding_box
-)
-;
 static
 void
 _cairo_matrix_scalar_multiply

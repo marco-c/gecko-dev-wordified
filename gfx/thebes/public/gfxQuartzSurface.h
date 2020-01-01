@@ -478,8 +478,6 @@ gfxQuartzSurface
 (
 CGContextRef
 context
-PRBool
-y_grows_down
 const
 gfxSize
 &

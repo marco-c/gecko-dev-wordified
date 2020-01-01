@@ -436,7 +436,7 @@ include
 "
 cairo
 -
-nquartz
+quartz
 .
 h
 "
@@ -462,7 +462,7 @@ cairo_surface_t
 *
 surf
 =
-cairo_nquartz_surface_create
+cairo_quartz_surface_create
 (
 (
 cairo_format_t
@@ -484,7 +484,7 @@ height
 ;
 mCGContext
 =
-cairo_nquartz_surface_get_cg_context
+cairo_quartz_surface_get_cg_context
 (
 surf
 )
@@ -507,8 +507,6 @@ gfxQuartzSurface
 (
 CGContextRef
 context
-PRBool
-y_grows_down
 const
 gfxSize
 &
@@ -528,7 +526,7 @@ cairo_surface_t
 *
 surf
 =
-cairo_nquartz_surface_create_for_cg_context
+cairo_quartz_surface_create_for_cg_context
 (
 context
 floor
@@ -543,7 +541,6 @@ size
 .
 height
 )
-y_grows_down
 )
 ;
 CGContextRetain
@@ -581,7 +578,7 @@ mSize
 {
 mCGContext
 =
-cairo_nquartz_surface_get_cg_context
+cairo_quartz_surface_get_cg_context
 (
 csurf
 )
