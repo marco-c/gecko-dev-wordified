@@ -604,12 +604,6 @@ nsNPAPIPluginInstance
 *
 mInst
 ;
-/
-/
-weak
-can
-be
-NULL
 NPStream
 mNPStream
 ;
