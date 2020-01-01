@@ -2586,7 +2586,6 @@ return
 mFrameBufferLength
 ;
 }
-;
 /
 /
 Sets

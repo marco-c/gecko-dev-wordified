@@ -2663,7 +2663,6 @@ ISurfaceDeAllocator
 )
 {
 }
-;
 }
 ;
 /
@@ -2808,7 +2807,6 @@ DestroyFrontBuffer
 )
 {
 }
-;
 /
 *
 *
