@@ -326,6 +326,9 @@ switch
 x
 -
 >
+mode_info_context
+-
+>
 mbmi
 .
 mode
@@ -878,6 +881,9 @@ Y
 switch
 (
 x
+-
+>
+mode_info_context
 -
 >
 mbmi
@@ -1525,6 +1531,9 @@ uv_stride
 switch
 (
 x
+-
+>
+mode_info_context
 -
 >
 mbmi
@@ -2213,6 +2222,9 @@ uv_stride
 switch
 (
 x
+-
+>
+mode_info_context
 -
 >
 mbmi

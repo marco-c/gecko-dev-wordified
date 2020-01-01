@@ -366,7 +366,7 @@ structures
 define
 VPX_CODEC_INTERNAL_ABI_VERSION
 (
-2
+3
 )
 /
 *
@@ -994,7 +994,7 @@ table
 and
 the
 data
-paramter
+parameter
 may
 be
 NULL
@@ -2382,10 +2382,6 @@ const
 char
 *
 err_detail
-;
-unsigned
-int
-eval_counter
 ;
 vpx_codec_flags_t
 init_flags

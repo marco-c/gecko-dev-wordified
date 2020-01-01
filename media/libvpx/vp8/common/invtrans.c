@@ -367,6 +367,9 @@ if
 x
 -
 >
+mode_info_context
+-
+>
 mbmi
 .
 mode
@@ -376,6 +379,9 @@ B_PRED
 &
 &
 x
+-
+>
+mode_info_context
 -
 >
 mbmi

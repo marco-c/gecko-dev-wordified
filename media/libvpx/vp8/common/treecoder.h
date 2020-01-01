@@ -274,6 +274,17 @@ vp8_token_struct
 vp8_tree
 )
 ;
+void
+vp8_tokens_from_tree_offset
+(
+struct
+vp8_token_struct
+*
+vp8_tree
+int
+offset
+)
+;
 /
 *
 Convert

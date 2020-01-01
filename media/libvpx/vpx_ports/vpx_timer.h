@@ -95,7 +95,7 @@ VPX_TIMER_H
 if
 defined
 (
-_MSC_VER
+_WIN32
 )
 /
 *
@@ -264,7 +264,7 @@ vpx_usec_timer
 if
 defined
 (
-_MSC_VER
+_WIN32
 )
 LARGE_INTEGER
 begin
@@ -282,7 +282,6 @@ endif
 }
 ;
 static
-INLINE
 void
 vpx_usec_timer_start
 (
@@ -296,7 +295,7 @@ t
 if
 defined
 (
-_MSC_VER
+_WIN32
 )
 QueryPerformanceCounter
 (
@@ -323,7 +322,6 @@ NULL
 endif
 }
 static
-INLINE
 void
 vpx_usec_timer_mark
 (
@@ -337,7 +335,7 @@ t
 if
 defined
 (
-_MSC_VER
+_WIN32
 )
 QueryPerformanceCounter
 (
@@ -364,7 +362,6 @@ NULL
 endif
 }
 static
-INLINE
 long
 vpx_usec_timer_elapsed
 (
@@ -378,7 +375,7 @@ t
 if
 defined
 (
-_MSC_VER
+_WIN32
 )
 LARGE_INTEGER
 freq

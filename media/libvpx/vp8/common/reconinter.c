@@ -1520,6 +1520,9 @@ if
 x
 -
 >
+mode_info_context
+-
+>
 mbmi
 .
 ref_frame
@@ -1529,6 +1532,9 @@ INTRA_FRAME
 &
 &
 x
+-
+>
+mode_info_context
 -
 >
 mbmi
@@ -1856,6 +1862,10 @@ subpixel_predict
 }
 }
 }
+/
+/
+encoder
+only
 void
 vp8_build_inter_predictors_mby
 (
@@ -1869,6 +1879,9 @@ if
 x
 -
 >
+mode_info_context
+-
+>
 mbmi
 .
 ref_frame
@@ -1878,6 +1891,9 @@ INTRA_FRAME
 &
 &
 x
+-
+>
+mode_info_context
 -
 >
 mbmi
@@ -1914,6 +1930,9 @@ mv_row
 x
 -
 >
+mode_info_context
+-
+>
 mbmi
 .
 mv
@@ -1926,6 +1945,9 @@ int
 mv_col
 =
 x
+-
+>
+mode_info_context
 -
 >
 mbmi
@@ -2038,6 +2060,9 @@ i
 if
 (
 x
+-
+>
+mode_info_context
 -
 >
 mbmi
@@ -2201,6 +2226,9 @@ if
 x
 -
 >
+mode_info_context
+-
+>
 mbmi
 .
 ref_frame
@@ -2210,6 +2238,9 @@ INTRA_FRAME
 &
 &
 x
+-
+>
+mode_info_context
 -
 >
 mbmi
@@ -2284,6 +2315,9 @@ mv_row
 x
 -
 >
+mode_info_context
+-
+>
 mbmi
 .
 mv
@@ -2296,6 +2330,9 @@ int
 mv_col
 =
 x
+-
+>
+mode_info_context
 -
 >
 mbmi
@@ -2577,6 +2614,9 @@ i
 if
 (
 x
+-
+>
+mode_info_context
 -
 >
 mbmi
@@ -2840,6 +2880,9 @@ j
 if
 (
 x
+-
+>
+mode_info_context
 -
 >
 mbmi
@@ -3265,6 +3308,9 @@ mvrow
 x
 -
 >
+mode_info_context
+-
+>
 mbmi
 .
 mv
@@ -3277,6 +3323,9 @@ int
 mvcol
 =
 x
+-
+>
+mode_info_context
 -
 >
 mbmi
@@ -3886,6 +3935,9 @@ if
 x
 -
 >
+mode_info_context
+-
+>
 mbmi
 .
 mode
@@ -3988,6 +4040,9 @@ mv_row
 x
 -
 >
+mode_info_context
+-
+>
 mbmi
 .
 mv
@@ -4000,6 +4055,9 @@ int
 mv_col
 =
 x
+-
+>
+mode_info_context
 -
 >
 mbmi
@@ -4387,6 +4445,9 @@ i
 if
 (
 x
+-
+>
+mode_info_context
 -
 >
 mbmi
