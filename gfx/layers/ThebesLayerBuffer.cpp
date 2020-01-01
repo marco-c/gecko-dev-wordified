@@ -1975,6 +1975,9 @@ aYResolution
 ;
 canReuseBuffer
 =
+mBuffer
+&
+&
 BufferSizeOkFor
 (
 destBufferDims
