@@ -232,13 +232,6 @@ s
 )
 :
 *
-Rob
-Ginda
-rginda
-netscape
-.
-com
-*
 *
 Alternatively
 the
