@@ -888,7 +888,7 @@ extern
 "
 C
 "
-int
+nsresult
 SharedStub
 (
 uint64_t
