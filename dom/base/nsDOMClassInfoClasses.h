@@ -794,10 +794,6 @@ SVGAnimateTransformElement
 )
 DOMCI_CLASS
 (
-SVGAnimateMotionElement
-)
-DOMCI_CLASS
-(
 SVGMpathElement
 )
 DOMCI_CLASS
