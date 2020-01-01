@@ -6184,6 +6184,12 @@ to
 this
 connection
 .
+SQLiteMutexAutoLock
+lockedScope
+(
+sharedDBMutex
+)
+;
 (
 void
 )
