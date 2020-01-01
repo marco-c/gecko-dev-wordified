@@ -539,10 +539,6 @@ nsSVGInnerSVGFrameBase
 (
 aContext
 )
-mPropagateTransform
-(
-PR_TRUE
-)
 {
 }
 /
@@ -829,9 +825,6 @@ nsCOMPtr
 nsIDOMSVGMatrix
 >
 mOverrideCTM
-;
-PRPackedBool
-mPropagateTransform
 ;
 }
 ;
@@ -1329,7 +1322,9 @@ clipTransform
 if
 (
 !
-mPropagateTransform
+GetMatrixPropagation
+(
+)
 )
 {
 NS_NewSVGMatrix
@@ -2460,7 +2455,9 @@ GetCanvasTM
 if
 (
 !
-mPropagateTransform
+GetMatrixPropagation
+(
+)
 )
 {
 nsIDOMSVGMatrix

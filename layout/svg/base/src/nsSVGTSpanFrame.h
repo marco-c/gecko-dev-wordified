@@ -504,10 +504,6 @@ nsSVGTextContainerFrame
 (
 aContext
 )
-mPropagateTransform
-(
-PR_TRUE
-)
 {
 }
 /
@@ -743,9 +739,6 @@ nsCOMPtr
 nsIDOMSVGMatrix
 >
 mOverrideCTM
-;
-PRPackedBool
-mPropagateTransform
 ;
 }
 ;

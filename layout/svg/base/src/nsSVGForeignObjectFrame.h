@@ -1144,9 +1144,6 @@ nsRegion
 mCrossDocDirtyRegion
 ;
 PRPackedBool
-mPropagateTransform
-;
-PRPackedBool
 mInReflow
 ;
 }

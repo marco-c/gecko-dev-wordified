@@ -1137,7 +1137,9 @@ GetCanvasTM
 if
 (
 !
-mPropagateTransform
+GetMatrixPropagation
+(
+)
 )
 {
 nsIDOMSVGMatrix
