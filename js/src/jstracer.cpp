@@ -37043,6 +37043,12 @@ JSSLOT_ARRAY_LENGTH
 1
 &
 &
+obj
+-
+>
+dslots
+&
+&
 JSVAL_IS_STRING
 (
 obj
