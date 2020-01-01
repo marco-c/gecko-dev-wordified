@@ -3570,6 +3570,12 @@ icon
 ;
 }
 }
+mCursorAdapter
+.
+notifyDataSetChanged
+(
+)
+;
 /
 /
 show
@@ -3624,12 +3630,6 @@ e
 )
 ;
 }
-mCursorAdapter
-.
-notifyDataSetChanged
-(
-)
-;
 filterSuggestions
 (
 mSearchTerm
