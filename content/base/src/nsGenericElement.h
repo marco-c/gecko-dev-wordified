@@ -519,6 +519,15 @@ aNotify
 )
 ;
 }
+NS_IMETHOD
+GetAttributes
+(
+nsIDOMNamedNodeMap
+*
+*
+aAttributes
+)
+;
 /
 *
 *
