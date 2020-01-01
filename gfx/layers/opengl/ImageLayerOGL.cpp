@@ -1855,7 +1855,7 @@ mActiveImage
 GetFormat
 (
 )
-=
+!
 =
 Image
 :
@@ -1863,6 +1863,19 @@ Image
 CAIRO_SURFACE
 )
 {
+*
+aSize
+=
+gfxIntSize
+(
+0
+0
+)
+;
+return
+nsnull
+;
+}
 CairoImageOGL
 *
 cairoImage
@@ -1909,7 +1922,6 @@ GetTextureID
 (
 )
 ;
-}
 nsRefPtr
 <
 gfxImageSurface
