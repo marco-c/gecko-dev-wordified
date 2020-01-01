@@ -6529,7 +6529,7 @@ file
 +
 path
 NS_IMETHODIMP
-nsFilePicker
+nsBaseWinFilePicker
 :
 :
 SetDefaultString
@@ -6733,7 +6733,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsFilePicker
+nsBaseWinFilePicker
 :
 :
 GetDefaultString
@@ -6757,7 +6757,7 @@ use
 for
 files
 NS_IMETHODIMP
-nsFilePicker
+nsBaseWinFilePicker
 :
 :
 GetDefaultExtension
@@ -6776,7 +6776,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsFilePicker
+nsBaseWinFilePicker
 :
 :
 SetDefaultExtension
