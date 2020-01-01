@@ -1947,6 +1947,7 @@ view
 /
 View
 ;
+Z
 )
 V
 "
@@ -2795,7 +2796,7 @@ view
 /
 View
 ;
-IIII
+IIIIZI
 )
 V
 "
@@ -13977,6 +13978,10 @@ const
 gfxRect
 &
 rect
+bool
+isFullScreen
+int
+orientation
 )
 {
 JNIEnv
@@ -14041,6 +14046,8 @@ int
 rect
 .
 height
+isFullScreen
+orientation
 )
 ;
 #
@@ -14084,6 +14091,8 @@ RemovePluginView
 (
 jobject
 view
+bool
+isFullScreen
 )
 {
 JNIEnv
@@ -14116,6 +14125,7 @@ CallStaticVoidMethod
 mGeckoAppShellClass
 jRemovePluginView
 view
+isFullScreen
 )
 ;
 }
