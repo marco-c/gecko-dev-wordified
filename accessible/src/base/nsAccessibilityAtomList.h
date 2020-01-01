@@ -1999,6 +1999,15 @@ multiselectable
 )
 ACCESSIBILITY_ATOM
 (
+aria_orientation
+"
+aria
+-
+orientation
+"
+)
+ACCESSIBILITY_ATOM
+(
 aria_owns
 "
 aria
