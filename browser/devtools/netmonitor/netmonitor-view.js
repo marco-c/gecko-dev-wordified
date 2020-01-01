@@ -3206,7 +3206,7 @@ getFormatStr
 "
 networkMenu
 .
-size
+sizeKB
 "
 size
 )
@@ -3326,7 +3326,7 @@ getFormatStr
 "
 networkMenu
 .
-total
+totalMS
 "
 aValue
 )
@@ -5988,7 +5988,7 @@ getFormatStr
 "
 networkMenu
 .
-size
+sizeKB
 "
 kb
 )
@@ -7852,7 +7852,7 @@ getFormatStr
 "
 networkMenu
 .
-total
+totalMS
 "
 blocked
 )
@@ -7918,7 +7918,7 @@ getFormatStr
 "
 networkMenu
 .
-total
+totalMS
 "
 dns
 )
@@ -7984,7 +7984,7 @@ getFormatStr
 "
 networkMenu
 .
-total
+totalMS
 "
 connect
 )
@@ -8050,7 +8050,7 @@ getFormatStr
 "
 networkMenu
 .
-total
+totalMS
 "
 send
 )
@@ -8116,7 +8116,7 @@ getFormatStr
 "
 networkMenu
 .
-total
+totalMS
 "
 wait
 )
@@ -8182,7 +8182,7 @@ getFormatStr
 "
 networkMenu
 .
-total
+totalMS
 "
 receive
 )
