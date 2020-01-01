@@ -4120,7 +4120,7 @@ AssignLiteral
 "
 bluetooth
 -
-pairingstatuschanged
+pairedstatuschanged
 "
 )
 ;
