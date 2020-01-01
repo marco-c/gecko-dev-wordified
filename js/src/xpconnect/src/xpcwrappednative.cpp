@@ -10819,6 +10819,15 @@ pTearOff
 )
 ;
 }
+if
+(
+pobj2
+)
+*
+pobj2
+=
+nsnull
+;
 return
 nsnull
 ;
