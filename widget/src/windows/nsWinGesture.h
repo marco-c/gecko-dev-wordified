@@ -1937,13 +1937,6 @@ kGestureLibraryName
 [
 ]
 ;
-static
-const
-PRUnichar
-kThemeLibraryName
-[
-]
-;
 /
 /
 Pan
