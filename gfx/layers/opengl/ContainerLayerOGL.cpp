@@ -1334,7 +1334,7 @@ discussion
 .
 GLint
 maxTexSize
-=
+;
 aContainer
 -
 >
@@ -1343,8 +1343,11 @@ gl
 )
 -
 >
-GetMaxTextureSize
+fGetIntegerv
 (
+LOCAL_GL_MAX_TEXTURE_SIZE
+&
+maxTexSize
 )
 ;
 framebufferRect
