@@ -5347,6 +5347,10 @@ if
 mParser
 )
 {
+rv
+=
+NS_OK
+;
 nsCOMPtr
 <
 nsIStreamListener
