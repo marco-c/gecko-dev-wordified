@@ -904,6 +904,16 @@ JSOp
 fused
 )
 ;
+void
+iterNext
+(
+)
+;
+void
+iterMore
+(
+)
+;
 /
 *
 Opcode
