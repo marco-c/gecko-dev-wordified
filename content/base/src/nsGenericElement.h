@@ -1580,7 +1580,7 @@ nsnull
 ;
 }
 virtual
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 *
 GetSMILOverrideStyle
 (
