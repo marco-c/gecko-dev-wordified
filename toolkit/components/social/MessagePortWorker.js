@@ -277,7 +277,7 @@ status
 0
 )
 {
-_evalInSandbox
+eval
 (
 xhr
 .
