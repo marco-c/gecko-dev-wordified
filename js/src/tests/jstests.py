@@ -1509,7 +1509,7 @@ os
 .
 path
 .
-realpath
+abspath
 (
 __file__
 )
