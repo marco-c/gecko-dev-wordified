@@ -3748,6 +3748,14 @@ ops
 nsnull
 ;
 }
+#
+define
+CONTRACTID_HASHTABLE_INITIAL_SIZE
+2048
+#
+define
+AUTOREGENTRY_HASHTABLE_INITIAL_SIZE
+256
 nsresult
 nsComponentManagerImpl
 :
@@ -3915,7 +3923,7 @@ sizeof
 (
 nsContractIDTableEntry
 )
-1024
+CONTRACTID_HASHTABLE_INITIAL_SIZE
 )
 )
 {
@@ -3981,7 +3989,7 @@ mAutoRegEntries
 .
 Init
 (
-32
+AUTOREGENTRY_HASHTABLE_INITIAL_SIZE
 )
 )
 return

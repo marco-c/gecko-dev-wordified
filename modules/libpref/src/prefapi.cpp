@@ -1330,6 +1330,10 @@ void
 key
 )
 ;
+#
+define
+PREF_HASHTABLE_INITIAL_SIZE
+2048
 nsresult
 PREF_Init
 (
@@ -1357,7 +1361,7 @@ sizeof
 (
 PrefHashEntry
 )
-1024
+PREF_HASHTABLE_INITIAL_SIZE
 )
 )
 {
