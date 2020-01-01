@@ -546,6 +546,13 @@ jsobj
 h
 "
 #
+include
+"
+jsvalue
+.
+h
+"
+#
 define
 JSSTRING_BIT
 (

@@ -458,6 +458,13 @@ jsapi
 .
 h
 "
+#
+include
+"
+jsvalue
+.
+h
+"
 typedef
 struct
 JSProperty

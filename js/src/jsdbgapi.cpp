@@ -5578,8 +5578,11 @@ sprop
 slot
 )
 :
-undefinedValue
+Value
 (
+UndefinedTag
+(
+)
 )
 )
 ;
@@ -12833,11 +12836,11 @@ XP_WIN
 )
 #
 include
-"
-jswin
+<
+windows
 .
 h
-"
+>
 #
 else
 #

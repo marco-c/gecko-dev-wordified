@@ -3806,8 +3806,11 @@ vp
 2
 ]
 :
-undefinedValue
+Value
 (
+UndefinedTag
+(
+)
 )
 )
 ;
@@ -11842,8 +11845,14 @@ sp
 +
 -
 >
-setNull
+setObjectOrNull
 (
+lambda
+-
+>
+getParent
+(
+)
 )
 ;
 /
@@ -23953,7 +23962,7 @@ atomState
 .
 lengthAtom
 )
-undefinedValue
+UndefinedTag
 (
 )
 NULL
