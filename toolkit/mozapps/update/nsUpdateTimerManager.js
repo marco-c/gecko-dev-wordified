@@ -546,13 +546,13 @@ value
 of
 less
 than
-60
+30
 seconds
 .
 var
 minInterval
 =
-60000
+30000
 ;
 /
 /
