@@ -3273,7 +3273,7 @@ size_t
 number
 )
 ;
-MarkRaw
+Mark
 (
 trc
 ATOM_ENTRY_KEY
@@ -3362,7 +3362,7 @@ size_t
 number
 )
 ;
-MarkRaw
+Mark
 (
 trc
 ATOM_ENTRY_KEY
