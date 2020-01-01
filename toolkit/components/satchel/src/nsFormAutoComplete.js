@@ -1831,6 +1831,7 @@ entries
 .
 length
 )
+throw
 Components
 .
 Exception
