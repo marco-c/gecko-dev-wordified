@@ -617,6 +617,8 @@ Point
 aOffset
 Float
 aSigma
+CompositionOp
+aOperator
 )
 ;
 virtual

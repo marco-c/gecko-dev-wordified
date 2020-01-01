@@ -3005,6 +3005,11 @@ guassian
 filter
 kernel
 *
+aOperator
+Composition
+operator
+used
+*
 /
 virtual
 void
@@ -3027,6 +3032,8 @@ Point
 aOffset
 Float
 aSigma
+CompositionOp
+aOperator
 )
 =
 0
