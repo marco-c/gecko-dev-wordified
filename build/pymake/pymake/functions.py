@@ -5458,10 +5458,16 @@ subprocess
 Popen
 (
 cline
+env
+=
+makefile
+.
+env
 shell
 =
 not
 msys
+                             
 stdout
 =
 subprocess
