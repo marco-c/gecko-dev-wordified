@@ -10858,8 +10858,7 @@ void
 data
 MatchControlFlags
 flags
-Value
-*
+MutableHandleValue
 rval
 )
 {
@@ -11012,8 +11011,7 @@ RegExpRunStatus_Success_NotFound
 )
 {
 rval
--
->
+.
 setNull
 (
 )
@@ -11044,6 +11042,10 @@ cx
 stableStr
 matches
 rval
+.
+address
+(
+)
 )
 )
 return
@@ -11151,8 +11153,7 @@ RegExpRunStatus_Success_NotFound
 )
 {
 rval
--
->
+.
 setNull
 (
 )
@@ -11177,8 +11178,7 @@ isTest
 )
 {
 rval
--
->
+.
 setBoolean
 (
 true
@@ -11196,6 +11196,10 @@ cx
 stableStr
 matches
 rval
+.
+address
+(
+)
 )
 )
 return
@@ -11748,11 +11752,8 @@ regExp
 MatchCallback
 arg
 MATCH_ARGS
+&
 rval
-.
-address
-(
-)
 )
 )
 return
@@ -16085,8 +16086,11 @@ re
 )
 ;
 }
-Value
+RootedValue
 tmp
+(
+cx
+)
 ;
 if
 (
