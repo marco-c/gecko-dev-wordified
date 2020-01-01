@@ -14200,13 +14200,6 @@ r_offset
 }
 #
 endif
-return
-0
-;
-/
-/
-NOT
-REACHED
 }
 /
 *

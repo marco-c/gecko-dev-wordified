@@ -8973,9 +8973,11 @@ amount
 JS_ASSERT
 (
 gcTriggerBytes
+-
+amount
 >
 =
-amount
+0
 )
 ;
 if
