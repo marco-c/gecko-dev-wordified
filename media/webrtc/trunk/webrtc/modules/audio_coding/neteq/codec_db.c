@@ -2469,14 +2469,6 @@ kDecoderSPEEX_16
 endif
 #
 ifdef
-NETEQ_OPUS_CODEC
-case
-kDecoderOpus
-:
-#
-endif
-#
-ifdef
 NETEQ_CELT_CODEC
 case
 kDecoderCELT_32
