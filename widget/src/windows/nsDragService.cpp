@@ -1624,6 +1624,9 @@ PRUint32
 aActionType
 )
 {
+nsresult
+rv
+=
 nsBaseDragService
 :
 :
@@ -1635,8 +1638,11 @@ aRegion
 aActionType
 )
 ;
-nsresult
+NS_ENSURE_SUCCESS
+(
 rv
+rv
+)
 ;
 /
 /
