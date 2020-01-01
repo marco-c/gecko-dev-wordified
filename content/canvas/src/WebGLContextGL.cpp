@@ -2135,7 +2135,7 @@ should
 never
 be
 called
-LogMessage
+LogMessageIfVerbose
 (
 "
 BufferData

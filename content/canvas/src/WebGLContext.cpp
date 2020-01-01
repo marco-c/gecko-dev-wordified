@@ -2125,8 +2125,6 @@ InitAndValidateGL
 LogMessage
 (
 "
-WebGL
-:
 OSMesa
 forced
 but
@@ -2147,8 +2145,6 @@ NS_ERROR_FAILURE
 LogMessage
 (
 "
-WebGL
-:
 Using
 software
 rendering
@@ -2534,8 +2530,6 @@ gl
 LogMessage
 (
 "
-WebGL
-:
 Can
 '
 t
