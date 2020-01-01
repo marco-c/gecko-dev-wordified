@@ -6432,7 +6432,12 @@ cookie
 get
 (
 )
-MUST_BE_NULL
+MUST_EQUAL
+"
+test
+=
+foreign
+"
 )
 ;
 GetACookie
@@ -6665,7 +6670,12 @@ cookie
 get
 (
 )
-MUST_BE_NULL
+MUST_EQUAL
+"
+test
+=
+foreign
+"
 )
 ;
 SetACookie
