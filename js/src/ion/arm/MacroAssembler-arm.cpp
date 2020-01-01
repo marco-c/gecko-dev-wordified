@@ -16646,10 +16646,10 @@ GetIonContext
 )
 -
 >
-cx
+compartment
 -
 >
-runtime
+rt
 )
 +
 offsetof
