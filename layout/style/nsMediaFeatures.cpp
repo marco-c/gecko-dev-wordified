@@ -484,7 +484,9 @@ h
 #
 include
 "
-nsILookAndFeel
+mozilla
+/
+LookAndFeel
 .
 h
 "
@@ -495,6 +497,10 @@ nsCSSRuleProcessor
 .
 h
 "
+using
+namespace
+mozilla
+;
 static
 const
 PRInt32
@@ -535,10 +541,10 @@ XP_WIN
 struct
 WindowsThemeName
 {
-nsILookAndFeel
+LookAndFeel
 :
 :
-WindowsThemeIdentifier
+WindowsTheme
 id
 ;
 const
@@ -573,7 +579,7 @@ themeStrings
 =
 {
 {
-nsILookAndFeel
+LookAndFeel
 :
 :
 eWindowsTheme_Aero
@@ -583,7 +589,7 @@ aero
 "
 }
 {
-nsILookAndFeel
+LookAndFeel
 :
 :
 eWindowsTheme_LunaBlue
@@ -595,7 +601,7 @@ blue
 "
 }
 {
-nsILookAndFeel
+LookAndFeel
 :
 :
 eWindowsTheme_LunaOlive
@@ -607,7 +613,7 @@ olive
 "
 }
 {
-nsILookAndFeel
+LookAndFeel
 :
 :
 eWindowsTheme_LunaSilver
@@ -619,7 +625,7 @@ silver
 "
 }
 {
-nsILookAndFeel
+LookAndFeel
 :
 :
 eWindowsTheme_Royale
@@ -629,7 +635,7 @@ royale
 "
 }
 {
-nsILookAndFeel
+LookAndFeel
 :
 :
 eWindowsTheme_Zune
@@ -639,7 +645,7 @@ zune
 "
 }
 {
-nsILookAndFeel
+LookAndFeel
 :
 :
 eWindowsTheme_Generic
@@ -2005,7 +2011,7 @@ if
 windowsThemeId
 =
 =
-nsILookAndFeel
+LookAndFeel
 :
 :
 eWindowsTheme_Classic
