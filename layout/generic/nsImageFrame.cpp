@@ -4413,13 +4413,9 @@ account
 for
 image
 change
-InvalidateLayer
+Invalidate
 (
 r
-nsDisplayItem
-:
-:
-TYPE_IMAGE
 )
 ;
 return
