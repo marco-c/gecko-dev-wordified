@@ -6110,7 +6110,7 @@ Ci
 .
 nsIRequest
 .
-VALIDATE_ALWAYS
+LOAD_BYPASS_CACHE
 ;
 channel
 .
