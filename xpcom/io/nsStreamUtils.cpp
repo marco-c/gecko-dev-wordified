@@ -243,7 +243,7 @@ nsIInputStreamCallback
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 nsInputStreamReadyEvent
 (
 nsIInputStreamCallback
@@ -554,7 +554,7 @@ mTarget
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 nsInputStreamReadyEvent
 nsIRunnable
@@ -650,7 +650,7 @@ nsIOutputStreamCallback
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 nsOutputStreamReadyEvent
 (
 nsIOutputStreamCallback
@@ -961,7 +961,7 @@ mTarget
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 nsOutputStreamReadyEvent
 nsIRunnable
@@ -1255,7 +1255,7 @@ nsIRunnable
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 nsAStreamCopier
 (
 )
@@ -2380,7 +2380,7 @@ mCancelStatus
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS3
+NS_IMPL_ISUPPORTS3
 (
 nsAStreamCopier
 nsIInputStreamCallback

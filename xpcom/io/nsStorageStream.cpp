@@ -454,7 +454,7 @@ delete
 mSegmentedBuffer
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 nsStorageStream
 nsIStorageStream
@@ -1892,7 +1892,7 @@ mStorageStream
 )
 ;
 }
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIINPUTSTREAM
 NS_DECL_NSISEEKABLESTREAM
 private
@@ -2025,7 +2025,7 @@ mSegmentSize
 }
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 nsStorageInputStream
 nsIInputStream

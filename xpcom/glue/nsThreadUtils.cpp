@@ -223,7 +223,7 @@ h
 #
 ifndef
 XPCOM_GLUE_AVOID_NSPR
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsRunnable
 nsIRunnable
@@ -244,7 +244,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 nsCancelableRunnable
 nsICancelableRunnable
@@ -1216,7 +1216,7 @@ name
 )
 {
 }
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIRUNNABLE
 protected
 :
@@ -1226,7 +1226,7 @@ mName
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsNameThreadRunnable
 nsIRunnable

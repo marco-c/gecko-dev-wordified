@@ -1160,7 +1160,7 @@ mPath
 #
 ifdef
 MOZ_WIDGET_COCOA
-NS_IMPL_THREADSAFE_ISUPPORTS4
+NS_IMPL_ISUPPORTS4
 (
 nsLocalFile
 nsILocalFileMac
@@ -1170,7 +1170,7 @@ nsIHashable
 )
 #
 else
-NS_IMPL_THREADSAFE_ISUPPORTS3
+NS_IMPL_ISUPPORTS3
 (
 nsLocalFile
 nsILocalFile

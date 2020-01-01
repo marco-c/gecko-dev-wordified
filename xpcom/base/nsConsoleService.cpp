@@ -219,11 +219,11 @@ using
 namespace
 mozilla
 ;
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 nsConsoleService
 )
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 (
 nsConsoleService
 )

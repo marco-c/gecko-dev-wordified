@@ -345,7 +345,7 @@ nsITimerCallback
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 TimerCallback
 (
 nsIThread
@@ -437,7 +437,7 @@ mReentrantMonitor
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 TimerCallback
 nsITimerCallback

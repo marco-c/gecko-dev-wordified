@@ -318,7 +318,7 @@ nsIExceptionManager
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIEXCEPTIONMANAGER
 nsExceptionManager
 (
@@ -429,7 +429,7 @@ thread
 shutting
 down
 xpcom
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsExceptionManager
 nsIExceptionManager
@@ -685,7 +685,7 @@ totalInstances
 ;
 #
 endif
-NS_IMPL_THREADSAFE_ISUPPORTS3
+NS_IMPL_ISUPPORTS3
 (
 nsExceptionService
 nsIExceptionService

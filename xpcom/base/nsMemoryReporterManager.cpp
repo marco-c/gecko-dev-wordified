@@ -4048,7 +4048,7 @@ implementation
 *
 *
 /
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsMemoryReporterManager
 nsIMemoryReporterManager
@@ -6454,7 +6454,7 @@ should
 be
 negligible
 .
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 MemoryReporterBase
 nsIMemoryReporter
