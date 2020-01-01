@@ -765,10 +765,12 @@ static_cast
 <
 PRUint32
 >
+(
 aKey
 -
 >
 mNamespaceID
+)
 4
 )
 ^
