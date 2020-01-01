@@ -2978,7 +2978,7 @@ JSContext
 *
 cx
 HandleFunction
-fun
+fun0
 uint32_t
 argc
 Value
