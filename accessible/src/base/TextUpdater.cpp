@@ -635,9 +635,14 @@ GetParent
 (
 )
 ;
-NS_ASSERTION
+if
 (
+!
 parent
+)
+{
+NS_ERROR
+(
 "
 No
 parent
@@ -648,6 +653,9 @@ leaf
 "
 )
 ;
+return
+;
+}
 mHyperText
 =
 parent
