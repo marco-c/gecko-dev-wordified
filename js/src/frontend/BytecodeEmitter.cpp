@@ -40705,7 +40705,7 @@ labelIndex
 )
 )
 return
-JS_FALSE
+false
 ;
 while
 (
@@ -40785,8 +40785,7 @@ SRC_SWITCHBREAK
 SRC_BREAK
 ;
 }
-if
-(
+return
 EmitGoto
 (
 cx
@@ -40800,14 +40799,9 @@ breaks
 labelIndex
 noteType
 )
-<
+>
+=
 0
-)
-return
-JS_FALSE
-;
-return
-true
 ;
 }
 JSBool
