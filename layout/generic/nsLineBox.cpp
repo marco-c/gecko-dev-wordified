@@ -1482,9 +1482,6 @@ aFlags
 )
 const
 {
-int32_t
-i
-;
 nsFrame
 :
 :

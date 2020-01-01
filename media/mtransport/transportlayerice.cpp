@@ -604,12 +604,6 @@ mtransport
 "
 )
 ;
-static
-bool
-initialized
-=
-false
-;
 TransportLayerIce
 :
 :
