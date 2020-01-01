@@ -568,12 +568,12 @@ interfaces
 nsIWindowWatcher
 ;
 function
-LayoutATestCmdLineHandler
+RefTestCmdLineHandler
 (
 )
 {
 }
-LayoutATestCmdLineHandler
+RefTestCmdLineHandler
 .
 prototype
 =
@@ -888,7 +888,7 @@ n
 }
 ;
 var
-LayoutATestCmdLineFactory
+RefTestCmdLineFactory
 =
 {
 createInstance
@@ -917,7 +917,7 @@ NS_ERROR_NO_AGGREGATION
 }
 return
 new
-LayoutATestCmdLineHandler
+RefTestCmdLineHandler
 (
 )
 .
@@ -930,7 +930,7 @@ iid
 }
 ;
 var
-LayoutATestCmdLineModule
+RefTestCmdLineModule
 =
 {
 registerSelf
@@ -958,7 +958,7 @@ registerFactoryLocation
 (
 REFTEST_CMDLINE_CLSID
 "
-LayoutATest
+RefTest
 CommandLine
 Service
 "
@@ -1131,7 +1131,7 @@ REFTEST_CMDLINE_CLSID
 )
 {
 return
-LayoutATestCmdLineFactory
+RefTestCmdLineFactory
 ;
 }
 if
@@ -1186,6 +1186,6 @@ fileSpec
 )
 {
 return
-LayoutATestCmdLineModule
+RefTestCmdLineModule
 ;
 }
