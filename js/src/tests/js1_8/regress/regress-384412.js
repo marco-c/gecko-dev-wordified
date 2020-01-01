@@ -422,6 +422,17 @@ BLOCK
 *
 *
 /
+var
+gTestfile
+=
+'
+regress
+-
+384412
+.
+js
+'
+;
 /
 /
 -
@@ -2065,6 +2076,8 @@ f
 )
 )
 ;
+/
+/
 expect
 (
 150
