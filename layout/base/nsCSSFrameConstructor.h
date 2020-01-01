@@ -5200,6 +5200,10 @@ aParentFrame
 nsStyleContext
 *
 aStyleContext
+const
+FrameConstructionData
+*
+aFCData
 nsFrameItems
 &
 aFrameItems
@@ -5512,7 +5516,9 @@ nsFrameItems
 &
 aFrameItems
 PRBool
-aXBLBaseTag
+aAllowXBLBase
+PRBool
+aAllowPageBreaks
 )
 ;
 nsresult
