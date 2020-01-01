@@ -9508,6 +9508,14 @@ checkSingletonContext
 (
 )
 ;
+script
+-
+>
+setFunction
+(
+fun
+)
+;
 if
 (
 !

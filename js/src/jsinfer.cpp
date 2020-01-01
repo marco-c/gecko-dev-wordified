@@ -37506,10 +37506,6 @@ bool
 singleton
 )
 {
-function_
-=
-fun
-;
 if
 (
 !
