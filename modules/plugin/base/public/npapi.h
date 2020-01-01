@@ -429,7 +429,7 @@ Revision
 :
 3
 .
-46
+47
 *
 Netscape
 client
@@ -2670,6 +2670,9 @@ element
 NPNVPluginElementNPObject
 =
 16
+NPNVSupportsWindowless
+=
+17
 #
 ifdef
 XP_MACOSX
