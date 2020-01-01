@@ -480,10 +480,10 @@ mozilla
 namespace
 layers
 {
-struct
+class
 Edit
 ;
-struct
+class
 EditReply
 ;
 class
