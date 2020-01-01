@@ -3614,6 +3614,8 @@ reportStrictModeErrorNumberVA
 ParseNode
 *
 pn
+bool
+strictMode
 unsigned
 errorNumber
 va_list

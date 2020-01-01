@@ -3712,6 +3712,13 @@ tokenStream
 reportStrictModeErrorNumberVA
 (
 pn
+pc
+-
+>
+sc
+-
+>
+strict
 errorNumber
 args
 )
