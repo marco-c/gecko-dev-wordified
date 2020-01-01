@@ -1353,6 +1353,7 @@ cancelClass
 :
 '
 close
+stackExpander
 '
 start
 :
