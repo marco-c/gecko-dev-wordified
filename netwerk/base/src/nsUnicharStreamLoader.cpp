@@ -479,6 +479,12 @@ mime
 sniff
 -
 06
+using
+mozilla
+:
+:
+fallible_t
+;
 NS_IMETHODIMP
 nsUnicharStreamLoader
 :
@@ -507,6 +513,9 @@ mRawData
 SetCapacity
 (
 SNIFFING_BUFFER_SIZE
+fallible_t
+(
+)
 )
 )
 return
@@ -1433,6 +1442,9 @@ mBuffer
 SetCapacity
 (
 capacity
+fallible_t
+(
+)
 )
 )
 {
