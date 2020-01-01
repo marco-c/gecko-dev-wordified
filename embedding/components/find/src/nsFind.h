@@ -221,6 +221,9 @@ nsIDOMRange
 >
 CreateRange
 (
+nsINode
+*
+aNode
 )
 ;
 protected
