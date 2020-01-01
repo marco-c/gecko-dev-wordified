@@ -1294,6 +1294,10 @@ proto
 getParent
 (
 )
+NewObjectMetadata
+(
+cx
+)
 FINALIZE_KIND
 BaseShape
 :

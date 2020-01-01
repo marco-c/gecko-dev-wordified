@@ -2734,6 +2734,10 @@ cx
 clasp
 NULL
 NULL
+NewObjectMetadata
+(
+cx
+)
 ITERATOR_FINALIZE_KIND
 )
 )

@@ -655,6 +655,7 @@ cx
 global
 (
 )
+NULL
 allocKind
 BaseShape
 :
@@ -832,6 +833,7 @@ cx
 global
 (
 )
+NULL
 BaseShape
 :
 :

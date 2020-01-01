@@ -2108,6 +2108,7 @@ cx
 global
 (
 )
+NULL
 FINALIZE_KIND
 BaseShape
 :
@@ -2396,6 +2397,7 @@ enclosing
 global
 (
 )
+NULL
 FINALIZE_KIND
 )
 )
@@ -4377,6 +4379,7 @@ getInitialShape
 cx
 &
 BlockClass
+NULL
 NULL
 NULL
 FINALIZE_KIND
