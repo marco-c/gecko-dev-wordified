@@ -4590,7 +4590,6 @@ GetIntValue
 NS_STYLE_WIDTH_FILL
 |
 |
-(
 aCoord
 .
 GetIntValue
@@ -4599,7 +4598,6 @@ GetIntValue
 =
 =
 NS_STYLE_WIDTH_SHRINK_WRAP
-)
 )
 )
 ;
