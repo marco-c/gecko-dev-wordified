@@ -1945,11 +1945,7 @@ void
 *
 firstScanned
 =
-rooters
-.
-begin
-(
-)
+NULL
 ;
 for
 (
@@ -2079,6 +2075,11 @@ begin
 (
 )
 ;
+if
+(
+firstScanned
+)
+{
 for
 (
 Rooter
@@ -2147,6 +2148,7 @@ p
 +
 firstToScan
 ;
+}
 }
 }
 JS_ASSERT
