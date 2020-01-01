@@ -274,7 +274,7 @@ R
 .
 drawable
 .
-address_bar_bg
+url_bar_bg
 )
 ;
 }

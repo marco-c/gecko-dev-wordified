@@ -625,7 +625,7 @@ inputMethod
 public
 static
 boolean
-shouldDelayAwesomebarUpdate
+shouldDelayUrlBarUpdate
 (
 Context
 context

@@ -467,7 +467,7 @@ R
 .
 string
 .
-awesomebar_history_title
+history_title
 ;
 }
 Override
@@ -1447,7 +1447,7 @@ R
 .
 drawable
 .
-ic_awesomebar_star
+ic_url_bar_star
 )
 ;
 return

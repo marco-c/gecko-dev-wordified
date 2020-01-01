@@ -393,7 +393,7 @@ R
 .
 string
 .
-awesomebar_bookmarks_title
+bookmarks_title
 ;
 }
 Override
@@ -550,6 +550,17 @@ id
 ;
 }
 }
+)
+;
+list
+.
+setOnKeyListener
+(
+GamepadUtils
+.
+getListItemClickDispatcher
+(
+)
 )
 ;
 if

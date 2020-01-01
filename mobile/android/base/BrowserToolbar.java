@@ -666,10 +666,6 @@ GeckoRelativeLayout
 mLayout
 ;
 private
-LayoutParams
-mAwesomeBarParams
-;
-private
 View
 mUrlDisplayContainer
 ;
@@ -683,15 +679,15 @@ mUrlEditText
 ;
 private
 View
-mAwesomeBarEntry
+mUrlBarEntry
 ;
 private
 ImageView
-mAwesomeBarRightEdge
+mUrlBarRightEdge
 ;
 private
 BrowserToolbarBackground
-mAddressBarBg
+mUrlBarBackground
 ;
 private
 GeckoTextView
@@ -879,7 +875,7 @@ mTitleSlideRight
 ;
 private
 int
-mAddressBarViewOffset
+mUrlBarViewOffset
 ;
 private
 int
@@ -1577,7 +1573,7 @@ mAnimatingEntry
 =
 false
 ;
-mAddressBarBg
+mUrlBarBackground
 =
 (
 BrowserToolbarBackground
@@ -1590,10 +1586,10 @@ R
 .
 id
 .
-address_bar_bg
+url_bar_bg
 )
 ;
-mAddressBarViewOffset
+mUrlBarViewOffset
 =
 mActivity
 .
@@ -1607,7 +1603,7 @@ R
 .
 dimen
 .
-addressbar_offset_left
+url_bar_offset_left
 )
 ;
 mDefaultForwardMargin
@@ -1637,10 +1633,10 @@ R
 .
 id
 .
-awesome_bar_display_container
+url_display_container
 )
 ;
-mAwesomeBarEntry
+mUrlBarEntry
 =
 mLayout
 .
@@ -1650,7 +1646,7 @@ R
 .
 id
 .
-awesome_bar_entry
+url_bar_entry
 )
 ;
 mUrlEditContainer
@@ -1663,7 +1659,7 @@ R
 .
 id
 .
-awesome_bar_edit_container
+url_edit_container
 )
 ;
 mUrlEditText
@@ -1679,7 +1675,7 @@ R
 .
 id
 .
-awesome_bar_edit_text
+url_edit_text
 )
 ;
 mUrlEditText
@@ -1754,7 +1750,8 @@ KEYCODE_ENTER
 /
 If
 the
-AwesomeBar
+edit
+text
 has
 a
 composition
@@ -2194,7 +2191,7 @@ half
 of
 its
 width
-mAwesomeBarRightEdge
+mUrlBarRightEdge
 =
 (
 ImageView
@@ -2207,18 +2204,18 @@ R
 .
 id
 .
-awesome_bar_right_edge
+url_bar_right_edge
 )
 ;
 if
 (
-mAwesomeBarRightEdge
+mUrlBarRightEdge
 !
 =
 null
 )
 {
-mAwesomeBarRightEdge
+mUrlBarRightEdge
 .
 getDrawable
 (
@@ -2243,7 +2240,7 @@ R
 .
 id
 .
-awesome_bar_title
+url_bar_title
 )
 ;
 mTitlePadding
@@ -3863,7 +3860,8 @@ key
 event
 to
 the
-AwesomeBar
+edit
+text
 .
 If
 selection
@@ -4726,7 +4724,8 @@ mAutoCompleteResult
 /
 If
 the
-AwesomeBar
+edit
+text
 has
 a
 composition
@@ -5106,7 +5105,7 @@ mLockFadeIn
 }
 private
 int
-getAwesomeBarEntryTranslation
+getUrlBarEntryTranslation
 (
 )
 {
@@ -5117,7 +5116,7 @@ getWidth
 (
 )
 -
-mAwesomeBarEntry
+mUrlBarEntry
 .
 getRight
 (
@@ -5126,7 +5125,7 @@ getRight
 }
 private
 int
-getAwesomeBarCurveTranslation
+getUrlBarCurveTranslation
 (
 )
 {
@@ -7374,7 +7373,7 @@ final
 int
 entryTranslation
 =
-getAwesomeBarEntryTranslation
+getUrlBarEntryTranslation
 (
 )
 ;
@@ -7382,7 +7381,7 @@ final
 int
 curveTranslation
 =
-getAwesomeBarCurveTranslation
+getUrlBarCurveTranslation
 (
 )
 ;
@@ -7438,7 +7437,7 @@ the
 toolbar
 if
 (
-mAwesomeBarRightEdge
+mUrlBarRightEdge
 !
 =
 null
@@ -7448,7 +7447,7 @@ contentAnimator
 .
 attach
 (
-mAwesomeBarRightEdge
+mUrlBarRightEdge
 PropertyAnimator
 .
 Property
@@ -7752,7 +7751,7 @@ false
 /
 Shrink
 the
-awesome
+urlbar
 entry
 back
 to
@@ -7761,7 +7760,7 @@ original
 size
 if
 (
-mAwesomeBarRightEdge
+mUrlBarRightEdge
 !
 =
 null
@@ -7771,7 +7770,7 @@ contentAnimator
 .
 attach
 (
-mAwesomeBarRightEdge
+mUrlBarRightEdge
 PropertyAnimator
 .
 Property
@@ -8050,7 +8049,7 @@ R
 .
 drawable
 .
-ic_awesomebar_go
+ic_url_bar_go
 ;
 String
 contentDescription
@@ -8108,7 +8107,7 @@ R
 .
 drawable
 .
-ic_awesomebar_search
+ic_url_bar_search
 ;
 contentDescription
 =
@@ -8206,7 +8205,7 @@ IME_ACTION_GO
 (
 InputMethods
 .
-shouldDelayAwesomebarUpdate
+shouldDelayUrlBarUpdate
 (
 mUrlEditText
 .
@@ -8751,7 +8750,7 @@ layoutParams
 .
 leftMargin
 =
-mAddressBarViewOffset
+mUrlBarViewOffset
 ;
 ViewHelper
 .
@@ -8988,7 +8987,7 @@ ViewHelper
 setTranslationX
 (
 mTitle
-mAddressBarViewOffset
+mUrlBarViewOffset
 )
 ;
 ViewHelper
@@ -8996,7 +8995,7 @@ ViewHelper
 setTranslationX
 (
 mFavicon
-mAddressBarViewOffset
+mUrlBarViewOffset
 )
 ;
 ViewHelper
@@ -9004,7 +9003,7 @@ ViewHelper
 setTranslationX
 (
 mSiteSecurity
-mAddressBarViewOffset
+mUrlBarViewOffset
 )
 ;
 }
@@ -9046,7 +9045,7 @@ PropertyAnimator
 Property
 .
 TRANSLATION_X
-mAddressBarViewOffset
+mUrlBarViewOffset
 )
 ;
 anim
@@ -9059,7 +9058,7 @@ PropertyAnimator
 Property
 .
 TRANSLATION_X
-mAddressBarViewOffset
+mUrlBarViewOffset
 )
 ;
 anim
@@ -9072,7 +9071,7 @@ PropertyAnimator
 Property
 .
 TRANSLATION_X
-mAddressBarViewOffset
+mUrlBarViewOffset
 )
 ;
 }
@@ -9287,7 +9286,7 @@ isPrivate
 (
 )
 ;
-mAddressBarBg
+mUrlBarBackground
 .
 setPrivateMode
 (

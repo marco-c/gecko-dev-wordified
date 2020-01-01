@@ -414,7 +414,7 @@ as
 per
 drawable
 /
-address_bar_nav_button
+url_bar_nav_button
 .
 Override
 public
@@ -670,7 +670,7 @@ R
 .
 drawable
 .
-address_bar_nav_button
+url_bar_nav_button
 )
 ;
 }

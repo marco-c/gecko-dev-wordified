@@ -1030,7 +1030,7 @@ R
 .
 id
 .
-address_bar_bg
+url_bar_bg
 )
 ;
 mAddressBarBg
@@ -1912,7 +1912,7 @@ R
 .
 drawable
 .
-ic_awesomebar_go
+ic_url_bar_go
 ;
 String
 contentDescription
@@ -1968,7 +1968,7 @@ R
 .
 drawable
 .
-ic_awesomebar_search
+ic_url_bar_search
 ;
 contentDescription
 =
@@ -2064,7 +2064,7 @@ IME_ACTION_GO
 (
 InputMethods
 .
-shouldDelayAwesomebarUpdate
+shouldDelayUrlBarUpdate
 (
 mText
 .
