@@ -670,8 +670,13 @@ http
 /
 localhost
 :
-4444
 "
++
+httpserver
+.
+identity
+.
+primaryPort
 +
 url
 "
@@ -965,7 +970,8 @@ httpserver
 .
 start
 (
-4444
+-
+1
 )
 ;
 do_test_pending
