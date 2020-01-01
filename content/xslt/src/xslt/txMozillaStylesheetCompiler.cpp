@@ -2744,7 +2744,7 @@ channel
 >
 AsyncOpen
 (
-sink
+listener
 parser
 )
 ;
