@@ -718,7 +718,7 @@ mCharsetSource
 nsCString
 mCharset
 ;
-PRInt32
+PRInt64
 mContentLength
 ;
 PRUint32

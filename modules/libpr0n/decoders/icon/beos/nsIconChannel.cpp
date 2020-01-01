@@ -2622,7 +2622,7 @@ nsIconChannel
 :
 GetContentLength
 (
-PRInt32
+PRInt64
 *
 aContentLength
 )
@@ -2642,7 +2642,7 @@ nsIconChannel
 :
 SetContentLength
 (
-PRInt32
+PRInt64
 aContentLength
 )
 {

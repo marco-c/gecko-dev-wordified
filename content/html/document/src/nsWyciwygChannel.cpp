@@ -1529,7 +1529,7 @@ nsWyciwygChannel
 :
 GetContentLength
 (
-PRInt32
+PRInt64
 *
 aContentLength
 )
@@ -1544,7 +1544,7 @@ nsWyciwygChannel
 :
 SetContentLength
 (
-PRInt32
+PRInt64
 aContentLength
 )
 {
@@ -3170,16 +3170,6 @@ offset
 count
 )
 ;
-/
-/
-XXX
-handle
-64
--
-bit
-stuff
-for
-real
 if
 (
 mProgressSink
@@ -3211,10 +3201,7 @@ offset
 +
 count
 )
-PRUint64
-(
 mContentLength
-)
 )
 ;
 return
