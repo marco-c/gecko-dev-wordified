@@ -2955,7 +2955,7 @@ PR_FALSE
 virtual
 nsIAtom
 *
-GetID
+DoGetID
 (
 )
 const

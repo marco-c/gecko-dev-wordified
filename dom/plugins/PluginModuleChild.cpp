@@ -9730,10 +9730,6 @@ LPARAM
 lParam
 )
 {
-gDelayFlashFocusReplyUntilEval
-=
-false
-;
 /
 /
 Trap

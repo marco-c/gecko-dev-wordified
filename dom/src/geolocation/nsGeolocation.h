@@ -392,6 +392,12 @@ BLOCK
 *
 /
 #
+ifndef
+nsGeoLocation_h
+#
+define
+nsGeoLocation_h
+#
 ifdef
 MOZ_IPC
 #
@@ -1317,3 +1323,10 @@ mService
 ;
 }
 ;
+#
+endif
+/
+*
+nsGeoLocation_h
+*
+/
