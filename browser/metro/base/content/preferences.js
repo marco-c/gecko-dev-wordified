@@ -171,12 +171,6 @@ onShow
 false
 )
 ;
-MasterPasswordUI
-.
-updatePreference
-(
-)
-;
 }
 }
 false
