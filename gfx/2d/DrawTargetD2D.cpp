@@ -4466,7 +4466,7 @@ y
 /
 mSize
 .
-width
+height
 Float
 (
 aSurface
@@ -4797,7 +4797,7 @@ y
 /
 mSize
 .
-width
+height
 Float
 (
 aSurface
