@@ -268,7 +268,7 @@ Social
 .
 provider
 )
-openUILink
+openUILinkIn
 (
 Social
 .
@@ -277,6 +277,9 @@ provider
 profile
 .
 profileURL
+"
+tab
+"
 )
 ;
 }
