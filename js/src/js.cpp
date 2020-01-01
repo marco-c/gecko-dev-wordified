@@ -22525,8 +22525,8 @@ CheckHelpMessages
 )
 ;
 #
-ifndef
-WINCE
+ifdef
+HAVE_SETLOCALE
 setlocale
 (
 LC_ALL
