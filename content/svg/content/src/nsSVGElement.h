@@ -1091,6 +1091,12 @@ PRUint8
 aAttrEnum
 )
 ;
+virtual
+void
+DidAnimatePreserveAspectRatio
+(
+)
+;
 void
 GetAnimatedLengthValues
 (

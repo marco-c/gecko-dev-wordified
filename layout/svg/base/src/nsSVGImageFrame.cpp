@@ -1338,6 +1338,7 @@ nsSVGUtils
 :
 GetViewBoxTransform
 (
+element
 width
 height
 0

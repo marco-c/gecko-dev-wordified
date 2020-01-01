@@ -1645,6 +1645,14 @@ PRUint8
 aAttrEnum
 )
 ;
+virtual
+void
+DidAnimatePreserveAspectRatio
+(
+PRUint8
+aAttrEnum
+)
+;
 /
 /
 nsIDOMSVGFitlerPrimitiveStandardAttributes

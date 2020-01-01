@@ -1251,6 +1251,12 @@ PRBool
 aDoSetAttr
 )
 ;
+virtual
+void
+DidAnimatePreserveAspectRatio
+(
+)
+;
 /
 /
 nsSVGSVGElement

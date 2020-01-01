@@ -2813,6 +2813,7 @@ nsSVGUtils
 :
 GetViewBoxTransform
 (
+this
 viewportWidth
 viewportHeight
 viewbox

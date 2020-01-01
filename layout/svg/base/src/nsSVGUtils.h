@@ -2007,6 +2007,9 @@ static
 gfxMatrix
 GetViewBoxTransform
 (
+nsSVGElement
+*
+aElement
 float
 aViewportWidth
 float

@@ -5237,6 +5237,9 @@ nsSVGUtils
 :
 GetViewBoxTransform
 (
+nsSVGElement
+*
+aElement
 float
 aViewportWidth
 float
@@ -5298,6 +5301,7 @@ aPreserveAspectRatio
 .
 GetAnimValue
 (
+aElement
 )
 .
 GetAlign
@@ -5311,6 +5315,7 @@ aPreserveAspectRatio
 .
 GetAnimValue
 (
+aElement
 )
 .
 GetMeetOrSlice
