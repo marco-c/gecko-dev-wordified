@@ -697,7 +697,6 @@ login
 reason
 .
 passphrase
-.
 "
 LOGIN_FAILED_LOGIN_REJECTED
 :
