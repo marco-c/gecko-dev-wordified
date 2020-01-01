@@ -496,9 +496,6 @@ const
 GlobalObject
 &
 aGlobal
-JSContext
-*
-aCx
 const
 nsAString
 &
@@ -519,9 +516,6 @@ const
 GlobalObject
 &
 aGlobal
-JSContext
-*
-aCx
 const
 nsAString
 &
@@ -546,9 +540,6 @@ const
 GlobalObject
 &
 aGlobal
-JSContext
-*
-aCx
 const
 nsAString
 &

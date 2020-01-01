@@ -3367,9 +3367,6 @@ const
 GlobalObject
 &
 aGlobal
-JSContext
-*
-aCx
 const
 nsAString
 &
@@ -3392,7 +3389,6 @@ WebSocket
 Constructor
 (
 aGlobal
-aCx
 aUrl
 protocols
 aRv
@@ -3412,9 +3408,6 @@ const
 GlobalObject
 &
 aGlobal
-JSContext
-*
-aCx
 const
 nsAString
 &
@@ -3448,7 +3441,6 @@ WebSocket
 Constructor
 (
 aGlobal
-aCx
 aUrl
 protocols
 aRv
@@ -3468,9 +3460,6 @@ const
 GlobalObject
 &
 aGlobal
-JSContext
-*
-aCx
 const
 nsAString
 &
@@ -3773,7 +3762,11 @@ webSocket
 >
 Init
 (
-aCx
+aGlobal
+.
+GetContext
+(
+)
 principal
 ownerWindow
 aUrl
