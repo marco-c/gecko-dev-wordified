@@ -6059,7 +6059,7 @@ __cookieManager
 _createCommand
 :
 function
-HistStore__createCommand
+CookieStore__createCommand
 (
 command
 )
