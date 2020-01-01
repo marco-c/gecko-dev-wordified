@@ -3292,13 +3292,6 @@ return
 NS_OK
 ;
 }
-/
-*
-*
-nsIPrefBranch2
-methods
-*
-/
 NS_IMETHODIMP
 nsPrefBranch
 :

@@ -769,7 +769,7 @@ any
 are
 ignored
 .
-nsIPrefBranch2
+nsIPrefBranch
 *
 root
 =
