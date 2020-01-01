@@ -103,6 +103,17 @@ mozilla
 .
 gecko
 .
+animation
+.
+PropertyAnimator
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 db
 .
 BrowserContract

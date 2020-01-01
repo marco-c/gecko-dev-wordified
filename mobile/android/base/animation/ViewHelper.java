@@ -62,6 +62,8 @@ org
 mozilla
 .
 gecko
+.
+animation
 ;
 import
 android
