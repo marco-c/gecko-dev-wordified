@@ -13536,7 +13536,7 @@ NS_STYLE_CLIP_RECT
 &
 IsSVGContentWithCSSClip
 (
-this
+child
 )
 )
 |
