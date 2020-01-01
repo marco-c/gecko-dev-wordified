@@ -293,17 +293,21 @@ h
 '
     
 '
-nsIFile
-.
-h
-'
-    
-'
 mozilla
 /
 ipc
 /
 ProtocolUtils
+.
+h
+'
+)
+CppIncludes
+=
+(
+    
+'
+nsIFile
 .
 h
 '
