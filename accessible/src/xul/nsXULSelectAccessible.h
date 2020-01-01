@@ -877,6 +877,14 @@ aDesc
 )
 ;
 }
+NS_IMETHOD
+GetAllowsAnonChildAccessibles
+(
+PRBool
+*
+aAllowsAnonChildren
+)
+;
 private
 :
 PRBool
