@@ -3574,10 +3574,6 @@ needsBarrier
 )
 )
 ;
-LInstruction
-*
-barrier
-;
 switch
 (
 input
@@ -3596,6 +3592,9 @@ GCThings
 case
 MIRType_Value
 :
+{
+LInstruction
+*
 barrier
 =
 new
@@ -3625,6 +3624,7 @@ ins
 ;
 break
 ;
+}
 /
 /
 Known
