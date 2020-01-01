@@ -8499,7 +8499,6 @@ Vector
 <
 Jump
 8
-ContextAllocPolicy
 >
 JumpList
 ;
@@ -10208,7 +10207,6 @@ Vector
 <
 Jump
 8
-ContextAllocPolicy
 >
 fails
 (
@@ -11922,14 +11920,10 @@ obj
 Assembler
 masm
 ;
-js
-:
-:
 Vector
 <
 Jump
 8
-ContextAllocPolicy
 >
 fails
 (

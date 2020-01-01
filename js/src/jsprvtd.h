@@ -987,10 +987,7 @@ struct
 TokenPtr
 ;
 class
-ContextAllocPolicy
-;
-class
-SystemAllocPolicy
+TempAllocPolicy
 ;
 template
 <
@@ -1003,7 +1000,7 @@ MinInlineCapacity
 class
 AllocPolicy
 =
-ContextAllocPolicy
+TempAllocPolicy
 >
 class
 Vector
@@ -1031,7 +1028,7 @@ Key
 class
 AllocPolicy
 =
-ContextAllocPolicy
+TempAllocPolicy
 >
 class
 HashMap
@@ -1050,7 +1047,7 @@ T
 class
 AllocPolicy
 =
-ContextAllocPolicy
+TempAllocPolicy
 >
 class
 HashSet

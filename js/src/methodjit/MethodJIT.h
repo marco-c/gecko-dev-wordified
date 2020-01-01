@@ -1564,7 +1564,7 @@ class
 CompilerAllocPolicy
 :
 public
-ContextAllocPolicy
+TempAllocPolicy
 {
 bool
 *
@@ -1605,7 +1605,7 @@ bool
 oomFlag
 )
 :
-ContextAllocPolicy
+TempAllocPolicy
 (
 cx
 )
@@ -1636,7 +1636,7 @@ bytes
 return
 checkAlloc
 (
-ContextAllocPolicy
+TempAllocPolicy
 :
 :
 malloc_
@@ -1662,7 +1662,7 @@ bytes
 return
 checkAlloc
 (
-ContextAllocPolicy
+TempAllocPolicy
 :
 :
 realloc_

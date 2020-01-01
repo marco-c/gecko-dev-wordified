@@ -5392,13 +5392,6 @@ in
 jsalloc
 .
 h
-(
-default
-js
-:
-:
-ContextAllocPolicy
-)
 *
 *
 N
@@ -7242,13 +7235,6 @@ in
 jsalloc
 .
 h
-(
-default
-js
-:
-:
-ContextAllocPolicy
-)
 *
 *
 N

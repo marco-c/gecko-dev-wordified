@@ -443,7 +443,7 @@ js
 {
 void
 *
-ContextAllocPolicy
+TempAllocPolicy
 :
 :
 onOutOfMemory
@@ -471,7 +471,7 @@ cx
 ;
 }
 void
-ContextAllocPolicy
+TempAllocPolicy
 :
 :
 reportAllocOverflow
