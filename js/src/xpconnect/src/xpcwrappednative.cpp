@@ -19488,8 +19488,6 @@ nsCOMPtr
 nsIException
 >
 e
-=
-nsnull
 ;
 nsXPCException
 :
@@ -19520,8 +19518,6 @@ nsCOMPtr
 nsIStackFrame
 >
 loc
-=
-nsnull
 ;
 rv
 =
