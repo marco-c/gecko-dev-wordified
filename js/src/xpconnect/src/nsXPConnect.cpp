@@ -4992,9 +4992,17 @@ str
 NS_ConvertUTF16toUTF8
 fname
 (
+reinterpret_cast
+<
+const
+PRUnichar
+*
+>
+(
 JS_GetStringChars
 (
 str
+)
 )
 )
 ;
