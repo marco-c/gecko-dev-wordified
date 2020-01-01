@@ -2479,6 +2479,9 @@ order
 void
 InitLogicalArray
 (
+nsBlockInFlowLineIterator
+*
+aLineIter
 nsIFrame
 *
 aCurrentFrame
@@ -3371,6 +3374,13 @@ mLogicalFrames
 ;
 nsTArray
 <
+nsLineBox
+*
+>
+mLinePerFrame
+;
+nsTArray
+<
 nsIFrame
 *
 >
@@ -3410,12 +3420,6 @@ mPrevFrame
 nsIContent
 *
 mPrevContent
-;
-nsAutoPtr
-<
-nsBlockInFlowLineIterator
->
-mLineIter
 ;
 nsBidi
 *
