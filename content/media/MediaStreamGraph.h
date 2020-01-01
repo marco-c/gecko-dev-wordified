@@ -164,6 +164,13 @@ VideoSegment
 .
 h
 "
+#
+include
+"
+nsThreadUtils
+.
+h
+"
 class
 nsDOMMediaStream
 ;

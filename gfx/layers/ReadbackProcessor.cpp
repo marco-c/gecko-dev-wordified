@@ -97,6 +97,13 @@ ReadbackProcessor
 .
 h
 "
+#
+include
+"
+ReadbackLayer
+.
+h
+"
 namespace
 mozilla
 {

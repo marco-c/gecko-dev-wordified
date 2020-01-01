@@ -1348,9 +1348,11 @@ ImageLayer
 *
 >
 (
-GetLayerBuilderForManager
-(
 aManager
+-
+>
+GetLayerBuilder
+(
 )
 -
 >

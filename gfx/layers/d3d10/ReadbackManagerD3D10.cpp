@@ -107,6 +107,13 @@ h
 #
 include
 "
+ReadbackLayer
+.
+h
+"
+#
+include
+"
 nsIThread
 .
 h
