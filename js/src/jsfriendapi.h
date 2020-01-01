@@ -158,6 +158,15 @@ CallArgs
 .
 h
 "
+#
+include
+"
+js
+/
+CallNonGenericMethod
+.
+h
+"
 /
 *
 *
