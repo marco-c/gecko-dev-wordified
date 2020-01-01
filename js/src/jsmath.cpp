@@ -2924,9 +2924,9 @@ apparent
 _copysign
 bustage
 in
-VC6
-and
 VC7
+.
+x
 .
 *
 /
