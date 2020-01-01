@@ -6136,6 +6136,15 @@ rv
 rv
 )
 ;
+if
+(
+iid
+)
+NS_Free
+(
+iid
+)
+;
 str
 .
 SetIsVoid
