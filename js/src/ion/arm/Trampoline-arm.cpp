@@ -2452,12 +2452,6 @@ IonRuntime
 :
 generateInvalidator
 .
-AutoIonContextAlloc
-aica
-(
-cx
-)
-;
 MacroAssembler
 masm
 (
@@ -4584,6 +4578,9 @@ frameClass
 {
 MacroAssembler
 masm
+(
+cx
+)
 ;
 Label
 bailout
@@ -4654,6 +4651,9 @@ cx
 {
 MacroAssembler
 masm
+(
+cx
+)
 ;
 GenerateBailoutThunk
 (
@@ -4751,6 +4751,9 @@ wrapper
 .
 MacroAssembler
 masm
+(
+cx
+)
 ;
 GeneralRegisterSet
 regs
@@ -5620,6 +5623,9 @@ type
 {
 MacroAssembler
 masm
+(
+cx
+)
 ;
 RegisterSet
 save

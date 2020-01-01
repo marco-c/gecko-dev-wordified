@@ -10942,6 +10942,10 @@ prop
 =
 NULL
 ;
+prop
+=
+NULL
+;
 TRY_BRANCH_AFTER_COND
 (
 cond

@@ -5088,6 +5088,9 @@ shape
 {
 MacroAssembler
 masm
+(
+cx
+)
 ;
 RepatchLabel
 failures
@@ -5189,6 +5192,9 @@ returnAddr
 {
 MacroAssembler
 masm
+(
+cx
+)
 ;
 RepatchLabel
 failures
@@ -5362,6 +5368,9 @@ failures
 ;
 MacroAssembler
 masm
+(
+cx
+)
 ;
 /
 /
@@ -5717,6 +5726,9 @@ failures
 ;
 MacroAssembler
 masm
+(
+cx
+)
 ;
 Register
 tmpReg
@@ -7421,6 +7433,9 @@ shape
 {
 MacroAssembler
 masm
+(
+cx
+)
 ;
 RepatchLabel
 exit_
@@ -7684,6 +7699,9 @@ returnAddr
 {
 MacroAssembler
 masm
+(
+cx
+)
 ;
 /
 /
@@ -8815,6 +8833,9 @@ propShape
 {
 MacroAssembler
 masm
+(
+cx
+)
 ;
 Label
 failures
@@ -10497,6 +10518,9 @@ nonRepatchFailures
 ;
 MacroAssembler
 masm
+(
+cx
+)
 ;
 /
 /
@@ -10624,6 +10648,9 @@ failures
 ;
 MacroAssembler
 masm
+(
+cx
+)
 ;
 Register
 scratchReg
@@ -11097,6 +11124,9 @@ failures
 ;
 MacroAssembler
 masm
+(
+cx
+)
 ;
 /
 /
@@ -12218,6 +12248,9 @@ isGlobal
 ;
 MacroAssembler
 masm
+(
+cx
+)
 ;
 /
 /
@@ -12698,6 +12731,9 @@ scopeChain
 ;
 MacroAssembler
 masm
+(
+cx
+)
 ;
 /
 /
@@ -13281,6 +13317,9 @@ AssertCanGC
 ;
 MacroAssembler
 masm
+(
+cx
+)
 ;
 Label
 failures
@@ -13987,6 +14026,9 @@ clone
 {
 MacroAssembler
 masm
+(
+cx
+)
 ;
 /
 /
