@@ -1433,7 +1433,10 @@ Init
 (
 )
 ;
-InitProcessPriorityManager
+ProcessPriorityManager
+:
+:
+Init
 (
 )
 ;
