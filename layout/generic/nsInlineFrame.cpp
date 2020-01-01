@@ -8905,7 +8905,7 @@ optimized
 &
 aDesiredSize
 .
-mOverflowArea
+mOverflowAreas
 )
 ;
 }
