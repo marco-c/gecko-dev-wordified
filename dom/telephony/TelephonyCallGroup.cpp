@@ -161,12 +161,6 @@ mozilla
 :
 dom
 ;
-using
-mozilla
-:
-:
-ErrorResult
-;
 TelephonyCallGroup
 :
 :
