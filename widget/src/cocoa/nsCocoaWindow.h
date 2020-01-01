@@ -1289,14 +1289,6 @@ void
 )
 ;
 NS_IMETHOD
-AddEventListener
-(
-nsIEventListener
-*
-aListener
-)
-;
-NS_IMETHOD
 Enable
 (
 PRBool
