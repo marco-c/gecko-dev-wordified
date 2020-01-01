@@ -247,6 +247,10 @@ mozcrash
 '
             
 '
+mozfile
+'
+            
+'
 mozlog
 '
 ]
