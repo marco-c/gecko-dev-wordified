@@ -442,13 +442,6 @@ converters
 #
 include
 "
-jslibmath
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h
@@ -506,6 +499,13 @@ h
 include
 "
 jsbit
+.
+h
+"
+#
+include
+"
+jslibmath
 .
 h
 "
