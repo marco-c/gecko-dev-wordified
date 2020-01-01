@@ -772,10 +772,15 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMNavigatorSystemMessages
 )
+#
+ifdef
+MOZ_TIME_MANAGER
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMMozNavigatorTime
 )
+#
+endif
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
 Navigator
@@ -8662,6 +8667,9 @@ nsIDOMNavigatorTime
 *
 *
 *
+#
+ifdef
+MOZ_TIME_MANAGER
 NS_IMETHODIMP
 Navigator
 :
@@ -8723,6 +8731,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 /
 /
 *

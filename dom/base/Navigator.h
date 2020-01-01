@@ -584,8 +584,13 @@ public
 nsIDOMNavigatorCamera
 public
 nsIDOMNavigatorSystemMessages
+#
+ifdef
+MOZ_TIME_MANAGER
 public
 nsIDOMMozNavigatorTime
+#
+endif
 {
 public
 :
@@ -637,7 +642,12 @@ NS_DECL_NSIDOMNAVIGATORBLUETOOTH
 #
 endif
 NS_DECL_NSIDOMNAVIGATORSYSTEMMESSAGES
+#
+ifdef
+MOZ_TIME_MANAGER
 NS_DECL_NSIDOMMOZNAVIGATORTIME
+#
+endif
 static
 void
 Init

@@ -84,6 +84,9 @@ TimeManager
 .
 h
 "
+#
+ifdef
+MOZ_TIME_MANAGER
 DOMCI_DATA
 (
 MozTimeManager
@@ -98,6 +101,8 @@ time
 :
 TimeManager
 )
+#
+endif
 namespace
 mozilla
 {
@@ -119,10 +124,15 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsISupports
 )
+#
+ifdef
+MOZ_TIME_MANAGER
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
 MozTimeManager
 )
+#
+endif
 NS_INTERFACE_MAP_END
 NS_IMPL_ADDREF
 (
