@@ -7681,6 +7681,14 @@ JS_ASSERT_NOT_ON_TRACE
 cx
 )
 ;
+JS_ASSERT
+(
+cx
+-
+>
+fp
+)
+;
 JSObject
 *
 scobj
