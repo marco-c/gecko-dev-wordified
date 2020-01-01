@@ -18889,6 +18889,15 @@ update
 {
 if
 (
+!
+this
+.
+_enabled
+)
+return
+;
+if
+(
 update
 .
 errorCode
