@@ -3347,6 +3347,12 @@ nsStubMutationObserver
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+using
+nsINode
+:
+:
+GetScriptTypeID
+;
 virtual
 void
 Reset
