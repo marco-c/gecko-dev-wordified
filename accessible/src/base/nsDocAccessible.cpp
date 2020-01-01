@@ -7140,6 +7140,15 @@ nsAccessibilityAtoms
 :
 :
 aria_dropeffect
+|
+|
+aAttribute
+=
+=
+nsAccessibilityAtoms
+:
+:
+aria_hidden
 )
 {
 FireDelayedAccessibleEvent

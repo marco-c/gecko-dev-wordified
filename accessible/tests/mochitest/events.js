@@ -159,6 +159,13 @@ nsIAccessibleEvent
 EVENT_MENUPOPUP_END
 ;
 const
+EVENT_OBJECT_ATTRIBUTE_CHANGED
+=
+nsIAccessibleEvent
+.
+EVENT_OBJECT_ATTRIBUTE_CHANGED
+;
+const
 EVENT_REORDER
 =
 nsIAccessibleEvent
