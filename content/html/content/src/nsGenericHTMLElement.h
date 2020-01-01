@@ -7603,7 +7603,7 @@ very
 similar
 to
 NS_IMPL_URI_ATTR
-expected
+excepted
 that
 if
 the
