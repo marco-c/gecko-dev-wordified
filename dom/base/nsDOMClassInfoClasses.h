@@ -505,10 +505,6 @@ ChromeMessageSender
 )
 DOMCI_CLASS
 (
-IDBFileHandle
-)
-DOMCI_CLASS
-(
 IDBRequest
 )
 DOMCI_CLASS
