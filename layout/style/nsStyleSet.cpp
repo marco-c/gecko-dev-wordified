@@ -3290,9 +3290,6 @@ aParentContext
 aPseudoTag
 aPseudoType
 aRuleNode
-PresContext
-(
-)
 )
 ;
 if
@@ -3320,9 +3317,6 @@ parentIfVisited
 aPseudoTag
 aPseudoType
 aVisitedRuleNode
-PresContext
-(
-)
 )
 ;
 if

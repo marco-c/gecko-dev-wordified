@@ -307,9 +307,6 @@ aPseudoType
 nsRuleNode
 *
 aRuleNode
-nsPresContext
-*
-aPresContext
 )
 :
 mParent
@@ -523,7 +520,6 @@ endif
 }
 ApplyStyleFixups
 (
-aPresContext
 )
 ;
 #
@@ -1992,9 +1988,6 @@ nsStyleContext
 :
 ApplyStyleFixups
 (
-nsPresContext
-*
-aPresContext
 )
 {
 /
@@ -4899,9 +4892,6 @@ aPseudoType
 nsRuleNode
 *
 aRuleNode
-nsPresContext
-*
-aPresContext
 )
 {
 nsStyleContext
@@ -4910,7 +4900,12 @@ context
 =
 new
 (
-aPresContext
+aRuleNode
+-
+>
+GetPresContext
+(
+)
 )
 nsStyleContext
 (
@@ -4918,7 +4913,6 @@ aParentContext
 aPseudoTag
 aPseudoType
 aRuleNode
-aPresContext
 )
 ;
 if
