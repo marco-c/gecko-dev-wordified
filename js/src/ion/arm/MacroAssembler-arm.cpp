@@ -8742,13 +8742,6 @@ defined
 (
 IS_LITTLE_ENDIAN
 )
-&
-&
-!
-defined
-(
-FPU_IS_ARM_FPA
-)
 uint32_t
 lo
 hi
