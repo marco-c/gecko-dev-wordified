@@ -159,6 +159,11 @@ functions
 =
 *
 /
+const
+kDefaultWait
+=
+2000
+;
 /
 /
 Wait
@@ -236,7 +241,7 @@ now
 -
 timeout
 >
-1000
+kDefaultWait
 )
 throw
 "
@@ -347,7 +352,7 @@ now
 -
 timeout
 >
-1000
+kDefaultWait
 )
 {
 callback
