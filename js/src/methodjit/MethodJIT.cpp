@@ -4291,7 +4291,7 @@ JSC
 ARMRegisters
 :
 :
-r11
+r10
 )
 ;
 JS_STATIC_ASSERT
@@ -4782,7 +4782,7 @@ fp
 r1
 )
 in
-r11
+r10
 (
 JSFrameReg
 )
@@ -4791,7 +4791,7 @@ JSFrameReg
 /
 "
 mov
-r11
+r10
 r1
 "
 "
@@ -4895,7 +4895,7 @@ strd
 r4
 r5
 [
-r11
+r10
 #
 24
 ]
@@ -5288,9 +5288,9 @@ first
 /
 "
 ldr
-r11
+r10
 [
-r11
+r10
 #
 (
 4
@@ -5314,7 +5314,7 @@ prev_
 /
 "
 str
-r11
+r10
 [
 sp
 #
@@ -5453,7 +5453,7 @@ n
 "
 "
 ldr
-ip
+r10
 [
 sp
 #
@@ -5489,7 +5489,7 @@ ldrd
 r4
 r5
 [
-ip
+r10
 #
 (
 4

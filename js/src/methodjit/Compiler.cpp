@@ -32021,6 +32021,10 @@ inlineShapeJump
 ;
 #
 endif
+CHECK_IC_SPACE
+(
+)
+;
 pic
 .
 objReg
@@ -32837,6 +32841,10 @@ inlineShapeJump
 ;
 #
 endif
+CHECK_IC_SPACE
+(
+)
+;
 /
 *
 Adjust
@@ -33689,6 +33697,10 @@ pic
 objReg
 =
 objReg
+;
+CHECK_IC_SPACE
+(
+)
 ;
 /
 *
@@ -37685,6 +37697,10 @@ fastPathStart
 inlineJump
 )
 ;
+CHECK_IC_SPACE
+(
+)
+;
 /
 *
 *
@@ -38282,6 +38298,10 @@ pic
 fastPathStart
 inlineJump
 )
+)
+;
+CHECK_IC_SPACE
+(
 )
 ;
 frame
@@ -42496,6 +42516,10 @@ loadValueWithAddressOffsetPatch
 address
 treg
 dreg
+)
+;
+CHECK_IC_SPACE
+(
 )
 ;
 frame
