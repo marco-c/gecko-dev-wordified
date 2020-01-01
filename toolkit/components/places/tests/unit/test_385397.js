@@ -561,7 +561,7 @@ addVisit
 (
 aURI
 aWhen
-0
+null
 /
 /
 no

@@ -609,7 +609,7 @@ addVisit
 (
 aURI
 date
-0
+null
 /
 /
 no

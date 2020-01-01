@@ -567,7 +567,7 @@ Date
 now
 (
 )
-0
+null
 /
 /
 no
