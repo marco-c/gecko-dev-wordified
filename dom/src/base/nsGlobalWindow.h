@@ -928,6 +928,9 @@ nsDummyJavaPluginOwner
 #
 endif
 class
+PostMessageEvent
+;
+class
 nsDOMOfflineResourceList
 ;
 class
@@ -4520,6 +4523,10 @@ nsDOMScriptableHelper
 friend
 class
 nsDOMWindowUtils
+;
+friend
+class
+PostMessageEvent
 ;
 static
 nsIFactory

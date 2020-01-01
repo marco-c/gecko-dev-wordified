@@ -476,6 +476,12 @@ cross
 -
 document
 messaging
+and
+*
+server
+-
+sent
+events
 .
 *
 *
@@ -557,6 +563,9 @@ mData
 ;
 nsString
 mOrigin
+;
+nsString
+mLastEventId
 ;
 nsCOMPtr
 <

@@ -399,7 +399,7 @@ finish
 )
 ;
 }
-document
+window
 .
 addEventListener
 (

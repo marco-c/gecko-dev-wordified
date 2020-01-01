@@ -720,7 +720,7 @@ finish
 )
 ;
 }
-document
+window
 .
 addEventListener
 (
