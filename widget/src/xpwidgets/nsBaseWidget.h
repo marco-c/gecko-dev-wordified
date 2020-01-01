@@ -1141,7 +1141,7 @@ mLastRollup
 ;
 }
 virtual
-void
+nsresult
 SynthesizeNativeKeyEvent
 (
 PRInt32
@@ -1160,6 +1160,9 @@ nsAString
 aUnmodifiedCharacters
 )
 {
+return
+NS_ERROR_UNEXPECTED
+;
 }
 protected
 :

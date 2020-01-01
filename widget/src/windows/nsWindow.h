@@ -2464,7 +2464,7 @@ CanTakeFocus
 )
 ;
 virtual
-void
+nsresult
 SynthesizeNativeKeyEvent
 (
 PRInt32
