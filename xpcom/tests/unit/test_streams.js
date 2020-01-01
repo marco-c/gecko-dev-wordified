@@ -1045,6 +1045,8 @@ writeFloat
 5
 )
 ;
+/
+/
 os
 .
 writeDouble
@@ -1227,6 +1229,8 @@ readFloat
 5
 )
 ;
+/
+/
 do_check_eq
 (
 is
