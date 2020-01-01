@@ -268,7 +268,11 @@ h
 #
 include
 "
-nsSVGRect
+mozilla
+/
+dom
+/
+SVGRect
 .
 h
 "
@@ -23181,7 +23185,10 @@ NS_ADDREF
 aResult
 =
 new
-nsSVGRect
+dom
+:
+:
+SVGRect
 (
 r
 .

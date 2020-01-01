@@ -164,7 +164,11 @@ h
 #
 include
 "
-nsSVGRect
+mozilla
+/
+dom
+/
+SVGRect
 .
 h
 "

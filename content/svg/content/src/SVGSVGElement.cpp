@@ -221,7 +221,11 @@ XXX
 #
 include
 "
-nsSVGRect
+mozilla
+/
+dom
+/
+SVGRect
 .
 h
 "
