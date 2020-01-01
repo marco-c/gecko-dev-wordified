@@ -260,7 +260,7 @@ h
 #
 include
 "
-GonkIOSurfaceImage
+GrallocImages
 .
 h
 "
