@@ -1924,9 +1924,9 @@ pair
 void
 RecreateAccessible
 (
-nsINode
+nsIContent
 *
-aNode
+aContent
 )
 ;
 /
