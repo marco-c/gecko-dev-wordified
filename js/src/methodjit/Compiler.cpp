@@ -45386,7 +45386,7 @@ hasSlot
 )
 )
 {
-HeapValue
+HeapSlot
 *
 value
 =
@@ -46280,7 +46280,7 @@ watchGlobalReallocation
 (
 )
 ;
-HeapValue
+HeapSlot
 *
 value
 =

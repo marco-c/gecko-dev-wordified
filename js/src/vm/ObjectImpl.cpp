@@ -174,7 +174,7 @@ elements
 .
 *
 /
-HeapValue
+HeapSlot
 *
 js
 :
@@ -183,7 +183,7 @@ emptyObjectElements
 =
 reinterpret_cast
 <
-HeapValue
+HeapSlot
 *
 >
 (

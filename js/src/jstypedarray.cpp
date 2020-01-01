@@ -6531,7 +6531,7 @@ JSObject
 obj
 )
 {
-MarkValue
+MarkSlot
 (
 trc
 &

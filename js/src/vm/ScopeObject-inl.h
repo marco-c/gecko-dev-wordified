@@ -1216,7 +1216,7 @@ nvars
 ;
 }
 inline
-HeapValueArray
+HeapSlotArray
 CallObject
 :
 :
@@ -1248,7 +1248,7 @@ nargs
 )
 ;
 return
-HeapValueArray
+HeapSlotArray
 (
 getSlotAddress
 (
@@ -1258,7 +1258,7 @@ RESERVED_SLOTS
 ;
 }
 inline
-HeapValueArray
+HeapSlotArray
 CallObject
 :
 :
@@ -1301,7 +1301,7 @@ countVars
 )
 ;
 return
-HeapValueArray
+HeapSlotArray
 (
 getSlotAddress
 (
@@ -1396,7 +1396,7 @@ propertyCount
 ;
 }
 inline
-HeapValue
+HeapSlot
 &
 BlockObject
 :
@@ -1499,13 +1499,9 @@ isUndefined
 )
 )
 ;
-getReservedSlotRef
+initReservedSlot
 (
 DEPTH_SLOT
-)
-.
-init
-(
 PrivateUint32Value
 (
 depth
@@ -1546,6 +1542,8 @@ i
 .
 init
 (
+this
+i
 PrivateValue
 (
 def
@@ -1614,6 +1612,8 @@ i
 .
 init
 (
+this
+i
 PrivateValue
 (
 NULL

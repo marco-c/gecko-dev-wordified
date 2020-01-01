@@ -1213,7 +1213,7 @@ inline
 js
 :
 :
-HeapValueArray
+HeapSlotArray
 argArray
 (
 )
@@ -1222,7 +1222,7 @@ inline
 js
 :
 :
-HeapValueArray
+HeapSlotArray
 varArray
 (
 )
@@ -1525,7 +1525,7 @@ slotCount
 *
 /
 inline
-HeapValue
+HeapSlot
 &
 slotValue
 (

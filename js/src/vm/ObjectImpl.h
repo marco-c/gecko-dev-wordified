@@ -387,7 +387,7 @@ length
 )
 {
 }
-HeapValue
+HeapSlot
 *
 elements
 (
@@ -395,7 +395,7 @@ elements
 {
 return
 (
-HeapValue
+HeapSlot
 *
 )
 (
@@ -416,7 +416,7 @@ ObjectElements
 *
 fromElements
 (
-HeapValue
+HeapSlot
 *
 elems
 )
@@ -536,7 +536,7 @@ elements
 *
 /
 extern
-HeapValue
+HeapSlot
 *
 emptyObjectElements
 ;
@@ -1118,7 +1118,7 @@ prototype
 HeapPtrTypeObject
 type_
 ;
-HeapValue
+HeapSlot
 *
 slots
 ;
@@ -1131,7 +1131,7 @@ properties
 .
 *
 /
-HeapValue
+HeapSlot
 *
 elements
 ;
@@ -1361,7 +1361,7 @@ SLOT_CAPACITY_MIN
 =
 8
 ;
-HeapValue
+HeapSlot
 *
 fixedSlots
 (
@@ -1371,7 +1371,7 @@ const
 return
 reinterpret_cast
 <
-HeapValue
+HeapSlot
 *
 >
 (
@@ -1900,7 +1900,7 @@ elements
 ;
 }
 inline
-HeapValue
+HeapSlot
 *
 fixedElements
 (
