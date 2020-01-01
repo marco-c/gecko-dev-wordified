@@ -60130,9 +60130,9 @@ runtime
 >
 atomState
 .
-booleanAtoms
+typeAtoms
 [
-2
+JSTYPE_VOID
 ]
 )
 ;
