@@ -4097,7 +4097,7 @@ request
 the
 use
 of
-TeX
+STIX
 fonts
 you
 can
@@ -4120,7 +4120,7 @@ mo
 myfonts
 =
 "
-tex
+stix
 "
 >
 .
@@ -4140,7 +4140,7 @@ mo
 myfonts
 =
 "
-tex
+stix
 "
 ]
 :
@@ -4156,8 +4156,10 @@ font
 -
 family
 :
-CMSY10
-CMEX10
+STIXNonUnicode
+STIXSizeOneSym
+STIXSize1
+STIXGeneral
 ;
 }
 To
@@ -4165,7 +4167,7 @@ request
 the
 use
 of
-Mathematica
+Asana
 fonts
 you
 can
@@ -4188,7 +4190,7 @@ mo
 myfonts
 =
 "
-mathematica
+asana
 "
 >
 .
@@ -4208,7 +4210,7 @@ mo
 myfonts
 =
 "
-mathematica
+asana
 "
 ]
 :
@@ -4224,9 +4226,8 @@ font
 -
 family
 :
-Math1
-Math2
-Math4
+Asana
+Math
 ;
 }
 Of
