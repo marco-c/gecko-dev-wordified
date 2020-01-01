@@ -468,13 +468,6 @@ defined
 (
 XP_WIN
 )
-&
-&
-!
-defined
-(
-WINCE
-)
 #
 define
 CALL_SAFETY_ON
