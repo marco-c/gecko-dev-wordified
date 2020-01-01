@@ -5458,7 +5458,7 @@ PRUint8
 aBuf
 PRUint32
 aBufLength
-PRUnichar
+PRUint32
 aCh
 )
 {
@@ -5500,7 +5500,10 @@ MapCharToGlyphFormat4
 aBuf
 +
 offset
+PRUnichar
+(
 aCh
+)
 )
 :
 0
