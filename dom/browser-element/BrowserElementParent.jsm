@@ -2147,9 +2147,11 @@ event
 .
 if
 (
-detail
-.
+"
 _payload_
+"
+in
+detail
 )
 {
 detail
