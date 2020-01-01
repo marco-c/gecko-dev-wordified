@@ -7790,7 +7790,11 @@ fun
 this
 -
 >
-fun
+callee
+(
+)
+.
+toFunction
 (
 )
 ;
