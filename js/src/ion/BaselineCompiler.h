@@ -418,6 +418,11 @@ JSOP_FUNAPPLY
 \
 _
 (
+JSOP_NEW
+)
+\
+_
+(
 JSOP_RETURN
 )
 \
