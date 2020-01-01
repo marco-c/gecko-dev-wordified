@@ -249,13 +249,6 @@ h
 #
 include
 "
-HRTFDatabaseLoader
-.
-h
-"
-#
-include
-"
 FFTConvolver
 .
 h

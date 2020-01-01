@@ -297,6 +297,13 @@ include
 <
 algorithm
 >
+#
+include
+<
+stdio
+.
+h
+>
 namespace
 WebCore
 {

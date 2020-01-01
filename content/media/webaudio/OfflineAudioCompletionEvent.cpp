@@ -130,13 +130,6 @@ OfflineAudioCompletionEventBinding
 .
 h
 "
-#
-include
-"
-AudioContext
-.
-h
-"
 namespace
 mozilla
 {
