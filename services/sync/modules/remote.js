@@ -3203,8 +3203,6 @@ symkey
 yield
 this
 .
-_remote
-.
 keys
 .
 put
@@ -3215,6 +3213,7 @@ cb
 keys
 )
 ;
+yield
 this
 .
 snapshot
@@ -3229,6 +3228,7 @@ snapshot
 data
 )
 ;
+yield
 this
 .
 deltas
@@ -3366,6 +3366,7 @@ data
 null
 )
 {
+yield
 this
 .
 deltas
@@ -3376,8 +3377,6 @@ self
 .
 cb
 )
-;
-yield
 ;
 if
 (
@@ -3411,6 +3410,7 @@ push
 delta
 )
 ;
+yield
 this
 .
 deltas
@@ -3426,8 +3426,6 @@ deltas
 .
 data
 )
-;
-yield
 ;
 }
 appendDelta
