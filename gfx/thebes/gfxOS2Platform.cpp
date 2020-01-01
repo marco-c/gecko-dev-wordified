@@ -562,10 +562,7 @@ new
 gfxOS2Surface
 (
 aSize
-gfxASurface
-:
-:
-FormatFromContent
+OptimalFormatForContent
 (
 contentType
 )
@@ -590,10 +587,7 @@ new
 gfxImageSurface
 (
 aSize
-gfxASurface
-:
-:
-FormatFromContent
+OptimalFormatForContent
 (
 contentType
 )

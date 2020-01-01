@@ -1000,7 +1000,7 @@ IA2TextSegment
 aNewText
 )
 ;
-nsAccessibleTextBoundary
+AccessibleTextBoundary
 GetGeckoTextBoundary
 (
 enum

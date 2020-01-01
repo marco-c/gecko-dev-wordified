@@ -250,14 +250,14 @@ nsXFormsAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
 ;
 /
 /
-nsAccessible
+Accessible
 /
 /
 Returns
@@ -670,14 +670,14 @@ nsXFormsContainerAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -752,7 +752,7 @@ nsXFormsEditableAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -772,7 +772,7 @@ const
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 PRUint64
 NativeState
@@ -816,7 +816,7 @@ nsXFormsSelectableAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -846,7 +846,7 @@ SelectedItemCount
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 GetSelectedItem
 (
@@ -899,7 +899,7 @@ GetItemByIndex
 PRUint32
 *
 aIndex
-nsAccessible
+Accessible
 *
 aAccessible
 =
@@ -942,7 +942,7 @@ nsXFormsSelectableItemAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -956,7 +956,7 @@ aIndex
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Value

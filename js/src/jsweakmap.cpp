@@ -1619,7 +1619,7 @@ return
 true
 ;
 }
-RootedVarObject
+RootedObject
 arr
 (
 cx
@@ -2047,7 +2047,7 @@ isNative
 )
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -2064,7 +2064,7 @@ asGlobal
 )
 )
 ;
-RootedVarObject
+RootedObject
 weakMapProto
 (
 cx
@@ -2087,7 +2087,7 @@ weakMapProto
 return
 NULL
 ;
-RootedVarFunction
+RootedFunction
 ctor
 (
 cx

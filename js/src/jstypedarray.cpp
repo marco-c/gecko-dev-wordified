@@ -1540,7 +1540,7 @@ cx
 contents
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -1968,7 +1968,7 @@ return
 true
 ;
 }
-RootedVarObject
+RootedObject
 delegate
 (
 cx
@@ -2148,7 +2148,7 @@ obj_lookupGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -2184,7 +2184,7 @@ JSProperty
 propp
 )
 {
-RootedVarObject
+RootedObject
 delegate
 (
 cx
@@ -2355,7 +2355,7 @@ obj_lookupGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -2412,7 +2412,7 @@ byteLengthAtom
 return
 true
 ;
-RootGetterSetter
+AutoRooterGetterSetter
 gsRoot
 (
 cx
@@ -2423,7 +2423,7 @@ getter
 setter
 )
 ;
-RootedVarObject
+RootedObject
 delegate
 (
 cx
@@ -2488,7 +2488,7 @@ obj_defineGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -2528,7 +2528,7 @@ unsigned
 attrs
 )
 {
-RootGetterSetter
+AutoRooterGetterSetter
 gsRoot
 (
 cx
@@ -2539,7 +2539,7 @@ getter
 setter
 )
 ;
-RootedVarObject
+RootedObject
 delegate
 (
 cx
@@ -2604,7 +2604,7 @@ obj_defineGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -2639,7 +2639,7 @@ Value
 vp
 )
 {
-RootedVarObject
+RootedObject
 nobj
 (
 cx
@@ -2742,7 +2742,7 @@ Value
 vp
 )
 {
-RootedVarObject
+RootedObject
 nobj
 (
 cx
@@ -2858,7 +2858,7 @@ GetProperty
 cx
 nobj
 receiver
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -2890,14 +2890,14 @@ Value
 vp
 )
 {
-RootedVarObject
+RootedObject
 delegate
 (
 cx
 DelegateObject
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 getArrayBuffer
@@ -2960,7 +2960,7 @@ delegate
 DelegateObject
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 getArrayBuffer
@@ -3018,7 +3018,7 @@ obj_getGeneric
 cx
 obj
 receiver
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -3069,7 +3069,7 @@ byteLengthAtom
 return
 true
 ;
-RootedVarObject
+RootedObject
 delegate
 (
 cx
@@ -3254,7 +3254,7 @@ from
 the
 delegate
 .
-RootedVarObject
+RootedObject
 oldDelegateProto
 (
 cx
@@ -3343,7 +3343,7 @@ SetProto
 (
 cx
 obj
-RootedVarObject
+RootedObject
 (
 cx
 vp
@@ -3435,7 +3435,7 @@ obj_setGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -3468,7 +3468,7 @@ JSBool
 strict
 )
 {
-RootedVarObject
+RootedObject
 delegate
 (
 cx
@@ -3527,7 +3527,7 @@ obj_setGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -3586,7 +3586,7 @@ return
 true
 ;
 }
-RootedVarObject
+RootedObject
 delegate
 (
 cx
@@ -3641,7 +3641,7 @@ obj_getGenericAttributes
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -3671,7 +3671,7 @@ unsigned
 attrsp
 )
 {
-RootedVarObject
+RootedObject
 delegate
 (
 cx
@@ -3726,7 +3726,7 @@ obj_getGenericAttributes
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -3785,7 +3785,7 @@ return
 false
 ;
 }
-RootedVarObject
+RootedObject
 delegate
 (
 cx
@@ -3840,7 +3840,7 @@ obj_setGenericAttributes
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -3870,7 +3870,7 @@ unsigned
 attrsp
 )
 {
-RootedVarObject
+RootedObject
 delegate
 (
 cx
@@ -3925,7 +3925,7 @@ obj_setGenericAttributes
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -3985,7 +3985,7 @@ return
 true
 ;
 }
-RootedVarObject
+RootedObject
 delegate
 (
 cx
@@ -4038,7 +4038,7 @@ JSBool
 strict
 )
 {
-RootedVarObject
+RootedObject
 delegate
 (
 cx
@@ -4091,7 +4091,7 @@ JSBool
 strict
 )
 {
-RootedVarObject
+RootedObject
 delegate
 (
 cx
@@ -4204,25 +4204,18 @@ proto
 from
 this
 compartment
-GlobalObject
-*
-parent
-=
-GetCurrentGlobal
-(
-cx
-)
-;
-Root
+Rooted
 <
 GlobalObject
 *
 >
-parentRoot
+parent
 (
 cx
-&
-parent
+GetCurrentGlobal
+(
+cx
+)
 )
 ;
 JSObject
@@ -4236,7 +4229,7 @@ FindProto
 (
 cx
 clasp
-parentRoot
+parent
 &
 proto
 )
@@ -4871,7 +4864,7 @@ obj_lookupGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -5012,7 +5005,7 @@ obj_lookupGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -5155,7 +5148,7 @@ obj_getGenericAttributes
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -6306,7 +6299,7 @@ obj_getSpecial
 cx
 obj
 receiver
-RootedVar
+Rooted
 <
 SpecialId
 >
@@ -6362,7 +6355,7 @@ obj_getProperty
 cx
 obj
 receiver
-RootedVarPropertyName
+RootedPropertyName
 (
 cx
 atom
@@ -6960,7 +6953,7 @@ JSBool
 strict
 )
 {
-RootedVarObject
+RootedObject
 tarray
 (
 cx
@@ -7146,7 +7139,7 @@ obj_setGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -7177,7 +7170,7 @@ JSBool
 strict
 )
 {
-RootedVarObject
+RootedObject
 tarray
 (
 cx
@@ -7307,7 +7300,7 @@ obj_setGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -7408,7 +7401,7 @@ obj_defineGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -7492,7 +7485,7 @@ obj_defineGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -7956,7 +7949,7 @@ HandleObject
 proto
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -8549,7 +8542,7 @@ obj
 fromBuffer
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 &
@@ -8578,7 +8571,7 @@ args
 toInt32
 (
 )
-RootedVarObject
+RootedObject
 (
 cx
 &
@@ -8729,7 +8722,7 @@ return
 NULL
 ;
 }
-RootedVarObject
+RootedObject
 dataObj
 (
 cx
@@ -8944,7 +8937,7 @@ cx
 dataObj
 byteOffset
 length
-RootedVarObject
+RootedObject
 (
 cx
 )
@@ -9201,7 +9194,7 @@ vp
 bool
 ok
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -9226,7 +9219,7 @@ obj
 return
 ok
 ;
-RootedVarObject
+RootedObject
 tarray
 (
 cx
@@ -9392,7 +9385,7 @@ return
 false
 ;
 }
-RootedVarObject
+RootedObject
 arg0
 (
 cx
@@ -9406,7 +9399,7 @@ toObjectOrNull
 )
 )
 ;
-RootedVarObject
+RootedObject
 src
 (
 cx
@@ -10242,7 +10235,7 @@ int32_t
 nelements
 )
 {
-RootedVarObject
+RootedObject
 buffer
 (
 cx
@@ -10268,7 +10261,7 @@ cx
 buffer
 0
 nelements
-RootedVarObject
+RootedObject
 (
 cx
 NULL
@@ -10305,7 +10298,7 @@ len
 return
 NULL
 ;
-RootedVarObject
+RootedObject
 bufobj
 (
 cx
@@ -10324,7 +10317,7 @@ bufobj
 return
 NULL
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -10334,7 +10327,7 @@ cx
 bufobj
 0
 len
-RootedVarObject
+RootedObject
 (
 cx
 )
@@ -10489,7 +10482,7 @@ tarray
 )
 )
 ;
-RootedVarObject
+RootedObject
 bufobj
 (
 cx
@@ -10571,7 +10564,7 @@ cx
 bufobj
 byteOffset
 length
-RootedVarObject
+RootedObject
 (
 cx
 )
@@ -13111,7 +13104,7 @@ return
 false
 ;
 }
-RootedVar
+Rooted
 <
 ArrayBufferObject
 *
@@ -17063,7 +17056,7 @@ NativeType
 fromArray
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 other
@@ -17120,14 +17113,14 @@ NativeType
 fromBuffer
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 arrayBuffer
 )
 byteoffset
 length
-RootedVarObject
+RootedObject
 (
 cx
 )
@@ -17673,7 +17666,7 @@ GlobalObject
 global
 )
 {
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -17700,7 +17693,7 @@ proto
 return
 NULL
 ;
-RootedVarFunction
+RootedFunction
 ctor
 (
 cx
@@ -18024,7 +18017,7 @@ GlobalObject
 global
 )
 {
-RootedVarObject
+RootedObject
 arrayBufferProto
 (
 cx
@@ -18050,7 +18043,7 @@ arrayBufferProto
 return
 NULL
 ;
-RootedVarFunction
+RootedFunction
 ctor
 (
 cx
@@ -18702,7 +18695,7 @@ isNative
 )
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *

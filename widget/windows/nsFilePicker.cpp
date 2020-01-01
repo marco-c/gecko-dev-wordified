@@ -4665,10 +4665,7 @@ current
 (
 current
 +
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 current
 )
@@ -4681,10 +4678,7 @@ current
 =
 current
 +
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 current
 )

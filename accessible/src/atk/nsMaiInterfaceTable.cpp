@@ -121,7 +121,7 @@ h
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -186,7 +186,7 @@ gint
 aColumn
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -273,7 +273,7 @@ AtkObject
 *
 cellAtkObj
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject
@@ -309,7 +309,7 @@ gint
 aColumn
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -376,7 +376,7 @@ gint
 aIndex
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -469,7 +469,7 @@ gint
 aIndex
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -560,7 +560,7 @@ AtkTable
 aTable
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -650,7 +650,7 @@ AtkTable
 aTable
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -744,7 +744,7 @@ gint
 aColumn
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -840,7 +840,7 @@ gint
 aColumn
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -933,7 +933,7 @@ AtkTable
 aTable
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -970,7 +970,7 @@ table
 nsnull
 )
 ;
-nsAccessible
+Accessible
 *
 caption
 =
@@ -984,7 +984,7 @@ Caption
 return
 caption
 ?
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject
@@ -1008,7 +1008,7 @@ gint
 aColumn
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -1077,7 +1077,7 @@ nsnull
 )
 ;
 return
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 ReturnString
@@ -1098,7 +1098,7 @@ gint
 aColumn
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -1212,7 +1212,7 @@ nsIAccessibleRole
 ROLE_COLUMNHEADER
 )
 return
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject
@@ -1297,7 +1297,7 @@ nsnull
 )
 ;
 return
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject
@@ -1324,7 +1324,7 @@ gint
 aRow
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -1393,7 +1393,7 @@ nsnull
 )
 ;
 return
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 ReturnString
@@ -1414,7 +1414,7 @@ gint
 aRow
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -1528,7 +1528,7 @@ nsIAccessibleRole
 ROLE_ROWHEADER
 )
 return
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject
@@ -1613,7 +1613,7 @@ nsnull
 )
 ;
 return
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject
@@ -1712,7 +1712,7 @@ gint
 aSelected
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -1906,7 +1906,7 @@ gint
 aSelected
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -2098,7 +2098,7 @@ gint
 aColumn
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -2189,7 +2189,7 @@ gint
 aRow
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -2282,7 +2282,7 @@ gint
 aColumn
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =

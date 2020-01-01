@@ -128,7 +128,7 @@ class
 nsXULComboboxAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -144,7 +144,7 @@ nsXULComboboxAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -171,7 +171,7 @@ aName
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Description

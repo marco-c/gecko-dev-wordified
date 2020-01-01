@@ -5158,7 +5158,7 @@ startSide
 styleBorder
 -
 >
-GetActualBorderWidth
+GetComputedBorderWidth
 (
 startSide
 )
@@ -5494,7 +5494,7 @@ endSide
 styleBorder
 -
 >
-GetActualBorderWidth
+GetComputedBorderWidth
 (
 endSide
 )

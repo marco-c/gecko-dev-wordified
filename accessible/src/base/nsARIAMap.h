@@ -757,7 +757,7 @@ catch
 all
 logic
 in
-nsAccessible
+Accessible
 :
 :
 GetAttributes
@@ -827,7 +827,7 @@ for
 example
 usage
 in
-nsAccessible
+Accessible
 :
 :
 GetAttributes

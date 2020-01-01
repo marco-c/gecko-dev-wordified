@@ -2023,6 +2023,14 @@ memory
 '
 in
 err
+and
+'
+Assertion
+failure
+'
+not
+in
+err
     
 return
 True

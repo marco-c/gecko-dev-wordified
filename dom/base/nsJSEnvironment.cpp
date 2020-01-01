@@ -6120,7 +6120,11 @@ context
 mContext
 newDefaultJSOptions
 &
+(
 JSRUNOPTION_MASK
+|
+JSOPTION_ALLOW_XML
+)
 )
 ;
 /
@@ -6276,6 +6280,8 @@ sContextCount
 mDefaultJSOptions
 =
 JSOPTION_PRIVATE_IS_NSISUPPORTS
+|
+JSOPTION_ALLOW_XML
 ;
 mContext
 =

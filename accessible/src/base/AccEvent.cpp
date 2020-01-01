@@ -124,7 +124,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -443,7 +443,7 @@ AccEvent
 (
 PRUint32
 aEventType
-nsAccessible
+Accessible
 *
 aAccessible
 EIsFromUserInput
@@ -591,7 +591,7 @@ aIsFromUserInput
 AccEvent
 public
 methods
-nsAccessible
+Accessible
 *
 AccEvent
 :
@@ -645,7 +645,7 @@ return
 mNode
 ;
 }
-nsDocAccessible
+DocAccessible
 *
 AccEvent
 :
@@ -951,7 +951,7 @@ Release
 AccEvent
 protected
 methods
-nsAccessible
+Accessible
 *
 AccEvent
 :
@@ -966,7 +966,7 @@ if
 mNode
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -1451,7 +1451,7 @@ AccStateChangeEvent
 :
 AccStateChangeEvent
 (
-nsAccessible
+Accessible
 *
 aAccessible
 PRUint64
@@ -1589,7 +1589,7 @@ event
 is
 processed
 .
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -1843,7 +1843,7 @@ text
 change
 events
 in
-nsDocAccessible
+DocAccessible
 but
 /
 /
@@ -1949,7 +1949,7 @@ AccTextChangeEvent
 :
 AccTextChangeEvent
 (
-nsAccessible
+Accessible
 *
 aAccessible
 PRInt32
@@ -2259,7 +2259,7 @@ AccMutationEvent
 (
 PRUint32
 aEventType
-nsAccessible
+Accessible
 *
 aTarget
 nsINode
@@ -2448,7 +2448,7 @@ AccHideEvent
 :
 AccHideEvent
 (
-nsAccessible
+Accessible
 *
 aTarget
 nsINode
@@ -2694,7 +2694,7 @@ AccShowEvent
 :
 AccShowEvent
 (
-nsAccessible
+Accessible
 *
 aTarget
 nsINode
@@ -2883,7 +2883,7 @@ AccCaretMoveEvent
 :
 AccCaretMoveEvent
 (
-nsAccessible
+Accessible
 *
 aAccessible
 PRInt32
@@ -3131,10 +3131,10 @@ AccSelChangeEvent
 :
 AccSelChangeEvent
 (
-nsAccessible
+Accessible
 *
 aWidget
-nsAccessible
+Accessible
 *
 aItem
 SelChangeType
@@ -3382,7 +3382,7 @@ AccTableChangeEvent
 :
 AccTableChangeEvent
 (
-nsAccessible
+Accessible
 *
 aAccessible
 PRUint32
@@ -3606,7 +3606,7 @@ AccVCChangeEvent
 :
 AccVCChangeEvent
 (
-nsAccessible
+Accessible
 *
 aAccessible
 nsIAccessible

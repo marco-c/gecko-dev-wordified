@@ -143,7 +143,7 @@ ProgressMeterAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -159,7 +159,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIACCESSIBLEVALUE
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 Value
@@ -225,7 +225,7 @@ RadioButtonAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -252,7 +252,7 @@ aIndex
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :

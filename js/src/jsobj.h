@@ -728,7 +728,7 @@ LookupProperty
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -985,7 +985,7 @@ SetPropertyHelper
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -8004,7 +8004,7 @@ DefineNativeProperty
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -8090,7 +8090,7 @@ LookupPropertyWithFlags
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -8693,7 +8693,7 @@ GetMethod
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId

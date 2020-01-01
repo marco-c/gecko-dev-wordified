@@ -1694,10 +1694,7 @@ domainLen
 =
 domain
 ?
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 domain
 )
@@ -1709,10 +1706,7 @@ userLen
 =
 user
 ?
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 user
 )
@@ -1724,10 +1718,7 @@ passLen
 =
 pass
 ?
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 pass
 )

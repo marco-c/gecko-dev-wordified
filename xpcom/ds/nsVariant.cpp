@@ -2627,10 +2627,7 @@ Clone
 (
 str
 (
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 str
 )
@@ -9183,10 +9180,7 @@ return
 SetFromWStringWithSize
 (
 data
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 aValue
 )

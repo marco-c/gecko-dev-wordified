@@ -3886,17 +3886,6 @@ cx
 obj
 )
 ;
-#
-ifdef
-DEBUG
-JSObject
-*
-startingObj
-=
-obj
-;
-#
-endif
 obj
 =
 JS_GetGlobalForObject

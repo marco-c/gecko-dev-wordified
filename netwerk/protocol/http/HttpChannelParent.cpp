@@ -1101,6 +1101,10 @@ const
 bool
 &
 allowSpdy
+const
+bool
+&
+usingPrivateBrowsing
 )
 {
 nsCOMPtr
@@ -1691,6 +1695,14 @@ true
 }
 }
 }
+httpChan
+-
+>
+OverridePrivateBrowsing
+(
+usingPrivateBrowsing
+)
+;
 rv
 =
 httpChan

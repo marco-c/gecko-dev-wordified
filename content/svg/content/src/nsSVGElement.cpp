@@ -210,13 +210,6 @@ h
 #
 include
 "
-nsIXBLService
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

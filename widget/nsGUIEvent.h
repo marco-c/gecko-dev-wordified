@@ -271,7 +271,7 @@ PPluginInstanceChild
 ifdef
 ACCESSIBILITY
 class
-nsAccessible
+Accessible
 ;
 #
 endif
@@ -5568,7 +5568,7 @@ nsnull
 )
 {
 }
-nsAccessible
+Accessible
 *
 mAccessible
 ;

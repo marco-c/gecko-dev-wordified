@@ -508,7 +508,7 @@ nsISupports
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 RootAccessible
-nsDocAccessible
+DocAccessible
 nsIAccessibleDocument
 )
 /
@@ -612,7 +612,7 @@ nsIPresShell
 aPresShell
 )
 :
-nsDocAccessibleWrap
+DocAccessibleWrap
 (
 aDocument
 aRootContent
@@ -716,7 +716,7 @@ RootAccessible
 /
 /
 /
-nsAccessible
+Accessible
 ENameValueFlag
 RootAccessible
 :
@@ -739,7 +739,7 @@ if
 mRoleMapEntry
 )
 {
-nsAccessible
+Accessible
 :
 :
 Name
@@ -872,7 +872,7 @@ roles
 DIALOG
 ;
 return
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 NativeRole
@@ -1026,7 +1026,7 @@ NativeState
 PRUint64
 state
 =
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 NativeState
@@ -1501,7 +1501,7 @@ this
 ;
 }
 return
-nsDocAccessible
+DocAccessible
 :
 :
 AddEventListeners
@@ -1612,7 +1612,7 @@ accessible
 s
 selection
 listener
-nsDocAccessible
+DocAccessible
 :
 :
 RemoveEventListeners
@@ -1742,7 +1742,7 @@ RootAccessible
 :
 DocumentActivated
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 )
@@ -1891,7 +1891,7 @@ origTargetNode
 return
 NS_OK
 ;
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -2184,7 +2184,7 @@ origTargetNode
 return
 ;
 }
-nsDocAccessible
+DocAccessible
 *
 targetDocument
 =
@@ -2219,7 +2219,7 @@ document
 "
 )
 ;
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -2517,7 +2517,7 @@ accEvent
 return
 ;
 }
-nsAccessible
+Accessible
 *
 treeItemAcc
 =
@@ -3032,7 +3032,7 @@ for
 tree
 accessible
 .
-nsAccessible
+Accessible
 *
 widget
 =
@@ -3201,7 +3201,7 @@ menuitem
 is
 set
 .
-nsAccessible
+Accessible
 *
 activeItem
 =
@@ -3464,7 +3464,7 @@ return
 /
 Already
 shutdown
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 Shutdown
@@ -3501,7 +3501,7 @@ nsIAccessibleRelation
 RELATION_EMBEDS
 )
 return
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 RelationByType
@@ -3580,7 +3580,7 @@ if
 contentDocumentNode
 )
 {
-nsDocAccessible
+DocAccessible
 *
 contentDocument
 =
@@ -3703,7 +3703,7 @@ RootAccessible
 :
 HandlePopupShownEvent
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -3870,7 +3870,7 @@ comboboxes
 and
 autocompeletes
 .
-nsAccessible
+Accessible
 *
 combobox
 =
@@ -3999,7 +3999,7 @@ is
 autocomplete
 popups
 .
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -4018,7 +4018,7 @@ document
 )
 return
 ;
-nsAccessible
+Accessible
 *
 popup
 =
@@ -4036,7 +4036,7 @@ if
 popup
 )
 {
-nsAccessible
+Accessible
 *
 popupContainer
 =
@@ -4055,19 +4055,19 @@ popupContainer
 )
 return
 ;
-PRInt32
+PRUint32
 childCount
 =
 popupContainer
 -
 >
-GetChildCount
+ChildCount
 (
 )
 ;
 for
 (
-PRInt32
+PRUint32
 idx
 =
 0
@@ -4081,7 +4081,7 @@ idx
 +
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -4288,7 +4288,7 @@ the
 former
 case
 .
-nsAccessible
+Accessible
 *
 widget
 =
@@ -4461,7 +4461,7 @@ part
 of
 autocomplete
 .
-nsAccessible
+Accessible
 *
 compositeWidget
 =

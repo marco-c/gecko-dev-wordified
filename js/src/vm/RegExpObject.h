@@ -373,7 +373,7 @@ JSContext
 *
 cx
 ;
-RootedVar
+Rooted
 <
 RegExpObject
 *

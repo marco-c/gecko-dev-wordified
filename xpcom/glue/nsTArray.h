@@ -6191,7 +6191,7 @@ variation
 on
 the
 InsertElementSorted
-metod
+method
 defined
 above
 .

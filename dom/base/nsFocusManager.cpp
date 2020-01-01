@@ -15427,6 +15427,14 @@ else
 #
 ifdef
 MOZ_XUL
+if
+(
+aType
+!
+=
+MOVEFOCUS_CARET
+)
+{
 /
 /
 if
@@ -15473,6 +15481,7 @@ GetTopPopup
 ePopupTypePanel
 )
 ;
+}
 #
 endif
 if

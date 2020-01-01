@@ -442,7 +442,7 @@ rv
 HRESULT
 hr
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 ConvertToIA2Attributes
@@ -1411,7 +1411,7 @@ text
 }
 else
 {
-nsAccessibleTextBoundary
+AccessibleTextBoundary
 boundaryType
 =
 GetGeckoTextBoundary
@@ -1647,7 +1647,7 @@ text
 }
 else
 {
-nsAccessibleTextBoundary
+AccessibleTextBoundary
 boundaryType
 =
 GetGeckoTextBoundary
@@ -1883,7 +1883,7 @@ text
 }
 else
 {
-nsAccessibleTextBoundary
+AccessibleTextBoundary
 boundaryType
 =
 GetGeckoTextBoundary
@@ -2712,7 +2712,7 @@ S_OK
 E_OUTOFMEMORY
 ;
 }
-nsAccessibleTextBoundary
+AccessibleTextBoundary
 CAccessibleText
 :
 :

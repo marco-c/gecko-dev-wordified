@@ -345,7 +345,7 @@ nsAccessNode
 /
 /
 /
-nsAccessible
+AccessNode
 .
 nsISupports
 NS_IMPL_CYCLE_COLLECTION_1
@@ -467,7 +467,7 @@ nsAccessNode
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -954,7 +954,7 @@ return
 nsnull
 ;
 }
-nsDocAccessible
+DocAccessible
 *
 docAcc
 =

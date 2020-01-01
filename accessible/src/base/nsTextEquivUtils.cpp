@@ -268,7 +268,7 @@ nsTextEquivUtils
 :
 GetNameFromSubtree
 (
-nsAccessible
+Accessible
 *
 aAccessible
 nsAString
@@ -384,7 +384,7 @@ nsTextEquivUtils
 :
 GetTextEquivFromIDRefs
 (
-nsAccessible
+Accessible
 *
 aAccessible
 nsIAtom
@@ -495,7 +495,7 @@ nsTextEquivUtils
 :
 AppendTextEquivFromContent
 (
-nsAccessible
+Accessible
 *
 aInitiatorAcc
 nsIContent
@@ -608,7 +608,7 @@ if
 isVisible
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -1081,7 +1081,7 @@ Private
 .
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 nsTextEquivUtils
 :
@@ -1094,7 +1094,7 @@ nsTextEquivUtils
 :
 AppendFromAccessibleChildren
 (
-nsAccessible
+Accessible
 *
 aAccessible
 nsAString
@@ -1107,19 +1107,19 @@ rv
 =
 NS_OK_NO_NAME_CLAUSE_HANDLED
 ;
-PRInt32
+PRUint32
 childCount
 =
 aAccessible
 -
 >
-GetChildCount
+ChildCount
 (
 )
 ;
 for
 (
-PRInt32
+PRUint32
 childIdx
 =
 0
@@ -1133,7 +1133,7 @@ childIdx
 +
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -1170,7 +1170,7 @@ nsTextEquivUtils
 :
 AppendFromAccessible
 (
-nsAccessible
+Accessible
 *
 aAccessible
 nsAString
@@ -1456,7 +1456,7 @@ nsTextEquivUtils
 :
 AppendFromValue
 (
-nsAccessible
+Accessible
 *
 aAccessible
 nsAString

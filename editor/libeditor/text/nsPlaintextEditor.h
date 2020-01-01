@@ -245,6 +245,7 @@ TypedText
 *
 /
 enum
+ETypingAction
 {
 eTypedText
 /
@@ -764,7 +765,7 @@ const
 nsAString
 &
 aString
-PRInt32
+ETypingAction
 aAction
 )
 ;

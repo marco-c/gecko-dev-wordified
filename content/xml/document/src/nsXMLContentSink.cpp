@@ -7830,10 +7830,7 @@ rv
 HandleCharacterData
 (
 aErrorText
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 aErrorText
 )
@@ -7903,10 +7900,7 @@ rv
 HandleCharacterData
 (
 aSourceText
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 aSourceText
 )

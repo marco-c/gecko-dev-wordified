@@ -133,7 +133,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -141,13 +141,6 @@ h
 include
 "
 nsEventShell
-.
-h
-"
-#
-include
-"
-nsTextAccessible
 .
 h
 "
@@ -162,6 +155,13 @@ h
 include
 "
 Role
+.
+h
+"
+#
+include
+"
+TextLeafAccessible
 .
 h
 "
@@ -393,7 +393,7 @@ NotificationController
 :
 NotificationController
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsIPresShell
@@ -622,7 +622,7 @@ get
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSTARRAY_MEMBER
 (
 mHangingChildDocuments
-nsDocAccessible
+DocAccessible
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSTARRAY_MEMBER
 (
@@ -949,7 +949,7 @@ NotificationController
 :
 ScheduleChildDocBinding
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 )
@@ -982,7 +982,7 @@ NotificationController
 :
 ScheduleContentInsertion
 (
-nsAccessible
+Accessible
 *
 aContainer
 nsIContent
@@ -1235,7 +1235,7 @@ mDocument
 >
 HasLoadState
 (
-nsDocAccessible
+DocAccessible
 :
 :
 eTreeConstructed
@@ -1430,7 +1430,7 @@ mDocument
 >
 HasLoadState
 (
-nsDocAccessible
+DocAccessible
 :
 :
 eTreeConstructed
@@ -1777,7 +1777,7 @@ idx
 +
 )
 {
-nsDocAccessible
+DocAccessible
 *
 childDoc
 =
@@ -1824,7 +1824,7 @@ if
 ownerContent
 )
 {
-nsAccessible
+Accessible
 *
 outerDocAcc
 =
@@ -1926,7 +1926,7 @@ mDocument
 >
 HasLoadState
 (
-nsDocAccessible
+DocAccessible
 :
 :
 eReady
@@ -1939,7 +1939,7 @@ mDocument
 >
 HasLoadState
 (
-nsDocAccessible
+DocAccessible
 :
 :
 eCompletelyLoaded
@@ -1977,7 +1977,7 @@ childDocIdx
 +
 )
 {
-nsDocAccessible
+DocAccessible
 *
 childDoc
 =
@@ -1997,7 +1997,7 @@ childDoc
 >
 HasLoadState
 (
-nsDocAccessible
+DocAccessible
 :
 :
 eCompletelyLoaded
@@ -2221,7 +2221,7 @@ AccEvent
 eDoNotEmit
 )
 {
-nsAccessible
+Accessible
 *
 target
 =
@@ -2428,7 +2428,7 @@ mDocument
 >
 HasLoadState
 (
-nsDocAccessible
+DocAccessible
 :
 :
 eCompletelyLoaded
@@ -4679,7 +4679,7 @@ AccMutationEvent
 aEvent
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -4690,7 +4690,7 @@ GetDocAccessible
 (
 )
 ;
-nsAccessible
+Accessible
 *
 container
 =
@@ -4979,13 +4979,13 @@ void
 aUserArg
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
 static_cast
 <
-nsDocAccessible
+DocAccessible
 *
 >
 (
@@ -5003,7 +5003,7 @@ GetKey
 (
 )
 ;
-nsAccessible
+Accessible
 *
 textAcc
 =
@@ -5623,7 +5623,7 @@ accessible
 document
 still
 .
-nsAccessible
+Accessible
 *
 container
 =
@@ -5785,10 +5785,10 @@ ContentInsertion
 :
 ContentInsertion
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
-nsAccessible
+Accessible
 *
 aContainer
 )

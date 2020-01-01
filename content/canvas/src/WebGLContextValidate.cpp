@@ -397,7 +397,7 @@ else
 mContext
 -
 >
-ErrorInvalidOperation
+GenerateWarning
 (
 "
 program
@@ -455,7 +455,7 @@ WebGLContext
 :
 ValidateBuffers
 (
-PRInt32
+int32_t
 *
 maxAllowedCount
 const
@@ -541,7 +541,7 @@ maxAllowedCount
 -
 1
 ;
-PRUint32
+uint32_t
 attribs
 =
 mAttribBuffers
@@ -552,7 +552,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1546,7 +1546,7 @@ info
 )
 {
 const
-PRUint32
+uint32_t
 maxSize
 =
 256
@@ -1633,7 +1633,7 @@ info
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2248,6 +2248,7 @@ maximum
 texture
 size
 "
+info
 )
 ;
 return
@@ -2281,6 +2282,7 @@ be
 =
 0
 "
+info
 )
 ;
 return
@@ -2313,6 +2315,7 @@ maximum
 texture
 size
 "
+info
 )
 ;
 return
@@ -2323,7 +2326,7 @@ return
 true
 ;
 }
-PRUint32
+uint32_t
 WebGLContext
 :
 :
@@ -2470,7 +2473,7 @@ WebGLenum
 type
 int
 jsArrayType
-PRUint32
+uint32_t
 *
 texelSize
 const
@@ -3139,7 +3142,7 @@ error
 LOCAL_GL_NO_ERROR
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 GL
@@ -3311,7 +3314,7 @@ mGLMaxVertexAttribs
 8
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 GL_MAX_VERTEX_ATTRIBS
@@ -3402,7 +3405,7 @@ mGLMaxTextureUnits
 8
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS
@@ -3678,7 +3681,7 @@ error
 LOCAL_GL_NO_ERROR
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 GL
@@ -3812,7 +3815,7 @@ break
 ;
 default
 :
-LogMessage
+GenerateWarning
 (
 "
 GL
@@ -4152,7 +4155,7 @@ ShInitialize
 )
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 GLSL
@@ -4227,7 +4230,7 @@ error
 LOCAL_GL_NO_ERROR
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 GL

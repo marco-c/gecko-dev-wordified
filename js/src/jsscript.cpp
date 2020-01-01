@@ -732,7 +732,7 @@ nargs
 nvars
 ;
 }
-RootedVarId
+RootedId
 id
 (
 cx
@@ -1098,7 +1098,7 @@ properties
 .
 *
 /
-RootedVarShape
+RootedShape
 shape
 (
 cx
@@ -2457,7 +2457,7 @@ cx
 Bindings
 :
 :
-StackRoot
+AutoRooter
 bindingsRoot
 (
 cx
@@ -2838,7 +2838,7 @@ maybeAtom
 continue
 ;
 }
-RootedVarAtom
+RootedAtom
 name
 (
 cx
@@ -8264,7 +8264,7 @@ mainLength
 prologLength
 nfixed
 ;
-RootedVar
+Rooted
 <
 JSScript
 *
@@ -11788,7 +11788,7 @@ bindings
 add
 (
 cx
-RootedVarAtom
+RootedAtom
 (
 cx
 atom
@@ -13440,7 +13440,7 @@ ifdef
 JS_METHODJIT
 if
 (
-hasJITCode
+hasJITInfo
 (
 )
 )
@@ -14651,7 +14651,7 @@ JSScript
 script_
 )
 {
-RootedVar
+Rooted
 <
 JSScript
 *
@@ -15110,7 +15110,7 @@ if
 script
 -
 >
-hasJITCode
+hasJITInfo
 (
 )
 )

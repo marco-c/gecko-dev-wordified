@@ -196,9 +196,6 @@ class
 nsSupportsHashtable
 ;
 class
-nsIXBLService
-;
-class
 nsFixedSizeAllocator
 ;
 class

@@ -1716,10 +1716,7 @@ aLength
 {
 aLength
 =
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 aText
 )

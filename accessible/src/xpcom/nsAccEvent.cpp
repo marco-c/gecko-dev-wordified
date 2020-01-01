@@ -110,7 +110,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "

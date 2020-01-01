@@ -6119,7 +6119,7 @@ resetCompartment
 (
 )
 {
-RootedVarObject
+RootedObject
 scopeobj
 (
 this

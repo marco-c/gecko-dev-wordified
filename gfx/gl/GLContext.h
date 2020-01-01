@@ -5133,7 +5133,7 @@ range
 *
 precision
 =
-0
+23
 ;
 break
 ;

@@ -1188,10 +1188,8 @@ accesskey
 return
 0
 ;
-nsCOMPtr
-<
 nsIPresShell
->
+*
 presShell
 =
 aContent

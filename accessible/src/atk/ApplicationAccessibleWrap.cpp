@@ -2666,7 +2666,7 @@ this
 )
 )
 ;
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 ShutdownAtkObject
@@ -2814,7 +2814,7 @@ to
 app
 accessible
 tree
-nsAccessible
+Accessible
 *
 windowAcc
 =
@@ -2853,13 +2853,13 @@ Deattach
 the
 dialog
 accessible
-nsAccessible
+Accessible
 *
 windowAcc
 =
 reinterpret_cast
 <
-nsAccessible
+Accessible
 *
 >
 (
@@ -3642,7 +3642,7 @@ ApplicationAccessibleWrap
 :
 AppendChild
 (
-nsAccessible
+Accessible
 *
 aChild
 )
@@ -3665,7 +3665,7 @@ AtkObject
 *
 atkAccessible
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject
@@ -3780,7 +3780,7 @@ ApplicationAccessibleWrap
 :
 RemoveChild
 (
-nsAccessible
+Accessible
 *
 aChild
 )
@@ -3799,7 +3799,7 @@ AtkObject
 *
 atkAccessible
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject

@@ -3284,6 +3284,11 @@ HeapCommitted
 ;
 REGISTER
 (
+HeapCommittedUnused
+)
+;
+REGISTER
+(
 HeapCommittedUnusedRatio
 )
 ;

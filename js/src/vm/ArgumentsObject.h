@@ -962,9 +962,9 @@ createUnexpected
 JSContext
 *
 cx
-StackIter
-&
-iter
+StackFrame
+*
+fp
 )
 ;
 /

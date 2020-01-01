@@ -983,6 +983,7 @@ XRE_main
 argc
 argv
 appData
+0
 )
 ;
 XRE_FreeAppData
@@ -1001,6 +1002,7 @@ argc
 argv
 &
 sAppData
+0
 )
 ;
 }

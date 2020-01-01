@@ -800,10 +800,15 @@ cairo_win32_surface_create_with_dib
 (
 cairo_format_t
 (
-gfxASurface
+gfxPlatform
 :
 :
-FormatFromContent
+GetPlatform
+(
+)
+-
+>
+OptimalFormatForContent
 (
 aContent
 )

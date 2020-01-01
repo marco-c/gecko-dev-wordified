@@ -585,7 +585,7 @@ byteLength
 INT32_MAX
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx

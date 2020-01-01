@@ -102,7 +102,7 @@ MOZILLA_A11Y_OUTERDOCACCESSIBLE_H_
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -153,7 +153,7 @@ as
 opposed
 to
 the
-nsDocAccessibleWrap
+DocAccessibleWrap
 which
 is
 "
@@ -189,7 +189,7 @@ class
 OuterDocAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -198,7 +198,7 @@ OuterDocAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -251,7 +251,7 @@ Shutdown
 ;
 /
 /
-nsAccessible
+Accessible
 virtual
 mozilla
 :
@@ -274,7 +274,7 @@ aAttributes
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 ChildAtPoint
 (
@@ -296,7 +296,7 @@ virtual
 bool
 AppendChild
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -305,7 +305,7 @@ virtual
 bool
 RemoveChild
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -323,7 +323,7 @@ protected
 :
 /
 /
-nsAccessible
+Accessible
 virtual
 void
 CacheChildren

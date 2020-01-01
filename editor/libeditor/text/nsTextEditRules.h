@@ -338,7 +338,7 @@ aDirection
 NS_IMETHOD
 WillDoAction
 (
-nsISelection
+nsTypedSelection
 *
 aSelection
 nsRulesInfo

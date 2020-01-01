@@ -1066,7 +1066,10 @@ return
 code
         
 return
+int
+(
 return_code
+)
     
 return
 None

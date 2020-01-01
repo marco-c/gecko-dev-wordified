@@ -114,10 +114,10 @@ nsIContent
 h
 "
 class
-nsAccessible
+Accessible
 ;
 class
-nsDocAccessible
+DocAccessible
 ;
 struct
 WalkState
@@ -149,7 +149,7 @@ public
 :
 nsAccTreeWalker
 (
-nsDocAccessible
+DocAccessible
 *
 aDoc
 nsIContent
@@ -212,8 +212,7 @@ document
 .
 *
 /
-inline
-nsAccessible
+Accessible
 *
 NextChild
 (
@@ -271,7 +270,7 @@ children
 .
 *
 /
-nsAccessible
+Accessible
 *
 NextChildInternal
 (
@@ -345,7 +344,7 @@ PopState
 (
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 mDoc
 ;

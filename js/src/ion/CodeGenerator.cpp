@@ -6124,7 +6124,7 @@ ool
 return
 false
 ;
-RootedVarObject
+RootedObject
 templateObject
 (
 gen
@@ -6472,7 +6472,7 @@ output
 )
 )
 ;
-RootedVarObject
+RootedObject
 baseObj
 (
 gen
@@ -6569,7 +6569,7 @@ ool
 return
 false
 ;
-RootedVarObject
+RootedObject
 templateObject
 (
 gen
@@ -7086,7 +7086,7 @@ ool
 return
 false
 ;
-RootedVarObject
+RootedObject
 templateObject
 (
 gen

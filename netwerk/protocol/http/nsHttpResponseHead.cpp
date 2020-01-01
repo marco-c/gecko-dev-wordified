@@ -1178,9 +1178,12 @@ OK
 else
 mStatusText
 =
+nsDependentCString
+(
 +
 +
 line
+)
 ;
 }
 LOG
@@ -1546,6 +1549,7 @@ PRUint32
 *
 result
 )
+const
 {
 PRUint32
 dateValue
@@ -1786,6 +1790,7 @@ PRUint32
 *
 result
 )
+const
 {
 *
 result
@@ -2107,6 +2112,7 @@ nsHttpResponseHead
 MustValidate
 (
 )
+const
 {
 LOG
 (
@@ -2492,6 +2498,7 @@ nsHttpResponseHead
 MustValidateIfExpired
 (
 )
+const
 {
 /
 /
@@ -2578,6 +2585,7 @@ nsHttpResponseHead
 IsResumable
 (
 )
+const
 {
 /
 /
@@ -2672,6 +2680,7 @@ nsHttpResponseHead
 ExpiresInPast
 (
 )
+const
 {
 PRUint32
 maxAgeVal
@@ -2741,6 +2750,7 @@ nsHttpResponseHead
 :
 UpdateHeaders
 (
+const
 nsHttpHeaderArray
 &
 headers
@@ -3202,6 +3212,7 @@ PRUint32
 *
 result
 )
+const
 {
 const
 char
@@ -3267,6 +3278,7 @@ PRUint32
 *
 result
 )
+const
 {
 const
 char
@@ -3345,6 +3357,7 @@ PRUint32
 *
 result
 )
+const
 {
 const
 char
@@ -3433,6 +3446,7 @@ PRUint32
 *
 result
 )
+const
 {
 const
 char
@@ -3550,6 +3564,7 @@ nsHttpResponseHead
 TotalEntitySize
 (
 )
+const
 {
 const
 char

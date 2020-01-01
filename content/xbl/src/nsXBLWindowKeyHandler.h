@@ -129,9 +129,6 @@ class
 nsIDOMEventTarget
 ;
 class
-nsIXBLDocumentInfo
-;
-class
 nsXBLSpecialDocInfo
 ;
 class

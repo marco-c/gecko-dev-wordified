@@ -1222,6 +1222,11 @@ newOptions
 JSOPTION_ION
 ;
 }
+newOptions
+|
+=
+JSOPTION_ALLOW_XML
+;
 RuntimeService
 :
 :

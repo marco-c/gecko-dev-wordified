@@ -1648,6 +1648,16 @@ ToggleMenuActiveState
 (
 )
 ;
+if
+(
+mMenuBarFrame
+-
+>
+IsActive
+(
+)
+)
+{
 aKeyEvent
 -
 >
@@ -1670,6 +1680,7 @@ NS_OK
 consume
 the
 event
+}
 }
 }
 #

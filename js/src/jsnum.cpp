@@ -6239,7 +6239,7 @@ FIX_FPU
 (
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -6256,7 +6256,7 @@ asGlobal
 )
 )
 ;
-RootedVarObject
+RootedObject
 numberProto
 (
 cx
@@ -6291,7 +6291,7 @@ setPrimitiveValue
 0
 )
 ;
-RootedVarFunction
+RootedFunction
 ctor
 (
 cx
