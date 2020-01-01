@@ -901,6 +901,12 @@ SurfaceHolder
 holder
 )
 {
+mController
+.
+surfaceCreated
+(
+)
+;
 }
 /
 *
@@ -921,6 +927,12 @@ SurfaceHolder
 holder
 )
 {
+mController
+.
+surfaceDestroyed
+(
+)
+;
 if
 (
 mListener
