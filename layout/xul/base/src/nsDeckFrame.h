@@ -565,6 +565,14 @@ aPrevInFlow
 )
 ;
 virtual
+nsIAtom
+*
+GetType
+(
+)
+const
+;
+virtual
 PRBool
 ChildrenMustHaveWidgets
 (
