@@ -1047,11 +1047,6 @@ MODULE
 (
 nsMorkModule
 )
-\
-MODULE
-(
-nsToolkitHistory
-)
 #
 else
 #
