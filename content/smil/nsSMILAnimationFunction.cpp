@@ -1750,9 +1750,11 @@ mLastValue
 Sampling
 last
 value
+const
 nsSMILValue
+&
 last
-(
+=
 values
 [
 values
@@ -1763,7 +1765,6 @@ Length
 -
 1
 ]
-)
 ;
 result
 =
