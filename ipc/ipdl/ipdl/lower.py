@@ -35307,6 +35307,20 @@ tmpvar
 .
 name
 )
+                      
+init
+=
+c
+.
+defaultValue
+(
+)
+if
+ct
+.
+ptr
+else
+None
 )
                     
 StmtExpr
