@@ -3323,6 +3323,13 @@ BasicImplData
 this
 )
 )
+mSize
+(
+-
+1
+-
+1
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -8377,8 +8384,10 @@ oldSize
 =
 gfxIntSize
 (
-0
-0
+-
+1
+-
+1
 )
 "
 video
