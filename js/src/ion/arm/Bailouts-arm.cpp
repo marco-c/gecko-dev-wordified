@@ -492,13 +492,6 @@ js
 :
 ion
 ;
-static
-const
-uintptr_t
-BAILOUT_TABLE_ENTRY_SIZE
-=
-4
-;
 #
 if
 0

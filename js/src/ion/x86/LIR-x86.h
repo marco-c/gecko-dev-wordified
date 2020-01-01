@@ -571,9 +571,6 @@ LInstructionHelper
 0
 >
 {
-MIRType
-type_
-;
 public
 :
 LIR_HEADER
