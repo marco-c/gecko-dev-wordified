@@ -449,8 +449,8 @@ attrib_list
 bool
 EnsureInitialized
 (
-bool
-aUseMesaLLVMPipe
+LibraryType
+libType
 )
 ;
 GLXPixmap
