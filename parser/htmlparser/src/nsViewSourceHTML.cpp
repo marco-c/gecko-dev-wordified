@@ -6680,11 +6680,10 @@ source
 )
 ;
 }
-viewSourceUrl
-.
-AppendWithConversion
+AppendUTF8toUTF16
 (
 absoluteLinkUrl
+viewSourceUrl
 )
 ;
 return
