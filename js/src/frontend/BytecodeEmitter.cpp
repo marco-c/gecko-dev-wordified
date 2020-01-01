@@ -45371,16 +45371,14 @@ index
 Called
 only
 from
-OptimizeSpanDeps
-and
 FinishTakingSrcNotes
 to
 add
 to
-*
 main
 script
 note
+*
 deltas
 and
 only
