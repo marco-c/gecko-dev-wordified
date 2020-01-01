@@ -2498,9 +2498,6 @@ inline
 mozilla
 :
 :
-directionality
-:
-:
 Directionality
 GetDocumentDirectionality
 (
@@ -11956,9 +11953,6 @@ this
 document
 .
 mozilla
-:
-:
-directionality
 :
 :
 Directionality
