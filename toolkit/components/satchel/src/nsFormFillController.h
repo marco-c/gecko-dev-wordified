@@ -901,6 +901,11 @@ nsIDOMEvent
 aEvent
 )
 ;
+PRBool
+IsInputAutoCompleteOff
+(
+)
+;
 /
 /
 members
