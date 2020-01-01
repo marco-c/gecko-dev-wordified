@@ -3621,6 +3621,13 @@ JSFUN_THISP_NUMBER
 )
 JS_FN
 (
+js_toJSON_str
+num_valueOf
+0
+JSFUN_THISP_NUMBER
+)
+JS_FN
+(
 "
 toFixed
 "

@@ -835,7 +835,7 @@ JS_FALSE
 ;
 z
 =
-fd_fabs
+fabs
 (
 x
 )
@@ -920,10 +920,6 @@ JS_FALSE
 ;
 #
 if
-!
-JS_USE_FDLIBM_MATH
-&
-&
 defined
 (
 SOLARIS
@@ -969,7 +965,7 @@ JS_TRUE
 endif
 z
 =
-fd_acos
+acos
 (
 x
 )
@@ -1054,10 +1050,6 @@ JS_FALSE
 ;
 #
 if
-!
-JS_USE_FDLIBM_MATH
-&
-&
 defined
 (
 SOLARIS
@@ -1103,7 +1095,7 @@ JS_TRUE
 endif
 z
 =
-fd_asin
+asin
 (
 x
 )
@@ -1188,7 +1180,7 @@ JS_FALSE
 ;
 z
 =
-fd_atan
+atan
 (
 x
 )
@@ -1383,7 +1375,7 @@ y
 {
 z
 =
-fd_copysign
+js_copysign
 (
 M_PI
 /
@@ -1415,10 +1407,6 @@ vp
 endif
 #
 if
-!
-JS_USE_FDLIBM_MATH
-&
-&
 defined
 (
 SOLARIS
@@ -1447,7 +1435,7 @@ y
 {
 z
 =
-fd_copysign
+js_copysign
 (
 M_PI
 x
@@ -1488,7 +1476,7 @@ vp
 endif
 z
 =
-fd_atan2
+atan2
 (
 x
 y
@@ -1574,7 +1562,7 @@ JS_FALSE
 ;
 z
 =
-fd_ceil
+ceil
 (
 x
 )
@@ -1659,7 +1647,7 @@ JS_FALSE
 ;
 z
 =
-fd_cos
+cos
 (
 x
 )
@@ -1816,7 +1804,7 @@ JS_TRUE
 endif
 z
 =
-fd_exp
+exp
 (
 x
 )
@@ -1901,7 +1889,7 @@ JS_FALSE
 ;
 z
 =
-fd_floor
+floor
 (
 x
 )
@@ -1986,10 +1974,6 @@ JS_FALSE
 ;
 #
 if
-!
-JS_USE_FDLIBM_MATH
-&
-&
 defined
 (
 SOLARIS
@@ -2029,7 +2013,7 @@ JS_TRUE
 endif
 z
 =
-fd_log
+log
 (
 x
 )
@@ -2191,7 +2175,7 @@ z
 {
 if
 (
-fd_copysign
+js_copysign
 (
 1
 .
@@ -2381,7 +2365,7 @@ z
 {
 if
 (
-fd_copysign
+js_copysign
 (
 1
 .
@@ -2633,7 +2617,7 @@ JS_TRUE
 }
 z
 =
-fd_pow
+pow
 (
 x
 y
@@ -3257,9 +3241,9 @@ JS_FALSE
 ;
 z
 =
-fd_copysign
+js_copysign
 (
-fd_floor
+floor
 (
 x
 +
@@ -3350,7 +3334,7 @@ JS_FALSE
 ;
 z
 =
-fd_sin
+sin
 (
 x
 )
@@ -3435,7 +3419,7 @@ JS_FALSE
 ;
 z
 =
-fd_sqrt
+sqrt
 (
 x
 )
@@ -3520,7 +3504,7 @@ JS_FALSE
 ;
 z
 =
-fd_tan
+tan
 (
 x
 )
@@ -3658,10 +3642,6 @@ d
 {
 #
 if
-!
-JS_USE_FDLIBM_MATH
-&
-&
 defined
 (
 SOLARIS
@@ -3733,7 +3713,7 @@ d
 {
 if
 (
-fd_copysign
+js_copysign
 (
 1
 .
