@@ -10228,7 +10228,7 @@ Services
 .
 prefs
 .
-getBoolPref
+getIntPref
 (
 "
 dom

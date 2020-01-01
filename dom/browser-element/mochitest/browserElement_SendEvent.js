@@ -271,7 +271,7 @@ if
 (
 SpecialPowers
 .
-getBoolPref
+getIntPref
 (
 "
 dom
@@ -281,6 +281,9 @@ w3c_touch_events
 enabled
 "
 )
+!
+=
+0
 )
 {
 iframe
