@@ -399,7 +399,7 @@ result
 =
 permissionManager
 .
-testExactPermissionFromPrincipal
+testExactPermanentPermission
 (
 principal
 aPermName

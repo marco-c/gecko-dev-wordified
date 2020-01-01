@@ -1050,6 +1050,8 @@ uint32_t
 aPermission
 bool
 aExactHostMatch
+bool
+aIncludingSession
 )
 ;
 nsresult
