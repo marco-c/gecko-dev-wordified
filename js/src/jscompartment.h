@@ -3609,7 +3609,9 @@ if
 debuggees
 *
 is
-nonempty
+non
+-
+empty
 .
 *
 /
