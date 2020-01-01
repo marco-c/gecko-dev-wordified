@@ -252,9 +252,6 @@ JS
 Value
 &
 aResult
-JSContext
-*
-aContext
 )
 {
 if
@@ -290,9 +287,6 @@ const
 nsAString
 &
 aName
-JSContext
-*
-aContext
 )
 {
 ERR
