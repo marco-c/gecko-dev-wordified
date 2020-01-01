@@ -2468,6 +2468,13 @@ defined
 (
 COMPILER_GCC
 )
+&
+&
+!
+defined
+(
+ANDROID
+)
 namespace
 __gnu_cxx
 {
