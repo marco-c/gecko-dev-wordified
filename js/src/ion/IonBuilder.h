@@ -1023,6 +1023,9 @@ temp
 MIRGraph
 &
 graph
+TypeOracle
+*
+oracle
 )
 ;
 public
@@ -1417,6 +1420,10 @@ LoopInfo
 IonAllocPolicy
 >
 loops_
+;
+TypeOracle
+*
+oracle
 ;
 }
 ;

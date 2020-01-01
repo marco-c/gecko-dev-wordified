@@ -601,6 +601,9 @@ MInstruction
 ins
 )
 {
+#
+if
+0
 MInstruction
 *
 narrowed
@@ -1273,6 +1276,8 @@ converted
 )
 ;
 }
+#
+endif
 /
 /
 Finally
