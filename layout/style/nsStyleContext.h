@@ -870,17 +870,6 @@ return
 mParent
 ;
 }
-nsStyleContext
-*
-GetFirstChild
-(
-)
-const
-{
-return
-mChild
-;
-}
 nsIAtom
 *
 GetPseudoType
@@ -1354,6 +1343,7 @@ aPresContext
 ;
 nsStyleContext
 *
+const
 mParent
 ;
 /
