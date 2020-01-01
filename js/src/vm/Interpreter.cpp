@@ -2655,7 +2655,7 @@ if
 jit
 :
 :
-IsEnabled
+IsIonEnabled
 (
 cx
 )
@@ -15754,7 +15754,7 @@ newType
 jit
 :
 :
-IsEnabled
+IsIonEnabled
 (
 cx
 )

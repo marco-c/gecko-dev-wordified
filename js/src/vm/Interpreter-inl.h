@@ -4449,7 +4449,7 @@ useIon_
 jit
 :
 :
-IsEnabled
+IsIonEnabled
 (
 cx
 )

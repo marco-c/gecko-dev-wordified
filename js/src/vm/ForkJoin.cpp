@@ -3778,7 +3778,7 @@ cx_
 jit
 :
 :
-IsEnabled
+IsIonEnabled
 (
 cx_
 )
@@ -3800,7 +3800,7 @@ cx_
 jit
 :
 :
-IsEnabled
+IsIonEnabled
 (
 cx_
 )
@@ -13683,7 +13683,7 @@ return
 jit
 :
 :
-IsEnabled
+IsIonEnabled
 (
 cx
 )

@@ -10590,7 +10590,7 @@ JS_ASSERT
 jit
 :
 :
-IsEnabled
+IsIonEnabled
 (
 cx
 )
@@ -10944,7 +10944,7 @@ JS_ASSERT
 jit
 :
 :
-IsEnabled
+IsIonEnabled
 (
 cx
 )
@@ -11276,7 +11276,7 @@ JS_ASSERT
 jit
 :
 :
-IsEnabled
+IsIonEnabled
 (
 cx
 )
@@ -11548,7 +11548,7 @@ obj
 jit
 :
 :
-IsEnabled
+IsIonEnabled
 (
 cx
 )
@@ -11781,7 +11781,7 @@ JS_ASSERT
 jit
 :
 :
-IsEnabled
+IsIonEnabled
 (
 cx
 )
@@ -12266,7 +12266,7 @@ JS_ASSERT
 jit
 :
 :
-IsEnabled
+IsIonEnabled
 (
 cx
 )
@@ -12456,7 +12456,7 @@ JS_ASSERT
 jit
 :
 :
-IsEnabled
+IsIonEnabled
 (
 cx
 )
@@ -13314,7 +13314,7 @@ JS_ASSERT
 jit
 :
 :
-IsEnabled
+IsIonEnabled
 (
 cx
 )
