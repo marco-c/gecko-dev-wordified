@@ -3814,8 +3814,6 @@ if
 (
 GeckoApp
 .
-mAppContext
-.
 checkLaunchState
 (
 GeckoApp
@@ -4517,8 +4515,6 @@ at
 this
 point
 GeckoApp
-.
-mAppContext
 .
 setLaunchState
 (
@@ -9158,10 +9154,6 @@ countdown
 try
 {
 Thread
-.
-currentThread
-(
-)
 .
 sleep
 (
