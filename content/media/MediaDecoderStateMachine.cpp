@@ -1911,7 +1911,6 @@ State
 "
 &
 mStateMachineThread
-nullptr
 )
 ;
 NS_ABORT_IF_FALSE
