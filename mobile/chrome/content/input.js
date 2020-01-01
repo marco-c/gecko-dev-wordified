@@ -8154,6 +8154,12 @@ for
 fast
 arbitrary
 zooming
+AnimatedZoom
+.
+start
+(
+)
+;
 this
 .
 _pinchZoom
