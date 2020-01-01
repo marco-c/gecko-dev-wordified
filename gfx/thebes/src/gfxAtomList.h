@@ -797,6 +797,15 @@ x
 sinh
 "
 )
+GFX_ATOM
+(
+x_tibt
+"
+x
+-
+tibt
+"
+)
 /
 /
 used

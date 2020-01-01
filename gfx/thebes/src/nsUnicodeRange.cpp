@@ -616,6 +616,11 @@ gfxAtoms
 :
 :
 x_sinh
+&
+gfxAtoms
+:
+:
+x_tibt
 }
 ;
 /

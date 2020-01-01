@@ -6867,7 +6867,9 @@ mon
 TIBETAN
 "
 "
-tib
+x
+-
+tibt
 "
 }
 /

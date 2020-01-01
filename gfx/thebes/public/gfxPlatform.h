@@ -657,9 +657,12 @@ eFontPrefLang_Kannada
 eFontPrefLang_Sinhala
 =
 28
-eFontPrefLang_LangCount
+eFontPrefLang_Tibetan
 =
 29
+eFontPrefLang_LangCount
+=
+30
 /
 /
 except
@@ -669,7 +672,7 @@ UserDefined
 .
 eFontPrefLang_Others
 =
-29
+30
 /
 /
 x
@@ -677,10 +680,10 @@ x
 unicode
 eFontPrefLang_UserDefined
 =
-30
+31
 eFontPrefLang_CJKSet
 =
-31
+32
 /
 /
 special
@@ -690,7 +693,7 @@ CJK
 set
 eFontPrefLang_AllCount
 =
-32
+33
 }
 ;
 enum
