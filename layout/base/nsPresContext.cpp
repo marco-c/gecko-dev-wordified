@@ -5002,7 +5002,7 @@ flushed
 FrameLayerBuilder
 :
 :
-InvalidateThebesLayersInSubtree
+InvalidateThebesLayersInSubtreeWithUntrustedFrameGeometry
 (
 rootFrame
 )
