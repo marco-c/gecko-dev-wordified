@@ -5382,7 +5382,7 @@ blur
 )
 )
 {
-NS_IF_ADDREF
+NS_IF_RELEASE
 (
 gLastFocusedNode
 )
