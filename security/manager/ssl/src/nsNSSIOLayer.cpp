@@ -12766,7 +12766,7 @@ if
 (
 flags
 &
-nsISocketTransport
+nsISocketProvider
 :
 :
 ANONYMOUS_CONNECT

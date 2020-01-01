@@ -171,13 +171,6 @@ nsDataHashtable
 .
 h
 "
-#
-include
-"
-nsISocketTransport
-.
-h
-"
 namespace
 mozilla
 {
