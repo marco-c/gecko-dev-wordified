@@ -460,13 +460,6 @@ aWindow
 )
 ;
 static
-JSContext
-*
-GetJSContextFromCallStack
-(
-)
-;
-static
 nsresult
 URIfromURL
 (
