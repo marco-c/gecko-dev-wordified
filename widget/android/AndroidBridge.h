@@ -373,6 +373,11 @@ Thread
 end
 namespace
 base
+typedef
+void
+*
+EGLSurface
+;
 namespace
 mozilla
 {
@@ -488,11 +493,6 @@ panelColorBackground
 ;
 }
 AndroidSystemColors
-;
-typedef
-void
-*
-EGLSurface
 ;
 class
 nsFilePickerCallback
