@@ -424,13 +424,6 @@ nsISupportsArray
 .
 h
 "
-#
-include
-"
-nsIInspectorCSSUtils
-.
-h
-"
 class
 nsRuleNode
 ;
@@ -456,12 +449,6 @@ inDOMUtils
 ;
 private
 :
-nsCOMPtr
-<
-nsIInspectorCSSUtils
->
-mCSSUtils
-;
 static
 nsresult
 GetRuleNodeForContent

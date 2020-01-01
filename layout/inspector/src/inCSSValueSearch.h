@@ -452,13 +452,6 @@ nsCSSProps
 .
 h
 "
-#
-include
-"
-nsIInspectorCSSUtils
-.
-h
-"
 class
 nsIDOMCSSStyleSheet
 ;
@@ -499,12 +492,6 @@ nsCOMPtr
 inISearchObserver
 >
 mObserver
-;
-nsCOMPtr
-<
-nsIInspectorCSSUtils
->
-mCSSUtils
 ;
 nsCOMPtr
 <

@@ -509,13 +509,6 @@ nsNetUtil
 .
 h
 "
-static
-NS_DEFINE_CID
-(
-kInspectorCSSUtilsCID
-NS_INSPECTORCSSUTILS_CID
-)
-;
 /
 /
 /
@@ -649,13 +642,6 @@ nsCSSProperty
 [
 100
 ]
-;
-mCSSUtils
-=
-do_GetService
-(
-kInspectorCSSUtilsCID
-)
 ;
 }
 inCSSValueSearch
