@@ -388,7 +388,7 @@ addEventListener
 "
 Debugger
 :
-AfterNewScript
+ScriptShown
 "
 function
 _onEvent
