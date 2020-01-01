@@ -611,6 +611,11 @@ WCHAR
 sErr
 )
 ;
+BOOL
+FastStartFileExists
+(
+)
+;
 static
 const
 int
@@ -623,6 +628,9 @@ m_hInst
 ;
 HWND
 m_hDlg
+;
+BOOL
+m_bFastStart
 ;
 WCHAR
 m_sProgramFiles
