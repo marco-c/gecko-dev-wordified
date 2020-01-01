@@ -511,7 +511,7 @@ h
 endif
 #
 ifdef
-CAIRO_HAS_QPAINTER_SURFACE
+CAIRO_HAS_QT_SURFACE
 #
 include
 "
@@ -1115,14 +1115,14 @@ csurf
 endif
 #
 ifdef
-CAIRO_HAS_QPAINTER_SURFACE
+CAIRO_HAS_QT_SURFACE
 else
 if
 (
 stype
 =
 =
-CAIRO_SURFACE_TYPE_QPAINTER
+CAIRO_SURFACE_TYPE_QT
 )
 {
 result
