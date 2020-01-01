@@ -18446,7 +18446,7 @@ content
 )
 )
 ;
-PRInt32
+PRUint32
 size
 =
 1

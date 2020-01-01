@@ -4140,9 +4140,12 @@ if
 (
 visibleHeight
 >
+nscoord
+(
 mNumDisplayRows
 *
 heightOfARow
+)
 )
 {
 visibleHeight
@@ -7227,7 +7230,7 @@ nsListControlFrame
 :
 GetSizeAttribute
 (
-PRInt32
+PRUint32
 *
 aSize
 )
@@ -15794,9 +15797,12 @@ numOptions
 NS_MAX
 (
 1
+PRInt32
+(
 mNumDisplayRows
 -
 1
+)
 )
 -
 1
@@ -15823,9 +15829,12 @@ numOptions
 NS_MAX
 (
 1
+PRInt32
+(
 mNumDisplayRows
 -
 1
+)
 )
 1
 )
