@@ -2443,8 +2443,8 @@ void
 markp
 )
 {
-BindingNames
-localNames
+BindingVector
+bindings
 (
 cx
 )
@@ -2452,6 +2452,9 @@ cx
 if
 (
 !
+GetOrderedBindings
+(
+cx
 fun
 -
 >
@@ -2461,12 +2464,8 @@ script
 -
 >
 bindings
-.
-getLocalNameArray
-(
-cx
 &
-localNames
+bindings
 )
 )
 return
@@ -2519,7 +2518,7 @@ newArray
 uintptr_t
 >
 (
-localNames
+bindings
 .
 length
 (
@@ -2550,7 +2549,7 @@ i
 ;
 i
 <
-localNames
+bindings
 .
 length
 (
@@ -2570,12 +2569,12 @@ reinterpret_cast
 uintptr_t
 >
 (
-localNames
+bindings
 [
 i
 ]
 .
-maybeAtom
+maybeName
 )
 ;
 return

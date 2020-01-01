@@ -6432,7 +6432,7 @@ interpreted
 function
 *
 /
-BindingNames
+BindingVector
 *
 localNames
 ;
@@ -6699,7 +6699,7 @@ cx
 >
 new_
 <
-BindingNames
+BindingVector
 >
 (
 cx
@@ -6715,6 +6715,9 @@ localNames
 |
 |
 !
+GetOrderedBindings
+(
+cx
 fun
 -
 >
@@ -6724,10 +6727,6 @@ script
 -
 >
 bindings
-.
-getLocalNameArray
-(
-cx
 jp
 -
 >
@@ -11074,7 +11073,7 @@ localNames
 slot
 ]
 .
-maybeAtom
+maybeName
 ;
 #
 if
@@ -31228,11 +31227,11 @@ sn
 SRC_GENEXP
 )
 {
-BindingNames
+BindingVector
 *
 innerLocalNames
 ;
-BindingNames
+BindingVector
 *
 outerLocalNames
 ;
@@ -31352,7 +31351,7 @@ cx
 >
 new_
 <
-BindingNames
+BindingVector
 >
 (
 cx
@@ -31365,6 +31364,9 @@ innerLocalNames
 |
 |
 !
+GetOrderedBindings
+(
+cx
 fun
 -
 >
@@ -31374,10 +31376,6 @@ script
 -
 >
 bindings
-.
-getLocalNameArray
-(
-cx
 innerLocalNames
 )
 )
