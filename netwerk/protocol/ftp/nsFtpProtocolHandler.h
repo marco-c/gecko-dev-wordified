@@ -971,16 +971,6 @@ nsFtpProtocolHandler
 gFtpHandler
 ;
 #
-ifdef
-PR_LOGGING
-extern
-PRLogModuleInfo
-*
-gFTPLog
-;
-#
-endif
-#
 endif
 /
 /

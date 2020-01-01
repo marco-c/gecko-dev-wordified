@@ -483,13 +483,6 @@ nsInt64
 .
 h
 "
-#
-include
-"
-nsIIPCSerializable
-.
-h
-"
 /
 /
 /
@@ -815,8 +808,6 @@ public
 nsIBufferedInputStream
 public
 nsIStreamBufferAccess
-public
-nsIIPCSerializable
 {
 public
 :
@@ -824,7 +815,6 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIINPUTSTREAM
 NS_DECL_NSIBUFFEREDINPUTSTREAM
 NS_DECL_NSISTREAMBUFFERACCESS
-NS_DECL_NSIIPCSERIALIZABLE
 nsBufferedInputStream
 (
 )
