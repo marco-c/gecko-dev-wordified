@@ -1640,7 +1640,7 @@ jschar
 *
 dummy
 ;
-jsdouble
+double
 d
 ;
 if
@@ -1977,7 +1977,7 @@ break
 ;
 }
 }
-jsdouble
+double
 d
 ;
 const

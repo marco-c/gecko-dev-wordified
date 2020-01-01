@@ -2219,7 +2219,7 @@ return
 0
 ;
 }
-jsdouble
+double
 jsd_GetScriptMinExecutionTime
 (
 JSDContext
@@ -2252,7 +2252,7 @@ return
 0
 ;
 }
-jsdouble
+double
 jsd_GetScriptMaxExecutionTime
 (
 JSDContext
@@ -2285,7 +2285,7 @@ return
 0
 ;
 }
-jsdouble
+double
 jsd_GetScriptTotalExecutionTime
 (
 JSDContext
@@ -2318,7 +2318,7 @@ return
 0
 ;
 }
-jsdouble
+double
 jsd_GetScriptMinOwnExecutionTime
 (
 JSDContext
@@ -2351,7 +2351,7 @@ return
 0
 ;
 }
-jsdouble
+double
 jsd_GetScriptMaxOwnExecutionTime
 (
 JSDContext
@@ -2384,7 +2384,7 @@ return
 0
 ;
 }
-jsdouble
+double
 jsd_GetScriptTotalOwnExecutionTime
 (
 JSDContext

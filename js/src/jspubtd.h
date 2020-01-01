@@ -779,10 +779,6 @@ uint32_t
 jsuint
 ;
 typedef
-double
-jsdouble
-;
-typedef
 int32_t
 jsrefcount
 ;

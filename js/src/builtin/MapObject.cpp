@@ -822,7 +822,7 @@ isDouble
 )
 )
 {
-jsdouble
+double
 d
 =
 v

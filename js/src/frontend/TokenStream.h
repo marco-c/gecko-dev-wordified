@@ -2130,7 +2130,7 @@ null
 }
 xmlpi
 ;
-jsdouble
+double
 number
 ;
 /
@@ -2353,7 +2353,7 @@ flags
 void
 setNumber
 (
-jsdouble
+double
 n
 )
 {
@@ -2559,7 +2559,7 @@ u
 reflags
 ;
 }
-jsdouble
+double
 number
 (
 )

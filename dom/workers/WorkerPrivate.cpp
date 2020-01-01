@@ -16783,7 +16783,7 @@ aArgc
 1
 )
 {
-jsdouble
+double
 intervalMS
 =
 0
