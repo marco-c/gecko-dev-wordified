@@ -1590,6 +1590,14 @@ MThrow
 ins
 )
 ;
+bool
+visitInstanceOf
+(
+MInstanceOf
+*
+ins
+)
+;
 }
 ;
 }

@@ -970,6 +970,11 @@ Round
 \
 _
 (
+InstanceOf
+)
+\
+_
+(
 InterruptCheck
 )
 /

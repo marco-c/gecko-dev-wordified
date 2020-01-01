@@ -17505,7 +17505,6 @@ HasInstance
 (
 cx
 obj
-&
 v
 bp
 )

@@ -2413,6 +2413,11 @@ jsop_iterend
 (
 )
 ;
+bool
+jsop_instanceof
+(
+)
+;
 /
 *
 Inlining
