@@ -1103,6 +1103,13 @@ LIST_TAG_MOST_VISITED
 ;
 mList
 .
+setHeaderDividersEnabled
+(
+false
+)
+;
+mList
+.
 setOnItemClickListener
 (
 new
@@ -2713,7 +2720,7 @@ getCount
 (
 )
 >
-0
+mMaxGridEntries
 )
 ;
 if

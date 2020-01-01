@@ -567,13 +567,6 @@ setOnUrlOpenListener
 listener
 )
 ;
-mList
-.
-setHeaderDividersEnabled
-(
-false
-)
-;
 registerForContextMenu
 (
 mList
