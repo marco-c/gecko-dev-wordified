@@ -505,6 +505,13 @@ h
 #
 include
 "
+nsCaret
+.
+h
+"
+#
+include
+"
 plarena
 .
 h
@@ -513,13 +520,6 @@ h
 include
 "
 nsLayoutUtils
-.
-h
-"
-#
-include
-"
-nsICaret
 .
 h
 "
@@ -2112,7 +2112,7 @@ presshell
 .
 *
 /
-nsICaret
+nsCaret
 *
 GetCaret
 (
@@ -6943,7 +6943,7 @@ nsDisplayCaret
 nsIFrame
 *
 aCaretFrame
-nsICaret
+nsCaret
 *
 aCaret
 )
@@ -7043,9 +7043,9 @@ Caret
 )
 protected
 :
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 mCaret
 ;

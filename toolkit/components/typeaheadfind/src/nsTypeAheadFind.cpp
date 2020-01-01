@@ -751,13 +751,6 @@ h
 #
 include
 "
-nsICaret
-.
-h
-"
-#
-include
-"
 nsIDocShellTreeItem
 .
 h

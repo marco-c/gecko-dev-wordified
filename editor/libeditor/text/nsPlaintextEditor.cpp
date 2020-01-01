@@ -452,7 +452,7 @@ h
 #
 include
 "
-nsICaret
+nsCaret
 .
 h
 "
@@ -9617,9 +9617,9 @@ result
 return
 result
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caretP
 ;
@@ -10162,7 +10162,7 @@ caretP
 >
 GetCaretCoordinates
 (
-nsICaret
+nsCaret
 :
 :
 eIMECoordinates

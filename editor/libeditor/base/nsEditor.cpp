@@ -720,7 +720,7 @@ h
 #
 include
 "
-nsICaret
+nsCaret
 .
 h
 "
@@ -10325,9 +10325,9 @@ ps
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caretP
 ;
@@ -10606,7 +10606,7 @@ caretP
 >
 GetCaretCoordinates
 (
-nsICaret
+nsCaret
 :
 :
 eIMECoordinates
@@ -11648,9 +11648,9 @@ ps
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caretP
 ;
@@ -11691,7 +11691,7 @@ caretP
 >
 GetCaretCoordinates
 (
-nsICaret
+nsCaret
 :
 :
 eIMECoordinates
@@ -23868,9 +23868,9 @@ the
 correct
 position
 .
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;

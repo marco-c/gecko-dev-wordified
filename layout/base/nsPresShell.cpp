@@ -954,7 +954,7 @@ h
 #
 include
 "
-nsICaret
+nsCaret
 .
 h
 "
@@ -5751,7 +5751,7 @@ handling
 NS_IMETHOD
 GetCaret
 (
-nsICaret
+nsCaret
 *
 *
 aOutCaret
@@ -5806,7 +5806,7 @@ virtual
 void
 SetCaret
 (
-nsICaret
+nsCaret
 *
 aNewCaret
 )
@@ -6920,15 +6920,15 @@ mLastAnchorScrolledTo
 nscoord
 mLastAnchorScrollPositionY
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 mCaret
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 mOriginalCaret
 ;
@@ -15863,7 +15863,7 @@ PresShell
 :
 GetCaret
 (
-nsICaret
+nsCaret
 *
 *
 outCaret
@@ -15920,7 +15920,7 @@ PresShell
 :
 SetCaret
 (
-nsICaret
+nsCaret
 *
 aNewCaret
 )
@@ -16040,8 +16040,6 @@ domSel
 ;
 *
 /
-result
-=
 mCaret
 -
 >
@@ -16052,7 +16050,7 @@ mCaretEnabled
 ;
 }
 return
-result
+NS_OK
 ;
 }
 NS_IMETHODIMP

@@ -516,7 +516,7 @@ h
 #
 include
 "
-nsICaret
+nsCaret
 .
 h
 "
@@ -2986,7 +2986,7 @@ aEvent
 nsIRange
 *
 aRange
-nsICaret
+nsCaret
 *
 aCaret
 )
@@ -3364,9 +3364,9 @@ rv
 return
 rv
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;
@@ -3496,7 +3496,7 @@ caret
 >
 GetCaretCoordinates
 (
-nsICaret
+nsCaret
 :
 :
 eTopLevelWindowCoordinates

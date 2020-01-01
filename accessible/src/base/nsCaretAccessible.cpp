@@ -452,7 +452,7 @@ h
 #
 include
 "
-nsICaret
+nsCaret
 .
 h
 "
@@ -1750,9 +1750,9 @@ presShell
 caretRect
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;
@@ -1803,7 +1803,7 @@ caret
 >
 GetCaretCoordinates
 (
-nsICaret
+nsCaret
 :
 :
 eRenderingViewCoordinates

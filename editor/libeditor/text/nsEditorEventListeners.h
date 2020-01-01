@@ -501,7 +501,7 @@ h
 #
 include
 "
-nsICaret
+nsCaret
 .
 h
 "
@@ -1454,9 +1454,9 @@ mEditor
 nsWeakPtr
 mPresShell
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 mCaret
 ;

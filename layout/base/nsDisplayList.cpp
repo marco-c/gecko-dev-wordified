@@ -1072,7 +1072,7 @@ mPool
 )
 ;
 }
-nsICaret
+nsCaret
 *
 nsDisplayListBuilder
 :
@@ -1081,9 +1081,9 @@ GetCaret
 (
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;
@@ -1181,9 +1181,9 @@ mBuildCaret
 )
 return
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;

@@ -632,7 +632,7 @@ h
 #
 include
 "
-nsICaret
+nsCaret
 .
 h
 "
@@ -3335,9 +3335,9 @@ presShell
 )
 return
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;

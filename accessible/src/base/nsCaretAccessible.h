@@ -445,13 +445,6 @@ h
 #
 include
 "
-nsICaret
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h
@@ -475,6 +468,12 @@ nsRootAccessible
 ;
 class
 nsIView
+;
+class
+nsIPresShell
+;
+class
+nsIWidget
 ;
 /
 *

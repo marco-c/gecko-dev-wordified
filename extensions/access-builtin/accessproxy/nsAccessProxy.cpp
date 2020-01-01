@@ -575,7 +575,7 @@ h
 #
 include
 "
-nsICaret
+nsCaret
 .
 h
 "
@@ -1136,9 +1136,9 @@ which
 selection
 to
 use
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;

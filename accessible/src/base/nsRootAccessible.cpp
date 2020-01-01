@@ -459,13 +459,6 @@ h
 #
 include
 "
-nsICaret
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h

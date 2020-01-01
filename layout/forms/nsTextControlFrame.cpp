@@ -518,7 +518,7 @@ h
 #
 include
 "
-nsICaret
+nsCaret
 .
 h
 "
@@ -4062,9 +4062,9 @@ if
 shell
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;
@@ -4104,7 +4104,6 @@ if
 (
 domSel
 )
-return
 caret
 -
 >
@@ -4112,6 +4111,9 @@ SetCaretReadOnly
 (
 aReadOnly
 )
+;
+return
+NS_OK
 ;
 }
 }
@@ -4177,9 +4179,9 @@ if
 shell
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;
@@ -4273,9 +4275,9 @@ if
 shell
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;
@@ -4315,7 +4317,6 @@ if
 (
 domSel
 )
-return
 caret
 -
 >
@@ -4323,6 +4324,9 @@ SetVisibilityDuringSelection
 (
 aVisibility
 )
+;
+return
+NS_OK
 ;
 }
 }
@@ -8246,7 +8250,7 @@ a
 selection
 listener
 .
-nsCOMPtr
+nsRefPtr
 <
 nsISelection
 >
@@ -8288,9 +8292,9 @@ domSelection
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;
@@ -10251,9 +10255,9 @@ GetPresShell
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;

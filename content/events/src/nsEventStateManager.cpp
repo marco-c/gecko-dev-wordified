@@ -1016,7 +1016,7 @@ h
 #
 include
 "
-nsICaret
+nsCaret
 .
 h
 "
@@ -6597,9 +6597,9 @@ if
 presShell
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;
@@ -30478,9 +30478,9 @@ newCaretContent
 for
 our
 position
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;
@@ -30507,7 +30507,7 @@ caret
 >
 GetCaretCoordinates
 (
-nsICaret
+nsCaret
 :
 :
 eClosestViewCoordinates
@@ -32166,9 +32166,9 @@ PRBool
 aEnabled
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;
@@ -32265,9 +32265,9 @@ visible
 after
 new
 focus
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;

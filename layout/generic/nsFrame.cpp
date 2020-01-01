@@ -1091,13 +1091,6 @@ CALC_DEBUG
 #
 include
 "
-nsICaret
-.
-h
-"
-#
-include
-"
 nsILineIterator
 .
 h
