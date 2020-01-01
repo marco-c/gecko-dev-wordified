@@ -1181,7 +1181,10 @@ attributes
 for
 "
 +
+prettyName
+(
 aAccOrElmOrID
+)
 )
 ;
 return
@@ -1194,7 +1197,10 @@ errorMsg
 for
 "
 +
+prettyName
+(
 aAccOrElmOrID
+)
 ;
 compareAttrs
 (
