@@ -27740,7 +27740,7 @@ below
 /
 JS_DEFINE_CALLINFO_3
 (
-INT
+INT32
 Regexp_p_test
 CONTEXT
 OBJECT
