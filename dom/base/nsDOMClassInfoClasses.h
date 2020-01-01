@@ -1081,10 +1081,6 @@ SVGLengthList
 )
 DOMCI_CLASS
 (
-SVGMatrix
-)
-DOMCI_CLASS
-(
 SVGNumber
 )
 DOMCI_CLASS
