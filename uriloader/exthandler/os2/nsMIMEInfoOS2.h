@@ -451,11 +451,11 @@ nsMIMEInfoOS2
 )
 ;
 NS_IMETHOD
-LaunchWithFile
+LaunchWithURI
 (
-nsIFile
+nsIURI
 *
-aFile
+aURI
 )
 ;
 #

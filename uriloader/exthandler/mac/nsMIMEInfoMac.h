@@ -442,11 +442,11 @@ aMIMEType
 {
 }
 NS_IMETHOD
-LaunchWithFile
+LaunchWithURI
 (
-nsIFile
+nsIURI
 *
-aFile
+aURI
 )
 ;
 #
