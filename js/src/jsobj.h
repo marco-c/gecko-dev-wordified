@@ -11016,6 +11016,8 @@ cx
 JSObject
 *
 callee
+bool
+newType
 )
 ;
 /
