@@ -18561,8 +18561,11 @@ return
 JS_DHASH_NEXT
 ;
 }
+JS_FRIEND_API
+(
 jsuword
 *
+)
 js_GetLocalNameArray
 (
 JSContext
