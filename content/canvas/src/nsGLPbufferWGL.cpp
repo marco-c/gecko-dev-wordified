@@ -1835,10 +1835,16 @@ numFormats
 =
 MAX_NUM_FORMATS
 ;
+nsAutoArrayPtr
+<
 int
+>
 formats
+=
+new
+int
 [
-MAX_NUM_FORMATS
+numFormats
 ]
 ;
 /
