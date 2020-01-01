@@ -11265,7 +11265,7 @@ p
 )
 -
 >
-zone
+tenuredZone
 (
 )
 -
@@ -11633,7 +11633,7 @@ thing
 )
 -
 >
-zone
+tenuredZone
 (
 )
 ;
@@ -16267,7 +16267,7 @@ JS_ASSERT
 thing
 -
 >
-zone
+tenuredZone
 (
 )
 =
@@ -16281,7 +16281,7 @@ zone
 thing
 -
 >
-zone
+tenuredZone
 (
 )
 =
@@ -17774,7 +17774,7 @@ wrapped
 dst
 -
 >
-zone
+tenuredZone
 (
 )
 -
@@ -20217,7 +20217,7 @@ w
 other
 -
 >
-zone
+tenuredZone
 (
 )
 ;
@@ -20320,7 +20320,7 @@ w
 other
 -
 >
-zone
+tenuredZone
 (
 )
 ;

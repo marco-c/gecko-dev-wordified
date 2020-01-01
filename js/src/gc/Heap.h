@@ -402,7 +402,7 @@ const
 inline
 Zone
 *
-zone
+tenuredZone
 (
 )
 const
@@ -5970,7 +5970,7 @@ Zone
 Cell
 :
 :
-zone
+tenuredZone
 (
 )
 const
