@@ -1486,7 +1486,7 @@ network
 null
 lastKnownMcc
 :
-0
+null
 cell
 :
 null
@@ -1517,7 +1517,7 @@ network
 null
 lastKnownMcc
 :
-0
+null
 cell
 :
 null
