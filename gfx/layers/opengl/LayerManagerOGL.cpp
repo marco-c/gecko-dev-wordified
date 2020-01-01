@@ -1513,7 +1513,10 @@ IsGLES2
 ?
 LOCAL_GL_TEXTURE_RECTANGLE_ARB
 :
+GLenum
+(
 0
+)
 }
 ;
 mFBOTextureTarget
