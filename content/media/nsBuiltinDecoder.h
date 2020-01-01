@@ -3731,7 +3731,11 @@ PRUint32
 aOffset
 )
 {
-return
+if
+(
+mDecoderStateMachine
+)
+{
 mDecoderStateMachine
 -
 >
@@ -3742,6 +3746,7 @@ aLength
 aOffset
 )
 ;
+}
 }
 /
 /
