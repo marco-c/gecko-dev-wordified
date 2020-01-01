@@ -3205,7 +3205,7 @@ Adobe
 \
 \
 Adobe
-Reader
+Acrobat
 "
 )
 nsIWindowsRegKey
