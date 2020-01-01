@@ -483,8 +483,8 @@ eDOMClassInfo_MimeTypeArray_id
 eDOMClassInfo_BarProp_id
 eDOMClassInfo_History_id
 eDOMClassInfo_Screen_id
-eDOMClassInfo_Prototype_id
-eDOMClassInfo_Constructor_id
+eDOMClassInfo_DOMPrototype_id
+eDOMClassInfo_DOMConstructor_id
 /
 /
 Core
