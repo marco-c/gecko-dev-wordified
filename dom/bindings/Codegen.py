@@ -47673,25 +47673,12 @@ value
 )
 :
         
-raise
-SyntaxError
-(
+return
 '
-Enum
-value
-"
+_
 '
 +
 value
-+
-'
-"
-starts
-with
-a
-digit
-'
-)
     
 value
 =
