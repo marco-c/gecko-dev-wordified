@@ -427,11 +427,6 @@ BLOCK
 *
 *
 /
-"
-use
-strict
-"
-;
 let
 Cc
 =
