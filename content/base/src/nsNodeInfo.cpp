@@ -856,6 +856,15 @@ mExtraName
 aExtraName
 )
 ;
+mDocument
+=
+aOwnerManager
+-
+>
+GetDocument
+(
+)
+;
 /
 /
 Now
