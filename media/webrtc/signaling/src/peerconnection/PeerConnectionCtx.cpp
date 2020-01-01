@@ -232,9 +232,6 @@ mainThread
 )
 ;
 }
-bool
-on
-;
 nsresult
 res
 ;
@@ -262,6 +259,9 @@ right
 thread
 behavior
 .
+bool
+on
+;
 res
 =
 gMainThread
