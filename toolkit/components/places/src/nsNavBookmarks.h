@@ -981,6 +981,12 @@ GetStorageConnection
 )
 ;
 }
+nsString
+mGUIDBase
+;
+PRInt32
+mItemCount
+;
 nsMaybeWeakPtrArray
 <
 nsINavBookmarkObserver
@@ -1302,6 +1308,12 @@ static
 const
 PRInt32
 kGetItemPropertiesIndex_LastModified
+;
+nsCOMPtr
+<
+mozIStorageStatement
+>
+mDBGetItemIdForGUID
 ;
 nsCOMPtr
 <
