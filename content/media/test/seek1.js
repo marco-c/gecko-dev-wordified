@@ -175,12 +175,6 @@ seekTime
 v
 .
 currentTime
-+
-"
-(
-seeking
-)
-"
 )
 ;
 v
@@ -278,12 +272,6 @@ seekTime
 "
 +
 t
-+
-"
-(
-seeked
-)
-"
 )
 ;
 v
