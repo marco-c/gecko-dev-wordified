@@ -1612,8 +1612,6 @@ eCSSProperty_display
 case
 eCSSProperty_dominant_baseline
 :
-/
-/
 case
 eCSSProperty_fill_opacity
 :
@@ -1630,8 +1628,6 @@ eCSSProperty_filter
 case
 eCSSProperty_flood_color
 :
-/
-/
 case
 eCSSProperty_flood_opacity
 :
@@ -1699,8 +1695,6 @@ eCSSProperty_marker_start
 case
 eCSSProperty_mask
 :
-/
-/
 case
 eCSSProperty_opacity
 :
@@ -1717,8 +1711,6 @@ eCSSProperty_shape_rendering
 case
 eCSSProperty_stop_color
 :
-/
-/
 case
 eCSSProperty_stop_opacity
 :
@@ -1735,13 +1727,9 @@ eCSSProperty_stroke_linecap
 case
 eCSSProperty_stroke_linejoin
 :
-/
-/
 case
 eCSSProperty_stroke_miterlimit
 :
-/
-/
 case
 eCSSProperty_stroke_opacity
 :

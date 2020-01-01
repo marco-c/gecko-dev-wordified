@@ -1896,13 +1896,6 @@ opacity
 _pacedTestLists
 .
 opacity
-"
-need
-support
-for
-float
-values
-"
 )
 new
 TestcaseBundle
