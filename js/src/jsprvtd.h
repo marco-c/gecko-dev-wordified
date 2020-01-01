@@ -1851,10 +1851,6 @@ JSObject
 *
 object
 ;
-JSString
-*
-string
-;
 JSXML
 *
 xml
