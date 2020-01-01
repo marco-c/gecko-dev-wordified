@@ -607,6 +607,9 @@ fileBuf
 bool
 crashOnDestroy
 ;
+bool
+cleanupWidget
+;
 ActivationState
 topLevelWindowActivationState
 ;

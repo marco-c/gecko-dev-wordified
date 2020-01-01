@@ -1239,14 +1239,11 @@ AnswerPluginGotFocus
 (
 )
 ;
+NS_OVERRIDE
 virtual
 bool
-RecvSetNestedEventState
+RecvProcessNativeEventsInRPCCall
 (
-const
-bool
-&
-aState
 )
 ;
 #
