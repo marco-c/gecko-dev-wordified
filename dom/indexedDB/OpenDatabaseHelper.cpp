@@ -8668,6 +8668,7 @@ mgr
 EnsureOriginIsInitialized
 (
 mASCIIOrigin
+mPrivilege
 getter_AddRefs
 (
 dbDirectory

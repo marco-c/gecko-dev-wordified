@@ -603,6 +603,9 @@ AsyncConnectionHelper
 class
 CheckQuotaHelper
 ;
+enum
+FactoryPrivilege
+;
 class
 IndexedDatabaseManager
 MOZ_FINAL
@@ -1056,6 +1059,8 @@ const
 nsACString
 &
 aOrigin
+FactoryPrivilege
+aPrivilege
 nsIFile
 *
 *

@@ -4133,6 +4133,8 @@ const
 nsACString
 &
 aOrigin
+FactoryPrivilege
+mPrivilege
 nsIFile
 *
 *
@@ -4384,6 +4386,8 @@ start
 tracking
 this
 pattern
+for
+content
 .
 nsCOMPtr
 <
@@ -4402,6 +4406,14 @@ ss
 NS_ERROR_FAILURE
 )
 ;
+if
+(
+mPrivilege
+!
+=
+Chrome
+)
+{
 rv
 =
 ss
@@ -4427,6 +4439,7 @@ rv
 rv
 )
 ;
+}
 /
 /
 We
@@ -4915,6 +4928,14 @@ AppendElement
 fileManager
 )
 ;
+if
+(
+mPrivilege
+!
+=
+Chrome
+)
+{
 rv
 =
 ss
@@ -4931,6 +4952,7 @@ rv
 rv
 )
 ;
+}
 if
 (
 !
