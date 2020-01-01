@@ -888,6 +888,12 @@ init
 (
 )
 ;
+NavButtonSlider
+.
+init
+(
+)
+;
 /
 /
 show
