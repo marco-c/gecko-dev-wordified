@@ -20868,6 +20868,7 @@ CustomizeToolbar
 "
 chrome
 titlebar
+toolbar
 resizable
 dependent
 "
