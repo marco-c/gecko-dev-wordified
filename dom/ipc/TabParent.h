@@ -1156,6 +1156,10 @@ nsCString
 &
 aType
 const
+nsCString
+&
+aAccess
+const
 IPC
 :
 :

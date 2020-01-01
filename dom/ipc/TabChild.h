@@ -1401,6 +1401,10 @@ nsCString
 &
 aType
 const
+nsCString
+&
+aAccess
+const
 IPC
 :
 :
@@ -1433,6 +1437,7 @@ SendPContentPermissionRequestConstructor
 (
 aActor
 aType
+aAccess
 aPrincipal
 )
 ;
@@ -1463,6 +1468,10 @@ const
 nsCString
 &
 aType
+const
+nsCString
+&
+aAccess
 const
 IPC
 :
