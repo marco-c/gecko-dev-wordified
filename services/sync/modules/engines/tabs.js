@@ -2005,10 +2005,13 @@ closing
 :
 Svc
 .
-WinWatcher
+Obs
 .
-registerNotification
+add
 (
+"
+domwindowopened
+"
 this
 )
 ;

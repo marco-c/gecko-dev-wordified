@@ -7542,7 +7542,7 @@ Bookmark
 addObserver
 (
 this
-false
+true
 )
 ;
 /
@@ -7714,6 +7714,9 @@ nsINavBookmarkObserver
 Ci
 .
 nsINavBookmarkObserver_MOZILLA_1_9_1_ADDITIONS
+Ci
+.
+nsISupportsWeakReference
 ]
 )
 /

@@ -1883,7 +1883,7 @@ History
 addObserver
 (
 this
-false
+true
 )
 ;
 }
@@ -1910,6 +1910,9 @@ nsINavHistoryObserver
 Ci
 .
 nsINavHistoryObserver_MOZILLA_1_9_1_ADDITIONS
+Ci
+.
+nsISupportsWeakReference
 ]
 )
 onBeginUpdateBatch
