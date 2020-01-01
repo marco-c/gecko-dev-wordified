@@ -3300,6 +3300,9 @@ JSOP_DEFCONST
 case
 JSOP_SETCONST
 :
+case
+JSOP_ENTERWITH
+:
 isInlineable
 =
 canTrackVars
