@@ -3296,7 +3296,6 @@ AppUnitsPerInch
 )
 *
 POINTS_PER_INCH_FLOAT
-)
 ;
 }
 nscoord
