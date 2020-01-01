@@ -154,6 +154,11 @@ HTMLOptGroupElement
 (
 )
 ;
+NS_IMPL_FROMCONTENT_HTML_WITH_TAG
+(
+HTMLOptGroupElement
+optgroup
+)
 /
 /
 nsISupports

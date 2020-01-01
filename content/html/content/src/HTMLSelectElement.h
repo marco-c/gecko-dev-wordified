@@ -1611,6 +1611,14 @@ bool
 aIsDisabled
 )
 ;
+bool
+IsOptionDisabled
+(
+HTMLOptionElement
+*
+aOption
+)
+;
 /
 *
 *
