@@ -83,11 +83,13 @@ browser
 /
 browser
 /
-components
+base
 /
-tabview
+content
 /
 test
+/
+tabview
 /
 dummy_page
 .

@@ -78,11 +78,13 @@ browser
 /
 browser
 /
-components
+base
 /
-tabview
+content
 /
 test
+/
+tabview
 /
 "
 ;
