@@ -6202,7 +6202,7 @@ mParent
 mParent
 -
 >
-GetCachedChildCount
+ContentChildCount
 (
 )
 +
