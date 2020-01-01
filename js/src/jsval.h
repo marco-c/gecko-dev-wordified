@@ -2739,6 +2739,9 @@ JSBool
 b
 )
 {
+jsval_layout
+l
+;
 /
 /
 This
@@ -2799,9 +2802,6 @@ b
 =
 JS_FALSE
 )
-;
-jsval_layout
-l
 ;
 l
 .
@@ -3585,6 +3585,9 @@ JSBool
 b
 )
 {
+jsval_layout
+l
+;
 /
 /
 This
@@ -3645,9 +3648,6 @@ b
 =
 JS_FALSE
 )
-;
-jsval_layout
-l
 ;
 l
 .
