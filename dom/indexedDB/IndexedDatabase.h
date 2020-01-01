@@ -232,13 +232,6 @@ BEGIN_INDEXEDDB_NAMESPACE
 class
 FileInfo
 ;
-enum
-FactoryPrivilege
-{
-Content
-Chrome
-}
-;
 struct
 StructuredCloneReadInfo
 {
