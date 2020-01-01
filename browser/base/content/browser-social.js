@@ -1415,7 +1415,7 @@ iconContainer
 .
 firstChild
 ;
-let
+var
 panel
 =
 document
@@ -1431,7 +1431,7 @@ panel
 "
 )
 ;
-let
+var
 notifBrowser
 =
 document
@@ -1446,12 +1446,6 @@ notification
 browser
 "
 )
-;
-panel
-.
-hidden
-=
-false
 ;
 function
 sizePanelToContent
