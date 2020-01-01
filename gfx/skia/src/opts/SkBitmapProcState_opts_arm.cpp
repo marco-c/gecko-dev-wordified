@@ -58,7 +58,7 @@ h
 "
 #
 if
-__ARM_ARCH__
+SK_ARM_ARCH
 >
 =
 6
@@ -2569,7 +2569,7 @@ false
 endif
 /
 /
-__ARM_ARCH__
+SK_ARM_ARCH
 >
 =
 6
@@ -2756,7 +2756,7 @@ kIndex8_Config
 :
 #
 if
-__ARM_ARCH__
+SK_ARM_ARCH
 >
 =
 6
