@@ -1021,6 +1021,12 @@ FLAG_FORMAT_SVG
 <
 <
 5
+FLAG_FORMAT_WOFF
+=
+1
+<
+<
+6
 /
 /
 mask
@@ -1041,7 +1047,7 @@ FLAG_FORMAT_NOT_USED
 1
 <
 <
-6
+7
 )
 -
 1
