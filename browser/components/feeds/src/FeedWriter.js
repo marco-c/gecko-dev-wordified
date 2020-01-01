@@ -7130,7 +7130,7 @@ TYPE_VIDEO
 textfeedinfo1
 =
 "
-feedSubscriptionFeed1
+feedSubscriptionVideoPodcast1
 "
 ;
 break
@@ -7155,7 +7155,7 @@ default
 textfeedinfo1
 =
 "
-feedSubscriptionVideoPodcast1
+feedSubscriptionFeed1
 "
 ;
 }
@@ -7211,7 +7211,7 @@ TYPE_VIDEO
 textfeedinfo2
 =
 "
-feedSubscriptionFeed2
+feedSubscriptionVideoPodcast2
 "
 ;
 break
@@ -7236,7 +7236,7 @@ default
 textfeedinfo2
 =
 "
-feedSubscriptionVideoPodcast2
+feedSubscriptionFeed2
 "
 ;
 }
