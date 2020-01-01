@@ -12815,14 +12815,10 @@ children
 may
 occur
 .
-/
-/
 if
 (
 xulcontent
 )
-/
-/
 xulcontent
 -
 >
