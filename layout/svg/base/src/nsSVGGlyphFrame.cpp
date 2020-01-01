@@ -7670,11 +7670,6 @@ nsnull
 PRUint32
 flags
 =
-gfxTextRunFactory
-:
-:
-TEXT_NEED_BOUNDING_BOX
-|
 nsLayoutUtils
 :
 :
