@@ -1832,9 +1832,6 @@ Value
 rval
 )
 {
-Value
-v
-;
 if
 (
 argc
