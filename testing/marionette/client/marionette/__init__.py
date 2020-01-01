@@ -59,6 +59,7 @@ import
 Marionette
 HTMLElement
 Actions
+MultiActions
 from
 marionette_test
 import
