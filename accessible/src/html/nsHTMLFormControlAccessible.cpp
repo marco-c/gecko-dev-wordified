@@ -3643,7 +3643,7 @@ index
 {
 nsCOMPtr
 <
-nsIDOMHTMLElement
+nsIDOMNSHTMLElement
 >
 element
 (

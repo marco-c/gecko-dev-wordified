@@ -1300,9 +1300,10 @@ nsGenericElement
 aNodeInfo
 )
 {
-mIsElement
-=
-false
+UnsetFlags
+(
+NODE_IS_ELEMENT
+)
 ;
 }
 nsDocumentFragment
