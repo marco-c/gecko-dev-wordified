@@ -209,13 +209,6 @@ h
 #
 include
 "
-nsIDOMNavigatorGeolocation
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

@@ -209,7 +209,7 @@ h
 #
 include
 "
-nsIDOMNavigatorNetwork
+nsIMozNavigatorNetwork
 .
 h
 "
@@ -12955,7 +12955,7 @@ domNavigator
 ;
 nsCOMPtr
 <
-nsIDOMMozNavigatorNetwork
+nsIMozNavigatorNetwork
 >
 networkNavigator
 =
