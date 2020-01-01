@@ -14344,8 +14344,6 @@ and
 to
 match
 .
-/
-*
 if
 (
 IsIPAddress
@@ -14364,8 +14362,6 @@ PR_FALSE
 )
 ;
 }
-*
-/
 /
 /
 next
