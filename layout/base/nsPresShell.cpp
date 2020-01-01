@@ -30855,6 +30855,13 @@ canvasFrame
 CanvasArea
 (
 )
++
+builder
+.
+ToReferenceFrame
+(
+canvasFrame
+)
 ;
 }
 }
