@@ -185,8 +185,6 @@ CanvasClient
 :
 CreateCanvasClient
 (
-LayersBackend
-aParentBackend
 CompositableType
 aCompositableHostType
 CompositableForwarder
@@ -223,7 +221,12 @@ BUFFER_IMAGE_BUFFERED
 {
 if
 (
-aParentBackend
+aForwarder
+-
+>
+GetCompositorBackendType
+(
+)
 =
 =
 LAYERS_OPENGL

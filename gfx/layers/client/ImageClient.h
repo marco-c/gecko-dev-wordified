@@ -243,8 +243,6 @@ ImageClient
 >
 CreateImageClient
 (
-LayersBackend
-aBackendType
 CompositableType
 aImageHostType
 CompositableForwarder

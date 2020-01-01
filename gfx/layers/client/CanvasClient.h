@@ -190,8 +190,6 @@ CanvasClient
 >
 CreateCanvasClient
 (
-LayersBackend
-aBackendType
 CompositableType
 aImageHostType
 CompositableForwarder
