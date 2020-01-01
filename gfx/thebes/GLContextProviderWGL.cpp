@@ -3832,6 +3832,10 @@ Shutdown
 (
 )
 {
+gGlobalContext
+=
+nsnull
+;
 }
 }
 /

@@ -7950,6 +7950,10 @@ Shutdown
 (
 )
 {
+gGlobalContext
+=
+nsnull
+;
 }
 }
 /
