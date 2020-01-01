@@ -990,7 +990,9 @@ nsCSSOffsetState
 *
 aState
 nscoord
-aCBWidth
+aHorizontalPercentBasis
+nscoord
+aVerticalPercentBasis
 const
 nsMargin
 *
