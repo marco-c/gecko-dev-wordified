@@ -501,7 +501,7 @@ sEmptyList
 static
 *
 /
-nsresult
+void
 nsFrameList
 :
 :
@@ -528,17 +528,6 @@ new
 nsFrameList
 (
 )
-;
-if
-(
-!
-sEmptyList
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-return
-NS_OK
 ;
 }
 void

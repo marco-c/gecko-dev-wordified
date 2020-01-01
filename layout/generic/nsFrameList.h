@@ -1771,7 +1771,7 @@ const
 #
 endif
 static
-nsresult
+void
 Init
 (
 )
