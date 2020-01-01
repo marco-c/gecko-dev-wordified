@@ -3154,6 +3154,14 @@ ICC_CB_FACILITY_SIM
 SC
 "
 ;
+this
+.
+ICC_CB_FACILITY_FDN
+=
+"
+FD
+"
+;
 /
 /
 ICC
