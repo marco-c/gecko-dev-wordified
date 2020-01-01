@@ -1871,6 +1871,17 @@ child
 shape
 )
 ;
+StackShape
+:
+:
+AutoRooter
+childRoot
+(
+cx
+&
+child
+)
+;
 {
 UnrootedUnownedBaseShape
 nbase

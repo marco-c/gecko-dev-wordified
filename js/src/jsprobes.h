@@ -661,8 +661,7 @@ enterScript
 JSContext
 *
 UnrootedScript
-JSFunction
-*
+UnrootedFunction
 StackFrame
 *
 )
@@ -683,8 +682,7 @@ exitScript
 JSContext
 *
 UnrootedScript
-JSFunction
-*
+UnrootedFunction
 StackFrame
 *
 )
@@ -1024,8 +1022,7 @@ calloutBegin
 JSContext
 *
 cx
-JSFunction
-*
+UnrootedFunction
 fun
 )
 ;
@@ -1046,8 +1043,7 @@ calloutEnd
 JSContext
 *
 cx
-JSFunction
-*
+UnrootedFunction
 fun
 )
 ;
@@ -1568,8 +1564,7 @@ DTraceEnterJSFun
 JSContext
 *
 cx
-JSFunction
-*
+UnrootedFunction
 fun
 UnrootedScript
 script
@@ -1581,8 +1576,7 @@ DTraceExitJSFun
 JSContext
 *
 cx
-JSFunction
-*
+UnrootedFunction
 fun
 UnrootedScript
 script
@@ -1639,8 +1633,7 @@ ETWEnterJSFun
 JSContext
 *
 cx
-JSFunction
-*
+UnrootedFunction
 fun
 UnrootedScript
 script
@@ -1654,8 +1647,7 @@ ETWExitJSFun
 JSContext
 *
 cx
-JSFunction
-*
+UnrootedFunction
 fun
 UnrootedScript
 script
@@ -1746,8 +1738,7 @@ ETWCalloutBegin
 JSContext
 *
 cx
-JSFunction
-*
+UnrootedFunction
 fun
 )
 ;
@@ -1757,8 +1748,7 @@ ETWCalloutEnd
 JSContext
 *
 cx
-JSFunction
-*
+UnrootedFunction
 fun
 )
 ;
@@ -2016,8 +2006,7 @@ JSContext
 cx
 UnrootedScript
 script
-JSFunction
-*
+UnrootedFunction
 maybeFun
 StackFrame
 *
@@ -2160,8 +2149,7 @@ JSContext
 cx
 UnrootedScript
 script
-JSFunction
-*
+UnrootedFunction
 maybeFun
 StackFrame
 *
@@ -2899,8 +2887,7 @@ calloutBegin
 JSContext
 *
 cx
-JSFunction
-*
+UnrootedFunction
 fun
 )
 {
@@ -2944,8 +2931,7 @@ calloutEnd
 JSContext
 *
 cx
-JSFunction
-*
+UnrootedFunction
 fun
 )
 {

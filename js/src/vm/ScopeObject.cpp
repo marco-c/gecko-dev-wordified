@@ -11616,11 +11616,16 @@ scopes
 )
 return
 ;
+Rooted
+<
 DebugScopeObject
 *
+>
 debugScope
-=
+(
+cx
 NULL
+)
 ;
 if
 (
