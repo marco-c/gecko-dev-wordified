@@ -655,6 +655,20 @@ h
 #
 include
 "
+nsIContentSecurityPolicy
+.
+h
+"
+#
+include
+"
+nsIChannelPolicy
+.
+h
+"
+#
+include
+"
 mozilla
 /
 FunctionTimer
@@ -1732,6 +1746,9 @@ nsCString
 aAcceptHeader
 nsLoadFlags
 aLoadFlags
+nsIChannelPolicy
+*
+aPolicy
 )
 {
 nsresult
@@ -1923,6 +1940,7 @@ callbacks
 Notification
 Callbacks
 aLoadFlags
+aPolicy
 )
 ;
 if
@@ -5447,6 +5465,9 @@ imgIRequest
 *
 *
 aProxyRequest
+nsIChannelPolicy
+*
+aPolicy
 )
 {
 /
@@ -5611,6 +5632,7 @@ aReferrerURI
 aLoadGroup
 mAcceptHeader
 aLoadFlags
+aPolicy
 )
 ;
 if
@@ -5926,6 +5948,11 @@ imgIRequest
 *
 *
 aProxyRequest
+nsIChannelPolicy
+*
+aPolicy
+=
+nsnull
 )
 {
 LOG_SCOPE
@@ -6692,6 +6719,7 @@ aCX
 aLoadFlags
 aExistingRequest
 aProxyRequest
+aPolicy
 )
 ;
 }
@@ -7486,6 +7514,9 @@ aCacheKey
 imgIRequest
 *
 aRequest
+nsIChannelPolicy
+*
+aPolicy
 imgIRequest
 *
 *
@@ -7845,6 +7876,7 @@ requestFlags
 PR_TRUE
 aRequest
 _retval
+aPolicy
 )
 )
 {
@@ -8126,6 +8158,7 @@ aReferrerURI
 aLoadGroup
 mAcceptHeader
 requestFlags
+aPolicy
 )
 ;
 if

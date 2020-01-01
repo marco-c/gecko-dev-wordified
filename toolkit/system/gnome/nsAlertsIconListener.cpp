@@ -1452,6 +1452,7 @@ nsIRequest
 LOAD_NORMAL
 nsnull
 nsnull
+nsnull
 getter_AddRefs
 (
 mIconRequest
