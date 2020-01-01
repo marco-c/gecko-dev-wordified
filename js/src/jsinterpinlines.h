@@ -1217,6 +1217,9 @@ GetPropertyOperation
 JSContext
 *
 cx
+JSScript
+*
+script
 jsbytecode
 *
 pc
@@ -2278,6 +2281,9 @@ NameOperation
 JSContext
 *
 cx
+JSScript
+*
+script
 jsbytecode
 *
 pc

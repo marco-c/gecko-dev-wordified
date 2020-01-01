@@ -6216,6 +6216,10 @@ jsbytecode
 *
 pc
 ;
+JSScript
+*
+script
+=
 cx
 -
 >
@@ -6251,6 +6255,7 @@ cx
 GetNameFromBytecode
 (
 cx
+script
 pc
 JSOp
 (
@@ -14490,6 +14495,7 @@ if
 GetPropertyOperation
 (
 cx
+script
 regs
 .
 pc
@@ -15716,6 +15722,7 @@ if
 NameOperation
 (
 cx
+script
 regs
 .
 pc
