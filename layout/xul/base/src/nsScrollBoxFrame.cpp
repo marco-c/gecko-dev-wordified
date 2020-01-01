@@ -920,6 +920,10 @@ IsActivatedOnHover
 )
 )
 {
+StartRepeat
+(
+)
+;
 mTrustedEvent
 =
 NS_IS_TRUSTED_EVENT
@@ -931,10 +935,6 @@ DoMouseClick
 (
 aEvent
 mTrustedEvent
-)
-;
-StartRepeat
-(
 )
 ;
 }
