@@ -3426,7 +3426,6 @@ jsdc
 )
 ;
 extern
-const
 char
 *
 jsd_BuildNormalizedURL
