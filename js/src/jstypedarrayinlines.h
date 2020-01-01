@@ -172,8 +172,9 @@ been
 added
 to
 any
-ArrayBuffer
+ArrayBufferObject
 list
+.
 JSObject
 *
 const

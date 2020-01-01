@@ -1290,7 +1290,7 @@ of
 view
 in
 underlying
-ArrayBuffer
+ArrayBufferObject
 *
 /
 static
@@ -1318,7 +1318,7 @@ BYTELENGTH_SLOT
 /
 *
 Underlying
-ArrayBuffer
+ArrayBufferObject
 *
 /
 static
@@ -1330,7 +1330,7 @@ BUFFER_SLOT
 ;
 /
 *
-ArrayBuffers
+ArrayBufferObjects
 point
 to
 a
@@ -1355,7 +1355,7 @@ NEXT_VIEW_SLOT
 *
 *
 When
-ArrayBuffers
+ArrayBufferObjects
 are
 traced
 during
@@ -1364,10 +1364,10 @@ they
 construct
 a
 linked
+*
 list
 of
-*
-ArrayBuffers
+ArrayBufferObjects
 with
 more
 than
@@ -1376,15 +1376,16 @@ view
 chained
 through
 this
+*
 slot
 of
 the
-*
 first
 view
 of
 each
-ArrayBuffer
+ArrayBufferObject
+.
 *
 /
 static
