@@ -142,6 +142,9 @@ mozilla
 class
 WMFByteStream
 ;
+class
+WMFSourceReaderCallback
+;
 /
 /
 Decoder
@@ -308,6 +311,12 @@ RefPtr
 WMFByteStream
 >
 mByteStream
+;
+RefPtr
+<
+WMFSourceReaderCallback
+>
+mSourceReaderCallback
 ;
 /
 /
