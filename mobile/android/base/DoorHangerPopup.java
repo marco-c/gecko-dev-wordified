@@ -397,6 +397,7 @@ mAnchor
 aAnchor
 ;
 }
+Override
 public
 void
 handleMessage
@@ -497,6 +498,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -567,6 +569,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -649,6 +652,7 @@ the
 UI
 thread
 .
+Override
 public
 void
 onTabChanged

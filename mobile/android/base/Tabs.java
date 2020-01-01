@@ -660,6 +660,7 @@ OnAccountsUpdateListener
 (
 )
 {
+Override
 public
 void
 onAccountsUpdated
@@ -1057,6 +1058,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -1692,6 +1694,7 @@ INSTANCE
 /
 GeckoEventListener
 implementation
+Override
 public
 void
 handleMessage
@@ -2610,6 +2613,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -2781,6 +2785,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -3016,6 +3021,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run

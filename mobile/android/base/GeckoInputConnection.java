@@ -2314,6 +2314,7 @@ comments
 in
 notifyIMEEnabled
 }
+Override
 public
 void
 onTextChange
@@ -2493,6 +2494,7 @@ mUpdateExtract
 )
 ;
 }
+Override
 public
 void
 onSelectionChange
@@ -3059,6 +3061,7 @@ getInputConnectionHandler
 )
 ;
 }
+Override
 public
 InputConnection
 onCreateInputConnection
@@ -4064,6 +4067,7 @@ always
 return
 false
 }
+Override
 public
 boolean
 onKeyPreIme
@@ -4078,6 +4082,7 @@ return
 false
 ;
 }
+Override
 public
 boolean
 onKeyDown
@@ -4398,6 +4403,7 @@ return
 true
 ;
 }
+Override
 public
 boolean
 onKeyUp
@@ -4651,6 +4657,7 @@ return
 true
 ;
 }
+Override
 public
 boolean
 onKeyMultiple
@@ -4702,6 +4709,7 @@ return
 true
 ;
 }
+Override
 public
 boolean
 onKeyLongPress
@@ -4763,6 +4771,7 @@ return
 false
 ;
 }
+Override
 public
 boolean
 isIMEEnabled
@@ -4789,6 +4798,7 @@ mIMEState
 IME_STATE_DISABLED
 ;
 }
+Override
 public
 void
 notifyIME
@@ -4892,6 +4902,7 @@ break
 ;
 }
 }
+Override
 public
 void
 notifyIMEEnabled
@@ -5337,6 +5348,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -5490,6 +5502,7 @@ dgic
 mProxy
 ;
 }
+Override
 public
 Object
 invoke

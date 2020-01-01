@@ -856,6 +856,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -2379,6 +2380,7 @@ SurfaceHolder
 .
 Callback
 {
+Override
 public
 void
 surfaceChanged
@@ -2400,6 +2402,7 @@ height
 )
 ;
 }
+Override
 public
 void
 surfaceCreated
@@ -2409,6 +2412,7 @@ holder
 )
 {
 }
+Override
 public
 void
 surfaceDestroyed

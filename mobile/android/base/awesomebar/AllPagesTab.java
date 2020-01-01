@@ -840,6 +840,7 @@ OnItemClickListener
 (
 )
 {
+Override
 public
 void
 onItemClick
@@ -1081,6 +1082,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -1256,6 +1258,7 @@ FilterQueryProvider
 (
 )
 {
+Override
 public
 Cursor
 runQuery
@@ -1416,6 +1419,7 @@ mCursor
 cursor
 ;
 }
+Override
 public
 void
 onClick
@@ -1483,6 +1487,7 @@ title
 )
 ;
 }
+Override
 public
 ContextMenuSubject
 getSubject
@@ -1690,6 +1695,7 @@ mSearchEngine
 searchEngine
 ;
 }
+Override
 public
 void
 onClick
@@ -1721,6 +1727,7 @@ mSearchTerm
 )
 ;
 }
+Override
 public
 ContextMenuSubject
 getSubject
@@ -2786,6 +2793,7 @@ OnClickListener
 (
 )
 {
+Override
 public
 void
 onClick
@@ -2953,6 +2961,7 @@ OnLongClickListener
 (
 )
 {
+Override
 public
 boolean
 onLongClick
@@ -4075,6 +4084,7 @@ OnClickListener
 (
 )
 {
+Override
 public
 void
 onClick
@@ -4390,6 +4400,7 @@ AnimationListener
 (
 )
 {
+Override
 public
 void
 onAnimationStart
@@ -4442,6 +4453,7 @@ requestLayout
 )
 ;
 }
+Override
 public
 void
 onAnimationRepeat
@@ -4451,6 +4463,7 @@ a
 )
 {
 }
+Override
 public
 void
 onAnimationEnd
@@ -4507,6 +4520,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -4602,6 +4616,7 @@ anim2
 )
 ;
 }
+Override
 public
 void
 handleMessage
@@ -4640,6 +4655,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run

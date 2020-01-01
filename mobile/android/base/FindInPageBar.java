@@ -332,6 +332,7 @@ OnKeyPreImeListener
 (
 )
 {
+Override
 public
 boolean
 onKeyPreIme
@@ -455,6 +456,7 @@ OnWindowFocusChangeListener
 (
 )
 {
+Override
 public
 void
 onWindowFocusChanged
@@ -573,6 +575,7 @@ INPUT_METHOD_SERVICE
 /
 TextWatcher
 implementation
+Override
 public
 void
 afterTextChanged
@@ -603,6 +606,7 @@ toString
 )
 ;
 }
+Override
 public
 void
 beforeTextChanged
@@ -621,6 +625,7 @@ after
 /
 ignore
 }
+Override
 public
 void
 onTextChanged
@@ -645,6 +650,7 @@ View
 .
 OnClickListener
 implementation
+Override
 public
 void
 onClick

@@ -983,6 +983,7 @@ initPrefs
 )
 ;
 }
+Override
 public
 void
 destroy
@@ -1221,6 +1222,7 @@ Exception
 ;
 }
 }
+Override
 public
 void
 handleMessage
@@ -1319,6 +1321,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -1468,6 +1471,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -1538,6 +1542,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -1615,6 +1620,7 @@ UI
 thread
 *
 /
+Override
 public
 boolean
 onMotionEvent
@@ -1703,6 +1709,7 @@ UI
 thread
 *
 /
+Override
 public
 boolean
 onTouchEvent
@@ -1803,6 +1810,7 @@ UI
 thread
 *
 /
+Override
 public
 void
 notifyDefaultActionPrevented
@@ -1835,6 +1843,7 @@ thread
 .
 *
 /
+Override
 public
 void
 abortAnimation
@@ -2247,6 +2256,7 @@ thread
 .
 *
 /
+Override
 public
 void
 pageRectUpdated
@@ -4174,6 +4184,7 @@ yvel
 )
 ;
 }
+Override
 public
 PointF
 getVelocityVector
@@ -4345,6 +4356,7 @@ UI
 thread
 *
 /
+Override
 public
 final
 void
@@ -6592,6 +6604,7 @@ viewportMetrics
 )
 ;
 }
+Override
 public
 boolean
 getRedrawHint
@@ -7402,6 +7415,7 @@ thread
 .
 *
 /
+Override
 public
 void
 abortPanning
@@ -7417,6 +7431,7 @@ bounce
 )
 ;
 }
+Override
 public
 void
 setOverScrollMode
@@ -7440,6 +7455,7 @@ overscrollMode
 )
 ;
 }
+Override
 public
 int
 getOverScrollMode
