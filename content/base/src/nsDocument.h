@@ -3274,6 +3274,13 @@ sheetURI
 )
 ;
 virtual
+nsIStyleSheet
+*
+FirstAdditionalAuthorSheet
+(
+)
+;
+virtual
 nsIChannel
 *
 GetChannel
@@ -6252,7 +6259,7 @@ nsIStyleSheet
 >
 mAdditionalSheets
 [
-2
+SheetTypeCount
 ]
 ;
 /

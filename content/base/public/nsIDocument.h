@@ -3648,6 +3648,7 @@ additionalSheetType
 {
 eAgentSheet
 eUserSheet
+eAuthorSheet
 SheetTypeCount
 }
 ;
@@ -3673,6 +3674,15 @@ aType
 nsIURI
 *
 sheetURI
+)
+=
+0
+;
+virtual
+nsIStyleSheet
+*
+FirstAdditionalAuthorSheet
+(
 )
 =
 0
