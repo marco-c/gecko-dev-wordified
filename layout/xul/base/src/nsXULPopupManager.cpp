@@ -1295,10 +1295,6 @@ GetParent
 (
 )
 ;
-if
-(
-first
-)
 NS_ADDREF
 (
 *
