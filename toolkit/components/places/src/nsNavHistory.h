@@ -2462,6 +2462,10 @@ results
 nsresult
 RecalculateFrecencies
 (
+PRInt32
+aCount
+PRBool
+aRecalcOld
 )
 ;
 nsresult
@@ -2472,6 +2476,8 @@ mozIStorageStatement
 aStatement
 PRInt64
 aBindParameter
+PRInt32
+aCount
 )
 ;
 nsresult
@@ -3718,6 +3724,12 @@ frecency
 prefs
 PRInt32
 mNumVisitsForFrecency
+;
+PRInt32
+mNumCalculateFrecencyOnIdle
+;
+PRInt32
+mNumCalculateFrecencyOnMigrate
 ;
 PRInt32
 mFrecencyUpdateIdleTime
