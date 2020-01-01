@@ -199,6 +199,7 @@ syncFormHistory
 forms
 "
 )
+uploadMetaGlobal
 completed
 ;
 /
