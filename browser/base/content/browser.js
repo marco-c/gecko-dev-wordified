@@ -11941,6 +11941,12 @@ e
 }
 }
 }
+SocialUI
+.
+nonBrowserWindowInit
+(
+)
+;
 this
 .
 _delayedStartupTimeoutId
