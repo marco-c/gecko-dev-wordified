@@ -1372,8 +1372,7 @@ rv
 return
 rv
 ;
-rv
-=
+return
 importer
 -
 >
@@ -1382,8 +1381,5 @@ ImportHTMLFromURI
 bookmarksURI
 true
 )
-;
-return
-rv
 ;
 }

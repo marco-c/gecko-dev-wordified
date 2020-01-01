@@ -744,6 +744,10 @@ migration
 .
 properties
 "
+using
+namespace
+mozilla
+;
 /
 /
 /
