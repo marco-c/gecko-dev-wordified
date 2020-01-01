@@ -194,7 +194,7 @@ public
 :
 DASHReader
 (
-MediaDecoder
+AbstractMediaDecoder
 *
 aDecoder
 )

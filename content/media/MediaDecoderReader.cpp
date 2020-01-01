@@ -129,7 +129,7 @@ h
 #
 include
 "
-MediaDecoder
+AbstractMediaDecoder
 .
 h
 "
@@ -2265,7 +2265,7 @@ MediaDecoderReader
 :
 MediaDecoderReader
 (
-MediaDecoder
+AbstractMediaDecoder
 *
 aDecoder
 )
@@ -2375,11 +2375,6 @@ if
 mDecoder
 -
 >
-GetStateMachine
-(
-)
--
->
 IsShutdown
 (
 )
@@ -2472,11 +2467,6 @@ GetReentrantMonitor
 if
 (
 mDecoder
--
->
-GetStateMachine
-(
-)
 -
 >
 IsShutdown
@@ -2785,11 +2775,6 @@ if
 mDecoder
 -
 >
-GetStateMachine
-(
-)
--
->
 IsShutdown
 (
 )
@@ -2956,11 +2941,6 @@ if
 mDecoder
 -
 >
-GetStateMachine
-(
-)
--
->
 IsShutdown
 (
 )
@@ -3061,11 +3041,6 @@ GetReentrantMonitor
 if
 (
 mDecoder
--
->
-GetStateMachine
-(
-)
 -
 >
 IsShutdown

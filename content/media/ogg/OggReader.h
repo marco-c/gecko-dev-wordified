@@ -193,9 +193,6 @@ namespace
 mozilla
 {
 class
-MediaDecoder
-;
-class
 OggReader
 :
 public
@@ -205,7 +202,7 @@ public
 :
 OggReader
 (
-MediaDecoder
+AbstractMediaDecoder
 *
 aDecoder
 )

@@ -185,7 +185,7 @@ h
 #
 include
 "
-MediaDecoder
+AbstractMediaDecoder
 .
 h
 "
@@ -1094,7 +1094,7 @@ resource
 =
 nullptr
 ;
-MediaDecoder
+AbstractMediaDecoder
 *
 decoder
 =

@@ -170,6 +170,13 @@ MediaDecoderStateMachine
 .
 h
 "
+#
+include
+"
+AbstractMediaDecoder
+.
+h
+"
 namespace
 mozilla
 {
@@ -178,7 +185,7 @@ MediaPluginReader
 :
 MediaPluginReader
 (
-MediaDecoder
+AbstractMediaDecoder
 *
 aDecoder
 )
@@ -375,12 +382,7 @@ GetReentrantMonitor
 mDecoder
 -
 >
-GetStateMachine
-(
-)
--
->
-SetDuration
+SetMediaDuration
 (
 durationUs
 )
@@ -730,7 +732,7 @@ decoded
 =
 0
 ;
-MediaDecoder
+AbstractMediaDecoder
 :
 :
 AutoNotifyDecoded

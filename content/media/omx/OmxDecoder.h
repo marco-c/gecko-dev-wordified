@@ -63,7 +63,7 @@ h
 #
 include
 "
-MediaDecoder
+AbstractMediaDecoder
 .
 h
 "
@@ -162,14 +162,14 @@ typedef
 mozilla
 :
 :
-MediaDecoder
-MediaDecoder
+AbstractMediaDecoder
+AbstractMediaDecoder
 ;
 MediaResource
 *
 mResource
 ;
-MediaDecoder
+AbstractMediaDecoder
 *
 mDecoder
 ;
@@ -180,7 +180,7 @@ MediaStreamSource
 MediaResource
 *
 aResource
-MediaDecoder
+AbstractMediaDecoder
 *
 aDecoder
 )
@@ -337,8 +337,8 @@ typedef
 mozilla
 :
 :
-MediaDecoder
-MediaDecoder
+AbstractMediaDecoder
+AbstractMediaDecoder
 ;
 enum
 {
@@ -347,7 +347,7 @@ kPreferSoftwareCodecs
 1
 }
 ;
-MediaDecoder
+AbstractMediaDecoder
 *
 mDecoder
 ;
@@ -598,7 +598,7 @@ OmxDecoder
 MediaResource
 *
 aResource
-MediaDecoder
+AbstractMediaDecoder
 *
 aDecoder
 )

@@ -191,7 +191,7 @@ namespace
 mozilla
 {
 class
-MediaDecoder
+AbstractMediaDecoder
 ;
 /
 /
@@ -1971,7 +1971,7 @@ public
 :
 MediaDecoderReader
 (
-MediaDecoder
+AbstractMediaDecoder
 *
 aDecoder
 )
@@ -2723,7 +2723,7 @@ to
 the
 decoder
 .
-MediaDecoder
+AbstractMediaDecoder
 *
 GetDecoder
 (
@@ -2863,7 +2863,7 @@ owning
 decoder
 object
 .
-MediaDecoder
+AbstractMediaDecoder
 *
 mDecoder
 ;

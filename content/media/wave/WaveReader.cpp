@@ -122,7 +122,7 @@ h
 #
 include
 "
-MediaDecoder
+AbstractMediaDecoder
 .
 h
 "
@@ -709,7 +709,7 @@ WaveReader
 :
 WaveReader
 (
-MediaDecoder
+AbstractMediaDecoder
 *
 aDecoder
 )
@@ -862,12 +862,7 @@ GetReentrantMonitor
 mDecoder
 -
 >
-GetStateMachine
-(
-)
--
->
-SetDuration
+SetMediaDuration
 (
 static_cast
 <

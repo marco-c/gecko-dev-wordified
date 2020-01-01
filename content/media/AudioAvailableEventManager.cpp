@@ -160,7 +160,7 @@ nsRunnable
 {
 private
 :
-nsCOMPtr
+nsRefPtr
 <
 MediaDecoder
 >

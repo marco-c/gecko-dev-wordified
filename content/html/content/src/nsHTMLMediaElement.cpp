@@ -16294,7 +16294,7 @@ ProcessMediaFragmentURI
 mDecoder
 -
 >
-SetEndTime
+SetFragmentEndTime
 (
 mFragmentEnd
 )
@@ -20985,7 +20985,7 @@ mFragmentStart
 mDecoder
 -
 >
-SetEndTime
+SetFragmentEndTime
 (
 mFragmentEnd
 )

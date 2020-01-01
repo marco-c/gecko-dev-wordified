@@ -1189,7 +1189,7 @@ in
 microseconds
 .
 void
-SetEndTime
+SetMediaEndTime
 (
 int64_t
 aEndTime

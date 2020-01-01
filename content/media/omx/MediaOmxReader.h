@@ -141,13 +141,6 @@ h
 #
 include
 "
-MediaDecoder
-.
-h
-"
-#
-include
-"
 MediaDecoderReader
 .
 h
@@ -169,6 +162,9 @@ h
 namespace
 mozilla
 {
+class
+AbstractMediaDecoder
+;
 class
 MediaOmxReader
 :
@@ -211,7 +207,7 @@ public
 :
 MediaOmxReader
 (
-MediaDecoder
+AbstractMediaDecoder
 *
 aDecoder
 )
