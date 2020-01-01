@@ -1860,7 +1860,7 @@ document
 .
 Clone
 the
-HTMLValue
+nsICSSRule
 instead
 .
 nsCOMPtr
@@ -1868,8 +1868,6 @@ nsCOMPtr
 nsICSSRule
 >
 ruleClone
-;
-rv
 =
 value
 -
@@ -1881,17 +1879,6 @@ GetCSSStyleRuleValue
 >
 Clone
 (
-*
-getter_AddRefs
-(
-ruleClone
-)
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 nsCOMPtr
