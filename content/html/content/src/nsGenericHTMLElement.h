@@ -1554,6 +1554,8 @@ nsnull
 {
 PRBool
 isFocusable
+=
+PR_FALSE
 ;
 IsHTMLFocusable
 (
