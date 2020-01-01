@@ -1703,6 +1703,14 @@ GetScriptContext
 (
 )
 ;
+void
+PoisonOuterWindowProxy
+(
+JSObject
+*
+aObject
+)
+;
 virtual
 void
 OnFinalize
