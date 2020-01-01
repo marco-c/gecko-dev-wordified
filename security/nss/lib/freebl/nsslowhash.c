@@ -416,12 +416,17 @@ Exp
 *
 /
 #
+ifdef
+FREEBL_NO_DEPEND
+#
 include
 "
 stubs
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -2499,6 +2504,9 @@ rv
 CK_RV
 crv
 ;
+#
+ifdef
+FREEBL_NO_DEPEND
 PRBool
 nsprAvailable
 =
@@ -2523,6 +2531,8 @@ PR_TRUE
 :
 PR_FALSE
 ;
+#
+endif
 if
 (
 post_failed
