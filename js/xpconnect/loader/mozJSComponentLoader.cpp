@@ -1200,6 +1200,10 @@ ANDROID_LOG_INFO
 "
 Gecko
 "
+"
+%
+s
+"
 utf8str
 .
 get

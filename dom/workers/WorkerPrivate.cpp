@@ -5999,6 +5999,10 @@ ANDROID_LOG_INFO
 "
 Gecko
 "
+"
+%
+s
+"
 msg
 .
 get

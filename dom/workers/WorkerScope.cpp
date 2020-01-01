@@ -2700,6 +2700,10 @@ ANDROID_LOG_INFO
 "
 Gecko
 "
+"
+%
+s
+"
 buffer
 .
 ptr
