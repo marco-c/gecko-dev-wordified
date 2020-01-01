@@ -1,6 +1,6 @@
 #
 Copyright
-2009
+2011
 Google
 Inc
 .
@@ -290,8 +290,7 @@ is
 called
 to
 handle
-Web
-Socket
+WebSocket
 request
 .
 "
@@ -417,6 +416,7 @@ s
 error
 .
 log
+.
 "
 "
 "
@@ -500,7 +500,7 @@ is
 not
 None
 :
-             
+            
 self
 .
 log_error
@@ -559,9 +559,9 @@ logging
 .
 getLogger
 (
-"
+'
 mod_pywebsocket
-"
+'
 )
 .
 addHandler
@@ -739,7 +739,7 @@ get_options
 .
 get
 (
-		
+            
 _PYOPT_ALLOW_DRAFT75
 None
 )
@@ -768,6 +768,7 @@ request
 .
 log_error
 (
+            
 '
 mod_pywebsocket
 :
@@ -780,7 +781,7 @@ r
 request
 .
 ws_resource
-                          
+            
 apache
 .
 APLOG_DEBUG
@@ -925,6 +926,24 @@ return
 apache
 .
 DECLINED
+    
+#
+Set
+assbackwards
+to
+suppress
+response
+header
+generation
+by
+Apache
+.
+    
+request
+.
+assbackwards
+=
+1
     
 return
 apache
