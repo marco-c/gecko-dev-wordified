@@ -31518,6 +31518,17 @@ fn
 return
 false
 ;
+/
+/
+This
+flows
+into
+FunctionBox
+so
+must
+be
+tenured
+.
 RootedFunction
 fun
 (
@@ -31557,7 +31568,7 @@ JSFunction
 :
 :
 FinalizeKind
-GenericObject
+TenuredObject
 )
 )
 ;
