@@ -1,16 +1,17 @@
-#
+/
+/
 -
 *
 -
 Mode
 :
-C
+Java
 ;
 tab
 -
 width
 :
-4
+2
 ;
 indent
 -
@@ -30,7 +31,8 @@ offset
 -
 *
 -
-#
+/
+*
 This
 Source
 Code
@@ -44,7 +46,7 @@ of
 the
 Mozilla
 Public
-#
+*
 License
 v
 .
@@ -63,7 +65,7 @@ not
 distributed
 with
 this
-#
+*
 file
 You
 can
@@ -85,6 +87,8 @@ MPL
 0
 /
 .
+*
+/
 /
 /
 dialog
