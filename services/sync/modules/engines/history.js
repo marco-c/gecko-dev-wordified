@@ -869,7 +869,7 @@ date
 +
 "
 FROM
-moz_historyvisits
+moz_historyvisits_view
 "
 +
 "
@@ -886,7 +886,7 @@ id
 +
 "
 FROM
-moz_places
+moz_places_view
 "
 +
 "
@@ -963,7 +963,7 @@ frecency
 +
 "
 FROM
-moz_places
+moz_places_view
 "
 +
 "
@@ -1074,7 +1074,7 @@ url
 +
 "
 FROM
-moz_places
+moz_places_view
 "
 +
 "
