@@ -1648,6 +1648,9 @@ self
 unused
 <
 <
+BaseType
+:
+:
 Send__delete__
 (
 self
@@ -1863,6 +1866,9 @@ NULL
 unused
 <
 <
+BaseType
+:
+:
 Send__delete__
 (
 self
