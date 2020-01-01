@@ -7209,7 +7209,7 @@ MIRType_Value
 lir
 =
 new
-LCacheSetPropertyV
+LSetPropertyCacheV
 (
 obj
 )
@@ -7220,7 +7220,7 @@ if
 useBox
 (
 lir
-LCacheSetPropertyV
+LSetPropertyCacheV
 :
 :
 Value
@@ -7254,7 +7254,7 @@ value
 lir
 =
 new
-LCacheSetPropertyT
+LSetPropertyCacheT
 (
 obj
 value
