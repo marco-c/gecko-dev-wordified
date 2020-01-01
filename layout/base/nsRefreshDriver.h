@@ -1619,8 +1619,10 @@ swap
 .
 nsTArray
 <
+nsCOMPtr
+<
 nsIDocument
-*
+>
 >
 mBeforePaintTargets
 ;

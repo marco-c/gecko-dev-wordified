@@ -1745,8 +1745,10 @@ needed
 .
 nsTArray
 <
+nsCOMPtr
+<
 nsIDocument
-*
+>
 >
 targets
 ;
