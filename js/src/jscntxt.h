@@ -5207,7 +5207,6 @@ resolvingList
 ;
 /
 *
-*
 True
 if
 generating
@@ -5217,15 +5216,6 @@ to
 prevent
 runaway
 recursion
-.
-*
-NB
-:
-generatingError
-packs
-with
-throwing
-below
 .
 *
 /

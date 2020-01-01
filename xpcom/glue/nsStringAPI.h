@@ -7432,9 +7432,12 @@ start
 )
 =
 =
+uintptr_t
+(
 end
 -
 start
+)
 "
 string
 too
@@ -7599,9 +7602,12 @@ start
 )
 =
 =
+uintptr_t
+(
 end
 -
 start
+)
 "
 string
 too

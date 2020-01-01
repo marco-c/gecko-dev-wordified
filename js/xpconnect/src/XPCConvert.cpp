@@ -5965,6 +5965,11 @@ GetJSContext
 (
 )
 xpcscope
+-
+>
+GetGlobalJSObject
+(
+)
 &
 triedToWrap
 )

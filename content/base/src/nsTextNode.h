@@ -565,7 +565,7 @@ aCloneText
 )
 const
 ;
-nsresult
+void
 BindToAttribute
 (
 nsIAttribute
@@ -573,7 +573,7 @@ nsIAttribute
 aAttr
 )
 ;
-nsresult
+void
 UnbindFromAttribute
 (
 )

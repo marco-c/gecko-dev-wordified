@@ -2455,6 +2455,9 @@ single
 address
 .
 #
+ifdef
+_MSC_VER
+#
 pragma
 warning
 (
@@ -2462,6 +2465,8 @@ disable
 :
 4068
 )
+#
+endif
 #
 pragma
 GCC
