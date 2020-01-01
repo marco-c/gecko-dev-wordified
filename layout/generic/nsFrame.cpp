@@ -42799,7 +42799,7 @@ margin
 ;
 marginBounds
 .
-Inflate
+SaturatingInflate
 (
 margin
 )
@@ -42816,7 +42816,7 @@ ScrollableOverflow
 ;
 so
 .
-UnionRectEdges
+SaturatingUnionRectEdges
 (
 so
 marginBounds
