@@ -5339,7 +5339,6 @@ T
 v
 )
 ;
-inline
 void
 PutActivationObjects
 (
