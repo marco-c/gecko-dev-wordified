@@ -2844,16 +2844,6 @@ LayerManager
 LAYERS_BASIC
 )
 {
-/
-/
-This
-require
-Cairo
-to
-be
-thread
--
-safe
 nsRefPtr
 <
 LayerManager
