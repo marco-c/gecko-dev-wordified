@@ -7613,7 +7613,7 @@ available
 .
 .
 .
-NS_ERROR
+NS_WARNING
 (
 "
 window
