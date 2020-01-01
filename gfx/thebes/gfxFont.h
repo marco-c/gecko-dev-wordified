@@ -3117,6 +3117,10 @@ mMatchRank
 (
 0
 )
+mCount
+(
+0
+)
 {
 }
 const
@@ -3135,6 +3139,9 @@ nsRefPtr
 gfxFontEntry
 >
 mBestMatch
+;
+PRUint32
+mCount
 ;
 }
 ;
