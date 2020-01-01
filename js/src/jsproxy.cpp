@@ -8827,6 +8827,16 @@ ifdef
 DEBUG
 if
 (
+!
+trc
+-
+>
+runtime
+-
+>
+gcDisableStrictProxyCheckingCount
+&
+&
 obj
 -
 >
