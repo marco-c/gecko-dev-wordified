@@ -469,7 +469,7 @@ namespace
 ion
 {
 class
-BytecodeAnalyzer
+IonBuilder
 :
 public
 MIRGenerator
@@ -980,7 +980,7 @@ ifFalse
 ;
 public
 :
-BytecodeAnalyzer
+IonBuilder
 (
 JSContext
 *
