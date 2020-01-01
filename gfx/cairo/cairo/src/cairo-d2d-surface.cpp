@@ -375,7 +375,7 @@ INITGUID
 #
 include
 "
-cairo
+cairoint
 .
 h
 "
