@@ -16166,14 +16166,6 @@ IsEnabled
 ;
 if
 (
-aIsDynamic
-)
-mIsWritingFastLoad
-=
-useXULCache
-;
-if
-(
 useXULCache
 &
 &
