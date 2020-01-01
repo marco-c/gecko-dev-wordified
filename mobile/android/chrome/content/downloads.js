@@ -100,6 +100,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 function
 dump
 (
@@ -814,6 +819,7 @@ download
 ;
 while
 (
+(
 download
 =
 this
@@ -822,6 +828,7 @@ _privateDownloads
 .
 pop
 (
+)
 )
 )
 {
