@@ -4,7 +4,7 @@ Copyright
 (
 c
 )
-2009
+2010
 Google
 Inc
 .
@@ -2380,6 +2380,9 @@ true
 ;
 if
 (
+generate_dumps_
+&
+&
 !
 google_breakpad
 :
@@ -2428,6 +2431,18 @@ info
 pid_
 =
 crashing_pid
+;
+info
+.
+crash_context
+=
+crash_context
+;
+info
+.
+crash_context_size
+=
+kCrashContextSize
 ;
 dump_callback_
 (
