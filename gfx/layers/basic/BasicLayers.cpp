@@ -2141,6 +2141,8 @@ const
 nsIntSize
 &
 aSize
+PRUint32
+aFlags
 )
 ;
 /
@@ -4459,6 +4461,8 @@ const
 nsIntSize
 &
 aSize
+PRUint32
+aFlags
 )
 {
 return
