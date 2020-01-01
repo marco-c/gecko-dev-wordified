@@ -608,11 +608,15 @@ len
 :
 arr
 (
+len
+?
 new
 T
 [
 len
 ]
+:
+0
 )
 length
 (
