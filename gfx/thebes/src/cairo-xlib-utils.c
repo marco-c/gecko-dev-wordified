@@ -446,6 +446,13 @@ stdlib
 h
 >
 #
+include
+<
+stdint
+.
+h
+>
+#
 if
 HAVE_STDINT_H
 #
