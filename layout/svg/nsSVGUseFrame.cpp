@@ -1591,6 +1591,14 @@ CreateAnonymousContent
 (
 )
 ;
+nsSVGEffects
+:
+:
+InvalidateRenderingObservers
+(
+this
+)
+;
 if
 (
 !
