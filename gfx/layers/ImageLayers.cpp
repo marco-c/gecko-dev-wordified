@@ -1480,6 +1480,10 @@ NS_ASSERTION
 (
 !
 mActiveImage
+|
+|
+!
+aData
 "
 No
 active
@@ -1489,6 +1493,11 @@ when
 SetRemoteImageData
 is
 called
+with
+non
+-
+NULL
+aData
 .
 "
 )
@@ -1497,6 +1506,10 @@ NS_ASSERTION
 (
 !
 mRemoteData
+|
+|
+!
+aData
 "
 No
 remote
@@ -1506,6 +1519,11 @@ when
 SetRemoteImageData
 is
 called
+with
+non
+-
+NULL
+aData
 .
 "
 )
