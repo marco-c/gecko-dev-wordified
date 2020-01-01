@@ -1969,10 +1969,10 @@ true
 if
 the
 name
-existed
+is
+empty
 false
-if
-not
+otherwise
 *
 /
 PRBool
@@ -1983,7 +1983,6 @@ nsAString
 aName
 )
 {
-return
 GetAttr
 (
 kNameSpaceID_None
@@ -1992,6 +1991,14 @@ nsGkAtoms
 :
 name
 aName
+)
+;
+return
+!
+aName
+.
+IsEmpty
+(
 )
 ;
 }
@@ -14295,6 +14302,9 @@ yVal
 )
 ;
 }
+return
+NS_OK
+;
 }
 /
 /

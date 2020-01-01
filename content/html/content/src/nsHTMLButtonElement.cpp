@@ -3005,9 +3005,6 @@ submit
 nsAutoString
 name
 ;
-if
-(
-!
 GetAttr
 (
 kNameSpaceID_None
@@ -3016,6 +3013,14 @@ nsGkAtoms
 :
 name
 name
+)
+;
+if
+(
+name
+.
+IsEmpty
+(
 )
 )
 {
