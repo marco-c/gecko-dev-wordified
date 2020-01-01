@@ -1126,6 +1126,14 @@ True
 try
 :
             
+dumpDir
+=
+tempfile
+.
+mkdtemp
+(
+)
+            
 remoteCrashDir
 =
 self
@@ -1222,14 +1230,6 @@ failure
                 
 return
 True
-            
-dumpDir
-=
-tempfile
-.
-mkdtemp
-(
-)
             
 self
 .
