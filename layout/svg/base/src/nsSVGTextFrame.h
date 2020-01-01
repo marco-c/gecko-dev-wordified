@@ -693,6 +693,8 @@ const
 gfxMatrix
 &
 aToBBoxUserspace
+PRUint32
+aFlags
 )
 ;
 /

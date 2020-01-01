@@ -2948,6 +2948,8 @@ const
 gfxMatrix
 &
 aToBBoxUserspace
+PRUint32
+aFlags
 )
 {
 NS_ASSERTION
