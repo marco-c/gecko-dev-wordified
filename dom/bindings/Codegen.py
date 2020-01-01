@@ -77734,35 +77734,22 @@ root
 ;
         
 #
-In
-the
-header
-#
-pragma
-once
-before
-everything
+And
+now
+some
+include
+guards
         
 self
 .
 root
 =
-CGWrapper
+CGIncludeGuard
 (
+interfaceName
 self
 .
 root
-declarePre
-=
-"
-#
-pragma
-once
-\
-n
-\
-n
-"
 )
         
 #
