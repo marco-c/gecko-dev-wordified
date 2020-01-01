@@ -4092,7 +4092,7 @@ parentAcc
 descendantAcc
 -
 >
-GetParent
+Parent
 (
 )
 ;

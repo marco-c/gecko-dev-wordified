@@ -780,7 +780,7 @@ parent
 aAccessible
 -
 >
-GetParent
+Parent
 (
 )
 ;
@@ -2084,7 +2084,7 @@ parent
 parent
 -
 >
-GetParent
+Parent
 (
 )
 )
@@ -2175,7 +2175,7 @@ parent
 parent
 -
 >
-GetParent
+Parent
 (
 )
 )
@@ -2509,7 +2509,7 @@ accessible
 accessible
 -
 >
-GetParent
+Parent
 (
 )
 )

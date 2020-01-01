@@ -2901,7 +2901,7 @@ mParent
 mAccessible
 -
 >
-GetParent
+Parent
 (
 )
 ;

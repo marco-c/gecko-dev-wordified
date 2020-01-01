@@ -3579,13 +3579,12 @@ cache
 nsAccessible
 *
 parent
-(
+=
 accessible
 -
 >
-GetParent
+Parent
 (
-)
 )
 ;
 if
@@ -9429,7 +9428,7 @@ nsIAccessibleEvent
 :
 :
 EVENT_REORDER
-GetParent
+Parent
 (
 )
 eAutoDetect
@@ -11532,7 +11531,7 @@ ancestor
 ancestor
 -
 >
-GetParent
+Parent
 (
 )
 ;
@@ -12106,7 +12105,7 @@ parent
 aChild
 -
 >
-GetParent
+Parent
 (
 )
 ;

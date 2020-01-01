@@ -4250,11 +4250,9 @@ if
 !
 accWrap
 )
-{
 return
 nsnull
 ;
-}
 nsAccessible
 *
 accParent
@@ -4262,7 +4260,7 @@ accParent
 accWrap
 -
 >
-GetParent
+Parent
 (
 )
 ;
@@ -4545,7 +4543,7 @@ parent
 accWrap
 -
 >
-GetParent
+Parent
 (
 )
 ;
@@ -4554,7 +4552,6 @@ if
 !
 parent
 )
-{
 return
 -
 1
@@ -4563,7 +4560,6 @@ return
 /
 No
 parent
-}
 return
 parent
 -
