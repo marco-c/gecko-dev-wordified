@@ -1669,6 +1669,17 @@ JSObject
 wrapper
 )
 ;
+void
+finalize
+(
+JSContext
+*
+cx
+JSObject
+*
+proxy
+)
+;
 static
 nsOuterWindowProxy
 singleton
