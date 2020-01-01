@@ -4795,6 +4795,11 @@ name
 "
 :
 activity
+"
+description
+"
+:
+description
 }
 )
 ;
