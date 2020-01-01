@@ -2457,6 +2457,12 @@ aPanel
 {
 if
 (
+!
+this
+.
+_popup
+|
+|
 aPanel
 !
 =
