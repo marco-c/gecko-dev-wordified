@@ -587,13 +587,6 @@ h
 #
 include
 "
-nsIXBLService
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h
