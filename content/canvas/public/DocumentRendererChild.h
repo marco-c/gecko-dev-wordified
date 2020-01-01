@@ -76,13 +76,6 @@ h
 #
 include
 "
-nsICanvasRenderingContextInternal
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

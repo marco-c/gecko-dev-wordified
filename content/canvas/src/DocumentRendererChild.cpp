@@ -114,6 +114,13 @@ h
 #
 include
 "
+nsIDocShell
+.
+h
+"
+#
+include
+"
 nsIDocShellTreeNode
 .
 h

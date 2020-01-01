@@ -76,13 +76,6 @@ h
 #
 include
 "
-nsICanvasRenderingContextInternal
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -101,6 +94,9 @@ gfxContext
 .
 h
 "
+class
+nsICanvasRenderingContextInternal
+;
 namespace
 mozilla
 {
