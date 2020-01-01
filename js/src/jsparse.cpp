@@ -55823,9 +55823,11 @@ chars
 jschar
 *
 )
-JS_malloc
-(
 cx
+-
+>
+malloc
+(
 (
 length
 +
@@ -55861,9 +55863,11 @@ if
 str
 )
 {
-JS_free
-(
 cx
+-
+>
+free
+(
 chars
 )
 ;

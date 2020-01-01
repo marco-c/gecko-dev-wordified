@@ -2154,7 +2154,7 @@ site
 JSCallsite
 *
 )
-malloc
+js_malloc
 (
 sizeof
 (

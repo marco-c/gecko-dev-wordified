@@ -674,7 +674,7 @@ size_t
 size
 )
 {
-free
+js_free
 (
 item
 )
@@ -729,7 +729,7 @@ flag
 =
 HT_FREE_ENTRY
 )
-free
+js_free
 (
 he
 )

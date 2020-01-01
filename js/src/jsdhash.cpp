@@ -905,7 +905,7 @@ nbytes
 )
 {
 return
-malloc
+js_malloc
 (
 nbytes
 )
@@ -925,7 +925,7 @@ void
 ptr
 )
 {
-free
+js_free
 (
 ptr
 )
@@ -1239,7 +1239,7 @@ JSDHashEntryStub
 )
 entry
 ;
-free
+js_free
 (
 (
 void
@@ -1336,7 +1336,7 @@ table
 JSDHashTable
 *
 )
-malloc
+js_malloc
 (
 sizeof
 *
@@ -1364,7 +1364,7 @@ capacity
 )
 )
 {
-free
+js_free
 (
 table
 )
@@ -1393,7 +1393,7 @@ JS_DHashTableFinish
 table
 )
 ;
-free
+js_free
 (
 table
 )

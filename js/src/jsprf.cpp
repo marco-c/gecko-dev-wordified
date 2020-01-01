@@ -2631,7 +2631,7 @@ prec
 flags
 )
 ;
-free
+js_free
 (
 s
 )
@@ -3845,7 +3845,7 @@ nas
 =
 nasArray
 )
-free
+js_free
 (
 nas
 )
@@ -4053,7 +4053,7 @@ nas
 =
 nasArray
 )
-free
+js_free
 (
 nas
 )
@@ -4551,7 +4551,7 @@ nas
 nasArray
 )
 )
-free
+js_free
 (
 nas
 )
@@ -6236,7 +6236,7 @@ nasArray
 )
 )
 {
-free
+js_free
 (
 nas
 )
@@ -6620,7 +6620,7 @@ newbase
 char
 *
 )
-realloc
+js_realloc
 (
 ss
 -
@@ -6638,7 +6638,7 @@ newbase
 char
 *
 )
-malloc
+js_malloc
 (
 newlen
 )
@@ -6831,7 +6831,7 @@ char
 mem
 )
 {
-free
+js_free
 (
 mem
 )
@@ -6906,7 +6906,7 @@ ss
 base
 )
 {
-free
+js_free
 (
 ss
 .
@@ -7440,7 +7440,7 @@ ss
 base
 )
 {
-free
+js_free
 (
 ss
 .

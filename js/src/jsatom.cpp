@@ -4957,9 +4957,11 @@ flatChars
 (
 )
 )
-JS_free
-(
 cx
+-
+>
+free
+(
 chars
 )
 ;
