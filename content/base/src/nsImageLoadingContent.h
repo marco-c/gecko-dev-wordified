@@ -1994,6 +1994,16 @@ s
 tracker
 .
 *
+*
+No
+-
+op
+if
+aImage
+is
+null
+.
+*
 /
 nsresult
 TrackImage
