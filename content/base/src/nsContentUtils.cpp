@@ -19944,6 +19944,8 @@ aPrincipal
 nsIScriptGlobalObject
 *
 aEventObject
+bool
+aSVGDocument
 nsIDOMDocument
 *
 *
@@ -19964,6 +19966,7 @@ aBaseURI
 aPrincipal
 PR_TRUE
 aEventObject
+aSVGDocument
 )
 ;
 NS_ENSURE_SUCCESS

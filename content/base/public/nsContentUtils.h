@@ -6779,6 +6779,14 @@ got
 .
 *
 param
+aSVGDocument
+Force
+SVG
+Document
+creation
+.
+*
+param
 aResult
 [
 out
@@ -6818,6 +6826,8 @@ aPrincipal
 nsIScriptGlobalObject
 *
 aScriptObject
+bool
+aSVGDocument
 nsIDOMDocument
 *
 *
