@@ -123,7 +123,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsJSThingHashtable
 .
 h
 "
@@ -706,7 +706,7 @@ nsCSSStyleSheet
 >
 mStyleSheetTable
 ;
-nsDataHashtable
+nsJSThingHashtable
 <
 nsURIHashKey
 JSScript
