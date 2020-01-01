@@ -1027,7 +1027,7 @@ document
 getElementById
 (
 "
-resetBookmarks
+deleteBookmarks
 "
 )
 .
@@ -1207,7 +1207,7 @@ document
 getElementById
 (
 "
-resetBookmarks
+deleteBookmarks
 "
 )
 .
