@@ -7892,13 +7892,13 @@ NIns
 *
 targ
 bool
-far
+isfar
 )
 {
 /
 /
 ignore
-far
+isfar
 -
 -
 we
@@ -7931,7 +7931,7 @@ false
 (
 void
 )
-far
+isfar
 ;
 NIns
 *
