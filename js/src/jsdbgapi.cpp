@@ -1484,6 +1484,14 @@ compartment
 clearTraps
 (
 cx
+-
+>
+runtime
+-
+>
+defaultFreeOp
+(
+)
 )
 ;
 }
