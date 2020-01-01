@@ -4255,6 +4255,15 @@ const
 ;
 inline
 size_t
+dynamicSlotSize
+(
+JSUsableSizeFun
+usf
+)
+const
+;
+inline
+size_t
 numFixedSlots
 (
 )
