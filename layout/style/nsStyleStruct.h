@@ -9670,7 +9670,7 @@ reset
 nsStyleCoord
 mTransformOrigin
 [
-2
+3
 ]
 ;
 /
@@ -9681,6 +9681,12 @@ reset
 percent
 coord
 calc
+3rd
+param
+is
+coord
+calc
+only
 nsStyleCoord
 mChildPerspective
 ;
