@@ -675,6 +675,15 @@ LDoubleToInt32
 lir
 )
 ;
+virtual
+bool
+visitInitializedLength
+(
+LInitializedLength
+*
+lir
+)
+;
 }
 ;
 }

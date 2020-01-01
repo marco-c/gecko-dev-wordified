@@ -1016,6 +1016,15 @@ LCallGeneric
 call
 )
 ;
+virtual
+bool
+visitBoundsCheck
+(
+LBoundsCheck
+*
+lir
+)
+;
 /
 /
 Out
