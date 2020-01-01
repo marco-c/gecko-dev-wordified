@@ -4537,6 +4537,10 @@ location
 identifier
 retType
 args
+                                   
+static
+=
+True
 )
                 
 #
