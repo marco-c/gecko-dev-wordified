@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsIURI
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h
@@ -175,6 +168,9 @@ h
 "
 class
 nsScriptLoadRequest
+;
+class
+nsIURI
 ;
 /
 /
