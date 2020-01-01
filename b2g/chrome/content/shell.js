@@ -502,6 +502,9 @@ device
 -
 storage
 '
+'
+alarms
+'
 ]
 ;
 urls
