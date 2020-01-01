@@ -490,6 +490,13 @@ h
 #
 include
 "
+nsIAccessibleTypes
+.
+h
+"
+#
+include
+"
 nsIAccessNode
 .
 h
