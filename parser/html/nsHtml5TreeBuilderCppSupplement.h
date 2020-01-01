@@ -508,9 +508,12 @@ nsNodeUtils
 h
 "
 #
-define
-NS_HTML5_TREE_DEPTH_LIMIT
-200
+include
+"
+nsIFrame
+.
+h
+"
 class
 nsPresContext
 ;
@@ -3337,7 +3340,7 @@ deepTreeSurrogateParent
 currentPtr
 >
 =
-NS_HTML5_TREE_DEPTH_LIMIT
+MAX_REFLOW_DEPTH
 &
 &
 !
@@ -3703,7 +3706,7 @@ deepTreeSurrogateParent
 currentPtr
 <
 =
-NS_HTML5_TREE_DEPTH_LIMIT
+MAX_REFLOW_DEPTH
 )
 {
 deepTreeSurrogateParent
