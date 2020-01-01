@@ -14545,6 +14545,7 @@ typeStr
 ;
 for
 (
+unsigned
 int
 i
 =
@@ -16282,10 +16283,10 @@ none
 of
 them
 succeed
-PRInt32
+PRUint32
 lastCount
 =
-PR_INT32_MAX
+PR_UINT32_MAX
 ;
 while
 (
