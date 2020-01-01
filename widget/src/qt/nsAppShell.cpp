@@ -480,6 +480,13 @@ prenv
 h
 "
 #
+include
+"
+nsQAppInstance
+.
+h
+"
+#
 ifdef
 MOZ_LOGGING
 #
@@ -535,6 +542,13 @@ nsAppShell
 (
 )
 {
+nsQAppInstance
+:
+:
+Release
+(
+)
+;
 }
 nsresult
 nsAppShell
