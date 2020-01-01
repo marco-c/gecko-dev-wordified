@@ -2724,11 +2724,13 @@ aNode
 &
 this
 .
-_annotations
+annotations
 .
 itemHasAnnotation
 (
 aNode
+.
+itemId
 LMANNO_FEEDURI
 )
 ;
