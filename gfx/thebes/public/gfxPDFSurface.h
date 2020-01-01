@@ -483,7 +483,7 @@ aStream
 const
 gfxSize
 &
-aSizeInPoints
+aSizeInPonits
 )
 ;
 virtual

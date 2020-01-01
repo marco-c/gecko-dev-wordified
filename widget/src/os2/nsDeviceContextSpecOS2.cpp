@@ -2549,12 +2549,12 @@ points
 width
 /
 =
-TWIPS_PER_POINT_FLOAT
+20
 ;
 height
 /
 =
-TWIPS_PER_POINT_FLOAT
+20
 ;
 nsCOMPtr
 <
