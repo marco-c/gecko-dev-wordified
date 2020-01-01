@@ -476,12 +476,9 @@ const
 CodeModules
 *
 modules
-SymbolSupplier
+StackFrameSymbolizer
 *
-supplier
-SourceLineResolverInterface
-*
-resolver
+frame_symbolizer
 )
 ;
 /

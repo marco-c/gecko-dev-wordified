@@ -438,7 +438,7 @@ buffer
 ;
 EXPECT_LT
 (
-0
+0U
 path_length
 )
 ;

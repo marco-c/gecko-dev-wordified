@@ -322,8 +322,9 @@ h
 #
 include
 "
-.
-.
+client
+/
+windows
 /
 crash_generation
 /
@@ -334,6 +335,12 @@ h
 #
 include
 "
+client
+/
+windows
+/
+unittests
+/
 dump_analysis
 .
 h

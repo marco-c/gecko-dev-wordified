@@ -468,10 +468,6 @@ offset
 enum
 DwarfTag
 tag
-const
-AttributeList
-&
-attrs
 )
 {
 /
@@ -692,7 +688,6 @@ FindChildHandler
 (
 offset
 tag
-attrs
 )
 ;
 else
@@ -784,7 +779,6 @@ StartRootDIE
 (
 offset
 tag
-attrs
 )
 )
 handler

@@ -412,7 +412,7 @@ eof
 ;
 EXPECT_EQ
 (
-0
+0U
 u8
 )
 ;
@@ -502,7 +502,7 @@ eof
 ;
 EXPECT_EQ
 (
-0
+0U
 u16
 )
 ;
@@ -592,7 +592,7 @@ eof
 ;
 EXPECT_EQ
 (
-0
+0U
 u32
 )
 ;
@@ -632,7 +632,7 @@ u32
 ;
 EXPECT_EQ
 (
-1
+1U
 u32
 )
 ;
@@ -682,7 +682,7 @@ eof
 ;
 EXPECT_EQ
 (
-0
+0U
 u64
 )
 ;
@@ -722,7 +722,7 @@ u64
 ;
 EXPECT_EQ
 (
-1
+1U
 u64
 )
 ;
@@ -1038,7 +1038,7 @@ e
 ;
 EXPECT_EQ
 (
-0
+0U
 e
 )
 ;
@@ -1152,7 +1152,7 @@ d
 ;
 EXPECT_EQ
 (
-0
+0U
 e
 )
 ;
@@ -1275,7 +1275,7 @@ e
 ;
 EXPECT_EQ
 (
-0
+0U
 e
 )
 ;
@@ -1389,7 +1389,7 @@ d
 ;
 EXPECT_EQ
 (
-0
+0U
 e
 )
 ;
@@ -1512,7 +1512,7 @@ e
 ;
 EXPECT_EQ
 (
-0
+0U
 e
 )
 ;
@@ -1626,7 +1626,7 @@ d
 ;
 EXPECT_EQ
 (
-0
+0U
 e
 )
 ;
@@ -1749,7 +1749,7 @@ e
 ;
 EXPECT_EQ
 (
-0
+0U
 e
 )
 ;
@@ -1863,7 +1863,7 @@ d
 ;
 EXPECT_EQ
 (
-0
+0U
 e
 )
 ;
@@ -2246,7 +2246,7 @@ str
 ;
 EXPECT_EQ
 (
-21
+21U
 s
 .
 length
@@ -2347,7 +2347,7 @@ s2
 ;
 EXPECT_EQ
 (
-21
+21U
 s
 .
 length
@@ -2528,7 +2528,7 @@ eof
 ;
 EXPECT_EQ
 (
-0
+0U
 u16
 )
 ;
@@ -2569,7 +2569,7 @@ eof
 ;
 EXPECT_EQ
 (
-0
+0U
 u32
 )
 ;
@@ -2610,7 +2610,7 @@ eof
 ;
 EXPECT_EQ
 (
-0
+0U
 u64
 )
 ;
@@ -2800,7 +2800,7 @@ eof
 ;
 EXPECT_EQ
 (
-0
+0U
 z
 )
 ;

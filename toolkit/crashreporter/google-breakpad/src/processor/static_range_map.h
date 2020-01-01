@@ -740,7 +740,6 @@ the
 RangeMap
 .
 inline
-unsigned
 int
 GetCount
 (

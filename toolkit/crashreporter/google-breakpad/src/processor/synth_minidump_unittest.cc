@@ -1166,7 +1166,7 @@ raw
 .
 context_flags
 =
-0
+MD_CONTEXT_AMD64
 ;
 ASSERT_DEATH
 (

@@ -1078,7 +1078,7 @@ the
 static
 map
 .
-u_int32_t
+int32_t
 num_nodes_
 ;
 /

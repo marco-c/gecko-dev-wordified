@@ -465,12 +465,6 @@ using
 dwarf2reader
 :
 :
-AttributeList
-;
-using
-dwarf2reader
-:
-:
 ByteReader
 ;
 using
@@ -601,7 +595,7 @@ dwarf_version
 )
 )
 ;
-MOCK_METHOD3
+MOCK_METHOD2
 (
 StartDIE
 bool
@@ -611,10 +605,6 @@ offset
 enum
 DwarfTag
 tag
-const
-AttributeList
-&
-attrs
 )
 )
 ;
@@ -812,7 +802,6 @@ EXPECT_CALL
 handler
 StartDIE
 (
-_
 _
 _
 )
@@ -1367,7 +1356,6 @@ dwarf2reader
 :
 :
 DW_TAG_compile_unit
-_
 )
 )
 .
@@ -1915,7 +1903,6 @@ StartDIE
 (
 _
 tag
-_
 )
 )
 .

@@ -972,10 +972,6 @@ offset
 enum
 DwarfTag
 tag
-const
-AttributeList
-&
-attrs
 )
 ;
 /

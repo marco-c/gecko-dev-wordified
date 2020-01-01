@@ -3459,9 +3459,6 @@ StartDIE
 (
 absolute_offset
 tag
-abbrev
-.
-attributes
 )
 )
 {

@@ -322,6 +322,15 @@ include
 "
 common
 /
+scoped_ptr
+.
+h
+"
+#
+include
+"
+common
+/
 using_std_string
 .
 h
@@ -385,15 +394,6 @@ include
 processor
 /
 logging
-.
-h
-"
-#
-include
-"
-processor
-/
-scoped_ptr
 .
 h
 "
@@ -1461,7 +1461,7 @@ ASSERT_EQ
 frame
 .
 function_base
-0
+0U
 )
 ;
 ASSERT_TRUE
@@ -1488,7 +1488,7 @@ ASSERT_EQ
 frame
 .
 source_line_base
-0
+0U
 )
 ;
 frame
@@ -1543,7 +1543,7 @@ ASSERT_EQ
 frame
 .
 function_base
-0x1000
+0x1000U
 )
 ;
 ASSERT_EQ
@@ -1571,7 +1571,7 @@ ASSERT_EQ
 frame
 .
 source_line_base
-0x1000
+0x1000U
 )
 ;
 windows_frame_info
@@ -2697,7 +2697,7 @@ ASSERT_EQ
 frame
 .
 function_base
-0x2170
+0x2170U
 )
 ;
 ASSERT_TRUE
@@ -2747,7 +2747,7 @@ ASSERT_EQ
 frame
 .
 source_line_base
-0x2180
+0x2180U
 )
 ;
 windows_frame_info
@@ -2790,7 +2790,7 @@ windows_frame_info
 -
 >
 prolog_size
-1
+1U
 )
 ;
 frame

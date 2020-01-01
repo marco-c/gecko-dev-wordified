@@ -322,6 +322,12 @@ h
 #
 include
 "
+client
+/
+windows
+/
+unittests
+/
 dump_analysis
 .
 h
@@ -332,6 +338,12 @@ NOLINT
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest

@@ -361,6 +361,11 @@ define
 PROCESSOR_STACKWALKER_X86_H__
 #
 include
+<
+vector
+>
+#
+include
 "
 google_breakpad
 /
@@ -492,12 +497,9 @@ const
 CodeModules
 *
 modules
-SymbolSupplier
+StackFrameSymbolizer
 *
-supplier
-SourceLineResolverInterface
-*
-resolver
+frame_symbolizer
 )
 ;
 private
