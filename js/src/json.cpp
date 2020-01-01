@@ -4377,7 +4377,7 @@ jp
 }
 }
 /
-*
+/
 This
 internal
 API
@@ -4391,8 +4391,6 @@ JSBool
 return
 type
 .
-*
-/
 js_RemoveRoot
 (
 cx
