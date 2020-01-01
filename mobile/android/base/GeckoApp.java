@@ -7854,11 +7854,16 @@ mAppContext
 ;
 mAboutHomeContent
 .
-init
+update
 (
 GeckoApp
 .
 mAppContext
+AboutHomeContent
+.
+UpdateFlags
+.
+ALL
 )
 ;
 mAboutHomeContent
