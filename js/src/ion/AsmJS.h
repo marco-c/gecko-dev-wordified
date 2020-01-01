@@ -109,12 +109,8 @@ MPL
 *
 /
 #
-if
-!
-defined
-(
+ifndef
 jsion_asmjs_h__
-)
 #
 define
 jsion_asmjs_h__
