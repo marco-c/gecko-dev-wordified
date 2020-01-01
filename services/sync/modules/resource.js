@@ -3155,7 +3155,7 @@ callback
 delete
 :
 function
-delete
+delete_
 (
 callback
 )
