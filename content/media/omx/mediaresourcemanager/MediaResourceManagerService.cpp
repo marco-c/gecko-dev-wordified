@@ -1001,8 +1001,6 @@ get
 )
 )
 {
-it
-=
 mVideoCodecRequestQueue
 .
 erase
@@ -1010,7 +1008,7 @@ erase
 it
 )
 ;
-continue
+break
 ;
 }
 it
