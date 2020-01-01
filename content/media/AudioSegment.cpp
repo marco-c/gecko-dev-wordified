@@ -548,6 +548,13 @@ audio
 /
 static
 const
+int
+GUESS_AUDIO_CHANNELS
+=
+2
+;
+static
+const
 uint8_t
 gZeroChannel
 [
