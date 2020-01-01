@@ -2265,9 +2265,12 @@ nsRunnableMethod
 nsBindingManager
 >
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRunnable
+nsRunnableMethod
+<
+nsBindingManager
+>
 >
 mProcessAttachedQueueEvent
 ;
