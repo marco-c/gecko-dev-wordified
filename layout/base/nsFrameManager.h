@@ -224,17 +224,9 @@ h
 namespace
 mozilla
 {
-namespace
-css
-{
 class
 RestyleTracker
 ;
-}
-/
-/
-namespace
-css
 }
 /
 /
@@ -348,9 +340,6 @@ nsFrameManagerBase
 {
 typedef
 mozilla
-:
-:
-css
 :
 :
 RestyleTracker

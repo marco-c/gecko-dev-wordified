@@ -154,9 +154,6 @@ h
 namespace
 mozilla
 {
-namespace
-css
-{
 inline
 nsIDocument
 *
@@ -1992,11 +1989,6 @@ return
 true
 ;
 }
-}
-/
-/
-namespace
-css
 }
 /
 /
