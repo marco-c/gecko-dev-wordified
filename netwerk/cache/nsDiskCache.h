@@ -481,7 +481,7 @@ enum
 {
 kCurrentVersion
 =
-0x00010011
+0x00010012
 /
 /
 format
