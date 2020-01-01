@@ -452,6 +452,13 @@ DIRS
 =
 maemo
 endif
+ifdef
+MOZ_ENABLE_QTNETWORK
+DIRS
++
+=
+qt
+endif
 include
 (
 topsrcdir

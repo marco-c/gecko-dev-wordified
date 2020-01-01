@@ -637,7 +637,7 @@ XP_WIN
 |
 defined
 (
-MOZ_ENABLE_LIBCONIC
+MOZ_PLATFORM_MAEMO
 )
 #
 include
@@ -7967,7 +7967,7 @@ XP_WIN
 |
 defined
 (
-MOZ_ENABLE_LIBCONIC
+MOZ_PLATFORM_MAEMO
 )
 /
 /
