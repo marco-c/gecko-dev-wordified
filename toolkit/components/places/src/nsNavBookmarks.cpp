@@ -16323,7 +16323,7 @@ aBookmarkId
 const
 nsAString
 &
-aKeyword
+aUserCasedKeyword
 )
 {
 NS_ENSURE_ARG_MIN
@@ -16356,7 +16356,7 @@ internally
 nsAutoString
 keyword
 (
-aKeyword
+aUserCasedKeyword
 )
 ;
 ToLowerCase
@@ -17042,7 +17042,7 @@ GetURIForKeyword
 const
 nsAString
 &
-aKeyword
+aUserCasedKeyword
 nsIURI
 *
 *
@@ -17057,7 +17057,7 @@ aURI
 NS_ENSURE_TRUE
 (
 !
-aKeyword
+aUserCasedKeyword
 .
 IsEmpty
 (
@@ -17081,7 +17081,7 @@ internally
 nsAutoString
 keyword
 (
-aKeyword
+aUserCasedKeyword
 )
 ;
 ToLowerCase
@@ -17111,7 +17111,7 @@ keyword
 .
 Assign
 (
-aKeyword
+keyword
 )
 ;
 searchData
