@@ -675,8 +675,6 @@ aNoFixup
 ;
 TX_DECL_TXAXMLEVENTHANDLER
 TX_DECL_TXAOUTPUTXMLEVENTHANDLER
-private
-:
 nsresult
 closePrevious
 (
@@ -684,6 +682,8 @@ PRBool
 aFlushText
 )
 ;
+private
+:
 nsresult
 createTxWrapper
 (
