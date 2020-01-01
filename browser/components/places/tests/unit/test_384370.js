@@ -1005,7 +1005,7 @@ try
 {
 PlacesUtils
 .
-restoreBookmarksFromFile
+restoreBookmarksFromJSONFile
 (
 jsonFile
 )
