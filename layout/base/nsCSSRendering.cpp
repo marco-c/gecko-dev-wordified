@@ -20300,13 +20300,6 @@ aLayer
 mAttachment
 )
 {
-aPresContext
--
->
-SetHasFixedBackgroundFrame
-(
-)
-;
 if
 (
 (
