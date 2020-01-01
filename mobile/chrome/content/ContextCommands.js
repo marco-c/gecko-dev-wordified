@@ -214,6 +214,8 @@ paste
 "
 }
 ;
+target
+.
 messageManager
 .
 sendAsyncMessage
@@ -359,6 +361,8 @@ all
 "
 }
 ;
+target
+.
 messageManager
 .
 sendAsyncMessage
