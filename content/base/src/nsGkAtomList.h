@@ -1422,6 +1422,13 @@ chromemargin
 )
 GK_ATOM
 (
+chromeOnlyContent
+"
+chromeOnlyContent
+"
+)
+GK_ATOM
+(
 circ
 "
 circ

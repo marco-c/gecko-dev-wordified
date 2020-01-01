@@ -1266,7 +1266,7 @@ if
 parent
 -
 >
-IsInNativeAnonymousSubtree
+ChromeOnlyAccess
 (
 )
 &

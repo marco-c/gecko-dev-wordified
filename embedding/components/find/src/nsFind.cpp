@@ -1537,7 +1537,7 @@ mStartOuterContent
 startContent
 -
 >
-FindFirstNonNativeAnonymous
+FindFirstNonChromeOnlyAccessContent
 (
 )
 ;
@@ -1580,7 +1580,7 @@ mEndOuterContent
 endContent
 -
 >
-FindFirstNonNativeAnonymous
+FindFirstNonChromeOnlyAccessContent
 (
 )
 ;

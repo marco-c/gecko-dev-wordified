@@ -20859,7 +20859,7 @@ aNode
 )
 -
 >
-IsInNativeAnonymousSubtree
+ChromeOnlyAccess
 (
 )
 )

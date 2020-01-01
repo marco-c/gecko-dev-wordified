@@ -15444,7 +15444,7 @@ if
 focusedContent
 -
 >
-IsInNativeAnonymousSubtree
+ChromeOnlyAccess
 (
 )
 )
@@ -15454,7 +15454,7 @@ focusedContent
 focusedContent
 -
 >
-FindFirstNonNativeAnonymous
+FindFirstNonChromeOnlyAccessContent
 (
 )
 ;
@@ -39405,7 +39405,7 @@ content
 content
 -
 >
-IsInNativeAnonymousSubtree
+ChromeOnlyAccess
 (
 )
 )

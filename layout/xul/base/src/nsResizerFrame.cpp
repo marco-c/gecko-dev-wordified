@@ -2349,7 +2349,7 @@ nonNativeAnon
 mContent
 -
 >
-FindFirstNonNativeAnonymous
+FindFirstNonChromeOnlyAccessContent
 (
 )
 ;
@@ -2503,7 +2503,7 @@ parent
 parent
 -
 >
-FindFirstNonNativeAnonymous
+FindFirstNonChromeOnlyAccessContent
 (
 )
 :

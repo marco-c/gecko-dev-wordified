@@ -2513,7 +2513,7 @@ do_QueryInterface
 content
 -
 >
-FindFirstNonNativeAnonymous
+FindFirstNonChromeOnlyAccessContent
 (
 )
 )

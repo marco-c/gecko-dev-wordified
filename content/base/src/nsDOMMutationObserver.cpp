@@ -843,7 +843,7 @@ aAttribute
 aElement
 -
 >
-IsInNativeAnonymousSubtree
+ChromeOnlyAccess
 (
 )
 )
@@ -1089,7 +1089,7 @@ Target
 aContent
 -
 >
-IsInNativeAnonymousSubtree
+ChromeOnlyAccess
 (
 )
 )
@@ -1251,7 +1251,7 @@ wantsChildList
 aFirstNewContent
 -
 >
-IsInNativeAnonymousSubtree
+ChromeOnlyAccess
 (
 )
 )
@@ -1486,7 +1486,7 @@ wantsChildList
 aChild
 -
 >
-IsInNativeAnonymousSubtree
+ChromeOnlyAccess
 (
 )
 )
@@ -1649,7 +1649,7 @@ if
 aChild
 -
 >
-IsInNativeAnonymousSubtree
+ChromeOnlyAccess
 (
 )
 )
