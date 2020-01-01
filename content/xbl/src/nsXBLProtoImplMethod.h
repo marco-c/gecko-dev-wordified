@@ -851,14 +851,9 @@ compilation
 )
 }
 ;
-#
-ifdef
-DEBUG
 PRBool
 mIsCompiled
 ;
-#
-endif
 }
 ;
 class
