@@ -599,6 +599,9 @@ Inst
 >
 struct
 AssemblerBuffer
+:
+public
+IonAllocPolicy
 {
 public
 :
@@ -614,11 +617,11 @@ tail
 (
 NULL
 )
-m_bail
+m_oom
 (
 false
 )
-m_oom
+m_bail
 (
 false
 )
@@ -749,7 +752,7 @@ Slice
 *
 >
 (
-malloc
+malloc_
 (
 sizeof
 (

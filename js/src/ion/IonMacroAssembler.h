@@ -544,6 +544,10 @@ cx
 #
 ifdef
 JS_CPU_ARM
+initWithAllocator
+(
+)
+;
 m_buffer
 .
 id
@@ -584,6 +588,10 @@ Trampoline
 (
 ARCH
 )
+.
+cpp
+and
+IonCaches
 .
 cpp
 )
@@ -651,6 +659,10 @@ cx
 #
 ifdef
 JS_CPU_ARM
+initWithAllocator
+(
+)
+;
 m_buffer
 .
 id
