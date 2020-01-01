@@ -1872,6 +1872,14 @@ so
 }
 )
 ;
+if
+(
+libs
+!
+=
+null
+)
+{
 for
 (
 int
@@ -1899,6 +1907,7 @@ delete
 (
 )
 ;
+}
 }
 }
 else
