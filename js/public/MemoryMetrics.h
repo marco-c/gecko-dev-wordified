@@ -815,6 +815,9 @@ scriptData
 size_t
 mjitData
 ;
+size_t
+crossCompartmentWrappers
+;
 TypeInferenceSizes
 typeInferenceSizes
 ;
