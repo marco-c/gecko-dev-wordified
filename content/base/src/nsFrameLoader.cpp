@@ -1681,7 +1681,7 @@ NS_ENSURE_TRUE
 doc
 -
 >
-GetDisplayDocument
+IsResourceDoc
 (
 )
 &
@@ -10639,7 +10639,7 @@ if
 doc
 -
 >
-GetDisplayDocument
+IsResourceDoc
 (
 )
 )
@@ -11406,7 +11406,7 @@ if
 doc
 -
 >
-GetDisplayDocument
+IsResourceDoc
 (
 )
 )
