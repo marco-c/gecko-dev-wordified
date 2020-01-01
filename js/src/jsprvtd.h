@@ -1036,6 +1036,9 @@ Shape
 struct
 EmptyShape
 ;
+struct
+Bindings
+;
 }
 /
 *
