@@ -7806,10 +7806,6 @@ widget
 )
 ;
 }
-gConsumeRollupEvent
-=
-PR_FALSE
-;
 gRollupListener
 =
 nsnull
