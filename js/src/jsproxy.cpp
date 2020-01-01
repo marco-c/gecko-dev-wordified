@@ -9200,6 +9200,13 @@ static_methods
 return
 NULL
 ;
+MarkStandardClassInitializedNoProto
+(
+obj
+&
+js_ProxyClass
+)
+;
 return
 module
 ;
