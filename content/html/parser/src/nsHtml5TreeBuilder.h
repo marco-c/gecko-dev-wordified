@@ -376,6 +376,13 @@ nsHtml5TreeOperation
 .
 h
 "
+#
+include
+"
+nsHtml5PendingNotification
+.
+h
+"
 class
 nsHtml5Parser
 ;
@@ -402,6 +409,11 @@ nsHtml5UTF16Buffer
 ;
 class
 nsHtml5Portability
+;
+typedef
+nsIContent
+*
+nsIContentPtr
 ;
 class
 nsHtml5TreeBuilder
