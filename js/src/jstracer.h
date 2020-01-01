@@ -4409,7 +4409,7 @@ tm
 ;
 extern
 void
-js_FlushScriptFragments
+js_PurgeScriptFragments
 (
 JSContext
 *
@@ -4430,11 +4430,8 @@ cx
 ;
 extern
 void
-js_FlushJITOracle
+js_PurgeJITOracle
 (
-JSContext
-*
-cx
 )
 ;
 extern
