@@ -4901,8 +4901,9 @@ IsWow64ProcessP
 )
 GetProcAddress
 (
-GetModuleHandle
+GetModuleHandleW
 (
+L
 "
 kernel32
 "
