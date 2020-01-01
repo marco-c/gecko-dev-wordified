@@ -784,6 +784,16 @@ Cancel
 (
 )
 ;
+void
+DropChannel
+(
+)
+{
+mChannel
+=
+nsnull
+;
+}
 static
 nsresult
 CheckLoadAllowed
