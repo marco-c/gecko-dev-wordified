@@ -2045,7 +2045,7 @@ isconst
 {
 STW32
 (
-L0
+L2
 d
 +
 4
@@ -2060,7 +2060,7 @@ hi
 imm32
 (
 )
-L0
+L2
 )
 ;
 }
@@ -2097,7 +2097,7 @@ isconst
 {
 STW32
 (
-L0
+L2
 d
 FP
 )
@@ -2110,7 +2110,7 @@ lo
 imm32
 (
 )
-L0
+L2
 )
 ;
 }
@@ -2199,7 +2199,7 @@ LIR_alloc
 ADD
 (
 FP
-L0
+L2
 r
 )
 ;
@@ -2209,7 +2209,7 @@ disp
 (
 resv
 )
-L0
+L2
 )
 ;
 verbose_only
@@ -2427,7 +2427,7 @@ imm32
 ;
 STW32
 (
-L0
+L2
 dr
 rb
 )
@@ -2435,7 +2435,7 @@ rb
 SET32
 (
 c
-L0
+L2
 )
 ;
 }
@@ -2867,7 +2867,7 @@ GpRegs
 ;
 STW32
 (
-L0
+L2
 dr
 +
 4
@@ -2882,12 +2882,12 @@ value
 imm64_0
 (
 )
-L0
+L2
 )
 ;
 STW32
 (
-L0
+L2
 dr
 rb
 )
@@ -2900,7 +2900,7 @@ value
 imm64_1
 (
 )
-L0
+L2
 )
 ;
 return
@@ -4045,14 +4045,14 @@ GpRegs
 SUBCC
 (
 r
-L0
+L2
 G0
 )
 ;
 SET32
 (
 c
-L0
+L2
 )
 ;
 }
@@ -4639,14 +4639,14 @@ imm32
 ADD
 (
 FP
-L0
+L2
 rr
 )
 ;
 SET32
 (
 d
-L0
+L2
 )
 ;
 }
@@ -4922,7 +4922,7 @@ LIR_addp
 ADDCC
 (
 rr
-L0
+L2
 rr
 )
 ;
@@ -4939,7 +4939,7 @@ LIR_sub
 SUBCC
 (
 rr
-L0
+L2
 rr
 )
 ;
@@ -4955,7 +4955,7 @@ LIR_and
 AND
 (
 rr
-L0
+L2
 rr
 )
 ;
@@ -4970,7 +4970,7 @@ LIR_or
 OR
 (
 rr
-L0
+L2
 rr
 )
 ;
@@ -4985,7 +4985,7 @@ LIR_xor
 XOR
 (
 rr
-L0
+L2
 rr
 )
 ;
@@ -5000,7 +5000,7 @@ LIR_lsh
 SLL
 (
 rr
-L0
+L2
 rr
 )
 ;
@@ -5015,7 +5015,7 @@ LIR_rsh
 SRA
 (
 rr
-L0
+L2
 rr
 )
 ;
@@ -5030,7 +5030,7 @@ LIR_ush
 SRL
 (
 rr
-L0
+L2
 rr
 )
 ;
@@ -5046,7 +5046,7 @@ Unsupported
 SET32
 (
 c
-L0
+L2
 )
 ;
 }
