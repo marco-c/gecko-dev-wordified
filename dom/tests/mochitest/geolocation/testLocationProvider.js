@@ -408,12 +408,6 @@ TYPE_REPEATING_SLACK
 )
 ;
 }
-currentLocation
-:
-new
-GeopositionObject
-(
-)
 shutdown
 :
 function
