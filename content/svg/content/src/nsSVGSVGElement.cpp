@@ -6867,7 +6867,7 @@ mViewportHeight
 }
 w
 =
-PR_MAX
+NS_MAX
 (
 w
 0
@@ -6877,7 +6877,7 @@ w
 ;
 h
 =
-PR_MAX
+NS_MAX
 (
 h
 0
