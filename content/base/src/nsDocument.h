@@ -5384,6 +5384,12 @@ void
 aData
 )
 ;
+virtual
+void
+DispatchContentLoadedEvents
+(
+)
+;
 #
 ifdef
 MOZ_SMIL
@@ -5591,11 +5597,6 @@ GetElementByIdInternal
 nsIAtom
 *
 aID
-)
-;
-void
-DispatchContentLoadedEvents
-(
 )
 ;
 void
@@ -6669,11 +6670,6 @@ mHasWarnedAboutBoxObjects
 ;
 PRPackedBool
 mDelayFrameLoaderInitialization
-:
-1
-;
-PRPackedBool
-mSynchronousDOMContentLoaded
 :
 1
 ;
