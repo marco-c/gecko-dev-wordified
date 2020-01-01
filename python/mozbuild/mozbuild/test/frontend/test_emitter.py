@@ -1189,6 +1189,21 @@ sdk
 '
 ]
             
+SHARED_LIBRARY_LIBS
+=
+[
+'
+fans
+.
+sll
+'
+'
+tans
+.
+sll
+'
+]
+            
 SIMPLE_PROGRAMS
 =
 [
