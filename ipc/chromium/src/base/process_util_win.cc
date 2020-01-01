@@ -1965,6 +1965,10 @@ child
 process
 %
 d
+(
+%
+S
+)
 \
 n
 "
@@ -1974,6 +1978,11 @@ GetCurrentProcId
 process_info
 .
 dwProcessId
+cmdline
+.
+c_str
+(
+)
 )
 ;
 /
