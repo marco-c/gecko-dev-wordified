@@ -144,6 +144,13 @@ h
 #
 include
 "
+nsIRemoteOpenFileListener
+.
+h
+"
+#
+include
+"
 nsIZipReader
 .
 h
@@ -296,6 +303,8 @@ nsIDownloadObserver
 public
 nsIStreamListener
 public
+nsIRemoteOpenFileListener
+public
 nsHashPropertyBag
 {
 public
@@ -307,6 +316,7 @@ NS_DECL_NSIJARCHANNEL
 NS_DECL_NSIDOWNLOADOBSERVER
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
+NS_DECL_NSIREMOTEOPENFILELISTENER
 nsJARChannel
 (
 )
@@ -454,6 +464,9 @@ mIsPending
 ;
 bool
 mIsUnsafe
+;
+bool
+mOpeningRemote
 ;
 nsCOMPtr
 <
