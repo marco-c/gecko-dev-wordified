@@ -2450,10 +2450,13 @@ Class
 js_FunctionClass
 ;
 extern
+JS_FRIEND_DATA
+(
 js
 :
 :
 Class
+)
 js_DeclEnvClass
 ;
 inline

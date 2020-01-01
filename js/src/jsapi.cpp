@@ -3998,6 +3998,15 @@ JS_PROPTREE_DUMPFILE
 ;
 #
 endif
+#
+ifdef
+JS_TRACER
+InitJIT
+(
+)
+;
+#
+endif
 if
 (
 !
@@ -4308,6 +4317,15 @@ s
 )
 ;
 }
+#
+endif
+#
+ifdef
+JS_TRACER
+FinishJIT
+(
+)
+;
 #
 endif
 js_FinishThreads
@@ -23730,7 +23748,7 @@ JSID_IS_EMPTY
 shape
 -
 >
-id
+propid
 )
 )
 ;
@@ -23768,7 +23786,7 @@ idp
 shape
 -
 >
-id
+propid
 ;
 }
 }
@@ -25233,7 +25251,7 @@ front
 (
 )
 .
-id
+propid
 &
 v
 )
@@ -33345,8 +33363,6 @@ v
 jsval
 *
 vp
-ReadStructuredCloneOp
-optionalReadOp
 const
 JSStructuredCloneCallbacks
 *

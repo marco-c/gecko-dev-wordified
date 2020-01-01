@@ -3122,7 +3122,7 @@ shape
 ;
 mutable
 uint32
-shape
+shapeid
 ;
 /
 *
@@ -3242,7 +3242,7 @@ cx
 )
 ;
 jsid
-id
+propid
 ;
 protected
 :
@@ -4335,7 +4335,7 @@ JSID_IS_EMPTY
 cursor
 -
 >
-id
+propid
 )
 )
 ;
@@ -4617,7 +4617,7 @@ JS_ASSERT_IF
 parent
 JSID_IS_EMPTY
 (
-id
+propid
 )
 )
 ;
@@ -6091,7 +6091,7 @@ shape
 )
 -
 >
-id
+propid
 )
 extern
 uint32
@@ -6508,7 +6508,7 @@ if
 shape
 -
 >
-id
+propid
 =
 =
 id

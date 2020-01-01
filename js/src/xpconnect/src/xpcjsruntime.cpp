@@ -2313,6 +2313,10 @@ aLangID
 void
 *
 aScriptThing
+const
+char
+*
+name
 void
 *
 aClosure
@@ -2344,9 +2348,7 @@ js_GetGCThingTraceKind
 (
 aScriptThing
 )
-"
-JSObjectHolder
-"
+name
 )
 ;
 }
@@ -2742,6 +2744,10 @@ aLangID
 void
 *
 aThing
+const
+char
+*
+name
 void
 *
 aClosure
