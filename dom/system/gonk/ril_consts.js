@@ -2399,6 +2399,13 @@ EF_PATH_DF_GSM
 7f20
 "
 ;
+const
+EF_PATH_ADF_USIM
+=
+"
+7fff
+"
+;
 /
 /
 Status
