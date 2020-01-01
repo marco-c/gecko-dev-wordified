@@ -856,12 +856,6 @@ currentBrowser
 ;
 this
 .
-setURI
-(
-)
-;
-this
-.
 _titleChanged
 (
 browser
@@ -886,13 +880,6 @@ this
 .
 updateIcon
 (
-)
-;
-this
-.
-show
-(
-UIMODE_NONE
 )
 ;
 }
