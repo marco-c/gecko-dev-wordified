@@ -723,9 +723,6 @@ attributeModTests
 hc_attrappendchild1
 "
 "
-hc_attrappendchild2
-"
-"
 hc_attrappendchild3
 "
 "
