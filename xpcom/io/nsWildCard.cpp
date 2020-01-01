@@ -1692,7 +1692,7 @@ index
 *
 /
 register
-char
+T
 cc
 ;
 for
