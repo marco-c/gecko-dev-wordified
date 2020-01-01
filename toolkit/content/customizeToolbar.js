@@ -4769,11 +4769,6 @@ toolbar
 parentNode
 ;
 }
-var
-previousDragItem
-=
-gCurrentDragOverItem
-;
 /
 /
 Make
@@ -4789,6 +4784,10 @@ toolbar
 if
 (
 !
+toolbar
+|
+|
+!
 isCustomizableToolbar
 (
 toolbar
@@ -4802,6 +4801,11 @@ null
 return
 ;
 }
+var
+previousDragItem
+=
+gCurrentDragOverItem
+;
 if
 (
 dropTarget
