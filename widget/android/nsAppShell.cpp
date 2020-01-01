@@ -484,13 +484,13 @@ mBrowserApp
 (
 aBrowserApp
 )
-mTabId
-(
-aTabId
-)
 mPoints
 (
 aPoints
+)
+mTabId
+(
+aTabId
 )
 mToken
 (
@@ -4101,7 +4101,7 @@ each
 other
 .
 {
-int
+PRUint32
 i
 =
 0
