@@ -124,10 +124,10 @@ infrastructure
 /
 #
 ifndef
-mozilla_MemoryReporting_h_
+mozilla_MemoryReporting_h
 #
 define
-mozilla_MemoryReporting_h_
+mozilla_MemoryReporting_h
 #
 include
 <
@@ -212,6 +212,6 @@ p
 endif
 /
 *
-mozilla_MemoryReporting_h_
+mozilla_MemoryReporting_h
 *
 /

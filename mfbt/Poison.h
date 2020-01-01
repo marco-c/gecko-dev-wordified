@@ -146,10 +146,10 @@ dereferenced
 /
 #
 ifndef
-mozilla_Poison_h_
+mozilla_Poison_h
 #
 define
-mozilla_Poison_h_
+mozilla_Poison_h
 #
 include
 "
@@ -417,6 +417,6 @@ MOZ_END_EXTERN_C
 endif
 /
 *
-mozilla_Poison_h_
+mozilla_Poison_h
 *
 /
