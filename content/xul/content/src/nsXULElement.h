@@ -1282,8 +1282,15 @@ Handle
 JSScript
 *
 >
+:
+:
+fromMarkedLocation
 (
 mScriptObject
+.
+address
+(
+)
 )
 ;
 }
