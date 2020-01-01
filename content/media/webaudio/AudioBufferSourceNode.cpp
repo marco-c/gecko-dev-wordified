@@ -261,11 +261,18 @@ public
 explicit
 AudioBufferSourceNodeEngine
 (
+AudioNode
+*
+aNode
 AudioDestinationNode
 *
 aDestination
 )
 :
+AudioNodeEngine
+(
+aNode
+)
 mStart
 (
 0
@@ -2411,6 +2418,7 @@ CreateAudioNodeStream
 new
 AudioBufferSourceNodeEngine
 (
+this
 aContext
 -
 >

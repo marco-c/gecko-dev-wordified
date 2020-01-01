@@ -493,6 +493,10 @@ if
 mStream
 )
 {
+UnbindFromEngine
+(
+)
+;
 mStream
 -
 >
@@ -783,6 +787,11 @@ this
 .
 void
 DisconnectFromGraph
+(
+)
+;
+void
+UnbindFromEngine
 (
 )
 ;
