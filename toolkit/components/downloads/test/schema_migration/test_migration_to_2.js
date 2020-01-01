@@ -703,7 +703,7 @@ getInt32
 ;
 stmt
 .
-reset
+finalize
 (
 )
 ;
