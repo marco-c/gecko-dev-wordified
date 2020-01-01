@@ -9132,6 +9132,9 @@ lpShellFolder
 )
 )
 {
+nsresult
+rv
+;
 nsCOMPtr
 <
 nsIFileURL
