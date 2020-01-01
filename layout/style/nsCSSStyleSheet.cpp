@@ -2453,6 +2453,10 @@ mGetter
 )
 (
 aPresContext
+entry
+-
+>
+mFeature
 actual
 )
 ;
@@ -3418,6 +3422,9 @@ mGetter
 )
 (
 aPresContext
+expr
+.
+mFeature
 actual
 )
 ;
