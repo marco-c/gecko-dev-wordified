@@ -122,6 +122,8 @@ mobile
 /
 chrome
 /
+tests
+/
 "
 ;
 const
