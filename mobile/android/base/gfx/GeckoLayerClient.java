@@ -3089,15 +3089,6 @@ getOrigin
 (
 )
 ;
-Point
-tileOrigin
-=
-mTileLayer
-.
-getOrigin
-(
-)
-;
 float
 scrollX
 =
