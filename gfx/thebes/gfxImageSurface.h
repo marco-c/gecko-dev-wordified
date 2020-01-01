@@ -967,6 +967,8 @@ const
 gfxIntSize
 &
 aSize
+gfxImageFormat
+aFormat
 )
 ;
 private
