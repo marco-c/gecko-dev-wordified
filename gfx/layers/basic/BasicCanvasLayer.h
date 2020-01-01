@@ -532,10 +532,6 @@ BasicCanvasLayer
 (
 aManager
 )
-mBufferIsOpaque
-(
-false
-)
 mCanvasClient
 (
 nullptr
@@ -722,9 +718,6 @@ return
 BUFFER_IMAGE_SINGLE
 ;
 }
-bool
-mBufferIsOpaque
-;
 RefPtr
 <
 CanvasClient
