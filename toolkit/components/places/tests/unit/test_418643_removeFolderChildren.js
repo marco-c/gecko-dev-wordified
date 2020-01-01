@@ -658,6 +658,14 @@ _onItemRemovedItemIds
 :
 [
 ]
+onBeforeItemRemoved
+:
+function
+(
+aItemId
+)
+{
+}
 onItemRemoved
 :
 function

@@ -3401,6 +3401,13 @@ function
 )
 {
 }
+onBeforeItemRemoved
+:
+function
+(
+)
+{
+}
 onItemRemoved
 :
 function

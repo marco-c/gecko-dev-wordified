@@ -2519,6 +2519,14 @@ aItemId
 )
 ;
 }
+onBeforeItemRemoved
+:
+function
+(
+aItemId
+)
+{
+}
 onItemRemoved
 :
 function

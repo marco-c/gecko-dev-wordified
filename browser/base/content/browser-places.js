@@ -7108,6 +7108,15 @@ updateState
 )
 ;
 }
+onBeforeItemRemoved
+:
+function
+PSB_onBeforeItemRemoved
+(
+aItemId
+)
+{
+}
 onItemRemoved
 :
 function
