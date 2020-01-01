@@ -1203,9 +1203,6 @@ mScreenSize
 ;
 #
 endif
-AppInfo
-mAppInfo
-;
 /
 *
 *
@@ -1247,6 +1244,9 @@ us
 /
 PRUint64
 mID
+;
+AppInfo
+mAppInfo
 ;
 static
 ContentChild

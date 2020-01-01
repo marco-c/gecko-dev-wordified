@@ -1435,6 +1435,9 @@ mDPI
 bool
 mActive
 ;
+bool
+mShown
+;
 private
 :
 already_AddRefed
@@ -1454,6 +1457,11 @@ GetWidget
 (
 )
 const
+;
+void
+TryCacheDPI
+(
+)
 ;
 }
 ;
