@@ -13,16 +13,8 @@ Browser_SelectDetector
 event
 )
 {
-BrowserSetForcedDetector
+BrowserCharsetReload
 (
-true
-/
-*
-Reload
-from
-history
-*
-/
 )
 ;
 /
