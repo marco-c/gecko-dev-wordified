@@ -18828,6 +18828,9 @@ rt
 gcExtraRootsData
 )
 ;
+#
+ifndef
+JS_THREADSAFE
 /
 *
 Trace
@@ -18860,7 +18863,7 @@ trc
 tm
 -
 >
-loopIndexGen
+loopTableSize
 tm
 -
 >
@@ -18875,6 +18878,8 @@ loopTable
 "
 )
 ;
+#
+endif
 }
 static
 void
