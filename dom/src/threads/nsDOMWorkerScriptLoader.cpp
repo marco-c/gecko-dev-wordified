@@ -2577,7 +2577,7 @@ baseURI
 parentDoc
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 ;

@@ -2254,7 +2254,7 @@ baseURI
 callingDoc
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 ;

@@ -8647,7 +8647,7 @@ baseURI
 doc
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 ;

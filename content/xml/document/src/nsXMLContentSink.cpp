@@ -4386,7 +4386,7 @@ nsnull
 mDocument
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 )

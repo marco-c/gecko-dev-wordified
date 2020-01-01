@@ -1020,7 +1020,7 @@ get
 document
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 ;

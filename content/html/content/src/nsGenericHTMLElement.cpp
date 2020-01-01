@@ -10850,7 +10850,7 @@ doc
 doc
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 )

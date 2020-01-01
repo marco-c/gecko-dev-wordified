@@ -1595,7 +1595,7 @@ SetBaseURI
 sourceDoc
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 )

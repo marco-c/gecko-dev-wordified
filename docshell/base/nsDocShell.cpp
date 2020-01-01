@@ -56359,7 +56359,7 @@ docBaseURI
 document
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 ;

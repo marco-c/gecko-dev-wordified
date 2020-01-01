@@ -2916,7 +2916,7 @@ baseURI
 doc
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 ;

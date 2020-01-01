@@ -2230,7 +2230,7 @@ base
 doc
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 ;

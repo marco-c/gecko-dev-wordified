@@ -678,7 +678,7 @@ baseURI
 aDocument
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 ;

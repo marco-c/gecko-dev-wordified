@@ -10069,7 +10069,7 @@ baseURL
 document
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 ;

@@ -4738,7 +4738,7 @@ nsnull
 mDocument
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 )
@@ -5362,7 +5362,7 @@ get
 mDocument
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 )

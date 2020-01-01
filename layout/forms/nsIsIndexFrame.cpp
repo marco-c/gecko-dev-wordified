@@ -2122,7 +2122,7 @@ baseURI
 document
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 ;

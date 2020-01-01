@@ -6348,7 +6348,7 @@ get
 doc
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 )

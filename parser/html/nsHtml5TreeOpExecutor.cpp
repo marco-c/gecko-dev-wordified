@@ -4749,7 +4749,7 @@ base
 mDocument
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 ;

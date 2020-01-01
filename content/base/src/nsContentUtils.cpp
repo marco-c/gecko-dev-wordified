@@ -5578,7 +5578,7 @@ aDocument
 aDocument
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 )
