@@ -3925,6 +3925,10 @@ mainThread
 (
 this
 )
+interrupt
+(
+0
+)
 atomsCompartment
 (
 NULL
@@ -4463,6 +4467,10 @@ gcHelperThread
 thisFromCtor
 (
 )
+)
+sizeOfNonHeapAsmJSArrays_
+(
+0
 )
 #
 ifdef
