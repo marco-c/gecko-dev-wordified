@@ -1097,6 +1097,10 @@ mError
 (
 PR_FALSE
 )
+mEnded
+(
+PR_FALSE
+)
 {
 /
 /
@@ -3322,8 +3326,7 @@ aSuccess
 {
 if
 (
-!
-mGIFOpen
+mEnded
 )
 return
 ;
@@ -3380,6 +3383,10 @@ loop_count
 mGIFOpen
 =
 PR_FALSE
+;
+mEnded
+=
+PR_TRUE
 ;
 }
 /
