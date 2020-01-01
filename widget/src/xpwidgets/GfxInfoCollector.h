@@ -550,7 +550,7 @@ mOk
 return
 ;
 const
-nsPromiseFlatString
+nsString
 &
 flat
 =
