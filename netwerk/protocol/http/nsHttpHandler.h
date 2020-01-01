@@ -1865,9 +1865,6 @@ mOscpu
 nsCString
 mDeviceType
 ;
-nsXPIDLCString
-mSecurity
-;
 nsCString
 mLanguage
 ;
