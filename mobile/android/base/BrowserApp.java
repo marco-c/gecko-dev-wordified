@@ -3675,7 +3675,9 @@ work
 on
 Java
 content
-if
+findInPage
+.
+setEnabled
 (
 !
 tab
@@ -3692,12 +3694,6 @@ about
 home
 "
 )
-)
-findInPage
-.
-setEnabled
-(
-true
 )
 ;
 charEncoding
