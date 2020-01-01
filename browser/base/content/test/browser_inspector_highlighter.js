@@ -1038,8 +1038,6 @@ ok
 InspectorUI
 .
 highlighter
-.
-isHighlighting
 "
 panel
 is

@@ -4224,13 +4224,6 @@ if
 this
 .
 highlighter
-&
-&
-this
-.
-highlighter
-.
-isHighlighting
 )
 {
 this
@@ -4240,6 +4233,12 @@ highlighter
 unhighlight
 (
 )
+;
+this
+.
+highlighter
+=
+null
 ;
 }
 if
