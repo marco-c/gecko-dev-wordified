@@ -6088,7 +6088,7 @@ BlockInfo
 (
 graph
 .
-numBlocks
+numBlockIds
 (
 )
 )
@@ -6104,7 +6104,7 @@ i
 <
 graph
 .
-numBlocks
+numBlockIds
 (
 )
 ;

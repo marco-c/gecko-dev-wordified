@@ -2171,11 +2171,9 @@ BitSet
 (
 graph
 .
-maxBlockId
+numBlockIds
 (
 )
-+
-1
 )
 ;
 freeUntilPos
