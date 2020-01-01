@@ -759,6 +759,9 @@ aIMEEnabled
 int32_t
 *
 aIMEOpen
+int64_t
+*
+aNativeIMEContext
 )
 ;
 virtual
