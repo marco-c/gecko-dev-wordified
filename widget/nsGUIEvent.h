@@ -447,12 +447,6 @@ nsClipboardEvent
 /
 SVG
 events
-NS_SVG_EVENT
-/
-/
-nsEvent
-or
-nsGUIEvent
 NS_SVGZOOM_EVENT
 /
 /

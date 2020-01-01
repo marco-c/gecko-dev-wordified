@@ -3122,7 +3122,7 @@ scaling
 ?
 NS_SVGZOOM_EVENT
 :
-NS_SVG_EVENT
+NS_EVENT
 ;
 presShell
 -

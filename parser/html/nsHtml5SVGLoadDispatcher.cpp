@@ -140,12 +140,6 @@ NS_SVG_LOAD
 ;
 event
 .
-eventStructType
-=
-NS_SVG_EVENT
-;
-event
-.
 mFlags
 .
 mBubbles

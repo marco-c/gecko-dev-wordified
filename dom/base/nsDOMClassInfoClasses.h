@@ -585,10 +585,6 @@ SVGAnimatedString
 )
 DOMCI_CLASS
 (
-SVGEvent
-)
-DOMCI_CLASS
-(
 SVGLength
 )
 DOMCI_CLASS
