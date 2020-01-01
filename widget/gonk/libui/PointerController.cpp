@@ -379,6 +379,9 @@ mSpriteController
 spriteController
 )
 {
+#
+ifdef
+HAVE_ANDROID_OS
 mHandler
 =
 new
@@ -387,6 +390,8 @@ WeakMessageHandler
 this
 )
 ;
+#
+endif
 AutoMutex
 _l
 (
@@ -505,6 +510,9 @@ PointerController
 (
 )
 {
+#
+ifdef
+HAVE_ANDROID_OS
 mLooper
 -
 >
@@ -513,6 +521,8 @@ removeMessages
 mHandler
 )
 ;
+#
+endif
 AutoMutex
 _l
 (
@@ -2587,6 +2597,9 @@ systemTime
 SYSTEM_TIME_MONOTONIC
 )
 ;
+#
+ifdef
+HAVE_ANDROID_OS
 mLooper
 -
 >
@@ -2600,6 +2613,8 @@ MSG_ANIMATE
 )
 )
 ;
+#
+endif
 }
 }
 void
@@ -2610,6 +2625,9 @@ resetInactivityTimeoutLocked
 (
 )
 {
+#
+ifdef
+HAVE_ANDROID_OS
 mLooper
 -
 >
@@ -2619,6 +2637,8 @@ mHandler
 MSG_INACTIVITY_TIMEOUT
 )
 ;
+#
+endif
 nsecs_t
 timeout
 =
@@ -2633,6 +2653,9 @@ INACTIVITY_TIMEOUT_DELAY_TIME_SHORT
 :
 INACTIVITY_TIMEOUT_DELAY_TIME_NORMAL
 ;
+#
+ifdef
+HAVE_ANDROID_OS
 mLooper
 -
 >
@@ -2643,6 +2666,8 @@ mHandler
 MSG_INACTIVITY_TIMEOUT
 )
 ;
+#
+endif
 }
 void
 PointerController
@@ -2652,6 +2677,9 @@ removeInactivityTimeoutLocked
 (
 )
 {
+#
+ifdef
+HAVE_ANDROID_OS
 mLooper
 -
 >
@@ -2661,6 +2689,8 @@ mHandler
 MSG_INACTIVITY_TIMEOUT
 )
 ;
+#
+endif
 }
 void
 PointerController

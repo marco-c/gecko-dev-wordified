@@ -236,6 +236,9 @@ mOverlayLayer
 overlayLayer
 )
 {
+#
+ifdef
+HAVE_ANDROID_OS
 mHandler
 =
 new
@@ -244,6 +247,8 @@ WeakMessageHandler
 this
 )
 ;
+#
+endif
 mLocked
 .
 transactionNestingCount
@@ -265,6 +270,9 @@ SpriteController
 (
 )
 {
+#
+ifdef
+HAVE_ANDROID_OS
 mLooper
 -
 >
@@ -273,9 +281,6 @@ removeMessages
 mHandler
 )
 ;
-#
-ifdef
-HAVE_ANDROID_OS
 if
 (
 mSurfaceComposerClient
@@ -408,6 +413,9 @@ deferredSpriteUpdate
 =
 false
 ;
+#
+ifdef
+HAVE_ANDROID_OS
 mLooper
 -
 >
@@ -420,6 +428,8 @@ MSG_UPDATE_SPRITES
 )
 )
 ;
+#
+endif
 }
 }
 void
@@ -481,6 +491,9 @@ true
 }
 else
 {
+#
+ifdef
+HAVE_ANDROID_OS
 mLooper
 -
 >
@@ -493,6 +506,8 @@ MSG_UPDATE_SPRITES
 )
 )
 ;
+#
+endif
 }
 }
 }
