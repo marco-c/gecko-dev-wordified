@@ -43688,7 +43688,7 @@ return
 docShell
 -
 >
-GetIsContentBoundary
+GetIsBrowserOrApp
 (
 )
 ;

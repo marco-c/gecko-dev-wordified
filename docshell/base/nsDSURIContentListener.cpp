@@ -2307,7 +2307,7 @@ curDocShell
 curDocShell
 -
 >
-GetIsContentBoundary
+GetIsBrowserOrApp
 (
 )
 )

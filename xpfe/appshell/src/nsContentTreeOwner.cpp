@@ -6065,7 +6065,7 @@ docshell
 docshell
 -
 >
-GetIsBelowContentBoundary
+GetIsInBrowserOrApp
 (
 )
 &
