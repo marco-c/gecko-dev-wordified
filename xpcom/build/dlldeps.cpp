@@ -1957,6 +1957,15 @@ nsCycleCollector_collect
 (
 )
 ;
+sXPCOMHasLoadedNewDLLs
+=
+!
+sXPCOMHasLoadedNewDLLs
+;
+NS_SetHasLoadedNewDLLs
+(
+)
+;
 #
 if
 !
