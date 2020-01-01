@@ -242,6 +242,8 @@ stream
 nsCString
 &
 contentType
+bool
+async
 )
 ;
 virtual
