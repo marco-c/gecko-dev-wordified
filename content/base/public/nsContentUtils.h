@@ -474,13 +474,6 @@ endif
 #
 include
 "
-jsprvtd
-.
-h
-"
-#
-include
-"
 nsAString
 .
 h
@@ -587,6 +580,13 @@ h
 include
 "
 nsIPrefBranch2
+.
+h
+"
+#
+include
+"
+jsapi
 .
 h
 "

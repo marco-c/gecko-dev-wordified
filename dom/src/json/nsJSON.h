@@ -438,13 +438,6 @@ nsJSON_h__
 #
 include
 "
-jsprvtd
-.
-h
-"
-#
-include
-"
 jsapi
 .
 h
