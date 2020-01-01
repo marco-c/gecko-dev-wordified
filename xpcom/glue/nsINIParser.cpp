@@ -625,8 +625,6 @@ mozapps
 /
 update
 /
-src
-/
 updater
 /
 readstrings

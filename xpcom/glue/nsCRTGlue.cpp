@@ -165,8 +165,6 @@ mozapps
 /
 update
 /
-src
-/
 updater
 /
 updater
