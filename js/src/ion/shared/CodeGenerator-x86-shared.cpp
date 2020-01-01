@@ -5577,7 +5577,7 @@ argslot
 )
 ;
 uint32
-unused_stack
+unusedStack
 =
 StackOffsetOfPassedArg
 (
@@ -5930,7 +5930,7 @@ vector
 .
 if
 (
-unused_stack
+unusedStack
 )
 masm
 .
@@ -5938,7 +5938,7 @@ addPtr
 (
 Imm32
 (
-unused_stack
+unusedStack
 )
 StackPointer
 )
@@ -6010,7 +6010,7 @@ pushed
 .
 if
 (
-unused_stack
+unusedStack
 )
 masm
 .
@@ -6018,7 +6018,7 @@ subPtr
 (
 Imm32
 (
-unused_stack
+unusedStack
 )
 StackPointer
 )
@@ -6069,7 +6069,7 @@ of
 bailout
 .
 uint32
-stack_size
+stackSize
 =
 masm
 .
@@ -6077,13 +6077,13 @@ framePushed
 (
 )
 -
-unused_stack
+unusedStack
 ;
 uint32
-size_descriptor
+sizeDescriptor
 =
 (
-stack_size
+stackSize
 <
 <
 FRAMETYPE_BITS
@@ -6104,7 +6104,7 @@ vector
 .
 if
 (
-unused_stack
+unusedStack
 )
 masm
 .
@@ -6112,7 +6112,7 @@ addPtr
 (
 Imm32
 (
-unused_stack
+unusedStack
 )
 StackPointer
 )
@@ -6136,7 +6136,7 @@ push
 (
 Imm32
 (
-size_descriptor
+sizeDescriptor
 )
 )
 ;
@@ -6438,7 +6438,7 @@ fill
 FrameSizeClass
 .
 int
-prefix_garbage
+prefixGarbage
 =
 2
 *
@@ -6449,15 +6449,15 @@ void
 )
 ;
 int
-restore_diff
+restoreDiff
 =
-prefix_garbage
+prefixGarbage
 -
-unused_stack
+unusedStack
 ;
 if
 (
-restore_diff
+restoreDiff
 >
 0
 )
@@ -6467,7 +6467,7 @@ addPtr
 (
 Imm32
 (
-restore_diff
+restoreDiff
 )
 StackPointer
 )
@@ -6475,7 +6475,7 @@ StackPointer
 else
 if
 (
-restore_diff
+restoreDiff
 <
 0
 )
@@ -6486,7 +6486,7 @@ subPtr
 Imm32
 (
 -
-restore_diff
+restoreDiff
 )
 StackPointer
 )
