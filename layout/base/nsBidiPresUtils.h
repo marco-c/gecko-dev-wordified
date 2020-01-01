@@ -2510,6 +2510,11 @@ aCurrentFrame
 BidiParagraphData
 *
 aBpd
+BidiParagraphData
+*
+containingParagraph
+=
+nsnull
 )
 ;
 /
