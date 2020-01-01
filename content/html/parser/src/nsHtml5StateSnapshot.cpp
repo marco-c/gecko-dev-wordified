@@ -515,6 +515,16 @@ i
 +
 )
 {
+if
+(
+!
+!
+listOfActiveFormattingElements
+[
+i
+]
+)
+{
 listOfActiveFormattingElements
 [
 i
@@ -525,6 +535,7 @@ release
 (
 )
 ;
+}
 }
 listOfActiveFormattingElements
 .
