@@ -699,6 +699,13 @@ allownegativeassertions
 )
 GK_ATOM
 (
+allowfullscreen
+"
+allowfullscreen
+"
+)
+GK_ATOM
+(
 allowsameorigin
 "
 allow

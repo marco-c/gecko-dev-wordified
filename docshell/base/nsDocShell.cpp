@@ -12549,7 +12549,7 @@ element
 /
 has
 the
-mozallowfullscreen
+allowfullscreen
 attribute
 set
 to
@@ -12564,7 +12564,7 @@ iframe
 does
 not
 have
-mozallowfullscreen
+allowfullscreen
 =
 true
 then
@@ -12641,6 +12641,20 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
+allowfullscreen
+)
+&
+&
+!
+frameElement
+-
+>
+HasAttr
+(
+kNameSpaceID_None
+nsGkAtoms
+:
+:
 mozallowfullscreen
 )
 )
@@ -12677,7 +12691,7 @@ doesn
 t
 have
 a
-mozallowfullscreen
+allowfullscreen
 attribute
 so
 /

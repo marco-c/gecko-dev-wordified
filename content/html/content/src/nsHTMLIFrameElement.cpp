@@ -312,8 +312,8 @@ width
 NS_IMPL_BOOL_ATTR
 (
 nsHTMLIFrameElement
-MozAllowFullScreen
-mozallowfullscreen
+Allowfullscreen
+allowfullscreen
 )
 NS_IMPL_STRING_ATTR
 (

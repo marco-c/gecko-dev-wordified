@@ -48724,7 +48724,7 @@ iframe
 elements
 have
 the
-mozallowfullscreen
+allowfullscreen
 /
 /
 boolean

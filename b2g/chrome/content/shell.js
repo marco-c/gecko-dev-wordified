@@ -1262,7 +1262,7 @@ mozbrowser
 "
 true
 "
-mozallowfullscreen
+allowfullscreen
 =
 "
 true
@@ -1394,7 +1394,7 @@ browserFrame
 setAttribute
 (
 '
-mozallowfullscreen
+allowfullscreen
 '
 '
 true

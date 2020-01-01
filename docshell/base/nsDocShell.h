@@ -5012,7 +5012,7 @@ containing
 iframes
 have
 the
-mozallowfullscreen
+allowfullscreen
 /
 /
 attribute
@@ -5036,7 +5036,7 @@ containing
 frame
 for
 the
-mozallowfullscreen
+allowfullscreen
 /
 /
 attribute
@@ -5056,7 +5056,7 @@ frames
 also
 have
 the
-mozallowfullscreen
+allowfullscreen
 attribute
 .
 If
@@ -5095,7 +5095,7 @@ the
 content
 boundary
 has
-mozallowfullscreen
+allowfullscreen
 =
 true
 in
