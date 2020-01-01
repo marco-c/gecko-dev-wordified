@@ -1130,7 +1130,7 @@ i
 *
 a
 =
-useOrConstant
+useKeepaliveOrConstant
 (
 ins
 )
