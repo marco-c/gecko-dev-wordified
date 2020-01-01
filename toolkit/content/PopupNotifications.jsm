@@ -2308,11 +2308,6 @@ if
 needed
 if
 (
-this
-.
-isPanelOpen
-&
-&
 isCurrent
 )
 this
