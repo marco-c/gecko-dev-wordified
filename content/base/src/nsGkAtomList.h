@@ -12593,6 +12593,13 @@ ondeviceproximity
 ondeviceproximity
 "
 )
+GK_ATOM
+(
+onuserproximity
+"
+onuserproximity
+"
+)
 /
 /
 light
