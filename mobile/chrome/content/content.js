@@ -6352,6 +6352,16 @@ fields
 .
 if
 (
+!
+(
+elem
+instanceof
+Ci
+.
+nsIDOMHTMLInputElement
+)
+|
+|
 elem
 .
 mozIsTextField
