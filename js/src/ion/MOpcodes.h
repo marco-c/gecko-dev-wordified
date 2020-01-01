@@ -727,12 +727,12 @@ In
 \
 _
 (
-InstanceOfTyped
+InstanceOf
 )
 \
 _
 (
-InstanceOf
+CallInstanceOf
 )
 \
 _

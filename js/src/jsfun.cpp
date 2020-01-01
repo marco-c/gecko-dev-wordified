@@ -3330,11 +3330,8 @@ obj
 isFunction
 (
 )
-)
-{
-if
-(
-!
+&
+&
 obj
 -
 >
@@ -3342,8 +3339,6 @@ isBoundFunction
 (
 )
 )
-break
-;
 obj
 =
 obj
@@ -3358,7 +3353,6 @@ getBoundFunctionTarget
 (
 )
 ;
-}
 RootedValue
 pval
 (
