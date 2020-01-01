@@ -9488,6 +9488,14 @@ if
 pos
 <
 end
+&
+&
+!
+aOutputStr
+.
+IsEmpty
+(
+)
 )
 {
 nsAString
