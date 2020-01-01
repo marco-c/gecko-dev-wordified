@@ -3560,6 +3560,14 @@ aTarget
 overrideBounds
 )
 ;
+if
+(
+!
+pattern
+)
+return
+nsnull
+;
 /
 /
 pattern
@@ -3898,6 +3906,11 @@ aPaintServerSize
 imageSize
 )
 ;
+if
+(
+drawable
+)
+{
 nsLayoutUtils
 :
 :
@@ -3912,4 +3925,5 @@ aAnchor
 aDirty
 )
 ;
+}
 }
