@@ -50223,7 +50223,7 @@ doHashchange
 window
 -
 >
-DispatchSyncHashchange
+DispatchAsyncHashchange
 (
 )
 ;
