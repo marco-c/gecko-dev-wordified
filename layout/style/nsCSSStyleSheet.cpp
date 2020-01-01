@@ -11805,13 +11805,6 @@ Loader
 )
 ;
 }
-nsCSSParser
-parser
-(
-loader
-this
-)
-;
 mozAutoDocUpdate
 updateBatch
 (
@@ -12034,6 +12027,13 @@ mInner
 -
 >
 mPrincipal
+)
+;
+nsCSSParser
+parser
+(
+loader
+this
 )
 ;
 rv
