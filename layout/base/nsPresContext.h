@@ -586,6 +586,13 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+nsChangeHint
+.
+h
+"
 /
 /
 XXX
@@ -1177,6 +1184,8 @@ endif
 void
 RebuildAllStyleData
 (
+nsChangeHint
+aExtraHint
 )
 ;
 void
@@ -2857,6 +2866,7 @@ aZoom
 ;
 RebuildAllStyleData
 (
+NS_STYLE_HINT_REFLOW
 )
 ;
 }
@@ -4975,6 +4985,11 @@ mPendingSysColorChanged
 ;
 unsigned
 mPendingThemeChanged
+:
+1
+;
+unsigned
+mPrefChangePendingNeedsReflow
 :
 1
 ;

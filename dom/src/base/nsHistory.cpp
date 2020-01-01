@@ -1762,6 +1762,7 @@ pcx
 >
 RebuildAllStyleData
 (
+NS_STYLE_HINT_REFLOW
 )
 ;
 }
