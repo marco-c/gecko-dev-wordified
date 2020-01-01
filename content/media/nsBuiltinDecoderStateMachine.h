@@ -1979,6 +1979,9 @@ state
 machine
 thread
 )
+mozilla
+:
+:
 MutexAutoLock
 lock
 (
@@ -2014,6 +2017,9 @@ Revoke
 (
 )
 {
+mozilla
+:
+:
 MutexAutoLock
 lock
 (
@@ -2025,6 +2031,9 @@ mStateMachine
 nullptr
 ;
 }
+mozilla
+:
+:
 Mutex
 mMutex
 ;
