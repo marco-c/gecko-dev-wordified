@@ -1794,7 +1794,7 @@ nsHttp
 :
 IsPermanentRedirect
 (
-uint32_t
+PRUint32
 httpStatus
 )
 {

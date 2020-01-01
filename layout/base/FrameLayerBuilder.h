@@ -2642,7 +2642,7 @@ StoreOptimizedLayerForFrame
 nsIFrame
 *
 aFrame
-uint32_t
+PRUint32
 aDisplayItemKey
 Layer
 *
