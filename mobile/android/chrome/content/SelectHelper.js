@@ -416,9 +416,6 @@ result
 buttons
 =
 [
-{
-label
-:
 Strings
 .
 browser
@@ -431,7 +428,6 @@ selectHelper
 closeMultipleSelectDialog
 "
 )
-}
 ]
 ;
 }

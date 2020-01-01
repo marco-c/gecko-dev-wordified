@@ -212,9 +212,6 @@ type
 buttons
 :
 [
-{
-label
-:
 Strings
 .
 browser
@@ -227,10 +224,6 @@ inputWidgetHelper
 set
 "
 )
-}
-{
-label
-:
 Strings
 .
 browser
@@ -243,10 +236,6 @@ inputWidgetHelper
 clear
 "
 )
-}
-{
-label
-:
 Strings
 .
 browser
@@ -259,7 +248,6 @@ inputWidgetHelper
 cancel
 "
 )
-}
 ]
 inputs
 :

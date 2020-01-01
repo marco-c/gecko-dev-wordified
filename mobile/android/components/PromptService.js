@@ -1013,9 +1013,6 @@ aButtons
 |
 |
 [
-{
-label
-:
 PromptUtils
 .
 getLocaleString
@@ -1024,10 +1021,6 @@ getLocaleString
 OK
 "
 )
-}
-{
-label
-:
 PromptUtils
 .
 getLocaleString
@@ -1036,7 +1029,6 @@ getLocaleString
 Cancel
 "
 )
-}
 ]
 ;
 msg
@@ -1376,9 +1368,6 @@ commonPrompt
 aTitle
 aText
 [
-{
-label
-:
 PromptUtils
 .
 getLocaleString
@@ -1387,7 +1376,6 @@ getLocaleString
 OK
 "
 )
-}
 ]
 "
 "
@@ -1422,9 +1410,6 @@ commonPrompt
 aTitle
 aText
 [
-{
-label
-:
 PromptUtils
 .
 getLocaleString
@@ -1433,7 +1418,6 @@ getLocaleString
 OK
 "
 )
-}
 ]
 aCheckMsg
 aCheckState
@@ -1786,11 +1770,7 @@ buttons
 .
 push
 (
-{
-label
-:
 bTitle
-}
 )
 ;
 aButtonFlags
@@ -2196,9 +2176,6 @@ commonPrompt
 aTitle
 aText
 [
-{
-label
-:
 PromptUtils
 .
 getLocaleString
@@ -2207,7 +2184,6 @@ getLocaleString
 OK
 "
 )
-}
 ]
 "
 "
