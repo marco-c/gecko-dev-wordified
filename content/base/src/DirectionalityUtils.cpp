@@ -2409,6 +2409,14 @@ nsGkAtoms
 :
 textarea
 )
+|
+|
+aElement
+-
+>
+IsInAnonymousSubtree
+(
+)
 )
 ;
 }
