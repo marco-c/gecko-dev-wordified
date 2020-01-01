@@ -7478,6 +7478,14 @@ mResourceLoaded
 =
 PR_FALSE
 ;
+mResourceLoadedReported
+=
+PR_FALSE
+;
+mMetadataLoadedReported
+=
+PR_FALSE
+;
 if
 (
 aStreamListener
