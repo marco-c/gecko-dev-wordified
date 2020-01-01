@@ -22183,14 +22183,10 @@ argv
 i
 ]
 )
-{
 ok
 =
 JS_FALSE
 ;
-break
-;
-}
 }
 /
 *

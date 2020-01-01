@@ -15080,6 +15080,16 @@ JS_TRUE
 ;
 bad
 :
+if
+(
+empty
+)
+js_UnlockGCThingRT
+(
+rt
+empty
+)
+;
 #
 ifdef
 JS_THREADSAFE
