@@ -876,6 +876,14 @@ cx
 obj
 )
 ;
+if
+(
+!
+obj
+)
+return
+nsnull
+;
 /
 /
 Now
