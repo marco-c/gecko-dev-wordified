@@ -497,13 +497,7 @@ nsIURI
 *
 uri
 )
-{
-SetURI
-(
-uri
-)
 ;
-}
 protected
 :
 /
