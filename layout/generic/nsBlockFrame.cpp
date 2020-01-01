@@ -41103,15 +41103,9 @@ NS_FRAME_COMPLETE
 ;
 aState
 .
-AddFloat
+FlowAndPlaceFloat
 (
-nsnull
 f
-aState
-.
-mContentArea
-.
-width
 fStatus
 )
 ;
