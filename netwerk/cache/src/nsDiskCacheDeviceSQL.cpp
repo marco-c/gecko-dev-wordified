@@ -8656,9 +8656,14 @@ entry
 /
 and
 abort
+#
+ifdef
+DEBUG
 nsresult
 rv
 =
+#
+endif
 nsCacheService
 :
 :
