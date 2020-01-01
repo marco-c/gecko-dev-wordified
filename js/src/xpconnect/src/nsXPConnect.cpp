@@ -2664,6 +2664,8 @@ cx
 thread
 -
 >
+data
+.
 requestDepth
 >
 =
@@ -2694,6 +2696,8 @@ cx
 thread
 -
 >
+data
+.
 requestDepth
 =
 =
@@ -2726,6 +2730,8 @@ cx
 thread
 -
 >
+data
+.
 requestDepth
 =
 =
@@ -4623,11 +4629,10 @@ while
 (
 parent
 =
-global
--
->
-getParent
+JS_GetParent
 (
+cx
+global
 )
 )
 )
@@ -5852,7 +5857,7 @@ nsIPrincipal
 *
 principal
 bool
-wantXrays
+preferXrays
 JSObject
 *
 *
@@ -6038,7 +6043,7 @@ ToNewCString
 (
 local_origin
 )
-wantXrays
+preferXrays
 )
 ;
 JS_SetCompartmentPrivate
