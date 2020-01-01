@@ -464,6 +464,17 @@ nsStyleSet
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
 /
 /
 The

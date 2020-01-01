@@ -560,6 +560,17 @@ nsMenuFrame
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
 nsNativeTheme
 :
 :

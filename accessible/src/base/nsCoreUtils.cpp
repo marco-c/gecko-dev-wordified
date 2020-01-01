@@ -618,6 +618,17 @@ nsIInterfaceRequestorUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
 static
 NS_DEFINE_IID
 (

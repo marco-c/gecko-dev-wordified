@@ -539,6 +539,17 @@ nsFontMetrics
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
 nsIFrame
 *
 NS_NewProgressFrame
