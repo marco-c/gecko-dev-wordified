@@ -2392,6 +2392,11 @@ page1URI
 icon1URI
 )
 ;
+do_check_guid_for_uri
+(
+page1URI
+)
+;
 var
 savedIcon1URI
 =
@@ -2438,6 +2443,11 @@ setFaviconUrlForPage
 (
 page2URI
 icon2URI
+)
+;
+do_check_guid_for_uri
+(
+page2URI
 )
 ;
 var
@@ -2493,6 +2503,11 @@ setFaviconUrlForPage
 (
 page3URI
 icon1URI
+)
+;
+do_check_guid_for_uri
+(
+page3URI
 )
 ;
 var

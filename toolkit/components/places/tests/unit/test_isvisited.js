@@ -531,6 +531,7 @@ function
 add_uri_to_history
 (
 aURI
+aCheckForGuid
 )
 {
 var
@@ -563,6 +564,21 @@ level
 referrer
 )
 ;
+if
+(
+aCheckForGuid
+=
+=
+=
+undefined
+)
+{
+do_check_guid_for_uri
+(
+aURI
+)
+;
+}
 }
 /
 /
@@ -1014,6 +1030,7 @@ cantAddUri
 add_uri_to_history
 (
 cantAddUri
+false
 )
 ;
 do_check_false

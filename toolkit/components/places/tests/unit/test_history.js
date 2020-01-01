@@ -652,6 +652,11 @@ aURI
 )
 )
 ;
+do_check_guid_for_uri
+(
+aURI
+)
+;
 return
 visitId
 ;
