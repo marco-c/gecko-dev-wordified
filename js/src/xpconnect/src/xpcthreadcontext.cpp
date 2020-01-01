@@ -3192,6 +3192,15 @@ sMainThreadData
 =
 data
 ;
+sMainThreadData
+-
+>
+mThread
+=
+PR_GetCurrentThread
+(
+)
+;
 }
 return
 data
