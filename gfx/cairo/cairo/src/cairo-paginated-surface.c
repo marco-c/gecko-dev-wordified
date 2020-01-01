@@ -695,7 +695,7 @@ surface
 >
 meta
 =
-_cairo_meta_surface_create
+cairo_meta_surface_create
 (
 content
 width
@@ -881,7 +881,7 @@ paginated_surface
 >
 meta
 =
-_cairo_meta_surface_create
+cairo_meta_surface_create
 (
 paginated_surface
 -
@@ -1177,7 +1177,7 @@ height
 ;
 status
 =
-_cairo_meta_surface_replay
+cairo_meta_surface_replay
 (
 surface
 -
@@ -1408,7 +1408,7 @@ y_scale
 ;
 status
 =
-_cairo_meta_surface_replay
+cairo_meta_surface_replay
 (
 surface
 -
@@ -2455,7 +2455,7 @@ surface
 >
 meta
 =
-_cairo_meta_surface_create
+cairo_meta_surface_create
 (
 surface
 -
