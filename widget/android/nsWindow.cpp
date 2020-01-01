@@ -5218,6 +5218,13 @@ mIsVisible
 |
 !
 mWidgetListener
+|
+|
+!
+GetLayerManager
+(
+nullptr
+)
 )
 return
 false
@@ -13664,6 +13671,13 @@ nsWindow
 :
 TopWindow
 (
+)
+|
+|
+!
+GetLayerManager
+(
+nullptr
 )
 )
 {
