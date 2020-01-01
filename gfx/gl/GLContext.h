@@ -7522,6 +7522,7 @@ ARB_robustness
 EXT_robustness
 ARB_sync
 OES_EGL_image
+OES_EGL_sync
 Extensions_Max
 }
 ;

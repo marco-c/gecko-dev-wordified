@@ -383,6 +383,9 @@ GL_ARB_sync
 "
 GL_OES_EGL_image
 "
+"
+GL_OES_EGL_sync
+"
 nsnull
 }
 ;
