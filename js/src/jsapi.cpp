@@ -5370,6 +5370,15 @@ void
 {
 #
 ifdef
+MOZ_TRACEVIS
+JS_StopTraceVis
+(
+)
+;
+#
+endif
+#
+ifdef
 JS_OPMETER
 extern
 void
