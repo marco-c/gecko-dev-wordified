@@ -7350,9 +7350,12 @@ sound
 sound
 -
 >
-PlaySystemSound
+PlayEventSound
 (
-NS_SYSSOUND_MENU_EXECUTE
+nsISound
+:
+:
+EVENT_MENU_EXECUTE
 )
 ;
 nsXULPopupManager

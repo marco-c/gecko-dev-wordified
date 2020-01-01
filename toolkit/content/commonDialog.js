@@ -1906,9 +1906,9 @@ sound
 =
 gCommonDialogParam
 .
-GetString
+GetInt
 (
-13
+7
 )
 ;
 if
@@ -1936,7 +1936,7 @@ Ci
 nsISound
 )
 .
-playSystemSound
+playEventSound
 (
 sound
 )
