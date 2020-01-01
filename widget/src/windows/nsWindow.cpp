@@ -30320,6 +30320,12 @@ getWheelInfo
 =
 PR_TRUE
 ;
+#
+if
+MOZ_WINSDK_TARGETVER
+>
+=
+MOZ_NTDDI_LONGHORN
 /
 /
 Glass
@@ -30372,6 +30378,14 @@ return
 PR_TRUE
 ;
 }
+#
+endif
+/
+/
+MOZ_WINSDK_TARGETVER
+>
+=
+MOZ_NTDDI_LONGHORN
 switch
 (
 msg
