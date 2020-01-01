@@ -39772,6 +39772,9 @@ blocks
 interpReturnOK
 &
 =
+(
+JSBool
+)
 UnwindScope
 (
 cx
