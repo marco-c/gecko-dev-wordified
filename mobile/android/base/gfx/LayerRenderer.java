@@ -1383,13 +1383,6 @@ destroy
 )
 ;
 }
-Tabs
-.
-unregisterOnTabsChangedListener
-(
-this
-)
-;
 }
 void
 onSurfaceCreated
