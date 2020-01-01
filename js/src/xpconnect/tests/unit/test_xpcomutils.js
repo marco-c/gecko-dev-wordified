@@ -1410,6 +1410,7 @@ tests
 test_generateQI_string_names
 test_defineLazyGetter
 test_defineLazyServiceGetter
+test_categoryRegistration
 ]
 ;
 function
