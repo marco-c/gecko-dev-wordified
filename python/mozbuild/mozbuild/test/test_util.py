@@ -53,14 +53,14 @@ MPL
 0
 /
 .
+from
+__future__
+import
+unicode_literals
 import
 hashlib
 import
 unittest
-from
-StringIO
-import
-StringIO
 from
 tempfile
 import
@@ -104,6 +104,7 @@ recreated
         
 data
 =
+b
 '
 The
 quick
@@ -185,6 +186,7 @@ file
         
 data
 =
+b
 '
 x
 '

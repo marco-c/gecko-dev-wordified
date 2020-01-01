@@ -70,6 +70,10 @@ anywhere
 in
 particular
 .
+from
+__future__
+import
+unicode_literals
 import
 hashlib
 def

@@ -87,6 +87,10 @@ it
 lives
 here
 .
+from
+__future__
+import
+unicode_literals
 try
 :
     
@@ -419,7 +423,6 @@ record
 )
         
 return
-u
 '
 %
 4
@@ -581,7 +584,6 @@ params
 )
         
 return
-u
 '
 %
 s
