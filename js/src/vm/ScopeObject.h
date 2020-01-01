@@ -115,6 +115,15 @@ ScopeObject_h___
 #
 include
 "
+mozilla
+/
+GuardObjects
+.
+h
+"
+#
+include
+"
 jscntxt
 .
 h
@@ -3011,7 +3020,7 @@ ScopeIter
 JSContext
 *
 cx
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 /
@@ -3037,7 +3046,7 @@ si
 JSContext
 *
 cx
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 /
@@ -3063,7 +3072,7 @@ fp
 JSContext
 *
 cx
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 /
@@ -3098,7 +3107,7 @@ enclosingScope
 JSContext
 *
 cx
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 /
@@ -3149,7 +3158,7 @@ fp
 JSContext
 *
 cx
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 /
@@ -3180,7 +3189,7 @@ scope
 JSContext
 *
 cx
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 bool
@@ -3324,7 +3333,7 @@ return
 block_
 ;
 }
-JS_DECL_USE_GUARD_OBJECT_NOTIFIER
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
