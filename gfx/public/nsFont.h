@@ -735,7 +735,7 @@ should
 be
 applied
 .
-PRPackedBool
+PRUint8
 familyNameQuirks
 :
 1
