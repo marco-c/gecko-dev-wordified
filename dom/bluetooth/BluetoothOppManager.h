@@ -690,9 +690,6 @@ established
 bool
 mConnected
 ;
-int
-mConnectionId
-;
 nsString
 mConnectedDeviceAddress
 ;
