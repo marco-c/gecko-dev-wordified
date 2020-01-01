@@ -1560,7 +1560,7 @@ rootFrame
 nsIPresShell
 :
 :
-eStyleChange
+eResize
 NS_FRAME_IS_DIRTY
 )
 ;
