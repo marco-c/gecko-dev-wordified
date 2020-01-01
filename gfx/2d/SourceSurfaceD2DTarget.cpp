@@ -1100,8 +1100,7 @@ return
 mFormat
 ;
 }
-unsigned
-char
+uint8_t
 *
 DataSourceSurfaceD2DTarget
 :
