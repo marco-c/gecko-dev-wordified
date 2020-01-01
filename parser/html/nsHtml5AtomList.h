@@ -282,6 +282,13 @@ script
 )
 HTML5_ATOM
 (
+table
+"
+table
+"
+)
+HTML5_ATOM
+(
 caption
 "
 caption
@@ -355,13 +362,6 @@ HTML5_ATOM
 optgroup
 "
 optgroup
-"
-)
-HTML5_ATOM
-(
-table
-"
-table
 "
 )
 HTML5_ATOM
