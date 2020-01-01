@@ -6895,6 +6895,19 @@ getClass
 js_CallClass
 )
 ;
+uintN
+i
+=
+0
+;
+if
+(
+kind
+!
+=
+JSCPK_ARGUMENTS
+)
+{
 JS_ASSERT
 (
 (
@@ -6912,7 +6925,6 @@ id
 )
 )
 ;
-uintN
 i
 =
 (
@@ -6923,6 +6935,7 @@ JSVAL_TO_INT
 id
 )
 ;
+}
 jsval
 *
 array
