@@ -7515,6 +7515,12 @@ rv
 ConvertToUTF8
 (
 decoder
+mName
+)
+;
+ConvertToUTF8
+(
+decoder
 mDescription
 )
 ;
