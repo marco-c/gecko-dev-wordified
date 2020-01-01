@@ -5835,14 +5835,13 @@ return
 JS_TRUE
 ;
 }
-JSString
-*
+jsval
 jsstr
 =
 XPCStringConvert
 :
 :
-ReadableToJSString
+ReadableToJSVal
 (
 cx
 str
@@ -5859,10 +5858,7 @@ JS_FALSE
 *
 rval
 =
-STRING_TO_JSVAL
-(
 jsstr
-)
 ;
 return
 JS_TRUE

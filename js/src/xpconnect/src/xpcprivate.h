@@ -18886,9 +18886,8 @@ XPCStringConvert
 public
 :
 static
-JSString
-*
-ReadableToJSString
+jsval
+ReadableToJSVal
 (
 JSContext
 *
