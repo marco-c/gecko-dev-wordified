@@ -401,6 +401,8 @@ at0
 atr
 tr
 t0
+cse
+fold
 )
 F_
 #
@@ -417,6 +419,8 @@ atr
 tr
 t0
 t1
+cse
+fold
 )
 F_
 #
@@ -435,6 +439,8 @@ tr
 t0
 t1
 t2
+cse
+fold
 )
 F_
 #
