@@ -1793,6 +1793,11 @@ mIsPending
 1
 ;
 PRUint32
+mWasOpened
+:
+1
+;
+PRUint32
 mApplyConversion
 :
 1

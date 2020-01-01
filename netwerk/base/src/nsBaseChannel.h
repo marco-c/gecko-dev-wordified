@@ -2048,6 +2048,9 @@ mQueriedProgressSink
 PRPackedBool
 mSynthProgressEvents
 ;
+PRPackedBool
+mWasOpened
+;
 }
 ;
 #
