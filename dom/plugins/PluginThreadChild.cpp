@@ -688,10 +688,13 @@ args
 ;
 pluginFilename
 =
+UnmungePluginDsoPath
+(
 values
 [
 1
 ]
+)
 ;
 #
 elif
