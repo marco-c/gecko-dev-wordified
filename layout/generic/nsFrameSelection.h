@@ -3944,6 +3944,8 @@ PRUint32
 aContentOffset
 PRUint32
 aContentEndOffset
+HINT
+aHint
 PRBool
 aContinueSelection
 PRBool
