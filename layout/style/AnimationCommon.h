@@ -340,6 +340,7 @@ CommonElementAnimationData
 /
 for
 ElementDataRemoved
+virtual
 void
 AddElementData
 (
@@ -347,11 +348,16 @@ CommonElementAnimationData
 *
 aData
 )
+=
+0
 ;
+virtual
 void
 ElementDataRemoved
 (
 )
+=
+0
 ;
 void
 RemoveAllElementData
