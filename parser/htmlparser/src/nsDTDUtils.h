@@ -2893,12 +2893,11 @@ CToken
 )
 anObject
 ;
-CToken
-:
-:
-Destroy
-(
 aToken
+-
+>
+Release
+(
 mArenaPool
 )
 ;

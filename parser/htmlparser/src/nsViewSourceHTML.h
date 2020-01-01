@@ -751,9 +751,6 @@ mFilename
 PRUint32
 mTokenCount
 ;
-nsCParserNode
-mEndNode
-;
 nsCParserStartNode
 mStartNode
 ;
@@ -765,9 +762,6 @@ mITextToken
 ;
 nsCParserStartNode
 mErrorNode
-;
-nsCParserNode
-mEndErrorNode
 ;
 }
 ;
