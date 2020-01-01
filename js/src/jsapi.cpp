@@ -24844,14 +24844,12 @@ obj
 )
 &
 &
-(
 jsc
 .
 tokenStream
 .
-flags
-&
-TSF_UNEXPECTED_EOF
+isUnexpectedEOF
+(
 )
 )
 {
