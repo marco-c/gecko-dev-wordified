@@ -1858,6 +1858,8 @@ aIndex
 PRBool
 aSelected
 PRBool
+aChangeOptionState
+PRBool
 aNotify
 )
 ;
