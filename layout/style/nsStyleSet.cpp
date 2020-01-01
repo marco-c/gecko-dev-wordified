@@ -4665,6 +4665,7 @@ PresContext
 aElement
 &
 ruleWalker
+PR_TRUE
 )
 ;
 FileRules
@@ -4705,7 +4706,7 @@ HaveRelevantLink
 )
 )
 {
-ruleWalker
+data
 .
 ResetForVisitedMatching
 (
@@ -5335,7 +5336,7 @@ HaveRelevantLink
 )
 )
 {
-ruleWalker
+data
 .
 ResetForVisitedMatching
 (
@@ -5571,7 +5572,7 @@ HaveRelevantLink
 )
 )
 {
-ruleWalker
+data
 .
 ResetForVisitedMatching
 (
@@ -6004,7 +6005,7 @@ HaveRelevantLink
 )
 )
 {
-ruleWalker
+data
 .
 ResetForVisitedMatching
 (

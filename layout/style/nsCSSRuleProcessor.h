@@ -691,7 +691,7 @@ true
 if
 the
 given
-RuleProcessorData
+aElement
 matches
 one
 of
@@ -749,6 +749,15 @@ static
 PRBool
 SelectorListMatches
 (
+mozilla
+:
+:
+dom
+:
+:
+Element
+*
+aElement
 RuleProcessorData
 &
 aData
