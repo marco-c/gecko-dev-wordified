@@ -812,6 +812,12 @@ JSDOUBLE_IS_INT
 d
 i
 )
+&
+&
+INT_FITS_IN_JSVAL
+(
+i
+)
 )
 return
 INT_TO_JSVAL
