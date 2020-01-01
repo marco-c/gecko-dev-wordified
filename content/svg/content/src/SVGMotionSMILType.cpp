@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsIDOMSVGPathSegList
-.
-h
-"
-#
-include
-"
 nsMathUtils
 .
 h

@@ -2349,7 +2349,7 @@ methods
 *
 readonly
 attribute
-nsIDOMSVGPathSegList
+DOMSVGPathSegList
 pathSegList
 ;
 *
@@ -2360,7 +2360,7 @@ nsSVGPathElement
 :
 GetPathSegList
 (
-nsIDOMSVGPathSegList
+nsISupports
 *
 *
 aPathSegList
@@ -2406,7 +2406,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 readonly
 attribute
-nsIDOMSVGPathSegList
+DOMSVGPathSegList
 normalizedPathSegList
 ;
 *
@@ -2417,7 +2417,7 @@ nsSVGPathElement
 :
 GetNormalizedPathSegList
 (
-nsIDOMSVGPathSegList
+nsISupports
 *
 *
 aNormalizedPathSegList
@@ -2431,7 +2431,7 @@ NS_ERROR_NOT_IMPLEMENTED
 *
 readonly
 attribute
-nsIDOMSVGPathSegList
+DOMSVGPathSegList
 animatedPathSegList
 ;
 *
@@ -2442,7 +2442,7 @@ nsSVGPathElement
 :
 GetAnimatedPathSegList
 (
-nsIDOMSVGPathSegList
+nsISupports
 *
 *
 aAnimatedPathSegList
@@ -2488,7 +2488,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 readonly
 attribute
-nsIDOMSVGPathSegList
+DOMSVGPathSegList
 animatedNormalizedPathSegList
 ;
 *
@@ -2499,7 +2499,7 @@ nsSVGPathElement
 :
 GetAnimatedNormalizedPathSegList
 (
-nsIDOMSVGPathSegList
+nsISupports
 *
 *
 aAnimatedNormalizedPathSegList

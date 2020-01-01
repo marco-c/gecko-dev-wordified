@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsIDOMSVGPathSegList
-.
-h
-"
-#
-include
-"
 nsSVGElement
 .
 h
@@ -399,7 +392,7 @@ DOMSVGPathSegList
 MOZ_FINAL
 :
 public
-nsIDOMSVGPathSegList
+nsISupports
 public
 nsWrapperCache
 {
@@ -414,7 +407,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DOMSVGPathSegList
 )
-NS_DECL_NSIDOMSVGPATHSEGLIST
 virtual
 JSObject
 *
