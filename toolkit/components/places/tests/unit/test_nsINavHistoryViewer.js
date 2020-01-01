@@ -599,6 +599,8 @@ Date
 now
 (
 )
+*
+1000
 ;
 var
 placeID
@@ -1128,6 +1130,8 @@ Date
 now
 (
 )
+*
+1000
 )
 ;
 do_check_eq

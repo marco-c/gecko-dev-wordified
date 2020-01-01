@@ -5224,6 +5224,8 @@ Date
 now
 (
 )
+*
+1000
 null
 histsvc
 .
