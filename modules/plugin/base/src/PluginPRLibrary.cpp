@@ -441,13 +441,6 @@ PluginPRLibrary
 .
 h
 "
-#
-include
-<
-malloc
-.
-h
->
 /
 /
 Some
@@ -499,6 +492,13 @@ defined
 (
 _M_IX86
 )
+#
+include
+<
+malloc
+.
+h
+>
 /
 /
 gNotOptimized
@@ -857,7 +857,6 @@ NPError
 error
 )
 {
-CALLING_CONVENTION_HACK
 if
 (
 mNP_GetValue
@@ -1042,7 +1041,6 @@ NPError
 error
 )
 {
-CALLING_CONVENTION_HACK
 if
 (
 !
