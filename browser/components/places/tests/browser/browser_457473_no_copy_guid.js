@@ -815,9 +815,9 @@ the
 test
 root
 folder
-PlacesUIUtils
+PlacesUtils
 .
-ptm
+transactionManager
 .
 doTransaction
 (
@@ -911,9 +911,9 @@ transaction
 confirm
 the
 removal
-PlacesUIUtils
+PlacesUtils
 .
-ptm
+transactionManager
 .
 undoTransaction
 (
@@ -949,9 +949,9 @@ through
 undo
 /
 redo
-PlacesUIUtils
+PlacesUtils
 .
-ptm
+transactionManager
 .
 redoTransaction
 (
@@ -1067,9 +1067,9 @@ false
 /
 clean
 up
-PlacesUIUtils
+PlacesUtils
 .
-ptm
+transactionManager
 .
 undoTransaction
 (

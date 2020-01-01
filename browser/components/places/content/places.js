@@ -6362,11 +6362,8 @@ root
 var
 txn
 =
-PlacesUIUtils
-.
-ptm
-.
-createItem
+new
+PlacesCreateBookmarkTransaction
 (
 placeURI
 PlacesUtils
@@ -6382,9 +6379,9 @@ input
 value
 )
 ;
-PlacesUIUtils
+PlacesUtils
 .
-ptm
+transactionManager
 .
 doTransaction
 (

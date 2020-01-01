@@ -793,9 +793,9 @@ transaction
 "
 )
 ;
-PlacesUIUtils
+PlacesUtils
 .
-ptm
+transactionManager
 .
 doTransaction
 (
@@ -849,9 +849,9 @@ transaction
 confirm
 the
 removal
-PlacesUIUtils
+PlacesUtils
 .
-ptm
+transactionManager
 .
 undoTransaction
 (
@@ -878,9 +878,9 @@ folder
 redo
 the
 transaction
-PlacesUIUtils
+PlacesUtils
 .
-ptm
+transactionManager
 .
 redoTransaction
 (
@@ -942,9 +942,9 @@ false
 /
 clean
 up
-PlacesUIUtils
+PlacesUtils
 .
-ptm
+transactionManager
 .
 undoTransaction
 (
