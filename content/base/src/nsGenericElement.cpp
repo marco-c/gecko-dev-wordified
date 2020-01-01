@@ -34837,6 +34837,10 @@ nsRuleWalker
 :
 eRelevantLinkUnvisited
 doc
+TreeMatchContext
+:
+:
+eNeverMatchVisited
 )
 ;
 doc
@@ -35569,6 +35573,10 @@ eRelevantLinkUnvisited
 OwnerDoc
 (
 )
+TreeMatchContext
+:
+:
+eNeverMatchVisited
 )
 ;
 matches
