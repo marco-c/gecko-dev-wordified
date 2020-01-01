@@ -2044,6 +2044,9 @@ mWeakShell
 |
 |
 !
+nsAccUtils
+:
+:
 IsEmbeddedObject
 (
 this
@@ -2536,6 +2539,9 @@ MAI_INTERFACE_HYPERLINK_IMPL
 if
 (
 !
+nsAccUtils
+:
+:
 MustPrune
 (
 this
@@ -3908,7 +3914,7 @@ ifdef
 DEBUG_A11Y
 NS_ASSERTION
 (
-nsAccessible
+nsAccUtils
 :
 :
 IsTextInterfaceSupportCorrect
@@ -4506,7 +4512,7 @@ if
 accWrap
 |
 |
-nsAccessibleWrap
+nsAccUtils
 :
 :
 MustPrune
@@ -4736,7 +4742,7 @@ if
 accWrap
 |
 |
-nsAccessibleWrap
+nsAccUtils
 :
 :
 MustPrune
@@ -5108,7 +5114,7 @@ return
 }
 if
 (
-nsAccessible
+nsAccUtils
 :
 :
 IsEmbeddedObject

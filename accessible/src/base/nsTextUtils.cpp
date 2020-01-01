@@ -450,13 +450,6 @@ nsAccessNode
 .
 h
 "
-#
-include
-"
-nsCoreUtils
-.
-h
-"
 /
 /
 /
@@ -920,7 +913,7 @@ mIncludeDefAttrValue
 aIncludeDefAttrValue
 )
 {
-nsAccessNode
+nsCoreUtils
 :
 :
 GetComputedStyleDeclaration
@@ -940,7 +933,7 @@ if
 !
 mIncludeDefAttrValue
 )
-nsAccessNode
+nsCoreUtils
 :
 :
 GetComputedStyleDeclaration
@@ -985,7 +978,7 @@ nsIDOMCSSStyleDeclaration
 >
 currStyleDecl
 ;
-nsAccessNode
+nsCoreUtils
 :
 :
 GetComputedStyleDeclaration

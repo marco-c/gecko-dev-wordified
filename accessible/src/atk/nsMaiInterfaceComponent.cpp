@@ -599,7 +599,7 @@ if
 accWrap
 |
 |
-nsAccessibleWrap
+nsAccUtils
 :
 :
 MustPrune

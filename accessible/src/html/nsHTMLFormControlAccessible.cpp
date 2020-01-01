@@ -2576,9 +2576,9 @@ parent
 ;
 if
 (
-parent
-&
-&
+nsAccUtils
+:
+:
 Role
 (
 parent
@@ -2590,7 +2590,6 @@ nsIAccessibleRole
 :
 ROLE_AUTOCOMPLETE
 )
-{
 *
 aState
 |
@@ -2600,7 +2599,6 @@ nsIAccessibleStates
 :
 STATE_HASPOPUP
 ;
-}
 }
 if
 (
@@ -3790,9 +3788,9 @@ GetParent
 ;
 if
 (
-groupboxAccessible
-&
-&
+nsAccUtils
+:
+:
 Role
 (
 groupboxAccessible

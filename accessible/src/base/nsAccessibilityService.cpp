@@ -9576,7 +9576,7 @@ if
 tableAccessible
 &
 &
-nsAccessible
+nsAccUtils
 :
 :
 Role

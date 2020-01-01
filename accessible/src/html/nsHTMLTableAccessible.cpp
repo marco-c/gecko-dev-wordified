@@ -919,6 +919,9 @@ parentAcc
 {
 if
 (
+nsAccUtils
+:
+:
 Role
 (
 parentAcc
@@ -1240,6 +1243,9 @@ captionAccessible
 {
 if
 (
+nsAccUtils
+:
+:
 Role
 (
 captionAccessible
@@ -1800,9 +1806,9 @@ firstChild
 ;
 if
 (
-firstChild
-&
-&
+nsAccUtils
+:
+:
 Role
 (
 firstChild
@@ -1814,7 +1820,6 @@ nsIAccessibleRole
 :
 ROLE_CAPTION
 )
-{
 NS_ADDREF
 (
 *
@@ -1823,7 +1828,6 @@ aCaption
 firstChild
 )
 ;
-}
 return
 NS_OK
 ;
@@ -5707,6 +5711,9 @@ PRBool
 hasNonTableRole
 =
 (
+nsAccUtils
+:
+:
 Role
 (
 this
@@ -6303,6 +6310,9 @@ nsIDOMCSSStyleDeclaration
 >
 styleDecl
 ;
+nsCoreUtils
+:
+:
 GetComputedStyleDeclaration
 (
 EmptyString
