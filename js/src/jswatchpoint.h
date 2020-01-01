@@ -741,6 +741,14 @@ JSTracer
 trc
 )
 ;
+void
+markAll
+(
+JSTracer
+*
+trc
+)
+;
 static
 void
 sweepAll
