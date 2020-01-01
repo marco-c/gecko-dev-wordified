@@ -341,7 +341,7 @@ msgName
 {
 cpmm
 .
-addMessageListener
+addWeakMessageListener
 (
 msgName
 this
@@ -621,7 +621,7 @@ msgName
 {
 cpmm
 .
-removeMessageListener
+removeWeakMessageListener
 (
 msgName
 this
