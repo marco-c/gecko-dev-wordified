@@ -6896,6 +6896,8 @@ blend_op
 if
 (
 width
++
+x_offset
 >
 png_ptr
 -
@@ -6904,6 +6906,8 @@ first_frame_width
 |
 |
 height
++
+y_offset
 >
 png_ptr
 -
@@ -6914,14 +6918,11 @@ png_error
 (
 png_ptr
 "
-width
-and
-/
-or
-height
-for
+dimensions
+of
 a
 frame
+are
 greater
 than
 "
