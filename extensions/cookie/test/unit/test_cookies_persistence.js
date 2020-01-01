@@ -69,6 +69,9 @@ up
 a
 profile
 .
+let
+profile
+=
 do_get_profile
 (
 )
@@ -427,6 +430,7 @@ profile
 change
 do_reload_profile
 (
+profile
 cso
 )
 ;
@@ -462,6 +466,7 @@ cleanse
 them
 do_reload_profile
 (
+profile
 cso
 "
 shutdown
@@ -554,6 +559,7 @@ profile
 change
 do_reload_profile
 (
+profile
 cso
 )
 ;
