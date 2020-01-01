@@ -459,7 +459,7 @@ namespace
 dom
 {
 namespace
-telephony
+gonk
 {
 class
 AudioManager
