@@ -697,7 +697,7 @@ sessionhistory
 .
 max_entries
 "
-3
+50
 )
 ;
 /

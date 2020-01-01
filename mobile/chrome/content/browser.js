@@ -431,7 +431,7 @@ Components
 utils
 ;
 var
-LocationBar
+HUDBar
 =
 null
 ;
