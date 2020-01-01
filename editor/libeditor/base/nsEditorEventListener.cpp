@@ -863,9 +863,8 @@ elmP
 piTarget
 -
 >
-GetListenerManager
+ListenerManager
 (
-true
 )
 ;
 NS_ENSURE_STATE
@@ -1348,9 +1347,8 @@ elmP
 piTarget
 -
 >
-GetListenerManager
+ListenerManager
 (
-true
 )
 ;
 if

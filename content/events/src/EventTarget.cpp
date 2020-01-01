@@ -148,9 +148,8 @@ nsEventListenerManager
 *
 elm
 =
-GetListenerManager
+GetExistingListenerManager
 (
-false
 )
 ;
 if
@@ -190,9 +189,8 @@ nsEventListenerManager
 *
 elm
 =
-GetListenerManager
+GetExistingListenerManager
 (
-false
 )
 ;
 return
@@ -301,9 +299,8 @@ rv
 {
 rv
 =
-GetListenerManager
+ListenerManager
 (
-true
 )
 -
 >

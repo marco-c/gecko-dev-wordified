@@ -4297,9 +4297,8 @@ nsEventListenerManager
 *
 manager
 =
-GetListenerManager
+GetExistingListenerManager
 (
-false
 )
 ;
 if

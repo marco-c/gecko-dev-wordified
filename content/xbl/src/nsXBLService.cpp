@@ -3451,9 +3451,8 @@ manager
 piTarget
 -
 >
-GetListenerManager
+ListenerManager
 (
-true
 )
 ;
 if
@@ -3762,9 +3761,8 @@ manager
 piTarget
 -
 >
-GetListenerManager
+ListenerManager
 (
-true
 )
 ;
 if
