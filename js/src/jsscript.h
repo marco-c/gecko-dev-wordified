@@ -3492,7 +3492,13 @@ bindingsAccessedDynamically
 /
 *
 see
-TCF_BINDINGS_ACCESSED_DYNAMICALLY
+ContextFlags
+'
+field
+of
+the
+same
+name
 *
 /
 bool
@@ -4005,7 +4011,10 @@ v
 /
 *
 See
-TCF_ARGUMENTS_HAS_LOCAL_BINDING
+ContextFlags
+:
+:
+funArgumentsHasLocalBinding
 comment
 .
 *

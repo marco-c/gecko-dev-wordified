@@ -16357,9 +16357,9 @@ pn
 pn_funbox
 -
 >
-tcflags
-&
-TCF_FUN_IS_GENERATOR
+funIsGenerator
+(
+)
 ;
 #
 else

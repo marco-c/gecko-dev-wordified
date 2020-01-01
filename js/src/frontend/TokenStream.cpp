@@ -3930,13 +3930,11 @@ isStrictMode
 sc
 &
 &
-(
 sc
 -
 >
-flags
-&
-TCF_STRICT_MODE_CODE
+inStrictMode
+(
 )
 )
 )
