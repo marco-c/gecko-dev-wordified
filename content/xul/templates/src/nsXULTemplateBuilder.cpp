@@ -7233,10 +7233,6 @@ mCompDB
 =
 nsnull
 ;
-mRoot
-=
-nsnull
-;
 mDataSource
 =
 nsnull
@@ -7311,10 +7307,6 @@ mDB
 nsnull
 ;
 mCompDB
-=
-nsnull
-;
-mRoot
 =
 nsnull
 ;
