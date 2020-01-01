@@ -5265,7 +5265,7 @@ lir
 >
 ins2
 (
-LIR_eq
+LIR_peq
 lir
 -
 >
@@ -5297,7 +5297,7 @@ ins2
 (
 LIR_pirsh
 val_ins
-INS_CONSTWORD
+INS_CONST
 (
 JSVAL_TAGBITS
 )
@@ -5341,7 +5341,7 @@ lir
 >
 ins2
 (
-LIR_eq
+LIR_peq
 lir
 -
 >
