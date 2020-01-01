@@ -2295,10 +2295,6 @@ not
 -
 pending
 .
-mIsPending
-=
-PR_FALSE
-;
 if
 (
 mListener
@@ -2312,6 +2308,10 @@ OnStartRequest
 this
 mListenerContext
 )
+;
+mIsPending
+=
+PR_FALSE
 ;
 mListener
 -
@@ -2330,6 +2330,13 @@ mListener
 mListenerContext
 =
 0
+;
+}
+else
+{
+mIsPending
+=
+PR_FALSE
 ;
 }
 /
