@@ -440,6 +440,16 @@ mozilla_FileUtils_h
 define
 mozilla_FileUtils_h
 #
+include
+"
+nscore
+.
+h
+"
+/
+/
+nsnull
+#
 if
 defined
 (
