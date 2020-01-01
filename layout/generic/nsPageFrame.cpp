@@ -2395,8 +2395,8 @@ param
 aRenderingContext
 -
 rendering
-content
-ot
+context
+to
 draw
 into
 /
@@ -2961,7 +2961,7 @@ aRenderingContext
 SetClipRect
 (
 aRect
-nsClipCombine_kReplace
+nsClipCombine_kIntersect
 )
 ;
 nsLayoutUtils
