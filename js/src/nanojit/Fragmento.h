@@ -881,16 +881,6 @@ void
 ip
 )
 ;
-void
-disconnectLoops
-(
-)
-;
-void
-reconnectLoops
-(
-)
-;
 verbose_only
 (
 uint32_t
