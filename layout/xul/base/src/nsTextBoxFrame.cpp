@@ -2859,6 +2859,15 @@ posResolve
 .
 visualLeftTwips
 ;
+mAccessKeyInfo
+-
+>
+mAccessWidth
+=
+posResolve
+.
+visualWidth
+;
 }
 else
 {
