@@ -1588,7 +1588,7 @@ Don
 t
 need
 to
-MakeValueRangeGCSafe
+MakeRangeGCSafe
 :
 the
 VM
