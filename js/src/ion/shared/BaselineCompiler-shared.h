@@ -195,6 +195,9 @@ bool
 ionCompileable_
 ;
 bool
+ionOSRCompileable_
+;
+bool
 debugMode_
 ;
 FrameInfo
