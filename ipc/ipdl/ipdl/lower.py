@@ -12256,6 +12256,7 @@ Start
 msgstart
 )
         
+#
 msgenum
 .
 addId
@@ -12718,6 +12719,22 @@ decl
 type
 )
                    
+ExprVar
+(
+_messageStartName
+(
+p
+.
+decl
+.
+type
+)
++
+'
+Child
+'
+)
+                   
 ]
 )
 )
@@ -12865,6 +12882,22 @@ p
 decl
 .
 type
+)
+                   
+ExprVar
+(
+_messageStartName
+(
+p
+.
+decl
+.
+type
+)
++
+'
+Child
+'
 )
                    
 ]
@@ -31984,17 +32017,36 @@ StmtBreak
 ]
 )
             
-return
-CaseLabel
-(
-_protocolId
+label
+=
+_messageStartName
 (
 actor
 .
 ptype
 )
+            
+if
+actor
 .
-name
+side
+is
+'
+child
+'
+:
+                
+label
++
+=
+'
+Child
+'
+            
+return
+CaseLabel
+(
+label
 )
 case
         

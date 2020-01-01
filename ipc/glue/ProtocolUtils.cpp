@@ -349,6 +349,8 @@ ProcessHandle
 aChildProcess
 ProtocolId
 aProtocol
+ProtocolId
+aChildProtocol
 )
 {
 ProcessId
@@ -432,7 +434,7 @@ ChannelOpened
 (
 childSide
 parentId
-aProtocol
+aChildProtocol
 )
 )
 )
@@ -473,6 +475,8 @@ Mode
 aOpenerMode
 ProtocolId
 aProtocol
+ProtocolId
+aChildProtocol
 )
 {
 bool
@@ -587,7 +591,7 @@ ChannelOpened
 (
 childSide
 parentId
-aProtocol
+aChildProtocol
 )
 ;
 nsAutoPtr
