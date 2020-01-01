@@ -204,7 +204,7 @@ ask
 whether
 a
 TabContext
-correspodns
+corresponds
 to
 a
 mozbrowser
