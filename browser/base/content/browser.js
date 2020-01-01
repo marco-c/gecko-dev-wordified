@@ -37462,7 +37462,7 @@ target
 .
 ownerDocument
 .
-contentPrincipal
+nodePrincipal
 )
 ;
 if
