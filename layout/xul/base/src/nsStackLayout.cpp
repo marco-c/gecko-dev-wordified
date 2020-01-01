@@ -1704,10 +1704,11 @@ GetRect
 PRBool
 sizeChanged
 =
-(
-oldRect
 !
-=
+oldRect
+.
+IsExactEqual
+(
 childRect
 )
 ;
