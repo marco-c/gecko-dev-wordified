@@ -3255,7 +3255,7 @@ PR_GetCurrentThread
 #
 ifdef
 WINCE
-SetThreadPriority
+CeSetThreadPriority
 (
 GetCurrentThread
 (
