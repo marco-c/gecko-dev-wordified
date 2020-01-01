@@ -603,7 +603,7 @@ shift
 =
 0
 ;
-uint
+uint8
 byte
 ;
 while
