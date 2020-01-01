@@ -8144,7 +8144,7 @@ nsIIOService
 .
 newURI
 (
-url
+urlOrDocument
 null
 null
 )
