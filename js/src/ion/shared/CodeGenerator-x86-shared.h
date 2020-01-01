@@ -621,6 +621,15 @@ ins
 ;
 virtual
 bool
+visitDivSelfI
+(
+LDivSelfI
+*
+ins
+)
+;
+virtual
+bool
 visitModI
 (
 LModI
