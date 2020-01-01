@@ -575,6 +575,17 @@ float
 angle
 in
 radians
+eStyleUnit_Turn
+=
+15
+/
+/
+(
+float
+)
+angle
+in
+turns
 eStyleUnit_Coord
 =
 20
@@ -1064,7 +1075,7 @@ mUnit
 mUnit
 <
 =
-eStyleUnit_Radian
+eStyleUnit_Turn
 ;
 }
 bool
@@ -2249,7 +2260,7 @@ eStyleUnit_Degree
 mUnit
 <
 =
-eStyleUnit_Radian
+eStyleUnit_Turn
 "
 not
 an
@@ -2269,7 +2280,7 @@ eStyleUnit_Degree
 mUnit
 <
 =
-eStyleUnit_Radian
+eStyleUnit_Turn
 )
 {
 return
