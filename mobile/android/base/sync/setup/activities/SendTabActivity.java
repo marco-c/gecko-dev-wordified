@@ -116,6 +116,17 @@ gecko
 .
 sync
 .
+GlobalConstants
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+sync
+.
 GlobalSession
 ;
 import
@@ -624,7 +635,7 @@ accountManager
 .
 getAccountsByType
 (
-Constants
+GlobalConstants
 .
 ACCOUNTTYPE_SYNC
 )
