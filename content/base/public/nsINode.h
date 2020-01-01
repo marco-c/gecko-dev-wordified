@@ -6554,17 +6554,6 @@ aReturn
 )
 ;
 nsresult
-IsSameNode
-(
-nsIDOMNode
-*
-aOther
-bool
-*
-aReturn
-)
-;
-nsresult
 LookupPrefix
 (
 const
