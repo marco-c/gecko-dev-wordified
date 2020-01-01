@@ -239,6 +239,9 @@ block
 }
 xul
 |
+window
+xul
+|
 scrollbar
 [
 orient
@@ -303,6 +306,9 @@ transparent
 important
 ;
 }
+xul
+|
+window
 xul
 |
 scrollbar
@@ -340,6 +346,9 @@ right
 }
 xul
 |
+window
+xul
+|
 scrollbar
 [
 orient
@@ -369,6 +378,9 @@ width
 important
 ;
 }
+xul
+|
+window
 xul
 |
 scrollbar
@@ -437,6 +449,9 @@ important
 }
 xul
 |
+window
+xul
+|
 scrollbar
 [
 orient
@@ -468,6 +483,9 @@ important
 }
 xul
 |
+window
+xul
+|
 *
 [
 panning
@@ -487,6 +505,9 @@ opacity
 }
 xul
 |
+window
+xul
+|
 scrollbox
 {
 overflow
@@ -502,6 +523,9 @@ x
 scroll
 ;
 }
+xul
+|
+window
 xul
 |
 scrollbarbutton
@@ -538,6 +562,9 @@ hidden
 }
 xul
 |
+window
+xul
+|
 scrollbarbutton
 [
 sbattr
@@ -550,6 +577,9 @@ up
 top
 "
 ]
+xul
+|
+window
 xul
 |
 scrollbarbutton
@@ -570,6 +600,9 @@ display
 none
 ;
 }
+xul
+|
+window
 xul
 |
 scrollbar
