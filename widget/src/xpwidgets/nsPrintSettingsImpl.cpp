@@ -635,6 +635,10 @@ mOrientation
 (
 kPortraitOrientation
 )
+mDownloadFonts
+(
+PR_FALSE
+)
 mNumCopies
 (
 1
