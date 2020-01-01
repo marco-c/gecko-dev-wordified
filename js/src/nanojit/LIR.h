@@ -933,6 +933,11 @@ LIR_u2f
 43
 |
 LIR64
+LIR_qior
+=
+44
+|
+LIR64
 }
 ;
 #
@@ -960,6 +965,10 @@ define
 LIR_pcmov
 LIR_qcmov
 #
+define
+LIR_pior
+LIR_qior
+#
 else
 #
 define
@@ -981,6 +990,10 @@ LIR_lsh
 define
 LIR_pcmov
 LIR_cmov
+#
+define
+LIR_pior
+LIR_ior
 #
 endif
 inline
