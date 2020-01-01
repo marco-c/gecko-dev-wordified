@@ -1415,6 +1415,8 @@ PRBool
 aItalic
 PRUint16
 aWeight
+PRInt16
+aStretch
 gfxUserFontData
 *
 aUserFontData
@@ -1462,6 +1464,10 @@ aItalic
 mWeight
 =
 aWeight
+;
+mStretch
+=
+aStretch
 ;
 if
 (
@@ -2771,6 +2777,8 @@ PRBool
 aItalic
 PRUint16
 aWeight
+PRInt16
+aStretch
 gfxUserFontData
 *
 aUserFontData
@@ -2800,6 +2808,7 @@ aName
 aFontType
 aItalic
 aWeight
+aStretch
 aUserFontData
 )
 ;
@@ -3243,6 +3252,7 @@ logFont
 .
 lfWeight
 )
+0
 nsnull
 )
 ;
@@ -4735,6 +4745,10 @@ FONT_STYLE_ITALIC
 FONT_STYLE_NORMAL
 )
 w
+aProxyEntry
+-
+>
+mStretch
 nsnull
 )
 ;
@@ -6057,6 +6071,10 @@ FONT_STYLE_ITALIC
 FONT_STYLE_NORMAL
 )
 w
+aProxyEntry
+-
+>
+mStretch
 winUserFontData
 )
 ;

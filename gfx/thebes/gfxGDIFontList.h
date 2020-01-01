@@ -1705,6 +1705,8 @@ PRBool
 aItalic
 PRUint16
 aWeight
+PRInt16
+aStretch
 gfxUserFontData
 *
 aUserFontData
@@ -1781,6 +1783,8 @@ PRBool
 aItalic
 PRUint16
 aWeight
+PRInt16
+aStretch
 gfxUserFontData
 *
 aUserFontData
