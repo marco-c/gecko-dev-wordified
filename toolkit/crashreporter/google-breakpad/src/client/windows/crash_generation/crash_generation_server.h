@@ -1633,6 +1633,7 @@ is
 talking
 to
 .
+volatile
 IPCServerState
 server_state_
 ;
