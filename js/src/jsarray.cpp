@@ -2625,8 +2625,7 @@ base
 newcap
 ;
 vp
-!
-=
+<
 end
 ;
 +
