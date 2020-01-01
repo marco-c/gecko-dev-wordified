@@ -111,6 +111,15 @@ MPL
 #
 include
 "
+gc
+/
+Zone
+.
+h
+"
+#
+include
+"
 jsgc
 .
 h
@@ -132,7 +141,7 @@ include
 "
 ion
 /
-IonCompartment
+Ion
 .
 h
 "
@@ -141,7 +150,7 @@ include
 "
 ion
 /
-Ion
+IonCompartment
 .
 h
 "
