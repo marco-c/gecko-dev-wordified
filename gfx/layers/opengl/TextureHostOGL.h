@@ -1374,17 +1374,6 @@ mTextureTransform
 }
 virtual
 GLenum
-GetTextureTarget
-(
-)
-const
-{
-return
-mTextureTarget
-;
-}
-virtual
-GLenum
 GetWrapMode
 (
 )
