@@ -7447,8 +7447,6 @@ IterNext
 VMFrame
 &
 f
-int32_t
-offset
 )
 {
 JS_ASSERT
@@ -7462,10 +7460,7 @@ stackDepth
 )
 >
 =
-unsigned
-(
-offset
-)
+1
 )
 ;
 JS_ASSERT
@@ -7477,7 +7472,7 @@ regs
 sp
 [
 -
-offset
+1
 ]
 .
 isObject
@@ -7497,7 +7492,7 @@ regs
 sp
 [
 -
-offset
+1
 ]
 .
 toObject
