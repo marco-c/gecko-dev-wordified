@@ -665,13 +665,6 @@ awesomebar
 "
 )
 ;
-requestWindowFeature
-(
-Window
-.
-FEATURE_NO_TITLE
-)
-;
 setContentView
 (
 R
