@@ -2868,6 +2868,7 @@ it
 .
 *
 /
+static
 ITypeInfo
 *
 GetTI
@@ -2876,9 +2877,10 @@ LCID
 lcid
 )
 ;
+static
 ITypeInfo
 *
-mTypeInfo
+gTypeInfo
 ;
 enum
 navRelations
