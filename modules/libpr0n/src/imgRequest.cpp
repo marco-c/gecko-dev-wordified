@@ -5964,6 +5964,9 @@ mImageStatus
 .
 if
 (
+mImage
+&
+&
 NS_SUCCEEDED
 (
 status
