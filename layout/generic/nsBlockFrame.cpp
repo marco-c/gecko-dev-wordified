@@ -21713,6 +21713,12 @@ mDiscoveredClearance
 frame
 ;
 }
+aState
+.
+mPrevChild
+=
+frame
+;
 /
 /
 Exactly
