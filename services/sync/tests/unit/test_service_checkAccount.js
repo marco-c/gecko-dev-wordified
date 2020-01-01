@@ -156,16 +156,7 @@ Service
 .
 serverURL
 =
-"
-http
-:
-/
-/
-localhost
-:
-8080
-/
-"
+TEST_SERVER_URL
 ;
 _
 (
