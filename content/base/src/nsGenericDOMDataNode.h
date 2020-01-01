@@ -2049,8 +2049,6 @@ public
 :
 nsDataSlots
 (
-PtrBits
-aFlags
 )
 :
 nsINode
@@ -2058,7 +2056,6 @@ nsINode
 :
 nsSlots
 (
-aFlags
 )
 mBindingParent
 (

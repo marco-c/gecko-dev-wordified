@@ -1819,7 +1819,6 @@ return
 new
 nsSlots
 (
-mFlagsOrSlots
 )
 ;
 }
@@ -11503,8 +11502,6 @@ nsDOMSlots
 :
 nsDOMSlots
 (
-PtrBits
-aFlags
 )
 :
 nsINode
@@ -11512,7 +11509,6 @@ nsINode
 :
 nsSlots
 (
-aFlags
 )
 mBindingParent
 (
@@ -29199,7 +29195,6 @@ return
 new
 nsDOMSlots
 (
-mFlagsOrSlots
 )
 ;
 }

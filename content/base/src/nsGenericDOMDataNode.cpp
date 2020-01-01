@@ -4058,7 +4058,6 @@ return
 new
 nsDataSlots
 (
-mFlagsOrSlots
 )
 ;
 }

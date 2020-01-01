@@ -1779,8 +1779,6 @@ nsXULSlots
 :
 nsXULSlots
 (
-PtrBits
-aFlags
 )
 :
 nsXULElement
@@ -1788,7 +1786,6 @@ nsXULElement
 :
 nsDOMSlots
 (
-aFlags
 )
 {
 }
@@ -1842,7 +1839,6 @@ return
 new
 nsXULSlots
 (
-mFlagsOrSlots
 )
 ;
 }
