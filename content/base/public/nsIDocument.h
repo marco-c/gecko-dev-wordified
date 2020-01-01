@@ -9744,6 +9744,7 @@ nsDeprecatedOperationList
 .
 h
 "
+eDeprecatedOperationCount
 }
 ;
 #
