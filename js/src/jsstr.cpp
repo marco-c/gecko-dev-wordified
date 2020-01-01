@@ -440,6 +440,9 @@ BLOCK
 *
 *
 /
+#
+define
+__STDC_LIMIT_MACROS
 /
 *
 *
@@ -539,9 +542,6 @@ method
 .
 *
 /
-#
-define
-__STDC_LIMIT_MACROS
 #
 include
 <

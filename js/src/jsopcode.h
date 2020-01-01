@@ -4216,8 +4216,11 @@ cx
 intN
 spindex
 const
-jsval
-*
+js
+:
+:
+Value
+&
 v
 JSString
 *

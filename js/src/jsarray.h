@@ -1095,6 +1095,13 @@ int
 result
 )
 ;
+enum
+JSMergeSortElemType
+{
+JS_SORTING_VALUES
+JS_SORTING_GENERIC
+}
+;
 /
 *
 *
@@ -1205,8 +1212,8 @@ arg
 void
 *
 tmp
-bool
-isValue
+JSMergeSortElemType
+elemType
 )
 ;
 #

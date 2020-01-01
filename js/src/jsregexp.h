@@ -478,7 +478,7 @@ namespace
 js
 {
 class
-AutoValueRooter
+AutoStringRooter
 ;
 }
 extern
@@ -497,7 +497,7 @@ statics
 js
 :
 :
-AutoValueRooter
+AutoStringRooter
 *
 tvr
 )
@@ -518,7 +518,7 @@ statics
 js
 :
 :
-AutoValueRooter
+AutoStringRooter
 *
 tvr
 )
