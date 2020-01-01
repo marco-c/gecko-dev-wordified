@@ -457,13 +457,6 @@ nsCOMArray
 h
 "
 #
-include
-<
-windows
-.
-h
->
-#
 endif
 class
 nsISimpleEnumerator
@@ -732,9 +725,9 @@ private
 :
 static
 nsresult
-GetPLIDDirectoriesWithHKEY
+GetPLIDDirectoriesWithRootKey
 (
-HKEY
+PRUint32
 aKey
 nsCOMArray
 <
