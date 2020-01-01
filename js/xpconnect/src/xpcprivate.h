@@ -27400,6 +27400,15 @@ locationURI
 ;
 }
 ;
+CompartmentPrivate
+*
+EnsureCompartmentPrivate
+(
+JSObject
+*
+obj
+)
+;
 inline
 CompartmentPrivate
 *
