@@ -197,7 +197,7 @@ aInvalidateRequests
 {
 mInvalidateRequests
 .
-SwapElements
+MoveElementsFrom
 (
 aInvalidateRequests
 -
