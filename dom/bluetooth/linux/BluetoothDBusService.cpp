@@ -13688,13 +13688,12 @@ aRunnable
 }
 else
 {
-BluetoothValue
-v
-;
 DispatchBluetoothReply
 (
 aRunnable
-v
+BluetoothValue
+(
+)
 NS_LITERAL_STRING
 (
 "
