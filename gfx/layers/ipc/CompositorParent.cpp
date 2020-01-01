@@ -3866,6 +3866,7 @@ property
 case
 eCSSProperty_opacity
 :
+{
 shadow
 -
 >
@@ -3880,6 +3881,7 @@ get_float
 ;
 break
 ;
+}
 case
 eCSSProperty_transform
 :
