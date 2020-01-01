@@ -542,6 +542,13 @@ jsprvtd
 .
 h
 "
+namespace
+js
+{
+class
+AutoDescriptorArray
+;
+}
 /
 *
 *
@@ -570,6 +577,9 @@ PropertyDescriptor
 {
 friend
 class
+js
+:
+:
 AutoDescriptorArray
 ;
 private
