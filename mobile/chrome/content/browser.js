@@ -1205,21 +1205,6 @@ this
 contentScrollboxScroller
 =
 {
-flush
-:
-function
-(
-)
-{
-getBrowser
-(
-)
-.
-flushScroll
-(
-)
-;
-}
 scrollBy
 :
 function
@@ -6188,7 +6173,7 @@ getBrowser
 (
 )
 .
-zoomLevel
+scale
 ;
 let
 zoomValues
@@ -6389,7 +6374,7 @@ getBrowser
 (
 )
 .
-zoomLevel
+scale
 ;
 let
 zoomLevel
@@ -6554,7 +6539,7 @@ getBrowser
 (
 )
 .
-zoomLevel
+scale
 ;
 y
 =
@@ -6564,7 +6549,7 @@ getBrowser
 (
 )
 .
-zoomLevel
+scale
 ;
 zoomLevel
 =
@@ -6587,7 +6572,7 @@ getBrowser
 (
 )
 .
-zoomLevel
+scale
 ;
 let
 newVisW
@@ -6651,12 +6636,12 @@ getBrowser
 (
 )
 .
-widthInDevicePx
+_widthInDevicePx
 getBrowser
 (
 )
 .
-heightInDevicePx
+_heightInDevicePx
 )
 )
 ;
@@ -6711,7 +6696,7 @@ getBrowser
 (
 )
 .
-zoomLevel
+scale
 *
 zoomRatio
 ;
@@ -6749,7 +6734,7 @@ getBrowser
 (
 )
 .
-setZoomLevel
+setScale
 (
 zoomLevel
 )
@@ -6848,7 +6833,7 @@ getBrowser
 (
 )
 .
-zoomLevel
+scale
 *
 2
 )
@@ -7270,7 +7255,7 @@ getBrowser
 (
 )
 .
-zoomLevel
+scale
 }
 )
 ;
@@ -7696,14 +7681,6 @@ scroller
 Browser
 .
 tryUnfloatToolbar
-(
-)
-;
-Browser
-.
-contentScrollboxScroller
-.
-flush
 (
 )
 ;
@@ -9405,7 +9382,7 @@ getBrowser
 (
 )
 .
-zoomLevel
+scale
 ;
 let
 isClickInRadius
@@ -16449,7 +16426,7 @@ _defaultZoomLevel
 =
 browser
 .
-zoomLevel
+scale
 ;
 }
 /
@@ -16481,7 +16458,7 @@ isDefault
 (
 browser
 .
-zoomLevel
+scale
 =
 =
 this
@@ -16505,7 +16482,7 @@ isDefault
 )
 browser
 .
-setZoomLevel
+setScale
 (
 this
 .
@@ -16525,7 +16502,7 @@ getBrowser
 (
 )
 .
-zoomLevel
+scale
 =
 =
 this
