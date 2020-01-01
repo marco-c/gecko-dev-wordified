@@ -1080,6 +1080,17 @@ tn
 >
 length
 ;
+cx
+-
+>
+regs
+(
+)
+.
+pc
+=
+pc
+;
 JSBool
 ok
 =
