@@ -7657,7 +7657,13 @@ JSON
 ;
 JSON
 =
-NewObject
+NewNonFunction
+<
+WithProto
+:
+:
+Class
+>
 (
 cx
 &
