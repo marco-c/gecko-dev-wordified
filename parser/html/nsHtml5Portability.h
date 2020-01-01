@@ -568,16 +568,6 @@ string
 )
 ;
 static
-jArray
-<
-PRUnichar
-PRInt32
->
-isIndexPrompt
-(
-)
-;
-static
 void
 initializeStatics
 (

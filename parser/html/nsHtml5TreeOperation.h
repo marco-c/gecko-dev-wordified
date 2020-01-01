@@ -460,6 +460,7 @@ eTreeOpCreateElementNetwork
 eTreeOpCreateElementNotNetwork
 eTreeOpSetFormElement
 eTreeOpAppendText
+eTreeOpAppendIsindexPrompt
 eTreeOpFosterParentText
 eTreeOpAppendComment
 eTreeOpAppendCommentToDocument
@@ -1776,6 +1777,7 @@ private
 nsresult
 AppendTextToTextNode
 (
+const
 PRUnichar
 *
 aBuffer
@@ -1792,6 +1794,7 @@ aBuilder
 nsresult
 AppendText
 (
+const
 PRUnichar
 *
 aBuffer
