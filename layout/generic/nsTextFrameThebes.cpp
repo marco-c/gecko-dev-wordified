@@ -30687,6 +30687,14 @@ false
 ;
 nscolor
 overrideColor
+=
+NS_RGBA
+(
+0
+0
+0
+0
+)
 ;
 /
 /
