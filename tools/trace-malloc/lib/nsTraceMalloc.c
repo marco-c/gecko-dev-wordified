@@ -5819,6 +5819,7 @@ stack_callback
 skip
 info
 0
+NULL
 )
 ;
 *
@@ -6107,6 +6108,7 @@ stack_callback
 skip
 info
 0
+NULL
 )
 ;
 *
@@ -6287,6 +6289,7 @@ stack_callback
 skip
 info
 0
+NULL
 )
 ;
 /
