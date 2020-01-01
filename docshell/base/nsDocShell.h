@@ -5277,6 +5277,9 @@ mIsAppTab
 bool
 mUseGlobalHistory
 ;
+bool
+mInPrivateBrowsing
+;
 /
 /
 This
