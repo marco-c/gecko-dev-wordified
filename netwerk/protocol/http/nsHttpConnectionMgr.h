@@ -1771,6 +1771,16 @@ Abandon
 (
 )
 ;
+nsHttpTransaction
+*
+Transaction
+(
+)
+{
+return
+mTransaction
+;
+}
 private
 :
 nsConnectionEntry
@@ -2284,6 +2294,7 @@ nsConnectionEntry
 *
 nsHttpTransaction
 *
+PRBool
 nsHttpConnection
 *
 *
