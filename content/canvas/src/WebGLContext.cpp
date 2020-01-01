@@ -1065,6 +1065,10 @@ mIsScreenCleared
 =
 false
 ;
+mDisableFragHighP
+=
+false
+;
 }
 WebGLContext
 :
