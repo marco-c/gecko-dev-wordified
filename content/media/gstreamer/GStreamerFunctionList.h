@@ -139,6 +139,11 @@ gst_app_src_set_callbacks
 GST_FUNC
 (
 LIBGSTAPP
+gst_app_src_set_caps
+)
+GST_FUNC
+(
+LIBGSTAPP
 gst_app_src_set_size
 )
 GST_FUNC

@@ -296,13 +296,9 @@ mp4
 "
 audio
 /
-mpeg
-mpegversion
-=
-(
-int
-)
-4
+x
+-
+m4a
 "
 }
 {
