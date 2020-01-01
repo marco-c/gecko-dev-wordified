@@ -4116,13 +4116,7 @@ proxyRequest
 >
 Init
 (
-&
 aRequest
--
->
-GetStatusTracker
-(
-)
 aLoadGroup
 uri
 aObserver
