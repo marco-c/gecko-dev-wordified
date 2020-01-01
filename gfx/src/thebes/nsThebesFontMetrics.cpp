@@ -1963,7 +1963,7 @@ Draw
 aContext
 -
 >
-Thebes
+ThebesContext
 (
 )
 pt
@@ -2089,7 +2089,7 @@ Draw
 aContext
 -
 >
-Thebes
+ThebesContext
 (
 )
 pt
@@ -2147,7 +2147,7 @@ PR_TRUE
 aContext
 -
 >
-Thebes
+ThebesContext
 (
 )
 &

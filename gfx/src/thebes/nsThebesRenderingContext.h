@@ -1465,7 +1465,7 @@ specific
 stuff
 gfxContext
 *
-Thebes
+ThebesContext
 (
 )
 {
