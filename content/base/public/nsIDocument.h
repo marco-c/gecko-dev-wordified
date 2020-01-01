@@ -10996,8 +10996,10 @@ ImageLoader
 >
 mStyleImageLoader
 ;
+nsRefPtr
+<
 nsHTMLStyleSheet
-*
+>
 mAttrStyleSheet
 ;
 /

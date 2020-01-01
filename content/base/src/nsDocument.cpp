@@ -8507,11 +8507,6 @@ SetOwningDocument
 nullptr
 )
 ;
-NS_RELEASE
-(
-mAttrStyleSheet
-)
-;
 }
 if
 (
@@ -11981,11 +11976,6 @@ nsHTMLStyleSheet
 (
 aURI
 this
-)
-;
-NS_ADDREF
-(
-mAttrStyleSheet
 )
 ;
 }
