@@ -1748,7 +1748,7 @@ strm
 BZ_OK
 )
 return
-UNEXPECTED_ERROR
+UNEXPECTED_BZIP_ERROR
 ;
 offset
 =
@@ -1771,7 +1771,7 @@ length
 {
 ret
 =
-UNEXPECTED_ERROR
+UNEXPECTED_MAR_ERROR
 ;
 break
 ;
@@ -1872,7 +1872,7 @@ BZ_STREAM_END
 {
 ret
 =
-UNEXPECTED_ERROR
+UNEXPECTED_BZIP_ERROR
 ;
 break
 ;
