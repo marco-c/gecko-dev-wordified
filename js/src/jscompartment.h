@@ -1453,11 +1453,16 @@ table
 js
 :
 :
+ReadBarriered
+<
+js
+:
+:
 types
 :
 :
 TypeObject
-*
+>
 emptyTypeObject
 ;
 /
