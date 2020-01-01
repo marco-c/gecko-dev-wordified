@@ -1420,6 +1420,13 @@ linkedpanel
 XUL
 ACCESSIBILITY_ATOM
 (
+longDesc
+"
+longdesc
+"
+)
+ACCESSIBILITY_ATOM
+(
 maxpos
 "
 maxpos
