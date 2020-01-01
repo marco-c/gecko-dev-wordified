@@ -64,7 +64,7 @@ PACKAGE_VERSION
 '
 0
 .
-11
+12
 '
 #
 take
@@ -133,7 +133,7 @@ mozprocess
 =
 0
 .
-7
+8
 '
 ]
 setup
