@@ -466,6 +466,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 jstypes
 .
 h
@@ -843,6 +852,10 @@ jsautooplen
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 js
@@ -3124,7 +3137,7 @@ AutoArrayRooter
 tvr
 (
 cx
-JS_ARRAY_LENGTH
+ArrayLength
 (
 localroot
 )
@@ -9088,7 +9101,7 @@ ObjectOrNullValue
 (
 callable
 )
-JS_ARRAY_LENGTH
+ArrayLength
 (
 argv
 )
