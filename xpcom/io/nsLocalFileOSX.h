@@ -771,17 +771,6 @@ path
 WRT
 mFollowLinks
 nsresult
-EqualsInternal
-(
-nsISupports
-*
-inFile
-PRBool
-*
-_retval
-)
-;
-nsresult
 CopyInternal
 (
 nsIFile
