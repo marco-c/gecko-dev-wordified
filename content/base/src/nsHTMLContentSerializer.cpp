@@ -689,7 +689,7 @@ h
 #
 include
 "
-nsIHTMLEditor_MOZILLA_2_0_BRANCH
+nsIHTMLEditor
 .
 h
 "
@@ -890,7 +890,7 @@ editor
 ;
 nsCOMPtr
 <
-nsIHTMLEditor_MOZILLA_2_0_BRANCH
+nsIHTMLEditor
 >
 htmlEditor
 =
