@@ -2588,8 +2588,7 @@ getIntrinsicValue
 JSContext
 *
 cx
-PropertyName
-*
+HandlePropertyName
 name
 MutableHandleValue
 value
@@ -2631,17 +2630,6 @@ address
 return
 true
 ;
-Rooted
-<
-PropertyName
-*
->
-rootedName
-(
-cx
-name
-)
-;
 if
 (
 !
@@ -2654,7 +2642,7 @@ runtime
 cloneSelfHostedValue
 (
 cx
-rootedName
+name
 value
 )
 )
