@@ -10,6 +10,10 @@ Unicode
 5
 .
 1
+and
+5
+.
+2
 *
 /
 const
@@ -79,6 +83,13 @@ SEVEN
 CHAM
 DIGIT
 EIGHT
+JAVANESE
+DIGIT
+NINE
+MEETEI
+MAYEK
+DIGIT
+ZERO
 *
 /
 const
@@ -101,6 +112,10 @@ uA8D6
 uA907
 \
 uAA58
+\
+uA9D9
+\
+uABF0
 "
 ;
 const
@@ -188,7 +203,7 @@ const
 expectedDigits
 =
 "
-12345678
+1234567890
 "
 ;
 const
