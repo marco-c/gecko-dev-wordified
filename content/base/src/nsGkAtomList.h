@@ -12853,13 +12853,6 @@ RemoteId
 _remote_id
 "
 )
-GK_ATOM
-(
-DisplayPort
-"
-_displayport
-"
-)
 /
 /
 Names
