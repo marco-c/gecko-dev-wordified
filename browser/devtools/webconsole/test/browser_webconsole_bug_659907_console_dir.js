@@ -193,8 +193,6 @@ name
 "
 __proto__
 .
-__proto__
-.
 querySelectorAll
 "
 value
