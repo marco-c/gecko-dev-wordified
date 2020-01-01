@@ -6706,6 +6706,7 @@ IsEmpty
 DestroyOverflowList
 (
 aPresContext
+nsnull
 )
 ;
 }
@@ -7000,6 +7001,11 @@ if
 (
 list
 )
+{
+if
+(
+aDestructRoot
+)
 list
 -
 >
@@ -7008,6 +7014,15 @@ DestroyFrom
 aDestructRoot
 )
 ;
+else
+list
+-
+>
+Destroy
+(
+)
+;
+}
 }
 /
 *
