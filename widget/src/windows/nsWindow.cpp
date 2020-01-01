@@ -22628,6 +22628,9 @@ if
 (
 !
 mLayerManager
+&
+&
+preferOpenGL
 )
 {
 nsRefPtr
