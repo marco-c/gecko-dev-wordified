@@ -6805,6 +6805,11 @@ scriptSource_
 ss
 ;
 }
+/
+*
+static
+*
+/
 bool
 JSScript
 :
@@ -6814,6 +6819,8 @@ loadSource
 JSContext
 *
 cx
+HandleScript
+script
 bool
 *
 worked
@@ -6822,6 +6829,9 @@ worked
 JS_ASSERT
 (
 !
+script
+-
+>
 scriptSource_
 -
 >
@@ -6848,6 +6858,9 @@ sourceHook
 |
 |
 !
+script
+-
+>
 scriptSource_
 -
 >
@@ -6879,7 +6892,7 @@ runtime
 sourceHook
 (
 cx
-this
+script
 &
 src
 &
@@ -6901,6 +6914,9 @@ ScriptSource
 *
 ss
 =
+script
+-
+>
 scriptSource
 (
 )
