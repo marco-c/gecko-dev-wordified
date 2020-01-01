@@ -7958,6 +7958,10 @@ nanojit
 LIns
 *
 f
+bool
+resultCanBeImpreciseIfFractional
+=
+false
 )
 ;
 nanojit
