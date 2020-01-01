@@ -465,11 +465,7 @@ endif
 #
 if
 defined
-DARWIN
-|
-|
-defined
-LINUX
+AVMPLUS_UNIX
 #
 include
 <
@@ -2470,11 +2466,7 @@ dwIgnore
 #
 elif
 defined
-DARWIN
-|
-|
-defined
-AVMPLUS_LINUX
+AVMPLUS_UNIX
 intptr_t
 addr
 =
