@@ -4333,7 +4333,6 @@ GetDocumentCharacterSet
 {
 mResponseCharset
 =
-=
 document
 -
 >
