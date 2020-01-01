@@ -1169,10 +1169,8 @@ parentPrevSibling
 parent
 -
 >
-GetSiblingAtOffset
+PrevSibling
 (
--
-1
 )
 ;
 if
@@ -1257,10 +1255,8 @@ parentPrevSibling
 parentPrevSibling
 -
 >
-GetSiblingAtOffset
+PrevSibling
 (
--
-1
 )
 ;
 if

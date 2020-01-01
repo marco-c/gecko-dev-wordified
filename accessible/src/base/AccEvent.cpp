@@ -2910,7 +2910,7 @@ mNextSibling
 mAccessible
 -
 >
-GetCachedNextSibling
+NextSibling
 (
 )
 ;
@@ -2919,7 +2919,7 @@ mPrevSibling
 mAccessible
 -
 >
-GetCachedPrevSibling
+PrevSibling
 (
 )
 ;

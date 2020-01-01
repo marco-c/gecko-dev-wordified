@@ -1014,6 +1014,7 @@ aError
 =
 nsnull
 )
+const
 ;
 private
 :

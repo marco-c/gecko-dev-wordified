@@ -997,6 +997,7 @@ aError
 =
 nsnull
 )
+const
 ;
 virtual
 void

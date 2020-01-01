@@ -1380,6 +1380,7 @@ aError
 =
 nsnull
 )
+const
 ;
 /
 /
@@ -1602,6 +1603,7 @@ aError
 =
 nsnull
 )
+const
 ;
 }
 ;
