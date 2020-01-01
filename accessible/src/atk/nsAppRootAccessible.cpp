@@ -2780,6 +2780,13 @@ this
 )
 )
 ;
+nsAccessibleWrap
+:
+:
+ShutdownAtkObject
+(
+)
+;
 }
 NS_IMETHODIMP
 nsApplicationAccessibleWrap
