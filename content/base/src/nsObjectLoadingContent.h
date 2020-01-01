@@ -547,7 +547,7 @@ nsIChannelClassifier
 .
 h
 "
-struct
+class
 nsAsyncInstantiateEvent
 ;
 class
