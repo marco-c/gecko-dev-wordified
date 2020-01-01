@@ -13307,7 +13307,7 @@ bufsize
 )
 ;
 extern
-void
+bool
 js_ClearNative
 (
 JSContext
