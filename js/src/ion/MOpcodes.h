@@ -287,6 +287,16 @@ Sqrt
 \
 _
 (
+Pow
+)
+\
+_
+(
+PowHalf
+)
+\
+_
+(
 MathFunction
 )
 \

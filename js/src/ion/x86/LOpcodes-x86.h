@@ -153,6 +153,11 @@ _
 (
 ModPowTwoI
 )
+\
+_
+(
+PowHalfD
+)
 #
 endif
 /

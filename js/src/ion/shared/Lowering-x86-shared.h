@@ -193,6 +193,14 @@ ins
 )
 ;
 bool
+visitPowHalf
+(
+MPowHalf
+*
+ins
+)
+;
+bool
 lowerMulI
 (
 MMul

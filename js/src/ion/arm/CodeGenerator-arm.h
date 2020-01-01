@@ -606,6 +606,15 @@ ins
 ;
 virtual
 bool
+visitPowHalfD
+(
+LPowHalfD
+*
+ins
+)
+;
+virtual
+bool
 visitMoveGroup
 (
 LMoveGroup

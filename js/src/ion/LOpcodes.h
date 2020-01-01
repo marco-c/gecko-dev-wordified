@@ -386,6 +386,16 @@ SqrtD
 \
 _
 (
+PowI
+)
+\
+_
+(
+PowD
+)
+\
+_
+(
 MathFunctionD
 )
 \

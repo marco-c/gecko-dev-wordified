@@ -566,6 +566,15 @@ ins
 ;
 virtual
 bool
+visitPowHalfD
+(
+LPowHalfD
+*
+ins
+)
+;
+virtual
+bool
 visitAddI
 (
 LAddI
