@@ -4737,7 +4737,7 @@ bad
 MGET
 (
 m
-M_DONTWAIT
+M_NOWAIT
 n
 -
 >
@@ -5615,7 +5615,7 @@ n
 m_len
 -
 off
-M_DONTWAIT
+M_NOWAIT
 )
 ;
 if
@@ -6056,7 +6056,7 @@ MLEN
 m_clget
 (
 o
-M_DONTWAIT
+M_NOWAIT
 )
 ;
 /
@@ -6065,7 +6065,7 @@ o
 =
 m_getcl
 (
-M_DONTWAIT
+M_NOWAIT
 m
 -
 >
@@ -6080,7 +6080,7 @@ o
 =
 m_get
 (
-M_DONTWAIT
+M_NOWAIT
 m
 -
 >
@@ -6627,7 +6627,7 @@ choice
 of
 M_TRYWAIT
 /
-M_DONTWAIT
+M_NOWAIT
 from
 caller
 .
@@ -7701,7 +7701,7 @@ n
 =
 m_get
 (
-M_DONTWAIT
+M_NOWAIT
 m
 -
 >
@@ -7841,7 +7841,7 @@ n
 =
 m_get
 (
-M_DONTWAIT
+M_NOWAIT
 m
 -
 >

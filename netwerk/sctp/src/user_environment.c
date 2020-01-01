@@ -304,13 +304,6 @@ defined
 __Userspace_os_FreeBSD
 )
 #
-if
-!
-defined
-(
-ANDROID
-)
-#
 include
 <
 sys
@@ -319,8 +312,6 @@ sysctl
 .
 h
 >
-#
-endif
 #
 endif
 #
