@@ -10258,6 +10258,16 @@ nsGkAtoms
 :
 :
 method
+#
+ifdef
+MOZ_MAIL_NEWS
+&
+nsGkAtoms
+:
+:
+mozdonotsend
+#
+endif
 &
 nsGkAtoms
 :
