@@ -1210,6 +1210,15 @@ mPaused
 |
 !
 mLayerManager
+|
+|
+!
+mLayerManager
+-
+>
+GetRoot
+(
+)
 )
 {
 return
