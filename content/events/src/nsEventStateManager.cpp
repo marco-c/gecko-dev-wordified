@@ -9129,9 +9129,9 @@ is
 const
 nsTArray
 <
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMTouch
+Touch
 >
 >
 &
@@ -9577,9 +9577,9 @@ aEvent
 const
 nsTArray
 <
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMTouch
+Touch
 >
 >
 &

@@ -298,7 +298,7 @@ h
 #
 include
 "
-nsInterfaceHashtable
+nsRefPtrHashtable
 .
 h
 "
@@ -7162,10 +7162,16 @@ CapturingContentInfo
 gCaptureInfo
 ;
 static
-nsInterfaceHashtable
+nsRefPtrHashtable
 <
 nsUint32HashKey
-nsIDOMTouch
+mozilla
+:
+:
+dom
+:
+:
+Touch
 >
 gCaptureTouchList
 ;
