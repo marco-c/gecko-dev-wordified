@@ -120,6 +120,15 @@ h
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 jit
 /
 BaselineIC
@@ -1368,7 +1377,10 @@ MIRType
 result
 )
 {
+DebugOnly
+<
 bool
+>
 sawInt32
 =
 false
