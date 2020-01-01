@@ -1543,9 +1543,11 @@ occupied
 :
 '
 +
+!
+!
 tc
 .
-isOccupied
+lookup
 (
 i
 j
@@ -2049,7 +2051,7 @@ dump
 (
 tc
 .
-isOccupied
+lookup
 (
 col
 row
