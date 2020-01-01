@@ -538,6 +538,11 @@ dependent
 )
 ;
 }
+nsMargin
+GetAdjustedValuesForBoxSizing
+(
+)
+;
 #
 define
 STYLE_STRUCT
