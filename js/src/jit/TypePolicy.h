@@ -934,6 +934,9 @@ Op
 >
 class
 NoFloatPolicy
+:
+public
+TypePolicy
 {
 public
 :
