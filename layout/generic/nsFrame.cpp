@@ -1255,13 +1255,10 @@ PRLogModuleInfo
 gStyleVerifyTreeLogModuleInfo
 ;
 static
-PRBool
+PRUint32
 gStyleVerifyTreeEnable
 =
-PRBool
-(
 0x55
-)
 ;
 PRBool
 nsFrame
@@ -1276,10 +1273,7 @@ if
 gStyleVerifyTreeEnable
 =
 =
-PRBool
-(
 0x55
-)
 )
 {
 if
