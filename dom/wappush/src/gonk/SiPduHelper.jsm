@@ -1026,6 +1026,7 @@ function
 add
 (
 name
+codepage
 number
 )
 {
@@ -1041,7 +1042,28 @@ number
 number
 }
 ;
+if
+(
+!
 names
+[
+codepage
+]
+)
+{
+names
+[
+codepage
+]
+=
+{
+}
+;
+}
+names
+[
+codepage
+]
 [
 number
 ]
@@ -1054,6 +1076,7 @@ add
 "
 si
 "
+0
 0x05
 )
 ;
@@ -1062,6 +1085,7 @@ add
 "
 indication
 "
+0
 0x06
 )
 ;
@@ -1070,6 +1094,7 @@ add
 "
 info
 "
+0
 0x07
 )
 ;
@@ -1078,6 +1103,7 @@ add
 "
 item
 "
+0
 0x08
 )
 ;
@@ -1134,6 +1160,7 @@ add
 (
 name
 value
+codepage
 number
 )
 {
@@ -1152,7 +1179,28 @@ number
 number
 }
 ;
+if
+(
+!
 names
+[
+codepage
+]
+)
+{
+names
+[
+codepage
+]
+=
+{
+}
+;
+}
+names
+[
+codepage
+]
 [
 number
 ]
@@ -1170,6 +1218,7 @@ signal
 -
 none
 "
+0
 0x05
 )
 ;
@@ -1183,6 +1232,7 @@ signal
 -
 low
 "
+0
 0x06
 )
 ;
@@ -1196,6 +1246,7 @@ signal
 -
 medium
 "
+0
 0x07
 )
 ;
@@ -1209,6 +1260,7 @@ signal
 -
 high
 "
+0
 0x08
 )
 ;
@@ -1220,6 +1272,7 @@ action
 "
 delete
 "
+0
 0x09
 )
 ;
@@ -1230,6 +1283,7 @@ created
 "
 "
 "
+0
 0x0A
 )
 ;
@@ -1240,6 +1294,7 @@ href
 "
 "
 "
+0
 0x0B
 )
 ;
@@ -1254,6 +1309,7 @@ http
 /
 /
 "
+0
 0x0C
 )
 ;
@@ -1270,6 +1326,7 @@ http
 www
 .
 "
+0
 0x0D
 )
 ;
@@ -1284,6 +1341,7 @@ https
 /
 /
 "
+0
 0x0E
 )
 ;
@@ -1300,6 +1358,7 @@ https
 www
 .
 "
+0
 0x0F
 )
 ;
@@ -1312,6 +1371,7 @@ expires
 "
 "
 "
+0
 0x10
 )
 ;
@@ -1324,6 +1384,7 @@ id
 "
 "
 "
+0
 0x11
 )
 ;
@@ -1334,6 +1395,7 @@ class
 "
 "
 "
+0
 0x12
 )
 ;
@@ -1363,6 +1425,7 @@ function
 add
 (
 value
+codepage
 number
 )
 {
@@ -1378,7 +1441,28 @@ number
 number
 }
 ;
+if
+(
+!
 names
+[
+codepage
+]
+)
+{
+names
+[
+codepage
+]
+=
+{
+}
+;
+}
+names
+[
+codepage
+]
 [
 number
 ]
@@ -1393,6 +1477,7 @@ add
 com
 /
 "
+0
 0x85
 )
 ;
@@ -1403,6 +1488,7 @@ add
 edu
 /
 "
+0
 0x86
 )
 ;
@@ -1413,6 +1499,7 @@ add
 net
 /
 "
+0
 0x87
 )
 ;
@@ -1423,6 +1510,7 @@ add
 org
 /
 "
+0
 0x88
 )
 ;
