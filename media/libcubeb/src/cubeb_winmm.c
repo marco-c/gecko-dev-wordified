@@ -129,12 +129,8 @@ fallback
 *
 /
 #
-if
-!
-defined
-(
+ifndef
 MEMORY_ALLOCATION_ALIGNMENT
-)
 #
 define
 MEMORY_ALLOCATION_ALIGNMENT
