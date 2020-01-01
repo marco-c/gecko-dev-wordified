@@ -5571,7 +5571,7 @@ AndroidGeckoLayerClient
 SetFirstPaintViewport
 (
 const
-nsIntPoint
+LayerIntPoint
 &
 aOffset
 float
@@ -5796,7 +5796,7 @@ AndroidGeckoLayerClient
 SyncViewportInfo
 (
 const
-nsIntRect
+LayerIntRect
 &
 aDisplayPort
 float

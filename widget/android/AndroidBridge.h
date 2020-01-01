@@ -2066,7 +2066,7 @@ void
 SetFirstPaintViewport
 (
 const
-nsIntPoint
+LayerIntPoint
 &
 aOffset
 float
@@ -2094,7 +2094,7 @@ void
 SyncViewportInfo
 (
 const
-nsIntRect
+LayerIntRect
 &
 aDisplayPort
 float

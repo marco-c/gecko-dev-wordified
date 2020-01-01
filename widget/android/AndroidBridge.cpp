@@ -12833,7 +12833,7 @@ AndroidBridge
 SetFirstPaintViewport
 (
 const
-nsIntPoint
+LayerIntPoint
 &
 aOffset
 float
@@ -12914,7 +12914,7 @@ AndroidBridge
 SyncViewportInfo
 (
 const
-nsIntRect
+LayerIntRect
 &
 aDisplayPort
 float
