@@ -318,7 +318,6 @@ PROCESS_ARCH_ARM
 0x8
 }
 ;
-static
 inline
 ProcessArchitecture
 GetCurrentProcessArchitecture
