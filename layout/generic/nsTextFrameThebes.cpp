@@ -24511,14 +24511,11 @@ app
 gfxSize
 size
 (
-gfxFloat
-(
 GetRect
 (
 )
 .
 width
-)
 /
 app
 0
