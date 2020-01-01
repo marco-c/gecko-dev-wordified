@@ -1119,7 +1119,7 @@ vp
 >
 setInt32
 (
-jsint
+int32_t
 (
 arrayBuffer
 -
@@ -14847,7 +14847,7 @@ TypedArrayConstruct
 JSContext
 *
 cx
-jsint
+int
 atype
 unsigned
 argc
@@ -15043,7 +15043,7 @@ js_CreateTypedArray
 JSContext
 *
 cx
-jsint
+int
 atype
 jsuint
 nelements
@@ -15094,7 +15094,7 @@ js_CreateTypedArrayWithArray
 JSContext
 *
 cx
-jsint
+int
 atype
 JSObject
 *
@@ -15147,14 +15147,14 @@ js_CreateTypedArrayWithBuffer
 JSContext
 *
 cx
-jsint
+int
 atype
 JSObject
 *
 bufArg
-jsint
+int
 byteoffset
-jsint
+int
 length
 )
 {

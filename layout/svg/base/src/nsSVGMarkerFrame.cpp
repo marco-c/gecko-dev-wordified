@@ -977,7 +977,7 @@ nsSVGMarkerFrame
 :
 PaintMark
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 nsSVGPathGeometryFrame
@@ -1138,7 +1138,7 @@ gfx
 aContext
 -
 >
-GetGfxContext
+ThebesContext
 (
 )
 ;

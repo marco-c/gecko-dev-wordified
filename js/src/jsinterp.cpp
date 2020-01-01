@@ -6213,7 +6213,7 @@ EnterWith
 JSContext
 *
 cx
-jsint
+int
 stackIndex
 )
 {
@@ -10386,7 +10386,7 @@ jumps
 :
 *
 /
-JSBool
+bool
 interpReturnOK
 ;
 /
@@ -10500,7 +10500,7 @@ JSTRAP_RETURN
 :
 interpReturnOK
 =
-JS_TRUE
+true
 ;
 goto
 forced_return
@@ -10625,7 +10625,7 @@ cases
 JSOp
 op
 ;
-jsint
+int32_t
 len
 ;
 len
@@ -11054,7 +11054,7 @@ rval
 ;
 interpReturnOK
 =
-JS_TRUE
+true
 ;
 goto
 forced_return
@@ -11158,7 +11158,7 @@ rval
 ;
 interpReturnOK
 =
-JS_TRUE
+true
 ;
 goto
 forced_return
@@ -18169,7 +18169,7 @@ JSTRAP_RETURN
 :
 interpReturnOK
 =
-JS_TRUE
+true
 ;
 goto
 forced_return
@@ -18773,7 +18773,7 @@ emitted
 only
 for
 dense
-jsint
+int
 -
 domain
 switches
@@ -18883,7 +18883,7 @@ pc2
 =
 JUMP_OFFSET_LEN
 ;
-jsint
+int32_t
 low
 =
 GET_JUMP_OFFSET
@@ -18896,7 +18896,7 @@ pc2
 =
 JUMP_OFFSET_LEN
 ;
-jsint
+int32_t
 high
 =
 GET_JUMP_OFFSET
@@ -18937,11 +18937,11 @@ JUMP_OFFSET_LEN
 *
 i
 ;
-jsint
+int32_t
 off
 =
 (
-jsint
+int32_t
 )
 GET_JUMP_OFFSET
 (
@@ -18966,7 +18966,7 @@ BEGIN_CASE
 JSOP_LOOKUPSWITCH
 )
 {
-jsint
+int32_t
 off
 ;
 off
@@ -19030,6 +19030,9 @@ sp
 -
 -
 ;
+int
+npairs
+;
 if
 (
 !
@@ -19047,14 +19050,8 @@ pc2
 =
 off
 ;
-jsint
-npairs
-;
 npairs
 =
-(
-jsint
-)
 GET_UINT16
 (
 pc2
@@ -21706,7 +21703,7 @@ id
 Value
 rval
 ;
-jsint
+int
 i
 ;
 JSObject
@@ -23065,7 +23062,7 @@ PUSH_BOOLEAN
 false
 )
 ;
-jsint
+int32_t
 i
 =
 (
@@ -23656,7 +23653,7 @@ rval
 ;
 interpReturnOK
 =
-JS_TRUE
+true
 ;
 goto
 forced_return
@@ -26489,7 +26486,7 @@ JSOP_YIELD_LENGTH
 ;
 interpReturnOK
 =
-JS_TRUE
+true
 ;
 goto
 exit
@@ -26823,7 +26820,7 @@ ASAP
 /
 interpReturnOK
 =
-JS_FALSE
+false
 ;
 }
 else
@@ -27005,7 +27002,7 @@ rval
 ;
 interpReturnOK
 =
-JS_TRUE
+true
 ;
 goto
 forced_return
@@ -27703,7 +27700,7 @@ generator
 /
 interpReturnOK
 =
-JS_FALSE
+false
 ;
 #
 if
@@ -27743,7 +27740,7 @@ clearPendingException
 ;
 interpReturnOK
 =
-JS_TRUE
+true
 ;
 regs
 .

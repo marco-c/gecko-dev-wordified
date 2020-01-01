@@ -643,7 +643,7 @@ define
 JSVAL_INT_MIN
 (
 (
-jsint
+int32_t
 )
 0x80000000
 )
@@ -652,7 +652,7 @@ define
 JSVAL_INT_MAX
 (
 (
-jsint
+int32_t
 )
 0x7fffffff
 )
@@ -10118,7 +10118,7 @@ v
 }
 static
 JS_ALWAYS_INLINE
-jsint
+int32_t
 JSVAL_TO_INT
 (
 jsval
@@ -12225,7 +12225,7 @@ name
 is
 actually
 (
-jsint
+int
 )
 index
 *
@@ -13591,7 +13591,7 @@ JS_DoubleIsInt32
 (
 double
 d
-jsint
+int32_t
 *
 ip
 )
@@ -21324,7 +21324,7 @@ JSCLASS_NO_INTERNAL_MEMBERS
 extern
 JS_PUBLIC_API
 (
-jsint
+int
 )
 JS_IdArrayLength
 (
@@ -21349,7 +21349,7 @@ cx
 JSIdArray
 *
 ida
-jsint
+int
 index
 )
 ;
@@ -24184,7 +24184,7 @@ JS_NewArrayObject
 JSContext
 *
 cx
-jsint
+int
 length
 jsval
 *

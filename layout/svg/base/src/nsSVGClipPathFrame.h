@@ -439,6 +439,9 @@ gfxMatrix
 .
 h
 "
+class
+nsRenderingContext
+;
 typedef
 nsSVGContainerFrame
 nsSVGClipPathFrameBase
@@ -492,7 +495,7 @@ methods
 nsresult
 ClipPaint
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 nsIFrame

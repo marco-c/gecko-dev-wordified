@@ -1481,7 +1481,7 @@ nsSVGTextFrame
 :
 PaintSVG
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 const

@@ -2077,7 +2077,7 @@ js_CreateTypedArray
 JSContext
 *
 cx
-jsint
+int
 atype
 uint32_t
 nelements
@@ -2139,7 +2139,7 @@ js_CreateTypedArrayWithArray
 JSContext
 *
 cx
-jsint
+int
 atype
 JSObject
 *
@@ -2225,14 +2225,14 @@ js_CreateTypedArrayWithBuffer
 JSContext
 *
 cx
-jsint
+int
 atype
 JSObject
 *
 bufArg
-jsint
+int
 byteoffset
-jsint
+int
 length
 )
 ;

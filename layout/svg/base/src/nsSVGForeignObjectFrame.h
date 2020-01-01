@@ -491,6 +491,9 @@ Attributes
 h
 "
 class
+nsRenderingContext
+;
+class
 nsSVGOuterSVGFrame
 ;
 typedef
@@ -781,7 +784,7 @@ interface
 NS_IMETHOD
 PaintSVG
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 const

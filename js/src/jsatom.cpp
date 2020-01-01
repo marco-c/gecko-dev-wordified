@@ -5106,7 +5106,7 @@ id
 INT_TO_JSID
 (
 -
-jsint
+int32_t
 (
 index
 )
@@ -5149,7 +5149,7 @@ id
 =
 INT_TO_JSID
 (
-jsint
+int32_t
 (
 index
 )

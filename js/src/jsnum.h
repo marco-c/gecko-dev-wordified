@@ -1020,7 +1020,7 @@ js_IntToString
 JSContext
 *
 cx
-jsint
+int
 i
 )
 ;
@@ -1365,7 +1365,7 @@ ToCStringBuf
 cbuf
 double
 d
-jsint
+int
 base
 =
 10

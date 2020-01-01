@@ -471,13 +471,6 @@ nsThreadUtils
 .
 h
 "
-#
-include
-"
-nsDOMMemoryReporter
-.
-h
-"
 /
 *
 *

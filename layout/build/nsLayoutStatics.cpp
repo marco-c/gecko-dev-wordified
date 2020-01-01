@@ -930,7 +930,7 @@ h
 #
 include
 "
-nsDOMMemoryReporter
+nsWindowMemoryReporter
 .
 h
 "
@@ -1596,7 +1596,7 @@ NS_SealStaticAtomTable
 (
 )
 ;
-nsDOMMemoryMultiReporter
+nsWindowMemoryReporter
 :
 :
 Init
@@ -1623,16 +1623,16 @@ t
 need
 to
 shutdown
-nsDOMMemoryReporter
+nsWindowMemoryReporter
 that
 will
 be
 done
 by
 the
+/
+/
 memory
-/
-/
 reporter
 manager
 .

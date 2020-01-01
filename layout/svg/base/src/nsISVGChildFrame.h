@@ -485,7 +485,7 @@ class
 gfxContext
 ;
 class
-nsSVGRenderState
+nsRenderingContext
 ;
 namespace
 mozilla
@@ -575,7 +575,7 @@ coordinates
 NS_IMETHOD
 PaintSVG
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 const

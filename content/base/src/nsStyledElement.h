@@ -511,13 +511,6 @@ nsGenericElement
 .
 h
 "
-#
-include
-"
-nsDOMMemoryReporter
-.
-h
-"
 namespace
 mozilla
 {
