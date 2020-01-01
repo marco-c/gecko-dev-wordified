@@ -392,12 +392,12 @@ const
 EXPORTED_SYMBOLS
 =
 [
-'
+"
 WEAVE_VERSION
-'
-'
-MIN_SERVER_STORAGE_VERSION
-'
+"
+"
+STORAGE_VERSION
+"
 '
 PREFS_BRANCH
 '
@@ -566,7 +566,7 @@ any
 older
 client
 const
-MIN_SERVER_STORAGE_VERSION
+STORAGE_VERSION
 =
 "
 storage_version
