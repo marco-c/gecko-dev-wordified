@@ -9614,6 +9614,7 @@ dataItem
 .
 openLocalFile
 (
+window
 )
 ;
 /
