@@ -1096,6 +1096,16 @@ SupportsOrdinalsInChildren
 (
 )
 ;
+virtual
+PRBool
+ComputesOwnOverflowArea
+(
+)
+{
+return
+PR_TRUE
+;
+}
 protected
 :
 class
