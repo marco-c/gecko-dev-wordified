@@ -619,12 +619,6 @@ aValue
 ;
 virtual
 bool
-RecvNotifyDOMTouchListenerAdded
-(
-)
-;
-virtual
-bool
 RecvZoomToRect
 (
 const

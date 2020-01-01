@@ -507,11 +507,6 @@ height
 )
 ;
 void
-NotifyDOMTouchListenerAdded
-(
-)
-;
-void
 ZoomToRect
 (
 const
