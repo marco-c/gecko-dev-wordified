@@ -510,6 +510,9 @@ ShadowCanvasLayer
 class
 ShadowColorLayer
 ;
+class
+ReadbackProcessor
+;
 /
 *
 *
@@ -1128,6 +1131,15 @@ CreateColorLayer
 virtual
 already_AddRefed
 <
+ReadbackLayer
+>
+CreateReadbackLayer
+(
+)
+;
+virtual
+already_AddRefed
+<
 ShadowThebesLayer
 >
 CreateShadowThebesLayer
@@ -1135,7 +1147,7 @@ CreateShadowThebesLayer
 )
 {
 return
-NULL
+nsnull
 ;
 }
 virtual
@@ -1148,7 +1160,7 @@ CreateShadowContainerLayer
 )
 {
 return
-NULL
+nsnull
 ;
 }
 virtual
@@ -1161,7 +1173,7 @@ CreateShadowImageLayer
 )
 {
 return
-NULL
+nsnull
 ;
 }
 virtual
@@ -1174,7 +1186,7 @@ CreateShadowColorLayer
 )
 {
 return
-NULL
+nsnull
 ;
 }
 virtual
@@ -1187,7 +1199,7 @@ CreateShadowCanvasLayer
 )
 {
 return
-NULL
+nsnull
 ;
 }
 virtual
@@ -1389,6 +1401,9 @@ aCallback
 void
 *
 aCallbackData
+ReadbackProcessor
+*
+aReadback
 )
 ;
 /
