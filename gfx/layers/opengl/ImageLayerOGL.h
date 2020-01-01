@@ -951,6 +951,13 @@ GetLayer
 )
 ;
 virtual
+LayerRenderState
+GetRenderState
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 void
 RenderLayer
 (

@@ -543,6 +543,13 @@ GetLayer
 )
 ;
 virtual
+LayerRenderState
+GetRenderState
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 bool
 IsEmpty
 (
