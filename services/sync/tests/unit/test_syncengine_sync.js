@@ -189,6 +189,7 @@ return
 new
 RotaryEngine
 (
+Service
 )
 ;
 }
@@ -289,6 +290,7 @@ engine
 new
 RotaryEngine
 (
+Service
 )
 ;
 let

@@ -1290,6 +1290,7 @@ true
 function
 BookmarksEngine
 (
+service
 )
 {
 SyncEngine
@@ -1300,6 +1301,7 @@ this
 "
 Bookmarks
 "
+service
 )
 ;
 }
@@ -2635,6 +2637,7 @@ function
 BookmarksStore
 (
 name
+engine
 )
 {
 Store
@@ -2643,6 +2646,7 @@ call
 (
 this
 name
+engine
 )
 ;
 /
@@ -8348,6 +8352,7 @@ function
 BookmarksTracker
 (
 name
+engine
 )
 {
 Tracker
@@ -8356,6 +8361,7 @@ call
 (
 this
 name
+engine
 )
 ;
 Svc
@@ -8717,7 +8723,13 @@ name
 ]
 )
 ;
-Clients
+this
+.
+engine
+.
+service
+.
+clientsEngine
 .
 sendCommand
 (

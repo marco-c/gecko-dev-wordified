@@ -246,6 +246,7 @@ passwordField
 function
 PasswordEngine
 (
+service
 )
 {
 SyncEngine
@@ -256,6 +257,7 @@ this
 "
 Passwords
 "
+service
 )
 ;
 }
@@ -572,6 +574,7 @@ function
 PasswordStore
 (
 name
+engine
 )
 {
 Store
@@ -580,6 +583,7 @@ call
 (
 this
 name
+engine
 )
 ;
 this
@@ -1805,6 +1809,7 @@ function
 PasswordTracker
 (
 name
+engine
 )
 {
 Tracker
@@ -1813,6 +1818,7 @@ call
 (
 this
 name
+engine
 )
 ;
 Svc

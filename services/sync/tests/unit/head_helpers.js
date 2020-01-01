@@ -1831,6 +1831,7 @@ denomination
 function
 RotaryStore
 (
+engine
 )
 {
 Store
@@ -1841,6 +1842,7 @@ this
 "
 Rotary
 "
+engine
 )
 ;
 this
@@ -2102,6 +2104,7 @@ items
 function
 RotaryTracker
 (
+engine
 )
 {
 Tracker
@@ -2112,6 +2115,7 @@ this
 "
 Rotary
 "
+engine
 )
 ;
 }
@@ -2130,6 +2134,7 @@ prototype
 function
 RotaryEngine
 (
+service
 )
 {
 SyncEngine
@@ -2140,6 +2145,7 @@ this
 "
 Rotary
 "
+service
 )
 ;
 /

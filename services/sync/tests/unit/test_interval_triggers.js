@@ -125,6 +125,13 @@ Service
 .
 scheduler
 ;
+let
+clientsEngine
+=
+Service
+.
+clientsEngine
+;
 function
 sync_httpd_setup
 (
@@ -156,12 +163,12 @@ clients
 {
 version
 :
-Clients
+clientsEngine
 .
 version
 syncID
 :
-Clients
+clientsEngine
 .
 syncID
 }
@@ -881,7 +888,9 @@ hasIncomingItems
 =
 =
 true
-Clients
+Service
+.
+clientsEngine
 .
 _store
 .
@@ -1704,7 +1713,9 @@ hasIncomingItems
 =
 =
 true
-Clients
+Service
+.
+clientsEngine
 .
 _store
 .
@@ -2123,7 +2134,7 @@ sync
 is
 triggered
 .
-Clients
+clientsEngine
 .
 _store
 .
@@ -2209,7 +2220,7 @@ setDefaults
 (
 )
 ;
-Clients
+clientsEngine
 .
 resetClient
 (
@@ -2390,7 +2401,7 @@ scheduler
 singleDeviceInterval
 )
 ;
-Clients
+clientsEngine
 .
 _store
 .
@@ -2957,7 +2968,7 @@ singleDeviceInterval
 }
 )
 ;
-Clients
+clientsEngine
 .
 _store
 .
@@ -3016,7 +3027,7 @@ used
 "
 )
 ;
-Clients
+clientsEngine
 .
 _store
 .
@@ -3093,7 +3104,7 @@ Make
 interval
 large
 again
-Clients
+clientsEngine
 .
 _wipeClient
 (
@@ -3240,7 +3251,7 @@ singleDeviceInterval
 Make
 interval
 smaller
-Clients
+clientsEngine
 .
 _store
 .

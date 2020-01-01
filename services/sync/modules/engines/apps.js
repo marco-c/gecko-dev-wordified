@@ -261,6 +261,7 @@ function
 AppStore
 (
 name
+engine
 )
 {
 Store
@@ -269,6 +270,7 @@ call
 (
 this
 name
+engine
 )
 ;
 }
@@ -519,6 +521,7 @@ function
 AppTracker
 (
 name
+engine
 )
 {
 Tracker
@@ -527,6 +530,7 @@ call
 (
 this
 name
+engine
 )
 ;
 Svc
@@ -815,6 +819,7 @@ break
 function
 AppsEngine
 (
+service
 )
 {
 SyncEngine
@@ -825,6 +830,7 @@ this
 "
 Apps
 "
+service
 )
 ;
 }
