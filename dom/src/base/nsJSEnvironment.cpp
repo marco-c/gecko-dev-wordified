@@ -6267,10 +6267,6 @@ mIsTrackingChromeCodeTime
 =
 PR_FALSE
 ;
-InvalidateContextAndWrapperCache
-(
-)
-;
 }
 nsJSContext
 :
@@ -13681,10 +13677,6 @@ mContext
 )
 return
 NS_ERROR_OUT_OF_MEMORY
-;
-InvalidateContextAndWrapperCache
-(
-)
 ;
 nsresult
 rv

@@ -1029,6 +1029,16 @@ newMap
 XPC_NATIVE_PROTO_MAP_SIZE
 )
 )
+mWrapperMap
+(
+WrappedNative2WrapperMap
+:
+:
+newMap
+(
+XPC_WRAPPER_MAP_SIZE
+)
+)
 mComponents
 (
 nsnull
