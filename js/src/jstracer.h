@@ -732,6 +732,9 @@ nativeStackBase
 unsigned
 maxCallDepth
 ;
+uint32
+globalShape
+;
 unsigned
 internedGlobalSlotCount
 ;
