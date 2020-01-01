@@ -10749,6 +10749,16 @@ mState
 =
 DECODER_STATE_SEEKING
 ;
+if
+(
+mDecoder
+-
+>
+GetDecodedStream
+(
+)
+)
+{
 mDecoder
 -
 >
@@ -10759,6 +10769,7 @@ mSeekTime
 mStartTime
 )
 ;
+}
 ScheduleStateMachine
 (
 )
