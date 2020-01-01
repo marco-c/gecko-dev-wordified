@@ -4998,6 +4998,8 @@ _doSingleClick
 (
 )
 {
+/
+/
 dump
 (
 '
@@ -5019,6 +5021,8 @@ n
 '
 )
 ;
+/
+/
 for
 (
 let
@@ -5038,6 +5042,8 @@ length
 +
 i
 )
+/
+/
 dump
 (
 '
@@ -5053,6 +5059,8 @@ i
 event
 .
 type
+/
+/
 +
 "
 :
@@ -5069,6 +5077,8 @@ i
 event
 .
 button
+/
+/
 +
 "
 :
@@ -5158,6 +5168,8 @@ _doDoubleClick
 (
 )
 {
+/
+/
 dump
 (
 '
@@ -5179,6 +5191,8 @@ n
 '
 )
 ;
+/
+/
 for
 (
 let
@@ -5198,6 +5212,8 @@ length
 +
 i
 )
+/
+/
 dump
 (
 '
@@ -5213,6 +5229,8 @@ i
 event
 .
 type
+/
+/
 +
 "
 :
@@ -5229,6 +5247,8 @@ i
 event
 .
 button
+/
+/
 +
 "
 :
