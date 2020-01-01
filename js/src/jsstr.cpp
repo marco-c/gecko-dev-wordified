@@ -1328,7 +1328,7 @@ capacity
 #
 ifdef
 JS_TRACER
-int
+int32
 JS_FASTCALL
 js_Flatten
 (
