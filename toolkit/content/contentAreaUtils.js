@@ -4,7 +4,7 @@
 -
 Mode
 :
-Java
+javascript
 ;
 tab
 -
@@ -3024,7 +3024,7 @@ aFileAutoChosen
 This
 is
 an
-nsILocalFile
+nsIFile
 object
 that
 has
@@ -3845,7 +3845,7 @@ if
 !
 getTargetFile
 .
-gDownloadLastDir
+DownloadLastDir
 )
 Components
 .
@@ -3872,9 +3872,13 @@ getTargetFile
 var
 gDownloadLastDir
 =
+new
 getTargetFile
 .
-gDownloadLastDir
+DownloadLastDir
+(
+window
+)
 ;
 var
 prefs
@@ -3906,13 +3910,13 @@ useDownloadDir
 )
 ;
 const
-nsILocalFile
+nsIFile
 =
 Components
 .
 interfaces
 .
-nsILocalFile
+nsIFile
 ;
 if
 (
@@ -4156,7 +4160,7 @@ get
 "
 Desk
 "
-nsILocalFile
+nsIFile
 )
 ;
 }
@@ -4390,7 +4394,7 @@ parent
 .
 QueryInterface
 (
-nsILocalFile
+nsIFile
 )
 ;
 gDownloadLastDir

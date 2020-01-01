@@ -235,9 +235,13 @@ tmpScope
 let
 gDownloadLastDir
 =
+new
 tmpScope
 .
-gDownloadLastDir
+DownloadLastDir
+(
+window
+)
 ;
 Cu
 .
