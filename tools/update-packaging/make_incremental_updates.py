@@ -3315,7 +3315,7 @@ patchlist_file
 )
 :
                 
-patchlist_filename
+patchlist_file
 =
 arg
     
@@ -3338,7 +3338,7 @@ exit
     
 if
 not
-patchlist_filename
+patchlist_file
 :
         
 usage
@@ -3354,7 +3354,7 @@ exit
     
 create_partial_patches
 (
-patchlist_filename
+patchlist_file
 )
 if
 __name__
