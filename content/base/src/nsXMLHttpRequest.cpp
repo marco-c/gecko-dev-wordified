@@ -12343,14 +12343,14 @@ still
 be
 waiting
 for
-mACGetChannel
+mACPreflightChannel
 to
 actually
 open
 mChannel
 if
 (
-mACGetChannel
+mACPreflightChannel
 )
 {
 PRBool
@@ -12358,7 +12358,7 @@ pending
 ;
 rv
 =
-mACGetChannel
+mACPreflightChannel
 -
 >
 IsPending
