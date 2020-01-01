@@ -11650,6 +11650,10 @@ GetContainingBlockForClientRect
 (
 frame
 )
+nsLayoutUtils
+:
+:
+RECTS_ACCOUNT_FOR_TRANSFORMS
 )
 ;
 rect
@@ -11787,6 +11791,10 @@ frame
 )
 &
 builder
+nsLayoutUtils
+:
+:
+RECTS_ACCOUNT_FOR_TRANSFORMS
 )
 ;
 if
