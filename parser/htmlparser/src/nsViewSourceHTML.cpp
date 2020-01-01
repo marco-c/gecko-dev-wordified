@@ -7152,6 +7152,12 @@ OpenContainer
 startNode
 )
 ;
+IF_FREE
+(
+startToken
+theAllocator
+)
+;
 /
 /
 Add
