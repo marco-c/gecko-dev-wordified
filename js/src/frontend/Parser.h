@@ -3468,14 +3468,6 @@ pn
 )
 ;
 bool
-checkDeleteExpression
-(
-Node
-*
-pn
-)
-;
-bool
 defineArg
 (
 Node
