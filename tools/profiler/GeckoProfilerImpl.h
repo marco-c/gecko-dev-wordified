@@ -196,6 +196,13 @@ PseudoStack
 .
 h
 "
+#
+include
+"
+nsISupports
+.
+h
+"
 /
 *
 QT
