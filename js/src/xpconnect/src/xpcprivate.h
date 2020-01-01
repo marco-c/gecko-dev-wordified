@@ -4605,6 +4605,12 @@ return
 mXPConnect
 ;
 }
+JSContext
+*
+GetJSCycleCollectionContext
+(
+)
+;
 JSObject2WrappedJSMap
 *
 GetWrappedJSMap
@@ -5249,6 +5255,10 @@ mXPConnect
 JSRuntime
 *
 mJSRuntime
+;
+JSContext
+*
+mJSCycleCollectionContext
 ;
 JSObject2WrappedJSMap
 *
