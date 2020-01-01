@@ -1251,8 +1251,16 @@ do
 call
 OnStopRequest
 eventually
+/
+/
+-
 return
 true
+here
+not
+false
+return
+false
 ;
 }
 if
@@ -1668,6 +1676,9 @@ OnStartRequest
 .
 Bug
 536317
+return
+false
+;
 }
 return
 true
