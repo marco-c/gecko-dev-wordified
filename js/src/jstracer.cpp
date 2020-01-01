@@ -73369,6 +73369,8 @@ record_LeaveFrame
 (
 )
 {
+debug_only_stmt
+(
 JSStackFrame
 *
 fp
@@ -73380,8 +73382,7 @@ fp
 (
 )
 ;
-debug_only_stmt
-(
+)
 debug_only_printf
 (
 LC_TMTracer
@@ -73426,8 +73427,6 @@ global
 code
 "
 callDepth
-)
-;
 )
 ;
 JS_ASSERT
