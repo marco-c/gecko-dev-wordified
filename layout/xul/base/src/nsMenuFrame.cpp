@@ -3559,6 +3559,17 @@ PR_FALSE
 )
 ;
 else
+if
+(
+!
+mMenuParent
+-
+>
+IsRecentlyClosed
+(
+this
+)
+)
 OpenMenu
 (
 PR_FALSE
