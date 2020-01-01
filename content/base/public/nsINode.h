@@ -5486,9 +5486,9 @@ mEnd
 operator
 nsIContent
 *
-const
 (
 )
+const
 {
 return
 *
