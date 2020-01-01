@@ -644,6 +644,8 @@ UnwrapObject
 JSObject
 *
 wrapped
+bool
+stopAtOuter
 uintN
 *
 flagsp
@@ -697,6 +699,9 @@ toObjectOrNull
 ;
 if
 (
+stopAtOuter
+&
+&
 wrapped
 -
 >

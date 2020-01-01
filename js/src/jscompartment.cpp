@@ -1432,6 +1432,7 @@ vp
 toObject
 (
 )
+true
 &
 flags
 )
