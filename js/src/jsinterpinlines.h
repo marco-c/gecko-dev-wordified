@@ -4656,6 +4656,11 @@ ToIdOperation
 JSContext
 *
 cx
+HandleScript
+script
+jsbytecode
+*
+pc
 HandleValue
 objval
 HandleValue
@@ -4739,6 +4744,8 @@ TypeScript
 MonitorUnknown
 (
 cx
+script
+pc
 )
 ;
 return
