@@ -1401,6 +1401,13 @@ kBackgroundRepeatKTable
 static
 const
 PRInt32
+kBackgroundSizeKTable
+[
+]
+;
+static
+const
+PRInt32
 kBorderCollapseKTable
 [
 ]

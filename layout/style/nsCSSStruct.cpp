@@ -852,6 +852,10 @@ mBackPosition
 (
 nsnull
 )
+mBackSize
+(
+nsnull
+)
 mBackClip
 (
 nsnull
@@ -892,6 +896,9 @@ mBackAttachment
 ;
 delete
 mBackPosition
+;
+delete
+mBackSize
 ;
 delete
 mBackClip
