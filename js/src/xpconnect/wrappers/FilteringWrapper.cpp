@@ -1145,7 +1145,6 @@ FilteringWrapper
 XrayWrapper
 <
 JSCrossCompartmentWrapper
-CrossCompartmentXray
 >
 \
 CrossOriginAccessiblePropertiesOnly
@@ -1166,7 +1165,6 @@ FilteringWrapper
 XrayWrapper
 <
 JSWrapper
-SameCompartmentXray
 >
 \
 SameOriginOrCrossOriginAccessiblePropertiesOnly
@@ -1179,7 +1177,6 @@ FilteringWrapper
 XrayWrapper
 <
 JSCrossCompartmentWrapper
-CrossCompartmentXray
 >
 \
 SameOriginOrCrossOriginAccessiblePropertiesOnly
