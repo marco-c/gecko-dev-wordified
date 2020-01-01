@@ -5170,6 +5170,11 @@ IsRootContentDocument
 (
 )
 ;
+bool
+IsCrossProcessRootContentDocument
+(
+)
+;
 protected
 :
 friend
