@@ -1867,12 +1867,12 @@ mOpen
 GetUnit
 (
 )
-!
+=
 =
 eCSSUnit_String
 )
-=
-=
+|
+|
 (
 quotes
 -
