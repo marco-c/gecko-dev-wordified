@@ -6029,7 +6029,7 @@ if
 obj2
 -
 >
-getAttributes
+getGenericAttributes
 (
 cx
 id

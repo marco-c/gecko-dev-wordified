@@ -18392,7 +18392,7 @@ value
 referent
 -
 >
-getAttributes
+getGenericAttributes
 (
 cx
 id

@@ -20714,7 +20714,7 @@ if
 obj2
 -
 >
-getAttributes
+getGenericAttributes
 (
 cx
 id
@@ -21253,7 +21253,7 @@ attrs
 obj
 -
 >
-setAttributes
+setGenericAttributes
 (
 cx
 id

@@ -6027,7 +6027,7 @@ object
 )
 -
 >
-getAttributes
+getGenericAttributes
 (
 cx
 *
