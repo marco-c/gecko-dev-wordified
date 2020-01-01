@@ -1251,7 +1251,9 @@ indicator
 let
 scheduleNextSyncF
 =
-SyncScheduler
+Service
+.
+scheduler
 .
 scheduleNextSync
 ;
@@ -1260,7 +1262,9 @@ scheduleCalled
 =
 false
 ;
-SyncScheduler
+Service
+.
+scheduler
 .
 scheduleNextSync
 =
@@ -1422,7 +1426,9 @@ offline
 =
 false
 ;
-SyncScheduler
+Service
+.
+scheduler
 .
 checkSyncStatus
 (
@@ -1459,7 +1465,9 @@ mpLocked
 =
 false
 ;
-SyncScheduler
+Service
+.
+scheduler
 .
 checkSyncStatus
 (
@@ -1470,7 +1478,9 @@ do_check_true
 scheduleCalled
 )
 ;
-SyncScheduler
+Service
+.
+scheduler
 .
 scheduleNextSync
 =
@@ -1577,7 +1587,9 @@ entry
 let
 oldClearSyncTriggers
 =
-SyncScheduler
+Service
+.
+scheduler
 .
 clearSyncTriggers
 ;
@@ -1598,7 +1610,9 @@ lockedSyncCalled
 =
 false
 ;
-SyncScheduler
+Service
+.
+scheduler
 .
 clearSyncTriggers
 =

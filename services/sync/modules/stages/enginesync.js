@@ -1690,7 +1690,11 @@ engines
 :
 "
 +
-SyncScheduler
+this
+.
+service
+.
+scheduler
 .
 numClients
 +
@@ -1778,7 +1782,11 @@ Bug
 if
 (
 (
-SyncScheduler
+this
+.
+service
+.
+scheduler
 .
 numClients
 <

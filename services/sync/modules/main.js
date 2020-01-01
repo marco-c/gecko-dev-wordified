@@ -140,17 +140,6 @@ NotificationButton
 "
 ]
 "
-policies
-.
-js
-"
-:
-[
-"
-SyncScheduler
-"
-]
-"
 service
 .
 js
