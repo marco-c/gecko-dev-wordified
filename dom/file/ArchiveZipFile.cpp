@@ -139,6 +139,15 @@ zlib
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 USING_FILE_NAMESPACE
 #
 define
@@ -153,6 +162,7 @@ stream
 object
 class
 ArchiveInputStream
+MOZ_FINAL
 :
 public
 nsIInputStream
