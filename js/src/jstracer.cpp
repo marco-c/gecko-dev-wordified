@@ -14287,6 +14287,7 @@ trc
 {
 if
 (
+!
 trc
 -
 >
@@ -14296,10 +14297,7 @@ context
 runtime
 -
 >
-state
-!
-=
-JSRTS_LANDING
+gcFlushCodeCaches
 )
 {
 for

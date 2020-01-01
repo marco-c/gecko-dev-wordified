@@ -2387,6 +2387,10 @@ volatile
 JSBool
 gcIsNeeded
 ;
+volatile
+JSBool
+gcFlushCodeCaches
+;
 /
 *
 *
