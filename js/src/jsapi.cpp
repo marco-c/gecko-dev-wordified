@@ -3907,6 +3907,10 @@ gcMode
 (
 JSGC_MODE_GLOBAL
 )
+gcShouldCleanUpEverything
+(
+false
+)
 gcIsNeeded
 (
 0
