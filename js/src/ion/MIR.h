@@ -9656,6 +9656,14 @@ right
 )
 ;
 }
+MDefinition
+*
+foldsTo
+(
+bool
+useValueNumbers
+)
+;
 void
 analyzeRange
 (
