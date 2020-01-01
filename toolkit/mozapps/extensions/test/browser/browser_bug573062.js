@@ -184,7 +184,15 @@ OP_NEEDS_RESTART_NONE
 ;
 open_manager
 (
-null
+"
+addons
+:
+/
+/
+list
+/
+extension
+"
 function
 (
 aWindow
