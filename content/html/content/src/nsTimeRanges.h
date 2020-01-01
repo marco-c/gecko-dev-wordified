@@ -449,6 +449,12 @@ BLOCK
 *
 /
 #
+ifndef
+nsTimeRanges_h__
+#
+define
+nsTimeRanges_h__
+#
 include
 "
 nsIDOMTimeRanges
@@ -572,3 +578,8 @@ mRanges
 ;
 }
 ;
+#
+endif
+/
+/
+nsTimeRanges_h__
