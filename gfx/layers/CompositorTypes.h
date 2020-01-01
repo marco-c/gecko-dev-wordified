@@ -217,7 +217,7 @@ filtering
 .
 const
 TextureFlags
-UseNearestFilter
+TEXTURE_USE_NEAREST_FILTER
 =
 1
 <
@@ -241,7 +241,7 @@ composited
 .
 const
 TextureFlags
-NeedsYFlip
+TEXTURE_NEEDS_Y_FLIP
 =
 1
 <
@@ -296,7 +296,7 @@ wrapping
 .
 const
 TextureFlags
-AllowRepeat
+TEXTURE_ALLOW_REPEAT
 =
 1
 <
@@ -317,7 +317,7 @@ created
 .
 const
 TextureFlags
-NewTile
+TEXTURE_NEW_TILE
 =
 1
 <
@@ -338,7 +338,7 @@ alpha
 pair
 const
 TextureFlags
-ComponentAlpha
+TEXTURE_COMPONENT_ALPHA
 =
 1
 <

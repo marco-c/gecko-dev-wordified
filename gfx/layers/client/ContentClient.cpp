@@ -995,7 +995,7 @@ mTextureInfo
 mTextureFlags
 |
 =
-ComponentAlpha
+TEXTURE_COMPONENT_ALPHA
 ;
 }
 CreateFrontBufferAndNotify
@@ -1620,7 +1620,7 @@ mTextureInfo
 .
 mTextureFlags
 &
-ComponentAlpha
+TEXTURE_COMPONENT_ALPHA
 )
 {
 if
@@ -3287,7 +3287,7 @@ mTextureInfo
 .
 mTextureFlags
 &
-AllowRepeat
+TEXTURE_ALLOW_REPEAT
 )
 )
 ;
@@ -3864,7 +3864,7 @@ bufferFlags
 =
 canHaveRotation
 ?
-AllowRepeat
+TEXTURE_ALLOW_REPEAT
 :
 0
 ;
@@ -3882,7 +3882,7 @@ SURFACE_COMPONENT_ALPHA
 bufferFlags
 |
 =
-ComponentAlpha
+TEXTURE_COMPONENT_ALPHA
 ;
 }
 if

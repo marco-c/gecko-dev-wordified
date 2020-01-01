@@ -2911,7 +2911,7 @@ mTextureInfo
 .
 mTextureFlags
 &
-ComponentAlpha
+TEXTURE_COMPONENT_ALPHA
 )
 {
 newHostOnWhite

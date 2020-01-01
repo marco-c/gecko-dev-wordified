@@ -646,7 +646,7 @@ if
 (
 aFlags
 &
-UseNearestFilter
+TEXTURE_USE_NEAREST_FILTER
 )
 result
 |
@@ -660,7 +660,7 @@ if
 (
 aFlags
 &
-NeedsYFlip
+TEXTURE_NEEDS_Y_FLIP
 )
 result
 |
@@ -929,7 +929,7 @@ WrapMode
 mGL
 aFlags
 &
-AllowRepeat
+TEXTURE_ALLOW_REPEAT
 )
 FlagsToGLFlags
 (
@@ -963,7 +963,7 @@ WrapMode
 mGL
 aFlags
 &
-AllowRepeat
+TEXTURE_ALLOW_REPEAT
 )
 FlagsToGLFlags
 (
@@ -2039,7 +2039,7 @@ WrapMode
 mGL
 mFlags
 &
-AllowRepeat
+TEXTURE_ALLOW_REPEAT
 )
 FlagsToGLFlags
 (
@@ -2257,7 +2257,7 @@ WrapMode
 mGL
 mFlags
 &
-AllowRepeat
+TEXTURE_ALLOW_REPEAT
 )
 FlagsToGLFlags
 (
@@ -2634,7 +2634,7 @@ inverted
 mFlags
 |
 =
-NeedsYFlip
+TEXTURE_NEEDS_Y_FLIP
 ;
 }
 if
@@ -3802,7 +3802,7 @@ WrapMode
 mGL
 mFlags
 &
-AllowRepeat
+TEXTURE_ALLOW_REPEAT
 )
 FlagsToGLFlags
 (
@@ -3852,7 +3852,7 @@ WrapMode
 mGL
 mFlags
 &
-AllowRepeat
+TEXTURE_ALLOW_REPEAT
 )
 FlagsToGLFlags
 (
@@ -3902,7 +3902,7 @@ WrapMode
 mGL
 mFlags
 &
-AllowRepeat
+TEXTURE_ALLOW_REPEAT
 )
 FlagsToGLFlags
 (
@@ -4277,7 +4277,7 @@ if
 (
 aFlags
 &
-NewTile
+TEXTURE_NEW_TILE
 )
 {
 SetFlags
@@ -5829,7 +5829,7 @@ flags
 =
 mFlags
 &
-NeedsYFlip
+TEXTURE_NEEDS_Y_FLIP
 ?
 LAYER_RENDER_STATE_Y_FLIPPED
 :
