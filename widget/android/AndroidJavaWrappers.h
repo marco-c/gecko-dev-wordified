@@ -1099,6 +1099,10 @@ float
 aPageWidth
 float
 aPageHeight
+float
+aCssPageWidth
+float
+aCssPageHeight
 )
 ;
 void
@@ -1110,6 +1114,10 @@ float
 aPageWidth
 float
 aPageHeight
+float
+aCssPageWidth
+float
+aCssPageHeight
 )
 ;
 void

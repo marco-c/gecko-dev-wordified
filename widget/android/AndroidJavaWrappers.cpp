@@ -2220,7 +2220,7 @@ setFirstPaintViewport
 "
 "
 (
-FFFFF
+FFFFFFF
 )
 V
 "
@@ -2235,7 +2235,7 @@ setPageSize
 "
 "
 (
-FFF
+FFFFF
 )
 V
 "
@@ -4190,6 +4190,10 @@ float
 aPageWidth
 float
 aPageHeight
+float
+aCssPageWidth
+float
+aCssPageHeight
 )
 {
 NS_ASSERTION
@@ -4255,6 +4259,8 @@ aOffsetY
 aZoom
 aPageWidth
 aPageHeight
+aCssPageWidth
+aCssPageHeight
 )
 ;
 }
@@ -4270,6 +4276,10 @@ float
 aPageWidth
 float
 aPageHeight
+float
+aCssPageWidth
+float
+aCssPageHeight
 )
 {
 NS_ASSERTION
@@ -4333,6 +4343,8 @@ jSetPageSize
 aZoom
 aPageWidth
 aPageHeight
+aCssPageWidth
+aCssPageHeight
 )
 ;
 }
