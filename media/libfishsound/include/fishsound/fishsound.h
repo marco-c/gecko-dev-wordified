@@ -4196,6 +4196,11 @@ Invalid
 \
 a
 fsound
+or
+out
+of
+memory
+.
 *
 /
 int
