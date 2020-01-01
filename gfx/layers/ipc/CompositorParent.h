@@ -888,6 +888,9 @@ CancelableTask
 *
 mCurrentCompositeTask
 ;
+TimeStamp
+mLastCompose
+;
 bool
 mPaused
 ;
