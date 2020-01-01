@@ -121,6 +121,13 @@ nsDOMDataTransfer
 .
 h
 "
+#
+include
+"
+nsIClipboard
+.
+h
+"
 nsDOMClipboardEvent
 :
 :
@@ -475,6 +482,8 @@ nsDOMDataTransfer
 (
 NS_COPY
 false
+-
+1
 )
 ;
 clipboardData
@@ -597,6 +606,8 @@ nsDOMDataTransfer
 (
 NS_COPY
 false
+-
+1
 )
 ;
 }
@@ -621,6 +632,10 @@ message
 =
 =
 NS_PASTE
+nsIClipboard
+:
+:
+kGlobalClipboard
 )
 ;
 }
