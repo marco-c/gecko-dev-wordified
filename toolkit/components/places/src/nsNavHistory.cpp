@@ -2464,6 +2464,11 @@ mAutoCompleteSearchTimeout
 (
 100
 )
+mPreviousChunkOffset
+(
+-
+1
+)
 mAutoCompleteFinishedSearch
 (
 PR_FALSE

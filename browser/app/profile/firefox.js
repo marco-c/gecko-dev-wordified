@@ -2780,7 +2780,7 @@ search
 .
 timeout
 "
-50
+100
 )
 ;
 pref
