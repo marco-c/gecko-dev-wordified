@@ -651,17 +651,7 @@ nsIUrlClassifierHashCompleter
 *
 completer
 )
-{
-return
-mCompleters
-.
-Get
-(
-tableName
-completer
-)
 ;
-}
 nsresult
 CacheCompletions
 (

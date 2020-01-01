@@ -836,7 +836,7 @@ hashcompleter
 "
 ]
 .
-createInstance
+getService
 (
 Ci
 .
@@ -1300,18 +1300,6 @@ tableName
 needsUpdate
 =
 false
-;
-this
-.
-dbService_
-.
-setHashCompleter
-(
-tableName
-this
-.
-hashCompleter_
-)
 ;
 return
 true
