@@ -6084,7 +6084,7 @@ true
 }
 #
 ifdef
-DEBUG
+JS_METHODJIT_SPEW
 void
 LifetimeVariable
 :

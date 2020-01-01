@@ -500,6 +500,7 @@ mozIStorageStatement
 BEGIN_INDEXEDDB_NAMESPACE
 class
 IDBKeyRange
+MOZ_FINAL
 :
 public
 nsIIDBKeyRange

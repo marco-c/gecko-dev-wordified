@@ -13618,6 +13618,13 @@ xpc
 WrapperFactory
 :
 :
+WrapForSameCompartment
+xpc
+:
+:
+WrapperFactory
+:
+:
 PrepareForWrapping
 )
 ;
