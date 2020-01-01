@@ -17519,17 +17519,6 @@ return
 PR_FALSE
 ;
 }
-PRUint32
-domVirtualKeyCode
-=
-GdkKeyCodeToDOMKeyCode
-(
-aEvent
--
->
-keyval
-)
-;
 /
 /
 send
