@@ -1206,6 +1206,11 @@ LayerManager
 *
 GetLayerManager
 (
+bool
+*
+aAllowRetaining
+=
+nsnull
 )
 ;
 gfxASurface

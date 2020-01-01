@@ -1699,6 +1699,11 @@ LayerManager
 *
 GetLayerManager
 (
+bool
+*
+aAllowRetaining
+=
+nsnull
 )
 ;
 NS_IMETHOD

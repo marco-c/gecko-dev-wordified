@@ -1103,6 +1103,11 @@ LayerManager
 *
 GetLayerManager
 (
+bool
+*
+aAllowRetaining
+=
+nsnull
 )
 ;
 /
