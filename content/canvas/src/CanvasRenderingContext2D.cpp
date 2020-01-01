@@ -13980,12 +13980,6 @@ easily
 bool
 doDrawShadow
 =
-aOp
-=
-=
-TEXT_DRAW_OPERATION_FILL
-&
-&
 NeedToDrawShadow
 (
 )
