@@ -95,6 +95,17 @@ org
 mozilla
 .
 gecko
+.
+menu
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+R
 ;
 import
 android

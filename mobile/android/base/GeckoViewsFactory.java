@@ -81,6 +81,17 @@ mozilla
 .
 gecko
 .
+menu
+.
+MenuItemDefault
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 widget
 .
 AboutHomeView
