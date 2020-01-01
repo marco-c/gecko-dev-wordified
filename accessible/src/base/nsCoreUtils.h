@@ -1084,12 +1084,16 @@ aHorizontal
 *
 Returns
 coordinates
+in
+device
+pixels
 relative
 screen
 for
 the
 top
 level
+*
 window
 .
 *
