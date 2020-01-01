@@ -12028,7 +12028,7 @@ getParent
 b
 -
 >
-numFixedSlots
+tenuredGetAllocKind
 (
 )
 )
@@ -12092,7 +12092,7 @@ getParent
 a
 -
 >
-numFixedSlots
+tenuredGetAllocKind
 (
 )
 )
