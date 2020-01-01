@@ -1739,7 +1739,7 @@ initial
 shape
 guard
 .
-int
+uint32
 shapeGuard
 ;
 /
