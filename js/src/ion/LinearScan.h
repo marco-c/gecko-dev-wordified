@@ -2874,6 +2874,10 @@ dequeue
 /
 /
 Context
+MIRGenerator
+*
+mir
+;
 LIRGenerator
 *
 lir
@@ -3427,6 +3431,9 @@ public
 :
 LinearScanAllocator
 (
+MIRGenerator
+*
+mir
 LIRGenerator
 *
 lir
@@ -3435,6 +3442,10 @@ LIRGraph
 graph
 )
 :
+mir
+(
+mir
+)
 lir
 (
 lir
