@@ -520,7 +520,7 @@ count
 0
 ;
 /
-/
+*
 Only
 exit
 when
@@ -529,6 +529,8 @@ constructors
 have
 been
 called
+*
+/
 if
 (
 +
