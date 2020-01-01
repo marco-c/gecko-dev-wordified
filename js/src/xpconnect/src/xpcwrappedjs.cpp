@@ -761,7 +761,7 @@ get
 ;
 #
 ifdef
-DEBUG
+DEBUG_CC
 char
 name
 [
@@ -814,13 +814,6 @@ cb
 DescribeNode
 (
 refcnt
-sizeof
-(
-nsXPCWrappedJS
-)
-"
-nsXPCWrappedJS
-"
 )
 ;
 #
