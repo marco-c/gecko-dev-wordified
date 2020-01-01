@@ -496,6 +496,13 @@ GfxInfoCollector
 .
 h
 "
+#
+include
+"
+nsIGfxInfoDebug
+.
+h
+"
 namespace
 mozilla
 {
@@ -511,6 +518,13 @@ public
 nsIObserver
 public
 nsSupportsWeakReference
+#
+ifdef
+DEBUG
+public
+nsIGfxInfoDebug
+#
+endif
 {
 public
 :
