@@ -2191,6 +2191,9 @@ form
 PRBool
 mDecoded
 ;
+PRBool
+mHasBeenDecoded
+;
 friend
 class
 imgDecodeWorker
