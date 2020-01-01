@@ -1855,16 +1855,6 @@ InlinePrefWidthData
 aData
 )
 ;
-gfxFloat
-GetSnappedBaselineY
-(
-gfxContext
-*
-aContext
-gfxFloat
-aY
-)
-;
 /
 *
 *
