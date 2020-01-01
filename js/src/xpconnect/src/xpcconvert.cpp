@@ -6708,6 +6708,9 @@ isGlobal
 nsresult
 *
 pErr
+qsObjectHelper
+*
+aHelper
 )
 {
 NS_ASSERTION
@@ -7228,6 +7231,7 @@ ConstructSlimWrapper
 (
 ccx
 src
+aHelper
 cache
 xpcscope
 &
