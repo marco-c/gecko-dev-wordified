@@ -995,7 +995,7 @@ matched
 item
 (
 "
-menuitem_clearList
+cmd_clearList
 "
 )
 .
