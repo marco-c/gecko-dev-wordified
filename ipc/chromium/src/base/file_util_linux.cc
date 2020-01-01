@@ -153,6 +153,17 @@ FilePath
 path
 )
 {
+#
+ifdef
+ANDROID
+return
+GetTempDir
+(
+path
+)
+;
+#
+else
 *
 path
 =
@@ -169,6 +180,8 @@ shm
 return
 true
 ;
+#
+endif
 }
 bool
 CopyFile
