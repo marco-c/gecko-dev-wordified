@@ -1178,9 +1178,6 @@ worldTransform
 #
 endif
 #
-if
-0
-#
 ifdef
 MOZ_WIDGET_ANDROID
 /
@@ -1210,7 +1207,7 @@ GetTransform
 transform
 *
 =
-worldTransform
+v
 ;
 TransformLayerUserData
 *
@@ -1234,8 +1231,6 @@ transform
 transformUserData
 )
 ;
-#
-endif
 #
 endif
 mLayerManager
