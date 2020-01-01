@@ -401,6 +401,10 @@ fcntl
 .
 h
 >
+using
+namespace
+mozilla
+;
 static
 HWND
 hwndForDOMWindow
@@ -9556,7 +9560,10 @@ JSContext
 *
 cx
 ;
+DebugOnly
+<
 nsresult
+>
 rv
 ;
 if
