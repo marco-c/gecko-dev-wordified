@@ -21369,6 +21369,15 @@ nsINavBookmarksService
 :
 :
 TYPE_FOLDER
+|
+|
+itemType
+=
+=
+nsINavBookmarksService
+:
+:
+TYPE_DYNAMIC_CONTAINER
 )
 {
 rv
