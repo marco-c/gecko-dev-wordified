@@ -4940,6 +4940,11 @@ nsIDOMRange
 newword
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aNode
+)
+;
 nsCOMPtr
 <
 nsISelection
