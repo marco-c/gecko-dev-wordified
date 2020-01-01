@@ -19262,12 +19262,8 @@ eTEXT
 content
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 "
 frame

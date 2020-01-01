@@ -2776,12 +2776,8 @@ key
 content
 -
 >
-IsNodeOfType
+IsElement
 (
-nsIContent
-:
-:
-eELEMENT
 )
 )
 {
@@ -4661,12 +4657,8 @@ if
 content
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 {

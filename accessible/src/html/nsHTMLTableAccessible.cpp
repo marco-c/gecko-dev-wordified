@@ -2872,12 +2872,8 @@ sibling
 sibling
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 {
@@ -2961,12 +2957,8 @@ sibling
 sibling
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 {
