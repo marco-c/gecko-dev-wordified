@@ -3050,9 +3050,8 @@ StyleSet
 )
 -
 >
-ResolvePseudoStyleFor
+ResolveAnonymousBoxStyle
 (
-nsnull
 nsCSSAnonBoxes
 :
 :
@@ -6655,9 +6654,8 @@ pseudoStyleContext
 styleSet
 -
 >
-ResolvePseudoStyleFor
+ResolveAnonymousBoxStyle
 (
-mContent
 nsCSSAnonBoxes
 :
 :
@@ -6887,9 +6885,8 @@ pseudoStyleContext
 styleSet
 -
 >
-ResolvePseudoStyleFor
+ResolveAnonymousBoxStyle
 (
-mContent
 nsCSSAnonBoxes
 :
 :
