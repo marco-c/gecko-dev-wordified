@@ -59,6 +59,11 @@ update
 manifest
 '
 '
+updatev2
+.
+manifest
+'
+'
 removed
 -
 files
@@ -139,7 +144,20 @@ self
 .
 patch_info
 .
-manifest
+manifestv1
+)
+        
+self
+.
+assertEquals
+(
+[
+]
+self
+.
+patch_info
+.
+manifestv2
 )
         
 self
@@ -208,7 +226,7 @@ self
 .
 patch_info
 .
-manifest
+manifestv1
 )
     
 def
@@ -255,7 +273,7 @@ self
 .
 patch_info
 .
-manifest
+manifestv1
 )
     
 "
@@ -306,7 +324,7 @@ self
 .
 patch_info
 .
-manifest
+manifestv1
 )
     
 def
@@ -342,6 +360,11 @@ assertEquals
 (
 {
 }
+set
+(
+[
+]
+)
 set
 (
 [
@@ -592,6 +615,11 @@ js
 '
 '
 update
+.
+manifest
+'
+'
+updatev2
 .
 manifest
 '
