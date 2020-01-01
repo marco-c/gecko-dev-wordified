@@ -704,6 +704,15 @@ f
 ;
 void
 JS_FASTCALL
+GetCallObject
+(
+VMFrame
+&
+f
+)
+;
+void
+JS_FASTCALL
 BindName
 (
 VMFrame
