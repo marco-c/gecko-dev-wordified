@@ -7214,6 +7214,12 @@ fbCombineConjointOutReverseU
 fbCombineConjointAtopU
 fbCombineConjointAtopReverseU
 fbCombineConjointXorU
+NULL
+/
+*
+Noop
+*
+/
 }
 ;
 static
@@ -7297,6 +7303,12 @@ fbCombineConjointOutReverseC
 fbCombineConjointAtopC
 fbCombineConjointAtopReverseC
 fbCombineConjointXorC
+NULL
+/
+*
+Noop
+*
+/
 }
 ;
 FbComposeFunctions
