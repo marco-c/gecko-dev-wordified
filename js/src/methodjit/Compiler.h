@@ -990,6 +990,11 @@ JSOp
 fused
 )
 ;
+void
+jsop_neg
+(
+)
+;
 #
 define
 STUB_CALL_TYPE
