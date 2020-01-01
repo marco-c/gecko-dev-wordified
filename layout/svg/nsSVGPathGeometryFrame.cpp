@@ -4434,12 +4434,12 @@ NewPath
 return
 ;
 }
-gfxTextContextPaint
+gfxTextObjectPaint
 *
-contextPaint
+objectPaint
 =
 (
-gfxTextContextPaint
+gfxTextObjectPaint
 *
 )
 aContext
@@ -4448,7 +4448,7 @@ aContext
 GetUserData
 (
 &
-gfxTextContextPaint
+gfxTextObjectPaint
 :
 :
 sUserDataKey
@@ -4470,7 +4470,7 @@ SetupCairoFillPaint
 (
 this
 gfx
-contextPaint
+objectPaint
 )
 )
 {
@@ -4498,7 +4498,7 @@ SetupCairoStroke
 (
 this
 gfx
-contextPaint
+objectPaint
 )
 )
 {
@@ -4656,12 +4656,12 @@ nsRenderingContext
 aContext
 )
 {
-gfxTextContextPaint
+gfxTextObjectPaint
 *
-contextPaint
+objectPaint
 =
 (
-gfxTextContextPaint
+gfxTextObjectPaint
 *
 )
 aContext
@@ -4670,7 +4670,7 @@ aContext
 GetUserData
 (
 &
-gfxTextContextPaint
+gfxTextObjectPaint
 :
 :
 sUserDataKey
@@ -4719,7 +4719,7 @@ nsSVGUtils
 GetStrokeWidth
 (
 this
-contextPaint
+objectPaint
 )
 ;
 nsTArray
