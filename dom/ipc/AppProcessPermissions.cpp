@@ -229,7 +229,7 @@ app
 tab
 -
 >
-GetOwnOrContainingApp
+GetApp
 (
 )
 ;
