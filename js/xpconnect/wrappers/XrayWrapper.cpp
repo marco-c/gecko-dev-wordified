@@ -495,17 +495,10 @@ h
 #
 include
 "
-jscntxt
+jsapi
 .
 h
 "
-/
-/
-JSID_IS_ATOM
-js
-:
-:
-AutoIdVector
 namespace
 xpc
 {
@@ -1737,7 +1730,7 @@ property
 if
 (
 !
-JSID_IS_ATOM
+JSID_IS_STRING
 (
 id
 )
@@ -5207,7 +5200,7 @@ JSObject
 wrapper
 uintN
 flags
-js
+JS
 :
 :
 AutoIdVector
@@ -5370,7 +5363,7 @@ the
 wrapped
 native
 .
-js
+JS
 :
 :
 AutoIdVector
@@ -5512,7 +5505,7 @@ cx
 JSObject
 *
 wrapper
-js
+JS
 :
 :
 AutoIdVector
@@ -5738,7 +5731,7 @@ cx
 JSObject
 *
 wrapper
-js
+JS
 :
 :
 AutoIdVector
@@ -6098,7 +6091,7 @@ cx
 JSObject
 *
 wrapper
-js
+JS
 :
 :
 AutoIdVector
@@ -8015,7 +8008,7 @@ JSObject
 wrapper
 uintN
 flags
-js
+JS
 :
 :
 AutoIdVector
@@ -8183,7 +8176,7 @@ cx
 JSObject
 *
 wrapper
-js
+JS
 :
 :
 AutoIdVector
@@ -8375,7 +8368,7 @@ cx
 JSObject
 *
 wrapper
-js
+JS
 :
 :
 AutoIdVector

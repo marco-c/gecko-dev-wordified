@@ -3006,6 +3006,12 @@ willSendDidPaint
 =
 true
 ;
+event
+.
+didSendWillPaint
+=
+true
+;
 if
 (
 !
@@ -4753,7 +4759,6 @@ UpdateRenderMode
 ;
 Invalidate
 (
-false
 )
 ;
 }
@@ -4830,7 +4835,6 @@ GetD3D10Device
 {
 Invalidate
 (
-false
 )
 ;
 }
@@ -4887,6 +4891,15 @@ ps
 mPaintDC
 =
 nsnull
+;
+mLastPaintEndTime
+=
+TimeStamp
+:
+:
+Now
+(
+)
 ;
 #
 if

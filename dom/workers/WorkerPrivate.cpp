@@ -574,7 +574,7 @@ h
 #
 include
 "
-jscntxt
+jsfriendapi
 .
 h
 "
@@ -7115,6 +7115,9 @@ mBusyBehavior
 =
 =
 ModifyBusyCount
+&
+&
+aCx
 )
 {
 return
@@ -7472,6 +7475,9 @@ if
 (
 !
 aDispatchResult
+&
+&
+aCx
 )
 {
 if

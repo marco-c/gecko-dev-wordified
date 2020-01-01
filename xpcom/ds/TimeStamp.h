@@ -457,6 +457,15 @@ mozilla_TimeStamp_h
 #
 include
 "
+mozilla
+/
+Assertions
+.
+h
+"
+#
+include
+"
 prinrval
 .
 h
@@ -472,15 +481,6 @@ h
 include
 "
 prlong
-.
-h
-"
-#
-include
-"
-mozilla
-/
-Util
 .
 h
 "
@@ -653,8 +653,6 @@ MOZ_ASSERT
 (
 !
 aZero
-&
-&
 "
 Who
 '
@@ -1773,8 +1771,6 @@ MOZ_ASSERT
 IsNull
 (
 )
-&
-&
 "
 Cannot
 compute
@@ -1793,8 +1789,6 @@ aOther
 IsNull
 (
 )
-&
-&
 "
 Cannot
 compute
@@ -1895,8 +1889,6 @@ MOZ_ASSERT
 IsNull
 (
 )
-&
-&
 "
 Cannot
 compute
@@ -1935,8 +1927,6 @@ MOZ_ASSERT
 IsNull
 (
 )
-&
-&
 "
 Cannot
 compute
@@ -1976,8 +1966,6 @@ MOZ_ASSERT
 IsNull
 (
 )
-&
-&
 "
 Cannot
 compute
@@ -2018,8 +2006,6 @@ MOZ_ASSERT
 IsNull
 (
 )
-&
-&
 "
 Cannot
 compute
@@ -2059,8 +2045,6 @@ MOZ_ASSERT
 IsNull
 (
 )
-&
-&
 "
 Cannot
 compute
@@ -2079,8 +2063,6 @@ aOther
 IsNull
 (
 )
-&
-&
 "
 Cannot
 compute
@@ -2117,8 +2099,6 @@ MOZ_ASSERT
 IsNull
 (
 )
-&
-&
 "
 Cannot
 compute
@@ -2137,8 +2117,6 @@ aOther
 IsNull
 (
 )
-&
-&
 "
 Cannot
 compute
@@ -2176,8 +2154,6 @@ MOZ_ASSERT
 IsNull
 (
 )
-&
-&
 "
 Cannot
 compute
@@ -2196,8 +2172,6 @@ aOther
 IsNull
 (
 )
-&
-&
 "
 Cannot
 compute
@@ -2234,8 +2208,6 @@ MOZ_ASSERT
 IsNull
 (
 )
-&
-&
 "
 Cannot
 compute
@@ -2254,8 +2226,6 @@ aOther
 IsNull
 (
 )
-&
-&
 "
 Cannot
 compute
@@ -2327,8 +2297,6 @@ aOther
 IsNull
 (
 )
-&
-&
 "
 Cannot
 compute
@@ -2381,8 +2349,6 @@ MOZ_ASSERT
 IsNull
 (
 )
-&
-&
 "
 Cannot
 compute
@@ -2401,8 +2367,6 @@ aOther
 IsNull
 (
 )
-&
-&
 "
 Cannot
 compute

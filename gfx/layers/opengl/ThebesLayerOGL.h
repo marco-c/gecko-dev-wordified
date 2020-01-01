@@ -593,6 +593,12 @@ nsIntPoint
 aOffset
 )
 ;
+virtual
+void
+CleanupResources
+(
+)
+;
 private
 :
 friend
@@ -704,6 +710,12 @@ const
 nsIntPoint
 &
 aOffset
+)
+;
+virtual
+void
+CleanupResources
+(
 )
 ;
 private

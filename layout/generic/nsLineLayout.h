@@ -908,7 +908,7 @@ nsRect
 &
 aLineBounds
 bool
-aAllowJustify
+aIsLastLine
 )
 ;
 /
@@ -3356,9 +3356,6 @@ byte
 aligned
 PRUint32
 mFlags
-;
-PRUint8
-mTextAlign
 ;
 nsresult
 NewPerFrameData

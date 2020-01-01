@@ -1877,6 +1877,12 @@ DoGetTextAlign
 ;
 nsIDOMCSSValue
 *
+DoGetTextAlignLast
+(
+)
+;
+nsIDOMCSSValue
+*
 DoGetMozTextBlink
 (
 )

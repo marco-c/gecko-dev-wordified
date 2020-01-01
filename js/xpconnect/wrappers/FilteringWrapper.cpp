@@ -502,16 +502,10 @@ h
 #
 include
 "
-jscntxt
+jsapi
 .
 h
 "
-/
-/
-js
-:
-:
-AutoIdVector
 using
 namespace
 js

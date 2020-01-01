@@ -3788,7 +3788,7 @@ where
 to
 go
 bool
-ShouldJustifyLine
+IsLastLine
 (
 nsBlockReflowState
 &

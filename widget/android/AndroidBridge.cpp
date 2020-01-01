@@ -7376,11 +7376,6 @@ handle
 dlopen
 (
 "
-/
-system
-/
-lib
-/
 libjnigraphics
 .
 so
@@ -7524,11 +7519,6 @@ handle
 dlopen
 (
 "
-/
-system
-/
-lib
-/
 libandroid
 .
 so
