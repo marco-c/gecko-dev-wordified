@@ -3972,6 +3972,11 @@ InitTriggers
 )
 ;
 nsresult
+CheckAndUpdateGUIDs
+(
+)
+;
+nsresult
 ForceMigrateBookmarksDB
 (
 mozIStorageConnection

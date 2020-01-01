@@ -1000,6 +1000,11 @@ INTEGER
 "
 \
 "
+guid
+TEXT
+"
+\
+"
 )
 "
 \
