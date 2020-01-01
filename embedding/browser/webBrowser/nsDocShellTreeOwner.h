@@ -1150,17 +1150,6 @@ kTooltipAutoHideTime
 =
 5
 seconds
-kTooltipShowTime
-=
-500
-/
-/
-500ms
-=
-0
-.
-5
-seconds
 }
 ;
 NS_IMETHOD

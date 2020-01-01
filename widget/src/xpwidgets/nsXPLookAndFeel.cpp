@@ -753,6 +753,16 @@ eIntID_ScrollbarButtonAutoRepeatBehavior
 false
 0
 }
+{
+"
+ui
+.
+tooltipDelay
+"
+eIntID_TooltipDelay
+false
+0
+}
 }
 ;
 nsLookAndFeelFloatPref

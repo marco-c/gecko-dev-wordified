@@ -822,17 +822,6 @@ tolerance
 for
 mousemove
 event
-kTooltipShowTime
-=
-500
-/
-/
-500ms
-=
-0
-.
-5
-seconds
 }
 ;
 /
