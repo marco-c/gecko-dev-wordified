@@ -2876,7 +2876,7 @@ date
 /
 datetime
 /
-time
+range
 have
 been
 implemented
@@ -2942,6 +2942,11 @@ case
 datetime
 -
 local
+"
+:
+case
+"
+range
 "
 :
 type
