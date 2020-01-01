@@ -103,6 +103,8 @@ false
 '
 isTest1
 '
+TEST_UNEXPECTED_FAIL
+TEST_PASS
 )
 ;
 "
@@ -121,6 +123,8 @@ false
 '
 isTest2
 '
+TEST_UNEXPECTED_FAIL
+TEST_PASS
 )
 ;
 "
@@ -385,8 +389,10 @@ isnot
 true
 true
 '
-isTest3
+isnotTest3
 '
+TEST_UNEXPECTED_FAIL
+TEST_PASS
 )
 ;
 "
@@ -403,8 +409,10 @@ isnot
 true
 true
 '
-isTest4
+isnotTest4
 '
+TEST_UNEXPECTED_FAIL
+TEST_PASS
 )
 ;
 "
@@ -421,7 +429,7 @@ isnot
 true
 false
 '
-isTest1
+isnotTest1
 '
 )
 ;
@@ -439,7 +447,7 @@ isnot
 true
 false
 '
-isTest2
+isnotTest2
 '
 )
 ;
@@ -679,8 +687,10 @@ ok
 =
 2
 '
-testOk
+testOk1
 '
+TEST_UNEXPECTED_FAIL
+TEST_PASS
 )
 ;
 "
@@ -699,8 +709,10 @@ ok
 =
 2
 '
-testOk
+testOk2
 '
+TEST_UNEXPECTED_FAIL
+TEST_PASS
 )
 ;
 "
@@ -719,7 +731,7 @@ ok
 =
 1
 '
-testOk
+testOk3
 '
 )
 ;
@@ -739,7 +751,7 @@ ok
 =
 1
 '
-testOk
+testOk4
 '
 )
 ;
