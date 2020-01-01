@@ -712,6 +712,11 @@ primary
 "
 )
 ;
+if
+(
+!
+skipZoom
+)
 browser
 .
 docShell
