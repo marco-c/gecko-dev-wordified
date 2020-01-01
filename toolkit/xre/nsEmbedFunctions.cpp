@@ -1637,6 +1637,10 @@ base
 AtExitManager
 exitManager
 ;
+NS_LogInit
+(
+)
+;
 int
 rv
 =
@@ -1653,9 +1657,15 @@ NS_FAILED
 rv
 )
 )
+{
+NS_LogTerm
+(
+)
+;
 return
 NS_ERROR_FAILURE
 ;
+}
 MessageLoopForIO
 mainMessageLoop
 ;
@@ -1789,6 +1799,10 @@ sIOMessageLoop
 nsnull
 ;
 }
+NS_LogTerm
+(
+)
+;
 return
 NS_OK
 ;
