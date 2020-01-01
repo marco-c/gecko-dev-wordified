@@ -1251,8 +1251,8 @@ moz_openpages_temp
 "
 \
 "
-place_id
-INTEGER
+url
+TEXT
 PRIMARY
 KEY
 "
