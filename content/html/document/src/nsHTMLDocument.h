@@ -1170,6 +1170,15 @@ GetNumFormsSynchronous
 (
 )
 ;
+virtual
+void
+TearingDownEditor
+(
+nsIEditor
+*
+aEditor
+)
+;
 PRBool
 IsXHTML
 (

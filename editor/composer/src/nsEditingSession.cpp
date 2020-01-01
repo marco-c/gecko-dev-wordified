@@ -4199,6 +4199,14 @@ rv
 rv
 )
 ;
+htmlDoc
+-
+>
+TearingDownEditor
+(
+editor
+)
+;
 /
 /
 null
