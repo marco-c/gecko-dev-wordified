@@ -601,15 +601,12 @@ tab_thumbnail_width
 )
 )
 ;
+}
 return
 sThumbnailWidth
 &
 ~
 0x1
-;
-}
-return
-sThumbnailWidth
 ;
 }
 static
@@ -632,6 +629,9 @@ getThumbnailAspectRatio
 (
 )
 )
+&
+~
+0x1
 ;
 }
 static
