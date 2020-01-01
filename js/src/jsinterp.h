@@ -2052,7 +2052,6 @@ enabler
 ;
 /
 *
-*
 Unwind
 block
 and
@@ -2064,19 +2063,6 @@ the
 given
 depth
 .
-The
-function
-sets
-*
-fp
--
->
-sp
-on
-return
-to
-stackDepth
-.
 *
 /
 extern
@@ -2086,6 +2072,8 @@ UnwindScope
 JSContext
 *
 cx
+AbstractFramePtr
+frame
 uint32_t
 stackDepth
 )
