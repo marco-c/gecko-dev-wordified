@@ -1059,6 +1059,8 @@ nsACString
 aName
 )
 ;
+public
+:
 nsresult
 GetPagesWithAnnotationCOMArray
 (
