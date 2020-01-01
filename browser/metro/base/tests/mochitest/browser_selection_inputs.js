@@ -346,9 +346,9 @@ function
 {
 return
 !
-StartUI
+BrowserUI
 .
-isStartPageVisible
+isStartTabVisible
 ;
 }
 )
