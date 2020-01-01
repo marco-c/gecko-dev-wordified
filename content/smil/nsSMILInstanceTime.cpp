@@ -1201,7 +1201,7 @@ NS_ABORT_IF_FALSE
 !
 mBaseInterval
 "
-Attepting
+Attempting
 to
 reassociate
 an
