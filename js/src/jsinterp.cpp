@@ -28589,6 +28589,7 @@ vcapTag
 |
 |
 (
+(
 obj2
 =
 obj
@@ -28613,6 +28614,7 @@ entry
 >
 vshape
 (
+)
 )
 )
 {

@@ -15934,7 +15934,6 @@ vp
 )
 ;
 }
-inline
 bool
 JSFunction
 :
