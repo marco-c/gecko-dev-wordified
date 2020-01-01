@@ -31182,6 +31182,12 @@ defined
 (
 MOZ_WIDGET_GTK2
 )
+|
+|
+defined
+(
+MOZ_WIDGET_QT
+)
 /
 /
 Should
