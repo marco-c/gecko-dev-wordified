@@ -1423,7 +1423,7 @@ is
 a
 degenerated
 colgroup
-nsRect
+nsIntRect
 damageArea
 (
 GetFirstColumn

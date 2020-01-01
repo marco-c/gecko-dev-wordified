@@ -1734,7 +1734,7 @@ cells
 originating
 in
 them
-nsRect
+nsIntRect
 damageArea
 (
 colIndex
@@ -4878,9 +4878,12 @@ void
 (
 aChild
 )
+PRInt32
+(
 aMet
 .
 width
+)
 )
 ;
 }
