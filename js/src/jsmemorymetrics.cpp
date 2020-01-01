@@ -1617,12 +1617,14 @@ case
 JSTRACE_BASE_SHAPE
 :
 {
-RawBaseShape
+BaseShape
+*
 base
 =
 static_cast
 <
-RawBaseShape
+BaseShape
+*
 >
 (
 thing

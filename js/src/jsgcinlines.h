@@ -3312,7 +3312,8 @@ inline
 js
 :
 :
-RawBaseShape
+BaseShape
+*
 js_NewGCBaseShape
 (
 JSContext
