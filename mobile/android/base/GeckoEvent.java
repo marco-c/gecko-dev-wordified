@@ -702,14 +702,6 @@ public
 static
 final
 int
-SAVE_STATE
-=
-18
-;
-public
-static
-final
-int
 BROADCAST
 =
 19
