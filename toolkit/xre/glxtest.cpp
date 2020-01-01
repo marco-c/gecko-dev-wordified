@@ -1984,6 +1984,12 @@ context
 before
 destroying
 it
+glXDestroyContext
+(
+dpy
+context
+)
+;
 glXDestroyPixmap
 (
 dpy

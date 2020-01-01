@@ -2508,9 +2508,14 @@ bug
 659842
 comment
 76
+#
+ifdef
+DEBUG
 bool
 success
 =
+#
+endif
 sGLXLibrary
 .
 xMakeCurrent
