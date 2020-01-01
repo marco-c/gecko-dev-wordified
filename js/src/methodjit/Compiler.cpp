@@ -18816,7 +18816,7 @@ getFlatClosureUpvarsOffset
 ;
 masm
 .
-loadPrivate
+loadPtr
 (
 upvarAddress
 reg
