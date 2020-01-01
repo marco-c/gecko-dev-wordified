@@ -12562,7 +12562,7 @@ JSContext
 JSStackFrame
 *
 uintN
-uintN
+JSInterpMode
 )
 ;
 void
