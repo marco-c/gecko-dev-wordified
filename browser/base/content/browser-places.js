@@ -8131,6 +8131,17 @@ BUI__updateToolbarStyle
 (
 )
 {
+if
+(
+!
+this
+.
+button
+)
+{
+return
+;
+}
 let
 personalToolbar
 =
