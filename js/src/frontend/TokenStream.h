@@ -565,16 +565,6 @@ generator
 function
 *
 /
-TOK_LEXICALSCOPE
-/
-*
-block
-scope
-AST
-node
-label
-*
-/
 TOK_LET
 /
 *

@@ -11995,14 +11995,6 @@ TOK_YIELD
 "
 ;
 case
-TOK_LEXICALSCOPE
-:
-return
-"
-TOK_LEXICALSCOPE
-"
-;
-case
 TOK_LET
 :
 return
