@@ -1949,7 +1949,7 @@ local
 at
 all
 !
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
