@@ -8889,7 +8889,7 @@ UpdateReadyStateForData
 mElement
 -
 >
-DispatchSimpleEvent
+DispatchEvent
 (
 NS_LITERAL_STRING
 (
