@@ -2522,9 +2522,6 @@ traceListHead
 JSObject
 *
 obj
-ParseNode
-*
-fn
 ParseContext
 *
 pc
@@ -2539,10 +2536,6 @@ ObjectBox
 (
 traceListHead
 obj
-)
-node
-(
-fn
 )
 siblings
 (
@@ -2702,9 +2695,6 @@ newFunctionBox
 JSObject
 *
 obj
-ParseNode
-*
-fn
 ParseContext
 *
 pc
@@ -2817,7 +2807,6 @@ FunctionBox
 (
 traceListHead
 obj
-fn
 pc
 sms
 )
@@ -9048,6 +9037,9 @@ ParseNode
 *
 *
 listp
+ParseNode
+*
+funcpn
 bool
 &
 hasRest
@@ -9144,15 +9136,6 @@ argsbody
 makeEmpty
 (
 )
-;
-ParseNode
-*
-funcpn
-=
-funbox
--
->
-node
 ;
 funcpn
 -
@@ -10787,7 +10770,6 @@ funbox
 newFunctionBox
 (
 fun
-pn
 outerpc
 sms
 )
@@ -10891,6 +10873,7 @@ functionArguments
 (
 &
 prelude
+pn
 hasRest
 )
 )
@@ -34539,7 +34522,6 @@ funbox
 newFunctionBox
 (
 fun
-genfn
 outerpc
 outerpc
 -

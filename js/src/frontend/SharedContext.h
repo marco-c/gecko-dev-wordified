@@ -2540,10 +2540,6 @@ FunctionBox
 public
 ObjectBox
 {
-ParseNode
-*
-node
-;
 FunctionBox
 *
 siblings
@@ -2628,9 +2624,6 @@ traceListHead
 JSObject
 *
 obj
-ParseNode
-*
-fn
 ParseContext
 *
 pc
