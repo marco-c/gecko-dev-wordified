@@ -11424,6 +11424,13 @@ GetPresShell
 (
 )
 ;
+if
+(
+!
+presShell
+)
+return
+;
 nsIDocument
 *
 doc
