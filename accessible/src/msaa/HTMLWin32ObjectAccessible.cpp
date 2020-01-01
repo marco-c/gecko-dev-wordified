@@ -320,6 +320,10 @@ a
 HTMLWin32ObjectAccessible
 object
 .
+if
+(
+mHwnd
+)
 mNativeAccessible
 =
 new
