@@ -478,6 +478,13 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+nsCocoaUtils
+.
+h
+"
 class
 nsCocoaWindow
 ;
@@ -700,8 +707,7 @@ contentRect
 styleMask
 :
 (
-unsigned
-int
+NSUInteger
 )
 styleMask
 backing
@@ -1746,10 +1752,10 @@ void
 *
 aInfo
 const
-float
+CGFloat
 *
 aIn
-float
+CGFloat
 *
 aOut
 )
