@@ -888,9 +888,9 @@ PRUint32
 aEnd
 PRUint32
 aEventType
-nsIDOMNode
+nsINode
 *
-aDOMNode
+aNode
 nsAccEvent
 :
 :
