@@ -843,6 +843,7 @@ colon
 1
 )
 aCharset
+aBaseURI
 )
 ;
 if
