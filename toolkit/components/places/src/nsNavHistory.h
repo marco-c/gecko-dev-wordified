@@ -2614,6 +2614,17 @@ by
 StartSearch
 and
 FilterResultSet
+nsCOMPtr
+<
+mozIStorageStatement
+>
+mDBSetPlaceTitle
+;
+/
+/
+used
+by
+SetPageTitleInternal
 /
 /
 these
