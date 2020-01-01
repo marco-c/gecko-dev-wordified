@@ -2938,9 +2938,6 @@ icon64URL
 "
 skinnable
 "
-"
-bootstrap
-"
 ]
 .
 forEach
