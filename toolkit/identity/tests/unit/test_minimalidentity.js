@@ -204,7 +204,7 @@ aSubject
 .
 wrappedJSObject
 .
-rpId
+id
 mockedDoc
 .
 id
@@ -300,7 +300,7 @@ aSubject
 .
 wrappedJSObject
 .
-rpId
+id
 mockedDoc
 .
 id
@@ -409,7 +409,7 @@ aSubject
 .
 wrappedJSObject
 .
-rpId
+id
 mockedDoc
 .
 id
