@@ -128,6 +128,13 @@ SMILIntegerType
 .
 h
 "
+#
+include
+"
+SVGContentUtils
+.
+h
+"
 using
 namespace
 mozilla
@@ -187,7 +194,7 @@ get
 ;
 if
 (
-NS_IsAsciiWhitespace
+IsSVGWhitespace
 (
 *
 str

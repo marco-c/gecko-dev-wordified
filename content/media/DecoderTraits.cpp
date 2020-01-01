@@ -2126,7 +2126,7 @@ expectMoreTokens
 =
 tokenizer
 .
-lastTokenEndedWithSeparator
+separatorAfterCurrentToken
 (
 )
 ;

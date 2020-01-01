@@ -348,7 +348,7 @@ if
 (
 tokenizer
 .
-lastTokenEndedWithSeparator
+separatorAfterCurrentToken
 (
 )
 )
@@ -364,7 +364,10 @@ comma
 }
 else
 {
-nsWhitespaceTokenizer
+nsWhitespaceTokenizerTemplate
+<
+IsSVGWhitespace
+>
 tokenizer
 (
 aValue

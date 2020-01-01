@@ -427,7 +427,7 @@ if
 (
 tokenizer
 .
-lastTokenEndedWithSeparator
+separatorAfterCurrentToken
 (
 )
 )

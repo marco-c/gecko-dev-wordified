@@ -223,7 +223,7 @@ if
 (
 tokenizer
 .
-firstTokenBeganWithWhitespace
+whitespaceBeforeFirstToken
 (
 )
 )
@@ -407,7 +407,7 @@ values
 .
 tokenizer
 .
-lastTokenEndedWithWhitespace
+whitespaceAfterCurrentToken
 (
 )
 |
@@ -419,7 +419,7 @@ whitespace
 .
 tokenizer
 .
-lastTokenEndedWithSeparator
+separatorAfterCurrentToken
 (
 )
 )

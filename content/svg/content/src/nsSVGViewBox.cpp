@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsMathUtils
-.
-h
-"
-#
-include
-"
 nsSMILValue
 .
 h
@@ -146,13 +139,6 @@ h
 include
 "
 SVGViewBoxSMILType
-.
-h
-"
-#
-include
-"
-nsAttrValueInlines
 .
 h
 "
@@ -805,7 +791,7 @@ values
 .
 tokenizer
 .
-lastTokenEndedWithSeparator
+separatorAfterCurrentToken
 (
 )
 )

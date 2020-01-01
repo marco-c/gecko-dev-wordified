@@ -732,7 +732,7 @@ if
 (
 tokenizer
 .
-lastTokenEndedWithSeparator
+separatorAfterCurrentToken
 (
 )
 |
