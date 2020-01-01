@@ -9585,6 +9585,15 @@ defaultPrevented
 )
 return
 ;
+Haptic
+.
+performSimpleAction
+(
+Haptic
+.
+LongPress
+)
+;
 let
 popupNode
 =
