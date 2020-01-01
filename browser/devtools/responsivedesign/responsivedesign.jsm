@@ -678,11 +678,8 @@ container
 querySelector
 (
 "
-[
-anonid
-=
+.
 browserStack
-]
 "
 )
 ;
@@ -2026,7 +2023,7 @@ resizers
 *
 <
 vbox
-anonid
+class
 =
 "
 browserContainer
@@ -2100,7 +2097,7 @@ toolbar
 *
 <
 stack
-anonid
+class
 =
 "
 browserStack

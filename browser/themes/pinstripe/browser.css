@@ -26924,12 +26924,8 @@ Responsive
 Mode
 *
 /
-vbox
-[
-anonid
-=
+.
 browserContainer
-]
 [
 responsivemode
 ]
@@ -26977,12 +26973,8 @@ padding
 20px
 ;
 }
-stack
-[
-anonid
-=
+.
 browserStack
-]
 [
 responsivemode
 ]
