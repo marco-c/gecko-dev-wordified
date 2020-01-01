@@ -18309,6 +18309,12 @@ activeContent
 par
 ;
 }
+SetGlobalActiveContent
+(
+this
+activeContent
+)
+;
 }
 }
 else
@@ -18348,12 +18354,6 @@ StopTrackingDragGesture
 )
 ;
 }
-SetGlobalActiveContent
-(
-this
-activeContent
-)
-;
 }
 break
 ;
