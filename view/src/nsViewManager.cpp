@@ -1550,7 +1550,7 @@ ConvertAppUnitsRoundOut
 aFromView
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 -
@@ -1561,7 +1561,7 @@ AppUnitsPerDevPixel
 aToView
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 -
@@ -2425,7 +2425,7 @@ GetParent
 )
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 :
@@ -2725,7 +2725,7 @@ widgetVM
 nearestViewWithWidget
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 ;
@@ -3537,7 +3537,7 @@ view
 view
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 :
@@ -3691,7 +3691,7 @@ displayRootVM
 displayRoot
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 ;
@@ -3895,7 +3895,7 @@ childView
 childView
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 -
@@ -3998,7 +3998,7 @@ GetParent
 )
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 :
@@ -5759,7 +5759,7 @@ GetVisibility
 aChild
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 -
@@ -5915,7 +5915,7 @@ manager
 aChild
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 -
@@ -6066,7 +6066,7 @@ parentVM
 parentView
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 ;
@@ -6523,7 +6523,7 @@ parentVM
 parentView
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 ;
@@ -6804,7 +6804,7 @@ parentView
 parentView
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 -
@@ -7264,7 +7264,7 @@ GetParent
 )
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 -
@@ -7739,7 +7739,7 @@ mRootViewManager
 parent
 -
 >
-GetViewManagerInternal
+GetViewManager
 (
 )
 -
