@@ -2253,8 +2253,9 @@ Startup
 {
 mLibrary
 =
-LoadLibrary
+LoadLibraryW
 (
+L
 "
 sensor
 .
