@@ -3664,6 +3664,16 @@ _
 GetName_Scope4
 )
 \
+_
+(
+GetName_Scope5
+)
+\
+_
+(
+GetName_Scope6
+)
+\
 \
 _
 (
@@ -15086,7 +15096,7 @@ const
 size_t
 MAX_HOPS
 =
-4
+6
 ;
 HeapPtrShape
 shapes_
