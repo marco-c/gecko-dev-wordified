@@ -823,6 +823,8 @@ PRInt32
 inState
 PRBool
 inDirection
+PRBool
+inIsReverse
 PRInt32
 inCurrentValue
 PRInt32
