@@ -1127,11 +1127,6 @@ on
 each
 other
 .
-delete
-[
-]
-mFormat
-;
 /
 /
 Lets
@@ -1270,6 +1265,11 @@ while
 *
 pos
 )
+;
+delete
+[
+]
+mFormat
 ;
 mFormat
 =
