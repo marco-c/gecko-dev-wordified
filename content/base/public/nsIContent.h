@@ -2424,8 +2424,15 @@ not
 set
 .
 *
+*
+Implemented
+inline
+in
+Element
+.
+h
+*
 /
-virtual
 bool
 GetAttr
 (
@@ -2439,8 +2446,6 @@ nsAString
 aResult
 )
 const
-=
-0
 ;
 /
 *
