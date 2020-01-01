@@ -3683,10 +3683,31 @@ relative_srcdir
   
 scriptname
 =
-topsrcdir_path
+"
 (
-__file__
+topsrcdir
 )
+/
+media
+/
+webrtc
+/
+trunk
+/
+tools
+/
+gyp
+/
+pylib
+/
+gyp
+/
+generator
+/
+mozmake
+.
+py
+"
   
 #
 Reassemble
