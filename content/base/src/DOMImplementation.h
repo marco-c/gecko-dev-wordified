@@ -147,7 +147,7 @@ class
 nsIDOMDocument
 ;
 class
-nsIDOMDocumentType
+nsDOMDocumentType
 ;
 namespace
 mozilla
@@ -270,7 +270,7 @@ aVersion
 ;
 already_AddRefed
 <
-nsIDOMDocumentType
+nsDOMDocumentType
 >
 CreateDocumentType
 (
