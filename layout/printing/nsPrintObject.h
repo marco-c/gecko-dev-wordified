@@ -388,7 +388,7 @@ nsIPresShell
 >
 mPresShell
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >

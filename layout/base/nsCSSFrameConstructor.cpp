@@ -78972,7 +78972,7 @@ will
 outlive
 the
 presshell
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >

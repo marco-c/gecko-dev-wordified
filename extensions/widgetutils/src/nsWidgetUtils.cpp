@@ -610,7 +610,7 @@ nsIWidget
 >
 mWidget
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >

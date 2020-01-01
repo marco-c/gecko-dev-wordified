@@ -2164,7 +2164,7 @@ mWindow
 may
 be
 null
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >

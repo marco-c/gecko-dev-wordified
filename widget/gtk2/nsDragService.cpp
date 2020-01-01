@@ -1779,7 +1779,7 @@ presShell
 return
 NULL
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >
