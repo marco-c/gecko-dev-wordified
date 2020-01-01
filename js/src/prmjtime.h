@@ -611,7 +611,7 @@ monday
 .
 *
 /
-JSInt16
+JSInt32
 tm_year
 ;
 /
