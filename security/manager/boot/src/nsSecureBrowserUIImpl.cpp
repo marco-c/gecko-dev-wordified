@@ -804,7 +804,7 @@ PR_LOGGING
 Log
 module
 for
-nsSecureBroswerUI
+nsSecureBrowserUI
 logging
 .
 .
@@ -833,7 +833,7 @@ details
 set
 NSPR_LOG_MODULES
 =
-nsSecureBroswerUI
+nsSecureBrowserUI
 :
 5
 /
