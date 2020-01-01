@@ -2638,6 +2638,13 @@ limit
 1000
 )
 ;
+nsGenericElement
+:
+:
+InitCCCallbacks
+(
+)
+;
 sInitialized
 =
 true
