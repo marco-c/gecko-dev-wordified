@@ -3444,6 +3444,7 @@ Imm32
 1
 )
 r2
+SetCond
 )
 ;
 masm
