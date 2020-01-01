@@ -475,7 +475,7 @@ nsISupports
 *
 param
 =
-nullptr
+nsnull
 )
 :
 mTransport
@@ -1023,7 +1023,31 @@ PRErrorCode
 code
 )
 {
+/
+/
+XXX
+Don
+'
+t
+make
+up
+nsresults
+it
+'
+s
+supposed
+to
+be
+an
+enum
+(
+bug
+778113
+)
 return
+(
+nsresult
+)
 NS_ERROR_GENERATE_FAILURE
 (
 NS_ERROR_MODULE_SECURITY
@@ -1582,7 +1606,7 @@ mCallback
 ;
 mCallback
 =
-nullptr
+nsnull
 ;
 mCallbackFlags
 =
@@ -2034,7 +2058,7 @@ PRFileDesc
 *
 fd
 =
-nullptr
+nsnull
 ;
 {
 MutexAutoLock
@@ -3059,7 +3083,7 @@ mCallback
 ;
 mCallback
 =
-nullptr
+nsnull
 ;
 mCallbackFlags
 =
@@ -3248,7 +3272,7 @@ PRFileDesc
 *
 fd
 =
-nullptr
+nsnull
 ;
 {
 MutexAutoLock
@@ -4078,7 +4102,7 @@ nsSocketTransport
 :
 mTypes
 (
-nullptr
+nsnull
 )
 mTypeCount
 (
@@ -4138,7 +4162,7 @@ mLock
 )
 mFD
 (
-nullptr
+nsnull
 )
 mFDref
 (
@@ -4352,7 +4376,7 @@ char
 *
 proxyType
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -4444,7 +4468,7 @@ unknown
 )
 proxyType
 =
-nullptr
+nsnull
 ;
 }
 SOCKET_LOG
@@ -4519,7 +4543,7 @@ typeCount
 proxyType
 !
 =
-nullptr
+nsnull
 )
 ;
 if
@@ -5490,7 +5514,7 @@ PostEvent
 (
 MSG_DNS_LOOKUP_COMPLETE
 NS_OK
-nullptr
+nsnull
 )
 ;
 }
@@ -5577,7 +5601,7 @@ SocketHost
 )
 dnsFlags
 this
-nullptr
+nsnull
 getter_AddRefs
 (
 mDNSRequest
@@ -5696,7 +5720,7 @@ else
 {
 fd
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -5751,7 +5775,7 @@ IsEmpty
 (
 )
 ?
-nullptr
+nsnull
 :
 mProxyHost
 .
@@ -6291,7 +6315,7 @@ proxy
 stuff
 proxyHost
 =
-nullptr
+nsnull
 ;
 proxyPort
 =
@@ -8531,7 +8555,7 @@ if
 mFDconnected
 )
 return
-nullptr
+nsnull
 ;
 if
 (
@@ -8606,7 +8630,7 @@ mFD
 ;
 mFD
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -9270,7 +9294,7 @@ ourselves
 .
 OnSocketDetached
 (
-nullptr
+nsnull
 )
 ;
 }
@@ -10141,7 +10165,7 @@ secCtrl
 >
 SetNotificationCallbacks
 (
-nullptr
+nsnull
 )
 ;
 /
@@ -11262,7 +11286,7 @@ PRFileDesc
 *
 fd
 =
-nullptr
+nsnull
 ;
 {
 MutexAutoLock
@@ -12114,7 +12138,7 @@ _retval
 *
 _retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -12135,7 +12159,7 @@ aContractID
 *
 aContractID
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -12156,7 +12180,7 @@ aClassDescription
 *
 aClassDescription
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -12177,7 +12201,7 @@ aClassID
 *
 aClassID
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
