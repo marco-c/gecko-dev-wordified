@@ -202,9 +202,6 @@ mOrient
 .
 mUnit
 =
-nsIDOMSVGAngle
-:
-:
 SVG_ANGLETYPE_UNSPECIFIED
 ;
 aValue

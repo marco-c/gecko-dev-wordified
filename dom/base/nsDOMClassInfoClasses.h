@@ -1037,14 +1037,6 @@ SVG
 classes
 DOMCI_CLASS
 (
-SVGAngle
-)
-DOMCI_CLASS
-(
-SVGAnimatedAngle
-)
-DOMCI_CLASS
-(
 SVGAnimatedEnumeration
 )
 DOMCI_CLASS

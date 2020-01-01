@@ -2905,9 +2905,6 @@ if
 angleUnit
 !
 =
-nsIDOMSVGAngle
-:
-:
 SVG_ANGLETYPE_RAD
 )
 {
@@ -2927,9 +2924,6 @@ nsSVGAngle
 :
 GetDegreesPerUnit
 (
-nsIDOMSVGAngle
-:
-:
 SVG_ANGLETYPE_RAD
 )
 ;

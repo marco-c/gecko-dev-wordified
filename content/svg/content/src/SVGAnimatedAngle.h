@@ -99,13 +99,6 @@ once
 #
 include
 "
-nsIDOMSVGAnimatedAngle
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
@@ -147,7 +140,7 @@ SVGAnimatedAngle
 MOZ_FINAL
 :
 public
-nsIDOMSVGAnimatedAngle
+nsISupports
 public
 nsWrapperCache
 {
@@ -190,7 +183,7 @@ SVGAnimatedAngle
 NS_IMETHOD
 GetBaseVal
 (
-nsIDOMSVGAngle
+nsISupports
 *
 *
 aBaseVal
@@ -214,7 +207,7 @@ NS_OK
 NS_IMETHOD
 GetAnimVal
 (
-nsIDOMSVGAngle
+nsISupports
 *
 *
 aAnimVal

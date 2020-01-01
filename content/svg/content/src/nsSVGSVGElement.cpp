@@ -3169,7 +3169,7 @@ NS_OK
 }
 /
 *
-nsIDOMSVGAngle
+SVGAngle
 createSVGAngle
 (
 )
@@ -3182,7 +3182,7 @@ nsSVGSVGElement
 :
 CreateSVGAngle
 (
-nsIDOMSVGAngle
+nsISupports
 *
 *
 _retval
