@@ -886,6 +886,7 @@ PRBool
 IsSingular
 (
 )
+const
 {
 /
 /
