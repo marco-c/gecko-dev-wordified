@@ -510,6 +510,8 @@ tempfile
 import
 time
 import
+utils
+import
 ffprocess
 import
 config
@@ -527,7 +529,7 @@ Linux
 :
     
 from
-ffprofile_linux
+ffprofile_unix
 import
 *
 elif
@@ -545,6 +547,23 @@ Windows
     
 from
 ffprofile_win32
+import
+*
+elif
+platform
+.
+system
+(
+)
+=
+=
+"
+Darwin
+"
+:
+    
+from
+ffprofile_unix
 import
 *
 def
@@ -1308,6 +1327,17 @@ firefox
       
 return
   
+utils
+.
+debug
+(
+"
+terminating
+firefox
+process
+"
+)
+  
 ffprocess
 .
 TerminateAllProcesses
@@ -1315,4 +1345,10 @@ TerminateAllProcesses
 "
 firefox
 "
+)
+  
+ffprocess
+.
+SyncAndSleep
+(
 )

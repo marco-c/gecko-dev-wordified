@@ -526,6 +526,8 @@ setdefaulttimeout
 480
 )
 import
+utils
+import
 config
 import
 post_file
@@ -657,7 +659,7 @@ str
 =
 line
 .
-rsplit
+split
 (
 "
 :
@@ -675,7 +677,7 @@ shortNames
 (
 line
 .
-rsplit
+split
 (
 "
 :
@@ -692,7 +694,7 @@ rsplit
 +
 line
 .
-rsplit
+split
 (
 "
 :
@@ -974,6 +976,16 @@ item
 [
 '
 profile_path
+'
+]
+                    
+yaml
+[
+item
+]
+[
+'
+env
 '
 ]
 ]
@@ -2049,6 +2061,24 @@ argv
 )
 )
 :
+    
+utils
+.
+debug
+(
+"
+running
+test
+file
+"
++
+sys
+.
+argv
+[
+i
+]
+)
     
 test_file
 (

@@ -523,6 +523,8 @@ shutil
 import
 time
 import
+utils
+import
 ffprocess
 import
 ffprofile
@@ -762,6 +764,17 @@ running
 "
 errors
     
+utils
+.
+debug
+(
+"
+syncing
+and
+sleeping
+"
+)
+    
 ffprocess
 .
 SyncAndSleep
@@ -828,6 +841,20 @@ profile_dir
 url
 )
     
+utils
+.
+debug
+(
+"
+about
+to
+run
+ts
+test
+iteration
+"
+)
+    
 (
 match
 timed_out
@@ -846,6 +873,41 @@ firefox
 TS_REGEX
                                                               
 timeout
+)
+    
+if
+match
+>
+0
+:
+      
+utils
+.
+debug
+(
+"
+ts
+output
+match
+is
+"
++
+match
+)
+    
+else
+:
+      
+utils
+.
+debug
+(
+"
+ts
+failed
+to
+match
+"
 )
     
 if
@@ -990,6 +1052,18 @@ profile
 "
 "
   
+utils
+.
+debug
+(
+"
+Running
+startup
+time
+tests
+"
+)
+  
 all_times
 =
 [
@@ -1000,6 +1074,16 @@ config
 in
 profile_configs
 :
+    
+utils
+.
+setEnvironmentVars
+(
+config
+[
+6
+]
+)
     
 #
 Create
@@ -1027,6 +1111,18 @@ config
 [
 1
 ]
+)
+    
+utils
+.
+debug
+(
+"
+temp
+profile
+dir
+created
+"
 )
     
 #
@@ -1062,6 +1158,17 @@ properly
 terminated
 .
     
+utils
+.
+debug
+(
+"
+initializing
+new
+profile
+"
+)
+    
 ffprofile
 .
 InitializeNewProfile
@@ -1071,6 +1178,19 @@ config
 2
 ]
 profile_dir
+)
+    
+utils
+.
+debug
+(
+"
+getting
+configuration
+metrics
+from
+browser
+"
 )
     
 ffinfo
@@ -1170,6 +1290,12 @@ shutil
 rmtree
 (
 profile_dir
+)
+    
+utils
+.
+restoreEnvironmentVars
+(
 )
   
 return
