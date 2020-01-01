@@ -4260,7 +4260,7 @@ i
 count
 )
 {
-NS_RELEASE
+NS_IF_RELEASE
 (
 values
 [
