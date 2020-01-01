@@ -141,6 +141,11 @@ cassert
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstring
 >
 namespace
