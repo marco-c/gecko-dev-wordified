@@ -475,7 +475,7 @@ below
 #
 define
 DATABASE_SCHEMA_VERSION
-12
+13
 /
 /
 Fired
@@ -1818,6 +1818,11 @@ MigrateV11Up
 ;
 nsresult
 CheckAndUpdateGUIDs
+(
+)
+;
+nsresult
+MigrateV13Up
 (
 )
 ;
