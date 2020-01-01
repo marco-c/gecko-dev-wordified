@@ -371,6 +371,13 @@ h
 #
 include
 "
+nsIMemory
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences
