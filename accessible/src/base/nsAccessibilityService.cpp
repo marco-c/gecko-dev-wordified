@@ -1922,7 +1922,7 @@ aEventType
 /
 /
 nsIAccessibilityService
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -2072,7 +2072,7 @@ NS_OK
 /
 /
 nsIAccessibilityService
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -2711,7 +2711,7 @@ NS_OK
 /
 /
 nsIAccessibilityService
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -3127,7 +3127,7 @@ widget
 creation
 *
 /
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -3209,7 +3209,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -3827,7 +3827,7 @@ forget
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -3917,7 +3917,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -4015,7 +4015,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -4097,7 +4097,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -4144,7 +4144,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -4355,7 +4355,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -4378,7 +4378,7 @@ aAccessible
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -4460,7 +4460,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -4507,7 +4507,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -4675,7 +4675,7 @@ element
 DOMNode
 *
 /
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -4945,7 +4945,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -5027,7 +5027,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -5077,7 +5077,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -5159,7 +5159,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -5241,7 +5241,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -5339,7 +5339,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -5421,7 +5421,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -5503,7 +5503,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -5585,7 +5585,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -5667,7 +5667,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -13107,7 +13107,7 @@ put
 methods
 here
 )
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -13193,7 +13193,7 @@ NS_ERROR_NOT_IMPLEMENTED
 #
 endif
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -13270,7 +13270,7 @@ a
 node
 changes
 significantly
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
