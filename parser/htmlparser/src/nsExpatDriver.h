@@ -1152,6 +1152,16 @@ weak
 nsString
 mURISpec
 ;
+/
+/
+Used
+for
+error
+reporting
+.
+PRUint64
+mWindowID
+;
 }
 ;
 #
