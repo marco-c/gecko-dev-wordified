@@ -18048,9 +18048,14 @@ nslots
 JS_INITIAL_NSLOTS
 )
 {
-JS_free
-(
 cx
+-
+>
+runtime
+-
+>
+asynchronousFree
+(
 slots
 -
 1

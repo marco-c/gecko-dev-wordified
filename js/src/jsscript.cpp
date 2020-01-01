@@ -10355,9 +10355,14 @@ script
 endif
 }
 }
-JS_free
-(
 cx
+-
+>
+runtime
+-
+>
+asynchronousFree
+(
 script
 )
 ;
