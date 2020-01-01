@@ -2907,9 +2907,6 @@ true
 relimit
 :
 true
-anonfunfix
-:
-true
 }
 ;
 /

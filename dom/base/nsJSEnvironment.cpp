@@ -6385,8 +6385,6 @@ sContextCount
 mDefaultJSOptions
 =
 JSOPTION_PRIVATE_IS_NSISUPPORTS
-|
-JSOPTION_ANONFUNFIX
 ;
 mContext
 =

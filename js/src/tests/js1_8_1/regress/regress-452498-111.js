@@ -732,13 +732,6 @@ Kwong
 :
 nth10sd
 ]
-options
-(
-"
-anonfunfix
-"
-)
-;
 new
 Function
 (

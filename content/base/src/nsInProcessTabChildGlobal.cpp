@@ -1679,8 +1679,6 @@ cx
 |
 JSOPTION_JIT
 |
-JSOPTION_ANONFUNFIX
-|
 JSOPTION_PRIVATE_IS_NSISUPPORTS
 )
 ;
@@ -1748,7 +1746,7 @@ scopeSupports
 =
 NS_ISUPPORTS_CAST
 (
-nsIDOMEventTarget
+nsPIDOMEventTarget
 *
 this
 )
