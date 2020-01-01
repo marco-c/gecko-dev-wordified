@@ -1517,7 +1517,7 @@ list
 /
 nsFrameList
 &
-GetChildList
+GetWritableChildList
 (
 )
 ;
@@ -1860,7 +1860,7 @@ nsFrameList
 nsTableColGroupFrame
 :
 :
-GetChildList
+GetWritableChildList
 (
 )
 {
