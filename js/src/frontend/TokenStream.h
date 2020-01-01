@@ -218,8 +218,7 @@ TokenKind
 {
 TOK_ERROR
 =
--
-1
+0
 /
 *
 well
