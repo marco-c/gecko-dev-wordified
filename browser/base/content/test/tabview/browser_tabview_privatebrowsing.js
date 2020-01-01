@@ -741,6 +741,17 @@ verify
 after
 all
 cleanups
+gBrowser
+.
+selectedTab
+=
+gBrowser
+.
+tabs
+[
+0
+]
+;
 finish
 (
 )
