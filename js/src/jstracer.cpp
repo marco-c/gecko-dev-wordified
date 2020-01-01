@@ -22826,6 +22826,8 @@ TreeInfo
 vmprivate
 ;
 }
+static
+JS_REQUIRES_STACK
 bool
 js_DeleteRecorder
 (
