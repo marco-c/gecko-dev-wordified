@@ -2700,7 +2700,7 @@ num
 PRUnichar
 *
 *
-emailAddr
+emailArray
 =
 NULL
 ;
@@ -2713,7 +2713,7 @@ GetEmailAddresses
 &
 num
 &
-emailAddr
+emailArray
 )
 )
 &
@@ -2723,6 +2723,13 @@ num
 0
 )
 {
+PRUnichar
+*
+*
+emailAddr
+=
+emailArray
+;
 details
 .
 AppendLiteral
@@ -2939,10 +2946,10 @@ nsMemory
 :
 Free
 (
-emailAddr
+emailArray
 )
 ;
-emailAddr
+emailArray
 =
 nsnull
 ;
