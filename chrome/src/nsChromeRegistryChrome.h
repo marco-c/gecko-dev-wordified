@@ -626,7 +626,7 @@ prefs
 )
 ;
 NS_OVERRIDE
-void
+nsresult
 UpdateSelectedLocale
 (
 )
