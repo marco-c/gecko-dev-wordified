@@ -2656,9 +2656,8 @@ void
 PostSleepWakeNotification
 (
 const
-char
-*
-aNotification
+bool
+aIsSleepMode
 )
 ;
 PRInt32
