@@ -2443,7 +2443,7 @@ about
 )
 )
 ;
-updateTabCountAndAnimate
+updateTabCount
 (
 Tabs
 .
