@@ -5029,15 +5029,6 @@ case
 mousedown
 "
 :
-Util
-.
-dumpLn
-(
-'
-HIDE
-'
-)
-;
 if
 (
 !

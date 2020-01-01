@@ -1813,6 +1813,14 @@ _cleanClickBuffer
 }
 this
 .
+_longClickTimeout
+.
+clear
+(
+)
+;
+this
+.
 _target
 =
 null
