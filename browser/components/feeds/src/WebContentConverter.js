@@ -1791,6 +1791,15 @@ aContentWindow
 {
 try
 {
+let
+baseURI
+=
+aContentWindow
+.
+document
+.
+baseURIObject
+;
 var
 uri
 =
@@ -1799,6 +1808,8 @@ this
 _makeURI
 (
 aURIString
+null
+baseURI
 )
 ;
 }
