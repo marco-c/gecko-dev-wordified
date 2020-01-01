@@ -1410,6 +1410,9 @@ Distribution
 init
 (
 this
+getPackageResourcePath
+(
+)
 )
 ;
 JavaAddonManager
