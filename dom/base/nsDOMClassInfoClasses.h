@@ -1887,7 +1887,7 @@ HTMLSourceElement
 )
 DOMCI_CLASS
 (
-HTMLMediaError
+MediaError
 )
 DOMCI_CLASS
 (
@@ -1895,7 +1895,7 @@ HTMLAudioElement
 )
 DOMCI_CLASS
 (
-HTMLTimeRanges
+TimeRanges
 )
 #
 endif

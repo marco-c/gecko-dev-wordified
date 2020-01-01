@@ -545,7 +545,7 @@ h
 #
 include
 "
-nsHTMLTimeRanges
+nsTimeRanges
 .
 h
 "
@@ -1299,7 +1299,7 @@ GetTimeForPositionChange
 nsresult
 GetBuffered
 (
-nsHTMLTimeRanges
+nsTimeRanges
 *
 aBuffered
 )
@@ -6953,7 +6953,7 @@ nsWaveStateMachine
 :
 GetBuffered
 (
-nsHTMLTimeRanges
+nsTimeRanges
 *
 aBuffered
 )
@@ -8751,7 +8751,7 @@ nsWaveDecoder
 :
 GetBuffered
 (
-nsHTMLTimeRanges
+nsTimeRanges
 *
 aBuffered
 )

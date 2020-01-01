@@ -900,7 +900,7 @@ virtual
 nsresult
 GetBuffered
 (
-nsHTMLTimeRanges
+nsTimeRanges
 *
 aBuffered
 PRInt64

@@ -639,13 +639,6 @@ nsIDOMProgressEvent
 .
 h
 "
-#
-include
-"
-nsHTMLMediaError
-.
-h
-"
 nsGenericHTMLElement
 *
 NS_NewHTMLAudioElement

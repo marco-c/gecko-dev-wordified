@@ -527,7 +527,7 @@ class
 nsMediaDecoder
 ;
 class
-nsHTMLTimeRanges
+nsTimeRanges
 ;
 class
 nsOggReader
@@ -742,7 +742,7 @@ virtual
 nsresult
 GetBuffered
 (
-nsHTMLTimeRanges
+nsTimeRanges
 *
 aBuffered
 PRInt64

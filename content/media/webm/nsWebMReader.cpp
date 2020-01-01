@@ -4325,7 +4325,7 @@ nsWebMReader
 :
 GetBuffered
 (
-nsHTMLTimeRanges
+nsTimeRanges
 *
 aBuffered
 PRInt64

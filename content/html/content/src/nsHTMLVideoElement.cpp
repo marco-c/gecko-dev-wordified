@@ -635,7 +635,7 @@ h
 #
 include
 "
-nsHTMLMediaError
+nsMediaError
 .
 h
 "

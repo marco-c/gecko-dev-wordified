@@ -528,7 +528,7 @@ class
 nsIStreamListener
 ;
 class
-nsHTMLTimeRanges
+nsTimeRanges
 ;
 /
 /
@@ -2059,7 +2059,7 @@ virtual
 nsresult
 GetBuffered
 (
-nsHTMLTimeRanges
+nsTimeRanges
 *
 aBuffered
 )

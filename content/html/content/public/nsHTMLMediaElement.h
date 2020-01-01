@@ -3310,7 +3310,7 @@ Error
 attribute
 nsCOMPtr
 <
-nsIDOMHTMLMediaError
+nsIDOMMediaError
 >
 mError
 ;

@@ -2003,7 +2003,7 @@ nsRawReader
 :
 GetBuffered
 (
-nsHTMLTimeRanges
+nsTimeRanges
 *
 aBuffered
 PRInt64
