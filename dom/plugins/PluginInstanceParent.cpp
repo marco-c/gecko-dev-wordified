@@ -2461,8 +2461,10 @@ false
 }
 surface
 =
-new
 gfxSharedImageSurface
+:
+:
+Open
 (
 newSurface
 .
