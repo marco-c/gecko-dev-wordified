@@ -739,11 +739,6 @@ adjusting
 "
 )
 ;
-bool
-updateBounds
-=
-false
-;
 if
 (
 aFlags
