@@ -13514,9 +13514,6 @@ newTypeObject
 JSContext
 *
 cx
-JSScript
-*
-script
 JSProtoKey
 key
 HandleObject
@@ -13527,23 +13524,6 @@ bool
 isDOM
 )
 {
-JS_ASSERT_IF
-(
-script
-cx
--
->
-compartment
-=
-=
-script
--
->
-compartment
-(
-)
-)
-;
 JS_ASSERT_IF
 (
 proto
@@ -14358,9 +14338,6 @@ res
 newTypeObject
 (
 cx
-key
-.
-script
 key
 .
 kind
@@ -18793,7 +18770,6 @@ cx
 newTypeObject
 (
 cx
-NULL
 JSProto_Array
 objProto
 )
@@ -19753,7 +19729,6 @@ objType
 newTypeObject
 (
 cx
-NULL
 JSProto_Object
 objProto
 )
@@ -37441,12 +37416,6 @@ types
 newTypeObject
 (
 cx
-fun
--
->
-script
-(
-)
 JSProto_Function
 funProto
 )
@@ -38488,7 +38457,6 @@ types
 newTypeObject
 (
 cx
-NULL
 key
 proto
 )
@@ -39429,7 +39397,6 @@ types
 newTypeObject
 (
 cx
-NULL
 JSProto_Object
 self
 markUnknown
@@ -39862,7 +39829,6 @@ types
 newTypeObject
 (
 cx
-NULL
 JSProto_Object
 proto
 false

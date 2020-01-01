@@ -10981,7 +10981,6 @@ types
 newTypeObject
 (
 cx
-NULL
 JSProto_Object
 nullproto
 true
