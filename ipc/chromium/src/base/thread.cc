@@ -826,6 +826,9 @@ ThreadMain
 (
 )
 {
+char
+aLocal
+;
 profiler_register_thread
 (
 name_
@@ -833,6 +836,8 @@ name_
 c_str
 (
 )
+&
+aLocal
 )
 ;
 /

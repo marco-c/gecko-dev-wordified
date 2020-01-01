@@ -826,6 +826,9 @@ InitThread
 (
 )
 {
+char
+aLocal
+;
 profiler_register_thread
 (
 mName
@@ -833,6 +836,8 @@ mName
 get
 (
 )
+&
+aLocal
 )
 ;
 PR_SetCurrentThreadName

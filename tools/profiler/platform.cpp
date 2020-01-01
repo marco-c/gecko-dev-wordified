@@ -2014,6 +2014,9 @@ functions
 void
 mozilla_sampler_init
 (
+void
+*
+stackTop
 )
 {
 sInitCount
@@ -2102,6 +2105,7 @@ Gecko
 "
 stack
 true
+stackTop
 )
 ;
 /
@@ -2766,6 +2770,7 @@ stack_key_initialized
 )
 profiler_init
 (
+NULL
 )
 ;
 /
@@ -2871,15 +2876,6 @@ HasUnwinderThread
 )
 )
 {
-int
-aLocal
-;
-uwt__register_thread_for_profiling
-(
-&
-aLocal
-)
-;
 /
 /
 Create
@@ -3139,6 +3135,7 @@ stack_key_initialized
 )
 profiler_init
 (
+NULL
 )
 ;
 TableTicker
@@ -3575,6 +3572,9 @@ const
 char
 *
 aName
+void
+*
+stackTop
 )
 {
 PseudoStack
@@ -3602,6 +3602,7 @@ RegisterCurrentThread
 aName
 stack
 false
+stackTop
 )
 ;
 }

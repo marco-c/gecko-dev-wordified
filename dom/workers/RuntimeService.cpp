@@ -2545,11 +2545,16 @@ JS_GetRuntime
 cx
 )
 ;
+char
+aLocal
+;
 profiler_register_thread
 (
 "
 WebWorker
 "
+&
+aLocal
 )
 ;
 #
