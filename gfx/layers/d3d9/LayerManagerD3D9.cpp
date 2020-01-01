@@ -1144,7 +1144,9 @@ container
 new
 ImageContainerD3D9
 (
-this
+device
+(
+)
 )
 ;
 return
