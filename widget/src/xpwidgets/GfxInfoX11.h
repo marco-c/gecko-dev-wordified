@@ -689,6 +689,14 @@ Init
 (
 )
 ;
+NS_IMETHOD_
+(
+void
+)
+GetData
+(
+)
+;
 protected
 :
 virtual
@@ -739,11 +747,6 @@ mRevisionVersion
 ;
 void
 AddCrashReportAnnotations
-(
-)
-;
-void
-GetData
 (
 )
 ;
