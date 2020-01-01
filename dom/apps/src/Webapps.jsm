@@ -17632,6 +17632,7 @@ function
 appObs_setStatus
 (
 aStatus
+aProgress
 )
 {
 debug
@@ -17669,6 +17670,12 @@ app
 installState
 =
 aStatus
+;
+app
+.
+progress
+=
+aProgress
 ;
 if
 (
@@ -17713,6 +17720,11 @@ installState
 app
 .
 installState
+progress
+:
+app
+.
+progress
 }
 )
 ;
@@ -17829,6 +17841,9 @@ setStatus
 "
 installed
 "
+aUpdate
+.
+byteProgress
 )
 ;
 break
@@ -17852,6 +17867,9 @@ setStatus
 this
 .
 startStatus
+aUpdate
+.
+byteProgress
 )
 ;
 break
@@ -17888,6 +17906,9 @@ setStatus
 this
 .
 startStatus
+aUpdate
+.
+byteProgress
 )
 ;
 this

@@ -3254,6 +3254,14 @@ msg
 .
 installState
 ;
+this
+.
+progress
+=
+msg
+.
+progress
+;
 if
 (
 this
