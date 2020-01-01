@@ -2267,15 +2267,6 @@ content
 processes
 .
 static
-nsresult
-ReadExtensionPrefs
-(
-nsIFile
-*
-aFile
-)
-;
-static
 void
 MirrorPreferences
 (
