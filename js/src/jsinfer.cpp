@@ -27470,7 +27470,8 @@ pc
 ;
 if
 (
-slotEscapes
+!
+trackSlot
 (
 slot
 )
