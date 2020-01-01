@@ -952,8 +952,11 @@ empty
 /
 SharedImage
 *
-PopSharedImageFromPool
+GetSharedImageFor
 (
+Image
+*
+aImage
 )
 ;
 /
@@ -1137,9 +1140,6 @@ private
 :
 PRUint64
 mImageContainerID
-;
-nsIntSize
-mSize
 ;
 nsTArray
 <
