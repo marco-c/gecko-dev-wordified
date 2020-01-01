@@ -7213,7 +7213,7 @@ with
 the
 list
 in
-GetMozVisibilityState
+GetVisibilityState
 .
 enum
 VisibilityState
