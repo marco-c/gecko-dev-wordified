@@ -13996,6 +13996,12 @@ hide
 the
 identity
 popup
+BrowserUI
+.
+activePanel
+=
+null
+;
 while
 (
 BrowserUI
