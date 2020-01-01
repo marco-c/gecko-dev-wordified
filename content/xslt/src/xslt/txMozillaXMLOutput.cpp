@@ -3232,7 +3232,7 @@ mDocument
 >
 CreateElem
 (
-nsAtomString
+nsDependentAtomString
 (
 nsGkAtoms
 :
