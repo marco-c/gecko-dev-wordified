@@ -35445,15 +35445,6 @@ vp
 /
 #
 ifdef
-DEBUG
-#
-define
-JS_GC_ZEAL
-1
-#
-endif
-#
-ifdef
 JS_GC_ZEAL
 #
 define
