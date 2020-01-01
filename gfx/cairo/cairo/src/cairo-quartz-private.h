@@ -368,13 +368,13 @@ ifdef
 CAIRO_HAS_QUARTZ_SURFACE
 #
 include
-<
+"
 cairo
 -
 quartz
 .
 h
->
+"
 typedef
 struct
 cairo_quartz_surface

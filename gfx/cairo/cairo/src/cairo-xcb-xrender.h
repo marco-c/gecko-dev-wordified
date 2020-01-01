@@ -348,11 +348,11 @@ define
 CAIRO_XCB_XRENDER_H
 #
 include
-<
+"
 cairo
 .
 h
->
+"
 #
 if
 CAIRO_HAS_XCB_SURFACE

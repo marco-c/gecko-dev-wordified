@@ -444,6 +444,7 @@ assumed
 to
 only
 have
+%
 CAIRO_FIXED_FRAC_BITS
 *
 bits
@@ -486,6 +487,10 @@ is
 :
 *
 *
+<
+programlisting
+>
+*
 FIXED_POINT_DECIMAL_DIGITS
 =
 ceil
@@ -502,6 +507,11 @@ ln
 10
 )
 )
+*
+<
+/
+programlisting
+>
 *
 *
 We
@@ -533,6 +543,7 @@ any
 likely
 value
 of
+%
 CAIRO_FIXED_FRAC_BITS
 .
 *
