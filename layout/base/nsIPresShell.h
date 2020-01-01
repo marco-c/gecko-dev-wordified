@@ -1034,11 +1034,6 @@ aID
 aSize
 )
 ;
-if
-(
-result
-)
-{
 memset
 (
 result
@@ -1046,7 +1041,6 @@ result
 aSize
 )
 ;
-}
 return
 result
 ;
@@ -1187,11 +1181,6 @@ aID
 aSize
 )
 ;
-if
-(
-result
-)
-{
 memset
 (
 result
@@ -1199,7 +1188,6 @@ result
 aSize
 )
 ;
-}
 return
 result
 ;
