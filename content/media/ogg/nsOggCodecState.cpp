@@ -764,9 +764,14 @@ MOZ_COUNT_DTOR
 nsOggCodecState
 )
 ;
+#
+ifdef
+DEBUG
 int
 ret
 =
+#
+endif
 ogg_stream_clear
 (
 &
