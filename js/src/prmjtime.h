@@ -712,9 +712,17 @@ JS_THREADSAFE
 )
 &
 &
+(
 defined
 (
 HAVE_GETSYSTEMTIMEASFILETIME
+)
+|
+|
+defined
+(
+HAVE_SYSTEMTIMETOFILETIME
+)
 )
 extern
 void
