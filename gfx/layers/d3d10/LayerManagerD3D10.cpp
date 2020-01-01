@@ -1116,6 +1116,9 @@ mInputLayout
 }
 if
 (
+ShadowLayerForwarder
+:
+:
 HasShadowManager
 (
 )
@@ -1930,6 +1933,8 @@ LayerManagerD3D10
 :
 EndEmptyTransaction
 (
+EndTransactionFlags
+aFlags
 )
 {
 if
@@ -1944,6 +1949,7 @@ EndTransaction
 (
 nullptr
 nullptr
+aFlags
 )
 ;
 return

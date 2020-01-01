@@ -604,6 +604,8 @@ LayerManagerD3D9
 :
 EndEmptyTransaction
 (
+EndTransactionFlags
+aFlags
 )
 {
 /
@@ -687,6 +689,7 @@ EndTransaction
 (
 nullptr
 nullptr
+aFlags
 )
 ;
 return

@@ -590,6 +590,10 @@ virtual
 bool
 EndEmptyTransaction
 (
+EndTransactionFlags
+aFlags
+=
+END_DEFAULT
 )
 ;
 virtual
