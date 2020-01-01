@@ -19492,13 +19492,16 @@ str
 )
 ;
 }
+#
+ifdef
+JS_THREADSAFE
 if
 (
 !
 rt
 -
 >
-deflatedStringCache
+deflatedStringCacheLock
 )
 {
 /
@@ -19547,6 +19550,8 @@ str
 )
 ;
 }
+#
+endif
 JS_ACQUIRE_LOCK
 (
 rt
