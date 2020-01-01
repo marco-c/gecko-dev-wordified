@@ -13042,6 +13042,11 @@ MDefinition
 ins
 )
 ;
+bool
+fallible
+(
+)
+;
 }
 ;
 class
