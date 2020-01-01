@@ -8453,6 +8453,15 @@ SetRoleMapEntry
 aRoleMapEntry
 )
 ;
+if
+(
+aAccessible
+-
+>
+IsElement
+(
+)
+)
 AddDependentIDsFor
 (
 aAccessible
