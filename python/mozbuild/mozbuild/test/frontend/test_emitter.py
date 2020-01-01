@@ -1055,6 +1055,21 @@ s
 '
 ]
             
+CMMSRCS
+=
+[
+'
+fans
+.
+mm
+'
+'
+tans
+.
+mm
+'
+]
+            
 CSRCS
 =
 [
