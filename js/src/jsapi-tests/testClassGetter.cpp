@@ -221,12 +221,8 @@ BEGIN_TEST
 testClassGetter_isCalled
 )
 {
-JSObject
-*
-my_proto
-;
-my_proto
-=
+CHECK
+(
 JS_InitClass
 (
 cx
@@ -243,6 +239,7 @@ NULL
 ptestFunctions
 NULL
 NULL
+)
 )
 ;
 EXEC
