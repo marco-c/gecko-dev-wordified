@@ -2136,7 +2136,7 @@ if
 index
 <
 =
-JSVAL_INT_MAX
+JSBOXEDWORD_INT_MAX
 )
 {
 *
@@ -2230,7 +2230,7 @@ JS_ASSERT
 (
 index
 >
-JSVAL_INT_MAX
+JSBOXEDWORD_INT_MAX
 )
 ;
 start
@@ -3072,7 +3072,7 @@ if
 index
 <
 =
-JSVAL_INT_MAX
+JSBOXEDWORD_INT_MAX
 )
 {
 *
@@ -7481,9 +7481,10 @@ voidDenseOnlyArraySlots
 obj
 -
 >
-changeClassToSlowArray
-(
-)
+clasp
+=
+&
+js_SlowArrayClass
 ;
 obj
 -

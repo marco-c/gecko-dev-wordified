@@ -2556,7 +2556,9 @@ cx
 Value
 objv
 ;
-return
+bool
+ok
+=
 js_ValueToObjectOrNull
 (
 cx
@@ -2576,6 +2578,9 @@ objv
 asObjectOrNull
 (
 )
+;
+return
+ok
 ;
 }
 JS_PUBLIC_API

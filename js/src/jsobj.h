@@ -1790,8 +1790,6 @@ jsscope
 h
 *
 /
-private
-:
 js
 :
 :
@@ -1814,8 +1812,6 @@ see
 above
 *
 /
-public
-:
 js
 :
 :
@@ -4350,18 +4346,6 @@ cx
 inline
 void
 initArrayClass
-(
-)
-;
-inline
-void
-changeClassToSlowArray
-(
-)
-;
-inline
-void
-changeClassToFastArray
 (
 )
 ;
