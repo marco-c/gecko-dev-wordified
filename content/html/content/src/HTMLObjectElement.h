@@ -929,7 +929,7 @@ Hspace
 )
 {
 return
-GetHTMLUnsignedIntAttr
+GetUnsignedIntAttr
 (
 nsGkAtoms
 :
@@ -949,7 +949,7 @@ ErrorResult
 aRv
 )
 {
-SetHTMLUnsignedIntAttr
+SetUnsignedIntAttr
 (
 nsGkAtoms
 :
@@ -1007,7 +1007,7 @@ Vspace
 )
 {
 return
-GetHTMLUnsignedIntAttr
+GetUnsignedIntAttr
 (
 nsGkAtoms
 :
@@ -1027,7 +1027,7 @@ ErrorResult
 aRv
 )
 {
-SetHTMLUnsignedIntAttr
+SetUnsignedIntAttr
 (
 nsGkAtoms
 :

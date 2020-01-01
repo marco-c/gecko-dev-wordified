@@ -2468,11 +2468,6 @@ ErrorResult
 aRv
 )
 {
-aRv
-=
-nsGenericHTMLElement
-:
-:
 SetUnsignedIntAttr
 (
 nsGkAtoms
@@ -2480,6 +2475,7 @@ nsGkAtoms
 :
 height
 aValue
+aRv
 )
 ;
 }
@@ -2865,10 +2861,9 @@ uint32_t
 Size
 (
 )
+const
 {
-uint32_t
-value
-;
+return
 GetUnsignedIntAttr
 (
 nsGkAtoms
@@ -2876,12 +2871,7 @@ nsGkAtoms
 :
 size
 DEFAULT_COLS
-&
-value
 )
-;
-return
-value
 ;
 }
 void
@@ -2912,7 +2902,7 @@ NS_ERROR_DOM_INDEX_SIZE_ERR
 return
 ;
 }
-SetHTMLUnsignedIntAttr
+SetUnsignedIntAttr
 (
 nsGkAtoms
 :
@@ -3142,11 +3132,6 @@ ErrorResult
 aRv
 )
 {
-aRv
-=
-nsGenericHTMLElement
-:
-:
 SetUnsignedIntAttr
 (
 nsGkAtoms
@@ -3154,6 +3139,7 @@ nsGkAtoms
 :
 width
 aValue
+aRv
 )
 ;
 }
