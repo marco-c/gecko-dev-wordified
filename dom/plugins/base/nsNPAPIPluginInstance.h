@@ -1023,13 +1023,6 @@ aWindowless
 )
 ;
 NPError
-SetWindowlessLocal
-(
-bool
-aWindowlessLocal
-)
-;
-NPError
 SetTransparent
 (
 bool
@@ -1566,9 +1559,6 @@ later
 query
 bool
 mWindowless
-;
-bool
-mWindowlessLocal
 ;
 bool
 mTransparent
