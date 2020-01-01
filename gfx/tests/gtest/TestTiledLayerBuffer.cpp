@@ -294,13 +294,6 @@ EmptyUpdate
 TestTiledLayerBuffer
 buffer
 ;
-nsRegion
-:
-:
-InitStatic
-(
-)
-;
 nsIntRegion
 validRegion
 (
