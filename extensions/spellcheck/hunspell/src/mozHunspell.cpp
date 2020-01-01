@@ -1985,7 +1985,7 @@ dictDir
 ;
 }
 }
-void
+NS_IMETHODIMP
 mozHunspell
 :
 :
@@ -2027,6 +2027,7 @@ rv
 check
 )
 return
+NS_ERROR_UNEXPECTED
 ;
 rv
 =
@@ -2051,6 +2052,7 @@ rv
 check
 )
 return
+NS_ERROR_UNEXPECTED
 ;
 nsCOMPtr
 <
@@ -2079,6 +2081,7 @@ rv
 )
 )
 return
+NS_ERROR_UNEXPECTED
 ;
 nsCOMPtr
 <
@@ -2098,6 +2101,7 @@ if
 files
 )
 return
+NS_ERROR_UNEXPECTED
 ;
 nsCOMPtr
 <
@@ -2273,6 +2277,9 @@ file
 )
 ;
 }
+return
+NS_OK
+;
 }
 nsresult
 mozHunspell
