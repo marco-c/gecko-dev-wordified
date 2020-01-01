@@ -68,7 +68,7 @@ gView
 null
 ;
 var
-gLH
+gDH
 =
 null
 ;
@@ -112,11 +112,11 @@ gDebugger
 .
 DebuggerView
 ;
-gLH
+gDH
 =
 gDebugger
 .
-LayoutHelpers
+DevtoolsHelpers
 ;
 gL10N
 =
@@ -188,7 +188,7 @@ getFormatStr
 "
 pauseButtonTooltip
 "
-gLH
+gDH
 .
 prettyKey
 (
@@ -305,7 +305,7 @@ getFormatStr
 "
 resumeButtonTooltip
 "
-gLH
+gDH
 .
 prettyKey
 (
@@ -489,7 +489,7 @@ getFormatStr
 "
 pauseButtonTooltip
 "
-gLH
+gDH
 .
 prettyKey
 (
@@ -581,7 +581,7 @@ gView
 =
 null
 ;
-gLH
+gDH
 =
 null
 ;
