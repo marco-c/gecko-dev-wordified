@@ -3420,7 +3420,10 @@ if
 obj
 -
 >
-isDebugScope
+is
+<
+DebugScopeObject
+>
 (
 )
 )
@@ -3428,7 +3431,10 @@ return
 obj
 -
 >
-asDebugScope
+as
+<
+DebugScopeObject
+>
 (
 )
 .
@@ -4239,7 +4245,10 @@ if
 obj
 -
 >
-isDebugScope
+is
+<
+DebugScopeObject
+>
 (
 )
 )
@@ -8259,7 +8268,10 @@ scope
 o
 -
 >
-asDebugScope
+as
+<
+DebugScopeObject
+>
 (
 )
 .

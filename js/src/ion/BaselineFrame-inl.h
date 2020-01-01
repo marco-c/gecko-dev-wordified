@@ -234,7 +234,10 @@ scopeChain_
 scopeChain_
 -
 >
-asScope
+as
+<
+ScopeObject
+>
 (
 )
 .

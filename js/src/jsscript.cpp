@@ -18375,7 +18375,10 @@ callObj
 (
 )
 .
-asScope
+as
+<
+ScopeObject
+>
 (
 )
 .
@@ -18395,7 +18398,10 @@ callObj
 (
 )
 .
-asScope
+as
+<
+ScopeObject
+>
 (
 )
 .

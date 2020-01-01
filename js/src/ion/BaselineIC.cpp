@@ -32419,7 +32419,10 @@ if
 scopeChain
 -
 >
-isScope
+is
+<
+ScopeObject
+>
 (
 )
 |
@@ -41833,7 +41836,10 @@ JSOP_SETALIASEDVAR
 obj
 -
 >
-asScope
+as
+<
+ScopeObject
+>
 (
 )
 .
