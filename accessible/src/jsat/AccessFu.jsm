@@ -3780,7 +3780,7 @@ moveCursor
 moveToPoint
 '
 '
-Simple
+SimpleTouch
 '
 '
 gesture
