@@ -1242,7 +1242,7 @@ class
 Op
 >
 inline
-bool
+void
 readFrameArgs
 (
 Op
@@ -1454,7 +1454,7 @@ class
 Op
 >
 inline
-bool
+void
 forEachCanonicalActualArg
 (
 Op

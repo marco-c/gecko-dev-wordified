@@ -7611,7 +7611,6 @@ thisv
 (
 )
 ;
-return
 s
 .
 readFrameArgs
@@ -7628,6 +7627,9 @@ fun
 nargs
 argc
 )
+;
+return
+true
 ;
 }
 StackFrame
