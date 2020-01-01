@@ -4304,6 +4304,10 @@ mIsContextMenu
 =
 aIsContextMenu
 ;
+InvalidateFrameSubtree
+(
+)
+;
 if
 (
 mPopupState
