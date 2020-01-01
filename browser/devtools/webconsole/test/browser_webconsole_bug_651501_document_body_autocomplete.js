@@ -654,6 +654,9 @@ node
 2
 {
 }
+gHUD
+.
+iframeWindow
 )
 ;
 }

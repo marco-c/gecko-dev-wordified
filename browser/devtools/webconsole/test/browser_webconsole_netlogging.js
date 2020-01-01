@@ -495,6 +495,8 @@ again
 .
 hud
 .
+ui
+.
 saveRequestAndResponseBodies
 =
 true
@@ -1123,11 +1125,15 @@ files
 let
 networkPanel
 =
-HUDService
+hud
+.
+ui
 .
 openNetworkPanel
 (
 hud
+.
+ui
 .
 filterBox
 lastActivity
@@ -1137,6 +1143,8 @@ is
 (
 networkPanel
 hud
+.
+ui
 .
 filterBox
 .

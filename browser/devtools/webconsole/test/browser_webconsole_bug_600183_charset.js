@@ -296,6 +296,8 @@ hud
 {
 hud
 .
+ui
+.
 saveRequestAndResponseBodies
 =
 true
