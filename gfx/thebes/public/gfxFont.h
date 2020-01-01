@@ -4312,9 +4312,6 @@ aLength
 PRPackedBool
 *
 aBreakBefore
-gfxContext
-*
-aRefContext
 )
 ;
 /
@@ -5383,9 +5380,6 @@ aLineBreakAfter
 gfxFloat
 *
 aAdvanceWidthDelta
-gfxContext
-*
-aRefContext
 )
 ;
 /

@@ -556,6 +556,13 @@ mFactory
 (
 aFactory
 )
+mRefContext
+(
+aParams
+-
+>
+mContext
+)
 mOwnsFactory
 (
 aOwnsFactory
@@ -649,9 +656,6 @@ aLength
 PRPackedBool
 *
 aBreakBefore
-gfxContext
-*
-aRefContext
 )
 {
 PRBool
@@ -665,7 +669,6 @@ SetPotentialLineBreaks
 aStart
 aLength
 aBreakBefore
-aRefContext
 )
 ;
 mFactory
@@ -674,7 +677,6 @@ mFactory
 RebuildTextRun
 (
 this
-aRefContext
 )
 ;
 return
@@ -696,14 +698,17 @@ aLineBreakAfter
 gfxFloat
 *
 aAdvanceWidthDelta
-gfxContext
-*
-aRefContext
 )
 ;
 nsTransformingTextRunFactory
 *
 mFactory
+;
+nsRefPtr
+<
+gfxContext
+>
+mRefContext
 ;
 nsTArray
 <
@@ -742,9 +747,6 @@ aLineBreakAfter
 gfxFloat
 *
 aAdvanceWidthDelta
-gfxContext
-*
-aRefContext
 )
 {
 nsTArray
@@ -997,7 +999,6 @@ mFactory
 RebuildTextRun
 (
 this
-aRefContext
 )
 ;
 if
@@ -1083,10 +1084,6 @@ nsnull
 RebuildTextRun
 (
 textRun
-aParams
--
->
-mContext
 )
 ;
 return
@@ -2214,9 +2211,6 @@ aTextRun
 PRUint32
 *
 aFlags
-gfxContext
-*
-aRefContext
 )
 {
 gfxTextRunFactory
@@ -2226,7 +2220,10 @@ Parameters
 params
 =
 {
-aRefContext
+aTextRun
+-
+>
+mRefContext
 nsnull
 nsnull
 nsnull
@@ -2271,9 +2268,6 @@ RebuildTextRun
 nsTransformedTextRun
 *
 aTextRun
-gfxContext
-*
-aRefContext
 )
 {
 nsICaseConversion
@@ -2361,7 +2355,6 @@ GetParametersForInner
 aTextRun
 &
 flags
-aRefContext
 )
 ;
 /
@@ -2910,7 +2903,6 @@ canBreakBeforeArray
 Elements
 (
 )
-aRefContext
 )
 ;
 AppendTextRun
@@ -3041,9 +3033,6 @@ RebuildTextRun
 nsTransformedTextRun
 *
 aTextRun
-gfxContext
-*
-aRefContext
 )
 {
 nsICaseConversion
@@ -3513,7 +3502,6 @@ GetParametersForInner
 aTextRun
 &
 flags
-aRefContext
 )
 ;
 gfxFontGroup
@@ -3717,7 +3705,6 @@ canBreakBeforeArray
 Elements
 (
 )
-aRefContext
 )
 ;
 /
