@@ -49,14 +49,14 @@ is
 disabled
 .
 const
-PREF_GETADDONS_BYIDS
+PREF_GETADDONS_BYIDS_PERFORMANCE
 =
 "
 extensions
 .
 getAddons
 .
-get
+getWithPerformance
 .
 url
 "
@@ -400,7 +400,7 @@ prefs
 .
 setCharPref
 (
-PREF_GETADDONS_BYIDS
+PREF_GETADDONS_BYIDS_PERFORMANCE
 "
 http
 :

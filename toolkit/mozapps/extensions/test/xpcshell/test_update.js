@@ -62,7 +62,7 @@ locale
 "
 ;
 const
-PREF_GETADDONS_BYIDS
+PREF_GETADDONS_BYIDS_PERFORMANCE
 =
 "
 extensions
@@ -6907,7 +6907,7 @@ prefs
 .
 setCharPref
 (
-PREF_GETADDONS_BYIDS
+PREF_GETADDONS_BYIDS_PERFORMANCE
 "
 http
 :
