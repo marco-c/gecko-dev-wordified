@@ -3876,7 +3876,7 @@ aRequest
 nsILoadGroup
 *
 aLoadGroup
-imgIDecoderObserver
+imgINotificationObserver
 *
 aObserver
 nsLoadFlags
@@ -6561,7 +6561,7 @@ aReferrerURI
 nsILoadGroup
 *
 aLoadGroup
-imgIDecoderObserver
+imgINotificationObserver
 *
 aObserver
 nsISupports
@@ -7266,7 +7266,7 @@ aReferrerURI
 nsILoadGroup
 *
 aLoadGroup
-imgIDecoderObserver
+imgINotificationObserver
 *
 aObserver
 nsISupports
@@ -8673,7 +8673,7 @@ in
 nsILoadGroup
 aLoadGroup
 in
-imgIDecoderObserver
+imgINotificationObserver
 aObserver
 in
 nsISupports
@@ -8712,7 +8712,7 @@ aLoadingPrincipal
 nsILoadGroup
 *
 aLoadGroup
-imgIDecoderObserver
+imgINotificationObserver
 *
 aObserver
 nsISupports
@@ -10496,7 +10496,7 @@ in
 nsIChannel
 channel
 in
-imgIDecoderObserver
+imgINotificationObserver
 aObserver
 in
 nsISupports
@@ -10516,7 +10516,7 @@ LoadImageWithChannel
 nsIChannel
 *
 channel
-imgIDecoderObserver
+imgINotificationObserver
 *
 aObserver
 nsISupports
