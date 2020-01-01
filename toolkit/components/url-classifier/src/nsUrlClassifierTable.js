@@ -539,14 +539,6 @@ G_CryptoHasher
 ;
 modScope
 .
-G_Base64
-=
-jslib
-.
-G_Base64
-;
-modScope
-.
 BindToObject
 =
 jslib

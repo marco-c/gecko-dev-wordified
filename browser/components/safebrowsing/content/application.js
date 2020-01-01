@@ -570,10 +570,6 @@ TEST_G_Protocol4Parser
 (
 )
 ;
-TEST_G_Base64
-(
-)
-;
 TEST_G_CryptoHasher
 (
 )
