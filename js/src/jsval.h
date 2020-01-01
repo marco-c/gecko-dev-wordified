@@ -2174,6 +2174,9 @@ void
 *
 asPtr
 ;
+jsuword
+asWord
+;
 }
 jsval_layout
 ;
@@ -2313,6 +2316,9 @@ asDouble
 void
 *
 asPtr
+;
+jsuword
+asWord
 ;
 }
 jsval_layout
