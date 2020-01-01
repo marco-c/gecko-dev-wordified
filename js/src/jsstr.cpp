@@ -9967,7 +9967,7 @@ textlen
 {
 start
 =
-0
+textlen
 ;
 textlen
 =
@@ -10044,7 +10044,7 @@ textlen
 {
 start
 =
-0
+textlen
 ;
 textlen
 =
