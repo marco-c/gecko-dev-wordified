@@ -946,7 +946,9 @@ connect
 to
 a
 *
-nonexistent
+non
+-
+existent
 port
 and
 expects
@@ -3003,7 +3005,9 @@ for
 connection
 to
 a
-nonexistent
+non
+-
+existent
 port
 using
 a

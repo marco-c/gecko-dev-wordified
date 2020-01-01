@@ -474,13 +474,13 @@ _WIN32_WINNT
 #
 define
 _WIN32_WINNT
-0x0400
+0x0403
 #
 elif
 (
 _WIN32_WINNT
 <
-0x0400
+0x0403
 )
 #
 undef
@@ -488,7 +488,7 @@ _WIN32_WINNT
 #
 define
 _WIN32_WINNT
-0x0400
+0x0403
 #
 endif
 /
