@@ -3869,14 +3869,6 @@ GetFirstBodyRowGroupFrame
 (
 )
 ;
-PRBool
-MoveOverflowToChildList
-(
-nsPresContext
-*
-aPresContext
-)
-;
 /
 *
 *
