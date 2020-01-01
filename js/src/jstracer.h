@@ -5883,7 +5883,8 @@ this_ins
 )
 ;
 JS_REQUIRES_STACK
-void
+VMSideExit
+*
 enterDeepBailCall
 (
 )
