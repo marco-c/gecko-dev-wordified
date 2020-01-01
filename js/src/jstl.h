@@ -2132,7 +2132,7 @@ utility
 simply
 assumes
 that
-uint64_t
+JSUint64
 is
 enough
 alignment
@@ -2221,7 +2221,7 @@ bytes
 nbytes
 ]
 ;
-uint64_t
+JSUint64
 _
 ;
 }
