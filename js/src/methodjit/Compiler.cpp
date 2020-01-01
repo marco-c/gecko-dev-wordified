@@ -5586,8 +5586,7 @@ one
 /
 if
 (
-!
-BytecodeNoFallThrough
+BytecodeFallsThrough
 (
 op
 )

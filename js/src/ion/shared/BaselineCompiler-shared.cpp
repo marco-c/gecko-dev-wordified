@@ -222,9 +222,15 @@ debugMode
 (
 )
 )
+analysis_
+(
+script
+)
 frame
 (
 cx
+*
+this
 script
 masm
 )
