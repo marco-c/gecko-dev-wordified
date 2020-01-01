@@ -156,13 +156,6 @@ h
 #
 include
 "
-string
-.
-h
-"
-#
-include
-"
 SVGContentUtils
 .
 h
