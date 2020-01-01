@@ -1161,7 +1161,7 @@ iter
 mLayer
 -
 >
-GetVisibleRegion
+GetEffectiveVisibleRegion
 (
 )
 )
@@ -1222,7 +1222,7 @@ SetLayerTransform
 mLayer
 -
 >
-GetTransform
+GetEffectiveTransform
 (
 )
 )

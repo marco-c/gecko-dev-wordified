@@ -980,6 +980,12 @@ gfxIntSize
 aSize
 )
 {
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 if
 (
 !
@@ -991,12 +997,6 @@ IsAllocated
 )
 )
 return
-;
-MutexAutoLock
-lock
-(
-mLock
-)
 ;
 if
 (
@@ -2348,7 +2348,9 @@ program
 >
 SetLayerTransform
 (
-mTransform
+GetEffectiveTransform
+(
+)
 )
 ;
 program
@@ -2561,7 +2563,9 @@ program
 >
 SetLayerTransform
 (
-mTransform
+GetEffectiveTransform
+(
+)
 )
 ;
 program
