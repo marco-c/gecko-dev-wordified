@@ -575,6 +575,16 @@ zoomValues
 "
 )
 ;
+pref
+(
+"
+zoom
+.
+dpiScale
+"
+150
+)
+;
 /
 *
 use
