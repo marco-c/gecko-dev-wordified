@@ -4466,9 +4466,12 @@ JSAtom
 atom
 uint32
 slot
-uint32
-*
-indexp
+js
+:
+:
+UpvarCookie
+&
+cooke
 )
 ;
 bool

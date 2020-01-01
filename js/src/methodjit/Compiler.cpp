@@ -1509,7 +1509,7 @@ masm
 .
 storeValue
 (
-UndefinedTag
+UndefinedValue
 (
 )
 local
@@ -3396,7 +3396,7 @@ frame
 .
 push
 (
-UndefinedTag
+UndefinedValue
 (
 )
 )
@@ -4276,7 +4276,7 @@ push
 (
 Value
 (
-BooleanTag
+BooleanValue
 (
 result
 )
@@ -4681,7 +4681,7 @@ frame
 .
 push
 (
-Int32Tag
+Int32Value
 (
 i
 )
@@ -4770,7 +4770,7 @@ frame
 .
 push
 (
-DoubleTag
+DoubleValue
 (
 d
 )
@@ -4831,7 +4831,7 @@ frame
 .
 push
 (
-UndefinedTag
+UndefinedValue
 (
 )
 )
@@ -5490,7 +5490,7 @@ getConst
 index
 )
 .
-asDouble
+toDouble
 (
 )
 ;
@@ -5500,7 +5500,7 @@ push
 (
 Value
 (
-DoubleTag
+DoubleValue
 (
 d
 )
@@ -5547,7 +5547,7 @@ push
 (
 Value
 (
-StringTag
+StringValue
 (
 str
 )
@@ -5603,7 +5603,7 @@ frame
 .
 push
 (
-NullTag
+NullValue
 (
 )
 )
@@ -5634,7 +5634,7 @@ push
 (
 Value
 (
-BooleanTag
+BooleanValue
 (
 false
 )
@@ -5655,7 +5655,7 @@ push
 (
 Value
 (
-BooleanTag
+BooleanValue
 (
 true
 )
@@ -6223,7 +6223,7 @@ frame
 .
 push
 (
-NullTag
+NullValue
 (
 )
 )
@@ -6411,7 +6411,7 @@ push
 (
 Value
 (
-Int32Tag
+Int32Value
 (
 (
 int32_t
@@ -7587,7 +7587,7 @@ frame
 .
 push
 (
-NullTag
+NullValue
 (
 )
 )
@@ -7826,7 +7826,7 @@ frame
 .
 push
 (
-NullTag
+NullValue
 (
 )
 )
@@ -8014,6 +8014,10 @@ vector
 [
 index
 ]
+.
+asInteger
+(
+)
 )
 Registers
 :
@@ -8054,7 +8058,7 @@ frame
 .
 push
 (
-NullTag
+NullValue
 (
 )
 )
@@ -8074,7 +8078,7 @@ push
 (
 Value
 (
-Int32Tag
+Int32Value
 (
 (
 int32_t
@@ -8392,7 +8396,7 @@ frame
 .
 push
 (
-NullTag
+NullValue
 (
 )
 )
@@ -8411,7 +8415,7 @@ push
 (
 Value
 (
-Int32Tag
+Int32Value
 (
 GET_INT8
 (
@@ -8435,7 +8439,7 @@ push
 (
 Value
 (
-Int32Tag
+Int32Value
 (
 GET_INT32
 (
@@ -8936,7 +8940,7 @@ frame
 .
 push
 (
-NullTag
+NullValue
 (
 )
 )
@@ -10022,20 +10026,24 @@ argsObj
 =
 masm
 .
-testObject
+branchPtr
 (
 Assembler
 :
 :
-Equal
+NotEqual
 Address
 (
 JSFrameReg
 offsetof
 (
 JSStackFrame
-argsval
+argsobj
 )
+)
+ImmIntPtr
+(
+0
 )
 )
 ;
@@ -11800,12 +11808,12 @@ js_CompareStrings
 (
 lhs
 .
-asString
+toString
 (
 )
 rhs
 .
-asString
+toString
 (
 )
 )
@@ -12460,7 +12468,7 @@ getValue
 (
 )
 .
-asString
+toString
 (
 )
 ;
@@ -16950,7 +16958,7 @@ frame
 .
 push
 (
-Int32Tag
+Int32Value
 (
 amt
 )
@@ -17071,7 +17079,7 @@ frame
 .
 push
 (
-Int32Tag
+Int32Value
 (
 -
 amt
@@ -18161,7 +18169,7 @@ frame
 .
 push
 (
-ObjectTag
+ObjectValue
 (
 *
 globalObj
@@ -18335,7 +18343,7 @@ getValue
 (
 )
 .
-asObject
+toObject
 (
 )
 ;
@@ -18860,7 +18868,7 @@ getValue
 (
 )
 .
-asObject
+toObject
 (
 )
 ;
@@ -19974,14 +19982,7 @@ obj
 offsetof
 (
 JSObject
-fslots
-)
-+
-JSSLOT_PROTO
-*
-sizeof
-(
-Value
+proto
 )
 )
 ;

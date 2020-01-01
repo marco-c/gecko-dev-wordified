@@ -759,7 +759,7 @@ runtime
 >
 negativeInfinityValue
 .
-asDouble
+toDouble
 (
 )
 ;
@@ -774,7 +774,7 @@ runtime
 >
 positiveInfinityValue
 .
-asDouble
+toDouble
 (
 )
 ;
@@ -1050,7 +1050,7 @@ getValue
 (
 )
 .
-asInt32
+toInt32
 (
 )
 )
@@ -1150,7 +1150,7 @@ getValue
 (
 )
 .
-asInt32
+toInt32
 (
 )
 )
@@ -1553,7 +1553,7 @@ getValue
 (
 )
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -1569,7 +1569,7 @@ getValue
 (
 )
 .
-asDouble
+toDouble
 (
 )
 ;

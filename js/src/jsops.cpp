@@ -4851,9 +4851,7 @@ PUSH_OBJECT
 fp
 -
 >
-scopeChainObj
-(
-)
+scopeChain
 -
 >
 getGlobal
@@ -9501,9 +9499,7 @@ obj
 fp
 -
 >
-scopeChainObj
-(
-)
+scopeChain
 -
 >
 getGlobal
@@ -11505,9 +11501,7 @@ obj
 fp
 -
 >
-scopeChainObj
-(
-)
+scopeChain
 -
 >
 getGlobal
@@ -14622,7 +14616,7 @@ vp
 1
 ]
 .
-asObject
+toObject
 (
 )
 )
@@ -15129,9 +15123,7 @@ scope
 newfp
 -
 >
-scopeChainObj
-(
-)
+scopeChain
 ;
 mjit
 :
@@ -18524,9 +18516,7 @@ obj
 fp
 -
 >
-scopeChainObj
-(
-)
+scopeChain
 -
 >
 getGlobal
@@ -18598,7 +18588,7 @@ sp
 1
 ]
 .
-asObject
+toObject
 (
 )
 &
@@ -18640,9 +18630,7 @@ obj
 fp
 -
 >
-scopeChainObj
-(
-)
+scopeChain
 -
 >
 getGlobal
@@ -18765,9 +18753,7 @@ obj
 fp
 -
 >
-scopeChainObj
-(
-)
+scopeChain
 -
 >
 getGlobal

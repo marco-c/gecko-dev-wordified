@@ -8540,15 +8540,10 @@ fp
 -
 >
 fun
-&
 fp
 -
 >
 scopeChain
-.
-asObject
-(
-)
 )
 ;
 /
