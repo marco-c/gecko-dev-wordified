@@ -4259,14 +4259,6 @@ return
 mCycleCollectionContext
 ;
 }
-unsigned
-GetOutstandingRequests
-(
-JSContext
-*
-cx
-)
-;
 /
 /
 This

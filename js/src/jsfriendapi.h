@@ -3528,9 +3528,9 @@ cx
 ;
 JS_FRIEND_API
 (
-unsigned
+bool
 )
-GetContextOutstandingRequests
+ContextHasOutstandingRequests
 (
 const
 JSContext
