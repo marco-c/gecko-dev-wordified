@@ -6797,7 +6797,7 @@ left
 )
 {
 let
-isClosed
+isClose
 =
 Math
 .
@@ -6840,8 +6840,7 @@ kDistanceMax
 ;
 if
 (
-!
-isClosed
+isClose
 )
 {
 let
