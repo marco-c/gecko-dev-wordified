@@ -1271,12 +1271,6 @@ aIID
 )
 const
 ;
-PRBool
-ShouldBuildChildFrames
-(
-)
-const
-;
 nsresult
 AddResourceListener
 (

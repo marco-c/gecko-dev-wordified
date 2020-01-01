@@ -1405,14 +1405,6 @@ void
 aResult
 )
 ;
-PRBool
-ShouldBuildChildFrames
-(
-nsIContent
-*
-aContent
-)
-;
 /
 /
 Style
