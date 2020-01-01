@@ -690,7 +690,7 @@ PRFuncPtr
 *
 )
 &
-xDeleteContext
+xDestroyContext
 {
 "
 glXDestroyContext
@@ -1524,7 +1524,7 @@ MarkDestroyed
 ;
 sGLXLibrary
 .
-xDeleteContext
+xDestroyContext
 (
 mDisplay
 mContext
