@@ -3804,7 +3804,7 @@ if
 mir
 -
 >
-canBeDividebyZero
+canBeDivideByZero
 (
 )
 |
