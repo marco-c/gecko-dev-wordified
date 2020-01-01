@@ -886,7 +886,7 @@ ANDROID
 |
 defined
 (
-XP_UNIX
+__linux__
 )
 |
 |
