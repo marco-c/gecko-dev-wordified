@@ -445,7 +445,7 @@ GetGlobalJSObject
 ;
 mJSProtoObject
 =
-xpc_NewSystemInheritingJSObject
+JS_NewObjectWithUniqueType
 (
 ccx
 js
@@ -455,13 +455,11 @@ Jsvalify
 (
 jsclazz
 )
-mScope
--
->
-GetPrototypeJSObject
+JS_GetObjectPrototype
 (
+ccx
+parent
 )
-true
 parent
 )
 ;
