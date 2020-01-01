@@ -1336,6 +1336,11 @@ GetFontSubstitutes
 (
 )
 ;
+void
+GetDirectWriteSubstitutes
+(
+)
+;
 /
 *
 *
