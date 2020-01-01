@@ -3689,7 +3689,7 @@ appModelID
 L
 "
 "
-AO_NONE
+AO_NOSPLASHSCREEN
 &
 processID
 )
