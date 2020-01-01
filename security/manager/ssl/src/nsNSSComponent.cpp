@@ -159,6 +159,13 @@ Preferences
 h
 "
 #
+include
+"
+nsThreadUtils
+.
+h
+"
+#
 ifndef
 MOZ_DISABLE_CRYPTOLEGACY
 #

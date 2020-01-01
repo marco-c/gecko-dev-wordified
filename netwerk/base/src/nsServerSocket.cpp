@@ -138,6 +138,13 @@ h
 #
 include
 "
+nsThreadUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
