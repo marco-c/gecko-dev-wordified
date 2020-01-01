@@ -1121,6 +1121,13 @@ aProxyEntry
 .
 mStretch
 ;
+fe
+-
+>
+mIsUserFont
+=
+true
+;
 }
 return
 fe

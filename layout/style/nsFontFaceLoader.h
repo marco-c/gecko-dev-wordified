@@ -475,12 +475,10 @@ aStatus
 NS_OK
 )
 ;
+virtual
 nsresult
 CheckFontLoad
 (
-gfxProxyFontEntry
-*
-aFontToLoad
 const
 gfxFontFaceSrc
 *
