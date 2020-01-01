@@ -3438,9 +3438,9 @@ return
 JS_TRUE
 ;
 JSBool
-oom
+early_ok
 =
-JS_FALSE
+JS_TRUE
 ;
 /
 /
@@ -3499,7 +3499,7 @@ statep
 JSON_PARSE_STATE_KEYWORD
 )
 {
-oom
+early_ok
 =
 HandleData
 (
@@ -3511,7 +3511,7 @@ JSON_DATA_KEYWORD
 if
 (
 !
-oom
+early_ok
 )
 PopState
 (
@@ -3533,7 +3533,7 @@ statep
 JSON_PARSE_STATE_NUMBER
 )
 {
-oom
+early_ok
 =
 HandleData
 (
@@ -3545,7 +3545,7 @@ JSON_DATA_NUMBER
 if
 (
 !
-oom
+early_ok
 )
 PopState
 (
@@ -3632,7 +3632,8 @@ jp
 ;
 if
 (
-oom
+!
+early_ok
 )
 return
 JS_FALSE
