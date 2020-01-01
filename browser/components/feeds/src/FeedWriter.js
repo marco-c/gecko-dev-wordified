@@ -2563,6 +2563,10 @@ createDocumentFragment
 body
 )
 ;
+if
+(
+docFragment
+)
 body
 .
 appendChild
