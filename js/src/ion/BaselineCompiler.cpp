@@ -294,7 +294,7 @@ compile
 {
 IonSpew
 (
-IonSpew_Scripts
+IonSpew_BaselineScripts
 "
 Baseline
 compiling
@@ -332,7 +332,7 @@ needsArgsObj
 {
 IonSpew
 (
-IonSpew_Abort
+IonSpew_BaselineAbort
 "
 Script
 needs
@@ -480,7 +480,7 @@ baselineScript
 ;
 IonSpew
 (
-IonSpew_Codegen
+IonSpew_BaselineScripts
 "
 Created
 BaselineScript
@@ -1229,7 +1229,7 @@ pc
 ;
 IonSpew
 (
-IonSpew_Scripts
+IonSpew_BaselineOp
 "
 Compiling
 op
@@ -1355,7 +1355,7 @@ break
 ;
 IonSpew
 (
-IonSpew_Abort
+IonSpew_BaselineAbort
 "
 Unhandled
 op
