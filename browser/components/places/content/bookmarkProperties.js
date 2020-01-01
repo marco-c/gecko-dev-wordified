@@ -4131,7 +4131,7 @@ this
 .
 _microsummaries
 =
-PlacesUIUtils
+PlacesUtils
 .
 microsummaries
 .
@@ -4298,7 +4298,7 @@ _action
 ACTION_EDIT
 &
 &
-PlacesUIUtils
+PlacesUtils
 .
 microsummaries
 .
@@ -5081,7 +5081,7 @@ value
 var
 uri
 =
-PlacesUIUtils
+PlacesUtils
 .
 createFixedURI
 (
@@ -5133,7 +5133,7 @@ aNewTitle
 )
 {
 return
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -5613,7 +5613,7 @@ transactions
 .
 push
 (
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -5647,7 +5647,7 @@ location
 var
 url
 =
-PlacesUIUtils
+PlacesUtils
 .
 createFixedURI
 (
@@ -5679,7 +5679,7 @@ transactions
 .
 push
 (
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -5722,7 +5722,7 @@ transactions
 .
 push
 (
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -5822,7 +5822,7 @@ newMicrosummary
 null
 &
 &
-PlacesUIUtils
+PlacesUtils
 .
 microsummaries
 .
@@ -5841,7 +5841,7 @@ null
 &
 &
 !
-PlacesUIUtils
+PlacesUtils
 .
 microsummaries
 .
@@ -5857,7 +5857,7 @@ transactions
 .
 push
 (
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -5902,7 +5902,7 @@ transactions
 .
 push
 (
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -5943,7 +5943,7 @@ value
 var
 feedURI
 =
-PlacesUIUtils
+PlacesUtils
 .
 createFixedURI
 (
@@ -5967,7 +5967,7 @@ transactions
 .
 push
 (
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -6019,7 +6019,7 @@ newSiteURIString
 )
 newSiteURI
 =
-PlacesUIUtils
+PlacesUtils
 .
 createFixedURI
 (
@@ -6067,7 +6067,7 @@ transactions
 .
 push
 (
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -6132,7 +6132,7 @@ true
 var
 aggregate
 =
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -6146,7 +6146,7 @@ _getDialogTitle
 transactions
 )
 ;
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -6308,7 +6308,7 @@ aIndex
 var
 uri
 =
-PlacesUIUtils
+PlacesUtils
 .
 createFixedURI
 (
@@ -6449,7 +6449,7 @@ childTransactions
 .
 push
 (
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -6473,7 +6473,7 @@ childTransactions
 .
 push
 (
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -6492,7 +6492,7 @@ var
 transactions
 =
 [
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -6509,7 +6509,7 @@ childTransactions
 ]
 ;
 return
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -6605,7 +6605,7 @@ transactions
 .
 push
 (
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -6729,7 +6729,7 @@ description
 )
 ;
 return
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -6798,7 +6798,7 @@ value
 var
 feedURI
 =
-PlacesUIUtils
+PlacesUtils
 .
 createFixedURI
 (
@@ -6830,7 +6830,7 @@ siteURIString
 )
 siteURI
 =
-PlacesUIUtils
+PlacesUtils
 .
 createFixedURI
 (
@@ -6852,7 +6852,7 @@ namePicker
 value
 ;
 return
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -7040,7 +7040,7 @@ performed
 =
 true
 ;
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -7279,7 +7279,7 @@ folder
 =
 "
 +
-PlacesUIUtils
+PlacesUtils
 .
 allBookmarksFolderId
 ;

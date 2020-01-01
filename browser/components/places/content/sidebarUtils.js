@@ -718,7 +718,7 @@ row
 value
 )
 ;
-PlacesUIUtils
+PlacesUtils
 .
 openNodeWithEvent
 (
@@ -749,7 +749,7 @@ KeyEvent
 .
 DOM_VK_RETURN
 )
-PlacesUIUtils
+PlacesUtils
 .
 openNodeWithEvent
 (
