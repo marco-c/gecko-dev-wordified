@@ -1726,6 +1726,11 @@ cb
 nsISupports
 *
 closure
+size_t
+*
+rtTotal
+=
+NULL
 )
 ;
 /
