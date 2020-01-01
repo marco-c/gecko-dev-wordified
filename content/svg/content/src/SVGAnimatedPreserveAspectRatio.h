@@ -161,6 +161,7 @@ mozilla
 {
 class
 SVGAnimatedPreserveAspectRatio
+MOZ_FINAL
 {
 public
 :
@@ -265,7 +266,13 @@ SetBaseValue
 (
 SVGPreserveAspectRatio
 (
+static_cast
+<
+SVGAlign
+>
+(
 aAlign
+)
 mBaseVal
 .
 GetMeetOrSlice
@@ -319,7 +326,13 @@ mBaseVal
 GetAlign
 (
 )
+static_cast
+<
+SVGMeetOrSlice
+>
+(
 aMeetOrSlice
+)
 mBaseVal
 .
 GetDefer
