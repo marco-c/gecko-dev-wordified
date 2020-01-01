@@ -655,13 +655,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLDocument
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLElement
 .
 h

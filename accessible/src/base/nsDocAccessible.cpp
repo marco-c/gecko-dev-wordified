@@ -556,13 +556,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLDocument
-.
-h
-"
-#
-include
-"
 nsIDOMXULDocument
 .
 h

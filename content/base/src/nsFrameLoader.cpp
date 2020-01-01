@@ -765,7 +765,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 h
 "
@@ -4867,7 +4867,7 @@ presShell
 {
 nsCOMPtr
 <
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 >
 doc
 =
@@ -5006,7 +5006,7 @@ else
 /
 Re
 -
-initialie
+initialize
 the
 presentation
 for
