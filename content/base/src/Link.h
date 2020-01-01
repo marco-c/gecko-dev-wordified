@@ -675,6 +675,17 @@ return
 uri
 ;
 }
+nsIURI
+*
+GetCachedURI
+(
+)
+const
+{
+return
+mCachedURI
+;
+}
 bool
 HasCachedURI
 (
