@@ -3460,9 +3460,9 @@ value
 with
 setPrivateX
 to
-only
 read
-with
+only
+using
 getPrivateX
 .
 *

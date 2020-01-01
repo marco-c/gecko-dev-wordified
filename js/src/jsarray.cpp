@@ -6888,7 +6888,6 @@ a
 brief
 moment
 the
-class
 object
 has
 NULL
@@ -11242,8 +11241,10 @@ return
 JS_TRUE
 ;
 }
-static
 JSBool
+js
+:
+:
 array_sort
 (
 JSContext
