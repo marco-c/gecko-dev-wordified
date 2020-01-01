@@ -565,6 +565,10 @@ IndexInfo
 (
 )
 :
+id
+(
+LL_MININT
+)
 unique
 (
 false
@@ -575,6 +579,9 @@ false
 )
 {
 }
+PRInt64
+id
+;
 nsString
 name
 ;
