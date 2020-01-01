@@ -1043,8 +1043,8 @@ diff
 -
 u
 "
-filtered_name
 expected_name
+filtered_name
 ]
                           
 stdout
