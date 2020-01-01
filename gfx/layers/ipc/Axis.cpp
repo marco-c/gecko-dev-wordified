@@ -136,6 +136,13 @@ h
 "
 #
 include
+"
+nsThreadUtils
+.
+h
+"
+#
+include
 <
 algorithm
 >
