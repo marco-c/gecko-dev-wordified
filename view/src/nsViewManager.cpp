@@ -6084,6 +6084,12 @@ NS_IS_PLUGIN_EVENT
 (
 aEvent
 )
+|
+|
+NS_IS_NON_RETARGETED_PLUGIN_EVENT
+(
+aEvent
+)
 )
 {
 gLastUserEventTime
