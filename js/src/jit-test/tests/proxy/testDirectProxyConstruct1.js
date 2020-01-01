@@ -32,7 +32,6 @@ obj
 =
 new
 (
-new
 Proxy
 (
 target

@@ -12,7 +12,6 @@ not
 defined
 assertEq
 (
-new
 Proxy
 (
 {
@@ -34,7 +33,6 @@ bar
 ;
 assertEq
 (
-new
 Proxy
 (
 {

@@ -17,7 +17,6 @@ Object
 .
 getOwnPropertyNames
 (
-new
 Proxy
 (
 Object

@@ -13,7 +13,6 @@ defined
 var
 proxy
 =
-new
 Proxy
 (
 Object

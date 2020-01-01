@@ -20,7 +20,6 @@ Object
 .
 defineProperty
 (
-new
 Proxy
 (
 target

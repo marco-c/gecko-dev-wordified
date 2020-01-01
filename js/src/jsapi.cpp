@@ -9634,10 +9634,15 @@ ParallelArray
 endif
 {
 js_InitProxyClass
-EAGER_ATOM_AND_CLASP
+EAGER_CLASS_ATOM
 (
 Proxy
 )
+&
+js
+:
+:
+ObjectProxyClass
 }
 #
 if
@@ -10341,6 +10346,9 @@ EAGER_ATOM
 #
 undef
 EAGER_CLASS_ATOM
+#
+undef
+EAGER_ATOM_CLASP
 #
 undef
 EAGER_ATOM_AND_CLASP
