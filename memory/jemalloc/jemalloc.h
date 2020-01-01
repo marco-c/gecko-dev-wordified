@@ -765,6 +765,8 @@ MOZ_MEMORY_LINUX
 Linux
 has
 memalign
+and
+malloc_usable_size
 *
 /
 #
@@ -784,13 +786,6 @@ size_t
 size
 )
 ;
-#
-endif
-/
-*
-MOZ_MEMORY_LINUX
-*
-/
 size_t
 malloc_usable_size
 (
@@ -800,6 +795,13 @@ void
 ptr
 )
 ;
+#
+endif
+/
+*
+MOZ_MEMORY_LINUX
+*
+/
 void
 jemalloc_stats
 (
