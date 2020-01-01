@@ -12356,8 +12356,6 @@ IsRootContentDocument
 )
 )
 ;
-#
-endif
 if
 (
 ShouldBuildLayer
@@ -12443,6 +12441,8 @@ layerItem
 ;
 }
 else
+#
+endif
 {
 rv
 =
