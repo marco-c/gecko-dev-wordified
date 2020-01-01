@@ -710,6 +710,7 @@ path
 enable
 expect
 random
+slow
 )
 :
         
@@ -774,6 +775,22 @@ as
 '
 random
 '
+        
+self
+.
+slow
+=
+slow
+#
+bool
+:
+True
+=
+>
+test
+may
+run
+slowly
     
 def
 __str__
@@ -827,6 +844,19 @@ ans
 =
 '
 random
+'
+        
+if
+self
+.
+slow
+:
+            
+ans
++
+=
+'
+slow
 '
         
 return
