@@ -5524,6 +5524,10 @@ mOldBaseOffset
 (
 0
 )
+mOldBasePosition
+(
+0
+)
 mPlaybackRateChangeOffset
 (
 0
@@ -5591,6 +5595,10 @@ mPlaybackRate
 1
 .
 0
+;
+mOldOutRate
+=
+mOutRate
 ;
 }
 void
