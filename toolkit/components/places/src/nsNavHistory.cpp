@@ -6757,6 +6757,13 @@ rv
 )
 )
 {
+mozStorageTransaction
+transaction
+(
+mDBConn
+PR_FALSE
+)
+;
 /
 /
 1
@@ -7290,6 +7297,12 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
+)
+;
+transaction
+.
+Commit
+(
 )
 ;
 }
