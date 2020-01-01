@@ -478,10 +478,8 @@ JSContext
 cx
 JSHandleObject
 obj
-const
-jsval
-*
-v
+JSMutableHandleValue
+vp
 JSBool
 *
 bp
@@ -496,9 +494,7 @@ JSContext
 cx
 JSHandleObject
 obj
-const
-jsval
-*
+JSHandleValue
 v
 JSBool
 *

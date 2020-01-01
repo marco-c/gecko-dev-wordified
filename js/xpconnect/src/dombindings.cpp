@@ -1508,12 +1508,7 @@ JSContext
 cx
 JSHandleObject
 obj
-const
-JS
-:
-:
-Value
-*
+JSMutableHandleValue
 vp
 JSBool
 *
@@ -1523,8 +1518,7 @@ bp
 if
 (
 vp
--
->
+.
 isObject
 (
 )
@@ -1571,8 +1565,7 @@ other
 =
 &
 vp
--
->
+.
 toObject
 (
 )

@@ -2989,8 +2989,7 @@ JSHandleId
 id
 JSAccessMode
 mode
-jsval
-*
+JSMutableHandleValue
 vp
 )
 {
@@ -3113,7 +3112,6 @@ object
 .
 /
 /
-*
 vp
 can
 be
@@ -3138,7 +3136,6 @@ target
 =
 JSVAL_IS_PRIMITIVE
 (
-*
 vp
 )
 ?
@@ -3146,7 +3143,6 @@ obj
 :
 JSVAL_TO_OBJECT
 (
-*
 vp
 )
 ;

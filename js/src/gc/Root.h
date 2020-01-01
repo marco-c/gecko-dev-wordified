@@ -1667,6 +1667,13 @@ Value
 >
 MutableHandleValue
 ;
+typedef
+MutableHandle
+<
+jsid
+>
+MutableHandleId
+;
 /
 *
 *
@@ -1697,6 +1704,10 @@ typedef
 JSString
 *
 RawString
+;
+typedef
+Value
+RawValue
 ;
 extern
 mozilla

@@ -793,11 +793,12 @@ enum_op
 js
 :
 :
-Value
-*
+MutableHandleValue
 statep
-jsid
-*
+js
+:
+:
+MutableHandleId
 idp
 )
 ;
