@@ -8656,7 +8656,7 @@ createItem
 uri
 PlacesUtils
 .
-bookmarksRootId
+bookmarksMenuFolderId
 -
 1
 title
