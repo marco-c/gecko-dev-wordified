@@ -292,13 +292,6 @@ Nursery
 struct
 StackShape
 ;
-namespace
-mjit
-{
-class
-Compiler
-;
-}
 inline
 JSObject
 *
