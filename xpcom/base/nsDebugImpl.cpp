@@ -1885,6 +1885,9 @@ RealBreak
 ;
 #
 endif
+#
+ifdef
+DEBUG
 nsTraceRefcntImpl
 :
 :
@@ -1893,6 +1896,8 @@ WalkTheStack
 stderr
 )
 ;
+#
+endif
 Abort
 (
 buf
