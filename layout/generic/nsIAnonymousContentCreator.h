@@ -465,6 +465,14 @@ nsPresContext
 class
 nsIFrame
 ;
+template
+<
+class
+T
+>
+class
+nsTArray
+;
 /
 /
 {
