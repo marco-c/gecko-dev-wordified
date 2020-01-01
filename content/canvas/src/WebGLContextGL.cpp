@@ -2616,7 +2616,7 @@ isValid
 )
 )
 return
-ErrorInvalidOperation
+ErrorInvalidValue
 (
 "
 bufferSubData
@@ -2647,7 +2647,7 @@ ByteLength
 )
 )
 return
-ErrorInvalidOperation
+ErrorInvalidValue
 (
 "
 bufferSubData
@@ -2858,7 +2858,7 @@ isValid
 )
 )
 return
-ErrorInvalidOperation
+ErrorInvalidValue
 (
 "
 bufferSubData
@@ -2889,7 +2889,7 @@ ByteLength
 )
 )
 return
-ErrorInvalidOperation
+ErrorInvalidValue
 (
 "
 bufferSubData
