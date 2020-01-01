@@ -2418,7 +2418,7 @@ pAsyncOp
 >
 SetAsyncMode
 (
-TRUE
+VARIANT_TRUE
 )
 ;
 }

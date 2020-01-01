@@ -1660,6 +1660,18 @@ FE
 ;
 virtual
 HRESULT
+GetFile
+(
+FORMATETC
+&
+aFE
+STGMEDIUM
+&
+aSTG
+)
+;
+virtual
+HRESULT
 GetText
 (
 const
@@ -2053,7 +2065,7 @@ counts
 CEnumFormatEtc
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mCachedTempFile
 ;
