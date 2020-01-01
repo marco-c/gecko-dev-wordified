@@ -80,11 +80,7 @@ MPL
 import
 sys
 os
-.
-path
-re
 xpidl
-itertools
 #
 -
 -
@@ -2264,6 +2260,8 @@ attribute
 defvalue
         
 raise
+xpidl
+.
 IDLError
 (
 "

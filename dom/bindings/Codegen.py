@@ -59,15 +59,21 @@ codegen
 classes
 .
 import
+operator
+import
 os
 import
-string
+re
 import
-operator
+string
 from
 WebIDL
 import
-*
+BuiltinTypes
+IDLBuiltinType
+IDLNullValue
+IDLSequenceType
+IDLType
 from
 Configuration
 import
@@ -8444,15 +8450,6 @@ prefableSpecs
 [
 ]
         
-if
-doIdArrays
-:
-            
-prefableIds
-=
-[
-]
-        
 prefableTemplate
 =
 '
@@ -8545,14 +8542,8 @@ new
 sets
 of
 specs
-and
-ids
-            
-#
 inside
 prefableSpecs
-and
-prefableIds
             
 prefableSpecs
 .
@@ -45319,15 +45310,6 @@ signatures
 [
 0
 ]
-        
-extendedAttributes
-=
-descriptor
-.
-getExtendedAttributes
-(
-operation
-)
         
 (
 returnType
