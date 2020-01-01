@@ -3781,6 +3781,13 @@ script
 =
 wscript
 ;
+js_CallNewScriptHook
+(
+cx
+wscript
+wfun
+)
+;
 return
 wfunobj
 ;
@@ -17871,6 +17878,13 @@ i
 script
 =
 script
+;
+js_CallNewScriptHook
+(
+cx
+script
+fun
+)
 ;
 if
 (
