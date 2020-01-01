@@ -103,6 +103,15 @@ mozilla
 .
 gecko
 .
+DataReportingNotification
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 background
 .
 announcements
