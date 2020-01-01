@@ -956,7 +956,7 @@ API
 /
 /
 *
-nsICanvasFloatArray
+nsIWebGLFloatArray
 createFloatArray
 (
 )
@@ -969,7 +969,7 @@ WebGLContext
 :
 CreateFloatArray
 (
-nsICanvasFloatArray
+nsIWebGLFloatArray
 *
 *
 retval
@@ -1089,7 +1089,7 @@ NS_OK
 }
 /
 *
-nsICanvasByteArray
+nsIWebGLByteArray
 createByteArray
 (
 )
@@ -1102,7 +1102,7 @@ WebGLContext
 :
 CreateByteArray
 (
-nsICanvasByteArray
+nsIWebGLByteArray
 *
 *
 retval
@@ -1222,7 +1222,7 @@ NS_OK
 }
 /
 *
-nsICanvasUnsignedByteArray
+nsIWebGLUnsignedByteArray
 createUnsignedByteArray
 (
 )
@@ -1235,7 +1235,7 @@ WebGLContext
 :
 CreateUnsignedByteArray
 (
-nsICanvasUnsignedByteArray
+nsIWebGLUnsignedByteArray
 *
 *
 retval
@@ -1355,7 +1355,7 @@ NS_OK
 }
 /
 *
-nsICanvasShortArray
+nsIWebGLShortArray
 createShortArray
 (
 )
@@ -1368,7 +1368,7 @@ WebGLContext
 :
 CreateShortArray
 (
-nsICanvasShortArray
+nsIWebGLShortArray
 *
 *
 retval
@@ -1488,7 +1488,7 @@ NS_OK
 }
 /
 *
-nsICanvasUnsignedShortArray
+nsIWebGLUnsignedShortArray
 createUnsignedShortArray
 (
 )
@@ -1501,7 +1501,7 @@ WebGLContext
 :
 CreateUnsignedShortArray
 (
-nsICanvasUnsignedShortArray
+nsIWebGLUnsignedShortArray
 *
 *
 retval
@@ -1621,7 +1621,7 @@ NS_OK
 }
 /
 *
-nsICanvasUnsignedIntArray
+nsIWebGLUnsignedIntArray
 createUnsignedIntArray
 (
 )
@@ -1634,7 +1634,7 @@ WebGLContext
 :
 CreateIntArray
 (
-nsICanvasIntArray
+nsIWebGLIntArray
 *
 *
 retval
@@ -1754,7 +1754,7 @@ NS_OK
 }
 /
 *
-nsICanvasUnsignedIntArray
+nsIWebGLUnsignedIntArray
 createUnsignedIntArray
 (
 )
@@ -1767,7 +1767,7 @@ WebGLContext
 :
 CreateUnsignedIntArray
 (
-nsICanvasUnsignedIntArray
+nsIWebGLUnsignedIntArray
 *
 *
 retval
@@ -2980,7 +2980,7 @@ in
 GLenum
 target
 in
-nsICanvasArray
+nsIWebGLArray
 data
 in
 GLenum
@@ -2996,7 +2996,7 @@ in
 GLenum
 target
 in
-nsICanvasArrayBuffer
+nsIWebGLArrayBuffer
 data
 in
 GLenum
@@ -3274,7 +3274,7 @@ argv
 {
 nsCOMPtr
 <
-nsICanvasArray
+nsIWebGLArray
 >
 canvasArrayObj
 ;
@@ -3307,7 +3307,7 @@ argv
 )
 NS_GET_IID
 (
-nsICanvasArray
+nsIWebGLArray
 )
 getter_AddRefs
 (
@@ -3329,7 +3329,7 @@ canvasArrayObj
 {
 nsCOMPtr
 <
-nsICanvasArrayBuffer
+nsIWebGLArrayBuffer
 >
 arrayBuf
 ;
@@ -3359,7 +3359,7 @@ argv
 )
 NS_GET_IID
 (
-nsICanvasArrayBuffer
+nsIWebGLArrayBuffer
 )
 getter_AddRefs
 (
@@ -3709,7 +3709,7 @@ argv
 {
 nsCOMPtr
 <
-nsICanvasArray
+nsIWebGLArray
 >
 canvasArrayObj
 ;
@@ -3742,7 +3742,7 @@ argv
 )
 NS_GET_IID
 (
-nsICanvasArray
+nsIWebGLArray
 )
 getter_AddRefs
 (
@@ -3764,7 +3764,7 @@ canvasArrayObj
 {
 nsCOMPtr
 <
-nsICanvasArrayBuffer
+nsIWebGLArrayBuffer
 >
 arrayBuf
 ;
@@ -3794,7 +3794,7 @@ argv
 )
 NS_GET_IID
 (
-nsICanvasArrayBuffer
+nsIWebGLArrayBuffer
 )
 getter_AddRefs
 (
@@ -12694,7 +12694,7 @@ name
 (
 GLint
 idx
-nsICanvasArray
+nsIWebGLArray
 *
 v
 )
@@ -13131,7 +13131,7 @@ name
 (
 GLuint
 idx
-nsICanvasArray
+nsIWebGLArray
 *
 v
 )
@@ -13564,7 +13564,7 @@ GLint
 location
 GLboolean
 transpose
-nsICanvasArray
+nsIWebGLArray
 *
 value
 )
@@ -16386,7 +16386,7 @@ NS_ERROR_DOM_SYNTAX_ERR
 }
 nsCOMPtr
 <
-nsICanvasArray
+nsIWebGLArray
 >
 arrayObj
 ;
@@ -17437,7 +17437,7 @@ NS_ERROR_DOM_SYNTAX_ERR
 }
 nsCOMPtr
 <
-nsICanvasArray
+nsIWebGLArray
 >
 arrayObj
 ;

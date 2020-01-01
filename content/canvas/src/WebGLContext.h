@@ -1821,7 +1821,7 @@ mName
 void
 Set
 (
-nsICanvasArray
+nsIWebGLArray
 *
 na
 )

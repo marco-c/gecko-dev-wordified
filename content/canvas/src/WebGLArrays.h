@@ -536,7 +536,7 @@ class
 WebGLArrayBuffer
 :
 public
-nsICanvasArrayBuffer
+nsIWebGLArrayBuffer
 public
 nsIJSNativeInitializer
 public
@@ -556,7 +556,7 @@ length
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSICANVASARRAYBUFFER
+NS_DECL_NSIWEBGLARRAYBUFFER
 NS_IMETHOD
 Initialize
 (
@@ -589,7 +589,7 @@ WebGLFloatArray
 public
 nsIXPCScriptable
 public
-nsICanvasFloatArray
+nsIWebGLFloatArray
 public
 nsIJSNativeInitializer
 {
@@ -639,8 +639,8 @@ arrayLen
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSICANVASARRAY
-NS_DECL_NSICANVASFLOATARRAY
+NS_DECL_NSIWEBGLARRAY
+NS_DECL_NSIWEBGLFLOATARRAY
 NS_DECL_NSIXPCSCRIPTABLE
 NS_IMETHOD
 Initialize
@@ -714,7 +714,7 @@ WebGLByteArray
 public
 nsIXPCScriptable
 public
-nsICanvasByteArray
+nsIWebGLByteArray
 public
 nsIJSNativeInitializer
 {
@@ -764,8 +764,8 @@ arrayLen
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSICANVASARRAY
-NS_DECL_NSICANVASBYTEARRAY
+NS_DECL_NSIWEBGLARRAY
+NS_DECL_NSIWEBGLBYTEARRAY
 NS_DECL_NSIXPCSCRIPTABLE
 NS_IMETHOD
 Initialize
@@ -839,7 +839,7 @@ WebGLUnsignedByteArray
 public
 nsIXPCScriptable
 public
-nsICanvasUnsignedByteArray
+nsIWebGLUnsignedByteArray
 public
 nsIJSNativeInitializer
 {
@@ -889,8 +889,8 @@ arrayLen
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSICANVASARRAY
-NS_DECL_NSICANVASUNSIGNEDBYTEARRAY
+NS_DECL_NSIWEBGLARRAY
+NS_DECL_NSIWEBGLUNSIGNEDBYTEARRAY
 NS_DECL_NSIXPCSCRIPTABLE
 NS_IMETHOD
 Initialize
@@ -965,7 +965,7 @@ WebGLShortArray
 public
 nsIXPCScriptable
 public
-nsICanvasShortArray
+nsIWebGLShortArray
 public
 nsIJSNativeInitializer
 {
@@ -1015,8 +1015,8 @@ arrayLen
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSICANVASARRAY
-NS_DECL_NSICANVASSHORTARRAY
+NS_DECL_NSIWEBGLARRAY
+NS_DECL_NSIWEBGLSHORTARRAY
 NS_DECL_NSIXPCSCRIPTABLE
 NS_IMETHOD
 Initialize
@@ -1090,7 +1090,7 @@ WebGLUnsignedShortArray
 public
 nsIXPCScriptable
 public
-nsICanvasUnsignedShortArray
+nsIWebGLUnsignedShortArray
 public
 nsIJSNativeInitializer
 {
@@ -1140,8 +1140,8 @@ arrayLen
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSICANVASARRAY
-NS_DECL_NSICANVASUNSIGNEDSHORTARRAY
+NS_DECL_NSIWEBGLARRAY
+NS_DECL_NSIWEBGLUNSIGNEDSHORTARRAY
 NS_DECL_NSIXPCSCRIPTABLE
 NS_IMETHOD
 Initialize
@@ -1216,7 +1216,7 @@ WebGLIntArray
 public
 nsIXPCScriptable
 public
-nsICanvasIntArray
+nsIWebGLIntArray
 public
 nsIJSNativeInitializer
 {
@@ -1266,8 +1266,8 @@ arrayLen
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSICANVASARRAY
-NS_DECL_NSICANVASINTARRAY
+NS_DECL_NSIWEBGLARRAY
+NS_DECL_NSIWEBGLINTARRAY
 NS_DECL_NSIXPCSCRIPTABLE
 NS_IMETHOD
 Initialize
@@ -1341,7 +1341,7 @@ WebGLUnsignedIntArray
 public
 nsIXPCScriptable
 public
-nsICanvasUnsignedIntArray
+nsIWebGLUnsignedIntArray
 public
 nsIJSNativeInitializer
 {
@@ -1391,8 +1391,8 @@ arrayLen
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSICANVASARRAY
-NS_DECL_NSICANVASUNSIGNEDINTARRAY
+NS_DECL_NSIWEBGLARRAY
+NS_DECL_NSIWEBGLUNSIGNEDINTARRAY
 NS_DECL_NSIXPCSCRIPTABLE
 NS_IMETHOD
 Initialize
