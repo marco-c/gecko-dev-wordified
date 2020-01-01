@@ -1154,7 +1154,6 @@ NS_OK
 constructors
 /
 /
-NS_COM
 nsresult
 NS_NewStringEnumerator
 (
@@ -1201,7 +1200,6 @@ aResult
 )
 ;
 }
-NS_COM
 nsresult
 NS_NewUTF8StringEnumerator
 (
@@ -1248,7 +1246,6 @@ aResult
 )
 ;
 }
-NS_COM
 nsresult
 NS_NewAdoptingStringEnumerator
 (
@@ -1291,7 +1288,6 @@ aResult
 )
 ;
 }
-NS_COM
 nsresult
 NS_NewAdoptingUTF8StringEnumerator
 (
@@ -1347,7 +1343,6 @@ non
 -
 const
 equivalents
-NS_COM
 nsresult
 NS_NewStringEnumerator
 (
@@ -1391,7 +1386,6 @@ aResult
 )
 ;
 }
-NS_COM
 nsresult
 NS_NewUTF8StringEnumerator
 (

@@ -699,7 +699,6 @@ byte
 *
 /
 extern
-NS_COM
 nsresult
 NS_NewByteInputStream
 (
@@ -800,7 +799,6 @@ function
 *
 /
 extern
-NS_COM
 nsresult
 NS_NewStringInputStream
 (
@@ -839,7 +837,6 @@ nsISeekableStream
 *
 /
 extern
-NS_COM
 nsresult
 NS_NewCStringInputStream
 (

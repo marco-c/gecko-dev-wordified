@@ -3039,7 +3039,6 @@ failed
 if
 0
 extern
-NS_COM
 void
 TestSegmentedBuffer
 (

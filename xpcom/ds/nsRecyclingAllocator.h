@@ -642,7 +642,6 @@ class
 nsIMemory
 ;
 class
-NS_COM
 nsRecyclingAllocator
 {
 protected

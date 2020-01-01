@@ -876,7 +876,6 @@ defined
 (
 XP_WIN
 )
-NS_COM
 bool
 NS_IsMainThread
 (

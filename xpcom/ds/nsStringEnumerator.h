@@ -750,7 +750,6 @@ enumerator
 ;
 /
 /
-NS_COM
 nsresult
 NS_NewStringEnumerator
 (
@@ -771,7 +770,6 @@ nsISupports
 aOwner
 )
 ;
-NS_COM
 nsresult
 NS_NewUTF8StringEnumerator
 (
@@ -789,7 +787,6 @@ nsCString
 aArray
 )
 ;
-NS_COM
 nsresult
 NS_NewStringEnumerator
 (
@@ -899,7 +896,6 @@ result
 array
 )
 ;
-NS_COM
 nsresult
 NS_NewAdoptingStringEnumerator
 (
@@ -916,7 +912,6 @@ nsString
 aArray
 )
 ;
-NS_COM
 nsresult
 NS_NewAdoptingUTF8StringEnumerator
 (
@@ -1036,7 +1031,6 @@ this
 }
 /
 /
-NS_COM
 nsresult
 NS_NewUTF8StringEnumerator
 (

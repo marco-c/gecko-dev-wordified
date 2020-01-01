@@ -584,7 +584,6 @@ error
 /
 extern
 nsresult
-NS_COM
 NS_SetGlobalThreadObserver
 (
 nsIThreadObserver

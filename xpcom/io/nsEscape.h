@@ -673,7 +673,6 @@ on
 failure
 *
 /
-NS_COM
 char
 *
 nsEscape
@@ -686,7 +685,6 @@ nsEscapeMask
 mask
 )
 ;
-NS_COM
 char
 *
 nsUnescape
@@ -716,7 +714,6 @@ same
 buffer
 *
 /
-NS_COM
 PRInt32
 nsUnescapeCount
 (
@@ -759,7 +756,6 @@ s
 .
 *
 /
-NS_COM
 char
 *
 nsEscapeHTML
@@ -770,7 +766,6 @@ char
 string
 )
 ;
-NS_COM
 PRUnichar
 *
 nsEscapeHTML2
@@ -1166,7 +1161,6 @@ otherwise
 .
 *
 /
-NS_COM
 PRBool
 NS_EscapeURL
 (
@@ -1252,7 +1246,6 @@ otherwise
 .
 *
 /
-NS_COM
 PRBool
 NS_UnescapeURL
 (

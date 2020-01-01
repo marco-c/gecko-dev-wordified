@@ -594,7 +594,6 @@ nsnull
 ;
 \
 \
-NS_COM
 already_AddRefed
 <
 TYPE

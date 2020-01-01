@@ -754,7 +754,6 @@ return
 PR_FALSE
 ;
 }
-NS_COM
 nsresult
 NS_NewUnicharBuffer
 (

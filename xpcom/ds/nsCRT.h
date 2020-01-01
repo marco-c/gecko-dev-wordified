@@ -815,7 +815,6 @@ runtime
 functions
 .
 class
-NS_COM
 nsCRT
 {
 public

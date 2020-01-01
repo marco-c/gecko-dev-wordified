@@ -658,7 +658,6 @@ INVALID_SXP
 define
 VALID_SXP
 1
-NS_COM
 int
 NS_WildCardValid
 (
@@ -668,7 +667,6 @@ char
 expr
 )
 ;
-NS_COM
 int
 NS_WildCardValid
 (
@@ -733,7 +731,6 @@ match
 .
 *
 /
-NS_COM
 int
 NS_WildCardMatch
 (
@@ -749,7 +746,6 @@ PRBool
 case_insensitive
 )
 ;
-NS_COM
 int
 NS_WildCardMatch
 (

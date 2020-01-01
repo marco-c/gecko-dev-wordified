@@ -454,7 +454,6 @@ null
 *
 /
 extern
-NS_COM
 nsresult
 NS_NewInterfaceRequestorAggregation
 (

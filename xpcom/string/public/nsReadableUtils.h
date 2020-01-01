@@ -569,7 +569,6 @@ get
 )
 ;
 }
-NS_COM
 void
 LossyCopyUTF16toASCII
 (
@@ -583,7 +582,6 @@ aDest
 NS_OUTPARAM
 )
 ;
-NS_COM
 void
 CopyASCIItoUTF16
 (
@@ -597,7 +595,6 @@ aDest
 NS_OUTPARAM
 )
 ;
-NS_COM
 void
 LossyCopyUTF16toASCII
 (
@@ -611,7 +608,6 @@ aDest
 NS_OUTPARAM
 )
 ;
-NS_COM
 void
 CopyASCIItoUTF16
 (
@@ -625,7 +621,6 @@ aDest
 NS_OUTPARAM
 )
 ;
-NS_COM
 void
 CopyUTF16toUTF8
 (
@@ -639,7 +634,6 @@ aDest
 NS_OUTPARAM
 )
 ;
-NS_COM
 void
 CopyUTF8toUTF16
 (
@@ -653,7 +647,6 @@ aDest
 NS_OUTPARAM
 )
 ;
-NS_COM
 void
 CopyUTF16toUTF8
 (
@@ -667,7 +660,6 @@ aDest
 NS_OUTPARAM
 )
 ;
-NS_COM
 void
 CopyUTF8toUTF16
 (
@@ -681,7 +673,6 @@ aDest
 NS_OUTPARAM
 )
 ;
-NS_COM
 void
 LossyAppendUTF16toASCII
 (
@@ -694,7 +685,6 @@ nsACString
 aDest
 )
 ;
-NS_COM
 void
 AppendASCIItoUTF16
 (
@@ -707,7 +697,6 @@ nsAString
 aDest
 )
 ;
-NS_COM
 void
 LossyAppendUTF16toASCII
 (
@@ -720,7 +709,6 @@ nsACString
 aDest
 )
 ;
-NS_COM
 void
 AppendASCIItoUTF16
 (
@@ -733,7 +721,6 @@ nsAString
 aDest
 )
 ;
-NS_COM
 void
 AppendUTF16toUTF8
 (
@@ -746,7 +733,6 @@ nsACString
 aDest
 )
 ;
-NS_COM
 void
 AppendUTF8toUTF16
 (
@@ -759,7 +745,6 @@ nsAString
 aDest
 )
 ;
-NS_COM
 void
 AppendUTF16toUTF8
 (
@@ -772,7 +757,6 @@ nsACString
 aDest
 )
 ;
-NS_COM
 void
 AppendUTF8toUTF16
 (
@@ -927,7 +911,6 @@ Free
 .
 *
 /
-NS_COM
 char
 *
 ToNewCString
@@ -1036,7 +1019,6 @@ Free
 .
 *
 /
-NS_COM
 char
 *
 ToNewCString
@@ -1193,7 +1175,6 @@ Free
 .
 *
 /
-NS_COM
 char
 *
 ToNewUTF8String
@@ -1309,7 +1290,6 @@ Free
 .
 *
 /
-NS_COM
 PRUnichar
 *
 ToNewUnicode
@@ -1473,7 +1453,6 @@ Free
 .
 *
 /
-NS_COM
 PRUnichar
 *
 ToNewUnicode
@@ -1645,7 +1624,6 @@ encoded
 )
 *
 /
-NS_COM
 PRUnichar
 *
 UTF8ToNewUnicode
@@ -1758,7 +1736,6 @@ aDest
 |
 *
 /
-NS_COM
 PRUnichar
 *
 CopyUnicodeTo
@@ -1850,7 +1827,6 @@ the
 copy
 *
 /
-NS_COM
 void
 CopyUnicodeTo
 (
@@ -1935,7 +1911,6 @@ the
 copy
 *
 /
-NS_COM
 void
 AppendUnicodeTo
 (
@@ -1999,7 +1974,6 @@ to
 scan
 *
 /
-NS_COM
 PRBool
 IsASCII
 (
@@ -2050,7 +2024,6 @@ to
 scan
 *
 /
-NS_COM
 PRBool
 IsASCII
 (
@@ -2253,7 +2226,6 @@ to
 scan
 *
 /
-NS_COM
 PRBool
 IsUTF8
 (
@@ -2263,7 +2235,6 @@ nsACString
 aString
 )
 ;
-NS_COM
 PRBool
 ParseString
 (
@@ -2296,7 +2267,6 @@ string
 .
 *
 /
-NS_COM
 void
 ToUpperCase
 (
@@ -2304,7 +2274,6 @@ nsACString
 &
 )
 ;
-NS_COM
 void
 ToLowerCase
 (
@@ -2312,7 +2281,6 @@ nsACString
 &
 )
 ;
-NS_COM
 void
 ToUpperCase
 (
@@ -2320,7 +2288,6 @@ nsCSubstring
 &
 )
 ;
-NS_COM
 void
 ToLowerCase
 (
@@ -2342,7 +2309,6 @@ aDest
 .
 *
 /
-NS_COM
 void
 ToUpperCase
 (
@@ -2355,7 +2321,6 @@ nsACString
 aDest
 )
 ;
-NS_COM
 void
 ToLowerCase
 (
@@ -2479,7 +2444,6 @@ later
 .
 *
 /
-NS_COM
 PRBool
 FindInReadable
 (
@@ -2506,7 +2470,6 @@ nsDefaultStringComparator
 )
 )
 ;
-NS_COM
 PRBool
 FindInReadable
 (
@@ -2662,7 +2625,6 @@ compare
 )
 ;
 }
-NS_COM
 PRBool
 CaseInsensitiveFindInReadable
 (
@@ -2741,7 +2703,6 @@ aSearchEnd
 *
 *
 /
-NS_COM
 PRBool
 RFindInReadable
 (
@@ -2768,7 +2729,6 @@ nsDefaultStringComparator
 )
 )
 ;
-NS_COM
 PRBool
 RFindInReadable
 (
@@ -2866,7 +2826,6 @@ aSearchEnd
 .
 *
 /
-NS_COM
 PRBool
 FindCharInReadable
 (
@@ -2887,7 +2846,6 @@ const_iterator
 aSearchEnd
 )
 ;
-NS_COM
 PRBool
 FindCharInReadable
 (
@@ -2929,7 +2887,6 @@ aStr
 |
 *
 /
-NS_COM
 PRUint32
 CountCharInReadable
 (
@@ -2941,7 +2898,6 @@ PRUnichar
 aChar
 )
 ;
-NS_COM
 PRUint32
 CountCharInReadable
 (
@@ -2953,7 +2909,6 @@ char
 aChar
 )
 ;
-NS_COM
 PRBool
 StringBeginsWith
 (
@@ -2975,7 +2930,6 @@ nsDefaultStringComparator
 )
 )
 ;
-NS_COM
 PRBool
 StringBeginsWith
 (
@@ -2997,7 +2951,6 @@ nsDefaultCStringComparator
 )
 )
 ;
-NS_COM
 PRBool
 StringEndsWith
 (
@@ -3019,7 +2972,6 @@ nsDefaultStringComparator
 )
 )
 ;
-NS_COM
 PRBool
 StringEndsWith
 (
@@ -3041,7 +2993,6 @@ nsDefaultCStringComparator
 )
 )
 ;
-NS_COM
 const
 nsAFlatString
 &
@@ -3049,7 +3000,6 @@ EmptyString
 (
 )
 ;
-NS_COM
 const
 nsAFlatCString
 &
@@ -3126,7 +3076,6 @@ PR_INT32_MIN
 .
 *
 /
-NS_COM
 PRInt32
 CompareUTF8toUTF16
 (
@@ -3140,7 +3089,6 @@ nsASingleFragmentString
 aUTF16String
 )
 ;
-NS_COM
 void
 AppendUCS4ToUTF16
 (

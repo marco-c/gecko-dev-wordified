@@ -1707,7 +1707,6 @@ result
 -
 -
 -
-NS_COM
 char
 *
 nsEscape
@@ -1917,7 +1916,6 @@ NULL
 -
 -
 -
-NS_COM
 char
 *
 nsUnescape
@@ -2116,7 +2114,6 @@ str
 -
 -
 -
-NS_COM
 PRInt32
 nsUnescapeCount
 (
@@ -2452,7 +2449,6 @@ str
 NET_UnEscapeCnt
 *
 /
-NS_COM
 char
 *
 nsEscapeHTML
@@ -2863,7 +2859,6 @@ rv
 )
 ;
 }
-NS_COM
 PRUnichar
 *
 nsEscapeHTML2
@@ -3885,7 +3880,6 @@ esc_Forced
 1024
 *
 /
-NS_COM
 PRBool
 NS_EscapeURL
 (
@@ -4496,7 +4490,6 @@ hexChars
 -
 1
 )
-NS_COM
 PRBool
 NS_UnescapeURL
 (

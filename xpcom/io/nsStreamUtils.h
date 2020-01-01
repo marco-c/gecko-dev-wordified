@@ -515,7 +515,6 @@ null
 *
 /
 extern
-NS_COM
 nsresult
 NS_NewInputStreamReadyEvent
 (
@@ -624,7 +623,6 @@ null
 *
 /
 extern
-NS_COM
 nsresult
 NS_NewOutputStreamReadyEvent
 (
@@ -911,7 +909,6 @@ copying
 *
 /
 extern
-NS_COM
 nsresult
 NS_AsyncCopy
 (
@@ -1010,7 +1007,6 @@ code
 *
 /
 extern
-NS_COM
 nsresult
 NS_CancelAsyncCopy
 (
@@ -1232,7 +1228,6 @@ values
 *
 /
 extern
-NS_COM
 nsresult
 NS_ConsumeStream
 (
@@ -1352,7 +1347,6 @@ test
 *
 /
 extern
-NS_COM
 PRBool
 NS_InputStreamIsBuffered
 (
@@ -1467,7 +1461,6 @@ test
 *
 /
 extern
-NS_COM
 PRBool
 NS_OutputStreamIsBuffered
 (
@@ -1532,7 +1525,6 @@ parameters
 *
 /
 extern
-NS_COM
 NS_METHOD
 NS_CopySegmentToStream
 (
@@ -1630,7 +1622,6 @@ parameters
 *
 /
 extern
-NS_COM
 NS_METHOD
 NS_CopySegmentToBuffer
 (
@@ -1714,7 +1705,6 @@ parameters
 *
 /
 extern
-NS_COM
 NS_METHOD
 NS_DiscardSegment
 (
@@ -1835,7 +1825,6 @@ ReadSegments
 *
 /
 extern
-NS_COM
 NS_METHOD
 NS_WriteSegmentThunk
 (

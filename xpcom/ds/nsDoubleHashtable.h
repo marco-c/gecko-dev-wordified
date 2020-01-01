@@ -2827,7 +2827,6 @@ entry
 /
 /
 class
-NS_COM
 PLDHashStringEntry
 :
 public
@@ -2935,7 +2934,6 @@ entry
 /
 /
 class
-NS_COM
 PLDHashCStringEntry
 :
 public
@@ -3043,7 +3041,6 @@ entry
 /
 /
 class
-NS_COM
 PLDHashInt32Entry
 :
 public
@@ -3150,7 +3147,6 @@ entry
 /
 /
 class
-NS_COM
 PLDHashVoidEntry
 :
 public

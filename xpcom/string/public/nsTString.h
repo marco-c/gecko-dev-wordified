@@ -972,7 +972,6 @@ or
 kNotFound
 *
 /
-NS_COM
 PRInt32
 Find
 (
@@ -996,7 +995,6 @@ aCount
 )
 const
 ;
-NS_COM
 PRInt32
 Find
 (
@@ -1023,7 +1021,6 @@ const
 #
 ifdef
 CharT_is_PRUnichar
-NS_COM
 PRInt32
 Find
 (
@@ -1043,7 +1040,6 @@ aCount
 )
 const
 ;
-NS_COM
 PRInt32
 Find
 (
@@ -1155,7 +1151,6 @@ or
 kNotFound
 *
 /
-NS_COM
 PRInt32
 RFind
 (
@@ -1180,7 +1175,6 @@ aCount
 )
 const
 ;
-NS_COM
 PRInt32
 RFind
 (
@@ -1208,7 +1202,6 @@ const
 #
 ifdef
 CharT_is_PRUnichar
-NS_COM
 PRInt32
 RFind
 (
@@ -1229,7 +1222,6 @@ aCount
 )
 const
 ;
-NS_COM
 PRInt32
 RFind
 (
@@ -1338,7 +1330,6 @@ aCount
 )
 const
 ;
-NS_COM
 PRInt32
 RFindChar
 (
@@ -1415,7 +1406,6 @@ or
 kNotFound
 *
 /
-NS_COM
 PRInt32
 FindCharInSet
 (
@@ -1459,7 +1449,6 @@ aOffset
 #
 ifdef
 CharT_is_PRUnichar
-NS_COM
 PRInt32
 FindCharInSet
 (
@@ -1534,7 +1523,6 @@ or
 kNotFound
 *
 /
-NS_COM
 PRInt32
 RFindCharInSet
 (
@@ -1629,7 +1617,6 @@ return
 #
 ifdef
 CharT_is_char
-NS_COM
 PRInt32
 Compare
 (
@@ -1729,7 +1716,6 @@ aCount
 }
 #
 else
-NS_COM
 PRBool
 EqualsIgnoreCase
 (
@@ -1786,7 +1772,6 @@ string
 value
 *
 /
-NS_COM
 double
 ToDouble
 (
@@ -1905,7 +1890,6 @@ error
 code
 *
 /
-NS_COM
 PRInt32
 ToInteger
 (
@@ -2110,7 +2094,6 @@ aReadable
 ;
 *
 /
-NS_COM
 size_type
 Mid
 (
@@ -2222,7 +2205,6 @@ if
 successful
 *
 /
-NS_COM
 PRBool
 SetCharAt
 (
@@ -2269,7 +2251,6 @@ from
 this
 *
 /
-NS_COM
 void
 StripChars
 (
@@ -2293,7 +2274,6 @@ string
 .
 *
 /
-NS_COM
 void
 StripWhitespace
 (
@@ -2312,7 +2292,6 @@ for
 another
 *
 /
-NS_COM
 void
 ReplaceChar
 (
@@ -2322,7 +2301,6 @@ char_type
 aNewChar
 )
 ;
-NS_COM
 void
 ReplaceChar
 (
@@ -2334,7 +2312,6 @@ char_type
 aNewChar
 )
 ;
-NS_COM
 void
 ReplaceSubstring
 (
@@ -2348,7 +2325,6 @@ self_type
 aNewValue
 )
 ;
-NS_COM
 void
 ReplaceSubstring
 (
@@ -2420,7 +2396,6 @@ return
 this
 *
 /
-NS_COM
 void
 Trim
 (
@@ -2490,7 +2465,6 @@ trailing
 ws
 *
 /
-NS_COM
 void
 CompressWhitespace
 (
@@ -2518,7 +2492,6 @@ _LOSSY_
 conversion
 *
 /
-NS_COM
 void
 AssignWithConversion
 (
@@ -2528,7 +2501,6 @@ nsTAString_IncompatibleCharT
 aString
 )
 ;
-NS_COM
 void
 AssignWithConversion
 (
@@ -2543,7 +2515,6 @@ aLength
 1
 )
 ;
-NS_COM
 void
 AppendWithConversion
 (
@@ -2553,7 +2524,6 @@ nsTAString_IncompatibleCharT
 aString
 )
 ;
-NS_COM
 void
 AppendWithConversion
 (
@@ -4158,7 +4128,6 @@ operator
 is
 called
 .
-NS_COM
 self_type
 &
 operator

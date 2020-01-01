@@ -3990,7 +3990,6 @@ return
 NS_OK
 ;
 }
-NS_COM
 nsresult
 NS_NewISupportsArray
 (

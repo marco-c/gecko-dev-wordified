@@ -3302,7 +3302,6 @@ parameter
 .
 *
 /
-NS_COM
 void
 NS_CreateServicesFromCategory
 (

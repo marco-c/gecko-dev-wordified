@@ -531,7 +531,6 @@ self_type
 ;
 public
 :
-NS_COM
 void
 Rebind
 (
@@ -550,7 +549,6 @@ size_type
 )
 )
 ;
-NS_COM
 void
 Rebind
 (

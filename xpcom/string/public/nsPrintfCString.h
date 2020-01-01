@@ -748,7 +748,6 @@ String
 *
 /
 class
-NS_COM
 nsPrintfCString
 :
 public

@@ -596,7 +596,6 @@ array
 *
 /
 class
-NS_COM
 nsStaticCaseInsensitiveNameTable
 {
 public

@@ -750,7 +750,6 @@ size
 *
 /
 extern
-NS_COM
 nsresult
 NS_NewByteBuffer
 (

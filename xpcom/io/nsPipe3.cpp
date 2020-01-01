@@ -7724,7 +7724,6 @@ NS_OK
 /
 /
 /
-NS_COM
 nsresult
 NS_NewPipe
 (
@@ -7839,7 +7838,6 @@ return
 NS_OK
 ;
 }
-NS_COM
 nsresult
 NS_NewPipe2
 (

@@ -687,7 +687,6 @@ memory
 .
 *
 /
-NS_COM
 static
 nsStringBuffer
 *
@@ -776,7 +775,6 @@ see
 IsReadonly
 *
 /
-NS_COM
 static
 nsStringBuffer
 *
@@ -804,7 +802,6 @@ buffer
 .
 *
 /
-NS_COM
 void
 NS_FASTCALL
 AddRef
@@ -840,7 +837,6 @@ zero
 .
 *
 /
-NS_COM
 void
 NS_FASTCALL
 Release
@@ -1173,7 +1169,6 @@ method
 .
 *
 /
-NS_COM
 static
 nsStringBuffer
 *
@@ -1185,7 +1180,6 @@ nsAString
 str
 )
 ;
-NS_COM
 static
 nsStringBuffer
 *
@@ -1347,7 +1341,6 @@ strings
 .
 *
 /
-NS_COM
 void
 ToString
 (
@@ -1362,7 +1355,6 @@ aMoveOwnership
 PR_FALSE
 )
 ;
-NS_COM
 void
 ToString
 (

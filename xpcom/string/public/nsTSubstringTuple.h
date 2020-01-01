@@ -612,7 +612,6 @@ string
 length
 *
 /
-NS_COM
 size_type
 Length
 (
@@ -669,7 +668,6 @@ terminated
 .
 *
 /
-NS_COM
 void
 WriteTo
 (
@@ -709,7 +707,6 @@ sequence
 .
 *
 /
-NS_COM
 PRBool
 IsDependentOn
 (

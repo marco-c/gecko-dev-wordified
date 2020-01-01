@@ -571,7 +571,6 @@ of
 collected
 nodes
 .
-NS_COM
 PRUint32
 nsCycleCollector_collect
 (
@@ -580,7 +579,6 @@ nsICycleCollectorListener
 aListener
 )
 ;
-NS_COM
 PRUint32
 nsCycleCollector_suspectedCount
 (
@@ -699,7 +697,6 @@ Collect
 #
 ifdef
 DEBUG
-NS_COM
 void
 nsCycleCollector_DEBUG_shouldBeFreed
 (
@@ -708,7 +705,6 @@ nsISupports
 n
 )
 ;
-NS_COM
 void
 nsCycleCollector_DEBUG_wasFreed
 (
@@ -729,7 +725,6 @@ language
 -
 identified
 scripts
-NS_COM
 void
 nsCycleCollector_registerRuntime
 (
@@ -740,7 +735,6 @@ nsCycleCollectionLanguageRuntime
 rt
 )
 ;
-NS_COM
 nsCycleCollectionLanguageRuntime
 *
 nsCycleCollector_getRuntime
@@ -749,7 +743,6 @@ PRUint32
 langID
 )
 ;
-NS_COM
 void
 nsCycleCollector_forgetRuntime
 (

@@ -4353,7 +4353,6 @@ return
 NS_OK
 ;
 }
-NS_COM
 nsresult
 NS_RegisterMemoryReporter
 (
@@ -4405,7 +4404,6 @@ reporter
 )
 ;
 }
-NS_COM
 nsresult
 NS_RegisterMemoryMultiReporter
 (
@@ -4457,7 +4455,6 @@ reporter
 )
 ;
 }
-NS_COM
 nsresult
 NS_UnregisterMemoryReporter
 (
@@ -4509,7 +4506,6 @@ reporter
 )
 ;
 }
-NS_COM
 nsresult
 NS_UnregisterMemoryMultiReporter
 (

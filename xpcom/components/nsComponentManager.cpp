@@ -919,7 +919,6 @@ using
 namespace
 mozilla
 ;
-NS_COM
 PRLogModuleInfo
 *
 nsComponentManagerLog
@@ -11739,7 +11738,6 @@ Functions
 /
 /
 /
-NS_COM
 nsresult
 NS_GetComponentManager
 (
@@ -11775,7 +11773,6 @@ return
 NS_OK
 ;
 }
-NS_COM
 nsresult
 NS_GetServiceManager
 (
@@ -11811,7 +11808,6 @@ return
 NS_OK
 ;
 }
-NS_COM
 nsresult
 NS_GetComponentRegistrar
 (

@@ -763,7 +763,6 @@ conversions
 *
 /
 class
-NS_COM
 nsVariant
 :
 public

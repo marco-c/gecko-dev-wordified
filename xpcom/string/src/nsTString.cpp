@@ -453,7 +453,6 @@ BLOCK
 *
 *
 /
-NS_COM
 nsTAdoptingString_CharT
 &
 nsTAdoptingString_CharT

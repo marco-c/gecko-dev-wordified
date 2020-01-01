@@ -960,7 +960,6 @@ enumerator
 *
 /
 class
-NS_COM
 nsDirEnumeratorUnix
 :
 public

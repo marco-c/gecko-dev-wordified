@@ -690,7 +690,6 @@ endif
 /
 /
 /
-NS_COM
 void
 NS_MeanAndStdDev
 (
@@ -3470,7 +3469,6 @@ endif
 NS_IMPL_REFCNT_LOGGING
 *
 /
-NS_COM
 nsresult
 nsTraceRefcntImpl
 :
@@ -3806,7 +3804,6 @@ return
 NS_OK
 ;
 }
-NS_COM
 void
 nsTraceRefcntImpl
 :
@@ -5630,7 +5627,6 @@ stream
 ;
 }
 }
-NS_COM
 void
 nsTraceRefcntImpl
 :
@@ -5772,7 +5768,6 @@ endif
 /
 /
 MOZ_DEMANGLE_SYMBOLS
-NS_COM
 void
 nsTraceRefcntImpl
 :
@@ -7847,7 +7842,6 @@ UNLOCK_TRACELOG
 #
 endif
 }
-NS_COM
 void
 nsTraceRefcntImpl
 :
@@ -7857,7 +7851,6 @@ Startup
 )
 {
 }
-NS_COM
 void
 nsTraceRefcntImpl
 :
@@ -8007,7 +8000,6 @@ nsnull
 #
 endif
 }
-NS_COM
 void
 nsTraceRefcntImpl
 :

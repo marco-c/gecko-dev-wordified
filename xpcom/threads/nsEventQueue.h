@@ -485,7 +485,6 @@ queue
 .
 .
 class
-NS_COM
 nsEventQueue
 {
 typedef

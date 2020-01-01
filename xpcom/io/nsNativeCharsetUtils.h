@@ -641,7 +641,6 @@ libraries
 .
 *
 /
-NS_COM
 nsresult
 NS_CopyNativeToUnicode
 (
@@ -654,7 +653,6 @@ nsAString
 output
 )
 ;
-NS_COM
 nsresult
 NS_CopyUnicodeToNative
 (
@@ -869,7 +867,6 @@ defined
 (
 ANDROID
 )
-NS_COM
 PRBool
 NS_IsNativeUTF8
 (

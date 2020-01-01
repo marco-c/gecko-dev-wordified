@@ -487,14 +487,12 @@ h
 #
 endif
 extern
-NS_COM
 void
 StartupSpecialSystemDirectory
 (
 )
 ;
 extern
-NS_COM
 void
 ShutdownSpecialSystemDirectory
 (

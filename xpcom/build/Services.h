@@ -485,7 +485,6 @@ NAME
 TYPE
 SERVICE_CID
 )
-NS_COM
 already_AddRefed
 <
 TYPE

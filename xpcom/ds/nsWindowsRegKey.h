@@ -609,7 +609,6 @@ extern
 "
 C
 "
-NS_COM
 nsresult
 NS_NewWindowsRegKey
 (

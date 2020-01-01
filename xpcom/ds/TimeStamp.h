@@ -570,7 +570,6 @@ broken
 *
 /
 class
-NS_COM
 TimeDuration
 {
 public
@@ -1530,7 +1529,6 @@ them
 *
 /
 class
-NS_COM
 TimeStamp
 {
 public

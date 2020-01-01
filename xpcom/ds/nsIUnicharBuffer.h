@@ -556,7 +556,6 @@ for
 nsIUnicharBuffer
 .
 extern
-NS_COM
 nsresult
 NS_NewUnicharBuffer
 (

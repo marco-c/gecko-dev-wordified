@@ -454,7 +454,6 @@ line
 breaks
 .
 class
-NS_COM
 nsLinebreakConverter
 {
 public

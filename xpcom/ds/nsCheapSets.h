@@ -476,7 +476,6 @@ common
 *
 /
 class
-NS_COM
 nsCheapStringSet
 {
 public
@@ -909,7 +908,6 @@ common
 *
 /
 class
-NS_COM
 nsCheapInt32Set
 {
 public

@@ -646,7 +646,6 @@ nsString
 .
 h
 "
-NS_COM
 nsresult
 NS_CopyNativeToUnicode
 (
@@ -669,7 +668,6 @@ return
 NS_OK
 ;
 }
-NS_COM
 nsresult
 NS_CopyUnicodeToNative
 (
@@ -5590,7 +5588,6 @@ implementation
 -
 -
 -
-NS_COM
 nsresult
 NS_CopyNativeToUnicode
 (
@@ -5798,7 +5795,6 @@ return
 rv
 ;
 }
-NS_COM
 nsresult
 NS_CopyUnicodeToNative
 (
@@ -5949,7 +5945,6 @@ return
 NS_OK
 ;
 }
-NS_COM
 PRBool
 NS_IsNativeUTF8
 (
@@ -6252,7 +6247,6 @@ nsReadableUtils
 .
 h
 "
-NS_COM
 nsresult
 NS_CopyNativeToUnicode
 (
@@ -6399,7 +6393,6 @@ return
 NS_OK
 ;
 }
-NS_COM
 nsresult
 NS_CopyUnicodeToNative
 (
@@ -6606,7 +6599,6 @@ windows
 nsToolkit
 .
 cpp
-NS_COM
 PRInt32
 NS_ConvertAtoW
 (
@@ -6634,7 +6626,6 @@ aBufferSize
 )
 ;
 }
-NS_COM
 PRInt32
 NS_ConvertWtoA
 (
@@ -7006,7 +6997,6 @@ UnicodeConverter
 =
 NULL
 ;
-NS_COM
 nsresult
 NS_CopyNativeToUnicode
 (
@@ -7208,7 +7198,6 @@ return
 NS_OK
 ;
 }
-NS_COM
 nsresult
 NS_CopyUnicodeToNative
 (
@@ -7576,7 +7565,6 @@ nsReadableUtils
 .
 h
 "
-NS_COM
 nsresult
 NS_CopyNativeToUnicode
 (
@@ -7599,7 +7587,6 @@ return
 NS_OK
 ;
 }
-NS_COM
 nsresult
 NS_CopyUnicodeToNative
 (

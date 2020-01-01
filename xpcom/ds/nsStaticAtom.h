@@ -645,7 +645,6 @@ with
 the
 atom
 table
-NS_COM
 nsresult
 NS_RegisterStaticAtoms
 (

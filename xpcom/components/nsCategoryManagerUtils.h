@@ -435,7 +435,6 @@ nsICategoryManager
 .
 h
 "
-NS_COM
 void
 NS_CreateServicesFromCategory
 (

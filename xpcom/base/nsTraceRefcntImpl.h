@@ -473,14 +473,12 @@ nsTraceRefcntImpl
 NS_DECL_ISUPPORTS
 NS_DECL_NSITRACEREFCNT
 static
-NS_COM
 void
 Startup
 (
 )
 ;
 static
-NS_COM
 void
 Shutdown
 (
@@ -494,7 +492,6 @@ NEW_STATS
 }
 ;
 static
-NS_COM
 nsresult
 DumpStatistics
 (
@@ -510,7 +507,6 @@ out
 )
 ;
 static
-NS_COM
 void
 ResetStatistics
 (
@@ -518,7 +514,6 @@ void
 )
 ;
 static
-NS_COM
 void
 DemangleSymbol
 (
@@ -534,7 +529,6 @@ aBufLen
 )
 ;
 static
-NS_COM
 void
 WalkTheStack
 (
@@ -582,7 +576,6 @@ destructors
 *
 /
 static
-NS_COM
 void
 SetActivityIsLegal
 (
@@ -772,7 +765,6 @@ extern
 "
 C
 "
-NS_COM
 void
 NS_MeanAndStdDev
 (

@@ -570,7 +570,6 @@ class
 nsStringKey
 ;
 class
-NS_COM
 nsHashKey
 {
 protected
@@ -839,7 +838,6 @@ aData
 )
 ;
 class
-NS_COM
 nsHashtable
 {
 protected
@@ -1108,7 +1106,6 @@ aClosure
 )
 ;
 class
-NS_COM
 nsObjectHashtable
 :
 public
@@ -1293,7 +1290,6 @@ class
 nsISupports
 ;
 class
-NS_COM
 nsSupportsHashtable
 :
 private
@@ -1582,7 +1578,6 @@ nsISupports
 h
 "
 class
-NS_COM
 nsISupportsKey
 :
 public
@@ -2121,7 +2116,6 @@ c
 -
 strings
 class
-NS_COM
 nsCStringKey
 :
 public
@@ -2362,7 +2356,6 @@ terminated
 unicode
 strings
 class
-NS_COM
 nsStringKey
 :
 public
