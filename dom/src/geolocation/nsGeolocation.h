@@ -641,16 +641,6 @@ MarkCleared
 )
 ;
 PRBool
-IsActive
-(
-)
-{
-return
-!
-mCleared
-;
-}
-PRBool
 Allowed
 (
 )
