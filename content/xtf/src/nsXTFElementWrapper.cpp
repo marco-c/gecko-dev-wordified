@@ -5375,13 +5375,8 @@ mIntrinsicState
 =
 newStates
 ;
-mozAutoDocUpdate
-upd
-(
-doc
-UPDATE_CONTENT_STATE
-PR_TRUE
-)
+nsAutoScriptBlocker
+scriptBlocker
 ;
 doc
 -

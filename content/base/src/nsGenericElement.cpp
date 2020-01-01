@@ -26046,13 +26046,6 @@ IsEmpty
 )
 )
 {
-MOZ_AUTO_DOC_UPDATE
-(
-document
-UPDATE_CONTENT_STATE
-aNotify
-)
-;
 document
 -
 >
@@ -27332,13 +27325,6 @@ IsEmpty
 )
 )
 {
-MOZ_AUTO_DOC_UPDATE
-(
-document
-UPDATE_CONTENT_STATE
-aNotify
-)
-;
 document
 -
 >

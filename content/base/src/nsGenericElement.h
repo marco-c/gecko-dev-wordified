@@ -5019,6 +5019,15 @@ the
 attr
 )
 .
+It
+will
+always
+be
+called
+under
+a
+scriptblocker
+.
 *
 *
 param
