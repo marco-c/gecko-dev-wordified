@@ -3228,6 +3228,7 @@ EXPECTED_FAIL
 {
 if
 (
+!
 equal
 )
 {
