@@ -11994,6 +11994,7 @@ family
 "
 "
 STIXNonUnicode
+STIXSizeOneSym
 STIXSize1
 STIXGeneral
 Standard
@@ -20616,6 +20617,7 @@ family
 "
 "
 STIXNonUnicode
+STIXSizeOneSym
 STIXSize1
 STIXGeneral
 Symbol
@@ -27234,6 +27236,7 @@ family
 "
 "
 STIXNonUnicode
+STIXSizeOneSym
 STIXSize1
 STIXGeneral
 Symbol
@@ -27712,6 +27715,7 @@ family
 "
 "
 STIXNonUnicode
+STIXSizeOneSym
 STIXSize1
 STIXGeneral
 DejaVu
