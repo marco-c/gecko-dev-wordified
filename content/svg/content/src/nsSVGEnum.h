@@ -298,6 +298,17 @@ nsSVGElement
 aSVGElement
 )
 ;
+already_AddRefed
+<
+nsIDOMSVGAnimatedEnumeration
+>
+ToDOMAnimatedEnum
+(
+nsSVGElement
+*
+aSVGElement
+)
+;
 /
 /
 Returns
