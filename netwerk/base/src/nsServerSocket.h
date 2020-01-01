@@ -217,6 +217,15 @@ PRFileDesc
 fd
 )
 ;
+virtual
+void
+IsLocal
+(
+bool
+*
+aIsLocal
+)
+;
 nsServerSocket
 (
 )

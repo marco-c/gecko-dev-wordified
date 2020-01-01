@@ -260,6 +260,9 @@ mDisablePrefetch
 bool
 mFirstTime
 ;
+bool
+mOffline
+;
 nsTHashtable
 <
 nsCStringHashKey

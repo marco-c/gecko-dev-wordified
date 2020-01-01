@@ -3762,7 +3762,7 @@ nsHttpTransaction
 )
 ;
 nsresult
-EnsureSocketThreadTargetIfOnline
+EnsureSocketThreadTarget
 (
 )
 ;

@@ -287,7 +287,7 @@ Components
 .
 results
 .
-NS_ERROR_DOCUMENT_NOT_CACHED
+NS_ERROR_OFFLINE
 ;
 gNextTestFunc
 =

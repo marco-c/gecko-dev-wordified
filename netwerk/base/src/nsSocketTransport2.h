@@ -868,6 +868,14 @@ PRFileDesc
 *
 )
 ;
+void
+IsLocal
+(
+bool
+*
+aIsLocal
+)
+;
 /
 /
 called
