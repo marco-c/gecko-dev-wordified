@@ -2800,6 +2800,14 @@ JS_ClearNewbornRoots
 acx
 )
 ;
+if
+(
+acx
+-
+>
+globalObject
+)
+{
 JSDHashEntryHdr
 *
 entry
@@ -2854,6 +2862,7 @@ globalObject
 =
 nsnull
 ;
+}
 }
 }
 }
