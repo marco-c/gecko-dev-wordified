@@ -5301,12 +5301,6 @@ aWidgetType
 =
 =
 NS_THEME_TAB_SCROLLARROW_FORWARD
-|
-|
-aWidgetType
-=
-=
-NS_THEME_DROPDOWN_BUTTON
 )
 {
 aResult
