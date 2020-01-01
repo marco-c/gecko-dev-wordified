@@ -1674,7 +1674,7 @@ radius
 domProp
 :
 "
-MozBorderRadius
+borderRadius
 "
 inherited
 :
@@ -2123,7 +2123,7 @@ radius
 domProp
 :
 "
-MozBorderRadiusBottomleft
+borderBottomLeftRadius
 "
 inherited
 :
@@ -2378,7 +2378,7 @@ radius
 domProp
 :
 "
-MozBorderRadiusBottomright
+borderBottomRightRadius
 "
 inherited
 :
@@ -2633,7 +2633,7 @@ radius
 domProp
 :
 "
-MozBorderRadiusTopleft
+borderTopLeftRadius
 "
 inherited
 :
@@ -2888,7 +2888,7 @@ radius
 domProp
 :
 "
-MozBorderRadiusTopright
+borderTopRightRadius
 "
 inherited
 :

@@ -1791,7 +1791,7 @@ aValue
 )
 ;
 nsresult
-DoGetBorderRadiusBottomLeft
+DoGetBorderBottomLeftRadius
 (
 nsIDOMCSSValue
 *
@@ -1800,7 +1800,7 @@ aValue
 )
 ;
 nsresult
-DoGetBorderRadiusBottomRight
+DoGetBorderBottomRightRadius
 (
 nsIDOMCSSValue
 *
@@ -1809,7 +1809,7 @@ aValue
 )
 ;
 nsresult
-DoGetBorderRadiusTopLeft
+DoGetBorderTopLeftRadius
 (
 nsIDOMCSSValue
 *
@@ -1818,7 +1818,7 @@ aValue
 )
 ;
 nsresult
-DoGetBorderRadiusTopRight
+DoGetBorderTopRightRadius
 (
 nsIDOMCSSValue
 *
