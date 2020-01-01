@@ -30607,13 +30607,6 @@ restoreSegment
 (
 )
 ;
-cx
--
->
-resetCompartment
-(
-)
-;
 }
 /
 *
