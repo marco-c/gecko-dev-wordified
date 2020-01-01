@@ -1946,7 +1946,7 @@ result
 Impl
 ;
 friend
-class
+struct
 JSTempVectorImpl
 <
 T
