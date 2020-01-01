@@ -474,8 +474,7 @@ NORMAL_FILE_TYPE
 0666
 )
 ;
-let
-testPath
+filePath
 =
 file
 .
