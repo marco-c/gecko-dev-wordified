@@ -1552,6 +1552,8 @@ tests
 "
 )
 ;
+/
+*
 httpserv
 =
 new
@@ -1601,6 +1603,8 @@ started
 "
 )
 ;
+*
+/
 /
 /
 our
@@ -2061,6 +2065,10 @@ cleanup
 (
 )
 ;
+/
+*
+try
+{
 var
 thread
 =
@@ -2124,4 +2132,18 @@ processNextEvent
 true
 )
 ;
+}
+catch
+(
+e
+)
+{
+print
+(
+e
+)
+;
+}
+*
+/
 }
