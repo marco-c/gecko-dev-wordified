@@ -450,6 +450,7 @@ nsHtml5TreeOpStage
 (
 )
 ;
+virtual
 ~
 nsHtml5TreeOpStage
 (
