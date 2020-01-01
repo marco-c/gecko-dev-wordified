@@ -451,10 +451,10 @@ BLOCK
 /
 #
 ifndef
-jsion_cpu_x64_regs_h__
+jsion_architecture_x64_h__
 #
 define
-jsion_cpu_x64_regs_h__
+jsion_architecture_x64_h__
 #
 include
 "
@@ -1312,4 +1312,4 @@ ion
 endif
 /
 /
-jsion_cpu_x64_regs_h__
+jsion_architecture_x64_h__
