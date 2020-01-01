@@ -989,6 +989,14 @@ Ebp
 ;
 #
 endif
+sample
+-
+>
+context
+=
+&
+context
+;
 sampler
 -
 >
