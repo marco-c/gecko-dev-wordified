@@ -510,7 +510,9 @@ right
 calling
 conventions
 on
-Win16
+OS
+/
+2
 .
 *
 /

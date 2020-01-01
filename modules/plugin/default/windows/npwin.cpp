@@ -904,7 +904,10 @@ macro
 when
 compiling
 for
-Win16
+OS
+/
+2
+.
 /
 /
 NPError
