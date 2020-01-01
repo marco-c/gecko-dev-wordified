@@ -2208,15 +2208,6 @@ PRUint32
 aConsumeMode
 )
 ;
-nsIScrollableView
-*
-GetScrollableView
-(
-nsIFrame
-*
-aStart
-)
-;
 nsIScrollableFrame
 *
 GetScrollFrame
