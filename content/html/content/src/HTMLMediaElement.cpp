@@ -2645,6 +2645,11 @@ mStream
 )
 ;
 }
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
+mPlayed
+)
+;
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
@@ -2739,6 +2744,11 @@ mStream
 )
 ;
 }
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
+mPlayed
+)
+;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
@@ -7692,7 +7702,8 @@ rangeEndTime
 )
 {
 mPlayed
-.
+-
+>
 Add
 (
 mCurrentPlayRangeStart
@@ -8260,7 +8271,8 @@ timeRangeCount
 0
 ;
 mPlayed
-.
+-
+>
 GetLength
 (
 &
@@ -8290,7 +8302,8 @@ double
 end
 ;
 mPlayed
-.
+-
+>
 Start
 (
 i
@@ -8299,7 +8312,8 @@ begin
 )
 ;
 mPlayed
-.
+-
+>
 End
 (
 i
@@ -10813,6 +10827,11 @@ mPlaybackRate
 mPreservesPitch
 (
 true
+)
+mPlayed
+(
+new
+TimeRanges
 )
 mCurrentPlayRangeStart
 (

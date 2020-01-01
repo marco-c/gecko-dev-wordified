@@ -5758,7 +5758,10 @@ of
 time
 played
 .
+nsRefPtr
+<
 TimeRanges
+>
 mPlayed
 ;
 /
