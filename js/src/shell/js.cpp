@@ -7360,6 +7360,12 @@ sliceTimeBudget
 "
 JSGC_SLICE_TIME_BUDGET
 }
+{
+"
+markStackLimit
+"
+JSGC_MARK_STACK_LIMIT
+}
 }
 ;
 static
