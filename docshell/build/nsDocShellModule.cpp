@@ -739,7 +739,7 @@ nsOfflineCacheUpdate
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-nsLocalHandlerApp
+PlatformLocalHandlerApp_t
 )
 #
 if
@@ -1180,7 +1180,7 @@ App
 "
 NS_LOCALHANDLERAPP_CID
 NS_LOCALHANDLERAPP_CONTRACTID
-nsLocalHandlerAppConstructor
+PlatformLocalHandlerApp_tConstructor
 }
 #
 if
