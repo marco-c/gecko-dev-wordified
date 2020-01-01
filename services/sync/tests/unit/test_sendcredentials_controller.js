@@ -448,6 +448,7 @@ new
 SendCredentialsController
 (
 jpakeclient
+Service
 )
 ;
 Svc
@@ -549,6 +550,7 @@ new
 SendCredentialsController
 (
 jpakeclient
+Service
 )
 ;
 /
@@ -684,6 +686,7 @@ new
 SendCredentialsController
 (
 jpakeclient
+Service
 )
 ;
 Svc

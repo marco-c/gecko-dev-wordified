@@ -2540,7 +2540,15 @@ engine
 this
 )
 ;
+this
+.
+scheduler
+=
 SyncScheduler
+;
+this
+.
+scheduler
 .
 init
 (

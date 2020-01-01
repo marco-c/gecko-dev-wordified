@@ -4822,6 +4822,9 @@ SendCredentialsController
 this
 .
 _jpakeclient
+Weave
+.
+Service
 )
 ;
 this
