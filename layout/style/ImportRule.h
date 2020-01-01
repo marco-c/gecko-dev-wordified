@@ -440,6 +440,10 @@ mozilla_css_ImportRule_h__
 #
 include
 "
+mozilla
+/
+css
+/
 Rule
 .
 h
@@ -564,7 +568,7 @@ const
 endif
 /
 /
-nsICSSRule
+Rule
 methods
 virtual
 PRInt32
@@ -576,7 +580,7 @@ const
 virtual
 already_AddRefed
 <
-nsICSSRule
+Rule
 >
 Clone
 (

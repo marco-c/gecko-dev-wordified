@@ -440,6 +440,10 @@ mozilla_css_NameSpaceRule_h__
 #
 include
 "
+mozilla
+/
+css
+/
 Rule
 .
 h
@@ -459,7 +463,7 @@ nsIAtom
 IID
 for
 the
-nsCSSNameSpaceRule
+NameSpaceRule
 class
 {
 f0b0dbe1
@@ -575,7 +579,7 @@ const
 endif
 /
 /
-nsICSSRule
+Rule
 methods
 virtual
 PRInt32
@@ -587,7 +591,7 @@ const
 virtual
 already_AddRefed
 <
-nsICSSRule
+Rule
 >
 Clone
 (

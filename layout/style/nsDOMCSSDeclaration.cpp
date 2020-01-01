@@ -499,7 +499,11 @@ h
 #
 include
 "
-nsICSSRule
+mozilla
+/
+css
+/
+Rule
 .
 h
 "
@@ -1517,7 +1521,10 @@ nsDOMCSSDeclaration
 :
 GetCSSParsingEnvironmentForRule
 (
-nsICSSRule
+css
+:
+:
+Rule
 *
 aRule
 CSSParsingEnvironment

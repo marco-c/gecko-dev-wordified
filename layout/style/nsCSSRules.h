@@ -488,13 +488,6 @@ nsCSSRules_h_
 #
 include
 "
-Rule
-.
-h
-"
-#
-include
-"
 mozilla
 /
 css
@@ -686,7 +679,7 @@ const
 endif
 /
 /
-nsICSSRule
+Rule
 methods
 virtual
 void
@@ -711,7 +704,7 @@ const
 virtual
 already_AddRefed
 <
-nsICSSRule
+Rule
 >
 Clone
 (
@@ -847,7 +840,7 @@ const
 endif
 /
 /
-nsICSSRule
+Rule
 methods
 virtual
 PRInt32
@@ -859,7 +852,7 @@ const
 virtual
 already_AddRefed
 <
-nsICSSRule
+Rule
 >
 Clone
 (
@@ -1249,7 +1242,7 @@ const
 endif
 /
 /
-nsICSSRule
+Rule
 methods
 DECL_STYLE_RULE_INHERIT
 virtual
@@ -1262,7 +1255,13 @@ const
 virtual
 already_AddRefed
 <
-nsICSSRule
+mozilla
+:
+:
+css
+:
+:
+Rule
 >
 Clone
 (
@@ -1492,7 +1491,7 @@ const
 endif
 /
 /
-nsICSSRule
+Rule
 methods
 virtual
 PRInt32
@@ -1504,7 +1503,7 @@ const
 virtual
 already_AddRefed
 <
-nsICSSRule
+Rule
 >
 Clone
 (
@@ -1775,6 +1774,8 @@ aKeys
 )
 ;
 }
+private
+:
 nsCSSKeyframeRule
 (
 const
@@ -1788,6 +1789,8 @@ nsCSSKeyframeRule
 (
 )
 ;
+public
+:
 NS_DECL_ISUPPORTS
 /
 /
@@ -1816,7 +1819,7 @@ const
 endif
 /
 /
-nsICSSRule
+Rule
 methods
 DECL_STYLE_RULE_INHERIT
 virtual
@@ -1829,7 +1832,13 @@ const
 virtual
 already_AddRefed
 <
-nsICSSRule
+mozilla
+:
+:
+css
+:
+:
+Rule
 >
 Clone
 (
@@ -1958,6 +1967,8 @@ aName
 )
 {
 }
+private
+:
 nsCSSKeyframesRule
 (
 const
@@ -1971,6 +1982,8 @@ nsCSSKeyframesRule
 (
 )
 ;
+public
+:
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
@@ -1999,7 +2012,7 @@ const
 endif
 /
 /
-nsICSSRule
+Rule
 methods
 virtual
 PRInt32
@@ -2011,7 +2024,13 @@ const
 virtual
 already_AddRefed
 <
-nsICSSRule
+mozilla
+:
+:
+css
+:
+:
+Rule
 >
 Clone
 (

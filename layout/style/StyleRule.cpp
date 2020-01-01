@@ -7508,16 +7508,12 @@ NS_OK
 else
 NS_INTERFACE_MAP_ENTRY
 (
-nsICSSRule
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsIStyleRule
 )
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsICSSRule
+nsIStyleRule
 )
 NS_INTERFACE_MAP_END
 NS_IMPL_ADDREF_INHERITED
@@ -7621,7 +7617,7 @@ GetType
 const
 {
 return
-nsICSSRule
+Rule
 :
 :
 STYLE_RULE
@@ -7634,7 +7630,7 @@ virtual
 /
 already_AddRefed
 <
-nsICSSRule
+Rule
 >
 StyleRule
 :
@@ -7644,9 +7640,9 @@ Clone
 )
 const
 {
-nsCOMPtr
+nsRefPtr
 <
-nsICSSRule
+Rule
 >
 clone
 =

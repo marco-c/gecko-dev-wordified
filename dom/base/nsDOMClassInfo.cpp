@@ -1335,13 +1335,6 @@ h
 #
 include
 "
-nsICSSRule
-.
-h
-"
-#
-include
-"
 nsICSSRuleList
 .
 h
@@ -12554,7 +12547,7 @@ DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMHashChangeEvent
 )
-DOM_CLASSINFO_EVENT_MAP_ENTRIES
+DOM_CLASSINFO_DOCUMENT_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END
 if
 (

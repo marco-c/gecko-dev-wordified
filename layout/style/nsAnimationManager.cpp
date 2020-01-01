@@ -4431,7 +4431,10 @@ ruleEnd
 ruleIdx
 )
 {
-nsICSSRule
+css
+:
+:
+Rule
 *
 cssRule
 =
@@ -4463,7 +4466,10 @@ GetType
 )
 =
 =
-nsICSSRule
+css
+:
+:
+Rule
 :
 :
 KEYFRAME_RULE
