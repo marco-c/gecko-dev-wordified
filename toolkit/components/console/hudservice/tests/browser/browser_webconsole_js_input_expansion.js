@@ -861,11 +861,11 @@ getHeight
 (
 )
 ;
-ok
+/
+/
+is
 (
 height
-=
-=
 initialHeight
 "
 height
