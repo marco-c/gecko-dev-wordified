@@ -893,7 +893,7 @@ bool
 aDoDeleteSelection
 )
 {
-FireTrustedInputEvent
+HandlingTrustedAction
 trusted
 (
 this

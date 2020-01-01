@@ -536,12 +536,6 @@ GetConfidence
 void
 )
 ;
-void
-SetOpion
-(
-)
-{
-}
 protected
 :
 void

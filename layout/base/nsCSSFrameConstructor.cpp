@@ -5358,6 +5358,7 @@ nsIFrame
 *
 aContentParentFrame
 )
+const
 ;
 /
 *
@@ -6913,6 +6914,7 @@ nsIFrame
 *
 aContentParentFrame
 )
+const
 {
 NS_PRECONDITION
 (

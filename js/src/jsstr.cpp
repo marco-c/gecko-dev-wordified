@@ -20197,8 +20197,6 @@ createConstructor
 (
 cx
 js_String
-&
-StringClass
 CLASS_ATOM
 (
 cx

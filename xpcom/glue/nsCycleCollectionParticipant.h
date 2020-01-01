@@ -1493,7 +1493,7 @@ NS_IMETHOD_
 (
 void
 )
-UnmarkPurple
+UnmarkIfPurple
 (
 nsISupports
 *
@@ -4451,7 +4451,7 @@ NS_IMETHOD_
 (
 void
 )
-UnmarkPurple
+UnmarkIfPurple
 (
 nsISupports
 *
@@ -4466,7 +4466,7 @@ s
 )
 -
 >
-UnmarkPurple
+UnmarkIfPurple
 (
 )
 ;
@@ -5314,7 +5314,7 @@ This
 implements
 a
 stub
-UnmarkPurple
+UnmarkIfPurple
 function
 for
 classes
@@ -5374,7 +5374,7 @@ NS_IMETHODIMP_
 (
 void
 )
-UnmarkPurple
+UnmarkIfPurple
 (
 )
 \

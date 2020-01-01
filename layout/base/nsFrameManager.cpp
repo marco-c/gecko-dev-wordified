@@ -3311,6 +3311,14 @@ aListID
 nsIFrame
 *
 aOldFrame
+bool
+aInvalidate
+/
+*
+=
+true
+*
+/
 )
 {
 bool
@@ -3406,6 +3414,11 @@ presence
 of
 absolute
 positioning
+if
+(
+aInvalidate
+)
+{
 aOldFrame
 -
 >
@@ -3413,6 +3426,7 @@ InvalidateFrameSubtree
 (
 )
 ;
+}
 NS_ASSERTION
 (
 !

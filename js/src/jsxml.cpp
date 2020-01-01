@@ -45326,8 +45326,6 @@ createConstructor
 (
 cx
 Namespace
-&
-NamespaceClass
 CLASS_ATOM
 (
 cx
@@ -45490,8 +45488,6 @@ createConstructor
 (
 cx
 QName
-&
-QNameClass
 CLASS_ATOM
 (
 cx
@@ -45701,8 +45697,6 @@ createConstructor
 (
 cx
 XML
-&
-XMLClass
 CLASS_ATOM
 (
 cx

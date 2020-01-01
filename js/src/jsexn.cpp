@@ -6754,8 +6754,6 @@ createConstructor
 (
 cx
 Exception
-&
-ErrorClass
 name
 1
 JSFunction

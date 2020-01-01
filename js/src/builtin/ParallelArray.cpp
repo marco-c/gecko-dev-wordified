@@ -5899,8 +5899,6 @@ createConstructor
 (
 cx
 ParallelArray_construct
-&
-ParallelArrayClass
 CLASS_ATOM
 (
 cx

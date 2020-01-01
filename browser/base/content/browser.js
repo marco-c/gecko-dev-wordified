@@ -28665,6 +28665,7 @@ exitDomFullScreen
 ;
 if
 (
+!
 this
 .
 useLionFullScreen

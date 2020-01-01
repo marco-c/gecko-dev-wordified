@@ -2436,8 +2436,6 @@ createConstructor
 (
 cx
 WeakMap_construct
-&
-WeakMapClass
 CLASS_ATOM
 (
 cx
