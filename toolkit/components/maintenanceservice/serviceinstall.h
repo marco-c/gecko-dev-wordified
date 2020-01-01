@@ -397,13 +397,6 @@ BLOCK
 /
 #
 define
-SVC_NAME
-L
-"
-MozillaMaintenance
-"
-#
-define
 SVC_DISPLAY_NAME
 L
 "

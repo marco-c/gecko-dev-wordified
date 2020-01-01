@@ -463,6 +463,13 @@ uachelper
 .
 h
 "
+#
+include
+"
+updatehelper
+.
+h
+"
 SERVICE_STATUS
 gSvcStatus
 =
