@@ -15443,6 +15443,7 @@ StyleText
 >
 WhiteSpaceCanWrap
 (
+initialBreakController
 )
 )
 {
@@ -15484,6 +15485,7 @@ textStyle
 >
 WhiteSpaceCanWrap
 (
+startFrame
 )
 )
 {
@@ -21242,6 +21244,7 @@ mTextStyle
 >
 WhiteSpaceCanWrap
 (
+mFrame
 )
 |
 |
@@ -52500,6 +52503,7 @@ textStyle
 >
 WordCanWrap
 (
+this
 )
 &
 breakPriority
