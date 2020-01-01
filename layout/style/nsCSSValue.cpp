@@ -4100,7 +4100,10 @@ return
 buffer
 ;
 }
-PRUnichar
+nsString
+:
+:
+size_type
 length
 =
 aValue
