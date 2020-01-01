@@ -41642,6 +41642,14 @@ gfxContext
 targetSurface
 )
 ;
+thebesContext
+-
+>
+SetFlag
+(
+FLAG_DESTINED_FOR_SCREEN
+)
+;
 #
 ifdef
 MOZ_XUL
