@@ -491,6 +491,12 @@ nsStringGlue
 h
 "
 #
+if
+defined
+(
+MOZ_ENABLE_PROFILER_SPS
+)
+#
 include
 "
 shared
@@ -499,6 +505,8 @@ libraries
 .
 h
 "
+#
+endif
 namespace
 base
 {
@@ -1056,6 +1064,12 @@ symbolication
 )
 *
 /
+#
+if
+defined
+(
+MOZ_ENABLE_PROFILER_SPS
+)
 void
 RecordChromeHang
 (
@@ -1070,6 +1084,8 @@ SharedLibraryInfo
 moduleMap
 )
 ;
+#
+endif
 }
 /
 /
