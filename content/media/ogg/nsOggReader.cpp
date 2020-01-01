@@ -2427,7 +2427,7 @@ GetStateMachine
 )
 -
 >
-GetSeekable
+IsSeekable
 (
 )
 )

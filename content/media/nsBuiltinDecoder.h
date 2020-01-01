@@ -2675,7 +2675,7 @@ this
 .
 virtual
 PRBool
-GetSeekable
+IsSeekable
 (
 )
 =
@@ -3358,8 +3358,17 @@ supported
 .
 virtual
 PRBool
+IsSeekable
+(
+)
+;
+virtual
+nsresult
 GetSeekable
 (
+nsTimeRanges
+*
+aSeekable
 )
 ;
 virtual

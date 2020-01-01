@@ -2007,7 +2007,7 @@ mEndTime
 ;
 }
 PRBool
-GetSeekable
+IsSeekable
 (
 )
 {
