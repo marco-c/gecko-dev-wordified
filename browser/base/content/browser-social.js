@@ -10578,6 +10578,13 @@ provider
 sidebarURL
 )
 ;
+PopupNotifications
+.
+locationChange
+(
+sbrowser
+)
+;
 }
 /
 /
