@@ -3409,7 +3409,6 @@ cx
 obj
 JS_GetPrototype
 (
-cx
 obj
 )
 JS_GetGlobalForObject

@@ -1865,7 +1865,6 @@ Histogram
 (
 JS_GetPrivate
 (
-cx
 obj
 )
 )
@@ -1954,7 +1953,6 @@ Histogram
 (
 JS_GetPrivate
 (
-cx
 obj
 )
 )
@@ -2116,16 +2114,14 @@ OBJECT_TO_JSVAL
 obj
 )
 ;
-return
-(
 JS_SetPrivate
 (
-cx
 obj
 h
 )
-&
-&
+;
+return
+(
 JS_DefineFunction
 (
 cx

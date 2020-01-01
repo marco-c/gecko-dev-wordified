@@ -2801,7 +2801,6 @@ proto
 =
 JS_GetPrototype
 (
-cx
 proto
 )
 )
@@ -4709,7 +4708,6 @@ expando
 ;
 JS_SetPrivate
 (
-cx
 expando
 js
 :
