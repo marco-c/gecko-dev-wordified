@@ -205,6 +205,9 @@ pressed
 ;
 testButtons
 (
+"
+all
+"
 )
 ;
 testContents
