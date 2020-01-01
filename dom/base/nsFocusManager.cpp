@@ -12595,8 +12595,6 @@ Next
 (
 )
 ;
-nsIFrame
-*
 newCaretFrame
 =
 static_cast
