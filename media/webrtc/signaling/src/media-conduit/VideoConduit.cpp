@@ -3113,7 +3113,7 @@ receiving
 already
 if
 (
-mEngineReceiving
+mEngineTransmitting
 )
 {
 /
@@ -3296,7 +3296,7 @@ __FUNCTION__
 )
 ;
 return
-0
+len
 ;
 }
 else
@@ -3387,7 +3387,7 @@ __FUNCTION__
 )
 ;
 return
-0
+len
 ;
 }
 else
