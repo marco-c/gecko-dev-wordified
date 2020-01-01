@@ -215,6 +215,13 @@ nsIFrame
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 class
 nsIPresShell
 ;
@@ -1305,7 +1312,10 @@ is
 locked
 .
 static
-nsIntPoint
+mozilla
+:
+:
+CSSIntPoint
 sLastClientPoint
 ;
 static

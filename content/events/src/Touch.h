@@ -134,6 +134,13 @@ EventTarget
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 namespace
 mozilla
 {
@@ -206,7 +213,7 @@ aIdentifier
 ;
 mPagePoint
 =
-nsIntPoint
+CSSIntPoint
 (
 aPageX
 aPageY
@@ -222,7 +229,7 @@ aScreenY
 ;
 mClientPoint
 =
-nsIntPoint
+CSSIntPoint
 (
 aClientX
 aClientY
@@ -300,7 +307,7 @@ aIdentifier
 ;
 mPagePoint
 =
-nsIntPoint
+CSSIntPoint
 (
 0
 0
@@ -316,7 +323,7 @@ nsIntPoint
 ;
 mClientPoint
 =
-nsIntPoint
+CSSIntPoint
 (
 0
 0
@@ -571,10 +578,10 @@ mForce
 int32_t
 mIdentifier
 ;
-nsIntPoint
+CSSIntPoint
 mPagePoint
 ;
-nsIntPoint
+CSSIntPoint
 mClientPoint
 ;
 nsIntPoint
