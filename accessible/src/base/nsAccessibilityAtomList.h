@@ -1433,7 +1433,7 @@ atom
 #
 include
 "
-nsAriaPropertyList
+nsARIAPropertyList
 .
 h
 "
@@ -1462,7 +1462,7 @@ atom
 #
 include
 "
-nsAriaPropertyList
+nsARIAPropertyList
 .
 h
 "
