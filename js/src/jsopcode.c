@@ -820,11 +820,10 @@ js_Disassemble
 .
 *
 /
-static
 const
 char
 *
-CodeName
+js_CodeName
 [
 ]
 =
@@ -1682,7 +1681,7 @@ fp
 %
 s
 "
-CodeName
+js_CodeName
 [
 op
 ]
