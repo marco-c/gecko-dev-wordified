@@ -2532,6 +2532,19 @@ return
 NS_OK
 ;
 }
+nsAHttpConnection
+*
+nsHttpTransaction
+:
+:
+Connection
+(
+)
+{
+return
+mConnection
+;
+}
 nsHttpResponseHead
 *
 nsHttpTransaction
@@ -9300,6 +9313,7 @@ mConnection
 >
 ResumeSend
 (
+this
 )
 ;
 if
@@ -9517,6 +9531,7 @@ mConnection
 >
 ResumeRecv
 (
+this
 )
 ;
 if

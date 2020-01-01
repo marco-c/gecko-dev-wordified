@@ -4609,6 +4609,11 @@ mCaps
 ~
 NS_HTTP_ALLOW_KEEPALIVE
 ;
+mCaps
+|
+=
+NS_HTTP_DISALLOW_SPDY
+;
 }
 nsCOMPtr
 <
