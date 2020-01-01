@@ -207,6 +207,15 @@ nsAutoPtr
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_ITESTSERVICE_IID
 \
@@ -248,6 +257,7 @@ NS_ITESTSERVICE_IID
 )
 class
 nsTestService
+MOZ_FINAL
 :
 public
 nsITestService

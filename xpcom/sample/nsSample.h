@@ -127,6 +127,15 @@ nsISample
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 *
@@ -249,6 +258,7 @@ sample
 "
 class
 nsSampleImpl
+MOZ_FINAL
 :
 public
 nsISample

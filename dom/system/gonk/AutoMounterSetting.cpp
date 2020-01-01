@@ -152,6 +152,15 @@ xpcpublic
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 undef
 LOG
 #
@@ -216,6 +225,7 @@ system
 {
 class
 SettingsServiceCallback
+MOZ_FINAL
 :
 public
 nsISettingsServiceCallback

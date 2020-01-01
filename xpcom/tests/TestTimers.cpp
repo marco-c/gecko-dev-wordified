@@ -159,6 +159,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ReentrantMonitor
 .
 h
@@ -329,6 +338,7 @@ mReentrantMonitor
 ;
 class
 TimerCallback
+MOZ_FINAL
 :
 public
 nsITimerCallback

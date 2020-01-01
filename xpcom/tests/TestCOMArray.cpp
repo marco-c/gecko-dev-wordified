@@ -123,6 +123,15 @@ nsCOMArray
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 {
@@ -197,6 +206,7 @@ NS_IFOO_IID
 )
 class
 Foo
+MOZ_FINAL
 :
 public
 IFoo
@@ -361,6 +371,7 @@ NS_IBAR_IID
 )
 class
 Bar
+MOZ_FINAL
 :
 public
 IBar

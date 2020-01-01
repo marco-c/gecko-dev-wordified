@@ -151,6 +151,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 stdio
 .
@@ -246,6 +255,7 @@ get
 }
 class
 TestObserver
+MOZ_FINAL
 :
 public
 nsIObserver
