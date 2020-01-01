@@ -1575,6 +1575,13 @@ JSOp
 op
 )
 ;
+bool
+jsop_localinc
+(
+JSOp
+op
+)
+;
 private
 :
 JSAtom
