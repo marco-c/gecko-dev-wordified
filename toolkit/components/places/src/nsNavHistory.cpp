@@ -18936,7 +18936,7 @@ if
 hidden
 )
 {
-FireOnVisit
+NotifyOnVisit
 (
 aURI
 *
