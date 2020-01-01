@@ -2860,6 +2860,10 @@ nationalPrefixForParsing
 md
 .
 nationalPrefixTransformRule
+|
+|
+'
+'
 )
 ;
 ret
