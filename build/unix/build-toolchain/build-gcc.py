@@ -1308,21 +1308,10 @@ glibc_version
 "
 2
 .
-6
-.
-1
-"
-#
-FIXME
-:
-should
-probably
-use
-2
-.
 5
 .
 1
+"
 tar_version
 =
 "
@@ -1978,6 +1967,10 @@ stage1_tool_inst_dir
 bin
 /
 gcc
+-
+fgnu89
+-
+inline
 "
                  
 "
