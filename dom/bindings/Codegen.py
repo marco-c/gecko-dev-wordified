@@ -20229,6 +20229,15 @@ jsvalRef
 obj
 .
     
+Returns
+(
+templateString
+infallibility
+of
+conversion
+template
+)
+    
 "
 "
 "
@@ -20530,11 +20539,14 @@ isVoid
 :
         
 return
+(
 setValue
 (
 "
 JSVAL_VOID
 "
+)
+True
 )
     
 if
@@ -20588,7 +20600,35 @@ T
 >
 >
             
+(
+recTemplate
+recInfall
+)
+=
+getWrapTemplateForType
+(
+type
+.
+inner
+descriptorProvider
+                                                              
+"
+%
+s
+.
+Value
+(
+)
+"
+%
+result
+successCode
+                                                              
+isCreator
+)
+            
 return
+(
 "
 "
 "
@@ -20629,28 +20669,9 @@ JSVAL_NULL
 define
 (
 )
-         
-getWrapTemplateForType
-(
-type
-.
-inner
-descriptorProvider
-                                
-"
-%
-s
-.
-Value
-(
+recTemplate
 )
-"
-%
-result
-successCode
-                                
-isCreator
-)
+recInfall
 )
         
 #
@@ -20804,6 +20825,7 @@ define
         
 return
 (
+(
 "
 "
 "
@@ -20885,6 +20907,8 @@ ObjectValue
 returnArray
 )
 "
+)
+False
 )
     
 if
@@ -21309,7 +21333,10 @@ wrap
 )
         
 return
+(
 wrappingCode
+False
+)
     
 if
 type
@@ -21328,6 +21355,7 @@ nullable
 :
             
 return
+(
 wrapAndSetPtr
 (
 "
@@ -21347,11 +21375,14 @@ jsvalPtr
 %
 result
 )
+False
+)
         
 else
 :
             
 return
+(
 wrapAndSetPtr
 (
 "
@@ -21370,6 +21401,8 @@ jsvalPtr
 "
 %
 result
+)
+False
 )
     
 if
@@ -21409,6 +21442,7 @@ yet
 )
         
 return
+(
 "
 "
 "
@@ -21536,6 +21570,7 @@ strings
 "
 }
 +
+        
 setValue
 (
 "
@@ -21550,6 +21585,8 @@ s_str
 "
 %
 result
+)
+False
 )
     
 if
@@ -21610,7 +21647,26 @@ wrap
 here
 .
         
+#
+NB
+:
+setValue
+(
+.
+.
+.
+True
+)
+calls
+JS_WrapValue
+(
+)
+so
+is
+fallible
+        
 return
+(
 setValue
 (
 "
@@ -21626,6 +21682,8 @@ s
 %
 result
 True
+)
+False
 )
     
 if
@@ -21659,11 +21717,32 @@ wrap
 here
 .
         
+#
+NB
+:
+setValue
+(
+.
+.
+.
+True
+)
+calls
+JS_WrapValue
+(
+)
+so
+is
+fallible
+        
 return
+(
 setValue
 (
 result
 True
+)
+False
 )
     
 if
@@ -21728,13 +21807,34 @@ s
 )
 "
         
+#
+NB
+:
+setValue
+(
+.
+.
+.
+True
+)
+calls
+JS_WrapValue
+(
+)
+so
+is
+fallible
+        
 return
+(
 setValue
 (
 toValue
 %
 result
 True
+)
+False
 )
     
 if
@@ -21769,6 +21869,33 @@ nullable
 (
 )
 :
+        
+(
+recTemplate
+recInfal
+)
+=
+getWrapTemplateForType
+(
+type
+.
+inner
+descriptorProvider
+                                                         
+"
+%
+s
+.
+Value
+(
+)
+"
+%
+result
+successCode
+                                                         
+isCreator
+)
         
 return
 (
@@ -21819,28 +21946,8 @@ n
 n
 "
 +
-                
-getWrapTemplateForType
-(
-type
-.
-inner
-descriptorProvider
-                                       
-"
-%
-s
-.
-Value
-(
-)
-"
-%
-result
-successCode
-                                       
-isCreator
-)
+recTemplate
+recInfal
 )
     
 tag
@@ -21885,6 +21992,7 @@ int32
 :
         
 return
+(
 setValue
 (
 "
@@ -21899,6 +22007,8 @@ s
 "
 %
 result
+)
+True
 )
     
 elif
@@ -21960,6 +22070,7 @@ care
 ?
         
 return
+(
 setValue
 (
 "
@@ -21975,6 +22086,8 @@ s
 %
 result
 )
+True
+)
     
 elif
 tag
@@ -21988,6 +22101,7 @@ uint32
 :
         
 return
+(
 setValue
 (
 "
@@ -21999,6 +22113,8 @@ s
 "
 %
 result
+)
+True
 )
     
 elif
@@ -22013,6 +22129,7 @@ bool
 :
         
 return
+(
 setValue
 (
 "
@@ -22024,6 +22141,8 @@ s
 "
 %
 result
+)
+True
 )
     
 else
@@ -22320,6 +22439,9 @@ isCreator
 False
 )
 )
+[
+0
+]
     
 defaultValues
 =
@@ -22348,6 +22470,116 @@ defaultValues
 *
 templateValues
 )
+def
+infallibleForAttr
+(
+attr
+descriptorProvider
+)
+:
+    
+"
+"
+"
+    
+Determine
+the
+fallibility
+of
+changing
+a
+C
++
++
+value
+of
+IDL
+type
+"
+type
+"
+into
+    
+JS
+for
+the
+given
+attribute
+.
+Apart
+from
+isCreator
+all
+the
+defaults
+are
+used
+    
+since
+the
+fallbility
+does
+not
+change
+based
+on
+the
+boolean
+values
+    
+and
+the
+template
+will
+be
+discarded
+.
+    
+CURRENT
+ASSUMPTIONS
+:
+        
+We
+assume
+that
+successCode
+for
+wrapping
+up
+return
+values
+cannot
+contain
+        
+failure
+conditions
+.
+    
+"
+"
+"
+    
+return
+getWrapTemplateForType
+(
+attr
+.
+type
+descriptorProvider
+'
+result
+'
+None
+\
+                                  
+memberIsCreator
+(
+attr
+)
+)
+[
+1
+]
 def
 typeNeedsCx
 (
@@ -24021,19 +24253,12 @@ self
         
 isCreator
 =
+memberIsCreator
+(
 self
 .
 idlNode
-.
-getExtendedAttribute
-(
-"
-Creator
-"
 )
-is
-not
-None
         
 if
 isCreator
@@ -28736,6 +28961,25 @@ attr
 define
 (
 )
+def
+memberIsCreator
+(
+member
+)
+:
+    
+return
+member
+.
+getExtendedAttribute
+(
+"
+Creator
+"
+)
+is
+not
+None
 class
 CGPropertyJITInfo
 (
@@ -28997,22 +29241,39 @@ identifier
 name
 )
         
-#
-For
-now
-mark
-all
-getters
-fallible
-until
-argument
-wrapping
-has
-been
-        
-#
-handled
+getterinfal
+=
+"
+infallible
+"
+in
+self
 .
+descriptor
+.
+getExtendedAttributes
+(
+self
+.
+attr
+getter
+=
+True
+)
+        
+getterinfal
+=
+getterinfal
+and
+infallibleForAttr
+(
+self
+.
+attr
+self
+.
+descriptor
+)
         
 result
 =
@@ -29022,7 +29283,7 @@ defineJitInfo
 (
 getterinfo
 getter
-False
+getterinfal
 )
         
 if
