@@ -1576,7 +1576,7 @@ EnsurePluginLoaded
 (
 nsPluginTag
 *
-plugin
+aPluginTag
 )
 ;
 bool
@@ -1584,7 +1584,7 @@ IsRunningPlugin
 (
 nsPluginTag
 *
-plugin
+aPluginTag
 )
 ;
 /
