@@ -61,9 +61,6 @@ os
 getcwd
 (
 )
-context
-=
-None
 cb
 =
 sys

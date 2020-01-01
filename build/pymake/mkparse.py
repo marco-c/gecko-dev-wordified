@@ -1,3 +1,12 @@
+#
+!
+/
+usr
+/
+bin
+/
+env
+python
 import
 sys
 import
@@ -42,6 +51,12 @@ parsestream
 (
 fd
 f
+)
+    
+fd
+.
+close
+(
 )
     
 print
