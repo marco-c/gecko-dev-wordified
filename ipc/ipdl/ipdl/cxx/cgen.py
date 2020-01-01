@@ -1723,6 +1723,21 @@ const
 if
 md
 .
+warn_unused
+:
+            
+self
+.
+write
+(
+'
+NS_WARN_UNUSED_RESULT
+'
+)
+        
+if
+md
+.
 pure
 :
             

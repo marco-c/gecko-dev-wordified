@@ -36631,11 +36631,7 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
-nsRunnableMethod
-<
-nsXBLBinding
->
+NS_NewRunnableMethod
 (
 binding
 &

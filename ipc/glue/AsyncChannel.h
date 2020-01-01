@@ -898,6 +898,7 @@ void
 AssertWorkerThread
 (
 )
+const
 {
 NS_ABORT_IF_FALSE
 (
@@ -924,6 +925,7 @@ void
 AssertIOThread
 (
 )
+const
 {
 NS_ABORT_IF_FALSE
 (
@@ -950,6 +952,7 @@ bool
 Connected
 (
 )
+const
 {
 mMutex
 .
@@ -999,6 +1002,7 @@ Message
 *
 msg
 )
+const
 ;
 /
 /
@@ -1041,6 +1045,7 @@ char
 *
 channelName
 )
+const
 ;
 void
 PrintErrorMessage
@@ -1054,6 +1059,7 @@ char
 *
 msg
 )
+const
 {
 fprintf
 (
@@ -1112,6 +1118,7 @@ Message
 *
 msg
 )
+const
 ;
 void
 OnNotifyMaybeChannelError
@@ -1123,6 +1130,7 @@ bool
 ShouldDeferNotifyMaybeError
 (
 )
+const
 {
 return
 false
