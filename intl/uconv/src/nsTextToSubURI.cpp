@@ -1105,6 +1105,17 @@ rv
 rv
 )
 ;
+unicodeDecoder
+-
+>
+SetInputErrorBehavior
+(
+nsIUnicodeDecoder
+:
+:
+kOnError_Signal
+)
+;
 int32_t
 srcLen
 =
