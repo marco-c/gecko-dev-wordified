@@ -21393,7 +21393,7 @@ state
 let
 state
 =
-null
+CALL_STATE_UNKNOWN
 ;
 for
 each
@@ -21411,6 +21411,9 @@ participants
 if
 (
 state
+!
+=
+CALL_STATE_UNKNOWN
 &
 &
 state
@@ -21439,7 +21442,7 @@ happens
 .
 state
 =
-null
+CALL_STATE_UNKNOWN
 ;
 break
 ;
