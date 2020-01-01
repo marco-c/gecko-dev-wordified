@@ -454,13 +454,6 @@ BLOCK
 #
 include
 "
-jscntxt
-.
-h
-"
-#
-include
-"
 nsJSEnvironment
 .
 h
@@ -728,6 +721,13 @@ h
 include
 "
 nsContentUtils
+.
+h
+"
+#
+include
+"
+jscntxt
 .
 h
 "

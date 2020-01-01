@@ -396,14 +396,14 @@ BLOCK
 #
 include
 "
-xpcprivate
+xpcJSWeakReference
 .
 h
 "
 #
 include
 "
-xpcJSWeakReference
+xpcprivate
 .
 h
 "

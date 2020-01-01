@@ -445,13 +445,6 @@ BLOCK
 #
 include
 "
-jscntxt
-.
-h
-"
-#
-include
-"
 nsDOMThreadService
 .
 h
@@ -589,6 +582,13 @@ h
 /
 Other
 includes
+#
+include
+"
+jscntxt
+.
+h
+"
 #
 include
 "
