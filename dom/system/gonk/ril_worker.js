@@ -7345,10 +7345,10 @@ locks
 .
 *
 /
-iccGetCardLock
+iccGetCardLockState
 :
 function
-iccGetCardLock
+iccGetCardLockState
 (
 options
 )
