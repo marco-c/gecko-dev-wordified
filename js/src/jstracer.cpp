@@ -84977,7 +84977,6 @@ op
 (
 cx
 obj
-obj
 id
 vp
 )
@@ -85077,7 +85076,6 @@ if
 js_GetPropertyHelperWithShape
 (
 cx
-obj
 obj
 id
 JSGET_METHOD_BARRIER

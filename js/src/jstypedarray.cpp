@@ -3007,9 +3007,6 @@ cx
 JSObject
 *
 obj
-JSObject
-*
-receiver
 jsid
 id
 Value
@@ -3232,9 +3229,6 @@ cx
 JSObject
 *
 obj
-JSObject
-*
-receiver
 jsid
 id
 Value
@@ -3859,7 +3853,6 @@ return
 obj_setProperty
 (
 cx
-obj
 obj
 id
 &
