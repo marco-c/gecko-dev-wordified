@@ -589,8 +589,11 @@ nsIGeolocationUpdate
 >
 mCallback
 ;
-PRBool
+PRPackedBool
 mHasSeenLocation
+;
+PRPackedBool
+mHasGPS
 ;
 nsCOMPtr
 <
