@@ -1660,11 +1660,14 @@ aErrorCode
 )
 &
 &
+PRUint32
+(
 mUnicharData
 -
 >
 GetBufferSize
 (
+)
 )
 >
 mUnicharDataLength
