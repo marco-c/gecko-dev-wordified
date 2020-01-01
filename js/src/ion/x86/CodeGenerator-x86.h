@@ -521,11 +521,6 @@ generatePrologue
 (
 )
 ;
-bool
-generateEpilogue
-(
-)
-;
 public
 :
 bool
@@ -534,6 +529,14 @@ visitBox
 LBox
 *
 box
+)
+;
+bool
+visitUnbox
+(
+LUnbox
+*
+unbox
 )
 ;
 bool

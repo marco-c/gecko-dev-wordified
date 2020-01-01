@@ -4693,6 +4693,16 @@ stackHeight_
 stackHeight
 ;
 }
+uint32
+stackHeight
+(
+)
+const
+{
+return
+stackHeight_
+;
+}
 }
 ;
 LAllocation

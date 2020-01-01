@@ -812,13 +812,6 @@ useRegister
 (
 box
 )
-temp
-(
-LDefinition
-:
-:
-INTEGER
-)
 )
 ;
 return
