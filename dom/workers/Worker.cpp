@@ -1113,7 +1113,7 @@ worker
 worker
 -
 >
-_Finalize
+_finalize
 (
 aFop
 )
@@ -1168,7 +1168,7 @@ worker
 worker
 -
 >
-_Trace
+_trace
 (
 aTrc
 )
@@ -1863,7 +1863,7 @@ worker
 worker
 -
 >
-_Finalize
+_finalize
 (
 aFop
 )
@@ -1918,7 +1918,7 @@ worker
 worker
 -
 >
-_Trace
+_trace
 (
 aTrc
 )

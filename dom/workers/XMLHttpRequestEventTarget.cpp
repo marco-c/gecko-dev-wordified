@@ -105,7 +105,7 @@ void
 XMLHttpRequestEventTarget
 :
 :
-_Trace
+_trace
 (
 JSTracer
 *
@@ -115,7 +115,7 @@ aTrc
 EventTarget
 :
 :
-_Trace
+_trace
 (
 aTrc
 )
@@ -125,7 +125,7 @@ void
 XMLHttpRequestEventTarget
 :
 :
-_Finalize
+_finalize
 (
 JSFreeOp
 *
@@ -135,7 +135,7 @@ aFop
 EventTarget
 :
 :
-_Finalize
+_finalize
 (
 aFop
 )

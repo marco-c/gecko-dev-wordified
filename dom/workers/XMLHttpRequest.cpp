@@ -6303,7 +6303,7 @@ void
 XMLHttpRequest
 :
 :
-_Trace
+_trace
 (
 JSTracer
 *
@@ -6344,7 +6344,7 @@ mResponse
 XMLHttpRequestEventTarget
 :
 :
-_Trace
+_trace
 (
 aTrc
 )
@@ -6354,7 +6354,7 @@ void
 XMLHttpRequest
 :
 :
-_Finalize
+_finalize
 (
 JSFreeOp
 *
@@ -6369,7 +6369,7 @@ XHRIsGoingAway
 XMLHttpRequestEventTarget
 :
 :
-_Finalize
+_finalize
 (
 aFop
 )
@@ -6383,7 +6383,7 @@ XMLHttpRequest
 XMLHttpRequest
 :
 :
-_Constructor
+Constructor
 (
 JSContext
 *

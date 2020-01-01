@@ -163,7 +163,7 @@ void
 XMLHttpRequestUpload
 :
 :
-_Trace
+_trace
 (
 JSTracer
 *
@@ -193,7 +193,7 @@ mXHR
 XMLHttpRequestEventTarget
 :
 :
-_Trace
+_trace
 (
 aTrc
 )
@@ -203,7 +203,7 @@ void
 XMLHttpRequestUpload
 :
 :
-_Finalize
+_finalize
 (
 JSFreeOp
 *
@@ -213,7 +213,7 @@ aFop
 XMLHttpRequestEventTarget
 :
 :
-_Finalize
+_finalize
 (
 aFop
 )
