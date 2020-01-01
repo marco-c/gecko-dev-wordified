@@ -1070,6 +1070,17 @@ vetoHook
 )
 )
 ;
+#
+ifdef
+MOZ_VISUAL_EVENT_TRACER
+nsHttpChannel
+*
+channel
+=
+mChannel
+;
+#
+endif
 mChannel
 =
 nullptr
