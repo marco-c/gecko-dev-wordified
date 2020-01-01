@@ -4523,11 +4523,15 @@ cairo_pattern_t
 pattern
 )
 :
-mBrush
+mAcquiredImageParent
 (
 0
 )
-mAcquiredImageParent
+mAcquiredImage
+(
+0
+)
+mAcquiredImageExtra
 (
 0
 )
@@ -4588,7 +4592,6 @@ alpha
 ;
 mBrush
 =
-new
 QBrush
 (
 color
@@ -4657,7 +4660,6 @@ image
 {
 mBrush
 =
-new
 QBrush
 (
 *
@@ -4679,7 +4681,6 @@ pixmap
 {
 mBrush
 =
-new
 QBrush
 (
 *
@@ -4699,7 +4700,6 @@ something
 smart
 mBrush
 =
-new
 QBrush
 (
 0xff0000ff
@@ -4784,7 +4784,6 @@ isurf
 {
 mBrush
 =
-new
 QBrush
 (
 QImage
@@ -4825,7 +4824,6 @@ else
 {
 mBrush
 =
-new
 QBrush
 (
 0x0000ffff
@@ -5759,7 +5757,6 @@ color
 }
 mBrush
 =
-new
 QBrush
 (
 *
@@ -5772,7 +5769,17 @@ grad
 }
 if
 (
+Qt
+:
+:
+NoBrush
+!
+=
 mBrush
+.
+style
+(
+)
 &
 &
 pattern
@@ -5815,8 +5822,7 @@ pm
 CAIRO_STATUS_SUCCESS
 )
 mBrush
--
->
+.
 setMatrix
 (
 _qmatrix_from_cairo_matrix
@@ -5832,9 +5838,6 @@ PatternToBrushConverter
 (
 )
 {
-delete
-mBrush
-;
 if
 (
 mAcquiredImageParent
@@ -5854,12 +5857,10 @@ QBrush
 )
 {
 return
-*
 mBrush
 ;
 }
 QBrush
-*
 mBrush
 ;
 cairo_surface_t
