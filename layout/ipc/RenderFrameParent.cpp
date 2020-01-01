@@ -2397,6 +2397,15 @@ metrics
 .
 mScrollId
 ;
+if
+(
+metrics
+.
+IsScrollable
+(
+)
+)
+{
 nscoord
 auPerDevPixel
 =
@@ -2674,6 +2683,7 @@ view
 )
 )
 ;
+}
 for
 (
 Layer
