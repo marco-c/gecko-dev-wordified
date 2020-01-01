@@ -10570,9 +10570,9 @@ JITScript
 :
 destroy
 (
-JSContext
+FreeOp
 *
-cx
+fop
 )
 {
 for
@@ -10592,7 +10592,7 @@ i
 )
 destroyChunk
 (
-cx
+fop
 i
 )
 ;
@@ -10614,9 +10614,9 @@ JITScript
 :
 destroyChunk
 (
-JSContext
+FreeOp
 *
-cx
+fop
 unsigned
 chunkIndex
 bool
@@ -10644,7 +10644,7 @@ Probes
 :
 discardMJITCode
 (
-cx
+fop
 this
 script
 desc
@@ -10661,7 +10661,7 @@ executableAddress
 )
 )
 ;
-cx
+fop
 -
 >
 delete_
@@ -10762,7 +10762,7 @@ edge
 jumpTableEntries
 )
 {
-cx
+fop
 -
 >
 delete_
@@ -11316,9 +11316,9 @@ mjit
 :
 ReleaseScriptCode
 (
-JSContext
+FreeOp
 *
-cx
+fop
 JSScript
 *
 script
@@ -11413,10 +11413,10 @@ pjit
 >
 destroy
 (
-cx
+fop
 )
 ;
-cx
+fop
 -
 >
 free_

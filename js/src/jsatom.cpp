@@ -1580,7 +1580,6 @@ fop
 rt
 false
 false
-NULL
 )
 ;
 for

@@ -1842,9 +1842,9 @@ virtual
 void
 discardMJITCode
 (
-JSContext
+FreeOp
 *
-cx
+fop
 mjit
 :
 :
@@ -2095,9 +2095,9 @@ discarded
 void
 discardMJITCode
 (
-JSContext
+FreeOp
 *
-cx
+fop
 mjit
 :
 :

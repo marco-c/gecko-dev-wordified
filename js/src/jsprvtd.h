@@ -1888,9 +1888,9 @@ void
 JSDestroyScriptHook
 )
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSScript
 *
 script
