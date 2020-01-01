@@ -8160,6 +8160,9 @@ ins
 ;
 }
 }
+#
+ifdef
+NJ_VERBOSE
 /
 /
 We
@@ -8405,6 +8408,8 @@ oprnd1
 ;
 }
 }
+#
+endif
 if
 (
 error
