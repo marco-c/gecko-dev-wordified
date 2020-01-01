@@ -460,6 +460,13 @@ h
 #
 include
 "
+nsCoreUtils
+.
+h
+"
+#
+include
+"
 nsIDOMDocument
 .
 h

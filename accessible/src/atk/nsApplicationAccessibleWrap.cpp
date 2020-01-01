@@ -2515,7 +2515,9 @@ if
 nsAccessibilityService
 :
 :
-gIsShutdown
+IsShutdown
+(
+)
 )
 {
 /

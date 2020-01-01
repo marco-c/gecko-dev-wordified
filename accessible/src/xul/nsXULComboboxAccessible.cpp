@@ -474,6 +474,13 @@ h
 #
 include
 "
+nsCoreUtils
+.
+h
+"
+#
+include
+"
 nsIDOMXULMenuListElement
 .
 h

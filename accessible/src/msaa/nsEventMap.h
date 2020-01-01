@@ -773,13 +773,6 @@ nsIAccessibleEvent
 :
 :
 EVENT_MINIMIZE_END
-kEVENT_WIN_UNKNOWN
-/
-/
-nsIAccessibleEvent
-:
-:
-EVENT_DOCUMENT_LOAD_START
 IA2_EVENT_DOCUMENT_LOAD_COMPLETE
 /
 /
@@ -1116,13 +1109,6 @@ nsIAccessibleEvent
 :
 :
 EVENT_PAGE_CHANGED
-kEVENT_WIN_UNKNOWN
-/
-/
-nsIAccessibleEvent
-:
-:
-EVENT_INTERNAL_LOAD
 kEVENT_LAST_ENTRY
 /
 /

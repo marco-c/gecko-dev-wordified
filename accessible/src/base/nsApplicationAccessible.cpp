@@ -1479,7 +1479,9 @@ return
 nsAccessibilityService
 :
 :
-gIsShutdown
+IsShutdown
+(
+)
 ;
 }
 nsresult
