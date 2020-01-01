@@ -497,7 +497,7 @@ mPoints
 aFour
 ;
 }
-PRBool
+bool
 Contains
 (
 const
