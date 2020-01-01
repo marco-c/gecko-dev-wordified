@@ -557,6 +557,14 @@ mIOTexture
 (
 nsnull
 )
+mUnsupportedWidth
+(
+UINT32_MAX
+)
+mUnsupportedHeight
+(
+UINT32_MAX
+)
 {
 }
 ~
@@ -692,6 +700,12 @@ mFBO
 ;
 uint32_t
 mIOTexture
+;
+uint32_t
+mUnsupportedWidth
+;
+uint32_t
+mUnsupportedHeight
 ;
 }
 ;
