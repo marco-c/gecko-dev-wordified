@@ -462,6 +462,13 @@ jsregexpinlines
 .
 h
 "
+#
+include
+"
+jstypedarrayinlines
+.
+h
+"
 using
 namespace
 js
