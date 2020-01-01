@@ -869,10 +869,12 @@ litChar
 ;
 while
 (
+(
 litChar
 =
 *
 litPtr
+)
 )
 {
 NS_ASSERTION
