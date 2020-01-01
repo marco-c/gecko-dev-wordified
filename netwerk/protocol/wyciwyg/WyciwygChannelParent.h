@@ -197,6 +197,10 @@ const
 PRUint32
 &
 appId
+const
+nsCString
+&
+extendedOrigin
 )
 ;
 virtual
@@ -298,6 +302,9 @@ mIsInBrowserElement
 ;
 PRUint32
 mAppId
+;
+nsCString
+mExtendedOrigin
 ;
 }
 ;

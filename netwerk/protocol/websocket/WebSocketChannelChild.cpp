@@ -1532,6 +1532,9 @@ appId
 =
 0
 ;
+nsCAutoString
+extendedOrigin
+;
 nsCOMPtr
 <
 nsILoadContext
@@ -1597,6 +1600,15 @@ GetAppId
 appId
 )
 ;
+loadContext
+-
+>
+GetExtendedOrigin
+(
+mURI
+extendedOrigin
+)
+;
 }
 /
 /
@@ -1634,6 +1646,7 @@ isContent
 usePrivateBrowsing
 isInBrowserElement
 appId
+extendedOrigin
 )
 )
 return

@@ -1900,12 +1900,6 @@ mOriginalURI
 ;
 nsCOMPtr
 <
-nsIURI
->
-mURI
-;
-nsCOMPtr
-<
 nsISupports
 >
 mOwner
@@ -1951,6 +1945,12 @@ mRedirectFlags
 ;
 protected
 :
+nsCOMPtr
+<
+nsIURI
+>
+mURI
+;
 nsCOMPtr
 <
 nsILoadGroup
