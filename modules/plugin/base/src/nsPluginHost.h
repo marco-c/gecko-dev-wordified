@@ -898,8 +898,10 @@ PRLibrary
 *
 mLibrary
 ;
+nsCOMPtr
+<
 nsIPlugin
-*
+>
 mEntryPoint
 ;
 PRPackedBool
@@ -1844,10 +1846,6 @@ void
 UnloadUnusedLibraries
 (
 )
-;
-char
-*
-mPluginPath
 ;
 nsRefPtr
 <
