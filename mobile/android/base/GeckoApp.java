@@ -10280,7 +10280,7 @@ R
 .
 layout
 .
-gecko_app_actionbar
+browser_toolbar
 null
 )
 ;
@@ -13076,7 +13076,7 @@ R
 .
 layout
 .
-gecko_app_actionbar
+browser_toolbar
 null
 )
 ;

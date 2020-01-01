@@ -847,7 +847,7 @@ R
 .
 layout
 .
-awesomebar_search
+awesomebar
 )
 ;
 if
@@ -878,7 +878,7 @@ R
 .
 layout
 .
-awesomebar_search_actionbar
+awesomebar_search
 null
 )
 ;
