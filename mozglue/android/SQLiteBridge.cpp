@@ -101,17 +101,12 @@ APKOpen
 h
 "
 #
-ifndef
-MOZ_OLD_LINKER
-#
 include
 "
 ElfLoader
 .
 h
 "
-#
-endif
 #
 include
 "
