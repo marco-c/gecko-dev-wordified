@@ -409,7 +409,7 @@ ifndef
 CSecureJNI2_h___
 #
 define
-CSecureJNI_h___
+CSecureJNI2_h___
 #
 include
 "
