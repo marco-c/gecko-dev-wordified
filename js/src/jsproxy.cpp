@@ -928,7 +928,7 @@ shortid
 )
 ;
 return
-callJSPropertyOp
+CallJSPropertyOp
 (
 cx
 desc
@@ -1077,7 +1077,7 @@ shortid
 )
 ;
 return
-callJSPropertyOpSetter
+CallJSPropertyOpSetter
 (
 cx
 desc
@@ -1193,7 +1193,7 @@ shortid
 )
 ;
 return
-callJSPropertyOpSetter
+CallJSPropertyOpSetter
 (
 cx
 desc
@@ -6504,10 +6504,12 @@ construct
 &
 &
 !
-js_EnsureReservedSlots
+obj
+-
+>
+ensureInstanceReservedSlots
 (
 cx
-obj
 0
 )
 )
@@ -6564,6 +6566,7 @@ if
 (
 construct
 )
+{
 obj
 -
 >
@@ -6583,6 +6586,7 @@ UndefinedValue
 )
 )
 ;
+}
 }
 return
 obj

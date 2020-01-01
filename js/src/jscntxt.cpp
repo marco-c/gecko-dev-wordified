@@ -5034,7 +5034,7 @@ scopes
 initialized
 by
 *
-JSScope
+Shape
 :
 :
 initRuntimeState
@@ -5088,7 +5088,7 @@ shapeGen
 ;
 ok
 =
-JSScope
+Shape
 :
 :
 initRuntimeState
@@ -6554,7 +6554,7 @@ cx
 ;
 #
 endif
-JSScope
+Shape
 :
 :
 finishRuntimeState

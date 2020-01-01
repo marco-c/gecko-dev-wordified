@@ -1070,7 +1070,10 @@ endif
 JSClass
 (
 and
-JSObjectOps
+js
+:
+:
+ObjectOps
 where
 appropriate
 )

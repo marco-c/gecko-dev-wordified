@@ -6996,8 +6996,8 @@ of
 memory
 via
 cx
-*
 and
+*
 return
 null
 on
@@ -7010,8 +7010,8 @@ or
 byte
 vector
 that
-*
 was
+*
 JS_malloc
 '
 ed
@@ -7019,7 +7019,7 @@ ed
 length
 is
 updated
-with
+to
 the
 length
 of

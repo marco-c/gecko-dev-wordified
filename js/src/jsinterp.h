@@ -2617,7 +2617,7 @@ deferred
 cloning
 due
 to
-JSScope
+JSObject
 :
 :
 methodReadBarrier
