@@ -2307,6 +2307,9 @@ nscoord
 aAscent
 nscoord
 aSize
+const
+PRUint8
+aDecoration
 )
 ;
 void
