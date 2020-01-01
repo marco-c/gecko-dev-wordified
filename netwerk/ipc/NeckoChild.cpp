@@ -451,6 +451,10 @@ const
 SerializedLoadContext
 &
 loadContext
+const
+HttpChannelCreationArgs
+&
+aOpenArgs
 )
 {
 /
@@ -557,6 +561,10 @@ const
 SerializedLoadContext
 &
 aSerialized
+const
+FTPChannelCreationArgs
+&
+aOpenArgs
 )
 {
 /
