@@ -504,6 +504,13 @@ uint32_t
 aBufferLength
 )
 ;
+virtual
+bool
+GetPrivateBrowsing
+(
+)
+MOZ_OVERRIDE
+;
 nsPresContext
 *
 mPresContext
