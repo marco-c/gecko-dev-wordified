@@ -1064,6 +1064,9 @@ bool
 mIMEMaskSelectionUpdate
 mIMEMaskTextUpdate
 ;
+bool
+mIMEMaskEvents
+;
 nsString
 mIMEComposingText
 ;

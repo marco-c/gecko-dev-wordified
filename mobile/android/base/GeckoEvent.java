@@ -701,6 +701,14 @@ public
 static
 final
 int
+IME_ACKNOWLEDGE_FOCUS
+=
+6
+;
+public
+static
+final
+int
 IME_RANGE_CARETPOSITION
 =
 1
