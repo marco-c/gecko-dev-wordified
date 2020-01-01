@@ -15170,6 +15170,12 @@ headelement
 firstChild
 )
 ;
+editor
+.
+documentCharacterSet
+=
+prefCharsetString
+;
 }
 }
 var
