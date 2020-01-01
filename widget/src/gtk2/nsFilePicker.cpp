@@ -2134,7 +2134,7 @@ GtkWidget
 file_chooser
 )
 {
-mFilesURL
+mFiles
 .
 Clear
 (
