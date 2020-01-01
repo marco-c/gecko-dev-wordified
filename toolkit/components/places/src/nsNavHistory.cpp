@@ -9066,7 +9066,7 @@ aURI
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_FALSE
 )
 ;
 PRBool
@@ -9086,7 +9086,7 @@ hasMore
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_FALSE
 )
 ;
 if
