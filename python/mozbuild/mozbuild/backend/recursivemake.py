@@ -89,6 +89,8 @@ VariablePassthru
     
 Exports
     
+Program
+    
 XpcshellManifests
 )
 from
@@ -1757,6 +1759,24 @@ elif
 isinstance
 (
 obj
+Program
+)
+:
+            
+self
+.
+_process_program
+(
+obj
+.
+program
+backend_file
+)
+        
+elif
+isinstance
+(
+obj
 XpcshellManifests
 )
 :
@@ -2709,6 +2729,31 @@ namespace
 namespace
 +
 subdir
+)
+    
+def
+_process_program
+(
+self
+program
+backend_file
+)
+:
+        
+backend_file
+.
+write
+(
+'
+PROGRAM
+=
+%
+s
+\
+n
+'
+%
+program
 )
     
 def
