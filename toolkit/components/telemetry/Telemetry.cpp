@@ -1747,7 +1747,12 @@ TelemetryImpl
 :
 mCanRecord
 (
-true
+XRE_GetProcessType
+(
+)
+=
+=
+GeckoProcessType_Default
 )
 {
 mHistogramMap
