@@ -930,7 +930,7 @@ bottom
 )
 const
 ;
-CallStackSegment
+StackSegment
 *
 cs
 (
@@ -943,7 +943,7 @@ curcs
 }
 private
 :
-CallStackSegment
+StackSegment
 *
 curcs
 ;

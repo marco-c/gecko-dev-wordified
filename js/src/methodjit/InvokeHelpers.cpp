@@ -2812,7 +2812,7 @@ Invoke
 f
 .
 cx
-InvokeArgsGuard
+InvokeArgsAlreadyOnTheStack
 (
 vp
 argc
@@ -3127,7 +3127,7 @@ if
 InvokeConstructor
 (
 cx
-InvokeArgsGuard
+InvokeArgsAlreadyOnTheStack
 (
 vp
 argc
