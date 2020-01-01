@@ -854,6 +854,10 @@ Location
 mLocation
 ;
 public
+Address
+mAddress
+;
+public
 int
 mNativeWindow
 ;
@@ -1103,6 +1107,8 @@ GeckoEvent
 (
 Location
 l
+Address
+a
 )
 {
 mType
@@ -1112,6 +1118,10 @@ LOCATION_EVENT
 mLocation
 =
 l
+;
+mAddress
+=
+a
 ;
 }
 public
