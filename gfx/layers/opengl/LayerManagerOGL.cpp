@@ -1842,16 +1842,6 @@ BeginTransaction
 (
 )
 {
-NS_ASSERTION
-(
-mRootLayer
-"
-Root
-not
-set
-"
-)
-;
 }
 void
 LayerManagerOGL
