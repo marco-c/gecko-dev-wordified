@@ -962,9 +962,17 @@ mIndexInParent
 -
 1
 )
-mFlags
+mChildrenFlags
 (
 eChildrenUninitialized
+)
+mStateFlags
+(
+0
+)
+mFlags
+(
+0
 )
 mIndexOfEmbeddedChild
 (
@@ -13919,7 +13927,7 @@ point
 to
 this
 parent
-mFlags
+mStateFlags
 |
 =
 eIsDefunct

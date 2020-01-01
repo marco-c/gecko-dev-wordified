@@ -675,7 +675,10 @@ mFlags
 |
 =
 eDocAccessible
+;
+mStateFlags
 |
+=
 eNotNodeMapEntry
 ;
 MOZ_ASSERT
@@ -3601,7 +3604,7 @@ for
 details
 )
 .
-mFlags
+mStateFlags
 |
 =
 eIsDefunct
@@ -12366,7 +12369,7 @@ aRoot
 aRoot
 -
 >
-mFlags
+mStateFlags
 |
 =
 eIsNotInDocument

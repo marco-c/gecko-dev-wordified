@@ -1357,7 +1357,7 @@ aContent
 aDoc
 )
 {
-mFlags
+mStateFlags
 |
 =
 eSharedNode

@@ -276,7 +276,7 @@ const
 {
 if
 (
-mFlags
+mStateFlags
 &
 eHasNumericValue
 )

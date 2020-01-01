@@ -1507,7 +1507,7 @@ its
 tree
 itself
 .
-mFlags
+mStateFlags
 |
 =
 eNotNodeMapEntry
