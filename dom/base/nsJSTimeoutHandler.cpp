@@ -926,6 +926,9 @@ mFunObj
 ;
 if
 (
+fun
+&
+&
 JS_GetFunctionId
 (
 fun
