@@ -388,12 +388,6 @@ feature
 int
 index
 ;
-int
-maxnumcalls
-;
-int
-busy_trigger
-;
 char
 name
 [
