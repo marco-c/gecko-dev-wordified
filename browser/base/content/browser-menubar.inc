@@ -3869,6 +3869,11 @@ menuitem
 >
 <
 menuitem
+id
+=
+"
+historyMenuHome
+"
 label
 =
 "
