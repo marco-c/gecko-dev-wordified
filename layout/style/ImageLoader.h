@@ -139,6 +139,15 @@ nsStubImageDecoderObserver
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIFrame
 ;
@@ -162,6 +171,7 @@ css
 {
 class
 ImageLoader
+MOZ_FINAL
 :
 public
 nsStubImageDecoderObserver
