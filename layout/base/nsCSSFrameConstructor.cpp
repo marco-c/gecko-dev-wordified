@@ -7688,6 +7688,9 @@ needPlaceholder
 =
 PR_FALSE
 ;
+nsFrameState
+placeholderType
+;
 nsFrameItems
 *
 frameItems
@@ -7758,6 +7761,10 @@ frameItems
 &
 mPopupItems
 ;
+placeholderType
+=
+PLACEHOLDER_FOR_POPUP
+;
 }
 else
 #
@@ -7818,6 +7825,10 @@ frameItems
 =
 &
 mFloatedItems
+;
+placeholderType
+=
+PLACEHOLDER_FOR_FLOAT
 ;
 }
 else
@@ -7880,6 +7891,10 @@ frameItems
 &
 mAbsoluteItems
 ;
+placeholderType
+=
+PLACEHOLDER_FOR_ABSPOS
+;
 }
 if
 (
@@ -7941,6 +7956,10 @@ GetFixedItems
 (
 )
 ;
+placeholderType
+=
+PLACEHOLDER_FOR_FIXEDPOS
+;
 }
 }
 if
@@ -7987,6 +8006,7 @@ aNewFrame
 aStyleContext
 aParentFrame
 nsnull
+placeholderType
 &
 placeholderFrame
 )
@@ -19209,6 +19229,8 @@ aParentFrame
 nsIFrame
 *
 aPrevInFlow
+nsFrameState
+aTypeBit
 nsIFrame
 *
 *
@@ -19261,6 +19283,7 @@ NS_NewPlaceholderFrame
 (
 aPresShell
 placeholderStyle
+aTypeBit
 )
 ;
 if
@@ -53849,6 +53872,14 @@ oofContFrame
 styleContext
 aParentFrame
 aFrame
+aFrame
+-
+>
+GetStateBits
+(
+)
+&
+PLACEHOLDER_TYPE_MASK
 &
 newFrame
 )

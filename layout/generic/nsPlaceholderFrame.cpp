@@ -526,6 +526,8 @@ aPresShell
 nsStyleContext
 *
 aContext
+nsFrameState
+aTypeBit
 )
 {
 return
@@ -536,6 +538,7 @@ aPresShell
 nsPlaceholderFrame
 (
 aContext
+aTypeBit
 )
 ;
 }

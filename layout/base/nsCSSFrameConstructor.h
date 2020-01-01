@@ -7305,6 +7305,8 @@ aParentFrame
 nsIFrame
 *
 aPrevInFlow
+nsFrameState
+aTypeBit
 nsIFrame
 *
 *
