@@ -685,7 +685,6 @@ startTime
                       
 debuggerInfo
 symbolsPath
-logger
 )
 :
         
