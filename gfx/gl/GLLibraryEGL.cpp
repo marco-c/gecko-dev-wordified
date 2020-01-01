@@ -776,15 +776,6 @@ SYMBOL
 (
 QuerySurface
 )
-#
-ifdef
-MOZ_WIDGET_GONK
-SYMBOL
-(
-SetSwapRectangleANDROID
-)
-#
-endif
 {
 NULL
 {
