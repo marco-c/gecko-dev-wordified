@@ -15639,13 +15639,7 @@ BaseProxyHandler
 :
 :
 GET
-/
-*
-mayThrow
-=
-*
-/
-false
+true
 )
 ;
 /
