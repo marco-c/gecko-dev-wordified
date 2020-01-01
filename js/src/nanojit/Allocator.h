@@ -618,7 +618,7 @@ nbytes
 )
 ;
 }
-private
+protected
 :
 void
 *
@@ -677,8 +677,6 @@ current_limit
 /
 allocator
 SPI
-private
-:
 /
 *
 *
