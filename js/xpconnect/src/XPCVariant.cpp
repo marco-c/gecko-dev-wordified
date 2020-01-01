@@ -464,13 +464,10 @@ h
 #
 include
 "
-jscntxt
+jsfriendapi
 .
 h
 "
-/
-/
-JS_CHECK_RECURSION
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 XPCVariant
