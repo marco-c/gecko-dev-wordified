@@ -6960,6 +6960,9 @@ reset
 "
 button
 "
+"
+image
+"
 ]
 ;
 let
