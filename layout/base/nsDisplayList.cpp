@@ -2974,6 +2974,13 @@ aLayer
 data
 )
 ;
+pt
+-
+>
+mIsRunningOnCompositor
+=
+true
+;
 }
 aLayer
 -
