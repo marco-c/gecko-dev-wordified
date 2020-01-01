@@ -8138,9 +8138,6 @@ break
 ;
 }
 }
-#
-ifdef
-JS_ASMJS
 ABIArgIter
 :
 :
@@ -8223,5 +8220,3 @@ i_
 )
 ;
 }
-#
-endif

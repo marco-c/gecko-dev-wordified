@@ -6662,9 +6662,6 @@ MIRType
 >
 MIRTypeVector
 ;
-#
-ifdef
-JS_ASMJS
 class
 ABIArgIter
 {
@@ -6817,8 +6814,6 @@ stackBytesConsumedSoFar
 }
 }
 ;
-#
-endif
 }
 /
 /

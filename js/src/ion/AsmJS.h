@@ -139,17 +139,6 @@ h
 >
 #
 endif
-#
-if
-defined
-(
-JS_ION
-)
-#
-define
-JS_ASMJS
-#
-endif
 namespace
 js
 {
@@ -1162,7 +1151,8 @@ functions
 .
 #
 ifdef
-JS_ASMJS
+JS_ION
+extern
 bool
 IsAsmJSModuleNative
 (
@@ -1175,7 +1165,6 @@ native
 ;
 #
 else
-static
 inline
 bool
 IsAsmJSModuleNative

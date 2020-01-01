@@ -167,9 +167,6 @@ namespace
 mozilla
 ;
 #
-ifdef
-JS_ASMJS
-#
 if
 defined
 (
@@ -7910,11 +7907,6 @@ backstop
 }
 #
 endif
-#
-endif
-/
-/
-JS_ASMJS
 bool
 EnsureAsmJSSignalHandlersInstalled
 (
@@ -7923,12 +7915,6 @@ JSRuntime
 rt
 )
 {
-#
-if
-defined
-(
-JS_ASMJS
-)
 #
 if
 defined
@@ -8110,8 +8096,6 @@ setHandlersInstalled
 ;
 #
 endif
-#
-endif
 return
 true
 ;
@@ -8271,12 +8255,6 @@ JSRuntime
 rt
 )
 {
-#
-if
-defined
-(
-JS_ASMJS
-)
 JS_ASSERT
 (
 rt
@@ -8379,8 +8357,6 @@ MOZ_CRASH
 (
 )
 ;
-#
-endif
 #
 endif
 }
