@@ -1662,6 +1662,12 @@ NSNotification
 )
 notification
 ;
+-
+(
+BOOL
+)
+isPluginView
+;
 /
 /
 Simple
