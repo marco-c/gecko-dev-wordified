@@ -1427,7 +1427,12 @@ if
 aData
 -
 >
-mIsHTMLContent
+mElement
+-
+>
+IsHTML
+(
+)
 )
 {
 nsIAtom
@@ -1839,7 +1844,12 @@ if
 aData
 -
 >
-mIsHTMLContent
+mElement
+-
+>
+IsHTML
+(
+)
 &
 &
 aData
