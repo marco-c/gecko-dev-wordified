@@ -2379,6 +2379,9 @@ mThebesSurface
 bool
 mIsComposing
 ;
+nsString
+mLastDispatchedCompositionString
+;
 #
 ifdef
 DEBUG_FOCUS
