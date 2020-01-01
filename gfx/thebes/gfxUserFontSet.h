@@ -1507,7 +1507,7 @@ nsTArray
 <
 gfxFontFeature
 >
-*
+&
 aFeatureSettings
 PRUint32
 aLanguageOverride

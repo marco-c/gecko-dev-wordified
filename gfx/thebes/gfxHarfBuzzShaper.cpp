@@ -4959,6 +4959,7 @@ gfxFontFeature
 *
 cssFeatures
 =
+&
 style
 -
 >
@@ -4966,12 +4967,17 @@ featureSettings
 ;
 if
 (
-!
 cssFeatures
+-
+>
+IsEmpty
+(
+)
 )
 {
 cssFeatures
 =
+&
 mFont
 -
 >
@@ -4983,11 +4989,6 @@ GetFontEntry
 mFeatureSettings
 ;
 }
-if
-(
-cssFeatures
-)
-{
 for
 (
 PRUint32
@@ -5120,7 +5121,6 @@ AppendElement
 hbf
 )
 ;
-}
 }
 }
 hb_buffer_t
