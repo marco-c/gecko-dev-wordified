@@ -8325,6 +8325,12 @@ delete
 mBoxObjectTable
 ;
 }
+mPendingTitleChangeEvent
+.
+Revoke
+(
+)
+;
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
@@ -24917,7 +24923,7 @@ return
 ;
 nsRefPtr
 <
-nsRunnableMethod
+nsNonOwningRunnableMethod
 <
 nsDocument
 >
@@ -24925,7 +24931,7 @@ nsDocument
 event
 =
 new
-nsRunnableMethod
+nsNonOwningRunnableMethod
 <
 nsDocument
 >
