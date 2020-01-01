@@ -601,7 +601,7 @@ thing
 *
 aPixelDepth
 =
-24
+16
 ;
 return
 NS_OK
