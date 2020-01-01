@@ -264,6 +264,9 @@ h
 #
 if
 WTF_PLATFORM_LINUX
+|
+|
+WTF_PLATFORM_ANDROID
 #
 include
 <
