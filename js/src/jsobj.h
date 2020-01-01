@@ -2771,15 +2771,6 @@ getClass
 ops
 ;
 }
-inline
-void
-trace
-(
-JSTracer
-*
-trc
-)
-;
 uint32
 shape
 (

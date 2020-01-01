@@ -2478,7 +2478,6 @@ string
 .
 *
 /
-inline
 void
 mark
 (
@@ -2662,7 +2661,6 @@ friend
 class
 JSString
 ;
-inline
 void
 mark
 (
