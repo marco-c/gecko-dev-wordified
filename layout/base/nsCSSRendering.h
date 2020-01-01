@@ -1029,13 +1029,6 @@ const
 nsRect
 &
 aDest
-uint32_t
-aFlags
-=
-imgIContainer
-:
-:
-FLAG_NONE
 )
 ;
 /
