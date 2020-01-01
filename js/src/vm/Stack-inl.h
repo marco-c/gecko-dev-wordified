@@ -2477,8 +2477,6 @@ StackFrame
 :
 functionEpilogue
 (
-bool
-objectsOnly
 )
 {
 JS_ASSERT
@@ -2538,10 +2536,6 @@ this
 }
 if
 (
-!
-objectsOnly
-&
-&
 maintainNestingState
 (
 )
@@ -2562,8 +2556,6 @@ StackFrame
 :
 markFunctionEpilogueDone
 (
-bool
-activationOnly
 )
 {
 if
@@ -2776,10 +2768,6 @@ idempotent
 /
 if
 (
-!
-activationOnly
-&
-&
 maintainNestingState
 (
 )

@@ -597,6 +597,10 @@ KeyboardEvent
 )
 DOMCI_CLASS
 (
+CompositionEvent
+)
+DOMCI_CLASS
+(
 PopupBlockedEvent
 )
 DOMCI_CLASS

@@ -3369,7 +3369,7 @@ if
 setter
 =
 =
-StrictPropertyStub
+JS_StrictPropertyStub
 )
 {
 JS_ASSERT
@@ -3444,7 +3444,7 @@ if
 getter
 =
 =
-PropertyStub
+JS_PropertyStub
 )
 {
 JS_ASSERT
@@ -6080,7 +6080,7 @@ if
 getter
 =
 =
-PropertyStub
+JS_PropertyStub
 )
 getter
 =
@@ -6091,7 +6091,7 @@ if
 setter
 =
 =
-StrictPropertyStub
+JS_StrictPropertyStub
 )
 setter
 =
