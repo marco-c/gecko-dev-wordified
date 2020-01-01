@@ -1572,10 +1572,7 @@ scaleY
 ;
 const
 nsIntPoint
-&
 contentOrigin
-=
-nsIntPoint
 (
 metrics
 .
