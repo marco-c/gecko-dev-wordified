@@ -16780,6 +16780,9 @@ address
 #
 if
 WTF_COMPILER_MSVC
+|
+|
+WTF_COMPILER_SUNCC
 loadPtr
 (
 Address
