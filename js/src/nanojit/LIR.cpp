@@ -6758,8 +6758,6 @@ iftrue
 LIns
 *
 iffalse
-bool
-hasConditionalMove
 )
 {
 /
@@ -6815,7 +6813,15 @@ tmp
 }
 if
 (
-hasConditionalMove
+avmplus
+:
+:
+AvmCore
+:
+:
+use_cmov
+(
+)
 )
 {
 return

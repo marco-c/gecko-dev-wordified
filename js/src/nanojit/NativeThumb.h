@@ -786,10 +786,6 @@ retRegs
 ]
 ;
 \
-bool
-has_cmov
-;
-\
 void
 STi
 (
