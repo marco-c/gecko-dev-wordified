@@ -1936,6 +1936,13 @@ RegExpGuard
 g
 )
 ;
+size_t
+sizeOfExcludingThis
+(
+JSMallocSizeOfFun
+mallocSizeOf
+)
+;
 }
 ;
 class
