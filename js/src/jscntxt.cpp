@@ -7838,13 +7838,6 @@ JSContext
 if
 (
 defaultCompartmentObject_
-&
-&
-!
-hasOption
-(
-JSOPTION_UNROOTED_GLOBAL
-)
 )
 MarkObjectRoot
 (
