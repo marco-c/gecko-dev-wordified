@@ -5753,6 +5753,12 @@ nsINavHistoryQueryOptions
 .
 QUERY_TYPE_HISTORY
 ;
+options
+.
+includeHidden
+=
+true
+;
 content
 .
 load
@@ -5771,6 +5777,8 @@ content
 applyFilter
 (
 filterString
+null
+true
 )
 ;
 }
@@ -5850,6 +5858,12 @@ Ci
 nsINavHistoryQueryOptions
 .
 QUERY_TYPE_HISTORY
+;
+options
+.
+includeHidden
+=
+true
 ;
 content
 .

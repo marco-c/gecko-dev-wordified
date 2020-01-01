@@ -502,6 +502,14 @@ resultType
 =
 resultType
 ;
+options
+.
+includeHidden
+=
+!
+!
+aInput
+;
 /
 /
 call
