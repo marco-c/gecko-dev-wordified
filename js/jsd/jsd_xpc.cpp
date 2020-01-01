@@ -5495,6 +5495,9 @@ static
 NS_IMETHODIMP
 AssignToJSString
 (
+JSDContext
+*
+aCx
 nsACString
 *
 x
@@ -5521,12 +5524,21 @@ return
 NS_OK
 ;
 }
+JSContext
+*
+cx
+=
+JSD_GetDefaultJSContext
+(
+aCx
+)
+;
 size_t
 length
 =
 JS_GetStringEncodingLength
 (
-NULL
+cx
 str
 )
 ;
@@ -5575,6 +5587,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 JS_EncodeStringToBuffer
 (
+cx
 str
 x
 -
@@ -5723,6 +5736,7 @@ str
 )
 AssignToJSString
 (
+mCx
 mFunctionName
 str
 )
@@ -9954,6 +9968,7 @@ str
 return
 AssignToJSString
 (
+mCx
 &
 _rval
 str
@@ -11321,6 +11336,7 @@ ASSERT_VALID_EPHEMERAL
 return
 AssignToJSString
 (
+mCx
 &
 _rval
 JSD_GetValueFunctionId

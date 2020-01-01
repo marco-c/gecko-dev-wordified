@@ -725,6 +725,7 @@ mFunname
 {
 JS_EncodeStringToBuffer
 (
+cx
 funid
 self
 -

@@ -3751,6 +3751,7 @@ false
 }
 JS_EncodeStringToBuffer
 (
+cx
 str
 buffer
 length
@@ -4456,6 +4457,7 @@ false
 }
 JS_EncodeStringToBuffer
 (
+cx
 str
 rs
 -
@@ -11880,6 +11882,7 @@ false
 }
 JS_EncodeStringToBuffer
 (
+cx
 str
 buffer
 len
