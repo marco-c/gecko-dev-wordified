@@ -133,7 +133,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -732,7 +732,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 appPath
 ;
@@ -746,7 +746,7 @@ Get
 NS_XPCOM_CURRENT_PROCESS_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -3645,7 +3645,7 @@ nsGNOMEShellService
 :
 OpenApplicationWithURI
 (
-nsILocalFile
+nsIFile
 *
 aApplication
 const
@@ -3747,7 +3747,7 @@ nsGNOMEShellService
 :
 GetDefaultFeedReader
 (
-nsILocalFile
+nsIFile
 *
 *
 _retval

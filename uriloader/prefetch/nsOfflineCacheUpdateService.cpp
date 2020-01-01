@@ -2912,7 +2912,7 @@ aDocument
 nsIDOMWindow
 *
 aWindow
-nsILocalFile
+nsIFile
 *
 aCustomProfileDir
 nsIOfflineCacheUpdate
@@ -3050,7 +3050,7 @@ aManifestURI
 nsIURI
 *
 aDocumentURI
-nsILocalFile
+nsIFile
 *
 aProfileDir
 nsIOfflineCacheUpdate

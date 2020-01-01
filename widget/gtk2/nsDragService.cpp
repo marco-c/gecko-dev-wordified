@@ -4422,7 +4422,7 @@ source
 text
 as
 a
-nsILocalFile
+nsIFile
 URL
 .
 if
@@ -4626,7 +4626,7 @@ secret
 hideout
 here
 for
-nsILocalFile
+nsIFile
 /
 /
 objects

@@ -5263,7 +5263,7 @@ data
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;
@@ -6398,7 +6398,7 @@ outData
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;
@@ -7161,7 +7161,7 @@ nsClipboard
 :
 ResolveShortcut
 (
-nsILocalFile
+nsIFile
 *
 aFile
 nsACString

@@ -136,7 +136,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -3642,7 +3642,7 @@ platform
 .
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 filePath
 ;

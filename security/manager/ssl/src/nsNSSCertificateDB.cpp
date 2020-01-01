@@ -129,7 +129,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -6102,7 +6102,7 @@ ImportCertsFromFile
 nsISupports
 *
 aToken
-nsILocalFile
+nsIFile
 *
 aFile
 PRUint32
@@ -6359,7 +6359,7 @@ ImportPKCS12File
 nsISupports
 *
 aToken
-nsILocalFile
+nsIFile
 *
 aFile
 )
@@ -6414,7 +6414,7 @@ ExportPKCS12File
 nsISupports
 *
 aToken
-nsILocalFile
+nsIFile
 *
 aFile
 PRUint32

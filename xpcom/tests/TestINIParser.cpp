@@ -80,7 +80,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -227,7 +227,7 @@ return
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 lf
 ;

@@ -1476,7 +1476,7 @@ aDocumentURI
 nsIDOMDocument
 *
 aDocument
-nsILocalFile
+nsIFile
 *
 aCustomProfileDir
 )

@@ -152,7 +152,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -364,7 +364,7 @@ rv
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 (
@@ -388,7 +388,7 @@ NS_ERROR
 (
 "
 Only
-nsILocalFile
+nsIFile
 supported
 right
 now

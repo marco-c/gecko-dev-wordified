@@ -113,13 +113,6 @@ h
 #
 include
 "
-nsILocalFile
-.
-h
-"
-#
-include
-"
 nsIFileStreams
 .
 h
@@ -184,7 +177,7 @@ Allocation
 nsresult
 StressTest
 (
-nsILocalFile
+nsIFile
 *
 localFile
 PRInt32
@@ -1184,7 +1177,7 @@ file
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;
@@ -1420,7 +1413,7 @@ exit
 /
 /
 Need
-nsILocalFile
+nsIFile
 to
 open
 localFile

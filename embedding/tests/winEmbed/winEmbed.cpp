@@ -1686,7 +1686,7 @@ xulrunner
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 xuldir
 ;
@@ -1725,7 +1725,7 @@ lastslash
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 appdir
 ;
@@ -4254,18 +4254,6 @@ winembed
 ;
 nsCOMPtr
 <
-nsILocalFile
->
-localAppDataDir
-(
-do_QueryInterface
-(
-appDataDir
-)
-)
-;
-nsCOMPtr
-<
 nsProfileDirServiceProvider
 >
 locProvider
@@ -4312,7 +4300,7 @@ locProvider
 >
 SetProfileDir
 (
-localAppDataDir
+appDataDir
 )
 ;
 }

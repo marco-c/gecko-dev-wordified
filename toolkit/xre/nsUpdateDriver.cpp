@@ -150,7 +150,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -927,7 +927,7 @@ const
 char
 *
 argv0
-nsILocalFile
+nsIFile
 *
 *
 aResult
@@ -1022,7 +1022,7 @@ aResult
 =
 static_cast
 <
-nsILocalFile
+nsIFile
 *
 >
 (
@@ -1058,7 +1058,7 @@ nsCSubstring
 name
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 &
 result
@@ -1141,7 +1141,7 @@ nsIFile
 dir
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 &
 result
@@ -1215,7 +1215,7 @@ static
 bool
 GetStatusFileContents
 (
-nsILocalFile
+nsIFile
 *
 statusFile
 char
@@ -1388,7 +1388,7 @@ nsIFile
 dir
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 &
 statusFile
@@ -1557,7 +1557,7 @@ nsIFile
 dir
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 &
 result
@@ -1600,7 +1600,7 @@ static
 bool
 IsOlderVersion
 (
-nsILocalFile
+nsIFile
 *
 versionFile
 const
@@ -2314,7 +2314,7 @@ greDir
 nsIFile
 *
 updateDir
-nsILocalFile
+nsIFile
 *
 statusFile
 nsIFile
@@ -2354,7 +2354,7 @@ correct
 arguments
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 tmpDir
 ;
@@ -2534,7 +2534,7 @@ application
 .
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 appFile
 ;
@@ -2781,7 +2781,7 @@ updated
 .
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 updatedDir
 ;
@@ -3644,7 +3644,7 @@ greDir
 nsIFile
 *
 updateDir
-nsILocalFile
+nsIFile
 *
 statusFile
 nsIFile
@@ -3757,7 +3757,7 @@ application
 .
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 appFile
 ;
@@ -4004,7 +4004,7 @@ updated
 .
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 updatedDir
 ;
@@ -5186,7 +5186,7 @@ updRootOverride
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 overrideDir
 ;
@@ -5265,7 +5265,7 @@ appDirOverride
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 overrideDir
 ;
@@ -5354,7 +5354,7 @@ dummyPID
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 statusFile
 ;
@@ -5381,7 +5381,7 @@ ePendingService
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 versionFile
 ;

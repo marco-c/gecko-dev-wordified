@@ -130,7 +130,7 @@ class
 nsIWidget
 ;
 class
-nsILocalFile
+nsIFile
 ;
 struct
 IDataObject
@@ -411,7 +411,7 @@ static
 void
 ResolveShortcut
 (
-nsILocalFile
+nsIFile
 *
 inFileName
 nsACString

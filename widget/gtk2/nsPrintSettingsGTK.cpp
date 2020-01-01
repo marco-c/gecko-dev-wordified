@@ -103,7 +103,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -2331,7 +2331,7 @@ pdf
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;

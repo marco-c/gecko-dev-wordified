@@ -247,7 +247,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -1802,7 +1802,7 @@ mOfflineCacheClientID
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mProfileDirectory
 ;

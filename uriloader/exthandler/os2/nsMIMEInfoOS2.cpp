@@ -3779,7 +3779,7 @@ numParams
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 application
 ;

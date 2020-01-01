@@ -131,7 +131,7 @@ headers
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -880,7 +880,7 @@ its
 path
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 rtINI
 ;
@@ -1006,7 +1006,7 @@ profile
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 directory
 ;
@@ -1043,7 +1043,7 @@ false
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 xreDir
 ;

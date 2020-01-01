@@ -86,7 +86,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -218,7 +218,7 @@ files
 /
 FileLocation
 (
-nsILocalFile
+nsIFile
 *
 file
 )
@@ -248,7 +248,7 @@ given
 either
 *
 as
-nsILocalFile
+nsIFile
 or
 nsZipArchive
 .
@@ -256,7 +256,7 @@ nsZipArchive
 /
 FileLocation
 (
-nsILocalFile
+nsIFile
 *
 zip
 const
@@ -334,7 +334,7 @@ constructors
 void
 Init
 (
-nsILocalFile
+nsIFile
 *
 file
 )
@@ -357,7 +357,7 @@ Truncate
 void
 Init
 (
-nsILocalFile
+nsIFile
 *
 zip
 const
@@ -490,7 +490,7 @@ archive
 /
 already_AddRefed
 <
-nsILocalFile
+nsIFile
 >
 GetBaseFile
 (
@@ -734,7 +734,7 @@ private
 :
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mBaseFile
 ;

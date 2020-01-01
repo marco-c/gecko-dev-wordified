@@ -154,7 +154,7 @@ stdio
 h
 >
 class
-nsILocalFile
+nsIFile
 ;
 class
 NS_COM_GLUE
@@ -182,7 +182,7 @@ the
 INIParser
 with
 a
-nsILocalFile
+nsIFile
 .
 If
 this
@@ -228,7 +228,7 @@ once
 nsresult
 Init
 (
-nsILocalFile
+nsIFile
 *
 aFile
 )

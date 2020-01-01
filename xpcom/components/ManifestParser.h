@@ -123,7 +123,7 @@ FileLocation
 h
 "
 class
-nsILocalFile
+nsIFile
 ;
 void
 ParseManifest

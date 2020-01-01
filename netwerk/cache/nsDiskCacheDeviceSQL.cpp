@@ -1563,7 +1563,7 @@ td
 "
 )
 ;
-nsILocalFile
+nsIFile
 *
 cacheDir
 =
@@ -3421,7 +3421,7 @@ nsApplicationCache
 :
 GetCacheDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 out
@@ -13338,7 +13338,7 @@ nsOfflineCacheDevice
 :
 SetCacheParentDirectory
 (
-nsILocalFile
+nsIFile
 *
 parentDir
 )

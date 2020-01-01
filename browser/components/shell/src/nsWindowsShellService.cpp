@@ -1789,7 +1789,7 @@ rv
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 appHelper
 ;
@@ -1803,7 +1803,7 @@ Get
 NS_XPCOM_CURRENT_PROCESS_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -6898,7 +6898,7 @@ nsWindowsShellService
 :
 OpenApplicationWithURI
 (
-nsILocalFile
+nsIFile
 *
 aApplication
 const
@@ -7000,7 +7000,7 @@ nsWindowsShellService
 :
 GetDefaultFeedReader
 (
-nsILocalFile
+nsIFile
 *
 *
 _retval
@@ -7184,7 +7184,7 @@ FindChar
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 defaultReader
 =

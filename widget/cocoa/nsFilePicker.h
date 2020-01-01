@@ -121,7 +121,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -227,7 +227,7 @@ aDefaultExtension
 NS_IMETHOD
 GetFile
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -384,7 +384,7 @@ bool
 inAllowMultiple
 nsCOMArray
 <
-nsILocalFile
+nsIFile
 >
 &
 outFiles
@@ -397,7 +397,7 @@ const
 nsString
 &
 inTitle
-nsILocalFile
+nsIFile
 *
 *
 outFile
@@ -414,7 +414,7 @@ const
 nsString
 &
 inDefaultName
-nsILocalFile
+nsIFile
 *
 *
 outFile
@@ -451,7 +451,7 @@ mMode
 ;
 nsCOMArray
 <
-nsILocalFile
+nsIFile
 >
 mFiles
 ;

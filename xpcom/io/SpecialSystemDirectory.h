@@ -107,7 +107,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -359,7 +359,7 @@ GetSpecialSystemDirectory
 (
 SystemDirectories
 aSystemSystemDirectory
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -375,7 +375,7 @@ short
 aDomain
 OSType
 aFolderType
-nsILocalFile
+nsIFile
 *
 *
 localFile

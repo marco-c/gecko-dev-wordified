@@ -450,7 +450,7 @@ nsDiskCacheBlockFile
 :
 Open
 (
-nsILocalFile
+nsIFile
 *
 blockFile
 PRUint32

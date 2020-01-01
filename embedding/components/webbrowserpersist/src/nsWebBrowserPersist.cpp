@@ -873,7 +873,7 @@ CleanupData
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mFile
 ;
@@ -4206,7 +4206,7 @@ mOriginalLocation
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;
@@ -6408,7 +6408,7 @@ supplied
 URI
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;
@@ -6850,7 +6850,7 @@ GetLocalFileFromURI
 nsIURI
 *
 aURI
-nsILocalFile
+nsIFile
 *
 *
 aLocalFile
@@ -8689,7 +8689,7 @@ this
 URI
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;
@@ -8707,7 +8707,7 @@ localFile
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localDataPath
 ;
@@ -9542,7 +9542,7 @@ localDataPath
 >
 Create
 (
-nsILocalFile
+nsIFile
 :
 :
 DIRECTORY_TYPE
@@ -10411,7 +10411,7 @@ i
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 =
@@ -10842,7 +10842,7 @@ continue
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 childAsFile
 =
@@ -11768,7 +11768,7 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;
@@ -12183,7 +12183,7 @@ implementations
 of
 /
 /
-nsILocalFile
+nsIFile
 (
 e
 .
@@ -12462,7 +12462,7 @@ mimeInfo
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;
@@ -12839,7 +12839,7 @@ rv
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;
@@ -12883,7 +12883,7 @@ nsWebBrowserPersist
 :
 MakeOutputStreamFromFile
 (
-nsILocalFile
+nsIFile
 *
 aFile
 nsIOutputStream
@@ -20144,7 +20144,7 @@ NS_OK
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;

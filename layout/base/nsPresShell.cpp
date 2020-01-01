@@ -49792,7 +49792,7 @@ a
 file
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 =

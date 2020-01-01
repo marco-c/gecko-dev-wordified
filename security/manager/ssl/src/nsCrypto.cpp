@@ -11826,7 +11826,7 @@ well
 .
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;

@@ -4361,7 +4361,7 @@ PAG_WRITE
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 workingDir
 ;

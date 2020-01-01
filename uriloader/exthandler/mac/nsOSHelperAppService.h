@@ -382,7 +382,7 @@ virtual
 void
 FixFilePermissions
 (
-nsILocalFile
+nsIFile
 *
 aFile
 )

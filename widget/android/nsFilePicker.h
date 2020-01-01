@@ -191,7 +191,7 @@ aDefaultExtension
 NS_IMETHOD
 GetFile
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -209,7 +209,7 @@ aFileURL
 NS_IMETHOD
 SetDisplayDirectory
 (
-nsILocalFile
+nsIFile
 *
 aDisplayDirectory
 )
@@ -217,7 +217,7 @@ aDisplayDirectory
 NS_IMETHOD
 GetDisplayDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 aDisplayDirectory

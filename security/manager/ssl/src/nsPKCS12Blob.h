@@ -101,7 +101,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -227,7 +227,7 @@ Import
 nsresult
 ImportFromFile
 (
-nsILocalFile
+nsIFile
 *
 file
 )
@@ -271,7 +271,7 @@ endif
 nsresult
 ExportToFile
 (
-nsILocalFile
+nsIFile
 *
 file
 nsIX509Cert
@@ -326,7 +326,7 @@ inputToDecoder
 (
 SEC_PKCS12DecoderContext
 *
-nsILocalFile
+nsIFile
 *
 )
 ;
@@ -494,7 +494,7 @@ im_try_zero_length_secitem
 nsresult
 ImportFromFileHelper
 (
-nsILocalFile
+nsIFile
 *
 file
 ImportMode

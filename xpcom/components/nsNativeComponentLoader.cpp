@@ -251,7 +251,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -527,7 +527,7 @@ NULL
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 =

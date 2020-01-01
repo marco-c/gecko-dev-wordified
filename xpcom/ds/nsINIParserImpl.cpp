@@ -66,7 +66,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -104,7 +104,7 @@ NS_DECL_NSIINIPARSER
 nsresult
 Init
 (
-nsILocalFile
+nsIFile
 *
 aINIFile
 )
@@ -137,7 +137,7 @@ nsINIParserFactory
 :
 CreateINIParser
 (
-nsILocalFile
+nsIFile
 *
 aINIFile
 nsIINIParser

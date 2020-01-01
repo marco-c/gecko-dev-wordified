@@ -522,13 +522,6 @@ nsIFile
 .
 h
 "
-#
-include
-"
-nsILocalFile
-.
-h
-"
 /
 *
 SetCursor
@@ -9271,7 +9264,7 @@ iconName
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 iconFile
 ;

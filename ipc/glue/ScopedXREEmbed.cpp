@@ -91,13 +91,6 @@ h
 #
 include
 "
-nsILocalFile
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -235,7 +228,7 @@ Sorry
 endif
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;

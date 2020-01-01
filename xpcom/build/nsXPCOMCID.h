@@ -192,10 +192,6 @@ supports
 the
 nsIFile
 interface
-and
-the
-nsILocalFile
-interface
 .
 *
 This

@@ -4302,7 +4302,7 @@ file
 .
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 iconFile
 ;

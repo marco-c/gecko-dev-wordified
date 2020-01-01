@@ -1979,7 +1979,7 @@ fileURI
 /
 create
 a
-nsILocalFile
+nsIFile
 and
 then
 a
@@ -1988,7 +1988,7 @@ from
 that
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 soundFile
 ;

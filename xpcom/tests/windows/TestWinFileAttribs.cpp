@@ -246,7 +246,7 @@ hIndexed
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;

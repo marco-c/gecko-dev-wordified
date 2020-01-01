@@ -5068,8 +5068,6 @@ method
 variants
 on
 nsIFile
-and
-nsILocalFile
 .
 *
 /

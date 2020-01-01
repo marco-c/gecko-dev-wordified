@@ -164,7 +164,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -1936,7 +1936,7 @@ Test
 endif
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 srcFile
 ;

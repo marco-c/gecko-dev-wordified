@@ -1044,7 +1044,7 @@ GetDirectory
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 directory
 =

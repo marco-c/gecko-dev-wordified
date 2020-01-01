@@ -10191,7 +10191,7 @@ static
 bool
 ResolveIconNameHelper
 (
-nsILocalFile
+nsIFile
 *
 aFile
 const
@@ -10342,7 +10342,7 @@ const
 nsAString
 &
 aIconSuffix
-nsILocalFile
+nsIFile
 *
 *
 aResult
@@ -10452,7 +10452,7 @@ continue
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 =
@@ -10502,7 +10502,7 @@ chrome
 directory
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;
@@ -10514,7 +10514,7 @@ Get
 NS_APP_CHROME_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (

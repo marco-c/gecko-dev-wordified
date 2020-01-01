@@ -128,7 +128,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -323,7 +323,7 @@ accessors
 void
 SetCacheParentDirectory
 (
-nsILocalFile
+nsIFile
 *
 parentDir
 )
@@ -351,7 +351,7 @@ private
 void
 getCacheDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 result
@@ -506,7 +506,7 @@ variables
 /
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mCacheDirectory
 ;

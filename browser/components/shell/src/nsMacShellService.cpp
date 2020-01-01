@@ -1088,7 +1088,7 @@ Get
 NS_OSX_PICTURE_DOCUMENTS_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -1946,7 +1946,7 @@ APPLICATION_NETWORK
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 lf
 ;
@@ -2008,7 +2008,7 @@ APPLICATION_DESKTOP
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 lf
 ;
@@ -2211,7 +2211,7 @@ nsMacShellService
 :
 OpenApplicationWithURI
 (
-nsILocalFile
+nsIFile
 *
 aApplication
 const
@@ -2419,7 +2419,7 @@ nsMacShellService
 :
 GetDefaultFeedReader
 (
-nsILocalFile
+nsIFile
 *
 *
 _retval

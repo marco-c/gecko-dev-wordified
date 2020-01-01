@@ -147,7 +147,7 @@ alphabetical
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -613,7 +613,7 @@ NULL
 nsresult
 create
 (
-nsILocalFile
+nsIFile
 *
 aINIFile
 )
@@ -1346,7 +1346,7 @@ path
 .
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 rtINI
 ;
@@ -1415,7 +1415,7 @@ profile
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 directory
 ;
@@ -1438,7 +1438,7 @@ false
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 xreDir
 ;

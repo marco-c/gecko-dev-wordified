@@ -690,7 +690,7 @@ directory
 nsresult
 GetCustomOfflineDevice
 (
-nsILocalFile
+nsIFile
 *
 aProfileDir
 PRInt32
@@ -1138,7 +1138,7 @@ CreateOfflineDevice
 nsresult
 CreateCustomOfflineDevice
 (
-nsILocalFile
+nsIFile
 *
 aProfileDir
 PRInt32

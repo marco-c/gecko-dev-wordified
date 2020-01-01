@@ -136,7 +136,7 @@ class
 nsIWidget
 ;
 class
-nsILocalFile
+nsIFile
 ;
 /
 *
@@ -292,7 +292,7 @@ aFilterIndex
 NS_IMETHODIMP
 GetFile
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -345,7 +345,7 @@ int
 ;
 nsCOMArray
 <
-nsILocalFile
+nsIFile
 >
 mFiles
 ;

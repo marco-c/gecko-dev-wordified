@@ -212,13 +212,6 @@ h
 #
 include
 "
-nsILocalFile
-.
-h
-"
-#
-include
-"
 nsIChannel
 .
 h
@@ -1002,7 +995,7 @@ virtual
 void
 FixFilePermissions
 (
-nsILocalFile
+nsIFile
 *
 aFile
 )
@@ -1103,7 +1096,7 @@ ExpungeTemporaryFilesHelper
 (
 nsCOMArray
 <
-nsILocalFile
+nsIFile
 >
 &
 fileList
@@ -1184,7 +1177,7 @@ deleted
 /
 nsCOMArray
 <
-nsILocalFile
+nsIFile
 >
 mTemporaryFilesList
 ;
@@ -1217,7 +1210,7 @@ mode
 /
 nsCOMArray
 <
-nsILocalFile
+nsIFile
 >
 mTemporaryPrivateFilesList
 ;
@@ -2077,7 +2070,7 @@ CreateProgressListener
 nsresult
 PromptForSaveToFile
 (
-nsILocalFile
+nsIFile
 *
 *
 aNewFile

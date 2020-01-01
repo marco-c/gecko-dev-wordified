@@ -6501,7 +6501,7 @@ rv
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localExecutable
 ;
@@ -6874,7 +6874,7 @@ nsDownloadManager
 :
 GetDefaultDownloadsDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 aResult
@@ -6882,7 +6882,7 @@ aResult
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 downloadDir
 ;
@@ -7006,7 +7006,7 @@ Get
 NS_OSX_DEFAULT_DOWNLOAD_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -7036,7 +7036,7 @@ Get
 NS_WIN_DEFAULT_DOWNLOAD_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -7134,7 +7134,7 @@ Get
 NS_WIN_PERSONAL_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -7328,7 +7328,7 @@ Get
 NS_UNIX_XDG_DOCUMENTS_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -7435,7 +7435,7 @@ Get
 NS_UNIX_DEFAULT_DOWNLOAD_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -7468,7 +7468,7 @@ Get
 NS_UNIX_HOME_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -7513,7 +7513,7 @@ Get
 NS_OS_HOME_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -7583,7 +7583,7 @@ nsDownloadManager
 :
 GetUserDownloadsDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 aResult
@@ -7691,7 +7691,7 @@ Desktop
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 downloadDir
 ;
@@ -7724,7 +7724,7 @@ Get
 NS_OS_DESKTOP_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -7772,7 +7772,7 @@ Custom
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 customDirectory
 ;
@@ -7784,7 +7784,7 @@ GetComplexValue
 NS_PREF_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -7960,7 +7960,7 @@ SetComplexValue
 NS_PREF_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 *
 aResult
@@ -8001,7 +8001,7 @@ nsIMIMEInfo
 aMIMEInfo
 PRTime
 aStartTime
-nsILocalFile
+nsIFile
 *
 aTempFile
 nsICancelable
@@ -8378,25 +8378,10 @@ executable
 )
 )
 ;
-nsCOMPtr
-<
-nsILocalFile
->
-locExecutable
-=
-do_QueryInterface
-(
-executable
-)
-;
-if
-(
-locExecutable
-)
 (
 void
 )
-locExecutable
+executable
 -
 >
 GetPersistentDescriptor
@@ -9241,7 +9226,7 @@ false
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;
@@ -15807,7 +15792,7 @@ fileSize
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;
@@ -16199,7 +16184,7 @@ nsIMIMEInfo
 aMIMEInfo
 PRTime
 aStartTime
-nsILocalFile
+nsIFile
 *
 aTempFile
 nsICancelable
@@ -16488,7 +16473,7 @@ nsDownload
 :
 GetTargetFile
 (
-nsILocalFile
+nsIFile
 *
 *
 aTargetFile
@@ -17047,7 +17032,7 @@ MoveTempToTarget
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 target
 ;
@@ -17236,7 +17221,7 @@ target
 location
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 target
 ;
@@ -17944,7 +17929,7 @@ write
 to
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 targetLocalFile
 (

@@ -117,7 +117,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -391,7 +391,7 @@ nsINIParser
 :
 Init
 (
-nsILocalFile
+nsIFile
 *
 aFile
 )

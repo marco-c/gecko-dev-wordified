@@ -336,7 +336,7 @@ NS_OK
 *
 readonly
 attribute
-nsILocalFile
+nsIFile
 file
 ;
 *
@@ -347,7 +347,7 @@ nsFilePickerProxy
 :
 GetFile
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -378,7 +378,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 (
@@ -446,7 +446,7 @@ aFileURL
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;
@@ -655,7 +655,7 @@ i
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 (

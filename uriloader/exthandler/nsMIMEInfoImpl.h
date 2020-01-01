@@ -951,7 +951,7 @@ nsIURI
 return
 the
 associated
-nsILocalFile
+nsIFile
 *
 *
 param
@@ -967,7 +967,7 @@ param
 aFile
 the
 associated
-nsILocalFile
+nsIFile
 (
 out
 param
@@ -984,7 +984,7 @@ GetLocalFileFromURI
 nsIURI
 *
 aURI
-nsILocalFile
+nsIFile
 *
 *
 aFile

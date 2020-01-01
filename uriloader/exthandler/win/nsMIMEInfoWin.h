@@ -353,7 +353,7 @@ GetDllLaunchInfo
 nsIFile
 *
 aDll
-nsILocalFile
+nsIFile
 *
 aFile
 nsAString

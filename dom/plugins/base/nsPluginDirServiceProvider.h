@@ -384,7 +384,7 @@ PRUint32
 aKey
 nsCOMArray
 <
-nsILocalFile
+nsIFile
 >
 &
 aDirs

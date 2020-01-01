@@ -80,7 +80,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -776,7 +776,7 @@ DEVICE_STORAGE_TYPE_DEFAULT
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 f
 ;
@@ -905,7 +905,7 @@ Get
 NS_OSX_PICTURE_DOCUMENTS_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -936,7 +936,7 @@ Get
 NS_UNIX_XDG_PICTURES_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -1051,7 +1051,7 @@ Get
 NS_OSX_MOVIE_DOCUMENTS_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -1082,7 +1082,7 @@ Get
 NS_UNIX_XDG_VIDEOS_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -1197,7 +1197,7 @@ Get
 NS_OSX_MUSIC_DOCUMENTS_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -1228,7 +1228,7 @@ Get
 NS_UNIX_XDG_MUSIC_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -1307,7 +1307,7 @@ Get
 NS_OS_TEMP_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -1350,7 +1350,7 @@ Get
 NS_APP_USER_PROFILE_50_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (

@@ -110,7 +110,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -428,7 +428,7 @@ rv
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 profileDir
 ;
@@ -457,7 +457,7 @@ rv
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 profileLocalDir
 ;

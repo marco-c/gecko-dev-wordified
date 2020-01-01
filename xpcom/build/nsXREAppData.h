@@ -109,7 +109,7 @@ StandardInteger
 h
 "
 class
-nsILocalFile
+nsIFile
 ;
 /
 *
@@ -228,7 +228,7 @@ directory
 .
 *
 /
-nsILocalFile
+nsIFile
 *
 directory
 ;
@@ -608,7 +608,7 @@ programatically
 .
 *
 /
-nsILocalFile
+nsIFile
 *
 xreDirectory
 ;

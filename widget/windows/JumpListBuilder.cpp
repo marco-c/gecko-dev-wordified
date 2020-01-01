@@ -3275,7 +3275,7 @@ rv
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 icoFile
 =
@@ -3546,7 +3546,7 @@ in
 path
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 icoFile
 =
