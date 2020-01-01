@@ -30834,9 +30834,9 @@ about
 .
 test
 (
-aBrowser
+aWebProgress
 .
-contentWindow
+DOMWindow
 .
 document
 .
