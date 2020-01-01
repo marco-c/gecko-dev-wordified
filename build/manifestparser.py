@@ -504,7 +504,7 @@ version
 .
 5
 .
-1
+2
 '
 #
 package
@@ -2343,6 +2343,54 @@ os
 path
 .
 sep
+)
+    
+return
+path
+def
+denormalize_path
+(
+path
+)
+:
+    
+"
+"
+"
+denormalize
+a
+relative
+path
+"
+"
+"
+    
+if
+sys
+.
+platform
+.
+startswith
+(
+'
+win
+'
+)
+:
+        
+return
+path
+.
+replace
+(
+os
+.
+path
+.
+sep
+'
+/
+'
 )
     
 return
@@ -4430,6 +4478,8 @@ path
                 
 path
 =
+denormalize_path
+(
 relpath
 (
 test
@@ -4441,6 +4491,7 @@ path
 self
 .
 rootdir
+)
 )
             
 print
@@ -5867,9 +5918,11 @@ directory
 .
 strip
 (
-'
-/
-'
+os
+.
+path
+.
+sep
 )
             
 if
@@ -6025,6 +6078,8 @@ retval
 extend
 (
 [
+denormalize_path
+(
 os
 .
 path
@@ -6033,6 +6088,7 @@ join
 (
 dirpath
 filename
+)
 )
                            
 for
