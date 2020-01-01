@@ -393,7 +393,7 @@ AutoArrayRooter
 tvr
 (
 aCx
-valLength
+0
 valArray
 )
 ;
@@ -449,6 +449,15 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
+)
+;
+tvr
+.
+changeLength
+(
+index
++
+1
 )
 ;
 }
