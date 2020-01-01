@@ -20510,7 +20510,13 @@ GetChildAt
 else
 if
 (
+static_cast
+<
+uint32_t
+>
+(
 aIndex
+)
 >
 =
 mChildList
