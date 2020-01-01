@@ -2144,12 +2144,6 @@ red
 "
 ;
 }
-SpecialPowers
-.
-unregisterProcessCrashObservers
-(
-)
-;
 TestRunner
 .
 log
@@ -2688,11 +2682,8 @@ cleanUpCrashDumpFiles
 (
 )
 ;
-SpecialPowers
-.
-flushPrefEnv
-(
 runNextTest
+(
 )
 ;
 }
