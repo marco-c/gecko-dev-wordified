@@ -501,6 +501,13 @@ nsIJSNativeInitializer
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsIDOMNode
 ;
@@ -659,7 +666,12 @@ txMozillaXSLTProcessor
 /
 nsISupports
 interface
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
+(
+txMozillaXSLTProcessor
+nsIXSLTProcessor
+)
 /
 /
 nsIXSLTProcessor
