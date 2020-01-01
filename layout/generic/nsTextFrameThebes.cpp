@@ -11965,6 +11965,7 @@ Get1b
 +
 aOffset
 ;
+const
 void
 *
 p
@@ -11984,6 +11985,7 @@ return
 (
 NS_STATIC_CAST
 (
+const
 char
 *
 p
