@@ -38653,6 +38653,14 @@ gBrowser
 .
 docShell
 .
+gatherCharsetMenuTelemetry
+(
+)
+;
+gBrowser
+.
+docShell
+.
 charset
 =
 aCharset
