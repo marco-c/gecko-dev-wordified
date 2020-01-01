@@ -1037,6 +1037,9 @@ nsIXPConnectWrappedNative
 >
 mParentWN
 ;
+PRUint32
+mCallbackCount
+;
 PRLock
 *
 mLock
