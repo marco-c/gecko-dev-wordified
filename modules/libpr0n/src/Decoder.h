@@ -941,6 +941,16 @@ mFailCode
 ;
 }
 ;
+void
+PostResizeError
+(
+)
+{
+PostDataError
+(
+)
+;
+}
 /
 /
 flags
