@@ -896,10 +896,12 @@ char
 data
 size_t
 len
+bool
+release
 )
 ;
 void
-PacketReceived
+SctpDtlsInput
 (
 TransportFlow
 *
