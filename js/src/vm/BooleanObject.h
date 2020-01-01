@@ -121,6 +121,13 @@ jsbool
 .
 h
 "
+#
+include
+"
+jsobj
+.
+h
+"
 namespace
 js
 {

@@ -117,6 +117,13 @@ jsboolinlines_h
 #
 include
 "
+jsbool
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions

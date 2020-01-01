@@ -528,7 +528,9 @@ elif
 #
 include
 <
-unistd
+sys
+/
+mman
 .
 h
 >
@@ -542,9 +544,7 @@ h
 #
 include
 <
-sys
-/
-mman
+unistd
 .
 h
 >

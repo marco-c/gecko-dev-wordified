@@ -117,6 +117,13 @@ jsatominlines_h
 #
 include
 "
+jsatom
+.
+h
+"
+#
+include
+"
 mozilla
 /
 PodOperations
@@ -129,13 +136,6 @@ include
 mozilla
 /
 RangedPtr
-.
-h
-"
-#
-include
-"
-jsatom
 .
 h
 "

@@ -164,7 +164,7 @@ h
 #
 include
 "
-jswrapper
+jswatchpoint
 .
 h
 "
@@ -178,7 +178,7 @@ h
 #
 include
 "
-jswatchpoint
+jswrapper
 .
 h
 "

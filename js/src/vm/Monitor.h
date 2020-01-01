@@ -116,6 +116,13 @@ define
 vm_Monitor_h
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 jslock
 .
