@@ -2791,6 +2791,10 @@ char
 aParam
 =
 nsnull
+PRBool
+aRemArg
+=
+PR_TRUE
 )
 {
 char
@@ -2892,6 +2896,10 @@ arg
 )
 )
 {
+if
+(
+aRemArg
+)
 RemoveArg
 (
 curarg
@@ -2960,6 +2968,10 @@ aParam
 *
 curarg
 ;
+if
+(
+aRemArg
+)
 RemoveArg
 (
 curarg
@@ -15702,6 +15714,9 @@ CheckArg
 "
 nosplash
 "
+PR_FALSE
+NULL
+PR_FALSE
 )
 =
 =
@@ -15719,6 +15734,9 @@ no
 -
 remote
 "
+PR_FALSE
+NULL
+PR_FALSE
 )
 =
 =
