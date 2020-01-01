@@ -2681,10 +2681,6 @@ renaming
 trick
 let
 dest
-;
-try
-{
-dest
 =
 OS
 .
@@ -2703,6 +2699,8 @@ true
 }
 )
 ;
+try
+{
 return
 dest
 .
