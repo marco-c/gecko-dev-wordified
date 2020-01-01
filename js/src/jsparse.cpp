@@ -57017,6 +57017,8 @@ currentToken
 )
 .
 t_reflags
+&
+tokenStream
 )
 ;
 }
@@ -57055,6 +57057,8 @@ currentToken
 )
 .
 t_reflags
+&
+tokenStream
 )
 ;
 }

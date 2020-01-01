@@ -9830,6 +9830,7 @@ createFlagged
 cx
 patstr
 opt
+NULL
 )
 ;
 if

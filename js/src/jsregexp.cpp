@@ -538,6 +538,13 @@ h
 #
 include
 "
+jsscan
+.
+h
+"
+#
+include
+"
 jsstr
 .
 h
@@ -1187,6 +1194,7 @@ getSource
 origFlags
 |
 staticsFlags
+NULL
 )
 ;
 if
@@ -1293,6 +1301,9 @@ reportYarrError
 JSContext
 *
 cx
+TokenStream
+*
+ts
 JSC
 :
 :
@@ -1349,6 +1360,23 @@ Yarr
 :
 __code
 :
+\
+if
+(
+ts
+)
+\
+ReportCompileErrorNumber
+(
+cx
+ts
+NULL
+JSREPORT_ERROR
+__msg
+)
+;
+\
+else
 \
 JS_ReportErrorFlagsAndNumberUC
 (
@@ -1689,6 +1717,9 @@ str
 JSString
 *
 opt
+TokenStream
+*
+ts
 )
 {
 if
@@ -1702,6 +1733,7 @@ create
 cx
 str
 0
+ts
 )
 ;
 uintN
@@ -1735,6 +1767,7 @@ create
 cx
 str
 flags
+ts
 )
 ;
 }
@@ -2933,6 +2966,7 @@ xdr
 cx
 source
 flagsword
+NULL
 )
 ;
 if
@@ -3799,6 +3833,7 @@ create
 cx
 str
 flags
+NULL
 )
 ;
 if
@@ -5481,6 +5516,7 @@ runtime
 >
 emptyString
 0
+NULL
 )
 ;
 if

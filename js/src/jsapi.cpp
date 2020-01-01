@@ -32777,6 +32777,7 @@ res
 chars
 length
 flags
+NULL
 )
 ;
 cx
@@ -32846,6 +32847,7 @@ res
 chars
 length
 flags
+NULL
 )
 ;
 }
@@ -33105,6 +33107,7 @@ cx
 chars
 length
 flags
+NULL
 )
 ;
 cx
@@ -33153,6 +33156,7 @@ cx
 chars
 length
 flags
+NULL
 )
 ;
 }
