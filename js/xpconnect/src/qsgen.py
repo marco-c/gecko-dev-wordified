@@ -4463,6 +4463,13 @@ argPtr
 =
 "
 argv
+[
+0
+]
+.
+address
+(
+)
 "
         
 argVal
@@ -4492,7 +4499,10 @@ jsval
 val
 =
 "
-JSVAL_VOID
+JS
+:
+:
+UndefinedHandleValue
 "
         
 else
@@ -4501,7 +4511,10 @@ else
 val
 =
 "
-JSVAL_NULL
+JS
+:
+:
+NullHandleValue
 "
         
 argVal
@@ -4579,12 +4592,15 @@ d
 <
 argc
 ?
-&
 argv
 [
 %
 d
 ]
+.
+address
+(
+)
 :
 NULL
 )
@@ -4612,11 +4628,14 @@ i
         
 argPtr
 =
-"
-&
-"
-+
 argVal
++
+"
+.
+address
+(
+)
+"
     
 params
 =
@@ -7716,13 +7735,18 @@ f
 write
 (
 "
-jsval
-*
+JS
+:
+:
+CallArgs
 argv
 =
-JS_ARGV
+JS
+:
+:
+CallArgsFromVp
 (
-cx
+argc
 vp
 )
 ;
@@ -7863,13 +7887,18 @@ f
 write
 (
 "
-jsval
-*
+JS
+:
+:
+CallArgs
 argv
 =
-JS_ARGV
+JS
+:
+:
+CallArgsFromVp
 (
-cx
+argc
 vp
 )
 ;
