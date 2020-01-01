@@ -12873,7 +12873,7 @@ aRelation
 groupInfo
 -
 >
-GetConceptualParent
+ConceptualParent
 (
 )
 )
