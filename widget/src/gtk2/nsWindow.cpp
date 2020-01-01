@@ -17070,6 +17070,11 @@ to
 the
 right
 dimensions
+if
+(
+!
+mIsTopLevel
+)
 Resize
 (
 mBounds
