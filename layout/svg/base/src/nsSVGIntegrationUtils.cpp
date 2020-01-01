@@ -2817,7 +2817,7 @@ nsRenderingContext
 aCtx
 nsIFrame
 *
-aEffectsFrame
+aFrame
 const
 nsRect
 &
@@ -2839,7 +2839,7 @@ svgChildFrame
 =
 do_QueryFrame
 (
-aEffectsFrame
+aFrame
 )
 ;
 NS_ASSERTION
@@ -2936,7 +2936,7 @@ together
 float
 opacity
 =
-aEffectsFrame
+aFrame
 -
 >
 GetStyleDisplay
@@ -2994,7 +2994,7 @@ nsLayoutUtils
 :
 GetFirstContinuationOrSpecialSibling
 (
-aEffectsFrame
+aFrame
 )
 ;
 nsSVGEffects
@@ -3109,7 +3109,7 @@ gfx
 PRInt32
 appUnitsPerDevPixel
 =
-aEffectsFrame
+aFrame
 -
 >
 PresContext
@@ -3167,7 +3167,7 @@ cssPxToDevPxMatrix
 =
 GetCSSPxToDevPxMatrix
 (
-aEffectsFrame
+aFrame
 )
 ;
 bool
@@ -3239,7 +3239,7 @@ aCtx
 >
 IntersectClip
 (
-aEffectsFrame
+aFrame
 -
 >
 GetVisualOverflowRect
@@ -3313,7 +3313,7 @@ clipPathFrame
 ClipPaint
 (
 aCtx
-aEffectsFrame
+aFrame
 cssPxToDevPxMatrix
 )
 ;
@@ -3335,7 +3335,7 @@ callback
 (
 aBuilder
 aInnerList
-aEffectsFrame
+aFrame
 offset
 )
 ;
@@ -3352,7 +3352,7 @@ filterFrame
 PaintFilteredFrame
 (
 aCtx
-aEffectsFrame
+aFrame
 &
 callback
 &
@@ -3381,7 +3381,7 @@ PaintForFrame
 (
 aBuilder
 aCtx
-aEffectsFrame
+aFrame
 nsDisplayList
 :
 :
@@ -3455,7 +3455,7 @@ maskFrame
 ComputeMaskAlpha
 (
 aCtx
-aEffectsFrame
+aFrame
 cssPxToDevPxMatrix
 opacity
 )
@@ -3497,7 +3497,7 @@ clipPathFrame
 ClipPaint
 (
 aCtx
-aEffectsFrame
+aFrame
 cssPxToDevPxMatrix
 )
 ;
