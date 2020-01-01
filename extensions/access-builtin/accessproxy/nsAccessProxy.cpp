@@ -1032,16 +1032,6 @@ domDoc
 if
 (
 doc
-&
-&
-doc
--
->
-GetNumberOfShells
-(
-)
->
-0
 )
 {
 presShell
