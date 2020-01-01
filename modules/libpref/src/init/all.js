@@ -2850,7 +2850,9 @@ composer
 /
 belong
 in
-mozilla
+comm
+-
+central
 /
 editor
 /
