@@ -575,7 +575,7 @@ stackLimit
 ;
 JSStackFrame
 *
-entryFp
+entryfp
 ;
 #
 if
