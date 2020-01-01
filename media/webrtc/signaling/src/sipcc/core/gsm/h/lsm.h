@@ -1068,6 +1068,8 @@ dcb
 fsmdef_media_t
 *
 media
+int
+track_id
 )
 ;
 #
