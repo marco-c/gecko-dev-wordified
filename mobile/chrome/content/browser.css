@@ -2157,6 +2157,14 @@ message
 ;
 }
 dialog
+:
+not
+(
+.
+content
+-
+dialog
+)
 {
 -
 moz
