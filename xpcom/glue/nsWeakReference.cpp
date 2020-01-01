@@ -445,6 +445,15 @@ cpp
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsWeakReference
 .
 h
@@ -458,6 +467,7 @@ h
 "
 class
 nsWeakReference
+MOZ_FINAL
 :
 public
 nsIWeakReference

@@ -1320,6 +1320,18 @@ NS_ABSTRACT_CLASS
 '
 )
         
+self
+.
+write
+(
+'
+'
++
+c
+.
+name
+)
+        
 if
 c
 .
@@ -1331,20 +1343,8 @@ self
 write
 (
 '
-NS_FINAL_CLASS
+MOZ_FINAL
 '
-)
-        
-self
-.
-write
-(
-'
-'
-+
-c
-.
-name
 )
         
 if

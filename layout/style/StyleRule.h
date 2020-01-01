@@ -2293,7 +2293,6 @@ StyleRule
 }
 ;
 class
-NS_FINAL_CLASS
 StyleRule
 :
 public

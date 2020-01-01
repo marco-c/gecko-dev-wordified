@@ -494,6 +494,15 @@ objects
 scc
 *
 /
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 Wrapping
@@ -1804,8 +1813,8 @@ specialcasing
 class
 NS_COM_GLUE
 NS_STACK_CLASS
-NS_FINAL_CLASS
 nsQueryInterface
+MOZ_FINAL
 {
 public
 :
@@ -3099,8 +3108,8 @@ class
 T
 >
 class
-NS_FINAL_CLASS
 nsCOMPtr
+MOZ_FINAL
 #
 ifdef
 NSCAP_FEATURE_USE_BASE

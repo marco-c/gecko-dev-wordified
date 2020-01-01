@@ -490,6 +490,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 css
 /
 GroupRule
@@ -615,7 +624,6 @@ namespace
 css
 {
 class
-NS_FINAL_CLASS
 MediaRule
 :
 public
@@ -768,7 +776,6 @@ mMedia
 }
 ;
 class
-NS_FINAL_CLASS
 DocumentRule
 :
 public
@@ -1138,8 +1145,8 @@ CPP_THROW_NEW
 }
 ;
 class
-NS_FINAL_CLASS
 nsCSSFontFaceRule
+MOZ_FINAL
 :
 public
 mozilla
@@ -1399,8 +1406,8 @@ namespace
 css
 {
 class
-NS_FINAL_CLASS
 CharsetRule
+MOZ_FINAL
 :
 public
 Rule
@@ -1536,7 +1543,6 @@ class
 nsCSSKeyframeRule
 ;
 class
-NS_FINAL_CLASS
 nsCSSKeyframeStyleDeclaration
 :
 public
@@ -1688,8 +1694,8 @@ mRule
 }
 ;
 class
-NS_FINAL_CLASS
 nsCSSKeyframeRule
+MOZ_FINAL
 :
 public
 mozilla
@@ -1913,7 +1919,6 @@ mDOMDeclaration
 }
 ;
 class
-NS_FINAL_CLASS
 nsCSSKeyframesRule
 :
 public

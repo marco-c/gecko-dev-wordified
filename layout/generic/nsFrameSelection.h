@@ -1427,7 +1427,6 @@ deleted
 *
 /
 class
-NS_FINAL_CLASS
 nsFrameSelection
 :
 public

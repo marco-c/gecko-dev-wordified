@@ -493,6 +493,15 @@ nsTreeBodyFrame_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsLeafBoxFrame
 .
 h
@@ -683,8 +692,8 @@ and
 rows
 .
 class
-NS_FINAL_CLASS
 nsTreeBodyFrame
+MOZ_FINAL
 :
 public
 nsLeafBoxFrame

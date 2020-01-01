@@ -432,6 +432,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsArrayEnumerator
 .
 h
@@ -466,6 +475,7 @@ h
 "
 class
 nsSimpleArrayEnumerator
+MOZ_FINAL
 :
 public
 nsISimpleEnumerator
@@ -876,6 +886,7 @@ done
 correctly
 class
 nsCOMArrayEnumerator
+MOZ_FINAL
 :
 public
 nsISimpleEnumerator

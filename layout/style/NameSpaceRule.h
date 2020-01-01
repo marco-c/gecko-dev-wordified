@@ -502,7 +502,6 @@ namespace
 css
 {
 class
-NS_FINAL_CLASS
 NameSpaceRule
 :
 public

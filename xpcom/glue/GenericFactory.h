@@ -441,6 +441,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Module
 .
 h
@@ -485,6 +494,7 @@ module
 /
 class
 GenericFactory
+MOZ_FINAL
 :
 public
 nsIFactory
