@@ -2267,7 +2267,10 @@ Expiry
 (
 )
 *
+PRInt64
+(
 PR_USEC_PER_SEC
+)
 PR_GMTParameters
 &
 explodedTime
@@ -11598,7 +11601,10 @@ serverTime
 =
 tempServerTime
 /
+PRInt64
+(
 PR_USEC_PER_SEC
+)
 ;
 }
 else
@@ -24970,7 +24976,10 @@ delta
 =
 expires
 /
+PRInt64
+(
 PR_USEC_PER_SEC
+)
 -
 aServerTime
 ;
