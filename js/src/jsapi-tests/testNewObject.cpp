@@ -160,7 +160,7 @@ properly
 from
 JS_New
 .
-JS
+js
 :
 :
 RootedObject
@@ -177,7 +177,7 @@ vp
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -498,7 +498,7 @@ argv1
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -519,7 +519,7 @@ address
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -538,7 +538,7 @@ With
 no
 arguments
 .
-JS
+js
 :
 :
 RootedObject
@@ -559,7 +559,7 @@ CHECK
 obj
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -802,7 +802,7 @@ NULL
 constructHook
 }
 ;
-JS
+js
 :
 :
 RootedObject
@@ -824,7 +824,7 @@ CHECK
 ctor
 )
 ;
-JS
+js
 :
 :
 RootedValue

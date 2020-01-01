@@ -884,7 +884,7 @@ JSAtom
 MutableHandleAtom
 ;
 typedef
-JS
+js
 :
 :
 Rooted
@@ -895,7 +895,7 @@ Shape
 RootedShape
 ;
 typedef
-JS
+js
 :
 :
 Rooted
@@ -909,7 +909,7 @@ TypeObject
 RootedTypeObject
 ;
 typedef
-JS
+js
 :
 :
 Rooted
@@ -920,7 +920,7 @@ JSAtom
 RootedAtom
 ;
 typedef
-JS
+js
 :
 :
 Rooted

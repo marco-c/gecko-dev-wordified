@@ -695,7 +695,7 @@ len
 =
 0
 ;
-JS
+js
 :
 :
 RootedObject
@@ -812,7 +812,7 @@ JSPrincipals
 originPrincipal
 )
 {
-JS
+js
 :
 :
 RootedValue

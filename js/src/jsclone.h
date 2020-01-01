@@ -534,12 +534,6 @@ end
 }
 ;
 }
-/
-*
-namespace
-js
-*
-/
 struct
 JSStructuredCloneReader
 {
@@ -1233,7 +1227,7 @@ List
 of
 transferable
 objects
-JS
+js
 :
 :
 RootedValue

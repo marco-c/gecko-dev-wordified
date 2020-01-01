@@ -182,7 +182,7 @@ JSScript
 scriptArg
 )
 {
-JS
+js
 :
 :
 RootedScript

@@ -160,7 +160,7 @@ CHECK
 str
 )
 ;
-JS
+js
 :
 :
 Rooted

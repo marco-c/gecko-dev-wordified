@@ -120,7 +120,7 @@ BEGIN_TEST
 testDeepFreeze_bug535703
 )
 {
-JS
+js
 :
 :
 RootedValue
@@ -148,7 +148,7 @@ address
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -212,7 +212,7 @@ BEGIN_TEST
 testDeepFreeze_deep
 )
 {
-JS
+js
 :
 :
 RootedValue
@@ -300,7 +300,7 @@ address
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -322,7 +322,7 @@ aobj
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -390,7 +390,7 @@ BEGIN_TEST
 testDeepFreeze_loop
 )
 {
-JS
+js
 :
 :
 RootedValue
@@ -460,7 +460,7 @@ address
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -482,7 +482,7 @@ xobj
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue

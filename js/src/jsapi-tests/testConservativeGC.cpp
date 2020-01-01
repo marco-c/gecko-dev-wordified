@@ -105,7 +105,7 @@ BEGIN_TEST
 testConservativeGC
 )
 {
-JS
+js
 :
 :
 RootedValue
@@ -167,7 +167,7 @@ JSObject
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -225,7 +225,7 @@ JSString
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -264,7 +264,7 @@ isObject
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -326,7 +326,7 @@ tmp
 )
 )
 ;
-JS
+js
 :
 :
 RootedString

@@ -120,7 +120,7 @@ BEGIN_TEST
 testFunctionProperties
 )
 {
-JS
+js
 :
 :
 RootedValue
@@ -148,7 +148,7 @@ address
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -161,7 +161,7 @@ x
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue

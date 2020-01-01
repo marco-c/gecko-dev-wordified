@@ -135,7 +135,7 @@ JSBool
 keysonly
 )
 {
-JS
+js
 :
 :
 RootedObject
@@ -329,7 +329,7 @@ NULL
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue

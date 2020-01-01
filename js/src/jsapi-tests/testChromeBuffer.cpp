@@ -361,7 +361,7 @@ fun
 )
 ;
 }
-JS
+js
 :
 :
 RootedValue
@@ -462,7 +462,7 @@ bytes
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -634,7 +634,7 @@ fun
 )
 ;
 }
-JS
+js
 :
 :
 RootedValue
@@ -735,7 +735,7 @@ bytes
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -898,7 +898,7 @@ fun
 )
 ;
 }
-JS
+js
 :
 :
 RootedFunction
@@ -918,7 +918,7 @@ callTrusted
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -1001,7 +1001,7 @@ bytes
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -1018,7 +1018,7 @@ callTrusted
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue

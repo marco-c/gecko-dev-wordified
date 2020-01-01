@@ -131,7 +131,7 @@ cx
 ErrorCounter
 )
 ;
-JS
+js
 :
 :
 RootedValue

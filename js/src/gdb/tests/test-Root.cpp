@@ -13,7 +13,7 @@ Root
 null
 )
 {
-JS
+js
 :
 :
 Rooted
@@ -109,7 +109,7 @@ Root
 handle
 )
 {
-JS
+js
 :
 :
 Rooted
@@ -145,7 +145,7 @@ Root
 HeapSlot
 )
 {
-JS
+js
 :
 :
 Rooted
@@ -167,7 +167,7 @@ plinth
 )
 )
 ;
-JS
+js
 :
 :
 Rooted

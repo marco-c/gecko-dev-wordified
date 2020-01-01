@@ -226,7 +226,7 @@ global
 object
 and
 compartment
-JS
+js
 :
 :
 RootedObject
@@ -248,7 +248,7 @@ CHECK
 globalA
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -301,7 +301,7 @@ CHECK
 customMethodA
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -350,7 +350,7 @@ compartment
 .
 .
 {
-JS
+js
 :
 :
 RootedObject
@@ -388,7 +388,7 @@ cx
 globalB
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -420,7 +420,7 @@ Int32Value
 )
 )
 ;
-JS
+js
 :
 :
 RootedFunction
@@ -445,7 +445,7 @@ CHECK
 customMethodB
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -480,7 +480,7 @@ Int32Value
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -503,7 +503,7 @@ address
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue

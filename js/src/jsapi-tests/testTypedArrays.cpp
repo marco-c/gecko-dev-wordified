@@ -935,7 +935,7 @@ at
 the
 expected
 locations
-JS
+js
 :
 :
 RootedValue
@@ -960,7 +960,7 @@ address
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -1224,7 +1224,7 @@ elts
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject

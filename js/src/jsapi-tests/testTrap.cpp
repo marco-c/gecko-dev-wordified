@@ -148,7 +148,7 @@ jsval
 closureArg
 )
 {
-JS
+js
 :
 :
 RootedValue
@@ -260,7 +260,7 @@ n
 /
 /
 compile
-JS
+js
 :
 :
 RootedScript
@@ -289,7 +289,7 @@ script
 /
 /
 execute
-JS
+js
 :
 :
 RootedValue
@@ -380,7 +380,7 @@ avoid
 using
 Anchor
 .
-JS
+js
 :
 :
 RootedString

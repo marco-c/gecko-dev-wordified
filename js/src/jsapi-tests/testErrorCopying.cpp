@@ -208,7 +208,7 @@ foo
 "
 )
 ;
-JS
+js
 :
 :
 RootedValue

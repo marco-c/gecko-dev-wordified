@@ -55,7 +55,7 @@ JSString
 simple
 )
 {
-JS
+js
 :
 :
 Rooted
@@ -74,7 +74,7 @@ NULL
 )
 )
 ;
-JS
+js
 :
 :
 Rooted
@@ -95,7 +95,7 @@ x
 )
 )
 ;
-JS
+js
 :
 :
 Rooted
@@ -128,7 +128,7 @@ non
 inlined
 string
 .
-JS
+js
 :
 :
 Rooted
@@ -263,7 +263,7 @@ an
 inlined
 string
 .
-JS
+js
 :
 :
 Rooted
@@ -291,7 +291,7 @@ be
 a
 rope
 .
-JS
+js
 :
 :
 Rooted
@@ -378,7 +378,7 @@ JSString
 null
 )
 {
-JS
+js
 :
 :
 Rooted
@@ -421,7 +421,7 @@ JSString
 subclasses
 )
 {
-JS
+js
 :
 :
 Rooted
