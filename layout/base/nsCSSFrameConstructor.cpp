@@ -15068,6 +15068,12 @@ NS_FAILED
 (
 rv
 )
+&
+&
+rv
+!
+=
+NS_ERROR_XBL_BLOCKED
 )
 return
 NS_OK
@@ -31151,6 +31157,12 @@ NS_FAILED
 (
 rv
 )
+&
+&
+rv
+!
+=
+NS_ERROR_XBL_BLOCKED
 )
 return
 ;
