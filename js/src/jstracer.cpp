@@ -8350,6 +8350,12 @@ rp_adj
 exit
 .
 calldepth
+*
+sizeof
+(
+void
+*
+)
 ;
 exit
 .
@@ -9648,7 +9654,10 @@ exit
 >
 sp_adj
 +
-8
+sizeof
+(
+double
+)
 ;
 JS_ASSERT
 (
@@ -9675,7 +9684,11 @@ exit
 >
 rp_adj
 +
-4
+sizeof
+(
+void
+*
+)
 ;
 }
 #
