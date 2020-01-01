@@ -19212,7 +19212,7 @@ _setWifiEnabledCallback
 .
 bind
 (
-this
+self
 )
 )
 ;
