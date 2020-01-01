@@ -5493,6 +5493,11 @@ if
 parsedAddress
 &
 &
+parsedAddress
+.
+internationalNumber
+&
+&
 allPossibleAddresses
 .
 indexOf
