@@ -706,6 +706,8 @@ aAscent
 nscoord
 &
 aDescent
+bool
+aRTL
 )
 ;
 static

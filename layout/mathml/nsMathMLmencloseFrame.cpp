@@ -3145,6 +3145,7 @@ NS_STRETCH_DIRECTION_VERTICAL
 contSize
 bmLongdivChar
 NS_STRETCH_LARGER
+false
 )
 ;
 mMathMLChar
@@ -3394,6 +3395,12 @@ NS_STRETCH_DIRECTION_VERTICAL
 contSize
 bmRadicalChar
 NS_STRETCH_LARGER
+NS_MATHML_IS_RTL
+(
+mPresentationData
+.
+flags
+)
 )
 ;
 mMathMLChar

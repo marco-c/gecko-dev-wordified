@@ -5650,6 +5650,12 @@ aStretchDirection
 container
 charSize
 stretchHint
+NS_MATHML_IS_RTL
+(
+mPresentationData
+.
+flags
+)
 )
 ;
 if
