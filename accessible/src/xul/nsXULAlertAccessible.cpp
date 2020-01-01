@@ -520,11 +520,11 @@ aShell
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsXULAlertAccessible
 :
 :
-GetRole
+GetRoleInternal
 (
 PRUint32
 *
