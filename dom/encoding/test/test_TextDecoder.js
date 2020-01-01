@@ -3168,9 +3168,10 @@ iso
 input
 :
 null
-expected
+error
 :
 "
+TypeError
 "
 msg
 :

@@ -378,9 +378,12 @@ void
 Decode
 (
 const
-ArrayBufferView
+char
 *
-aView
+aInput
+const
+int32_t
+aLength
 const
 bool
 aStream
