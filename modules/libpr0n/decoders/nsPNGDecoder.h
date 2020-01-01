@@ -613,9 +613,7 @@ format
 /
 /
 For
-header
--
-only
+size
 decodes
 PRUint8
 *
