@@ -201,7 +201,7 @@ const
 uint32_t
 MaxChannelCount
 =
-10000
+32
 ;
 static
 bool
