@@ -2583,15 +2583,6 @@ aRaise
 )
 ;
 NS_IMETHOD
-SetBounds
-(
-const
-nsIntRect
-&
-aRect
-)
-;
-NS_IMETHOD
 GetBounds
 (
 nsIntRect
