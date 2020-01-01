@@ -532,6 +532,14 @@ IsTransferring
 (
 )
 ;
+void
+GetAddress
+(
+nsAString
+&
+aDeviceAddress
+)
+;
 /
 /
 Implement

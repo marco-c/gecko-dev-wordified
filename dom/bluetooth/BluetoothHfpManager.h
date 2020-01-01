@@ -422,6 +422,14 @@ IsConnected
 (
 )
 ;
+void
+GetAddress
+(
+nsAString
+&
+aDeviceAddress
+)
+;
 private
 :
 class
