@@ -1330,6 +1330,10 @@ new
 nsHtml5Tokenizer
 (
 mTreeBuilder
+aMode
+=
+=
+VIEW_SOURCE_XML
 )
 )
 mTokenizerMutex

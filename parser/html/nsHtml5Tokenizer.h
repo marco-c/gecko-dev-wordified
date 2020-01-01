@@ -721,6 +721,9 @@ nsHtml5AtomTable
 *
 interner
 ;
+bool
+viewingXmlSource
+;
 public
 :
 nsHtml5Tokenizer
@@ -728,6 +731,8 @@ nsHtml5Tokenizer
 nsHtml5TreeBuilder
 *
 tokenHandler
+bool
+viewingXmlSource
 )
 ;
 void
@@ -747,6 +752,11 @@ newPublicId
 nsString
 *
 newSystemId
+)
+;
+bool
+isViewingXmlSource
+(
 )
 ;
 void
@@ -1685,6 +1695,14 @@ NS_HTML5TOKENIZER_SCRIPT_DATA_DOUBLE_ESCAPED_DASH_DASH
 define
 NS_HTML5TOKENIZER_SCRIPT_DATA_DOUBLE_ESCAPE_END
 72
+#
+define
+NS_HTML5TOKENIZER_PROCESSING_INSTRUCTION
+73
+#
+define
+NS_HTML5TOKENIZER_PROCESSING_INSTRUCTION_QUESTION_MARK
+74
 #
 define
 NS_HTML5TOKENIZER_LEAD_OFFSET

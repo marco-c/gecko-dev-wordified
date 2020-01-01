@@ -729,6 +729,7 @@ new
 nsHtml5Tokenizer
 (
 mTreeBuilder
+false
 )
 )
 mRootContextLineNumber
@@ -3364,6 +3365,7 @@ new
 nsHtml5Tokenizer
 (
 mDocWriteSpeculativeTreeBuilder
+false
 )
 ;
 mDocWriteSpeculativeTokenizer
