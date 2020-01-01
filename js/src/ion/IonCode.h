@@ -873,7 +873,7 @@ the
 actual
 method
 .
-HeapPtr
+EncapsulatedPtr
 <
 IonCode
 >
@@ -888,7 +888,7 @@ by
 this
 method
 .
-HeapPtr
+EncapsulatedPtr
 <
 IonCode
 >
@@ -1450,7 +1450,7 @@ bailoutTable_
 ]
 ;
 }
-HeapValue
+EncapsulatedValue
 *
 constants
 (
@@ -1458,7 +1458,7 @@ constants
 {
 return
 (
-HeapValue
+EncapsulatedValue
 *
 )
 &
@@ -2277,7 +2277,7 @@ this
 )
 ;
 }
-HeapValue
+EncapsulatedValue
 &
 getConstant
 (
