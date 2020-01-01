@@ -3046,6 +3046,9 @@ gcJitReleaseTime
 JSGCMode
 gcMode
 ;
+size_t
+gcAllocationThreshold
+;
 bool
 gcHighFrequencyGC
 ;
