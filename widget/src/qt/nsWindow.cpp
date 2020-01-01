@@ -747,7 +747,7 @@ h
 #
 include
 "
-gfxPlatformQt
+gfxQtPlatform
 .
 h
 "
