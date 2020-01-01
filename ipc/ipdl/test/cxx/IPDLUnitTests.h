@@ -536,6 +536,14 @@ TEST
 -
 PASS
 "
+#
+define
+MOZ_IPDL_TESTINFO_LABEL
+"
+TEST
+-
+INFO
+"
 namespace
 mozilla
 {
