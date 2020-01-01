@@ -2393,12 +2393,6 @@ refCount
 )
 )
 ;
-delete
-(
-*
-it
-)
-;
 }
 else
 {
