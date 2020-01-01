@@ -27794,7 +27794,7 @@ byteLength
 -
 1
 srcFormat
-true
+mPixelStorePremultiplyAlpha
 )
 ;
 }
