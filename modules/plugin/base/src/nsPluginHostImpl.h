@@ -556,13 +556,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsPluginDirServiceProvider
 .
 h
@@ -2268,7 +2261,11 @@ mJavaEnabled
 nsPluginInstanceTagList
 mPluginInstanceTagList
 ;
-nsVoidArray
+nsTArray
+<
+PRLibrary
+*
+>
 mUnusedLibraries
 ;
 nsCOMPtr
