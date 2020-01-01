@@ -759,6 +759,13 @@ XP_MACOSX
 #
 include
 <
+crt_externs
+.
+h
+>
+#
+include
+<
 spawn
 .
 h
@@ -3447,7 +3454,10 @@ NULL
 &
 spawnattr
 my_argv
-NULL
+*
+_NSGetEnviron
+(
+)
 )
 ;
 mPid
