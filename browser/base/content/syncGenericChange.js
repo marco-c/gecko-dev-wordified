@@ -992,7 +992,7 @@ _str
 "
 change
 .
-synckey
+synckey2
 .
 warningText
 "
@@ -1235,7 +1235,7 @@ _str
 "
 change
 .
-password
+password2
 .
 introText
 "
@@ -1599,7 +1599,7 @@ _updateStatus
 "
 change
 .
-synckey
+synckey2
 .
 success
 "
@@ -1675,7 +1675,7 @@ _updateStatus
 "
 change
 .
-synckey
+synckey2
 .
 success
 "
@@ -1692,7 +1692,7 @@ _updateStatus
 "
 change
 .
-synckey
+synckey2
 .
 error
 "
