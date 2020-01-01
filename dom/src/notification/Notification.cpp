@@ -79,6 +79,17 @@ include
 "
 mozilla
 /
+dom
+/
+OwningNonNull
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h

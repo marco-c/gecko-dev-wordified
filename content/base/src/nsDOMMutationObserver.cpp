@@ -122,7 +122,11 @@ h
 #
 include
 "
-nsDOMClassInfoID
+mozilla
+/
+dom
+/
+OwningNonNull
 .
 h
 "
@@ -165,13 +169,6 @@ h
 include
 "
 nsTextFragment
-.
-h
-"
-#
-include
-"
-jsapi
 .
 h
 "
