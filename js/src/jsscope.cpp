@@ -748,6 +748,11 @@ rt
 ;
 #
 endif
+GCREASON
+(
+SHAPE
+)
+;
 TriggerGC
 (
 rt
