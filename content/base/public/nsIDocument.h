@@ -11603,6 +11603,8 @@ aLoadedAsData
 nsIScriptGlobalObject
 *
 aEventObject
+bool
+aSVGDocument
 )
 ;
 nsresult
