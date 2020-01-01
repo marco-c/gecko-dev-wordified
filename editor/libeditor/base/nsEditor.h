@@ -3407,7 +3407,7 @@ node
 *
 /
 bool
-IsRootNode
+IsRoot
 (
 nsIDOMNode
 *
@@ -3415,7 +3415,7 @@ inNode
 )
 ;
 bool
-IsRootNode
+IsRoot
 (
 nsINode
 *
@@ -3439,7 +3439,7 @@ node
 *
 /
 bool
-IsDescendantOfBody
+IsDescendantOfRoot
 (
 nsIDOMNode
 *
@@ -3447,7 +3447,7 @@ inNode
 )
 ;
 bool
-IsDescendantOfBody
+IsDescendantOfRoot
 (
 nsINode
 *

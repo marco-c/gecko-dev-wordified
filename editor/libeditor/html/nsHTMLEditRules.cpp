@@ -58271,7 +58271,7 @@ if
 mHTMLEditor
 -
 >
-IsDescendantOfBody
+IsDescendantOfRoot
 (
 startNode
 )

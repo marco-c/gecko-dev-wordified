@@ -17793,7 +17793,7 @@ child
 if
 (
 !
-IsDescendantOfBody
+IsDescendantOfRoot
 (
 resultNode
 )
@@ -18009,7 +18009,7 @@ aCurrentNode
 if
 (
 !
-IsDescendantOfBody
+IsDescendantOfRoot
 (
 aCurrentNode
 )
@@ -18083,14 +18083,14 @@ params
 .
 NS_PRECONDITION
 (
-IsDescendantOfBody
+IsDescendantOfRoot
 (
 aCurrentNode
 )
 &
 &
 !
-IsRootNode
+IsRoot
 (
 aCurrentNode
 )
@@ -18265,7 +18265,7 @@ nsnull
 }
 NS_ASSERTION
 (
-IsDescendantOfBody
+IsDescendantOfRoot
 (
 parent
 )
@@ -18306,7 +18306,7 @@ now
 ;
 if
 (
-IsRootNode
+IsRoot
 (
 parent
 )
@@ -18455,7 +18455,7 @@ aCurrentNode
 if
 (
 !
-IsDescendantOfBody
+IsDescendantOfRoot
 (
 aCurrentNode
 )
@@ -18515,7 +18515,7 @@ aActiveEditorRoot
 {
 if
 (
-IsRootNode
+IsRoot
 (
 aCurrentNode
 )
@@ -19352,7 +19352,7 @@ bool
 nsEditor
 :
 :
-IsRootNode
+IsRoot
 (
 nsIDOMNode
 *
@@ -19389,7 +19389,7 @@ bool
 nsEditor
 :
 :
-IsRootNode
+IsRoot
 (
 nsINode
 *
@@ -19423,7 +19423,7 @@ bool
 nsEditor
 :
 :
-IsDescendantOfBody
+IsDescendantOfRoot
 (
 nsIDOMNode
 *
@@ -19442,7 +19442,7 @@ inNode
 )
 ;
 return
-IsDescendantOfBody
+IsDescendantOfRoot
 (
 node
 )
@@ -19452,7 +19452,7 @@ bool
 nsEditor
 :
 :
-IsDescendantOfBody
+IsDescendantOfRoot
 (
 nsINode
 *
