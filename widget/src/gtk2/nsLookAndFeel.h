@@ -605,6 +605,10 @@ PRUnichar
 sInvisibleCharacter
 ;
 static
+float
+sCaretRatio
+;
+static
 void
 InitLookAndFeel
 (

@@ -4083,6 +4083,7 @@ PaintCaret
 (
 aBuilder
 aCtx
+mFrame
 aBuilder
 -
 >
@@ -4090,15 +4091,6 @@ ToReferenceFrame
 (
 mFrame
 )
-mFrame
--
->
-GetStyleColor
-(
-)
--
->
-mColor
 )
 ;
 }
