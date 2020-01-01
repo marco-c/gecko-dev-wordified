@@ -4490,10 +4490,6 @@ debugScopes
 (
 NULL
 )
-liveArrayBuffers
-(
-NULL
-)
 data
 (
 NULL

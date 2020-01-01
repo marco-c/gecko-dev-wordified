@@ -903,9 +903,9 @@ idp
 ;
 static
 void
-sweepAll
+sweep
 (
-JSRuntime
+JSCompartment
 *
 rt
 )
@@ -914,7 +914,7 @@ static
 void
 resetArrayBufferList
 (
-JSRuntime
+JSCompartment
 *
 rt
 )
