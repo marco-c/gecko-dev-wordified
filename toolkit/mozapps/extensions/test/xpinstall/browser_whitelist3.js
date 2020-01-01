@@ -106,6 +106,10 @@ test
 (
 )
 {
+ignoreAllUncaughtExceptions
+(
+)
+;
 Harness
 .
 installConfirmCallback

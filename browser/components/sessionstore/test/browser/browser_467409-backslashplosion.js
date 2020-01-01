@@ -251,6 +251,10 @@ waitForExplicitFinish
 (
 )
 ;
+ignoreAllUncaughtExceptions
+(
+)
+;
 let
 blankState
 =
