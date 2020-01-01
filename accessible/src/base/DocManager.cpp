@@ -551,9 +551,7 @@ DocAccessible
 *
 docAcc
 =
-mDocAccessibleCache
-.
-GetWeak
+GetExistingDocAccessible
 (
 aDocument
 )
@@ -1381,9 +1379,7 @@ DocAccessible
 *
 docAcc
 =
-mDocAccessibleCache
-.
-GetWeak
+GetExistingDocAccessible
 (
 document
 )
@@ -1973,9 +1969,7 @@ DocAccessible
 *
 docAccessible
 =
-mDocAccessibleCache
-.
-GetWeak
+GetExistingDocAccessible
 (
 document
 )
@@ -2219,9 +2213,7 @@ DocAccessible
 *
 docAcc
 =
-mDocAccessibleCache
-.
-GetWeak
+GetExistingDocAccessible
 (
 aDocument
 )
