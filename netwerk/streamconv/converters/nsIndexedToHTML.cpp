@@ -1669,7 +1669,7 @@ rv
 )
 )
 {
-net_GetURLSpecFromFile
+net_GetURLSpecFromDir
 (
 parent
 url

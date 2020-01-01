@@ -6651,7 +6651,7 @@ nativePath
 ;
 #
 else
-NS_GetURLSpecFromFile
+NS_GetURLSpecFromActualFile
 (
 aComponent
 nativePath
