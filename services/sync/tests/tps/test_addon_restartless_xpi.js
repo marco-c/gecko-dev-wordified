@@ -219,6 +219,9 @@ phase03
 "
 [
 [
+EnsureTracking
+]
+[
 Addons
 .
 setEnabled
@@ -279,6 +282,9 @@ phase05
 "
 [
 [
+EnsureTracking
+]
+[
 Addons
 .
 setEnabled
@@ -338,6 +344,9 @@ Phase
 phase07
 "
 [
+[
+EnsureTracking
+]
 [
 Addons
 .

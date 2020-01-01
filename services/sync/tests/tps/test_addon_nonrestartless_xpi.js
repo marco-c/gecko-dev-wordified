@@ -286,7 +286,7 @@ phase05
 "
 [
 [
-Sync
+EnsureTracking
 ]
 [
 Addons
@@ -377,6 +377,9 @@ phase09
 "
 [
 [
+EnsureTracking
+]
+[
 Addons
 .
 setEnabled
@@ -460,6 +463,9 @@ Phase
 phase13
 "
 [
+[
+EnsureTracking
+]
 [
 Addons
 .
