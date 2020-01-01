@@ -774,10 +774,6 @@ end
 (
 )
 ;
-mFirstBuffer
-=
-nsnull
-;
 }
 NS_IMETHODIMP_
 (
@@ -3087,6 +3083,10 @@ setEnd
 (
 0
 )
+;
+mLastBuffer
+=
+mFirstBuffer
 ;
 }
 PRBool
