@@ -4705,7 +4705,8 @@ static
 JSBool
 date_parseISOString
 (
-RawLinearString
+JSLinearString
+*
 str
 double
 *
@@ -5519,7 +5520,8 @@ static
 JSBool
 date_parseString
 (
-RawLinearString
+JSLinearString
+*
 str
 double
 *
@@ -7659,7 +7661,8 @@ str
 return
 false
 ;
-RawLinearString
+JSLinearString
+*
 linearStr
 =
 str
@@ -19596,7 +19599,8 @@ str
 return
 false
 ;
-RawLinearString
+JSLinearString
+*
 linearStr
 =
 str
