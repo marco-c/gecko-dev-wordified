@@ -171,9 +171,6 @@ customizeToolbarDTD
 ;
 #
 endif
-#
-ifdef
-MOZ_PLACES
 <
 !
 ENTITY
@@ -199,8 +196,6 @@ dtd
 %
 placesDTD
 ;
-#
-endif
 #
 ifdef
 MOZ_SAFE_BROWSING

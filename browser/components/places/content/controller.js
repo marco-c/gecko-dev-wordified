@@ -1270,9 +1270,6 @@ true
 return
 false
 ;
-#
-ifdef
-MOZ_PLACES_BOOKMARKS
 case
 "
 placesCmd_new
@@ -1754,8 +1751,6 @@ true
 return
 false
 ;
-#
-endif
 default
 :
 return
@@ -2073,9 +2068,6 @@ openLinksInTabs
 ;
 break
 ;
-#
-ifdef
-MOZ_PLACES_BOOKMARKS
 case
 "
 placesCmd_new
@@ -2227,8 +2219,6 @@ setBookmarksToolbarFolder
 ;
 break
 ;
-#
-endif
 }
 }
 onEvent
@@ -10570,9 +10560,6 @@ tabs
 "
 )
 ;
-#
-ifdef
-MOZ_PLACES_BOOKMARKS
 goUpdateCommand
 (
 "
@@ -10655,6 +10642,4 @@ name
 "
 )
 ;
-#
-endif
 }

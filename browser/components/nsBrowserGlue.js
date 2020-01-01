@@ -2161,9 +2161,6 @@ bg__initPlaces
 (
 )
 {
-#
-ifdef
-MOZ_PLACES_BOOKMARKS
 /
 /
 we
@@ -2565,8 +2562,6 @@ n
 }
 }
 }
-#
-endif
 }
 /
 *
@@ -2593,9 +2588,6 @@ bg__shutdownPlaces
 (
 )
 {
-#
-ifdef
-MOZ_PLACES_BOOKMARKS
 /
 /
 backup
@@ -2641,8 +2633,6 @@ backupBookmarksFile
 (
 )
 ;
-#
-endif
 }
 /
 /
