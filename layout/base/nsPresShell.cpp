@@ -6451,6 +6451,14 @@ DoVerifyReflow
 (
 )
 ;
+void
+VerifyHasDirtyRootAncestor
+(
+nsIFrame
+*
+aFrame
+)
+;
 #
 endif
 friend
