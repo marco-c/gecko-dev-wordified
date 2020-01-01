@@ -4781,6 +4781,9 @@ aFloat
 nsMargin
 &
 aFloatMargin
+nsMargin
+&
+aFloatOffsets
 /
 /
 Whether

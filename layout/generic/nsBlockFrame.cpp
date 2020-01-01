@@ -40894,6 +40894,9 @@ aFloat
 nsMargin
 &
 aFloatMargin
+nsMargin
+&
+aFloatOffsets
 bool
 aFloatPushedDown
 nsReflowStatus
@@ -41478,6 +41481,8 @@ rv
 Capture
 the
 margin
+and
+offsets
 information
 for
 the
@@ -41496,6 +41501,12 @@ don
 '
 t
 collapse
+aFloatOffsets
+=
+floatRS
+.
+mComputedOffsets
+;
 const
 nsHTMLReflowMetrics
 &
