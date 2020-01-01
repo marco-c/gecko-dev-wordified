@@ -453,6 +453,10 @@ test_sms_basics
 .
 html
 \
+test_smsfilter
+.
+html
+\
 (
 NULL
 )

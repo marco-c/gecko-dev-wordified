@@ -1888,6 +1888,10 @@ DOMCI_CLASS
 (
 MozSmsRequest
 )
+DOMCI_CLASS
+(
+MozSmsFilter
+)
 /
 /
 font
