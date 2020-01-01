@@ -1321,7 +1321,7 @@ overflow
 /
 underflow
 by
-claping
+clamping
 to
 the
 lowest

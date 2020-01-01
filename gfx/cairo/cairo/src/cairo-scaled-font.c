@@ -6485,8 +6485,8 @@ width
 =
 =
 0
-&
-&
+|
+|
 scaled_glyph
 -
 >
@@ -6746,7 +6746,7 @@ y
 ;
 /
 *
-scaled_glyphs
+scaled_glyph
 contains
 the
 glyph

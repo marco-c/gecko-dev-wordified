@@ -3332,17 +3332,6 @@ path_copy
 *
 dev_path
 ;
-double
-tolerance_multiplier
-=
-_cairo_matrix_transformed_circle_major_axis
-(
-device_transform
-1
-.
-0
-)
-;
 if
 (
 surface
@@ -3748,8 +3737,6 @@ command
 stroke
 .
 tolerance
-*
-tolerance_multiplier
 command
 -
 >
@@ -3961,8 +3948,6 @@ command
 fill
 .
 tolerance
-*
-tolerance_multiplier
 command
 -
 >
@@ -4002,8 +3987,6 @@ stroke_command
 stroke
 .
 tolerance
-*
-tolerance_multiplier
 stroke_command
 -
 >
@@ -4101,8 +4084,6 @@ command
 fill
 .
 tolerance
-*
-tolerance_multiplier
 command
 -
 >
@@ -4334,8 +4315,6 @@ command
 intersect_clip_path
 .
 tolerance
-*
-tolerance_multiplier
 command
 -
 >

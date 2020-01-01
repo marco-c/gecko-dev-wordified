@@ -1332,13 +1332,15 @@ cw
 )
 ;
 return
-_cairo_slope_clockwise
+_cairo_slope_compare
 (
 &
 in_slope
 &
 out_slope
 )
+<
+0
 ;
 }
 /

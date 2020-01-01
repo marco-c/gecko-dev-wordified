@@ -11323,6 +11323,9 @@ double
 y2
 )
 {
+cairo_status_t
+status
+;
 if
 (
 cr
@@ -11378,6 +11381,8 @@ y2
 return
 ;
 }
+status
+=
 _cairo_gstate_path_extents
 (
 cr
@@ -11392,6 +11397,16 @@ x1
 y1
 x2
 y2
+)
+;
+if
+(
+status
+)
+_cairo_set_error
+(
+cr
+status
 )
 ;
 }

@@ -8202,6 +8202,15 @@ win32
 printing
 surface
 *
+CAIRO_SURFACE_TYPE_QUARTZ_IMAGE
+:
+The
+surface
+is
+of
+type
+quartz_image
+*
 *
 #
 cairo_surface_type_t
