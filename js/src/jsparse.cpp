@@ -21090,12 +21090,8 @@ FREE_UPVAR_COOKIE
 and
 the
 reserved
-frame
 level
-JS_BITMASK
-(
-16
-)
+FREE_STATIC_LEVEL
 .
 *
 We
