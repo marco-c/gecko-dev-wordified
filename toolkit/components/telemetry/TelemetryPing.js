@@ -4923,7 +4923,7 @@ utf8String
 =
 converter
 .
-ConvertToUnicode
+ConvertFromUnicode
 (
 pingString
 )
