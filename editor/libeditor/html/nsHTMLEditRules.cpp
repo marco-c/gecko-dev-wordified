@@ -63044,17 +63044,4 @@ CreateBogusNodeIfNeeded
 selection
 )
 ;
-/
-/
-Reset
-the
-spell
-checker
-mEditor
--
->
-SyncRealTimeSpell
-(
-)
-;
 }
