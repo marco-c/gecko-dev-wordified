@@ -1112,6 +1112,17 @@ return
 nsnull
 ;
 }
+bool
+isBatching
+(
+)
+{
+return
+mBatchLevel
+>
+0
+;
+}
 private
 :
 static
