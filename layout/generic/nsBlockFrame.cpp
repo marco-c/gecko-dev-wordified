@@ -42446,7 +42446,7 @@ ifdef
 DEBUG
 static
 void
-ComputeCombinedArea
+ComputeVisualOverflowArea
 (
 nsLineList
 &
@@ -42526,12 +42526,12 @@ s
 combined
 areas
 nsRect
-lineCombinedArea
+visOverflow
 (
 line
 -
 >
-GetCombinedArea
+GetVisualOverflowArea
 (
 )
 )
@@ -42539,14 +42539,14 @@ GetCombinedArea
 nscoord
 x
 =
-lineCombinedArea
+visOverflow
 .
 x
 ;
 nscoord
 y
 =
-lineCombinedArea
+visOverflow
 .
 y
 ;
@@ -42555,7 +42555,7 @@ xmost
 =
 x
 +
-lineCombinedArea
+visOverflow
 .
 width
 ;
@@ -42564,7 +42564,7 @@ ymost
 =
 y
 +
-lineCombinedArea
+visOverflow
 .
 height
 ;
@@ -43717,7 +43717,7 @@ ca
 ;
 :
 :
-ComputeCombinedArea
+ComputeVisualOverflowArea
 (
 mLines
 mRect
