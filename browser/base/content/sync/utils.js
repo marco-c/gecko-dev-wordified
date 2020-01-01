@@ -1853,7 +1853,7 @@ val1
 =
 Weave
 .
-Service
+Identity
 .
 username
 )
@@ -1878,7 +1878,7 @@ val1
 =
 Weave
 .
-Service
+Identity
 .
 account
 )
@@ -1903,9 +1903,9 @@ val1
 =
 Weave
 .
-Service
+Identity
 .
-password
+basicPassword
 )
 error
 =
@@ -1928,9 +1928,9 @@ val1
 =
 Weave
 .
-Service
+Identity
 .
-passphrase
+syncKey
 )
 error
 =
