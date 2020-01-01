@@ -461,9 +461,6 @@ mIsHttpDownload
 PRBool
 mSkipSource
 ;
-PRBool
-mIsReadOnlyRequest
-;
 /
 *
 summary
