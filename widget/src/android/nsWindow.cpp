@@ -4901,7 +4901,7 @@ ctx
 BasicLayerManager
 :
 :
-BUFFER_NONE
+BUFFER_BUFFERED
 )
 ;
 status
