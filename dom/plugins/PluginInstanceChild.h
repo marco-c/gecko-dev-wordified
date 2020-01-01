@@ -1761,9 +1761,6 @@ mSharedSurfaceDib
 ;
 struct
 {
-PRUint32
-doublePassEvent
-;
 PRUint16
 doublePass
 ;
