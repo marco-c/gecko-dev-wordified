@@ -1020,7 +1020,7 @@ the
 right
 thread
 .
-void
+nsresult
 IceGatheringCompleted_m
 (
 NrIceCtx
@@ -1028,7 +1028,7 @@ NrIceCtx
 aCtx
 )
 ;
-void
+nsresult
 IceCompleted_m
 (
 NrIceCtx
