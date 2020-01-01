@@ -885,9 +885,14 @@ its
 OsiPoint
 .
 #
+ifdef
+JS_ION
+#
 define
 CHECK_OSIPOINT_REGISTERS
 1
+#
+endif
 #
 endif
 }
