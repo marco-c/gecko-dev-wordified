@@ -1646,12 +1646,17 @@ endif
 ifdef
 _MSC_VER
 #
+ifndef
+__cplusplus
+#
 undef
 inline
 #
 define
 inline
 __inline
+#
+endif
 /
 *
 there
