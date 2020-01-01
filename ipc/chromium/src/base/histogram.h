@@ -3420,6 +3420,13 @@ int
 value
 )
 ;
+void
+Subtract
+(
+int
+value
+)
+;
 /
 /
 This
