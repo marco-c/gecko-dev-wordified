@@ -20886,12 +20886,6 @@ nsISupports
 >
 prinOrSop
 ;
-nsISupports
-*
-identity
-=
-nsnull
-;
 if
 (
 argv
