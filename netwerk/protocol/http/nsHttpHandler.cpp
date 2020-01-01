@@ -5717,7 +5717,12 @@ NS_CLAMP
 (
 val
 1
-NS_SOCKET_MAX_COUNT
+gSocketTransportService
+-
+>
+MaxCount
+(
+)
 )
 ;
 if
