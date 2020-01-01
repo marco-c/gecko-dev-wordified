@@ -284,7 +284,7 @@ td
 =
 propertyView
 .
-matchedSelectorTable
+matchedSelectorsContainer
 .
 querySelector
 (
