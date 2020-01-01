@@ -1818,7 +1818,7 @@ nsGIFDecoder2
 :
 BeginImageFrame
 (
-gfx_depth
+PRUint16
 aDepth
 )
 {
