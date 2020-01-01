@@ -1650,11 +1650,6 @@ slot
 0
 )
 return
-sizeof
-(
-IonJSFrameLayout
-)
-+
 -
 slot
 ;
