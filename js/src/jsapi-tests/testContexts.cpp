@@ -391,6 +391,8 @@ END_TEST
 (
 testContexts_bug561444
 )
+#
+endif
 BEGIN_TEST
 (
 testContexts_bug563735
@@ -608,10 +610,11 @@ JS_DestroyRuntime
 rt2
 )
 ;
+return
+true
+;
 }
 END_TEST
 (
 testContexts_bug570764
 )
-#
-endif
