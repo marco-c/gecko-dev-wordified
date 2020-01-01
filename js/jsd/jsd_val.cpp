@@ -1860,6 +1860,16 @@ JSD_GetDefaultJSContext
 jsdc
 )
 ;
+JSAutoCompartment
+ac
+(
+cx
+JSVAL_TO_OBJECT
+(
+val
+)
+)
+;
 obj
 =
 JS_ObjectToOuterObject
