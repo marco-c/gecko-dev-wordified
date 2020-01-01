@@ -21882,11 +21882,10 @@ rv
 ;
 if
 (
-!
-LL_IS_ZERO
-(
 fileSize
-)
+!
+=
+0
 )
 {
 nsCOMPtr

@@ -2230,13 +2230,10 @@ microsecInDayCnt
 ;
 if
 (
-!
-(
-LL_IS_ZERO
-(
 temp
-)
-)
+!
+=
+0
 )
 {
 LL_ADD
