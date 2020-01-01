@@ -783,6 +783,8 @@ readFloat
 5
 )
 ;
+/
+/
 os
 .
 writeDouble
@@ -792,6 +794,8 @@ Math
 SQRT2
 )
 ;
+/
+/
 do_check_eq
 (
 is
