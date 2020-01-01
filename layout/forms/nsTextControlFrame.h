@@ -870,6 +870,15 @@ nsIContent
 aElements
 )
 ;
+virtual
+void
+GetAnonymousContent
+(
+nsBaseContentList
+&
+aElements
+)
+;
 /
 /
 Utility

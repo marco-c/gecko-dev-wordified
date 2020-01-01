@@ -1327,6 +1327,17 @@ PR_TRUE
 )
 ;
 virtual
+already_AddRefed
+<
+nsINodeList
+>
+GetChildren
+(
+PRInt32
+aChildType
+)
+;
+virtual
 nsIAtom
 *
 GetIDAttributeName
