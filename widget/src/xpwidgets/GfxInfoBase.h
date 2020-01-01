@@ -713,9 +713,7 @@ aDriverInfo
 }
 ;
 }
-;
 }
-;
 #
 endif
 /
