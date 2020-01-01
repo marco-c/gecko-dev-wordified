@@ -2463,6 +2463,14 @@ if
 domDoc
 )
 {
+aResultDocument
+-
+>
+SetMayStartLayout
+(
+PR_FALSE
+)
+;
 /
 /
 We
