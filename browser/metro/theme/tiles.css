@@ -671,7 +671,7 @@ top
 ;
 right
 :
-6px
+tile_side_margin
 ;
 bottom
 :
@@ -679,7 +679,7 @@ bottom
 ;
 left
 :
-6px
+tile_side_margin
 ;
 border
 :
