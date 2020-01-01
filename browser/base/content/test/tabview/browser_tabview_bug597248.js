@@ -164,7 +164,7 @@ win
 ;
 }
 let
-restoreWin
+restoredWin
 ;
 function
 setupTwo
