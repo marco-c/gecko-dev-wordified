@@ -661,8 +661,7 @@ Call
 object
 *
 /
-JSObject
-*
+jsval
 argsobj
 ;
 /
@@ -671,6 +670,9 @@ lazily
 created
 arguments
 object
+must
+be
+JSVAL_OBJECT
 *
 /
 JSObject

@@ -15674,8 +15674,6 @@ NULL
 JSPROP_ENUMERATE
 |
 JSPROP_PERMANENT
-|
-JSPROP_SHARED
 SPROP_HAS_SHORTID
 shortid
 NULL
@@ -37343,10 +37341,13 @@ MaybeDumpObject
 "
 argsobj
 "
+JSVAL_TO_OBJECT
+(
 fp
 -
 >
 argsobj
+)
 )
 ;
 MaybeDumpObject

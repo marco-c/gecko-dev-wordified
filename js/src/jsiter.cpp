@@ -4188,10 +4188,13 @@ argsobj
 JS_SetPrivate
 (
 cx
+JSVAL_TO_OBJECT
+(
 fp
 -
 >
 argsobj
+)
 &
 gen
 -

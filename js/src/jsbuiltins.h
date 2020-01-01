@@ -4017,6 +4017,10 @@ JS_DECLARE_CALLINFO
 (
 js_AllocFlatClosure
 )
+JS_DECLARE_CALLINFO
+(
+js_PutArguments
+)
 /
 *
 Defined
