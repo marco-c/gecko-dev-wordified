@@ -111,6 +111,8 @@ MPL
 #
 include
 "
+ion
+/
 BaselineFrame
 .
 h
@@ -118,6 +120,8 @@ h
 #
 include
 "
+ion
+/
 BaselineIC
 .
 h
@@ -125,6 +129,8 @@ h
 #
 include
 "
+ion
+/
 BaselineJIT
 .
 h
@@ -132,6 +138,8 @@ h
 #
 include
 "
+ion
+/
 Ion
 .
 h

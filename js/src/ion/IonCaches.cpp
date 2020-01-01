@@ -120,6 +120,8 @@ h
 #
 include
 "
+ion
+/
 PerfSpewer
 .
 h
@@ -127,6 +129,8 @@ h
 #
 include
 "
+ion
+/
 CodeGenerator
 .
 h
@@ -134,6 +138,8 @@ h
 #
 include
 "
+ion
+/
 Ion
 .
 h
@@ -141,6 +147,8 @@ h
 #
 include
 "
+ion
+/
 IonCaches
 .
 h
@@ -148,6 +156,8 @@ h
 #
 include
 "
+ion
+/
 IonLinker
 .
 h
@@ -155,6 +165,8 @@ h
 #
 include
 "
+ion
+/
 IonSpewer
 .
 h
@@ -162,6 +174,8 @@ h
 #
 include
 "
+ion
+/
 VMFunctions
 .
 h
@@ -178,6 +192,8 @@ h
 #
 include
 "
+ion
+/
 IonFrames
 -
 inl

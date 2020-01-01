@@ -120,6 +120,8 @@ h
 #
 include
 "
+ion
+/
 BaselineJIT
 .
 h
@@ -127,6 +129,8 @@ h
 #
 include
 "
+ion
+/
 BaselineCompiler
 .
 h
@@ -134,6 +138,8 @@ h
 #
 include
 "
+ion
+/
 BaselineInspector
 .
 h
@@ -141,6 +147,8 @@ h
 #
 include
 "
+ion
+/
 Ion
 .
 h
@@ -148,6 +156,8 @@ h
 #
 include
 "
+ion
+/
 IonAnalysis
 .
 h
@@ -155,6 +165,8 @@ h
 #
 include
 "
+ion
+/
 IonBuilder
 .
 h
@@ -162,6 +174,8 @@ h
 #
 include
 "
+ion
+/
 IonLinker
 .
 h
@@ -169,6 +183,8 @@ h
 #
 include
 "
+ion
+/
 IonSpewer
 .
 h
@@ -176,6 +192,8 @@ h
 #
 include
 "
+ion
+/
 LIR
 .
 h
@@ -183,6 +201,8 @@ h
 #
 include
 "
+ion
+/
 AliasAnalysis
 .
 h
@@ -190,6 +210,8 @@ h
 #
 include
 "
+ion
+/
 LICM
 .
 h
@@ -197,6 +219,8 @@ h
 #
 include
 "
+ion
+/
 ValueNumbering
 .
 h
@@ -204,6 +228,8 @@ h
 #
 include
 "
+ion
+/
 EdgeCaseAnalysis
 .
 h
@@ -211,6 +237,8 @@ h
 #
 include
 "
+ion
+/
 RangeAnalysis
 .
 h
@@ -218,6 +246,8 @@ h
 #
 include
 "
+ion
+/
 LinearScan
 .
 h
@@ -225,6 +255,8 @@ h
 #
 include
 "
+ion
+/
 ParallelSafetyAnalysis
 .
 h
@@ -257,6 +289,8 @@ h
 #
 include
 "
+ion
+/
 IonCompartment
 .
 h
@@ -264,6 +298,8 @@ h
 #
 include
 "
+ion
+/
 PerfSpewer
 .
 h
@@ -271,6 +307,8 @@ h
 #
 include
 "
+ion
+/
 CodeGenerator
 .
 h
@@ -285,6 +323,8 @@ h
 #
 include
 "
+ion
+/
 BacktrackingAllocator
 .
 h
@@ -292,6 +332,8 @@ h
 #
 include
 "
+ion
+/
 StupidAllocator
 .
 h
@@ -299,6 +341,8 @@ h
 #
 include
 "
+ion
+/
 UnreachableCodeElimination
 .
 h
@@ -306,6 +350,8 @@ h
 #
 include
 "
+ion
+/
 EffectiveAddressAnalysis
 .
 h
@@ -319,6 +365,8 @@ JS_CPU_X86
 #
 include
 "
+ion
+/
 x86
 /
 Lowering
@@ -336,6 +384,8 @@ JS_CPU_X64
 #
 include
 "
+ion
+/
 x64
 /
 Lowering
@@ -353,6 +403,8 @@ JS_CPU_ARM
 #
 include
 "
+ion
+/
 arm
 /
 Lowering
@@ -438,6 +490,8 @@ h
 #
 include
 "
+ion
+/
 ExecutionModeInlines
 .
 h
@@ -445,6 +499,8 @@ h
 #
 include
 "
+ion
+/
 AsmJS
 .
 h
@@ -452,6 +508,8 @@ h
 #
 include
 "
+ion
+/
 AsmJSModule
 .
 h

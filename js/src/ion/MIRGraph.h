@@ -138,6 +138,8 @@ MIR
 #
 include
 "
+ion
+/
 IonAllocPolicy
 .
 h
@@ -145,6 +147,8 @@ h
 #
 include
 "
+ion
+/
 MIRGenerator
 .
 h
@@ -152,6 +156,8 @@ h
 #
 include
 "
+ion
+/
 FixedList
 .
 h

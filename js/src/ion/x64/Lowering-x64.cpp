@@ -111,6 +111,10 @@ MPL
 #
 include
 "
+ion
+/
+x64
+/
 Lowering
 -
 x64
@@ -129,6 +133,10 @@ h
 #
 include
 "
+ion
+/
+x64
+/
 Assembler
 -
 x64

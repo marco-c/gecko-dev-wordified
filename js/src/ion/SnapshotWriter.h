@@ -117,6 +117,8 @@ ion_SnapshotWriter_h
 #
 include
 "
+ion
+/
 Ion
 .
 h
@@ -124,6 +126,8 @@ h
 #
 include
 "
+ion
+/
 IonCode
 .
 h
@@ -131,6 +135,8 @@ h
 #
 include
 "
+ion
+/
 Registers
 .
 h
@@ -138,6 +144,8 @@ h
 #
 include
 "
+ion
+/
 CompactBuffer
 .
 h
@@ -145,6 +153,8 @@ h
 #
 include
 "
+ion
+/
 Bailouts
 .
 h

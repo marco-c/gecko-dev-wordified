@@ -139,6 +139,8 @@ h
 #
 include
 "
+ion
+/
 Bailouts
 .
 h
@@ -146,6 +148,8 @@ h
 #
 include
 "
+ion
+/
 SnapshotReader
 .
 h
@@ -153,6 +157,8 @@ h
 #
 include
 "
+ion
+/
 Ion
 .
 h
@@ -160,6 +166,8 @@ h
 #
 include
 "
+ion
+/
 IonCompartment
 .
 h
@@ -167,6 +175,8 @@ h
 #
 include
 "
+ion
+/
 IonSpewer
 .
 h
@@ -183,6 +193,8 @@ h
 #
 include
 "
+ion
+/
 BaselineJIT
 .
 h

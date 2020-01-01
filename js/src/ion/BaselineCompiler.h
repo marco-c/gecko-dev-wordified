@@ -134,6 +134,8 @@ h
 #
 include
 "
+ion
+/
 IonCode
 .
 h
@@ -157,6 +159,8 @@ h
 #
 include
 "
+ion
+/
 IonAllocPolicy
 .
 h
@@ -164,6 +168,8 @@ h
 #
 include
 "
+ion
+/
 BaselineJIT
 .
 h
@@ -171,6 +177,8 @@ h
 #
 include
 "
+ion
+/
 BaselineIC
 .
 h
@@ -178,6 +186,8 @@ h
 #
 include
 "
+ion
+/
 FixedList
 .
 h
@@ -185,6 +195,8 @@ h
 #
 include
 "
+ion
+/
 BytecodeAnalysis
 .
 h
@@ -198,6 +210,8 @@ JS_CPU_X86
 #
 include
 "
+ion
+/
 x86
 /
 BaselineCompiler
@@ -215,6 +229,8 @@ JS_CPU_X64
 #
 include
 "
+ion
+/
 x64
 /
 BaselineCompiler
@@ -228,6 +244,8 @@ else
 #
 include
 "
+ion
+/
 arm
 /
 BaselineCompiler

@@ -117,6 +117,10 @@ ion_arm_CodeGenerator_arm_h
 #
 include
 "
+ion
+/
+arm
+/
 Assembler
 -
 arm

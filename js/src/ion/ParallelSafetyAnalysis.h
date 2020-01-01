@@ -117,6 +117,8 @@ ion_ParallelSafetyAnalysis_h
 #
 include
 "
+ion
+/
 MIR
 .
 h
@@ -124,6 +126,8 @@ h
 #
 include
 "
+ion
+/
 CompileInfo
 .
 h

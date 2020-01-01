@@ -136,6 +136,8 @@ MIRGraph
 #
 include
 "
+ion
+/
 IonAllocPolicy
 .
 h
@@ -143,6 +145,8 @@ h
 #
 include
 "
+ion
+/
 LIR
 .
 h
@@ -150,6 +154,8 @@ h
 #
 include
 "
+ion
+/
 MOpcodes
 .
 h
@@ -163,6 +169,8 @@ JS_CPU_X86
 #
 include
 "
+ion
+/
 x86
 /
 Lowering
@@ -180,6 +188,8 @@ JS_CPU_X64
 #
 include
 "
+ion
+/
 x64
 /
 Lowering
@@ -197,6 +207,8 @@ JS_CPU_ARM
 #
 include
 "
+ion
+/
 arm
 /
 Lowering

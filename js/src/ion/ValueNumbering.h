@@ -117,6 +117,8 @@ ion_ValueNumbering_h
 #
 include
 "
+ion
+/
 MIR
 .
 h
@@ -124,6 +126,8 @@ h
 #
 include
 "
+ion
+/
 MIRGraph
 .
 h
@@ -131,6 +135,8 @@ h
 #
 include
 "
+ion
+/
 CompileInfo
 .
 h

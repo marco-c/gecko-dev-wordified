@@ -111,6 +111,8 @@ MPL
 #
 include
 "
+ion
+/
 Ion
 .
 h
@@ -118,6 +120,8 @@ h
 #
 include
 "
+ion
+/
 IonCompartment
 .
 h

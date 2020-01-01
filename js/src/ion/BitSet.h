@@ -117,6 +117,8 @@ ion_BitSet_h
 #
 include
 "
+ion
+/
 IonAllocPolicy
 .
 h

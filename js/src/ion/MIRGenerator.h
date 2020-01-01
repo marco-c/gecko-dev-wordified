@@ -159,6 +159,8 @@ h
 #
 include
 "
+ion
+/
 IonAllocPolicy
 .
 h
@@ -166,6 +168,8 @@ h
 #
 include
 "
+ion
+/
 IonCompartment
 .
 h
@@ -173,6 +177,8 @@ h
 #
 include
 "
+ion
+/
 CompileInfo
 .
 h
@@ -180,6 +186,8 @@ h
 #
 include
 "
+ion
+/
 RegisterSets
 .
 h

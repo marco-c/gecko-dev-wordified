@@ -124,6 +124,8 @@ h
 #
 include
 "
+ion
+/
 IonTypes
 .
 h
@@ -137,6 +139,8 @@ JS_CPU_X86
 #
 include
 "
+ion
+/
 x86
 /
 Architecture
@@ -154,6 +158,8 @@ JS_CPU_X64
 #
 include
 "
+ion
+/
 x64
 /
 Architecture
@@ -171,6 +177,8 @@ JS_CPU_ARM
 #
 include
 "
+ion
+/
 arm
 /
 Architecture
@@ -184,6 +192,8 @@ endif
 #
 include
 "
+ion
+/
 FixedArityList
 .
 h

@@ -118,6 +118,8 @@ h
 #
 include
 "
+ion
+/
 Ion
 .
 h
@@ -125,6 +127,8 @@ h
 #
 include
 "
+ion
+/
 MIR
 .
 h
@@ -132,6 +136,8 @@ h
 #
 include
 "
+ion
+/
 MIRGraph
 .
 h
@@ -139,6 +145,8 @@ h
 #
 include
 "
+ion
+/
 ParallelSafetyAnalysis
 .
 h
@@ -146,6 +154,8 @@ h
 #
 include
 "
+ion
+/
 IonSpewer
 .
 h
@@ -153,6 +163,8 @@ h
 #
 include
 "
+ion
+/
 UnreachableCodeElimination
 .
 h
@@ -160,6 +172,8 @@ h
 #
 include
 "
+ion
+/
 IonAnalysis
 .
 h

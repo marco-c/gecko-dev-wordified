@@ -111,6 +111,10 @@ MPL
 #
 include
 "
+ion
+/
+x86
+/
 Lowering
 -
 x86
@@ -129,6 +133,10 @@ h
 #
 include
 "
+ion
+/
+x86
+/
 Assembler
 -
 x86

@@ -111,6 +111,8 @@ MPL
 #
 include
 "
+ion
+/
 MIR
 .
 h
@@ -127,6 +129,8 @@ h
 #
 include
 "
+ion
+/
 BaselineInspector
 .
 h
@@ -134,6 +138,8 @@ h
 #
 include
 "
+ion
+/
 IonBuilder
 .
 h
@@ -141,6 +147,8 @@ h
 #
 include
 "
+ion
+/
 LICM
 .
 h
@@ -152,6 +160,8 @@ LinearSum
 #
 include
 "
+ion
+/
 MIRGraph
 .
 h
@@ -159,6 +169,8 @@ h
 #
 include
 "
+ion
+/
 EdgeCaseAnalysis
 .
 h
@@ -166,6 +178,8 @@ h
 #
 include
 "
+ion
+/
 RangeAnalysis
 .
 h
@@ -173,6 +187,8 @@ h
 #
 include
 "
+ion
+/
 IonSpewer
 .
 h

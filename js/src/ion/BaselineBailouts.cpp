@@ -111,6 +111,8 @@ MPL
 #
 include
 "
+ion
+/
 BaselineCompiler
 .
 h
@@ -118,6 +120,8 @@ h
 #
 include
 "
+ion
+/
 BaselineIC
 .
 h
@@ -125,6 +129,8 @@ h
 #
 include
 "
+ion
+/
 BaselineJIT
 .
 h
@@ -132,6 +138,8 @@ h
 #
 include
 "
+ion
+/
 CompileInfo
 .
 h
@@ -139,6 +147,8 @@ h
 #
 include
 "
+ion
+/
 IonSpewer
 .
 h
@@ -146,6 +156,8 @@ h
 #
 include
 "
+ion
+/
 IonFrames
 -
 inl

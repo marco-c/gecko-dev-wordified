@@ -182,6 +182,8 @@ h
 #
 include
 "
+ion
+/
 TypePolicy
 .
 h
@@ -189,6 +191,8 @@ h
 #
 include
 "
+ion
+/
 IonAllocPolicy
 .
 h
@@ -196,6 +200,8 @@ h
 #
 include
 "
+ion
+/
 InlineList
 .
 h
@@ -203,6 +209,8 @@ h
 #
 include
 "
+ion
+/
 MOpcodes
 .
 h
@@ -210,6 +218,8 @@ h
 #
 include
 "
+ion
+/
 FixedArityList
 .
 h
@@ -217,6 +227,8 @@ h
 #
 include
 "
+ion
+/
 IonMacroAssembler
 .
 h
@@ -224,6 +236,8 @@ h
 #
 include
 "
+ion
+/
 Bailouts
 .
 h
@@ -231,6 +245,8 @@ h
 #
 include
 "
+ion
+/
 FixedList
 .
 h
@@ -238,6 +254,8 @@ h
 #
 include
 "
+ion
+/
 CompilerRoot
 .
 h

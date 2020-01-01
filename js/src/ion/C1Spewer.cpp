@@ -128,6 +128,8 @@ h
 #
 include
 "
+ion
+/
 IonBuilder
 .
 h
@@ -135,6 +137,8 @@ h
 #
 include
 "
+ion
+/
 Ion
 .
 h
@@ -142,6 +146,8 @@ h
 #
 include
 "
+ion
+/
 C1Spewer
 .
 h
@@ -149,6 +155,8 @@ h
 #
 include
 "
+ion
+/
 MIRGraph
 .
 h
@@ -156,6 +164,8 @@ h
 #
 include
 "
+ion
+/
 LIR
 .
 h
@@ -163,6 +173,8 @@ h
 #
 include
 "
+ion
+/
 LinearScan
 .
 h

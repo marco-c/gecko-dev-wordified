@@ -117,6 +117,8 @@ ion_SnapshotReader_h
 #
 include
 "
+ion
+/
 IonTypes
 .
 h
@@ -124,6 +126,8 @@ h
 #
 include
 "
+ion
+/
 IonCode
 .
 h
@@ -131,6 +135,8 @@ h
 #
 include
 "
+ion
+/
 Registers
 .
 h
@@ -138,6 +144,8 @@ h
 #
 include
 "
+ion
+/
 CompactBuffer
 .
 h
