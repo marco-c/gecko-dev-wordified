@@ -488,6 +488,13 @@ h
 #
 include
 "
+njcpudetect
+.
+h
+"
+#
+include
+"
 njconfig
 .
 h
