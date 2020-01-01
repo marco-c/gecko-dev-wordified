@@ -597,6 +597,14 @@ GetJNIForThread
 (
 )
 ;
+if
+(
+!
+env
+)
+return
+nsnull
+;
 jclass
 cls
 =

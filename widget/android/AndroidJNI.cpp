@@ -1581,6 +1581,7 @@ Java_org_mozilla_gecko_GeckoAppShell_executeNextRunnable
 (
 JNIEnv
 *
+jenv
 jclass
 )
 {
@@ -1641,6 +1642,7 @@ Bridge
 >
 ExecuteNextRunnable
 (
+jenv
 )
 ;
 __android_log_print
