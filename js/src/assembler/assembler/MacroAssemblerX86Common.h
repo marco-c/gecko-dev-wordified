@@ -835,7 +835,7 @@ dest
 void
 add32
 (
-Imm32
+TrustedImm32
 imm
 Address
 address
@@ -860,7 +860,7 @@ base
 void
 add32
 (
-Imm32
+TrustedImm32
 imm
 RegisterID
 dest
@@ -1461,7 +1461,7 @@ dest
 void
 or32
 (
-Imm32
+TrustedImm32
 imm
 RegisterID
 dest
@@ -1527,7 +1527,7 @@ dest
 void
 or32
 (
-Imm32
+TrustedImm32
 imm
 Address
 address
@@ -2076,7 +2076,7 @@ dest
 void
 sub32
 (
-Imm32
+TrustedImm32
 imm
 RegisterID
 dest
@@ -2096,7 +2096,7 @@ dest
 void
 sub32
 (
-Imm32
+TrustedImm32
 imm
 Address
 address
@@ -2185,7 +2185,7 @@ dest
 void
 xor32
 (
-Imm32
+TrustedImm32
 imm
 Address
 dest
@@ -2210,7 +2210,7 @@ base
 void
 xor32
 (
-Imm32
+TrustedImm32
 imm
 RegisterID
 dest
@@ -2848,7 +2848,7 @@ scale
 void
 store32
 (
-Imm32
+TrustedImm32
 imm
 BaseIndex
 address
@@ -2941,7 +2941,7 @@ scale
 void
 store32
 (
-Imm32
+TrustedImm32
 imm
 ImplicitAddress
 address
@@ -4377,7 +4377,7 @@ registers
 void
 move
 (
-Imm32
+TrustedImm32
 imm
 RegisterID
 dest
@@ -4509,7 +4509,7 @@ dest
 void
 move
 (
-ImmPtr
+TrustedImmPtr
 imm
 RegisterID
 dest
@@ -4650,7 +4650,7 @@ dest
 void
 move
 (
-ImmPtr
+TrustedImmPtr
 imm
 RegisterID
 dest
@@ -5008,7 +5008,7 @@ Condition
 cond
 RegisterID
 left
-Imm32
+TrustedImm32
 right
 )
 {
@@ -5121,7 +5121,7 @@ Condition
 cond
 RegisterID
 left
-Imm32
+TrustedImm32
 right
 )
 {
@@ -5168,7 +5168,7 @@ Condition
 cond
 RegisterID
 left
-Imm32
+TrustedImm32
 right
 DataLabel32
 &
@@ -5227,7 +5227,7 @@ Condition
 cond
 Address
 left
-Imm32
+TrustedImm32
 right
 DataLabel32
 &
@@ -5356,7 +5356,7 @@ Condition
 cond
 Address
 left
-Imm32
+TrustedImm32
 right
 )
 {
@@ -5397,7 +5397,7 @@ Condition
 cond
 BaseIndex
 left
-Imm32
+TrustedImm32
 right
 )
 {
@@ -5444,7 +5444,7 @@ Condition
 cond
 BaseIndex
 left
-Imm32
+TrustedImm32
 right
 )
 {
@@ -8557,7 +8557,7 @@ if
 WTF_CPU_X86
 #
 if
-WTF_PLATFORM_MAC
+WTF_OS_MAC_OS_X
 /
 /
 All
@@ -8594,9 +8594,9 @@ true
 else
 /
 /
-PLATFORM
+OS
 (
-MAC
+MAC_OS_X
 )
 static
 bool
