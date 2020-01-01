@@ -1870,17 +1870,6 @@ undef
 PRINT_UNIVERSAL_RULES
 #
 ifdef
-DEBUG_dbaron
-#
-define
-RULE_HASH_STATS
-#
-define
-PRINT_UNIVERSAL_RULES
-#
-endif
-#
-ifdef
 RULE_HASH_STATS
 #
 define
