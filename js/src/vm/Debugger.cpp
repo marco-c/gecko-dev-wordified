@@ -23742,10 +23742,12 @@ scopeChain
 )
 -
 >
-principals
+compartment
 (
-cx
 )
+-
+>
+principals
 )
 .
 setCompileAndGo
