@@ -1879,6 +1879,17 @@ ignored
 PRUint32
 mIgnoreAboveIndex
 ;
+/
+/
+The
+stack
+for
+ordered
+lists
+PRInt32
+*
+mOLStack
+;
 PRUint32
 mOLStackIndex
 ;
