@@ -2753,9 +2753,6 @@ sheet
 type
 }
 ;
-#
-ifdef
-_IMPL_NS_LAYOUT
 inline
 void
 nsRuleNode
@@ -2834,7 +2831,5 @@ RuleNodeUnused
 ;
 }
 }
-#
-endif
 #
 endif
