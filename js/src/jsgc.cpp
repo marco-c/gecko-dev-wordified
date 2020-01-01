@@ -21383,11 +21383,14 @@ check
 >
 contains
 (
-(
-uint8
+static_cast
+<
+uint8_t
 *
-)
+>
+(
 w
+)
 sizeof
 (
 w

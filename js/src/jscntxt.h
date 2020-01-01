@@ -9242,7 +9242,7 @@ stack
 prev
 ;
 const
-uint8
+uint8_t
 *
 ptr
 ;
@@ -9294,12 +9294,15 @@ this
 >
 ptr
 =
-(
+static_cast
+<
 const
-uint8
+uint8_t
 *
-)
+>
+(
 ptr
+)
 ;
 JS_GUARD_OBJECT_NOTIFIER_INIT
 ;
@@ -9338,7 +9341,7 @@ bool
 contains
 (
 const
-uint8
+uint8_t
 *
 v
 size_t
