@@ -16815,16 +16815,6 @@ void
 nsJSContext
 :
 :
-FinalizeContext
-(
-)
-{
-;
-}
-void
-nsJSContext
-:
-:
 ScriptEvaluated
 (
 bool
