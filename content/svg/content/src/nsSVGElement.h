@@ -1591,7 +1591,6 @@ nsAttrValue
 aEmptyOrOldValue
 )
 ;
-virtual
 void
 DidAnimateLength
 (
@@ -1599,7 +1598,6 @@ PRUint8
 aAttrEnum
 )
 ;
-virtual
 void
 DidAnimateNumber
 (
@@ -1607,7 +1605,6 @@ PRUint8
 aAttrEnum
 )
 ;
-virtual
 void
 DidAnimateNumberPair
 (
@@ -1615,7 +1612,6 @@ PRUint8
 aAttrEnum
 )
 ;
-virtual
 void
 DidAnimateInteger
 (
@@ -1623,7 +1619,6 @@ PRUint8
 aAttrEnum
 )
 ;
-virtual
 void
 DidAnimateIntegerPair
 (
@@ -1631,7 +1626,6 @@ PRUint8
 aAttrEnum
 )
 ;
-virtual
 void
 DidAnimateAngle
 (
@@ -1639,7 +1633,6 @@ PRUint8
 aAttrEnum
 )
 ;
-virtual
 void
 DidAnimateBoolean
 (
@@ -1647,7 +1640,6 @@ PRUint8
 aAttrEnum
 )
 ;
-virtual
 void
 DidAnimateEnum
 (
@@ -1655,19 +1647,16 @@ PRUint8
 aAttrEnum
 )
 ;
-virtual
 void
 DidAnimateViewBox
 (
 )
 ;
-virtual
 void
 DidAnimatePreserveAspectRatio
 (
 )
 ;
-virtual
 void
 DidAnimateNumberList
 (
@@ -1675,7 +1664,6 @@ PRUint8
 aAttrEnum
 )
 ;
-virtual
 void
 DidAnimateLengthList
 (
@@ -1683,25 +1671,21 @@ PRUint8
 aAttrEnum
 )
 ;
-virtual
 void
 DidAnimatePointList
 (
 )
 ;
-virtual
 void
 DidAnimatePathSegList
 (
 )
 ;
-virtual
 void
 DidAnimateTransformList
 (
 )
 ;
-virtual
 void
 DidAnimateString
 (
