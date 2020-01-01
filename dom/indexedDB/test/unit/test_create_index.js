@@ -902,7 +902,7 @@ store
 "
 )
 ;
-is
+ok
 (
 event
 .
@@ -912,11 +912,10 @@ transaction
 .
 objectStoreNames
 .
-item
+contains
 (
-0
-)
 objectStoreName
+)
 "
 transaction
 has

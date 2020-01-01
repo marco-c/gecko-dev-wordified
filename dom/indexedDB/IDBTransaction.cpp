@@ -620,6 +620,15 @@ AppendElements
 aObjectStoreNames
 )
 ;
+transaction
+-
+>
+mObjectStoreNames
+.
+Sort
+(
+)
+;
 IndexedDBTransactionChild
 *
 actor

@@ -718,11 +718,14 @@ must
 not
 *
 be
-touced
+touched
 on
 the
 database
+/
+/
 thread
+.
 nsTArray
 <
 IndexInfo
