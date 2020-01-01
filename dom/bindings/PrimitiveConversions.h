@@ -1733,6 +1733,11 @@ d
 ;
 T
 truncated
+=
+static_cast
+<
+T
+>
 (
 toTruncate
 )
@@ -2115,6 +2120,11 @@ retval
 =
 static_cast
 <
+T
+>
+(
+static_cast
+<
 typename
 PrimitiveConversionTraits
 <
@@ -2127,6 +2137,7 @@ intermediateType
 >
 (
 t
+)
 )
 ;
 return
