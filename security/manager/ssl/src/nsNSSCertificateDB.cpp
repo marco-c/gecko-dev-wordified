@@ -969,6 +969,11 @@ if
 (
 !
 aDBkey
+|
+|
+!
+*
+aDBkey
 )
 return
 NS_ERROR_FAILURE
@@ -989,6 +994,14 @@ PL_strlen
 aDBkey
 )
 )
+;
+if
+(
+!
+dummy
+)
+return
+NS_ERROR_FAILURE
 ;
 CERTCertificate
 *
