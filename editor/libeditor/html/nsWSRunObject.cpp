@@ -4871,6 +4871,14 @@ GetWSBoundingParent
 (
 )
 {
+if
+(
+!
+mNode
+)
+return
+nsnull
+;
 nsCOMPtr
 <
 nsIDOMNode
