@@ -11135,7 +11135,7 @@ obj_hasOwnProperty
 3
 (
 static
-BOOL_FAIL
+BOOL_RETRY
 Object_p_hasOwnProperty
 CONTEXT
 THIS
@@ -11152,7 +11152,7 @@ obj_propertyIsEnumerable
 3
 (
 static
-BOOL_FAIL
+BOOL_RETRY
 Object_p_propertyIsEnumerable
 CONTEXT
 THIS
