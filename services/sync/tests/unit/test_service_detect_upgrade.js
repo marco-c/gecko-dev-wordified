@@ -214,6 +214,7 @@ TabEngine
 function
 v4_upgrade
 (
+next
 )
 {
 let
@@ -269,10 +270,6 @@ collections
 collectionsHelper
 .
 collections
-;
-do_test_pending
-(
-)
 ;
 let
 keysWBO
@@ -1599,7 +1596,7 @@ server
 .
 stop
 (
-do_test_finished
+next
 )
 ;
 }
@@ -1607,6 +1604,7 @@ do_test_finished
 function
 v5_upgrade
 (
+next
 )
 {
 let
@@ -1683,10 +1681,6 @@ ServerWBO
 '
 global
 '
-)
-;
-do_test_pending
-(
 )
 ;
 let
@@ -2406,7 +2400,7 @@ server
 .
 stop
 (
-do_test_finished
+next
 )
 ;
 }
@@ -2441,11 +2435,18 @@ DumpAppender
 )
 )
 ;
-v4_upgrade
+do_test_pending
 (
 )
 ;
+Utils
+.
+asyncChain
+(
+v4_upgrade
 v5_upgrade
+do_test_finished
+)
 (
 )
 ;
