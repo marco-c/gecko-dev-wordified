@@ -2529,7 +2529,7 @@ necessary
 PRUint32
 flags
 =
-nsIPresShell_MOZILLA_2_0_BRANCH
+nsIPresShell
 :
 :
 FORCE_DRAW
@@ -2547,7 +2547,7 @@ IsRootContentDocument
 flags
 |
 =
-nsIPresShell_MOZILLA_2_0_BRANCH
+nsIPresShell
 :
 :
 ROOT_CONTENT_DOC_BG
