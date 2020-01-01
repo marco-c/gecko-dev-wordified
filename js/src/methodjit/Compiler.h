@@ -3023,6 +3023,11 @@ ensureDoubleArguments
 )
 ;
 void
+markUndefinedLocals
+(
+)
+;
+void
 fixDoubleTypes
 (
 jsbytecode
