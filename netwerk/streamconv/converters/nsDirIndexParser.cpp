@@ -1883,7 +1883,7 @@ success
 PR_TRUE
 ;
 }
-Recycle
+NS_Free
 (
 result
 )

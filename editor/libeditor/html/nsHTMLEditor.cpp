@@ -3639,7 +3639,7 @@ aIsBlock
 assertstr
 )
 ;
-Recycle
+NS_Free
 (
 assertstr
 )
