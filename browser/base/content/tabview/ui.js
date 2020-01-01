@@ -6916,14 +6916,8 @@ Drag
 (
 item
 e
-true
 )
 ;
-/
-/
-true
-=
-isResizing
 function
 updateSize
 (
