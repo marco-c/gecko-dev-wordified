@@ -508,6 +508,9 @@ nsAString
 aMedia
 bool
 *
+aIsScoped
+bool
+*
 aIsAlternate
 )
 ;
