@@ -939,6 +939,17 @@ gfxASurface
 aSurface
 )
 ;
+virtual
+nsresult
+UseAsyncPainting
+(
+NPP
+instance
+PRBool
+*
+aIsAsync
+)
+;
 private
 :
 NP_InitializeFunc
