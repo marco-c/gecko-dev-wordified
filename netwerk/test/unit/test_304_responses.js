@@ -334,6 +334,17 @@ request
 buffer
 )
 {
+request
+.
+QueryInterface
+(
+Components
+.
+interfaces
+.
+nsIHttpChannel
+)
+;
 do_check_eq
 (
 request
