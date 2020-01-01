@@ -462,7 +462,9 @@ h
 #
 include
 "
-jsgcmark
+gc
+/
+Barrier
 .
 h
 "
@@ -471,7 +473,7 @@ include
 "
 gc
 /
-Barrier
+Marking
 .
 h
 "

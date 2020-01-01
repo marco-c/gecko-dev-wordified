@@ -505,6 +505,15 @@ HashTable
 .
 h
 "
+#
+include
+"
+vm
+/
+String
+.
+h
+"
 struct
 JSIdArray
 {
