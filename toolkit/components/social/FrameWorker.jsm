@@ -1981,7 +1981,7 @@ window
 top
 docShell
 .
-setIsBrowser
+setIsBrowserElement
 (
 )
 ;
