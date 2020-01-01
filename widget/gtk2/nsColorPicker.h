@@ -134,6 +134,7 @@ nsIWidget
 ;
 class
 nsColorPicker
+MOZ_FINAL
 :
 public
 nsIColorPicker
