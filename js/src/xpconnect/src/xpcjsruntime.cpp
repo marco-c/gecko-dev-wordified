@@ -8612,9 +8612,12 @@ PR_GetPhysicalMemorySize
 (
 )
 ;
-JS_SetScriptStackQuota
+size_t
+quota
+=
+PR_MIN
 (
-cx
+PR_UINT32_MAX
 PR_MAX
 (
 25
@@ -8631,6 +8634,12 @@ totalMemory
 /
 4
 )
+)
+;
+JS_SetScriptStackQuota
+(
+cx
+quota
 )
 ;
 /
