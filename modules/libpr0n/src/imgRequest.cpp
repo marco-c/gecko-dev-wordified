@@ -6531,7 +6531,7 @@ need
 PRUint32
 containerFlags
 =
-imgIContainer
+Image
 :
 :
 INIT_FLAG_NONE
@@ -6543,7 +6543,7 @@ isDiscardable
 containerFlags
 |
 =
-imgIContainer
+Image
 :
 :
 INIT_FLAG_DISCARDABLE
@@ -6555,7 +6555,7 @@ doDecodeOnDraw
 containerFlags
 |
 =
-imgIContainer
+Image
 :
 :
 INIT_FLAG_DECODE_ON_DRAW
@@ -6567,7 +6567,7 @@ mIsMultiPartChannel
 containerFlags
 |
 =
-imgIContainer
+Image
 :
 :
 INIT_FLAG_MULTIPART
