@@ -28559,10 +28559,6 @@ return
 false
 ;
 }
-namespace
-js
-{
-}
 /
 *
 JSBOXEDWORD_INT_MAX
@@ -32626,7 +32622,7 @@ scopeIndex
 ;
 parent
 ?
-IsCacheableNonGlobalScope
+js_IsCacheableNonGlobalScope
 (
 obj
 )
@@ -33279,7 +33275,7 @@ order
 here
 matters
 because
-IsCacheableNonGlobalScope
+js_IsCacheableNonGlobalScope
 *
 must
 not
@@ -33317,7 +33313,7 @@ getParent
 )
 |
 |
-IsCacheableNonGlobalScope
+js_IsCacheableNonGlobalScope
 (
 obj
 )

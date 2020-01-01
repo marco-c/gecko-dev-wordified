@@ -3306,10 +3306,7 @@ js_CallClass
 {
 JS_ASSERT
 (
-js
-:
-:
-IsCacheableNonGlobalScope
+js_IsCacheableNonGlobalScope
 (
 pobj
 )

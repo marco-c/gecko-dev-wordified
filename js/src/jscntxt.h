@@ -6997,9 +6997,6 @@ gcMaxBytes
 size_t
 gcMaxMallocBytes
 ;
-size_t
-gcChunksWaitingToExpire
-;
 uint32
 gcEmptyArenaPoolLifespan
 ;
