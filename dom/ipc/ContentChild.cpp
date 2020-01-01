@@ -804,7 +804,6 @@ GetObserver
 ;
 return
 !
-!
 observer
 ;
 }
