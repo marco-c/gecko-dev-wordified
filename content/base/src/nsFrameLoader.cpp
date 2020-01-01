@@ -10814,10 +10814,15 @@ if
 (
 !
 mIsTopLevelContent
+#
+ifdef
+MOZ_IPC
 &
 &
 !
 mRemoteFrame
+#
+endif
 )
 {
 return
