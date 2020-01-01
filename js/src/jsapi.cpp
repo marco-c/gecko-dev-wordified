@@ -3224,7 +3224,7 @@ false
 ;
 #
 ifdef
-_M_X64
+JS_64BIT
 if
 (
 !
