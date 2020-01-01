@@ -668,7 +668,7 @@ void
 JSObject
 :
 :
-privateAddress
+privateRef
 (
 uint32
 nfixed
@@ -766,7 +766,7 @@ getPrivate
 const
 {
 return
-privateAddress
+privateRef
 (
 numFixedSlots
 (
@@ -788,7 +788,7 @@ nfixed
 const
 {
 return
-privateAddress
+privateRef
 (
 nfixed
 )
@@ -806,7 +806,7 @@ void
 data
 )
 {
-privateAddress
+privateRef
 (
 numFixedSlots
 (
