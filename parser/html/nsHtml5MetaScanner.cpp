@@ -2485,13 +2485,11 @@ default
 {
 contentIndex
 =
--
-1
+PR_INT32_MAX
 ;
 charsetIndex
 =
--
-1
+PR_INT32_MAX
 ;
 state
 =
