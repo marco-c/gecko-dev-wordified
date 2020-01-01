@@ -347,11 +347,8 @@ PropertyName
 name
 )
 {
-AssertRootingUnnecessary
-assert
-(
-cx
-)
+AutoAssertNoGC
+nogc
 ;
 JS_ASSERT
 (

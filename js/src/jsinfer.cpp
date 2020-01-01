@@ -37624,11 +37624,8 @@ getProto
 )
 )
 ;
-AssertRootingUnnecessary
-safe
-(
-cx
-)
+AutoAssertNoGC
+nogc
 ;
 if
 (
