@@ -6203,16 +6203,13 @@ through
 case
 NPNVSupportsWindowless
 :
+{
 /
 /
 Intentional
 fall
 -
 through
-case
-NPNVprivateModeBool
-:
-{
 NPError
 result
 ;
