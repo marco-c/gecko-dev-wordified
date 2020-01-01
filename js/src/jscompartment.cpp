@@ -253,17 +253,6 @@ jsinferinlines
 .
 h
 "
-#
-include
-"
-gc
-/
-Barrier
--
-inl
-.
-h
-"
 using
 namespace
 js
