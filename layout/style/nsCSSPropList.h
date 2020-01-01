@@ -3422,7 +3422,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Color
 mBackPosition
-eCSSType_ValuePairList
+eCSSType_Value
 kBackgroundPositionKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
@@ -3456,7 +3456,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Color
 mBackSize
-eCSSType_ValuePairList
+eCSSType_Value
 kBackgroundSizeKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
@@ -4930,7 +4930,7 @@ CounterIncrement
 0
 Content
 mCounterIncrement
-eCSSType_ValuePairList
+eCSSType_Value
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4950,7 +4950,7 @@ CounterReset
 0
 Content
 mCounterReset
-eCSSType_ValuePairList
+eCSSType_Value
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -6496,7 +6496,7 @@ Quotes
 0
 Content
 mQuotes
-eCSSType_ValuePairList
+eCSSType_Value
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None

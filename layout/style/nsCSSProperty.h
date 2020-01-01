@@ -665,7 +665,6 @@ nsCSSType
 {
 eCSSType_Value
 eCSSType_ValueList
-eCSSType_ValuePairList
 }
 ;
 /
