@@ -2626,11 +2626,6 @@ isPositioned
 frame
 -
 >
-GetStyleDisplay
-(
-)
--
->
 IsPositioned
 (
 )
@@ -2640,11 +2635,6 @@ bool
 isAbsolutelyPositioned
 =
 frame
--
->
-GetStyleDisplay
-(
-)
 -
 >
 IsAbsolutelyPositioned
@@ -2699,11 +2689,6 @@ positioned
 if
 (
 parent
--
->
-GetStyleDisplay
-(
-)
 -
 >
 IsPositioned

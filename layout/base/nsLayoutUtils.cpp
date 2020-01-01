@@ -11671,11 +11671,6 @@ if
 aFrame
 -
 >
-GetStyleDisplay
-(
-)
--
->
 IsPositioned
 (
 )
@@ -21521,11 +21516,6 @@ GetParent
 if
 (
 layer
--
->
-GetStyleDisplay
-(
-)
 -
 >
 IsPositioned
