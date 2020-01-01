@@ -13111,9 +13111,11 @@ accessRequested
 )
 ;
 if
+(
 NS_FAILED
 (
 rv
+)
 )
 return
 rv
@@ -14109,9 +14111,11 @@ accessRequested
 )
 ;
 if
+(
 NS_FAILED
 (
 rv
+)
 )
 return
 rv
