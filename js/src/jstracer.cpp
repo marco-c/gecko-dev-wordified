@@ -53643,7 +53643,7 @@ JS_TRUE
 ;
 }
 static
-int32
+JSBool
 FASTCALL
 SetProperty_tn
 (
@@ -53834,7 +53834,7 @@ JS_TRUE
 ;
 }
 static
-int32
+JSBool
 FASTCALL
 SetElement_tn
 (

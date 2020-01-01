@@ -9762,7 +9762,7 @@ JS_TRUE
 ifdef
 JS_TRACER
 static
-int32
+JSBool
 FASTCALL
 Object_p_hasOwnProperty
 (
@@ -10009,7 +10009,7 @@ vp
 ifdef
 JS_TRACER
 static
-int32
+JSBool
 FASTCALL
 Object_p_propertyIsEnumerable
 (
