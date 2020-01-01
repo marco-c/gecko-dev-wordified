@@ -562,7 +562,7 @@ API_VERSION
 "
 1
 .
-1
+2
 "
 ;
 function
@@ -1228,6 +1228,15 @@ g
 API_VERSION
 )
 ;
+/
+/
+We
+double
+encode
+due
+to
+bug
+427155
 uri
 =
 uri
@@ -1242,7 +1251,10 @@ TERMS
 g
 encodeURIComponent
 (
+encodeURIComponent
+(
 aSearchTerms
+)
 )
 )
 ;
