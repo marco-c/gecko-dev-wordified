@@ -114,7 +114,7 @@ equal
 *
 /
 class
-SharedRGBImage
+DeprecatedSharedRGBImage
 :
 public
 Image
@@ -136,7 +136,7 @@ mImageFormat
 ;
 }
 ;
-SharedRGBImage
+DeprecatedSharedRGBImage
 (
 ISurfaceAllocator
 *
@@ -144,14 +144,14 @@ aAllocator
 )
 ;
 ~
-SharedRGBImage
+DeprecatedSharedRGBImage
 (
 )
 ;
 static
 already_AddRefed
 <
-SharedRGBImage
+DeprecatedSharedRGBImage
 >
 Create
 (
@@ -229,7 +229,7 @@ true
 and
 AddRef
 this
-SharedRGBImage
+DeprecatedSharedRGBImage
 .
 *
 /
@@ -278,7 +278,7 @@ _not_
 AddRef
 this
 *
-SharedRGBImage
+DeprecatedSharedRGBImage
 )
 .
 *
@@ -297,7 +297,7 @@ aResult
 *
 Returns
 a
-SharedRGBImage
+DeprecatedSharedRGBImage
 *
 iff
 the
@@ -311,7 +311,7 @@ ToSurfaceDescriptor
 *
 /
 static
-SharedRGBImage
+DeprecatedSharedRGBImage
 *
 FromSurfaceDescriptor
 (
