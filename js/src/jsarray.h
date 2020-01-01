@@ -809,14 +809,6 @@ obj
 )
 ;
 extern
-JSBool
-js_InitContextBusyArrayTable
-(
-JSContext
-*
-)
-;
-extern
 JSObject
 *
 js_NewArrayObject
