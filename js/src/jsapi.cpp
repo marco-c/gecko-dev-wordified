@@ -7495,6 +7495,8 @@ JSVAL_VOID
 JS_PropertyStub
 JS_PropertyStub
 JSPROP_PERMANENT
+|
+JSPROP_READONLY
 )
 )
 {
@@ -8775,6 +8777,8 @@ JSVAL_VOID
 JS_PropertyStub
 JS_PropertyStub
 JSPROP_PERMANENT
+|
+JSPROP_READONLY
 )
 ;
 }

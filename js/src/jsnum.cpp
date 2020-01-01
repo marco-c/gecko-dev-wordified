@@ -4908,9 +4908,11 @@ rt
 -
 >
 NaNValue
-NULL
-NULL
+JS_PropertyStub
+JS_PropertyStub
 JSPROP_PERMANENT
+|
+JSPROP_READONLY
 )
 )
 {
@@ -4942,9 +4944,11 @@ rt
 -
 >
 positiveInfinityValue
-NULL
-NULL
+JS_PropertyStub
+JS_PropertyStub
 JSPROP_PERMANENT
+|
+JSPROP_READONLY
 )
 )
 {
