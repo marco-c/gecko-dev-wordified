@@ -5511,7 +5511,7 @@ selectorInfo
 .
 selector
 .
-_cssRule
+cssRule
 .
 _cssSheet
 ;
