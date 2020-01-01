@@ -1994,6 +1994,12 @@ Cancel
 (
 )
 ;
+mOpQueue
+.
+Clear
+(
+)
+;
 #
 ifdef
 DEBUG
@@ -2733,10 +2739,6 @@ onload
 )
 )
 {
-Flush
-(
-)
-;
 nsEvent
 event
 (
