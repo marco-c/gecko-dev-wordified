@@ -989,10 +989,6 @@ text
 change
 events
 .
-mNode
-=
-aTargetNode
-;
 mParent
 =
 mAccessible
