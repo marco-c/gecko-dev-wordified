@@ -2266,8 +2266,10 @@ vp
 ifdef
 DEBUG
 void
-printTypeMap
+printTypeMaps
 (
+unsigned
+ngslots
 uint8
 *
 globalTypeMap
