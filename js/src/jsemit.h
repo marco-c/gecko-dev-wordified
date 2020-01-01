@@ -2319,9 +2319,7 @@ uses
 /
 *
 *
-Sticky
-deoptimization
-flags
+Flags
 to
 propagate
 from

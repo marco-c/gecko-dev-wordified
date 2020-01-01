@@ -5463,6 +5463,9 @@ js_FindIdentifierBase
 JSContext
 *
 cx
+JSObject
+*
+scopeChain
 jsid
 id
 JSPropCacheEntry
@@ -5652,6 +5655,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+unqualified
 jsval
 *
 vp
