@@ -1044,9 +1044,7 @@ first
 binding
 defined
 at
-it
-'
-s
+its
 URI
 and
 that
@@ -1075,9 +1073,7 @@ binding
 s
 URI
 via
-it
-'
-s
+its
 ref
 .
 /
