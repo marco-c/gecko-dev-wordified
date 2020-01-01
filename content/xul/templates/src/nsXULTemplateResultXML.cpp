@@ -790,6 +790,11 @@ nsAString
 aValue
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aVar
+)
+;
 /
 /
 get
@@ -973,6 +978,11 @@ nsISupports
 aValue
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aVar
+)
+;
 nsXMLBinding
 *
 binding

@@ -2019,6 +2019,10 @@ nsIDOMNode
 >
 context
 ;
+if
+(
+aRef
+)
 aRef
 -
 >
@@ -2424,6 +2428,14 @@ aResult
 =
 0
 ;
+if
+(
+!
+aVar
+)
+return
+NS_OK
+;
 /
 /
 XXXndeakin
@@ -2460,6 +2472,10 @@ types
 nsAutoString
 leftVal
 ;
+if
+(
+aLeft
+)
 aLeft
 -
 >
@@ -2472,6 +2488,10 @@ leftVal
 nsAutoString
 rightVal
 ;
+if
+(
+aRight
+)
 aRight
 -
 >

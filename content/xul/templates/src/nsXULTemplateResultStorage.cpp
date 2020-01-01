@@ -686,6 +686,11 @@ nsAString
 aValue
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aVar
+)
+;
 aValue
 .
 Truncate
@@ -766,6 +771,11 @@ nsISupports
 aValue
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aVar
+)
+;
 if
 (
 mResultSet
