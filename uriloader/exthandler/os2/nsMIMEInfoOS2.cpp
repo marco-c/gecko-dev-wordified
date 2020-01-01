@@ -648,7 +648,7 @@ nsMIMEInfoOS2
 :
 LaunchWithURI
 (
-nsIFile
+nsIURI
 *
 aURI
 )
