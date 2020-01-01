@@ -21959,7 +21959,7 @@ docIdentMap
 *
 *
 *
-Restory
+Restore
 history
 for
 a
