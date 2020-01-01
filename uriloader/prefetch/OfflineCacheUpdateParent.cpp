@@ -785,6 +785,7 @@ Init
 manifestURI
 documentURI
 nsnull
+nsnull
 )
 ;
 NS_ENSURE_SUCCESS

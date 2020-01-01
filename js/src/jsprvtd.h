@@ -677,7 +677,7 @@ class
 BaseProxyHandler
 ;
 class
-Wrapper
+DirectWrapper
 ;
 class
 CrossCompartmentWrapper

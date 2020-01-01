@@ -243,7 +243,7 @@ sWrapperFamily
 }
 void
 *
-Wrapper
+DirectWrapper
 :
 :
 getWrapperFamily
@@ -313,16 +313,12 @@ innerObject
 flags
 |
 =
-static_cast
-<
-Wrapper
-*
->
-(
-GetProxyHandler
+AbstractWrapper
+:
+:
+wrapperHandler
 (
 wrapped
-)
 )
 -
 >
@@ -542,10 +538,10 @@ flags
 )
 {
 }
-Wrapper
+DirectWrapper
 :
 :
-Wrapper
+DirectWrapper
 (
 unsigned
 flags
@@ -557,11 +553,11 @@ flags
 )
 {
 }
-Wrapper
+DirectWrapper
 :
 :
 ~
-Wrapper
+DirectWrapper
 (
 )
 {
@@ -960,7 +956,7 @@ true
 ;
 }
 bool
-Wrapper
+DirectWrapper
 :
 :
 has
@@ -1021,7 +1017,7 @@ bp
 ;
 }
 bool
-Wrapper
+DirectWrapper
 :
 :
 hasOwn
@@ -1094,7 +1090,7 @@ bp
 ;
 }
 bool
-Wrapper
+DirectWrapper
 :
 :
 get
@@ -1160,7 +1156,7 @@ vp
 ;
 }
 bool
-Wrapper
+DirectWrapper
 :
 :
 set
@@ -1206,7 +1202,7 @@ strict
 ;
 }
 bool
-Wrapper
+DirectWrapper
 :
 :
 keys
@@ -1257,7 +1253,7 @@ props
 ;
 }
 bool
-Wrapper
+DirectWrapper
 :
 :
 iterate
@@ -1319,7 +1315,7 @@ vp
 ;
 }
 bool
-Wrapper
+DirectWrapper
 :
 :
 call
@@ -1378,7 +1374,7 @@ CALL
 ;
 }
 bool
-Wrapper
+DirectWrapper
 :
 :
 construct
@@ -1423,7 +1419,7 @@ id
 =
 JSID_VOID
 ;
-GET
+CHECKED
 (
 IndirectProxyHandler
 :
@@ -1436,11 +1432,12 @@ argc
 argv
 vp
 )
+CALL
 )
 ;
 }
 bool
-Wrapper
+DirectWrapper
 :
 :
 nativeCall
@@ -1484,7 +1481,7 @@ CALL
 ;
 }
 bool
-Wrapper
+DirectWrapper
 :
 :
 hasInstance
@@ -1543,7 +1540,7 @@ bp
 }
 JSString
 *
-Wrapper
+DirectWrapper
 :
 :
 obj_toString
@@ -1634,7 +1631,7 @@ str
 }
 JSString
 *
-Wrapper
+DirectWrapper
 :
 :
 fun_toString
@@ -1873,8 +1870,8 @@ wrapper
 )
 {
 }
-Wrapper
-Wrapper
+DirectWrapper
+DirectWrapper
 :
 :
 singleton
@@ -1887,7 +1884,7 @@ unsigned
 ;
 JSObject
 *
-Wrapper
+DirectWrapper
 :
 :
 New
@@ -2534,7 +2531,7 @@ unsigned
 flags
 )
 :
-Wrapper
+DirectWrapper
 (
 CROSS_COMPARTMENT
 |
@@ -2667,7 +2664,7 @@ cx
 &
 id
 )
-Wrapper
+DirectWrapper
 :
 :
 getPropertyDescriptor
@@ -2732,7 +2729,7 @@ cx
 &
 id
 )
-Wrapper
+DirectWrapper
 :
 :
 getOwnPropertyDescriptor
@@ -2811,7 +2808,7 @@ cx
 &
 desc2
 )
-Wrapper
+DirectWrapper
 :
 :
 defineProperty
@@ -2849,7 +2846,7 @@ cx
 wrapper
 GET
 NOTHING
-Wrapper
+DirectWrapper
 :
 :
 getOwnPropertyNames
@@ -2906,7 +2903,7 @@ cx
 &
 id
 )
-Wrapper
+DirectWrapper
 :
 :
 delete_
@@ -2943,7 +2940,7 @@ cx
 wrapper
 GET
 NOTHING
-Wrapper
+DirectWrapper
 :
 :
 enumerate
@@ -3000,7 +2997,7 @@ cx
 &
 id
 )
-Wrapper
+DirectWrapper
 :
 :
 has
@@ -3049,7 +3046,7 @@ cx
 &
 id
 )
-Wrapper
+DirectWrapper
 :
 :
 hasOwn
@@ -3114,7 +3111,7 @@ cx
 &
 id
 )
-Wrapper
+DirectWrapper
 :
 :
 get
@@ -3240,7 +3237,7 @@ address
 (
 )
 )
-Wrapper
+DirectWrapper
 :
 :
 set
@@ -3283,7 +3280,7 @@ cx
 wrapper
 GET
 NOTHING
-Wrapper
+DirectWrapper
 :
 :
 keys
@@ -3771,7 +3768,7 @@ cx
 wrapper
 GET
 NOTHING
-Wrapper
+DirectWrapper
 :
 :
 iterate
@@ -3941,7 +3938,7 @@ false
 if
 (
 !
-Wrapper
+DirectWrapper
 :
 :
 call
@@ -4066,7 +4063,7 @@ false
 if
 (
 !
-Wrapper
+DirectWrapper
 :
 :
 construct
@@ -4361,7 +4358,7 @@ false
 if
 (
 !
-Wrapper
+DirectWrapper
 :
 :
 nativeCall
@@ -4486,7 +4483,7 @@ return
 false
 ;
 return
-Wrapper
+DirectWrapper
 :
 :
 hasInstance
@@ -4540,7 +4537,7 @@ JSString
 *
 str
 =
-Wrapper
+DirectWrapper
 :
 :
 obj_toString
@@ -4628,7 +4625,7 @@ JSString
 *
 str
 =
-Wrapper
+DirectWrapper
 :
 :
 fun_toString
@@ -5016,7 +5013,7 @@ js
 :
 SecurityWrapper
 <
-Wrapper
+DirectWrapper
 >
 ;
 template

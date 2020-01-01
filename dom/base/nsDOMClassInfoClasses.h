@@ -1800,6 +1800,10 @@ IDBFactory
 )
 DOMCI_CLASS
 (
+IDBFileHandle
+)
+DOMCI_CLASS
+(
 IDBRequest
 )
 DOMCI_CLASS
@@ -1915,4 +1919,16 @@ DOMError
 DOMCI_CLASS
 (
 DOMRequest
+)
+DOMCI_CLASS
+(
+DOMFileHandle
+)
+DOMCI_CLASS
+(
+FileRequest
+)
+DOMCI_CLASS
+(
+LockedFile
 )

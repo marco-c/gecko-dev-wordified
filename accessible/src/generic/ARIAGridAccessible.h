@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 .
 h
 "
@@ -474,7 +474,7 @@ class
 ARIAGridCellAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 public
 nsIAccessibleTableCell
 {

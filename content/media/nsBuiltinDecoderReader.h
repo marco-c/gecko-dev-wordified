@@ -866,6 +866,12 @@ mHeight
 PRUint32
 mStride
 ;
+PRUint32
+mOffset
+;
+PRUint32
+mSkip
+;
 }
 ;
 Plane

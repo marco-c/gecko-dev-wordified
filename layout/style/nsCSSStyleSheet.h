@@ -1500,6 +1500,15 @@ aKey
 )
 const
 ;
+nsresult
+ParseSheet
+(
+const
+nsAString
+&
+aInput
+)
+;
 /
 /
 nsIDOMStyleSheet

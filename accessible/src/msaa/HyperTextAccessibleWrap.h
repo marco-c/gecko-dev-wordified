@@ -125,7 +125,14 @@ h
 #
 include
 "
-ia2AccessibleEditableText
+CAccessibleText
+.
+h
+"
+#
+include
+"
+CAccessibleEditableText
 .
 h
 "
@@ -144,7 +151,7 @@ HyperTextAccessible
 public
 ia2AccessibleHypertext
 public
-ia2AccessibleEditableText
+CAccessibleEditableText
 {
 public
 :
@@ -196,10 +203,10 @@ aGetInsertedText
 nsAString
 &
 aText
-uint32_t
+PRUint32
 *
 aStartOffset
-uint32_t
+PRUint32
 *
 aEndOffset
 )

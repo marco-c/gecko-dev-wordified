@@ -199,9 +199,17 @@ NativeRole
 ;
 virtual
 PRUint64
-NativeState
+NativeInteractiveState
 (
 )
+const
+;
+virtual
+bool
+NativelyUnavailable
+(
+)
+const
 ;
 virtual
 bool
@@ -236,6 +244,7 @@ nsIContent
 GetSliderElement
 (
 )
+const
 ;
 nsresult
 GetSliderAttr
@@ -283,6 +292,7 @@ aValue
 ;
 private
 :
+mutable
 nsCOMPtr
 <
 nsIContent

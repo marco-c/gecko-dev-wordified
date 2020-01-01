@@ -233,6 +233,10 @@ mCacheDevice
 (
 nsnull
 )
+mCustomDevice
+(
+nsnull
+)
 mData
 (
 nsnull

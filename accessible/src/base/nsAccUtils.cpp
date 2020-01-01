@@ -140,7 +140,7 @@ h
 #
 include
 "
-nsHyperTextAccessible
+HyperTextAccessible
 .
 h
 "
@@ -1397,7 +1397,7 @@ eCaseMatters
 )
 ;
 }
-nsHyperTextAccessible
+HyperTextAccessible
 *
 nsAccUtils
 :
@@ -1568,7 +1568,7 @@ nsnull
 }
 do
 {
-nsHyperTextAccessible
+HyperTextAccessible
 *
 textAcc
 =

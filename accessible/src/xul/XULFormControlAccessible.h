@@ -122,7 +122,7 @@ h
 #
 include
 "
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 .
 h
 "
@@ -621,6 +621,13 @@ NativeState
 (
 )
 ;
+virtual
+PRUint64
+NativeInteractiveState
+(
+)
+const
+;
 /
 /
 Widgets
@@ -681,9 +688,10 @@ NativeRole
 ;
 virtual
 PRUint64
-NativeState
+NativeInteractiveState
 (
 )
+const
 ;
 /
 /
@@ -942,7 +950,7 @@ class
 XULTextFieldAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :
@@ -986,7 +994,7 @@ index
 ;
 /
 /
-nsHyperTextAccessible
+HyperTextAccessible
 virtual
 already_AddRefed
 <
@@ -1065,7 +1073,7 @@ CacheChildren
 ;
 /
 /
-nsHyperTextAccessible
+HyperTextAccessible
 virtual
 already_AddRefed
 <

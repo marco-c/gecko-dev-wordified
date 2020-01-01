@@ -6259,6 +6259,8 @@ GLContextProviderGLX
 :
 GetGlobalContext
 (
+const
+ContextFlags
 )
 {
 static

@@ -11137,6 +11137,16 @@ calling
 ReleaseScriptCode
 twice
 .
+if
+(
+jith
+-
+>
+isValid
+(
+)
+)
+{
 JITScript
 *
 jit
@@ -11171,6 +11181,7 @@ setEmpty
 (
 )
 ;
+}
 }
 #
 ifdef

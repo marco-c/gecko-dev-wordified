@@ -843,6 +843,13 @@ NativeState
 )
 ;
 virtual
+PRUint64
+NativeInteractiveState
+(
+)
+const
+;
+virtual
 PRInt32
 IndexInParent
 (

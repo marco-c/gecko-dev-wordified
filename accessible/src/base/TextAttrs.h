@@ -128,7 +128,7 @@ nsStyleConsts
 h
 "
 class
-nsHyperTextAccessible
+HyperTextAccessible
 ;
 namespace
 mozilla
@@ -153,7 +153,7 @@ accessible
 (
 see
 *
-nsHyperTextAccessible
+HyperTextAccessible
 class
 )
 .
@@ -172,7 +172,7 @@ implemented
 entirely
 in
 *
-nsHyperTextAccessible
+HyperTextAccessible
 class
 .
 *
@@ -199,7 +199,7 @@ attributes
 /
 TextAttrsMgr
 (
-nsHyperTextAccessible
+HyperTextAccessible
 *
 aHyperTextAcc
 )
@@ -310,7 +310,7 @@ accessible
 /
 TextAttrsMgr
 (
-nsHyperTextAccessible
+HyperTextAccessible
 *
 aHyperTextAcc
 bool
@@ -554,7 +554,7 @@ Accessible
 *
 mOffsetAcc
 ;
-nsHyperTextAccessible
+HyperTextAccessible
 *
 mHyperTextAcc
 ;
@@ -1034,7 +1034,7 @@ public
 :
 LangTextAttr
 (
-nsHyperTextAccessible
+HyperTextAccessible
 *
 aRoot
 nsIContent

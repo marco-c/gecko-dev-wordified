@@ -385,7 +385,7 @@ class
 nsHTMLSelectOptionAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :
@@ -469,6 +469,13 @@ PRUint64
 NativeState
 (
 )
+;
+virtual
+PRUint64
+NativeInteractiveState
+(
+)
+const
 ;
 virtual
 PRInt32
@@ -729,9 +736,10 @@ NativeRole
 ;
 virtual
 PRUint64
-NativeState
+NativeInteractiveState
 (
 )
+const
 ;
 /
 /

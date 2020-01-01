@@ -1398,6 +1398,15 @@ pool
 m_allocation
 )
 ;
+JS_ASSERT
+(
+m_pools
+.
+initialized
+(
+)
+)
+;
 m_pools
 .
 remove

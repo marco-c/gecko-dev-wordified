@@ -1004,6 +1004,14 @@ rstReason
 )
 ;
 void
+CloseStream
+(
+SpdyStream2
+*
+nsresult
+)
+;
+void
 SetWriteCallbacks
 (
 )
