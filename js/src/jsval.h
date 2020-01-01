@@ -2317,6 +2317,16 @@ the
 stack
 *
 /
+JS_ION_ERROR
+/
+*
+error
+while
+running
+Ion
+code
+*
+/
 JS_GENERIC_MAGIC
 /
 *
