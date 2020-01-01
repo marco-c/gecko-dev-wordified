@@ -1111,6 +1111,8 @@ JSContext
 cx
 HandleScript
 script
+uint32_t
+numActualArgs
 )
 ;
 enum
