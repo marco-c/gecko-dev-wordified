@@ -936,6 +936,7 @@ tbl
 #
 undef
 JITSTAT
+STAT_IDS_TOTAL
 }
 ;
 static
