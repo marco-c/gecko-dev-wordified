@@ -700,6 +700,11 @@ cx
 return
 false
 ;
+JS_BeginRequest
+(
+cx
+)
+;
 global
 =
 createGlobal
@@ -724,6 +729,11 @@ if
 cx
 )
 {
+JS_EndRequest
+(
+cx
+)
+;
 JS_DestroyContext
 (
 cx
