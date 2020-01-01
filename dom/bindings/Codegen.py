@@ -90252,6 +90252,21 @@ h
 "
 )
         
+includes
+.
+add
+(
+"
+mozilla
+/
+dom
+/
+BindingDeclarations
+.
+h
+"
+)
+        
 implincludes
 .
 add
