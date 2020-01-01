@@ -590,13 +590,6 @@ include
 string
 >
 #
-include
-"
-lcms
-.
-h
-"
-#
 ifdef
 MOZ_FT2_FONTS
 static
@@ -5129,7 +5122,8 @@ aFontStyle
 )
 ;
 }
-cmsHPROFILE
+qcms_profile
+*
 gfxWindowsPlatform
 :
 :
@@ -5179,10 +5173,11 @@ nsnull
 dc
 )
 ;
-cmsHPROFILE
+qcms_profile
+*
 profile
 =
-cmsOpenProfileFromFile
+qcms_profile_from_path
 (
 NS_ConvertUTF16toUTF8
 (
@@ -5192,9 +5187,6 @@ str
 get
 (
 )
-"
-r
-"
 )
 ;
 #
