@@ -3329,6 +3329,12 @@ stm
 )
 ;
 }
+else
+*
+aNumItems
+=
+1
+;
 }
 else
 *
