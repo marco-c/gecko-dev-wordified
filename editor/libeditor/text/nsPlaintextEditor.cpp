@@ -849,11 +849,11 @@ a
 bad
 ownership
 loop
+/
+/
 later
 on
 .
-/
-/
 it
 '
 s
@@ -872,6 +872,11 @@ ignore
 the
 error
 .
+if
+(
+mRules
+)
+{
 nsCOMPtr
 <
 nsIEditActionListener
@@ -888,6 +893,7 @@ RemoveEditActionListener
 mListener
 )
 ;
+}
 /
 /
 Remove
