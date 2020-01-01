@@ -569,7 +569,7 @@ that
 builds
 /
 /
-nsIDOMPathSegs
+nsIDOMSVGPathSegs
 from
 path
 data
