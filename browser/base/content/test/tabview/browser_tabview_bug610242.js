@@ -173,9 +173,9 @@ empty
 ;
 contentWindow
 .
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 group
 )
@@ -447,9 +447,9 @@ again
 ;
 contentWindow
 .
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 currentGroup
 )

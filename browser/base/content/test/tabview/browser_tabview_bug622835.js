@@ -178,9 +178,9 @@ height
 ;
 contentWindow
 .
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 groupItem
 )

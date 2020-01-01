@@ -395,7 +395,7 @@ cw
 .
 UI
 .
-setActiveTab
+setActive
 (
 tabItem
 )
@@ -484,7 +484,7 @@ cw
 .
 UI
 .
-setActiveTab
+setActive
 (
 tabItem
 )

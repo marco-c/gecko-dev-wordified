@@ -218,9 +218,9 @@ groups
 ;
 contentWindow
 .
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 groupItemOne
 )

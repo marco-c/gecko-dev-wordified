@@ -250,9 +250,9 @@ groups
 ;
 contentWindow
 .
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 groupItem
 )

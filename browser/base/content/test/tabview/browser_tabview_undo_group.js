@@ -1005,7 +1005,7 @@ contentWindow
 .
 UI
 .
-setActiveTab
+setActive
 (
 tabItems
 [

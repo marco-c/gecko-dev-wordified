@@ -213,9 +213,9 @@ blank
 items
 contentWindow
 .
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 groupItem
 )

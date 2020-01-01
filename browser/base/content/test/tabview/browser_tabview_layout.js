@@ -194,9 +194,9 @@ group
 ;
 contentWindow
 .
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 originalGroupItem
 )
@@ -301,9 +301,9 @@ blank
 items
 contentWindow
 .
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 emptyGroupItem
 )

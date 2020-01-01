@@ -226,9 +226,9 @@ and
 tab
 contentWindow
 .
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 originalGroup
 )

@@ -302,9 +302,9 @@ to
 it
 contentWindow
 .
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 groupItem
 )
