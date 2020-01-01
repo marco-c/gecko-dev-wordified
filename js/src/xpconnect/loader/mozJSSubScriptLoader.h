@@ -556,6 +556,9 @@ uriStr
 nsIIOService
 *
 serv
+nsIPrincipal
+*
+principal
 JSObject
 *
 *
