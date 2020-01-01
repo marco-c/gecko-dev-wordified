@@ -2582,6 +2582,8 @@ scopeChain
 JSObject
 *
 callee
+Origins
+origin
 )
 ;
 /
@@ -3755,6 +3757,8 @@ cx
 JSStackFrame
 *
 fp
+Origins
+origin
 )
 ;
 extern
