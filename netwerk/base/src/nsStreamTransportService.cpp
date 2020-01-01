@@ -996,7 +996,7 @@ mOffset
 limit
 amount
 read
-uint32_t
+uint64_t
 max
 =
 mLimit
@@ -1028,7 +1028,13 @@ max
 )
 count
 =
+static_cast
+<
+uint32_t
+>
+(
 max
+)
 ;
 nsresult
 rv
@@ -1944,7 +1950,7 @@ mOffset
 limit
 amount
 written
-uint32_t
+uint64_t
 max
 =
 mLimit
@@ -1976,7 +1982,13 @@ max
 )
 count
 =
+static_cast
+<
+uint32_t
+>
+(
 max
+)
 ;
 nsresult
 rv

@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-nsDashboardTypes__
+mozilla_net_DashboardTypes_h_
 #
 define
-nsDashboardTypes__
+mozilla_net_DashboardTypes_h_
 namespace
 mozilla
 {
@@ -103,7 +103,7 @@ nsCString
 >
 hostaddr
 ;
-int8_t
+uint16_t
 family
 ;
 int64_t
@@ -160,4 +160,4 @@ ssl
 endif
 /
 /
-nsDashboardTypes__
+mozilla_net_DashboardTypes_h_

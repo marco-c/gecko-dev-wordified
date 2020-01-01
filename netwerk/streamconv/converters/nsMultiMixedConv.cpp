@@ -4442,9 +4442,15 @@ mContentLength
 )
 aLen
 =
+static_cast
+<
+uint32_t
+>
+(
 mContentLength
 -
 mTotalSent
+)
 ;
 if
 (
