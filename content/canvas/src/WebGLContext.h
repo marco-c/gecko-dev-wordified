@@ -1591,6 +1591,14 @@ PRUint32
 count
 )
 ;
+static
+PRBool
+ValidateCapabilityEnum
+(
+WebGLenum
+cap
+)
+;
 void
 Invalidate
 (
