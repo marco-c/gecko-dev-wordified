@@ -133,6 +133,13 @@ object
 -
 moz
 -
+has
+-
+handlerref
+:
+-
+moz
+-
 type
 -
 unsupported
@@ -157,6 +164,13 @@ unsupported
 -
 platform
 object
+:
+-
+moz
+-
+has
+-
+handlerref
 :
 -
 moz
