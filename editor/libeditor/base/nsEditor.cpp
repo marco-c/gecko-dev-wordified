@@ -2251,6 +2251,7 @@ globally
 }
 if
 (
+!
 CanEnableSpellCheck
 (
 )
