@@ -7305,7 +7305,7 @@ context
 return
 static_cast
 <
-nsICanvasRenderingContextInternal
+nsIDOMWebGLRenderingContext
 *
 >
 (
