@@ -56336,7 +56336,7 @@ const
 aWindowSizes
 -
 >
-mDOM
+mDOMOther
 +
 =
 aWindowSizes
@@ -56381,7 +56381,7 @@ elm
 aWindowSizes
 -
 >
-mDOM
+mDOMOther
 +
 =
 elm
@@ -56414,7 +56414,7 @@ aWindowSizes
 aWindowSizes
 -
 >
-mDOM
+mDOMOther
 +
 =
 mNavigator
