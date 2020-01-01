@@ -4743,6 +4743,9 @@ pc
 case
 JSOP_NAME
 :
+case
+JSOP_CALLNAME
+:
 return
 jsop_getname
 (
