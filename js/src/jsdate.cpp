@@ -7974,7 +7974,7 @@ vp
 vp
 -
 >
-setNumber
+setDouble
 (
 NowAsMillis
 (
@@ -8078,7 +8078,7 @@ getDateUTCTime
 (
 )
 .
-asDouble
+asNumber
 (
 )
 ;
@@ -8228,7 +8228,7 @@ obj
 >
 setDateUTCTime
 (
-NumberTag
+DoubleTag
 (
 t
 )
@@ -8238,14 +8238,12 @@ if
 (
 vp
 )
-*
 vp
-=
-obj
 -
 >
-getDateUTCTime
+setDouble
 (
+t
 )
 ;
 return
@@ -8346,7 +8344,7 @@ getDateLocalTime
 (
 )
 .
-asDouble
+asNumber
 (
 )
 ;
@@ -8406,7 +8404,7 @@ obj
 >
 setDateLocalTime
 (
-NumberTag
+DoubleTag
 (
 result
 )
