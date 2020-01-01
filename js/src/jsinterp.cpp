@@ -44529,8 +44529,6 @@ jstracer_cpp___
 attempt_tracing
 :
 {
-if
-(
 js_CallRecorder
 (
 cx
@@ -44544,9 +44542,15 @@ regs
 pc
 )
 )
-!
-=
-JSVAL_TRUE
+;
+if
+(
+JS_TRACE_MONITOR
+(
+cx
+)
+.
+error
 )
 {
 op
