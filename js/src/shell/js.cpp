@@ -30977,8 +30977,6 @@ trusted
 principals
 ]
 "
-NULL
-NULL
 1
 NULL
 /
