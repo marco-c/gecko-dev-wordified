@@ -1469,6 +1469,17 @@ new_
 ScriptSource
 >
 (
+/
+*
+originPrincipals
+=
+*
+/
+(
+JSPrincipals
+*
+)
+NULL
 )
 ;
 if
