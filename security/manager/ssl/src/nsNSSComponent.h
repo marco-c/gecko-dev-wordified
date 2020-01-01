@@ -2059,6 +2059,16 @@ mThreadList
 PRBool
 mIsNetworkDown
 ;
+void
+deleteBackgroundThreads
+(
+)
+;
+void
+createBackgroundThreads
+(
+)
+;
 nsSSLThread
 *
 mSSLThread

@@ -784,10 +784,12 @@ mMutex
 while
 (
 !
-mExitRequested
-&
-&
+exitRequested
 (
+threadLock
+)
+&
+&
 0
 =
 =
@@ -798,7 +800,6 @@ mJobQ
 .
 GetSize
 (
-)
 )
 )
 {
@@ -824,7 +825,10 @@ Wait
 }
 if
 (
-mExitRequested
+exitRequested
+(
+threadLock
+)
 )
 break
 ;
@@ -904,6 +908,11 @@ delete
 job
 ;
 }
+postStoppedEventToMainThread
+(
+threadLock
+)
+;
 }
 }
 nsCertVerificationResult

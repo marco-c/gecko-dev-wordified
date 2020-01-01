@@ -2341,7 +2341,7 @@ wantExit
 nsSSLThread
 :
 :
-exitRequested
+stoppedOrStopping
 (
 )
 ;

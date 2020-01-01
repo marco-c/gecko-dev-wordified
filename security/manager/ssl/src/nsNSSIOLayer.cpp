@@ -1768,7 +1768,7 @@ mCallbacks
 nsSSLThread
 :
 :
-exitRequested
+stoppedOrStopping
 (
 )
 )
@@ -2745,7 +2745,7 @@ if
 nsSSLThread
 :
 :
-exitRequested
+stoppedOrStopping
 (
 )
 )
@@ -6808,7 +6808,7 @@ if
 nsSSLThread
 :
 :
-exitRequested
+stoppedOrStopping
 (
 )
 )
@@ -6970,7 +6970,7 @@ if
 nsSSLThread
 :
 :
-exitRequested
+stoppedOrStopping
 (
 )
 )
@@ -17309,7 +17309,7 @@ if
 nsSSLThread
 :
 :
-exitRequested
+stoppedOrStopping
 (
 )
 )
