@@ -2035,6 +2035,9 @@ mHTMLInputType
 aContext
 .
 mActionHint
+aContext
+.
+mReason
 )
 )
 return

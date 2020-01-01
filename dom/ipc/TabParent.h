@@ -799,6 +799,10 @@ const
 nsString
 &
 aAction
+const
+PRUint32
+&
+aReason
 )
 ;
 virtual
