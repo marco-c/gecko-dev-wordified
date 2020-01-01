@@ -36253,7 +36253,7 @@ flushtimer
 .
 initialdelay
 "
-200
+120
 )
 ;
 /
