@@ -352,6 +352,9 @@ mLock
 bool
 mShutdown
 ;
+bool
+mBlocking
+;
 nsCOMPtr
 <
 nsIFile
