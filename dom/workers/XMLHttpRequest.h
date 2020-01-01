@@ -321,7 +321,7 @@ aCx
 JSObject
 *
 aGlobal
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -357,7 +357,7 @@ GetOn
 #
 _type
 (
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -389,7 +389,7 @@ _type
 JSObject
 *
 aListener
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -449,7 +449,7 @@ const
 nsAString
 &
 aPassword
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -465,7 +465,7 @@ const
 nsAString
 &
 aValue
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -473,6 +473,9 @@ aRv
 uint32_t
 GetTimeout
 (
+nsresult
+&
+aRv
 )
 const
 {
@@ -485,7 +488,7 @@ SetTimeout
 (
 uint32_t
 aTimeout
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -493,6 +496,9 @@ aRv
 bool
 GetWithCredentials
 (
+nsresult
+&
+aRv
 )
 const
 {
@@ -505,7 +511,7 @@ SetWithCredentials
 (
 bool
 aWithCredentials
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -513,6 +519,9 @@ aRv
 bool
 GetMultipart
 (
+nsresult
+&
+aRv
 )
 const
 {
@@ -525,7 +534,7 @@ SetMultipart
 (
 bool
 aMultipart
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -533,6 +542,9 @@ aRv
 bool
 GetMozBackgroundRequest
 (
+nsresult
+&
+aRv
 )
 const
 {
@@ -545,7 +557,7 @@ SetMozBackgroundRequest
 (
 bool
 aBackgroundRequest
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -554,7 +566,7 @@ XMLHttpRequestUpload
 *
 GetUpload
 (
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -562,7 +574,7 @@ aRv
 void
 Send
 (
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -574,7 +586,7 @@ const
 nsAString
 &
 aBody
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -585,7 +597,7 @@ Send
 JSObject
 *
 aBody
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -597,7 +609,7 @@ const
 nsAString
 &
 aBody
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -605,7 +617,7 @@ aRv
 void
 Abort
 (
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -613,7 +625,7 @@ aRv
 uint16_t
 GetStatus
 (
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -657,7 +669,7 @@ aHeader
 nsAString
 &
 aResponseHeader
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -668,7 +680,7 @@ GetAllResponseHeaders
 nsAString
 &
 aResponseHeaders
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -680,7 +692,7 @@ const
 nsAString
 &
 aMimeType
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -688,6 +700,9 @@ aRv
 XMLHttpRequestResponseType
 GetResponseType
 (
+nsresult
+&
+aRv
 )
 const
 {
@@ -700,7 +715,7 @@ SetResponseType
 (
 XMLHttpRequestResponseType
 aResponseType
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -708,7 +723,7 @@ aRv
 jsval
 GetResponse
 (
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -719,7 +734,7 @@ GetResponseText
 nsAString
 &
 aResponseText
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -728,6 +743,9 @@ JSObject
 *
 GetResponseXML
 (
+nsresult
+&
+aRv
 )
 const
 {
@@ -739,6 +757,9 @@ JSObject
 *
 GetChannel
 (
+nsresult
+&
+aRv
 )
 const
 {
@@ -755,17 +776,14 @@ GetInterface
 JSObject
 *
 aIID
-ErrorResult
+nsresult
 &
 aRv
 )
 {
 aRv
-.
-Throw
-(
+=
 NS_ERROR_FAILURE
-)
 ;
 return
 JSVAL_NULL
@@ -839,7 +857,7 @@ Default
 void
 MaybePin
 (
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -847,7 +865,7 @@ aRv
 void
 MaybeDispatchPrematureAbortEvents
 (
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -862,7 +880,7 @@ uint8_t
 aEventType
 bool
 aUploadTarget
-ErrorResult
+nsresult
 &
 aRv
 )
@@ -896,7 +914,7 @@ nsISupports
 >
 &
 aClonedObjects
-ErrorResult
+nsresult
 &
 aRv
 )

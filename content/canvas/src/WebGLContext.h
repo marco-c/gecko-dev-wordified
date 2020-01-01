@@ -4237,7 +4237,7 @@ JSObject
 *
 GetContextAttributes
 (
-ErrorResult
+nsresult
 &
 rv
 )
@@ -5022,7 +5022,7 @@ JSContext
 cx
 WebGLenum
 pname
-ErrorResult
+nsresult
 &
 rv
 )
@@ -5047,7 +5047,7 @@ WebGLenum
 attachment
 WebGLenum
 pname
-ErrorResult
+nsresult
 &
 rv
 )
@@ -5074,7 +5074,7 @@ prog
 nsAString
 &
 retval
-ErrorResult
+nsresult
 &
 rv
 )
@@ -5125,7 +5125,7 @@ shader
 nsAString
 &
 retval
-ErrorResult
+nsresult
 &
 rv
 )
@@ -5168,7 +5168,7 @@ prog
 WebGLUniformLocation
 *
 location
-ErrorResult
+nsresult
 &
 rv
 )
@@ -5201,7 +5201,7 @@ WebGLuint
 index
 WebGLenum
 pname
-ErrorResult
+nsresult
 &
 rv
 )
@@ -5314,7 +5314,7 @@ LinkProgram
 WebGLProgram
 *
 program
-ErrorResult
+nsresult
 &
 rv
 )
@@ -5381,7 +5381,7 @@ dom
 ArrayBufferView
 *
 pixels
-ErrorResult
+nsresult
 &
 rv
 )
@@ -5548,7 +5548,7 @@ dom
 ArrayBufferView
 *
 pixels
-ErrorResult
+nsresult
 &
 rv
 )
@@ -5575,7 +5575,7 @@ dom
 ImageData
 *
 pixels
-ErrorResult
+nsresult
 &
 rv
 )
@@ -5606,7 +5606,7 @@ dom
 Element
 *
 elt
-ErrorResult
+nsresult
 &
 rv
 )
@@ -5681,7 +5681,7 @@ dom
 ArrayBufferView
 *
 pixels
-ErrorResult
+nsresult
 &
 rv
 )
@@ -5710,7 +5710,7 @@ dom
 ImageData
 *
 pixels
-ErrorResult
+nsresult
 &
 rv
 )
@@ -5743,7 +5743,7 @@ dom
 Element
 *
 elt
-ErrorResult
+nsresult
 &
 rv
 )
