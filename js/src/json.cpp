@@ -782,6 +782,7 @@ reviver
 JSVAL_NULL
 ;
 JSAutoTempValueRooter
+tvr
 (
 cx
 1
@@ -909,12 +910,14 @@ space
 JSVAL_NULL
 ;
 JSAutoTempValueRooter
+tvr
 (
 cx
 replacer
 )
 ;
 JSAutoTempValueRooter
+tvr2
 (
 cx
 1
