@@ -4113,11 +4113,11 @@ state
 /
 JSCompartment
 *
-gcRemainingCompartmentGroups
+gcCompartmentGroups
 ;
 JSCompartment
 *
-gcCompartmentGroup
+gcCurrentCompartmentGroup
 ;
 int
 gcSweepPhase

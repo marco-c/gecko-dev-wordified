@@ -2884,13 +2884,13 @@ findCompartmentEdges
 JSCompartment
 *
 v
-js
-:
-:
 gc
 :
 :
 ComponentFinder
+<
+JSCompartment
+>
 &
 finder
 )
