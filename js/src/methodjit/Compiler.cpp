@@ -38673,7 +38673,7 @@ stubs
 :
 :
 IterNext
-REJOIN_NONE
+REJOIN_FALLTHROUGH
 )
 ;
 frame
