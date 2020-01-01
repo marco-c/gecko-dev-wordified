@@ -553,11 +553,11 @@ group
 /
 Entries
 are
-nsVoidArrays
+nsTArrays
 of
 pointers
 to
-PRUnichar
+char
 *
 /
 /
