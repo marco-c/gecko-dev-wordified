@@ -2255,10 +2255,6 @@ JSOP_DEFCONST
 case
 JSOP_SETCONST
 :
-extendsScope_
-=
-true
-;
 isInlineable
 =
 canTrackVars
@@ -2270,10 +2266,6 @@ break
 case
 JSOP_EVAL
 :
-extendsScope_
-=
-true
-;
 isInlineable
 =
 canTrackVars
@@ -2285,10 +2277,6 @@ break
 case
 JSOP_ENTERWITH
 :
-addsScopeObjects_
-=
-true
-;
 isJaegerCompileable
 =
 isInlineable
@@ -2311,10 +2299,6 @@ JSOP_ENTERBLOCK
 case
 JSOP_LEAVEBLOCK
 :
-addsScopeObjects_
-=
-true
-;
 isInlineable
 =
 false
