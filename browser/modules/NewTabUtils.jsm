@@ -187,7 +187,7 @@ Services
 .
 scriptSecurityManager
 .
-getCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 uri
 )

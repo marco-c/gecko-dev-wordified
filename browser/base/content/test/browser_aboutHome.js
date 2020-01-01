@@ -1043,7 +1043,7 @@ interfaces
 nsIScriptSecurityManager
 )
 .
-getCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 Services
 .

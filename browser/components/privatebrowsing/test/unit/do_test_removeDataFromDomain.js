@@ -3425,7 +3425,7 @@ Ci
 nsIScriptSecurityManager
 )
 .
-getCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 aURI
 )
