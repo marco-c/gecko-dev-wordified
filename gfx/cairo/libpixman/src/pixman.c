@@ -3645,6 +3645,15 @@ repeat
 &
 &
 (
+src_flags
+&
+mask_flags
+&
+FAST_PATH_ID_TRANSFORM
+)
+&
+&
+(
 src_x
 =
 =
@@ -3982,7 +3991,7 @@ dest_flags
 ;
 if
 (
-_pixman_lookup_composite_function
+_pixman_implementation_lookup_composite
 (
 get_implementation
 (
@@ -4395,6 +4404,7 @@ static
 pixman_bool_t
 color_to_pixel
 (
+const
 pixman_color_t
 *
 color
@@ -4760,6 +4770,7 @@ op
 pixman_image_t
 *
 dest
+const
 pixman_color_t
 *
 color
@@ -4945,6 +4956,7 @@ op
 pixman_image_t
 *
 dest
+const
 pixman_color_t
 *
 color

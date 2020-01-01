@@ -4789,10 +4789,10 @@ iter
 NULL
 )
 ;
-pixman_expand
+pixman_expand_to_float
 (
 (
-uint64_t
+argb_t
 *
 )
 buffer
@@ -4866,9 +4866,11 @@ pixman_image_t
 *
 pixman_image_create_radial_gradient
 (
+const
 pixman_point_fixed_t
 *
 inner
+const
 pixman_point_fixed_t
 *
 outer

@@ -3887,6 +3887,7 @@ pixman_image_t
 *
 pixman_image_create_solid_fill
 (
+const
 pixman_color_t
 *
 color
@@ -3896,9 +3897,11 @@ pixman_image_t
 *
 pixman_image_create_linear_gradient
 (
+const
 pixman_point_fixed_t
 *
 p1
+const
 pixman_point_fixed_t
 *
 p2
@@ -3914,9 +3917,11 @@ pixman_image_t
 *
 pixman_image_create_radial_gradient
 (
+const
 pixman_point_fixed_t
 *
 inner
+const
 pixman_point_fixed_t
 *
 outer
@@ -3936,6 +3941,7 @@ pixman_image_t
 *
 pixman_image_create_conical_gradient
 (
+const
 pixman_point_fixed_t
 *
 center
@@ -3952,6 +3958,23 @@ n_stops
 pixman_image_t
 *
 pixman_image_create_bits
+(
+pixman_format_code_t
+format
+int
+width
+int
+height
+uint32_t
+*
+bits
+int
+rowstride_bytes
+)
+;
+pixman_image_t
+*
+pixman_image_create_bits_no_clear
 (
 pixman_format_code_t
 format
@@ -4216,6 +4239,7 @@ op
 pixman_image_t
 *
 image
+const
 pixman_color_t
 *
 color
@@ -4235,6 +4259,7 @@ op
 pixman_image_t
 *
 dest
+const
 pixman_color_t
 *
 color
@@ -4667,6 +4692,7 @@ pixman_glyph_cache_t
 cache
 int
 n_glyphs
+const
 pixman_glyph_t
 *
 glyphs
@@ -4706,6 +4732,7 @@ pixman_glyph_cache_t
 cache
 int
 n_glyphs
+const
 pixman_glyph_t
 *
 glyphs
@@ -4735,6 +4762,7 @@ pixman_glyph_cache_t
 cache
 int
 n_glyphs
+const
 pixman_glyph_t
 *
 glyphs
@@ -5072,6 +5100,7 @@ int16_t
 y_off
 int
 ntrap
+const
 pixman_trap_t
 *
 traps

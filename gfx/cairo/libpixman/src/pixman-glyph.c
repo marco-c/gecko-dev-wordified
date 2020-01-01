@@ -1825,6 +1825,7 @@ pixman_glyph_cache_t
 cache
 int
 n_glyphs
+const
 pixman_glyph_t
 *
 glyphs
@@ -2050,6 +2051,7 @@ pixman_glyph_cache_t
 cache
 int
 n_glyphs
+const
 pixman_glyph_t
 *
 glyphs
@@ -2410,7 +2412,7 @@ common
 .
 flags
 ;
-_pixman_lookup_composite_function
+_pixman_implementation_lookup_composite
 (
 get_implementation
 (
@@ -2620,6 +2622,7 @@ int
 off_y
 int
 n_glyphs
+const
 pixman_glyph_t
 *
 glyphs
@@ -2904,6 +2907,8 @@ if
 white_img
 )
 {
+static
+const
 pixman_color_t
 white
 =
@@ -2974,7 +2979,7 @@ white_src
 TRUE
 ;
 }
-_pixman_lookup_composite_function
+_pixman_implementation_lookup_composite
 (
 get_implementation
 (
@@ -3400,6 +3405,7 @@ pixman_glyph_cache_t
 cache
 int
 n_glyphs
+const
 pixman_glyph_t
 *
 glyphs
