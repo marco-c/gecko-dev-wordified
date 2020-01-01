@@ -1919,7 +1919,7 @@ LOG_DEBUG
 Creating
 socket
 %
-d
+p
 with
 addr
 %
