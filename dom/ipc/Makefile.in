@@ -461,6 +461,10 @@ ContentProcessParent
 .
 h
 \
+ContentProcessThread
+.
+h
+\
 (
 NULL
 )

@@ -627,15 +627,6 @@ ipc
 :
 TestShellParent
 ;
-using
-mozilla
-:
-:
-ipc
-:
-:
-TestShellCommandProtocolParent
-;
 namespace
 {
 static

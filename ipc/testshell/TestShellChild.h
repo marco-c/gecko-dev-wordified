@@ -391,10 +391,11 @@ BLOCK
 /
 #
 ifndef
-_IPC_TESTSHELL_TESTSHELLCHILD_H_
+ipc_testshell_TestShellChild_h
 #
 define
-_IPC_TESTSHELL_TESTSHELLCHILD_H_
+ipc_testshell_TestShellChild_h
+1
 #
 include
 "
@@ -402,7 +403,7 @@ mozilla
 /
 ipc
 /
-TestShellProtocolChild
+PTestShellProtocolChild
 .
 h
 "
@@ -413,7 +414,7 @@ mozilla
 /
 ipc
 /
-TestShellCommandProtocolChild
+PTestShellCommandProtocolChild
 .
 h
 "
@@ -448,7 +449,7 @@ class
 TestShellChild
 :
 public
-TestShellProtocolChild
+PTestShellProtocolChild
 {
 public
 :
@@ -465,9 +466,9 @@ nsString
 aCommand
 )
 ;
-TestShellCommandProtocolChild
+PTestShellCommandProtocolChild
 *
-TestShellCommandConstructor
+PTestShellCommandConstructor
 (
 const
 nsString
@@ -476,9 +477,9 @@ aCommand
 )
 ;
 nsresult
-RecvTestShellCommandConstructor
+RecvPTestShellCommandConstructor
 (
-TestShellCommandProtocolChild
+PTestShellCommandProtocolChild
 *
 aActor
 const
@@ -488,9 +489,9 @@ aCommand
 )
 ;
 nsresult
-TestShellCommandDestructor
+PTestShellCommandDestructor
 (
-TestShellCommandProtocolChild
+PTestShellCommandProtocolChild
 *
 aCommand
 const
@@ -540,6 +541,6 @@ mozilla
 endif
 /
 *
-_IPC_TESTSHELL_TESTSHELLCHILD_H_
+ipc_testshell_TestShellChild_h
 *
 /

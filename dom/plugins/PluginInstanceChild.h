@@ -501,6 +501,9 @@ namespace
 plugins
 {
 class
+PBrowserStreamProtocolChild
+;
+class
 PluginInstanceChild
 :
 public
