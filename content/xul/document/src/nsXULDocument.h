@@ -293,7 +293,7 @@ nsInterfaceHashtable
 .
 h
 "
-struct
+class
 JSObject
 ;
 struct

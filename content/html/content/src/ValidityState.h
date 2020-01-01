@@ -118,7 +118,7 @@ nsWrapperCache
 .
 h
 "
-struct
+class
 JSObject
 ;
 struct
