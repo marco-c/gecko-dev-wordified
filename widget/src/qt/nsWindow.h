@@ -1143,11 +1143,15 @@ aIconSpec
 NS_IMETHOD
 SetMenuBar
 (
-nsIMenuBar
+void
 *
 aMenuBar
 )
+{
+return
+NS_ERROR_FAILURE
 ;
+}
 NS_IMETHOD
 ShowMenuBar
 (
