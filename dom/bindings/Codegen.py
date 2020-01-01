@@ -38938,6 +38938,17 @@ n
 "
                 
 "
+ReportLenientThisUnwrappingFailure
+(
+cx
+obj
+)
+;
+\
+n
+"
+                
+"
 JS_SET_RVAL
 (
 cx
@@ -39596,6 +39607,17 @@ JS_IsExceptionPending
 (
 cx
 )
+)
+;
+\
+n
+"
+                
+"
+ReportLenientThisUnwrappingFailure
+(
+cx
+obj
 )
 ;
 \
