@@ -13057,7 +13057,6 @@ tokenStream
 .
 peekTokenSameLine
 (
-TSF_OPERAND
 )
 ;
 if
