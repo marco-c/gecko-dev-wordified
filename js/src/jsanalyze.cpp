@@ -11700,12 +11700,11 @@ return
 ;
 }
 }
-JS_NOT_REACHED
+JS_ASSERT
 (
-"
-Missing
-target
-"
+OOM
+(
+)
 )
 ;
 }
