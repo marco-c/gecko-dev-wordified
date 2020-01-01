@@ -1047,6 +1047,10 @@ define
 DEFLATED
 8
 #
+define
+UNSUPPORTED
+0xFF
+#
 endif
 /
 *
