@@ -777,6 +777,14 @@ nsKeyEvent
 event
 )
 ;
+bool
+SendRealTouchEvent
+(
+nsTouchEvent
+&
+event
+)
+;
 virtual
 PDocumentRendererParent
 *
