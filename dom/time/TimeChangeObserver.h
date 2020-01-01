@@ -255,7 +255,7 @@ static
 nsresult
 AddWindowListener
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aWindow
 )
@@ -264,7 +264,7 @@ static
 nsresult
 RemoveWindowListener
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aWindow
 )
@@ -274,7 +274,7 @@ private
 nsresult
 AddWindowListenerImpl
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aWindow
 )
@@ -282,7 +282,7 @@ aWindow
 nsresult
 RemoveWindowListenerImpl
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aWindow
 )
