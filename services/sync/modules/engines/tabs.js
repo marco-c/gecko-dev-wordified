@@ -2486,7 +2486,7 @@ return
 record
 ;
 }
-changeItemId
+changeItemID
 :
 function
 TabStore_changeItemId
