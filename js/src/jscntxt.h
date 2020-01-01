@@ -902,7 +902,6 @@ runtime
 .
 *
 /
-typedef
 struct
 JSTraceMonitor
 {
@@ -1048,7 +1047,6 @@ Fragmento
 reFragmento
 ;
 }
-JSTraceMonitor
 ;
 #
 ifdef

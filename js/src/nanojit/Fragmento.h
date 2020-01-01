@@ -1572,9 +1572,6 @@ NIns
 *
 loopEntry
 ;
-int32_t
-calldepth
-;
 void
 *
 vmprivate

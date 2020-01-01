@@ -447,6 +447,13 @@ nanojit
 .
 h
 "
+#
+include
+"
+jstracer
+.
+h
+"
 enum
 JSTNErrType
 {
@@ -1484,9 +1491,6 @@ define
 _JS_CTYPE_SIDEEXIT
 _JS_CTYPE
 (
-nanojit
-:
-:
 SideExit
 *
 _JS_PTR
@@ -1501,9 +1505,6 @@ define
 _JS_CTYPE_INTERPSTATE
 _JS_CTYPE
 (
-avmplus
-:
-:
 InterpState
 *
 _JS_PTR
