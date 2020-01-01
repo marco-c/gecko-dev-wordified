@@ -8566,7 +8566,7 @@ const
 TypeOracle
 :
 :
-Unary
+UnaryTypes
 &
 u
 )
@@ -8959,7 +8959,7 @@ const
 TypeOracle
 :
 :
-Binary
+BinaryTypes
 &
 b
 )
@@ -9421,7 +9421,7 @@ const
 TypeOracle
 :
 :
-Binary
+BinaryTypes
 &
 b
 )
@@ -9835,7 +9835,7 @@ const
 TypeOracle
 :
 :
-Binary
+BinaryTypes
 &
 b
 )

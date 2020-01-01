@@ -16694,7 +16694,7 @@ infer
 oracle
 -
 >
-unaryOp
+unaryTypes
 (
 script
 pc
@@ -16904,7 +16904,7 @@ infer
 oracle
 -
 >
-binaryOp
+binaryTypes
 (
 script
 pc
