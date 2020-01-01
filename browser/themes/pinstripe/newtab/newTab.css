@@ -416,6 +416,13 @@ not
 :
 empty
 )
+:
+not
+(
+[
+dragged
+]
+)
 {
 border
 -
