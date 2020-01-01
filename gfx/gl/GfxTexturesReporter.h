@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+GFXTEXTURESREPORTER_H_
+#
+define
+GFXTEXTURESREPORTER_H_
+#
 include
 "
 nsIMemoryReporter
@@ -304,3 +310,8 @@ sAmount
 ;
 }
 }
+#
+endif
+/
+/
+GFXTEXTURESREPORTER_H_
