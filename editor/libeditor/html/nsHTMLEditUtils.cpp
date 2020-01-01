@@ -5920,6 +5920,14 @@ GROUP_COLGROUP_CONTENT
 )
 ELEM
 (
+data
+true
+false
+GROUP_PHRASE
+GROUP_INLINE_ELEMENT
+)
+ELEM
+(
 datalist
 true
 false
