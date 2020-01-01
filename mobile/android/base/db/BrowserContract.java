@@ -531,6 +531,7 @@ PARAM_SHOW_DELETED
 show_deleted
 "
 ;
+public
 interface
 CommonColumns
 {
@@ -545,6 +546,7 @@ _id
 "
 ;
 }
+public
 interface
 SyncColumns
 {
@@ -589,6 +591,7 @@ deleted
 "
 ;
 }
+public
 interface
 URLColumns
 {
@@ -613,6 +616,7 @@ title
 "
 ;
 }
+public
 interface
 ImageColumns
 {
