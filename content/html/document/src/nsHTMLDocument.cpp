@@ -957,13 +957,6 @@ selection
 #
 include
 "
-nsICharsetResolver
-.
-h
-"
-#
-include
-"
 nsICachingChannel
 .
 h
