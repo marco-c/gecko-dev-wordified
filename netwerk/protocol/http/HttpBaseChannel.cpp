@@ -1259,6 +1259,13 @@ mProgressSink
 =
 nullptr
 ;
+mPrivateBrowsing
+=
+NS_UsePrivateBrowsing
+(
+this
+)
+;
 return
 NS_OK
 ;
