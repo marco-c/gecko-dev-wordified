@@ -5822,6 +5822,16 @@ function
 (
 )
 {
+if
+(
+mirror
+&
+&
+mirror
+.
+isShowingCachedData
+)
+{
 mirror
 .
 hideCachedData
@@ -5831,6 +5841,7 @@ item
 tab
 )
 ;
+}
 }
 15000
 )
