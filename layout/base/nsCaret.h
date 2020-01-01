@@ -34,6 +34,9 @@ offset
 *
 -
 *
+/
+/
+*
 vim
 :
 set
@@ -49,6 +52,8 @@ tw
 78
 :
 *
+/
+/
 *
 *
 *
@@ -2077,15 +2082,6 @@ also
 mLastBidiLevel
 below
 }
-;
-nsresult
-NS_NewCaret
-(
-nsCaret
-*
-*
-aInstancePtrResult
-)
 ;
 /
 /
