@@ -3367,7 +3367,6 @@ ns4xPlugin
 :
 CreatePlugin
 (
-mgr
 0
 0
 pLibrary
@@ -3435,7 +3434,6 @@ ns4xPlugin
 :
 CreatePlugin
 (
-mgr
 0
 0
 pLibrary
