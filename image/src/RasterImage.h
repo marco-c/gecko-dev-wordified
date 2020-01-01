@@ -3356,6 +3356,8 @@ const
 nsIntRect
 &
 aSubimage
+uint32_t
+aFlags
 )
 ;
 nsresult
@@ -4844,6 +4846,8 @@ GraphicsFilter
 aFilter
 gfxSize
 aScale
+uint32_t
+aFlags
 )
 ;
 struct
