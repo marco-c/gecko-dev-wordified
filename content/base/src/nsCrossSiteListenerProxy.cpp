@@ -561,7 +561,6 @@ nsIContentSink
 nsIXMLContentSink
 nsIExpatSink
 )
-;
 nsCrossSiteListenerProxy
 :
 :
