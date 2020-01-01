@@ -2242,6 +2242,11 @@ bool
 aAudio
 )
 ;
+void
+StopMediaStreams
+(
+)
+;
 /
 /
 ONLY
