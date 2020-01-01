@@ -9456,6 +9456,9 @@ updateJITEnabled
 #
 ifdef
 JS_TRACER
+#
+ifndef
+JS_ION
 traceJitEnabled
 =
 (
@@ -9514,6 +9517,14 @@ debuggerInhibitsJIT
 )
 )
 ;
+#
+else
+traceJitEnabled
+=
+false
+;
+#
+endif
 #
 endif
 #
