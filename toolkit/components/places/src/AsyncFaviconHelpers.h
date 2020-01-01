@@ -630,6 +630,18 @@ nsCycleCollectionParticipant
 .
 h
 "
+/
+/
+Avoid
+warnings
+about
+macro
+empty
+parameters
+.
+#
+define
+FAVICONSTEP_FAKE_EMPTYPARAM
 #
 define
 FAVICONSTEP_FAIL_IF_FALSE
@@ -640,6 +652,7 @@ _cond
 FAVICONSTEP_FAIL_IF_FALSE_RV
 (
 _cond
+FAVICONSTEP_FAKE_EMPTYPARAM
 )
 #
 define
@@ -697,6 +710,7 @@ FAVICONSTEP_CANCEL_IF_TRUE_RV
 (
 _cond
 _notify
+FAVICONSTEP_FAKE_EMPTYPARAM
 )
 #
 define
