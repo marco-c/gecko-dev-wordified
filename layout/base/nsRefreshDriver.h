@@ -1022,6 +1022,7 @@ nsnull
 ;
 EnsureTimerStarted
 (
+false
 )
 ;
 return
@@ -1084,6 +1085,7 @@ nsnull
 ;
 EnsureTimerStarted
 (
+false
 )
 ;
 return
@@ -1428,6 +1430,8 @@ ObserverArray
 void
 EnsureTimerStarted
 (
+bool
+aAdjustingTimer
 )
 ;
 void
