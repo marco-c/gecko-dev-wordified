@@ -1111,10 +1111,11 @@ MAXADDR
 /
 mainThread
 .
-ionStackLimit
-=
+setIonStackLimit
+(
 -
 1
+)
 ;
 /
 *
