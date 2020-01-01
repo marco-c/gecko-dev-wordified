@@ -2430,7 +2430,7 @@ document
 getElementById
 (
 "
-uninstall
+enable
 -
 btn
 "
