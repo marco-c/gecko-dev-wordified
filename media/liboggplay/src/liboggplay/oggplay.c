@@ -807,6 +807,13 @@ active
 0
 ;
 }
+me
+-
+>
+active_tracks
+=
+0
+;
 /
 *
 *
@@ -3423,6 +3430,7 @@ active
 =
 0
 ;
+}
 me
 -
 >
@@ -3430,7 +3438,6 @@ active_tracks
 =
 0
 ;
-}
 if
 (
 info
