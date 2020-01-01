@@ -172,3 +172,7 @@ DEPRECATED_OPERATION
 (
 NodeIteratorDetach
 )
+DEPRECATED_OPERATION
+(
+MozAudioData
+)
