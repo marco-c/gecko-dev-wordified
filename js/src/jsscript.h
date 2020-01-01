@@ -3599,6 +3599,9 @@ script
 js
 :
 :
+frontend
+:
+:
 BytecodeEmitter
 *
 bce

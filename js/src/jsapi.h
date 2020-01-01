@@ -6380,6 +6380,9 @@ PARSER
 js
 :
 :
+frontend
+:
+:
 Parser
 *
 /

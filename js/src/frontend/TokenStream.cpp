@@ -337,6 +337,13 @@ namespace
 js
 :
 :
+frontend
+;
+using
+namespace
+js
+:
+:
 unicode
 ;
 #
@@ -419,7 +426,7 @@ JS_KEYWORD
 const
 KeywordInfo
 *
-js
+frontend
 :
 :
 FindKeyword
@@ -602,7 +609,7 @@ NULL
 ;
 }
 bool
-js
+frontend
 :
 :
 IsIdentifier

@@ -158,6 +158,9 @@ h
 namespace
 js
 {
+namespace
+frontend
+{
 /
 *
 *
@@ -9705,6 +9708,13 @@ strictness
 ;
 }
 ;
+}
+/
+*
+namespace
+frontend
+*
+/
 }
 /
 *

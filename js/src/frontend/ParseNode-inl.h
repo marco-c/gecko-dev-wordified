@@ -152,6 +152,9 @@ h
 namespace
 js
 {
+namespace
+frontend
+{
 inline
 bool
 UpvarCookie
@@ -1118,6 +1121,13 @@ blockid
 )
 ;
 }
+}
+/
+*
+namespace
+frontend
+*
+/
 }
 /
 *

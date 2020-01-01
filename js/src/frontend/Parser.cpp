@@ -6104,7 +6104,7 @@ dn
 ;
 }
 bool
-js
+frontend
 :
 :
 DefineArg
@@ -6430,6 +6430,9 @@ parser
 )
 ;
 struct
+frontend
+:
+:
 BindData
 {
 BindData

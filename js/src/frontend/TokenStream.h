@@ -206,6 +206,9 @@ JS_KEYWORD
 namespace
 js
 {
+namespace
+frontend
+{
 enum
 TokenKind
 {
@@ -5649,6 +5652,13 @@ JSREPORT_UC
 /
 *
 namespace
+frontend
+*
+/
+}
+/
+*
+namespace
 js
 *
 /
@@ -5679,6 +5689,9 @@ char
 TokenKindToString
 (
 js
+:
+:
+frontend
 :
 :
 TokenKind
