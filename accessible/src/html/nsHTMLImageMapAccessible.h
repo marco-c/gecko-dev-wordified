@@ -498,9 +498,9 @@ nsHTMLImageMapAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 nsIDOMHTMLMapElement
 *
 aMapElm
@@ -619,9 +619,9 @@ nsHTMLAreaAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 /
