@@ -470,10 +470,9 @@ endif
 /
 /
 MOZ_SMIL
-using
 namespace
 mozilla
-;
+{
 nsresult
 SVGAnimatedNumberList
 :
@@ -1571,3 +1570,8 @@ endif
 /
 /
 MOZ_SMIL
+}
+/
+/
+namespace
+mozilla

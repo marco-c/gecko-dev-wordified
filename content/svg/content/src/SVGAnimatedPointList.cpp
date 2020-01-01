@@ -482,10 +482,9 @@ file
 s
 header
 !
-using
 namespace
 mozilla
-;
+{
 nsresult
 SVGAnimatedPointList
 :
@@ -1759,3 +1758,8 @@ endif
 /
 /
 MOZ_SMIL
+}
+/
+/
+namespace
+mozilla

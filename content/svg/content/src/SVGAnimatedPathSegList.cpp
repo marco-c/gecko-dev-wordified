@@ -482,10 +482,9 @@ file
 s
 header
 !
-using
 namespace
 mozilla
-;
+{
 nsresult
 SVGAnimatedPathSegList
 :
@@ -1705,3 +1704,8 @@ endif
 /
 /
 MOZ_SMIL
+}
+/
+/
+namespace
+mozilla

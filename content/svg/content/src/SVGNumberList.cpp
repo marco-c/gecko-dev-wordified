@@ -504,10 +504,9 @@ nsCharSeparatedTokenizer
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 nsresult
 SVGNumberList
 :
@@ -886,3 +885,8 @@ temp
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla

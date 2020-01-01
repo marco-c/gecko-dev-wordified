@@ -456,10 +456,9 @@ math
 .
 h
 >
-using
 namespace
 mozilla
-;
+{
 /
 *
 static
@@ -1864,3 +1863,8 @@ return
 NS_OK
 ;
 }
+}
+/
+/
+namespace
+mozilla

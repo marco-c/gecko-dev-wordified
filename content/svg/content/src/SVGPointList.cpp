@@ -504,10 +504,9 @@ nsCharSeparatedTokenizer
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 nsresult
 SVGPointList
 :
@@ -1169,3 +1168,8 @@ return
 rv
 ;
 }
+}
+/
+/
+namespace
+mozilla
