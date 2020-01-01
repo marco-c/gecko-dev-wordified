@@ -1747,6 +1747,11 @@ InputData
 aEvent
 )
 {
+nsEventStatus
+result
+=
+nsEventStatus_eIgnore
+;
 gfx3DMatrix
 transformToApzc
 ;
@@ -2048,6 +2053,8 @@ transformToApzc
 )
 ;
 }
+result
+=
 mApzcForInputBlock
 -
 >
@@ -2196,6 +2203,8 @@ mFocusPoint
 transformToApzc
 )
 ;
+result
+=
 apzc
 -
 >
@@ -2268,6 +2277,8 @@ mPoint
 transformToApzc
 )
 ;
+result
+=
 apzc
 -
 >
@@ -2282,7 +2293,7 @@ break
 }
 }
 return
-nsEventStatus_eIgnore
+result
 ;
 }
 nsEventStatus
