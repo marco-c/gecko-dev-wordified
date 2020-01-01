@@ -2790,7 +2790,8 @@ IsDefunct
 )
 |
 |
-IsDocument
+!
+IsElement
 (
 )
 )
