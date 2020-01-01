@@ -954,14 +954,10 @@ Shutdown
 (
 )
 {
-NS_RELEASE
+NS_IF_RELEASE
 (
 sInstance
 )
-;
-sInstance
-=
-nsnull
 ;
 }
 nsXULPopupManager
