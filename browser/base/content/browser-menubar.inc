@@ -4159,11 +4159,6 @@ id
 "
 javascriptConsole
 "
-hidden
-=
-"
-true
-"
 label
 =
 "
