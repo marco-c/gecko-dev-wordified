@@ -220,9 +220,6 @@ class
 nsCSSRuleProcessor
 ;
 class
-nsMediaList
-;
-class
 nsIPrincipal
 ;
 class
