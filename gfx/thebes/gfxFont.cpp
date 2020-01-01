@@ -13858,7 +13858,7 @@ synBoldOnePixelOffset
 int32_t
 strikes
 =
-0
+1
 ;
 if
 (
@@ -13881,6 +13881,16 @@ direction
 *
 xscale
 ;
+if
+(
+xscale
+!
+=
+0
+.
+0
+)
+{
 /
 /
 use
@@ -13905,6 +13915,7 @@ GetSyntheticBoldOffset
 xscale
 )
 ;
+}
 }
 uint32_t
 i
