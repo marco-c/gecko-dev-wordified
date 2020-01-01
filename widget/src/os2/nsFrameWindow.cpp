@@ -2560,13 +2560,6 @@ DispatchWindowEvent
 event
 )
 ;
-NS_RELEASE
-(
-event
-.
-widget
-)
-;
 }
 break
 ;
