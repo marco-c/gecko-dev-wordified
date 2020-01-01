@@ -14832,11 +14832,7 @@ ISO
 -
 15
 IBM850
-x
--
-mac
--
-roman
+macintosh
 windows
 -
 1252

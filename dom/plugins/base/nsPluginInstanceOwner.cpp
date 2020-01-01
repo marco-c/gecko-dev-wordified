@@ -5721,11 +5721,7 @@ MacIceland
 }
 {
 "
-x
--
-mac
--
-roman
+macintosh
 "
 "
 MacRoman

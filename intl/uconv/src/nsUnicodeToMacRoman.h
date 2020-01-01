@@ -165,11 +165,7 @@ encoder
 ?
 charset
 =
-x
--
-mac
--
-roman
+macintosh
 "
 /
 *
