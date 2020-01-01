@@ -944,10 +944,7 @@ label
 {
 branchPtr
 (
-Assembler
-:
-:
-NotEqual
+cond
 Address
 (
 obj
