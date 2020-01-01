@@ -32087,6 +32087,9 @@ sslExceptions
 addPermanentException
 (
 uri
+errorDoc
+.
+defaultView
 )
 ;
 else
@@ -32095,6 +32098,9 @@ sslExceptions
 addTemporaryException
 (
 uri
+errorDoc
+.
+defaultView
 )
 ;
 }
