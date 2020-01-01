@@ -426,6 +426,8 @@ Sullivan
 )
 '
 import
+platform
+import
 os
 import
 re
@@ -434,13 +436,15 @@ time
 import
 config
 if
-config
+platform
 .
-OS
+system
+(
+)
 =
 =
 "
-linux
+Linux
 "
 :
     
@@ -449,13 +453,15 @@ ffprocess_linux
 import
 *
 elif
-config
+platform
 .
-OS
+system
+(
+)
 =
 =
 "
-win32
+Windows
 "
 :
     
