@@ -277,7 +277,7 @@ DiscardTracker
 :
 sAllocationLock
 =
-NULL
+nullptr
 ;
 /
 *
@@ -685,7 +685,7 @@ Cancel
 ;
 sTimer
 =
-NULL
+nullptr
 ;
 }
 /

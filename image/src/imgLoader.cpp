@@ -2683,7 +2683,7 @@ callbacks
 Pass
 in
 a
-NULL
+nullptr
 loadgroup
 because
 this
@@ -2691,10 +2691,10 @@ is
 the
 underlying
 network
+/
+/
 request
 .
-/
-/
 This
 request
 may
@@ -2705,10 +2705,10 @@ several
 proxy
 image
 requests
+/
+/
 (
-psossibly
-/
-/
+possibly
 in
 different
 documents
@@ -9333,7 +9333,7 @@ n
 "
 time
 (
-NULL
+nullptr
 )
 spec
 .
@@ -11927,7 +11927,7 @@ Offset
 4
 must
 be
-NULL
+nullptr
 .
 *
 /

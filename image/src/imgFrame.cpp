@@ -4966,7 +4966,7 @@ It
 /
 should
 be
-NULL
+nullptr
 otherwise
 .
 NS_ABORT_IF_FALSE

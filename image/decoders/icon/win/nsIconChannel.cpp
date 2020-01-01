@@ -1317,7 +1317,7 @@ hr
 :
 SHGetSpecialFolderLocation
 (
-NULL
+nullptr
 aFolder
 &
 idList
@@ -2675,7 +2675,7 @@ mobile
 HICON
 hIcon
 =
-NULL
+nullptr
 ;
 nsCOMPtr
 <
@@ -2801,7 +2801,7 @@ hDC
 =
 CreateCompatibleDC
 (
-NULL
+nullptr
 )
 ;
 /
@@ -2848,7 +2848,7 @@ iconInfo
 hbmMask
 0
 0
-NULL
+nullptr
 (
 BITMAPINFO
 *
@@ -2867,7 +2867,7 @@ iconInfo
 hbmColor
 0
 0
-NULL
+nullptr
 (
 BITMAPINFO
 *
