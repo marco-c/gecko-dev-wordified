@@ -3419,6 +3419,12 @@ privateData
 ]
 ok
 =
+false
+;
+/
+*
+ok
+=
 (
 op
 =
@@ -3460,6 +3466,8 @@ couldBeObjectOrString
 base
 )
 ;
+*
+/
 break
 ;
 case
@@ -4002,6 +4010,12 @@ NativeIterator
 ]
 ok
 =
+false
+;
+/
+*
+ok
+=
 (
 op
 =
@@ -4034,6 +4048,8 @@ privateData
 )
 )
 ;
+*
+/
 break
 ;
 case

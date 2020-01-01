@@ -23770,6 +23770,10 @@ loadObjPrivate
 (
 origCalleeData
 origCalleeData
+JSObject
+:
+:
+FUN_CLASS_NFIXED_SLOTS
 )
 ;
 Native
@@ -25851,6 +25855,10 @@ loadObjPrivate
 (
 icCalleeData
 funPtrReg
+JSObject
+:
+:
+FUN_CLASS_NFIXED_SLOTS
 )
 ;
 stubcc
@@ -39895,6 +39903,10 @@ loadObjPrivate
 (
 ioreg
 nireg
+JSObject
+:
+:
+ITER_CLASS_NFIXED_SLOTS
 )
 ;
 /
@@ -40684,6 +40696,10 @@ loadObjPrivate
 (
 reg
 T1
+JSObject
+:
+:
+ITER_CLASS_NFIXED_SLOTS
 )
 ;
 RegisterID
@@ -41095,6 +41111,10 @@ loadObjPrivate
 (
 reg
 reg
+JSObject
+:
+:
+ITER_CLASS_NFIXED_SLOTS
 )
 ;
 /
@@ -41366,6 +41386,10 @@ loadObjPrivate
 (
 reg
 T1
+JSObject
+:
+:
+ITER_CLASS_NFIXED_SLOTS
 )
 ;
 RegisterID

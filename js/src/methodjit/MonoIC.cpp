@@ -5633,6 +5633,10 @@ ic
 .
 funObjReg
 t0
+JSObject
+:
+:
+FUN_CLASS_NFIXED_SLOTS
 )
 ;
 Jump
