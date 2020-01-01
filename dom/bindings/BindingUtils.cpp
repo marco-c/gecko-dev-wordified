@@ -1838,6 +1838,9 @@ instanceClass
 )
 ;
 return
+(
+uint32_t
+)
 domClass
 -
 >
