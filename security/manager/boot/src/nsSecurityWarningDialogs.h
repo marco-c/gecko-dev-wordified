@@ -172,6 +172,9 @@ PRUnichar
 showAgainName
 bool
 aAsync
+const
+PRUint32
+aBucket
 )
 ;
 nsresult
@@ -192,6 +195,9 @@ const
 PRUnichar
 *
 showAgainName
+const
+PRUint32
+aBucket
 bool
 *
 _result
