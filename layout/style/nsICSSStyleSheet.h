@@ -797,10 +797,7 @@ op
 *
 /
 virtual
-NS_HIDDEN_
-(
 void
-)
 SetPrincipal
 (
 nsIPrincipal
@@ -822,11 +819,8 @@ null
 pointer
 .
 virtual
-NS_HIDDEN_
-(
 nsIPrincipal
 *
-)
 Principal
 (
 )
@@ -894,11 +888,8 @@ map
 for
 sheet
 virtual
-NS_HIDDEN_
-(
 nsXMLNameSpaceMap
 *
-)
 GetNameSpaceMap
 (
 )

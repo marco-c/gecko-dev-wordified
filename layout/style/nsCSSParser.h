@@ -525,7 +525,6 @@ nsCSSParser
 {
 public
 :
-NS_HIDDEN
 nsCSSParser
 (
 mozilla
@@ -546,7 +545,6 @@ aSheet
 nsnull
 )
 ;
-NS_HIDDEN
 ~
 nsCSSParser
 (
@@ -606,7 +604,6 @@ methods
 will
 crash
 .
-NS_HIDDEN
 operator
 bool
 (
@@ -658,10 +655,7 @@ existing
 stylesheet
 reference
 .
-NS_HIDDEN_
-(
 nsresult
-)
 SetStyleSheet
 (
 nsICSSStyleSheet
@@ -679,10 +673,7 @@ to
 emulate
 Nav
 quirks
-NS_HIDDEN_
-(
 nsresult
-)
 SetQuirkMode
 (
 PRBool
@@ -704,10 +695,7 @@ in
 an
 SVG
 element
-NS_HIDDEN_
-(
 nsresult
-)
 SetSVGMode
 (
 PRBool
@@ -725,10 +713,7 @@ use
 for
 child
 sheets
-NS_HIDDEN_
-(
 nsresult
-)
 SetChildLoader
 (
 mozilla
@@ -877,10 +862,7 @@ Loader
 LoadSheetSync
 *
 /
-NS_HIDDEN_
-(
 nsresult
-)
 Parse
 (
 nsIUnicharInputStream
@@ -933,10 +915,7 @@ in
 the
 declaration
 .
-NS_HIDDEN_
-(
 nsresult
-)
 ParseStyleAttribute
 (
 const
@@ -958,10 +937,7 @@ nsICSSStyleRule
 aResult
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 ParseAndAppendDeclaration
 (
 const
@@ -989,10 +965,7 @@ PRBool
 aClearOldDecl
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 ParseRule
 (
 const
@@ -1016,10 +989,7 @@ nsICSSRule
 aResult
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 ParseProperty
 (
 const
@@ -1124,10 +1094,7 @@ reporting
 .
 *
 /
-NS_HIDDEN_
-(
 nsresult
-)
 ParseMediaList
 (
 const
@@ -1235,10 +1202,7 @@ inherit
 .
 *
 /
-NS_HIDDEN_
-(
 nsresult
-)
 ParseColorString
 (
 const
@@ -1281,10 +1245,7 @@ it
 .
 *
 /
-NS_HIDDEN_
-(
 nsresult
-)
 ParseSelectorString
 (
 const
