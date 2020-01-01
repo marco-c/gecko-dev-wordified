@@ -10172,7 +10172,7 @@ trc
 >
 eagerlyTraceWeakMaps
 =
-true
+TraceWeakMapValues
 ;
 #
 ifdef
@@ -10478,7 +10478,7 @@ entries
 /
 eagerlyTraceWeakMaps
 =
-JS_FALSE
+DoNotTraceWeakMaps
 ;
 }
 void

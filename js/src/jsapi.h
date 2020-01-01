@@ -16402,6 +16402,17 @@ JSGCTraceKind
 kind
 )
 ;
+enum
+WeakMapTraceKind
+{
+DoNotTraceWeakMaps
+=
+0
+TraceWeakMapValues
+=
+1
+}
+;
 struct
 JSTracer
 {
@@ -16423,7 +16434,7 @@ debugPrintArg
 size_t
 debugPrintIndex
 ;
-JSBool
+WeakMapTraceKind
 eagerlyTraceWeakMaps
 ;
 #

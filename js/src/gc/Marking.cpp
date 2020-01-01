@@ -9530,7 +9530,7 @@ UnmarkGrayChildren
 ;
 eagerlyTraceWeakMaps
 =
-false
+DoNotTraceWeakMaps
 ;
 }
 UnmarkGrayTracer
@@ -9563,7 +9563,7 @@ UnmarkGrayChildren
 ;
 eagerlyTraceWeakMaps
 =
-false
+DoNotTraceWeakMaps
 ;
 }
 /
