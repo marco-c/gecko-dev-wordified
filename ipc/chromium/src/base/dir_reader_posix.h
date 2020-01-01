@@ -179,6 +179,13 @@ defined
 (
 OS_LINUX
 )
+&
+&
+!
+defined
+(
+OS_OPENBSD
+)
 #
 include
 "
@@ -209,6 +216,13 @@ if
 defined
 (
 OS_LINUX
+)
+&
+&
+!
+defined
+(
+OS_OPENBSD
 )
 typedef
 DirReaderLinux
