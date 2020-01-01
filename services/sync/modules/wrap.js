@@ -1087,6 +1087,10 @@ held
 )
 "
 ;
+let
+locked
+=
+yield
 DAV
 .
 lock
@@ -1098,11 +1102,6 @@ self
 .
 cb
 )
-;
-let
-locked
-=
-yield
 ;
 if
 (
@@ -1159,6 +1158,9 @@ self
 cb
 )
 ;
+ret
+=
+yield
 Async
 .
 run
@@ -1168,10 +1170,6 @@ apply
 Async
 args
 )
-;
-ret
-=
-yield
 ;
 }
 catch
