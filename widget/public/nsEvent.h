@@ -466,6 +466,14 @@ unnecessary
 .
 *
 /
+enum
+UIStateChangeType
+{
+UIStateChangeType_NoChange
+UIStateChangeType_Set
+UIStateChangeType_Clear
+}
+;
 /
 *
 *

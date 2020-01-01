@@ -2989,14 +2989,6 @@ NS_TRANSITION_END
 (
 NS_TRANSITION_EVENT_START
 )
-enum
-UIStateChangeType
-{
-UIStateChangeType_NoChange
-UIStateChangeType_Set
-UIStateChangeType_Clear
-}
-;
 /
 *
 *
