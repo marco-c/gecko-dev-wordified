@@ -1951,16 +1951,7 @@ fi
 >
 block
 =
-cx
--
->
-fp
--
->
-down
--
->
-blockChain
+NULL
 ;
 fi
 -
