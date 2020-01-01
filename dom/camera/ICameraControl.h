@@ -187,6 +187,8 @@ dom
 :
 CameraPosition
 aPosition
+uint64_t
+aDateTime
 nsICameraTakePictureCallback
 *
 onSuccess
