@@ -536,6 +536,14 @@ RowCount
 (
 )
 ;
+virtual
+void
+UnselectRow
+(
+PRUint32
+aRowIdx
+)
+;
 /
 /
 nsAccessNode
