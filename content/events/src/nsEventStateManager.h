@@ -968,6 +968,11 @@ NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 nsEventStateManager
 nsIEventStateManager
 )
+static
+nsIDocument
+*
+sMouseOverDocument
+;
 protected
 :
 void
