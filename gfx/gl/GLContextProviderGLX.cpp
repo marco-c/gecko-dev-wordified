@@ -4378,10 +4378,6 @@ EXT_framebuffer_object
 return
 false
 ;
-InitFramebuffers
-(
-)
-;
 return
 true
 ;

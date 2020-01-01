@@ -1772,10 +1772,6 @@ true
 return
 false
 ;
-InitFramebuffers
-(
-)
-;
 return
 true
 ;
