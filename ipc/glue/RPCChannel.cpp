@@ -2117,6 +2117,12 @@ unlock
 mMutex
 )
 ;
+if
+(
+LoggingEnabled
+(
+)
+)
 fprintf
 (
 stderr
@@ -2700,6 +2706,13 @@ reached
 return
 ;
 }
+if
+(
+LoggingEnabled
+(
+)
+)
+{
 fprintf
 (
 stderr
@@ -2729,6 +2742,7 @@ not
 "
 )
 ;
+}
 if
 (
 defer
