@@ -1747,6 +1747,9 @@ LOG
 aText
 )
 {
+#
+ifdef
+DEBUG
 var
 prefB
 =
@@ -1847,6 +1850,8 @@ aText
 )
 ;
 }
+#
+endif
 }
 function
 ERROR
