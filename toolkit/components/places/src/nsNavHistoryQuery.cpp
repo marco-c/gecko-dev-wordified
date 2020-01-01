@@ -6275,6 +6275,7 @@ mGroupCount
 if
 (
 !
+*
 aGroupingMode
 )
 return
