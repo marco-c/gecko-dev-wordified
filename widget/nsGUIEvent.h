@@ -326,10 +326,6 @@ NS_MOUSE_EVENT
 /
 /
 nsMouseEvent
-NS_POPUP_EVENT
-/
-/
-nsMouseEvent
 NS_MOUSE_SCROLL_EVENT
 /
 /
