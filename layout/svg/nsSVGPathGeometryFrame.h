@@ -275,6 +275,15 @@ int32_t
 aModType
 )
 ;
+virtual
+void
+DidSetStyleContext
+(
+nsStyleContext
+*
+aOldStyleContext
+)
+;
 /
 *
 *

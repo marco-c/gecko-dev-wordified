@@ -271,6 +271,15 @@ aOverrideBounds
 nsIFrame
 interface
 :
+virtual
+void
+DidSetStyleContext
+(
+nsStyleContext
+*
+aOldStyleContext
+)
+;
 NS_IMETHOD
 AttributeChanged
 (
