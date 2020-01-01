@@ -1320,11 +1320,11 @@ signal
 safe
 .
 struct
-Stack
+ProfileStack
 {
 public
 :
-Stack
+ProfileStack
 (
 )
 :
@@ -1735,7 +1735,7 @@ stack_key_initialized
 return
 NULL
 ;
-Stack
+ProfileStack
 *
 stack
 =
@@ -1747,7 +1747,7 @@ tls
 :
 get
 <
-Stack
+ProfileStack
 >
 (
 pkey_stack
@@ -1880,12 +1880,12 @@ aHandle
 )
 return
 ;
-Stack
+ProfileStack
 *
 stack
 =
 (
-Stack
+ProfileStack
 *
 )
 aHandle
@@ -1908,7 +1908,7 @@ char
 aMarker
 )
 {
-Stack
+ProfileStack
 *
 stack
 =
@@ -1920,7 +1920,7 @@ tls
 :
 get
 <
-Stack
+ProfileStack
 >
 (
 pkey_stack
