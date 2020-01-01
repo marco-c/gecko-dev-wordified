@@ -18789,7 +18789,7 @@ do_setname
 }
 lval
 =
-GetStr
+GetLocal
 (
 ss
 i
