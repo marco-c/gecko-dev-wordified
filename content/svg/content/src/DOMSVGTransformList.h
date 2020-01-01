@@ -195,6 +195,9 @@ namespace
 mozilla
 {
 class
+DOMSVGMatrix
+;
+class
 DOMSVGTransform
 ;
 /
@@ -746,12 +749,9 @@ nsIDOMSVGTransform
 >
 CreateSVGTransformFromMatrix
 (
-nsIDOMSVGMatrix
-*
-matrix
-ErrorResult
+DOMSVGMatrix
 &
-error
+matrix
 )
 ;
 already_AddRefed
