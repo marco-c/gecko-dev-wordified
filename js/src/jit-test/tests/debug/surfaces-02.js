@@ -55,7 +55,7 @@ assertEq
 dbg
 .
 onDebuggerStatement
-null
+undefined
 )
 ;
 function
@@ -74,7 +74,7 @@ dbg
 .
 onDebuggerStatement
 =
-undefined
+null
 ;
 }
 TypeError

@@ -207,7 +207,7 @@ dbg
 .
 onDebuggerStatement
 =
-null
+undefined
 ;
 dbg
 =

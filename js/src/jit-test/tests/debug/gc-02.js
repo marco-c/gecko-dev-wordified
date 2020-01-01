@@ -103,7 +103,7 @@ this
 .
 onDebuggerStatement
 =
-null
+undefined
 ;
 gc
 (
@@ -128,7 +128,7 @@ dbg
 .
 onDebuggerStatement
 =
-null
+undefined
 ;
 dbg
 =
