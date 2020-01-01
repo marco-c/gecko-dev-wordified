@@ -2493,7 +2493,7 @@ getUserVisibleHint
 )
 )
 {
-mLayerView
+mAboutHome
 .
 requestFocus
 (
@@ -2502,7 +2502,7 @@ requestFocus
 }
 else
 {
-mAboutHome
+mLayerView
 .
 requestFocus
 (
