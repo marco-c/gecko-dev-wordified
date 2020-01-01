@@ -159,14 +159,14 @@ h
 #
 include
 "
-nsIAccessibleRole
+nsIAccessibleStates
 .
 h
 "
 #
 include
 "
-nsIAccessibleStates
+nsIContent
 .
 h
 "

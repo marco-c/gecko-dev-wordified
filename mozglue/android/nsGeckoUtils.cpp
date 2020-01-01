@@ -244,7 +244,7 @@ default
 )
 jobject
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_allocateDirectBuffer
+Java_org_mozilla_gecko_mozglue_DirectBufferAllocator_nativeAllocateDirectBuffer
 (
 JNIEnv
 *
@@ -316,7 +316,7 @@ default
 )
 void
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_freeDirectBuffer
+Java_org_mozilla_gecko_mozglue_DirectBufferAllocator_nativeFreeDirectBuffer
 (
 JNIEnv
 *

@@ -1739,9 +1739,7 @@ HandleObject
 enclosingScope
 HandleScript
 enclosingScript
-JSObject
-*
-*
+MutableHandleObject
 objp
 )
 ;

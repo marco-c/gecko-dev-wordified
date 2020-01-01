@@ -6259,7 +6259,7 @@ JSContext
 cx
 JSObject
 *
-obj_
+obj
 )
 {
 Rooted
@@ -6271,7 +6271,7 @@ global
 (
 cx
 &
-obj_
+obj
 -
 >
 asGlobal

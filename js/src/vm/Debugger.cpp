@@ -23529,10 +23529,10 @@ filename
 lineno
 )
 ;
-JSScript
-*
+RootedScript
 script
-=
+(
+cx
 frontend
 :
 :
@@ -23558,6 +23558,7 @@ staticLimit
 *
 /
 1
+)
 )
 ;
 if

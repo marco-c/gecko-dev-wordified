@@ -1405,8 +1405,7 @@ Snapshot
 JSContext
 *
 cx
-JSObject
-*
+RawObject
 obj_
 unsigned
 flags
@@ -2056,7 +2055,7 @@ if
 !
 tmp
 .
-resizeUninitialized
+resize
 (
 n
 )
@@ -6512,11 +6511,8 @@ js_ValueToObjectOrNull
 (
 cx
 vp
+&
 obj
-.
-address
-(
-)
 )
 )
 return
