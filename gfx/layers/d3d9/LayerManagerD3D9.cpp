@@ -1461,11 +1461,9 @@ device
 )
 -
 >
-GetBackBuffer
+GetRenderTarget
 (
 0
-0
-D3DBACKBUFFER_TYPE_MONO
 getter_AddRefs
 (
 backBuff
