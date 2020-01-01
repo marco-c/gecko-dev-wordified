@@ -1766,7 +1766,7 @@ Equals
 (
 NS_GET_IID
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 )
 )
 )
@@ -1776,7 +1776,7 @@ GetWindowDOMWindow
 (
 reinterpret_cast
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 *
 >
@@ -6459,7 +6459,7 @@ NS_OK
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 ourWindow
 ;
@@ -6535,7 +6535,7 @@ NS_OK
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 ourWindow
 ;
@@ -7531,7 +7531,7 @@ screen
 size
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 domWindow
 ;
@@ -8073,7 +8073,7 @@ nsSizeMode_Fullscreen
 {
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 ourWindow
 ;
@@ -10068,7 +10068,7 @@ nsXULWindow
 :
 GetWindowDOMWindow
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 *
 aDOMWindow

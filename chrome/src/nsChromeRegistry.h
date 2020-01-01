@@ -570,7 +570,7 @@ Omnijar
 h
 "
 class
-nsIDOMWindowInternal
+nsIDOMWindow
 ;
 class
 nsIURL
@@ -919,7 +919,7 @@ static
 nsresult
 RefreshWindow
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aWindow
 )

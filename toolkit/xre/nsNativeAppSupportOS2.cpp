@@ -853,7 +853,7 @@ const
 PRUnichar
 *
 aType
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 *
 aWindow
@@ -908,7 +908,7 @@ static
 void
 activateWindow
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 win
 )
@@ -7439,7 +7439,7 @@ window
 .
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 navWin
 ;
@@ -9203,7 +9203,7 @@ ActivateLastWindow
 {
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 navWin
 ;
@@ -10870,7 +10870,7 @@ window
 .
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 navWin
 ;

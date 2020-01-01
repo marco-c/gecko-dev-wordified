@@ -1988,7 +1988,7 @@ const
 char
 *
 aResourceString
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 *
 aResult
@@ -2074,7 +2074,7 @@ from
 nsIXULWindow
 -
 >
-nsIDOMWindowInternal
+nsIDOMWindow
 nsCOMPtr
 <
 nsIDocShell
@@ -2101,7 +2101,7 @@ docShell
 {
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 result
 =

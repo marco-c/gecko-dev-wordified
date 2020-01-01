@@ -1324,7 +1324,7 @@ win
 instanceof
 Ci
 .
-nsIDOMWindowInternal
+nsIDOMWindow
 )
 )
 win
@@ -1431,7 +1431,7 @@ QueryInterface
 (
 Ci
 .
-nsIDOMWindowInternal
+nsIDOMWindow
 )
 ;
 for

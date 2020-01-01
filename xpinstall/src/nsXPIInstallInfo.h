@@ -405,7 +405,7 @@ h
 #
 include
 "
-nsIDOMWindowInternal
+nsIDOMWindow
 .
 h
 "
@@ -435,7 +435,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIXPIINSTALLINFO
 nsXPIInstallInfo
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aOriginatingWindow
 nsIURI
@@ -457,7 +457,7 @@ nsXPIInstallInfo
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 mOriginatingWindow
 ;

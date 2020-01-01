@@ -15366,7 +15366,7 @@ win
 instanceof
 Ci
 .
-nsIDOMWindowInternal
+nsIDOMWindow
 )
 {
 /

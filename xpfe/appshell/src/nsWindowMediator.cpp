@@ -490,13 +490,6 @@ h
 #
 include
 "
-nsIDOMWindowInternal
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h
@@ -612,7 +605,7 @@ nsIXULWindow
 inWindow
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 &
 outDOMWindow
@@ -680,7 +673,7 @@ nsIXULWindow
 inWindow
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 &
 outDOMWindow
@@ -1737,7 +1730,7 @@ const
 PRUnichar
 *
 inType
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 *
 outWindow
@@ -1807,7 +1800,7 @@ mWindow
 {
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 DOMWindow
 ;

@@ -629,7 +629,7 @@ generateQI
 [
 AUS_Ci
 .
-nsIDOMWindowInternal
+nsIDOMWindow
 ]
 )
 }

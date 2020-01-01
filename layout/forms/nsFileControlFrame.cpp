@@ -2545,7 +2545,7 @@ NS_OK
 /
 Get
 parent
-nsIDOMWindowInternal
+nsPIDOMWindow
 object
 .
 nsIContent

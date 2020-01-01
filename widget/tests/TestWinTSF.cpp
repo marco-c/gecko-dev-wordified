@@ -706,7 +706,7 @@ h
 #
 include
 "
-nsIDOMWindowInternal
+nsIDOMWindow
 .
 h
 "
@@ -8161,7 +8161,7 @@ for
 testing
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 win
 (
@@ -8669,7 +8669,7 @@ nsnull
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 win
 (
@@ -12079,7 +12079,7 @@ PR_TRUE
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 window
 (
@@ -12101,7 +12101,7 @@ fail
 TestExtents
 :
 get
-nsIDOMWindowInternal
+nsIDOMWindow
 "
 )
 ;

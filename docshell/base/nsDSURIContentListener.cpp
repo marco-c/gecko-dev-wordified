@@ -34,6 +34,8 @@ offset
 *
 -
 *
+/
+/
 *
 *
 *
@@ -480,7 +482,7 @@ h
 #
 include
 "
-nsIDOMWindowInternal
+nsIDOMWindow
 .
 h
 "
@@ -1444,7 +1446,7 @@ LOAD_RETARGETED_DOCUMENT_URI
 {
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 domWindow
 =

@@ -570,13 +570,6 @@ focus
 #
 include
 "
-nsIDOMWindowInternal
-.
-h
-"
-#
-include
-"
 nsIScrollableFrame
 .
 h

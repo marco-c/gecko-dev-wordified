@@ -2116,7 +2116,7 @@ getInterface
 (
 Ci
 .
-nsIDOMWindowInternal
+nsIDOMWindow
 )
 ;
 domwindow

@@ -580,7 +580,7 @@ container
 {
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 window
 =

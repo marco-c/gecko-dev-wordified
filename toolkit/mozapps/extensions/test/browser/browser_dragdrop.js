@@ -347,7 +347,7 @@ Components
 .
 interfaces
 .
-nsIDOMWindowInternal
+nsIDOMWindow
 )
 ;
 this

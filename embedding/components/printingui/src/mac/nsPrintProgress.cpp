@@ -560,7 +560,7 @@ void
 openProgressDialog
 (
 in
-nsIDOMWindowInternal
+nsIDOMWindow
 parent
 in
 string
@@ -578,7 +578,7 @@ nsPrintProgress
 :
 OpenProgressDialog
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 parent
 const
@@ -1959,7 +1959,7 @@ in
 nsIDocShell
 shell
 in
-nsIDOMWindowInternal
+nsIDOMWindow
 window
 )
 ;
@@ -1974,7 +1974,7 @@ SetDocShell
 nsIDocShell
 *
 shell
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 window
 )

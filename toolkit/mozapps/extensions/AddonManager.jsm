@@ -4948,7 +4948,7 @@ param
 aSource
 *
 The
-nsIDOMWindowInternal
+nsIDOMWindow
 that
 started
 the

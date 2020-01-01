@@ -638,13 +638,6 @@ h
 #
 include
 "
-nsIDOMWindowInternal
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h
@@ -2246,10 +2239,6 @@ nsIDOMWindow
 NS_DECL_NSIDOMWINDOW
 /
 /
-nsIDOMWindowInternal
-NS_DECL_NSIDOMWINDOWINTERNAL
-/
-/
 nsIDOMWindowPerformance
 NS_DECL_NSIDOMWINDOWPERFORMANCE
 /
@@ -2516,7 +2505,7 @@ void
 )
 SetOpenerWindow
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aOpener
 PRBool
@@ -3496,7 +3485,7 @@ is
 a
 toplevel
 window
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 GetParentInternal
 (

@@ -1707,7 +1707,7 @@ defaultView
 instanceof
 Ci
 .
-nsIDOMWindowInternal
+nsIDOMWindow
 &
 &
 aEvent

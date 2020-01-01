@@ -568,13 +568,6 @@ h
 #
 include
 "
-nsIDOMWindowInternal
-.
-h
-"
-#
-include
-"
 nsFocusManager
 .
 h

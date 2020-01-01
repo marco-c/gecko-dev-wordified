@@ -440,7 +440,7 @@ class
 nsIDOMNode
 ;
 class
-nsIDOMWindowInternal
+nsIDOMWindow
 ;
 class
 nsEventStateManager
@@ -460,7 +460,7 @@ inLayoutUtils
 public
 :
 static
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 GetWindowFor
 (
@@ -470,7 +470,7 @@ aNode
 )
 ;
 static
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 GetWindowFor
 (

@@ -502,13 +502,6 @@ h
 #
 include
 "
-nsIDOMWindowInternal
-.
-h
-"
-#
-include
-"
 nsIDOMDocument
 .
 h

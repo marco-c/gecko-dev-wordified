@@ -1203,7 +1203,7 @@ return
 an
 instance
 of
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 /
 function

@@ -4470,17 +4470,6 @@ return
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
->
-windowInternal
-=
-do_QueryInterface
-(
-window
-)
-;
-nsCOMPtr
-<
 nsIDOMDocument
 >
 domDoc
@@ -4491,7 +4480,7 @@ nsIDocument
 >
 focusedDoc
 ;
-windowInternal
+window
 -
 >
 GetDocument

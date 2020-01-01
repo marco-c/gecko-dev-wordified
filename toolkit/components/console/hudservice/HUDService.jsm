@@ -26501,7 +26501,7 @@ QueryInterface
 (
 Ci
 .
-nsIDOMWindowInternal
+nsIDOMWindow
 )
 ;
 }

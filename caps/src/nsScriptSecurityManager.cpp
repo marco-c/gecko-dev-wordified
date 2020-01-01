@@ -14846,7 +14846,7 @@ scriptContext
 {
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 domWin
 =

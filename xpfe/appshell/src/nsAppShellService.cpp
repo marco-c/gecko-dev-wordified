@@ -540,7 +540,7 @@ h
 #
 include
 "
-nsIDOMWindowInternal
+nsIDOMWindow
 .
 h
 "
@@ -865,7 +865,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 junk
 ;
@@ -964,7 +964,7 @@ rv
 }
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 junk
 ;
@@ -2741,7 +2741,7 @@ nsAppShellService
 :
 GetHiddenDOMWindow
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 *
 aWindow
@@ -2783,7 +2783,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 hiddenDOMWindow
 (
@@ -2822,7 +2822,7 @@ nsAppShellService
 :
 GetHiddenWindowAndJSContext
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 *
 aWindow
@@ -2866,7 +2866,7 @@ Convert
 hidden
 window
 to
-nsIDOMWindowInternal
+nsIDOMWindow
 and
 extract
 its
@@ -2920,11 +2920,11 @@ Convert
 that
 to
 an
-nsIDOMWindowInternal
+nsIDOMWindow
 .
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 hiddenDOMWindow
 (

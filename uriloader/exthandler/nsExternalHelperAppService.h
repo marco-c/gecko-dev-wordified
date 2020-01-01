@@ -657,7 +657,7 @@ class
 nsITransfer
 ;
 class
-nsIDOMWindowInternal
+nsIDOMWindow
 ;
 /
 *
@@ -1923,7 +1923,7 @@ loaded
 /
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 mWindowToClose
 ;

@@ -530,7 +530,7 @@ the
 dialog
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 parent
 =

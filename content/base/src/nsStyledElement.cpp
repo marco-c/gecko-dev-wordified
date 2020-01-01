@@ -576,6 +576,13 @@ nsIDOMSVGStylable
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 namespace
 css
 =

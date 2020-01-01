@@ -501,7 +501,7 @@ h
 #
 include
 "
-nsIDOMWindowInternal
+nsIDOMWindow
 .
 h
 "
@@ -698,7 +698,7 @@ NS_DECL_NSICHANNELEVENTSINK
 NS_IMETHOD
 InitManager
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aParentWindow
 nsXPITriggerInfo
@@ -771,7 +771,7 @@ ENABLE_SKIN_SIMPLE_INSTALLATION_UI
 PRBool
 ConfirmChromeInstall
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aParentWindow
 const
@@ -848,7 +848,7 @@ mDlg
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 mParentWindow
 ;

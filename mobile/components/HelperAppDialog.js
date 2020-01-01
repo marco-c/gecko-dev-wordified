@@ -1107,7 +1107,7 @@ getInterface
 (
 Ci
 .
-nsIDOMWindowInternal
+nsIDOMWindow
 )
 ;
 picker

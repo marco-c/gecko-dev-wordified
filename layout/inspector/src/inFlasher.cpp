@@ -988,7 +988,7 @@ aElement
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 window
 =
@@ -1202,7 +1202,7 @@ aElement
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 window
 =

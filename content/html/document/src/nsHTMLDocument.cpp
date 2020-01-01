@@ -8627,7 +8627,7 @@ aOptionalArgCount
 {
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 window
 =

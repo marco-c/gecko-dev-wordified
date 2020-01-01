@@ -405,7 +405,7 @@ nsXPIInstallInfo
 :
 nsXPIInstallInfo
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aOriginatingWindow
 nsIURI
@@ -504,7 +504,7 @@ NS_OK
 *
 readonly
 attribute
-nsIDOMWindowInternal
+nsIDOMWindow
 originatingWindow
 ;
 *
@@ -515,7 +515,7 @@ nsXPIInstallInfo
 :
 GetOriginatingWindow
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 *
 aOriginatingWindow

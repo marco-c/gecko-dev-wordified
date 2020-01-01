@@ -621,7 +621,7 @@ h
 #
 include
 "
-nsIDOMWindowInternal
+nsIDOMWindow
 .
 h
 "
@@ -2301,7 +2301,7 @@ static
 void
 FlushSkinBindingsForWindow
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aWindow
 )
@@ -2465,7 +2465,7 @@ protoWindow
 {
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 domWindow
 =
@@ -2548,7 +2548,7 @@ protoWindow
 {
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 domWindow
 =
@@ -2692,7 +2692,7 @@ nsChromeRegistry
 :
 RefreshWindow
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aWindow
 )
@@ -2770,21 +2770,9 @@ childWin
 )
 )
 ;
-nsCOMPtr
-<
-nsIDOMWindowInternal
->
-childInt
-(
-do_QueryInterface
-(
-childWin
-)
-)
-;
 RefreshWindow
 (
-childInt
+childWin
 )
 ;
 }
@@ -3593,7 +3581,7 @@ rv
 {
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 domWindow
 =

@@ -542,13 +542,6 @@ h
 #
 include
 "
-nsIDOMWindowInternal
-.
-h
-"
-#
-include
-"
 nsIWebProgress
 .
 h
@@ -10802,7 +10795,7 @@ nsWebBrowser
 :
 GetPrimaryContentWindow
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 *
 aDOMWindow
@@ -10863,10 +10856,8 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
-domWindow
-;
 domWindow
 =
 do_GetInterface

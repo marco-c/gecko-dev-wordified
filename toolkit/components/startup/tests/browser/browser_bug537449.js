@@ -590,7 +590,7 @@ Components
 .
 interfaces
 .
-nsIDOMWindowInternal
+nsIDOMWindow
 )
 ;
 var

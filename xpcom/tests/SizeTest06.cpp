@@ -137,7 +137,7 @@ void
 nsresult
 Test06_raw
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aDOMWindow
 nsIBaseWindow
@@ -241,7 +241,7 @@ void
 nsresult
 Test06_raw_optimized
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aDOMWindow
 nsIBaseWindow
@@ -347,7 +347,7 @@ status
 void
 Test06_nsCOMPtr_as_found
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aDOMWindow
 nsCOMPtr
@@ -414,7 +414,7 @@ void
 nsresult
 Test06_nsCOMPtr00
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aDOMWindow
 nsIBaseWindow
@@ -506,7 +506,7 @@ void
 nsresult
 Test06_nsCOMPtr_optimized
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aDOMWindow
 nsCOMPtr
@@ -594,7 +594,7 @@ void
 nsresult
 Test06_nsCOMPtr02
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aDOMWindow
 nsIBaseWindow
@@ -675,7 +675,7 @@ void
 nsresult
 Test06_nsCOMPtr03
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aDOMWindow
 nsCOMPtr

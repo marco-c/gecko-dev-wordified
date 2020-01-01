@@ -647,13 +647,6 @@ h
 #
 include
 "
-nsIDOMWindowInternal
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h

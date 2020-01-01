@@ -8282,7 +8282,7 @@ window
 *
 return
 The
-nsIDOMWindowInternal
+nsIDOMWindow
 for
 the
 Update

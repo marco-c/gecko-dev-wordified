@@ -848,7 +848,7 @@ EnsureDocShellTreeOwner
 NS_IMETHOD
 GetPrimaryContentWindow
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 *
 aDomWindow
