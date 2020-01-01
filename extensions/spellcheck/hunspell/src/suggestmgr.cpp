@@ -9186,7 +9186,7 @@ j
 /
 find
 minimum
-threshhold
+threshold
 for
 a
 passable
