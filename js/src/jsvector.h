@@ -2008,6 +2008,10 @@ mLength
 }
 public
 :
+typedef
+T
+ElementType
+;
 Vector
 (
 AllocPolicy
