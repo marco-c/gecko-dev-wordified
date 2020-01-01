@@ -610,7 +610,7 @@ command
 '
 ps
 -
-Axc
+ac
 '
 ]
   
