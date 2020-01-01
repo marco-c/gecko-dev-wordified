@@ -535,7 +535,7 @@ null
 ;
 PlacesUtils
 .
-showAddBookmarkUI
+showMinimalAddBookmarkUI
 (
 linkURI
 title
@@ -699,7 +699,7 @@ e
 }
 PlacesUtils
 .
-showAddBookmarkUI
+showMinimalAddBookmarkUI
 (
 url
 title
@@ -960,7 +960,7 @@ _getUniqueTabInfo
 ;
 PlacesUtils
 .
-showAddMultiBookmarkUI
+showMinimalAddMultiBookmarkUI
 (
 tabURIs
 )
@@ -1139,7 +1139,7 @@ toolbarFolder
 ;
 PlacesUtils
 .
-showAddLivemarkUI
+showMinimalAddLivemarkUI
 (
 feedURI
 gBrowser
