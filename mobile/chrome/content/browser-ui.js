@@ -10514,7 +10514,7 @@ deltaY
 }
 Browser
 .
-setVisibleRect
+animatedZoomTo
 (
 zoomRect
 )
