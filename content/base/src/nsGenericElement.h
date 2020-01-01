@@ -2048,10 +2048,6 @@ friend
 class
 nsNSElementTearoff
 ;
-friend
-class
-nsNSElementTearoff
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 /
 *
