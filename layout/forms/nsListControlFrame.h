@@ -2178,14 +2178,6 @@ aIndex
 const
 ;
 PRBool
-IsOptionElement
-(
-nsIContent
-*
-aContent
-)
-;
-PRBool
 CheckIfAllFramesHere
 (
 )
