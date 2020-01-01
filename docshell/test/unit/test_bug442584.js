@@ -168,8 +168,6 @@ prefetch
 .
 enumerateQueue
 (
-true
-false
 )
 ;
 do_check_true
@@ -216,8 +214,6 @@ prefetch
 .
 enumerateQueue
 (
-true
-false
 )
 ;
 do_check_false
@@ -311,8 +307,6 @@ prefetch
 .
 enumerateQueue
 (
-true
-false
 )
 ;
 do_check_true
