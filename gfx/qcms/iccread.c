@@ -2777,7 +2777,7 @@ curve
 >
 type
 =
-type
+CURVE_TYPE
 ;
 for
 (
@@ -2895,7 +2895,7 @@ curve
 >
 type
 =
-type
+PARAMETRIC_CURVE_TYPE
 ;
 for
 (
@@ -5791,6 +5791,13 @@ float_to_u8Fixed8Number
 (
 gamma
 )
+;
+curve
+-
+>
+type
+=
+CURVE_TYPE
 ;
 return
 curve
