@@ -1933,7 +1933,7 @@ reportData
 let
 names
 =
-extraData
+reportData
 .
 additional_minidumps
 .
