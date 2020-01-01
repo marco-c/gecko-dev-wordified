@@ -248,7 +248,7 @@ DebuggerView
 .
 Variables
 .
-enableSearch
+_enableSearch
 (
 )
 ;

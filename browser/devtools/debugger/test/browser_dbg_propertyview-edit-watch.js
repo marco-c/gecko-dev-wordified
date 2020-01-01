@@ -652,7 +652,7 @@ querySelectorAll
 .
 dbg
 -
-variables
+variable
 -
 delete
 "
@@ -816,7 +816,7 @@ querySelectorAll
 .
 dbg
 -
-variables
+variable
 -
 delete
 "
@@ -980,7 +980,7 @@ querySelectorAll
 .
 dbg
 -
-variables
+variable
 -
 delete
 "
@@ -1113,7 +1113,7 @@ querySelectorAll
 .
 dbg
 -
-variables
+variable
 -
 delete
 "
@@ -1301,7 +1301,7 @@ querySelectorAll
 .
 dbg
 -
-variables
+variable
 -
 delete
 "
@@ -3007,7 +3007,7 @@ querySelector
 .
 dbg
 -
-variables
+variable
 -
 delete
 "
