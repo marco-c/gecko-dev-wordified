@@ -555,6 +555,12 @@ nsAString
 aName
 )
 {
+aName
+.
+Truncate
+(
+)
+;
 nsCOMPtr
 <
 nsIContent
@@ -879,6 +885,12 @@ nsAString
 aName
 )
 {
+aName
+.
+Truncate
+(
+)
+;
 return
 GetXULName
 (

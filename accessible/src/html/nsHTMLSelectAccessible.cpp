@@ -3185,6 +3185,12 @@ nsAString
 aName
 )
 {
+aName
+.
+Truncate
+(
+)
+;
 /
 /
 CASE
@@ -8298,6 +8304,12 @@ nsAString
 aName
 )
 {
+aName
+.
+Truncate
+(
+)
+;
 return
 GetActionName
 (

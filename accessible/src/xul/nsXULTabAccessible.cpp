@@ -1811,10 +1811,10 @@ GetName
 (
 nsAString
 &
-_retval
+aName
 )
 {
-_retval
+aName
 .
 Truncate
 (
