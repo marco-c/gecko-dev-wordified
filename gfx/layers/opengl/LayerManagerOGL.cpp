@@ -219,17 +219,6 @@ GLContextProvider
 #
 include
 "
-GeckoProfilerFunc
-.
-h
-"
-/
-/
-for
-TimeStamp
-#
-include
-"
 GeckoProfiler
 .
 h

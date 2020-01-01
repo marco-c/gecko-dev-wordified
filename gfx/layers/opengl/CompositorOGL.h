@@ -154,17 +154,6 @@ etc
 #
 include
 "
-GeckoProfilerFunc
-.
-h
-"
-/
-/
-for
-TimeStamp
-#
-include
-"
 LayerManagerOGLProgram
 .
 h

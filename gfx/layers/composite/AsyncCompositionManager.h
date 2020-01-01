@@ -99,17 +99,6 @@ GFX_ASYNCCOMPOSITIONMANAGER_H
 #
 include
 "
-GeckoProfilerFunc
-.
-h
-"
-/
-/
-for
-TimeStamp
-#
-include
-"
 Units
 .
 h

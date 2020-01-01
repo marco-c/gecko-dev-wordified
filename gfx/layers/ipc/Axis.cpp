@@ -165,17 +165,6 @@ FrameMetrics
 #
 include
 "
-GeckoProfilerFunc
-.
-h
-"
-/
-/
-for
-TimeDuration
-#
-include
-"
 mozilla
 /
 Attributes

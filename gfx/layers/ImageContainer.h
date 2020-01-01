@@ -125,17 +125,6 @@ int32_t
 #
 include
 "
-GeckoProfilerFunc
-.
-h
-"
-/
-/
-for
-TimeStamp
-#
-include
-"
 ImageTypes
 .
 h

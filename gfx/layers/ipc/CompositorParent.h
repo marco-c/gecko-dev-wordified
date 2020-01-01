@@ -205,17 +205,6 @@ uint64_t
 #
 include
 "
-GeckoProfilerFunc
-.
-h
-"
-/
-/
-for
-TimeStamp
-#
-include
-"
 Layers
 .
 h
