@@ -54710,9 +54710,6 @@ case
 TOK_LC
 :
 {
-JSBool
-afterComma
-;
 JSParseNode
 *
 pnval
@@ -54811,10 +54808,6 @@ pn
 makeEmpty
 (
 )
-;
-afterComma
-=
-JS_FALSE
 ;
 for
 (
@@ -55783,10 +55776,6 @@ return
 NULL
 ;
 }
-afterComma
-=
-JS_TRUE
-;
 }
 end_obj_init
 :
