@@ -241,13 +241,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsGUIEvent
 .
 h

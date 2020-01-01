@@ -409,6 +409,13 @@ nsIXULWindow
 .
 h
 "
+#
+include
+"
+nsRegion
+.
+h
+"
 class
 nsView
 ;

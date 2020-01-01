@@ -239,13 +239,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIFormControlFrame
 .
 h

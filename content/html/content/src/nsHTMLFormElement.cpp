@@ -110,13 +110,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsEventStateManager
 .
 h

@@ -462,7 +462,13 @@ TitleChangedListener
 nsGenericHTMLFrameElement
 *
 aElement
-nsIDOMEventTarget
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
 *
 aChromeHandler
 )
@@ -497,7 +503,7 @@ mChromeHandler
 ;
 /
 *
-nsIDOMEventTarget
+EventTarget
 *
 /
 }

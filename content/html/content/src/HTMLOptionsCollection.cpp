@@ -237,13 +237,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLOptGroupElement
 .
 h
