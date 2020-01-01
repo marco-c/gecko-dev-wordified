@@ -914,7 +914,7 @@ PRUint32
 flags
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -1141,7 +1141,7 @@ nsIRunnable
 event
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -1209,7 +1209,7 @@ nsASocketHandler
 handler
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -1313,7 +1313,7 @@ SocketContext
 sock
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -1494,7 +1494,7 @@ SocketContext
 sock
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -1588,7 +1588,7 @@ out_flags
 =
 0
 ;
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -1623,7 +1623,7 @@ SocketContext
 sock
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -1665,7 +1665,7 @@ index
 "
 )
 ;
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -1724,7 +1724,7 @@ mActiveCount
 -
 -
 ;
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -1756,7 +1756,7 @@ SocketContext
 sock
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -1814,7 +1814,7 @@ mIdleCount
 +
 +
 ;
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -1849,7 +1849,7 @@ SocketContext
 sock
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -1920,7 +1920,7 @@ mIdleCount
 -
 -
 ;
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -2138,7 +2138,7 @@ minR
 r
 ;
 }
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -2278,7 +2278,7 @@ PR_IntervalNow
 (
 )
 ;
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -2316,7 +2316,7 @@ PR_IntervalNow
 -
 ts
 ;
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -2640,7 +2640,7 @@ event
 "
 )
 ;
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -2777,7 +2777,7 @@ Shutdown
 (
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -3247,7 +3247,7 @@ Run
 (
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -3409,7 +3409,7 @@ thread
 )
 ;
 }
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -3516,7 +3516,7 @@ gSocketThread
 =
 nsnull
 ;
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -3543,7 +3543,7 @@ PRBool
 wait
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -3662,7 +3662,7 @@ i
 -
 -
 -
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -3831,7 +3831,7 @@ i
 -
 -
 -
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -3940,7 +3940,7 @@ i
 )
 ;
 }
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -3993,7 +3993,7 @@ n
 0
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -4429,7 +4429,7 @@ event
 "
 )
 ;
-LOG
+SOCKET_LOG
 (
 (
 "

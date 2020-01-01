@@ -934,7 +934,7 @@ OnMsgClose
 (
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -1028,7 +1028,7 @@ OnMsgAttach
 (
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "

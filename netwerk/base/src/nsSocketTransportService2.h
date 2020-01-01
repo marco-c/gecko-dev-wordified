@@ -598,7 +598,7 @@ gSocketTransportLog
 endif
 #
 define
-LOG
+SOCKET_LOG
 (
 args
 )
@@ -610,7 +610,7 @@ args
 )
 #
 define
-LOG_ENABLED
+SOCKET_LOG_ENABLED
 (
 )
 PR_LOG_TEST

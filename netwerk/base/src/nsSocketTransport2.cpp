@@ -1185,7 +1185,7 @@ n
 .
 err_code
 ;
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -1562,7 +1562,7 @@ errorCode
 break
 ;
 }
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -1830,7 +1830,7 @@ nsresult
 condition
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -2072,7 +2072,7 @@ PRUint32
 avail
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -2288,7 +2288,7 @@ PRUint32
 countRead
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -2370,7 +2370,7 @@ return
 NS_BASE_STREAM_WOULD_BLOCK
 ;
 }
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -2439,7 +2439,7 @@ buf
 count
 )
 ;
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -2675,7 +2675,7 @@ nsresult
 reason
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -2778,7 +2778,7 @@ nsIEventTarget
 target
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -3224,7 +3224,7 @@ nsresult
 condition
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -3484,7 +3484,7 @@ PRUint32
 countWritten
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -3567,7 +3567,7 @@ return
 NS_BASE_STREAM_WOULD_BLOCK
 ;
 }
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -3636,7 +3636,7 @@ buf
 count
 )
 ;
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -3961,7 +3961,7 @@ nsresult
 reason
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -4064,7 +4064,7 @@ nsIEventTarget
 target
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -4445,7 +4445,7 @@ mQoSBits
 0x00
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -4496,7 +4496,7 @@ nsSocketTransport
 (
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -4748,7 +4748,7 @@ proxyType
 nsnull
 ;
 }
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -5333,7 +5333,7 @@ mFD
 opt
 )
 ;
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -5404,7 +5404,7 @@ nsISupports
 param
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -5484,7 +5484,7 @@ nsresult
 status
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -5595,7 +5595,7 @@ ResolveHost
 (
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -5875,7 +5875,7 @@ rv
 )
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -5940,7 +5940,7 @@ PRBool
 usingSSL
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -6104,7 +6104,7 @@ nsISocketProvider
 >
 provider
 ;
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -6451,7 +6451,7 @@ callbacks
 =
 mCallbacks
 ;
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -6620,7 +6620,7 @@ rv
 )
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -6674,7 +6674,7 @@ InitiateSocket
 (
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -6992,7 +6992,7 @@ rv
 )
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -7266,7 +7266,7 @@ mFDconnected
 PR_FALSE
 ;
 }
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -7303,7 +7303,7 @@ PR_LOGGING
 )
 if
 (
-LOG_ENABLED
+SOCKET_LOG_ENABLED
 (
 )
 )
@@ -7325,7 +7325,7 @@ buf
 )
 )
 ;
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -7597,7 +7597,7 @@ if
 secCtrl
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -7761,7 +7761,7 @@ wrong
 "
 )
 ;
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -7935,7 +7935,7 @@ rv
 )
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -8127,7 +8127,7 @@ nsresult
 reason
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -8274,7 +8274,7 @@ nsresult
 reason
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -8411,7 +8411,7 @@ OnSocketConnected
 (
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -8589,7 +8589,7 @@ mFDref
 0
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -8721,7 +8721,7 @@ nsISupports
 param
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -8777,7 +8777,7 @@ apparently
 already
 dead
 .
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -8840,7 +8840,7 @@ type
 case
 MSG_ENSURE_CONNECT
 :
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -8887,7 +8887,7 @@ ResolveHost
 )
 ;
 else
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -8905,7 +8905,7 @@ break
 case
 MSG_DNS_LOOKUP_COMPLETE
 :
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -9085,7 +9085,7 @@ break
 case
 MSG_INPUT_CLOSED
 :
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -9106,7 +9106,7 @@ break
 case
 MSG_INPUT_PENDING
 :
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -9126,7 +9126,7 @@ break
 case
 MSG_OUTPUT_CLOSED
 :
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -9147,7 +9147,7 @@ break
 case
 MSG_OUTPUT_PENDING
 :
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -9167,7 +9167,7 @@ break
 case
 MSG_TIMEOUT_CHANGED
 :
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -9198,7 +9198,7 @@ break
 ;
 default
 :
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -9220,7 +9220,7 @@ mCondition
 )
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -9380,7 +9380,7 @@ PRInt16
 outFlags
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -9415,7 +9415,7 @@ outFlags
 1
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -9798,7 +9798,7 @@ mCondition
 =
 NS_ERROR_PROXY_CONNECTION_REFUSED
 ;
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -9872,7 +9872,7 @@ PRFileDesc
 fd
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -10355,7 +10355,7 @@ nsIInputStream
 result
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
@@ -10609,7 +10609,7 @@ nsIOutputStream
 result
 )
 {
-LOG
+SOCKET_LOG
 (
 (
 "
