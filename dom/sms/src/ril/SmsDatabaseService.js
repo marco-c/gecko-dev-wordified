@@ -3276,7 +3276,6 @@ null
 ;
 if
 (
-!
 filter
 .
 startDate
