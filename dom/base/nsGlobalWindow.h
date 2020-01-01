@@ -776,13 +776,6 @@ h
 #
 include
 "
-nsIDOMStorageList
-.
-h
-"
-#
-include
-"
 nsIDOMStorageEvent
 .
 h
