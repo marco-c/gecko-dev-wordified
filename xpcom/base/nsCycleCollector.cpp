@@ -14570,6 +14570,16 @@ mJSRuntime
 >
 Collect
 (
+aForceGC
+?
+js
+:
+:
+gcreason
+:
+:
+SHUTDOWN_CC
+:
 js
 :
 :

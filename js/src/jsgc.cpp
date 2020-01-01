@@ -23513,10 +23513,13 @@ we
 re
 doing
 a
-forced
 GC
+before
+a
 /
 /
+shutdown
+CC
 those
 are
 strong
@@ -23582,7 +23585,7 @@ reason
 gcreason
 :
 :
-CC_FORCED
+SHUTDOWN_CC
 |
 |
 reason
@@ -23685,7 +23688,7 @@ reason
 gcreason
 :
 :
-CC_FORCED
+SHUTDOWN_CC
 &
 &
 rt
