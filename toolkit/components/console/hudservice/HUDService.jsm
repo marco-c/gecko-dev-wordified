@@ -25202,6 +25202,15 @@ aNewValue
 ;
 this
 .
+completeNode
+.
+value
+=
+"
+"
+;
+this
+.
 resizeInput
 (
 )
