@@ -2054,13 +2054,6 @@ true
 }
 )
 ;
-Storage
-.
-saveActiveGroupName
-(
-gWindow
-)
-;
 self
 .
 _save
@@ -3995,7 +3988,7 @@ true
 ;
 gBrowser
 .
-contentWindow
+selectedBrowser
 .
 focus
 (
@@ -6889,7 +6882,7 @@ groupItem
 updateTabButton
 :
 function
-UI__updateTabButton
+UI_updateTabButton
 (
 )
 {
