@@ -21,8 +21,8 @@ Test
 :
 when
 focused
-placeholder
-update
+value
+reset
 shouldn
 '
 t
@@ -62,7 +62,7 @@ focus
 ;
 }
 function
-setPlaceholder
+resetValue
 (
 )
 {
@@ -75,11 +75,9 @@ p1
 '
 )
 .
-placeholder
+value
 =
 '
-new
-placeholder
 '
 ;
 }
@@ -128,6 +126,8 @@ p1
 value
 =
 "
+my
+value
 "
 placeholder
 =
@@ -135,11 +135,10 @@ placeholder
 my
 placeholder
 "
-readonly
 onfocus
 =
 "
-setPlaceholder
+resetValue
 (
 )
 ;
