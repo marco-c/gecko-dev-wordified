@@ -712,7 +712,7 @@ an
 error
 .
 virtual
-nsresult
+void
 Shutdown
 (
 )
@@ -881,7 +881,7 @@ volume
 )
 .
 virtual
-nsresult
+void
 SetVolume
 (
 double
