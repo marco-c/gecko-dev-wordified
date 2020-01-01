@@ -2598,7 +2598,7 @@ here
 wwatcher
 '
 s
-OpenWindowJSInternal
+OpenWindowInternal
 /
 /
 will
@@ -2870,7 +2870,7 @@ in
 nsWindowWatcher
 :
 :
-OpenWindowJSInternal
+OpenWindowInternal
 /
 /
 that
