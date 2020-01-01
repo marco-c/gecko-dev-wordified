@@ -452,13 +452,6 @@ JS_HAS_FILE_OBJECT
 #
 include
 "
-jsstddef
-.
-h
-"
-#
-include
-"
 jsfile
 .
 h
@@ -2174,7 +2167,7 @@ pathname
 Chop
 off
 trailing
-seperators
+separators
 .
 *
 /
