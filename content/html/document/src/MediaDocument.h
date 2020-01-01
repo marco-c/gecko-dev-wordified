@@ -561,6 +561,15 @@ nsAString
 aResult
 )
 ;
+nsresult
+LinkStylesheet
+(
+const
+nsAString
+&
+aStylesheet
+)
+;
 /
 /
 |
