@@ -3518,6 +3518,15 @@ aNode
 ;
 static
 void
+MarkNodeChildren
+(
+nsINode
+*
+aNode
+)
+;
+static
+void
 InitCCCallbacks
 (
 )

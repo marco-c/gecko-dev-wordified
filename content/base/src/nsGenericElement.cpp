@@ -24719,8 +24719,10 @@ wjs
 )
 ;
 }
-static
 void
+nsGenericElement
+:
+:
 MarkNodeChildren
 (
 nsINode
