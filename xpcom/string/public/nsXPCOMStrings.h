@@ -1088,10 +1088,6 @@ private
 :
 void
 *
-v
-;
-void
-*
 d1
 ;
 PRUint32
