@@ -500,7 +500,7 @@ h
 #
 include
 "
-nsTextTransformer
+nsLayoutUtils
 .
 h
 "
@@ -1154,6 +1154,9 @@ less
 that
 1
 .
+nsLayoutUtils
+:
+:
 SetFontFromStyle
 (
 aReflowState
