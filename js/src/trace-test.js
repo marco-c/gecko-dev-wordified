@@ -27393,10 +27393,10 @@ recorderStarted
 1
 recorderAborted
 :
-0
+1
 traceCompleted
 :
-1
+0
 }
 ;
 test
