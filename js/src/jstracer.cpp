@@ -24788,6 +24788,7 @@ changed
 /
 static
 inline
+JS_REQUIRES_STACK
 bool
 js_CheckGlobalObjectShape
 (
