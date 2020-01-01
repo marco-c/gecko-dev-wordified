@@ -1187,7 +1187,7 @@ skipUncollectedCompartments
 aheader
 -
 >
-compartment
+zone
 -
 >
 isCollecting
