@@ -352,9 +352,9 @@ IsSafePath
 nsresult
 Write
 (
-nsIDOMBlob
+nsIInputStream
 *
-blob
+aInputStream
 )
 ;
 nsresult
