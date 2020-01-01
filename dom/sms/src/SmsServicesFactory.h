@@ -110,7 +110,7 @@ class
 nsISmsService
 ;
 class
-nsISmsDatabaseService
+nsIMobileMessageDatabaseService
 ;
 namespace
 mozilla
@@ -138,9 +138,9 @@ CreateSmsService
 static
 already_AddRefed
 <
-nsISmsDatabaseService
+nsIMobileMessageDatabaseService
 >
-CreateSmsDatabaseService
+CreateMobileMessageDatabaseService
 (
 )
 ;

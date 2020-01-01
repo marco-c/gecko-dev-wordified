@@ -111,11 +111,11 @@ sms
 {
 NS_IMPL_ISUPPORTS1
 (
-SmsDatabaseService
-nsISmsDatabaseService
+MobileMessageDatabaseService
+nsIMobileMessageDatabaseService
 )
 NS_IMETHODIMP
-SmsDatabaseService
+MobileMessageDatabaseService
 :
 :
 GetMessageMoz
@@ -144,7 +144,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SmsDatabaseService
+MobileMessageDatabaseService
 :
 :
 DeleteMessage
@@ -173,7 +173,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SmsDatabaseService
+MobileMessageDatabaseService
 :
 :
 CreateMessageList
@@ -205,7 +205,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SmsDatabaseService
+MobileMessageDatabaseService
 :
 :
 GetNextMessageInList
@@ -234,7 +234,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SmsDatabaseService
+MobileMessageDatabaseService
 :
 :
 ClearMessageList
@@ -260,7 +260,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SmsDatabaseService
+MobileMessageDatabaseService
 :
 :
 MarkMessageRead
@@ -291,7 +291,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SmsDatabaseService
+MobileMessageDatabaseService
 :
 :
 GetThreadList

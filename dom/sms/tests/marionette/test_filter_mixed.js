@@ -558,7 +558,7 @@ deleteAllMessages
 *
 *
 Populate
-SmsDatabase
+MobileMessageDB
 with
 messages
 to
