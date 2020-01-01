@@ -11020,6 +11020,13 @@ join
 (
 )
                 
+self
+.
+addTestResults
+(
+test
+)
+                
 #
 did
 the
@@ -11035,23 +11042,31 @@ test
 exception
 :
                     
-raise
+exceptions
+.
+append
+(
 test
 .
 exception
+)
+                    
+tracebacks
+.
+append
+(
+test
+.
+traceback
+)
+                    
+break
                 
 keep_going
 =
 test
 .
 keep_going
-                
-self
-.
-addTestResults
-(
-test
-)
         
 #
 restore
