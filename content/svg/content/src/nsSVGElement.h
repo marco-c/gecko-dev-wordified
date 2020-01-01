@@ -1895,12 +1895,6 @@ SVGSVGElement
 *
 GetOwnerSVGElement
 (
-mozilla
-:
-:
-ErrorResult
-&
-rv
 )
 ;
 nsSVGElement
