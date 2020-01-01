@@ -721,11 +721,6 @@ refcount
 ;
 }
 ;
-typedef
-struct
-_cairo_device
-cairo_device_t
-;
 /
 *
 *
