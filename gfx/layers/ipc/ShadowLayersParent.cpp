@@ -887,6 +887,11 @@ ShadowLayerManager
 *
 aManager
 )
+:
+mDestroyed
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -920,6 +925,10 @@ Destroy
 (
 )
 {
+mDestroyed
+=
+true
+;
 for
 (
 size_t
@@ -1014,6 +1023,9 @@ Length
 ;
 if
 (
+mDestroyed
+|
+|
 layer_manager
 (
 )
