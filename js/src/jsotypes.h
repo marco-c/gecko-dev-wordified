@@ -784,10 +784,6 @@ AIX
 HAVE_SYS_INTTYPES_H
 *
 /
-typedef
-JSFloat64
-float64
-;
 #
 endif
 /

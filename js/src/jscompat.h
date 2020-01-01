@@ -494,10 +494,6 @@ typedef
 JSWord
 jsword
 ;
-typedef
-float
-float32
-;
 #
 endif
 /
