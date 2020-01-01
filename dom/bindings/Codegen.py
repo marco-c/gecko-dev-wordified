@@ -796,6 +796,36 @@ self
 descriptor
 =
 descriptor
+        
+#
+Our
+current
+reserved
+slot
+situation
+is
+unsafe
+for
+globals
+.
+Fix
+bug
+760095
+!
+        
+assert
+"
+Window
+"
+not
+in
+descriptor
+.
+interface
+.
+identifier
+.
+name
     
 def
 declare
@@ -854,7 +884,7 @@ JSCLASS_IS_DOMJSCLASS
 |
 JSCLASS_HAS_RESERVED_SLOTS
 (
-1
+2
 )
     
 %
