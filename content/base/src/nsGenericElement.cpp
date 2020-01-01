@@ -2361,17 +2361,6 @@ content
 return
 content
 ;
-NS_ERROR
-(
-"
-Editor
-is
-not
-found
-!
-"
-)
-;
 }
 nsPresContext
 *
