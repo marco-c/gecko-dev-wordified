@@ -29471,7 +29471,6 @@ Height
 )
 )
 ;
-;
 nsContextBoxBlur
 contextBoxBlur
 ;
@@ -29495,6 +29494,7 @@ AppUnitsPerDevPixel
 )
 aCtx
 aDirtyRect
+nsnull
 )
 ;
 if
