@@ -15342,7 +15342,6 @@ StackPointer
 sizeof
 (
 Value
-*
 )
 *
 i
@@ -15379,7 +15378,6 @@ ScaleFromShift
 sizeof
 (
 Value
-*
 )
 )
 argvOffset
