@@ -3796,6 +3796,13 @@ PRUint32
 paletteLength
 )
 ;
+bool
+ApplyDecodeFlags
+(
+PRUint32
+aNewFlags
+)
+;
 private
 :
 /
