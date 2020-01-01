@@ -13204,6 +13204,13 @@ onprogress
 )
 GK_ATOM
 (
+onuploadprogress
+"
+onuploadprogress
+"
+)
+GK_ATOM
+(
 onsuspend
 "
 onsuspend
