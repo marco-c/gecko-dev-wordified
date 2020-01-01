@@ -306,7 +306,7 @@ is
 (
 userButton
 .
-label
+value
 profile
 .
 userName
