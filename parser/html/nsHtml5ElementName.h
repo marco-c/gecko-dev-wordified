@@ -456,6 +456,7 @@ release
 (
 )
 ;
+virtual
 ~
 nsHtml5ElementName
 (
