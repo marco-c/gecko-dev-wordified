@@ -1771,10 +1771,6 @@ float
 visibleRect
 .
 x
--
-0
-.
-5f
 ;
 quadTransform
 [
@@ -1790,10 +1786,6 @@ float
 visibleRect
 .
 y
--
-0
-.
-5f
 ;
 quadTransform
 [

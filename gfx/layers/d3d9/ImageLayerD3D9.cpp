@@ -1171,10 +1171,6 @@ yuvImage
 mSize
 .
 width
-+
-0
-.
-5f
 ;
 quadTransform
 [
@@ -1193,10 +1189,6 @@ yuvImage
 mSize
 .
 height
-+
-0
-.
-5f
 ;
 quadTransform
 [
@@ -1689,10 +1681,6 @@ cairoImage
 mSize
 .
 width
-+
-0
-.
-5f
 ;
 quadTransform
 [
@@ -1711,10 +1699,6 @@ cairoImage
 mSize
 .
 height
-+
-0
-.
-5f
 ;
 quadTransform
 [

@@ -1709,10 +1709,6 @@ float
 mBounds
 .
 height
--
-0
-.
-5f
 ;
 }
 else
@@ -1740,10 +1736,9 @@ quadTransform
 1
 ]
 =
--
 0
 .
-5f
+0f
 ;
 }
 quadTransform
@@ -1766,10 +1761,9 @@ quadTransform
 0
 ]
 =
--
 0
 .
-5f
+0f
 ;
 quadTransform
 [
