@@ -243,8 +243,7 @@ nsSharedPageData
 (
 )
 ;
-PRUnichar
-*
+nsString
 mDateTimeStr
 ;
 nsFont
@@ -717,8 +716,9 @@ methods
 void
 SetDateTimeStr
 (
-PRUnichar
-*
+const
+nsAString
+&
 aDateTimeStr
 )
 ;
