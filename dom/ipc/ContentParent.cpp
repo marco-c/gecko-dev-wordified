@@ -12961,6 +12961,9 @@ const
 OptionalURIParams
 &
 aReferrer
+PBrowserParent
+*
+aBrowser
 )
 {
 ExternalHelperAppParent
@@ -12991,6 +12994,7 @@ aMimeContentType
 aContentDisposition
 aForceSave
 aReferrer
+aBrowser
 )
 ;
 return

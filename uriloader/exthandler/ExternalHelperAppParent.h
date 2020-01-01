@@ -178,6 +178,9 @@ class
 ContentParent
 ;
 class
+PBrowserParent
+;
+class
 ExternalHelperAppParent
 :
 public
@@ -277,6 +280,9 @@ const
 OptionalURIParams
 &
 aReferrer
+PBrowserParent
+*
+aBrowser
 )
 ;
 virtual
