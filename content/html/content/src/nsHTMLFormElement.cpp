@@ -1091,6 +1091,9 @@ case
 NS_FORM_INPUT_DATE
 :
 case
+NS_FORM_INPUT_TIME
+:
+case
 NS_FORM_SELECT
 :
 case

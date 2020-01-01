@@ -292,6 +292,7 @@ NS_FORM_INPUT_SEARCH
 NS_FORM_INPUT_SUBMIT
 NS_FORM_INPUT_TEL
 NS_FORM_INPUT_TEXT
+NS_FORM_INPUT_TIME
 NS_FORM_INPUT_URL
 eInputElementTypesMax
 }
@@ -1296,8 +1297,8 @@ NS_FORM_INPUT_NUMBER
 /
 TODO
 :
-this
-is
+those
+are
 temporary
 until
 bug
@@ -1309,6 +1310,12 @@ aType
 =
 =
 NS_FORM_INPUT_DATE
+|
+|
+aType
+=
+=
+NS_FORM_INPUT_TIME
 |
 |
 (

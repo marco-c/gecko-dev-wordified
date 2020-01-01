@@ -18111,6 +18111,9 @@ NS_FORM_INPUT_NUMBER
 case
 NS_FORM_INPUT_DATE
 :
+case
+NS_FORM_INPUT_TIME
+:
 nodeAsInput
 -
 >

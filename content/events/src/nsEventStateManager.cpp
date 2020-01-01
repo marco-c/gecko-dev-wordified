@@ -11316,6 +11316,12 @@ NS_FORM_INPUT_DATE
 type
 =
 =
+NS_FORM_INPUT_TIME
+|
+|
+type
+=
+=
 NS_FORM_TEXTAREA
 )
 ;
