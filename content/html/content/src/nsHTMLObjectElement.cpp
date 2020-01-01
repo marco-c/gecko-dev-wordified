@@ -807,7 +807,7 @@ const
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED_NO_UNLINK
 (
 nsHTMLObjectElement
-nsGenericHTMLElement
+nsGenericHTMLFormElement
 )
 private
 :
