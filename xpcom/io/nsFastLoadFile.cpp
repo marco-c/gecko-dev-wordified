@@ -5456,6 +5456,12 @@ mReadObject
 nsnull
 ;
 }
+mFooter
+.
+mNumSharpObjects
+=
+0
+;
 return
 NS_OK
 ;
