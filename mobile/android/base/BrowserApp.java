@@ -3188,13 +3188,6 @@ LOADURL_NEW_TAB
 )
 ;
 }
-else
-{
-hideAboutHome
-(
-)
-;
-}
 }
 else
 {
