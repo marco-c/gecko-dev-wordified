@@ -227,7 +227,6 @@ typedef
 uint32_t
 FbBits
 ;
-PIXMAN_EXPORT
 void
 pixman_add_traps
 (
@@ -690,7 +689,6 @@ n
 ;
 }
 }
-PIXMAN_EXPORT
 void
 pixman_add_trapezoids
 (
@@ -786,7 +784,6 @@ after
 #
 endif
 }
-PIXMAN_EXPORT
 void
 pixman_rasterize_trapezoid
 (

@@ -964,9 +964,6 @@ CAIRO_MUTEX_FINALIZE
 #
 if
 CAIRO_HAS_FT_FONT
-#
-if
-HAVE_FCFINI
 /
 *
 Uninitialize
@@ -977,8 +974,6 @@ FcFini
 (
 )
 ;
-#
-endif
 #
 endif
 #

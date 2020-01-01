@@ -417,18 +417,6 @@ CAIRO_STATUS_NO_MEMORY
 )
 #
 define
-SURFACE_ERROR_TYPE_MISMATCH
-(
-_cairo_surface_create_in_error
-(
-_cairo_error
-(
-CAIRO_STATUS_SURFACE_TYPE_MISMATCH
-)
-)
-)
-#
-define
 SURFACE_ERROR_INVALID_FORMAT
 (
 _cairo_surface_create_in_error
@@ -1424,7 +1412,7 @@ surface
 CAIRO_SURFACE_TYPE_IMAGE
 )
 return
-SURFACE_ERROR_TYPE_MISMATCH
+SURFACE_ERROR_NO_MEMORY
 ;
 image_surface
 =
@@ -1590,7 +1578,7 @@ data
 TRUE
 NULL
 DataProviderReleaseCallback
-image_surface
+surface
 )
 ;
 if

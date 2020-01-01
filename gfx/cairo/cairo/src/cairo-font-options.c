@@ -612,6 +612,11 @@ return
 options
 ;
 }
+slim_hidden_def
+(
+cairo_font_options_create
+)
+;
 /
 *
 *
@@ -833,6 +838,11 @@ options
 )
 ;
 }
+slim_hidden_def
+(
+cairo_font_options_destroy
+)
+;
 /
 *
 *

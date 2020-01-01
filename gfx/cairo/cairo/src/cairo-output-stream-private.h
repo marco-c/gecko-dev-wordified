@@ -965,11 +965,7 @@ stream
 ;
 /
 *
-cairo
--
-base85
--
-stream
+cairo_base85_stream
 .
 c
 *
@@ -986,11 +982,7 @@ output
 ;
 /
 *
-cairo
--
-deflate
--
-stream
+cairo_deflate_stream
 .
 c
 *

@@ -704,7 +704,7 @@ surface
 >
 base
 &
-_cairo_image_surface_backend
+cairo_image_surface_backend
 _cairo_content_from_pixman_format
 (
 pixman_format
@@ -2144,8 +2144,6 @@ format
 *
 width
 height
-*
-stride
 )
 ;
 *
@@ -5743,7 +5741,7 @@ abstract_surface
 if
 (
 !
-pixman_image_set_clip_region32
+pixman_image_set_clip_region
 (
 surface
 -
@@ -5950,12 +5948,12 @@ backend
 =
 =
 &
-_cairo_image_surface_backend
+cairo_image_surface_backend
 ;
 }
 const
 cairo_surface_backend_t
-_cairo_image_surface_backend
+cairo_image_surface_backend
 =
 {
 CAIRO_SURFACE_TYPE_IMAGE

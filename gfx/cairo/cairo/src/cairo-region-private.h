@@ -407,7 +407,7 @@ h
 struct
 _cairo_region
 {
-pixman_region32_t
+pixman_region16_t
 rgn
 ;
 }

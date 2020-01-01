@@ -1798,7 +1798,6 @@ if
 successful
 or
 *
-%
 CAIRO_STATUS_NO_MEMORY
 if
 insufficient

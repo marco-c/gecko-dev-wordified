@@ -341,11 +341,11 @@ define
 CAIRO_QUARTZ_IMAGE_H
 #
 include
-"
+<
 cairo
 .
 h
-"
+>
 #
 if
 CAIRO_HAS_QUARTZ_IMAGE_SURFACE

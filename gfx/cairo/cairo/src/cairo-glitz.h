@@ -348,11 +348,11 @@ define
 CAIRO_GLITZ_H
 #
 include
-"
+<
 cairo
 .
 h
-"
+>
 #
 if
 CAIRO_HAS_GLITZ_SURFACE

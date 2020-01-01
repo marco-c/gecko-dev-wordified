@@ -352,11 +352,11 @@ define
 CAIRO_FT_H
 #
 include
-"
+<
 cairo
 .
 h
-"
+>
 #
 if
 CAIRO_HAS_FT_FONT

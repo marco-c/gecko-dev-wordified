@@ -3110,7 +3110,6 @@ an
 intersection
 or
 *
-%
 CAIRO_BO_STATUS_PARALLEL
 if
 the
@@ -7301,6 +7300,12 @@ edge
 head
 ;
 edge
+&
+&
+edge
+-
+>
+next
 ;
 edge
 =
@@ -8162,7 +8167,6 @@ _cairo_bentley_ottmann_tessellate_polygon
 cairo_traps_t
 *
 traps
-const
 cairo_polygon_t
 *
 polygon
