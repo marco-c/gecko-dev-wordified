@@ -4672,6 +4672,10 @@ requestedHelperThreadCount
 -
 1
 )
+rngNonce
+(
+0
+)
 {
 /
 *

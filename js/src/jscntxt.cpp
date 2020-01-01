@@ -1559,11 +1559,6 @@ insertBack
 cx
 )
 ;
-js_InitRandom
-(
-cx
-)
-;
 /
 *
 *
@@ -6667,10 +6662,6 @@ outstandingRequests
 #
 endif
 resolveFlags
-(
-0
-)
-rngSeed
 (
 0
 )
