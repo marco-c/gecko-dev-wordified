@@ -15476,7 +15476,7 @@ result
 is
 returned
 in
-call
+args
 .
 rval
 .
@@ -15493,7 +15493,7 @@ cx
 const
 CallArgs
 &
-call
+args
 )
 ;
 /
@@ -15588,7 +15588,7 @@ JSPrincipals
 PrincipalsForCompiledCode
 (
 const
-CallArgs
+CallReceiver
 &
 call
 JSContext

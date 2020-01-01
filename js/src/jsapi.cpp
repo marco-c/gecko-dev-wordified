@@ -16278,9 +16278,10 @@ argv
 ReportIncompatibleMethod
 (
 cx
+CallReceiverFromArgv
+(
 argv
--
-2
+)
 Valueify
 (
 clasp
@@ -28847,7 +28848,7 @@ memcpy
 (
 args
 .
-argv
+array
 (
 )
 argv

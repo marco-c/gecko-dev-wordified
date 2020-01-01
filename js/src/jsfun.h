@@ -2794,6 +2794,14 @@ isMagic
 )
 ;
 }
+inline
+bool
+IsConstructing
+(
+CallReceiver
+call
+)
+;
 static
 JS_ALWAYS_INLINE
 bool

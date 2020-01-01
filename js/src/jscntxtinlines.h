@@ -1863,7 +1863,7 @@ cx
 args
 )
 ;
-JSBool
+bool
 ok
 =
 native
@@ -1871,7 +1871,7 @@ native
 cx
 args
 .
-argc
+length
 (
 )
 args

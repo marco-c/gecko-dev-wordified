@@ -670,9 +670,8 @@ ReportIncompatibleMethod
 JSContext
 *
 cx
-Value
-*
-vp
+CallReceiver
+call
 Class
 *
 clasp
@@ -796,9 +795,8 @@ GetPrimitiveThis
 JSContext
 *
 cx
-Value
-*
-vp
+CallReceiver
+call
 T
 *
 v
@@ -1210,9 +1208,7 @@ InvokeKernel
 JSContext
 *
 cx
-const
 CallArgs
-&
 args
 MaybeConstruct
 construct
