@@ -747,6 +747,7 @@ expect
 {
 get
 h
+encodeURI
 (
 )
 {
@@ -754,6 +755,7 @@ h
 native
 code
 ]
+}
 }
 )
 '
