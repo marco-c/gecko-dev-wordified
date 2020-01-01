@@ -14857,7 +14857,7 @@ newtab
 .
 preload
 "
-false
+true
 )
 ;
 /
