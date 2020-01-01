@@ -521,6 +521,7 @@ txElementHandler
 PRInt32
 mNamespaceID
 ;
+const
 char
 *
 mLocalName
