@@ -291,6 +291,10 @@ jobject
 obj
 )
 :
+mRefCnt
+(
+0
+)
 mObject
 (
 env
