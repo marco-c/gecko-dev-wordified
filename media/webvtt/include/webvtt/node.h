@@ -450,6 +450,7 @@ WEBVTT_IS_VALID_LEAF_NODE
 (
 Kind
 )
+\
 (
 WEBVTT_IS_LEAF
 (
@@ -457,6 +458,7 @@ Kind
 )
 &
 &
+\
 (
 WEBVTT_NODE_INDEX
 (
@@ -467,6 +469,7 @@ Kind
 WEBVTT_NODE_LEAF_START
 &
 &
+\
 WEBVTT_NODE_INDEX
 (
 Kind
@@ -482,6 +485,7 @@ WEBVTT_IS_VALID_INTERNAL_NODE
 (
 Kind
 )
+\
 (
 (
 !
@@ -492,16 +496,8 @@ Kind
 )
 &
 &
+\
 (
-WEBVTT_NODE_INDEX
-(
-Kind
-)
->
-=
-WEBVTT_NODE_INTERNAL_START
-&
-&
 WEBVTT_NODE_INDEX
 (
 Kind
@@ -517,6 +513,7 @@ WEBVTT_IS_VALID_NODE_KIND
 (
 Kind
 )
+\
 (
 WEBVTT_IS_VALID_INTERNAL_NODE
 (

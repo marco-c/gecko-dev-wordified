@@ -348,6 +348,11 @@ webvtt_uint
 nb
 )
 {
+(
+void
+)
+unused
+;
 return
 malloc
 (
@@ -368,6 +373,11 @@ void
 ptr
 )
 {
+(
+void
+)
+unused
+;
 free
 (
 ptr

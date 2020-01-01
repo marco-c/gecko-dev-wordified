@@ -400,6 +400,9 @@ snap_to_lines
 webvtt_string
 id
 ;
+webvtt_string
+body
+;
 /
 *
 *

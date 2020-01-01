@@ -289,6 +289,16 @@ node
 kind
 *
 /
+{
+{
+0
+}
+}
+/
+*
+value
+*
+/
 }
 ;
 WEBVTT_EXPORT
