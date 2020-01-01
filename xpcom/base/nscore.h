@@ -1501,12 +1501,6 @@ defined
 (
 XP_OS2
 )
-&
-&
-defined
-(
-__declspec
-)
 #
 define
 NS_IMPORT

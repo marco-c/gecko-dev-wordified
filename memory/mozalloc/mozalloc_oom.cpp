@@ -452,17 +452,9 @@ XP_WIN
 )
 |
 |
-(
 defined
 (
 XP_OS2
-)
-&
-&
-defined
-(
-__declspec
-)
 )
 #
 define
