@@ -2202,6 +2202,9 @@ sLastTracerEvent
 IsNull
 (
 )
+&
+&
+sample
 )
 {
 TimeDuration
