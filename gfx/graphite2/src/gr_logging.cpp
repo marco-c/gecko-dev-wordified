@@ -290,7 +290,7 @@ _WIN32
 #
 include
 "
-Windows
+windows
 .
 h
 "
