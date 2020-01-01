@@ -7149,12 +7149,6 @@ monitor
 mMonitor
 )
 ;
-mPaintThrottler
-.
-TaskComplete
-(
-)
-;
 mLastContentPaintMetrics
 =
 aViewportFrame
@@ -7372,7 +7366,11 @@ break
 }
 mWaitingForContentToPaint
 =
-false
+mPaintThrottler
+.
+TaskComplete
+(
+)
 ;
 bool
 needContentRepaint
