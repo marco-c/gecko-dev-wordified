@@ -1219,10 +1219,9 @@ _formItems
 createRecord
 :
 function
-FormStore_createRecord
+createRecord
 (
 guid
-cryptoMetaURL
 )
 {
 let
@@ -1232,12 +1231,6 @@ new
 FormRec
 (
 )
-;
-record
-.
-id
-=
-guid
 ;
 if
 (
@@ -1257,12 +1250,6 @@ _formItems
 [
 guid
 ]
-;
-record
-.
-encryption
-=
-cryptoMetaURL
 ;
 record
 .
