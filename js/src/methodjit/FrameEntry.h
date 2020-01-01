@@ -613,7 +613,7 @@ elif
 defined
 JS_PUNBOX64
 JSValueShiftedTag
-getKnownShiftedTag
+getKnownTag
 (
 )
 const
@@ -715,7 +715,7 @@ if
 defined
 JS_NUNBOX32
 uint32
-getPayload32
+getPayload
 (
 )
 const
@@ -759,7 +759,7 @@ elif
 defined
 JS_PUNBOX64
 uint64
-getPayload64
+getPayload
 (
 )
 const
