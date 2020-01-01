@@ -2508,7 +2508,7 @@ if
 gInitialized
 )
 {
-NS_ERROR
+NS_RUNTIMEABORT
 (
 "
 Recursive
