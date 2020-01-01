@@ -616,6 +616,9 @@ nsThreadUtils
 .
 h
 "
+class
+nsOverflowChecker
+;
 /
 /
 An
@@ -1321,6 +1324,10 @@ mTreeBoxObject
 }
 protected
 :
+friend
+class
+nsOverflowChecker
+;
 /
 /
 This
