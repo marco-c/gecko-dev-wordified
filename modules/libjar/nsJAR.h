@@ -1105,8 +1105,8 @@ nsresult
 LoadEntry
 (
 const
-char
-*
+nsACString
+&
 aFilename
 char
 *
