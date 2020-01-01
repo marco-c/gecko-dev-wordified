@@ -1079,7 +1079,6 @@ static
 JSNative
 sEvalNative
 ;
-typedef
 enum
 FunctionObjectSlot
 {
