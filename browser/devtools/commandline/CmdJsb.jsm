@@ -218,17 +218,6 @@ lookup
 jsbUrlDesc
 '
 )
-manual
-:
-'
-The
-URL
-of
-the
-JS
-to
-prettify
-'
 }
 {
 name
