@@ -9166,7 +9166,7 @@ stringBundle
 GetStringFromName
 (
 "
-addEngineUseNowText
+addEngineAsCurrentText
 "
 )
 ;
