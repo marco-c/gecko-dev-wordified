@@ -12279,12 +12279,6 @@ aHasPrevious
 aHasNext
 )
 {
-this
-.
-_open
-=
-true
-;
 /
 /
 Update
@@ -12318,6 +12312,12 @@ disabled
 !
 aHasNext
 )
+;
+this
+.
+_open
+=
+true
 ;
 let
 lastElement
