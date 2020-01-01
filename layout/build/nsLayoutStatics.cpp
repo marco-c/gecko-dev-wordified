@@ -735,6 +735,13 @@ nsHTMLDNSPrefetch
 h
 "
 #
+include
+"
+nsCrossSiteListenerProxy
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #
@@ -1536,6 +1543,13 @@ InitLibrary
 ;
 #
 endif
+nsCrossSiteListenerProxy
+:
+:
+Startup
+(
+)
+;
 return
 NS_OK
 ;
