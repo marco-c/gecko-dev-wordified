@@ -154,11 +154,8 @@ defined
 OS_BSD
 )
 #
-if
-defined
-(
-MOZ_WIDGET_GTK
-)
+ifdef
+MOZ_WIDGET_GTK2
 #
 include
 "
