@@ -12643,7 +12643,7 @@ AddAttributes
 (
 aNode
 mHead
-PR_TRUE
+PR_FALSE
 mHaveSeenHead
 )
 ;
