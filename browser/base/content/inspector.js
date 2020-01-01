@@ -3475,6 +3475,12 @@ else
 {
 this
 .
+clearDOMPanel
+(
+)
+;
+this
+.
 openDOMPanel
 (
 )
@@ -3941,6 +3947,14 @@ this
 isDOMPanelOpen
 )
 {
+this
+.
+domPanel
+.
+hidden
+=
+false
+;
 /
 /
 open
@@ -4186,7 +4200,7 @@ PropertyPanel
 jsm
 )
 let
-domPanelTitle
+objectPanelTitle
 =
 this
 .
@@ -4195,9 +4209,9 @@ strings
 GetStringFromName
 (
 "
-dom
+object
 .
-domPanelTitle
+objectPanelTitle
 "
 )
 ;
@@ -4232,7 +4246,7 @@ PropertyPanel
 (
 parent
 document
-domPanelTitle
+objectPanelTitle
 {
 }
 )
