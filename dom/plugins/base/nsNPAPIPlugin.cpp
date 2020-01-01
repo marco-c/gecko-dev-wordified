@@ -2900,7 +2900,7 @@ pstream
 ndata
 )
 return
-NPERR_INVALID_PARAM
+NS_ERROR_NULL_POINTER
 ;
 nsNPAPIStreamWrapper
 *
@@ -2936,7 +2936,7 @@ listener
 )
 {
 return
-NPERR_GENERIC_ERROR
+NS_ERROR_NULL_POINTER
 ;
 }
 nsIStreamListener
@@ -2957,7 +2957,7 @@ streamListener
 )
 {
 return
-NPERR_GENERIC_ERROR
+NS_ERROR_NULL_POINTER
 ;
 }
 *
