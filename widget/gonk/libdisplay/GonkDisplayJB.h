@@ -225,6 +225,13 @@ GetHWCDevice
 )
 ;
 virtual
+void
+*
+GetFBSurface
+(
+)
+;
+virtual
 bool
 SwapBuffers
 (
