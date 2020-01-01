@@ -605,12 +605,6 @@ isOOLNativeGetter
 const
 ;
 bool
-isOOLPropertyOp
-(
-)
-const
-;
-bool
 isDOMExit
 (
 )
