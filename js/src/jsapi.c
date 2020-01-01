@@ -4178,6 +4178,17 @@ rt
 goto
 bad
 ;
+if
+(
+!
+js_InitDeflatedStringCache
+(
+rt
+)
+)
+goto
+bad
+;
 #
 ifdef
 JS_THREADSAFE

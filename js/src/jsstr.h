@@ -3096,6 +3096,15 @@ JSContext
 cx
 )
 ;
+extern
+JSBool
+js_InitDeflatedStringCache
+(
+JSRuntime
+*
+rt
+)
+;
 /
 *
 *
