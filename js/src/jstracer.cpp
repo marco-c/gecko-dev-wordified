@@ -11457,6 +11457,14 @@ exit
 .
 numStackSlotsBelowCurrentFrame
 =
+cx
+-
+>
+fp
+-
+>
+callee
+?
 nativeStackOffset
 (
 &
@@ -11477,6 +11485,8 @@ sizeof
 (
 double
 )
+:
+0
 ;
 exit
 .
