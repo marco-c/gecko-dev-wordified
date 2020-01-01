@@ -1281,7 +1281,7 @@ write_pieces
 .
 append
 (
-arg
+part
 [
 0
 :
