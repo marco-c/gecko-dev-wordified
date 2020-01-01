@@ -71,6 +71,9 @@ false
 eqeqeq
 :
 true
+es5
+:
+true
 forin
 :
 true
