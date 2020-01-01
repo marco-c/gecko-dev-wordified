@@ -630,6 +630,11 @@ findHelperShow
 {
 if
 (
+StartUI
+.
+isVisible
+|
+|
 this
 .
 _open
