@@ -441,6 +441,17 @@ spec
 .
 SecretKeySpec
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+sync
+.
+Utils
+;
 /
 *
 *

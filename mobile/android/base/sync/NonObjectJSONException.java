@@ -405,7 +405,7 @@ public
 class
 NonObjectJSONException
 extends
-Exception
+UnexpectedJSONException
 {
 private
 static
@@ -413,10 +413,7 @@ final
 long
 serialVersionUID
 =
-435366246452253073L
-;
-Object
-obj
+2214238763035650087L
 ;
 public
 NonObjectJSONException
@@ -425,9 +422,10 @@ Object
 object
 )
 {
-obj
-=
+super
+(
 object
+)
 ;
 }
 }

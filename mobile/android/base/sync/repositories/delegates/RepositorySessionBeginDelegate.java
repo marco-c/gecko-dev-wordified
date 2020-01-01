@@ -406,6 +406,15 @@ repositories
 delegates
 ;
 import
+java
+.
+util
+.
+concurrent
+.
+ExecutorService
+;
+import
 org
 .
 mozilla
@@ -492,6 +501,8 @@ public
 RepositorySessionBeginDelegate
 deferredBeginDelegate
 (
+ExecutorService
+executor
 )
 ;
 }

@@ -405,6 +405,15 @@ repositories
 .
 delegates
 ;
+import
+java
+.
+util
+.
+concurrent
+.
+ExecutorService
+;
 public
 interface
 RepositorySessionWipeDelegate
@@ -427,6 +436,8 @@ public
 RepositorySessionWipeDelegate
 deferredWipeDelegate
 (
+ExecutorService
+executor
 )
 ;
 }

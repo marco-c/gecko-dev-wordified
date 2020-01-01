@@ -443,6 +443,14 @@ SynchronizerSession
 synchronizerSession
 )
 ;
+public
+void
+onSynchronizeSkipped
+(
+SynchronizerSession
+synchronizerSession
+)
+;
 /
 /
 TODO
