@@ -114,7 +114,7 @@ PACKAGE_VERSION
 '
 1
 .
-6
+7
 '
 deps
 =
@@ -322,7 +322,7 @@ tools
 /
 Projects
 /
-MozBase
+Mozbase
 '
       
 license
