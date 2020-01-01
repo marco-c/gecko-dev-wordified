@@ -378,6 +378,7 @@ function
 (
 a
 )
+{
 onTransferComplete
 (
 aWindow
@@ -386,6 +387,15 @@ destFile
 destDir
 )
 ;
+mockTransferCallback
+=
+function
+(
+)
+{
+}
+;
+}
 /
 /
 Select
