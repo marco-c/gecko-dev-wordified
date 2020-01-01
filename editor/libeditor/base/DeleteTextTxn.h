@@ -109,13 +109,6 @@ h
 #
 include
 "
-nsIEditor
-.
-h
-"
-#
-include
-"
 nsIDOMCharacterData
 .
 h
@@ -127,6 +120,9 @@ nsCOMPtr
 .
 h
 "
+class
+nsEditor
+;
 class
 nsRangeUpdater
 ;
@@ -212,12 +208,12 @@ bytes
 NS_IMETHOD
 Init
 (
-nsIEditor
+nsEditor
 *
 aEditor
 nsIDOMCharacterData
 *
-aElement
+aCharData
 PRUint32
 aOffset
 PRUint32
@@ -279,7 +275,7 @@ editing
 operations
 *
 /
-nsIEditor
+nsEditor
 *
 mEditor
 ;
@@ -287,8 +283,8 @@ mEditor
 *
 *
 the
-text
-element
+CharacterData
+node
 to
 operate
 upon
@@ -298,7 +294,7 @@ nsCOMPtr
 <
 nsIDOMCharacterData
 >
-mElement
+mCharData
 ;
 /
 *
@@ -306,7 +302,7 @@ mElement
 the
 offset
 into
-mElement
+mCharData
 where
 the
 deletion

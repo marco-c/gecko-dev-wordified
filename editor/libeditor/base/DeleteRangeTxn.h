@@ -123,7 +123,7 @@ h
 #
 include
 "
-nsIEditor
+nsEditor
 .
 h
 "
@@ -136,9 +136,6 @@ h
 "
 class
 nsIDOMRange
-;
-class
-nsIEditor
 ;
 class
 nsRangeUpdater
@@ -196,7 +193,7 @@ delete
 NS_IMETHOD
 Init
 (
-nsIEditor
+nsEditor
 *
 aEditor
 nsIDOMRange
@@ -372,7 +369,7 @@ this
 transaction
 *
 /
-nsIEditor
+nsEditor
 *
 mEditor
 ;
