@@ -351,7 +351,7 @@ mFileURL
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mTempFile
 ;
