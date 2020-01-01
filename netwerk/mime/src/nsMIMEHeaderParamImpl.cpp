@@ -1434,7 +1434,7 @@ like
 filename
 '
 without
-sepcifying
+specifying
 disposition
 /
 /

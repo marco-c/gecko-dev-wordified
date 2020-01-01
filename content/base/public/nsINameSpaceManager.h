@@ -601,7 +601,7 @@ Space
 Manager
 tracks
 the
-associtation
+association
 between
 a
 NameSpace

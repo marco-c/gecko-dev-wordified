@@ -1571,7 +1571,7 @@ that
 determination
 make
 a
-judgement
+judgment
 about
 type
 .
