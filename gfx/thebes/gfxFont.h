@@ -1313,11 +1313,6 @@ const
 nsAString
 &
 aName
-gfxFontFamily
-*
-aFamily
-=
-nullptr
 bool
 aIsStandardFace
 =
