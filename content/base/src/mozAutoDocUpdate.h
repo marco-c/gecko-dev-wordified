@@ -166,7 +166,7 @@ notifications
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 mozAutoDocUpdate
 {
 public
@@ -387,7 +387,7 @@ bug
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 mozAutoDocConditionalContentUpdateBatch
 {
 public

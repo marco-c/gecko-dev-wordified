@@ -7255,6 +7255,7 @@ attributes
 namespace
 {
 class
+MOZ_STACK_CLASS
 MappedAttrParser
 {
 public

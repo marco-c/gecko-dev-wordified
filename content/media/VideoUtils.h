@@ -294,7 +294,7 @@ Enter
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 ReentrantMonitorAutoExit
 {
 public
@@ -500,7 +500,7 @@ threads
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 ReentrantMonitorConditionallyEnter
 {
 public

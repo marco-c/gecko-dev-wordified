@@ -14099,7 +14099,7 @@ clazz
 )
 )
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsCxPusher
 {
 public
@@ -14322,7 +14322,7 @@ endif
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoScriptBlocker
 {
 public
@@ -14361,7 +14361,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoScriptBlockerSuppressNodeRemoved
 :
 public
@@ -14407,7 +14407,7 @@ endif
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoMicroTask
 {
 public
@@ -14492,7 +14492,7 @@ stack
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 AutoJSContext
 {
 public
@@ -14623,7 +14623,7 @@ GetCurrentJSContext
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 SafeAutoJSContext
 :
 public
@@ -14780,7 +14780,7 @@ doing
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 AutoPushJSContext
 {
 nsCxPusher

@@ -14874,7 +14874,7 @@ deleted
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 mozAutoSubtreeModified
 {
 public
@@ -15019,7 +15019,7 @@ mSubtreeOwner
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoSyncOperation
 {
 public

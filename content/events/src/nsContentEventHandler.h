@@ -214,7 +214,7 @@ contents
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsContentEventHandler
 {
 public
