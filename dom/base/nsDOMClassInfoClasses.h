@@ -1884,6 +1884,10 @@ DOMCI_CLASS
 (
 MozSmsEvent
 )
+DOMCI_CLASS
+(
+MozSmsRequest
+)
 /
 /
 font
