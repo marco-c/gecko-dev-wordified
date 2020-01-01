@@ -926,7 +926,7 @@ NS_LITERAL_STRING
 /
 sdcard
 /
-Pictures
+DCIM
 "
 )
 false
