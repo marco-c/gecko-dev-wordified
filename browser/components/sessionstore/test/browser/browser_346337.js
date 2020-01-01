@@ -1386,9 +1386,7 @@ if
 (
 tabbrowser
 .
-tabContainer
-.
-childNodes
+tabs
 .
 length
 =

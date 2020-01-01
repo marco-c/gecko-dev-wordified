@@ -741,9 +741,7 @@ if
 (
 gBrowser
 .
-tabContainer
-.
-childNodes
+tabs
 .
 length
 =

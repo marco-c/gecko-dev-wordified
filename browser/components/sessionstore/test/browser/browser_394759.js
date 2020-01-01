@@ -993,9 +993,7 @@ newWin2
 .
 gBrowser
 .
-tabContainer
-.
-childNodes
+tabs
 .
 length
 2

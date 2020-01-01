@@ -676,9 +676,7 @@ is
 (
 gBrowser
 .
-tabContainer
-.
-childNodes
+tabs
 .
 length
 1

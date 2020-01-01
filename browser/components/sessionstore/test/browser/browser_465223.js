@@ -688,9 +688,7 @@ newWin
 .
 gBrowser
 .
-tabContainer
-.
-childNodes
+tabs
 .
 length
 2
@@ -784,9 +782,7 @@ newWin
 .
 gBrowser
 .
-tabContainer
-.
-childNodes
+tabs
 .
 length
 1
