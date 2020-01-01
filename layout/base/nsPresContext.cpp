@@ -6413,7 +6413,7 @@ nsRootPresContext
 nsPresContext
 :
 :
-RootPresContext
+GetRootPresContext
 (
 )
 {
@@ -6493,6 +6493,13 @@ continue
 }
 }
 return
+pc
+-
+>
+IsRoot
+(
+)
+?
 static_cast
 <
 nsRootPresContext
@@ -6501,6 +6508,8 @@ nsRootPresContext
 (
 pc
 )
+:
+nsnull
 ;
 }
 }
