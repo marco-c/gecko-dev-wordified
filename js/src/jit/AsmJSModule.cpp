@@ -217,7 +217,7 @@ dataPointer
 ;
 JS_ASSERT
 (
-IsPowerOfTwo
+IsValidAsmJSHeapLength
 (
 heap
 -
