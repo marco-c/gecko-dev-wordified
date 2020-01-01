@@ -18263,7 +18263,7 @@ finally
 ;
 }
 {
-uint32
+jsint
 low
 =
 GET_JUMP_OFFSET
@@ -18276,7 +18276,7 @@ pc
 =
 JUMP_OFFSET_LEN
 ;
-uint32
+jsint
 high
 =
 GET_JUMP_OFFSET
