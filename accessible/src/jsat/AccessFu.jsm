@@ -4560,7 +4560,7 @@ this
 moveToPoint
 (
 '
-SimpleTouch
+Simple
 '
 aGesture
 .
