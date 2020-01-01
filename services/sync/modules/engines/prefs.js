@@ -1398,7 +1398,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Received
@@ -1709,7 +1709,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Preference

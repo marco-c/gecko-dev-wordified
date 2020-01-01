@@ -1115,7 +1115,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Caching
@@ -1147,7 +1147,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Clearing
