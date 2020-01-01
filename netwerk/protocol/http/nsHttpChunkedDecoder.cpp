@@ -1357,6 +1357,10 @@ mTrailers
 new
 nsHttpHeaderArray
 (
+nsHttpHeaderArray
+:
+:
+HTTP_RESPONSE_HEADERS
 )
 ;
 if
