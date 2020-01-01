@@ -2991,8 +2991,14 @@ DefineInterface
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 global
 jsid
 id
