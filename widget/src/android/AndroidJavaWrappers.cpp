@@ -1358,6 +1358,7 @@ nio
 /
 ByteBuffer
 ;
+I
 )
 V
 "
@@ -2643,6 +2644,8 @@ Draw2D
 (
 jobject
 buffer
+int
+stride
 )
 {
 JNI
@@ -2655,6 +2658,7 @@ CallVoidMethod
 wrapped_obj
 jDraw2DMethod
 buffer
+stride
 )
 ;
 }

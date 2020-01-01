@@ -942,6 +942,8 @@ Draw2D
 (
 jobject
 buffer
+int
+stride
 )
 ;
 /
