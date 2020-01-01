@@ -443,6 +443,13 @@ nsIDOMDocument
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 /
 /
 -
@@ -923,6 +930,9 @@ mPresShell
 EndObservingDocument
 (
 )
+;
+nsAutoScriptBlocker
+scriptBlocker
 ;
 mPresShell
 -

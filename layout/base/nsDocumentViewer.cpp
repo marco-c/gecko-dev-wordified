@@ -24847,6 +24847,9 @@ RemoveSelectionListener
 mSelectionListener
 )
 ;
+nsAutoScriptBlocker
+scriptBlocker
+;
 mPresShell
 -
 >
