@@ -775,6 +775,13 @@ nsGUIEvent
 .
 h
 "
+#
+include
+"
+nsUnicharUtils
+.
+h
+"
 /
 /
 Concrete
@@ -10158,6 +10165,9 @@ NS_LITERAL_STRING
 clsid
 :
 "
+)
+nsCaseInsensitiveStringComparator
+(
 )
 )
 )
