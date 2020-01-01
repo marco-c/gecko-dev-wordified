@@ -2878,8 +2878,9 @@ BookmarksMenu
 BookmarksToolbar
 *
 UnfiledBookmarks
-and
 Tags
+and
+Downloads
 .
 *
 /
