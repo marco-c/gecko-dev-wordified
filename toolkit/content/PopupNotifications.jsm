@@ -2224,6 +2224,16 @@ return
 true
 ;
 }
+this
+.
+_fireCallback
+(
+notification
+"
+removed
+"
+)
+;
 return
 false
 ;
