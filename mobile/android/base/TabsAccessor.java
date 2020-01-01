@@ -137,6 +137,13 @@ Uri
 import
 android
 .
+os
+.
+Handler
+;
+import
+android
+.
 util
 .
 Log
@@ -390,6 +397,8 @@ context
 final
 OnQueryTabsCompleteListener
 listener
+Handler
+uiHandler
 )
 {
 getTabs
@@ -397,6 +406,7 @@ getTabs
 context
 0
 listener
+uiHandler
 )
 ;
 }
@@ -439,6 +449,8 @@ limit
 final
 OnQueryTabsCompleteListener
 listener
+Handler
+uiHandler
 )
 {
 /
@@ -475,9 +487,7 @@ RemoteTab
 >
 >
 (
-GeckoApp
-.
-mAppContext
+uiHandler
 GeckoAppShell
 .
 getHandler

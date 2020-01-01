@@ -731,9 +731,11 @@ task
 new
 LoadFaviconTask
 (
-GeckoApp
+GeckoAppShell
 .
-mAppContext
+getMainHandler
+(
+)
 GeckoAppShell
 .
 getHandler
@@ -1244,8 +1246,8 @@ mPersist
 public
 LoadFaviconTask
 (
-Activity
-activity
+Handler
+uiHandler
 Handler
 backgroundThreadHandler
 String
@@ -1260,7 +1262,7 @@ listener
 {
 super
 (
-activity
+uiHandler
 backgroundThreadHandler
 )
 ;
