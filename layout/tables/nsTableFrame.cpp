@@ -6813,12 +6813,6 @@ nsCSSRendering
 FindBackground
 (
 aFrame
--
->
-PresContext
-(
-)
-aFrame
 &
 bgSC
 )

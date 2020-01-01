@@ -1418,9 +1418,6 @@ static
 bool
 FindBackground
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aForFrame

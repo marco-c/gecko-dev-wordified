@@ -51530,7 +51530,6 @@ nsCSSRendering
 :
 FindBackground
 (
-aPresContext
 aFrame
 &
 bgSC
