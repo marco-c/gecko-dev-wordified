@@ -873,6 +873,7 @@ reason
 NPError
 NPP_SetWindow
 (
+const
 NPWindow
 *
 aWindow
