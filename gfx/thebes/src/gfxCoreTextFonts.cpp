@@ -7714,8 +7714,9 @@ next
 .
 if
 (
-baseCharIndex
+endCharIndex
 <
+=
 aLayoutStart
 |
 |
@@ -7758,6 +7759,14 @@ textRun
 '
 s
 text
+baseCharIndex
+=
+PR_MAX
+(
+baseCharIndex
+aLayoutStart
+)
+;
 endCharIndex
 =
 PR_MIN
