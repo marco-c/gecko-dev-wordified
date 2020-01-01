@@ -781,6 +781,11 @@ RemoveSleepWakeNotifcations
 (
 )
 ;
+void
+RegisterForAllProcessMouseEvents
+(
+)
+;
 protected
 :
 bool
