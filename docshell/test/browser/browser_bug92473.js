@@ -342,7 +342,7 @@ to
 Shift_JIS
 *
 /
-SetForcedCharset
+BrowserSetForcedCharacterSet
 (
 "
 Shift_JIS
