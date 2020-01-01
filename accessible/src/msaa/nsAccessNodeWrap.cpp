@@ -1169,7 +1169,11 @@ aInstancePtr
 )
 {
 return
-NS_OK
+QueryInterface
+(
+aIID
+aInstancePtr
+)
 ;
 }
 /
