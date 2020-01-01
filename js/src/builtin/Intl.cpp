@@ -1179,7 +1179,7 @@ names
 (
 )
 .
-CollatorCompare
+CollatorCompareGet
 &
 getter
 )
@@ -2198,7 +2198,7 @@ names
 (
 )
 .
-NumberFormatFormat
+NumberFormatFormatGet
 &
 getter
 )
@@ -3217,7 +3217,7 @@ names
 (
 )
 .
-DateTimeFormatFormat
+DateTimeFormatFormatGet
 &
 getter
 )
