@@ -660,7 +660,7 @@ lirbuf
 >
 sp
 retOffset
-ACCSET_STACK
+ACC_STACK
 )
 ;
 }
@@ -872,7 +872,7 @@ tree
 -
 >
 nativeStackBase
-ACCSET_STACK
+ACC_STACK
 )
 ;
 lirbuf
@@ -926,7 +926,7 @@ offsetof
 TracerState
 sp
 )
-ACCSET_OTHER
+ACC_OTHER
 )
 ;
 lirbuf
@@ -979,7 +979,7 @@ offsetof
 TracerState
 rp
 )
-ACCSET_OTHER
+ACC_OTHER
 )
 ;
 }
@@ -2512,7 +2512,7 @@ offsetof
 TracerState
 sor
 )
-ACCSET_OTHER
+ACC_OTHER
 )
 INS_CONSTWORD
 (
@@ -2609,7 +2609,7 @@ FrameInfo
 *
 )
 )
-ACCSET_RSTACK
+ACC_RSTACK
 )
 ;
 guard
@@ -3306,7 +3306,7 @@ offsetof
 JSContext
 fp
 )
-ACCSET_OTHER
+ACC_OTHER
 )
 "
 fp
@@ -3398,7 +3398,7 @@ offsetof
 JSStackFrame
 down
 )
-ACCSET_OTHER
+ACC_OTHER
 )
 "
 downFp
@@ -3425,7 +3425,7 @@ offsetof
 JSStackFrame
 argv
 )
-ACCSET_OTHER
+ACC_OTHER
 )
 "
 argv
@@ -3602,7 +3602,7 @@ offsetof
 JSStackFrame
 script
 )
-ACCSET_OTHER
+ACC_OTHER
 )
 "
 script
@@ -3666,7 +3666,7 @@ offsetof
 JSStackFrame
 savedPC
 )
-ACCSET_OTHER
+ACC_OTHER
 )
 "
 savedPC
@@ -3720,7 +3720,7 @@ offsetof
 JSStackFrame
 argc
 )
-ACCSET_OTHER
+ACC_OTHER
 )
 "
 argc
@@ -3848,7 +3848,7 @@ offsetof
 JSStackFrame
 argv
 )
-ACCSET_OTHER
+ACC_OTHER
 )
 "
 argv
@@ -4590,7 +4590,7 @@ lirbuf
 >
 sp
 offset
-ACCSET_STACK
+ACC_STACK
 )
 ;
 }
@@ -4623,7 +4623,7 @@ lirbuf
 >
 sp
 offset
-ACCSET_STACK
+ACC_STACK
 )
 ;
 break
@@ -4644,7 +4644,7 @@ lirbuf
 >
 sp
 offset
-ACCSET_STACK
+ACC_STACK
 )
 ;
 break
@@ -4674,7 +4674,7 @@ lirbuf
 >
 sp
 offset
-ACCSET_STACK
+ACC_STACK
 )
 ;
 break
@@ -5939,7 +5939,7 @@ offsetof
 TracerState
 sp
 )
-ACCSET_OTHER
+ACC_OTHER
 )
 ;
 lirbuf
@@ -5988,7 +5988,7 @@ offsetof
 TracerState
 rp
 )
-ACCSET_OTHER
+ACC_OTHER
 )
 ;
 -
@@ -6227,7 +6227,7 @@ addr_ins
 offset
 +
 sTagOffset
-ACCSET_OTHER
+ACC_OTHER
 )
 ;
 return
@@ -6237,7 +6237,7 @@ addr_ins
 offset
 tag_ins
 exit
-ACCSET_OTHER
+ACC_OTHER
 )
 ;
 }
@@ -6275,7 +6275,7 @@ addr_ins
 offset
 +
 sTagOffset
-ACCSET_OTHER
+ACC_OTHER
 )
 ;
 return
@@ -6286,7 +6286,7 @@ offset
 tag_ins
 type
 exit
-ACCSET_OTHER
+ACC_OTHER
 )
 ;
 }
@@ -6325,7 +6325,7 @@ addr_ins
 offset
 +
 sTagOffset
-ACCSET_OTHER
+ACC_OTHER
 )
 ;
 return
@@ -6336,7 +6336,7 @@ offset
 tag_ins
 type
 exit
-ACCSET_OTHER
+ACC_OTHER
 )
 ;
 }
@@ -6377,7 +6377,7 @@ insLoad
 LIR_ldq
 addr_ins
 offset
-ACCSET_OTHER
+ACC_OTHER
 )
 ;
 return
@@ -6420,7 +6420,7 @@ insLoad
 LIR_ldq
 addr_ins
 offset
-ACCSET_OTHER
+ACC_OTHER
 )
 ;
 return
@@ -6465,7 +6465,7 @@ insLoad
 LIR_ldq
 addr_ins
 offset
-ACCSET_OTHER
+ACC_OTHER
 )
 ;
 return
@@ -6758,7 +6758,7 @@ sizeof
 (
 double
 )
-ACCSET_STACK
+ACC_STACK
 )
 ;
 info
@@ -6936,7 +6936,7 @@ insLoad
 LIR_ldp
 addr_ins
 offset
-ACCSET_OTHER
+ACC_OTHER
 )
 ;
 LIns
@@ -7029,7 +7029,7 @@ sizeof
 (
 double
 )
-ACCSET_STACK
+ACC_STACK
 )
 ;
 info

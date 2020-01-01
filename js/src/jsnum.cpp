@@ -1701,7 +1701,7 @@ STRING
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 (
@@ -1715,7 +1715,7 @@ DOUBLE
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 )
@@ -1734,7 +1734,7 @@ STRING
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 )
@@ -3704,7 +3704,7 @@ THIS_DOUBLE
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 (
@@ -3720,7 +3720,7 @@ INT32
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 )
