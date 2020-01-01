@@ -2158,6 +2158,11 @@ length
 return
 true
 ;
+let
+count
+=
+0
+;
 for
 (
 let
@@ -2205,7 +2210,7 @@ uri
 ;
 if
 (
-idx
+count
 >
 =
 this
@@ -2254,7 +2259,7 @@ uri
 -
 1
 )
-return
+continue
 ;
 items
 .
@@ -2263,6 +2268,10 @@ appendElement
 shortcut
 false
 )
+;
+count
++
++
 ;
 }
 return
