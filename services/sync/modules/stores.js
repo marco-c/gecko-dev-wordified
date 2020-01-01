@@ -744,7 +744,7 @@ if
 !
 this
 .
-itemExists
+_itemExists
 (
 record
 .
