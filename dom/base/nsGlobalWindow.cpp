@@ -762,7 +762,7 @@ h
 #
 include
 "
-nsICanvasFrame
+nsCanvasFrame
 .
 h
 "
@@ -37920,7 +37920,7 @@ PR_FALSE
 /
 Find
 an
-nsICanvasFrame
+nsCanvasFrame
 under
 aFrame
 .
@@ -37941,7 +37941,7 @@ non
 null
 .
 static
-nsICanvasFrame
+nsCanvasFrame
 *
 FindCanvasFrame
 (
@@ -37950,7 +37950,7 @@ nsIFrame
 aFrame
 )
 {
-nsICanvasFrame
+nsCanvasFrame
 *
 canvasFrame
 =
@@ -38265,7 +38265,7 @@ GetParent
 (
 )
 ;
-nsICanvasFrame
+nsCanvasFrame
 *
 canvasFrame
 =
@@ -38324,7 +38324,7 @@ if
 frame
 )
 {
-nsICanvasFrame
+nsCanvasFrame
 *
 canvasFrame
 =

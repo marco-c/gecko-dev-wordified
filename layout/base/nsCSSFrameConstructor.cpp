@@ -17531,7 +17531,7 @@ fixed
 cb
 ]
 nsHTMLScrollFrame
-CanvasFrame
+nsCanvasFrame
 [
 abs
 -
@@ -17568,7 +17568,7 @@ fixed
 -
 cb
 ]
-CanvasFrame
+nsCanvasFrame
 [
 abs
 -
@@ -17610,7 +17610,7 @@ fixed
 cb
 ]
 nsPageContentFrame
-CanvasFrame
+nsCanvasFrame
 [
 abs
 -
@@ -17642,7 +17642,7 @@ fixed
 cb
 ]
 nsPageContentFrame
-CanvasFrame
+nsCanvasFrame
 [
 abs
 -
@@ -17731,7 +17731,7 @@ i
 .
 e
 .
-CanvasFrame
+nsCanvasFrame
 or
 nsRootBoxFrame
 )
