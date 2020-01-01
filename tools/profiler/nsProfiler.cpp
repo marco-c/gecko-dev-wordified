@@ -512,13 +512,6 @@ char
 aFeatures
 uint32_t
 aFeatureCount
-const
-char
-*
-*
-aThreadNameFilters
-uint32_t
-aFilterCount
 )
 {
 if
@@ -536,8 +529,6 @@ aEntries
 aInterval
 aFeatures
 aFeatureCount
-aThreadNameFilters
-aFilterCount
 )
 ;
 #
