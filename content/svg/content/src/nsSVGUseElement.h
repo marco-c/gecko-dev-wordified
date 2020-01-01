@@ -711,6 +711,14 @@ aDoSetAttr
 ;
 virtual
 void
+DidAnimateLength
+(
+PRUint8
+aAttrEnum
+)
+;
+virtual
+void
 DidChangeString
 (
 PRUint8
@@ -848,6 +856,11 @@ GetLengthInfo
 virtual
 StringAttributesInfo
 GetStringInfo
+(
+)
+;
+PRBool
+HasValidDimensions
 (
 )
 ;
