@@ -1446,7 +1446,7 @@ dom
 .
 ipc
 .
-processPrelauch
+processPrelaunch
 .
 enabled
 "
@@ -1476,7 +1476,7 @@ dom
 .
 ipc
 .
-processPrelauch
+processPrelaunch
 .
 delayMs
 "
