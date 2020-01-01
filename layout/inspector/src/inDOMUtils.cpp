@@ -1464,15 +1464,9 @@ do_QueryInterface
 aElement
 )
 ;
-NS_ASSERTION
+NS_ENSURE_ARG_POINTER
 (
 content
-"
-elements
-must
-implement
-nsIContent
-"
 )
 ;
 nsIDocument
