@@ -723,7 +723,6 @@ return
 PR_TRUE
 ;
 }
-inline
 void
 MakeContextCurrent
 (
@@ -1844,12 +1843,13 @@ nsAutoArrayPtr
 jsval
 >
 jsvector
-=
+(
 new
 jsval
 [
 len
 ]
+)
 ;
 for
 (
@@ -1918,12 +1918,13 @@ nsAutoArrayPtr
 jsval
 >
 jsvector
-=
+(
 new
 jsval
 [
 len
 ]
+)
 ;
 if
 (
