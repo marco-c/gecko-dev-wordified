@@ -1318,6 +1318,13 @@ false
 ;
 if
 (
+gHistorySwipeAnimation
+.
+active
+)
+{
+if
+(
 aEvent
 .
 direction
@@ -1398,6 +1405,7 @@ content
 scrollMaxY
 )
 ;
+}
 }
 gHistorySwipeAnimation
 .
