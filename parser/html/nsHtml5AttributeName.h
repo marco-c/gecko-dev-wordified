@@ -1420,6 +1420,11 @@ ATTR_PROMPT
 static
 nsHtml5AttributeName
 *
+ATTR_SRCDOC
+;
+static
+nsHtml5AttributeName
+*
 ATTR_SCOPED
 ;
 static
