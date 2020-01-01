@@ -1326,15 +1326,6 @@ nullptr
 )
 ;
 }
-JSAObjectBuilder
-:
-:
-~
-JSAObjectBuilder
-(
-)
-{
-}
 JSCustomObjectBuilder
 :
 :
