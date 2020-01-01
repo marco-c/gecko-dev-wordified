@@ -5163,7 +5163,6 @@ jsdval
 JSD_PUBLIC_API
 (
 jsdouble
-*
 )
 JSD_GetValueDouble
 (

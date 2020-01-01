@@ -1292,7 +1292,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 )
 {
@@ -2052,7 +2052,7 @@ nsnull
 )
 mResolveName
 (
-0
+JSID_VOID
 )
 mResolvingWrapper
 (

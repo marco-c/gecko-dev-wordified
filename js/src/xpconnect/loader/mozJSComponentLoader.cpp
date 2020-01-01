@@ -9154,7 +9154,6 @@ retval
 ;
 if
 (
-*
 retval
 )
 *

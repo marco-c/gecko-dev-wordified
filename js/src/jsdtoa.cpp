@@ -510,6 +510,13 @@ jscntxt
 h
 "
 #
+include
+"
+jsobjinlines
+.
+h
+"
+#
 ifdef
 IS_LITTLE_ENDIAN
 #

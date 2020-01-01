@@ -1505,7 +1505,6 @@ varDest
 >
 dblVal
 =
-*
 JSVAL_TO_DOUBLE
 (
 src

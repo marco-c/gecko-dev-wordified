@@ -1973,7 +1973,6 @@ SetFromDouble
 (
 &
 mData
-*
 JSVAL_TO_DOUBLE
 (
 mJSVal

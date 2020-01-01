@@ -512,7 +512,10 @@ JSObject
 wrapper
 jsid
 id
-JSPropertyDescriptor
+js
+:
+:
+PropertyDescriptor
 *
 desc
 )
@@ -529,7 +532,10 @@ JSObject
 wrapper
 jsid
 id
-JSPropertyDescriptor
+js
+:
+:
+PropertyDescriptor
 *
 desc
 )

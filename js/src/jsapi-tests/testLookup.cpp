@@ -304,7 +304,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 uintN
 flags

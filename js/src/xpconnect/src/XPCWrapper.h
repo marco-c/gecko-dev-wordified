@@ -1127,8 +1127,8 @@ AllowedToAct
 JSContext
 *
 cx
-jsval
-idval
+jsid
+id
 )
 ;
 JSBool
@@ -1137,8 +1137,8 @@ CheckFilename
 JSContext
 *
 cx
-jsval
-idval
+jsid
+id
 JSStackFrame
 *
 fp
@@ -1942,7 +1942,7 @@ clasp
 wrapper
 -
 >
-getClass
+getJSClass
 (
 )
 ;
@@ -2097,7 +2097,7 @@ if
 wrapper
 -
 >
-getClass
+getJSClass
 (
 )
 !
@@ -2205,7 +2205,7 @@ SystemOnlyWrapper
 AllowedToAct
 (
 cx
-JSVAL_VOID
+JSID_VOID
 )
 )
 {
@@ -2770,7 +2770,7 @@ wantGetterSetter
 JSObject
 *
 innerObj
-jsval
+jsid
 id
 jsval
 *
@@ -2804,7 +2804,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -2937,7 +2937,7 @@ preserveVal
 JSObject
 *
 innerObj
-jsval
+jsid
 id
 uintN
 flags
@@ -3009,7 +3009,7 @@ innerObj
 XPCWrappedNative
 *
 wn
-jsval
+jsid
 id
 uintN
 flags
@@ -3075,7 +3075,7 @@ obj
 XPCWrappedNative
 *
 wrappedNative
-jsval
+jsid
 id
 jsval
 *

@@ -1209,7 +1209,7 @@ PRUint32
 mInstanceCount
 ;
 static
-jsval
+jsid
 sAddListenerID
 ;
 friend

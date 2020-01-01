@@ -2491,10 +2491,13 @@ sp
 =
 stackbase
 =
+Jsvalify
+(
 args
 .
 getvp
 (
+)
 )
 ;
 /
@@ -2785,7 +2788,10 @@ fval
 {
 success
 =
-js_Invoke
+js
+:
+:
+InvokeFriendAPI
 (
 cx
 args

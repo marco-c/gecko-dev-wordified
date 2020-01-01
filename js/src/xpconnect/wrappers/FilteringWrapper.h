@@ -486,7 +486,7 @@ wrapper
 js
 :
 :
-AutoValueVector
+AutoIdVector
 &
 props
 )
@@ -504,7 +504,7 @@ wrapper
 js
 :
 :
-AutoValueVector
+AutoIdVector
 &
 props
 )
@@ -522,7 +522,7 @@ wrapper
 js
 :
 :
-AutoValueVector
+AutoIdVector
 &
 props
 )
@@ -539,7 +539,10 @@ JSObject
 proxy
 uintN
 flags
-jsval
+js
+:
+:
+Value
 *
 vp
 )

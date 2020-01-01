@@ -5745,7 +5745,6 @@ jsdval
 ;
 extern
 jsdouble
-*
 jsd_GetValueDouble
 (
 JSDContext

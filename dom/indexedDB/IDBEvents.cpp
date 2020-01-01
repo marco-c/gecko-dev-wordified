@@ -2622,7 +2622,7 @@ jsonValue
 aCx
 value
 .
-addr
+jsval_addr
 (
 )
 )
@@ -2663,7 +2663,7 @@ array
 index
 value
 .
-addr
+jsval_addr
 (
 )
 )
@@ -2987,7 +2987,7 @@ key
 aCx
 value
 .
-addr
+jsval_addr
 (
 )
 )
@@ -3031,7 +3031,7 @@ array
 index
 value
 .
-addr
+jsval_addr
 (
 )
 )

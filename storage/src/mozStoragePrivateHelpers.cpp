@@ -997,7 +997,6 @@ return
 new
 FloatVariant
 (
-*
 JSVAL_TO_DOUBLE
 (
 aValue

@@ -680,7 +680,7 @@ aObj
 nsIClassInfo
 *
 aClassInfo
-jsval
+jsid
 aName
 void
 *
@@ -718,7 +718,7 @@ aCx
 JSObject
 *
 aObj
-jsval
+jsid
 aId
 JSAccessMode
 aMode

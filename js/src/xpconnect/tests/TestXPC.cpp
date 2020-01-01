@@ -1754,7 +1754,7 @@ in
 nsIClassInfo
 aClassInfo
 in
-jsval
+jsid
 aName
 inout
 voidPtr
@@ -1786,7 +1786,7 @@ aObj
 nsIClassInfo
 *
 aClassInfo
-jsval
+jsid
 aName
 void
 *

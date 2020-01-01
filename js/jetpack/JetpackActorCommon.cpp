@@ -1073,7 +1073,6 @@ from
 *
 to
 =
-*
 JSVAL_TO_DOUBLE
 (
 from
@@ -1749,7 +1748,7 @@ Tdouble
 return
 !
 !
-JS_NewDoubleValue
+JS_NewNumberValue
 (
 cx
 from
@@ -2172,7 +2171,7 @@ value
 )
 toSet
 .
-addr
+jsval_addr
 (
 )
 seen
@@ -2204,7 +2203,7 @@ Length
 )
 toSet
 .
-addr
+jsval_addr
 (
 )
 )
@@ -2816,7 +2815,7 @@ argc
 argv
 rval
 .
-addr
+jsval_addr
 (
 )
 )
@@ -2854,7 +2853,7 @@ jsval_to_Variant
 cx
 rval
 .
-value
+jsval_value
 (
 )
 vp

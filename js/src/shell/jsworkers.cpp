@@ -4227,7 +4227,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 uintN
 flags
@@ -5440,10 +5440,13 @@ getGlobal
 (
 )
 script
+Jsvalify
+(
 rval
 .
 addr
 (
+)
 )
 )
 ;
@@ -5645,7 +5648,10 @@ AutoValueRooter
 tvr
 (
 cx
+Valueify
+(
 exc
+)
 )
 ;
 JS_ClearPendingException

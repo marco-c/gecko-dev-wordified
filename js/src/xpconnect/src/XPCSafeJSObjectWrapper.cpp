@@ -508,7 +508,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -525,7 +525,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -542,7 +542,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -559,7 +559,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -588,7 +588,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 uintN
 flags
@@ -637,7 +637,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 JSAccessMode
 mode
@@ -716,7 +716,9 @@ cx
 JSObject
 *
 obj
+const
 jsval
+*
 v
 JSBool
 *
@@ -1188,7 +1190,7 @@ SystemOnlyWrapper
 CheckFilename
 (
 cx
-JSVAL_VOID
+JSID_VOID
 fp
 )
 )
@@ -1470,7 +1472,7 @@ while
 obj
 -
 >
-getClass
+getJSClass
 (
 )
 !
@@ -2572,7 +2574,7 @@ if
 safeObj
 -
 >
-getClass
+getJSClass
 (
 )
 =
@@ -2998,7 +3000,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -3027,7 +3029,7 @@ if
 id
 =
 =
-GetRTStringByIndex
+GetRTIdByIndex
 (
 cx
 XPCJSRuntime
@@ -3040,7 +3042,7 @@ IDX_CONSTRUCTOR
 id
 =
 =
-GetRTStringByIndex
+GetRTIdByIndex
 (
 cx
 XPCJSRuntime
@@ -3287,7 +3289,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -3564,6 +3566,8 @@ js_RestoreRegExpStatics
 cx
 &
 statics
+&
+tvr
 )
 ;
 nsIScriptSecurityManager
@@ -3605,7 +3609,7 @@ statics
 js
 :
 :
-AutoValueRooter
+AutoStringRooter
 tvr
 ;
 uint32
@@ -3627,7 +3631,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -3654,7 +3658,7 @@ if
 id
 =
 =
-GetRTStringByIndex
+GetRTIdByIndex
 (
 cx
 XPCJSRuntime
@@ -3802,25 +3806,6 @@ return
 JS_FALSE
 ;
 }
-jsid
-interned_id
-;
-if
-(
-!
-JS_ValueToId
-(
-cx
-id
-&
-interned_id
-)
-)
-{
-return
-JS_FALSE
-;
-}
 if
 (
 aIsSet
@@ -3867,7 +3852,7 @@ js_SetPropertyByIdWithFakeFrame
 cx
 unsafeObj
 scopeFun
-interned_id
+id
 vp
 )
 :
@@ -3876,7 +3861,7 @@ js_GetPropertyByIdWithFakeFrame
 cx
 unsafeObj
 scopeFun
-interned_id
+id
 vp
 )
 ;
@@ -3912,7 +3897,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -3940,7 +3925,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -4203,7 +4188,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 uintN
 flags
@@ -4317,7 +4302,7 @@ if
 id
 =
 =
-GetRTStringByIndex
+GetRTIdByIndex
 (
 cx
 XPCJSRuntime
@@ -4479,7 +4464,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 JSAccessMode
 mode
@@ -4649,7 +4634,7 @@ clazz
 unsafeObj
 -
 >
-getClass
+getJSClass
 (
 )
 ;
@@ -5803,8 +5788,10 @@ cx
 JSObject
 *
 obj
+const
 jsval
-v
+*
+valp
 JSBool
 *
 bp
@@ -5814,7 +5801,8 @@ if
 (
 JSVAL_IS_PRIMITIVE
 (
-v
+*
+valp
 )
 )
 {
@@ -5842,7 +5830,8 @@ other
 =
 JSVAL_TO_OBJECT
 (
-v
+*
+valp
 )
 ;
 JSObject
@@ -6172,14 +6161,11 @@ nsnull
 js
 :
 :
-AutoValueRooter
+AutoObjectRooter
 tvr
 (
 cx
-OBJECT_TO_JSVAL
-(
 wrapperIter
-)
 )
 ;
 /

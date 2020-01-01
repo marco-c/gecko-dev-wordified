@@ -611,7 +611,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -628,7 +628,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -645,7 +645,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -662,7 +662,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -737,7 +737,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 uintN
 flags
@@ -826,7 +826,9 @@ cx
 JSObject
 *
 obj
+const
 jsval
+*
 v
 JSBool
 *
@@ -843,7 +845,9 @@ cx
 JSObject
 *
 obj
+const
 jsval
+*
 v
 JSBool
 *

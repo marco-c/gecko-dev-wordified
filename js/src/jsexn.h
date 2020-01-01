@@ -439,9 +439,11 @@ jsexn_h___
 #
 define
 jsexn_h___
-JS_BEGIN_EXTERN_C
 extern
-JSClass
+js
+:
+:
+Class
 js_ErrorClass
 ;
 /
@@ -756,7 +758,6 @@ uintN
 errorNumber
 )
 ;
-JS_END_EXTERN_C
 #
 endif
 /

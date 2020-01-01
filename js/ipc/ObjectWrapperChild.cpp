@@ -1216,7 +1216,6 @@ from
 *
 to
 =
-*
 JSVAL_TO_DOUBLE
 (
 from
@@ -1307,7 +1306,7 @@ owc
 >
 mObj
 :
-JSVAL_NULL
+NULL
 ;
 return
 true
@@ -1537,7 +1536,7 @@ Tdouble
 return
 !
 !
-JS_NewDoubleValue
+JS_NewNumberValue
 (
 cx
 from
@@ -2509,7 +2508,7 @@ state
 return
 false
 ;
-AutoValueRooter
+AutoObjectRooter
 tvr
 (
 cx
@@ -2835,7 +2834,7 @@ v
 return
 false
 ;
-jsuint
+jsint
 i
 =
 JSVAL_TO_INT
@@ -2883,10 +2882,7 @@ large
 ;
 if
 (
-jsuint
-(
 i
-)
 =
 =
 strIds

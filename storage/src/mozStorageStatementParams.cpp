@@ -763,7 +763,7 @@ aCtx
 JSObject
 *
 aScopeObj
-jsval
+jsid
 aId
 jsval
 *
@@ -781,7 +781,7 @@ NS_ERROR_NOT_INITIALIZED
 ;
 if
 (
-JSVAL_IS_INT
+JSID_IS_INT
 (
 aId
 )
@@ -790,7 +790,7 @@ aId
 int
 idx
 =
-JSVAL_TO_INT
+JSID_TO_INT
 (
 aId
 )
@@ -837,7 +837,7 @@ rv
 else
 if
 (
-JSVAL_IS_STRING
+JSID_IS_STRING
 (
 aId
 )
@@ -847,7 +847,7 @@ JSString
 *
 str
 =
-JSVAL_TO_STRING
+JSID_TO_STRING
 (
 aId
 )
@@ -1021,7 +1021,7 @@ _idp
 *
 _idp
 =
-INT_TO_JSVAL
+INT_TO_JSID
 (
 mParamCount
 )
@@ -1262,7 +1262,7 @@ aCtx
 JSObject
 *
 aScopeObj
-jsval
+jsid
 aId
 PRUint32
 aFlags
@@ -1330,7 +1330,7 @@ PR_TRUE
 ;
 if
 (
-JSVAL_IS_INT
+JSID_IS_INT
 (
 aId
 )
@@ -1339,7 +1339,7 @@ aId
 PRUint32
 idx
 =
-JSVAL_TO_INT
+JSID_TO_INT
 (
 aId
 )
@@ -1401,7 +1401,7 @@ true
 else
 if
 (
-JSVAL_IS_STRING
+JSID_IS_STRING
 (
 aId
 )
@@ -1411,7 +1411,7 @@ JSString
 *
 str
 =
-JSVAL_TO_STRING
+JSID_TO_STRING
 (
 aId
 )

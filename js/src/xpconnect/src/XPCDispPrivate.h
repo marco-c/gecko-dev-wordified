@@ -4733,7 +4733,7 @@ the
 method
 as
 a
-jsval
+jsid
 *
 return
 the
@@ -4743,10 +4743,10 @@ the
 method
 as
 a
-jsval
+jsid
 *
 /
-jsval
+jsid
 GetName
 (
 )
@@ -4970,7 +4970,7 @@ assign
 void
 SetName
 (
-jsval
+jsid
 name
 )
 ;
@@ -5262,7 +5262,7 @@ mVal
 /
 /
 Mutable
-jsval
+jsid
 mName
 ;
 /
@@ -5473,7 +5473,7 @@ Member
 *
 FindMember
 (
-jsval
+jsid
 name
 )
 const
@@ -5534,7 +5534,7 @@ FindMemberCI
 XPCCallContext
 &
 ccx
-jsval
+jsid
 name
 )
 const
@@ -6860,8 +6860,8 @@ ccx
 JSObject
 *
 obj
-jsval
-idval
+jsid
+id
 XPCWrappedNative
 *
 wrapperToReflectInterfaceNames

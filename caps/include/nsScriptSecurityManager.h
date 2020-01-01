@@ -1079,15 +1079,14 @@ PropertyPolicy
 public
 PLDHashEntryHdr
 {
-jsval
+JSString
+*
 key
 ;
 /
 /
-property
-name
-as
-jsval
+interned
+string
 SecurityLevel
 mGet
 ;
@@ -1128,7 +1127,8 @@ pp
 key
 =
 (
-jsval
+JSString
+*
 )
 key
 ;
@@ -1181,7 +1181,7 @@ pp
 >
 key
 =
-JSVAL_VOID
+NULL
 ;
 }
 /
@@ -2087,7 +2087,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 JSAccessMode
 mode
@@ -2233,7 +2233,7 @@ const
 char
 *
 aClassName
-jsval
+jsid
 aProperty
 void
 *
@@ -2263,7 +2263,7 @@ principal
 ClassInfoData
 &
 aClassData
-jsval
+jsid
 aProperty
 PRUint32
 aAction
@@ -3261,7 +3261,7 @@ up
 on
 shutdown
 static
-jsval
+jsid
 sEnabledID
 ;
 inline

@@ -567,7 +567,7 @@ IsNativeWrapperClass
 obj
 -
 >
-getClass
+getJSClass
 (
 )
 )

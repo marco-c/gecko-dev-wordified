@@ -1221,7 +1221,7 @@ if
 member
 &
 &
-JSVAL_IS_STRING
+JSID_IS_STRING
 (
 member
 -
@@ -1236,7 +1236,7 @@ name
 =
 JS_GetStringBytes
 (
-JSVAL_TO_STRING
+JSID_TO_STRING
 (
 member
 -

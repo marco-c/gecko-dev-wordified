@@ -967,7 +967,7 @@ aCtx
 JSObject
 *
 aScopeObj
-jsval
+jsid
 aId
 jsval
 *
@@ -980,7 +980,7 @@ _retval
 if
 (
 !
-JSVAL_IS_STRING
+JSID_IS_STRING
 (
 aId
 )
@@ -1089,7 +1089,7 @@ propName
 :
 JS_GetStringBytes
 (
-JSVAL_TO_STRING
+JSID_TO_STRING
 (
 aId
 )

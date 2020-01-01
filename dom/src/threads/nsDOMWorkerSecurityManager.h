@@ -480,7 +480,7 @@ aCx
 JSObject
 *
 aObj
-jsval
+jsid
 aId
 JSAccessMode
 aMode

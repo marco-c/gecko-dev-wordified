@@ -2184,6 +2184,8 @@ chars
 xpc_JSString2PRUnichar
 (
 ccx
+JSVAL_TO_STRING
+(
 mIDArray
 -
 >
@@ -2191,6 +2193,7 @@ Item
 (
 ccx
 index
+)
 )
 )
 ;
