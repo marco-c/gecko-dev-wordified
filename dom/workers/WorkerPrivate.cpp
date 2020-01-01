@@ -6234,7 +6234,7 @@ aWorkerPrivate
 aWorkerPrivate
 -
 >
-UpdateJSWorkerMemoryParameter
+UpdateJSWorkerMemoryParameterInternal
 (
 aCx
 mKey
