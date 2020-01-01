@@ -4771,7 +4771,7 @@ if
 mTransactionInProgress
 )
 return
-NS_ERROR_FAILURE
+NS_ERROR_UNEXPECTED
 ;
 nsresult
 rv
@@ -4830,7 +4830,7 @@ if
 mTransactionInProgress
 )
 return
-NS_ERROR_FAILURE
+NS_ERROR_UNEXPECTED
 ;
 nsresult
 rv

@@ -1089,7 +1089,7 @@ do_check_eq
 (
 Cr
 .
-NS_ERROR_FAILURE
+NS_ERROR_UNEXPECTED
 e
 .
 result
@@ -1150,7 +1150,7 @@ do_check_eq
 (
 Cr
 .
-NS_ERROR_FAILURE
+NS_ERROR_UNEXPECTED
 e
 .
 result
