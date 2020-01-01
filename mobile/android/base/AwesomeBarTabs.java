@@ -792,8 +792,6 @@ abstract
 void
 onUrlOpen
 (
-AwesomeBarTabs
-tabs
 String
 url
 )
@@ -3932,7 +3930,6 @@ mUrlOpenListener
 .
 onUrlOpen
 (
-this
 url
 )
 ;
@@ -3988,7 +3985,6 @@ mUrlOpenListener
 .
 onUrlOpen
 (
-this
 url
 )
 ;

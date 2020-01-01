@@ -707,8 +707,6 @@ public
 void
 onUrlOpen
 (
-AwesomeBarTabs
-tabs
 String
 url
 )
