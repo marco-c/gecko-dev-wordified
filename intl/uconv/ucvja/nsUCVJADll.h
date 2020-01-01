@@ -484,13 +484,6 @@ g_uf0208extMapping
 [
 ]
 ;
-extern
-const
-PRUint16
-g_uf0212Mapping
-[
-]
-;
 #
 endif
 /

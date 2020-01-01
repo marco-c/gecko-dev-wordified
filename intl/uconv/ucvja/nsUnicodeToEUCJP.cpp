@@ -560,7 +560,7 @@ u1BytePrefix8EChar
 #
 define
 SIZE_OF_TABLES
-4
+3
 static
 const
 uScanClassID
@@ -573,7 +573,6 @@ SIZE_OF_TABLES
 u2BytesGRCharset
 u2BytesGRCharset
 uMultibytesCharset
-u2BytesGRPrefix8FCharset
 }
 ;
 static
@@ -589,7 +588,6 @@ SIZE_OF_TABLES
 0
 0
 g0201ShiftOutTable
-0
 }
 ;
 static
@@ -605,7 +603,6 @@ SIZE_OF_TABLES
 g_uf0208Mapping
 g_uf0208extMapping
 g_uf0201Mapping
-g_uf0212Mapping
 }
 ;
 nsresult
