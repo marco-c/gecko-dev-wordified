@@ -1819,9 +1819,6 @@ availblocks
 while
 (
 free_block
-&
-&
-free_block
 -
 >
 next
@@ -1869,9 +1866,6 @@ next
 }
 NanoAssert
 (
-free_block
-&
-&
 free_block
 -
 >
