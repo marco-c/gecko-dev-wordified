@@ -17614,7 +17614,7 @@ code
 if
 (
 !
-ScriptPrologue
+ScriptPrologueOrGeneratorResume
 (
 cx
 regs
@@ -44078,7 +44078,7 @@ exit
 :
 interpReturnOK
 =
-ScriptEpilogue
+ScriptEpilogueOrGeneratorYield
 (
 cx
 regs
