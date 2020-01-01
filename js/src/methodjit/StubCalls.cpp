@@ -9199,6 +9199,12 @@ recompiler
 .
 recompile
 (
+/
+*
+resetUses
+*
+/
+false
 )
 ;
 }

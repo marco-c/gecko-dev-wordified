@@ -733,6 +733,10 @@ script
 void
 recompile
 (
+bool
+resetUses
+=
+true
 )
 ;
 static
