@@ -470,6 +470,7 @@ GetStatusTracker
 )
 {
 return
+*
 mStatusTracker
 ;
 }
@@ -770,6 +771,9 @@ protected
 :
 Image
 (
+imgStatusTracker
+*
+aStatusTracker
 )
 ;
 /
@@ -784,7 +788,10 @@ of
 this
 abstract
 class
+nsAutoPtr
+<
 imgStatusTracker
+>
 mStatusTracker
 ;
 PRPackedBool
