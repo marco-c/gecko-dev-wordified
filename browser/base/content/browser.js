@@ -26870,6 +26870,9 @@ msg
 "
 "
 ;
+let
+location
+;
 /
 /
 Get
@@ -26898,7 +26901,6 @@ in
 aRequest
 )
 {
-let
 location
 =
 aRequest
