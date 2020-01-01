@@ -216,7 +216,7 @@ nsIThreadPoolListener
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITHREADPOOLLISTENER
 private
 :
@@ -249,7 +249,7 @@ nsIRunnable
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIRUNNABLE
 inline
 FinishTransactionRunnable
@@ -2903,7 +2903,7 @@ Notify
 )
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 TransactionThreadPool
 :
@@ -3290,7 +3290,7 @@ aFinishRunnable
 )
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 FinishTransactionRunnable
 nsIRunnable
@@ -3380,7 +3380,7 @@ NS_OK
 #
 ifdef
 MOZ_ENABLE_PROFILER_SPS
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 TransactionThreadPoolListener
 nsIThreadPoolListener

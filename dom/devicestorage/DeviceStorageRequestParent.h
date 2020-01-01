@@ -240,9 +240,10 @@ DeviceStorageRequestParent
 ;
 private
 :
-nsAutoRefCnt
+ThreadSafeAutoRefCnt
 mRefCnt
 ;
+NS_DECL_OWNINGTHREAD
 DeviceStorageParams
 mParams
 ;

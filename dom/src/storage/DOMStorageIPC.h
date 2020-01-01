@@ -542,9 +542,10 @@ ScopesHavingData
 (
 )
 ;
-nsAutoRefCnt
+ThreadSafeAutoRefCnt
 mRefCnt
 ;
+NS_DECL_OWNINGTHREAD
 /
 /
 Held
@@ -1123,9 +1124,10 @@ nsACString
 aScope
 )
 ;
-nsAutoRefCnt
+ThreadSafeAutoRefCnt
 mRefCnt
 ;
+NS_DECL_OWNINGTHREAD
 /
 /
 True

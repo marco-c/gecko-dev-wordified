@@ -276,7 +276,7 @@ nsISettingsServiceCallback
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 SettingsServiceCallback
 (
 )
@@ -362,7 +362,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 SettingsServiceCallback
 nsISettingsServiceCallback
@@ -376,7 +376,7 @@ nsISettingsServiceCallback
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 CheckVolumeSettingsCallback
 (
 const
@@ -477,7 +477,7 @@ mVolumeName
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 CheckVolumeSettingsCallback
 nsISettingsServiceCallback

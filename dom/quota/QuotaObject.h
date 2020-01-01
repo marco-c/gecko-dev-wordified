@@ -219,7 +219,10 @@ QuotaObject
 )
 {
 }
-nsAutoRefCnt
+mozilla
+:
+:
+ThreadSafeAutoRefCnt
 mRefCnt
 ;
 OriginInfo

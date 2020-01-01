@@ -335,7 +335,10 @@ FileInfo
 :
 UpdateReferences
 (
-nsAutoRefCnt
+mozilla
+:
+:
+ThreadSafeAutoRefCnt
 &
 aRefCount
 int32_t
