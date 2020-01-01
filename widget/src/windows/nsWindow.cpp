@@ -22831,10 +22831,8 @@ mLayerManager
 )
 mLayerManager
 =
-new
-BasicLayerManager
+CreateBasicLayerManager
 (
-this
 )
 ;
 }

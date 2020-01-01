@@ -1659,6 +1659,12 @@ forget
 )
 ;
 }
+BasicLayerManager
+*
+CreateBasicLayerManager
+(
+)
+;
 protected
 :
 void
