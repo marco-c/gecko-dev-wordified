@@ -691,6 +691,8 @@ macr
 define
 ENTITY_COUNT
 (
+unsigned
+(
 sizeof
 (
 gEntities
@@ -699,6 +701,7 @@ gEntities
 sizeof
 (
 EntityNode
+)
 )
 )
 class
@@ -2778,7 +2781,7 @@ Filling
 hash
 with
 %
-d
+u
 entries
 .
 \
@@ -3230,7 +3233,7 @@ Filling
 hash
 with
 %
-d
+u
 entries
 .
 \
@@ -3669,7 +3672,7 @@ Filling
 hash
 with
 %
-d
+u
 entries
 .
 \
@@ -4147,7 +4150,7 @@ Filling
 hash
 with
 %
-d
+u
 entries
 .
 \
@@ -4625,7 +4628,7 @@ Filling
 hash
 with
 %
-d
+u
 entries
 .
 \
@@ -5115,7 +5118,7 @@ Filling
 hash
 with
 %
-d
+u
 entries
 .
 \
@@ -5615,7 +5618,7 @@ Filling
 hash
 with
 %
-d
+u
 entries
 .
 \
