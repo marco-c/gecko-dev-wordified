@@ -1676,8 +1676,10 @@ slot
 JSSLOT_PROTO
 )
 ;
-JS_ASSERT
+JS_ASSERT_IF
 (
+!
+checkForCycles
 obj
 !
 =
