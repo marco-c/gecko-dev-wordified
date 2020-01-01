@@ -841,6 +841,10 @@ Bail
 )
 UNSAFE_OP
 (
+AssertFloat32
+)
+UNSAFE_OP
+(
 GetDynamicName
 )
 UNSAFE_OP

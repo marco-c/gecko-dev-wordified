@@ -3678,6 +3678,14 @@ CallInfo
 callInfo
 )
 ;
+InliningStatus
+inlineAssertFloat32
+(
+CallInfo
+&
+callInfo
+)
+;
 /
 /
 Main
