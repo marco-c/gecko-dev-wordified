@@ -4181,7 +4181,7 @@ cx
 uintN
 vplen
 uintN
-nfixed
+nslots
 FrameGuard
 *
 fg
@@ -5222,7 +5222,7 @@ cx
 uintN
 vplen
 uintN
-nfixed
+nslots
 GeneratorFrameGuard
 *
 fg
