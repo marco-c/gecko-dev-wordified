@@ -557,7 +557,7 @@ NULL
 )
 {
 }
-bool
+JSBool
 GetGlobalJSObject
 (
 JSContext
@@ -575,7 +575,7 @@ if
 mGlobal
 )
 return
-false
+JS_FALSE
 ;
 mGlobalHolder
 .
@@ -598,7 +598,7 @@ cx
 )
 ;
 return
-true
+JS_TRUE
 ;
 }
 ObjectWrapperParent
