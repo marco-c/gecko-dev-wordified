@@ -491,6 +491,11 @@ void
 )
 aEchoOn
 ;
+(
+void
+)
+mEchoCancel
+;
 /
 /
 suppress
