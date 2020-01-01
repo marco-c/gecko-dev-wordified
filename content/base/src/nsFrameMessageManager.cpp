@@ -3309,14 +3309,11 @@ continue
 nsCxPusher
 pusher
 ;
-NS_ENSURE_STATE
-(
 pusher
 .
 Push
 (
 ctx
-)
 )
 ;
 JSAutoRequest

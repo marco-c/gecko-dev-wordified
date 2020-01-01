@@ -11597,17 +11597,11 @@ t
 nsCxPusher
 pusher
 ;
-if
-(
-!
 pusher
 .
 PushNull
 (
 )
-)
-return
-NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
