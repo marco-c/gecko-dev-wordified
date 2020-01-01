@@ -453,11 +453,17 @@ aUrl
 bool
 aAsync
 const
+Optional
+<
 nsAString
+>
 &
 aUser
 const
+Optional
+<
 nsAString
+>
 &
 aPassword
 ErrorResult
