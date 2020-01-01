@@ -11655,8 +11655,10 @@ void
 aPluginInstanceOwner
 )
 {
-NS_RELEASE
-(
+nsPluginInstanceOwner
+*
+owner
+=
 static_cast
 <
 nsPluginInstanceOwner
@@ -11665,6 +11667,10 @@ nsPluginInstanceOwner
 (
 aPluginInstanceOwner
 )
+;
+NS_IF_RELEASE
+(
+owner
 )
 ;
 }
