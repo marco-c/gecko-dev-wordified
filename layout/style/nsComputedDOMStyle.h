@@ -1935,6 +1935,12 @@ DoGetMozTabSize
 (
 )
 ;
+nsIDOMCSSValue
+*
+DoGetTextSizeAdjust
+(
+)
+;
 /
 *
 Visibility
