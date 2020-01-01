@@ -47575,7 +47575,7 @@ DEBUG
 {
 nsCOMPtr
 <
-nsIDOMConstructor
+nsIDOMDOMConstructor
 >
 is_constructor
 =
