@@ -1931,10 +1931,6 @@ nsISupports
 interface
 /
 /
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsXULDocument
-)
 static
 PLDHashOperator
 TraverseTemplateBuilders

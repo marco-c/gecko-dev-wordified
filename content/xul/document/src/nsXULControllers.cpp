@@ -389,10 +389,6 @@ return
 rv
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsXULControllers
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsXULControllers

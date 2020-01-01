@@ -282,10 +282,6 @@ aTriedToWrap
 /
 nsISupports
 methods
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-SVGSwitchElement
-)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 SVGSwitchElement

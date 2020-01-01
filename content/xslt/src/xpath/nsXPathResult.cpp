@@ -301,10 +301,6 @@ RemoveObserver
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsXPathResult
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsXPathResult

@@ -6988,10 +6988,6 @@ QueryInterface
 implementation
 for
 nsJSContext
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsJSContext
-)
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN
 (
 nsJSContext
@@ -22905,10 +22901,6 @@ QueryInterface
 implementation
 for
 nsJSArgArray
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsJSArgArray
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsJSArgArray

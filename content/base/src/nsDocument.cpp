@@ -7764,10 +7764,6 @@ Clear
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsDocument
-)
 NS_INTERFACE_TABLE_HEAD
 (
 nsDocument

@@ -310,10 +310,6 @@ Implement
 our
 nsISupports
 methods
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsBoxObject
-)
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
 nsBoxObject

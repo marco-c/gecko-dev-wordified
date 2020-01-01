@@ -960,10 +960,6 @@ return
 NS_OK
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsInProcessTabChildGlobal
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 nsInProcessTabChildGlobal

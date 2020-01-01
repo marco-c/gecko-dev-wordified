@@ -1008,10 +1008,6 @@ aHaveNotified
 }
 }
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsHTMLSharedObjectElement
-)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 nsHTMLSharedObjectElement

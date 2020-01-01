@@ -2965,10 +2965,6 @@ nsTimeout
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_LEGACY_NATIVE_CLASS
-(
-nsTimeout
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_0
 (
 nsTimeout
@@ -6876,10 +6872,6 @@ foundInterface
 \
 }
 else
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsGlobalWindow
-)
 DOMCI_DATA
 (
 Window
@@ -60161,10 +60153,6 @@ mMallocSizeOf
 /
 nsGlobalChromeWindow
 implementation
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsGlobalChromeWindow
-)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 nsGlobalChromeWindow

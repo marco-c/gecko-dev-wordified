@@ -881,10 +881,6 @@ called
 /
 /
 nsISupports
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-DocAccessible
-)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 DocAccessible

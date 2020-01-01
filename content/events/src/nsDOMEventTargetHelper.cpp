@@ -183,10 +183,6 @@ mozilla
 :
 dom
 ;
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsDOMEventTargetHelper
-)
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN
 (
 nsDOMEventTargetHelper

@@ -5183,10 +5183,6 @@ return
 NS_OK
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsEventStateManager
-)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsEventStateManager

@@ -1877,10 +1877,6 @@ nsISupports
 *
 *
 /
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsRange
-)
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
 nsRange

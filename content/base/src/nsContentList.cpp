@@ -326,10 +326,6 @@ nsBaseContentList
 )
 {
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsBaseContentList
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsBaseContentList
@@ -704,10 +700,6 @@ true
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsSimpleContentList
-)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 nsSimpleContentList
