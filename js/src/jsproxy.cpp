@@ -925,7 +925,7 @@ getter
 )
 JSACC_READ
 0
-0
+NULL
 vp
 )
 ;
@@ -1091,9 +1091,9 @@ desc
 .
 setter
 )
-JSACC_READ
-0
-0
+JSACC_WRITE
+1
+vp
 vp
 )
 ;
@@ -1226,9 +1226,9 @@ desc
 .
 setter
 )
-JSACC_READ
-0
-0
+JSACC_WRITE
+1
+vp
 vp
 )
 ;
