@@ -15357,6 +15357,10 @@ nsLayoutUtils
 FontSizeInflationFor
 (
 aTargetFrame
+nsLayoutUtils
+:
+:
+eNotInReflow
 )
 )
 ;

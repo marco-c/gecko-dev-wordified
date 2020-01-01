@@ -1509,10 +1509,6 @@ const
 nscoord
 CalcHeightOfARow
 (
-const
-nsHTMLReflowState
-&
-aReflowState
 )
 ;
 /
