@@ -465,7 +465,7 @@ h
 #
 include
 "
-nsXULSelectAccessible
+nsXULListboxAccessible
 .
 h
 "

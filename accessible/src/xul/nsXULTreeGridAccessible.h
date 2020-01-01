@@ -775,6 +775,8 @@ nsXULTreeGridCellAccessible
 :
 public
 nsLeafAccessible
+public
+nsIAccessibleTableCell
 {
 public
 :
@@ -907,6 +909,10 @@ PRUint8
 aIndex
 )
 ;
+/
+/
+nsIAccessibleTableCell
+NS_DECL_NSIACCESSIBLETABLECELL
 /
 /
 nsAccessNode

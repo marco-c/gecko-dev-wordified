@@ -29,10 +29,10 @@ aTableIdentifier
 {
 this
 .
-getRowsCount
+getrowCount
 =
 function
-getRowsCount
+getrowCount
 (
 )
 {
@@ -125,7 +125,7 @@ getMaxIndex
 return
 this
 .
-getRowsCount
+getrowCount
 (
 )
 *
@@ -149,11 +149,11 @@ aIndex
 )
 {
 var
-rowsCount
+rowCount
 =
 this
 .
-getRowsCount
+getrowCount
 (
 )
 ;
@@ -270,7 +270,7 @@ getCurrentCell
 )
 {
 var
-rowsCount
+rowCount
 =
 this
 .
@@ -298,7 +298,7 @@ rowIdx
 ;
 rowIdx
 <
-rowsCount
+rowCount
 ;
 rowIdx
 +

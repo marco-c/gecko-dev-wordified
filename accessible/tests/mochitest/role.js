@@ -104,6 +104,13 @@ nsIAccessibleRole
 ROLE_APP_ROOT
 ;
 const
+ROLE_CAPTION
+=
+nsIAccessibleRole
+.
+ROLE_CAPTION
+;
+const
 ROLE_CELL
 =
 nsIAccessibleRole
@@ -312,6 +319,13 @@ ROLE_ROW
 nsIAccessibleRole
 .
 ROLE_ROW
+;
+const
+ROLE_ROWHEADER
+=
+nsIAccessibleRole
+.
+ROLE_ROWHEADER
 ;
 const
 ROLE_SECTION

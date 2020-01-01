@@ -455,7 +455,7 @@ h
 #
 include
 "
-nsXULSelectAccessible
+nsXULMenuAccessible
 .
 h
 "
