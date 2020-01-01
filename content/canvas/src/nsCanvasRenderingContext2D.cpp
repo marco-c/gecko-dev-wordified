@@ -19227,7 +19227,7 @@ inline
 PRUint8
 ToUint8
 (
-PRInt32
+jsint
 aInput
 )
 {
