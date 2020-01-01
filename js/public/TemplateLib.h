@@ -455,16 +455,7 @@ js_template_lib_h__
 #
 include
 "
-mozilla
-/
-Types
-.
-h
-"
-#
-include
-"
-jsstdint
+jstypes
 .
 h
 "

@@ -1359,11 +1359,12 @@ errorNumber
 ifdef
 EDITLINE
 JS_BEGIN_EXTERN_C
-JS_EXTERN_API
+extern
+JS_EXPORT_API
 (
 char
-)
 *
+)
 readline
 (
 const
@@ -1372,7 +1373,8 @@ char
 prompt
 )
 ;
-JS_EXTERN_API
+extern
+JS_EXPORT_API
 (
 void
 )
