@@ -6717,6 +6717,7 @@ mBrowserToolbar
 .
 prepareTabsAnimation
 (
+mMainLayoutAnimator
 areTabsShown
 (
 )
@@ -6856,15 +6857,6 @@ mTabsPanel
 .
 finishTabsAnimation
 (
-)
-;
-mBrowserToolbar
-.
-finishTabsAnimation
-(
-areTabsShown
-(
-)
 )
 ;
 mMainLayoutAnimator
