@@ -574,6 +574,8 @@ uint32_t
 aLineNo
 uint32_t
 aVersion
+bool
+aIsXBL
 JS
 :
 :

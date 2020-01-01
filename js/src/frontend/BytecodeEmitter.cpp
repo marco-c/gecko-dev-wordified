@@ -33090,6 +33090,14 @@ getVersion
 (
 )
 )
+.
+setUserBit
+(
+parent
+-
+>
+userBit
+)
 ;
 Rooted
 <
