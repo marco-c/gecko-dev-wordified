@@ -1029,7 +1029,7 @@ element
 htmlEditor
 -
 >
-IsNodeInActiveEditor
+IsDescendantOfEditorRoot
 (
 element
 )

@@ -3406,6 +3406,14 @@ inNode
 bool
 IsDescendantOfEditorRoot
 (
+nsIDOMNode
+*
+aNode
+)
+;
+bool
+IsDescendantOfEditorRoot
+(
 nsINode
 *
 aNode
