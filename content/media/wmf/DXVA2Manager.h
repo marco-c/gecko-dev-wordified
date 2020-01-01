@@ -145,6 +145,13 @@ Mutex
 .
 h
 "
+#
+include
+"
+nsRect
+.
+h
+"
 class
 nsIntSize
 ;
@@ -290,9 +297,9 @@ IMFSample
 *
 aVideoSample
 const
-nsIntSize
+nsIntRect
 &
-aSize
+aRegion
 layers
 :
 :
