@@ -4788,6 +4788,8 @@ JS_STATIC_ASSERT
 offsetof
 (
 VMFrame
+regs
+.
 fp
 )
 =
@@ -5714,6 +5716,8 @@ cx
 -
 >
 fp
+(
+)
 )
 ;
 #
@@ -5770,6 +5774,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 getScript
@@ -5857,6 +5863,8 @@ cx
 -
 >
 fp
+(
+)
 code
 NULL
 )
@@ -5912,6 +5920,8 @@ cx
 -
 >
 fp
+(
+)
 code
 safePoint
 )

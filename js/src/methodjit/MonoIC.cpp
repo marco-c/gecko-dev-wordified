@@ -637,6 +637,8 @@ obj
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -658,6 +660,8 @@ mic
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -677,6 +681,8 @@ atom
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -1075,6 +1081,8 @@ atom
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -1181,6 +1189,8 @@ obj
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -1202,6 +1212,8 @@ mic
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -1221,6 +1233,8 @@ atom
 f
 .
 fp
+(
+)
 -
 >
 getScript

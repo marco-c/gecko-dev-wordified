@@ -693,6 +693,8 @@ JS_ASSERT
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -728,6 +730,8 @@ obj
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -774,6 +778,8 @@ cx
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -834,6 +840,8 @@ return
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -2758,6 +2766,8 @@ cx
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -3105,6 +3115,8 @@ f
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -3136,6 +3148,8 @@ globalObj
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -3366,6 +3380,8 @@ sp
 f
 .
 fp
+(
+)
 -
 >
 base
@@ -4609,6 +4625,8 @@ f
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -5589,6 +5607,8 @@ d
 f
 .
 fp
+(
+)
 -
 >
 slots
@@ -5686,6 +5706,8 @@ d
 f
 .
 fp
+(
+)
 -
 >
 slots
@@ -5768,6 +5790,8 @@ d
 f
 .
 fp
+(
+)
 -
 >
 slots
@@ -5850,6 +5874,8 @@ d
 f
 .
 fp
+(
+)
 -
 >
 slots
@@ -5915,6 +5941,8 @@ fp
 f
 .
 fp
+(
+)
 ;
 JSScript
 *
@@ -9380,6 +9408,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 getScript
@@ -9446,6 +9476,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 setReturnValue
@@ -9609,6 +9641,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 getScript
@@ -9666,6 +9700,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 setReturnValue
@@ -9785,6 +9821,8 @@ if
 f
 .
 fp
+(
+)
 -
 >
 getThisObject
@@ -9811,6 +9849,8 @@ sp
 f
 .
 fp
+(
+)
 -
 >
 getThisValue
@@ -9836,6 +9876,8 @@ if
 f
 .
 fp
+(
+)
 -
 >
 getThisObject
@@ -10147,6 +10189,8 @@ sp
 f
 .
 fp
+(
+)
 -
 >
 base
@@ -10490,6 +10534,8 @@ staticLevel
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -10656,6 +10702,8 @@ fun
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -10688,6 +10736,8 @@ cx
 f
 .
 fp
+(
+)
 )
 ;
 if
@@ -10884,6 +10934,8 @@ cx
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -10975,6 +11027,8 @@ getParent
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -10990,6 +11044,8 @@ setMethodAtom
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -11068,6 +11124,8 @@ getParent
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -11118,6 +11176,8 @@ setMethodAtom
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -11197,6 +11257,8 @@ getParent
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -11477,6 +11539,8 @@ getParent
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -11577,6 +11641,8 @@ parent
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -11596,6 +11662,8 @@ cx
 f
 .
 fp
+(
+)
 )
 ;
 if
@@ -11721,6 +11789,8 @@ fp
 f
 .
 fp
+(
+)
 ;
 f
 .
@@ -13135,6 +13205,8 @@ obj
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -13182,6 +13254,8 @@ obj
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -13230,6 +13304,8 @@ obj
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -13277,6 +13353,8 @@ obj
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -13325,6 +13403,8 @@ obj
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -13377,6 +13457,8 @@ obj
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -13430,6 +13512,8 @@ obj
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -13482,6 +13566,8 @@ obj
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -13783,6 +13869,8 @@ sprop
 f
 .
 fp
+(
+)
 -
 >
 hasIMacroPC
@@ -13835,6 +13923,8 @@ id
 f
 .
 fp
+(
+)
 -
 >
 hasIMacroPC
@@ -15076,6 +15166,8 @@ sp
 f
 .
 fp
+(
+)
 -
 >
 base
@@ -15772,6 +15864,8 @@ sp
 f
 .
 fp
+(
+)
 -
 >
 base
@@ -15888,6 +15982,8 @@ sp
 f
 .
 fp
+(
+)
 -
 >
 base
@@ -15986,6 +16082,8 @@ sp
 f
 .
 fp
+(
+)
 -
 >
 base
@@ -16331,6 +16429,8 @@ cx
 f
 .
 fp
+(
+)
 &
 f
 .
@@ -16642,6 +16742,8 @@ fp
 f
 .
 fp
+(
+)
 ;
 jsid
 id
@@ -16719,6 +16821,8 @@ fp
 f
 .
 fp
+(
+)
 ;
 JS_ASSERT
 (
@@ -17073,6 +17177,8 @@ fp
 f
 .
 fp
+(
+)
 ;
 #
 ifdef
@@ -17294,6 +17400,8 @@ script
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -17829,6 +17937,8 @@ script
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -18202,6 +18312,8 @@ cx
 f
 .
 fp
+(
+)
 id
 &
 rval
