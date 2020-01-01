@@ -21812,7 +21812,7 @@ this
 makeXULNode
 (
 "
-div
+vbox
 "
 )
 ;
@@ -42218,8 +42218,9 @@ this
 .
 document
 .
-createElement
+createElementNS
 (
+HTML_NS
 "
 div
 "
@@ -42500,8 +42501,6 @@ div
 >
 '
 )
-.
-firstChild
 ;
 }
 /
@@ -42561,7 +42560,7 @@ XUL_NS
 +
 '
 "
-clipboardText
+_clipboardText
 =
 "
 {
@@ -42571,14 +42570,14 @@ clipboardText
 '
 +
 '
-timestamp
+_timestamp
 =
 "
 {
 timestamp
 }
 "
-id
+_id
 =
 "
 {
@@ -42607,7 +42606,7 @@ webconsole
 -
 timestamp
 "
-value
+_value
 =
 "
 {
@@ -42632,7 +42631,7 @@ icon
 -
 container
 "
-style
+_style
 =
 "
 {
