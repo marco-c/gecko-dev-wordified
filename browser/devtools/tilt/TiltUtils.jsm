@@ -453,15 +453,6 @@ BLOCK
 *
 *
 /
-/
-*
-global
-Components
-Services
-XPCOMUtils
-LayoutHelpers
-*
-/
 "
 use
 strict

@@ -27,17 +27,6 @@ zero
 /
 *
 /
-/
-*
-global
-ok
-is
-info
-isWebGLSupported
-createCanvas
-TiltGL
-*
-/
 "
 use
 strict

@@ -453,13 +453,6 @@ BLOCK
 *
 *
 /
-/
-*
-global
-Components
-TiltUtils
-*
-/
 "
 use
 strict

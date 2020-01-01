@@ -27,16 +27,6 @@ zero
 /
 *
 /
-/
-*
-global
-ok
-is
-isApprox
-isApproxVec
-quat4
-*
-/
 "
 use
 strict

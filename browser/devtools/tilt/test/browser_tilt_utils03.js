@@ -27,14 +27,6 @@ zero
 /
 *
 /
-/
-*
-global
-ok
-is
-TiltUtils
-*
-/
 "
 use
 strict

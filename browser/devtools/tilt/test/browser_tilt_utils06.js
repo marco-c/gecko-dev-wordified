@@ -27,16 +27,6 @@ zero
 /
 *
 /
-/
-*
-global
-ok
-is
-isnot
-gBrowser
-TiltUtils
-*
-/
 "
 use
 strict

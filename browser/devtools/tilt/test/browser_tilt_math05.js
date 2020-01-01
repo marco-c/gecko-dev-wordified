@@ -27,15 +27,6 @@ zero
 /
 *
 /
-/
-*
-global
-ok
-is
-isApproxVec
-mat4
-*
-/
 "
 use
 strict

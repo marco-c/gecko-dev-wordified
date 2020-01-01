@@ -27,16 +27,6 @@ zero
 /
 *
 /
-/
-*
-global
-ok
-is
-isApprox
-isApproxVec
-TiltMath
-*
-/
 "
 use
 strict

@@ -453,12 +453,6 @@ BLOCK
 *
 *
 /
-/
-*
-global
-self
-*
-/
 "
 use
 strict

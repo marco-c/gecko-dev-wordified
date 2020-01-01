@@ -449,13 +449,6 @@ BLOCK
 *
 *
 /
-/
-*
-global
-Components
-TiltMath
-*
-/
 "
 use
 strict
