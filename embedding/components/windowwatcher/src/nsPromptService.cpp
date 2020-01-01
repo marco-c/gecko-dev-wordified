@@ -540,6 +540,13 @@ nsISound
 .
 h
 "
+#
+include
+"
+nsISystemSoundService
+.
+h
+"
 static
 const
 char
@@ -1303,7 +1310,7 @@ block
 SetInt
 (
 eSoundEventId
-nsISound
+nsISystemSoundService
 :
 :
 EVENT_ALERT_DIALOG_OPEN
@@ -1533,7 +1540,7 @@ block
 SetInt
 (
 eSoundEventId
-nsISound
+nsISystemSoundService
 :
 :
 EVENT_ALERT_DIALOG_OPEN
@@ -1758,7 +1765,7 @@ block
 SetInt
 (
 eSoundEventId
-nsISound
+nsISystemSoundService
 :
 :
 EVENT_CONFIRM_DIALOG_OPEN
@@ -2034,7 +2041,7 @@ block
 SetInt
 (
 eSoundEventId
-nsISound
+nsISystemSoundService
 :
 :
 EVENT_CONFIRM_DIALOG_OPEN
@@ -2608,7 +2615,7 @@ block
 SetInt
 (
 eSoundEventId
-nsISound
+nsISystemSoundService
 :
 :
 EVENT_CONFIRM_DIALOG_OPEN
@@ -3050,7 +3057,7 @@ block
 SetInt
 (
 eSoundEventId
-nsISound
+nsISystemSoundService
 :
 :
 EVENT_PROMPT_DIALOG_OPEN
@@ -3459,7 +3466,7 @@ block
 SetInt
 (
 eSoundEventId
-nsISound
+nsISystemSoundService
 :
 :
 EVENT_PROMPT_DIALOG_OPEN
@@ -3904,7 +3911,7 @@ block
 SetInt
 (
 eSoundEventId
-nsISound
+nsISystemSoundService
 :
 :
 EVENT_PROMPT_DIALOG_OPEN
@@ -4564,7 +4571,7 @@ paramBlock
 SetInt
 (
 eSoundEventId
-nsISound
+nsISystemSoundService
 :
 :
 EVENT_ALERT_DIALOG_OPEN
