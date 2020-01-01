@@ -1243,6 +1243,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+Touch
+.
+h
+"
+#
+include
+"
 DictionaryHelpers
 .
 h
@@ -49081,7 +49092,7 @@ nsIDOMTouch
 touch
 =
 new
-nsDOMTouch
+Touch
 (
 target
 aIdentifier

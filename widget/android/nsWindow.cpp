@@ -260,7 +260,11 @@ h
 #
 include
 "
-nsDOMTouchEvent
+mozilla
+/
+dom
+/
+Touch
 .
 h
 "
@@ -372,6 +376,13 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 using
 namespace
@@ -7136,7 +7147,7 @@ nsIDOMTouch
 t
 (
 new
-nsDOMTouch
+Touch
 (
 ae
 -
@@ -7242,7 +7253,7 @@ nsIDOMTouch
 t
 (
 new
-nsDOMTouch
+Touch
 (
 ae
 -

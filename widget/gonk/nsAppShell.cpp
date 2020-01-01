@@ -330,7 +330,11 @@ h
 #
 include
 "
-nsDOMTouchEvent
+mozilla
+/
+dom
+/
+Touch
 .
 h
 "
@@ -590,6 +594,10 @@ NotifyNativeEvent
 ;
 }
 }
+/
+/
+namespace
+mozilla
 static
 void
 pipeHandler
@@ -684,6 +692,8 @@ struct
 int32_t
 touchCount
 ;
+:
+:
 Touch
 touches
 [
@@ -815,6 +825,8 @@ i
 )
 {
 const
+:
+:
 Touch
 &
 touch
@@ -835,7 +847,10 @@ touches
 AppendElement
 (
 new
-nsDOMTouch
+dom
+:
+:
+Touch
 (
 touch
 .
@@ -2605,6 +2620,8 @@ pointerCount
 i
 )
 {
+:
+:
 Touch
 &
 touch

@@ -147,13 +147,17 @@ NPEvent
 #
 include
 "
-nsDOMTouchEvent
+mozilla
+/
+dom
+/
+Touch
 .
 h
 "
 /
 /
-nsDOMTouch
+Touch
 #
 include
 "
@@ -277,6 +281,13 @@ widget
 :
 :
 winrt
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 /
 /
@@ -423,7 +434,7 @@ a
 new
 {
 link
-nsDOMTouch
+Touch
 }
 from
 the
@@ -456,7 +467,7 @@ the
 memory
 for
 the
-nsDOMTouch
+Touch
 returned
 from
 *
@@ -493,7 +504,7 @@ our
 new
 {
 link
-nsDOMTouch
+Touch
 }
 *
 return
@@ -501,7 +512,7 @@ a
 new
 {
 link
-nsDOMTouch
+Touch
 }
 representing
 the
@@ -524,7 +535,7 @@ point
 .
 *
 /
-nsDOMTouch
+Touch
 *
 CreateDOMTouch
 (
@@ -668,7 +679,7 @@ Height
 ;
 return
 new
-nsDOMTouch
+Touch
 (
 pointerId
 touchPoint

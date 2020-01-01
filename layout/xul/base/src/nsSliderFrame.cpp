@@ -188,13 +188,6 @@ h
 #
 include
 "
-nsDOMTouchEvent
-.
-h
-"
-#
-include
-"
 nsEventListenerManager
 .
 h
