@@ -2722,6 +2722,7 @@ acx
 >
 globalObject
 "
+XPC
 global
 object
 "

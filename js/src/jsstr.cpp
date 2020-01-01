@@ -10162,8 +10162,6 @@ obj
 defineProperty
 (
 cx
-ATOM_TO_JSID
-(
 cx
 -
 >
@@ -10173,7 +10171,6 @@ runtime
 atomState
 .
 indexAtom
-)
 Int32Value
 (
 fm
@@ -10191,8 +10188,6 @@ obj
 defineProperty
 (
 cx
-ATOM_TO_JSID
-(
 cx
 -
 >
@@ -10202,7 +10197,6 @@ runtime
 atomState
 .
 inputAtom
-)
 StringValue
 (
 textstr

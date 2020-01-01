@@ -9459,7 +9459,7 @@ else
 {
 masm
 .
-load32
+loadPayload
 (
 Address
 (
@@ -10242,7 +10242,7 @@ TYPED_ARRAY_LENGTH
 {
 masm
 .
-load32
+loadPayload
 (
 Address
 (
