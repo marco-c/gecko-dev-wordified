@@ -2118,6 +2118,17 @@ GetUnit
 =
 =
 eCSSUnit_Null
+&
+&
+aData
+-
+>
+mPresContext
+-
+>
+UseDocumentColors
+(
+)
 )
 {
 aData
