@@ -10818,7 +10818,7 @@ to
 the
 callback
 as
-debugPrinterArg
+debugPrintArg
 and
 debugPrintIndex
 fields
