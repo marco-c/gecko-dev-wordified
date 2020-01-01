@@ -463,6 +463,13 @@ nsXULAppAPI
 h
 "
 #
+include
+"
+prenv
+.
+h
+"
+#
 if
 defined
 (
