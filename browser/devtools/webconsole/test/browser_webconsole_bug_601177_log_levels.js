@@ -338,8 +338,9 @@ error
 "
 )
 ;
-finishTest
+executeSoon
 (
+finishTest
 )
 ;
 }

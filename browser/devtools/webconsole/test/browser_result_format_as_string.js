@@ -295,7 +295,7 @@ found
 "
 )
 ;
-isnot
+is
 (
 msg
 .
@@ -312,7 +312,8 @@ HTMLDivElement
 "
 HTMLDivElement
 string
-found
+not
+displayed
 "
 )
 ;

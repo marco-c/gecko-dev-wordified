@@ -171,6 +171,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 /
 /
 Add
@@ -460,7 +465,7 @@ waitForSuccess
 {
 timeout
 :
-10000
+15000
 name
 :
 "

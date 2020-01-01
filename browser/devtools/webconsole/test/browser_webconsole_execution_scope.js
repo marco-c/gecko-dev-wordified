@@ -189,6 +189,8 @@ execute
 window
 .
 location
+.
+href
 ;
 "
 )
@@ -267,6 +269,8 @@ is
 window
 .
 location
+.
+href
 ;
 /
 .
@@ -285,6 +289,8 @@ true
 window
 .
 location
+.
+href
 ;
 '
 written

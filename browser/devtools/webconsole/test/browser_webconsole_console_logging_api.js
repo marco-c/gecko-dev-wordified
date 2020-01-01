@@ -703,8 +703,12 @@ node
 &
 &
 /
+"
 foo
+"
+"
 bar
+"
 /
 .
 test
