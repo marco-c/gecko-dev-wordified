@@ -3166,9 +3166,6 @@ imgRequestProxy
 :
 FrameChanged
 (
-imgIContainer
-*
-container
 const
 nsIntRect
 *
@@ -3317,9 +3314,6 @@ imgRequestProxy
 :
 OnStartContainer
 (
-imgIContainer
-*
-image
 )
 {
 LOG_FUNC
@@ -3396,8 +3390,6 @@ imgRequestProxy
 :
 OnStartFrame
 (
-uint32_t
-frame
 )
 {
 LOG_FUNC
@@ -3466,8 +3458,6 @@ imgRequestProxy
 :
 OnDataAvailable
 (
-bool
-aCurrentFrame
 const
 nsIntRect
 *
@@ -3540,8 +3530,6 @@ imgRequestProxy
 :
 OnStopFrame
 (
-uint32_t
-frame
 )
 {
 LOG_FUNC

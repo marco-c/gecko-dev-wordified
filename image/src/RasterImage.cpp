@@ -3297,8 +3297,6 @@ observer
 >
 FrameChanged
 (
-nullptr
-this
 &
 dirtyRect
 )
@@ -9558,8 +9556,6 @@ observer
 >
 FrameChanged
 (
-nullptr
-this
 &
 (
 mAnim
@@ -15090,7 +15086,6 @@ observer
 >
 OnDiscard
 (
-nullptr
 )
 ;
 if
@@ -18405,11 +18400,6 @@ observer
 >
 FrameChanged
 (
-nullptr
-request
--
->
-image
 &
 frameRect
 )
