@@ -691,10 +691,8 @@ hmod
 ;
 rc
 =
-DosLoadModule
+DosQueryModuleHandle
 (
-NULL
-0
 "
 PMMERGE
 "
@@ -726,11 +724,6 @@ pfnQueryDesktopWorkArea
 /
 /
 WinQueryDesktopWorkArea
-DosFreeModule
-(
-hmod
-)
-;
 }
 }
 if
