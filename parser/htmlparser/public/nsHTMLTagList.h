@@ -876,6 +876,11 @@ HTML_TAG
 tr
 TableRow
 )
+HTML_TAG
+(
+track
+Track
+)
 HTML_HTMLELEMENT_TAG
 (
 tt
