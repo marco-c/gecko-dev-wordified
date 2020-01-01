@@ -2081,6 +2081,11 @@ platformBuildID
 ai
 .
 platformBuildID
+locale
+:
+getLocale
+(
+)
 }
 ;
 /
