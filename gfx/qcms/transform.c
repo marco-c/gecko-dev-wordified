@@ -3599,7 +3599,7 @@ in_b
 int
 x
 =
-floor
+floorf
 (
 linear_r
 *
@@ -3616,7 +3616,7 @@ grid_size
 int
 y
 =
-floor
+floorf
 (
 linear_g
 *
@@ -3633,7 +3633,7 @@ grid_size
 int
 z
 =
-floor
+floorf
 (
 linear_b
 *
@@ -3650,7 +3650,7 @@ grid_size
 int
 x_n
 =
-ceil
+ceilf
 (
 linear_r
 *
@@ -3667,7 +3667,7 @@ grid_size
 int
 y_n
 =
-ceil
+ceilf
 (
 linear_g
 *
@@ -3684,7 +3684,7 @@ grid_size
 int
 z_n
 =
-ceil
+ceilf
 (
 linear_b
 *
@@ -4325,7 +4325,7 @@ in_b
 int
 x
 =
-floor
+floorf
 (
 linear_r
 *
@@ -4342,7 +4342,7 @@ grid_size
 int
 y
 =
-floor
+floorf
 (
 linear_g
 *
@@ -4359,7 +4359,7 @@ grid_size
 int
 z
 =
-floor
+floorf
 (
 linear_b
 *
@@ -4376,7 +4376,7 @@ grid_size
 int
 x_n
 =
-ceil
+ceilf
 (
 linear_r
 *
@@ -4393,7 +4393,7 @@ grid_size
 int
 y_n
 =
-ceil
+ceilf
 (
 linear_g
 *
@@ -4410,7 +4410,7 @@ grid_size
 int
 z_n
 =
-ceil
+ceilf
 (
 linear_b
 *
@@ -5767,7 +5767,7 @@ in_b
 int
 x
 =
-floor
+floorf
 (
 linear_r
 *
@@ -5784,7 +5784,7 @@ grid_size
 int
 y
 =
-floor
+floorf
 (
 linear_g
 *
@@ -5801,7 +5801,7 @@ grid_size
 int
 z
 =
-floor
+floorf
 (
 linear_b
 *
@@ -5818,7 +5818,7 @@ grid_size
 int
 x_n
 =
-ceil
+ceilf
 (
 linear_r
 *
@@ -5835,7 +5835,7 @@ grid_size
 int
 y_n
 =
-ceil
+ceilf
 (
 linear_g
 *
@@ -5852,7 +5852,7 @@ grid_size
 int
 z_n
 =
-ceil
+ceilf
 (
 linear_b
 *
