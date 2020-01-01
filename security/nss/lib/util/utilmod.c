@@ -188,7 +188,14 @@ h
 #
 include
 "
-lgglue
+pkcs11t
+.
+h
+"
+#
+include
+"
+secitem
 .
 h
 "

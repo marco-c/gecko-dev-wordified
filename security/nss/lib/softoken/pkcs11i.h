@@ -1348,6 +1348,15 @@ multipart
 *
 /
 PRBool
+rsa
+;
+/
+*
+is
+rsa
+*
+/
+PRBool
 doPad
 ;
 /
