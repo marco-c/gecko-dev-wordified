@@ -6758,9 +6758,8 @@ eTrue
 :
 0
 ;
-SetFlags
+SetMayHaveContentEditableAttr
 (
-NODE_MAY_HAVE_CONTENT_EDITABLE_ATTR
 )
 ;
 }
