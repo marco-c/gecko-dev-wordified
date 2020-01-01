@@ -1147,7 +1147,7 @@ debugging
 /
 #
 ifdef
-NS_DEBUG
+DEBUG
 void
 Dump
 (
@@ -2347,7 +2347,7 @@ debugging
 /
 #
 ifdef
-NS_DEBUG
+DEBUG
 void
 Dump
 (

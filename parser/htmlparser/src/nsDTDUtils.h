@@ -1589,7 +1589,7 @@ mArenaPool
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 int
 mTotals
 [
@@ -2369,7 +2369,7 @@ mNodeAllocator
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 enum
 {
 eMaxTags

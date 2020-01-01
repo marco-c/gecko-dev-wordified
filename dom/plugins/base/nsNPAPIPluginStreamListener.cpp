@@ -453,7 +453,7 @@ mFileURL
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 printf
 (
 "

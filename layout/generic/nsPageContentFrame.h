@@ -289,7 +289,7 @@ const
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 /
 /
 Debugging

@@ -134,9 +134,6 @@ h
 ifdef
 DEBUG
 #
-define
-NS_DEBUG
-#
 include
 "
 prprf
@@ -772,7 +769,7 @@ __LINE__
 else
 /
 *
-NS_DEBUG
+DEBUG
 *
 /
 /
@@ -954,7 +951,7 @@ endif
 /
 *
 !
-NS_DEBUG
+DEBUG
 *
 /
 /
@@ -1726,7 +1723,7 @@ compiled
 regardless
 of
 the
-NS_DEBUG
+DEBUG
 flag
 .
 *
@@ -1903,7 +1900,7 @@ the
 /
 /
 *
-NS_DEBUG
+DEBUG
 flag
 *
 *

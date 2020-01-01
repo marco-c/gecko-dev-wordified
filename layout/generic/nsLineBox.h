@@ -3465,7 +3465,7 @@ link_type
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsLineList_iterator
 (
 )
@@ -4174,7 +4174,7 @@ link_type
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsLineList_reverse_iterator
 (
 )

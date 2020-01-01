@@ -6547,7 +6547,7 @@ comboboxControlFrame
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 NS_IMETHODIMP
 nsComboboxControlFrame
 :

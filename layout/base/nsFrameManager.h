@@ -964,7 +964,7 @@ eNoID
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 /
 *
 *

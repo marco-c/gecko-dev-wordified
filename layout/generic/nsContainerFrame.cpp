@@ -324,7 +324,7 @@ h
 "
 #
 ifdef
-NS_DEBUG
+DEBUG
 #
 undef
 NOISY
@@ -573,7 +573,7 @@ else
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsFrame
 :
 :
@@ -11210,7 +11210,7 @@ nif
 Debugging
 #
 ifdef
-NS_DEBUG
+DEBUG
 NS_IMETHODIMP
 nsContainerFrame
 :

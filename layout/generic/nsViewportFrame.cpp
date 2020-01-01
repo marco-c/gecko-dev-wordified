@@ -303,7 +303,7 @@ frames
 to
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsFrame
 :
 :

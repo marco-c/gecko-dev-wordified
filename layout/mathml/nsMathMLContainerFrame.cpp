@@ -3761,7 +3761,7 @@ aDesiredSize
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 {
 /
 /
@@ -4528,7 +4528,7 @@ rv
 if
 defined
 (
-NS_DEBUG
+DEBUG
 )
 &
 &

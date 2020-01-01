@@ -2346,7 +2346,7 @@ c2
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 /
 /
 we

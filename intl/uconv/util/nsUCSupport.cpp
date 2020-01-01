@@ -330,7 +330,7 @@ implementation
 ]
 #
 ifdef
-NS_DEBUG
+DEBUG
 NS_IMPL_THREADSAFE_ISUPPORTS2
 (
 nsBasicDecoderSupport
@@ -2369,7 +2369,7 @@ nsBasicEncoder
 )
 #
 ifdef
-NS_DEBUG
+DEBUG
 NS_IMPL_QUERY_INTERFACE2
 (
 nsBasicEncoder

@@ -2820,7 +2820,7 @@ aNode
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 eHTMLTags
 theTag
 =
@@ -2879,7 +2879,7 @@ aTag
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 mStack
@@ -2934,7 +2934,7 @@ theSize
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 theSize
@@ -2980,7 +2980,7 @@ aRefCntNode
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 int
 size
 =
@@ -3139,7 +3139,7 @@ false
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 mStack
@@ -3223,7 +3223,7 @@ theSize
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 (
@@ -4545,7 +4545,7 @@ kInitialTokenPoolSize
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 int
 i
 =
@@ -4770,7 +4770,7 @@ result
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 mTotals
 [
 aType
@@ -5092,7 +5092,7 @@ result
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 mTotals
 [
 aType

@@ -512,7 +512,7 @@ mem
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 struct
 shmid_ds
 info

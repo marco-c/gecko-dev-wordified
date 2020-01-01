@@ -935,7 +935,7 @@ elements
 *
 #
 ifdef
-NS_DEBUG
+DEBUG
 extern
 void
 CheckElementTable

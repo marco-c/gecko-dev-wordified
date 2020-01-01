@@ -239,7 +239,7 @@ nsContainerFrame
 )
 #
 ifdef
-NS_DEBUG
+DEBUG
 NS_IMETHODIMP
 nsFirstLetterFrame
 :

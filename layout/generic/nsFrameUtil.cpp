@@ -150,7 +150,7 @@ h
 "
 #
 ifdef
-NS_DEBUG
+DEBUG
 class
 nsFrameUtil
 :

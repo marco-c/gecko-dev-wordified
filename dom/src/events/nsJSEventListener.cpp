@@ -249,7 +249,7 @@ h
 "
 #
 ifdef
-NS_DEBUG
+DEBUG
 #
 include
 "
@@ -983,7 +983,7 @@ stack
 .
 #
 ifdef
-NS_DEBUG
+DEBUG
 JSContext
 *
 cx

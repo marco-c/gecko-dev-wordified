@@ -9586,7 +9586,7 @@ rv
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsCOMPtr
 <
 nsISupports
@@ -12624,7 +12624,7 @@ it
 .
 #
 ifdef
-NS_DEBUG
+DEBUG
 /
 /
 but

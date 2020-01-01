@@ -307,7 +307,7 @@ h
 "
 #
 ifdef
-NS_DEBUG
+DEBUG
 #
 include
 "
@@ -3358,7 +3358,7 @@ content
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 static
 void
 DumpContext

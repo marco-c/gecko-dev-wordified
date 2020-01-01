@@ -519,7 +519,7 @@ intValue
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 NS_IMETHODIMP
 nsLegendFrame
 :

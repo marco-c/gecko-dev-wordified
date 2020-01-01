@@ -3741,7 +3741,7 @@ return
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 void
 nsTableCellMap
 :
@@ -15709,7 +15709,7 @@ zerocolspan
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 void
 nsCellMap
 :

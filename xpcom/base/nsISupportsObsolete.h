@@ -1326,7 +1326,7 @@ NS_ISUPPORTS_IID
 if
 defined
 (
-NS_DEBUG
+DEBUG
 )
 #
 define

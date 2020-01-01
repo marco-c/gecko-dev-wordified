@@ -1058,7 +1058,7 @@ mStr
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 #
 include
 <

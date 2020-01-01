@@ -932,7 +932,7 @@ ifdef
 PR_LOGGING
 #
 ifdef
-NS_DEBUG
+DEBUG
 /
 /
 PR_LOGGING
@@ -4334,7 +4334,7 @@ aIsPrintPreview
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 mPrt
 -
 >
@@ -18540,7 +18540,7 @@ mDebugFilePtr
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 /
 /
 output

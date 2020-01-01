@@ -399,7 +399,7 @@ this
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 +
 +
 TokenCount

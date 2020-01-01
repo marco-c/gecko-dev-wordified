@@ -101,7 +101,7 @@ define
 __TextEditorTest_h__
 #
 ifdef
-NS_DEBUG
+DEBUG
 #
 include
 "
@@ -206,7 +206,7 @@ mEditor
 endif
 /
 *
-NS_DEBUG
+DEBUG
 *
 /
 #

@@ -2329,7 +2329,7 @@ decCount
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 /
 /
 show
@@ -2444,7 +2444,7 @@ encCount
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 enc
