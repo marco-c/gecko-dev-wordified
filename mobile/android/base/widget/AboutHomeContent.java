@@ -1048,12 +1048,6 @@ refresh
 (
 )
 {
-mTopSites
-.
-onDestroy
-(
-)
-;
 /
 /
 We
@@ -1073,6 +1067,12 @@ removeAllViews
 )
 ;
 inflate
+(
+)
+;
+mTopSites
+.
+refresh
 (
 )
 ;
