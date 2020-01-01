@@ -1480,6 +1480,12 @@ nsEventNameList
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+keep
 #
 undef
 ERROR_EVENT

@@ -121,7 +121,7 @@ pragma
 private
 include
 "
-nsSubstringTuple
+nsStringGlue
 .
 h
 "

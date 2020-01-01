@@ -613,6 +613,12 @@ nsEventNameList
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+keep
 #
 undef
 BEFOREUNLOAD_EVENT

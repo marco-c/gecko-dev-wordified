@@ -5079,6 +5079,12 @@ nsEventNameList
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+keep
 #
 undef
 WINDOW_EVENT
@@ -5870,6 +5876,12 @@ nsEventNameList
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+keep
 #
 undef
 ERROR_EVENT

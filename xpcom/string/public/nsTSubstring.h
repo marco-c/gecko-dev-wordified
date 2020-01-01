@@ -120,7 +120,7 @@ pragma
 private
 include
 "
-nsAString
+nsStringGlue
 .
 h
 "
