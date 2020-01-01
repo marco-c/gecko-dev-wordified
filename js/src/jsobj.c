@@ -5472,6 +5472,10 @@ atomState
 getAtom
 )
 ;
+valcnt
++
++
+;
 }
 if
 (
@@ -5535,11 +5539,11 @@ atomState
 setAtom
 )
 ;
-}
 valcnt
 +
 +
 ;
+}
 }
 else
 {
