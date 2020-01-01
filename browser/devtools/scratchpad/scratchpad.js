@@ -3517,6 +3517,7 @@ exportToFile
 fp
 .
 file
+true
 )
 ;
 }
