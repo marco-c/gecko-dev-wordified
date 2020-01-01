@@ -583,7 +583,8 @@ pointers
 .
 *
 /
-NS_IMETHOD
+virtual
+void
 GetElementsForID
 (
 const

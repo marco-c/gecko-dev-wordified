@@ -8457,7 +8457,6 @@ GetId
 id
 )
 ;
-return
 xuldoc
 -
 >
@@ -8466,6 +8465,9 @@ GetElementsForID
 id
 aElements
 )
+;
+return
+NS_OK
 ;
 }
 nsresult
