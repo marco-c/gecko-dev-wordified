@@ -581,12 +581,12 @@ run_test
 (
 )
 {
-do_load_module
+do_load_manifest
 (
 "
 nsDummyObserver
 .
-js
+manifest
 "
 )
 ;

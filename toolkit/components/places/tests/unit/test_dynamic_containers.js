@@ -581,12 +581,12 @@ dynamic
 container
 sample
 service
-do_load_module
+do_load_manifest
 (
 "
 nsDynamicContainerServiceSample
 .
-js
+manifest
 "
 )
 ;
