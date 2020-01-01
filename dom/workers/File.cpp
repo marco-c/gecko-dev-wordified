@@ -474,7 +474,7 @@ rv
 file
 -
 >
-InitBlob
+InitInternal
 (
 aCx
 aArgc
