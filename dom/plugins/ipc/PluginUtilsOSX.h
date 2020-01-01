@@ -765,13 +765,7 @@ nsRefPtr
 <
 nsCARenderer
 >
-mFrontRenderer
-;
-nsRefPtr
-<
-nsCARenderer
->
-mBackRenderer
+mCARenderer
 ;
 nsRefPtr
 <
