@@ -2102,11 +2102,11 @@ D
 }
 )
 ;
-StringBuffer
+StringBuilder
 sb
 =
 new
-StringBuffer
+StringBuilder
 (
 )
 ;
@@ -2523,11 +2523,11 @@ bug
 is
 fixed
 .
-StringBuffer
+StringBuilder
 sb
 =
 new
-StringBuffer
+StringBuilder
 (
 )
 ;

@@ -702,11 +702,11 @@ byte
 32768
 ]
 ;
-StringBuffer
+StringBuilder
 jsonString
 =
 new
-StringBuffer
+StringBuilder
 (
 )
 ;
