@@ -4560,22 +4560,17 @@ startswith
 continue
                 
 if
-re
-.
-match
-(
 mozpack
 .
 path
 .
-translate
+match
 (
+p
 pattern
 [
 0
 ]
-)
-p
 )
 :
                     

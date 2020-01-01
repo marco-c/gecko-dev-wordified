@@ -2019,17 +2019,10 @@ mozpack
 .
 path
 .
-split
-(
-mozpack
-.
-path
-.
 relpath
 (
 path
 base
-)
 )
         
 if
@@ -2067,6 +2060,17 @@ _non_resources
             
 return
 False
+        
+path
+=
+mozpack
+.
+path
+.
+split
+(
+path
+)
         
 if
 path
