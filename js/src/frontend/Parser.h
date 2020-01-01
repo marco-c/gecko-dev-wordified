@@ -3501,8 +3501,8 @@ setAssignmentLhsOps
 (
 Node
 pn
-bool
-isPlainAssignment
+JSOp
+op
 )
 ;
 bool
@@ -4036,8 +4036,8 @@ setAssignmentLhsOps
 ParseNode
 *
 pn
-bool
-isPlainAssignment
+JSOp
+op
 )
 ;
 template
@@ -4054,8 +4054,8 @@ setAssignmentLhsOps
 (
 Node
 pn
-bool
-isPlainAssignment
+JSOp
+op
 )
 ;
 }
