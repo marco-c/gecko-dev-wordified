@@ -624,6 +624,9 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 nsIGenericFactory
 NS_IGENERICFACTORY_IID
 )
+#
+ifndef
+XPCOM_GLUE_AVOID_NSPR
 NS_COM_GLUE
 nsresult
 NS_NewGenericFactory
@@ -638,6 +641,8 @@ nsModuleComponentInfo
 info
 )
 ;
+#
+endif
 /
 *
 *
@@ -1898,6 +1903,9 @@ NS_MODULEINFO_VERSION
 1
 .
 5
+#
+ifndef
+XPCOM_GLUE_AVOID_NSPR
 /
 *
 *
@@ -1975,6 +1983,11 @@ nsIModule
 result
 )
 ;
+#
+endif
+/
+/
+XPCOM_GLUE_AVOID_NSPR
 #
 if
 defined

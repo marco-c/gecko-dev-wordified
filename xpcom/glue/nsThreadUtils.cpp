@@ -1026,6 +1026,9 @@ dispatchFlags
 )
 ;
 }
+#
+ifndef
+XPCOM_GLUE_AVOID_NSPR
 NS_METHOD
 NS_ProcessPendingEvents
 (
@@ -1161,6 +1164,11 @@ return
 rv
 ;
 }
+#
+endif
+/
+/
+XPCOM_GLUE_AVOID_NSPR
 PRBool
 NS_HasPendingEvents
 (

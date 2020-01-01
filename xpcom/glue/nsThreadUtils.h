@@ -978,6 +978,9 @@ dispatchFlags
 NS_DISPATCH_NORMAL
 )
 ;
+#
+ifndef
+XPCOM_GLUE_AVOID_NSPR
 /
 *
 *
@@ -1121,6 +1124,8 @@ timeout
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+#
+endif
 /
 *
 *
@@ -1737,7 +1742,7 @@ IMETHOD_VISIBILITY
 #
 define
 IMETHOD_VISIBILITY
-NS_VISIBILITY_DEFAULT
+NS_COM_GLUE
 /
 /
 This
