@@ -291,14 +291,14 @@ THUMBNAIL_ASPECT_RATIO
 =
 0
 .
-714f
+571f
 ;
 /
 /
 this
 is
 a
-5
+4
 :
 7
 ratio
