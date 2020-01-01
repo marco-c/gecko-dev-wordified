@@ -16716,8 +16716,6 @@ proto
 getProperty
 (
 cx
-ATOM_TO_JSID
-(
 cx
 -
 >
@@ -16727,7 +16725,6 @@ runtime
 atomState
 .
 constructorAtom
-)
 &
 cval
 )
@@ -21060,7 +21057,7 @@ return
 obj
 -
 >
-getProperty
+getGeneric
 (
 cx
 id
@@ -24287,7 +24284,7 @@ if
 obj
 -
 >
-getProperty
+getGeneric
 (
 cx
 r

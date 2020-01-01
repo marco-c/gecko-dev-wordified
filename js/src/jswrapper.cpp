@@ -1584,7 +1584,7 @@ wrapper
 )
 -
 >
-getProperty
+getGeneric
 (
 cx
 receiver

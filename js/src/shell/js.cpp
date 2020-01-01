@@ -13689,7 +13689,7 @@ if
 obj
 -
 >
-getProperty
+getGeneric
 (
 cx
 id
@@ -18433,7 +18433,7 @@ if
 referent
 -
 >
-getProperty
+getGeneric
 (
 cx
 id

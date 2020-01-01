@@ -6712,7 +6712,7 @@ ni
 obj
 -
 >
-getProperty
+getGeneric
 (
 cx
 id

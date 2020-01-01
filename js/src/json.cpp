@@ -3155,7 +3155,7 @@ if
 obj
 -
 >
-getProperty
+getGeneric
 (
 cx
 id
@@ -5559,7 +5559,7 @@ if
 holder
 -
 >
-getProperty
+getGeneric
 (
 cx
 name

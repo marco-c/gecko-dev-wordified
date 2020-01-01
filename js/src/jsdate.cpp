@@ -12874,8 +12874,6 @@ obj
 getProperty
 (
 cx
-ATOM_TO_JSID
-(
 cx
 -
 >
@@ -12885,7 +12883,6 @@ runtime
 atomState
 .
 toISOStringAtom
-)
 &
 toISO
 )

@@ -3809,7 +3809,7 @@ id
 obj
 -
 >
-getProperty
+getGeneric
 (
 context
 (
