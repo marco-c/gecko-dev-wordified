@@ -3150,14 +3150,6 @@ GetInnerWindow
 (
 )
 )
-&
-&
-window
--
->
-IsInnerWindow
-(
-)
 )
 {
 nsCOMPtr
