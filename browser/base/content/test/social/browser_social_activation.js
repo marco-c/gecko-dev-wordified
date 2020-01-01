@@ -162,7 +162,7 @@ stay
 open
 SocialUI
 .
-notificationPanel
+activationPanel
 .
 hidePopup
 (
@@ -1085,7 +1085,7 @@ ok
 (
 SocialUI
 .
-notificationPanel
+activationPanel
 .
 hidden
 "
@@ -1194,7 +1194,7 @@ ok
 (
 SocialUI
 .
-notificationPanel
+activationPanel
 .
 hidden
 "
@@ -1286,7 +1286,7 @@ ok
 !
 SocialUI
 .
-notificationPanel
+activationPanel
 .
 hidden
 "
@@ -1580,7 +1580,7 @@ ok
 !
 SocialUI
 .
-notificationPanel
+activationPanel
 .
 hidden
 "
@@ -1811,7 +1811,7 @@ ok
 !
 SocialUI
 .
-notificationPanel
+activationPanel
 .
 hidden
 "
