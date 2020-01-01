@@ -440,13 +440,6 @@ mozilla_css_ImportRule_h__
 #
 include
 "
-nsICSSRule
-.
-h
-"
-#
-include
-"
 nsCSSRule
 .
 h
@@ -483,8 +476,6 @@ ImportRule
 :
 public
 nsCSSRule
-public
-nsICSSRule
 public
 nsIDOMCSSImportRule
 {

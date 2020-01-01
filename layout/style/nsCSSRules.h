@@ -1106,8 +1106,6 @@ nsCSSFontFaceRule
 public
 nsCSSRule
 public
-nsICSSRule
-public
 nsIDOMCSSFontFaceRule
 {
 public

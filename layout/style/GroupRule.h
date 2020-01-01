@@ -451,13 +451,6 @@ mozilla_css_GroupRule_h__
 #
 include
 "
-nsICSSRule
-.
-h
-"
-#
-include
-"
 nsCSSRule
 .
 h
@@ -512,8 +505,6 @@ GroupRule
 :
 public
 nsCSSRule
-public
-nsICSSRule
 {
 protected
 :

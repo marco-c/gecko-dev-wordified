@@ -481,13 +481,6 @@ h
 #
 include
 "
-nsICSSRule
-.
-h
-"
-#
-include
-"
 nsCSSRule
 .
 h
@@ -2197,8 +2190,6 @@ StyleRule
 :
 public
 nsCSSRule
-public
-nsICSSRule
 {
 public
 :
