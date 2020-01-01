@@ -6153,9 +6153,8 @@ return
 ok
 ;
 }
-static
 JSBool
-regexp_exec
+js_regexp_exec
 (
 JSContext
 *
@@ -6188,9 +6187,8 @@ vp
 )
 ;
 }
-static
 JSBool
-regexp_test
+js_regexp_test
 (
 JSContext
 *
@@ -6289,7 +6287,7 @@ JS_FN
 "
 exec
 "
-regexp_exec
+js_regexp_exec
 1
 0
 )
@@ -6298,7 +6296,7 @@ JS_FN
 "
 test
 "
-regexp_test
+js_regexp_test
 1
 0
 )
