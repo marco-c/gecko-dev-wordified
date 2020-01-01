@@ -1542,6 +1542,13 @@ AudioSegment
 (
 )
 ;
+outputChunk
+.
+SetNull
+(
+0
+)
+;
 if
 (
 mInCycle
