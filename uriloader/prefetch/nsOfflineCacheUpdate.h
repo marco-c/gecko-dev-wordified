@@ -1032,7 +1032,7 @@ ScheduleImplicit
 (
 )
 ;
-nsresult
+void
 AssociateDocuments
 (
 nsIApplicationCache
@@ -1040,7 +1040,7 @@ nsIApplicationCache
 cache
 )
 ;
-nsresult
+void
 GatherObservers
 (
 nsCOMArray
@@ -1051,7 +1051,7 @@ nsIOfflineCacheUpdateObserver
 aObservers
 )
 ;
-nsresult
+void
 NotifyState
 (
 uint32_t
