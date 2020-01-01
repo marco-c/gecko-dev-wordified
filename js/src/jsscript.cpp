@@ -8728,6 +8728,7 @@ fun
 ?
 fun
 :
+(
 script
 -
 >
@@ -8747,6 +8748,7 @@ cg
 >
 scopeChain
 (
+)
 )
 (
 fun
