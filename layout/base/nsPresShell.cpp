@@ -35447,10 +35447,6 @@ nsPIDOMWindow
 *
 focusedWindow
 ;
-nsIContent
-*
-content
-=
 nsFocusManager
 :
 :
