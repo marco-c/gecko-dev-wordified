@@ -766,6 +766,9 @@ mMessageData
 For
 Notify
 friend
+class
+:
+:
 nsWindow
 ;
 }
