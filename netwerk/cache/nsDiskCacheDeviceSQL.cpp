@@ -7381,7 +7381,7 @@ clientID
 ;
 mActiveCaches
 .
-Put
+PutEntry
 (
 clientID
 )
@@ -12727,7 +12727,7 @@ active
 {
 mActiveCaches
 .
-Remove
+RemoveEntry
 (
 *
 active
@@ -13434,7 +13434,7 @@ active
 {
 mActiveCaches
 .
-Remove
+RemoveEntry
 (
 *
 active
@@ -13464,7 +13464,7 @@ IsEmpty
 {
 mActiveCaches
 .
-Put
+PutEntry
 (
 clientID
 )
