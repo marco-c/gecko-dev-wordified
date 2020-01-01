@@ -948,8 +948,9 @@ nentries
 void
 add
 (
-uint32
-index
+FrameEntry
+*
+fe
 )
 {
 entries
@@ -959,7 +960,7 @@ nentries
 +
 ]
 =
-index
+fe
 ;
 }
 void
@@ -972,7 +973,8 @@ nentries
 0
 ;
 }
-uint32
+FrameEntry
+*
 operator
 [
 ]
@@ -989,7 +991,8 @@ n
 ]
 ;
 }
-uint32
+FrameEntry
+*
 *
 entries
 ;
@@ -2313,6 +2316,8 @@ script
 nfixed
 ;
 }
+/
+/
 uint32
 tos
 (
@@ -2325,6 +2330,14 @@ sp
 base
 ;
 }
+inline
+FrameEntry
+*
+tosFe
+(
+)
+const
+;
 #
 ifdef
 DEBUG
