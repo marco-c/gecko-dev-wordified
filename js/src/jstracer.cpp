@@ -1105,7 +1105,6 @@ LIR_FAR_SLOTS
 sizeof
 (
 LIns
-*
 )
 )
 /
