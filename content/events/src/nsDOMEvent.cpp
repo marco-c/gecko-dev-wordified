@@ -3874,7 +3874,7 @@ oldTouchEvent
 touchEvent
 -
 >
-AssignInputEventData
+AssignTouchEventData
 (
 *
 oldTouchEvent
