@@ -201,7 +201,7 @@ supports
 nsXPConnect
 :
 :
-GetXPConnect
+XPConnect
 (
 )
 -
