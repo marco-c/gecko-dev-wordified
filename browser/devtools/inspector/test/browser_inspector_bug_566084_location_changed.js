@@ -731,7 +731,7 @@ document
 .
 documentElement
 ;
-ok
+is
 (
 inspector
 .
