@@ -2010,17 +2010,6 @@ relatives
 /
 nsAccessible
 *
-GetCachedParent
-(
-)
-const
-{
-return
-mParent
-;
-}
-nsAccessible
-*
 GetCachedNextSibling
 (
 )

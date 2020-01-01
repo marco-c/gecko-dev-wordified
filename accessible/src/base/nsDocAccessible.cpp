@@ -3741,7 +3741,7 @@ parent
 accessible
 -
 >
-GetCachedParent
+GetParent
 (
 )
 )

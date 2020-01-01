@@ -2950,7 +2950,7 @@ mParent
 mAccessible
 -
 >
-GetCachedParent
+GetParent
 (
 )
 ;
