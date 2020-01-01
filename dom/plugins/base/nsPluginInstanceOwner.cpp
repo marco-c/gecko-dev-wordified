@@ -12095,6 +12095,11 @@ Point
 carbonPt
 =
 {
+static_cast
+<
+short
+>
+(
 ptPx
 .
 y
@@ -12102,6 +12107,12 @@ y
 geckoScreenCoords
 .
 y
+)
+static_cast
+<
+short
+>
+(
 ptPx
 .
 x
@@ -12109,6 +12120,7 @@ x
 geckoScreenCoords
 .
 x
+)
 }
 ;
 if
