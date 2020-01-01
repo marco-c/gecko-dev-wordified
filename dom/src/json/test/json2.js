@@ -1322,6 +1322,12 @@ crockfordJSON
 {
 }
 ;
+crockfordJSON
+.
+window
+=
+this
+;
 }
 (
 function
