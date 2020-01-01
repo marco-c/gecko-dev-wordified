@@ -15032,10 +15032,9 @@ JSOP_FUNAPPLY
 if
 (
 !
-GuardFunApplySpeculation
+GuardFunApplyArgumentsOptimization
 (
 cx
-regs
 )
 )
 goto

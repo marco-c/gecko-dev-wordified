@@ -3883,7 +3883,7 @@ needsArgsObj
 ;
 static
 bool
-applySpeculationFailed
+argumentsOptimizationFailed
 (
 JSContext
 *

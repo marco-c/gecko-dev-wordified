@@ -889,14 +889,11 @@ JSOP_FUNAPPLY
 &
 &
 !
-GuardFunApplySpeculation
+GuardFunApplyArgumentsOptimization
 (
 f
 .
 cx
-f
-.
-regs
 )
 )
 THROW
