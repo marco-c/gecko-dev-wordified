@@ -768,7 +768,7 @@ NULL
 call
 *
 /
-Exception
+NULL
 /
 *
 construct
