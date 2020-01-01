@@ -26844,7 +26844,7 @@ interned_id
 &
 :
 :
-JS_LookupPropertyByIdWithFlags
+JS_LookupPropertyWithFlagsById
 (
 cx
 innerObj
@@ -29658,7 +29658,7 @@ interned_id
 !
 :
 :
-JS_LookupPropertyByIdWithFlags
+JS_LookupPropertyWithFlagsById
 (
 cx
 proto
