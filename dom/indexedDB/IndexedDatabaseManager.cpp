@@ -1366,19 +1366,6 @@ IsClosed
 )
 )
 {
-nsISupports
-*
-source
-=
-static_cast
-<
-nsPIDOMEventTarget
-*
->
-(
-mRequestingDatabase
-)
-;
 nsCOMPtr
 <
 nsIDOMEvent
@@ -1390,7 +1377,6 @@ IDBVersionChangeEvent
 :
 CreateBlocked
 (
-source
 mVersion
 )
 ;

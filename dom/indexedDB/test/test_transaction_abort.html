@@ -249,6 +249,8 @@ db
 =
 event
 .
+target
+.
 result
 ;
 let
@@ -287,6 +289,8 @@ yield
 transaction
 =
 event
+.
+target
 .
 transaction
 ;
@@ -1099,6 +1103,8 @@ yield
 ;
 event
 .
+target
+.
 transaction
 .
 onabort
@@ -1126,6 +1132,8 @@ event
 }
 ;
 event
+.
+target
 .
 transaction
 .
@@ -1201,9 +1209,13 @@ key
 =
 event
 .
+target
+.
 result
 ;
 event
+.
+target
 .
 transaction
 .
@@ -1212,6 +1224,8 @@ onabort
 grabEventAndContinueHandler
 ;
 event
+.
+target
 .
 transaction
 .
@@ -1244,6 +1258,8 @@ is
 (
 event
 .
+target
+.
 transaction
 .
 readyState
@@ -1256,6 +1272,8 @@ readyState
 ;
 event
 .
+target
+.
 transaction
 .
 abort
@@ -1265,6 +1283,8 @@ abort
 is
 (
 event
+.
+target
 .
 transaction
 .
@@ -1338,6 +1358,8 @@ yield
 is
 (
 event
+.
+target
 .
 result
 undefined
@@ -1436,7 +1458,9 @@ is
 (
 event
 .
-code
+target
+.
+errorCode
 IDBDatabaseException
 .
 ABORT_ERR
@@ -1473,6 +1497,8 @@ push
 (
 event
 .
+target
+.
 result
 )
 ;
@@ -1488,6 +1514,8 @@ length
 {
 event
 .
+target
+.
 transaction
 .
 onabort
@@ -1495,6 +1523,8 @@ onabort
 grabEventAndContinueHandler
 ;
 event
+.
+target
 .
 transaction
 .
@@ -1607,6 +1637,8 @@ yield
 is
 (
 event
+.
+target
 .
 result
 undefined

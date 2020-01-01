@@ -182,6 +182,8 @@ db
 =
 event
 .
+target
+.
 result
 ;
 let
@@ -213,6 +215,8 @@ event
 yield
 ;
 event
+.
+target
 .
 result
 .
@@ -317,7 +321,9 @@ is
 (
 event
 .
-code
+target
+.
+errorCode
 IDBDatabaseException
 .
 ABORT_ERR

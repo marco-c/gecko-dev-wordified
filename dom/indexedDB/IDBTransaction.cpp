@@ -4765,9 +4765,6 @@ swapped
 }
 event
 =
-IDBEvent
-:
-:
 CreateGenericEvent
 (
 NS_LITERAL_STRING
@@ -4781,9 +4778,6 @@ else
 {
 event
 =
-IDBEvent
-:
-:
 CreateGenericEvent
 (
 NS_LITERAL_STRING
