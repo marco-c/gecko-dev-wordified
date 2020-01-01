@@ -4594,7 +4594,7 @@ visibleItems
 =
 this
 .
-orderedVisibleItems
+visibleItems
 ;
 for
 (
