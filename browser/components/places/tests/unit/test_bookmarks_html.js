@@ -2013,7 +2013,9 @@ do_check_eq
 rootNode
 .
 childCount
-4
+DEFAULT_BOOKMARKS_ON_MENU
++
+1
 )
 ;
 /
@@ -2028,7 +2030,7 @@ rootNode
 .
 getChild
 (
-3
+DEFAULT_BOOKMARKS_ON_MENU
 )
 ;
 do_check_eq
