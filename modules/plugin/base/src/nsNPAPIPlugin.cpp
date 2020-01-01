@@ -1411,7 +1411,7 @@ gOSXVersion
 endif
 inline
 PRBool
-OOPPluginsEnabled
+RunPluginOOP
 (
 const
 char
@@ -1930,7 +1930,7 @@ if
 aFilePath
 &
 &
-OOPPluginsEnabled
+RunPluginOOP
 (
 aFilePath
 tag
