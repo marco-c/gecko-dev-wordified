@@ -6241,6 +6241,7 @@ js
 :
 :
 SwitchToCompartment
+sc
 (
 cx
 *
@@ -6274,6 +6275,7 @@ js
 :
 :
 SwitchToCompartment
+sc
 (
 cx
 *

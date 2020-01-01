@@ -826,6 +826,8 @@ JSCompartment
 *
 oldCompartment
 ;
+JS_DECL_USE_GUARD_OBJECT_NOTIFIER
+;
 public
 :
 PreserveCompartment
@@ -833,6 +835,7 @@ PreserveCompartment
 JSContext
 *
 cx
+JS_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 cx
@@ -840,6 +843,8 @@ cx
 cx
 )
 {
+JS_GUARD_OBJECT_NOTIFIER_INIT
+;
 oldCompartment
 =
 cx
