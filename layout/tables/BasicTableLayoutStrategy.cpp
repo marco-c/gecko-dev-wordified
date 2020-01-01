@@ -4705,6 +4705,14 @@ else
 nscoord
 large_pct_pref
 =
+(
+nonpct_pref_total
+=
+=
+nscoord_MAX
+?
+nscoord_MAX
+:
 nscoord
 (
 float
@@ -4718,6 +4726,7 @@ nonpct_pref_total
 0f
 -
 pct_total
+)
 )
 )
 ;
@@ -5588,9 +5597,12 @@ guess_min_pct
 val
 ;
 guess_pref
-+
 =
+NSCoordSaturatingAdd
+(
+guess_pref
 val
+)
 ;
 }
 else
