@@ -1153,7 +1153,7 @@ return
 }
 win
 .
-PlacesUtils
+PlacesUIUtils
 .
 showMinimalAddBookmarkUI
 (
