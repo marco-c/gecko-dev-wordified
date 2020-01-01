@@ -294,6 +294,10 @@ mSpanChange
 .
 0f
 )
+mTapStartTime
+(
+0
+)
 mLastTapEndTime
 (
 0

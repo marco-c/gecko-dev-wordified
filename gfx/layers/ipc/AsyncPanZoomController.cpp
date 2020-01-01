@@ -688,6 +688,10 @@ mHandlingTouchQueue
 (
 false
 )
+mDelayPanning
+(
+false
+)
 {
 MOZ_ASSERT
 (
