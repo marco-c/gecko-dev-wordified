@@ -39302,6 +39302,9 @@ kBorderImageKTable
 )
 )
 {
+(
+void
+)
 ParseEnum
 (
 verticalKeyword
@@ -40844,6 +40847,9 @@ optional
 commas
 between
 elements
+(
+void
+)
 ExpectSymbol
 (
 '
@@ -51845,6 +51851,9 @@ optional
 commas
 between
 elements
+(
+void
+)
 ExpectSymbol
 (
 '
