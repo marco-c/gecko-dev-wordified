@@ -886,6 +886,12 @@ ANDROID
 |
 defined
 (
+XP_LINUX
+)
+|
+|
+defined
+(
 XP_MACOSX
 )
 |
@@ -1013,3 +1019,7 @@ info
 endif
 #
 endif
+/
+/
+ifndef
+SAMPLER_H
