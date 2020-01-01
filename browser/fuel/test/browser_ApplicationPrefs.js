@@ -54,7 +54,7 @@ boolean
 "
 browser
 .
-blink_allowed
+underline_anchors
 "
 }
 ;
@@ -1002,7 +1002,7 @@ PREF
 boolean
 browser
 .
-blink_allowed
+underline_anchors
 =
 =
 true
