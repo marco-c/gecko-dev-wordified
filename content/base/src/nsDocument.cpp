@@ -9516,8 +9516,6 @@ handled
 while
 (
 aCategory
--
-1
 >
 =
 mExtraPropertyTables
@@ -9525,6 +9523,8 @@ mExtraPropertyTables
 Length
 (
 )
++
+1
 )
 {
 mExtraPropertyTables
