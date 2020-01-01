@@ -26313,7 +26313,7 @@ ErrorCode
 }
 already_AddRefed
 <
-nsIDOMAttr
+Attr
 >
 nsIDocument
 :
@@ -26427,9 +26427,9 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMAttr
+Attr
 >
 attribute
 =
@@ -26506,7 +26506,7 @@ ErrorCode
 }
 already_AddRefed
 <
-nsIDOMAttr
+Attr
 >
 nsIDocument
 :
@@ -26570,9 +26570,9 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMAttr
+Attr
 >
 attribute
 =
