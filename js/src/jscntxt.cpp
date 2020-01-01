@@ -1145,6 +1145,9 @@ base
 ;
 #
 else
+#
+ifdef
+SOLARIS
 munmap
 (
 (
@@ -1154,6 +1157,16 @@ base
 CAPACITY_BYTES
 )
 ;
+#
+else
+munmap
+(
+base
+CAPACITY_BYTES
+)
+;
+#
+endif
 #
 endif
 }
