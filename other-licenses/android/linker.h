@@ -681,11 +681,11 @@ else
 #
 define
 LIBBASE
-0x90000000
+0x70000000
 #
 define
 LIBLAST
-0xA0000000
+0x80000000
 #
 define
 LIBINC
