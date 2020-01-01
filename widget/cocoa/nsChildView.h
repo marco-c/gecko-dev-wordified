@@ -1360,16 +1360,6 @@ NSEventPhase
 momentumPhase
 ;
 end
-protocol
-EventRedirection
--
-(
-NSView
-*
-)
-targetView
-;
-end
 interface
 ChildView
 :
