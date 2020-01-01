@@ -1841,7 +1841,6 @@ defaultPort
 ;
 static
 PRBool
-PR_CALLBACK
 CleanupFilterArray
 (
 void

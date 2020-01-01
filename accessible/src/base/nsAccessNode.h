@@ -756,7 +756,6 @@ aCache
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 ClearCacheEntry
 (
 const

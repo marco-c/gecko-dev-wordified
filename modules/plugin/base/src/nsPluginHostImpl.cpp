@@ -35171,7 +35171,6 @@ the
 filenames
 static
 int
-PR_CALLBACK
 ComparePluginFileInDirectory
 (
 const

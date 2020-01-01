@@ -2188,10 +2188,8 @@ return
 counterList
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 RecalcDirtyLists
 (
 const
@@ -2272,10 +2270,8 @@ mDestroyedAny
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 DestroyNodesInList
 (
 const
@@ -2371,10 +2367,8 @@ mDestroyedAny
 #
 ifdef
 DEBUG
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 DumpList
 (
 const

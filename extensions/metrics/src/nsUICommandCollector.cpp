@@ -588,7 +588,6 @@ static
 *
 /
 PLDHashOperator
-PR_CALLBACK
 nsUICommandCollector
 :
 :
@@ -675,7 +674,6 @@ static
 *
 /
 PLDHashOperator
-PR_CALLBACK
 nsUICommandCollector
 :
 :

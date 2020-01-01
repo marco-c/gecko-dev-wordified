@@ -1502,7 +1502,6 @@ type
 )
 static
 type
-PR_CALLBACK
 /
 *
 a

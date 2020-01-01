@@ -1018,7 +1018,6 @@ typedef
 void
 *
 (
-PR_CALLBACK
 EventHandlerFunc
 )
 (
@@ -1030,7 +1029,6 @@ self
 typedef
 void
 (
-PR_CALLBACK
 EventDestructorFunc
 )
 (

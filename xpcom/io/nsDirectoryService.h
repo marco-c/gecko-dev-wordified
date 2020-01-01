@@ -582,7 +582,6 @@ aFile
 ;
 static
 PRBool
-PR_CALLBACK
 ReleaseValues
 (
 nsHashKey

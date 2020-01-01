@@ -940,7 +940,6 @@ result
 ;
 }
 PRBool
-PR_CALLBACK
 nsTreeStyleCache
 :
 :
@@ -978,7 +977,6 @@ PR_TRUE
 ;
 }
 PRBool
-PR_CALLBACK
 nsTreeStyleCache
 :
 :

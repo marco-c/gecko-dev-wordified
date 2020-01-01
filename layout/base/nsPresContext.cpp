@@ -908,7 +908,6 @@ colorref
 ;
 }
 int
-PR_CALLBACK
 nsPresContext
 :
 :
@@ -1106,10 +1105,8 @@ endif
 /
 /
 IBMBIDI
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 destroy_loads
 (
 const
@@ -1854,10 +1851,8 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 nsPresContext
 )
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 TraverseImageLoader
 (
 const
@@ -6170,10 +6165,8 @@ call
 back
 for
 HashTable
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 set_animation_mode
 (
 const

@@ -836,10 +836,8 @@ nsIOThreadPool
 (
 )
 ;
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 ThreadFunc
 (
 void

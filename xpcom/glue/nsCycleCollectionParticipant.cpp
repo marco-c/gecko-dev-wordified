@@ -436,10 +436,8 @@ nsCOMPtr
 .
 h
 "
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 NoteChild
 (
 PRUint32

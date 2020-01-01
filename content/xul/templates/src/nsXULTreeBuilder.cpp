@@ -1112,7 +1112,6 @@ NS_QuickSort
 /
 static
 int
-PR_CALLBACK
 Compare
 (
 const

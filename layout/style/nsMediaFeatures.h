@@ -451,7 +451,6 @@ typedef
 nsresult
 (
 *
-PR_CALLBACK
 nsMediaFeatureValueGetter
 )
 (

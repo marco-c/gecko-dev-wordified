@@ -565,10 +565,8 @@ code
 *
 /
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 TraverseCommandObservers
 (
 const

@@ -2047,10 +2047,8 @@ trc
 ;
 }
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 TraceJSObject
 (
 PRUint32

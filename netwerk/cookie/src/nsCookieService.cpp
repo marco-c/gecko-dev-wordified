@@ -3031,10 +3031,8 @@ to
 a
 server
 .
-PR_STATIC_CALLBACK
-(
+static
 int
-)
 compareCookiesForSending
 (
 const
@@ -6476,10 +6474,8 @@ currentTime
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 COMArrayCallback
 (
 nsCookieEntry
@@ -16161,7 +16157,6 @@ mCookieCount
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 removeExpiredCallback
 (
 nsCookieEntry
@@ -17843,10 +17838,8 @@ rv
 }
 }
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 findOldestCallback
 (
 nsCookieEntry

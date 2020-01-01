@@ -714,7 +714,6 @@ nsStaticComponent
 h
 "
 nsresult
-PR_CALLBACK
 ph_getModuleInfo
 (
 nsStaticModuleInfo

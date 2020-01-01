@@ -1549,7 +1549,6 @@ private
 :
 static
 PLDHashOperator
-PR_CALLBACK
 FindFontForCharProc
 (
 nsStringHashKey
@@ -1712,7 +1711,6 @@ aFamilyName
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 InitOtherFamilyNamesProc
 (
 nsStringHashKey
@@ -1756,7 +1754,6 @@ aUserArg
 ;
 static
 int
-PR_CALLBACK
 PrefChangedCallback
 (
 const
@@ -1770,7 +1767,6 @@ closure
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 HashEnumFuncForFamilies
 (
 nsStringHashKey

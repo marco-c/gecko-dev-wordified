@@ -439,7 +439,6 @@ h
 static
 void
 *
-PR_CALLBACK
 CloneCString
 (
 nsHashKey
@@ -470,7 +469,6 @@ aData
 }
 static
 PRBool
-PR_CALLBACK
 DeleteCString
 (
 nsHashKey

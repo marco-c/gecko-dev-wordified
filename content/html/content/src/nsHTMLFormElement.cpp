@@ -2885,10 +2885,8 @@ NS_OK
 /
 /
 nsISupports
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 ElementTraverser
 (
 const
@@ -11159,10 +11157,8 @@ Flush_Content
 }
 }
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 ControlTraverser
 (
 const

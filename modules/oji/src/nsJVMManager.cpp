@@ -1948,7 +1948,6 @@ NS_ERROR_FAILURE
 }
 static
 void
-PR_CALLBACK
 thread_starter
 (
 void

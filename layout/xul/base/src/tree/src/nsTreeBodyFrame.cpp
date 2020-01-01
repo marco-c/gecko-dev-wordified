@@ -964,10 +964,8 @@ requests
 in
 our
 cache
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 CancelImageRequest
 (
 const

@@ -27933,7 +27933,6 @@ typedef
 PRBool
 (
 *
-PR_CALLBACK
 ElementMatchedCallback
 )
 (
@@ -28573,10 +28572,8 @@ return
 continueIteration
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 FindFirstMatchingElement
 (
 nsIContent
@@ -28731,10 +28728,8 @@ return
 NS_OK
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 AppendAllMatchingElements
 (
 nsIContent

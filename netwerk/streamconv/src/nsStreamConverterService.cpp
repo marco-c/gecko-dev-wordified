@@ -848,7 +848,6 @@ adjacency
 list
 static
 PRBool
-PR_CALLBACK
 DeleteAdjacencyEntry
 (
 nsHashKey
@@ -1986,7 +1985,6 @@ table
 .
 static
 PRBool
-PR_CALLBACK
 InitBFSTable
 (
 nsHashKey
@@ -2134,7 +2132,6 @@ state
 table
 static
 PRBool
-PR_CALLBACK
 DeleteBFSEntry
 (
 nsHashKey

@@ -4341,10 +4341,8 @@ mData
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 int
-)
 VoidArrayComparator
 (
 const
@@ -5428,10 +5426,8 @@ Clear
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 int
-)
 CompareString
 (
 const
@@ -6835,10 +6831,8 @@ Clear
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 int
-)
 CompareCString
 (
 const
@@ -6948,10 +6942,8 @@ endif
 #
 ifdef
 MOZILLA_INTERNAL_API
-PR_STATIC_CALLBACK
-(
+static
 int
-)
 CompareCStringIgnoreCase
 (
 const

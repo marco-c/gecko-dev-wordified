@@ -1724,10 +1724,8 @@ aResult
 ;
 #
 endif
-PR_STATIC_CALLBACK
-(
+static
 nsresult
-)
 Initialize
 (
 nsIModule
@@ -2204,7 +2202,6 @@ module
 /
 static
 nsresult
-PR_CALLBACK
 Initialize
 (
 nsIModule

@@ -670,7 +670,6 @@ typedef
 PRBool
 (
 *
-PR_CALLBACK
 INISectionCallback
 )
 (
@@ -730,7 +729,6 @@ typedef
 PRBool
 (
 *
-PR_CALLBACK
 INIStringCallback
 )
 (

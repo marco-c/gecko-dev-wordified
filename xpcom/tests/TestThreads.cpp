@@ -1132,10 +1132,8 @@ return
 0
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 threadProc
 (
 void

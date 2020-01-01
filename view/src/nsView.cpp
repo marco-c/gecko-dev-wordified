@@ -497,7 +497,6 @@ h
 mmptemp
 static
 nsEventStatus
-PR_CALLBACK
 HandleEvent
 (
 nsGUIEvent
@@ -1006,7 +1005,6 @@ handler
 /
 /
 nsEventStatus
-PR_CALLBACK
 HandleEvent
 (
 nsGUIEvent

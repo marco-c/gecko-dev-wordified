@@ -2045,10 +2045,8 @@ mAttributes
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashNumber
-)
 MappedAttrTable_HashKey
 (
 PLDHashTable
@@ -2089,10 +2087,8 @@ HashValue
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 MappedAttrTable_ClearEntry
 (
 PLDHashTable
@@ -2137,10 +2133,8 @@ MappedAttrTableEntry
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 MappedAttrTable_MatchEntry
 (
 PLDHashTable

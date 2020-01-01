@@ -2021,10 +2021,8 @@ mux
 schedule
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 strmap_ClearEntry
 (
 PLDHashTable
@@ -2194,10 +2192,8 @@ mDocMapEntry
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 objmap_ClearEntry
 (
 PLDHashTable
@@ -7171,10 +7167,8 @@ PLDHashTableOps
 below
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashNumber
-)
 idmap_HashKey
 (
 PLDHashTable
@@ -7208,10 +7202,8 @@ idp
 m0
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 idmap_MatchEntry
 (
 PLDHashTable
@@ -9779,7 +9771,6 @@ NS_OK
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 nsFastLoadFileWriter
 :
 :
@@ -9879,7 +9870,6 @@ mInfo
 }
 ;
 PLDHashOperator
-PR_CALLBACK
 nsFastLoadFileWriter
 :
 :
@@ -10030,7 +10020,6 @@ PL_DHASH_NEXT
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 nsFastLoadFileWriter
 :
 :
@@ -10136,7 +10125,6 @@ PL_DHASH_NEXT
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 nsFastLoadFileWriter
 :
 :
@@ -13119,7 +13107,6 @@ NS_OK
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 nsFastLoadFileUpdater
 :
 :

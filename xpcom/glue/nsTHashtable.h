@@ -1605,7 +1605,6 @@ typedef
 PLDHashOperator
 (
 *
-PR_CALLBACK
 Enumerator
 )
 (
@@ -1773,7 +1772,6 @@ static
 const
 void
 *
-PR_CALLBACK
 s_GetKey
 (
 PLDHashTable
@@ -1786,7 +1784,6 @@ entry
 ;
 static
 PLDHashNumber
-PR_CALLBACK
 s_HashKey
 (
 PLDHashTable
@@ -1800,7 +1797,6 @@ key
 ;
 static
 PRBool
-PR_CALLBACK
 s_MatchEntry
 (
 PLDHashTable
@@ -1818,7 +1814,6 @@ key
 ;
 static
 void
-PR_CALLBACK
 s_CopyEntry
 (
 PLDHashTable
@@ -1835,7 +1830,6 @@ to
 ;
 static
 void
-PR_CALLBACK
 s_ClearEntry
 (
 PLDHashTable
@@ -1848,7 +1842,6 @@ entry
 ;
 static
 PRBool
-PR_CALLBACK
 s_InitEntry
 (
 PLDHashTable
@@ -1914,7 +1907,6 @@ userArg
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 s_EnumStub
 (
 PLDHashTable

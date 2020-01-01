@@ -2629,7 +2629,6 @@ functions
 *
 /
 PLDHashNumber
-PR_CALLBACK
 nsCacheEntryHashTable
 :
 :
@@ -2664,7 +2663,6 @@ get
 ;
 }
 PRBool
-PR_CALLBACK
 nsCacheEntryHashTable
 :
 :
@@ -2741,7 +2739,6 @@ key
 ;
 }
 void
-PR_CALLBACK
 nsCacheEntryHashTable
 :
 :
@@ -2787,7 +2784,6 @@ cacheEntry
 ;
 }
 void
-PR_CALLBACK
 nsCacheEntryHashTable
 :
 :

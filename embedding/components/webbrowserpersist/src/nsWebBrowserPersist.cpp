@@ -13746,7 +13746,6 @@ NS_OK
 ;
 }
 PRBool
-PR_CALLBACK
 nsWebBrowserPersist
 :
 :
@@ -14004,7 +14003,6 @@ mTotalMaxProgress
 }
 }
 PRBool
-PR_CALLBACK
 nsWebBrowserPersist
 :
 :
@@ -14100,7 +14098,6 @@ PR_TRUE
 ;
 }
 PRBool
-PR_CALLBACK
 nsWebBrowserPersist
 :
 :
@@ -14173,7 +14170,6 @@ PR_TRUE
 ;
 }
 PRBool
-PR_CALLBACK
 nsWebBrowserPersist
 :
 :
@@ -14238,7 +14234,6 @@ PR_TRUE
 ;
 }
 PRBool
-PR_CALLBACK
 nsWebBrowserPersist
 :
 :
@@ -14544,7 +14539,6 @@ PR_TRUE
 ;
 }
 PRBool
-PR_CALLBACK
 nsWebBrowserPersist
 :
 :
@@ -14633,7 +14627,6 @@ PR_TRUE
 ;
 }
 PRBool
-PR_CALLBACK
 nsWebBrowserPersist
 :
 :
@@ -14681,7 +14674,6 @@ PR_TRUE
 ;
 }
 PRBool
-PR_CALLBACK
 nsWebBrowserPersist
 :
 :

@@ -2079,7 +2079,6 @@ functions
 static
 void
 *
-PR_CALLBACK
 AllocTable
 (
 void
@@ -2090,7 +2089,6 @@ size
 ;
 static
 void
-PR_CALLBACK
 FreeTable
 (
 void
@@ -2103,7 +2101,6 @@ item
 static
 PLHashEntry
 *
-PR_CALLBACK
 AllocEntry
 (
 void
@@ -2116,7 +2113,6 @@ key
 ;
 static
 void
-PR_CALLBACK
 FreeEntry
 (
 void

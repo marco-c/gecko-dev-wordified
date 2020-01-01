@@ -1718,10 +1718,8 @@ css
 .
 report_errors
 "
-PR_STATIC_CALLBACK
-(
+static
 int
-)
 CSSErrorsPrefChanged
 (
 const

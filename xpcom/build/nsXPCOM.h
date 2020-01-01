@@ -695,7 +695,6 @@ FROZEN
 typedef
 nsresult
 (
-PR_CALLBACK
 *
 nsGetModuleProc
 )

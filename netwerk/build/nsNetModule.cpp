@@ -4058,10 +4058,8 @@ Net
 module
 startup
 hook
-PR_STATIC_CALLBACK
-(
+static
 nsresult
-)
 nsNetStartup
 (
 nsIModule
@@ -4092,7 +4090,6 @@ shutdown
 hook
 static
 void
-PR_CALLBACK
 nsNetShutdown
 (
 nsIModule

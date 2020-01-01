@@ -4002,7 +4002,6 @@ aInstancePtr
 ;
 }
 nsEventStatus
-PR_CALLBACK
 nsWebShell
 :
 :

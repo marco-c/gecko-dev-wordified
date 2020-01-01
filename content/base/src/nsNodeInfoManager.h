@@ -907,7 +907,6 @@ private
 :
 static
 PRIntn
-PR_CALLBACK
 NodeInfoInnerKeyCompare
 (
 const
@@ -922,7 +921,6 @@ key2
 ;
 static
 PLHashNumber
-PR_CALLBACK
 GetNodeInfoInnerHashValue
 (
 const

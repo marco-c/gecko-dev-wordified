@@ -576,10 +576,8 @@ nsThreadArray
 -
 -
 -
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 ReleaseObject
 (
 void
@@ -602,10 +600,8 @@ Release
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 AppendAndRemoveThread
 (
 const

@@ -8755,7 +8755,6 @@ aIndent
 endif
 static
 PRBool
-PR_CALLBACK
 EnumClearRuleCascades
 (
 void

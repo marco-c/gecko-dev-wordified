@@ -7000,7 +7000,6 @@ chrome
 "
 ;
 int
-PR_CALLBACK
 nsJSContext
 :
 :
@@ -21137,7 +21136,6 @@ nsnull
 }
 static
 int
-PR_CALLBACK
 MaxScriptRunTimePrefChangedCallback
 (
 const
@@ -21266,7 +21264,6 @@ return
 }
 static
 int
-PR_CALLBACK
 ReportAllJSExceptionsPrefChangedCallback
 (
 const

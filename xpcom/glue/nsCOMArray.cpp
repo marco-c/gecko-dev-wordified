@@ -445,10 +445,8 @@ nsCOMPtr
 .
 h
 "
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 ReleaseObjects
 (
 void

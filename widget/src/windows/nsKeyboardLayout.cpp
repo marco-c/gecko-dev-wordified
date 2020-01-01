@@ -3552,7 +3552,6 @@ aVirtualKey
 ;
 }
 int
-PR_CALLBACK
 KeyboardLayout
 :
 :

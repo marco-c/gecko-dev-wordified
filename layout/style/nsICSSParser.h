@@ -539,7 +539,6 @@ typedef
 void
 (
 *
-PR_CALLBACK
 RuleAppendFunc
 )
 (

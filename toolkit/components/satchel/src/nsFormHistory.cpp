@@ -4838,7 +4838,6 @@ NS_OK
 ;
 }
 int
-PR_CALLBACK
 nsFormHistory
 :
 :

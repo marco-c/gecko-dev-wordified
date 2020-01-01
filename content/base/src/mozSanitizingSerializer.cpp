@@ -872,7 +872,6 @@ cpp
 "
 >
 PRBool
-PR_CALLBACK
 mozSanitizingHTMLSerializer
 :
 :

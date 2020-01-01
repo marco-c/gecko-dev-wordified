@@ -2010,10 +2010,8 @@ info
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 TraverseKey
 (
 nsISupports
@@ -2711,10 +2709,8 @@ NS_OK
 }
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 BuildContentLists
 (
 nsISupports
@@ -3305,10 +3301,8 @@ return
 PL_DHASH_NEXT
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 RealizeDefaultContent
 (
 nsISupports
@@ -3709,10 +3703,8 @@ return
 PL_DHASH_NEXT
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 ChangeDocumentForDefaultContent
 (
 nsISupports

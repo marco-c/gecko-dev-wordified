@@ -1971,7 +1971,6 @@ Callbacks
 /
 /
 PRBool
-PR_CALLBACK
 nsFactoryEntry_Destroy
 (
 nsHashKey
@@ -1985,10 +1984,8 @@ void
 closure
 )
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashNumber
-)
 factory_HashKey
 (
 PLDHashTable
@@ -2022,10 +2019,8 @@ cidp
 m0
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 factory_MatchEntry
 (
 PLDHashTable
@@ -2089,10 +2084,8 @@ cidp
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 factory_ClearEntry
 (
 PLDHashTable
@@ -2173,10 +2166,8 @@ factory_ClearEntry
 PL_DHashFinalizeStub
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 contractID_ClearEntry
 (
 PLDHashTable
@@ -2584,7 +2575,6 @@ impl
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 Enumerator
 (
 PLDHashTable
@@ -2606,7 +2596,6 @@ data
 /
 static
 PLDHashOperator
-PR_CALLBACK
 PLDHashTableEnumeratorImpl
 :
 :
@@ -6041,10 +6030,8 @@ mLoaderData
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 ContractIDWriter
 (
 PLDHashTable
@@ -6186,10 +6173,8 @@ return
 PL_DHASH_NEXT
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 ClassIDWriter
 (
 PLDHashTable
@@ -9358,7 +9343,6 @@ Manager
 Impl
 static
 PLDHashOperator
-PR_CALLBACK
 FreeServiceFactoryEntryEnumerate
 (
 PLDHashTable
@@ -9420,7 +9404,6 @@ PL_DHASH_NEXT
 }
 static
 PLDHashOperator
-PR_CALLBACK
 FreeServiceContractIDEntryEnumerate
 (
 PLDHashTable
@@ -14832,7 +14815,6 @@ UnregisterConditions
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 DeleteFoundCIDs
 (
 PLDHashTable

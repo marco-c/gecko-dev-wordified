@@ -655,7 +655,6 @@ mBinding
 ;
 static
 PLDHashNumber
-PR_CALLBACK
 HashKey
 (
 PLDHashTable
@@ -679,7 +678,6 @@ key
 }
 static
 PRBool
-PR_CALLBACK
 MatchEntry
 (
 PLDHashTable
@@ -736,7 +734,6 @@ key
 }
 static
 void
-PR_CALLBACK
 MoveEntry
 (
 PLDHashTable
@@ -780,7 +777,6 @@ mBinding
 }
 static
 void
-PR_CALLBACK
 ClearEntry
 (
 PLDHashTable
@@ -2575,7 +2571,6 @@ bindings
 *
 /
 PLDHashOperator
-PR_CALLBACK
 ActiveBinding
 (
 PLDHashTable

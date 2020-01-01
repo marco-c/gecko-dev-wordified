@@ -958,7 +958,6 @@ data
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 FontGetStylesProc
 (
 nsStringHashKey
@@ -979,7 +978,6 @@ userArg
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 FontGetCMapDataProc
 (
 nsStringHashKey
@@ -1019,7 +1017,6 @@ data
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 HashEnumFunc
 (
 nsStringHashKey
@@ -1040,7 +1037,6 @@ userArg
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 FindFontForCharProc
 (
 nsStringHashKey
@@ -1067,7 +1063,6 @@ GetPlatformCMSOutputProfile
 ;
 static
 int
-PR_CALLBACK
 PrefChangedCallback
 (
 const

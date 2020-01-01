@@ -4422,7 +4422,6 @@ NS_OK
 }
 static
 PRStatus
-PR_CALLBACK
 nsSOCKSIOLayerConnect
 (
 PRFileDesc
@@ -5276,7 +5275,6 @@ PR_SUCCESS
 }
 static
 PRStatus
-PR_CALLBACK
 nsSOCKSIOLayerClose
 (
 PRFileDesc
@@ -5351,7 +5349,6 @@ lower
 static
 PRFileDesc
 *
-PR_CALLBACK
 nsSOCKSIOLayerAccept
 (
 PRFileDesc
@@ -5396,7 +5393,6 @@ timeout
 }
 static
 PRInt32
-PR_CALLBACK
 nsSOCKSIOLayerAcceptRead
 (
 PRFileDesc
@@ -5458,7 +5454,6 @@ timeout
 }
 static
 PRStatus
-PR_CALLBACK
 nsSOCKSIOLayerBind
 (
 PRFileDesc
@@ -5507,7 +5502,6 @@ addr
 }
 static
 PRStatus
-PR_CALLBACK
 nsSOCKSIOLayerGetName
 (
 PRFileDesc
@@ -5569,7 +5563,6 @@ PR_FAILURE
 }
 static
 PRStatus
-PR_CALLBACK
 nsSOCKSIOLayerGetPeerName
 (
 PRFileDesc
@@ -5631,7 +5624,6 @@ PR_FAILURE
 }
 static
 PRStatus
-PR_CALLBACK
 nsSOCKSIOLayerListen
 (
 PRFileDesc

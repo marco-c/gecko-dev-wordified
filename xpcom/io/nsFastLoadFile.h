@@ -3160,7 +3160,6 @@ aQITag
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 IDMapEnumerate
 (
 PLDHashTable
@@ -3178,7 +3177,6 @@ aData
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 ObjectMapEnumerate
 (
 PLDHashTable
@@ -3196,7 +3194,6 @@ aData
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 DocumentMapEnumerate
 (
 PLDHashTable
@@ -3214,7 +3211,6 @@ aData
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 DependencyMapEnumerate
 (
 PLDHashTable
@@ -3429,7 +3425,6 @@ Close
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 CopyReadDocumentMapEntryToUpdater
 (
 PLDHashTable

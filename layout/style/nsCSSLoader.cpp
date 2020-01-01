@@ -2027,10 +2027,8 @@ return
 NS_OK
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 CollectNonAlternates
 (
 nsURIAndPrincipalHashKey
@@ -13542,10 +13540,8 @@ aLoader
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 StopLoadingSheetCallback
 (
 nsURIAndPrincipalHashKey
@@ -13912,10 +13908,8 @@ array
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 StopLoadingSheetByURICallback
 (
 nsURIAndPrincipalHashKey
@@ -14498,10 +14492,8 @@ aObserver
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 CollectLoadDatas
 (
 nsURIAndPrincipalHashKey

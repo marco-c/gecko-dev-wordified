@@ -2861,7 +2861,6 @@ static
 *
 /
 PLDHashOperator
-PR_CALLBACK
 nsMetricsConfig
 :
 :

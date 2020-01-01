@@ -664,7 +664,6 @@ Create
 ;
 static
 nsEventStatus
-PR_CALLBACK
 HandleEvent
 (
 nsGUIEvent

@@ -578,7 +578,6 @@ function
 prototypes
 static
 PRBool
-PR_CALLBACK
 enumFind
 (
 void
@@ -591,7 +590,6 @@ aData
 ;
 static
 PRBool
-PR_CALLBACK
 enumFree
 (
 void
@@ -3096,7 +3094,6 @@ functions
 *
 static
 PRBool
-PR_CALLBACK
 enumFind
 (
 void
@@ -3163,7 +3160,6 @@ elemStr
 }
 static
 PRBool
-PR_CALLBACK
 enumFree
 (
 void

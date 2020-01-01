@@ -1460,10 +1460,8 @@ AutocompleteExclude
 aExclude
 )
 ;
-PR_STATIC_CALLBACK
-(
+static
 int
-)
 AutoCompleteSortComparison
 (
 nsIMdbRow

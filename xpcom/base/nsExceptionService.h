@@ -606,7 +606,6 @@ tlsIndex
 ;
 static
 void
-PR_CALLBACK
 ThreadDestruct
 (
 void

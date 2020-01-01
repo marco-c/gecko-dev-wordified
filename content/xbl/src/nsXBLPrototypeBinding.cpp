@@ -2262,10 +2262,8 @@ return
 NS_OK
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRIntn
-)
 TraverseInsertionPoint
 (
 nsHashKey
@@ -2323,10 +2321,8 @@ return
 kHashEnumerateNext
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 TraverseBinding
 (
 nsHashKey
@@ -3724,7 +3720,6 @@ aPrototype
 }
 ;
 PRBool
-PR_CALLBACK
 InstantiateInsertionPoint
 (
 nsHashKey
@@ -5435,7 +5430,6 @@ lots
 of
 AttributeChanged
 PRBool
-PR_CALLBACK
 SetAttrs
 (
 nsHashKey
@@ -5833,7 +5827,6 @@ PR_TRUE
 ;
 }
 PRBool
-PR_CALLBACK
 SetAttrsNS
 (
 nsHashKey
@@ -6102,7 +6095,6 @@ PR_TRUE
 }
 static
 PRBool
-PR_CALLBACK
 DeleteAttributeEntry
 (
 nsHashKey
@@ -6137,7 +6129,6 @@ PR_TRUE
 }
 static
 PRBool
-PR_CALLBACK
 DeleteAttributeTable
 (
 nsHashKey
@@ -6917,7 +6908,6 @@ i
 }
 static
 PRBool
-PR_CALLBACK
 DeleteInsertionPointEntry
 (
 nsHashKey

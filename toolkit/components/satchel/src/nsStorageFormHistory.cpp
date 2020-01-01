@@ -4514,7 +4514,6 @@ static
 *
 /
 PLDHashOperator
-PR_CALLBACK
 nsFormHistoryImporter
 :
 :

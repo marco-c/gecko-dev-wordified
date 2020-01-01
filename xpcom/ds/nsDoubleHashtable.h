@@ -1608,10 +1608,8 @@ DHASH_CALLBACKS
 ENTRY_CLASS
 )
 \
-PR_STATIC_CALLBACK
-(
+static
 PLDHashNumber
-)
 \
 ENTRY_CLASS
 #
@@ -1641,10 +1639,8 @@ key
 \
 }
 \
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 \
 ENTRY_CLASS
 #
@@ -1695,10 +1691,8 @@ key
 \
 }
 \
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 \
 ENTRY_CLASS
 #
@@ -1740,10 +1734,8 @@ ENTRY_CLASS
 \
 }
 \
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 \
 ENTRY_CLASS
 #

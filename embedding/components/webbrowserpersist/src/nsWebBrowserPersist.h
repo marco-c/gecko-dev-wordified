@@ -1234,7 +1234,6 @@ table
 enumerators
 static
 PRBool
-PR_CALLBACK
 EnumPersistURIs
 (
 nsHashKey
@@ -1250,7 +1249,6 @@ closure
 ;
 static
 PRBool
-PR_CALLBACK
 EnumCleanupURIMap
 (
 nsHashKey
@@ -1266,7 +1264,6 @@ closure
 ;
 static
 PRBool
-PR_CALLBACK
 EnumCleanupOutputMap
 (
 nsHashKey
@@ -1282,7 +1279,6 @@ closure
 ;
 static
 PRBool
-PR_CALLBACK
 EnumCleanupUploadList
 (
 nsHashKey
@@ -1298,7 +1294,6 @@ closure
 ;
 static
 PRBool
-PR_CALLBACK
 EnumCalcProgress
 (
 nsHashKey
@@ -1314,7 +1309,6 @@ closure
 ;
 static
 PRBool
-PR_CALLBACK
 EnumCalcUploadProgress
 (
 nsHashKey
@@ -1330,7 +1324,6 @@ closure
 ;
 static
 PRBool
-PR_CALLBACK
 EnumFixRedirect
 (
 nsHashKey
@@ -1346,7 +1339,6 @@ closure
 ;
 static
 PRBool
-PR_CALLBACK
 EnumCountURIsToPersist
 (
 nsHashKey

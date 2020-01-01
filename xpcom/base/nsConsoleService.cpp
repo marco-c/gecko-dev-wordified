@@ -800,7 +800,6 @@ NS_OK
 }
 static
 PRBool
-PR_CALLBACK
 snapshot_enum_func
 (
 nsHashKey

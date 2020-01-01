@@ -608,7 +608,6 @@ nsnull
 typedef
 void
 (
-PR_CALLBACK
 nsLazyFrameConstructionCallback
 )
 (

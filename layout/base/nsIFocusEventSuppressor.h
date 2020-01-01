@@ -452,7 +452,6 @@ typedef
 void
 (
 *
-PR_CALLBACK
 nsFocusEventSuppressorCallback
 )
 (

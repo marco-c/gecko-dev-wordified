@@ -485,7 +485,6 @@ typedef
 int
 (
 *
-PR_CALLBACK
 nsVoidArrayComparatorFunc
 )
 (
@@ -516,7 +515,6 @@ typedef
 PRBool
 (
 *
-PR_CALLBACK
 nsVoidArrayEnumFunc
 )
 (
@@ -1391,7 +1389,6 @@ typedef
 int
 (
 *
-PR_CALLBACK
 nsStringArrayComparatorFunc
 )
 (
@@ -1675,7 +1672,6 @@ typedef
 int
 (
 *
-PR_CALLBACK
 nsCStringArrayComparatorFunc
 )
 (

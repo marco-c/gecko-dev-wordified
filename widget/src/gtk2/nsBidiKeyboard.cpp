@@ -483,7 +483,6 @@ nsnull
 typedef
 gboolean
 (
-PR_CALLBACK
 *
 GdkKeymapHaveBidiLayoutsType
 )

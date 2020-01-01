@@ -3624,10 +3624,8 @@ PRUnichar
 >
 id
 hash
-PR_STATIC_CALLBACK
-(
+static
 PLHashNumber
-)
 HTMLTagsHashCodeUCPtr
 (
 const
@@ -3658,10 +3656,8 @@ str
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRIntn
-)
 HTMLTagsKeyCompareUCPtr
 (
 const
@@ -3720,10 +3716,8 @@ nsIAtom
 >
 id
 hash
-PR_STATIC_CALLBACK
-(
+static
 PLHashNumber
-)
 HTMLTagsHashCodeAtom
 (
 const

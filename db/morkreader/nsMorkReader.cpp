@@ -1122,10 +1122,8 @@ return
 NS_OK
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 DeleteStringArray
 (
 const
@@ -1225,10 +1223,8 @@ result
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 AddColumn
 (
 const

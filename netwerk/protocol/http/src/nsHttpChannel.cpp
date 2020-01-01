@@ -16961,10 +16961,8 @@ redirect
 -
 -
 -
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 CopyProperties
 (
 const

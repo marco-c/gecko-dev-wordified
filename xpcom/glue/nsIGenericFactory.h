@@ -1687,7 +1687,6 @@ loaded
 typedef
 nsresult
 (
-PR_CALLBACK
 *
 nsModuleConstructorProc
 )
@@ -1731,7 +1730,6 @@ destroyed
 typedef
 void
 (
-PR_CALLBACK
 *
 nsModuleDestructorProc
 )

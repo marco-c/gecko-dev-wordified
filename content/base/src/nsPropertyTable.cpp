@@ -2015,10 +2015,8 @@ mObjectValueMap
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 DestroyPropertyEnumerator
 (
 PLDHashTable

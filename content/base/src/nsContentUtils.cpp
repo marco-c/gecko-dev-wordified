@@ -1736,10 +1736,8 @@ mListenerManager
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 EventListenerManagerHashInitEntry
 (
 PLDHashTable
@@ -1775,10 +1773,8 @@ return
 PR_TRUE
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 EventListenerManagerHashClearEntry
 (
 PLDHashTable
@@ -14517,7 +14513,6 @@ aClosure
 }
 static
 int
-PR_CALLBACK
 BoolVarChanged
 (
 const

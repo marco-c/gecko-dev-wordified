@@ -586,7 +586,6 @@ typedef
 nsEventStatus
 (
 *
-PR_CALLBACK
 EVENT_CALLBACK
 )
 (

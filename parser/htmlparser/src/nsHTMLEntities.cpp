@@ -488,10 +488,8 @@ node
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 matchNodeString
 (
 PLDHashTable
@@ -558,10 +556,8 @@ str
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 matchNodeUnicode
 (
 PLDHashTable
@@ -615,10 +611,8 @@ ucode
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashNumber
-)
 hashUnicodeValue
 (
 PLDHashTable

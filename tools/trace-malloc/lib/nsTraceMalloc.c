@@ -1590,10 +1590,8 @@ data
 #
 if
 0
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 free_tm_thread
 (
 void
@@ -5731,10 +5729,8 @@ calltree
 .
 *
 /
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 stack_callback
 (
 void

@@ -2979,7 +2979,6 @@ static
 *
 /
 PLDHashOperator
-PR_CALLBACK
 nsFormFillController
 :
 :

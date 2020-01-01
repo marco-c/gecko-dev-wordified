@@ -26004,7 +26004,6 @@ aUserURL
 ;
 }
 int
-PR_CALLBACK
 nsGlobalHistory
 :
 :

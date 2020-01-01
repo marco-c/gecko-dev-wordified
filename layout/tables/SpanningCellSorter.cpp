@@ -603,7 +603,6 @@ nsnull
 static
 *
 /
-PR_CALLBACK
 PLDHashNumber
 SpanningCellSorter
 :
@@ -631,7 +630,6 @@ key
 static
 *
 /
-PR_CALLBACK
 PRBool
 SpanningCellSorter
 :
@@ -966,7 +964,6 @@ PR_TRUE
 static
 *
 /
-PR_CALLBACK
 PLDHashOperator
 SpanningCellSorter
 :

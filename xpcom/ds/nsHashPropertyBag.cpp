@@ -974,10 +974,8 @@ NS_OK
 /
 end
 nsSimpleProperty
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 PropertyHashToArrayFunc
 (
 const

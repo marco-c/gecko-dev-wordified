@@ -859,7 +859,6 @@ map
 entry
 static
 PLDHashOperator
-PR_CALLBACK
 RemoveDocumentFromMap
 (
 const

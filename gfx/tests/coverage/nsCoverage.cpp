@@ -2081,7 +2081,6 @@ Handler
 *
 /
 nsEventStatus
-PR_CALLBACK
 HandleEvent
 (
 nsGUIEvent

@@ -1020,7 +1020,6 @@ typedef
 PLDHashOperator
 (
 *
-PR_CALLBACK
 RowEnumerator
 )
 (

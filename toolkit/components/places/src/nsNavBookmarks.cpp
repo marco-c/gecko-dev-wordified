@@ -5609,10 +5609,8 @@ that
 reference
 it
 .
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 RemoveBookmarkHashCallback
 (
 nsTrimInt64HashKey

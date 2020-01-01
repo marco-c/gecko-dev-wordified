@@ -475,7 +475,6 @@ typedef
 void
 (
 *
-PR_CALLBACK
 NS_WalkStackCallback
 )
 (

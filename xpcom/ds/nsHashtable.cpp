@@ -571,10 +571,8 @@ Key
 operations
 /
 /
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 matchKeyEntry
 (
 PLDHashTable
@@ -645,10 +643,8 @@ key
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashNumber
-)
 hashKey
 (
 PLDHashTable
@@ -684,10 +680,8 @@ HashCode
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 clearHashEntry
 (
 PLDHashTable
@@ -796,10 +790,8 @@ arg
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 hashEnumerate
 (
 PLDHashTable
@@ -1585,10 +1577,8 @@ copied
 nor
 refcounted
 .
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 hashEnumerateShare
 (
 PLDHashTable
@@ -1760,10 +1750,8 @@ mEnumerating
 wasEnumerating
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 hashEnumerateRemove
 (
 PLDHashTable
@@ -2186,10 +2174,8 @@ mRetVal
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 WriteEntry
 (
 nsHashKey
@@ -4473,7 +4459,6 @@ Reset
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 nsObjectHashtable
 :
 :
@@ -4780,7 +4765,6 @@ are
 nsISupports
 *
 PRBool
-PR_CALLBACK
 nsSupportsHashtable
 :
 :
@@ -5076,7 +5060,6 @@ nsnull
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 nsSupportsHashtable
 :
 :

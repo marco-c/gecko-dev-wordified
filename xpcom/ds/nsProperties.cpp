@@ -747,7 +747,6 @@ res
 ;
 }
 ;
-PR_CALLBACK
 PLDHashOperator
 GetKeysEnumerate
 (

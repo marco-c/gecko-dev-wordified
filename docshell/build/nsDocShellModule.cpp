@@ -613,10 +613,8 @@ module
 /
 /
 static
-PR_STATIC_CALLBACK
-(
+static
 nsresult
-)
 Initialize
 (
 nsIModule
@@ -678,10 +676,8 @@ return
 rv
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 Shutdown
 (
 nsIModule

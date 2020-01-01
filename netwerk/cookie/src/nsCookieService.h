@@ -1552,7 +1552,6 @@ member
 functions
 friend
 PLDHashOperator
-PR_CALLBACK
 removeExpiredCallback
 (
 nsCookieEntry

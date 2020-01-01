@@ -813,7 +813,6 @@ nsXULPrototypeDocument
 gRefCnt
 ;
 void
-PR_CALLBACK
 nsXULPDGlobalObject_finalize
 (
 JSContext
@@ -884,7 +883,6 @@ nativeThis
 ;
 }
 JSBool
-PR_CALLBACK
 nsXULPDGlobalObject_resolve
 (
 JSContext

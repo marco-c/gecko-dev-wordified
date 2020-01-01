@@ -4546,7 +4546,6 @@ NS_HIDDEN_
 (
 int
 )
-PR_CALLBACK
 PrefChangedCallback
 (
 const
@@ -4569,7 +4568,6 @@ NS_HIDDEN_
 (
 void
 )
-PR_CALLBACK
 PrefChangedUpdateTimerCallback
 (
 nsITimer

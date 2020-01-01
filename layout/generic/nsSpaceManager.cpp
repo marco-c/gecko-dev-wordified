@@ -849,11 +849,9 @@ nsIntervalSet
 use
 below
 )
-PR_STATIC_CALLBACK
-(
+static
 void
 *
-)
 PSArenaAllocCB
 (
 size_t
@@ -892,10 +890,8 @@ nsIntervalSet
 use
 below
 )
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 PSArenaFreeCB
 (
 size_t

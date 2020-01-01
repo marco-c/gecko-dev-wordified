@@ -1691,10 +1691,8 @@ nsXBMDecoderConstructor
 endif
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 nsresult
-)
 imglib_Initialize
 (
 nsIModule
@@ -1713,10 +1711,8 @@ return
 NS_OK
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 imglib_Shutdown
 (
 nsIModule

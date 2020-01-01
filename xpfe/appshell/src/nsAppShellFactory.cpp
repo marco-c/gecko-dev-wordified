@@ -553,10 +553,8 @@ Create
 }
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 nsresult
-)
 nsAppShellModuleConstructor
 (
 nsIModule
@@ -573,10 +571,8 @@ InitGlobals
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 nsAppShellModuleDestructor
 (
 nsIModule

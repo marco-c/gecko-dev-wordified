@@ -1628,7 +1628,6 @@ static
 *
 /
 PLDHashOperator
-PR_CALLBACK
 nsMetricsService
 :
 :
@@ -4947,7 +4946,6 @@ static
 *
 /
 PLDHashOperator
-PR_CALLBACK
 nsMetricsService
 :
 :
@@ -5130,7 +5128,6 @@ static
 *
 /
 PLDHashOperator
-PR_CALLBACK
 nsMetricsService
 :
 :

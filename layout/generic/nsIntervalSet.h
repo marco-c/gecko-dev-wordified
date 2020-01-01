@@ -493,7 +493,6 @@ void
 *
 (
 *
-PR_CALLBACK
 IntervalSetAlloc
 )
 (
@@ -508,7 +507,6 @@ typedef
 void
 (
 *
-PR_CALLBACK
 IntervalSetFree
 )
 (

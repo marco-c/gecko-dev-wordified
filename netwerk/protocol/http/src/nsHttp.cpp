@@ -744,10 +744,8 @@ case
 based
 on
 PL_HashString
-PR_STATIC_CALLBACK
-(
+static
 PLDHashNumber
-)
 StringHash
 (
 PLDHashTable
@@ -809,10 +807,8 @@ return
 h
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 StringCompare
 (
 PLDHashTable

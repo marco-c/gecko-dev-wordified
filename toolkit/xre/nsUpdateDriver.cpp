@@ -1367,10 +1367,8 @@ endif
 XP_MACOSX
 *
 /
-PR_STATIC_CALLBACK
-(
+static
 int
-)
 ScanDirComparator
 (
 nsIFile

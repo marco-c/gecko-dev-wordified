@@ -1782,10 +1782,8 @@ nsIdleServiceGTKConstructor
 endif
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 nsWidgetGtk2ModuleDtor
 (
 nsIModule

@@ -2260,7 +2260,6 @@ nsXULDocument
 )
 static
 PLDHashOperator
-PR_CALLBACK
 TraverseTemplateBuilders
 (
 nsISupports
@@ -2329,7 +2328,6 @@ PL_DHASH_NEXT
 }
 static
 PLDHashOperator
-PR_CALLBACK
 TraverseObservers
 (
 nsIURI
@@ -4362,10 +4360,8 @@ return
 PR_TRUE
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 ClearBroadcasterMapEntry
 (
 PLDHashTable
@@ -16648,10 +16644,8 @@ return
 NS_OK
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 FirePendingMergeNotification
 (
 nsIURI

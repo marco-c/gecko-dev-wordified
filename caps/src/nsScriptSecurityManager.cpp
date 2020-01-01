@@ -2319,10 +2319,8 @@ Table
 of
 security
 levels
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 DeleteCapability
 (
 nsHashKey
@@ -2599,10 +2597,8 @@ mPolicyName_DEBUG
 endif
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 DeleteDomainEntry
 (
 nsHashKey
@@ -22191,7 +22187,6 @@ PLDHashOperator
 /
 (
 *
-PR_CALLBACK
 PLDHashEnumerator
 )
 (
@@ -22210,10 +22205,8 @@ void
 arg
 )
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 PrintPropertyPolicy
 (
 PLDHashTable
@@ -22396,10 +22389,8 @@ return
 PL_DHASH_NEXT
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 PrintClassPolicy
 (
 PLDHashTable
@@ -22461,7 +22452,6 @@ PRBool
 /
 (
 *
-PR_CALLBACK
 nsHashtableEnumFunc
 )
 (
@@ -22476,10 +22466,8 @@ void
 aClosure
 )
 ;
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 PrintDomainPolicy
 (
 nsHashKey
@@ -22587,10 +22575,8 @@ return
 PR_TRUE
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 PrintCapability
 (
 nsHashKey

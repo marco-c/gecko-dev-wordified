@@ -5802,10 +5802,8 @@ closure
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 TraceXBLHandlers
 (
 const
@@ -38589,10 +38587,8 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 FirePendingStorageEvents
 (
 const

@@ -2768,7 +2768,6 @@ static
 *
 /
 PLDHashOperator
-PR_CALLBACK
 nsLoadCollector
 :
 :

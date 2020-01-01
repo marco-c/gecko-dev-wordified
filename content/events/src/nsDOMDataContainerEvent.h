@@ -488,7 +488,6 @@ private
 :
 static
 PLDHashOperator
-PR_CALLBACK
 TraverseEntry
 (
 const

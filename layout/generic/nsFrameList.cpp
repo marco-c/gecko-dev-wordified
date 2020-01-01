@@ -1856,7 +1856,6 @@ count
 }
 static
 int
-PR_CALLBACK
 CompareByContentOrder
 (
 const

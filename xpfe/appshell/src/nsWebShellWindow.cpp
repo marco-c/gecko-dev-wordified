@@ -1905,7 +1905,6 @@ nsWebShellWindow
 *
 /
 nsEventStatus
-PR_CALLBACK
 nsWebShellWindow
 :
 :

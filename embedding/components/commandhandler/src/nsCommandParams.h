@@ -929,7 +929,6 @@ protected
 :
 static
 PLDHashNumber
-PR_CALLBACK
 HashKey
 (
 PLDHashTable
@@ -943,7 +942,6 @@ key
 ;
 static
 PRBool
-PR_CALLBACK
 HashMatchEntry
 (
 PLDHashTable
@@ -961,7 +959,6 @@ key
 ;
 static
 void
-PR_CALLBACK
 HashMoveEntry
 (
 PLDHashTable
@@ -978,7 +975,6 @@ to
 ;
 static
 void
-PR_CALLBACK
 HashClearEntry
 (
 PLDHashTable

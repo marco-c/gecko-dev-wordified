@@ -2124,10 +2124,8 @@ return
 rv
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 ConnThread
 (
 void

@@ -780,7 +780,6 @@ this
 }
 static
 int
-PR_CALLBACK
 compare
 (
 nsIFile

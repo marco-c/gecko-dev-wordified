@@ -1419,7 +1419,6 @@ ifdef
 DEBUG
 static
 PLDHashOperator
-PR_CALLBACK
 CacheDumpEntry
 (
 CacheHashEntry
@@ -5816,7 +5815,6 @@ mOptimizeSpeed
 ifdef
 DEBUG
 PLDHashOperator
-PR_CALLBACK
 TextRunWordCache
 :
 :

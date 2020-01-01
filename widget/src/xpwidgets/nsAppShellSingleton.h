@@ -560,10 +560,8 @@ nsAppShell
 *
 sAppShell
 ;
-PR_STATIC_CALLBACK
-(
+static
 nsresult
-)
 nsAppShellInit
 (
 nsIModule
@@ -632,10 +630,8 @@ return
 NS_OK
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 nsAppShellShutdown
 (
 nsIModule

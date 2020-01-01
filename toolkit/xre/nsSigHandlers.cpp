@@ -892,10 +892,8 @@ extern
 C
 "
 {
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 PrintStackFrame
 (
 void

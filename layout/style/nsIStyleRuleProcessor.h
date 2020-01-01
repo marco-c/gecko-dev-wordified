@@ -1729,7 +1729,6 @@ typedef
 PRBool
 (
 *
-PR_CALLBACK
 EnumFunc
 )
 (

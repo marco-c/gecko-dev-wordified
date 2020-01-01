@@ -1488,7 +1488,6 @@ XPCOMFunctions
 typedef
 nsresult
 (
-PR_CALLBACK
 *
 GetFrozenFunctionsFunc
 )

@@ -1014,7 +1014,6 @@ static
 unsigned
 char
 *
-PR_CALLBACK
 _mbschr
 (
 const
@@ -1109,7 +1108,6 @@ static
 unsigned
 char
 *
-PR_CALLBACK
 _mbsstr
 (
 const
@@ -1444,7 +1442,6 @@ Win32
 CreateDirectoryA
 static
 nsresult
-PR_CALLBACK
 CreateDirectoryA
 (
 PSZ

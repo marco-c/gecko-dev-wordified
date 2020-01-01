@@ -30145,7 +30145,6 @@ deletes
 stale
 entries
 PLDHashOperator
-PR_CALLBACK
 nsNavHistory
 :
 :
@@ -36272,10 +36271,8 @@ This
 goes
 through
 our
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 ExpireNonrecentEventsCallback
 (
 nsCStringHashKey

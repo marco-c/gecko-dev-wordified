@@ -1154,10 +1154,8 @@ nsFilePickerConstructor
 }
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 nsWidgetQtModuleDtor
 (
 nsIModule

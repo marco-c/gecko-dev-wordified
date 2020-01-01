@@ -712,7 +712,6 @@ GetInstance
 )
 static
 void
-PR_CALLBACK
 AccessProxyModuleDtor
 (
 nsIModule
