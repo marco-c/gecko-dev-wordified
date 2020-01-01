@@ -444,13 +444,6 @@ h
 #
 include
 "
-nsIBadCertListener
-.
-h
-"
-#
-include
-"
 nsICertificateDialogs
 .
 h
@@ -530,8 +523,6 @@ nsNSSDialogs
 public
 nsITokenPasswordDialogs
 public
-nsIBadCertListener
-public
 nsICertificateDialogs
 public
 nsIClientAuthDialogs
@@ -548,7 +539,6 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSITOKENPASSWORDDIALOGS
-NS_DECL_NSIBADCERTLISTENER
 NS_DECL_NSICERTIFICATEDIALOGS
 NS_DECL_NSICLIENTAUTHDIALOGS
 NS_DECL_NSICERTPICKDIALOGS
