@@ -1964,6 +1964,9 @@ in
 '
 readonly
 '
+'
+optional_argc
+'
 )
 :
             
@@ -7336,6 +7339,26 @@ member
 params
 )
 ]
+            
+if
+member
+.
+optional_argc
+:
+                
+argv
+.
+append
+(
+'
+argc
+-
+%
+d
+'
+%
+requiredArgs
+)
             
 if
 not
