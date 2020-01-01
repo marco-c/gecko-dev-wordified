@@ -2296,6 +2296,9 @@ stepCountMask
 ;
 public
 :
+#
+ifdef
+JS_METHODJIT
 /
 /
 This
@@ -2640,6 +2643,11 @@ staticAsserts
 ;
 }
 ;
+#
+endif
+/
+/
+JS_METHODJIT
 /
 /
 /
