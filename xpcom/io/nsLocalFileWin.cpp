@@ -10656,6 +10656,16 @@ targetIterator
 )
 )
 ;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+return
+rv
+;
 bool
 more
 ;
