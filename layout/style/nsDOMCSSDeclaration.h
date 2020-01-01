@@ -455,7 +455,7 @@ h
 #
 include
 "
-nsIDOMNSCSS2Properties
+nsIDOMCSS2Properties
 .
 h
 "
@@ -498,7 +498,7 @@ nsDOMCSSDeclaration
 public
 nsICSSDeclaration
 public
-nsIDOMNSCSS2Properties
+nsIDOMCSS2Properties
 {
 public
 :
@@ -661,13 +661,12 @@ aParentRule
 /
 We
 implement
-all
-of
-these
+this
 as
-shims
+a
+shim
 which
-forward
+forwards
 to
 GetPropertyValue
 /
@@ -680,8 +679,6 @@ need
 not
 .
 NS_DECL_NSIDOMCSS2PROPERTIES
-NS_DECL_NSIDOMSVGCSS2PROPERTIES
-NS_DECL_NSIDOMNSCSS2PROPERTIES
 protected
 :
 /
