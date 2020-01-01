@@ -9286,9 +9286,9 @@ origobj
 ;
 JSObject
 *
-tobj
+wrapperGuts
 =
-newWrapper
+targetobj
 ;
 if
 (
@@ -9305,7 +9305,7 @@ JS_WrapObject
 (
 cx
 &
-tobj
+wrapperGuts
 )
 )
 return
@@ -9320,7 +9320,7 @@ origwrapper
 swap
 (
 cx
-tobj
+wrapperGuts
 )
 )
 return
