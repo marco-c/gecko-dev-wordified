@@ -619,6 +619,10 @@ mTransactionCaps
 (
 0
 )
+mLastHttpResponseVersion
+(
+NS_HTTP_VERSION_1_1
+)
 {
 LOG
 (
@@ -6071,6 +6075,15 @@ upgradeResp
 ;
 }
 }
+mLastHttpResponseVersion
+=
+responseHead
+-
+>
+Version
+(
+)
+;
 return
 NS_OK
 ;
