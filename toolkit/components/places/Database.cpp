@@ -188,6 +188,15 @@ Services
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 Time
@@ -1276,6 +1285,7 @@ JOURNAL_DELETE
 }
 class
 BlockingConnectionCloseCallback
+MOZ_FINAL
 :
 public
 mozIStorageCompletionCallback

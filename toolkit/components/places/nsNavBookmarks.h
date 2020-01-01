@@ -155,6 +155,15 @@ nsWeakReference
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsNavBookmarks
 ;
@@ -372,6 +381,7 @@ namespace
 mozilla
 class
 nsNavBookmarks
+MOZ_FINAL
 :
 public
 nsINavBookmarksService
@@ -1709,6 +1719,7 @@ kGetChildrenIndex_Guid
 ;
 class
 RemoveFolderTransaction
+MOZ_FINAL
 :
 public
 nsITransaction

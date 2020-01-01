@@ -117,6 +117,15 @@ mozIStorageFunction
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 mozIStorageConnection
 ;
@@ -420,6 +429,7 @@ behavior
 /
 class
 MatchAutoCompleteFunction
+MOZ_FINAL
 :
 public
 mozIStorageFunction
@@ -1225,6 +1235,7 @@ false
 /
 class
 CalculateFrecencyFunction
+MOZ_FINAL
 :
 public
 mozIStorageFunction
@@ -1314,6 +1325,7 @@ item
 /
 class
 GenerateGUIDFunction
+MOZ_FINAL
 :
 public
 mozIStorageFunction
@@ -1400,6 +1412,7 @@ page
 /
 class
 GetUnreversedHostFunction
+MOZ_FINAL
 :
 public
 mozIStorageFunction
@@ -1579,6 +1592,7 @@ removed
 /
 class
 FixupURLFunction
+MOZ_FINAL
 :
 public
 mozIStorageFunction

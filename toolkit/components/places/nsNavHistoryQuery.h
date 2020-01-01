@@ -159,6 +159,15 @@ lists
 etc
 .
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_NAVHISTORYQUERY_IID
 \
@@ -179,6 +188,7 @@ NS_NAVHISTORYQUERY_IID
 }
 class
 nsNavHistoryQuery
+MOZ_FINAL
 :
 public
 nsINavHistoryQuery
@@ -594,6 +604,7 @@ NS_NAVHISTORYQUERYOPTIONS_IID
 }
 class
 nsNavHistoryQueryOptions
+MOZ_FINAL
 :
 public
 nsINavHistoryQueryOptions

@@ -110,6 +110,15 @@ StatementCache
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 This
@@ -510,6 +519,7 @@ JOURNAL_WAL
 ;
 class
 Database
+MOZ_FINAL
 :
 public
 nsIObserver

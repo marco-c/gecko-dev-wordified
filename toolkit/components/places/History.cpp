@@ -279,6 +279,15 @@ nsIMemoryReporter
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 Initial
@@ -7432,6 +7441,7 @@ page
 /
 class
 SetDownloadAnnotations
+MOZ_FINAL
 :
 public
 mozIVisitInfoCallback
