@@ -18453,9 +18453,9 @@ rv
 ;
 nsCOMPtr
 <
-nsIContent
+nsINode
 >
-content
+node
 =
 do_QueryInterface
 (
@@ -18464,7 +18464,7 @@ aContextNode
 ;
 NS_ENSURE_TRUE
 (
-content
+node
 NS_ERROR_NOT_AVAILABLE
 )
 ;
@@ -18508,7 +18508,7 @@ nsIDocument
 >
 document
 =
-content
+node
 -
 >
 GetOwnerDoc
@@ -18532,6 +18532,17 @@ nsAutoString
 uriStr
 nameStr
 ;
+nsCOMPtr
+<
+nsIContent
+>
+content
+=
+do_QueryInterface
+(
+aContextNode
+)
+;
 /
 /
 just
@@ -18544,6 +18555,9 @@ text
 node
 if
 (
+content
+&
+&
 !
 content
 -
