@@ -1076,6 +1076,8 @@ directly
 void
 FireOnInput
 (
+PRBool
+aTrusted
 )
 ;
 void
