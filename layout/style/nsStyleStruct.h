@@ -4966,6 +4966,7 @@ reset
 ]
 coord
 percent
+calc
 nsStyleSides
 mBorderImageSplit
 ;
@@ -6570,6 +6571,7 @@ reset
 ]
 coord
 percent
+calc
 /
 /
 Note

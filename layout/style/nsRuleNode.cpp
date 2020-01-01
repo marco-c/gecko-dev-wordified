@@ -33925,6 +33925,8 @@ parentY
 SETCOORD_LPH
 |
 SETCOORD_INITIAL_ZERO
+|
+SETCOORD_STORE_CALC
 aContext
 mPresContext
 canStoreInRuleTree
@@ -35285,6 +35287,8 @@ parentY
 SETCOORD_LPH
 |
 SETCOORD_INITIAL_ZERO
+|
+SETCOORD_STORE_CALC
 aContext
 mPresContext
 canStoreInRuleTree
