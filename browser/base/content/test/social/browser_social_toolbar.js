@@ -568,6 +568,8 @@ next
 (
 )
 ;
+return
+;
 }
 /
 /
@@ -1367,10 +1369,14 @@ Mac
 "
 )
 )
+{
 next
 (
 )
 ;
+return
+;
+}
 /
 /
 Test
