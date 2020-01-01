@@ -2786,7 +2786,7 @@ directory
 )
 )
 return
-false
+NULL
 ;
 return
 CreateAndOpenTemporaryFileInDir

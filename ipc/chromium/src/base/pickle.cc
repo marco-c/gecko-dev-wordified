@@ -3349,7 +3349,7 @@ length
 )
 )
 return
-false
+NULL
 ;
 char
 *
