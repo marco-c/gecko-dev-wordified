@@ -14495,11 +14495,16 @@ JSContext
 cx
 )
 {
+#
+ifdef
+JS_TRACER
 js_FlushJITCache
 (
 cx
 )
 ;
+#
+endif
 }
 JS_PUBLIC_API
 (
