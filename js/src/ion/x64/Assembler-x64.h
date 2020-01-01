@@ -2573,11 +2573,7 @@ code
 ;
 writeDataRelocation
 (
-masm
-.
-currentOffset
-(
-)
+ptr
 )
 ;
 }
