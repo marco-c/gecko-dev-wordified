@@ -555,18 +555,6 @@ tm_get_thread
 void
 )
 ;
-#
-if
-defined
-(
-XP_WIN32
-)
-|
-|
-defined
-(
-XP_MACOSX
-)
 /
 *
 implemented
@@ -659,8 +647,6 @@ tm_thread
 t
 )
 ;
-#
-endif
 #
 ifdef
 XP_WIN32
