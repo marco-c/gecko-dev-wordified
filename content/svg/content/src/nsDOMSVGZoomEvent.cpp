@@ -304,10 +304,11 @@ PR_Now
 mEvent
 -
 >
-flags
-|
+mFlags
+.
+mCancelable
 =
-NS_EVENT_FLAG_CANT_CANCEL
+false
 ;
 /
 /

@@ -10601,10 +10601,11 @@ NS_FORM_INPUT
 ;
 inputEvent
 .
-flags
-|
+mFlags
+.
+mCancelable
 =
-NS_EVENT_FLAG_CANT_CANCEL
+false
 ;
 inputEvent
 .

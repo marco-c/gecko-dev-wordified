@@ -18147,10 +18147,11 @@ window
 )
 event
 .
-flags
-|
+mFlags
+.
+mBubbles
 =
-NS_EVENT_FLAG_CANT_BUBBLE
+false
 ;
 nsEventDispatcher
 :
