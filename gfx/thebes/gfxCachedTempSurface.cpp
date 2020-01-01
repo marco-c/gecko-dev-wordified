@@ -743,7 +743,6 @@ aSize
 height
 |
 |
-(
 mSurface
 -
 >
@@ -753,15 +752,6 @@ GetContentType
 !
 =
 aContentType
-&
-&
-mSurface
--
->
-AreSimilarSurfacesSensitiveToContentType
-(
-)
-)
 )
 {
 mSurface
