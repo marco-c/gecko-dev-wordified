@@ -705,9 +705,6 @@ offsets
 #
 include
 "
-.
-.
-/
 typedefs
 .
 h
@@ -889,9 +886,6 @@ type
 #
 include
 "
-.
-.
-/
 typedefs
 .
 h
