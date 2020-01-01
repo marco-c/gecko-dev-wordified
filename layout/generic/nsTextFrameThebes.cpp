@@ -29813,6 +29813,11 @@ aForward
 1
 )
 ;
+PRBool
+firstCluster
+=
+PR_TRUE
+;
 while
 (
 cIter
@@ -29849,6 +29854,11 @@ else
 {
 if
 (
+!
+firstCluster
+&
+&
+(
 (
 *
 aSawBeforeType
@@ -29870,6 +29880,7 @@ cIter
 .
 IsPunctuation
 (
+)
 )
 )
 )
@@ -29917,6 +29928,10 @@ PR_TRUE
 ;
 }
 }
+firstCluster
+=
+PR_FALSE
+;
 }
 *
 aOffset
