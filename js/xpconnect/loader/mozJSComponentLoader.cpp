@@ -3802,7 +3802,6 @@ InitClassesWithNewWrappedGlobal
 cx
 backstagePass
 mSystemPrincipal
-nsnull
 nsIXPConnect
 :
 :

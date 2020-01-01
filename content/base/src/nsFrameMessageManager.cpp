@@ -4919,7 +4919,6 @@ InitClassesWithNewWrappedGlobal
 cx
 aScope
 mPrincipal
-nsnull
 flags
 getter_AddRefs
 (
