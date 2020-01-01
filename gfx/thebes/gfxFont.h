@@ -19616,7 +19616,6 @@ i
 )
 ;
 }
-virtual
 PRUint32
 FontListLength
 (
