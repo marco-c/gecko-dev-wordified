@@ -1056,16 +1056,8 @@ void
 )
 js_MapKeywords
 (
-void
-(
-*
+JSMapKeywordFun
 mapfun
-)
-(
-const
-char
-*
-)
 )
 {
 size_t
@@ -4127,8 +4119,6 @@ cx
 message
 &
 report
-NULL
-NULL
 )
 )
 onError
