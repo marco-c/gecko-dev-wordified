@@ -15668,6 +15668,9 @@ n
 "
 )
 ;
+if
+(
+!
 inlineCallHelper
 (
 GET_ARGC
@@ -15677,6 +15680,9 @@ PC
 callingNew
 frameSize
 )
+)
+return
+Compile_Error
 ;
 JaegerSpew
 (
@@ -24600,7 +24606,12 @@ status
 Compile_InlineAbort
 )
 return
+(
 status
+=
+=
+Compile_Okay
+)
 ;
 }
 /
