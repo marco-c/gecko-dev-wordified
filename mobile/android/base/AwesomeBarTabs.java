@@ -2100,7 +2100,7 @@ R
 .
 drawable
 .
-address_bar_bg_private
+abouthome_bg_pb_repeat
 )
 )
 ;
