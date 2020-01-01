@@ -35574,14 +35574,6 @@ mLayoutHistoryState
 =
 nsnull
 ;
-nsContentList
-:
-:
-OnDocumentDestroy
-(
-this
-)
-;
 /
 /
 Shut
