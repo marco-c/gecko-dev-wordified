@@ -625,7 +625,7 @@ STYLE_FILL
 }
 already_AddRefed
 <
-nsIDOMCanvasGradient
+CanvasGradient
 >
 CreateLinearGradient
 (
@@ -637,17 +637,11 @@ double
 x1
 double
 y1
-mozilla
-:
-:
-ErrorResult
-&
-aError
 )
 ;
 already_AddRefed
 <
-nsIDOMCanvasGradient
+CanvasGradient
 >
 CreateRadialGradient
 (
@@ -663,9 +657,6 @@ double
 y1
 double
 r1
-mozilla
-:
-:
 ErrorResult
 &
 aError
@@ -685,9 +676,6 @@ const
 nsAString
 &
 repeat
-mozilla
-:
-:
 ErrorResult
 &
 error

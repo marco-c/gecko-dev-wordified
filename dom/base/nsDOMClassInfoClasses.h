@@ -473,10 +473,6 @@ SVGZoomEvent
 Canvas
 DOMCI_CLASS
 (
-CanvasGradient
-)
-DOMCI_CLASS
-(
 MozCanvasPrintState
 )
 /
