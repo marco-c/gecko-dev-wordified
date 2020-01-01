@@ -1104,7 +1104,7 @@ mStream
 MediaInputPort
 :
 :
-FLAG_BLOCK_OUTPUT
+FLAG_BLOCK_INPUT
 )
 ;
 }
