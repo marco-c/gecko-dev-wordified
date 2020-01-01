@@ -10821,6 +10821,16 @@ push
 funbox
 )
 ;
+fnlevel
+=
+int
+(
+funbox
+-
+>
+level
+)
+;
 break
 ;
 }
