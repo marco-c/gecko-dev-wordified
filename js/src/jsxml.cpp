@@ -35334,16 +35334,6 @@ nameqn
 return
 JS_FALSE
 ;
-vp
-[
-2
-]
-=
-OBJECT_TO_JSVAL
-(
-nameqn
-)
-;
 if
 (
 !
