@@ -1545,12 +1545,6 @@ Clear
 PRInt32
 i
 ;
-nsCOMPtr
-<
-nsIFontMetrics
->
-fm
-;
 const
 nsStyleFont
 *
@@ -1579,6 +1573,12 @@ GetUserFontSet
 )
 )
 ;
+nsCOMPtr
+<
+nsIFontMetrics
+>
+fm
+=
 aReflowState
 .
 rendContext
@@ -1586,11 +1586,6 @@ rendContext
 >
 GetFontMetrics
 (
-*
-getter_AddRefs
-(
-fm
-)
 )
 ;
 nscoord

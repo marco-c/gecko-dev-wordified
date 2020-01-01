@@ -2112,11 +2112,6 @@ translate
 &
 aRenderingContext
 aPt
-.
-x
-aPt
-.
-y
 )
 ;
 nscoord

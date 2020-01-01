@@ -3986,10 +3986,9 @@ Translate
 (
 viewportRect
 .
-x
-viewportRect
-.
-y
+TopLeft
+(
+)
 )
 ;
 nsRect

@@ -9450,11 +9450,6 @@ translate
 (
 aCtx
 pt
-.
-x
-pt
-.
-y
 )
 ;
 mFrame
