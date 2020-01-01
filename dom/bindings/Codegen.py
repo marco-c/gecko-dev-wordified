@@ -29377,7 +29377,7 @@ s
 (
 cx
 {
-val
+valHandle
 }
 &
 %
@@ -29462,7 +29462,7 @@ s
 (
 cx
 {
-val
+valHandle
 }
 &
 %
@@ -45789,14 +45789,22 @@ vp
 JS
 :
 :
+Rooted
+<
+JS
+:
+:
 Value
+>
 undef
-=
+(
+cx
 JS
 :
 :
 UndefinedValue
 (
+)
 )
 ;
 if
@@ -45810,8 +45818,11 @@ argc
   
 argv
 =
-&
 undef
+.
+address
+(
+)
 ;
 }
 "
