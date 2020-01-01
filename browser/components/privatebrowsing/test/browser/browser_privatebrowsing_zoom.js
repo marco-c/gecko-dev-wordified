@@ -239,8 +239,10 @@ FullZoom
 .
 enlarge
 (
+function
+(
 )
-;
+{
 /
 /
 make
@@ -348,8 +350,10 @@ FullZoom
 .
 reset
 (
+function
+(
 )
-;
+{
 aWindow
 .
 gBrowser
@@ -376,6 +380,12 @@ close
 ;
 aCallback
 (
+)
+;
+}
+)
+;
+}
 )
 ;
 }
