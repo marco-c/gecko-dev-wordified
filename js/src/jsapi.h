@@ -22097,15 +22097,7 @@ u32
 ;
 }
 }
-__attribute__
-(
-(
-aligned
-(
-8
-)
-)
-)
+VALUE_ALIGNMENT
 ;
 /
 *
