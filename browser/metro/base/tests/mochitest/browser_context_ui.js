@@ -129,6 +129,21 @@ start
 "
 )
 ;
+yield
+waitForCondition
+(
+function
+(
+)
+{
+return
+StartUI
+.
+isStartPageVisible
+;
+}
+)
+;
 is
 (
 StartUI
@@ -154,7 +169,7 @@ ContextUI
 isVisible
 true
 "
-Toolbar
+Navbar
 is
 displayed
 on
@@ -171,8 +186,7 @@ ContextUI
 isExpanded
 false
 "
-Tab
-bar
+Tabbar
 is
 not
 displayed
@@ -212,7 +226,7 @@ ContextUI
 isVisible
 true
 "
-Toolbar
+Navbar
 is
 still
 visible
@@ -229,8 +243,7 @@ ContextUI
 isExpanded
 true
 "
-Tab
-bar
+Tabbar
 is
 visible
 after
@@ -272,7 +285,7 @@ ContextUI
 isVisible
 true
 "
-Toolbar
+Navbar
 is
 still
 visible
@@ -289,8 +302,7 @@ ContextUI
 isExpanded
 false
 "
-Tab
-bar
+Tabbar
 is
 hidden
 after
@@ -336,7 +348,7 @@ ContextUI
 isVisible
 true
 "
-Toolbar
+Navbar
 is
 still
 visible
@@ -353,8 +365,7 @@ ContextUI
 isExpanded
 true
 "
-Tab
-bar
+Tabbar
 is
 visible
 after
@@ -466,7 +477,7 @@ ContextUI
 isVisible
 false
 "
-Toolbar
+Navbar
 is
 not
 initially
@@ -484,8 +495,7 @@ ContextUI
 isExpanded
 false
 "
-Tab
-bar
+Tabbar
 is
 not
 initially
@@ -530,7 +540,7 @@ ContextUI
 isVisible
 true
 "
-Toolbar
+Navbar
 is
 visible
 after
@@ -546,8 +556,7 @@ ContextUI
 isExpanded
 true
 "
-Tab
-bar
+Tabbar
 is
 visble
 after
@@ -585,7 +594,7 @@ ContextUI
 isVisible
 false
 "
-Toolbar
+Navbar
 is
 not
 visible
@@ -602,8 +611,7 @@ ContextUI
 isExpanded
 false
 "
-Tab
-bar
+Tabbar
 is
 not
 visible
