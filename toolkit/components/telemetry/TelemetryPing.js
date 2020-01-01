@@ -5161,6 +5161,13 @@ true
 ;
 this
 .
+loadSavedPings
+(
+false
+)
+;
+this
+.
 attachObservers
 (
 )
@@ -5206,13 +5213,6 @@ Ci
 nsITimer
 .
 TYPE_ONE_SHOT
-)
-;
-this
-.
-loadSavedPings
-(
-false
 )
 ;
 }
