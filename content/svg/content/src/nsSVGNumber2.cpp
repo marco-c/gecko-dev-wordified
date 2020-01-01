@@ -768,8 +768,6 @@ aValueAsString
 nsSVGElement
 *
 aSVGElement
-bool
-aDoSetAttr
 )
 {
 float
@@ -916,8 +914,6 @@ aValue
 nsSVGElement
 *
 aSVGElement
-bool
-aDoSetAttr
 )
 {
 mBaseVal
@@ -960,7 +956,7 @@ aSVGElement
 DidChangeNumber
 (
 mAttrEnum
-aDoSetAttr
+true
 )
 ;
 }

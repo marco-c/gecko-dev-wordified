@@ -529,8 +529,6 @@ aValue
 nsSVGElement
 *
 aSVGElement
-bool
-aDoSetAttr
 )
 ;
 void
@@ -549,8 +547,6 @@ aValue
 nsSVGElement
 *
 aSVGElement
-bool
-aDoSetAttr
 )
 ;
 float
@@ -834,7 +830,6 @@ SetBaseValue
 (
 aValue
 mSVGElement
-PR_TRUE
 )
 ;
 return
