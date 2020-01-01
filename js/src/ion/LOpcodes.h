@@ -1025,12 +1025,7 @@ CallGetProperty
 \
 _
 (
-CallGetName
-)
-\
-_
-(
-CallGetNameTypeOf
+GetNameCache
 )
 \
 _
