@@ -437,7 +437,7 @@ pick
 up
 definition
 of
-M_PI
+M_SQRT1_2
 if
 the
 platform
