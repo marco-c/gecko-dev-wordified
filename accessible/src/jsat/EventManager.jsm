@@ -1288,6 +1288,7 @@ this
 present
 (
 Presentation
+.
 textChanged
 (
 isInserted
