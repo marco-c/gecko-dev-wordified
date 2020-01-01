@@ -438,7 +438,10 @@ mViewport
 nsIntRect
 mContentRect
 ;
-nsIntPoint
+gfx
+:
+:
+Point
 mViewportScrollOffset
 ;
 nsIntRect
