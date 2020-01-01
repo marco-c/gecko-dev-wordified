@@ -200,8 +200,9 @@ nsProcessRequestEvent
 ;
 nsCacheRequest
 (
-nsCString
-*
+const
+nsACString
+&
 key
 nsICacheListener
 *
@@ -351,9 +352,6 @@ MOZ_COUNT_DTOR
 (
 nsCacheRequest
 )
-;
-delete
-mKey
 ;
 NS_ASSERTION
 (
@@ -823,7 +821,6 @@ members
 *
 /
 nsCString
-*
 mKey
 ;
 PRUint32
