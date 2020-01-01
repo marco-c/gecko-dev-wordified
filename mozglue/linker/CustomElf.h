@@ -83,9 +83,6 @@ Elfxx
 .
 h
 "
-class
-Mappable
-;
 /
 *
 *
@@ -954,8 +951,13 @@ Appropriated
 Mappable
 *
 /
+mozilla
+:
+:
+RefPtr
+<
 Mappable
-*
+>
 mappable
 ;
 /
