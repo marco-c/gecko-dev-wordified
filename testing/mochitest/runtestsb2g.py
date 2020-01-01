@@ -4285,6 +4285,8 @@ port
 marionette
 =
 Marionette
+.
+getMarionetteOrExit
 (
 *
 *

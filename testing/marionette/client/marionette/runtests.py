@@ -70,8 +70,6 @@ OptionParser
 import
 os
 import
-types
-import
 unittest
 import
 socket
@@ -81,8 +79,6 @@ import
 time
 import
 platform
-import
-weakref
 import
 xml
 .
@@ -2059,7 +2055,10 @@ self
 marionette
 =
 Marionette
+.
+getMarionetteOrExit
 (
+                                             
 host
 =
 host
@@ -2137,7 +2136,10 @@ self
 marionette
 =
 Marionette
+.
+getMarionetteOrExit
 (
+                                         
 emulator
 =
 self

@@ -4240,6 +4240,8 @@ geckoPath
 marionette
 =
 Marionette
+.
+getMarionetteOrExit
 (
 *
 *

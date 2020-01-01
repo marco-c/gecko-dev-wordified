@@ -173,6 +173,14 @@ self
 msg
 )
 class
+InstallGeckoError
+(
+MarionetteException
+)
+:
+    
+pass
+class
 TimeoutException
 (
 MarionetteException
