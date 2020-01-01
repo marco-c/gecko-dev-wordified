@@ -5334,6 +5334,7 @@ getTypeObject
 (
 js_Math_str
 false
+false
 )
 ;
 JSObject

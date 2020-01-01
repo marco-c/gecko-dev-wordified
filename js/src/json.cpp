@@ -7942,6 +7942,7 @@ getTypeObject
 (
 js_JSON_str
 false
+false
 )
 ;
 JSObject

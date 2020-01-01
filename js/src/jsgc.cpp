@@ -16603,6 +16603,7 @@ obj
 >
 setProto
 (
+cx
 proto
 )
 ;

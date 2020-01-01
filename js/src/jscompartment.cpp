@@ -1762,6 +1762,7 @@ wrapper
 >
 setProto
 (
+cx
 proto
 )
 ;

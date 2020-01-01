@@ -6132,6 +6132,15 @@ input
 TYPE_STRING
 )
 ;
+cx
+-
+>
+markTypeArrayNotPacked
+(
+arrayType
+true
+)
+;
 return
 proto
 ;

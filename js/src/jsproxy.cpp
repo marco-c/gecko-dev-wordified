@@ -8773,6 +8773,7 @@ js_ProxyClass
 .
 name
 false
+false
 )
 ;
 JSObject

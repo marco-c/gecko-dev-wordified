@@ -1947,12 +1947,12 @@ getArrayLength
 )
 {
 size_t
-capacity
+initlen
 =
 pobj
 -
 >
-getDenseArrayCapacity
+getDenseArrayInitializedLength
 (
 )
 ;
@@ -1976,7 +1976,7 @@ i
 ;
 i
 <
-capacity
+initlen
 ;
 +
 +

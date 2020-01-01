@@ -15880,6 +15880,7 @@ js_ReflectClass
 .
 name
 false
+false
 )
 ;
 JSObject

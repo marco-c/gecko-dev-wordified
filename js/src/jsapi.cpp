@@ -8026,6 +8026,7 @@ fun_proto
 >
 setProto
 (
+cx
 obj_proto
 )
 ;
@@ -8044,6 +8045,7 @@ obj
 >
 setProto
 (
+cx
 obj_proto
 )
 ;
@@ -19689,6 +19691,11 @@ clasp
 =
 =
 &
+js_ArrayClass
+clasp
+=
+=
+&
 js_FunctionClass
 )
 ;
@@ -28132,6 +28139,7 @@ cx
 getTypeObject
 (
 name
+isArray
 false
 )
 ;
