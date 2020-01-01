@@ -476,7 +476,7 @@ Vector
 MBasicBlock
 *
 8
-TempAllocPolicy
+IonAllocPolicy
 >
 blocks_
 ;
@@ -487,9 +487,6 @@ public
 :
 MIRGraph
 (
-JSContext
-*
-cx
 )
 ;
 bool
@@ -1768,7 +1765,7 @@ Vector
 MBasicBlock
 *
 1
-TempAllocPolicy
+IonAllocPolicy
 >
 predecessors_
 ;
@@ -1777,7 +1774,7 @@ Vector
 MPhi
 *
 2
-TempAllocPolicy
+IonAllocPolicy
 >
 phis_
 ;
