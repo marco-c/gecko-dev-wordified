@@ -193,7 +193,7 @@ accWrap
 accWrap
 -
 >
-IsImageAccessible
+IsImage
 (
 )
 )
@@ -305,7 +305,7 @@ accWrap
 accWrap
 -
 >
-IsImageAccessible
+IsImage
 (
 )
 )

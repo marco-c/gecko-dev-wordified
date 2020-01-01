@@ -488,7 +488,7 @@ AsImage
 )
 {
 return
-IsImageAccessible
+IsImage
 (
 )
 ?
