@@ -2815,7 +2815,7 @@ GetPrimaryFrame
 )
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

@@ -784,7 +784,7 @@ NS_ASSERTION
 NS_STYLE_DISPLAY_TABLE_ROW
 =
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -2904,7 +2904,7 @@ nsStylePosition
 *
 position
 =
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -3614,7 +3614,7 @@ position
 aCellFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -4171,7 +4171,7 @@ colVis
 colFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -4207,7 +4207,7 @@ groupVis
 cgFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -4340,7 +4340,7 @@ colVis
 colFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -4376,7 +4376,7 @@ groupVis
 cgFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -6377,7 +6377,7 @@ nsStyleVisibility
 *
 rowVis
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -6943,7 +6943,7 @@ nsStyleVisibility
 *
 rowVis
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -7588,7 +7588,7 @@ colVis
 colFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -7624,7 +7624,7 @@ groupVis
 cgFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -7703,7 +7703,7 @@ nextColVis
 nextColFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -7804,7 +7804,7 @@ nextRowVis
 rowFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -8309,7 +8309,7 @@ NS_STYLE_DISPLAY_TABLE_ROW
 childFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -8641,7 +8641,7 @@ cellHeight
 cellFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -

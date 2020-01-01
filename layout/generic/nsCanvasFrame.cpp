@@ -1733,7 +1733,7 @@ us
 in
 which
 case
-GetStyleBackground
+StyleBackground
 wouldn
 '
 t
@@ -1843,7 +1843,7 @@ bg
 bgSC
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 ;
@@ -2222,7 +2222,7 @@ visible
 if
 (
 !
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -2372,11 +2372,11 @@ root
 root
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 :
-GetStyleColor
+StyleColor
 (
 )
 ;
@@ -3039,7 +3039,7 @@ styleDisp
 kidFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;

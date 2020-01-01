@@ -1353,7 +1353,7 @@ aDirtyRect
 if
 (
 !
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -1368,7 +1368,7 @@ NS_OK
 uint32_t
 paintOrder
 =
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -1607,7 +1607,7 @@ nullptr
 ;
 fillRule
 =
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -2790,7 +2790,7 @@ eBBoxIncludeFill
 )
 &
 &
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -3614,7 +3614,7 @@ style
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -3848,7 +3848,7 @@ aContext
 ;
 switch
 (
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -4212,7 +4212,7 @@ nsStyleSVG
 *
 style
 =
-GetStyleSVG
+StyleSVG
 (
 )
 ;

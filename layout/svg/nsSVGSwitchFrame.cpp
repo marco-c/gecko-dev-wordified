@@ -630,7 +630,7 @@ path
 ;
 if
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

@@ -736,7 +736,7 @@ styleList
 aFrame
 -
 >
-GetStyleList
+StyleList
 (
 )
 ;
@@ -1994,7 +1994,7 @@ mStylePosition
 frame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -2003,7 +2003,7 @@ mStyleDisplay
 frame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -2012,7 +2012,7 @@ mStyleVisibility
 frame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -2021,7 +2021,7 @@ mStyleBorder
 frame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -2030,7 +2030,7 @@ mStyleMargin
 frame
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 ;
@@ -2039,7 +2039,7 @@ mStylePadding
 frame
 -
 >
-GetStylePadding
+StylePadding
 (
 )
 ;
@@ -2048,7 +2048,7 @@ mStyleText
 frame
 -
 >
-GetStyleText
+StyleText
 (
 )
 ;
@@ -2135,7 +2135,7 @@ scrollFrame
 parent
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -2349,7 +2349,7 @@ stylePos
 containingBlk
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -4848,7 +4848,7 @@ NS_ASSERTION
 frame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -4876,7 +4876,7 @@ NS_ASSERTION
 frame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -5212,7 +5212,7 @@ position
 aFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -7606,7 +7606,7 @@ blockVis
 aContainingBlock
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -9485,7 +9485,7 @@ GetContainingBlock
 )
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -12878,7 +12878,7 @@ captionSide
 aFrame
 -
 >
-GetStyleTableBorder
+StyleTableBorder
 (
 )
 -
@@ -14754,7 +14754,7 @@ st
 frame
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 ;
@@ -15089,7 +15089,7 @@ disp
 frame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -15253,7 +15253,7 @@ needPaddingProp
 frame
 -
 >
-GetStylePadding
+StylePadding
 (
 )
 -
@@ -15414,7 +15414,7 @@ mComputedBorderPadding
 frame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -16660,7 +16660,7 @@ lhCoord
 aStyleContext
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -16780,7 +16780,7 @@ aFontSizeInflation
 aStyleContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -17059,7 +17059,7 @@ styleMargin
 frame
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 ;
@@ -17244,7 +17244,7 @@ visibility
 frame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -17323,7 +17323,7 @@ stylePadding
 frame
 -
 >
-GetStylePadding
+StylePadding
 (
 )
 ;

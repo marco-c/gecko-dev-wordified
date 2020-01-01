@@ -698,7 +698,7 @@ too
 if
 (
 !
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

@@ -55424,7 +55424,7 @@ GetRootFrame
 )
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -

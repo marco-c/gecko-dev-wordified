@@ -848,7 +848,7 @@ DirectionFromKeyCodeTable
 frame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

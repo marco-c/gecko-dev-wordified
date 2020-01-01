@@ -843,7 +843,7 @@ aStatus
 bool
 vertical
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -977,7 +977,7 @@ if
 vertical
 &
 &
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -1543,7 +1543,7 @@ size
 1em
 if
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -1632,7 +1632,7 @@ size
 1em
 if
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -1643,7 +1643,7 @@ mOrient
 NS_STYLE_ORIENT_AUTO
 |
 |
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -1741,7 +1741,7 @@ the
 background
 .
 return
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -1760,7 +1760,7 @@ GetPrimaryFrame
 )
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

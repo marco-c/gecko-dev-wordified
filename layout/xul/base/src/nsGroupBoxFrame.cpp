@@ -699,7 +699,7 @@ nsStyleBorder
 *
 borderStyleData
 =
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -776,7 +776,7 @@ groupMargin
 groupBox
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -

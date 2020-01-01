@@ -1047,7 +1047,7 @@ aBuilder
 {
 if
 (
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -1376,7 +1376,7 @@ nsStyleBorder
 *
 borderStyle
 =
-GetStyleBorder
+StyleBorder
 (
 )
 ;

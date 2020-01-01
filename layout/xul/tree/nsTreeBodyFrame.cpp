@@ -849,7 +849,7 @@ if
 aContext
 -
 >
-GetStylePadding
+StylePadding
 (
 )
 -
@@ -875,7 +875,7 @@ aMargin
 aContext
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -5911,7 +5911,7 @@ aHeight
 bool
 isRTL
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -6263,7 +6263,7 @@ cellMargin
 cellContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -6643,7 +6643,7 @@ twistyMargin
 twistyContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -6773,7 +6773,7 @@ imageMargin
 imageContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -7040,7 +7040,7 @@ textMargin
 textContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -8384,7 +8384,7 @@ cellMargin
 cellContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -8495,7 +8495,7 @@ testing
 bool
 isRTL
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -8821,7 +8821,7 @@ twistyMargin
 twistyContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -9037,7 +9037,7 @@ imageMargin
 imageContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -9205,7 +9205,7 @@ textMargin
 textContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -9836,7 +9836,7 @@ twistyMargin
 twistyContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -9912,7 +9912,7 @@ imageMargin
 imageContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -11991,7 +11991,7 @@ twistyDisplayData
 aTwistyContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -12239,7 +12239,7 @@ styleRequest
 aStyleContext
 -
 >
-GetStyleList
+StyleList
 (
 )
 -
@@ -13084,7 +13084,7 @@ myPosition
 aStyleContext
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -13096,7 +13096,7 @@ myList
 aStyleContext
 -
 >
-GetStyleList
+StyleList
 (
 )
 ;
@@ -13567,7 +13567,7 @@ myPosition
 aStyleContext
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -13730,7 +13730,7 @@ myList
 aStyleContext
 -
 >
-GetStyleList
+StyleList
 (
 )
 ;
@@ -14162,7 +14162,7 @@ myList
 aStyleContext
 -
 >
-GetStyleList
+StyleList
 (
 )
 ;
@@ -14336,7 +14336,7 @@ myPosition
 rowContext
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -14485,7 +14485,7 @@ rowMargin
 rowContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -14589,7 +14589,7 @@ myPosition
 indentContext
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -14959,7 +14959,7 @@ FillCursorInformationFromStyle
 childContext
 -
 >
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 aCursor
@@ -17505,7 +17505,7 @@ colMargin
 colContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -17741,7 +17741,7 @@ rowMargin
 rowContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -17826,7 +17826,7 @@ displayData
 rowContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -18631,7 +18631,7 @@ displayData
 separatorContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -18728,7 +18728,7 @@ stylePosition
 separatorContext
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -18846,7 +18846,7 @@ separatorMargin
 separatorContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -19032,7 +19032,7 @@ moztreecell
 bool
 isRTL
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -19085,7 +19085,7 @@ cellMargin
 cellContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -19302,7 +19302,7 @@ level
 lineContext
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -19403,7 +19403,7 @@ twistyMargin
 twistyContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -19434,7 +19434,7 @@ borderStyle
 lineContext
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -19479,7 +19479,7 @@ color
 lineContext
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -19965,7 +19965,7 @@ textRTL
 cellContext
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -20159,7 +20159,7 @@ passed
 bool
 isRTL
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -20305,7 +20305,7 @@ twistyMargin
 twistyContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -20526,7 +20526,7 @@ this
 twistyContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -20777,7 +20777,7 @@ passed
 bool
 isRTL
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -20829,7 +20829,7 @@ opacity
 imageContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -20879,7 +20879,7 @@ imageMargin
 imageContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -21952,7 +21952,7 @@ passed
 bool
 isRTL
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -22097,7 +22097,7 @@ opacity
 textContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -22147,7 +22147,7 @@ textMargin
 textContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -22379,7 +22379,7 @@ SetColor
 textContext
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -22398,7 +22398,7 @@ decorations
 textContext
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 -
@@ -22734,7 +22734,7 @@ checkboxMargin
 checkboxContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -22800,7 +22800,7 @@ width
 ;
 if
 (
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -23147,7 +23147,7 @@ meterMargin
 meterContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -23249,7 +23249,7 @@ SetColor
 meterContext
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -23334,7 +23334,7 @@ width
 ;
 if
 (
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -23787,7 +23787,7 @@ if
 feedbackContext
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -23981,7 +23981,7 @@ twistyMargin
 twistyContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -24014,7 +24014,7 @@ stylePosition
 feedbackContext
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -24179,7 +24179,7 @@ margin
 feedbackContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -24263,7 +24263,7 @@ myBorder
 aStyleContext
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 ;

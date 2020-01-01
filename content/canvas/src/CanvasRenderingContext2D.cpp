@@ -10876,7 +10876,7 @@ fontStyle
 sc
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 ;
@@ -10899,7 +10899,7 @@ language
 sc
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -13532,7 +13532,7 @@ isRTL
 canvasStyle
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

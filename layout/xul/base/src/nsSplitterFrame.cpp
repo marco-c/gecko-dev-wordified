@@ -2407,7 +2407,7 @@ isRTL
 mOuter
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

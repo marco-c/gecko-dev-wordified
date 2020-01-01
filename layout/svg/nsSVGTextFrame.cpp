@@ -2810,7 +2810,7 @@ if
 0
 if
 (
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

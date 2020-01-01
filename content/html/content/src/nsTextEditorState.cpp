@@ -8218,7 +8218,7 @@ disp
 mBoundFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;

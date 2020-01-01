@@ -542,7 +542,7 @@ if
 mFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

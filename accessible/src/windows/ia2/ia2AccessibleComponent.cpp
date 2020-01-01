@@ -561,7 +561,7 @@ aForeground
 frame
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -631,7 +631,7 @@ aBackground
 frame
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 -

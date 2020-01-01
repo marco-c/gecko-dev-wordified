@@ -533,7 +533,7 @@ styleWidth
 colFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -690,7 +690,7 @@ styleWidth
 cellFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -1566,7 +1566,7 @@ styleWidth
 colFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -1763,7 +1763,7 @@ styleWidth
 cellFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -

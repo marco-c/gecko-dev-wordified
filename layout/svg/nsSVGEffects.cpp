@@ -2545,7 +2545,7 @@ style
 aFrame
 -
 >
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 ;
@@ -3046,7 +3046,7 @@ GetEffectProperty
 aFrame
 -
 >
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -
@@ -3113,7 +3113,7 @@ style
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -3194,7 +3194,7 @@ if
 aFrame
 -
 >
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -

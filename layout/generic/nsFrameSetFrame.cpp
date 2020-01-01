@@ -9145,7 +9145,7 @@ disp
 aContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;

@@ -3422,7 +3422,7 @@ disp
 aStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -4761,7 +4761,7 @@ disp
 aStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -6218,7 +6218,7 @@ tf
 aFromContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

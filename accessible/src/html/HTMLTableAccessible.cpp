@@ -7351,7 +7351,7 @@ rowColor
 rowFrame
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 -

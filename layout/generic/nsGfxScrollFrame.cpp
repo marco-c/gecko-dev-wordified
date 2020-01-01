@@ -13840,7 +13840,7 @@ disp
 mOuter
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -16745,7 +16745,7 @@ resizeStyle
 mOuter
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -19656,7 +19656,7 @@ return
 frame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

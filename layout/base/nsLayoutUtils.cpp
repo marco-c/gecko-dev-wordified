@@ -3542,7 +3542,7 @@ disp
 aChildFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -12699,7 +12699,7 @@ position
 aFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -13849,7 +13849,7 @@ textStyle
 aFrame
 -
 >
-GetStyleText
+StyleText
 (
 )
 ;
@@ -14097,7 +14097,7 @@ font
 aStyleContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -14189,7 +14189,7 @@ font
 aStyleContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -15196,7 +15196,7 @@ pos
 f
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -16176,7 +16176,7 @@ stylePos
 aFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -17019,7 +17019,7 @@ styleBorder
 aFrame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -17054,7 +17054,7 @@ stylePadding
 aFrame
 -
 >
-GetStylePadding
+StylePadding
 (
 )
 ;
@@ -17920,7 +17920,7 @@ disp
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -18837,7 +18837,7 @@ stylePos
 aFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -18983,7 +18983,7 @@ GetParent
 )
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -21549,7 +21549,7 @@ aDirection
 aFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -21686,7 +21686,7 @@ vis
 aFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -21791,7 +21791,7 @@ textStyle
 aFrame
 -
 >
-GetStyleText
+StyleText
 (
 )
 ;
@@ -23641,7 +23641,7 @@ switch
 frame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -26939,7 +26939,7 @@ if
 aCSSRootFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -26960,7 +26960,7 @@ HasNonZeroCorner
 aCSSRootFrame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -26976,7 +26976,7 @@ if
 aCSSRootFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -26994,7 +26994,7 @@ if
 aCSSRootFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -27135,7 +27135,7 @@ bg
 bgSC
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 ;
@@ -27518,7 +27518,7 @@ switch
 aStyleContext
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -27994,7 +27994,7 @@ NS_PRECONDITION
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -32150,7 +32150,7 @@ styleFontSize
 aFrame
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -32405,7 +32405,7 @@ stylePosWidth
 f
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -32418,7 +32418,7 @@ stylePosHeight
 f
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -33015,7 +33015,7 @@ styleText
 aFrame
 -
 >
-GetStyleText
+StyleText
 (
 )
 ;
@@ -33921,7 +33921,7 @@ boxShadows
 aFrame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 -

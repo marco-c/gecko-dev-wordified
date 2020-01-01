@@ -1209,7 +1209,7 @@ mBorder
 mFrame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -1292,7 +1292,7 @@ bg
 mFrame
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 ;
@@ -4032,7 +4032,7 @@ cellTableStyle
 aCell
 -
 >
-GetStyleTableBorder
+StyleTableBorder
 (
 )
 ;

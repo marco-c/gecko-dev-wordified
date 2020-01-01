@@ -965,7 +965,7 @@ aStopColor
 stopFrame
 -
 >
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -
@@ -978,7 +978,7 @@ aStopOpacity
 stopFrame
 -
 >
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -

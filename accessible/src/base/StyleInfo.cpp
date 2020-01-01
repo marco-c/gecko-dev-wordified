@@ -212,7 +212,7 @@ ValueToKeyword
 mStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -254,7 +254,7 @@ ValueToKeyword
 mStyleContext
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -294,7 +294,7 @@ styleCoord
 mStyleContext
 -
 >
-GetStyleText
+StyleText
 (
 )
 -

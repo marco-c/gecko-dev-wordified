@@ -4601,7 +4601,7 @@ height
 ;
 if
 (
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -5865,7 +5865,7 @@ nsStyleDisplay
 *
 disp
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -6248,7 +6248,7 @@ heights
 endif
 if
 (
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -7981,7 +7981,7 @@ nsStyleUserInterface
 *
 uiStyle
 =
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 ;
@@ -10390,7 +10390,7 @@ nsStyleDisplay
 *
 disp
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -10625,7 +10625,7 @@ aRenderingContext
 .
 SetColor
 (
-GetStyleColor
+StyleColor
 (
 )
 -

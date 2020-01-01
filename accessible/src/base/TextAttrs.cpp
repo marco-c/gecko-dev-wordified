@@ -2553,7 +2553,7 @@ styleBackground
 aFrame
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 ;
@@ -2870,7 +2870,7 @@ mRootNativeValue
 aRootFrame
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -2891,7 +2891,7 @@ mNativeValue
 aFrame
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -2960,7 +2960,7 @@ aValue
 frame
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -3585,7 +3585,7 @@ mRootNativeValue
 aRootFrame
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -3606,7 +3606,7 @@ mNativeValue
 aFrame
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -3675,7 +3675,7 @@ aValue
 frame
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -4059,7 +4059,7 @@ mRootNativeValue
 aRootFrame
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -4082,7 +4082,7 @@ mNativeValue
 aFrame
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -4153,7 +4153,7 @@ aValue
 frame
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -5397,7 +5397,7 @@ textReset
 aFrame
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 ;
@@ -5433,7 +5433,7 @@ mColor
 aFrame
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -6162,7 +6162,7 @@ styleCoord
 aFrame
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 -

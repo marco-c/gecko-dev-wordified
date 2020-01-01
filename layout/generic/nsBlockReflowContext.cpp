@@ -1229,7 +1229,7 @@ if
 kid
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -3119,7 +3119,7 @@ styleDisp
 mFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;

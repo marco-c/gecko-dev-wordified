@@ -457,7 +457,7 @@ this
 uint8_t
 captionSide
 =
-GetStyleTableBorder
+StyleTableBorder
 (
 )
 -
@@ -3251,7 +3251,7 @@ FirstChild
 )
 -
 >
-GetStyleTableBorder
+StyleTableBorder
 (
 )
 -
@@ -3290,7 +3290,7 @@ FirstChild
 )
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 -

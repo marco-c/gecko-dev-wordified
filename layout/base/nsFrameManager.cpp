@@ -7281,7 +7281,7 @@ IsAccessibilityActive
 oldContext
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -9589,7 +9589,7 @@ display
 undisplayedContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -10293,7 +10293,7 @@ isFrameVisible
 newContext
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -10447,7 +10447,7 @@ eNotifyIfShown
 newContext
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

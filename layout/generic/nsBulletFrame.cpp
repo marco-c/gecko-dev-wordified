@@ -449,7 +449,7 @@ IsSelfEmpty
 )
 {
 return
-GetStyleList
+StyleList
 (
 )
 -
@@ -488,7 +488,7 @@ imgRequestProxy
 *
 newRequest
 =
-GetStyleList
+StyleList
 (
 )
 -
@@ -819,7 +819,7 @@ nsStyleList
 *
 newStyleList
 =
-GetStyleList
+StyleList
 (
 )
 ;
@@ -1310,7 +1310,7 @@ nsStyleList
 *
 myList
 =
-GetStyleList
+StyleList
 (
 )
 ;
@@ -6974,7 +6974,7 @@ nsStyleVisibility
 *
 vis
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -7247,7 +7247,7 @@ nsStyleList
 *
 myList
 =
-GetStyleList
+StyleList
 (
 )
 ;
@@ -8830,7 +8830,7 @@ nsStyleList
 *
 myList
 =
-GetStyleList
+StyleList
 (
 )
 ;

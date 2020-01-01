@@ -1171,7 +1171,7 @@ if
 containerFrame
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 -
@@ -1218,7 +1218,7 @@ direction
 containerFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

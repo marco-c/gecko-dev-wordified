@@ -1879,7 +1879,7 @@ like
 const
 nsStyleBorder
 *
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -1887,7 +1887,7 @@ GetStyleBorder
 const
 nsStyleColor
 *
-GetStyleColor
+StyleColor
 (
 )
 ;
@@ -1908,7 +1908,7 @@ nsStyle
 #
 name_
 *
-GetStyle
+Style
 #
 #
 name_
@@ -2599,7 +2599,7 @@ should
 do
 the
 trick
-GetStyleBackground
+StyleBackground
 (
 )
 ;

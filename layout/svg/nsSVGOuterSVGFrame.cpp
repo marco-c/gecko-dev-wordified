@@ -4474,7 +4474,7 @@ pos
 aEmbeddingFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;

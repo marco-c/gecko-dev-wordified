@@ -452,7 +452,7 @@ stylePos
 aFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;

@@ -1301,7 +1301,7 @@ style
 aFrame
 -
 >
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 ;
@@ -3362,7 +3362,7 @@ opacity
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

@@ -4480,7 +4480,7 @@ parent
 parent
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -16108,7 +16108,7 @@ uiData
 aFrame
 -
 >
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 ;

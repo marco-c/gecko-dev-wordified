@@ -606,7 +606,7 @@ nsStyleMargin
 *
 margin
 =
-GetStyleMargin
+StyleMargin
 (
 )
 ;
@@ -615,7 +615,7 @@ nsStyleBorder
 *
 border
 =
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -624,7 +624,7 @@ nsStylePadding
 *
 padding
 =
-GetStylePadding
+StylePadding
 (
 )
 ;
@@ -786,7 +786,7 @@ if
 NS_STYLE_DIRECTION_LTR
 =
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -6250,7 +6250,7 @@ ltr
 NS_STYLE_DIRECTION_LTR
 =
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

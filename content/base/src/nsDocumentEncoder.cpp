@@ -736,7 +736,7 @@ isVisible
 frame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

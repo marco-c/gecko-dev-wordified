@@ -1429,7 +1429,7 @@ styleContent
 aFrame
 -
 >
-GetStyleContent
+StyleContent
 (
 )
 ;

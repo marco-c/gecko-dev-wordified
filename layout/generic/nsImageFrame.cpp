@@ -3095,7 +3095,7 @@ HaveFixedSize
 aStyleContext
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 )
@@ -3256,7 +3256,7 @@ if
 aStyleContext
 -
 >
-GetStyleUIReset
+StyleUIReset
 (
 )
 -
@@ -3446,7 +3446,7 @@ HaveFixedSize
 aStyleContext
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 )
@@ -4385,7 +4385,7 @@ aContainer
 if
 (
 !
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -6360,7 +6360,7 @@ aRenderingContext
 .
 SetColor
 (
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -6651,7 +6651,7 @@ nsStyleVisibility
 *
 vis
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -7325,7 +7325,7 @@ nsStyleVisibility
 *
 vis
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -10949,7 +10949,7 @@ FillCursorInformationFromStyle
 areaStyle
 -
 >
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 aCursor
@@ -12638,7 +12638,7 @@ grandAncestor
 grandAncestor
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -12711,7 +12711,7 @@ GetParent
 )
 -
 >
-GetStyleText
+StyleText
 (
 )
 -

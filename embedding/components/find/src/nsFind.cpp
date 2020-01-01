@@ -4621,7 +4621,7 @@ return
 frame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

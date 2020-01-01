@@ -9270,7 +9270,7 @@ ui
 frame
 -
 >
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 ;

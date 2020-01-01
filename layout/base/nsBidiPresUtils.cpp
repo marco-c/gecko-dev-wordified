@@ -401,7 +401,7 @@ NS_STYLE_DIRECTION_RTL
 aBlockFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -414,7 +414,7 @@ if
 aBlockFrame
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 -
@@ -835,7 +835,7 @@ text
 aBDIFrame
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 ;
@@ -849,7 +849,7 @@ NS_STYLE_DIRECTION_RTL
 aBDIFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -3590,7 +3590,7 @@ text
 aBlockFrame
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 ;
@@ -3617,7 +3617,7 @@ vis
 aBlockFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -6029,7 +6029,7 @@ vis
 frame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -6041,7 +6041,7 @@ text
 frame
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 ;
@@ -6315,7 +6315,7 @@ if
 frame
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -7198,7 +7198,7 @@ text
 frame
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 ;
@@ -7892,7 +7892,7 @@ vis
 aFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -9088,7 +9088,7 @@ vis
 aFirstChild
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;

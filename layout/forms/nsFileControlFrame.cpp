@@ -3199,7 +3199,7 @@ box
 shadow
 if
 (
-GetStyleBorder
+StyleBorder
 (
 )
 -

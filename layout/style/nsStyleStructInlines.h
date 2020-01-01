@@ -877,7 +877,7 @@ return
 f
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

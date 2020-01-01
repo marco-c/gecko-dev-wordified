@@ -3447,7 +3447,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -3518,7 +3518,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -3562,7 +3562,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -3617,7 +3617,7 @@ val
 >
 SetIdent
 (
-GetStyleXUL
+StyleXUL
 (
 )
 -
@@ -3800,7 +3800,7 @@ GetROCSSPrimitiveValue
 SetToRGBAColor
 (
 val
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -3834,7 +3834,7 @@ val
 >
 SetNumber
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -3868,7 +3868,7 @@ nsStyleColumn
 *
 column
 =
-GetStyleColumn
+StyleColumn
 (
 )
 ;
@@ -3957,7 +3957,7 @@ width
 SetValueToCoord
 (
 val
-GetStyleColumn
+StyleColumn
 (
 )
 -
@@ -3992,7 +3992,7 @@ nsStyleColumn
 *
 column
 =
-GetStyleColumn
+StyleColumn
 (
 )
 ;
@@ -4016,7 +4016,7 @@ val
 >
 SetAppUnits
 (
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -4032,7 +4032,7 @@ else
 SetValueToCoord
 (
 val
-GetStyleColumn
+StyleColumn
 (
 )
 -
@@ -4073,7 +4073,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleColumn
+StyleColumn
 (
 )
 -
@@ -4112,7 +4112,7 @@ val
 >
 SetAppUnits
 (
-GetStyleColumn
+StyleColumn
 (
 )
 -
@@ -4153,7 +4153,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleColumn
+StyleColumn
 (
 )
 -
@@ -4192,7 +4192,7 @@ nsStyleColumn
 *
 column
 =
-GetStyleColumn
+StyleColumn
 (
 )
 ;
@@ -4209,7 +4209,7 @@ mColumnRuleColorIsForeground
 {
 ruleColor
 =
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -4251,7 +4251,7 @@ nsStyleContent
 *
 content
 =
-GetStyleContent
+StyleContent
 (
 )
 ;
@@ -4858,7 +4858,7 @@ nsStyleContent
 *
 content
 =
-GetStyleContent
+StyleContent
 (
 )
 ;
@@ -5108,7 +5108,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -5337,7 +5337,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -5432,7 +5432,7 @@ GetROCSSPrimitiveValue
 ;
 if
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -5447,7 +5447,7 @@ GetUnit
 eStyleUnit_Coord
 &
 &
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -5478,7 +5478,7 @@ else
 SetValueToCoord
 (
 val
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -5519,7 +5519,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -5563,7 +5563,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -5650,7 +5650,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -6355,7 +6355,7 @@ nsStyleContent
 *
 content
 =
-GetStyleContent
+StyleContent
 (
 )
 ;
@@ -6531,7 +6531,7 @@ nsStyleQuotes
 *
 quotes
 =
-GetStyleQuotes
+StyleQuotes
 (
 )
 ;
@@ -6717,7 +6717,7 @@ nsStyleFont
 *
 font
 =
-GetStyleFont
+StyleFont
 (
 )
 ;
@@ -6930,7 +6930,7 @@ GetROCSSPrimitiveValue
 /
 Note
 :
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -6945,7 +6945,7 @@ size
 ;
 /
 /
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -6964,7 +6964,7 @@ val
 >
 SetAppUnits
 (
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -6998,7 +6998,7 @@ nsStyleFont
 *
 font
 =
-GetStyleFont
+StyleFont
 (
 )
 ;
@@ -7068,7 +7068,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -7114,7 +7114,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -7155,7 +7155,7 @@ nsStyleFont
 *
 font
 =
-GetStyleFont
+StyleFont
 (
 )
 ;
@@ -7226,7 +7226,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -7267,7 +7267,7 @@ nsStyleFont
 *
 font
 =
-GetStyleFont
+StyleFont
 (
 )
 ;
@@ -7348,7 +7348,7 @@ nsStyleFont
 *
 font
 =
-GetStyleFont
+StyleFont
 (
 )
 ;
@@ -7441,7 +7441,7 @@ nsStyleBackground
 *
 bg
 =
-GetStyleBackground
+StyleBackground
 (
 )
 ;
@@ -7606,7 +7606,7 @@ GetROCSSPrimitiveValue
 SetToRGBAColor
 (
 val
-GetStyleBackground
+StyleBackground
 (
 )
 -
@@ -9389,7 +9389,7 @@ nsStyleBackground
 *
 bg
 =
-GetStyleBackground
+StyleBackground
 (
 )
 ;
@@ -9493,7 +9493,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleBackground
+StyleBackground
 (
 )
 -
@@ -9556,7 +9556,7 @@ nsStyleBackground
 *
 bg
 =
-GetStyleBackground
+StyleBackground
 (
 )
 ;
@@ -9843,7 +9843,7 @@ nsStyleBackground
 *
 bg
 =
-GetStyleBackground
+StyleBackground
 (
 )
 ;
@@ -10111,7 +10111,7 @@ nsStyleBackground
 *
 bg
 =
-GetStyleBackground
+StyleBackground
 (
 )
 ;
@@ -10753,7 +10753,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleTableBorder
+StyleTableBorder
 (
 )
 -
@@ -10825,7 +10825,7 @@ nsStyleTableBorder
 *
 border
 =
-GetStyleTableBorder
+StyleTableBorder
 (
 )
 ;
@@ -10882,7 +10882,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleTableBorder
+StyleTableBorder
 (
 )
 -
@@ -10926,7 +10926,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleTableBorder
+StyleTableBorder
 (
 )
 -
@@ -10970,7 +10970,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleTable
+StyleTable
 (
 )
 -
@@ -11127,7 +11127,7 @@ DoGetBorderBottomLeftRadius
 return
 GetEllipseRadii
 (
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -11150,7 +11150,7 @@ DoGetBorderBottomRightRadius
 return
 GetEllipseRadii
 (
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -11173,7 +11173,7 @@ DoGetBorderTopLeftRadius
 return
 GetEllipseRadii
 (
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -11196,7 +11196,7 @@ DoGetBorderTopRightRadius
 return
 GetEllipseRadii
 (
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -11419,7 +11419,7 @@ GetROCSSPrimitiveValue
 SetValueToCoord
 (
 val
-GetStyleContent
+StyleContent
 (
 )
 -
@@ -11459,7 +11459,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -11498,7 +11498,7 @@ nsStyleOutline
 *
 outline
 =
-GetStyleOutline
+StyleOutline
 (
 )
 ;
@@ -11615,7 +11615,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleOutline
+StyleOutline
 (
 )
 -
@@ -11656,7 +11656,7 @@ val
 >
 SetAppUnits
 (
-GetStyleOutline
+StyleOutline
 (
 )
 -
@@ -11680,7 +11680,7 @@ DoGetOutlineRadiusBottomLeft
 return
 GetEllipseRadii
 (
-GetStyleOutline
+StyleOutline
 (
 )
 -
@@ -11703,7 +11703,7 @@ DoGetOutlineRadiusBottomRight
 return
 GetEllipseRadii
 (
-GetStyleOutline
+StyleOutline
 (
 )
 -
@@ -11726,7 +11726,7 @@ DoGetOutlineRadiusTopLeft
 return
 GetEllipseRadii
 (
-GetStyleOutline
+StyleOutline
 (
 )
 -
@@ -11749,7 +11749,7 @@ DoGetOutlineRadiusTopRight
 return
 GetEllipseRadii
 (
-GetStyleOutline
+StyleOutline
 (
 )
 -
@@ -11783,7 +11783,7 @@ color
 if
 (
 !
-GetStyleOutline
+StyleOutline
 (
 )
 -
@@ -11795,7 +11795,7 @@ color
 )
 color
 =
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -12486,13 +12486,13 @@ DoGetBoxShadow
 return
 GetCSSShadowArray
 (
-GetStyleBorder
+StyleBorder
 (
 )
 -
 >
 mBoxShadow
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -12522,7 +12522,7 @@ GetROCSSPrimitiveValue
 SetValueToCoord
 (
 val
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -12557,7 +12557,7 @@ nsStyleList
 *
 list
 =
-GetStyleList
+StyleList
 (
 )
 ;
@@ -12656,7 +12656,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleList
+StyleList
 (
 )
 -
@@ -12700,7 +12700,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleList
+StyleList
 (
 )
 -
@@ -12739,7 +12739,7 @@ nsStyleList
 *
 list
 =
-GetStyleList
+StyleList
 (
 )
 ;
@@ -12958,7 +12958,7 @@ else
 SetValueToCoord
 (
 val
-GetStyleText
+StyleText
 (
 )
 -
@@ -12997,7 +12997,7 @@ GetROCSSPrimitiveValue
 SetValueToCoord
 (
 val
-GetStyleTextReset
+StyleTextReset
 (
 )
 -
@@ -13046,7 +13046,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleText
+StyleText
 (
 )
 -
@@ -13090,7 +13090,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleText
+StyleText
 (
 )
 -
@@ -13134,7 +13134,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleTextReset
+StyleTextReset
 (
 )
 -
@@ -13173,7 +13173,7 @@ nsStyleTextReset
 *
 textReset
 =
-GetStyleTextReset
+StyleTextReset
 (
 )
 ;
@@ -13495,7 +13495,7 @@ color
 bool
 isForeground
 ;
-GetStyleTextReset
+StyleTextReset
 (
 )
 -
@@ -13513,7 +13513,7 @@ isForeground
 {
 color
 =
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -13551,7 +13551,7 @@ GetROCSSPrimitiveValue
 int32_t
 intValue
 =
-GetStyleTextReset
+StyleTextReset
 (
 )
 -
@@ -13674,7 +13674,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleTextReset
+StyleTextReset
 (
 )
 -
@@ -13713,7 +13713,7 @@ GetROCSSPrimitiveValue
 SetValueToCoord
 (
 val
-GetStyleText
+StyleText
 (
 )
 -
@@ -13745,7 +13745,7 @@ nsStyleTextReset
 *
 style
 =
-GetStyleTextReset
+StyleTextReset
 (
 )
 ;
@@ -13959,13 +13959,13 @@ DoGetTextShadow
 return
 GetCSSShadowArray
 (
-GetStyleText
+StyleText
 (
 )
 -
 >
 mTextShadow
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -14002,7 +14002,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleText
+StyleText
 (
 )
 -
@@ -14041,7 +14041,7 @@ val
 >
 SetNumber
 (
-GetStyleText
+StyleText
 (
 )
 -
@@ -14073,7 +14073,7 @@ GetROCSSPrimitiveValue
 SetValueToCoord
 (
 val
-GetStyleText
+StyleText
 (
 )
 -
@@ -14108,7 +14108,7 @@ val
 >
 SetAppUnits
 (
-GetStyleText
+StyleText
 (
 )
 -
@@ -14147,7 +14147,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleText
+StyleText
 (
 )
 -
@@ -14191,7 +14191,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleUIReset
+StyleUIReset
 (
 )
 -
@@ -14235,7 +14235,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleText
+StyleText
 (
 )
 -
@@ -14279,7 +14279,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleText
+StyleText
 (
 )
 -
@@ -14323,7 +14323,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleText
+StyleText
 (
 )
 -
@@ -14359,7 +14359,7 @@ GetROCSSPrimitiveValue
 ;
 switch
 (
-GetStyleText
+StyleText
 (
 )
 -
@@ -14439,7 +14439,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -14483,7 +14483,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -14527,7 +14527,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -14589,7 +14589,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleTextReset
+StyleTextReset
 (
 )
 -
@@ -14629,7 +14629,7 @@ nsStyleUserInterface
 *
 ui
 =
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 ;
@@ -14860,7 +14860,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -14904,7 +14904,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleXUL
+StyleXUL
 (
 )
 -
@@ -14948,7 +14948,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleXUL
+StyleXUL
 (
 )
 -
@@ -14987,7 +14987,7 @@ val
 >
 SetNumber
 (
-GetStyleXUL
+StyleXUL
 (
 )
 -
@@ -15021,7 +15021,7 @@ val
 >
 SetNumber
 (
-GetStyleXUL
+StyleXUL
 (
 )
 -
@@ -15060,7 +15060,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleXUL
+StyleXUL
 (
 )
 -
@@ -15104,7 +15104,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleXUL
+StyleXUL
 (
 )
 -
@@ -15148,7 +15148,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -15186,7 +15186,7 @@ nsStyleBorder
 *
 border
 =
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -15278,7 +15278,7 @@ nsStyleBorder
 *
 border
 =
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -15385,7 +15385,7 @@ nsStyleBorder
 *
 border
 =
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -15463,7 +15463,7 @@ nsStyleBorder
 *
 border
 =
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -15537,7 +15537,7 @@ nsStyleBorder
 *
 border
 =
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -15657,7 +15657,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -15694,7 +15694,7 @@ GetROCSSPrimitiveValue
 uint8_t
 computedAlignSelf
 =
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -15751,7 +15751,7 @@ computedAlignSelf
 parentStyleContext
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -15930,7 +15930,7 @@ GetCBContentHeight
 SetValueToCoord
 (
 val
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -15975,7 +15975,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -16014,7 +16014,7 @@ val
 >
 SetNumber
 (
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -16048,7 +16048,7 @@ val
 >
 SetNumber
 (
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -16082,7 +16082,7 @@ val
 >
 SetNumber
 (
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -16121,7 +16121,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -16170,7 +16170,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -16209,7 +16209,7 @@ val
 >
 SetNumber
 (
-GetStyleUIReset
+StyleUIReset
 (
 )
 -
@@ -16248,7 +16248,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleUIReset
+StyleUIReset
 (
 )
 -
@@ -16292,7 +16292,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 -
@@ -16336,7 +16336,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 -
@@ -16380,7 +16380,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 -
@@ -16424,7 +16424,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleUIReset
+StyleUIReset
 (
 )
 -
@@ -16468,7 +16468,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -16512,7 +16512,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -16551,7 +16551,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -16817,7 +16817,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -16921,7 +16921,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -16965,7 +16965,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -17009,7 +17009,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -17048,7 +17048,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -17106,7 +17106,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -17169,7 +17169,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -17222,7 +17222,7 @@ nsStyleDisplay
 *
 displayData
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -17290,7 +17290,7 @@ nsStylePosition
 *
 positionData
 =
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -17385,7 +17385,7 @@ nsStyleDisplay
 *
 displayData
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -17453,7 +17453,7 @@ nsStylePosition
 *
 positionData
 =
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -17535,7 +17535,7 @@ GetROCSSPrimitiveValue
 SetValueToCoord
 (
 val
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -17573,7 +17573,7 @@ GetROCSSPrimitiveValue
 SetValueToCoord
 (
 val
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -17615,7 +17615,7 @@ GetROCSSPrimitiveValue
 nsStyleCoord
 minHeight
 =
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -17742,7 +17742,7 @@ GetROCSSPrimitiveValue
 nsStyleCoord
 minWidth
 =
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -18058,7 +18058,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -18621,7 +18621,7 @@ nsStylePosition
 *
 positionData
 =
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -18804,7 +18804,7 @@ GetROCSSPrimitiveValue
 SetValueToCoord
 (
 val
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -18856,7 +18856,7 @@ mInnerFrame
 SetValueToCoord
 (
 val
-GetStylePadding
+StylePadding
 (
 )
 -
@@ -18922,7 +18922,7 @@ NS_AUTOHEIGHT
 ;
 if
 (
-GetStyleText
+StyleText
 (
 )
 -
@@ -19061,7 +19061,7 @@ nsStyleFont
 *
 font
 =
-GetStyleFont
+StyleFont
 (
 )
 ;
@@ -19159,7 +19159,7 @@ nsStyleBorder
 *
 border
 =
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -19318,7 +19318,7 @@ else
 {
 width
 =
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -19372,7 +19372,7 @@ color
 bool
 foreground
 ;
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -19391,7 +19391,7 @@ foreground
 {
 color
 =
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -19443,7 +19443,7 @@ mInnerFrame
 SetValueToCoord
 (
 val
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -19580,7 +19580,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -20547,7 +20547,7 @@ nsStyleSVG
 *
 svg
 =
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -20775,7 +20775,7 @@ nsStyleSVG
 *
 svg
 =
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -20832,7 +20832,7 @@ nsStyleSVG
 *
 svg
 =
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -20889,7 +20889,7 @@ nsStyleSVG
 *
 svg
 =
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -20938,7 +20938,7 @@ nsStyleSVG
 *
 svg
 =
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -21060,7 +21060,7 @@ GetROCSSPrimitiveValue
 SetValueToCoord
 (
 val
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -21093,7 +21093,7 @@ GetROCSSPrimitiveValue
 SetValueToCoord
 (
 val
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -21133,7 +21133,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -
@@ -21172,7 +21172,7 @@ val
 >
 SetNumber
 (
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -21206,7 +21206,7 @@ val
 >
 SetNumber
 (
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -
@@ -21240,7 +21240,7 @@ val
 >
 SetNumber
 (
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -
@@ -21274,7 +21274,7 @@ val
 >
 SetNumber
 (
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -21308,7 +21308,7 @@ val
 >
 SetNumber
 (
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -21347,7 +21347,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -21391,7 +21391,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -21435,7 +21435,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -21479,7 +21479,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -21523,7 +21523,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -21567,7 +21567,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -21611,7 +21611,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -21655,7 +21655,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -
@@ -21699,7 +21699,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -21743,7 +21743,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -21787,7 +21787,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -21824,7 +21824,7 @@ GetROCSSPrimitiveValue
 SetToRGBAColor
 (
 val
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -
@@ -21856,7 +21856,7 @@ GetROCSSPrimitiveValue
 SetToRGBAColor
 (
 val
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -
@@ -21888,7 +21888,7 @@ GetROCSSPrimitiveValue
 SetToRGBAColor
 (
 val
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -
@@ -21922,7 +21922,7 @@ nsStyleSVGReset
 *
 svg
 =
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 ;
@@ -21979,7 +21979,7 @@ nsStyleSVGReset
 *
 svg
 =
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 ;
@@ -22036,7 +22036,7 @@ nsStyleSVGReset
 *
 svg
 =
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 ;
@@ -22098,7 +22098,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -
@@ -22138,7 +22138,7 @@ string
 uint8_t
 paintOrder
 =
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -22180,7 +22180,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -22299,7 +22299,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -22418,7 +22418,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -22847,7 +22847,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -22931,7 +22931,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -23092,7 +23092,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -23211,7 +23211,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -23330,7 +23330,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -23414,7 +23414,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -23535,7 +23535,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -23656,7 +23656,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -23849,7 +23849,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;

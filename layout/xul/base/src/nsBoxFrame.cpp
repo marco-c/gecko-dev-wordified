@@ -1891,7 +1891,7 @@ nsStyleXUL
 *
 boxInfo
 =
-GetStyleXUL
+StyleXUL
 (
 )
 ;
@@ -2373,7 +2373,7 @@ nsStyleXUL
 *
 boxInfo
 =
-GetStyleXUL
+StyleXUL
 (
 )
 ;
@@ -2572,7 +2572,7 @@ nsStyleXUL
 *
 boxInfo
 =
-GetStyleXUL
+StyleXUL
 (
 )
 ;
@@ -2738,7 +2738,7 @@ chrome
 aIsNormal
 =
 (
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -2797,7 +2797,7 @@ nsStyleXUL
 *
 boxInfo
 =
-GetStyleXUL
+StyleXUL
 (
 )
 ;
@@ -3157,7 +3157,7 @@ nsStyleXUL
 *
 boxInfo
 =
-GetStyleXUL
+StyleXUL
 (
 )
 ;
@@ -6929,7 +6929,7 @@ NS_FRAME_OUT_OF_FLOW
 )
 &
 &
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -7376,7 +7376,7 @@ nsStyleDisplay
 *
 styles
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;

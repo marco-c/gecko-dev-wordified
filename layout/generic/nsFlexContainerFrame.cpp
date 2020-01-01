@@ -846,7 +846,7 @@ stylePos
 aFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -3571,7 +3571,7 @@ order1
 aFrame1
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -3584,7 +3584,7 @@ order2
 aFrame2
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -3808,7 +3808,7 @@ order1
 aFrame1
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -3821,7 +3821,7 @@ order2
 aFrame2
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -3999,7 +3999,7 @@ stylePos
 aChildFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -4310,7 +4310,7 @@ eStyleUnit_Auto
 aChildFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -4919,7 +4919,7 @@ disp
 aChildFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -5516,7 +5516,7 @@ mAlignSelf
 aChildFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -5588,7 +5588,7 @@ styleMargin
 mFrame
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -5686,7 +5686,7 @@ GetParent
 )
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -5897,7 +5897,7 @@ styleMargin
 mFrame
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -7583,7 +7583,7 @@ pos
 aFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -10482,7 +10482,7 @@ mJustifyContent
 aFlexContainerFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -11014,7 +11014,7 @@ Frame
 )
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -12498,7 +12498,7 @@ Frame
 )
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -12937,7 +12937,7 @@ flexDirection
 aFlexContainerFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -12950,7 +12950,7 @@ cssDirection
 aFlexContainerFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -15076,7 +15076,7 @@ cases
 )
 if
 (
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -16999,7 +16999,7 @@ Frame
 )
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;

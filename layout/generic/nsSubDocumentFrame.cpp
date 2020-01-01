@@ -1293,7 +1293,7 @@ nsStyleDisplay
 *
 disp
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -1634,7 +1634,7 @@ PassPointerEventsToChildren
 {
 if
 (
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

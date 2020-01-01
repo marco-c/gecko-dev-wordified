@@ -17665,7 +17665,7 @@ color
 aStyleContext
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -18596,7 +18596,7 @@ color
 aStyleContext
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -18648,7 +18648,7 @@ color
 aStyleContext
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -18815,7 +18815,7 @@ color
 aStyleContext
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -

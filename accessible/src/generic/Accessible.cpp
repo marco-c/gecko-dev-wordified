@@ -3480,7 +3480,7 @@ if
 frame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -3805,7 +3805,7 @@ parentFrame
 parentFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -4201,7 +4201,7 @@ xulStyle
 frame
 -
 >
-GetStyleXUL
+StyleXUL
 (
 )
 ;
@@ -9447,7 +9447,7 @@ display
 frame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;

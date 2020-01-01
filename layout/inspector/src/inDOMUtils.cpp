@@ -587,7 +587,7 @@ text
 frame
 -
 >
-GetStyleText
+StyleText
 (
 )
 ;

@@ -3007,7 +3007,7 @@ disp
 aNewStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;

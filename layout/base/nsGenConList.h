@@ -485,7 +485,7 @@ int32_t
 mPseudoFrame
 -
 >
-GetStyleContent
+StyleContent
 (
 )
 -

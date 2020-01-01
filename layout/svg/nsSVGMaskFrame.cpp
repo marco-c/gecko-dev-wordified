@@ -896,7 +896,7 @@ rect
 ;
 if
 (
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -920,7 +920,7 @@ rect
 }
 if
 (
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -

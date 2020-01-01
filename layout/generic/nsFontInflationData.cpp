@@ -1783,7 +1783,7 @@ content
 kid
 -
 >
-GetStyleText
+StyleText
 (
 )
 )
@@ -2003,7 +2003,7 @@ GetContent
 optionChild
 -
 >
-GetStyleText
+StyleText
 (
 )
 )
@@ -2254,7 +2254,7 @@ content
 kid
 -
 >
-GetStyleText
+StyleText
 (
 )
 )
@@ -2273,7 +2273,7 @@ fontSize
 kid
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -2345,7 +2345,7 @@ fontSize
 kid
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -2439,7 +2439,7 @@ fontSize
 kid
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -2512,7 +2512,7 @@ fontSize
 kid
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -

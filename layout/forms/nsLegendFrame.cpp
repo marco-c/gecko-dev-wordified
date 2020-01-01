@@ -179,7 +179,7 @@ disp
 aContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -439,7 +439,7 @@ NS_STYLE_DIRECTION_RTL
 mParent
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

@@ -5057,7 +5057,7 @@ userinterface
 theFrame
 -
 >
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 ;
@@ -7866,7 +7866,7 @@ vis
 aFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -8573,7 +8573,7 @@ userinterface
 frame
 -
 >
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 ;

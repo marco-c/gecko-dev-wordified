@@ -2369,7 +2369,7 @@ aFrame
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

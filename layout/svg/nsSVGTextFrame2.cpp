@@ -10081,7 +10081,7 @@ AppendElement
 mRootFrame
 -
 >
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -
@@ -10916,7 +10916,7 @@ baseline
 aNextFrame
 -
 >
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -
@@ -12241,7 +12241,7 @@ skip
 frame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -14181,7 +14181,7 @@ mTrimmedLength
 mFrameForTrimCheck
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -16061,7 +16061,7 @@ switch
 mFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -16136,7 +16136,7 @@ if
 mFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -20192,7 +20192,7 @@ run
 mFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -20625,7 +20625,7 @@ aRun
 mFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -27582,7 +27582,7 @@ isRTL
 chunkFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -27600,7 +27600,7 @@ ConvertLogicalTextAnchorToPhysical
 chunkFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -28525,7 +28525,7 @@ style
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -29323,7 +29323,7 @@ geometricPrecision
 f
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -29340,7 +29340,7 @@ size
 f
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -31325,7 +31325,7 @@ style
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -31466,7 +31466,7 @@ style
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -31595,7 +31595,7 @@ style
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -31803,7 +31803,7 @@ style
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 ;

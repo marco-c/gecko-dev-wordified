@@ -2067,7 +2067,7 @@ GetShadowStyle
 uint8_t
 shadow
 =
-GetStyleUIReset
+StyleUIReset
 (
 )
 -
@@ -2086,7 +2086,7 @@ shadow
 ;
 switch
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -5668,7 +5668,7 @@ margin
 0
 )
 ;
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -7341,7 +7341,7 @@ margin
 0
 )
 ;
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -12204,7 +12204,7 @@ margin
 0
 )
 ;
-GetStyleMargin
+StyleMargin
 (
 )
 -

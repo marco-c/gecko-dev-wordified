@@ -408,7 +408,7 @@ SetColor
 aFrame
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -502,7 +502,7 @@ SetColor
 aFrame
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -

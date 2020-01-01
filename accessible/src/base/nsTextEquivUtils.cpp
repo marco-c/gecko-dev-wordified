@@ -632,7 +632,7 @@ frame
 frame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -831,7 +831,7 @@ display
 frame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;

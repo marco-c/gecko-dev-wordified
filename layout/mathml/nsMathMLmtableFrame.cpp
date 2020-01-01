@@ -968,7 +968,7 @@ _expected
 _frame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -994,7 +994,7 @@ IsTable
 _frame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

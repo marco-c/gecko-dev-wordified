@@ -1204,7 +1204,7 @@ needed
 if
 (
 !
-GetStyleText
+StyleText
 (
 )
 -
@@ -1733,7 +1733,7 @@ nsStyleUserInterface
 *
 uiStyle
 =
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 ;

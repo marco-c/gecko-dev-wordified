@@ -602,7 +602,7 @@ isRTL
 aBodyFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -1302,7 +1302,7 @@ vis
 frame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -1322,7 +1322,7 @@ textStyle
 frame
 -
 >
-GetStyleText
+StyleText
 (
 )
 ;

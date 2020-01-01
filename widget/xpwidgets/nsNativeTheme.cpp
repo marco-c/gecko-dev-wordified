@@ -1427,7 +1427,7 @@ parentFrame
 parentFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -1809,7 +1809,7 @@ aFrame
 aFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -2677,7 +2677,7 @@ aFrame
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -2719,7 +2719,7 @@ return
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -3372,7 +3372,7 @@ sibling
 sibling
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -3383,7 +3383,7 @@ mAppearance
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

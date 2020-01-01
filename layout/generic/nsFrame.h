@@ -1879,7 +1879,7 @@ garbage
 width
 if
 *
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -2769,7 +2769,7 @@ mIsTopOfPage
 NS_STYLE_PAGE_BREAK_AVOID
 =
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

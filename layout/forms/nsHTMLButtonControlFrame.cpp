@@ -722,7 +722,7 @@ IsInput
 )
 |
 |
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -736,7 +736,7 @@ NS_STYLE_OVERFLOW_VISIBLE
 nsMargin
 border
 =
-GetStyleBorder
+StyleBorder
 (
 )
 -

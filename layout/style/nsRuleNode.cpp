@@ -2153,7 +2153,7 @@ aStyleFont
 aStyleContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 ;
@@ -2313,7 +2313,7 @@ should
 /
 /
 use
-GetStyleFont
+StyleFont
 on
 this
 context
@@ -2433,7 +2433,7 @@ rootStyleFont
 rootStyle
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 ;
@@ -2538,7 +2538,7 @@ aStyleFont
 aStyleContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 ;
@@ -5274,7 +5274,7 @@ aResult
 aContext
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -14266,7 +14266,7 @@ dir
 aContext
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -14582,7 +14582,7 @@ call
 parentContext
 -
 >
-GetStyle
+Style
 #
 #
 type_
@@ -14656,7 +14656,7 @@ parentdata_
 parentContext
 -
 >
-GetStyle
+Style
 #
 #
 type_
@@ -15158,7 +15158,7 @@ call
 parentContext
 -
 >
-GetStyle
+Style
 #
 #
 type_
@@ -15248,7 +15248,7 @@ parentdata_
 parentContext
 -
 >
-GetStyle
+Style
 #
 #
 type_
@@ -22706,7 +22706,7 @@ if
 higherContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -22836,7 +22836,7 @@ tmpFont
 higherContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 ;
@@ -24861,7 +24861,7 @@ float
 aContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -24990,7 +24990,7 @@ font
 aContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 ;
@@ -26018,7 +26018,7 @@ SetDecorationColor
 parentContext
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -35031,7 +35031,7 @@ since
 CalcLengthWith
 can
 call
-GetStyleVisibility
+StyleVisibility
 (
 )
 /
@@ -40968,7 +40968,7 @@ side
 parentContext
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -42354,7 +42354,7 @@ SetOutlineColor
 parentContext
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -44054,7 +44054,7 @@ grandparentPos
 grandparentContext
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -47572,7 +47572,7 @@ mColumnRuleColor
 parentContext
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -

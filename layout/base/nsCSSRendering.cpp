@@ -696,7 +696,7 @@ isRtlBlock
 mBlockFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -3819,7 +3819,7 @@ styleBorder
 aStyleContext
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -4092,7 +4092,7 @@ displayData
 aStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -4185,7 +4185,7 @@ ourColor
 aStyleContext
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 ;
@@ -4333,7 +4333,7 @@ aStyleBorder
 aForFrame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 &
@@ -5034,7 +5034,7 @@ ourOutline
 aStyleContext
 -
 >
-GetStyleOutline
+StyleOutline
 (
 )
 ;
@@ -6621,7 +6621,7 @@ NS_GET_A
 frame
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 -
@@ -6801,7 +6801,7 @@ result
 aForFrame
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 ;
@@ -7653,7 +7653,7 @@ htmlBG
 aRootElementFrame
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 ;
@@ -7825,7 +7825,7 @@ styleBorder
 aForFrame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -7898,7 +7898,7 @@ styleDisplay
 aForFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -8672,7 +8672,7 @@ shadowColor
 aForFrame
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -9133,7 +9133,7 @@ styleBorder
 aForFrame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -10054,7 +10054,7 @@ shadowColor
 aForFrame
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -10465,7 +10465,7 @@ if
 aForFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -10526,7 +10526,7 @@ sc
 aForFrame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 aFlags
@@ -10689,7 +10689,7 @@ if
 aForFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -10750,7 +10750,7 @@ sc
 aForFrame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 aFlags
@@ -12218,7 +12218,7 @@ bg
 aStyleContext
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 ;
@@ -17491,7 +17491,7 @@ displayData
 aForFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -17747,7 +17747,7 @@ bg
 aBackgroundSC
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 ;
@@ -17885,7 +17885,7 @@ aBorder
 aForFrame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 &
@@ -18968,7 +18968,7 @@ displayData
 aForFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -19190,7 +19190,7 @@ aBorder
 aForFrame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 &
@@ -19366,7 +19366,7 @@ bg
 aBackgroundSC
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 ;
@@ -26382,7 +26382,7 @@ GetRelativeOffset
 f
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 )

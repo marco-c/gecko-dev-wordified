@@ -1260,7 +1260,7 @@ pos
 f
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -1497,7 +1497,7 @@ padding
 f
 -
 >
-GetStylePadding
+StylePadding
 (
 )
 ;
@@ -1509,7 +1509,7 @@ margin
 f
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 ;
@@ -1746,7 +1746,7 @@ if
 f
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

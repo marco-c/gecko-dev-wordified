@@ -4629,7 +4629,7 @@ SetWindowShadowStyle
 rootFrame
 -
 >
-GetStyleUIReset
+StyleUIReset
 (
 )
 -
@@ -5171,7 +5171,7 @@ aView
 aStyleContext
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -5251,7 +5251,7 @@ position
 aStyleContext
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -5420,7 +5420,7 @@ endSide
 ;
 if
 (
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -5456,7 +5456,7 @@ nsStylePadding
 *
 stylePadding
 =
-GetStylePadding
+StylePadding
 (
 )
 ;
@@ -5465,7 +5465,7 @@ nsStyleBorder
 *
 styleBorder
 =
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -5474,7 +5474,7 @@ nsStyleMargin
 *
 styleMargin
 =
-GetStyleMargin
+StyleMargin
 (
 )
 ;
@@ -6059,7 +6059,7 @@ be
 used
 if
 (
-GetStylePosition
+StylePosition
 (
 )
 -

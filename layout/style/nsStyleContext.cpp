@@ -2020,7 +2020,7 @@ nsStyleTextReset
 *
 text
 =
-GetStyleTextReset
+StyleTextReset
 (
 )
 ;
@@ -2087,7 +2087,7 @@ nsStyleDisplay
 *
 disp
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -2174,7 +2174,7 @@ nsStyleText
 *
 text
 =
-GetStyleText
+StyleText
 (
 )
 ;
@@ -2577,7 +2577,7 @@ parentDisp
 mParent
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -2919,7 +2919,7 @@ trigger
 loads
 of
 cursors
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 ;
@@ -3329,7 +3329,7 @@ struct_
 aOther
 -
 >
-GetStyle
+Style
 #
 #
 struct_
@@ -4027,7 +4027,7 @@ if
 thisVis
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -4038,7 +4038,7 @@ mColor
 otherVis
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -4087,7 +4087,7 @@ if
 thisVis
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 -
@@ -4098,7 +4098,7 @@ mBackgroundColor
 otherVis
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 -
@@ -4150,7 +4150,7 @@ thisVisBorder
 thisVis
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -4162,7 +4162,7 @@ otherVisBorder
 otherVis
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -4266,7 +4266,7 @@ thisVisOutline
 thisVis
 -
 >
-GetStyleOutline
+StyleOutline
 (
 )
 ;
@@ -4278,7 +4278,7 @@ otherVisOutline
 otherVis
 -
 >
-GetStyleOutline
+StyleOutline
 (
 )
 ;
@@ -4384,7 +4384,7 @@ thisVisColumn
 thisVis
 -
 >
-GetStyleColumn
+StyleColumn
 (
 )
 ;
@@ -4396,7 +4396,7 @@ otherVisColumn
 otherVis
 -
 >
-GetStyleColumn
+StyleColumn
 (
 )
 ;
@@ -4470,7 +4470,7 @@ thisVisTextReset
 thisVis
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 ;
@@ -4482,7 +4482,7 @@ otherVisTextReset
 otherVis
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 ;
@@ -4576,7 +4576,7 @@ thisVisSVG
 thisVis
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -4588,7 +4588,7 @@ otherVisSVG
 otherVis
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 ;

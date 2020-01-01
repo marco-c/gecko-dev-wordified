@@ -1748,7 +1748,7 @@ Save
 ;
 if
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
