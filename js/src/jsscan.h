@@ -2086,7 +2086,7 @@ union
 private
 :
 friend
-class
+struct
 Token
 ;
 PropertyName
@@ -2151,7 +2151,7 @@ PI
 *
 /
 friend
-class
+struct
 Token
 ;
 JSAtom
