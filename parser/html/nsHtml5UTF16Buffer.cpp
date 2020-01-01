@@ -6,6 +6,8 @@ Copyright
 c
 )
 2008
+-
+2010
 Mozilla
 Foundation
 *
