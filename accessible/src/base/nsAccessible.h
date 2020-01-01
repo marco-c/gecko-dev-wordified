@@ -4524,12 +4524,9 @@ nsIFrame
 aRelativeFrame
 )
 ;
-bool
-IsVisible
+PRUint64
+VisibilityState
 (
-bool
-*
-aIsOffscreen
 )
 ;
 /
