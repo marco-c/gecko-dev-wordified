@@ -2362,6 +2362,9 @@ getChildList
 in
 string
 aStartingAt
+[
+optional
+]
 out
 unsigned
 long
