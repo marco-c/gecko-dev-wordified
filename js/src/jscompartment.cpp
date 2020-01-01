@@ -3992,12 +3992,17 @@ empty
 )
 )
 ;
+#
+ifdef
+JS_ION
 JS_ASSERT
 (
 !
 ionCompartment_
 )
 ;
+#
+endif
 JS_ASSERT
 (
 !
