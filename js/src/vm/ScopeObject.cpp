@@ -123,13 +123,6 @@ h
 #
 include
 "
-jsscope
-.
-h
-"
-#
-include
-"
 GlobalObject
 .
 h
@@ -138,6 +131,13 @@ h
 include
 "
 ScopeObject
+.
+h
+"
+#
+include
+"
+Shape
 .
 h
 "

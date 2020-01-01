@@ -106,10 +106,10 @@ MPL
 /
 #
 ifndef
-jsscope_h___
+Shape_h___
 #
 define
-jsscope_h___
+Shape_h___
 #
 include
 "
@@ -7371,6 +7371,6 @@ Shape
 endif
 /
 *
-jsscope_h___
+Shape_h___
 *
 /

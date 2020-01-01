@@ -156,7 +156,9 @@ h
 #
 include
 "
-jsscope
+vm
+/
+Shape
 .
 h
 "
@@ -177,7 +179,11 @@ h
 #
 include
 "
-jsscopeinlines
+vm
+/
+Shape
+-
+inl
 .
 h
 "
