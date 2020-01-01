@@ -355,7 +355,7 @@ h
 >
 #
 if
-CAIRO_HAS_XLIB_SURFACE
+CAIRO_HAS_XLIB_XRENDER_SURFACE
 #
 include
 <
@@ -404,7 +404,7 @@ CAIRO_END_DECLS
 else
 /
 *
-CAIRO_HAS_XLIB_SURFACE
+CAIRO_HAS_XLIB_XRENDER_SURFACE
 *
 /
 #
@@ -418,12 +418,13 @@ support
 for
 the
 xlib
+XRender
 backend
 #
 endif
 /
 *
-CAIRO_HAS_XLIB_SURFACE
+CAIRO_HAS_XLIB_XRENDER_SURFACE
 *
 /
 #

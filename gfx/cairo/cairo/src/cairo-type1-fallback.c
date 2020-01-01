@@ -665,6 +665,13 @@ char
 )
 )
 ;
+font
+-
+>
+output
+=
+NULL
+;
 *
 subset_return
 =
@@ -4145,6 +4152,8 @@ font
 {
 cairo_status_t
 status
+=
+CAIRO_STATUS_SUCCESS
 ;
 free
 (
@@ -4171,6 +4180,13 @@ font
 contents
 )
 ;
+if
+(
+font
+-
+>
+output
+)
 status
 =
 _cairo_output_stream_destroy

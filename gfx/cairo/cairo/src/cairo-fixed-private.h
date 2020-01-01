@@ -492,7 +492,7 @@ below
 #
 define
 CAIRO_FIXED_FRAC_BITS
-8
+16
 /
 *
 A

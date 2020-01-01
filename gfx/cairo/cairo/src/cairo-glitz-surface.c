@@ -5884,11 +5884,15 @@ data_size
 size
 )
 {
+void
+*
+p
+;
 data_size
 =
 size
 ;
-data
+p
 =
 realloc
 (
@@ -5899,7 +5903,7 @@ data_size
 if
 (
 !
-data
+p
 )
 {
 _cairo_glitz_pattern_release_surface
@@ -5935,6 +5939,10 @@ CAIRO_STATUS_NO_MEMORY
 )
 ;
 }
+data
+=
+p
+;
 if
 (
 buffer

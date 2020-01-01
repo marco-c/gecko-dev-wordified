@@ -1469,14 +1469,12 @@ err
 noErr
 )
 {
+status
+=
 _cairo_error
 (
 CAIRO_STATUS_NO_MEMORY
 )
-;
-status
-=
-CAIRO_STATUS_NO_MEMORY
 ;
 goto
 FAIL
@@ -1600,7 +1598,7 @@ font
 >
 cgfref
 =
-NULL
+0
 ;
 FAIL
 :

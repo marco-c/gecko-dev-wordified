@@ -623,6 +623,10 @@ h
 *
 /
 #
+define
+CAIRO_HAS_HIDDEN_SYMBOLS
+1
+#
 if
 (
 __GNUC__
@@ -711,6 +715,9 @@ Studio
 #
 define
 cairo_private_no_warn
+#
+undef
+CAIRO_HAS_HIDDEN_SYMBOLS
 #
 endif
 #

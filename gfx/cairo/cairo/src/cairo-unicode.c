@@ -1941,6 +1941,9 @@ return
 CAIRO_STATUS_SUCCESS
 ;
 }
+#
+if
+CAIRO_HAS_UTF8_TO_UTF16
 /
 *
 *
@@ -2428,3 +2431,5 @@ return
 CAIRO_STATUS_SUCCESS
 ;
 }
+#
+endif

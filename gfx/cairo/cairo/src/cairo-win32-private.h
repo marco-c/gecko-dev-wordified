@@ -378,7 +378,7 @@ endif
 #
 define
 WIN32_FONT_LOGICAL_SCALE
-1
+32
 typedef
 struct
 _cairo_win32_surface
@@ -534,6 +534,9 @@ paginated_mode
 ;
 cairo_content_t
 content
+;
+cairo_bool_t
+path_empty
 ;
 cairo_bool_t
 has_ctm

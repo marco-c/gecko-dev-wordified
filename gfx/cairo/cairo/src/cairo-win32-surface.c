@@ -647,7 +647,7 @@ LANG_NEUTRAL
 SUBLANG_DEFAULT
 )
 (
-LPTSTR
+LPSTR
 )
 &
 lpMsgBuf
@@ -3719,7 +3719,7 @@ dwMinorVersion
 HMODULE
 msimg32_dll
 =
-LoadLibrary
+LoadLibraryA
 (
 "
 msimg32
