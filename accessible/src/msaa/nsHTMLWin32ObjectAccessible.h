@@ -563,9 +563,9 @@ nsHTMLWin32ObjectOwnerAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 void
 *
 aHwnd

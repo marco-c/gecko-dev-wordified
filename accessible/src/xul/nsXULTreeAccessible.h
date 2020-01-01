@@ -570,9 +570,9 @@ nsXULTreeAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 ;
 /
@@ -1129,9 +1129,9 @@ nsXULTreeItemAccessibleBase
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 nsAccessible
 *
 aParent
@@ -1539,9 +1539,9 @@ nsXULTreeItemAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 nsAccessible
 *
 aParent
@@ -1678,9 +1678,9 @@ nsXULTreeColumnsAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 ;
 protected

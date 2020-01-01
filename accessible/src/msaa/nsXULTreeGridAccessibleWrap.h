@@ -507,9 +507,9 @@ nsXULTreeGridAccessibleWrap
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 ;
 /
@@ -554,9 +554,9 @@ nsXULTreeGridCellAccessibleWrap
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 nsXULTreeGridRowAccessible
 *
 aRowAcc
