@@ -6092,7 +6092,7 @@ return
 obj
 -
 >
-slotsAndStructSize
+computedSizeOfIncludingThis
 (
 )
 ;
