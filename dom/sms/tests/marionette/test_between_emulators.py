@@ -87,11 +87,7 @@ html
 "
 [
 "
-dom
-.
 sms
-.
-whitelist
 "
 ]
 )
@@ -108,11 +104,7 @@ html
 "
 [
 "
-dom
-.
 sms
-.
-whitelist
 "
 ]
 )
@@ -208,6 +200,8 @@ smsreceived
 e
 .
 message
+.
+body
 ;
 }
 )
