@@ -1455,6 +1455,16 @@ fullZoom
 js
 #
 include
+.
+.
+/
+.
+.
+/
+devtools
+/
+highlighter
+/
 inspector
 .
 js
