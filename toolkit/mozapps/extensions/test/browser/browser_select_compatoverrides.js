@@ -72,6 +72,9 @@ gTestAddon
 =
 null
 ;
+var
+gWin
+;
 function
 waitForView
 (
