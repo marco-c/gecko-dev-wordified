@@ -102,6 +102,13 @@ MOZ_PROFILE_ENTRY_H
 #
 include
 "
+GeckoProfilerImpl
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Mutex

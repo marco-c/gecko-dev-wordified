@@ -101,7 +101,7 @@ iostream
 #
 include
 "
-sps_sampler
+GeckoProfilerImpl
 .
 h
 "

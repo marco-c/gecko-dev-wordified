@@ -162,7 +162,7 @@ h
 #
 include
 "
-sps_sampler
+GeckoProfilerImpl
 .
 h
 "
@@ -338,7 +338,7 @@ exports
 are
 listed
 in
-sps_sampler
+GeckoProfilerImpl
 .
 h
 .
@@ -6797,7 +6797,9 @@ sResponsivenessLoc
 void
 mozilla_sampler_responsiveness2
 (
+const
 TimeStamp
+&
 aTime
 )
 {

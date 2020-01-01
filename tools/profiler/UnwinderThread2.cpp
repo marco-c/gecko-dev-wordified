@@ -248,13 +248,6 @@ h
 #
 include
 "
-sps_sampler
-.
-h
-"
-#
-include
-"
 platform
 .
 h
@@ -533,7 +526,7 @@ all
 need
 reworking
 .
-sps_sampler
+GeckoProfilerImpl
 .
 h
 /
