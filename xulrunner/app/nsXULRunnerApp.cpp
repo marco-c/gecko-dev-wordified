@@ -680,7 +680,7 @@ MB_ICONINFORMATION
 wchar_t
 wide_msg
 [
-1024
+2048
 ]
 ;
 MultiByteToWideChar
