@@ -6416,6 +6416,11 @@ getNativeIterator
 (
 )
 ;
+if
+(
+ni
+)
+{
 bool
 more
 =
@@ -6454,6 +6459,7 @@ more
 return
 true
 ;
+}
 }
 }
 /
@@ -6831,6 +6837,9 @@ getNativeIterator
 ;
 if
 (
+ni
+&
+&
 ni
 -
 >
