@@ -858,6 +858,11 @@ uint32_t
 aAddPrefixes
 )
 ;
+void
+ClearCompleteCache
+(
+)
+;
 #
 if
 DEBUG
@@ -911,7 +916,7 @@ IsPrimed
 private
 :
 void
-Clear
+ClearAll
 (
 )
 ;
