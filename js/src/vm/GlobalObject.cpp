@@ -1534,12 +1534,13 @@ constructor
 .
 *
 /
-FUN_CLASP
-(
 fun
-)
-=
+-
+>
+setConstructorClass
+(
 clasp
+)
 ;
 return
 fun

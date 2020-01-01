@@ -8706,9 +8706,11 @@ debugger
 has
 a
 valid
-FUN_SCRIPT
-(
 fun
+-
+>
+script
+(
 )
 .
 *

@@ -1334,13 +1334,14 @@ JSFunction
 *
 fun
 =
-GET_FUNCTION_PRIVATE
-(
-cx
 JSVAL_TO_OBJECT
 (
 v
 )
+-
+>
+getFunctionPrivate
+(
 )
 ;
 JSAutoByteString

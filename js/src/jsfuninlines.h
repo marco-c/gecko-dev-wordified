@@ -479,9 +479,8 @@ setJoinable
 {
 JS_ASSERT
 (
-FUN_INTERPRETED
+isInterpreted
 (
-this
 )
 )
 ;

@@ -3198,13 +3198,14 @@ ucr
 >
 fun
 =
-GET_FUNCTION_PRIVATE
-(
-cx
 ucr
 -
 >
 callee
+-
+>
+getFunctionPrivate
+(
 )
 ;
 if
