@@ -49031,7 +49031,7 @@ void
 nsBlockFrame
 :
 :
-CollectFloats
+DoCollectFloats
 (
 nsIFrame
 *
@@ -49329,7 +49329,7 @@ doing
 that
 .
 }
-CollectFloats
+DoCollectFloats
 (
 aFrame
 -
@@ -49341,7 +49341,7 @@ aList
 true
 )
 ;
-CollectFloats
+DoCollectFloats
 (
 aFrame
 -
