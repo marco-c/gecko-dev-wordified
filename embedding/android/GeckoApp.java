@@ -3781,6 +3781,7 @@ String
 uri
 )
 {
+final
 Tab
 tab
 =
@@ -3947,6 +3948,13 @@ uri
 mBrowserToolbar
 .
 setFavicon
+(
+null
+)
+;
+tab
+.
+updateFavicon
 (
 null
 )
