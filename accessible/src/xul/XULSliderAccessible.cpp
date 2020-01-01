@@ -317,6 +317,12 @@ aContent
 aDoc
 )
 {
+mFlags
+=
+mFlags
+|
+eHasNumericValue
+;
 }
 /
 /
