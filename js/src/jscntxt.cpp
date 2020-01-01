@@ -2521,10 +2521,6 @@ findVersion
 JSVERSION_DEFAULT
 )
 ;
-VOUCH_DOES_NOT_REQUIRE_STACK
-(
-)
-;
 if
 (
 !
@@ -8610,10 +8606,6 @@ cx
 .
 *
 /
-VOUCH_DOES_NOT_REQUIRE_STACK
-(
-)
-;
 if
 (
 parseMapPool_
