@@ -642,11 +642,6 @@ InstanceData
 instanceData
 )
 ;
-void
-NoteIntentionalCrash
-(
-)
-;
 #
 endif
 /
