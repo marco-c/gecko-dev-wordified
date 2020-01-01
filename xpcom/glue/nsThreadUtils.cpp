@@ -120,6 +120,15 @@ nsThreadUtils
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifdef
 MOZILLA_INTERNAL_API
 #
@@ -1117,6 +1126,7 @@ namespace
 {
 class
 nsNameThreadRunnable
+MOZ_FINAL
 :
 public
 nsIRunnable

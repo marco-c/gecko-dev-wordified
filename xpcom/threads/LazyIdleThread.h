@@ -190,6 +190,15 @@ nsString
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 IDLE_THREAD_TOPIC
 "
@@ -281,6 +290,7 @@ Service
 /
 class
 LazyIdleThread
+MOZ_FINAL
 :
 public
 nsIThread
