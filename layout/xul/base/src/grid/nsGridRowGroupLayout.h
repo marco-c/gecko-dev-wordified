@@ -318,10 +318,6 @@ aIsHorizontal
 ;
 private
 :
-nsGridRow
-*
-mRowColumn
-;
 int32_t
 mRowCount
 ;
