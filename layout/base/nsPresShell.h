@@ -2560,6 +2560,14 @@ aSheet
 )
 ;
 void
+AddAuthorSheet
+(
+nsISupports
+*
+aSheet
+)
+;
+void
 RemoveSheet
 (
 nsStyleSet
