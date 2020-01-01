@@ -7665,15 +7665,6 @@ eventStructType
 =
 =
 NS_KEY_EVENT
-|
-|
-aEvent
--
->
-eventStructType
-=
-=
-NS_ACCESSIBLE_EVENT
 )
 )
 {
