@@ -489,7 +489,7 @@ randomizeclient
 #
 define
 RANDOMIZE_CLIENT_DEFAULT
-true
+false
 #
 define
 GETHASH_NOISE_PREF

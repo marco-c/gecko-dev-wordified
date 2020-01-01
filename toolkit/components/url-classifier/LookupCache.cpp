@@ -380,7 +380,7 @@ const
 uint32_t
 CURRENT_VERSION
 =
-1
+2
 ;
 LookupCache
 :
