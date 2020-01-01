@@ -458,7 +458,6 @@ nsIParentChannel
 nsIInterfaceRequestor
 nsIRequestObserver
 )
-;
 /
 /
 -

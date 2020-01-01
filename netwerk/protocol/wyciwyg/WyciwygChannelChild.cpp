@@ -143,7 +143,6 @@ nsIRequest
 nsIChannel
 nsIWyciwygChannel
 )
-;
 WyciwygChannelChild
 :
 :

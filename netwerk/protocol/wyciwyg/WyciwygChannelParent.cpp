@@ -392,7 +392,6 @@ nsIStreamListener
 nsIInterfaceRequestor
 nsIRequestObserver
 )
-;
 /
 /
 -
