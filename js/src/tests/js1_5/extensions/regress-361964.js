@@ -719,6 +719,9 @@ printStatus
 summary
 )
 ;
+var
+doc
+;
 if
 (
 typeof
@@ -730,10 +733,17 @@ undefined
 '
 )
 {
-document
+doc
 =
 {
 }
+;
+}
+else
+{
+doc
+=
+document
 ;
 }
 if
@@ -756,7 +766,7 @@ print
 /
 Crash
 :
-document
+doc
 .
 watch
 (
@@ -790,7 +800,7 @@ alert
 }
 )
 ;
-document
+doc
 .
 title
 =
@@ -803,7 +813,7 @@ xxx
 No
 crash
 :
-document
+doc
 .
 watch
 (
@@ -833,7 +843,7 @@ alert
 }
 )
 ;
-document
+doc
 .
 title
 =
