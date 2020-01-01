@@ -478,7 +478,7 @@ String
 LOG_TAG
 =
 "
-FetchInfoCollectionsStage
+FetchInfoCollStage
 "
 ;
 public

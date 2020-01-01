@@ -439,7 +439,7 @@ gecko
 .
 sync
 .
-Utils
+Logger
 ;
 import
 org
@@ -677,7 +677,7 @@ String
 message
 )
 {
-Utils
+Logger
 .
 error
 (
@@ -695,7 +695,7 @@ String
 message
 )
 {
-Utils
+Logger
 .
 trace
 (

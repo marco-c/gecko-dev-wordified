@@ -531,7 +531,7 @@ String
 LOG_TAG
 =
 "
-SynchronizerDelegateSessionDelegate
+SyncDelSDelegate
 "
 ;
 private

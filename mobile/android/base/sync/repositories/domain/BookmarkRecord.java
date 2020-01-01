@@ -454,6 +454,17 @@ gecko
 .
 sync
 .
+Logger
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+sync
+.
 NonArrayJSONException
 ;
 import
@@ -1606,7 +1617,7 @@ String
 s
 )
 {
-Utils
+Logger
 .
 trace
 (

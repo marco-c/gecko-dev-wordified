@@ -805,7 +805,7 @@ String
 LOG_TAG
 =
 "
-Server11RepositorySession
+Server11Session
 "
 ;
 private

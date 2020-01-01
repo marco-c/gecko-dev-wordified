@@ -521,7 +521,7 @@ String
 LOG_TAG
 =
 "
-AndroidBrowserBookmarksDataAccessor
+BookmarksDataAccessor
 "
 ;
 /

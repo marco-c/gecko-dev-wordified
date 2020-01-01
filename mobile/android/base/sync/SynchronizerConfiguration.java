@@ -472,7 +472,7 @@ String
 LOG_TAG
 =
 "
-SynchronizerConfiguration
+SynczrConfiguration
 "
 ;
 public

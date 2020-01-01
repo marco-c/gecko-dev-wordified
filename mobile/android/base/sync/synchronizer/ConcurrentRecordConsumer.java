@@ -412,7 +412,7 @@ gecko
 .
 sync
 .
-Utils
+Logger
 ;
 import
 org
@@ -492,7 +492,7 @@ String
 LOG_TAG
 =
 "
-ConcurrentRecordConsumer
+CRecordConsumer
 "
 ;
 /
@@ -554,7 +554,7 @@ String
 message
 )
 {
-Utils
+Logger
 .
 info
 (
@@ -572,7 +572,7 @@ String
 message
 )
 {
-Utils
+Logger
 .
 debug
 (
@@ -590,7 +590,7 @@ String
 message
 )
 {
-Utils
+Logger
 .
 trace
 (
@@ -705,7 +705,7 @@ stored
 (
 )
 {
-debug
+trace
 (
 "
 Record

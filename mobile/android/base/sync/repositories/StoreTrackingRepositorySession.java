@@ -133,7 +133,7 @@ String
 LOG_TAG
 =
 "
-StoreTrackingRepositorySession
+StoreTrackSession
 "
 ;
 protected
