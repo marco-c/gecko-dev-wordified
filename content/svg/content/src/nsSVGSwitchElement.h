@@ -102,13 +102,6 @@ __NS_SVGSWITCHELEMENT_H__
 #
 include
 "
-DOMSVGTests
-.
-h
-"
-#
-include
-"
 nsIDOMSVGSwitchElement
 .
 h
@@ -131,8 +124,6 @@ public
 nsSVGSwitchElementBase
 public
 nsIDOMSVGSwitchElement
-public
-DOMSVGTests
 {
 friend
 class

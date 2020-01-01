@@ -102,13 +102,6 @@ __NS_SVGFOREIGNOBJECTELEMENT_H__
 #
 include
 "
-DOMSVGTests
-.
-h
-"
-#
-include
-"
 nsIDOMSVGForeignObjectElem
 .
 h
@@ -138,8 +131,6 @@ public
 nsSVGForeignObjectElementBase
 public
 nsIDOMSVGForeignObjectElement
-public
-DOMSVGTests
 {
 friend
 class

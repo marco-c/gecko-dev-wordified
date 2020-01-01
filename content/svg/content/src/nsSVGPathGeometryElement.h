@@ -102,13 +102,6 @@ __NS_SVGPATHGEOMETRYELEMENT_H__
 #
 include
 "
-DOMSVGTests
-.
-h
-"
-#
-include
-"
 gfxMatrix
 .
 h
@@ -173,8 +166,6 @@ nsSVGPathGeometryElement
 :
 public
 nsSVGPathGeometryElementBase
-public
-DOMSVGTests
 {
 public
 :

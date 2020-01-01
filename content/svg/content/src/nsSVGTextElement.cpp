@@ -200,13 +200,6 @@ DOMSVGPoint
 .
 h
 "
-#
-include
-"
-DOMSVGTests
-.
-h
-"
 using
 namespace
 mozilla
@@ -330,8 +323,6 @@ nsIDOMSVGTextElement
 /
 /
 nsIDOMSVGTextPositioningElement
-public
-DOMSVGTests
 {
 protected
 :
@@ -622,7 +613,7 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsSVGTextElement
 )
-NS_NODE_INTERFACE_TABLE7
+NS_NODE_INTERFACE_TABLE6
 (
 nsSVGTextElement
 nsIDOMNode
@@ -631,7 +622,6 @@ nsIDOMSVGElement
 nsIDOMSVGTextElement
 nsIDOMSVGTextPositioningElement
 nsIDOMSVGTextContentElement
-nsIDOMSVGTests
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (

@@ -134,6 +134,13 @@ SVGAnimatedTransformList
 .
 h
 "
+#
+include
+"
+DOMSVGTests
+.
+h
+"
 typedef
 nsSVGElement
 nsSVGGraphicElementBase
@@ -143,6 +150,8 @@ nsSVGGraphicElement
 :
 public
 nsSVGGraphicElementBase
+public
+DOMSVGTests
 public
 nsIDOMSVGTransformable
 /

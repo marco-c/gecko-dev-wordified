@@ -308,14 +308,13 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsSVGAElement
 )
-NS_NODE_INTERFACE_TABLE8
+NS_NODE_INTERFACE_TABLE7
 (
 nsSVGAElement
 nsIDOMNode
 nsIDOMElement
 nsIDOMSVGElement
 nsIDOMSVGAElement
-nsIDOMSVGTests
 nsIDOMSVGURIReference
 nsILink
 Link
@@ -1859,7 +1858,7 @@ aNotify
 nsresult
 rv
 =
-nsSVGAElementBase
+nsSVGElement
 :
 :
 UnsetAttr

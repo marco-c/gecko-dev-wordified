@@ -400,13 +400,12 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsSVGFilterElement
 )
-NS_NODE_INTERFACE_TABLE6
+NS_NODE_INTERFACE_TABLE5
 (
 nsSVGFilterElement
 nsIDOMNode
 nsIDOMElement
 nsIDOMSVGElement
-nsIDOMSVGTests
 nsIDOMSVGFilterElement
 nsIDOMSVGURIReference
 )

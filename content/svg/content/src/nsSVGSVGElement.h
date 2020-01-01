@@ -102,13 +102,6 @@ __NS_SVGSVGELEMENT_H__
 #
 include
 "
-DOMSVGTests
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -577,8 +570,6 @@ public
 nsSVGSVGElementBase
 public
 nsIDOMSVGSVGElement
-public
-DOMSVGTests
 public
 nsIDOMSVGFitToViewBox
 public

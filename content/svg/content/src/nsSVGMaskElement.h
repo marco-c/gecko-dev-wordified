@@ -102,13 +102,6 @@ __NS_SVGMASKELEMENT_H__
 #
 include
 "
-DOMSVGTests
-.
-h
-"
-#
-include
-"
 nsIDOMSVGMaskElement
 .
 h
@@ -200,8 +193,6 @@ public
 nsSVGMaskElementBase
 public
 nsIDOMSVGMaskElement
-public
-DOMSVGTests
 public
 nsIDOMSVGUnitTypes
 {
