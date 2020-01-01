@@ -4869,6 +4869,9 @@ value
 mCurrentValue
 ;
 }
+nsAutoScriptBlocker
+scriptBlocker
+;
 mState
 -
 >
