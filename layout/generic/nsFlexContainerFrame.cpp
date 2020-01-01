@@ -15968,7 +15968,8 @@ container
 s
 cross
 size
-mCachedContentBoxCrossSize
+nscoord
+contentBoxCrossSize
 =
 axisTracker
 .
@@ -15991,7 +15992,7 @@ ComputedHeight
 ;
 if
 (
-mCachedContentBoxCrossSize
+contentBoxCrossSize
 =
 =
 NS_AUTOHEIGHT
@@ -16068,7 +16069,7 @@ mComputedMaxHeight
 )
 )
 ;
-mCachedContentBoxCrossSize
+contentBoxCrossSize
 =
 NS_CSS_MINMAX
 (
@@ -16091,7 +16092,7 @@ GetLineCrossSize
 )
 !
 =
-mCachedContentBoxCrossSize
+contentBoxCrossSize
 )
 {
 /
@@ -16191,13 +16192,13 @@ lineCrossAxisPosnTracker
 .
 SetLineCrossSize
 (
-mCachedContentBoxCrossSize
+contentBoxCrossSize
 )
 ;
 }
 frameCrossSize
 =
-mCachedContentBoxCrossSize
+contentBoxCrossSize
 +
 axisTracker
 .
@@ -16316,9 +16317,10 @@ override
 this
 .
 )
-mCachedAscent
+nscoord
+flexContainerAscent
 =
-mCachedContentBoxCrossSize
+contentBoxCrossSize
 +
 aReflowState
 .
@@ -17184,7 +17186,7 @@ aDesiredSize
 .
 ascent
 =
-mCachedAscent
+flexContainerAscent
 ;
 /
 /
