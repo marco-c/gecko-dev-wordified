@@ -579,7 +579,6 @@ nsISupports
 public
 :
 NS_DECL_ISUPPORTS
-;
 }
 ;
 class
