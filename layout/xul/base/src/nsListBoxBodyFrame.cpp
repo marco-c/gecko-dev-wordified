@@ -2845,7 +2845,7 @@ nsIListBoxObject
 /
 /
 /
-NS_IMETHODIMP
+nsresult
 nsListBoxBodyFrame
 :
 :
@@ -2867,7 +2867,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsListBoxBodyFrame
 :
 :
@@ -2895,7 +2895,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsListBoxBodyFrame
 :
 :
@@ -2915,7 +2915,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsListBoxBodyFrame
 :
 :
@@ -3111,7 +3111,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsListBoxBodyFrame
 :
 :
@@ -3300,7 +3300,7 @@ index
 of
 the
 content
-NS_IMETHODIMP
+nsresult
 nsListBoxBodyFrame
 :
 :
@@ -3455,7 +3455,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsListBoxBodyFrame
 :
 :
@@ -4489,7 +4489,7 @@ this
 /
 /
 scrolling
-NS_IMETHODIMP
+nsresult
 nsListBoxBodyFrame
 :
 :
