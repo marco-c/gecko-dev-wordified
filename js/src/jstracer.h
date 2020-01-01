@@ -2147,6 +2147,9 @@ numStackSlotsBelowCurrentFrame
 ExitType
 exitType
 ;
+uintN
+lookupFlags
+;
 /
 *
 *
