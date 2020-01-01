@@ -818,6 +818,10 @@ comments
 .
 *
 /
+jsbytecode
+*
+pc
+;
 uint32
 argc
 ;
