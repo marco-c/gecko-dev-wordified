@@ -63,7 +63,7 @@ else
 #
 define
 BILINEAR_INTERPOLATION_BITS
-8
+7
 #
 endif
 #
