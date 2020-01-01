@@ -10030,6 +10030,7 @@ PR_TRUE
 }
 if
 (
+(
 func1
 =
 =
@@ -10040,8 +10041,10 @@ func2
 =
 =
 eCSSKeyword_rotate
+)
 |
 |
+(
 func1
 =
 =
@@ -10052,6 +10055,7 @@ func2
 =
 =
 eCSSKeyword_rotatez
+)
 )
 {
 return
