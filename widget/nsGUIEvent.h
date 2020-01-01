@@ -2813,6 +2813,16 @@ NS_WHEEL_WHEEL
 NS_WHEEL_EVENT_START
 )
 /
+/
+System
+time
+is
+changed
+#
+define
+NS_MOZ_TIME_CHANGE_EVENT
+5500
+/
 *
 *
 *

@@ -1981,3 +1981,7 @@ DOMCI_CLASS
 (
 MozActivity
 )
+DOMCI_CLASS
+(
+MozTimeManager
+)
