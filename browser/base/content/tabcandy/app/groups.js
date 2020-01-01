@@ -7389,7 +7389,9 @@ of
 time
 required
 .
-setTimeout
+iQ
+.
+timeout
 (
 function
 (
@@ -7676,7 +7678,9 @@ a
 better
 solution
 .
-setTimeout
+iQ
+.
+timeout
 (
 function
 (

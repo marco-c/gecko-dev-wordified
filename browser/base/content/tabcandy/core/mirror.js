@@ -1356,7 +1356,9 @@ tab
 =
 this
 ;
-setTimeout
+iQ
+.
+timeout
 (
 function
 (
@@ -1412,7 +1414,9 @@ evt
 .
 tab
 ;
-setTimeout
+iQ
+.
+timeout
 (
 function
 (
@@ -1464,7 +1468,9 @@ tab
 =
 this
 ;
-setTimeout
+iQ
+.
+timeout
 (
 function
 (
@@ -2000,9 +2006,9 @@ self
 =
 this
 ;
-window
+iQ
 .
-setTimeout
+timeout
 (
 function
 (
