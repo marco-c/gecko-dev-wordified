@@ -1230,10 +1230,6 @@ zIndex
 css
 (
 groupItemBounds
-.
-css
-(
-)
 )
 .
 hide
@@ -1330,10 +1326,6 @@ phantom
 css
 (
 updatedBounds
-.
-css
-(
-)
 )
 ;
 phantom
@@ -4986,10 +4978,6 @@ tabEl
 css
 (
 orig
-.
-css
-(
-)
 )
 .
 removeClass
