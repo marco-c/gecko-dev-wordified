@@ -5821,7 +5821,7 @@ LOCAL_GL_SCISSOR_TEST
 /
 If
 the
-Java
+Android
 compositor
 is
 being
