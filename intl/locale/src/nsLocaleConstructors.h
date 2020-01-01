@@ -620,13 +620,6 @@ nsDateTimeFormatUnix
 h
 "
 #
-include
-"
-nsPosixLocale
-.
-h
-"
-#
 endif
 #
 define
@@ -764,10 +757,6 @@ endif
 #
 ifdef
 USE_UNIX_LOCALE
-NS_GENERIC_FACTORY_CONSTRUCTOR
-(
-nsPosixLocale
-)
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsCollationUnix
