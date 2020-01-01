@@ -541,13 +541,6 @@ set_exception_restoration
 true
 )
 ;
-nsRegion
-:
-:
-MigrateToCurrentThread
-(
-)
-;
 NS_LogInit
 (
 )
