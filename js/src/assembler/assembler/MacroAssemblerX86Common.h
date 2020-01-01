@@ -2653,7 +2653,7 @@ dest
 {
 m_assembler
 .
-movxbl_mr
+movsbl_mr
 (
 address
 .
@@ -2682,7 +2682,7 @@ dest
 {
 m_assembler
 .
-movxbl_mr
+movsbl_mr
 (
 address
 .
@@ -2705,7 +2705,7 @@ dest
 {
 m_assembler
 .
-movxwl_mr
+movswl_mr
 (
 address
 .
@@ -2734,7 +2734,7 @@ dest
 {
 m_assembler
 .
-movxwl_mr
+movswl_mr
 (
 address
 .

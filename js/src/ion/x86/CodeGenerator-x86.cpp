@@ -2996,7 +2996,7 @@ TYPE_INT8
 :
 masm
 .
-movxblWithPatch
+movsblWithPatch
 (
 srcAddr
 ToRegister
@@ -3040,7 +3040,7 @@ TYPE_INT16
 :
 masm
 .
-movxwlWithPatch
+movswlWithPatch
 (
 srcAddr
 ToRegister

@@ -3309,7 +3309,7 @@ be
 patched
 .
 CodeOffsetLabel
-movxblWithPatch
+movsblWithPatch
 (
 Address
 src
@@ -3319,7 +3319,7 @@ dest
 {
 masm
 .
-movxbl_mr_disp32
+movsbl_mr_disp32
 (
 src
 .
@@ -3385,7 +3385,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movxwlWithPatch
+movswlWithPatch
 (
 Address
 src
@@ -3395,7 +3395,7 @@ dest
 {
 masm
 .
-movxwl_mr_disp32
+movswl_mr_disp32
 (
 src
 .

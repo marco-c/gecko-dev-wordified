@@ -2749,7 +2749,7 @@ TYPE_INT8
 :
 masm
 .
-movxbl
+movsbl
 (
 srcAddr
 ToRegister
@@ -2797,7 +2797,7 @@ TYPE_INT16
 :
 masm
 .
-movxwl
+movswl
 (
 srcAddr
 ToRegister

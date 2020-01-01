@@ -2759,7 +2759,7 @@ kind
 }
 }
 void
-movxbl
+movsbl
 (
 const
 Operand
@@ -2788,7 +2788,7 @@ REG_DISP
 :
 masm
 .
-movxbl_mr
+movsbl_mr
 (
 src
 .
@@ -2817,7 +2817,7 @@ SCALE
 :
 masm
 .
-movxbl_mr
+movsbl_mr
 (
 src
 .
@@ -3369,7 +3369,7 @@ kind
 }
 }
 void
-movxwl
+movswl
 (
 const
 Operand
@@ -3398,7 +3398,7 @@ REG_DISP
 :
 masm
 .
-movxwl_mr
+movswl_mr
 (
 src
 .
@@ -3427,7 +3427,7 @@ SCALE
 :
 masm
 .
-movxwl_mr
+movswl_mr
 (
 src
 .

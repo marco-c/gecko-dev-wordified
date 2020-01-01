@@ -1426,7 +1426,7 @@ Register
 dest
 )
 {
-movxbl
+movsbl
 (
 Operand
 (
@@ -1449,7 +1449,7 @@ Register
 dest
 )
 {
-movxbl
+movsbl
 (
 Operand
 (
@@ -1578,7 +1578,7 @@ Register
 dest
 )
 {
-movxwl
+movswl
 (
 Operand
 (
@@ -1601,7 +1601,7 @@ Register
 dest
 )
 {
-movxwl
+movswl
 (
 Operand
 (
