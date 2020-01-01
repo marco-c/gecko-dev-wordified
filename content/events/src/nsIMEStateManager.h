@@ -102,13 +102,6 @@ nsIMEStateManager_h__
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
 nsEvent
 .
 h

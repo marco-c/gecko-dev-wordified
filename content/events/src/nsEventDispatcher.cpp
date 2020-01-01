@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsDOMEvent
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h
@@ -186,13 +179,6 @@ h
 include
 "
 nsPIDOMWindow
-.
-h
-"
-#
-include
-"
-nsFrameLoader
 .
 h
 "

@@ -89,13 +89,6 @@ h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -134,6 +127,9 @@ nsWrapperCache
 .
 h
 "
+class
+nsAString
+;
 class
 nsDOMTouchList
 MOZ_FINAL

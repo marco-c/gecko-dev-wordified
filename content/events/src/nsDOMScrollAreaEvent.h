@@ -125,13 +125,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsClientRect
 .
 h

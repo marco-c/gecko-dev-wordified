@@ -125,9 +125,6 @@ MouseEventBinding
 h
 "
 class
-nsEvent
-;
-class
 nsDOMMouseEvent
 :
 public
