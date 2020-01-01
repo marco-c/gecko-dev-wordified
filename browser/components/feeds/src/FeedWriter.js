@@ -4444,6 +4444,7 @@ application
 var
 selectedApp
 ;
+var
 menuItem
 =
 this
