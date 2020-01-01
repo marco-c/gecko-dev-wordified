@@ -1998,8 +1998,10 @@ waitForFocus_started
 =
 true
 ;
-callback
+setTimeout
 (
+callback
+0
 )
 ;
 }
@@ -2059,10 +2061,8 @@ received
 "
 )
 ;
-setTimeout
-(
 maybeRunTests
-0
+(
 )
 ;
 }
