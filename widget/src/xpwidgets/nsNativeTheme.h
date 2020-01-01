@@ -940,10 +940,6 @@ nsMargin
 sButtonBorderSize
 ;
 static
-nsMargin
-sButtonDisabledBorderSize
-;
-static
 PRUint8
 sButtonActiveBorderStyle
 ;
