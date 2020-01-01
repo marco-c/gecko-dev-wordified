@@ -1277,7 +1277,8 @@ year
 "
 2007
 "
-int
+signed
+char
 month
 ;
 /
@@ -1294,7 +1295,8 @@ January
 etc
 .
 )
-int
+signed
+char
 day_of_week
 ;
 /
@@ -1312,7 +1314,8 @@ Sunday
 etc
 .
 )
-int
+signed
+char
 day_of_month
 ;
 /
@@ -1328,7 +1331,8 @@ month
 -
 31
 )
-int
+signed
+char
 hour
 ;
 /
@@ -1343,7 +1347,8 @@ day
 -
 23
 )
-int
+signed
+char
 minute
 ;
 /
@@ -1358,7 +1363,8 @@ hour
 -
 59
 )
-int
+signed
+char
 second
 ;
 /
@@ -1373,9 +1379,9 @@ minute
 -
 59
 plus
+/
+/
 leap
-/
-/
 seconds
 which
 may
