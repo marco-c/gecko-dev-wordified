@@ -281,9 +281,6 @@ defined
 (
 PR_LOGGING
 )
-#
-define
-MOZ_ENABLE_MASK_LAYERS
 class
 gfxContext
 ;
@@ -4350,9 +4347,6 @@ aMaskLayer
 {
 #
 ifdef
-MOZ_ENABLE_MASK_LAYERS
-#
-ifdef
 DEBUG
 if
 (
@@ -4409,8 +4403,6 @@ Mutated
 (
 )
 ;
-#
-endif
 }
 /
 *
