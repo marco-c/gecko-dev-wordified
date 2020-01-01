@@ -3913,6 +3913,14 @@ if
 isInterpreted
 (
 )
+&
+&
+script
+(
+)
+-
+>
+source
 )
 {
 RootedString
