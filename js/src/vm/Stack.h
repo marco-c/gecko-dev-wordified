@@ -560,6 +560,9 @@ ArgumentsObject
 class
 StaticBlockObject
 ;
+#
+ifdef
+JS_METHODJIT
 namespace
 mjit
 {
@@ -583,6 +586,8 @@ pinline
 )
 ;
 }
+#
+endif
 namespace
 detail
 {
