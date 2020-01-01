@@ -605,6 +605,7 @@ we
 re
 live
 !
+explicit
 nsCookieEntry
 (
 KeyTypePointer
