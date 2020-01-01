@@ -704,12 +704,6 @@ nsHTMLVideoElement
 Height
 height
 )
-NS_IMPL_URI_ATTR
-(
-nsHTMLVideoElement
-Poster
-poster
-)
 /
 /
 nsIDOMHTMLVideoElement
