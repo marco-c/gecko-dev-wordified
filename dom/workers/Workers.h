@@ -522,6 +522,16 @@ dom
 :
 workers
 ;
+#
+define
+WORKERS_SHUTDOWN_TOPIC
+"
+web
+-
+workers
+-
+shutdown
+"
 class
 nsPIDOMWindow
 ;
