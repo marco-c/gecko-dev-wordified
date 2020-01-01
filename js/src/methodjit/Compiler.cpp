@@ -32707,7 +32707,7 @@ v
 obj
 -
 >
-getSlotRef
+getSlot
 (
 slot
 )

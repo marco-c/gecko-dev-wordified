@@ -2446,7 +2446,9 @@ if
 obj
 -
 >
-parent
+getParent
+(
+)
 )
 LeaveTrace
 (

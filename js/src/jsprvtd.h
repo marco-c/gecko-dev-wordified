@@ -1127,9 +1127,6 @@ Breakpoint
 class
 BreakpointSite
 ;
-class
-Debugger
-;
 typedef
 HashMap
 <
@@ -1145,6 +1142,12 @@ jsbytecode
 RuntimeAllocPolicy
 >
 BreakpointSiteMap
+;
+class
+Debugger
+;
+class
+WatchpointMap
 ;
 }
 /
