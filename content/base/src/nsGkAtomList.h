@@ -5634,6 +5634,13 @@ onopen
 )
 GK_ATOM
 (
+onotastatuschange
+"
+onotastatuschange
+"
+)
+GK_ATOM
+(
 onoverflow
 "
 onoverflow
