@@ -540,6 +540,11 @@ files
 above
 .
 "
+mockFilePicker
+.
+js
+"
+"
 mockTransferForContinuing
 .
 js
