@@ -477,13 +477,6 @@ nsIParserUtils
 .
 h
 "
-#
-include
-"
-nsToolkitCompsCID
-.
-h
-"
 void
 ConvertBufToPlainText
 (
