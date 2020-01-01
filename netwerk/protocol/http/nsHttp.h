@@ -1727,7 +1727,7 @@ the
 value
 would
 exceed
-LL_MAXINT
+INT64_MAX
 then
 false
 is

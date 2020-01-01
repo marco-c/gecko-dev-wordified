@@ -5303,7 +5303,7 @@ OnTransportStatus
 this
 status
 progress
-LL_MAXUINT
+UINT64_MAX
 )
 ;
 }

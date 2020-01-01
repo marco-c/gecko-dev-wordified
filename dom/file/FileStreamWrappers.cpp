@@ -748,7 +748,7 @@ if
 mOffset
 !
 =
-LL_MAXUINT
+UINT64_MAX
 )
 {
 nsCOMPtr
@@ -1292,7 +1292,7 @@ if
 mOffset
 =
 =
-LL_MAXUINT
+UINT64_MAX
 )
 {
 rv

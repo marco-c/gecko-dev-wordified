@@ -139,7 +139,7 @@ TYPE_UNKNOWN
 )
 mSize
 (
-LL_MAXUINT
+UINT64_MAX
 )
 mLastModified
 (

@@ -7508,7 +7508,7 @@ size
 )
 !
 =
-LL_MAXUINT
+UINT64_MAX
 )
 {
 pushBuffer

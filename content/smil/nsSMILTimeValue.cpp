@@ -106,7 +106,7 @@ nsSMILTimeValue
 :
 kUnresolvedMillis
 =
-LL_MAXINT
+INT64_MAX
 ;
 /
 /

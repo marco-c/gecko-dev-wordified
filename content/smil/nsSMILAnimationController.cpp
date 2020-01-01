@@ -3777,7 +3777,7 @@ etc
 nsSMILTime
 sampleTime
 =
-LL_MININT
+INT64_MIN
 ;
 while
 (

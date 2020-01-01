@@ -745,7 +745,7 @@ cookieCount
 )
 cookieOldestTime
 (
-LL_MAXINT
+INT64_MAX
 )
 corruptFlag
 (

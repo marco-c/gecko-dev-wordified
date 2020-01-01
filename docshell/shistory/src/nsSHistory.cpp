@@ -2241,7 +2241,7 @@ truncate
 the
 value
 at
-LL_MAXINT
+INT64_MAX
 to
 make
 sure
@@ -2259,12 +2259,12 @@ LL_CMP
 (
 bytes
 >
-LL_MAXINT
+INT64_MAX
 )
 )
 bytes
 =
-LL_MAXINT
+INT64_MAX
 ;
 uint64_t
 kbytes

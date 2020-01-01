@@ -6270,7 +6270,7 @@ aProgressMax
 )
 !
 =
-LL_MAXUINT
+UINT64_MAX
 )
 {
 mMaxSelfProgress

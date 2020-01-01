@@ -2574,7 +2574,7 @@ rv
 int64_t
 minus1
 =
-LL_MAXUINT
+UINT64_MAX
 ;
 if
 (

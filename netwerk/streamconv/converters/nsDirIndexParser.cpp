@@ -1762,12 +1762,12 @@ aIdx
 >
 SetSize
 (
-LL_MAXUINT
+UINT64_MAX
 )
 ;
 /
 /
-LL_MAXUINT
+UINT64_MAX
 means
 unknown
 }

@@ -2073,7 +2073,7 @@ mAsyncStream
 mStreamOffset
 !
 =
-LL_MAXUINT
+UINT64_MAX
 )
 )
 {

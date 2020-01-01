@@ -333,7 +333,7 @@ NS_OK
 )
 mContentLength
 (
-LL_MAXUINT
+UINT64_MAX
 )
 mIsByteRangeRequest
 (
@@ -2723,7 +2723,7 @@ Truncate
 ;
 mContentLength
 =
-LL_MAXUINT
+UINT64_MAX
 ;
 mContentDisposition
 .
@@ -3678,7 +3678,7 @@ true
 ;
 mContentLength
 =
-LL_MAXUINT
+UINT64_MAX
 ;
 mBuffer
 =
@@ -4372,7 +4372,7 @@ if
 mContentLength
 !
 =
-LL_MAXUINT
+UINT64_MAX
 )
 {
 /
@@ -4710,7 +4710,7 @@ lineFeedIncrement
 ;
 mContentLength
 =
-LL_MAXUINT
+UINT64_MAX
 ;
 /
 /
@@ -5237,7 +5237,7 @@ if
 mContentLength
 =
 =
-LL_MAXUINT
+UINT64_MAX
 )
 mContentLength
 =

@@ -2906,16 +2906,8 @@ return
 tmp
 -
 >
-IsBlackAndDoesNotNeedTracing
+IsBlack
 (
-static_cast
-<
-nsDOMEventTargetHelper
-*
->
-(
-tmp
-)
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_IN_CC_END
@@ -7843,7 +7835,7 @@ aLoaded
 aTotal
 =
 =
-LL_MAXUINT
+UINT64_MAX
 )
 ?
 0
@@ -19810,7 +19802,7 @@ lengthComputable
 aProgressMax
 !
 =
-LL_MAXUINT
+UINT64_MAX
 )
 ;
 if

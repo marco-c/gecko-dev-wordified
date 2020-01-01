@@ -949,7 +949,7 @@ INT64_MAX
 overflows
 and
 gives
-LL_MININT
+INT64_MIN
 .
 if
 (
@@ -1532,9 +1532,9 @@ value
 PR_STATIC_ASSERT
 (
 -
-LL_MAXINT
+INT64_MAX
 >
-LL_MININT
+INT64_MIN
 )
 ;
 int64_t
@@ -1573,7 +1573,7 @@ ticks
 {
 ticks
 =
-LL_MAXINT
+INT64_MAX
 ;
 }
 }
@@ -1588,7 +1588,7 @@ ticks
 {
 ticks
 =
-LL_MININT
+INT64_MIN
 ;
 }
 }

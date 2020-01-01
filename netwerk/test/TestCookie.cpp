@@ -8359,7 +8359,7 @@ true
 /
 is
 session
-LL_MAXINT
+INT64_MAX
 )
 )
 ;
@@ -8513,7 +8513,7 @@ true
 /
 is
 session
-LL_MAXINT
+INT64_MAX
 )
 )
 ;
@@ -9027,7 +9027,7 @@ true
 /
 is
 session
-LL_MININT
+INT64_MIN
 )
 )
 ;

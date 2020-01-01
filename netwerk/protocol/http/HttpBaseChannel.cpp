@@ -228,7 +228,7 @@ HttpBaseChannel
 :
 mStartPos
 (
-LL_MAXUINT
+UINT64_MAX
 )
 mStatus
 (
@@ -8544,7 +8544,7 @@ NS_ERROR_NOT_RESUMABLE
 uint64_t
 size
 =
-LL_MAXUINT
+UINT64_MAX
 ;
 nsAutoCString
 etag

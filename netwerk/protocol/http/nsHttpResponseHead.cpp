@@ -3212,7 +3212,7 @@ mStatus
 ;
 mContentLength
 =
-LL_MAXUINT
+UINT64_MAX
 ;
 mCacheControlNoStore
 =
@@ -3717,7 +3717,7 @@ size
 )
 size
 =
-LL_MAXUINT
+UINT64_MAX
 ;
 return
 size

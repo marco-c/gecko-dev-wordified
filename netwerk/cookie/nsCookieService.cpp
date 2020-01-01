@@ -19641,7 +19641,7 @@ cookieAttributes
 .
 expiryTime
 =
-LL_MAXINT
+INT64_MAX
 ;
 /
 /
@@ -26006,7 +26006,7 @@ mDBState
 >
 cookieOldestTime
 =
-LL_MAXINT
+INT64_MAX
 ;
 }
 /
@@ -26066,7 +26066,7 @@ aPurgeTime
 )
 oldestTime
 (
-LL_MAXINT
+INT64_MAX
 )
 purgeList
 (

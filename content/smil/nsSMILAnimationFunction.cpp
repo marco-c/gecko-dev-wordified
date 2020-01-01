@@ -500,7 +500,7 @@ mRepeatIteration
 )
 mBeginTime
 (
-LL_MININT
+INT64_MIN
 )
 mAnimationElement
 (

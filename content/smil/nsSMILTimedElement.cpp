@@ -1581,7 +1581,7 @@ nsSMILTimedElement
 :
 sMaxMilestone
 (
-LL_MAXINT
+INT64_MAX
 false
 )
 ;
@@ -10491,7 +10491,7 @@ beginAfter
 .
 SetMillis
 (
-LL_MININT
+INT64_MIN
 )
 ;
 }
@@ -13675,7 +13675,7 @@ NS_round
 offset
 )
 >
-LL_MAXINT
+INT64_MAX
 )
 return
 NS_ERROR_ILLEGAL_VALUE

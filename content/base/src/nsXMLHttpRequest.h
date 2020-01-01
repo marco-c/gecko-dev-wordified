@@ -2226,7 +2226,7 @@ upload
 and
 aTotalSize
 is
-LL_MAXUINT
+UINT64_MAX
 when
 unknown
 .
@@ -2338,7 +2338,7 @@ aLengthComputable
 ?
 aTotal
 :
-LL_MAXUINT
+UINT64_MAX
 )
 ;
 }
