@@ -698,7 +698,6 @@ prototype
 {
 get
 password
-password
 (
 )
 {
@@ -761,18 +760,14 @@ _password
 }
 set
 password
-password
 (
 value
 )
-{
 this
 .
 _password
 =
 value
-;
-}
 persist
 :
 function
@@ -999,7 +994,6 @@ newLogin
 ;
 }
 get
-_logins
 _logins
 (
 )

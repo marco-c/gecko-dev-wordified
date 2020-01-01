@@ -1306,7 +1306,6 @@ _updateCachedURLs
 }
 get
 password
-password
 (
 )
 ID
@@ -1320,7 +1319,6 @@ WeaveID
 .
 password
 set
-password
 password
 (
 value
@@ -1339,7 +1337,6 @@ password
 value
 get
 passphrase
-passphrase
 (
 )
 ID
@@ -1353,7 +1350,6 @@ WeaveCryptoID
 .
 password
 set
-passphrase
 passphrase
 (
 value
