@@ -854,6 +854,9 @@ reason
 delete
 notifyData
 ;
+return
+NS_OK
+;
 }
 NPError
 PluginInstanceParent
