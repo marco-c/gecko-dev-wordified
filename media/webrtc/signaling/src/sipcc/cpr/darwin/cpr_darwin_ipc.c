@@ -1755,6 +1755,15 @@ struct
 timeval
 tv
 ;
+#
+ifndef
+__APPLE__
+struct
+timezone
+tz
+;
+#
+else
 /
 /
 On
@@ -1797,6 +1806,8 @@ apply
 }
 tz
 ;
+#
+endif
 /
 *
 Initialize
