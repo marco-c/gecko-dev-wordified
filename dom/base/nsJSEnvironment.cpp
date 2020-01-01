@@ -3091,7 +3091,10 @@ js
 :
 GetErrorTypeName
 (
+JS_GetRuntime
+(
 cx
+)
 report
 -
 >
