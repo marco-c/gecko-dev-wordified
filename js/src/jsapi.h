@@ -10397,7 +10397,6 @@ JS_FN
 (
 name
 fastcall
-minargs
 nargs
 flags
 )
@@ -10419,13 +10418,7 @@ flags
 JSFUN_FAST_NATIVE
 |
 JSFUN_STUB_GSOPS
-\
-(
-minargs
-)
-<
-<
-16
+0
 }
 extern
 JS_PUBLIC_API
