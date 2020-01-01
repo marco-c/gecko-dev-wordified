@@ -59,7 +59,7 @@ MPL
 #
 include
 <
-iostream
+ostream
 >
 #
 include
