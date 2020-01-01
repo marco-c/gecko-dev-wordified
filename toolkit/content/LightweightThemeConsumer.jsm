@@ -459,7 +459,9 @@ lightweight
 -
 theme
 -
-changed
+styling
+-
+update
 "
 false
 )
@@ -528,7 +530,9 @@ lightweight
 -
 theme
 -
-changed
+styling
+-
+update
 "
 )
 return
@@ -586,7 +590,9 @@ lightweight
 -
 theme
 -
-changed
+styling
+-
+update
 "
 )
 ;
