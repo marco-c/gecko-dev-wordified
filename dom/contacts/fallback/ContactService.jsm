@@ -996,6 +996,13 @@ requestID
 msg
 .
 requestID
+contactID
+:
+msg
+.
+contact
+.
+id
 }
 )
 ;
@@ -1084,6 +1091,11 @@ requestID
 msg
 .
 requestID
+contactID
+:
+msg
+.
+id
 }
 )
 ;
