@@ -37189,6 +37189,13 @@ defined
 (
 MOZ_MEMORY_WINDOWS
 )
+&
+&
+!
+defined
+(
+MOZ_MEMORY_DARWIN
+)
 /
 *
 Prevent
