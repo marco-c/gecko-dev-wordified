@@ -254,6 +254,12 @@ s
 "
 )
     
+_default_res
+=
+'
+320x480
+'
+    
 def
 __init__
 (
@@ -278,9 +284,7 @@ emulatorBinary
 None
 res
 =
-'
-480x800
-'
+None
 sdcard
 =
 None
@@ -389,6 +393,10 @@ self
 res
 =
 res
+or
+self
+.
+_default_res
         
 self
 .

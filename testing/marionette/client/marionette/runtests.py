@@ -4672,9 +4672,7 @@ emulator_res
                       
 default
 =
-'
-480x800
-'
+None
 type
 =
 '
@@ -5541,6 +5539,12 @@ whitespaces
 try
 :
         
+if
+options
+.
+emulator_res
+:
+            
 dims
 =
 options
@@ -5553,7 +5557,7 @@ split
 x
 '
 )
-        
+            
 assert
 len
 (
@@ -5562,7 +5566,7 @@ dims
 =
 =
 2
-        
+            
 width
 =
 str
@@ -5575,7 +5579,7 @@ dims
 ]
 )
 )
-        
+            
 height
 =
 str
@@ -5588,7 +5592,7 @@ dims
 ]
 )
 )
-        
+            
 options
 .
 emulator_res
