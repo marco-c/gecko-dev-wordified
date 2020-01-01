@@ -180,10 +180,9 @@ mozilla
 namespace
 dom
 {
-NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_5
+NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_4
 (
 TextTrackCue
-mGlobal
 mDocument
 mTrack
 mTrackElement
@@ -296,10 +295,6 @@ ErrorResult
 aRv
 )
 :
-mGlobal
-(
-aGlobal
-)
 mText
 (
 aText
@@ -340,6 +335,7 @@ NS_FAILED
 (
 StashDocument
 (
+aGlobal
 )
 )
 )
@@ -380,10 +376,6 @@ ErrorResult
 aRv
 )
 :
-mGlobal
-(
-aGlobal
-)
 mText
 (
 aText
@@ -434,6 +426,7 @@ NS_FAILED
 (
 StashDocument
 (
+aGlobal
 )
 )
 )
@@ -500,6 +493,9 @@ TextTrackCue
 :
 StashDocument
 (
+nsISupports
+*
+aGlobal
 )
 {
 nsCOMPtr
@@ -510,7 +506,7 @@ window
 (
 do_QueryInterface
 (
-mGlobal
+aGlobal
 )
 )
 ;
