@@ -189,6 +189,16 @@ b
 sticky
 )
 ;
+assertEq
+(
+"
+expando
+"
+in
+a
+false
+)
+;
 }
 testRegExp
 (

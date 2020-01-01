@@ -852,6 +852,13 @@ context
 )
 ;
 }
+bool
+checkDouble
+(
+jsdouble
+d
+)
+;
 JSString
 *
 readString
@@ -1045,6 +1052,8 @@ context
 bool
 writeString
 (
+uint32_t
+tag
 JSString
 *
 str
