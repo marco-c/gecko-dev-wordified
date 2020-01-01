@@ -5722,7 +5722,10 @@ aDelta
 const
 nsRect
 &
-aCopyRect
+aUpdateRect
+nsRegion
+*
+aBlitRegion
 nsRegion
 *
 aRepaintRegion
@@ -30509,7 +30512,10 @@ aDelta
 const
 nsRect
 &
-aCopyRect
+aUpdateRect
+nsRegion
+*
+aBlitRegion
 nsRegion
 *
 aRepaintRegion
@@ -30548,7 +30554,8 @@ GetClientData
 )
 )
 aDelta
-aCopyRect
+aUpdateRect
+aBlitRegion
 aRepaintRegion
 )
 ;

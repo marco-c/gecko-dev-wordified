@@ -800,7 +800,10 @@ aDelta
 const
 nsRect
 &
-aCopyRect
+aUpdateRect
+nsRegion
+*
+aBlitRegion
 nsRegion
 *
 aRepaintRegion

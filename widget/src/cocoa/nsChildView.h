@@ -2660,9 +2660,12 @@ nsIntPoint
 &
 aDelta
 const
+nsTArray
+<
 nsIntRect
+>
 &
-aSource
+aDestRects
 const
 nsTArray
 <
