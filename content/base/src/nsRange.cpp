@@ -12202,17 +12202,6 @@ nsIDOMDocumentFragment
 aReturn
 )
 {
-nsCOMPtr
-<
-nsIDOMNode
->
-start
-=
-do_QueryInterface
-(
-mStartParent
-)
-;
 if
 (
 mIsPositioned
@@ -12224,7 +12213,7 @@ nsContentUtils
 :
 CreateContextualFragment
 (
-start
+mStartParent
 aFragment
 PR_TRUE
 aReturn
