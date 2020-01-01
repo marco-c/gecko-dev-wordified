@@ -2121,6 +2121,9 @@ appLongPath
 exePath
 )
 ;
+#
+ifndef
+WINCE
 /
 /
 Support
@@ -2167,6 +2170,8 @@ exePath
 return
 NS_ERROR_FAILURE
 ;
+#
+endif
 nsAutoString
 appShortPath
 (
@@ -4099,7 +4104,7 @@ get
 )
 SPIF_UPDATEINIFILE
 |
-SPIF_SENDWININICHANGE
+SPIF_SENDCHANGE
 )
 ;
 /
