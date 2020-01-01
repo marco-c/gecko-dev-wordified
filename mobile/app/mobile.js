@@ -6044,3 +6044,15 @@ enabled
 true
 )
 ;
+pref
+(
+"
+indexedDB
+.
+feature
+.
+enabled
+"
+false
+)
+;
