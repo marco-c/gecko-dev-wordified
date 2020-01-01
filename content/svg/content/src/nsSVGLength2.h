@@ -981,7 +981,7 @@ nsSVGElement
 aSVGElement
 )
 ;
-void
+nsresult
 NewValueSpecifiedUnits
 (
 PRUint16
@@ -993,7 +993,7 @@ nsSVGElement
 aSVGElement
 )
 ;
-void
+nsresult
 ConvertToSpecifiedUnits
 (
 PRUint16
@@ -1248,12 +1248,7 @@ float
 valueInSpecifiedUnits
 )
 {
-NS_ENSURE_FINITE
-(
-valueInSpecifiedUnits
-NS_ERROR_ILLEGAL_VALUE
-)
-;
+return
 mVal
 -
 >
@@ -1264,9 +1259,6 @@ valueInSpecifiedUnits
 mSVGElement
 )
 ;
-return
-NS_OK
-;
 }
 NS_IMETHOD
 ConvertToSpecifiedUnits
@@ -1275,6 +1267,7 @@ PRUint16
 unitType
 )
 {
+return
 mVal
 -
 >
@@ -1283,9 +1276,6 @@ ConvertToSpecifiedUnits
 unitType
 mSVGElement
 )
-;
-return
-NS_OK
 ;
 }
 }
