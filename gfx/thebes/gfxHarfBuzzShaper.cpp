@@ -5870,6 +5870,13 @@ rendering
 mode
 if
 (
+!
+cairo_dwrite_scaled_font_get_force_GDI_classic
+(
+scaled_font
+)
+&
+&
 gfxWindowsPlatform
 :
 :
