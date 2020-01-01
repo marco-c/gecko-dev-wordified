@@ -918,7 +918,7 @@ nsSubDocumentFrame
 )
 NS_QUERYFRAME_ENTRY
 (
-nsIFrameFrame
+nsSubDocumentFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (

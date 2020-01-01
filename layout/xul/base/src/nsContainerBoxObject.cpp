@@ -509,7 +509,7 @@ h
 #
 include
 "
-nsIFrameFrame
+nsSubDocumentFrame
 .
 h
 "
@@ -623,9 +623,9 @@ if
 frame
 )
 {
-nsIFrameFrame
+nsSubDocumentFrame
 *
-frame_frame
+subDocFrame
 =
 do_QueryFrame
 (
@@ -634,7 +634,7 @@ frame
 ;
 if
 (
-frame_frame
+subDocFrame
 )
 {
 /
@@ -645,8 +645,8 @@ frame
 for
 mContent
 is
-a
-nsIFrameFrame
+an
+nsSubDocumentFrame
 it
 knows
 how
@@ -663,7 +663,7 @@ it
 .
 .
 return
-frame_frame
+subDocFrame
 -
 >
 GetDocShell
@@ -686,7 +686,7 @@ NS_OK
 /
 /
 No
-nsIFrameFrame
+nsSubDocumentFrame
 available
 for
 mContent
