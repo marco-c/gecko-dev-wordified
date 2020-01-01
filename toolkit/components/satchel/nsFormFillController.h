@@ -740,11 +740,6 @@ nsIDOMEvent
 aEvent
 )
 ;
-bool
-IsInputAutoCompleteOff
-(
-)
-;
 /
 /
 members
