@@ -826,9 +826,16 @@ download
 .
 folderList
 "
-0
+1
 )
 ;
+/
+/
+Default
+to
+~
+/
+Downloads
 pref
 (
 "
