@@ -633,6 +633,17 @@ h
 #
 include
 "
+chrome
+/
+common
+/
+notification_service
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ipc
@@ -1902,6 +1913,9 @@ base
 :
 AtExitManager
 exitManager
+;
+NotificationService
+notificationService
 ;
 NS_LogInit
 (
