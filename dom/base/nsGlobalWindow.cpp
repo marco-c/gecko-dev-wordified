@@ -7038,10 +7038,6 @@ mRefCnt
 get
 (
 )
-sizeof
-(
-nsGlobalWindow
-)
 name
 )
 ;

@@ -34583,8 +34583,6 @@ DescribeRefCountedNode
 (
 nsrefcnt
 refCount
-size_t
-objSz
 const
 char
 *
@@ -34600,8 +34598,6 @@ DescribeGCedNode
 (
 bool
 isMarked
-size_t
-objSz
 const
 char
 *

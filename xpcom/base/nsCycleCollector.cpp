@@ -2951,9 +2951,6 @@ public
 #
 ifdef
 DEBUG_CC
-size_t
-mBytes
-;
 char
 *
 mName
@@ -2996,10 +2993,6 @@ mFirstChild
 #
 ifdef
 DEBUG_CC
-mBytes
-(
-0
-)
 mName
 (
 nullptr
@@ -9060,8 +9053,6 @@ DescribeNode
 (
 uint32_t
 refCount
-size_t
-objSz
 const
 char
 *
@@ -9078,13 +9069,6 @@ refCount
 #
 ifdef
 DEBUG_CC
-mCurrPi
--
->
-mBytes
-=
-objSz
-;
 mCurrPi
 -
 >
@@ -9122,8 +9106,6 @@ DescribeRefCountedNode
 (
 nsrefcnt
 refCount
-size_t
-objSz
 const
 char
 *
@@ -9138,8 +9120,6 @@ DescribeGCedNode
 (
 bool
 isMarked
-size_t
-objSz
 const
 char
 *
@@ -10035,8 +10015,6 @@ DescribeRefCountedNode
 (
 nsrefcnt
 refCount
-size_t
-objSz
 const
 char
 *
@@ -10107,7 +10085,6 @@ objName
 DescribeNode
 (
 refCount
-objSz
 objName
 )
 ;
@@ -10123,8 +10100,6 @@ DescribeGCedNode
 (
 bool
 isMarked
-size_t
-objSz
 const
 char
 *
@@ -10172,7 +10147,6 @@ objName
 DescribeNode
 (
 refCount
-objSz
 objName
 )
 ;
@@ -10827,8 +10801,6 @@ DescribeRefCountedNode
 (
 nsrefcnt
 refcount
-size_t
-objsz
 const
 char
 *
@@ -10844,8 +10816,6 @@ DescribeGCedNode
 (
 bool
 ismarked
-size_t
-objsz
 const
 char
 *
@@ -13695,8 +13665,6 @@ DescribeRefCountedNode
 (
 nsrefcnt
 refCount
-size_t
-objSz
 const
 char
 *
@@ -13725,8 +13693,6 @@ DescribeGCedNode
 (
 bool
 isMarked
-size_t
-objSz
 const
 char
 *
