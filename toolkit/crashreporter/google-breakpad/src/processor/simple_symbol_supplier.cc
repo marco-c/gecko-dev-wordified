@@ -348,6 +348,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 cassert
 >
 #

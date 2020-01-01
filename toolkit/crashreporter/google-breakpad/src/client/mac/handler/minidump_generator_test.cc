@@ -436,6 +436,11 @@ n
 buffer
 )
 ;
+unlink
+(
+buffer
+)
+;
 md
 .
 Write
