@@ -210,13 +210,6 @@ log
 #
 include
 "
-prlock
-.
-h
-"
-#
-include
-"
 nscore
 .
 h

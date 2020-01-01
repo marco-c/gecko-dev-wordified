@@ -196,13 +196,6 @@ h
 #
 include
 "
-prlock
-.
-h
-"
-#
-include
-"
 nscore
 .
 h
@@ -239,6 +232,9 @@ nsHashtable
 ;
 class
 nsStringKey
+;
+struct
+PRLock
 ;
 class
 nsHashKey
