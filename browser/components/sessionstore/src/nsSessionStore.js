@@ -18915,6 +18915,13 @@ total
 ]
 .
 isPopup
+&
+&
+lastClosedWindowsCopy
+.
+length
+>
+0
 )
 }
 #
