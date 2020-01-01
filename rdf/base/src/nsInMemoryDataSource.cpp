@@ -9292,6 +9292,9 @@ nsISimpleEnumerator
 aResult
 )
 {
+nsresult
+rv
+;
 nsCOMArray
 <
 nsIRDFNode
