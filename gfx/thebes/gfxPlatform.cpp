@@ -1446,6 +1446,12 @@ defined
 (
 XP_WIN
 )
+|
+|
+defined
+(
+ANDROID
+)
 /
 /
 temporary

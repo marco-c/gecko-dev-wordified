@@ -12252,6 +12252,12 @@ defined
 WINCE
 )
 )
+|
+|
+defined
+(
+ANDROID
+)
 ForEachFont
 (
 FindPlatformFont
