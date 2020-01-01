@@ -757,6 +757,12 @@ aInfo
 IsMainThread
 (
 )
+aInfo
+-
+>
+StackTop
+(
+)
 )
 ;
 profile

@@ -2027,6 +2027,7 @@ gettid
 )
 aIsMainThread
 aPseudoStack
+stackTop
 )
 ;
 if

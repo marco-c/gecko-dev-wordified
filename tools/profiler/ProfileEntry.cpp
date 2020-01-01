@@ -1171,6 +1171,9 @@ PlatformData
 aPlatform
 bool
 aIsMainThread
+void
+*
+aStackTop
 )
 :
 mWritePos
@@ -1220,6 +1223,10 @@ aIsMainThread
 mPlatformData
 (
 aPlatform
+)
+mStackTop
+(
+aStackTop
 )
 {
 mEntries
