@@ -28873,7 +28873,7 @@ NewPath
 ;
 #
 ifdef
-MOZ_GFX_MOBILE_OPTIMIZE
+MOZ_GFX_OPTIMIZE_MOBILE
 aThebesContext
 -
 >
