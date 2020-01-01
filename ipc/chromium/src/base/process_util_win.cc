@@ -1978,14 +1978,6 @@ return
 true
 ;
 }
-void
-SetCurrentProcessPrivileges
-(
-ChildPrivileges
-privs
-)
-{
-}
 NamedProcessIterator
 :
 :
