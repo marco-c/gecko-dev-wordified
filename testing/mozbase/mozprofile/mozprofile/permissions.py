@@ -1606,6 +1606,12 @@ INTEGER
            
 expireTime
 INTEGER
+           
+appId
+INTEGER
+           
+isInBrowserElement
+INTEGER
 )
 "
 "
@@ -1687,6 +1693,8 @@ values
 ?
 ?
 ?
+0
+0
 0
 0
 )
