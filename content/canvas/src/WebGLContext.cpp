@@ -3150,13 +3150,11 @@ aOldLayer
 aOldLayer
 -
 >
-GetUserData
+HasUserData
 (
-)
-=
-=
 &
 gWebGLLayerUserData
+)
 )
 {
 NS_ADDREF
@@ -3232,6 +3230,7 @@ SetUserData
 (
 &
 gWebGLLayerUserData
+nsnull
 )
 ;
 CanvasLayer
