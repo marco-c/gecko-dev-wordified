@@ -1976,11 +1976,6 @@ bool
 aActive
 )
 ;
-void
-ClosePrivateConnections
-(
-)
-;
 }
 ;
 extern
