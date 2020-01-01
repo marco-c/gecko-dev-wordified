@@ -336,9 +336,9 @@ button
 ;
 if
 (
-starButton
+PlacesStarButton
 .
-hidden
+_ignoreClicks
 |
 |
 starButton
