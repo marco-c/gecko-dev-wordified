@@ -7102,7 +7102,7 @@ ready
 to
 handle
 "
-newScript
+newSource
 "
 notifications
 .
@@ -7177,7 +7177,7 @@ client
 '
 s
 unsolicited
-newScript
+newSource
 notification
 .
 *
