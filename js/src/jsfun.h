@@ -1619,9 +1619,6 @@ and
 decompiling
 *
 /
-#
-ifdef
-__cplusplus
 bool
 optimizedClosure
 (
@@ -1731,8 +1728,12 @@ countLocalNames
 0
 ;
 }
-#
-endif
+uint32
+countInterpretedReserveSlots
+(
+)
+const
+;
 }
 ;
 /
