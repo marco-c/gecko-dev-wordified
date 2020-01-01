@@ -17881,10 +17881,8 @@ to
 hide
 pages
 that
-do
-not
-themselves
 redirect
+themselves
 somewhere
 /
 /
