@@ -232,7 +232,13 @@ aProp
 bool
 &
 found
-nsString
+mozilla
+:
+:
+dom
+:
+:
+DOMString
 &
 aResult
 )
@@ -316,7 +322,7 @@ const
 nsAString
 &
 aProp
-nsAString
+nsAutoString
 &
 aResult
 )
@@ -329,7 +335,7 @@ const
 nsAString
 &
 aAttr
-nsAString
+nsAutoString
 &
 aResult
 )
