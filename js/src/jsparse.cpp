@@ -5178,7 +5178,7 @@ eval
 cache
 (
 see
-obj_eval
+EvalCacheLookup
 in
 jsobj
 .
