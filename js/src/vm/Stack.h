@@ -2404,6 +2404,13 @@ const
 ;
 inline
 Value
+calleev
+(
+)
+const
+;
+inline
+Value
 &
 thisValue
 (
@@ -3930,6 +3937,8 @@ UnrootedScript
 script
 StackFrame
 *
+prevLink
+AbstractFramePtr
 prev
 FrameRegs
 *
