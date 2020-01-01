@@ -2631,7 +2631,7 @@ visibility
 state
 *
 /
-NS_IMETHOD
+void
 SetVisibility
 (
 nsViewVisibility
@@ -2827,7 +2827,7 @@ otherwise
 .
 *
 /
-NS_IMETHOD
+void
 SetFloating
 (
 bool
