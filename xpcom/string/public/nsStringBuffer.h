@@ -118,6 +118,14 @@ nsStringBuffer_h__
 #
 define
 nsStringBuffer_h__
+template
+<
+class
+T
+>
+struct
+already_AddRefed
+;
 /
 *
 *
@@ -358,8 +366,10 @@ memory
 *
 /
 static
+already_AddRefed
+<
 nsStringBuffer
-*
+>
 Alloc
 (
 size_t

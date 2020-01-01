@@ -949,6 +949,10 @@ Alloc
 (
 storageSize
 )
+.
+get
+(
+)
 ;
 if
 (

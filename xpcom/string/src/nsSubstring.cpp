@@ -195,6 +195,13 @@ nsStaticAtom
 .
 h
 "
+#
+include
+"
+nsCOMPtr
+.
+h
+"
 /
 /
 -
@@ -1303,8 +1310,10 @@ capacity
 .
 *
 /
+already_AddRefed
+<
 nsStringBuffer
-*
+>
 nsStringBuffer
 :
 :
@@ -1422,7 +1431,10 @@ hdr
 ;
 }
 return
+dont_AddRef
+(
 hdr
+)
 ;
 }
 nsStringBuffer
