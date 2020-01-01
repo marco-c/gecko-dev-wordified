@@ -20351,6 +20351,8 @@ extern
 JSBool
 xpc_DumpJSStack
 (
+int
+filedesc
 JSContext
 *
 cx
