@@ -25498,6 +25498,8 @@ toFunction
 -
 >
 atom
+(
+)
 ;
 if
 (

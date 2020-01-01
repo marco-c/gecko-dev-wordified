@@ -17705,6 +17705,8 @@ func
 -
 >
 atom
+(
+)
 NULL
 &
 id

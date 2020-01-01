@@ -17853,6 +17853,8 @@ fun
 -
 >
 atom
+(
+)
 -
 >
 asPropertyName

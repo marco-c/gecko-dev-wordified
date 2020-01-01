@@ -5685,6 +5685,8 @@ toFunction
 -
 >
 atom
+(
+)
 ;
 bytes
 =

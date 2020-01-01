@@ -280,6 +280,8 @@ function
 -
 >
 atom
+(
+)
 :
 pn_atom
 ;
