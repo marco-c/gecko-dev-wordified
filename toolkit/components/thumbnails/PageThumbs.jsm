@@ -973,6 +973,12 @@ accordingly
 .
 ctx
 .
+save
+(
+)
+;
+ctx
+.
 scale
 (
 scale
@@ -1027,6 +1033,12 @@ some
 reason
 .
 }
+ctx
+.
+restore
+(
+)
+;
 let
 telemetry
 =
