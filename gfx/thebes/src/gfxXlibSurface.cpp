@@ -835,6 +835,17 @@ mSize
 size
 )
 {
+if
+(
+!
+CheckSurfaceSize
+(
+size
+XLIB_IMAGE_SIDE_SIZE_LIMIT
+)
+)
+return
+;
 mDrawable
 =
 (
