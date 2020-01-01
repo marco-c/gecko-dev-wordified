@@ -54890,18 +54890,6 @@ hasInterfacePrototypeObject
 (
 )
         
-self
-.
-_deps
-=
-descriptor
-.
-interface
-.
-getDeps
-(
-)
-        
 cgThings
 =
 [
