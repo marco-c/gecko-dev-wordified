@@ -3943,6 +3943,10 @@ callerdata
 =
 callerdata
 ;
+JSD_UNLOCK
+(
+)
+;
 return
 JS_TRUE
 ;
@@ -3975,9 +3979,15 @@ if
 !
 jsdhook
 )
+{
+JSD_UNLOCK
+(
+)
+;
 return
 JS_FALSE
 ;
+}
 jsdhook
 -
 >
@@ -4039,6 +4049,10 @@ jsdhook
 free
 (
 jsdhook
+)
+;
+JSD_UNLOCK
+(
 )
 ;
 return
