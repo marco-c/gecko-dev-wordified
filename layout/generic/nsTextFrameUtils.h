@@ -592,6 +592,7 @@ CompressionMode
 COMPRESS_NONE
 COMPRESS_WHITESPACE
 COMPRESS_WHITESPACE_NEWLINE
+DISCARD_NEWLINE
 }
 ;
 /
@@ -679,11 +680,18 @@ mark
 )
 and
 tabs
-and
 compress
 those
 plus
 newlines
+or
+*
+no
+compression
+except
+newlines
+are
+discarded
 .
 *
 param

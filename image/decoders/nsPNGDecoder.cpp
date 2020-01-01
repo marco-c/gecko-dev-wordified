@@ -4539,7 +4539,7 @@ cptr32
 +
 +
 =
-GFX_PACKED_PIXEL
+gfxPackedPixel
 (
 0xFF
 line
@@ -4635,7 +4635,7 @@ cptr32
 +
 +
 =
-GFX_PACKED_PIXEL
+gfxPackedPixel
 (
 0xFF
 line
@@ -4698,7 +4698,7 @@ cptr32
 +
 +
 =
-GFX_PACKED_PIXEL
+gfxPackedPixel
 (
 line
 [
@@ -4762,7 +4762,7 @@ cptr32
 +
 +
 =
-GFX_PACKED_PIXEL_NO_PREMULTIPLY
+gfxPackedPixelNoPreMultiply
 (
 line
 [

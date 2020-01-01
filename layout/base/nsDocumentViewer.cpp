@@ -3736,7 +3736,7 @@ aDoInitialReflow
 /
 /
 Since
-InitialReflow
+Initialize
 (
 )
 will
@@ -3935,7 +3935,7 @@ reflow
 mPresShell
 -
 >
-InitialReflow
+Initialize
 (
 width
 height
@@ -3961,7 +3961,7 @@ callers
 of
 /
 /
-InitialReflow
+Initialize
 like
 nsContentSink
 :

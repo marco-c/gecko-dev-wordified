@@ -15993,7 +15993,7 @@ aPO
 mPresShell
 -
 >
-InitialReflow
+Initialize
 (
 adjSize
 .
@@ -16030,7 +16030,7 @@ Process
 the
 reflow
 event
-InitialReflow
+Initialize
 posted
 aPO
 -

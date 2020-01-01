@@ -2067,7 +2067,7 @@ mSurface
 {
 pixmap
 =
-sGLXLibrary
+sDefGLXLib
 .
 CreatePixmap
 (
@@ -2094,7 +2094,7 @@ if
 pixmap
 )
 {
-sGLXLibrary
+sDefGLXLib
 .
 BindTexImage
 (
@@ -2246,14 +2246,14 @@ mSurface
 pixmap
 )
 {
-sGLXLibrary
+sDefGLXLib
 .
 ReleaseTexImage
 (
 pixmap
 )
 ;
-sGLXLibrary
+sDefGLXLib
 .
 DestroyPixmap
 (
@@ -3579,7 +3579,7 @@ MOZ_PLATFORM_MAEMO
 )
 if
 (
-sGLXLibrary
+sDefGLXLib
 .
 SupportsTextureFromPixmap
 (
