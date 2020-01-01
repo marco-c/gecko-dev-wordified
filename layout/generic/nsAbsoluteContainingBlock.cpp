@@ -3112,7 +3112,7 @@ SetRect
 rect
 )
 ;
-nsIView
+nsView
 *
 view
 =

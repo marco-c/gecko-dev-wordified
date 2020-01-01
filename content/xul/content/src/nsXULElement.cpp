@@ -10410,7 +10410,7 @@ IsChrome
 )
 )
 {
-nsIView
+nsView
 *
 view
 =

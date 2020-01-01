@@ -585,7 +585,7 @@ class
 nsRenderingContext
 ;
 class
-nsIView
+nsView
 ;
 class
 nsIWidget
@@ -14504,7 +14504,7 @@ NS_FRAME_HAS_VIEW
 )
 ;
 }
-nsIView
+nsView
 *
 GetView
 (
@@ -14512,7 +14512,7 @@ GetView
 const
 ;
 virtual
-nsIView
+nsView
 *
 GetViewExternal
 (
@@ -14522,7 +14522,7 @@ const
 nsresult
 SetView
 (
-nsIView
+nsView
 *
 aView
 )
@@ -14571,7 +14571,7 @@ view
 .
 *
 /
-nsIView
+nsView
 *
 GetClosestView
 (
@@ -15076,7 +15076,7 @@ GetOffsetFromView
 nsPoint
 &
 aOffset
-nsIView
+nsView
 *
 *
 aView

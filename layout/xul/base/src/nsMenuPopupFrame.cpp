@@ -791,7 +791,7 @@ so
 we
 use
 the
-nsIView
+nsView
 :
 :
 SetFloating
@@ -808,7 +808,7 @@ about
 that
 constraint
 .
-nsIView
+nsView
 *
 ourView
 =
@@ -1513,7 +1513,7 @@ EnsureWidget
 (
 )
 {
-nsIView
+nsView
 *
 ourView
 =
@@ -1565,7 +1565,7 @@ nsMenuPopupFrame
 :
 CreateWidgetForView
 (
-nsIView
+nsView
 *
 aView
 )
@@ -2854,7 +2854,7 @@ PresContext
 (
 )
 ;
-nsIView
+nsView
 *
 view
 =
@@ -4752,7 +4752,7 @@ mVFlip
 =
 false
 ;
-nsIView
+nsView
 *
 view
 =
@@ -5087,7 +5087,7 @@ the
 root
 viewmanager
 .
-nsIView
+nsView
 *
 nsMenuPopupFrame
 :
@@ -5099,7 +5099,7 @@ nsIFrame
 aStartFrame
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -5212,7 +5212,7 @@ view
 ;
 }
 }
-nsIView
+nsView
 *
 temp
 =
@@ -8569,7 +8569,7 @@ viewPoint
 y
 )
 ;
-nsIView
+nsView
 *
 view
 =
@@ -11470,7 +11470,7 @@ GetWidget
 (
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -11704,7 +11704,7 @@ label
 for
 the
 titlebar
-nsIView
+nsView
 *
 view
 =
@@ -12591,7 +12591,7 @@ manager
 Create
 a
 view
-nsIView
+nsView
 *
 parentView
 =
@@ -12632,7 +12632,7 @@ view
 Create
 a
 view
-nsIView
+nsView
 *
 view
 =

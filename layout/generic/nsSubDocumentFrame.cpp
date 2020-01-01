@@ -269,7 +269,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -473,7 +473,7 @@ nsIDocument
 *
 GetDocumentFromView
 (
-nsIView
+nsView
 *
 aView
 )
@@ -668,10 +668,10 @@ static
 void
 InsertViewsInReverseOrder
 (
-nsIView
+nsView
 *
 aSibling
-nsIView
+nsView
 *
 aParent
 )
@@ -680,7 +680,7 @@ static
 void
 EndSwapDocShellsForViews
 (
-nsIView
+nsView
 *
 aView
 )
@@ -1024,7 +1024,7 @@ nsIDocument
 >
 oldContainerDoc
 ;
-nsIView
+nsView
 *
 detachedViews
 =
@@ -1392,7 +1392,7 @@ mInnerView
 return
 nullptr
 ;
-nsIView
+nsView
 *
 subdocView
 =
@@ -1736,7 +1736,7 @@ aLists
 ;
 }
 }
-nsIView
+nsView
 *
 subdocView
 =
@@ -1882,7 +1882,7 @@ have
 a
 frame
 .
-nsIView
+nsView
 *
 nextView
 =
@@ -4938,11 +4938,11 @@ mHideViewerIfFrameless
 }
 ;
 static
-nsIView
+nsView
 *
 BeginSwapDocShellsForViews
 (
-nsIView
+nsView
 *
 aSibling
 )
@@ -5041,7 +5041,7 @@ if
 frameloader
 )
 {
-nsIView
+nsView
 *
 detachedViews
 =
@@ -5574,11 +5574,11 @@ true
 ;
 }
 static
-nsIView
+nsView
 *
 BeginSwapDocShellsForViews
 (
-nsIView
+nsView
 *
 aSibling
 )
@@ -5598,7 +5598,7 @@ in
 removedViews
 '
 .
-nsIView
+nsView
 *
 removedViews
 =
@@ -5634,7 +5634,7 @@ nullptr
 )
 ;
 }
-nsIView
+nsView
 *
 next
 =
@@ -5683,10 +5683,10 @@ static
 void
 InsertViewsInReverseOrder
 (
-nsIView
+nsView
 *
 aSibling
-nsIView
+nsView
 *
 aParent
 )
@@ -5733,7 +5733,7 @@ while
 aSibling
 )
 {
-nsIView
+nsView
 *
 next
 =
@@ -5926,7 +5926,7 @@ other
 mInnerView
 )
 {
-nsIView
+nsView
 *
 ourSubdocViews
 =
@@ -5937,7 +5937,7 @@ GetFirstChild
 (
 )
 ;
-nsIView
+nsView
 *
 ourRemovedViews
 =
@@ -5948,7 +5948,7 @@ BeginSwapDocShellsForViews
 ourSubdocViews
 )
 ;
-nsIView
+nsView
 *
 otherSubdocViews
 =
@@ -5962,7 +5962,7 @@ GetFirstChild
 (
 )
 ;
-nsIView
+nsView
 *
 otherRemovedViews
 =
@@ -6151,7 +6151,7 @@ if
 dc
 )
 {
-nsIView
+nsView
 *
 v
 =
@@ -6233,7 +6233,7 @@ static
 void
 EndSwapDocShellsForViews
 (
-nsIView
+nsView
 *
 aSibling
 )
@@ -6545,7 +6545,7 @@ InvalidateFrameSubtree
 ;
 }
 }
-nsIView
+nsView
 *
 nsSubDocumentFrame
 :
@@ -6573,7 +6573,7 @@ parent
 of
 the
 view
-nsIView
+nsView
 *
 outerView
 =
@@ -6622,7 +6622,7 @@ GetViewManager
 (
 )
 ;
-nsIView
+nsView
 *
 innerView
 =

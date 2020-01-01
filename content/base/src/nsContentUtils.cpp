@@ -35621,7 +35621,7 @@ if
 VM
 )
 {
-nsIView
+nsView
 *
 rootView
 =
@@ -35637,7 +35637,7 @@ if
 rootView
 )
 {
-nsIView
+nsView
 *
 displayRoot
 =

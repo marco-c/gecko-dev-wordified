@@ -181,7 +181,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -2170,10 +2170,10 @@ aFrame
 nsIViewManager
 *
 aViewManager
-nsIView
+nsView
 *
 aNewParentView
-nsIView
+nsView
 *
 aOldParentView
 )
@@ -2263,7 +2263,7 @@ NS_OK
 }
 #
 endif
-nsIView
+nsView
 *
 view
 =
@@ -2290,7 +2290,7 @@ it
 is
 /
 /
-nsIView
+nsView
 *
 parentView
 ;
@@ -2337,7 +2337,7 @@ set
 on
 it
 .
-nsIView
+nsView
 *
 insertBefore
 =
@@ -2533,7 +2533,7 @@ return
 NS_OK
 ;
 }
-nsIView
+nsView
 *
 parentView
 =
@@ -2586,7 +2586,7 @@ manager
 Create
 a
 view
-nsIView
+nsView
 *
 view
 =
@@ -2625,7 +2625,7 @@ nullptr
 view
 )
 ;
-nsIView
+nsView
 *
 insertBefore
 =
@@ -2915,7 +2915,7 @@ parentFrame
 )
 return
 ;
-nsIView
+nsView
 *
 view
 =
@@ -2940,7 +2940,7 @@ GetViewManager
 nsPoint
 pt
 ;
-nsIView
+nsView
 *
 ancestorView
 =
@@ -3405,7 +3405,7 @@ a
 common
 ancestor
 .
-nsIView
+nsView
 *
 oldParentView
 =
@@ -3416,7 +3416,7 @@ GetClosestView
 (
 )
 ;
-nsIView
+nsView
 *
 newParentView
 =
@@ -3881,7 +3881,7 @@ a
 common
 ancestor
 .
-nsIView
+nsView
 *
 oldParentView
 =
@@ -3892,7 +3892,7 @@ GetClosestView
 (
 )
 ;
-nsIView
+nsView
 *
 newParentView
 =
@@ -4150,7 +4150,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-nsIView
+nsView
 *
 aView
 nsRenderingContext
@@ -4221,7 +4221,7 @@ GetViewManager
 (
 )
 ;
-nsIView
+nsView
 *
 rootView
 =
@@ -4847,7 +4847,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-nsIView
+nsView
 *
 aView
 const
@@ -4946,7 +4946,7 @@ aFrame
 nsStyleContext
 *
 aStyleContext
-nsIView
+nsView
 *
 aView
 uint32_t
@@ -6805,7 +6805,7 @@ HasView
 )
 )
 {
-nsIView
+nsView
 *
 view
 =

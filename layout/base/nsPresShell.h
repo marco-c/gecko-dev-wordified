@@ -1099,7 +1099,7 @@ virtual
 void
 Paint
 (
-nsIView
+nsView
 *
 aViewToPaint
 const
@@ -1212,7 +1212,7 @@ virtual
 void
 ClearMouseCaptureOnView
 (
-nsIView
+nsView
 *
 aView
 )
@@ -1667,7 +1667,7 @@ virtual
 nscolor
 ComputeBackstopColor
 (
-nsIView
+nsView
 *
 aDisplayRoot
 )
@@ -2597,7 +2597,7 @@ popup
 void
 HideViewIfPopup
 (
-nsIView
+nsView
 *
 aView
 )

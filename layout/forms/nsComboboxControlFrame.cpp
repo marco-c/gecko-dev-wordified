@@ -243,7 +243,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -884,7 +884,7 @@ nsIWidget
 *
 GetWidget
 (
-nsIView
+nsView
 *
 *
 aOutView
@@ -915,7 +915,7 @@ Run
 (
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -987,7 +987,7 @@ DestroyWidgetRunnable
 :
 GetWidget
 (
-nsIView
+nsView
 *
 *
 aOutView
@@ -1035,7 +1035,7 @@ if
 dropdown
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -2498,7 +2498,7 @@ bool
 aShowPopup
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -2690,7 +2690,7 @@ if
 aShowList
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -2903,7 +2903,7 @@ if
 listFrame
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -3357,7 +3357,7 @@ GetStateBits
 NS_FRAME_FIRST_REFLOW
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -4495,7 +4495,7 @@ to
 minimize
 flicker
 .
-nsIView
+nsView
 *
 view
 =
@@ -9681,7 +9681,7 @@ if
 listFrame
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -10240,7 +10240,7 @@ listFrame
 return
 nullptr
 ;
-nsIView
+nsView
 *
 view
 =

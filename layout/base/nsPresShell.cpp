@@ -384,7 +384,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -20798,11 +20798,11 @@ GetHoverGeneration
 nsEventStatus
 status
 ;
-nsIView
+nsView
 *
 targetView
 =
-nsIView
+nsView
 :
 :
 GetViewFor
@@ -20885,7 +20885,7 @@ PresShell
 :
 ClearMouseCaptureOnView
 (
-nsIView
+nsView
 *
 aView
 )
@@ -20939,7 +20939,7 @@ if
 frame
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -25979,7 +25979,7 @@ s
 with
 widgets
 .
-nsIView
+nsView
 *
 view
 =
@@ -30037,7 +30037,7 @@ PresShell
 :
 ComputeBackstopColor
 (
-nsIView
+nsView
 *
 aDisplayRoot
 )
@@ -30183,7 +30183,7 @@ manager
 "
 )
 ;
-nsIView
+nsView
 *
 rootView
 =
@@ -30747,11 +30747,11 @@ carefully
 *
 /
 static
-nsIView
+nsView
 *
 FindFloatingViewContaining
 (
-nsIView
+nsView
 *
 aView
 nsPoint
@@ -30839,7 +30839,7 @@ nullptr
 }
 for
 (
-nsIView
+nsView
 *
 v
 =
@@ -30862,7 +30862,7 @@ GetNextSibling
 )
 )
 {
-nsIView
+nsView
 *
 r
 =
@@ -30992,11 +30992,11 @@ null
 *
 /
 static
-nsIView
+nsView
 *
 FindViewContaining
 (
-nsIView
+nsView
 *
 aView
 nsPoint
@@ -31091,7 +31091,7 @@ nullptr
 }
 for
 (
-nsIView
+nsView
 *
 v
 =
@@ -31114,7 +31114,7 @@ GetNextSibling
 )
 )
 {
-nsIView
+nsView
 *
 r
 =
@@ -31237,7 +31237,7 @@ Forget
 )
 ;
 }
-nsIView
+nsView
 *
 rootView
 =
@@ -31458,7 +31458,7 @@ holds
 that
 view
 .
-nsIView
+nsView
 *
 view
 =
@@ -31600,7 +31600,7 @@ view
 =
 rootView
 ;
-nsIView
+nsView
 *
 pointView
 =
@@ -31951,7 +31951,7 @@ PresShell
 :
 Paint
 (
-nsIView
+nsView
 *
 aViewToPaint
 const
@@ -34024,7 +34024,7 @@ if
 rootFrame
 )
 {
-nsIView
+nsView
 *
 rootView
 =
@@ -34673,7 +34673,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -41991,7 +41991,7 @@ if
 rootFrame
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -43046,7 +43046,7 @@ false
 nsPoint
 viewOffset
 ;
-nsIView
+nsView
 *
 view
 =
@@ -43802,7 +43802,7 @@ origin
 within
 its
 view
-nsIView
+nsView
 *
 view
 =
@@ -44506,7 +44506,7 @@ mViewManager
 return
 false
 ;
-nsIView
+nsView
 *
 view
 =
@@ -47116,7 +47116,7 @@ can
 see
 it
 .
-nsIView
+nsView
 *
 rootView
 =
@@ -49849,7 +49849,7 @@ nsIntRect
 r1
 r2
 ;
-nsIView
+nsView
 *
 v1
 *
@@ -51590,7 +51590,7 @@ Get
 our
 scrolling
 preference
-nsIView
+nsView
 *
 rootView
 =
@@ -51697,7 +51697,7 @@ GetVisibleArea
 (
 )
 ;
-nsIView
+nsView
 *
 view
 =

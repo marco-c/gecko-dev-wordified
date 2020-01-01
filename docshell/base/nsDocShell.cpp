@@ -548,7 +548,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -29412,7 +29412,7 @@ get
 the
 root
 view
-nsIView
+nsView
 *
 view
 =
@@ -43567,7 +43567,7 @@ view
 s
 widget
 .
-nsIView
+nsView
 *
 rootViewSibling
 =
@@ -43624,7 +43624,7 @@ if
 vm
 )
 {
-nsIView
+nsView
 *
 oldRootView
 =
@@ -45146,7 +45146,7 @@ GetViewManager
 :
 nullptr
 ;
-nsIView
+nsView
 *
 newRootView
 =

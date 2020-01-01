@@ -136,7 +136,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -775,7 +775,7 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-nsIView
+nsView
 *
 )
 nsViewManager
@@ -788,19 +788,19 @@ nsRect
 &
 aBounds
 const
-nsIView
+nsView
 *
 aParent
 nsViewVisibility
 aVisibilityFlag
 )
 {
-nsIView
+nsView
 *
 v
 =
 new
-nsIView
+nsView
 (
 this
 aVisibilityFlag
@@ -818,7 +818,7 @@ SetParent
 (
 const_cast
 <
-nsIView
+nsView
 *
 >
 (
@@ -868,7 +868,7 @@ v
 }
 NS_IMETHODIMP_
 (
-nsIView
+nsView
 *
 )
 nsViewManager
@@ -888,7 +888,7 @@ nsViewManager
 :
 SetRootView
 (
-nsIView
+nsView
 *
 aView
 )
@@ -949,7 +949,7 @@ if
 mRootView
 )
 {
-nsIView
+nsView
 *
 parent
 =
@@ -1551,10 +1551,10 @@ const
 nsRegion
 &
 aIn
-nsIView
+nsView
 *
 aFromView
-nsIView
+nsView
 *
 aToView
 )
@@ -1611,19 +1611,19 @@ return
 out
 ;
 }
-nsIView
+nsView
 *
 nsIViewManager
 :
 :
 GetDisplayRootFor
 (
-nsIView
+nsView
 *
 aView
 )
 {
-nsIView
+nsView
 *
 displayRoot
 =
@@ -1635,7 +1635,7 @@ for
 ;
 )
 {
-nsIView
+nsView
 *
 displayParent
 =
@@ -1847,7 +1847,7 @@ nsViewManager
 :
 Refresh
 (
-nsIView
+nsView
 *
 aView
 const
@@ -2245,7 +2245,7 @@ nsViewManager
 :
 ProcessPendingUpdatesForView
 (
-nsIView
+nsView
 *
 aView
 bool
@@ -2314,7 +2314,7 @@ view
 .
 for
 (
-nsIView
+nsView
 *
 childView
 =
@@ -2569,7 +2569,7 @@ PresShell
 %
 p
 )
-nsIView
+nsView
 (
 %
 p
@@ -2680,7 +2680,7 @@ nsViewManager
 :
 FlushDirtyRegionToWidget
 (
-nsIView
+nsView
 *
 aView
 )
@@ -2708,7 +2708,7 @@ GetDirtyRegion
 (
 )
 ;
-nsIView
+nsView
 *
 nearestViewWithWidget
 =
@@ -2788,7 +2788,7 @@ nsViewManager
 :
 InvalidateView
 (
-nsIView
+nsView
 *
 aView
 )
@@ -2818,7 +2818,7 @@ static
 void
 AddDirtyRegion
 (
-nsIView
+nsView
 *
 aView
 const
@@ -2941,7 +2941,7 @@ nsViewManager
 :
 InvalidateWidgetArea
 (
-nsIView
+nsView
 *
 aWidgetView
 const
@@ -3207,11 +3207,11 @@ GetNextSibling
 )
 )
 {
-nsIView
+nsView
 *
 view
 =
-nsIView
+nsView
 :
 :
 GetViewFor
@@ -3551,7 +3551,7 @@ return
 true
 ;
 }
-nsIView
+nsView
 *
 view
 =
@@ -3591,7 +3591,7 @@ nsViewManager
 :
 InvalidateView
 (
-nsIView
+nsView
 *
 aView
 const
@@ -3651,7 +3651,7 @@ nsViewManager
 :
 InvalidateViewNoSuppression
 (
-nsIView
+nsView
 *
 aView
 const
@@ -3715,7 +3715,7 @@ return
 NS_OK
 ;
 }
-nsIView
+nsView
 *
 displayRoot
 =
@@ -3895,7 +3895,7 @@ nsViewManager
 :
 InvalidateViews
 (
-nsIView
+nsView
 *
 aView
 )
@@ -3919,7 +3919,7 @@ children
 as
 well
 .
-nsIView
+nsView
 *
 childView
 =
@@ -4168,11 +4168,11 @@ IsRefreshDriverPaintingEnabled
 )
 )
 {
-nsIView
+nsView
 *
 view
 =
-nsIView
+nsView
 :
 :
 GetViewFor
@@ -4220,7 +4220,7 @@ CallWillPaintOnObservers
 .
 view
 =
-nsIView
+nsView
 :
 :
 GetViewFor
@@ -4370,11 +4370,11 @@ bug
 378273
 )
 .
-nsIView
+nsView
 *
 view
 =
-nsIView
+nsView
 :
 :
 GetViewFor
@@ -4453,7 +4453,7 @@ DispatchEvent
 nsGUIEvent
 *
 aEvent
-nsIView
+nsView
 *
 aView
 nsEventStatus
@@ -4611,7 +4611,7 @@ we
 re
 in
 .
-nsIView
+nsView
 *
 view
 =
@@ -4889,7 +4889,7 @@ nsViewManager
 :
 ReparentChildWidgets
 (
-nsIView
+nsView
 *
 aView
 nsIWidget
@@ -5074,7 +5074,7 @@ it
 .
 for
 (
-nsIView
+nsView
 *
 kid
 =
@@ -5123,10 +5123,10 @@ nsViewManager
 :
 ReparentWidgets
 (
-nsIView
+nsView
 *
 aView
-nsIView
+nsView
 *
 aParent
 )
@@ -5309,13 +5309,13 @@ nsViewManager
 :
 InsertChild
 (
-nsIView
+nsView
 *
 aParent
-nsIView
+nsView
 *
 aChild
-nsIView
+nsView
 *
 aSibling
 bool
@@ -5529,7 +5529,7 @@ e
 after
 last
 view
-nsIView
+nsView
 *
 kid
 =
@@ -5540,7 +5540,7 @@ GetFirstChild
 (
 )
 ;
-nsIView
+nsView
 *
 prev
 =
@@ -5597,7 +5597,7 @@ aParent
 }
 else
 {
-nsIView
+nsView
 *
 kid
 =
@@ -5608,7 +5608,7 @@ GetFirstChild
 (
 )
 ;
-nsIView
+nsView
 *
 prev
 =
@@ -5830,10 +5830,10 @@ nsViewManager
 :
 InsertChild
 (
-nsIView
+nsView
 *
 aParent
-nsIView
+nsView
 *
 aChild
 int32_t
@@ -5901,7 +5901,7 @@ nsViewManager
 :
 RemoveChild
 (
-nsIView
+nsView
 *
 aChild
 )
@@ -5911,7 +5911,7 @@ NS_ENSURE_ARG_POINTER
 aChild
 )
 ;
-nsIView
+nsView
 *
 parent
 =
@@ -5991,7 +5991,7 @@ nsViewManager
 :
 MoveViewTo
 (
-nsIView
+nsView
 *
 aView
 nscoord
@@ -6093,7 +6093,7 @@ GetVisibility
 nsViewVisibility_kHide
 )
 {
-nsIView
+nsView
 *
 parentView
 =
@@ -6156,7 +6156,7 @@ nsViewManager
 :
 InvalidateHorizontalBandDifference
 (
-nsIView
+nsView
 *
 aView
 const
@@ -6306,7 +6306,7 @@ nsViewManager
 :
 InvalidateRectDifference
 (
-nsIView
+nsView
 *
 aView
 const
@@ -6440,7 +6440,7 @@ nsViewManager
 :
 ResizeView
 (
-nsIView
+nsView
 *
 aView
 const
@@ -6528,7 +6528,7 @@ false
 }
 else
 {
-nsIView
+nsView
 *
 parentView
 =
@@ -6731,7 +6731,7 @@ nsViewManager
 :
 SetViewFloating
 (
-nsIView
+nsView
 *
 aView
 bool
@@ -6771,7 +6771,7 @@ nsViewManager
 :
 SetViewVisibility
 (
-nsIView
+nsView
 *
 aView
 nsViewVisibility
@@ -6844,7 +6844,7 @@ nsViewVisibility_kHide
 aVisible
 )
 {
-nsIView
+nsView
 *
 parentView
 =
@@ -6902,7 +6902,7 @@ nsViewManager
 :
 IsViewInserted
 (
-nsIView
+nsView
 *
 aView
 )
@@ -6939,7 +6939,7 @@ false
 }
 else
 {
-nsIView
+nsView
 *
 view
 =
@@ -6996,7 +6996,7 @@ nsViewManager
 :
 SetViewZIndex
 (
-nsIView
+nsView
 *
 aView
 bool
@@ -7365,7 +7365,7 @@ nsViewManager
 :
 ViewToWidget
 (
-nsIView
+nsView
 *
 aView
 const
@@ -7800,7 +7800,7 @@ mRootViewManager
 )
 ;
 }
-nsIView
+nsView
 *
 parent
 =

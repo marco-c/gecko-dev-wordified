@@ -175,7 +175,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -1787,11 +1787,11 @@ order
 *
 /
 static
-nsIView
+nsView
 *
 FindSiblingViewFor
 (
-nsIView
+nsView
 *
 aParentView
 nsIFrame
@@ -3214,7 +3214,7 @@ nsIWidget
 aWidget
 nsIntPoint
 aPt
-nsIView
+nsView
 *
 aView
 )

@@ -224,7 +224,7 @@ class
 nsSubDocumentFrame
 ;
 class
-nsIView
+nsView
 ;
 class
 nsIInProcessContentFrameMessageManager
@@ -1710,7 +1710,7 @@ case
 void
 SetDetachedSubdocView
 (
-nsIView
+nsView
 *
 aDetachedView
 nsIDocument
@@ -1742,7 +1742,7 @@ SetDetachedSubdocView
 .
 *
 /
-nsIView
+nsView
 *
 GetDetachedSubdocView
 (
@@ -2291,7 +2291,7 @@ presentation
 after
 reframing
 .
-nsIView
+nsView
 *
 mDetachedSubdocViews
 ;

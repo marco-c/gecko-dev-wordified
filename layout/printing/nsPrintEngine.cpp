@@ -180,7 +180,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -607,7 +607,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -16321,7 +16321,7 @@ return
 doSetPixelScale
 ;
 }
-nsIView
+nsView
 *
 nsPrintEngine
 :
@@ -16390,11 +16390,11 @@ canCreateScrollbars
 =
 true
 ;
-nsIView
+nsView
 *
 rootView
 ;
-nsIView
+nsView
 *
 parentView
 =
@@ -16578,7 +16578,7 @@ nsGkAtoms
 subDocumentFrame
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -16895,7 +16895,7 @@ nsPresContext
 :
 eContext_Print
 ;
-nsIView
+nsView
 *
 parentView
 =
@@ -17849,7 +17849,7 @@ n
 "
 )
 ;
-nsIView
+nsView
 *
 v
 =
@@ -30560,7 +30560,7 @@ if
 vm
 )
 {
-nsIView
+nsView
 *
 root
 =
@@ -31169,7 +31169,7 @@ n
 "
 )
 ;
-nsIView
+nsView
 *
 v
 =

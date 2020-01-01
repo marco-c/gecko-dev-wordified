@@ -172,7 +172,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -1788,7 +1788,7 @@ HasView
 )
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -1905,7 +1905,7 @@ mWidget
 =
 aWidget
 ;
-nsIView
+nsView
 *
 view
 =
@@ -2029,7 +2029,7 @@ a
 view
 )
 .
-nsIView
+nsView
 *
 parentWithView
 ;
@@ -5026,7 +5026,7 @@ bool
 aWindowless
 )
 {
-nsIView
+nsView
 *
 parentWithView
 ;
@@ -5283,7 +5283,7 @@ HasView
 )
 )
 {
-nsIView
+nsView
 *
 view
 =

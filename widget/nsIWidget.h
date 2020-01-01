@@ -2874,7 +2874,7 @@ listener
 Used
 by
 *
-nsIView
+nsView
 in
 connection
 with

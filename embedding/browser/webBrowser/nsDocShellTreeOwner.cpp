@@ -495,7 +495,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -8249,7 +8249,7 @@ if
 vm
 )
 {
-nsIView
+nsView
 *
 view
 =

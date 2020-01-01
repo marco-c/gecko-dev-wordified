@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -201,10 +201,10 @@ using
 namespace
 mozilla
 ;
-nsIView
+nsView
 :
 :
-nsIView
+nsView
 (
 nsViewManager
 *
@@ -215,7 +215,7 @@ aVisibility
 {
 MOZ_COUNT_CTOR
 (
-nsIView
+nsView
 )
 ;
 mVis
@@ -285,7 +285,7 @@ false
 ;
 }
 void
-nsIView
+nsView
 :
 :
 DropMouseGrabbing
@@ -316,17 +316,17 @@ this
 )
 ;
 }
-nsIView
+nsView
 :
 :
 ~
-nsIView
+nsView
 (
 )
 {
 MOZ_COUNT_DTOR
 (
-nsIView
+nsView
 )
 ;
 while
@@ -336,7 +336,7 @@ GetFirstChild
 )
 )
 {
-nsIView
+nsView
 *
 child
 =
@@ -397,7 +397,7 @@ DropMouseGrabbing
 (
 )
 ;
-nsIView
+nsView
 *
 rootView
 =
@@ -520,7 +520,7 @@ mDirtyRegion
 ;
 }
 void
-nsIView
+nsView
 :
 :
 DestroyWidget
@@ -641,9 +641,9 @@ mWindow
 ;
 }
 }
-nsIView
+nsView
 *
-nsIView
+nsView
 :
 :
 GetViewFor
@@ -682,7 +682,7 @@ if
 listener
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -724,7 +724,7 @@ nullptr
 ;
 }
 void
-nsIView
+nsView
 :
 :
 Destroy
@@ -736,7 +736,7 @@ this
 ;
 }
 void
-nsIView
+nsView
 :
 :
 SetPosition
@@ -818,7 +818,7 @@ false
 ;
 }
 void
-nsIView
+nsView
 :
 :
 ResetWidgetBounds
@@ -893,7 +893,7 @@ this
 view
 for
 (
-nsIView
+nsView
 *
 v
 =
@@ -926,7 +926,7 @@ aForceSync
 }
 }
 bool
-nsIView
+nsView
 :
 :
 IsEffectivelyVisible
@@ -935,7 +935,7 @@ IsEffectivelyVisible
 {
 for
 (
-nsIView
+nsView
 *
 v
 =
@@ -972,7 +972,7 @@ true
 ;
 }
 nsIntRect
-nsIView
+nsView
 :
 :
 CalcWidgetBounds
@@ -997,7 +997,7 @@ viewBounds
 mDimBounds
 )
 ;
-nsIView
+nsView
 *
 parent
 =
@@ -1260,7 +1260,7 @@ newBounds
 ;
 }
 void
-nsIView
+nsView
 :
 :
 DoResetWidgetBounds
@@ -1701,7 +1701,7 @@ nothing
 }
 }
 void
-nsIView
+nsView
 :
 :
 SetDimensions
@@ -1825,7 +1825,7 @@ false
 }
 }
 void
-nsIView
+nsView
 :
 :
 NotifyEffectiveVisibilityChanged
@@ -1885,7 +1885,7 @@ false
 }
 for
 (
-nsIView
+nsView
 *
 child
 =
@@ -1944,7 +1944,7 @@ aEffectivelyVisible
 }
 }
 void
-nsIView
+nsView
 :
 :
 SetVisibility
@@ -1966,7 +1966,7 @@ IsEffectivelyVisible
 ;
 }
 void
-nsIView
+nsView
 :
 :
 SetFloating
@@ -1993,7 +1993,7 @@ NS_VIEW_FLAG_FLOATING
 ;
 }
 void
-nsIView
+nsView
 :
 :
 InvalidateHierarchy
@@ -2024,7 +2024,7 @@ InvalidateHierarchy
 ;
 for
 (
-nsIView
+nsView
 *
 child
 =
@@ -2051,15 +2051,15 @@ aViewManagerParent
 ;
 }
 void
-nsIView
+nsView
 :
 :
 InsertChild
 (
-nsIView
+nsView
 *
 aChild
-nsIView
+nsView
 *
 aSibling
 )
@@ -2238,12 +2238,12 @@ grabs
 }
 }
 void
-nsIView
+nsView
 :
 :
 RemoveChild
 (
-nsIView
+nsView
 *
 child
 )
@@ -2268,13 +2268,13 @@ nullptr
 child
 )
 {
-nsIView
+nsView
 *
 prevKid
 =
 nullptr
 ;
-nsIView
+nsView
 *
 kid
 =
@@ -2526,7 +2526,7 @@ static
 void
 UpdateNativeWidgetZIndexes
 (
-nsIView
+nsView
 *
 aView
 int32_t
@@ -2588,7 +2588,7 @@ else
 {
 for
 (
-nsIView
+nsView
 *
 v
 =
@@ -2635,7 +2635,7 @@ static
 int32_t
 FindNonAutoZIndex
 (
-nsIView
+nsView
 *
 aView
 )
@@ -2709,7 +2709,7 @@ true
 }
 ;
 nsresult
-nsIView
+nsView
 :
 :
 CreateWidget
@@ -2850,7 +2850,7 @@ parentWidget
 NS_ERROR
 (
 "
-nsIView
+nsView
 :
 :
 CreateWidget
@@ -2932,7 +2932,7 @@ NS_OK
 ;
 }
 nsresult
-nsIView
+nsView
 :
 :
 CreateWidgetForParent
@@ -3060,7 +3060,7 @@ NS_OK
 ;
 }
 nsresult
-nsIView
+nsView
 :
 :
 CreateWidgetForPopup
@@ -3336,7 +3336,7 @@ NS_OK
 ;
 }
 void
-nsIView
+nsView
 :
 :
 InitializeWindow
@@ -3439,7 +3439,7 @@ mirrored
 events
 .
 nsresult
-nsIView
+nsView
 :
 :
 AttachToTopLevelWidget
@@ -3501,7 +3501,7 @@ if
 listener
 )
 {
-nsIView
+nsView
 *
 oldView
 =
@@ -3659,7 +3659,7 @@ attached
 widget
 .
 nsresult
-nsIView
+nsView
 :
 :
 DetachFromTopLevelWidget
@@ -3711,7 +3711,7 @@ NS_OK
 ;
 }
 void
-nsIView
+nsView
 :
 :
 SetZIndex
@@ -3784,7 +3784,7 @@ this
 }
 }
 void
-nsIView
+nsView
 :
 :
 AssertNoWindow
@@ -3862,7 +3862,7 @@ functions
 /
 /
 void
-nsIView
+nsView
 :
 :
 AttachWidgetEventHandler
@@ -3905,7 +3905,7 @@ this
 ;
 }
 void
-nsIView
+nsView
 :
 :
 DetachWidgetEventHandler
@@ -3959,7 +3959,7 @@ nullptr
 ifdef
 DEBUG
 void
-nsIView
+nsView
 :
 :
 List
@@ -4221,7 +4221,7 @@ mFrame
 ;
 for
 (
-nsIView
+nsView
 *
 kid
 =
@@ -4306,13 +4306,13 @@ endif
 /
 DEBUG
 nsPoint
-nsIView
+nsView
 :
 :
 GetOffsetTo
 (
 const
-nsIView
+nsView
 *
 aOther
 )
@@ -4334,13 +4334,13 @@ AppUnitsPerDevPixel
 ;
 }
 nsPoint
-nsIView
+nsView
 :
 :
 GetOffsetTo
 (
 const
-nsIView
+nsView
 *
 aOther
 const
@@ -4423,7 +4423,7 @@ docOffset
 )
 ;
 const
-nsIView
+nsView
 *
 v
 =
@@ -4451,7 +4451,7 @@ AppUnitsPerDevPixel
 )
 ;
 const
-nsIView
+nsView
 *
 root
 =
@@ -4655,7 +4655,7 @@ offset
 ;
 }
 nsPoint
-nsIView
+nsView
 :
 :
 GetOffsetToWidget
@@ -4676,7 +4676,7 @@ the
 view
 for
 widget
-nsIView
+nsView
 *
 widgetView
 =
@@ -4876,7 +4876,7 @@ pt
 }
 nsIWidget
 *
-nsIView
+nsView
 :
 :
 GetNearestWidget
@@ -4904,7 +4904,7 @@ AppUnitsPerDevPixel
 }
 nsIWidget
 *
-nsIView
+nsView
 :
 :
 GetNearestWidget
@@ -4974,7 +4974,7 @@ docPt
 )
 ;
 const
-nsIView
+nsView
 *
 v
 =
@@ -5211,7 +5211,7 @@ GetWidget
 ;
 }
 bool
-nsIView
+nsView
 :
 :
 IsRoot
@@ -5231,7 +5231,7 @@ manager
 is
 null
 in
-nsIView
+nsView
 :
 :
 IsRoot
@@ -5253,7 +5253,7 @@ this
 ;
 }
 nsRect
-nsIView
+nsView
 :
 :
 GetBoundsInParentUnits
@@ -5261,7 +5261,7 @@ GetBoundsInParentUnits
 )
 const
 {
-nsIView
+nsView
 *
 parent
 =
@@ -5334,7 +5334,7 @@ parentAPD
 ;
 }
 nsPoint
-nsIView
+nsView
 :
 :
 ConvertFromParentCoords
@@ -5345,7 +5345,7 @@ aPt
 const
 {
 const
-nsIView
+nsView
 *
 parent
 =
@@ -5428,7 +5428,7 @@ eWindowType_popup
 }
 nsIPresShell
 *
-nsIView
+nsView
 :
 :
 GetPresShell
@@ -5447,7 +5447,7 @@ GetPresShell
 ;
 }
 bool
-nsIView
+nsView
 :
 :
 WindowMoved
@@ -5505,7 +5505,7 @@ false
 ;
 }
 bool
-nsIView
+nsView
 :
 :
 WindowResized
@@ -5654,7 +5654,7 @@ false
 ;
 }
 bool
-nsIView
+nsView
 :
 :
 RequestWindowClose
@@ -5731,7 +5731,7 @@ false
 ;
 }
 void
-nsIView
+nsView
 :
 :
 WillPaintWindow
@@ -5762,7 +5762,7 @@ aWillSendDidPaint
 ;
 }
 bool
-nsIView
+nsView
 :
 :
 PaintWindow
@@ -5781,7 +5781,7 @@ NS_ASSERTION
 this
 =
 =
-nsIView
+nsView
 :
 :
 GetViewFor
@@ -5848,11 +5848,11 @@ from
 the
 widget
 .
-nsIView
+nsView
 *
 view
 =
-nsIView
+nsView
 :
 :
 GetViewFor
@@ -5878,7 +5878,7 @@ result
 ;
 }
 void
-nsIView
+nsView
 :
 :
 DidPaintWindow
@@ -5902,7 +5902,7 @@ DidPaintWindow
 ;
 }
 void
-nsIView
+nsView
 :
 :
 RequestRepaint
@@ -5935,7 +5935,7 @@ ScheduleViewManagerFlush
 }
 }
 nsEventStatus
-nsIView
+nsView
 :
 :
 HandleEvent
@@ -5968,7 +5968,7 @@ result
 =
 nsEventStatus_eIgnore
 ;
-nsIView
+nsView
 *
 view
 ;

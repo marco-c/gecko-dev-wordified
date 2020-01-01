@@ -328,7 +328,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -1322,7 +1322,7 @@ MIN_INT
 return
 NS_OK
 ;
-nsIView
+nsView
 *
 aView
 =

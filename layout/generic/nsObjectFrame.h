@@ -1525,7 +1525,7 @@ mInstanceOwner
 /
 /
 WEAK
-nsIView
+nsView
 *
 mInnerView
 ;

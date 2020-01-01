@@ -16434,7 +16434,7 @@ to
 the
 root
 view
-nsIView
+nsView
 *
 rootView
 =
@@ -49121,7 +49121,7 @@ ApplyRenderingChangeToTree
 "
 )
 ;
-nsIView
+nsView
 *
 view
 =

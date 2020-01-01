@@ -644,7 +644,7 @@ nsIFrame
 aOther
 )
 ;
-nsIView
+nsView
 *
 EnsureInnerView
 (
@@ -972,7 +972,7 @@ nsFrameLoader
 >
 mFrameLoader
 ;
-nsIView
+nsView
 *
 mInnerView
 ;

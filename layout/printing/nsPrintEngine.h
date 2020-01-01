@@ -1743,7 +1743,7 @@ nsSize
 aAdjSize
 )
 ;
-nsIView
+nsView
 *
 GetParentViewForRoot
 (

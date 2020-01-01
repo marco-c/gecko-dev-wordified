@@ -218,7 +218,7 @@ class
 nsIAtom
 ;
 class
-nsIView
+nsView
 ;
 namespace
 mozilla

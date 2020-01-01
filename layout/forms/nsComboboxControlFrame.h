@@ -253,7 +253,7 @@ nsThreadUtils
 h
 "
 class
-nsIView
+nsView
 ;
 class
 nsStyleContext

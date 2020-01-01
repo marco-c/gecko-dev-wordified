@@ -224,7 +224,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -1614,7 +1614,7 @@ while
 frame
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -3469,7 +3469,7 @@ call
 NotifyDestroyingFrame
 (
 )
-nsIView
+nsView
 *
 view
 =
@@ -28029,7 +28029,7 @@ nullptr
 Associated
 view
 object
-nsIView
+nsView
 *
 nsIFrame
 :
@@ -28112,7 +28112,7 @@ view
 return
 static_cast
 <
-nsIView
+nsView
 *
 >
 (
@@ -28125,7 +28125,7 @@ value
 virtual
 *
 /
-nsIView
+nsView
 *
 nsIFrame
 :
@@ -28147,7 +28147,7 @@ nsIFrame
 :
 SetView
 (
-nsIView
+nsView
 *
 aView
 )
@@ -29394,7 +29394,7 @@ GetOffsetFromView
 nsPoint
 &
 aOffset
-nsIView
+nsView
 *
 *
 aView
@@ -33868,7 +33868,7 @@ GetSize
 )
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -37558,7 +37558,7 @@ firstFrame
 nsPoint
 offset
 ;
-nsIView
+nsView
 *
 view
 ;
@@ -37778,7 +37778,7 @@ GetRect
 nsPoint
 offset
 ;
-nsIView
+nsView
 *
 view
 ;
@@ -38129,7 +38129,7 @@ HasView
 )
 )
 {
-nsIView
+nsView
 *
 view
 ;
@@ -38352,7 +38352,7 @@ mDesiredX
 0
 )
 ;
-nsIView
+nsView
 *
 view
 ;
@@ -43682,7 +43682,7 @@ return
 NS_OK
 ;
 }
-nsIView
+nsView
 *
 nsIFrame
 :

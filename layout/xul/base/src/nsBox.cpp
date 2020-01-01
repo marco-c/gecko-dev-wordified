@@ -2813,7 +2813,7 @@ VisualOverflow
 )
 ;
 }
-nsIView
+nsView
 *
 view
 =

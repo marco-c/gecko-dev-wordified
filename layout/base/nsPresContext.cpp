@@ -14339,7 +14339,7 @@ so
 use
 views
 .
-nsIView
+nsView
 *
 view
 =

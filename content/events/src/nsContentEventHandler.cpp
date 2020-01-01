@@ -198,7 +198,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -5403,11 +5403,11 @@ widget
 "
 )
 ;
-nsIView
+nsView
 *
 view
 =
-nsIView
+nsView
 :
 :
 GetViewFor
@@ -6653,7 +6653,7 @@ null
 "
 )
 ;
-nsIView
+nsView
 *
 view
 =

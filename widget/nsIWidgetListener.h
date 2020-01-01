@@ -410,7 +410,7 @@ nsIXULWindow
 h
 "
 class
-nsIView
+nsView
 ;
 class
 nsIPresShell
@@ -490,14 +490,14 @@ listener
 is
 for
 an
-nsIView
+nsView
 return
 it
 .
 *
 /
 virtual
-nsIView
+nsView
 *
 GetView
 (

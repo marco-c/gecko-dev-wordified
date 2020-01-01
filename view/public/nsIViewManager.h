@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -266,7 +266,7 @@ set
 in
 the
 *
-nsIView
+nsView
 through
 this
 method
@@ -331,7 +331,7 @@ view
 /
 NS_IMETHOD_
 (
-nsIView
+nsView
 *
 )
 CreateView
@@ -341,7 +341,7 @@ nsRect
 &
 aBounds
 const
-nsIView
+nsView
 *
 aParent
 nsViewVisibility
@@ -373,7 +373,7 @@ view
 /
 NS_IMETHOD_
 (
-nsIView
+nsView
 *
 )
 GetRootView
@@ -447,7 +447,7 @@ root
 NS_IMETHOD
 SetRootView
 (
-nsIView
+nsView
 *
 aView
 )
@@ -627,7 +627,7 @@ view
 NS_IMETHOD
 InvalidateView
 (
-nsIView
+nsView
 *
 aView
 )
@@ -705,7 +705,7 @@ damaged
 NS_IMETHOD
 InvalidateViewNoSuppression
 (
-nsIView
+nsView
 *
 aView
 const
@@ -805,7 +805,7 @@ DispatchEvent
 nsGUIEvent
 *
 aEvent
-nsIView
+nsView
 *
 aViewTarget
 nsEventStatus
@@ -963,13 +963,13 @@ order
 NS_IMETHOD
 InsertChild
 (
-nsIView
+nsView
 *
 aParent
-nsIView
+nsView
 *
 aChild
-nsIView
+nsView
 *
 aSibling
 bool
@@ -1028,7 +1028,7 @@ view
 NS_IMETHOD
 RemoveChild
 (
-nsIView
+nsView
 *
 aChild
 )
@@ -1126,7 +1126,7 @@ position
 NS_IMETHOD
 MoveViewTo
 (
-nsIView
+nsView
 *
 aView
 nscoord
@@ -1254,7 +1254,7 @@ rectangles
 NS_IMETHOD
 ResizeView
 (
-nsIView
+nsView
 *
 aView
 const
@@ -1372,7 +1372,7 @@ state
 NS_IMETHOD
 SetViewVisibility
 (
-nsIView
+nsView
 *
 aView
 nsViewVisibility
@@ -1561,7 +1561,7 @@ views
 NS_IMETHOD
 SetViewZIndex
 (
-nsIView
+nsView
 *
 aView
 bool
@@ -1644,7 +1644,7 @@ views
 NS_IMETHOD
 SetViewFloating
 (
-nsIView
+nsView
 *
 aView
 bool
@@ -2122,11 +2122,11 @@ document
 *
 /
 static
-nsIView
+nsView
 *
 GetDisplayRootFor
 (
-nsIView
+nsView
 *
 aView
 )
