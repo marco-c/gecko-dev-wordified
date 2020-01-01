@@ -3476,7 +3476,7 @@ the
 accelerometer
 .
 void
-EnableAccelerationUpdates
+EnableDeviceMotionUpdates
 (
 )
 ;
@@ -3489,7 +3489,7 @@ the
 accelerometer
 .
 void
-DisableAccelerationUpdates
+DisableDeviceMotionUpdates
 (
 )
 ;
@@ -5530,11 +5530,12 @@ this
 window
 is
 getting
-acceleration
+device
+motion
 change
 events
 PRPackedBool
-mHasAcceleration
+mHasDeviceMotion
 :
 1
 ;

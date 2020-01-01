@@ -837,7 +837,7 @@ AcknowledgeEventSync
 )
 ;
 void
-EnableAccelerometer
+EnableDeviceMotion
 (
 bool
 aEnable
@@ -1639,7 +1639,7 @@ jmethodID
 jAcknowledgeEventSync
 ;
 jmethodID
-jEnableAccelerometer
+jEnableDeviceMotion
 ;
 jmethodID
 jEnableLocation

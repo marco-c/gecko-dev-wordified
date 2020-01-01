@@ -3097,6 +3097,15 @@ nsGkAtoms
 :
 :
 ondeviceorientation
+|
+|
+aTypeAtom
+=
+=
+nsGkAtoms
+:
+:
+ondevicemotion
 )
 {
 nsPIDOMWindow

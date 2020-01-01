@@ -40129,7 +40129,9 @@ content
 pref
 (
 "
-accelerometer
+device
+.
+motion
 .
 enabled
 "

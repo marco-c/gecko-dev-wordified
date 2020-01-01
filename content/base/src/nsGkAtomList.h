@@ -12442,6 +12442,13 @@ ondeviceorientation
 ondeviceorientation
 "
 )
+GK_ATOM
+(
+ondevicemotion
+"
+ondevicemotion
+"
+)
 /
 /
 -

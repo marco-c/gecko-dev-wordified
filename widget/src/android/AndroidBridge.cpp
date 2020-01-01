@@ -920,7 +920,7 @@ V
 "
 )
 ;
-jEnableAccelerometer
+jEnableDeviceMotion
 =
 (
 jmethodID
@@ -932,7 +932,7 @@ GetStaticMethodID
 (
 jGeckoAppShellClass
 "
-enableAccelerometer
+enableDeviceMotion
 "
 "
 (
@@ -2697,7 +2697,7 @@ void
 AndroidBridge
 :
 :
-EnableAccelerometer
+EnableDeviceMotion
 (
 bool
 aEnable
@@ -2709,7 +2709,7 @@ ALOG_BRIDGE
 AndroidBridge
 :
 :
-EnableAccelerometer
+EnableDeviceMotion
 "
 )
 ;
@@ -2719,7 +2719,7 @@ mJNIEnv
 CallStaticVoidMethod
 (
 mGeckoAppShellClass
-jEnableAccelerometer
+jEnableDeviceMotion
 aEnable
 )
 ;
