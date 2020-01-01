@@ -4991,14 +4991,6 @@ getContentResolver
 )
 )
 ;
-getFavicons
-(
-)
-.
-clearFavicons
-(
-)
-;
 }
 /
 *

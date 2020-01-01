@@ -129,19 +129,6 @@ gecko
 .
 db
 .
-BrowserContract
-.
-Images
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-db
-.
 BrowserDB
 ;
 import
@@ -4995,7 +4982,7 @@ c
 .
 getColumnIndexOrThrow
 (
-Images
+Combined
 .
 URL
 )
@@ -5015,7 +5002,7 @@ c
 .
 getColumnIndexOrThrow
 (
-Images
+Combined
 .
 FAVICON
 )
