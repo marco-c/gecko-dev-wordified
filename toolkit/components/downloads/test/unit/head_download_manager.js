@@ -850,13 +850,6 @@ gDownloadCount
 +
 +
 ;
-let
-dm
-=
-downloadUtils
-.
-downloadManager
-;
 var
 dl
 =
@@ -965,7 +958,7 @@ nsIWebProgressListener
 ;
 persist
 .
-savePrivacyAwareURI
+saveURI
 (
 dl
 .
@@ -977,9 +970,6 @@ null
 dl
 .
 targetFile
-aParams
-.
-isPrivate
 )
 ;
 return
