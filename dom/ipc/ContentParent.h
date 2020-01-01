@@ -264,13 +264,6 @@ h
 #
 include
 "
-nsIMemoryReporter
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h
@@ -317,6 +310,9 @@ nsConsoleService
 ;
 class
 nsIDOMBlob
+;
+class
+nsIMemoryReporter
 ;
 namespace
 mozilla
