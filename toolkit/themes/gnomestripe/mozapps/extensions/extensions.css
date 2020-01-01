@@ -4289,7 +4289,13 @@ start
 detail
 -
 icon
+-
+container
 {
+width
+:
+64px
+;
 -
 moz
 -
@@ -4299,6 +4305,12 @@ end
 :
 10px
 ;
+}
+#
+detail
+-
+icon
+{
 max
 -
 width

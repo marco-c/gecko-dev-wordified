@@ -5254,7 +5254,13 @@ start
 detail
 -
 icon
+-
+container
 {
+width
+:
+64px
+;
 -
 moz
 -
@@ -5270,6 +5276,12 @@ top
 :
 6px
 ;
+}
+#
+detail
+-
+icon
+{
 max
 -
 width
