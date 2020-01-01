@@ -166,7 +166,7 @@ JSDStaticLock
 JSDStaticLock
 ;
 extern
-void
+JSDStaticLock
 *
 jsd_CreateLock
 (

@@ -6952,6 +6952,9 @@ own
 purposes
 *
 /
+struct
+JSDStaticLock
+;
 /
 *
 *
@@ -6989,7 +6992,7 @@ lock
 extern
 JSD_PUBLIC_API
 (
-void
+JSDStaticLock
 *
 )
 JSD_CreateLock
@@ -7032,7 +7035,7 @@ void
 )
 JSD_Lock
 (
-void
+JSDStaticLock
 *
 lock
 )
@@ -7070,7 +7073,7 @@ void
 )
 JSD_Unlock
 (
-void
+JSDStaticLock
 *
 lock
 )
@@ -7114,7 +7117,7 @@ JSBool
 )
 JSD_IsLocked
 (
-void
+JSDStaticLock
 *
 lock
 )
@@ -7136,7 +7139,7 @@ JSBool
 )
 JSD_IsUnlocked
 (
-void
+JSDStaticLock
 *
 lock
 )
