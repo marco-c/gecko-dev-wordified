@@ -157,7 +157,7 @@ const
 unsigned
 MIN_SPARSE_INDEX
 =
-256
+512
 ;
 namespace
 js
