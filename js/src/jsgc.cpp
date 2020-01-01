@@ -4480,9 +4480,11 @@ MarkRangeConservatively
 JSTracer
 *
 trc
+const
 jsuword
 *
 begin
+const
 jsuword
 *
 end
@@ -4498,6 +4500,7 @@ end
 ;
 for
 (
+const
 jsuword
 *
 i
@@ -4648,6 +4651,7 @@ Value
 endv
 )
 {
+const
 jsuword
 *
 begin
@@ -4659,6 +4663,7 @@ payloadWord
 (
 )
 ;
+const
 jsuword
 *
 end
@@ -4711,6 +4716,7 @@ end
 ;
 for
 (
+const
 jsuword
 *
 i
