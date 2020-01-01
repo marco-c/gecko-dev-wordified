@@ -1206,7 +1206,7 @@ MOZ_SVG
 #
 include
 "
-nsISVGTextContentMetrics
+nsSVGTextContainerFrame
 .
 h
 "
@@ -22446,7 +22446,7 @@ if
 ancestorFrame
 )
 {
-nsISVGTextContentMetrics
+nsSVGTextContainerFrame
 *
 metrics
 =
@@ -30345,7 +30345,7 @@ if
 ancestorFrame
 )
 {
-nsISVGTextContentMetrics
+nsSVGTextContainerFrame
 *
 metrics
 =
@@ -30412,7 +30412,7 @@ if
 ancestorFrame
 )
 {
-nsISVGTextContentMetrics
+nsSVGTextContainerFrame
 *
 metrics
 =
