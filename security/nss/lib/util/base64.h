@@ -86,9 +86,6 @@ new
 routines
 .
 *
-*
-Id
-*
 /
 #
 ifndef

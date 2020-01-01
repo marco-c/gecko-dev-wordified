@@ -70,11 +70,6 @@ MPL
 .
 *
 /
-/
-*
-Id
-*
-/
 #
 ifndef
 _H_MPLOGIC_

@@ -90,7 +90,4 @@ all
 obsolete
 .
 *
-*
-Id
-*
 /

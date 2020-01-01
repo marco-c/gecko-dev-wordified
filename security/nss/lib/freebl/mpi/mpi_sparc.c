@@ -58,11 +58,6 @@ MPL
 /
 /
 *
-Id
-*
-/
-/
-*
 Multiplication
 performance
 enhancements

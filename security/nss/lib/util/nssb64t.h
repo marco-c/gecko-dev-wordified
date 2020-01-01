@@ -69,9 +69,6 @@ encoding
 decoding
 .
 *
-*
-Id
-*
 /
 #
 ifndef

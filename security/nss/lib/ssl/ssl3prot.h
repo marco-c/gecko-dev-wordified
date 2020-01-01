@@ -91,11 +91,6 @@ MPL
 .
 *
 /
-/
-*
-Id
-*
-/
 #
 ifndef
 __ssl3proto_h_

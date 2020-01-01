@@ -82,9 +82,6 @@ Rules
 )
 .
 *
-*
-Id
-*
 /
 #
 ifndef

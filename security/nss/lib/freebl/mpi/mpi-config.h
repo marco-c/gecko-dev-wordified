@@ -63,11 +63,6 @@ MPL
 .
 *
 /
-/
-*
-Id
-*
-/
 #
 ifndef
 MPI_CONFIG_H_

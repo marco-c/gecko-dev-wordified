@@ -110,9 +110,6 @@ appropriate
 file
 .
 *
-*
-Id
-*
 /
 #
 include

@@ -125,9 +125,6 @@ as
 appropriate
 !
 *
-*
-Id
-*
 /
 #
 ifndef

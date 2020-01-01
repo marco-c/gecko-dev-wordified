@@ -63,9 +63,6 @@ CMS
 attributes
 .
 *
-*
-Id
-*
 /
 #
 include

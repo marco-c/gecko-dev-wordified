@@ -71,16 +71,6 @@ MPL
 .
 *
 /
-/
-*
-Id
-*
-/
-/
-*
-Id
-*
-/
 #
 ifdef
 FREEBL_NO_DEPEND

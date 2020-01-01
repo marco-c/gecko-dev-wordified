@@ -106,9 +106,6 @@ any
 libraries
 .
 *
-*
-Id
-*
 /
 #
 ifndef

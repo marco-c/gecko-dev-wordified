@@ -73,11 +73,6 @@ MPL
 .
 *
 /
-/
-*
-Id
-*
-/
 #
 ifndef
 _H_BBSRAND_

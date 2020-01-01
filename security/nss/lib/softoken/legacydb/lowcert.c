@@ -63,9 +63,6 @@ Certificate
 handling
 code
 *
-*
-Id
-*
 /
 #
 include

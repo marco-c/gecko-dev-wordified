@@ -85,9 +85,6 @@ way
 around
 .
 *
-*
-Id
-*
 /
 #
 include

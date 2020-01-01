@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-/
-*
-Id
-*
-/
 #
 ifndef
 _SHSIGN_H_

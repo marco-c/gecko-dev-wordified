@@ -73,9 +73,6 @@ decoding
 functions
 .
 *
-*
-Id
-*
 /
 #
 include

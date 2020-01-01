@@ -65,9 +65,6 @@ CMS
 types
 .
 *
-*
-Id
-*
 /
 #
 ifndef

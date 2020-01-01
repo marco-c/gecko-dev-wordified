@@ -66,9 +66,6 @@ CMS
 implementation
 .
 *
-*
-Id
-*
 /
 #
 ifndef

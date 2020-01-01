@@ -72,11 +72,6 @@ MPL
 .
 *
 /
-/
-*
-Id
-*
-/
 #
 ifndef
 _BLAPI_H_

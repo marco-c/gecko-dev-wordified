@@ -64,9 +64,6 @@ decoding
 verification
 .
 *
-*
-Id
-*
 /
 #
 include

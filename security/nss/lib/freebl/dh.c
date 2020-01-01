@@ -78,9 +78,6 @@ and
 verification
 .
 *
-*
-Id
-*
 /
 #
 ifdef

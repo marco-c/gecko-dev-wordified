@@ -66,9 +66,6 @@ OCSP
 types
 .
 *
-*
-Id
-*
 /
 #
 ifndef

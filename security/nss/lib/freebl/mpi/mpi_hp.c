@@ -58,11 +58,6 @@ MPL
 /
 /
 *
-Id
-*
-/
-/
-*
 This
 file
 contains

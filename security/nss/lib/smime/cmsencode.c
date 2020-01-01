@@ -63,9 +63,6 @@ CMS
 encoding
 .
 *
-*
-Id
-*
 /
 #
 include

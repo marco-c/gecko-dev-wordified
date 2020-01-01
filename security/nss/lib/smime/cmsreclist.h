@@ -56,12 +56,6 @@ MPL
 .
 *
 /
-/
-*
-*
-Id
-*
-/
 #
 ifndef
 _CMSRECLIST_H

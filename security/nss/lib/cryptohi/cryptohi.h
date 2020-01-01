@@ -72,11 +72,6 @@ MPL
 .
 *
 /
-/
-*
-Id
-*
-/
 #
 ifndef
 _CRYPTOHI_H_

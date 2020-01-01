@@ -73,9 +73,6 @@ FIPS
 3
 .
 *
-*
-Id
-*
 /
 #
 ifdef

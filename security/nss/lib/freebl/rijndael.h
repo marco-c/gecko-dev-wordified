@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-/
-*
-Id
-*
-/
 #
 ifndef
 _RIJNDAEL_H_
