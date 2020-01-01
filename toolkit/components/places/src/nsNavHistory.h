@@ -3597,6 +3597,9 @@ CreateAutoCompleteQueries
 PRBool
 mAutoCompleteOnlyTyped
 ;
+PRInt32
+mAutoCompleteMaxResults
+;
 nsCOMPtr
 <
 nsITimer
