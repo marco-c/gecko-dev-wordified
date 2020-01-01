@@ -10968,6 +10968,11 @@ JSMSG_DEPRECATED_OCTAL
 goto
 error
 ;
+flags
+|
+=
+TSF_OCTAL_CHAR
+;
 }
 if
 (
