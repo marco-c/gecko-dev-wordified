@@ -4034,7 +4034,7 @@ CairoStatus
 )
 return
 ;
-gdk_drawable_ref
+g_object_ref
 (
 drawable
 )

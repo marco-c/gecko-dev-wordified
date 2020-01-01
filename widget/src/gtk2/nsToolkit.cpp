@@ -839,7 +839,7 @@ if
 mSharedGC
 )
 {
-gdk_gc_unref
+g_object_unref
 (
 mSharedGC
 )
@@ -1069,7 +1069,7 @@ gdk_gc_new
 pixmap
 )
 ;
-gdk_pixmap_unref
+g_object_unref
 (
 pixmap
 )
@@ -1086,7 +1086,11 @@ void
 )
 {
 return
-gdk_gc_ref
+(
+GdkGC
+*
+)
+g_object_ref
 (
 mSharedGC
 )

@@ -736,7 +736,7 @@ mTextField
 ;
 GtkWidget
 *
-mOptionMenu
+mComboBox
 ;
 GtkWidget
 *

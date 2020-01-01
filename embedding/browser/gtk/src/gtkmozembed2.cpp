@@ -818,7 +818,7 @@ embed_parent_class
 GtkBinClass
 *
 )
-gtk_type_class
+g_type_class_peek
 (
 gtk_bin_get_type
 (
@@ -907,7 +907,7 @@ link_message
 )
 NULL
 NULL
-gtk_marshal_NONE__NONE
+g_cclosure_marshal_VOID__VOID
 G_TYPE_NONE
 0
 )
@@ -934,7 +934,7 @@ js_status
 )
 NULL
 NULL
-gtk_marshal_NONE__NONE
+g_cclosure_marshal_VOID__VOID
 G_TYPE_NONE
 0
 )
@@ -961,7 +961,7 @@ location
 )
 NULL
 NULL
-gtk_marshal_NONE__NONE
+g_cclosure_marshal_VOID__VOID
 G_TYPE_NONE
 0
 )
@@ -988,7 +988,7 @@ title
 )
 NULL
 NULL
-gtk_marshal_NONE__NONE
+g_cclosure_marshal_VOID__VOID
 G_TYPE_NONE
 0
 )
@@ -1015,7 +1015,7 @@ progress
 )
 NULL
 NULL
-gtk_marshal_NONE__INT_INT
+gtkmozembed_VOID__INT_INT
 G_TYPE_NONE
 2
 G_TYPE_INT
@@ -1137,7 +1137,7 @@ net_start
 )
 NULL
 NULL
-gtk_marshal_NONE__NONE
+g_cclosure_marshal_VOID__VOID
 G_TYPE_NONE
 0
 )
@@ -1164,7 +1164,7 @@ net_stop
 )
 NULL
 NULL
-gtk_marshal_NONE__NONE
+g_cclosure_marshal_VOID__VOID
 G_TYPE_NONE
 0
 )
@@ -1191,7 +1191,7 @@ new_window
 )
 NULL
 NULL
-gtk_marshal_NONE__POINTER_UINT
+gtkmozembed_VOID__POINTER_UINT
 G_TYPE_NONE
 2
 G_TYPE_POINTER
@@ -1220,7 +1220,7 @@ visibility
 )
 NULL
 NULL
-gtk_marshal_NONE__BOOL
+g_cclosure_marshal_VOID__BOOLEAN
 G_TYPE_NONE
 1
 G_TYPE_BOOLEAN
@@ -1248,7 +1248,7 @@ destroy_brsr
 )
 NULL
 NULL
-gtk_marshal_NONE__NONE
+g_cclosure_marshal_VOID__VOID
 G_TYPE_NONE
 0
 )
@@ -1305,7 +1305,7 @@ size_to
 )
 NULL
 NULL
-gtk_marshal_NONE__INT_INT
+gtkmozembed_VOID__INT_INT
 G_TYPE_NONE
 2
 G_TYPE_INT
@@ -1334,7 +1334,7 @@ dom_key_down
 )
 NULL
 NULL
-gtk_marshal_BOOL__POINTER
+gtkmozembed_BOOL__POINTER
 G_TYPE_BOOLEAN
 1
 G_TYPE_POINTER
@@ -1362,7 +1362,7 @@ dom_key_press
 )
 NULL
 NULL
-gtk_marshal_BOOL__POINTER
+gtkmozembed_BOOL__POINTER
 G_TYPE_BOOLEAN
 1
 G_TYPE_POINTER
@@ -1390,7 +1390,7 @@ dom_key_up
 )
 NULL
 NULL
-gtk_marshal_BOOL__POINTER
+gtkmozembed_BOOL__POINTER
 G_TYPE_BOOLEAN
 1
 G_TYPE_POINTER
@@ -1418,7 +1418,7 @@ dom_mouse_down
 )
 NULL
 NULL
-gtk_marshal_BOOL__POINTER
+gtkmozembed_BOOL__POINTER
 G_TYPE_BOOLEAN
 1
 G_TYPE_POINTER
@@ -1446,7 +1446,7 @@ dom_mouse_up
 )
 NULL
 NULL
-gtk_marshal_BOOL__POINTER
+gtkmozembed_BOOL__POINTER
 G_TYPE_BOOLEAN
 1
 G_TYPE_POINTER
@@ -1474,7 +1474,7 @@ dom_mouse_click
 )
 NULL
 NULL
-gtk_marshal_BOOL__POINTER
+gtkmozembed_BOOL__POINTER
 G_TYPE_BOOLEAN
 1
 G_TYPE_POINTER
@@ -1502,7 +1502,7 @@ dom_mouse_dbl_click
 )
 NULL
 NULL
-gtk_marshal_BOOL__POINTER
+gtkmozembed_BOOL__POINTER
 G_TYPE_BOOLEAN
 1
 G_TYPE_POINTER
@@ -1530,7 +1530,7 @@ dom_mouse_over
 )
 NULL
 NULL
-gtk_marshal_BOOL__POINTER
+gtkmozembed_BOOL__POINTER
 G_TYPE_BOOLEAN
 1
 G_TYPE_POINTER
@@ -1558,7 +1558,7 @@ dom_mouse_out
 )
 NULL
 NULL
-gtk_marshal_BOOL__POINTER
+gtkmozembed_BOOL__POINTER
 G_TYPE_BOOLEAN
 1
 G_TYPE_POINTER
@@ -1586,7 +1586,7 @@ security_change
 )
 NULL
 NULL
-gtk_marshal_NONE__POINTER_UINT
+gtkmozembed_VOID__POINTER_UINT
 G_TYPE_NONE
 2
 G_TYPE_POINTER
@@ -1645,7 +1645,7 @@ dom_activate
 )
 NULL
 NULL
-gtk_marshal_BOOL__POINTER
+gtkmozembed_BOOL__POINTER
 G_TYPE_BOOLEAN
 1
 G_TYPE_POINTER
@@ -1673,7 +1673,7 @@ dom_focus_in
 )
 NULL
 NULL
-gtk_marshal_BOOL__POINTER
+gtkmozembed_BOOL__POINTER
 G_TYPE_BOOLEAN
 1
 G_TYPE_POINTER
@@ -1701,7 +1701,7 @@ dom_focus_out
 )
 NULL
 NULL
-gtk_marshal_BOOL__POINTER
+gtkmozembed_BOOL__POINTER
 G_TYPE_BOOLEAN
 1
 G_TYPE_POINTER
@@ -2221,7 +2221,7 @@ child_widget
 "
 focus_out_event
 "
-GTK_SIGNAL_FUNC
+G_CALLBACK
 (
 handle_child_focus_out
 )
@@ -2238,7 +2238,7 @@ child_widget
 "
 focus_in_event
 "
-GTK_SIGNAL_FUNC
+G_CALLBACK
 (
 handle_child_focus_in
 )
@@ -4650,7 +4650,7 @@ new_window_orphan
 )
 NULL
 NULL
-gtk_marshal_NONE__POINTER_UINT
+gtkmozembed_VOID__POINTER_UINT
 G_TYPE_NONE
 2
 G_TYPE_POINTER

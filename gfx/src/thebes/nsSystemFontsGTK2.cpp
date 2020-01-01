@@ -975,7 +975,7 @@ gtk_menu_new
 (
 )
 ;
-gtk_object_ref
+g_object_ref
 (
 GTK_OBJECT
 (
@@ -983,7 +983,7 @@ menu
 )
 )
 ;
-gtk_object_sink
+g_object_ref_sink
 (
 GTK_OBJECT
 (
@@ -1000,8 +1000,12 @@ menuitem
 accel_label
 )
 ;
-gtk_menu_append
+gtk_menu_shell_append
 (
+(
+GtkMenuShell
+*
+)
 GTK_MENU
 (
 menu
@@ -1023,7 +1027,7 @@ mMenuFontName
 mMenuFontStyle
 )
 ;
-gtk_widget_unref
+g_object_unref
 (
 menu
 )

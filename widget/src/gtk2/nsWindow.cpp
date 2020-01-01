@@ -3664,7 +3664,7 @@ if
 mDragMotionTimerID
 )
 {
-gtk_timeout_remove
+g_source_remove
 (
 mDragMotionTimerID
 )
@@ -7936,7 +7936,7 @@ height
 128
 )
 {
-gdk_pixbuf_unref
+g_object_unref
 (
 pixbuf
 )
@@ -8012,7 +8012,7 @@ FALSE
 0
 )
 ;
-gdk_pixbuf_unref
+g_object_unref
 (
 pixbuf
 )
@@ -8071,7 +8071,7 @@ if
 mask
 )
 {
-gdk_pixbuf_unref
+g_object_unref
 (
 pixbuf
 )
@@ -8109,7 +8109,7 @@ g_object_unref
 mask
 )
 ;
-gdk_pixbuf_unref
+g_object_unref
 (
 pixbuf
 )
@@ -8151,7 +8151,7 @@ g_object_unref
 mask
 )
 ;
-gdk_pixbuf_unref
+g_object_unref
 (
 pixbuf
 )
@@ -8245,7 +8245,7 @@ aHotspotY
 )
 ;
 }
-gdk_pixbuf_unref
+g_object_unref
 (
 pixbuf
 )
@@ -24865,7 +24865,7 @@ maskBitmap
 0
 )
 ;
-gdk_bitmap_unref
+g_object_unref
 (
 maskBitmap
 )
@@ -27601,7 +27601,7 @@ window
 )
 ;
 }
-gdk_window_get_size
+gdk_drawable_get_size
 (
 aWindow
 &
@@ -28395,7 +28395,7 @@ if
 mask
 )
 {
-gdk_bitmap_unref
+g_object_unref
 (
 cursor
 )
@@ -28428,12 +28428,12 @@ newType
 hot_y
 )
 ;
-gdk_bitmap_unref
+g_object_unref
 (
 mask
 )
 ;
-gdk_bitmap_unref
+g_object_unref
 (
 cursor
 )
@@ -31195,7 +31195,7 @@ if
 (
 aWidget
 )
-gtk_widget_ref
+g_object_ref
 (
 aWidget
 )
@@ -31204,7 +31204,7 @@ if
 (
 mDragMotionWidget
 )
-gtk_widget_unref
+g_object_unref
 (
 mDragMotionWidget
 )
@@ -31217,7 +31217,7 @@ if
 (
 aDragContext
 )
-gdk_drag_context_ref
+g_object_ref
 (
 aDragContext
 )
@@ -31226,7 +31226,7 @@ if
 (
 mDragMotionContext
 )
-gdk_drag_context_unref
+g_object_unref
 (
 mDragMotionContext
 )
@@ -31258,7 +31258,7 @@ if
 mDragMotionTimerID
 )
 {
-gtk_timeout_remove
+g_source_remove
 (
 mDragMotionTimerID
 )
@@ -31321,7 +31321,7 @@ new
 timer
 mDragMotionTimerID
 =
-gtk_timeout_add
+g_timeout_add
 (
 100
 (
