@@ -936,6 +936,13 @@ if
 (
 !
 gToolboxChanged
+|
+|
+gToolboxDocument
+.
+defaultView
+.
+closed
 )
 return
 ;
