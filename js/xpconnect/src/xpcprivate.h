@@ -27339,17 +27339,6 @@ uintN
 index
 )
 ;
-inline
-jsval
-GetRTStringByIndex
-(
-JSContext
-*
-cx
-uintN
-index
-)
-;
 /
 /
 Wrapper
