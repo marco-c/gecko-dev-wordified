@@ -1058,7 +1058,7 @@ mPriv
 =
 priv
 ;
-WNDCLASS
+WNDCLASSW
 wc
 ;
 PIXELFORMATDESCRIPTOR
@@ -1067,12 +1067,13 @@ pfd
 if
 (
 !
-GetClassInfo
+GetClassInfoW
 (
 GetModuleHandle
 (
 NULL
 )
+L
 "
 GLEW
 "
@@ -1110,6 +1111,7 @@ wc
 .
 lpszClassName
 =
+L
 "
 GLEW
 "
@@ -1117,7 +1119,7 @@ GLEW
 if
 (
 !
-RegisterClass
+RegisterClassW
 (
 &
 wc
@@ -1146,11 +1148,13 @@ create
 window
 mGlewWindow
 =
-CreateWindow
+CreateWindowW
 (
+L
 "
 GLEW
 "
+L
 "
 GLEW
 "
