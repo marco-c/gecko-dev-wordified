@@ -673,9 +673,12 @@ writeCount
 ;
 protected
 :
-PRBool
+nsresult
 OutputScanlines
 (
+PRBool
+*
+suspend
 )
 ;
 public

@@ -2046,7 +2046,7 @@ Row
 Pass
 }
 .
-void
+nsresult
 nsGIFDecoder2
 :
 :
@@ -2085,6 +2085,9 @@ mImageFrame
 )
 )
 ;
+nsresult
+rv
+=
 img
 -
 >
@@ -2096,6 +2099,18 @@ nsImageUpdateFlags_kBitsChanged
 r
 )
 ;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+{
+return
+rv
+;
+}
 /
 /
 Offset
@@ -2146,8 +2161,11 @@ r
 )
 ;
 }
+return
+NS_OK
+;
 }
-void
+nsresult
 nsGIFDecoder2
 :
 :
@@ -2155,6 +2173,11 @@ FlushImageData
 (
 )
 {
+nsresult
+rv
+=
+NS_OK
+;
 switch
 (
 mCurrentPass
@@ -2175,6 +2198,8 @@ mCurrentRow
 -
 mLastFlushedRow
 )
+rv
+=
 FlushImageData
 (
 mLastFlushedRow
@@ -2203,6 +2228,8 @@ bottom
 &
 top
 rects
+rv
+=
 FlushImageData
 (
 0
@@ -2211,6 +2238,9 @@ mCurrentRow
 1
 )
 ;
+rv
+|
+=
 FlushImageData
 (
 mLastFlushedRow
@@ -2243,6 +2273,8 @@ push
 the
 whole
 frame
+rv
+=
 FlushImageData
 (
 0
@@ -2252,6 +2284,9 @@ height
 )
 ;
 }
+return
+rv
+;
 }
 /
 /
@@ -2394,6 +2429,8 @@ images_decoded
 mImageFrame
 )
 {
+rv
+=
 FlushImageData
 (
 )
@@ -2413,7 +2450,7 @@ _retval
 count
 ;
 return
-NS_OK
+rv
 ;
 }
 /
@@ -3626,6 +3663,9 @@ to
 flush
 first
 frame
+(
+void
+)
 FlushImageData
 (
 )
