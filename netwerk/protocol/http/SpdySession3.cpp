@@ -475,6 +475,16 @@ GenerateSettings
 (
 )
 ;
+if
+(
+!
+aHttpTransaction
+-
+>
+IsNullTransaction
+(
+)
+)
 AddStream
 (
 aHttpTransaction

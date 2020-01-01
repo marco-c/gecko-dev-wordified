@@ -1135,6 +1135,9 @@ AnalyzeFunctions
 Parser
 *
 parser
+StackFrame
+*
+callerFrame
 )
 {
 TreeContext
@@ -1190,9 +1193,6 @@ isDirectEval
 =
 !
 !
-parser
--
->
 callerFrame
 ;
 bool

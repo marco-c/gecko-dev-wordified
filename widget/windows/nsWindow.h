@@ -2734,15 +2734,6 @@ ClearCachedResources
 (
 )
 ;
-nsPopupType
-PopupType
-(
-)
-{
-return
-mPopupType
-;
-}
 protected
 :
 nsCOMPtr
@@ -2820,9 +2811,6 @@ mNativeDragTarget
 ;
 HKL
 mLastKeyboardLayout
-;
-nsPopupType
-mPopupType
 ;
 nsSizeMode
 mOldSizeMode

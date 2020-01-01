@@ -301,6 +301,10 @@ const
 PRUint32
 &
 aChromeFlags
+const
+bool
+&
+aIsBrowserFrame
 )
 ;
 virtual

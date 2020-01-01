@@ -1194,6 +1194,11 @@ if
 (
 !
 mShutdown
+&
+&
+OkToCleanup
+(
+)
 )
 Close
 (

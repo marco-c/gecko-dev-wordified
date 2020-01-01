@@ -29427,7 +29427,7 @@ r
 nsSVGIntegrationUtils
 :
 :
-GetInvalidAreaForChangedSource
+AdjustInvalidAreaForSVGEffects
 (
 this
 aDamageRect
@@ -31323,7 +31323,7 @@ r
 nsSVGIntegrationUtils
 :
 :
-ComputeFrameEffectsRect
+ComputePostEffectsVisualOverflowRect
 (
 aFrame
 r

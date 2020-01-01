@@ -10174,8 +10174,6 @@ visible
 )
 )
 {
-this
-.
 DeveloperToolbar
 .
 show
