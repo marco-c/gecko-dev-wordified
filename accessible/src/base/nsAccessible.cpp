@@ -4456,6 +4456,11 @@ nsIArray
 aOutChildren
 )
 {
+*
+aOutChildren
+=
+nsnull
+;
 nsCOMPtr
 <
 nsIMutableArray

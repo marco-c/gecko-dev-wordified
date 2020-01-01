@@ -10297,7 +10297,13 @@ children
 ;
 PRUint32
 childCount
+=
+0
 ;
+if
+(
+children
+)
 children
 -
 >
