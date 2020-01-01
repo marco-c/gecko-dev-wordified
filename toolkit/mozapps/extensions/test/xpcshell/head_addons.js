@@ -4306,7 +4306,9 @@ AM_Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+FileUtils
+.
+PERMS_DIRECTORY
 )
 ;
 var
@@ -4442,7 +4444,9 @@ AM_Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
-0644
+FileUtils
+.
+PERMS_FILE
 )
 ;
 }
@@ -4642,7 +4646,9 @@ AM_Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+FileUtils
+.
+PERMS_DIRECTORY
 )
 ;
 dir
@@ -5037,7 +5043,9 @@ AM_Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+FileUtils
+.
+PERMS_DIRECTORY
 )
 ;
 let
