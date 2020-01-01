@@ -34418,7 +34418,7 @@ numBuf
 ;
 }
 return
-JS_FALSE
+NULL
 ;
 }
 #
