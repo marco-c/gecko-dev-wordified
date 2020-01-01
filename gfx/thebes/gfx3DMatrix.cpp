@@ -6206,10 +6206,14 @@ aVal
 float
 r
 =
-NS_roundf
+floorf
 (
 *
 aVal
++
+0
+.
+5f
 )
 ;
 if
@@ -6224,7 +6228,7 @@ r
 <
 1e
 -
-4
+4f
 )
 {
 *
