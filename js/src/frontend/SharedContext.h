@@ -1025,9 +1025,6 @@ public
 :
 ContextFlags
 (
-JSContext
-*
-cx
 )
 :
 hasExplicitUseStrict
