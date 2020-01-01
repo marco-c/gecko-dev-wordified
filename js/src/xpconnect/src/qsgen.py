@@ -8975,7 +8975,9 @@ writeResultXPCInterfacesArray
 (
 f
 conf
-frozenset
+sets
+.
+ImmutableSet
 (
 resulttypes
 )
