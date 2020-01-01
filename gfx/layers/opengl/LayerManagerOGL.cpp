@@ -1380,6 +1380,15 @@ return
 false
 ;
 }
+mGLContext
+-
+>
+fBindFramebuffer
+(
+LOCAL_GL_FRAMEBUFFER
+0
+)
+;
 if
 (
 mFBOTextureTarget
