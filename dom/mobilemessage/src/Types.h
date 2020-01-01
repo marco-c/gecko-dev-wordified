@@ -193,6 +193,8 @@ eDeliveryStatus_NotApplicable
 eDeliveryStatus_Success
 eDeliveryStatus_Pending
 eDeliveryStatus_Error
+eDeliveryStatus_Reject
+eDeliveryStatus_Manual
 /
 /
 This
