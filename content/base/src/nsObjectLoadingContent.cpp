@@ -7143,6 +7143,10 @@ NS_CheckContentProcessPolicy
 (
 objectType
 mURI
+?
+mURI
+:
+mBaseURI
 doc
 -
 >
