@@ -72,6 +72,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+3
+)
+;
 debug_tab_pane
 (
 STACK_URL
