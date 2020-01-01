@@ -7501,6 +7501,11 @@ PresShellPtrKey
 *
 sLiveShells
 ;
+static
+nsIContent
+*
+gKeyDownTarget
+;
 }
 ;
 /
