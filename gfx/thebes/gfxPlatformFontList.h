@@ -662,6 +662,12 @@ sPlatformFontList
 nsnull
 ;
 }
+virtual
+~
+gfxPlatformFontList
+(
+)
+;
 /
 /
 initialize

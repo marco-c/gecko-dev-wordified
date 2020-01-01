@@ -1521,9 +1521,6 @@ virtual
 void
 FontsPrefsChanged
 (
-nsIPrefBranch
-*
-aPrefBranch
 const
 char
 *
@@ -1533,9 +1530,6 @@ aPref
 void
 SetupClearTypeParams
 (
-nsIPrefBranch
-*
-aPrefBranch
 )
 ;
 #
