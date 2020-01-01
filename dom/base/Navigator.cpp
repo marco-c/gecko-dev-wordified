@@ -1787,9 +1787,10 @@ return
 siteSpecificUA
 -
 >
-GetUserAgentForURI
+GetUserAgentForURIAndWindow
 (
 codebaseURI
+win
 aUserAgent
 )
 ;

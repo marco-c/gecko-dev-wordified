@@ -157,12 +157,13 @@ SiteSpecificUserAgent
 prototype
 =
 {
-getUserAgentForURI
+getUserAgentForURIAndWindow
 :
 function
-ssua_getUserAgentForURI
+ssua_getUserAgentForURIAndWindow
 (
 aURI
+aWindow
 )
 {
 return
