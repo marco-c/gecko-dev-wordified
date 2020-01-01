@@ -10505,17 +10505,6 @@ LApplyArgsGeneric
 apply
 )
 {
-JSContext
-*
-cx
-=
-GetIonContext
-(
-)
--
->
-cx
-;
 /
 /
 Holds
