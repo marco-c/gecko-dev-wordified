@@ -5650,7 +5650,7 @@ ReadbackProcessor
 aReadback
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 BasicLayerManager
