@@ -15266,6 +15266,9 @@ NS_ASSERTION
 format
 =
 =
+(
+GLenum
+)
 internalformat
 "
 format
