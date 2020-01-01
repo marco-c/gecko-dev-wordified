@@ -469,7 +469,7 @@ mozilla
 /
 dom
 /
-PIFrameEmbeddingParent
+PBrowserParent
 .
 h
 "
@@ -565,7 +565,7 @@ NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIPROGRESSEVENTSINK
 HttpChannelParent
 (
-PIFrameEmbeddingParent
+PBrowserParent
 *
 iframeEmbedding
 )

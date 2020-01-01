@@ -444,7 +444,7 @@ mozilla
 /
 dom
 /
-PContentProcessParent
+PContentParent
 .
 h
 "
@@ -2691,7 +2691,7 @@ mozilla
 dom
 :
 :
-PContentProcessParent
+PContentParent
 *
 aParent
 )

@@ -526,7 +526,7 @@ NeckoParent
 :
 AllocPHttpChannel
 (
-PIFrameEmbeddingParent
+PBrowserParent
 *
 iframeEmbedding
 )

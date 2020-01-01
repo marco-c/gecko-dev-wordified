@@ -453,7 +453,7 @@ mozilla
 /
 dom
 /
-PContentProcessChild
+PContentChild
 .
 h
 "
@@ -820,7 +820,7 @@ mEvent
 mTabChild
 -
 >
-SendsendEvent
+SendEvent
 (
 remoteEvent
 )
@@ -1431,7 +1431,7 @@ FocusNextElement
 (
 )
 {
-SendmoveFocus
+SendMoveFocus
 (
 PR_TRUE
 )
@@ -1448,7 +1448,7 @@ FocusPrevElement
 (
 )
 {
-SendmoveFocus
+SendMoveFocus
 (
 PR_FALSE
 )
@@ -1543,14 +1543,14 @@ aReturn
 =
 nsnull
 ;
-PIFrameEmbeddingChild
+PBrowserChild
 *
 newChild
 ;
 if
 (
 !
-CallcreateWindow
+CallCreateWindow
 (
 &
 newChild
@@ -2019,7 +2019,7 @@ bool
 TabChild
 :
 :
-RecvcreateWidget
+RecvCreateWidget
 (
 const
 MagicWindowHandle
@@ -2302,7 +2302,7 @@ bool
 TabChild
 :
 :
-destroyWidget
+DestroyWidget
 (
 )
 {
@@ -2340,7 +2340,7 @@ TabChild
 (
 )
 {
-destroyWidget
+DestroyWidget
 (
 )
 ;
@@ -2435,7 +2435,7 @@ nsresult
 aStatus
 )
 {
-SendnotifyStateChange
+SendNotifyStateChange
 (
 aStateFlags
 aStatus
@@ -2499,7 +2499,7 @@ PRInt32
 aMaxTotalProgress
 )
 {
-SendnotifyProgressChange
+SendNotifyProgressChange
 (
 aCurSelfProgress
 aMaxSelfProgress
@@ -2537,7 +2537,7 @@ message
 aMessage
 )
 ;
-SendnotifyStatusChange
+SendNotifyStatusChange
 (
 aStatus
 message
@@ -2563,7 +2563,7 @@ PRUint32
 aState
 )
 {
-SendnotifySecurityChange
+SendNotifySecurityChange
 (
 aState
 )
@@ -2605,7 +2605,7 @@ GetSpec
 uri
 )
 ;
-SendnotifyLocationChange
+SendNotifyLocationChange
 (
 uri
 )
@@ -2636,7 +2636,7 @@ PRInt64
 aMaxTotalProgress
 )
 {
-SendnotifyProgressChange
+SendNotifyProgressChange
 (
 aCurSelfProgress
 aMaxSelfProgress
@@ -2693,7 +2693,7 @@ aSameURL
 bool
 refreshAllowed
 ;
-SendrefreshAttempted
+SendRefreshAttempted
 (
 uri
 aMillis
@@ -2715,7 +2715,7 @@ bool
 TabChild
 :
 :
-RecvloadURL
+RecvLoadURL
 (
 const
 nsCString
@@ -2806,7 +2806,7 @@ bool
 TabChild
 :
 :
-Recvmove
+RecvMove
 (
 const
 PRUint32
@@ -2896,7 +2896,7 @@ bool
 TabChild
 :
 :
-Recvactivate
+RecvActivate
 (
 )
 {
@@ -2926,18 +2926,18 @@ bool
 TabChild
 :
 :
-RecvsendMouseEvent
+RecvMouseEvent
 (
 const
 nsString
 &
 aType
 const
-PRInt32
+float
 &
 aX
 const
-PRInt32
+float
 &
 aY
 const
@@ -3008,7 +3008,7 @@ bool
 TabChild
 :
 :
-RecvsendKeyEvent
+RecvKeyEvent
 (
 const
 nsString
@@ -4031,7 +4031,7 @@ bool
 TabChild
 :
 :
-RecvactivateFrameEvent
+RecvActivateFrameEvent
 (
 const
 nsString
@@ -4118,7 +4118,7 @@ bool
 TabChild
 :
 :
-RecvloadRemoteScript
+RecvLoadRemoteScript
 (
 const
 nsString
@@ -4479,7 +4479,7 @@ bool
 TabChild
 :
 :
-RecvsendAsyncMessageToChild
+RecvAsyncMessage
 (
 const
 nsString
@@ -5003,7 +5003,7 @@ aCallbackData
 )
 -
 >
-SendsendSyncMessageToParent
+SendSyncMessage
 (
 nsString
 (
@@ -5045,7 +5045,7 @@ aCallbackData
 )
 -
 >
-SendsendAsyncMessageToParent
+SendAsyncMessage
 (
 nsString
 (

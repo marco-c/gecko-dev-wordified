@@ -545,7 +545,7 @@ HttpChannelParent
 :
 HttpChannelParent
 (
-PIFrameEmbeddingParent
+PBrowserParent
 *
 iframeEmbedding
 )

@@ -474,7 +474,7 @@ mozilla
 /
 dom
 /
-ContentProcessChild
+ContentChild
 .
 h
 "
@@ -572,7 +572,7 @@ mozilla
 dom
 :
 :
-ContentProcessChild
+ContentChild
 *
 cpc
 =
@@ -582,7 +582,7 @@ mozilla
 dom
 :
 :
-ContentProcessChild
+ContentChild
 :
 :
 GetSingleton
@@ -716,7 +716,7 @@ NeckoChild
 :
 AllocPHttpChannel
 (
-PIFrameEmbeddingChild
+PBrowserChild
 *
 iframeEmbedding
 )

@@ -499,7 +499,7 @@ mozilla
 /
 dom
 /
-ContentProcessParent
+ContentParent
 .
 h
 "
@@ -530,7 +530,7 @@ mozilla
 dom
 :
 :
-ContentProcessParent
+ContentParent
 ;
 class
 ContextWrapperParent
@@ -542,12 +542,12 @@ public
 :
 ContextWrapperParent
 (
-ContentProcessParent
+ContentParent
 *
 cpp
 )
 :
-mContentProcess
+mContent
 (
 cpp
 )
@@ -618,7 +618,7 @@ RequestRunToCompletion
 )
 {
 return
-mContentProcess
+mContent
 -
 >
 RequestRunToCompletion
@@ -628,9 +628,9 @@ RequestRunToCompletion
 }
 private
 :
-ContentProcessParent
+ContentParent
 *
-mContentProcess
+mContent
 ;
 ObjectWrapperParent
 *

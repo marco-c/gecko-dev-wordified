@@ -525,7 +525,7 @@ PHttpChannelChild
 *
 AllocPHttpChannel
 (
-PIFrameEmbeddingChild
+PBrowserChild
 *
 iframeEmbedding
 )

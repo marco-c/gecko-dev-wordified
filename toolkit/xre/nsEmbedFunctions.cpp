@@ -714,7 +714,7 @@ mozilla
 /
 dom
 /
-ContentProcessProcess
+ContentProcess
 .
 h
 "
@@ -725,7 +725,7 @@ mozilla
 /
 dom
 /
-ContentProcessParent
+ContentParent
 .
 h
 "
@@ -736,7 +736,7 @@ mozilla
 /
 dom
 /
-ContentProcessChild
+ContentChild
 .
 h
 "
@@ -883,7 +883,7 @@ mozilla
 dom
 :
 :
-ContentProcessProcess
+ContentProcess
 ;
 using
 mozilla
@@ -892,7 +892,7 @@ mozilla
 dom
 :
 :
-ContentProcessParent
+ContentParent
 ;
 using
 mozilla
@@ -901,7 +901,7 @@ mozilla
 dom
 :
 :
-ContentProcessChild
+ContentChild
 ;
 using
 mozilla
@@ -2246,7 +2246,7 @@ GeckoProcessType_Content
 process
 =
 new
-ContentProcessProcess
+ContentProcess
 (
 parentHandle
 )
@@ -2897,14 +2897,14 @@ template
 struct
 RunnableMethodTraits
 <
-ContentProcessChild
+ContentChild
 >
 {
 static
 void
 RetainCallee
 (
-ContentProcessChild
+ContentChild
 *
 obj
 )
@@ -2914,7 +2914,7 @@ static
 void
 ReleaseCallee
 (
-ContentProcessChild
+ContentChild
 *
 obj
 )
@@ -3065,11 +3065,11 @@ if
 gTestShellParent
 )
 {
-ContentProcessParent
+ContentParent
 *
 parent
 =
-ContentProcessParent
+ContentParent
 :
 :
 GetSingleton
@@ -3267,7 +3267,7 @@ return
 true
 ;
 return
-ContentProcessParent
+ContentParent
 :
 :
 GetSingleton
