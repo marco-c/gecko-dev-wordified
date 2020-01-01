@@ -4932,7 +4932,7 @@ MagnifyGestureUpdate
 MagnifyGesture
 "
 "
-RotateGesture
+RotateGestureStart
 "
 "
 RotateGestureUpdate
