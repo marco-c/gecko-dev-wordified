@@ -626,6 +626,12 @@ defined
 (
 XP_MACOSX
 )
+|
+|
+defined
+(
+XP_OS2
+)
 virtual
 nsresult
 NP_GetEntryPoints
