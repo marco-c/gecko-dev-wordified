@@ -3183,7 +3183,7 @@ them
 .
 There
 are
-mutliple
+multiple
 forms
 of
 redirects

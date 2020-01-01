@@ -3585,7 +3585,7 @@ out
 for
 is
 the
-mutliple
+multiple
 inheritance
 clashes
 .
