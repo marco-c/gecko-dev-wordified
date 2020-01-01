@@ -2505,6 +2505,8 @@ BACKEND_CAIRO
 ;
 uint32_t
 contentMask
+=
+0
 ;
 if
 (
@@ -2523,7 +2525,11 @@ canvasMask
 BACKEND_DIRECT2D
 ;
 contentMask
+|
 =
+1
+<
+<
 BACKEND_DIRECT2D
 ;
 }
@@ -2536,10 +2542,6 @@ canvasMask
 <
 <
 BACKEND_SKIA
-;
-contentMask
-=
-0
 ;
 }
 InitBackendPrefs
