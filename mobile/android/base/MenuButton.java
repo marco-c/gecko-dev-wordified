@@ -473,7 +473,7 @@ R
 .
 color
 .
-highlight_dark
+highlight_menu
 )
 )
 )
@@ -506,7 +506,7 @@ R
 .
 color
 .
-highlight_dark_focused
+highlight_menu_focused
 )
 )
 )

@@ -1124,7 +1124,7 @@ R
 .
 color
 .
-highlight_dark
+highlight_tabs
 )
 )
 )
@@ -1157,7 +1157,7 @@ R
 .
 color
 .
-highlight_dark_focused
+highlight_tabs_focused
 )
 )
 )
@@ -1242,7 +1242,7 @@ R
 .
 color
 .
-highlight_dark
+highlight_tabs
 )
 )
 )
@@ -1275,7 +1275,7 @@ R
 .
 color
 .
-highlight_dark_focused
+highlight_tabs_focused
 )
 )
 )
