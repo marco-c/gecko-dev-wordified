@@ -13129,6 +13129,12 @@ link
 :
 visited
 *
+*
+[
+role
+=
+button
+]
 button
 input
 option
