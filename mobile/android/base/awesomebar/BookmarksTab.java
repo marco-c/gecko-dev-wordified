@@ -2310,8 +2310,6 @@ cursor
 updateUrl
 (
 viewHolder
-.
-urlView
 cursor
 )
 ;
