@@ -735,6 +735,9 @@ aFlags
 nsEventStatus
 *
 aEventStatus
+nsCxPusher
+*
+aPusher
 )
 ;
 NS_IMETHOD
@@ -854,6 +857,9 @@ nsPIDOMEventTarget
 aCurrentTarget
 PRUint32
 aPhaseFlags
+nsCxPusher
+*
+aPusher
 )
 ;
 nsresult
@@ -877,6 +883,8 @@ aListenerStruct
 nsISupports
 *
 aCurrentTarget
+PRBool
+aNeedsCxPush
 )
 ;
 nsListenerStruct

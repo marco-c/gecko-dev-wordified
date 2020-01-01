@@ -902,6 +902,9 @@ nsDispatchingCallback
 aCallback
 PRBool
 aMayHaveNewListenerManagers
+nsCxPusher
+*
+aPusher
 )
 ;
 /
@@ -987,6 +990,9 @@ PRUint32
 aFlags
 PRBool
 aMayHaveNewListenerManagers
+nsCxPusher
+*
+aPusher
 )
 ;
 /
@@ -1275,6 +1281,9 @@ PRUint32
 aFlags
 PRBool
 aMayHaveNewListenerManagers
+nsCxPusher
+*
+aPusher
 )
 {
 if
@@ -1384,6 +1393,7 @@ aFlags
 aVisitor
 .
 mEventStatus
+aPusher
 )
 ;
 NS_ASSERTION
@@ -1462,6 +1472,9 @@ nsDispatchingCallback
 aCallback
 PRBool
 aMayHaveNewListenerManagers
+nsCxPusher
+*
+aPusher
 )
 {
 PRUint32
@@ -1593,6 +1606,7 @@ nsEventListenerManager
 :
 :
 sCreatedCount
+aPusher
 )
 ;
 }
@@ -1788,6 +1802,7 @@ nsEventListenerManager
 :
 :
 sCreatedCount
+aPusher
 )
 ;
 }
@@ -1953,6 +1968,7 @@ nsEventListenerManager
 :
 :
 sCreatedCount
+aPusher
 )
 ;
 }
@@ -2156,6 +2172,7 @@ nsEventListenerManager
 :
 :
 sCreatedCount
+aPusher
 )
 ;
 }
@@ -3244,6 +3261,9 @@ postVisitor
 preVisitor
 )
 ;
+nsCxPusher
+pusher
+;
 rv
 =
 topEtci
@@ -3257,6 +3277,8 @@ NS_EVENT_FLAG_BUBBLE
 NS_EVENT_FLAG_CAPTURE
 aCallback
 PR_TRUE
+&
+pusher
 )
 ;
 preVisitor
