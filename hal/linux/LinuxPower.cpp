@@ -127,10 +127,6 @@ Reboot
 (
 )
 {
-sync
-(
-)
-;
 reboot
 (
 RB_AUTOBOOT
@@ -142,10 +138,6 @@ PowerOff
 (
 )
 {
-sync
-(
-)
-;
 reboot
 (
 RB_POWER_OFF
