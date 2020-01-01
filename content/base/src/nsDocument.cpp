@@ -16021,6 +16021,8 @@ here
 "
 )
 ;
+mScopeObject
+=
 mScriptObject
 =
 do_GetWeakReference
