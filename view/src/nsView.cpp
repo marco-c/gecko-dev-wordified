@@ -3702,6 +3702,13 @@ SetClientData
 nsnull
 )
 ;
+mWindow
+-
+>
+Destroy
+(
+)
+;
 NS_RELEASE
 (
 mWindow
