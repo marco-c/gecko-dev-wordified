@@ -17866,7 +17866,9 @@ op
 rt
 -
 >
-gcGrayRootsTraceOp
+gcGrayRootTracer
+.
+op
 )
 (
 *
@@ -17877,7 +17879,9 @@ gcmarker
 rt
 -
 >
-gcGrayRootsData
+gcGrayRootTracer
+.
+data
 )
 ;
 }
