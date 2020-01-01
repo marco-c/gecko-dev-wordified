@@ -1105,7 +1105,7 @@ layer_manager
 )
 -
 >
-CreateContainerLayer
+CreateShadowContainerLayer
 (
 )
 ;
