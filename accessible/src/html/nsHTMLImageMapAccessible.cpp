@@ -1001,7 +1001,7 @@ nsAccessible
 nsHTMLImageMapAccessible
 :
 :
-GetAnchor
+AnchorAt
 (
 PRUint32
 aAnchorIndex
@@ -1021,7 +1021,7 @@ nsIURI
 nsHTMLImageMapAccessible
 :
 :
-GetAnchorURI
+AnchorURIAt
 (
 PRUint32
 aAnchorIndex

@@ -1245,7 +1245,7 @@ uri
 hyperlink
 -
 >
-GetAnchorURI
+AnchorURIAt
 (
 aLinkIndex
 )
@@ -1322,7 +1322,7 @@ anchor
 hyperlink
 -
 >
-GetAnchor
+AnchorAt
 (
 aLinkIndex
 )

@@ -1347,7 +1347,7 @@ nsIURI
 nsHTMLLinkAccessible
 :
 :
-GetAnchorURI
+AnchorURIAt
 (
 PRUint32
 aAnchorIndex

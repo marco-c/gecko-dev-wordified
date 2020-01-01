@@ -1924,7 +1924,7 @@ nsIURI
 nsXULLinkAccessible
 :
 :
-GetAnchorURI
+AnchorURIAt
 (
 PRUint32
 aAnchorIndex
