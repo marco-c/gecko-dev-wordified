@@ -2938,11 +2938,9 @@ obj
 {
 if
 (
-obj
--
->
-isNative
+JS_IsNative
 (
+obj
 )
 )
 printf
@@ -3077,11 +3075,9 @@ return
 if
 (
 !
-obj
--
->
-isNative
+JS_IsNative
 (
+obj
 )
 )
 return

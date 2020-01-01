@@ -8975,9 +8975,6 @@ repatch
 label
 int
 (
-JSObjectMap
-:
-:
 INVALID_SHAPE
 )
 )
@@ -9029,9 +9026,6 @@ patchInlineShapeGuard
 repatch
 int32
 (
-JSObjectMap
-:
-:
 INVALID_SHAPE
 )
 )
@@ -9058,9 +9052,6 @@ patchExtraShapeGuard
 repatcher
 int32
 (
-JSObjectMap
-:
-:
 INVALID_SHAPE
 )
 )
