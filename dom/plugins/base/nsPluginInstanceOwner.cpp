@@ -15220,14 +15220,7 @@ Destroy
 (
 )
 {
-if
-(
-mObjectFrame
-)
-mObjectFrame
--
->
-SetInstanceOwner
+SetFrame
 (
 nullptr
 )
