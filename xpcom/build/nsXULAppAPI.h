@@ -2814,6 +2814,7 @@ GeckoProcessType_Default
 0
 GeckoProcessType_Plugin
 GeckoProcessType_Content
+GeckoProcessType_Jetpack
 GeckoProcessType_IPDLUnitTest
 GeckoProcessType_End
 GeckoProcessType_Invalid
@@ -2839,6 +2840,9 @@ plugin
 "
 "
 tab
+"
+"
+jetpack
 "
 "
 ipdlunittest
