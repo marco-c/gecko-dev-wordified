@@ -450,6 +450,12 @@ _beginthreadex
 /
 #
 if
+defined
+(
+_MSC_VER
+)
+&
+&
 _MSC_VER
 <
 =

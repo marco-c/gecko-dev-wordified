@@ -653,6 +653,12 @@ defined
 (
 __x86_64__
 )
+|
+|
+defined
+(
+__arm__
+)
 )
 #
 define
