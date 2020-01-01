@@ -554,13 +554,6 @@ h
 #
 include
 "
-gfxIImageFrame
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLCanvasElement
 .
 h
@@ -590,13 +583,6 @@ h
 include
 "
 nsIInterfaceRequestorUtils
-.
-h
-"
-#
-include
-"
-nsIImage
 .
 h
 "
