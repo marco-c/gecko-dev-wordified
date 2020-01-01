@@ -10502,7 +10502,7 @@ ones
 const
 SMART_BOOKMARKS_VERSION
 =
-2
+3
 ;
 const
 SMART_BOOKMARKS_ANNO
@@ -10794,15 +10794,6 @@ Ci
 nsINavHistoryQueryOptions
 .
 SORT_BY_DATEADDED_DESCENDING
-+
-"
-&
-excludeItemIfParentHasAnnotation
-=
-livemark
-%
-2FfeedURI
-"
 +
 "
 &
