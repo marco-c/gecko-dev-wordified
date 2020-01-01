@@ -3652,9 +3652,7 @@ NS_ASSERTION
 dbInfo
 -
 >
-objectStoreNames
-.
-Contains
+ContainsStoreName
 (
 info
 -
