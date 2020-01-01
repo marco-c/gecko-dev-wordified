@@ -917,7 +917,7 @@ fputs
 out
 )
 ;
-printf
+fputs
 (
 "
 [
@@ -926,6 +926,7 @@ values
 ]
 {
 "
+out
 )
 ;
 for
@@ -978,8 +979,9 @@ mValue
 value
 )
 ;
-printf
+fprintf
 (
+out
 "
 %
 s
@@ -1012,13 +1014,14 @@ get
 )
 ;
 }
-printf
+fputs
 (
 "
 }
 \
 n
 "
+out
 )
 ;
 }

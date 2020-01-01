@@ -2124,7 +2124,7 @@ fputs
 out
 )
 ;
-printf
+fputs
 (
 "
 [
@@ -2136,6 +2136,7 @@ rule
 \
 n
 "
+out
 )
 ;
 }

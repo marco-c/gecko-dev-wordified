@@ -358,7 +358,7 @@ fputs
 out
 )
 ;
-printf
+fputs
 (
 "
 [
@@ -371,6 +371,7 @@ rule
 \
 n
 "
+out
 )
 ;
 }
@@ -667,7 +668,7 @@ fputs
 out
 )
 ;
-printf
+fputs
 (
 "
 [
@@ -680,6 +681,7 @@ rule
 \
 n
 "
+out
 )
 ;
 }
