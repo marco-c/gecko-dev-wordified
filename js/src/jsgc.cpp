@@ -6972,12 +6972,7 @@ w
 )
 ;
 }
-#
-ifdef
-MOZ_ASAN
-JS_NEVER_INLINE
-#
-endif
+MOZ_ASAN_BLACKLIST
 static
 void
 MarkRangeConservatively
