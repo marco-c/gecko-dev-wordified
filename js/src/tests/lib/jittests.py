@@ -3914,6 +3914,8 @@ _
 for
 _
 in
+res
+.
 out
 .
 split
@@ -3924,6 +3926,8 @@ n
 '
 )
 +
+res
+.
 err
 .
 split
