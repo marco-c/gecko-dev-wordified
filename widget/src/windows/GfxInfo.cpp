@@ -2603,14 +2603,6 @@ allWindowsVersions
 ;
 static
 const
-PRInt32
-allFeatures
-=
--
-1
-;
-static
-const
 PRUint64
 allDriverVersions
 =
@@ -3254,6 +3246,9 @@ GfxDeviceFamily
 )
 devFamily
 \
+GfxDriverInfo
+:
+:
 allFeatures
 nsIGfxInfo
 :
