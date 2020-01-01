@@ -7173,16 +7173,6 @@ PropertyDescriptor
 SkipRoot
 skip
 ;
-AutoPropertyDescriptorRooter
-*
-thisDuringConstruction
-(
-)
-{
-return
-this
-;
-}
 public
 :
 AutoPropertyDescriptorRooter
@@ -7200,7 +7190,7 @@ DESCRIPTOR
 skip
 (
 cx
-thisDuringConstruction
+MOZ_THIS_IN_INITIALIZER_LIST
 (
 )
 )
@@ -7252,7 +7242,7 @@ DESCRIPTOR
 skip
 (
 cx
-thisDuringConstruction
+MOZ_THIS_IN_INITIALIZER_LIST
 (
 )
 )
