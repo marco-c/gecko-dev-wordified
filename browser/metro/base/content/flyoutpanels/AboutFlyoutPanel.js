@@ -128,7 +128,7 @@ let
 gAppUpdater
 ;
 let
-AboutFlyout
+AboutFlyoutPanel
 =
 {
 init
@@ -152,7 +152,7 @@ reportError
 Attempted
 to
 initialize
-AboutFlyout
+AboutFlyoutPanel
 more
 than
 once
@@ -193,7 +193,7 @@ label
 ]
 [
 '
-aboutFlyout
+AboutFlyoutPanel
 '
 '
 about
@@ -252,7 +252,7 @@ this
 .
 _elements
 .
-aboutFlyout
+AboutFlyoutPanel
 ;
 /
 /
