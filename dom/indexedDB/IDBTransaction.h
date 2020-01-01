@@ -505,13 +505,6 @@ h
 #
 include
 "
-nsIThreadInternal
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
@@ -641,7 +634,7 @@ IDBWrapperCache
 public
 nsIIDBTransaction
 public
-nsIThreadObserver
+nsIRunnable
 {
 friend
 class
@@ -663,7 +656,7 @@ public
 :
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIIDBTRANSACTION
-NS_DECL_NSITHREADOBSERVER
+NS_DECL_NSIRUNNABLE
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 IDBTransaction
@@ -991,9 +984,6 @@ mMode
 ;
 PRUint32
 mPendingRequests
-;
-PRUint32
-mCreatedRecursionDepth
 ;
 /
 /
