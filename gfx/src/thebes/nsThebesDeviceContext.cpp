@@ -1805,9 +1805,11 @@ IndexOf
 (
 oldfm
 )
->
+!
 =
-0
+mFontMetrics
+.
+NoIndex
 )
 {
 /
