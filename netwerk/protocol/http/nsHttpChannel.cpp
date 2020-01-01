@@ -6687,7 +6687,7 @@ NS_ABORT_IF_FALSE
 mConnectionInfo
 -
 >
-UsingSSL
+UsingConnect
 (
 )
 "
