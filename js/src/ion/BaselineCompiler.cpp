@@ -6733,7 +6733,7 @@ CopyInitializerObject
 (
 cx
 baseObject
-MaybeSingletonObject
+TenuredObject
 )
 )
 ;
@@ -7007,7 +7007,7 @@ NewBuiltinClassInstance
 cx
 &
 ObjectClass
-MaybeSingletonObject
+TenuredObject
 )
 ;
 if
