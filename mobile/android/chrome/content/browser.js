@@ -14286,13 +14286,6 @@ updateViewportSize
 (
 )
 ;
-this
-.
-updateViewport
-(
-true
-)
-;
 }
 /
 *
