@@ -1028,6 +1028,18 @@ a
 font
 format
 name
+eCSSUnit_Element
+=
+17
+/
+/
+(
+PRUnichar
+*
+)
+an
+element
+id
 eCSSUnit_Array
 =
 20
@@ -2363,7 +2375,7 @@ mUnit
 mUnit
 <
 =
-eCSSUnit_Font_Format
+eCSSUnit_Element
 ;
 }
 PRBool
