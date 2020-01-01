@@ -29386,6 +29386,15 @@ nsGkAtoms
 :
 :
 tspan
+|
+|
+aTag
+=
+=
+nsGkAtoms
+:
+:
+altGlyph
 )
 {
 NS_ASSERTION
@@ -29577,6 +29586,11 @@ SIMPLE_SVG_CREATE
 (
 a
 NS_NewSVGAFrame
+)
+SIMPLE_SVG_CREATE
+(
+altGlyph
+NS_NewSVGTSpanFrame
 )
 SIMPLE_SVG_CREATE
 (
