@@ -2508,6 +2508,9 @@ GetAnimatedTransformList
 if
 (
 thisTransformList
+&
+&
+thisTransformList
 -
 >
 IsExplicitlySet
