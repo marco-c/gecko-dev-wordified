@@ -525,6 +525,9 @@ ThebesBuffer
 class
 Transaction
 ;
+class
+SharedImage
+;
 /
 *
 *
@@ -3571,7 +3574,7 @@ PRBool
 Init
 (
 const
-SurfaceDescriptor
+SharedImage
 &
 front
 const
@@ -3602,10 +3605,10 @@ void
 Swap
 (
 const
-SurfaceDescriptor
+SharedImage
 &
 aFront
-SurfaceDescriptor
+SharedImage
 *
 aNewBack
 )

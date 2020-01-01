@@ -13974,7 +13974,7 @@ PRBool
 Init
 (
 const
-SurfaceDescriptor
+SharedImage
 &
 front
 const
@@ -13988,10 +13988,10 @@ void
 Swap
 (
 const
-SurfaceDescriptor
+SharedImage
 &
 aNewFront
-SurfaceDescriptor
+SharedImage
 *
 aNewBack
 )
@@ -14070,7 +14070,7 @@ BasicShadowImageLayer
 Init
 (
 const
-SurfaceDescriptor
+SharedImage
 &
 front
 const
@@ -14082,6 +14082,10 @@ size
 mFrontBuffer
 =
 front
+.
+get_SurfaceDescriptor
+(
+)
 ;
 mSize
 =
@@ -14106,10 +14110,10 @@ BasicShadowImageLayer
 Swap
 (
 const
-SurfaceDescriptor
+SharedImage
 &
 aNewFront
-SurfaceDescriptor
+SharedImage
 *
 aNewBack
 )
@@ -14122,6 +14126,10 @@ mFrontBuffer
 mFrontBuffer
 =
 aNewFront
+.
+get_SurfaceDescriptor
+(
+)
 ;
 }
 void

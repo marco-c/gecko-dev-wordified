@@ -1504,7 +1504,7 @@ PRBool
 Init
 (
 const
-SurfaceDescriptor
+SharedImage
 &
 aFront
 const
@@ -1518,10 +1518,10 @@ void
 Swap
 (
 const
-SurfaceDescriptor
+SharedImage
 &
 aFront
-SurfaceDescriptor
+SharedImage
 *
 aNewBack
 )

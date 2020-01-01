@@ -4931,7 +4931,7 @@ ShadowImageLayerOGL
 Init
 (
 const
-SurfaceDescriptor
+SharedImage
 &
 aFront
 const
@@ -4956,6 +4956,10 @@ ShadowLayerForwarder
 OpenDescriptor
 (
 aFront
+.
+get_SurfaceDescriptor
+(
+)
 )
 ;
 gfxSize
@@ -5006,10 +5010,10 @@ ShadowImageLayerOGL
 Swap
 (
 const
-SurfaceDescriptor
+SharedImage
 &
 aNewFront
-SurfaceDescriptor
+SharedImage
 *
 aNewBack
 )
@@ -5035,6 +5039,10 @@ ShadowLayerForwarder
 OpenDescriptor
 (
 aNewFront
+.
+get_SurfaceDescriptor
+(
+)
 )
 ;
 /
