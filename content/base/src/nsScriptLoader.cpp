@@ -5914,12 +5914,6 @@ mOriginPrincipal
 )
 ;
 }
-JS
-:
-:
-Value
-ignored
-;
 rv
 =
 context
@@ -5943,8 +5937,7 @@ aCoerceToString
 *
 /
 false
-&
-ignored
+nullptr
 )
 ;
 }
