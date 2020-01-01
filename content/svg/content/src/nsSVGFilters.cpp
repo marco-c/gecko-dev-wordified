@@ -37501,8 +37501,14 @@ viewBoxTM
 *
 xyTM
 ;
+nsRefPtr
+<
 gfxContext
+>
 ctx
+=
+new
+gfxContext
 (
 aTarget
 -
@@ -37515,7 +37521,6 @@ nsSVGUtils
 :
 CompositePatternMatrix
 (
-&
 ctx
 thebesPattern
 TM
