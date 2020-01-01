@@ -204,7 +204,7 @@ data
         
 self
 .
-assert_
+assertTrue
 (
 promptre
 .

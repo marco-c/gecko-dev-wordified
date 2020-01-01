@@ -121,15 +121,10 @@ zip
         
 self
 .
-assert_
-(
-self
-.
 dm
 .
 pushFile
 (
-            
 os
 .
 path
@@ -147,7 +142,7 @@ mybinary
 zip
 '
 )
-            
+                         
 posixpath
 .
 join
@@ -158,6 +153,5 @@ mybinary
 .
 zip
 '
-)
 )
 )

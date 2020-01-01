@@ -87,6 +87,7 @@ structure
 to
 the
 device
+.
         
 "
 "
@@ -271,11 +272,6 @@ close
 (
 )
         
-#
-push
-the
-directory
-        
 self
 .
 dm
@@ -294,12 +290,9 @@ push1
 )
 )
         
-#
-verify
-        
 self
 .
-assert_
+assertTrue
 (
             
 self
@@ -327,7 +320,7 @@ sub
         
 self
 .
-assert_
+assertTrue
 (
 self
 .

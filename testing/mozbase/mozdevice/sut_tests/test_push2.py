@@ -89,6 +89,7 @@ files
 to
 the
 device
+.
         
 "
 "
@@ -229,7 +230,7 @@ guess
         
 self
 .
-assert_
+assertTrue
 (
             
 self
@@ -255,7 +256,7 @@ sub1
         
 self
 .
-assert_
+assertTrue
 (
 self
 .
@@ -310,7 +311,7 @@ txt
         
 self
 .
-assert_
+assertTrue
 (
 self
 .
@@ -375,7 +376,7 @@ txt
         
 self
 .
-assert_
+assertTrue
 (
 self
 .
@@ -430,7 +431,7 @@ txt
         
 self
 .
-assert_
+assertTrue
 (
 self
 .
