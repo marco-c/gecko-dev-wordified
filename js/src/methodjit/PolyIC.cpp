@@ -7646,9 +7646,6 @@ start
 Jump
 shapeGuardJump
 ;
-DataLabel32
-shapeGuardData
-;
 Jump
 argsLenGuard
 ;
@@ -7780,7 +7777,7 @@ shapeGuardJump
 =
 masm
 .
-branch32WithPatch
+branch32_force32
 (
 Assembler
 :
@@ -7798,7 +7795,6 @@ shape
 (
 )
 )
-shapeGuardData
 )
 ;
 }
@@ -14267,7 +14263,7 @@ true
 #
 if
 defined
-JS_POLYIC_ELEM
+JS_POLYIC_GETELEM
 static
 void
 JS_FASTCALL
@@ -14511,6 +14507,7 @@ op
 =
 JSOP_GETELEM
 )
+{
 repatcher
 .
 relink
@@ -14530,6 +14527,7 @@ GetElement
 )
 )
 ;
+}
 else
 if
 (
@@ -14538,6 +14536,7 @@ op
 =
 JSOP_CALLELEM
 )
+{
 repatcher
 .
 relink
@@ -14557,6 +14556,7 @@ CallElement
 )
 )
 ;
+}
 }
 reset
 (
@@ -17531,6 +17531,16 @@ THROW
 ;
 }
 #
+endif
+/
+*
+JS_POLYIC_GETELEM
+*
+/
+#
+ifdef
+JS_POLYIC_SETELEM
+#
 define
 APPLY_STRICTNESS
 (
@@ -19362,7 +19372,7 @@ ic
 endif
 /
 *
-JS_POLYIC_ELEM
+JS_POLYIC_SETELEM
 *
 /
 void
@@ -19587,7 +19597,7 @@ reset
 #
 if
 defined
-JS_POLYIC_ELEM
+JS_POLYIC_GETELEM
 for
 (
 uint32
@@ -19613,6 +19623,12 @@ purge
 repatcher
 )
 ;
+#
+endif
+#
+if
+defined
+JS_POLYIC_SETELEM
 for
 (
 uint32

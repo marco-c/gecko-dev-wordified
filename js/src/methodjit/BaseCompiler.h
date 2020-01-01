@@ -1802,7 +1802,7 @@ __masm
 )
 AutoReserveICSpace
 <
-80
+96
 >
 arics
 (
