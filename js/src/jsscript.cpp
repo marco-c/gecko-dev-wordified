@@ -2194,7 +2194,7 @@ frame
 '
 s
 varobj
-thisp
+thisv
 and
 scopeChain
 .

@@ -24532,16 +24532,13 @@ cx
 )
 -
 >
-thisp
+thisv
 =
-JSVAL_TO_OBJECT
-(
 argv
 [
 -
 1
 ]
-)
 ;
 JS_ASSERT
 (
