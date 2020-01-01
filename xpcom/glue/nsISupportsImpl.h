@@ -1272,7 +1272,6 @@ stabilizeForDeletion
 (
 nsISupports
 *
-owner
 )
 {
 mTagged
