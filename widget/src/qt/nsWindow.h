@@ -1016,11 +1016,6 @@ aFullScreen
 )
 ;
 NS_IMETHOD
-Validate
-(
-)
-;
-NS_IMETHOD
 Invalidate
 (
 PRBool
