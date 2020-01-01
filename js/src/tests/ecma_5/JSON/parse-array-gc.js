@@ -208,6 +208,17 @@ TEST
 var
 x
 ;
+if
+(
+typeof
+gczeal
+=
+=
+=
+"
+function
+"
+)
 gczeal
 (
 2
