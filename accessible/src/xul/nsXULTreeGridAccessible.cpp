@@ -5578,7 +5578,10 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+mDoc
+-
+>
+PresContext
 (
 )
 ;
