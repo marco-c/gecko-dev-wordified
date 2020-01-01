@@ -20889,6 +20889,16 @@ return
 NS_OK
 ;
 }
+if
+(
+!
+aCallback
+)
+{
+return
+NS_ERROR_XPC_BAD_CONVERT_JS
+;
+}
 mDoc
 -
 >
