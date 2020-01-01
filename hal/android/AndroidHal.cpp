@@ -444,6 +444,13 @@ h
 #
 include
 "
+HalImpl
+.
+h
+"
+#
+include
+"
 WindowIdentifier
 .
 h

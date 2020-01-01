@@ -450,6 +450,13 @@ h
 #
 include
 "
+HalImpl
+.
+h
+"
+#
+include
+"
 nsITimer
 .
 h
