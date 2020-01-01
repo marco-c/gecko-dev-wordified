@@ -645,6 +645,17 @@ menubar
 *
 /
 toolbar
+menubar
+{
+-
+moz
+-
+appearance
+:
+toolbar
+;
+}
+toolbar
 {
 min
 -

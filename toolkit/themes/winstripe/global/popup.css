@@ -591,9 +591,16 @@ menupopup
 popup
 panel
 {
+-
+moz
+-
+appearance
+:
+menupopup
+;
 border
 :
-2px
+3px
 solid
 transparent
 ;
@@ -608,6 +615,7 @@ colors
 :
 ThreeDLightShadow
 ThreeDHighlight
+ThreeDFace
 ;
 -
 moz
@@ -620,6 +628,7 @@ colors
 :
 ThreeDLightShadow
 ThreeDHighlight
+ThreeDFace
 ;
 -
 moz
@@ -632,6 +641,7 @@ colors
 :
 ThreeDDarkShadow
 ThreeDShadow
+ThreeDFace
 ;
 -
 moz
@@ -644,10 +654,11 @@ colors
 :
 ThreeDDarkShadow
 ThreeDShadow
+ThreeDFace
 ;
 padding
 :
-1px
+0px
 ;
 min
 -
