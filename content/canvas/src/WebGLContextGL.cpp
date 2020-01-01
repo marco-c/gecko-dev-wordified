@@ -2634,7 +2634,7 @@ if
 error
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 bufferData
@@ -2861,7 +2861,7 @@ if
 error
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 bufferData
@@ -3052,7 +3052,7 @@ if
 error
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 bufferData
@@ -5581,7 +5581,7 @@ if
 error
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 copyTexImage2D
@@ -19474,7 +19474,7 @@ IsCallerTrustedForRead
 )
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 ReadPixels
@@ -21501,7 +21501,7 @@ if
 error
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 renderbufferStorage
@@ -22589,7 +22589,7 @@ rv
 subsumes
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 It
@@ -22714,7 +22714,7 @@ IsWriteOnly
 )
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 The
@@ -25646,7 +25646,7 @@ WorkAroundDriverBugs
 )
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 validateProgram
@@ -30145,7 +30145,7 @@ if
 error
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 texImage2D

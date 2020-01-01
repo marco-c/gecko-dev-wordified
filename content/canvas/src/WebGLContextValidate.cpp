@@ -3139,7 +3139,7 @@ error
 LOCAL_GL_NO_ERROR
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 GL
@@ -3311,7 +3311,7 @@ mGLMaxVertexAttribs
 8
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 GL_MAX_VERTEX_ATTRIBS
@@ -3402,7 +3402,7 @@ mGLMaxTextureUnits
 8
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS
@@ -3678,7 +3678,7 @@ error
 LOCAL_GL_NO_ERROR
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 GL
@@ -3812,7 +3812,7 @@ break
 ;
 default
 :
-LogMessage
+GenerateWarning
 (
 "
 GL
@@ -4152,7 +4152,7 @@ ShInitialize
 )
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 GLSL
@@ -4227,7 +4227,7 @@ error
 LOCAL_GL_NO_ERROR
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 GL

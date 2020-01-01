@@ -8427,7 +8427,7 @@ console
 logging
 helpers
 void
-LogMessage
+GenerateWarning
 (
 const
 char
@@ -8439,7 +8439,7 @@ fmt
 )
 ;
 void
-LogMessage
+GenerateWarning
 (
 const
 char
@@ -11876,7 +11876,7 @@ IsMipmapTexture2DComplete
 mContext
 -
 >
-LogMessage
+GenerateWarning
 (
 "
 %
@@ -11937,7 +11937,7 @@ IsPowerOfTwo
 mContext
 -
 >
-LogMessage
+GenerateWarning
 (
 "
 %
@@ -12001,7 +12001,7 @@ IsPositive
 mContext
 -
 >
-LogMessage
+GenerateWarning
 (
 "
 %
@@ -12052,7 +12052,7 @@ IsPowerOfTwo
 mContext
 -
 >
-LogMessage
+GenerateWarning
 (
 "
 %
@@ -12160,7 +12160,7 @@ IsMipmapCubeComplete
 mContext
 -
 >
-LogMessage
+GenerateWarning
 (
 "
 %
@@ -12216,7 +12216,7 @@ areAllLevel0ImagesPOT
 mContext
 -
 >
-LogMessage
+GenerateWarning
 (
 "
 %
@@ -12282,7 +12282,7 @@ IsCubeComplete
 mContext
 -
 >
-LogMessage
+GenerateWarning
 (
 "
 %
@@ -12344,7 +12344,7 @@ areAllLevel0ImagesPOT
 mContext
 -
 >
-LogMessage
+GenerateWarning
 (
 "
 %

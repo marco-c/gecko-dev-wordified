@@ -227,7 +227,7 @@ void
 WebGLContext
 :
 :
-LogMessage
+GenerateWarning
 (
 const
 char
@@ -247,7 +247,7 @@ ap
 fmt
 )
 ;
-LogMessage
+GenerateWarning
 (
 fmt
 ap
@@ -263,7 +263,7 @@ void
 WebGLContext
 :
 :
-LogMessage
+GenerateWarning
 (
 const
 char
@@ -626,7 +626,7 @@ va
 fmt
 )
 ;
-LogMessage
+GenerateWarning
 (
 fmt
 va
@@ -668,7 +668,7 @@ va
 fmt
 )
 ;
-LogMessage
+GenerateWarning
 (
 fmt
 va
@@ -710,7 +710,7 @@ va
 fmt
 )
 ;
-LogMessage
+GenerateWarning
 (
 fmt
 va
@@ -752,7 +752,7 @@ va
 fmt
 )
 ;
-LogMessage
+GenerateWarning
 (
 fmt
 va
@@ -794,7 +794,7 @@ va
 fmt
 )
 ;
-LogMessage
+GenerateWarning
 (
 fmt
 va
@@ -836,7 +836,7 @@ va
 fmt
 )
 ;
-LogMessage
+GenerateWarning
 (
 fmt
 va
