@@ -7764,7 +7764,7 @@ range
 )
 -
 >
-isInt32
+hasInt32Bounds
 (
 )
 )
@@ -8393,7 +8393,7 @@ range
 )
 -
 >
-isInt32
+hasInt32Bounds
 (
 )
 )
@@ -8444,7 +8444,7 @@ range
 )
 -
 >
-isInt32
+hasInt32Bounds
 (
 )
 )
@@ -8838,7 +8838,7 @@ range
 )
 -
 >
-isInt32
+hasInt32Bounds
 (
 )
 ;
@@ -8872,7 +8872,7 @@ range
 )
 -
 >
-isInt32
+hasInt32Bounds
 (
 )
 ;
