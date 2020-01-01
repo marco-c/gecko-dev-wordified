@@ -500,6 +500,15 @@ Assertions
 h
 "
 #
+include
+"
+mozilla
+/
+Types
+.
+h
+"
+#
 ifdef
 __cplusplus
 #
@@ -933,7 +942,10 @@ Using_RAII_classes_in_Mozilla
 *
 /
 class
+MFBT_API
+(
 GuardObjectNotifier
+)
 {
 private
 :
@@ -980,7 +992,10 @@ statementIsDone
 }
 ;
 class
+MFBT_API
+(
 GuardObjectNotificationReceiver
+)
 {
 private
 :
