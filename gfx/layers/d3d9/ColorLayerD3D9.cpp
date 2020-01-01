@@ -467,6 +467,12 @@ ColorLayerD3D9
 :
 RenderLayer
 (
+float
+aOpacity
+const
+gfx3DMatrix
+&
+aTransform
 )
 {
 /
@@ -522,6 +528,13 @@ height
 1
 )
 ;
+gfx3DMatrix
+transform
+=
+mTransform
+*
+aTransform
+;
 device
 (
 )
@@ -531,7 +544,7 @@ SetVertexShaderConstantF
 (
 CBmLayerTransform
 &
-mTransform
+transform
 .
 _11
 4
@@ -571,6 +584,8 @@ r
 GetOpacity
 (
 )
+*
+aOpacity
 )
 ;
 color
@@ -589,6 +604,8 @@ g
 GetOpacity
 (
 )
+*
+aOpacity
 )
 ;
 color
@@ -607,6 +624,8 @@ b
 GetOpacity
 (
 )
+*
+aOpacity
 )
 ;
 color
@@ -625,6 +644,8 @@ a
 GetOpacity
 (
 )
+*
+aOpacity
 )
 ;
 device

@@ -1633,6 +1633,12 @@ CanvasLayerD3D9
 :
 RenderLayer
 (
+float
+aOpacity
+const
+gfx3DMatrix
+&
+aTransform
 )
 {
 if
@@ -1726,6 +1732,13 @@ quad
 1
 )
 ;
+gfx3DMatrix
+transform
+=
+mTransform
+*
+aTransform
+;
 device
 (
 )
@@ -1735,7 +1748,7 @@ SetVertexShaderConstantF
 (
 CBmLayerTransform
 &
-mTransform
+transform
 .
 _11
 4
