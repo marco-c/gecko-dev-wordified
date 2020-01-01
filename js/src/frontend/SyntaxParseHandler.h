@@ -368,10 +368,6 @@ SyntaxParseHandler
 >
 *
 pc
-ParseNodeKind
-kind
-=
-PNK_NAME
 )
 {
 lastAtom
@@ -404,10 +400,8 @@ PLACEHOLDER
 ;
 }
 Node
-newAtom
+newIdentifier
 (
-ParseNodeKind
-kind
 JSAtom
 *
 atom

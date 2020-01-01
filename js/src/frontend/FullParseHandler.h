@@ -550,10 +550,6 @@ FullParseHandler
 >
 *
 pc
-ParseNodeKind
-kind
-=
-PNK_NAME
 )
 {
 ParseNode
@@ -565,7 +561,7 @@ NameNode
 :
 create
 (
-kind
+PNK_NAME
 name
 this
 pc
@@ -663,10 +659,8 @@ dn
 }
 ParseNode
 *
-newAtom
+newIdentifier
 (
-ParseNodeKind
-kind
 JSAtom
 *
 atom
@@ -682,7 +676,7 @@ new_
 NullaryNode
 >
 (
-kind
+PNK_NAME
 JSOP_NOP
 pos
 atom
