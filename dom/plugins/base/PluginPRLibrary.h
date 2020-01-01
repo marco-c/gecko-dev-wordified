@@ -233,10 +233,6 @@ mNPP_New
 (
 nsnull
 )
-mNPP_GetValue
-(
-nsnull
-)
 mNPP_ClearSiteData
 (
 nsnull
@@ -832,9 +828,6 @@ mNP_GetEntryPoints
 endif
 NPP_NewProcPtr
 mNPP_New
-;
-NPP_GetValueProcPtr
-mNPP_GetValue
 ;
 NPP_ClearSiteDataPtr
 mNPP_ClearSiteData
