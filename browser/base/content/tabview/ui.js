@@ -3995,7 +3995,7 @@ true
 ;
 gBrowser
 .
-contentWindow
+selectedBrowser
 .
 focus
 (
