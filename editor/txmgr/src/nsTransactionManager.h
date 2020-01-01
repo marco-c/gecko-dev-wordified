@@ -475,9 +475,6 @@ nsTransactionItem
 class
 nsTransactionStack
 ;
-class
-nsTransactionRedoStack
-;
 /
 *
 *
@@ -510,7 +507,7 @@ mDoStack
 nsTransactionStack
 mUndoStack
 ;
-nsTransactionRedoStack
+nsTransactionStack
 mRedoStack
 ;
 nsCOMArray

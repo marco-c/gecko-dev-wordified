@@ -453,9 +453,6 @@ class
 nsTransactionStack
 ;
 class
-nsTransactionRedoStack
-;
-class
 nsTransactionManager
 ;
 class
@@ -471,7 +468,7 @@ nsTransactionStack
 *
 mUndoStack
 ;
-nsTransactionRedoStack
+nsTransactionStack
 *
 mRedoStack
 ;
