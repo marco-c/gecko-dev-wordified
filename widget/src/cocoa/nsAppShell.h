@@ -475,6 +475,12 @@ nsBaseAppShell
 {
 public
 :
+NS_IMETHODIMP
+ResumeNative
+(
+void
+)
+;
 nsAppShell
 (
 )
