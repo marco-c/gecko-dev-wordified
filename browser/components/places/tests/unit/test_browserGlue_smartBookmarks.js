@@ -2026,6 +2026,16 @@ run_test
 {
 /
 /
+XXX
+disabled
+due
+to
+bug
+510219
+return
+;
+/
+/
 Clean
 up
 database
