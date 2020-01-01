@@ -2506,7 +2506,7 @@ GetStyleContext
 )
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 =

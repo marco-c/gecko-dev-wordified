@@ -5834,7 +5834,7 @@ pseudoTag
 aStyleContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 ;

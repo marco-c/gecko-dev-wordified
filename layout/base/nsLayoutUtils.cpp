@@ -9496,7 +9496,7 @@ GetStyleContext
 )
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 ;

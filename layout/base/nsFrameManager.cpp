@@ -3746,7 +3746,7 @@ NS_PRECONDITION
 aStyleContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 "
@@ -5100,7 +5100,7 @@ pseudoTag
 aContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 ;
@@ -6135,7 +6135,7 @@ aNewStyleContext
 )
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 (
@@ -6601,7 +6601,7 @@ nextContinuationContext
 oldContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 !
@@ -6609,7 +6609,7 @@ GetPseudoType
 nextContinuationContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 |
@@ -6676,7 +6676,7 @@ GetStyleContext
 )
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 =
@@ -6684,7 +6684,7 @@ GetPseudoType
 oldContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 &
@@ -8226,7 +8226,7 @@ pseudoTag
 oldContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 ;
@@ -8713,7 +8713,7 @@ nextContinuationContext
 oldContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 !
@@ -8721,7 +8721,7 @@ GetPseudoType
 nextContinuationContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 |
@@ -8799,7 +8799,7 @@ GetStyleContext
 )
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 =
@@ -8807,7 +8807,7 @@ GetPseudoType
 oldContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 &
@@ -9455,7 +9455,7 @@ extraPseudoTag
 oldExtraContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 ;
@@ -9715,7 +9715,7 @@ undisplayed
 mStyle
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 "

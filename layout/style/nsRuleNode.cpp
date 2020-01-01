@@ -10612,7 +10612,7 @@ pseudoType
 aContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 ;
@@ -12042,7 +12042,7 @@ parentContext
 parentContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 =
@@ -14597,7 +14597,7 @@ parentContext
 parentContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 =
@@ -26741,7 +26741,7 @@ firstLetter
 aContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 )

@@ -5294,7 +5294,7 @@ GetParent
 styleContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 styleContext

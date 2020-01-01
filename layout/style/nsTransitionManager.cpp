@@ -2261,7 +2261,7 @@ NS_PRECONDITION
 aOldStyleContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 =
@@ -2269,7 +2269,7 @@ GetPseudoType
 aNewStyleContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 "
@@ -2466,7 +2466,7 @@ pseudo
 aNewStyleContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 ;
@@ -2729,7 +2729,7 @@ aElement
 aNewStyleContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 PR_FALSE
@@ -4268,7 +4268,7 @@ aElement
 aNewStyleContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 PR_TRUE

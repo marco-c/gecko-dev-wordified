@@ -1497,7 +1497,7 @@ SetInFirstLetter
 mStyleContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 =

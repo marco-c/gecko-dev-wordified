@@ -1447,7 +1447,7 @@ GetStyleContext
 )
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 )
