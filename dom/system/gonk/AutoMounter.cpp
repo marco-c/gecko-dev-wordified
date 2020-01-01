@@ -3551,6 +3551,14 @@ NameStr
 vol
 -
 >
+SetIsSharing
+(
+true
+)
+;
+vol
+-
+>
 StartUnmount
 (
 mResponseCallback

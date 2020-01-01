@@ -1515,6 +1515,9 @@ sVolumeNameCache
 #
 ifdef
 MOZ_WIDGET_GONK
+nsString
+mLastStatus
+;
 void
 DispatchMountChangeEvent
 (
