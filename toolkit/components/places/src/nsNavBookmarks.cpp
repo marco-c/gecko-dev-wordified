@@ -1157,6 +1157,10 @@ a
 dateAdded
 )
 DESC
+a
+.
+id
+DESC
 "
 )
 getter_AddRefs
