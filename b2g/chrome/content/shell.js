@@ -3413,6 +3413,12 @@ install
 false
 )
 ;
+DOMApplicationRegistry
+.
+allAppsLaunchable
+=
+true
+;
 }
 registerInstaller
 :
