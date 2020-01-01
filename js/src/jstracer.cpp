@@ -14136,6 +14136,7 @@ JS_ASSERT
 nvals
 =
 =
+unsigned
 (
 (
 next
