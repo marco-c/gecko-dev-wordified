@@ -22658,7 +22658,7 @@ endif
 =
 =
 =
-nsIFocusListener
+nsIDOMFocusListener
 =
 =
 =
