@@ -511,6 +511,14 @@ MIRGraph
 graph
 )
 ;
+bool
+BuildDominatorTree
+(
+MIRGraph
+&
+graph
+)
+;
 }
 /
 /
