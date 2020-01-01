@@ -818,6 +818,7 @@ return
 mChannelCount
 ;
 }
+virtual
 void
 SetChannelCount
 (
