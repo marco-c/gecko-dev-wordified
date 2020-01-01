@@ -248,6 +248,15 @@ h
 #
 include
 "
+mozilla
+/
+Services
+.
+h
+"
+#
+include
+"
 nsAlgorithm
 .
 h

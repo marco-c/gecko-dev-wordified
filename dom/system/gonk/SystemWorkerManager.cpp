@@ -288,6 +288,13 @@ h
 #
 include
 "
+nsIObserverService
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
