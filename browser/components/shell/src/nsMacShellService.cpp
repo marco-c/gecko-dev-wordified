@@ -330,7 +330,7 @@ is
 expected
 to
 return
-nullptr
+NULL
 only
 if
 the
@@ -383,7 +383,7 @@ bundle
 ID
 (
 or
-nullptr
+NULL
 if
 it
 has
@@ -1486,7 +1486,7 @@ get
 )
 &
 pictureRef
-nullptr
+NULL
 )
 ;
 if
@@ -1849,7 +1849,7 @@ mailto
 :
 "
 )
-nullptr
+NULL
 )
 ;
 err
@@ -1860,7 +1860,7 @@ LSGetApplicationForURL
 (
 tempURL
 kLSRolesAll
-nullptr
+NULL
 &
 appURL
 )
@@ -1897,7 +1897,7 @@ news
 :
 "
 )
-nullptr
+NULL
 )
 ;
 err
@@ -1908,7 +1908,7 @@ LSGetApplicationForURL
 (
 tempURL
 kLSRolesAll
-nullptr
+NULL
 &
 appURL
 )
@@ -1941,9 +1941,9 @@ APPL
 '
 kcmr
 '
-nullptr
+NULL
 kLSRolesAll
-nullptr
+NULL
 &
 appURL
 )
@@ -2093,7 +2093,7 @@ err
 LSOpenCFURLRef
 (
 appURL
-nullptr
+NULL
 )
 ;
 rv
@@ -2300,7 +2300,7 @@ uri
 :
 CFURLCreateWithBytes
 (
-nullptr
+NULL
 uriString
 aURI
 .
@@ -2308,7 +2308,7 @@ Length
 (
 )
 kCFStringEncodingUTF8
-nullptr
+NULL
 )
 ;
 if
@@ -2326,7 +2326,7 @@ uris
 :
 CFArrayCreate
 (
-nullptr
+NULL
 (
 const
 void
@@ -2336,7 +2336,7 @@ void
 &
 uri
 1
-nullptr
+NULL
 )
 ;
 if
@@ -2375,7 +2375,7 @@ launchSpec
 .
 passThruParams
 =
-nullptr
+NULL
 ;
 launchSpec
 .
@@ -2387,7 +2387,7 @@ launchSpec
 .
 asyncRefCon
 =
-nullptr
+NULL
 ;
 OSErr
 err
@@ -2398,7 +2398,7 @@ LSOpenFromURLSpec
 (
 &
 launchSpec
-nullptr
+NULL
 )
 ;
 :
@@ -2484,7 +2484,7 @@ kCFStringEncodingASCII
 CFURLRef
 defaultHandlerURL
 =
-nullptr
+NULL
 ;
 OSStatus
 status
@@ -2495,11 +2495,11 @@ LSFindApplicationForInfo
 (
 kLSUnknownCreator
 defaultHandlerID
-nullptr
+NULL
 /
 /
 inName
-nullptr
+NULL
 /
 /
 outAppRef
