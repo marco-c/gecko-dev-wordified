@@ -2616,7 +2616,7 @@ IsInNativeAnonymousSubtree
 {
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 newTarget
 =
