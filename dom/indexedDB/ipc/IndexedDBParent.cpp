@@ -1084,7 +1084,6 @@ OpenInternal
 aName
 aVersion
 false
-nullptr
 getter_AddRefs
 (
 request
@@ -1220,7 +1219,6 @@ OpenInternal
 aName
 0
 true
-nullptr
 getter_AddRefs
 (
 request
@@ -10601,7 +10599,6 @@ OpenCursorInternal
 (
 keyRange
 direction
-nullptr
 getter_AddRefs
 (
 request

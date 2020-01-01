@@ -503,9 +503,6 @@ IDBKeyRange
 aKeyRange
 size_t
 aDirection
-JSContext
-*
-aCx
 IDBRequest
 *
 *

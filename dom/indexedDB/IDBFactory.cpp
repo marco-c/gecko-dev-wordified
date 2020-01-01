@@ -2980,9 +2980,6 @@ nsACString
 aASCIIOrigin
 bool
 aDeleting
-JSContext
-*
-aCallingCx
 IDBOpenDBRequest
 *
 *
@@ -3017,6 +3014,9 @@ these
 "
 )
 ;
+AutoJSContext
+cx
+;
 nsCOMPtr
 <
 nsPIDOMWindow
@@ -3033,7 +3033,7 @@ JSObject
 >
 scriptOwner
 (
-aCallingCx
+cx
 )
 ;
 StoragePrivilege
@@ -3098,7 +3098,6 @@ Create
 this
 window
 scriptOwner
-aCallingCx
 )
 ;
 NS_ENSURE_TRUE
@@ -3600,9 +3599,6 @@ IDBFactory
 :
 OpenForPrincipal
 (
-JSContext
-*
-aCx
 nsIPrincipal
 *
 aPrincipal
@@ -3655,7 +3651,6 @@ MOZ_CRASH
 return
 Open
 (
-aCx
 aPrincipal
 aName
 aVersion
@@ -3673,9 +3668,6 @@ IDBFactory
 :
 DeleteForPrincipal
 (
-JSContext
-*
-aCx
 nsIPrincipal
 *
 aPrincipal
@@ -3721,7 +3713,6 @@ MOZ_CRASH
 return
 Open
 (
-aCx
 aPrincipal
 aName
 Optional
@@ -3744,9 +3735,6 @@ IDBFactory
 :
 Open
 (
-JSContext
-*
-aCx
 nsIPrincipal
 *
 aPrincipal
@@ -3881,7 +3869,6 @@ aName
 version
 origin
 aDelete
-aCx
 getter_AddRefs
 (
 request

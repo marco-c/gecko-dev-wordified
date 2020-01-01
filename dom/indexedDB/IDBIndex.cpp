@@ -1354,9 +1354,6 @@ GenerateRequest
 IDBIndex
 *
 aIndex
-JSContext
-*
-aCx
 )
 {
 NS_ASSERTION
@@ -1407,7 +1404,6 @@ Create
 aIndex
 database
 transaction
-aCx
 )
 ;
 }
@@ -1873,7 +1869,6 @@ request
 GenerateRequest
 (
 this
-aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -2093,7 +2088,6 @@ request
 GenerateRequest
 (
 this
-aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -2315,7 +2309,6 @@ request
 GenerateRequest
 (
 this
-aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -2541,7 +2534,6 @@ request
 GenerateRequest
 (
 this
-aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -2765,7 +2757,6 @@ request
 GenerateRequest
 (
 this
-aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -3004,7 +2995,6 @@ request
 GenerateRequest
 (
 this
-aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -3175,9 +3165,6 @@ IDBKeyRange
 aKeyRange
 size_t
 aDirection
-JSContext
-*
-aCx
 IDBRequest
 *
 *
@@ -3248,7 +3235,6 @@ request
 GenerateRequest
 (
 this
-aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -4809,7 +4795,6 @@ request
 GenerateRequest
 (
 this
-aCx
 )
 ;
 NS_ENSURE_TRUE
