@@ -4606,7 +4606,7 @@ XHTML
 .
 this
 .
-browser
+iframe
 =
 createAndAppendElement
 (
@@ -4709,7 +4709,7 @@ null
 ;
 self
 .
-browser
+iframe
 =
 null
 ;
@@ -4799,7 +4799,7 @@ document
 =
 self
 .
-browser
+iframe
 .
 contentWindow
 .
@@ -7576,7 +7576,7 @@ the
 NetworkPanel
 '
 s
-browser
+iframe
 .
 *
 *
@@ -7597,7 +7597,9 @@ NP_update
 *
 After
 the
-browser
+iframe
+'
+s
 contentWindow
 is
 ready
