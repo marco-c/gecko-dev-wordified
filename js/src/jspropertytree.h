@@ -904,15 +904,6 @@ js
 :
 Shape
 *
-newShapeUnchecked
-(
-)
-;
-js
-:
-:
-Shape
-*
 newShape
 (
 JSContext

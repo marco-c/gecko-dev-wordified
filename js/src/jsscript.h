@@ -1285,6 +1285,9 @@ Bindings
 JSContext
 *
 cx
+EmptyShape
+*
+emptyCallShape
 )
 ;
 /
