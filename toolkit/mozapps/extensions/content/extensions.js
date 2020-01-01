@@ -13537,7 +13537,7 @@ aSelectedItem
 /
 /
 Flush
-preferece
+preference
 change
 to
 disk
