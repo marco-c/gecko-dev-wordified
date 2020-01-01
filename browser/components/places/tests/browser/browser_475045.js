@@ -69,7 +69,7 @@ using
 loadSubScript
 .
 var
-chromeUtils
+ChromeUtils
 =
 {
 }
@@ -125,7 +125,7 @@ ChromeUtils
 .
 js
 "
-chromeUtils
+ChromeUtils
 )
 ;
 function
@@ -388,7 +388,7 @@ makeURI
 uriSpec
 )
 ;
-chromeUtils
+ChromeUtils
 .
 synthesizeDrop
 (
@@ -413,7 +413,6 @@ uriSpec
 ]
 aEffect
 window
-EventUtils
 )
 ;
 /

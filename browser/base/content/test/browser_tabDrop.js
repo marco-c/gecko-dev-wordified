@@ -104,7 +104,7 @@ mozIJSSubScriptLoader
 )
 ;
 let
-chromeUtils
+ChromeUtils
 =
 {
 }
@@ -130,7 +130,7 @@ ChromeUtils
 .
 js
 "
-chromeUtils
+ChromeUtils
 )
 ;
 let
@@ -412,7 +412,7 @@ open
 new
 tabs
 .
-chromeUtils
+ChromeUtils
 .
 synthesizeDrop
 (
@@ -438,7 +438,6 @@ text
 link
 "
 window
-EventUtils
 )
 ;
 }

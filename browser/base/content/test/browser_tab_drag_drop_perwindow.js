@@ -96,7 +96,7 @@ mozIJSSubScriptLoader
 )
 ;
 let
-chromeUtils
+ChromeUtils
 =
 {
 }
@@ -122,7 +122,7 @@ ChromeUtils
 .
 js
 "
-chromeUtils
+ChromeUtils
 )
 ;
 function
@@ -228,7 +228,7 @@ true
 let
 effect
 =
-chromeUtils
+ChromeUtils
 .
 synthesizeDrop
 (
@@ -248,7 +248,6 @@ normalTab
 ]
 null
 aNormalWindow
-EventUtils
 aPrivateWindow
 )
 ;
@@ -277,7 +276,7 @@ window
 ;
 effect
 =
-chromeUtils
+ChromeUtils
 .
 synthesizeDrop
 (
@@ -297,7 +296,6 @@ privateTab
 ]
 null
 aPrivateWindow
-EventUtils
 aNormalWindow
 )
 ;

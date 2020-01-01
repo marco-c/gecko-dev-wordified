@@ -40,7 +40,7 @@ using
 loadSubScript
 .
 var
-chromeUtils
+ChromeUtils
 =
 {
 }
@@ -96,7 +96,7 @@ ChromeUtils
 .
 js
 "
-chromeUtils
+ChromeUtils
 )
 ;
 function
@@ -1195,7 +1195,7 @@ handlers
 for
 textboxes
 .
-chromeUtils
+ChromeUtils
 .
 synthesizeDrop
 (
@@ -1228,7 +1228,6 @@ Text
 copy
 "
 window
-EventUtils
 )
 ;
 doOnloadOnce
@@ -1274,7 +1273,7 @@ init
 (
 )
 ;
-chromeUtils
+ChromeUtils
 .
 synthesizeDrop
 (
@@ -1313,7 +1312,6 @@ Text
 copy
 "
 window
-EventUtils
 )
 ;
 doOnloadOnce
@@ -1365,7 +1363,7 @@ init
 (
 )
 ;
-chromeUtils
+ChromeUtils
 .
 synthesizeDrop
 (
@@ -1407,7 +1405,6 @@ org
 copy
 "
 window
-EventUtils
 )
 ;
 is
