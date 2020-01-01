@@ -5548,7 +5548,7 @@ CreateSlots
 ;
 nsDOMSlots
 *
-GetDOMSlots
+DOMSlots
 (
 )
 {
