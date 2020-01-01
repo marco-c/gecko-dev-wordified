@@ -906,7 +906,7 @@ aReliable
 seconds
 >
 =
-1
+3
 .
 0
 ;
