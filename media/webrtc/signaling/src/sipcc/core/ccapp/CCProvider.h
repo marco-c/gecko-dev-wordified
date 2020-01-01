@@ -542,7 +542,7 @@ Cucm_mode_t
 typedef
 struct
 {
-cc_line_reg_state_t
+cc_reg_state_t
 state
 ;
 Cucm_mode_t
