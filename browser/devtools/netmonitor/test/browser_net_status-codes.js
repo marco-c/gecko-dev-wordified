@@ -195,11 +195,7 @@ networkMenu
 .
 sizeKB
 "
-"
 0
-.
-00
-"
 )
 time
 :
@@ -342,11 +338,7 @@ networkMenu
 .
 sizeKB
 "
-"
 0
-.
-00
-"
 )
 time
 :
