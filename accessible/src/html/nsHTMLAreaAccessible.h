@@ -482,6 +482,10 @@ nsIWeakReference
 aShell
 )
 ;
+NS_DECL_ISUPPORTS_INHERITED
+/
+/
+nsIAccessible
 NS_IMETHOD
 GetName
 (

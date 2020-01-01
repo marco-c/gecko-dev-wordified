@@ -524,6 +524,17 @@ aShell
 {
 }
 /
+/
+Expose
+nsIAccessibleHyperLink
+unconditionally
+NS_IMPL_ISUPPORTS_INHERITED1
+(
+nsHTMLAreaAccessible
+nsLinkableAccessible
+nsIAccessibleHyperLink
+)
+/
 *
 wstring
 getName
