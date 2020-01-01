@@ -249,6 +249,10 @@ ARIAGridCellAccessible
 aContent
 aDoc
 )
+ia2AccessibleTableCell
+(
+this
+)
 {
 }
 /
@@ -259,6 +263,13 @@ DECL_IUNKNOWN_INHERITED
 /
 nsISupports
 NS_DECL_ISUPPORTS_INHERITED
+virtual
+void
+Shutdown
+(
+)
+MOZ_OVERRIDE
+;
 }
 ;
 }
