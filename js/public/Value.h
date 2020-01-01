@@ -5593,7 +5593,6 @@ are
 given
 a
 type
-type
 which
 ensures
 they

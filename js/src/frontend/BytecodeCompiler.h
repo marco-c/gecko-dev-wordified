@@ -187,7 +187,7 @@ CompileFunctionBody
 JSContext
 *
 cx
-HandleFunction
+MutableHandleFunction
 fun
 CompileOptions
 options
@@ -201,6 +201,10 @@ jschar
 chars
 size_t
 length
+bool
+isAsmJSRecompile
+=
+false
 )
 ;
 }
