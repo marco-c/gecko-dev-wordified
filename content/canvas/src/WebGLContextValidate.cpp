@@ -868,9 +868,8 @@ buf
 nsnull
 )
 {
-LogMessage
+LogMessageIfVerbose
 (
-mVerbose
 "
 No
 VBO
@@ -1022,9 +1021,8 @@ valid
 )
 )
 {
-LogMessage
+LogMessageIfVerbose
 (
-mVerbose
 "
 Integer
 overflow
@@ -1066,9 +1064,8 @@ value
 )
 )
 {
-LogMessage
+LogMessageIfVerbose
 (
-mVerbose
 "
 VBO
 too

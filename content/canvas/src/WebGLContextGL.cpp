@@ -13328,9 +13328,8 @@ IsCallerTrustedForRead
 )
 )
 {
-LogMessage
+LogMessageIfVerbose
 (
-mVerbose
 "
 ReadPixels
 :
