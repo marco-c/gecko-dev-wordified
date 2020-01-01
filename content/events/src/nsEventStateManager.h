@@ -762,9 +762,6 @@ aTargetFrame
 nsEventStatus
 *
 aStatus
-nsIView
-*
-aView
 )
 ;
 /
@@ -825,9 +822,6 @@ aTargetFrame
 nsEventStatus
 *
 aStatus
-nsIView
-*
-aView
 )
 ;
 void

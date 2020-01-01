@@ -1524,7 +1524,7 @@ GetView
 )
 -
 >
-SetClientData
+SetFrame
 (
 nsnull
 )

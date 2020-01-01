@@ -1625,17 +1625,6 @@ RootViewManager
 )
 ;
 }
-nsEventStatus
-HandleEvent
-(
-nsView
-*
-aView
-nsGUIEvent
-*
-aEvent
-)
-;
 bool
 IsRefreshEnabled
 (
