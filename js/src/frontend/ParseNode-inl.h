@@ -246,7 +246,7 @@ JS_ASSERT
 (
 isKind
 (
-PNK_FUNCTION
+PNK_FUNCTIONDECL
 )
 |
 |
@@ -268,7 +268,7 @@ atom
 =
 isKind
 (
-PNK_FUNCTION
+PNK_FUNCTIONDECL
 )
 ?
 pn_funbox
