@@ -1024,6 +1024,13 @@ DidComposite
 =
 0
 ;
+virtual
+~
+CompositionNotifySink
+(
+)
+{
+}
 }
 ;
 /
