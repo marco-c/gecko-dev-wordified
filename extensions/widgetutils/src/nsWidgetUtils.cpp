@@ -1960,6 +1960,8 @@ nsEventStatus_eIgnore
 if
 (
 dx
+>
+5
 )
 g_panning
 =
@@ -2022,7 +2024,9 @@ nsEventStatus_eIgnore
 {
 if
 (
-dx
+dy
+>
+5
 )
 g_panning
 =
