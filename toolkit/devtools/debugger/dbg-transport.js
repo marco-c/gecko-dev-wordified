@@ -1498,7 +1498,9 @@ Avoid
 the
 cost
 of
-uneval
+JSON
+.
+stringify
 (
 )
 when
@@ -1518,9 +1520,13 @@ Got
 :
 "
 +
-uneval
+JSON
+.
+stringify
 (
 aPacket
+null
+2
 )
 )
 ;
