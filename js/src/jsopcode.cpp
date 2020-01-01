@@ -8777,6 +8777,15 @@ key
 junk
 )
 ;
+if
+(
+todo
+<
+0
+)
+return
+JS_FALSE
+;
 str
 =
 NULL
