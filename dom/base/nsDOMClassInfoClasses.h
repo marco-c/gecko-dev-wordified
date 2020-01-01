@@ -611,10 +611,6 @@ DOMCI_CLASS
 (
 File
 )
-DOMCI_CLASS
-(
-FileReader
-)
 /
 /
 DOM
