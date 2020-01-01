@@ -14337,6 +14337,18 @@ JSContext
 cx
 )
 {
+LoopGuardRecord
+*
+guard
+;
+LIns
+*
+skip
+;
+LIns
+*
+start
+;
 Fragmento
 *
 fragmento
@@ -14559,8 +14571,6 @@ gdata
 "
 )
 ;
-LIns
-*
 start
 =
 addName
@@ -14672,8 +14682,6 @@ edge
 .
 *
 /
-LIns
-*
 skip
 =
 lirb
@@ -14687,8 +14695,6 @@ LoopGuardRecord
 )
 )
 ;
-LoopGuardRecord
-*
 guard
 =
 (
