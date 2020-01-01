@@ -40315,7 +40315,7 @@ dc
 {
 #
 ifdef
-WINCE
+WINCE_WINDOWS_MOBILE
 RECT
 wrect
 ;
