@@ -529,11 +529,11 @@ char
 GLchar
 ;
 typedef
-ptrdiff_t
+PRInt32
 GLsizeiptr
 ;
 typedef
-ptrdiff_t
+PRInt32
 GLintptr
 ;
 #
