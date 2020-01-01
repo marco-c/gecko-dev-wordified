@@ -451,6 +451,13 @@ nsStringFwd
 .
 h
 "
+/
+/
+for
+X11
+#
+undef
+Status
 typedef
 struct
 _cairo_surface
