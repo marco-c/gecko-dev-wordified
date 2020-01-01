@@ -166,6 +166,9 @@ class
 BluetoothSignal
 ;
 class
+BluetoothSocket
+;
+class
 BluetoothDevice
 :
 public
@@ -304,6 +307,10 @@ JSObject
 *
 mJsUuids
 ;
+JSObject
+*
+mJsServices
+;
 nsString
 mAdapterPath
 ;
@@ -333,6 +340,12 @@ nsTArray
 nsString
 >
 mUuids
+;
+nsTArray
+<
+nsString
+>
+mServices
 ;
 }
 ;

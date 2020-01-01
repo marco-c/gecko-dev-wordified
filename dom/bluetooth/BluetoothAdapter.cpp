@@ -2784,7 +2784,7 @@ AssignLiteral
 "
 Not
 handling
-manager
+adapter
 signal
 :
 "
