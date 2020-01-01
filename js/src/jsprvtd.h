@@ -1026,11 +1026,6 @@ JSScopeProperty
 ;
 typedef
 struct
-JSStackFrame
-JSStackFrame
-;
-typedef
-struct
 JSStackHeader
 JSStackHeader
 ;

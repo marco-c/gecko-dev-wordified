@@ -995,6 +995,11 @@ JSScript
 ;
 typedef
 struct
+JSStackFrame
+JSStackFrame
+;
+typedef
+struct
 JSString
 JSString
 ;
