@@ -836,10 +836,6 @@ JSContext
 *
 cx
 =
-(
-JSContext
-*
-)
 aContext
 -
 >

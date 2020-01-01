@@ -4096,10 +4096,6 @@ JSContext
 *
 cx
 =
-(
-JSContext
-*
-)
 ctxNew
 -
 >

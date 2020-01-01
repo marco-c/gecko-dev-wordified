@@ -2757,10 +2757,6 @@ JSContext
 *
 jsContext
 =
-(
-JSContext
-*
-)
 scriptContext
 -
 >

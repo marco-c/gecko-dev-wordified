@@ -6466,10 +6466,6 @@ JAVASCRIPT
 {
 cx
 =
-(
-JSContext
-*
-)
 context
 -
 >

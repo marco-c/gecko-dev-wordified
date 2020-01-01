@@ -1636,10 +1636,6 @@ securityManager
 >
 GetObjectPrincipal
 (
-(
-JSContext
-*
-)
 scriptContext
 -
 >
@@ -1800,10 +1796,6 @@ JSContext
 *
 cx
 =
-(
-JSContext
-*
-)
 scriptContext
 -
 >
@@ -2315,10 +2307,6 @@ JSContext
 *
 cx
 =
-(
-JSContext
-*
-)
 scriptContext
 -
 >

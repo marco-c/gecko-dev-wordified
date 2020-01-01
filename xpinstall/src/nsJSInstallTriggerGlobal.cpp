@@ -4050,10 +4050,6 @@ JSContext
 *
 jscontext
 =
-(
-JSContext
-*
-)
 aContext
 -
 >
@@ -4296,10 +4292,6 @@ JSContext
 *
 jscontext
 =
-(
-JSContext
-*
-)
 aContext
 -
 >

@@ -1987,7 +1987,6 @@ PrivilegeManager
 enablePrivilege
 *
 et
-.
 al
 .
 so
@@ -2020,10 +2019,6 @@ JSContext
 *
 cx
 =
-(
-JSContext
-*
-)
 aScriptContext
 -
 >

@@ -20128,10 +20128,6 @@ cx
 =
 scx
 ?
-(
-JSContext
-*
-)
 scx
 -
 >
@@ -32440,10 +32436,6 @@ JSContext
 *
 cx
 =
-(
-JSContext
-*
-)
 scriptContext
 -
 >

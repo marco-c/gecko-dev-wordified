@@ -15503,10 +15503,6 @@ JSContext
 *
 cx
 =
-(
-JSContext
-*
-)
 scx
 -
 >

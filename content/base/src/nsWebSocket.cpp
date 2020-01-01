@@ -5925,10 +5925,6 @@ JSContext
 *
 cx
 =
-(
-JSContext
-*
-)
 scriptContext
 -
 >

@@ -13235,7 +13235,7 @@ return
 NS_OK
 ;
 }
-void
+JSContext
 *
 nsJSContext
 :

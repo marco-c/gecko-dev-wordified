@@ -6793,10 +6793,6 @@ JSContext
 *
 cx
 =
-(
-JSContext
-*
-)
 context
 -
 >
@@ -8891,10 +8887,6 @@ JSContext
 *
 cx
 =
-(
-JSContext
-*
-)
 context
 -
 >
