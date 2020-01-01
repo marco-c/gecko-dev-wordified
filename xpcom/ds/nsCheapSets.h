@@ -435,13 +435,6 @@ nsHashSets
 .
 h
 "
-#
-include
-<
-stdint
-.
-h
->
 /
 *
 *
@@ -1184,9 +1177,6 @@ mValOrHash
 (
 void
 *
-)
-(
-intptr_t
 )
 (
 (
