@@ -38930,6 +38930,13 @@ isTypeKnown
 #
 ifdef
 JSGC_INCREMENTAL_MJ
+frame
+.
+pinReg
+(
+reg
+)
+;
 if
 (
 cx
@@ -39054,6 +39061,13 @@ Changes
 )
 ;
 }
+frame
+.
+unpinReg
+(
+reg
+)
+;
 #
 endif
 if
