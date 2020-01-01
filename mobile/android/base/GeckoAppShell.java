@@ -887,6 +887,12 @@ sFreeSpace
 -
 1
 ;
+static
+File
+sHomeDir
+=
+null
+;
 private
 static
 HashMap
@@ -2112,8 +2118,7 @@ system
 )
 )
 {
-File
-home
+sHomeDir
 =
 geckoApp
 .
@@ -2123,7 +2128,7 @@ getFilesDir
 ;
 homeDir
 =
-home
+sHomeDir
 .
 getPath
 (
@@ -2258,8 +2263,7 @@ profileDir
 }
 else
 {
-File
-home
+sHomeDir
 =
 geckoApp
 .
@@ -2270,7 +2274,7 @@ null
 ;
 homeDir
 =
-home
+sHomeDir
 .
 getPath
 (
