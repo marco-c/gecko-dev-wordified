@@ -5328,7 +5328,7 @@ snapshot
 yield
 this
 .
-snapshot
+_snapshot
 .
 put
 (
