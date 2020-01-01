@@ -1135,14 +1135,14 @@ strPrefs
 '
 ril
 .
-data
+mms
 .
 mmsc
 '
 '
 ril
 .
-data
+mms
 .
 mmsproxy
 '
@@ -1189,7 +1189,7 @@ value
 '
 ril
 .
-data
+mms
 .
 mmsport
 '
