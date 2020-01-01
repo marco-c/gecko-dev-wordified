@@ -698,6 +698,13 @@ h
 #
 include
 "
+jscntxtinlines
+.
+h
+"
+#
+include
+"
 jsautooplen
 .
 h
