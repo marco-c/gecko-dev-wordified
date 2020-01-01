@@ -5692,6 +5692,15 @@ getStaticBlockScopeChain
 )
 const
 ;
+inline
+void
+setStaticBlockScopeChain
+(
+JSObject
+*
+obj
+)
+;
 static
 const
 uint32
