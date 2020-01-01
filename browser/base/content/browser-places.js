@@ -3825,12 +3825,10 @@ menu
 var
 undoItems
 =
-eval
+JSON
+.
+parse
 (
-"
-(
-"
-+
 this
 .
 _ss
@@ -3839,10 +3837,6 @@ getClosedTabData
 (
 window
 )
-+
-"
-)
-"
 )
 ;
 for
