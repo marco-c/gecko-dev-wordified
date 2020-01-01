@@ -1519,6 +1519,10 @@ script
 *
 /
 void
+*
+padding
+;
+void
 putActivationObjects
 (
 JSContext

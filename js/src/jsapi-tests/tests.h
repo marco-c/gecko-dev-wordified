@@ -477,11 +477,6 @@ stdlib
 .
 h
 >
-#
-include
-<
-string
->
 class
 jsvalRoot
 {
