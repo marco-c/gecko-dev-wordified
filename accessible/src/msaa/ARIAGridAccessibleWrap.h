@@ -185,10 +185,6 @@ ARIAGridAccessible
 aContent
 aDoc
 )
-ia2AccessibleTable
-(
-this
-)
 {
 }
 /
@@ -199,13 +195,6 @@ DECL_IUNKNOWN_INHERITED
 /
 nsISupports
 NS_DECL_ISUPPORTS_INHERITED
-virtual
-void
-Shutdown
-(
-)
-MOZ_OVERRIDE
-;
 }
 ;
 /
