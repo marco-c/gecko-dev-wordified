@@ -368,7 +368,7 @@ MiscContainer
 bool
 GetString
 (
-nsDependentString
+nsAString
 &
 aString
 )
