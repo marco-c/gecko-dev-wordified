@@ -36,6 +36,11 @@ waitForExplicitFinish
 (
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 newWindowWithTabView
 (
 onTabViewWindowLoaded
@@ -1197,12 +1202,12 @@ finish
 )
 ;
 }
-6000
+10000
 false
 )
 ;
 }
-1000
+2000
 )
 ;
 }
