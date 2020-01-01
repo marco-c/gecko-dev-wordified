@@ -3838,6 +3838,9 @@ mAllowAuth
 PRPackedBool
 mAllowKeywordFixup
 ;
+PRPackedBool
+mIsOffScreenBrowser
+;
 /
 /
 This
