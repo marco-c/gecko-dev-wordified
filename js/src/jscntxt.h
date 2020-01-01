@@ -11968,6 +11968,16 @@ cx
 )
 ;
 extern
+JSScript
+*
+js_GetCurrentScript
+(
+JSContext
+*
+cx
+)
+;
+extern
 bool
 js_CurrentPCIsInImacro
 (
