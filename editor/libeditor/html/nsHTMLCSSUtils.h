@@ -1422,7 +1422,7 @@ values
 nsresult
 GetCSSEquivalentToHTMLInlineStyleSet
 (
-nsIDOMNode
+nsINode
 *
 aNode
 nsIAtom
@@ -2586,7 +2586,13 @@ RemoveCSSEquivalentToHTMLInlineStyleSet
 void
 GenerateCSSDeclarationsFromHTMLStyle
 (
-nsIDOMNode
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 aNode
 nsIAtom

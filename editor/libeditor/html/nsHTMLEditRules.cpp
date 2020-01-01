@@ -5901,7 +5901,7 @@ mHTMLCSSUtils
 >
 GetCSSEquivalentToHTMLInlineStyleSet
 (
-blockParent
+blockParentContent
 dummyProperty
 &
 typeAttrName
