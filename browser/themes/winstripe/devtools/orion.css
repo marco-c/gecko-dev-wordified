@@ -768,6 +768,10 @@ center
 }
 .
 line_caret
+.
+annotationLine
+.
+currentLine
 {
 /
 *
@@ -793,6 +797,12 @@ background
 readonly
 .
 line_caret
+.
+readonly
+.
+annotationLine
+.
+currentLine
 {
 background
 :
