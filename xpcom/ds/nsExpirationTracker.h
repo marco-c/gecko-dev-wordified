@@ -434,6 +434,13 @@ NSEXPIRATIONTRACKER_H_
 #
 include
 "
+prerror
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -979,7 +986,7 @@ mInAgeOneGeneration
 PR_FALSE
 )
 {
-NS_ASSERTION
+PR_STATIC_ASSERT
 (
 K
 >
@@ -994,12 +1001,6 @@ nsExpirationState
 :
 :
 NOT_TRACKED
-"
-K
-out
-of
-range
-"
 )
 ;
 }
