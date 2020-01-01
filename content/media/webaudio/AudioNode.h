@@ -1032,6 +1032,13 @@ AudioParam
 aParam
 )
 ;
+virtual
+void
+NotifyInputConnected
+(
+)
+{
+}
 private
 :
 friend

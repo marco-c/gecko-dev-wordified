@@ -1141,6 +1141,12 @@ aOutput
 )
 )
 ;
+aDestination
+.
+NotifyInputConnected
+(
+)
+;
 }
 /
 /
