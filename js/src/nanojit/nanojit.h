@@ -1550,8 +1550,6 @@ Native
 .
 h
 "
-/
-*
 #
 include
 "
@@ -1559,6 +1557,8 @@ LIR
 .
 h
 "
+/
+*
 #
 include
 "
