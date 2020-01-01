@@ -4284,6 +4284,16 @@ prototype
 onUpdate
 }
 ;
+DebuggerServer
+.
+addTabActor
+(
+StyleEditorActor
+"
+styleEditorActor
+"
+)
+;
 XPCOMUtils
 .
 defineLazyGetter
