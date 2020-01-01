@@ -2130,6 +2130,16 @@ NPEvent
 event
 )
 ;
+NPRemoteEvent
+npremoteevent
+;
+npremoteevent
+.
+event
+=
+*
+npevent
+;
 #
 if
 defined
@@ -2282,8 +2292,7 @@ if
 !
 CallNPP_HandleEvent
 (
-*
-npevent
+npremoteevent
 &
 handled
 )

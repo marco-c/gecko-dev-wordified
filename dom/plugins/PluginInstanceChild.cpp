@@ -712,6 +712,12 @@ defined
 (
 OS_LINUX
 )
+|
+|
+defined
+(
+OS_WIN
+)
 *
 (
 (
@@ -1619,7 +1625,7 @@ PluginInstanceChild
 AnswerNPP_HandleEvent
 (
 const
-NPEvent
+NPRemoteEvent
 &
 event
 int16_t
@@ -1691,6 +1697,8 @@ copy
 NPEvent
 evcopy
 =
+event
+.
 event
 ;
 *
@@ -2291,7 +2299,9 @@ mWindow
 .
 type
 =
-NPWindowTypeWindow
+aWindow
+.
+type
 ;
 *
 rv
