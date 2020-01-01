@@ -1007,7 +1007,7 @@ CLZ
 0x016f0f10
 BKPT
 =
-0xe120070
+0xe1200070
 BLX
 =
 0x012fff30
@@ -1177,7 +1177,13 @@ padForAlign16
 0x0000
 padForAlign32
 =
-0xee120070
+0xe12fff7f
+/
+/
+'
+bkpt
+0xffff
+'
 }
 ;
 typedef
