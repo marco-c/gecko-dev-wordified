@@ -1556,7 +1556,7 @@ FIXED_ROOT_ID
 ;
 mParentStack
 .
-push
+addFirst
 (
 rootFolder
 )
@@ -1679,7 +1679,7 @@ false
 ;
 mParentStack
 .
-pop
+removeFirst
 (
 )
 ;
@@ -1721,7 +1721,7 @@ folderTitle
 ;
 mParentStack
 .
-push
+addFirst
 (
 folderPair
 )
