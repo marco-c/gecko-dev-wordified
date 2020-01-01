@@ -979,6 +979,9 @@ _hasRemovableSelection
 (
 false
 )
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 &
 &
 !
@@ -987,6 +990,8 @@ PlacesUIUtils
 privateBrowsing
 .
 privateBrowsingEnabled
+#
+endif
 ;
 case
 "
@@ -4352,6 +4357,16 @@ placesContext_paste
 "
 )
 ;
+#
+ifdef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
+var
+hideIfPB
+=
+false
+;
+#
+else
 var
 hideIfPB
 =
@@ -4376,6 +4391,8 @@ privateBrowsing
 .
 privateBrowsingEnabled
 ;
+#
+endif
 item
 .
 hidden
