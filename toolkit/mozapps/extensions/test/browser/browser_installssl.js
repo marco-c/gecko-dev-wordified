@@ -317,6 +317,12 @@ proceed
 with
 the
 install
+install
+.
+cancel
+(
+)
+;
 return
 false
 ;
