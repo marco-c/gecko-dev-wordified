@@ -5,10 +5,6 @@ jit
 -
 test
 |
-mjit
-;
-mjitalways
-;
 dump
 -
 bytecode

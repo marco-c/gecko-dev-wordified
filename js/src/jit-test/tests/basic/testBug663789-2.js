@@ -6,8 +6,6 @@ jit
 test
 |
 debug
-;
-mjit
 o
 =
 {

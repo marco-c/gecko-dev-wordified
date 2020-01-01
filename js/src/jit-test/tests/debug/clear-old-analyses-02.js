@@ -5,8 +5,6 @@ jit
 -
 test
 |
-mjitalways
-;
 error
 :
 AllDone

@@ -5,7 +5,7 @@ jit
 -
 test
 |
-mjitalways
+slow
 var
 nlocals
 =

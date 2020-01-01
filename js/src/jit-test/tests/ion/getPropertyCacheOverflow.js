@@ -2,7 +2,7 @@
 /
 This
 test
-is
+was
 made
 to
 be

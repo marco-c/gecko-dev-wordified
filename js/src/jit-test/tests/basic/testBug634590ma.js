@@ -5,8 +5,6 @@ jit
 -
 test
 |
-mjitalways
-;
 this
 .
 name

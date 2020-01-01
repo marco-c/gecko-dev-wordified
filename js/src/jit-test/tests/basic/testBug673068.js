@@ -5,7 +5,6 @@ jit
 -
 test
 |
-mjitalways
 function
 f
 (

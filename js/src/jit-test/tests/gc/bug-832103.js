@@ -8,8 +8,6 @@ test
 error
 :
 TypeError
-;
-mjitalways
 RegExp
 (
 "
