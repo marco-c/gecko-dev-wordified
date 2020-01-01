@@ -543,16 +543,6 @@ TCF_FUN_IS_GENERATOR
 0x2
 /
 /
-flag
-lambda
-from
-generator
-expression
-TCF_GENEXP_LAMBDA
-=
-0x4
-/
-/
 This
 function
 /
@@ -602,7 +592,7 @@ JSREPORT_STRICT_ERROR
 /
 TCF_STRICT_MODE_CODE
 =
-0x8
+0x4
 /
 /
 The
@@ -850,7 +840,7 @@ argIsAlised
 .
 TCF_BINDINGS_ACCESSED_DYNAMICALLY
 =
-0x10
+0x8
 /
 /
 The
@@ -879,7 +869,7 @@ eval
 .
 TCF_FUN_MIGHT_ALIAS_LOCALS
 =
-0x20
+0x10
 /
 /
 This
@@ -963,7 +953,7 @@ appears
 /
 TCF_FUN_EXTENSIBLE_SCOPE
 =
-0x40
+0x20
 /
 /
 Technically
@@ -1228,7 +1218,7 @@ nformal
 /
 TCF_ARGUMENTS_HAS_LOCAL_BINDING
 =
-0x80
+0x40
 /
 /
 In
@@ -1356,7 +1346,7 @@ true
 /
 TCF_DEFINITELY_NEEDS_ARGS_OBJ
 =
-0x100
+0x80
 }
 JS_ENUM_FOOTER
 (

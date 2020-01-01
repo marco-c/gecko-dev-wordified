@@ -1798,6 +1798,13 @@ enclosingScope
 ;
 }
 }
+funbox
+-
+>
+inGenexpLambda
+=
+false
+;
 return
 funbox
 ;
@@ -15734,9 +15741,7 @@ pn2
 pn_funbox
 -
 >
-tcflags
-&
-TCF_GENEXP_LAMBDA
+inGenexpLambda
 )
 )
 {
@@ -35949,8 +35954,6 @@ flags
 =
 TCF_FUN_IS_GENERATOR
 |
-TCF_GENEXP_LAMBDA
-|
 (
 outertc
 -
@@ -35972,6 +35975,13 @@ tcflags
 gensc
 .
 flags
+;
+funbox
+-
+>
+inGenexpLambda
+=
+true
 ;
 genfn
 -

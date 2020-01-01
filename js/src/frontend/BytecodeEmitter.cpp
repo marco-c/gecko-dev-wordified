@@ -33362,9 +33362,7 @@ pn
 pn_funbox
 -
 >
-tcflags
-&
-TCF_GENEXP_LAMBDA
+inGenexpLambda
 )
 &
 &
@@ -33377,11 +33375,9 @@ SRC_GENEXP
 <
 0
 )
-{
 return
 false
 ;
-}
 return
 EmitFunctionOp
 (
