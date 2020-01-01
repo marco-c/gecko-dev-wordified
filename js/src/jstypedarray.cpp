@@ -2127,7 +2127,7 @@ DOUBLE
 nanojit
 :
 :
-ACC_NONE
+ACCSET_NONE
 )
 struct
 uint8_clamped
