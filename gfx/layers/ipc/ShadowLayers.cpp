@@ -1425,9 +1425,17 @@ PaintedThebesBuffer
 ShadowableLayer
 *
 aThebes
+const
+nsIntRegion
+&
+aUpdatedRegion
+const
 nsIntRect
+&
 aBufferRect
+const
 nsIntPoint
+&
 aBufferRotation
 const
 SurfaceDescriptor
@@ -1453,6 +1461,7 @@ aNewFrontBuffer
 aBufferRect
 aBufferRotation
 )
+aUpdatedRegion
 )
 )
 ;
