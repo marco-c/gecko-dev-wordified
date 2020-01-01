@@ -1172,6 +1172,10 @@ mInActiveTransformedSubtree
 (
 false
 )
+mDisableSubpixelAntialiasingInDescendants
+(
+false
+)
 {
 }
 ContainerParameters
@@ -1195,6 +1199,10 @@ mInTransformedSubtree
 false
 )
 mInActiveTransformedSubtree
+(
+false
+)
+mDisableSubpixelAntialiasingInDescendants
 (
 false
 )
@@ -1232,6 +1240,12 @@ aParent
 .
 mInActiveTransformedSubtree
 )
+mDisableSubpixelAntialiasingInDescendants
+(
+aParent
+.
+mDisableSubpixelAntialiasingInDescendants
+)
 {
 }
 float
@@ -1243,6 +1257,9 @@ mInTransformedSubtree
 ;
 bool
 mInActiveTransformedSubtree
+;
+bool
+mDisableSubpixelAntialiasingInDescendants
 ;
 }
 ;
