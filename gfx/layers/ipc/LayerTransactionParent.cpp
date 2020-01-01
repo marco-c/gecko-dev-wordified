@@ -3018,13 +3018,9 @@ gfxIntSize
 &
 aSize
 const
-uint32_t
+gfxContentType
 &
-aFormat
-const
-uint32_t
-&
-aUsage
+aContent
 MaybeMagicGrallocBufferHandle
 *
 aOutHandle
@@ -3040,8 +3036,7 @@ GrallocBufferActor
 Create
 (
 aSize
-aFormat
-aUsage
+aContent
 aOutHandle
 )
 ;

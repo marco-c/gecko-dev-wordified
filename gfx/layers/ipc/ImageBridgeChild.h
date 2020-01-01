@@ -1253,7 +1253,7 @@ aSize
 const
 uint32_t
 &
-aFormat
+aContent
 const
 uint32_t
 &
@@ -1945,9 +1945,6 @@ CompositableTransaction
 *
 mTxn
 ;
-/
-/
-ISurfaceAllocator
 virtual
 PGrallocBufferChild
 *
@@ -1957,10 +1954,11 @@ const
 gfxIntSize
 &
 aSize
-uint32_t
-aFormat
-uint32_t
-aUsage
+gfxASurface
+:
+:
+gfxContentType
+aContent
 MaybeMagicGrallocBufferHandle
 *
 aHandle
