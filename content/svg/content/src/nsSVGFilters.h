@@ -568,6 +568,9 @@ nsSVGFilterInstance
 ColorModel
 GetColorModel
 (
+nsSVGFilterInstance
+*
+aInstance
 nsIDOMSVGAnimatedString
 *
 aIn
@@ -582,6 +585,7 @@ ColorModel
 (
 OperatesOnSRGB
 (
+aInstance
 aIn
 )
 ?
@@ -679,6 +683,8 @@ virtual
 PRBool
 OperatesOnSRGB
 (
+nsSVGFilterInstance
+*
 nsIDOMSVGAnimatedString
 *
 )

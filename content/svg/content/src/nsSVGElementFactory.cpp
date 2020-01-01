@@ -1181,6 +1181,18 @@ aNodeInfo
 )
 ;
 nsresult
+NS_NewSVGFEDisplacementMapElement
+(
+nsIContent
+*
+*
+aResult
+nsINodeInfo
+*
+aNodeInfo
+)
+;
+nsresult
 NS_NewSVGElement
 (
 nsIContent
@@ -2177,7 +2189,7 @@ nsGkAtoms
 feDisplacementMap
 )
 return
-NS_NewSVGFEUnimplementedMOZElement
+NS_NewSVGFEDisplacementMapElement
 (
 aResult
 aNodeInfo
