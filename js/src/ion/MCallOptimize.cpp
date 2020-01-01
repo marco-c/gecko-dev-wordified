@@ -164,6 +164,13 @@ h
 #
 include
 "
+jsscriptinlines
+.
+h
+"
+#
+include
+"
 vm
 /
 StringObject

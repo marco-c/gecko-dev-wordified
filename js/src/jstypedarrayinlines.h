@@ -138,6 +138,13 @@ h
 #
 include
 "
+jscntxtinlines
+.
+h
+"
+#
+include
+"
 jsobjinlines
 .
 h

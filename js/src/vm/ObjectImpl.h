@@ -7972,7 +7972,7 @@ getDenseElements
 {
 JS_ASSERT
 (
-isNativeSlow
+uninlinedIsNative
 (
 )
 )
@@ -7995,7 +7995,7 @@ idx
 {
 JS_ASSERT
 (
-isNativeSlow
+uninlinedIsNative
 (
 )
 )
@@ -8025,7 +8025,7 @@ idx
 {
 JS_ASSERT
 (
-isNativeSlow
+uninlinedIsNative
 (
 )
 )
@@ -8057,7 +8057,7 @@ getDenseInitializedLength
 {
 JS_ASSERT
 (
-isNativeSlow
+uninlinedIsNative
 (
 )
 )
@@ -8078,7 +8078,7 @@ getDenseCapacity
 {
 JS_ASSERT
 (
-isNativeSlow
+uninlinedIsNative
 (
 )
 )
@@ -8881,7 +8881,7 @@ const
 ;
 /
 /
-isNativeSlow
+uninlinedIsNative
 (
 )
 is
@@ -8904,7 +8904,7 @@ isNative
 const
 ;
 bool
-isNativeSlow
+uninlinedIsNative
 (
 )
 const
@@ -9056,7 +9056,7 @@ lazy
 }
 /
 /
-slotSpanSlow
+uninlinedSlotSpan
 (
 )
 is
@@ -9080,7 +9080,7 @@ slotSpan
 const
 ;
 uint32_t
-slotSpanSlow
+uninlinedSlotSpan
 (
 )
 const
@@ -9728,14 +9728,14 @@ slot
 {
 JS_ASSERT
 (
-isNativeSlow
+uninlinedIsNative
 (
 )
 &
 &
 slot
 <
-slotSpanSlow
+uninlinedSlotSpan
 (
 )
 )
@@ -9759,14 +9759,14 @@ const
 {
 JS_ASSERT
 (
-isNativeSlow
+uninlinedIsNative
 (
 )
 &
 &
 slot
 <
-slotSpanSlow
+uninlinedSlotSpan
 (
 )
 )

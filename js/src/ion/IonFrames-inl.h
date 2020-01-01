@@ -144,6 +144,17 @@ LIR
 .
 h
 "
+#
+include
+"
+ion
+/
+IonFrameIterator
+-
+inl
+.
+h
+"
 namespace
 js
 {
