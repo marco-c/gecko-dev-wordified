@@ -1970,6 +1970,15 @@ i
 ;
 if
 (
+!
+info
+)
+{
+continue
+;
+}
+if
+(
 isATI
 )
 {
