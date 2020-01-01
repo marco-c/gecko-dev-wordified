@@ -430,6 +430,7 @@ PAINT_AFTER_FIRST
 =
 1
 ;
+public
 boolean
 shouldUseTextureView
 (

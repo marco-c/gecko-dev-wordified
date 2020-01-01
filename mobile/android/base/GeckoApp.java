@@ -1293,7 +1293,7 @@ protected
 TabsPanel
 mTabsPanel
 ;
-private
+protected
 LayerView
 mLayerView
 ;

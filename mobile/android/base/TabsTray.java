@@ -1770,7 +1770,8 @@ attach
 view
 Property
 .
-SLIDE_LEFT
+SCROLL_X
+-
 x
 )
 ;
