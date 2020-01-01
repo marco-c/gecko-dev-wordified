@@ -21,10 +21,6 @@ OS
 "
 WINNT
 "
-&
-&
-!
-isDebugBuild
 )
 -
 -
