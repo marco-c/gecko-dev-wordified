@@ -661,10 +661,6 @@ nsIContentIterator
 .
 h
 "
-using
-namespace
-mozilla
-;
 nsresult
 NS_NewContentIterator
 (
@@ -679,6 +675,10 @@ endif
 /
 /
 MOZ_SMIL
+using
+namespace
+mozilla
+;
 NS_SVG_VAL_IMPL_CYCLE_COLLECTION
 (
 nsSVGTranslatePoint
