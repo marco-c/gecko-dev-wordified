@@ -4094,6 +4094,9 @@ count
 case
 ION
 :
+#
+ifdef
+JS_ION
 return
 ionInlineFrames_
 .
@@ -4104,6 +4107,8 @@ start
 count
 )
 ;
+#
+endif
 case
 NATIVE
 :

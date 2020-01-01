@@ -14646,6 +14646,9 @@ closure
 ;
 }
 }
+#
+ifdef
+JS_ION
 if
 (
 hasIonScript
@@ -14664,6 +14667,8 @@ trc
 ion
 )
 ;
+#
+endif
 }
 void
 JSScript
