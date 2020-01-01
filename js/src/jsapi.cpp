@@ -4616,6 +4616,10 @@ ctypesActivityCallback
 (
 NULL
 )
+parallelWarmup
+(
+0
+)
 ionReturnOverride_
 (
 MagicValue

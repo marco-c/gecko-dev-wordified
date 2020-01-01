@@ -180,7 +180,7 @@ class
 LIRGeneratorShared
 :
 public
-MInstructionVisitor
+MInstructionVisitorWithDefaults
 {
 protected
 :

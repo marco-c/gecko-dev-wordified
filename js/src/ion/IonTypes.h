@@ -396,6 +396,14 @@ A
 Shape
 pointer
 .
+MIRType_ForkJoinSlice
+/
+/
+js
+:
+:
+ForkJoinSlice
+*
 }
 ;
 #
