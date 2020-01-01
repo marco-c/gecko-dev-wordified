@@ -668,6 +668,9 @@ JSSLOT_PROXY_CONSTRUCT
 )
 ;
 }
+#
+ifdef
+DEBUG
 static
 bool
 OperationInProgress
@@ -722,6 +725,8 @@ return
 false
 ;
 }
+#
+endif
 ProxyHandler
 :
 :
