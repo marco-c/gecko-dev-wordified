@@ -1678,6 +1678,16 @@ length
 (
 )
 ;
+Anchor
+<
+JSString
+*
+>
+afs
+(
+flagStr
+)
+;
 const
 jschar
 *
