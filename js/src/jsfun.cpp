@@ -8550,6 +8550,9 @@ return
 true
 ;
 }
+namespace
+js
+{
 static
 JSBool
 GetCallArguments
@@ -8608,7 +8611,7 @@ true
 ;
 }
 JSBool
-js_GetCallArg
+GetCallArg
 (
 JSContext
 *
@@ -8718,7 +8721,7 @@ true
 ;
 }
 JSBool
-js_GetCallVar
+GetCallVar
 (
 JSContext
 *
@@ -8745,7 +8748,7 @@ JSCPK_VAR
 ;
 }
 JSBool
-js_GetCallVarChecked
+GetCallVarChecked
 (
 JSContext
 *
@@ -8812,6 +8815,11 @@ true
 )
 ;
 }
+}
+/
+/
+namespace
+js
 #
 if
 JS_TRACER
@@ -20449,7 +20457,7 @@ getter
 )
 !
 =
-js_GetCallArg
+GetCallArg
 )
 shape
 =
@@ -20658,7 +20666,7 @@ nargs
 ;
 getter
 =
-js_GetCallArg
+GetCallArg
 ;
 setter
 =
@@ -20726,7 +20734,7 @@ nvars
 ;
 getter
 =
-js_GetCallVar
+GetCallVar
 ;
 setter
 =
@@ -21070,7 +21078,7 @@ getter
 )
 !
 =
-js_GetCallArg
+GetCallArg
 )
 {
 +
@@ -21249,7 +21257,7 @@ getter
 )
 =
 =
-js_GetCallArg
+GetCallArg
 )
 localKind
 =
@@ -21501,7 +21509,7 @@ getter
 )
 =
 =
-js_GetCallArg
+GetCallArg
 )
 {
 JS_ASSERT
@@ -21625,7 +21633,7 @@ getter
 )
 =
 =
-js_GetCallArg
+GetCallArg
 )
 ;
 atom

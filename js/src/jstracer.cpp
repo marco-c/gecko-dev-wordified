@@ -56736,7 +56736,7 @@ getterOp
 )
 =
 =
-js_GetCallArg
+GetCallArg
 )
 {
 JS_ASSERT
@@ -56781,7 +56781,7 @@ getterOp
 )
 =
 =
-js_GetCallVar
+GetCallVar
 |
 |
 shape
@@ -56792,7 +56792,7 @@ getterOp
 )
 =
 =
-js_GetCallVarChecked
+GetCallVarChecked
 )
 {
 JS_ASSERT
@@ -57162,7 +57162,7 @@ getterOp
 )
 =
 =
-js_GetCallArg
+GetCallArg
 )
 {
 JS_ASSERT
@@ -57201,7 +57201,7 @@ getterOp
 )
 =
 =
-js_GetCallVar
+GetCallVar
 |
 |
 shape
@@ -57212,7 +57212,7 @@ getterOp
 )
 =
 =
-js_GetCallVarChecked
+GetCallVarChecked
 )
 {
 JS_ASSERT
@@ -57442,7 +57442,7 @@ getterOp
 )
 =
 =
-js_GetCallArg
+GetCallArg
 )
 {
 ci
@@ -57462,7 +57462,7 @@ getterOp
 )
 =
 =
-js_GetCallVar
+GetCallVar
 |
 |
 shape
@@ -57473,7 +57473,7 @@ getterOp
 )
 =
 =
-js_GetCallVarChecked
+GetCallVarChecked
 )
 {
 ci
