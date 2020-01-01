@@ -1864,6 +1864,10 @@ DOMCI_CLASS
 (
 MozBatteryManager
 )
+DOMCI_CLASS
+(
+MozSmsManager
+)
 /
 /
 font
