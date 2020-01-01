@@ -6293,6 +6293,11 @@ aDesiredSize
 height
 )
 ;
+CheckInvalidateSizeChange
+(
+aDesiredSize
+)
+;
 FinishAndStoreOverflow
 (
 &
