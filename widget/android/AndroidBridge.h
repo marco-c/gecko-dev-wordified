@@ -465,8 +465,7 @@ AndroidGeckoGLLayerClient
 }
 ;
 static
-AndroidBridge
-*
+void
 ConstructBridge
 (
 JNIEnv
