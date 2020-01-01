@@ -1423,6 +1423,13 @@ defined
 (
 XP_UNIX
 )
+&
+&
+!
+defined
+(
+__SYMBIAN32__
+)
 NS_IMETHODIMP
 nsFileProtocolHandler
 :
