@@ -1529,7 +1529,7 @@ endif
 #
 define
 DEFAULT_SHUTDOWN_COLLECTIONS
-5
+10
 #
 ifdef
 DEBUG_CC
