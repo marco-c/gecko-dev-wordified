@@ -612,6 +612,14 @@ nsGkAtoms
 transform
 )
 {
+nsSVGUtils
+:
+:
+InvalidateAndScheduleBoundsUpdate
+(
+this
+)
+;
 NotifySVGChanged
 (
 TRANSFORM_CHANGED
