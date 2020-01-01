@@ -3194,8 +3194,10 @@ aDocument
 /
 Ignore
 temporary
-and
 hiding
+and
+svg
+resource
 documents
 .
 if
@@ -3213,6 +3215,14 @@ aDocument
 -
 >
 IsVisible
+(
+)
+|
+|
+aDocument
+-
+>
+GetDisplayDocument
 (
 )
 )
