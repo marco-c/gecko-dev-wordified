@@ -7783,7 +7783,11 @@ NIns
 *
 targ
 bool
+/
+*
 far
+*
+/
 )
 {
 /
@@ -7819,11 +7823,6 @@ anyway
 always
 false
 )
-(
-void
-)
-far
-;
 NIns
 *
 at
