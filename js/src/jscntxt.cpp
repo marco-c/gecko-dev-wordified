@@ -7113,6 +7113,10 @@ methodJitEnabled
 (
 false
 )
+jitIsBroken
+(
+false
+)
 #
 endif
 #
@@ -8659,6 +8663,12 @@ updateJITEnabled
 #
 ifdef
 JS_METHODJIT
+jitIsBroken
+=
+IsJITBrokenHere
+(
+)
+;
 methodJitEnabled
 =
 (
@@ -8669,9 +8679,7 @@ JSOPTION_METHODJIT
 &
 &
 !
-IsJITBrokenHere
-(
-)
+jitIsBroken
 ;
 #
 endif
