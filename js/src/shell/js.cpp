@@ -18299,7 +18299,7 @@ scriptContents
 string
 >
 "
-0
+1
 )
 ;
 JS_SetOptions
@@ -18466,7 +18466,7 @@ lineno
 =
 *
 /
-0
+1
 cx
 -
 >
