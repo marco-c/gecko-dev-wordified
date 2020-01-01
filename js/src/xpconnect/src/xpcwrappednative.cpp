@@ -9534,7 +9534,10 @@ wrapper
 if
 (
 !
-XPC_XOW_WrapperMoved
+XPCCrossOriginWrapper
+:
+:
+WrapperMoved
 (
 ccx
 wrapper
@@ -10764,7 +10767,10 @@ clazz
 =
 =
 &
-sXPC_XOW_JSClass
+XPCCrossOriginWrapper
+:
+:
+XOWClass
 .
 base
 &
