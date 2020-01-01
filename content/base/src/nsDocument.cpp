@@ -42625,7 +42625,7 @@ if
 mWarnedAbout
 &
 (
-1
+1ull
 <
 <
 aOperation
@@ -42639,7 +42639,7 @@ mWarnedAbout
 |
 =
 (
-1
+1ull
 <
 <
 aOperation
