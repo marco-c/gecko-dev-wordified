@@ -572,7 +572,7 @@ aName
 nsString
 name
 ;
-nsString
+PRUint64
 version
 ;
 PRUint32
