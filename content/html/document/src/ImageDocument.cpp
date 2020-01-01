@@ -548,14 +548,11 @@ nsPIDOMWindow
 >
 domWindow
 =
-do_QueryInterface
-(
 imgDoc
 -
 >
-GetScriptGlobalObject
+GetWindow
 (
-)
 )
 ;
 NS_ENSURE_TRUE

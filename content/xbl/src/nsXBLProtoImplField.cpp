@@ -1534,10 +1534,14 @@ nsXBLProtoImpl
 :
 :
 InstallImplementation
+nsCOMPtr
+<
 nsIScriptGlobalObject
-*
+>
 global
 =
+do_QueryInterface
+(
 xblNode
 -
 >
@@ -1546,8 +1550,9 @@ OwnerDoc
 )
 -
 >
-GetScriptGlobalObject
+GetWindow
 (
+)
 )
 ;
 if

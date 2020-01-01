@@ -7027,11 +7027,14 @@ nsIScriptGlobalObject
 >
 globalObject
 =
+do_QueryInterface
+(
 aDoc
 -
 >
-GetScriptGlobalObject
+GetWindow
 (
+)
 )
 ;
 /

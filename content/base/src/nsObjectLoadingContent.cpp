@@ -3338,7 +3338,7 @@ do_GetInterface
 currentDoc
 -
 >
-GetScriptGlobalObject
+GetWindow
 (
 )
 )

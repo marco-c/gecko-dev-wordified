@@ -1875,7 +1875,7 @@ do_QueryInterface
 mDocument
 -
 >
-GetScriptGlobalObject
+GetWindow
 (
 )
 )
