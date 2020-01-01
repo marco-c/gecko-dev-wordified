@@ -2181,7 +2181,7 @@ vreg
 vreg
 -
 >
-reg
+id
 (
 )
 )
