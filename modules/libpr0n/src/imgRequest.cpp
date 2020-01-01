@@ -867,7 +867,13 @@ decodeondraw
 /
 Discard
 timeout
-imgDiscardTracker
+mozilla
+:
+:
+imagelib
+:
+:
+DiscardTracker
 :
 :
 ReloadTimeout

@@ -591,6 +591,13 @@ gfxContext
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+imagelib
+;
 /
 *
 Accounting
@@ -1372,7 +1379,7 @@ discardable_source_bytes
 )
 ;
 }
-imgDiscardTracker
+DiscardTracker
 :
 :
 Remove
@@ -7801,7 +7808,7 @@ this
 ;
 rv
 =
-imgDiscardTracker
+DiscardTracker
 :
 :
 Reset
@@ -10322,7 +10329,7 @@ CanDiscard
 nsresult
 rv
 =
-imgDiscardTracker
+DiscardTracker
 :
 :
 Reset
@@ -17106,7 +17113,7 @@ activated
 ;
 rv
 =
-imgDiscardTracker
+DiscardTracker
 :
 :
 Reset
@@ -18396,7 +18403,7 @@ it
 '
 s
 there
-imgDiscardTracker
+DiscardTracker
 :
 :
 Remove
@@ -18629,7 +18636,7 @@ CanDiscard
 nsresult
 rv
 =
-imgDiscardTracker
+DiscardTracker
 :
 :
 Reset
