@@ -7120,6 +7120,16 @@ endif
 /
 /
 MOZ_SMIL
+#
+ifdef
+DEBUG
+protected
+:
+PRBool
+mWillReparent
+;
+#
+endif
 }
 ;
 #

@@ -18338,6 +18338,12 @@ aScriptGlobalObject
 #
 ifdef
 DEBUG
+if
+(
+!
+mWillReparent
+)
+{
 /
 /
 We
@@ -18502,6 +18508,7 @@ bad
 "
 )
 ;
+}
 }
 }
 #
