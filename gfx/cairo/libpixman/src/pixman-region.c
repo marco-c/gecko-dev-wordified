@@ -14251,8 +14251,8 @@ overwritten
 -
 *
 /
-pixman_bool_t
 PIXMAN_EXPORT
+pixman_bool_t
 PREFIX
 (
 _inverse
@@ -14912,8 +14912,8 @@ false
 )
 *
 /
-pixman_region_overlap_t
 PIXMAN_EXPORT
+pixman_region_overlap_t
 PREFIX
 (
 _contains_rectangle

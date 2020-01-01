@@ -1018,7 +1018,7 @@ if
 iter
 -
 >
-flags
+iter_flags
 &
 ITER_NARROW
 )
