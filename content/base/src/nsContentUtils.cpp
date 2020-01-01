@@ -22367,7 +22367,7 @@ nativeKeyEvent
 >
 alternativeCharCodes
 [
-0
+i
 ]
 .
 mUnshiftedCharCode
