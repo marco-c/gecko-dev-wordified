@@ -6975,7 +6975,7 @@ a
 lag
 may
 be
-noticable
+noticeable
 .
 nsresult
 mozInlineSpellChecker
@@ -10024,7 +10024,7 @@ This
 optimization
 makes
 a
-noticable
+noticeable
 difference
 when
 you
