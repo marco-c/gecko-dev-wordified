@@ -4078,7 +4078,7 @@ declared
 "
                        
 mgsname
-pdeclname
+pname
 )
         
 elif
@@ -4121,7 +4121,7 @@ s
 '
 "
                 
-pdeclname
+pname
 mgsname
 mgsdecl
 .
