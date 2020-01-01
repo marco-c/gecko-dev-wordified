@@ -1440,7 +1440,7 @@ menuitemcheckbox
 nsIAccessibleRole
 :
 :
-ROLE_MENUITEM
+ROLE_CHECK_MENU_ITEM
 eNameOkFromChildren
 eNoValue
 nsIAccessibleStates
@@ -1488,7 +1488,7 @@ menuitemradio
 nsIAccessibleRole
 :
 :
-ROLE_MENUITEM
+ROLE_RADIO_MENU_ITEM
 eNameOkFromChildren
 eNoValue
 nsIAccessibleStates
