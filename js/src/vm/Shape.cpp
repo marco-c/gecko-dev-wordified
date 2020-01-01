@@ -453,13 +453,12 @@ Shape
 :
 :
 Range
-r
-=
-lastProp
--
+<
+NoGC
 >
-all
+r
 (
+lastProp
 )
 ;
 !
