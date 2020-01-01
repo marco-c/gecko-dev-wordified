@@ -1078,8 +1078,6 @@ loads
 for
 non
 -
-external
--
 resource
 documents
 if
@@ -1088,7 +1086,7 @@ if
 doc
 -
 >
-GetDisplayDocument
+IsResourceDoc
 (
 )
 )
@@ -1100,8 +1098,8 @@ NS_OK
 /
 /
 For
-external
-resources
+resource
+documents
 blacklist
 some
 load
