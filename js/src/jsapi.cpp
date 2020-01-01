@@ -892,7 +892,7 @@ JSID_VOID
 (
 size_t
 )
-JSID_VOID_TYPE
+JSID_TYPE_VOID
 }
 ;
 #
