@@ -309,7 +309,7 @@ HashString
 functions
 *
 in
-nsHashKey
+nsHashKeys
 .
 h
 .
