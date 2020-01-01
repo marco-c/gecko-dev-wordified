@@ -3777,7 +3777,7 @@ append
 (
 metrics
 .
-fixedLayerMarginLeft
+marginLeft
 )
 .
 append
@@ -3796,7 +3796,7 @@ append
 (
 metrics
 .
-fixedLayerMarginTop
+marginTop
 )
 .
 append
@@ -3815,7 +3815,7 @@ append
 (
 metrics
 .
-fixedLayerMarginRight
+marginRight
 )
 .
 append
@@ -3834,7 +3834,7 @@ append
 (
 metrics
 .
-fixedLayerMarginBottom
+marginBottom
 )
 .
 append
