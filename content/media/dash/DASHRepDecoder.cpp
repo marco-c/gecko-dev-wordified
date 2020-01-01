@@ -2199,7 +2199,7 @@ GetReentrantMonitor
 ;
 for
 (
-int
+uint32_t
 i
 =
 0

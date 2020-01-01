@@ -2742,7 +2742,7 @@ object
 .
 for
 (
-int
+uint32_t
 i
 =
 0
@@ -2793,7 +2793,7 @@ i
 }
 for
 (
-int
+uint32_t
 j
 =
 0
@@ -4662,6 +4662,9 @@ VideoRepDecoder
 )
 &
 &
+(
+uint32_t
+)
 mVideoSubsegmentIdx
 <
 VideoRepDecoder
@@ -6540,6 +6543,9 @@ if
 toDecoderIdx
 !
 =
+(
+uint32_t
+)
 mVideoRepDecoderIdx
 )
 {
