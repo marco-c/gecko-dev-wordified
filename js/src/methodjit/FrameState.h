@@ -2160,6 +2160,7 @@ that
 contains
 the
 constant
+Int32
 value
 of
 the
@@ -2195,7 +2196,7 @@ freeReg
 *
 /
 RegisterID
-copyConstantIntoReg
+copyInt32ConstantIntoReg
 (
 FrameEntry
 *
@@ -2203,7 +2204,7 @@ fe
 )
 ;
 RegisterID
-copyConstantIntoReg
+copyInt32ConstantIntoReg
 (
 Assembler
 &
