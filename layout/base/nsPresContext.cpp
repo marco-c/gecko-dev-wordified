@@ -15027,7 +15027,7 @@ mChangedRect
 aChangedSubtree
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 +

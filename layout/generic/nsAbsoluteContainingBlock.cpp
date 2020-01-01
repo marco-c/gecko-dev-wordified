@@ -2925,7 +2925,7 @@ oldOverflowRect
 aKidFrame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 +

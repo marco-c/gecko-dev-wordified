@@ -1919,7 +1919,7 @@ return
 mFrame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 +

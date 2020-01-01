@@ -1540,7 +1540,7 @@ nsRect
 &
 aRect
 PRBool
-aRemoveOverflowArea
+aRemoveOverflowAreas
 )
 {
 NS_BOX_ASSERTION
@@ -1649,12 +1649,7 @@ necessary
 .
 if
 (
-aRemoveOverflowArea
-&
-&
-HasOverflowRect
-(
-)
+aRemoveOverflowAreas
 )
 {
 /
@@ -1665,7 +1660,7 @@ previously
 stored
 overflow
 area
-ClearOverflowRect
+ClearOverflowRects
 (
 )
 ;
@@ -3412,7 +3407,7 @@ aDamageRect
 else
 damageRect
 =
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;

@@ -1382,7 +1382,7 @@ bounds
 mFrame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;

@@ -4309,7 +4309,7 @@ r
 viewportFrame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;
