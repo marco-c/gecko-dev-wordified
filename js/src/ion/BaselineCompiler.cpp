@@ -761,6 +761,12 @@ Size
 BaselineStackReg
 )
 ;
+masm
+.
+checkStackAlignment
+(
+)
+;
 /
 /
 Initialize
