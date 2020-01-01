@@ -120,6 +120,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 class
 nsTouchEvent
 ;
@@ -576,9 +583,9 @@ SingleTouchData
 (
 int32_t
 aIdentifier
-nsIntPoint
+ScreenIntPoint
 aScreenPoint
-nsIntPoint
+ScreenSize
 aRadius
 float
 aRotationAngle
@@ -670,7 +677,7 @@ on
 the
 screen
 .
-nsIntPoint
+ScreenIntPoint
 mScreenPoint
 ;
 /
@@ -746,7 +753,7 @@ x
 /
 radius
 .
-nsIntPoint
+ScreenSize
 mRadius
 ;
 float
@@ -1070,7 +1077,7 @@ aType
 uint32_t
 aTime
 const
-nsIntPoint
+ScreenPoint
 &
 aFocusPoint
 float
@@ -1183,7 +1190,7 @@ of
 this
 midpoint
 .
-nsIntPoint
+ScreenPoint
 mFocusPoint
 ;
 /
@@ -1349,7 +1356,7 @@ aType
 uint32_t
 aTime
 const
-nsIntPoint
+ScreenIntPoint
 &
 aPoint
 )
@@ -1372,7 +1379,7 @@ aPoint
 TapGestureType
 mType
 ;
-nsIntPoint
+ScreenIntPoint
 mPoint
 ;
 }

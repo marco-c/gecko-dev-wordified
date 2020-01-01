@@ -1793,7 +1793,7 @@ states
 .
 *
 /
-nsIntPoint
+ScreenIntPoint
 mTouchStartPosition
 ;
 }
