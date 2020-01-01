@@ -699,7 +699,6 @@ this
 bindings
 ;
 }
-const
 Shape
 *
 Bindings

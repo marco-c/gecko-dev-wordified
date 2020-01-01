@@ -1472,7 +1472,6 @@ bindings
 *
 /
 inline
-const
 js
 :
 :
