@@ -791,11 +791,6 @@ DOWNLOAD_BLOCKED
 case
 nsIDM
 .
-DOWNLOAD_DIRTY
-:
-case
-nsIDM
-.
 DOWNLOAD_FINISHED
 :
 downloadCompleted

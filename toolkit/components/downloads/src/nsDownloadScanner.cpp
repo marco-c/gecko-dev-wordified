@@ -1676,7 +1676,7 @@ downloadState
 nsIDownloadManager
 :
 :
-DOWNLOAD_DIRTY
+DOWNLOAD_BLOCKED
 ;
 break
 ;
