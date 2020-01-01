@@ -552,7 +552,7 @@ create
 JSContext
 *
 cx
-jsdouble
+double
 d
 )
 ;
@@ -602,7 +602,7 @@ createWithProto
 JSContext
 *
 cx
-jsdouble
+double
 d
 JSObject
 &
@@ -632,7 +632,7 @@ inline
 void
 setPrimitiveValue
 (
-jsdouble
+double
 d
 )
 {

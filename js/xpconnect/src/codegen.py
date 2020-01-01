@@ -1206,7 +1206,7 @@ float
 :
         
 "
-jsdouble
+double
 {
 name
 }
@@ -1269,7 +1269,7 @@ double
 :
         
 "
-jsdouble
+double
 {
 name
 }

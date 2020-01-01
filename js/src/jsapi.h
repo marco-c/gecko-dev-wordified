@@ -10149,7 +10149,7 @@ v
 }
 static
 JS_ALWAYS_INLINE
-jsdouble
+double
 JSVAL_TO_DOUBLE
 (
 jsval
@@ -10185,7 +10185,7 @@ JS_ALWAYS_INLINE
 jsval
 DOUBLE_TO_JSVAL
 (
-jsdouble
+double
 d
 )
 {
@@ -10300,7 +10300,7 @@ return
 DOUBLE_TO_JSVAL
 (
 (
-jsdouble
+double
 )
 i
 )
@@ -12705,12 +12705,12 @@ coordinate
 )
 *
 d
-jsdouble
+double
 IEEE
 double
 *
 I
-jsdouble
+double
 Integral
 IEEE
 double
@@ -13543,7 +13543,7 @@ JSContext
 cx
 jsval
 v
-jsdouble
+double
 *
 dp
 )
@@ -13555,7 +13555,7 @@ JSBool
 )
 JS_DoubleIsInt32
 (
-jsdouble
+double
 d
 jsint
 *
@@ -13569,7 +13569,7 @@ int32_t
 )
 JS_DoubleToInt32
 (
-jsdouble
+double
 d
 )
 ;
@@ -13580,7 +13580,7 @@ uint32_t
 )
 JS_DoubleToUint32
 (
-jsdouble
+double
 d
 )
 ;
@@ -17406,7 +17406,7 @@ JS_NewNumberValue
 JSContext
 *
 cx
-jsdouble
+double
 d
 jsval
 *
@@ -21924,7 +21924,7 @@ obj
 struct
 JSConstDoubleSpec
 {
-jsdouble
+double
 dval
 ;
 const
@@ -32408,7 +32408,7 @@ JS_NewDateObjectMsec
 JSContext
 *
 cx
-jsdouble
+double
 msec
 )
 ;

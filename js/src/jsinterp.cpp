@@ -15258,7 +15258,7 @@ INT32_MAX
 +
 1
 are
-jsdouble
+double
 values
 .
 *

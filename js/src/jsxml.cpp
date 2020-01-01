@@ -33016,7 +33016,7 @@ str
 *
 vstr
 ;
-jsdouble
+double
 d
 d2
 ;
