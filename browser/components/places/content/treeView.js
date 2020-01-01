@@ -6660,6 +6660,7 @@ PTV_canDrop
 (
 aRow
 aOrientation
+aDataTransfer
 )
 {
 if
@@ -6676,7 +6677,7 @@ NS_ERROR_UNEXPECTED
 ;
 /
 /
-drop
+Drop
 position
 into
 a
@@ -6685,6 +6686,7 @@ treeview
 would
 be
 wrong
+.
 if
 (
 this
@@ -6696,7 +6698,7 @@ isSorted
 return
 false
 ;
-var
+let
 ip
 =
 this
@@ -6716,6 +6718,7 @@ PlacesControllerDragHelper
 canDrop
 (
 ip
+aDataTransfer
 )
 ;
 }
@@ -7190,6 +7193,7 @@ PTV_drop
 (
 aRow
 aOrientation
+aDataTransfer
 )
 {
 /
@@ -7231,7 +7235,7 @@ the
 tree
 view
 .
-var
+let
 ip
 =
 this
@@ -7244,17 +7248,21 @@ aOrientation
 ;
 if
 (
-!
 ip
 )
-return
-;
 PlacesControllerDragHelper
 .
 onDrop
 (
 ip
+aDataTransfer
 )
+;
+PlacesControllerDragHelper
+.
+currentDropTarget
+=
+null
 ;
 }
 getParentIndex
