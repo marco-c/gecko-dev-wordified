@@ -7350,7 +7350,7 @@ aInfo
 -
 >
 mReplaceLength
-;
+:
 /
 /
 text
@@ -7363,7 +7363,7 @@ aInfo
 mChangeEnd
 -
 start
-:
+;
 /
 /
 text
