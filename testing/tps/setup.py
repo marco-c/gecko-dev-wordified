@@ -143,6 +143,16 @@ mozautolog
 .
 1
 '
+'
+mozautoeslib
+=
+=
+0
+.
+1
+.
+1
+'
 ]
 #
 we
