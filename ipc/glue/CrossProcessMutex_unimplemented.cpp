@@ -304,7 +304,7 @@ now
 )
 ;
 return
-NULL
+0
 ;
 }
 }
