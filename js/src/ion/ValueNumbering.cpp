@@ -649,7 +649,7 @@ def
 ins
 -
 >
-updateForFolding
+updateForReplacement
 (
 def
 )
