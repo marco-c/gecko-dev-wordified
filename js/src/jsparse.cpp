@@ -50070,8 +50070,10 @@ JSOP_NOP
 ;
 pn2
 =
-functionExpr
+functionDef
 (
+JSFUN_LAMBDA
+false
 )
 ;
 pn2
