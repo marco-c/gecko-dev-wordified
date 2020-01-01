@@ -1321,13 +1321,14 @@ overflow
 /
 if
 (
+unsigned
+(
 top
 -
 pos
-<
-(
-unsigned
 )
+<
+unsigned
 (
 sizeof
 (
