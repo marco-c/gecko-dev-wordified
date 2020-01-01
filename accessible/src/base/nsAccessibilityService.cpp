@@ -496,7 +496,7 @@ h
 #
 include
 "
-nsHTMLTableAccessible
+nsHTMLTableAccessibleWrap
 .
 h
 "
@@ -4449,7 +4449,7 @@ rv
 _retval
 =
 new
-nsHTMLTableAccessible
+nsHTMLTableAccessibleWrap
 (
 node
 weakShell
@@ -4535,12 +4535,12 @@ rv
 rv
 )
 ;
-nsHTMLTableHeadAccessible
+nsHTMLTableHeadAccessibleWrap
 *
 accTableHead
 =
 new
-nsHTMLTableHeadAccessible
+nsHTMLTableHeadAccessibleWrap
 (
 aDOMNode
 weakShell
