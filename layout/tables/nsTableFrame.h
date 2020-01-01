@@ -5283,15 +5283,6 @@ PRBool
 aDumpCellMap
 )
 ;
-static
-void
-DumpTableFrames
-(
-nsIFrame
-*
-aFrame
-)
-;
 #
 endif
 protected
