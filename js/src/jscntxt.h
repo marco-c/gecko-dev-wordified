@@ -6540,8 +6540,7 @@ value
 between
 JSOP_MOREITER
 and
-JSOP_FOR
-*
+JSOP_ITERNEXT
 .
 *
 /

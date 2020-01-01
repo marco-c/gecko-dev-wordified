@@ -1208,7 +1208,7 @@ s
 }
 ;
 /
-/
+*
 How
 mny
 chars
@@ -1217,6 +1217,8 @@ w
 o
 longflag
 ?
+*
+/
 size_t
 lengths
 [
