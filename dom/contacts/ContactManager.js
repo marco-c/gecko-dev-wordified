@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-const
+let
 DEBUG
 =
 false
@@ -4098,6 +4098,10 @@ function
 aOptions
 )
 {
+DEBUG
+=
+false
+;
 if
 (
 DEBUG
@@ -4607,6 +4611,10 @@ function
 (
 )
 {
+DEBUG
+=
+true
+;
 if
 (
 DEBUG

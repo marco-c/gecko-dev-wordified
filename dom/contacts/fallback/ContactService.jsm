@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-const
+let
 DEBUG
 =
 false
@@ -696,6 +696,10 @@ Contacts
 Find
 "
 :
+DEBUG
+=
+false
+;
 if
 (
 !
@@ -1278,6 +1282,10 @@ Contacts
 Clear
 "
 :
+DEBUG
+=
+true
+;
 if
 (
 !
