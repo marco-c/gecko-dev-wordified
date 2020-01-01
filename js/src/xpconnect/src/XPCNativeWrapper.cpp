@@ -2652,11 +2652,7 @@ interned_id
 )
 ;
 return
-ThrowException
-(
-NS_ERROR_XPC_SECURITY_MANAGER_VETO
-cx
-)
+JS_TRUE
 ;
 }
 JSBool
