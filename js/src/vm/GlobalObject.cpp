@@ -1478,8 +1478,8 @@ result
 *
 /
 v
-.
-setBoolean
+=
+BooleanValue
 (
 (
 !

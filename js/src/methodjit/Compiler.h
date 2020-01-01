@@ -2074,6 +2074,7 @@ GlobalObject
 *
 globalObj
 ;
+const
 Value
 *
 globalSlots

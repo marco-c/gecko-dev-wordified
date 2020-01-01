@@ -854,9 +854,11 @@ MarkValueRange
 JSTracer
 *
 trc
+const
 Value
 *
 beg
+const
 Value
 *
 end
@@ -874,6 +876,7 @@ JSTracer
 trc
 size_t
 len
+const
 Value
 *
 vec

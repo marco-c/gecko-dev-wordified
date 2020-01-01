@@ -3565,10 +3565,11 @@ getDenseArrayInitializedLength
 {
 copyFrom
 =
+&
 obj
 -
 >
-addressOfDenseArrayElement
+getDenseArrayElement
 (
 idx
 )
@@ -3632,10 +3633,11 @@ initialLength
 {
 copyFrom
 =
+&
 argsobj
 -
 >
-addressOfElement
+element
 (
 arg
 )
@@ -6460,7 +6462,7 @@ toString
 )
 ;
 \
-JSBool
+int32
 cmp
 ;
 \
