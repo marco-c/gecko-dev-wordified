@@ -447,6 +447,10 @@ true
 )
 ;
 }
+let
+dumpAppender
+rootLogger
+;
 function
 test
 (
@@ -484,7 +488,6 @@ js
 ns
 )
 ;
-let
 rootLogger
 =
 ns
@@ -495,8 +498,7 @@ repository
 .
 rootLogger
 ;
-let
-appender
+dumpAppender
 =
 new
 ns
@@ -507,7 +509,7 @@ DumpAppender
 (
 )
 ;
-appender
+dumpAppender
 .
 level
 =
@@ -523,7 +525,7 @@ rootLogger
 .
 addAppender
 (
-appender
+dumpAppender
 )
 ;
 let
@@ -971,6 +973,19 @@ test
 n
 "
 )
+;
+rootLogger
+.
+removeAppender
+(
+dumpAppender
+)
+;
+delete
+dumpAppender
+;
+delete
+rootLogger
 ;
 finish
 (
