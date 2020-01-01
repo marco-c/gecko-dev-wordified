@@ -987,16 +987,6 @@ event
 ;
 virtual
 bool
-RecvMouseScrollEvent
-(
-const
-nsMouseScrollEvent
-&
-event
-)
-;
-virtual
-bool
 RecvMouseWheelEvent
 (
 const
