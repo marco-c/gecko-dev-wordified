@@ -225,10 +225,8 @@ JSExternalString
 class
 JSStableString
 ;
-ForwardDeclareJS
-(
-InlineString
-)
+class
+JSInlineString
 ;
 class
 JSRope

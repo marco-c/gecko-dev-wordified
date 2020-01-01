@@ -231,7 +231,8 @@ len
 )
 )
 ;
-RawInlineString
+JSInlineString
+*
 str
 =
 JSInlineString
