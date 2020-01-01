@@ -507,7 +507,7 @@ h
 #
 include
 "
-nsICSSStyleSheet
+nsCSSStyleSheet
 .
 h
 "
@@ -2027,6 +2027,14 @@ RuleNodeInUse
 mUnusedRuleNodeCount
 ;
 }
+nsCSSStyleSheet
+:
+:
+EnsureUniqueInnerResult
+EnsureUniqueInnerOnCSSSheets
+(
+)
+;
 private
 :
 /
