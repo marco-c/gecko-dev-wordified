@@ -1513,7 +1513,7 @@ monitor
         
 self
 .
-handler
+_handler
 =
 TerminalLoggingHandler
 (
@@ -1521,7 +1521,7 @@ TerminalLoggingHandler
         
 self
 .
-handler
+_handler
 .
 setFormatter
 (
@@ -1532,7 +1532,7 @@ terminal_formatter
         
 self
 .
-handler
+_handler
 .
 footer
 =
@@ -1548,12 +1548,12 @@ replace_terminal_handler
 (
 self
 .
-handler
+_handler
 )
         
 self
 .
-handler
+_handler
 .
 level
 =
@@ -1594,6 +1594,26 @@ footer
 clear
 (
 )
+            
+#
+Prevents
+the
+footer
+from
+being
+redrawn
+if
+logging
+occurs
+.
+            
+self
+.
+_handler
+.
+footer
+=
+None
     
 def
 write_line
@@ -2010,6 +2030,22 @@ mozbuild
 util
 import
 resolve_target_to_make
+        
+self
+.
+log_manager
+.
+register_structured_logger
+(
+logging
+.
+getLogger
+(
+'
+mozbuild
+'
+)
+)
         
 warnings_path
 =
@@ -2494,6 +2530,12 @@ break
 else
 :
                 
+monitor
+.
+start_resource_recording
+(
+)
+                
 status
 =
 self
@@ -2578,6 +2620,12 @@ monitor
 .
 finish
 (
+record_usage
+=
+status
+=
+=
+0
 )
         
 high_finder
