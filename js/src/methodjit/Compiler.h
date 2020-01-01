@@ -757,6 +757,9 @@ callReturn
 bool
 hasTypeCheck
 ;
+ValueRemat
+vr
+;
 }
 ;
 struct

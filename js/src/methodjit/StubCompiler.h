@@ -796,6 +796,11 @@ STUB_CALL_TYPE
 BoolStub
 )
 ;
+STUB_CALL_TYPE
+(
+VoidStubAtom
+)
+;
 #
 undef
 STUB_CALL_TYPE
