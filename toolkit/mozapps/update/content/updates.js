@@ -10592,6 +10592,11 @@ status
 case
 CoR
 .
+NS_ERROR_CORRUPTED_CONTENT
+:
+case
+CoR
+.
 NS_ERROR_UNEXPECTED
 :
 if
