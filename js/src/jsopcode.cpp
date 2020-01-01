@@ -31568,10 +31568,7 @@ inner
 )
 )
 {
-Foreground
-:
-:
-delete_
+js_delete
 (
 jp
 -
@@ -31767,10 +31764,7 @@ fun
 =
 outerfun
 ;
-Foreground
-:
-:
-delete_
+js_delete
 (
 jp
 -
@@ -36672,10 +36666,7 @@ script
 =
 oldscript
 ;
-Foreground
-:
-:
-delete_
+js_delete
 (
 jp
 -

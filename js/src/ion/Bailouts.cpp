@@ -2005,10 +2005,7 @@ BailoutClosure
 *
 br
 =
-OffTheBooks
-:
-:
-new_
+js_new
 <
 BailoutClosure
 >
@@ -4420,10 +4417,7 @@ setMagic
 JS_ION_BAILOUT
 )
 ;
-cx
--
->
-delete_
+js_delete
 (
 br
 )
@@ -4641,10 +4635,7 @@ setPrivate
 fp
 )
 ;
-cx
--
->
-delete_
+js_delete
 (
 br
 )
@@ -4692,10 +4683,7 @@ is
 /
 removed
 .
-cx
--
->
-delete_
+js_delete
 (
 br
 )

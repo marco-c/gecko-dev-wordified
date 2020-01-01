@@ -1849,10 +1849,7 @@ ConvertFrames
 and
 ThunkToInterpreter
 .
-cx
--
->
-delete_
+js_delete
 (
 cx
 -

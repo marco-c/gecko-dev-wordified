@@ -5084,7 +5084,7 @@ this
 #
 ifdef
 JS_THREADSAFE
-delete_
+js_delete
 (
 workerThreadState
 )

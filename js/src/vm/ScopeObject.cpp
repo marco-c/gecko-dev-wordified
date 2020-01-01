@@ -1314,10 +1314,7 @@ if
 callobj
 )
 {
-cx
--
->
-free_
+js_delete
 (
 slots
 )
