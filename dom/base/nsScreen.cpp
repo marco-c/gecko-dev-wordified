@@ -1921,9 +1921,6 @@ value
 "
 )
 ;
-return
-false
-;
 }
 void
 nsScreen

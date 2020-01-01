@@ -3432,9 +3432,6 @@ frame
 ;
 #
 endif
-return
-false
-;
 }
 inline
 JSScript

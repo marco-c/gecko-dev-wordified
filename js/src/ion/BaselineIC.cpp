@@ -10675,9 +10675,6 @@ stub
 "
 )
 ;
-return
-false
-;
 }
 return
 stub
@@ -16750,9 +16747,6 @@ op
 "
 )
 ;
-return
-false
-;
 }
 if
 (
@@ -18845,9 +18839,6 @@ op
 "
 )
 ;
-return
-false
-;
 }
 masm
 .
@@ -19282,9 +19273,6 @@ BinaryArith_BooleanWithInt32
 "
 )
 ;
-return
-false
-;
 }
 /
 /
@@ -19646,9 +19634,6 @@ BinaryArith_DoubleWithInt32
 "
 )
 ;
-return
-false
-;
 }
 masm
 .
@@ -19863,9 +19848,6 @@ Unexpected
 op
 "
 )
-;
-return
-false
 ;
 }
 if

@@ -527,7 +527,7 @@ runtime
 (
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Not
@@ -545,7 +545,7 @@ check
 (
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Not
@@ -571,7 +571,7 @@ Reason
 reason
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Not
@@ -603,7 +603,7 @@ Reason
 reason
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Not
@@ -632,7 +632,7 @@ jsbytecode
 currentPc
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Not
@@ -656,7 +656,7 @@ jsbytecode
 pc
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Not

@@ -2581,8 +2581,6 @@ error
 "
 )
 ;
-return
-;
 #
 define
 COMPILE_EMSG

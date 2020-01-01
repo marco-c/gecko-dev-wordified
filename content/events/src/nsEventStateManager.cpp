@@ -8765,9 +8765,6 @@ event
 "
 )
 ;
-return
-false
-;
 }
 }
 }
@@ -15264,8 +15261,6 @@ comes
 "
 )
 ;
-return
-;
 }
 /
 /
@@ -17213,8 +17208,6 @@ comes
 "
 )
 ;
-return
-;
 }
 /
 /
@@ -17508,8 +17501,6 @@ value
 comes
 "
 )
-;
-return
 ;
 }
 nsIntPoint

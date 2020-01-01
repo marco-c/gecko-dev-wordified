@@ -661,15 +661,6 @@ kind
 "
 )
 ;
-return
-base
-;
-/
-/
-Silence
-GCC
-warning
-.
 }
 }
 static

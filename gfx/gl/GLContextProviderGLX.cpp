@@ -690,9 +690,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 ScopedGfxFeatureReporter
 reporter

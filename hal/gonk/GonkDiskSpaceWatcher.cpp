@@ -475,10 +475,6 @@ fd
 "
 )
 ;
-MOZ_CRASH
-(
-)
-;
 }
 void
 DoStart

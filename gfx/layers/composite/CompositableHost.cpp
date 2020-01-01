@@ -447,9 +447,6 @@ CompositableType
 "
 )
 ;
-return
-nullptr
-;
 }
 }
 void

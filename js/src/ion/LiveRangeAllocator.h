@@ -574,9 +574,6 @@ policy
 )
 ;
 }
-return
-false
-;
 }
 #
 ifdef
@@ -798,9 +795,6 @@ policy
 )
 ;
 }
-return
-false
-;
 }
 #
 endif

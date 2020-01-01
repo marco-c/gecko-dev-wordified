@@ -706,9 +706,6 @@ here
 "
 )
 ;
-return
-NS_ERROR_UNEXPECTED
-;
 }
 private
 :
@@ -4276,9 +4273,6 @@ here
 !
 "
 )
-;
-return
-NS_ERROR_UNEXPECTED
 ;
 }
 nsresult

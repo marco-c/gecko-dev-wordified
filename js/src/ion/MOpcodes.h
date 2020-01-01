@@ -1162,9 +1162,6 @@ NYI
 op
 )
 ;
-return
-false
-;
 }
 MIR_OPCODE_LIST
 (

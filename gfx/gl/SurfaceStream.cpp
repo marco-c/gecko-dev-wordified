@@ -282,9 +282,6 @@ Type
 "
 )
 ;
-return
-nullptr
-;
 }
 }
 void

@@ -536,11 +536,6 @@ here
 "
 )
 ;
-return
-PickleType
-(
-)
-;
 }
 /
 /

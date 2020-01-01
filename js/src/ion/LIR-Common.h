@@ -20155,9 +20155,6 @@ temps
 "
 )
 ;
-return
-NULL
-;
 }
 void
 setTemp
@@ -20205,9 +20202,6 @@ no
 successors
 "
 )
-;
-return
-NULL
 ;
 }
 void
@@ -21521,9 +21515,6 @@ no
 successors
 "
 )
-;
-return
-NULL
 ;
 }
 void

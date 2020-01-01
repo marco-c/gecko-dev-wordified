@@ -852,9 +852,6 @@ op
 "
 )
 ;
-return
-0
-;
 }
 }
 static
@@ -1532,9 +1529,6 @@ op
 "
 )
 ;
-return
-NULL
-;
 }
 if
 (
@@ -1558,9 +1552,6 @@ bad
 op
 "
 )
-;
-return
-NULL
 ;
 }
 #

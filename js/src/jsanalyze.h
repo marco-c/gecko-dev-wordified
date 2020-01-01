@@ -1338,9 +1338,6 @@ op
 "
 )
 ;
-return
-op
-;
 }
 }
 static
@@ -1414,9 +1411,6 @@ unrecognized
 op
 "
 )
-;
-return
-op
 ;
 }
 }
@@ -1748,9 +1742,6 @@ slot
 opcode
 "
 )
-;
-return
-0
 ;
 }
 }

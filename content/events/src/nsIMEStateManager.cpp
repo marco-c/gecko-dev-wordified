@@ -3445,9 +3445,6 @@ notification
 "
 )
 ;
-return
-NS_ERROR_INVALID_ARG
-;
 }
 MOZ_CRASH
 (
@@ -5791,9 +5788,6 @@ enable
 state
 "
 )
-;
-return
-false
 ;
 }
 }

@@ -1266,7 +1266,4 @@ NYI
 "
 )
 ;
-return
-true
-;
 }

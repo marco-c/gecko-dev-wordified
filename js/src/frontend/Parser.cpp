@@ -1351,8 +1351,6 @@ kind
 "
 )
 ;
-break
-;
 }
 return
 true
@@ -26419,8 +26417,6 @@ TOK_ASSIGN
 "
 )
 ;
-break
-;
 case
 PNK_ARRAY
 :
@@ -42671,18 +42667,6 @@ initializer
 "
 )
 ;
-assignType
-=
-VALUE
-;
-/
-*
-try
-to
-error
-early
-*
-/
 }
 AtomIndexAddPtr
 p

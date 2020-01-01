@@ -2156,9 +2156,6 @@ kind
 "
 )
 ;
-return
-Fail
-;
 }
 }
 OptionParser
@@ -2335,9 +2332,6 @@ argument
 kind
 "
 )
-;
-return
-Fail
 ;
 }
 }

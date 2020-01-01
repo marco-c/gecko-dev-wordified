@@ -529,9 +529,6 @@ called
 "
 )
 ;
-return
-false
-;
 }
 }
 ;
@@ -1526,9 +1523,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 MOZ_CRASH
 (
@@ -1540,9 +1534,6 @@ here
 !
 "
 )
-;
-return
-false
 ;
 }
 PBluetoothRequestParent

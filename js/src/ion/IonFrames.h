@@ -508,9 +508,6 @@ tag
 "
 )
 ;
-return
-NULL
-;
 }
 /
 /

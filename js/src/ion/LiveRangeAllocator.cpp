@@ -214,10 +214,6 @@ kind
 "
 )
 ;
-return
--
-1
-;
 }
 }
 bool

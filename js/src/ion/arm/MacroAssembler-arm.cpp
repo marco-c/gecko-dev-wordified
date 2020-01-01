@@ -4844,8 +4844,6 @@ registers
 "
 )
 ;
-break
-;
 }
 }
 void
@@ -5204,9 +5202,6 @@ NYI
 "
 )
 ;
-return
-Always
-;
 }
 Assembler
 :
@@ -5297,9 +5292,6 @@ Condition
 NYI
 "
 )
-;
-return
-Always
 ;
 }
 void

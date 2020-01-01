@@ -3699,8 +3699,6 @@ type
 "
 )
 ;
-break
-;
 }
 }
 template
@@ -3775,8 +3773,6 @@ array
 type
 "
 )
-;
-break
 ;
 }
 }
@@ -6537,12 +6533,6 @@ operation
 "
 )
 ;
-return
-Assembler
-:
-:
-DoubleEqual
-;
 }
 }
 /
@@ -6696,12 +6686,6 @@ operation
 "
 )
 ;
-return
-Assembler
-:
-:
-Equal
-;
 }
 }
 else
@@ -6781,12 +6765,6 @@ comparison
 operation
 "
 )
-;
-return
-Assembler
-:
-:
-Equal
 ;
 }
 }

@@ -1810,9 +1810,6 @@ message
 "
 )
 ;
-return
-NS_ERROR_UNEXPECTED
-;
 }
 void
 IndexedDBDatabaseParent
@@ -2764,9 +2761,6 @@ type
 "
 )
 ;
-return
-NS_ERROR_UNEXPECTED
-;
 }
 nsresult
 IndexedDBDatabaseParent
@@ -2984,9 +2978,6 @@ type
 !
 "
 )
-;
-return
-NS_ERROR_UNEXPECTED
 ;
 }
 void
@@ -4051,9 +4042,6 @@ me
 "
 )
 ;
-return
-false
-;
 }
 bool
 IndexedDBTransactionParent
@@ -4237,9 +4225,6 @@ me
 "
 )
 ;
-return
-false
-;
 }
 MOZ_CRASH
 (
@@ -4250,9 +4235,6 @@ type
 !
 "
 )
-;
-return
-false
 ;
 }
 PIndexedDBObjectStoreParent
@@ -5381,9 +5363,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 MOZ_CRASH
 (
@@ -5395,9 +5374,6 @@ here
 !
 "
 )
-;
-return
-false
 ;
 }
 PIndexedDBRequestParent
@@ -5730,9 +5706,6 @@ me
 "
 )
 ;
-return
-false
-;
 }
 bool
 IndexedDBObjectStoreParent
@@ -6029,9 +6002,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 MOZ_CRASH
 (
@@ -6043,9 +6013,6 @@ here
 !
 "
 )
-;
-return
-false
 ;
 }
 bool
@@ -6235,9 +6202,6 @@ me
 "
 )
 ;
-return
-false
-;
 }
 MOZ_CRASH
 (
@@ -6248,9 +6212,6 @@ type
 !
 "
 )
-;
-return
-false
 ;
 }
 PIndexedDBRequestParent
@@ -6362,9 +6323,6 @@ cursor
 !
 "
 )
-;
-return
-NULL
 ;
 }
 bool
@@ -7509,9 +7467,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 MOZ_CRASH
 (
@@ -7523,9 +7478,6 @@ here
 !
 "
 )
-;
-return
-false
 ;
 }
 PIndexedDBRequestParent
@@ -7599,9 +7551,6 @@ cursor
 !
 "
 )
-;
-return
-NULL
 ;
 }
 bool
@@ -8477,9 +8426,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 {
 AutoSetCurrentTransaction
@@ -9119,9 +9065,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 nsRefPtr
 <
@@ -9295,9 +9238,6 @@ type
 !
 "
 )
-;
-return
-false
 ;
 }
 size_t
@@ -9997,9 +9937,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 {
 AutoSetCurrentTransaction
@@ -10184,9 +10121,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 {
 AutoSetCurrentTransaction
@@ -10364,9 +10298,6 @@ type
 !
 "
 )
-;
-return
-false
 ;
 }
 nsRefPtr
@@ -10546,9 +10477,6 @@ type
 !
 "
 )
-;
-return
-false
 ;
 }
 size_t
@@ -10743,9 +10671,6 @@ type
 !
 "
 )
-;
-return
-false
 ;
 }
 size_t
@@ -11886,8 +11811,5 @@ overridden
 !
 "
 )
-;
-return
-NS_ERROR_FAILURE
 ;
 }

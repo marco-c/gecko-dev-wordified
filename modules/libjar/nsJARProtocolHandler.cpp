@@ -497,9 +497,6 @@ process
 "
 )
 ;
-return
-false
-;
 }
 RemoteFileListenerArray
 *
@@ -615,8 +612,6 @@ process
 !
 "
 )
-;
-return
 ;
 }
 RemoteFileListenerArray

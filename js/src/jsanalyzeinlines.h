@@ -551,9 +551,6 @@ value
 "
 )
 ;
-return
-NULL
-;
 }
 }
 inline

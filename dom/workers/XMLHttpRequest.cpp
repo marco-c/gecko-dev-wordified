@@ -1555,12 +1555,6 @@ type
 "
 )
 ;
-return
-XMLHttpRequestResponseType
-:
-:
-_empty
-;
 }
 enum
 {

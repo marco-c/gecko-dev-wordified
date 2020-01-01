@@ -1888,8 +1888,6 @@ Decode
 "
 )
 ;
-break
-;
 }
 }
 class

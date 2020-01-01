@@ -557,9 +557,6 @@ here
 "
 )
 ;
-return
-NS_ERROR_FAILURE
-;
 }
 return
 NS_OK

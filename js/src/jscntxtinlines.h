@@ -3773,9 +3773,6 @@ kind
 "
 )
 ;
-return
-NoGC
-;
 }
 }
 #

@@ -394,11 +394,6 @@ BailoutKind
 )
 ;
 }
-return
-"
-INVALID_BAILOUT_KIND
-"
-;
 }
 #
 endif
@@ -574,9 +569,6 @@ jsval
 type
 "
 )
-;
-return
-MIRType_None
 ;
 }
 }
@@ -808,10 +800,6 @@ MIRType
 .
 "
 )
-;
-return
-"
-"
 ;
 }
 }

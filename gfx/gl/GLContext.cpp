@@ -10865,8 +10865,6 @@ format
 "
 )
 ;
-return
-;
 }
 MOZ_ASSERT
 (
@@ -11036,8 +11034,6 @@ format
 "
 )
 ;
-return
-;
 }
 }
 switch
@@ -11114,8 +11110,6 @@ type
 .
 "
 )
-;
-return
 ;
 }
 }

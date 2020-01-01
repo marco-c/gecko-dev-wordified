@@ -11301,9 +11301,6 @@ platform
 "
 )
 ;
-return
-nullptr
-;
 #
 endif
 }
@@ -11342,9 +11339,6 @@ platform
 !
 "
 )
-;
-return
-false
 ;
 #
 endif
@@ -11413,9 +11407,6 @@ platform
 !
 "
 )
-;
-return
-false
 ;
 #
 endif

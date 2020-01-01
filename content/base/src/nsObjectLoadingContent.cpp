@@ -18289,9 +18289,6 @@ enabledState
 "
 )
 ;
-return
-false
-;
 }
 nsIDocument
 *

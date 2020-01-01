@@ -16097,9 +16097,6 @@ used
 "
 )
 ;
-return
-1
-;
 }
 bool
 canBeNegativeZero
@@ -16288,9 +16285,6 @@ not
 used
 "
 )
-;
-return
-1
 ;
 }
 bool

@@ -777,9 +777,6 @@ condition
 "
 )
 ;
-return
-Equal
-;
 }
 }
 void

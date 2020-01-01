@@ -2926,7 +2926,4 @@ type
 "
 )
 ;
-return
-AUDIO_CHANNEL_INT_LAST
-;
 }

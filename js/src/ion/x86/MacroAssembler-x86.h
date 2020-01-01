@@ -712,15 +712,6 @@ kind
 "
 )
 ;
-return
-base
-;
-/
-/
-Silence
-GCC
-warning
-.
 }
 }
 void

@@ -818,9 +818,9 @@ expr
 \
 JS_BEGIN_MACRO
 \
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSERT
 (
-expr
+false
 )
 ;
 \

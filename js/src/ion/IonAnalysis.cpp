@@ -4451,8 +4451,6 @@ type
 "
 )
 ;
-return
-;
 }
 MConstant
 *

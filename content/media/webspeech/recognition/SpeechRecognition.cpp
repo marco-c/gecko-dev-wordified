@@ -1030,8 +1030,6 @@ aEvent
 ;
 MOZ_CRASH
 (
-"
-"
 )
 ;
 case
@@ -1137,8 +1135,6 @@ mType
 ;
 MOZ_CRASH
 (
-"
-"
 )
 ;
 case
@@ -1244,8 +1240,6 @@ aEvent
 ;
 MOZ_CRASH
 (
-"
-"
 )
 ;
 case
@@ -1351,8 +1345,6 @@ aEvent
 ;
 MOZ_CRASH
 (
-"
-"
 )
 ;
 case
@@ -1458,8 +1450,6 @@ aEvent
 ;
 MOZ_CRASH
 (
-"
-"
 )
 ;
 case

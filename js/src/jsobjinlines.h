@@ -8714,9 +8714,6 @@ classValue
 "
 )
 ;
-return
-false
-;
 }
 inline
 bool

@@ -1043,11 +1043,6 @@ ContentClient
 "
 )
 ;
-return
-TextureInfo
-(
-)
-;
 }
 private
 :

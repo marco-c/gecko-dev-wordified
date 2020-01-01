@@ -360,9 +360,6 @@ manager
 "
 )
 ;
-return
-nullptr
-;
 }
 }
 }

@@ -4635,9 +4635,6 @@ found
 "
 )
 ;
-return
-NULL
-;
 }
 const
 OsiIndex
@@ -4709,9 +4706,6 @@ return
 address
 "
 )
-;
-return
-NULL
 ;
 }
 const
@@ -12047,8 +12041,6 @@ MOZ_ASSUME_NOT_REACHED
 invalid
 "
 )
-;
-break
 ;
 case
 IonFrame_Unwound_Rectifier

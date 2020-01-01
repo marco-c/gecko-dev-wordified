@@ -588,7 +588,7 @@ UChar
 s
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 u_strlen
@@ -598,9 +598,6 @@ API
 disabled
 "
 )
-;
-return
-0
 ;
 }
 struct
@@ -618,7 +615,7 @@ UErrorCode
 status
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 uenum_count
@@ -628,14 +625,6 @@ API
 disabled
 "
 )
-;
-*
-status
-=
-U_UNSUPPORTED_ERROR
-;
-return
-0
 ;
 }
 static
@@ -655,7 +644,7 @@ UErrorCode
 status
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 uenum_next
@@ -665,14 +654,6 @@ API
 disabled
 "
 )
-;
-*
-status
-=
-U_UNSUPPORTED_ERROR
-;
-return
-NULL
 ;
 }
 static
@@ -684,7 +665,7 @@ UEnumeration
 en
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 uenum_close
@@ -765,7 +746,7 @@ ucol_countAvailable
 void
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 ucol_countAvailable
@@ -787,7 +768,7 @@ int32_t
 localeIndex
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 ucol_getAvailable
@@ -813,7 +794,7 @@ UErrorCode
 status
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 ucol_open
@@ -841,7 +822,7 @@ UErrorCode
 status
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 ucol_setAttribute
@@ -875,7 +856,7 @@ int32_t
 targetLength
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 ucol_strcoll
@@ -896,7 +877,7 @@ UCollator
 coll
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 ucol_close
@@ -928,7 +909,7 @@ UErrorCode
 status
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 ucol_getKeywordValuesForLocale
@@ -995,7 +976,7 @@ unum_countAvailable
 void
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unum_countAvailable
@@ -1017,7 +998,7 @@ int32_t
 localeIndex
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unum_getAvailable
@@ -1054,7 +1035,7 @@ UErrorCode
 status
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unum_open
@@ -1079,7 +1060,7 @@ int32_t
 newValue
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unum_setAttribute
@@ -1114,7 +1095,7 @@ UErrorCode
 status
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unum_formatDouble
@@ -1135,7 +1116,7 @@ UNumberFormat
 fmt
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unum_close
@@ -1167,7 +1148,7 @@ UErrorCode
 status
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unum_setTextAttribute
@@ -1235,7 +1216,7 @@ char
 keywordsAndValues
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Locale
@@ -1294,7 +1275,7 @@ UErrorCode
 status
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NumberingSystem
@@ -1319,7 +1300,7 @@ getName
 (
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NumberingSystem
@@ -1371,7 +1352,7 @@ UErrorCode
 status
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 ucal_open
@@ -1398,7 +1379,7 @@ UErrorCode
 status
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 ucal_getType
@@ -1430,7 +1411,7 @@ UErrorCode
 status
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 ucal_getKeywordValuesForLocale
@@ -1451,7 +1432,7 @@ UCalendar
 cal
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 ucal_close
@@ -1482,7 +1463,7 @@ UErrorCode
 pErrorCode
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 udatpg_open
@@ -1517,7 +1498,7 @@ UErrorCode
 pErrorCode
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 udatpg_getBestPattern
@@ -1538,7 +1519,7 @@ UDateTimePatternGenerator
 dtpg
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 udatpg_close
@@ -1579,7 +1560,7 @@ udat_countAvailable
 void
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 udat_countAvailable
@@ -1601,7 +1582,7 @@ int32_t
 localeIndex
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 udat_getAvailable
@@ -1643,7 +1624,7 @@ UErrorCode
 status
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 udat_open
@@ -1667,7 +1648,7 @@ UDateFormat
 fmt
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 udat_getCalendar
@@ -1693,7 +1674,7 @@ UErrorCode
 pErrorCode
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 ucal_setGregorianChange
@@ -1728,7 +1709,7 @@ UErrorCode
 status
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 udat_format
@@ -1749,7 +1730,7 @@ UDateFormat
 format
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 udat_close

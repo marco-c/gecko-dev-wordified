@@ -807,9 +807,6 @@ condition
 "
 )
 ;
-return
-NaN_HandledByCond
-;
 }
 static
 void

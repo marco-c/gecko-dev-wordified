@@ -1042,9 +1042,6 @@ fun_getProperty
 "
 )
 ;
-return
-false
-;
 }
 /
 *
@@ -12190,8 +12187,5 @@ get
 here
 "
 )
-;
-return
-false
 ;
 }

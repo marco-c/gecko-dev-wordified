@@ -5258,8 +5258,6 @@ type
 "
 )
 ;
-break
-;
 case
 VMFunction
 :
@@ -6550,8 +6548,6 @@ type
 "
 )
 ;
-break
-;
 case
 VMFunction
 :
@@ -6827,8 +6823,6 @@ invalid
 "
 )
 ;
-break
-;
 case
 IonFrame_Rectifier
 :
@@ -6884,8 +6878,6 @@ frame
 type
 "
 )
-;
-break
 ;
 }
 }
@@ -7788,11 +7780,6 @@ payload
 "
 )
 ;
-return
-UndefinedValue
-(
-)
-;
 }
 }
 bool
@@ -8174,11 +8161,6 @@ MOZ_ASSUME_NOT_REACHED
 huh
 ?
 "
-)
-;
-return
-UndefinedValue
-(
 )
 ;
 }

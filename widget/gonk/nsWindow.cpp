@@ -1101,8 +1101,6 @@ rotation
 "
 )
 ;
-break
-;
 }
 sVirtualBounds
 =
@@ -4152,9 +4150,6 @@ known
 rotation
 "
 )
-;
-return
-eScreenOrientation_None
 ;
 }
 }

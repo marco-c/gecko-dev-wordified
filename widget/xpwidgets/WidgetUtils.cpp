@@ -233,8 +233,6 @@ rotation
 "
 )
 ;
-break
-;
 }
 return
 transform

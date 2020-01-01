@@ -4292,7 +4292,7 @@ double
 d
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 didn
@@ -8111,9 +8111,6 @@ NYI
 "
 )
 ;
-return
-false
-;
 }
 inline
 bool
@@ -8772,9 +8769,6 @@ MOZ_ASSUME_NOT_REACHED
 NYI
 "
 )
-;
-return
-Failure
 ;
 }
 /

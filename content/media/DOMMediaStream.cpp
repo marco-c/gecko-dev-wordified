@@ -1261,9 +1261,6 @@ type
 "
 )
 ;
-return
-nullptr
-;
 }
 mTracks
 .

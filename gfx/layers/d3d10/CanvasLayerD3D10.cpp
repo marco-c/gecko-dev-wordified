@@ -1056,8 +1056,6 @@ SharedSurfaceType
 "
 )
 ;
-return
-;
 }
 }
 else

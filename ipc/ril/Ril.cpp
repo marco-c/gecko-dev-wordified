@@ -854,10 +854,6 @@ nsAString
 aAddrStr
 )
 {
-/
-/
-Unused
-.
 MOZ_CRASH
 (
 "

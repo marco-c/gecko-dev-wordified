@@ -440,13 +440,7 @@ MOZ_CRASH
 (
 )
 ;
-break
-;
 }
-MOZ_CRASH
-(
-)
-;
 }
 /
 /

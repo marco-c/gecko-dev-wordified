@@ -1966,7 +1966,7 @@ CallArgs
 args
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 callable
@@ -1996,7 +1996,7 @@ CallArgs
 args
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 callable
@@ -2055,7 +2055,7 @@ unsigned
 indent
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 callable
@@ -2084,7 +2084,7 @@ RegExpGuard
 g
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 This

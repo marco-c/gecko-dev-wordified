@@ -498,9 +498,6 @@ function
 "
 )
 ;
-return
-0
-;
 }
 virtual
 GLuint
@@ -535,9 +532,6 @@ function
 ?
 "
 )
-;
-return
-0
 ;
 }
 }

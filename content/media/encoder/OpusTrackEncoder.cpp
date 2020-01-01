@@ -1486,8 +1486,6 @@ state
 "
 )
 ;
-break
-;
 }
 return
 NS_OK

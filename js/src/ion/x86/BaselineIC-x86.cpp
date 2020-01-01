@@ -1539,9 +1539,6 @@ BinaryArith_Int32
 "
 )
 ;
-return
-false
-;
 }
 /
 /
@@ -1893,9 +1890,6 @@ Unexpected
 op
 "
 )
-;
-return
-false
 ;
 }
 EmitReturnFromIC

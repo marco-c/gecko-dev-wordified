@@ -4072,9 +4072,6 @@ relocation
 "
 )
 ;
-return
-NULL
-;
 }
 uintptr_t
 Assembler
@@ -4507,9 +4504,6 @@ unsupported
 relocation
 "
 )
-;
-return
-NULL
 ;
 }
 static
@@ -11114,7 +11108,7 @@ suite
 at
 all
 .
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 ARMAssembler
@@ -12407,11 +12401,6 @@ MOZ_ASSUME_NOT_REACHED
 Feature
 NYI
 "
-)
-;
-return
-BufferOffset
-(
 )
 ;
 }

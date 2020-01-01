@@ -220,9 +220,6 @@ MobileMessageData
 "
 )
 ;
-return
-nullptr
-;
 }
 return
 message
@@ -496,9 +493,6 @@ request
 "
 )
 ;
-return
-nullptr
-;
 }
 bool
 SmsChild
@@ -545,9 +539,6 @@ cursor
 !
 "
 )
-;
-return
-nullptr
 ;
 }
 bool
@@ -1119,9 +1110,6 @@ parameters
 "
 )
 ;
-return
-false
-;
 }
 return
 true
@@ -1440,9 +1428,6 @@ parameters
 !
 "
 )
-;
-return
-false
 ;
 }
 mCursorCallback

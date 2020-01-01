@@ -7670,9 +7670,6 @@ opcode
 "
 )
 ;
-return
-false
-;
 }
 return
 true

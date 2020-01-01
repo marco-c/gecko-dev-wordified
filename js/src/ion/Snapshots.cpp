@@ -1948,12 +1948,6 @@ huh
 "
 )
 ;
-return
-Slot
-(
-JS_UNDEFINED
-)
-;
 }
 SnapshotOffset
 SnapshotWriter
@@ -2539,10 +2533,6 @@ no
 payload
 "
 )
-;
-return
-"
-"
 ;
 }
 }

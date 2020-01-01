@@ -1489,10 +1489,6 @@ MOZ_CRASH
 (
 )
 ;
-MOZ_CRASH
-(
-)
-;
 }
 }
 ;

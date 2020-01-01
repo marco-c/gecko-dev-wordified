@@ -15600,7 +15600,7 @@ break
 }
 default
 :
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 copyFrom
@@ -16197,8 +16197,6 @@ unknown
 type
 "
 )
-;
-break
 ;
 }
 js_free
@@ -24196,9 +24194,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 bool
 js
@@ -25027,12 +25022,6 @@ ArrayBufferView
 type
 "
 )
-;
-return
-ArrayBufferView
-:
-:
-TYPE_MAX
 ;
 }
 JS_FRIEND_API

@@ -314,9 +314,6 @@ host
 "
 )
 ;
-return
-nullptr
-;
 }
 }
 TextureHost

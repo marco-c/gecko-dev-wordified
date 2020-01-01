@@ -472,12 +472,6 @@ aCertUsage
 "
 )
 ;
-return
-nsIX509Cert
-:
-:
-NOT_VERIFIED_UNKNOWN
-;
 }
 if
 (
@@ -646,12 +640,6 @@ check
 )
 "
 )
-;
-return
-nsIX509Cert
-:
-:
-NOT_VERIFIED_UNKNOWN
 ;
 }
 SECStatus

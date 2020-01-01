@@ -1212,8 +1212,6 @@ MOZ_CRASH
 (
 )
 ;
-return
-;
 }
 }
 /

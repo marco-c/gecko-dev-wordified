@@ -5585,9 +5585,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 if
 (
@@ -5804,9 +5801,6 @@ TypedArray
 type
 "
 )
-;
-return
-0
 ;
 }
 }
@@ -6065,9 +6059,6 @@ TypedArray
 type
 "
 )
-;
-return
-false
 ;
 }
 }

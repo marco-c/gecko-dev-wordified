@@ -11344,9 +11344,6 @@ case
 "
 )
 ;
-return
-false
-;
 }
 case
 PNK_TYPEOF
@@ -11474,9 +11471,6 @@ default
 case
 "
 )
-;
-return
-false
 ;
 case
 PN_NAME

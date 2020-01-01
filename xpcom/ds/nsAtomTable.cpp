@@ -2838,10 +2838,6 @@ MOZ_CRASH
 (
 )
 ;
-MOZ_CRASH
-(
-)
-;
 }
 static
 inline
