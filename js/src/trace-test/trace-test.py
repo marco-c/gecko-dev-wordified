@@ -1050,7 +1050,12 @@ show_cmd
         
 print
 (
+subprocess
+.
+list2cmdline
+(
 cmd
+)
 )
     
 #
