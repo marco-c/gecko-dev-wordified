@@ -5758,8 +5758,6 @@ em
 .
 updateAndGetNewBlocklistedItems
 (
-{
-}
 )
 ;
 for

@@ -4805,8 +4805,6 @@ nsIUpdateItem
 .
 TYPE_ANY
 false
-{
-}
 )
 ;
 if
@@ -4857,8 +4855,6 @@ nsIUpdateItem
 .
 TYPE_ANY
 false
-{
-}
 )
 ;
 for

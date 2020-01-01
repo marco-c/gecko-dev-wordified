@@ -21082,8 +21082,6 @@ getDependentItemListForID
 (
 id
 true
-{
-}
 )
 ;
 }
@@ -21907,8 +21905,6 @@ getDependentItemListForID
 (
 id
 false
-{
-}
 )
 ;
 if

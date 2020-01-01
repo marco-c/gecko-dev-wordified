@@ -4031,8 +4031,6 @@ Ci
 nsIUpdateItem
 .
 TYPE_EXTENSION
-{
-}
 )
 ;
 for

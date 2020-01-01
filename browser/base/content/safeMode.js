@@ -802,8 +802,6 @@ em
 getItemList
 (
 type
-{
-}
 )
 ;
 for

@@ -1187,8 +1187,6 @@ nsIUpdateItem
 .
 TYPE_ANY
 false
-{
-}
 )
 ;
 /

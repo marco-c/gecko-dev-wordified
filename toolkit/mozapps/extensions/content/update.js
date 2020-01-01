@@ -637,8 +637,6 @@ getItemList
 nsIUpdateItem
 .
 TYPE_ANY
-{
-}
 )
 ;
 this
@@ -1628,8 +1626,6 @@ nsIUpdateItem
 .
 TYPE_ANY
 true
-{
-}
 )
 ;
 gUpdateWizard
