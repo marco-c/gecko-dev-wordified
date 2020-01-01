@@ -1868,7 +1868,7 @@ slot
 )
 ;
 }
-CalleeToken
+void
 MarkCalleeToken
 (
 JSTracer

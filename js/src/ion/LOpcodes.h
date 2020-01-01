@@ -778,16 +778,6 @@ MonitorTypes
 \
 _
 (
-PostWriteBarrierO
-)
-\
-_
-(
-PostWriteBarrierV
-)
-\
-_
-(
 InitializedLength
 )
 \
