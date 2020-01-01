@@ -1516,6 +1516,14 @@ WeakMapAtom
 *
 /
 "
+byteLength
+"
+/
+*
+byteLengthAtom
+*
+/
+"
 return
 "
 /
