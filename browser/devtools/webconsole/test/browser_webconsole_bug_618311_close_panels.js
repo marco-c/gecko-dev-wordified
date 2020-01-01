@@ -637,7 +637,7 @@ EventUtils
 .
 synthesizeMouse
 (
-networkLink
+jstermMessage
 2
 2
 {
@@ -648,7 +648,7 @@ EventUtils
 .
 synthesizeMouse
 (
-jstermMessage
+networkLink
 2
 2
 {
