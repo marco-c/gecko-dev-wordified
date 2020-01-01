@@ -14654,7 +14654,8 @@ i
 ;
 if
 (
-JSVAL_IS_OBJECT
+!
+JSVAL_IS_PRIMITIVE
 (
 v
 )
@@ -14681,9 +14682,6 @@ aobj
 ;
 if
 (
-aobj
-&
-&
 OBJ_IS_ARRAY
 (
 cx
