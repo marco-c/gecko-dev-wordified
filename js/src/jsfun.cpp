@@ -3758,13 +3758,13 @@ NULL
 call
 *
 /
+fun_hasInstance
 NULL
 /
 *
 construct
 *
 /
-fun_hasInstance
 fun_trace
 }
 ;

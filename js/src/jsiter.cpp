@@ -8705,13 +8705,13 @@ NULL
 call
 *
 /
+stopiter_hasInstance
 NULL
 /
 *
 construct
 *
 /
-stopiter_hasInstance
 }
 ;
 #

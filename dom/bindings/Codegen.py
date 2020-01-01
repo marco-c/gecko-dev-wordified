@@ -786,14 +786,14 @@ call
 NULL
 /
 *
-construct
+hasInstance
 *
 /
     
 NULL
 /
 *
-hasInstance
+construct
 *
 /
     
@@ -1005,14 +1005,14 @@ call
 NULL
 /
 *
-construct
+hasInstance
 *
 /
   
 NULL
 /
 *
-hasInstance
+construct
 *
 /
   
@@ -1207,7 +1207,7 @@ call
 s
 /
 *
-construct
+hasInstance
 *
 /
   
@@ -1215,7 +1215,7 @@ construct
 s
 /
 *
-hasInstance
+construct
 *
 /
   
@@ -1235,8 +1235,8 @@ JSCLASS_NO_INTERNAL_MEMBERS
 %
 (
 ctorname
-ctorname
 hasinstance
+ctorname
 )
 class
 CGList
