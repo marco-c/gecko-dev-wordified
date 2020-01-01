@@ -1494,11 +1494,14 @@ jschar
 *
 pos
 ;
-JSCompartment
+Zone
 *
-comp
+zone
 =
-compartment
+this
+-
+>
+zone
 (
 )
 ;
@@ -1675,7 +1678,7 @@ exit
 /
 StringWriteBarrierPostRemove
 (
-comp
+zone
 &
 left
 .
@@ -1688,7 +1691,7 @@ left
 ;
 StringWriteBarrierPost
 (
-comp
+zone
 (
 JSString
 *
@@ -1802,7 +1805,7 @@ pos
 ;
 StringWriteBarrierPostRemove
 (
-comp
+zone
 &
 str
 -
@@ -2074,7 +2077,7 @@ wholeCapacity
 ;
 StringWriteBarrierPostRemove
 (
-comp
+zone
 &
 str
 -
@@ -2088,7 +2091,7 @@ left
 ;
 StringWriteBarrierPostRemove
 (
-comp
+zone
 &
 str
 -
@@ -2172,7 +2175,7 @@ exit
 /
 StringWriteBarrierPost
 (
-comp
+zone
 (
 JSString
 *
@@ -2244,7 +2247,7 @@ if
 JSGC_INCREMENTAL
 if
 (
-compartment
+zone
 (
 )
 -
