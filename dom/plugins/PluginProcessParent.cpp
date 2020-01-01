@@ -499,7 +499,7 @@ aPluginFilePath
 :
 GeckoChildProcessHost
 (
-GeckoChildProcess_Plugin
+GeckoProcessType_Plugin
 )
 mPluginFilePath
 (

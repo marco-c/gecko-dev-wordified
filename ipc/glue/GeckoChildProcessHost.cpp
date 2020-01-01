@@ -496,7 +496,7 @@ GeckoChildProcessHost
 :
 GeckoChildProcessHost
 (
-GeckoChildProcessType
+GeckoProcessType
 aProcessType
 )
 :
