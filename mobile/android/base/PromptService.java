@@ -1669,8 +1669,6 @@ String
 GeckoApp
 .
 mAppContext
-android
-.
 R
 .
 layout
@@ -2590,8 +2588,6 @@ else
 {
 resourceId
 =
-android
-.
 R
 .
 layout
