@@ -1078,7 +1078,6 @@ folder
 s
 children
 informations
-typedef
 struct
 folderChildrenInfo
 {
