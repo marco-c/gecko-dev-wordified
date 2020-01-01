@@ -6234,7 +6234,7 @@ drawn
 /
 virtual
 void
-DrawOver
+DrawWindowOverlay
 (
 LayerManager
 *

@@ -469,7 +469,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-nsRect
+nsIntRect
 &
 aDamageArea
 )
@@ -2791,7 +2791,7 @@ PRInt32
 aFirstRowIndex
 bool
 aConsiderSpans
-nsRect
+nsIntRect
 &
 aDamageArea
 )
@@ -3066,7 +3066,7 @@ PRInt32
 aNumRowsToRemove
 bool
 aConsiderSpans
-nsRect
+nsIntRect
 &
 aDamageArea
 )
@@ -3230,7 +3230,7 @@ PRInt32
 aRowIndex
 bool
 aRebuildIfNecessary
-nsRect
+nsIntRect
 &
 aDamageArea
 )
@@ -3425,7 +3425,7 @@ PRInt32
 aRowIndex
 PRInt32
 aColIndexBefore
-nsRect
+nsIntRect
 &
 aDamageArea
 )
@@ -3530,7 +3530,7 @@ nsTableCellFrame
 aCellFrame
 PRInt32
 aRowIndex
-nsRect
+nsIntRect
 &
 aDamageArea
 )
@@ -3746,7 +3746,7 @@ PRInt32
 aColIndex
 bool
 aInsert
-nsRect
+nsIntRect
 &
 aDamageArea
 )
@@ -3871,7 +3871,7 @@ nsTableRowFrame
 aRowsToInsert
 PRInt32
 aNumRowsToRemove
-nsRect
+nsIntRect
 &
 aDamageArea
 )
@@ -4414,7 +4414,10 @@ X
 %
 d
 "
+PRInt32
+(
 size
+)
 owner
 segStart
 )
@@ -4451,7 +4454,10 @@ X
 %
 d
 "
+PRInt32
+(
 size
+)
 owner
 segStart
 )
@@ -4481,7 +4487,10 @@ X
 %
 d
 "
+PRInt32
+(
 size
+)
 side
 bevel
 )
@@ -4527,7 +4536,10 @@ X
 %
 d
 "
+PRInt32
+(
 size
+)
 owner
 segStart
 )
@@ -4564,7 +4576,10 @@ X
 %
 d
 "
+PRInt32
+(
 size
+)
 owner
 segStart
 )
@@ -4594,7 +4609,10 @@ X
 %
 d
 "
+PRInt32
+(
 size
+)
 side
 bevel
 )
@@ -5921,7 +5939,7 @@ a
 dead
 cell
 data
-nsRect
+nsIntRect
 damageArea
 ;
 cellData
@@ -6046,7 +6064,7 @@ add
 a
 dead
 cell
-nsRect
+nsIntRect
 damageArea
 ;
 cellData
@@ -6602,7 +6620,7 @@ a
 dead
 cell
 data
-nsRect
+nsIntRect
 damageArea
 ;
 cellData
@@ -6706,7 +6724,7 @@ add
 a
 dead
 cell
-nsRect
+nsIntRect
 damageArea
 ;
 cellData
@@ -7796,7 +7814,7 @@ bool
 aConsiderSpans
 PRInt32
 aRgFirstRowIndex
-nsRect
+nsIntRect
 &
 aDamageArea
 )
@@ -8085,7 +8103,7 @@ bool
 aConsiderSpans
 PRInt32
 aRgFirstRowIndex
-nsRect
+nsIntRect
 &
 aDamageArea
 )
@@ -8282,7 +8300,7 @@ bool
 aRebuildIfNecessary
 PRInt32
 aRgFirstRowIndex
-nsRect
+nsIntRect
 &
 aDamageArea
 PRInt32
@@ -10501,7 +10519,7 @@ PRInt32
 aColIndexBefore
 PRInt32
 aRgFirstRowIndex
-nsRect
+nsIntRect
 &
 aDamageArea
 )
@@ -10932,7 +10950,7 @@ PRInt32
 aStartRowIndexIn
 PRInt32
 aRgFirstRowIndex
-nsRect
+nsIntRect
 &
 aDamageArea
 )
@@ -11216,7 +11234,7 @@ bool
 aRowSpanIsZero
 PRInt32
 aRgFirstRowIndex
-nsRect
+nsIntRect
 &
 aDamageArea
 )
@@ -12055,7 +12073,7 @@ PRInt32
 aNumRowsToRemove
 PRInt32
 aRgFirstRowIndex
-nsRect
+nsIntRect
 &
 aDamageArea
 )
@@ -13130,7 +13148,7 @@ PRInt32
 aColIndex
 PRInt32
 aRgFirstRowIndex
-nsRect
+nsIntRect
 &
 aDamageArea
 )
@@ -14046,7 +14064,7 @@ rowX
 =
 0
 ;
-nsRect
+nsIntRect
 damageArea
 ;
 /
@@ -14750,7 +14768,7 @@ perhaps
 PRInt32
 rowX
 ;
-nsRect
+nsIntRect
 damageArea
 ;
 for
@@ -15145,7 +15163,7 @@ PRInt32
 aRowIndex
 PRInt32
 aRgFirstRowIndex
-nsRect
+nsIntRect
 &
 aDamageArea
 )
@@ -16478,7 +16496,10 @@ d
 %
 d
 "
+PRInt32
+(
 size
+)
 owner
 segStart
 )
@@ -16518,7 +16539,10 @@ d
 %
 d
 "
+PRInt32
+(
 size
+)
 owner
 segStart
 )
@@ -16551,7 +16575,10 @@ d
 %
 d
 "
+PRInt32
+(
 size
+)
 side
 bevel
 )

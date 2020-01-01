@@ -7553,7 +7553,7 @@ aAncestor
 return
 ctm
 .
-ProjectRectBounds
+TransformBounds
 (
 aRect
 )

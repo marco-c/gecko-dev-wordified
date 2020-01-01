@@ -962,8 +962,6 @@ if
 height
 >
 0
-.
-0f
 )
 {
 SetHasPctHeight
@@ -1213,7 +1211,7 @@ GetStyleContext
 )
 )
 {
-nsRect
+nsIntRect
 damageArea
 (
 0

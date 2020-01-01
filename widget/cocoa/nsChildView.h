@@ -3412,7 +3412,7 @@ GetThebesSurface
 ;
 virtual
 void
-DrawOver
+DrawWindowOverlay
 (
 LayerManager
 *
