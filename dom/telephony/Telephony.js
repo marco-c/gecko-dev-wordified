@@ -1203,7 +1203,7 @@ that
 Telephony
 registers
 with
-nsIRadioInterface
+nsITelephone
 .
 *
 Telephony
@@ -1255,12 +1255,12 @@ generateQI
 [
 Ci
 .
-nsIRadioCallback
+nsITelephoneCallback
 ]
 )
 /
 /
-nsIRadioCallback
+nsITelephoneCallback
 onsignalstrengthchange
 :
 function
@@ -1521,7 +1521,7 @@ createInstance
 (
 Ci
 .
-nsIRadioInterface
+nsITelephone
 )
 ;
 this

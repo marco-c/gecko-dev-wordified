@@ -600,7 +600,7 @@ Ci
 nsITelephonyWorker
 Ci
 .
-nsIRadioInterface
+nsITelephone
 ]
 }
 )
@@ -616,7 +616,7 @@ Ci
 nsITelephonyWorker
 Ci
 .
-nsIRadioInterface
+nsITelephone
 ]
 )
 onerror
@@ -996,13 +996,13 @@ value
 }
 /
 /
-nsITelephonWorker
+nsITelephonyWorker
 worker
 :
 null
 /
 /
-nsIRadioInterface
+nsITelephone
 initialState
 :
 null
