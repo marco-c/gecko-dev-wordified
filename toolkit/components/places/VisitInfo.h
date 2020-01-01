@@ -76,6 +76,15 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIURI
 ;
@@ -87,6 +96,7 @@ places
 {
 class
 VisitInfo
+MOZ_FINAL
 :
 public
 mozIVisitInfo
