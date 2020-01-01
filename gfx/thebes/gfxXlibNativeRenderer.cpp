@@ -4078,7 +4078,7 @@ CairoStatus
 CAIRO_STATUS_SUCCESS
 &
 &
-blackImage
+whiteImage
 -
 >
 CairoStatus
