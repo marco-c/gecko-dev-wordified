@@ -27027,6 +27027,9 @@ detailValue
 cx
 )
 ;
+if
+(
+!
 detail
 .
 ToObject
@@ -27041,7 +27044,12 @@ NullPtr
 &
 detailValue
 )
+)
+{
+return
+false
 ;
+}
 CustomEvent
 *
 customEvent
