@@ -1702,6 +1702,8 @@ _processIncoming
 (
 )
 {
+try
+{
 SyncEngine
 .
 prototype
@@ -1713,6 +1715,9 @@ call
 this
 )
 ;
+}
+finally
+{
 /
 /
 Reorder
@@ -1749,6 +1754,7 @@ _store
 .
 _childrenToOrder
 ;
+}
 }
 _syncFinish
 :
