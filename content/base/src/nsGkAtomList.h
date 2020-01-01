@@ -2596,6 +2596,13 @@ dragstart
 )
 GK_ATOM
 (
+drawintitlebar
+"
+drawintitlebar
+"
+)
+GK_ATOM
+(
 drop
 "
 drop
