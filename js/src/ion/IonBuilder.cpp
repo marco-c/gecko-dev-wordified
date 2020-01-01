@@ -6311,10 +6311,6 @@ JSOP_ITERNEXT
 return
 jsop_iternext
 (
-GET_INT8
-(
-pc
-)
 )
 ;
 case
@@ -39424,8 +39420,6 @@ IonBuilder
 :
 jsop_iternext
 (
-uint8
-depth
 )
 {
 MDefinition
@@ -39438,7 +39432,7 @@ current
 peek
 (
 -
-depth
+1
 )
 ;
 MInstruction
