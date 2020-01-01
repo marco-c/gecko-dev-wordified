@@ -1364,6 +1364,9 @@ mHostRecord
 -
 >
 addr_info_gencnt
+&
+&
+mIter
 )
 {
 mHostRecord
