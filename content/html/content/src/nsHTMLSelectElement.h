@@ -1405,7 +1405,7 @@ nsHTMLSelectElement
 public
 nsGenericHTMLFormElement
 public
-nsIDOMHTMLSelectElement
+nsIDOMHTMLSelectElement_Mozilla_2_0_Branch
 public
 nsISelectElement
 public
@@ -1485,6 +1485,10 @@ nsGenericHTMLFormElement
 /
 nsIDOMHTMLSelectElement
 NS_DECL_NSIDOMHTMLSELECTELEMENT
+/
+/
+nsIDOMHTMLSelectElement_Mozilla_2_0_Branch
+NS_DECL_NSIDOMHTMLSELECTELEMENT_MOZILLA_2_0_BRANCH
 /
 /
 nsIContent
