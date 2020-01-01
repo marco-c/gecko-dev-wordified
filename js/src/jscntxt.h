@@ -1722,7 +1722,7 @@ data
 extern
 JSThread
 *
-js_CurrentThread
+js_CurrentThreadAndLockGC
 (
 JSRuntime
 *
@@ -1773,7 +1773,7 @@ caller
 /
 extern
 JSBool
-js_InitContextThread
+js_InitContextThreadAndLockGC
 (
 JSContext
 *

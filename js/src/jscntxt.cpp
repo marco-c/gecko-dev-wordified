@@ -984,7 +984,7 @@ ifdef
 JS_THREADSAFE
 JSThread
 *
-js_CurrentThread
+js_CurrentThreadAndLockGC
 (
 JSRuntime
 *
@@ -1361,7 +1361,7 @@ thread
 ;
 }
 JSBool
-js_InitContextThread
+js_InitContextThreadAndLockGC
 (
 JSContext
 *
@@ -1372,7 +1372,7 @@ JSThread
 *
 thread
 =
-js_CurrentThread
+js_CurrentThreadAndLockGC
 (
 cx
 -
@@ -1498,7 +1498,7 @@ JSThread
 *
 thread
 =
-js_CurrentThread
+js_CurrentThreadAndLockGC
 (
 rt
 )
@@ -2041,7 +2041,7 @@ JS_THREADSAFE
 if
 (
 !
-js_InitContextThread
+js_InitContextThreadAndLockGC
 (
 cx
 )
@@ -2072,7 +2072,7 @@ is
 still
 held
 after
-js_InitContextThread
+js_InitContextThreadAndLockGC
 took
 it
 and
