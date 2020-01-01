@@ -540,9 +540,6 @@ method
 *
 /
 #
-define
-__STDC_LIMIT_MACROS
-#
 include
 <
 stdlib
