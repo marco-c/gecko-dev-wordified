@@ -429,6 +429,9 @@ mState
 bool
 mIPCOpen
 ;
+bool
+mSentAppData
+;
 ChannelEventQueue
 mEventQ
 ;
