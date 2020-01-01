@@ -7803,8 +7803,11 @@ uint32_t
 index
 )
 {
-jsid
+RootedId
 id
+(
+cx
+)
 ;
 if
 (
