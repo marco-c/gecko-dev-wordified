@@ -18526,6 +18526,11 @@ status
 DATACALL_FAIL_NONE
 )
 {
+if
+(
+newDataCallOptions
+)
+{
 newDataCall
 .
 apn
@@ -18534,6 +18539,7 @@ newDataCallOptions
 .
 apn
 ;
+}
 this
 .
 _sendDataCallError
