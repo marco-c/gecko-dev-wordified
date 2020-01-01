@@ -1059,7 +1059,7 @@ style
 )
 {
 return
-eRestyle_Subtree
+eRestyle_Self
 ;
 }
 return

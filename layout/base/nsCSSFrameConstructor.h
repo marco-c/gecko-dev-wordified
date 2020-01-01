@@ -3145,6 +3145,8 @@ aMinHint
 RestyleTracker
 &
 aRestyleTracker
+PRBool
+aRestyleDescendants
 )
 ;
 nsresult

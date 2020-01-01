@@ -7049,7 +7049,7 @@ data
 >
 mHint
 =
-eRestyle_Subtree
+eRestyle_Self
 ;
 return
 PR_FALSE

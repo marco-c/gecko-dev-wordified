@@ -51883,6 +51883,8 @@ aMinHint
 RestyleTracker
 &
 aRestyleTracker
+PRBool
+aRestyleDescendants
 )
 {
 NS_ASSERTION
@@ -52024,6 +52026,7 @@ aPrimaryFrame
 changeList
 aMinHint
 aRestyleTracker
+aRestyleDescendants
 )
 ;
 ProcessRestyledFrames
@@ -73295,19 +73298,10 @@ element
 requires
 restyling
 its
-grandparent
-because
-it
-changes
-/
-/
-its
 parent
 '
 s
-:
-empty
-state
+siblings
 .
 nsRestyleHint
 hint
@@ -75238,6 +75232,7 @@ GetRootFrame
 changeList
 aExtraHint
 mPendingRestyles
+PR_TRUE
 )
 ;
 /
