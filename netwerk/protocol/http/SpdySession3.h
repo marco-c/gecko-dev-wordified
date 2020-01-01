@@ -831,6 +831,14 @@ SpdySession3
 *
 )
 ;
+static
+nsresult
+HandleCredential
+(
+SpdySession3
+*
+)
+;
 template
 <
 typename
