@@ -489,6 +489,12 @@ HashMap
 JSObject
 *
 Value
+DefaultHasher
+<
+JSObject
+*
+>
+RuntimeAllocPolicy
 >
 ObjectValueMap
 ;

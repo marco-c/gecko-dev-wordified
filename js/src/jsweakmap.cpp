@@ -1420,7 +1420,9 @@ UndefinedValue
 (
 )
 ;
-return
+if
+(
+!
 table
 -
 >
@@ -1431,9 +1433,12 @@ put
 key
 value
 )
-!
-=
-NULL
+)
+goto
+out_of_memory
+;
+return
+true
 ;
 out_of_memory
 :
