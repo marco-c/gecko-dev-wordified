@@ -5098,12 +5098,12 @@ NS_FAILED
 rv
 )
 )
-{
 \
 n
 "
                 
 "
+return
 xpc_qsThrowMethodFailedWithDetails
 (
 cx
@@ -5122,20 +5122,6 @@ s
 "
 )
 ;
-\
-n
-"
-                
-"
-return
-JS_FALSE
-;
-\
-n
-"
-                
-"
-}
 \
 n
 "
