@@ -476,6 +476,13 @@ h
 #
 include
 "
+DOMSVGTests
+.
+h
+"
+#
+include
+"
 nsIDOMSVGFitToViewBox
 .
 h
@@ -834,6 +841,8 @@ public
 nsSVGSVGElementBase
 public
 nsIDOMSVGSVGElement
+public
+DOMSVGTests
 public
 nsIDOMSVGFitToViewBox
 public

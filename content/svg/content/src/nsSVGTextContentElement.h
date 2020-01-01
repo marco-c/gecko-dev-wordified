@@ -470,6 +470,13 @@ nsSVGStylableElement
 .
 h
 "
+#
+include
+"
+DOMSVGTests
+.
+h
+"
 typedef
 nsSVGStylableElement
 nsSVGTextContentElementBase
@@ -527,9 +534,12 @@ nsSVGTextContentElement
 :
 public
 nsSVGTextContentElementBase
+public
+DOMSVGTests
 {
 public
 :
+NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMSVGTEXTCONTENTELEMENT
 protected
 :

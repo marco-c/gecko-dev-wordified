@@ -442,6 +442,13 @@ h
 #
 include
 "
+DOMSVGTests
+.
+h
+"
+#
+include
+"
 nsIDOMSVGUnitTypes
 .
 h
@@ -519,6 +526,8 @@ public
 nsSVGMaskElementBase
 public
 nsIDOMSVGMaskElement
+public
+DOMSVGTests
 public
 nsIDOMSVGUnitTypes
 {

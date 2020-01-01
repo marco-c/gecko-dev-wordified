@@ -1581,6 +1581,10 @@ SVGRect
 )
 DOMCI_CLASS
 (
+SVGStringList
+)
+DOMCI_CLASS
+(
 SVGTransform
 )
 DOMCI_CLASS

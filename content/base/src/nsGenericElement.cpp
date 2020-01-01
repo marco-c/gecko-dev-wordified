@@ -13505,7 +13505,7 @@ SVGZoomEvents
 nsSVGFeatures
 :
 :
-HaveFeature
+HasFeature
 (
 aObject
 aFeature
