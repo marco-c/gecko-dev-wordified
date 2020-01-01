@@ -1323,7 +1323,7 @@ b
 )
 {
 return
-NS_OK
+NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHOD
@@ -1338,6 +1338,9 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
+#
+ifdef
+MOZ_IPC
 NS_IMETHOD
 Swap
 (
@@ -1364,6 +1367,8 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
+#
+endif
 protected
 :
 GLES20Wrap
