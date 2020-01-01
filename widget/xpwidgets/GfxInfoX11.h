@@ -415,6 +415,7 @@ mIsFGLRX
 mIsNouveau
 mIsIntel
 mIsOldSwrast
+mIsLlvmpipe
 ;
 bool
 mHasTextureFromPixmap
