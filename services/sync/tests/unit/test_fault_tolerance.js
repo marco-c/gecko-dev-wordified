@@ -78,14 +78,6 @@ hi
 "
 )
 ;
-FaultTolerance
-.
-Service
-.
-init
-(
-)
-;
 var
 log
 =
