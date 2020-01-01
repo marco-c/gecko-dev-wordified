@@ -2662,7 +2662,7 @@ GetCMSOutputProfile
 )
 TYPE_RGB_8
 intent
-0
+cmsFLAGS_FLOATSHAPER
 )
 ;
 }

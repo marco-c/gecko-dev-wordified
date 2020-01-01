@@ -8718,13 +8718,6 @@ double
 ;
 }
 }
-/
-/
-choose
-routine
-from
-Input
-identifier
 _cmsFIXFN
 _cmsIdentifyInputFormat
 (
