@@ -1233,6 +1233,11 @@ rv
 rv
 )
 ;
+if
+(
+pc
+)
+{
 nsContentUtils
 :
 :
@@ -1246,6 +1251,7 @@ PR_TRUE
 PR_FALSE
 )
 ;
+}
 return
 special_rv
 ;
