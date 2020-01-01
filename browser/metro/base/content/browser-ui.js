@@ -3996,7 +3996,7 @@ Services
 .
 prefs
 .
-getBookPref
+getBoolPref
 (
 aData
 )
