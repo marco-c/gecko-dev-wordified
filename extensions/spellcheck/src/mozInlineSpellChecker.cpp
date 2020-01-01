@@ -6755,9 +6755,7 @@ want
 this
 for
 all
-read
--
-write
+editable
 content
 ?
 nsCOMPtr
@@ -6777,13 +6775,8 @@ checkSpelling
 content
 -
 >
-IntrinsicState
+IsEditable
 (
-)
-.
-HasState
-(
-NS_EVENT_STATE_MOZ_READWRITE
 )
 ;
 }
