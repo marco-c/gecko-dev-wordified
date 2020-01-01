@@ -3538,6 +3538,15 @@ NS_EVENT
 nsGkAtoms
 :
 :
+onMozBeforeResize
+NS_BEFORERESIZE_EVENT
+EventNameType_None
+NS_EVENT
+}
+{
+nsGkAtoms
+:
+:
 onresize
 NS_RESIZE_EVENT
 (

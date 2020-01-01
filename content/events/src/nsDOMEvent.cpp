@@ -954,6 +954,9 @@ MozAfterPaint
 MozBeforePaint
 "
 "
+MozBeforeResize
+"
+"
 MozSwipeGesture
 "
 "
@@ -7029,6 +7032,15 @@ return
 sEventNames
 [
 eDOMEvents_beforepaint
+]
+;
+case
+NS_BEFORERESIZE_EVENT
+:
+return
+sEventNames
+[
+eDOMEvents_beforeresize
 ]
 ;
 case
