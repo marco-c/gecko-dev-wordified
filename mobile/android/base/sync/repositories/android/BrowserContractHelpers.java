@@ -247,6 +247,16 @@ final
 Uri
 PASSWORDS_CONTENT_URI
 =
+null
+;
+/
+*
+public
+static
+final
+Uri
+PASSWORDS_CONTENT_URI
+=
 withSyncAndDeleted
 (
 Passwords
@@ -280,6 +290,8 @@ DeletedFormHistory
 CONTENT_URI
 )
 ;
+*
+/
 public
 static
 final
