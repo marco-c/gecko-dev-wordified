@@ -1372,6 +1372,13 @@ NS_FULLSCREENCHANGE
 EventNameType_HTML
 NS_EVENT_NULL
 )
+EVENT
+(
+mozfullscreenerror
+NS_FULLSCREENERROR
+EventNameType_HTML
+NS_EVENT_NULL
+)
 /
 /
 Not

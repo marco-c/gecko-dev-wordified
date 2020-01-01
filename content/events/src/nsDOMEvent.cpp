@@ -1000,6 +1000,9 @@ MozBeforeResize
 mozfullscreenchange
 "
 "
+mozfullscreenerror
+"
+"
 MozSwipeGesture
 "
 "
@@ -7359,6 +7362,15 @@ return
 sEventNames
 [
 eDOMEvents_mozfullscreenchange
+]
+;
+case
+NS_FULLSCREENERROR
+:
+return
+sEventNames
+[
+eDOMEvents_mozfullscreenerror
 ]
 ;
 default

@@ -4500,6 +4500,13 @@ mozfullscreenchange
 )
 GK_ATOM
 (
+mozfullscreenerror
+"
+mozfullscreenerror
+"
+)
+GK_ATOM
+(
 moz_opaque
 "
 moz
@@ -5350,6 +5357,13 @@ GK_ATOM
 onmozfullscreenchange
 "
 onmozfullscreenchange
+"
+)
+GK_ATOM
+(
+onmozfullscreenerror
+"
+onmozfullscreenerror
 "
 )
 GK_ATOM
