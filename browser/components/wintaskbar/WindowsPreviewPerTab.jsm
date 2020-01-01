@@ -3550,9 +3550,9 @@ taskbar
 .
 createTaskbarTabPreview
 (
-this
+tab
 .
-tabbrowser
+linkedBrowser
 .
 docShell
 controller
