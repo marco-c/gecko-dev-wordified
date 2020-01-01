@@ -1165,14 +1165,7 @@ docShell
 >
 SetName
 (
-PromiseFlatString
-(
 aValue
-)
-.
-get
-(
-)
 )
 ;
 }
@@ -1285,10 +1278,6 @@ docShell
 SetName
 (
 EmptyString
-(
-)
-.
-get
 (
 )
 )
