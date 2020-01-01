@@ -2324,13 +2324,11 @@ INT64_MAX
 ;
 uint64_t
 kbytes
-;
-LL_SHR
-(
-kbytes
+=
 bytes
+>
+>
 10
-)
 ;
 double
 kBytesD
