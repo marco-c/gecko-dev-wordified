@@ -3533,7 +3533,7 @@ c1
 rt
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 JS_ASSERT
@@ -3547,7 +3547,7 @@ c2
 rt
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 if
@@ -3586,7 +3586,7 @@ context
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 {
 if

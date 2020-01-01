@@ -3388,7 +3388,7 @@ state
 >
 atoms
 ;
-AutoLockDefaultCompartment
+AutoLockAtomsCompartment
 lock
 (
 cx
@@ -3511,7 +3511,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 ;
 /
 *
@@ -3612,7 +3612,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 if

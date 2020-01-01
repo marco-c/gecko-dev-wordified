@@ -3780,7 +3780,7 @@ GC_HEAP_GROWTH_FACTOR
 rt
 -
 >
-defaultCompartment
+atomsCompartment
 -
 >
 setGCLastBytes
@@ -5488,7 +5488,7 @@ Compartments
 Ideally
 only
 the
-defaultCompartment
+atomsCompartment
 should
 be
 left
@@ -5558,7 +5558,7 @@ clear
 rt
 -
 >
-defaultCompartment
+atomsCompartment
 =
 NULL
 ;
@@ -6653,7 +6653,7 @@ gcLastBytes
 )
 ;
 }
-defaultCompartment
+atomsCompartment
 -
 >
 setGCLastBytes
@@ -7091,9 +7091,9 @@ ifdef
 JS_THREADSAFE
 Conditionally
 <
-AutoUnlockDefaultCompartment
+AutoUnlockAtomsCompartment
 >
-unlockDefaultCompartmenIf
+unlockAtomsCompartmenIf
 (
 cx
 -
@@ -7104,13 +7104,13 @@ compartment
 rt
 -
 >
-defaultCompartment
+atomsCompartment
 &
 &
 rt
 -
 >
-defaultCompartmentIsLocked
+atomsCompartmentIsLocked
 cx
 )
 ;
@@ -11645,7 +11645,7 @@ comp
 rt
 -
 >
-defaultCompartment
+atomsCompartment
 )
 {
 /
@@ -14069,7 +14069,7 @@ read
 /
 *
 Delete
-defaultCompartment
+atomsCompartment
 only
 during
 runtime
@@ -14079,7 +14079,7 @@ shutdown
 rt
 -
 >
-defaultCompartment
+atomsCompartment
 -
 >
 marked

@@ -6817,13 +6817,13 @@ compartment
 /
 JSCompartment
 *
-defaultCompartment
+atomsCompartment
 ;
 #
 ifdef
 JS_THREADSAFE
 bool
-defaultCompartmentIsLocked
+atomsCompartmentIsLocked
 ;
 #
 endif
@@ -15447,7 +15447,7 @@ rt
 }
 ;
 class
-AutoLockDefaultCompartment
+AutoLockAtomsCompartment
 {
 private
 :
@@ -15458,7 +15458,7 @@ cx
 JS_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
-AutoLockDefaultCompartment
+AutoLockAtomsCompartment
 (
 JSContext
 *
@@ -15497,7 +15497,7 @@ cx
 runtime
 -
 >
-defaultCompartmentIsLocked
+atomsCompartmentIsLocked
 =
 true
 ;
@@ -15505,7 +15505,7 @@ true
 endif
 }
 ~
-AutoLockDefaultCompartment
+AutoLockAtomsCompartment
 (
 )
 {
@@ -15518,7 +15518,7 @@ cx
 runtime
 -
 >
-defaultCompartmentIsLocked
+atomsCompartmentIsLocked
 =
 false
 ;
@@ -15543,7 +15543,7 @@ lock
 }
 ;
 class
-AutoUnlockDefaultCompartment
+AutoUnlockAtomsCompartment
 {
 JSContext
 *
@@ -15552,7 +15552,7 @@ cx
 JS_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
-AutoUnlockDefaultCompartment
+AutoUnlockAtomsCompartment
 (
 JSContext
 *
@@ -15576,7 +15576,7 @@ cx
 runtime
 -
 >
-defaultCompartmentIsLocked
+atomsCompartmentIsLocked
 =
 false
 ;
@@ -15599,7 +15599,7 @@ lock
 ;
 }
 ~
-AutoUnlockDefaultCompartment
+AutoUnlockAtomsCompartment
 (
 )
 {
@@ -15627,7 +15627,7 @@ cx
 runtime
 -
 >
-defaultCompartmentIsLocked
+atomsCompartmentIsLocked
 =
 true
 ;

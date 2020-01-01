@@ -3828,7 +3828,7 @@ if
 (
 !
 (
-defaultCompartment
+atomsCompartment
 =
 new
 JSCompartment
@@ -3839,7 +3839,7 @@ this
 |
 |
 !
-defaultCompartment
+atomsCompartment
 -
 >
 init
@@ -3852,7 +3852,7 @@ compartments
 .
 append
 (
-defaultCompartment
+atomsCompartment
 )
 )
 {
@@ -7853,7 +7853,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 JSObject
@@ -8195,7 +8195,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 CHECK_REQUEST
@@ -16333,7 +16333,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 CHECK_REQUEST
@@ -16552,7 +16552,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 CHECK_REQUEST
@@ -16695,7 +16695,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 CHECK_REQUEST
@@ -22958,7 +22958,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 CHECK_REQUEST
@@ -23463,7 +23463,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 JSAtom
@@ -23577,7 +23577,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 CHECK_REQUEST
@@ -24599,7 +24599,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 uintN
@@ -24870,7 +24870,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 CHECK_REQUEST
@@ -24966,7 +24966,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 CHECK_REQUEST
@@ -25060,7 +25060,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 CHECK_REQUEST
@@ -25291,7 +25291,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 CHECK_REQUEST
@@ -25411,7 +25411,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 return
@@ -25523,7 +25523,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 CHECK_REQUEST
@@ -25619,7 +25619,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 return
@@ -26260,7 +26260,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 FILE
@@ -26453,7 +26453,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 uint32
@@ -26611,7 +26611,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 return
@@ -26654,7 +26654,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 CHECK_REQUEST
@@ -27051,7 +27051,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 JSFunction
@@ -27432,7 +27432,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 return
@@ -27506,7 +27506,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 jschar
@@ -27611,7 +27611,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 return
@@ -27665,7 +27665,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 JSPrinter
@@ -27803,7 +27803,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 CHECK_REQUEST
@@ -27872,7 +27872,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 CHECK_REQUEST
@@ -27944,7 +27944,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 JSBool
@@ -28152,7 +28152,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 JSScript
@@ -28282,7 +28282,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 return
@@ -28364,7 +28364,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 size_t
@@ -28517,7 +28517,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 return
@@ -28573,7 +28573,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 JSBool
@@ -28668,7 +28668,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 CHECK_REQUEST
@@ -28799,7 +28799,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 JSBool
