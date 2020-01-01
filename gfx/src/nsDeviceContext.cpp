@@ -483,6 +483,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Services
 .
 h
@@ -758,6 +767,7 @@ GetObserverService
 ;
 class
 nsFontCache
+MOZ_FINAL
 :
 public
 nsIObserver

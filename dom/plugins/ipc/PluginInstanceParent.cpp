@@ -8483,8 +8483,6 @@ event
 to
 widget
 /
-src
-/
 windows
 /
 nswindow

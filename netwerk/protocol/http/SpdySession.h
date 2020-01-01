@@ -1135,7 +1135,7 @@ taken
 from
 the
 first
-transcation
+transaction
 on
 this
 session
@@ -1230,7 +1230,7 @@ mSendingChunkSize
 /
 *
 the
-transmisison
+transmission
 chunk
 size
 *
@@ -1335,7 +1335,7 @@ counted
 -
 they
 get
-destryoed
+destroyed
 /
 /
 by

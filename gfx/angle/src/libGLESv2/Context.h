@@ -315,7 +315,7 @@ MAX_FRAGMENT_UNIFORM_VECTORS_SM2
 Reserve
 space
 for
-dx_Viewport
+dx_Coord
 dx_Depth
 and
 dx_DepthRange

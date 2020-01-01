@@ -935,6 +935,10 @@ char
 *
 *
 argv
+HANDLE
+userToken
+=
+NULL
 )
 ;
 #

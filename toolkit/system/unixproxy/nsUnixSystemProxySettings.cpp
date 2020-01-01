@@ -2998,11 +2998,15 @@ proxy_settings
 )
 )
 ;
-NS_ENSURE_SUCCESS
+if
+(
+NS_FAILED
 (
 rv
-rv
 )
+)
+return
+rv
 ;
 nsCString
 proxyMode

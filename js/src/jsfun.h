@@ -1183,7 +1183,7 @@ isInterpreted
 ;
 }
 bool
-isConstructor
+isNativeConstructor
 (
 )
 const

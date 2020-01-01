@@ -399,7 +399,9 @@ BLOCK
 #
 include
 "
-imgIEncoder
+mozilla
+/
+Attributes
 .
 h
 "
@@ -409,6 +411,13 @@ include
 mozilla
 /
 ReentrantMonitor
+.
+h
+"
+#
+include
+"
+imgIEncoder
 .
 h
 "
@@ -504,6 +513,7 @@ options
 .
 class
 nsICOEncoder
+MOZ_FINAL
 :
 public
 imgIEncoder

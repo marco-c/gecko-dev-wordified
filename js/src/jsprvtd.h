@@ -1357,7 +1357,7 @@ Handle
 public
 :
 /
-/
+*
 Copy
 handles
 of
@@ -1367,6 +1367,8 @@ with
 implicit
 coercion
 .
+*
+/
 template
 <
 typename
@@ -1406,7 +1408,7 @@ address
 ;
 }
 /
-/
+*
 Get
 a
 handle
@@ -1419,6 +1421,8 @@ with
 implicit
 coercion
 .
+*
+/
 template
 <
 typename

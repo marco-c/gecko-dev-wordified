@@ -1960,6 +1960,9 @@ fallback
 LoadingState
 mLoadingState
 ;
+bool
+mUnsupportedFormat
+;
 nsTArray
 <
 gfxFontFaceSrc

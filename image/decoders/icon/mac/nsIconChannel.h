@@ -446,6 +446,15 @@ nsIconChannel_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -511,6 +520,7 @@ nsIFile
 ;
 class
 nsIconChannel
+MOZ_FINAL
 :
 public
 nsIChannel

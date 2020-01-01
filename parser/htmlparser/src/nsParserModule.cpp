@@ -685,11 +685,6 @@ NS_DEBUG
 )
 NS_DEFINE_NAMED_CID
 (
-NS_LOGGING_SINK_CID
-)
-;
-NS_DEFINE_NAMED_CID
-(
 NS_EXPAT_DRIVER_CID
 )
 ;
@@ -740,13 +735,6 @@ defined
 (
 NS_DEBUG
 )
-{
-&
-kNS_LOGGING_SINK_CID
-false
-NULL
-nsLoggingSinkConstructor
-}
 {
 &
 kNS_EXPAT_DRIVER_CID

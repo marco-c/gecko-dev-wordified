@@ -5966,14 +5966,6 @@ aAddon
 {
 if
 (
-gViewController
-.
-currentViewObj
-=
-=
-gListView
-&
-&
 aAddon
 .
 optionsType
@@ -20521,7 +20513,7 @@ x
 -
 xpinstall
 "
-this
+window
 null
 installs
 )

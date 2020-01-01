@@ -5901,6 +5901,8 @@ might
 create
 nsresult
 rv
+=
+NS_OK
 ;
 if
 (

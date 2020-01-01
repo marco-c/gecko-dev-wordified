@@ -2739,8 +2739,10 @@ ECMA
 .
 *
 /
-static
 JSBool
+js
+:
+:
 num_parseInt
 (
 JSContext
