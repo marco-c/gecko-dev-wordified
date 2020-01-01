@@ -3141,15 +3141,6 @@ mLiveResizeInProgress
 PRPackedBool
 mIsPluginView
 ;
-/
-/
-true
-if
-this
-is
-a
-plugin
-view
 PRPackedBool
 mPluginDrawing
 ;
