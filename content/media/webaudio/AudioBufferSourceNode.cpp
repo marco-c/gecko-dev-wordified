@@ -2501,10 +2501,6 @@ SendPlaybackRateToStream
 0f
 )
 )
-mPannerNode
-(
-nullptr
-)
 mLoop
 (
 false
