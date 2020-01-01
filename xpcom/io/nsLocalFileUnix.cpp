@@ -6327,6 +6327,12 @@ return
 NS_OK
 ;
 }
+#
+if
+defined
+(
+USE_LINUX_QUOTACTL
+)
 /
 *
 *
@@ -6600,6 +6606,8 @@ return
 ret
 ;
 }
+#
+endif
 NS_IMETHODIMP
 nsLocalFile
 :
