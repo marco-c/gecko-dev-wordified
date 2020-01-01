@@ -1253,6 +1253,7 @@ function
 getNode
 (
 aAccOrNodeOrID
+aDocument
 )
 {
 if
@@ -1285,7 +1286,12 @@ DOMNode
 ;
 node
 =
+(
+aDocument
+|
+|
 document
+)
 .
 getElementById
 (
