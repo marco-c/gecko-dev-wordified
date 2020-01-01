@@ -1684,6 +1684,7 @@ shape
 ;
 /
 *
+*
 Make
 a
 non
@@ -1695,6 +1696,18 @@ the
 specified
 initial
 state
+.
+This
+method
+*
+takes
+ownership
+of
+any
+extantSlots
+it
+is
+passed
 .
 *
 /
@@ -1738,7 +1751,9 @@ js
 :
 HeapSlot
 *
-slots
+extantSlots
+=
+NULL
 )
 ;
 /
