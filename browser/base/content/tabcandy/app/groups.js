@@ -3946,6 +3946,12 @@ function
 value
 )
 {
+this
+.
+zIndex
+=
+value
+;
 iQ
 (
 this
