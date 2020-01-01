@@ -5707,7 +5707,7 @@ AssignLiteral
 Firefox
 /
 "
-FIREFOX_VERSION
+MOZ_UA_FIREFOX_VERSION
 )
 ;
 }
