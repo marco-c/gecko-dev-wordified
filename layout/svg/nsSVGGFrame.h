@@ -285,6 +285,11 @@ GetCanvasTM
 (
 uint32_t
 aFor
+nsIFrame
+*
+aTransformRoot
+=
+nullptr
 )
 MOZ_OVERRIDE
 ;

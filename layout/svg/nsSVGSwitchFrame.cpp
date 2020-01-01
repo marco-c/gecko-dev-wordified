@@ -304,7 +304,11 @@ const
 nsIntRect
 *
 aDirtyRect
+nsIFrame
+*
+aTransformRoot
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHODIMP_
 (
@@ -589,6 +593,9 @@ const
 nsIntRect
 *
 aDirtyRect
+nsIFrame
+*
+aTransformRoot
 )
 {
 NS_ASSERTION
@@ -665,6 +672,7 @@ PaintFrameWithEffects
 aContext
 aDirtyRect
 kid
+aTransformRoot
 )
 ;
 }

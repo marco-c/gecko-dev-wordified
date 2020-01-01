@@ -2477,6 +2477,7 @@ nsISVGChildFrame
 :
 :
 FOR_PAINTING
+mTransformRoot
 )
 ;
 if
@@ -3083,6 +3084,7 @@ tmpCtx
 mTargetFrame
 &
 dirty
+mTransformRoot
 )
 ;
 gfxContext

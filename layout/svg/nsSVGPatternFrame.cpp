@@ -966,6 +966,9 @@ GetCanvasTM
 (
 uint32_t
 aFor
+nsIFrame
+*
+aTransformRoot
 )
 {
 if
@@ -1005,6 +1008,7 @@ mSource
 GetCanvasTM
 (
 aFor
+aTransformRoot
 )
 ;
 }

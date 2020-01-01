@@ -555,6 +555,9 @@ GetCanvasTM
 (
 uint32_t
 aFor
+nsIFrame
+*
+aTransformRoot
 )
 {
 NS_ASSERTION
@@ -621,6 +624,7 @@ mMarkedFrame
 GetCanvasTM
 (
 aFor
+aTransformRoot
 )
 ;
 mInUse2

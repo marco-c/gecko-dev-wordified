@@ -3061,6 +3061,9 @@ const
 nsIntRect
 *
 aDirtyRect
+nsIFrame
+*
+aTransformRoot
 )
 {
 BasicLayerManager
@@ -3961,6 +3964,7 @@ aFrame
 callback
 &
 dirtyRect
+nullptr
 )
 ;
 }

@@ -881,6 +881,11 @@ gfxRect
 aOverrideBBox
 =
 nullptr
+nsIFrame
+*
+aTransformRoot
+=
+nullptr
 )
 ;
 ~
@@ -964,6 +969,9 @@ const
 gfxRect
 *
 aOverrideBBox
+nsIFrame
+*
+aTransformRoot
 )
 {
 const
@@ -1992,6 +2000,7 @@ preFilterVisualOverflowRect
 postFilterDirtyRect
 preFilterDirtyRect
 primitiveUnits
+aTransformRoot
 )
 ;
 }
@@ -2877,6 +2886,9 @@ const
 nsRect
 *
 aDirtyArea
+nsIFrame
+*
+aTransformRoot
 )
 {
 nsAutoFilterInstance
@@ -2888,6 +2900,8 @@ aPaintCallback
 aDirtyArea
 nullptr
 nullptr
+nullptr
+aTransformRoot
 )
 ;
 if

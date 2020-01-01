@@ -339,7 +339,11 @@ const
 nsIntRect
 *
 aDirtyRect
+nsIFrame
+*
+aTransformRoot
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -480,6 +484,11 @@ int32_t
 aNativeHeight
 uint32_t
 aFor
+nsIFrame
+*
+aTransformRoot
+=
+nullptr
 )
 ;
 gfxMatrix
@@ -487,6 +496,11 @@ GetVectorImageTransform
 (
 uint32_t
 aFor
+nsIFrame
+*
+aTransformRoot
+=
+nullptr
 )
 ;
 bool
@@ -495,6 +509,9 @@ TransformContextForPainting
 gfxContext
 *
 aGfxContext
+nsIFrame
+*
+aTransformRoot
 )
 ;
 nsCOMPtr
@@ -1202,6 +1219,9 @@ int32_t
 aNativeHeight
 uint32_t
 aFor
+nsIFrame
+*
+aTransformRoot
 )
 {
 float
@@ -1278,6 +1298,7 @@ y
 GetCanvasTM
 (
 aFor
+aTransformRoot
 )
 ;
 }
@@ -1289,6 +1310,9 @@ GetVectorImageTransform
 (
 uint32_t
 aFor
+nsIFrame
+*
+aTransformRoot
 )
 {
 float
@@ -1392,6 +1416,7 @@ y
 GetCanvasTM
 (
 aFor
+aTransformRoot
 )
 ;
 }
@@ -1404,6 +1429,9 @@ TransformContextForPainting
 gfxContext
 *
 aGfxContext
+nsIFrame
+*
+aTransformRoot
 )
 {
 gfxMatrix
@@ -1430,6 +1458,7 @@ imageTransform
 GetVectorImageTransform
 (
 FOR_PAINTING
+aTransformRoot
 )
 ;
 }
@@ -1490,6 +1519,7 @@ GetRasterImageTransform
 nativeWidth
 nativeHeight
 FOR_PAINTING
+aTransformRoot
 )
 ;
 /
@@ -1671,6 +1701,9 @@ const
 nsIntRect
 *
 aDirtyRect
+nsIFrame
+*
+aTransformRoot
 )
 {
 nsresult
@@ -1868,6 +1901,7 @@ ctx
 GetCanvasTM
 (
 FOR_PAINTING
+aTransformRoot
 )
 clipRect
 )
@@ -1879,6 +1913,7 @@ if
 TransformContextForPainting
 (
 ctx
+aTransformRoot
 )
 )
 {
