@@ -702,10 +702,7 @@ buffer_
 }
 friend
 class
-detail
-:
-:
-RegExpPrivate
+RegExpShared
 ;
 public
 :
