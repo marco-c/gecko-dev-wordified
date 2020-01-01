@@ -171,13 +171,6 @@ h
 #
 include
 "
-nsHashtable
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h

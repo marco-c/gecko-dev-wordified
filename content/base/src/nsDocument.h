@@ -262,13 +262,6 @@ h
 #
 include
 "
-nsHashtable
-.
-h
-"
-#
-include
-"
 nsInterfaceHashtable
 .
 h
