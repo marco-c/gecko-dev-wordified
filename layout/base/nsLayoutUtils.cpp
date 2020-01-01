@@ -9240,6 +9240,9 @@ else
 not
 moving
 .
+nscolor
+color
+;
 if
 (
 item
@@ -9248,6 +9251,8 @@ item
 IsUniform
 (
 aBuilder
+&
+color
 )
 )
 {
