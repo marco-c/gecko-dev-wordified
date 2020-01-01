@@ -1683,6 +1683,10 @@ if
 AUTOCLOSE
 )
 {
+goQuitApplication
+(
+)
+;
 window
 .
 close
