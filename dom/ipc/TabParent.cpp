@@ -2515,9 +2515,9 @@ mIMEComposing
 event
 .
 message
+!
 =
-=
-NS_COMPOSITION_START
+NS_COMPOSITION_END
 ;
 mIMECompositionStart
 =

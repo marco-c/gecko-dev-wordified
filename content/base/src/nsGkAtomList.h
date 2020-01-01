@@ -4947,6 +4947,13 @@ oncompositionstart
 )
 GK_ATOM
 (
+oncompositionupdate
+"
+oncompositionupdate
+"
+)
+GK_ATOM
+(
 oncontextmenu
 "
 oncontextmenu
