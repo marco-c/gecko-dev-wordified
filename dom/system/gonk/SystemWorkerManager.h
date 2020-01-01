@@ -314,6 +314,9 @@ JSContext
 cx
 )
 ;
+#
+ifdef
+MOZ_WIDGET_GONK
 nsresult
 InitNetd
 (
@@ -322,6 +325,8 @@ JSContext
 cx
 )
 ;
+#
+endif
 nsresult
 InitWifi
 (
@@ -336,12 +341,17 @@ nsIWorkerHolder
 >
 mRILWorker
 ;
+#
+ifdef
+MOZ_WIDGET_GONK
 nsCOMPtr
 <
 nsIWorkerHolder
 >
 mNetdWorker
 ;
+#
+endif
 nsCOMPtr
 <
 nsIWorkerHolder

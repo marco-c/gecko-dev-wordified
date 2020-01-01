@@ -1081,6 +1081,9 @@ argv
 )
 ;
 }
+#
+ifdef
+MOZ_WIDGET_GONK
 JSBool
 DoNetdCommand
 (
@@ -1876,6 +1879,11 @@ argv
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_WIDGET_GONK
 }
 /
 /
@@ -2519,6 +2527,9 @@ aResult
 )
 ;
 }
+#
+ifdef
+MOZ_WIDGET_GONK
 if
 (
 aIID
@@ -2548,6 +2559,8 @@ aResult
 )
 ;
 }
+#
+endif
 NS_WARNING
 (
 "
@@ -2777,6 +2790,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+MOZ_WIDGET_GONK
 nsresult
 SystemWorkerManager
 :
@@ -2964,6 +2980,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 nsresult
 SystemWorkerManager
 :
