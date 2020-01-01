@@ -361,7 +361,7 @@ Ci
 .
 nsIProtocolHandler
 .
-URI_IS_UI_RESOURCE
+URI_DANGEROUS_TO_LOAD
 |
 Ci
 .
