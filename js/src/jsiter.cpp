@@ -5992,7 +5992,7 @@ object
 )
 -
 >
-lookupProperty
+lookupGeneric
 (
 cx
 *

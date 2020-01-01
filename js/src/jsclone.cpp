@@ -3776,7 +3776,7 @@ getOps
 )
 -
 >
-lookupProperty
+lookupGeneric
 obj
 id
 &
