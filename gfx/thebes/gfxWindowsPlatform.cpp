@@ -3577,9 +3577,6 @@ findFileData
 HANDLE
 file
 ;
-LARGE_INTEGER
-fileSize
-;
 WCHAR
 path
 [
@@ -3698,9 +3695,13 @@ MAXDWORD
 .
 0
 ;
-swprintf
+swprintf_s
 (
 size
+sizeof
+(
+size
+)
 L
 "
 %
@@ -3716,6 +3717,11 @@ aSize
 Assign
 (
 size
+)
+;
+FindClose
+(
+file
 )
 ;
 }
