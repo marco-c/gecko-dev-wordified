@@ -4400,6 +4400,8 @@ GetMaxSize
 state
 )
 ;
+prefSize
+=
 BoundsCheck
 (
 minSize
@@ -4926,6 +4928,8 @@ GetMaxSize
 aBoxLayoutState
 )
 ;
+mPrefSize
+=
 BoundsCheck
 (
 minSize
@@ -4933,12 +4937,8 @@ size
 maxSize
 )
 ;
-mPrefSize
-=
-size
-;
 return
-size
+mPrefSize
 ;
 }
 nscoord

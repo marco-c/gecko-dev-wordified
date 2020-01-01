@@ -1107,6 +1107,8 @@ GetMaxSize
 aState
 )
 ;
+prefSize
+=
 BoundsCheck
 (
 minSize
