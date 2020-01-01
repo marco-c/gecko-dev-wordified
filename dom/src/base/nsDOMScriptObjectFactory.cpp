@@ -2269,6 +2269,17 @@ aDefaultException
 _retval
 )
 ;
+case
+NS_ERROR_MODULE_DOM_FILE
+:
+return
+NS_NewFileException
+(
+result
+aDefaultException
+_retval
+)
+;
 default
 :
 return
