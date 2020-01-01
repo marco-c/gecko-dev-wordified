@@ -4878,7 +4878,7 @@ GetCurrentStream
 (
 )
 ;
-PRUint64
+uint64_t
 timecodeScale
 ;
 if
