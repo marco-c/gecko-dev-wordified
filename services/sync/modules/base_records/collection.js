@@ -951,9 +951,6 @@ first
 /
 /
 index
-/
-/
-depthindex
 get
 sort
 (

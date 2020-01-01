@@ -879,15 +879,6 @@ this
 .
 parentid
 "
-depth
-:
-"
-+
-this
-.
-depth
-+
-"
 index
 :
 "
