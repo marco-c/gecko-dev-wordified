@@ -6158,7 +6158,7 @@ server
 return
 nsIDOMElement
 |
-undefined
+null
 *
 The
 message
@@ -6578,6 +6578,7 @@ timer
 )
 {
 return
+null
 ;
 }
 if
@@ -6602,6 +6603,7 @@ error
 )
 ;
 return
+null
 ;
 }
 body
@@ -6647,6 +6649,7 @@ timer
 )
 {
 return
+null
 ;
 }
 let
@@ -6708,6 +6711,7 @@ level
 )
 ;
 return
+null
 ;
 }
 /
@@ -6799,6 +6803,7 @@ groupEnd
 )
 {
 return
+null
 ;
 /
 /
@@ -7327,7 +7332,7 @@ log
 return
 nsIDOMElement
 |
-undefined
+null
 *
 The
 message
@@ -7367,6 +7372,7 @@ networkInfo
 )
 {
 return
+null
 ;
 }
 let
@@ -13897,6 +13903,11 @@ text
 ;
 if
 (
+aItem
+.
+type
+&
+&
 aItem
 .
 type
@@ -26489,9 +26500,11 @@ return
 selectedItem
 &
 &
-selectedItem
-.
+"
 url
+"
+in
+selectedItem
 ;
 }
 case
@@ -26532,6 +26545,9 @@ owner
 _browserConsole
 ;
 }
+return
+false
+;
 }
 doCommand
 :
