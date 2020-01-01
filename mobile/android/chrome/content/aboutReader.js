@@ -498,7 +498,7 @@ GetStringFromName
 "
 aboutReader
 .
-fontTitle
+textTitle
 "
 )
 ;
