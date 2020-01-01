@@ -2500,6 +2500,17 @@ _emulator_launched
 =
 True
         
+#
+bug
+802877
+        
+time
+.
+sleep
+(
+10
+)
+        
 self
 .
 geo
