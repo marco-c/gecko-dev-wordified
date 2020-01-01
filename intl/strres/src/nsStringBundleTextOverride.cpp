@@ -728,9 +728,8 @@ be
 calling
 this
 .
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 This
 makes

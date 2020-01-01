@@ -489,9 +489,8 @@ asm
 int
 3
 }
-NS_ASSERTION
+NS_ERROR
 (
-0
 inMessage
 )
 ;

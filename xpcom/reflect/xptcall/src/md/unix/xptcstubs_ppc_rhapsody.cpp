@@ -1371,9 +1371,8 @@ break
 ;
 default
 :
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 bad
 type
@@ -1445,9 +1444,8 @@ n
 \
 {
 \
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 nsXPTCStubBase
 :

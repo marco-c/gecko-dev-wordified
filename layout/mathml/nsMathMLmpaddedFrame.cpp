@@ -2234,9 +2234,8 @@ and
 or
 the
 caller
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Unexpected
 Pseudo

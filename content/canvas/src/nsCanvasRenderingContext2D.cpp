@@ -10646,9 +10646,8 @@ break
 ;
 default
 :
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 textAlign
 holds
@@ -10925,9 +10924,8 @@ break
 ;
 default
 :
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 textBaseline
 holds
@@ -12411,9 +12409,8 @@ break
 ;
 default
 :
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 mTextBaseline
 holds

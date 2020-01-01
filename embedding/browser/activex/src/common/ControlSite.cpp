@@ -2342,9 +2342,8 @@ hwndParent
 NULL
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 No
 parent

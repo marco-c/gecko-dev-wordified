@@ -1996,9 +1996,8 @@ mWidget
 PR_TRUE
 )
 ;
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 nsWidget
 :
@@ -3755,9 +3754,8 @@ break
 ;
 default
 :
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Invalid
 cursor

@@ -4929,9 +4929,8 @@ gid
 }
 else
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 blah
 "

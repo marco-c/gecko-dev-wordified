@@ -718,9 +718,8 @@ nsnull
 {
 /
 /
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 nsFileSpec
 is
@@ -939,9 +938,8 @@ nsnull
 {
 /
 /
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 nsFileSpec
 is

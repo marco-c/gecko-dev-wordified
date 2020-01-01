@@ -2608,9 +2608,8 @@ if
 str
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 bad
 method
@@ -2885,9 +2884,8 @@ if
 str
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 bad
 constant

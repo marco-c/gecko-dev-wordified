@@ -14193,9 +14193,8 @@ NS_ERROR_NOT_INITIALIZED
 {
 /
 /
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 nsFileSpec
 is
@@ -16575,9 +16574,8 @@ NS_OK
 {
 /
 /
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 nsFileSpec
 is
@@ -17035,9 +17033,8 @@ NS_OK
 {
 /
 /
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 nsFileSpec
 is
@@ -17254,9 +17251,8 @@ NS_OK
 {
 /
 /
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 nsFileSpec
 is
@@ -17489,9 +17485,8 @@ NS_OK
 {
 /
 /
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 nsFileSpec
 is

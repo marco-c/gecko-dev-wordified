@@ -1569,9 +1569,8 @@ NS_ERROR_FAILURE
 ;
 default
 :
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 bad
 case
@@ -1633,9 +1632,8 @@ NS_ERROR_FAILURE
 ;
 default
 :
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 bad
 case
@@ -1697,9 +1695,8 @@ NS_ERROR_FAILURE
 ;
 default
 :
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 bad
 case
@@ -1810,9 +1807,8 @@ NS_ERROR_FAILURE
 ;
 default
 :
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 bad
 case

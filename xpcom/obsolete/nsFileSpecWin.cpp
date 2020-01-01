@@ -2038,9 +2038,8 @@ inPath
 {
 /
 /
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 nsFileSpec
 is

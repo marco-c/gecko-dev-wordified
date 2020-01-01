@@ -6940,9 +6940,8 @@ break
 endif
 default
 :
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 trying
 to
@@ -7237,9 +7236,8 @@ GetPS
 endif
 default
 :
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 invalid
 surface

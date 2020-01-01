@@ -72474,9 +72474,8 @@ bug
 121368
 for
 testcase
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Atemptted
 to

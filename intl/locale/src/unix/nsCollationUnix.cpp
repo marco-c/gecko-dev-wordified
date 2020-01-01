@@ -739,9 +739,8 @@ mCollation
 NULL
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 mCollation
 creation

@@ -927,9 +927,8 @@ pWrapper
 \
 {
 \
-NS_ASSERTION
+NS_ERROR
 (
-0
 errorMsg
 )
 ;

@@ -8590,9 +8590,8 @@ mIteratorStatus
 to
 eIsDone
 .
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 DeleteNode
 called
@@ -8878,9 +8877,8 @@ TEXT_NODE
 type
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 JoinNode
 called
@@ -8931,9 +8929,8 @@ TEXT_NODE
 type
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 JoinNode
 called

@@ -926,9 +926,8 @@ n
 \
 {
 \
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 nsXPTCStubBase
 :

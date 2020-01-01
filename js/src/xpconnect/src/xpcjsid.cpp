@@ -1217,9 +1217,8 @@ if
 str
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 no
 string
@@ -3996,9 +3995,8 @@ if
 str
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 no
 string

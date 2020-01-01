@@ -14207,9 +14207,8 @@ break
 ;
 default
 :
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 bad
 value
@@ -17126,9 +17125,8 @@ array_count
 )
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 failed
 to
@@ -22597,9 +22595,8 @@ if
 obj
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 bad
 param

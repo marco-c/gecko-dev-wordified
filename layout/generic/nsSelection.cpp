@@ -4706,9 +4706,8 @@ if
 mShell
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 fetch
 desired

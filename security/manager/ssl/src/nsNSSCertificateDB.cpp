@@ -2804,9 +2804,8 @@ if
 tmpCert2
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Couldn
 '
@@ -9244,9 +9243,8 @@ if
 tmpCert
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Couldn
 '
