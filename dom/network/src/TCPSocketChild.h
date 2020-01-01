@@ -113,7 +113,7 @@ nsITCPSocketInternal
 struct
 JSContext
 ;
-class
+struct
 JSObject
 ;
 namespace

@@ -891,7 +891,7 @@ BaseShape
 .
 *
 /
-class
+struct
 JSObject
 ;
 namespace

@@ -156,7 +156,7 @@ nsScriptErrorEvent
 class
 nsIScriptGlobalObject
 ;
-class
+struct
 JSObject
 ;
 /

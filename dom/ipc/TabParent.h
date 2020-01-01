@@ -232,7 +232,7 @@ gfxMatrix
 struct
 JSContext
 ;
-class
+struct
 JSObject
 ;
 class

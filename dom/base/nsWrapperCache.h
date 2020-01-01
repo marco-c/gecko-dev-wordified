@@ -106,7 +106,7 @@ nsCycleCollectionParticipant
 .
 h
 "
-class
+struct
 JSObject
 ;
 struct

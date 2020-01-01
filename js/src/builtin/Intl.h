@@ -109,7 +109,7 @@ h
 struct
 JSContext
 ;
-class
+struct
 JSObject
 ;
 /

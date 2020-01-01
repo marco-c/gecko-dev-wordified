@@ -139,7 +139,7 @@ CharacterDataChangeInfo
 struct
 JSContext
 ;
-class
+struct
 JSObject
 ;
 class

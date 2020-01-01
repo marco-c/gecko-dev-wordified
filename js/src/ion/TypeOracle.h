@@ -509,7 +509,7 @@ virtual
 bool
 elementReadIsDenseArray
 (
-RawScript
+UnrootedScript
 script
 jsbytecode
 *
@@ -524,7 +524,7 @@ virtual
 bool
 elementReadIsTypedArray
 (
-HandleScript
+UnrootedScript
 script
 jsbytecode
 *
@@ -630,7 +630,7 @@ virtual
 bool
 elementWriteIsTypedArray
 (
-RawScript
+UnrootedScript
 script
 jsbytecode
 *
@@ -683,7 +683,7 @@ script
 jsbytecode
 *
 pc
-RawId
+jsid
 id
 )
 {
@@ -1435,7 +1435,7 @@ pc
 bool
 elementReadIsDenseArray
 (
-RawScript
+UnrootedScript
 script
 jsbytecode
 *
@@ -1445,7 +1445,7 @@ pc
 bool
 elementReadIsTypedArray
 (
-HandleScript
+UnrootedScript
 script
 jsbytecode
 *
@@ -1504,7 +1504,7 @@ pc
 bool
 elementWriteIsTypedArray
 (
-RawScript
+UnrootedScript
 script
 jsbytecode
 *
@@ -1552,7 +1552,7 @@ script
 jsbytecode
 *
 pc
-RawId
+jsid
 id
 )
 ;
