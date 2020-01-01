@@ -109,7 +109,7 @@ function
 (
 )
 {
-attachTestGlobalClientAndResume
+attachTestTabAndResume
 (
 gClient
 "
@@ -120,6 +120,7 @@ grips
 function
 (
 aResponse
+aTabClient
 aThreadClient
 )
 {

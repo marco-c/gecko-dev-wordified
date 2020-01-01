@@ -92,7 +92,7 @@ function
 (
 )
 {
-attachTestGlobalClientAndResume
+attachTestTabAndResume
 (
 gClient
 "
@@ -103,6 +103,7 @@ sources
 function
 (
 aResponse
+aTabClient
 aThreadClient
 )
 {

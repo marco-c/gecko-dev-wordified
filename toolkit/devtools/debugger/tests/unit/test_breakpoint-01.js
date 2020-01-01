@@ -87,7 +87,7 @@ function
 (
 )
 {
-attachTestGlobalClientAndResume
+attachTestTabAndResume
 (
 gClient
 "
@@ -98,6 +98,7 @@ stack
 function
 (
 aResponse
+aTabClient
 aThreadClient
 )
 {

@@ -114,7 +114,7 @@ function
 (
 )
 {
-attachTestGlobalClientAndResume
+attachTestTabAndResume
 (
 gClient
 "
@@ -127,6 +127,7 @@ map
 function
 (
 aResponse
+aTabClient
 aThreadClient
 )
 {
