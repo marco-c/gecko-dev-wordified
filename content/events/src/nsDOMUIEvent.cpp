@@ -1440,10 +1440,6 @@ parent
 forget
 (
 )
-.
-get
-(
-)
 ;
 }
 }

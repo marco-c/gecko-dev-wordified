@@ -263,10 +263,6 @@ element
 true
 FEATURES
 )
-.
-get
-(
-)
 ;
 }
 already_AddRefed
@@ -323,10 +319,6 @@ element
 true
 EXTENSIONS
 )
-.
-get
-(
-)
 ;
 }
 already_AddRefed
@@ -382,10 +374,6 @@ LANGUAGE
 element
 true
 LANGUAGE
-)
-.
-get
-(
 )
 ;
 }

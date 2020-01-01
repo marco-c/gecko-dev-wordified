@@ -1324,7 +1324,10 @@ childCount
 )
 ;
 return
+dont_AddRef
+(
 child
+)
 ;
 }
 int32_t

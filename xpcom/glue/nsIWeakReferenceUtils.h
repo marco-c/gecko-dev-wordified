@@ -442,10 +442,13 @@ error
 )
 {
 return
+dont_AddRef
+(
 NS_GetWeakReference
 (
 aRawPtr
 error
+)
 )
 ;
 }
