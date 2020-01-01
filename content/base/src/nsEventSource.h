@@ -1231,7 +1231,7 @@ nsIPrincipal
 >
 mPrincipal
 ;
-nsCString
+nsString
 mOrigin
 ;
 PRUint32
