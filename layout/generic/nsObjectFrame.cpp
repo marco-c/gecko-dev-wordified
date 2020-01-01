@@ -7818,9 +7818,6 @@ const
 nsRect
 &
 aAllowVisibleRegionExpansion
-PRBool
-&
-aContainsRootContentDocBG
 )
 ;
 NS_DISPLAY_DECL_NAME
@@ -7964,9 +7961,6 @@ const
 nsRect
 &
 aAllowVisibleRegionExpansion
-PRBool
-&
-aContainsRootContentDocBG
 )
 {
 if
@@ -7980,7 +7974,6 @@ ComputeVisibility
 aBuilder
 aVisibleRegion
 aAllowVisibleRegionExpansion
-aContainsRootContentDocBG
 )
 )
 return
@@ -8143,9 +8136,6 @@ const
 nsRect
 &
 aAllowVisibleRegionExpansion
-PRBool
-&
-aContainsRootContentDocBG
 )
 {
 mVisibleRegion
@@ -8169,7 +8159,6 @@ ComputeVisibility
 aBuilder
 aVisibleRegion
 aAllowVisibleRegionExpansion
-aContainsRootContentDocBG
 )
 ;
 }

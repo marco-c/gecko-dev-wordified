@@ -2069,9 +2069,6 @@ const
 nsRect
 &
 aAllowVisibleRegionExpansion
-PRBool
-&
-aContainsRootContentDocBG
 )
 ;
 NS_DISPLAY_DECL_NAME
