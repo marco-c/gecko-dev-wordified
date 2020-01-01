@@ -9968,8 +9968,10 @@ gRawCodecs
 nsnull
 }
 ;
-static
 bool
+nsHTMLMediaElement
+:
+:
 IsRawEnabled
 (
 )
