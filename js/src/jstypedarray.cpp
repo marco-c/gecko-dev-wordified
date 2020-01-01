@@ -905,6 +905,7 @@ if
 (
 abuf
 )
+{
 abuf
 -
 >
@@ -924,6 +925,7 @@ ArrayBuffer
 abuf
 )
 ;
+}
 }
 /
 *
@@ -4895,6 +4897,10 @@ fromJSObject
 obj
 )
 ;
+if
+(
+tarray
+)
 cx
 -
 >
