@@ -159,6 +159,15 @@ h
 #
 include
 "
+hardware
+/
+power
+.
+h
+"
+#
+include
+"
 utils
 /
 RefBase
@@ -269,6 +278,10 @@ mHwc
 framebuffer_device_t
 *
 mFBDevice
+;
+power_module_t
+*
+mPowerModule
 ;
 android
 :
