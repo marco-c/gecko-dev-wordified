@@ -3670,6 +3670,9 @@ mSocketIn
 mUsingSpdy
 &
 &
+mHttp1xTransactionCount
+&
+&
 NS_SUCCEEDED
 (
 mSocketIn
