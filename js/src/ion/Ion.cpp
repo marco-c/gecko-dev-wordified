@@ -4826,7 +4826,9 @@ script
 )
 -
 >
-usesArguments
+mayNeedArgsObj
+(
+)
 )
 {
 /

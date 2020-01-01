@@ -741,13 +741,6 @@ h
 #
 include
 "
-nsDOMEvent
-.
-h
-"
-#
-include
-"
 nsIContentSecurityPolicy
 .
 h

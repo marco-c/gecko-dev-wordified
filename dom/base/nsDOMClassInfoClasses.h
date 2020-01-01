@@ -1614,6 +1614,10 @@ DOMCI_CLASS
 (
 TextMetrics
 )
+DOMCI_CLASS
+(
+ImageData
+)
 /
 /
 SmartCard

@@ -6237,7 +6237,7 @@ AHU_loadSnippetsURL
 const
 STARTPAGE_VERSION
 =
-1
+2
 ;
 let
 updateURL

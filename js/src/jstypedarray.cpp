@@ -14454,11 +14454,8 @@ return
 arrayBufferProto
 ;
 }
-JS_FRIEND_API
-(
 JSObject
 *
-)
 js_InitTypedArrayClasses
 (
 JSContext

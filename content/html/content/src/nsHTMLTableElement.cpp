@@ -553,13 +553,6 @@ h
 #
 include
 "
-nsGenericHTMLElement
-.
-h
-"
-#
-include
-"
 nsIHTMLCollection
 .
 h

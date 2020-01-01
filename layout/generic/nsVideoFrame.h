@@ -661,9 +661,10 @@ nsSize
 aBorder
 nsSize
 aPadding
-bool
-aShrinkWrap
+PRUint32
+aFlags
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord

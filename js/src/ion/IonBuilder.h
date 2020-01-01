@@ -2050,13 +2050,6 @@ name
 )
 ;
 bool
-jsop_getfcslot
-(
-uint16
-index
-)
-;
-bool
 jsop_getelem
 (
 )

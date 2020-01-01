@@ -1113,17 +1113,6 @@ PropertyName
 name
 )
 ;
-void
-JS_FASTCALL
-GetUpvar
-(
-VMFrame
-&
-f
-uint32_t
-index
-)
-;
 template
 <
 JSBool

@@ -3428,8 +3428,8 @@ DidResizeColumns
 (
 )
 ;
-}
 break
 ;
+}
 }
 }

@@ -24121,7 +24121,7 @@ mSelectionTextColor
 NS_DONT_CHANGE_COLOR
 )
 {
-nscoord
+nscolor
 frameColor
 =
 mFrame
@@ -45189,8 +45189,8 @@ nsSize
 aBorder
 nsSize
 aPadding
-bool
-aShrinkWrap
+PRUint32
+aFlags
 )
 {
 /

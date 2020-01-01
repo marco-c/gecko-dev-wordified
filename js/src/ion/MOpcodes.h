@@ -885,11 +885,6 @@ DeleteProperty
 \
 _
 (
-FlatClosureUpvars
-)
-\
-_
-(
 SetPropertyCache
 )
 \

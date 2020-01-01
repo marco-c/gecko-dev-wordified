@@ -477,13 +477,6 @@ h
 #
 include
 "
-nsHTMLFormElement
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

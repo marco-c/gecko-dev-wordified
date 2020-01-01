@@ -1166,13 +1166,6 @@ h
 #
 include
 "
-nsIDOMXPathEvaluator
-.
-h
-"
-#
-include
-"
 nsDOMCID
 .
 h
@@ -42632,7 +42625,7 @@ if
 mWarnedAbout
 &
 (
-1
+1ull
 <
 <
 aOperation
@@ -42646,7 +42639,7 @@ mWarnedAbout
 |
 =
 (
-1
+1ull
 <
 <
 aOperation

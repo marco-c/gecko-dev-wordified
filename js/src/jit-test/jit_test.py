@@ -3882,23 +3882,6 @@ args
 :
 ]
     
-JS
-=
-os
-.
-path
-.
-realpath
-(
-JS
-)
-#
-Burst
-through
-the
-symlinks
-!
-    
 if
 stdio_might_be_broken
 (

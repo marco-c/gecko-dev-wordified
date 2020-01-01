@@ -473,13 +473,6 @@ h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 nsXBLProtoImplProperty
 .
 h

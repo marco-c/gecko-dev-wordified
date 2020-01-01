@@ -934,6 +934,8 @@ loadSQLiteLibsNative
 (
 String
 apkName
+boolean
+shouldExtract
 )
 ;
 public
@@ -944,6 +946,8 @@ loadNSSLibsNative
 (
 String
 apkName
+boolean
+shouldExtract
 )
 ;
 public
@@ -3080,11 +3084,13 @@ delete
 loadSQLiteLibsNative
 (
 apkName
+extractLibs
 )
 ;
 loadNSSLibsNative
 (
 apkName
+extractLibs
 )
 ;
 loadGeckoLibsNative

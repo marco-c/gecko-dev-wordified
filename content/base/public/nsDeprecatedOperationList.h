@@ -559,3 +559,7 @@ DEPRECATED_OPERATION
 (
 MozBeforePaint
 )
+DEPRECATED_OPERATION
+(
+MozBlobBuilder
+)

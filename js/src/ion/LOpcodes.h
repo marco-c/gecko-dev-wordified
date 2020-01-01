@@ -805,11 +805,6 @@ Elements
 \
 _
 (
-FlatClosureUpvars
-)
-\
-_
-(
 LoadSlotV
 )
 \
