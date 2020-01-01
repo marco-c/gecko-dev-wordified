@@ -860,7 +860,12 @@ tiledLayerProps
 mRetainTiles
 =
 !
+(
 mIsFixedPosition
+|
+|
+mStickyPositionData
+)
 ;
 tiledLayerProps
 .
