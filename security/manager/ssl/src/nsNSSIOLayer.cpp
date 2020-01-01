@@ -1353,6 +1353,10 @@ mAllowTLSIntoleranceTimeout
 (
 PR_TRUE
 )
+mRememberClientAuthCertificate
+(
+PR_FALSE
+)
 mHandshakeStartTime
 (
 0
