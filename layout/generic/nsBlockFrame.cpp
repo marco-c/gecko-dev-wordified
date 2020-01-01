@@ -44376,7 +44376,7 @@ return
 a11y
 :
 :
-eHTMLHRAccessible
+eHTMLHR
 ;
 }
 if
@@ -44435,7 +44435,7 @@ return
 a11y
 :
 :
-eNoAccessible
+eNoType
 ;
 }
 nsCOMPtr
@@ -44514,7 +44514,7 @@ return
 a11y
 :
 :
-eNoAccessible
+eNoType
 ;
 }
 }
@@ -44532,7 +44532,7 @@ return
 a11y
 :
 :
-eHyperTextAccessible
+eHyperText
 ;
 }
 /
@@ -44546,7 +44546,7 @@ return
 a11y
 :
 :
-eHTMLLiAccessible
+eHTMLLi
 ;
 }
 #

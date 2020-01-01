@@ -1916,7 +1916,7 @@ return
 a11y
 :
 :
-eHTMLSelectListAccessible
+eHTMLSelectList
 ;
 }
 #

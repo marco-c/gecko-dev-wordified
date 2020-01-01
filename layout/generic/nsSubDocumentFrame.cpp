@@ -582,7 +582,7 @@ return
 a11y
 :
 :
-eOuterDocAccessible
+eOuterDoc
 ;
 }
 #

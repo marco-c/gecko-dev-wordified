@@ -1143,14 +1143,14 @@ return
 a11y
 :
 :
-eHTMLImageMapAccessible
+eHTMLImageMap
 ;
 }
 return
 a11y
 :
 :
-eImageAccessible
+eImage
 ;
 }
 #

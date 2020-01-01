@@ -8479,7 +8479,7 @@ return
 a11y
 :
 :
-eHTMLTableRowAccessible
+eHTMLTableRow
 ;
 }
 #
