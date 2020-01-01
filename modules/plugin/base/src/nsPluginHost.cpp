@@ -451,7 +451,7 @@ BLOCK
 /
 /
 *
-nsPluginHostImpl
+nsPluginHost
 .
 cpp
 -
@@ -473,7 +473,7 @@ h
 #
 include
 "
-nsPluginHostImpl
+nsPluginHost
 .
 h
 "
@@ -1805,14 +1805,14 @@ PR_FALSE
 endif
 nsIFile
 *
-nsPluginHostImpl
+nsPluginHost
 :
 :
 sPluginTempDir
 ;
-nsPluginHostImpl
+nsPluginHost
 *
-nsPluginHostImpl
+nsPluginHost
 :
 :
 sInst
@@ -4447,7 +4447,7 @@ i
 ;
 if
 (
-nsPluginHostImpl
+nsPluginHost
 :
 :
 IsJavaMIMEType
@@ -5059,7 +5059,7 @@ i
 ;
 if
 (
-nsPluginHostImpl
+nsPluginHost
 :
 :
 IsJavaMIMEType
@@ -5607,7 +5607,7 @@ nsPluginTag
 :
 SetHost
 (
-nsPluginHostImpl
+nsPluginHost
 *
 aHost
 )
@@ -8223,9 +8223,6 @@ mURL
 =
 nsnull
 )
-(
-void
-)
 mURL
 -
 >
@@ -8514,9 +8511,6 @@ aURL
 =
 nsnull
 )
-(
-void
-)
 aURL
 -
 >
@@ -8728,9 +8722,6 @@ PLUGIN_LOGGING
 nsCAutoString
 urlSpec
 ;
-(
-void
-)
 aURL
 -
 >
@@ -9363,7 +9354,7 @@ pluginTmp
 ;
 rv
 =
-nsPluginHostImpl
+nsPluginHost
 :
 :
 GetPluginTempDir
@@ -10873,7 +10864,6 @@ key
 PRUint32
 HashCode
 (
-void
 )
 const
 {
@@ -11703,9 +11693,6 @@ forwarding
 count
 hash
 .
-(
-void
-)
 mDataForwardToRequest
 -
 >
@@ -13386,10 +13373,10 @@ get
 )
 ;
 }
-nsPluginHostImpl
+nsPluginHost
 :
 :
-nsPluginHostImpl
+nsPluginHost
 (
 )
 {
@@ -13713,7 +13700,7 @@ Logging
 Active
 !
 (
-nsPluginHostImpl
+nsPluginHost
 :
 :
 ctor
@@ -13748,7 +13735,7 @@ PLUGIN_LOG
 PLUGIN_LOG_ALWAYS
 (
 "
-nsPluginHostImpl
+nsPluginHost
 :
 :
 ctor
@@ -13769,11 +13756,11 @@ mCachedPlugins
 nsnull
 ;
 }
-nsPluginHostImpl
+nsPluginHost
 :
 :
 ~
-nsPluginHostImpl
+nsPluginHost
 (
 )
 {
@@ -13782,7 +13769,7 @@ PLUGIN_LOG
 PLUGIN_LOG_ALWAYS
 (
 "
-nsPluginHostImpl
+nsPluginHost
 :
 :
 dtor
@@ -13803,14 +13790,14 @@ nsnull
 }
 NS_IMPL_ISUPPORTS3
 (
-nsPluginHostImpl
+nsPluginHost
 nsIPluginHost
 nsIObserver
 nsISupportsWeakReference
 )
-nsPluginHostImpl
+nsPluginHost
 *
-nsPluginHostImpl
+nsPluginHost
 :
 :
 GetInst
@@ -13826,7 +13813,7 @@ sInst
 sInst
 =
 new
-nsPluginHostImpl
+nsPluginHost
 (
 )
 ;
@@ -13893,7 +13880,7 @@ static
 const
 char
 *
-nsPluginHostImpl
+nsPluginHost
 :
 :
 GetPluginName
@@ -13947,7 +13934,7 @@ nsnull
 ;
 }
 PRBool
-nsPluginHostImpl
+nsPluginHost
 :
 :
 IsRunningPlugin
@@ -14063,7 +14050,7 @@ PR_FALSE
 ;
 }
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 ReloadPlugins
@@ -14077,7 +14064,7 @@ PLUGIN_LOG
 PLUGIN_LOG_NORMAL
 (
 "
-nsPluginHostImpl
+nsPluginHost
 :
 :
 ReloadPlugins
@@ -14566,7 +14553,7 @@ PLUGIN_LOG
 PLUGIN_LOG_NORMAL
 (
 "
-nsPluginHostImpl
+nsPluginHost
 :
 :
 ReloadPlugins
@@ -14593,7 +14580,7 @@ define
 NS_RETURN_UASTRING_SIZE
 128
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 UserAgent
@@ -14804,7 +14791,7 @@ PLUGIN_LOG
 PLUGIN_LOG_NORMAL
 (
 "
-nsPluginHostImpl
+nsPluginHost
 :
 :
 UserAgent
@@ -14825,7 +14812,7 @@ res
 ;
 }
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 GetPrompt
@@ -14967,7 +14954,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 GetURL
@@ -15014,7 +15001,7 @@ nsnull
 ;
 }
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 GetURLWithHeaders
@@ -15274,7 +15261,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 PostURL
@@ -15807,7 +15794,7 @@ implemented
 *
 /
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 FindProxyForURL
@@ -16284,7 +16271,7 @@ res
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 CreateInstance
@@ -16318,7 +16305,7 @@ NS_ERROR_UNEXPECTED
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 LockFactory
@@ -16345,12 +16332,11 @@ NS_ERROR_UNEXPECTED
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 Init
 (
-void
 )
 {
 return
@@ -16358,12 +16344,11 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 Destroy
 (
-void
 )
 {
 PLUGIN_LOG
@@ -16371,7 +16356,7 @@ PLUGIN_LOG
 PLUGIN_LOG_NORMAL
 (
 "
-nsPluginHostImpl
+nsPluginHost
 :
 :
 Destroy
@@ -16685,7 +16670,7 @@ NS_OK
 ;
 }
 void
-nsPluginHostImpl
+nsPluginHost
 :
 :
 UnloadUnusedLibraries
@@ -16748,7 +16733,7 @@ Clear
 ;
 }
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 GetPluginTempDir
@@ -16852,7 +16837,7 @@ aDir
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 InstantiatePluginForChannel
@@ -16948,7 +16933,7 @@ gPluginLog
 PLUGIN_LOG_NORMAL
 (
 "
-nsPluginHostImpl
+nsPluginHost
 :
 :
 InstantiatePluginForChannel
@@ -17021,7 +17006,7 @@ embedded
 case
 )
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 InstantiateEmbeddedPlugin
@@ -17070,7 +17055,7 @@ gPluginLog
 PLUGIN_LOG_NORMAL
 (
 "
-nsPluginHostImpl
+nsPluginHost
 :
 :
 InstantiateEmbeddedPlugin
@@ -17682,7 +17667,7 @@ PLUGIN_LOG
 PLUGIN_LOG_NOISY
 (
 "
-nsPluginHostImpl
+nsPluginHost
 :
 :
 InstantiateEmbeddedPlugin
@@ -18385,9 +18370,6 @@ aURL
 =
 nsnull
 )
-(
-void
-)
 aURL
 -
 >
@@ -18405,7 +18387,7 @@ gPluginLog
 PLUGIN_LOG_NORMAL
 (
 "
-nsPluginHostImpl
+nsPluginHost
 :
 :
 InstantiateEmbeddedPlugin
@@ -18459,7 +18441,7 @@ full
 page
 case
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 InstantiateFullPagePlugin
@@ -18499,7 +18481,7 @@ PLUGIN_LOG
 PLUGIN_LOG_NORMAL
 (
 "
-nsPluginHostImpl
+nsPluginHost
 :
 :
 InstantiateFullPagePlugin
@@ -18548,7 +18530,7 @@ PLUGIN_LOG
 PLUGIN_LOG_NOISY
 (
 "
-nsPluginHostImpl
+nsPluginHost
 :
 :
 InstantiateFullPagePlugin
@@ -18776,7 +18758,7 @@ PLUGIN_LOG
 PLUGIN_LOG_NORMAL
 (
 "
-nsPluginHostImpl
+nsPluginHost
 :
 :
 InstantiateFullPagePlugin
@@ -18816,7 +18798,7 @@ rv
 ;
 }
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 FindStoppedPluginForURL
@@ -18993,7 +18975,7 @@ NS_ERROR_FAILURE
 ;
 }
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 AddInstanceToActiveList
@@ -19693,7 +19675,7 @@ get
 }
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 SetUpPluginInstance
@@ -19933,7 +19915,7 @@ rv
 ;
 }
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 TrySetUpPluginInstance
@@ -19963,9 +19945,6 @@ aURL
 =
 nsnull
 )
-(
-void
-)
 aURL
 -
 >
@@ -19983,7 +19962,7 @@ gPluginLog
 PLUGIN_LOG_NORMAL
 (
 "
-nsPluginHostImpl
+nsPluginHost
 :
 :
 TrySetupPluginInstance
@@ -20523,7 +20502,7 @@ gPluginLog
 PLUGIN_LOG_BASIC
 (
 "
-nsPluginHostImpl
+nsPluginHost
 :
 :
 TrySetupPluginInstance
@@ -20569,7 +20548,7 @@ result
 ;
 }
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 SetUpDefaultPluginInstance
@@ -20832,7 +20811,7 @@ result
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 IsPluginEnabledForType
@@ -21052,7 +21031,7 @@ aExtension
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 IsPluginEnabledForExtension
@@ -21567,7 +21546,7 @@ DOMPluginImpl
 nsIDOMPlugin
 )
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 GetPluginCount
@@ -21633,7 +21612,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 GetPlugins
@@ -21719,7 +21698,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 GetPluginTags
@@ -21868,7 +21847,7 @@ NS_OK
 }
 nsPluginTag
 *
-nsPluginHostImpl
+nsPluginHost
 :
 :
 FindPluginForType
@@ -22019,7 +21998,7 @@ nsnull
 }
 nsPluginTag
 *
-nsPluginHostImpl
+nsPluginHost
 :
 :
 FindPluginEnabledForExtension
@@ -22465,7 +22444,7 @@ aOutNPAPIPlugnin
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 GetPluginFactory
@@ -22539,7 +22518,7 @@ PLUGIN_LOG
 PLUGIN_LOG_BASIC
 (
 "
-nsPluginHostImpl
+nsPluginHost
 :
 :
 GetPluginFactory
@@ -22835,7 +22814,7 @@ PLUGIN_LOG
 PLUGIN_LOG_NORMAL
 (
 "
-nsPluginHostImpl
+nsPluginHost
 :
 :
 GetPluginFactory
@@ -23107,7 +23086,7 @@ PR_TRUE
 ;
 }
 PRBool
-nsPluginHostImpl
+nsPluginHost
 :
 :
 IsJavaMIMEType
@@ -23228,7 +23207,7 @@ bean
 }
 nsPluginTag
 *
-nsPluginHostImpl
+nsPluginHost
 :
 :
 HaveSamePlugin
@@ -23275,7 +23254,7 @@ nsnull
 ;
 }
 PRBool
-nsPluginHostImpl
+nsPluginHost
 :
 :
 IsDuplicatePlugin
@@ -23867,7 +23846,7 @@ NS_OK
 ;
 }
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 ScanPluginsDirectory
@@ -23919,7 +23898,7 @@ PLUGIN_LOG
 PLUGIN_LOG_BASIC
 (
 "
-nsPluginHostImpl
+nsPluginHost
 :
 :
 ScanPluginsDirectory
@@ -25429,7 +25408,7 @@ NS_OK
 ;
 }
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 ScanPluginsDirectoryList
@@ -25593,7 +25572,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 LoadPlugins
@@ -25762,7 +25741,7 @@ possible
 recursive
 reloads
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 FindPlugins
@@ -26847,7 +26826,7 @@ NS_OK
 ;
 }
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 UpdatePluginInfo
@@ -26966,7 +26945,7 @@ NS_OK
 ;
 }
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 WritePluginInfo
@@ -27810,7 +27789,7 @@ define
 PLUGIN_REG_MIMETYPES_ARRAY_SIZE
 12
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 ReadPluginInfo
@@ -29065,7 +29044,7 @@ NS_OK
 ;
 }
 void
-nsPluginHostImpl
+nsPluginHost
 :
 :
 RemoveCachedPluginsInfo
@@ -29182,7 +29161,7 @@ mNext
 ifdef
 XP_WIN
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 EnsurePrivateDirServiceProvider
@@ -29270,7 +29249,7 @@ XP_WIN
 *
 /
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 NewPluginURLStream
@@ -30059,7 +30038,7 @@ GetURL
 and
 PostURL
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 DoURLLoadSecurityCheck
@@ -30245,7 +30224,7 @@ STANDARD
 ;
 }
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 AddHeadersToChannel
@@ -30525,7 +30504,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 StopPluginInstance
@@ -30555,7 +30534,7 @@ PLUGIN_LOG
 PLUGIN_LOG_NORMAL
 (
 "
-nsPluginHostImpl
+nsPluginHost
 :
 :
 StopPluginInstance
@@ -30810,7 +30789,7 @@ NS_OK
 ;
 }
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 NewEmbeddedPluginStreamListener
@@ -30983,7 +30962,7 @@ InstantiateEmbeddedPlugin
 (
 )
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 NewEmbeddedPluginStream
@@ -31198,7 +31177,7 @@ InstantiateFullPagePlugin
 (
 )
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 NewFullPagePluginStream
@@ -31326,7 +31305,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 Observe
@@ -31659,7 +31638,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 HandleBadPlugin
@@ -32172,7 +32151,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 SetIsScriptableInstance
@@ -32234,7 +32213,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 ParsePostBufferToFixHeaders
@@ -33452,7 +33431,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 CreateTmpFileToPost
@@ -34035,7 +34014,7 @@ lets
 parse
 it
 through
-nsPluginHostImpl
+nsPluginHost
 :
 :
 ParsePostBufferToFixHeaders
@@ -34189,7 +34168,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 NewPluginNativeWindow
@@ -34208,7 +34187,7 @@ aPluginNativeWindow
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 DeletePluginNativeWindow
@@ -34226,7 +34205,7 @@ aPluginNativeWindow
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 InstantiateDummyJavaPlugin
@@ -34380,7 +34359,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPluginHostImpl
+nsPluginHost
 :
 :
 GetPluginName
@@ -34408,7 +34387,7 @@ NS_OK
 ;
 }
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 AddUnusedLibrary
@@ -34447,7 +34426,7 @@ NS_OK
 ;
 }
 nsresult
-nsPluginHostImpl
+nsPluginHost
 :
 :
 AddPrefObserver
@@ -35726,11 +35705,11 @@ Stop
 ;
 nsRefPtr
 <
-nsPluginHostImpl
+nsPluginHost
 >
 host
 =
-nsPluginHostImpl
+nsPluginHost
 :
 :
 GetInst

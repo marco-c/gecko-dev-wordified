@@ -440,7 +440,7 @@ h
 #
 include
 "
-nsPluginHostImpl
+nsPluginHost
 .
 h
 "
@@ -453,8 +453,8 @@ h
 "
 NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
-nsPluginHostImpl
-nsPluginHostImpl
+nsPluginHost
+nsPluginHost
 :
 :
 GetInst
@@ -474,7 +474,7 @@ Host
 "
 NS_PLUGIN_HOST_CID
 MOZ_PLUGIN_HOST_CONTRACTID
-nsPluginHostImplConstructor
+nsPluginHostConstructor
 }
 }
 ;
