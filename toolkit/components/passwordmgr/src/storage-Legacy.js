@@ -1505,10 +1505,10 @@ result
 /
 *
 *
-clearAllLogins
+removeAllLogins
 *
 *
-Clears
+Removes
 all
 logins
 from
@@ -1516,7 +1516,7 @@ storage
 .
 *
 /
-clearAllLogins
+removeAllLogins
 :
 function
 (
