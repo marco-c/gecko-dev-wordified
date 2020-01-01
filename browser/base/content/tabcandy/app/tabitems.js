@@ -589,6 +589,12 @@ isDragging
 false
 )
 ;
+this
+.
+isDragging
+=
+false
+;
 /
 /
 ___
