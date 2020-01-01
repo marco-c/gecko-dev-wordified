@@ -689,6 +689,8 @@ ms
 void
 SetQuotes
 (
+PRBool
+aNotify
 )
 ;
 }
