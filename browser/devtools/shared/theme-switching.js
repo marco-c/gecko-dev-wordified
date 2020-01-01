@@ -250,7 +250,7 @@ winUtils
 removeSheet
 (
 oldThemeUrl
-window
+winUtils
 .
 AUTHOR_SHEET
 )
@@ -291,7 +291,7 @@ winUtils
 loadSheet
 (
 newThemeUrl
-window
+winUtils
 .
 AUTHOR_SHEET
 )
@@ -355,7 +355,7 @@ winUtils
 loadSheet
 (
 scrollbarsUrl
-window
+winUtils
 .
 AGENT_SHEET
 )
@@ -379,7 +379,7 @@ winUtils
 removeSheet
 (
 scrollbarsUrl
-window
+winUtils
 .
 AGENT_SHEET
 )
