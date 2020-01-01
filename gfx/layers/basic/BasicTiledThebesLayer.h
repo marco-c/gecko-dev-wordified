@@ -543,11 +543,11 @@ bool
 aFinish
 )
 ;
-BasicTiledLayerBuffer
-mTiledBuffer
-;
-BasicTiledLayerBuffer
-mLowPrecisionTiledBuffer
+RefPtr
+<
+TiledContentClient
+>
+mContentClient
 ;
 nsIntRegion
 mLowPrecisionValidRegion

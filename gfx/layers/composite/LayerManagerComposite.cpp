@@ -1999,7 +1999,7 @@ composer
 shadow
 -
 >
-AsTiledLayerComposer
+GetTiledLayerComposer
 (
 )
 ;
