@@ -2342,6 +2342,9 @@ ver
 0
 ;
 }
+#
+ifdef
+DEBUG
 /
 /
 Ensures
@@ -2456,6 +2459,8 @@ return
 PR_TRUE
 ;
 }
+#
+endif
 static
 void
 Clear
