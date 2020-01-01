@@ -163,6 +163,15 @@ h
 #
 include
 "
+jit
+/
+AsmJS
+.
+h
+"
+#
+include
+"
 jsinferinlines
 .
 h
@@ -228,6 +237,10 @@ maxAsmJSStackArgBytes_
 performsAsmJSCall_
 (
 false
+)
+minAsmJSHeapLength_
+(
+AsmJSAllocationGranularity
 )
 {
 }
