@@ -823,7 +823,6 @@ clobbers
 ;
 #
 else
-ARMWord
 lz
 =
 0
@@ -868,7 +867,7 @@ s
 if
 (
 (
-x
+scale
 &
 mask
 )
