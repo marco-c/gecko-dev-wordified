@@ -904,6 +904,19 @@ cx
 )
 )
 {
+{
+/
+/
+Extra
+block
+to
+finish
+the
+auto
+request
+before
+calling
+pop
 JSAutoRequest
 ar
 (
@@ -935,6 +948,7 @@ str
 )
 )
 ;
+}
 }
 stack
 -

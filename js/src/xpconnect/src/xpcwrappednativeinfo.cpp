@@ -1381,10 +1381,9 @@ new
 request
 .
 {
-JSAutoTransferRequest
-transfer
+JSAutoRequest
+req
 (
-ccx
 cx
 )
 ;

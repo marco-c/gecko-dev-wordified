@@ -29713,10 +29713,9 @@ jsval
 exn
 ;
 {
-JSAutoTransferRequest
+JSAutoRequest
 transfer
 (
-cx
 my_cx
 )
 ;
