@@ -628,9 +628,6 @@ SubmitNamesValues
 nsFormSubmission
 *
 aFormSubmission
-nsIContent
-*
-aSubmitElement
 )
 ;
 NS_IMETHOD
@@ -1958,9 +1955,6 @@ SubmitNamesValues
 nsFormSubmission
 *
 aFormSubmission
-nsIContent
-*
-aSubmitElement
 )
 {
 return

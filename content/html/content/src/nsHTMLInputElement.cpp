@@ -13173,9 +13173,6 @@ SubmitNamesValues
 nsFormSubmission
 *
 aFormSubmission
-nsIContent
-*
-aSubmitElement
 )
 {
 nsresult
@@ -13288,7 +13285,12 @@ NS_FORM_INPUT_IMAGE
 )
 &
 &
-aSubmitElement
+aFormSubmission
+-
+>
+GetOriginatingElement
+(
+)
 !
 =
 this
