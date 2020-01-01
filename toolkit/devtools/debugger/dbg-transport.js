@@ -1512,6 +1512,10 @@ see
 DebuggerTransport
 *
 /
+this
+.
+LocalDebuggerTransport
+=
 function
 LocalDebuggerTransport
 (
