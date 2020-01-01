@@ -3731,12 +3731,12 @@ LookupCache
 :
 KeyedHash
 (
-domHash
 hash
 .
 ToUint32
 (
 )
+domHash
 mHashKey
 &
 codedHash
