@@ -4955,6 +4955,8 @@ browser
 /
 locale
 /
+devtools
+/
 styleinspector
 .
 properties

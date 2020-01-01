@@ -657,6 +657,8 @@ browser
 /
 locale
 /
+devtools
+/
 scratchpad
 .
 properties
