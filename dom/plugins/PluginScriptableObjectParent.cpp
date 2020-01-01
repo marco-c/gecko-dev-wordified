@@ -586,7 +586,7 @@ module
 aInstance
 -
 >
-GetModule
+Module
 (
 )
 ;
@@ -831,7 +831,7 @@ module
 aInstance
 -
 >
-GetModule
+Module
 (
 )
 ;
