@@ -39991,6 +39991,11 @@ NODE_NEEDS_FRAME
 ;
 }
 }
+RestyleManager
+(
+)
+-
+>
 PostRestyleEventForLazyConstruction
 (
 )
@@ -56028,6 +56033,11 @@ if
 aAsyncInsert
 )
 {
+RestyleManager
+(
+)
+-
+>
 PostRestyleEvent
 (
 aContent
