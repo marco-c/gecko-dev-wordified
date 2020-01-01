@@ -34028,6 +34028,7 @@ aContext
 UserToDevicePixelSnapped
 (
 putativeRect
+PR_TRUE
 )
 )
 return
