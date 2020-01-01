@@ -9079,6 +9079,17 @@ backgroundAllocation
 false
 ;
 }
+PRThread
+*
+getThread
+(
+)
+const
+{
+return
+thread
+;
+}
 /
 *
 *
