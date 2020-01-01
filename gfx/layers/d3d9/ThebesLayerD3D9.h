@@ -729,8 +729,12 @@ etc
 *
 /
 void
-RenderVisibleRegion
+RenderRegion
 (
+const
+nsIntRegion
+&
+aRegion
 )
 ;
 /
