@@ -447,6 +447,13 @@ moziqwidget
 .
 h
 "
+#
+include
+"
+nsIWidget
+.
+h
+"
 class
 MozQWidget
 :
