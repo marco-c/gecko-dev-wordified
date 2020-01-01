@@ -1546,9 +1546,7 @@ value
 the
 first
 time
-it
-'
-s
+its
 getter
 is
 called
