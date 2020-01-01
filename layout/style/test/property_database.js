@@ -523,9 +523,6 @@ MozAppearance
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -567,9 +564,6 @@ domProp
 MozBackgroundClip
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -620,9 +614,6 @@ MozBackgroundInlinePolicy
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -670,9 +661,6 @@ MozBackgroundOrigin
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -715,9 +703,6 @@ domProp
 MozBinding
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -765,9 +750,6 @@ domProp
 MozBorderBottomColors
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -830,9 +812,6 @@ MozBorderLeftColors
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -889,9 +868,6 @@ domProp
 MozBorderRadius
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -1019,9 +995,6 @@ MozBorderRadiusBottomleft
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -1079,9 +1052,6 @@ domProp
 MozBorderRadiusBottomright
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -1143,9 +1113,6 @@ MozBorderRadiusTopleft
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -1205,9 +1172,6 @@ MozBorderRadiusTopright
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -1265,9 +1229,6 @@ domProp
 MozBorderRightColors
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -1330,9 +1291,6 @@ MozBorderTopColors
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -1391,9 +1349,6 @@ MozBoxAlign
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -1443,9 +1398,6 @@ MozBoxDirection
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -1484,9 +1436,6 @@ domProp
 MozBoxFlex
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -1557,9 +1506,6 @@ MozBoxOrdinalGroup
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -1616,9 +1562,6 @@ MozBoxOrient
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -1669,9 +1612,6 @@ MozBoxPack
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -1718,9 +1658,6 @@ MozBoxSizing
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -1765,9 +1702,6 @@ domProp
 MozColumnCount
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -1849,9 +1783,6 @@ MozColumnGap
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -1902,9 +1833,6 @@ MozColumnWidth
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -1950,9 +1878,6 @@ domProp
 MozFloatEdge
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -2005,9 +1930,6 @@ MozForceBrokenImageIcon
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -2046,9 +1968,6 @@ domProp
 MozImageRegion
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -2104,9 +2023,6 @@ domProp
 MozMarginEnd
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -2182,9 +2098,6 @@ MozMarginStart
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
@@ -2256,9 +2169,6 @@ domProp
 MozOutlineRadius
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -2363,9 +2273,6 @@ MozOutlineRadiusBottomleft
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -2422,9 +2329,6 @@ domProp
 MozOutlineRadiusBottomright
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -2485,9 +2389,6 @@ MozOutlineRadiusTopleft
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -2546,9 +2447,6 @@ MozOutlineRadiusTopright
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -2603,9 +2501,6 @@ domProp
 MozPaddingEnd
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -2670,9 +2565,6 @@ MozPaddingStart
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
@@ -2735,9 +2627,6 @@ MozUserFocus
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -2806,9 +2695,6 @@ MozUserInput
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -2855,9 +2741,6 @@ MozUserModify
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -2905,9 +2788,6 @@ domProp
 MozUserSelect
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -3057,9 +2937,6 @@ domProp
 background
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -3415,9 +3292,6 @@ backgroundAttachment
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -3453,9 +3327,6 @@ domProp
 backgroundColor
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -3606,9 +3477,6 @@ backgroundImage
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -3708,9 +3576,6 @@ domProp
 backgroundPosition
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -3837,9 +3702,6 @@ backgroundRepeat
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -3885,9 +3747,6 @@ domProp
 border
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -4046,9 +3905,6 @@ borderBottom
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_TRUE_SHORTHAND
@@ -4150,9 +4006,6 @@ borderBottomColor
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -4234,9 +4087,6 @@ borderBottomStyle
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -4309,9 +4159,6 @@ borderBottomWidth
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -4382,9 +4229,6 @@ borderCollapse
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -4420,9 +4264,6 @@ domProp
 borderColor
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -4566,9 +4407,6 @@ borderLeft
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_TRUE_SHORTHAND
@@ -4664,9 +4502,6 @@ borderLeftColor
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -4748,9 +4583,6 @@ borderLeftStyle
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -4823,9 +4655,6 @@ borderLeftWidth
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -4894,9 +4723,6 @@ domProp
 borderRight
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -4994,9 +4820,6 @@ borderRightColor
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -5078,9 +4901,6 @@ borderRightStyle
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -5153,9 +4973,6 @@ borderRightWidth
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -5226,9 +5043,6 @@ borderSpacing
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -5296,9 +5110,6 @@ domProp
 borderStyle
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -5457,9 +5268,6 @@ borderTop
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_TRUE_SHORTHAND
@@ -5555,9 +5363,6 @@ borderTopColor
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -5639,9 +5444,6 @@ borderTopStyle
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -5714,9 +5516,6 @@ borderTopWidth
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -5785,9 +5584,6 @@ domProp
 borderWidth
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -5911,9 +5707,6 @@ bottom
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -5983,9 +5776,6 @@ captionSide
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -6027,9 +5817,6 @@ clear
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -6069,9 +5856,6 @@ domProp
 clip
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -6152,9 +5936,6 @@ color
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -6242,9 +6023,6 @@ domProp
 content
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -6376,9 +6154,6 @@ counterIncrement
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -6425,9 +6200,6 @@ domProp
 counterReset
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -6645,9 +6417,6 @@ cursor
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -6744,9 +6513,6 @@ direction
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -6780,9 +6546,6 @@ domProp
 display
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -6965,9 +6728,6 @@ emptyCells
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -7001,9 +6761,6 @@ domProp
 cssFloat
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -7044,9 +6801,6 @@ font
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_TRUE_SHORTHAND
@@ -7186,9 +6940,6 @@ fontFamily
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -7248,9 +6999,6 @@ fontSize
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -7308,9 +7056,6 @@ fontSizeAdjust
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -7439,9 +7184,6 @@ fontStyle
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -7482,9 +7224,6 @@ fontVariant
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -7524,9 +7263,6 @@ fontWeight
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -7604,9 +7340,6 @@ height
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -7655,9 +7388,6 @@ domProp
 left
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -7729,9 +7459,6 @@ letterSpacing
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -7782,9 +7509,6 @@ lineHeight
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -7833,9 +7557,6 @@ listStyle
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_TRUE_SHORTHAND
@@ -7952,9 +7673,6 @@ listStyleImage
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -8014,9 +7732,6 @@ listStylePosition
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -8056,9 +7771,6 @@ listStyleType
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -8104,9 +7816,6 @@ domProp
 margin
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -8194,9 +7903,6 @@ marginBottom
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -8255,9 +7961,6 @@ domProp
 marginLeft
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -8326,9 +8029,6 @@ marginRight
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
@@ -8395,9 +8095,6 @@ marginTop
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -8456,9 +8153,6 @@ domProp
 markerOffset
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -8586,9 +8280,6 @@ maxHeight
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -8634,9 +8325,6 @@ domProp
 maxWidth
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -8686,9 +8374,6 @@ minHeight
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -8736,9 +8421,6 @@ minWidth
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -8782,9 +8464,6 @@ domProp
 opacity
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -8939,9 +8618,6 @@ outline
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_TRUE_SHORTHAND
@@ -9049,9 +8725,6 @@ outlineColor
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -9137,9 +8810,6 @@ outlineOffset
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -9183,9 +8853,6 @@ domProp
 outlineStyle
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -9259,9 +8926,6 @@ outlineWidth
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -9330,9 +8994,6 @@ overflow
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
@@ -9397,9 +9058,6 @@ overflowX
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -9450,9 +9108,6 @@ overflowY
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -9499,9 +9154,6 @@ domProp
 padding
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -9589,9 +9241,6 @@ paddingBottom
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -9641,9 +9290,6 @@ domProp
 paddingLeft
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -9703,9 +9349,6 @@ paddingRight
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
@@ -9761,9 +9404,6 @@ domProp
 paddingTop
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -9863,9 +9503,6 @@ pageBreakAfter
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -9912,9 +9549,6 @@ domProp
 pageBreakBefore
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -10366,9 +10000,6 @@ position
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -10410,9 +10041,6 @@ quotes
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -10554,9 +10182,6 @@ domProp
 right
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -11045,9 +10670,6 @@ tableLayout
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -11085,9 +10707,6 @@ textAlign
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -11140,9 +10759,6 @@ domProp
 textDecoration
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -11222,9 +10838,6 @@ textIndent
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -11364,9 +10977,6 @@ textTransform
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -11406,9 +11016,6 @@ domProp
 top
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -11480,9 +11087,6 @@ unicodeBidi
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -11529,9 +11133,6 @@ domProp
 verticalAlign
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -11612,9 +11213,6 @@ visibility
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -11814,9 +11412,6 @@ whiteSpace
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -11944,9 +11539,6 @@ width
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -11999,9 +11591,6 @@ wordSpacing
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -12054,9 +11643,6 @@ domProp
 zIndex
 "
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -12121,9 +11707,6 @@ null
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -12175,9 +11758,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -12213,9 +11793,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -12256,9 +11833,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -12295,9 +11869,6 @@ domProp
 :
 null
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -12377,9 +11948,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -12476,9 +12044,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -12535,9 +12100,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -12569,9 +12131,6 @@ domProp
 :
 null
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -12619,9 +12178,6 @@ domProp
 :
 null
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -12717,9 +12273,6 @@ null
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -12774,9 +12327,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_TRUE_SHORTHAND
@@ -12867,9 +12417,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -12909,9 +12456,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -12951,9 +12495,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -12989,9 +12530,6 @@ domProp
 :
 null
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -13033,9 +12571,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -13092,9 +12627,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -13134,9 +12666,6 @@ domProp
 :
 null
 inherited
-:
-false
-backend_only
 :
 false
 type
@@ -13232,9 +12761,6 @@ null
 inherited
 :
 false
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -13289,9 +12815,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -13388,9 +12911,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -13443,9 +12963,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -13495,9 +13012,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -13536,9 +13050,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -13577,9 +13088,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -13636,9 +13144,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -13695,9 +13200,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -13758,9 +13260,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
@@ -13799,9 +13298,6 @@ null
 inherited
 :
 true
-backend_only
-:
-false
 type
 :
 CSS_TYPE_LONGHAND
