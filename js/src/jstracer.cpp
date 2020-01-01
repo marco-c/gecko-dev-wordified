@@ -60716,7 +60716,7 @@ ci
 =
 =
 &
-js_UnboxDouble_ci
+js_UnboxNumberAsDouble_ci
 )
 {
 #
@@ -60766,7 +60766,7 @@ w
 call
 (
 &
-js_UnboxInt32_ci
+js_UnboxNumberAsInt32_ci
 args
 )
 ;
@@ -60800,7 +60800,7 @@ w
 call
 (
 &
-js_UnboxInt32_ci
+js_UnboxNumberAsInt32_ci
 args
 )
 ;
@@ -69068,7 +69068,7 @@ w
 call
 (
 &
-js_UnboxDouble_ci
+js_UnboxNumberAsDouble_ci
 args
 )
 ;
@@ -69705,7 +69705,7 @@ v_ins
 =
 =
 &
-js_UnboxDouble_ci
+js_UnboxNumberAsDouble_ci
 )
 {
 w
@@ -70045,7 +70045,7 @@ w
 call
 (
 &
-js_UnboxDouble_ci
+js_UnboxNumberAsDouble_ci
 args
 )
 ;
@@ -70637,7 +70637,7 @@ v_ins
 =
 =
 &
-js_UnboxDouble_ci
+js_UnboxNumberAsDouble_ci
 )
 return
 v_ins
