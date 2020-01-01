@@ -103,13 +103,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 jsfriendapi
 .
 h

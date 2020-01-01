@@ -231,13 +231,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsISupportsPrimitives
 .
 h

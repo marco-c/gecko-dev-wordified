@@ -201,13 +201,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 xpcpublic
 .
 h

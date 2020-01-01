@@ -192,13 +192,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsINetworkManager
 .
 h

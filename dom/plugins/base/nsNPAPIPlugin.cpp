@@ -241,13 +241,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h
