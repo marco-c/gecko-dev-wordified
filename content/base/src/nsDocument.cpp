@@ -8956,11 +8956,6 @@ nsIDOMNSDocumentStyle
 NS_INTERFACE_TABLE_ENTRY
 (
 nsDocument
-nsIDOMDocumentRange
-)
-NS_INTERFACE_TABLE_ENTRY
-(
-nsDocument
 nsIDOMDocumentXBL
 )
 NS_INTERFACE_TABLE_ENTRY

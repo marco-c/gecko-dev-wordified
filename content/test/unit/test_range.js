@@ -1570,7 +1570,7 @@ doc
 instanceof
 C_i
 .
-nsIDOMDocumentRange
+nsIDOMDocument
 )
 ;
 /
@@ -3617,7 +3617,7 @@ doc
 instanceof
 C_i
 .
-nsIDOMDocumentRange
+nsIDOMDocument
 )
 ;
 do_check_eq

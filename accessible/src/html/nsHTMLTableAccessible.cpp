@@ -519,13 +519,6 @@ h
 #
 include
 "
-nsIDOMDocumentRange
-.
-h
-"
-#
-include
-"
 nsIDOMRange
 .
 h

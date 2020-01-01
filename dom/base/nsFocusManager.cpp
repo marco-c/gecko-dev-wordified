@@ -547,7 +547,7 @@ h
 #
 include
 "
-nsIDOMDocumentRange
+nsIDOMDocument
 .
 h
 "
@@ -12990,7 +12990,7 @@ aContent
 {
 /
 /
-rangeDoc
+domDoc
 is
 a
 document
@@ -13003,10 +13003,10 @@ range
 with
 nsCOMPtr
 <
-nsIDOMDocumentRange
+nsIDOMDocument
 >
-rangeDoc
-(
+domDoc
+=
 do_QueryInterface
 (
 aPresShell
@@ -13016,11 +13016,10 @@ GetDocument
 (
 )
 )
-)
 ;
 if
 (
-rangeDoc
+domDoc
 )
 {
 nsCOMPtr
@@ -13116,7 +13115,7 @@ newRange
 nsresult
 rv
 =
-rangeDoc
+domDoc
 -
 >
 CreateRange

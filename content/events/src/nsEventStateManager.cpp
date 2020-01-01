@@ -982,13 +982,6 @@ h
 #
 include
 "
-nsIDOMDocumentRange
-.
-h
-"
-#
-include
-"
 nsIDOMDocumentEvent
 .
 h

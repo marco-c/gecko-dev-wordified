@@ -535,13 +535,6 @@ h
 #
 include
 "
-nsIDOMDocumentRange
-.
-h
-"
-#
-include
-"
 nsIDOMDocumentTraversal
 .
 h
@@ -2870,8 +2863,6 @@ nsIDOM3DocumentEvent
 public
 nsIDOMNSDocumentStyle
 public
-nsIDOMDocumentRange
-public
 nsIDOMDocumentTraversal
 public
 nsIDOMDocumentXBL
@@ -4556,10 +4547,6 @@ NS_DECL_NSIDOMDOCUMENTSTYLE
 /
 nsIDOMNSDocumentStyle
 NS_DECL_NSIDOMNSDOCUMENTSTYLE
-/
-/
-nsIDOMDocumentRange
-NS_DECL_NSIDOMDOCUMENTRANGE
 /
 /
 nsIDOMDocumentTraversal
