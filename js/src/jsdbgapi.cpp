@@ -383,6 +383,12 @@ mozilla
 :
 DebugOnly
 ;
+using
+mozilla
+:
+:
+PodZero
+;
 JS_PUBLIC_API
 (
 JSBool

@@ -116,6 +116,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+PodOperations
+.
+h
+"
+#
+include
 <
 stddef
 .
@@ -2213,6 +2222,9 @@ argumentsType
 ArgumentsAreUnicode
 )
 {
+mozilla
+:
+:
 PodZero
 (
 &

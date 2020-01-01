@@ -100,6 +100,15 @@ include
 "
 mozilla
 /
+PodOperations
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RangedPtr
 .
 h
@@ -1015,6 +1024,9 @@ return
 false
 ;
 return
+mozilla
+:
+:
 PodEqual
 (
 key

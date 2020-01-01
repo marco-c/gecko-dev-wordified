@@ -121,6 +121,15 @@ jsjaeger_framestate_h__
 #
 include
 "
+mozilla
+/
+PodOperations
+.
+h
+"
+#
+include
+"
 jsanalyze
 .
 h
@@ -4656,6 +4665,9 @@ reset
 (
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this
@@ -7107,6 +7119,9 @@ ActiveFrame
 (
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this

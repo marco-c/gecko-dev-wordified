@@ -118,6 +118,15 @@ String_inl_h__
 #
 include
 "
+mozilla
+/
+PodOperations
+.
+h
+"
+#
+include
+"
 jscntxt
 .
 h
@@ -449,6 +458,9 @@ init
 len
 )
 ;
+mozilla
+:
+:
 PodCopy
 (
 storage
@@ -606,6 +618,9 @@ JSShortString
 MAX_SHORT_LENGTH
 ]
 ;
+mozilla
+:
+:
 PodCopy
 (
 tmp
@@ -651,6 +666,9 @@ init
 len
 )
 ;
+mozilla
+:
+:
 PodCopy
 (
 storage

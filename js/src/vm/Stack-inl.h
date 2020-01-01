@@ -116,6 +116,15 @@ Stack_inl_h__
 #
 include
 "
+mozilla
+/
+PodOperations
+.
+h
+"
+#
+include
+"
 jscntxt
 .
 h
@@ -2817,6 +2826,9 @@ base
 (
 )
 ;
+mozilla
+:
+:
 PodCopy
 (
 dst

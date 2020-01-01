@@ -111,6 +111,15 @@ h
 #
 include
 "
+mozilla
+/
+PodOperations
+.
+h
+"
+#
+include
+"
 jsarray
 .
 h
@@ -351,6 +360,9 @@ OBJECT_FLAG_MASK
 )
 )
 ;
+mozilla
+:
+:
 PodZero
 (
 this
@@ -427,6 +439,9 @@ OBJECT_FLAG_MASK
 )
 )
 ;
+mozilla
+:
+:
 PodZero
 (
 this
@@ -553,6 +568,9 @@ StackBaseShape
 base
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this

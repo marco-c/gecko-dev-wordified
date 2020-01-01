@@ -140,6 +140,15 @@ h
 #
 include
 "
+mozilla
+/
+PodOperations
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h
@@ -465,6 +474,9 @@ startFaults
 startFaults
 )
 {
+mozilla
+:
+:
 PodArrayZero
 (
 phaseTimes
