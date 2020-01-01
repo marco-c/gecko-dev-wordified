@@ -15074,7 +15074,7 @@ xulTab
 callback
 )
 {
-UI
+FavIcons
 .
 getFavIconUrlForTab
 (
@@ -15090,11 +15090,9 @@ callback
 iconUrl
 |
 |
-gFavIconService
+FavIcons
 .
 defaultFavicon
-.
-spec
 )
 ;
 }

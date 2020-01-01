@@ -7516,7 +7516,7 @@ title
 /
 ___
 icon
-UI
+FavIcons
 .
 getFavIconUrlForTab
 (
