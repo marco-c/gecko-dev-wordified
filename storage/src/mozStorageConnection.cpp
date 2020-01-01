@@ -742,6 +742,14 @@ nsAutoLock
 :
 DestroyLock
 (
+mAsyncExecutionMutex
+)
+;
+nsAutoLock
+:
+:
+DestroyLock
+(
 mTransactionMutex
 )
 ;
@@ -861,6 +869,12 @@ opened
 database
 !
 "
+)
+;
+NS_ENSURE_TRUE
+(
+mAsyncExecutionMutex
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 NS_ENSURE_TRUE
