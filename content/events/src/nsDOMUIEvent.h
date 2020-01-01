@@ -840,11 +840,6 @@ GetLayerPoint
 )
 const
 ;
-nsIntPoint
-GetPagePoint
-(
-)
-;
 nsCOMPtr
 <
 nsIDOMWindow
