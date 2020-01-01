@@ -373,6 +373,10 @@ newInstance
 JSContext
 *
 cx
+NewObjectKind
+newKind
+=
+GenericObject
 )
 ;
 /

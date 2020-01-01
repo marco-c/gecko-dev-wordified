@@ -7789,6 +7789,7 @@ ParallelArrayObject
 newInstance
 (
 cx
+TenuredObject
 )
 )
 ;
@@ -8166,6 +8167,8 @@ NewDenseAllocatedArray
 (
 cx
 0
+NULL
+TenuredObject
 )
 )
 ;

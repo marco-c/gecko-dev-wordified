@@ -809,6 +809,14 @@ newInstance
 JSContext
 *
 cx
+NewObjectKind
+newKind
+/
+*
+=
+GenericObject
+*
+/
 )
 {
 gc
@@ -835,6 +843,7 @@ cx
 &
 class_
 kind
+newKind
 )
 )
 ;
@@ -903,6 +912,7 @@ cx
 newInstance
 (
 cx
+TenuredObject
 )
 )
 ;
