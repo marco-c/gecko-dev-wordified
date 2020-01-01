@@ -493,6 +493,7 @@ aRegion
 int16_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RepaintSelection
@@ -500,6 +501,7 @@ RepaintSelection
 SelectionType
 aType
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
