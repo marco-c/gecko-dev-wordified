@@ -1599,7 +1599,9 @@ mIncoming
 -
 >
 mData
-1024
+RilRawData
+.
+MAX_DATA_SIZE
 )
 ;
 if
@@ -1713,7 +1715,9 @@ if
 (
 ret
 <
-1024
+RilRawData
+.
+MAX_DATA_SIZE
 )
 {
 return
