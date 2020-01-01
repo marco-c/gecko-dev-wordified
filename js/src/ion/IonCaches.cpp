@@ -2586,7 +2586,7 @@ addState
 }
 static
 bool
-IsCacheableListBase
+IsCacheableDOMProxy
 (
 JSObject
 *
@@ -2625,7 +2625,7 @@ family
 )
 !
 =
-GetListBaseHandlerFamily
+GetDOMProxyHandlerFamily
 (
 )
 )
@@ -2642,7 +2642,7 @@ numFixedSlots
 )
 <
 =
-GetListBaseExpandoSlot
+GetDOMProxyExpandoSlot
 (
 )
 )
@@ -2779,7 +2779,7 @@ JSObject
 *
 pobj
 =
-IsCacheableListBase
+IsCacheableDOMProxy
 (
 obj
 )
@@ -2956,7 +2956,7 @@ JSObject
 *
 proto
 =
-IsCacheableListBase
+IsCacheableDOMProxy
 (
 obj
 )
@@ -3190,7 +3190,7 @@ e
 g
 .
 for
-ListBase
+DOMProxy
 /
 /
 proxies
@@ -3838,7 +3838,7 @@ output
 }
 static
 void
-GenerateListBaseChecks
+GenerateDOMProxyChecks
 (
 JSContext
 *
@@ -3865,7 +3865,7 @@ false
 {
 MOZ_ASSERT
 (
-IsCacheableListBase
+IsCacheableDOMProxy
 (
 obj
 )
@@ -3885,7 +3885,7 @@ The
 object
 is
 a
-ListBase
+DOMProxy
 .
 /
 /
@@ -3936,7 +3936,7 @@ JSObject
 :
 getFixedSlotOffset
 (
-GetListBaseExpandoSlot
+GetDOMProxyExpandoSlot
 (
 )
 )
@@ -3949,7 +3949,7 @@ that
 object
 is
 a
-ListBase
+DOMProxy
 .
 masm
 .
@@ -4002,7 +4002,7 @@ but
 unvaoidable
 .
 RegisterSet
-listBaseRegSet
+domProxyRegSet
 (
 RegisterSet
 :
@@ -4012,7 +4012,7 @@ All
 )
 )
 ;
-listBaseRegSet
+domProxyRegSet
 .
 take
 (
@@ -4025,7 +4025,7 @@ object
 ValueOperand
 tempVal
 =
-listBaseRegSet
+domProxyRegSet
 .
 takeValueOperand
 (
@@ -4039,10 +4039,10 @@ tempVal
 )
 ;
 Label
-failListBaseCheck
+failDOMProxyCheck
 ;
 Label
-listBaseOk
+domProxyOk
 ;
 Value
 expandoVal
@@ -4052,7 +4052,7 @@ obj
 >
 getFixedSlot
 (
-GetListBaseExpandoSlot
+GetDOMProxyExpandoSlot
 (
 )
 )
@@ -4094,7 +4094,7 @@ NotEqual
 tempVal
 expandoVal
 &
-failListBaseCheck
+failDOMProxyCheck
 )
 ;
 ExpandoAndGeneration
@@ -4154,7 +4154,7 @@ expandoAndGeneration
 generation
 )
 &
-failListBaseCheck
+failDOMProxyCheck
 )
 ;
 expandoVal
@@ -4216,7 +4216,7 @@ Assembler
 Equal
 tempVal
 &
-listBaseOk
+domProxyOk
 )
 ;
 if
@@ -4286,7 +4286,7 @@ Assembler
 NotEqual
 tempVal
 &
-failListBaseCheck
+failDOMProxyCheck
 )
 ;
 masm
@@ -4336,7 +4336,7 @@ lastProperty
 )
 )
 &
-listBaseOk
+domProxyOk
 )
 ;
 }
@@ -4359,7 +4359,7 @@ masm
 bind
 (
 &
-failListBaseCheck
+failDOMProxyCheck
 )
 ;
 masm
@@ -4392,7 +4392,7 @@ masm
 bind
 (
 &
-listBaseOk
+domProxyOk
 )
 ;
 masm
@@ -4594,19 +4594,19 @@ failures
 )
 ;
 bool
-isCacheableListBase
+isCacheableDOMProxy
 =
-IsCacheableListBase
+IsCacheableDOMProxy
 (
 obj
 )
 ;
 Label
-listBaseFailures
+domProxyFailures
 ;
 if
 (
-isCacheableListBase
+isCacheableDOMProxy
 )
 {
 JS_ASSERT
@@ -4614,7 +4614,7 @@ JS_ASSERT
 multipleFailureJumps
 )
 ;
-GenerateListBaseChecks
+GenerateDOMProxyChecks
 (
 cx
 masm
@@ -4622,7 +4622,7 @@ obj
 name
 object
 &
-listBaseFailures
+domProxyFailures
 )
 ;
 }
@@ -5208,14 +5208,14 @@ scratchReg
 ;
 if
 (
-isCacheableListBase
+isCacheableDOMProxy
 )
 masm
 .
 bind
 (
 &
-listBaseFailures
+domProxyFailures
 )
 ;
 masm
@@ -5329,12 +5329,12 @@ stubFailure
 ;
 if
 (
-IsCacheableListBase
+IsCacheableDOMProxy
 (
 obj
 )
 )
-GenerateListBaseChecks
+GenerateDOMProxyChecks
 (
 cx
 masm
@@ -6609,7 +6609,7 @@ bool
 GetPropertyIC
 :
 :
-attachListBaseShadowed
+attachDOMProxyShadowed
 (
 JSContext
 *
@@ -6635,7 +6635,7 @@ idempotent
 ;
 JS_ASSERT
 (
-IsCacheableListBase
+IsCacheableDOMProxy
 (
 obj
 )
@@ -6731,9 +6731,9 @@ sure
 object
 is
 a
-ListBase
+DOMProxy
 proxy
-GenerateListBaseChecks
+GenerateDOMProxyChecks
 (
 cx
 masm
@@ -9007,7 +9007,7 @@ obj
 ;
 if
 (
-IsCacheableListBase
+IsCacheableDOMProxy
 (
 obj
 )
@@ -9023,10 +9023,10 @@ name
 )
 )
 ;
-ListBaseShadowsResult
+DOMProxyShadowsResult
 shadows
 =
-GetListBaseShadowsCheck
+GetDOMProxyShadowsCheck
 (
 )
 (
@@ -9084,7 +9084,7 @@ true
 return
 cache
 .
-attachListBaseShadowed
+attachDOMProxyShadowed
 (
 cx
 ion

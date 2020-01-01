@@ -4284,7 +4284,7 @@ shape
 )
 ;
 bool
-attachListBaseShadowed
+attachDOMProxyShadowed
 (
 JSContext
 *

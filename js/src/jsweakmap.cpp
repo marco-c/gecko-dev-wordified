@@ -1585,7 +1585,7 @@ family
 )
 =
 =
-GetListBaseHandlerFamily
+GetDOMProxyHandlerFamily
 (
 )
 )
