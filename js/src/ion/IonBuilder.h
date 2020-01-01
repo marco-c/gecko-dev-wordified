@@ -1437,6 +1437,13 @@ v
 )
 ;
 bool
+jsop_bitop
+(
+JSOp
+op
+)
+;
+bool
 jsop_binary
 (
 JSOp
