@@ -20075,7 +20075,7 @@ return
 nsnull
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsGenericElement
 :
 :
