@@ -2949,7 +2949,7 @@ PropertyProvider
 *
 aProvider
 const
-nsRect
+gfxRect
 &
 aDirtyRect
 const
