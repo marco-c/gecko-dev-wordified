@@ -683,11 +683,6 @@ uri
 nsIUrlClassifierCallback
 *
 c
-PRBool
-forceCheck
-PRBool
-*
-didCheck
 )
 ;
 /
