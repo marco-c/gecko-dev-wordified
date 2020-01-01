@@ -149,6 +149,7 @@ SendPing
 0
 .
 5f
+0
 )
 )
 fail
@@ -174,6 +175,14 @@ const
 float
 &
 zeroPtTwoFive
+const
+uint8_t
+&
+/
+*
+unused
+*
+/
 )
 {
 if
@@ -359,6 +368,14 @@ const
 float
 &
 zeroPtFive
+const
+int8_t
+&
+/
+*
+unused
+*
+/
 )
 {
 if
@@ -422,6 +439,7 @@ SendPong
 0
 .
 25f
+0
 )
 )
 fail
