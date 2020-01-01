@@ -1152,7 +1152,7 @@ uMaskTexture
 vMaskCoord
 )
 .
-r
+a
 ;
 \
 n
@@ -1491,7 +1491,7 @@ uMaskTexture
 vMaskCoord
 )
 .
-r
+a
 ;
 \
 n
@@ -1688,7 +1688,7 @@ uMaskTexture
 maskCoords
 )
 .
-r
+a
 ;
 \
 n
@@ -2156,7 +2156,7 @@ uMaskTexture
 vMaskCoord
 )
 .
-r
+a
 ;
 \
 n
@@ -2440,7 +2440,7 @@ uMaskTexture
 maskCoords
 )
 .
-r
+a
 ;
 \
 n
@@ -2838,7 +2838,7 @@ uMaskTexture
 vMaskCoord
 )
 .
-r
+a
 ;
 \
 n
@@ -3193,7 +3193,7 @@ uMaskTexture
 vMaskCoord
 )
 .
-r
+a
 ;
 \
 n
@@ -3554,7 +3554,7 @@ uMaskTexture
 vMaskCoord
 )
 .
-r
+a
 ;
 \
 n
@@ -4281,7 +4281,7 @@ uMaskTexture
 vMaskCoord
 )
 .
-r
+a
 ;
 \
 n
@@ -4724,7 +4724,7 @@ uMaskTexture
 vMaskCoord
 )
 .
-r
+a
 ;
 \
 n
@@ -5173,7 +5173,7 @@ uMaskTexture
 vMaskCoord
 )
 .
-r
+a
 ;
 \
 n
