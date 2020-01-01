@@ -629,6 +629,7 @@ hasfp
 )
 )
 return
+&
 cx
 -
 >
@@ -641,7 +642,7 @@ scopeChain
 (
 )
 .
-getGlobal
+global
 (
 )
 ;
@@ -667,6 +668,7 @@ return
 NULL
 ;
 return
+&
 scope
 -
 >

@@ -8452,6 +8452,7 @@ GlobalObject
 *
 global
 =
+&
 stackfp
 -
 >
@@ -8459,7 +8460,7 @@ scopeChain
 (
 )
 .
-getGlobal
+global
 (
 )
 ;
@@ -10443,6 +10444,7 @@ GlobalObject
 *
 global
 =
+&
 obj
 -
 >

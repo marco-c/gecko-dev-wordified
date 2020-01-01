@@ -3344,7 +3344,7 @@ isRegExp
 )
 {
 RegExpObject
-*
+&
 reobj
 =
 obj
@@ -3361,8 +3361,7 @@ writePair
 (
 SCTAG_REGEXP_OBJECT
 reobj
--
->
+.
 getFlags
 (
 )
@@ -3373,8 +3372,7 @@ writeString
 (
 SCTAG_STRING
 reobj
--
->
+.
 getSource
 (
 )

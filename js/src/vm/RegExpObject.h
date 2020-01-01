@@ -544,8 +544,6 @@ class
 RegExpObject
 :
 public
-:
-:
 JSObject
 {
 typedef

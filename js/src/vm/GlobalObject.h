@@ -849,8 +849,6 @@ class
 GlobalObject
 :
 public
-:
-:
 JSObject
 {
 GlobalObject
@@ -2551,7 +2549,7 @@ js
 :
 :
 GlobalObject
-*
+&
 JSObject
 :
 :
@@ -2567,6 +2565,7 @@ isGlobal
 )
 ;
 return
+*
 static_cast
 <
 js

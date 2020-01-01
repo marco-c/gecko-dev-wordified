@@ -9184,11 +9184,10 @@ proto
 parent
 -
 >
-getGlobal
+global
 (
 )
--
->
+.
 getOrCreateFunctionPrototype
 (
 cx
@@ -9867,11 +9866,10 @@ proto
 callable
 -
 >
-getGlobal
+global
 (
 )
--
->
+.
 getOrCreateObjectPrototype
 (
 cx

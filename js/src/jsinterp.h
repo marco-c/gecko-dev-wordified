@@ -2432,7 +2432,7 @@ UnwindScope
 JSContext
 *
 cx
-jsint
+uint32_t
 stackDepth
 JSBool
 normalUnwind
@@ -2463,7 +2463,7 @@ cx
 JSObject
 &
 obj
-int
+uint32_t
 stackDepth
 )
 ;

@@ -844,7 +844,7 @@ include
 "
 vm
 /
-CallObject
+ScopeObject
 -
 inl
 .
@@ -21383,14 +21383,11 @@ check
 >
 contains
 (
-static_cast
-<
-uint8_t
-*
->
 (
-w
+uint8
+*
 )
+w
 sizeof
 (
 w

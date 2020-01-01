@@ -8657,10 +8657,11 @@ if
 singleton
 )
 return
+&
 singleton
 -
 >
-getGlobal
+global
 (
 )
 ;
@@ -8680,10 +8681,11 @@ script
 compileAndGo
 )
 return
+&
 interpretedFunction
 -
 >
-getGlobal
+global
 (
 )
 ;

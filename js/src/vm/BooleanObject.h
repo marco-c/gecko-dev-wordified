@@ -479,8 +479,6 @@ class
 BooleanObject
 :
 public
-:
-:
 JSObject
 {
 /

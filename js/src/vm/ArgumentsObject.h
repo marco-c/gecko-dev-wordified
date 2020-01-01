@@ -1146,8 +1146,6 @@ class
 ArgumentsObject
 :
 public
-:
-:
 JSObject
 {
 static
@@ -1791,7 +1789,7 @@ js
 :
 :
 NormalArgumentsObject
-*
+&
 JSObject
 :
 :
@@ -1807,6 +1805,7 @@ isNormalArguments
 )
 ;
 return
+*
 reinterpret_cast
 <
 js
@@ -1824,7 +1823,7 @@ js
 :
 :
 StrictArgumentsObject
-*
+&
 JSObject
 :
 :
@@ -1840,6 +1839,7 @@ isStrictArguments
 )
 ;
 return
+*
 reinterpret_cast
 <
 js
@@ -1857,7 +1857,7 @@ js
 :
 :
 ArgumentsObject
-*
+&
 JSObject
 :
 :
@@ -1873,6 +1873,7 @@ isArguments
 )
 ;
 return
+*
 reinterpret_cast
 <
 js
