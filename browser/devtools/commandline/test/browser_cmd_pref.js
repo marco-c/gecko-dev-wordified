@@ -374,6 +374,7 @@ pref
 hints
 :
 '
+reset
 '
 markup
 :

@@ -269,8 +269,6 @@ assert
 ;
 var
 origScratchpad
-=
-undefined
 ;
 exports
 .

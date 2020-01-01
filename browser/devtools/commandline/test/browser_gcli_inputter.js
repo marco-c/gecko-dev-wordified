@@ -297,13 +297,9 @@ mockCommands
 ;
 var
 latestEvent
-=
-undefined
 ;
 var
 latestData
-=
-undefined
 ;
 var
 outputted
