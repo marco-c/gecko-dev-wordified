@@ -746,6 +746,12 @@ GetSafeJSContext
 (
 )
 ;
+JSAutoRequest
+ar
+(
+cx
+)
+;
 JS
 :
 :
