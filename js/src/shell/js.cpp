@@ -8791,6 +8791,8 @@ GeneratorClass
 )
 )
 {
+if
+(
 JSGenerator
 *
 gen
@@ -8804,7 +8806,8 @@ JS_GetPrivate
 cx
 obj
 )
-;
+)
+{
 fun
 =
 gen
@@ -8828,6 +8831,7 @@ script
 (
 )
 ;
+}
 }
 }
 if
