@@ -506,7 +506,7 @@ sz
 nsWindow
 :
 :
-GetAndroidBounds
+GetAndroidScreenBounds
 (
 )
 ;

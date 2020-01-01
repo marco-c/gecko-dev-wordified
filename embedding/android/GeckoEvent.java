@@ -1296,9 +1296,9 @@ w
 int
 h
 int
-oldw
+screenw
 int
-oldh
+screenh
 )
 {
 if
@@ -1334,8 +1334,8 @@ mP1
 new
 Point
 (
-oldw
-oldh
+screenw
+screenh
 )
 ;
 }
