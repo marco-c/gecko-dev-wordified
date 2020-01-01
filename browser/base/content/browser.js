@@ -25856,6 +25856,11 @@ addons
 "
 about
 :
+downloads
+"
+"
+about
+:
 permissions
 "
 "
