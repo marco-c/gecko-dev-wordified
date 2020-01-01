@@ -1533,6 +1533,14 @@ or
 final
 cluster
 .
+param
+tstamp
+Starting
+timestamp
+of
+the
+cluster
+.
 retval
 0
 Success
@@ -1561,6 +1569,9 @@ start_pos
 int64_t
 *
 end_pos
+uint64_t
+*
+tstamp
 )
 ;
 /
