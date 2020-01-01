@@ -550,15 +550,6 @@ nsUrlClassifierStreamUpdater
 &
 )
 ;
-nsresult
-AddRequestBody
-(
-const
-nsACString
-&
-aRequestBody
-)
-;
 PRBool
 mIsUpdating
 ;
