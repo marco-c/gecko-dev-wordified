@@ -592,7 +592,7 @@ final
 int
 kThumbnailHeight
 =
-77
+78
 ;
 private
 static
