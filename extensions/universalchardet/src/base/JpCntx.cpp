@@ -455,7 +455,7 @@ its
 frequency
 category
 const
-char
+PRUint8
 jp2CharContext
 [
 83

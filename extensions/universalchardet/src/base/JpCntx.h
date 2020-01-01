@@ -454,7 +454,7 @@ category
 table
 extern
 const
-char
+PRUint8
 jp2CharContext
 [
 83
