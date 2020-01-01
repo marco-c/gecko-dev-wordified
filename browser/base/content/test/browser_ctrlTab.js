@@ -64,7 +64,7 @@ ctrlTabTest
 (
 [
 ]
-5
+4
 2
 )
 ;
@@ -270,7 +270,7 @@ ctrlTabTest
 1
 0
 ]
-9
+7
 1
 )
 ;
