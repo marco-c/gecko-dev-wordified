@@ -1170,11 +1170,7 @@ MIDDLE
 )
 )
 return
-(
 mWidth
--
-mShadow
-)
 /
 2
 ;
