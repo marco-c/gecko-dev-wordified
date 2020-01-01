@@ -7088,13 +7088,16 @@ markSafepointAt
 (
 )
 .
-uint32
+bool
 buildFakeExitFrame
 (
 const
 Register
 &
 scratch
+uint32
+*
+offset
 )
 ;
 void

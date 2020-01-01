@@ -9199,7 +9199,7 @@ ScratchRegister
 )
 ;
 }
-uint32
+bool
 MacroAssemblerARMCompat
 :
 :
@@ -9209,6 +9209,9 @@ const
 Register
 &
 scratch
+uint32
+*
+offset
 )
 {
 DebugOnly
@@ -9354,8 +9357,13 @@ offsetBeforePush
 8
 )
 ;
-return
+*
+offset
+=
 pseudoReturnOffset
+;
+return
+true
 ;
 }
 void
