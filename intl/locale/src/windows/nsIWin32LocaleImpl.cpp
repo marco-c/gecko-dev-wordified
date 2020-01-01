@@ -3851,6 +3851,15 @@ return
 NS_ERROR_FAILURE
 ;
 }
+#
+ifndef
+LOCALE_NAME_MAX_LENGTH
+#
+define
+LOCALE_NAME_MAX_LENGTH
+85
+#
+endif
 NS_IMETHODIMP
 nsIWin32LocaleImpl
 :
