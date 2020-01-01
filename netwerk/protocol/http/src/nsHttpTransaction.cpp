@@ -6571,6 +6571,17 @@ mConnection
 IsPersistent
 (
 )
+|
+|
+mResponseHead
+-
+>
+Version
+(
+)
+>
+=
+NS_HTTP_VERSION_1_1
 )
 {
 nsInt64
