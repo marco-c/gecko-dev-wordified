@@ -1658,6 +1658,11 @@ discardAllInstructions
 )
 ;
 void
+discardAllPhiOperands
+(
+)
+;
+void
 discardAllPhis
 (
 )
