@@ -13219,5 +13219,12 @@ FAKE_EGL_image_android
 define
 LOCAL_EGL_NATIVE_BUFFER_ANDROID
 0x3140
+/
+/
+EGL_ANDROID_framebuffer_target
+#
+define
+LOCAL_EGL_FRAMEBUFFER_TARGET_ANDROID
+0x3147
 #
 endif
