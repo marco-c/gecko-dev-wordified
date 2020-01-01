@@ -450,6 +450,10 @@ char
 *
 *
 aArgv
+PRUint32
+aRestartType
+=
+0
 )
 ;
 }

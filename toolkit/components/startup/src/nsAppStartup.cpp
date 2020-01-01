@@ -854,6 +854,11 @@ sessionstore
 windows
 -
 restored
+PRUint32
+gRestartMode
+=
+0
+;
 class
 nsAppExitEvent
 :
@@ -1741,6 +1746,7 @@ if
 !
 mRestart
 )
+{
 mRestart
 =
 (
@@ -1752,6 +1758,15 @@ eRestart
 =
 0
 ;
+gRestartMode
+=
+(
+aMode
+&
+0xF0
+)
+;
+}
 if
 (
 mRestart
