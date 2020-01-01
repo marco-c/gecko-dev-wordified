@@ -2349,10 +2349,6 @@ height
 AlphaBoxBlur
 blur
 (
-cairo_image_surface_get_data
-(
-blursurf
-)
 extents
 cairo_image_surface_get_stride
 (
@@ -2365,6 +2361,10 @@ blur
 .
 Blur
 (
+cairo_image_surface_get_data
+(
+blursurf
+)
 )
 ;
 }
