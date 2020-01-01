@@ -48229,6 +48229,12 @@ message
 "
 )
 ;
+ValidateRect
+(
+aWnd
+NULL
+)
+;
 return
 ;
 }
