@@ -1645,11 +1645,6 @@ i
 function
 )
 {
-PR_UnloadLibrary
-(
-gioLib
-)
-;
 return
 NS_ERROR_FAILURE
 ;
