@@ -638,13 +638,6 @@ h
 #
 include
 "
-nsIScriptEventHandlerOwner
-.
-h
-"
-#
-include
-"
 nsIJSNativeInitializer
 .
 h
