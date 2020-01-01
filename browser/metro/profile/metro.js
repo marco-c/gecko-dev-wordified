@@ -4070,7 +4070,7 @@ breakpad
 reportURL
 "
 "
-http
+https
 :
 /
 /

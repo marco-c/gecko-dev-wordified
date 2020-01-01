@@ -5312,7 +5312,7 @@ breakpad
 reportURL
 "
 "
-http
+https
 :
 /
 /
