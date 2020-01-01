@@ -29441,6 +29441,15 @@ GetPresContext
 )
 ;
 }
+nsIMEStateManager
+:
+:
+OnRemoveContent
+(
+mPresContext
+aContent
+)
+;
 /
 /
 inform
