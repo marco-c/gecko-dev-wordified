@@ -791,7 +791,7 @@ return
 ErrorInvalidOperation
 (
 "
-AttachShader
+attachShader
 :
 only
 one
@@ -824,7 +824,7 @@ return
 ErrorInvalidOperation
 (
 "
-AttachShader
+attachShader
 :
 shader
 is
@@ -1146,7 +1146,7 @@ return
 ErrorInvalidOperation
 (
 "
-BindBuffer
+bindBuffer
 :
 buffer
 already
@@ -1305,7 +1305,7 @@ return
 ErrorInvalidEnum
 (
 "
-BindFramebuffer
+bindFramebuffer
 :
 target
 must
@@ -2605,7 +2605,7 @@ return
 ErrorInvalidOperation
 (
 "
-BufferData
+bufferData
 :
 no
 buffer
@@ -2826,7 +2826,7 @@ return
 ErrorInvalidOperation
 (
 "
-BufferData
+bufferData
 :
 no
 buffer
@@ -3019,7 +3019,7 @@ return
 ErrorInvalidOperation
 (
 "
-BufferData
+bufferData
 :
 no
 buffer
@@ -3380,7 +3380,7 @@ return
 ErrorInvalidOperation
 (
 "
-BufferData
+bufferData
 :
 no
 buffer
@@ -3446,7 +3446,7 @@ return
 ErrorInvalidOperation
 (
 "
-BufferSubData
+bufferSubData
 :
 not
 enough
@@ -3620,7 +3620,7 @@ return
 ErrorInvalidOperation
 (
 "
-BufferSubData
+bufferSubData
 :
 no
 buffer
@@ -3685,7 +3685,7 @@ return
 ErrorInvalidOperation
 (
 "
-BufferSubData
+bufferSubData
 :
 not
 enough
@@ -5132,7 +5132,7 @@ return
 ErrorInvalidEnumInfo
 (
 "
-CopyTexImage2D
+copyTexImage2D
 :
 internal
 format
@@ -5738,7 +5738,7 @@ return
 ErrorInvalidEnumInfo
 (
 "
-CopyTexSubImage2D
+copyTexSubImage2D
 :
 target
 "
@@ -7248,7 +7248,7 @@ return
 ErrorInvalidOperation
 (
 "
-DetachShader
+detachShader
 :
 shader
 is
@@ -9012,7 +9012,7 @@ return
 ErrorInvalidValue
 (
 "
-DrawArrays
+drawArrays
 :
 negative
 first
@@ -9343,7 +9343,7 @@ return
 ErrorInvalidValue
 (
 "
-DrawElements
+drawElements
 :
 negative
 count
@@ -9416,7 +9416,7 @@ return
 ErrorInvalidOperation
 (
 "
-DrawElements
+drawElements
 :
 invalid
 byteOffset
@@ -9454,7 +9454,7 @@ return
 ErrorInvalidEnum
 (
 "
-DrawElements
+drawElements
 :
 type
 must
@@ -9479,7 +9479,7 @@ return
 ErrorInvalidValue
 (
 "
-DrawElements
+drawElements
 :
 overflow
 in
@@ -9529,7 +9529,7 @@ return
 ErrorInvalidOperation
 (
 "
-DrawElements
+drawElements
 :
 must
 have
@@ -9589,7 +9589,7 @@ return
 ErrorInvalidOperation
 (
 "
-DrawElements
+drawElements
 :
 overflow
 in
@@ -9618,7 +9618,7 @@ return
 ErrorInvalidOperation
 (
 "
-DrawElements
+drawElements
 :
 bound
 element
@@ -14221,7 +14221,7 @@ default
 ErrorInvalidEnumInfo
 (
 "
-GetFramebufferAttachmentParameter
+getFramebufferAttachmentParameter
 :
 attachment
 "
@@ -14246,7 +14246,7 @@ mBoundFramebuffer
 ErrorInvalidOperation
 (
 "
-GetFramebufferAttachmentParameter
+getFramebufferAttachmentParameter
 :
 cannot
 query
@@ -14374,7 +14374,7 @@ default
 ErrorInvalidEnumInfo
 (
 "
-GetFramebufferAttachmentParameter
+getFramebufferAttachmentParameter
 :
 pname
 "
@@ -14514,7 +14514,7 @@ default
 ErrorInvalidEnumInfo
 (
 "
-GetFramebufferAttachmentParameter
+getFramebufferAttachmentParameter
 :
 pname
 "
@@ -14558,7 +14558,7 @@ default
 ErrorInvalidEnumInfo
 (
 "
-GetFramebufferAttachmentParameter
+getFramebufferAttachmentParameter
 :
 pname
 "
@@ -14656,7 +14656,7 @@ LOCAL_GL_RENDERBUFFER
 ErrorInvalidEnumInfo
 (
 "
-GetRenderbufferParameter
+getRenderbufferParameter
 :
 target
 "
@@ -14795,7 +14795,7 @@ default
 ErrorInvalidEnumInfo
 (
 "
-GetRenderbufferParameter
+getRenderbufferParameter
 :
 parameter
 "
@@ -15300,7 +15300,7 @@ default
 ErrorInvalidEnumInfo
 (
 "
-GetProgramParameter
+getProgramParameter
 :
 parameter
 "
@@ -16554,7 +16554,7 @@ prog
 ErrorInvalidValue
 (
 "
-GetUniform
+getUniform
 :
 this
 uniform
@@ -16596,7 +16596,7 @@ Generation
 ErrorInvalidOperation
 (
 "
-GetUniform
+getUniform
 :
 this
 uniform
@@ -19246,7 +19246,7 @@ return
 ErrorInvalidValue
 (
 "
-PixelStorei
+pixelStorei
 :
 invalid
 pack
@@ -19301,7 +19301,7 @@ return
 ErrorInvalidEnumInfo
 (
 "
-PixelStorei
+pixelStorei
 :
 parameter
 "
@@ -19477,7 +19477,7 @@ IsCallerTrustedForRead
 GenerateWarning
 (
 "
-ReadPixels
+readPixels
 :
 Not
 allowed
@@ -19508,7 +19508,7 @@ return
 ErrorInvalidValue
 (
 "
-ReadPixels
+readPixels
 :
 negative
 size
@@ -19802,7 +19802,7 @@ return
 ErrorInvalidOperation
 (
 "
-ReadPixels
+readPixels
 :
 integer
 overflow
@@ -19828,7 +19828,7 @@ return
 ErrorInvalidOperation
 (
 "
-ReadPixels
+readPixels
 :
 buffer
 too
@@ -20385,7 +20385,7 @@ return
 ErrorInvalidOperation
 (
 "
-ReadPixels
+readPixels
 :
 integer
 overflow
@@ -21643,7 +21643,7 @@ return
 ErrorInvalidValue
 (
 "
-Scissor
+scissor
 :
 negative
 size
@@ -25521,7 +25521,7 @@ return
 ErrorInvalidOperation
 (
 "
-UseProgram
+useProgram
 :
 program
 was
@@ -25894,7 +25894,7 @@ return
 ErrorInvalidValue
 (
 "
-Viewport
+viewport
 :
 negative
 size
@@ -28053,7 +28053,7 @@ default
 ErrorInvalidEnumInfo
 (
 "
-GetShaderParameter
+getShaderParameter
 :
 parameter
 "
@@ -28841,7 +28841,7 @@ return
 ErrorInvalidOperation
 (
 "
-VertexAttribPointer
+vertexAttribPointer
 :
 must
 have
@@ -28906,7 +28906,7 @@ return
 ErrorInvalidEnumInfo
 (
 "
-VertexAttribPointer
+vertexAttribPointer
 :
 type
 "
@@ -28960,7 +28960,7 @@ return
 ErrorInvalidValue
 (
 "
-VertexAttribPointer
+vertexAttribPointer
 :
 invalid
 element
@@ -28998,7 +28998,7 @@ return
 ErrorInvalidValue
 (
 "
-VertexAttribPointer
+vertexAttribPointer
 :
 negative
 or
@@ -29018,7 +29018,7 @@ return
 ErrorInvalidValue
 (
 "
-VertexAttribPointer
+vertexAttribPointer
 :
 negative
 offset
@@ -29036,7 +29036,7 @@ return
 ErrorInvalidOperation
 (
 "
-VertexAttribPointer
+vertexAttribPointer
 :
 stride
 doesn
@@ -29066,7 +29066,7 @@ return
 ErrorInvalidOperation
 (
 "
-VertexAttribPointer
+vertexAttribPointer
 :
 byteOffset
 doesn
@@ -29111,7 +29111,7 @@ return
 ErrorInvalidOperation
 (
 "
-VertexAttribPointer
+vertexAttribPointer
 :
 type
 must
@@ -29630,7 +29630,7 @@ return
 ErrorInvalidValue
 (
 "
-TexImage2D
+texImage2D
 :
 border
 must
@@ -29777,7 +29777,7 @@ return
 ErrorInvalidOperation
 (
 "
-TexImage2D
+texImage2D
 :
 not
 enough
@@ -31604,7 +31604,7 @@ return
 ErrorInvalidValue
 (
 "
-TexSubImage2D
+texSubImage2D
 :
 pixels
 must
@@ -31700,7 +31700,7 @@ pixels
 ErrorInvalidValue
 (
 "
-TexSubImage2D
+texSubImage2D
 :
 pixels
 must
@@ -31812,7 +31812,7 @@ return
 ErrorInvalidValue
 (
 "
-TexSubImage2D
+texSubImage2D
 :
 pixels
 must
