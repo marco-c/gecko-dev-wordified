@@ -854,7 +854,7 @@ this
 _batching
 )
 {
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -1442,7 +1442,7 @@ some
 other
 item
 .
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -2022,7 +2022,7 @@ endBatch
 (
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -2102,7 +2102,7 @@ this
 _batching
 )
 {
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -2110,7 +2110,7 @@ endBatch
 (
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -2375,7 +2375,7 @@ i
 var
 txn
 =
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -2387,7 +2387,7 @@ i
 ]
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -2467,7 +2467,7 @@ endBatch
 (
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -2510,7 +2510,7 @@ this
 _batching
 )
 {
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -2540,7 +2540,7 @@ this
 _batching
 )
 {
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -2791,7 +2791,7 @@ spec
 ;
 description
 =
-PlacesUtils
+PlacesUIUtils
 .
 getDescriptionFromDocument
 (
@@ -2896,7 +2896,7 @@ description
 var
 txn
 =
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -2913,7 +2913,7 @@ descAnno
 ]
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -3184,7 +3184,7 @@ beginBatch
 var
 txn
 =
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -3197,7 +3197,7 @@ aParent
 aTitle
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -3444,7 +3444,7 @@ _getUniqueTabInfo
 (
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 showMinimalAddMultiBookmarkUI
 (
@@ -3601,7 +3601,7 @@ feedSubtitle
 else
 description
 =
-PlacesUtils
+PlacesUIUtils
 .
 getDescriptionFromDocument
 (
@@ -3623,7 +3623,7 @@ toolbarFolder
 1
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 showMinimalAddLivemarkUI
 (
@@ -4101,7 +4101,7 @@ originalTarget
 var
 view
 =
-PlacesUtils
+PlacesUIUtils
 .
 getViewForNode
 (
@@ -4468,7 +4468,7 @@ target
 .
 node
 )
-PlacesUtils
+PlacesUIUtils
 .
 openNodeWithEvent
 (
@@ -4946,7 +4946,7 @@ setAttribute
 "
 label
 "
-PlacesUtils
+PlacesUIUtils
 .
 getFormattedString
 (
@@ -5015,7 +5015,7 @@ setAttribute
 oncommand
 "
 "
-PlacesUtils
+PlacesUIUtils
 .
 openContainerNodeInTabs
 (
