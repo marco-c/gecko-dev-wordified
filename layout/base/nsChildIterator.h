@@ -538,6 +538,7 @@ well
 *
 /
 class
+NS_STACK_CLASS
 ChildIterator
 {
 protected

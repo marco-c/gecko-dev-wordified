@@ -7677,6 +7677,7 @@ frame
 construction
 process
 class
+NS_STACK_CLASS
 nsFrameConstructorState
 {
 public
@@ -11554,6 +11555,7 @@ attached
 queue
 .
 struct
+NS_STACK_CLASS
 nsAutoEnqueueBinding
 {
 nsAutoEnqueueBinding

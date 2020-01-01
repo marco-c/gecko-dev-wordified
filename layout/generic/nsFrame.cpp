@@ -14612,6 +14612,7 @@ aEventStatus
 ;
 }
 struct
+NS_STACK_CLASS
 FrameContentRange
 {
 FrameContentRange

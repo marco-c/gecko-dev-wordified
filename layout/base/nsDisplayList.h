@@ -1133,6 +1133,7 @@ access
 *
 /
 class
+NS_STACK_CLASS
 nsDisplayListBuilder
 {
 public

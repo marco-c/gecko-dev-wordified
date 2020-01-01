@@ -651,6 +651,7 @@ arguments
 *
 /
 struct
+NS_STACK_CLASS
 nsPeekOffsetStruct
 {
 void
