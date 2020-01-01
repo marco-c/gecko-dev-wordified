@@ -8219,6 +8219,14 @@ thread
 "
 )
 ;
+if
+(
+mFile
+-
+>
+mFile
+)
+{
 bool
 check
 ;
@@ -8261,6 +8269,7 @@ event
 return
 NS_OK
 ;
+}
 }
 nsDOMDeviceStorageCursor
 *
