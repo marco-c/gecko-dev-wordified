@@ -255,6 +255,12 @@ GetSafeJSContext
 )
 ;
 }
+JSAutoRequest
+ar
+(
+cx
+)
+;
 JS_ClearDateCaches
 (
 cx
