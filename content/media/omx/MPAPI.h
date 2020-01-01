@@ -169,6 +169,9 @@ VideoFrame
 int64_t
 mTimeUs
 ;
+int64_t
+mEndTimeUs
+;
 bool
 mKeyFrame
 ;
