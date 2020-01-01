@@ -590,26 +590,6 @@ stdlib
 .
 h
 >
-#
-define
-countof
-(
-a
-)
-(
-sizeof
-(
-a
-)
-/
-sizeof
-(
-a
-[
-0
-]
-)
-)
 static
 char
 sbuf
@@ -1233,7 +1213,7 @@ f
 ;
 f
 <
-countof
+PR_ARRAY_SIZE
 (
 formats
 )
@@ -1251,7 +1231,7 @@ s
 ;
 s
 <
-countof
+PR_ARRAY_SIZE
 (
 signs
 )
@@ -1269,7 +1249,7 @@ p
 ;
 p
 <
-countof
+PR_ARRAY_SIZE
 (
 precs
 )
@@ -1351,7 +1331,7 @@ n
 ;
 n
 <
-countof
+PR_ARRAY_SIZE
 (
 nums
 )
@@ -2162,7 +2142,7 @@ f
 ;
 f
 <
-countof
+PR_ARRAY_SIZE
 (
 formats
 )
@@ -2180,7 +2160,7 @@ s
 ;
 s
 <
-countof
+PR_ARRAY_SIZE
 (
 signs
 )
@@ -2198,7 +2178,7 @@ p
 ;
 p
 <
-countof
+PR_ARRAY_SIZE
 (
 precs
 )
@@ -2302,7 +2282,7 @@ n
 ;
 n
 <
-countof
+PR_ARRAY_SIZE
 (
 nums
 )
@@ -3396,7 +3376,7 @@ f
 ;
 f
 <
-countof
+PR_ARRAY_SIZE
 (
 formats
 )
@@ -3414,7 +3394,7 @@ s
 ;
 s
 <
-countof
+PR_ARRAY_SIZE
 (
 signs
 )
@@ -3432,7 +3412,7 @@ p
 ;
 p
 <
-countof
+PR_ARRAY_SIZE
 (
 precs
 )
@@ -3536,7 +3516,7 @@ n
 ;
 n
 <
-countof
+PR_ARRAY_SIZE
 (
 nums
 )
@@ -4125,7 +4105,7 @@ f
 ;
 f
 <
-countof
+PR_ARRAY_SIZE
 (
 formats
 )
@@ -4143,7 +4123,7 @@ s
 ;
 s
 <
-countof
+PR_ARRAY_SIZE
 (
 signs
 )
@@ -4161,7 +4141,7 @@ p
 ;
 p
 <
-countof
+PR_ARRAY_SIZE
 (
 precs
 )
@@ -4258,7 +4238,7 @@ n
 ;
 n
 <
-countof
+PR_ARRAY_SIZE
 (
 strs
 )
