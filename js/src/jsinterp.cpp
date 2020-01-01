@@ -4359,7 +4359,7 @@ js_NoSuchMethodClass
 ;
 args
 .
-callee
+calleev
 (
 )
 =
@@ -4774,7 +4774,7 @@ if
 (
 args
 .
-callee
+calleev
 (
 )
 .
@@ -4789,7 +4789,7 @@ cx
 &
 args
 .
-callee
+calleev
 (
 )
 flags
@@ -4808,10 +4808,6 @@ callee
 args
 .
 callee
-(
-)
-.
-toObject
 (
 )
 ;
@@ -4906,7 +4902,7 @@ cx
 &
 args
 .
-callee
+calleev
 (
 )
 flags
@@ -5435,7 +5431,7 @@ savedCallee_
 =
 args_
 .
-callee
+calleev
 (
 )
 =
@@ -6011,7 +6007,7 @@ false
 ;
 args
 .
-callee
+calleev
 (
 )
 =
@@ -6206,7 +6202,7 @@ false
 ;
 args
 .
-callee
+calleev
 (
 )
 =
@@ -6575,7 +6571,7 @@ JSContext
 *
 cx
 JSObject
-*
+&
 chain
 JSScript
 *
@@ -6590,11 +6586,6 @@ Value
 result
 )
 {
-JS_ASSERT
-(
-chain
-)
-;
 JS_ASSERT_IF
 (
 prev
@@ -6763,7 +6754,6 @@ JS_ASSERT
 chain
 =
 =
-&
 prev
 -
 >
@@ -6868,6 +6858,7 @@ JSObject
 *
 innerizedChain
 =
+&
 chain
 ;
 OBJ_TO_INNER_OBJECT
@@ -6960,8 +6951,7 @@ JSObject
 thisp
 =
 chain
--
->
+.
 thisObject
 (
 cx
@@ -7003,12 +6993,12 @@ JSOPTION_VAROBJFIX
 )
 ?
 chain
--
->
+.
 getGlobal
 (
 )
 :
+&
 chain
 ;
 }
@@ -8276,7 +8266,6 @@ isObject
 *
 equal
 =
-&
 lval
 .
 toObject
@@ -8284,7 +8273,6 @@ toObject
 )
 =
 =
-&
 rval
 .
 toObject
@@ -8717,7 +8705,7 @@ if
 (
 args
 .
-callee
+calleev
 (
 )
 .
@@ -8736,10 +8724,6 @@ args
 callee
 (
 )
-.
-toObject
-(
-)
 )
 -
 >
@@ -8754,7 +8738,7 @@ cx
 &
 args
 .
-callee
+calleev
 (
 )
 JSV2F_CONSTRUCT
@@ -9150,7 +9134,7 @@ JS_FALSE
 ;
 args
 .
-callee
+calleev
 (
 )
 =
@@ -9518,6 +9502,7 @@ argc
 vp
 DIRECT_EVAL
 caller
+*
 scopeChain
 )
 )
@@ -10559,7 +10544,7 @@ vp
 fp
 -
 >
-calleeValue
+calleev
 (
 )
 ;
@@ -14730,7 +14715,6 @@ shape
 isMethod
 (
 )
-&
 shape
 -
 >
@@ -14739,7 +14723,6 @@ methodObject
 )
 =
 =
-&
 pobj
 -
 >
@@ -14836,7 +14819,6 @@ slot
 ;
 JS_ASSERT
 (
-&
 entry
 -
 >
@@ -14847,7 +14829,6 @@ toFunObj
 )
 =
 =
-&
 v
 .
 toObject
@@ -14882,7 +14863,6 @@ JOF_CALLOP
 ;
 JS_ASSERT
 (
-&
 shape
 -
 >
@@ -14891,7 +14871,6 @@ methodObject
 )
 =
 =
-&
 v
 .
 toObject
@@ -19408,7 +19387,6 @@ JSOP_LEAVEWITH
 )
 JS_ASSERT
 (
-&
 regs
 .
 sp
@@ -19422,7 +19400,6 @@ toObject
 )
 =
 =
-&
 regs
 .
 fp

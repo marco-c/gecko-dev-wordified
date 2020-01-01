@@ -6286,7 +6286,7 @@ JSPrincipals
 *
 principals
 JSObject
-*
+&
 scopeobj
 JSScript
 *
@@ -6838,6 +6838,7 @@ getParent
 )
 =
 =
+&
 scopeobj
 )
 {
@@ -7030,6 +7031,7 @@ argc
 vp
 INDIRECT_EVAL
 caller
+*
 vp
 [
 0
@@ -7065,7 +7067,7 @@ JSStackFrame
 *
 caller
 JSObject
-*
+&
 scopeobj
 )
 {
@@ -7098,11 +7100,6 @@ calls
 JS_ASSERT
 (
 caller
-)
-;
-JS_ASSERT
-(
-scopeobj
 )
 ;
 /
@@ -7272,6 +7269,7 @@ if
 js_CheckContentSecurityPolicy
 (
 cx
+&
 scopeobj
 )
 )
@@ -7581,12 +7579,12 @@ staticLevel
 ;
 JS_ASSERT
 (
+&
 scopeobj
 =
 =
 scopeobj
--
->
+.
 getGlobal
 (
 )
@@ -7595,8 +7593,7 @@ getGlobal
 JS_ASSERT
 (
 scopeobj
--
->
+.
 isGlobal
 (
 )
@@ -7627,6 +7624,7 @@ if
 CheckScopeChainValidity
 (
 cx
+&
 scopeobj
 )
 )
@@ -8210,6 +8208,7 @@ Compiler
 compileScript
 (
 cx
+&
 scopeobj
 callerFrame
 principals
@@ -8240,6 +8239,7 @@ false
 assertSameCompartment
 (
 cx
+&
 scopeobj
 script
 )
@@ -8282,6 +8282,7 @@ ok
 js_CheckPrincipalsAccess
 (
 cx
+&
 scopeobj
 principals
 cx
@@ -33235,7 +33236,6 @@ JSGET_NO_METHOD_BARRIER
 {
 JS_ASSERT
 (
-&
 shape
 -
 >
@@ -33244,7 +33244,6 @@ methodObject
 )
 =
 =
-&
 vp
 -
 >
@@ -36042,7 +36041,6 @@ shape
 isMethod
 (
 )
-&
 pobj
 -
 >
@@ -36059,7 +36057,6 @@ toObject
 )
 =
 =
-&
 shape
 -
 >
@@ -36145,7 +36142,6 @@ isMethod
 )
 &
 &
-&
 shape
 -
 >
@@ -36154,7 +36150,6 @@ methodObject
 )
 =
 =
-&
 vp
 -
 >
@@ -37517,7 +37512,6 @@ isFunctionFrame
 )
 &
 &
-&
 fp
 -
 >
@@ -37526,7 +37520,6 @@ callee
 )
 =
 =
-&
 fun
 -
 >
@@ -37576,7 +37569,7 @@ obj
 fp
 -
 >
-calleeValue
+calleev
 (
 )
 .
@@ -41395,6 +41388,16 @@ getParent
 obj
 =
 parent
+;
+JS_ASSERT
+(
+obj
+-
+>
+isGlobal
+(
+)
+)
 ;
 return
 obj

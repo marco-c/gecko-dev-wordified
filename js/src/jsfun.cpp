@@ -9840,7 +9840,6 @@ fun
 ;
 if
 (
-&
 fun
 -
 >
@@ -9849,7 +9848,6 @@ compiledFunObj
 )
 =
 =
-&
 funobj
 &
 &
@@ -10055,7 +10053,6 @@ isMethod
 )
 &
 &
-&
 shape
 -
 >
@@ -10064,7 +10061,6 @@ methodObject
 )
 =
 =
-&
 funobj
 )
 {
@@ -10085,7 +10081,7 @@ vp
 return
 false
 ;
-calleeValue
+calleev
 (
 )
 .
@@ -10175,7 +10171,7 @@ vp
 =
 v
 ;
-calleeValue
+calleev
 (
 )
 .
@@ -10376,7 +10372,7 @@ setMethodObj
 first_barriered_thisp
 )
 ;
-calleeValue
+calleev
 (
 )
 .
@@ -14223,7 +14219,7 @@ args
 /
 args
 .
-callee
+calleev
 (
 )
 =
@@ -14550,7 +14546,7 @@ args
 /
 args
 .
-callee
+calleev
 (
 )
 =
@@ -15279,7 +15275,7 @@ step
 /
 args
 .
-callee
+calleev
 (
 )
 .

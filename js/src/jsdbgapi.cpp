@@ -10578,6 +10578,7 @@ ok
 Execute
 (
 cx
+*
 scobj
 script
 fp

@@ -1409,7 +1409,6 @@ isMethod
 ;
 JS_ASSERT
 (
-&
 shape
 .
 methodObject
@@ -1417,7 +1416,6 @@ methodObject
 )
 =
 =
-&
 vp
 -
 >
@@ -3854,7 +3852,6 @@ isObject
 )
 &
 &
-&
 getSlot
 (
 JSSLOT_FUN_METHOD_OBJ
@@ -3865,7 +3862,6 @@ toObject
 )
 =
 =
-&
 obj
 ;
 }
