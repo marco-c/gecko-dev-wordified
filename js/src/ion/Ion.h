@@ -1510,7 +1510,7 @@ JSContext
 cx
 HandleFunction
 fun
-CallArgsList
+CallArgs
 &
 args
 )
