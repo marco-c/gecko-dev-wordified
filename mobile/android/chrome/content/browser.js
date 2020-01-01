@@ -10934,6 +10934,11 @@ if
 node
 .
 hasAttribute
+&
+&
+node
+.
+hasAttribute
 (
 "
 title
