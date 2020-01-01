@@ -37392,6 +37392,9 @@ pn_atom
 =
 0
 ;
+#
+if
+JS_HAS_GENERATOR_EXPRS
 case
 JSOP_CALL
 :
@@ -37494,6 +37497,8 @@ THROUGH
 *
 /
 }
+#
+endif
 case
 JSOP_DEFFUN
 :
