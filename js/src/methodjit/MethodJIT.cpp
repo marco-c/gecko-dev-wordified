@@ -4602,8 +4602,14 @@ NULL
 ;
 }
 #
-ifdef
+if
+0
+/
+*
+def
 JS_TRACER
+*
+/
 if
 (
 script

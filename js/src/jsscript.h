@@ -1460,8 +1460,14 @@ endif
 #
 endif
 #
-ifdef
+if
+0
+/
+*
+def
 JS_TRACER
+*
+/
 js
 :
 :
