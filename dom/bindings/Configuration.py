@@ -3184,6 +3184,22 @@ nativeOwnership
         
 self
 .
+customTrace
+=
+desc
+.
+get
+(
+'
+customTrace
+'
+self
+.
+workers
+)
+        
+self
+.
 customFinalize
 =
 desc
