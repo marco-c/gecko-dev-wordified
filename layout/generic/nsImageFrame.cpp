@@ -3304,7 +3304,7 @@ state
 aElement
 -
 >
-IntrinsicState
+State
 (
 )
 ;
@@ -7780,7 +7780,7 @@ AsElement
 )
 -
 >
-IntrinsicState
+State
 (
 )
 ;
@@ -8872,7 +8872,7 @@ AsElement
 )
 -
 >
-IntrinsicState
+State
 (
 )
 ;
