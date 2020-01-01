@@ -31617,16 +31617,9 @@ False
 if
 type
 .
-tag
+isAny
 (
 )
-=
-=
-IDLType
-.
-Tags
-.
-any
 :
         
 #

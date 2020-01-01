@@ -1249,6 +1249,13 @@ short
 [
 ]
 "
+"
+Date
+"
+"
+Date
+?
+"
 ]
     
 #
@@ -1389,6 +1396,22 @@ Dict
 optional
 Dict2
 "
+"
+Date
+?
+"
+]
+    
+dates
+=
+[
+"
+Date
+"
+"
+Date
+?
+"
 ]
     
 nonUserObjects
@@ -1396,6 +1419,8 @@ nonUserObjects
 primitives
 +
 interfaces
++
+dates
     
 otherObjects
 =
@@ -1422,6 +1447,8 @@ UnrelatedInterface
 ]
 +
 otherObjects
++
+dates
     
 #
 Build
@@ -1735,6 +1762,45 @@ short
 ]
 "
 nonUserObjects
+)
+    
+setDistinguishable
+(
+"
+Date
+"
+allBut
+(
+argTypes
+dates
++
+[
+"
+object
+"
+]
+)
+)
+    
+setDistinguishable
+(
+"
+Date
+?
+"
+allBut
+(
+argTypes
+dates
++
+nullables
++
+[
+"
+object
+"
+]
+)
 )
     
 def
