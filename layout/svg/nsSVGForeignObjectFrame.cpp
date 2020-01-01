@@ -1260,15 +1260,13 @@ return
 NS_OK
 ;
 }
+return
 BuildDisplayListForNonBlockChildren
 (
 aBuilder
 aDirtyRect
 aLists
 )
-;
-return
-NS_OK
 ;
 }
 bool

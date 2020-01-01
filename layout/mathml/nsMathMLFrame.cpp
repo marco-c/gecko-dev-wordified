@@ -2954,6 +2954,7 @@ IsEmpty
 return
 NS_OK
 ;
+return
 aLists
 .
 Content
