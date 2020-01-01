@@ -681,6 +681,11 @@ resultCode
 )
 ;
 void
+ReportConnectionTelemetry
+(
+)
+;
+void
 StopSession
 (
 nsresult
@@ -956,7 +961,7 @@ int32_t
 mMaxConcurrentConnections
 ;
 uint32_t
-mRecvdHttpOnStartRequest
+mGotUpgradeOK
 :
 1
 ;
