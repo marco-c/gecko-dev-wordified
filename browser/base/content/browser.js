@@ -1659,6 +1659,8 @@ type
 "
 "
 menu
+-
+button
 "
 )
 ;
@@ -1706,6 +1708,8 @@ type
 "
 "
 menu
+-
+button
 "
 )
 ;
