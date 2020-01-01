@@ -875,7 +875,7 @@ mLengthAttributes
 nsSVGFE
 :
 :
-X
+ATTR_X
 ]
 mTargetBBox
 mTargetFrame
@@ -900,7 +900,7 @@ mLengthAttributes
 nsSVGFE
 :
 :
-X
+ATTR_X
 ]
 .
 IsExplicitlySet
@@ -928,7 +928,7 @@ mLengthAttributes
 nsSVGFE
 :
 :
-Y
+ATTR_Y
 ]
 .
 IsExplicitlySet
@@ -956,7 +956,7 @@ mLengthAttributes
 nsSVGFE
 :
 :
-WIDTH
+ATTR_WIDTH
 ]
 .
 IsExplicitlySet
@@ -984,7 +984,7 @@ mLengthAttributes
 nsSVGFE
 :
 :
-HEIGHT
+ATTR_HEIGHT
 ]
 .
 IsExplicitlySet
