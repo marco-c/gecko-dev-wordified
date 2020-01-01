@@ -1244,9 +1244,13 @@ will
 always
 be
 GLESv2
-SetIsGLES2
+SetProfileVersion
 (
-true
+ContextProfile
+:
+:
+OpenGLES
+200
 )
 ;
 #
