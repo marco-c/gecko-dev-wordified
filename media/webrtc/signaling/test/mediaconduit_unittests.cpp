@@ -567,7 +567,7 @@ PLAYOUT_SAMPLE_LENGTH
 /
 default
 is
-160
+160000
 AudioSendAndReceive
 (
 )
@@ -732,7 +732,7 @@ AudioSendAndReceive
 :
 PLAYOUT_SAMPLE_LENGTH
 =
-160
+160000
 ;
 int
 AudioSendAndReceive
@@ -1745,13 +1745,11 @@ PLAYOUT_SAMPLE_FREQUENCY
 *
 10
 )
-/
-1000
 ;
 /
 /
 10
-milliseconds
+seconds
 int
 CHANNELS
 =
@@ -2078,10 +2076,7 @@ while
 (
 numSamplesReadFromInput
 <
-=
-(
 SAMPLES
-)
 )
 ;
 FinishWaveHeader
