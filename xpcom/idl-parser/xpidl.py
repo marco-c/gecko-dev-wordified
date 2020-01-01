@@ -4279,6 +4279,10 @@ deprecated
 =
 False
     
+noscript
+=
+False
+    
 def
 setuuid
 (
@@ -4808,6 +4812,42 @@ self
 .
 iface
 )
+    
+def
+__str__
+(
+self
+)
+:
+        
+return
+"
+\
+tconst
+%
+s
+%
+s
+=
+%
+s
+\
+n
+"
+%
+(
+self
+.
+type
+self
+.
+name
+self
+.
+getValue
+(
+)
+)
 class
 Attribute
 (
@@ -4828,6 +4868,14 @@ False
 notxpcom
 =
 False
+    
+readonly
+=
+False
+    
+binaryname
+=
+None
     
 def
 __init__
@@ -4871,12 +4919,6 @@ self
 location
 =
 location
-        
-self
-.
-binaryname
-=
-None
         
 self
 .
@@ -8900,7 +8942,7 @@ self
 getLocation
 (
 p
-1
+3
 )
                          
 doccomments
@@ -9023,7 +9065,7 @@ self
 getLocation
 (
 p
-1
+3
 )
                       
 doccomments
