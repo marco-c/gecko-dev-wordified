@@ -750,6 +750,11 @@ runAfterPluginBindingAttached
 func
 )
 {
+return
+function
+(
+)
+{
 let
 doc
 =
@@ -757,11 +762,6 @@ gTestBrowser
 .
 contentDocument
 ;
-return
-function
-(
-)
-{
 let
 elems
 =
@@ -2323,10 +2323,7 @@ notification
 ;
 prepareTest
 (
-runAfterPluginBindingAttached
-(
 test11b
-)
 "
 about
 :
@@ -5164,10 +5161,7 @@ test19f
 {
 prepareTest
 (
-runAfterPluginBindingAttached
-(
 test20a
-)
 gTestRoot
 +
 "

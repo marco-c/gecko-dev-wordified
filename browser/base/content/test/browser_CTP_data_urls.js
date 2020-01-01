@@ -773,6 +773,11 @@ runAfterPluginBindingAttached
 func
 )
 {
+return
+function
+(
+)
+{
 let
 doc
 =
@@ -780,11 +785,6 @@ gTestBrowser
 .
 contentDocument
 ;
-return
-function
-(
-)
-{
 let
 elems
 =
