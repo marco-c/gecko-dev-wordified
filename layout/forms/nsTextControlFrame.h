@@ -2250,8 +2250,6 @@ aRenderingContext
 nsSize
 &
 aIntrinsicSize
-float
-aFontSizeInflation
 )
 ;
 nsresult

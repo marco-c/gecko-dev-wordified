@@ -13006,10 +13006,6 @@ f
 >
 EnsureTextRun
 (
-nsTextFrame
-:
-:
-eInflated
 )
 ;
 NS_ENSURE_TRUE
@@ -13019,10 +13015,6 @@ f
 >
 GetTextRun
 (
-nsTextFrame
-:
-:
-eInflated
 )
 NS_ERROR_OUT_OF_MEMORY
 )
@@ -13035,10 +13027,6 @@ f
 >
 GetTextRun
 (
-nsTextFrame
-:
-:
-eInflated
 )
 -
 >

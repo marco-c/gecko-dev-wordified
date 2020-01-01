@@ -15322,13 +15322,6 @@ getter_AddRefs
 (
 fm
 )
-nsLayoutUtils
-:
-:
-FontSizeInflationFor
-(
-aTargetFrame
-)
 )
 ;
 NS_ASSERTION
