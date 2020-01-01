@@ -12896,6 +12896,9 @@ if
 sGCTimer
 |
 |
+sInterSliceGCTimer
+|
+|
 sShuttingDown
 )
 {
