@@ -982,7 +982,7 @@ address
 to
 buffer
 .
-size_t
+off_t
 offset
 =
 skew

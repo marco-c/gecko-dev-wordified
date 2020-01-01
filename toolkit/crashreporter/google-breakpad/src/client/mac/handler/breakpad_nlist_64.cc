@@ -1188,7 +1188,7 @@ s1
 s2
 ;
 register
-int
+register_t
 n
 m
 ;
@@ -1383,7 +1383,7 @@ check
 *
 (
 (
-uint32_t
+long
 *
 )
 &
@@ -1449,6 +1449,7 @@ check
 *
 (
 (
+unsigned
 int
 *
 )
@@ -1603,7 +1604,7 @@ fh
 .
 nfat_arch
 =
-NXSwapBigLongToHost
+NXSwapBigIntToHost
 (
 fh
 .
@@ -1676,6 +1677,9 @@ nfat_arch
 )
 !
 =
+(
+ssize_t
+)
 sizeof
 (
 struct
@@ -1742,7 +1746,7 @@ i
 .
 cputype
 =
-NXSwapBigLongToHost
+NXSwapBigIntToHost
 (
 fat_archs
 [
@@ -1759,7 +1763,7 @@ i
 .
 cpusubtype
 =
-NXSwapBigLongToHost
+NXSwapBigIntToHost
 (
 fat_archs
 [
@@ -1776,7 +1780,7 @@ i
 .
 offset
 =
-NXSwapBigLongToHost
+NXSwapBigIntToHost
 (
 fat_archs
 [
@@ -1793,7 +1797,7 @@ i
 .
 size
 =
-NXSwapBigLongToHost
+NXSwapBigIntToHost
 (
 fat_archs
 [
@@ -1810,7 +1814,7 @@ i
 .
 align
 =
-NXSwapBigLongToHost
+NXSwapBigIntToHost
 (
 fat_archs
 [
@@ -2055,6 +2059,7 @@ if
 *
 (
 (
+unsigned
 int
 *
 )

@@ -857,6 +857,9 @@ timeout
 1000ms
 /
 /
+namespace
+google_breakpad
+{
 #
 define
 PRINT_MACH_RESULT
@@ -1736,7 +1739,7 @@ header
 to
 this
 value
-int
+mach_msg_size_t
 CalculateSize
 (
 )
@@ -2207,6 +2210,7 @@ a
 name
 for
 it
+explicit
 ReceivePort
 (
 const
@@ -2241,6 +2245,7 @@ in
 our
 destructor
 .
+explicit
 ReceivePort
 (
 mach_port_t
@@ -2442,6 +2447,7 @@ a
 named
 registered
 service
+explicit
 MachPortSender
 (
 const
@@ -2461,6 +2467,7 @@ port
 use
 it
 .
+explicit
 MachPortSender
 (
 mach_port_t
@@ -2501,6 +2508,11 @@ init_result_
 ;
 }
 ;
+}
+/
+/
+namespace
+google_breakpad
 #
 endif
 /

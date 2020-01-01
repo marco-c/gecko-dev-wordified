@@ -300,11 +300,11 @@ DAMAGE
 .
 #
 import
-<
+"
 GTMSenTestCase
 .
 h
->
+"
 #
 import
 "

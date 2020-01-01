@@ -476,7 +476,7 @@ using
 google_breakpad
 :
 :
-TestAssembler
+test_assembler
 :
 :
 kBigEndian
@@ -485,7 +485,7 @@ using
 google_breakpad
 :
 :
-TestAssembler
+test_assembler
 :
 :
 kLittleEndian
@@ -494,7 +494,7 @@ using
 google_breakpad
 :
 :
-TestAssembler
+test_assembler
 :
 :
 Label

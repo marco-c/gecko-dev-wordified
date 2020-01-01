@@ -503,11 +503,10 @@ MDType
 :
 AllocateObjectAndArray
 (
-unsigned
-int
+size_t
 count
 size_t
-size
+length
 )
 {
 assert
@@ -515,7 +514,7 @@ assert
 count
 &
 &
-size
+length
 )
 ;
 allocation_state_
@@ -540,7 +539,7 @@ size
 +
 count
 *
-size
+length
 )
 ;
 }
@@ -581,6 +580,11 @@ writer_
 >
 Copy
 (
+static_cast
+<
+MDRVA
+>
+(
 position_
 +
 index
@@ -593,6 +597,7 @@ MDType
 :
 size
 (
+)
 )
 item
 minidump_size
@@ -630,7 +635,7 @@ void
 *
 src
 size_t
-size
+length
 )
 {
 assert
@@ -647,6 +652,11 @@ writer_
 >
 Copy
 (
+static_cast
+<
+MDRVA
+>
+(
 position_
 +
 minidump_size
@@ -661,9 +671,10 @@ size
 +
 index
 *
-size
+length
+)
 src
-size
+length
 )
 ;
 }

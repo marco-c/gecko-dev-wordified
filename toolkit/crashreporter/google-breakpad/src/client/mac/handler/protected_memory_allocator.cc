@@ -643,7 +643,7 @@ ProtectedMemoryAllocator
 :
 Allocate
 (
-size_t
+vm_size_t
 bytes
 )
 {

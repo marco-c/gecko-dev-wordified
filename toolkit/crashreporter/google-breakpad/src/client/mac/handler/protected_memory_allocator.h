@@ -528,7 +528,7 @@ char
 *
 Allocate
 (
-size_t
+vm_size_t
 n
 )
 ;
@@ -678,7 +678,7 @@ pool_size_
 vm_address_t
 base_address_
 ;
-int
+vm_size_t
 next_alloc_offset_
 ;
 bool

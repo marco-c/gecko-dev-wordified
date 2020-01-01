@@ -1968,7 +1968,7 @@ attribute
 struct
 Abbrev
 {
-uint32
+uint64
 number
 ;
 enum

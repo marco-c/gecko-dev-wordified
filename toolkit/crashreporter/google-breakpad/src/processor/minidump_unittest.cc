@@ -532,7 +532,7 @@ using
 google_breakpad
 :
 :
-TestAssembler
+test_assembler
 :
 :
 kBigEndian
@@ -541,7 +541,7 @@ using
 google_breakpad
 :
 :
-TestAssembler
+test_assembler
 :
 :
 kLittleEndian

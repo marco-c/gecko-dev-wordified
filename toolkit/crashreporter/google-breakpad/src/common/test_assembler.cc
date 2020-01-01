@@ -728,6 +728,8 @@ const
 {
 u_int64_t
 v
+=
+0
 ;
 ALWAYS_EVALUATE_AND_ASSERT
 (

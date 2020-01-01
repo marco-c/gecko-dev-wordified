@@ -763,8 +763,7 @@ Update
 MachoWalker
 *
 walker
-unsigned
-long
+off_t
 offset
 size_t
 size

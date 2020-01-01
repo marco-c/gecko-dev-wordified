@@ -1103,6 +1103,7 @@ filename
 size_t
 object_files_size
 ;
+const
 struct
 fat_arch
 *
