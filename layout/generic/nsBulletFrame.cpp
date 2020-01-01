@@ -1692,8 +1692,12 @@ aRenderingContext
 .
 SetColor
 (
-GetVisitedDependentColor
+nsLayoutUtils
+:
+:
+GetColor
 (
+this
 eCSSProperty_color
 )
 )

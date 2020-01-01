@@ -18204,6 +18204,8 @@ we
 should
 darken
 text
+/
+decoration
 colors
 .
 We
@@ -18274,11 +18276,13 @@ nscolor
 nsLayoutUtils
 :
 :
-GetTextColor
+GetColor
 (
 nsIFrame
 *
 aFrame
+nsCSSProperty
+aProperty
 )
 {
 nscolor
@@ -18289,7 +18293,7 @@ aFrame
 >
 GetVisitedDependentColor
 (
-eCSSProperty_color
+aProperty
 )
 ;
 if
