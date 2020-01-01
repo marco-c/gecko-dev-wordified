@@ -60765,16 +60765,6 @@ StackTypeSet
 types
 )
 {
-if
-(
-!
-js_IonOptions
-.
-parallelCompilation
-)
-return
-types
-;
 /
 /
 Clone
