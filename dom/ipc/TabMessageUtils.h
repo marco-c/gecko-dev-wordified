@@ -355,7 +355,7 @@ mozilla
 dom
 :
 :
-AUDIO_CHANNEL_NORMAL
+AUDIO_CHANNEL_DEFAULT
 mozilla
 :
 :

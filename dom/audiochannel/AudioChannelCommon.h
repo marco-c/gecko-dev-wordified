@@ -146,6 +146,10 @@ attribute
 enum
 AudioChannelType
 {
+AUDIO_CHANNEL_DEFAULT
+=
+-
+1
 AUDIO_CHANNEL_NORMAL
 =
 0
