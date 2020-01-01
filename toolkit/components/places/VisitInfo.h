@@ -118,8 +118,6 @@ already_AddRefed
 nsIURI
 >
 aReferrer
-int64_t
-aSessionId
 )
 ;
 private
@@ -141,10 +139,6 @@ nsCOMPtr
 nsIURI
 >
 mReferrer
-;
-const
-int64_t
-mSessionId
 ;
 }
 ;

@@ -1778,14 +1778,6 @@ expect
 a
 new
 bookmark
-options
-.
-resultType
-=
-options
-.
-RESULT_TYPE_VISIT
-;
 let
 query
 =

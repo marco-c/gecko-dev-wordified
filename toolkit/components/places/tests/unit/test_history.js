@@ -506,9 +506,11 @@ do_check_eq
 node
 .
 type
-options
+Ci
 .
-RESULTS_AS_VISIT
+nsINavHistoryResultNode
+.
+RESULT_TYPE_URI
 )
 ;
 /

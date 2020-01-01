@@ -377,7 +377,7 @@ nsNavBookmarks
 :
 kGetChildrenIndex_Position
 =
-15
+14
 ;
 const
 int32_t
@@ -386,7 +386,7 @@ nsNavBookmarks
 :
 kGetChildrenIndex_Type
 =
-16
+15
 ;
 const
 int32_t
@@ -395,7 +395,7 @@ nsNavBookmarks
 :
 kGetChildrenIndex_PlaceID
 =
-17
+16
 ;
 const
 int32_t
@@ -404,7 +404,7 @@ nsNavBookmarks
 :
 kGetChildrenIndex_Guid
 =
-18
+17
 ;
 using
 namespace
@@ -5781,7 +5781,6 @@ last_visit_date
 f
 .
 url
-null
 b
 .
 id
@@ -9923,7 +9922,6 @@ last_visit_date
 f
 .
 url
-null
 b
 .
 id
@@ -10784,7 +10782,6 @@ last_visit_date
 f
 .
 url
-null
 b
 .
 id
