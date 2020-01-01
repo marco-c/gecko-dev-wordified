@@ -914,15 +914,6 @@ block
 frame
 *
 param
-aFirstChild
-The
-first
-child
-frame
-of
-aBlockFrame
-*
-param
 aIsVisualFormControl
 [
 IN
@@ -963,9 +954,6 @@ Resolve
 nsBlockFrame
 *
 aBlockFrame
-nsIFrame
-*
-aFirstChild
 PRBool
 aIsVisualFormControl
 )
