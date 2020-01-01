@@ -486,13 +486,6 @@ android
 .
 util
 .
-Base64
-;
-import
-android
-.
-util
-.
 Log
 ;
 public
@@ -2118,9 +2111,9 @@ byte
 ]
 compressed
 =
-Base64
+GeckoAppShell
 .
-decode
+decodeBase64
 (
 data
 .
@@ -2128,9 +2121,6 @@ substring
 (
 22
 )
-Base64
-.
-DEFAULT
 )
 ;
 GeckoApp
