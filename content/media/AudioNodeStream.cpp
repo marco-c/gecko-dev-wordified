@@ -186,6 +186,11 @@ AudioNodeStream
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+AudioNodeStream
+)
+;
 }
 void
 AudioNodeStream

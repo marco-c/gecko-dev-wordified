@@ -871,6 +871,11 @@ AudioNodeEngine
 (
 )
 {
+MOZ_COUNT_CTOR
+(
+AudioNodeEngine
+)
+;
 }
 virtual
 ~
@@ -878,6 +883,11 @@ AudioNodeEngine
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+AudioNodeEngine
+)
+;
 }
 virtual
 void
