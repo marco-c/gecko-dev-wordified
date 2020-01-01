@@ -5310,7 +5310,7 @@ pos
 =
 0
 ;
-nsInt64
+PRInt64
 outValue
 =
 0
@@ -5381,18 +5381,12 @@ pos
 outValue
 *
 =
-nsInt64
-(
 10
-)
 ;
 outValue
 +
 =
-nsInt64
-(
 digit
-)
 ;
 pos
 +
