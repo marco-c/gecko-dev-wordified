@@ -7553,6 +7553,12 @@ aWhichClipboard
 {
 if
 (
+aWhichClipboard
+=
+=
+kGlobalClipboard
+&
+&
 :
 :
 OpenClipboard
