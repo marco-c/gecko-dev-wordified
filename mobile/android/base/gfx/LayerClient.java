@@ -524,7 +524,7 @@ with
 the
 *
 appropriate
-LayerView
+AbstractLayerView
 .
 *
 /
@@ -544,7 +544,7 @@ mLayerController
 null
 )
 {
-LayerView
+AbstractLayerView
 view
 =
 mLayerController
