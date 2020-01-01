@@ -2503,6 +2503,16 @@ warnOnQuit
 true
 )
 ;
+pref
+(
+"
+browser
+.
+warnOnRestart
+"
+true
+)
+;
 #
 ifdef
 UNIX_BUT_NOT_MAC
