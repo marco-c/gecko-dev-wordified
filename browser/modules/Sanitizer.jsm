@@ -964,7 +964,7 @@ getService
 (
 ci
 .
-nsIBranch
+nsIPrefBranch
 )
 .
 getComplexValue
@@ -1138,6 +1138,8 @@ er
 {
 }
 }
+try
+{
 /
 /
 The
@@ -1156,6 +1158,13 @@ nsICache
 STORE_ANYWHERE
 )
 ;
+}
+catch
+(
+er
+)
+{
+}
 }
 get
 canClear
