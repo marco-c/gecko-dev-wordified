@@ -647,6 +647,17 @@ PRUint64
 aProcessId
 )
 ;
+NS_OVERRIDE
+virtual
+bool
+RecvClearMessageList
+(
+const
+PRInt32
+&
+aListId
+)
+;
 protected
 :
 virtual

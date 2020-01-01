@@ -503,6 +503,11 @@ nsIDOMMozSmsRequest
 aRequest
 )
 ;
+~
+SmsCursor
+(
+)
+;
 void
 SetMessage
 (
