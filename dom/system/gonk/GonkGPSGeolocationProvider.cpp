@@ -2607,7 +2607,7 @@ mAGpsInterface
 >
 data_conn_open
 (
-AGPS_TYPE_ANY
+AGPS_TYPE_SUPL
 agpsApn
 .
 get
@@ -2648,7 +2648,7 @@ mAGpsInterface
 >
 data_conn_closed
 (
-AGPS_TYPE_ANY
+AGPS_TYPE_SUPL
 )
 ;
 #
