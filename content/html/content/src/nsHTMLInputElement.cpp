@@ -2521,7 +2521,6 @@ new
 nsDOMFile
 (
 localFile
-doc
 )
 )
 ;
@@ -2645,7 +2644,6 @@ new
 nsDOMFile
 (
 localFile
-doc
 )
 )
 ;
@@ -6802,9 +6800,6 @@ new
 nsDOMFile
 (
 file
-GetOwnerDoc
-(
-)
 )
 ;
 files

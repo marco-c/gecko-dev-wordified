@@ -17178,6 +17178,12 @@ aFile
 >
 GetInternalUrl
 (
+mDoc
+-
+>
+NodePrincipal
+(
+)
 aURL
 )
 ;
