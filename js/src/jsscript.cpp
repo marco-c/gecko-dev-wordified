@@ -1333,7 +1333,7 @@ init
 )
 )
 return
-false
+NULL
 ;
 for
 (
