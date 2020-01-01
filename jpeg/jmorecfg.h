@@ -822,12 +822,6 @@ __i386__
 if
 defined
 (
-XP_MAC
-)
-|
-|
-defined
-(
 XP_MACOSX
 )
 #
@@ -836,9 +830,6 @@ HAVE_SSE2_INTRINSICS
 #
 endif
 !
-XP_MAC
-|
-|
 XP_MACOSX
 #
 endif
