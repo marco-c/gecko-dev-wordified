@@ -4623,7 +4623,7 @@ strict
 cx
 -
 >
-hasStrictOption
+hasExtraWarningsOption
 (
 )
 )
