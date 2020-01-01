@@ -4804,6 +4804,9 @@ StackTagMask
 gc
 :
 :
+Cell
+:
+:
 CellMask
 )
 ;
