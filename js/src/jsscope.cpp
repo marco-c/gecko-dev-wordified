@@ -3592,8 +3592,15 @@ while
 shape
 )
 {
-JS_ASSERT
+JS_ASSERT_IF
 (
+!
+shape
+-
+>
+frozen
+(
+)
 !
 shape
 -
