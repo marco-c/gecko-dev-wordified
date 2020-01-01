@@ -1850,7 +1850,6 @@ uri
 "
 about
 :
-blank
 "
 NULL
 )
