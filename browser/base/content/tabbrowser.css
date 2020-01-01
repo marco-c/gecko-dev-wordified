@@ -369,12 +369,6 @@ tabs
 -
 spacer
 {
-min
--
-width
-:
-0
-;
 pointer
 -
 events
@@ -407,10 +401,9 @@ spacer
 {
 transition
 :
-min
--
 width
-150ms
+.
+15s
 ease
 -
 out
