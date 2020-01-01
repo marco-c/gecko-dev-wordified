@@ -6707,6 +6707,7 @@ if
 (
 rootAcc
 )
+{
 rootAcc
 -
 >
@@ -6718,6 +6719,7 @@ nsnull
 PR_TRUE
 )
 ;
+}
 }
 return
 ;
