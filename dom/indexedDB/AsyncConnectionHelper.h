@@ -1093,7 +1093,7 @@ buffers
 /
 static
 nsresult
-ConvertCloneReadInfosToArray
+ConvertToArrayAndCleanup
 (
 JSContext
 *
