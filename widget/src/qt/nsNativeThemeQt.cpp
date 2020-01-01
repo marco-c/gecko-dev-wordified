@@ -2981,7 +2981,7 @@ frameRect
 aFrame
 -
 >
-GetContentRect
+GetRect
 (
 )
 ;
