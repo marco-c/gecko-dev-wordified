@@ -705,7 +705,7 @@ event
 AccEvent
 cycle
 collection
-NS_IMPL_CYCLE_COLLECTION_NATIVE_1
+NS_IMPL_CYCLE_COLLECTION_1
 (
 AccEvent
 mAccessible
