@@ -1797,6 +1797,16 @@ asmJSActivationStack_
 =
 this
 ;
+(
+void
+)
+errorRejoinSP_
+;
+/
+/
+squelch
+GCC
+warning
 }
 AsmJSActivation
 :
