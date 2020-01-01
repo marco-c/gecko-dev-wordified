@@ -2647,8 +2647,6 @@ ftr
 ;
 }
 return
-hb_blob_create_empty
-(
-)
+nsnull
 ;
 }
