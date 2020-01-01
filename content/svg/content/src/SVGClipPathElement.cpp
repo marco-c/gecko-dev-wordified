@@ -192,9 +192,6 @@ nsGkAtoms
 :
 clipPathUnits
 sSVGUnitTypesMap
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_USERSPACEONUSE
 }
 }
@@ -275,14 +272,13 @@ SVG_UNIT_TYPE_USERSPACEONUSE
 /
 nsISupports
 methods
-NS_IMPL_ISUPPORTS_INHERITED4
+NS_IMPL_ISUPPORTS_INHERITED3
 (
 SVGClipPathElement
 SVGClipPathElementBase
 nsIDOMNode
 nsIDOMElement
 nsIDOMSVGElement
-nsIDOMSVGUnitTypes
 )
 /
 /

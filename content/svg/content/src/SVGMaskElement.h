@@ -109,13 +109,6 @@ h
 #
 include
 "
-nsIDOMSVGUnitTypes
-.
-h
-"
-#
-include
-"
 nsSVGEnum
 .
 h
@@ -217,8 +210,6 @@ public
 SVGMaskElementBase
 public
 nsIDOMSVGMaskElement
-public
-nsIDOMSVGUnitTypes
 {
 friend
 class

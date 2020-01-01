@@ -102,13 +102,6 @@ mozilla_dom_SVGPatternElement_h
 #
 include
 "
-nsIDOMSVGUnitTypes
-.
-h
-"
-#
-include
-"
 nsIDOMSVGURIReference
 .
 h
@@ -202,8 +195,6 @@ public
 nsIDOMSVGElement
 public
 nsIDOMSVGURIReference
-public
-nsIDOMSVGUnitTypes
 {
 friend
 class

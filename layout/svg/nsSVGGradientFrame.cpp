@@ -1270,9 +1270,6 @@ if
 gradientUnits
 =
 =
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_USERSPACEONUSE
 )
 {
@@ -1347,9 +1344,6 @@ NS_ASSERTION
 gradientUnits
 =
 =
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
 "
 Unknown
@@ -3231,9 +3225,6 @@ if
 gradientUnits
 =
 =
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_USERSPACEONUSE
 )
 {
@@ -3254,9 +3245,6 @@ NS_ASSERTION
 gradientUnits
 =
 =
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
 "
 Unknown
@@ -4126,9 +4114,6 @@ if
 gradientUnits
 =
 =
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_USERSPACEONUSE
 )
 {
@@ -4149,9 +4134,6 @@ NS_ASSERTION
 gradientUnits
 =
 =
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
 "
 Unknown

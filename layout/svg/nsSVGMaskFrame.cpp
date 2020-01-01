@@ -390,9 +390,6 @@ if
 units
 =
 =
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
 )
 {

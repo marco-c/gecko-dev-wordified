@@ -895,10 +895,6 @@ SVGFETurbulenceElement
 )
 DOMCI_CLASS
 (
-SVGFilterElement
-)
-DOMCI_CLASS
-(
 SVGImageElement
 )
 DOMCI_CLASS

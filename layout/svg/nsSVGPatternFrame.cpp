@@ -1307,9 +1307,6 @@ IsExplicitlySet
 aPatternContentUnits
 =
 =
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
 )
 |
@@ -1325,9 +1322,6 @@ IsExplicitlySet
 aPatternUnits
 =
 =
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
 )
 ;
@@ -1418,9 +1412,6 @@ if
 aPatternUnits
 =
 =
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
 )
 {
@@ -3900,9 +3891,6 @@ if
 aPatternUnits
 =
 =
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
 )
 {

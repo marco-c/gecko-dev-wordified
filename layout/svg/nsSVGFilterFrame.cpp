@@ -1230,7 +1230,7 @@ GetLengthValue
 SVGFilterElement
 :
 :
-X
+ATTR_X
 )
 ;
 XYWH
@@ -1247,7 +1247,7 @@ GetLengthValue
 SVGFilterElement
 :
 :
-Y
+ATTR_Y
 )
 ;
 XYWH
@@ -1264,7 +1264,7 @@ GetLengthValue
 SVGFilterElement
 :
 :
-WIDTH
+ATTR_WIDTH
 )
 ;
 XYWH
@@ -1281,7 +1281,7 @@ GetLengthValue
 SVGFilterElement
 :
 :
-HEIGHT
+ATTR_HEIGHT
 )
 ;
 /

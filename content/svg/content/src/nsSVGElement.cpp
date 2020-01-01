@@ -420,13 +420,6 @@ h
 #
 include
 "
-nsIDOMSVGUnitTypes
-.
-h
-"
-#
-include
-"
 nsSVGRect
 .
 h
@@ -582,9 +575,6 @@ nsGkAtoms
 :
 :
 userSpaceOnUse
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_USERSPACEONUSE
 }
 {
@@ -593,9 +583,6 @@ nsGkAtoms
 :
 :
 objectBoundingBox
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
 }
 {

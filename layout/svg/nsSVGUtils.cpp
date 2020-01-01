@@ -245,13 +245,6 @@ h
 #
 include
 "
-nsIDOMSVGUnitTypes
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h
@@ -8221,9 +8214,6 @@ if
 aUnits
 =
 =
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
 )
 {
@@ -8719,9 +8709,6 @@ GetAnimValue
 )
 =
 =
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
 )
 {

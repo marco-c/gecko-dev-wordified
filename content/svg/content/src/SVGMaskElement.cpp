@@ -350,9 +350,6 @@ nsGkAtoms
 :
 maskUnits
 sSVGUnitTypesMap
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
 }
 {
@@ -362,9 +359,6 @@ nsGkAtoms
 :
 maskContentUnits
 sSVGUnitTypesMap
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_USERSPACEONUSE
 }
 }
@@ -459,14 +453,13 @@ NS_INTERFACE_TABLE_HEAD
 (
 SVGMaskElement
 )
-NS_NODE_INTERFACE_TABLE5
+NS_NODE_INTERFACE_TABLE4
 (
 SVGMaskElement
 nsIDOMNode
 nsIDOMElement
 nsIDOMSVGElement
 nsIDOMSVGMaskElement
-nsIDOMSVGUnitTypes
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
