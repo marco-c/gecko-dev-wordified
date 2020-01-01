@@ -621,6 +621,14 @@ aMessage
 0
 ;
 virtual
+bool
+OnReplyTimeout
+(
+)
+=
+0
+;
+virtual
 Result
 OnMessageReceived
 (
