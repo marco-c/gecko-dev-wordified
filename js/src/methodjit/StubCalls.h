@@ -923,15 +923,6 @@ f
 ;
 void
 JS_FASTCALL
-PutStrictEvalCallObject
-(
-VMFrame
-&
-f
-)
-;
-void
-JS_FASTCALL
 PutActivationObjects
 (
 VMFrame
@@ -941,7 +932,7 @@ f
 ;
 void
 JS_FASTCALL
-GetCallObject
+CreateFunCallObject
 (
 VMFrame
 &

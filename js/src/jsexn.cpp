@@ -2027,16 +2027,7 @@ if
 fp
 -
 >
-isFunctionFrame
-(
-)
-&
-&
-!
-fp
--
->
-isEvalFrame
+isNonEvalFunctionFrame
 (
 )
 )

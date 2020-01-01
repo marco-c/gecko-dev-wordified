@@ -2633,7 +2633,7 @@ INLINE_STUBCALL
 stubs
 :
 :
-GetCallObject
+CreateFunCallObject
 )
 ;
 }
@@ -2701,7 +2701,7 @@ been
 set
 by
 *
-GetCallObject
+CreateFunCallObject
 for
 heavyweight
 function
@@ -15263,12 +15263,6 @@ hasArgsObj
 (
 )
 )
-stubs
-:
-:
-PutActivationObjects
-(
-)
 *
 /
 Jump
@@ -15354,15 +15348,9 @@ if
 fp
 -
 >
-isEvalFrame
+isStrictEvalFrame
 (
 )
-&
-&
-script
--
->
-strictModeCode
 )
 {
 /
@@ -15394,7 +15382,7 @@ INLINE_STUBCALL
 stubs
 :
 :
-PutStrictEvalCallObject
+PutActivationObjects
 )
 ;
 }
