@@ -17967,11 +17967,16 @@ PRUint8
 optional_argc
 )
 {
-NS_ENSURE_ARG
+if
 (
+!
 imgElt
 )
+{
+return
+NS_ERROR_DOM_TYPE_MISMATCH_ERR
 ;
+}
 double
 sx
 sy
