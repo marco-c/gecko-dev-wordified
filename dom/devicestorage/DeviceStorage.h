@@ -246,6 +246,9 @@ mPrincipal
 bool
 mIsWatchingFile
 ;
+bool
+mAllowedToWatchFile
+;
 nsresult
 Notify
 (
