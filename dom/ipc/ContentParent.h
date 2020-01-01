@@ -263,6 +263,13 @@ nsHashKeys
 h
 "
 #
+include
+"
+PermissionMessageUtils
+.
+h
+"
+#
 define
 CHILD_PROCESS_SHUTDOWN_MESSAGE
 NS_LITERAL_STRING
@@ -1704,6 +1711,13 @@ virtual
 bool
 RecvAddGeolocationListener
 (
+const
+IPC
+:
+:
+Principal
+&
+aPrincipal
 )
 ;
 virtual
