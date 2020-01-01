@@ -3467,6 +3467,10 @@ ACCSET_OBJ_CAPACITY
 :
 ok
 =
+false
+;
+/
+/
 OK_OBJ_FIELD
 (
 LIR_ldi

@@ -738,16 +738,7 @@ Shape
 search
 (
 cx
-const_cast
-<
-Shape
-*
-*
->
-(
-&
 lastBinding
-)
 ATOM_TO_JSID
 (
 name

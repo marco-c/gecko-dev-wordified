@@ -4955,7 +4955,7 @@ return
 false
 ;
 }
-setLastProperty
+setLastPropertyInfallible
 (
 *
 shapep

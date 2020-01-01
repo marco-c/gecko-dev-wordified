@@ -16610,7 +16610,7 @@ JS_ASSERT
 obj
 -
 >
-isPackedDenseArray
+isDenseArray
 (
 )
 )
