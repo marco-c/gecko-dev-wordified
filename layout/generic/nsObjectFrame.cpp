@@ -9790,6 +9790,19 @@ rv
 )
 return
 ;
+nsCxPusher
+cxPusher
+;
+if
+(
+cxPusher
+.
+Push
+(
+mContent
+)
+)
+{
 /
 /
 Abuse
@@ -9830,6 +9843,7 @@ cx
 obj
 )
 ;
+}
 }
 /
 /
