@@ -876,15 +876,6 @@ nsIAccessible
 aTarget
 )
 ;
-virtual
-void
-PresShellDestroyed
-(
-nsIPresShell
-*
-aPresShell
-)
-;
 /
 /
 nsAccessibiltiyService
