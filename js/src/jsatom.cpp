@@ -1609,7 +1609,6 @@ AtomizeAndTakeOwnership
 JSContext
 *
 cx
-const
 jschar
 *
 tbchars
@@ -1653,10 +1652,6 @@ length
 {
 js_free
 (
-(
-void
-*
-)
 tbchars
 )
 ;
@@ -1803,10 +1798,6 @@ ib
 ;
 js_free
 (
-(
-void
-*
-)
 tbchars
 )
 ;
@@ -1830,14 +1821,7 @@ CanGC
 >
 (
 cx
-const_cast
-<
-jschar
-*
->
-(
 tbchars
-)
 length
 )
 ;
@@ -1849,10 +1833,6 @@ flat
 {
 js_free
 (
-(
-void
-*
-)
 tbchars
 )
 ;
