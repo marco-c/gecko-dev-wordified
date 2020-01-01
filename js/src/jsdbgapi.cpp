@@ -13525,7 +13525,10 @@ fp
 fp
 -
 >
-regs
+pc
+(
+cx
+)
 =
 =
 NULL
@@ -13545,7 +13548,10 @@ fp
 fp
 -
 >
-regs
+pc
+(
+cx
+)
 )
 ?
 js_FramePCToLineNumber
