@@ -925,7 +925,6 @@ badiv
 "
 badivbadivbadivbadivbad
 =
-=
 "
 ;
 var
