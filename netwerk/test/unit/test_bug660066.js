@@ -75,12 +75,10 @@ world
 "
 ;
 const
-FILEDATA_SPEC
+BLOBURI_SPEC
 =
 "
-moz
--
-filedata
+blob
 :
 123456
 "
@@ -251,7 +249,7 @@ NetUtil
 .
 newURI
 (
-FILEDATA_SPEC
+BLOBURI_SPEC
 )
 ;
 do_info
@@ -268,7 +266,7 @@ SIMPLEURI_SPEC
 =
 "
 +
-FILEDATA_SPEC
+BLOBURI_SPEC
 )
 ;
 do_check_uri_neq
@@ -295,7 +293,7 @@ simpleURI
 .
 spec
 =
-FILEDATA_SPEC
+BLOBURI_SPEC
 ;
 do_info
 (

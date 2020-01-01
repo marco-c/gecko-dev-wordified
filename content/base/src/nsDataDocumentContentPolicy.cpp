@@ -842,9 +842,7 @@ e
 .
 g
 .
-moz
--
-filedata
+blob
 URIs
 /
 /
