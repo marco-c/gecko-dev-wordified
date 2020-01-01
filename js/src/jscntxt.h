@@ -4134,9 +4134,6 @@ gcSweepCompartment
 int
 gcSweepKindIndex
 ;
-bool
-gcAbortSweepAfterCurrentGroup
-;
 /
 *
 *
