@@ -666,7 +666,7 @@ push
 (
 gCurrentLoader
 .
-loadImage
+loadImageXPCOM
 (
 uri
 null
@@ -1057,7 +1057,7 @@ push
 (
 gCurrentLoader
 .
-loadImageWithChannel
+loadImageWithChannelXPCOM
 (
 channel
 outer
@@ -1245,7 +1245,7 @@ push
 (
 gCurrentLoader
 .
-loadImageWithChannel
+loadImageWithChannelXPCOM
 (
 channel
 outer
@@ -1379,7 +1379,7 @@ push
 (
 gCurrentLoader
 .
-loadImage
+loadImageXPCOM
 (
 uri
 null
@@ -1507,7 +1507,7 @@ req
 =
 gCurrentLoader
 .
-loadImage
+loadImageXPCOM
 (
 uri
 null

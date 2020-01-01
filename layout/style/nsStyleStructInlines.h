@@ -135,7 +135,7 @@ nsStyleBorder
 :
 SetBorderImage
 (
-imgIRequest
+imgRequestProxy
 *
 aImage
 )
@@ -152,7 +152,7 @@ Clear
 ;
 }
 inline
-imgIRequest
+imgRequestProxy
 *
 nsStyleBorder
 :

@@ -1136,6 +1136,13 @@ h
 #
 include
 "
+imgRequestProxy
+.
+h
+"
+#
+include
+"
 nsWrapperCacheInlines
 .
 h
@@ -39351,9 +39358,9 @@ cache
 -
 trigger
 preload
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 request
 ;

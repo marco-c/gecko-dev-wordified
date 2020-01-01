@@ -127,6 +127,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 imgINotificationObserver
 .
 h
@@ -138,7 +145,7 @@ class
 nsIContent
 ;
 class
-imgIRequest
+imgRequestProxy
 ;
 class
 nsMenuObjectX
@@ -358,9 +365,9 @@ nsIContent
 >
 mContent
 ;
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 mIconRequest
 ;

@@ -259,14 +259,14 @@ h
 #
 include
 "
-imgIRequest
+imgINotificationObserver
 .
 h
 "
 #
 include
 "
-imgINotificationObserver
+imgRequestProxy
 .
 h
 "

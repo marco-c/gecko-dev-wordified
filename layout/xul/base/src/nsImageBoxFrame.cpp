@@ -1361,7 +1361,7 @@ list
 style
 -
 image
-imgIRequest
+imgRequestProxy
 *
 styleRequest
 =

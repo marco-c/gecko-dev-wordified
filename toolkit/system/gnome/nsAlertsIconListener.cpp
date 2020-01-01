@@ -1234,7 +1234,7 @@ return
 il
 -
 >
-LoadImage
+LoadImageXPCOM
 (
 imageUri
 nullptr

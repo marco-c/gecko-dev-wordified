@@ -187,7 +187,7 @@ h
 #
 include
 "
-imgIRequest
+imgRequestProxy
 .
 h
 "
@@ -630,9 +630,9 @@ initialDocumentURI
 is
 NULL
 !
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 req
 ;

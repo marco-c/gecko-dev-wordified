@@ -679,7 +679,7 @@ request
 return
 ;
 }
-imgIRequest
+imgRequestProxy
 *
 canonicalRequest
 =
@@ -711,9 +711,9 @@ something
 return
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 request
 ;
@@ -1360,9 +1360,9 @@ aOriginPrincipal
 return
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 request
 ;
@@ -1395,9 +1395,9 @@ request
 return
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 clonedRequest
 ;

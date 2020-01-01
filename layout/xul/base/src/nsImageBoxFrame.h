@@ -144,6 +144,9 @@ imgINotificationObserver
 h
 "
 class
+imgRequestProxy
+;
+class
 nsImageBoxFrame
 ;
 class
@@ -587,9 +590,9 @@ driver
 bool
 mRequestRegistered
 ;
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 mImageRequest
 ;

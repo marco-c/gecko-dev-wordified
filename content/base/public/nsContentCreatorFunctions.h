@@ -161,7 +161,7 @@ class
 nsINodeInfo
 ;
 class
-imgIRequest
+imgRequestProxy
 ;
 class
 nsNodeInfoManager
@@ -484,7 +484,7 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-imgIRequest
+imgRequestProxy
 *
 aImageRequest
 )
