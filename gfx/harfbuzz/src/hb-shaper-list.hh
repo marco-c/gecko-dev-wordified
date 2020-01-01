@@ -231,7 +231,7 @@ here
 /
 #
 ifdef
-HAVE_GRAPHITE
+HAVE_GRAPHITE2
 HB_SHAPER_IMPLEMENT
 (
 graphite2

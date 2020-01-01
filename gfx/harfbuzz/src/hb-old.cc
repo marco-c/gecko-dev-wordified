@@ -755,7 +755,6 @@ metrics
 >
 height
 =
--
 extents
 .
 height
@@ -884,9 +883,11 @@ hb_blob_t
 *
 blob
 =
-hb_face_reference_table
-(
 face
+-
+>
+reference_table
+(
 (
 hb_tag_t
 )

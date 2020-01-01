@@ -238,7 +238,7 @@ define
 unicode_props0
 (
 )
-var1
+var2
 .
 u8
 [
@@ -249,7 +249,7 @@ define
 unicode_props1
 (
 )
-var1
+var2
 .
 u8
 [

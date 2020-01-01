@@ -268,6 +268,7 @@ hh
 #
 undef
 HB_SHAPER_IMPLEMENT
+static
 void
 hb_shape_plan_plan
 (
@@ -955,7 +956,8 @@ caching
 if
 0
 static
-long
+unsigned
+int
 hb_shape_plan_hash
 (
 const
@@ -982,7 +984,7 @@ default_shaper_list
 0
 :
 (
-long
+intptr_t
 )
 shape_plan
 -

@@ -1039,6 +1039,7 @@ extents
 >
 height
 =
+-
 ft_face
 -
 >
@@ -2275,6 +2276,17 @@ FT_Select_Charmap
 (
 ft_face
 FT_ENCODING_UNICODE
+)
+;
+assert
+(
+font
+-
+>
+y_scale
+>
+=
+0
 )
 ;
 FT_Set_Char_Size

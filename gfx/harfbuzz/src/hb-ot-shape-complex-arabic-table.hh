@@ -9633,11 +9633,13 @@ SHAPING_TABLE_LAST
 static
 const
 struct
+ligature_set_t
 {
 uint16_t
 first
 ;
 struct
+ligature_pairs_t
 {
 uint16_t
 second
