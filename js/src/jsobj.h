@@ -10668,8 +10668,6 @@ Native
 constructor
 uintN
 nargs
-JSTypeHandler
-ctorHandler
 JSPropertySpec
 *
 ps
@@ -10740,8 +10738,6 @@ Native
 constructor
 uintN
 nargs
-JSTypeHandler
-ctorHandler
 JSPropertySpec
 *
 ps

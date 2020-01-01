@@ -8196,7 +8196,7 @@ static_methods
 ]
 =
 {
-JS_FN_TYPE
+JS_FN
 (
 "
 create
@@ -8204,9 +8204,8 @@ create
 proxy_create
 2
 0
-JS_TypeHandlerDynamic
 )
-JS_FN_TYPE
+JS_FN
 (
 "
 createFunction
@@ -8214,12 +8213,11 @@ createFunction
 proxy_createFunction
 3
 0
-JS_TypeHandlerDynamic
 )
 #
 ifdef
 DEBUG
-JS_FN_TYPE
+JS_FN
 (
 "
 isTrapping
@@ -8227,9 +8225,8 @@ isTrapping
 proxy_isTrapping
 1
 0
-JS_TypeHandlerBool
 )
-JS_FN_TYPE
+JS_FN
 (
 "
 fix
@@ -8237,7 +8234,6 @@ fix
 proxy_fix
 1
 0
-JS_TypeHandlerBool
 )
 #
 endif

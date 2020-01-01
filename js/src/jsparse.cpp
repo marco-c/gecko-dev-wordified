@@ -13460,8 +13460,6 @@ JSFUN_INTERPRETED
 lambda
 parent
 atom
-NULL
-NULL
 )
 ;
 if

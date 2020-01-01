@@ -2222,7 +2222,7 @@ methods
 ]
 =
 {
-JS_FN_TYPE
+JS_FN
 (
 "
 has
@@ -2233,9 +2233,8 @@ WeakMap
 has
 1
 0
-JS_TypeHandlerBool
 )
-JS_FN_TYPE
+JS_FN
 (
 "
 get
@@ -2246,9 +2245,8 @@ WeakMap
 get
 2
 0
-JS_TypeHandlerDynamic
 )
-JS_FN_TYPE
+JS_FN
 (
 "
 delete
@@ -2259,9 +2257,8 @@ WeakMap
 delete_
 1
 0
-JS_TypeHandlerBool
 )
-JS_FN_TYPE
+JS_FN
 (
 "
 set
@@ -2272,7 +2269,6 @@ WeakMap
 set
 2
 0
-JS_TypeHandlerVoid
 )
 JS_FS_END
 }
@@ -2308,7 +2304,6 @@ WeakMap
 :
 construct
 0
-JS_TypeHandlerNew
 NULL
 WeakMap
 :

@@ -3947,13 +3947,9 @@ JSITER_OWNONLY
 types
 :
 :
-MarkTypeCallerUnexpected
+MarkIteratorUnknown
 (
 cx
-types
-:
-:
-TYPE_UNKNOWN
 )
 ;
 PIERCE

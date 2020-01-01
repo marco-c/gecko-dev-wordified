@@ -18451,7 +18451,7 @@ static_methods
 ]
 =
 {
-JS_FN_TYPE
+JS_FN
 (
 "
 parse
@@ -18459,7 +18459,6 @@ parse
 reflect_parse
 1
 0
-JS_TypeHandlerDynamic
 )
 JS_FS_END
 }
