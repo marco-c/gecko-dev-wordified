@@ -1184,6 +1184,14 @@ mGridSize
 (
 0
 )
+mInfoXIncrement
+(
+20
+)
+mInfoYIncrement
+(
+20
+)
 {
 }
 nsHTMLEditor
