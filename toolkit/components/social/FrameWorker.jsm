@@ -1191,6 +1191,9 @@ indexedDB
 '
 location
 '
+'
+Worker
+'
 ]
 ;
 /
@@ -1227,8 +1230,9 @@ Bug
 798660
 -
 XHR
-and
 WebSocket
+and
+Worker
 have
 issues
 in
@@ -1252,6 +1256,9 @@ XMLHttpRequest
 '
 '
 WebSocket
+'
+'
+Worker
 '
 ]
 ;
