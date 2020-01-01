@@ -1452,6 +1452,11 @@ BackingScaleFactor
 (
 )
 ;
+void
+BackingScaleFactorChanged
+(
+)
+;
 virtual
 double
 GetDefaultScale

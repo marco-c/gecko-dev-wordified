@@ -2044,7 +2044,7 @@ with
 mixed
 backingScaleFactors
 (
-currently
+somewhat
 broken
 )
 pref
@@ -2056,7 +2056,7 @@ hidpi
 .
 enabled
 "
-1
+2
 )
 ;
 #

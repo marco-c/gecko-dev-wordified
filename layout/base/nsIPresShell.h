@@ -8412,6 +8412,14 @@ ThemeChanged
 =
 0
 ;
+virtual
+void
+BackingScaleFactorChanged
+(
+)
+=
+0
+;
 nscoord
 MaxLineBoxWidth
 (
