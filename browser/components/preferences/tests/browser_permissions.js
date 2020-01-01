@@ -210,11 +210,6 @@ popup
 :
 PERM_DENY
 "
-plugins
-"
-:
-PERM_ALLOW
-"
 fullscreen
 "
 :
@@ -248,7 +243,7 @@ interface
 const
 TEST_PERMS_COUNT
 =
-7
+6
 ;
 function
 test

@@ -619,6 +619,10 @@ permissions
 AddonManager
 .
 PERM_CAN_DISABLE
+|
+AddonManager
+.
+PERM_CAN_ASK_TO_ACTIVATE
 )
 ;
 do_check_eq
