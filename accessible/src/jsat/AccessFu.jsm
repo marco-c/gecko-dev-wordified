@@ -1014,7 +1014,7 @@ x
 {
 Logger
 .
-error
+logException
 (
 x
 )
@@ -1155,7 +1155,7 @@ x
 {
 Logger
 .
-error
+logException
 (
 x
 )
@@ -2444,7 +2444,7 @@ x
 {
 Logger
 .
-error
+logException
 (
 x
 )
