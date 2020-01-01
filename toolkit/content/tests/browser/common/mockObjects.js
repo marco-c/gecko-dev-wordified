@@ -664,7 +664,9 @@ aOuter
 null
 )
 throw
-Cr
+Components
+.
+results
 .
 NS_ERROR_NO_AGGREGATION
 ;
@@ -731,7 +733,9 @@ manager
 .
 QueryInterface
 (
-Ci
+Components
+.
+interfaces
 .
 nsIComponentRegistrar
 )
@@ -837,7 +841,9 @@ manager
 .
 QueryInterface
 (
-Ci
+Components
+.
+interfaces
 .
 nsIComponentRegistrar
 )
