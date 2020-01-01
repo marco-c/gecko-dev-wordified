@@ -34268,8 +34268,12 @@ scrollEvent
 .
 delta
 )
-break
+return
+PR_FALSE
 ;
+/
+/
+break
 scrollEvent
 .
 isShift
