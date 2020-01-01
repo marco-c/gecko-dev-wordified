@@ -1935,13 +1935,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLFormElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLFrameElement
 .
 h
@@ -12864,10 +12857,6 @@ nsIDOMHTMLFormElement
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMHTMLFormElement
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIDOMNSHTMLFormElement
 )
 DOM_CLASSINFO_GENERIC_HTML_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END

@@ -473,13 +473,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLFormElement
-.
-h
-"
-#
-include
-"
 nsIWebProgressListener
 .
 h
@@ -725,8 +718,6 @@ nsGenericHTMLElement
 public
 nsIDOMHTMLFormElement
 public
-nsIDOMNSHTMLFormElement
-public
 nsIWebProgressListener
 public
 nsIForm
@@ -790,10 +781,6 @@ nsGenericHTMLElement
 /
 nsIDOMHTMLFormElement
 NS_DECL_NSIDOMHTMLFORMELEMENT
-/
-/
-nsIDOMNSHTMLFormElement
-NS_DECL_NSIDOMNSHTMLFORMELEMENT
 /
 /
 nsIWebProgressListener
