@@ -2189,6 +2189,10 @@ iteratorAtom
 ;
 JSAtom
 *
+joinAtom
+;
+JSAtom
+*
 lastIndexAtom
 ;
 JSAtom
@@ -3000,6 +3004,13 @@ extern
 const
 char
 js_iterator_str
+[
+]
+;
+extern
+const
+char
+js_join_str
 [
 ]
 ;
