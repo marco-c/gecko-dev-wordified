@@ -8782,6 +8782,10 @@ hasSpecialEquality
 (
 false
 )
+singleton
+(
+NULL
+)
 {
 #
 ifdef
