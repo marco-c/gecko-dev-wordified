@@ -47,6 +47,9 @@ nmake
 dll_
 '
 '
+dll_p
+'
+'
 mt
 '
 ]
