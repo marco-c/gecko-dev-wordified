@@ -989,6 +989,12 @@ stype
 =
 =
 CAIRO_SURFACE_TYPE_WIN32
+|
+|
+stype
+=
+=
+CAIRO_SURFACE_TYPE_WIN32_PRINTING
 )
 {
 result

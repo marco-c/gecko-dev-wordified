@@ -4239,7 +4239,15 @@ new
 gfxWindowsSurface
 (
 dc
-PR_TRUE
+gfxWindowsSurface
+:
+:
+FLAG_TAKE_DC
+|
+gfxWindowsSurface
+:
+:
+FLAG_FOR_PRINTING
 )
 ;
 }

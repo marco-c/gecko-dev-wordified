@@ -1227,8 +1227,9 @@ x_fallback_resolution
 surface
 -
 >
-base
-.
+target
+-
+>
 x_resolution
 ;
 double
@@ -1244,8 +1245,9 @@ y_fallback_resolution
 surface
 -
 >
-base
-.
+target
+-
+>
 y_resolution
 ;
 cairo_matrix_t
