@@ -10671,6 +10671,10 @@ LayerManager
 *
 aManager
 const
+ContainerParameters
+&
+aParameters
+const
 nsDisplayList
 &
 aList
@@ -10753,6 +10757,7 @@ GetLayerState
 (
 aBuilder
 aManager
+aParameters
 )
 ;
 if
@@ -10794,6 +10799,7 @@ ChildrenCanBeInactive
 (
 aBuilder
 aManager
+aParameters
 *
 list
 aActiveScrolledRoot
@@ -11668,6 +11674,10 @@ aBuilder
 LayerManager
 *
 aManager
+const
+ContainerParameters
+&
+aParameters
 )
 {
 if
@@ -11709,6 +11719,7 @@ ChildrenCanBeInactive
 (
 aBuilder
 aManager
+aParameters
 mList
 activeScrolledRoot
 )
@@ -12633,6 +12644,10 @@ aBuilder
 LayerManager
 *
 aManager
+const
+ContainerParameters
+&
+aParameters
 )
 {
 /
@@ -13120,6 +13135,10 @@ aBuilder
 LayerManager
 *
 aManager
+const
+ContainerParameters
+&
+aParameters
 )
 {
 return
@@ -17032,6 +17051,10 @@ aBuilder
 LayerManager
 *
 aManager
+const
+ContainerParameters
+&
+aParameters
 )
 {
 /
@@ -17135,6 +17158,7 @@ ChildrenCanBeInactive
 (
 aBuilder
 aManager
+aParameters
 *
 mStoredList
 .
