@@ -579,7 +579,7 @@ if
 err
 exit
 )
-=
+!
 =
 (
 "
@@ -2323,17 +2323,8 @@ regression
 "
 default
 =
-0
+None
 )
-#
-TODO
-:
-support
-a
-value
-of
-zero
-eventually
 (
 OPTIONS
 args
@@ -2348,6 +2339,9 @@ if
 OPTIONS
 .
 regression
+!
+=
+None
 :
   
 #
@@ -2472,6 +2466,9 @@ if
 OPTIONS
 .
 regression
+=
+=
+None
 :
   
 #
@@ -2748,6 +2745,9 @@ if
 OPTIONS
 .
 regression
+!
+=
+None
 :
         
 #
@@ -3549,7 +3549,6 @@ flush
 )
   
 if
-not
 OPTIONS
 .
 regression
@@ -3576,6 +3575,9 @@ if
 OPTIONS
 .
 regression
+!
+=
+None
 :
   
 expected_num_failures
