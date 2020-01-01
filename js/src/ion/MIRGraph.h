@@ -844,9 +844,10 @@ pred
 void
 assertUsesAreNotWithin
 (
-MUse
-*
+MUseIterator
 use
+MUseIterator
+end
 )
 ;
 /
@@ -2508,7 +2509,10 @@ numPhis
 )
 |
 |
+(
+*
 iter_
+)
 !
 =
 block_

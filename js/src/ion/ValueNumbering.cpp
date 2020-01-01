@@ -1681,6 +1681,7 @@ begin
 ;
 while
 (
+*
 i
 !
 =

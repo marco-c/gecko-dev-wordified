@@ -741,7 +741,7 @@ T
 class
 TempObjectPool
 {
-InlineList
+InlineForwardList
 <
 T
 >
@@ -772,7 +772,7 @@ T
 return
 freed_
 .
-pop
+popFront
 (
 )
 ;
@@ -787,7 +787,7 @@ obj
 {
 freed_
 .
-insert
+pushFront
 (
 obj
 )

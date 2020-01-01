@@ -532,7 +532,7 @@ kind
 ;
 pending_
 .
-insert
+pushBack
 (
 pm
 )
@@ -1060,7 +1060,7 @@ pm
 =
 pending_
 .
-pop
+popBack
 (
 )
 ;
@@ -1078,7 +1078,7 @@ stack
 .
 stack
 .
-insert
+pushBack
 (
 pm
 )
@@ -1250,7 +1250,7 @@ blocking
 ;
 stack
 .
-insert
+pushBack
 (
 blocking
 )
@@ -1305,7 +1305,7 @@ done
 =
 stack
 .
-pop
+popBack
 (
 )
 ;
