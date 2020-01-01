@@ -107,13 +107,6 @@ prlog
 h
 "
 #
-include
-"
-prmem
-.
-h
-"
-#
 endif
 #
 ifdef
