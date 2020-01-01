@@ -484,6 +484,13 @@ int32_t
 bytesRead
 )
 ;
+size_t
+SizeOfExcludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+;
 private
 :
 nsresult

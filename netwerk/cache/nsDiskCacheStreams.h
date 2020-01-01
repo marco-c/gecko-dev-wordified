@@ -257,6 +257,13 @@ negative
 )
 ;
 }
+size_t
+SizeOfIncludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+;
 /
 /
 GCC
