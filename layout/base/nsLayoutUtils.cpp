@@ -11154,7 +11154,6 @@ nsIFrame
 :
 :
 IntrinsicSize
-&
 aIntrinsicSize
 nsSize
 aIntrinsicRatio
