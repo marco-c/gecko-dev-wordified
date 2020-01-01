@@ -9364,9 +9364,14 @@ Utils
 .
 timeout
 (
+function
+(
+)
 Groups
 .
 updateTabBarForActiveGroup
+(
+)
 400
 )
 ;
