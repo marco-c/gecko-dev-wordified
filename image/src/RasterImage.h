@@ -316,9 +316,6 @@ class
 imgIDecoder
 ;
 class
-imgIContainerObserver
-;
-class
 nsIInputStream
 ;
 #

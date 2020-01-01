@@ -148,13 +148,6 @@ h
 #
 include
 "
-imgIContainerObserver
-.
-h
-"
-#
-include
-"
 nsIProperties
 .
 h

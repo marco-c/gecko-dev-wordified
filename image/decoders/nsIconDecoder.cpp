@@ -115,13 +115,6 @@ h
 #
 include
 "
-imgIContainerObserver
-.
-h
-"
-#
-include
-"
 nspr
 .
 h

@@ -382,13 +382,6 @@ h
 #
 include
 "
-imgIContainerObserver
-.
-h
-"
-#
-include
-"
 RasterImage
 .
 h

@@ -136,13 +136,6 @@ h
 #
 include
 "
-imgIContainerObserver
-.
-h
-"
-#
-include
-"
 gfxColor
 .
 h

@@ -116,7 +116,7 @@ h
 #
 include
 "
-imgIContainerObserver
+imgIDecoderObserver
 .
 h
 "
@@ -3920,7 +3920,7 @@ frameAdvanced
 {
 nsCOMPtr
 <
-imgIContainerObserver
+imgIDecoderObserver
 >
 observer
 (
@@ -10350,7 +10350,7 @@ animating
 before
 nsCOMPtr
 <
-imgIContainerObserver
+imgIDecoderObserver
 >
 observer
 (
@@ -19050,7 +19050,7 @@ done
 ;
 nsCOMPtr
 <
-imgIContainerObserver
+imgIDecoderObserver
 >
 observer
 (
