@@ -879,6 +879,11 @@ nsXPInstallManager
 (
 )
 {
+NS_ASSERT_OWNINGTHREAD
+(
+nsXPInstallManager
+)
+;
 NS_ASSERTION
 (
 !
@@ -952,11 +957,11 @@ nsISupports
 nsISupportsWeakReference
 )
 NS_INTERFACE_MAP_END
-NS_IMPL_ADDREF
+NS_IMPL_THREADSAFE_ADDREF
 (
 nsXPInstallManager
 )
-NS_IMPL_RELEASE
+NS_IMPL_THREADSAFE_RELEASE
 (
 nsXPInstallManager
 )
