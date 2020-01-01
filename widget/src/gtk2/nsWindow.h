@@ -2224,6 +2224,11 @@ gint
 aRootY
 )
 ;
+void
+ClearCachedResources
+(
+)
+;
 GtkWidget
 *
 mShell
