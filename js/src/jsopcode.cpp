@@ -33515,7 +33515,7 @@ do_fallback
 {
 jsbytecode
 *
-pc
+basepc
 =
 cx
 -
@@ -33668,7 +33668,7 @@ regs
 >
 pc
 =
-pc
+basepc
 ;
 fp
 -
