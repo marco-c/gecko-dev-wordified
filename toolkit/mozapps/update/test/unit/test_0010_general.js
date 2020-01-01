@@ -448,9 +448,7 @@ n
 var
 testFile
 =
-gCustomGreD
-.
-clone
+getCurrentProcessDir
 (
 )
 ;
