@@ -18517,7 +18517,7 @@ aCurrentBestFrame
 {
 UpdateGlyphPositioning
 (
-true
+false
 )
 ;
 nsPresContext
