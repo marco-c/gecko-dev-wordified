@@ -1349,7 +1349,7 @@ global
 code
 (
 see
-JSCompiler
+Compiler
 :
 :
 compileScript
