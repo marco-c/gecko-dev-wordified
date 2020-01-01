@@ -1162,10 +1162,12 @@ finalize
 ;
 dbConn
 .
-close
+asyncClose
+(
+function
 (
 )
-;
+{
 do_check_false
 (
 dbConn
@@ -1175,6 +1177,9 @@ connectionReady
 ;
 do_test_finished
 (
+)
+;
+}
 )
 ;
 }
