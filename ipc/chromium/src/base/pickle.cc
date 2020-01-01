@@ -197,7 +197,13 @@ char
 /
 Payload
 is
-uint32_t
+sizeof
+(
+Pickle
+:
+:
+memberAlignmentType
+)
 aligned
 .
 Pickle
@@ -273,7 +279,7 @@ DCHECK
 (
 static_cast
 <
-uint32_t
+memberAlignmentType
 >
 (
 header_size
@@ -2964,7 +2970,7 @@ length
 %
 sizeof
 (
-uint32_t
+memberAlignmentType
 )
 )
 memset
@@ -2975,7 +2981,7 @@ length
 0
 sizeof
 (
-uint32_t
+memberAlignmentType
 )
 -
 (
@@ -2983,7 +2989,7 @@ length
 %
 sizeof
 (
-uint32_t
+memberAlignmentType
 )
 )
 )
@@ -3344,7 +3350,7 @@ BeginWrite
 length
 sizeof
 (
-uint32_t
+memberAlignmentType
 )
 )
 ;
@@ -3623,7 +3629,7 @@ header_size
 =
 static_cast
 <
-uint32_t
+memberAlignmentType
 >
 (
 kPayloadUnit
