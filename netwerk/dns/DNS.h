@@ -1060,6 +1060,10 @@ PRAddrInfo
 prAddrInfo
 bool
 disableIPv4
+const
+char
+*
+cname
 )
 ;
 ~
@@ -1070,6 +1074,10 @@ AddrInfo
 char
 *
 mHostName
+;
+char
+*
+mCanonicalName
 ;
 LinkedList
 <
