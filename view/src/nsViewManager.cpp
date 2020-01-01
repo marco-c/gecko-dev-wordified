@@ -2578,7 +2578,7 @@ void
 nsViewManager
 :
 :
-ProcessPendingUpdates
+ProcessPendingUpdatesForView
 (
 nsView
 *
@@ -2673,7 +2673,7 @@ GetNextSibling
 )
 )
 {
-ProcessPendingUpdates
+ProcessPendingUpdatesForView
 (
 childView
 aDoInvalidate
@@ -5213,7 +5213,7 @@ mHasPendingUpdates
 rootVM
 -
 >
-ProcessPendingUpdates
+ProcessPendingUpdatesForView
 (
 mRootView
 false
@@ -9180,6 +9180,21 @@ void
 nsViewManager
 :
 :
+ProcessPendingUpdates
+(
+)
+{
+/
+/
+To
+be
+implemented
+.
+}
+void
+nsViewManager
+:
+:
 FlushPendingInvalidates
 (
 )
@@ -9226,7 +9241,7 @@ if
 mHasPendingUpdates
 )
 {
-ProcessPendingUpdates
+ProcessPendingUpdatesForView
 (
 mRootView
 true
