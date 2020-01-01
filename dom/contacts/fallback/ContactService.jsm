@@ -554,6 +554,12 @@ close
 (
 )
 ;
+this
+.
+_db
+=
+null
+;
 }
 receiveMessage
 :
