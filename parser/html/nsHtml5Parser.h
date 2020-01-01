@@ -669,9 +669,10 @@ aSink
 *
 *
 Returns
-|
-this
-|
+the
+tree
+op
+executor
 for
 backwards
 compat
@@ -685,7 +686,6 @@ nsIContentSink
 )
 GetContentSink
 (
-void
 )
 ;
 /
@@ -1303,7 +1303,6 @@ prematurely
 NS_IMETHOD
 Terminate
 (
-void
 )
 ;
 /
@@ -1455,7 +1454,6 @@ only
 NS_IMETHOD
 BuildModel
 (
-void
 )
 ;
 /

@@ -4125,6 +4125,10 @@ Flush
 (
 )
 {
+flushCharacters
+(
+)
+;
 FlushLoads
 (
 )
