@@ -840,6 +840,14 @@ zoomValues
 .
 sort
 (
+function
+(
+a
+b
+)
+a
+-
+b
 )
 ;
 while
