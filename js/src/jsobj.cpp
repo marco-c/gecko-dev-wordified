@@ -15181,6 +15181,10 @@ callDelProperty
 {
 Value
 dummy
+=
+UndefinedValue
+(
+)
 ;
 if
 (
