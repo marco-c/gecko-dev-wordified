@@ -1100,7 +1100,7 @@ IME
 txn
 is
 already
-commited
+committed
 and
 will
 /
