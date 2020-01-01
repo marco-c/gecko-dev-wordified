@@ -1105,6 +1105,10 @@ a
 ok
 with
 us
+UNSAFE_OP
+(
+PostWriteBarrier
+)
 SAFE_OP
 (
 GetPropertyCache
