@@ -470,7 +470,7 @@ createStatement
 SELECT
 visit_type
 FROM
-moz_historyvisits_view
+moz_historyvisits
 WHERE
 place_id
 =
@@ -481,7 +481,7 @@ place_id
 SELECT
 id
 FROM
-moz_places_view
+moz_places
 WHERE
 url
 =
