@@ -18538,10 +18538,7 @@ JS_BEGIN_MACRO
 \
 if
 (
-TRACING_ENABLED
-(
-cx
-)
+ENABLE_TRACER
 &
 &
 \
@@ -18591,10 +18588,7 @@ JS_BEGIN_MACRO
 \
 if
 (
-TRACING_ENABLED
-(
-cx
-)
+ENABLE_TRACER
 &
 &
 \
@@ -18618,9 +18612,9 @@ cx
 recorder
 -
 >
-entryState
-.
-pc
+entryPC
+(
+)
 =
 =
 (
