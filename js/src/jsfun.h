@@ -1658,6 +1658,10 @@ JSClass
 )
 js_CallClass
 ;
+extern
+JSClass
+js_DeclEnvClass
+;
 /
 *
 JS_FRIEND_DATA
