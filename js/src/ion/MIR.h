@@ -24348,7 +24348,7 @@ viewType
 )
 =
 =
-TypedArrayObject
+ArrayBufferView
 :
 :
 TYPE_FLOAT32
@@ -24359,7 +24359,7 @@ viewType
 )
 =
 =
-TypedArrayObject
+ArrayBufferView
 :
 :
 TYPE_FLOAT64
