@@ -1286,6 +1286,9 @@ def
 )
 )
 ;
+return
+true
+;
 }
 typedef
 MoveResolver
