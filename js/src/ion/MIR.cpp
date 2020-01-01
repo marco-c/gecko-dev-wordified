@@ -1480,6 +1480,10 @@ value_
 (
 vp
 )
+constantPoolIndex_
+(
+0
+)
 {
 setResultType
 (

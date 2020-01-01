@@ -984,6 +984,12 @@ generateOutOfLineCode
 (
 )
 ;
+void
+linkAbsoluteLabels
+(
+)
+{
+}
 public
 :
 CodeGeneratorShared
