@@ -1641,6 +1641,12 @@ iProp
 =
 =
 eCSSProperty_border_left_color
+|
+|
+iProp
+=
+=
+eCSSProperty_outline_color
 )
 {
 if
