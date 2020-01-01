@@ -2146,6 +2146,7 @@ NULL
 |
 |
 (
+(
 NSBIDI_MAX_EXPLICIT_LEVEL
 <
 aParaLevel
@@ -2156,6 +2157,7 @@ aParaLevel
 IS_DEFAULT_LEVEL
 (
 aParaLevel
+)
 )
 |
 |
@@ -5575,6 +5577,7 @@ aFlags
 MASK_RTL
 |
 |
+(
 aFlags
 &
 DIRPROP_FLAG
@@ -5586,6 +5589,7 @@ AN
 aFlags
 &
 MASK_POSSIBLE_N
+)
 )
 )
 {
@@ -6552,6 +6556,7 @@ is
 AN
 *
 /
+(
 nextDirProp
 =
 =
@@ -6562,6 +6567,7 @@ lastStrong
 =
 =
 AL
+)
 )
 /
 *
@@ -6695,6 +6701,7 @@ W5
 )
 *
 /
+(
 nextDirProp
 =
 =
@@ -6705,6 +6712,7 @@ lastStrong
 !
 =
 AL
+)
 /
 *
 next
@@ -10336,6 +10344,7 @@ aRunIndex
 0
 |
 |
+(
 mRunCount
 =
 =
@@ -10346,6 +10355,7 @@ mRunCount
 !
 GetRuns
 (
+)
 )
 |
 |

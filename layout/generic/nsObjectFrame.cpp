@@ -5771,6 +5771,7 @@ IsEmpty
 )
 |
 |
+(
 !
 hidden
 .
@@ -5801,6 +5802,7 @@ LowerCaseEqualsLiteral
 "
 off
 "
+)
 )
 )
 )

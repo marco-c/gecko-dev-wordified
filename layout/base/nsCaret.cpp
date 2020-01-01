@@ -5980,6 +5980,7 @@ rule
 c1
 |
 |
+(
 aBidiLevel
 >
 levelBefore
@@ -5999,6 +6000,7 @@ levelBefore
 )
 &
 1
+)
 )
 /
 /
@@ -6006,6 +6008,7 @@ rule
 c5
 |
 |
+(
 aBidiLevel
 <
 levelBefore
@@ -6025,6 +6028,7 @@ levelBefore
 )
 &
 1
+)
 )
 )
 /
@@ -6225,6 +6229,7 @@ rule
 c2
 |
 |
+(
 aBidiLevel
 >
 levelBefore
@@ -6244,6 +6249,7 @@ levelAfter
 )
 &
 1
+)
 )
 /
 /
@@ -6251,6 +6257,7 @@ rule
 c6
 |
 |
+(
 aBidiLevel
 <
 levelBefore
@@ -6270,6 +6277,7 @@ levelAfter
 )
 &
 1
+)
 )
 )
 /

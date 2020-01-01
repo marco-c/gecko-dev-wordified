@@ -9332,6 +9332,7 @@ map
 ;
 if
 (
+(
 aEvent
 -
 >
@@ -9341,7 +9342,6 @@ eventStructType
 NS_MOUSE_EVENT
 &
 &
-(
 aEvent
 -
 >

@@ -1842,6 +1842,7 @@ return
 mPrincipal
 |
 |
+(
 NS_SUCCEEDED
 (
 mPrincipal
@@ -1860,6 +1861,7 @@ eq
 &
 &
 eq
+)
 ;
 }
 static

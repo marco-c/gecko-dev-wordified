@@ -4552,6 +4552,7 @@ always
 )
 |
 |
+(
 !
 aRequireAlways
 &
@@ -4563,6 +4564,7 @@ EqualsLiteral
 "
 pref
 "
+)
 )
 ;
 }

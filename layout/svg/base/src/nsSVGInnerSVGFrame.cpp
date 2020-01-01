@@ -1491,6 +1491,7 @@ TRANSFORM_CHANGED
 )
 &
 &
+(
 svg
 -
 >
@@ -1567,6 +1568,7 @@ HEIGHT
 .
 IsPercentage
 (
+)
 )
 )
 )
