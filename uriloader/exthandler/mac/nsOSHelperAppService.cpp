@@ -452,7 +452,7 @@ h
 #
 include
 "
-nsAutoBuffer
+nsTArray
 .
 h
 "
@@ -1038,7 +1038,7 @@ if
 bundleName
 )
 {
-nsAutoBuffer
+nsAutoTArray
 <
 UniChar
 255
@@ -1057,7 +1057,7 @@ bundleName
 ;
 buffer
 .
-EnsureElemCapacity
+SetLength
 (
 bundleNameLength
 )
@@ -1074,7 +1074,7 @@ bundleNameLength
 )
 buffer
 .
-get
+Elements
 (
 )
 )
@@ -1085,7 +1085,7 @@ Assign
 (
 buffer
 .
-get
+Elements
 (
 )
 bundleNameLength

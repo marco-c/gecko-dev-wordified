@@ -547,7 +547,7 @@ PR_Rename
 #
 include
 "
-nsAutoBuffer
+nsTArray
 .
 h
 "
@@ -9799,7 +9799,7 @@ length
 ;
 else
 {
-nsAutoBuffer
+nsAutoTArray
 <
 UniChar
 512
@@ -9810,7 +9810,7 @@ if
 (
 buffer
 .
-EnsureElemCapacity
+SetLength
 (
 length
 )
@@ -9826,7 +9826,7 @@ length
 )
 buffer
 .
-get
+Elements
 (
 )
 )
@@ -9837,7 +9837,7 @@ Assign
 (
 buffer
 .
-get
+Elements
 (
 )
 length

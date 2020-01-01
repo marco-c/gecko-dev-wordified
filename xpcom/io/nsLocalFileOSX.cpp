@@ -573,7 +573,7 @@ h
 #
 include
 "
-nsAutoBuffer
+nsTArray
 .
 h
 "
@@ -3107,7 +3107,7 @@ leafStrRef
 =
 nsnull
 ;
-nsAutoBuffer
+nsAutoTArray
 <
 UniChar
 FILENAME_BUFFER_SIZE
@@ -3205,7 +3205,7 @@ if
 !
 buffer
 .
-EnsureElemCapacity
+SetLength
 (
 leafLen
 +
@@ -3226,16 +3226,12 @@ leafLen
 )
 buffer
 .
-get
+Elements
 (
 )
 )
 ;
 buffer
-.
-get
-(
-)
 [
 leafLen
 ]
@@ -3255,7 +3251,7 @@ nsDependentString
 (
 buffer
 .
-get
+Elements
 (
 )
 )
@@ -14500,7 +14496,7 @@ length
 ;
 else
 {
-nsAutoBuffer
+nsAutoTArray
 <
 UniChar
 FILENAME_BUFFER_SIZE
@@ -14512,7 +14508,7 @@ if
 !
 buffer
 .
-EnsureElemCapacity
+SetLength
 (
 length
 )
@@ -14535,7 +14531,7 @@ length
 )
 buffer
 .
-get
+Elements
 (
 )
 )
@@ -14546,7 +14542,7 @@ Assign
 (
 buffer
 .
-get
+Elements
 (
 )
 length

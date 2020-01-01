@@ -638,7 +638,7 @@ h
 #
 include
 "
-nsAutoBuffer
+nsTArray
 .
 h
 "
@@ -2068,7 +2068,7 @@ if
 value
 )
 {
-nsAutoBuffer
+nsAutoTArray
 <
 UniChar
 1024
@@ -2087,7 +2087,7 @@ value
 ;
 buffer
 .
-EnsureElemCapacity
+SetLength
 (
 valueLength
 )
@@ -2104,7 +2104,7 @@ valueLength
 )
 buffer
 .
-get
+Elements
 (
 )
 )
@@ -2115,7 +2115,7 @@ Assign
 (
 buffer
 .
-get
+Elements
 (
 )
 valueLength
@@ -2162,7 +2162,7 @@ if
 value
 )
 {
-nsAutoBuffer
+nsAutoTArray
 <
 char
 1024
@@ -2181,7 +2181,7 @@ value
 ;
 buffer
 .
-EnsureElemCapacity
+SetLength
 (
 valueLength
 +
@@ -2197,7 +2197,7 @@ CFStringGetCString
 value
 buffer
 .
-get
+Elements
 (
 )
 valueLength
@@ -2211,7 +2211,7 @@ aResult
 =
 buffer
 .
-get
+Elements
 (
 )
 ;
@@ -2255,7 +2255,7 @@ if
 value
 )
 {
-nsAutoBuffer
+nsAutoTArray
 <
 UniChar
 1024
@@ -2274,7 +2274,7 @@ value
 ;
 buffer
 .
-EnsureElemCapacity
+SetLength
 (
 valueLength
 )
@@ -2291,7 +2291,7 @@ valueLength
 )
 buffer
 .
-get
+Elements
 (
 )
 )
@@ -2302,7 +2302,7 @@ Assign
 (
 buffer
 .
-get
+Elements
 (
 )
 valueLength

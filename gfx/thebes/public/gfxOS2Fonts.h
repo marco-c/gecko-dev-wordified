@@ -488,13 +488,6 @@ h
 #
 include
 "
-nsAutoBuffer
-.
-h
-"
-#
-include
-"
 nsICharsetConverterManager
 .
 h

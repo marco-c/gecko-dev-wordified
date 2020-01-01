@@ -488,7 +488,7 @@ h
 #
 include
 "
-nsAutoBuffer
+nsTArray
 .
 h
 "
@@ -1582,7 +1582,7 @@ CFRetain
 userLocaleStr
 )
 ;
-nsAutoBuffer
+nsAutoTArray
 <
 UniChar
 32
@@ -1603,7 +1603,7 @@ if
 (
 buffer
 .
-EnsureElemCapacity
+SetLength
 (
 size
 )
@@ -1628,16 +1628,12 @@ userLocaleStr
 range
 buffer
 .
-get
+Elements
 (
 )
 )
 ;
 buffer
-.
-get
-(
-)
 [
 size
 ]
@@ -1661,7 +1657,7 @@ xpLocale
 (
 buffer
 .
-get
+Elements
 (
 )
 )

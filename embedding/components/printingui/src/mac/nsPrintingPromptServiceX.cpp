@@ -533,7 +533,7 @@ h
 #
 include
 "
-nsAutoBuffer
+nsTArray
 .
 h
 "
@@ -883,7 +883,7 @@ status
 noErr
 )
 {
-nsAutoBuffer
+nsAutoTArray
 <
 UInt8
 512
@@ -894,7 +894,7 @@ if
 (
 dataBuffer
 .
-EnsureElemCapacity
+SetLength
 (
 bytesNeeded
 )
@@ -912,7 +912,7 @@ kAppPrintDialogAppOnlyKey
 bytesNeeded
 dataBuffer
 .
-get
+Elements
 (
 )
 )
@@ -935,7 +935,7 @@ CFDataCreate
 kCFAllocatorDefault
 dataBuffer
 .
-get
+Elements
 (
 )
 bytesNeeded
@@ -1047,7 +1047,7 @@ CFStringRef
 dictValue
 )
 ;
-nsAutoBuffer
+nsAutoTArray
 <
 UniChar
 256
@@ -1058,7 +1058,7 @@ if
 (
 stringBuffer
 .
-EnsureElemCapacity
+SetLength
 (
 stringLen
 +
@@ -1081,7 +1081,7 @@ stringLen
 )
 stringBuffer
 .
-get
+Elements
 (
 )
 )
@@ -1092,7 +1092,7 @@ Assign
 (
 stringBuffer
 .
-get
+Elements
 (
 )
 stringLen
