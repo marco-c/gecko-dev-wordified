@@ -1623,6 +1623,8 @@ cb
 )
 const
 {
+/
+*
 if
 (
 mIsCompiled
@@ -1640,6 +1642,8 @@ mJSMethodObject
 )
 ;
 }
+*
+/
 }
 nsresult
 nsXBLProtoImplAnonymousMethod
