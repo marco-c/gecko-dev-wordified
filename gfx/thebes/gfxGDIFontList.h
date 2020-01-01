@@ -1264,7 +1264,7 @@ case
 FF_DONTCARE
 :
 return
-PR_TRUE
+PR_FALSE
 ;
 case
 FF_ROMAN
