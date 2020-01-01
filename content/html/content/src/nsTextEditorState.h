@@ -1480,7 +1480,7 @@ GetRows
 placeholder
 methods
 void
-SetPlaceholderClass
+SetPlaceholderVisibility
 (
 bool
 aVisible
@@ -1488,6 +1488,15 @@ bool
 aNotify
 )
 ;
+bool
+GetPlaceholderVisibility
+(
+)
+{
+return
+mPlaceholderVisibility
+;
+}
 void
 UpdatePlaceholderText
 (
@@ -1992,6 +2001,9 @@ selection
 restore
 SelectionProperties
 mSelectionProperties
+;
+bool
+mPlaceholderVisibility
 ;
 }
 ;
