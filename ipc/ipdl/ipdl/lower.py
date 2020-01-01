@@ -384,6 +384,9 @@ cxx
 ast
 as
 cxx
+EMIT_LOGGING_CODE
+=
+False
 def
 _joinProtocolNamespacesName
 (
@@ -3520,7 +3523,11 @@ disabled
 (
 again
 )
-#
+            
+if
+EMIT_LOGGING_CODE
+:
+                
 errif
 .
 addifstmt
@@ -3533,7 +3540,7 @@ cxx
 .
 ExprCall
 (
-#
+                            
 cxx
 .
 ExprVar
@@ -3545,7 +3552,7 @@ IPC
 LogParam
 '
 )
-#
+                            
 [
 cxx
 .
@@ -3555,7 +3562,7 @@ oparam
 .
 name
 )
-#
+                              
 cxx
 .
 ExprAddrOf
@@ -3566,7 +3573,7 @@ paramvar
 )
 )
 )
-#
+                
 errif
 .
 addifstmt
@@ -3579,7 +3586,7 @@ cxx
 .
 ExprCall
 (
-#
+                            
 cxx
 .
 ExprSelect
@@ -3592,7 +3599,7 @@ msgvar
 append
 '
 )
-#
+                            
 [
 cxx
 .
@@ -3606,7 +3613,7 @@ ExprVar
 WideToUTF8
 '
 )
-#
+                                           
 [
 paramvar
 ]
@@ -3615,7 +3622,7 @@ paramvar
 )
 )
 )
-#
+                
 errif
 .
 addifstmt
@@ -3628,7 +3635,7 @@ cxx
 .
 ExprCall
 (
-#
+                            
 cxx
 .
 ExprSelect
@@ -3641,7 +3648,7 @@ msgvar
 append
 '
 )
-#
+                            
 [
 cxx
 .
@@ -3656,7 +3663,7 @@ String
 )
 )
 )
-#
+                
 errif
 .
 addifstmt
@@ -3669,7 +3676,7 @@ cxx
 .
 ExprCall
 (
-#
+                            
 cxx
 .
 ExprSelect
@@ -3686,6 +3693,9 @@ clear
 )
 )
             
+else
+:
+                
 errif
 .
 addifstmt
@@ -3698,7 +3708,7 @@ cxx
 .
 ExprCall
 (
-                        
+                            
 cxx
 .
 ExprSelect
@@ -3711,7 +3721,7 @@ msgvar
 append
 '
 )
-                        
+                            
 [
 cxx
 .
