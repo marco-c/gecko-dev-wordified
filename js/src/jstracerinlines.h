@@ -1123,7 +1123,6 @@ guard_h
 false
 &
 i
-regs
 )
 ;
 return
@@ -1489,7 +1488,6 @@ guard_0
 ok
 &
 v
-regs
 )
 ;
 }
@@ -1770,7 +1768,6 @@ guard_0
 ok
 &
 obj
-regs
 )
 ;
 return
@@ -2580,7 +2577,6 @@ guard_0
 ok
 &
 cond
-regs
 )
 ;
 return
@@ -3401,7 +3397,6 @@ incr
 2
 &
 r
-regs
 )
 ;
 }
@@ -3588,7 +3583,6 @@ int
 js_XMLObjectOps
 .
 base
-regs
 )
 ;
 return

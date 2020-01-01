@@ -16018,7 +16018,7 @@ vp
 )
 ;
 return
-true
+false
 ;
 }
 inline
@@ -43547,7 +43547,6 @@ endif
 js_EndRecording
 (
 cx
-regs
 )
 ;
 SAVE_STATE
@@ -45000,7 +44999,6 @@ if
 js_StartRecording
 (
 cx
-regs
 )
 )
 {
