@@ -127,7 +127,7 @@ h
 #
 include
 "
-nsAString
+nsStringFwd
 .
 h
 "
@@ -142,6 +142,9 @@ nsIRequest
 ;
 class
 nsISelection
+;
+class
+nsISupports
 ;
 class
 nsIWebProgress

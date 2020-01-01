@@ -146,6 +146,13 @@ States
 h
 "
 #
+include
+"
+nsIScrollableFrame
+.
+h
+"
+#
 ifdef
 A11Y_LOG
 #
