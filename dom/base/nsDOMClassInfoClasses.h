@@ -2218,3 +2218,7 @@ DOMCI_CLASS
 (
 DOMError
 )
+DOMCI_CLASS
+(
+DOMRequest
+)
