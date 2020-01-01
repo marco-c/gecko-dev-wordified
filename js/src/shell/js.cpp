@@ -10354,9 +10354,9 @@ file
 cx
 -
 >
-tracePrevOp
+tracePrevPc
 =
-JSOP_LIMIT
+NULL
 ;
 return
 JS_TRUE
