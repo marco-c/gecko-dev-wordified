@@ -4853,6 +4853,14 @@ i
 ]
 )
 ;
+if
+(
+newPref
+!
+=
+aPrefix
+)
+{
 aNoiseEntries
 -
 >
@@ -4861,6 +4869,7 @@ AppendElement
 newPref
 )
 ;
+}
 }
 return
 NS_OK
