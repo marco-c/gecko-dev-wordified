@@ -482,7 +482,6 @@ i
 actor
 )
 ;
-}
 gThreadClient
 .
 resume
@@ -499,6 +498,7 @@ gClient
 }
 )
 ;
+}
 }
 )
 ;
