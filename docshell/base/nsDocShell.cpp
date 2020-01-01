@@ -68635,6 +68635,11 @@ to
 disable
 js
 .
+*
+aResult
+=
+PR_FALSE
+;
 return
 NS_OK
 ;
