@@ -490,13 +490,6 @@ h
 #
 include
 "
-nsCompressedCharMap
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h
