@@ -478,10 +478,8 @@ h
 /
 *
 PostScript
-/
-Xprint
 print
-modules
+module
 do
 not
 support
@@ -517,9 +515,7 @@ global
 vars
 in
 PostScript
-and
-Xprint
-modules
+module
 )
 will
 fix

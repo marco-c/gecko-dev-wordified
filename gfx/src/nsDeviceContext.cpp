@@ -3178,8 +3178,6 @@ rv
 /
 *
 PostScript
-and
-Xprint
 module
 may
 override
