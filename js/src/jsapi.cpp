@@ -18150,11 +18150,9 @@ attrs
 0
 )
 )
-{
 return
 NULL
 ;
-}
 return
 nobj
 ;
