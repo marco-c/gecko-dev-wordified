@@ -6146,11 +6146,13 @@ mX
 .
 getEdgeResistance
 (
+true
 )
 mY
 .
 getEdgeResistance
 (
+true
 )
 )
 ;
