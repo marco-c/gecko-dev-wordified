@@ -482,6 +482,8 @@ const
 gfxIntSize
 &
 size
+gfxContentType
+content
 )
 ;
 gfxQPainterSurface

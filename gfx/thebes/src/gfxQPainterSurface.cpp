@@ -529,6 +529,8 @@ const
 gfxIntSize
 &
 size
+gfxContentType
+content
 )
 {
 cairo_surface_t
@@ -537,6 +539,10 @@ csurf
 =
 cairo_qpainter_surface_create_with_qpixmap
 (
+(
+cairo_content_t
+)
+content
 size
 .
 width
