@@ -5147,9 +5147,11 @@ mParser
 {
 rv
 =
-CallQueryInterface
-(
 mParser
+-
+>
+GetStreamListener
+(
 aDocListener
 )
 ;

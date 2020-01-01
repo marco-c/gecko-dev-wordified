@@ -357,8 +357,15 @@ nsHtml5ByteReadable
 .
 h
 "
+#
+include
+"
+nsIUnicodeDecoder
+.
+h
+"
 class
-nsHtml5Parser
+nsHtml5StreamParser
 ;
 class
 nsHtml5TreeBuilder
@@ -529,7 +536,7 @@ nsHtml5TreeBuilder
 *
 tokenHandler
 ;
-nsHtml5Parser
+nsHtml5StreamParser
 *
 encodingDeclarationHandler
 ;
@@ -1312,7 +1319,7 @@ isInDataState
 void
 setEncodingDeclarationHandler
 (
-nsHtml5Parser
+nsHtml5StreamParser
 *
 encodingDeclarationHandler
 )

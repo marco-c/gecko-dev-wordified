@@ -327,8 +327,15 @@ nsHtml5ByteReadable
 .
 h
 "
+#
+include
+"
+nsIUnicodeDecoder
+.
+h
+"
 class
-nsHtml5Parser
+nsHtml5StreamParser
 ;
 class
 nsHtml5Tokenizer

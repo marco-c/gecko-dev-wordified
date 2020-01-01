@@ -718,6 +718,12 @@ nsHtml5StateSnapshot
 "
 nsHtml5StackNode
 "
+"
+nsHtml5TreeOpExecutor
+"
+"
+nsHtml5StreamParser
+"
 }
 ;
 private
@@ -768,6 +774,9 @@ nsHtml5Atoms
 "
 nsHtml5ByteReadable
 "
+"
+nsIUnicodeDecoder
+"
 }
 ;
 private
@@ -790,13 +799,6 @@ String
 TREE_BUILDER_OTHER_DECLATIONS
 =
 {
-"
-typedef
-nsIContent
-*
-nsIContentPtr
-;
-"
 }
 ;
 private
@@ -829,7 +831,7 @@ FORWARD_DECLARATIONS
 =
 {
 "
-nsHtml5Parser
+nsHtml5StreamParser
 "
 }
 ;
@@ -1125,7 +1127,7 @@ encodingDeclarationHandlerType
 {
 return
 "
-nsHtml5Parser
+nsHtml5StreamParser
 *
 "
 ;
@@ -1559,7 +1561,7 @@ documentModeHandlerType
 {
 return
 "
-nsHtml5Parser
+nsHtml5TreeBuilder
 *
 "
 ;

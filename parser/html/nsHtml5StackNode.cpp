@@ -335,6 +335,13 @@ h
 #
 include
 "
+nsIUnicodeDecoder
+.
+h
+"
+#
+include
+"
 nsHtml5Tokenizer
 .
 h
