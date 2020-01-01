@@ -2896,11 +2896,9 @@ zone_
 )
 {
 return
-zone_
-=
-=
-zone
+tenuredIsInsideZone
 (
+zone_
 )
 ;
 }
