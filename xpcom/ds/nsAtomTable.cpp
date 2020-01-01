@@ -3355,7 +3355,7 @@ compatible
 }
 ;
 nsresult
-NS_RegisterStaticAtoms
+RegisterStaticAtoms
 (
 const
 nsStaticAtom

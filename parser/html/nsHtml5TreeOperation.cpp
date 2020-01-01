@@ -5134,7 +5134,6 @@ nsContentUtils
 eHTMLPARSER_PROPERTIES
 msgId
 params
-2
 message
 )
 ;
@@ -5180,7 +5179,6 @@ nsContentUtils
 eHTMLPARSER_PROPERTIES
 msgId
 params
-1
 message
 )
 ;

@@ -601,10 +601,6 @@ AddRefAtoms
 NS_RegisterStaticAtoms
 (
 Html5Atoms_info
-ArrayLength
-(
-Html5Atoms_info
-)
 )
 ;
 }

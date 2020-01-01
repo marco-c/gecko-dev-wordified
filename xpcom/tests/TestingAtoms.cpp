@@ -557,13 +557,6 @@ AddRefAtoms
 NS_RegisterStaticAtoms
 (
 TestingAtoms_info
-mozilla
-:
-:
-ArrayLength
-(
-TestingAtoms_info
-)
 )
 ;
 }

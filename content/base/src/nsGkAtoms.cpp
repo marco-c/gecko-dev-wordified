@@ -598,10 +598,6 @@ AddRefAtoms
 NS_RegisterStaticAtoms
 (
 GkAtoms_info
-ArrayLength
-(
-GkAtoms_info
-)
 )
 ;
 }

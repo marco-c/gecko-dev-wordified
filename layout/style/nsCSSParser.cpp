@@ -4872,10 +4872,6 @@ ReportUnexpectedParams
 #
 msg_
 params_
-ArrayLength
-(
-params_
-)
 )
 #
 define

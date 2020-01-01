@@ -2358,10 +2358,6 @@ gRDFContainerUtils
 NS_RegisterStaticAtoms
 (
 rdf_atoms
-ArrayLength
-(
-rdf_atoms
-)
 )
 ;
 }

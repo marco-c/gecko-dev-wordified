@@ -797,10 +797,6 @@ EDITOR_ATOM
 NS_RegisterStaticAtoms
 (
 property_atoms
-ArrayLength
-(
-property_atoms
-)
 )
 ;
 }
