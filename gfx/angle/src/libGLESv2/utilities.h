@@ -225,7 +225,7 @@ target
 )
 ;
 bool
-IsTextureTarget
+IsInternalTextureTarget
 (
 GLenum
 target

@@ -140,7 +140,7 @@ perfActive
 char
 message
 [
-4096
+32768
 ]
 ;
 int
@@ -178,7 +178,7 @@ functions
 wchar_t
 wideMessage
 [
-4096
+32768
 ]
 ;
 for
