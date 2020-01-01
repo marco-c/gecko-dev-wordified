@@ -1782,6 +1782,11 @@ LIns
 idx_ins
 )
 ;
+bool
+leaveFrame
+(
+)
+;
 public
 :
 TraceRecorder
