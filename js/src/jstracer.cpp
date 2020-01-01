@@ -66559,7 +66559,7 @@ vshape
 guard_protoHazardShape
 "
 )
-MISMATCH_EXIT
+BRANCH_EXIT
 )
 ;
 }
