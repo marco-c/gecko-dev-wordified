@@ -164,6 +164,16 @@ dy
 ;
 public
 void
+onSubdocumentScrollBy
+(
+float
+dx
+float
+dy
+)
+;
+public
+void
 panZoomStopped
 (
 )
