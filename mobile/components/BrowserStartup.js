@@ -933,7 +933,7 @@ modules
 /
 PlacesUtils
 .
-js
+jsm
 "
 )
 ;
