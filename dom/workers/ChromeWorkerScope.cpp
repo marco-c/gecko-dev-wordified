@@ -279,10 +279,9 @@ CTypesLazyGetter
 JSContext
 *
 aCx
-JSObject
-*
+JSHandleObject
 aObj
-jsid
+JSHandleId
 aId
 jsval
 *

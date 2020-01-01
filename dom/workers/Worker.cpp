@@ -1089,10 +1089,9 @@ GetEventListener
 JSContext
 *
 aCx
-JSObject
-*
+JSHandleObject
 aObj
-jsid
+JSHandleId
 aIdval
 jsval
 *
@@ -1233,10 +1232,9 @@ SetEventListener
 JSContext
 *
 aCx
-JSObject
-*
+JSHandleObject
 aObj
-jsid
+JSHandleId
 aIdval
 JSBool
 aStrict

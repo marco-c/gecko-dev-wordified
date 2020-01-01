@@ -943,10 +943,9 @@ GetProperty
 JSContext
 *
 aCx
-JSObject
-*
+JSHandleObject
 aObj
-jsid
+JSHandleId
 aIdval
 jsval
 *

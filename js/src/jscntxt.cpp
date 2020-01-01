@@ -6381,9 +6381,11 @@ resetCompartment
 (
 )
 {
-JSObject
-*
+RootedVarObject
 scopeobj
+(
+this
+)
 ;
 if
 (
@@ -6451,7 +6453,9 @@ embedding
 )
 *
 /
-OBJ_TO_INNER_OBJECT
+scopeobj
+=
+GetInnerObject
 (
 this
 scopeobj
