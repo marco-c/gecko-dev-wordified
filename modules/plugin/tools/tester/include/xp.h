@@ -578,7 +578,7 @@ h
 #
 include
 "
-npupp
+npfunctions
 .
 h
 "
@@ -789,7 +789,7 @@ h
 #
 include
 "
-npupp
+npfunctions
 .
 h
 "
@@ -1021,7 +1021,7 @@ h
 #
 include
 "
-npupp
+npfunctions
 .
 h
 "
@@ -1285,7 +1285,7 @@ Mode
 procInfos
 defined
 in
-npupp
+npfunctions
 .
 h
 assume
@@ -1398,7 +1398,7 @@ endif
 #
 include
 "
-npupp
+npfunctions
 .
 h
 "

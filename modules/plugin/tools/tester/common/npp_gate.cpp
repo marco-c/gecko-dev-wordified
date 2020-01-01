@@ -569,9 +569,9 @@ NPMIMEType
 pluginType
 NPP
 instance
-uint16
+uint16_t
 mode
-int16
+int16_t
 argc
 char
 *
@@ -1368,7 +1368,7 @@ NPStream
 stream
 NPBool
 seekable
-uint16
+uint16_t
 *
 stype
 )
@@ -1498,7 +1498,7 @@ return
 ret
 ;
 }
-int32
+int32_t
 NPP_WriteReady
 (
 NPP
@@ -1521,7 +1521,7 @@ pPlugin
 =
 NULL
 ;
-int32
+int32_t
 ret
 =
 0x0FFFFFFF
@@ -1586,7 +1586,7 @@ return
 ret
 ;
 }
-int32
+int32_t
 NPP_Write
 (
 NPP
@@ -1594,9 +1594,9 @@ instance
 NPStream
 *
 stream
-int32
+int32_t
 offset
-int32
+int32_t
 len
 void
 *
@@ -1616,7 +1616,7 @@ pPlugin
 =
 NULL
 ;
-int32
+int32_t
 ret
 =
 len
@@ -2355,7 +2355,7 @@ return
 ret
 ;
 }
-int16
+int16_t
 NPP_HandleEvent
 (
 NPP
@@ -2378,11 +2378,11 @@ pPlugin
 =
 NULL
 ;
-int16
+int16_t
 ret
 =
 (
-int16
+int16_t
 )
 TRUE
 ;
@@ -2580,9 +2580,9 @@ NPMIMEType
 pluginType
 NPP
 instance
-uint16
+uint16_t
 mode
-int16
+int16_t
 argc
 char
 *
@@ -2700,7 +2700,7 @@ NPStream
 stream
 NPBool
 seekable
-uint16
+uint16_t
 *
 stype
 )
@@ -2729,7 +2729,7 @@ return
 rv
 ;
 }
-int32
+int32_t
 Private_WriteReady
 (
 NPP
@@ -2743,7 +2743,7 @@ EnterCodeResource
 (
 )
 ;
-int32
+int32_t
 rv
 =
 NPP_WriteReady
@@ -2760,7 +2760,7 @@ return
 rv
 ;
 }
-int32
+int32_t
 Private_Write
 (
 NPP
@@ -2768,9 +2768,9 @@ instance
 NPStream
 *
 stream
-int32
+int32_t
 offset
-int32
+int32_t
 len
 void
 *
@@ -2781,7 +2781,7 @@ EnterCodeResource
 (
 )
 ;
-int32
+int32_t
 rv
 =
 NPP_Write
@@ -2865,7 +2865,7 @@ return
 rv
 ;
 }
-int16
+int16_t
 Private_HandleEvent
 (
 NPP
@@ -2879,7 +2879,7 @@ EnterCodeResource
 (
 )
 ;
-int16
+int16_t
 rv
 =
 NPP_HandleEvent
