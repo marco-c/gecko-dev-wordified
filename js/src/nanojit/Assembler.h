@@ -2151,6 +2151,11 @@ AvmCore
 *
 )
 ;
+void
+nBeginAssembly
+(
+)
+;
 Register
 nRegisterAllocFromSet
 (
