@@ -886,6 +886,13 @@ GetScrollbarStyles
 )
 const
 ;
+virtual
+PRBool
+ShouldPropagateComputedHeightToScrolledContent
+(
+)
+const
+;
 /
 /
 for
