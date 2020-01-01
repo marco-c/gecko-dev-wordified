@@ -1099,6 +1099,9 @@ LTestVAndBranch
 (
 ifTrue
 ifFalse
+tempFloat
+(
+)
 )
 ;
 if
@@ -1107,7 +1110,10 @@ if
 useBox
 (
 lir
-0
+LTestVAndBranch
+:
+:
+Input
 opd
 )
 )

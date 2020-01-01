@@ -554,6 +554,15 @@ LInt32ToDouble
 lir
 )
 ;
+virtual
+bool
+visitTestVAndBranch
+(
+LTestVAndBranch
+*
+lir
+)
+;
 }
 ;
 }
