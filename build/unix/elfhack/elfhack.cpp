@@ -5400,11 +5400,7 @@ binary
 )
 ;
 Elf
-*
 elf
-=
-new
-Elf
 (
 file
 )
@@ -5414,8 +5410,7 @@ int
 size
 =
 elf
--
->
+.
 getSize
 (
 )
@@ -5434,8 +5429,7 @@ name
 if
 (
 elf
--
->
+.
 getType
 (
 )
@@ -5459,9 +5453,6 @@ n
 "
 )
 ;
-delete
-elf
-;
 return
 ;
 }
@@ -5472,8 +5463,7 @@ ElfSection
 section
 =
 elf
--
->
+.
 getSection
 (
 1
@@ -5539,9 +5529,6 @@ n
 "
 )
 ;
-delete
-elf
-;
 return
 ;
 }
@@ -5555,8 +5542,7 @@ exit
 switch
 (
 elf
--
->
+.
 getMachine
 (
 )
@@ -5572,6 +5558,7 @@ do_relocation_section
 Elf_Rel
 >
 (
+&
 elf
 R_386_RELATIVE
 R_386_32
@@ -5590,6 +5577,7 @@ do_relocation_section
 Elf_Rela
 >
 (
+&
 elf
 R_X86_64_RELATIVE
 R_X86_64_64
@@ -5608,6 +5596,7 @@ do_relocation_section
 Elf_Rel
 >
 (
+&
 elf
 R_ARM_RELATIVE
 R_ARM_ABS32
@@ -5633,8 +5622,7 @@ force
 &
 (
 elf
--
->
+.
 getSize
 (
 )
@@ -5724,8 +5712,7 @@ trunc
 )
 ;
 elf
--
->
+.
 write
 (
 ofile
@@ -5746,8 +5733,7 @@ n
 size
 -
 elf
--
->
+.
 getSize
 (
 )
@@ -5755,9 +5741,6 @@ getSize
 ;
 }
 }
-delete
-elf
-;
 }
 int
 main
