@@ -1083,6 +1083,7 @@ just
 fine
 for
 WebIDL
+virtual
 void
 SetData
 (
