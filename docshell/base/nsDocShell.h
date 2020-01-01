@@ -4153,8 +4153,10 @@ nsnull
 }
 private
 :
+nsRefPtr
+<
 nsDocShell
-*
+>
 mDocShell
 ;
 }
