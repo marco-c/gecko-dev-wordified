@@ -1930,6 +1930,13 @@ mContentType
 (
 aContentType
 )
+mFilter
+(
+gfxPattern
+:
+:
+FILTER_GOOD
+)
 {
 }
 nsIntSize
