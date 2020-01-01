@@ -617,6 +617,13 @@ nsGenericElement
 .
 h
 "
+#
+include
+"
+xpcpublic
+.
+h
+"
 static
 bool
 sInited
@@ -2345,6 +2352,10 @@ sGeneration
 )
 ;
 MarkMessageManagers
+(
+)
+;
+xpc_UnmarkSkippableJSHolders
 (
 )
 ;
