@@ -5789,10 +5789,6 @@ GetD3D10Device
 )
 )
 {
-mLayerManager
-=
-nsnull
-;
 Invalidate
 (
 PR_FALSE
