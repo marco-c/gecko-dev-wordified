@@ -114,16 +114,6 @@ Components
 .
 interfaces
 ;
-this
-.
-EXPORTED_SYMBOLS
-=
-[
-"
-DOMContactManager
-"
-]
-;
 Cu
 .
 import
@@ -294,9 +284,8 @@ myGlobal
 =
 this
 ;
-this
-.
-DOMContactManager
+let
+ContactService
 =
 {
 init
@@ -1676,7 +1665,7 @@ name
 }
 }
 }
-DOMContactManager
+ContactService
 .
 init
 (
