@@ -2107,7 +2107,7 @@ as
 in
 *
 '
-Infinite
+Infinity
 '
 a
 decimal
