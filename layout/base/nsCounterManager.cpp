@@ -501,11 +501,6 @@ type
 ;
 mValueAfter
 =
-nsCounterManager
-:
-:
-IncrementCounter
-(
 aList
 -
 >
@@ -513,8 +508,8 @@ ValueBefore
 (
 this
 )
++
 mChangeValue
-)
 ;
 }
 }
