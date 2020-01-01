@@ -4043,7 +4043,6 @@ observers
 nsTObserverArray
 <
 nsIDocumentObserver
-*
 >
 mObservers
 ;
