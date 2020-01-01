@@ -18139,6 +18139,8 @@ foldConstants
 *
 /
 true
+NULL
+NULL
 )
 ;
 if
@@ -18385,13 +18387,9 @@ cx
 options
 chars
 length
-/
-*
-foldConstants
-=
-*
-/
 false
+NULL
+NULL
 )
 ;
 if
@@ -18437,7 +18435,7 @@ succeeded
 !
 parser
 .
-hadUnknownResult
+hadAbortedSyntaxParse
 (
 )
 )

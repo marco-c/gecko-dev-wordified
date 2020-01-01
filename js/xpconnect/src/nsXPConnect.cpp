@@ -4699,6 +4699,9 @@ String
 Script
 "
 "
+LazyScript
+"
+"
 IonCode
 "
 "

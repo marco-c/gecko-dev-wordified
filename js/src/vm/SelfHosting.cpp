@@ -3642,6 +3642,13 @@ true
 ;
 options
 .
+setCanLazilyParse
+(
+false
+)
+;
+options
+.
 setSourcePolicy
 (
 CompileOptions

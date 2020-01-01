@@ -17948,6 +17948,13 @@ filename
 lineno
 )
 ;
+options
+.
+setCanLazilyParse
+(
+false
+)
+;
 Parser
 <
 FullParseHandler
@@ -17969,6 +17976,8 @@ foldConstants
 *
 /
 false
+NULL
+NULL
 )
 ;
 if

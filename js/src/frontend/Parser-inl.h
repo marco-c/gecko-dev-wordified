@@ -391,6 +391,13 @@ funcStmts
 (
 NULL
 )
+innerFunctions
+(
+prs
+-
+>
+context
+)
 inDeclDestructuring
 (
 false
