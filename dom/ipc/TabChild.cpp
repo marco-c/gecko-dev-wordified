@@ -8082,6 +8082,11 @@ utils
 true
 )
 ;
+bool
+ignored
+=
+false
+;
 utils
 -
 >
@@ -8096,6 +8101,8 @@ aModifiers
 aIgnoreRootScrollFrame
 0
 0
+&
+ignored
 )
 ;
 return
