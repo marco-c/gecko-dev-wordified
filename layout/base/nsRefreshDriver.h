@@ -943,17 +943,7 @@ void
 ScheduleViewManagerFlush
 (
 )
-{
-mViewManagerFlushIsPending
-=
-true
 ;
-EnsureTimerStarted
-(
-false
-)
-;
-}
 void
 RevokeViewManagerFlush
 (
