@@ -1473,7 +1473,7 @@ DocAccessible
 aDoc
 )
 :
-nsHTMLLinkAccessible
+HTMLLinkAccessible
 (
 aContent
 aDoc
