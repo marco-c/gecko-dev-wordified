@@ -12082,7 +12082,6 @@ debuggees
 count
 (
 )
-NULL
 )
 )
 ;
@@ -16233,7 +16232,6 @@ scripts
 length
 (
 )
-NULL
 )
 )
 ;
@@ -25294,7 +25292,6 @@ fun
 -
 >
 nargs
-NULL
 )
 ;
 if
