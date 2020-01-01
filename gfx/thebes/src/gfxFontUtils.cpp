@@ -2600,6 +2600,8 @@ endCount
 }
 else
 {
+/
+/
 const
 PRUint16
 idDelta
@@ -2610,6 +2612,14 @@ idDeltas
 i
 )
 ;
+/
+/
+Unused
+:
+self
+-
+documenting
+.
 for
 (
 PRUint32
@@ -3074,6 +3084,8 @@ EncodingIDUCS4ForMicrosoftPlatform
 10
 }
 ;
+/
+/
 PRUint16
 version
 =
@@ -3083,6 +3095,14 @@ aBuf
 OffsetVersion
 )
 ;
+/
+/
+Unused
+:
+self
+-
+documenting
+.
 PRUint16
 numTables
 =

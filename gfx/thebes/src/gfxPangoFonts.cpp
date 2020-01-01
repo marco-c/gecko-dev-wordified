@@ -10525,6 +10525,9 @@ utf16Offset
 =
 0
 ;
+#
+ifdef
+DEBUG
 PRBool
 isRTL
 =
@@ -10535,6 +10538,8 @@ IsRightToLeft
 (
 )
 ;
+#
+endif
 GList
 *
 pos
