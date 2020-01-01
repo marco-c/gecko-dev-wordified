@@ -12072,7 +12072,11 @@ code
 bce
 -
 >
-prologBase
+prolog
+.
+code
+.
+begin
 (
 )
 prologLength
@@ -12089,7 +12093,11 @@ prologLength
 bce
 -
 >
-base
+code
+(
+)
+.
+begin
 (
 )
 mainLength
