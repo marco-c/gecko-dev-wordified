@@ -220,16 +220,6 @@ timer
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-plugins
-:
-:
-PluginUtilsOSX
-;
 #
 endif
 #
@@ -2570,6 +2560,9 @@ like
 other
 platforms
 .
+PluginUtilsOSX
+:
+:
 nsDoubleBufferCARenderer
 mDoubleBufferCARenderer
 ;

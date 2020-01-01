@@ -100,10 +100,6 @@ h
 namespace
 mozilla
 {
-using
-namespace
-dom
-;
 class
 DOMCameraPreview
 ;
@@ -123,6 +119,9 @@ virtual
 nsresult
 GetPreviewStream
 (
+dom
+:
+:
 CameraSize
 aSize
 nsICameraPreviewStreamCallback
@@ -172,6 +171,9 @@ virtual
 nsresult
 TakePicture
 (
+dom
+:
+:
 CameraSize
 aSize
 int32_t
@@ -180,6 +182,9 @@ const
 nsAString
 &
 aFileFormat
+dom
+:
+:
 CameraPosition
 aPosition
 nsICameraTakePictureCallback
@@ -196,6 +201,9 @@ virtual
 nsresult
 StartRecording
 (
+dom
+:
+:
 CameraStartRecordingOptions
 *
 aOptions
@@ -228,6 +236,9 @@ virtual
 nsresult
 GetPreviewStreamVideoMode
 (
+dom
+:
+:
 CameraRecorderOptions
 *
 aOptions
@@ -445,6 +456,9 @@ GetVideoSizes
 (
 nsTArray
 <
+dom
+:
+:
 CameraSize
 >
 &
@@ -516,6 +530,9 @@ uint32_t
 aKey
 nsTArray
 <
+dom
+:
+:
 CameraRegion
 >
 &
@@ -575,6 +592,9 @@ aKey
 const
 nsTArray
 <
+dom
+:
+:
 CameraRegion
 >
 &
