@@ -1553,7 +1553,9 @@ TCF_FUN_LOCAL_ARGUMENTS
 /
 *
 function
-has
+may
+contain
+a
 local
 named
 arguments
