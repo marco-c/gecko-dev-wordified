@@ -945,6 +945,7 @@ eDragTaskNone
 eDragTaskMotion
 eDragTaskLeave
 eDragTaskDrop
+eDragTaskSourceEnd
 }
 ;
 DragTask
