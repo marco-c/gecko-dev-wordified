@@ -3060,8 +3060,6 @@ nsChangeHint_UpdateTransformLayer
 nsChangeHint_UpdateOpacityLayer
 |
 nsChangeHint_UpdateOverflow
-|
-nsChangeHint_AddOrRemoveTransform
 )
 ;
 DO_STRUCT_DIFFERENCE
