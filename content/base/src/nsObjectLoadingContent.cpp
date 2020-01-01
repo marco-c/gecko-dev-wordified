@@ -6890,6 +6890,14 @@ if
 (
 !
 doc
+|
+|
+doc
+-
+>
+IsBeingUsedAsImage
+(
+)
 )
 {
 return
