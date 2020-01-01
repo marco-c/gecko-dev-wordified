@@ -18359,6 +18359,7 @@ newLength
 =
 oldLength
 )
+{
 vector
 .
 shrinkBy
@@ -18368,6 +18369,10 @@ oldLength
 newLength
 )
 ;
+return
+true
+;
+}
 /
 *
 N
@@ -18661,7 +18666,7 @@ jsid
 '
 s
 default
-ctor
+constructor
 leaves
 the
 jsid
@@ -18733,6 +18738,7 @@ newLength
 =
 oldLength
 )
+{
 vector
 .
 shrinkBy
@@ -18742,6 +18748,10 @@ oldLength
 newLength
 )
 ;
+return
+true
+;
+}
 /
 *
 N
@@ -18752,7 +18762,7 @@ jsid
 '
 s
 default
-ctor
+constructor
 leaves
 the
 jsid
