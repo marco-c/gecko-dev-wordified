@@ -187,7 +187,7 @@ h
 #
 include
 "
-nsSVGAnimationElement
+SVGAnimationElement
 .
 h
 "
@@ -353,7 +353,7 @@ element
 ;
 static_cast
 <
-nsSVGAnimationElement
+SVGAnimationElement
 *
 >
 (
