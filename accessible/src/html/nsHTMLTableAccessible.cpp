@@ -2830,6 +2830,11 @@ GetParent
 (
 )
 ;
+NS_ENSURE_STATE
+(
+parent
+)
+;
 PRInt32
 indexInParent
 =
