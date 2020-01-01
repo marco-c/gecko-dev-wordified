@@ -446,7 +446,6 @@ nsIDOMHTMLCollection
 .
 h
 "
-;
 /
 /
 IID
