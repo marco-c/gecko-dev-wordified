@@ -379,6 +379,10 @@ for
 line
 in
 output
+.
+splitlines
+(
+)
 :
             
 if
@@ -408,7 +412,7 @@ ps
 "
 "
 -
-A
+ef
 "
 ]
 stdout
@@ -469,6 +473,10 @@ for
 line
 in
 output
+.
+splitlines
+(
+)
 :
             
 if
@@ -487,6 +495,13 @@ continue
             
 elif
 processName
+in
+line
+and
+not
+'
+defunct
+'
 in
 line
 :
@@ -628,6 +643,12 @@ run
         
 p
 .
+processOutput
+(
+)
+        
+p
+.
 waitForFinish
 (
 )
@@ -720,11 +741,17 @@ run
         
 p
 .
-waitForFinish
+processOutput
 (
 timeout
 =
 10
+)
+        
+p
+.
+waitForFinish
+(
 )
         
 detected
@@ -813,6 +840,12 @@ here
 p
 .
 run
+(
+)
+        
+p
+.
+processOutput
 (
 )
         
@@ -1027,16 +1060,21 @@ returncode
 "
 Detected
 an
-expected
-non
--
-zero
+unexpected
 return
 code
+of
+:
+%
+s
 "
+%
+returncode
 )
         
-else
+elif
+not
+isalive
 :
             
 self
@@ -1077,11 +1115,14 @@ assertTrue
 (
 didtimeout
 "
-Process
-timed
+Detected
+that
+process
+didn
+'
+t
+time
 out
-as
-expected
 "
 )
         
@@ -1104,19 +1145,19 @@ out
 )
         
 if
-detected
+isalive
 :
             
 self
 .
 assertTrue
 (
-isalive
+detected
 "
 Detected
 process
 is
-still
+not
 running
 process
 output
@@ -1136,11 +1177,21 @@ self
 assertTrue
 (
 not
-isalive
+detected
 "
-Process
-ended
+Detected
+process
+is
+still
+running
+process
+output
+:
+%
+s
 "
+%
+output
 )
 if
 __name__

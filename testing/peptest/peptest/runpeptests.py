@@ -270,15 +270,21 @@ enable_proxy
 =
 True
                 
-locations
-.
-read
-(
+for
+proxyLocation
+in
 self
 .
 options
 .
 proxyLocations
+:
+                    
+locations
+.
+read
+(
+proxyLocation
 False
 )
                 
@@ -814,6 +820,13 @@ runner
 .
 start
 (
+outputTimeout
+=
+self
+.
+options
+.
+timeout
 )
         
 self
@@ -822,13 +835,6 @@ runner
 .
 wait
 (
-outputTimeout
-=
-self
-.
-options
-.
-timeout
 )
         
 crashed
@@ -2330,7 +2336,7 @@ proxy
 action
 =
 "
-store
+append
 "
 type
 =
@@ -2350,13 +2356,15 @@ None
 help
 =
 "
-path
-to
 a
+list
+of
+paths
+to
 server
 -
 location
-file
+files
 specifying
 "
                              
@@ -2364,7 +2372,19 @@ specifying
 domains
 to
 proxy
+(
+set
+with
+multiple
+-
+-
+proxy
+agruments
+)
 .
+"
+                             
+"
 -
 -
 server
@@ -2373,9 +2393,6 @@ path
 must
 also
 be
-"
-                             
-"
 specified
 .
 "

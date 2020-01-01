@@ -208,11 +208,23 @@ proxy
                  
 proxy
 =
-False
+None
 #
 setup
 a
 proxy
+-
+dict
+of
+server
+-
+loc
+server
+-
+port
+ssl
+-
+port
                  
 restore
 =
