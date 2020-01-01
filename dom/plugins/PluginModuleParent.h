@@ -919,6 +919,17 @@ return
 mNPNIface
 ;
 }
+PluginProcessParent
+*
+Process
+(
+)
+const
+{
+return
+mSubprocess
+;
+}
 base
 :
 :
