@@ -27015,6 +27015,12 @@ pixman_region32
 >
 intersectRegion
 ;
+pixman_region32_init
+(
+&
+intersectRegion
+)
+;
 pixman_region32_intersect
 (
 &
