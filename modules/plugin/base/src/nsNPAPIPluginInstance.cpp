@@ -6342,6 +6342,7 @@ compatible
 nsPluginMode
 mode
 ;
+const
 char
 *
 mimetype
@@ -10047,6 +10048,7 @@ nsNPAPIPluginInstance
 :
 GetMIMEType
 (
+const
 char
 *
 *
