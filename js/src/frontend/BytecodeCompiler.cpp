@@ -536,10 +536,6 @@ cx
 prin
 cfp
 )
-globalScope
-(
-NULL
-)
 {
 }
 JSScript
@@ -880,7 +876,7 @@ setScopeChain
 scopeChain
 )
 ;
-compiler
+bce
 .
 globalScope
 =
