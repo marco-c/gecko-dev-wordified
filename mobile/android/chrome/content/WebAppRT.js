@@ -217,7 +217,7 @@ telemetry
 .
 prompted
 "
-true
+2
 )
 ]
 init
