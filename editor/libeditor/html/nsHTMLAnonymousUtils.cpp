@@ -529,6 +529,13 @@ nsUnicharUtils
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 /
 /
 retrieve
@@ -1250,6 +1257,10 @@ return
 res
 ;
 }
+{
+nsAutoScriptBlocker
+scriptBlocker
+;
 /
 /
 establish
@@ -1295,6 +1306,7 @@ UnbindFromTree
 return
 res
 ;
+}
 }
 nsElementDeletionObserver
 *
@@ -1531,6 +1543,9 @@ if
 content
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 /
 /
 Need

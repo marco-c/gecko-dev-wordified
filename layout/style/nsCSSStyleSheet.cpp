@@ -701,6 +701,13 @@ nsIScriptSecurityManager
 .
 h
 "
+#
+include
+"
+mozAutoDocUpdate
+.
+h
+"
 /
 /
 -

@@ -2386,6 +2386,9 @@ AllowScripts
 (
 )
 ;
+nsAutoScriptBlocker
+scriptBlocker
+;
 PRUint32
 childCount
 =
@@ -7318,6 +7321,9 @@ aOldDocument
 ;
 #
 endif
+nsAutoScriptBlocker
+scriptBlocker
+;
 anonymous
 -
 >

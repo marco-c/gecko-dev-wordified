@@ -695,6 +695,13 @@ nsDOMClassInfo
 h
 "
 #
+include
+"
+mozAutoDocUpdate
+.
+h
+"
+#
 ifdef
 DEBUG_chb
 static

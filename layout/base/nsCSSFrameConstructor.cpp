@@ -83819,6 +83819,9 @@ Clear
 (
 )
 ;
+nsAutoScriptBlocker
+scriptBlocker
+;
 /
 /
 Make

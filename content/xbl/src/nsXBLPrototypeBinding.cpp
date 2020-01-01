@@ -1149,6 +1149,9 @@ if
 mDefaultContent
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 /
 /
 mDefaultContent
@@ -1697,6 +1700,9 @@ tmp
 mDefaultContent
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 /
 /
 mDefaultContent
@@ -7518,6 +7524,9 @@ defaultCount
 0
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 /
 /
 Annotate
