@@ -191,9 +191,7 @@ assert
 (
 m
 .
-get_window
-(
-)
+current_window_handle
 =
 =
 server
@@ -217,9 +215,7 @@ assert
 (
 m
 .
-get_windows
-(
-)
+window_handles
 =
 =
 server
@@ -843,9 +839,7 @@ assert
 (
 m
 .
-get_window
-(
-)
+current_window_handle
 =
 =
 server

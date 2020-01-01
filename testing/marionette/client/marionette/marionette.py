@@ -2032,8 +2032,10 @@ timeout
 return
 response
     
+property
+    
 def
-get_window
+current_window_handle
 (
 self
 )
@@ -2086,8 +2088,10 @@ value
 return
 response
     
+property
+    
 def
-get_windows
+window_handles
 (
 self
 )
@@ -2129,9 +2133,7 @@ window_id
 =
 self
 .
-get_window
-(
-)
+current_window_handle
         
 response
 =

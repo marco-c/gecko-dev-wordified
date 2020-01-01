@@ -533,9 +533,7 @@ self
 .
 marionette
 .
-get_window
-(
-)
+current_window_handle
         
 self
 .
