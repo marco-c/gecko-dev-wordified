@@ -2171,7 +2171,7 @@ MOZ_LAYERS_HAVE_LOG
 const
 nsIntSize
 &
-GetWigetSize
+GetWidgetSize
 (
 )
 {
