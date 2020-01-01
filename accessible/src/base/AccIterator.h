@@ -145,13 +145,6 @@ DocAccessible
 .
 h
 "
-#
-include
-"
-nsIDOMDocumentXBL
-.
-h
-"
 /
 *
 *
