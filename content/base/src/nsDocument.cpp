@@ -23252,7 +23252,15 @@ CreateElem
 (
 needsLowercase
 ?
+static_cast
+<
+const
+nsAString
+&
+>
+(
 lcTagName
+)
 :
 aTagName
 nsnull
@@ -29862,7 +29870,7 @@ Normalize
 {
 for
 (
-PRInt32
+PRUint32
 i
 =
 0
