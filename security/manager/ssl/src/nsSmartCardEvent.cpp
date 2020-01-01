@@ -249,7 +249,6 @@ mInner
 =
 aInner
 ;
-return
 mInner
 -
 >
@@ -257,6 +256,9 @@ SetTrusted
 (
 true
 )
+;
+return
+NS_OK
 ;
 }
 /
@@ -411,7 +413,10 @@ GetInternalNSEvent
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHODIMP_
+(
+void
+)
 nsSmartCardEvent
 :
 :
@@ -432,7 +437,6 @@ Init
 "
 )
 ;
-return
 mInner
 -
 >
