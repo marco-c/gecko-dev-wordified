@@ -454,7 +454,11 @@ h
 #
 include
 "
-nsDOMParser
+mozilla
+/
+dom
+/
+DOMParser
 .
 h
 "
@@ -1744,7 +1748,7 @@ nsHostObjectURI
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-nsDOMParser
+DOMParser
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
@@ -5690,7 +5694,7 @@ ActivityConstructor
 kNS_DOMPARSER_CID
 false
 NULL
-nsDOMParserConstructor
+DOMParserConstructor
 }
 {
 &
