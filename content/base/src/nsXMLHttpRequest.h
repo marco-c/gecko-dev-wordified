@@ -820,6 +820,8 @@ nsIPrincipal
 *
 aPrincipal
 PRBool
+aWithCredentials
+PRBool
 aCreate
 )
 ;
@@ -861,6 +863,8 @@ aURI
 nsIPrincipal
 *
 aPrincipal
+PRBool
+aWithCredentials
 nsACString
 &
 _retval
