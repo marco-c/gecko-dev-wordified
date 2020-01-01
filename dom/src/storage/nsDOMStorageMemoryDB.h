@@ -516,6 +516,11 @@ mUsageDelta
 nsInMemoryStorage
 (
 )
+:
+mUsageDelta
+(
+0
+)
 {
 mTable
 .
