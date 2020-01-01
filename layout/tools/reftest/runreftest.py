@@ -541,7 +541,6 @@ profileDir
 Sets
 up
 a
-clean
 profile
 for
 reftest
@@ -549,37 +548,9 @@ reftest
 "
   
 #
-Start
-with
-a
-clean
-slate
+Set
+preferences
 .
-  
-shutil
-.
-rmtree
-(
-profileDir
-True
-)
-  
-os
-.
-mkdir
-(
-profileDir
-)
-  
-#
-reftest
-should
-only
-need
-the
-dump
-pref
-set
   
 prefsFile
 =
@@ -1671,9 +1642,6 @@ finally
     
 if
 profileDir
-is
-not
-None
 :
       
 shutil
