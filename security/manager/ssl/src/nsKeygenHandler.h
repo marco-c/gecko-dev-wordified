@@ -536,7 +536,7 @@ const
 nsAString
 &
 aFormType
-nsVoidArray
+nsStringArray
 &
 aContent
 nsAString
