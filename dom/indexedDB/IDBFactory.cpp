@@ -2254,6 +2254,8 @@ aVersion
 JSContext
 *
 aCx
+PRUint8
+aOptionalArgCount
 nsIIDBOpenDBRequest
 *
 *
@@ -2277,6 +2279,9 @@ if
 aVersion
 <
 1
+&
+&
+aOptionalArgCount
 )
 {
 return
