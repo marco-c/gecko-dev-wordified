@@ -629,7 +629,7 @@ const
 PRUint32
 kHadMoreEventsCountMax
 =
-10
+3
 ;
 }
 ;
