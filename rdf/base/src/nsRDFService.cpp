@@ -4705,7 +4705,9 @@ aChar
 uint8_t
 bit
 =
-PR_BIT
+1u
+<
+<
 (
 aChar
 &

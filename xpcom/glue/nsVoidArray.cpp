@@ -1833,10 +1833,10 @@ newCapacity
 =
 CAPACITYOF_IMPL
 (
-PR_BIT
-(
+1u
+<
+<
 newSize
-)
 )
 ;
 }

@@ -963,12 +963,12 @@ newSize
 )
 newSize
 =
-PR_BIT
-(
+1u
+<
+<
 PR_CeilingLog2
 (
 newSize
-)
 )
 ;
 newCount

@@ -1145,7 +1145,10 @@ define
 MAX_BORDER_WIDTH
 nscoord
 (
-PR_BITMASK
+(
+1u
+<
+<
 (
 sizeof
 (
@@ -1154,6 +1157,9 @@ BCPixelSize
 *
 8
 )
+)
+-
+1
 )
 static
 inline
