@@ -138,7 +138,7 @@ class
 SVGAnimatedPreserveAspectRatio
 ;
 class
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 ;
 }
 /
@@ -430,7 +430,7 @@ mContent
 mozilla
 :
 :
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 GetPatternTransformList
 (

@@ -121,7 +121,7 @@ h
 #
 include
 "
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 .
 h
 "
@@ -260,7 +260,7 @@ to
 /
 clear
 our
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 '
 s
 weak
@@ -762,7 +762,7 @@ InternalList
 )
 const
 {
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 alist
 =

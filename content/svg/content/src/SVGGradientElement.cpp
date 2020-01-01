@@ -107,11 +107,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 .
 h
 "
@@ -683,7 +679,7 @@ gradientTransform
 /
 already_AddRefed
 <
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 >
 SVGGradientElement
 :
@@ -722,7 +718,7 @@ done
 so
 :
 return
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 :
 :
 GetDOMWrapper
@@ -1556,7 +1552,7 @@ this
 /
 nsSVGElement
 methods
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 SVGGradientElement
 :
@@ -1583,7 +1579,7 @@ DO_ALLOCATE
 mGradientTransform
 =
 new
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 (
 )
 ;
