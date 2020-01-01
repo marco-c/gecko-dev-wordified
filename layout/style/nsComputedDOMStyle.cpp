@@ -21165,7 +21165,7 @@ valueList
 ;
 }
 case
-eStyleSVGPaintType_ContextFill
+eStyleSVGPaintType_ObjectFill
 :
 {
 val
@@ -21173,14 +21173,14 @@ val
 >
 SetIdent
 (
-eCSSKeyword_context_fill
+eCSSKeyword__moz_objectfill
 )
 ;
 break
 ;
 }
 case
-eStyleSVGPaintType_ContextStroke
+eStyleSVGPaintType_ObjectStroke
 :
 {
 val
@@ -21188,7 +21188,7 @@ val
 >
 SetIdent
 (
-eCSSKeyword_context_stroke
+eCSSKeyword__moz_objectstroke
 )
 ;
 break

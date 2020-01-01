@@ -21706,7 +21706,7 @@ paint
 mType
 =
 =
-eStyleSVGPaintType_ContextFill
+eStyleSVGPaintType_ObjectFill
 |
 |
 paint
@@ -21714,7 +21714,7 @@ paint
 mType
 =
 =
-eStyleSVGPaintType_ContextStroke
+eStyleSVGPaintType_ObjectStroke
 )
 {
 nsAutoPtr
@@ -21739,11 +21739,11 @@ paint
 mType
 =
 =
-eStyleSVGPaintType_ContextFill
+eStyleSVGPaintType_ObjectFill
 ?
-NS_COLOR_CONTEXT_FILL
+NS_COLOR_OBJECTFILL
 :
-NS_COLOR_CONTEXT_STROKE
+NS_COLOR_OBJECTSTROKE
 eCSSUnit_Enumerated
 )
 ;
