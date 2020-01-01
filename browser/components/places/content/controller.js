@@ -1274,7 +1274,6 @@ childCount
 >
 0
 )
-;
 return
 true
 ;
