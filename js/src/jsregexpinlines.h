@@ -1646,8 +1646,8 @@ name
 )
 &
 v
-PropertyStub
-StrictPropertyStub
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_ENUMERATE
 )
 ;
@@ -1707,8 +1707,8 @@ array
 index
 &
 v
-PropertyStub
-StrictPropertyStub
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_ENUMERATE
 )
 ;

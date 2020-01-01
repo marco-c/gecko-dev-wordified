@@ -468,13 +468,6 @@ jsvector
 .
 h
 "
-#
-include
-"
-jsvalue
-.
-h
-"
 JS_FRIEND_API
 (
 uint64_t

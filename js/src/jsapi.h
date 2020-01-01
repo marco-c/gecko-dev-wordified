@@ -5099,15 +5099,8 @@ jsval
 /
 *
 JSClass
-(
-and
-ObjectOps
-where
-appropriate
-)
-function
-pointer
-typedefs
+operation
+signatures
 .
 *
 /

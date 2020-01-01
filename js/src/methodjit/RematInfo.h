@@ -1033,10 +1033,7 @@ u
 .
 v_
 =
-Jsvalify
-(
 v
-)
 ;
 return
 vr
@@ -1468,12 +1465,9 @@ isConstant
 )
 ;
 return
-Valueify
-(
 u
 .
 v_
-)
 ;
 }
 JSValueType

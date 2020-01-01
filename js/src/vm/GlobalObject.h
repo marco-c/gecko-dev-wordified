@@ -1329,7 +1329,7 @@ createConstructor
 JSContext
 *
 cx
-Native
+JSNative
 ctor
 Class
 *

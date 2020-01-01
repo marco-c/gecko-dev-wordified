@@ -15806,10 +15806,7 @@ frame
 .
 push
 (
-Valueify
-(
 JSVAL_ZERO
-)
 )
 ;
 END_CASE
@@ -15824,10 +15821,7 @@ frame
 .
 push
 (
-Valueify
-(
 JSVAL_ONE
-)
 )
 ;
 END_CASE
