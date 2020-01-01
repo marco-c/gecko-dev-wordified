@@ -1133,6 +1133,7 @@ gfxMatrix
 &
 aMatrix
 )
+const
 {
 /
 /
@@ -1170,6 +1171,16 @@ float
 x
 y
 ;
+const_cast
+<
+nsSVGForeignObjectElement
+*
+>
+(
+this
+)
+-
+>
 GetAnimatedLengthValues
 (
 &

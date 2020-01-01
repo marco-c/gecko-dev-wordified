@@ -995,6 +995,7 @@ nsSVGSVGElement
 GetCtx
 (
 )
+const
 ;
 /
 *
@@ -1035,6 +1036,7 @@ gfxMatrix
 &
 aMatrix
 )
+const
 ;
 /
 /

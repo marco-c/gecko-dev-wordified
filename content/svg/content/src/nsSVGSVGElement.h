@@ -1224,6 +1224,7 @@ gfxMatrix
 &
 aMatrix
 )
+const
 ;
 virtual
 void
@@ -1294,6 +1295,7 @@ gfxMatrix
 GetViewBoxTransform
 (
 )
+const
 ;
 PRBool
 HasValidViewbox
@@ -1471,6 +1473,7 @@ SVGPreserveAspectRatio
 GetImageOverridePreserveAspectRatio
 (
 )
+const
 ;
 /
 /
@@ -1540,6 +1543,7 @@ PRBool
 ShouldSynthesizeViewBox
 (
 )
+const
 ;
 protected
 :
@@ -1599,6 +1603,7 @@ PRBool
 IsRoot
 (
 )
+const
 {
 NS_ASSERTION
 (
@@ -1694,6 +1699,7 @@ PRBool
 IsInner
 (
 )
+const
 {
 const
 nsIContent

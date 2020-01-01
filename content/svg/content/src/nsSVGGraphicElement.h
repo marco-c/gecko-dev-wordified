@@ -543,6 +543,7 @@ gfxMatrix
 &
 aMatrix
 )
+const
 ;
 virtual
 void

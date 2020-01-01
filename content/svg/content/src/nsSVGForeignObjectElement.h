@@ -559,6 +559,7 @@ gfxMatrix
 &
 aMatrix
 )
+const
 ;
 /
 /

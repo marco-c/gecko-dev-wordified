@@ -2276,6 +2276,7 @@ static
 gfxMatrix
 GetViewBoxTransform
 (
+const
 nsSVGElement
 *
 aElement
@@ -2301,6 +2302,7 @@ static
 gfxMatrix
 GetViewBoxTransform
 (
+const
 nsSVGElement
 *
 aElement

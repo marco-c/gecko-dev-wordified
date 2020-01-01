@@ -5005,6 +5005,7 @@ nsSVGUtils
 :
 GetViewBoxTransform
 (
+const
 nsSVGElement
 *
 aElement
@@ -5050,6 +5051,7 @@ nsSVGUtils
 :
 GetViewBoxTransform
 (
+const
 nsSVGElement
 *
 aElement

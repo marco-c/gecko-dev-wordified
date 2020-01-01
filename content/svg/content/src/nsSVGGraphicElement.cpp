@@ -1638,6 +1638,7 @@ gfxMatrix
 &
 aMatrix
 )
+const
 {
 gfxMatrix
 result
