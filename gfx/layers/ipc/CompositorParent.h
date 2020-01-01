@@ -1119,6 +1119,8 @@ const
 gfx3DMatrix
 &
 aRootTransform
+bool
+aPrimaryLayer
 )
 ;
 /
