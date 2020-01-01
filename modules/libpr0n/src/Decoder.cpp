@@ -672,7 +672,7 @@ errors
 NS_ABORT_IF_FALSE
 (
 !
-IsDecoderError
+HasDecoderError
 (
 )
 "
@@ -702,7 +702,7 @@ future
 data
 if
 (
-IsDataError
+HasDataError
 (
 )
 )
@@ -741,7 +741,7 @@ finalization
 if
 (
 !
-IsError
+HasError
 (
 )
 )
@@ -769,7 +769,7 @@ mInFrame
 &
 &
 !
-IsDecoderError
+HasDecoderError
 (
 )
 )
@@ -842,7 +842,7 @@ aConsoleService
 &
 &
 !
-IsDecoderError
+HasDecoderError
 (
 )
 )
@@ -904,7 +904,7 @@ bool
 salvage
 =
 !
-IsDecoderError
+HasDecoderError
 (
 )
 &
@@ -985,7 +985,7 @@ FlushInvalidations
 NS_ABORT_IF_FALSE
 (
 !
-IsDecoderError
+HasDecoderError
 (
 )
 "

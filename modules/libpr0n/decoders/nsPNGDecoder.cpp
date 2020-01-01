@@ -1897,7 +1897,7 @@ height
 NS_ABORT_IF_FALSE
 (
 !
-IsError
+HasError
 (
 )
 "
@@ -2178,7 +2178,7 @@ data
 if
 (
 !
-IsError
+HasError
 (
 )
 )
@@ -5281,7 +5281,7 @@ NS_ABORT_IF_FALSE
 decoder
 -
 >
-IsError
+HasError
 (
 )
 "
