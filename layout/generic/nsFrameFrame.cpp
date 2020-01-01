@@ -5721,7 +5721,6 @@ CreateWidget
 (
 kCChildCID
 nsnull
-nsnull
 PR_TRUE
 PR_TRUE
 aContentType

@@ -20948,12 +20948,11 @@ NS_POPUP_CID
 view
 -
 >
-CreateWidget
+CreateWidgetForPopup
 (
 kCPopUpCID
 &
 widgetData
-nsnull
 )
 ;
 #
@@ -20968,12 +20967,11 @@ NS_CHILD_CID
 view
 -
 >
-CreateWidget
+CreateWidgetForPopup
 (
 kCChildCID
 &
 widgetData
-nsnull
 )
 ;
 #
