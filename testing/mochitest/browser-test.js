@@ -2491,6 +2491,7 @@ test_waitForFocus
 (
 callback
 targetWindow
+expectBlankPage
 )
 {
 self
@@ -2501,6 +2502,7 @@ waitForFocus
 (
 callback
 targetWindow
+expectBlankPage
 )
 ;
 }

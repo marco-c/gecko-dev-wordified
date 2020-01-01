@@ -803,6 +803,8 @@ aEvent
 {
 tab_A3
 .
+linkedBrowser
+.
 removeEventListener
 (
 "
