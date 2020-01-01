@@ -1883,8 +1883,6 @@ QStyle
 PM_TitleBarHeight
 )
 ;
-/
-/
 qDebug
 (
 "
@@ -2050,6 +2048,10 @@ eMetric_RadioboxSize
 :
 aMetric
 =
+15
+;
+aMetric
+=
 qStyle
 -
 >
@@ -2059,6 +2061,16 @@ QStyle
 :
 :
 PM_CheckListButtonSize
+)
+;
+qDebug
+(
+"
+eMetric_CheckboxSize
+%
+d
+"
+aMetric
 )
 ;
 break
@@ -2216,8 +2228,7 @@ default
 :
 aMetric
 =
--
-1
+0
 ;
 res
 =
