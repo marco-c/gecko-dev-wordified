@@ -483,7 +483,7 @@ NS_IMETHODIMP
 nsConsoleMessage
 :
 :
-GetMessage
+GetMessageMoz
 (
 PRUnichar
 *

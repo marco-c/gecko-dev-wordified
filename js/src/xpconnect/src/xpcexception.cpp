@@ -1179,7 +1179,7 @@ NS_IMETHODIMP
 nsXPCException
 :
 :
-GetMessage
+GetMessageMoz
 (
 char
 *
