@@ -2268,6 +2268,13 @@ return
 NPERR_NO_ERROR
 ;
 }
+#
+endif
+/
+*
+NP_NO_QUICKDRAW
+*
+/
 case
 NPNVcontentsScaleFactor
 :
@@ -2288,13 +2295,6 @@ return
 NPERR_NO_ERROR
 ;
 }
-#
-endif
-/
-*
-NP_NO_QUICKDRAW
-*
-/
 #
 endif
 /
