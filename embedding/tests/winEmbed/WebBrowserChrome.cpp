@@ -321,13 +321,6 @@ h
 #
 include
 "
-nsIGenericFactory
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h
