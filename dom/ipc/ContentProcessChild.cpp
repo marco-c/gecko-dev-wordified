@@ -315,10 +315,6 @@ Clear
 (
 )
 ;
-XRE_ShutdownChildProcess
-(
-)
-;
 }
 }
 /

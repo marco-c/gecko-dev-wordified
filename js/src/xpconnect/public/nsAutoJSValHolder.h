@@ -459,6 +459,13 @@ jsapi
 .
 h
 "
+#
+include
+"
+nsDebug
+.
+h
+"
 /
 *
 *
