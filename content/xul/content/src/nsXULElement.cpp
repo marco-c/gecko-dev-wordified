@@ -2453,6 +2453,15 @@ nsGkAtoms
 :
 id
 )
+&
+&
+!
+originalValue
+-
+>
+IsEmptyString
+(
+)
 )
 {
 element
