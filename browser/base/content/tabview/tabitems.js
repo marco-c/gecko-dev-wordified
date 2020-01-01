@@ -5678,6 +5678,9 @@ _eventListeners
 :
 [
 ]
+_pauseUpdateForTest
+:
+false
 tempCanvas
 :
 null
@@ -6502,6 +6505,14 @@ tab
 {
 try
 {
+if
+(
+this
+.
+_pauseUpdateForTest
+)
+return
+;
 Utils
 .
 assertThrow
