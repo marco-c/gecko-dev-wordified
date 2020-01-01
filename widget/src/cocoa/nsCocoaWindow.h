@@ -760,13 +760,12 @@ aNotification
 (
 void
 )
-sendGotFocusAndActivate
-;
--
+sendFocusEvent
+:
 (
-void
+PRUint32
 )
-sendLostFocusAndDeactivate
+eventType
 ;
 -
 (
