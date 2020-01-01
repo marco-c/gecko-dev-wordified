@@ -3047,7 +3047,7 @@ result
 {
 str
 =
-JS_ValueToString
+JS_ValueToSource
 (
 cx
 result
