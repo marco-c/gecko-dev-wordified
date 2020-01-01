@@ -1443,6 +1443,14 @@ bindWidgetTexture
 (
 )
 ;
+public
+static
+native
+void
+scheduleComposite
+(
+)
+;
 /
 /
 A

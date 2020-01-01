@@ -2578,6 +2578,10 @@ SHELL_WRAPPER0
 (
 bindWidgetTexture
 )
+SHELL_WRAPPER0
+(
+scheduleComposite
+)
 SHELL_WRAPPER3_WITH_RETURN
 (
 saveMessageInSentbox
@@ -5138,6 +5142,11 @@ notifySmsReceived
 GETFUNC
 (
 bindWidgetTexture
+)
+;
+GETFUNC
+(
+scheduleComposite
 )
 ;
 GETFUNC
