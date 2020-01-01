@@ -622,6 +622,9 @@ dll
 ;
 const
 char
+JumpListItem
+:
+:
 kJumpListCacheDir
 [
 ]
@@ -2520,6 +2523,9 @@ AppendNative
 (
 nsDependentCString
 (
+JumpListItem
+:
+:
 kJumpListCacheDir
 )
 )
@@ -4246,6 +4252,9 @@ AppendNative
 (
 nsDependentCString
 (
+JumpListItem
+:
+:
 kJumpListCacheDir
 )
 )
