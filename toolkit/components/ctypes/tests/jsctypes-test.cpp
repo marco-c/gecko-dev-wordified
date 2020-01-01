@@ -2051,7 +2051,7 @@ defined
 _WIN64
 )
 PRInt32
-test_closure_cdecl
+test_closure_stdcall
 (
 PRInt8
 i
