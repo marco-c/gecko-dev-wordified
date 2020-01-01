@@ -486,9 +486,10 @@ nsIDocument
 aDocument
 nsIContent
 *
+aContainer
+nsIContent
+*
 aChild
-PRInt32
-aIndexInContainer
 )
 ;
 /
@@ -612,9 +613,10 @@ nsIDocument
 aDocument
 nsIContent
 *
+aContainer
+nsIContent
+*
 aChild
-PRInt32
-aIndexInContainer
 )
 =
 0
