@@ -9941,6 +9941,15 @@ nsIFrame
 aFrame
 )
 ;
+nsIFrame
+*
+GetFixedContainingBlock
+(
+nsIFrame
+*
+aFrame
+)
+;
 private
 :
 nsIFrame
