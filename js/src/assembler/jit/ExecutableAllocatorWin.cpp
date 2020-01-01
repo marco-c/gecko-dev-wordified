@@ -236,6 +236,15 @@ DAMAGE
 .
 *
 /
+/
+/
+#
+include
+"
+config
+.
+h
+"
 #
 include
 "
@@ -252,7 +261,7 @@ WTF_PLATFORM_WIN_OS
 #
 include
 "
-jswin
+windows
 .
 h
 "

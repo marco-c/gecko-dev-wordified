@@ -307,11 +307,11 @@ _WIN32_WINNT
 endif
 #
 include
-"
-jswin
+<
+windows
 .
 h
-"
+>
 #
 include
 <
@@ -420,7 +420,7 @@ function
 {
 #
 if
-WTF_COMPILER_MSVC
+WTF_PLATFORM_WIN
 &
 &
 !

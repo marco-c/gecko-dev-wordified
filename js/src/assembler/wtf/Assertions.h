@@ -1007,11 +1007,11 @@ macro
 /
 #
 include
-"
-jswin
+<
+windows
 .
 h
-"
+>
 #
 undef
 min
