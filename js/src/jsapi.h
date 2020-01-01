@@ -2009,7 +2009,8 @@ id
 ;
 }
 /
-/
+*
+*
 Note
 :
 when
@@ -2021,13 +2022,14 @@ that
 their
 use
 in
-/
-/
+*
 js_CheckForStringIndex
 is
 still
 valid
 .
+*
+/
 #
 define
 JSID_INT_MIN
