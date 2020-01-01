@@ -530,6 +530,9 @@ class
 OutOfLineUnboxDouble
 ;
 class
+OutOfLineGetPropertyCache
+;
+class
 CodeGenerator
 :
 public
@@ -564,7 +567,6 @@ generate
 (
 )
 ;
-virtual
 bool
 visitCaptureAllocations
 (
@@ -573,7 +575,6 @@ LCaptureAllocations
 lir
 )
 ;
-virtual
 bool
 visitParameter
 (
@@ -582,7 +583,6 @@ LParameter
 lir
 )
 ;
-virtual
 bool
 visitStart
 (
@@ -591,7 +591,6 @@ LStart
 lir
 )
 ;
-virtual
 bool
 visitOsrEntry
 (
@@ -600,7 +599,6 @@ LOsrEntry
 lir
 )
 ;
-virtual
 bool
 visitValueToInt32
 (
@@ -609,7 +607,6 @@ LValueToInt32
 lir
 )
 ;
-virtual
 bool
 visitValueToDouble
 (
@@ -618,7 +615,6 @@ LValueToDouble
 lir
 )
 ;
-virtual
 bool
 visitInt32ToDouble
 (
@@ -627,7 +623,6 @@ LInt32ToDouble
 lir
 )
 ;
-virtual
 bool
 visitTestVAndBranch
 (
@@ -636,7 +631,6 @@ LTestVAndBranch
 lir
 )
 ;
-virtual
 bool
 visitTruncateDToInt32
 (
@@ -645,7 +639,6 @@ LTruncateDToInt32
 lir
 )
 ;
-virtual
 bool
 visitPointer
 (
@@ -654,7 +647,6 @@ LPointer
 lir
 )
 ;
-virtual
 bool
 visitSlots
 (
@@ -663,7 +655,6 @@ LSlots
 lir
 )
 ;
-virtual
 bool
 visitElements
 (
@@ -672,7 +663,6 @@ LElements
 lir
 )
 ;
-virtual
 bool
 visitTypeBarrier
 (
@@ -681,7 +671,6 @@ LTypeBarrier
 lir
 )
 ;
-virtual
 bool
 visitDoubleToInt32
 (
@@ -690,7 +679,6 @@ LDoubleToInt32
 lir
 )
 ;
-virtual
 bool
 visitArrayLength
 (
@@ -699,7 +687,6 @@ LArrayLength
 lir
 )
 ;
-virtual
 bool
 visitStringLength
 (
@@ -708,7 +695,6 @@ LStringLength
 lir
 )
 ;
-virtual
 bool
 visitInitializedLength
 (
@@ -717,7 +703,6 @@ LInitializedLength
 lir
 )
 ;
-virtual
 bool
 visitUnboxDouble
 (
@@ -726,6 +711,36 @@ LUnboxDouble
 lir
 )
 ;
+bool
+visitGetPropertyCacheV
+(
+LGetPropertyCacheV
+*
+load
+)
+{
+return
+visitGetPropertyCache
+(
+load
+)
+;
+}
+bool
+visitGetPropertyCacheT
+(
+LGetPropertyCacheT
+*
+load
+)
+{
+return
+visitGetPropertyCache
+(
+load
+)
+;
+}
 bool
 visitCheckOverRecursed
 (
@@ -748,6 +763,24 @@ visitOutOfLineUnboxDouble
 OutOfLineUnboxDouble
 *
 ool
+)
+;
+bool
+visitOutOfLineGetPropertyCache
+(
+OutOfLineGetPropertyCache
+*
+ool
+)
+;
+private
+:
+bool
+visitGetPropertyCache
+(
+LInstruction
+*
+load
 )
 ;
 }

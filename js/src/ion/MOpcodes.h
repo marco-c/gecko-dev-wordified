@@ -665,6 +665,11 @@ TypeBarrier
 \
 _
 (
+GetPropertyCache
+)
+\
+_
+(
 GuardShape
 )
 \

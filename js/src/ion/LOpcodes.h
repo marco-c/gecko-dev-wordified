@@ -740,6 +740,16 @@ StoreElementT
 \
 _
 (
+GetPropertyCacheV
+)
+\
+_
+(
+GetPropertyCacheT
+)
+\
+_
+(
 LoadPropertyGeneric
 )
 \
