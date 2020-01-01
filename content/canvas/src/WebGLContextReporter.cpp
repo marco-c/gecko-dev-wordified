@@ -111,6 +111,11 @@ using
 namespace
 mozilla
 ;
+NS_IMPL_ISUPPORTS1
+(
+WebGLMemoryPressureObserver
+nsIObserver
+)
 class
 WebGLMemoryMultiReporter
 MOZ_FINAL
