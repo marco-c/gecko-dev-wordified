@@ -8633,9 +8633,7 @@ a
 better
 solution
 .
-Utils
-.
-timeout
+setTimeout
 (
 function
 (
