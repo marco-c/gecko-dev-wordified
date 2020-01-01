@@ -542,6 +542,11 @@ nsIContent
 *
 headPointer
 ;
+nsIContent
+*
+*
+deepTreeSurrogateParent
+;
 protected
 :
 jArray
@@ -1600,6 +1605,13 @@ nsIContent
 *
 *
 getHeadPointer
+(
+)
+;
+nsIContent
+*
+*
+getDeepTreeSurrogateParent
 (
 )
 ;
