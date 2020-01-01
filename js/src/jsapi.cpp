@@ -5916,10 +5916,6 @@ endif
 DEBUG
 *
 /
-InitMemorySubsystem
-(
-)
-;
 if
 (
 !

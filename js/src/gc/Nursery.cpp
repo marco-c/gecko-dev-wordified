@@ -258,6 +258,9 @@ heap
 =
 MapAlignedPages
 (
+runtime
+(
+)
 NurserySize
 Alignment
 )
@@ -524,6 +527,9 @@ start
 )
 UnmapPages
 (
+runtime
+(
+)
 (
 void
 *
