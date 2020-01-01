@@ -317,7 +317,7 @@ Link
 .
 *
 /
-nsresult
+void
 SetProtocol
 (
 const
@@ -326,7 +326,7 @@ nsAString
 aProtocol
 )
 ;
-nsresult
+void
 SetHost
 (
 const
@@ -335,7 +335,7 @@ nsAString
 aHost
 )
 ;
-nsresult
+void
 SetHostname
 (
 const
@@ -344,7 +344,7 @@ nsAString
 aHostname
 )
 ;
-nsresult
+void
 SetPathname
 (
 const
@@ -353,7 +353,7 @@ nsAString
 aPathname
 )
 ;
-nsresult
+void
 SetSearch
 (
 const
@@ -362,7 +362,7 @@ nsAString
 aSearch
 )
 ;
-nsresult
+void
 SetPort
 (
 const
@@ -371,7 +371,7 @@ nsAString
 aPort
 )
 ;
-nsresult
+void
 SetHash
 (
 const
@@ -380,7 +380,7 @@ nsAString
 aHash
 )
 ;
-nsresult
+void
 GetProtocol
 (
 nsAString
@@ -388,7 +388,7 @@ nsAString
 _protocol
 )
 ;
-nsresult
+void
 GetHost
 (
 nsAString
@@ -396,7 +396,7 @@ nsAString
 _host
 )
 ;
-nsresult
+void
 GetHostname
 (
 nsAString
@@ -404,7 +404,7 @@ nsAString
 _hostname
 )
 ;
-nsresult
+void
 GetPathname
 (
 nsAString
@@ -412,7 +412,7 @@ nsAString
 _pathname
 )
 ;
-nsresult
+void
 GetSearch
 (
 nsAString
@@ -420,7 +420,7 @@ nsAString
 _search
 )
 ;
-nsresult
+void
 GetPort
 (
 nsAString
@@ -428,7 +428,7 @@ nsAString
 _port
 )
 ;
-nsresult
+void
 GetHash
 (
 nsAString
