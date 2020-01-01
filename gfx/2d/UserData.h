@@ -170,7 +170,7 @@ count
 )
 entries
 (
-NULL
+nullptr
 )
 {
 }
@@ -536,7 +536,7 @@ userData
 }
 }
 return
-NULL
+nullptr
 ;
 }
 /
@@ -599,7 +599,7 @@ userData
 }
 }
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -703,7 +703,7 @@ entries
 ;
 entries
 =
-NULL
+nullptr
 ;
 count
 =

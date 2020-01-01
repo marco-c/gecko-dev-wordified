@@ -216,7 +216,7 @@ GetDataSurface
 )
 {
 return
-NULL
+nullptr
 ;
 }
 bool

@@ -211,7 +211,7 @@ aFormat
 If
 aOwner
 is
-NULL
+nullptr
 we
 make
 a

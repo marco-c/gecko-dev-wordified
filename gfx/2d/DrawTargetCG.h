@@ -813,7 +813,7 @@ NativeSurface
 const
 {
 return
-NULL
+nullptr
 ;
 }
 virtual
@@ -972,7 +972,7 @@ class
 set
 to
 *
-NULL
+nullptr
 otherwise
 )
 .

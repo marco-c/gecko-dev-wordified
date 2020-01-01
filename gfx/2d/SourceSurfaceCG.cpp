@@ -281,7 +281,7 @@ everytime
 CGColorSpaceRef
 colorSpace
 =
-NULL
+nullptr
 ;
 CGBitmapInfo
 bitinfo
@@ -291,7 +291,7 @@ bitinfo
 CGDataProviderRef
 dataProvider
 =
-NULL
+nullptr
 ;
 int
 bitsPerComponent
@@ -504,7 +504,7 @@ aStride
 colorSpace
 bitinfo
 dataProvider
-NULL
+nullptr
 true
 kCGRenderingIntentDefault
 )
@@ -524,7 +524,7 @@ return
 mImage
 !
 =
-NULL
+nullptr
 ;
 }
 DataSourceSurfaceCG
@@ -622,7 +622,7 @@ everytime
 CGColorSpaceRef
 colorSpace
 =
-NULL
+nullptr
 ;
 CGBitmapInfo
 bitinfo
@@ -632,7 +632,7 @@ bitinfo
 CGDataProviderRef
 dataProvider
 =
-NULL
+nullptr
 ;
 int
 bitsPerComponent
@@ -829,7 +829,7 @@ aStride
 colorSpace
 bitinfo
 dataProvider
-NULL
+nullptr
 true
 kCGRenderingIntentDefault
 )
@@ -935,7 +935,7 @@ d
 like
 to
 pass
-NULL
+nullptr
 as
 the
 first
@@ -965,7 +965,7 @@ will
 return
 /
 /
-NULL
+nullptr
 instead
 of
 the
@@ -1036,7 +1036,7 @@ if
 mCg
 =
 =
-NULL
+nullptr
 )
 {
 /
@@ -1368,7 +1368,7 @@ mCg
 ;
 mImage
 =
-NULL
+nullptr
 ;
 }
 void
@@ -1475,7 +1475,7 @@ everytime
 CGColorSpaceRef
 colorSpace
 =
-NULL
+nullptr
 ;
 CGBitmapInfo
 bitinfo
@@ -1485,7 +1485,7 @@ bitinfo
 CGDataProviderRef
 dataProvider
 =
-NULL
+nullptr
 ;
 int
 bitsPerComponent
@@ -1548,7 +1548,7 @@ the
 CGDataProviderCreateWithData
 info
 =
-NULL
+nullptr
 ;
 }
 else
@@ -1608,7 +1608,7 @@ mStride
 colorSpace
 bitinfo
 dataProvider
-NULL
+nullptr
 true
 kCGRenderingIntentDefault
 )
@@ -1757,15 +1757,15 @@ mImage
 ;
 mImage
 =
-NULL
+nullptr
 ;
 mCg
 =
-NULL
+nullptr
 ;
 mDrawTarget
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1897,7 +1897,7 @@ cg
 ;
 mImage
 =
-NULL
+nullptr
 ;
 aDrawTarget
 -
@@ -2109,7 +2109,7 @@ everytime
 CGColorSpaceRef
 colorSpace
 =
-NULL
+nullptr
 ;
 CGBitmapInfo
 bitinfo
@@ -2119,7 +2119,7 @@ bitinfo
 CGDataProviderRef
 dataProvider
 =
-NULL
+nullptr
 ;
 int
 bitsPerComponent
@@ -2179,7 +2179,7 @@ mStride
 colorSpace
 bitinfo
 dataProvider
-NULL
+nullptr
 true
 kCGRenderingIntentDefault
 )
