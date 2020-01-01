@@ -6117,8 +6117,9 @@ SetAutoValue
 ;
 mMinWidth
 .
-SetAutoValue
+SetCoordValue
 (
+0
 )
 ;
 mMaxWidth
@@ -6848,6 +6849,16 @@ aCoord
 )
 {
 return
+aCoord
+.
+GetUnit
+(
+)
+=
+=
+eStyleUnit_Auto
+|
+|
 aCoord
 .
 HasPercent
