@@ -835,9 +835,6 @@ nsIControllerCommandTable
 inCommandTable
 )
 {
-nsresult
-rv
-;
 /
 /
 These
