@@ -245,15 +245,6 @@ void
 data
 )
 {
-/
-/
-Just
-need
-this
-not
-to
-fail
-.
 if
 (
 !
