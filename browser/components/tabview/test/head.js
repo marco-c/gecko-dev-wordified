@@ -2156,9 +2156,6 @@ win
 undoCloseTab
 (
 index
-|
-|
-0
 )
 ;
 let
