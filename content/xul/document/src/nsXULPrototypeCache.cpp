@@ -1963,7 +1963,7 @@ aURI
 {
 mCacheURITable
 .
-Remove
+RemoveEntry
 (
 aURI
 )
@@ -3582,10 +3582,9 @@ globals
 .
 mCacheURITable
 .
-Put
+PutEntry
 (
 aURI
-1
 )
 ;
 return
