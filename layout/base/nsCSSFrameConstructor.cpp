@@ -10337,7 +10337,6 @@ ToInteger
 (
 &
 error
-10
 )
 ;
 contentString

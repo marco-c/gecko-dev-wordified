@@ -2588,7 +2588,6 @@ ToInteger
 (
 &
 rv
-kRadix10
 )
 ;
 if
