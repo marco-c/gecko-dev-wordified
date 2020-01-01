@@ -690,7 +690,6 @@ document
 body
 submitSuccess
 submitError
-true
 )
 )
 link
