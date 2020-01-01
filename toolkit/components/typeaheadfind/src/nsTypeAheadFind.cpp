@@ -6538,12 +6538,11 @@ nsIFrame
 *
 frame
 =
-aPresShell
+content
 -
 >
-GetPrimaryFrameFor
+GetPrimaryFrame
 (
-content
 )
 ;
 if

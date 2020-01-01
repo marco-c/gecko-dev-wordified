@@ -26109,12 +26109,11 @@ nsIFrame
 *
 frame
 =
-pPresShell
+shellContent
 -
 >
-GetPrimaryFrameFor
+GetPrimaryFrame
 (
-shellContent
 )
 ;
 PRBool

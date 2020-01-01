@@ -18226,11 +18226,6 @@ nsIFrame
 *
 frame
 =
-presShell
--
->
-GetPrimaryFrameFor
-(
 nsCOMPtr
 <
 nsIContent
@@ -18241,6 +18236,10 @@ do_QueryInterface
 mCurrentNode
 )
 )
+-
+>
+GetPrimaryFrame
+(
 )
 ;
 if
