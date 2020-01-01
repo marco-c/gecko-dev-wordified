@@ -112,7 +112,7 @@ JSCustomObject
 class
 JSCustomObjectBuilder
 ;
-class
+struct
 JSContext
 ;
 class
