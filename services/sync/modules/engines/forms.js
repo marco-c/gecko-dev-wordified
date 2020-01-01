@@ -1380,7 +1380,7 @@ this
 ;
 /
 /
-nsHTMLFormElement
+HTMLFormElement
 doesn
 '
 t
