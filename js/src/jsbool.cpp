@@ -1103,9 +1103,9 @@ JSContext
 cx
 JSBool
 b
-JSCharVector
+JSCharBuffer
 &
-buf
+cb
 )
 {
 return
@@ -1113,7 +1113,7 @@ b
 ?
 js_AppendLiteral
 (
-buf
+cb
 "
 true
 "
@@ -1121,7 +1121,7 @@ true
 :
 js_AppendLiteral
 (
-buf
+cb
 "
 false
 "

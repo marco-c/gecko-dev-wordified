@@ -29801,7 +29801,7 @@ CHECK_REQUEST
 cx
 )
 ;
-JSCharVector
+JSCharBuffer
 cb
 (
 cx

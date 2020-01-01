@@ -632,9 +632,9 @@ JSContext
 cx
 JSBool
 b
-JSCharVector
+JSCharBuffer
 &
-buf
+cb
 )
 ;
 extern

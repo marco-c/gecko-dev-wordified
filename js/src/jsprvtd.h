@@ -1149,7 +1149,7 @@ JSTempVector
 jschar
 32
 >
-JSCharVector
+JSCharBuffer
 ;
 }
 #

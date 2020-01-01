@@ -5157,9 +5157,9 @@ JSContext
 cx
 jsval
 v
-JSCharVector
+JSCharBuffer
 &
-buf
+cb
 )
 {
 /
@@ -5300,7 +5300,7 @@ arrSize
 size_t
 sizeBefore
 =
-buf
+cb
 .
 size
 (
@@ -5309,7 +5309,7 @@ size
 if
 (
 !
-buf
+cb
 .
 growBy
 (
@@ -5323,7 +5323,7 @@ jschar
 *
 appendBegin
 =
-buf
+cb
 .
 begin
 (

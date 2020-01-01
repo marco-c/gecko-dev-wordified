@@ -1407,7 +1407,7 @@ inline
 bool
 AppendString
 (
-JSCharVector
+JSCharBuffer
 &
 cb
 JSString
@@ -12676,7 +12676,7 @@ MakeXMLSpecialString
 JSContext
 *
 cx
-JSCharVector
+JSCharBuffer
 &
 cb
 JSString
@@ -12788,7 +12788,7 @@ MakeXMLCDATAString
 JSContext
 *
 cx
-JSCharVector
+JSCharBuffer
 &
 cb
 JSString
@@ -12874,7 +12874,7 @@ MakeXMLCommentString
 JSContext
 *
 cx
-JSCharVector
+JSCharBuffer
 &
 cb
 JSString
@@ -12945,7 +12945,7 @@ MakeXMLPIString
 JSContext
 *
 cx
-JSCharVector
+JSCharBuffer
 &
 cb
 JSString
@@ -13050,7 +13050,7 @@ AppendAttributeValue
 JSContext
 *
 cx
-JSCharVector
+JSCharBuffer
 &
 cb
 JSString
@@ -13129,7 +13129,7 @@ EscapeElementValue
 JSContext
 *
 cx
-JSCharVector
+JSCharBuffer
 &
 cb
 JSString
@@ -13310,7 +13310,7 @@ EscapeAttributeValue
 JSContext
 *
 cx
-JSCharVector
+JSCharBuffer
 &
 cb
 JSString
@@ -15225,7 +15225,7 @@ JSBool
 pretty
 indentKids
 ;
-JSCharVector
+JSCharBuffer
 cb
 (
 cx
@@ -17792,7 +17792,7 @@ v
 )
 )
 {
-JSCharVector
+JSCharBuffer
 cb
 (
 cx
@@ -17860,7 +17860,7 @@ str
 return
 NULL
 ;
-JSCharVector
+JSCharBuffer
 cb
 (
 cx
@@ -45949,7 +45949,7 @@ JSBool
 quote
 )
 {
-JSCharVector
+JSCharBuffer
 cb
 (
 cx
@@ -46255,7 +46255,7 @@ JSString
 str
 )
 {
-JSCharVector
+JSCharBuffer
 cb
 (
 cx
@@ -48846,7 +48846,7 @@ JSString
 str
 )
 {
-JSCharVector
+JSCharBuffer
 cb
 (
 cx
@@ -48873,7 +48873,7 @@ JSString
 str
 )
 {
-JSCharVector
+JSCharBuffer
 cb
 (
 cx
@@ -48903,7 +48903,7 @@ JSString
 str
 )
 {
-JSCharVector
+JSCharBuffer
 cb
 (
 cx

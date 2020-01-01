@@ -8428,9 +8428,9 @@ BufferToString
 JSContext
 *
 cx
-JSCharVector
+JSCharBuffer
 &
-buf
+cb
 jsval
 *
 rval
@@ -8443,7 +8443,7 @@ str
 js_NewStringFromCharBuffer
 (
 cx
-buf
+cb
 )
 ;
 if
@@ -8637,8 +8637,8 @@ JSString
 .
 *
 /
-JSCharVector
-buf
+JSCharBuffer
+cb
 (
 cx
 )
@@ -8675,7 +8675,7 @@ sharpchars
 0
 )
 ;
-buf
+cb
 .
 replaceRawBuffer
 (
@@ -8701,7 +8701,7 @@ MAKE_SHARP
 he
 )
 ;
-buf
+cb
 .
 replaceRawBuffer
 (
@@ -8728,7 +8728,7 @@ if
 !
 js_AppendLiteral
 (
-buf
+cb
 "
 [
 ]
@@ -8755,7 +8755,7 @@ endif
 if
 (
 !
-buf
+cb
 .
 append
 (
@@ -8929,7 +8929,7 @@ buffer
 if
 (
 !
-buf
+cb
 .
 append
 (
@@ -8955,7 +8955,7 @@ if
 !
 js_AppendLiteral
 (
-buf
+cb
 "
 "
 )
@@ -8973,7 +8973,7 @@ hole
 if
 (
 !
-buf
+cb
 .
 append
 (
@@ -8997,7 +8997,7 @@ buffer
 if
 (
 !
-buf
+cb
 .
 append
 (
@@ -9017,7 +9017,7 @@ if
 BufferToString
 (
 cx
-buf
+cb
 vp
 )
 )
@@ -9411,8 +9411,8 @@ JSString
 .
 *
 /
-JSCharVector
-buf
+JSCharBuffer
+cb
 (
 cx
 )
@@ -9608,7 +9608,7 @@ js_ValueToCharBuffer
 cx
 *
 rval
-buf
+cb
 )
 )
 goto
@@ -9636,7 +9636,7 @@ length
 if
 (
 !
-buf
+cb
 .
 append
 (
@@ -9663,7 +9663,7 @@ if
 BufferToString
 (
 cx
-buf
+cb
 rval
 )
 )
