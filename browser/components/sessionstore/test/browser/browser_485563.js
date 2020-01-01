@@ -476,7 +476,9 @@ function
 aEvent
 )
 {
-this
+tab
+.
+linkedBrowser
 .
 removeEventListener
 (

@@ -494,7 +494,7 @@ function
 aEvent
 )
 {
-this
+browser
 .
 removeEventListener
 (
@@ -556,7 +556,7 @@ function
 aEvent
 )
 {
-this
+browser
 .
 removeEventListener
 (
@@ -704,7 +704,7 @@ function
 aEvent
 )
 {
-this
+browser
 .
 removeEventListener
 (
@@ -766,7 +766,7 @@ function
 aEvent
 )
 {
-this
+browser
 .
 removeEventListener
 (
