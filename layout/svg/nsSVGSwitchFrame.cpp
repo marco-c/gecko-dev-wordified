@@ -975,15 +975,6 @@ currently
 underway
 .
 bool
-isFirstReflow
-=
-(
-mState
-&
-NS_FRAME_FIRST_REFLOW
-)
-;
-bool
 outerSVGHasHadFirstReflow
 =
 (
@@ -1136,7 +1127,9 @@ child
 }
 if
 (
-isFirstReflow
+mState
+&
+NS_FRAME_FIRST_REFLOW
 )
 {
 /
