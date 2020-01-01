@@ -641,6 +641,13 @@ h
 #
 include
 "
+mozStorageHelper
+.
+h
+"
+#
+include
+"
 nsIMutableArray
 .
 h
@@ -1992,6 +1999,13 @@ rv
 rv
 )
 ;
+mozStorageTransaction
+transaction
+(
+mDBConn
+PR_TRUE
+)
+;
 /
 /
 OK
@@ -2592,6 +2606,9 @@ rv
 )
 continue
 ;
+(
+void
+)
 AddDownloadToDB
 (
 name
