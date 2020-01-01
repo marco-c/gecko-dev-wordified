@@ -428,7 +428,7 @@ services
 -
 sync
 /
-service
+main
 .
 js
 "
