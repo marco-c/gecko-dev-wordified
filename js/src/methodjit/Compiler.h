@@ -3626,7 +3626,7 @@ jsop_instanceof
 )
 ;
 bool
-jsop_intrinsicname
+jsop_intrinsic
 (
 PropertyName
 *

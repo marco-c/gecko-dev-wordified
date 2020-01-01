@@ -6133,7 +6133,7 @@ name
 ;
 }
 case
-JSOP_INTRINSICNAME
+JSOP_GETINTRINSIC
 :
 case
 JSOP_CALLINTRINSIC
@@ -6159,7 +6159,7 @@ asPropertyName
 )
 ;
 return
-jsop_intrinsicname
+jsop_intrinsic
 (
 name
 )
@@ -34780,7 +34780,7 @@ bool
 IonBuilder
 :
 :
-jsop_intrinsicname
+jsop_intrinsic
 (
 HandlePropertyName
 name

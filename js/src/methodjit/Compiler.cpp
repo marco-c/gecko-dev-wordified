@@ -20073,7 +20073,7 @@ JSOP_NAME
 )
 BEGIN_CASE
 (
-JSOP_INTRINSICNAME
+JSOP_GETINTRINSIC
 )
 BEGIN_CASE
 (
@@ -20098,7 +20098,7 @@ PC
 if
 (
 !
-jsop_intrinsicname
+jsop_intrinsic
 (
 name
 knownPushedType
@@ -20130,7 +20130,7 @@ name
 }
 END_CASE
 (
-JSOP_INTRINSICNAME
+JSOP_GETINTRINSIC
 )
 BEGIN_CASE
 (
@@ -41050,7 +41050,7 @@ mjit
 Compiler
 :
 :
-jsop_intrinsicname
+jsop_intrinsic
 (
 PropertyName
 *
