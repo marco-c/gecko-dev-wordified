@@ -4972,7 +4972,7 @@ compartment
 >
 types
 .
-newAllocationSiteTypeObject
+addAllocationSiteTypeObject
 (
 cx
 key
@@ -5019,7 +5019,7 @@ compartment
 >
 types
 .
-newAllocationSiteTypeObject
+addAllocationSiteTypeObject
 (
 cx
 key
