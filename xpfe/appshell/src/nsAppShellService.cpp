@@ -2414,9 +2414,14 @@ nsIXULChromeRegistry
 >
 reg
 =
-do_GetService
+mozilla
+:
+:
+services
+:
+:
+GetXULChromeRegistryService
 (
-NS_CHROMEREGISTRY_CONTRACTID
 )
 ;
 if

@@ -4888,9 +4888,14 @@ nsIStringBundleService
 >
 sbs
 =
-do_GetService
+mozilla
+:
+:
+services
+:
+:
+GetStringBundleService
 (
-NS_STRINGBUNDLE_CONTRACTID
 )
 ;
 if

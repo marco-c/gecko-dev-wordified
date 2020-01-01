@@ -16367,9 +16367,14 @@ nsIChromeRegistry
 >
 chromeReg
 =
-do_GetService
+mozilla
+:
+:
+services
+:
+:
+GetChromeRegistryService
 (
-NS_CHROMEREGISTRY_CONTRACTID
 )
 ;
 if
