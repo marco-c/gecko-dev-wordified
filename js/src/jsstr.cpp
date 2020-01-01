@@ -8651,8 +8651,8 @@ reobj_
 ;
 }
 RegExpMatcher
-*
-getMatcher
+&
+matcher
 (
 )
 const
@@ -8666,7 +8666,6 @@ null
 )
 ;
 return
-&
 matcher_
 ;
 }
@@ -9766,12 +9765,12 @@ rval
 )
 {
 RegExpMatcher
-*
+&
 matcher
 =
 regExpPair
 .
-getMatcher
+matcher
 (
 )
 ;
@@ -9820,8 +9819,7 @@ length
 if
 (
 matcher
--
->
+.
 global
 (
 )
@@ -10509,11 +10507,10 @@ if
 rep
 -
 >
-getMatcher
+matcher
 (
 )
--
->
+.
 global
 (
 )
@@ -10765,7 +10762,7 @@ res
 rep
 -
 >
-getMatcher
+matcher
 (
 )
 linearStr
@@ -16338,7 +16335,7 @@ RegExpStatics
 res
 ;
 RegExpMatcher
-*
+&
 matcher
 ;
 public
@@ -16353,7 +16350,7 @@ true
 SplitRegExpMatcher
 (
 RegExpMatcher
-*
+&
 matcher
 RegExpStatics
 *
@@ -17149,7 +17146,6 @@ strlin
 limit
 SplitRegExpMatcher
 (
-&
 matcher
 cx
 -
