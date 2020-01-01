@@ -31709,7 +31709,7 @@ GetPrincipal
 /
 /
 aCalleePrincipal
-nsnull
+nullptr
 /
 /
 aJSCallerContext
