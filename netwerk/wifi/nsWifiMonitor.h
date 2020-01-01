@@ -86,6 +86,13 @@ h
 #
 include
 "
+nsProxyRelease
+.
+h
+"
+#
+include
+"
 nsIThread
 .
 h
@@ -199,7 +206,10 @@ public
 :
 nsWifiListener
 (
+nsMainThreadPtrHolder
+<
 nsIWifiListener
+>
 *
 aListener
 )
@@ -219,7 +229,7 @@ nsWifiListener
 )
 {
 }
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsIWifiListener
 >

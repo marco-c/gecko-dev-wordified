@@ -321,7 +321,14 @@ AppendElement
 (
 nsWifiListener
 (
+new
+nsMainThreadPtrHolder
+<
+nsIWifiListener
+>
+(
 aListener
+)
 )
 )
 ;
