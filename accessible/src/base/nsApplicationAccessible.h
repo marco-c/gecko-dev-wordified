@@ -976,6 +976,16 @@ InvalidateChildren
 (
 )
 ;
+/
+/
+ActionAccessible
+virtual
+KeyBinding
+AccessKey
+(
+)
+const
+;
 protected
 :
 /
