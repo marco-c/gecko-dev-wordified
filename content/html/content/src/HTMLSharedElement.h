@@ -102,13 +102,6 @@ mozilla_dom_HTMLSharedElement_h
 #
 include
 "
-nsIDOMHTMLParamElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLBaseElement
 .
 h
@@ -186,8 +179,6 @@ MOZ_FINAL
 public
 nsGenericHTMLElement
 public
-nsIDOMHTMLParamElement
-public
 nsIDOMHTMLBaseElement
 public
 nsIDOMHTMLDirectoryElement
@@ -237,10 +228,6 @@ NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 /
 nsIDOMHTMLElement
 NS_FORWARD_NSIDOMHTMLELEMENT_TO_GENERIC
-/
-/
-nsIDOMHTMLParamElement
-NS_DECL_NSIDOMHTMLPARAMELEMENT
 /
 /
 nsIDOMHTMLBaseElement
@@ -422,7 +409,7 @@ MOZ_OVERRIDE
 return
 static_cast
 <
-nsIDOMHTMLParamElement
+nsIDOMHTMLBaseElement
 *
 >
 (
