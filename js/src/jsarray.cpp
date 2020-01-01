@@ -2631,7 +2631,7 @@ index
 .
 isMagic
 (
-JS_ARRAY_HOLE
+JS_ARGS_HOLE
 )
 )
 {
