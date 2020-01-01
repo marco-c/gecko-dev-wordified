@@ -11166,6 +11166,16 @@ if
 shell
 )
 {
+#
+ifdef
+DEBUG
+var
+shouldCheck
+=
+false
+;
+#
+else
 var
 shouldCheck
 =
@@ -11173,6 +11183,8 @@ shell
 .
 shouldCheckDefaultBrowser
 ;
+#
+endif
 var
 willRecoverSession
 =
