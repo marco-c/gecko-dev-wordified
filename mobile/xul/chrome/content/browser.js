@@ -19619,7 +19619,6 @@ NodeFilter
 .
 SHOW_TEXT
 null
-false
 )
 ;
 while

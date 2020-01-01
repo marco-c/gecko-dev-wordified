@@ -218,7 +218,6 @@ NodeFilter
 .
 SHOW_COMMENT
 null
-false
 )
 ;
 while
