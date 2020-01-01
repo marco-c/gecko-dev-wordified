@@ -12365,7 +12365,7 @@ do_QueryInterface
 ourWindow
 -
 >
-GetChromeEventHandler
+GetParentTarget
 (
 )
 )
