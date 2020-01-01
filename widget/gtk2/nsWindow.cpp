@@ -16946,10 +16946,11 @@ for
 onkeypress
 event
 .
-flags
-|
+mFlags
+.
+mDefaultPrevented
 =
-NS_EVENT_FLAG_NO_DEFAULT
+true
 ;
 }
 /
