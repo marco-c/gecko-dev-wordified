@@ -10060,7 +10060,7 @@ address
 else
 masm
 .
-storePtr
+storePayload
 (
 T0
 address
@@ -10221,7 +10221,7 @@ T0
 ;
 masm
 .
-storePtr
+storePayload
 (
 T0
 address
@@ -10274,7 +10274,7 @@ T0
 ;
 masm
 .
-storePtr
+storePayload
 (
 T0
 address

@@ -29938,7 +29938,7 @@ pop
 ;
 frame
 .
-push
+pushWord
 (
 Address
 (
@@ -30094,7 +30094,7 @@ pop
 ;
 frame
 .
-push
+pushWord
 (
 Address
 (
@@ -30198,7 +30198,7 @@ pop
 ;
 frame
 .
-push
+pushWord
 (
 Address
 (
