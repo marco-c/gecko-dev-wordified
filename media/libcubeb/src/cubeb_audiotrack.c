@@ -2878,6 +2878,10 @@ get_backend_id
 =
 audiotrack_get_backend_id
 .
+get_max_channel_count
+=
+audiotrack_get_max_channel_count
+.
 destroy
 =
 audiotrack_destroy
