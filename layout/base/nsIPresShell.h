@@ -6204,7 +6204,7 @@ mFrameConstructor
 /
 /
 [
-OWNS
+STRONG
 ]
 nsIViewManager
 *

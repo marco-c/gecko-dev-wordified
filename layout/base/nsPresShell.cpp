@@ -9143,8 +9143,10 @@ endif
 delete
 mStyleSet
 ;
-delete
+NS_IF_RELEASE
+(
 mFrameConstructor
+)
 ;
 mCurrentEventContent
 =
@@ -9357,6 +9359,11 @@ NS_ENSURE_TRUE
 (
 mFrameConstructor
 NS_ERROR_OUT_OF_MEMORY
+)
+;
+NS_ADDREF
+(
+mFrameConstructor
 )
 ;
 /
