@@ -796,11 +796,7 @@ up
 do_timeout
 (
 0
-"
 gNextTestPart
-(
-)
-"
 )
 ;
 }

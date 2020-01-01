@@ -667,12 +667,7 @@ instead
 do_timeout
 (
 1
-"
 triggerNextTest
-(
-)
-;
-"
 )
 ;
 }

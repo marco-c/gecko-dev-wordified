@@ -594,12 +594,7 @@ TOPIC_CUSTOMIZATION_COMPLETE
 do_timeout
 (
 0
-"
 continue_test
-(
-)
-;
-"
 )
 ;
 }

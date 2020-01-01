@@ -380,12 +380,7 @@ hitServer
 do_timeout
 (
 0
-"
 run_next_test
-(
-)
-;
-"
 )
 ;
 }

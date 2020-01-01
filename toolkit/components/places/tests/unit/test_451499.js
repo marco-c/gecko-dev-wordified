@@ -1122,12 +1122,7 @@ added
 do_timeout
 (
 3500
-"
 end_test
-(
-)
-;
-"
 )
 ;
 }

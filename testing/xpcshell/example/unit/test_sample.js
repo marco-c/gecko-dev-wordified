@@ -546,12 +546,7 @@ do_test_pending
 do_timeout
 (
 100
-"
 do_test_finished
-(
-)
-;
-"
 )
 ;
 }

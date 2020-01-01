@@ -392,11 +392,7 @@ NS_ERROR_ALREADY_OPENED
 do_timeout
 (
 0
-"
 after_channel_closed
-(
-)
-"
 )
 ;
 }

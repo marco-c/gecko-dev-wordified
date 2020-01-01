@@ -699,11 +699,7 @@ setDefaultPrefs
 do_timeout
 (
 0
-"
 run_test_pt1
-(
-)
-"
 )
 ;
 }
@@ -968,11 +964,7 @@ necko
 do_timeout
 (
 0
-"
 run_test_pt2
-(
-)
-"
 )
 ;
 }

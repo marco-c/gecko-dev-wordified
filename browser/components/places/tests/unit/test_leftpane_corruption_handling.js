@@ -1103,12 +1103,7 @@ do_test_pending
 do_timeout
 (
 0
-"
 run_next_test
-(
-)
-;
-"
 )
 ;
 }
@@ -1224,12 +1219,7 @@ test
 do_timeout
 (
 0
-"
 run_next_test
-(
-)
-;
-"
 )
 ;
 }

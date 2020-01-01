@@ -800,12 +800,7 @@ LAZY_MESSAGE_TIMEOUT
 do_timeout
 (
 3500
-"
 confirm_results
-(
-)
-;
-"
 )
 ;
 }

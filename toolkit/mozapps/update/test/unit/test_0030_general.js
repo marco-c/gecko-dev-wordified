@@ -496,11 +496,7 @@ DIR_DATA
 do_timeout
 (
 0
-"
 run_test_pt1
-(
-)
-"
 )
 ;
 }
@@ -1472,11 +1468,7 @@ complete
 do_timeout
 (
 0
-"
 gCheckFunc
-(
-)
-"
 )
 ;
 }

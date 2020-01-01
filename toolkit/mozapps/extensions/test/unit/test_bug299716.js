@@ -1942,11 +1942,7 @@ complete
 do_timeout
 (
 DELAY
-"
 run_test_pt2
-(
-)
-"
 )
 ;
 }

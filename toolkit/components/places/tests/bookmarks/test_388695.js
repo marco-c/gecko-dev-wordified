@@ -624,12 +624,7 @@ DEFAULT_INDEX
 do_timeout
 (
 100
-"
 phase2
-(
-)
-;
-"
 )
 ;
 }
@@ -684,12 +679,7 @@ gItemId1
 do_timeout
 (
 100
-"
 phase3
-(
-)
-;
-"
 )
 ;
 }

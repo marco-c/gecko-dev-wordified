@@ -733,12 +733,7 @@ do_test_pending
 do_timeout
 (
 1000
-"
 continue_test
-(
-)
-;
-"
 )
 ;
 }
@@ -808,12 +803,7 @@ later
 do_timeout
 (
 1000
-"
 continue_test
-(
-)
-;
-"
 )
 ;
 return
