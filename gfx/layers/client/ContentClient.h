@@ -556,7 +556,7 @@ SwapBuffers
 is
 called
 in
-repsonse
+response
 to
 the
 transaction
@@ -1118,7 +1118,7 @@ side
 to
 the
 *
-comnpositing
+compositing
 side
 with
 the
@@ -1786,7 +1786,7 @@ texture
 hosts
 in
 *
-repsonse
+response
 to
 our
 UpdateTextureRegion
@@ -1799,7 +1799,7 @@ its
 references
 .
 In
-repsonse
+response
 to
 the
 compositor
@@ -1986,7 +1986,7 @@ s
 memory
 directly
 it
-most
+must
 upload
 it
 to

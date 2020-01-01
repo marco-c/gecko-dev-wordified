@@ -1606,7 +1606,7 @@ source
 in
 a
 SurfacePattern
-of
+or
 a
 DrawSurface
 call

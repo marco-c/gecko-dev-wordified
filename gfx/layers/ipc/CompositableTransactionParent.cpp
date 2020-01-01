@@ -638,7 +638,7 @@ time
 to
 attach
 the
-conmpositable
+compositable
 to
 a
 /

@@ -1455,7 +1455,7 @@ If
 aFlags
 =
 =
-CURRENT_FORCE
+ForceMakeCurrent
 then
 we
 will

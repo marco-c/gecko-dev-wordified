@@ -184,7 +184,7 @@ content
 side
 of
 a
-ConmpositableClient
+CompositableClient
 /
 *
 CompositableHost

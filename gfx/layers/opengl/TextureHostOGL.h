@@ -190,7 +190,8 @@ it
 is
 important
 to
-becareful
+be
+careful
 about
 the
 ownership
