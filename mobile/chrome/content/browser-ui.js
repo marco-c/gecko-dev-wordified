@@ -14833,6 +14833,7 @@ textbox
 show
 :
 function
+selectHelperShow
 (
 aList
 )
@@ -15217,7 +15218,7 @@ val
 dock
 :
 function
-dock
+selectHelperDock
 (
 aContainer
 )
@@ -15250,7 +15251,7 @@ true
 undock
 :
 function
-undock
+selectHelperUndock
 (
 )
 {
@@ -15294,6 +15295,7 @@ false
 reset
 :
 function
+selectHelperReset
 (
 )
 {
@@ -15369,7 +15371,7 @@ value
 resize
 :
 function
-resize
+selectHelperResize
 (
 )
 {
@@ -15399,6 +15401,7 @@ px
 hide
 :
 function
+selectHelperResize
 (
 )
 {
@@ -15472,6 +15475,7 @@ reset
 filter
 :
 function
+selectHelperFilter
 (
 aValue
 )
@@ -15563,6 +15567,7 @@ true
 unselectAll
 :
 function
+selectHelperUnselectAll
 (
 )
 {
@@ -15616,6 +15621,7 @@ false
 selectByIndex
 :
 function
+selectHelperSelectByIndex
 (
 aIndex
 )
@@ -15714,6 +15720,7 @@ break
 _getSelectedIndexes
 :
 function
+_selectHelperGetSelectedIndexes
 (
 )
 {
@@ -15796,6 +15803,7 @@ indexes
 _scrollElementIntoView
 :
 function
+_selectHelperScrollElementIntoView
 (
 aElement
 )
@@ -15948,6 +15956,7 @@ scrollTo
 _forEachOption
 :
 function
+_selectHelperForEachOption
 (
 aCallback
 )
@@ -16012,6 +16021,7 @@ i
 _updateControl
 :
 function
+_selectHelperUpdateControl
 (
 )
 {
@@ -16120,6 +16130,7 @@ ChoiceChange
 handleEvent
 :
 function
+selectHelperHandleEvent
 (
 aEvent
 )
@@ -16256,6 +16267,7 @@ break
 onSelect
 :
 function
+selectHelperOnSelect
 (
 aIndex
 aSelected
