@@ -2304,6 +2304,19 @@ setName
 type
 )
             
+parent
+.
+deps
+.
+extend
+(
+self
+.
+IDL
+.
+deps
+)
+            
 return
         
 raise
@@ -2346,6 +2359,13 @@ self
 productions
 =
 productions
+        
+self
+.
+deps
+=
+[
+]
     
 def
 setName
@@ -3553,6 +3573,44 @@ ref
 '
 :
             
+#
+jsval
+outparams
+are
+odd
+for
+compatibility
+with
+existing
+code
+            
+if
+self
+.
+specialtype
+=
+=
+'
+jsval
+'
+and
+calltype
+=
+=
+'
+out
+'
+:
+                
+m
+=
+'
+*
+'
+            
+else
+:
+                
 m
 =
 '
@@ -5006,6 +5064,10 @@ undefined
 =
 None
     
+deprecated
+=
+False
+    
 def
 __init__
 (
@@ -5363,6 +5425,21 @@ implicit_jscontext
 self
 .
 implicit_jscontext
+=
+True
+                
+elif
+name
+=
+=
+'
+deprecated
+'
+:
+                    
+self
+.
+deprecated
 =
 True
                 
@@ -5688,6 +5765,10 @@ optional_argc
 =
 False
     
+deprecated
+=
+False
+    
 def
 __init__
 (
@@ -5864,6 +5945,21 @@ optional_argc
 self
 .
 optional_argc
+=
+True
+            
+elif
+name
+=
+=
+'
+deprecated
+'
+:
+                
+self
+.
+deprecated
 =
 True
             
@@ -10509,7 +10605,8 @@ input
 data
 )
         
-return
+idl
+=
 self
 .
 parser
@@ -10520,6 +10617,25 @@ lexer
 =
 self
 )
+        
+if
+filename
+is
+not
+None
+:
+            
+idl
+.
+deps
+.
+append
+(
+filename
+)
+        
+return
+idl
     
 def
 getLocation
