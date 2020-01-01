@@ -472,6 +472,10 @@ gfxSize
 size
 gfxImageFormat
 format
+PRBool
+aForPrinting
+=
+PR_FALSE
 )
 ;
 gfxQuartzSurface
@@ -482,6 +486,10 @@ const
 gfxSize
 &
 size
+PRBool
+aForPrinting
+=
+PR_FALSE
 )
 ;
 gfxQuartzSurface
@@ -489,6 +497,10 @@ gfxQuartzSurface
 cairo_surface_t
 *
 csurf
+PRBool
+aForPrinting
+=
+PR_FALSE
 )
 ;
 virtual
@@ -518,6 +530,13 @@ return
 mCGContext
 ;
 }
+virtual
+PRInt32
+GetDefaultContextFlags
+(
+)
+const
+;
 protected
 :
 CGContextRef
@@ -525,6 +544,9 @@ mCGContext
 ;
 gfxSize
 mSize
+;
+PRPackedBool
+mForPrinting
 ;
 }
 ;

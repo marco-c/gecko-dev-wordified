@@ -628,6 +628,7 @@ PRInt32
 GetDefaultContextFlags
 (
 )
+const
 ;
 private
 :

@@ -2097,6 +2097,17 @@ ignoreScale
 )
 const
 {
+if
+(
+GetFlags
+(
+)
+&
+FLAG_DISABLE_SNAPPING
+)
+return
+PR_FALSE
+;
 /
 /
 if
