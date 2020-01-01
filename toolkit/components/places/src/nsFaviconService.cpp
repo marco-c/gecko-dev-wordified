@@ -7819,8 +7819,11 @@ PR_Now
 (
 )
 +
-PR_MIN
+NS_MIN
 (
+(
+PRTime
+)
 seconds
 *
 PR_USEC_PER_SEC
