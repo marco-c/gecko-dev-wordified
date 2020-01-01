@@ -2569,14 +2569,6 @@ script
 .
 *
 /
-JS_ASSERT
-(
-op
-=
-=
-JSOP_DIV
-)
-;
 stubcc
 .
 linkExit
