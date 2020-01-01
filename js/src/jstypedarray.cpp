@@ -7678,8 +7678,6 @@ _typedArray
 :
 obj_deleteProperty
 \
-js_DefaultValue
-\
 _typedArray
 :
 :

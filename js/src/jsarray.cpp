@@ -6825,7 +6825,6 @@ array_setProperty
 array_getAttributes
 array_setAttributes
 array_deleteProperty
-js_DefaultValue
 js_Enumerate
 array_typeOf
 array_trace
