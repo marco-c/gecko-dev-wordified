@@ -5695,7 +5695,7 @@ return
 jp
 ;
 }
-bool
+JSBool
 js_DestroyPrinter
 (
 JSPrinter
