@@ -640,13 +640,6 @@ perl
 /
 }
 ;
-namespace
-js
-{
-class
-AutoValueRooter
-;
-}
 extern
 JS_FRIEND_API
 (
@@ -660,10 +653,7 @@ cx
 JSRegExpStatics
 *
 statics
-js
-:
-:
-AutoValueRooter
+JSTempValueRooter
 *
 tvr
 )
@@ -681,10 +671,7 @@ cx
 JSRegExpStatics
 *
 statics
-js
-:
-:
-AutoValueRooter
+JSTempValueRooter
 *
 tvr
 )
