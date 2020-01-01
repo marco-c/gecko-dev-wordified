@@ -1196,6 +1196,11 @@ readbackManager
 )
 ;
 void
+SetupInputAssembler
+(
+)
+;
+void
 SetViewport
 (
 const
