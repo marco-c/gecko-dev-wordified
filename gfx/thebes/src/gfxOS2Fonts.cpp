@@ -3731,8 +3731,10 @@ gfxTextRun
 *
 textRun
 =
-new
 gfxTextRun
+:
+:
+Create
 (
 aParams
 aString
@@ -3992,8 +3994,10 @@ gfxTextRun
 *
 textRun
 =
-new
 gfxTextRun
+:
+:
+Create
 (
 aParams
 aString
