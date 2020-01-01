@@ -685,7 +685,7 @@ target
 )
 this
 .
-handleIMEStateEnabled
+showKeyboard
 (
 target
 )
@@ -705,7 +705,7 @@ focusedElement
 )
 this
 .
-handleIMEStateDisabled
+hideKeyboard
 (
 )
 ;
@@ -854,7 +854,7 @@ selectionEnd
 {
 this
 .
-tryShowIme
+sendKeyboardState
 (
 this
 .
@@ -1363,7 +1363,7 @@ target
 )
 this
 .
-handleIMEStateEnabled
+showKeyboard
 (
 target
 )
@@ -1382,7 +1382,7 @@ target
 {
 this
 .
-handleIMEStateDisabled
+hideKeyboard
 (
 )
 ;
@@ -1493,10 +1493,10 @@ return
 disabled
 ;
 }
-handleIMEStateEnabled
+showKeyboard
 :
 function
-fa_handleIMEStateEnabled
+fa_showKeyboard
 (
 target
 )
@@ -1526,7 +1526,7 @@ kbOpened
 =
 this
 .
-tryShowIme
+sendKeyboardState
 (
 target
 )
@@ -1554,10 +1554,10 @@ target
 )
 ;
 }
-handleIMEStateDisabled
+hideKeyboard
 :
 function
-fa_handleIMEStateDisabled
+fa_hideKeyboard
 (
 )
 {
@@ -1709,7 +1709,7 @@ true
 )
 ;
 }
-tryShowIme
+sendKeyboardState
 :
 function
 (
