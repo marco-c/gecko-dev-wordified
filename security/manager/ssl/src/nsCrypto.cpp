@@ -10474,6 +10474,12 @@ nsIXPConnectJSObjectHolder
 >
 holder
 ;
+JSAutoRequest
+ar
+(
+cx
+)
+;
 /
 *
 *
@@ -14526,6 +14532,12 @@ GetArgvPtr
 (
 &
 argv
+)
+;
+JSAutoRequest
+ar
+(
+cx
 )
 ;
 PRUint32

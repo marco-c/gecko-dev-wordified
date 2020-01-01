@@ -1722,6 +1722,12 @@ aDataURL
 )
 ;
 }
+JSAutoRequest
+ar
+(
+ctx
+)
+;
 /
 /
 1
