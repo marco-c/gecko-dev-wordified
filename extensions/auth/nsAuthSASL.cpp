@@ -475,7 +475,7 @@ inTokenLen
 *
 outToken
 =
-NULL
+nullptr
 ;
 *
 outTokenLen
@@ -723,13 +723,13 @@ Userbuf
 should
 not
 be
-NULL
+nullptr
 terminated
 so
 trim
 the
 trailing
-NULL
+nullptr
 /
 /
 when

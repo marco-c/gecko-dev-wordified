@@ -402,7 +402,7 @@ NS_RUNTIMEABORT
 Content
 Process
 is
-NULL
+nullptr
 !
 "
 )

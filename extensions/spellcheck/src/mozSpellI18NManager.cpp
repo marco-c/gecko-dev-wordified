@@ -188,7 +188,7 @@ _retval
 {
 if
 (
-NULL
+nullptr
 =
 =
 _retval
@@ -201,7 +201,7 @@ NS_ERROR_NULL_POINTER
 *
 _retval
 =
-NULL
+nullptr
 ;
 nsAutoString
 lang

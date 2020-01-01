@@ -2579,7 +2579,7 @@ gnome_vfs_module_callback_push
 GNOME_VFS_MODULE_CALLBACK_AUTHENTICATION
 AuthCallback
 mChannel
-NULL
+nullptr
 )
 ;
 /
@@ -2593,7 +2593,7 @@ first
 this
 could
 return
-NULL
+nullptr
 )
 .
 /
@@ -5846,11 +5846,11 @@ kVFSCIDs
 &
 kNS_GNOMEVFSPROTOCOLHANDLER_CID
 false
-NULL
+nullptr
 nsGnomeVFSProtocolHandlerConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -5875,7 +5875,7 @@ MOZ_GNOMEVFS_SCHEME
 kNS_GNOMEVFSPROTOCOLHANDLER_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;

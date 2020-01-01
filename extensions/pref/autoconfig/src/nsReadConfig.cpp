@@ -971,7 +971,7 @@ If
 the
 lockFileName
 is
-NULL
+nullptr
 return
 ok
 because
@@ -1254,7 +1254,7 @@ If
 vendor
 is
 not
-NULL
+nullptr
 do
 this
 check

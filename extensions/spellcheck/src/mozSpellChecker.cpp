@@ -1715,7 +1715,7 @@ PRUnichar
 *
 words
 =
-NULL
+nullptr
 ;
 engine
 -
@@ -1781,7 +1781,7 @@ dictionaries
 Get
 (
 dictName
-NULL
+nullptr
 )
 )
 continue
@@ -1791,7 +1791,7 @@ dictionaries
 Put
 (
 dictName
-NULL
+nullptr
 )
 ;
 if
@@ -2118,7 +2118,7 @@ mConverter
 }
 mSpellCheckingEngine
 =
-NULL
+nullptr
 ;
 /
 /

@@ -910,7 +910,7 @@ end
 which
 are
 usually
-NULL
+nullptr
 )
 to
 get
@@ -1266,7 +1266,7 @@ Otherwise
 just
 leave
 this
-NULL
+nullptr
 .
 if
 (
@@ -1859,7 +1859,7 @@ it
 /
 /
 is
-NULL
+nullptr
 .
 /
 /
@@ -1873,7 +1873,7 @@ range
 might
 still
 be
-NULL
+nullptr
 if
 there
 is
@@ -2003,7 +2003,7 @@ will
 set
 it
 to
-NULL
+nullptr
 .
 Here
 we
@@ -2155,7 +2155,7 @@ case
 we
 '
 ll
-NULL
+nullptr
 out
 mRange
 so
@@ -4315,7 +4315,7 @@ but
 these
 are
 usually
-NULL
+nullptr
 even
 when
 you
@@ -4571,7 +4571,7 @@ range
 /
 Supply
 a
-NULL
+nullptr
 range
 and
 this
@@ -5567,7 +5567,7 @@ and
 end
 nodes
 are
-NULL
+nullptr
 /
 /
 then
@@ -5610,7 +5610,7 @@ range
 would
 be
 empty
-NULL
+nullptr
 is
 put
 into
@@ -7113,7 +7113,7 @@ mNoCheckRange
 (
 can
 be
-NULL
+nullptr
 )
 .
 Words
@@ -7167,7 +7167,7 @@ mCreatedRange
 is
 a
 possibly
-NULL
+nullptr
 range
 of
 new
@@ -9042,7 +9042,7 @@ intersection
 aRange
 will
 be
-NULL
+nullptr
 .
 nsresult
 mozInlineSpellChecker

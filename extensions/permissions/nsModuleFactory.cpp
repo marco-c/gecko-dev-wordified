@@ -123,11 +123,11 @@ kPermissionsCIDs
 &
 kNS_CONTENTBLOCKER_CID
 false
-NULL
+nullptr
 nsContentBlockerConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -151,7 +151,7 @@ NS_CONTENTBLOCKER_CONTRACTID
 kNS_CONTENTBLOCKER_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -179,7 +179,7 @@ NS_CONTENTBLOCKER_CONTRACTID
 NS_CONTENTBLOCKER_CONTRACTID
 }
 {
-NULL
+nullptr
 }
 }
 ;

@@ -1853,13 +1853,13 @@ sspi
 AcquireCredentialsHandleW
 )
 (
-NULL
+nullptr
 package
 SECPKG_CRED_OUTBOUND
-NULL
+nullptr
 pai
-NULL
-NULL
+nullptr
+nullptr
 &
 mCred
 &
@@ -2972,7 +2972,7 @@ NS_ERROR_UNEXPECTED
 }
 ctxIn
 =
-NULL
+nullptr
 ;
 mIsFirst
 =
@@ -3100,7 +3100,7 @@ inToken
 &
 ibd
 :
-NULL
+nullptr
 0
 &
 mCtxt
@@ -3201,7 +3201,7 @@ ob
 .
 pvBuffer
 =
-NULL
+nullptr
 ;
 }
 *
@@ -3423,7 +3423,7 @@ ib
 .
 pvBuffer
 =
-NULL
+nullptr
 ;
 rc
 =
@@ -3444,7 +3444,7 @@ ibd
 no
 sequence
 numbers
-NULL
+nullptr
 )
 ;
 if

@@ -443,7 +443,7 @@ can
 /
 also
 be
-NULL
+nullptr
 in
 these
 cases
@@ -481,7 +481,7 @@ range
 /
 Can
 be
-NULL
+nullptr
 (
 this
 only
@@ -515,7 +515,7 @@ word
 .
 Can
 be
-NULL
+nullptr
 .
 nsRefPtr
 <
@@ -547,7 +547,7 @@ mNoCheckRange
 It
 can
 be
-NULL
+nullptr
 if
 we
 don

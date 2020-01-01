@@ -615,7 +615,7 @@ empty
 word
 and
 a
-NULL
+nullptr
 range
 are
 returned
