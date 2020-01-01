@@ -16584,6 +16584,9 @@ GetUnderlyingFrame
 )
 ;
 }
+#
+if
+0
 nsAutoTArray
 <
 nsIFrame
@@ -16668,6 +16671,8 @@ i
 ;
 }
 }
+#
+endif
 DisplayItemData
 *
 oldData
