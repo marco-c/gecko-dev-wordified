@@ -836,6 +836,12 @@ nsIDOMEventListener
 >
 mUpdateReadyListeners
 ;
+nsCOMArray
+<
+nsIDOMEventListener
+>
+mObsoleteListeners
+;
 nsCOMPtr
 <
 nsIDOMEventListener
@@ -877,6 +883,12 @@ nsCOMPtr
 nsIDOMEventListener
 >
 mOnUpdateReadyListener
+;
+nsCOMPtr
+<
+nsIDOMEventListener
+>
+mOnObsoleteListener
 ;
 struct
 PendingEvent
