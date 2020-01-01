@@ -2627,6 +2627,12 @@ width
 height
 )
 ;
+moveFrameRateLayer
+(
+width
+height
+)
+;
 /
 /
 updating
@@ -2679,12 +2685,6 @@ IntSize
 width
 height
 )
-)
-;
-moveFrameRateLayer
-(
-width
-height
 )
 ;
 }
