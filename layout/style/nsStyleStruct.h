@@ -1549,7 +1549,7 @@ mMargin
 [
 reset
 ]
-length
+coord
 percent
 auto
 PRBool
@@ -1666,7 +1666,7 @@ mPadding
 [
 reset
 ]
-length
+coord
 percent
 PRBool
 GetPadding
@@ -2691,7 +2691,7 @@ mBorderRadius
 [
 reset
 ]
-length
+coord
 percent
 nsStyleSides
 mBorderImageSplit
@@ -4094,7 +4094,7 @@ mOutlineRadius
 [
 reset
 ]
-length
+coord
 percent
 /
 /
@@ -4149,7 +4149,7 @@ mOutlineWidth
 [
 reset
 ]
-length
+coord
 enum
 (
 see
