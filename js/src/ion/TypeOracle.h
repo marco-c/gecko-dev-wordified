@@ -612,6 +612,9 @@ cacheable
 bool
 *
 monitorResult
+bool
+*
+intIndex
 )
 {
 *
@@ -623,6 +626,11 @@ false
 monitorResult
 =
 true
+;
+*
+intIndex
+=
+false
 ;
 }
 virtual
@@ -1624,6 +1632,9 @@ cacheable
 bool
 *
 monitorResult
+bool
+*
+intIndex
 )
 ;
 bool
