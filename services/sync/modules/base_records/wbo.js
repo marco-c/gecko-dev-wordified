@@ -844,14 +844,6 @@ this
 .
 id
 "
-parent
-:
-"
-+
-this
-.
-parentid
-"
 index
 :
 "
@@ -916,9 +908,6 @@ data
 [
 "
 id
-"
-"
-parentid
 "
 "
 modified

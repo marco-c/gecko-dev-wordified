@@ -777,14 +777,6 @@ this
 .
 id
 "
-parent
-:
-"
-+
-this
-.
-parentid
-"
 index
 :
 "

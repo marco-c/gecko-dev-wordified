@@ -4035,16 +4035,6 @@ if
 (
 item
 .
-parentid
-=
-=
-local
-.
-parentid
-&
-&
-item
-.
 deleted
 =
 =
