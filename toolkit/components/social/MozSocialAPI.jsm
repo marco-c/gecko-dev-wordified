@@ -1578,7 +1578,7 @@ if
 (
 elt
 .
-nodeName
+localName
 =
 =
 "
@@ -1600,7 +1600,7 @@ if
 (
 elt
 .
-nodeName
+localName
 =
 =
 "
