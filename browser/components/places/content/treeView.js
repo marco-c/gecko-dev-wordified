@@ -9713,7 +9713,7 @@ itemId
 aText
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
