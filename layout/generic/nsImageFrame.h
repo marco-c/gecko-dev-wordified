@@ -1253,6 +1253,8 @@ aDirtyRect
 imgIContainer
 *
 aImage
+PRUint32
+aFlags
 )
 ;
 protected

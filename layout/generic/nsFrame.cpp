@@ -38855,7 +38855,7 @@ status
 imgIRequest
 :
 :
-STATUS_FRAME_COMPLETE
+STATUS_LOAD_COMPLETE
 )
 )
 {

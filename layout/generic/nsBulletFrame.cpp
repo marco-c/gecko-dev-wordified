@@ -1453,6 +1453,10 @@ dest
 +
 aPt
 aDirtyRect
+imgIContainer
+:
+:
+FLAG_NONE
 )
 ;
 return

@@ -805,6 +805,11 @@ PRUnichar
 statusArg
 )
 ;
+void
+OnDiscard
+(
+)
+;
 /
 *
 non
@@ -1069,6 +1074,12 @@ mIsInLoadGroup
 ;
 PRPackedBool
 mListenerIsStrongRef
+;
+PRPackedBool
+mShouldRequestDecode
+;
+PRPackedBool
+mLockHeld
 ;
 }
 ;

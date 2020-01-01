@@ -30194,6 +30194,13 @@ PR_FALSE
 ;
 builder
 .
+SetSyncDecodeImages
+(
+PR_TRUE
+)
+;
+builder
+.
 EnterPresShell
 (
 rootFrame

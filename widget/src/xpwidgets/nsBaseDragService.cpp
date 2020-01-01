@@ -4242,6 +4242,10 @@ FILTER_GOOD
 scale
 outRect
 imgSize
+imgIContainer
+:
+:
+FLAG_SYNC_DECODE
 )
 ;
 return

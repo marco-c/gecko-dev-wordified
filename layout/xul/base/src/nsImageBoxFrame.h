@@ -839,6 +839,8 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
+PRUint32
+aFlags
 )
 ;
 protected

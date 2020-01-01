@@ -622,6 +622,10 @@ mInTransform
 (
 PR_FALSE
 )
+mSyncDecodeImages
+(
+PR_FALSE
+)
 {
 PL_InitArenaPool
 (

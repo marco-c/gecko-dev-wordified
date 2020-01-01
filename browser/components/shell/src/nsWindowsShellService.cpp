@@ -3756,8 +3756,16 @@ rv
 aImage
 -
 >
-CopyCurrentFrame
+CopyFrame
 (
+imgIContainer
+:
+:
+FRAME_FIRST
+imgIContainer
+:
+:
+FLAG_SYNC_DECODE
 getter_AddRefs
 (
 image
