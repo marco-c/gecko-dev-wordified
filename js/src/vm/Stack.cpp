@@ -181,17 +181,6 @@ include
 "
 vm
 /
-ScopeObject
--
-inl
-.
-h
-"
-#
-include
-"
-vm
-/
 Stack
 -
 inl

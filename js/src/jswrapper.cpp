@@ -173,17 +173,6 @@ jsobjinlines
 .
 h
 "
-#
-include
-"
-builtin
-/
-Iterator
--
-inl
-.
-h
-"
 using
 namespace
 js

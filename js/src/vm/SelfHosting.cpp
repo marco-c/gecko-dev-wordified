@@ -215,17 +215,6 @@ include
 "
 vm
 /
-RegExpObject
--
-inl
-.
-h
-"
-#
-include
-"
-vm
-/
 StringObject
 -
 inl

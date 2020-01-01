@@ -204,17 +204,6 @@ inl
 .
 h
 "
-#
-include
-"
-vm
-/
-GlobalObject
--
-inl
-.
-h
-"
 using
 namespace
 js

@@ -342,17 +342,6 @@ IonFrameIterator
 h
 "
 #
-include
-"
-ion
-/
-IonFrameIterator
--
-inl
-.
-h
-"
-#
 endif
 using
 namespace

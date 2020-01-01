@@ -167,17 +167,6 @@ h
 #
 include
 "
-vm
-/
-Stack
--
-inl
-.
-h
-"
-#
-include
-"
 jsfuninlines
 .
 h

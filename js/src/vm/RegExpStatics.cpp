@@ -133,17 +133,6 @@ jsobjinlines
 .
 h
 "
-#
-include
-"
-vm
-/
-RegExpObject
--
-inl
-.
-h
-"
 using
 namespace
 js

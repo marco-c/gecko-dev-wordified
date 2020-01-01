@@ -146,17 +146,6 @@ jsanalyze
 .
 h
 "
-#
-include
-"
-vm
-/
-Shape
--
-inl
-.
-h
-"
 using
 namespace
 js

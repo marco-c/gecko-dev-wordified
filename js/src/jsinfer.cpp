@@ -314,17 +314,6 @@ jsscriptinlines
 h
 "
 #
-include
-"
-vm
-/
-Stack
--
-inl
-.
-h
-"
-#
 ifdef
 __SUNPRO_CC
 #
