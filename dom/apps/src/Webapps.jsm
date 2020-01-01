@@ -488,7 +488,7 @@ WebApps
 GetAppByLocalId
 "
 "
-Webapps
+WebApps
 :
 GetManifestURLByLocalId
 "
