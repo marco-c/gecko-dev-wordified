@@ -1257,6 +1257,8 @@ or
 accessible
 object
 )
+or
+null
 .
 *
 *
@@ -1350,6 +1352,7 @@ if
 aAccOrElmOrID
 )
 return
+null
 ;
 var
 elm
