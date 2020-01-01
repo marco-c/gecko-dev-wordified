@@ -147,6 +147,9 @@ class
 BluetoothReplyRunnable
 ;
 class
+BluetoothScoManagerObserver
+;
+class
 BluetoothScoManager
 :
 public
@@ -157,13 +160,9 @@ ipc
 :
 :
 UnixSocketConsumer
-public
-nsIObserver
 {
 public
 :
-NS_DECL_ISUPPORTS
-NS_DECL_NSIOBSERVER
 ~
 BluetoothScoManager
 (
@@ -218,6 +217,10 @@ GetConnected
 ;
 private
 :
+friend
+class
+BluetoothScoManagerObserver
+;
 BluetoothScoManager
 (
 )
