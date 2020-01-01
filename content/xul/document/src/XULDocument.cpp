@@ -21212,11 +21212,6 @@ uri
 1
 this
 mCurrentPrototype
--
->
-GetScriptGlobalObject
-(
-)
 this
 )
 ;

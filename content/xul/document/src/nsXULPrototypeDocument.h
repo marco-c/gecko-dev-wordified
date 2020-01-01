@@ -695,6 +695,12 @@ GetNodeInfoManager
 (
 )
 ;
+JSObject
+*
+GetCompilationGlobal
+(
+)
+;
 /
 /
 nsIScriptGlobalObjectOwner
