@@ -6191,7 +6191,6 @@ AddFloat
 (
 outOfFlowFrame
 availableWidth
-aReflowStatus
 )
 ;
 NS_ASSERTION
