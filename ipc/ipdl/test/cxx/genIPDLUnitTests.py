@@ -761,6 +761,8 @@ sChild
 )
 ;
         
+:
+:
 mozilla
 :
 :
@@ -782,6 +784,8 @@ GetIPCChannel
 )
 ;
         
+:
+:
 mozilla
 :
 :
@@ -795,6 +799,8 @@ Side
 parentSide
 =
             
+:
+:
 mozilla
 :
 :

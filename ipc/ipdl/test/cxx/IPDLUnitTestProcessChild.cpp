@@ -96,13 +96,6 @@ MPL
 #
 include
 "
-nsRegion
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ipc
@@ -122,6 +115,13 @@ h
 include
 "
 IPDLUnitTests
+.
+h
+"
+#
+include
+"
+nsRegion
 .
 h
 "
