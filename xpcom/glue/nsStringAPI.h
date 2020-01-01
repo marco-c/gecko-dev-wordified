@@ -1550,11 +1550,13 @@ StripChars
 (
 "
 \
+b
+\
 t
 \
-n
-\
 r
+\
+n
 "
 )
 ;
@@ -3779,6 +3781,8 @@ StripWhitespace
 StripChars
 (
 "
+\
+b
 \
 t
 \
