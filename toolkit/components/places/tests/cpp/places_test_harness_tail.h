@@ -556,7 +556,10 @@ gTestsIndex
 <
 int
 (
-NS_ARRAY_LENGTH
+mozilla
+:
+:
+ArrayLength
 (
 gTests
 )

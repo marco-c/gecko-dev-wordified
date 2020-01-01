@@ -443,6 +443,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSVGGraphicElement
 .
 h
@@ -2379,7 +2388,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -2550,7 +2559,7 @@ LengthListAttributesInfo
 (
 mLengthListAttributes
 sLengthListInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sLengthListInfo
 )
@@ -2595,7 +2604,7 @@ NumberListAttributesInfo
 (
 mNumberListAttributes
 sNumberListInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberListInfo
 )

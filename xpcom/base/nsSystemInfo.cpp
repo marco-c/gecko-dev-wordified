@@ -437,6 +437,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSystemInfo
 .
 h
@@ -506,6 +515,10 @@ h
 "
 #
 endif
+using
+namespace
+mozilla
+;
 nsSystemInfo
 :
 :
@@ -914,7 +927,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 cpuPropItems
 )

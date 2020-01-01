@@ -423,6 +423,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsFormSubmission
 .
 h
@@ -651,6 +660,10 @@ nsContentUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 static
 void
 SendJSWarning
@@ -1696,7 +1709,7 @@ eFORMS_PROPERTIES
 DefaultFormSubject
 "
 formatStrings
-NS_ARRAY_LENGTH
+ArrayLength
 (
 formatStrings
 )

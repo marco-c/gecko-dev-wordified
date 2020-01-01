@@ -427,6 +427,15 @@ BLOCK
 /
 #
 include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
+include
 <
 stdio
 .
@@ -589,6 +598,10 @@ nsNativeCharsetUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsToolkitProfile
 :
@@ -2925,7 +2938,7 @@ rand
 (
 )
 %
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kTable
 )

@@ -454,6 +454,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 SQLCollations
 .
 h
@@ -1342,7 +1351,7 @@ rv
 &
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 collations
 )

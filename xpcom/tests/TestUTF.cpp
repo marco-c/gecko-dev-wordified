@@ -385,6 +385,15 @@ BLOCK
 /
 #
 include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
+include
 <
 stdio
 .
@@ -439,6 +448,10 @@ nsCRT
 .
 h
 "
+using
+namespace
+mozilla
+;
 namespace
 TestUTF
 {
@@ -457,7 +470,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 ValidStrings
 )
@@ -626,7 +639,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 Invalid16Strings
 )
@@ -742,7 +755,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 Invalid8Strings
 )
@@ -880,7 +893,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 Malformed8Strings
 )
@@ -987,7 +1000,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 ValidStrings
 )
@@ -1063,7 +1076,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 Invalid8Strings
 )
@@ -1158,7 +1171,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 Malformed8Strings
 )

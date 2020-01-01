@@ -721,6 +721,15 @@ reference
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -900,6 +909,10 @@ nsIDTD
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 /
@@ -2345,7 +2358,7 @@ gRDFContainerUtils
 NS_RegisterStaticAtoms
 (
 rdf_atoms
-NS_ARRAY_LENGTH
+ArrayLength
 (
 rdf_atoms
 )

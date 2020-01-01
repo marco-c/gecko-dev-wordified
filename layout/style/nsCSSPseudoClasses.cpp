@@ -447,6 +447,15 @@ classes
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCSSPseudoClasses
 .
 h
@@ -472,6 +481,10 @@ nsMemory
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 define
@@ -581,7 +594,7 @@ AddRefAtoms
 NS_RegisterStaticAtoms
 (
 CSSPseudoClasses_info
-NS_ARRAY_LENGTH
+ArrayLength
 (
 CSSPseudoClasses_info
 )
@@ -735,7 +748,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 CSSPseudoClasses_info
 )

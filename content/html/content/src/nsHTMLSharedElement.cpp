@@ -425,6 +425,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLParamElement
 .
 h
@@ -506,6 +515,10 @@ nsContentUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 XXX
@@ -1592,7 +1605,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

@@ -450,6 +450,15 @@ BLOCK
 /
 #
 include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
+include
 <
 stdio
 .
@@ -931,6 +940,10 @@ Explorer
 SearchUrl
 "
 )
+using
+namespace
+mozilla
+;
 const
 int
 sInitialCookieBufferSize
@@ -12186,9 +12199,7 @@ entry
 *
 endEntry
 =
-gRegEntries
-+
-NS_ARRAY_LENGTH
+ArrayEnd
 (
 gRegEntries
 )
@@ -15289,7 +15300,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data
 )
@@ -15462,7 +15473,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data
 )

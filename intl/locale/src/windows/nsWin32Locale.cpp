@@ -425,6 +425,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -485,6 +494,10 @@ nsCRT
 .
 h
 "
+using
+namespace
+mozilla
+;
 struct
 iso_pair
 {
@@ -2797,7 +2810,7 @@ SUBLANG_CHINESE_MACAU
 #
 define
 LENGTH_MAPPING_LIST
-NS_ARRAY_LENGTH
+ArrayLength
 (
 iso_list
 )

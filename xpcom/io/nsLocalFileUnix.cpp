@@ -529,6 +529,15 @@ systems
 /
 #
 include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
+include
 <
 sys
 /
@@ -917,6 +926,10 @@ nsTraceRefcntImpl
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 define
 ENSURE_STAT_CACHE
@@ -7861,7 +7874,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 executableExts
 )

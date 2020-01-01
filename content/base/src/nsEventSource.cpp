@@ -449,6 +449,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsEventSource
 .
 h
@@ -6597,7 +6606,7 @@ get
 (
 )
 formatStrings
-NS_ARRAY_LENGTH
+ArrayLength
 (
 formatStrings
 )
@@ -6634,7 +6643,7 @@ get
 (
 )
 formatStrings
-NS_ARRAY_LENGTH
+ArrayLength
 (
 formatStrings
 )

@@ -484,6 +484,15 @@ bbaetz
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 prprf
 .
 h
@@ -572,6 +581,10 @@ nsIPrefLocalizedString
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_IMPL_ISUPPORTS3
 (
 nsDirIndexParser
@@ -1219,7 +1232,7 @@ num
 (
 2
 *
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gFieldTable
 )

@@ -432,6 +432,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 AccessCheck
 .
 h
@@ -499,6 +508,10 @@ jsfriendapi
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 js
@@ -2464,7 +2477,7 @@ strncmp
 (
 filename
 prefix
-NS_ARRAY_LENGTH
+ArrayLength
 (
 prefix
 )

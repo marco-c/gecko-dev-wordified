@@ -481,6 +481,15 @@ thread
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsStackWalk
 .
 h
@@ -563,7 +572,7 @@ h
 /
 /
 for
-NS_ARRAY_LENGTH
+ArrayLength
 #
 include
 "
@@ -670,6 +679,10 @@ USING_WXP_VERSION
 endif
 #
 endif
+using
+namespace
+mozilla
+;
 /
 /
 Define
@@ -3939,7 +3952,7 @@ data
 .
 pc_size
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 local_pcs
 )
@@ -4155,7 +4168,7 @@ data
 .
 pc_size
 >
-NS_ARRAY_LENGTH
+ArrayLength
 (
 local_pcs
 )

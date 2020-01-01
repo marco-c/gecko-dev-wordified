@@ -458,6 +458,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 gfxWindowsPlatform
 .
 h
@@ -614,6 +623,10 @@ include
 <
 string
 >
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -3995,7 +4008,7 @@ i
 {
 size
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 displayName
 )
@@ -4050,7 +4063,7 @@ false
 swprintf_s
 (
 subkeyName
-NS_ARRAY_LENGTH
+ArrayLength
 (
 subkeyName
 )

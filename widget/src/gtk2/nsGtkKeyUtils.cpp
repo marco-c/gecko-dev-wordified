@@ -503,6 +503,19 @@ keysym2ucs
 h
 "
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+using
+namespace
+mozilla
+;
+#
 define
 MAX_UNICODE
 0x10FFFF
@@ -1322,7 +1335,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 nsSunKeycodes
 )
@@ -1368,7 +1381,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 nsKeycodes
 )
@@ -1589,7 +1602,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 nsKeycodes
 )

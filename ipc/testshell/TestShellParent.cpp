@@ -392,6 +392,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 TestShellParent
 .
 h
@@ -425,6 +434,10 @@ nsAutoPtr
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 mozilla
 :
@@ -880,7 +893,7 @@ str
 int
 argc
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 argv
 )

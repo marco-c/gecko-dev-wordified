@@ -460,6 +460,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsUXThemeData
 .
 h
@@ -2924,7 +2933,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 knownThemes
 )
@@ -3077,7 +3086,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 knownColors
 )

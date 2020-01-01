@@ -461,6 +461,15 @@ BLOCK
 *
 /
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
 if
 defined
 (
@@ -9123,7 +9132,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 attribsToTry
 )
@@ -9146,7 +9155,7 @@ i
 EGLint
 ncfg
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 configs
 )

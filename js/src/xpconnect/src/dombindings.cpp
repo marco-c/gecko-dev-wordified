@@ -432,6 +432,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 dombindings
 .
 h
@@ -2505,7 +2514,7 @@ n
 ;
 n
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sProtoProperties
 )
@@ -2594,7 +2603,7 @@ n
 ;
 n
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sProtoMethods
 )
@@ -4752,7 +4761,7 @@ n
 ;
 n
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sProtoProperties
 )
@@ -4843,7 +4852,7 @@ n
 ;
 n
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sProtoMethods
 )
@@ -5025,7 +5034,7 @@ n
 ;
 n
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sProtoProperties
 )
@@ -5120,7 +5129,7 @@ n
 ;
 n
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sProtoMethods
 )
@@ -5305,7 +5314,7 @@ n
 ;
 n
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sProtoProperties
 )
@@ -5366,7 +5375,7 @@ n
 ;
 n
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sProtoMethods
 )

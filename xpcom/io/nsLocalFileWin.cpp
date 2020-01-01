@@ -468,6 +468,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -14853,7 +14862,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 executableExts
 )
@@ -17999,7 +18008,7 @@ get
 (
 )
 shortPath
-NS_ARRAY_LENGTH
+ArrayLength
 (
 shortPath
 )
@@ -18057,7 +18066,7 @@ lengthNeeded
 &
 lengthNeeded
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 shortPath
 )

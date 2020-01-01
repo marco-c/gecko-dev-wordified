@@ -448,6 +448,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsARIAMap
 .
 h
@@ -473,6 +482,10 @@ nsIContent
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -1473,7 +1486,7 @@ nsARIAMap
 :
 gWAIRoleMapLength
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 nsARIAMap
 :
@@ -2363,7 +2376,7 @@ nsARIAMap
 :
 gWAIUnivAttrMapLength
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 nsARIAMap
 :

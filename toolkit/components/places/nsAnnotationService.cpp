@@ -460,6 +460,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsAnnotationService
 .
 h
@@ -536,6 +545,10 @@ storage
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 define
 ENSURE_ANNO_TYPE
@@ -10509,7 +10522,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 stmts
 )

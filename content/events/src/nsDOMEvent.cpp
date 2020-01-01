@@ -449,6 +449,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 base
 /
 basictypes
@@ -2620,7 +2629,7 @@ nsContentUtils
 eDOM_PROPERTIES
 aWarning
 strings
-NS_ARRAY_LENGTH
+ArrayLength
 (
 strings
 )

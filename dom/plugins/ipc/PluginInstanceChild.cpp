@@ -491,6 +491,15 @@ endif
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 PluginBackgroundDestroyer
 .
 h
@@ -642,6 +651,10 @@ AutoRestore
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 mozilla
 :
@@ -8550,7 +8563,7 @@ GetClassNameW
 (
 hWnd
 szClass
-NS_ARRAY_LENGTH
+ArrayLength
 (
 szClass
 )

@@ -486,6 +486,15 @@ include
 "
 mozilla
 /
+Util
+.
+h
+"
+#
+include
+"
+mozilla
+/
 plugins
 /
 PluginModuleChild
@@ -691,6 +700,10 @@ h
 "
 #
 endif
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -9558,7 +9571,7 @@ GetClassNameW
 (
 hWnd
 szClass
-NS_ARRAY_LENGTH
+ArrayLength
 (
 szClass
 )

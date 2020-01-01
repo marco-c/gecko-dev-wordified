@@ -456,6 +456,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSVGPathGeometryElement
 .
 h
@@ -495,6 +504,10 @@ gfxContext
 .
 h
 "
+using
+namespace
+mozilla
+;
 typedef
 nsSVGPathGeometryElement
 nsSVGEllipseElementBase
@@ -1306,7 +1319,7 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sLengthInfo
 )

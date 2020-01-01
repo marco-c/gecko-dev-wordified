@@ -421,6 +421,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -645,6 +654,10 @@ stdlib
 .
 h
 >
+using
+namespace
+mozilla
+;
 struct
 ProtocolAssociation
 {
@@ -1549,7 +1562,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 appProtocols
 )
@@ -1845,7 +1858,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 appProtocols
 )
@@ -2046,7 +2059,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 appProtocols
 )
@@ -2133,7 +2146,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 appTypes
 )
