@@ -977,7 +977,7 @@ curListener
 .
 reqIdleTime
 *
-60000
+1000
 <
 =
 idleTime
@@ -1014,7 +1014,7 @@ curListener
 .
 reqIdleTime
 *
-60000
+1000
 >
 idleTime
 )
