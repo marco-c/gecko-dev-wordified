@@ -13230,11 +13230,9 @@ CASE64
 LIR_q2i
 :
 )
-CASE64
-(
+case
 LIR_f2i
 :
-)
 VMPI_sprintf
 (
 s
