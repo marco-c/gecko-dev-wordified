@@ -696,7 +696,8 @@ debuggee
 global
 to
 the
-JSInspector
+Debugger
+object
 .
 *
 /
