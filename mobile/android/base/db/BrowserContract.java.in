@@ -423,6 +423,9 @@ BLOCK
 *
 *
 /
+#
+filter
+substitution
 package
 org
 .
@@ -450,13 +453,9 @@ String
 AUTHORITY
 =
 "
-org
+ANDROID_PACKAGE_NAME
 .
-mozilla
-.
-gecko
-.
-providers
+db
 .
 browser
 "
