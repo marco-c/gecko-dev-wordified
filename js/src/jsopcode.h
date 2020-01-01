@@ -1314,7 +1314,7 @@ JOF_TMPSLOT
 interpreter
 uses
 extra
-temporray
+temporary
 slot
 to
 root
