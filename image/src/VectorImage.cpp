@@ -4970,6 +4970,7 @@ gfxASurface
 :
 ImageFormatARGB32
 aFilter
+aFlags
 )
 ;
 /
