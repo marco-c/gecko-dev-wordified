@@ -696,7 +696,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 uintN
 flags
@@ -3049,7 +3049,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 uintN
 flags
@@ -3101,7 +3101,7 @@ if
 priv
 &
 &
-JSVAL_IS_STRING
+JSID_IS_ATOM
 (
 id
 )
@@ -3109,7 +3109,7 @@ id
 {
 str
 =
-JSVAL_TO_STRING
+JSID_TO_STRING
 (
 id
 )
