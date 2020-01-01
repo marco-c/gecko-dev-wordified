@@ -175,7 +175,8 @@ map
 /
 /
 /
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
