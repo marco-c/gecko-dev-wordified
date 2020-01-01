@@ -10984,17 +10984,6 @@ InvalidateChildren
 )
 ;
 }
-if
-(
-aChangeEventType
-=
-=
-nsIAccessibleEvent
-:
-:
-EVENT_DOM_CREATE
-)
-{
 nsIEventStateManager
 *
 esm
@@ -11030,8 +11019,7 @@ IsHandlingUserInputExternal
 {
 /
 /
-Adding
-content
+Changes
 during
 page
 load
@@ -11156,7 +11144,6 @@ field
 or
 contentEditable
 area
-}
 }
 /
 /
