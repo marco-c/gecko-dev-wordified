@@ -2355,7 +2355,7 @@ return
 ENDS_IN_OTHER
 ;
 case
-PNK_DO
+PNK_DOWHILE
 :
 pn2
 =
@@ -26046,7 +26046,7 @@ BinaryNode
 :
 create
 (
-PNK_DO
+PNK_DOWHILE
 tc
 )
 ;

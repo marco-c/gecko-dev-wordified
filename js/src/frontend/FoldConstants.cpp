@@ -3255,7 +3255,7 @@ pn
 >
 isKind
 (
-PNK_DO
+PNK_DOWHILE
 )
 )
 )

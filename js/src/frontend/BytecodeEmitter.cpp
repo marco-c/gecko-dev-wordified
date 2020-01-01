@@ -40528,7 +40528,7 @@ bce
 break
 ;
 case
-PNK_DO
+PNK_DOWHILE
 :
 /
 *
