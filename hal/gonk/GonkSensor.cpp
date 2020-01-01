@@ -485,7 +485,7 @@ getInstance
 (
 )
 ;
-size_t
+ssize_t
 size
 =
 device
@@ -663,7 +663,7 @@ sensors
 =
 NULL
 ;
-size_t
+ssize_t
 size
 =
 SensorDevice
@@ -681,7 +681,7 @@ sensors
 ;
 for
 (
-size_t
+ssize_t
 i
 =
 0
@@ -1274,7 +1274,7 @@ getInstance
 (
 )
 ;
-size_t
+ssize_t
 size
 =
 device
@@ -1287,7 +1287,7 @@ sensors
 ;
 for
 (
-size_t
+ssize_t
 i
 =
 0
