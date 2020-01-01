@@ -3872,8 +3872,11 @@ mPluginWinProc
 return
 NS_ERROR_FAILURE
 ;
+DebugOnly
+<
 nsPluginNativeWindowWin
 *
+>
 win
 =
 (

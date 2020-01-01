@@ -1577,7 +1577,10 @@ if
 restoreOrigDir
 )
 {
+DebugOnly
+<
 BOOL
+>
 bCheck
 =
 SetCurrentDirectoryW
@@ -1766,7 +1769,7 @@ if
 GetFileVersionInfoW
 (
 lpFilepath
-NULL
+0
 versionsize
 verbuf
 )
