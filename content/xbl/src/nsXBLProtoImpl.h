@@ -580,7 +580,7 @@ nsIXPConnectJSObjectHolder
 *
 *
 aScriptObjectHolder
-void
+JSObject
 *
 *
 aTargetClassObject

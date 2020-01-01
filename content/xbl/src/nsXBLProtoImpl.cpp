@@ -842,7 +842,7 @@ nsIXPConnectJSObjectHolder
 >
 holder
 ;
-void
+JSObject
 *
 targetClassObject
 =
@@ -981,7 +981,7 @@ nsIXPConnectJSObjectHolder
 *
 *
 aScriptObjectHolder
-void
+JSObject
 *
 *
 aTargetClassObject
@@ -1309,9 +1309,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 nsContentUtils
 :
 :
@@ -1470,7 +1472,7 @@ GetGlobalJSObject
 (
 )
 ;
-void
+JSObject
 *
 classObject
 ;
@@ -1502,10 +1504,6 @@ rv
 ;
 mClassObject
 =
-(
-JSObject
-*
-)
 classObject
 ;
 if
@@ -2122,7 +2120,7 @@ GetGlobalJSObject
 (
 )
 ;
-void
+JSObject
 *
 classObject
 ;
@@ -2156,10 +2154,6 @@ NS_ERROR_FAILURE
 ;
 mClassObject
 =
-(
-JSObject
-*
-)
 classObject
 ;
 nsXBLProtoImplField

@@ -4947,7 +4947,7 @@ aGlobal
 JSObject
 *
 aScriptObject
-void
+JSObject
 *
 *
 aClassObject
