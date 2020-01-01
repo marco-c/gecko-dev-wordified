@@ -327,13 +327,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 base
 /
 cpu

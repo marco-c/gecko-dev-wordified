@@ -102,13 +102,6 @@ _CANVASUTILS_H_
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 mozilla
 /
 CheckedInt

@@ -207,13 +207,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsStringGlue
 .
 h

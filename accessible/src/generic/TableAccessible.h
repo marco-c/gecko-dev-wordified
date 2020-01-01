@@ -131,13 +131,6 @@ nsTArray
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 namespace
 mozilla
 {

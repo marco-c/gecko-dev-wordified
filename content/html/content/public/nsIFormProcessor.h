@@ -127,13 +127,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLInputElement
 .
 h

@@ -217,13 +217,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsITokenizer
 .
 h

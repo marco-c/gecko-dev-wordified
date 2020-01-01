@@ -77,13 +77,6 @@ nsStubMutationObserver
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 /
 *
 *

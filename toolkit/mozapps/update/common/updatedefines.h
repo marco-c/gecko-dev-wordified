@@ -65,13 +65,6 @@ UPDATEDEFINES_H
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 readstrings
 .
 h

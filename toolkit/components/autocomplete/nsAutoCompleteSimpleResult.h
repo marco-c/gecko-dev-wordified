@@ -86,13 +86,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

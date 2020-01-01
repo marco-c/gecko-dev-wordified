@@ -117,13 +117,6 @@ nsAutoPtr
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 /
 *
 *

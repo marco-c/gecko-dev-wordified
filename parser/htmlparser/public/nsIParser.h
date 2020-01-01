@@ -1869,13 +1869,6 @@ constants
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsError
 .
 h

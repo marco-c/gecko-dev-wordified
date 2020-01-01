@@ -120,13 +120,6 @@ nsTraceRefcnt
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 class
 nsAString
 ;

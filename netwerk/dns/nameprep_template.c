@@ -430,13 +430,6 @@ NAMEPREP_TEMPLATE_INIT
 #
 define
 NAMEPREP_TEMPLATE_INIT
-#
-include
-"
-prtypes
-.
-h
-"
 /
 *
 Symbol
