@@ -307,10 +307,6 @@ mTimerActivated
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLAudioElement
 :

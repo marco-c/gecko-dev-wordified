@@ -161,10 +161,6 @@ nsGenericHTMLElement
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 virtual
 ~

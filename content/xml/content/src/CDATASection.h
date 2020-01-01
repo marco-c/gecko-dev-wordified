@@ -169,10 +169,6 @@ aNodeInfo
 "
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 public
 :

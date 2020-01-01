@@ -163,10 +163,6 @@ nsGenericHTMLElement
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLMetaElement
 :

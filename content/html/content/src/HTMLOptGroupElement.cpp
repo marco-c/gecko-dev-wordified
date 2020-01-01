@@ -214,10 +214,6 @@ nsGenericHTMLElement
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 /
 /
 We

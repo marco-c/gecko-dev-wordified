@@ -149,10 +149,6 @@ nsGenericHTMLElement
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLModElement
 :

@@ -380,10 +380,6 @@ bug
 420429
 )
 .
-SetIsDOMBinding
-(
-)
-;
 }
 ProcessingInstruction
 :

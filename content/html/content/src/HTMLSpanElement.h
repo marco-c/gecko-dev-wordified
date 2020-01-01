@@ -180,10 +180,6 @@ nsGenericHTMLElement
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 virtual
 ~

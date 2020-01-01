@@ -224,10 +224,6 @@ AddMutationObserver
 this
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLStyleElement
 :

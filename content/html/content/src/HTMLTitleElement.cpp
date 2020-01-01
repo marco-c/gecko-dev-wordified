@@ -172,10 +172,6 @@ nsGenericHTMLElement
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 AddMutationObserver
 (
 this

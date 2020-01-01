@@ -1661,10 +1661,6 @@ members
 to
 0
 .
-SetIsDOMBinding
-(
-)
-;
 }
 XMLDocument
 :

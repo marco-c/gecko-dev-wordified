@@ -244,10 +244,6 @@ mType
 MENU_TYPE_LIST
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLMenuElement
 :

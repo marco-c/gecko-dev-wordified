@@ -317,10 +317,6 @@ nsScriptElement
 aFromParser
 )
 {
-SetIsDOMBinding
-(
-)
-;
 AddMutationObserver
 (
 this

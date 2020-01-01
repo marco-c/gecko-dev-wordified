@@ -334,10 +334,6 @@ mIsInSetDefaultSelected
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 /
 /
 We

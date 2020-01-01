@@ -196,10 +196,6 @@ aNodeInfo
 aFromParser
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLIFrameElement
 :

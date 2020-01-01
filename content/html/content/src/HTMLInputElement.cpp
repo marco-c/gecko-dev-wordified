@@ -4247,10 +4247,6 @@ mIsDraggingRange
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 /
 /
 We

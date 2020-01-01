@@ -602,10 +602,6 @@ nsSVGElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 JSObject
 *

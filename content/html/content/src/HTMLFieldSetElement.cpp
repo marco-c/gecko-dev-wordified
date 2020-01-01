@@ -164,10 +164,6 @@ mFirstLegend
 nullptr
 )
 {
-SetIsDOMBinding
-(
-)
-;
 /
 /
 <

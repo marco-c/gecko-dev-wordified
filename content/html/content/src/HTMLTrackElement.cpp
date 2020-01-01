@@ -532,10 +532,6 @@ nsTrackElement
 }
 #
 endif
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLTrackElement
 :

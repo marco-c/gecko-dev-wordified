@@ -337,10 +337,6 @@ mCurrentRowColHint
 NS_STYLE_HINT_REFLOW
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 virtual
 ~

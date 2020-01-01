@@ -162,10 +162,6 @@ Element
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /
