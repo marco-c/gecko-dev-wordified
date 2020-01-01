@@ -3821,6 +3821,13 @@ if
 bottomLayer
 .
 mImage
+.
+GetType
+(
+)
+=
+=
+eBackgroundImage_Image
 )
 {
 nsCOMPtr
@@ -3832,6 +3839,10 @@ container
 bottomLayer
 .
 mImage
+.
+GetImageData
+(
+)
 -
 >
 GetImage
@@ -3953,7 +3964,6 @@ PR_TRUE
 ;
 if
 (
-!
 bg
 -
 >
@@ -3962,6 +3972,13 @@ BottomLayer
 )
 .
 mImage
+.
+GetType
+(
+)
+=
+=
+eBackgroundImage_Null
 &
 &
 bg
