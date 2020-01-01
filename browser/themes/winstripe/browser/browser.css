@@ -5816,7 +5816,7 @@ border
 -
 radius
 :
-3
+2
 .
 5px
 ;
@@ -10130,7 +10130,7 @@ border
 -
 radius
 :
-3
+2
 .
 5px
 ;
@@ -10664,7 +10664,7 @@ left
 -
 radius
 :
-2
+1
 .
 5px
 ;
@@ -10676,7 +10676,7 @@ left
 -
 radius
 :
-2
+1
 .
 5px
 ;
@@ -10704,7 +10704,7 @@ right
 -
 radius
 :
-2
+1
 .
 5px
 ;
@@ -10716,7 +10716,7 @@ right
 -
 radius
 :
-2
+1
 .
 5px
 ;
@@ -12389,7 +12389,9 @@ right
 -
 radius
 :
-2px
+1
+.
+5px
 ;
 border
 -
@@ -12399,7 +12401,9 @@ right
 -
 radius
 :
-2px
+1
+.
+5px
 ;
 }
 #
@@ -12425,7 +12429,9 @@ left
 -
 radius
 :
-2px
+1
+.
+5px
 ;
 border
 -
@@ -12435,7 +12441,9 @@ left
 -
 radius
 :
-2px
+1
+.
+5px
 ;
 }
 #
