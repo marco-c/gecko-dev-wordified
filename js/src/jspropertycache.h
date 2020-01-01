@@ -2104,8 +2104,6 @@ JSObject
 obj
 uintN
 scopeIndex
-uintN
-protoIndex
 JSObject
 *
 pobj

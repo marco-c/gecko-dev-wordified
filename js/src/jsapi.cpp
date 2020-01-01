@@ -18284,7 +18284,7 @@ isNative
 (
 )
 ?
-js_LookupPropertyWithFlags
+LookupPropertyWithFlags
 (
 cx
 obj
@@ -18294,9 +18294,6 @@ objp
 &
 prop
 )
->
-=
-0
 :
 obj
 -
@@ -18924,7 +18921,7 @@ isNative
 return
 !
 !
-js_DefineNativeProperty
+DefineNativeProperty
 (
 cx
 obj
@@ -18935,7 +18932,6 @@ setter
 attrs
 flags
 tinyid
-NULL
 )
 ;
 }

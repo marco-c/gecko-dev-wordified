@@ -21239,7 +21239,8 @@ isNative
 {
 if
 (
-js_LookupPropertyWithFlags
+!
+LookupPropertyWithFlags
 (
 cx
 referent
@@ -21250,8 +21251,6 @@ obj2
 &
 prop
 )
-<
-0
 )
 return
 false
@@ -21595,7 +21594,9 @@ objp
 obj
 ;
 return
-js_DefineNativeProperty
+!
+!
+DefineNativeProperty
 (
 cx
 obj
@@ -21616,8 +21617,6 @@ propFlags
 desc
 .
 shortid
-&
-prop
 )
 ;
 }

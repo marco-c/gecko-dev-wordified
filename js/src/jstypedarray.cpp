@@ -3255,7 +3255,8 @@ setUndefined
 ;
 if
 (
-js_LookupPropertyWithFlags
+!
+LookupPropertyWithFlags
 (
 cx
 proto
@@ -3269,8 +3270,6 @@ obj2
 &
 prop
 )
-<
-0
 )
 return
 false

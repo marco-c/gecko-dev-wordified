@@ -3654,7 +3654,7 @@ asAtom
 if
 (
 !
-js_DefineNativeProperty
+DefineNativeProperty
 (
 cx
 &
@@ -3674,7 +3674,6 @@ StrictPropertyStub
 JSPROP_ENUMERATE
 0
 0
-NULL
 )
 )
 {
