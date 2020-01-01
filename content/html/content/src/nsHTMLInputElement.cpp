@@ -12487,7 +12487,7 @@ NS_IMETHODIMP
 nsHTMLInputElement
 :
 :
-GetFileList
+GetFiles
 (
 nsIDOMFileList
 *
