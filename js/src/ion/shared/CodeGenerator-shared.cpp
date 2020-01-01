@@ -3078,9 +3078,6 @@ MIRType
 type
 )
 {
-CodeOffsetLabel
-offset
-;
 if
 (
 index
@@ -3106,8 +3103,6 @@ Value
 )
 )
 ;
-offset
-=
 masm
 .
 patchableCallPreBarrier
@@ -3130,8 +3125,6 @@ index
 TimesEight
 )
 ;
-offset
-=
 masm
 .
 patchableCallPreBarrier
@@ -3141,11 +3134,6 @@ type
 )
 ;
 }
-addPreBarrierOffset
-(
-offset
-)
-;
 }
 void
 CodeGeneratorShared
@@ -3159,15 +3147,12 @@ MIRType
 type
 )
 {
-addPreBarrierOffset
-(
 masm
 .
 patchableCallPreBarrier
 (
 address
 type
-)
 )
 ;
 }
