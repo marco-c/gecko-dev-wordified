@@ -28326,6 +28326,13 @@ crNotifier
 this
 )
 ;
+mFrameConstructor
+-
+>
+BeginUpdate
+(
+)
+;
 nsresult
 rv
 =
@@ -28337,6 +28344,13 @@ ReconstructDocElementHierarchy
 )
 ;
 VERIFY_STYLE_TREE
+;
+mFrameConstructor
+-
+>
+EndUpdate
+(
+)
 ;
 return
 rv
