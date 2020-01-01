@@ -497,7 +497,7 @@ h
 #
 include
 "
-CAccessibleComponent
+ia2AccessibleComponent
 .
 h
 "
@@ -736,7 +736,7 @@ nsAccessibleWrap
 public
 nsAccessible
 public
-CAccessibleComponent
+ia2AccessibleComponent
 public
 CAccessibleHyperlink
 public
