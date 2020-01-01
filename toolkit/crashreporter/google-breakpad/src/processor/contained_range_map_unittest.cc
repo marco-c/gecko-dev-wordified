@@ -319,7 +319,9 @@ Mentovai
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 #
 include

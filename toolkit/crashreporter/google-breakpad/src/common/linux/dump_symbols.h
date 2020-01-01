@@ -345,12 +345,14 @@ COMMON_LINUX_DUMP_SYMBOLS_H__
 #
 include
 <
-string
+stdio
+.
+h
 >
 #
 include
 <
-cstdio
+string
 >
 namespace
 google_breakpad

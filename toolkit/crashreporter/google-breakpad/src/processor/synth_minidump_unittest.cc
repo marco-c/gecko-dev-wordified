@@ -321,7 +321,7 @@ com
 >
 /
 /
-test_assembler_unittest
+synth_minidump_unittest
 .
 cc
 :
@@ -331,7 +331,10 @@ for
 google_breakpad
 :
 :
-TestAssembler
+SynthMinidump
+/
+/
+classes
 .
 #
 include

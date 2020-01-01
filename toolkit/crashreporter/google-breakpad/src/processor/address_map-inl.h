@@ -337,11 +337,6 @@ define
 PROCESSOR_ADDRESS_MAP_INL_H__
 #
 include
-<
-cassert
->
-#
-include
 "
 processor
 /
@@ -349,6 +344,13 @@ address_map
 .
 h
 "
+#
+include
+<
+assert
+.
+h
+>
 #
 include
 "

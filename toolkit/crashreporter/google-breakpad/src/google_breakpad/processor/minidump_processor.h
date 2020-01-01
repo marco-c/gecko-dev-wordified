@@ -307,7 +307,9 @@ GOOGLE_BREAKPAD_PROCESSOR_MINIDUMP_PROCESSOR_H__
 #
 include
 <
-cassert
+assert
+.
+h
 >
 #
 include

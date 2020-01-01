@@ -368,7 +368,9 @@ file
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 #
 include

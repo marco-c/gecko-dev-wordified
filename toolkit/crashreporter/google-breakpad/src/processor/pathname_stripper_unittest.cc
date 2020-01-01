@@ -301,7 +301,9 @@ DAMAGE
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 #
 include

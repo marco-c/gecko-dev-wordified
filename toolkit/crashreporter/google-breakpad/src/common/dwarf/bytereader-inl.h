@@ -301,11 +301,6 @@ define
 UTIL_DEBUGINFO_BYTEREADER_INL_H__
 #
 include
-<
-cassert
->
-#
-include
 "
 common
 /
@@ -315,6 +310,13 @@ bytereader
 .
 h
 "
+#
+include
+<
+assert
+.
+h
+>
 namespace
 dwarf2reader
 {
