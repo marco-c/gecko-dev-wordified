@@ -16383,7 +16383,7 @@ LIns
 *
 data
 =
-lir_buf_writer
+lir
 -
 >
 skip
@@ -16611,7 +16611,7 @@ LIns
 *
 data
 =
-lir_buf_writer
+lir
 -
 >
 skip
@@ -53985,7 +53985,7 @@ LIns
 *
 data
 =
-lir_buf_writer
+lir
 -
 >
 skip
@@ -62245,7 +62245,7 @@ LIns
 *
 data
 =
-lir_buf_writer
+lir
 -
 >
 skip
