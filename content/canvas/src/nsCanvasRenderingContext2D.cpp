@@ -925,6 +925,15 @@ wisdom
 #
 undef
 DrawText
+using
+mozilla
+:
+:
+ipc
+:
+:
+SharedMemory
+;
 #
 endif
 using
@@ -4971,6 +4980,10 @@ width
 height
 *
 4
+SharedMemory
+:
+:
+TYPE_BASIC
 &
 mFrontBuffer
 )
@@ -5002,6 +5015,10 @@ width
 height
 *
 4
+SharedMemory
+:
+:
+TYPE_BASIC
 &
 mBackBuffer
 )
