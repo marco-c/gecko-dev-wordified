@@ -187,6 +187,15 @@ Preferences
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 /
 /
 XXX
@@ -4635,7 +4644,7 @@ pollInterval
 )
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 pollInterval
 >

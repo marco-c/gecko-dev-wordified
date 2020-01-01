@@ -126,6 +126,15 @@ include
 "
 mozilla
 /
+Likely
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -922,7 +931,7 @@ bug
 if
 (
 !
-NS_LIKELY
+MOZ_LIKELY
 (
 NS_IsMainThread
 (
@@ -4380,7 +4389,7 @@ kind
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 tracer
 -
@@ -11930,7 +11939,7 @@ registration
 .
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mEventDepth
 =

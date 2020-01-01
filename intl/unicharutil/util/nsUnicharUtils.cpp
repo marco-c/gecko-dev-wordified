@@ -156,6 +156,15 @@ nsHashKeys
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 /
 /
 We
@@ -1852,7 +1861,7 @@ str
 )
 &
 &
-NS_LIKELY
+MOZ_LIKELY
 (
 aStr
 +
@@ -1998,7 +2007,7 @@ str
 )
 &
 &
-NS_LIKELY
+MOZ_LIKELY
 (
 aStr
 +
@@ -2127,7 +2136,7 @@ str
 )
 &
 &
-NS_LIKELY
+MOZ_LIKELY
 (
 aStr
 +
@@ -2317,7 +2326,7 @@ aLeft
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 leftChar
 =
@@ -2346,7 +2355,7 @@ aRight
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 rightChar
 =
@@ -2568,7 +2577,7 @@ aLeftNext
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 leftChar
 =
@@ -2602,7 +2611,7 @@ aRightNext
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 rightChar
 =

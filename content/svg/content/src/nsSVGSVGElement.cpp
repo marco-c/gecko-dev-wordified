@@ -114,6 +114,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -8178,7 +8187,7 @@ set
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 NS_FAILED
 (
@@ -8777,7 +8786,7 @@ set
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 NS_FAILED
 (

@@ -160,6 +160,15 @@ nsIFrame
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 class
 nsPresContext
 ;
@@ -4962,7 +4971,7 @@ aName
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -4994,7 +5003,7 @@ aName
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5028,7 +5037,7 @@ aName
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5062,7 +5071,7 @@ aName
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5093,7 +5102,7 @@ aIndex
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5121,7 +5130,7 @@ errStrayDoctype
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5149,7 +5158,7 @@ errAlmostStandardsDoctype
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5177,7 +5186,7 @@ errQuirkyDoctype
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5205,7 +5214,7 @@ errNonSpaceInTrailer
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5233,7 +5242,7 @@ errNonSpaceAfterFrameset
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5261,7 +5270,7 @@ errNonSpaceInFrameset
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5289,7 +5298,7 @@ errNonSpaceAfterBody
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5317,7 +5326,7 @@ errNonSpaceInColgroupInFragment
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5345,7 +5354,7 @@ errNonSpaceInNoscriptInHead
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5376,7 +5385,7 @@ aName
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5405,7 +5414,7 @@ errStartTagWithoutDoctype
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5433,7 +5442,7 @@ errNoSelectInTableScope
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5461,7 +5470,7 @@ errStartSelectWhereEndSelectExpected
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5492,7 +5501,7 @@ aName
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5524,7 +5533,7 @@ aName
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5553,7 +5562,7 @@ errImage
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5581,7 +5590,7 @@ errIsindex
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5612,7 +5621,7 @@ aName
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5641,7 +5650,7 @@ errHeadingWhenHeadingOpen
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5669,7 +5678,7 @@ errFramesetStart
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5697,7 +5706,7 @@ errNoCellToClose
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5728,7 +5737,7 @@ aName
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5757,7 +5766,7 @@ errFormWhenFormOpen
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5785,7 +5794,7 @@ errTableSeenWhileTableOpen
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5816,7 +5825,7 @@ aName
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5845,7 +5854,7 @@ errEndTagSeenWithoutDoctype
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5873,7 +5882,7 @@ errEndTagAfterBody
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5904,7 +5913,7 @@ aName
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5933,7 +5942,7 @@ errGarbageInColgroup
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5961,7 +5970,7 @@ errEndTagBr
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5992,7 +6001,7 @@ aName
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -6024,7 +6033,7 @@ aName
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -6053,7 +6062,7 @@ errTableClosedWhileCaptionOpen
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -6081,7 +6090,7 @@ errNoTableRowToClose
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -6109,7 +6118,7 @@ errNonSpaceInTable
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -6137,7 +6146,7 @@ errUnclosedChildrenInRuby
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -6168,7 +6177,7 @@ aName
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -6197,7 +6206,7 @@ errSelfClosing
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -6225,7 +6234,7 @@ errNoCheckUnclosedElementsOnStack
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -6259,7 +6268,7 @@ aOther
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -6292,7 +6301,7 @@ aName
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -6324,7 +6333,7 @@ aName
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )

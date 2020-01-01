@@ -291,6 +291,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 namespace
 {
 using
@@ -3856,7 +3865,7 @@ id
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 entry
@@ -4710,7 +4719,7 @@ id
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 addonEntry
@@ -4786,7 +4795,7 @@ name
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 histogramEntry
@@ -7464,7 +7473,7 @@ sql
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 entry

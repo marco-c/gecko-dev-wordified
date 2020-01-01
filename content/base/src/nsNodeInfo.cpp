@@ -142,6 +142,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -927,7 +936,7 @@ nsNodeInfo
 )
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 cb
 .

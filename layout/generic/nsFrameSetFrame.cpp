@@ -365,6 +365,15 @@ LookAndFeel
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 using
 namespace
 mozilla
@@ -2668,7 +2677,7 @@ kidSC
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 frame
@@ -2780,7 +2789,7 @@ kidSC
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 frame
@@ -3667,7 +3676,7 @@ aNumSpecs
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 fixed
@@ -6592,7 +6601,7 @@ false
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 borderFrame
 !
@@ -6678,7 +6687,7 @@ borderChildX
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 borderFrame
 !
@@ -6702,7 +6711,7 @@ borderChildX
 }
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 borderFrame
 !
@@ -6823,7 +6832,7 @@ false
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 borderFrame
 !
@@ -6909,7 +6918,7 @@ borderChildX
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 borderFrame
 !
@@ -6933,7 +6942,7 @@ borderChildX
 }
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 borderFrame
 !
@@ -8358,7 +8367,7 @@ numCells
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 childTypes

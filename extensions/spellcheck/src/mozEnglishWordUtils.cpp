@@ -142,6 +142,15 @@ nsCRT
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
 mozEnglishWordUtils
@@ -1681,7 +1690,7 @@ length
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 tmpPtr

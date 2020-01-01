@@ -478,6 +478,15 @@ nsHtml5TreeBuilder
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 PRUnichar
 nsHtml5TreeBuilder
 :
@@ -4405,7 +4414,7 @@ if
 (
 !
 !
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -4705,7 +4714,7 @@ if
 (
 !
 !
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5439,7 +5448,7 @@ if
 (
 !
 !
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -5824,7 +5833,7 @@ if
 (
 !
 !
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -10524,7 +10533,7 @@ if
 (
 !
 !
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -10610,7 +10619,7 @@ if
 (
 !
 !
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -10742,7 +10751,7 @@ if
 (
 !
 !
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -10917,7 +10926,7 @@ currentPtr
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -11041,7 +11050,7 @@ endtagloop
 }
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -11179,7 +11188,7 @@ if
 (
 !
 !
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -11278,7 +11287,7 @@ if
 (
 !
 !
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -11406,7 +11415,7 @@ if
 (
 !
 !
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -11480,7 +11489,7 @@ if
 (
 !
 !
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -11555,7 +11564,7 @@ if
 (
 !
 !
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -11628,7 +11637,7 @@ if
 (
 !
 !
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -11706,7 +11715,7 @@ if
 (
 !
 !
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -11982,7 +11991,7 @@ if
 (
 !
 !
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -14160,7 +14169,7 @@ if
 (
 !
 !
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -14762,7 +14771,7 @@ if
 (
 !
 !
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )

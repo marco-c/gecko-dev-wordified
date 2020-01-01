@@ -253,6 +253,15 @@ Preferences
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 using
 namespace
 mozilla
@@ -4865,7 +4874,7 @@ type
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 aToken
 .

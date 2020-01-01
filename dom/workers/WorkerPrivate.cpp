@@ -382,6 +382,15 @@ Attributes
 h
 "
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 ifdef
 ANDROID
 #
@@ -17628,7 +17637,7 @@ timerId
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 timerId
 =

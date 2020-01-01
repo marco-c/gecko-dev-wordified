@@ -209,6 +209,15 @@ nsIAndroidBridge
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 /
 /
 Some
@@ -568,7 +577,7 @@ GetVM
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 sBridge
 )
@@ -592,7 +601,7 @@ GetJNIEnv
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 sBridge
 )

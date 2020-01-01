@@ -163,6 +163,15 @@ nsDOMEvent
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 nsDOMEventTargetHelper
@@ -179,7 +188,7 @@ nsDOMEventTargetHelper
 )
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 cb
 .

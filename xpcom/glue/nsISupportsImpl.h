@@ -225,6 +225,15 @@ Assertions
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 /
 /
 /
@@ -819,7 +828,7 @@ owner
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mTagged
 =
@@ -1073,7 +1082,7 @@ p
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mTagged
 =
@@ -1131,7 +1140,7 @@ mRefCnt
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 refcount
 =
@@ -1227,7 +1236,7 @@ e
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 refcount
 >
@@ -1448,7 +1457,7 @@ const
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mTagged
 =
@@ -1460,7 +1469,7 @@ return
 1
 ;
 return
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 HasPurpleBufferEntry
 (
@@ -1835,7 +1844,7 @@ UnmarkIfPurple
 \
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mRefCnt
 .

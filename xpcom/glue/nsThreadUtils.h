@@ -185,6 +185,15 @@ nsThreadIDs
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 /
 /
 This
@@ -2203,7 +2212,7 @@ Run
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mReceiver
 .

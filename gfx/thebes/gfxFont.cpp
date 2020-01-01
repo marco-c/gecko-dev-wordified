@@ -272,6 +272,15 @@ include
 "
 mozilla
 /
+Likely
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -2213,7 +2222,7 @@ aBuffer
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mFontTableCache
@@ -2269,7 +2278,7 @@ aTag
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 entry
@@ -5051,7 +5060,7 @@ eGfxLog_textrun
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 log
 )
@@ -10607,7 +10616,7 @@ aContext
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 success
@@ -21827,7 +21836,7 @@ GetFontAt
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 GetStyle
 (
@@ -22850,7 +22859,7 @@ ifdef
 PR_LOGGING
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 log
 )

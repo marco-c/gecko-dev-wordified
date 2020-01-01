@@ -104,6 +104,15 @@ include
 "
 mozilla
 /
+Likely
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TypeTraits
 .
 h
@@ -3558,7 +3567,7 @@ PR_BEGIN_MACRO
 \
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 (
 _cb
@@ -6124,7 +6133,7 @@ p
 \
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 tmp
 -

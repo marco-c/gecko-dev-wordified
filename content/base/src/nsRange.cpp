@@ -261,6 +261,15 @@ Telemetry
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 using
 namespace
 mozilla
@@ -2854,7 +2863,7 @@ mNextSibling
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 aContent
 =
@@ -3384,7 +3393,7 @@ aContent
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 removed
 =
@@ -3431,7 +3440,7 @@ aContent
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 removed
 =

@@ -489,6 +489,15 @@ LookAndFeel
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 using
 namespace
 mozilla
@@ -17270,7 +17279,7 @@ PseudoType
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 pseudoType
 =
@@ -19775,7 +19784,7 @@ Filter
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 aElement
 )

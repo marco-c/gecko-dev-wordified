@@ -231,6 +231,15 @@ nsParserConstants
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 /
 *
 *
@@ -4137,7 +4146,7 @@ eHTMLTag_unknown
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 theToken
 !
@@ -5521,7 +5530,7 @@ theAllocator
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 endToken
 !

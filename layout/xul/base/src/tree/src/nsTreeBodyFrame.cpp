@@ -455,6 +455,15 @@ nsIScriptableRegion
 h
 "
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #
@@ -974,7 +983,7 @@ desiredRows
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 baseElement

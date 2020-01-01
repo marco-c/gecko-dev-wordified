@@ -143,6 +143,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 nsILineIterator
 .
 h
@@ -1956,7 +1965,7 @@ GetChildCount
 const
 {
 return
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mFlags
 .
@@ -1998,7 +2007,7 @@ aFrame
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mFlags
 .
@@ -2069,7 +2078,7 @@ GetChildCount
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mFlags
 .
@@ -2907,7 +2916,7 @@ aFrame
 const
 {
 return
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mFlags
 .

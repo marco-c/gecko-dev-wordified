@@ -452,6 +452,15 @@ nsContentList
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 using
 namespace
 mozilla
@@ -5443,7 +5452,7 @@ displayWidth
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mDisplayFrame
 )
@@ -9348,7 +9357,7 @@ mStyleContext
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 styleContext
@@ -9377,7 +9386,7 @@ mStyleContext
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 textStyleContext
@@ -9412,7 +9421,7 @@ this
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mDisplayFrame
@@ -9484,7 +9493,7 @@ textStyleContext
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 textFrame

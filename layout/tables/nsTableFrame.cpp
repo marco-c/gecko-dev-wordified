@@ -342,6 +342,15 @@ nsCSSProps
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 using
 namespace
 mozilla
@@ -9141,7 +9150,7 @@ LayoutStrategy
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 tls
@@ -14961,7 +14970,7 @@ GetParent
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 container
 )

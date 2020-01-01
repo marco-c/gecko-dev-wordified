@@ -140,6 +140,15 @@ Assertions
 h
 "
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 ifdef
 DEBUG
 #
@@ -2113,7 +2122,7 @@ do
 \
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 (
@@ -2177,7 +2186,7 @@ do
 \
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 (

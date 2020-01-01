@@ -212,6 +212,15 @@ include
 "
 mozilla
 /
+Likely
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -10831,7 +10840,7 @@ it
 .
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 rootFrame
 -
@@ -19788,7 +19797,7 @@ scrolling
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 data
@@ -21956,7 +21965,7 @@ nsCallbackEventRequest
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 result
@@ -32916,7 +32925,7 @@ GetCurrentEventFrame
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mIsDestroying
 )

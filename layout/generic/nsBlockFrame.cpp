@@ -449,6 +449,15 @@ h
 for
 DebugOnly
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 ifdef
 IBMBIDI
 #
@@ -18699,7 +18708,7 @@ list
 .
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 aFromOverflowLine

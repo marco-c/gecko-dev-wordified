@@ -204,6 +204,15 @@ nsDisplayList
 h
 "
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 ifdef
 DEBUG
 #
@@ -3517,7 +3526,7 @@ GetNextInFlow
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 child
 )

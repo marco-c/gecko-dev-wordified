@@ -230,6 +230,15 @@ NodeListBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 /
 /
 Form
@@ -325,7 +334,7 @@ IsBlack
 )
 &
 &
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 cb

@@ -261,6 +261,15 @@ nsRenderingContext
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 using
 namespace
 mozilla
@@ -3629,7 +3638,7 @@ aFrameList
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 aPrevFrame
 =

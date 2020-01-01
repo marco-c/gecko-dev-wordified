@@ -240,6 +240,15 @@ nsIReflowCallback
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 using
 namespace
 mozilla
@@ -9425,7 +9434,7 @@ GetContent
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 parentContent
@@ -9653,7 +9662,7 @@ aStop
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 aFirst

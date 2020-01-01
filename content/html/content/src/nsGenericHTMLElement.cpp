@@ -126,6 +126,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -5674,7 +5683,7 @@ continue
 }
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 attNs
 =
@@ -12345,7 +12354,7 @@ value
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 buffer

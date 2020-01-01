@@ -472,7 +472,7 @@ NS_OK
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 cb
 .

@@ -144,6 +144,15 @@ nsTHashtable
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 class
 nsIScrollableFrame
 ;
@@ -423,7 +432,7 @@ aRect
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mAssigned
 )
@@ -528,7 +537,7 @@ aRect
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mAssignedLeft
 )
@@ -574,7 +583,7 @@ aRect
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mAssignedRight
 )

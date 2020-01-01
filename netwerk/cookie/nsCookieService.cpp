@@ -419,6 +419,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 nsIAppsService
 .
 h
@@ -15273,7 +15282,7 @@ reading
 .
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 mDBState
@@ -15306,7 +15315,7 @@ domain
 .
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mDefaultDBState
 -
@@ -15897,7 +15906,7 @@ reading
 .
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 mDBState

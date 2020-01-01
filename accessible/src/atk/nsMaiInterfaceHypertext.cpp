@@ -139,6 +139,15 @@ nsMaiHyperlink
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 extern
 "
 C
@@ -424,7 +433,7 @@ interface
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 aIface

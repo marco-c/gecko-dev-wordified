@@ -3565,6 +3565,15 @@ HTMLCollectionBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 using
 namespace
 mozilla
@@ -42590,7 +42599,7 @@ JS_FALSE
 }
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 proto
@@ -46404,7 +46413,7 @@ NS_ERROR_UNEXPECTED
 }
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 pi_obj
@@ -46542,7 +46551,7 @@ NS_ERROR_UNEXPECTED
 }
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 pi_obj

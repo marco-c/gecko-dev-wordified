@@ -113,6 +113,15 @@ hb
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 using
 namespace
 mozilla
@@ -742,7 +751,7 @@ mMetrics
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 GetStyle
 (

@@ -139,6 +139,15 @@ nsString
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 extern
 "
 C
@@ -715,7 +724,7 @@ aIface
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 aIface

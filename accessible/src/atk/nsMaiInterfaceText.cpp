@@ -139,6 +139,15 @@ nsIPersistentProperties2
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 using
 namespace
 mozilla
@@ -2382,7 +2391,7 @@ aIface
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 aIface

@@ -365,6 +365,15 @@ Preferences
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 /
 /
 Other
@@ -7184,7 +7193,7 @@ nsGlobalWindow
 )
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 cb
 .

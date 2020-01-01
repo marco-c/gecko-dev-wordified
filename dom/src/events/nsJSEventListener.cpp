@@ -241,6 +241,15 @@ nsDOMJSUtils
 h
 "
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 ifdef
 DEBUG
 #
@@ -424,7 +433,7 @@ nsJSEventListener
 )
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 cb
 .

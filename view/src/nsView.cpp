@@ -168,6 +168,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 nsXULPopupManager
 .
 h
@@ -3949,7 +3958,7 @@ strong
 assert
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mWindow
 )

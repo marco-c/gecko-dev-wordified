@@ -154,6 +154,15 @@ sampler
 h
 "
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 if
 defined
 (
@@ -297,7 +306,7 @@ k64KLimit
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 aWidth
 >
@@ -331,7 +340,7 @@ invalid
 sizes
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 aHeight
 <
@@ -374,7 +383,7 @@ aHeight
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 tmp
 /
@@ -408,7 +417,7 @@ tmp
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 tmp
 /
@@ -467,7 +476,7 @@ that
 height
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 aHeight
 >

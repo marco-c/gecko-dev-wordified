@@ -316,6 +316,15 @@ prnetdb
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 /
 /
 -
@@ -1882,7 +1891,7 @@ encoded_token
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 *

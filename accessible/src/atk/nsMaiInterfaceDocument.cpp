@@ -139,6 +139,15 @@ nsMai
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 static
 const
 char
@@ -251,7 +260,7 @@ Interface
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 aIface

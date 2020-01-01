@@ -178,6 +178,15 @@ md4
 h
 "
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 ifdef
 PR_LOGGING
 PRLogModuleInfo
@@ -3625,7 +3634,7 @@ checking
 .
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 offset
 <

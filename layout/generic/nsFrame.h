@@ -121,6 +121,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 nsBox
 .
 h
@@ -3883,7 +3892,7 @@ unscrollable
 .
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 aDisp
 -

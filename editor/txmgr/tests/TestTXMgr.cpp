@@ -114,6 +114,15 @@ nsComponentManagerUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 static
 int32_t
 sConstructorCount
@@ -36317,7 +36326,7 @@ stuck
 .
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 j
 %

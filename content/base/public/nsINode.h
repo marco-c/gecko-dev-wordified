@@ -111,6 +111,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -4977,7 +4986,7 @@ GetParent
 const
 {
 return
-NS_LIKELY
+MOZ_LIKELY
 (
 GetBoolFlag
 (

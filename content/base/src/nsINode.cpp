@@ -158,6 +158,15 @@ include
 "
 mozilla
 /
+Likely
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -6415,7 +6424,7 @@ cb
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 cb

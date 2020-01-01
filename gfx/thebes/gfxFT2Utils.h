@@ -112,6 +112,15 @@ gfxFT2FontBase
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 /
 /
 Rounding
@@ -423,7 +432,7 @@ XScale
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mFace

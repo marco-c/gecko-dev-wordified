@@ -151,6 +151,15 @@ nsClassHashtable
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 class
 nsCounterList
 ;
@@ -1218,7 +1227,7 @@ now
 .
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 IsDirty

@@ -342,6 +342,15 @@ nsEventStateManager
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 static
 nsresult
 GetDocumentCharacterSetForURI
@@ -4871,7 +4880,7 @@ mOuter
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 outer

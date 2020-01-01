@@ -334,6 +334,15 @@ nsIHTMLDocument
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 namespace
 dom
 =
@@ -416,7 +425,7 @@ doc
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 aCurrentDoc
 =
@@ -453,7 +462,7 @@ nsHtml5OtherDocUpdate
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mDocument
 )
@@ -984,7 +993,7 @@ node
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 executorDoc
 =
@@ -1972,7 +1981,7 @@ kNameSpaceID_XHTML
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 isKeygen
 )
@@ -2097,7 +2106,7 @@ newContent
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 name
 =
@@ -2156,7 +2165,7 @@ false
 else
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 isKeygen
 )

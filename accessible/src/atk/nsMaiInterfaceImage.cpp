@@ -135,6 +135,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 nsMai
 .
 h
@@ -358,7 +367,7 @@ interface
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 aIface

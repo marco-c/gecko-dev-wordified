@@ -134,6 +134,15 @@ Util
 h
 "
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 ifdef
 MOZ_LOGGING
 /
@@ -8204,7 +8213,7 @@ nsDocument
 )
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 cb
 .

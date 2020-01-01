@@ -333,6 +333,15 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 /
 /
 /
@@ -546,7 +555,7 @@ aDataLen
 if
 (
 !
-NS_LIKELY
+MOZ_LIKELY
 (
 buffer
 )

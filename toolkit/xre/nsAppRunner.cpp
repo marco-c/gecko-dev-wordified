@@ -230,6 +230,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 nsAppRunner
 .
 h
@@ -5173,7 +5182,7 @@ PR_BEGIN_MACRO
 \
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 (

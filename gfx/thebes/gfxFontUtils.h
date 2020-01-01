@@ -190,6 +190,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 zlib
 .
 h
@@ -1115,7 +1124,7 @@ Length
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 blocks
@@ -1276,7 +1285,7 @@ numNewBlocks
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 blocks
@@ -1508,7 +1517,7 @@ Length
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 blocks
@@ -1637,7 +1646,7 @@ numNewBlocks
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 blocks
@@ -1993,7 +2002,7 @@ needed
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 blocks
