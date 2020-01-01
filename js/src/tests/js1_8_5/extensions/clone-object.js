@@ -3,17 +3,6 @@
 |
 reftest
 |
-pref
-(
-javascript
-.
-options
-.
-xml
-.
-content
-true
-)
 skip
 -
 if
@@ -1951,7 +1940,7 @@ Object
 defineProperty
 (
 b
-QName
+Array
 (
 uri
 "
@@ -1973,7 +1962,7 @@ Object
 defineProperty
 (
 b
-QName
+Array
 (
 uri
 "

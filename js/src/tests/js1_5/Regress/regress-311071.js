@@ -196,9 +196,6 @@ to
 end
 of
 line
-if
-not
-e4x
 '
 ;
 var
