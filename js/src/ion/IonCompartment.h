@@ -194,6 +194,8 @@ calleeToken
 JSObject
 *
 scopeChain
+size_t
+numStackValues
 Value
 *
 vp

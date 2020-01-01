@@ -2449,13 +2449,8 @@ argv_
 1
 NULL
 calleeToken_
-/
-*
-scopeChain
-=
-*
-/
 NULL
+0
 &
 result
 )

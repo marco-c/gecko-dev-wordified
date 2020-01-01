@@ -10767,6 +10767,7 @@ scopeChain
 *
 /
 NULL
+0
 result
 .
 address
@@ -11611,6 +11612,7 @@ scopeChain
 *
 /
 NULL
+0
 result
 .
 address

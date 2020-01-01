@@ -582,6 +582,16 @@ void
 *
 )
 ;
+bool
+initForOsr
+(
+StackFrame
+*
+fp
+uint32_t
+numStackValues
+)
+;
 uint32_t
 frameSize
 (
