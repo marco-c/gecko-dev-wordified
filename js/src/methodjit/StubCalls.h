@@ -704,15 +704,6 @@ f
 ;
 void
 JS_FASTCALL
-WrapPrimitiveThis
-(
-VMFrame
-&
-f
-)
-;
-void
-JS_FASTCALL
 BindName
 (
 VMFrame
