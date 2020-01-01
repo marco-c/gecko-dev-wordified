@@ -545,6 +545,7 @@ Constructor
 nsISupports
 *
 uint32_t
+const
 Nullable
 <
 bool
@@ -657,6 +658,7 @@ int8_t
 void
 PassNullableByte
 (
+const
 Nullable
 <
 int8_t
@@ -2165,7 +2167,7 @@ nsAString
 ;
 /
 /
-Enumarated
+Enumerated
 types
 void
 PassEnum
@@ -2968,6 +2970,17 @@ void
 PassByte
 (
 T
+)
+MOZ_DELETE
+;
+void
+PassNullableByte
+(
+Nullable
+<
+int8_t
+>
+&
 )
 MOZ_DELETE
 ;

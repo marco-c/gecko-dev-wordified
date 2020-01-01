@@ -242,6 +242,7 @@ XXX
 nullable
 bool
 aCapture
+const
 Nullable
 <
 bool
