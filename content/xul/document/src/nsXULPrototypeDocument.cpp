@@ -3439,6 +3439,11 @@ mGCNumber
 =
 aGCNumber
 ;
+if
+(
+mRoot
+)
+{
 mRoot
 -
 >
@@ -3447,6 +3452,7 @@ TraceAllScripts
 aTrc
 )
 ;
+}
 }
 /
 /
