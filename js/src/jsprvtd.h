@@ -1194,7 +1194,7 @@ HashSet
 class
 DeflatedStringCache
 ;
-struct
+class
 PropertyCache
 ;
 struct
