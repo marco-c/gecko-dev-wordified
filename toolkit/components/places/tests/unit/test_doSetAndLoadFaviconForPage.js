@@ -606,9 +606,7 @@ favicons
 {
 uri
 :
-iosvc
-.
-newFileURI
+uri
 (
 do_get_file
 (

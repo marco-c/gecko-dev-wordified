@@ -997,7 +997,9 @@ lastVisit
 jan11_800
 transType
 :
-histsvc
+PlacesUtils
+.
+history
 .
 TRANSITION_LINK
 }
@@ -1614,7 +1616,9 @@ Query
 var
 query
 =
-histsvc
+PlacesUtils
+.
+history
 .
 getNewQuery
 (
@@ -1636,7 +1640,9 @@ query
 .
 beginTimeReference
 =
-histsvc
+PlacesUtils
+.
+history
 .
 TIME_RELATIVE_EPOCH
 ;
@@ -1644,7 +1650,9 @@ query
 .
 endTimeReference
 =
-histsvc
+PlacesUtils
+.
+history
 .
 TIME_RELATIVE_EPOCH
 ;
@@ -1694,7 +1702,9 @@ Options
 var
 options
 =
-histsvc
+PlacesUtils
+.
+history
 .
 getNewQueryOptions
 (
@@ -1752,7 +1762,9 @@ Results
 var
 result
 =
-histsvc
+PlacesUtils
+.
+history
 .
 executeQuery
 (
@@ -2439,7 +2451,9 @@ batchChange
 }
 }
 ;
-histsvc
+PlacesUtils
+.
+history
 .
 runInBatchMode
 (

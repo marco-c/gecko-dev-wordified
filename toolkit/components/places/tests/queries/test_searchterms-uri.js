@@ -611,7 +611,9 @@ com
 "
 transType
 :
-histsvc
+PlacesUtils
+.
+history
 .
 TRANSITION_LINK
 }
@@ -969,7 +971,9 @@ testData
 var
 query
 =
-histsvc
+PlacesUtils
+.
+history
 .
 getNewQuery
 (
@@ -1012,7 +1016,9 @@ Options
 var
 options
 =
-histsvc
+PlacesUtils
+.
+history
 .
 getNewQueryOptions
 (
@@ -1040,7 +1046,9 @@ Results
 var
 result
 =
-histsvc
+PlacesUtils
+.
+history
 .
 executeQuery
 (
@@ -1197,7 +1205,9 @@ moz
 "
 transType
 :
-histsvc
+PlacesUtils
+.
+history
 .
 TRANSITION_LINK
 }
@@ -1415,7 +1425,9 @@ batchchange
 }
 }
 ;
-histsvc
+PlacesUtils
+.
+history
 .
 runInBatchMode
 (

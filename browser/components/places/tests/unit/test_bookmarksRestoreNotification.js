@@ -962,7 +962,9 @@ this
 .
 file
 =
-dirSvc
+Services
+.
+dirsvc
 .
 get
 (
@@ -1231,7 +1233,9 @@ this
 .
 file
 =
-dirSvc
+Services
+.
+dirsvc
 .
 get
 (
@@ -1506,7 +1510,9 @@ this
 .
 file
 =
-dirSvc
+Services
+.
+dirsvc
 .
 get
 (
@@ -1867,7 +1873,9 @@ this
 .
 file
 =
-dirSvc
+Services
+.
+dirsvc
 .
 get
 (
@@ -2796,7 +2804,9 @@ aBasename
 var
 file
 =
-dirSvc
+Services
+.
+dirsvc
 .
 get
 (

@@ -990,7 +990,9 @@ bookmarks
 var
 bookmarksFile
 =
-dirSvc
+Services
+.
+dirsvc
 .
 get
 (

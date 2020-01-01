@@ -1067,7 +1067,9 @@ file
 var
 bookmarksFileNew
 =
-dirSvc
+Services
+.
+dirsvc
 .
 get
 (

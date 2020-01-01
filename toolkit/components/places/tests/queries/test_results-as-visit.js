@@ -751,7 +751,9 @@ testData
 var
 query
 =
-histsvc
+PlacesUtils
+.
+history
 .
 getNewQuery
 (
@@ -777,7 +779,9 @@ Options
 var
 options
 =
-histsvc
+PlacesUtils
+.
+history
 .
 getNewQueryOptions
 (
@@ -805,7 +809,9 @@ Results
 var
 result
 =
-histsvc
+PlacesUtils
+.
+history
 .
 executeQuery
 (
@@ -1224,7 +1230,9 @@ batchchange
 }
 }
 ;
-histsvc
+PlacesUtils
+.
+history
 .
 runInBatchMode
 (

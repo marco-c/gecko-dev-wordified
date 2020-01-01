@@ -2012,7 +2012,9 @@ options
 var
 query
 =
-histsvc
+PlacesUtils
+.
+history
 .
 getNewQuery
 (
@@ -2021,7 +2023,9 @@ getNewQuery
 var
 options
 =
-histsvc
+PlacesUtils
+.
+history
 .
 getNewQueryOptions
 (
@@ -2053,7 +2057,9 @@ expectedData
 var
 result
 =
-histsvc
+PlacesUtils
+.
+history
 .
 executeQuery
 (
