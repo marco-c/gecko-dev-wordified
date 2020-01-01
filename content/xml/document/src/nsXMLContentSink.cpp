@@ -6631,7 +6631,7 @@ shell
 mDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

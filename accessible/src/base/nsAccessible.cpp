@@ -17642,7 +17642,7 @@ shell
 parentDoc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

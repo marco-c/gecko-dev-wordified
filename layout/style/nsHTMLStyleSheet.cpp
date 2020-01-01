@@ -2684,7 +2684,7 @@ mDocument
 mDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 )
@@ -2708,7 +2708,7 @@ root
 mDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 -

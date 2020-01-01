@@ -630,7 +630,7 @@ shell
 aDoc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

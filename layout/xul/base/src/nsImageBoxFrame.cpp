@@ -823,7 +823,7 @@ pres_shell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

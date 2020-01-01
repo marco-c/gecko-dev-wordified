@@ -4106,7 +4106,7 @@ shell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 )

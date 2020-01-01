@@ -3773,7 +3773,7 @@ GetDocument
 )
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

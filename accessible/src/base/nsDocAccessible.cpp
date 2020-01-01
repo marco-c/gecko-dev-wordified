@@ -4032,7 +4032,7 @@ presShell
 document
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

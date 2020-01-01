@@ -655,7 +655,7 @@ if
 aDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 )

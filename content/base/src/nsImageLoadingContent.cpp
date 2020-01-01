@@ -1905,7 +1905,7 @@ doc
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 :

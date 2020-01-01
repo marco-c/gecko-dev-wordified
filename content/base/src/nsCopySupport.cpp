@@ -3751,7 +3751,7 @@ presShell
 aDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

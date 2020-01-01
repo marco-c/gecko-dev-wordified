@@ -7068,7 +7068,7 @@ nsIPresShell
 >
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -12088,7 +12088,7 @@ applies
 .
 if
 (
-GetPrimaryShell
+GetShell
 (
 )
 )

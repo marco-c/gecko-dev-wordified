@@ -4937,7 +4937,7 @@ ps
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -17770,7 +17770,7 @@ shell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -19460,7 +19460,7 @@ presShell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -29693,7 +29693,7 @@ shell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

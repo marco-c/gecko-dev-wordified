@@ -4251,7 +4251,7 @@ GetRootBox
 document
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 )
@@ -4461,7 +4461,7 @@ GetRootBox
 document
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 )

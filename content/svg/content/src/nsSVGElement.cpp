@@ -4944,7 +4944,7 @@ shell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -5037,12 +5037,7 @@ animated
 value
 noticed
 .
-context
--
->
-PresShell
-(
-)
+shell
 -
 >
 RestyleForAnimation

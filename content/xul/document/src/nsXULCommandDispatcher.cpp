@@ -2580,7 +2580,7 @@ shell
 document
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

@@ -1159,7 +1159,7 @@ return
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

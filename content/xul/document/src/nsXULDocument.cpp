@@ -6214,7 +6214,7 @@ nsIPresShell
 >
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -9064,7 +9064,7 @@ nsIPresShell
 *
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -11952,7 +11952,7 @@ nsIPresShell
 >
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -23720,7 +23720,7 @@ shell
 mDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

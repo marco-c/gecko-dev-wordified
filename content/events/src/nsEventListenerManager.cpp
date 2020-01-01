@@ -7349,7 +7349,7 @@ shell
 document
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

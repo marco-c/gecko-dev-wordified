@@ -13872,7 +13872,7 @@ presShell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -14325,7 +14325,7 @@ presShell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -21892,7 +21892,7 @@ parentShell
 parentDoc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

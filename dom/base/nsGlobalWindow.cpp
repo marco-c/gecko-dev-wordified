@@ -30032,7 +30032,7 @@ targetWindow
 mDoc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -36692,7 +36692,7 @@ shell
 mDoc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -40152,7 +40152,7 @@ shell
 mDoc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

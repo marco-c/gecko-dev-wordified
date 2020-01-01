@@ -2022,7 +2022,7 @@ presShell
 document
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -2377,7 +2377,7 @@ presShell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -3453,7 +3453,7 @@ presShell
 focusedDoc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -13404,7 +13404,7 @@ presShell
 document
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

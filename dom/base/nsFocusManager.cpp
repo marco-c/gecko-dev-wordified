@@ -8555,7 +8555,7 @@ shell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -14077,7 +14077,7 @@ presShell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -15552,7 +15552,7 @@ presShell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -16989,7 +16989,7 @@ subShell
 subdoc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -19316,7 +19316,7 @@ presShell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

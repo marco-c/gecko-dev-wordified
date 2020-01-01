@@ -985,7 +985,7 @@ doc
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 :

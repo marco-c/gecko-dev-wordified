@@ -18734,7 +18734,7 @@ origShell
 aOrigDoc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -18745,7 +18745,7 @@ shell
 aDoc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
