@@ -943,4 +943,17 @@ guid
 )
 ;
 }
+public
+void
+closeExtender
+(
+)
+{
+dataExtender
+.
+close
+(
+)
+;
+}
 }
