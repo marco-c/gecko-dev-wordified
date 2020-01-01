@@ -4443,7 +4443,7 @@ Intent
 ACTION_SEND
 tab
 .
-getTitle
+getDisplayTitle
 (
 )
 )
@@ -20364,7 +20364,7 @@ title
 =
 tab
 .
-getTitle
+getDisplayTitle
 (
 )
 ;
