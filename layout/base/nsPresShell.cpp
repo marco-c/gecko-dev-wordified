@@ -42552,10 +42552,6 @@ if
 menulist
 )
 {
-checkLineHeight
-=
-PR_FALSE
-;
 nsCOMPtr
 <
 nsIDOMXULSelectControlElement
@@ -42571,6 +42567,11 @@ if
 (
 select
 )
+{
+checkLineHeight
+=
+PR_FALSE
+;
 select
 -
 >
@@ -42582,6 +42583,7 @@ item
 )
 )
 ;
+}
 }
 }
 if
