@@ -674,6 +674,13 @@ nsICSSDeclaration
 4
 _extra
 )
+\
+DOMCI_CASTABLE_INTERFACE
+(
+nsGenericTextNode
+5
+_extra
+)
 /
 /
 Make

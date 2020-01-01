@@ -2696,6 +2696,14 @@ MDRawAssertionInfo
 assertion
 )
 {
+if
+(
+!
+exinfo
+)
+return
+true
+;
 PEXCEPTION_RECORD
 e
 =

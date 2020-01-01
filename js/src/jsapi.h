@@ -933,9 +933,14 @@ v
 )
 {
 return
+(
+JSBool
+)
+(
 v
 &
 JSVAL_INT
+)
 ;
 }
 static
@@ -1726,6 +1731,9 @@ p
 (
 (
 jsval
+)
+(
+ptrdiff_t
 )
 (
 p

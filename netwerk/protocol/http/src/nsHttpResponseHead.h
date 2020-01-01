@@ -1063,6 +1063,7 @@ terminated
 void
 ParseStatusLine
 (
+const
 char
 *
 line
@@ -1088,6 +1089,7 @@ destructive
 void
 ParseHeaderLine
 (
+const
 char
 *
 line
