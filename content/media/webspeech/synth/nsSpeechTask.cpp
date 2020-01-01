@@ -1329,6 +1329,14 @@ Destroy
 )
 ;
 }
+nsRefPtr
+<
+SpeechSynthesisUtterance
+>
+utterance
+=
+mUtterance
+;
 if
 (
 mSpeechSynthesis
@@ -1343,7 +1351,7 @@ this
 )
 ;
 }
-mUtterance
+utterance
 -
 >
 mState
@@ -1353,7 +1361,7 @@ SpeechSynthesisUtterance
 :
 STATE_ENDED
 ;
-mUtterance
+utterance
 -
 >
 DispatchSpeechSynthesisEvent
