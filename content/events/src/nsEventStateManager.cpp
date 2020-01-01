@@ -12371,6 +12371,10 @@ targetContent
 )
 return
 ;
+sLastDragOverFrame
+=
+nsnull
+;
 nsCOMPtr
 <
 nsIWidget
@@ -20968,6 +20972,10 @@ status
 ;
 }
 }
+sLastDragOverFrame
+=
+nsnull
+;
 ClearGlobalActiveContent
 (
 this
