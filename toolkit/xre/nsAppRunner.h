@@ -1250,11 +1250,6 @@ char
 progname
 )
 ;
-void
-TriggerQuirks
-(
-)
-;
 #
 endif
 /
