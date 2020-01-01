@@ -324,7 +324,7 @@ image
 :
 url
 (
-blackbox
+itemToggle
 .
 png
 )
@@ -344,6 +344,13 @@ clip
 content
 -
 box
+;
+background
+-
+size
+:
+32px
+16px
 ;
 background
 -
