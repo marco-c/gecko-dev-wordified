@@ -116,11 +116,7 @@ function
 {
 crashType
 =
-Components
-.
-interfaces
-.
-nsITestCrasher
+CrashTestUtils
 .
 CRASH_PURE_VIRTUAL_CALL
 ;
