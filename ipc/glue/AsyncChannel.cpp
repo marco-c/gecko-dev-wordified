@@ -674,6 +674,10 @@ mChannelState
 ChannelConnected
 ;
 }
+mChild
+=
+needOpen
+;
 mIOLoop
 =
 aIOLoop

@@ -582,6 +582,12 @@ here
 "
 )
 ;
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 if
 (
 !
@@ -606,12 +612,6 @@ d
 channel
 return
 false
-;
-MutexAutoLock
-lock
-(
-mMutex
-)
 ;
 mPendingReply
 =
