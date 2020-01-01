@@ -4938,8 +4938,11 @@ style
 &
 =
 ~
-WS_CHILDWINDOW
+0x40000000
 ;
+/
+/
+WS_CHILDWINDOW
 }
 else
 if
