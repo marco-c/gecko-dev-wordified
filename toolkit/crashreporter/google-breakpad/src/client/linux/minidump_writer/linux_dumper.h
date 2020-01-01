@@ -374,6 +374,15 @@ minidump_format
 .
 h
 "
+#
+include
+<
+asm
+/
+ptrace
+.
+h
+>
 namespace
 google_breakpad
 {
