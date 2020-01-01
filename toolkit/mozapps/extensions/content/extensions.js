@@ -8825,6 +8825,14 @@ default
 category
 if
 (
+!
+this
+.
+node
+.
+selectedItem
+|
+|
 this
 .
 node
