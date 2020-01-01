@@ -48980,8 +48980,12 @@ tc
 ;
 if
 (
+!
 pn3
 )
+return
+NULL
+;
 pn3
 -
 >
@@ -49198,8 +49202,12 @@ tc
 ;
 if
 (
+!
 pn3
 )
+return
+NULL
+;
 pn3
 -
 >
