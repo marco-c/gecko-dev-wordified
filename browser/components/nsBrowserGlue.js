@@ -1384,7 +1384,7 @@ nsIPrefBranch
 var
 mustDisplayEULA
 =
-true
+false
 ;
 try
 {
