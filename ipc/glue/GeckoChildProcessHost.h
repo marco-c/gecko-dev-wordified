@@ -522,7 +522,7 @@ vector
 std
 :
 :
-wstring
+string
 >
 aExtraOpts
 =
@@ -534,7 +534,7 @@ vector
 std
 :
 :
-wstring
+string
 >
 (
 )
@@ -551,7 +551,7 @@ vector
 std
 :
 :
-wstring
+string
 >
 aExtraOpts
 =
@@ -563,7 +563,7 @@ vector
 std
 :
 :
-wstring
+string
 >
 (
 )

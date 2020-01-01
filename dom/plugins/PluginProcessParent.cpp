@@ -546,7 +546,7 @@ vector
 std
 :
 :
-wstring
+string
 >
 args
 ;
@@ -554,10 +554,7 @@ args
 .
 push_back
 (
-UTF8ToWide
-(
 mPluginFilePath
-)
 )
 ;
 return
