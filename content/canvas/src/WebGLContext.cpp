@@ -674,10 +674,6 @@ gl
 (
 nsnull
 )
-mEnabledExtensions
-(
-WebGLExtensionID_Max
-)
 {
 mWidth
 =
@@ -843,13 +839,6 @@ VertexAttrib0Status
 :
 :
 Default
-;
-mEnabledExtensions
-.
-SetLength
-(
-WebGLExtensionID_Max
-)
 ;
 }
 WebGLContext
