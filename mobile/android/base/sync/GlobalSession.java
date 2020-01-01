@@ -1291,6 +1291,17 @@ FennecTabsServerSyncStage
 )
 )
 ;
+/
+/
+Disable
+until
+Bug
+744816
+is
+fixed
+.
+/
+/
 stages
 .
 put
