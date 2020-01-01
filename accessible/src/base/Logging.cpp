@@ -2903,7 +2903,7 @@ void
 aDocument
 -
 >
-GetDocumentNode
+DocumentNode
 (
 )
 )
@@ -2928,7 +2928,7 @@ LogDocURI
 aDocument
 -
 >
-GetDocumentNode
+DocumentNode
 (
 )
 )
@@ -4071,10 +4071,10 @@ nsIDocument
 *
 docNode
 =
-aAcc
+doc
 -
 >
-GetDocumentNode
+DocumentNode
 (
 )
 ;
@@ -4482,7 +4482,7 @@ void
 aDocument
 -
 >
-GetDocumentNode
+DocumentNode
 (
 )
 )
@@ -4500,7 +4500,7 @@ LogDocURI
 aDocument
 -
 >
-GetDocumentNode
+DocumentNode
 (
 )
 )

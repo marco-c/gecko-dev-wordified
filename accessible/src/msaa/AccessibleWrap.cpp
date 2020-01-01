@@ -1423,7 +1423,7 @@ IsTabDocument
 doc
 -
 >
-GetDocumentNode
+DocumentNode
 (
 )
 )
