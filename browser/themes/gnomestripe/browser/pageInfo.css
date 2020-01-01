@@ -443,6 +443,7 @@ buttons
 /
 #
 viewGroup
+>
 radio
 {
 list
@@ -519,6 +520,7 @@ FieldText
 }
 #
 viewGroup
+>
 radio
 [
 selected
@@ -1411,10 +1413,8 @@ moz
 FieldText
 ;
 }
-#
-permList
->
-vbox
+.
+permission
 {
 padding
 -
@@ -1462,12 +1462,8 @@ dotted
 C0C0C0
 ;
 }
-#
-permList
->
-vbox
->
-label
+.
+permissionLabel
 {
 font
 -
@@ -1476,10 +1472,8 @@ weight
 bold
 ;
 }
-#
-permList
->
-vbox
+.
+permission
 :
 hover
 {
