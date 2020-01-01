@@ -575,13 +575,6 @@ step
 defaultValue
 "
 ]
-link
-:
-[
-"
-crossOrigin
-"
-]
 textarea
 :
 [
