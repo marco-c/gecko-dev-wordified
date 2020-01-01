@@ -880,16 +880,6 @@ event
 ;
 virtual
 bool
-RecvRealTouchEvent
-(
-const
-nsTouchEvent
-&
-event
-)
-;
-virtual
-bool
 RecvKeyEvent
 (
 const
@@ -1261,7 +1251,7 @@ RecvDestroy
 (
 )
 ;
-nsEventStatus
+bool
 DispatchWidgetEvent
 (
 nsGUIEvent
