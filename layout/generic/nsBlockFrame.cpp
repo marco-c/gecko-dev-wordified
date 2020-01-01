@@ -3305,7 +3305,7 @@ InvalidateInternal
 r
 aX
 aY
-aForChild
+this
 aImmediate
 )
 ;
@@ -3321,7 +3321,7 @@ InvalidateInternal
 aDamageRect
 aX
 aY
-aForChild
+this
 aImmediate
 )
 ;

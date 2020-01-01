@@ -14302,7 +14302,7 @@ InvalidateInternal
 aDamageRect
 aX
 aY
-aForChild
+this
 aImmediate
 )
 ;
