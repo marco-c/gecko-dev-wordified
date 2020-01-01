@@ -669,6 +669,13 @@ h
 "
 #
 endif
+#
+include
+"
+jsatominlines
+.
+h
+"
 /
 *
 Generic

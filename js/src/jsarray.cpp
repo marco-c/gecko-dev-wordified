@@ -1006,6 +1006,13 @@ jsvector
 .
 h
 "
+#
+include
+"
+jsatominlines
+.
+h
+"
 /
 *
 2

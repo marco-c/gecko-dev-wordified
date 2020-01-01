@@ -707,6 +707,13 @@ endif
 #
 include
 "
+jsatominlines
+.
+h
+"
+#
+include
+"
 jsautooplen
 .
 h

@@ -693,6 +693,13 @@ h
 #
 include
 "
+jsatominlines
+.
+h
+"
+#
+include
+"
 jsautooplen
 .
 h

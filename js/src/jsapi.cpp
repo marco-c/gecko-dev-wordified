@@ -781,6 +781,13 @@ h
 #
 endif
 #
+include
+"
+jsatominlines
+.
+h
+"
+#
 ifdef
 HAVE_VA_LIST_AS_ARRAY
 #
