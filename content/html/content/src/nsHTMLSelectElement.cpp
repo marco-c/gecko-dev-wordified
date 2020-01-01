@@ -9315,6 +9315,11 @@ this
 mOptions
 )
 ;
+FindSelectedIndex
+(
+0
+)
+;
 }
 #
 ifdef
