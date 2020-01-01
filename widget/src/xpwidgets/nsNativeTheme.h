@@ -1006,6 +1006,8 @@ IsIndeterminateProgress
 nsIFrame
 *
 aFrame
+nsEventStates
+aEventStates
 )
 ;
 PRInt32
