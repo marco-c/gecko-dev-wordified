@@ -10304,9 +10304,11 @@ js_BlockClass
 ;
 scope
 =
-OBJ_SCOPE
-(
 obj
+-
+>
+scope
+(
 )
 ;
 sprop
@@ -12206,9 +12208,11 @@ FREE_UPVAR_COOKIE
 #
 endif
 }
-OBJ_SCOPE
-(
 blockObj
+-
+>
+scope
+(
 )
 -
 >

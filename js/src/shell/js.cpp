@@ -17076,9 +17076,11 @@ return
 JS_NewNumberValue
 (
 cx
-OBJ_SHAPE
-(
 obj
+-
+>
+shape
+(
 )
 vp
 )

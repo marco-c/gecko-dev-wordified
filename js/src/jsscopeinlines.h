@@ -990,9 +990,11 @@ METHOD_BARRIER
 jsval
 prev
 =
-LOCKED_OBJ_GET_SLOT
-(
 object
+-
+>
+lockedGetSlot
+(
 sprop
 -
 >
@@ -1056,9 +1058,11 @@ METHOD_BARRIER
 jsval
 prev
 =
-LOCKED_OBJ_GET_SLOT
-(
 object
+-
+>
+lockedGetSlot
+(
 slot
 )
 ;
