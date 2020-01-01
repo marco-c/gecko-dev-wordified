@@ -1078,7 +1078,7 @@ nsIAtom
 *
 aAttribute
 const
-nsAString
+nsAttrValue
 *
 aValue
 bool
@@ -1449,7 +1449,7 @@ attrValue
 modType
 hasListeners
 aNotify
-nsnull
+false
 )
 ;
 }
