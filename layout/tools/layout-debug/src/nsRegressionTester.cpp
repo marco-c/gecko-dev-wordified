@@ -416,16 +416,12 @@ nsCOMPtr
 nsIPresShell
 >
 presShell
-;
+=
 docShell
 -
 >
 GetPresShell
 (
-getter_AddRefs
-(
-presShell
-)
 )
 ;
 nsIFrame

@@ -13564,15 +13564,13 @@ do_QueryInterface
 parentDocShellItem
 )
 ;
+parentPresShell
+=
 parentDocShell
 -
 >
 GetPresShell
 (
-getter_AddRefs
-(
-parentPresShell
-)
 )
 ;
 }

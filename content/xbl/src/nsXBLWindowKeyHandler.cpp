@@ -2191,15 +2191,13 @@ if
 (
 docShell
 )
+presShell
+=
 docShell
 -
 >
 GetPresShell
 (
-getter_AddRefs
-(
-presShell
-)
 )
 ;
 if
