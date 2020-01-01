@@ -1695,7 +1695,7 @@ StartLayout
 )
 ;
 void
-DocumentMode
+SetDocumentMode
 (
 nsHtml5DocumentMode
 m

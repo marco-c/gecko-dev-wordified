@@ -4031,7 +4031,7 @@ eTreeOpDocumentMode
 aBuilder
 -
 >
-DocumentMode
+SetDocumentMode
 (
 mOne
 .
