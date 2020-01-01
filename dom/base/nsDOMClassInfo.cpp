@@ -22253,6 +22253,12 @@ id
 sWrappedJSObject_id
 )
 {
+OBJ_TO_OUTER_OBJECT
+(
+cx
+obj
+)
+;
 *
 vp
 =
