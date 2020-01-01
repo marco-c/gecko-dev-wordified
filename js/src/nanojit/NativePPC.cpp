@@ -2972,7 +2972,7 @@ void
 Assembler
 :
 :
-asm_fcond
+asm_condd
 (
 LIns
 *
@@ -6524,7 +6524,7 @@ void
 Assembler
 :
 :
-asm_i2f
+asm_i2d
 (
 LIns
 *
@@ -6706,7 +6706,7 @@ void
 Assembler
 :
 :
-asm_u2f
+asm_ui2d
 (
 LIns
 *
@@ -6865,7 +6865,7 @@ void
 Assembler
 :
 :
-asm_f2i
+asm_d2i
 (
 LInsp
 )
@@ -7327,7 +7327,7 @@ void
 Assembler
 :
 :
-asm_immf
+asm_immd
 (
 LIns
 *
@@ -7516,7 +7516,7 @@ q
 ins
 -
 >
-immQ
+immDasQ
 (
 )
 ;

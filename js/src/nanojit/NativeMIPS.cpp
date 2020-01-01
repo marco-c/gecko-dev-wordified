@@ -2781,7 +2781,7 @@ msw
 value
 -
 >
-immQorDhi
+immDhi
 (
 )
 ;
@@ -2791,7 +2791,7 @@ lsw
 value
 -
 >
-immQorDlo
+immDlo
 (
 )
 ;
@@ -3943,7 +3943,7 @@ void
 Assembler
 :
 :
-asm_u2f
+asm_ui2d
 (
 LIns
 *
@@ -4144,7 +4144,7 @@ ft
 TAG
 (
 "
-asm_u2f
+asm_ui2d
 (
 ins
 =
@@ -4173,7 +4173,7 @@ void
 Assembler
 :
 :
-asm_f2i
+asm_d2i
 (
 LInsp
 ins
@@ -4236,7 +4236,7 @@ sr
 TAG
 (
 "
-asm_u2f
+asm_d2i
 (
 ins
 =
@@ -4556,7 +4556,7 @@ void
 Assembler
 :
 :
-asm_immf
+asm_immd
 (
 LIns
 *
@@ -4615,13 +4615,13 @@ rr
 ins
 -
 >
-immQorDhi
+immDhi
 (
 )
 ins
 -
 >
-immQorDlo
+immDlo
 (
 )
 )
@@ -4645,7 +4645,7 @@ FP
 TAG
 (
 "
-asm_immf
+asm_immd
 (
 ins
 =
@@ -5885,7 +5885,7 @@ void
 Assembler
 :
 :
-asm_fcond
+asm_condd
 (
 LIns
 *
@@ -6087,7 +6087,7 @@ r
 TAG
 (
 "
-asm_fcond
+asm_condd
 (
 ins
 =
@@ -6116,7 +6116,7 @@ void
 Assembler
 :
 :
-asm_i2f
+asm_i2d
 (
 LIns
 *
@@ -6186,7 +6186,7 @@ fr
 TAG
 (
 "
-asm_i2f
+asm_i2d
 (
 ins
 =

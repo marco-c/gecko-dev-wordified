@@ -13843,7 +13843,7 @@ void
 Assembler
 :
 :
-asm_i2f
+asm_i2d
 (
 LIns
 *
@@ -13939,7 +13939,7 @@ void
 Assembler
 :
 :
-asm_u2f
+asm_ui2d
 (
 LIns
 *
@@ -14062,7 +14062,7 @@ void
 Assembler
 :
 :
-asm_f2i
+asm_d2i
 (
 LIns
 *
@@ -14768,7 +14768,7 @@ condop
 )
 )
 return
-asm_fbranch
+asm_branchd
 (
 onFalse
 cond
@@ -16028,7 +16028,7 @@ NIns
 Assembler
 :
 :
-asm_fbranch
+asm_branchd
 (
 bool
 onFalse
@@ -16322,7 +16322,7 @@ patch
 _nIns
 ;
 }
-asm_fcmp
+asm_cmpd
 (
 a
 b
@@ -16336,7 +16336,7 @@ void
 Assembler
 :
 :
-asm_fcond
+asm_condd
 (
 LIns
 *
@@ -16606,7 +16606,7 @@ freeResourcesOf
 ins
 )
 ;
-asm_fcmp
+asm_cmpd
 (
 a
 b
@@ -16653,7 +16653,7 @@ void
 Assembler
 :
 :
-asm_fcmp
+asm_cmpd
 (
 LIns
 *
@@ -17085,13 +17085,13 @@ isImmD
 )
 )
 {
-asm_immf
+asm_immd
 (
 r
 ins
 -
 >
-immQ
+immDasQ
 (
 )
 /
@@ -18548,7 +18548,7 @@ void
 Assembler
 :
 :
-asm_immf
+asm_immd
 (
 LIns
 *
@@ -18564,13 +18564,13 @@ ins
 FpRegs
 )
 ;
-asm_immf
+asm_immd
 (
 r
 ins
 -
 >
-immQ
+immDasQ
 (
 )
 /
@@ -18777,7 +18777,7 @@ void
 Assembler
 :
 :
-asm_immf
+asm_immd
 (
 Register
 r

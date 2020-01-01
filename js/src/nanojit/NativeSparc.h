@@ -1326,7 +1326,7 @@ cond
 ;
 \
 void
-asm_fcmp
+asm_cmpd
 (
 LIns
 *
@@ -1336,7 +1336,7 @@ cond
 \
 NIns
 *
-asm_fbranch
+asm_branchd
 (
 bool
 LIns

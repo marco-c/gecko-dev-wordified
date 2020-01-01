@@ -10885,7 +10885,7 @@ isExtant
 )
 )
 {
-asm_immf
+asm_immd
 (
 ins
 )
@@ -11654,7 +11654,7 @@ isExtant
 )
 )
 {
-asm_i2f
+asm_i2d
 (
 ins
 )
@@ -11691,7 +11691,7 @@ isExtant
 )
 )
 {
-asm_u2f
+asm_ui2d
 (
 ins
 )
@@ -11728,7 +11728,7 @@ isExtant
 )
 )
 {
-asm_f2i
+asm_d2i
 (
 ins
 )
@@ -12987,7 +12987,7 @@ isExtant
 )
 )
 {
-asm_fcond
+asm_condd
 (
 ins
 )

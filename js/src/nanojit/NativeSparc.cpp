@@ -2787,7 +2787,7 @@ SET32
 value
 -
 >
-immQorDlo
+immDlo
 (
 )
 L2
@@ -2805,7 +2805,7 @@ SET32
 value
 -
 >
-immQorDhi
+immDhi
 (
 )
 L2
@@ -3268,7 +3268,7 @@ condop
 )
 {
 return
-asm_fbranch
+asm_branchd
 (
 branchOnFalse
 cond
@@ -3903,7 +3903,7 @@ void
 Assembler
 :
 :
-asm_fcond
+asm_condd
 (
 LInsp
 ins
@@ -4040,7 +4040,7 @@ G0
 r
 )
 ;
-asm_fcmp
+asm_cmpd
 (
 ins
 )
@@ -5602,7 +5602,7 @@ void
 Assembler
 :
 :
-asm_immf
+asm_immd
 (
 LInsp
 ins
@@ -5744,7 +5744,7 @@ SET32
 ins
 -
 >
-immQorDlo
+immDlo
 (
 )
 L2
@@ -5762,7 +5762,7 @@ SET32
 ins
 -
 >
-immQorDhi
+immDhi
 (
 )
 L2
@@ -6029,7 +6029,7 @@ void
 Assembler
 :
 :
-asm_i2f
+asm_i2d
 (
 LInsp
 ins
@@ -6086,7 +6086,7 @@ void
 Assembler
 :
 :
-asm_u2f
+asm_ui2d
 (
 LInsp
 ins
@@ -6211,7 +6211,7 @@ void
 Assembler
 :
 :
-asm_f2i
+asm_d2i
 (
 LInsp
 ins
@@ -6326,7 +6326,7 @@ NIns
 Assembler
 :
 :
-asm_fbranch
+asm_branchd
 (
 bool
 branchOnFalse
@@ -6608,7 +6608,7 @@ tt
 )
 ;
 }
-asm_fcmp
+asm_cmpd
 (
 cond
 )
@@ -6621,7 +6621,7 @@ void
 Assembler
 :
 :
-asm_fcmp
+asm_cmpd
 (
 LIns
 *
