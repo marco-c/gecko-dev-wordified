@@ -11409,6 +11409,14 @@ aMimeType
 .
 EqualsLiteral
 (
+APPLICATION_JSON
+)
+|
+|
+aMimeType
+.
+EqualsLiteral
+(
 TEXT_ECMASCRIPT
 )
 |
