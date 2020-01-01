@@ -1295,7 +1295,6 @@ p
 PROPS
 "
 "
-prototype
 "
 eval
 (

@@ -1013,7 +1013,6 @@ p
 MYPROPS
 "
 "
-prototype
 "
 eval
 (

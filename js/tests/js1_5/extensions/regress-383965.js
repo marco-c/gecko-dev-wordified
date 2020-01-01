@@ -567,10 +567,6 @@ aaa
 aaa
 :
 {
-prototype
-:
-{
-}
 }
 }
 )
