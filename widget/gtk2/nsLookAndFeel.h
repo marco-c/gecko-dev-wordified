@@ -303,6 +303,10 @@ sMenuBackground
 ;
 static
 nscolor
+sMenuBar
+;
+static
+nscolor
 sMenuBarText
 ;
 static

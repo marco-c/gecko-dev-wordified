@@ -850,6 +850,9 @@ break
 case
 eColorID_menu
 :
+case
+eColorID__moz_menubar
+:
 idx
 =
 COLOR_MENU

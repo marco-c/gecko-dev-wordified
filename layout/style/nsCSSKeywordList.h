@@ -1060,6 +1060,14 @@ CSS_KEY
 -
 moz
 -
+menubar
+_moz_menubar
+)
+CSS_KEY
+(
+-
+moz
+-
 menubartext
 _moz_menubartext
 )
