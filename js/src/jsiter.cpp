@@ -4157,13 +4157,10 @@ nargs
 JS_MAX
 (
 argc
-FUN_TO_SCRIPTED
-(
 fp
 -
 >
 fun
-)
 -
 >
 nargs
