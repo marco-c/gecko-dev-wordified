@@ -481,7 +481,6 @@ url
 indexOf
 (
 "
-?
 wait
 "
 )
