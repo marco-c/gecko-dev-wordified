@@ -539,3 +539,7 @@ DEPRECATED_OPERATION
 (
 TextContent
 )
+DEPRECATED_OPERATION
+(
+EnablePrivilege
+)
