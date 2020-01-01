@@ -987,7 +987,7 @@ initWithPath
 /
 bin
 /
-test
+echo
 "
 )
 ;
