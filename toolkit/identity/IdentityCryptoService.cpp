@@ -884,8 +884,7 @@ mPrivateKey
 /
 /
 in
-const
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsIIdentitySignCallback
 >
@@ -2585,7 +2584,14 @@ privateKey
 )
 mCallback
 (
+new
+nsMainThreadPtrHolder
+<
+nsIIdentitySignCallback
+>
+(
 aCallback
+)
 )
 mRv
 (
