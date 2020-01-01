@@ -196,6 +196,17 @@ uint32_t
 break
 ;
 case
+MIRType_Float32
+:
+/
+/
+Float32
+moves
+are
+actually
+double
+moves
+case
 MIRType_Double
 :
 stackOffset_
