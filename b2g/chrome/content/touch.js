@@ -620,7 +620,7 @@ evt
 {
 shell
 .
-home
+contentBrowser
 .
 addEventListener
 (
@@ -660,7 +660,7 @@ evt
 {
 shell
 .
-home
+contentBrowser
 .
 removeEventListener
 (
