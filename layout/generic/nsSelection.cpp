@@ -882,6 +882,13 @@ endif
 /
 /
 IBMBIDI
+#
+include
+"
+nsDOMError
+.
+h
+"
 /
 /
 #
@@ -27461,7 +27468,7 @@ aReturn
 )
 {
 return
-NS_ERROR_INVALID_ARG
+NS_ERROR_DOM_INDEX_SIZE_ERR
 ;
 }
 NS_ADDREF
