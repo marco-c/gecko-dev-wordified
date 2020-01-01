@@ -2412,10 +2412,14 @@ return
 sE4XObjectsCreated
 ;
 }
+namespace
+js
+{
 extern
 size_t
 sSetProtoCalled
 ;
+}
 JS_FRIEND_API
 (
 size_t
