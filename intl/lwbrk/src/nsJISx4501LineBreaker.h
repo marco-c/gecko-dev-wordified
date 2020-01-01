@@ -491,6 +491,8 @@ aText
 PRUint32
 aLength
 PRUint8
+aBreakMode
+PRUint8
 *
 aBreakBefore
 )
@@ -505,6 +507,8 @@ PRUint8
 aText
 PRUint32
 aLength
+PRUint8
+aBreakMode
 PRUint8
 *
 aBreakBefore
