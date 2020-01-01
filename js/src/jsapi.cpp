@@ -4642,10 +4642,6 @@ NULL
 )
 #
 endif
-rngNonce
-(
-0
-)
 {
 /
 *
