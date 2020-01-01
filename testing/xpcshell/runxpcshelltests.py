@@ -4102,6 +4102,34 @@ not
 break
 CDATA
 .
+Also
+text
+could
+        
+#
+be
+None
+and
+Python
+2
+.
+5
+'
+s
+minidom
+doesn
+'
+t
+accept
+None
+.
+Later
+versions
+        
+#
+do
+however
+.
         
 cdata
 =
@@ -4118,12 +4146,19 @@ text
 ]
         
 if
-cdata
-is
 not
-None
+isinstance
+(
+cdata
+str
+)
 :
             
+cdata
+=
+"
+"
+        
 cdata
 =
 cdata
