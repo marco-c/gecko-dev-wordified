@@ -12878,16 +12878,6 @@ it
 as
 strict
 .
-handler
-.
-setFunctionBody
-(
-pn
-null
-(
-)
-)
-;
 bool
 initiallyStrict
 =
