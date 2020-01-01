@@ -6642,6 +6642,11 @@ finger
 length
 )
 {
+sendOk
+(
+command_id
+)
+;
 return
 ;
 }
@@ -7215,15 +7220,6 @@ actions
 (
 commandArray
 touchId
-command_id
-)
-;
-sendOk
-(
-msg
-.
-json
-.
 command_id
 )
 ;
