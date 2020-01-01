@@ -2029,7 +2029,7 @@ or
 some
 similarly
 catastrophic
-occurrance
+occurrence
 NS_WARNING
 (
 "
