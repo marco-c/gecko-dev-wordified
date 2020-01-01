@@ -1736,6 +1736,9 @@ columns
 nscoord
 extraSpace
 =
+PR_MAX
+(
+0
 availContentWidth
 -
 (
@@ -1749,6 +1752,7 @@ colGap
 numColumns
 -
 1
+)
 )
 )
 ;

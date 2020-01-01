@@ -11459,6 +11459,8 @@ nsBlockFrame
 aOldParent
 PRBool
 aFromOverflow
+PRBool
+aReparentSiblings
 )
 {
 nsFrameList
@@ -11480,6 +11482,7 @@ list
 &
 tail
 aFromOverflow
+aReparentSiblings
 )
 ;
 if
@@ -14540,6 +14543,7 @@ toMove
 mFirstChild
 nextInFlow
 collectOverflowFloats
+PR_TRUE
 )
 ;
 /
@@ -17139,6 +17143,7 @@ ReparentFloats
 frame
 aFromContainer
 aFromOverflowLine
+PR_TRUE
 )
 ;
 }
@@ -28669,6 +28674,7 @@ floats
 &
 tail
 PR_FALSE
+PR_TRUE
 )
 ;
 if
@@ -43896,6 +43902,8 @@ nsIFrame
 aTail
 PRBool
 aFromOverflow
+PRBool
+aCollectSiblings
 )
 {
 while
@@ -44080,9 +44088,17 @@ nsnull
 aList
 aTail
 aFromOverflow
+PR_TRUE
 )
 ;
 }
+if
+(
+!
+aCollectSiblings
+)
+break
+;
 aFrame
 =
 aFrame
