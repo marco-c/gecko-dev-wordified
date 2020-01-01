@@ -154,6 +154,15 @@ val
 >
 0
 )
+/
+/
+The
+journal
+may
+have
+been
+truncated
+.
 PLACES_DATABASE_JOURNALSIZE_MB
 :
 function
@@ -164,6 +173,7 @@ do_check_true
 (
 val
 >
+=
 0
 )
 PLACES_DATABASE_PAGESIZE_B
