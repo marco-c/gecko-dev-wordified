@@ -2390,7 +2390,7 @@ ExplicitConvert
 JSContext
 *
 cx
-jsval
+JSHandleValue
 val
 JSHandleObject
 targetType
