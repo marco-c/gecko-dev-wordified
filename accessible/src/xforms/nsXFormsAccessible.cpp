@@ -871,11 +871,6 @@ nsAccessible
 >
 acc
 ;
-PRUint32
-childLength
-=
-0
-;
 for
 (
 PRUint32
