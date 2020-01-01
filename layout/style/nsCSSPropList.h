@@ -8980,7 +8980,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 "
 "
 0
-nullptr
+kObjectPatternKTable
 offsetof
 (
 nsStyleSVG
@@ -9248,7 +9248,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 "
 "
 0
-nullptr
+kObjectPatternKTable
 offsetof
 (
 nsStyleSVG

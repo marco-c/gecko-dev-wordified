@@ -6041,11 +6041,8 @@ if
 mType
 =
 =
-eStyleSVGPaintType_None
+eStyleSVGPaintType_Color
 )
-return
-true
-;
 return
 mPaint
 .
@@ -6057,6 +6054,9 @@ aOther
 mPaint
 .
 mColor
+;
+return
+true
 ;
 }
 /
