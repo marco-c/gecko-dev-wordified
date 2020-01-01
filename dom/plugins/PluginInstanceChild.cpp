@@ -15481,12 +15481,6 @@ if
 (
 !
 mCurrentInvalidateTask
-|
-|
-!
-IsVisible
-(
-)
 )
 {
 return
@@ -15501,6 +15495,12 @@ if
 mAccumulatedInvalidRect
 .
 IsEmpty
+(
+)
+|
+|
+!
+IsVisible
 (
 )
 )
