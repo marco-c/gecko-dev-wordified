@@ -519,7 +519,7 @@ mActiveChild
 ;
 }
 void
-InvalidateIfActiveChildChanged
+MaybeInvalidate
 (
 )
 ;
