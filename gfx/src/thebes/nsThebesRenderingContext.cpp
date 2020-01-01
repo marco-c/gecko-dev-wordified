@@ -3617,9 +3617,10 @@ returned
 define
 CAIRO_COORD_MAX
 (
-8388608
-.
-0
+double
+(
+0x7fffff
+)
 )
 static
 PRBool
