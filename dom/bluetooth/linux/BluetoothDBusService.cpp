@@ -2133,6 +2133,10 @@ dbus_message_unref
 reply
 )
 ;
+v
+=
+parameters
+;
 }
 }
 else
@@ -2250,7 +2254,7 @@ BluetoothNamedValue
 NS_LITERAL_STRING
 (
 "
-Device
+deviceAddress
 "
 )
 deviceAddress
@@ -2266,7 +2270,7 @@ BluetoothNamedValue
 NS_LITERAL_STRING
 (
 "
-UUID
+uuid
 "
 )
 NS_ConvertUTF8toUTF16
@@ -2466,7 +2470,7 @@ BluetoothNamedValue
 NS_LITERAL_STRING
 (
 "
-Device
+deviceAddress
 "
 )
 deviceAddress
@@ -2482,7 +2486,7 @@ BluetoothNamedValue
 NS_LITERAL_STRING
 (
 "
-Passkey
+passkey
 "
 )
 passkey
@@ -2630,7 +2634,7 @@ BluetoothNamedValue
 NS_LITERAL_STRING
 (
 "
-Device
+deviceAddress
 "
 )
 deviceAddress
@@ -2769,7 +2773,7 @@ BluetoothNamedValue
 NS_LITERAL_STRING
 (
 "
-Device
+deviceAddress
 "
 )
 deviceAddress
