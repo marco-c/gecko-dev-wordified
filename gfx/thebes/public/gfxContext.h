@@ -3370,6 +3370,10 @@ of
 the
 clip
 region
+in
+user
+*
+space
 .
 *
 /
