@@ -8722,6 +8722,16 @@ jsbytecode
 pc
 )
 {
+gc
+:
+:
+VerifyBarriers
+(
+f
+.
+cx
+)
+;
 if
 (
 !
