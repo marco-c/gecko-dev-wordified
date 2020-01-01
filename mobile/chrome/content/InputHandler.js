@@ -2198,7 +2198,7 @@ sY
 sY
 )
 ;
-this
+dragData
 .
 setDragPosition
 (
@@ -2758,7 +2758,6 @@ aEvent
 screenY
 )
 ;
-let
 [
 sX
 sY
