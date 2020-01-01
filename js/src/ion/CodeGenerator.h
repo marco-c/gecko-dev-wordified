@@ -1326,6 +1326,14 @@ lir
 )
 ;
 bool
+visitCallGetIntrinsicValue
+(
+LCallGetIntrinsicValue
+*
+lir
+)
+;
+bool
 visitCheckOverRecursed
 (
 LCheckOverRecursed

@@ -1280,6 +1280,14 @@ ins
 )
 ;
 bool
+visitCallGetIntrinsicValue
+(
+MCallGetIntrinsicValue
+*
+ins
+)
+;
+bool
 visitCallGetElement
 (
 MCallGetElement
