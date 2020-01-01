@@ -19649,7 +19649,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+PR_TRUE
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED
