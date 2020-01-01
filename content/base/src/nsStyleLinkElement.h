@@ -642,6 +642,17 @@ nsString
 aResult
 )
 ;
+void
+UpdateStyleSheetInternal
+(
+)
+{
+UpdateStyleSheetInternal
+(
+nsnull
+)
+;
+}
 protected
 :
 /
