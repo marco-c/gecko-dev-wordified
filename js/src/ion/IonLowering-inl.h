@@ -586,7 +586,7 @@ vreg
 mir
 -
 >
-setInWorklist
+setInWorklistUnchecked
 (
 )
 ;

@@ -1277,6 +1277,16 @@ true
 ;
 }
 void
+setInWorklistUnchecked
+(
+)
+{
+inWorklist_
+=
+true
+;
+}
+void
 setNotInWorklist
 (
 )
