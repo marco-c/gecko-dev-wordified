@@ -3935,7 +3935,7 @@ p
 ;
 p
 .
-innerHTML
+textContent
 =
 childNode
 .
