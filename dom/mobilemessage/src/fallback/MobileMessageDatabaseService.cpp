@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-SmsDatabaseService
+MobileMessageDatabaseService
 .
 h
 "
@@ -107,7 +107,7 @@ namespace
 dom
 {
 namespace
-sms
+mobilemessage
 {
 NS_IMPL_ISUPPORTS1
 (
@@ -321,7 +321,7 @@ NS_OK
 /
 /
 namespace
-sms
+mobilemessage
 }
 /
 /

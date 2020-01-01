@@ -103,7 +103,7 @@ h
 #
 include
 "
-SmsDatabaseService
+MobileMessageDatabaseService
 .
 h
 "
@@ -114,6 +114,16 @@ AndroidBridge
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+:
+:
+sms
+;
 namespace
 mozilla
 {
@@ -121,7 +131,7 @@ namespace
 dom
 {
 namespace
-sms
+mobilemessage
 {
 NS_IMPL_ISUPPORTS1
 (
@@ -432,7 +442,7 @@ NS_ERROR_NOT_IMPLEMENTED
 /
 /
 namespace
-sms
+mobilemessage
 }
 /
 /
