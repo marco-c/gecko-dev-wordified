@@ -1313,6 +1313,10 @@ DeleteProperty
 )
 UNSAFE_OP
 (
+DeleteElement
+)
+UNSAFE_OP
+(
 SetPropertyCache
 )
 UNSAFE_OP
