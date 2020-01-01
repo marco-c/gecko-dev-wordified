@@ -103,10 +103,6 @@ Location
 )
 DOMCI_CLASS
 (
-History
-)
-DOMCI_CLASS
-(
 DOMPrototype
 )
 DOMCI_CLASS
