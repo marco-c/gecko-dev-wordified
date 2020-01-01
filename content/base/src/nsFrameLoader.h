@@ -186,13 +186,6 @@ h
 #
 include
 "
-Layers
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -207,6 +200,13 @@ include
 mozilla
 /
 Attributes
+.
+h
+"
+#
+include
+"
+Layers
 .
 h
 "

@@ -1909,6 +1909,14 @@ DOMCI_CLASS
 (
 CallEvent
 )
+DOMCI_CLASS
+(
+MozVoicemail
+)
+DOMCI_CLASS
+(
+MozVoicemailEvent
+)
 #
 endif
 #

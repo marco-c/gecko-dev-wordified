@@ -128,7 +128,7 @@ h
 #
 include
 "
-Layers
+LayersBackend
 .
 h
 "
@@ -618,13 +618,6 @@ gfxASurface
 :
 gfxContentType
 gfxContentType
-;
-typedef
-LayerManager
-:
-:
-LayersBackend
-LayersBackend
 ;
 virtual
 ~
@@ -2663,7 +2656,6 @@ ISurfaceDeAllocator
 )
 {
 }
-;
 }
 ;
 /
@@ -2808,7 +2800,6 @@ DestroyFrontBuffer
 )
 {
 }
-;
 /
 *
 *

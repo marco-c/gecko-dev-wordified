@@ -4075,12 +4075,14 @@ is
 never
 negative
 .
+computedSize
+.
+height
+=
 aReflowState
 .
-ApplyMinMaxConstraints
+ApplyMinMaxHeight
 (
-nsnull
-&
 computedSize
 .
 height

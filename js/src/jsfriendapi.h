@@ -4375,7 +4375,6 @@ return
 true
 ;
 }
-;
 }
 ;
 struct
@@ -4402,7 +4401,6 @@ c
 )
 ;
 }
-;
 }
 ;
 struct
@@ -4428,7 +4426,6 @@ c
 )
 ;
 }
-;
 }
 ;
 struct
@@ -4454,7 +4451,6 @@ c
 )
 {
 }
-;
 virtual
 bool
 match
@@ -4472,7 +4468,6 @@ c
 ours
 ;
 }
-;
 }
 ;
 struct
@@ -4498,7 +4493,6 @@ p
 )
 {
 }
-;
 virtual
 bool
 match
@@ -4519,7 +4513,6 @@ c
 principals
 ;
 }
-;
 }
 ;
 extern

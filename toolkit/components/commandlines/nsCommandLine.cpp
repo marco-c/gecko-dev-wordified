@@ -199,6 +199,15 @@ plstr
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifdef
 MOZ_WIDGET_COCOA
 #
@@ -294,6 +303,7 @@ NS_COMMANDLINE_CID
 }
 class
 nsCommandLine
+MOZ_FINAL
 :
 public
 nsICommandLineRunner

@@ -148,6 +148,13 @@ QtCore
 QEventLoop
 >
 #
+include
+"
+NestedLoopTimer
+.
+h
+"
+#
 endif
 #
 include

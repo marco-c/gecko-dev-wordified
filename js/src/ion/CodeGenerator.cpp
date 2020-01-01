@@ -4641,7 +4641,7 @@ load16ZeroExtend_mask
 flags
 Imm32
 (
-JSFUN_KINDMASK
+JSFUN_INTERPRETED
 )
 nargsreg
 )
@@ -4653,7 +4653,7 @@ branch32
 Assembler
 :
 :
-LessThan
+NotEqual
 nargsreg
 Imm32
 (
@@ -6529,7 +6529,7 @@ load16ZeroExtend_mask
 flags
 Imm32
 (
-JSFUN_KINDMASK
+JSFUN_INTERPRETED
 )
 kind
 )
@@ -6541,7 +6541,7 @@ branch32
 Assembler
 :
 :
-LessThan
+NotEqual
 kind
 Imm32
 (
@@ -10237,19 +10237,6 @@ lir
 >
 getCallee
 (
-)
-;
-Register
-objReg
-=
-ToRegister
-(
-lir
--
->
-output
-(
-)
 )
 ;
 typedef
