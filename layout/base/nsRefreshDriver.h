@@ -954,15 +954,6 @@ mViewManagerFlushIsPending
 false
 ;
 }
-bool
-ViewManagerFlushIsPending
-(
-)
-{
-return
-mViewManagerFlushIsPending
-;
-}
 /
 *
 *

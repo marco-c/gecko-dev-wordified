@@ -4768,7 +4768,7 @@ GetCoveredRegion
 outerSVGFrame
 -
 >
-InvalidateSVG
+Invalidate
 (
 rect
 )
