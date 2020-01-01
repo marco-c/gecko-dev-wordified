@@ -400,13 +400,6 @@ DOMCI_CLASS
 (
 ModalContentWindow
 )
-/
-/
-Geolocation
-DOMCI_CLASS
-(
-GeoPositionCoords
-)
 DOMCI_CLASS
 (
 MozPowerManager
