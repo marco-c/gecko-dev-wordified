@@ -1740,11 +1740,6 @@ ShutdownACCache
 (
 )
 {
-if
-(
-sAccessControlCache
-)
-{
 delete
 sAccessControlCache
 ;
@@ -1752,7 +1747,6 @@ sAccessControlCache
 =
 nsnull
 ;
-}
 }
 PRBool
 AllowUploadProgress

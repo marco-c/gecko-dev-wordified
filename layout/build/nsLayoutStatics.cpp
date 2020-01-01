@@ -1915,6 +1915,13 @@ ShutdownLibrary
 ;
 #
 endif
+nsXMLHttpRequest
+:
+:
+ShutdownACCache
+(
+)
+;
 }
 void
 nsLayoutStatics
