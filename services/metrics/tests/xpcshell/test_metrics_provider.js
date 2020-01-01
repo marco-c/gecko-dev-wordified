@@ -243,7 +243,7 @@ run_next_test
 add_test
 (
 function
-test_collect_synchronous
+test_collect_constant_synchronous
 (
 )
 {
@@ -269,6 +269,13 @@ do_check_true
 result
 instanceof
 MetricsCollectionResult
+)
+;
+result
+.
+populate
+(
+result
 )
 ;
 result
