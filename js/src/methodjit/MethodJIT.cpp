@@ -6134,7 +6134,6 @@ i
 getKnownTypeTag
 (
 cx
-NULL
 )
 =
 =
@@ -6223,7 +6222,6 @@ i
 getKnownTypeTag
 (
 cx
-NULL
 )
 =
 =

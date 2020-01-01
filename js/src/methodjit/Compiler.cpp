@@ -2180,6 +2180,17 @@ types
 inferenceDepth
 )
 ;
+{
+types
+:
+:
+AutoEnterCompilation
+enter
+(
+cx
+outerScript
+)
+;
 CHECK_STATUS
 (
 pushActiveFrame
@@ -2218,6 +2229,7 @@ jitp
 )
 )
 ;
+}
 #
 ifdef
 JS_METHODJIT_SPEW
@@ -2909,7 +2921,6 @@ i
 getKnownTypeTag
 (
 cx
-outerScript
 )
 ;
 a
@@ -3010,7 +3021,6 @@ i
 getKnownTypeTag
 (
 cx
-outerScript
 )
 ;
 a
@@ -23654,7 +23664,6 @@ TypeSet
 Clone
 (
 cx
-outerScript
 types
 &
 callIC
@@ -23714,7 +23723,6 @@ TypeSet
 Clone
 (
 cx
-outerScript
 types
 &
 callIC
@@ -25469,7 +25477,6 @@ types
 getKnownTypeTag
 (
 cx
-outerScript
 )
 !
 =
@@ -25515,7 +25522,6 @@ types
 getKnownObjectKind
 (
 cx
-outerScript
 )
 ;
 if
@@ -26168,7 +26174,6 @@ types
 addFreeze
 (
 cx
-outerScript
 )
 ;
 /
@@ -31383,7 +31388,6 @@ types
 getSingleton
 (
 cx
-script
 )
 ;
 if
@@ -31420,7 +31424,6 @@ types
 getKnownTypeTag
 (
 cx
-outerScript
 )
 ;
 switch
@@ -32120,7 +32123,6 @@ TypeSet
 Clone
 (
 cx
-outerScript
 types
 pic
 .
@@ -44801,7 +44803,6 @@ thisTypes
 getKnownTypeTag
 (
 cx
-outerScript
 )
 ;
 return
@@ -44968,7 +44969,6 @@ types
 getKnownTypeTag
 (
 cx
-outerScript
 )
 ;
 }
@@ -45346,7 +45346,6 @@ types
 getSingleton
 (
 cx
-script
 )
 ;
 }
@@ -45506,7 +45505,6 @@ arrayTypes
 knownNonEmpty
 (
 cx
-outerScript
 )
 |
 |
@@ -45516,7 +45514,6 @@ objectTypes
 knownNonEmpty
 (
 cx
-outerScript
 )
 ;
 }
