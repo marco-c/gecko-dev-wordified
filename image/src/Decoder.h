@@ -344,6 +344,11 @@ TODO
 void
 Finish
 (
+RasterImage
+:
+:
+eShutdownIntent
+aShutdownIntent
 )
 ;
 /
