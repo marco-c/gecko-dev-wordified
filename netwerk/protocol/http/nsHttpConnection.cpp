@@ -4536,6 +4536,7 @@ mTransaction
 >
 OnTransportStatus
 (
+mSocketTransport
 nsISocketTransport
 :
 :
@@ -6225,6 +6226,7 @@ mTransaction
 >
 OnTransportStatus
 (
+trans
 status
 progress
 )

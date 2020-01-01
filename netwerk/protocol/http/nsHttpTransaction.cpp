@@ -2837,6 +2837,9 @@ nsHttpTransaction
 :
 OnTransportStatus
 (
+nsITransport
+*
+transport
 nsresult
 status
 PRUint64
@@ -3142,7 +3145,7 @@ mTransportSink
 >
 OnTransportStatus
 (
-nsnull
+transport
 status
 progress
 progressMax

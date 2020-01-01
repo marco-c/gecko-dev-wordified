@@ -2811,6 +2811,9 @@ nsHttpPipeline
 :
 OnTransportStatus
 (
+nsITransport
+*
+transport
 nsresult
 status
 PRUint64
@@ -2901,6 +2904,7 @@ trans
 >
 OnTransportStatus
 (
+transport
 status
 progress
 )
@@ -2958,6 +2962,7 @@ trans
 >
 OnTransportStatus
 (
+transport
 status
 progress
 )
