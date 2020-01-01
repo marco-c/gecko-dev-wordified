@@ -383,7 +383,8 @@ JS_AttachThread
 (
 PR_USER_THREAD
 PR_PRIORITY_NORMAL
-NULL
+\
+nullptr
 )
 ;
 \
@@ -546,7 +547,7 @@ lock
 ;
 lock
 =
-NULL
+nullptr
 ;
 }
 }
@@ -763,7 +764,7 @@ lock
 >
 owner
 =
-NULL
+nullptr
 ;
 PR_Unlock
 (

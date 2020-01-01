@@ -228,7 +228,7 @@ JSDScript
 *
 jsdscript
 =
-NULL
+nullptr
 ;
 JSD_LOCK_SCRIPTS
 (
@@ -273,7 +273,7 @@ jsdscript
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -314,7 +314,7 @@ if
 jsdframe
 )
 return
-NULL
+nullptr
 ;
 jsdframe
 -
@@ -448,7 +448,7 @@ if
 jsdthreadstate
 )
 return
-NULL
+nullptr
 ;
 jsdthreadstate
 -
@@ -720,7 +720,7 @@ jsdthreadstate
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -754,7 +754,7 @@ jsdthreadstate
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JSD_LOCK_THREADSTATES
@@ -954,7 +954,7 @@ JSDStackFrameInfo
 *
 jsdframe
 =
-NULL
+nullptr
 ;
 JSD_LOCK_THREADSTATES
 (
@@ -1009,7 +1009,7 @@ JSContext
 *
 cx
 =
-NULL
+nullptr
 ;
 JSD_LOCK_THREADSTATES
 (
@@ -1059,7 +1059,7 @@ JSDStackFrameInfo
 *
 nextjsdframe
 =
-NULL
+nullptr
 ;
 JSD_LOCK_THREADSTATES
 (
@@ -1139,7 +1139,7 @@ JSDScript
 *
 jsdscript
 =
-NULL
+nullptr
 ;
 JSD_LOCK_THREADSTATES
 (
@@ -1243,7 +1243,7 @@ JSDValue
 *
 jsdval
 =
-NULL
+nullptr
 ;
 JSD_LOCK_THREADSTATES
 (
@@ -1331,7 +1331,7 @@ JSDValue
 *
 jsdval
 =
-NULL
+nullptr
 ;
 JSD_LOCK_THREADSTATES
 (
@@ -1423,7 +1423,7 @@ JSDValue
 *
 jsdval
 =
-NULL
+nullptr
 ;
 JSD_LOCK_THREADSTATES
 (
@@ -1529,7 +1529,7 @@ JSString
 *
 rv
 =
-NULL
+nullptr
 ;
 JSD_LOCK_THREADSTATES
 (
@@ -1765,7 +1765,7 @@ JSExceptionState
 *
 exceptionState
 =
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -1923,7 +1923,7 @@ JSExceptionState
 *
 exceptionState
 =
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -2095,7 +2095,7 @@ if
 valid
 )
 return
-NULL
+nullptr
 ;
 cx
 =
@@ -2320,7 +2320,7 @@ jsdthreadstate
 context
 ;
 return
-NULL
+nullptr
 ;
 }
 JSDValue
@@ -2362,7 +2362,7 @@ jsdthreadstate
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2381,7 +2381,7 @@ val
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 bool

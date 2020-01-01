@@ -697,7 +697,7 @@ with
 a
 non
 -
-NULL
+nullptr
 callback
 struct
 pointer
@@ -1756,7 +1756,7 @@ must
 initialize
 iterp
 to
-NULL
+nullptr
 to
 start
 iteration
@@ -1782,7 +1782,7 @@ jsdscript
 JSDScript
 iter
 =
-NULL
+nullptr
 ;
 *
 *
@@ -1806,7 +1806,7 @@ iter
 )
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2443,14 +2443,14 @@ with
 this
 script
 (
-NULL
+nullptr
 if
 not
 a
+*
 function
 )
 .
-*
 If
 the
 function
@@ -2463,6 +2463,7 @@ the
 result
 is
 the
+*
 string
 "
 anonymous
@@ -2973,8 +2974,8 @@ not
 be
 returned
 .
-NULL
 *
+nullptr
 may
 be
 passed
@@ -2988,9 +2989,9 @@ avoid
 filling
 anything
 in
+*
 for
 that
-*
 argument
 .
 *
@@ -3730,8 +3731,8 @@ locations
 .
 *
 Returns
-NULL
-is
+nullptr
+if
 not
 found
 .
@@ -4330,7 +4331,7 @@ url
 may
 not
 be
-NULL
+nullptr
 .
 *
 /
@@ -4404,8 +4405,8 @@ use
 This
 may
 return
-NULL
 *
+nullptr
 if
 called
 after
@@ -4418,6 +4419,7 @@ by
 a
 call
 to
+*
 JSD_NewSourceText
 .
 *
@@ -4609,7 +4611,7 @@ jsd_AppendSourceText
 jsdc
 jsdsrc
 *
-NULL
+nullptr
 0
 JSD_SOURCE_COMPLETED
 )
@@ -6458,7 +6460,7 @@ exception
 (
 may
 be
-NULL
+nullptr
 )
 .
 *
@@ -6473,7 +6475,7 @@ JSD_DropValue
 (
 if
 not
-NULL
+nullptr
 )
 *
 *
@@ -7301,7 +7303,7 @@ JSD_DropValue
 (
 if
 not
-NULL
+nullptr
 )
 *
 *
@@ -8605,7 +8607,7 @@ JSD_DropProperty
 (
 if
 not
-NULL
+nullptr
 )
 *
 *
@@ -8665,7 +8667,7 @@ JSD_DropValue
 (
 if
 not
-NULL
+nullptr
 )
 *
 *
@@ -8722,7 +8724,7 @@ JSD_DropValue
 (
 if
 not
-NULL
+nullptr
 )
 *
 *
@@ -8788,7 +8790,7 @@ JSD_DropValue
 (
 if
 not
-NULL
+nullptr
 )
 *
 *
@@ -9239,7 +9241,7 @@ JSD_DropValue
 (
 if
 not
-NULL
+nullptr
 )
 *
 *
@@ -9302,7 +9304,7 @@ JSD_DropValue
 (
 if
 not
-NULL
+nullptr
 )
 *
 *
@@ -9801,7 +9803,7 @@ created
 *
 May
 be
-NULL
+nullptr
 .
 *
 *
@@ -9920,7 +9922,7 @@ object
 *
 May
 be
-NULL
+nullptr
 .
 *
 *
@@ -10035,7 +10037,7 @@ object
 *
 May
 be
-NULL
+nullptr
 .
 *
 *
@@ -10082,7 +10084,7 @@ JSObject
 *
 May
 return
-NULL
+nullptr
 .
 *
 *
@@ -10128,7 +10130,7 @@ JSDValue
 *
 May
 return
-NULL
+nullptr
 .
 *
 *
@@ -10189,7 +10191,7 @@ JSD_DropValue
 (
 if
 not
-NULL
+nullptr
 )
 *
 *

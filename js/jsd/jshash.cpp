@@ -481,7 +481,7 @@ n
 0
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -517,7 +517,7 @@ if
 ht
 )
 return
-NULL
+nullptr
 ;
 memset
 (
@@ -593,7 +593,7 @@ nb
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 memset
@@ -725,7 +725,7 @@ hep
 )
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -926,7 +926,7 @@ hep
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1299,7 +1299,7 @@ he
 >
 next
 =
-NULL
+nullptr
 ;
 *
 hep
@@ -1429,7 +1429,7 @@ shift
 )
 )
 return
-NULL
+nullptr
 ;
 #
 ifdef
@@ -1486,7 +1486,7 @@ if
 he
 )
 return
-NULL
+nullptr
 ;
 he
 -
@@ -1588,7 +1588,7 @@ hep
 )
 !
 =
-NULL
+nullptr
 )
 {
 /
@@ -1828,7 +1828,7 @@ hep
 )
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -1904,7 +1904,7 @@ hep
 )
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -1915,7 +1915,7 @@ value
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 /
@@ -2043,7 +2043,7 @@ hep
 )
 !
 =
-NULL
+nullptr
 )
 {
 JS_ASSERT

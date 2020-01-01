@@ -235,7 +235,7 @@ jsd_DebuggerOnForUser
 jsrt
 callbacks
 user
-NULL
+nullptr
 )
 ;
 }

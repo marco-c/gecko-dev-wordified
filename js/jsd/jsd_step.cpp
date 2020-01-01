@@ -156,7 +156,7 @@ char
 *
 p
 =
-NULL
+nullptr
 ;
 if
 (
@@ -231,7 +231,7 @@ JSDScript
 *
 jsdscript
 =
-NULL
+nullptr
 ;
 JSScript
 *
@@ -246,7 +246,7 @@ JSString
 *
 funName
 =
-NULL
+nullptr
 ;
 script
 =
@@ -1224,7 +1224,7 @@ pdata
 >
 caller
 =
-NULL
+nullptr
 ;
 /
 *
@@ -1458,7 +1458,7 @@ closure
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 void
@@ -1565,6 +1565,6 @@ closure
 ;
 }
 return
-NULL
+nullptr
 ;
 }

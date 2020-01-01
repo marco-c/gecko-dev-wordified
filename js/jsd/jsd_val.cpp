@@ -1141,7 +1141,7 @@ address
 )
 {
 return
-NULL
+nullptr
 ;
 }
 jsdval
@@ -1175,7 +1175,7 @@ jsdval
 >
 string
 =
-NULL
+nullptr
 ;
 return
 jsdval
@@ -1257,7 +1257,7 @@ if
 fun
 )
 return
-NULL
+nullptr
 ;
 jsdval
 -
@@ -1486,7 +1486,7 @@ JSDValue
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1567,7 +1567,7 @@ jsdval
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1829,7 +1829,7 @@ JSDProperty
 )
 )
 return
-NULL
+nullptr
 ;
 JS_INIT_CLIST
 (
@@ -1935,7 +1935,7 @@ jsdprop
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 static
@@ -2321,7 +2321,7 @@ x
 ;
 x
 =
-NULL
+nullptr
 ;
 }
 void
@@ -2404,7 +2404,7 @@ jsdval
 >
 string
 =
-NULL
+nullptr
 ;
 }
 jsdval
@@ -2412,14 +2412,14 @@ jsdval
 >
 funName
 =
-NULL
+nullptr
 ;
 jsdval
 -
 >
 className
 =
-NULL
+nullptr
 ;
 DROP_CLEAR_VALUE
 (
@@ -2690,7 +2690,7 @@ jsdval
 )
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2727,7 +2727,7 @@ jsdval
 props
 )
 return
-NULL
+nullptr
 ;
 *
 iterp
@@ -2808,7 +2808,7 @@ JSDProperty
 *
 iter
 =
-NULL
+nullptr
 ;
 JS
 :
@@ -2884,7 +2884,7 @@ jsdval
 )
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -2901,7 +2901,7 @@ it
 /
 while
 (
-NULL
+nullptr
 !
 =
 (
@@ -2999,7 +2999,7 @@ address
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -3017,7 +3017,7 @@ val
 )
 )
 return
-NULL
+nullptr
 ;
 JS
 :
@@ -3063,7 +3063,7 @@ address
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -3079,7 +3079,7 @@ desc
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -3091,7 +3091,7 @@ object
 )
 )
 return
-NULL
+nullptr
 ;
 JS_ClearPendingException
 (
@@ -3131,7 +3131,7 @@ propValue
 )
 {
 return
-NULL
+nullptr
 ;
 }
 propFlags
@@ -3174,7 +3174,7 @@ address
 )
 )
 return
-NULL
+nullptr
 ;
 propAlias
 =
@@ -3295,7 +3295,7 @@ val
 )
 )
 return
-NULL
+nullptr
 ;
 obj
 =
@@ -3412,7 +3412,7 @@ val
 )
 )
 return
-NULL
+nullptr
 ;
 obj
 =
@@ -3436,7 +3436,7 @@ proto
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -3444,7 +3444,7 @@ if
 proto
 )
 return
-NULL
+nullptr
 ;
 jsdval
 -
@@ -3562,7 +3562,7 @@ val
 )
 )
 return
-NULL
+nullptr
 ;
 obj
 =
@@ -3597,7 +3597,7 @@ if
 parent
 )
 return
-NULL
+nullptr
 ;
 jsdval
 -
@@ -3724,7 +3724,7 @@ val
 )
 )
 return
-NULL
+nullptr
 ;
 obj
 =
@@ -3748,7 +3748,7 @@ proto
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -3756,7 +3756,7 @@ if
 proto
 )
 return
-NULL
+nullptr
 ;
 {
 JSAutoCompartment
@@ -3781,7 +3781,7 @@ if
 ctor
 )
 return
-NULL
+nullptr
 ;
 jsdval
 -
@@ -3935,7 +3935,7 @@ JSFunction
 *
 fun
 =
-NULL
+nullptr
 ;
 JS
 :
@@ -3960,7 +3960,7 @@ jsdval
 )
 )
 return
-NULL
+nullptr
 ;
 {
 JSAutoCompartment
@@ -4006,7 +4006,7 @@ if
 script
 )
 return
-NULL
+nullptr
 ;
 JSD_LOCK_SCRIPTS
 (

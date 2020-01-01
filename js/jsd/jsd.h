@@ -3942,7 +3942,7 @@ jsdc
 \
 (
 (
-NULL
+nullptr
 !
 =
 (
@@ -3960,7 +3960,7 @@ jsd_CreateLock
 &
 \
 (
-NULL
+nullptr
 !
 =
 (
@@ -3978,7 +3978,7 @@ jsd_CreateLock
 &
 \
 (
-NULL
+nullptr
 !
 =
 (
@@ -3996,7 +3996,7 @@ jsd_CreateLock
 &
 \
 (
-NULL
+nullptr
 !
 =
 (
@@ -4014,7 +4014,7 @@ jsd_CreateLock
 &
 \
 (
-NULL
+nullptr
 !
 =
 (

@@ -284,7 +284,7 @@ jsdsrc
 >
 text
 =
-NULL
+nullptr
 ;
 jsdsrc
 -
@@ -589,7 +589,7 @@ if
 jsdsrc
 )
 return
-NULL
+nullptr
 ;
 jsdsrc
 -
@@ -642,7 +642,7 @@ jsdsrc
 {
 JS_ASSERT
 (
-NULL
+nullptr
 =
 =
 jsdsrc
@@ -737,7 +737,7 @@ if
 jsdsrc
 )
 return
-NULL
+nullptr
 ;
 JS_INSERT_LINK
 (
@@ -1057,7 +1057,7 @@ if
 url_string
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1383,7 +1383,7 @@ jsdc
 sources
 )
 return
-NULL
+nullptr
 ;
 *
 iterp
@@ -1481,7 +1481,7 @@ jsdsrc
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 const
@@ -1780,20 +1780,20 @@ JSDSourceText
 *
 iterp
 =
-NULL
+nullptr
 ;
 JSDSourceText
 *
 jsdsrc
 =
-NULL
+nullptr
 ;
 int
 dummy
 ;
 while
 (
-NULL
+nullptr
 !
 =
 (
@@ -2018,7 +2018,7 @@ if
 new_url_string
 )
 return
-NULL
+nullptr
 ;
 jsdsrc
 =
@@ -2052,7 +2052,7 @@ jsdc
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 else
@@ -2128,7 +2128,7 @@ jsdc
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2153,7 +2153,7 @@ jsdc
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2212,7 +2212,7 @@ jsdc
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 jsdsrc
@@ -2293,7 +2293,7 @@ char
 *
 buf
 =
-NULL
+nullptr
 ;
 int
 remaining
@@ -2314,7 +2314,7 @@ jsd_AppendSourceText
 (
 jsdc
 jsdsrc
-NULL
+nullptr
 0
 status
 )
@@ -2352,7 +2352,7 @@ jsdc
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -2443,7 +2443,7 @@ jsd_AppendSourceText
 (
 jsdc
 jsdsrc
-NULL
+nullptr
 0
 status
 )
@@ -2541,7 +2541,7 @@ jsd_AppendSourceText
 (
 jsdc
 jsdsrc
-NULL
+nullptr
 0
 JSD_SOURCE_COMPLETED
 )

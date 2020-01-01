@@ -268,14 +268,14 @@ void
 *
 _user
 =
-NULL
+nullptr
 ;
 static
 JSRuntime
 *
 _jsrt
 =
-NULL
+nullptr
 ;
 #
 ifdef
@@ -285,7 +285,7 @@ void
 *
 _dangerousThread
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -296,7 +296,7 @@ JSDStaticLock
 *
 _jsd_global_lock
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -612,7 +612,7 @@ JSDContext
 *
 jsdc
 =
-NULL
+nullptr
 ;
 bool
 ok
@@ -628,7 +628,7 @@ if
 jsrt
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -639,7 +639,7 @@ callbacks
 )
 )
 return
-NULL
+nullptr
 ;
 jsdc
 =
@@ -870,7 +870,7 @@ jsdc
 >
 data
 =
-NULL
+nullptr
 ;
 jsdc
 -
@@ -945,7 +945,7 @@ jsdc
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 static
@@ -1174,7 +1174,7 @@ if
 jsdc
 )
 return
-NULL
+nullptr
 ;
 /
 *
@@ -1319,7 +1319,7 @@ _jsrt
 &
 _callbacks
 _user
-NULL
+nullptr
 )
 ;
 }
@@ -1350,8 +1350,8 @@ jsdc
 -
 >
 jsrt
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 JS_SetDestroyScriptHookProc
@@ -1360,8 +1360,8 @@ jsdc
 -
 >
 jsrt
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 /
@@ -1411,7 +1411,7 @@ userCallbacks
 .
 setContext
 (
-NULL
+nullptr
 jsdc
 -
 >
@@ -1435,8 +1435,8 @@ jsdc
 -
 >
 jsrt
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -1461,8 +1461,8 @@ jsdc
 -
 >
 jsrt
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 JS_SetCallHook
@@ -1471,8 +1471,8 @@ jsdc
 -
 >
 jsrt
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -1482,8 +1482,8 @@ jsdc
 -
 >
 jsrt
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 JS_SetDebugErrorHook
@@ -1492,8 +1492,8 @@ jsdc
 -
 >
 jsrt
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -1764,7 +1764,7 @@ JSDContext
 *
 jsdc
 =
-NULL
+nullptr
 ;
 JSRuntime
 *

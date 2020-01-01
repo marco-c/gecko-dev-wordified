@@ -731,8 +731,8 @@ JS_NewHashTable
 _hash_root
 JS_CompareValues
 JS_CompareValues
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 return
@@ -886,7 +886,7 @@ jsdc
 objectsList
 )
 return
-NULL
+nullptr
 ;
 *
 iterp
@@ -955,7 +955,7 @@ newURL
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 unsigned
@@ -1006,7 +1006,7 @@ ctorURL
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 unsigned
@@ -1057,7 +1057,7 @@ ctorName
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JSDObject
