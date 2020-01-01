@@ -4688,7 +4688,7 @@ sortOrder
 =
 =
 '
-ascending
+descending
 '
 ?
 1
