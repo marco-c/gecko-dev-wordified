@@ -642,15 +642,13 @@ isControlInstruction
 ;
 JS_ASSERT
 (
+!
 def
 -
 >
-useCount
+hasUses
 (
 )
-=
-=
-0
 )
 ;
 if

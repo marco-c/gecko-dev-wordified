@@ -3251,15 +3251,13 @@ bailout
 .
 JS_ASSERT
 (
+!
 def
 -
 >
-useCount
+hasUses
 (
 )
-=
-=
-0
 )
 ;
 #
