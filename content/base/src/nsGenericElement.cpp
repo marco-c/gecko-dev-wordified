@@ -2050,9 +2050,6 @@ nsIEditor
 >
 editor
 ;
-nsresult
-rv
-=
 editableElement
 -
 >
