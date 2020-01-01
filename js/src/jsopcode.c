@@ -4491,6 +4491,11 @@ pool
 name
 256
 1
+&
+cx
+-
+>
+scriptStackQuota
 )
 ;
 jp

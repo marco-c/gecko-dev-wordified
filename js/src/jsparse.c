@@ -5446,6 +5446,11 @@ sizeof
 (
 jsbytecode
 )
+&
+cx
+-
+>
+scriptStackQuota
 )
 ;
 JS_INIT_ARENA_POOL
@@ -5460,6 +5465,11 @@ sizeof
 (
 jssrcnote
 )
+&
+cx
+-
+>
+scriptStackQuota
 )
 ;
 js_InitParseContext

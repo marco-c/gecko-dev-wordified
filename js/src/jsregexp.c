@@ -22480,6 +22480,11 @@ RegExpPool
 "
 8096
 4
+&
+cx
+-
+>
+scriptStackQuota
 )
 ;
 x

@@ -1476,6 +1476,13 @@ jsuword
 ;
 #
 endif
+cx
+-
+>
+scriptStackQuota
+=
+JS_DEFAULT_SCRIPT_STACK_QUOTA
+;
 #
 ifdef
 JS_THREADSAFE
@@ -1693,6 +1700,11 @@ sizeof
 (
 jsval
 )
+&
+cx
+-
+>
+scriptStackQuota
 )
 ;
 JS_INIT_ARENA_POOL
@@ -1710,6 +1722,11 @@ sizeof
 (
 jsdouble
 )
+&
+cx
+-
+>
+scriptStackQuota
 )
 ;
 if
