@@ -860,13 +860,10 @@ aContext
 nsIObjectInputStream
 *
 aStream
-void
-*
-aHolder
-void
+JSObject
 *
 *
-aScriptObject
+aFunctionObject
 )
 ;
 #
