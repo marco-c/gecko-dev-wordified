@@ -1117,6 +1117,7 @@ field1
 "
 "
 null
+null
 )
 ;
 do_check_eq
@@ -1165,6 +1166,7 @@ field1
 "
 "
 "
+null
 null
 )
 ;
@@ -1276,6 +1278,7 @@ field1
 "
 v
 "
+null
 null
 )
 ;
@@ -1523,6 +1526,7 @@ field2
 "
 "
 null
+null
 )
 ;
 lastFound
@@ -1606,6 +1610,7 @@ field2
 "
 v
 "
+null
 null
 )
 ;
@@ -1843,6 +1848,7 @@ field3
 "
 "
 "
+null
 null
 )
 ;
@@ -2104,6 +2110,7 @@ field4
 "
 "
 "
+null
 null
 )
 ;
