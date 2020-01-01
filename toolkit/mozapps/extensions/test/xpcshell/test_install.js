@@ -443,7 +443,7 @@ install
 .
 addon
 .
-getResourceURL
+getResourceURI
 (
 "
 install
@@ -451,6 +451,8 @@ install
 rdf
 "
 )
+.
+spec
 "
 jar
 :
@@ -1015,7 +1017,7 @@ do_check_eq
 (
 a1
 .
-getResourceURL
+getResourceURI
 (
 "
 install
@@ -1023,6 +1025,8 @@ install
 rdf
 "
 )
+.
+spec
 uri
 )
 ;
