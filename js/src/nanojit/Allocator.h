@@ -541,7 +541,6 @@ Allocator
 (
 )
 ;
-virtual
 ~
 Allocator
 (
