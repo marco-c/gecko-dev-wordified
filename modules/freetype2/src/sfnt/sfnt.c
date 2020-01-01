@@ -108,12 +108,8 @@ component
 Copyright
 1996
 -
-2001
-2002
-2003
-2004
-2005
 2006
+2013
 by
 *
 /
@@ -348,6 +344,13 @@ c
 #
 ifdef
 TT_CONFIG_OPTION_EMBEDDED_BITMAPS
+#
+include
+"
+pngshim
+.
+c
+"
 #
 include
 "

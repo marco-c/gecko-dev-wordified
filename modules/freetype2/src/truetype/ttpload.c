@@ -115,7 +115,7 @@ Copyright
 2002
 2004
 -
-2012
+2013
 by
 *
 /
@@ -740,10 +740,11 @@ zero
 /
 if
 (
+FT_ERR_EQ
+(
 error
-=
-=
-TT_Err_Table_Missing
+Table_Missing
+)
 )
 face
 -
@@ -790,7 +791,10 @@ error
 {
 error
 =
-TT_Err_Locations_Missing
+FT_THROW
+(
+Locations_Missing
+)
 ;
 goto
 Exit
@@ -836,7 +840,10 @@ n
 ;
 error
 =
-TT_Err_Invalid_Table
+FT_THROW
+(
+Invalid_Table
+)
 ;
 goto
 Exit
@@ -882,7 +889,10 @@ n
 ;
 error
 =
-TT_Err_Invalid_Table
+FT_THROW
+(
+Invalid_Table
+)
 ;
 goto
 Exit
@@ -2008,7 +2018,7 @@ NULL
 ;
 error
 =
-TT_Err_Ok
+FT_Err_Ok
 ;
 goto
 Exit
@@ -2154,7 +2164,7 @@ stream
 )
 ;
 return
-TT_Err_Ok
+FT_Err_Ok
 ;
 #
 endif
@@ -2423,7 +2433,7 @@ font_program_size
 ;
 error
 =
-TT_Err_Ok
+FT_Err_Ok
 ;
 FT_TRACE2
 (
@@ -2504,7 +2514,7 @@ stream
 )
 ;
 return
-TT_Err_Ok
+FT_Err_Ok
 ;
 #
 endif
@@ -2764,7 +2774,7 @@ cvt_program_size
 ;
 error
 =
-TT_Err_Ok
+FT_Err_Ok
 ;
 FT_TRACE2
 (
@@ -2845,7 +2855,7 @@ stream
 )
 ;
 return
-TT_Err_Ok
+FT_Err_Ok
 ;
 #
 endif
@@ -3109,7 +3119,7 @@ table_size
 8
 )
 return
-TT_Err_Ok
+FT_Err_Ok
 ;
 if
 (
@@ -3349,7 +3359,10 @@ record_size
 {
 error
 =
-TT_Err_Invalid_File_Format
+FT_THROW
+(
+Invalid_File_Format
+)
 ;
 goto
 Fail

@@ -112,6 +112,7 @@ Copyright
 2002
 2007
 2009
+2013
 by
 *
 /
@@ -286,6 +287,16 @@ fully
 /
 #
 include
+<
+ft2build
+.
+h
+>
+#
+include
+FT_INTERNAL_DEBUG_H
+#
+include
 "
 pfrcmap
 .
@@ -318,7 +329,7 @@ cmap
 FT_Error
 error
 =
-PFR_Err_Ok
+FT_Err_Ok
 ;
 PFR_Face
 face
@@ -429,7 +440,10 @@ char_code
 {
 error
 =
-PFR_Err_Invalid_Table
+FT_THROW
+(
+Invalid_Table
+)
 ;
 goto
 Exit

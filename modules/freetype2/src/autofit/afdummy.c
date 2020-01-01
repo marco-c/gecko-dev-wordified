@@ -127,6 +127,7 @@ Copyright
 -
 2005
 2011
+2013
 by
 *
 /
@@ -337,7 +338,7 @@ metrics
 )
 ;
 return
-AF_Err_Ok
+FT_Err_Ok
 ;
 }
 static
@@ -362,14 +363,15 @@ outline
 )
 ;
 return
-AF_Err_Ok
+FT_Err_Ok
 ;
 }
 AF_DEFINE_SCRIPT_CLASS
 (
 af_dummy_script_class
-AF_SCRIPT_NONE
+AF_SCRIPT_DUMMY
 NULL
+0
 sizeof
 (
 AF_ScriptMetricsRec

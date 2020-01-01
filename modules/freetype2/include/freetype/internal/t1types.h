@@ -125,6 +125,7 @@ Copyright
 2008
 2009
 2011
+2013
 by
 *
 /
@@ -2425,14 +2426,6 @@ charmaps
 2
 ]
 ;
-#
-ifdef
-FT_CONFIG_OPTION_OLD_INTERNALS
-PS_Unicodes
-unicode_map
-;
-#
-endif
 /
 *
 support

@@ -115,8 +115,9 @@ body
 *
 Copyright
 2004
-2005
+-
 2006
+2013
 *
 /
 /
@@ -725,13 +726,14 @@ table_len
 ;
 if
 (
+FT_ERR_EQ
+(
 error
-=
-=
-GXV_Err_Table_Missing
+Table_Missing
+)
 )
 return
-GXV_Err_Ok
+FT_Err_Ok
 ;
 if
 (
@@ -997,7 +999,7 @@ face
 FT_Error
 error
 =
-GXV_Err_Ok
+FT_Err_Ok
 ;
 FT_ValidatorRec
 volatile
@@ -1395,8 +1397,6 @@ but
 FT_Error
 volatile
 error
-=
-GXV_Err_Ok
 ;
 FT_ValidatorRec
 volatile

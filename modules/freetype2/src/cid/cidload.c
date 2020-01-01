@@ -117,7 +117,7 @@ Copyright
 2009
 2011
 -
-2012
+2013
 by
 *
 /
@@ -480,7 +480,7 @@ FT_Byte
 offsize
 )
 {
-FT_Long
+FT_ULong
 result
 ;
 FT_Byte
@@ -526,6 +526,9 @@ start
 p
 ;
 return
+(
+FT_Long
+)
 result
 ;
 }
@@ -1100,7 +1103,10 @@ ident
 ;
 error
 =
-CID_Err_Syntax_Error
+FT_THROW
+(
+Syntax_Error
+)
 ;
 goto
 Exit
@@ -1355,7 +1361,7 @@ temp
 /
 *
 Set
-units
+Units
 per
 EM
 based
@@ -1375,7 +1381,6 @@ to
 1000
 /
 temp_scale
-'
 because
 temp_scale
 was
@@ -1390,7 +1395,6 @@ by
 (
 in
 t1_tofixed
-'
 from
 psobjs
 .
@@ -1407,16 +1411,10 @@ units_per_EM
 (
 FT_UShort
 )
-(
 FT_DivFix
 (
-0x10000L
-FT_DivFix
-(
-temp_scale
 1000
-)
-)
+temp_scale
 )
 ;
 /
@@ -1607,7 +1605,7 @@ temp
 ;
 }
 return
-CID_Err_Ok
+FT_Err_Ok
 ;
 /
 *
@@ -1665,7 +1663,7 @@ memory
 FT_Error
 error
 =
-CID_Err_Ok
+FT_Err_Ok
 ;
 FT_Long
 num_dicts
@@ -1898,7 +1896,7 @@ expansion_factor
 ;
 }
 return
-CID_Err_Ok
+FT_Err_Ok
 ;
 }
 static
@@ -2006,7 +2004,7 @@ root
 .
 error
 =
-CID_Err_Ok
+FT_Err_Ok
 ;
 {
 FT_Byte
@@ -2663,7 +2661,10 @@ FT_UINT_MAX
 {
 error
 =
-CID_Err_Syntax_Error
+FT_THROW
+(
+Syntax_Error
+)
 ;
 goto
 Fail
@@ -2708,7 +2709,10 @@ max_offsets
 {
 error
 =
-CID_Err_Syntax_Error
+FT_THROW
+(
+Syntax_Error
+)
 ;
 goto
 Fail
@@ -3375,7 +3379,10 @@ size
 {
 error
 =
-CID_Err_Syntax_Error
+FT_THROW
+(
+Syntax_Error
+)
 ;
 goto
 Exit
@@ -3598,7 +3605,10 @@ else
 {
 error
 =
-CID_Err_Syntax_Error
+FT_THROW
+(
+Syntax_Error
+)
 ;
 goto
 Exit
@@ -3665,7 +3675,7 @@ p
 }
 error
 =
-CID_Err_Ok
+FT_Err_Ok
 ;
 Exit
 :

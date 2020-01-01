@@ -112,6 +112,7 @@ Copyright
 2004
 2006
 2007
+2012
 by
 *
 /
@@ -724,6 +725,7 @@ raccess_guess_
 #
 #
 func_suffix
+\
 FT_RFork_Rule_
 #
 #
@@ -769,6 +771,7 @@ type
 )
 \
 void
+\
 FT_Init_
 #
 #
@@ -778,6 +781,7 @@ type
 *
 storage
 )
+\
 {
 \
 type
@@ -786,6 +790,8 @@ local
 =
 storage
 ;
+\
+\
 \
 int
 i

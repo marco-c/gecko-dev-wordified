@@ -116,6 +116,7 @@ Copyright
 2007
 2009
 2011
+2013
 by
 *
 /
@@ -536,7 +537,7 @@ buffer_max
 )
 ;
 return
-T1_Err_Ok
+FT_Err_Ok
 ;
 }
 static
@@ -552,10 +553,6 @@ glyph_name
 {
 FT_Int
 i
-;
-FT_String
-*
-gname
 ;
 for
 (
@@ -577,6 +574,8 @@ i
 +
 )
 {
+FT_String
+*
 gname
 =
 face
@@ -748,7 +747,7 @@ type1
 font_info
 ;
 return
-T1_Err_Ok
+FT_Err_Ok
 ;
 }
 static
@@ -778,7 +777,7 @@ type1
 font_extra
 ;
 return
-T1_Err_Ok
+FT_Err_Ok
 ;
 }
 static
@@ -825,7 +824,7 @@ type1
 private_dict
 ;
 return
-T1_Err_Ok
+FT_Err_Ok
 ;
 }
 static
@@ -1208,6 +1207,10 @@ PS_DICT_FONT_NAME
 :
 retval
 =
+(
+FT_Long
+)
+(
 ft_strlen
 (
 type1
@@ -1217,6 +1220,7 @@ font_name
 )
 +
 1
+)
 ;
 if
 (
@@ -1346,6 +1350,10 @@ num_glyphs
 {
 retval
 =
+(
+FT_Long
+)
+(
 ft_strlen
 (
 type1
@@ -1358,6 +1366,7 @@ idx
 )
 +
 1
+)
 ;
 if
 (
@@ -1432,6 +1441,10 @@ num_glyphs
 {
 retval
 =
+(
+FT_Long
+)
+(
 type1
 -
 >
@@ -1441,6 +1454,7 @@ idx
 ]
 +
 1
+)
 ;
 if
 (
@@ -1567,6 +1581,10 @@ num_chars
 {
 retval
 =
+(
+FT_Long
+)
+(
 ft_strlen
 (
 type1
@@ -1581,6 +1599,7 @@ idx
 )
 +
 1
+)
 ;
 if
 (
@@ -1698,6 +1717,10 @@ num_subrs
 {
 retval
 =
+(
+FT_Long
+)
+(
 type1
 -
 >
@@ -1707,6 +1730,7 @@ idx
 ]
 +
 1
+)
 ;
 if
 (
@@ -3092,6 +3116,10 @@ PS_DICT_VERSION
 :
 retval
 =
+(
+FT_Long
+)
+(
 ft_strlen
 (
 type1
@@ -3103,6 +3131,7 @@ version
 )
 +
 1
+)
 ;
 if
 (
@@ -3139,6 +3168,10 @@ PS_DICT_NOTICE
 :
 retval
 =
+(
+FT_Long
+)
+(
 ft_strlen
 (
 type1
@@ -3150,6 +3183,7 @@ notice
 )
 +
 1
+)
 ;
 if
 (
@@ -3186,6 +3220,10 @@ PS_DICT_FULL_NAME
 :
 retval
 =
+(
+FT_Long
+)
+(
 ft_strlen
 (
 type1
@@ -3197,6 +3235,7 @@ full_name
 )
 +
 1
+)
 ;
 if
 (
@@ -3233,6 +3272,10 @@ PS_DICT_FAMILY_NAME
 :
 retval
 =
+(
+FT_Long
+)
+(
 ft_strlen
 (
 type1
@@ -3244,6 +3287,7 @@ family_name
 )
 +
 1
+)
 ;
 if
 (
@@ -3280,6 +3324,10 @@ PS_DICT_WEIGHT
 :
 retval
 =
+(
+FT_Long
+)
+(
 ft_strlen
 (
 type1
@@ -3291,6 +3339,7 @@ weight
 )
 +
 1
+)
 ;
 if
 (
@@ -3934,7 +3983,7 @@ kerning
 )
 ;
 return
-T1_Err_Ok
+FT_Err_Ok
 ;
 }
 #
@@ -3994,13 +4043,6 @@ T1_Size_Init
 T1_Size_Done
 T1_GlyphSlot_Init
 T1_GlyphSlot_Done
-#
-ifdef
-FT_CONFIG_OPTION_OLD_INTERNALS
-ft_stub_set_char_sizes
-ft_stub_set_pixel_sizes
-#
-endif
 T1_Load_Glyph
 #
 ifdef

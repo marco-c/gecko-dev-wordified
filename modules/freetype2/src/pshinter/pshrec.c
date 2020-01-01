@@ -110,11 +110,11 @@ body
 *
 Copyright
 2001
-2002
-2003
+-
 2004
 2007
 2009
+2013
 by
 *
 /
@@ -774,7 +774,7 @@ count
 FT_Error
 error
 =
-PSH_Err_Ok
+FT_Err_Ok
 ;
 if
 (
@@ -841,7 +841,7 @@ ahint
 FT_Error
 error
 =
-PSH_Err_Ok
+FT_Err_Ok
 ;
 FT_UInt
 count
@@ -1380,7 +1380,7 @@ count
 FT_Error
 error
 =
-PSH_Err_Ok
+FT_Err_Ok
 ;
 if
 (
@@ -1592,7 +1592,7 @@ memory
 FT_Error
 error
 =
-PSH_Err_Ok
+FT_Err_Ok
 ;
 FT_Byte
 *
@@ -1814,7 +1814,7 @@ count
 FT_Error
 error
 =
-PSH_Err_Ok
+FT_Err_Ok
 ;
 if
 (
@@ -1886,7 +1886,7 @@ count
 FT_Error
 error
 =
-PSH_Err_Ok
+FT_Err_Ok
 ;
 PS_Mask
 mask
@@ -2008,7 +2008,7 @@ amask
 FT_Error
 error
 =
-PSH_Err_Ok
+FT_Err_Ok
 ;
 FT_UInt
 count
@@ -2105,8 +2105,6 @@ memory
 {
 FT_Error
 error
-=
-PSH_Err_Ok
 ;
 PS_Mask
 mask
@@ -2388,16 +2386,11 @@ count
 ;
 count
 =
+FT_MIN
 (
 count1
-<
-=
 count2
 )
-?
-count1
-:
-count2
 ;
 for
 (
@@ -2499,7 +2492,7 @@ temp
 FT_Error
 error
 =
-PSH_Err_Ok
+FT_Err_Ok
 ;
 /
 *
@@ -2998,7 +2991,7 @@ index2
 FT_Error
 error
 =
-PSH_Err_Ok
+FT_Err_Ok
 ;
 for
 (
@@ -3544,7 +3537,7 @@ mask
 FT_Error
 error
 =
-PSH_Err_Ok
+FT_Err_Ok
 ;
 /
 *
@@ -3633,9 +3626,6 @@ masks
 .
 num_masks
 ;
-PS_Mask
-mask
-;
 if
 (
 count
@@ -3643,6 +3633,7 @@ count
 0
 )
 {
+PS_Mask
 mask
 =
 dim
@@ -3781,8 +3772,6 @@ memory
 {
 FT_Error
 error
-=
-PSH_Err_Ok
 ;
 /
 *
@@ -3876,7 +3865,7 @@ aindex
 FT_Error
 error
 =
-PSH_Err_Ok
+FT_Err_Ok
 ;
 FT_UInt
 flags
@@ -4184,7 +4173,7 @@ memory
 FT_Error
 error
 =
-PSH_Err_Ok
+FT_Err_Ok
 ;
 FT_UInt
 count
@@ -4834,7 +4823,7 @@ hints
 >
 error
 =
-PSH_Err_Ok
+FT_Err_Ok
 ;
 hints
 -
@@ -4874,7 +4863,7 @@ memory
 memory
 ;
 return
-PSH_Err_Ok
+FT_Err_Ok
 ;
 }
 /
@@ -4914,7 +4903,7 @@ hints
 >
 error
 =
-PSH_Err_Ok
+FT_Err_Ok
 ;
 hints
 -
@@ -4956,7 +4945,10 @@ hints
 >
 error
 =
-PSH_Err_Invalid_Argument
+FT_THROW
+(
+Invalid_Argument
+)
 ;
 hints
 -
@@ -5312,7 +5304,7 @@ stems
 FT_Error
 error
 =
-PSH_Err_Ok
+FT_Err_Ok
 ;
 if
 (
@@ -5570,7 +5562,10 @@ n
 ;
 error
 =
-PSH_Err_Invalid_Argument
+FT_THROW
+(
+Invalid_Argument
+)
 ;
 goto
 Fail
@@ -5634,7 +5629,7 @@ end_point
 FT_Error
 error
 =
-PSH_Err_Ok
+FT_Err_Ok
 ;
 if
 (
@@ -5722,7 +5717,10 @@ type
 /
 error
 =
-PSH_Err_Invalid_Argument
+FT_THROW
+(
+Invalid_Argument
+)
 ;
 goto
 Fail

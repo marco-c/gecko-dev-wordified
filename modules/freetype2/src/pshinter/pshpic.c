@@ -113,6 +113,8 @@ module
 Copyright
 2009
 2010
+2012
+2013
 by
 *
 /
@@ -407,11 +409,13 @@ pic_container
 FT_Error
 error
 =
-PSH_Err_Ok
+FT_Err_Ok
 ;
 PSHinterPIC
 *
 container
+=
+NULL
 ;
 FT_Memory
 memory
@@ -490,12 +494,6 @@ container
 pshinter_interface
 )
 ;
-/
-*
-Exit
-:
-*
-/
 if
 (
 error

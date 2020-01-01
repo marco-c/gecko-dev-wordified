@@ -114,6 +114,7 @@ Copyright
 2004
 2005
 2012
+2013
 by
 *
 /
@@ -489,9 +490,6 @@ OTV_Err_
 define
 FT_ERR_BASE
 FT_Mod_Err_OTvalid
-#
-define
-FT_KEEP_ERR_PREFIX
 #
 include
 FT_ERRORS_H

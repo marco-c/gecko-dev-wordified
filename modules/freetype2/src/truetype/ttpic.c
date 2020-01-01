@@ -113,6 +113,8 @@ module
 Copyright
 2009
 2010
+2012
+2013
 by
 *
 /
@@ -467,11 +469,13 @@ pic_container
 FT_Error
 error
 =
-TT_Err_Ok
+FT_Err_Ok
 ;
 TTModulePIC
 *
 container
+=
+NULL
 ;
 FT_Memory
 memory
@@ -538,6 +542,10 @@ how
 the
 module
 usually
+*
+/
+/
+*
 expects
 this
 data

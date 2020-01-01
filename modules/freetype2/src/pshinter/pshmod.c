@@ -113,6 +113,8 @@ Copyright
 2001
 2002
 2007
+2009
+2012
 by
 *
 /
@@ -616,7 +618,7 @@ pshinter
 0x10000L
 0x20000L
 &
-FTPSHINTER_INTERFACE_GET
+PSHINTER_INTERFACE_GET
 /
 *
 module
@@ -636,7 +638,8 @@ ps_hinter_done
 (
 FT_Module_Requester
 )
-0
+NULL
+)
 /
 *
 no
@@ -646,7 +649,6 @@ for
 now
 *
 /
-)
 /
 *
 END

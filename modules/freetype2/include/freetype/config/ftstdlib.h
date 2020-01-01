@@ -123,6 +123,8 @@ Copyright
 2007
 2009
 2011
+-
+2012
 by
 *
 /
@@ -2027,7 +2029,7 @@ setjmp
 (
 *
 (
-jmp_buf
+ft_jmp_buf
 *
 )
 &

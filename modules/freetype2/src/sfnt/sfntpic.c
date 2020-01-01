@@ -113,6 +113,8 @@ module
 Copyright
 2009
 2010
+2012
+2013
 by
 *
 /
@@ -335,7 +337,7 @@ library
 FT_ServiceDescRec
 *
 *
-ouput_class
+output_class
 )
 ;
 void
@@ -565,11 +567,13 @@ pic_container
 FT_Error
 error
 =
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 sfntModulePIC
 *
 container
+=
+NULL
 ;
 FT_Memory
 memory
@@ -630,6 +634,10 @@ initialize
 pointer
 table
 -
+*
+/
+/
+*
 this
 is
 how

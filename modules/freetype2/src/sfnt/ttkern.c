@@ -617,7 +617,10 @@ n
 ;
 error
 =
-SFNT_Err_Table_Missing
+FT_THROW
+(
+Table_Missing
+)
 ;
 goto
 Exit

@@ -114,10 +114,10 @@ Copyright
 -
 2001
 2003
-2004
-2005
+-
 2006
 2010
+2013
 by
 *
 /
@@ -1076,7 +1076,7 @@ _node
 \
 error
 =
-FTC_Err_Ok
+FT_Err_Ok
 ;
 \
 _first

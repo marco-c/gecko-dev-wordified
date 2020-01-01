@@ -112,6 +112,7 @@ Copyright
 2003
 2005
 2007
+2013
 by
 *
 /
@@ -619,7 +620,8 @@ a
 .
 16
 fixed
-float
+-
+point
 value
 expressed
 in
@@ -1149,6 +1151,7 @@ given
 angle
 in
 fixed
+-
 point
 format
 .
@@ -1304,6 +1307,7 @@ given
 angle
 in
 fixed
+-
 point
 format
 .
@@ -1459,6 +1463,7 @@ given
 angle
 in
 fixed
+-
 point
 format
 .

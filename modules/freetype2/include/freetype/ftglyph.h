@@ -1207,7 +1207,8 @@ in
 .
 16
 fixed
-float
+-
+point
 format
 .
 *

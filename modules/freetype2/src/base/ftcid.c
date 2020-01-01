@@ -111,6 +111,7 @@ information
 Copyright
 2007
 2009
+2013
 by
 Derek
 Clegg
@@ -349,7 +350,10 @@ s
 ;
 error
 =
-FT_Err_Invalid_Argument
+FT_ERR
+(
+Invalid_Argument
+)
 ;
 if
 (
@@ -440,7 +444,10 @@ is_cid
 FT_Error
 error
 =
-FT_Err_Invalid_Argument
+FT_ERR
+(
+Invalid_Argument
+)
 ;
 FT_Bool
 ic
@@ -516,7 +523,10 @@ cid
 FT_Error
 error
 =
-FT_Err_Invalid_Argument
+FT_ERR
+(
+Invalid_Argument
+)
 ;
 FT_UInt
 c

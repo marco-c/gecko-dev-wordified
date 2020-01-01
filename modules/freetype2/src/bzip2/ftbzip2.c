@@ -152,6 +152,7 @@ distributions
 Copyright
 2010
 2012
+2013
 by
 *
 /
@@ -1393,7 +1394,7 @@ stream
 FT_Error
 error
 =
-Bzip2_Err_Ok
+FT_Err_Ok
 ;
 FT_Byte
 head
@@ -1496,7 +1497,10 @@ huffman
 {
 error
 =
-Bzip2_Err_Invalid_File_Format
+FT_THROW
+(
+Invalid_File_Format
+)
 ;
 goto
 Exit
@@ -1533,7 +1537,7 @@ bzstream
 FT_Error
 error
 =
-Bzip2_Err_Ok
+FT_Err_Ok
 ;
 zip
 -
@@ -1706,7 +1710,10 @@ NULL
 )
 error
 =
-Bzip2_Err_Invalid_File_Format
+FT_THROW
+(
+Invalid_File_Format
+)
 ;
 Exit
 :
@@ -2005,7 +2012,10 @@ size
 0
 )
 return
-Bzip2_Err_Invalid_Stream_Operation
+FT_THROW
+(
+Invalid_Stream_Operation
+)
 ;
 }
 else
@@ -2040,7 +2050,10 @@ size
 0
 )
 return
-Bzip2_Err_Invalid_Stream_Operation
+FT_THROW
+(
+Invalid_Stream_Operation
+)
 ;
 FT_MEM_COPY
 (
@@ -2091,7 +2104,7 @@ avail_in
 size
 ;
 return
-Bzip2_Err_Ok
+FT_Err_Ok
 ;
 }
 static
@@ -2115,7 +2128,7 @@ bzstream
 FT_Error
 error
 =
-Bzip2_Err_Ok
+FT_Err_Ok
 ;
 zip
 -
@@ -2230,7 +2243,10 @@ cursor
 )
 error
 =
-Bzip2_Err_Invalid_Stream_Operation
+FT_THROW
+(
+Invalid_Stream_Operation
+)
 ;
 break
 ;
@@ -2246,7 +2262,10 @@ BZ_OK
 {
 error
 =
-Bzip2_Err_Invalid_Stream_Operation
+FT_THROW
+(
+Invalid_Stream_Operation
+)
 ;
 break
 ;
@@ -2284,7 +2303,7 @@ count
 FT_Error
 error
 =
-Bzip2_Err_Ok
+FT_Err_Ok
 ;
 FT_ULong
 delta
@@ -3284,7 +3303,10 @@ source
 )
 ;
 return
-Bzip2_Err_Unimplemented_Feature
+FT_THROW
+(
+Unimplemented_Feature
+)
 ;
 }
 #

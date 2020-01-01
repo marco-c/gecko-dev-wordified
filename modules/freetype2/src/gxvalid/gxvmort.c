@@ -112,6 +112,7 @@ body
 *
 Copyright
 2005
+2013
 by
 suzuki
 toshiya
@@ -1290,9 +1291,6 @@ gxv_mort_subtable_type5_validate
 /
 }
 ;
-GXV_Validate_Func
-func
-;
 FT_UShort
 i
 ;
@@ -1321,6 +1319,9 @@ i
 +
 )
 {
+GXV_Validate_Func
+func
+;
 FT_UShort
 length
 ;

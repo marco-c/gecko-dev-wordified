@@ -113,6 +113,8 @@ module
 Copyright
 2009
 2010
+2012
+2013
 by
 *
 /
@@ -566,11 +568,13 @@ pic_container
 FT_Error
 error
 =
-CFF_Err_Ok
+FT_Err_Ok
 ;
 CffModulePIC
 *
 container
+=
+NULL
 ;
 FT_Memory
 memory
@@ -631,6 +635,10 @@ initialize
 pointer
 table
 -
+*
+/
+/
+*
 this
 is
 how

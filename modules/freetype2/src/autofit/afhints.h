@@ -115,7 +115,7 @@ Copyright
 2008
 2010
 -
-2011
+2012
 by
 *
 /
@@ -1724,6 +1724,7 @@ original
 unscaled
 position
 (
+in
 font
 units
 )
@@ -1978,6 +1979,7 @@ original
 unscaled
 position
 (
+in
 font
 units
 )

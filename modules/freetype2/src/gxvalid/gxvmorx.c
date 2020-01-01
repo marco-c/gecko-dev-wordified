@@ -113,6 +113,7 @@ body
 Copyright
 2005
 2008
+2013
 by
 *
 /
@@ -706,9 +707,6 @@ gxv_morx_subtable_type5_validate
 /
 }
 ;
-GXV_Validate_Func
-func
-;
 FT_UShort
 i
 ;
@@ -737,6 +735,9 @@ i
 +
 )
 {
+GXV_Validate_Func
+func
+;
 FT_ULong
 length
 ;

@@ -112,9 +112,9 @@ body
 *
 Copyright
 2004
-2005
-2006
+-
 2007
+2013
 *
 /
 /
@@ -2344,13 +2344,6 @@ FT_NEXT_USHORT
 (
 p
 )
-;
-#
-else
-p
-+
-=
-4
 ;
 #
 endif

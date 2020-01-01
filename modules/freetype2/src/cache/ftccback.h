@@ -115,9 +115,10 @@ only
 *
 Copyright
 2004
-2005
+-
 2006
 2011
+2013
 by
 *
 /
@@ -493,9 +494,6 @@ FTC_Cache
 cache
 )
 ;
-#
-ifndef
-FT_CONFIG_OPTION_OLD_INTERNALS
 FT_LOCAL
 (
 void
@@ -508,8 +506,6 @@ FTC_Manager
 manager
 )
 ;
-#
-endif
 #
 endif
 /

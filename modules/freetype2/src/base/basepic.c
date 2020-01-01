@@ -111,6 +111,7 @@ base
 *
 Copyright
 2009
+2012
 by
 *
 /
@@ -334,6 +335,9 @@ FT_Glyph_Class
 clazz
 )
 ;
+#
+ifdef
+FT_CONFIG_OPTION_MAC_FONTS
 /
 *
 forward
@@ -346,6 +350,10 @@ from
 ftrfork
 .
 c
+*
+/
+/
+*
 (
 not
 modularized
@@ -360,6 +368,8 @@ ft_raccess_guess_rec
 record
 )
 ;
+#
+endif
 /
 *
 forward
@@ -423,10 +433,14 @@ base
 {
 /
 *
-Destroy
+destroy
 default
 module
 classes
+*
+/
+/
+*
 (
 in
 case
@@ -483,6 +497,8 @@ FT_Err_Ok
 BasePIC
 *
 container
+=
+NULL
 ;
 FT_Memory
 memory
@@ -567,6 +583,10 @@ initialize
 pointer
 table
 -
+*
+/
+/
+*
 this
 is
 how
@@ -596,6 +616,9 @@ container
 ft_bitmap_glyph_class
 )
 ;
+#
+ifdef
+FT_CONFIG_OPTION_MAC_FONTS
 FT_Init_Table_raccess_guess_table
 (
 (
@@ -609,6 +632,8 @@ container
 ft_raccess_guess_table
 )
 ;
+#
+endif
 Exit
 :
 if

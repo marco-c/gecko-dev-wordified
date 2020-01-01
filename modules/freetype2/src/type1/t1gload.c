@@ -111,15 +111,11 @@ body
 Copyright
 1996
 -
-2001
-2002
-2003
-2004
-2005
 2006
 2008
-2009
+-
 2010
+2013
 by
 *
 /
@@ -1183,7 +1179,7 @@ type1
 FT_Error
 error
 =
-T1_Err_Ok
+FT_Err_Ok
 ;
 #
 ifdef
@@ -1942,7 +1938,7 @@ decoder
 )
 ;
 return
-T1_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_LOCAL_DEF
@@ -2035,7 +2031,7 @@ nn
 0
 ;
 return
-T1_Err_Ok
+FT_Err_Ok
 ;
 }
 error
@@ -2210,7 +2206,7 @@ nn
 ;
 }
 return
-T1_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_LOCAL_DEF
@@ -2377,7 +2373,10 @@ FT_CONFIG_OPTION_INCREMENTAL
 {
 error
 =
-T1_Err_Invalid_Argument
+FT_THROW
+(
+Invalid_Argument
+)
 ;
 goto
 Exit

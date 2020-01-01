@@ -116,6 +116,7 @@ Copyright
 2006
 2007
 2011
+2012
 by
 *
 /
@@ -538,6 +539,9 @@ AF_CJKMetricsRec
 *
 AF_CJKMetrics
 ;
+#
+ifdef
+AF_CONFIG_OPTION_CJK
 FT_LOCAL
 (
 FT_Error
@@ -591,8 +595,8 @@ metrics
 ;
 /
 *
-Shared
-.
+shared
+;
 called
 from
 afindic
@@ -622,10 +626,15 @@ AF_CJKMetrics
 metrics
 FT_Face
 face
-FT_ULong
-charcode
 )
 ;
+#
+endif
+/
+*
+AF_CONFIG_OPTION_CJK
+*
+/
 /
 *
 *

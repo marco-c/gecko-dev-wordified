@@ -114,10 +114,9 @@ specification
 *
 Copyright
 2003
-2004
-2005
-2006
+-
 2007
+2012
 by
 *
 /

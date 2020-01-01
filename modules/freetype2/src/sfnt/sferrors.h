@@ -112,6 +112,7 @@ Copyright
 2001
 2004
 2012
+2013
 by
 *
 /
@@ -481,9 +482,6 @@ SFNT_Err_
 define
 FT_ERR_BASE
 FT_Mod_Err_SFNT
-#
-define
-FT_KEEP_ERR_PREFIX
 #
 include
 FT_ERRORS_H

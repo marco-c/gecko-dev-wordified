@@ -112,6 +112,7 @@ declaration
 *
 Copyright
 2009
+2012
 by
 *
 /
@@ -543,6 +544,10 @@ tables
 structs
 etc
 .
+*
+/
+/
+*
 stored
 in
 the

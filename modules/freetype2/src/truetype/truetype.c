@@ -115,6 +115,7 @@ Copyright
 2001
 2004
 2006
+2012
 by
 *
 /
@@ -363,6 +364,13 @@ TT_USE_BYTECODE_INTERPRETER
 include
 "
 ttinterp
+.
+c
+"
+#
+include
+"
+ttsubpix
 .
 c
 "

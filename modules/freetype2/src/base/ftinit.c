@@ -110,12 +110,12 @@ body
 Copyright
 1996
 -
-2001
 2002
 2005
 2007
 2009
 2012
+2013
 by
 *
 /
@@ -1192,6 +1192,8 @@ FT_Module_Class
 *
 *
 classes
+=
+NULL
 ;
 FT_Module_Class
 *
@@ -1591,7 +1593,10 @@ n
 )
 ;
 return
-FT_Err_Unimplemented_Feature
+FT_THROW
+(
+Unimplemented_Feature
+)
 ;
 }
 /

@@ -115,6 +115,7 @@ Copyright
 2010
 -
 2011
+2013
 by
 *
 /
@@ -909,7 +910,10 @@ n
 ;
 error
 =
-PFR_Err_Unknown_File_Format
+FT_THROW
+(
+Unknown_File_Format
+)
 ;
 goto
 Exit
@@ -993,7 +997,10 @@ n
 ;
 error
 =
-PFR_Err_Invalid_Argument
+FT_THROW
+(
+Invalid_Argument
+)
 ;
 goto
 Exit
@@ -1250,7 +1257,10 @@ n
 ;
 error
 =
-PFR_Err_Invalid_File_Format
+FT_THROW
+(
+Invalid_File_Format
+)
 ;
 goto
 Exit
@@ -2502,7 +2512,10 @@ num_chars
 {
 error
 =
-PFR_Err_Invalid_Argument
+FT_THROW
+(
+Invalid_Argument
+)
 ;
 goto
 Exit
@@ -2563,7 +2576,10 @@ FT_LOAD_SBITS_ONLY
 {
 error
 =
-PFR_Err_Invalid_Argument
+FT_THROW
+(
+Invalid_Argument
+)
 ;
 goto
 Exit
@@ -3604,7 +3620,7 @@ pfrface
 FT_Error
 error
 =
-PFR_Err_Ok
+FT_Err_Ok
 ;
 PFR_PhyFont
 phy_font

@@ -114,8 +114,9 @@ body
 *
 Copyright
 2002
-2003
+-
 2004
+2013
 by
 *
 /
@@ -350,7 +351,10 @@ NULL
 ;
 error
 =
-FT_Err_Invalid_Argument
+FT_ERR
+(
+Invalid_Argument
+)
 ;
 if
 (
@@ -446,7 +450,10 @@ error
 ;
 error
 =
-FT_Err_Invalid_Argument
+FT_ERR
+(
+Invalid_Argument
+)
 ;
 aproperty
 -
