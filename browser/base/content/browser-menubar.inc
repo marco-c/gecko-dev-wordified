@@ -4115,7 +4115,7 @@ label
 =
 "
 &
-responsiveUI
+responsiveDesignTool
 .
 label
 ;
@@ -4124,7 +4124,7 @@ accesskey
 =
 "
 &
-responsiveUI
+responsiveDesignTool
 .
 accesskey
 ;

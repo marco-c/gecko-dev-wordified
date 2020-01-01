@@ -3105,7 +3105,7 @@ key
 =
 "
 &
-responsiveUI
+responsiveDesignTool
 .
 commandkey
 ;
