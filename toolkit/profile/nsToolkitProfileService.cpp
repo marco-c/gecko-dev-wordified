@@ -3990,7 +3990,7 @@ about
 microsecond
 resolution
 .
-PRInt64
+int64_t
 msec
 ;
 LL_DIV

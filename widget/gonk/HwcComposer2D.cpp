@@ -1416,7 +1416,7 @@ bug
 810334
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

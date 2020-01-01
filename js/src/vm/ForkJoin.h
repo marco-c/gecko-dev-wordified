@@ -1429,7 +1429,7 @@ Initialize
 (
 )
 static
-PRUintn
+unsigned
 ThreadPrivateIndex
 ;
 #

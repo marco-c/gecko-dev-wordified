@@ -1919,7 +1919,7 @@ PRUnichar
 aParams
 =
 nullptr
-PRUint32
+uint32_t
 aParamCount
 =
 0
