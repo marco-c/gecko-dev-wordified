@@ -4752,9 +4752,6 @@ if
 FillBindingVector
 (
 script
--
->
-bindings
 localNames
 )
 )
