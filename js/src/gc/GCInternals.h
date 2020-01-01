@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsgc_internal_h___
+gc_GCInternals_h
 #
 define
-jsgc_internal_h___
+gc_GCInternals_h
 #
 include
 "
@@ -613,6 +613,6 @@ js
 endif
 /
 *
-jsgc_internal_h___
+gc_GCInternals_h
 *
 /

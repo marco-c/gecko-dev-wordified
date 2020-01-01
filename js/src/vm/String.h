@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-String_h_
+vm_String_h
 #
 define
-String_h_
+vm_String_h
 #
 include
 "
@@ -6151,3 +6151,8 @@ this
 }
 #
 endif
+/
+*
+vm_String_h
+*
+/

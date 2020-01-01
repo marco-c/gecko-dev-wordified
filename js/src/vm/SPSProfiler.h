@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-SPSProfiler_h__
+vm_SPSProfiler_h
 #
 define
-SPSProfiler_h__
+vm_SPSProfiler_h
 #
 include
 <
@@ -3141,6 +3141,6 @@ js
 endif
 /
 *
-SPSProfiler_h__
+vm_SPSProfiler_h
 *
 /

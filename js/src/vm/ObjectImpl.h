@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-ObjectImpl_h___
+vm_ObjectImpl_h
 #
 define
-ObjectImpl_h___
+vm_ObjectImpl_h
 #
 include
 "
@@ -10529,6 +10529,6 @@ js
 endif
 /
 *
-ObjectImpl_h__
+vm_ObjectImpl_h
 *
 /

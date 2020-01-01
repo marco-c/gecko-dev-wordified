@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-Shape_inl_h__
+vm_Shape_inl_h
 #
 define
-Shape_inl_h__
+vm_Shape_inl_h
 #
 include
 "
@@ -3287,6 +3287,6 @@ js
 endif
 /
 *
-Shape_inl_h__
+vm_Shape_inl_h
 *
 /

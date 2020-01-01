@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-GlobalObject_inl_h___
+vm_GlobalObject_inl_h
 #
 define
-GlobalObject_inl_h___
+vm_GlobalObject_inl_h
 #
 include
 "
@@ -1044,3 +1044,8 @@ namespace
 js
 #
 endif
+/
+*
+vm_GlobalObject_inl_h
+*
+/

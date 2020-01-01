@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-NumericConversions_h___
+vm_NumericConversions_h
 #
 define
-NumericConversions_h___
+vm_NumericConversions_h
 #
 include
 "
@@ -2870,6 +2870,6 @@ js
 endif
 /
 *
-NumericConversions_h__
+vm_NumericConversions_h
 *
 /

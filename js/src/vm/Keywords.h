@@ -124,10 +124,10 @@ tokens
 /
 #
 ifndef
-Keywords_h_
+vm_Keywords_h
 #
 define
-Keywords_h_
+vm_Keywords_h
 #
 include
 "
@@ -692,6 +692,6 @@ macro
 endif
 /
 *
-Keywords_h_
+vm_Keywords_h
 *
 /

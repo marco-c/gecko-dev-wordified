@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-String_inl_h__
+vm_String_inl_h
 #
 define
-String_inl_h__
+vm_String_inl_h
 #
 include
 "
@@ -3231,3 +3231,8 @@ chars
 }
 #
 endif
+/
+*
+vm_String_inl_h
+*
+/

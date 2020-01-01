@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsgc_memory_h___
+gc_Memory_h
 #
 define
-jsgc_memory_h___
+gc_Memory_h
 #
 include
 <
@@ -327,5 +327,7 @@ js
 #
 endif
 /
+*
+gc_Memory_h
+*
 /
-jsgc_memory_h___

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-gc_zone_h___
+gc_Zone_h
 #
 define
-gc_zone_h___
+gc_Zone_h
 #
 include
 "
@@ -2265,6 +2265,6 @@ js
 endif
 /
 *
-gc_zone_h___
+gc_Zone_h
 *
 /

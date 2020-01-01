@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-BooleanObject_inl_h___
+vm_BooleanObject_inl_h
 #
 define
-BooleanObject_inl_h___
+vm_BooleanObject_inl_h
 #
 include
 "
@@ -202,6 +202,6 @@ js
 endif
 /
 *
-BooleanObject_inl_h__
+vm_BooleanObject_inl_h
 *
 /

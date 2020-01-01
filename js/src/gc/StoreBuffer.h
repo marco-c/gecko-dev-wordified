@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsgc_storebuffer_h___
+gc_StoreBuffer_h
 #
 define
-jsgc_storebuffer_h___
+gc_StoreBuffer_h
 #
 ifdef
 JSGC_GENERATIONAL
@@ -2805,6 +2805,6 @@ JSGC_GENERATIONAL
 endif
 /
 *
-jsgc_storebuffer_h___
+gc_StoreBuffer_h
 *
 /

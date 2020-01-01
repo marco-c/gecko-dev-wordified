@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-ArgumentsObject_h___
+vm_ArgumentsObject_h
 #
 define
-ArgumentsObject_h___
+vm_ArgumentsObject_h
 #
 include
 "
@@ -1756,6 +1756,6 @@ StrictArgumentsObject
 endif
 /
 *
-ArgumentsObject_h___
+vm_ArgumentsObject_h
 *
 /

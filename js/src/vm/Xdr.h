@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-Xdr_h___
+vm_Xdr_h
 #
 define
-Xdr_h___
+vm_Xdr_h
 #
 include
 "
@@ -1389,6 +1389,6 @@ js
 endif
 /
 *
-Xdr_h___
+vm_Xdr_h
 *
 /

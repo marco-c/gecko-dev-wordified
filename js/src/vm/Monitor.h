@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-Monitor_h__
+vm_Monitor_h
 #
 define
-Monitor_h__
+vm_Monitor_h
 #
 include
 "
@@ -465,5 +465,7 @@ js
 #
 endif
 /
+*
+vm_Monitor_h
+*
 /
-Monitor_h__

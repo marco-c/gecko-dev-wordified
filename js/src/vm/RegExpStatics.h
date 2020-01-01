@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-RegExpStatics_h__
+vm_RegExpStatics_h
 #
 define
-RegExpStatics_h__
+vm_RegExpStatics_h
 #
 include
 <
@@ -168,6 +168,6 @@ js
 endif
 /
 *
-RegExpStatics_h__
+vm_RegExpStatics_h
 *
 /

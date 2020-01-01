@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsgc_statistics_h___
+gc_Statistics_h
 #
 define
-jsgc_statistics_h___
+gc_Statistics_h
 #
 include
 "
@@ -914,6 +914,6 @@ js
 endif
 /
 *
-jsgc_statistics_h___
+gc_Statistics_h
 *
 /

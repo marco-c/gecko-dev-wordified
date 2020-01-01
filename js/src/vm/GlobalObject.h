@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-GlobalObject_h___
+vm_GlobalObject_h
 #
 define
-GlobalObject_h___
+vm_GlobalObject_h
 #
 include
 "
@@ -3227,6 +3227,6 @@ this
 endif
 /
 *
-GlobalObject_h___
+vm_GlobalObject_h
 *
 /

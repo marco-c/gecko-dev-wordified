@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-Stack_inl_h__
+vm_Stack_inl_h
 #
 define
-Stack_inl_h__
+vm_Stack_inl_h
 #
 include
 "
@@ -4979,6 +4979,6 @@ js
 endif
 /
 *
-Stack_inl_h__
+vm_Stack_inl_h
 *
 /

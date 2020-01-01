@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-Debugger_h__
+vm_Debugger_h
 #
 define
-Debugger_h__
+vm_Debugger_h
 #
 include
 "
@@ -5088,6 +5088,6 @@ rval
 endif
 /
 *
-Debugger_h__
+vm_Debugger_h
 *
 /

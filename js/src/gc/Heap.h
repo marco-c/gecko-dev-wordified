@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-gc_heap_h___
+gc_Heap_h
 #
 define
-gc_heap_h___
+gc_Heap_h
 #
 include
 "
@@ -6469,6 +6469,6 @@ js
 endif
 /
 *
-gc_heap_h___
+gc_Heap_h
 *
 /

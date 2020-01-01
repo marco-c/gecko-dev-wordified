@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-ScopeObject_inl_h___
+vm_ScopeObject_inl_h
 #
 define
-ScopeObject_inl_h___
+vm_ScopeObject_inl_h
 #
 include
 "
@@ -1478,6 +1478,6 @@ js
 endif
 /
 *
-ScopeObject_inl_h___
+vm_ScopeObject_inl_h
 *
 /

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-ObjectImpl_inl_h___
+vm_ObjectImpl_inl_h
 #
 define
-ObjectImpl_inl_h___
+vm_ObjectImpl_inl_h
 #
 include
 "
@@ -2683,6 +2683,6 @@ data
 endif
 /
 *
-ObjectImpl_inl_h__
+vm_ObjectImpl_inl_h
 *
 /

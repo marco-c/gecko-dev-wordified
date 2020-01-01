@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-StringObject_h___
+vm_StringObject_h
 #
 define
-StringObject_h___
+vm_StringObject_h
 #
 include
 "
@@ -427,6 +427,6 @@ js
 endif
 /
 *
-StringObject_h__
+vm_StringObject_h
 *
 /

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-ThreadPool_h__
+vm_ThreadPool_h
 #
 define
-ThreadPool_h__
+vm_ThreadPool_h
 #
 include
 <
@@ -788,5 +788,7 @@ js
 #
 endif
 /
+*
+vm_ThreadPool_h
+*
 /
-ThreadPool_h__

@@ -126,10 +126,10 @@ names
 /
 #
 ifndef
-CommonPropertyNames_h__
+vm_CommonPropertyNames_h
 #
 define
-CommonPropertyNames_h__
+vm_CommonPropertyNames_h
 #
 include
 "
@@ -1481,6 +1481,6 @@ null
 endif
 /
 *
-CommonPropertyNames_h__
+vm_CommonPropertyNames_h
 *
 /

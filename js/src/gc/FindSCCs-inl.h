@@ -109,6 +109,12 @@ MPL
 *
 /
 #
+ifndef
+gc_FindSCCs_inl_h
+#
+define
+gc_FindSCCs_inl_h
+#
 include
 "
 jsfriendapi
@@ -800,5 +806,12 @@ gc
 *
 namespace
 js
+*
+/
+#
+endif
+/
+*
+gc_FindSCCs_inl_h
 *
 /

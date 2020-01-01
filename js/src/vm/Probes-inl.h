@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-Probes_inl_h__
+vm_Probes_inl_h
 #
 define
-Probes_inl_h__
+vm_Probes_inl_h
 #
 include
 "
@@ -701,5 +701,7 @@ js
 #
 endif
 /
+*
+vm_Probes_inl_h
+*
 /
-Probes_inl_h__

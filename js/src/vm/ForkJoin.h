@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-ForkJoin_h__
+vm_ForkJoin_h
 #
 define
-ForkJoin_h__
+vm_ForkJoin_h
 #
 include
 "
@@ -4197,5 +4197,7 @@ endif
 #
 endif
 /
+*
+vm_ForkJoin_h
+*
 /
-ForkJoin_h__
