@@ -512,6 +512,7 @@ html
 timeranges
 class
 nsTimeRanges
+MOZ_FINAL
 :
 public
 nsIDOMTimeRanges
