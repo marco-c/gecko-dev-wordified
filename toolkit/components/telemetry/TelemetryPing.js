@@ -608,10 +608,8 @@ resident
 MEMORY_RESIDENT
 "
 "
-explicit
-/
 storage
-/
+-
 sqlite
 "
 :
