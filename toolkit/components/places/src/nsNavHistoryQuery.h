@@ -921,10 +921,6 @@ nsINavHistoryQueryOptions
 :
 REDIRECTS_MODE_ALL
 )
-mShowSessions
-(
-PR_FALSE
-)
 mMaxResults
 (
 0
@@ -1022,16 +1018,6 @@ const
 {
 return
 mRedirectsMode
-;
-}
-PRBool
-ShowSessions
-(
-)
-const
-{
-return
-mShowSessions
 ;
 }
 PRUint32
@@ -1191,9 +1177,6 @@ mIncludeHidden
 ;
 PRUint16
 mRedirectsMode
-;
-PRPackedBool
-mShowSessions
 ;
 PRUint32
 mMaxResults

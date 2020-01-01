@@ -1554,12 +1554,6 @@ should
 be
 ignored
 )
-ShowSessions
-(
-should
-be
-ignored
-)
 *
 /
 function
