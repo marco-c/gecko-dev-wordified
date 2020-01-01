@@ -520,6 +520,13 @@ nsPageContentFrame
 .
 h
 "
+#
+include
+"
+nsCSSPseudoElements
+.
+h
+"
 class
 nsIDocument
 ;
@@ -2937,8 +2944,10 @@ aContent
 nsStyleContext
 *
 aStyleContext
-nsIAtom
-*
+nsCSSPseudoElements
+:
+:
+Type
 aPseudoElement
 FrameConstructionItemList
 &

@@ -5896,6 +5896,12 @@ GetPseudo
 styleContext
 -
 >
+GetPseudoType
+(
+)
+styleContext
+-
+>
 GetRuleNode
 (
 )

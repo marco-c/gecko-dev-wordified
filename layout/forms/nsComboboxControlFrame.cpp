@@ -8171,9 +8171,8 @@ styleContext
 styleSet
 -
 >
-ResolvePseudoStyleFor
+ResolveAnonymousBoxStyle
 (
-mContent
 nsCSSAnonBoxes
 :
 :
