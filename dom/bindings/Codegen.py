@@ -38527,9 +38527,23 @@ opType
 infallible
 constant
                       
+pure
 returnTypes
 )
 :
+        
+assert
+(
+not
+constant
+or
+pure
+)
+#
+constants
+are
+always
+pure
         
 protoID
 =
@@ -38577,6 +38591,13 @@ conststr
 toStringBool
 (
 constant
+)
+        
+purestr
+=
+toStringBool
+(
+pure
 )
         
 returnType
@@ -38681,6 +38702,24 @@ n
 s
 /
 *
+isPure
+.
+Only
+relevant
+for
+getters
+.
+*
+/
+\
+n
+"
+                
+"
+%
+s
+/
+*
 returnType
 .
 Only
@@ -38712,6 +38751,7 @@ opType
 failstr
                           
 conststr
+purestr
 returnType
 )
 )
@@ -38791,6 +38831,47 @@ getter
 True
 )
             
+getterconst
+=
+self
+.
+member
+.
+getExtendedAttribute
+(
+"
+Constant
+"
+)
+            
+getterpure
+=
+getterconst
+or
+self
+.
+member
+.
+getExtendedAttribute
+(
+"
+Pure
+"
+)
+            
+assert
+(
+getterinfal
+or
+(
+not
+getterconst
+and
+not
+getterpure
+)
+)
+            
 getterinfal
 =
 getterinfal
@@ -38810,19 +38891,6 @@ self
 descriptor
 )
             
-getterconst
-=
-self
-.
-member
-.
-getExtendedAttribute
-(
-"
-Constant
-"
-)
-            
 result
 =
 self
@@ -38837,6 +38905,7 @@ Getter
                                         
 getterinfal
 getterconst
+getterpure
                                         
 [
 self
@@ -38936,6 +39005,7 @@ setter
 Setter
 "
                                              
+False
 False
 False
                                              
@@ -39054,10 +39124,6 @@ for
 return
 .
             
-methodInfal
-=
-False
-            
 sigs
 =
 self
@@ -39073,7 +39139,7 @@ len
 (
 sigs
 )
-=
+!
 =
 1
 :
@@ -39103,6 +39169,13 @@ take
 arguments
 .
                 
+methodInfal
+=
+False
+            
+else
+:
+                
 sig
 =
 sigs
@@ -39111,6 +39184,7 @@ sigs
 ]
                 
 if
+(
 len
 (
 sig
@@ -39118,10 +39192,12 @@ sig
 1
 ]
 )
-=
+!
 =
 0
-and
+or
+                    
+not
 infallibleForMember
 (
 self
@@ -39135,19 +39211,45 @@ self
 .
 descriptor
 )
+)
 :
                     
 #
-No
+We
+have
 arguments
-and
-infallible
+or
+our
 return
+-
+value
 boxing
+can
+fail
                     
 methodInfal
 =
-True
+False
+                
+else
+:
+                    
+methodInfal
+=
+"
+infallible
+"
+in
+self
+.
+descriptor
+.
+getExtendedAttributes
+(
+self
+.
+member
+)
             
 result
 =
@@ -39162,6 +39264,7 @@ Method
 "
                                         
 methodInfal
+False
 False
                                         
 [
