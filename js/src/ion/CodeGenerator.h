@@ -824,14 +824,6 @@ lir
 )
 ;
 bool
-visitSetInitializedLength
-(
-LSetInitializedLength
-*
-lir
-)
-;
-bool
 visitBoundsCheck
 (
 LBoundsCheck
