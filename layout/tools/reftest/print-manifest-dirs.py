@@ -433,8 +433,6 @@ random
 skip
 |
 asserts
-|
-fuzzy
 )
 "
 )
