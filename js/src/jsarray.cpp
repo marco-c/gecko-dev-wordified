@@ -1017,6 +1017,13 @@ h
 #
 include
 "
+jsgcmark
+.
+h
+"
+#
+include
+"
 jsinterp
 .
 h

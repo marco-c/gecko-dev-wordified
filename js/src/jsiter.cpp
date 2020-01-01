@@ -562,6 +562,13 @@ h
 #
 include
 "
+jsgcmark
+.
+h
+"
+#
+include
+"
 jshashtable
 .
 h

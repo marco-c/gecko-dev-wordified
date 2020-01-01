@@ -510,6 +510,13 @@ h
 #
 include
 "
+jsgcmark
+.
+h
+"
+#
+include
+"
 jsnum
 .
 h

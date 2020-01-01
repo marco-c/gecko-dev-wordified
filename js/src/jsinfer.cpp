@@ -500,6 +500,13 @@ h
 #
 include
 "
+jsgcmark
+.
+h
+"
+#
+include
+"
 jsinfer
 .
 h
