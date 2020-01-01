@@ -7387,10 +7387,12 @@ the
 codecs
 '
 parameter
-nsCommaSeparatedTokenizer
+nsCharSeparatedTokenizer
 tokenizer
 (
 codecs
+'
+'
 )
 ;
 PRBool
