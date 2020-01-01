@@ -6403,15 +6403,12 @@ nsIURI
 aUri
 )
 {
+NS_IF_ADDREF
+(
 *
 aUri
 =
 mUri
-;
-NS_ADDREF
-(
-*
-aUri
 )
 ;
 return
