@@ -3048,7 +3048,7 @@ error
 gl
 -
 >
-fGetError
+GetAndClearError
 (
 )
 ;
@@ -3548,7 +3548,7 @@ the
 point
 of
 calling
-GetError
+GetAndClearError
 here
 is
 not
@@ -3566,7 +3566,7 @@ to
 reset
 the
 error
-flag
+flags
 so
 that
 a
@@ -3585,7 +3585,7 @@ error
 gl
 -
 >
-fGetError
+GetAndClearError
 (
 )
 ;
