@@ -455,6 +455,8 @@ GetLooseValues
 ;
 gIPDLUnitTestName
 =
+:
+:
 strdup
 (
 WideToUTF8
