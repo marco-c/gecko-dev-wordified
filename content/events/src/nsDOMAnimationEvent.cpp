@@ -87,6 +87,13 @@ nsGUIEvent
 .
 h
 "
+#
+include
+"
+prtime
+.
+h
+"
 nsDOMAnimationEvent
 :
 :
