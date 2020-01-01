@@ -1226,6 +1226,9 @@ SetTimer
 NULL
 0
 1000
+(
+TIMERPROC
+)
 TimerCallback
 )
 ;
