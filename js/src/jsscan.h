@@ -455,6 +455,13 @@ h
 >
 #
 include
+<
+stdarg
+.
+h
+>
+#
+include
 "
 jsversion
 .
