@@ -524,11 +524,6 @@ if
 mFunc
 )
 {
-mFunc
-(
-mData
-)
-;
 mInstance
 -
 >
@@ -537,6 +532,11 @@ mPendingAsyncCalls
 RemoveElement
 (
 this
+)
+;
+mFunc
+(
+mData
 )
 ;
 }
