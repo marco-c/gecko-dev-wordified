@@ -4031,6 +4031,11 @@ keyCode
 case
 KeyEvent
 .
+KEYCODE_MENU
+:
+case
+KeyEvent
+.
 KEYCODE_BACK
 :
 case
