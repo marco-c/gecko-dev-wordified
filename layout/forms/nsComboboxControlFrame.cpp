@@ -6945,6 +6945,11 @@ PRInt32
 aNewIndex
 )
 {
+RedisplayText
+(
+aNewIndex
+)
+;
 nsISelectControlFrame
 *
 listFrame
