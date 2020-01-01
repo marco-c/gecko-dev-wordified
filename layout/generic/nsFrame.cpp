@@ -8949,11 +8949,7 @@ and
 we
 '
 re
-not
-checking
-for
-event
-handling
+painting
 .
 if
 (
@@ -8968,11 +8964,10 @@ mOpacity
 0
 &
 &
-!
 aBuilder
 -
 >
-IsForEventDelivery
+IsForPainting
 (
 )
 )
