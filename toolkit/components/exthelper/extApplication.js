@@ -1273,6 +1273,7 @@ aEvent
 aEventItem
 )
 {
+var
 eventItem
 =
 new
