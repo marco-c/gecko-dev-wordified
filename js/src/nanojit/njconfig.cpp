@@ -740,6 +740,8 @@ defined
 (
 NANOJIT_ARM
 )
+/
+/
 NanoStaticAssert
 (
 NJ_COMPILER_ARM_ARCH
