@@ -158,6 +158,22 @@ testing
 /
 mozbase
 /
+mozcrash
+'
+    
+'
+testing
+/
+mozbase
+/
+mozlog
+'
+    
+'
+testing
+/
+mozbase
+/
 mozprocess
 '
     
