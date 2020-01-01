@@ -3774,7 +3774,7 @@ mTwipsPerPixel
 return
 NS_CombineHint
 (
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 nsChangeHint_RepaintFrame
 )
 ;
@@ -5087,7 +5087,7 @@ frames
 NS_UpdateHint
 (
 hint
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 )
 ;
 }
@@ -5693,7 +5693,7 @@ nsChangeHint_UpdateEffects
 NS_UpdateHint
 (
 hint
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 )
 ;
 NS_UpdateHint
@@ -6302,7 +6302,7 @@ return
 NS_CombineHint
 (
 hint
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 )
 ;
 }
@@ -6418,7 +6418,7 @@ return
 NS_CombineHint
 (
 hint
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 )
 ;
 }
@@ -6488,7 +6488,7 @@ return
 NS_CombineHint
 (
 hint
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 )
 ;
 }
@@ -6647,7 +6647,7 @@ return
 NS_CombineHint
 (
 hint
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 )
 ;
 }
@@ -6708,7 +6708,7 @@ NS_CombineHint
 hint
 NS_SubtractHint
 (
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 NS_CombineHint
 (
 nsChangeHint_ClearDescendantIntrinsics
@@ -12372,7 +12372,7 @@ NS_UpdateHint
 hint
 NS_SubtractHint
 (
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 NS_CombineHint
 (
 nsChangeHint_ClearDescendantIntrinsics
@@ -12473,7 +12473,7 @@ NS_UpdateHint
 hint
 NS_CombineHint
 (
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 nsChangeHint_RepaintFrame
 )
 )

@@ -421,7 +421,7 @@ NS_ASSERTION
 (
 aHint
 &
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 )
 |
 |
