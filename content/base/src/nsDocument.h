@@ -6073,6 +6073,11 @@ aInstancePtrResult
 )
 ;
 void
+RemoveDocStyleSheetsFromStyleSets
+(
+)
+;
+void
 RemoveStyleSheetsFromStyleSets
 (
 nsCOMArray
