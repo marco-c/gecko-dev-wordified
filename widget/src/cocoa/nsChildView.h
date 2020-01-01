@@ -455,7 +455,7 @@ ACCESSIBILITY
 #
 include
 "
-nsAccessible
+nsIAccessible
 .
 h
 "
@@ -2537,12 +2537,13 @@ event
 #
 ifdef
 ACCESSIBILITY
-already_AddRefed
-<
-nsAccessible
->
+void
 GetDocumentAccessible
 (
+nsIAccessible
+*
+*
+aAccessible
 )
 ;
 #
