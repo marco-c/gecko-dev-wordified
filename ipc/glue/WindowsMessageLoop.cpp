@@ -1047,6 +1047,12 @@ PRUnichar
 *
 kAppShellEventId
 ;
+#
+if
+defined
+(
+ACCESSIBILITY
+)
 /
 /
 pulled
@@ -1062,6 +1068,8 @@ PRUnichar
 *
 kPropNameTabContent
 ;
+#
+endif
 namespace
 {
 const
@@ -2611,6 +2619,12 @@ return
 false
 ;
 }
+#
+if
+defined
+(
+ACCESSIBILITY
+)
 /
 /
 Tab
@@ -2649,6 +2663,8 @@ return
 false
 ;
 }
+#
+endif
 /
 /
 Common
