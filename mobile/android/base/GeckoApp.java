@@ -3318,6 +3318,12 @@ opened
 if
 (
 mLayerView
+!
+=
+null
+&
+&
+mLayerView
 .
 isFullScreen
 (
