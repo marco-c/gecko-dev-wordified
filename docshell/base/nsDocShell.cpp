@@ -13481,7 +13481,6 @@ InitAsSessionStorage
 (
 aPrincipal
 aDocumentURI
-mInPrivateBrowsing
 )
 ;
 if
@@ -27000,9 +26999,8 @@ mScriptGlobal
 win
 -
 >
-SetDocShell
+DetachFromDocShell
 (
-nsnull
 )
 ;
 mScriptGlobal

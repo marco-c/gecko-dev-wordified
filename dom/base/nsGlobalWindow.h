@@ -1881,6 +1881,12 @@ aDocShell
 )
 ;
 virtual
+void
+DetachFromDocShell
+(
+)
+;
+virtual
 NS_HIDDEN_
 (
 nsresult
@@ -4604,7 +4610,7 @@ CleanUp
 |
 and
 |
-SetDocShell
+DetachFromDocShell
 |
 .
 /
