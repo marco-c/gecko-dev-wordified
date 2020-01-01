@@ -1786,6 +1786,10 @@ MozURLProperty
 )
 DOMCI_CLASS
 (
+MozBlobBuilder
+)
+DOMCI_CLASS
+(
 DOMStringMap
 )
 /
