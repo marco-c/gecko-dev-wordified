@@ -3875,6 +3875,13 @@ PRUint64
 aObj
 )
 ;
+if
+(
+gfxUtils
+:
+:
+sDumpPaintFile
+)
 fprintf
 (
 gfxUtils
@@ -3913,6 +3920,13 @@ gfxUtils
 sDumpPaintFile
 )
 ;
+if
+(
+gfxUtils
+:
+:
+sDumpPaintFile
+)
 fprintf
 (
 gfxUtils
