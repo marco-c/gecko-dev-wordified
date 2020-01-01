@@ -5065,7 +5065,7 @@ Length
 }
 friend
 class
-GeneralPattern
+CanvasGeneralPattern
 ;
 friend
 class
