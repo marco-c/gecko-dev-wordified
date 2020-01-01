@@ -8766,6 +8766,12 @@ aBody
 )
 |
 |
+JS_IsArrayBufferViewObject
+(
+aBody
+)
+|
+|
 file
 :
 :
