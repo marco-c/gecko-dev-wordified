@@ -2611,12 +2611,6 @@ mVisible
 /
 XXX
 leaking
-nsCOMPtr
-<
-nsIObserver
->
-mChildHost
-;
 RenderFrameParent
 *
 mCurrentRemoteFrame
