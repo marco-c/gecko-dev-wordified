@@ -578,6 +578,9 @@ css
 /
 namespace
 mozilla
+struct
+TreeMatchContext
+;
 /
 *
 *
@@ -1488,6 +1491,9 @@ nsIContent
 >
 &
 aVisibleKidsOfHiddenElement
+TreeMatchContext
+&
+aTreeMatchContext
 )
 ;
 }

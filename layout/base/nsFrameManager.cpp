@@ -838,6 +838,13 @@ nsFrameManager
 h
 "
 #
+include
+"
+nsRuleProcessorData
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #
@@ -6843,6 +6850,9 @@ nsIContent
 >
 &
 aVisibleKidsOfHiddenElement
+TreeMatchContext
+&
+aTreeMatchContext
 )
 {
 if
@@ -7735,6 +7745,7 @@ aRestyleHint
 aRestyleTracker
 aDesiredA11yNotifications
 aVisibleKidsOfHiddenElement
+aTreeMatchContext
 )
 ;
 /
@@ -8244,6 +8255,7 @@ ProbePseudoElementStyle
 element
 pseudoType
 parentContext
+aTreeMatchContext
 )
 ;
 if
@@ -8375,6 +8387,7 @@ ResolveStyleFor
 (
 element
 parentContext
+aTreeMatchContext
 )
 ;
 }
@@ -9139,6 +9152,7 @@ AsElement
 (
 )
 newContext
+aTreeMatchContext
 )
 ;
 }
@@ -10476,6 +10490,7 @@ childRestyleHint
 aRestyleTracker
 kidsDesiredA11yNotification
 aVisibleKidsOfHiddenElement
+aTreeMatchContext
 )
 ;
 }
@@ -10525,6 +10540,7 @@ childRestyleHint
 aRestyleTracker
 kidsDesiredA11yNotification
 aVisibleKidsOfHiddenElement
+aTreeMatchContext
 )
 ;
 }
@@ -10554,6 +10570,7 @@ childRestyleHint
 aRestyleTracker
 kidsDesiredA11yNotification
 aVisibleKidsOfHiddenElement
+aTreeMatchContext
 )
 ;
 }
@@ -10986,6 +11003,22 @@ PropertyTable
 (
 )
 ;
+TreeMatchContext
+treeMatchContext
+(
+PR_TRUE
+nsRuleWalker
+:
+:
+eRelevantLinkUnvisited
+mPresShell
+-
+>
+GetDocument
+(
+)
+)
+;
 nsTArray
 <
 nsIContent
@@ -11038,6 +11071,7 @@ eRestyle_Self
 aRestyleTracker
 eSendAllNotifications
 visibleKidsOfHiddenElement
+treeMatchContext
 )
 ;
 NS_UpdateHint
