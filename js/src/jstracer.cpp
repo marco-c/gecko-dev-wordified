@@ -27417,6 +27417,10 @@ VMSideExit
 exit
 )
 {
+VOUCH_DOES_NOT_REQUIRE_STACK
+(
+)
+;
 void
 *
 mark
