@@ -998,13 +998,6 @@ gBrowser
 selectedBrowser
 .
 parentNode
-requestAnimationFrame
-:
-this
-.
-chromeWindow
-.
-mozRequestAnimationFrame
 notifications
 :
 this

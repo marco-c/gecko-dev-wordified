@@ -125,11 +125,6 @@ gBrowser
 selectedBrowser
 .
 parentNode
-requestAnimationFrame
-:
-window
-.
-mozRequestAnimationFrame
 inspectorUI
 :
 window

@@ -247,7 +247,7 @@ controller
 .
 arcball
 .
-_resetInterval
+_resetInProgress
 "
 Highlighting
 a
