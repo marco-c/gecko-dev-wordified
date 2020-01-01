@@ -159,12 +159,6 @@ atBodyLevel
 return
 !
 topStmt
-|
-|
-topStmt
--
->
-isFunctionBodyBlock
 ;
 }
 inline
