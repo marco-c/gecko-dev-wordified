@@ -563,7 +563,7 @@ BOOL
 WINAPI
 DllMain
 (
-HINSTANCE
+HANDLE
 hDllHandle
 DWORD
 nReason
