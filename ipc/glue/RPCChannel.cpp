@@ -3573,6 +3573,7 @@ AssertIOThread
 (
 )
 ;
+{
 MutexAutoLock
 lock
 (
@@ -3641,6 +3642,7 @@ NotifyWorkerThread
 (
 )
 ;
+}
 AsyncChannel
 :
 :
