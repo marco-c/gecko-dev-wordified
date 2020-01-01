@@ -861,6 +861,22 @@ systemlibs
 .
 js
 '
+        
+'
+worker_buf
+.
+js
+'
+:
+'
+modules
+/
+workers
+/
+worker_buf
+.
+js
+'
     
 }
     
@@ -2968,6 +2984,24 @@ _check
 (
 '
 ril_consts
+.
+js
+'
+)
+    
+def
+test_worker_buf
+(
+self
+)
+:
+        
+self
+.
+_check
+(
+'
+worker_buf
 .
 js
 '
