@@ -20868,6 +20868,9 @@ MozRequestAnimationFrame
 nsIFrameRequestCallback
 *
 aCallback
+PRInt32
+*
+aHandle
 )
 {
 FORWARD_TO_INNER
@@ -20875,6 +20878,7 @@ FORWARD_TO_INNER
 MozRequestAnimationFrame
 (
 aCallback
+aHandle
 )
 NS_ERROR_NOT_INITIALIZED
 )
@@ -20899,16 +20903,15 @@ return
 NS_ERROR_XPC_BAD_CONVERT_JS
 ;
 }
+return
 mDoc
 -
 >
 ScheduleFrameRequestCallback
 (
 aCallback
+aHandle
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
