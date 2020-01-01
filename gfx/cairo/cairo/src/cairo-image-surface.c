@@ -6023,7 +6023,6 @@ rects
 height
 )
 return
-CAIRO_STATUS_SUCCESS
 ;
 row
 =
