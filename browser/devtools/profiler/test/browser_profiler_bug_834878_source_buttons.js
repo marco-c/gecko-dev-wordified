@@ -113,6 +113,10 @@ panel
 displaySource
 (
 data
+)
+.
+then
+(
 function
 onOpen
 (
@@ -235,6 +239,10 @@ panel
 displaySource
 (
 data
+)
+.
+then
+(
 function
 onOpenAgain
 (
