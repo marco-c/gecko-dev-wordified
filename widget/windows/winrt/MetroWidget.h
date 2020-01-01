@@ -486,6 +486,16 @@ MetroWidget
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
+static
+HWND
+GetICoreWindowHWND
+(
+)
+{
+return
+sICoreHwnd
+;
+}
 /
 /
 nsWindowBase
@@ -1489,6 +1499,10 @@ mIdleService
 ;
 HWND
 mWnd
+;
+static
+HWND
+sICoreHwnd
 ;
 WNDPROC
 mMetroWndProc

@@ -798,6 +798,9 @@ eventOption
 )
 ;
 }
+/
+/
+static
 void
 MetroAppShell
 :
@@ -815,6 +818,9 @@ CoreProcessEventsOption_ProcessOneIfPresent
 )
 ;
 }
+/
+/
+static
 void
 MetroAppShell
 :
