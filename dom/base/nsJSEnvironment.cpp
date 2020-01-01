@@ -8423,6 +8423,13 @@ options
 JS_SetOptions
 (
 mContext
+:
+:
+JS_GetOptions
+(
+mContext
+)
+|
 mDefaultJSOptions
 )
 ;
@@ -19500,6 +19507,13 @@ OptionsProperties
 JS_SetOptions
 (
 mContext
+:
+:
+JS_GetOptions
+(
+mContext
+)
+|
 mDefaultJSOptions
 )
 ;
