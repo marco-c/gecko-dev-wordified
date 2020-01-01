@@ -955,7 +955,7 @@ direction
 Overscroll
 DisplacementWillOverscroll
 (
-int32_t
+float
 aDisplacement
 )
 ;
@@ -997,7 +997,7 @@ apply
 float
 DisplacementWillOverscrollAmount
 (
-int32_t
+float
 aDisplacement
 )
 ;

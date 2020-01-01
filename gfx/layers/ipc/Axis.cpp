@@ -1442,7 +1442,7 @@ Axis
 :
 DisplacementWillOverscroll
 (
-int32_t
+float
 aDisplacement
 )
 {
@@ -1562,7 +1562,7 @@ Axis
 :
 DisplacementWillOverscrollAmount
 (
-int32_t
+float
 aDisplacement
 )
 {
