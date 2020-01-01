@@ -859,6 +859,12 @@ nonNull
 )
 {
 }
+Entry
+*
+entry
+;
+protected
+:
 Ptr
 (
 Entry
@@ -873,10 +879,6 @@ entry
 )
 {
 }
-Entry
-*
-entry
-;
 public
 :
 bool
