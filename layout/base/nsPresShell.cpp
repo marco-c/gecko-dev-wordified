@@ -32940,16 +32940,12 @@ DeleteAll
 )
 ;
 }
-static
 bool
+PresShell
+:
+:
 AssumeAllImagesVisible
 (
-nsPresContext
-*
-aPresContext
-nsIDocument
-*
-aDocument
 )
 {
 static
@@ -32999,11 +32995,11 @@ sImageVisibilityEnabled
 |
 |
 !
-aPresContext
+mPresContext
 |
 |
 !
-aDocument
+mDocument
 )
 return
 true
@@ -33038,7 +33034,7 @@ them
 .
 if
 (
-aPresContext
+mPresContext
 -
 >
 Type
@@ -33052,7 +33048,7 @@ nsPresContext
 eContext_PrintPreview
 |
 |
-aPresContext
+mPresContext
 -
 >
 Type
@@ -33066,7 +33062,7 @@ nsPresContext
 eContext_Print
 |
 |
-aPresContext
+mPresContext
 -
 >
 IsChrome
@@ -33074,7 +33070,7 @@ IsChrome
 )
 |
 |
-aDocument
+mDocument
 -
 >
 IsResourceDoc
@@ -33082,7 +33078,7 @@ IsResourceDoc
 )
 |
 |
-aDocument
+mDocument
 -
 >
 IsXUL
@@ -33110,8 +33106,6 @@ if
 (
 AssumeAllImagesVisible
 (
-mPresContext
-mDocument
 )
 )
 return
@@ -33252,8 +33246,6 @@ if
 (
 AssumeAllImagesVisible
 (
-mPresContext
-mDocument
 )
 )
 {
@@ -33457,8 +33449,6 @@ if
 (
 AssumeAllImagesVisible
 (
-mPresContext
-mDocument
 )
 )
 {

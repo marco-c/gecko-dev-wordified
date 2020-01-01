@@ -1952,6 +1952,13 @@ aImage
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+AssumeAllImagesVisible
+(
+)
+MOZ_OVERRIDE
+;
 protected
 :
 virtual
