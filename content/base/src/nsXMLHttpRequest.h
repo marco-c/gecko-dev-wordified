@@ -824,10 +824,10 @@ InitParameters
 (
 aParams
 .
-mozAnon
+mMozAnon
 aParams
 .
-mozSystem
+mMozSystem
 )
 ;
 return

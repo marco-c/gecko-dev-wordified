@@ -238,7 +238,7 @@ mFatal
 =
 aFatal
 .
-fatal
+mFatal
 ;
 /
 /
@@ -626,7 +626,7 @@ if
 !
 aOptions
 .
-stream
+mStream
 )
 {
 mDecoder
