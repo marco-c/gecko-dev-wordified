@@ -64,15 +64,6 @@ include
 <
 sys
 /
-types
-.
-h
->
-#
-include
-<
-sys
-/
 param
 .
 h
@@ -498,7 +489,7 @@ LaunchApp
 argv
 fds_to_remap
 env_vars_to_set
-SAME_PRIVILEGES_AS_PARENT
+PRIVILEGES_INHERIT
 wait
 process_handle
 )
@@ -1266,7 +1257,7 @@ LaunchApp
 argv
 fds_to_remap
 env_vars_to_set
-SAME_PRIVILEGES_AS_PARENT
+PRIVILEGES_INHERIT
 wait
 process_handle
 )
@@ -1529,7 +1520,7 @@ if
 privs
 =
 =
-UNPRIVILEGED
+PRIVILEGES_UNPRIVILEGED
 )
 {
 if
