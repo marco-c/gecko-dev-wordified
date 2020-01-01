@@ -1152,7 +1152,6 @@ OL
 nsAutoTArray
 <
 olState
-*
 8
 >
 mOLStateStack
