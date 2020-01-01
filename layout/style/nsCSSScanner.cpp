@@ -6376,7 +6376,7 @@ eCSSToken_Bad_String
 mReporter
 -
 >
-ReportUnexpectedToken
+ReportUnexpected
 (
 "
 SEUnterminatedString
@@ -6511,7 +6511,7 @@ message
 mReporter
 -
 >
-ReportUnexpectedToken
+ReportUnexpected
 (
 "
 SEUnterminatedString
