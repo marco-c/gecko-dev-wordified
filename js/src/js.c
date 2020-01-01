@@ -3099,7 +3099,7 @@ case
 k
 '
 :
-js_ConnectShark
+JS_ConnectShark
 (
 )
 ;

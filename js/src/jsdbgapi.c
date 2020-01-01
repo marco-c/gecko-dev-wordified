@@ -10345,11 +10345,11 @@ old
 #
 ifdef
 MOZ_SHARK
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 JSBool
 )
-js_StartChudRemote
+JS_StartChudRemote
 (
 )
 {
@@ -10381,11 +10381,11 @@ return
 JS_FALSE
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 JSBool
 )
-js_StopChudRemote
+JS_StopChudRemote
 (
 )
 {
@@ -10414,11 +10414,11 @@ return
 JS_FALSE
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 JSBool
 )
-js_ConnectShark
+JS_ConnectShark
 (
 )
 {
@@ -10458,11 +10458,11 @@ return
 JS_TRUE
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 JSBool
 )
-js_DisconnectShark
+JS_DisconnectShark
 (
 )
 {
@@ -10493,7 +10493,7 @@ JS_FRIEND_API
 (
 JSBool
 )
-StartShark
+js_StartShark
 (
 JSContext
 *
@@ -10514,7 +10514,7 @@ rval
 if
 (
 !
-js_StartChudRemote
+JS_StartChudRemote
 (
 )
 )
@@ -10539,7 +10539,7 @@ JS_FRIEND_API
 (
 JSBool
 )
-StopShark
+js_StopShark
 (
 JSContext
 *
@@ -10560,7 +10560,7 @@ rval
 if
 (
 !
-js_StopChudRemote
+JS_StopChudRemote
 (
 )
 )
@@ -10585,7 +10585,7 @@ JS_FRIEND_API
 (
 JSBool
 )
-ConnectShark
+js_ConnectShark
 (
 JSContext
 *
@@ -10606,7 +10606,7 @@ rval
 if
 (
 !
-js_ConnectShark
+JS_ConnectShark
 (
 )
 )
@@ -10632,7 +10632,7 @@ JS_FRIEND_API
 (
 JSBool
 )
-DisconnectShark
+js_DisconnectShark
 (
 JSContext
 *
@@ -10653,7 +10653,7 @@ rval
 if
 (
 !
-js_DisconnectShark
+JS_DisconnectShark
 (
 )
 )
