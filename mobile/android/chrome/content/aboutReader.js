@@ -436,14 +436,6 @@ false
 ;
 this
 .
-_scrollOffset
-=
-window
-.
-pageYOffset
-;
-this
-.
 _frame
 .
 contentDocument
@@ -1168,7 +1160,6 @@ Reader
 :
 FaviconReturn
 "
-false
 )
 ;
 this
