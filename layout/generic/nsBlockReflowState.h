@@ -897,6 +897,9 @@ PlaceBelowCurrentLineFloats
 nsFloatCacheFreeList
 &
 aFloats
+nsLineBox
+*
+aLine
 )
 ;
 /
