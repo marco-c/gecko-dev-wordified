@@ -481,11 +481,6 @@ callee
 nonLazyScript
 (
 )
-.
-get
-(
-nogc
-)
 )
 ;
 ;
@@ -600,11 +595,6 @@ callee
 .
 nonLazyScript
 (
-)
-.
-get
-(
-nogc
 )
 )
 ;

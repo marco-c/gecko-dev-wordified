@@ -3379,14 +3379,7 @@ inline
 js
 :
 :
-Return
-<
-js
-:
-:
-BaseShape
-*
->
+UnrootedBaseShape
 js_NewGCBaseShape
 (
 JSContext

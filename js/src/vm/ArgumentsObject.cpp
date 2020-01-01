@@ -386,10 +386,7 @@ ArgumentsData
 data
 )
 {
-AutoAssertNoGC
-nogc
-;
-RawScript
+UnrootedScript
 script
 =
 fp
@@ -397,11 +394,6 @@ fp
 >
 script
 (
-)
-.
-get
-(
-nogc
 )
 ;
 if

@@ -2616,11 +2616,6 @@ fun
 nonLazyScript
 (
 )
-.
-get
-(
-nogc
-)
 chunk
 )
 ;

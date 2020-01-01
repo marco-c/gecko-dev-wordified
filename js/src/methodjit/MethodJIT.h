@@ -1097,11 +1097,7 @@ inlining
 *
 /
 inline
-Return
-<
-JSScript
-*
->
+UnrootedScript
 script
 (
 )
@@ -6190,11 +6186,7 @@ pc
 ;
 }
 inline
-Return
-<
-JSScript
-*
->
+UnrootedScript
 VMFrame
 :
 :

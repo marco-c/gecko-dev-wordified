@@ -3167,11 +3167,7 @@ clearForBackEnd
 (
 )
 ;
-Return
-<
-JSScript
-*
->
+UnrootedScript
 script
 (
 )
@@ -3179,6 +3175,10 @@ const
 {
 return
 script_
+.
+get
+(
+)
 ;
 }
 CodeGenerator

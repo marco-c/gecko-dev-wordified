@@ -8030,8 +8030,7 @@ stepperCount
 =
 0
 ;
-JSScript
-*
+UnrootedScript
 trappingScript
 =
 fp
@@ -8039,11 +8038,6 @@ fp
 >
 script
 (
-)
-.
-get
-(
-nogc
 )
 ;
 GlobalObject
@@ -23827,7 +23821,7 @@ fp
 AutoAssertNoGC
 nogc
 ;
-RawScript
+UnrootedScript
 script
 =
 fp
@@ -23835,11 +23829,6 @@ fp
 >
 script
 (
-)
-.
-get
-(
-nogc
 )
 ;
 jsbytecode

@@ -6198,11 +6198,6 @@ f
 script
 (
 )
-.
-get
-(
-nogc
-)
 )
 ;
 f
@@ -9487,8 +9482,7 @@ jpc
 =
 pc
 ;
-JSScript
-*
+UnrootedScript
 script
 =
 f
@@ -9500,11 +9494,6 @@ fp
 >
 script
 (
-)
-.
-get
-(
-nogc
 )
 ;
 /
@@ -11795,7 +11784,7 @@ fun
 (
 )
 ;
-RawScript
+UnrootedScript
 script
 =
 fun
@@ -11803,11 +11792,6 @@ fun
 >
 nonLazyScript
 (
-)
-.
-get
-(
-nogc
 )
 ;
 /
@@ -12196,7 +12180,7 @@ checks
 .
 *
 /
-RawScript
+UnrootedScript
 script
 =
 f
@@ -12208,11 +12192,6 @@ fp
 >
 script
 (
-)
-.
-get
-(
-nogc
 )
 ;
 JS_ASSERT

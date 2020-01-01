@@ -6564,10 +6564,6 @@ builder
 script
 (
 )
-.
-unsafeGet
-(
-)
 )
 ;
 if
@@ -8732,10 +8728,6 @@ fp
 script
 (
 )
-.
-unsafeGet
-(
-)
 )
 ;
 }
@@ -10897,6 +10889,9 @@ bool
 resetUses
 )
 {
+AutoAssertNoGC
+nogc
+;
 IonSpew
 (
 IonSpew_Invalidate

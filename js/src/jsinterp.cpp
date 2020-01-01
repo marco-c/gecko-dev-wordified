@@ -14653,10 +14653,6 @@ getOrCreateScript
 (
 cx
 )
-.
-unsafeGet
-(
-)
 ;
 if
 (

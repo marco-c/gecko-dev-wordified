@@ -668,8 +668,7 @@ block
 )
 const
 ;
-JSScript
-*
+UnrootedScript
 funScript
 (
 )

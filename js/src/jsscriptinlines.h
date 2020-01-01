@@ -368,7 +368,7 @@ JSOP_EVAL_LENGTH
 JSOP_LINENO
 )
 ;
-RawScript
+UnrootedScript
 script
 =
 cx
@@ -381,11 +381,6 @@ fp
 >
 script
 (
-)
-.
-get
-(
-nogc
 )
 ;
 *

@@ -7417,10 +7417,6 @@ fun
 nonLazyScript
 (
 )
-.
-unsafeGet
-(
-)
 jp
 )
 )
@@ -11737,10 +11733,6 @@ fun
 -
 >
 nonLazyScript
-(
-)
-.
-unsafeGet
 (
 )
 NULL
@@ -32391,10 +32383,6 @@ fun
 nonLazyScript
 (
 )
-.
-unsafeGet
-(
-)
 jp
 )
 )
@@ -32407,10 +32395,6 @@ fun
 -
 >
 nonLazyScript
-(
-)
-.
-unsafeGet
 (
 )
 ;
@@ -41294,10 +41278,6 @@ cx
 iter
 .
 script
-(
-)
-.
-unsafeGet
 (
 )
 current

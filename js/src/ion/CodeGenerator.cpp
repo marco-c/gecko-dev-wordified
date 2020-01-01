@@ -2241,10 +2241,6 @@ fun
 nonLazyScript
 (
 )
-.
-unsafeGet
-(
-)
 )
 Address
 (

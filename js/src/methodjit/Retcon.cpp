@@ -2588,11 +2588,6 @@ fp
 script
 (
 )
-.
-get
-(
-nogc
-)
 )
 ;
 /

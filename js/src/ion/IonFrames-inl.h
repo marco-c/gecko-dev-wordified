@@ -414,8 +414,7 @@ Ion
 frame
 .
 inline
-JSScript
-*
+UnrootedScript
 GetTopIonJSScript
 (
 JSContext

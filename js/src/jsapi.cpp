@@ -39326,11 +39326,6 @@ i
 script
 (
 )
-.
-get
-(
-nogc
-)
 ;
 if
 (
@@ -39348,11 +39343,6 @@ i
 .
 script
 (
-)
-.
-get
-(
-nogc
 )
 i
 .

@@ -399,10 +399,6 @@ getOrCreateScript
 (
 cx
 )
-.
-unsafeGet
-(
-)
 )
 return
 false
@@ -794,10 +790,6 @@ toFunction
 getOrCreateScript
 (
 cx
-)
-.
-unsafeGet
-(
 )
 )
 {

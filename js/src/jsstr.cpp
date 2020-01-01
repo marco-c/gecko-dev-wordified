@@ -15403,7 +15403,7 @@ hasScript
 return
 NULL
 ;
-RawScript
+UnrootedScript
 script
 =
 fun
@@ -15411,11 +15411,6 @@ fun
 >
 nonLazyScript
 (
-)
-.
-get
-(
-nogc
 )
 ;
 jsbytecode
