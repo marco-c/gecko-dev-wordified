@@ -118,6 +118,15 @@ h
 #
 include
 "
+mozilla
+/
+MathAlgorithms
+.
+h
+"
+#
+include
+"
 ion
 /
 arm
@@ -144,6 +153,12 @@ js
 using
 namespace
 ion
+;
+using
+mozilla
+:
+:
+Abs
 ;
 bool
 isValueDTRDCandidate
@@ -15879,8 +15894,7 @@ val
 )
 &
 &
-(
-abs
+Abs
 (
 dest
 .
@@ -15889,7 +15903,6 @@ offset
 <
 =
 255
-)
 )
 {
 Register
@@ -16070,8 +16083,7 @@ val
 )
 &
 &
-(
-abs
+Abs
 (
 addr
 .
@@ -16080,7 +16092,6 @@ offset
 <
 =
 255
-)
 )
 {
 Register
