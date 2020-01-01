@@ -9756,8 +9756,6 @@ Layer
 *
 aAfter
 )
-=
-0
 ;
 /
 *
@@ -9797,8 +9795,6 @@ Layer
 *
 aChild
 )
-=
-0
 ;
 /
 *
@@ -9875,8 +9871,6 @@ Layer
 *
 aAfter
 )
-=
-0
 ;
 /
 *
@@ -10478,6 +10472,15 @@ protected
 friend
 class
 ReadbackProcessor
+;
+static
+bool
+HasOpaqueAncestorLayer
+(
+Layer
+*
+aLayer
+)
 ;
 void
 DidInsertChild
