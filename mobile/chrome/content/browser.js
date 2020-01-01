@@ -12728,7 +12728,7 @@ CanCaptureMouse
 Return
 "
 :
-ContentTouchHandler
+this
 .
 contentMightCaptureMouse
 =
