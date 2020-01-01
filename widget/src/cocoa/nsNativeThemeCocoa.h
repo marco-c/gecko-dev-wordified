@@ -738,9 +738,6 @@ PRBool
 inIsHorizontal
 PRInt32
 inValue
-nsIFrame
-*
-aFrame
 )
 ;
 void
@@ -762,9 +759,6 @@ PRBool
 inTabBottom
 PRInt32
 inState
-nsIFrame
-*
-aFrame
 )
 ;
 void
@@ -776,9 +770,6 @@ const
 HIRect
 &
 inBoxRect
-nsIFrame
-*
-aFrame
 )
 ;
 void
@@ -804,9 +795,6 @@ PRInt32
 inMinValue
 PRInt32
 inMaxValue
-nsIFrame
-*
-aFrame
 )
 ;
 void
@@ -824,9 +812,6 @@ PRBool
 inDisabled
 PRInt32
 inState
-nsIFrame
-*
-aFrame
 )
 ;
 void
@@ -844,9 +829,6 @@ PRBool
 inDisabled
 PRInt32
 inState
-nsIFrame
-*
-aFrame
 )
 ;
 void
@@ -870,9 +852,6 @@ ThemeButtonAdornment
 inAdornment
 PRInt32
 inState
-nsIFrame
-*
-aFrame
 )
 ;
 void
@@ -894,9 +873,6 @@ ThemeButtonAdornment
 inAdornment
 PRInt32
 inState
-nsIFrame
-*
-aFrame
 )
 ;
 void
@@ -916,9 +892,6 @@ PRBool
 inDisabled
 PRInt32
 inState
-nsIFrame
-*
-aFrame
 )
 ;
 /
