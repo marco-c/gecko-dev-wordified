@@ -4475,14 +4475,6 @@ cx
 return
 false
 ;
-SkipRoot
-skip
-(
-cx
-&
-chars
-)
-;
 Rooted
 <
 Env
@@ -4556,7 +4548,11 @@ cx
 env
 thisv
 fp
+StableCharPtr
+(
 chars
+length
+)
 length
 filename
 lineno

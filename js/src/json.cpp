@@ -6052,9 +6052,7 @@ ParseJSONWithReviver
 JSContext
 *
 cx
-const
-jschar
-*
+StableCharPtr
 chars
 size_t
 length

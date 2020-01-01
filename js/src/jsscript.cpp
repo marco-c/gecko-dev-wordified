@@ -7295,6 +7295,10 @@ cached
 chars
 (
 )
+.
+get
+(
+)
 ;
 JS_ASSERT
 (
@@ -7343,9 +7347,7 @@ setSourceCopy
 JSContext
 *
 cx
-const
-jschar
-*
+StableCharPtr
 src
 uint32_t
 length
@@ -7443,6 +7445,10 @@ tok
 chars
 =
 src
+.
+get
+(
+)
 ;
 cx
 -
@@ -7468,6 +7474,10 @@ data
 .
 source
 src
+.
+get
+(
+)
 length_
 )
 ;
