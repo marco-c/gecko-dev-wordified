@@ -2558,7 +2558,7 @@ attributes
 void
 DisableComponent
 (
-int
+size_t
 stream
 int
 component_id
