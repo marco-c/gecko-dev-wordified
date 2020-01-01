@@ -937,7 +937,7 @@ sc
 GetNativeGlobal
 (
 )
-mDeviceAddresses
+mUuids
 &
 mJsDeviceAddresses
 )
@@ -956,7 +956,7 @@ NS_WARNING
 Cannot
 set
 JS
-Device
+Devices
 Addresses
 object
 !
@@ -1888,7 +1888,7 @@ else
 NS_WARNING
 (
 "
-Devices
+UUIDs
 not
 yet
 set
