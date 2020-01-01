@@ -488,6 +488,13 @@ h
 #
 include
 "
+jsstdint
+.
+h
+"
+#
+include
+"
 jslong
 .
 h

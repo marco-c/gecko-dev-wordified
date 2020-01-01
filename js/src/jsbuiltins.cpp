@@ -468,6 +468,13 @@ h
 #
 include
 "
+jsstdint
+.
+h
+"
+#
+include
+"
 jsarray
 .
 h

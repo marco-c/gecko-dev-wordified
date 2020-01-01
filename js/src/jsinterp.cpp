@@ -478,6 +478,13 @@ h
 #
 include
 "
+jsstdint
+.
+h
+"
+#
+include
+"
 jsarena
 .
 h

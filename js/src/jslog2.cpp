@@ -430,6 +430,13 @@ BLOCK
 #
 include
 "
+jsstdint
+.
+h
+"
+#
+include
+"
 jsbit
 .
 h
