@@ -13831,12 +13831,6 @@ defined
 (
 JS_CPU_X86
 )
-|
-|
-defined
-(
-JS_CPU_X64
-)
 /
 *
 Need
@@ -13848,8 +13842,6 @@ byte
 aligned
 on
 x86
-/
-x64
 .
 *
 /
@@ -13940,12 +13932,6 @@ if
 defined
 (
 JS_CPU_X86
-)
-|
-|
-defined
-(
-JS_CPU_X64
 )
 stubcc
 .
