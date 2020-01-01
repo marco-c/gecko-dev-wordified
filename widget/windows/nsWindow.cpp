@@ -54184,12 +54184,6 @@ inMsg
 =
 =
 WM_MOUSEACTIVATE
-&
-&
-popupsToRollup
-=
-=
-UINT32_MAX
 )
 {
 /
