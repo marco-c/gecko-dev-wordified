@@ -43231,7 +43231,7 @@ static
 void
 DispatchFullScreenChange
 (
-nsINode
+nsIDocument
 *
 aTarget
 )
@@ -44463,6 +44463,11 @@ true
 DispatchFullScreenChange
 (
 aElement
+-
+>
+OwnerDoc
+(
+)
 )
 ;
 }
@@ -44588,6 +44593,11 @@ true
 DispatchFullScreenChange
 (
 element
+-
+>
+OwnerDoc
+(
+)
 )
 ;
 }

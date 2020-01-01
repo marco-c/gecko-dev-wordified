@@ -12608,14 +12608,12 @@ vector
 "
 )
 ;
+js_XMLArrayCursorTrace
+(
+trc
 array
 .
 cursors
--
->
-trace
-(
-trc
 )
 ;
 return

@@ -678,7 +678,7 @@ system
 -
 display
 -
-dimmed
+off
 "
 nsnull
 )
@@ -705,7 +705,7 @@ system
 -
 display
 -
-off
+dimmed
 "
 nsnull
 )
