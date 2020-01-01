@@ -441,6 +441,15 @@ jsutil_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 js
 /
 Utility
@@ -1308,7 +1317,9 @@ AutoRefCount
 const
 AutoRefCount
 &
+other
 )
+MOZ_DELETE
 ;
 void
 operator
@@ -1317,7 +1328,9 @@ operator
 const
 AutoRefCount
 &
+other
 )
+MOZ_DELETE
 ;
 public
 :

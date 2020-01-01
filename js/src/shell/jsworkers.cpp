@@ -884,8 +884,6 @@ AllocPolicy
 class
 Queue
 {
-private
-:
 typedef
 Vector
 <
@@ -909,19 +907,13 @@ Vec
 *
 back
 ;
-/
-/
-Queue
-is
-not
-copyable
-.
 Queue
 (
 const
 Queue
 &
 )
+MOZ_DELETE
 ;
 Queue
 &
@@ -932,6 +924,7 @@ const
 Queue
 &
 )
+MOZ_DELETE
 ;
 public
 :
