@@ -1903,11 +1903,10 @@ BindingManager
 )
 -
 >
-ChangeDocumentFor
+RemovedFromDocument
 (
 elem
 ownerDoc
-nsnull
 )
 ;
 }
