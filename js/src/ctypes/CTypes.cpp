@@ -35099,10 +35099,9 @@ time
 to
 return
 .
-jsrefcount
-rc
-=
-JS_SuspendRequest
+{
+JSAutoSuspendRequest
+suspend
 (
 cx
 )
@@ -35136,12 +35135,7 @@ begin
 )
 )
 ;
-JS_ResumeRequest
-(
-cx
-rc
-)
-;
+}
 /
 /
 Small
