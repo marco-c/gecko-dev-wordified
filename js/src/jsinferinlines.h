@@ -8948,14 +8948,13 @@ TypeObject
 *
 obj
 =
-(
-TypeObject
-*
-)
 types
 -
 >
 objectSet
+[
+0
+]
 ;
 :
 :
