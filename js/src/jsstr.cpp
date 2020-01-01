@@ -4050,10 +4050,11 @@ lengthAtom
 {
 if
 (
-OBJ_GET_CLASS
-(
-cx
 obj
+-
+>
+getClass
+(
 )
 =
 =
