@@ -361,6 +361,14 @@ nsStyleContext
 aOldStyleContext
 )
 {
+nsSplittableFrame
+:
+:
+DidSetStyleContext
+(
+aOldStyleContext
+)
+;
 if
 (
 !

@@ -1316,6 +1316,14 @@ nsStyleContext
 aOldStyleContext
 )
 {
+nsContainerFrame
+:
+:
+DidSetStyleContext
+(
+aOldStyleContext
+)
+;
 if
 (
 !
