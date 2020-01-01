@@ -370,7 +370,7 @@ r
 '
 The
 error
-occured
+occurred
 in
 code
 that
