@@ -1604,8 +1604,9 @@ base
 ProcessHandle
 parentHandle
 ;
-NS_ABORT_IF_FALSE
-(
+bool
+ok
+=
 base
 :
 :
@@ -1615,6 +1616,10 @@ parentPID
 &
 parentHandle
 )
+;
+NS_ABORT_IF_FALSE
+(
+ok
 "
 can
 '
