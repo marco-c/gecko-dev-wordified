@@ -159,7 +159,7 @@ Code
 is
 *
 Boris
-Zbarskt
+Zbarsky
 <
 bzbarsky
 mit
