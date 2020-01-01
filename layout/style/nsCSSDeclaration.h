@@ -639,15 +639,6 @@ aProperty
 )
 ;
 nsresult
-AppendComment
-(
-const
-nsAString
-&
-aComment
-)
-;
-nsresult
 RemoveProperty
 (
 nsCSSProperty

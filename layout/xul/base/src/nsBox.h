@@ -789,14 +789,6 @@ nsSize
 aSize
 )
 ;
-void
-AddMargin
-(
-nsSize
-&
-aSize
-)
-;
 static
 void
 AddBorderAndPadding

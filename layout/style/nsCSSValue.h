@@ -2621,14 +2621,6 @@ NS_HIDDEN_
 (
 void
 )
-SetRectIsAutoValue
-(
-)
-;
-NS_HIDDEN_
-(
-void
-)
 StartImageLoad
 (
 nsIDocument

@@ -1300,15 +1300,6 @@ PR_FALSE
 ;
 }
 void
-SetAllCornersTo
-(
-const
-nsCSSValue
-&
-aValue
-)
-;
-void
 Reset
 (
 )

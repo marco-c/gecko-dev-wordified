@@ -500,15 +500,6 @@ AddRefAtoms
 ;
 static
 PRBool
-IsPseudoClass
-(
-nsIAtom
-*
-aAtom
-)
-;
-static
-PRBool
 HasStringArg
 (
 nsIAtom

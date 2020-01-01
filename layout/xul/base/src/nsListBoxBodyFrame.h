@@ -811,7 +811,7 @@ GetFixedRowSize
 void
 SetRowHeight
 (
-PRInt32
+nscoord
 aRowHeight
 )
 ;

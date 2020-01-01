@@ -495,14 +495,6 @@ PRBool
 aIsBogus
 )
 ;
-void
-MarkDirty
-(
-nsBoxLayoutState
-&
-aState
-)
-;
 /
 /
 accessors
