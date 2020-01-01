@@ -141,9 +141,6 @@ version
 7
 "
 >
-var
-event
-;
 function
 continueTest
 (
@@ -158,14 +155,11 @@ function
 (
 )
 {
-event
-=
-aEvent
-;
 gGen
 .
-next
+send
 (
+aEvent
 )
 ;
 }
@@ -187,7 +181,7 @@ error
 (
 "
 +
-event
+aEvent
 .
 code
 +
@@ -196,7 +190,7 @@ code
 :
 "
 +
-event
+aEvent
 .
 message
 )
@@ -281,6 +275,7 @@ thrown
 ;
 continueTest
 (
+aEvent
 )
 ;
 }
@@ -350,6 +345,9 @@ onsuccess
 =
 continueTest
 ;
+var
+event
+=
 yield
 ;
 var
@@ -408,6 +406,8 @@ onsuccess
 =
 continueTest
 ;
+event
+=
 yield
 ;
 request
@@ -431,6 +431,8 @@ onsuccess
 =
 continueTest
 ;
+event
+=
 yield
 ;
 var
@@ -472,6 +474,8 @@ onsuccess
 =
 continueTest
 ;
+event
+=
 yield
 ;
 var
@@ -502,6 +506,8 @@ onsuccess
 =
 continueTest
 ;
+event
+=
 yield
 ;
 /
@@ -552,6 +558,8 @@ onsuccess
 =
 continueTest
 ;
+event
+=
 yield
 ;
 /
@@ -589,6 +597,8 @@ onsuccess
 =
 unexpectedSuccessHandler
 ;
+event
+=
 yield
 ;
 /
