@@ -255,6 +255,12 @@ sawOOBTypedArrayWrite
 )
 const
 ;
+bool
+sawDenseWrite
+(
+)
+const
+;
 }
 ;
 class
