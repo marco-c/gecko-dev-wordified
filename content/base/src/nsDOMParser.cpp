@@ -163,6 +163,17 @@ nsPIDOMWindow
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+BindingUtils
+.
+h
+"
 using
 namespace
 mozilla

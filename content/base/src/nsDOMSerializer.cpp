@@ -128,6 +128,13 @@ nsError
 .
 h
 "
+#
+include
+"
+nsINode
+.
+h
+"
 using
 namespace
 mozilla
