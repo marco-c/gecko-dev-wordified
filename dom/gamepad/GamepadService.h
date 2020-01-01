@@ -259,6 +259,8 @@ const
 char
 *
 aID
+GamepadMappingType
+aMapping
 uint32_t
 aNumButtons
 uint32_t

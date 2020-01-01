@@ -1253,6 +1253,13 @@ AddGamepad
 mGamepad
 .
 idstring
+mozilla
+:
+:
+dom
+:
+:
+NoMapping
 mGamepad
 .
 numButtons

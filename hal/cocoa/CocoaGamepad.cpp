@@ -1086,6 +1086,13 @@ service
 AddGamepad
 (
 buffer
+mozilla
+:
+:
+dom
+:
+:
+NoMapping
 (
 int
 )
