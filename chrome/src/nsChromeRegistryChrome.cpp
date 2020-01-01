@@ -631,6 +631,13 @@ h
 #
 include
 "
+nsIResProtocolHandler
+.
+h
+"
+#
+include
+"
 nsIScriptError
 .
 h
