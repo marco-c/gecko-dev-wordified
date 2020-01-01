@@ -777,6 +777,11 @@ return
 p
 ;
 }
+size_t
+getBytesAllocated
+(
+)
+;
 protected
 :
 void
@@ -808,6 +813,9 @@ public
 Chunk
 *
 prev
+;
+size_t
+size
 ;
 int64_t
 data

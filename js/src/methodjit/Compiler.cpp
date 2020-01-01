@@ -2981,7 +2981,7 @@ size
 )
 ;
 size_t
-totalSize
+codeSize
 =
 masm
 .
@@ -3049,7 +3049,7 @@ execAlloc
 >
 alloc
 (
-totalSize
+codeSize
 &
 execPool
 )
@@ -3083,7 +3083,7 @@ ExecutableAllocator
 makeWritable
 (
 result
-totalSize
+codeSize
 )
 ;
 masm
@@ -3115,7 +3115,7 @@ LinkBuffer
 fullCode
 (
 result
-totalSize
+codeSize
 )
 ;
 JSC
@@ -3207,7 +3207,7 @@ scriptDataSize
 *
 /
 size_t
-totalBytes
+dataSize
 =
 sizeof
 (
@@ -3369,7 +3369,7 @@ cx
 >
 calloc_
 (
-totalBytes
+dataSize
 )
 ;
 if
@@ -6833,7 +6833,7 @@ jit
 )
 =
 =
-totalBytes
+dataSize
 )
 ;
 *
@@ -6859,12 +6859,10 @@ cx
 runtime
 -
 >
-mjitMemoryUsed
+mjitDataSize
 +
 =
-totalSize
-+
-totalBytes
+dataSize
 ;
 return
 Compile_Okay

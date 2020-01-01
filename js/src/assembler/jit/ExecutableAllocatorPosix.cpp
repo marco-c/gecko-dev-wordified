@@ -299,7 +299,7 @@ ExecutablePool
 :
 :
 Allocation
-ExecutablePool
+ExecutableAllocator
 :
 :
 systemAlloc
@@ -358,7 +358,7 @@ alloc
 ;
 }
 void
-ExecutablePool
+ExecutableAllocator
 :
 :
 systemRelease
@@ -407,7 +407,7 @@ void
 start
 size_t
 size
-ProtectionSeting
+ProtectionSetting
 setting
 )
 {
