@@ -542,4 +542,14 @@ Ci
 nsIURIFixup
 )
 ;
+checkService
+(
+"
+blocklist
+"
+Ci
+.
+nsIBlocklistService
+)
+;
 }
