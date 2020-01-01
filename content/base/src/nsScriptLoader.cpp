@@ -6264,9 +6264,6 @@ characterSet
 IsEmpty
 (
 )
-&
-&
-aDocument
 )
 {
 /

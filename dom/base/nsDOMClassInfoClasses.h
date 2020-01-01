@@ -1979,9 +1979,5 @@ TransitionEvent
 )
 DOMCI_CLASS
 (
-ContentFrameMessageManager
-)
-DOMCI_CLASS
-(
 FormData
 )
