@@ -389,7 +389,7 @@ anonymousVar
 =
 fooScope
 .
-addVar
+addItem
 (
 )
 ;
@@ -407,7 +407,7 @@ barVar
 =
 anonymousScope
 .
-addVar
+addItem
 (
 "
 bar
@@ -419,7 +419,7 @@ bazProperty
 =
 barVar
 .
-addProperty
+addItem
 (
 "
 baz

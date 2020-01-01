@@ -166,7 +166,7 @@ testVar
 =
 testScope
 .
-addVar
+addItem
 (
 "
 foo
@@ -175,7 +175,7 @@ foo
 ;
 testVar
 .
-addProperties
+addItems
 (
 {
 foo

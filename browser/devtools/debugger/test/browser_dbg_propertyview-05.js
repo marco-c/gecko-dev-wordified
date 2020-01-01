@@ -164,7 +164,7 @@ testVar
 =
 testScope
 .
-addVar
+addItem
 (
 "
 something
@@ -369,7 +369,7 @@ correctly
 ;
 testVar
 .
-addProperties
+addItems
 (
 {
 "
@@ -437,7 +437,7 @@ tree
 ;
 testVar
 .
-addProperties
+addItems
 (
 {
 "
@@ -506,7 +506,7 @@ tree
 ;
 testVar
 .
-addProperties
+addItems
 (
 {
 "
@@ -593,7 +593,7 @@ tree
 ;
 testVar
 .
-addProperties
+addItems
 (
 {
 "
