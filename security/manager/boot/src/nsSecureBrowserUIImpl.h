@@ -455,7 +455,6 @@ nsIRequest
 aRequest
 )
 ;
-static
 nsresult
 MapInternalToExternalState
 (
