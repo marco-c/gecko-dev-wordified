@@ -1236,6 +1236,10 @@ ci
 nsIInterfaceRequestor
 *
 callbacks
+uint32_t
+caps
+=
+0
 )
 {
 return
@@ -1246,6 +1250,7 @@ SpeculativeConnect
 (
 ci
 callbacks
+caps
 )
 ;
 }
