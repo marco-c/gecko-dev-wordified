@@ -2775,6 +2775,16 @@ MutableHandleValue
 rval
 )
 ;
+bool
+RunOnceScriptPrologue
+(
+JSContext
+*
+cx
+HandleScript
+script
+)
+;
 }
 /
 *

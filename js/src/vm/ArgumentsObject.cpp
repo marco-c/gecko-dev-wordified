@@ -2490,6 +2490,7 @@ argsobj
 .
 setElement
 (
+cx
 arg
 vp
 )
@@ -3359,6 +3360,7 @@ argsobj
 >
 setElement
 (
+cx
 arg
 vp
 )
