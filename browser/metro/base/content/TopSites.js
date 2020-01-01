@@ -2617,13 +2617,15 @@ aValue
 )
 {
 }
-onPageExpired
+onDeleteVisits
 :
 function
 (
 aURI
 aVisitTime
-aWholeEntry
+aGUID
+aReason
+aTransitionType
 )
 {
 }
