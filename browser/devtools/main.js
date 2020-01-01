@@ -945,6 +945,8 @@ browser
 /
 content
 /
+devtools
+/
 debugger
 .
 xul
@@ -1235,6 +1237,8 @@ browser
 /
 content
 /
+devtools
+/
 styleeditor
 .
 xul
@@ -1378,6 +1382,8 @@ chrome
 browser
 /
 content
+/
+devtools
 /
 profiler
 .

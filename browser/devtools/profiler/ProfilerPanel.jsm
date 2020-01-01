@@ -540,8 +540,6 @@ setAttribute
 src
 "
 "
-devtools
-/
 cleopatra
 .
 html

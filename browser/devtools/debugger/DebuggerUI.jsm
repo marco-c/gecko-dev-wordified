@@ -150,6 +150,8 @@ browser
 /
 content
 /
+devtools
+/
 debugger
 .
 xul
