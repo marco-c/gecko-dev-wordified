@@ -793,8 +793,9 @@ below
 "
 )
 ;
-finishTest
+executeSoon
 (
+finishTest
 )
 ;
 }

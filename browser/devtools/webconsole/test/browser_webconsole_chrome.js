@@ -615,7 +615,7 @@ completion
 "
 )
 ;
-finishTest
+finish
 (
 )
 ;
