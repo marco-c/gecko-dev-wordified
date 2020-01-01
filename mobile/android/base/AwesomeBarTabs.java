@@ -4477,13 +4477,6 @@ getDrawableFromDataURI
 iconURI
 )
 ;
-if
-(
-drawable
-!
-=
-null
-)
 faviconView
 .
 setImageDrawable
