@@ -638,7 +638,7 @@ pn
 >
 pn_atom
 =
-js_AtomizeString
+AtomizeString
 (
 cx
 str
@@ -1687,7 +1687,7 @@ pn1
 >
 pn_atom
 =
-js_AtomizeString
+AtomizeString
 (
 cx
 accum
@@ -2010,7 +2010,7 @@ pn1
 >
 pn_atom
 =
-js_AtomizeString
+AtomizeString
 (
 cx
 accum
@@ -4553,7 +4553,7 @@ pn
 >
 pn_atom
 =
-js_AtomizeString
+AtomizeString
 (
 cx
 str
@@ -4731,7 +4731,7 @@ pn
 >
 pn_atom
 =
-js_AtomizeString
+AtomizeString
 (
 cx
 str

@@ -19727,7 +19727,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 name

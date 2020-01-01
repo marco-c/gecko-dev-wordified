@@ -370,9 +370,6 @@ DetachEditor
 NS_IMETHOD
 BeforeEdit
 (
-nsEditor
-:
-:
 OperationID
 action
 nsIEditor
@@ -385,9 +382,6 @@ aDirection
 NS_IMETHOD
 AfterEdit
 (
-nsEditor
-:
-:
 OperationID
 action
 nsIEditor
@@ -717,9 +711,6 @@ methods
 nsresult
 WillInsertText
 (
-nsEditor
-:
-:
 OperationID
 aAction
 mozilla
@@ -1486,9 +1477,6 @@ the
 caret
 first
 .
-nsEditor
-:
-:
 OperationID
 mTheAction
 ;
@@ -1528,9 +1516,6 @@ public
 :
 nsTextRulesInfo
 (
-nsEditor
-:
-:
 OperationID
 aAction
 )

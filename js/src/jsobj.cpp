@@ -22314,7 +22314,7 @@ RootedAtom
 atom
 (
 cx
-js_Atomize
+Atomize
 (
 cx
 clasp
@@ -25503,7 +25503,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 clasp

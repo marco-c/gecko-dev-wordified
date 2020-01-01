@@ -1138,7 +1138,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 name
@@ -1874,7 +1874,7 @@ Bug
 :
 instead
 of
-js_Atomize
+Atomize
 lookup
 constant
 atoms
@@ -1887,7 +1887,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 s
@@ -2680,7 +2680,7 @@ Bug
 :
 instead
 of
-js_Atomize
+Atomize
 lookup
 constant
 atoms
@@ -2693,7 +2693,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 name

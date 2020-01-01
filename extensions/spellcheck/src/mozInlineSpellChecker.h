@@ -158,7 +158,7 @@ h
 #
 include
 "
-nsIEditor
+nsEditor
 .
 h
 "
@@ -232,7 +232,7 @@ aSpellChecker
 nsresult
 InitForEditorChange
 (
-PRInt32
+OperationID
 aAction
 nsIDOMNode
 *
@@ -387,13 +387,13 @@ eOpChange
 for
 SpellCheckAfterChange
 except
-kOpDeleteSelection
+deleteSelection
 eOpChangeDelete
 /
 /
 for
 SpellCheckAfterChange
-kOpDeleteSelection
+deleteSelection
 eOpNavigation
 /
 /

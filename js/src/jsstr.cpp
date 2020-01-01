@@ -9827,7 +9827,7 @@ fm
 .
 patstr
 =
-js_AtomizeString
+AtomizeString
 (
 cx
 arg
@@ -12451,7 +12451,7 @@ else
 {
 atom
 =
-js_AtomizeString
+AtomizeString
 (
 cx
 str

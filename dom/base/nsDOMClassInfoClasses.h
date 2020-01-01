@@ -1510,6 +1510,10 @@ DOMCI_CLASS
 (
 DeviceStorageCursor
 )
+DOMCI_CLASS
+(
+DeviceStorageStat
+)
 /
 /
 Geolocation

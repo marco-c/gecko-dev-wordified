@@ -378,6 +378,9 @@ mQueuedViewportEvent
 bool
 mAllowCoalescingNextDraw
 ;
+bool
+mAllowCoalescingTouches
+;
 nsTArray
 <
 mozilla
