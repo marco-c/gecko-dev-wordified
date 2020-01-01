@@ -4489,11 +4489,6 @@ MarkChanged
 CGImageRef
 image
 ;
-CGImageRef
-subimage
-=
-NULL
-;
 image
 =
 GetImageFromSourceSurface
@@ -4631,11 +4626,6 @@ image
 CGContextRestoreGState
 (
 mCg
-)
-;
-CGImageRelease
-(
-subimage
 )
 ;
 }
