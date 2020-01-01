@@ -148,6 +148,9 @@ nsChildView
 class
 nsMenuBarX
 ;
+class
+ChildView
+;
 /
 /
 Value
@@ -1067,6 +1070,13 @@ NSColor
 *
 mBackgroundColor
 ;
+NSView
+*
+mTitlebarView
+;
+/
+/
+strong
 }
 /
 /
@@ -1164,6 +1174,13 @@ setDrawsContentsIntoWindowFrame
 BOOL
 )
 aState
+;
+-
+(
+ChildView
+*
+)
+mainChildView
 ;
 end
 class
