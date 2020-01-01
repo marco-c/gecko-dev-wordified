@@ -1301,6 +1301,11 @@ nsresult
 aStatus
 )
 ;
+void
+OnUnlockedDraw
+(
+)
+;
 nsresult
 OnImageIsAnimated
 (
