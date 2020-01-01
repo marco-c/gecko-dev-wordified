@@ -14755,13 +14755,15 @@ outer_dn
 pn_dflags
 |
 =
-(
 dn
 -
 >
 pn_dflags
 &
 ~
+(
+PND_FORWARD
+|
 PND_PLACEHOLDER
 )
 ;
