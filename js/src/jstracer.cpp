@@ -6615,6 +6615,8 @@ argv
 ]
 )
 <
+size_t
+(
 2
 /
 *
@@ -6630,6 +6632,7 @@ fun
 -
 >
 nargs
+)
 )
 RETURN
 (
