@@ -177,13 +177,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 gfxTypes
 .
 h
