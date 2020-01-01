@@ -1890,6 +1890,11 @@ nsIRunnable
 aRunnable
 )
 ;
+PRBool
+IsCanceledNoLock
+(
+)
+;
 private
 :
 /
