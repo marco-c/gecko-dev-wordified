@@ -2980,7 +2980,7 @@ String
 #
 ifdef
 MOZ_JAVA_COMPOSITOR
-jLayerView
+jFlexSurfaceView
 =
 (
 jclass
@@ -3004,7 +3004,7 @@ gecko
 /
 gfx
 /
-LayerView
+FlexibleGLSurfaceView
 "
 )
 )
@@ -7911,7 +7911,7 @@ env
 >
 GetStaticMethodID
 (
-jLayerView
+jFlexSurfaceView
 "
 registerCxxCompositor
 "
@@ -7939,7 +7939,7 @@ env
 >
 CallStaticObjectMethod
 (
-jLayerView
+jFlexSurfaceView
 registerCompositor
 )
 ;
