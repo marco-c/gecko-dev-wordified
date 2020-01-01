@@ -459,6 +459,15 @@ jsl
 GetHandler
 (
 )
+.
+Ptr
+(
+)
+-
+>
+Callable
+(
+)
 ;
 if
 (
