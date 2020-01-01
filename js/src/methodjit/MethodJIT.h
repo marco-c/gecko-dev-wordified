@@ -1654,6 +1654,8 @@ void
 *
 p
 size_t
+oldBytes
+size_t
 bytes
 )
 {
@@ -1666,6 +1668,7 @@ ContextAllocPolicy
 realloc_
 (
 p
+oldBytes
 bytes
 )
 )
