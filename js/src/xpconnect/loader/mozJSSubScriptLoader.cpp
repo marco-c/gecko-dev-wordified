@@ -2506,6 +2506,17 @@ cx
 mozJSLoaderErrorReporter
 )
 ;
+{
+JSVersion
+version
+=
+cx
+-
+>
+findVersion
+(
+)
+;
 if
 (
 charset
@@ -2572,7 +2583,7 @@ return_exception
 }
 ok
 =
-JS_EvaluateUCScriptForPrincipals
+JS_EvaluateUCScriptForPrincipalsVersion
 (
 cx
 target_obj
@@ -2602,6 +2613,7 @@ get
 )
 1
 rval
+version
 )
 ;
 }
@@ -2609,7 +2621,7 @@ else
 {
 ok
 =
-JS_EvaluateScriptForPrincipals
+JS_EvaluateScriptForPrincipalsVersion
 (
 cx
 target_obj
@@ -2623,8 +2635,10 @@ get
 )
 1
 rval
+version
 )
 ;
+}
 }
 if
 (
