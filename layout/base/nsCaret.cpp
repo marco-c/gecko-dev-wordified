@@ -7672,7 +7672,7 @@ popups
 popMgr
 -
 >
-GetOpenPopups
+GetVisiblePopups
 (
 )
 ;

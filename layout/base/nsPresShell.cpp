@@ -34167,7 +34167,7 @@ popups
 pm
 -
 >
-GetOpenPopups
+GetVisiblePopups
 (
 )
 ;
