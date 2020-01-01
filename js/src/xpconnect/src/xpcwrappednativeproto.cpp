@@ -929,9 +929,9 @@ XPCWrappedNativeProto
 :
 SystemIsBeingShutDown
 (
-XPCCallContext
-&
-ccx
+JSContext
+*
+cx
 )
 {
 /
@@ -1010,7 +1010,7 @@ future
 finalization
 JS_SetPrivate
 (
-ccx
+cx
 mJSProtoObject
 nsnull
 )
