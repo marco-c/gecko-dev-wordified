@@ -3684,8 +3684,6 @@ state
 String
 typeHint
 String
-modeHint
-String
 actionHint
 boolean
 landscapeFS
@@ -3739,14 +3737,6 @@ surfaceView
 mIMETypeHint
 =
 typeHint
-;
-GeckoApp
-.
-surfaceView
-.
-mIMEModeHint
-=
-modeHint
 ;
 GeckoApp
 .

@@ -1797,9 +1797,6 @@ aContext
 mHTMLInputType
 aContext
 .
-mHTMLInputInputmode
-aContext
-.
 mActionHint
 static_cast
 <

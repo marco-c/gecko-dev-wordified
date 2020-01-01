@@ -12506,9 +12506,6 @@ aContext
 mHTMLInputType
 aContext
 .
-mHTMLInputInputmode
-aContext
-.
 mActionHint
 )
 ;
