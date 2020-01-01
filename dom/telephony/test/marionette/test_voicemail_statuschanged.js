@@ -769,6 +769,8 @@ headers
 {
 id
 :
+RIL
+.
 PDU_IEI_SPECIAL_SMS_MESSAGE_INDICATION
 length
 :
@@ -776,6 +778,8 @@ length
 octets
 :
 [
+RIL
+.
 PDU_MWI_STORE_TYPE_DISCARD
 MWI_LEVEL3_ACTIVE_UDH_MSG_COUNT
 ]
@@ -896,6 +900,8 @@ headers
 {
 id
 :
+RIL
+.
 PDU_IEI_SPECIAL_SMS_MESSAGE_INDICATION
 length
 :
@@ -903,6 +909,8 @@ length
 octets
 :
 [
+RIL
+.
 PDU_MWI_STORE_TYPE_DISCARD
 0
 /
