@@ -493,10 +493,6 @@ CanvasPattern
 )
 DOMCI_CLASS
 (
-TextMetrics
-)
-DOMCI_CLASS
-(
 MozCanvasPrintState
 )
 /

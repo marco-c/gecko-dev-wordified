@@ -232,6 +232,9 @@ SourceSurface
 namespace
 dom
 {
+class
+TextMetrics
+;
 extern
 const
 mozilla
@@ -1285,10 +1288,8 @@ ErrorResult
 error
 )
 ;
-already_AddRefed
-<
-nsIDOMTextMetrics
->
+TextMetrics
+*
 MeasureText
 (
 const
