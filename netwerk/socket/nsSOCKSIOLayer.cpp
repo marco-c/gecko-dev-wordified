@@ -6750,10 +6750,10 @@ layer
 ;
 if
 (
-NS_FAILED
-(
 rv
-)
+=
+=
+PR_FAILURE
 )
 {
 LOGERROR
