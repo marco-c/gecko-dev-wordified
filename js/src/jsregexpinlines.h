@@ -1762,6 +1762,14 @@ getTypeCallerInitObject
 true
 )
 ;
+if
+(
+!
+type
+)
+return
+NULL
+;
 cx
 -
 >

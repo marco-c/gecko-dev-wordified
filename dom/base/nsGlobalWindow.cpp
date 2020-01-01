@@ -4251,10 +4251,11 @@ New
 (
 cx
 parent
-JS_GetPrototype
-(
-cx
 parent
+-
+>
+getProto
+(
 )
 parent
 &

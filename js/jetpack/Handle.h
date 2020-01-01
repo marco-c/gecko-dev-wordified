@@ -1245,10 +1245,11 @@ sHandle_JSClass
 )
 obj
 =
-JS_GetPrototype
-(
-cx
 obj
+-
+>
+getProto
+(
 )
 ;
 if

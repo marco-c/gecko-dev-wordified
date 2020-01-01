@@ -1376,10 +1376,11 @@ if
 (
 obj
 =
-JS_GetPrototype
-(
-cx
 obj
+-
+>
+getProto
+(
 )
 )
 )
