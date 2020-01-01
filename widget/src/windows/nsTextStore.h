@@ -933,6 +933,18 @@ ITfCompositionView
 *
 )
 ;
+protected
+:
+typedef
+mozilla
+:
+:
+widget
+:
+:
+InputContext
+InputContext
+;
 public
 :
 static
@@ -992,7 +1004,7 @@ void
 SetInputMode
 (
 const
-IMEContext
+InputContext
 &
 aContext
 )
@@ -1011,7 +1023,7 @@ SetInputModeInternal
 (
 aContext
 .
-mStatus
+mIMEEnabled
 )
 ;
 }

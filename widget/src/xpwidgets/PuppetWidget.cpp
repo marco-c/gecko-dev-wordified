@@ -2120,7 +2120,7 @@ PuppetWidget
 SetInputMode
 (
 const
-IMEContext
+InputContext
 &
 aContext
 )
@@ -2137,7 +2137,7 @@ SendSetInputMode
 (
 aContext
 .
-mStatus
+mIMEEnabled
 aContext
 .
 mHTMLInputType
@@ -2193,7 +2193,7 @@ PuppetWidget
 :
 GetInputMode
 (
-IMEContext
+InputContext
 &
 aContext
 )
@@ -2211,7 +2211,7 @@ SendGetIMEEnabled
 &
 aContext
 .
-mStatus
+mIMEEnabled
 )
 )
 return

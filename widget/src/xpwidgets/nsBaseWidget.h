@@ -1141,7 +1141,7 @@ NS_IMETHOD
 SetInputMode
 (
 const
-IMEContext
+InputContext
 &
 aContext
 )
@@ -1153,7 +1153,7 @@ NS_ERROR_NOT_IMPLEMENTED
 NS_IMETHOD
 GetInputMode
 (
-IMEContext
+InputContext
 &
 aContext
 )

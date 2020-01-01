@@ -1163,7 +1163,7 @@ NS_IMETHODIMP
 SetInputMode
 (
 const
-IMEContext
+InputContext
 &
 aContext
 )
@@ -1171,7 +1171,7 @@ aContext
 NS_IMETHODIMP
 GetInputMode
 (
-IMEContext
+InputContext
 &
 aContext
 )
@@ -1438,8 +1438,8 @@ fullscreen
 nsSizeMode
 mLastSizeMode
 ;
-IMEContext
-mIMEContext
+InputContext
+mInputContext
 ;
 /
 *

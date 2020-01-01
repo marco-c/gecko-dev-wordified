@@ -487,6 +487,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+widget
+;
 /
 *
 *
@@ -9725,10 +9732,10 @@ lVal
 aState
 !
 =
-nsIWidget
+InputContext
 :
 :
-IME_STATUS_ENABLED
+IME_ENABLED
 ;
 /
 /
