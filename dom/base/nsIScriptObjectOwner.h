@@ -815,7 +815,7 @@ adjunct
 to
 nsIScriptObjectOwner
 that
-nsIEventListenerManager
+nsEventListenerManager
 '
 s
 *

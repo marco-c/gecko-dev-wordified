@@ -953,7 +953,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -4155,7 +4155,7 @@ rv
 rv
 )
 ;
-nsIEventListenerManager
+nsEventListenerManager
 *
 elmP
 =
@@ -4330,10 +4330,8 @@ piTarget
 NS_ERROR_NULL_POINTER
 )
 ;
-nsCOMPtr
-<
-nsIEventListenerManager
->
+nsEventListenerManager
+*
 elmP
 =
 piTarget

@@ -495,7 +495,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -2194,7 +2194,7 @@ nsIDOMEventGroup
 >
 sysGroup
 ;
-nsIEventListenerManager
+nsEventListenerManager
 *
 elm
 =
@@ -2261,7 +2261,7 @@ nsIDOMEventGroup
 >
 sysGroup
 ;
-nsIEventListenerManager
+nsEventListenerManager
 *
 elm
 =
@@ -2300,7 +2300,7 @@ sysGroup
 )
 ;
 }
-nsIEventListenerManager
+nsEventListenerManager
 *
 nsSMILTimeValueSpec
 :
@@ -2429,7 +2429,7 @@ target
 return
 nsnull
 ;
-nsIEventListenerManager
+nsEventListenerManager
 *
 elm
 =

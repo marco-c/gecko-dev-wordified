@@ -686,7 +686,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -2749,9 +2749,9 @@ the
 new
 one
 .
-nsCOMPtr
+nsRefPtr
 <
-nsIEventListenerManager
+nsEventListenerManager
 >
 elm
 (

@@ -1093,7 +1093,7 @@ manager
 this
 method
 calls
-nsIEventListenerManager
+nsEventListenerManager
 :
 :
 HandleEvent

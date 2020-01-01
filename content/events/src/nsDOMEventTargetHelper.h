@@ -488,7 +488,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -696,9 +696,9 @@ NS_OK
 }
 protected
 :
-nsCOMPtr
+nsRefPtr
 <
-nsIEventListenerManager
+nsEventListenerManager
 >
 mListenerManager
 ;

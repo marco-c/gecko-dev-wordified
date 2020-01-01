@@ -480,7 +480,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "

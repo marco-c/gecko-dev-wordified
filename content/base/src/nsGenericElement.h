@@ -650,7 +650,7 @@ class
 nsIControllers
 ;
 class
-nsIEventListenerManager
+nsEventListenerManager
 ;
 class
 nsIScrollableFrame
@@ -1181,15 +1181,6 @@ full
 void
 LastRelease
 (
-)
-;
-nsresult
-GetDOM3EventTarget
-(
-nsIDOM3EventTarget
-*
-*
-aTarget
 )
 ;
 public
@@ -4986,7 +4977,7 @@ to
 produce
 a
 different
-nsIEventListenerManager
+nsEventListenerManager
 if
 *
 needed
@@ -5003,7 +4994,7 @@ virtual
 nsresult
 GetEventListenerManagerForAttr
 (
-nsIEventListenerManager
+nsEventListenerManager
 *
 *
 aManager

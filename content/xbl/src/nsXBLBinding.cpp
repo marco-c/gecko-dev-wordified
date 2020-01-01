@@ -669,7 +669,7 @@ listeners
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -795,7 +795,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -5476,7 +5476,7 @@ if
 handlerChain
 )
 {
-nsIEventListenerManager
+nsEventListenerManager
 *
 manager
 =
@@ -6391,10 +6391,8 @@ if
 handlerChain
 )
 {
-nsCOMPtr
-<
-nsIEventListenerManager
->
+nsEventListenerManager
+*
 manager
 =
 mBoundElement

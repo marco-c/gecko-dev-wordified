@@ -589,7 +589,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -929,7 +929,7 @@ NS_ENSURE_STATE
 sysGroup
 )
 ;
-nsIEventListenerManager
+nsEventListenerManager
 *
 elmP
 =
@@ -1290,10 +1290,8 @@ piTarget
 return
 ;
 }
-nsCOMPtr
-<
-nsIEventListenerManager
->
+nsEventListenerManager
+*
 elmP
 =
 piTarget

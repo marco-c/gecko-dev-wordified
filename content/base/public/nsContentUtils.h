@@ -795,7 +795,7 @@ class
 nsIJSRuntimeService
 ;
 class
-nsIEventListenerManager
+nsEventListenerManager
 ;
 class
 nsIScriptContext
@@ -6129,7 +6129,7 @@ exists
 *
 /
 static
-nsIEventListenerManager
+nsEventListenerManager
 *
 GetListenerManager
 (

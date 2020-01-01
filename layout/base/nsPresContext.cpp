@@ -789,7 +789,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -12173,7 +12173,7 @@ parentTarget
 return
 PR_FALSE
 ;
-nsIEventListenerManager
+nsEventListenerManager
 *
 manager
 =

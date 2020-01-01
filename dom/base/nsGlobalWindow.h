@@ -743,7 +743,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -5566,9 +5566,9 @@ on
 inner
 windows
 .
-nsCOMPtr
+nsRefPtr
 <
-nsIEventListenerManager
+nsEventListenerManager
 >
 mListenerManager
 ;

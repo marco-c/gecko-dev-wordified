@@ -491,7 +491,7 @@ nsXULElement_h__
 /
 XXX
 because
-nsIEventListenerManager
+nsEventListenerManager
 has
 broken
 includes
@@ -568,7 +568,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -3601,7 +3601,7 @@ virtual
 nsresult
 GetEventListenerManagerForAttr
 (
-nsIEventListenerManager
+nsEventListenerManager
 *
 *
 aManager

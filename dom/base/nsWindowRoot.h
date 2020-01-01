@@ -447,7 +447,7 @@ class
 nsIDOMEventListener
 ;
 class
-nsIEventListenerManager
+nsEventListenerManager
 ;
 class
 nsIDOMEvent
@@ -475,7 +475,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -628,9 +628,9 @@ when
 it
 dies
 .
-nsCOMPtr
+nsRefPtr
 <
-nsIEventListenerManager
+nsEventListenerManager
 >
 mListenerManager
 ;

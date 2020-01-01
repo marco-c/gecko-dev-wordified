@@ -581,7 +581,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -6406,7 +6406,7 @@ nsGenericHTMLElement
 :
 GetEventListenerManagerForAttr
 (
-nsIEventListenerManager
+nsEventListenerManager
 *
 *
 aManager
@@ -7043,7 +7043,7 @@ EventNameType_HTML
 )
 )
 {
-nsIEventListenerManager
+nsEventListenerManager
 *
 manager
 =

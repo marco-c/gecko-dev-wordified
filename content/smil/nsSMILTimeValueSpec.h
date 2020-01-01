@@ -828,7 +828,7 @@ Element
 aElement
 )
 ;
-nsIEventListenerManager
+nsEventListenerManager
 *
 GetEventListenerManager
 (
