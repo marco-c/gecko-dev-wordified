@@ -27847,8 +27847,8 @@ ResourceCache
 .
 _cached
 =
-{
-}
+[
+]
 ;
 }
 }
