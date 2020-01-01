@@ -2718,12 +2718,6 @@ self
 .
 done
 (
-DAVLocks
-[
-'
-default
-'
-]
 )
 ;
 return
