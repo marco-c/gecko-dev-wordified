@@ -877,7 +877,7 @@ if
 Social
 is
 already
-active
+enabled
 or
 we
 don
@@ -896,7 +896,7 @@ if
 (
 Social
 .
-active
+enabled
 |
 |
 !
