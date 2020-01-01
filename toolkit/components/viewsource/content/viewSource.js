@@ -2207,7 +2207,11 @@ SaveLinkTitle
 "
 null
 null
-gDocument
+window
+.
+content
+.
+document
 null
 gPageLoader
 )
