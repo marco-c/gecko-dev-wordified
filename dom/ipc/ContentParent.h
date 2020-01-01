@@ -972,6 +972,16 @@ title
 ;
 virtual
 bool
+RecvLoadURIExteneral
+(
+const
+URI
+&
+uri
+)
+;
+virtual
+bool
 RecvNotifyIME
 (
 const
