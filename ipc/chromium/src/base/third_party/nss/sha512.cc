@@ -616,6 +616,9 @@ s
 define
 PORT_Memcpy
 memcpy
+namespace
+nss
+{
 /
 *
 =
@@ -9494,6 +9497,11 @@ code
 .
 *
 /
+}
+/
+/
+namespace
+nss
 /
 *
 =
@@ -9579,6 +9587,10 @@ stdio
 .
 h
 >
+using
+namespace
+nss
+;
 static
 const
 char

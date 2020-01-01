@@ -76,6 +76,10 @@ sha256
 .
 h
 "
+using
+namespace
+nss
+;
 namespace
 base
 {

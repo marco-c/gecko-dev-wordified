@@ -646,6 +646,9 @@ time
 .
 h
 >
+namespace
+nspr
+{
 /
 *
 Implements
@@ -11015,3 +11018,8 @@ return
 PR_SUCCESS
 ;
 }
+}
+/
+/
+namespace
+nspr

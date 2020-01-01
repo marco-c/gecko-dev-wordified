@@ -465,6 +465,9 @@ blapit
 .
 h
 "
+namespace
+nss
+{
 /
 *
 *
@@ -1059,6 +1062,11 @@ SHA384Context
 src
 )
 ;
+}
+/
+/
+namespace
+nss
 #
 endif
 /
