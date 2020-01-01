@@ -513,6 +513,8 @@ to
 base
 class
 NS_FORWARD_TO_NSDOMUIEVENT
+protected
+:
 /
 /
 Specific
@@ -522,8 +524,9 @@ a
 mouse
 event
 .
-NS_IMETHOD
-GetWhich
+virtual
+nsresult
+Which
 (
 PRUint32
 *

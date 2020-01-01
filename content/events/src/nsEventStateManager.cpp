@@ -884,7 +884,7 @@ h
 #
 include
 "
-nsIDOMNSUIEvent
+nsIDOMUIEvent
 .
 h
 "
@@ -15935,7 +15935,7 @@ delta
 ?
 PRInt32
 (
-nsIDOMNSUIEvent
+nsIDOMUIEvent
 :
 :
 SCROLL_PAGE_DOWN
@@ -15943,7 +15943,7 @@ SCROLL_PAGE_DOWN
 :
 PRInt32
 (
-nsIDOMNSUIEvent
+nsIDOMUIEvent
 :
 :
 SCROLL_PAGE_UP

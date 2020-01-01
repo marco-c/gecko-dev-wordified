@@ -812,13 +812,6 @@ h
 #
 include
 "
-nsIDOMNSUIEvent
-.
-h
-"
-#
-include
-"
 nsIDOMCharacterData
 .
 h

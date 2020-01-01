@@ -492,13 +492,6 @@ h
 #
 include
 "
-nsIDOMNSUIEvent
-.
-h
-"
-#
-include
-"
 nsIDOMXULElement
 .
 h
@@ -3109,7 +3102,7 @@ mCachedModifiers
 ;
 nsCOMPtr
 <
-nsIDOMNSUIEvent
+nsIDOMUIEvent
 >
 uiEvent
 =

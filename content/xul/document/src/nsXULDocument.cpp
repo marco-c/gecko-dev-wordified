@@ -655,13 +655,6 @@ h
 #
 include
 "
-nsIDOMNSUIEvent
-.
-h
-"
-#
-include
-"
 nsIDOMXULElement
 .
 h

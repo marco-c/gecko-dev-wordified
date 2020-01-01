@@ -473,13 +473,6 @@ h
 #
 include
 "
-nsIDOMNSUIEvent
-.
-h
-"
-#
-include
-"
 nsIDOMUIEvent
 .
 h
