@@ -172,7 +172,11 @@ h
 #
 include
 "
-jsobjinlines
+jit
+/
+IonFrameIterator
+-
+inl
 .
 h
 "
