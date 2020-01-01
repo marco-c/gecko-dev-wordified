@@ -621,13 +621,6 @@ nsHashtable
 .
 h
 "
-#
-include
-"
-jsapi
-.
-h
-"
 struct
 nsNativeKeyEvent
 ;
