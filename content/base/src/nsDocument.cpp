@@ -39659,14 +39659,6 @@ nsContentUtils
 IsImageInCache
 (
 uri
-static_cast
-<
-nsIDocument
-*
->
-(
-this
-)
 )
 |
 |

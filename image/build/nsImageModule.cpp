@@ -994,7 +994,7 @@ Initialize
 imgLoader
 :
 :
-GlobalInit
+InitCache
 (
 )
 ;
