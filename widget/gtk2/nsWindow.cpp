@@ -10420,7 +10420,7 @@ gc
 =
 gdk_gc_new
 (
-GDK_ROOT_PARENT
+gdk_get_default_root_window
 (
 )
 )
@@ -10512,7 +10512,7 @@ i
 {
 gdk_draw_rectangle
 (
-GDK_ROOT_PARENT
+gdk_get_default_root_window
 (
 )
 gc
