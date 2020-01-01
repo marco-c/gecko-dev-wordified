@@ -2469,6 +2469,9 @@ public
 bool
 Initialize
 (
+JSContext
+*
+cx
 )
 ;
 JaegerCompartment
