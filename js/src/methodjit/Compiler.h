@@ -793,9 +793,6 @@ jsbytecode
 *
 pc
 ;
-uint32
-argc
-;
 DataLabelPtr
 funGuard
 ;
@@ -835,8 +832,8 @@ funObjReg
 RegisterID
 funPtrReg
 ;
-uint32
-frameDepth
+FrameSize
+frameSize
 ;
 }
 ;
@@ -1988,7 +1985,7 @@ callingNew
 )
 ;
 void
-checkCallSpeculation
+checkCallApplySpeculation
 (
 uint32
 argc

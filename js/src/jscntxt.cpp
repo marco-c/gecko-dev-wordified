@@ -2695,7 +2695,7 @@ const
 JS_ASSERT
 (
 sp
-=
+>
 =
 firstUnused
 (
