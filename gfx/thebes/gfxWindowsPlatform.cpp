@@ -1086,9 +1086,6 @@ NULL
 if
 (
 isVistaOrHigher
-&
-&
-0
 )
 {
 /
