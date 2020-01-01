@@ -855,9 +855,12 @@ jsval
 v
 )
 ;
-void
+bool
 copyTo
 (
+JSContext
+*
+cx
 nsTArray
 <
 jsval
