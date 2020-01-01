@@ -1442,7 +1442,7 @@ fName
 LoadRCDATAString
 (
 hPlug
-NS_INFO_ProductName
+NP_INFO_ProductName
 )
 ;
 info
@@ -1452,7 +1452,7 @@ fVersion
 LoadRCDATAVersion
 (
 hPlug
-NS_INFO_ProductVersion
+NP_INFO_ProductVersion
 )
 ;
 /
@@ -1480,7 +1480,7 @@ fDescription
 LoadRCDATAString
 (
 hPlug
-NS_INFO_FileDescription
+NP_INFO_FileDescription
 )
 ;
 char
@@ -1490,7 +1490,7 @@ mimeType
 LoadRCDATAString
 (
 hPlug
-NS_INFO_MIMEType
+NP_INFO_MIMEType
 )
 ;
 if
@@ -1509,7 +1509,7 @@ mimeDescription
 LoadRCDATAString
 (
 hPlug
-NS_INFO_FileOpenName
+NP_INFO_FileOpenName
 )
 ;
 if
@@ -1528,7 +1528,7 @@ extensions
 LoadRCDATAString
 (
 hPlug
-NS_INFO_FileExtents
+NP_INFO_FileExtents
 )
 ;
 if

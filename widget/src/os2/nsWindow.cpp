@@ -24205,7 +24205,7 @@ clickCount
 1
 ;
 }
-nsPluginEvent
+NPEvent
 pluginEvent
 ;
 switch
@@ -24723,7 +24723,7 @@ y
 =
 0
 ;
-nsPluginEvent
+NPEvent
 pluginEvent
 ;
 switch
