@@ -1091,8 +1091,12 @@ this
 internally
 with
 |
-aCurrentTransform
+aLayer
 |
+'
+s
+transform
+)
 .
 *
 *
@@ -1135,10 +1139,9 @@ const
 FrameMetrics
 &
 aFrame
-const
-gfx3DMatrix
-&
-aCurrentTransform
+Layer
+*
+aLayer
 gfx3DMatrix
 *
 aNewTransform

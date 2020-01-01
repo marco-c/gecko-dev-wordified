@@ -4033,11 +4033,6 @@ GetFrameMetrics
 (
 )
 aLayer
--
->
-GetTransform
-(
-)
 &
 newTransform
 )
