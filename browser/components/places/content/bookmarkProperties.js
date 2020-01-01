@@ -5079,7 +5079,7 @@ uri
 =
 PlacesUtils
 .
-_uri
+createFixedURI
 (
 value
 )
@@ -5645,7 +5645,7 @@ url
 =
 PlacesUtils
 .
-_uri
+createFixedURI
 (
 this
 .
@@ -5941,7 +5941,7 @@ feedURI
 =
 PlacesUtils
 .
-_uri
+createFixedURI
 (
 feedURIString
 )
@@ -6017,7 +6017,7 @@ newSiteURI
 =
 PlacesUtils
 .
-_uri
+createFixedURI
 (
 newSiteURIString
 )
@@ -6306,7 +6306,7 @@ uri
 =
 PlacesUtils
 .
-_uri
+createFixedURI
 (
 this
 .
@@ -6795,7 +6795,7 @@ feedURI
 =
 PlacesUtils
 .
-_uri
+createFixedURI
 (
 feedURIString
 )
@@ -6827,7 +6827,7 @@ siteURI
 =
 PlacesUtils
 .
-_uri
+createFixedURI
 (
 siteURIString
 )
