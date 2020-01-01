@@ -71,7 +71,7 @@ ContactDB
 '
 ]
 ;
-let
+const
 DEBUG
 =
 false
@@ -7684,18 +7684,6 @@ this
 substringMatching
 =
 aDigits
-;
-}
-enableDebugging
-:
-function
-(
-aEnable
-)
-{
-DEBUG
-=
-aEnable
 ;
 }
 init
