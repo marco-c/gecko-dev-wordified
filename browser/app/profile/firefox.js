@@ -2652,6 +2652,16 @@ max_entries
 50
 )
 ;
+pref
+(
+"
+browser
+.
+history_expire_days
+"
+180
+)
+;
 /
 /
 handle
