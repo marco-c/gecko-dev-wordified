@@ -148,4 +148,9 @@ KeyEvent
 event
 )
 ;
+boolean
+isIMEEnabled
+(
+)
+;
 }
