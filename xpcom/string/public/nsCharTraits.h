@@ -631,21 +631,6 @@ NS_ASSERTION
 endif
 #
 endif
-#
-ifdef
-HAVE_CPP_BOOL
-typedef
-bool
-nsCharTraits_bool
-;
-#
-else
-typedef
-PRBool
-nsCharTraits_bool
-;
-#
-endif
 /
 *
 *
@@ -1388,7 +1373,7 @@ c
 ;
 }
 static
-nsCharTraits_bool
+bool
 eq_int_type
 (
 int_type
@@ -1412,7 +1397,7 @@ char_type
 comparisons
 :
 static
-nsCharTraits_bool
+bool
 eq
 (
 char_type
@@ -1429,7 +1414,7 @@ rhs
 ;
 }
 static
-nsCharTraits_bool
+bool
 lt
 (
 char_type
@@ -2714,7 +2699,7 @@ c
 ;
 }
 static
-nsCharTraits_bool
+bool
 eq_int_type
 (
 int_type
@@ -2738,7 +2723,7 @@ char_type
 comparisons
 :
 static
-nsCharTraits_bool
+bool
 eq
 (
 char_type
@@ -2755,7 +2740,7 @@ rhs
 ;
 }
 static
-nsCharTraits_bool
+bool
 lt
 (
 char_type
