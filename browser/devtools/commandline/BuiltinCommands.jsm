@@ -79,6 +79,9 @@ EXPORTED_SYMBOLS
 "
 CmdAddonFlags
 "
+"
+CmdCommands
+"
 ]
 ;
 Cu
