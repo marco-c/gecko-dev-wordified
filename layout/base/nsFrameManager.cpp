@@ -7167,9 +7167,9 @@ ACCESSIBILITY
 PRBool
 wasFrameVisible
 =
-mPresShell
--
->
+nsIPresShell
+:
+:
 IsAccessibilityActive
 (
 )
@@ -9668,9 +9668,9 @@ split
 .
 if
 (
-mPresShell
--
->
+nsIPresShell
+:
+:
 IsAccessibilityActive
 (
 )
