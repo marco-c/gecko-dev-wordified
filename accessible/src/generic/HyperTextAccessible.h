@@ -1817,6 +1817,13 @@ aName
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+CacheChildren
+(
+)
+MOZ_OVERRIDE
+;
 /
 /
 HyperTextAccessible

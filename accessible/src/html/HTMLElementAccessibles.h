@@ -206,6 +206,10 @@ aContent
 aDoc
 )
 {
+mType
+=
+eHTMLBRType
+;
 }
 /
 /
