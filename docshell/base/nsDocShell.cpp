@@ -41357,8 +41357,6 @@ INTERNAL_LOAD_FLAGS_INHERIT_OWNER
 )
 &
 &
-(
-(
 NS_SUCCEEDED
 (
 URIInheritsSecurityContext
@@ -41371,14 +41369,6 @@ inherits
 &
 &
 inherits
-)
-|
-|
-URIIsLocalFile
-(
-aURI
-)
-)
 )
 {
 /
