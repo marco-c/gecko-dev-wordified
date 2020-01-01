@@ -3177,6 +3177,8 @@ const
 char
 *
 errorMsg
+=
+nullptr
 ;
 switch
 (
@@ -3354,6 +3356,8 @@ const
 char
 *
 errorMsg
+=
+nullptr
 ;
 switch
 (
