@@ -2098,12 +2098,12 @@ Scheme
 const
 PDU_DCS_MSG_CODING_7BITS_ALPHABET
 =
-0xF0
+0x00
 ;
 const
 PDU_DCS_MSG_CODING_8BITS_ALPHABET
 =
-0xF4
+0x04
 ;
 const
 PDU_DCS_MSG_CODING_16BITS_ALPHABET
@@ -2164,7 +2164,7 @@ faster
 /
 cheaper
 const
-alphabet_7bit
+PDU_ALPHABET_7BIT_DEFAULT
 =
 [
 "
