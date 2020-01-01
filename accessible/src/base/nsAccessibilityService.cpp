@@ -468,7 +468,7 @@ h
 #
 include
 "
-nsARIAGridAccessible
+nsARIAGridAccessibleWrap
 .
 h
 "
@@ -9602,7 +9602,7 @@ ROLE_TREE_TABLE
 newAcc
 =
 new
-nsARIAGridAccessible
+nsARIAGridAccessibleWrap
 (
 aNode
 aWeakShell
