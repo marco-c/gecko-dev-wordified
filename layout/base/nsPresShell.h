@@ -555,15 +555,6 @@ aHeight
 virtual
 NS_HIDDEN_
 (
-void
-)
-StyleChangeReflow
-(
-)
-;
-virtual
-NS_HIDDEN_
-(
 nsIPageSequenceFrame
 *
 )
