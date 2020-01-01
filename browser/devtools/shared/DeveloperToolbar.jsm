@@ -5283,7 +5283,7 @@ AVE_CHAR_WIDTH
 ;
 this
 .
-_frame
+_panel
 .
 style
 .
