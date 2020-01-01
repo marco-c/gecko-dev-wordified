@@ -564,6 +564,11 @@ GLContext
 >
 mCanvasGLContext
 ;
+void
+MakeTexture
+(
+)
+;
 GLuint
 mTexture
 ;
@@ -578,12 +583,6 @@ mGLBufferIsPremultiplied
 ;
 PRPackedBool
 mNeedsYFlip
-;
-nsRefPtr
-<
-GLContext
->
-mCanvasSurfaceAsGLContext
 ;
 }
 ;
