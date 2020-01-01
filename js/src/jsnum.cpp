@@ -603,6 +603,13 @@ h
 #
 include
 "
+jsscope
+.
+h
+"
+#
+include
+"
 jsstr
 .
 h
@@ -2469,9 +2476,10 @@ JS_TRUE
 }
 obj
 =
-JSVAL_TO_OBJECT
+JS_THIS_OBJECT
 (
-v
+cx
+vp
 )
 ;
 if

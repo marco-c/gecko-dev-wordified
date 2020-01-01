@@ -13897,15 +13897,12 @@ ScatterData
 typedef
 enum
 ScatterStatus
-ScatterStatus
-;
-enum
-ScatterStatus
 {
 SCATTER_WAIT
 SCATTER_GO
 SCATTER_CANCEL
 }
+ScatterStatus
 ;
 struct
 ScatterData
