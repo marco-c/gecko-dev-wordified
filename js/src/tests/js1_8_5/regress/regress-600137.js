@@ -78,11 +78,14 @@ in
 d
 )
 {
+(
 function
 (
 )
 {
 }
+)
+;
 }
 }
 catch
