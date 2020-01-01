@@ -3628,6 +3628,8 @@ jPoints
 2
 )
 ;
+break
+;
 }
 case
 SCREENORIENTATION_CHANGED
