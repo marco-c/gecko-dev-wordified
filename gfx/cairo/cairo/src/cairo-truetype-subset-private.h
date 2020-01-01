@@ -358,6 +358,7 @@ cairoint
 .
 h
 "
+CAIRO_BEGIN_DECLS
 #
 if
 CAIRO_HAS_FONT_SUBSET
@@ -1192,6 +1193,7 @@ endif
 CAIRO_HAS_FONT_SUBSET
 *
 /
+CAIRO_END_DECLS
 #
 endif
 /
