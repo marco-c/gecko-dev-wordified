@@ -9822,7 +9822,7 @@ GECKO_ERROR_INVALID_PARAMETER
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -34612,7 +34612,7 @@ rilRequestError
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -34622,7 +34622,7 @@ return
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -34661,7 +34661,7 @@ rilRequestError
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -34692,7 +34692,7 @@ mode
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
