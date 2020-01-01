@@ -3659,6 +3659,10 @@ NS_DISCONNECT_EVENT_HANDLER
 (
 Readystatechange
 )
+Abort
+(
+)
+;
 }
 NS_IMETHODIMP
 nsXMLHttpRequest
