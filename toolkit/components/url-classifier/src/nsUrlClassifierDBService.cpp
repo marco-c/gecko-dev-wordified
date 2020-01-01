@@ -7407,7 +7407,6 @@ numEntries
 KEY_LENGTH
 )
 >
-=
 chunk
 .
 Length
@@ -9377,6 +9376,9 @@ nsUrlClassifierEntry
 >
 entries
 ;
+nsresult
+rv
+=
 GetChunkEntries
 (
 mUpdateTable
@@ -9386,8 +9388,11 @@ chunk
 entries
 )
 ;
-nsresult
+NS_ENSURE_SUCCESS
+(
 rv
+rv
+)
 ;
 if
 (
