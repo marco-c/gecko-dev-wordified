@@ -38885,9 +38885,7 @@ javascript
 .
 options
 .
-experimental_asmjs
-"
-"
+asmjs
 in
 about
 :

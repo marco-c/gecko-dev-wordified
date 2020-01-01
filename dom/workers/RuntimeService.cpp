@@ -974,7 +974,7 @@ content
 "
 JS_OPTIONS_DOT_STR
 "
-experimental_asmjs
+asmjs
 "
 "
 dom
