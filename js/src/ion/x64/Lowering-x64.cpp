@@ -1267,12 +1267,12 @@ LIRGeneratorX64
 :
 assignSafepoint
 (
-MInstruction
-*
-mir
 LInstruction
 *
 ins
+MInstruction
+*
+mir
 )
 {
 ins

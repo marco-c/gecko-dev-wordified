@@ -547,12 +547,12 @@ ins
 bool
 assignSafepoint
 (
-MInstruction
-*
-mir
 LInstruction
 *
 ins
+MInstruction
+*
+mir
 )
 ;
 void
