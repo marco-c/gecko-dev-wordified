@@ -500,13 +500,6 @@ h
 #
 include
 "
-nsIPluginTagInfo2
-.
-h
-"
-#
-include
-"
 nsPluginsDir
 .
 h
