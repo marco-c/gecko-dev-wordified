@@ -1764,6 +1764,11 @@ mForceGDI
 :
 1
 ;
+bool
+mUnknownCMAP
+:
+1
+;
 gfxSparseBitSet
 mCharset
 ;
