@@ -6485,6 +6485,17 @@ nanojit
 :
 LIns
 *
+insImmVal
+(
+jsval
+val
+)
+;
+nanojit
+:
+:
+LIns
+*
 insImmObj
 (
 JSObject
