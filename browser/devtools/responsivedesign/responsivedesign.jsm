@@ -1406,12 +1406,7 @@ _transitionsEnabled
 true
 _floatingScrollbars
 :
-false
-/
-/
-See
-bug
-799471
+true
 get
 transitionsEnabled
 (
