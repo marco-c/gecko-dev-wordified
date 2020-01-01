@@ -8069,6 +8069,10 @@ rv
 rv
 )
 ;
+mHidden
+=
+PR_FALSE
+;
 if
 (
 mPresShell
