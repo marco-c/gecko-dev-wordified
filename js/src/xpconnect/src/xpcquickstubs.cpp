@@ -4415,7 +4415,7 @@ GetOffsets
 wrapper
 -
 >
-GetFlatJSObjectAndMark
+GetFlatJSObject
 (
 )
 iid

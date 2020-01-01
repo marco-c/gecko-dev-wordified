@@ -2307,7 +2307,7 @@ trc
 wrapper
 -
 >
-GetFlatJSObjectNoMark
+GetFlatJSObjectPreserveColor
 (
 )
 "
