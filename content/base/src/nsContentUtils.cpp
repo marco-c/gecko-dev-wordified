@@ -1618,6 +1618,14 @@ nsAutoGCRoot
 :
 sJSScriptRuntime
 ;
+PRUint32
+nsMutationGuard
+:
+:
+sMutationCount
+=
+0
+;
 PRBool
 nsContentUtils
 :

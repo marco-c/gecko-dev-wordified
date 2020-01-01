@@ -550,6 +550,13 @@ nsISelectControlFrame
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 /
 /
 PresState
