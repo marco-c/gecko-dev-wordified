@@ -3635,12 +3635,6 @@ GetCurrentImgFrame
 (
 )
 ;
-imgFrame
-*
-GetCurrentDrawableImgFrame
-(
-)
-;
 uint32_t
 GetCurrentImgFrameIndex
 (
