@@ -1004,6 +1004,15 @@ profile
 profile
 )
 ;
+SetAllocatedString
+(
+webShellAppData
+-
+>
+name
+profile
+)
+;
 nsCOMPtr
 <
 nsIFile
