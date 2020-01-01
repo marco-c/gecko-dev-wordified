@@ -4948,6 +4948,8 @@ isDigiNotarIssuedCert
 =
 true
 ;
+break
+;
 }
 }
 if
