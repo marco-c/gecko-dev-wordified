@@ -3331,6 +3331,14 @@ nsCycleCollector_shutdown
 (
 )
 ;
+SAMPLE_MARKER
+(
+"
+Shutdown
+xpcom
+"
+)
+;
 mozilla
 :
 :

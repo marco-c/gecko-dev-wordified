@@ -5458,6 +5458,14 @@ DoShutdown
 (
 )
 ;
+SAMPLE_MARKER
+(
+"
+Shutdown
+early
+"
+)
+;
 WriteConsoleLog
 (
 )
