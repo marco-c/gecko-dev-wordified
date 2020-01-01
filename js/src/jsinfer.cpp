@@ -13159,6 +13159,14 @@ types
 return
 AmbiguousDoubleConversion
 ;
+types
+-
+>
+addFreeze
+(
+cx
+)
+;
 /
 /
 We
