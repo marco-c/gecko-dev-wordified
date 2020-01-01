@@ -1310,6 +1310,8 @@ TypedRegisterSet
 uint32
 bits_
 ;
+public
+:
 explicit
 TypedRegisterSet
 (
@@ -1323,8 +1325,6 @@ bits
 )
 {
 }
-public
-:
 TypedRegisterSet
 (
 )
