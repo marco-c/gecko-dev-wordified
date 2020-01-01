@@ -6517,6 +6517,16 @@ return
 true
 ;
 }
+if
+(
+JS_IsExceptionPending
+(
+cx
+)
+)
+return
+false
+;
 /
 /
 Even
