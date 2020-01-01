@@ -1637,6 +1637,8 @@ bool
 entry
 unsigned
 patchIndex
+Uses
+uses
 )
 {
 RestoreInvariantCall
@@ -1680,6 +1682,7 @@ frame
 .
 getTemporaryCopies
 (
+uses
 )
 ;
 restoreInvariantCalls

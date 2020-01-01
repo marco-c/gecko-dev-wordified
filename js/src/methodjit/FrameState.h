@@ -6507,6 +6507,7 @@ which
 ;
 /
 *
+*
 Return
 NULL
 or
@@ -6519,6 +6520,17 @@ current
 copies
 of
 temporaries
+*
+excluding
+those
+about
+to
+be
+popped
+per
+'
+uses
+'
 .
 *
 /
@@ -6529,6 +6541,8 @@ TemporaryCopy
 *
 getTemporaryCopies
 (
+Uses
+uses
 )
 ;
 inline
