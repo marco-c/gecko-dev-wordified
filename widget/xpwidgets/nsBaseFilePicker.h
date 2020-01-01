@@ -239,6 +239,14 @@ aFlag
 )
 ;
 NS_IMETHOD
+GetMode
+(
+int16_t
+*
+aMode
+)
+;
+NS_IMETHOD
 GetDomfile
 (
 nsIDOMFile

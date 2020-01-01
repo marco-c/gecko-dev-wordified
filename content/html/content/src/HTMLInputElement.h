@@ -7381,8 +7381,6 @@ aInput
 nsIFilePicker
 *
 aFilePicker
-bool
-aMulti
 )
 ;
 virtual
@@ -7414,9 +7412,6 @@ nsRefPtr
 HTMLInputElement
 >
 mInput
-;
-bool
-mMulti
 ;
 }
 ;
