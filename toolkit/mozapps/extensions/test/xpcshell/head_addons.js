@@ -4318,14 +4318,13 @@ indexOf
 (
 aProperty
 )
-!
+=
 =
 -
 1
 )
-ok
+do_throw
 (
-false
 "
 Did
 not

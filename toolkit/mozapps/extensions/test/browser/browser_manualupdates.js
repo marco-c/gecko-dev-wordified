@@ -98,7 +98,9 @@ version
 "
 applyBackgroundUpdates
 :
-true
+AddonManager
+.
+AUTOUPDATE_ENABLE
 }
 ]
 )
@@ -228,7 +230,9 @@ version
 "
 applyBackgroundUpdates
 :
-false
+AddonManager
+.
+AUTOUPDATE_DISABLE
 }
 ]
 )
@@ -357,7 +361,9 @@ addons
 .
 applyBackgroundUpdates
 =
-false
+AddonManager
+.
+AUTOUPDATE_DISABLE
 ;
 }
 false
@@ -372,7 +378,9 @@ addons
 .
 applyBackgroundUpdates
 =
-true
+AddonManager
+.
+AUTOUPDATE_ENABLE
 ;
 }
 )

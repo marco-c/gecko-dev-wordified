@@ -99,7 +99,9 @@ version
 "
 applyBackgroundUpdates
 :
-false
+AddonManager
+.
+AUTOUPDATE_DISABLE
 }
 {
 id
@@ -127,7 +129,9 @@ version
 "
 applyBackgroundUpdates
 :
-false
+AddonManager
+.
+AUTOUPDATE_DISABLE
 }
 ]
 )
