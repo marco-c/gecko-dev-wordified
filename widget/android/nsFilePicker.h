@@ -469,13 +469,6 @@ mode
 )
 ;
 NS_IMETHOD
-AppendFilters
-(
-PRInt32
-aFilterMask
-)
-;
-NS_IMETHOD
 AppendFilter
 (
 const
@@ -584,10 +577,7 @@ nsString
 mFilePath
 ;
 nsString
-mExtensionsFilter
-;
-nsString
-mMimeTypeFilter
+mFilters
 ;
 }
 ;
