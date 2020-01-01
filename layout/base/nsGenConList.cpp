@@ -714,7 +714,7 @@ and
 otherwise
 .
 inline
-PRBool
+PRInt32
 PseudoCompareType
 (
 nsIFrame

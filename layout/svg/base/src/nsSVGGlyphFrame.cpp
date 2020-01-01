@@ -7260,7 +7260,7 @@ gfx
 textRun
 )
 return
-NS_ERROR_OUT_OF_MEMORY
+PR_FALSE
 ;
 nsresult
 rv

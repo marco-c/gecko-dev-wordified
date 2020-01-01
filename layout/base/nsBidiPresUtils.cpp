@@ -7900,6 +7900,8 @@ hints
 PRBool
 isBidiSystem
 =
+!
+!
 (
 hints
 &
@@ -8260,6 +8262,8 @@ charType
 {
 isBidiSystem
 =
+!
+!
 (
 hints
 &

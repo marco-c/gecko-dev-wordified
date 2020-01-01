@@ -28066,7 +28066,7 @@ NSIntPixelsToAppUnits
 aAppUnitsPerCSSPixel
 )
 ;
-PRBool
+PRUint8
 ridgeGroove
 =
 NS_STYLE_BORDER_STYLE_RIDGE
