@@ -1011,7 +1011,7 @@ BAILOUT_RETURN_BOUNDS_CHECK
 static
 const
 uint32
-BAILOUT_RETURN_INVALIDATE
+BAILOUT_RETURN_SHAPE_GUARD
 =
 7
 ;
@@ -1600,7 +1600,7 @@ BoundsCheckFailure
 )
 ;
 uint32
-ForceInvalidation
+ShapeGuardFailure
 (
 )
 ;

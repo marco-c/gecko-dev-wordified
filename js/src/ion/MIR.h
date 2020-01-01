@@ -20546,6 +20546,11 @@ setMovable
 (
 )
 ;
+setResultType
+(
+MIRType_Object
+)
+;
 }
 public
 :

@@ -3825,7 +3825,7 @@ Equal
 ReturnReg
 Imm32
 (
-BAILOUT_RETURN_INVALIDATE
+BAILOUT_RETURN_SHAPE_GUARD
 )
 &
 invalidate
@@ -3899,7 +3899,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-ForceInvalidation
+ShapeGuardFailure
 )
 )
 ;
