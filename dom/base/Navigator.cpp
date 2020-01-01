@@ -5615,6 +5615,9 @@ mWindow
 NS_ENSURE_TRUE
 (
 win
+&
+&
+win
 -
 >
 GetDocShell
