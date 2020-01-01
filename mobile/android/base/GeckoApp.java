@@ -11181,6 +11181,17 @@ LayoutParams
 FLAG_FULLSCREEN
 )
 ;
+if
+(
+Build
+.
+VERSION
+.
+SDK_INT
+>
+=
+11
+)
 window
 .
 getDecorView
