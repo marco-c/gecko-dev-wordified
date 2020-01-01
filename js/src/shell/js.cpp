@@ -32097,6 +32097,15 @@ script
 true
 )
 ;
+op
+.
+setArgCapturesRest
+(
+"
+scriptArgs
+"
+)
+;
 switch
 (
 op
