@@ -2625,15 +2625,6 @@ port
 coordinates
 *
 /
-/
-*
-Used
-by
-MAC
-only
-.
-*
-/
 #
 if
 defined
