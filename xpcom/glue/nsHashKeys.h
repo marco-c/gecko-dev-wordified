@@ -1161,8 +1161,11 @@ aKey
 )
 {
 return
+PLDHashNumber
+(
 *
 aKey
+)
 ;
 }
 enum
