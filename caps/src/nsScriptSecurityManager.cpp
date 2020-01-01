@@ -12005,6 +12005,11 @@ param
 "
 )
 ;
+*
+rv
+=
+NS_OK
+;
 if
 (
 !
@@ -12069,11 +12074,6 @@ JS_GetFunctionScript
 cx
 fun
 )
-;
-*
-rv
-=
-NS_OK
 ;
 if
 (
