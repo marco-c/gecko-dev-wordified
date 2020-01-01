@@ -141,6 +141,9 @@ mozilla
 namespace
 widget
 {
+struct
+MSGResult
+;
 class
 WindowHook
 {
@@ -387,8 +390,8 @@ WPARAM
 wParam
 LPARAM
 lParam
-LRESULT
-*
+MSGResult
+&
 aResult
 )
 ;

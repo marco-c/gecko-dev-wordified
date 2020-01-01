@@ -5174,8 +5174,8 @@ false
 mOnDestroyCalled
 )
 {
-LRESULT
-result
+MSGResult
+msgResult
 ;
 mWindowHook
 .
@@ -5185,8 +5185,7 @@ mWnd
 WM_DESTROY
 0
 0
-&
-result
+msgResult
 )
 ;
 OnDestroy
@@ -30759,10 +30758,7 @@ mWnd
 aMessage
 aWParam
 aLParam
-&
 aResult
-.
-mResult
 )
 )
 {
