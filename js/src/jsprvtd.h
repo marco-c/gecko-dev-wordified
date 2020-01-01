@@ -903,6 +903,11 @@ JSSharpObjectMap
 ;
 typedef
 struct
+JSEmptyScope
+JSEmptyScope
+;
+typedef
+struct
 JSTempValueRooter
 JSTempValueRooter
 ;

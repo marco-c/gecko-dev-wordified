@@ -11360,10 +11360,11 @@ false
 else
 if
 (
+!
 scope
 -
 >
-owned
+isSharedEmpty
 (
 )
 )
@@ -21937,10 +21938,11 @@ else
 {
 JS_ASSERT
 (
+!
 scope
 -
 >
-owned
+isSharedEmpty
 (
 )
 )

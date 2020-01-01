@@ -602,11 +602,10 @@ this
 ;
 if
 (
-!
 scope
 -
 >
-owned
+isSharedEmpty
 (
 )
 )

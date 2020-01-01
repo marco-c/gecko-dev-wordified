@@ -2182,10 +2182,11 @@ updated
 /
 JS_ASSERT
 (
+!
 scope
 -
 >
-owned
+isSharedEmpty
 (
 )
 )

@@ -4863,6 +4863,10 @@ deallocatorThread
 ;
 #
 endif
+JSEmptyScope
+*
+emptyBlockScope
+;
 /
 *
 *
