@@ -729,6 +729,12 @@ factory
 )
 ;
 static
+void
+CleanupD2D
+(
+)
+;
+static
 TemporaryRef
 <
 ID2D1StrokeStyle
