@@ -521,6 +521,9 @@ class
 BrowserStreamParent
 ;
 class
+PluginModuleParent
+;
+class
 PluginInstanceParent
 :
 public
