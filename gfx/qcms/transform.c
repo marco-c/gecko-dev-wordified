@@ -5269,10 +5269,12 @@ a
 >
 1
 .
+f
 )
 return
 1
 .
+f
 ;
 else
 if
@@ -5281,10 +5283,12 @@ a
 <
 0
 .
+f
 )
 return
 0
 .
+f
 ;
 else
 return
