@@ -5934,6 +5934,11 @@ wrapper
 )
 )
 ;
+NotifyGCNukeWrapper
+(
+wrapper
+)
+;
 NukeSlot
 (
 wrapper
@@ -5999,6 +6004,14 @@ JSSLOT_PROXY_EXTRA
 1
 NullValue
 (
+)
+)
+;
+JS_ASSERT
+(
+IsDeadProxyObject
+(
+wrapper
 )
 )
 ;
