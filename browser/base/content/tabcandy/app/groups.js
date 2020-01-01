@@ -2085,11 +2085,11 @@ chrome
 :
 /
 /
+browser
+/
+skin
+/
 tabcandy
-/
-content
-/
-img
 /
 stack
 -
