@@ -4535,6 +4535,9 @@ p
 JS_SetGCZeal
 (
 cx
+(
+uint8
+)
 zeal
 freq
 !
