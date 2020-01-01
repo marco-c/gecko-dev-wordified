@@ -3793,6 +3793,14 @@ menuseparator_copy_location
 menuitem_copyLocation
 "
 ]
+/
+/
+DOWNLOAD_SCANNING
+[
+"
+menuitem_copyLocation
+"
+]
 ]
 ;
 function
