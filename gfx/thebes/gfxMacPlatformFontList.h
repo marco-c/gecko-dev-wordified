@@ -600,6 +600,11 @@ PRUint8
 aBuffer
 )
 ;
+PRBool
+IsCFF
+(
+)
+;
 protected
 :
 /
@@ -649,6 +654,12 @@ mATSFontRefInitialized
 ;
 PRPackedBool
 mRequiresAAT
+;
+PRPackedBool
+mIsCFF
+;
+PRPackedBool
+mIsCFFInitialized
 ;
 }
 ;
