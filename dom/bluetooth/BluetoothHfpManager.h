@@ -379,6 +379,9 @@ int
 mCurrentVgs
 ;
 int
+mCurrentVgm
+;
+int
 mCurrentCallIndex
 ;
 bool
