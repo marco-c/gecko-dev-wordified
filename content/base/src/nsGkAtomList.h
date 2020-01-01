@@ -12084,6 +12084,17 @@ nsRect
 *
 GK_ATOM
 (
+preTransformBBoxProperty
+"
+PreTransformBBoxProperty
+"
+)
+/
+/
+nsRect
+*
+GK_ATOM
+(
 rowUnpaginatedHeightProperty
 "
 RowUnpaginatedHeightProperty

@@ -9073,7 +9073,7 @@ mBounds
 aFrame
 -
 >
-GetOverflowRect
+GetOverflowRectRelativeToSelf
 (
 )
 )
