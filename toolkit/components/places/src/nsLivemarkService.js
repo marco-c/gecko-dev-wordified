@@ -1750,6 +1750,10 @@ aFolderId
 feedURI
 :
 aFeedURI
+loadingId
+:
+-
+1
 }
 )
 ;
