@@ -966,6 +966,14 @@ getEventTime
 (
 )
 ;
+mMetaState
+=
+m
+.
+getMetaState
+(
+)
+;
 mP0
 =
 new
