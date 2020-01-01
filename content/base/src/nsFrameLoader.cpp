@@ -10426,7 +10426,7 @@ parent
 ContentParent
 :
 :
-GetSingleton
+GetNewOrUsed
 (
 )
 ;
