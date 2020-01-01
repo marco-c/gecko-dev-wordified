@@ -125,13 +125,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsAttrValueInlines
 .
 h

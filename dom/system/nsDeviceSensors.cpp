@@ -119,13 +119,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h
