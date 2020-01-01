@@ -2235,9 +2235,6 @@ attributes
 /
 static
 nsStateMapEntry
-nsARIAMap
-:
-:
 gWAIStateMap
 [
 ]
