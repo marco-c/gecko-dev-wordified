@@ -1166,12 +1166,13 @@ parents
 {
 if
 (
+!
 tree
 [
 guid
 ]
-&
-&
+|
+|
 tree
 [
 guid
