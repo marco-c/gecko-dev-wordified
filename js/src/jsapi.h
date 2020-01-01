@@ -1872,7 +1872,7 @@ id
 )
 =
 =
-NULL
+0
 ;
 }
 JS_PUBLIC_API
