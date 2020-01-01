@@ -142,6 +142,9 @@ DOMCursor
 class
 MobileMessageManager
 ;
+class
+SmsManager
+;
 namespace
 mobilemessage
 {
@@ -160,6 +163,16 @@ dom
 :
 :
 MobileMessageManager
+;
+friend
+class
+mozilla
+:
+:
+dom
+:
+:
+SmsManager
 ;
 public
 :

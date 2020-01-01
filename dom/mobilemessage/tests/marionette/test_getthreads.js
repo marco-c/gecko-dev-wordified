@@ -58,19 +58,19 @@ true
 )
 ;
 let
-manager
+sms
 =
 window
 .
 navigator
 .
-mozMobileMessage
+mozSms
 ;
 ok
 (
-manager
+sms
 instanceof
-MozMobileMessage
+MozSmsManager
 )
 ;
 let
@@ -370,7 +370,7 @@ messages
 let
 request
 =
-manager
+sms
 .
 getMessages
 (
@@ -482,7 +482,7 @@ return
 let
 request
 =
-manager
+sms
 .
 delete
 (
@@ -542,7 +542,7 @@ to
 body
 )
 {
-manager
+sms
 .
 onsent
 =
@@ -550,7 +550,7 @@ function
 (
 )
 {
-manager
+sms
 .
 onsent
 =
@@ -567,7 +567,7 @@ next
 let
 request
 =
-manager
+sms
 .
 send
 (
@@ -596,7 +596,7 @@ from
 body
 )
 {
-manager
+sms
 .
 onreceived
 =
@@ -604,7 +604,7 @@ function
 (
 )
 {
-manager
+sms
 .
 onreceived
 =
@@ -659,7 +659,7 @@ threads
 let
 cursor
 =
-manager
+sms
 .
 getThreads
 (

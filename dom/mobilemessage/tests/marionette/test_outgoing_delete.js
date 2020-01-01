@@ -98,13 +98,13 @@ the
 destination
 number
 let
-manager
+sms
 =
 window
 .
 navigator
 .
-mozMobileMessage
+mozSms
 ;
 let
 msgText
@@ -143,9 +143,9 @@ state
 ;
 ok
 (
-manager
+sms
 "
-mozMobileMessage
+mozSms
 "
 )
 ;
@@ -174,7 +174,7 @@ SMS
 "
 )
 ;
-manager
+sms
 .
 onsent
 =
@@ -190,6 +190,7 @@ Received
 '
 onsent
 '
+smsmanager
 event
 .
 "
@@ -379,7 +380,7 @@ smsId
 let
 requestRet
 =
-manager
+sms
 .
 send
 (
@@ -456,7 +457,7 @@ smsrequest
 returned
 false
 for
-manager
+sms
 .
 send
 "
@@ -518,7 +519,7 @@ ok
 (
 false
 "
-manager
+sms
 .
 send
 request
@@ -571,7 +572,7 @@ smsId
 let
 requestRet
 =
-manager
+sms
 .
 getMessage
 (
@@ -878,7 +879,7 @@ parameter
 let
 requestRet
 =
-manager
+sms
 .
 delete
 (
@@ -941,7 +942,7 @@ smsrequest
 returned
 false
 for
-manager
+sms
 .
 delete
 "
@@ -1003,7 +1004,7 @@ ok
 (
 false
 "
-manager
+sms
 .
 delete
 request
@@ -1056,7 +1057,7 @@ smsId
 let
 requestRet
 =
-manager
+sms
 .
 getMessage
 (
@@ -1278,7 +1279,7 @@ cleanUp
 (
 )
 {
-manager
+sms
 .
 onsent
 =

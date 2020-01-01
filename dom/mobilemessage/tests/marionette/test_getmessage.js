@@ -98,13 +98,13 @@ emulator
 s
 number
 let
-manager
+sms
 =
 window
 .
 navigator
 .
-mozMobileMessage
+mozSms
 ;
 let
 inText
@@ -187,9 +187,9 @@ state
 ;
 ok
 (
-manager
+sms
 "
-mozMobileMessage
+mozSms
 "
 )
 ;
@@ -213,7 +213,7 @@ SMS
 "
 )
 ;
-manager
+sms
 .
 onreceived
 =
@@ -230,6 +230,7 @@ Received
 '
 onreceived
 '
+smsmanager
 event
 .
 "
@@ -477,7 +478,7 @@ SMS
 "
 )
 ;
-manager
+sms
 .
 onsent
 =
@@ -493,6 +494,7 @@ Received
 '
 onsent
 '
+smsmanager
 event
 .
 "
@@ -693,7 +695,7 @@ getReceivedSms
 let
 requestRet
 =
-manager
+sms
 .
 send
 (
@@ -769,7 +771,7 @@ smsrequest
 returned
 false
 for
-manager
+sms
 .
 send
 "
@@ -831,7 +833,7 @@ ok
 (
 false
 "
-manager
+sms
 .
 send
 request
@@ -886,7 +888,7 @@ inSmsId
 let
 requestRet
 =
-manager
+sms
 .
 getMessage
 (
@@ -1248,7 +1250,7 @@ outSmsId
 let
 requestRet
 =
-manager
+sms
 .
 getMessage
 (
@@ -1607,7 +1609,7 @@ inSmsId
 let
 requestRet
 =
-manager
+sms
 .
 delete
 (
@@ -1676,7 +1678,7 @@ outSmsId
 let
 nextReqRet
 =
-manager
+sms
 .
 delete
 (
@@ -1738,7 +1740,7 @@ smsrequest
 returned
 false
 for
-manager
+sms
 .
 delete
 "
@@ -1767,7 +1769,7 @@ smsrequest
 returned
 false
 for
-manager
+sms
 .
 delete
 "
@@ -1825,7 +1827,7 @@ ok
 (
 false
 "
-manager
+sms
 .
 delete
 request
@@ -1856,7 +1858,7 @@ cleanUp
 (
 )
 {
-manager
+sms
 .
 onreceived
 =

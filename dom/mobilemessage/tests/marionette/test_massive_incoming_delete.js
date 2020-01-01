@@ -84,7 +84,7 @@ emulator
 s
 number
 let
-manager
+sms
 =
 window
 .
@@ -424,7 +424,7 @@ id
 let
 requestRet
 =
-manager
+sms
 .
 getMessage
 (
@@ -772,7 +772,7 @@ smsId
 let
 requestRet
 =
-manager
+sms
 .
 getMessage
 (
@@ -1012,9 +1012,9 @@ object
 ;
 ok
 (
-manager
+sms
 "
-mozMobileMessage
+mozSms
 "
 )
 ;
@@ -1024,7 +1024,7 @@ Callback
 for
 incoming
 sms
-manager
+sms
 .
 onreceived
 =
@@ -1041,6 +1041,7 @@ Received
 '
 onreceived
 '
+smsmanager
 event
 .
 "
@@ -1357,7 +1358,7 @@ SmsList
 let
 requestRet
 =
-manager
+sms
 .
 delete
 (
@@ -1478,7 +1479,7 @@ smsrequest
 returned
 false
 for
-manager
+sms
 .
 delete
 "
@@ -1536,7 +1537,7 @@ ok
 (
 false
 "
-manager
+sms
 .
 delete
 request
@@ -1622,7 +1623,7 @@ cleanUp
 return
 ;
 }
-manager
+sms
 .
 onreceived
 =

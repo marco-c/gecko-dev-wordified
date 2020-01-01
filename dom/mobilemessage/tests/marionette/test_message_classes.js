@@ -142,19 +142,19 @@ document
 )
 ;
 let
-manager
+sms
 =
 window
 .
 navigator
 .
-mozMobileMessage
+mozSms
 ;
 ok
 (
-manager
+sms
 instanceof
-MozMobileMessageManager
+MozSmsManager
 )
 ;
 let
@@ -474,7 +474,7 @@ do_test
 dcsIndex
 )
 {
-manager
+sms
 .
 addEventListener
 (
@@ -487,7 +487,7 @@ onReceived
 event
 )
 {
-manager
+sms
 .
 removeEventListener
 (
@@ -594,7 +594,7 @@ stored
 let
 cursor
 =
-manager
+sms
 .
 getMessages
 (
@@ -822,7 +822,7 @@ do_test
 dcsIndex
 )
 {
-manager
+sms
 .
 addEventListener
 (
@@ -835,7 +835,7 @@ onReceived
 event
 )
 {
-manager
+sms
 .
 removeEventListener
 (
@@ -1361,7 +1361,7 @@ next
 (
 )
 {
-manager
+sms
 .
 removeEventListener
 (
@@ -1444,7 +1444,7 @@ pidIndex
 ;
 }
 }
-manager
+sms
 .
 addEventListener
 (
