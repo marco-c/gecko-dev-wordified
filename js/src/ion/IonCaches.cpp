@@ -9587,8 +9587,6 @@ HandleObject
 obj
 HandleObject
 holder
-jsid
-id
 HandleShape
 shape
 )
@@ -9686,7 +9684,7 @@ JSContext
 cx
 HandleObject
 obj
-jsid
+HandleId
 id
 uint32_t
 oldSlots
@@ -10277,7 +10275,6 @@ IsPropertySetterCallInlineable
 cx
 obj
 holder
-id
 shape
 )
 )
