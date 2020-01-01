@@ -25839,7 +25839,10 @@ jschar
 *
 js_strdup
 (
-JSContext
+js
+:
+:
+ThreadSafeContext
 *
 cx
 const

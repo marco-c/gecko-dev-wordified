@@ -3609,14 +3609,14 @@ return
 source
 -
 >
-hasSourceMap
+hasSourceMapURL
 (
 )
 ?
 source
 -
 >
-sourceMap
+sourceMapURL
 (
 )
 :

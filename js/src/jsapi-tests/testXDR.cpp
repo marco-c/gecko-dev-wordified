@@ -1867,7 +1867,7 @@ scriptSource
 )
 -
 >
-setSourceMap
+setSourceMapURL
 (
 cx
 expected
@@ -1907,7 +1907,7 @@ scriptSource
 )
 -
 >
-hasSourceMap
+hasSourceMapURL
 (
 )
 )
@@ -1925,7 +1925,7 @@ scriptSource
 )
 -
 >
-sourceMap
+sourceMapURL
 (
 )
 ;
