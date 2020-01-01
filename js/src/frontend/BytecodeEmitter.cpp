@@ -15572,7 +15572,7 @@ space
 .
 *
 /
-moz_NEVER_INLINE
+MOZ_NEVER_INLINE
 static
 JSBool
 EmitSwitch
