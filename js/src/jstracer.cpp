@@ -60480,6 +60480,17 @@ cond
 =
 true
 ;
+if
+(
+JSVAL_IS_NULL
+(
+l
+)
+)
+op
+=
+LIR_peq
+;
 }
 else
 if
