@@ -596,7 +596,7 @@ PR_TRUE
 )
 mPrintPageDelay
 (
-500
+50
 )
 mPaperData
 (
