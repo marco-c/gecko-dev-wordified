@@ -464,13 +464,6 @@ nsHTMLMediaElement
 .
 h
 "
-#
-include
-"
-nsVideoDecoder
-.
-h
-"
 class
 nsHTMLVideoElement
 :
@@ -617,11 +610,6 @@ GetVideoSize
 (
 nsIntSize
 defaultSize
-)
-;
-double
-GetVideoFramerate
-(
 )
 ;
 protected
