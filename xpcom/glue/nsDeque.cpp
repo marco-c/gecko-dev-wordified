@@ -1229,15 +1229,6 @@ GrowCapacity
 )
 )
 {
-NS_WARNING
-(
-"
-out
-of
-memory
-"
-)
-;
 return
 *
 this
