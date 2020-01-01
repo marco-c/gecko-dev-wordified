@@ -446,6 +446,7 @@ nsRuleData
 *
 aRuleData
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -465,6 +466,7 @@ aIndent
 0
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif

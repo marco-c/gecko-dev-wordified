@@ -102,6 +102,15 @@ HTMLFrameSetElement_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLFrameSetElement
 .
 h
@@ -701,6 +710,7 @@ aValue
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -862,6 +872,7 @@ nsAttrValue
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsChangeHint
@@ -875,6 +886,7 @@ int32_t
 aModType
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -889,6 +901,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -896,6 +909,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
+MOZ_OVERRIDE
 {
 return
 this

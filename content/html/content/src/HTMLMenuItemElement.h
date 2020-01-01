@@ -102,6 +102,15 @@ mozilla_dom_HTMLMenuItemElement_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLMenuItemElement
 .
 h
@@ -204,6 +213,7 @@ nsEventChainPreVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -213,6 +223,7 @@ nsEventChainPostVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -230,6 +241,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -248,12 +260,14 @@ nsAttrValue
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 DoneCreatingElement
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -268,6 +282,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -275,6 +290,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -608,6 +624,7 @@ aValue
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 void
 WalkRadioGroup

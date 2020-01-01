@@ -121,6 +121,15 @@ AbstractMediaDecoder_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -970,6 +979,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 mDecoder
 -

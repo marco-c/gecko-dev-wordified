@@ -104,6 +104,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 SVGTests
@@ -222,6 +231,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -232,6 +242,7 @@ aDeep
 bool
 aNullParent
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -245,6 +256,7 @@ aAttribute
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -254,6 +266,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -276,6 +289,7 @@ nsAttrValue
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -293,6 +307,7 @@ aValue
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 bool
 PassesConditionalProcessingTests
@@ -585,6 +600,7 @@ Element
 *
 aTo
 )
+MOZ_OVERRIDE
 {
 nsReferencedElement
 :
@@ -630,6 +646,7 @@ bool
 IsPersistent
 (
 )
+MOZ_OVERRIDE
 {
 return
 true

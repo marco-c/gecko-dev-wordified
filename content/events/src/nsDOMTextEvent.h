@@ -102,6 +102,15 @@ nsDOMTextEvent_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsDOMUIEvent
 .
 h
@@ -168,6 +177,7 @@ nsString
 &
 aText
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -179,6 +189,7 @@ nsIPrivateTextRangeList
 GetInputRange
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :

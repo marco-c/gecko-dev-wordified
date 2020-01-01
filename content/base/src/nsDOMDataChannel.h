@@ -122,6 +122,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 DataChannelBinding
@@ -491,6 +500,7 @@ nsACString
 &
 aMessage
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -504,6 +514,7 @@ nsACString
 &
 aMessage
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -526,6 +537,7 @@ nsISupports
 *
 aContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -535,6 +547,7 @@ nsISupports
 *
 aContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

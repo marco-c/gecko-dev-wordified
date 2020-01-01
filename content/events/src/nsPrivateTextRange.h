@@ -161,6 +161,7 @@ uint16_t
 *
 aRangeStart
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetRangeEnd
@@ -169,6 +170,7 @@ uint16_t
 *
 aRangeEnd
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetRangeType
@@ -177,6 +179,7 @@ uint16_t
 *
 aRangeType
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetRangeStyle
@@ -185,6 +188,7 @@ nsTextRangeStyle
 *
 aRangeStyle
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -242,6 +246,7 @@ uint16_t
 GetLength
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -255,6 +260,7 @@ Item
 uint16_t
 aIndex
 )
+MOZ_OVERRIDE
 ;
 protected
 :

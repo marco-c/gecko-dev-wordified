@@ -286,6 +286,7 @@ CallArgs
 &
 aArgs
 )
+MOZ_OVERRIDE
 ;
 typedef
 nsIDOMBlob
@@ -350,6 +351,7 @@ nsAString
 &
 aContentType
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSize
@@ -357,6 +359,7 @@ GetSize
 uint64_t
 *
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetInternalStream
@@ -365,6 +368,7 @@ nsIInputStream
 *
 *
 )
+MOZ_OVERRIDE
 ;
 static
 nsresult
@@ -504,6 +508,7 @@ GetSubBlobs
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 &

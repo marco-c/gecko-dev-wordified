@@ -2693,6 +2693,7 @@ nsILoadGroup
 *
 aLoadGroup
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -2708,6 +2709,7 @@ nsIPrincipal
 *
 aPrincipal
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -2777,6 +2779,7 @@ aContentSink
 =
 nullptr
 )
+MOZ_OVERRIDE
 =
 0
 ;
@@ -2785,6 +2788,7 @@ void
 StopDocumentLoad
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -2793,6 +2797,7 @@ NotifyPossibleTitleChange
 bool
 aBoundTitleElement
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -2802,6 +2807,7 @@ nsIURI
 *
 aURI
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -2825,6 +2831,7 @@ nsIPrincipal
 *
 aPrincipal
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -2881,6 +2888,7 @@ nsAString
 &
 aContentType
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -2890,6 +2898,7 @@ nsIURI
 *
 aURI
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -2918,6 +2927,7 @@ nsAString
 &
 aBaseTarget
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -2959,6 +2969,7 @@ nsACString
 &
 aCharSetID
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -2985,6 +2996,7 @@ nsIObserver
 *
 aObserver
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -3005,6 +3017,7 @@ nsIObserver
 *
 aObserver
 )
+MOZ_OVERRIDE
 ;
 virtual
 Element
@@ -3022,6 +3035,7 @@ aData
 bool
 aForImage
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3038,6 +3052,7 @@ aData
 bool
 aForImage
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -3077,6 +3092,7 @@ nsAString
 aData
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3090,6 +3106,7 @@ nsAString
 &
 aData
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -3156,6 +3173,7 @@ void
 DeleteShell
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -3165,6 +3183,7 @@ bool
 *
 aAllowPlugins
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -3180,6 +3199,7 @@ UndoManager
 GetUndoManager
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -3192,6 +3212,7 @@ nsIDocument
 *
 aSubDoc
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIDocument
@@ -3203,6 +3224,7 @@ nsIContent
 aContent
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 Element
@@ -3214,6 +3236,7 @@ nsIDocument
 aDocument
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 Element
@@ -3222,6 +3245,7 @@ GetRootElementInternal
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 *
@@ -3251,6 +3275,7 @@ GetNumberOfStyleSheets
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIStyleSheet
@@ -3261,6 +3286,7 @@ int32_t
 aIndex
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -3271,6 +3297,7 @@ nsIStyleSheet
 aSheet
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3280,6 +3307,7 @@ nsIStyleSheet
 *
 aSheet
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3289,6 +3317,7 @@ nsIStyleSheet
 *
 aSheet
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3307,6 +3336,7 @@ nsIStyleSheet
 &
 aNewSheets
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3336,6 +3366,7 @@ aSheet
 int32_t
 aIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3347,6 +3378,7 @@ aSheet
 bool
 aApplicable
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -3354,6 +3386,7 @@ GetNumberOfCatalogStyleSheets
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIStyleSheet
@@ -3364,6 +3397,7 @@ int32_t
 aIndex
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3373,6 +3407,7 @@ nsCSSStyleSheet
 *
 aSheet
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3383,6 +3418,7 @@ char
 *
 aStyleSheetURI
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -3394,6 +3430,7 @@ nsIURI
 *
 aSheetURI
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3405,6 +3442,7 @@ nsIURI
 *
 sheetURI
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIStyleSheet
@@ -3412,6 +3450,7 @@ nsIStyleSheet
 FirstAdditionalAuthorSheet
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIChannel
@@ -3420,6 +3459,7 @@ GetChannel
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mChannel
@@ -3457,6 +3497,7 @@ GetInlineStyleSheet
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mStyleAttrStyleSheet
@@ -3510,6 +3551,7 @@ GetScriptGlobalObject
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3519,6 +3561,7 @@ nsIScriptGlobalObject
 *
 aGlobalObject
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3528,6 +3571,7 @@ nsIScriptGlobalObject
 *
 aScriptObject
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIGlobalObject
@@ -3536,6 +3580,7 @@ GetScopeObject
 (
 )
 const
+MOZ_OVERRIDE
 ;
 void
 SetScopeObject
@@ -3544,6 +3589,7 @@ nsIGlobalObject
 *
 aGlobal
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -3564,6 +3610,7 @@ nsScriptLoader
 ScriptLoader
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -3596,6 +3643,7 @@ nsIAtom
 *
 aId
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3608,6 +3656,7 @@ nsIAtom
 *
 aId
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3620,6 +3669,7 @@ nsIAtom
 *
 aName
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3632,6 +3682,7 @@ nsIAtom
 *
 aName
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -3671,6 +3722,7 @@ nsIDocumentObserver
 *
 aObserver
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -3706,6 +3758,7 @@ nsIDocumentObserver
 *
 aObserver
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -3728,6 +3781,7 @@ BeginUpdate
 nsUpdateType
 aUpdateType
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3736,18 +3790,21 @@ EndUpdate
 nsUpdateType
 aUpdateType
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 BeginLoad
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 EndLoad
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3756,6 +3813,7 @@ SetReadyStateInternal
 ReadyState
 rs
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3767,6 +3825,7 @@ aContent
 nsEventStates
 aStateMask
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3775,6 +3834,7 @@ DocumentStatesChanged
 nsEventStates
 aStateMask
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3790,6 +3850,7 @@ nsIStyleRule
 *
 aNewStyleRule
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3802,6 +3863,7 @@ nsIStyleRule
 *
 aStyleRule
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3814,6 +3876,7 @@ nsIStyleRule
 *
 aStyleRule
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3822,6 +3885,7 @@ FlushPendingNotifications
 mozFlushType
 aType
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3830,6 +3894,7 @@ FlushExternalResources
 mozFlushType
 aType
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3847,6 +3912,7 @@ const
 int32_t
 aStandalone
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3862,12 +3928,14 @@ nsAString
 &
 Standalone
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsScriptEnabled
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3885,6 +3953,7 @@ EventTarget
 *
 aDispatchStartTarget
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3902,6 +3971,7 @@ EventTarget
 *
 aDispatchStartTarget
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3911,6 +3981,7 @@ nsINode
 *
 aTarget
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3920,6 +3991,7 @@ nsINode
 *
 aTarget
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -3932,6 +4004,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIContent
@@ -3942,6 +4015,7 @@ uint32_t
 aIndex
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIContent
@@ -3955,6 +4029,7 @@ uint32_t
 aChildCount
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -3974,6 +4049,7 @@ GetChildCount
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -3987,6 +4063,7 @@ aIndex
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -4008,6 +4085,7 @@ aIndex
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -4022,6 +4100,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -4043,6 +4122,7 @@ aVisitor
 bool
 aFlushContent
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -4056,6 +4136,7 @@ nsIDOMHTMLInputElement
 *
 aRadio
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMHTMLInputElement
@@ -4067,6 +4148,7 @@ nsAString
 &
 aName
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetNextRadioButton
@@ -4086,6 +4168,7 @@ nsIDOMHTMLInputElement
 *
 aRadioOut
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -4099,6 +4182,7 @@ nsIFormControl
 *
 aRadio
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -4112,6 +4196,7 @@ nsIFormControl
 *
 aRadio
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
@@ -4123,6 +4208,7 @@ nsAString
 aName
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -4136,6 +4222,7 @@ nsIFormControl
 *
 aRadio
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -4147,6 +4234,7 @@ nsAString
 aName
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -4159,6 +4247,7 @@ aName
 bool
 aValue
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -4195,6 +4284,7 @@ aDisplayWidth
 uint32_t
 aDisplayHeight
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -4238,6 +4328,7 @@ nsEventChainPreVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsEventListenerManager
@@ -4247,6 +4338,7 @@ GetListenerManager
 bool
 aCreateIfNotFound
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -4257,6 +4349,7 @@ nsIPrincipal
 GetPrincipal
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -4306,6 +4399,7 @@ nsIContent
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -4462,6 +4556,7 @@ ErrorResult
 &
 aRv
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -4692,6 +4787,7 @@ nsSMILAnimationController
 GetAnimationController
 (
 )
+MOZ_OVERRIDE
 ;
 void
 SetImagesNeedAnimating
@@ -4699,6 +4795,7 @@ SetImagesNeedAnimating
 bool
 aAnimating
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -4707,6 +4804,7 @@ SuppressEventHandling
 uint32_t
 aIncrease
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -4715,6 +4813,7 @@ UnsuppressEventHandlingAndFireEvents
 bool
 aFireEvents
 )
+MOZ_OVERRIDE
 ;
 void
 DecreaseEventSuppression
@@ -4736,6 +4835,7 @@ nsIDocument
 GetTemplateContentsOwner
 (
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
@@ -4812,6 +4912,7 @@ nsAString
 &
 aCrossOriginAttr
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -4829,6 +4930,7 @@ nsAString
 &
 aCrossOriginAttr
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -4844,6 +4946,7 @@ nsCSSStyleSheet
 *
 sheet
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsISupports
@@ -4851,12 +4954,14 @@ nsISupports
 GetCurrentContentSink
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsEventStates
 GetDocumentState
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -4867,6 +4972,7 @@ nsACString
 &
 aUri
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -4877,6 +4983,7 @@ nsACString
 &
 aUri
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -4899,18 +5006,21 @@ nsIURI
 *
 aDocumentURI
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 ScrollToRef
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 ResetScrolledToRefAlready
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -4919,6 +5029,7 @@ SetChangeScrollPosWhenScrollingToRef
 bool
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 Element
@@ -4930,6 +5041,7 @@ nsAString
 &
 aElementId
 )
+MOZ_OVERRIDE
 ;
 virtual
 const
@@ -4943,6 +5055,7 @@ nsAString
 aElementId
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 Element
@@ -4954,6 +5067,7 @@ nsAString
 &
 aElementId
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -4967,6 +5081,7 @@ Element
 *
 aElement
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_HIDDEN_
@@ -5035,6 +5150,7 @@ nsIObjectLoadingContent
 *
 aPlugin
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -5066,6 +5182,7 @@ nsIObjectLoadingContent
 *
 aPlugin
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -5097,6 +5214,7 @@ nsIObjectLoadingContent
 &
 aPlugins
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -5107,6 +5225,7 @@ nsIVariant
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsDOMNavigationTiming
@@ -5115,6 +5234,7 @@ GetNavigationTiming
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -5124,6 +5244,7 @@ nsDOMNavigationTiming
 *
 aTiming
 )
+MOZ_OVERRIDE
 ;
 virtual
 Element
@@ -5135,17 +5256,20 @@ nsAString
 &
 aNormalizedMapName
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 NotifyAudioAvailableListener
 (
 )
+MOZ_OVERRIDE
 ;
 bool
 HasAudioAvailableListeners
 (
 )
+MOZ_OVERRIDE
 {
 return
 mHasAudioAvailableListener
@@ -5157,6 +5281,7 @@ Element
 GetFullScreenElement
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -5166,24 +5291,28 @@ Element
 *
 aElement
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 RestorePreviousFullScreenState
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsFullscreenLeaf
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsFullScreenDoc
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -5192,6 +5321,7 @@ SetApprovedForFullscreen
 bool
 aIsApproved
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -5205,12 +5335,14 @@ nsAString
 &
 aNewOrigin
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
 RemoteFrameFullscreenReverted
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIDocument
@@ -5218,6 +5350,7 @@ nsIDocument
 GetFullscreenRoot
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -5227,6 +5360,7 @@ nsIDocument
 *
 aRoot
 )
+MOZ_OVERRIDE
 ;
 static
 void
@@ -5622,6 +5756,7 @@ bool
 MozFullScreenEnabled
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 Element
@@ -5635,6 +5770,7 @@ ErrorResult
 &
 rv
 )
+MOZ_OVERRIDE
 ;
 void
 RequestPointerLock
@@ -5643,6 +5779,7 @@ Element
 *
 aElement
 )
+MOZ_OVERRIDE
 ;
 bool
 ShouldLockPointer
@@ -5719,6 +5856,7 @@ void
 PostVisibilityUpdateEvent
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -5729,6 +5867,7 @@ nsWindowSizes
 aWindowSizes
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -5744,6 +5883,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -5808,6 +5948,7 @@ ErrorResult
 &
 rv
 )
+MOZ_OVERRIDE
 ;
 virtual
 JSObject
@@ -5838,6 +5979,7 @@ ErrorResult
 &
 rv
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMStyleSheetList
@@ -5845,6 +5987,7 @@ nsIDOMStyleSheetList
 StyleSheets
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -5855,6 +5998,7 @@ nsAString
 &
 aSheetSet
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -5864,6 +6008,7 @@ nsString
 &
 aSheetSet
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMDOMStringList
@@ -5871,6 +6016,7 @@ nsIDOMDOMStringList
 StyleSheetSets
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -5881,6 +6027,7 @@ nsAString
 &
 aSheetSet
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -6313,6 +6460,7 @@ nsString
 &
 aTitle
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -6334,6 +6482,7 @@ ErrorResult
 &
 rv
 )
+MOZ_OVERRIDE
 ;
 static
 void
@@ -6452,6 +6601,7 @@ GetWindowInternal
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIScriptGlobalObject
@@ -6460,12 +6610,14 @@ GetScriptHandlingObjectInternal
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
 InternalAllowXULXBL
 (
 )
+MOZ_OVERRIDE
 ;
 #
 define

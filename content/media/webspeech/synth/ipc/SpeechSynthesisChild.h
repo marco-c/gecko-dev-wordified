@@ -64,6 +64,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 PSpeechSynthesisChild
@@ -363,6 +372,7 @@ aRate
 uint8_t
 argc
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SendAudio
@@ -385,6 +395,7 @@ JSContext
 *
 aCx
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

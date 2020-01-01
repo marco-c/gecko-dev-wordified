@@ -102,6 +102,15 @@ nsXBLContentSink_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsXMLContentSink
 .
 h
@@ -376,6 +385,7 @@ aIndex
 uint32_t
 aLineNumber
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HandleEndElement
@@ -385,6 +395,7 @@ PRUnichar
 *
 aName
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HandleCDataSection
@@ -396,6 +407,7 @@ aData
 uint32_t
 aLength
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -410,6 +422,7 @@ MaybeStartLayout
 bool
 aIgnorePendingSheets
 )
+MOZ_OVERRIDE
 ;
 bool
 OnOpenContainer
@@ -429,11 +442,13 @@ aTagName
 uint32_t
 aLineNumber
 )
+MOZ_OVERRIDE
 ;
 bool
 NotifyForDocElement
 (
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -470,6 +485,7 @@ dom
 FromParser
 aFromParser
 )
+MOZ_OVERRIDE
 ;
 nsresult
 AddAttributes
@@ -483,6 +499,7 @@ nsIContent
 *
 aContent
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -613,6 +630,7 @@ aReleaseTextNode
 =
 true
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -636,6 +654,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 protected
 :

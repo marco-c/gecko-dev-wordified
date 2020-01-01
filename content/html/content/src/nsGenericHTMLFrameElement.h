@@ -123,6 +123,15 @@ nsGenericHTMLFrameElement_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsGenericHTMLElement
 .
 h
@@ -251,6 +260,7 @@ void
 *
 aInstancePtr
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_NSIFRAMELOADEROWNER
 NS_DECL_NSIDOMMOZBROWSERFRAME
@@ -271,6 +281,7 @@ int32_t
 *
 aTabIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -288,6 +299,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -302,6 +314,7 @@ aNullParent
 =
 true
 )
+MOZ_OVERRIDE
 ;
 nsresult
 SetAttr
@@ -370,6 +383,7 @@ void
 DestroyContent
 (
 )
+MOZ_OVERRIDE
 ;
 nsresult
 CopyInnerTo

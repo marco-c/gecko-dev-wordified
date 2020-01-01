@@ -102,6 +102,15 @@ mozilla_dom_SVGDescElement_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsSVGElement
 .
 h
@@ -202,6 +211,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 }
 ;

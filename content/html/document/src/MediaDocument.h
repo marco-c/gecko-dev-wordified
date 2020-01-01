@@ -102,6 +102,15 @@ mozilla_dom_MediaDocument_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsHTMLDocument
 .
 h
@@ -174,6 +183,7 @@ nsresult
 Init
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -206,6 +216,7 @@ aSink
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -215,6 +226,7 @@ nsIScriptGlobalObject
 *
 aGlobalObject
 )
+MOZ_OVERRIDE
 ;
 protected
 :

@@ -117,6 +117,15 @@ MOZILLA_SVGMOTIONSMILATTR_H_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsISMILAttr
 .
 h
@@ -237,6 +246,7 @@ bool
 aPreventCachingOfSandwich
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsSMILValue
@@ -244,6 +254,7 @@ GetBaseValue
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -254,12 +265,14 @@ nsSMILValue
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 ClearAnimValue
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 const
@@ -269,6 +282,7 @@ GetTargetNode
 (
 )
 const
+MOZ_OVERRIDE
 ;
 protected
 :

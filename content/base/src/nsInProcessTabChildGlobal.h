@@ -121,6 +121,15 @@ nsInProcessTabChildGlobal_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -329,6 +338,7 @@ nsIDOMWindow
 *
 aContent
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetDocShell
@@ -338,6 +348,7 @@ nsIDocShell
 *
 aDocShell
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Dump
@@ -347,6 +358,7 @@ nsAString
 &
 aStr
 )
+MOZ_OVERRIDE
 {
 return
 mMessageManager
@@ -366,6 +378,7 @@ NS_IMETHOD
 PrivateNoteIntentionalCrash
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Btoa
@@ -378,6 +391,7 @@ nsAString
 &
 aAsciiBase64String
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Atob
@@ -390,6 +404,7 @@ nsAString
 &
 aBinaryData
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_NSIINPROCESSCONTENTFRAMEMESSAGEMANAGER
 /
@@ -429,6 +444,7 @@ nsString
 *
 aJSONRetVal
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -449,6 +465,7 @@ StructuredCloneData
 &
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -458,6 +475,7 @@ nsEventChainPreVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AddEventListener
@@ -515,6 +533,7 @@ aWantsUntrusted
 uint8_t
 optional_argc
 )
+MOZ_OVERRIDE
 {
 return
 nsDOMEventTargetHelper
@@ -542,6 +561,7 @@ JSContext
 GetJSContextForEventHandlers
 (
 )
+MOZ_OVERRIDE
 {
 return
 mCx
@@ -553,6 +573,7 @@ nsIPrincipal
 GetPrincipal
 (
 )
+MOZ_OVERRIDE
 {
 return
 mPrincipal
@@ -661,6 +682,7 @@ JSObject
 GetGlobalJSObject
 (
 )
+MOZ_OVERRIDE
 {
 if
 (

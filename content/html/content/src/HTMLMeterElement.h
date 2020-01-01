@@ -102,6 +102,15 @@ mozilla_dom_HTMLMeterElement_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLMeterElement
 .
 h
@@ -213,6 +222,7 @@ IntrinsicState
 (
 )
 const
+MOZ_OVERRIDE
 ;
 nsresult
 Clone
@@ -226,6 +236,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 bool
 ParseAttribute
@@ -243,6 +254,7 @@ nsAttrValue
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -250,6 +262,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
+MOZ_OVERRIDE
 {
 return
 this

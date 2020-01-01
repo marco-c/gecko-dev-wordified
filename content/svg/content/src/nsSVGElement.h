@@ -130,6 +130,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 css
 /
 StyleRule
@@ -383,6 +392,7 @@ aResult
 )
 const
 MOZ_MUST_OVERRIDE
+MOZ_OVERRIDE
 ;
 typedef
 mozilla
@@ -1772,6 +1782,7 @@ nsIAtom
 *
 aName
 )
+MOZ_OVERRIDE
 ;
 void
 AnimationNeedsResample
@@ -1788,6 +1799,7 @@ void
 RecompileScriptEventListeners
 (
 )
+MOZ_OVERRIDE
 ;
 void
 GetStringBaseValue
@@ -1854,6 +1866,7 @@ AsDOMNode
 (
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 this
