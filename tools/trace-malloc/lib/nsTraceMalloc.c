@@ -11775,6 +11775,9 @@ callsite
 *
 site
 ;
+int
+dummy
+;
 tm_thread
 *
 t
@@ -11789,6 +11792,8 @@ backtrace
 (
 t
 2
+&
+dummy
 )
 ;
 return
