@@ -32467,12 +32467,15 @@ initial_values
 :
 [
 "
-horizontal
+auto
 "
 ]
 other_values
 :
 [
+"
+horizontal
+"
 "
 vertical
 "
@@ -32480,9 +32483,6 @@ vertical
 invalid_values
 :
 [
-"
-auto
-"
 "
 none
 "
