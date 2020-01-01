@@ -445,6 +445,13 @@ h
 #
 include
 "
+json
+.
+h
+"
+#
+include
+"
 nsIJSON
 .
 h
@@ -647,6 +654,10 @@ PRInt32
 aContentLength
 PRBool
 aNeedsConverter
+DecodingMode
+mode
+=
+STRICT
 )
 ;
 nsCOMPtr
@@ -689,6 +700,8 @@ jsval
 rootVal
 PRBool
 needsConverter
+DecodingMode
+mode
 )
 ;
 virtual
@@ -725,6 +738,9 @@ mDecoder
 ;
 nsCString
 mSniffBuffer
+;
+DecodingMode
+mDecodingMode
 ;
 nsresult
 ProcessBytes
