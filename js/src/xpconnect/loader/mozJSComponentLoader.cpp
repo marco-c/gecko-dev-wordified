@@ -7498,11 +7498,11 @@ rv
 rv
 )
 ;
-nsCOMPtr
-<
-nsIXPCNativeCallContext
->
+nsAXPCNativeCallContext
+*
 cc
+=
+nsnull
 ;
 rv
 =
@@ -7511,10 +7511,8 @@ xpc
 >
 GetCurrentNativeCallContext
 (
-getter_AddRefs
-(
+&
 cc
-)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8004,7 +8002,7 @@ aLocation
 JSObject
 *
 targetObj
-nsIXPCNativeCallContext
+nsAXPCNativeCallContext
 *
 cc
 JSObject
@@ -8760,7 +8758,7 @@ mozJSComponentLoader
 :
 ReportOnCaller
 (
-nsIXPCNativeCallContext
+nsAXPCNativeCallContext
 *
 cc
 const

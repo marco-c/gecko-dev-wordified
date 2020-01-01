@@ -14859,11 +14859,11 @@ aCx
 return
 ;
 }
-nsCOMPtr
-<
-nsIXPCNativeCallContext
->
+nsAXPCNativeCallContext
+*
 nccx
+=
+nsnull
 ;
 XPConnect
 (
@@ -14872,10 +14872,8 @@ XPConnect
 >
 GetCurrentNativeCallContext
 (
-getter_AddRefs
-(
+&
 nccx
-)
 )
 ;
 if

@@ -4606,11 +4606,11 @@ nsIProgrammingLanguage
 JAVASCRIPT
 )
 {
-nsCOMPtr
-<
-nsIXPCNativeCallContext
->
+nsAXPCNativeCallContext
+*
 ncc
+=
+nsnull
 ;
 nsContentUtils
 :
@@ -4622,10 +4622,8 @@ XPConnect
 >
 GetCurrentNativeCallContext
 (
-getter_AddRefs
-(
+&
 ncc
-)
 )
 ;
 if

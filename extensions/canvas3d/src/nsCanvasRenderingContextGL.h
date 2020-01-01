@@ -1587,10 +1587,8 @@ gXPConnect
 >
 GetCurrentNativeCallContext
 (
-getter_AddRefs
-(
+&
 ncc
-)
 )
 ;
 if
@@ -2037,10 +2035,7 @@ PR_TRUE
 )
 ;
 }
-nsCOMPtr
-<
-nsIXPCNativeCallContext
->
+nsAXPCNativeCallContext
 ncc
 ;
 nsresult

@@ -2101,7 +2101,7 @@ CheckPropertyAccessImpl
 (
 PRUint32
 aAction
-nsIXPCNativeCallContext
+nsAXPCNativeCallContext
 *
 aCallContext
 JSContext

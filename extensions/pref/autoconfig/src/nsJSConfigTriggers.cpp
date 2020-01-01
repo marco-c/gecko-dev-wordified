@@ -672,7 +672,7 @@ CanAccess
 (
 PRUint32
 aAction
-nsIXPCNativeCallContext
+nsAXPCNativeCallContext
 *
 aCallContext
 JSContext

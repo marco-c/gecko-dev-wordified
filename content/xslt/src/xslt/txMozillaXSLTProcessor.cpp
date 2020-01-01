@@ -6435,11 +6435,11 @@ rv
 rv
 )
 ;
-nsCOMPtr
-<
-nsIXPCNativeCallContext
->
+nsAXPCNativeCallContext
+*
 cc
+=
+nsnull
 ;
 rv
 =
@@ -6448,10 +6448,8 @@ xpc
 >
 GetCurrentNativeCallContext
 (
-getter_AddRefs
-(
+&
 cc
-)
 )
 ;
 NS_ENSURE_SUCCESS

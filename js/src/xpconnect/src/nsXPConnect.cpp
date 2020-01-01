@@ -9034,7 +9034,7 @@ nsXPConnect
 :
 GetCurrentNativeCallContext
 (
-nsIXPCNativeCallContext
+nsAXPCNativeCallContext
 *
 *
 aCurrentNativeCallContext
@@ -9065,9 +9065,8 @@ if
 data
 )
 {
-nsIXPCNativeCallContext
 *
-temp
+aCurrentNativeCallContext
 =
 data
 -
@@ -9075,16 +9074,6 @@ data
 GetCallContext
 (
 )
-;
-NS_IF_ADDREF
-(
-temp
-)
-;
-*
-aCurrentNativeCallContext
-=
-temp
 ;
 return
 NS_OK
