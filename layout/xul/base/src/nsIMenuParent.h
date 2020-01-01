@@ -625,7 +625,7 @@ in
 it
 .
 For
-menupoups
+menupopups
 the
 menu
 is

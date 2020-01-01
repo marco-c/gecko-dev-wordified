@@ -3497,6 +3497,7 @@ mCurrentTooltip
 mMouseClientX
 mMouseClientY
 PR_FALSE
+nsnull
 )
 ;
 /

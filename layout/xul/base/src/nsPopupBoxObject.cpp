@@ -885,6 +885,7 @@ aYPos
 aIsContextMenu
 aAttributesOverride
 PR_FALSE
+nsnull
 )
 ;
 }
@@ -930,6 +931,7 @@ mContent
 aXPos
 aYPos
 aIsContextMenu
+nsnull
 )
 ;
 return
