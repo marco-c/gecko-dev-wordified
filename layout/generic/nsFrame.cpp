@@ -12927,9 +12927,6 @@ nsFrame
 :
 GetContentForEvent
 (
-nsPresContext
-*
-aPresContext
 nsEvent
 *
 aEvent
