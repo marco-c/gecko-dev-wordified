@@ -4575,7 +4575,7 @@ global
 srcObj
 -
 >
-getAllocKind
+tenuredGetAllocKind
 (
 )
 )

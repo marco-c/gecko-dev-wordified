@@ -8317,7 +8317,7 @@ functions
 /
 inline
 size_t
-sizeOfThis
+tenuredSizeOfThis
 (
 )
 const

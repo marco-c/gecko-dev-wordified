@@ -11400,7 +11400,7 @@ parent
 srcObj
 -
 >
-getAllocKind
+tenuredGetAllocKind
 (
 )
 shape
@@ -11820,7 +11820,7 @@ if
 a
 -
 >
-sizeOfThis
+tenuredSizeOfThis
 (
 )
 =
@@ -11828,7 +11828,7 @@ sizeOfThis
 b
 -
 >
-sizeOfThis
+tenuredSizeOfThis
 (
 )
 )
@@ -12503,7 +12503,7 @@ isFunction
 a
 -
 >
-sizeOfThis
+tenuredSizeOfThis
 (
 )
 =
@@ -12511,7 +12511,7 @@ sizeOfThis
 b
 -
 >
-sizeOfThis
+tenuredSizeOfThis
 (
 )
 )
@@ -12665,7 +12665,7 @@ size
 a
 -
 >
-sizeOfThis
+tenuredSizeOfThis
 (
 )
 ;
@@ -12677,7 +12677,7 @@ size
 b
 -
 >
-sizeOfThis
+tenuredSizeOfThis
 (
 )
 )
@@ -13480,7 +13480,7 @@ IsBackgroundFinalized
 a
 -
 >
-getAllocKind
+tenuredGetAllocKind
 (
 )
 )
@@ -13491,7 +13491,7 @@ IsBackgroundFinalized
 b
 -
 >
-getAllocKind
+tenuredGetAllocKind
 (
 )
 )
