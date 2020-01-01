@@ -45723,6 +45723,12 @@ return
 NS_OK
 ;
 }
+JSAutoRequest
+ar
+(
+cx
+)
+;
 JSAutoEnterCompartment
 ac
 ;
@@ -45991,12 +45997,6 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
-)
-;
-JSAutoRequest
-ar
-(
-cx
 )
 ;
 /
