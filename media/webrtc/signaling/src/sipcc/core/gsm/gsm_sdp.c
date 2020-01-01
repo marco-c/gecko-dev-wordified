@@ -25297,6 +25297,9 @@ created_media_stream
 =
 FALSE
 ;
+int
+lsm_rc
+;
 config_get_value
 (
 CFGID_SDPMODE
@@ -27269,6 +27272,8 @@ if
 created_media_stream
 )
 {
+lsm_rc
+=
 lsm_add_remote_stream
 (
 dcb_p
@@ -27284,6 +27289,18 @@ media
 pc_stream_id
 )
 ;
+if
+(
+lsm_rc
+)
+{
+cause
+=
+CC_CAUSE_NO_MEDIA
+;
+}
+else
+{
 MOZ_ASSERT
 (
 pc_stream_id
@@ -27346,6 +27363,7 @@ created_media_stream
 =
 TRUE
 ;
+}
 }
 /
 *

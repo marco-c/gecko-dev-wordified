@@ -544,7 +544,7 @@ short
 mode
 )
 ;
-void
+cc_rcs_t
 lsm_add_remote_stream
 (
 line_t
