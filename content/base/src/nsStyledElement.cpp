@@ -750,7 +750,6 @@ NODE_MAY_HAVE_STYLE
 ;
 ParseStyleAttribute
 (
-this
 aValue
 aResult
 PR_FALSE
@@ -1413,7 +1412,6 @@ stringValue
 ;
 ParseStyleAttribute
 (
-this
 stringValue
 attrValue
 aForceInDataDoc
@@ -1475,9 +1473,6 @@ nsStyledElement
 :
 ParseStyleAttribute
 (
-nsIContent
-*
-aContent
 const
 nsAString
 &
@@ -1498,9 +1493,6 @@ nsIDocument
 *
 doc
 =
-aContent
--
->
 GetOwnerDoc
 (
 )
@@ -1547,9 +1539,6 @@ otherwise
 if
 (
 !
-aContent
--
->
 IsInNativeAnonymousSubtree
 (
 )
@@ -1669,9 +1658,6 @@ nsIURI
 >
 baseURI
 =
-aContent
--
->
 GetBaseURI
 (
 )
@@ -1697,9 +1683,6 @@ GetDocumentURI
 (
 )
 baseURI
-aContent
--
->
 NodePrincipal
 (
 )
