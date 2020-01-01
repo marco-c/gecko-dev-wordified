@@ -1565,7 +1565,7 @@ NULL
 }
 }
 ;
-extern
+static
 const
 mozilla
 :
@@ -1586,9 +1586,6 @@ kBrowserContracts
 kBrowserCategories
 }
 ;
-#
-ifndef
-BROWSERCOMPS_LINK_STATICALLY
 NSMODULE_DEFN
 (
 nsBrowserCompsModule
@@ -1597,5 +1594,3 @@ nsBrowserCompsModule
 &
 kBrowserModule
 ;
-#
-endif
