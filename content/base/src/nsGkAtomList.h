@@ -3079,6 +3079,13 @@ horizontal
 )
 GK_ATOM
 (
+hover
+"
+hover
+"
+)
+GK_ATOM
+(
 hr
 "
 hr
