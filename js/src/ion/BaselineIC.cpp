@@ -6281,7 +6281,7 @@ hasScript
 )
 {
 RootedScript
-script
+calleeScript
 (
 cx
 fun
@@ -6295,7 +6295,7 @@ nonLazyScript
 if
 (
 !
-script
+calleeScript
 -
 >
 hasBaselineScript
@@ -6304,7 +6304,7 @@ hasBaselineScript
 &
 &
 !
-script
+calleeScript
 -
 >
 hasIonScript
