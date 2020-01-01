@@ -9728,9 +9728,6 @@ JSObject
 *
 GetComponentsJSObject
 (
-XPCCallContext
-&
-ccx
 )
 ;
 JSObject
@@ -22369,9 +22366,9 @@ static
 JSBool
 AttachComponentsObject
 (
-XPCCallContext
-&
-ccx
+JSContext
+*
+aCx
 XPCWrappedNativeScope
 *
 aScope

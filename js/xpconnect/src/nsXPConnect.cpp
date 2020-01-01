@@ -5861,7 +5861,7 @@ XPCNativeWrapper
 :
 AttachNewConstructorObject
 (
-ccx
+aJSContext
 globalJSObj
 )
 )
@@ -6833,7 +6833,7 @@ nsXPCComponents
 :
 AttachComponentsObject
 (
-ccx
+aJSContext
 wrappedGlobal
 -
 >
@@ -6856,7 +6856,7 @@ XPCNativeWrapper
 :
 AttachNewConstructorObject
 (
-ccx
+aJSContext
 global
 )
 )
