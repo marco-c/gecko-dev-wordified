@@ -7350,16 +7350,6 @@ needsBarrier_
 needs
 ;
 }
-bool
-needsBarrier
-(
-)
-const
-{
-return
-needsBarrier_
-;
-}
 struct
 ExtraTracer
 {
