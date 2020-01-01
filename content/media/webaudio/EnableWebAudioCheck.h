@@ -112,9 +112,6 @@ MPL
 .
 *
 /
-#
-pragma
-once
 namespace
 mozilla
 {

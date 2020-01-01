@@ -113,9 +113,6 @@ MPL
 *
 /
 #
-pragma
-once
-#
 include
 "
 nsWrapperCache
