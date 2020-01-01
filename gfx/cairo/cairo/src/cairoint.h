@@ -2238,6 +2238,13 @@ _cairo_ft_font_reset_static_data
 void
 )
 ;
+cairo_private
+void
+_cairo_win32_font_reset_static_data
+(
+void
+)
+;
 /
 *
 the
