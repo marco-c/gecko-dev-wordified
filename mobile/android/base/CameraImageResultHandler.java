@@ -224,6 +224,14 @@ Activity
 RESULT_OK
 )
 {
+if
+(
+mFilePickerResult
+!
+=
+null
+)
+{
 mFilePickerResult
 .
 offer
@@ -232,6 +240,7 @@ offer
 "
 )
 ;
+}
 return
 ;
 }
@@ -261,6 +270,7 @@ mFilePickerResult
 =
 null
 )
+{
 mFilePickerResult
 .
 offer
@@ -272,6 +282,7 @@ getAbsolutePath
 )
 )
 ;
+}
 if
 (
 mHandler
@@ -279,6 +290,7 @@ mHandler
 =
 null
 )
+{
 mHandler
 .
 gotFile
@@ -290,6 +302,7 @@ getAbsolutePath
 )
 )
 ;
+}
 }
 /
 /
