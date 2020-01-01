@@ -475,11 +475,6 @@ WebAudioDecodeJob
 aDecodeJob
 )
 ;
-void
-Shutdown
-(
-)
-;
 private
 :
 bool
