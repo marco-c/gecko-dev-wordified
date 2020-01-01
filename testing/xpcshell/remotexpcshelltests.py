@@ -483,6 +483,30 @@ __init__
 (
 self
 )
+        
+self
+.
+profileDir
+=
+self
+.
+testRoot
++
+'
+/
+profile
+'
+        
+self
+.
+device
+.
+mkDir
+(
+self
+.
+profileDir
+)
     
 #
 todo
@@ -798,6 +822,10 @@ fileName
 :
             
 raise
+devicemanager
+.
+FileError
+(
 "
 No
 File
@@ -809,6 +837,7 @@ for
 str
 (
 fileName
+)
 )
         
 return
@@ -971,6 +1000,10 @@ fileName
 :
             
 raise
+devicemanager
+.
+FileError
+(
 "
 No
 Dir
@@ -982,6 +1015,7 @@ for
 str
 (
 fileName
+)
 )
         
 return
@@ -1169,6 +1203,19 @@ t
 load
 itself
 .
+        
+self
+.
+env
+[
+"
+XPCSHELL_TEST_PROFILE_DIR
+"
+]
+=
+self
+.
+profileDir
         
 self
 .
@@ -1695,14 +1742,26 @@ self
 )
 :
         
-profileDir
-=
 self
 .
 device
 .
-getTempDir
+removeDir
 (
+self
+.
+profileDir
+)
+        
+self
+.
+device
+.
+mkDir
+(
+self
+.
+profileDir
 )
         
 self
@@ -1714,9 +1773,13 @@ XPCSHELL_TEST_PROFILE_DIR
 "
 ]
 =
+self
+.
 profileDir
         
 return
+self
+.
 profileDir
     
 def
@@ -2548,6 +2611,25 @@ the
 xpcshell
 directory
   
+#
+TODO
+:
+ensure
+the
+system
+has
+7z
+this
+is
+adding
+a
+new
+dependency
+to
+the
+overall
+system
+  
 zipName
 =
 '
@@ -2611,6 +2693,7 @@ exit
 1
 )
   
+if
 dm
 .
 pushFile
@@ -2625,7 +2708,29 @@ xpcshell
 7z
 '
 )
+=
+=
+None
+:
+     
+raise
+devicemanager
+.
+FileError
+(
+"
+failed
+to
+copy
+xpcshell
+.
+7z
+to
+device
+"
+)
   
+if
 dm
 .
 unpackFile
@@ -2635,6 +2740,28 @@ xpcshell
 .
 7z
 '
+)
+=
+=
+None
+:
+     
+raise
+devicemanager
+.
+FileError
+(
+"
+failed
+to
+unpack
+xpcshell
+.
+7z
+on
+the
+device
+"
 )
   
 if
