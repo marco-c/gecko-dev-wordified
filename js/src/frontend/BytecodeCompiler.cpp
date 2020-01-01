@@ -1033,6 +1033,9 @@ JSAtom
 atom
 =
 AtomizeString
+<
+CanGC
+>
 (
 cx
 source

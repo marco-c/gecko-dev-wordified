@@ -1708,6 +1708,9 @@ JSString
 s
 =
 ToStringSlow
+<
+CanGC
+>
 (
 cx
 IdToValue

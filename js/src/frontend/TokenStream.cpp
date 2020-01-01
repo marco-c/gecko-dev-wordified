@@ -6889,6 +6889,9 @@ else
 data
 =
 AtomizeChars
+<
+CanGC
+>
 (
 cx
 tokenbuf
@@ -8391,6 +8394,9 @@ cb
 {
 return
 AtomizeChars
+<
+CanGC
+>
 (
 cx
 cb
@@ -10234,6 +10240,9 @@ hadUnicodeEscape
 atom
 =
 AtomizeChars
+<
+CanGC
+>
 (
 cx
 identStart

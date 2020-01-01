@@ -585,6 +585,9 @@ JSString
 str
 =
 js_NumberToString
+<
+CanGC
+>
 (
 cx
 pn
@@ -607,6 +610,9 @@ pn
 pn_atom
 =
 AtomizeString
+<
+CanGC
+>
 (
 cx
 str
@@ -1779,6 +1785,9 @@ pn1
 pn_atom
 =
 AtomizeString
+<
+CanGC
+>
 (
 cx
 accum
@@ -2100,6 +2109,9 @@ pn1
 pn_atom
 =
 AtomizeString
+<
+CanGC
+>
 (
 cx
 accum
@@ -4630,6 +4642,9 @@ JSString
 str
 =
 js_NewString
+<
+CanGC
+>
 (
 cx
 chars
@@ -4754,6 +4769,9 @@ pn
 pn_atom
 =
 AtomizeString
+<
+CanGC
+>
 (
 cx
 str
@@ -4932,6 +4950,9 @@ pn
 pn_atom
 =
 AtomizeString
+<
+CanGC
+>
 (
 cx
 str

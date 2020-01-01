@@ -1751,7 +1751,7 @@ gc
 NewGCThing
 <
 IonCode
-ALLOW_GC
+CanGC
 >
 (
 cx

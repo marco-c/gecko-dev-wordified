@@ -458,6 +458,9 @@ input
 input
 =
 js_NewStringCopyN
+<
+CanGC
+>
 (
 cx
 chars
@@ -1934,6 +1937,9 @@ false
 source
 =
 AtomizeString
+<
+CanGC
+>
 (
 cx
 str

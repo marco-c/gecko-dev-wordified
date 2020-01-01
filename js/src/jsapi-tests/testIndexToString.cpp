@@ -185,6 +185,12 @@ N
 {
 return
 js_NewStringCopyN
+<
+js
+:
+:
+CanGC
+>
 (
 cx
 chars

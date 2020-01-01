@@ -3024,7 +3024,7 @@ JSExternalString
 js
 :
 :
-ALLOW_GC
+CanGC
 >
 (
 cx
@@ -3065,7 +3065,7 @@ JSScript
 js
 :
 :
-ALLOW_GC
+CanGC
 >
 (
 cx
@@ -3111,7 +3111,7 @@ Shape
 js
 :
 :
-ALLOW_GC
+CanGC
 >
 (
 cx

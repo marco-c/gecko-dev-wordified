@@ -2537,7 +2537,7 @@ GetElement
 JSContext
 *
 cx
-HandleValue
+MutableHandleValue
 lref
 HandleValue
 rref
@@ -2551,7 +2551,7 @@ GetElementMonitored
 JSContext
 *
 cx
-HandleValue
+MutableHandleValue
 lref
 HandleValue
 rref
@@ -2565,7 +2565,7 @@ CallElement
 JSContext
 *
 cx
-HandleValue
+MutableHandleValue
 lref
 HandleValue
 rref

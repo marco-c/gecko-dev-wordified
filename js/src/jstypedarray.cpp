@@ -7665,6 +7665,9 @@ JSAtom
 atom
 =
 ToAtom
+<
+CanGC
+>
 (
 cx
 idval

@@ -2423,6 +2423,9 @@ baseops
 :
 :
 LookupProperty
+<
+CanGC
+>
 (
 cx
 argsobj
@@ -3191,6 +3194,9 @@ baseops
 :
 :
 LookupProperty
+<
+CanGC
+>
 (
 cx
 argsobj
@@ -3228,6 +3234,9 @@ baseops
 :
 :
 LookupProperty
+<
+CanGC
+>
 (
 cx
 argsobj
@@ -3265,6 +3274,9 @@ baseops
 :
 :
 LookupProperty
+<
+CanGC
+>
 (
 cx
 argsobj
@@ -3316,6 +3328,9 @@ baseops
 :
 :
 LookupProperty
+<
+CanGC
+>
 (
 cx
 argsobj

@@ -2224,6 +2224,9 @@ JSString
 str
 =
 ToStringSlow
+<
+CanGC
+>
 (
 cx
 vp
@@ -4908,6 +4911,9 @@ JSString
 str
 =
 ToStringSlow
+<
+CanGC
+>
 (
 cx
 space

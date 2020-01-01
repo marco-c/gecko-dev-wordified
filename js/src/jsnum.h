@@ -295,6 +295,14 @@ NumberToCString
 .
 *
 /
+template
+<
+js
+:
+:
+AllowGC
+allowGC
+>
 extern
 JSString
 *
@@ -310,6 +318,11 @@ d
 namespace
 js
 {
+template
+<
+AllowGC
+allowGC
+>
 extern
 JSFlatString
 *

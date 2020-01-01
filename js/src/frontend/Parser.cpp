@@ -36211,6 +36211,9 @@ JSAtom
 atom
 =
 ToAtom
+<
+CanGC
+>
 (
 context
 DoubleValue
@@ -42389,6 +42392,9 @@ number
 atom
 =
 ToAtom
+<
+CanGC
+>
 (
 context
 DoubleValue
@@ -42617,6 +42623,9 @@ index
 atom
 =
 ToAtom
+<
+CanGC
+>
 (
 context
 DoubleValue
@@ -42711,6 +42720,9 @@ number
 atom
 =
 ToAtom
+<
+CanGC
+>
 (
 context
 DoubleValue

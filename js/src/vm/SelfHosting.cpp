@@ -2160,6 +2160,9 @@ NULL
 str
 =
 js_NewStringCopyN
+<
+CanGC
+>
 (
 cx
 str
@@ -2454,6 +2457,9 @@ clone
 (
 cx
 js_NewStringCopyN
+<
+CanGC
+>
 (
 cx
 str

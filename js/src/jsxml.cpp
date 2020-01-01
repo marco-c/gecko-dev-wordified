@@ -2317,6 +2317,9 @@ length
 str
 =
 js_NewString
+<
+CanGC
+>
 (
 cx
 chars
@@ -4378,6 +4381,9 @@ else
 name
 =
 ToAtom
+<
+CanGC
+>
 (
 cx
 nameval
@@ -7590,6 +7596,9 @@ NULL
 localName
 =
 AtomizeChars
+<
+CanGC
+>
 (
 parser
 -
@@ -9035,6 +9044,9 @@ else
 prefix
 =
 js_NewStringCopyN
+<
+CanGC
+>
 (
 cx
 chars
@@ -13986,6 +13998,9 @@ length
 )
 return
 js_NewStringCopyZ
+<
+CanGC
+>
 (
 cx
 "
@@ -14666,6 +14681,9 @@ else
 prefix
 =
 js_NewString
+<
+CanGC
+>
 (
 cx
 bp
@@ -17661,6 +17679,9 @@ v
 name
 =
 ToAtom
+<
+CanGC
+>
 (
 cx
 v
@@ -17815,6 +17836,9 @@ else
 name
 =
 ToAtom
+<
+CanGC
+>
 (
 cx
 v
@@ -18166,6 +18190,9 @@ construct
 name
 =
 ToStringSlow
+<
+CanGC
+>
 (
 cx
 v
@@ -18183,6 +18210,9 @@ NULL
 atomizedName
 =
 AtomizeString
+<
+CanGC
+>
 (
 cx
 name
@@ -29365,6 +29395,9 @@ baseops
 :
 :
 LookupProperty
+<
+CanGC
+>
 (
 cx
 obj
@@ -29457,6 +29490,9 @@ baseops
 :
 :
 LookupProperty
+<
+CanGC
+>
 (
 cx
 proto
@@ -30144,6 +30180,9 @@ baseops
 :
 :
 LookupProperty
+<
+CanGC
+>
 (
 cx
 obj
@@ -33042,6 +33081,9 @@ ok
 str
 =
 ToStringSlow
+<
+CanGC
+>
 (
 cx
 ObjectValue
@@ -34746,6 +34788,9 @@ JSAtom
 atom
 =
 AtomizeString
+<
+CanGC
+>
 (
 cx
 JSVAL_TO_STRING
@@ -36787,6 +36832,9 @@ baseops
 :
 :
 LookupProperty
+<
+CanGC
+>
 obj
 id
 &
@@ -40966,6 +41014,9 @@ else
 namestr
 =
 ToAtom
+<
+CanGC
+>
 (
 cx
 name
@@ -46814,6 +46865,9 @@ newchars
 ;
 return
 js_NewString
+<
+CanGC
+>
 (
 cx
 newchars
@@ -49016,6 +49070,9 @@ JSAtom
 atomName
 =
 AtomizeString
+<
+CanGC
+>
 (
 cx
 name
