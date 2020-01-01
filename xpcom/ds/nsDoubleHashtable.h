@@ -2874,9 +2874,6 @@ key
 )
 {
 return
-mozilla
-:
-:
 HashString
 (
 *
@@ -2984,9 +2981,6 @@ key
 )
 {
 return
-mozilla
-:
-:
 HashString
 (
 *

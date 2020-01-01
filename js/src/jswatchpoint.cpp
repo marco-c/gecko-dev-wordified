@@ -457,15 +457,6 @@ jsobjinlines
 .
 h
 "
-#
-include
-"
-mozilla
-/
-HashFunctions
-.
-h
-"
 using
 namespace
 js
@@ -494,11 +485,6 @@ key
 )
 {
 return
-mozilla
-:
-:
-HashGeneric
-(
 DefaultHasher
 <
 JSObject
@@ -516,6 +502,7 @@ get
 (
 )
 )
+^
 HashId
 (
 key
@@ -524,7 +511,6 @@ id
 .
 get
 (
-)
 )
 )
 ;

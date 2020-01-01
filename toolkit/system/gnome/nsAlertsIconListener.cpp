@@ -478,13 +478,6 @@ h
 "
 #
 include
-"
-nsCRT
-.
-h
-"
-#
-include
 <
 gdk
 /
