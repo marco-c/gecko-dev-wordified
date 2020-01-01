@@ -452,13 +452,6 @@ jsobj
 .
 h
 "
-#
-include
-"
-jsstr
-.
-h
-"
 extern
 js
 :

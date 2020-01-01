@@ -460,6 +460,17 @@ jsscopeinlines
 .
 h
 "
+#
+include
+"
+vm
+/
+String
+-
+inl
+.
+h
+"
 /
 *
 *

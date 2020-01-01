@@ -432,6 +432,13 @@ jscell_h___
 #
 define
 jscell_h___
+#
+include
+"
+jspubtd
+.
+h
+"
 struct
 JSCompartment
 ;
