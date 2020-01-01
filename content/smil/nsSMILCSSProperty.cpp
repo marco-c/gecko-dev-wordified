@@ -1600,8 +1600,6 @@ eCSSProperty_flood_color
 case
 eCSSProperty_flood_opacity
 :
-/
-/
 case
 eCSSProperty_font_family
 :
