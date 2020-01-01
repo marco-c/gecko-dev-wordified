@@ -1239,6 +1239,11 @@ ErrorResult
 aRv
 )
 ;
+bool
+Default
+(
+)
+;
 /
 /
 Uses
