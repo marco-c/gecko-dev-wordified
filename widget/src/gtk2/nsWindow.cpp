@@ -18896,7 +18896,7 @@ gpointer
 aData
 )
 {
-LOG
+LOGDRAG
 (
 (
 "
@@ -19467,7 +19467,7 @@ subwindow
 is
 null
 ?
-LOG
+LOGDRAG
 (
 (
 "
@@ -19648,7 +19648,7 @@ gpointer
 aData
 )
 {
-LOG
+LOGDRAG
 (
 (
 "
@@ -20375,7 +20375,7 @@ gpointer
 aData
 )
 {
-LOG
+LOGDRAG
 (
 (
 "
@@ -20450,7 +20450,7 @@ OnDragLeave
 void
 )
 {
-LOG
+LOGDRAG
 (
 (
 "
@@ -20645,7 +20645,7 @@ subwindow
 is
 null
 ?
-LOG
+LOGDRAG
 (
 (
 "
@@ -32042,7 +32042,7 @@ FireDragMotionTimer
 void
 )
 {
-LOG
+LOGDRAG
 (
 (
 "
@@ -32085,7 +32085,7 @@ FireDragLeaveTimer
 void
 )
 {
-LOG
+LOGDRAG
 (
 (
 "

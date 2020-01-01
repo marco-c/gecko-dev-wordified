@@ -707,7 +707,9 @@ public
 void
 SourceEndDrag
 (
-void
+GdkDragContext
+*
+aContext
 )
 ;
 void
