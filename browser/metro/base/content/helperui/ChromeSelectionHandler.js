@@ -1584,6 +1584,13 @@ _contentWindow
 =
 null
 ;
+if
+(
+this
+.
+_targetElement
+)
+{
 this
 .
 _targetElement
@@ -1603,6 +1610,7 @@ _targetElement
 =
 null
 ;
+}
 this
 .
 _selectionMoveActive
