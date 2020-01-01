@@ -3140,7 +3140,7 @@ documents
 ;
 }
 #
-else
+endif
 else
 {
 /
@@ -3157,8 +3157,6 @@ rv
 NS_ERROR_FAILURE
 ;
 }
-#
-endif
 if
 (
 NS_FAILED
