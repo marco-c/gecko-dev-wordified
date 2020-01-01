@@ -3281,7 +3281,7 @@ ARGS_FIXED_RESERVED_SLOTS
 ;
 inline
 uint32
-getArgsLength
+getArgsInitialLength
 (
 )
 const

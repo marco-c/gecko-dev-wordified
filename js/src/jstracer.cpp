@@ -110837,7 +110837,10 @@ the
 length
 (
 see
-GetArgsLength
+JSObject
+:
+:
+getArgsInitialLength
 in
 jsfun
 .

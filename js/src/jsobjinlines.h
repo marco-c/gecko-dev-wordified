@@ -1392,7 +1392,7 @@ uint32
 JSObject
 :
 :
-getArgsLength
+getArgsInitialLength
 (
 )
 const
