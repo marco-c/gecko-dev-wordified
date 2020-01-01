@@ -1129,10 +1129,7 @@ ToString
 str
 )
 ;
-nsContentUtils
-:
-:
-ASCIIToLower
+ToUpperCase
 (
 str
 )
@@ -8410,7 +8407,7 @@ nsDefaultStringComparator
 defaultComparator
 ;
 const
-nsASCIICaseInsensitiveStringComparator
+nsCaseInsensitiveStringComparator
 ciComparator
 ;
 const
@@ -10330,7 +10327,7 @@ u
 .
 mString
 )
-nsASCIICaseInsensitiveStringComparator
+nsCaseInsensitiveStringComparator
 (
 )
 )
@@ -10510,7 +10507,7 @@ end
 begin
 )
 langString
-nsASCIICaseInsensitiveStringComparator
+nsCaseInsensitiveStringComparator
 (
 )
 )
