@@ -645,6 +645,12 @@ _request
 "
 "
 ;
+this
+.
+_docRequest
+=
+null
+;
 CSPdebug
 (
 "
@@ -1464,6 +1470,12 @@ URI
 .
 asciiSpec
 ;
+this
+.
+_docRequest
+=
+aChannel
+;
 /
 /
 We
@@ -1836,6 +1848,10 @@ scheme
 selfURI
 .
 hostPort
+this
+.
+_docRequest
+this
 )
 ;
 /
