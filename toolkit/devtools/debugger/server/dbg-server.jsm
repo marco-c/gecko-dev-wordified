@@ -179,8 +179,7 @@ Components
 .
 utils
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -373,8 +372,7 @@ js
 "
 )
 ;
-this
-.
+var
 DebuggerServer
 =
 gGlobal

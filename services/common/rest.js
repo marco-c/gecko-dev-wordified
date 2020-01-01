@@ -74,8 +74,7 @@ Cr
 =
 Components
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -631,10 +630,6 @@ get
 ;
 *
 /
-this
-.
-RESTRequest
-=
 function
 RESTRequest
 (
@@ -3819,10 +3814,6 @@ RESTRequest
 .
 *
 /
-this
-.
-RESTResponse
-=
 function
 RESTResponse
 (
@@ -4342,10 +4333,6 @@ values
 .
 *
 /
-this
-.
-TokenAuthenticatedRESTRequest
-=
 function
 TokenAuthenticatedRESTRequest
 (

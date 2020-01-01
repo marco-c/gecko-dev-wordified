@@ -150,8 +150,7 @@ js
 "
 )
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -187,10 +186,6 @@ server
 .
 *
 /
-this
-.
-SyncStorageRequest
-=
 function
 SyncStorageRequest
 (

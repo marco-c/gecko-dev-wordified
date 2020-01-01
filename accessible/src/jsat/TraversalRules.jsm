@@ -89,8 +89,7 @@ Components
 .
 results
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -431,8 +430,7 @@ nsIAccessibleRole
 ROLE_INTERNAL_FRAME
 ]
 ;
-this
-.
+var
 TraversalRules
 =
 {

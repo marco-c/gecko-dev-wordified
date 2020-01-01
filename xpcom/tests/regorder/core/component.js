@@ -235,10 +235,6 @@ ac44
 "
 )
 ;
-this
-.
-NSGetFactory
-=
 function
 NSGetFactory
 (

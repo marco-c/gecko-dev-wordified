@@ -12674,8 +12674,7 @@ nsPlacesAutoComplete
 urlInlineComplete
 ]
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

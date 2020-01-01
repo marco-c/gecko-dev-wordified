@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -142,8 +141,7 @@ version
 2
 *
 /
-this
-.
+let
 Observers
 =
 {

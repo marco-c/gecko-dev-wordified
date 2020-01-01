@@ -5284,8 +5284,7 @@ EmbedPrompter
 AuthPromptAdapterFactory
 ]
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

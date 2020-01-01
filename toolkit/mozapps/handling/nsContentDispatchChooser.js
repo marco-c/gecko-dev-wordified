@@ -978,8 +978,7 @@ components
 nsContentDispatchChooser
 ]
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

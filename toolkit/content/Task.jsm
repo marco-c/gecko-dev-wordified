@@ -119,8 +119,7 @@ use
 strict
 "
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -1262,8 +1261,7 @@ functions
 .
 *
 /
-this
-.
+const
 Task
 =
 {

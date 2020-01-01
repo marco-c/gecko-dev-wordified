@@ -220,8 +220,7 @@ jsm
 "
 )
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -3285,8 +3284,7 @@ aProvId
 }
 }
 ;
-this
-.
+let
 IdentityProvider
 =
 new

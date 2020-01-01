@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -66,8 +65,7 @@ Video
 "
 ]
 ;
-this
-.
+var
 Video
 =
 {

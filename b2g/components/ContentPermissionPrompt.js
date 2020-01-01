@@ -929,8 +929,7 @@ nsIContentPermissionPrompt
 /
 module
 initialization
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

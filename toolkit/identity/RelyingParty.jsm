@@ -220,8 +220,7 @@ jsm
 "
 )
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -2530,8 +2529,7 @@ aRPId
 }
 }
 ;
-this
-.
+let
 RelyingParty
 =
 new

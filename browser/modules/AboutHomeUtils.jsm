@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -154,8 +153,7 @@ STARTPAGE_VERSION
 =
 3
 ;
-this
-.
+let
 AboutHomeUtils
 =
 new

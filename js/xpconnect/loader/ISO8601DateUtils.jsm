@@ -122,8 +122,7 @@ HOURS_TO_MINUTES
 *
 MINUTES_TO_MILLISECONDS
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -145,8 +144,7 @@ n
 "
 )
 ;
-this
-.
+var
 ISO8601DateUtils
 =
 {

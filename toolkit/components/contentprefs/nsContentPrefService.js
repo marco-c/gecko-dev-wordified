@@ -9422,8 +9422,7 @@ ContentPrefService
 HostnameGrouper
 ]
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

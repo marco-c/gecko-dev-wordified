@@ -154,8 +154,7 @@ undefined
 "
 )
 {
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -185,7 +184,6 @@ osfile_unix_allthreads
 .
 jsm
 "
-this
 )
 ;
 }

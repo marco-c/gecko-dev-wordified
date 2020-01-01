@@ -105,8 +105,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -128,10 +127,6 @@ interface
 .
 *
 /
-this
-.
-SourceEditorUI
-=
 function
 SourceEditorUI
 (

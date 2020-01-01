@@ -175,8 +175,7 @@ map
 /
 /
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

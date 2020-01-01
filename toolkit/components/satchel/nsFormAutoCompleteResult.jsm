@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -101,10 +100,6 @@ jsm
 "
 )
 ;
-this
-.
-FormAutoCompleteResult
-=
 function
 FormAutoCompleteResult
 (

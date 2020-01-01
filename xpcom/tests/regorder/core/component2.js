@@ -235,10 +235,6 @@ bcab235730a0
 "
 )
 ;
-this
-.
-NSGetFactory
-=
 function
 NSGetFactory
 (

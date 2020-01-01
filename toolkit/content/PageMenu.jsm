@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -66,10 +65,6 @@ PageMenu
 "
 ]
 ;
-this
-.
-PageMenu
-=
 function
 PageMenu
 (

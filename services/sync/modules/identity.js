@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -514,10 +513,6 @@ functionality
 .
 *
 /
-this
-.
-IdentityManager
-=
 function
 IdentityManager
 (

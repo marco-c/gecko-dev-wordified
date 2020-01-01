@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -3656,8 +3655,7 @@ JSM
 .
 *
 /
-this
-.
+let
 NewTabUtils
 =
 {

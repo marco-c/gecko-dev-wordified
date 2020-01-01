@@ -80,8 +80,7 @@ Title
 utils
 .
 js
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -226,10 +225,6 @@ in
 their
 place
 .
-this
-.
-Point
-=
 function
 Point
 (
@@ -549,10 +544,6 @@ width
 and
 height
 .
-this
-.
-Rect
-=
 function
 Rect
 (
@@ -2045,10 +2036,6 @@ given
 min
 and
 max
-this
-.
-Range
-=
 function
 Range
 (
@@ -2898,10 +2885,6 @@ for
 custom
 events
 .
-this
-.
-Subscribable
-=
 function
 Subscribable
 (
@@ -3427,8 +3410,7 @@ common
 utility
 functions
 .
-this
-.
+let
 Utils
 =
 {
@@ -5881,10 +5863,6 @@ copy
 of
 it
 .
-this
-.
-MRUList
-=
 function
 MRUList
 (

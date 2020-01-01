@@ -136,10 +136,6 @@ to
 see
 debug
 messages
-this
-.
-translatePduErrorToStatus
-=
 function
 translatePduErrorToStatus
 (
@@ -258,8 +254,7 @@ Octet
 >
 *
 /
-this
-.
+let
 BooleanValue
 =
 {
@@ -462,8 +457,7 @@ section
 8
 *
 /
-this
-.
+let
 Address
 =
 {
@@ -1501,8 +1495,7 @@ clause
 2
 *
 /
-this
-.
+let
 HeaderField
 =
 {
@@ -1707,8 +1700,7 @@ clause
 2
 *
 /
-this
-.
+let
 MmsHeader
 =
 {
@@ -2179,8 +2171,7 @@ clause
 9
 *
 /
-this
-.
+let
 ContentClassValue
 =
 {
@@ -2492,8 +2483,7 @@ clause
 10
 *
 /
-this
-.
+let
 ContentLocationValue
 =
 {
@@ -2730,8 +2720,7 @@ clause
 18
 *
 /
-this
-.
+let
 ElementDescriptorValue
 =
 {
@@ -2985,8 +2974,7 @@ clause
 18
 *
 /
-this
-.
+let
 Parameter
 =
 {
@@ -3585,8 +3573,7 @@ clause
 1
 *
 /
-this
-.
+let
 EncodedStringValue
 =
 {
@@ -4443,8 +4430,7 @@ clause
 20
 *
 /
-this
-.
+let
 ExpiryValue
 =
 {
@@ -4920,8 +4906,7 @@ clause
 21
 *
 /
-this
-.
+let
 FromValue
 =
 {
@@ -5313,8 +5298,7 @@ clause
 23
 *
 /
-this
-.
+let
 PreviouslySentByValue
 =
 {
@@ -5499,8 +5483,7 @@ clause
 24
 *
 /
-this
-.
+let
 PreviouslySentDateValue
 =
 {
@@ -5702,8 +5685,7 @@ clause
 27
 *
 /
-this
-.
+let
 MessageClassValue
 =
 {
@@ -6034,8 +6016,7 @@ clause
 30
 *
 /
-this
-.
+let
 MessageTypeValue
 =
 {
@@ -6330,8 +6311,7 @@ clause
 32
 *
 /
-this
-.
+let
 MmFlagsValue
 =
 {
@@ -6766,8 +6746,7 @@ clause
 33
 *
 /
-this
-.
+let
 MmStateValue
 =
 {
@@ -7036,8 +7015,7 @@ clause
 35
 *
 /
-this
-.
+let
 PriorityValue
 =
 {
@@ -7272,8 +7250,7 @@ clause
 39
 *
 /
-this
-.
+let
 RecommendedRetrievalModeValue
 =
 {
@@ -7399,8 +7376,7 @@ clause
 43
 *
 /
-this
-.
+let
 ReplyChargingValue
 =
 {
@@ -7704,8 +7680,7 @@ clause
 49
 *
 /
-this
-.
+let
 ResponseText
 =
 {
@@ -8084,8 +8059,7 @@ clause
 50
 *
 /
-this
-.
+let
 RetrieveStatusValue
 =
 {
@@ -8323,8 +8297,7 @@ clause
 54
 *
 /
-this
-.
+let
 StatusValue
 =
 {
@@ -8534,8 +8507,7 @@ value
 }
 }
 ;
-this
-.
+let
 PduHelper
 =
 {
@@ -11601,8 +11573,7 @@ s
 }
 ;
 }
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 ALL_CONST_SYMBOLS

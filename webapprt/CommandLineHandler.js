@@ -511,8 +511,7 @@ components
 CommandLineHandler
 ]
 ;
-this
-.
+let
 NSGetFactory
 =
 XPCOMUtils

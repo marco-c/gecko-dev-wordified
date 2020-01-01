@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -434,8 +433,7 @@ cached
 .
 *
 /
-this
-.
+let
 PageThumbs
 =
 {
@@ -1843,8 +1841,7 @@ true
 }
 }
 ;
-this
-.
+let
 PageThumbsStorage
 =
 {

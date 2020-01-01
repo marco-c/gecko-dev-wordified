@@ -1027,8 +1027,7 @@ components
 FormAutoComplete
 ]
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

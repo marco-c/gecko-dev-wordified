@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -110,10 +109,6 @@ jsm
 "
 )
 ;
-this
-.
-LightweightThemeConsumer
-=
 function
 LightweightThemeConsumer
 (

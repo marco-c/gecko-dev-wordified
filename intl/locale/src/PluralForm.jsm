@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1202,8 +1201,7 @@ n
 ]
 ]
 ;
-this
-.
+let
 PluralForm
 =
 {

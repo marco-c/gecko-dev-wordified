@@ -690,8 +690,7 @@ element
 >
 *
 /
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -73,8 +72,7 @@ Components
 .
 utils
 ;
-this
-.
+let
 Contacts
 =
 {

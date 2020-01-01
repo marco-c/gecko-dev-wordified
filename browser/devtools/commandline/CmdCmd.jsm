@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -292,8 +291,7 @@ Exported
 API
 *
 /
-this
-.
+let
 CmdCommands
 =
 {

@@ -2063,8 +2063,7 @@ components
 BrowserCLH
 ]
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

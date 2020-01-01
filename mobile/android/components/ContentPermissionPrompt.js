@@ -678,8 +678,7 @@ options
 /
 module
 initialization
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

@@ -89,8 +89,7 @@ Components
 .
 results
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -194,8 +193,7 @@ ACCESSFU_AUTO
 =
 2
 ;
-this
-.
+var
 AccessFu
 =
 {

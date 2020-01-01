@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -1064,10 +1063,6 @@ process
 .
 *
 /
-this
-.
-JPAKEClient
-=
 function
 JPAKEClient
 (
@@ -5284,10 +5279,6 @@ service
 *
 *
 /
-this
-.
-SendCredentialsController
-=
 function
 SendCredentialsController
 (

@@ -9144,8 +9144,7 @@ LoginManagerPromptFactory
 LoginManagerPrompter
 ]
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

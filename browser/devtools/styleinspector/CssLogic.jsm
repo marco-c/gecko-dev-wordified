@@ -644,8 +644,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -657,10 +656,6 @@ CssSelector
 "
 ]
 ;
-this
-.
-CssLogic
-=
 function
 CssLogic
 (
@@ -8360,10 +8355,6 @@ investigate
 .
 *
 /
-this
-.
-CssSelector
-=
 function
 CssSelector
 (

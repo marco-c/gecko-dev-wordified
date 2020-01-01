@@ -3987,8 +3987,7 @@ return
 err
 ;
 }
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

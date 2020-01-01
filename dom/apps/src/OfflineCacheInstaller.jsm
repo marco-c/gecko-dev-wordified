@@ -89,8 +89,7 @@ Components
 .
 Constructor
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -791,8 +790,7 @@ data
 )
 ;
 }
-this
-.
+const
 OfflineCacheInstaller
 =
 {

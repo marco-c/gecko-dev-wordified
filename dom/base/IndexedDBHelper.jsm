@@ -65,9 +65,6 @@ DEBUG
 =
 0
 ;
-let
-debug
-;
 if
 (
 DEBUG
@@ -132,8 +129,7 @@ Components
 .
 interfaces
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -180,10 +176,6 @@ jsm
 "
 )
 ;
-this
-.
-IndexedDBHelper
-=
 function
 IndexedDBHelper
 (

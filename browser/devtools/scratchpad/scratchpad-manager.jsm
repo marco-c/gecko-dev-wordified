@@ -79,8 +79,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -199,8 +198,7 @@ browser
 .
 *
 /
-this
-.
+var
 ScratchpadManager
 =
 {

@@ -230,8 +230,7 @@ nsICommandLineHandler
 )
 }
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

@@ -199,9 +199,6 @@ DEBUG
 =
 0
 ;
-let
-debug
-;
 if
 (
 DEBUG
@@ -265,8 +262,7 @@ Components
 .
 interfaces
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -449,8 +445,7 @@ Ci
 nsIAppsService
 )
 ;
-this
-.
+let
 PermissionPromptHelper
 =
 {

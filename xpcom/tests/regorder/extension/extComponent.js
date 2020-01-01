@@ -235,10 +235,6 @@ e6c0f483181e
 "
 )
 ;
-this
-.
-NSGetFactory
-=
 function
 NSGetFactory
 (

@@ -121,8 +121,7 @@ Components
 .
 utils
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -201,10 +200,6 @@ to
 .
 *
 /
-this
-.
-UndoStack
-=
 function
 UndoStack
 (

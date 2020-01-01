@@ -98,8 +98,7 @@ jsm
 "
 )
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -2103,8 +2102,7 @@ External
 API
 goes
 here
-this
-.
+let
 CrashSubmit
 =
 {

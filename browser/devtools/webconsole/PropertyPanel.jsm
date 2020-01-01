@@ -177,8 +177,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -313,8 +312,7 @@ XPCOM_Interface_Reference
 nsITreeView
 *
 /
-this
-.
+var
 PropertyTreeView
 =
 function
@@ -2662,10 +2660,6 @@ panel
 .
 *
 /
-this
-.
-PropertyPanel
-=
 function
 PropertyPanel
 (

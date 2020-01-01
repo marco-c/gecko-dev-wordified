@@ -220,8 +220,7 @@ defined
 )
 *
 /
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -2417,8 +2416,7 @@ one
 )
 *
 /
-this
-.
+const
 console
 =
 {

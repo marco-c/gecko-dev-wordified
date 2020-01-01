@@ -148,8 +148,7 @@ windows
 .
 *
 /
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -281,10 +280,6 @@ _windows
 /
 Exported
 symbol
-this
-.
-trackBrowserWindow
-=
 function
 trackBrowserWindow
 (

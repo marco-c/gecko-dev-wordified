@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -95,10 +94,6 @@ point
 .
 *
 /
-this
-.
-Point
-=
 function
 Point
 (
@@ -512,10 +507,6 @@ case
 .
 *
 /
-this
-.
-Rect
-=
 function
 Rect
 (

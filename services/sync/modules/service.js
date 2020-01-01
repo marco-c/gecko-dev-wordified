@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -10737,8 +10736,7 @@ result
 }
 }
 ;
-this
-.
+let
 Service
 =
 new

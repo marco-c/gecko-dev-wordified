@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -112,8 +111,7 @@ Components
 .
 interfaces
 ;
-this
-.
+var
 PrivateBrowsingUtils
 =
 {

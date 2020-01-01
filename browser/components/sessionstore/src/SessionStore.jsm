@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -765,8 +764,7 @@ aMsg
 )
 ;
 }
-this
-.
+let
 SessionStore
 =
 {

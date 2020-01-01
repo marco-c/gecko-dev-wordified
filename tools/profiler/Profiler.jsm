@@ -82,8 +82,7 @@ Components
 .
 results
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -92,8 +91,7 @@ Profiler
 "
 ]
 ;
-this
-.
+let
 Profiler
 =
 {

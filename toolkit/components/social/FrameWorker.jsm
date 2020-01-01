@@ -214,8 +214,7 @@ jsm
 "
 )
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -260,10 +259,6 @@ a
 new
 ClientPort
 .
-this
-.
-getFrameWorkerHandle
-=
 function
 getFrameWorkerHandle
 (

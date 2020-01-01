@@ -112,8 +112,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -724,8 +723,7 @@ n
 }
 }
 ;
-this
-.
+let
 Logger
 =
 new

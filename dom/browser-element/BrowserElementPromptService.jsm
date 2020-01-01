@@ -114,8 +114,7 @@ Ci
 nsIComponentRegistrar
 )
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -3311,8 +3310,7 @@ iid
 }
 }
 ;
-this
-.
+let
 BrowserElementPromptService
 =
 {

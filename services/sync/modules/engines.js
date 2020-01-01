@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -350,10 +349,6 @@ sync
 *
 *
 /
-this
-.
-Tracker
-=
 function
 Tracker
 (
@@ -1301,10 +1296,6 @@ APIs
 .
 *
 /
-this
-.
-Store
-=
 function
 Store
 (
@@ -2510,10 +2501,6 @@ subclass
 }
 }
 ;
-this
-.
-EngineManager
-=
 function
 EngineManager
 (
@@ -3081,10 +3068,6 @@ name
 }
 }
 ;
-this
-.
-Engine
-=
 function
 Engine
 (
@@ -3628,10 +3611,6 @@ _wipeClient
 }
 }
 ;
-this
-.
-SyncEngine
-=
 function
 SyncEngine
 (
