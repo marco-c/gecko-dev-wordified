@@ -1290,11 +1290,7 @@ mar
 copyTo
 (
 updatesDir
-"
-update
-.
-mar
-"
+FILE_UPDATE_ARCHIVE
 )
 ;
 /
@@ -1379,11 +1375,7 @@ testFile
 .
 append
 (
-"
-update
-.
-status
-"
+FILE_UPDATE_STATUS
 )
 ;
 /
