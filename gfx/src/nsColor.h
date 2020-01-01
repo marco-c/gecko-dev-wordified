@@ -551,7 +551,7 @@ bool
 NS_HexToRGB
 (
 const
-nsString
+nsAString
 &
 aBuf
 nscolor

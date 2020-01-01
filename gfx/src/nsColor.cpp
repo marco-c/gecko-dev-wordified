@@ -656,7 +656,7 @@ bool
 NS_HexToRGB
 (
 const
-nsString
+nsAString
 &
 aColorSpec
 nscolor
@@ -671,7 +671,7 @@ buffer
 =
 aColorSpec
 .
-get
+BeginReading
 (
 )
 ;
