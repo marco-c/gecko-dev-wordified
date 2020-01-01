@@ -539,6 +539,14 @@ call
 )
 ;
 bool
+visitCallConstructor
+(
+LCallConstructor
+*
+call
+)
+;
+bool
 emitCallInvokeFunction
 (
 LApplyArgsGeneric
