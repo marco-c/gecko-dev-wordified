@@ -4094,6 +4094,10 @@ mFrameLoader
 (
 aFrameLoader
 )
+mFrameLoaderDestroyed
+(
+false
+)
 {
 if
 (
@@ -4205,6 +4209,10 @@ Destroy
 )
 ;
 }
+mFrameLoaderDestroyed
+=
+true
+;
 }
 nsContentView
 *
@@ -5150,6 +5158,9 @@ if
 (
 !
 mFrameLoader
+|
+|
+mFrameLoaderDestroyed
 )
 {
 *
