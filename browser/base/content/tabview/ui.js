@@ -4770,6 +4770,10 @@ exit
 "
 )
 {
+hideSearch
+(
+)
+;
 self
 .
 _privateBrowsing
