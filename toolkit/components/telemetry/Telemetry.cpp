@@ -99,15 +99,10 @@ include
 algorithm
 >
 #
-ifdef
-XP_MACOSX
-#
 include
 <
 fstream
 >
-#
-endif
 #
 include
 <
@@ -9393,9 +9388,6 @@ ProcessedStack
 aStack
 )
 {
-#
-ifdef
-XP_MACOSX
 std
 :
 :
@@ -9722,8 +9714,6 @@ aStack
 =
 stack
 ;
-#
-endif
 }
 void
 TelemetryImpl
