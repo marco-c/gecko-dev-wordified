@@ -603,6 +603,11 @@ this
 currentTest
 &
 &
+window
+.
+gBrowser
+&
+&
 gBrowser
 .
 tabs
