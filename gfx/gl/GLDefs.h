@@ -12182,6 +12182,13 @@ LOCAL_GL_WIN_swap_hint
 1
 /
 /
+ARB_vertex_array_object
+#
+define
+LOCAL_GL_VERTEX_ARRAY_BINDING
+0x85B5
+/
+/
 ARB_sync
 #
 define
