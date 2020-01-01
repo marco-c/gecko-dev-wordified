@@ -4729,6 +4729,11 @@ getPageBounds
 (
 )
 ;
+var
+self
+=
+this
+;
 iQ
 (
 window
@@ -4740,7 +4745,7 @@ function
 (
 )
 {
-this
+self
 .
 resize
 (
