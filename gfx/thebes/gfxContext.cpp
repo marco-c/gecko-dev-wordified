@@ -8026,9 +8026,7 @@ GetInverseMatrix
 Matrix
 old
 =
-GetDTTransform
-(
-)
+mTransform
 ;
 /
 /
@@ -8061,9 +8059,7 @@ mat
 =
 mat
 *
-GetDTTransform
-(
-)
+mTransform
 ;
 ChangeTransform
 (
