@@ -1779,6 +1779,7 @@ JS_FALSE
 ;
 }
 nsXPConnect
+*
 xpc
 =
 nsXPConnect
