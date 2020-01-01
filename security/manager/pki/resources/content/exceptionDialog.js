@@ -665,7 +665,7 @@ recentCertsSvc
 =
 certDB
 .
-getRecentBadCertsService
+getRecentBadCerts
 (
 inPrivateBrowsingMode
 (
