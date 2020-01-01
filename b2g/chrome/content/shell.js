@@ -641,7 +641,7 @@ http
 .
 1
 :
-8888
+7777
 and
 /
 /
@@ -651,7 +651,7 @@ http
 /
 localhost
 :
-8888
+7777
 .
 function
 startupHttpd
@@ -1186,7 +1186,7 @@ join
 const
 SERVER_PORT
 =
-8888
+7777
 ;
 startupHttpd
 (
