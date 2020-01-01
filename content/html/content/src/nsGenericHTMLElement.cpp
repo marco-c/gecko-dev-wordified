@@ -6285,6 +6285,9 @@ manager
 RemoveEventHandler
 (
 aAttribute
+EmptyString
+(
+)
 )
 ;
 }

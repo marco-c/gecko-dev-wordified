@@ -979,14 +979,14 @@ nsPIDOMWindow
 for
 now
 .
-nsString
-mCachedType
-;
 bool
 mEventIsInternal
 ;
 bool
 mPrivateDataDuplicated
+;
+bool
+mIsMainThreadEvent
 ;
 }
 ;

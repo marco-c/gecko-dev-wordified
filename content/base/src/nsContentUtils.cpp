@@ -17904,6 +17904,11 @@ nsIAtom
 aName
 )
 {
+if
+(
+aName
+)
+{
 EventNameMapping
 mapping
 ;
@@ -17919,11 +17924,14 @@ aName
 mapping
 )
 )
+{
 return
 mapping
 .
 mId
 ;
+}
+}
 return
 NS_USER_DEFINED_EVENT
 ;
