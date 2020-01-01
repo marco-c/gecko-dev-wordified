@@ -1136,6 +1136,11 @@ slot
 )
 const
 ;
+void
+clear
+(
+)
+;
 }
 ;
 typedef
