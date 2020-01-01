@@ -33172,6 +33172,15 @@ noScriptRval
 *
 /
 false
+bce
+-
+>
+script
+-
+>
+getVersion
+(
+)
 )
 ;
 if
