@@ -870,6 +870,7 @@ nsnull
 {
 LogMessage
 (
+mVerbose
 "
 No
 VBO
@@ -1023,6 +1024,7 @@ valid
 {
 LogMessage
 (
+mVerbose
 "
 Integer
 overflow
@@ -1066,6 +1068,7 @@ value
 {
 LogMessage
 (
+mVerbose
 "
 VBO
 too
