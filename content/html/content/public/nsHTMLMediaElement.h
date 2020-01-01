@@ -259,6 +259,13 @@ DecoderTraits
 .
 h
 "
+#
+include
+"
+MediaMetadataManager
+.
+h
+"
 /
 /
 Define
@@ -709,9 +716,9 @@ virtual
 void
 MetadataLoaded
 (
-uint32_t
+int
 aChannels
-uint32_t
+int
 aRate
 bool
 aHasAudio

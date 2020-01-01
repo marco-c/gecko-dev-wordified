@@ -2014,7 +2014,7 @@ mResourceID
 (
 0
 )
-mIsSeekable
+mIsTransportSeekable
 (
 false
 )
@@ -2271,10 +2271,10 @@ proxies
 )
 .
 void
-SetSeekable
+SetTransportSeekable
 (
 bool
-aIsSeekable
+aIsTransportSeekable
 )
 ;
 /
@@ -3384,10 +3384,10 @@ last
 set
 value
 of
-SetSeekable
+SetTransportSeekable
 .
 bool
-IsSeekable
+IsTransportSeekable
 (
 )
 ;
@@ -4422,7 +4422,7 @@ the
 underlying
 channel
 bool
-mIsSeekable
+mIsTransportSeekable
 ;
 /
 /

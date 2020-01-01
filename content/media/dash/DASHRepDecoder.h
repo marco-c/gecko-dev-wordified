@@ -686,7 +686,7 @@ thread
 only
 .
 void
-SetSeekable
+SetMediaSeekable
 (
 bool
 aSeekable
