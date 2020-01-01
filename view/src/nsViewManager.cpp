@@ -2309,6 +2309,14 @@ GetWidget
 if
 (
 widget
+&
+&
+widget
+-
+>
+NeedsPaint
+(
+)
 )
 {
 #
