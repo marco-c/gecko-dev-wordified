@@ -1247,11 +1247,12 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 nsHTMLSharedObjectElement
 nsGenericHTMLElement
 )
-tmp
--
->
+nsObjectLoadingContent
+:
+:
 Traverse
 (
+tmp
 cb
 )
 ;

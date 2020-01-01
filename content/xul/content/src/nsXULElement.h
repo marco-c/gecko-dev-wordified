@@ -3328,6 +3328,14 @@ nsXULSlots
 (
 )
 ;
+void
+Traverse
+(
+nsCycleCollectionTraversalCallback
+&
+cb
+)
+;
 nsRefPtr
 <
 nsFrameLoader
