@@ -1741,9 +1741,8 @@ GetCompleted
 )
 {
 return
-(
-PRBool
-)
+!
+!
 mCompleted
 ;
 }

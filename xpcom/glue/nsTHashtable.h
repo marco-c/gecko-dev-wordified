@@ -1052,6 +1052,8 @@ IsInitialized
 const
 {
 return
+!
+!
 mTable
 .
 entrySize
