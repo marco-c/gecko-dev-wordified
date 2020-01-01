@@ -578,6 +578,11 @@ GetMaskLayer
 )
 |
 |
+GetForceIsolatedGroup
+(
+)
+|
+|
 (
 GetMixBlendMode
 (
