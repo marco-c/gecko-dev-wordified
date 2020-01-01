@@ -493,8 +493,6 @@ aWhatToShow
 nsIDOMNodeFilter
 *
 aFilter
-bool
-aExpandEntityReferences
 )
 :
 mRoot
@@ -508,10 +506,6 @@ aWhatToShow
 mFilter
 (
 aFilter
-)
-mExpandEntityReferences
-(
-aExpandEntityReferences
 )
 mInAcceptNode
 (
