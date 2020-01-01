@@ -6674,10 +6674,9 @@ GetStyleBorder
 mBorderRadius
 frameRect
 .
-width
-frameRect
-.
-height
+Size
+(
+)
 twipsRadii
 )
 ;
