@@ -13095,7 +13095,7 @@ isArrayBufferView
 jsname
 =
 "
-TypedArrayObject
+ArrayBufferViewObject
 "
         
 else
