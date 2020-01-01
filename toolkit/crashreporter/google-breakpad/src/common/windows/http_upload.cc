@@ -951,6 +951,7 @@ INTERNET_OPTION_SEND_TIMEOUT
 timeout
 sizeof
 (
+*
 timeout
 )
 )
@@ -990,6 +991,7 @@ INTERNET_OPTION_RECEIVE_TIMEOUT
 timeout
 sizeof
 (
+*
 timeout
 )
 )
