@@ -594,7 +594,7 @@ js
 gc
 ;
 bool
-PropertyTable
+ShapeTable
 :
 :
 init
@@ -709,7 +709,7 @@ OOM
 reporting
 .
 See
-PropertyTable
+ShapeTable
 :
 :
 change
@@ -1133,7 +1133,7 @@ cx
 >
 runtime
 ;
-PropertyTable
+ShapeTable
 *
 table
 =
@@ -1142,7 +1142,7 @@ rt
 >
 new_
 <
-PropertyTable
+ShapeTable
 >
 (
 self
@@ -1279,7 +1279,7 @@ shift
 Shape
 *
 *
-PropertyTable
+ShapeTable
 :
 :
 search
@@ -1675,7 +1675,7 @@ NULL
 ;
 }
 bool
-PropertyTable
+ShapeTable
 :
 :
 change
@@ -1909,7 +1909,7 @@ true
 ;
 }
 bool
-PropertyTable
+ShapeTable
 :
 :
 grow
@@ -3487,7 +3487,7 @@ getter
 setter
 )
 ;
-PropertyTable
+ShapeTable
 *
 table
 =
@@ -6130,7 +6130,7 @@ inDictionaryMode
 )
 )
 {
-PropertyTable
+ShapeTable
 &
 table
 =
@@ -6400,7 +6400,7 @@ if
 (
 size
 >
-PropertyTable
+ShapeTable
 :
 :
 MIN_SIZE
@@ -6439,7 +6439,7 @@ Non
 dictionary
 -
 mode
-property
+shape
 tables
 are
 shared
@@ -6904,7 +6904,7 @@ unowned
 )
 ;
 }
-PropertyTable
+ShapeTable
 &
 table
 =

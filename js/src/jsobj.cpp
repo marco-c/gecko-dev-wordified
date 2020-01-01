@@ -28465,7 +28465,7 @@ slot
 from
 the
 *
-property
+shape
 table
 '
 s
@@ -28483,7 +28483,7 @@ inDictionaryMode
 )
 )
 {
-PropertyTable
+ShapeTable
 &
 table
 =
@@ -40202,7 +40202,7 @@ if
 obj
 -
 >
-hasPropertyTable
+hasShapeTable
 (
 )
 )
@@ -40210,7 +40210,7 @@ fprintf
 (
 stderr
 "
-hasPropertyTable
+hasShapeTable
 "
 )
 ;

@@ -2495,7 +2495,7 @@ const
 ;
 inline
 bool
-hasPropertyTable
+hasShapeTable
 (
 )
 const
