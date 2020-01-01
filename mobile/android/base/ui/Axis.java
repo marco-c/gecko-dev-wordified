@@ -1487,7 +1487,15 @@ getRealVelocity
 )
 {
 return
+(
 mLocked
+|
+|
+!
+scrollable
+(
+)
+)
 ?
 0
 .
