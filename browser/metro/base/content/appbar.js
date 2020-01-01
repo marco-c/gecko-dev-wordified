@@ -722,9 +722,6 @@ x
 yPos
 :
 y
-forcePosition
-:
-true
 leftAligned
 :
 true
