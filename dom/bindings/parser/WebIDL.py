@@ -17843,6 +17843,11 @@ ExtendedAttributeIdent
 :
 IDENTIFIER
 EQUALS
+STRING
+                                   
+|
+IDENTIFIER
+EQUALS
 IDENTIFIER
         
 "
