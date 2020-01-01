@@ -1727,7 +1727,7 @@ already
 .
 *
 /
-masm
+frame
 .
 pop
 (
@@ -1741,7 +1741,7 @@ stubcc
 .
 rejoin
 (
-2
+1
 )
 ;
 return
