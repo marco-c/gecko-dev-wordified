@@ -873,7 +873,7 @@ in
 *
 respects
 to
-imgContainerGIF
+imgContainer
 .
 *
 *
@@ -1100,10 +1100,6 @@ imgContainer
 ;
 private
 :
-friend
-class
-nsGIFDecoder2
-;
 struct
 Anim
 {
