@@ -706,9 +706,6 @@ mClickCount
 =
 1
 ;
-#
-ifdef
-MOZ_WIDGET_GTK2
 mCtxInfo
 =
 new
@@ -717,8 +714,6 @@ EmbedContextMenuInfo
 aOwner
 )
 ;
-#
-endif
 mOwner
 -
 >
@@ -1168,9 +1163,6 @@ GetType
 eventType
 )
 ;
-#
-ifdef
-MOZ_WIDGET_GTK2
 if
 (
 eventType
@@ -1252,8 +1244,6 @@ PreventDefault
 }
 }
 }
-#
-endif
 if
 (
 eventType
@@ -2150,16 +2140,11 @@ handling
 event
 internally
 .
-#
-ifdef
-MOZ_WIDGET_GTK2
 HandleSelection
 (
 mouseEvent
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -3212,9 +3197,6 @@ sIsScrolling
 =
 PR_TRUE
 ;
-#
-ifdef
-MOZ_WIDGET_GTK2
 if
 (
 mCtxInfo
@@ -3229,8 +3211,6 @@ GetElementForScroll
 aDOMEvent
 )
 ;
-#
-endif
 }
 else
 {
@@ -3258,9 +3238,6 @@ g_source_remove
 sLongPressTimer
 )
 ;
-#
-ifdef
-MOZ_WIDGET_GTK2
 if
 (
 mCtxInfo
@@ -3322,8 +3299,6 @@ subX
 endif
 }
 else
-#
-endif
 {
 rv
 =
@@ -3439,9 +3414,6 @@ GetType
 eventType
 )
 ;
-#
-ifdef
-MOZ_WIDGET_GTK2
 if
 (
 eventType
@@ -3519,8 +3491,6 @@ PreventDefault
 ;
 }
 }
-#
-endif
 return
 NS_OK
 ;
@@ -3674,9 +3644,6 @@ aDOMMouseEvent
 nsresult
 rv
 ;
-#
-ifdef
-MOZ_WIDGET_GTK2
 /
 *
 This
@@ -4222,8 +4189,6 @@ mCurSelCon
 /
 /
 mouseup
-#
-endif
 return
 rv
 ;
@@ -4369,9 +4334,6 @@ return
 rv
 ;
 }
-#
-ifdef
-MOZ_WIDGET_GTK2
 void
 EmbedEventListener
 :
@@ -4540,8 +4502,6 @@ gFavLocation
 nsnull
 ;
 }
-#
-endif
 void
 EmbedEventListener
 :
@@ -5051,15 +5011,10 @@ return
 }
 else
 {
-#
-ifdef
-MOZ_WIDGET_GTK2
 GeneratePixBuf
 (
 )
 ;
-#
-endif
 }
 }
 NS_IMETHODIMP
@@ -5100,9 +5055,6 @@ STATE_IS_DOCUMENT
 {
 *
 /
-#
-ifdef
-MOZ_WIDGET_GTK2
 if
 (
 aStateFlags
@@ -5150,8 +5102,6 @@ GeneratePixBuf
 (
 )
 ;
-#
-endif
 return
 NS_OK
 ;

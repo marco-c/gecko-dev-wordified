@@ -811,17 +811,12 @@ accessed
 }
 ;
 #
-ifdef
-MOZ_WIDGET_GTK2
-#
 include
 "
 gtkmozembed_common
 .
 h
 "
-#
-endif
 #
 define
 GTK_TYPE_MOZ_EMBED

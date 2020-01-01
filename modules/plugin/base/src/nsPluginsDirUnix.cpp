@@ -704,12 +704,6 @@ endif
 if
 defined
 (
-MOZ_WIDGET_GTK
-)
-|
-|
-defined
-(
 MOZ_WIDGET_GTK2
 )
 #
@@ -1863,9 +1857,6 @@ sonameList
 endif
 /
 /
-MOZ_WIDGET_GTK
-|
-|
 MOZ_WIDGET_GTK2
 /
 /
@@ -2766,12 +2757,6 @@ get
 if
 defined
 (
-MOZ_WIDGET_GTK
-)
-|
-|
-defined
-(
 MOZ_WIDGET_GTK2
 )
 /
@@ -3085,9 +3070,6 @@ libSpec
 endif
 /
 /
-MOZ_WIDGET_GTK
-|
-|
 MOZ_WIDGET_GTK2
 #
 ifdef
