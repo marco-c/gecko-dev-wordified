@@ -1271,8 +1271,10 @@ DecodeVorbis
 (
 nsTArray
 <
+nsAutoPtr
+<
 SoundData
-*
+>
 >
 &
 aChunks
@@ -1292,8 +1294,10 @@ DecodeTheora
 (
 nsTArray
 <
+nsAutoPtr
+<
 VideoData
-*
+>
 >
 &
 aFrames
