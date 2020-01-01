@@ -3399,7 +3399,7 @@ NS_STYLE_BG_CLIP_BORDER
 nsLayoutUtils
 :
 :
-HasNonZeroSide
+HasNonZeroCorner
 (
 mFrame
 -
@@ -3493,7 +3493,7 @@ NS_STYLE_BG_IMAGE_NONE
 nsLayoutUtils
 :
 :
-HasNonZeroSide
+HasNonZeroCorner
 (
 mFrame
 -
@@ -4028,7 +4028,7 @@ GetBounds
 nsLayoutUtils
 :
 :
-HasNonZeroSide
+HasNonZeroCorner
 (
 outline
 -
@@ -4252,7 +4252,7 @@ IsBorderImageLoaded
 nsLayoutUtils
 :
 :
-HasNonZeroSide
+HasNonZeroCorner
 (
 styleBorder
 -
