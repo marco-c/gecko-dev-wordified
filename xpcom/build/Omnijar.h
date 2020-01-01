@@ -460,9 +460,13 @@ nsString
 .
 h
 "
-class
+#
+include
+"
 nsIFile
-;
+.
+h
+"
 class
 nsZipArchive
 ;
