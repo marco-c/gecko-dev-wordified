@@ -461,6 +461,10 @@ SetExceptionHandler
 nsILocalFile
 *
 aXREDirectory
+const
+char
+*
+aServerURL
 )
 ;
 nsresult
