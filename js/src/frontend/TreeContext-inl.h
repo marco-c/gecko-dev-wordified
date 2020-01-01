@@ -631,13 +631,6 @@ false
 stmt
 -
 >
-isFunctionBodyBlock
-=
-false
-;
-stmt
--
->
 isForLetBlock
 =
 false

@@ -634,6 +634,13 @@ stmt
 type
 )
 ;
+stmt
+-
+>
+isFunctionBodyBlock
+=
+false
+;
 }
 /
 /
