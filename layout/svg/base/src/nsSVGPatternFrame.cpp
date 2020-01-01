@@ -789,7 +789,12 @@ PR_FALSE
 nsIFrame
 methods
 :
-NS_IMETHODIMP
+/
+*
+virtual
+*
+/
+void
 nsSVGPatternFrame
 :
 :
@@ -805,7 +810,6 @@ InvalidateRenderingObservers
 this
 )
 ;
-return
 nsSVGPatternFrameBase
 :
 :

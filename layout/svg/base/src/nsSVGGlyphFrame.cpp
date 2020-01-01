@@ -1826,7 +1826,12 @@ CLAMP_MAX_SIZE
 define
 PRECISE_SIZE
 200
-NS_IMETHODIMP
+/
+*
+virtual
+*
+/
+void
 nsSVGGlyphFrame
 :
 :
@@ -1862,9 +1867,6 @@ NotifyGlyphMetricsChange
 )
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 nsSVGGlyphFrame

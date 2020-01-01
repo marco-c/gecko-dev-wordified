@@ -3804,7 +3804,8 @@ Style
 post
 processing
 hook
-NS_IMETHOD
+virtual
+void
 DidSetStyleContext
 (
 )

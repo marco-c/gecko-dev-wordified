@@ -3490,7 +3490,12 @@ Destroy
 )
 ;
 }
-NS_IMETHODIMP
+/
+*
+virtual
+*
+/
+void
 nsObjectFrame
 :
 :
@@ -3551,7 +3556,6 @@ visibility
 ;
 }
 }
-return
 nsObjectFrameSuper
 :
 :

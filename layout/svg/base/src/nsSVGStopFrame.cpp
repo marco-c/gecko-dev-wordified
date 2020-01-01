@@ -560,7 +560,8 @@ public
 nsIFrame
 interface
 :
-NS_IMETHOD
+virtual
+void
 DidSetStyleContext
 (
 )
@@ -819,7 +820,12 @@ Implementation
 nsIFrame
 methods
 :
-NS_IMETHODIMP
+/
+*
+virtual
+*
+/
+void
 nsSVGStopFrame
 :
 :
@@ -841,9 +847,6 @@ InvalidateRenderingObservers
 (
 this
 )
-;
-return
-NS_OK
 ;
 }
 nsIAtom

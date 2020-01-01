@@ -658,7 +658,8 @@ PRInt32
 aModType
 )
 ;
-NS_IMETHOD
+virtual
+void
 DidSetStyleContext
 (
 )

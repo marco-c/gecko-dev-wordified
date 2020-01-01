@@ -1345,7 +1345,12 @@ return
 r
 ;
 }
-NS_IMETHODIMP
+/
+*
+virtual
+*
+/
+void
 nsBoxFrame
 :
 :
@@ -1353,6 +1358,13 @@ DidSetStyleContext
 (
 )
 {
+nsContainerFrame
+:
+:
+DidSetStyleContext
+(
+)
+;
 /
 /
 The
@@ -1381,9 +1393,6 @@ here
 CacheAttributes
 (
 )
-;
-return
-NS_OK
 ;
 }
 /

@@ -843,7 +843,12 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+/
+*
+virtual
+*
+/
+void
 nsSVGPathGeometryFrame
 :
 :
@@ -963,9 +968,6 @@ UpdateGraphic
 (
 this
 )
-;
-return
-NS_OK
 ;
 }
 nsIAtom

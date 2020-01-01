@@ -698,7 +698,12 @@ PR_FALSE
 nsIFrame
 methods
 :
-NS_IMETHODIMP
+/
+*
+virtual
+*
+/
+void
 nsSVGGradientFrame
 :
 :
@@ -714,7 +719,6 @@ InvalidateRenderingObservers
 this
 )
 ;
-return
 nsSVGGradientFrameBase
 :
 :

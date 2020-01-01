@@ -597,7 +597,8 @@ GetCanvasTM
 nsIFrame
 interface
 :
-NS_IMETHOD
+virtual
+void
 DidSetStyleContext
 (
 )

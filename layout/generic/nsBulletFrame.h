@@ -561,7 +561,8 @@ GetType
 )
 const
 ;
-NS_IMETHOD
+virtual
+void
 DidSetStyleContext
 (
 )

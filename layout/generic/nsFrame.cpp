@@ -3106,7 +3106,12 @@ for
 style
 post
 processing
-NS_IMETHODIMP
+/
+*
+virtual
+*
+/
+void
 nsFrame
 :
 :
@@ -3243,9 +3248,6 @@ SetImageNotifiers
 this
 notifierChain
 )
-;
-return
-NS_OK
 ;
 }
 /
