@@ -1034,7 +1034,7 @@ provider
 .
 SocialService
 .
-getProviderList
+getOrderedProviderList
 (
 function
 (
