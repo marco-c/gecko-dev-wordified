@@ -649,14 +649,6 @@ HttpChannelChild
 (
 )
 ;
-nsresult
-Init
-(
-nsIURI
-*
-uri
-)
-;
 /
 /
 Methods

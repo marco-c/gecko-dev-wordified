@@ -2237,6 +2237,11 @@ nsISupports
 aState
 )
 ;
+void
+DispatchDOMWindowCreated
+(
+)
+;
 virtual
 NS_HIDDEN_
 (
@@ -4087,6 +4092,12 @@ ClearStatus
 (
 )
 ;
+virtual
+void
+UpdateParentTarget
+(
+)
+;
 /
 /
 When
@@ -5106,8 +5117,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED_NO_UNLINK
 nsGlobalChromeWindow
 nsGlobalWindow
 )
-protected
-:
 nsCOMPtr
 <
 nsIBrowserDOMWindow
@@ -5389,8 +5398,6 @@ nsNavigator
 public
 nsIDOMNavigator
 public
-nsIDOMJSNavigator
-public
 nsIDOMClientInformation
 public
 nsIDOMNavigatorGeolocation
@@ -5412,7 +5419,6 @@ nsNavigator
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMNAVIGATOR
-NS_DECL_NSIDOMJSNAVIGATOR
 NS_DECL_NSIDOMCLIENTINFORMATION
 NS_DECL_NSIDOMNAVIGATORGEOLOCATION
 void
@@ -5471,10 +5477,6 @@ mDocShell
 /
 weak
 reference
-static
-jsval
-sPrefInternal_id
-;
 }
 ;
 class

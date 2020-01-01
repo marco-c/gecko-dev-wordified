@@ -478,6 +478,13 @@ nsHttpChannelAuthProvider_h__
 #
 include
 "
+nsHttp
+.
+h
+"
+#
+include
+"
 nsIHttpChannelAuthProvider
 .
 h
@@ -1075,7 +1082,7 @@ Reference
 to
 the
 prompt
-wating
+waiting
 in
 prompt
 queue

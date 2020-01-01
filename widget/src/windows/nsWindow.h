@@ -3089,7 +3089,7 @@ alpha
 translucency
 nsRefPtr
 <
-gfxWindowsSurface
+gfxASurface
 >
 mTransparentSurface
 ;
