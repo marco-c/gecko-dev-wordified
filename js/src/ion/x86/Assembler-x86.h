@@ -1247,6 +1247,17 @@ payload_
 }
 }
 ;
+static
+const
+ValueOperand
+JSReturnOperand
+=
+ValueOperand
+(
+JSReturnReg_Type
+JSReturnReg_Data
+)
+;
 class
 Assembler
 :
