@@ -4016,6 +4016,15 @@ run
 (
 )
 {
+if
+(
+mSoftwareLayerClient
+=
+=
+null
+)
+return
+;
 synchronized
 (
 mSoftwareLayerClient
