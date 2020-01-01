@@ -20442,6 +20442,17 @@ JSRawObject
 obj
 )
 ;
+extern
+JS_PUBLIC_API
+(
+JSBool
+)
+JS_IsGlobalObject
+(
+JSRawObject
+obj
+)
+;
 /
 *
 *
