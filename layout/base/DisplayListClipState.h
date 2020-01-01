@@ -346,6 +346,10 @@ const
 nsRect
 &
 aRect
+const
+nscoord
+*
+aRadii
 DisplayItemClip
 &
 aClipOnStack
@@ -752,6 +756,8 @@ const
 nscoord
 *
 aRadii
+=
+nullptr
 )
 {
 NS_ASSERTION
@@ -797,6 +803,12 @@ const
 nsRect
 &
 aRect
+const
+nscoord
+*
+aRadii
+=
+nullptr
 )
 {
 NS_ASSERTION
@@ -830,6 +842,7 @@ mState
 ClipContentDescendants
 (
 aRect
+aRadii
 mClip
 )
 ;
