@@ -1682,6 +1682,9 @@ enum_op
 case
 JSENUMERATE_INIT
 :
+case
+JSENUMERATE_INIT_ALL
+:
 {
 if
 (
@@ -3512,6 +3515,9 @@ enum_op
 case
 JSENUMERATE_INIT
 :
+case
+JSENUMERATE_INIT_ALL
+:
 {
 if
 (
@@ -5323,6 +5329,9 @@ enum_op
 case
 JSENUMERATE_INIT
 :
+case
+JSENUMERATE_INIT_ALL
+:
 {
 nsCOMPtr
 <
@@ -6818,6 +6827,9 @@ enum_op
 case
 JSENUMERATE_INIT
 :
+case
+JSENUMERATE_INIT_ALL
+:
 {
 nsCOMPtr
 <
@@ -8269,6 +8281,9 @@ enum_op
 {
 case
 JSENUMERATE_INIT
+:
+case
+JSENUMERATE_INIT_ALL
 :
 {
 if

@@ -8146,6 +8146,9 @@ enum_op
 case
 JSENUMERATE_INIT
 :
+case
+JSENUMERATE_INIT_ALL
+:
 state
 =
 new
