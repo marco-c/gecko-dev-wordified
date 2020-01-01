@@ -1012,7 +1012,7 @@ xdr
 len
 )
 ;
-js_memcpy
+memcpy
 (
 bytes
 MEM_DATA
@@ -1052,7 +1052,7 @@ xdr
 len
 )
 ;
-js_memcpy
+memcpy
 (
 MEM_DATA
 (

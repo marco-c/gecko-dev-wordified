@@ -1389,7 +1389,7 @@ bin
 ]
 ;
 }
-js_memcpy
+memcpy
 (
 bs
 -

@@ -4106,7 +4106,7 @@ thisv
 =
 thisv
 ;
-PodCopy
+memcpy
 (
 args
 .
@@ -4115,6 +4115,11 @@ array
 )
 argv
 argc
+*
+sizeof
+(
+Value
+)
 )
 ;
 if
@@ -4517,7 +4522,7 @@ setMagic
 JS_THIS_POISON
 )
 ;
-PodCopy
+memcpy
 (
 args
 .
@@ -4526,6 +4531,11 @@ array
 )
 argv
 argc
+*
+sizeof
+(
+Value
+)
 )
 ;
 if

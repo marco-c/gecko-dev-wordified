@@ -984,7 +984,7 @@ return
 NULL
 ;
 }
-js_memcpy
+memcpy
 (
 buffer
 +

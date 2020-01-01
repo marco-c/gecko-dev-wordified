@@ -13953,11 +13953,16 @@ return
 false
 ;
 }
-PodCopy
+memcpy
 (
 newArray
 pendingArray
 pendingCount
+*
+sizeof
+(
+PendingWork
+)
 )
 ;
 cx

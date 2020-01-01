@@ -21414,7 +21414,7 @@ array
 0
 )
 ;
-js_memcpy
+memcpy
 (
 TypedArray
 :
