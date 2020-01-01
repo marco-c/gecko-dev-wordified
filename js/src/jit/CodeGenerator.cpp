@@ -276,6 +276,15 @@ h
 #
 include
 "
+jit
+/
+RangeAnalysis
+.
+h
+"
+#
+include
+"
 vm
 /
 ForkJoin
