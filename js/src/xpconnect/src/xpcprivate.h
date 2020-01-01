@@ -20189,6 +20189,15 @@ const
 nsAString
 &
 readable
+PRBool
+dontAddrefShared
+=
+PR_FALSE
+PRBool
+*
+sharedBuffer
+=
+nsnull
 )
 ;
 static
