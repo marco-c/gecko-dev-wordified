@@ -2797,7 +2797,7 @@ arguments
 to
 copy
 .
-JS_STATIC_ASSERT
+JS_ASSERT
 (
 ArgumentsRectifierReg
 =
