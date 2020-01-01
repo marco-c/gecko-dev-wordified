@@ -777,6 +777,12 @@ isFunctionFrame
 const
 ;
 bool
+isParallelFunctionFrame
+(
+)
+const
+;
+bool
 isConstructing
 (
 )
