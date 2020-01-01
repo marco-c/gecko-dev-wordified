@@ -13959,6 +13959,10 @@ mSurfaceHeight
 -
 1
 )
+mPointerUsage
+(
+POINTER_USAGE_NONE
+)
 {
 }
 TouchInputMapper
