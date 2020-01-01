@@ -1253,13 +1253,11 @@ e
 (
 LOGTAG
 "
-#
-#
-#
-Exception
+Error
+registering
+compositor
 !
 "
-+
 e
 )
 ;

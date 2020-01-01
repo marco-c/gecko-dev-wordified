@@ -3487,9 +3487,7 @@ write
 a
 sent
 message
-:
 "
-+
 e
 )
 ;
@@ -4012,9 +4010,7 @@ trying
 to
 get
 message
-:
 "
-+
 e
 )
 ;
@@ -4247,7 +4243,6 @@ one
 message
 ?
 "
-+
 e
 )
 ;
@@ -4282,9 +4277,7 @@ to
 delete
 a
 message
-:
 "
-+
 e
 )
 ;
@@ -5035,9 +5028,7 @@ Unexcepted
 delivery
 state
 type
-:
 "
-+
 e
 )
 ;
@@ -5074,9 +5065,7 @@ a
 message
 list
 cursor
-:
 "
-+
 e
 )
 ;
@@ -5491,9 +5480,7 @@ Unexcepted
 delivery
 state
 type
-:
 "
-+
 e
 )
 ;
@@ -5532,9 +5519,7 @@ message
 of
 a
 list
-:
 "
-+
 e
 )
 ;
