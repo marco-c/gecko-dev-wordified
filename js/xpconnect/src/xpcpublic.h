@@ -374,6 +374,14 @@ JSObject
 contentScope
 )
 ;
+bool
+IsSandboxPrototypeProxy
+(
+JSObject
+*
+obj
+)
+;
 }
 /
 *
