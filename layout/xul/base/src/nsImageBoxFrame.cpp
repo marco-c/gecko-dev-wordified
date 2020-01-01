@@ -1369,11 +1369,10 @@ mListener
 nsImageBoxListener
 *
 listener
-;
-NS_NEWXPCOM
-(
-listener
+=
+new
 nsImageBoxListener
+(
 )
 ;
 NS_ADDREF

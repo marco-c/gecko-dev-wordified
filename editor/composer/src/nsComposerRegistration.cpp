@@ -774,11 +774,10 @@ NS_ERROR_NO_AGGREGATION
 nsComposeTxtSrvFilter
 *
 inst
-;
-NS_NEWXPCOM
-(
-inst
+=
+new
 nsComposeTxtSrvFilter
+(
 )
 ;
 if

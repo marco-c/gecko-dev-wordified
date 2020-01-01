@@ -3794,10 +3794,11 @@ aProxyRequest
 }
 else
 {
-NS_NEWXPCOM
-(
 proxyRequest
+=
+new
 imgRequestProxy
+(
 )
 ;
 if

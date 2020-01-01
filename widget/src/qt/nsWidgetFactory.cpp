@@ -720,10 +720,11 @@ aOuter
 return
 NS_ERROR_NO_AGGREGATION
 ;
-NS_NEWXPCOM
-(
 inst
+=
+new
 nsNativeThemeQt
+(
 )
 ;
 if
