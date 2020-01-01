@@ -1219,6 +1219,11 @@ FireAndWaitForTracerEvent
 (
 )
 ;
+bool
+GetAccessibilityEnabled
+(
+)
+;
 struct
 AutoLocalJNIFrame
 {
@@ -2005,6 +2010,9 @@ jCreateShortcut
 ;
 jmethodID
 jGetShowPasswordSetting
+;
+jmethodID
+jGetAccessibilityEnabled
 ;
 jmethodID
 jPostToJavaThread
