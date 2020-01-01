@@ -115,6 +115,13 @@ nsIProtocolHandler
 {
 public
 :
+virtual
+~
+nsHostObjectProtocolHandler
+(
+)
+{
+}
 NS_DECL_ISUPPORTS
 /
 /
