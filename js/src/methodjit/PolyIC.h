@@ -625,7 +625,7 @@ check
 slow
 path
 .
-uint32
+int32
 typeCheckOffset
 ;
 /
@@ -1439,6 +1439,12 @@ index
 )
 ;
 }
+/
+*
+namespace
+ic
+*
+/
 }
 /
 *
