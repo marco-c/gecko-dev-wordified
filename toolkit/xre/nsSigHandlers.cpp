@@ -1277,6 +1277,9 @@ NULL
 }
 #
 endif
+#
+ifdef
+SA_SIGINFO
 static
 void
 fpehandler
@@ -1956,6 +1959,8 @@ endif
 #
 endif
 }
+#
+endif
 void
 InstallSignalHandlers
 (
@@ -2093,6 +2098,9 @@ endif
 /
 /
 CRAWL_STACK_ON_SIGSEGV
+#
+ifdef
+SA_SIGINFO
 /
 *
 Install
@@ -2149,6 +2157,8 @@ sa
 osa
 )
 ;
+#
+endif
 #
 if
 defined

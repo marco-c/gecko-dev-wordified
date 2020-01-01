@@ -763,12 +763,17 @@ FatalSignalHandler
 (
 int
 signo
+#
+ifdef
+SA_SIGINFO
 siginfo_t
 *
 info
 void
 *
 context
+#
+endif
 )
 ;
 static
