@@ -12728,11 +12728,17 @@ Update
 on
 each
 one
+if
+(
+mRootView
+)
+{
 UpdateWidgetsForView
 (
 mRootView
 )
 ;
+}
 return
 NS_OK
 ;
