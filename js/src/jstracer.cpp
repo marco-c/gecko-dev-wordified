@@ -88563,9 +88563,12 @@ pc
 jsid
 id
 =
+js_CheckForStringIndex
+(
 ATOM_TO_JSID
 (
 atom
+)
 )
 ;
 /
