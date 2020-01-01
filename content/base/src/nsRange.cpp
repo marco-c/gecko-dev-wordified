@@ -4032,6 +4032,11 @@ implementation
 *
 *
 /
+/
+*
+virtual
+*
+/
 nsINode
 *
 nsRange
@@ -4057,6 +4062,11 @@ mEndParent
 nsnull
 ;
 }
+/
+*
+virtual
+*
+/
 void
 nsRange
 :
@@ -4188,7 +4198,7 @@ functionality
 *
 *
 /
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -4216,7 +4226,7 @@ aStartParent
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -4244,7 +4254,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -4272,7 +4282,7 @@ aEndParent
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -4300,7 +4310,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -4337,7 +4347,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -4673,7 +4683,7 @@ return
 root
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -4710,6 +4720,11 @@ aOffset
 )
 ;
 }
+/
+*
+virtual
+*
+/
 nsresult
 nsRange
 :
@@ -4836,7 +4851,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -4899,7 +4914,7 @@ aSibling
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -4964,7 +4979,7 @@ aSibling
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -5001,6 +5016,11 @@ aOffset
 )
 ;
 }
+/
+*
+virtual
+*
+/
 nsresult
 nsRange
 :
@@ -5129,7 +5149,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -5192,7 +5212,7 @@ aSibling
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -5257,7 +5277,7 @@ aSibling
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -5309,7 +5329,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -5405,7 +5425,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -7453,7 +7473,7 @@ aEndNode
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 PrependChild
 (
 nsIDOMNode
@@ -9005,7 +9025,7 @@ return
 rv
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -9020,7 +9040,7 @@ nsnull
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -9307,6 +9327,11 @@ return
 NS_OK
 ;
 }
+/
+*
+static
+*
+/
 nsresult
 nsRange
 :
@@ -9523,7 +9548,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -10770,6 +10795,11 @@ return
 rv
 ;
 }
+/
+*
+virtual
+*
+/
 nsresult
 nsRange
 :
@@ -10790,7 +10820,7 @@ aReturn
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -11144,7 +11174,7 @@ tResultNode
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -11572,7 +11602,7 @@ aNewParent
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -12147,7 +12177,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
