@@ -4078,7 +4078,7 @@ Length
 mJNIEnv
 -
 >
-CallStaticObjectMethod
+CallStaticVoidMethod
 (
 mGeckoAppShellClass
 jSetClipboardText
@@ -4155,7 +4155,7 @@ EmptyClipboard
 mJNIEnv
 -
 >
-CallStaticObjectMethod
+CallStaticVoidMethod
 (
 mGeckoAppShellClass
 jSetClipboardText
