@@ -2911,6 +2911,8 @@ mMetrics
 xHeight
 ;
 }
+/
+/
 pango_fc_font_unlock_face
 (
 PANGO_FC_FONT
