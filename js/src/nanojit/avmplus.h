@@ -1080,6 +1080,9 @@ architecture
 struct
 JSContext
 ;
+namespace
+avmplus
+{
 class
 GC
 ;
@@ -1132,6 +1135,9 @@ define
 MMGC_SUBCLASS_DECL
 :
 public
+avmplus
+:
+:
 GCObject
 class
 GCFinalizedObject
@@ -1488,9 +1494,6 @@ typedef
 int
 FunctionID
 ;
-namespace
-avmplus
-{
 class
 String
 {
