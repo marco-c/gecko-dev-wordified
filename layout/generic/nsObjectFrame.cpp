@@ -1827,11 +1827,11 @@ mLastSequenceNumber
 aSequenceNumber
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 PRUint64
@@ -1859,7 +1859,7 @@ aContext
 )
 mReflowCallbackPosted
 (
-PR_FALSE
+false
 )
 {
 PR_LOG
@@ -2167,7 +2167,7 @@ late
 .
 StopPluginInternal
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -2744,7 +2744,7 @@ InsertChild
 view
 mInnerView
 nsnull
-PR_TRUE
+true
 )
 ;
 nsresult
@@ -2782,19 +2782,19 @@ initData
 .
 mUnicode
 =
-PR_FALSE
+false
 ;
 initData
 .
 clipChildren
 =
-PR_TRUE
+true
 ;
 initData
 .
 clipSiblings
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -2916,7 +2916,7 @@ mWidget
 >
 EnableDragDrop
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -3006,7 +3006,7 @@ mWidget
 >
 Show
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -3399,7 +3399,7 @@ if
 !
 IsHidden
 (
-PR_FALSE
+false
 )
 )
 {
@@ -3524,7 +3524,7 @@ if
 (
 IsHidden
 (
-PR_FALSE
+false
 )
 )
 {
@@ -4229,7 +4229,7 @@ Size
 (
 )
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -4250,7 +4250,7 @@ mReflowCallbackPosted
 {
 mReflowCallbackPosted
 =
-PR_TRUE
+true
 ;
 aPresContext
 -
@@ -4320,14 +4320,14 @@ ReflowFinished
 {
 mReflowCallbackPosted
 =
-PR_FALSE
+false
 ;
 CallSetWindow
 (
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -4340,7 +4340,7 @@ ReflowCallbackCanceled
 {
 mReflowCallbackPosted
 =
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -4832,7 +4832,7 @@ mInstanceOwner
 >
 UpdateWindowPositionAndClipRect
 (
-PR_FALSE
+false
 )
 ;
 #
@@ -5243,7 +5243,7 @@ IsVisibleOrCollapsed
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -5424,12 +5424,12 @@ off
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsIntPoint
@@ -6053,7 +6053,7 @@ aAllowVisibleRegionExpansion
 )
 )
 return
-PR_FALSE
+false
 ;
 nsRect
 expand
@@ -6130,7 +6130,7 @@ expand
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsRect
@@ -6260,7 +6260,7 @@ aForceTransparentSurface
 *
 aForceTransparentSurface
 =
-PR_FALSE
+false
 ;
 }
 nsRegion
@@ -7010,7 +7010,7 @@ XP_MACOSX
 ?
 ?
 return
-PR_FALSE
+false
 ;
 #
 else
@@ -7044,7 +7044,7 @@ XP_MACOSX
 ?
 ?
 return
-PR_FALSE
+false
 ;
 #
 else
@@ -7054,7 +7054,7 @@ if
 mInstanceOwner
 )
 return
-PR_FALSE
+false
 ;
 NPWindow
 *
@@ -7079,7 +7079,7 @@ type
 NPWindowTypeDrawable
 )
 return
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -7115,7 +7115,7 @@ rv
 pi
 )
 return
-PR_FALSE
+false
 ;
 bool
 transparent
@@ -7357,7 +7357,7 @@ mInstanceOwner
 >
 UpdateWindowVisibility
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -11177,7 +11177,7 @@ mInstanceOwner
 >
 SetPluginPortChanged
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -11497,7 +11497,7 @@ ctx
 UserToDevicePixelSnapped
 (
 frameGfxRect
-PR_FALSE
+false
 )
 )
 {
@@ -11977,7 +11977,7 @@ origin
 =
 GetWindowOriginInPixels
 (
-PR_TRUE
+true
 )
 ;
 nsIntRect
@@ -12641,7 +12641,7 @@ hps
 ;
 doupdatewindow
 =
-PR_TRUE
+true
 ;
 }
 LONG
@@ -12782,7 +12782,7 @@ y
 ;
 doupdatewindow
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -13288,7 +13288,7 @@ plugins
 .
 StopPluginInternal
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -13554,7 +13554,7 @@ what
 ;
 mPreventInstantiation
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -13597,7 +13597,7 @@ prevented
 ;
 mPreventInstantiation
 =
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -13886,7 +13886,7 @@ what
 ;
 mPreventInstantiation
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -14010,7 +14010,7 @@ mContent
 endif
 mPreventInstantiation
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -14295,7 +14295,7 @@ Flash
 )
 )
 return
-PR_FALSE
+false
 ;
 #
 endif
@@ -14417,11 +14417,11 @@ evt
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -14852,7 +14852,7 @@ nsnull
 DoStopPlugin
 (
 mInstanceOwner
-PR_FALSE
+false
 )
 ;
 return
@@ -15247,7 +15247,7 @@ mPreventInstantiation
 ;
 mPreventInstantiation
 =
-PR_TRUE
+true
 ;
 nsWeakFrame
 weakFrame
