@@ -5796,8 +5796,6 @@ newWindow
 >
 SetInitialPrincipalToSubject
 (
-newDocShellItem
-aParent
 )
 ;
 }
