@@ -252,9 +252,6 @@ ColorLayerAttributes
 GetColor
 (
 )
-GetBounds
-(
-)
 )
 ;
 }
