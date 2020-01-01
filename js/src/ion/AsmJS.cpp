@@ -1898,7 +1898,10 @@ ts
 .
 peekToken
 (
-TSF_OPERAND
+TokenStream
+:
+:
+Operand
 )
 =
 =
@@ -1906,9 +1909,9 @@ TOK_SEMI
 )
 ts
 .
-getToken
+consumeKnownToken
 (
-TSF_OPERAND
+TOK_SEMI
 )
 ;
 return
@@ -1916,7 +1919,10 @@ ts
 .
 peekToken
 (
-TSF_OPERAND
+TokenStream
+:
+:
+Operand
 )
 ;
 }
@@ -31193,7 +31199,10 @@ tokenStream
 .
 getToken
 (
-TSF_KEYWORD_IS_NAME
+TokenStream
+:
+:
+KeywordIsName
 )
 !
 =
@@ -34882,7 +34891,6 @@ parser
 .
 statement
 (
-TSF_OPERAND
 )
 ;
 if
