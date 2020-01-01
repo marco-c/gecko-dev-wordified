@@ -2248,10 +2248,13 @@ obj
 {
 if
 (
-IS_GC_MARKING_TRACER
-(
 trc
-)
+-
+>
+runtime
+-
+>
+gcRunning
 )
 obj
 -
