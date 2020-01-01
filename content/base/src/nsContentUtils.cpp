@@ -1408,6 +1408,13 @@ h
 #
 include
 "
+nsAHtml5FragmentParser
+.
+h
+"
+#
+include
+"
 nsIViewManager
 .
 h
@@ -1958,7 +1965,7 @@ sInitialized
 =
 PR_FALSE
 ;
-nsHtml5Parser
+nsAHtml5FragmentParser
 *
 nsContentUtils
 :
@@ -20727,7 +20734,7 @@ sHTMLFragmentParser
 =
 static_cast
 <
-nsHtml5Parser
+nsAHtml5FragmentParser
 *
 >
 (

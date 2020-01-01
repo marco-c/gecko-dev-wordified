@@ -2948,7 +2948,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsHtml5Parser
 :
 :

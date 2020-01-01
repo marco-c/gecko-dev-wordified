@@ -693,7 +693,7 @@ h
 #
 include
 "
-nsHtml5Parser
+nsAHtml5FragmentParser
 .
 h
 "
@@ -11148,7 +11148,7 @@ PRBool
 sAllowXULXBL_for_file
 ;
 static
-nsHtml5Parser
+nsAHtml5FragmentParser
 *
 sHTMLFragmentParser
 ;
