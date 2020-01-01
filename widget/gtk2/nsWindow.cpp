@@ -9973,11 +9973,15 @@ GtkWidget
 top_focused_window
 =
 gFocusWindow
+?
+gFocusWindow
 -
 >
 GetToplevelWidget
 (
 )
+:
+nullptr
 ;
 /
 /
