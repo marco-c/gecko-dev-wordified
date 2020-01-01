@@ -351,6 +351,7 @@ EventUtils
 synthesizeDrop
 (
 tab
+tab
 [
 [
 {
