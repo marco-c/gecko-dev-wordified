@@ -1294,6 +1294,10 @@ if
 mClosed
 )
 {
+mClosed
+=
+true
+;
 /
 /
 If
@@ -1417,10 +1421,6 @@ aIsDead
 )
 ;
 }
-mClosed
-=
-true
-;
 }
 }
 bool
