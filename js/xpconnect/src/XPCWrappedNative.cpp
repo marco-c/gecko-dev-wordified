@@ -16307,12 +16307,6 @@ if
 isArray
 )
 {
-XPCLazyCallContext
-lccx
-(
-mCallContext
-)
-;
 if
 (
 !
