@@ -1893,6 +1893,15 @@ AsyncPanZoomController
 aApzc2
 )
 ;
+AsyncPanZoomController
+*
+RootAPZCForLayersId
+(
+AsyncPanZoomController
+*
+aApzc
+)
+;
 /
 *
 *
