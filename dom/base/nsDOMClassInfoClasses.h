@@ -1336,6 +1336,10 @@ MozSmsCursor
 )
 DOMCI_CLASS
 (
+MozSmsSegmentInfo
+)
+DOMCI_CLASS
+(
 MozConnection
 )
 #

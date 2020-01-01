@@ -199,13 +199,13 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-RecvGetNumberOfMessagesForText
+RecvGetSegmentInfoForText
 (
 const
 nsString
 &
 aText
-uint16_t
+SmsSegmentInfoData
 *
 aResult
 )
