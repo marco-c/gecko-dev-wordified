@@ -795,13 +795,7 @@ aWindow
 aMessage
 aWParam
 aLParam
-&
 aResult
-.
-mResult
-aResult
-.
-mConsumed
 )
 ;
 }
