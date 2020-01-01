@@ -43,7 +43,7 @@ function
 trap
 (
 main
-95
+56
 "
 success
 (
