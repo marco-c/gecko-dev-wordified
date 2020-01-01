@@ -3462,7 +3462,7 @@ js_GCThingIsMarked
 void
 *
 thing
-uint32
+uintN
 color
 =
 BLACK

@@ -672,7 +672,7 @@ obj
 wrapper
 -
 >
-GetJSObject
+GetJSObjectPreserveColor
 (
 )
 ;
@@ -754,7 +754,7 @@ mTable
 wrapper
 -
 >
-GetJSObject
+GetJSObjectPreserveColor
 (
 )
 JS_DHASH_REMOVE
