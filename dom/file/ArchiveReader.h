@@ -229,7 +229,10 @@ JSObject
 aObj
 uint32_t
 aArgc
-jsval
+JS
+:
+:
+Value
 *
 aArgv
 )
