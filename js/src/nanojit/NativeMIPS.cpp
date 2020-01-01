@@ -2770,7 +2770,7 @@ NanoAssert
 value
 -
 >
-isconstq
+isconstf
 (
 )
 )
@@ -7811,7 +7811,7 @@ if
 value
 -
 >
-isconstq
+isconstf
 (
 )
 )

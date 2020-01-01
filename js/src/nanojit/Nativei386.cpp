@@ -4003,7 +4003,7 @@ if
 value
 -
 >
-isconstq
+isconstf
 (
 )
 )
@@ -10880,7 +10880,7 @@ if
 rhs
 -
 >
-isconstq
+isconstf
 (
 )
 )
@@ -13376,7 +13376,7 @@ if
 rhs
 -
 >
-isconstq
+isconstf
 (
 )
 )

@@ -2677,7 +2677,7 @@ if
 value
 -
 >
-isconstq
+isconstf
 (
 )
 )
