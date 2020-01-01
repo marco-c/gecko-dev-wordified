@@ -150,7 +150,7 @@ aManager
 ImageLayer
 (
 aManager
-NULL
+nullptr
 )
 LayerD3D10
 (
@@ -306,7 +306,7 @@ RemoteDXGITextureImage
 :
 Image
 (
-NULL
+nullptr
 REMOTE_IMAGE_DXGI_TEXTURE
 )
 {

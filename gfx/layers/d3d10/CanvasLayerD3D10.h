@@ -152,7 +152,7 @@ aManager
 CanvasLayer
 (
 aManager
-NULL
+nullptr
 )
 LayerD3D10
 (

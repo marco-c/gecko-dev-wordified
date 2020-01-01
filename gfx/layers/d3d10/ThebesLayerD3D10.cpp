@@ -249,7 +249,7 @@ aManager
 ThebesLayer
 (
 aManager
-NULL
+nullptr
 )
 LayerD3D10
 (
@@ -1632,7 +1632,7 @@ CreateTexture2D
 (
 &
 desc
-NULL
+nullptr
 getter_AddRefs
 (
 readbackTexture
@@ -2063,7 +2063,7 @@ getter_AddRefs
 (
 oldRT
 )
-NULL
+nullptr
 )
 ;
 nsRefPtr
@@ -2086,7 +2086,7 @@ device
 CreateRenderTargetView
 (
 mTexture
-NULL
+nullptr
 getter_AddRefs
 (
 viewBlack
@@ -2101,7 +2101,7 @@ device
 CreateRenderTargetView
 (
 mTextureOnWhite
-NULL
+nullptr
 getter_AddRefs
 (
 viewWhite
@@ -2221,7 +2221,7 @@ OMSetRenderTargets
 (
 2
 views
-NULL
+nullptr
 )
 ;
 gfx3DMatrix
@@ -2416,7 +2416,7 @@ OMSetRenderTargets
 (
 1
 views
-NULL
+nullptr
 )
 ;
 mD3DManager
@@ -2949,7 +2949,7 @@ CreateTexture2D
 (
 &
 desc
-NULL
+nullptr
 getter_AddRefs
 (
 mTexture
@@ -2991,7 +2991,7 @@ device
 CreateShaderResourceView
 (
 mTexture
-NULL
+nullptr
 getter_AddRefs
 (
 mSRView
@@ -3089,7 +3089,7 @@ ThebesLayerD3D10
 ;
 mD2DSurface
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -3126,7 +3126,7 @@ CreateTexture2D
 (
 &
 desc
-NULL
+nullptr
 getter_AddRefs
 (
 mTextureOnWhite
@@ -3168,7 +3168,7 @@ device
 CreateShaderResourceView
 (
 mTextureOnWhite
-NULL
+nullptr
 getter_AddRefs
 (
 mSRViewOnWhite

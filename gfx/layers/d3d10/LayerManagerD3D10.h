@@ -933,7 +933,7 @@ mNv3DVUtils
 *
 Context
 target
-NULL
+nullptr
 when
 drawing
 directly

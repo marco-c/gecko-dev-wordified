@@ -128,7 +128,7 @@ aManager
 ColorLayer
 (
 aManager
-NULL
+nullptr
 )
 LayerD3D10
 (

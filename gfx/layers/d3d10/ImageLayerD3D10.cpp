@@ -300,7 +300,7 @@ aSurface
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -658,7 +658,7 @@ dat
 -
 >
 mTexture
-NULL
+nullptr
 getter_AddRefs
 (
 dat
@@ -869,7 +869,7 @@ dat
 -
 >
 mTexture
-NULL
+nullptr
 getter_AddRefs
 (
 dat
@@ -1058,7 +1058,7 @@ dat
 -
 >
 mTexture
-NULL
+nullptr
 getter_AddRefs
 (
 dat
@@ -2072,7 +2072,7 @@ mYTexture
 HANDLE
 )
 (
-NULL
+nullptr
 )
 )
 ;
@@ -2646,7 +2646,7 @@ backendData
 -
 >
 mYTexture
-NULL
+nullptr
 getter_AddRefs
 (
 backendData
@@ -2667,7 +2667,7 @@ backendData
 -
 >
 mCbTexture
-NULL
+nullptr
 getter_AddRefs
 (
 backendData
@@ -2688,7 +2688,7 @@ backendData
 -
 >
 mCrTexture
-NULL
+nullptr
 getter_AddRefs
 (
 backendData
@@ -3036,7 +3036,7 @@ CreateTexture2D
 (
 &
 desc
-NULL
+nullptr
 getter_AddRefs
 (
 softTexture
@@ -3398,7 +3398,7 @@ aDevice
 CreateShaderResourceView
 (
 texture
-NULL
+nullptr
 getter_AddRefs
 (
 data
