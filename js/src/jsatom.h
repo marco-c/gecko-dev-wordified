@@ -2841,6 +2841,10 @@ JSAtom
 *
 WeakMapAtom
 ;
+JSAtom
+*
+byteLengthAtom
+;
 /
 *
 Less

@@ -1515,6 +1515,14 @@ WeakMap
 WeakMapAtom
 *
 /
+"
+byteLength
+"
+/
+*
+byteLengthAtom
+*
+/
 }
 ;
 void
