@@ -181,6 +181,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+VisualEventTracer
+.
+h
+"
+#
+include
 <
 algorithm
 >
