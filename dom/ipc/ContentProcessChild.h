@@ -177,6 +177,12 @@ Quit
 (
 )
 ;
+virtual
+nsresult
+RecvQuit
+(
+)
+;
 private
 :
 static
@@ -201,6 +207,9 @@ TestShellProtocolChild
 >
 >
 mTestShells
+;
+PRBool
+mQuit
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (

@@ -2974,6 +2974,14 @@ MessageLoop
 aUILoop
 )
 )
+XRE_API
+(
+MessageLoop
+*
+XRE_GetIOMessageLoop
+(
+)
+)
 struct
 JSContext
 ;

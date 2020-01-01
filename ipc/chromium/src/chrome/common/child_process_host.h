@@ -627,6 +627,13 @@ NotificationType
 type
 )
 ;
+#
+ifdef
+CHROMIUM_MOZILLA_BUILD
+protected
+:
+#
+endif
 /
 /
 WaitableEventWatcher
@@ -647,6 +654,13 @@ WaitableEvent
 event
 )
 ;
+#
+ifdef
+CHROMIUM_MOZILLA_BUILD
+private
+:
+#
+endif
 /
 /
 By
