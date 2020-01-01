@@ -6571,6 +6571,8 @@ mozilla
 org
 "
 ]
+callback_soon
+(
 function
 (
 [
@@ -7158,8 +7160,9 @@ a3
 isActive
 )
 ;
-end_test
+do_execute_soon
 (
+end_test
 )
 ;
 }
@@ -7169,6 +7172,7 @@ end_test
 )
 ;
 }
+)
 )
 ;
 }

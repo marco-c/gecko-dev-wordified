@@ -1315,6 +1315,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 olda1
@@ -1461,6 +1463,7 @@ run_test_3
 )
 ;
 }
+)
 )
 ;
 }
@@ -2359,7 +2362,10 @@ onInstallStarted
 onInstallEnded
 "
 ]
+callback_soon
+(
 check_test_6
+)
 )
 ;
 }
@@ -3291,8 +3297,9 @@ getTime
 (
 )
 ;
-run_test_8
+do_execute_soon
 (
+run_test_8
 )
 ;
 }
@@ -3831,6 +3838,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 a2
@@ -4604,6 +4613,7 @@ UPDATE_WHEN_NEW_APP_INSTALLED
 ;
 }
 )
+)
 ;
 }
 /
@@ -4902,8 +4912,9 @@ addon
 isCompatible
 )
 ;
-run_test_12
+do_execute_soon
 (
+run_test_12
 )
 ;
 }
@@ -7032,8 +7043,9 @@ function
 (
 )
 {
-end_test
+do_execute_soon
 (
+end_test
 )
 ;
 }
