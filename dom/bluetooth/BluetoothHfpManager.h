@@ -573,9 +573,8 @@ mMsisdn
 nsString
 mOperatorName
 ;
-enum
 SocketConnectionStatus
-mSocketStatus
+mPrevSocketStatus
 ;
 nsTArray
 <
