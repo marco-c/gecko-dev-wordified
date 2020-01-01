@@ -1270,6 +1270,8 @@ s
                           
 (
 test
+.
+path
 msg
 )
 )
