@@ -190,6 +190,9 @@ class
 AudioListener
 ;
 class
+BiquadFilterNode
+;
+class
 DelayNode
 ;
 class
@@ -352,6 +355,14 @@ already_AddRefed
 DynamicsCompressorNode
 >
 CreateDynamicsCompressor
+(
+)
+;
+already_AddRefed
+<
+BiquadFilterNode
+>
+CreateBiquadFilter
 (
 )
 ;
