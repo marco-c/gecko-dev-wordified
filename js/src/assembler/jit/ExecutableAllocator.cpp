@@ -13,7 +13,7 @@ tab
 -
 width
 :
-8
+4
 ;
 indent
 -
@@ -40,13 +40,10 @@ set
 ts
 =
 8
-sts
-=
-4
-et
 sw
 =
 4
+et
 tw
 =
 99

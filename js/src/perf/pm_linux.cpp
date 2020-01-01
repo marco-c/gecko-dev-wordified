@@ -13,7 +13,7 @@ tab
 -
 width
 :
-8
+4
 ;
 indent
 -
