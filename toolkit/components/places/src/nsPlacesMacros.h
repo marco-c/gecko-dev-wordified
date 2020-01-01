@@ -462,7 +462,7 @@ array
 .
 #
 define
-NOTIFY_OBSERVERS
+ENUMERATE_OBSERVERS
 (
 canFire
 cache

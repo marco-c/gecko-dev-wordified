@@ -18388,7 +18388,7 @@ aTransitionType
 TRANSITION_DOWNLOAD
 )
 {
-NOTIFY_OBSERVERS
+ENUMERATE_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -28217,7 +28217,7 @@ BeginTransaction
 (
 )
 ;
-NOTIFY_OBSERVERS
+ENUMERATE_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -28272,7 +28272,7 @@ mBatchHasTransaction
 =
 PR_FALSE
 ;
-NOTIFY_OBSERVERS
+ENUMERATE_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -30421,7 +30421,7 @@ notify
 our
 observers
 !
-NOTIFY_OBSERVERS
+ENUMERATE_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -30469,7 +30469,7 @@ has
 been
 removed
 .
-NOTIFY_OBSERVERS
+ENUMERATE_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -32700,7 +32700,7 @@ care
 of
 orphans
 .
-NOTIFY_OBSERVERS
+ENUMERATE_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -36880,7 +36880,7 @@ has
 been
 removed
 .
-NOTIFY_OBSERVERS
+ENUMERATE_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -36910,7 +36910,7 @@ have
 been
 removed
 .
-NOTIFY_OBSERVERS
+ENUMERATE_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -46616,7 +46616,7 @@ nsAString
 aValue
 )
 {
-NOTIFY_OBSERVERS
+ENUMERATE_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -47419,7 +47419,7 @@ it
 s
 bookmarked
 )
-NOTIFY_OBSERVERS
+ENUMERATE_OBSERVERS
 (
 mCanNotify
 mCacheObservers
