@@ -745,7 +745,7 @@ hasPageMenu
 =
 PageMenu
 .
-init
+maybeBuildAndAttachMenu
 (
 this
 .
