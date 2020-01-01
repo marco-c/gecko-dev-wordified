@@ -3618,7 +3618,7 @@ GetReentrantMonitor
 mDecoder
 -
 >
-UpdateMediaDuration
+UpdateEstimatedMediaDuration
 (
 mDurationUs
 )

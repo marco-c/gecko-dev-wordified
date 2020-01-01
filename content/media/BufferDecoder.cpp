@@ -444,7 +444,7 @@ void
 BufferDecoder
 :
 :
-UpdateMediaDuration
+UpdateEstimatedMediaDuration
 (
 int64_t
 aDuration
