@@ -603,10 +603,9 @@ defineProperty
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 wrapper
-jsid
+HandleId
 id
 PropertyDescriptor
 *
@@ -1251,10 +1250,9 @@ defineProperty
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 wrapper
-jsid
+HandleId
 id
 PropertyDescriptor
 *
