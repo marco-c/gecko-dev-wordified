@@ -795,6 +795,13 @@ nsIFrame
 aPrevInFlow
 )
 ;
+virtual
+nsSplittableType
+GetSplittableType
+(
+)
+const
+;
 /
 *
 *
