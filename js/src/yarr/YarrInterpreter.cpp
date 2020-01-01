@@ -961,6 +961,17 @@ sizeof
 uintptr_t
 )
 ;
+size
+=
+JS_ROUNDUP
+(
+size
+JS_ALIGNMENT_OF
+(
+ParenthesesDisjunctionContext
+)
+)
+;
 allocatorPool
 =
 allocatorPool
