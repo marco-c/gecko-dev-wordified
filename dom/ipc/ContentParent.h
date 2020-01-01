@@ -392,10 +392,6 @@ ContentParent
 *
 GetNewOrUsed
 (
-bool
-aForBrowserElement
-=
-false
 )
 ;
 /
@@ -698,8 +694,6 @@ const
 nsAString
 &
 aAppManifestURL
-bool
-aIsForBrowser
 )
 ;
 virtual
