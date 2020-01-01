@@ -2828,7 +2828,7 @@ elem
 &
 elem
 .
-hasAttribute
+parentNode
 )
 {
 var
@@ -2869,6 +2869,13 @@ if
 (
 !
 ctxMenuId
+&
+&
+'
+hasAttribute
+'
+in
+elem
 &
 &
 elem
