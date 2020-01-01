@@ -1021,7 +1021,7 @@ T_saveChangedIDs
 {
 Utils
 .
-delay
+namedTimer
 (
 function
 (
@@ -1654,11 +1654,7 @@ _timer
 .
 initWithCallback
 (
-{
-notify
-:
 cb
-}
 delay
 Ci
 .
@@ -3560,7 +3556,7 @@ val
 ;
 Utils
 .
-delay
+namedTimer
 (
 function
 (
@@ -3700,7 +3696,7 @@ val
 ;
 Utils
 .
-delay
+namedTimer
 (
 function
 (

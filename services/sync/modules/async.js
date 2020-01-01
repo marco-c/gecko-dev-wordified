@@ -1647,7 +1647,7 @@ return
 }
 Utils
 .
-delay
+nextTick
 (
 function
 (

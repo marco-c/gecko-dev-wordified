@@ -1071,7 +1071,7 @@ invoked
 .
 Utils
 .
-delay
+nextTick
 (
 function
 (
@@ -1137,8 +1137,6 @@ run_next_test
 )
 ;
 }
-1
-this
 )
 ;
 }
