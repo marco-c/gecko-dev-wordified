@@ -590,6 +590,14 @@ pc
 )
 ;
 bool
+hasSeenNegativeIndexGetElement
+(
+jsbytecode
+*
+pc
+)
+;
+bool
 hasSeenAccessedGetter
 (
 jsbytecode
