@@ -49,7 +49,6 @@ tw
 80
 :
 *
-*
 This
 Source
 Code

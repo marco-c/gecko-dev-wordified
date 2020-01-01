@@ -11,7 +11,7 @@ tab
 -
 width
 :
-4
+8
 ;
 indent
 -
@@ -49,7 +49,6 @@ ft
 =
 c
 :
-*
 *
 This
 Source

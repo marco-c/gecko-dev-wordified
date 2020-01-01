@@ -32,7 +32,6 @@ offset
 *
 -
 *
-*
 This
 Source
 Code
