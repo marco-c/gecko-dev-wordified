@@ -17114,6 +17114,9 @@ if
 mInstance
 &
 &
+mUsePluginLayers
+&
+&
 NS_SUCCEEDED
 (
 mInstance
@@ -17125,10 +17128,14 @@ UseAsyncPainting
 useAsyncPainting
 )
 )
+&
+&
+!
+useAsyncPainting
 )
 mUsePluginLayers
 =
-useAsyncPainting
+PR_FALSE
 ;
 return
 NS_OK
