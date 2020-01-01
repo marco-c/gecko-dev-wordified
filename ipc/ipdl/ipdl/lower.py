@@ -3403,13 +3403,49 @@ __init__
 (
 self
 side
+fq
 )
 :
+        
 self
 .
 side
 =
 side
+        
+self
+.
+fq
+=
+fq
+    
+def
+typename
+(
+self
+thing
+)
+:
+        
+if
+self
+.
+fq
+:
+            
+return
+thing
+.
+fullname
+(
+)
+        
+return
+thing
+.
+name
+(
+)
     
 def
 visitBuiltinCxxType
@@ -3422,10 +3458,11 @@ t
 return
 Type
 (
-t
+self
 .
-name
+typename
 (
+t
 )
 )
     
@@ -3440,10 +3477,11 @@ t
 return
 Type
 (
-t
+self
 .
-name
+typename
 (
+t
 )
 )
     
@@ -3460,12 +3498,13 @@ Type
 (
 _actorName
 (
+self
+.
+typename
+(
 a
 .
 protocol
-.
-name
-(
 )
 self
 .
@@ -3487,10 +3526,11 @@ s
 return
 Type
 (
-s
+self
 .
-name
+typename
 (
+s
 )
 )
     
@@ -3505,10 +3545,11 @@ u
 return
 Type
 (
-u
+self
 .
-name
+typename
 (
+u
 )
 )
     
@@ -3548,10 +3589,11 @@ s
 return
 Type
 (
-s
+self
 .
-name
+typename
 (
+s
 )
 )
     
@@ -3599,6 +3641,9 @@ _cxxBareType
 (
 ipdltype
 side
+fq
+=
+0
 )
 :
     
@@ -3610,6 +3655,7 @@ accept
 _ConvertToCxxType
 (
 side
+fq
 )
 )
 def
@@ -12195,6 +12241,10 @@ parent
 .
 side
 )
+                                        
+fq
+=
+1
 )
         
 parentvar
@@ -12227,6 +12277,10 @@ child
 .
 side
 )
+                                       
+fq
+=
+1
 )
         
 childvar
@@ -12388,6 +12442,10 @@ o
 opener
 .
 side
+                                  
+fq
+=
+1
 )
         
 openervar
