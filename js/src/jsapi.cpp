@@ -8164,7 +8164,7 @@ atom
 stdnm
 =
 &
-standard_class_names
+object_prototype_names
 [
 i
 ]
