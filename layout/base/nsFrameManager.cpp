@@ -3472,14 +3472,8 @@ positioning
 aOldFrame
 -
 >
-Invalidate
+InvalidateOverflowRect
 (
-aOldFrame
--
->
-GetOverflowRect
-(
-)
 )
 ;
 NS_ASSERTION

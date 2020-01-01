@@ -7188,14 +7188,8 @@ aDeletingEmptyFrames
 aNextInFlow
 -
 >
-Invalidate
+InvalidateOverflowRect
 (
-aNextInFlow
--
->
-GetOverflowRect
-(
-)
 )
 ;
 /
