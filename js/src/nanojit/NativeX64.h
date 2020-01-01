@@ -5221,6 +5221,16 @@ r
 ;
 \
 void
+XORPS
+(
+Register
+l
+Register
+r
+)
+;
+\
+void
 DIVSD
 (
 Register
