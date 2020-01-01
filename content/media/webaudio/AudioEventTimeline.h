@@ -113,8 +113,11 @@ MPL
 *
 /
 #
-pragma
-once
+ifndef
+AudioEventTimeline_h_
+#
+define
+AudioEventTimeline_h_
 #
 include
 "
@@ -2354,3 +2357,5 @@ mMaxValue
 ;
 }
 }
+#
+endif

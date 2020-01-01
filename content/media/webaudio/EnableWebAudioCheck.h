@@ -113,8 +113,11 @@ MPL
 *
 /
 #
-pragma
-once
+ifndef
+EnableWebAudioCheck_h_
+#
+define
+EnableWebAudioCheck_h_
 namespace
 mozilla
 {
@@ -167,3 +170,5 @@ PrefEnabled
 ;
 }
 }
+#
+endif

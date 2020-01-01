@@ -113,8 +113,11 @@ MPL
 *
 /
 #
-pragma
-once
+ifndef
+AudioSourceNode_h_
+#
+define
+AudioSourceNode_h_
 #
 include
 "
@@ -175,3 +178,5 @@ return
 ;
 }
 }
+#
+endif

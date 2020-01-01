@@ -113,8 +113,11 @@ MPL
 *
 /
 #
-pragma
-once
+ifndef
+AudioDestinationNode_h_
+#
+define
+AudioDestinationNode_h_
 #
 include
 "
@@ -194,3 +197,5 @@ return
 ;
 }
 }
+#
+endif

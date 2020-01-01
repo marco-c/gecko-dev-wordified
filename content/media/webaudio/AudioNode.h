@@ -113,8 +113,11 @@ MPL
 *
 /
 #
-pragma
-once
+ifndef
+AudioNode_h_
+#
+define
+AudioNode_h_
 #
 include
 "
@@ -611,3 +614,5 @@ mOutputs
 ;
 }
 }
+#
+endif

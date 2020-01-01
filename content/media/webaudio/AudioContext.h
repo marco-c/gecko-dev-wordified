@@ -113,8 +113,11 @@ MPL
 *
 /
 #
-pragma
-once
+ifndef
+AudioContext_h_
+#
+define
+AudioContext_h_
 #
 include
 "
@@ -315,3 +318,5 @@ mDestination
 ;
 }
 }
+#
+endif
