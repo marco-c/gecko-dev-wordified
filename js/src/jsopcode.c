@@ -25899,6 +25899,13 @@ JSOP_SETTER
 if
 (
 !
+ATOM_IS_STRING
+(
+atom
+)
+|
+|
+!
 ATOM_IS_IDENTIFIER
 (
 atom
