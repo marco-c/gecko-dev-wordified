@@ -93,10 +93,6 @@ catch
 ex
 )
 {
-do_get_profile
-(
-)
-;
 /
 /
 Make
