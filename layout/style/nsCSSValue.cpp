@@ -1876,8 +1876,12 @@ mFloat
 MM_PER_INCH_FLOAT
 ;
 return
+NSToCoordFloorClamped
+(
 inches
 *
+float
+(
 aPresContext
 -
 >
@@ -1888,6 +1892,8 @@ DeviceContext
 >
 AppUnitsPerPhysicalInch
 (
+)
+)
 )
 ;
 }
