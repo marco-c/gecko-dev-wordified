@@ -2647,59 +2647,6 @@ stmts
 return
 iflogging
 #
-We
-need
-the
-ASTs
-of
-structs
-and
-unions
-to
-generate
-pickling
-code
-for
-#
-them
-but
-the
-pickling
-codegen
-only
-has
-their
-type
-info
-.
-This
-map
-#
-allows
-the
-pickling
-code
-to
-get
-these
-ASTs
-given
-the
-type
-info
-.
-_typeToAST
-=
-{
-}
-#
-[
-Type
--
->
-Node
-]
-#
 XXX
 we
 need
@@ -7404,7 +7351,7 @@ _subtreeUsesShmem
 (
 mgd
 .
-_p
+_ast
 )
 :
                 
@@ -9846,17 +9793,6 @@ upgrade
 sd
 )
         
-_typeToAST
-[
-sd
-.
-decl
-.
-type
-]
-=
-sd
-        
 if
 sd
 .
@@ -10018,17 +9954,6 @@ upgrade
 (
 ud
 )
-        
-_typeToAST
-[
-ud
-.
-decl
-.
-type
-]
-=
-ud
         
 if
 ud
@@ -11095,7 +11020,7 @@ _protocolHeaderName
 (
 ppt
 .
-_p
+_ast
 pside
 )
 )
@@ -11110,7 +11035,7 @@ _protocolHeaderName
 (
 cpt
 .
-_p
+_ast
 cside
 )
 )
@@ -11179,7 +11104,7 @@ _protocolHeaderName
 (
 optype
 .
-_p
+_ast
 oside
 )
 )
@@ -18629,7 +18554,7 @@ ptype
         
 ptype
 .
-_p
+_ast
 .
 accept
 (
@@ -33024,10 +32949,9 @@ side
         
 sd
 =
-_typeToAST
-[
 structtype
-]
+.
+_ast
         
 write
 =
@@ -33295,10 +33219,9 @@ side
         
 ud
 =
-_typeToAST
-[
 uniontype
-]
+.
+_ast
         
 typename
 =

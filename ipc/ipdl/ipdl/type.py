@@ -4626,7 +4626,7 @@ decl
 .
 type
 .
-_p
+_ast
 =
 p
         
@@ -4790,6 +4790,31 @@ and
 unknown
 type
 '
+            
+#
+XXX
+more
+suckage
+.
+this
+time
+for
+pickling
+structs
+/
+unions
+            
+#
+declared
+in
+headers
+.
+            
+sutype
+.
+_ast
+=
+su
             
 su
 .
