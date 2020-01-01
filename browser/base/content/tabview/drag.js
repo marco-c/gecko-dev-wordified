@@ -1018,8 +1018,7 @@ if
 stationaryCorner
 )
 stationaryCorner
-|
-|
+=
 '
 topleft
 '
