@@ -1821,6 +1821,7 @@ SurfaceDescriptorGralloc
 (
 nullptr
 gc
+aSize
 /
 *
 external
