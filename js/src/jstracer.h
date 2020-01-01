@@ -3131,10 +3131,17 @@ TraceRecorder
 (
 )
 ;
+static
 JS_REQUIRES_STACK
 JSMonitorRecordingStatus
 monitorRecording
 (
+JSContext
+*
+cx
+TraceRecorder
+*
+tr
 JSOp
 op
 )
