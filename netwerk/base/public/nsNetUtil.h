@@ -3511,13 +3511,6 @@ result
 nsIUnicharStreamLoaderObserver
 *
 observer
-PRUint32
-segmentSize
-=
-nsIUnicharStreamLoader
-:
-:
-DEFAULT_SEGMENT_SIZE
 )
 {
 nsresult
@@ -3552,7 +3545,6 @@ loader
 Init
 (
 observer
-segmentSize
 )
 ;
 if
