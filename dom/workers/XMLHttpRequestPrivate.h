@@ -845,8 +845,6 @@ MaybeDispatchPrematureAbortEvents
 JSContext
 *
 aCx
-bool
-aFromOpen
 )
 ;
 bool
