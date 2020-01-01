@@ -1015,6 +1015,13 @@ InvalidateChildren
 (
 )
 ;
+virtual
+nsAccessible
+*
+GetParent
+(
+)
+;
 protected
 :
 /

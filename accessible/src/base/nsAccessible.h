@@ -1781,6 +1781,7 @@ accessible
 .
 *
 /
+virtual
 nsAccessible
 *
 GetParent
