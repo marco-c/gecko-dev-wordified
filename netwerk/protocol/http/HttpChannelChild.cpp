@@ -1661,7 +1661,7 @@ RecvOnStartRequest
 this
 =
 %
-x
+p
 ]
 \
 n
@@ -2110,7 +2110,7 @@ OnTransportAndData
 this
 =
 %
-x
+p
 ]
 \
 n
@@ -2626,11 +2626,11 @@ OnStopRequest
 this
 =
 %
-x
+p
 status
 =
 %
-u
+x
 ]
 \
 n
@@ -4687,7 +4687,7 @@ FinishRedirectSetup
 this
 =
 %
-x
+p
 ]
 \
 n
@@ -5871,7 +5871,7 @@ AsyncOpen
 this
 =
 %
-x
+p
 uri
 =
 %

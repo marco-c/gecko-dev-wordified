@@ -1344,7 +1344,7 @@ Cancel
 this
 =
 %
-x
+p
 status
 =
 %
@@ -1502,7 +1502,7 @@ Suspend
 this
 =
 %
-x
+p
 ]
 \
 n
@@ -1548,7 +1548,7 @@ Resume
 this
 =
 %
-x
+p
 ]
 \
 n
@@ -2570,7 +2570,7 @@ OnInputStreamReady
 this
 =
 %
-x
+p
 ]
 \
 n
@@ -2800,7 +2800,7 @@ OnStateStart
 this
 =
 %
-x
+p
 ]
 \
 n
@@ -2986,7 +2986,7 @@ OnStateTransfer
 this
 =
 %
-x
+p
 ]
 \
 n
@@ -3797,7 +3797,7 @@ OnStateStop
 this
 =
 %
-x
+p
 status
 =
 %

@@ -759,7 +759,7 @@ AddTransaction
 this
 =
 %
-x
+p
 trans
 =
 %
@@ -1456,7 +1456,7 @@ OnHeadersAvailable
 this
 =
 %
-x
+p
 ]
 \
 n
@@ -1625,7 +1625,7 @@ CloseTransaction
 this
 =
 %
-x
+p
 trans
 =
 %
@@ -2082,7 +2082,7 @@ PushBack
 this
 =
 %
-x
+p
 len
 =
 %
@@ -2889,7 +2889,7 @@ SetConnection
 this
 =
 %
-x
+p
 conn
 =
 %
@@ -2954,7 +2954,7 @@ Connection
 this
 =
 %
-x
+p
 conn
 =
 %
@@ -3129,7 +3129,7 @@ OnStatus
 this
 =
 %
-x
+p
 status
 =
 %
@@ -3879,7 +3879,7 @@ ReadSegments
 this
 =
 %
-x
+p
 count
 =
 %
@@ -4111,7 +4111,7 @@ WriteSegments
 this
 =
 %
-x
+p
 count
 =
 %
@@ -4872,7 +4872,7 @@ Close
 this
 =
 %
-x
+p
 reason
 =
 %

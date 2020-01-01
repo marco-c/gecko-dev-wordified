@@ -1527,7 +1527,7 @@ OnSocketReady
 this
 =
 %
-x
+p
 cond
 =
 %
@@ -1759,7 +1759,7 @@ Available
 this
 =
 %
-x
+p
 ]
 \
 n
@@ -1931,7 +1931,7 @@ Available
 this
 =
 %
-x
+p
 ]
 "
 "
@@ -2064,7 +2064,7 @@ Read
 this
 =
 %
-x
+p
 count
 =
 %
@@ -2452,7 +2452,7 @@ CloseWithStatus
 this
 =
 %
-x
+p
 reason
 =
 %
@@ -2555,7 +2555,7 @@ AsyncWait
 this
 =
 %
-x
+p
 ]
 \
 n
@@ -2947,7 +2947,7 @@ OnSocketReady
 this
 =
 %
-x
+p
 cond
 =
 %
@@ -3197,7 +3197,7 @@ Write
 this
 =
 %
-x
+p
 count
 =
 %
@@ -3676,7 +3676,7 @@ CloseWithStatus
 this
 =
 %
-x
+p
 reason
 =
 %
@@ -3779,7 +3779,7 @@ AsyncWait
 this
 =
 %
-x
+p
 ]
 \
 n
@@ -4414,7 +4414,7 @@ Init
 this
 =
 %
-x
+p
 host
 =
 %
@@ -5146,7 +5146,7 @@ SendStatus
 this
 =
 %
-x
+p
 status
 =
 %
@@ -5257,7 +5257,7 @@ ResolveHost
 this
 =
 %
-x
+p
 ]
 \
 n
@@ -5668,7 +5668,7 @@ BuildSocket
 this
 =
 %
-x
+p
 ]
 \
 n
@@ -6419,7 +6419,7 @@ InitiateSocket
 this
 =
 %
-x
+p
 ]
 \
 n
@@ -7689,7 +7689,7 @@ RecoverFromError
 this
 =
 %
-x
+p
 state
 =
 %
@@ -8229,7 +8229,7 @@ OnMsgInputClosed
 this
 =
 %
-x
+p
 reason
 =
 %
@@ -8376,7 +8376,7 @@ OnMsgOutputClosed
 this
 =
 %
-x
+p
 reason
 =
 %
@@ -8882,7 +8882,7 @@ PR_Close
 this
 =
 %
-x
+p
 ]
 \
 n
@@ -9559,7 +9559,7 @@ event
 this
 =
 %
-x
+p
 cond
 =
 %
@@ -9721,7 +9721,7 @@ OnSocketReady
 this
 =
 %
-x
+p
 outFlags
 =
 %
@@ -10264,7 +10264,7 @@ OnSocketDetached
 this
 =
 %
-x
+p
 cond
 =
 %
@@ -10859,7 +10859,7 @@ OpenInputStream
 this
 =
 %
-x
+p
 flags
 =
 %
@@ -11103,7 +11103,7 @@ OpenOutputStream
 this
 =
 %
-x
+p
 flags
 =
 %
