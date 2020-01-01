@@ -675,6 +675,10 @@ selfHostingGlobal_
 (
 NULL
 )
+selfHostedClasses_
+(
+NULL
+)
 nativeStackBase
 (
 0
