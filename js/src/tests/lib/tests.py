@@ -36,11 +36,12 @@ time
 from
 subprocess
 import
-*
+Popen
+PIPE
 from
 threading
 import
-*
+Thread
 from
 results
 import

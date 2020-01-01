@@ -87,7 +87,9 @@ subprocess
 from
 subprocess
 import
-*
+Popen
+PIPE
+call
 from
 threading
 import
