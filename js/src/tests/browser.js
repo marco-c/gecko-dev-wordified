@@ -1394,9 +1394,6 @@ true
 methodjit
 :
 true
-jitprofiling
-:
-true
 methodjit_always
 :
 true
