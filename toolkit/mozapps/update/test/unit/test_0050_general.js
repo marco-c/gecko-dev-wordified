@@ -601,7 +601,7 @@ gUpdateBundle
 GetStringFromName
 (
 "
-checker_error
+check_error
 -
 "
 +
