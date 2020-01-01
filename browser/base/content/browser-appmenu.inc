@@ -2155,6 +2155,11 @@ BookmarksEventHandler
 onCommand
 (
 event
+this
+.
+parentNode
+.
+_placesView
 )
 ;
 "
@@ -2166,6 +2171,11 @@ BookmarksEventHandler
 onClick
 (
 event
+this
+.
+parentNode
+.
+_placesView
 )
 ;
 "
