@@ -100,16 +100,7 @@ DirectionalityUtils_h___
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StandardInteger
+nscore
 .
 h
 "

@@ -2563,7 +2563,7 @@ with
 strong
 directionality
 or
-PR_UINT32_MAX
+UINT32_MAX
 if
 there
 is
@@ -2712,7 +2712,7 @@ aFirstStrong
 *
 aFirstStrong
 =
-PR_UINT32_MAX
+UINT32_MAX
 ;
 }
 return
@@ -2820,7 +2820,7 @@ aFirstStrong
 *
 aFirstStrong
 =
-PR_UINT32_MAX
+UINT32_MAX
 ;
 }
 return
