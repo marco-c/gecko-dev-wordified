@@ -6452,10 +6452,6 @@ iQ
 tab
 .
 groupItem
-.
-info
--
-item
 '
 )
 .
