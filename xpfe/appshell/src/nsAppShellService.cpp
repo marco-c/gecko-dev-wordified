@@ -514,9 +514,6 @@ EnsurePrivateHiddenWindow
 (
 )
 {
-#
-ifdef
-MOZ_PER_WINDOW_PRIVATE_BROWSING
 if
 (
 !
@@ -529,8 +526,6 @@ true
 )
 ;
 }
-#
-endif
 }
 nsresult
 nsAppShellService
@@ -706,9 +701,6 @@ newWindow
 )
 ;
 }
-#
-ifdef
-MOZ_PER_WINDOW_PRIVATE_BROWSING
 else
 {
 /
@@ -787,8 +779,6 @@ newWindow
 )
 ;
 }
-#
-endif
 /
 /
 RegisterTopLevelWindow
@@ -829,9 +819,6 @@ mHiddenWindow
 nullptr
 ;
 }
-#
-ifdef
-MOZ_PER_WINDOW_PRIVATE_BROWSING
 if
 (
 mHiddenPrivateWindow
@@ -849,8 +836,6 @@ mHiddenPrivateWindow
 nullptr
 ;
 }
-#
-endif
 return
 NS_OK
 ;
@@ -2261,9 +2246,6 @@ autostart
 "
 )
 ;
-#
-ifdef
-MOZ_PER_WINDOW_PRIVATE_BROWSING
 if
 (
 aChromeMask
@@ -2286,8 +2268,6 @@ isPrivateBrowsingWindow
 true
 ;
 }
-#
-endif
 if
 (
 !
@@ -2608,9 +2588,6 @@ nsIXULWindow
 aWindow
 )
 {
-#
-ifdef
-MOZ_PER_WINDOW_PRIVATE_BROWSING
 NS_ENSURE_ARG_POINTER
 (
 aWindow
@@ -2639,13 +2616,6 @@ NS_OK
 :
 NS_ERROR_FAILURE
 ;
-#
-else
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
-#
-endif
 }
 NS_IMETHODIMP
 nsAppShellService
@@ -2659,9 +2629,6 @@ nsIDOMWindow
 aWindow
 )
 {
-#
-ifdef
-MOZ_PER_WINDOW_PRIVATE_BROWSING
 EnsurePrivateHiddenWindow
 (
 )
@@ -2734,13 +2701,6 @@ aWindow
 return
 NS_OK
 ;
-#
-else
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
-#
-endif
 }
 NS_IMETHODIMP
 nsAppShellService
@@ -2753,9 +2713,6 @@ bool
 aHasPrivateWindow
 )
 {
-#
-ifdef
-MOZ_PER_WINDOW_PRIVATE_BROWSING
 NS_ENSURE_ARG_POINTER
 (
 aHasPrivateWindow
@@ -2771,13 +2728,6 @@ mHiddenPrivateWindow
 return
 NS_OK
 ;
-#
-else
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
-#
-endif
 }
 NS_IMETHODIMP
 nsAppShellService
@@ -3443,9 +3393,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_PER_WINDOW_PRIVATE_BROWSING
 if
 (
 aWindow
@@ -3474,8 +3421,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 /
 /
 tell
@@ -3687,9 +3632,6 @@ Destroy
 )
 ;
 }
-#
-ifdef
-MOZ_PER_WINDOW_PRIVATE_BROWSING
 if
 (
 mHiddenPrivateWindow
@@ -3703,8 +3645,6 @@ Destroy
 )
 ;
 }
-#
-endif
 }
 else
 {

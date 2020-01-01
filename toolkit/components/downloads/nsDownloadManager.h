@@ -1255,11 +1255,6 @@ nsIURI
 aURI
 )
 ;
-bool
-IsInGlobalPrivateBrowsing
-(
-)
-;
 nsCOMArray
 <
 nsIDownloadProgressListener

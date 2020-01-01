@@ -2239,9 +2239,6 @@ prepareForCC
 )
 ;
 }
-#
-ifdef
-MOZ_PER_WINDOW_PRIVATE_BROWSING
 bool
 hasHiddenPrivateWindow
 =
@@ -2314,8 +2311,6 @@ prepareForCC
 ;
 }
 }
-#
-endif
 }
 #
 ifdef
