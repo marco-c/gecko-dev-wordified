@@ -615,6 +615,15 @@ Returns
 null
 if
 OOM
+or
+if
+ThreadManager
+isn
+'
+t
+/
+/
+initialized
 .
 nsThread
 *
