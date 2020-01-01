@@ -4073,6 +4073,9 @@ menuitem_show
 menuseparator
 "
 "
+menuitem_openReferrer
+"
+"
 menuitem_copyLocation
 "
 ]
@@ -4088,6 +4091,9 @@ menuitem_show
 "
 "
 menuseparator
+"
+"
+menuitem_openReferrer
 "
 "
 menuitem_copyLocation
@@ -4113,6 +4119,9 @@ menuitem_retry
 menuseparator
 "
 "
+menuitem_openReferrer
+"
+"
 menuitem_copyLocation
 "
 "
@@ -4134,6 +4143,9 @@ menuitem_retry
 "
 "
 menuseparator
+"
+"
+menuitem_openReferrer
 "
 "
 menuitem_copyLocation
@@ -4168,6 +4180,9 @@ menuitem_show
 menuseparator
 "
 "
+menuitem_openReferrer
+"
+"
 menuitem_copyLocation
 "
 ]
@@ -4188,6 +4203,9 @@ menuitem_show
 menuseparator
 "
 "
+menuitem_openReferrer
+"
+"
 menuitem_copyLocation
 "
 ]
@@ -4195,6 +4213,9 @@ menuitem_copyLocation
 /
 DOWNLOAD_BLOCKED
 [
+"
+menuitem_openReferrer
+"
 "
 menuitem_copyLocation
 "
@@ -4219,6 +4240,9 @@ menuitem_show
 menuseparator
 "
 "
+menuitem_openReferrer
+"
+"
 menuitem_copyLocation
 "
 ]
@@ -4226,6 +4250,9 @@ menuitem_copyLocation
 /
 DOWNLOAD_DIRTY
 [
+"
+menuitem_openReferrer
+"
 "
 menuitem_copyLocation
 "
@@ -4909,6 +4936,16 @@ case
 cmd_openReferrer
 "
 :
+return
+dl
+.
+hasAttribute
+(
+"
+referrer
+"
+)
+;
 case
 "
 cmd_removeFromList
