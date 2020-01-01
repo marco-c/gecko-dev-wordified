@@ -2398,6 +2398,10 @@ finish
 (
 )
 {
+flush
+(
+)
+;
 JS_ASSERT
 (
 !
