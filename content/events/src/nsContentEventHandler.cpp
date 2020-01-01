@@ -6403,7 +6403,10 @@ aEvent
 -
 >
 mLength
-PR_TRUE
+aEvent
+-
+>
+mExpandToClusterBoundary
 )
 ;
 NS_ENSURE_SUCCESS
