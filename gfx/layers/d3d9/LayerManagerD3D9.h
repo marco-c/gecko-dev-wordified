@@ -1049,15 +1049,6 @@ CreateCanvasLayer
 virtual
 already_AddRefed
 <
-ReadbackLayer
->
-CreateReadbackLayer
-(
-)
-;
-virtual
-already_AddRefed
-<
 ImageContainer
 >
 CreateImageContainer
