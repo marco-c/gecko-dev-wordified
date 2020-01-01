@@ -951,12 +951,6 @@ asm_output
 do
 {
 \
-counter_increment
-(
-native
-)
-;
-\
 if
 (
 _logc
