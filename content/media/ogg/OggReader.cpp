@@ -5012,9 +5012,6 @@ rate
 HasAudio
 (
 )
-HasVideo
-(
-)
 tags
 )
 ;
