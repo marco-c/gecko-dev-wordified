@@ -81576,6 +81576,9 @@ nsGkAtoms
 menuPopupFrame
 )
 {
+#
+ifdef
+MOZ_XUL
 /
 /
 it
@@ -81662,6 +81665,8 @@ SetGeneratedChildren
 (
 )
 ;
+#
+endif
 nsFrameItems
 childItems
 ;

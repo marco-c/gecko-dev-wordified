@@ -568,12 +568,17 @@ nsContentUtils
 h
 "
 #
+ifdef
+MOZ_XUL
+#
 include
 "
 nsXULPopupManager
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -3467,8 +3472,6 @@ null
 return
 ;
 }
-#
-endif
 nsXULPopupManager
 *
 pm
@@ -3526,6 +3529,8 @@ mCurrentTooltip
 nsnull
 ;
 }
+#
+endif
 }
 nsresult
 nsXULTooltipListener
@@ -3535,6 +3540,9 @@ HideTooltip
 (
 )
 {
+#
+ifdef
+MOZ_XUL
 if
 (
 mCurrentTooltip
@@ -3567,6 +3575,8 @@ PR_FALSE
 )
 ;
 }
+#
+endif
 DestroyTooltip
 (
 )

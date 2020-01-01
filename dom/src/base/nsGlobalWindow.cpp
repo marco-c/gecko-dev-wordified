@@ -1322,12 +1322,17 @@ nsNetUtil
 h
 "
 #
+ifdef
+MOZ_XUL
+#
 include
 "
 nsXULPopupManager
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -17239,6 +17244,9 @@ PRInt32
 aHeight
 )
 {
+#
+ifdef
+MOZ_XUL
 if
 (
 !
@@ -17301,6 +17309,8 @@ doc
 )
 ;
 }
+#
+endif
 /
 /
 This
@@ -17462,6 +17472,9 @@ IsCallerTrustedForWrite
 )
 )
 {
+#
+ifdef
+MOZ_XUL
 /
 /
 if
@@ -17512,6 +17525,8 @@ HidePopupsInDocument
 doc
 )
 ;
+#
+endif
 PRInt32
 screenLeft
 screenTop
