@@ -1480,6 +1480,16 @@ _fireEventFromMsg
 addMessageListener
 (
 "
+documentfirstpaint
+"
+this
+.
+_fireEventFromMsg
+)
+;
+addMessageListener
+(
+"
 nextpaint
 "
 this
