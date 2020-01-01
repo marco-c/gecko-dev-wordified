@@ -793,10 +793,6 @@ TYPE_EXTENSION
 nsIUpdateItem
 .
 TYPE_LOCALE
-+
-nsIUpdateItem
-.
-TYPE_PLUGIN
 ;
 var
 items
