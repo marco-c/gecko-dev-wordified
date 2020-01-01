@@ -29753,6 +29753,7 @@ tokenStream
 .
 peekToken
 (
+TSF_OPERAND
 )
 =
 =
