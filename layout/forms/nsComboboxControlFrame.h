@@ -1627,7 +1627,7 @@ time
 static
 nsComboboxControlFrame
 *
-mFocused
+sFocused
 ;
 #
 ifdef
