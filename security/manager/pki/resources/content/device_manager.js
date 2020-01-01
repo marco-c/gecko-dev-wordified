@@ -2807,7 +2807,7 @@ login_failed
 "
 )
 ;
-alert
+doPrompt
 (
 alertStr
 )
@@ -3670,7 +3670,7 @@ an
 empty
 password
 .
-alert
+doPrompt
 (
 bundle
 .
