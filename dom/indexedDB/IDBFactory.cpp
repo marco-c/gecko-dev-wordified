@@ -579,7 +579,7 @@ h
 #
 define
 DB_SCHEMA_VERSION
-1
+2
 USING_INDEXEDDB_NAMESPACE
 namespace
 {
@@ -1008,6 +1008,7 @@ NS_LITERAL_CSTRING
 (
 "
 CREATE
+UNIQUE
 INDEX
 key_index
 "
@@ -1112,6 +1113,7 @@ NS_LITERAL_CSTRING
 (
 "
 CREATE
+UNIQUE
 INDEX
 ai_key_index
 "
