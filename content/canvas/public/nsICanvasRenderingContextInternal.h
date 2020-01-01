@@ -863,12 +863,6 @@ mozilla
 namespace
 dom
 {
-extern
-bool
-AzureCanvasEnabled
-(
-)
-;
 }
 }
 NS_DEFINE_STATIC_IID_ACCESSOR
