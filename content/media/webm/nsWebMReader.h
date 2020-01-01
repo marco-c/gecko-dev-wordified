@@ -474,6 +474,15 @@ nsWebMReader_h_
 #
 include
 "
+mozilla
+/
+StdInt
+.
+h
+"
+#
+include
+"
 nsDeque
 .
 h
@@ -508,6 +517,9 @@ nestegg
 .
 h
 "
+#
+define
+VPX_DONT_DEFINE_STDINT_TYPES
 #
 include
 "
