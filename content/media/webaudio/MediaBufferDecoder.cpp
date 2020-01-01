@@ -3962,6 +3962,11 @@ about
 it
 here
 .
+if
+(
+mFailureCallback
+)
+{
 ErrorResult
 rv
 ;
@@ -3973,6 +3978,7 @@ Call
 rv
 )
 ;
+}
 mContext
 -
 >
