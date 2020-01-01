@@ -421,6 +421,8 @@ inSourceURIString
 nsIFile
 *
 inDestFile
+bool
+isPrivate
 )
 ;
 }

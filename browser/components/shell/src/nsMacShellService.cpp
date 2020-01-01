@@ -1227,6 +1227,17 @@ docURI
 nullptr
 nullptr
 mBackgroundFile
+content
+-
+>
+OwnerDoc
+(
+)
+-
+>
+GetLoadContext
+(
+)
 )
 ;
 }
