@@ -116,6 +116,7 @@ testLenientAndStrict
 (
 '
 function
+f
 (
 x
 y
@@ -135,6 +136,7 @@ testLenientAndStrict
 (
 '
 function
+f
 (
 x
 x
@@ -157,6 +159,7 @@ testLenientAndStrict
 (
 '
 function
+f
 (
 x
 y
@@ -193,6 +196,7 @@ testLenientAndStrict
 (
 '
 function
+f
 (
 a
 b
@@ -247,6 +251,7 @@ testLenientAndStrict
 (
 '
 function
+f
 (
 [
 x
@@ -268,6 +273,7 @@ testLenientAndStrict
 (
 '
 function
+f
 (
 [
 x
@@ -295,6 +301,7 @@ testLenientAndStrict
 (
 '
 function
+f
 (
 x
 [
@@ -343,6 +350,7 @@ testLenientAndStrict
 (
 '
 function
+f
 (
 x
 x
@@ -2853,6 +2861,12 @@ raisesException
 SyntaxError
 )
 )
+true
+)
+;
+reportCompare
+(
+true
 true
 )
 ;

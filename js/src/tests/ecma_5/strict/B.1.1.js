@@ -196,3 +196,9 @@ f
 true
 )
 ;
+reportCompare
+(
+true
+true
+)
+;

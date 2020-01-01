@@ -228,3 +228,9 @@ parsesSuccessfully
 true
 )
 ;
+reportCompare
+(
+true
+true
+)
+;

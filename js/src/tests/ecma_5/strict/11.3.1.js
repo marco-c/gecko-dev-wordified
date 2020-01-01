@@ -161,3 +161,9 @@ SyntaxError
 true
 )
 ;
+reportCompare
+(
+true
+true
+)
+;

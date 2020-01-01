@@ -254,3 +254,9 @@ strict
 true
 )
 ;
+reportCompare
+(
+true
+true
+)
+;

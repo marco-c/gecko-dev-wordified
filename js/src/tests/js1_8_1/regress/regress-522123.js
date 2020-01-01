@@ -770,3 +770,9 @@ test
 )
 ;
 }
+reportCompare
+(
+true
+true
+)
+;
