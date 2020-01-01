@@ -30803,10 +30803,10 @@ JSFunction
 )
 )
 ;
-JSObject
-*
+RootedObject
 result
-=
+(
+cx
 NewDenseAllocatedArray
 (
 cx
@@ -30814,6 +30814,7 @@ fun
 -
 >
 nargs
+)
 )
 ;
 if
