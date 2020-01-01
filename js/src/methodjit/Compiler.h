@@ -4801,6 +4801,14 @@ GetCharMode
 mode
 )
 ;
+CompileStatus
+compileStringFromCode
+(
+FrameEntry
+*
+arg
+)
+;
 void
 prepareStubCall
 (
