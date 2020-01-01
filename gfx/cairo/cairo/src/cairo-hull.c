@@ -347,17 +347,6 @@ cairoint
 .
 h
 "
-#
-include
-"
-cairo
--
-slope
--
-private
-.
-h
-"
 typedef
 struct
 cairo_hull
