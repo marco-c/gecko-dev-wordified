@@ -941,6 +941,9 @@ nsnull
 nsAutoString
 href
 ;
+if
+(
+!
 GetAttrValue
 (
 nsGkAtoms
@@ -948,14 +951,6 @@ nsGkAtoms
 :
 href
 href
-)
-;
-if
-(
-href
-.
-IsEmpty
-(
 )
 )
 {
