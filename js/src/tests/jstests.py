@@ -414,11 +414,9 @@ js_args
 :
             
 parts
-.
-append
-(
++
+=
 js_args
-)
         
 self
 .
@@ -2029,6 +2027,10 @@ dest
 '
 shell_args
 '
+default
+=
+'
+'
                   
 help
 =
@@ -2501,6 +2503,10 @@ JS
 OPTIONS
 .
 shell_args
+.
+split
+(
+)
 debugger_prefix
 )
     
