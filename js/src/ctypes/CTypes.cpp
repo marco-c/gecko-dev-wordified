@@ -39637,11 +39637,7 @@ jschar
 JS_malloc
 (
 cx
-(
 dstlen
-+
-1
-)
 *
 sizeof
 (
