@@ -1004,7 +1004,7 @@ bool
 JetpackParent
 :
 :
-RecvCallMessage
+AnswerCallMessage
 (
 const
 nsString
