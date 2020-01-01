@@ -608,7 +608,6 @@ abc
 com
 "
 [
-0
 1
 ]
 ]
@@ -626,7 +625,6 @@ match
 abc
 "
 [
-0
 1
 2
 ]
@@ -645,9 +643,7 @@ matches
 abc
 "
 [
-0
 1
-2
 3
 ]
 function
@@ -680,9 +676,7 @@ tabs
 abc
 "
 [
-0
 1
-2
 3
 ]
 function
