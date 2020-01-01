@@ -554,13 +554,11 @@ linebreaks
 *
 Flags
 IS_8BIT
-IS_ASCII
 and
-HAS_SURROGATES
+IS_ASCII
 are
 automatically
 set
-*
 appropriately
 .
 *

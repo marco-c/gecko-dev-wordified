@@ -9497,14 +9497,6 @@ gfxContext
 "
 )
 ;
-textRun
--
->
-RecordSurrogates
-(
-aString
-)
-;
 #
 ifdef
 FORCE_UNISCRIBE
