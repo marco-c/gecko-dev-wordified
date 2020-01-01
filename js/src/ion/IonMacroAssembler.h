@@ -2505,6 +2505,12 @@ MacroAssemblerSpecific
 :
 Push
 ;
+using
+MacroAssemblerSpecific
+:
+:
+Pop
+;
 void
 Push
 (
