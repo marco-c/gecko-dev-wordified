@@ -6246,6 +6246,15 @@ return
 gGlobalContext
 ;
 }
+void
+GLContextProviderEGL
+:
+:
+Shutdown
+(
+)
+{
+}
 }
 /
 *

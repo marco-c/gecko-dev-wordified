@@ -1037,6 +1037,7 @@ strlen
 serverVersionStr
 )
 >
+=
 3
 &
 &
@@ -1081,7 +1082,7 @@ serverVersionStr
 }
 if
 (
-clientVersion
+clientVersionStr
 &
 &
 strlen
@@ -1089,6 +1090,7 @@ strlen
 clientVersionStr
 )
 >
+=
 3
 &
 &
@@ -3854,6 +3856,19 @@ PR_FALSE
 }
 return
 gGlobalContext
+;
+}
+void
+GLContextProviderGLX
+:
+:
+Shutdown
+(
+)
+{
+gGlobalContext
+=
+nsnull
 ;
 }
 }
