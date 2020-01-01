@@ -886,6 +886,16 @@ CSS_KEY
 -
 moz
 -
+isolate
+-
+override
+_moz_isolate_override
+)
+CSS_KEY
+(
+-
+moz
+-
 japanese
 -
 formal
