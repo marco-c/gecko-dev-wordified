@@ -1211,14 +1211,6 @@ ifdef
 ACCESSIBILITY
 Accessible
 *
-DispatchAccessibleEvent
-(
-PRUint32
-aEventType
-)
-;
-Accessible
-*
 GetRootAccessible
 (
 )
