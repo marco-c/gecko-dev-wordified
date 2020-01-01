@@ -884,7 +884,7 @@ useOrConstant
 (
 rhs
 )
-useRegister
+use
 (
 lhs
 )
