@@ -194,7 +194,7 @@ we
 have
 to
 pass
-throught
+through
 the
 canvas
 tile

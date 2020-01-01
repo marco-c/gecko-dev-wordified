@@ -345,7 +345,7 @@ finally
 /
 We
 must
-finialize
+finalize
 the
 tests
 finish
