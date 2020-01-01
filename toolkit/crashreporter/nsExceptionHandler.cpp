@@ -9567,6 +9567,12 @@ gExceptionHandler
 dump_path
 (
 )
+true
+/
+/
+write
+exception
+stream
 PairedDumpCallback
 &
 parentCtx
