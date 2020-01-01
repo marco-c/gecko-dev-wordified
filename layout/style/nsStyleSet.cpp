@@ -6290,15 +6290,13 @@ aData
 ;
 nsReStyleHint
 hint
-;
+=
 aProcessor
 -
 >
 HasStateDependentStyle
 (
 data
-&
-hint
 )
 ;
 data

@@ -705,15 +705,13 @@ aData
 ;
 #
 endif
-NS_IMETHOD
+virtual
+nsReStyleHint
 HasStateDependentStyle
 (
 StateRuleProcessorData
 *
 aData
-nsReStyleHint
-*
-aResult
 )
 ;
 virtual
