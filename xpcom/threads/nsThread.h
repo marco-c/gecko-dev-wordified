@@ -1071,6 +1071,10 @@ mSyncTask
 (
 task
 )
+mResult
+(
+NS_ERROR_NOT_INITIALIZED
+)
 {
 }
 PRBool
@@ -1083,6 +1087,15 @@ mSyncTask
 !
 =
 nsnull
+;
+}
+nsresult
+Result
+(
+)
+{
+return
+mResult
 ;
 }
 private
@@ -1099,6 +1112,9 @@ nsCOMPtr
 nsIRunnable
 >
 mSyncTask
+;
+nsresult
+mResult
 ;
 }
 ;

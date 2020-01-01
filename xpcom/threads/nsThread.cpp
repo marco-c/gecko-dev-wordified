@@ -2891,7 +2891,12 @@ thread
 )
 ;
 return
-rv
+wrapper
+-
+>
+Result
+(
+)
 ;
 }
 NS_ASSERTION
@@ -4862,6 +4867,8 @@ if
 mSyncTask
 )
 {
+mResult
+=
 mSyncTask
 -
 >
