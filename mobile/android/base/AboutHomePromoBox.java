@@ -279,6 +279,7 @@ public
 enum
 Type
 {
+NONE
 SYNC
 APPS
 }
@@ -699,7 +700,11 @@ specified
 "
 )
 ;
-break
+hide
+(
+)
+;
+return
 ;
 }
 updateViewResources
