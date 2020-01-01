@@ -1862,7 +1862,7 @@ aMedia
 return
 SetAttr
 (
-kNameSpaceID_XML
+kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -1920,7 +1920,7 @@ aTitle
 return
 SetAttr
 (
-kNameSpaceID_XML
+kNameSpaceID_None
 nsGkAtoms
 :
 :
