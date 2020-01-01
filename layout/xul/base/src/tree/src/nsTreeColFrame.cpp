@@ -945,11 +945,11 @@ left
 )
 child
 =
-frames
-.
-GetPrevSiblingFor
-(
 mFrame
+-
+>
+GetPrevSibling
+(
 )
 ;
 else
