@@ -4849,13 +4849,8 @@ loopStats
 #
 endif
 #
-if
-defined
+ifdef
 DEBUG
-|
-|
-defined
-JS_DUMP_PROPTREE_STATS
 /
 *
 Function
@@ -4929,9 +4924,6 @@ totalPropTreeNodes
 jsrefcount
 propTreeKidsChunks
 ;
-jsrefcount
-middleDeleteFixups
-;
 /
 *
 String
@@ -4990,9 +4982,6 @@ endif
 /
 *
 DEBUG
-|
-|
-JS_DUMP_PROPTREE_STATS
 *
 /
 #

@@ -1917,7 +1917,9 @@ obj
 )
 -
 >
-lastProp
+lastProperty
+(
+)
 ;
 sprop
 ;
@@ -8751,7 +8753,9 @@ obj
 )
 -
 >
-lastProp
+lastProperty
+(
+)
 ;
 sprop
 ;
@@ -17652,7 +17656,9 @@ obj
 )
 -
 >
-lastProp
+lastProperty
+(
+)
 ;
 sprop
 ;

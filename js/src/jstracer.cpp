@@ -62366,7 +62366,9 @@ sprop
 scope
 -
 >
-lastProp
+lastProperty
+(
+)
 ;
 sprop
 ;
@@ -77690,7 +77692,7 @@ kshape
 scope
 -
 >
-has
+hasProperty
 (
 sprop
 )
@@ -77906,7 +77908,7 @@ JS_ASSERT
 scope
 -
 >
-has
+hasProperty
 (
 sprop
 )
@@ -87271,7 +87273,7 @@ obj2
 )
 -
 >
-has
+hasProperty
 (
 sprop
 )
