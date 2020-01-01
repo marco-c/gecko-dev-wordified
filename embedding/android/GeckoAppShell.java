@@ -3068,11 +3068,6 @@ combinedArgs
 }
 private
 static
-GeckoEvent
-mLastDrawEvent
-;
-private
-static
 void
 sendPendingEventsToGecko
 (
