@@ -19308,10 +19308,16 @@ observers
 after
 try
 {
+if
+(
+aOnSuccess
+)
+{
 aOnSuccess
 (
 )
 ;
+}
 }
 catch
 (
