@@ -790,7 +790,7 @@ n
 if
 defined
 (
-_WIN32
+_MSC_VER
 )
 #
 define
@@ -832,7 +832,7 @@ endif
 if
 defined
 (
-_WIN32
+_MSC_VER
 )
 &
 &
