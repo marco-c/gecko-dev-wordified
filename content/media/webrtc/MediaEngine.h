@@ -344,10 +344,7 @@ device
 *
 /
 virtual
-already_AddRefed
-<
-nsDOMMediaStream
->
+nsresult
 Allocate
 (
 )
