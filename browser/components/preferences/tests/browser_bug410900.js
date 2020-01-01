@@ -203,7 +203,7 @@ paneApplications
 setTimeout
 (
 runTest
-250
+1000
 )
 ;
 }
