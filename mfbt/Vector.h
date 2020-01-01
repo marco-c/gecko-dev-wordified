@@ -6805,7 +6805,7 @@ if
 ret
 )
 return
-NULL
+nullptr
 ;
 Impl
 :

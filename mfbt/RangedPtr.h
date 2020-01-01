@@ -163,6 +163,15 @@ include
 "
 mozilla
 /
+NullPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -514,7 +523,7 @@ T
 >
 (
 p
-NULL
+nullptr
 size_t
 (
 0
