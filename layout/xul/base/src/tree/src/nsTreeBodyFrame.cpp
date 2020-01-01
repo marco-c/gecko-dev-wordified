@@ -16100,6 +16100,9 @@ mSlots
 >
 mDropOrient
 ;
+#
+ifndef
+XP_MACOSX
 PRInt16
 lastScrollLines
 =
@@ -16108,6 +16111,8 @@ mSlots
 >
 mScrollLines
 ;
+#
+endif
 /
 /
 Find
