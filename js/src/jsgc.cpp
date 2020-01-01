@@ -16858,11 +16858,7 @@ cx
 ;
 js_SweepAtomState
 (
-&
-rt
--
->
-atomState
+cx
 )
 ;
 /
