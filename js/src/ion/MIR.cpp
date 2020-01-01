@@ -686,9 +686,6 @@ isConstant
 return
 NULL
 ;
-js
-:
-:
 Value
 lhs
 =
@@ -704,9 +701,6 @@ value
 (
 )
 ;
-js
-:
-:
 Value
 rhs
 =
@@ -722,11 +716,12 @@ value
 (
 )
 ;
-js
-:
-:
 Value
 ret
+=
+UndefinedValue
+(
+)
 ;
 switch
 (
@@ -1049,6 +1044,9 @@ JS_NOT_REACHED
 NYI
 "
 )
+;
+return
+NULL
 ;
 }
 if
