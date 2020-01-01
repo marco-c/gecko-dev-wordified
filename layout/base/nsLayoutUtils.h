@@ -1984,12 +1984,15 @@ static
 bool
 IsAncestorFrameCrossDoc
 (
+const
 nsIFrame
 *
 aAncestorFrame
+const
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aCommonAncestor
@@ -2075,6 +2078,7 @@ GetActiveScrolledRootFor
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aStopAtAncestor
@@ -2142,6 +2146,7 @@ static
 bool
 IsScrolledByRootContentDocumentDisplayportScrolling
 (
+const
 nsIFrame
 *
 aActiveScrolledRoot
@@ -3612,6 +3617,7 @@ const
 nsRect
 &
 aRect
+const
 nsIFrame
 *
 aAncestor
@@ -3698,6 +3704,7 @@ GetTransformToAncestor
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aAncestor

@@ -15010,6 +15010,7 @@ space
 gfx3DMatrix
 GetTransformMatrix
 (
+const
 nsIFrame
 *
 aStopAtAncestor

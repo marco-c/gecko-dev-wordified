@@ -30610,6 +30610,7 @@ nsIFrame
 :
 GetTransformMatrix
 (
+const
 nsIFrame
 *
 aStopAtAncestor
