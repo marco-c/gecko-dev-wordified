@@ -214,6 +214,13 @@ h
 #
 include
 "
+nsIScriptObjectPrincipal
+.
+h
+"
+#
+include
+"
 nsWeakReference
 .
 h
@@ -229,6 +236,8 @@ public
 nsIInProcessContentFrameMessageManager
 public
 nsIGlobalObject
+public
+nsIScriptObjectPrincipal
 public
 nsSupportsWeakReference
 public

@@ -1115,11 +1115,11 @@ calling
 /
 /
 InitClasses
-nsCOMPtr
+nsRefPtr
 <
-nsIScriptObjectPrincipal
+SandboxPrivate
 >
-sop
+sp
 =
 new
 SandboxPrivate
@@ -1131,7 +1131,7 @@ glob
 JS_SetPrivate
 (
 glob
-sop
+sp
 .
 forget
 (

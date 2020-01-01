@@ -72,6 +72,13 @@ h
 #
 include
 "
+nsIScriptObjectPrincipal
+.
+h
+"
+#
+include
+"
 nsIPrincipal
 .
 h
@@ -119,6 +126,8 @@ SandboxPrivate
 :
 public
 nsIGlobalObject
+public
+nsIScriptObjectPrincipal
 public
 nsSupportsWeakReference
 {
