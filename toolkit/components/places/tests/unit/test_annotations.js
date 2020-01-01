@@ -787,7 +787,7 @@ testItemId
 =
 bmsvc
 .
-insertItem
+insertBookmark
 (
 bmsvc
 .
@@ -795,6 +795,8 @@ bookmarksRoot
 testURI
 -
 1
+"
+"
 )
 ;
 var
@@ -1211,7 +1213,7 @@ testItemId2
 =
 bmsvc
 .
-insertItem
+insertBookmark
 (
 bmsvc
 .
@@ -1219,6 +1221,8 @@ bookmarksRoot
 uri2
 -
 1
+"
+"
 )
 ;
 annosvc

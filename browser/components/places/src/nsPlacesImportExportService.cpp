@@ -1992,7 +1992,7 @@ the
 values
 set
 by
-insertItem
+insertBookmark
 createFolder
 etc
 .
@@ -6548,7 +6548,7 @@ rv
 mBookmarksService
 -
 >
-InsertItem
+InsertBookmark
 (
 frame
 .
@@ -6560,6 +6560,9 @@ mBookmarksService
 -
 >
 DEFAULT_INDEX
+EmptyString
+(
+)
 &
 frame
 .
@@ -6573,7 +6576,7 @@ NS_SUCCEEDED
 rv
 )
 "
-InsertItem
+InsertBookmark
 failed
 "
 )
@@ -6598,7 +6601,7 @@ has
 to
 happen
 after
-InsertItem
+InsertBookmark
 /
 /
 so
