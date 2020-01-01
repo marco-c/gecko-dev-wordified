@@ -2391,7 +2391,7 @@ eCONTENT
 return
 nsnull
 ;
-NS_ASSERTION
+NS_ENSURE_TRUE
 (
 GetCurrentDoc
 (
@@ -2404,11 +2404,7 @@ aPresShell
 GetDocument
 (
 )
-"
-Wrong
-document
-somewhere
-"
+nsnull
 )
 ;
 nsIFrame
