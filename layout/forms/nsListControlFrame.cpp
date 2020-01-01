@@ -2060,10 +2060,6 @@ nsLayoutUtils
 FontSizeInflationFor
 (
 this
-nsLayoutUtils
-:
-:
-eNotInReflow
 )
 ;
 fRect
@@ -2208,10 +2204,6 @@ nsListControlFrame
 :
 InvalidateFocus
 (
-const
-nsHTMLReflowState
-*
-aReflowState
 )
 {
 if
@@ -2276,17 +2268,6 @@ nsLayoutUtils
 FontSizeInflationFor
 (
 this
-aReflowState
-?
-nsLayoutUtils
-:
-:
-eInReflow
-:
-nsLayoutUtils
-:
-:
-eNotInReflow
 )
 ;
 nsRect
@@ -2772,10 +2753,6 @@ nsLayoutUtils
 FontSizeInflationFor
 (
 this
-nsLayoutUtils
-:
-:
-eInReflow
 )
 ;
 heightOfARow
@@ -8376,10 +8353,6 @@ ResetList
 (
 bool
 aAllowScrolling
-const
-nsHTMLReflowState
-*
-aReflowState
 )
 {
 /
@@ -8483,7 +8456,6 @@ kNothingSelected
 ;
 InvalidateFocus
 (
-aReflowState
 )
 ;
 /
@@ -11683,7 +11655,6 @@ DidHistoryRestore
 |
 |
 mPostChildrenLoadedReset
-aReflowState
 )
 ;
 }
