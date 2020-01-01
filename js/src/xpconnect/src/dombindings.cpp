@@ -5505,6 +5505,14 @@ GetObjectProto
 proxy
 )
 ;
+if
+(
+!
+proto
+)
+return
+true
+;
 bool
 hit
 ;
