@@ -1139,10 +1139,8 @@ nsITreeBoxObject
 >
 mTree
 ;
-nsCOMPtr
-<
 nsITreeView
->
+*
 mTreeView
 ;
 PRInt32
