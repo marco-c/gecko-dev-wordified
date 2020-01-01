@@ -2148,7 +2148,7 @@ camera
 base
 :
 :
-PRIVILEGES_INHERIT
+PRIVILEGES_CAMERA
 }
 /
 /
