@@ -3035,7 +3035,7 @@ nameSpaceID
 NS_ENSURE_TRUE
 (
 ni
-NS_ERROR_FAILURE
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 aName
@@ -3294,7 +3294,7 @@ nameSpaceID
 NS_ENSURE_TRUE
 (
 nodeInfo
-NS_ERROR_FAILURE
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 nsresult
