@@ -3121,6 +3121,9 @@ updateKey
 optionsURL
 "
 "
+optionsType
+"
+"
 aboutURL
 "
 "
