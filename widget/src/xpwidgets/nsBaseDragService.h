@@ -479,13 +479,6 @@ h
 #
 include
 "
-nsIDOMDataTransfer
-.
-h
-"
-#
-include
-"
 gfxImageSurface
 .
 h
@@ -905,12 +898,6 @@ outside
 the
 app
 .
-nsCOMPtr
-<
-nsIDOMDataTransfer
->
-mDataTransfer
-;
 /
 /
 used
