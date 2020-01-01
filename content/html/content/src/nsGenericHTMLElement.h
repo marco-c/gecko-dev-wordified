@@ -5956,6 +5956,15 @@ DestroyContent
 (
 )
 ;
+nsresult
+CopyInnerTo
+(
+nsGenericElement
+*
+aDest
+)
+const
+;
 /
 /
 nsIDOMNSHTMLElement

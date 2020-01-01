@@ -666,6 +666,15 @@ aResult
 )
 const
 ;
+nsresult
+CopyInnerTo
+(
+nsGenericElement
+*
+aDest
+)
+const
+;
 void
 MaybeLoadSVGImage
 (

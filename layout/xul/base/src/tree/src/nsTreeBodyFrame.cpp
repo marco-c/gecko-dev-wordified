@@ -12830,7 +12830,9 @@ GetStyleList
 )
 -
 >
-mListStyleImage
+GetListStyleImage
+(
+)
 ;
 if
 (

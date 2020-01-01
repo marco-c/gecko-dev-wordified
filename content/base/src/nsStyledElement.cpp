@@ -1521,6 +1521,14 @@ doc
 IsLoadedAsData
 (
 )
+|
+|
+doc
+-
+>
+IsStaticDocument
+(
+)
 )
 )
 {

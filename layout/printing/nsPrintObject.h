@@ -656,6 +656,11 @@ Init
 nsIDocShell
 *
 aDocShell
+nsIDOMDocument
+*
+aDoc
+PRBool
+aPrintPreview
 )
 ;
 PRBool
@@ -713,8 +718,10 @@ nsIWidget
 >
 mWindow
 ;
+nsCOMPtr
+<
 nsIContent
-*
+>
 mContent
 ;
 PrintObjectType
@@ -757,6 +764,9 @@ not
 visible
 by
 CSS
+PRPackedBool
+mPrintPreview
+;
 float
 mShrinkRatio
 ;
