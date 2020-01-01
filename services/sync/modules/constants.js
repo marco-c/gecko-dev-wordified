@@ -553,6 +553,15 @@ MULTI_MOBILE_SYNC
 /
 5
 minutes
+PARTIAL_DATA_SYNC
+:
+60
+*
+1000
+/
+/
+1
+minute
 /
 /
 File
