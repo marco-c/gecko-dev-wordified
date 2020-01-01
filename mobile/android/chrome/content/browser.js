@@ -9443,6 +9443,15 @@ parse
 aData
 )
 ;
+this
+.
+selectedTab
+.
+updateViewportSize
+(
+gScreenWidth
+)
+;
 break
 ;
 case
@@ -21607,6 +21616,9 @@ if
 this
 .
 updatingViewportForPageSizeChange
+&
+&
+aPageSizeUpdate
 )
 {
 this
@@ -21619,6 +21631,10 @@ if
 (
 (
 (
+Math
+.
+round
+(
 viewport
 .
 pageBottom
@@ -21626,7 +21642,9 @@ pageBottom
 viewport
 .
 pageTop
+)
 <
+=
 gScreenHeight
 +
 gViewportMargins
@@ -21647,6 +21665,10 @@ viewportExcludesVerticalMargins
 |
 (
 (
+Math
+.
+round
+(
 viewport
 .
 pageRight
@@ -21654,7 +21676,9 @@ pageRight
 viewport
 .
 pageLeft
+)
 <
+=
 gScreenWidth
 +
 gViewportMargins
