@@ -910,7 +910,7 @@ debug
 )
         
 except
-Exception
+ParseError
 p
 :
             
@@ -3204,6 +3204,9 @@ TransitionStmt
 :
 STATE
 State
+'
+:
+'
 Transitions
 "
 "
@@ -3227,7 +3230,7 @@ p
 ]
 p
 [
-3
+4
 ]
 )
 def
