@@ -1074,9 +1074,6 @@ ReleaseGlobals
 (
 )
 ;
-#
-ifdef
-MOZ_SVG
 /
 /
 Set
@@ -1128,8 +1125,6 @@ return
 mSVGMode
 ;
 }
-#
-endif
 #
 ifdef
 CSS_REPORT_PARSE_ERRORS
@@ -1655,9 +1650,6 @@ mLowLevelError
 PRUint32
 mLineNumber
 ;
-#
-ifdef
-MOZ_SVG
 /
 /
 True
@@ -1677,8 +1669,6 @@ CSS
 PRPackedBool
 mSVGMode
 ;
-#
-endif
 #
 ifdef
 CSS_REPORT_PARSE_ERRORS

@@ -1815,15 +1815,10 @@ mLowLevelError
 (
 NS_OK
 )
-#
-ifdef
-MOZ_SVG
 mSVGMode
 (
 PR_FALSE
 )
-#
-endif
 #
 ifdef
 CSS_REPORT_PARSE_ERRORS
@@ -4398,6 +4393,12 @@ ch
 '
 /
 '
+&
+&
+!
+IsSVGMode
+(
+)
 )
 {
 PRInt32
@@ -7053,9 +7054,6 @@ gotE
 =
 PR_FALSE
 ;
-#
-ifdef
-MOZ_SVG
 if
 (
 IsSVGMode
@@ -7236,8 +7234,6 @@ expSignChar
 }
 }
 }
-#
-endif
 nsCSSTokenType
 type
 =
