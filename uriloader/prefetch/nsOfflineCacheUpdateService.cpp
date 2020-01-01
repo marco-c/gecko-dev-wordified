@@ -475,6 +475,9 @@ gOfflineCacheUpdateLog
 #
 endif
 #
+undef
+LOG
+#
 define
 LOG
 (
