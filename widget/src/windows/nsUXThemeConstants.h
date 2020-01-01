@@ -791,6 +791,10 @@ PP_CHUNKVERT
 define
 PP_FILL
 5
+#
+define
+PP_MOVEOVERLAY
+8
 /
 /
 Tab
