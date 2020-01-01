@@ -2672,6 +2672,15 @@ mVResize
 mFlags
 .
 mHResize
+;
+}
+mFlags
+.
+mVResize
+=
+mFlags
+.
+mVResize
 |
 |
 NS_SUBTREE_DIRTY
@@ -2679,7 +2688,6 @@ NS_SUBTREE_DIRTY
 frame
 )
 ;
-}
 }
 else
 {
