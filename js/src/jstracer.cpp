@@ -58008,6 +58008,14 @@ LIns
 *
 args_ins
 =
+cx
+-
+>
+fp
+-
+>
+argc
+?
 lir
 -
 >
@@ -58025,6 +58033,11 @@ fp
 -
 >
 argc
+)
+:
+INS_CONSTPTR
+(
+0
 )
 ;
 for
