@@ -830,6 +830,10 @@ PRBool
 sInstalledMenuKeyboardListener
 ;
 static
+PRBool
+sInSecureInputMode
+;
+static
 nsTextStateManager
 *
 sTextStateObserver

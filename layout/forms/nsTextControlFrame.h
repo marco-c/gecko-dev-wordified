@@ -2313,9 +2313,6 @@ nsFileControlFrame
 PRPackedBool
 mFireChangeEventState
 ;
-PRPackedBool
-mInSecureKeyboardInputMode
-;
 /
 /
 Keep
