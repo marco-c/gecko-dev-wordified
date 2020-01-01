@@ -6679,6 +6679,13 @@ containerParameters
 nullptr
 )
 ;
+aForFrame
+-
+>
+ClearInvalidationStateBits
+(
+)
+;
 if
 (
 !
