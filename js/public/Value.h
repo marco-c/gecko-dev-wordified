@@ -2011,6 +2011,9 @@ u32
 JSWhyMagic
 why
 ;
+jsuword
+word
+;
 }
 payload
 ;
