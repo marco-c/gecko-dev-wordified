@@ -142,6 +142,13 @@ h
 #
 include
 "
+nsCycleCollectionHoldDrop
+.
+h
+"
+#
+include
+"
 nsCycleCollectionTraversalCallback
 .
 h
@@ -186,7 +193,7 @@ aTracer
 cyclecollector
 :
 :
-AddJSHolder
+HoldJSObjectsImpl
 (
 aScriptObjectHolder
 aTracer
@@ -293,7 +300,7 @@ false
 cyclecollector
 :
 :
-RemoveJSHolder
+DropJSObjectsImpl
 (
 aScriptObjectHolder
 )
