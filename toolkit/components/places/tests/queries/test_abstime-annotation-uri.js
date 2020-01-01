@@ -1721,12 +1721,6 @@ excludeItems
 =
 true
 ;
-options
-.
-showSessions
-=
-true
-;
 /
 /
 Results
