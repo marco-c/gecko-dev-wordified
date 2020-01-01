@@ -481,6 +481,11 @@ nsHTMLEditor
 (
 )
 ;
+bool
+GetReturnInParagraphCreatesNewParagraph
+(
+)
+;
 /
 *
 -
@@ -1699,7 +1704,7 @@ IterDirection
 aDir
 )
 ;
-nsresult
+void
 IsNextCharWhitespace
 (
 nsIDOMNode
@@ -1728,7 +1733,7 @@ outOffset
 0
 )
 ;
-nsresult
+void
 IsPrevCharWhitespace
 (
 nsIDOMNode

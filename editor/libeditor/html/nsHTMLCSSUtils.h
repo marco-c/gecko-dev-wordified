@@ -1767,7 +1767,7 @@ the
 pref
 *
 /
-nsresult
+void
 SetCSSEnabled
 (
 bool
