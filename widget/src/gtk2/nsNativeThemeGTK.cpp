@@ -867,7 +867,6 @@ vm
 >
 UpdateAllViews
 (
-NS_VMREFRESH_NO_SYNC
 )
 ;
 }
