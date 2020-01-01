@@ -476,7 +476,10 @@ r
 )
 {
 return
+RegisterMask
+(
 1
+)
 <
 <
 r
@@ -829,11 +832,6 @@ managed
 /
 /
 bitfield
-of
-0
-.
-.
-NJ_MAX_REGISTERS
 denoting
 which
 are
