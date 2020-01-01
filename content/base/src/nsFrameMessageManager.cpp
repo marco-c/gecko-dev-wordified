@@ -1894,7 +1894,7 @@ pusher
 Push
 (
 mContext
-NS_ERROR_FAILURE
+PR_FALSE
 )
 )
 ;
