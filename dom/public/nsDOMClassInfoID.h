@@ -1074,6 +1074,13 @@ eDOMClassInfo_HTMLAudioElement_id
 endif
 /
 /
+DOM
+Traversal
+NodeIterator
+class
+eDOMClassInfo_NodeIterator_id
+/
+/
 This
 one
 better
