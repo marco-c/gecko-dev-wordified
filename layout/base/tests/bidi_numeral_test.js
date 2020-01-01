@@ -260,8 +260,6 @@ PrivilegeManager
 enablePrivilege
 (
 '
-UniversalPreferencesRead
-UniversalPreferencesWrite
 UniversalXPConnect
 '
 )
