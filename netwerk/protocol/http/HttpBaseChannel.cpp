@@ -8590,6 +8590,9 @@ return
 bool
 useCookieService
 =
+#
+ifdef
+MOZ_IPC
 (
 XRE_GetProcessType
 (
@@ -8599,6 +8602,12 @@ XRE_GetProcessType
 GeckoProcessType_Default
 )
 ;
+#
+else
+PR_TRUE
+;
+#
+endif
 nsXPIDLCString
 cookie
 ;

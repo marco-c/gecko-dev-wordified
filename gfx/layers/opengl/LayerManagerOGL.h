@@ -460,6 +460,9 @@ Layers
 h
 "
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -470,6 +473,8 @@ ShadowLayers
 .
 h
 "
+#
+endif
 #
 ifdef
 XP_WIN
@@ -646,8 +651,17 @@ class
 THEBES_API
 LayerManagerOGL
 :
+#
+ifdef
+MOZ_IPC
 public
 ShadowLayerManager
+#
+else
+public
+LayerManager
+#
+endif
 {
 typedef
 mozilla

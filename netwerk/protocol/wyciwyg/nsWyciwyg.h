@@ -411,6 +411,9 @@ define
 FORCE_PR_LOG
 #
 endif
+#
+ifdef
+MOZ_IPC
 /
 /
 e10s
@@ -604,6 +607,11 @@ h
 #
 undef
 LOG
+#
+endif
+/
+/
+MOZ_IPC
 #
 include
 "

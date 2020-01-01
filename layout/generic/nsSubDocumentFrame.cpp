@@ -480,6 +480,9 @@ s
 *
 /
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -499,6 +502,8 @@ layout
 :
 RenderFrameParent
 ;
+#
+endif
 #
 include
 "
@@ -1720,6 +1725,9 @@ mInnerView
 return
 NS_OK
 ;
+#
+ifdef
+MOZ_IPC
 nsFrameLoader
 *
 frameLoader
@@ -1763,6 +1771,8 @@ aLists
 ;
 }
 }
+#
+endif
 nsIView
 *
 subdocView

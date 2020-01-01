@@ -642,6 +642,9 @@ h
 #
 endif
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 nsFilePickerProxy
@@ -655,6 +658,8 @@ nsXULAppAPI
 .
 h
 "
+#
+endif
 /
 /
 from
@@ -759,6 +764,9 @@ nsIFilePicker
 >
 picker
 ;
+#
+ifdef
+MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -776,6 +784,8 @@ nsFilePickerProxy
 )
 ;
 else
+#
+endif
 picker
 =
 new

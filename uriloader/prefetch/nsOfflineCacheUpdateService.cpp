@@ -429,6 +429,9 @@ BLOCK
 *
 /
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 OfflineCacheUpdateChild
@@ -449,6 +452,8 @@ nsXULAppAPI
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -694,6 +699,9 @@ gOfflineCacheUpdateService
 =
 nsnull
 ;
+#
+ifdef
+MOZ_IPC
 typedef
 mozilla
 :
@@ -714,6 +722,8 @@ docshell
 OfflineCacheUpdateChild
 OfflineCacheUpdateChild
 ;
+#
+endif
 typedef
 mozilla
 :
@@ -3257,6 +3267,9 @@ nsIOfflineCacheUpdate
 >
 update
 ;
+#
+ifdef
+MOZ_IPC
 if
 (
 GeckoProcessType_Default
@@ -3277,6 +3290,8 @@ aWindow
 ;
 }
 else
+#
+endif
 {
 update
 =

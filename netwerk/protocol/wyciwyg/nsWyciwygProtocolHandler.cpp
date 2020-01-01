@@ -493,6 +493,9 @@ nsNetUtil
 h
 "
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -503,6 +506,11 @@ NeckoChild
 .
 h
 "
+#
+endif
+#
+ifdef
+MOZ_IPC
 using
 namespace
 mozilla
@@ -521,6 +529,8 @@ WyciwygChannelChild
 .
 h
 "
+#
+endif
 /
 /
 /
@@ -1013,6 +1023,9 @@ nsIChannel
 result
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 mozilla
@@ -1038,6 +1051,11 @@ InitNeckoChild
 (
 )
 ;
+#
+endif
+/
+/
+MOZ_IPC
 NS_ENSURE_ARG_POINTER
 (
 url
@@ -1052,6 +1070,9 @@ nsIWyciwygChannel
 >
 channel
 ;
+#
+ifdef
+MOZ_IPC
 if
 (
 IsNeckoChild
@@ -1125,6 +1146,8 @@ wcc
 ;
 }
 else
+#
+endif
 {
 /
 /

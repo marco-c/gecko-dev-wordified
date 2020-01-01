@@ -431,6 +431,9 @@ BLOCK
 *
 /
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 base
@@ -439,6 +442,8 @@ basictypes
 .
 h
 "
+#
+endif
 /
 /
 FIXME
@@ -563,6 +568,9 @@ plugins
 parent
 ;
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -591,6 +599,8 @@ plugins
 :
 ParentNPObject
 ;
+#
+endif
 /
 /
 Hash
@@ -827,6 +837,9 @@ NPObject
 obj
 )
 {
+#
+ifdef
+MOZ_IPC
 return
 obj
 -
@@ -841,6 +854,13 @@ GetClass
 (
 )
 ;
+#
+else
+return
+false
+;
+#
+endif
 }
 }
 /
@@ -6749,6 +6769,9 @@ JSIdToNPIdentifier
 id
 )
 ;
+#
+ifdef
+MOZ_IPC
 if
 (
 NPObjectIsOutOfProcessProxy
@@ -6909,6 +6932,8 @@ return
 JS_TRUE
 ;
 }
+#
+endif
 hasProperty
 =
 npobj

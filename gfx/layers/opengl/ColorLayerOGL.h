@@ -436,6 +436,9 @@ GFX_COLORLAYEROGL_H
 define
 GFX_COLORLAYEROGL_H
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -457,6 +460,11 @@ ShadowLayers
 .
 h
 "
+#
+endif
+/
+/
+MOZ_IPC
 #
 include
 "
@@ -560,6 +568,9 @@ aOffset
 ;
 }
 ;
+#
+ifdef
+MOZ_IPC
 class
 ShadowColorLayerOGL
 :
@@ -649,6 +660,11 @@ aOffset
 ;
 }
 ;
+#
+endif
+/
+/
+MOZ_IPC
 }
 /
 *

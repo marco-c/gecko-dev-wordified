@@ -446,6 +446,9 @@ BLOCK
 *
 /
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 base
@@ -463,6 +466,8 @@ IPCMessageUtils
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -2186,6 +2191,9 @@ return
 rv
 ;
 }
+#
+ifdef
+MOZ_IPC
 void
 nsDOMUIEvent
 :
@@ -2303,6 +2311,8 @@ return
 PR_TRUE
 ;
 }
+#
+endif
 nsresult
 NS_NewDOMUIEvent
 (

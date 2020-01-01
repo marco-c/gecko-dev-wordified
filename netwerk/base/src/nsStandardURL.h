@@ -1927,6 +1927,9 @@ URLSegment
 &
 )
 ;
+#
+ifdef
+MOZ_IPC
 /
 /
 ipc
@@ -1961,6 +1964,8 @@ URLSegment
 &
 )
 ;
+#
+endif
 static
 void
 PrefsChanged

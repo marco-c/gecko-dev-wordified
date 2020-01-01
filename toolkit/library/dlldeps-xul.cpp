@@ -466,6 +466,9 @@ XRE_GetProcessType
 (
 )
 ;
+#
+ifdef
+MOZ_IPC
 XRE_InitChildProcess
 (
 0
@@ -496,4 +499,6 @@ nsnull
 nsnull
 )
 ;
+#
+endif
 }

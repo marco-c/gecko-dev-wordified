@@ -1335,6 +1335,9 @@ nsCString
 >
 mTypeArray
 ;
+#
+ifdef
+MOZ_IPC
 /
 /
 Whether
@@ -1385,6 +1388,8 @@ mUpdateChildProcess
 PR_TRUE
 ;
 }
+#
+endif
 }
 ;
 /

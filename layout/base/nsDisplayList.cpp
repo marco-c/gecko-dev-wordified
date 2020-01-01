@@ -10703,6 +10703,9 @@ forget
 )
 ;
 }
+#
+ifdef
+MOZ_IPC
 nsDisplayScrollLayer
 :
 :
@@ -11113,6 +11116,8 @@ nsDisplayScrollLayer
 )
 ;
 }
+#
+endif
 #
 endif
 nsDisplayClip

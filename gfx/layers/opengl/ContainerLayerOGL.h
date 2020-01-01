@@ -431,6 +431,9 @@ GFX_CONTAINERLAYEROGL_H
 define
 GFX_CONTAINERLAYEROGL_H
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -452,6 +455,8 @@ ShadowLayers
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -719,6 +724,9 @@ aTransformToSurface
 }
 }
 ;
+#
+ifdef
+MOZ_IPC
 class
 ShadowContainerLayerOGL
 :
@@ -891,6 +899,11 @@ aTransformToSurface
 }
 }
 ;
+#
+endif
+/
+/
+MOZ_IPC
 }
 /
 *

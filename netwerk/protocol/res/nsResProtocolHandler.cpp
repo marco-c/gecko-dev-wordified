@@ -449,6 +449,9 @@ BLOCK
 *
 /
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -459,6 +462,8 @@ RegistryMessageUtils
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1916,6 +1921,9 @@ NS_OK
 }
 #
 endif
+#
+ifdef
+MOZ_IPC
 static
 PLDHashOperator
 EnumerateSubstitution
@@ -2031,6 +2039,8 @@ aResources
 )
 ;
 }
+#
+endif
 /
 /
 -

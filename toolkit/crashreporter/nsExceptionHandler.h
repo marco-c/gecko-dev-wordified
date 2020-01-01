@@ -743,6 +743,9 @@ PRBool
 aSubmitReport
 )
 ;
+#
+ifdef
+MOZ_IPC
 /
 /
 Out
@@ -1216,6 +1219,11 @@ UnsetRemoteExceptionHandler
 )
 ;
 #
+endif
+/
+/
+MOZ_IPC
+#
 if
 defined
 (
@@ -1302,6 +1310,12 @@ size_t
 file_offset
 )
 ;
+#
+if
+defined
+(
+MOZ_IPC
+)
 void
 AddLibraryMappingForChild
 (
@@ -1330,6 +1344,8 @@ PRUint32
 childPid
 )
 ;
+#
+endif
 #
 endif
 }

@@ -688,6 +688,9 @@ FunctionTimer
 h
 "
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -698,6 +701,8 @@ NeckoCommon
 .
 h
 "
+#
+endif
 /
 *
 *
@@ -6461,6 +6466,9 @@ mInitialized
 return
 NS_ERROR_ALREADY_INITIALIZED
 ;
+#
+ifdef
+MOZ_IPC
 if
 (
 mozilla
@@ -6478,6 +6486,8 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
+#
+endif
 if
 (
 mLock

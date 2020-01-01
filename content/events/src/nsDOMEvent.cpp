@@ -447,6 +447,9 @@ BLOCK
 *
 /
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 base
@@ -464,6 +467,8 @@ IPCMessageUtils
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -7291,6 +7296,9 @@ PRBool
 aSerializeInterfaceType
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 aSerializeInterfaceType
@@ -7396,6 +7404,8 @@ serialization
 for
 now
 !
+#
+endif
 }
 PRBool
 nsDOMEvent
@@ -7416,6 +7426,9 @@ void
 aIter
 )
 {
+#
+ifdef
+MOZ_IPC
 nsString
 type
 ;
@@ -7518,6 +7531,13 @@ trusted
 return
 PR_TRUE
 ;
+#
+else
+return
+PR_FALSE
+;
+#
+endif
 }
 nsresult
 NS_NewDOMEvent

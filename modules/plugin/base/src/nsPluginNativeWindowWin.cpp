@@ -4132,6 +4132,9 @@ hWnd
 GWL_STYLE
 )
 ;
+#
+ifdef
+MOZ_IPC
 /
 /
 Out
@@ -4194,6 +4197,15 @@ style
 =
 WS_CLIPCHILDREN
 ;
+#
+else
+style
+|
+=
+WS_CLIPCHILDREN
+;
+#
+endif
 SetWindowLongPtr
 (
 hWnd

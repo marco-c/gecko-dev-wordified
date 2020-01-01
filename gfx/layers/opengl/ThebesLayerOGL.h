@@ -434,6 +434,9 @@ GFX_THEBESLAYEROGL_H
 define
 GFX_THEBESLAYEROGL_H
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -455,6 +458,8 @@ ShadowLayers
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -612,6 +617,9 @@ mBuffer
 ;
 }
 ;
+#
+ifdef
+MOZ_IPC
 class
 ShadowThebesLayerOGL
 :
@@ -744,6 +752,11 @@ mBuffer
 ;
 }
 ;
+#
+endif
+/
+/
+MOZ_IPC
 }
 /
 *

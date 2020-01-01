@@ -459,6 +459,9 @@ __nsWindow_h__
 define
 __nsWindow_h__
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -469,6 +472,8 @@ SharedMemorySysV
 .
 h
 "
+#
+endif
 #
 include
 "

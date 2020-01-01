@@ -404,6 +404,9 @@ h
 #
 endif
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 base
@@ -412,6 +415,8 @@ basictypes
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -592,6 +597,9 @@ Omnijar
 .
 h
 "
+#
+ifdef
+MOZ_IPC
 #
 if
 defined
@@ -999,6 +1007,8 @@ startup
 :
 sChildProcessType
 ;
+#
+endif
 static
 NS_DEFINE_CID
 (
@@ -1467,6 +1477,9 @@ return
 GeckoProcessType_Invalid
 ;
 }
+#
+ifdef
+MOZ_IPC
 namespace
 mozilla
 {
@@ -4380,3 +4393,8 @@ InstallX11ErrorHandler
 }
 #
 endif
+#
+endif
+/
+/
+MOZ_IPC

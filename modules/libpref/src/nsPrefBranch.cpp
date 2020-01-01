@@ -453,6 +453,9 @@ BLOCK
 *
 /
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -470,6 +473,8 @@ nsXULAppAPI
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -631,6 +636,9 @@ void
 arg
 )
 ;
+#
+ifdef
+MOZ_IPC
 using
 mozilla
 :
@@ -701,6 +709,11 @@ return
 nsnull
 ;
 }
+#
+endif
+/
+/
+MOZ_IPC
 /
 *
 *
@@ -1052,6 +1065,9 @@ PRInt32
 aValue
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 GetContentChild
@@ -1075,6 +1091,8 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+#
+endif
 NS_ENSURE_ARG
 (
 aPrefName
@@ -1155,6 +1173,9 @@ char
 aValue
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 GetContentChild
@@ -1178,6 +1199,8 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+#
+endif
 NS_ENSURE_ARG
 (
 aPrefName
@@ -1260,6 +1283,9 @@ PRInt32
 aValue
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 GetContentChild
@@ -1283,6 +1309,8 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+#
+endif
 NS_ENSURE_ARG
 (
 aPrefName
@@ -1643,6 +1671,9 @@ nsILocalFile
 )
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 GetContentChild
@@ -1667,6 +1698,8 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+#
+endif
 nsCOMPtr
 <
 nsILocalFile
@@ -1744,6 +1777,9 @@ nsIRelativeFilePref
 )
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 GetContentChild
@@ -1767,6 +1803,8 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+#
+endif
 nsACString
 :
 :
@@ -2122,6 +2160,9 @@ nsISupports
 aValue
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 GetContentChild
@@ -2145,6 +2186,8 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+#
+endif
 NS_ENSURE_ARG
 (
 aPrefName
@@ -2604,6 +2647,9 @@ char
 aPrefName
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 GetContentChild
@@ -2627,6 +2673,8 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+#
+endif
 NS_ENSURE_ARG
 (
 aPrefName
@@ -2708,6 +2756,9 @@ char
 aPrefName
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 GetContentChild
@@ -2731,6 +2782,8 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+#
+endif
 NS_ENSURE_ARG
 (
 aPrefName
@@ -2769,6 +2822,9 @@ PRBool
 _retval
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 GetContentChild
@@ -2793,6 +2849,8 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+#
+endif
 NS_ENSURE_ARG_POINTER
 (
 _retval
@@ -2837,6 +2895,9 @@ char
 aPrefName
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 GetContentChild
@@ -2860,6 +2921,8 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+#
+endif
 NS_ENSURE_ARG
 (
 aPrefName
@@ -2923,6 +2986,9 @@ char
 aStartingAt
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 GetContentChild
@@ -2946,6 +3012,8 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+#
+endif
 NS_ENSURE_ARG
 (
 aStartingAt

@@ -428,12 +428,17 @@ BLOCK
 *
 /
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 gfxSharedImageSurface
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1540,6 +1545,9 @@ Empty
 )
 ;
 }
+#
+ifdef
+MOZ_IPC
 ShadowCanvasLayerOGL
 :
 :
@@ -1940,3 +1948,8 @@ program
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_IPC

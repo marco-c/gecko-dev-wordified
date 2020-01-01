@@ -3617,6 +3617,9 @@ directive
 regfunc
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 GeckoProcessType_Default
@@ -3628,6 +3631,8 @@ XRE_GetProcessType
 )
 continue
 ;
+#
+endif
 if
 (
 !

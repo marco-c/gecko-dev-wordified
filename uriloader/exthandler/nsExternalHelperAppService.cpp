@@ -498,6 +498,9 @@ FORCE_PR_LOG
 #
 endif
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 base
@@ -524,6 +527,8 @@ nsXULAppAPI
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1103,6 +1108,9 @@ nsIPrivateBrowsingService
 h
 "
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 ContentChild
@@ -1144,6 +1152,8 @@ ExternalHelperAppChild
 .
 h
 "
+#
+endif
 #
 ifdef
 ANDROID
@@ -4791,6 +4801,9 @@ uri
 )
 )
 ;
+#
+ifdef
+MOZ_IPC
 PRInt64
 contentLength
 =
@@ -5107,6 +5120,11 @@ return
 NS_OK
 ;
 }
+#
+endif
+/
+/
+MOZ_IPC
 if
 (
 channel
@@ -6780,6 +6798,9 @@ NS_ENSURE_ARG_POINTER
 aURI
 )
 ;
+#
+ifdef
+MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -6813,6 +6834,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 nsCAutoString
 spec
 ;
@@ -11323,6 +11346,9 @@ applyConversion
 )
 ;
 }
+#
+ifdef
+MOZ_IPC
 /
 /
 At
@@ -11355,6 +11381,8 @@ GeckoProcessType_Content
 return
 NS_OK
 ;
+#
+endif
 rv
 =
 SetUpTempFile
@@ -13029,6 +13057,9 @@ msgText
 ;
 }
 else
+#
+ifdef
+MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -13038,6 +13069,8 @@ XRE_GetProcessType
 =
 GeckoProcessType_Default
 )
+#
+endif
 {
 /
 /

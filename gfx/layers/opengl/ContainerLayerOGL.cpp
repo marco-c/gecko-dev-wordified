@@ -2222,6 +2222,9 @@ mOGLManager
 )
 ;
 }
+#
+ifdef
+MOZ_IPC
 ShadowContainerLayerOGL
 :
 :
@@ -2379,6 +2382,11 @@ mOGLManager
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_IPC
 }
 /
 *

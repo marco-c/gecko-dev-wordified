@@ -418,6 +418,9 @@ BLOCK
 *
 /
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 ContentChild
@@ -431,6 +434,8 @@ ContentParent
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -4224,6 +4229,9 @@ sParentProcessManager
 =
 nsnull
 ;
+#
+ifdef
+MOZ_IPC
 bool
 SendAsyncMessageToChildProcess
 (
@@ -4438,6 +4446,8 @@ return
 true
 ;
 }
+#
+endif
 nsresult
 NS_NewParentProcessMessageManager
 (
@@ -4462,6 +4472,9 @@ sParentProcessManager
 "
 )
 ;
+#
+ifdef
+MOZ_IPC
 NS_ENSURE_TRUE
 (
 IsChromeProcess
@@ -4512,6 +4525,13 @@ mm
 aResult
 )
 ;
+#
+else
+return
+NS_ERROR_NOT_AVAILABLE
+;
+#
+endif
 }
 nsresult
 NS_NewChildProcessMessageManager
@@ -4537,6 +4557,9 @@ sChildProcessManager
 "
 )
 ;
+#
+ifdef
+MOZ_IPC
 NS_ENSURE_TRUE
 (
 !
@@ -4588,4 +4611,11 @@ mm
 aResult
 )
 ;
+#
+else
+return
+NS_ERROR_NOT_AVAILABLE
+;
+#
+endif
 }

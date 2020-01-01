@@ -1924,6 +1924,9 @@ secureUI
 =
 nsnull
 ;
+#
+ifdef
+MOZ_IPC
 CallGetInterface
 (
 proxiedCallbacks
@@ -1935,6 +1938,8 @@ get
 secureUI
 )
 ;
+#
+endif
 nsCOMPtr
 <
 nsIDocShell

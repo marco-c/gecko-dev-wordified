@@ -11972,6 +11972,9 @@ TYPE_OWN_LAYER
 )
 }
 ;
+#
+ifdef
+MOZ_IPC
 /
 *
 *
@@ -12262,6 +12265,8 @@ mViewportFrame
 ;
 }
 ;
+#
+endif
 /
 *
 *

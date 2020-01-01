@@ -530,6 +530,9 @@ BLOCK
 *
 /
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -540,6 +543,8 @@ TabParent
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1266,6 +1271,9 @@ h
 >
 #
 endif
+#
+ifdef
+MOZ_IPC
 using
 namespace
 mozilla
@@ -1273,6 +1281,8 @@ mozilla
 :
 dom
 ;
+#
+endif
 /
 /
 #
@@ -8353,6 +8363,9 @@ case
 NS_QUERY_SELECTED_TEXT
 :
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 RemoteQueryContentEvent
@@ -8362,6 +8375,8 @@ aEvent
 )
 break
 ;
+#
+endif
 nsContentEventHandler
 handler
 (
@@ -8386,6 +8401,9 @@ case
 NS_QUERY_TEXT_CONTENT
 :
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 RemoteQueryContentEvent
@@ -8395,6 +8413,8 @@ aEvent
 )
 break
 ;
+#
+endif
 nsContentEventHandler
 handler
 (
@@ -8634,6 +8654,9 @@ case
 NS_SELECTION_SET
 :
 {
+#
+ifdef
+MOZ_IPC
 nsSelectionEvent
 *
 selectionEvent
@@ -8688,6 +8711,8 @@ PR_TRUE
 break
 ;
 }
+#
+endif
 nsContentEventHandler
 handler
 (
@@ -8764,6 +8789,9 @@ aEvent
 }
 break
 ;
+#
+ifdef
+MOZ_IPC
 case
 NS_TEXT_TEXT
 :
@@ -8901,6 +8929,11 @@ NS_EVENT_FLAG_STOP_DISPATCH
 }
 break
 ;
+#
+endif
+/
+/
+MOZ_IPC
 }
 return
 NS_OK
@@ -20762,6 +20795,9 @@ return
 ret
 ;
 }
+#
+ifdef
+MOZ_IPC
 PRBool
 nsEventStateManager
 :
@@ -20914,6 +20950,8 @@ GetIMETabParent
 nsnull
 ;
 }
+#
+endif
 NS_IMETHODIMP
 nsEventStateManager
 :
