@@ -9274,7 +9274,10 @@ JSObject
 *
 glob
 =
-JS_GetGlobalForScopeChain
+js
+:
+:
+GetDefaultGlobalForContext
 (
 mJSCx
 )
