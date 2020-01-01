@@ -1422,17 +1422,6 @@ nsIDOMCompositionListener
 HandleEndComposition
 )
 }
-{
-NS_COMPOSITION_QUERY
-HANDLER
-(
-&
-nsIDOMCompositionListener
-:
-:
-HandleQueryComposition
-)
-}
 }
 ;
 static

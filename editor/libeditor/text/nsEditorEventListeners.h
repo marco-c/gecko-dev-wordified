@@ -1007,14 +1007,6 @@ nsIDOMEvent
 aCompositionEvent
 )
 ;
-NS_IMETHOD
-HandleQueryComposition
-(
-nsIDOMEvent
-*
-aCompositionEvent
-)
-;
 /
 *
 END

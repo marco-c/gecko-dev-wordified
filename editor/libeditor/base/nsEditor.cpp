@@ -10557,7 +10557,7 @@ listeners
 .
 /
 /
-NS_IMETHODIMP
+nsresult
 nsEditor
 :
 :
