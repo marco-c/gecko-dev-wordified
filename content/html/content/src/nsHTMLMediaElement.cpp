@@ -12493,7 +12493,7 @@ nsHTMLMediaElement
 :
 gOmxTypes
 [
-6
+5
 ]
 [
 16
@@ -12509,13 +12509,6 @@ mpeg
 audio
 /
 mp4
-"
-"
-audio
-/
-aac
--
-adts
 "
 "
 video
