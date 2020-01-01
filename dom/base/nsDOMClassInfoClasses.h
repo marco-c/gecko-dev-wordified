@@ -1500,10 +1500,6 @@ MozVoicemail
 )
 DOMCI_CLASS
 (
-MozVoicemailEvent
-)
-DOMCI_CLASS
-(
 MozIccManager
 )
 DOMCI_CLASS
