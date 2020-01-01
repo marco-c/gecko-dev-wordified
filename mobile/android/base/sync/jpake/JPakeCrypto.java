@@ -200,6 +200,15 @@ mozilla
 com
 >
 *
+Richard
+Newman
+<
+rnewman
+mozilla
+.
+com
+>
+*
 *
 Alternatively
 the
@@ -498,7 +507,7 @@ String
 LOG_TAG
 =
 "
-JpakeCrypto
+JPakeCrypto
 "
 ;
 /
@@ -515,7 +524,9 @@ G
 from
 original
 Mozilla
-jpake
+J
+-
+PAKE
 *
 implementation
 .
@@ -662,7 +673,9 @@ E2B63A6D7ED0747EC59E0E0A23CE7D8A74C1D2C2A7AFB6A29799620F00E11C33
 Round
 1
 of
-JPAKE
+J
+-
+PAKE
 protocol
 .
 *
@@ -843,7 +856,9 @@ gen
 Round
 2
 of
-JPAKE
+J
+-
+PAKE
 protocol
 .
 *
@@ -922,6 +937,7 @@ LOG_TAG
 "
 round2
 started
+.
 "
 )
 ;
@@ -1123,6 +1139,7 @@ LOG_TAG
 "
 round2
 finished
+.
 "
 )
 ;
@@ -1134,7 +1151,9 @@ finished
 Final
 round
 of
-JPAKE
+J
+-
+PAKE
 protocol
 .
 *
@@ -1175,9 +1194,10 @@ d
 (
 LOG_TAG
 "
-final
+Final
 round
 started
+.
 "
 )
 ;
@@ -1369,12 +1389,13 @@ d
 (
 LOG_TAG
 "
-final
+Final
 round
 finished
 ;
 returning
 key
+.
 "
 )
 ;
@@ -1783,6 +1804,7 @@ x
 >
 1
 fails
+.
 "
 )
 ;
@@ -1793,7 +1815,6 @@ IncorrectZkpException
 )
 ;
 }
-else
 if
 (
 gx
@@ -1837,6 +1858,7 @@ p
 -
 1
 fails
+.
 "
 )
 ;
@@ -1847,7 +1869,6 @@ IncorrectZkpException
 )
 ;
 }
-else
 if
 (
 gx
@@ -1885,11 +1906,17 @@ p
 =
 1
 fails
+.
 "
 )
 ;
+throw
+new
+IncorrectZkpException
+(
+)
+;
 }
-else
 if
 (
 zkp
@@ -2144,6 +2171,7 @@ LOG_TAG
 zkp
 calculation
 incorrect
+.
 "
 )
 ;
@@ -2154,8 +2182,6 @@ IncorrectZkpException
 )
 ;
 }
-else
-{
 Log
 .
 d
@@ -2173,7 +2199,6 @@ SUCCESS
 "
 )
 ;
-}
 }
 /
 *
