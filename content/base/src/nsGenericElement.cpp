@@ -1178,6 +1178,13 @@ xpcpublic
 .
 h
 "
+#
+include
+"
+xpcprivate
+.
+h
+"
 using
 namespace
 mozilla
