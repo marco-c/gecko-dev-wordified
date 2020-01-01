@@ -6548,7 +6548,7 @@ nsHTMLReflowMetrics
 :
 :
 *
-ASK_FOR_ASCENT
+ASK_FOR_BASELINE
 as
 ascent
 in
