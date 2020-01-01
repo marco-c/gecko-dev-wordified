@@ -2578,7 +2578,7 @@ change
 .
 password
 .
-pwSameAsSyncKey
+pwSameAsRecoveryKey
 "
 )
 ;
