@@ -1508,6 +1508,10 @@ rp
 int32_t
 calldepth
 ;
+void
+*
+vmprivate
+;
 private
 :
 NIns
