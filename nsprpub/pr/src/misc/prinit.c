@@ -2499,6 +2499,10 @@ id
 ;
 #
 endif
+_PR_MD_EARLY_CLEANUP
+(
+)
+;
 _PR_CleanupMW
 (
 )

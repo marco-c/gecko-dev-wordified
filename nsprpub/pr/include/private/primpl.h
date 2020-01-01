@@ -13387,6 +13387,17 @@ void
 define
 _PR_MD_FINAL_INIT
 _MD_FINAL_INIT
+extern
+void
+_PR_MD_EARLY_CLEANUP
+(
+void
+)
+;
+#
+define
+_PR_MD_EARLY_CLEANUP
+_MD_EARLY_CLEANUP
 /
 *
 Process

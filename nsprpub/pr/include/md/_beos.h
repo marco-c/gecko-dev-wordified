@@ -1107,6 +1107,11 @@ _MD_early_init
 define
 _MD_FINAL_INIT
 _MD_final_init
+#
+define
+_MD_EARLY_CLEANUP
+(
+)
 /
 *
 CPU
