@@ -1144,6 +1144,12 @@ init
 (
 )
 ;
+FullScreenVideo
+.
+init
+(
+)
+;
 PdfJs
 .
 init
