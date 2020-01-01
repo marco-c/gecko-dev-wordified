@@ -2466,8 +2466,8 @@ masm
 .
 as_vabs
 (
-input
 output
+input
 )
 ;
 return
