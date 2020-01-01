@@ -471,7 +471,7 @@ nsAString
 aEventName
 JSContext
 *
-cx
+aCx
 JS
 :
 :
@@ -602,7 +602,7 @@ event
 >
 InitCustomEvent
 (
-cx
+aCx
 aEventName
 /
 *
