@@ -1790,6 +1790,16 @@ Class
 )
 XMLClass
 ;
+extern
+JS_FRIEND_DATA
+(
+js
+:
+:
+Class
+)
+ObjectClass
+;
 inline
 js
 :
