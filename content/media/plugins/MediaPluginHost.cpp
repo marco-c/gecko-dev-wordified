@@ -126,15 +126,6 @@ include
 "
 mozilla
 /
-TimeStamp
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 TimeRanges
