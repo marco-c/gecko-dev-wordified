@@ -112,13 +112,6 @@ h
 #
 include
 "
-pratom
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

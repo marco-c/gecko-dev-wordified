@@ -96,13 +96,6 @@ MPL
 #
 include
 "
-pratom
-.
-h
-"
-#
-include
-"
 nsAlgorithm
 .
 h
