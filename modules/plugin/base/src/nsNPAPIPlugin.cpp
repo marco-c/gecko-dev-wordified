@@ -1459,6 +1459,12 @@ return
 gOSXVersion
 ;
 }
+#
+if
+defined
+(
+__i386__
+)
 /
 /
 Detects
@@ -1600,6 +1606,8 @@ return
 hasIntelGMA9XX
 ;
 }
+#
+endif
 #
 endif
 PRBool
@@ -1838,6 +1846,12 @@ PR_FALSE
 ;
 }
 }
+#
+if
+defined
+(
+__i386__
+)
 /
 /
 At
@@ -1879,6 +1893,8 @@ return
 PR_FALSE
 ;
 }
+#
+endif
 }
 #
 endif
