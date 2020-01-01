@@ -748,6 +748,14 @@ nsIWebGLUniformLocation
 11
 _extra
 )
+\
+DOMCI_CASTABLE_INTERFACE
+(
+nsIDOMImageData
+nsIDOMImageData
+12
+_extra
+)
 /
 /
 Make
