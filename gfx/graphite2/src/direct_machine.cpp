@@ -364,6 +364,8 @@ cstring
 #
 include
 "
+inc
+/
 Machine
 .
 h
@@ -371,6 +373,8 @@ h
 #
 include
 "
+inc
+/
 Segment
 .
 h
@@ -378,13 +382,8 @@ h
 #
 include
 "
-XmlTraceLog
-.
-h
-"
-#
-include
-"
+inc
+/
 Slot
 .
 h
@@ -392,6 +391,8 @@ h
 #
 include
 "
+inc
+/
 Rule
 .
 h
@@ -533,6 +534,8 @@ bodies
 #
 include
 "
+inc
+/
 opcode_table
 .
 h
@@ -648,6 +651,8 @@ definitions
 #
 include
 "
+inc
+/
 opcodes
 .
 h

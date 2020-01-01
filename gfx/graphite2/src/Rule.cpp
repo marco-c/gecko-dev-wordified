@@ -234,6 +234,8 @@ version
 #
 include
 "
+inc
+/
 Rule
 .
 h

@@ -246,7 +246,7 @@ h
 #
 define
 GR2_VERSION_MAJOR
-1
+2
 #
 define
 GR2_VERSION_MINOR
@@ -668,9 +668,11 @@ int
 faceOptions
 )
 ;
+/
+/
 #
 ifndef
-DISABLE_SEGCACHE
+GRAPHITE2_NSEGCACHE
 /
 *
 *
@@ -784,6 +786,8 @@ int
 faceOptions
 )
 ;
+/
+/
 #
 endif
 /
@@ -1272,7 +1276,7 @@ pFace
 ;
 #
 ifndef
-DISABLE_FILE_FACE
+GRAPHITE2_NFILEFACE
 /
 *
 *
@@ -1336,9 +1340,11 @@ int
 faceOptions
 )
 ;
+/
+/
 #
 ifndef
-DISABLE_SEGCACHE
+GRAPHITE2_NSEGCACHE
 /
 *
 *
@@ -1423,6 +1429,8 @@ int
 faceOptions
 )
 ;
+/
+/
 #
 endif
 #
@@ -1430,7 +1438,7 @@ endif
 /
 /
 !
-DISABLE_FILE_FACE
+GRAPHITE2_NFILEFACE
 /
 *
 *

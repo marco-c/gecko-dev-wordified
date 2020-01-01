@@ -290,6 +290,8 @@ h
 #
 include
 "
+inc
+/
 Main
 .
 h
@@ -297,6 +299,8 @@ h
 #
 include
 "
+inc
+/
 Machine
 .
 h

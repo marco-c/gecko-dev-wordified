@@ -243,6 +243,8 @@ h
 #
 include
 "
+inc
+/
 Face
 .
 h
@@ -250,6 +252,8 @@ h
 #
 include
 "
+inc
+/
 FeatureMap
 .
 h
@@ -257,6 +261,8 @@ h
 #
 include
 "
+inc
+/
 FeatureVal
 .
 h
@@ -264,6 +270,8 @@ h
 #
 include
 "
+inc
+/
 NameTable
 .
 h

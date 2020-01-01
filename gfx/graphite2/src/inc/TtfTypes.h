@@ -1023,11 +1023,12 @@ declarations
 *
 *
 typedef
+unsigned
 char
 uint8
 ;
 typedef
-char
+uint8
 byte
 ;
 typedef

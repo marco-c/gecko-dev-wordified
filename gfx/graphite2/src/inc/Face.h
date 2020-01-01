@@ -237,6 +237,8 @@ once
 #
 include
 "
+inc
+/
 Main
 .
 h
@@ -244,6 +246,8 @@ h
 #
 include
 "
+inc
+/
 GlyphFace
 .
 h
@@ -251,6 +255,8 @@ h
 #
 include
 "
+inc
+/
 Silf
 .
 h
@@ -258,6 +264,8 @@ h
 #
 include
 "
+inc
+/
 TtfUtil
 .
 h
@@ -265,6 +273,8 @@ h
 #
 include
 "
+inc
+/
 Main
 .
 h
@@ -281,6 +291,8 @@ h
 #
 include
 "
+inc
+/
 FeatureMap
 .
 h
@@ -288,13 +300,15 @@ h
 #
 include
 "
+inc
+/
 GlyphFaceCache
 .
 h
 "
 #
 ifndef
-DISABLE_FILE_FACE
+GRAPHITE2_NFILEFACE
 #
 include
 <
@@ -308,6 +322,8 @@ cassert
 #
 include
 "
+inc
+/
 TtfTypes
 .
 h
@@ -317,7 +333,7 @@ endif
 /
 /
 !
-DISABLE_FILE_FACE
+GRAPHITE2_NFILEFACE
 namespace
 graphite2
 {
@@ -358,7 +374,7 @@ TtfUtil
 h
 #
 ifndef
-DISABLE_FILE_FACE
+GRAPHITE2_NFILEFACE
 class
 TableCacheItem
 {
@@ -469,13 +485,13 @@ endif
 /
 /
 !
-DISABLE_FILE_FACE
+GRAPHITE2_NFILEFACE
 class
 FileFace
 {
 #
 ifndef
-DISABLE_FILE_FACE
+GRAPHITE2_NFILEFACE
 public
 :
 static
@@ -607,7 +623,7 @@ endif
 /
 /
 !
-DISABLE_FILE_FACE
+GRAPHITE2_NFILEFACE
 private
 :
 /

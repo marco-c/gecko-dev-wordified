@@ -237,6 +237,8 @@ once
 #
 include
 "
+inc
+/
 GlyphFace
 .
 h
