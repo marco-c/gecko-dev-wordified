@@ -3793,7 +3793,7 @@ acceptActivation
 (
 PR_FALSE
 )
-ignoreScrollFrame
+ignoreRootScrollFrame
 (
 PR_FALSE
 )
@@ -3859,7 +3859,7 @@ acceptActivation
 (
 PR_FALSE
 )
-ignoreScrollFrame
+ignoreRootScrollFrame
 (
 PR_FALSE
 )
@@ -4009,7 +4009,7 @@ during
 dispatch
 .
 PRPackedBool
-ignoreScrollFrame
+ignoreRootScrollFrame
 ;
 reasonType
 reason

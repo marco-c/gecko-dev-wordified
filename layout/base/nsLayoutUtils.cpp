@@ -5676,7 +5676,7 @@ aPt
 PRBool
 aShouldIgnoreSuppression
 PRBool
-aIgnoreScrollFrame
+aIgnoreRootScrollFrame
 )
 {
 nsDisplayListBuilder
@@ -5713,7 +5713,7 @@ IgnorePaintSuppression
 ;
 if
 (
-aIgnoreScrollFrame
+aIgnoreRootScrollFrame
 )
 {
 nsIFrame
