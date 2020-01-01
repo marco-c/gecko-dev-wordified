@@ -884,6 +884,10 @@ aShell
 }
 /
 /
+nsISupports
+NS_DECL_ISUPPORTS_INHERITED
+/
+/
 nsAccessible
 virtual
 nsresult
@@ -912,7 +916,7 @@ class
 nsHTMLLIAccessible
 :
 public
-nsLinkableAccessible
+nsHyperTextAccessibleWrap
 {
 public
 :
@@ -930,6 +934,10 @@ nsAString
 aBulletText
 )
 ;
+/
+/
+nsISupports
+NS_DECL_ISUPPORTS_INHERITED
 /
 /
 nsIAccessible
