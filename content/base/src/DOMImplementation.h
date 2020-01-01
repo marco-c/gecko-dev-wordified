@@ -317,10 +317,7 @@ nsIDocument
 CreateHTMLDocument
 (
 const
-Optional
-<
 nsAString
->
 &
 aTitle
 ErrorResult
