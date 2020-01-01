@@ -19432,11 +19432,11 @@ bool
 quad
 )
 {
-if
+NanoAssert
 (
 d
 )
-{
+;
 if
 (
 !
@@ -19488,7 +19488,6 @@ d
 FP
 )
 ;
-}
 }
 }
 NIns
