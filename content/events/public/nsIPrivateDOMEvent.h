@@ -1095,7 +1095,7 @@ nsPresContext
 *
 aPresContext
 class
-nsInputEvent
+nsTouchEvent
 *
 aEvent
 )

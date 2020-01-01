@@ -642,6 +642,9 @@ class
 nsMozTouchEvent
 ;
 class
+nsTouchEvent
+;
+class
 nsFormEvent
 ;
 class
