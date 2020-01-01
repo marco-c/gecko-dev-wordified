@@ -558,7 +558,7 @@ strict
 options
 (
 '
-werrror
+werror
 '
 )
 ;
