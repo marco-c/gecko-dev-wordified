@@ -9576,7 +9576,9 @@ this
 .
 canMoveContainer
 (
-concreteId
+aNode
+.
+itemId
 parentId
 )
 )
