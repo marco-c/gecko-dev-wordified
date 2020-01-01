@@ -6587,9 +6587,13 @@ charset
 ;
 PRInt32
 charsetParamStart
+=
+0
 ;
 PRInt32
 charsetParamEnd
+=
+0
 ;
 /
 /

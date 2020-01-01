@@ -458,13 +458,6 @@ h
 #
 include
 "
-nsIIDBDatabaseException
-.
-h
-"
-#
-include
-"
 nsIPrivateDOMEvent
 .
 h

@@ -563,3 +563,7 @@ DEPRECATED_OPERATION
 (
 MozBlobBuilder
 )
+DEPRECATED_OPERATION
+(
+DOMExceptionCode
+)

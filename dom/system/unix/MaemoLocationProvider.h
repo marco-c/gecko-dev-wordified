@@ -540,13 +540,6 @@ h
 #
 include
 "
-nsIDOMGeoPositionOptions
-.
-h
-"
-#
-include
-"
 nsIDOMNavigatorGeolocation
 .
 h

@@ -549,7 +549,6 @@ pages
 0
 ]
 function
-GFUFP_onFaviconDataAvailable
 (
 aURI
 aDataLen

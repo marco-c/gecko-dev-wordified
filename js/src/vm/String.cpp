@@ -2366,11 +2366,9 @@ js_ConcatStrings
 JSContext
 *
 cx
-JSString
-*
+HandleString
 left
-JSString
-*
+HandleString
 right
 )
 {

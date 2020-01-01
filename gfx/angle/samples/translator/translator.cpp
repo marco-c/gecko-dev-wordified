@@ -1515,8 +1515,6 @@ ext
 -
 )
 ;
-if
-(
 ext
 =
 strrchr
@@ -1526,6 +1524,10 @@ fileName
 .
 '
 )
+;
+if
+(
+ext
 )
 {
 if

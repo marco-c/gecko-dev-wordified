@@ -6486,9 +6486,6 @@ newtest
 reincarnated
 "
 )
-!
-=
-nsnull
 ;
 SetACookie
 (

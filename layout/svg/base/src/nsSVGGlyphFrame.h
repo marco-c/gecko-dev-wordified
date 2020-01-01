@@ -1133,7 +1133,7 @@ aPoint
 )
 ;
 virtual
-gfxRect
+SVGBBox
 GetBBoxContribution
 (
 const

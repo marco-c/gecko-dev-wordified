@@ -1203,8 +1203,7 @@ JSContext
 cx
 uint32_t
 argc
-JSObject
-&
+HandleObject
 callee
 )
 ;
@@ -1353,8 +1352,7 @@ JSContext
 cx
 uint32_t
 argc
-JSObject
-&
+HandleObject
 callee
 )
 ;

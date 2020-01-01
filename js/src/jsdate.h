@@ -442,6 +442,15 @@ jsdate_h___
 #
 include
 "
+mozilla
+/
+FloatingPoint
+.
+h
+"
+#
+include
+"
 jscntxt
 .
 h
@@ -460,7 +469,7 @@ d
 )
 (
 (
-JSDOUBLE_IS_FINITE
+MOZ_DOUBLE_IS_FINITE
 (
 d
 )

@@ -759,6 +759,10 @@ DebugOnly
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 net
@@ -26749,6 +26753,8 @@ NULL
 ;
 PRInt64
 oldestTime
+=
+0
 ;
 const
 nsCookieEntry
@@ -27583,7 +27589,10 @@ params
 )
 )
 ;
+DebugOnly
+<
 nsresult
+>
 rv
 =
 params
@@ -27914,9 +27923,6 @@ bindCookieParameters
 "
 )
 ;
-nsresult
-rv
-;
 /
 /
 Use
@@ -27943,6 +27949,10 @@ mozIStorageBindingParams
 >
 params
 ;
+DebugOnly
+<
+nsresult
+>
 rv
 =
 aParamsArray

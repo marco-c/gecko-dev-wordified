@@ -432,6 +432,9 @@ jni
 .
 h
 >
+#
+ifdef
+MOZ_MEMORY
 /
 /
 Wrap
@@ -449,6 +452,8 @@ __wrap_malloc
 define
 free
 __wrap_free
+#
+endif
 #
 include
 <

@@ -1908,11 +1908,9 @@ MDefinition
 *
 createThisScriptedSingleton
 (
-JSFunction
-*
+HandleFunction
 target
-JSObject
-*
+HandleObject
 proto
 MDefinition
 *
@@ -1923,8 +1921,7 @@ MDefinition
 *
 createThis
 (
-JSFunction
-*
+HandleFunction
 target
 MDefinition
 *
@@ -1934,8 +1931,7 @@ callee
 bool
 makeCall
 (
-JSFunction
-*
+HandleFunction
 target
 uint32
 argc

@@ -451,7 +451,7 @@ __nsHTMLSelectAccessible_h__
 #
 include
 "
-nsHTMLFormControlAccessible
+HTMLFormControlAccessible
 .
 h
 "

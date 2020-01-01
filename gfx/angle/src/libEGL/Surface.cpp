@@ -1405,7 +1405,7 @@ if
 mDisplay
 -
 >
-isD3d9ExDevice
+shareHandleSupported
 (
 )
 )

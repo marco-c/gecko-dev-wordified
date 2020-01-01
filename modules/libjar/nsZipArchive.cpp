@@ -1154,6 +1154,10 @@ PR_RDONLY
 0000
 &
 fd
+.
+rwget
+(
+)
 )
 ;
 if

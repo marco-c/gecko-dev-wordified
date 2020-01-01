@@ -1718,7 +1718,7 @@ first
 reflow
 .
 }
-gfxRect
+SVGBBox
 nsSVGTextFrame
 :
 :

@@ -572,6 +572,13 @@ string
 h
 >
 #
+include
+<
+stdarg
+.
+h
+>
+#
 define
 kNotFound
 -

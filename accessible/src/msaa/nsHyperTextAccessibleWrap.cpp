@@ -474,7 +474,7 @@ IMPL_IUNKNOWN_INHERITED2
 (
 nsHyperTextAccessibleWrap
 nsAccessibleWrap
-CAccessibleHypertext
+ia2AccessibleHypertext
 CAccessibleEditableText
 )
 ;

@@ -5588,6 +5588,8 @@ bTestSmilie
 ;
 bool
 bArg
+=
+false
 ;
 int
 i

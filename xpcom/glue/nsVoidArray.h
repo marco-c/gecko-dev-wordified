@@ -457,6 +457,15 @@ nsDebug
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
 /
 /
 Comparator
@@ -2227,7 +2236,7 @@ return
 (
 reinterpret_cast
 <
-PRWord
+intptr_t
 >
 (
 mImpl
@@ -2264,7 +2273,7 @@ void
 (
 reinterpret_cast
 <
-PRWord
+intptr_t
 >
 (
 mImpl
@@ -2308,7 +2317,7 @@ Impl
 (
 reinterpret_cast
 <
-PRWord
+intptr_t
 >
 (
 aChild
