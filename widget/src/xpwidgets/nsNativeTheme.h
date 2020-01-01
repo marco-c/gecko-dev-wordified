@@ -797,6 +797,14 @@ nsIFrame
 aFrame
 )
 ;
+PRBool
+IsHorizontal
+(
+nsIFrame
+*
+aFrame
+)
+;
 /
 /
 progressbar

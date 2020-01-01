@@ -3399,6 +3399,11 @@ separator
 )
 CSS_KEY
 (
+splitter
+splitter
+)
+CSS_KEY
+(
 statusbar
 statusbar
 )

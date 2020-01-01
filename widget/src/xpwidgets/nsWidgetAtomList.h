@@ -724,6 +724,13 @@ horizontal
 )
 WIDGET_ATOM
 (
+vertical
+"
+vertical
+"
+)
+WIDGET_ATOM
+(
 id
 "
 id
