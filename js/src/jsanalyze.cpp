@@ -2253,6 +2253,7 @@ script_analyze
 "
 256
 8
+NULL
 )
 ;
 unsigned
@@ -2393,6 +2394,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 {
 for
@@ -2491,6 +2494,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 usesRval
 =
@@ -3197,6 +3202,9 @@ JSOP_NAMEINC
 case
 JSOP_NAMEDEC
 :
+case
+JSOP_FORNAME
+:
 usesScope
 =
 true
@@ -3225,7 +3233,7 @@ case
 JSOP_GOSUBX
 :
 case
-JSOP_IFCANTCALLTOP
+JSOP_IFPRIMTOP
 :
 case
 JSOP_FILTER
@@ -3858,6 +3866,9 @@ break
 }
 case
 JSOP_SETLOCAL
+:
+case
+JSOP_FORLOCAL
 :
 {
 uint32
