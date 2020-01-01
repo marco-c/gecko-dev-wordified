@@ -87,12 +87,6 @@ test_si_parse_plain_text
 )
 {
 let
-msg
-=
-{
-}
-;
-let
 contentType
 =
 "
@@ -120,6 +114,9 @@ data
 .
 array
 =
+new
+Uint8Array
+(
 [
 0x3C
 0x3F
@@ -226,6 +223,7 @@ array
 0x69
 0x3E
 ]
+)
 ;
 data
 .
@@ -283,6 +281,9 @@ si
 >
 "
 ;
+let
+msg
+=
 SI
 .
 PduHelper
@@ -291,7 +292,6 @@ parse
 (
 data
 contentType
-msg
 )
 ;
 do_check_eq
@@ -361,6 +361,9 @@ data
 .
 array
 =
+new
+Uint8Array
+(
 [
 0x02
 0x05
@@ -368,6 +371,7 @@ array
 0x00
 0x05
 ]
+)
 ;
 data
 .
@@ -385,6 +389,9 @@ si
 >
 "
 ;
+let
+msg
+=
 SI
 .
 PduHelper
@@ -393,7 +400,6 @@ parse
 (
 data
 contentType
-msg
 )
 ;
 do_check_eq
@@ -470,6 +476,9 @@ data
 .
 array
 =
+new
+Uint8Array
+(
 [
 0x02
 0x00
@@ -506,6 +515,7 @@ array
 0x00
 0x05
 ]
+)
 ;
 data
 .
@@ -523,6 +533,9 @@ si
 >
 "
 ;
+let
+msg
+=
 SI
 .
 PduHelper
@@ -531,7 +544,6 @@ parse
 (
 data
 contentType
-msg
 )
 ;
 do_check_eq
@@ -603,6 +615,9 @@ data
 .
 array
 =
+new
+Uint8Array
+(
 [
 0x02
 0x05
@@ -645,6 +660,7 @@ array
 0x01
 0x01
 ]
+)
 ;
 data
 .
@@ -694,6 +710,9 @@ si
 >
 "
 ;
+let
+msg
+=
 SI
 .
 PduHelper
@@ -702,7 +721,6 @@ parse
 (
 data
 contentType
-msg
 )
 ;
 do_check_eq
@@ -776,6 +794,9 @@ data
 .
 array
 =
+new
+Uint8Array
+(
 [
 0x02
 0x05
@@ -853,6 +874,7 @@ array
 0x01
 0x01
 ]
+)
 ;
 data
 .
@@ -946,6 +968,9 @@ si
 >
 "
 ;
+let
+msg
+=
 SI
 .
 PduHelper
@@ -954,7 +979,6 @@ parse
 (
 data
 contentType
-msg
 )
 ;
 do_check_eq
@@ -1028,6 +1052,9 @@ data
 .
 array
 =
+new
+Uint8Array
+(
 [
 0x02
 0x05
@@ -1107,6 +1134,7 @@ array
 0x01
 0x01
 ]
+)
 ;
 data
 .
@@ -1200,6 +1228,9 @@ si
 >
 "
 ;
+let
+msg
+=
 SI
 .
 PduHelper
@@ -1208,7 +1239,6 @@ parse
 (
 data
 contentType
-msg
 )
 ;
 do_check_eq

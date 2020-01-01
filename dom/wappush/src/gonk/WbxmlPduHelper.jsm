@@ -418,7 +418,7 @@ decodeStringContent
 (
 stringTable
 .
-slice
+subarray
 (
 start
 end

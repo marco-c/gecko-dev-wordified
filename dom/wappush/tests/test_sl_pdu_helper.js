@@ -87,12 +87,6 @@ test_sl_parse_plain_text
 )
 {
 let
-msg
-=
-{
-}
-;
-let
 contentType
 =
 "
@@ -120,6 +114,9 @@ data
 .
 array
 =
+new
+Uint8Array
+(
 [
 0x3C
 0x3F
@@ -179,6 +176,7 @@ array
 0x2F
 0x3E
 ]
+)
 ;
 data
 .
@@ -223,6 +221,9 @@ com
 >
 "
 ;
+let
+msg
+=
 SL
 .
 PduHelper
@@ -231,7 +232,6 @@ parse
 (
 data
 contentType
-msg
 )
 ;
 do_check_eq
@@ -300,6 +300,9 @@ data
 .
 array
 =
+new
+Uint8Array
+(
 [
 0x03
 0x06
@@ -319,6 +322,7 @@ array
 0x85
 0x01
 ]
+)
 ;
 data
 .
@@ -352,6 +356,9 @@ com
 >
 "
 ;
+let
+msg
+=
 SL
 .
 PduHelper
@@ -360,7 +367,6 @@ parse
 (
 data
 contentType
-msg
 )
 ;
 do_check_eq
@@ -436,6 +442,9 @@ data
 .
 array
 =
+new
+Uint8Array
+(
 [
 0x03
 0x00
@@ -484,6 +493,7 @@ array
 0x85
 0x01
 ]
+)
 ;
 data
 .
@@ -517,6 +527,9 @@ com
 >
 "
 ;
+let
+msg
+=
 SL
 .
 PduHelper
@@ -525,7 +538,6 @@ parse
 (
 data
 contentType
-msg
 )
 ;
 do_check_eq
@@ -597,6 +609,9 @@ data
 .
 array
 =
+new
+Uint8Array
+(
 [
 0x03
 0x06
@@ -617,6 +632,7 @@ array
 0x85
 0x01
 ]
+)
 ;
 data
 .
@@ -650,6 +666,9 @@ com
 >
 "
 ;
+let
+msg
+=
 SL
 .
 PduHelper
@@ -658,7 +677,6 @@ parse
 (
 data
 contentType
-msg
 )
 ;
 do_check_eq
