@@ -745,13 +745,6 @@ thread
 "
 )
 ;
-/
-/
-TODO
-:
-async
-launching
-!
 mSubprocess
 =
 new
@@ -764,7 +757,7 @@ this
 mSubprocess
 -
 >
-SyncLaunch
+AsyncLaunch
 (
 )
 ;
