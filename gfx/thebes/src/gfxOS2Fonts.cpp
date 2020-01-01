@@ -1180,7 +1180,7 @@ metrics
 .
 width
 *
-yScale
+xScale
 ;
 }
 else
