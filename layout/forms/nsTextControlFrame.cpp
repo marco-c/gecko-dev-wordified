@@ -462,13 +462,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLInputElement
-.
-h
-"
-#
-include
-"
 nsIFormControl
 .
 h

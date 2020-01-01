@@ -679,13 +679,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLInputElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLLabelElement
 .
 h

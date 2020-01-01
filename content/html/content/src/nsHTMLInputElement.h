@@ -461,13 +461,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLInputElement
-.
-h
-"
-#
-include
-"
 nsITextControlElement
 .
 h
@@ -653,8 +646,6 @@ nsImageLoadingContent
 public
 nsIDOMHTMLInputElement
 public
-nsIDOMNSHTMLInputElement
-public
 nsITextControlElement
 public
 nsIPhonetic
@@ -717,10 +708,6 @@ nsGenericHTMLFormElement
 /
 nsIDOMHTMLInputElement
 NS_DECL_NSIDOMHTMLINPUTELEMENT
-/
-/
-nsIDOMNSHTMLInputElement
-NS_DECL_NSIDOMNSHTMLINPUTELEMENT
 /
 /
 nsIPhonetic

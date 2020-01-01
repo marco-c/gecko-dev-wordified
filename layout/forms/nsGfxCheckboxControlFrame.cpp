@@ -493,7 +493,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLInputElement
+nsIDOMHTMLInputElement
 .
 h
 "
@@ -1411,7 +1411,7 @@ IsIndeterminate
 {
 nsCOMPtr
 <
-nsIDOMNSHTMLInputElement
+nsIDOMHTMLInputElement
 >
 elem
 (

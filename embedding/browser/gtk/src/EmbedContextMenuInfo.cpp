@@ -651,13 +651,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLInputElement
-.
-h
-"
-#
-include
-"
 nsIDOMNSHTMLTextAreaElement
 .
 h
@@ -1834,7 +1827,7 @@ NS_FORM_INPUT_FILE
 {
 nsCOMPtr
 <
-nsIDOMNSHTMLInputElement
+nsIDOMHTMLInputElement
 >
 nsinput
 =

@@ -570,7 +570,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLInputElement
+nsIDOMHTMLInputElement
 .
 h
 "
@@ -1578,7 +1578,7 @@ aResult
 ;
 nsCOMPtr
 <
-nsIDOMNSHTMLInputElement
+nsIDOMHTMLInputElement
 >
 htmlInputElement
 =

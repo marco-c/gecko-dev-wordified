@@ -1009,7 +1009,7 @@ target
 instanceof
 Ci
 .
-nsIDOMNSHTMLInputElement
+nsIDOMHTMLInputElement
 &
 &
 target
@@ -1593,7 +1593,7 @@ bestElementToFocus
 instanceof
 Ci
 .
-nsIDOMNSHTMLInputElement
+nsIDOMHTMLInputElement
 &
 &
 bestElementToFocus

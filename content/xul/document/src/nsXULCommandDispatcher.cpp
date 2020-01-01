@@ -521,13 +521,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLInputElement
-.
-h
-"
-#
-include
-"
 nsIDOMNSHTMLTextAreaElement
 .
 h

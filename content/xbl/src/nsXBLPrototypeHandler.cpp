@@ -572,7 +572,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLInputElement
+nsIDOMHTMLInputElement
 .
 h
 "
@@ -3438,7 +3438,7 @@ controllers
 {
 nsCOMPtr
 <
-nsIDOMNSHTMLInputElement
+nsIDOMHTMLInputElement
 >
 htmlInputElement
 (
