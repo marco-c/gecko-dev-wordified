@@ -2645,7 +2645,7 @@ color_type
 PNG_COLOR_MASK_ALPHA
 |
 |
-trans
+num_trans
 )
 outType
 =
@@ -2717,7 +2717,7 @@ color_type
 PNG_COLOR_MASK_ALPHA
 |
 |
-trans
+num_trans
 )
 decoder
 -
