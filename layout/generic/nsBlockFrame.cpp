@@ -35782,11 +35782,6 @@ IsAbsolutelyPositioned
 newFrame
 -
 >
-GetStyleDisplay
-(
-)
--
->
 IsFloating
 (
 )
@@ -40280,11 +40275,6 @@ NS_FRAME_OUT_OF_FLOW
 &
 &
 aChild
--
->
-GetStyleDisplay
-(
-)
 -
 >
 IsFloating

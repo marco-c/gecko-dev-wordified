@@ -191,7 +191,7 @@ IsAbsolutelyPositioned
 disp
 -
 >
-IsFloating
+IsFloatingStyle
 (
 )
 "

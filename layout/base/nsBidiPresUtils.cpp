@@ -3091,11 +3091,6 @@ letterFrame
 parent
 -
 >
-GetStyleDisplay
-(
-)
--
->
 IsFloating
 (
 )

@@ -2506,11 +2506,6 @@ NS_ASSERTION
 aChildFrame
 -
 >
-GetStyleDisplay
-(
-)
--
->
 IsFloating
 (
 )
@@ -2785,11 +2780,6 @@ else
 if
 (
 aChildFrame
--
->
-GetStyleDisplay
-(
-)
 -
 >
 IsFloating
@@ -3184,11 +3174,6 @@ aFrame
 NS_ASSERTION
 (
 outOfFlowFrame
--
->
-GetStyleDisplay
-(
-)
 -
 >
 IsFloating

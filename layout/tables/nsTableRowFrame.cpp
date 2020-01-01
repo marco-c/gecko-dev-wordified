@@ -5573,11 +5573,6 @@ if
 !
 aTableFrame
 .
-GetStyleDisplay
-(
-)
--
->
 IsFloating
 (
 )
