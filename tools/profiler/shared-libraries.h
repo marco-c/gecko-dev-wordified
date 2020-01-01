@@ -201,13 +201,11 @@ aPdbSignature
 unsigned
 long
 aPdbAge
-const
 char
 *
 aPdbName
 #
 endif
-const
 char
 *
 aName
