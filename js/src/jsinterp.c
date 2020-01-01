@@ -8153,7 +8153,7 @@ hook
 cx
 -
 >
-debugHooks
+runtime
 -
 >
 callHook
@@ -8771,7 +8771,7 @@ JS_TRUE
 cx
 -
 >
-debugHooks
+runtime
 -
 >
 callHookData
@@ -9064,7 +9064,7 @@ hook
 cx
 -
 >
-debugHooks
+runtime
 -
 >
 callHook
@@ -10066,7 +10066,7 @@ hook
 cx
 -
 >
-debugHooks
+runtime
 -
 >
 executeHook
@@ -10636,7 +10636,6 @@ if
 (
 hook
 )
-{
 hookData
 =
 hook
@@ -10649,13 +10648,12 @@ JS_TRUE
 cx
 -
 >
-debugHooks
+runtime
 -
 >
 executeHookData
 )
 ;
-}
 /
 *
 *
@@ -10715,7 +10713,7 @@ hook
 cx
 -
 >
-debugHooks
+runtime
 -
 >
 executeHook
@@ -14979,7 +14977,7 @@ endif
 define
 LOAD_INTERRUPT_HANDLER
 (
-cx
+rt
 )
 \
 JS_BEGIN_MACRO
@@ -14987,11 +14985,8 @@ JS_BEGIN_MACRO
 interruptHandler
 =
 (
-cx
+rt
 )
--
->
-debugHooks
 -
 >
 interruptHandler
@@ -15005,7 +15000,7 @@ LOAD_JUMP_TABLE
 JS_END_MACRO
 LOAD_INTERRUPT_HANDLER
 (
-cx
+rt
 )
 ;
 /
@@ -15470,10 +15465,7 @@ script
 pc
 &
 rval
-cx
--
->
-debugHooks
+rt
 -
 >
 interruptHandlerData
@@ -15538,7 +15530,7 @@ default
 }
 LOAD_INTERRUPT_HANDLER
 (
-cx
+rt
 )
 ;
 }
@@ -15790,10 +15782,7 @@ script
 pc
 &
 rval
-cx
--
->
-debugHooks
+rt
 -
 >
 interruptHandlerData
@@ -15858,7 +15847,7 @@ default
 }
 LOAD_INTERRUPT_HANDLER
 (
-cx
+rt
 )
 ;
 }
@@ -16520,10 +16509,7 @@ hookData
 JSInterpreterHook
 hook
 =
-cx
--
->
-debugHooks
+rt
 -
 >
 callHook
@@ -16550,7 +16536,7 @@ hookData
 ;
 LOAD_INTERRUPT_HANDLER
 (
-cx
+rt
 )
 ;
 }
@@ -21782,7 +21768,7 @@ fp
 ;
 LOAD_INTERRUPT_HANDLER
 (
-cx
+rt
 )
 ;
 obj
@@ -25021,10 +25007,7 @@ present
 /
 hook
 =
-cx
--
->
-debugHooks
+rt
 -
 >
 callHook
@@ -25058,10 +25041,7 @@ newifp
 frame
 JS_TRUE
 0
-cx
--
->
-debugHooks
+rt
 -
 >
 callHookData
@@ -25069,7 +25049,7 @@ callHookData
 ;
 LOAD_INTERRUPT_HANDLER
 (
-cx
+rt
 )
 ;
 }
@@ -25347,7 +25327,7 @@ fp
 ;
 LOAD_INTERRUPT_HANDLER
 (
-cx
+rt
 )
 ;
 if
@@ -25612,7 +25592,7 @@ fp
 ;
 LOAD_INTERRUPT_HANDLER
 (
-cx
+rt
 )
 ;
 if
@@ -28274,7 +28254,7 @@ JSOP_LIMIT
 ;
 LOAD_INTERRUPT_HANDLER
 (
-cx
+rt
 )
 ;
 DO_OP
@@ -28324,7 +28304,7 @@ default
 }
 LOAD_INTERRUPT_HANDLER
 (
-cx
+rt
 )
 ;
 END_CASE
@@ -33698,10 +33678,7 @@ JSOP_DEBUGGER
 JSTrapHandler
 handler
 =
-cx
--
->
-debugHooks
+rt
 -
 >
 debuggerHandler
@@ -33725,10 +33702,7 @@ script
 pc
 &
 rval
-cx
--
->
-debugHooks
+rt
 -
 >
 debuggerHandlerData
@@ -33793,7 +33767,7 @@ default
 }
 LOAD_INTERRUPT_HANDLER
 (
-cx
+rt
 )
 ;
 }
@@ -37390,10 +37364,7 @@ safety
 /
 handler
 =
-cx
--
->
-debugHooks
+rt
 -
 >
 throwHook
@@ -37417,10 +37388,7 @@ script
 pc
 &
 rval
-cx
--
->
-debugHooks
+rt
 -
 >
 throwHookData
@@ -37483,7 +37451,7 @@ default
 }
 LOAD_INTERRUPT_HANDLER
 (
-cx
+rt
 )
 ;
 }
