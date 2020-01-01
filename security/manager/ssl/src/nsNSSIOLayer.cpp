@@ -4026,6 +4026,7 @@ nsString
 &
 formattedDate
 PRBool
+&
 trueExpired_falseNotYetValid
 )
 {
