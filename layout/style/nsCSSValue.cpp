@@ -140,6 +140,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsIPrincipal
 .
 h

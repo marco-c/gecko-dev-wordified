@@ -163,6 +163,13 @@ h
 #
 include
 "
+nsPIDOMWindow
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
