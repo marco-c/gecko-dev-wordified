@@ -4355,6 +4355,14 @@ JSSecurityCallbacks
 *
 securityCallbacks
 ;
+const
+js
+:
+:
+DOMCallbacks
+*
+DOMcallbacks
+;
 JSDestroyPrincipalsOp
 destroyPrincipals
 ;

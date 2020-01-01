@@ -390,6 +390,10 @@ JSScript
 >
 &
 aScriptObject
+bool
+aSaveSource
+=
+false
 )
 ;
 virtual

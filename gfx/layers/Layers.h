@@ -2862,6 +2862,10 @@ aPrefix
 =
 "
 "
+bool
+aDumpHtml
+=
+false
 )
 ;
 /
@@ -5885,6 +5889,10 @@ aPrefix
 =
 "
 "
+bool
+aDumpHtml
+=
+false
 )
 ;
 /

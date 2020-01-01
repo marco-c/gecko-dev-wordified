@@ -28441,13 +28441,6 @@ NS_ERROR_ALREADY_OPENED
 nsresult
 rv
 ;
-if
-(
-mCanceled
-)
-return
-mStatus
-;
 rv
 =
 NS_CheckPortSafety

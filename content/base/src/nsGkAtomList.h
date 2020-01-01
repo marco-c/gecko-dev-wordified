@@ -2133,6 +2133,13 @@ dir
 )
 GK_ATOM
 (
+directionality
+"
+directionality
+"
+)
+GK_ATOM
+(
 disableOutputEscaping
 "
 disable
@@ -12991,6 +12998,13 @@ GK_ATOM
 svgTextFrame
 "
 SVGTextFrame
+"
+)
+GK_ATOM
+(
+svgTextFrame2
+"
+SVGTextFrame2
 "
 )
 GK_ATOM

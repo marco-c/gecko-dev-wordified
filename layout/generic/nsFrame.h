@@ -4660,6 +4660,10 @@ FILE
 aFile
 =
 stdout
+bool
+aDumpHtml
+=
+false
 )
 ;
 #

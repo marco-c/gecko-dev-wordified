@@ -7484,8 +7484,10 @@ for
 each
 nsTArray
 <
+nsCOMPtr
+<
 nsIDOMElement
-*
+>
 >
 spanCellList
 ;
@@ -12540,8 +12542,10 @@ after
 joining
 nsTArray
 <
+nsCOMPtr
+<
 nsIDOMElement
-*
+>
 >
 deleteList
 ;

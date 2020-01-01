@@ -4348,7 +4348,7 @@ nsACString
 &
 aOrigin
 FactoryPrivilege
-mPrivilege
+aPrivilege
 nsIFile
 *
 *
@@ -4622,7 +4622,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-mPrivilege
+aPrivilege
 !
 =
 Chrome
@@ -5142,6 +5142,7 @@ Init
 (
 fileManagerDirectory
 connection
+aPrivilege
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5160,7 +5161,7 @@ fileManager
 ;
 if
 (
-mPrivilege
+aPrivilege
 !
 =
 Chrome

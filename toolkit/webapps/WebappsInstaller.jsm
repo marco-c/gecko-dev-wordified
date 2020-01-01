@@ -5017,11 +5017,8 @@ iconFile
 .
 append
 (
-this
-.
-uniqueName
-+
 "
+icon
 .
 png
 "
