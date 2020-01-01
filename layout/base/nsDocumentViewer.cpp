@@ -1393,13 +1393,6 @@ nsEventDispatcher
 .
 h
 "
-#
-include
-"
-nsPresShellIterator
-.
-h
-"
 /
 /
 paint
