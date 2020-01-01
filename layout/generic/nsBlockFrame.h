@@ -3410,7 +3410,7 @@ on
 .
 *
 /
-line_iterator
+void
 RemoveFloat
 (
 nsIFrame
