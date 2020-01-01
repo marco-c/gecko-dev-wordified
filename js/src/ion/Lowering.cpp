@@ -1331,7 +1331,7 @@ LCompareIAndBranch
 comp
 -
 >
-jsop
+condition
 (
 )
 useRegister
@@ -1370,7 +1370,7 @@ LCompareDAndBranch
 comp
 -
 >
-jsop
+condition
 (
 )
 useRegister
@@ -1630,7 +1630,7 @@ LCompareI
 comp
 -
 >
-jsop
+condition
 (
 )
 useRegister
@@ -1666,7 +1666,7 @@ LCompareD
 comp
 -
 >
-jsop
+condition
 (
 )
 useRegister
