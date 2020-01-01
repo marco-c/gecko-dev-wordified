@@ -1740,7 +1740,11 @@ NULL
 )
 mMedia
 (
-NULL
+new
+PeerConnectionMedia
+(
+this
+)
 )
 mNumAudioStreams
 (
@@ -3263,14 +3267,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-mMedia
-=
-new
-PeerConnectionMedia
-(
-this
-)
-;
 /
 /
 Connect
