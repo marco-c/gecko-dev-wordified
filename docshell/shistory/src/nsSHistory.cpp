@@ -5609,6 +5609,9 @@ i
 =
 0
 ;
+trans
+&
+&
 i
 <
 mLength
@@ -6970,6 +6973,9 @@ i
 =
 startIndex
 ;
+trans
+&
+&
 i
 <
 =
