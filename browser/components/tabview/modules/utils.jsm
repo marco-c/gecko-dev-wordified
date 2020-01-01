@@ -2705,7 +2705,7 @@ not
 /
 /
 /
-Parameters
+Paramaters
 /
 /
 -
@@ -2812,6 +2812,7 @@ given
 <
 Range
 >
+or
 value
 or
 not
@@ -2820,7 +2821,7 @@ not
 /
 /
 /
-Parameters
+Paramaters
 /
 /
 -
@@ -2833,7 +2834,7 @@ Range
 overlaps
 :
 function
-Range_overlaps
+Rect_overlaps
 (
 value
 )
@@ -2960,7 +2961,7 @@ max
 /
 /
 /
-Parameters
+Paramaters
 /
 /
 -
@@ -3243,7 +3244,7 @@ Range
 /
 /
 /
-Parameters
+Paramaters
 /
 /
 -
@@ -6139,7 +6140,6 @@ null
 attempt
 :
 function
-Utils_attempt
 (
 )
 {
