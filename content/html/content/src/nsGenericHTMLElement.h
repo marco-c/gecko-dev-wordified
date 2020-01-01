@@ -215,6 +215,9 @@ class
 nsDOMCSSDeclaration
 ;
 class
+nsHTMLMenuElement
+;
+class
 nsIDOMCSSStyleDeclaration
 ;
 class
@@ -261,9 +264,6 @@ dom
 {
 class
 HTMLPropertiesCollection
-;
-class
-HTMLMenuElement
 ;
 }
 }
@@ -1246,13 +1246,7 @@ return
 false
 ;
 }
-mozilla
-:
-:
-dom
-:
-:
-HTMLMenuElement
+nsHTMLMenuElement
 *
 GetContextMenu
 (
