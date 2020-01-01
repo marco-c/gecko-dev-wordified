@@ -902,7 +902,7 @@ dumpsys
 window
 "
 "
-input
+windows
 "
 ]
 )
@@ -911,7 +911,7 @@ input
 "
 dumpsys
 window
-input
+windows
 "
 produces
 many
