@@ -8,7 +8,7 @@ c
 )
 2002
 -
-2010
+2011
 The
 ANGLE
 Project
@@ -46,6 +46,12 @@ file
 .
 /
 /
+#
+ifndef
+COMPILER_VARIABLE_INFO_H_
+#
+define
+COMPILER_VARIABLE_INFO_H_
 #
 include
 "
@@ -93,6 +99,9 @@ TVariableInfo
 {
 TPersistString
 name
+;
+TPersistString
+mappedName
 ;
 ShDataType
 type
@@ -224,3 +233,8 @@ mUniforms
 ;
 }
 ;
+#
+endif
+/
+/
+COMPILER_VARIABLE_INFO_H_

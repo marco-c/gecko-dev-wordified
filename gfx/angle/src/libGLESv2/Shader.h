@@ -623,11 +623,13 @@ VertexShader
 (
 )
 ;
+virtual
 GLenum
 getType
 (
 )
 ;
+virtual
 void
 compile
 (
@@ -684,11 +686,13 @@ FragmentShader
 (
 )
 ;
+virtual
 GLenum
 getType
 (
 )
 ;
+virtual
 void
 compile
 (

@@ -1483,6 +1483,7 @@ size
 &
 type
 name
+NULL
 )
 ;
 break
@@ -1500,6 +1501,7 @@ size
 &
 type
 name
+NULL
 )
 ;
 break

@@ -749,6 +749,9 @@ locText
 )
 const
 {
+#
+ifdef
+GUARD_BLOCKS
 for
 (
 size_t
@@ -812,7 +815,7 @@ Damage
 %
 s
 %
-u
+lu
 byte
 allocation
 at
@@ -846,6 +849,8 @@ block
 ;
 }
 }
+#
+endif
 }
 void
 TPoolAllocator

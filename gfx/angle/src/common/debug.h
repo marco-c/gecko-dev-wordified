@@ -505,14 +505,12 @@ scopedPerfEventHelper
 #
 __LINE__
 (
+__FUNCTION__
+message
 "
-%
-s
 \
 n
 "
-message
-__FUNCTION__
 __VA_ARGS__
 )
 ;

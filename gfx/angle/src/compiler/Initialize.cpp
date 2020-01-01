@@ -5094,15 +5094,6 @@ Functions
 .
 /
 /
-if
-(
-resources
-.
-MaxVertexTextureImageUnits
->
-0
-)
-{
 s
 .
 append
@@ -5271,7 +5262,6 @@ lod
 )
 )
 ;
-}
 return
 s
 ;
