@@ -547,6 +547,7 @@ labelAtOffset
 int
 offset
 )
+const
 ;
 CodeLocationJump
 jumpAtOffset
@@ -554,6 +555,7 @@ jumpAtOffset
 int
 offset
 )
+const
 ;
 CodeLocationCall
 callAtOffset
@@ -561,6 +563,7 @@ callAtOffset
 int
 offset
 )
+const
 ;
 CodeLocationNearCall
 nearCallAtOffset
@@ -575,6 +578,7 @@ dataLabelPtrAtOffset
 int
 offset
 )
+const
 ;
 CodeLocationDataLabel32
 dataLabel32AtOffset
@@ -963,6 +967,7 @@ labelAtOffset
 int
 offset
 )
+const
 {
 ASSERT_VALID_CODE_OFFSET
 (
@@ -997,6 +1002,7 @@ jumpAtOffset
 int
 offset
 )
+const
 {
 ASSERT_VALID_CODE_OFFSET
 (
@@ -1031,6 +1037,7 @@ callAtOffset
 int
 offset
 )
+const
 {
 ASSERT_VALID_CODE_OFFSET
 (
@@ -1099,6 +1106,7 @@ dataLabelPtrAtOffset
 int
 offset
 )
+const
 {
 ASSERT_VALID_CODE_OFFSET
 (
