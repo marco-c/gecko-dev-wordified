@@ -1994,7 +1994,7 @@ TestPermission
 doc
 -
 >
-GetDocumentURI
+NodePrincipal
 (
 )
 &

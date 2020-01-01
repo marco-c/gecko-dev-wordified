@@ -1366,7 +1366,7 @@ TestPermission
 doc
 -
 >
-GetDocumentURI
+NodePrincipal
 (
 )
 &
