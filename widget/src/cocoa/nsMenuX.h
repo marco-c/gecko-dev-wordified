@@ -510,6 +510,9 @@ class
 nsIMenuListener
 ;
 class
+nsIDocShell
+;
+class
 nsMenuX
 ;
 class
@@ -1088,15 +1091,6 @@ us
 [
 menubar
 ]
-nsWeakPtr
-mDocShellWeakRef
-;
-/
-/
-weak
-ref
-to
-docshell
 nsCOMPtr
 <
 nsIContent

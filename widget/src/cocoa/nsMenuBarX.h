@@ -526,6 +526,9 @@ nsIDocument
 class
 nsIDOMNode
 ;
+class
+nsIDocShell
+;
 extern
 "
 C

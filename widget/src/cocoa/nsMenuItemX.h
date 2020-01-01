@@ -498,6 +498,9 @@ class
 nsIMenu
 ;
 class
+nsIDocShell
+;
+class
 nsMenuItemIconX
 ;
 /
@@ -825,15 +828,6 @@ nsIMenuListener
 >
 mXULCommandListener
 ;
-nsWeakPtr
-mDocShellWeakRef
-;
-/
-/
-weak
-ref
-to
-docshell
 nsCOMPtr
 <
 nsIContent
