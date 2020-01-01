@@ -2365,6 +2365,13 @@ NS_OK
 ;
 if
 (
+mShuttingDown
+)
+return
+NS_ERROR_UNEXPECTED
+;
+if
+(
 !
 mThreadEvent
 )
@@ -2592,6 +2599,13 @@ mInitialized
 )
 return
 NS_OK
+;
+if
+(
+mShuttingDown
+)
+return
+NS_ERROR_UNEXPECTED
 ;
 {
 nsAutoLock
