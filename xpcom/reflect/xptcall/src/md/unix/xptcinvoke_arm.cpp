@@ -3546,6 +3546,13 @@ asm
 (
 "
 mov
+r3
+sp
+\
+n
+"
+"
+mov
 %
 [
 stack_space_size
@@ -3562,7 +3569,7 @@ n
 "
 "
 tst
-sp
+r3
 #
 4
 \
