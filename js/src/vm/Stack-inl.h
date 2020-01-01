@@ -4350,16 +4350,8 @@ i
 checkAliasing
 )
 ;
-JS_NOT_REACHED
-(
-"
-Invalid
-frame
-"
-)
-;
 return
-asStackFrame
+asBaselineFrame
 (
 )
 -
@@ -4367,6 +4359,7 @@ asStackFrame
 unaliasedFormal
 (
 i
+checkAliasing
 )
 ;
 }
