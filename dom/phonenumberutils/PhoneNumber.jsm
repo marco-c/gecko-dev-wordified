@@ -2042,6 +2042,7 @@ function
 NormalizeNumber
 (
 number
+numbersOnly
 )
 {
 if
@@ -2095,6 +2096,12 @@ charCodeAt
 }
 )
 ;
+if
+(
+!
+numbersOnly
+)
+{
 number
 =
 number
@@ -2126,6 +2133,7 @@ toLowerCase
 }
 )
 ;
+}
 number
 =
 number
