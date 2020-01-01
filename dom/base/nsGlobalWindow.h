@@ -3426,12 +3426,6 @@ nsIArray
 aArguments
 )
 ;
-static
-bool
-DOMWindowDumpEnabled
-(
-)
-;
 void
 MaybeForgiveSpamCount
 (
