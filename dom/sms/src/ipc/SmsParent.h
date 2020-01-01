@@ -468,6 +468,16 @@ SmsParent
 public
 PSmsParent
 {
+NS_OVERRIDE
+virtual
+bool
+RecvHasSupport
+(
+bool
+*
+aHasSupport
+)
+;
 }
 ;
 }
