@@ -1182,12 +1182,6 @@ Loader
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-loader
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 nsRefPtr
 <
 nsCSSStyleSheet

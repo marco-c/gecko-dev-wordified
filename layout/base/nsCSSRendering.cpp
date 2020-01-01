@@ -14588,9 +14588,6 @@ outerRadius
 ;
 if
 (
-gradientPattern
-&
-&
 radiusX
 !
 =
@@ -14695,10 +14692,6 @@ matrix
 }
 if
 (
-!
-gradientPattern
-|
-|
 gradientPattern
 -
 >
