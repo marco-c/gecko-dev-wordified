@@ -18701,19 +18701,6 @@ GetFlags
 (
 )
 ;
-/
-*
-4
-bits
-reserved
-for
-script
--
-type
-ID
-.
-*
-/
 return
 (
 flags
@@ -18722,7 +18709,7 @@ flags
 NODE_SCRIPT_TYPE_OFFSET
 )
 &
-0x000F
+NODE_SCRIPT_TYPE_MASK
 ;
 }
 NS_IMETHODIMP
@@ -18740,7 +18727,7 @@ if
 (
 aLang
 &
-0x000F
+NODE_SCRIPT_TYPE_MASK
 )
 !
 =
