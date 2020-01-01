@@ -846,6 +846,9 @@ entryFunc
 PRUint32
 num
 =
+this
+-
+>
 EnumerateEntries
 (
 ReflectEntryStub
