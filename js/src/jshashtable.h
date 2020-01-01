@@ -1854,7 +1854,7 @@ sMinSize
 ;
 static
 const
-unsigned
+size_t
 sSizeLimit
 =
 tl
