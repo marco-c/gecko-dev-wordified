@@ -203,7 +203,7 @@ gecko
 .
 util
 .
-GeckoAsyncTask
+UiAsyncTask
 ;
 import
 org
@@ -2708,7 +2708,7 @@ return
 ;
 (
 new
-GeckoAsyncTask
+UiAsyncTask
 <
 Void
 Void
@@ -6287,7 +6287,7 @@ holder
 ;
 (
 new
-GeckoAsyncTask
+UiAsyncTask
 <
 Void
 Void
@@ -6422,7 +6422,7 @@ background
 thread
 (
 new
-GeckoAsyncTask
+UiAsyncTask
 <
 Void
 Void
@@ -6760,7 +6760,7 @@ background
 thread
 (
 new
-GeckoAsyncTask
+UiAsyncTask
 <
 Void
 Void

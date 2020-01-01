@@ -116,7 +116,7 @@ gecko
 .
 util
 .
-GeckoAsyncTask
+UiAsyncTask
 ;
 import
 org
@@ -1216,7 +1216,7 @@ private
 class
 LoadFaviconTask
 extends
-GeckoAsyncTask
+UiAsyncTask
 <
 Void
 Void

@@ -206,7 +206,7 @@ gecko
 .
 util
 .
-GeckoAsyncTask
+UiAsyncTask
 ;
 import
 org
@@ -3860,7 +3860,7 @@ url
 {
 (
 new
-GeckoAsyncTask
+UiAsyncTask
 <
 Void
 Void
@@ -8556,7 +8556,7 @@ show
 )
 ;
 new
-GeckoAsyncTask
+UiAsyncTask
 <
 Void
 Void

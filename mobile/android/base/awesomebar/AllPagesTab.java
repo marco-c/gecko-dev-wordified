@@ -164,7 +164,7 @@ gecko
 .
 util
 .
-GeckoAsyncTask
+UiAsyncTask
 ;
 import
 org
@@ -5444,7 +5444,7 @@ return
 ;
 (
 new
-GeckoAsyncTask
+UiAsyncTask
 <
 Void
 Void

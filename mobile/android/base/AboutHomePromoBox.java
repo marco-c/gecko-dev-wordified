@@ -111,7 +111,7 @@ gecko
 .
 util
 .
-GeckoAsyncTask
+UiAsyncTask
 ;
 import
 android
@@ -1244,7 +1244,7 @@ callback
 {
 (
 new
-GeckoAsyncTask
+UiAsyncTask
 <
 Void
 Void

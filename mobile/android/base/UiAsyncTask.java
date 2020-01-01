@@ -152,7 +152,7 @@ that
 public
 abstract
 class
-GeckoAsyncTask
+UiAsyncTask
 <
 Params
 Progress
@@ -177,7 +177,7 @@ Handler
 mUiHandler
 ;
 public
-GeckoAsyncTask
+UiAsyncTask
 (
 Handler
 uiHandler

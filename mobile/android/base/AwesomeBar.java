@@ -129,7 +129,7 @@ gecko
 .
 util
 .
-GeckoAsyncTask
+UiAsyncTask
 ;
 import
 org
@@ -3695,7 +3695,7 @@ whichButton
 {
 (
 new
-GeckoAsyncTask
+UiAsyncTask
 <
 Void
 Void
@@ -3996,7 +3996,7 @@ remove_bookmark
 {
 (
 new
-GeckoAsyncTask
+UiAsyncTask
 <
 Void
 Void
@@ -4153,7 +4153,7 @@ remove_history
 {
 (
 new
-GeckoAsyncTask
+UiAsyncTask
 <
 Void
 Void
