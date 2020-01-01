@@ -21348,7 +21348,7 @@ lir
 >
 insLoad
 (
-LIR_ldp
+LIR_ld
 map_ins
 offsetof
 (
@@ -21525,7 +21525,7 @@ lir
 >
 insLoad
 (
-LIR_ldp
+LIR_ld
 map_ins
 offsetof
 (
@@ -26687,7 +26687,7 @@ lir
 >
 insLoad
 (
-LIR_ldp
+LIR_ld
 map_ins
 offsetof
 (
