@@ -3020,9 +3020,6 @@ int
 len
 )
 {
-nsresult
-ret
-;
 nsAutoPtr
 <
 DataBuffer
@@ -3048,7 +3045,7 @@ len
 RUN_ON_THREAD
 (
 sts_thread_
-WrapRunnableRet
+WrapRunnable
 (
 RefPtr
 <
@@ -3069,8 +3066,6 @@ PipelineTransport
 :
 SendRtpPacket_s
 buf
-&
-ret
 )
 NS_DISPATCH_NORMAL
 )
@@ -3309,9 +3304,6 @@ int
 len
 )
 {
-nsresult
-ret
-;
 nsAutoPtr
 <
 DataBuffer
@@ -3337,7 +3329,7 @@ len
 RUN_ON_THREAD
 (
 sts_thread_
-WrapRunnableRet
+WrapRunnable
 (
 RefPtr
 <
@@ -3358,8 +3350,6 @@ PipelineTransport
 :
 SendRtcpPacket_s
 buf
-&
-ret
 )
 NS_DISPATCH_NORMAL
 )
