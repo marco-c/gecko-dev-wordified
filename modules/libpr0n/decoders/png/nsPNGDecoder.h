@@ -567,6 +567,11 @@ SetAnimFrameInfo
 (
 )
 ;
+void
+EndImageFrame
+(
+)
+;
 public
 :
 nsCOMPtr
@@ -625,14 +630,8 @@ mInProfile
 cmsHTRANSFORM
 mTransform
 ;
-PRUint32
-ibpr
-;
 gfx_format
 format
-;
-PRUint8
-apngFlags
 ;
 PRUint8
 mChannels
@@ -642,6 +641,9 @@ mError
 ;
 PRPackedBool
 mFrameHasNoAlpha
+;
+PRPackedBool
+mFrameIsHidden
 ;
 }
 ;
