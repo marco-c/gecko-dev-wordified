@@ -2375,7 +2375,7 @@ RemoveEmptyNodes
 nsresult
 SelectionEndpointInNode
 (
-nsIDOMNode
+nsINode
 *
 aNode
 bool
