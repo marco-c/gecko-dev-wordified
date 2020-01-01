@@ -2683,6 +2683,7 @@ each
 (
 function
 (
+elem
 )
 {
 var
@@ -2692,7 +2693,7 @@ Tabs
 .
 tab
 (
-this
+elem
 )
 ;
 func
