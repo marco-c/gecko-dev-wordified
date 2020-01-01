@@ -1343,6 +1343,7 @@ quux
 -
 baz
 "
+false
 )
 ;
 do_check_eq
