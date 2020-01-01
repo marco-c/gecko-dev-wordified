@@ -7629,7 +7629,7 @@ SRC_LABEL
 13
 /
 *
-JSOP_NOP
+JSOP_LABEL
 for
 label
 :
@@ -7643,7 +7643,7 @@ SRC_LABELBRACE
 14
 /
 *
-JSOP_NOP
+JSOP_LABEL
 for
 label
 :
