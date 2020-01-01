@@ -15,7 +15,7 @@ c
 )
 2007
 -
-2009
+2010
 Mozilla
 Foundation
 *
@@ -1147,6 +1147,7 @@ nsHtml5TreeBuilder
 :
 characters
 (
+const
 PRUnichar
 *
 buf

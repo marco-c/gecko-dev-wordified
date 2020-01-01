@@ -15,7 +15,7 @@ c
 )
 2007
 -
-2009
+2010
 Mozilla
 Foundation
 *
@@ -612,6 +612,7 @@ length
 void
 characters
 (
+const
 PRUnichar
 *
 buf
@@ -1221,6 +1222,7 @@ protected
 void
 accumulateCharacters
 (
+const
 PRUnichar
 *
 buf
