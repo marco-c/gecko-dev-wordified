@@ -2866,6 +2866,8 @@ envValue
 {
 isGnomeATEnabled
 =
+!
+!
 atoi
 (
 envValue
