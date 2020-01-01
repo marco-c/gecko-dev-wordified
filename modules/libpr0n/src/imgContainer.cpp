@@ -9815,6 +9815,7 @@ GetIsPaletted
 (
 )
 )
+{
 /
 /
 Just
@@ -9885,6 +9886,7 @@ compositingFrame
 prevFrameRect
 )
 ;
+}
 }
 }
 }
