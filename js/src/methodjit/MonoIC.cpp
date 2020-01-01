@@ -1253,6 +1253,15 @@ hasDefaultGetterOrIsMethod
 |
 |
 !
+sprop
+-
+>
+writable
+(
+)
+|
+|
+!
 SPROP_HAS_VALID_SLOT
 (
 sprop
