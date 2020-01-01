@@ -177,6 +177,17 @@ include
 "
 mozilla
 /
+dom
+/
+UnionTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 Rect
