@@ -196,6 +196,9 @@ class
 nsISupportsArray
 ;
 class
+nsILoadGroupConnectionInfo
+;
+class
 nsLoadGroup
 :
 public
@@ -610,6 +613,12 @@ nsCOMPtr
 nsIInterfaceRequestor
 >
 mCallbacks
+;
+nsCOMPtr
+<
+nsILoadGroupConnectionInfo
+>
+mConnectionInfo
 ;
 nsCOMPtr
 <

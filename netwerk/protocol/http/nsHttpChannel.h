@@ -1025,6 +1025,11 @@ SetupTransaction
 (
 )
 ;
+void
+SetupTransactionLoadGroupInfo
+(
+)
+;
 nsresult
 CallOnStartRequest
 (
