@@ -3355,6 +3355,15 @@ getTab
 tabId
 )
 ;
+if
+(
+tab
+=
+=
+null
+)
+return
+;
 tab
 .
 setLoading
