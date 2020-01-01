@@ -1507,7 +1507,6 @@ NS_UNCONSTRAINEDSIZE
 Where
 we
 position
-of
 the
 thumb
 depends
