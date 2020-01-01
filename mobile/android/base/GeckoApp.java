@@ -4868,6 +4868,13 @@ removeTransientDoorHangers
 (
 )
 ;
+tab
+.
+setHasTouchListeners
+(
+false
+)
+;
 maybeCancelFaviconLoad
 (
 tab
@@ -4951,6 +4958,13 @@ about
 "
 )
 )
+)
+;
+mLayerController
+.
+setWaitForTouchListeners
+(
+false
 )
 ;
 }
