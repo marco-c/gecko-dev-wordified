@@ -555,6 +555,10 @@ mProbers
 new
 nsSJISProber
 (
+aLanguageFilter
+=
+=
+NS_FILTER_JAPANESE
 )
 ;
 mProbers
@@ -565,6 +569,10 @@ mProbers
 new
 nsEUCJPProber
 (
+aLanguageFilter
+=
+=
+NS_FILTER_JAPANESE
 )
 ;
 }
@@ -582,6 +590,10 @@ mProbers
 new
 nsGB18030Prober
 (
+aLanguageFilter
+=
+=
+NS_FILTER_CHINESE_SIMPLIFIED
 )
 ;
 if
@@ -598,6 +610,10 @@ mProbers
 new
 nsEUCKRProber
 (
+aLanguageFilter
+=
+=
+NS_FILTER_KOREAN
 )
 ;
 if
@@ -615,6 +631,10 @@ mProbers
 new
 nsBig5Prober
 (
+aLanguageFilter
+=
+=
+NS_FILTER_CHINESE_TRADITIONAL
 )
 ;
 mProbers
@@ -625,6 +645,10 @@ mProbers
 new
 nsEUCTWProber
 (
+aLanguageFilter
+=
+=
+NS_FILTER_CHINESE_TRADITIONAL
 )
 ;
 }

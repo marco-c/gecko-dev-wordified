@@ -701,6 +701,7 @@ mDistributionAnalyser
 .
 GetConfidence
 (
+mIsPreferredLanguage
 )
 ;
 return

@@ -582,6 +582,8 @@ data
 float
 GetConfidence
 (
+PRBool
+aIsPreferredLanguage
 )
 ;
 /

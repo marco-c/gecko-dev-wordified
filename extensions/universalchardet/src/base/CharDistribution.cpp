@@ -493,6 +493,8 @@ CharDistributionAnalysis
 :
 GetConfidence
 (
+PRBool
+aIsPreferredLanguage
 )
 {
 /
@@ -535,6 +537,10 @@ mTotalChars
 0
 |
 |
+!
+aIsPreferredLanguage
+&
+&
 mFreqChars
 <
 =

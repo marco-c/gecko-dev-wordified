@@ -470,7 +470,13 @@ public
 :
 nsGB18030Prober
 (
-void
+PRBool
+aIsPreferredLanguage
+)
+:
+mIsPreferredLanguage
+(
+aIsPreferredLanguage
 )
 {
 mCodingSM
@@ -583,6 +589,9 @@ mLastChar
 [
 2
 ]
+;
+PRBool
+mIsPreferredLanguage
 ;
 }
 ;

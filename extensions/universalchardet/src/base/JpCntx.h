@@ -605,6 +605,8 @@ order
 float
 GetConfidence
 (
+PRBool
+aIsPreferredLanguage
 )
 ;
 void
