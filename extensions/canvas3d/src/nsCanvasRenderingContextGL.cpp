@@ -3701,6 +3701,7 @@ NodePrincipal
 CheckMayLoad
 (
 aURI
+PR_TRUE
 )
 ;
 if
