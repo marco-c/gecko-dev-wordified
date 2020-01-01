@@ -1361,12 +1361,15 @@ emitStubCall
 void
 *
 ptr
+bool
+needsRejoin
 )
 {
 return
 emitStubCall
 (
 ptr
+needsRejoin
 frame
 .
 totalDepth
@@ -1390,6 +1393,8 @@ emitStubCall
 void
 *
 ptr
+bool
+needsRejoin
 int32
 slots
 )
@@ -1565,7 +1570,7 @@ size_t
 )
 ptr
 true
-true
+needsRejoin
 )
 ;
 site

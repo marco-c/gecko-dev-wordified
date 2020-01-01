@@ -2093,6 +2093,15 @@ f
 ;
 void
 JS_FASTCALL
+CallPropSwap
+(
+VMFrame
+&
+f
+)
+;
+void
+JS_FASTCALL
 CheckArgumentTypes
 (
 VMFrame
