@@ -458,6 +458,9 @@ PRIMITIVE
 prim_push_stack
 )
 (
+JSContext
+*
+cx
 JSFrameRegs
 &
 regs
@@ -484,6 +487,9 @@ PRIMITIVE
 prim_pop_stack
 )
 (
+JSContext
+*
+cx
 JSFrameRegs
 &
 regs
@@ -510,6 +516,9 @@ PRIMITIVE
 prim_store_stack
 )
 (
+JSContext
+*
+cx
 JSFrameRegs
 &
 regs
@@ -538,6 +547,9 @@ PRIMITIVE
 prim_fetch_stack
 )
 (
+JSContext
+*
+cx
 JSFrameRegs
 &
 regs
@@ -566,6 +578,9 @@ PRIMITIVE
 prim_adjust_stack
 )
 (
+JSContext
+*
+cx
 JSFrameRegs
 &
 regs
@@ -589,6 +604,9 @@ PRIMITIVE
 prim_generate_constant
 )
 (
+JSContext
+*
+cx
 jsval
 c
 jsval
@@ -609,6 +627,9 @@ PRIMITIVE
 prim_boolean_to_jsval
 )
 (
+JSContext
+*
+cx
 JSBool
 &
 b
@@ -633,6 +654,9 @@ PRIMITIVE
 prim_string_to_jsval
 )
 (
+JSContext
+*
+cx
 JSString
 *
 &
@@ -658,6 +682,9 @@ PRIMITIVE
 prim_object_to_jsval
 )
 (
+JSContext
+*
+cx
 JSObject
 *
 &
@@ -683,6 +710,9 @@ PRIMITIVE
 prim_id_to_jsval
 )
 (
+JSContext
+*
+cx
 jsid
 &
 id
@@ -707,6 +737,9 @@ PRIMITIVE
 guard_jsdouble_is_int_and_int_fits_in_jsval
 )
 (
+JSContext
+*
+cx
 jsdouble
 &
 d
@@ -737,6 +770,9 @@ PRIMITIVE
 prim_int_to_jsval
 )
 (
+JSContext
+*
+cx
 jsint
 &
 i
@@ -789,6 +825,9 @@ PRIMITIVE
 guard_int_fits_in_jsval
 )
 (
+JSContext
+*
+cx
 jsint
 &
 i
@@ -809,6 +848,9 @@ PRIMITIVE
 prim_int_to_double
 )
 (
+JSContext
+*
+cx
 jsint
 &
 i
@@ -833,6 +875,9 @@ PRIMITIVE
 guard_uint_fits_in_jsval
 )
 (
+JSContext
+*
+cx
 uint32
 &
 u
@@ -853,6 +898,9 @@ PRIMITIVE
 prim_uint_to_jsval
 )
 (
+JSContext
+*
+cx
 uint32
 &
 u
@@ -877,6 +925,9 @@ PRIMITIVE
 prim_uint_to_double
 )
 (
+JSContext
+*
+cx
 uint32
 &
 u
@@ -901,6 +952,9 @@ PRIMITIVE
 guard_jsval_is_int
 )
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -921,6 +975,9 @@ PRIMITIVE
 prim_jsval_to_int
 )
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -945,6 +1002,9 @@ PRIMITIVE
 guard_jsval_is_double
 )
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -965,6 +1025,9 @@ PRIMITIVE
 prim_jsval_to_double
 )
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -1018,6 +1081,9 @@ PRIMITIVE
 guard_jsval_is_null
 )
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -1066,6 +1132,9 @@ PRIMITIVE
 prim_int_to_uint
 )
 (
+JSContext
+*
+cx
 jsint
 &
 i
@@ -1118,6 +1187,9 @@ PRIMITIVE
 prim_generate_boolean_constant
 )
 (
+JSContext
+*
+cx
 JSBool
 c
 JSBool
@@ -1138,6 +1210,9 @@ PRIMITIVE
 guard_jsval_is_boolean
 )
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -1158,6 +1233,9 @@ PRIMITIVE
 prim_jsval_to_boolean
 )
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -1182,6 +1260,9 @@ PRIMITIVE
 call_ValueToBoolean
 )
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -1206,6 +1287,9 @@ PRIMITIVE
 guard_jsval_is_primitive
 )
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -1226,6 +1310,9 @@ PRIMITIVE
 prim_jsval_to_object
 )
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -1251,6 +1338,9 @@ PRIMITIVE
 guard_obj_is_null
 )
 (
+JSContext
+*
+cx
 JSObject
 *
 &
@@ -1331,6 +1421,9 @@ PRIMITIVE
 prim_dadd
 )
 (
+JSContext
+*
+cx
 jsdouble
 &
 a
@@ -1357,6 +1450,9 @@ PRIMITIVE
 prim_dsub
 )
 (
+JSContext
+*
+cx
 jsdouble
 &
 a
@@ -1383,6 +1479,9 @@ PRIMITIVE
 prim_dmul
 )
 (
+JSContext
+*
+cx
 jsdouble
 &
 a
@@ -1782,6 +1881,9 @@ PRIMITIVE
 prim_ior
 )
 (
+JSContext
+*
+cx
 jsint
 &
 a
@@ -1808,6 +1910,9 @@ PRIMITIVE
 prim_ixor
 )
 (
+JSContext
+*
+cx
 jsint
 &
 a
@@ -1834,6 +1939,9 @@ PRIMITIVE
 prim_iand
 )
 (
+JSContext
+*
+cx
 jsint
 &
 a
@@ -1860,6 +1968,9 @@ PRIMITIVE
 prim_ilsh
 )
 (
+JSContext
+*
+cx
 jsint
 &
 a
@@ -1891,6 +2002,9 @@ PRIMITIVE
 prim_irsh
 )
 (
+JSContext
+*
+cx
 jsint
 &
 a
@@ -1922,6 +2036,9 @@ PRIMITIVE
 prim_ursh
 )
 (
+JSContext
+*
+cx
 uint32
 &
 a
@@ -1953,6 +2070,9 @@ PRIMITIVE
 guard_boolean_is_true
 )
 (
+JSContext
+*
+cx
 JSBool
 &
 cond
@@ -1970,6 +2090,9 @@ PRIMITIVE
 prim_icmp_lt
 )
 (
+JSContext
+*
+cx
 jsint
 &
 a
@@ -1996,6 +2119,9 @@ PRIMITIVE
 prim_icmp_le
 )
 (
+JSContext
+*
+cx
 jsint
 &
 a
@@ -2023,6 +2149,9 @@ PRIMITIVE
 prim_icmp_gt
 )
 (
+JSContext
+*
+cx
 jsint
 &
 a
@@ -2049,6 +2178,9 @@ PRIMITIVE
 prim_icmp_ge
 )
 (
+JSContext
+*
+cx
 jsint
 &
 a
@@ -2076,6 +2208,9 @@ PRIMITIVE
 prim_dcmp_lt
 )
 (
+JSContext
+*
+cx
 bool
 ifnan
 jsdouble
@@ -2108,6 +2243,9 @@ PRIMITIVE
 prim_dcmp_le
 )
 (
+JSContext
+*
+cx
 bool
 ifnan
 jsdouble
@@ -2141,6 +2279,9 @@ PRIMITIVE
 prim_dcmp_gt
 )
 (
+JSContext
+*
+cx
 bool
 ifnan
 jsdouble
@@ -2173,6 +2314,9 @@ PRIMITIVE
 prim_dcmp_ge
 )
 (
+JSContext
+*
+cx
 bool
 ifnan
 jsdouble
@@ -2206,6 +2350,9 @@ PRIMITIVE
 prim_generate_int_constant
 )
 (
+JSContext
+*
+cx
 jsint
 c
 jsint
@@ -2226,6 +2373,9 @@ PRIMITIVE
 prim_jsval_to_string
 )
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -2251,6 +2401,9 @@ PRIMITIVE
 call_CompareStrings
 )
 (
+JSContext
+*
+cx
 JSString
 *
 &
@@ -2281,6 +2434,9 @@ PRIMITIVE
 guard_both_jsvals_are_int
 )
 (
+JSContext
+*
+cx
 jsval
 &
 a
@@ -2307,6 +2463,9 @@ PRIMITIVE
 guard_both_jsvals_are_string
 )
 (
+JSContext
+*
+cx
 jsval
 &
 a

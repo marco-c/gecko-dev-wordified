@@ -14691,6 +14691,9 @@ inline
 void
 push_stack_constant
 (
+JSContext
+*
+cx
 JSFrameRegs
 &
 regs
@@ -14703,12 +14706,14 @@ v
 ;
 prim_generate_constant
 (
+cx
 c
 v
 )
 ;
 prim_push_stack
 (
+cx
 regs
 v
 )
@@ -14719,6 +14724,9 @@ inline
 void
 push_stack_boolean
 (
+JSContext
+*
+cx
 JSFrameRegs
 &
 regs
@@ -14732,12 +14740,14 @@ v
 ;
 prim_boolean_to_jsval
 (
+cx
 b
 v
 )
 ;
 prim_push_stack
 (
+cx
 regs
 v
 )
@@ -14748,6 +14758,9 @@ inline
 void
 push_stack_object
 (
+JSContext
+*
+cx
 JSFrameRegs
 &
 regs
@@ -14762,12 +14775,14 @@ v
 ;
 prim_object_to_jsval
 (
+cx
 obj
 v
 )
 ;
 prim_push_stack
 (
+cx
 regs
 v
 )
@@ -14778,6 +14793,9 @@ inline
 void
 push_stack_id
 (
+JSContext
+*
+cx
 JSFrameRegs
 &
 regs
@@ -14791,12 +14809,14 @@ v
 ;
 prim_id_to_jsval
 (
+cx
 id
 v
 )
 ;
 prim_push_stack
 (
+cx
 regs
 v
 )
@@ -14807,6 +14827,9 @@ inline
 void
 store_stack_constant
 (
+JSContext
+*
+cx
 JSFrameRegs
 &
 regs
@@ -14821,12 +14844,14 @@ v
 ;
 prim_generate_constant
 (
+cx
 c
 v
 )
 ;
 prim_store_stack
 (
+cx
 regs
 n
 v
@@ -14838,6 +14863,9 @@ inline
 void
 store_stack_boolean
 (
+JSContext
+*
+cx
 JSFrameRegs
 &
 regs
@@ -14853,12 +14881,14 @@ v
 ;
 prim_boolean_to_jsval
 (
+cx
 b
 v
 )
 ;
 prim_store_stack
 (
+cx
 regs
 n
 v
@@ -14870,6 +14900,9 @@ inline
 void
 store_stack_string
 (
+JSContext
+*
+cx
 JSFrameRegs
 &
 regs
@@ -14886,12 +14919,14 @@ v
 ;
 prim_string_to_jsval
 (
+cx
 str
 v
 )
 ;
 prim_store_stack
 (
+cx
 regs
 n
 v
@@ -14903,6 +14938,9 @@ inline
 void
 store_stack_object
 (
+JSContext
+*
+cx
 JSFrameRegs
 &
 regs
@@ -14919,12 +14957,14 @@ v
 ;
 prim_object_to_jsval
 (
+cx
 obj
 v
 )
 ;
 prim_store_stack
 (
+cx
 regs
 n
 v
@@ -14956,12 +14996,14 @@ if
 (
 guard_jsdouble_is_int_and_int_fits_in_jsval
 (
+cx
 d
 i
 )
 )
 prim_int_to_jsval
 (
+cx
 i
 regs
 .
@@ -15017,12 +15059,14 @@ if
 (
 guard_int_fits_in_jsval
 (
+cx
 i
 )
 )
 {
 prim_int_to_jsval
 (
+cx
 i
 regs
 .
@@ -15040,6 +15084,7 @@ d
 ;
 prim_int_to_double
 (
+cx
 i
 d
 )
@@ -15089,12 +15134,14 @@ if
 (
 guard_uint_fits_in_jsval
 (
+cx
 u
 )
 )
 {
 prim_uint_to_jsval
 (
+cx
 u
 regs
 .
@@ -15112,6 +15159,7 @@ d
 ;
 prim_uint_to_double
 (
+cx
 u
 d
 )
@@ -15204,6 +15252,7 @@ if
 (
 guard_jsval_is_int
 (
+cx
 v
 )
 )
@@ -15213,12 +15262,14 @@ i
 ;
 prim_jsval_to_int
 (
+cx
 v
 i
 )
 ;
 prim_int_to_double
 (
+cx
 i
 d
 )
@@ -15229,12 +15280,14 @@ if
 (
 guard_jsval_is_double
 (
+cx
 v
 )
 )
 {
 prim_jsval_to_double
 (
+cx
 v
 d
 )
@@ -15259,6 +15312,7 @@ if
 (
 guard_jsval_is_null
 (
+cx
 regs
 .
 sp
@@ -15324,6 +15378,7 @@ v
 ;
 prim_fetch_stack
 (
+cx
 regs
 n
 v
@@ -15363,6 +15418,7 @@ v
 ;
 prim_fetch_stack
 (
+cx
 regs
 n
 v
@@ -15372,12 +15428,14 @@ if
 (
 guard_jsval_is_int
 (
+cx
 v
 )
 )
 {
 prim_jsval_to_int
 (
+cx
 v
 i
 )
@@ -15402,6 +15460,7 @@ if
 (
 guard_jsval_is_null
 (
+cx
 regs
 .
 sp
@@ -15441,6 +15500,7 @@ v
 ;
 prim_fetch_stack
 (
+cx
 regs
 n
 v
@@ -15450,6 +15510,7 @@ if
 (
 guard_jsval_is_int
 (
+cx
 v
 )
 )
@@ -15459,12 +15520,14 @@ i
 ;
 prim_jsval_to_int
 (
+cx
 v
 i
 )
 ;
 prim_int_to_uint
 (
+cx
 i
 u
 )
@@ -15489,6 +15552,7 @@ if
 (
 guard_jsval_is_null
 (
+cx
 regs
 .
 sp
@@ -15526,6 +15590,7 @@ b
 {
 prim_fetch_stack
 (
+cx
 regs
 -
 1
@@ -15536,12 +15601,14 @@ if
 (
 guard_jsval_is_null
 (
+cx
 v
 )
 )
 {
 prim_generate_boolean_constant
 (
+cx
 JS_FALSE
 b
 )
@@ -15552,12 +15619,14 @@ if
 (
 guard_jsval_is_boolean
 (
+cx
 v
 )
 )
 {
 prim_jsval_to_boolean
 (
+cx
 v
 b
 )
@@ -15567,6 +15636,7 @@ else
 {
 call_ValueToBoolean
 (
+cx
 v
 b
 )
@@ -15574,6 +15644,7 @@ b
 }
 prim_adjust_stack
 (
+cx
 regs
 -
 1
@@ -15607,12 +15678,14 @@ if
 !
 guard_jsval_is_primitive
 (
+cx
 v
 )
 )
 {
 prim_jsval_to_object
 (
+cx
 v
 obj
 )
@@ -15631,6 +15704,7 @@ if
 (
 guard_obj_is_null
 (
+cx
 obj
 )
 )
@@ -15642,12 +15716,14 @@ x
 ;
 prim_object_to_jsval
 (
+cx
 obj
 x
 )
 ;
 prim_store_stack
 (
+cx
 regs
 n
 x
@@ -15682,6 +15758,7 @@ obj
 {
 prim_fetch_stack
 (
+cx
 regs
 n
 v
@@ -15746,6 +15823,7 @@ obj
 ;
 prim_jsval_to_object
 (
+cx
 v
 obj
 )
@@ -15772,6 +15850,7 @@ JS_FALSE
 ;
 prim_fetch_stack
 (
+cx
 regs
 n
 v
@@ -15789,6 +15868,7 @@ v
 )
 prim_push_stack
 (
+cx
 regs
 (
 v
@@ -15802,6 +15882,7 @@ v
 )
 prim_pop_stack
 (
+cx
 regs
 (
 v
@@ -15816,6 +15897,7 @@ v
 )
 prim_store_stack
 (
+cx
 regs
 (
 n
@@ -15833,6 +15915,7 @@ v
 )
 prim_fetch_stack
 (
+cx
 regs
 (
 n
@@ -15849,6 +15932,7 @@ n
 )
 prim_adjust_stack
 (
+cx
 regs
 (
 n
@@ -15862,6 +15946,7 @@ c
 )
 push_stack_constant
 (
+cx
 regs
 (
 c
@@ -15875,6 +15960,7 @@ b
 )
 push_stack_boolean
 (
+cx
 regs
 (
 b
@@ -15888,6 +15974,7 @@ obj
 )
 push_stack_object
 (
+cx
 regs
 (
 obj
@@ -15901,6 +15988,7 @@ id
 )
 push_stack_id
 (
+cx
 regs
 (
 id
@@ -15915,6 +16003,7 @@ c
 )
 store_stack_constant
 (
+cx
 regs
 (
 n
@@ -15932,6 +16021,7 @@ b
 )
 store_stack_boolean
 (
+cx
 regs
 (
 n
@@ -15949,6 +16039,7 @@ str
 )
 store_stack_string
 (
+cx
 regs
 (
 n
@@ -15966,6 +16057,7 @@ obj
 )
 store_stack_object
 (
+cx
 regs
 (
 n
@@ -20495,6 +20587,7 @@ if
 !
 guard_boolean_is_true
 (
+cx
 cond
 )
 )
@@ -20533,6 +20626,7 @@ if
 (
 guard_boolean_is_true
 (
+cx
 cond
 )
 )
@@ -20571,6 +20665,7 @@ if
 (
 guard_boolean_is_true
 (
+cx
 cond
 )
 )
@@ -20615,6 +20710,7 @@ if
 !
 guard_boolean_is_true
 (
+cx
 cond
 )
 )
@@ -20693,6 +20789,7 @@ if
 !
 guard_boolean_is_true
 (
+cx
 cond
 )
 )
@@ -20731,6 +20828,7 @@ if
 (
 guard_boolean_is_true
 (
+cx
 cond
 )
 )
@@ -20769,6 +20867,7 @@ if
 (
 guard_boolean_is_true
 (
+cx
 cond
 )
 )
@@ -20813,6 +20912,7 @@ if
 !
 guard_boolean_is_true
 (
+cx
 cond
 )
 )
@@ -23025,6 +23125,7 @@ prim_
 #
 OP
 (
+cx
 i
 j
 i
@@ -23134,6 +23235,7 @@ if
 (
 guard_both_jsvals_are_int
 (
+cx
 lval
 rval
 )
@@ -23142,6 +23244,7 @@ rval
 \
 prim_jsval_to_int
 (
+cx
 lval
 i
 )
@@ -23149,6 +23252,7 @@ i
 \
 prim_jsval_to_int
 (
+cx
 rval
 j
 )
@@ -23159,6 +23263,7 @@ prim_icmp_
 #
 OP
 (
+cx
 i
 j
 cond
@@ -23174,6 +23279,7 @@ if
 !
 guard_jsval_is_primitive
 (
+cx
 lval
 )
 )
@@ -23193,6 +23299,7 @@ if
 !
 guard_jsval_is_primitive
 (
+cx
 rval
 )
 )
@@ -23211,6 +23318,7 @@ if
 (
 guard_both_jsvals_are_string
 (
+cx
 lval
 rval
 )
@@ -23219,6 +23327,7 @@ rval
 \
 prim_jsval_to_string
 (
+cx
 lval
 str
 )
@@ -23226,6 +23335,7 @@ str
 \
 prim_jsval_to_string
 (
+cx
 rval
 str2
 )
@@ -23233,6 +23343,7 @@ str2
 \
 call_CompareStrings
 (
+cx
 str
 str2
 i
@@ -23241,6 +23352,7 @@ i
 \
 prim_generate_int_constant
 (
+cx
 0
 j
 )
@@ -23251,6 +23363,7 @@ prim_icmp_
 #
 OP
 (
+cx
 i
 j
 cond
@@ -23286,6 +23399,7 @@ prim_dcmp_
 #
 OP
 (
+cx
 JS_FALSE
 d
 d2
@@ -24282,6 +24396,7 @@ prim_
 #
 OP
 (
+cx
 i
 j
 i
@@ -24357,6 +24472,7 @@ j
 ;
 prim_ursh
 (
+cx
 u
 j
 u
@@ -24679,6 +24795,7 @@ d2
 ;
 prim_dadd
 (
+cx
 d
 d2
 d
@@ -24736,6 +24853,7 @@ prim_
 #
 OP
 (
+cx
 d
 d2
 d
