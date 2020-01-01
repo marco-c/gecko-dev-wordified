@@ -1256,6 +1256,12 @@ restore
 (
 )
 ;
+Shortcuts
+.
+test
+(
+)
+;
 }
 update
 :
