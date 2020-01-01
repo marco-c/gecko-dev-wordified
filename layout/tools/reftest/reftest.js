@@ -1756,7 +1756,7 @@ document
 getElementsByTagName
 (
 "
-window
+html
 "
 )
 [
