@@ -120,6 +120,15 @@ mozilla_dom_file_metadatahelper_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 FileCommon
 .
 h
@@ -338,6 +347,7 @@ nsISupports
 *
 aStream
 )
+MOZ_OVERRIDE
 ;
 nsresult
 GetSuccessResult
@@ -352,6 +362,7 @@ Value
 *
 aVal
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -398,6 +409,7 @@ nsISupports
 *
 aStream
 )
+MOZ_OVERRIDE
 ;
 private
 :

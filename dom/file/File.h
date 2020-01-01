@@ -120,6 +120,15 @@ mozilla_dom_file_file_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 FileCommon
 .
 h
@@ -316,6 +325,7 @@ nsAString
 &
 aFullPath
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetInternalStream
@@ -325,6 +335,7 @@ nsIInputStream
 *
 aStream
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -371,6 +382,7 @@ nsAString
 &
 aContentType
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -378,6 +390,7 @@ IsStoredFile
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mStoredFile
@@ -389,6 +402,7 @@ IsWholeFile
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mWholeFile
@@ -400,6 +414,7 @@ IsSnapshot
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 true

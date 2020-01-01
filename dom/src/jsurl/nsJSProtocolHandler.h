@@ -102,6 +102,15 @@ nsJSProtocolHandler_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIProtocolHandler
 .
 h
@@ -368,6 +377,7 @@ StartClone
 RefHandlingEnum
 refHandlingMode
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -380,6 +390,7 @@ nsIObjectInputStream
 *
 aStream
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Write
@@ -388,6 +399,7 @@ nsIObjectOutputStream
 *
 aStream
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -414,6 +426,7 @@ nsCID
 *
 aClassIDNoAlloc
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -445,6 +458,7 @@ bool
 *
 result
 )
+MOZ_OVERRIDE
 ;
 private
 :

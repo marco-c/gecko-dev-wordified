@@ -120,6 +120,15 @@ mozilla_dom_file_domarchivefile_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsDOMFile
 .
 h
@@ -300,6 +309,7 @@ nsIInputStream
 *
 *
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
@@ -325,6 +335,7 @@ nsAString
 &
 aContentType
 )
+MOZ_OVERRIDE
 ;
 private
 :

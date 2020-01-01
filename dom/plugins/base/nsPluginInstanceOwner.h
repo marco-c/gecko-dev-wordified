@@ -119,6 +119,15 @@ nsPluginInstanceOwner_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 npapi
 .
 h
@@ -322,6 +331,7 @@ aHeadersData
 uint32_t
 aHeadersDataLen
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ShowStatus
@@ -331,6 +341,7 @@ PRUnichar
 *
 aStatusMsg
 )
+MOZ_OVERRIDE
 ;
 NPError
 ShowNativeContextMenu
@@ -342,6 +353,7 @@ void
 *
 event
 )
+MOZ_OVERRIDE
 ;
 NPBool
 ConvertPoint
@@ -361,6 +373,7 @@ destY
 NPCoordinateSpace
 destSpace
 )
+MOZ_OVERRIDE
 ;
 virtual
 NPError
@@ -378,6 +391,7 @@ NPAsyncSurface
 *
 surface
 )
+MOZ_OVERRIDE
 ;
 virtual
 NPError
@@ -387,6 +401,7 @@ NPAsyncSurface
 *
 surface
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -399,6 +414,7 @@ NPRect
 *
 changed
 )
+MOZ_OVERRIDE
 ;
 /
 /

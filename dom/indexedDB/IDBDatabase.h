@@ -122,6 +122,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 indexedDB
@@ -368,6 +377,7 @@ nsEventChainPostVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 ;
 DatabaseInfo
 *

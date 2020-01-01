@@ -68,6 +68,15 @@ nsPIDOMWindow
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 PCOMContentPermissionRequestChild
 .
 h
@@ -360,6 +369,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 mozilla
 :
@@ -817,6 +827,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -941,12 +952,14 @@ bool
 &
 allow
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 IPDLRelease
 (
 )
+MOZ_OVERRIDE
 ;
 void
 GetStorageType
@@ -960,6 +973,7 @@ void
 RequestComplete
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :

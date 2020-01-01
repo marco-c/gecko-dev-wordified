@@ -104,6 +104,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 devicestorage
@@ -282,6 +291,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 nsresult
 rv

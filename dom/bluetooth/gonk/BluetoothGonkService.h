@@ -191,6 +191,15 @@ mozilla_dom_bluetooth_bluetoothgonkservice_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 BluetoothCommon
 .
 h
@@ -328,6 +337,7 @@ nsresult
 StartInternal
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -365,6 +375,7 @@ nsresult
 StopInternal
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -401,6 +412,7 @@ bool
 IsEnabledInternal
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;

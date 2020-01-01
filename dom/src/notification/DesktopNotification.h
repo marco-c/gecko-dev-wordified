@@ -576,6 +576,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 nsCOMPtr
 <
@@ -612,6 +613,7 @@ DesktopNotificationRequest
 )
 {
 }
+virtual
 bool
 Recv__delete__
 (
@@ -620,6 +622,7 @@ bool
 &
 allow
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -644,10 +647,12 @@ return
 true
 ;
 }
+virtual
 void
 IPDLRelease
 (
 )
+MOZ_OVERRIDE
 {
 Release
 (

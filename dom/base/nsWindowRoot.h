@@ -118,6 +118,15 @@ nsEventChainPostVisitor
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDOMEventTarget
 .
 h
@@ -222,6 +231,7 @@ nsPIDOMWindow
 GetWindow
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -232,6 +242,7 @@ nsIControllers
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -246,6 +257,7 @@ nsIController
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -253,6 +265,7 @@ nsIDOMNode
 GetPopupNode
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -262,6 +275,7 @@ nsIDOMNode
 *
 aNode
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -277,6 +291,7 @@ EventTarget
 *
 aTarget
 )
+MOZ_OVERRIDE
 {
 mParent
 =
@@ -295,6 +310,7 @@ EventTarget
 GetParentTarget
 (
 )
+MOZ_OVERRIDE
 {
 return
 mParent

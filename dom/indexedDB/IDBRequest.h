@@ -122,6 +122,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 indexedDB
@@ -243,6 +252,7 @@ nsEventChainPreVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 ;
 nsISupports
 *
@@ -534,6 +544,7 @@ nsEventChainPostVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 ;
 DOMError
 *

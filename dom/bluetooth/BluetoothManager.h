@@ -120,6 +120,15 @@ mozilla_dom_bluetooth_bluetoothmanager_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 BluetoothCommon
 .
 h
@@ -208,6 +217,7 @@ BluetoothNamedValue
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 private
 :

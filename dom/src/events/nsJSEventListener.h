@@ -102,6 +102,15 @@ nsJSEventListener_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDOMKeyEvent
 .
 h
@@ -224,6 +233,7 @@ nsMallocSizeOfFun
 aMallocSizeOf
 )
 const
+MOZ_OVERRIDE
 {
 return
 aMallocSizeOf

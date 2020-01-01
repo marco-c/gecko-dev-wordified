@@ -102,6 +102,15 @@ nsPluginTags_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -609,6 +618,7 @@ nsAString
 &
 aDescription
 )
+MOZ_OVERRIDE
 {
 aDescription
 .
@@ -629,6 +639,7 @@ nsIDOMPlugin
 *
 aEnabledPlugin
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -658,6 +669,7 @@ nsAString
 &
 aSuffixes
 )
+MOZ_OVERRIDE
 {
 aSuffixes
 .
@@ -677,6 +689,7 @@ nsAString
 &
 aType
 )
+MOZ_OVERRIDE
 {
 aType
 .

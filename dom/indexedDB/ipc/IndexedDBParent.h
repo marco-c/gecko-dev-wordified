@@ -687,6 +687,7 @@ nsIDOMEvent
 *
 aEvent
 )
+MOZ_OVERRIDE
 {
 return
 mActor

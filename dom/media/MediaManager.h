@@ -1123,6 +1123,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -1566,6 +1567,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 SourceMediaStream
 *

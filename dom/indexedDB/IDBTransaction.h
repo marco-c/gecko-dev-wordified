@@ -122,6 +122,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 indexedDB
@@ -477,6 +486,7 @@ nsEventChainPreVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 ;
 void
 OnNewRequest

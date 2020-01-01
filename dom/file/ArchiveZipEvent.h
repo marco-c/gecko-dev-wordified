@@ -120,6 +120,15 @@ mozilla_dom_file_domarchivezipevent_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 ArchiveEvent
 .
 h
@@ -194,6 +203,7 @@ nsString
 &
 aFilename
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -211,6 +221,7 @@ ArchiveReader
 *
 aArchiveReader
 )
+MOZ_OVERRIDE
 ;
 public
 :
@@ -302,6 +313,7 @@ nsresult
 Exec
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :
