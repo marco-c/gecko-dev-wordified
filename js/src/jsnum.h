@@ -1100,10 +1100,8 @@ true
 double
 d
 ;
-JS_PUBLIC_API
-(
+extern
 bool
-)
 ToNumberSlow
 (
 JSContext
@@ -1667,10 +1665,8 @@ toDouble
 }
 else
 {
-JS_PUBLIC_API
-(
+extern
 bool
-)
 ToNumberSlow
 (
 JSContext
