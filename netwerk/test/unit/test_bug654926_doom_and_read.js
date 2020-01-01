@@ -377,15 +377,6 @@ evict_cache_entries
 (
 )
 ;
-/
-/
-force
-to
-write
-file
-bigger
-than
-5MiB
 asyncOpenCacheEntry
 (
 "
@@ -398,7 +389,7 @@ Ci
 .
 nsICache
 .
-STORE_ON_DISK_AS_FILE
+STORE_ON_DISK
 Ci
 .
 nsICache

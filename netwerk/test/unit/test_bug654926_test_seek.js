@@ -332,7 +332,7 @@ Ci
 .
 nsICache
 .
-STORE_ON_DISK_AS_FILE
+STORE_ON_DISK
 Ci
 .
 nsICache
