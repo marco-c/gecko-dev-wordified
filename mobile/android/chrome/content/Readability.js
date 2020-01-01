@@ -2971,6 +2971,12 @@ divToPElements
 1
 )
 {
+if
+(
+!
+isChecking
+)
+{
 let
 newNode
 =
@@ -3006,6 +3012,7 @@ nodeIndex
 =
 1
 ;
+}
 nodesToScore
 [
 nodesToScore
@@ -3017,6 +3024,11 @@ node
 ;
 }
 else
+if
+(
+!
+isChecking
+)
 {
 /
 /
@@ -3029,7 +3041,7 @@ i
 0
 il
 =
-doc
+node
 .
 childNodes
 .
@@ -10734,6 +10746,13 @@ in
 readability
 check
 mode
+skipping
+/
+/
+any
+DOM
+manipulation
+.
 this
 .
 _flags
@@ -10741,10 +10760,6 @@ _flags
 this
 .
 FLAG_READABILITY_CHECK
-|
-this
-.
-FLAG_STRIP_UNLIKELYS
 ;
 return
 (
