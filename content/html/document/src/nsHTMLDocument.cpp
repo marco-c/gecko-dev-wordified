@@ -16174,9 +16174,11 @@ mUpdateNestLevel
 0
 &
 &
+(
 mContentEditableCount
 >
 0
+)
 !
 =
 IsEditingOn
@@ -16292,9 +16294,11 @@ mUpdateNestLevel
 0
 &
 &
+(
 mContentEditableCount
 >
 0
+)
 !
 =
 IsEditingOn
