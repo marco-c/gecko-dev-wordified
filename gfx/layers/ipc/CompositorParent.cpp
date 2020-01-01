@@ -737,8 +737,6 @@ false
 #
 ifdef
 MOZ_WIDGET_ANDROID
-/
-/
 static_cast
 <
 LayerManagerOGL

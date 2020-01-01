@@ -1762,8 +1762,13 @@ the
 Gecko
 Compositor
 thread
-EGLSurface
+void
 RegisterCompositor
+(
+)
+;
+EGLSurface
+ProvideEGLSurface
 (
 )
 ;

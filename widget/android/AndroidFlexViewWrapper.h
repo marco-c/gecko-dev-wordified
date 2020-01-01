@@ -664,6 +664,11 @@ GetEGLSurface
 (
 )
 ;
+EGLSurface
+ProvideEGLSurface
+(
+)
+;
 bool
 HasSurface
 (
@@ -747,6 +752,10 @@ jGetWidthMethod
 static
 jmethodID
 jGetHeightMethod
+;
+static
+jmethodID
+jProvideEGLSurfaceMethod
 ;
 JNIEnv
 *

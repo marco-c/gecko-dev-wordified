@@ -7261,7 +7261,7 @@ static
 AndroidGLController
 sController
 ;
-EGLSurface
+void
 AndroidBridge
 :
 :
@@ -7293,7 +7293,6 @@ if
 env
 )
 return
-NULL
 ;
 AutoLocalJNIFrame
 jniFrame
@@ -7357,12 +7356,15 @@ SetGLVersion
 2
 )
 ;
-sController
-.
-InitGLContext
+}
+EGLSurface
+AndroidBridge
+:
+:
+ProvideEGLSurface
 (
 )
-;
+{
 sController
 .
 WaitForValidSurface
@@ -7372,7 +7374,7 @@ WaitForValidSurface
 return
 sController
 .
-GetEGLSurface
+ProvideEGLSurface
 (
 )
 ;

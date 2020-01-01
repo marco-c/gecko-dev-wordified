@@ -1086,6 +1086,12 @@ compositionResumeRequested
 (
 )
 ;
+mListener
+.
+renderRequested
+(
+)
+;
 }
 }
 public
