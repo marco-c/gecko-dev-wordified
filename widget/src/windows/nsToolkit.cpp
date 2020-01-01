@@ -4718,8 +4718,8 @@ mtrailer
 >
 mMouseTrailerWindow
 WM_MOUSELEAVE
-NULL
-NULL
+0
+0
 )
 ;
 #

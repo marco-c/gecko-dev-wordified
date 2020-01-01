@@ -690,7 +690,7 @@ one
 .
 for
 (
-int
+unsigned
 i
 =
 0

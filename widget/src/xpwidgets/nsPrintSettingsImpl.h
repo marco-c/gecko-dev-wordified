@@ -663,7 +663,6 @@ nsPrintSettings
 (
 )
 ;
-virtual
 nsPrintSettings
 &
 operator

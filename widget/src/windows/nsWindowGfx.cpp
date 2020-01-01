@@ -4116,10 +4116,10 @@ targetSurface
 targetSurfaceDDraw
 ;
 }
-#
-endif
 DDRAW_FAILED
 :
+#
+endif
 nsRefPtr
 <
 gfxImageSurface
@@ -5891,9 +5891,6 @@ HICON
 aIcon
 )
 {
-nsresult
-rv
-;
 /
 /
 Get

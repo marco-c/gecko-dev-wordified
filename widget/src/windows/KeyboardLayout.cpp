@@ -2265,7 +2265,10 @@ continue
 }
 NS_ASSERTION
 (
+PRUint32
+(
 vki
+)
 <
 NS_ARRAY_LENGTH
 (

@@ -2496,7 +2496,7 @@ themeFileName
 ;
 for
 (
-int
+unsigned
 i
 =
 0
@@ -3371,6 +3371,10 @@ aFontSize
 1
 ]
 ;
+break
+;
+default
+:
 break
 ;
 }

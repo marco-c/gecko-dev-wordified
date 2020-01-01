@@ -937,11 +937,6 @@ HANDLE
 outBitmap
 )
 {
-nsresult
-result
-=
-NS_OK
-;
 *
 outBitmap
 =

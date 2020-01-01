@@ -559,10 +559,6 @@ m_cRef
 (
 0
 )
-mWindow
-(
-aWnd
-)
 mCanMove
 (
 PR_TRUE
@@ -570,6 +566,10 @@ PR_TRUE
 mTookOwnRef
 (
 PR_FALSE
+)
+mWindow
+(
+aWnd
 )
 mDropTargetHelper
 (
