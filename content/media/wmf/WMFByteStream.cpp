@@ -184,6 +184,11 @@ nsXPCOMCIDInternal
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
