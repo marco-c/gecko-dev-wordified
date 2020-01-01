@@ -9189,7 +9189,10 @@ attrsp
 }
 inline
 bool
-JSObject
+js
+:
+:
+ObjectImpl
 :
 :
 isProxy
@@ -9210,6 +9213,11 @@ JSObject
 >
 (
 this
+-
+>
+asObjectPtr
+(
+)
 )
 )
 ;
