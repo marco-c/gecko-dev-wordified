@@ -2929,7 +2929,7 @@ cx
 >
 binary
 (
-LIR_eq
+LIR_feq
 &
 a
 &
@@ -2984,7 +2984,7 @@ cx
 >
 binary
 (
-LIR_eq
+LIR_feq
 &
 a
 &
@@ -3076,7 +3076,7 @@ cx
 >
 binary
 (
-LIR_lt
+LIR_flt
 &
 a
 &
@@ -3131,7 +3131,7 @@ cx
 >
 binary
 (
-LIR_le
+LIR_fle
 &
 a
 &
@@ -3186,7 +3186,7 @@ cx
 >
 binary
 (
-LIR_gt
+LIR_fgt
 &
 a
 &
@@ -3241,7 +3241,7 @@ cx
 >
 binary
 (
-LIR_ge
+LIR_fge
 &
 a
 &
