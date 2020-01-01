@@ -15961,10 +15961,6 @@ if
 AddValues
 (
 cx
-script
-regs
-.
-pc
 lval
 rval
 &
@@ -31169,12 +31165,6 @@ AddValues
 JSContext
 *
 cx
-JSScript
-*
-script
-jsbytecode
-*
-pc
 const
 Value
 &
@@ -31282,8 +31272,6 @@ TypeScript
 MonitorOverflow
 (
 cx
-script
-pc
 )
 ;
 }
@@ -31347,8 +31335,6 @@ TypeScript
 MonitorUnknown
 (
 cx
-script
-pc
 )
 ;
 }
@@ -31587,8 +31573,6 @@ TypeScript
 MonitorString
 (
 cx
-script
-pc
 )
 ;
 res
@@ -31679,8 +31663,6 @@ TypeScript
 MonitorOverflow
 (
 cx
-script
-pc
 )
 ;
 }
