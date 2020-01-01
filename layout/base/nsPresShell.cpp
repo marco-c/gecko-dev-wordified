@@ -19401,7 +19401,7 @@ aContent
 nsIAccessibleEvent
 :
 :
-EVENT_REORDER
+EVENT_ASYNCH_SIGNIFICANT_CHANGE
 )
 ;
 }

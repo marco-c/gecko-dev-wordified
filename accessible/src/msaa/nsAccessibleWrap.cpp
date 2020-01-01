@@ -8799,7 +8799,16 @@ eventType
 nsIAccessibleEvent
 :
 :
-EVENT_HIDE
+EVENT_ASYNCH_HIDE
+|
+|
+eventType
+=
+=
+nsIAccessibleEvent
+:
+:
+EVENT_DOM_DESTROY
 )
 {
 /

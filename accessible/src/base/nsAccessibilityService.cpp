@@ -11195,7 +11195,7 @@ aEvent
 nsIAccessibleEvent
 :
 :
-EVENT_REORDER
+EVENT_ASYNCH_SIGNIFICANT_CHANGE
 |
 |
 aEvent
@@ -11204,7 +11204,7 @@ aEvent
 nsIAccessibleEvent
 :
 :
-EVENT_SHOW
+EVENT_ASYNCH_SHOW
 |
 |
 aEvent
@@ -11213,7 +11213,7 @@ aEvent
 nsIAccessibleEvent
 :
 :
-EVENT_HIDE
+EVENT_ASYNCH_HIDE
 "
 Incorrect
 aEvent
