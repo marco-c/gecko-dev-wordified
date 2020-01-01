@@ -122,7 +122,7 @@ gDebugger
 =
 gPane
 .
-contentWindow
+panelWin
 ;
 is
 (

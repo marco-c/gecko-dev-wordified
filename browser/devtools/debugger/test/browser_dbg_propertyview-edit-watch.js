@@ -144,7 +144,7 @@ gDebugger
 =
 gPane
 .
-contentWindow
+panelWin
 ;
 gWatch
 =

@@ -184,7 +184,7 @@ gDebugger
 =
 gPane
 .
-contentWindow
+panelWin
 ;
 gScripts
 =

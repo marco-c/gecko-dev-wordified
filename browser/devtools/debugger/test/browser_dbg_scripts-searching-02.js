@@ -156,7 +156,7 @@ gDebugger
 =
 gPane
 .
-contentWindow
+panelWin
 ;
 gDebugger
 .
