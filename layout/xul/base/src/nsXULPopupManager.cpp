@@ -10342,6 +10342,11 @@ its
 first
 item
 .
+if
+(
+currentMenu
+)
+{
 nsCOMPtr
 <
 nsIContent
@@ -10362,6 +10367,7 @@ PR_TRUE
 PR_FALSE
 )
 ;
+}
 return
 PR_TRUE
 ;
