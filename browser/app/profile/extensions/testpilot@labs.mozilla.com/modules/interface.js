@@ -1400,6 +1400,11 @@ buildTestPilotInterface
 .
 *
 /
+let
+self
+=
+this
+;
 if
 (
 this
@@ -1409,11 +1414,6 @@ isBetaChannel
 )
 )
 {
-let
-self
-=
-this
-;
 window
 .
 document
