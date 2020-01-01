@@ -256,7 +256,7 @@ will
 need
 to
 download
-nad
+and
 install
 Xcode
 to
