@@ -543,6 +543,16 @@ Skia
 bitmap
 *
 /
+SURFACE_DUAL_DT
+/
+*
+Snapshot
+of
+a
+dual
+drawtarget
+*
+/
 }
 ;
 enum
