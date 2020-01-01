@@ -3362,13 +3362,6 @@ NS_WARNING
 (
 nsPrintfCString
 (
-aKey
-.
-Length
-(
-)
-+
-30
 "
 the
 property

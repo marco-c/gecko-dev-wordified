@@ -938,7 +938,7 @@ PRInt32
 entry
 -
 >
-Size
+DataSize
 (
 )
 ;
@@ -1149,7 +1149,7 @@ mInactiveSize
 entry
 -
 >
-Size
+DataSize
 (
 )
 ;
@@ -1312,7 +1312,7 @@ mInactiveSize
 entry
 -
 >
-Size
+DataSize
 (
 )
 ;
@@ -1451,7 +1451,7 @@ mTotalSize
 entry
 -
 >
-Size
+DataSize
 (
 )
 ;
@@ -2179,7 +2179,7 @@ PRInt32
 entry
 -
 >
-Size
+DataSize
 (
 )
 ;
@@ -2475,7 +2475,7 @@ LastFetched
 entry
 -
 >
-Size
+DataSize
 (
 )
 /
@@ -2633,7 +2633,7 @@ PRInt32
 entry
 -
 >
-Size
+DataSize
 (
 )
 ;

@@ -4499,12 +4499,13 @@ status
 )
 ;
 }
-nsSSLIOLayerHelpers
+RememberCertErrorsTable
 :
 :
-mHostsWithCertErrors
--
->
+GetInstance
+(
+)
+.
 LookupCertErrorBits
 (
 infoObject

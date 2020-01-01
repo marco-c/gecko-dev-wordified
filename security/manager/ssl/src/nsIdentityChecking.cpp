@@ -494,7 +494,7 @@ h
 #
 include
 "
-nsNSSIOLayer
+nsSSLStatus
 .
 h
 "

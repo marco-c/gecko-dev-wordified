@@ -4010,7 +4010,6 @@ NS_WARNING
 (
 nsPrintfCString
 (
-300
 "
 Booting
 %

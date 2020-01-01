@@ -643,7 +643,6 @@ s
 =
 nsPrintfCString
 (
-64
 "
 %
 p
@@ -897,7 +896,6 @@ s
 =
 nsPrintfCString
 (
-128
 "
 rgba
 (
@@ -1023,7 +1021,6 @@ s
 =
 nsPrintfCString
 (
-96
 "
 [
 %
@@ -1071,7 +1068,6 @@ s
 =
 nsPrintfCString
 (
-256
 "
 [
 %
@@ -1208,7 +1204,6 @@ s
 =
 nsPrintfCString
 (
-128
 "
 (
 x
@@ -1273,7 +1268,6 @@ s
 =
 nsPrintfCString
 (
-256
 "
 (
 x
@@ -1436,7 +1430,6 @@ s
 =
 nsPrintfCString
 (
-128
 "
 (
 w
@@ -4356,7 +4349,6 @@ aTo
 =
 nsPrintfCString
 (
-64
 "
 %
 s
@@ -5358,7 +5350,6 @@ aTo
 =
 nsPrintfCString
 (
-64
 "
 %
 sLayerManager

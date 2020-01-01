@@ -5531,8 +5531,17 @@ nsIAtom
 >
 mParentCharset
 ;
+nsTObserverArray
+<
+nsWeakPtr
+>
+mPrivacyObservers
+;
 PRInt32
 mParentCharsetSource
+;
+nsCString
+mOriginalUriString
 ;
 #
 ifdef

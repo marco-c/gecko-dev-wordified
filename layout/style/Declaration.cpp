@@ -4564,7 +4564,6 @@ GetUnit
 eCSSUnit_Enumerated
 nsPrintfCString
 (
-32
 "
 bad
 text
@@ -4663,7 +4662,6 @@ GetUnit
 eCSSUnit_Enumerated
 nsPrintfCString
 (
-32
 "
 bad
 text
@@ -4697,7 +4695,6 @@ GetUnit
 eCSSUnit_Enumerated
 nsPrintfCString
 (
-32
 "
 bad
 text
@@ -4900,7 +4897,6 @@ GetUnit
 eCSSUnit_ListDep
 nsPrintfCString
 (
-32
 "
 bad
 t
@@ -4944,7 +4940,6 @@ GetUnit
 eCSSUnit_ListDep
 nsPrintfCString
 (
-32
 "
 bad
 t
@@ -4988,7 +4983,6 @@ GetUnit
 eCSSUnit_ListDep
 nsPrintfCString
 (
-32
 "
 bad
 t
@@ -5232,7 +5226,6 @@ GetUnit
 eCSSUnit_ListDep
 nsPrintfCString
 (
-32
 "
 bad
 t
@@ -5564,7 +5557,6 @@ GetUnit
 eCSSUnit_ListDep
 nsPrintfCString
 (
-32
 "
 bad
 a

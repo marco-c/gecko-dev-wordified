@@ -2061,9 +2061,9 @@ DefineInterface
 JSContext
 *
 cx
-XPCWrappedNativeScope
+JSObject
 *
-scope
+global
 bool
 *
 enabled

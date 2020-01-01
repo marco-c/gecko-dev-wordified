@@ -7079,7 +7079,7 @@ value
 uint32
 ret
 =
-js_DoubleToECMAInt32
+ToInt32
 (
 v
 .

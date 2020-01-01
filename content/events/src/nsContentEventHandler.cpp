@@ -2809,13 +2809,6 @@ NS_ASSERTION
 (
 *
 aXPOffset
->
-=
-0
-&
-&
-*
-aXPOffset
 <
 =
 aContent

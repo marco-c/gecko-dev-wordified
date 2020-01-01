@@ -1757,9 +1757,9 @@ js
 mjit
 :
 :
-JITScript
+JITChunk
 *
-jscr
+chunk
 js
 :
 :
@@ -1826,7 +1826,7 @@ p
 registerMJITCode
 (
 cx
-jscr
+chunk
 outerFrame
 inlineFrames
 mainCodeAddress
@@ -1851,9 +1851,12 @@ mjit
 JITScript
 *
 jscr
-JSScript
+mjit
+:
+:
+JITChunk
 *
-script
+chunk
 void
 *
 address
@@ -1895,7 +1898,7 @@ discardMJITCode
 (
 fop
 jscr
-script
+chunk
 address
 )
 ;
@@ -1912,9 +1915,9 @@ cx
 mjit
 :
 :
-JITScript
+JITChunk
 *
-jscr
+chunk
 JSScript
 *
 script
@@ -1963,7 +1966,7 @@ p
 registerICCode
 (
 cx
-jscr
+chunk
 script
 pc
 start

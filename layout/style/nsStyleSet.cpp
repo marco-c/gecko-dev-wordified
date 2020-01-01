@@ -1011,10 +1011,6 @@ mRuleTree
 (
 nsnull
 )
-mUnusedRuleNodeCount
-(
-0
-)
 mBatching
 (
 0
@@ -1032,6 +1028,10 @@ mInReconstruct
 false
 )
 mDirty
+(
+0
+)
+mUnusedRuleNodeCount
 (
 0
 )

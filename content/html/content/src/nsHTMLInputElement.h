@@ -1536,6 +1536,17 @@ GetClassInfo
 (
 )
 ;
+virtual
+nsIDOMNode
+*
+AsDOMNode
+(
+)
+{
+return
+this
+;
+}
 static
 nsHTMLInputElement
 *

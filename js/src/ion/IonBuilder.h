@@ -1155,8 +1155,7 @@ IonBuilder
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 scopeChain
 TempAllocator
 &
@@ -2424,8 +2423,7 @@ jsbytecode
 *
 pc
 ;
-JSObject
-*
+HandleObject
 initialScopeChain_
 ;
 MBasicBlock

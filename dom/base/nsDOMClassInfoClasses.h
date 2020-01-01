@@ -1892,6 +1892,10 @@ DOMCI_CLASS
 (
 MozConnection
 )
+DOMCI_CLASS
+(
+MozMobileConnection
+)
 /
 /
 font
@@ -1937,6 +1941,14 @@ HTMLAudioElement
 DOMCI_CLASS
 (
 TimeRanges
+)
+/
+/
+Media
+streams
+DOMCI_CLASS
+(
+MediaStream
 )
 #
 endif

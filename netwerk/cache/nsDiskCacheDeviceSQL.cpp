@@ -12574,7 +12574,6 @@ Append
 (
 nsPrintfCString
 (
-64
 "
 |
 %

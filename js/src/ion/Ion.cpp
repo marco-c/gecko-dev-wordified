@@ -4523,7 +4523,6 @@ IonBuilder
 builder
 (
 cx
-&
 fp
 -
 >

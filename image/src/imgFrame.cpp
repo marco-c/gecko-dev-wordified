@@ -3144,6 +3144,8 @@ const
 nsIntRect
 &
 aSubimage
+PRUint32
+aImageFlags
 )
 {
 SAMPLE_LABEL
@@ -3359,6 +3361,17 @@ Contains
 (
 sourceRect
 )
+&
+&
+!
+(
+aImageFlags
+&
+imgIContainer
+:
+:
+FLAG_CLAMP
+)
 ;
 SurfaceWithFormat
 surfaceResult
@@ -3403,6 +3416,7 @@ surfaceResult
 .
 mFormat
 aFilter
+aImageFlags
 )
 ;
 }

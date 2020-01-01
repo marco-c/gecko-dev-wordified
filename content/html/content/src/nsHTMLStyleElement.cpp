@@ -817,6 +817,17 @@ GetClassInfo
 (
 )
 ;
+virtual
+nsIDOMNode
+*
+AsDOMNode
+(
+)
+{
+return
+this
+;
+}
 protected
 :
 already_AddRefed

@@ -1299,7 +1299,6 @@ hasCallObj
 )
 ;
 return
-&
 fp
 -
 >
@@ -1403,7 +1402,8 @@ fp
 scopeChain
 (
 )
-.
+-
+>
 isClonedBlock
 (
 )
@@ -1413,7 +1413,8 @@ fp
 scopeChain
 (
 )
-.
+-
+>
 getPrivate
 (
 )
@@ -1512,7 +1513,6 @@ prototype
 /
 limitClone
 =
-&
 fp
 -
 >
@@ -1786,7 +1786,6 @@ limitBlock
 sharedBlock
 )
 return
-&
 fp
 -
 >
@@ -2046,16 +2045,11 @@ newChild
 setEnclosingScope
 (
 cx
-RootedVarObject
-(
-cx
-&
 fp
 -
 >
 scopeChain
 (
-)
 )
 )
 )
@@ -3384,10 +3378,6 @@ if
 fp
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -6583,7 +6573,8 @@ fp
 scopeChain
 (
 )
-.
+-
+>
 asWith
 (
 )
@@ -6823,6 +6814,7 @@ JSObject
 &
 scopeChain
 =
+*
 fp
 -
 >
@@ -12648,7 +12640,6 @@ JSObject
 *
 obj
 =
-&
 regs
 .
 fp
@@ -12899,6 +12890,7 @@ sp
 .
 setObject
 (
+*
 regs
 .
 fp
@@ -12934,6 +12926,7 @@ toObject
 )
 =
 =
+*
 regs
 .
 fp
@@ -13062,6 +13055,7 @@ JS_ASSERT
 IsActiveWithOrBlock
 (
 cx
+*
 regs
 .
 fp
@@ -14739,10 +14733,6 @@ fp
 )
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -14901,7 +14891,6 @@ forms
 /
 obj
 =
-&
 regs
 .
 fp
@@ -14939,7 +14928,6 @@ obj
 FindIdentifierBase
 (
 cx
-&
 regs
 .
 fp
@@ -17769,7 +17757,6 @@ if
 (
 IsBuiltinEvalForScope
 (
-&
 regs
 .
 fp
@@ -18923,10 +18910,6 @@ fp
 )
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -20343,7 +20326,6 @@ frame
 /
 obj2
 =
-&
 regs
 .
 fp
@@ -21053,7 +21035,6 @@ isNullClosure
 {
 parent
 =
-&
 regs
 .
 fp
@@ -24826,10 +24807,6 @@ fp
 )
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -25199,7 +25176,6 @@ JSObject
 *
 obj2
 =
-&
 regs
 .
 fp
@@ -25424,6 +25400,7 @@ JSObject
 &
 scope
 =
+*
 regs
 .
 fp
@@ -27075,6 +27052,7 @@ JS_ASSERT
 IsActiveWithOrBlock
 (
 cx
+*
 regs
 .
 fp

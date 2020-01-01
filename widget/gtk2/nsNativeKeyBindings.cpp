@@ -1886,7 +1886,9 @@ ch
 nativeKeyEvent
 -
 >
-isShift
+IsShift
+(
+)
 ?
 nativeKeyEvent
 -

@@ -5684,12 +5684,6 @@ typeof
 NULL
 /
 *
-fix
-*
-/
-NULL
-/
-*
 thisObject
 *
 /

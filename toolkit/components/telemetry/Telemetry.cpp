@@ -1719,6 +1719,8 @@ nsITelemetry
 :
 HISTOGRAM_FLAG
 ;
+break
+;
 default
 :
 return

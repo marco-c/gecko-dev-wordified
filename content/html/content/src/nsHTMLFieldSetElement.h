@@ -681,6 +681,17 @@ GetClassInfo
 (
 )
 ;
+virtual
+nsIDOMNode
+*
+AsDOMNode
+(
+)
+{
+return
+this
+;
+}
 const
 nsIContent
 *

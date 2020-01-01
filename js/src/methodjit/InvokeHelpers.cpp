@@ -1230,6 +1230,7 @@ IsActiveWithOrBlock
 f
 .
 cx
+*
 f
 .
 fp
@@ -3162,7 +3163,6 @@ if
 !
 IsBuiltinEvalForScope
 (
-&
 f
 .
 fp

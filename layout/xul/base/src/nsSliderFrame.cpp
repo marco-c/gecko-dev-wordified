@@ -3149,7 +3149,9 @@ aEvent
 )
 -
 >
-isAlt
+IsAlt
+(
+)
 !
 =
 GetScrollToClick
@@ -3172,7 +3174,9 @@ aEvent
 )
 -
 >
-isShift
+IsShift
+(
+)
 !
 =
 GetScrollToClick
@@ -5848,7 +5852,9 @@ aEvent
 )
 -
 >
-isAlt
+IsAlt
+(
+)
 !
 =
 GetScrollToClick
@@ -5868,7 +5874,9 @@ aEvent
 )
 -
 >
-isShift
+IsShift
+(
+)
 !
 =
 GetScrollToClick

@@ -2074,11 +2074,9 @@ resume
 points
 )
 .
-JSObject
-*
+HandleObject
 prevScopeChain
 =
-&
 cx
 -
 >

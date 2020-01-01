@@ -1073,6 +1073,12 @@ PRUint64
 id
 )
 ;
+virtual
+bool
+RecvLastPrivateDocShellDestroyed
+(
+)
+;
 #
 ifdef
 ANDROID
@@ -1203,9 +1209,6 @@ mScreenSize
 ;
 #
 endif
-AppInfo
-mAppInfo
-;
 /
 *
 *
@@ -1247,6 +1250,9 @@ us
 /
 PRUint64
 mID
+;
+AppInfo
+mAppInfo
 ;
 static
 ContentChild

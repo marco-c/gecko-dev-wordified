@@ -638,10 +638,6 @@ fp
 )
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -1558,7 +1554,6 @@ fp
 )
 check
 (
-&
 fp
 -
 >
@@ -2222,14 +2217,6 @@ native
 !
 =
 FunctionProxyClass
-.
-construct
-&
-&
-native
-!
-=
-CallableObjectClass
 .
 construct
 &

@@ -2254,6 +2254,17 @@ mDisableEntityEncoding
 bool
 forceFormat
 =
+!
+(
+mFlags
+&
+nsIDocumentEncoder
+:
+:
+OutputIgnoreMozDirty
+)
+&
+&
 content
 -
 >

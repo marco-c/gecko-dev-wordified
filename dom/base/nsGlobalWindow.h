@@ -845,6 +845,13 @@ nsIInlineEventHandlers
 .
 h
 "
+#
+include
+"
+nsWrapperCacheInlines
+.
+h
+"
 /
 /
 JS

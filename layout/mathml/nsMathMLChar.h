@@ -1135,6 +1135,8 @@ const
 nsDisplayListSet
 &
 aLists
+PRUint32
+aIndex
 const
 nsRect
 *

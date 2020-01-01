@@ -3127,7 +3127,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-js_DoubleToECMAInt32
+ToInt32
 )
 )
 ;

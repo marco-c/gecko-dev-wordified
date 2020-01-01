@@ -5124,7 +5124,7 @@ NS_ERROR_UNEXPECTED
 /
 If
 the
-traget
+target
 is
 a
 document

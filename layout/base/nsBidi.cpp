@@ -440,7 +440,7 @@ h
 #
 include
 "
-nsBidiUtils
+nsUnicodeProperties
 .
 h
 "
@@ -451,6 +451,13 @@ nsCRT
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+unicode
+;
 /
 /
 These
@@ -3204,7 +3211,7 @@ i
 =
 dirProp
 =
-GetCharType
+GetBidiCat
 (
 (
 PRUint32
@@ -3257,7 +3264,7 @@ i
 =
 dirProp
 =
-GetCharType
+GetBidiCat
 (
 GET_UTF_32
 (
@@ -3441,7 +3448,7 @@ dirProps
 i
 ]
 =
-GetCharType
+GetBidiCat
 (
 (
 PRUint32
@@ -3492,7 +3499,7 @@ dirProps
 i
 ]
 =
-GetCharType
+GetBidiCat
 (
 GET_UTF_32
 (

@@ -672,6 +672,15 @@ include
 "
 vm
 /
+NumericConversions
+.
+h
+"
+#
+include
+"
+vm
+/
 StringBuffer
 .
 h
@@ -8131,7 +8140,7 @@ false
 *
 out
 =
-js_DoubleToECMAInt32
+ToInt32
 (
 d
 )
@@ -8206,7 +8215,7 @@ false
 *
 out
 =
-js_DoubleToECMAUint32
+ToUint32
 (
 d
 )

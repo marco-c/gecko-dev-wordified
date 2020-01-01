@@ -622,6 +622,17 @@ GetClassInfo
 (
 )
 ;
+virtual
+nsIDOMNode
+*
+AsDOMNode
+(
+)
+{
+return
+this
+;
+}
 protected
 :
 virtual

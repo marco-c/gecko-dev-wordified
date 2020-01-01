@@ -1209,10 +1209,6 @@ global
 fp
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -1783,9 +1779,11 @@ true
 }
 if
 (
-js_IsTypedArray
-(
 obj
+-
+>
+isTypedArray
+(
 )
 )
 {
@@ -2097,10 +2095,6 @@ fp
 )
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )

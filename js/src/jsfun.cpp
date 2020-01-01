@@ -1012,10 +1012,6 @@ iter
 callee
 (
 )
-.
-toFunction
-(
-)
 =
 =
 fun
@@ -1126,10 +1122,6 @@ cx
 iter
 .
 callee
-(
-)
-.
-toFunction
 (
 )
 )
@@ -8868,7 +8860,7 @@ spindex
 =
 0
 ;
-FrameRegsIter
+ScriptFrameIter
 i
 (
 cx
@@ -8892,11 +8884,6 @@ js_ReconstructStackDepth
 cx
 i
 .
-fp
-(
-)
--
->
 script
 (
 )

@@ -547,6 +547,15 @@ include
 "
 vm
 /
+NumericConversions
+.
+h
+"
+#
+include
+"
+vm
+/
 String
 .
 h
@@ -737,7 +746,6 @@ FindIdentifierBase
 f
 .
 cx
-&
 f
 .
 fp
@@ -798,10 +806,6 @@ fp
 )
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -2561,7 +2565,6 @@ frame
 /
 obj2
 =
-&
 fp
 -
 >
@@ -7040,10 +7043,6 @@ fp
 )
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -7152,7 +7151,6 @@ isNullClosure
 {
 parent
 =
-&
 f
 .
 fp
@@ -8878,7 +8876,6 @@ JSObject
 *
 obj2
 =
-&
 fp
 -
 >
@@ -9107,6 +9104,7 @@ JSObject
 &
 obj
 =
+*
 fp
 -
 >
@@ -12346,7 +12344,7 @@ toDouble
 )
 ;
 return
-js_DoubleToECMAInt32
+ToInt32
 (
 vp
 -
