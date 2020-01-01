@@ -1423,6 +1423,10 @@ mActiveImage
 =
 aImage
 ;
+CurrentImageChanged
+(
+)
+;
 }
 /
 /
@@ -3002,6 +3006,16 @@ LOCAL_GL_TEXTURE_RECTANGLE_ARB
 #
 endif
 }
+GetContainer
+(
+)
+-
+>
+NotifyPaintedImage
+(
+image
+)
+;
 }
 static
 void

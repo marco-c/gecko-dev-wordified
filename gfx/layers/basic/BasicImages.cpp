@@ -2163,6 +2163,10 @@ mImage
 =
 aImage
 ;
+CurrentImageChanged
+(
+)
+;
 }
 already_AddRefed
 <
