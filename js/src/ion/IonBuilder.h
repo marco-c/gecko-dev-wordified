@@ -1103,8 +1103,9 @@ inspector
 CompileInfo
 *
 info
-AbstractFramePtr
-fp
+BaselineFrame
+*
+baselineFrame
 size_t
 inliningDepth
 =
@@ -3781,8 +3782,9 @@ JSContext
 *
 cx
 ;
-AbstractFramePtr
-fp
+BaselineFrame
+*
+baselineFrame_
 ;
 AbortReason
 abortReason_
