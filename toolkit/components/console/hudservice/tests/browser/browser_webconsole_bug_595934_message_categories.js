@@ -404,8 +404,9 @@ html
 category
 :
 "
-Web
+DOM
 Worker
+javascript
 "
 matchString
 :
