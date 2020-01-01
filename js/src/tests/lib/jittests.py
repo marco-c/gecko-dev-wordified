@@ -1078,6 +1078,7 @@ ans
 def
 get_test_cmd
 (
+js
 path
 jitflags
 lib_dir
@@ -1218,7 +1219,7 @@ toggles
 return
 (
 [
-JS
+js
 ]
 +
 list
@@ -1945,6 +1946,9 @@ cmd
 =
 get_test_cmd
 (
+options
+.
+js_shell
 test
 .
 path
@@ -2494,50 +2498,8 @@ lib_dir
 shell_args
 resultQueue
 options
-js
 )
 :
-    
-#
-This
-is
-necessary
-because
-on
-Windows
-global
-variables
-are
-not
-automatically
-    
-#
-available
-in
-the
-children
-while
-on
-Linux
-and
-OSX
-this
-is
-the
-case
-(
-because
-of
-fork
-)
-.
-    
-global
-JS
-    
-JS
-=
-js
     
 #
 Ignore
@@ -2757,7 +2719,6 @@ len
 tests
 )
 options
-JS
 lib_dir
 shell_args
 )
@@ -2975,7 +2936,6 @@ lib_dir
 shell_args
 async_test_result_queue
 options
-JS
 )
 )
                 
@@ -3226,7 +3186,6 @@ return_queue
 notify_queue
 num_tests
 options
-js
 lib_dir
 shell_args
 )
@@ -3247,7 +3206,6 @@ process_test_results
 gen
 num_tests
 options
-js
 lib_dir
 shell_args
 )
@@ -3492,6 +3450,9 @@ list2cmdline
 (
 get_test_cmd
 (
+options
+.
+js_shell
 test
 .
 path
@@ -3629,7 +3590,6 @@ process_test_results
 results
 num_tests
 options
-js
 lib_dir
 shell_args
 )
@@ -4091,7 +4051,6 @@ len
 tests
 )
 options
-JS
 lib_dir
 shell_args
 )
@@ -4274,18 +4233,12 @@ return
 platform_might_be_android
 (
 )
-JS
-=
-None
 def
 main
 (
 argv
 )
 :
-    
-global
-JS
     
 script_path
 =
@@ -5325,7 +5278,9 @@ on
 Windows
 .
     
-JS
+options
+.
+js_shell
 test_args
 =
 os
@@ -6199,6 +6154,9 @@ args
 +
 get_test_cmd
 (
+options
+.
+js_shell
 tc
 .
 path
@@ -6286,12 +6244,18 @@ path
 .
 exists
 (
-JS
+options
+.
+js_shell
 )
 :
             
 print
-(
+>
+>
+sys
+.
+stderr
 "
 JS
 shell
@@ -6308,13 +6272,9 @@ s
 '
 "
 %
-JS
-file
-=
-sys
+options
 .
-stderr
-)
+js_shell
             
 sys
 .
