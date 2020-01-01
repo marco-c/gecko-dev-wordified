@@ -1758,6 +1758,11 @@ doStop
 (
 )
 ;
+setProgressVisibility
+(
+false
+)
+;
 }
 }
 )
