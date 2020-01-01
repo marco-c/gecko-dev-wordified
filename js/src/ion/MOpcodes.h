@@ -504,7 +504,17 @@ InitElem
 \
 _
 (
+InitElemGetterSetter
+)
+\
+_
+(
 InitProp
+)
+\
+_
+(
+InitPropGetterSetter
 )
 \
 _
