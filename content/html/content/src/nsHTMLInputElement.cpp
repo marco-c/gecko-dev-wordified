@@ -15370,7 +15370,11 @@ group
 PRBool
 checkedChanged
 =
-PR_FALSE
+GET_BOOLBIT
+(
+mBitField
+BF_CHECKED_CHANGED
+)
 ;
 nsCOMPtr
 <
