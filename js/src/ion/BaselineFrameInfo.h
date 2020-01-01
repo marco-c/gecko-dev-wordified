@@ -1721,6 +1721,11 @@ uint32_t
 uses
 )
 ;
+uint32_t
+numUnsyncedSlots
+(
+)
+;
 void
 popRegsAndSync
 (
