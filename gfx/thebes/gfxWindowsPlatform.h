@@ -1438,11 +1438,7 @@ GetDWriteFactory
 )
 {
 return
-mUseDirectWrite
-?
 mDWriteFactory
-:
-nsnull
 ;
 }
 inline
