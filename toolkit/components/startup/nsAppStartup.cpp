@@ -4913,7 +4913,7 @@ GetInSafeMode
 inSafeMode
 )
 ;
-int64_t
+PRInt64
 replacedLockTime
 ;
 rv
