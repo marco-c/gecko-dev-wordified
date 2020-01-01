@@ -4591,7 +4591,7 @@ JSOp
 pc
 =
 =
-JSOP_LOOPHEAD
+JSOP_LOOPENTRY
 )
 ;
 /
@@ -4771,7 +4771,7 @@ JSOp
 osrPc
 =
 =
-JSOP_LOOPHEAD
+JSOP_LOOPENTRY
 )
 ;
 if
