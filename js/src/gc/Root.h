@@ -1788,13 +1788,10 @@ tl
 :
 StaticAssert
 <
-js
+mozilla
 :
 :
-tl
-:
-:
-IsPointerType
+IsPointer
 <
 T
 >

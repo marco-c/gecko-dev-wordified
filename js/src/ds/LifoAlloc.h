@@ -120,6 +120,15 @@ include
 "
 mozilla
 /
+ASan
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Attributes
 .
 h
@@ -147,7 +156,7 @@ include
 "
 mozilla
 /
-ASan
+TypeTraits
 .
 h
 "
@@ -1691,10 +1700,10 @@ NULL
 ;
 JS_STATIC_ASSERT
 (
-tl
+mozilla
 :
 :
-IsPodType
+IsPod
 <
 T
 >

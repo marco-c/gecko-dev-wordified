@@ -127,6 +127,15 @@ h
 #
 include
 "
+mozilla
+/
+TypeTraits
+.
+h
+"
+#
+include
+"
 TemplateLib
 .
 h
@@ -225,7 +234,7 @@ POD
 as
 judged
 by
-IsPodType
+IsPod
 .
 *
 /
@@ -845,7 +854,7 @@ as
 judged
 by
 *
-IsPodType
+IsPod
 .
 *
 /
@@ -1492,10 +1501,10 @@ const
 bool
 sElemIsPod
 =
-tl
+mozilla
 :
 :
-IsPodType
+IsPod
 <
 T
 >
