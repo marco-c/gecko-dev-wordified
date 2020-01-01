@@ -1542,13 +1542,8 @@ stateFlags
 ;
 if
 (
-(
 flags
 &
-NS_FRAME_NO_MOVE_FRAME
-)
-=
-=
 NS_FRAME_NO_MOVE_FRAME
 )
 SetSize
