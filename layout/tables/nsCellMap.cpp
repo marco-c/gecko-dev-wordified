@@ -18317,9 +18317,10 @@ GetRowSpan
 +
 mFoundCells
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 cellData
+=
 =
 mMap
 -
