@@ -98,6 +98,16 @@ AutoMounterSetting
 (
 )
 ;
+static
+void
+CheckVolumeSettings
+(
+const
+nsACString
+&
+aVolumeName
+)
+;
 }
 ;
 }
