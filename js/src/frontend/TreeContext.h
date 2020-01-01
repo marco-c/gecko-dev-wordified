@@ -539,11 +539,11 @@ these
 friends
 .
 friend
-class
+struct
 SharedContext
 ;
 friend
-class
+struct
 FunctionBox
 ;
 /
