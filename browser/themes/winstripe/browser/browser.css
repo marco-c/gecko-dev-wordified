@@ -689,13 +689,15 @@ height
 /
 }
 #
-PersonalToolbar
+personal
+-
+bookmarks
 {
 min
 -
 height
 :
-26px
+24px
 ;
 }
 #
