@@ -1432,12 +1432,11 @@ IsIPCOpen
 (
 )
 )
-PAudioChild
-:
-:
-Send__delete__
-(
 mAudioChild
+-
+>
+SendShutdown
+(
 )
 ;
 return
