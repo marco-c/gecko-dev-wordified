@@ -5010,16 +5010,6 @@ PRBool
 aIsAsync
 )
 {
-if
-(
-RUNNING
-!
-=
-mRunning
-)
-return
-NS_OK
-;
 PluginDestructionGuard
 guard
 (
