@@ -2244,6 +2244,11 @@ nsISupports
 aState
 )
 ;
+void
+DispatchDOMWindowCreated
+(
+)
+;
 virtual
 NS_HIDDEN_
 (
@@ -4091,6 +4096,12 @@ aTopic
 ;
 void
 ClearStatus
+(
+)
+;
+virtual
+void
+UpdateParentTarget
 (
 )
 ;
