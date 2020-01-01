@@ -563,6 +563,8 @@ AddSnapshotToScript
 nsAHtml5TreeBuilderState
 *
 aSnapshot
+PRInt32
+aLine
 )
 ;
 inline

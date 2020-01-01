@@ -1132,6 +1132,8 @@ InitializeDocWriteParserState
 nsAHtml5TreeBuilderState
 *
 aState
+PRInt32
+aLine
 )
 ;
 PRBool

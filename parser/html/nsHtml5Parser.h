@@ -1708,6 +1708,8 @@ InitializeDocWriteParserState
 nsAHtml5TreeBuilderState
 *
 aState
+PRInt32
+aLine
 )
 ;
 void
@@ -2008,6 +2010,15 @@ nsRefPtr
 nsHtml5StreamParser
 >
 mStreamParser
+;
+/
+*
+*
+*
+*
+/
+PRInt32
+mRootContextLineNumber
 ;
 /
 *
