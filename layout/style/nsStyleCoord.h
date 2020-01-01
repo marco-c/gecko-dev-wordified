@@ -1361,14 +1361,8 @@ Calc
 aValue
 )
 ;
-public
-:
-/
-/
-FIXME
-:
 private
-!
+:
 nsStyleUnit
 mUnit
 ;
