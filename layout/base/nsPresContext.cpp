@@ -14965,7 +14965,10 @@ TabChild
 *
 tabChild
 =
-GetTabChildFrom
+TabChild
+:
+:
+GetFrom
 (
 mShell
 )

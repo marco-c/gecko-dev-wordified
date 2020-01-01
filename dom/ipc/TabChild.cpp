@@ -2375,7 +2375,10 @@ nsITabChild
 >
 tabChild
 (
-GetTabChildFrom
+TabChild
+:
+:
+GetFrom
 (
 docShell
 )
@@ -2427,7 +2430,10 @@ nsITabChild
 >
 tabChild
 (
-GetTabChildFrom
+TabChild
+:
+:
+GetFrom
 (
 docShell
 )
@@ -2839,7 +2845,10 @@ nsITabChild
 >
 tabChild
 (
-GetTabChildFrom
+TabChild
+:
+:
+GetFrom
 (
 docShell
 )

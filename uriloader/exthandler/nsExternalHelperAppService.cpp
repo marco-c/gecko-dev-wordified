@@ -4140,7 +4140,10 @@ mozilla
 dom
 :
 :
-GetTabChildFrom
+TabChild
+:
+:
+GetFrom
 (
 window
 )

@@ -10077,7 +10077,10 @@ TabChild
 *
 child
 =
-GetTabChildFrom
+TabChild
+:
+:
+GetFrom
 (
 mWindow
 -
@@ -14915,7 +14918,10 @@ TabChild
 *
 child
 =
-GetTabChildFrom
+TabChild
+:
+:
+GetFrom
 (
 win
 -
