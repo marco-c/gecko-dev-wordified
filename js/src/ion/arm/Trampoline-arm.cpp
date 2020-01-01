@@ -4935,12 +4935,12 @@ ma_add
 sp
 Imm32
 (
-sizeof
-(
 IonExitFrameLayout
+:
+:
+SizeWithFooter
+(
 )
-+
-argumentPadding
 )
 argsBase
 )
