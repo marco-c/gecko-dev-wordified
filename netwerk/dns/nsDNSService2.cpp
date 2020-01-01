@@ -445,13 +445,6 @@ h
 #
 include
 "
-nsIPrefBranch2
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h
@@ -2573,7 +2566,7 @@ read
 prefs
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefs
 =

@@ -551,13 +551,6 @@ h
 #
 include
 "
-nsIPrefBranch2
-.
-h
-"
-#
-include
-"
 nsIIDNService
 .
 h
@@ -2698,7 +2691,7 @@ InitGlobalObjects
 {
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefBranch
 (
