@@ -7501,9 +7501,6 @@ aDescription
 mLayoutHeuristic
 ;
 }
-#
-ifdef
-DEBUG_A11Y
 printf
 (
 "
@@ -7525,8 +7522,6 @@ get
 )
 )
 ;
-#
-endif
 #
 endif
 }
