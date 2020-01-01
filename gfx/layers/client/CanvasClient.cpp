@@ -415,7 +415,7 @@ surface
 mDeprecatedTextureClient
 -
 >
-LockSurface
+LockImageSurface
 (
 )
 ;
