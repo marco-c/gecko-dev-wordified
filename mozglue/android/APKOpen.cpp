@@ -2713,7 +2713,6 @@ onSurfaceTextureFrameAvailable
 jobject
 jint
 )
-;
 static
 void
 *

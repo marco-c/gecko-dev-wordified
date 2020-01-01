@@ -629,7 +629,7 @@ mUsingSharedTexture
 {
 mNeedsYFlip
 =
-false
+true
 ;
 }
 else

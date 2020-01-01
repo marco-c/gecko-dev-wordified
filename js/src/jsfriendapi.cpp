@@ -743,7 +743,7 @@ if
 c
 -
 >
-needsBarrier
+wasGCStarted
 (
 )
 )

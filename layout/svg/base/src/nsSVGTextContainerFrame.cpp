@@ -1107,6 +1107,8 @@ NS_MIN
 (
 nchars
 count
+-
+charnum
 )
 ;
 float

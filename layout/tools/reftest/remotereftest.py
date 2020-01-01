@@ -3989,6 +3989,13 @@ killProcess
 (
 procName
 )
+    
+print
+dm
+.
+getInfo
+(
+)
 #
 an
 example
@@ -4131,6 +4138,13 @@ logcat
 -
 1
 ]
+)
+    
+print
+dm
+.
+getInfo
+(
 )
     
 return

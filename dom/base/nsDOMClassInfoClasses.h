@@ -245,10 +245,6 @@ DOMCI_CLASS
 (
 PopupBlockedEvent
 )
-DOMCI_CLASS
-(
-DeviceLightEvent
-)
 #
 define
 MOZ_GENERATED_EVENT_LIST
@@ -272,10 +268,6 @@ h
 #
 undef
 MOZ_GENERATED_EVENT_LIST
-DOMCI_CLASS
-(
-DeviceOrientationEvent
-)
 DOMCI_CLASS
 (
 DeviceMotionEvent
@@ -1868,10 +1860,6 @@ MutationRecord
 DOMCI_CLASS
 (
 MozSettingsEvent
-)
-DOMCI_CLASS
-(
-MozApplicationEvent
 )
 #
 ifdef

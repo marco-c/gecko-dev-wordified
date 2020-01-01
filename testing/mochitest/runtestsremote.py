@@ -3555,6 +3555,13 @@ options
 sslPort
 )
     
+print
+dm
+.
+getInfo
+(
+)
+    
 procName
 =
 options
@@ -4315,6 +4322,13 @@ logcat
 -
 1
 ]
+)
+    
+print
+dm
+.
+getInfo
+(
 )
     
 sys

@@ -10608,7 +10608,6 @@ objname
 )
 {
 }
-;
 NS_IMETHOD_
 (
 void
@@ -10626,7 +10625,6 @@ objname
 )
 {
 }
-;
 NS_IMETHOD_
 (
 void
@@ -10639,7 +10637,6 @@ root
 )
 {
 }
-;
 NS_IMETHOD_
 (
 void
@@ -10652,7 +10649,6 @@ root
 )
 {
 }
-;
 NS_IMETHOD_
 (
 void
@@ -10668,7 +10664,6 @@ helper
 )
 {
 }
-;
 NS_IMETHOD_
 (
 void
@@ -10682,7 +10677,6 @@ name
 )
 {
 }
-;
 NS_IMETHOD_
 (
 void
@@ -10701,7 +10695,6 @@ val
 )
 {
 }
-;
 bool
 MayHaveChild
 (
@@ -10711,7 +10704,6 @@ return
 mMayHaveChild
 ;
 }
-;
 private
 :
 bool
@@ -10782,7 +10774,6 @@ mMayHaveChild
 true
 ;
 }
-;
 NS_IMETHODIMP_
 (
 void
@@ -10809,7 +10800,6 @@ mMayHaveChild
 true
 ;
 }
-;
 NS_IMETHODIMP_
 (
 void
@@ -10841,7 +10831,6 @@ true
 ;
 }
 }
-;
 static
 bool
 AddPurpleRoot
