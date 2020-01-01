@@ -59,6 +59,13 @@ MPL
 #
 include
 "
+CSFLogStream
+.
+h
+"
+#
+include
+"
 CC_Common
 .
 h
@@ -140,13 +147,6 @@ using
 namespace
 CSF
 ;
-#
-include
-"
-CSFLogStream
-.
-h
-"
 CSF_IMPLEMENT_WRAP
 (
 CC_SIPCCDevice

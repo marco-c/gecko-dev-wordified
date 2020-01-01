@@ -59,6 +59,13 @@ MPL
 #
 include
 "
+CSFLog
+.
+h
+"
+#
+include
+"
 CC_Common
 .
 h
@@ -140,13 +147,6 @@ using
 namespace
 CSF
 ;
-#
-include
-"
-CSFLog
-.
-h
-"
 #
 define
 MAX_SUPPORTED_NUM_CALLS

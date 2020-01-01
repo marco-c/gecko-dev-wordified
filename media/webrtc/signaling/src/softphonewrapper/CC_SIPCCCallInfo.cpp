@@ -59,6 +59,13 @@ MPL
 #
 include
 "
+CSFLogStream
+.
+h
+"
+#
+include
+"
 CC_Common
 .
 h
@@ -97,13 +104,6 @@ ccapi_call_info
 h
 "
 }
-#
-include
-"
-CSFLogStream
-.
-h
-"
 static
 const
 char

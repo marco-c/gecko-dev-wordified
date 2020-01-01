@@ -68,6 +68,13 @@ com
 #
 include
 "
+CSFLog
+.
+h
+"
+#
+include
+"
 MediaPipeline
 .
 h
@@ -235,7 +242,7 @@ else
 #
 define
 MP_LOG_INFO
-PR_LOG_INFO
+PR_LOG_DEBUG
 #
 endif
 /
