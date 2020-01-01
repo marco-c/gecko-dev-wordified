@@ -321,6 +321,11 @@ JSContext
 cx
 )
 ;
+void
+ClearMessage
+(
+)
+;
 bool
 IsTypeError
 (
