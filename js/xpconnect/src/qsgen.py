@@ -6090,7 +6090,7 @@ write
 return
 xpc_qsVariantToJsval
 (
-lccx
+cx
 result
 %
 s
@@ -6226,7 +6226,7 @@ n
 return
 xpc_qsXPCOMObjectToJsval
 (
-lccx
+cx
 "
                     
 "

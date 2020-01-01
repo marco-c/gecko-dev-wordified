@@ -2804,9 +2804,9 @@ pointer
 JSBool
 xpc_qsXPCOMObjectToJsval
 (
-XPCLazyCallContext
-&
-lccx
+JSContext
+*
+aCx
 qsObjectHelper
 &
 aHelper
@@ -2843,9 +2843,9 @@ success
 JSBool
 xpc_qsVariantToJsval
 (
-XPCLazyCallContext
-&
-ccx
+JSContext
+*
+cx
 nsIVariant
 *
 p
