@@ -5348,7 +5348,7 @@ now
 ;
 this
 .
-_window
+_windows
 [
 aWindow
 .
