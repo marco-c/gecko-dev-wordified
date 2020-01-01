@@ -20944,6 +20944,8 @@ ins
 >
 infer
 (
+inspector
+pc
 )
 ;
 current
@@ -44286,6 +44288,8 @@ ptr
 >
 infer
 (
+NULL
+NULL
 )
 ;
 JS_ASSERT

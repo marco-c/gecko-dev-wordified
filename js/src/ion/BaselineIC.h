@@ -13496,6 +13496,8 @@ ICBinaryArith_Int32
 IonCode
 *
 stubCode
+bool
+allowDouble
 )
 :
 ICStub
@@ -13504,6 +13506,10 @@ BinaryArith_Int32
 stubCode
 )
 {
+extra_
+=
+allowDouble
+;
 }
 public
 :
@@ -13519,6 +13525,8 @@ space
 IonCode
 *
 code
+bool
+allowDouble
 )
 {
 if
@@ -13539,7 +13547,18 @@ ICBinaryArith_Int32
 >
 (
 code
+allowDouble
 )
+;
+}
+bool
+allowDouble
+(
+)
+const
+{
+return
+extra_
 ;
 }
 /
@@ -13687,6 +13706,7 @@ space
 getStubCode
 (
 )
+allowDouble_
 )
 ;
 }
