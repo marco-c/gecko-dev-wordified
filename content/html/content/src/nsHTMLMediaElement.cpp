@@ -5935,7 +5935,6 @@ aResult
 AssignLiteral
 (
 "
-no
 "
 )
 ;
