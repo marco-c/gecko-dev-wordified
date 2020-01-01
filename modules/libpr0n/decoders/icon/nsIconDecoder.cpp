@@ -1057,7 +1057,7 @@ reading
 ?
 bytesToRead
 =
-PR_MAX
+PR_MIN
 (
 aCount
 mPixBytesTotal
