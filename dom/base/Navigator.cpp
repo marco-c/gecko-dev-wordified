@@ -5352,6 +5352,7 @@ CreateDeviceStoragesFor
 win
 aType
 stores
+false
 )
 ;
 nsCOMPtr
