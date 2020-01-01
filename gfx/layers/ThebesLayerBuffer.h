@@ -1781,6 +1781,14 @@ nsIntPoint
 aBufferRotation
 )
 {
+MOZ_ASSERT
+(
+!
+SupportsAzureContent
+(
+)
+)
+;
 nsRefPtr
 <
 gfxASurface
