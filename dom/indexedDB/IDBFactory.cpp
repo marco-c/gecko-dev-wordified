@@ -2832,12 +2832,6 @@ nsPIDOMWindow
 >
 window
 ;
-nsCOMPtr
-<
-nsIScriptGlobalObject
->
-sgo
-;
 JSObject
 *
 scriptOwner
@@ -2958,7 +2952,6 @@ CheckPermissionsHelper
 (
 openHelper
 window
-mASCIIOrigin
 aDeleting
 )
 ;

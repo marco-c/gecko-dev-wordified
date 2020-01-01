@@ -234,9 +234,6 @@ nsPIDOMWindow
 *
 mWindow
 ;
-nsCString
-mASCIIOrigin
-;
 mozilla
 :
 :
