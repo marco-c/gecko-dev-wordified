@@ -1545,7 +1545,7 @@ JS_FRIEND_API
 (
 size_t
 )
-committedSize
+sizeOfCommitted
 (
 )
 ;
