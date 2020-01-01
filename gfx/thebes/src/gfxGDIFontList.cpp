@@ -1233,6 +1233,14 @@ gfxFontEntry
 (
 aFaceName
 )
+mWindowsFamily
+(
+0
+)
+mWindowsPitch
+(
+0
+)
 mFontType
 (
 aFontType
