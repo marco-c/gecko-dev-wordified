@@ -396,8 +396,10 @@ head
 JS_ASSERT
 (
 lifetime
-&
-&
+)
+;
+JS_ASSERT
+(
 lifetime
 -
 >
@@ -413,8 +415,10 @@ outerScript
 >
 code
 )
-&
-&
+)
+;
+JS_ASSERT
+(
 lifetime
 -
 >
