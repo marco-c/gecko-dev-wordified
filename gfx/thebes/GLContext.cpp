@@ -3182,6 +3182,9 @@ GL_EXT_framebuffer_object
 GL_ARB_framebuffer_object
 "
 "
+GL_ARB_texture_rectangle
+"
+"
 GL_EXT_bgra
 "
 "
