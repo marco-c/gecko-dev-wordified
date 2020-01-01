@@ -512,6 +512,15 @@ aDWriteEnabled
 ;
 NS_SCRIPTABLE
 NS_IMETHOD
+GetAzureEnabled
+(
+PRBool
+*
+aAzureEnabled
+)
+;
+NS_SCRIPTABLE
+NS_IMETHOD
 GetDWriteVersion
 (
 nsAString
