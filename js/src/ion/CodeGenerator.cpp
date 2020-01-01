@@ -4906,12 +4906,6 @@ bind
 rejoin
 )
 ;
-masm
-.
-checkStackAlignment
-(
-)
-;
 /
 /
 Finally
