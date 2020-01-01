@@ -9392,6 +9392,13 @@ XMLHttpRequest
 :
 GetResponse
 (
+JSContext
+*
+/
+*
+unused
+*
+/
 ErrorResult
 &
 aRv

@@ -1923,6 +1923,8 @@ types
 void
 PassCallback
 (
+JSContext
+*
 JSObject
 *
 ErrorResult
@@ -1932,6 +1934,8 @@ ErrorResult
 void
 PassNullableCallback
 (
+JSContext
+*
 JSObject
 *
 ErrorResult
@@ -1941,6 +1945,8 @@ ErrorResult
 void
 PassOptionalCallback
 (
+JSContext
+*
 const
 Optional
 <
@@ -1955,6 +1961,8 @@ ErrorResult
 void
 PassOptionalNullableCallback
 (
+JSContext
+*
 const
 Optional
 <
@@ -1969,6 +1977,8 @@ ErrorResult
 void
 PassOptionalNullableCallbackWithDefaultValue
 (
+JSContext
+*
 JSObject
 *
 ErrorResult
@@ -1979,6 +1989,8 @@ JSObject
 *
 ReceiveCallback
 (
+JSContext
+*
 ErrorResult
 &
 )
@@ -1987,6 +1999,8 @@ JSObject
 *
 ReceiveNullableCallback
 (
+JSContext
+*
 ErrorResult
 &
 )
@@ -1998,6 +2012,8 @@ types
 void
 PassAny
 (
+JSContext
+*
 JS
 :
 :
@@ -2009,6 +2025,8 @@ ErrorResult
 void
 PassOptionalAny
 (
+JSContext
+*
 const
 Optional
 <
@@ -2028,6 +2046,8 @@ JS
 Value
 ReceiveAny
 (
+JSContext
+*
 ErrorResult
 &
 )
@@ -3136,6 +3156,8 @@ MOZ_DELETE
 void
 PassOptionalCallback
 (
+JSContext
+*
 Optional
 <
 JSObject
@@ -3150,6 +3172,8 @@ MOZ_DELETE
 void
 PassOptionalNullableCallback
 (
+JSContext
+*
 Optional
 <
 JSObject
