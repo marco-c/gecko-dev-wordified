@@ -932,7 +932,7 @@ InvokeArgsGuard
 class
 TraceRecorder
 ;
-class
+struct
 TraceMonitor
 ;
 class

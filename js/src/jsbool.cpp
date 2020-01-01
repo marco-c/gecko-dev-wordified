@@ -898,6 +898,8 @@ bval
 .
 setBoolean
 (
+!
+!
 js_ValueToBoolean
 (
 argv

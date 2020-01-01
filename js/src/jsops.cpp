@@ -3236,6 +3236,8 @@ base
 bool
 ok
 =
+!
+!
 js_CloseIterator
 (
 cx
@@ -5349,7 +5351,7 @@ cond
 =
 cond
 OP
-true
+JS_TRUE
 ;
 \
 }
@@ -5427,7 +5429,7 @@ cond
 =
 cond
 OP
-true
+JS_TRUE
 ;
 \
 }
@@ -5728,7 +5730,7 @@ l
 r
 )
 OP
-true
+JS_TRUE
 ;
 \
 }
@@ -5990,7 +5992,7 @@ l
 r
 )
 OP
-true
+JS_TRUE
 ;
 \
 }

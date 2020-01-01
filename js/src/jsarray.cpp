@@ -3274,7 +3274,10 @@ obj
 >
 getDenseArrayElement
 (
+uint32
+(
 index
+)
 )
 )
 .

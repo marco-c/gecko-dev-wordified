@@ -2949,7 +2949,10 @@ uintptr_t
 t
 )
 |
+uintptr_t
+(
 flag
+)
 ;
 }
 T
@@ -3022,8 +3025,11 @@ uintptr_t
 t
 )
 |
+uintptr_t
+(
 flag
 (
+)
 )
 ;
 }

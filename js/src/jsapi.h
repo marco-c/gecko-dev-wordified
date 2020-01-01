@@ -2013,11 +2013,15 @@ JSFUN_HEAVYWEIGHT_TEST
 f
 )
 (
+!
+!
+(
 (
 f
 )
 &
 JSFUN_HEAVYWEIGHT
+)
 )
 #
 define
@@ -21745,7 +21749,8 @@ isNumber
 const
 {
 return
-bool
+!
+!
 (
 mask
 &
@@ -21891,7 +21896,8 @@ isObject
 const
 {
 return
-bool
+!
+!
 (
 mask
 &
@@ -21973,7 +21979,8 @@ isGCThing
 const
 {
 return
-bool
+!
+!
 (
 mask
 &
@@ -22067,6 +22074,8 @@ isBoolean
 )
 ;
 return
+!
+!
 data
 .
 boo
@@ -22605,6 +22614,8 @@ r
 )
 {
 return
+!
+!
 EQUAL_TYPE_AND_PAYLOAD
 (
 Jsvalify
