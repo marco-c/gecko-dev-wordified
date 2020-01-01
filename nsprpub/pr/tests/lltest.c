@@ -6042,7 +6042,7 @@ return
 )
 ;
 }
-PRIntn
+int
 main
 (
 int

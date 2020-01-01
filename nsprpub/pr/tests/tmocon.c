@@ -1204,9 +1204,6 @@ tmoacc
 )
 ]
 ;
-(
-void
-)
 getcwd
 (
 path

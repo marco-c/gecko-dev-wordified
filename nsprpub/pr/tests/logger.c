@@ -927,9 +927,8 @@ UserLogStuff
 int
 main
 (
-PRIntn
+int
 argc
-const
 char
 *
 *

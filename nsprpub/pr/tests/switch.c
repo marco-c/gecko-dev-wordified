@@ -1813,10 +1813,10 @@ failed
 Switch
 *
 /
-PRIntn
+int
 main
 (
-PRIntn
+int
 argc
 char
 *

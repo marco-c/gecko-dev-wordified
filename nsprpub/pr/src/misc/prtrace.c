@@ -2706,7 +2706,7 @@ builds
 Take
 it
 out
-loose
+lose
 data
 ;
 leave

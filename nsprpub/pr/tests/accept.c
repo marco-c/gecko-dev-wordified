@@ -999,6 +999,12 @@ defined
 (
 XP_OS2
 )
+|
+|
+defined
+(
+SYMBIAN
+)
 #
 define
 TIMEOUTSECS

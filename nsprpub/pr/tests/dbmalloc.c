@@ -1782,9 +1782,8 @@ int
 argc
 char
 *
+*
 argv
-[
-]
 )
 {
 int

@@ -445,9 +445,9 @@ On
 some
 architectures
 (
-MAC
-and
-WIN16
+Mac
+OS
+Classic
 *
 *
 notably

@@ -4423,10 +4423,10 @@ delta
 ChangeVerbosity
 *
 /
-PRIntn
+int
 main
 (
-PRIntn
+int
 argc
 char
 *

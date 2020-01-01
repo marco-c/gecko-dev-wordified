@@ -485,6 +485,12 @@ h
 int
 main
 (
+int
+argc
+char
+*
+*
+argv
 )
 {
 printf
@@ -830,6 +836,12 @@ iothread_done
 int
 main
 (
+int
+argc
+char
+*
+*
+argv
 )
 {
 PRThread

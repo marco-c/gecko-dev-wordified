@@ -2591,9 +2591,6 @@ thrpool_client
 )
 ]
 ;
-(
-void
-)
 getcwd
 (
 path

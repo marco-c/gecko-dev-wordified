@@ -2139,10 +2139,10 @@ ml
 Intrupt
 *
 /
-PRIntn
+int
 main
 (
-PRIntn
+int
 argc
 char
 *

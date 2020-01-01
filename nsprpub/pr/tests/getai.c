@@ -452,9 +452,8 @@ int
 argc
 char
 *
+*
 argv
-[
-]
 )
 {
 PRAddrInfo

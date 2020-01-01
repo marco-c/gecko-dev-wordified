@@ -533,6 +533,12 @@ LL_INIT
 int
 main
 (
+int
+argc
+char
+*
+*
+argv
 )
 {
 union

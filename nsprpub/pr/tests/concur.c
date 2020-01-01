@@ -1213,10 +1213,10 @@ return
 Concur
 *
 /
-PRIntn
+int
 main
 (
-PRIntn
+int
 argc
 char
 *

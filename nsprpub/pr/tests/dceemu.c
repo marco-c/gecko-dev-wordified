@@ -734,12 +734,6 @@ Includes
 *
 /
 #
-if
-defined
-(
-_PR_DCETHREADS
-)
-#
 include
 "
 prlog
@@ -774,6 +768,12 @@ stdlib
 .
 h
 >
+#
+if
+defined
+(
+_PR_DCETHREADS
+)
 PRIntn
 failed_already
 =

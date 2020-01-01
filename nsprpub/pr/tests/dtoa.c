@@ -690,9 +690,8 @@ int
 argc
 char
 *
+*
 argv
-[
-]
 )
 {
 double

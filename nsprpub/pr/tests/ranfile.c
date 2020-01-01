@@ -1168,7 +1168,7 @@ endif
 PRIVATE
 FUNCTION
 :
-Random
+RandomNum
 *
 *
 DESCRIPTION
@@ -1376,7 +1376,7 @@ float
 /
 static
 PRUint32
-Random
+RandomNum
 (
 void
 )
@@ -1452,7 +1452,7 @@ rv
 }
 /
 *
-Random
+RandomNum
 *
 /
 /
@@ -1912,7 +1912,7 @@ PRUint32
 minor
 =
 (
-Random
+RandomNum
 (
 )
 %
@@ -1928,7 +1928,7 @@ PRUint32
 random
 =
 (
-Random
+RandomNum
 (
 )
 %
@@ -1944,7 +1944,7 @@ PRUint32
 pages
 =
 (
-Random
+RandomNum
 (
 )
 %
@@ -2869,9 +2869,8 @@ int
 argc
 char
 *
+*
 argv
-[
-]
 )
 {
 PRLock
@@ -3444,7 +3443,7 @@ active
 limit
 =
 (
-Random
+RandomNum
 (
 )
 %

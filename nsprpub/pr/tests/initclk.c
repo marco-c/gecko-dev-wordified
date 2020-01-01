@@ -593,6 +593,12 @@ lock1
 int
 main
 (
+int
+argc
+char
+*
+*
+argv
 )
 {
 PRThread

@@ -484,6 +484,12 @@ do
 int
 main
 (
+int
+argc
+char
+*
+*
+argv
 )
 {
 printf
@@ -525,6 +531,12 @@ h
 int
 main
 (
+int
+argc
+char
+*
+*
+argv
 )
 {
 /

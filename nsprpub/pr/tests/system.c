@@ -523,10 +523,10 @@ tmp
 Incr
 *
 /
-PRIntn
+int
 main
 (
-PRIntn
+int
 argc
 char
 *

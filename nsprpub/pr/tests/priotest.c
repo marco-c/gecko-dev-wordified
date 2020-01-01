@@ -1204,10 +1204,10 @@ PR_JOINABLE_THREAD
 CreateThreads
 *
 /
-PRIntn
+int
 main
 (
-PRIntn
+int
 argc
 char
 *

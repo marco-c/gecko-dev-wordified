@@ -792,9 +792,6 @@ PR_PATH_SEPARATOR_STR
 "
 :
 "
-#
-define
-GCPTR
 typedef
 int
 (

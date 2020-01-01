@@ -937,10 +937,10 @@ rv
 PrintAddress
 *
 /
-PRIntn
+int
 main
 (
-PRIntn
+int
 argc
 char
 *
