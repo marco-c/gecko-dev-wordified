@@ -82,7 +82,7 @@ kColHeaderCell
 /
 /
 Indicated
-teh
+the
 cell
 is
 column
