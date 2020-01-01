@@ -41945,7 +41945,7 @@ isDenseArray
 )
 )
 {
-uint
+unsigned
 slots
 =
 JS_MIN
@@ -41976,7 +41976,7 @@ n
 ;
 for
 (
-uint
+unsigned
 i
 =
 0
@@ -42216,7 +42216,7 @@ n
 "
 )
 ;
-uint
+unsigned
 reservedEnd
 =
 JSCLASS_RESERVED_SLOTS
@@ -42224,7 +42224,7 @@ JSCLASS_RESERVED_SLOTS
 clasp
 )
 ;
-uint
+unsigned
 slots
 =
 obj
@@ -42236,7 +42236,7 @@ slotSpan
 ;
 for
 (
-uint
+unsigned
 i
 =
 0
