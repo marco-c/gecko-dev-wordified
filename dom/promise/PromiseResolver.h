@@ -176,8 +176,6 @@ PromiseResolver
 MOZ_FINAL
 :
 public
-nsISupports
-public
 nsWrapperCache
 {
 friend
@@ -207,8 +205,11 @@ AsyncTask
 ;
 public
 :
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
+NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
+(
+PromiseResolver
+)
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
 PromiseResolver
 )
@@ -217,6 +218,12 @@ PromiseResolver
 Promise
 *
 aPromise
+)
+;
+virtual
+~
+PromiseResolver
+(
 )
 ;
 Promise
