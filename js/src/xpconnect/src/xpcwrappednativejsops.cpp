@@ -1671,7 +1671,7 @@ interfaces
 See
 the
 comment
-preceeding
+preceding
 nsIXPCWrappedJSObjectGetter
 in
 nsIXPConnect
