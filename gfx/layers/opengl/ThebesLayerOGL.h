@@ -471,6 +471,9 @@ class
 ThebesLayerBufferOGL
 ;
 class
+BasicBufferOGL
+;
+class
 ThebesLayerOGL
 :
 public
@@ -567,6 +570,10 @@ aOffset
 ;
 private
 :
+friend
+class
+BasicBufferOGL
+;
 PRBool
 CreateSurface
 (
