@@ -1381,7 +1381,7 @@ this
 .
 _cps
 .
-_notifyPrefSet
+_broadcastPrefSet
 (
 group
 name
@@ -1862,7 +1862,7 @@ this
 .
 _cps
 .
-_notifyPrefSet
+_broadcastPrefSet
 (
 group
 name
@@ -2443,7 +2443,7 @@ this
 .
 _cps
 .
-_notifyPrefRemoved
+_broadcastPrefRemoved
 (
 sgroup
 name
@@ -3028,7 +3028,7 @@ this
 .
 _cps
 .
-_notifyPrefRemoved
+_broadcastPrefRemoved
 (
 sgroup
 sname
@@ -3383,7 +3383,7 @@ this
 .
 _cps
 .
-_notifyPrefRemoved
+_broadcastPrefRemoved
 (
 sgroup
 sname
@@ -3897,7 +3897,7 @@ this
 .
 _cps
 .
-_notifyPrefRemoved
+_broadcastPrefRemoved
 (
 sgroup
 name
