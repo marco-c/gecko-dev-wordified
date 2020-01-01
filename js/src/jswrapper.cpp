@@ -1090,7 +1090,7 @@ bp
 ;
 }
 bool
-Wrapper
+DirectWrapper
 :
 :
 get
@@ -1156,7 +1156,7 @@ vp
 ;
 }
 bool
-Wrapper
+DirectWrapper
 :
 :
 set
@@ -1202,7 +1202,7 @@ strict
 ;
 }
 bool
-Wrapper
+DirectWrapper
 :
 :
 keys
