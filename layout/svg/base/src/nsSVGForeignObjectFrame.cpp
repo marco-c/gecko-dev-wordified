@@ -3385,6 +3385,18 @@ kid
 return
 ;
 /
+*
+commenting
+out
+to
+fix
+reftest
+failure
+-
+see
+bug
+381285
+/
 /
 If
 we
@@ -3514,6 +3526,8 @@ DoReflow
 return
 ;
 }
+*
+/
 PresContext
 (
 )
