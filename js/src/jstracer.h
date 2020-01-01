@@ -1228,6 +1228,17 @@ typeMap
 ;
 }
 ;
+struct
+VMSideExitInfo
+{
+char
+typeMap
+[
+0
+]
+;
+}
+;
 #
 define
 TRACING_ENABLED
