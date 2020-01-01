@@ -1712,12 +1712,8 @@ Content
 )
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 {
@@ -1878,12 +1874,8 @@ Content
 )
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 ;
 #
