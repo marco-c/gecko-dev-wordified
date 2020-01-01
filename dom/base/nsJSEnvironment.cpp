@@ -973,9 +973,6 @@ you
 Microsoft
 !
 #
-ifndef
-WINCE
-#
 ifdef
 CompareString
 #
@@ -983,11 +980,6 @@ undef
 CompareString
 #
 endif
-#
-endif
-/
-/
-WINCE
 /
 /
 The
