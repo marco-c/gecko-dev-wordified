@@ -555,7 +555,7 @@ h
 #
 include
 "
-nsIDocumentViewer
+nsIContentViewer
 .
 h
 "
