@@ -18309,7 +18309,7 @@ lir
 >
 ins1
 (
-LIR_qlo
+LIR_q2i
 ins
 )
 ;
@@ -33287,7 +33287,7 @@ lir
 >
 ins1
 (
-LIR_live
+LIR_plive
 lirbuf
 -
 >
