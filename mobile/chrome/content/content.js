@@ -7764,7 +7764,7 @@ this
 receiveMessage
 :
 function
-receiveMessage
+findHandlerReceiveMessage
 (
 aMessage
 )
