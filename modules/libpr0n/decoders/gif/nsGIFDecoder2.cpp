@@ -4011,6 +4011,7 @@ images_decoded
 +
 +
 ;
+}
 if
 (
 mObserver
@@ -4024,7 +4025,6 @@ nsnull
 mImageFrame
 )
 ;
-}
 /
 /
 Release
