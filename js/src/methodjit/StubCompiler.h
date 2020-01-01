@@ -898,6 +898,15 @@ jsbytecode
 target
 )
 ;
+void
+crossJump
+(
+Jump
+j
+Label
+l
+)
+;
 private
 :
 Call
