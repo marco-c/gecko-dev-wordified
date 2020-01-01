@@ -4005,7 +4005,7 @@ R
 .
 layout
 .
-browser_toolbar
+browser_toolbar_menu
 null
 )
 ;
