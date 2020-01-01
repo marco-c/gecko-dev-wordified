@@ -11702,6 +11702,12 @@ viewport
 aViewport
 )
 {
+BrowserEventHandler
+.
+_cancelTapHighlight
+(
+)
+;
 /
 /
 Transform
