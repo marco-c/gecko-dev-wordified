@@ -4127,9 +4127,6 @@ GetType
 gfxFont
 :
 :
-FontType
-:
-:
 FONT_TYPE_FT2
 "
 Expecting
