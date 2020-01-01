@@ -4663,7 +4663,7 @@ nodeList
 NS_ENSURE_TRUE
 (
 nodeList
-NS_ERROR_FAILURE
+PR_FALSE
 )
 ;
 PRUint32
