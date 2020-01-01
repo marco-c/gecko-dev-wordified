@@ -943,6 +943,14 @@ all
 addons
 at
 once
+APPS_STORE_BATCH_SIZE
+:
+50
+/
+/
+same
+as
+MOBILE_BATCH_SIZE
 /
 /
 score
