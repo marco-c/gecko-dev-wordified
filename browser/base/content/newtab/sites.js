@@ -791,6 +791,9 @@ _updateAttributes
 true
 )
 ;
+#
+ifndef
+RELEASE_BUILD
 /
 /
 request
@@ -819,7 +822,7 @@ refreshThumbnail
 )
 method
 .
-PageThumbs
+BackgroundPageThumbs
 .
 captureIfStale
 (
@@ -840,6 +843,8 @@ be
 available
 now
 .
+#
+endif
 this
 .
 refreshThumbnail
