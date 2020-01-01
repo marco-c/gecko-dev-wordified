@@ -1825,9 +1825,6 @@ nsMenuPopupFrame
 *
 mPopupFrame
 ;
-nsSize
-mLastPref
-;
 /
 /
 Reference
