@@ -656,6 +656,14 @@ ins
 )
 ;
 bool
+visitCreateThisWithProto
+(
+MCreateThisWithProto
+*
+ins
+)
+;
+bool
 visitCreateThis
 (
 MCreateThis

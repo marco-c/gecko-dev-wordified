@@ -217,6 +217,11 @@ CreateThis
 \
 _
 (
+CreateThisWithProto
+)
+\
+_
+(
 CreateThisWithTemplate
 )
 \
