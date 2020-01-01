@@ -16635,6 +16635,7 @@ PresShell
 GetCaret
 (
 )
+const
 {
 nsCaret
 *
