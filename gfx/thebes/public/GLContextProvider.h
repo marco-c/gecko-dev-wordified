@@ -491,11 +491,11 @@ cf
 memset
 (
 this
+0
 sizeof
 (
 ContextFormat
 )
-0
 )
 ;
 switch
