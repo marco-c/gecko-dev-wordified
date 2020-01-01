@@ -2331,6 +2331,12 @@ nsIRequestObserver
 *
 mRequestObserver
 ;
+nsCOMPtr
+<
+nsIURI
+>
+mBaseURI
+;
 PRUint32
 mState
 ;

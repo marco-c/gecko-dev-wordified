@@ -3714,6 +3714,9 @@ aScriptContext
 nsPIDOMWindow
 *
 aOwnerWindow
+nsIURI
+*
+aBaseURI
 )
 {
 NS_ASSERTION
