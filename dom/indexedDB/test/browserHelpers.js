@@ -90,8 +90,9 @@ close
 (
 )
 ;
-delete
 testGenerator
+=
+undefined
 ;
 }
 }

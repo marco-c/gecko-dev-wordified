@@ -96,7 +96,7 @@ indexedDB
 ;
 executeSoon
 (
-test2
+test1
 )
 ;
 }
