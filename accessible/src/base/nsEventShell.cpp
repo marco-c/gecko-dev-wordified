@@ -315,7 +315,7 @@ nsINode
 *
 node
 =
-aEvent
+accessible
 -
 >
 GetNode

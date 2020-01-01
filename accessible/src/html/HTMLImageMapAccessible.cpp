@@ -118,6 +118,8 @@ h
 include
 "
 DocAccessible
+-
+inl
 .
 h
 "
@@ -987,7 +989,7 @@ GetContent
 mDoc
 -
 >
-FireDelayedAccessibleEvent
+FireDelayedEvent
 (
 event
 )
@@ -1161,7 +1163,7 @@ areaContent
 mDoc
 -
 >
-FireDelayedAccessibleEvent
+FireDelayedEvent
 (
 event
 )
@@ -1196,7 +1198,7 @@ doReorderEvent
 mDoc
 -
 >
-FireDelayedAccessibleEvent
+FireDelayedEvent
 (
 reorderEvent
 )

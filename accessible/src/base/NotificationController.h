@@ -386,7 +386,7 @@ mInstance
 Callback
 mCallback
 ;
-nsCOMPtr
+nsRefPtr
 <
 Arg
 >
