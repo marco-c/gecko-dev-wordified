@@ -1226,6 +1226,7 @@ __defineGetter__
 (
 aName
 function
+logFuncGetter
 (
 )
 {
@@ -1374,6 +1375,7 @@ __defineGetter__
 (
 name
 function
+lazyObjectGetter
 (
 )
 {
@@ -1613,6 +1615,7 @@ null
 _installFile
 :
 function
+SIO_installFile
 (
 aFile
 aTargetDirectory
@@ -1731,6 +1734,7 @@ newFile
 _installDirectory
 :
 function
+SIO_installDirectory
 (
 aDirectory
 aTargetDirectory
@@ -2077,6 +2081,7 @@ newDir
 _installDirEntry
 :
 function
+SIO_installDirEntry
 (
 aDirEntry
 aTargetDirectory
@@ -2341,6 +2346,7 @@ directory
 move
 :
 function
+SIO_move
 (
 aFile
 aTargetDirectory
@@ -2442,6 +2448,7 @@ directory
 copy
 :
 function
+SIO_copy
 (
 aFile
 aTargetDirectory
@@ -2513,6 +2520,7 @@ state
 rollback
 :
 function
+SIO_rollback
 (
 )
 {
@@ -3715,6 +3723,7 @@ __defineGetter__
 gRDF
 "
 function
+gRDFGetter
 (
 )
 {
@@ -8835,6 +8844,7 @@ none
 getDefaultCharPref
 :
 function
+Prefs_getDefaultCharPref
 (
 aName
 aDefaultValue
@@ -8920,6 +8930,7 @@ none
 getCharPref
 :
 function
+Prefs_getCharPref
 (
 aName
 aDefaultValue
@@ -9009,6 +9020,7 @@ none
 getComplexValue
 :
 function
+Prefs_getComplexValue
 (
 aName
 aType
@@ -9092,6 +9104,7 @@ none
 getBoolPref
 :
 function
+Prefs_getBoolPref
 (
 aName
 aDefaultValue
@@ -9171,6 +9184,7 @@ none
 getIntPref
 :
 function
+Prefs_getIntPref
 (
 aName
 defaultValue
@@ -9227,6 +9241,7 @@ preference
 clearUserPref
 :
 function
+Prefs_clearUserPref
 (
 aName
 )
@@ -10601,6 +10616,7 @@ addObserver
 observe
 :
 function
+shutdownObserver
 (
 aSubject
 aTopic
@@ -20748,6 +20764,7 @@ AddonInstall
 createDownload
 (
 function
+getInstallForURL_createDownload
 (
 aInstall
 )
@@ -20826,6 +20843,7 @@ AddonInstall
 createInstall
 (
 function
+getInstallForFile_createInstall
 (
 aInstall
 )
@@ -20896,6 +20914,7 @@ installs
 filter
 (
 function
+installFilter
 (
 i
 )
@@ -20962,6 +20981,7 @@ getVisibleAddonForID
 (
 aId
 function
+getAddonByID_getVisibleAddonForID
 (
 aAddon
 )
@@ -21051,6 +21071,7 @@ getVisibleAddons
 (
 aTypes
 function
+getAddonsByTypes_getVisibleAddons
 (
 aAddons
 )
@@ -21137,6 +21158,7 @@ getAddonBySyncGUID
 (
 aGUID
 function
+getAddonBySyncGUID_getAddonBySyncGUID
 (
 aAddon
 )
@@ -21225,6 +21247,7 @@ getVisibleAddonsWithPendingOperations
 (
 aTypes
 function
+getAddonsWithOpsByTypes_getVisibleAddonsWithPendingOps
 (
 aAddons
 )
@@ -25661,6 +25684,7 @@ location
 .
 name
 function
+checkInstallLocation_getAddonInLocation
 (
 aNewAddon
 )
@@ -26534,6 +26558,7 @@ install
 initStagedInstall
 :
 function
+AI_initStagedInstall
 (
 aManifest
 )
@@ -26671,6 +26696,7 @@ to
 initLocalInstall
 :
 function
+AI_initLocalInstall
 (
 aCallback
 )
@@ -27009,6 +27035,7 @@ this
 loadManifest
 (
 function
+initLocalInstall_loadManifest
 (
 )
 {
@@ -27022,6 +27049,7 @@ addon
 .
 id
 function
+initLocalInstall_getVisibleAddon
 (
 aAddon
 )
@@ -27112,6 +27140,7 @@ addon
 onUpdateFinished
 :
 function
+updateChecker_onUpdateFinished
 (
 aAddon
 )
@@ -27321,6 +27350,7 @@ on
 initAvailableDownload
 :
 function
+AI_initAvailableDownload
 (
 aName
 aType
@@ -27963,6 +27993,7 @@ listeners
 some
 (
 function
+addListener_matchListener
 (
 i
 )
@@ -28031,6 +28062,7 @@ listeners
 filter
 (
 function
+removeListener_filterListener
 (
 i
 )
@@ -28775,6 +28807,7 @@ AddonInstall
 createInstall
 (
 function
+loadMultipackageManifests_createInstall
 (
 aInstall
 )
@@ -28999,6 +29032,7 @@ aAddon
 .
 id
 function
+loadManifest_getCachedAddonByID
 (
 aRepoAddon
 )
@@ -29063,6 +29097,7 @@ aAddon
 id
 ]
 function
+loadManifest_cacheAddons
 (
 )
 {
@@ -29074,6 +29109,7 @@ aAddon
 .
 id
 function
+loadManifest_getCachedAddonByID
 (
 aRepoAddon
 )
@@ -29344,6 +29380,7 @@ loadMultipackageManifests
 (
 zipreader
 function
+loadManifest_loadMultipackageManifests
 (
 )
 {
@@ -30147,6 +30184,7 @@ nsIChannelEventSink
 asyncOnChannelRedirect
 :
 function
+AI_asyncOnChannelRedirect
 (
 aOldChannel
 aNewChannel
@@ -30874,6 +30912,7 @@ this
 loadManifest
 (
 function
+onStopRequest_loadManifest
 (
 )
 {
@@ -30927,6 +30966,7 @@ addon
 onUpdateFinished
 :
 function
+onStopRequest_onUpdateFinished
 (
 aAddon
 )
@@ -31061,6 +31101,7 @@ listeners
 downloadFailed
 :
 function
+AI_downloadFailed
 (
 aReason
 aError
@@ -31163,6 +31204,7 @@ completed
 downloadCompleted
 :
 function
+AI_downloadCompleted
 (
 )
 {
@@ -31181,6 +31223,7 @@ addon
 .
 id
 function
+downloadCompleted_getVisibleAddonForID
 (
 aAddon
 )
@@ -32563,6 +32606,7 @@ installLocation
 .
 name
 function
+startInstall_getAddonInLocation
 (
 a
 )
@@ -32817,6 +32861,7 @@ removeTemporaryFile
 getInterface
 :
 function
+AI_getInterface
 (
 iid
 )
@@ -32953,6 +32998,7 @@ AddonInstall
 createStagedInstall
 =
 function
+AI_createStagedInstall
 (
 aInstallLocation
 aDir
@@ -33047,6 +33093,7 @@ AddonInstall
 createInstall
 =
 function
+AI_createInstall
 (
 aCallback
 aFile
@@ -33216,6 +33263,7 @@ AddonInstall
 createDownload
 =
 function
+AI_createDownload
 (
 aCallback
 aUri
@@ -33345,6 +33393,7 @@ AddonInstall
 createUpdate
 =
 function
+AI_createUpdate
 (
 aCallback
 aAddon
@@ -33582,6 +33631,7 @@ __defineGetter__
 (
 aProp
 function
+AIW_propertyGetter
 (
 )
 aInstall
@@ -33602,6 +33652,7 @@ __defineGetter__
 existingAddon
 "
 function
+AIW_existingAddonGetter
 (
 )
 {
@@ -33624,6 +33675,7 @@ __defineGetter__
 addon
 "
 function
+AIW_addonGetter
 (
 )
 createWrapper
@@ -33642,6 +33694,7 @@ __defineGetter__
 sourceURI
 "
 function
+AIW_sourceURIGetter
 (
 )
 aInstall
@@ -33657,6 +33710,7 @@ __defineGetter__
 linkedInstalls
 "
 function
+AIW_linkedInstallsGetter
 (
 )
 {
@@ -33694,6 +33748,7 @@ this
 install
 =
 function
+AIW_install
 (
 )
 {
@@ -33709,6 +33764,7 @@ this
 cancel
 =
 function
+AIW_cancel
 (
 )
 {
@@ -33724,6 +33780,7 @@ this
 addListener
 =
 function
+AIW_addListener
 (
 listener
 )
@@ -33741,6 +33798,7 @@ this
 removeListener
 =
 function
+AIW_removeListener
 (
 listener
 )
@@ -34109,6 +34167,7 @@ listener
 callListener
 :
 function
+UC_callListener
 (
 aMethod
 .
@@ -34736,6 +34795,7 @@ AddonInstall
 createUpdate
 (
 function
+onUpdateCheckComplete_createUpdate
 (
 aInstall
 )
@@ -35201,6 +35261,7 @@ needsABI
 isCompatibleWith
 :
 function
+AddonInternal_isCompatibleWith
 (
 aAppVersion
 aPlatformVersion
@@ -35678,6 +35739,7 @@ version
 applyCompatibilityUpdate
 :
 function
+AddonInternal_applyCompatibilityUpdate
 (
 aUpdate
 aSyncCompatibility
@@ -35882,6 +35944,7 @@ setters
 toJSON
 :
 function
+AddonInternal_toJSON
 (
 aKey
 )
@@ -36048,6 +36111,7 @@ metadata
 importMetadata
 :
 function
+AddonInternal_importMetaData
 (
 aObj
 )
@@ -36208,6 +36272,7 @@ __defineGetter__
 targetApplications
 "
 function
+DBA_targetApplicationsGetter
 (
 )
 {
@@ -36239,6 +36304,7 @@ __defineGetter__
 targetPlatforms
 "
 function
+DBA_targetPlatformsGetter
 (
 )
 {
@@ -36270,6 +36336,7 @@ __defineGetter__
 locales
 "
 function
+DBA_localesGetter
 (
 )
 {
@@ -36301,6 +36368,7 @@ __defineGetter__
 defaultLocale
 "
 function
+DBA_defaultLocaleGetter
 (
 )
 {
@@ -36332,6 +36400,7 @@ __defineGetter__
 pendingUpgrade
 "
 function
+DBA_pendingUpgradeGetter
 (
 )
 {
@@ -36418,6 +36487,7 @@ prototype
 applyCompatibilityUpdate
 :
 function
+DBA_applyCompatibilityUpdate
 (
 aUpdate
 aSyncCompatibility
@@ -36873,6 +36943,7 @@ __defineGetter__
 (
 aProp
 function
+AddonWrapper_propertyGetter
 (
 )
 aAddon
@@ -36940,6 +37011,7 @@ __defineGetter__
 (
 aProp
 function
+AddonWrapper_repoPropertyGetter
 (
 )
 {
@@ -36975,6 +37047,7 @@ __defineGetter__
 aboutURL
 "
 function
+AddonWrapper_aboutURLGetter
 (
 )
 {
@@ -37017,6 +37090,7 @@ __defineGetter__
 (
 aProp
 function
+AddonWrapper_datePropertyGetter
 (
 )
 new
@@ -37055,6 +37129,7 @@ __defineGetter__
 (
 aProp
 function
+AddonWrapper_URIPropertyGetter
 (
 )
 {
@@ -37101,6 +37176,7 @@ __defineGetter__
 optionsURL
 "
 function
+AddonWrapper_optionsURLGetter
 (
 )
 {
@@ -37167,6 +37243,7 @@ __defineGetter__
 optionsType
 "
 function
+AddonWrapper_optionsTypeGetter
 (
 )
 {
@@ -37235,6 +37312,7 @@ __defineGetter__
 iconURL
 "
 function
+AddonWrapper_iconURLGetter
 (
 )
 {
@@ -37258,6 +37336,7 @@ __defineGetter__
 icon64URL
 "
 function
+AddonWrapper_icon64URLGetter
 (
 )
 {
@@ -37281,6 +37360,7 @@ __defineGetter__
 icons
 "
 function
+AddonWrapper_iconsGetter
 (
 )
 {
@@ -37466,6 +37546,7 @@ __defineGetter__
 (
 aProp
 function
+AddonWrapper_singleLocaleGetter
 (
 )
 {
@@ -37639,6 +37720,7 @@ __defineGetter__
 (
 aProp
 function
+AddonWrapper_multiLocaleGetter
 (
 )
 {
@@ -37798,6 +37880,7 @@ results
 map
 (
 function
+mapResult
 (
 aResult
 )
@@ -37833,6 +37916,7 @@ __defineGetter__
 screenshots
 "
 function
+AddonWrapper_screenshotsGetter
 (
 )
 {
@@ -37945,6 +38029,7 @@ __defineGetter__
 applyBackgroundUpdates
 "
 function
+AddonWrapper_applyBackgroundUpdatesGetter
 (
 )
 {
@@ -37964,6 +38049,7 @@ __defineSetter__
 applyBackgroundUpdates
 "
 function
+AddonWrapper_applyBackgroundUpdatesSetter
 (
 val
 )
@@ -38060,6 +38146,7 @@ __defineSetter__
 syncGUID
 "
 function
+AddonWrapper_syncGUIDGetter
 (
 val
 )
@@ -38110,6 +38197,7 @@ __defineGetter__
 install
 "
 function
+AddonWrapper_installGetter
 (
 )
 {
@@ -38151,6 +38239,7 @@ __defineGetter__
 pendingUpgrade
 "
 function
+AddonWrapper_pendingUpgradeGetter
 (
 )
 {
@@ -38173,6 +38262,7 @@ __defineGetter__
 scope
 "
 function
+AddonWrapper_scopeGetter
 (
 )
 {
@@ -38205,6 +38295,7 @@ __defineGetter__
 pendingOperations
 "
 function
+AddonWrapper_pendingOperationsGetter
 (
 )
 {
@@ -38420,6 +38511,7 @@ __defineGetter__
 operationsRequiringRestart
 "
 function
+AddonWrapper_operationsRequiringRestartGetter
 (
 )
 {
@@ -38506,6 +38598,7 @@ __defineGetter__
 permissions
 "
 function
+AddonWrapper_permisionsGetter
 (
 )
 {
@@ -38679,6 +38772,7 @@ __defineGetter__
 isActive
 "
 function
+AddonWrapper_isActiveGetter
 (
 )
 {
@@ -38709,6 +38803,7 @@ __defineGetter__
 userDisabled
 "
 function
+AddonWrapper_userDisabledGetter
 (
 )
 {
@@ -38733,6 +38828,7 @@ __defineSetter__
 userDisabled
 "
 function
+AddonWrapper_userDisabledSetter
 (
 val
 )
@@ -38856,6 +38952,7 @@ __defineSetter__
 softDisabled
 "
 function
+AddonWrapper_softDisabledSetter
 (
 val
 )
@@ -38991,6 +39088,7 @@ this
 isCompatibleWith
 =
 function
+AddonWrapper_isCompatiblewith
 (
 aAppVersion
 aPlatformVersion
@@ -39012,6 +39110,7 @@ this
 uninstall
 =
 function
+AddonWrapper_uninstall
 (
 )
 {
@@ -39080,6 +39179,7 @@ this
 cancelUninstall
 =
 function
+AddonWrapper_cancelUninstall
 (
 )
 {
@@ -39151,6 +39251,7 @@ this
 findUpdates
 =
 function
+AddonWrapper_findUpdates
 (
 aListener
 aReason
@@ -39175,6 +39276,7 @@ this
 hasResource
 =
 function
+AddonWrapper_hasResource
 (
 aPath
 )
@@ -39539,6 +39641,7 @@ this
 getResourceURI
 =
 function
+AddonWrapper_getResourceURI
 (
 aPath
 )
@@ -41917,6 +42020,7 @@ addon
 isLinkedAddon
 :
 function
+DirInstallLocation__isLinkedAddon
 (
 aId
 )
@@ -42792,6 +42896,7 @@ DirectoryInstallLocation
 isLinkedAddon
 :
 function
+RegInstallLocation_isLinkedAddon
 (
 aId
 )
