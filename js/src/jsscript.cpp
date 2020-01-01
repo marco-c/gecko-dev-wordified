@@ -7682,6 +7682,9 @@ JS_THREADSAFE
 if
 (
 tok
+&
+&
+0
 )
 {
 tok
@@ -7803,6 +7806,9 @@ memlen
 >
 =
 COMPRESS_THRESHOLD
+&
+&
+0
 &
 &
 TryCompressString
