@@ -10228,8 +10228,6 @@ jsbytecode
 casepc
 =
 NULL
-*
-prevcasepc
 ;
 for
 (
@@ -10251,10 +10249,6 @@ i
 +
 )
 {
-prevcasepc
-=
-casepc
-;
 casepc
 =
 pc
