@@ -346,6 +346,11 @@ mai_atk_object_get_type
 void
 )
 ;
+GType
+mai_util_get_type
+(
+)
+;
 mozilla
 :
 :
