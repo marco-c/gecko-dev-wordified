@@ -10226,6 +10226,11 @@ tmp
 JSBool
 ok
 ;
+js_LeaveTrace
+(
+cx
+)
+;
 #
 ifdef
 INCLUDE_MOZILLA_DTRACE
