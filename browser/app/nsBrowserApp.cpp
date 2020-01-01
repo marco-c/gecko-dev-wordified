@@ -529,9 +529,6 @@ possible
 #
 define
 XRE_WANT_DLL_BLOCKLIST
-#
-define
-XRE_PRELOAD_XUL
 /
 /
 we
