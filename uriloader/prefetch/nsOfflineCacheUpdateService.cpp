@@ -347,6 +347,15 @@ Preferences
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -693,6 +702,7 @@ nsOfflineCachePendingUpdate
 -
 class
 nsOfflineCachePendingUpdate
+MOZ_FINAL
 :
 public
 nsIWebProgressListener

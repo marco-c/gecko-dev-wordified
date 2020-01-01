@@ -134,6 +134,15 @@ nsWeakReference
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsOfflineCacheUpdate
 ;
@@ -452,6 +461,7 @@ _result
 }
 class
 OfflineCacheUpdateGlue
+MOZ_FINAL
 :
 public
 nsSupportsWeakReference

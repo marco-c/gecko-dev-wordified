@@ -132,6 +132,15 @@ nsIExternalProtocolService
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIURI
 ;
@@ -156,6 +165,7 @@ them
 .
 class
 nsExternalProtocolHandler
+MOZ_FINAL
 :
 public
 nsIExternalProtocolHandler
