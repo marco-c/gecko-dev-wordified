@@ -1056,6 +1056,10 @@ mContext
 ;
 JSAutoEnterCompartment
 ac
+;
+ac
+.
+enterAndIgnoreErrors
 (
 sSelf
 -

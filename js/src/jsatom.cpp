@@ -3799,8 +3799,8 @@ flags
 ATOM_TMPSTR
 )
 {
-JSAutoEnterCompartment
-ac
+SwitchToCompartment
+sc
 (
 cx
 cx

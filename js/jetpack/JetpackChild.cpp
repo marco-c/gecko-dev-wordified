@@ -2402,7 +2402,7 @@ obj
 return
 JS_FALSE
 ;
-JSAutoCrossCompartmentCall
+JSAutoEnterCompartment
 ac
 ;
 if
@@ -2582,7 +2582,7 @@ str
 return
 JS_FALSE
 ;
-JSAutoCrossCompartmentCall
+JSAutoEnterCompartment
 ac
 ;
 if
