@@ -5624,6 +5624,17 @@ obj
 )
 break
 ;
+if
+(
+obj
+-
+>
+shouldConvertDoubleElements
+(
+)
+)
+break
+;
 JSObject
 :
 :
