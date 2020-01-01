@@ -27265,7 +27265,7 @@ bindMethod
 its_bindMethod
 2
 0
-JS_TypeHandlerMissing
+JS_TypeHandlerDynamic
 }
 {
 NULL

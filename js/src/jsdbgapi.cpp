@@ -5191,7 +5191,7 @@ getParent
 :
 NULL
 atom
-JS_TypeHandlerMissing
+JS_TypeHandlerDynamic
 "
 SetWrapper
 "
