@@ -1512,6 +1512,14 @@ Register
 dest
 )
 {
+JS_ASSERT
+(
+src
+!
+=
+dest
+)
+;
 JSValueShiftedTag
 tag
 =
