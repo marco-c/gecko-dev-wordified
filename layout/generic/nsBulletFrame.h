@@ -446,6 +446,8 @@ aNextOrdinal
 bool
 *
 aChanged
+int32_t
+aIncrement
 )
 ;
 NS_IMETHOD
