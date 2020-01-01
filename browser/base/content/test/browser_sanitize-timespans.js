@@ -164,6 +164,10 @@ getHours
 var
 minutesSinceMidnight
 =
+hoursSinceMidnight
+*
+60
++
 new
 Date
 (
