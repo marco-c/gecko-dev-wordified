@@ -5094,6 +5094,11 @@ guid
 username
 )
 {
+let
+self
+=
+yield
+;
 /
 *
 This
@@ -5132,7 +5137,11 @@ username
 .
 *
 /
-return
+self
+.
+done
+(
+)
 ;
 }
 /
