@@ -4677,6 +4677,12 @@ nsHTMLInputElement
 Disabled
 disabled
 )
+NS_IMPL_STRING_ATTR
+(
+nsHTMLInputElement
+Max
+max
+)
 NS_IMPL_ACTION_ATTR
 (
 nsHTMLInputElement
