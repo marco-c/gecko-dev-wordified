@@ -918,6 +918,12 @@ tab
 =
 =
 null
+|
+|
+oldTab
+=
+=
+tab
 )
 return
 null
