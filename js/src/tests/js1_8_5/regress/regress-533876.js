@@ -97,6 +97,7 @@ f
 eval
 (
 "
+(
 function
 (
 )
@@ -107,6 +108,7 @@ x
 /
 ;
 }
+)
 "
 )
 ;
@@ -131,3 +133,17 @@ x
 including
 SPROP_IN_DICTIONARY
 flag
+reportCompare
+(
+"
+ok
+"
+"
+ok
+"
+"
+bug
+533876
+"
+)
+;
