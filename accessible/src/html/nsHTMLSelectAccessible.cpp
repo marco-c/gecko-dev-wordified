@@ -3285,7 +3285,10 @@ txtValue
 nsresult
 rv
 =
-AppendFlatStringFromContentNode
+nsTextEquivUtils
+:
+:
+AppendTextEquivFromTextContent
 (
 text
 &

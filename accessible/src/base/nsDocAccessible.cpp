@@ -1980,8 +1980,12 @@ IsEmpty
 nsAutoString
 description
 ;
-GetTextFromRelationID
+nsTextEquivUtils
+:
+:
+GetTextEquivFromIDRefs
 (
+this
 nsAccessibilityAtoms
 :
 :
