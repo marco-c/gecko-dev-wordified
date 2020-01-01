@@ -1306,6 +1306,9 @@ PREFER_LWFN
 #
 endif
 #
+ifdef
+FT_MACINTOSH
+#
 if
 !
 HAVE_QUICKDRAW_CARBON
@@ -7542,6 +7545,13 @@ HAVE_FSSPEC
 *
 /
 }
+#
+endif
+/
+*
+FT_MACINTOSH
+*
+/
 /
 *
 END

@@ -117,6 +117,7 @@ Copyright
 2007
 2009
 2010
+2011
 by
 *
 /
@@ -296,6 +297,9 @@ ft2build
 .
 h
 >
+#
+include
+FT_INTERNAL_OBJECTS_H
 #
 include
 FT_INTERNAL_DEBUG_H
@@ -1159,6 +1163,9 @@ FT_Pointer
 ftcface_id
 FTC_Cache
 cache
+FT_Bool
+*
+list_changed
 )
 {
 FTC_GNode
@@ -1190,6 +1197,15 @@ family
 ;
 FT_Bool
 result
+;
+if
+(
+list_changed
+)
+*
+list_changed
+=
+FALSE
 ;
 result
 =
@@ -1398,7 +1414,7 @@ happy
 FT_Error
 error
 ;
-FT_UInt32
+FT_PtrDist
 hash
 ;
 /
@@ -1876,7 +1892,7 @@ happy
 FT_Error
 error
 ;
-FT_UInt32
+FT_PtrDist
 hash
 ;
 /
@@ -2658,7 +2674,7 @@ compiler
 happy
 *
 /
-FT_UInt32
+FT_PtrDist
 hash
 ;
 if
@@ -3158,7 +3174,7 @@ compiler
 happy
 *
 /
-FT_UInt32
+FT_PtrDist
 hash
 ;
 if

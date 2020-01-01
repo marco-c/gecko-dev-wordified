@@ -111,9 +111,10 @@ body
 *
 Copyright
 2003
-2004
-2005
+-
 2006
+2009
+2011
 by
 *
 /
@@ -309,10 +310,7 @@ h
 "
 #
 ifdef
-AF_DEBUG
-int
-_af_debug
-;
+FT_DEBUG_AUTOFIT
 int
 _af_debug_disable_horz_hints
 ;

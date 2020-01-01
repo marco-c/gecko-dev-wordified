@@ -110,13 +110,9 @@ specification
 Copyright
 1996
 -
-2001
-2002
-2003
-2004
-2005
 2006
 2008
+2011
 by
 *
 /
@@ -342,8 +338,6 @@ TT_Face
 face
 FT_UInt
 idx
-FT_Bool
-check
 FT_Short
 *
 lsb
@@ -362,8 +356,6 @@ TT_Face
 face
 FT_UInt
 idx
-FT_Bool
-check
 FT_Short
 *
 tsb

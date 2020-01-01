@@ -135,6 +135,8 @@ K
 Copyright
 2003
 2008
+2009
+2012
 by
 *
 /
@@ -744,6 +746,7 @@ FT_UNUSED
 library
 )
 ;
+\
 \
 clazz
 -

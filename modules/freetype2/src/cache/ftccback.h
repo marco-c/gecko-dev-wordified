@@ -117,6 +117,7 @@ Copyright
 2004
 2005
 2006
+2011
 by
 *
 /
@@ -430,6 +431,9 @@ FT_Pointer
 gquery
 FTC_Cache
 cache
+FT_Bool
+*
+list_changed
 )
 ;
 FT_LOCAL
@@ -444,6 +448,9 @@ FT_Pointer
 gquery
 FTC_Cache
 cache
+FT_Bool
+*
+list_changed
 )
 ;
 FT_LOCAL

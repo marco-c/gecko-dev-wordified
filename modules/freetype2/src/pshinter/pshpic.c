@@ -304,6 +304,13 @@ pshpic
 h
 "
 #
+include
+"
+pshnterr
+.
+h
+"
+#
 ifdef
 FT_CONFIG_OPTION_PIC
 /
@@ -324,8 +331,10 @@ void
 FT_Init_Class_pshinter_interface
 (
 FT_Library
+library
 PSHinter_Interface
 *
+clazz
 )
 ;
 void

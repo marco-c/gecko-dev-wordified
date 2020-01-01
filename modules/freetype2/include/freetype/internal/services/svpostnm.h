@@ -112,6 +112,8 @@ specification
 Copyright
 2003
 2007
+2009
+2012
 by
 *
 /
@@ -453,6 +455,7 @@ FT_UNUSED
 library
 )
 ;
+\
 \
 clazz
 -

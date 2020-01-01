@@ -124,8 +124,9 @@ body
 *
 Copyright
 2003
-2004
+-
 2005
+2011
 by
 *
 /
@@ -312,6 +313,13 @@ afhints
 .
 h
 "
+#
+include
+"
+aferrors
+.
+h
+"
 static
 FT_Error
 af_dummy_hints_init
@@ -329,7 +337,7 @@ metrics
 )
 ;
 return
-0
+AF_Err_Ok
 ;
 }
 static
@@ -354,7 +362,7 @@ outline
 )
 ;
 return
-0
+AF_Err_Ok
 ;
 }
 AF_DEFINE_SCRIPT_CLASS

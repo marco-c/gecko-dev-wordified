@@ -8255,6 +8255,8 @@ elements
 {
 TT_SBit_Component
 components
+=
+NULL
 ;
 TT_SBit_Component
 comp

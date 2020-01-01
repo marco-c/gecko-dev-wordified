@@ -1097,6 +1097,9 @@ PREFER_LWFN
 1
 #
 endif
+#
+ifdef
+FT_MACINTOSH
 /
 *
 This
@@ -5680,6 +5683,13 @@ aface
 #
 endif
 }
+#
+endif
+/
+*
+FT_MACINTOSH
+*
+/
 /
 *
 END

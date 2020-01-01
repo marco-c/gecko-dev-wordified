@@ -18,6 +18,7 @@ C
 2002
 2003
 2006
+2010
 by
 Francesco
 Zappa
@@ -434,10 +435,10 @@ FT_FaceRec
 root
 ;
 FT_StreamRec
-gzip_stream
+comp_stream
 ;
 FT_Stream
-gzip_source
+comp_source
 ;
 char
 *

@@ -124,8 +124,9 @@ specification
 *
 Copyright
 2003
-2004
+-
 2005
+2011
 by
 *
 /

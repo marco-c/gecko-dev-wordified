@@ -109,11 +109,11 @@ specification
 Copyright
 1996
 -
-2001
 2002
 2004
-2005
+-
 2006
+2011
 by
 *
 /
@@ -2431,7 +2431,7 @@ FT_GET_SHORT
 )
 FT_GET_MACRO
 (
-FT_Stream_GetShort
+FT_Stream_GetUShort
 FT_Short
 )
 #
@@ -2441,7 +2441,7 @@ FT_GET_USHORT
 )
 FT_GET_MACRO
 (
-FT_Stream_GetShort
+FT_Stream_GetUShort
 FT_UShort
 )
 #
@@ -2451,7 +2451,7 @@ FT_GET_OFF3
 )
 FT_GET_MACRO
 (
-FT_Stream_GetOffset
+FT_Stream_GetUOffset
 FT_Long
 )
 #
@@ -2461,7 +2461,7 @@ FT_GET_UOFF3
 )
 FT_GET_MACRO
 (
-FT_Stream_GetOffset
+FT_Stream_GetUOffset
 FT_ULong
 )
 #
@@ -2471,7 +2471,7 @@ FT_GET_LONG
 )
 FT_GET_MACRO
 (
-FT_Stream_GetLong
+FT_Stream_GetULong
 FT_Long
 )
 #
@@ -2481,7 +2481,7 @@ FT_GET_ULONG
 )
 FT_GET_MACRO
 (
-FT_Stream_GetLong
+FT_Stream_GetULong
 FT_ULong
 )
 #
@@ -2491,7 +2491,7 @@ FT_GET_TAG4
 )
 FT_GET_MACRO
 (
-FT_Stream_GetLong
+FT_Stream_GetULong
 FT_ULong
 )
 #
@@ -2501,7 +2501,7 @@ FT_GET_SHORT_LE
 )
 FT_GET_MACRO
 (
-FT_Stream_GetShortLE
+FT_Stream_GetUShortLE
 FT_Short
 )
 #
@@ -2511,7 +2511,7 @@ FT_GET_USHORT_LE
 )
 FT_GET_MACRO
 (
-FT_Stream_GetShortLE
+FT_Stream_GetUShortLE
 FT_UShort
 )
 #
@@ -2521,7 +2521,7 @@ FT_GET_LONG_LE
 )
 FT_GET_MACRO
 (
-FT_Stream_GetLongLE
+FT_Stream_GetULongLE
 FT_Long
 )
 #
@@ -2531,7 +2531,7 @@ FT_GET_ULONG_LE
 )
 FT_GET_MACRO
 (
-FT_Stream_GetLongLE
+FT_Stream_GetULongLE
 FT_ULong
 )
 #
@@ -2595,7 +2595,7 @@ var
 )
 FT_READ_MACRO
 (
-FT_Stream_ReadShort
+FT_Stream_ReadUShort
 FT_Short
 var
 )
@@ -2607,7 +2607,7 @@ var
 )
 FT_READ_MACRO
 (
-FT_Stream_ReadShort
+FT_Stream_ReadUShort
 FT_UShort
 var
 )
@@ -2619,7 +2619,7 @@ var
 )
 FT_READ_MACRO
 (
-FT_Stream_ReadOffset
+FT_Stream_ReadUOffset
 FT_Long
 var
 )
@@ -2631,7 +2631,7 @@ var
 )
 FT_READ_MACRO
 (
-FT_Stream_ReadOffset
+FT_Stream_ReadUOffset
 FT_ULong
 var
 )
@@ -2643,7 +2643,7 @@ var
 )
 FT_READ_MACRO
 (
-FT_Stream_ReadLong
+FT_Stream_ReadULong
 FT_Long
 var
 )
@@ -2655,7 +2655,7 @@ var
 )
 FT_READ_MACRO
 (
-FT_Stream_ReadLong
+FT_Stream_ReadULong
 FT_ULong
 var
 )
@@ -2667,7 +2667,7 @@ var
 )
 FT_READ_MACRO
 (
-FT_Stream_ReadShortLE
+FT_Stream_ReadUShortLE
 FT_Short
 var
 )
@@ -2679,7 +2679,7 @@ var
 )
 FT_READ_MACRO
 (
-FT_Stream_ReadShortLE
+FT_Stream_ReadUShortLE
 FT_UShort
 var
 )
@@ -2691,7 +2691,7 @@ var
 )
 FT_READ_MACRO
 (
-FT_Stream_ReadLongLE
+FT_Stream_ReadULongLE
 FT_Long
 var
 )
@@ -2703,7 +2703,7 @@ var
 )
 FT_READ_MACRO
 (
-FT_Stream_ReadLongLE
+FT_Stream_ReadULongLE
 FT_ULong
 var
 )
@@ -3328,6 +3328,7 @@ bit
 big
 -
 endian
+unsigned
 integer
 from
 an
@@ -3337,9 +3338,9 @@ frame
 /
 FT_BASE
 (
-FT_Short
+FT_UShort
 )
-FT_Stream_GetShort
+FT_Stream_GetUShort
 (
 FT_Stream
 stream
@@ -3355,6 +3356,7 @@ bit
 big
 -
 endian
+unsigned
 integer
 from
 an
@@ -3364,9 +3366,9 @@ frame
 /
 FT_BASE
 (
-FT_Long
+FT_ULong
 )
-FT_Stream_GetOffset
+FT_Stream_GetUOffset
 (
 FT_Stream
 stream
@@ -3382,6 +3384,7 @@ bit
 big
 -
 endian
+unsigned
 integer
 from
 an
@@ -3391,9 +3394,9 @@ frame
 /
 FT_BASE
 (
-FT_Long
+FT_ULong
 )
-FT_Stream_GetLong
+FT_Stream_GetULong
 (
 FT_Stream
 stream
@@ -3409,6 +3412,7 @@ bit
 little
 -
 endian
+unsigned
 integer
 from
 an
@@ -3418,9 +3422,9 @@ frame
 /
 FT_BASE
 (
-FT_Short
+FT_UShort
 )
-FT_Stream_GetShortLE
+FT_Stream_GetUShortLE
 (
 FT_Stream
 stream
@@ -3436,6 +3440,7 @@ bit
 little
 -
 endian
+unsigned
 integer
 from
 an
@@ -3445,9 +3450,9 @@ frame
 /
 FT_BASE
 (
-FT_Long
+FT_ULong
 )
-FT_Stream_GetLongLE
+FT_Stream_GetULongLE
 (
 FT_Stream
 stream
@@ -3486,6 +3491,7 @@ bit
 big
 -
 endian
+unsigned
 integer
 from
 a
@@ -3494,9 +3500,9 @@ stream
 /
 FT_BASE
 (
-FT_Short
+FT_UShort
 )
-FT_Stream_ReadShort
+FT_Stream_ReadUShort
 (
 FT_Stream
 stream
@@ -3515,6 +3521,7 @@ bit
 big
 -
 endian
+unsigned
 integer
 from
 a
@@ -3523,9 +3530,9 @@ stream
 /
 FT_BASE
 (
-FT_Long
+FT_ULong
 )
-FT_Stream_ReadOffset
+FT_Stream_ReadUOffset
 (
 FT_Stream
 stream
@@ -3552,9 +3559,9 @@ stream
 /
 FT_BASE
 (
-FT_Long
+FT_ULong
 )
-FT_Stream_ReadLong
+FT_Stream_ReadULong
 (
 FT_Stream
 stream
@@ -3573,6 +3580,7 @@ bit
 little
 -
 endian
+unsigned
 integer
 from
 a
@@ -3581,9 +3589,9 @@ stream
 /
 FT_BASE
 (
-FT_Short
+FT_UShort
 )
-FT_Stream_ReadShortLE
+FT_Stream_ReadUShortLE
 (
 FT_Stream
 stream
@@ -3602,6 +3610,7 @@ bit
 little
 -
 endian
+unsigned
 integer
 from
 a
@@ -3610,9 +3619,9 @@ stream
 /
 FT_BASE
 (
-FT_Long
+FT_ULong
 )
-FT_Stream_ReadLongLE
+FT_Stream_ReadULongLE
 (
 FT_Stream
 stream

@@ -116,6 +116,7 @@ Copyright
 2004
 2006
 2007
+2011
 by
 *
 /
@@ -2179,6 +2180,9 @@ FTC_Family
 family
 )
 ;
+#
+ifdef
+FTC_INLINE
 /
 *
 returns
@@ -2232,8 +2236,15 @@ FTC_GNode
 gnode
 FTC_GQuery
 gquery
+FTC_Cache
+cache
+FT_Bool
+*
+list_changed
 )
 ;
+#
+endif
 /
 *
 call
@@ -2510,7 +2521,7 @@ FTC_GCache_Lookup
 (
 FTC_GCache
 cache
-FT_UInt32
+FT_PtrDist
 hash
 FT_UInt
 gindex
@@ -2757,6 +2768,7 @@ FTC_GQUERY
 (
 query
 )
+&
 node
 )
 ;

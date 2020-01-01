@@ -112,6 +112,7 @@ specification
 Copyright
 2007
 2009
+2012
 by
 Derek
 Clegg
@@ -371,9 +372,11 @@ define
 FT_DEFINE_SERVICE_CIDREC
 (
 class_
+\
 get_ros_
 \
 get_is_cid_
+\
 get_cid_from_glyph_index_
 )
 \
@@ -403,9 +406,11 @@ define
 FT_DEFINE_SERVICE_CIDREC
 (
 class_
+\
 get_ros_
 \
 get_is_cid_
+\
 get_cid_from_glyph_index_
 )
 \
@@ -431,6 +436,7 @@ FT_UNUSED
 library
 )
 ;
+\
 \
 clazz
 -

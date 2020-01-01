@@ -151,12 +151,11 @@ distributions
 *
 Copyright
 2002
-2003
-2004
-2005
+-
 2006
 2009
-2010
+-
+2012
 by
 *
 /
@@ -357,6 +356,9 @@ FT_MODULE_ERRORS_H
 #
 undef
 __FTERRORS_H__
+#
+undef
+FT_ERR_PREFIX
 #
 define
 FT_ERR_PREFIX
@@ -3690,10 +3692,7 @@ size
 {
 result
 =
-(
-FT_ULong
-)
-FT_Stream_ReadLong
+FT_Stream_ReadULong
 (
 stream
 &
@@ -3747,6 +3746,8 @@ memory
 ;
 FT_GZipFile
 zip
+=
+NULL
 ;
 /
 *
@@ -3948,6 +3949,8 @@ zip_size
 FT_Byte
 *
 zip_buff
+=
+NULL
 ;
 if
 (

@@ -110,10 +110,9 @@ body
 *
 Copyright
 2003
-2004
-2005
-2006
+-
 2007
+2011
 by
 *
 /
@@ -380,7 +379,7 @@ c
 "
 #
 ifdef
-AF_USE_WARPER
+AF_CONFIG_OPTION_USE_WARPER
 #
 include
 "

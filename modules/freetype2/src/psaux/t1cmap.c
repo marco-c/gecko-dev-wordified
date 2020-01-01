@@ -114,6 +114,7 @@ Copyright
 2003
 2006
 2007
+2012
 by
 *
 /
@@ -2125,7 +2126,7 @@ const
 char
 *
 )
-t1_get_glyph_name
+psaux_get_glyph_name
 (
 T1_Face
 face
@@ -2203,7 +2204,7 @@ num_glyphs
 PS_GetGlyphNameFunc
 )
 &
-t1_get_glyph_name
+psaux_get_glyph_name
 (
 PS_FreeGlyphNameFunc
 )

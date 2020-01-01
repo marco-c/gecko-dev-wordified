@@ -111,6 +111,8 @@ specification
 *
 Copyright
 2003
+2009
+2012
 by
 *
 /
@@ -388,7 +390,9 @@ define
 FT_DEFINE_SERVICE_GLYPHDICTREC
 (
 class_
+\
 get_name_
+\
 name_index_
 )
 \
@@ -417,7 +421,9 @@ define
 FT_DEFINE_SERVICE_GLYPHDICTREC
 (
 class_
+\
 get_name_
+\
 name_index_
 )
 \
@@ -443,6 +449,7 @@ FT_UNUSED
 library
 )
 ;
+\
 \
 clazz
 -

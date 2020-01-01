@@ -1281,6 +1281,11 @@ lzw
 /
 /
 *
+bzip2
+*
+/
+/
+*
 lcd_filtering
 *
 /

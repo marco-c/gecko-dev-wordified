@@ -113,6 +113,8 @@ Copyright
 2006
 2007
 2010
+-
+2011
 by
 *
 /
@@ -749,6 +751,16 @@ allocation
 size
 too
 large
+"
+)
+FT_ERRORDEF_
+(
+Missing_Module
+0x0B
+\
+"
+missing
+module
 "
 )
 /

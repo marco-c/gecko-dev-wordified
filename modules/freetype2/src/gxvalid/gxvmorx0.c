@@ -666,6 +666,9 @@ GXV_Validator
 valid
 )
 {
+#
+ifdef
+GXV_LOAD_UNUSED_VARS
 FT_UShort
 markFirst
 ;
@@ -675,12 +678,19 @@ dontAdvance
 FT_UShort
 markLast
 ;
+#
+endif
 FT_UShort
 reserved
 ;
+#
+ifdef
+GXV_LOAD_UNUSED_VARS
 FT_UShort
 verb
 ;
+#
+endif
 FT_UNUSED
 (
 state
@@ -701,6 +711,9 @@ FT_UNUSED
 limit
 )
 ;
+#
+ifdef
+GXV_LOAD_UNUSED_VARS
 markFirst
 =
 (
@@ -749,6 +762,8 @@ flags
 1
 )
 ;
+#
+endif
 reserved
 =
 (
@@ -760,6 +775,9 @@ flags
 0x1FF0
 )
 ;
+#
+ifdef
+GXV_LOAD_UNUSED_VARS
 verb
 =
 (
@@ -771,6 +789,8 @@ flags
 0x000F
 )
 ;
+#
+endif
 if
 (
 0

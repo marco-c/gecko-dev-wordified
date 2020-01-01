@@ -114,6 +114,7 @@ Copyright
 2003
 2004
 2006
+2010
 by
 *
 /
@@ -2287,7 +2288,7 @@ q
 )
 \
 (
-FTC_FACE_ID_HASH
+_FTC_FACE_ID_HASH
 (
 (
 q

@@ -112,8 +112,11 @@ specification
 *
 Copyright
 2003
-2004
+-
 2005
+2011
+-
+2012
 by
 *
 /
@@ -288,10 +291,10 @@ fully
 /
 #
 ifndef
-__AF_LOADER_H__
+__AFLOADER_H__
 #
 define
-__AF_LOADER_H__
+__AFLOADER_H__
 #
 include
 "
@@ -423,7 +426,7 @@ FT_Face
 face
 FT_UInt
 gindex
-FT_UInt32
+FT_Int32
 load_flags
 )
 ;
@@ -436,7 +439,7 @@ FT_END_HEADER
 endif
 /
 *
-__AF_LOADER_H__
+__AFLOADER_H__
 *
 /
 /

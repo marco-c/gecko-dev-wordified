@@ -415,7 +415,7 @@ addr
 )
 (
 (
-FT_ULong
+FT_PtrDist
 )
 (
 FT_Pointer
@@ -1193,7 +1193,7 @@ next
 *
 pnode
 ;
-FT_ULong
+FT_PtrDist
 hash
 ;
 node
@@ -1887,7 +1887,7 @@ FT_Byte
 address
 )
 {
-FT_ULong
+FT_PtrDist
 hash
 ;
 FT_MemNode

@@ -110,9 +110,8 @@ specification
 Copyright
 1996
 -
-2001
-2002
 2003
+2011
 by
 *
 /
@@ -469,6 +468,16 @@ array_max
 FT_UInt
 count_offset
 ;
+#
+ifdef
+FT_DEBUG_LEVEL_TRACE
+const
+char
+*
+id
+;
+#
+endif
 }
 CFF_Field_Handler
 ;

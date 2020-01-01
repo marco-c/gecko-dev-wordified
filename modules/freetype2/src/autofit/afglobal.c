@@ -115,13 +115,8 @@ body
 *
 Copyright
 2003
-2004
-2005
-2006
-2007
-2008
-2009
-2010
+-
+2011
 by
 *
 /
@@ -370,6 +365,10 @@ t
 forget
 to
 update
+*
+/
+/
+*
 AF_SCRIPT_CLASSES_COUNT
 and
 autofit_module_class_pic_init
@@ -424,6 +423,7 @@ remove
 endif
 /
 *
+!
 FT_CONFIG_OPTION_PIC
 *
 /
@@ -597,7 +597,7 @@ i
 *
 the
 value
-255
+AF_SCRIPT_LIST_NONE
 means
 uncovered
 glyph
@@ -804,7 +804,6 @@ gindex
 =
 AF_SCRIPT_LIST_NONE
 )
-{
 gscripts
 [
 gindex
@@ -815,7 +814,6 @@ FT_Byte
 )
 ss
 ;
-}
 for
 (
 ;
@@ -870,7 +868,6 @@ gindex
 =
 AF_SCRIPT_LIST_NONE
 )
-{
 gscripts
 [
 gindex
@@ -881,7 +878,6 @@ FT_Byte
 )
 ss
 ;
-}
 }
 }
 }

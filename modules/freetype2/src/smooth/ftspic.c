@@ -304,6 +304,13 @@ ftspic
 h
 "
 #
+include
+"
+ftsmerrs
+.
+h
+"
+#
 ifdef
 FT_CONFIG_OPTION_PIC
 /
@@ -325,6 +332,7 @@ FT_Init_Class_ft_grays_raster
 (
 FT_Raster_Funcs
 *
+funcs
 )
 ;
 void

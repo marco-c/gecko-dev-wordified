@@ -113,6 +113,7 @@ Copyright
 2003
 2006
 2007
+2011
 by
 Roberto
 Alameda
@@ -398,7 +399,7 @@ T42_Face_Init
 (
 FT_Stream
 stream
-T42_Face
+FT_Face
 face
 FT_Int
 face_index
@@ -415,7 +416,7 @@ void
 )
 T42_Face_Done
 (
-T42_Face
+FT_Face
 face
 )
 ;
@@ -425,7 +426,7 @@ FT_Error
 )
 T42_Size_Init
 (
-T42_Size
+FT_Size
 size
 )
 ;
@@ -435,7 +436,7 @@ FT_Error
 )
 T42_Size_Request
 (
-T42_Size
+FT_Size
 size
 FT_Size_Request
 req
@@ -447,7 +448,7 @@ FT_Error
 )
 T42_Size_Select
 (
-T42_Size
+FT_Size
 size
 FT_ULong
 strike_index
@@ -459,7 +460,7 @@ void
 )
 T42_Size_Done
 (
-T42_Size
+FT_Size
 size
 )
 ;
@@ -469,7 +470,7 @@ FT_Error
 )
 T42_GlyphSlot_Init
 (
-T42_GlyphSlot
+FT_GlyphSlot
 slot
 )
 ;
@@ -495,7 +496,7 @@ void
 )
 T42_GlyphSlot_Done
 (
-T42_GlyphSlot
+FT_GlyphSlot
 slot
 )
 ;
@@ -505,8 +506,8 @@ FT_Error
 )
 T42_Driver_Init
 (
-T42_Driver
-driver
+FT_Module
+module
 )
 ;
 FT_LOCAL
@@ -515,8 +516,8 @@ void
 )
 T42_Driver_Done
 (
-T42_Driver
-driver
+FT_Module
+module
 )
 ;
 /

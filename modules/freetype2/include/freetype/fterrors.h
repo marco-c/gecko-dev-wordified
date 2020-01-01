@@ -2010,9 +2010,6 @@ undef
 FT_NEED_EXTERN_C
 #
 undef
-FT_ERR_CONCAT
-#
-undef
 FT_ERR_BASE
 /
 *
@@ -2031,6 +2028,11 @@ FT_KEEP_ERR_PREFIX
 #
 undef
 FT_ERR_PREFIX
+#
+else
+#
+undef
+FT_KEEP_ERR_PREFIX
 #
 endif
 #

@@ -123,6 +123,7 @@ Copyright
 /
 *
 2010
+2011
 by
 *
 /
@@ -318,6 +319,9 @@ h
 #
 include
 FT_INTERNAL_MEMORY_H
+#
+include
+FT_INTERNAL_OBJECTS_H
 #
 include
 FT_INTERNAL_DEBUG_H
@@ -699,7 +703,7 @@ charcode
 )
 \
 (
-FTC_FACE_ID_HASH
+_FTC_FACE_ID_HASH
 (
 faceid
 )
@@ -1502,6 +1506,9 @@ FT_Pointer
 ftcquery
 FTC_Cache
 cache
+FT_Bool
+*
+list_changed
 )
 {
 FTC_CMapNode
@@ -1524,6 +1531,15 @@ FT_UNUSED
 (
 cache
 )
+;
+if
+(
+list_changed
+)
+*
+list_changed
+=
+FALSE
 ;
 if
 (
@@ -1594,6 +1610,9 @@ FT_Pointer
 ftcface_id
 FTC_Cache
 cache
+FT_Bool
+*
+list_changed
 )
 {
 FTC_CMapNode
@@ -1616,6 +1635,15 @@ FT_UNUSED
 (
 cache
 )
+;
+if
+(
+list_changed
+)
+*
+list_changed
+=
+FALSE
 ;
 return
 FT_BOOL
@@ -2146,7 +2174,7 @@ gindex
 =
 0
 ;
-FT_UInt32
+FT_PtrDist
 hash
 ;
 FT_Int

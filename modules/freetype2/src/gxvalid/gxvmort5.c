@@ -1002,6 +1002,18 @@ EntryTable
 )
 )
 ;
+#
+ifndef
+GXV_LOAD_TRACE_VARS
+GXV_LIMIT_CHECK
+(
+count
+*
+2
+)
+;
+#
+else
 while
 (
 p
@@ -1055,6 +1067,8 @@ n
 )
 )
 ;
+#
+endif
 }
 static
 void
@@ -1074,6 +1088,9 @@ GXV_Validator
 valid
 )
 {
+#
+ifdef
+GXV_LOAD_UNUSED_VARS
 FT_Bool
 setMark
 ;
@@ -1092,6 +1109,8 @@ currentInsertBefore
 FT_Bool
 markedInsertBefore
 ;
+#
+endif
 FT_Byte
 currentInsertCount
 ;
@@ -1109,6 +1128,9 @@ FT_UNUSED
 state
 )
 ;
+#
+ifdef
+GXV_LOAD_UNUSED_VARS
 setMark
 =
 FT_BOOL
@@ -1193,6 +1215,8 @@ flags
 1
 )
 ;
+#
+endif
 currentInsertCount
 =
 (

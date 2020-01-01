@@ -89,8 +89,8 @@ Turner
 2005
 2006
 2008
-2009
-2010
+-
+2012
 *
 *
 This
@@ -292,10 +292,13 @@ char
 end
 )
 {
+unsigned
+int
+h
+;
 int
 nn
 len
-h
 ;
 Name
 nm
