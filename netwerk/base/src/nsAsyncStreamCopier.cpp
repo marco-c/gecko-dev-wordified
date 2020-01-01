@@ -1702,6 +1702,13 @@ NS_ADDREF_THIS
 (
 )
 ;
+{
+nsAutoLock
+lock
+(
+mLock
+)
+;
 rv
 =
 NS_AsyncCopy
@@ -1721,6 +1728,7 @@ mCopierCtx
 )
 )
 ;
+}
 if
 (
 NS_FAILED
