@@ -3504,10 +3504,10 @@ OnIdle
 )
 ;
 PRInt64
-mTagRoot
+mTagsFolder
 ;
 PRInt64
-GetTagRoot
+GetTagsFolder
 (
 )
 ;

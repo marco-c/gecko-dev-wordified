@@ -788,11 +788,6 @@ InitDefaults
 )
 ;
 nsresult
-InitToolbarFolder
-(
-)
-;
-nsresult
 CreateRoot
 (
 mozIStorageStatement
@@ -1066,12 +1061,6 @@ PRBool
 aIsBookmarked
 )
 ;
-nsCOMPtr
-<
-mozIStorageStatement
->
-mDBGetChildren
-;
 /
 /
 kGetInfoIndex_
@@ -1081,6 +1070,12 @@ results
 kGetChildrenIndex_
 *
 results
+nsCOMPtr
+<
+mozIStorageStatement
+>
+mDBGetChildren
+;
 static
 const
 PRInt32

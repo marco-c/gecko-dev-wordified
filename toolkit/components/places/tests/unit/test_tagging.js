@@ -654,7 +654,7 @@ setFolders
 [
 bmsvc
 .
-tagRoot
+tagsFolder
 ]
 1
 )

@@ -1379,7 +1379,7 @@ setFolders
 [
 bmsvc
 .
-bookmarksRoot
+bookmarksMenuFolder
 ]
 1
 )
@@ -1446,7 +1446,7 @@ insertBookmark
 (
 bmsvc
 .
-bookmarksRoot
+bookmarksMenuFolder
 testURI
 bmsvc
 .
@@ -1552,7 +1552,7 @@ insertBookmark
 (
 bmsvc
 .
-bookmarksRoot
+bookmarksMenuFolder
 uri
 (
 "

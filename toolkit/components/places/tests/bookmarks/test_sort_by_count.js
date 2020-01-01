@@ -563,14 +563,15 @@ n
 /
 get
 bookmarks
-root
+menu
+folder
 id
 var
 testRoot
 =
 bmsvc
 .
-bookmarksRoot
+bookmarksMenuFolder
 ;
 /
 /

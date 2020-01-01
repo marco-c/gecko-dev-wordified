@@ -874,10 +874,6 @@ mShowSessions
 (
 PR_FALSE
 )
-mResolveNullBookmarkTitles
-(
-PR_FALSE
-)
 mApplyOptionsToContainers
 (
 PR_FALSE
@@ -1010,16 +1006,6 @@ const
 {
 return
 mShowSessions
-;
-}
-PRBool
-ResolveNullBookmarkTitles
-(
-)
-const
-{
-return
-mResolveNullBookmarkTitles
 ;
 }
 PRBool
@@ -1207,9 +1193,6 @@ mIncludeHidden
 ;
 PRPackedBool
 mShowSessions
-;
-PRPackedBool
-mResolveNullBookmarkTitles
 ;
 PRPackedBool
 mApplyOptionsToContainers

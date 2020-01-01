@@ -8539,7 +8539,7 @@ this
 browser
 PlacesUtils
 .
-bookmarksRootId
+bookmarksMenuFolderId
 true
 )
 ;
@@ -8561,7 +8561,7 @@ bookmarkLink
 (
 PlacesUtils
 .
-bookmarksRootId
+bookmarksMenuFolderId
 this
 .
 linkURL
