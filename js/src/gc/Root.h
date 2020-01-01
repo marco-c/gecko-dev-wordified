@@ -1700,6 +1700,11 @@ JSObject
 *
 RawObject
 ;
+typedef
+JSString
+*
+RawString
+;
 /
 *
 *
