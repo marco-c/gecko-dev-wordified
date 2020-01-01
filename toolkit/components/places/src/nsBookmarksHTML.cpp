@@ -4528,7 +4528,7 @@ NS_ConvertUTF16toUTF8
 (
 node
 .
-GetKeyAt
+GetValueAt
 (
 i
 )
@@ -7710,6 +7710,9 @@ get
 )
 4
 )
+=
+=
+0
 )
 return
 intId
