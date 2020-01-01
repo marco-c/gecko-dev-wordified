@@ -701,14 +701,14 @@ mDllInstance
 =
 hModule
 ;
-nsUXThemeData
+WinUtils
 :
 :
 Initialize
 (
 )
 ;
-WinUtils
+nsUXThemeData
 :
 :
 Initialize
