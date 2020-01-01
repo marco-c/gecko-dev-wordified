@@ -76,7 +76,7 @@ chrome
 )
 ;
 let
-Promise
+promise
 =
 require
 (
@@ -390,7 +390,7 @@ function
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

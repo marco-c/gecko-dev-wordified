@@ -303,7 +303,7 @@ function
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

@@ -205,7 +205,7 @@ setupGlobals
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -247,7 +247,7 @@ testProfilerStart
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -403,7 +403,7 @@ testProfilerStop
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -505,7 +505,7 @@ testProfilerShow
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -598,7 +598,7 @@ testProfilerClose
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -753,7 +753,7 @@ info
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

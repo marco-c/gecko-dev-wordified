@@ -71,7 +71,7 @@ sync
 *
 /
 var
-Promise
+promise
 =
 Cu
 .
@@ -2392,7 +2392,7 @@ data
 var
 d
 =
-Promise
+promise
 .
 defer
 (

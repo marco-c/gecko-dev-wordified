@@ -123,7 +123,7 @@ options
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

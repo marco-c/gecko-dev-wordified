@@ -81,7 +81,7 @@ MAX_ORDINAL
 99
 ;
 let
-Promise
+promise
 =
 require
 (
@@ -1307,7 +1307,7 @@ TBOX_open
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -2996,7 +2996,7 @@ id
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -3259,7 +3259,7 @@ contentWindow
 this
 )
 ;
-Promise
+promise
 .
 resolve
 (
@@ -3489,7 +3489,7 @@ return
 value
 .
 return
-Promise
+promise
 .
 resolve
 (
@@ -5000,7 +5000,7 @@ once
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -5299,7 +5299,7 @@ _target
 =
 null
 ;
-Promise
+promise
 .
 all
 (

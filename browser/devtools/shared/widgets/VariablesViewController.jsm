@@ -170,6 +170,9 @@ jsm
 "
 )
 ;
+let
+promise
+=
 Cu
 .
 import
@@ -194,6 +197,8 @@ promise
 js
 "
 )
+.
+Promise
 ;
 Cu
 .
@@ -698,7 +703,7 @@ aGrip
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -905,7 +910,7 @@ aGrip
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -1679,7 +1684,7 @@ _fetched
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

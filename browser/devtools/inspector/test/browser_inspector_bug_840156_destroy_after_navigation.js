@@ -29,7 +29,7 @@ zero
 *
 /
 let
-Promise
+promise
 =
 devtools
 .
@@ -147,7 +147,7 @@ selectedTab
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -281,7 +281,7 @@ function
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

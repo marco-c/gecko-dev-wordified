@@ -403,7 +403,7 @@ toolbox
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

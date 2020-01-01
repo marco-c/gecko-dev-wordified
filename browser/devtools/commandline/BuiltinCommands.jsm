@@ -177,6 +177,9 @@ jsm
 "
 )
 ;
+let
+promise
+=
 Cu
 .
 import
@@ -201,6 +204,8 @@ promise
 js
 "
 )
+.
+Promise
 ;
 Cu
 .
@@ -4511,7 +4516,7 @@ dirName
 ;
 }
 let
-promise
+statPromise
 =
 OS
 .
@@ -4522,9 +4527,9 @@ stat
 dirName
 )
 ;
-promise
+statPromise
 =
-promise
+statPromise
 .
 then
 (
@@ -4625,7 +4630,7 @@ reason
 }
 )
 ;
-promise
+statPromise
 .
 then
 (
@@ -4808,7 +4813,7 @@ aSandboxPrincipal
 )
 {
 let
-promise
+readPromise
 =
 OS
 .
@@ -4821,9 +4826,9 @@ aFileEntry
 path
 )
 ;
-promise
+readPromise
 =
-promise
+readPromise
 .
 then
 (

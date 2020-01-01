@@ -109,7 +109,7 @@ emitter
 )
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -836,7 +836,7 @@ this
 target
 ;
 let
-promise
+targetPromise
 =
 !
 target
@@ -849,7 +849,7 @@ makeRemote
 (
 )
 :
-Promise
+promise
 .
 resolve
 (
@@ -857,7 +857,7 @@ target
 )
 ;
 return
-promise
+targetPromise
 .
 then
 (
@@ -870,7 +870,7 @@ target
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

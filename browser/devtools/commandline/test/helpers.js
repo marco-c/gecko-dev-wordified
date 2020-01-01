@@ -388,7 +388,7 @@ devtools
 TargetFactory
 ;
 let
-Promise
+promise
 =
 (
 Cu
@@ -754,7 +754,7 @@ options
 var
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -949,7 +949,7 @@ callback
 options
 )
 ;
-Promise
+promise
 .
 resolve
 (
@@ -1093,7 +1093,7 @@ chromeWindow
 var
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -1156,7 +1156,7 @@ callback
 innerOptions
 )
 ;
-Promise
+promise
 .
 resolve
 (
@@ -1396,7 +1396,7 @@ setup
 null
 )
 ?
-Promise
+promise
 .
 resolve
 (
@@ -1408,7 +1408,7 @@ options
 )
 )
 :
-Promise
+promise
 .
 resolve
 (
@@ -1473,7 +1473,7 @@ options
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (
@@ -1503,7 +1503,7 @@ action
 ;
 }
 return
-Promise
+promise
 .
 reject
 (
@@ -1564,7 +1564,7 @@ shutdown
 null
 )
 ?
-Promise
+promise
 .
 resolve
 (
@@ -1576,7 +1576,7 @@ options
 )
 )
 :
-Promise
+promise
 .
 resolve
 (
@@ -1889,7 +1889,7 @@ replace
 var
 promisedJoin
 =
-Promise
+promise
 .
 promised
 (
@@ -2516,7 +2516,7 @@ options
 )
 ;
 return
-Promise
+promise
 .
 all
 (
@@ -3836,7 +3836,7 @@ options
 )
 ;
 var
-promise
+inputPromise
 =
 undefined
 ;
@@ -3911,7 +3911,7 @@ indexOf
 1
 )
 {
-promise
+inputPromise
 =
 inputter
 .
@@ -4004,7 +4004,7 @@ first
 clear
 the
 input
-promise
+inputPromise
 =
 inputter
 .
@@ -4141,7 +4141,7 @@ chunk
 ;
 }
 return
-promise
+inputPromise
 .
 then
 (
@@ -4398,7 +4398,7 @@ null
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -5531,7 +5531,7 @@ suffix
 ;
 }
 return
-Promise
+promise
 .
 all
 (
@@ -5650,7 +5650,7 @@ null
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -5718,7 +5718,7 @@ ex
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (
@@ -5792,7 +5792,7 @@ name
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (
@@ -5817,7 +5817,7 @@ expected
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -6203,7 +6203,7 @@ function
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -6214,7 +6214,7 @@ action
 ;
 }
 return
-Promise
+promise
 .
 reject
 (
@@ -6276,7 +6276,7 @@ function
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -6293,7 +6293,7 @@ text
 ;
 }
 return
-Promise
+promise
 .
 resolve
 (
@@ -7393,7 +7393,7 @@ reason
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (
@@ -7482,7 +7482,7 @@ skipReason
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (
@@ -7516,7 +7516,7 @@ skipReason
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (

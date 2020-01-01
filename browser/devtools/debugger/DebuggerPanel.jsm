@@ -194,7 +194,7 @@ defineLazyModuleGetter
 (
 this
 "
-Promise
+promise
 "
 "
 resource
@@ -214,6 +214,9 @@ core
 promise
 .
 js
+"
+"
+Promise
 "
 )
 ;
@@ -336,7 +339,7 @@ return
 object
 *
 A
-Promise
+promise
 that
 is
 resolved
@@ -356,7 +359,7 @@ DebuggerPanel_open
 )
 {
 let
-promise
+targetPromise
 ;
 /
 /
@@ -379,7 +382,7 @@ target
 isRemote
 )
 {
-promise
+targetPromise
 =
 this
 .
@@ -392,9 +395,9 @@ makeRemote
 }
 else
 {
-promise
+targetPromise
 =
-Promise
+promise
 .
 resolve
 (
@@ -405,7 +408,7 @@ target
 ;
 }
 return
-promise
+targetPromise
 .
 then
 (
@@ -595,7 +598,7 @@ destroyed
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (

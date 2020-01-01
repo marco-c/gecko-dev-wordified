@@ -170,6 +170,9 @@ jsm
 "
 )
 ;
+let
+promise
+=
 Cu
 .
 import
@@ -194,6 +197,8 @@ promise
 js
 "
 )
+.
+Promise
 ;
 Cu
 .
@@ -494,7 +499,7 @@ this
 .
 _startup
 =
-Promise
+promise
 .
 resolve
 (
@@ -595,7 +600,7 @@ this
 .
 _shutdown
 =
-Promise
+promise
 .
 resolve
 (
@@ -664,7 +669,7 @@ _connection
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -2984,7 +2989,7 @@ longString
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -3033,7 +3038,7 @@ aStringGrip
 .
 _fullText
 =
-Promise
+promise
 .
 defer
 (

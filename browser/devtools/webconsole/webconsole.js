@@ -300,7 +300,7 @@ defineLazyModuleGetter
 (
 this
 "
-Promise
+promise
 "
 "
 resource
@@ -320,6 +320,9 @@ core
 promise
 .
 js
+"
+"
+Promise
 "
 )
 ;
@@ -1710,7 +1713,7 @@ mainPopupSet
 Holds
 the
 initialization
-Promise
+promise
 object
 .
 *
@@ -2178,7 +2181,7 @@ WCF_getSaveRequestAndResponseBodies
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -2313,7 +2316,7 @@ aValue
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -2452,7 +2455,7 @@ return
 object
 *
 A
-Promise
+promise
 object
 for
 the
@@ -2503,7 +2506,7 @@ return
 object
 *
 A
-Promise
+promise
 object
 that
 is
@@ -2545,7 +2548,7 @@ this
 .
 _initDefer
 =
-Promise
+promise
 .
 defer
 (
@@ -16816,7 +16819,7 @@ return
 object
 *
 A
-Promise
+promise
 that
 is
 resolved
@@ -16856,7 +16859,7 @@ this
 .
 _destroyer
 =
-Promise
+promise
 .
 defer
 (
@@ -19043,7 +19046,7 @@ return
 object
 *
 A
-Promise
+promise
 object
 that
 is
@@ -19073,7 +19076,7 @@ aOptions
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -19462,7 +19465,7 @@ return
 object
 *
 A
-Promise
+promise
 object
 that
 is
@@ -19641,7 +19644,7 @@ view
 }
 ;
 let
-promise
+openPromise
 ;
 if
 (
@@ -19653,13 +19656,13 @@ targetElement
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
 )
 ;
-promise
+openPromise
 =
 deferred
 .
@@ -19766,7 +19769,7 @@ _createSidebar
 )
 ;
 }
-promise
+openPromise
 =
 this
 .
@@ -19776,7 +19779,7 @@ _addVariablesViewSidebarTab
 ;
 }
 return
-promise
+openPromise
 .
 then
 (
@@ -19896,7 +19899,7 @@ return
 object
 *
 A
-Promise
+promise
 object
 for
 the
@@ -19918,7 +19921,7 @@ JST__addVariablesViewSidebarTab
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -27853,7 +27856,7 @@ return
 object
 *
 A
-Promise
+promise
 object
 that
 is
@@ -27898,7 +27901,7 @@ this
 .
 _connectDefer
 =
-Promise
+promise
 .
 defer
 (
@@ -27958,7 +27961,7 @@ TYPE_ONE_SHOT
 )
 ;
 let
-promise
+connPromise
 =
 this
 .
@@ -27966,7 +27969,7 @@ _connectDefer
 .
 promise
 ;
-promise
+connPromise
 .
 then
 (
@@ -28194,7 +28197,7 @@ _attachConsole
 )
 ;
 return
-promise
+connPromise
 ;
 }
 /
@@ -28538,7 +28541,7 @@ This
 happens
 if
 the
-Promise
+promise
 is
 rejected
 (
@@ -29444,7 +29447,7 @@ return
 object
 *
 A
-Promise
+promise
 object
 that
 is
@@ -29481,7 +29484,7 @@ this
 .
 _disconnecter
 =
-Promise
+promise
 .
 defer
 (

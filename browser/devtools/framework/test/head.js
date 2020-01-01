@@ -129,7 +129,7 @@ tempScope
 )
 ;
 let
-Promise
+promise
 =
 tempScope
 .
@@ -230,7 +230,7 @@ aURL
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

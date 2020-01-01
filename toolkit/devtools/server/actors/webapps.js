@@ -263,6 +263,9 @@ jsm
 '
 )
 ;
+let
+promise
+=
 Cu
 .
 import
@@ -287,6 +290,8 @@ promise
 js
 "
 )
+.
+Promise
 ;
 }
 WebappsActor
@@ -1970,7 +1975,7 @@ getAll
 let
 defer
 =
-Promise
+promise
 .
 defer
 (
@@ -2059,7 +2064,7 @@ manifestURL
 let
 defer
 =
-Promise
+promise
 .
 defer
 (
@@ -2163,7 +2168,7 @@ manifestURL
 let
 defer
 =
-Promise
+promise
 .
 defer
 (

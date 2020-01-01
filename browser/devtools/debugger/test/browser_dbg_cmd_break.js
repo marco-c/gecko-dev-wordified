@@ -226,7 +226,7 @@ function
 var
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -701,7 +701,7 @@ resume
 var
 deferred
 =
-Promise
+promise
 .
 defer
 (

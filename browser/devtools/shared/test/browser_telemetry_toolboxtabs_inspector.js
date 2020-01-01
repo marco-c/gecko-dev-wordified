@@ -96,6 +96,8 @@ TOOL_DELAY
 let
 {
 Promise
+:
+promise
 }
 =
 Cu
@@ -751,7 +753,7 @@ TargetFactory
 =
 Services
 =
-Promise
+promise
 =
 require
 =

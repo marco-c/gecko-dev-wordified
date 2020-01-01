@@ -309,7 +309,7 @@ defineLazyModuleGetter
 (
 this
 "
-Promise
+promise
 "
 "
 resource
@@ -329,6 +329,9 @@ core
 promise
 .
 js
+"
+"
+Promise
 "
 )
 ;
@@ -717,7 +720,7 @@ return
 object
 *
 A
-Promise
+promise
 object
 for
 the
@@ -848,7 +851,7 @@ return
 object
 *
 A
-Promise
+promise
 object
 for
 the
@@ -1544,7 +1547,7 @@ return
 object
 *
 A
-Promise
+promise
 for
 the
 initialization
@@ -2684,7 +2687,7 @@ return
 object
 *
 A
-Promise
+promise
 object
 that
 is
@@ -2734,7 +2737,7 @@ this
 .
 _destroyer
 =
-Promise
+promise
 .
 defer
 (
@@ -3117,7 +3120,7 @@ return
 object
 *
 A
-Promise
+promise
 for
 the
 initialization
@@ -3292,7 +3295,7 @@ return
 object
 *
 A
-Promise
+promise
 object
 that
 is
@@ -3343,7 +3346,7 @@ this
 .
 _bc_destroyer
 =
-Promise
+promise
 .
 defer
 (
@@ -3597,7 +3600,7 @@ return
 object
 *
 A
-Promise
+promise
 for
 either
 the
@@ -3613,7 +3616,7 @@ Web
 Console
 or
 a
-Promise
+promise
 for
 the
 closing
@@ -3894,7 +3897,7 @@ this
 .
 _browserConsoleDefer
 =
-Promise
+promise
 .
 defer
 (
@@ -3908,7 +3911,7 @@ connect
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -4135,7 +4138,7 @@ aTarget
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

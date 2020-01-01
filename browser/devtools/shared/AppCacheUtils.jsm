@@ -289,6 +289,8 @@ jsm
 let
 {
 Promise
+:
+promise
 }
 =
 Cu
@@ -420,7 +422,7 @@ ACU_validateManifest
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -582,7 +584,7 @@ uriInfo
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -1323,7 +1325,7 @@ nsIScriptableInputStream
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -2131,7 +2133,7 @@ ACU__getManifestURI
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -2240,7 +2242,7 @@ doc
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (

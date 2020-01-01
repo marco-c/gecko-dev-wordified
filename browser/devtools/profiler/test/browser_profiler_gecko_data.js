@@ -150,7 +150,7 @@ recordProfile
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

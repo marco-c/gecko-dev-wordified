@@ -227,6 +227,9 @@ jsm
 "
 )
 ;
+let
+promise
+=
 Cu
 .
 import
@@ -251,6 +254,8 @@ promise
 js
 "
 )
+.
+Promise
 ;
 const
 {
@@ -259,7 +264,7 @@ resolve
 reject
 }
 =
-Promise
+promise
 ;
 XPCOMUtils
 .

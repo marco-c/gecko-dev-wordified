@@ -1409,7 +1409,7 @@ flash
 ;
 }
 return
-Promise
+promise
 .
 resolve
 (

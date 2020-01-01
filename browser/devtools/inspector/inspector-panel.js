@@ -149,7 +149,7 @@ jsm
 )
 ;
 let
-Promise
+promise
 =
 require
 (
@@ -595,7 +595,7 @@ defaultSelection
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -2881,7 +2881,7 @@ this
 .
 _destroyPromise
 =
-Promise
+promise
 .
 resolve
 (

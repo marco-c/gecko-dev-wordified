@@ -252,7 +252,7 @@ options
 var
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -504,7 +504,7 @@ event
 var
 deferred
 =
-Promise
+promise
 .
 defer
 (

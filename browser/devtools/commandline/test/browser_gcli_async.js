@@ -194,7 +194,7 @@ canon
 )
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -224,7 +224,7 @@ function
 var
 deferred
 =
-Promise
+promise
 .
 defer
 (

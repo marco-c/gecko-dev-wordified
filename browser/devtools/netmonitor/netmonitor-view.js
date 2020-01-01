@@ -1120,7 +1120,7 @@ return
 object
 *
 A
-Promise
+promise
 that
 is
 resolved
@@ -1178,7 +1178,7 @@ aId
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

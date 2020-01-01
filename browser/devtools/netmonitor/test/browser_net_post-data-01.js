@@ -1328,7 +1328,7 @@ incorrect
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (

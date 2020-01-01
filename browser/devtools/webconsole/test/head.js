@@ -226,7 +226,7 @@ tempScope
 console
 ;
 let
-Promise
+promise
 =
 Cu
 .
@@ -259,7 +259,7 @@ Promise
 ;
 /
 /
-Promise
+promise
 .
 _reportErrors
 =
@@ -2569,7 +2569,7 @@ return
 object
 *
 A
-Promise
+promise
 object
 that
 is
@@ -2814,7 +2814,7 @@ the
 results
 -
 a
-Promise
+promise
 resolved
 to
 hold
@@ -2835,7 +2835,7 @@ aRules
 )
 ;
 return
-Promise
+promise
 .
 all
 (
@@ -2961,7 +2961,7 @@ rule
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -2972,7 +2972,7 @@ null
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -3086,7 +3086,7 @@ onFailure
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -3327,7 +3327,7 @@ return
 object
 *
 A
-Promise
+promise
 that
 is
 resolved
@@ -3374,7 +3374,7 @@ aResult
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -3756,7 +3756,7 @@ outstanding
 .
 push
 (
-Promise
+promise
 .
 resolve
 (
@@ -3765,7 +3765,7 @@ true
 )
 ;
 return
-Promise
+promise
 .
 all
 (
@@ -3850,7 +3850,7 @@ return
 object
 *
 A
-Promise
+promise
 that
 is
 resolved
@@ -3902,7 +3902,7 @@ Iterator
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -3913,7 +3913,7 @@ true
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -4082,7 +4082,7 @@ return
 object
 *
 A
-Promise
+promise
 that
 is
 resolved
@@ -4177,7 +4177,7 @@ jsterm
 let
 lastDeferred
 =
-Promise
+promise
 .
 defer
 (
@@ -4219,7 +4219,7 @@ onexpand
 )
 ;
 return
-Promise
+promise
 .
 reject
 (
@@ -4230,7 +4230,7 @@ aProp
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -4822,7 +4822,7 @@ return
 object
 *
 A
-Promise
+promise
 that
 is
 resolved
@@ -4925,7 +4925,7 @@ selectedTab
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -5588,7 +5588,7 @@ return
 object
 *
 A
-Promise
+promise
 object
 is
 returned
@@ -5769,7 +5769,7 @@ false
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

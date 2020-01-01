@@ -74,7 +74,7 @@ test
 let
 windowClosed
 =
-Promise
+promise
 .
 defer
 (

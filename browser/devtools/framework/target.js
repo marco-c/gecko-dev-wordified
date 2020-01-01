@@ -76,7 +76,7 @@ chrome
 )
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -398,7 +398,7 @@ options
 )
 {
 let
-promise
+targetPromise
 =
 promiseTargets
 .
@@ -409,7 +409,7 @@ options
 ;
 if
 (
-promise
+targetPromise
 =
 =
 null
@@ -424,7 +424,7 @@ TabTarget
 options
 )
 ;
-promise
+targetPromise
 =
 target
 .
@@ -446,12 +446,12 @@ promiseTargets
 set
 (
 options
-promise
+targetPromise
 )
 ;
 }
 return
-promise
+targetPromise
 ;
 }
 /
@@ -1854,7 +1854,7 @@ this
 .
 _remote
 =
-Promise
+promise
 .
 defer
 (
@@ -2636,7 +2636,7 @@ this
 .
 _destroyer
 =
-Promise
+promise
 .
 defer
 (
@@ -3802,7 +3802,7 @@ null
 ;
 }
 return
-Promise
+promise
 .
 resolve
 (
