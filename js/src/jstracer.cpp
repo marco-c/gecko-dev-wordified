@@ -62250,6 +62250,8 @@ toNumber
 (
 )
 ;
+CHECK_STATUS
+(
 guard
 (
 true
@@ -62286,6 +62288,7 @@ abortIfAlwaysExits
 *
 /
 true
+)
 )
 ;
 }
