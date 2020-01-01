@@ -39430,11 +39430,10 @@ isBlock
 ;
 if
 (
-!
 obj
 -
 >
-getParent
+isGlobal
 (
 )
 &
