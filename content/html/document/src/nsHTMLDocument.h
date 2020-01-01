@@ -1230,6 +1230,14 @@ PRInt32
 aChange
 )
 ;
+void
+DeferredContentEditableCountChange
+(
+nsIContent
+*
+aElement
+)
+;
 virtual
 EditingState
 GetEditingState
