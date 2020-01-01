@@ -851,9 +851,6 @@ nsEvent
 aEvent
 )
 ;
-#
-ifdef
-MOZ_MEDIA
 nsresult
 NS_NewDOMProgressEvent
 (
@@ -870,11 +867,6 @@ nsEvent
 aEvent
 )
 ;
-#
-endif
-/
-/
-MOZ_MEDIA
 #
 endif
 /

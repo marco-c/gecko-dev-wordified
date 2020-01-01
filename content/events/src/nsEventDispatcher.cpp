@@ -3990,9 +3990,6 @@ aPresContext
 nsnull
 )
 ;
-#
-ifdef
-MOZ_MEDIA
 if
 (
 aEventType
@@ -4012,11 +4009,6 @@ aPresContext
 nsnull
 )
 ;
-#
-endif
-/
-/
-MOZ_MEDIA
 return
 NS_ERROR_DOM_NOT_SUPPORTED_ERR
 ;
