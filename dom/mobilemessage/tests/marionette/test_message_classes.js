@@ -557,7 +557,7 @@ not
 stored
 .
 let
-cursor
+request
 =
 sms
 .
@@ -567,7 +567,7 @@ null
 false
 )
 ;
-cursor
+request
 .
 onsuccess
 =
@@ -576,11 +576,18 @@ onsuccess
 (
 )
 {
+let
+cursor
+=
+request
+.
+result
+;
 if
 (
 cursor
 .
-result
+message
 )
 {
 /
@@ -602,7 +609,7 @@ isnot
 (
 cursor
 .
-result
+message
 .
 sender
 message
@@ -611,7 +618,7 @@ sender
 "
 cursor
 .
-result
+message
 .
 sender
 "
@@ -676,7 +683,7 @@ dcsIndex
 }
 }
 ;
-cursor
+request
 .
 onerror
 =
