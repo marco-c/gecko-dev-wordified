@@ -6232,7 +6232,7 @@ aInitData
 >
 mWindowType
 ;
-mBorerStyle
+mBorderStyle
 =
 aInitData
 -
