@@ -17011,7 +17011,7 @@ decode
 If
 aIntent
 is
-eShutdownIntent_Interrupted
+eShutdownIntent_NotNeeded
 we
 don
 '
@@ -18272,7 +18272,7 @@ rv
 =
 ShutdownDecoder
 (
-eShutdownIntent_Interrupted
+eShutdownIntent_NotNeeded
 )
 ;
 CONTAINER_ENSURE_SUCCESS
@@ -18746,7 +18746,7 @@ rv
 =
 ShutdownDecoder
 (
-eShutdownIntent_Interrupted
+eShutdownIntent_NotNeeded
 )
 ;
 CONTAINER_ENSURE_SUCCESS
@@ -21019,7 +21019,7 @@ this
 ;
 ShutdownDecoder
 (
-eShutdownIntent_Interrupted
+eShutdownIntent_NotNeeded
 )
 ;
 ForceDiscard
