@@ -2228,10 +2228,6 @@ nsStyleBackground
 Layer
 &
 aLayer
-const
-nsStyleBorder
-&
-aBorder
 )
 ;
 static
@@ -10976,7 +10972,6 @@ aBorderArea
 bgClipArea
 aBackground
 layer
-aBorder
 )
 ;
 }
@@ -11024,10 +11019,6 @@ nsStyleBackground
 Layer
 &
 aLayer
-const
-nsStyleBorder
-&
-aBorder
 )
 {
 /
