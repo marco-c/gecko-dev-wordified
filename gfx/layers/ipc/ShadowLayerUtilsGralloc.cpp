@@ -2033,7 +2033,7 @@ will
 work
 .
 #
-ifdef
+if
 ANDROID_VERSION
 <
 =
