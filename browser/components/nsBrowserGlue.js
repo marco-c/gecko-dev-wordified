@@ -3871,7 +3871,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 locale
 /
