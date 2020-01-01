@@ -3737,7 +3737,7 @@ for
 AnyRegisterIterator
 iter
 (
-allRegisters
+allRegisters_
 )
 ;
 iter
@@ -12478,7 +12478,7 @@ for
 AnyRegisterIterator
 regs
 (
-allRegisters
+allRegisters_
 )
 ;
 regs
@@ -13461,7 +13461,7 @@ for
 AnyRegisterIterator
 regs
 (
-allRegisters
+allRegisters_
 )
 ;
 regs

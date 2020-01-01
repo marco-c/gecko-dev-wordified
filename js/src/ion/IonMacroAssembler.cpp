@@ -3250,10 +3250,10 @@ FramePointer
 InvalidReg
 &
 &
-sps
+sps_
 &
 &
-sps
+sps_
 -
 >
 enabled

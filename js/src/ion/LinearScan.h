@@ -2970,7 +2970,7 @@ be
 considered
 allocateable
 RegisterSet
-allRegisters
+allRegisters_
 ;
 /
 /
@@ -3443,7 +3443,7 @@ graph
 (
 graph
 )
-allRegisters
+allRegisters_
 (
 RegisterSet
 :
@@ -3473,7 +3473,7 @@ instrumentedProfiling
 (
 )
 )
-allRegisters
+allRegisters_
 .
 take
 (
