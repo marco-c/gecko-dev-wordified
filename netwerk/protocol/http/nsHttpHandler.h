@@ -942,15 +942,6 @@ return
 mQoSBits
 ;
 }
-PRUint16
-GetIdleSynTimeout
-(
-)
-{
-return
-mIdleSynTimeout
-;
-}
 PRBool
 IsPersistentHttpsCachingEnabled
 (
@@ -1759,9 +1750,6 @@ mMaxRequestAttempts
 ;
 PRUint16
 mMaxRequestDelay
-;
-PRUint16
-mIdleSynTimeout
 ;
 PRUint16
 mMaxConnections
