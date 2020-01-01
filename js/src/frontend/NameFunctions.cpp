@@ -1198,7 +1198,7 @@ pn
 pn_funbox
 -
 >
-function
+fun
 (
 )
 ;
