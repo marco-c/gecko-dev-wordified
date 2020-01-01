@@ -3020,11 +3020,6 @@ IS_DELETED
 0
 )
 ;
-Uri
-contentUri
-=
-mBookmarksUriWithProfile
-;
 int
 updated
 =
@@ -3032,7 +3027,7 @@ cr
 .
 update
 (
-contentUri
+mBookmarksUriWithProfile
 values
 Bookmarks
 .
@@ -3078,7 +3073,7 @@ cr
 .
 insert
 (
-contentUri
+mBookmarksUriWithProfile
 values
 )
 ;
@@ -3164,7 +3159,7 @@ cr
 .
 update
 (
-contentUri
+mBookmarksUriWithProfile
 bumped
 where
 args
