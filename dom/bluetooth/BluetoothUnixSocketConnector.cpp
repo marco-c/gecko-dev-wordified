@@ -871,13 +871,15 @@ struct
 l2cap_options
 opts
 ;
-int
+socklen_t
 optlen
 =
 sizeof
 (
 opts
 )
+;
+int
 err
 ;
 err
