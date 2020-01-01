@@ -2159,14 +2159,6 @@ cursor
 cursor_end
 )
 {
-nsCSSProperty
-iProp
-=
-PropertyAtCursor
-(
-cursor
-)
-;
 NS_ABORT_IF_FALSE
 (
 !
@@ -2175,7 +2167,10 @@ nsCSSProps
 :
 IsShorthand
 (
-iProp
+PropertyAtCursor
+(
+cursor
+)
 )
 "
 out
@@ -2762,6 +2757,9 @@ iLow
 )
 continue
 ;
+#
+ifdef
+DEBUG
 nsCSSProperty
 iProp
 =
@@ -2774,6 +2772,8 @@ iHigh
 iLow
 )
 ;
+#
+endif
 NS_ABORT_IF_FALSE
 (
 !
