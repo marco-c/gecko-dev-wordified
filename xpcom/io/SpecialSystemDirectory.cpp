@@ -852,11 +852,10 @@ pointer
 .
 gShell32DLLInst
 =
-LoadLibraryW
+LoadLibrary
 (
-L
 "
-shell32
+Shell32
 .
 dll
 "

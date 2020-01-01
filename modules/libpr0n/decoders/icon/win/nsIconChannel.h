@@ -588,10 +588,10 @@ aLocalFile
 PRUint32
 *
 aDesiredImageSize
-nsCString
+nsACString
 &
 aContentType
-nsCString
+nsACString
 &
 aFileExtension
 )

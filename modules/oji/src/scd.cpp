@@ -905,11 +905,10 @@ DebugManager
 }
 sem
 =
-OpenSemaphoreW
+OpenSemaphore
 (
 SEMAPHORE_MODIFY_STATE
 FALSE
-L
 "
 Netscape
 -

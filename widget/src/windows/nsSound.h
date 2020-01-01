@@ -480,7 +480,7 @@ PurgeLastSound
 ;
 private
 :
-PRUnichar
+PRUint8
 *
 mLastSound
 ;

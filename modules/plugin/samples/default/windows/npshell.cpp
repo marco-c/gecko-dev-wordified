@@ -1076,7 +1076,7 @@ i
 {
 if
 (
-strcmpi
+lstrcmpi
 (
 argn
 [
@@ -1113,7 +1113,7 @@ i
 else
 if
 (
-strcmpi
+lstrcmpi
 (
 argn
 [
@@ -1150,7 +1150,7 @@ i
 else
 if
 (
-strcmpi
+lstrcmpi
 (
 argn
 [
@@ -1187,7 +1187,7 @@ i
 else
 if
 (
-strcmpi
+lstrcmpi
 (
 argn
 [
@@ -1224,7 +1224,7 @@ i
 else
 if
 (
-strcmpi
+lstrcmpi
 (
 argn
 [
@@ -1261,7 +1261,7 @@ i
 else
 if
 (
-strcmpi
+lstrcmpi
 (
 argn
 [
@@ -1287,7 +1287,7 @@ NULL
 bHidden
 =
 (
-strcmp
+lstrcmp
 (
 (
 char

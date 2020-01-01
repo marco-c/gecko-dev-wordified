@@ -1838,9 +1838,8 @@ module
 =
 :
 :
-LoadLibraryW
+LoadLibrary
 (
-L
 "
 DBGHELP
 .
@@ -1858,9 +1857,8 @@ module
 =
 :
 :
-LoadLibraryW
+LoadLibrary
 (
-L
 "
 IMAGEHLP
 .

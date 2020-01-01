@@ -439,13 +439,6 @@ prmem
 .
 h
 "
-#
-include
-<
-tchar
-.
-h
->
 NS_IMPL_ISUPPORTS1
 (
 nsBidiKeyboard
@@ -554,13 +547,13 @@ different
 from
 the
 current
-PRUnichar
+char
 currentLocaleName
 [
 KL_NAMELENGTH
 ]
 ;
-wcsncpy
+strncpy
 (
 currentLocaleName
 (
@@ -730,7 +723,7 @@ if
 !
 :
 :
-GetKeyboardLayoutNameW
+GetKeyboardLayoutName
 (
 mCurrentLocaleName
 )
@@ -756,7 +749,7 @@ length
 NS_ASSERTION
 (
 (
-wcslen
+strlen
 (
 mCurrentLocaleName
 )
@@ -795,7 +788,7 @@ if
 aIsRTL
 )
 {
-wcsncpy
+strncpy
 (
 mRTLKeyboard
 mCurrentLocaleName
@@ -821,7 +814,7 @@ terminate
 }
 else
 {
-wcsncpy
+strncpy
 (
 mLTRKeyboard
 mCurrentLocaleName
@@ -848,7 +841,7 @@ terminate
 NS_ASSERTION
 (
 (
-wcslen
+strlen
 (
 mRTLKeyboard
 )
@@ -869,7 +862,7 @@ KL_NAMELENGTH
 NS_ASSERTION
 (
 (
-wcslen
+strlen
 (
 mLTRKeyboard
 )
@@ -970,7 +963,7 @@ buf
 HKL
 locale
 ;
-PRUnichar
+char
 localeName
 [
 KL_NAMELENGTH
@@ -1121,10 +1114,9 @@ locale
 )
 )
 {
-swprintf
+sprintf
 (
 mRTLKeyboard
-L
 "
 %
 .
@@ -1147,10 +1139,9 @@ PR_TRUE
 }
 else
 {
-swprintf
+sprintf
 (
 mLTRKeyboard
-L
 "
 %
 .
@@ -1279,7 +1270,7 @@ if
 !
 :
 :
-GetKeyboardLayoutNameW
+GetKeyboardLayoutName
 (
 localeName
 )
@@ -1305,7 +1296,7 @@ length
 NS_ASSERTION
 (
 (
-wcslen
+strlen
 (
 localeName
 )
@@ -1331,7 +1322,7 @@ locale
 )
 )
 {
-swprintf
+strncpy
 (
 mRTLKeyboard
 localeName
@@ -1357,7 +1348,7 @@ terminate
 }
 else
 {
-swprintf
+strncpy
 (
 mLTRKeyboard
 localeName
