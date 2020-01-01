@@ -7995,7 +7995,7 @@ textareas
 textEditor
 -
 >
-SetWrapWidth
+SetWrapColumn
 (
 -
 1
