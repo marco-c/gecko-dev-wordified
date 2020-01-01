@@ -2221,7 +2221,7 @@ bytes
 nbytes
 ]
 ;
-JSUint64
+uint64
 _
 ;
 }
