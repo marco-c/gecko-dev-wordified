@@ -602,7 +602,7 @@ nsACString
 &
 table
 PRUint32
-item
+chunkId
 )
 ;
 nsresult
