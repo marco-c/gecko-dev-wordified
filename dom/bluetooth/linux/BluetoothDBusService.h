@@ -622,7 +622,7 @@ aRunnable
 )
 ;
 virtual
-bool
+void
 SendFile
 (
 const
@@ -641,7 +641,7 @@ aRunnable
 )
 ;
 virtual
-bool
+void
 StopSendingFile
 (
 const

@@ -2812,7 +2812,6 @@ Request
 TSendFileRequest
 )
 ;
-return
 mService
 -
 >
@@ -2848,6 +2847,9 @@ get
 )
 )
 ;
+return
+true
+;
 }
 bool
 BluetoothRequestParent
@@ -2877,7 +2879,6 @@ Request
 TStopSendingFileRequest
 )
 ;
-return
 mService
 -
 >
@@ -2894,6 +2895,9 @@ get
 (
 )
 )
+;
+return
+true
 ;
 }
 bool

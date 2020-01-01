@@ -1187,9 +1187,6 @@ SendFile
 BlobParent
 *
 aActor
-BluetoothReplyRunnable
-*
-aRunnable
 )
 {
 if
@@ -1284,9 +1281,6 @@ BluetoothOppManager
 :
 StopSendingFile
 (
-BluetoothReplyRunnable
-*
-aRunnable
 )
 {
 mAbortFlag
@@ -1297,7 +1291,7 @@ return
 true
 ;
 }
-void
+bool
 BluetoothOppManager
 :
 :
@@ -1305,9 +1299,6 @@ ConfirmReceivingFile
 (
 bool
 aConfirm
-BluetoothReplyRunnable
-*
-aRunnable
 )
 {
 if
@@ -1332,6 +1323,7 @@ now
 )
 ;
 return
+false
 ;
 }
 NS_ASSERTION
@@ -1405,6 +1397,9 @@ sContentType
 )
 ;
 }
+return
+true
+;
 }
 void
 BluetoothOppManager
