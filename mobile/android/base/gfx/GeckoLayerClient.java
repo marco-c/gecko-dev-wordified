@@ -2241,11 +2241,11 @@ pageSizeUpdate
 ?
 ViewportMessageType
 .
-UPDATE
+PAGE_SIZE
 :
 ViewportMessageType
 .
-PAGE_SIZE
+UPDATE
 )
 ;
 }
