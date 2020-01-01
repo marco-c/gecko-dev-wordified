@@ -2192,6 +2192,15 @@ numActualArgs
 )
 ;
 }
+typedef
+LJSCallInstructionHelper
+<
+Defs
+Operands
+Temps
+>
+JSCallHelper
+;
 }
 ;
 /
@@ -2250,7 +2259,7 @@ LDefinition
 tmpobjreg
 )
 :
-LJSCallInstructionHelper
+JSCallHelper
 (
 argslot
 )
@@ -2374,7 +2383,7 @@ LDefinition
 tmpobjreg
 )
 :
-LJSCallInstructionHelper
+JSCallHelper
 (
 argslot
 )
@@ -2479,7 +2488,7 @@ LDefinition
 tmpreg
 )
 :
-LJSCallInstructionHelper
+JSCallHelper
 (
 argslot
 )
@@ -2659,7 +2668,7 @@ LDefinition
 argVp
 )
 :
-LJSCallInstructionHelper
+JSCallHelper
 (
 argslot
 )
@@ -2846,7 +2855,7 @@ uint32
 argslot
 )
 :
-LJSCallInstructionHelper
+JSCallHelper
 (
 argslot
 )
