@@ -1093,10 +1093,7 @@ rv
 PRInt32
 inStringLength
 =
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 inString
 )

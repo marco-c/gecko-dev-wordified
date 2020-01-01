@@ -2781,10 +2781,7 @@ outLength
 PRInt32
 inLength
 =
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 aStr
 )

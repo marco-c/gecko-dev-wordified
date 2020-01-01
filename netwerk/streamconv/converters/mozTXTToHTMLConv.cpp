@@ -6984,10 +6984,7 @@ result
 PRInt32
 lineLength
 =
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 line
 )
@@ -7252,10 +7249,7 @@ minlength
 MinInt
 (
 6
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 indexString
 )
@@ -8876,10 +8870,7 @@ outString
 PRInt32
 inLength
 =
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 text
 )

@@ -1645,10 +1645,7 @@ i
 {
 length
 =
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 iwords
 [

@@ -4406,10 +4406,7 @@ i
 PRUint32
 len
 =
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 sTagUnicodeTable
 [

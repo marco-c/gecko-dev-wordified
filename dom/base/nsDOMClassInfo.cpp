@@ -19515,10 +19515,7 @@ mData
 >
 mNameUTF16
 )
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 mData
 -
@@ -24428,10 +24425,7 @@ jschar
 (
 mClassName
 )
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 mClassName
 )

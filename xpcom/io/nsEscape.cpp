@@ -2563,10 +2563,7 @@ aSourceBufferLen
 {
 aSourceBufferLen
 =
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 aSourceBuffer
 )

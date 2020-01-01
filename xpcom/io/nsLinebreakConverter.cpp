@@ -3144,10 +3144,7 @@ aSrcLen
 kIgnoreLen
 )
 ?
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 aSrc
 )
@@ -3442,10 +3439,7 @@ aSrcLen
 kIgnoreLen
 )
 ?
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 *
 ioBuffer
