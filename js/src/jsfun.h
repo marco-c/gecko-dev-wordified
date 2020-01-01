@@ -2600,6 +2600,7 @@ fun
 extern
 JSObject
 *
+JS_FASTCALL
 js_CloneFunctionObject
 (
 JSContext

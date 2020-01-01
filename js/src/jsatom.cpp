@@ -3569,7 +3569,7 @@ size_t
 number
 )
 ;
-CallGCMarker
+MarkRaw
 (
 trc
 ATOM_ENTRY_KEY
@@ -3673,7 +3673,7 @@ size_t
 number
 )
 ;
-CallGCMarker
+MarkRaw
 (
 trc
 ATOM_ENTRY_KEY

@@ -6906,7 +6906,7 @@ i
 +
 +
 )
-CallGCMarkerIfGCThing
+MarkValue
 (
 trc
 obj

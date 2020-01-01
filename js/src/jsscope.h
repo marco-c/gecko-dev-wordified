@@ -8058,17 +8058,6 @@ JSObject
 obj
 )
 ;
-extern
-void
-js_TraceId
-(
-JSTracer
-*
-trc
-jsid
-id
-)
-;
 #
 ifdef
 _MSC_VER

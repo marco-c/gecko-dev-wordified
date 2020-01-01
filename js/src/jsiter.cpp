@@ -779,7 +779,7 @@ JSTracer
 trc
 )
 {
-TraceBoxedWords
+MarkBoxedWordRange
 (
 trc
 props_array
@@ -4933,7 +4933,7 @@ getLiveFrame
 fp
 )
 ;
-TraceValues
+MarkValueRange
 (
 trc
 gen
@@ -4958,7 +4958,7 @@ trc
 fp
 )
 ;
-TraceValues
+MarkValueRange
 (
 trc
 fp
