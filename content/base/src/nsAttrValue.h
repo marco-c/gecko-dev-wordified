@@ -432,7 +432,10 @@ StorageSize
 (
 )
 /
-2
+sizeof
+(
+PRUnichar
+)
 -
 1
 *
