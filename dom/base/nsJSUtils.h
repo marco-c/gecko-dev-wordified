@@ -531,9 +531,6 @@ aFilename
 PRUint32
 *
 aLineno
-nsIPrincipal
-*
-aPrincipal
 )
 ;
 static
