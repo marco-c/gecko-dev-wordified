@@ -470,6 +470,10 @@ window
 "
 )
 ;
+SetIsDOMBinding
+(
+)
+;
 }
 /
 *

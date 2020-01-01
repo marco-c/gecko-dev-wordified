@@ -904,6 +904,10 @@ __LINE__
 this
 )
 ;
+SetIsDOMBinding
+(
+)
+;
 /
 *
 *
