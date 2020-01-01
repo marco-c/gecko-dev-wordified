@@ -451,7 +451,7 @@ mozilla_css_GroupRule_h__
 #
 include
 "
-nsCSSRule
+Rule
 .
 h
 "
@@ -488,7 +488,7 @@ GroupRuleRuleList
 /
 inherits
 from
-nsCSSRule
+Rule
 so
 it
 can
@@ -504,7 +504,7 @@ class
 GroupRule
 :
 public
-nsCSSRule
+Rule
 {
 protected
 :

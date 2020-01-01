@@ -440,7 +440,7 @@ mozilla_css_ImportRule_h__
 #
 include
 "
-nsCSSRule
+Rule
 .
 h
 "
@@ -475,7 +475,7 @@ NS_FINAL_CLASS
 ImportRule
 :
 public
-nsCSSRule
+Rule
 public
 nsIDOMCSSImportRule
 {
@@ -517,7 +517,7 @@ DECL_STYLE_RULE_INHERIT
 ifdef
 HAVE_CPP_AMBIGUITY_RESOLVING_USING
 using
-nsCSSRule
+Rule
 :
 :
 GetStyleSheet

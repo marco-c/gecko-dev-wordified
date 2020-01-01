@@ -732,6 +732,12 @@ a
 CSS
 style
 sheet
+namespace
+mozilla
+{
+namespace
+css
+{
 /
 *
 virtual
@@ -741,7 +747,7 @@ already_AddRefed
 <
 nsIStyleSheet
 >
-nsCSSRule
+Rule
 :
 :
 GetStyleSheet
@@ -764,7 +770,7 @@ virtual
 *
 /
 void
-nsCSSRule
+Rule
 :
 :
 SetStyleSheet
@@ -822,7 +828,7 @@ virtual
 *
 /
 void
-nsCSSRule
+Rule
 :
 :
 SetParentRule
@@ -877,6 +883,16 @@ mParentRule
 aRule
 ;
 }
+}
+/
+/
+namespace
+css
+}
+/
+/
+namespace
+mozilla
 /
 /
 -
@@ -1297,7 +1313,10 @@ NS_FINAL_CLASS
 CSSCharsetRuleImpl
 :
 public
-nsCSSRule
+css
+:
+:
+Rule
 public
 nsIDOMCSSCharsetRule
 {
@@ -1421,7 +1440,10 @@ nsAString
 aEncoding
 )
 :
-nsCSSRule
+css
+:
+:
+Rule
 (
 )
 mEncoding
@@ -1441,7 +1463,10 @@ CSSCharsetRuleImpl
 aCopy
 )
 :
-nsCSSRule
+css
+:
+:
+Rule
 (
 aCopy
 )
@@ -1505,7 +1530,10 @@ NS_INTERFACE_MAP_END
 IMPL_STYLE_RULE_INHERIT
 (
 CSSCharsetRuleImpl
-nsCSSRule
+css
+:
+:
+Rule
 )
 #
 ifdef
@@ -1958,7 +1986,7 @@ nsMediaList
 aMedia
 )
 :
-nsCSSRule
+Rule
 (
 )
 mURLSpec
@@ -2022,7 +2050,7 @@ ImportRule
 aCopy
 )
 :
-nsCSSRule
+Rule
 (
 aCopy
 )
@@ -2179,7 +2207,7 @@ NS_INTERFACE_MAP_END
 IMPL_STYLE_RULE_INHERIT
 (
 ImportRule
-nsCSSRule
+Rule
 )
 #
 ifdef
@@ -2961,7 +2989,7 @@ GroupRule
 (
 )
 :
-nsCSSRule
+Rule
 (
 )
 {
@@ -3014,7 +3042,7 @@ GroupRule
 aCopy
 )
 :
-nsCSSRule
+Rule
 (
 aCopy
 )
@@ -3087,7 +3115,7 @@ GroupRule
 IMPL_STYLE_RULE_INHERIT2
 (
 GroupRule
-nsCSSRule
+Rule
 )
 static
 PRBool
@@ -3147,7 +3175,7 @@ SetStyleSheetReference
 aSheet
 )
 ;
-nsCSSRule
+Rule
 :
 :
 SetStyleSheet
@@ -5762,7 +5790,7 @@ NameSpaceRule
 (
 )
 :
-nsCSSRule
+Rule
 (
 )
 mPrefix
@@ -5785,7 +5813,7 @@ NameSpaceRule
 aCopy
 )
 :
-nsCSSRule
+Rule
 (
 aCopy
 )
@@ -5885,7 +5913,7 @@ NS_INTERFACE_MAP_END
 IMPL_STYLE_RULE_INHERIT
 (
 NameSpaceRule
-nsCSSRule
+Rule
 )
 #
 ifdef
@@ -8502,7 +8530,7 @@ NS_INTERFACE_MAP_END
 IMPL_STYLE_RULE_INHERIT
 (
 nsCSSFontFaceRule
-nsCSSRule
+Rule
 )
 #
 ifdef

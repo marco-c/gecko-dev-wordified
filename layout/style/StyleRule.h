@@ -481,7 +481,7 @@ h
 #
 include
 "
-nsCSSRule
+Rule
 .
 h
 "
@@ -2189,7 +2189,7 @@ NS_FINAL_CLASS
 StyleRule
 :
 public
-nsCSSRule
+Rule
 {
 public
 :

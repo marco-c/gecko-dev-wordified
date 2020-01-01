@@ -440,7 +440,7 @@ mozilla_css_NameSpaceRule_h__
 #
 include
 "
-nsCSSRule
+Rule
 .
 h
 "
@@ -502,7 +502,7 @@ NS_FINAL_CLASS
 NameSpaceRule
 :
 public
-nsCSSRule
+Rule
 public
 nsIDOMCSSRule
 {
