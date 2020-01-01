@@ -475,9 +475,6 @@ aAlertText
 final
 PendingIntent
 contentIntent
-final
-PendingIntent
-clearIntent
 )
 {
 mTaskQueue
@@ -505,7 +502,6 @@ aImageUrl
 aAlertTitle
 aAlertText
 contentIntent
-clearIntent
 )
 ;
 }

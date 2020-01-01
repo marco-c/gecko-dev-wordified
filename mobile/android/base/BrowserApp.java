@@ -3266,12 +3266,6 @@ onDestroy
 (
 )
 {
-super
-.
-onDestroy
-(
-)
-;
 if
 (
 mPrefObserverId
@@ -3447,6 +3441,12 @@ this
 ;
 }
 }
+super
+.
+onDestroy
+(
+)
+;
 }
 Override
 public
