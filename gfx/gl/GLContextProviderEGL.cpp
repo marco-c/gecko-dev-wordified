@@ -4253,6 +4253,15 @@ mIsDoubleBuffered
 aIsDB
 ;
 }
+bool
+SupportsRobustness
+(
+)
+{
+return
+false
+;
+}
 #
 if
 defined

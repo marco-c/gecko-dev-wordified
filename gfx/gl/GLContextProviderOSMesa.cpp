@@ -1525,6 +1525,15 @@ nsnull
 ;
 }
 }
+bool
+SupportsRobustness
+(
+)
+{
+return
+false
+;
+}
 private
 :
 nsRefPtr
