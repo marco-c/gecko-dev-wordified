@@ -21619,6 +21619,7 @@ currentURI
 receiveMessage
 :
 function
+receiveMessage
 (
 aMessage
 )
