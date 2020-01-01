@@ -3776,6 +3776,15 @@ aList
 mTimeouts
 ;
 }
+static
+void
+NotifyDOMWindowDestroyed
+(
+nsGlobalWindow
+*
+aWindow
+)
+;
 /
 /
 When
@@ -4461,6 +4470,9 @@ ifdef
 DEBUG
 PRBool
 mSetOpenerWindowCalled
+;
+PRUint32
+mSerial
 ;
 #
 endif

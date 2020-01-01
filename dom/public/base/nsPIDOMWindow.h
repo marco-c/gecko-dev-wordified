@@ -509,6 +509,16 @@ nsEvent
 .
 h
 "
+#
+define
+DOM_WINDOW_DESTROYED_TOPIC
+"
+dom
+-
+window
+-
+destroyed
+"
 class
 nsIPrincipal
 ;
