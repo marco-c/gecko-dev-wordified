@@ -34667,6 +34667,8 @@ vp
 {
 JSObject
 *
+aobj
+*
 obj2
 ;
 JSProperty
@@ -34697,6 +34699,13 @@ js_CheckForStringIndex
 id
 )
 ;
+aobj
+=
+js_GetProtoIfDenseArray
+(
+obj
+)
+;
 /
 *
 This
@@ -34725,7 +34734,7 @@ if
 LookupPropertyWithFlagsInline
 (
 cx
-obj
+aobj
 id
 cx
 -
@@ -35214,7 +35223,7 @@ cx
 fill
 (
 cx
-obj
+aobj
 0
 obj2
 shape
