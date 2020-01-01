@@ -493,8 +493,11 @@ buf
 JS
 :
 :
-Value
+RootedValue
 val
+(
+cx
+)
 ;
 bool
 shared
@@ -507,8 +510,11 @@ StringBufferToJSVal
 cx
 buf
 length
-&
 val
+.
+address
+(
+)
 &
 shared
 )

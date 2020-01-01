@@ -1019,9 +1019,14 @@ mSafeJSContext
 return
 NULL
 ;
-JSObject
-*
+JS
+:
+:
+RootedObject
 glob
+(
+mSafeJSContext
+)
 ;
 {
 /
