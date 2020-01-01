@@ -159,9 +159,9 @@ false
 /
 set
 to
-false
+true
 to
-suppress
+show
 debug
 messages
 const
