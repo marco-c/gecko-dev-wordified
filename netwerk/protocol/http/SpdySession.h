@@ -1058,6 +1058,11 @@ SpdyStream
 PRUint32
 )
 ;
+void
+SetNeedsCleanup
+(
+)
+;
 /
 /
 a
