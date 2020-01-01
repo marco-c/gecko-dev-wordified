@@ -423,6 +423,7 @@ from
 expandlibs
 import
 LibDescriptor
+isObject
 def
 generate
 (
@@ -443,27 +444,10 @@ args
 :
         
 if
-os
-.
-path
-.
-splitext
+isObject
 (
 arg
 )
-[
-1
-]
-in
-[
-conf
-.
-OBJ_SUFFIX
-'
-.
-i_o
-'
-]
 :
             
 desc
