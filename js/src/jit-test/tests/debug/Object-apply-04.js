@@ -87,7 +87,7 @@ assertEq
 proxy
 .
 name
-null
+undefined
 )
 ;
 assertEq
