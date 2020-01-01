@@ -11374,6 +11374,15 @@ NSCOORD_NONE
 |
 !
 mRootView
+|
+|
+!
+mRootView
+-
+>
+HasWidget
+(
+)
 )
 {
 mSynthMouseMoveEvent
