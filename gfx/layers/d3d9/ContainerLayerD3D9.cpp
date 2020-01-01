@@ -1667,7 +1667,7 @@ r
 .
 bottom
 =
-NS_MAX
+NS_MIN
 <
 PRInt32
 >
