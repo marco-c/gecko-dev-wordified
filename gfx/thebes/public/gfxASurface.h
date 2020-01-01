@@ -621,6 +621,7 @@ SurfaceTypeOS2
 SurfaceTypeWin32Printing
 SurfaceTypeQuartzImage
 SurfaceTypeQPainter
+SurfaceTypeDDraw
 }
 gfxSurfaceType
 ;

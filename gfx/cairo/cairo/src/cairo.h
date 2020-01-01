@@ -10933,6 +10933,15 @@ of
 type
 qpainter
 *
+CAIRO_SURFACE_TYPE_DDRAW
+:
+The
+surface
+is
+of
+type
+ddraw
+*
 *
 #
 cairo_surface_type_t
@@ -11160,6 +11169,7 @@ CAIRO_SURFACE_TYPE_WIN32_PRINTING
 CAIRO_SURFACE_TYPE_QUARTZ_IMAGE
 CAIRO_SURFACE_TYPE_SCRIPT
 CAIRO_SURFACE_TYPE_QPAINTER
+CAIRO_SURFACE_TYPE_DDRAW
 }
 cairo_surface_type_t
 ;
