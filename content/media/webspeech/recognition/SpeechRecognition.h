@@ -831,7 +831,6 @@ STATE_ESTIMATING
 STATE_WAITING_FOR_SPEECH
 STATE_RECOGNIZING
 STATE_WAITING_FOR_RESULT
-STATE_ABORTING
 STATE_COUNT
 }
 ;
@@ -1158,6 +1157,9 @@ nsCOMPtr
 nsITimer
 >
 mSpeechDetectionTimer
+;
+bool
+mAborted
 ;
 void
 ProcessTestEventRequest
