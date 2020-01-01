@@ -25922,7 +25922,7 @@ UnionRect
 nsDisplayTransform
 :
 :
-TransformRect
+TransformRectOut
 (
 aDamageRect
 this
