@@ -1537,7 +1537,10 @@ nsnull
 array
 )
 ;
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 carray
 ;
 NS_NewUTF8StringEnumerator
