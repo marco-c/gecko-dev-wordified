@@ -742,6 +742,15 @@ endif
 NS_DECL_NSIDOMNAVIGATORCAMERA
 private
 :
+bool
+CheckPermission
+(
+const
+char
+*
+type
+)
+;
 nsRefPtr
 <
 nsMimeTypeArray
