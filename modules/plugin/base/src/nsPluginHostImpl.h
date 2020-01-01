@@ -514,13 +514,6 @@ h
 #
 include
 "
-nsIPluginInstancePeer2
-.
-h
-"
-#
-include
-"
 nsPluginsDir
 .
 h
