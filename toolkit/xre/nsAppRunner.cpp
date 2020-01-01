@@ -16319,6 +16319,12 @@ xreDirectory
 )
 )
 {
+if
+(
+appData
+.
+crashReporterURL
+)
 CrashReporter
 :
 :
