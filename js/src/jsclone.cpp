@@ -3236,6 +3236,13 @@ runtime
 >
 securityCallbacks
 ;
+if
+(
+cb
+-
+>
+pushContextPrincipal
+)
 return
 cb
 -
@@ -3251,6 +3258,9 @@ principals
 cx
 )
 )
+;
+return
+true
 ;
 }
 ;
@@ -3299,6 +3309,13 @@ runtime
 >
 securityCallbacks
 ;
+if
+(
+cb
+-
+>
+popContextPrincipal
+)
 cb
 -
 >
