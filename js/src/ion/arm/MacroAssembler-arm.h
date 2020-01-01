@@ -126,13 +126,6 @@ h
 #
 include
 "
-jsopcode
-.
-h
-"
-#
-include
-"
 ion
 /
 arm
@@ -167,6 +160,13 @@ include
 ion
 /
 MoveResolver
+.
+h
+"
+#
+include
+"
+jsopcode
 .
 h
 "
