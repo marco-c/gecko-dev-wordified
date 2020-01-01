@@ -908,6 +908,9 @@ time
 if
 (
 time
+=
+=
+0
 )
 {
 MessageLoop
