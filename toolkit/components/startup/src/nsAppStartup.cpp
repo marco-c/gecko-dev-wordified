@@ -1453,9 +1453,14 @@ mRestart
 )
 mRestart
 =
+(
 aMode
 &
 eRestart
+)
+!
+=
+0
 ;
 /
 *
