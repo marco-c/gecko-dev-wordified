@@ -2837,12 +2837,15 @@ element
 for
 playback
 of
-mSrcAttrStream
+aStream
 *
 /
 void
 SetupSrcMediaStreamPlayback
 (
+nsDOMMediaStream
+*
+aStream
 )
 ;
 /
