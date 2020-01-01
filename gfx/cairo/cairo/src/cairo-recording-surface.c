@@ -1913,7 +1913,7 @@ return
 status
 ;
 }
-_cairo_surface_attach_snapshot
+cairo_surface_attach_snapshot
 (
 &
 surface
@@ -5640,7 +5640,7 @@ status
 ;
 null_surface
 =
-_cairo_null_surface_create
+cairo_null_surface_create
 (
 surface
 -

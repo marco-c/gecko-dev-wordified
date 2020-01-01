@@ -1321,7 +1321,7 @@ surface
 >
 device_transform_inverse
 ;
-_cairo_surface_attach_snapshot
+cairo_surface_attach_snapshot
 (
 surface
 snap
@@ -1499,7 +1499,7 @@ surface
 >
 device_transform_inverse
 ;
-_cairo_surface_attach_snapshot
+cairo_surface_attach_snapshot
 (
 surface
 &

@@ -406,17 +406,6 @@ private
 .
 h
 "
-typedef
-void
-(
-*
-cairo_surface_func_t
-)
-(
-cairo_surface_t
-*
-)
-;
 struct
 _cairo_surface
 {

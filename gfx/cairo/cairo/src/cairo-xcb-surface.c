@@ -2606,7 +2606,7 @@ status
 return
 status
 ;
-_cairo_surface_attach_snapshot
+cairo_surface_attach_snapshot
 (
 &
 surface
@@ -3332,7 +3332,7 @@ status
 CAIRO_STATUS_SUCCESS
 )
 {
-_cairo_surface_attach_snapshot
+cairo_surface_attach_snapshot
 (
 &
 surface
