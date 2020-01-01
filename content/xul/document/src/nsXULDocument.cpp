@@ -12087,6 +12087,10 @@ StartLayout
 void
 )
 {
+mMayStartLayout
+=
+PR_TRUE
+;
 nsCOMPtr
 <
 nsIPresShell
@@ -12359,10 +12363,6 @@ NS_VMREFRESH_IMMEDIATE
 }
 }
 }
-mMayStartLayout
-=
-PR_TRUE
-;
 /
 /
 Don
