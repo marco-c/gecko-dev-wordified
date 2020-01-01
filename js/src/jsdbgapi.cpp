@@ -5136,17 +5136,6 @@ nativeLookup
 propid
 )
 ;
-JS_ASSERT_IF
-(
-!
-shape
-!
-wp
--
->
-setter
-)
-;
 if
 (
 !
