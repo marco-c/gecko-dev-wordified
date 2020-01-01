@@ -497,12 +497,17 @@ nsAlgorithm
 h
 "
 #
+ifdef
+XP_WIN
+#
 include
 "
 updatehelper
 .
 h
 "
+#
+endif
 #
 define
 UPDATER_NO_STRING_GLUE_STL

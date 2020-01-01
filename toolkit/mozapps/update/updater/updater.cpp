@@ -9546,8 +9546,6 @@ VerifySignature
 )
 ;
 }
-#
-endif
 if
 (
 rv
@@ -9669,6 +9667,8 @@ MOZ_APP_VERSION
 )
 ;
 }
+#
+endif
 }
 if
 (
