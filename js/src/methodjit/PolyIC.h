@@ -1621,8 +1621,6 @@ stub
 .
 int
 secondShapeGuard
-:
-8
 ;
 }
 get
@@ -1743,8 +1741,6 @@ guard
 .
 int
 shapeGuard
-:
-8
 ;
 /
 /
