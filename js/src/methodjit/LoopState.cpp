@@ -2485,7 +2485,7 @@ always
 JSObject
 :
 :
-NSLOTS_LIMIT
+NELEMENTS_LIMIT
 check
 for
 *
@@ -2604,10 +2604,13 @@ return
 constant
 >
 =
+(
+int32
+)
 JSObject
 :
 :
-NSLOTS_LIMIT
+NELEMENTS_LIMIT
 ;
 }
 /

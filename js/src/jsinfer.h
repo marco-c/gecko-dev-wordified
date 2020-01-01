@@ -5092,8 +5092,7 @@ type
 js
 :
 :
-EmptyShape
-*
+ShapeKindArray
 *
 emptyShapes
 ;

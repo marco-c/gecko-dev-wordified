@@ -1541,6 +1541,7 @@ proto
 getParent
 (
 )
+FINALIZE_OBJECT4
 )
 ;
 if
@@ -1619,7 +1620,6 @@ init
 (
 cx
 type
-false
 )
 ;
 obj
@@ -5174,6 +5174,7 @@ cx
 &
 DeclEnvClass
 parent
+FINALIZE_OBJECT2
 )
 ;
 if
@@ -5191,7 +5192,6 @@ init
 (
 cx
 type
-false
 )
 ;
 envobj

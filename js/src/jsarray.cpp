@@ -2325,7 +2325,7 @@ requiredCapacity
 JSObject
 :
 :
-NSLOTS_LIMIT
+NELEMENTS_LIMIT
 )
 return
 true
@@ -21152,6 +21152,13 @@ obj
 )
 return
 NULL
+;
+obj
+-
+>
+initDenseArray
+(
+)
 ;
 obj
 -

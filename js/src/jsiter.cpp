@@ -2939,6 +2939,7 @@ cx
 &
 IteratorClass
 NULL
+FINALIZE_OBJECT2
 )
 ;
 if
@@ -2956,7 +2957,6 @@ init
 (
 cx
 type
-false
 )
 ;
 obj

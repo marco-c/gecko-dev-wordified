@@ -1088,6 +1088,9 @@ struct
 EmptyShape
 ;
 class
+ShapeKindArray
+;
+class
 Bindings
 ;
 class

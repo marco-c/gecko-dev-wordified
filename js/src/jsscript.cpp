@@ -1164,6 +1164,7 @@ child
 nbase
 id
 slot
+0
 attrs
 Shape
 :
