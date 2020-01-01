@@ -23659,7 +23659,7 @@ Shape
 propp
 )
 {
-AutoAssertNoGCOrException
+AutoAssertNoException
 nogc
 (
 cx
@@ -25546,7 +25546,7 @@ Value
 vp
 )
 {
-AutoAssertNoGCOrException
+AutoAssertNoException
 nogc
 (
 cx
