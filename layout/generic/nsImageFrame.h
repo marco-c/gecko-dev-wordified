@@ -560,6 +560,7 @@ GetSkipSides
 (
 )
 const
+MOZ_OVERRIDE
 ;
 nsresult
 GetIntrinsicImageSize

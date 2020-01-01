@@ -766,6 +766,7 @@ GetSkipSides
 (
 )
 const
+MOZ_OVERRIDE
 ;
 nsresult
 ReflowFrames
