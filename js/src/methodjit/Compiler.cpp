@@ -6236,12 +6236,6 @@ Compile_Abort
 }
 if
 (
-request
-=
-=
-CompileRequest_Interpreter
-&
-&
 !
 cx
 -
@@ -6497,12 +6491,6 @@ Compile_Okay
 ;
 if
 (
-request
-=
-=
-CompileRequest_Interpreter
-&
-&
 !
 cx
 -
