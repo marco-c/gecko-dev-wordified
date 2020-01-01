@@ -2728,7 +2728,7 @@ querySelector
 arrow
 "
 )
-gDebuggee
+gDebugger
 )
 ;
 EventUtils
@@ -2751,7 +2751,7 @@ querySelector
 arrow
 "
 )
-gDebuggee
+gDebugger
 )
 ;
 EventUtils
@@ -2774,7 +2774,7 @@ querySelector
 arrow
 "
 )
-gDebuggee
+gDebugger
 )
 ;
 EventUtils
@@ -2797,7 +2797,7 @@ querySelector
 arrow
 "
 )
-gDebuggee
+gDebugger
 )
 ;
 executeSoon

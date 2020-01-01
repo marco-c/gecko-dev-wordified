@@ -3853,7 +3853,7 @@ querySelector
 arrow
 "
 )
-gDebuggee
+gDebugger
 )
 ;
 EventUtils
@@ -3876,7 +3876,7 @@ querySelector
 arrow
 "
 )
-gDebuggee
+gDebugger
 )
 ;
 EventUtils
@@ -3899,7 +3899,7 @@ querySelector
 arrow
 "
 )
-gDebuggee
+gDebugger
 )
 ;
 EventUtils
@@ -3922,7 +3922,7 @@ querySelector
 arrow
 "
 )
-gDebuggee
+gDebugger
 )
 ;
 is
@@ -4460,9 +4460,7 @@ querySelector
 arrow
 "
 )
-gDebuggee
-.
-window
+gDebugger
 )
 ;
 is
@@ -4531,9 +4529,7 @@ querySelector
 arrow
 "
 )
-gDebuggee
-.
-window
+gDebugger
 )
 ;
 is
@@ -4600,9 +4596,7 @@ querySelector
 arrow
 "
 )
-gDebuggee
-.
-window
+gDebugger
 )
 ;
 is
@@ -4667,9 +4661,7 @@ querySelector
 arrow
 "
 )
-gDebuggee
-.
-window
+gDebugger
 )
 ;
 is
