@@ -2121,6 +2121,7 @@ FpRegs
 evict
 (
 rr
+ins
 )
 ;
 if
@@ -6451,6 +6452,7 @@ FpRegs
 evict
 (
 rr
+ins
 )
 ;
 }
