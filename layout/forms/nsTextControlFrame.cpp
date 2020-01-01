@@ -7948,6 +7948,11 @@ the
 frame
 hierarchy
 .
+if
+(
+first
+)
+{
 first
 -
 >
@@ -7956,6 +7961,7 @@ AddStateBits
 NS_FRAME_REFLOW_ROOT
 )
 ;
+}
 nsCOMPtr
 <
 nsITextControlElement
