@@ -1715,12 +1715,6 @@ throwTypeError
 return
 NULL
 ;
-AutoIdVector
-ids
-(
-cx
-)
-;
 if
 (
 !
@@ -1730,8 +1724,6 @@ throwTypeError
 preventExtensions
 (
 cx
-&
-ids
 )
 )
 return

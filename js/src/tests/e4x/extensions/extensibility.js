@@ -241,12 +241,16 @@ catch
 e
 )
 {
+/
+/
 assertEq
 (
 e
 instanceof
 TypeError
 true
+/
+/
 "
 xmlValue
 .
@@ -262,6 +266,8 @@ changed
 )
 ;
 }
+/
+/
 assertEq
 (
 Object

@@ -5728,10 +5728,6 @@ nsnull
 deleteSpecial
 XPC_WN_JSOp_Enumerate
 XPC_WN_JSOp_TypeOf_Object
-nsnull
-/
-/
-fix
 XPC_WN_JSOp_ThisObject
 XPC_WN_JSOp_Clear
 }
