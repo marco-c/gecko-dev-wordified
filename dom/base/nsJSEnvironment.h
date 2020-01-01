@@ -861,7 +861,7 @@ virtual
 nsresult
 SetOuterObject
 (
-void
+JSObject
 *
 aOuterObject
 )
