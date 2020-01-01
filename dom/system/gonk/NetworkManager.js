@@ -1836,9 +1836,7 @@ this
 .
 resetRoutingTable
 (
-this
-.
-_activeInfo
+network
 )
 ;
 }
