@@ -5156,8 +5156,6 @@ cx
 s
 %
 s
-\
-n
 "
 JS_ERROR
 "
@@ -5261,8 +5259,6 @@ cx
 s
 %
 s
-\
-n
 "
 JS_ERROR
 "
@@ -9878,14 +9874,8 @@ cx
 "
 %
 s
-"
-"
 %
 s
-%
-s
-\
-n
 "
 JS_ERROR
 "
@@ -9919,8 +9909,6 @@ cx
 s
 %
 s
-\
-n
 "
 JS_ERROR
 "
@@ -10174,8 +10162,6 @@ cx
 s
 %
 s
-\
-n
 "
 JS_ERROR
 "
@@ -13579,8 +13565,6 @@ cx
 s
 %
 s
-\
-n
 "
 JS_ERROR
 "
