@@ -6645,7 +6645,9 @@ nsTextStore
 :
 SetInputContext
 (
+this
 mInputContext
+aAction
 )
 ;
 bool
