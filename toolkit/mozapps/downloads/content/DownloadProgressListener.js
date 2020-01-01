@@ -660,7 +660,7 @@ one
 active
 download
 now
-gDownloadsActiveLabel
+gDownloadsActiveTitle
 .
 hidden
 =
@@ -795,7 +795,7 @@ gDownloadsView
 insertBefore
 (
 dl
-gDownloadsActiveLabel
+gDownloadsActiveTitle
 .
 nextSibling
 )
@@ -1047,7 +1047,7 @@ gDownloadsView
 insertBefore
 (
 itm
-gDownloadsActiveLabel
+gDownloadsActiveTitle
 .
 nextSibling
 )
@@ -1064,7 +1064,7 @@ have
 active
 downloads
 !
-gDownloadsActiveLabel
+gDownloadsActiveTitle
 .
 hidden
 =
