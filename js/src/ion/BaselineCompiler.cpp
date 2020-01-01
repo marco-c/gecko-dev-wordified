@@ -1460,6 +1460,8 @@ emitIC
 ICStub
 *
 stub
+bool
+isForOp
 )
 {
 ICEntry
@@ -1469,6 +1471,7 @@ entry
 allocateICEntry
 (
 stub
+isForOp
 )
 ;
 if
@@ -2130,7 +2133,7 @@ cx
 if
 (
 !
-emitIC
+emitNonOpIC
 (
 stubCompiler
 .
@@ -2407,7 +2410,7 @@ cx
 if
 (
 !
-emitIC
+emitNonOpIC
 (
 stubCompiler
 .
@@ -2480,7 +2483,7 @@ uint32_t
 if
 (
 !
-emitIC
+emitNonOpIC
 (
 compiler
 .
@@ -2544,7 +2547,7 @@ i
 if
 (
 !
-emitIC
+emitNonOpIC
 (
 compiler
 .
@@ -2729,6 +2732,7 @@ script
 -
 >
 code
+false
 )
 ;
 icEntry
@@ -3854,7 +3858,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 stubCompiler
 .
@@ -4215,7 +4219,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 stubCompiler
 .
@@ -4504,7 +4508,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 stubCompiler
 .
@@ -5504,7 +5508,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 stubCompiler
 .
@@ -5578,7 +5582,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 stubCompiler
 .
@@ -5770,7 +5774,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 stubCompiler
 .
@@ -5925,7 +5929,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 stubCompiler
 .
@@ -6274,7 +6278,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 stubCompiler
 .
@@ -6431,7 +6435,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 stubCompiler
 .
@@ -6547,7 +6551,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 stubCompiler
 .
@@ -6689,7 +6693,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 stubCompiler
 .
@@ -6797,7 +6801,7 @@ cx
 )
 ;
 return
-emitIC
+emitOpIC
 (
 compiler
 .
@@ -6865,7 +6869,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 stubCompiler
 .
@@ -6988,7 +6992,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 stubCompiler
 .
@@ -7164,7 +7168,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 stubCompiler
 .
@@ -7281,7 +7285,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 compiler
 .
@@ -7390,7 +7394,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 compiler
 .
@@ -7649,7 +7653,7 @@ NULL
 if
 (
 !
-emitIC
+emitOpIC
 (
 compiler
 .
@@ -7781,7 +7785,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 stubCompiler
 .
@@ -7877,7 +7881,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 stubCompiler
 .
@@ -9032,7 +9036,7 @@ JSOP_NEW
 if
 (
 !
-emitIC
+emitOpIC
 (
 stubCompiler
 .
@@ -10307,7 +10311,7 @@ pc
 )
 ;
 return
-emitIC
+emitOpIC
 (
 compiler
 .
@@ -10346,7 +10350,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 compiler
 .
@@ -10417,7 +10421,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 compiler
 .
@@ -10488,7 +10492,7 @@ cx
 if
 (
 !
-emitIC
+emitOpIC
 (
 compiler
 .
@@ -10538,7 +10542,7 @@ cx
 )
 ;
 return
-emitIC
+emitOpIC
 (
 compiler
 .

@@ -684,6 +684,15 @@ slotInfo
 struct
 BaselineScript
 {
+public
+:
+static
+const
+uint32_t
+MAX_JSSCRIPT_LENGTH
+=
+0x0fffffffu
+;
 private
 :
 /
