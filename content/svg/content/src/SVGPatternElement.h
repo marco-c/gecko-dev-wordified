@@ -102,13 +102,6 @@ mozilla_dom_SVGPatternElement_h
 #
 include
 "
-nsIDOMSVGFitToViewBox
-.
-h
-"
-#
-include
-"
 nsIDOMSVGPatternElement
 .
 h
@@ -217,8 +210,6 @@ nsIDOMSVGPatternElement
 public
 nsIDOMSVGURIReference
 public
-nsIDOMSVGFitToViewBox
-public
 nsIDOMSVGUnitTypes
 {
 friend
@@ -298,10 +289,6 @@ NS_DECL_NSIDOMSVGPATTERNELEMENT
 URI
 Reference
 NS_DECL_NSIDOMSVGURIREFERENCE
-/
-/
-FitToViewbox
-NS_DECL_NSIDOMSVGFITTOVIEWBOX
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 NS_FORWARD_NSIDOMSVGELEMENT
@@ -594,7 +581,7 @@ sStringInfo
 ;
 /
 /
-nsIDOMSVGFitToViewbox
+SVGFitToViewbox
 properties
 nsSVGViewBox
 mViewBox
