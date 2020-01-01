@@ -527,12 +527,6 @@ BatteryManager
 (
 )
 ;
-virtual
-~
-BatteryManager
-(
-)
-;
 void
 Init
 (
