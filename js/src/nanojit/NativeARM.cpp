@@ -1323,7 +1323,7 @@ data
 elif
 defined
 (
-WINCE
+UNDER_CE
 )
 /
 /
