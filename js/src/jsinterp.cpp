@@ -42139,6 +42139,9 @@ advance_pc
 /
 op
 =
+(
+JSOp
+)
 pc
 [
 -
