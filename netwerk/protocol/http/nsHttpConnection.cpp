@@ -800,6 +800,10 @@ mTransaction
 (
 nsnull
 )
+mIdleTimeout
+(
+0
+)
 mConsiderReusedAfterInterval
 (
 0
@@ -5628,7 +5632,7 @@ mIdleTimeout
 gHttpHandler
 -
 >
-SpdyTimeout
+IdleTimeout
 (
 )
 ;
