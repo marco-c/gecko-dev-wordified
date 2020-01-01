@@ -2622,6 +2622,9 @@ JSFunction
 funcp
 bool
 isGetter
+bool
+*
+isDOM
 )
 ;
 bool

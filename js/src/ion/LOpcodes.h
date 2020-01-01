@@ -873,6 +873,16 @@ _
 (
 ProfilingExit
 )
+\
+_
+(
+GetDOMProperty
+)
+\
+_
+(
+SetDOMProperty
+)
 #
 if
 defined

@@ -599,6 +599,12 @@ isNative
 const
 ;
 bool
+isDOMExit
+(
+)
+const
+;
+bool
 isEntry
 (
 )

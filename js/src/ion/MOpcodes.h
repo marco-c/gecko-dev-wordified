@@ -699,6 +699,16 @@ _
 (
 ProfilingExit
 )
+\
+_
+(
+GetDOMProperty
+)
+\
+_
+(
+SetDOMProperty
+)
 /
 /
 Forward
