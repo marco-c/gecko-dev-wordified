@@ -485,7 +485,6 @@ nsHandlerAppBase
 NS_HIDDEN
 {
 }
-;
 nsHandlerAppBase
 (
 const
@@ -503,7 +502,6 @@ aName
 )
 ;
 }
-;
 nsHandlerAppBase
 (
 const
@@ -521,7 +519,6 @@ aName
 )
 ;
 }
-;
 virtual
 ~
 nsHandlerAppBase
@@ -529,7 +526,6 @@ nsHandlerAppBase
 )
 {
 }
-;
 protected
 :
 nsString
@@ -554,7 +550,6 @@ nsLocalHandlerApp
 )
 {
 }
-;
 nsLocalHandlerApp
 (
 const
@@ -604,7 +599,6 @@ nsLocalHandlerApp
 )
 {
 }
-;
 /
 /
 overriding
@@ -690,7 +684,6 @@ nsWebHandlerApp
 )
 {
 }
-;
 protected
 :
 nsCString
