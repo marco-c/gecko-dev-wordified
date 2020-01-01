@@ -140,9 +140,6 @@ Utility
 .
 h
 "
-#
-ifdef
-__cplusplus
 namespace
 js
 {
