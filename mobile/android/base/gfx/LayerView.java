@@ -798,6 +798,10 @@ setFocusableInTouchMode
 true
 )
 ;
+createGLThread
+(
+)
+;
 }
 private
 void
