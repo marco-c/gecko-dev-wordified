@@ -1221,6 +1221,8 @@ JSObject
 objp
 )
 ;
+public
+:
 /
 /
 Checks
@@ -1292,6 +1294,8 @@ aIsNumber
 nsnull
 )
 ;
+protected
+:
 static
 inline
 bool
