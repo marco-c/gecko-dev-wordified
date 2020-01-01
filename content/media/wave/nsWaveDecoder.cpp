@@ -7774,6 +7774,9 @@ nsIStreamListener
 *
 *
 aStreamListener
+nsMediaDecoder
+*
+aCloneDonor
 )
 {
 NS_ASSERTION

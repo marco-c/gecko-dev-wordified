@@ -932,6 +932,9 @@ nsOggReader
 :
 Init
 (
+nsBuiltinDecoderReader
+*
+aCloneDonor
 )
 {
 PRBool

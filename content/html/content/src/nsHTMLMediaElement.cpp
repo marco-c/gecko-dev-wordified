@@ -10358,6 +10358,7 @@ Load
 (
 stream
 nsnull
+aOriginal
 )
 ;
 if
@@ -10494,6 +10495,7 @@ Load
 (
 stream
 aListener
+nsnull
 )
 ;
 if

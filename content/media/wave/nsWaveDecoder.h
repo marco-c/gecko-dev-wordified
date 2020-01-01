@@ -1297,6 +1297,9 @@ nsIStreamListener
 *
 *
 aStreamListener
+nsMediaDecoder
+*
+aCloneDonor
 )
 ;
 /
