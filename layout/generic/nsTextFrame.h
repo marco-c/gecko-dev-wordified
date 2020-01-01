@@ -1763,7 +1763,7 @@ DEBUG
 void
 ToCString
 (
-nsString
+nsCString
 &
 aBuf
 PRInt32
