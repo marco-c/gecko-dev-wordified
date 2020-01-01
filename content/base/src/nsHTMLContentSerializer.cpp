@@ -2297,7 +2297,7 @@ IsContainer
 parserService
 -
 >
-HTMLAtomTagToId
+HTMLCaseSensitiveAtomTagToId
 (
 name
 )

@@ -723,7 +723,6 @@ column
 position
 *
 /
-virtual
 void
 AppendToString
 (
@@ -753,7 +752,6 @@ column
 position
 *
 /
-virtual
 void
 AppendToString
 (
@@ -780,7 +778,6 @@ column
 position
 *
 /
-virtual
 void
 AppendToString
 (
@@ -826,7 +823,6 @@ position
 .
 *
 /
-virtual
 void
 AppendToStringConvertLF
 (
@@ -861,7 +857,6 @@ position
 .
 *
 /
-virtual
 void
 AppendToStringWrapped
 (
@@ -897,7 +892,6 @@ position
 .
 *
 /
-virtual
 void
 AppendToStringFormatedWrapped
 (
@@ -1035,7 +1029,6 @@ flags
 .
 *
 /
-virtual
 void
 AppendNewLineToString
 (
@@ -1455,7 +1448,6 @@ PRBool
 aDoEscapeEntities
 )
 ;
-virtual
 PRBool
 IsJavaScript
 (
@@ -1939,7 +1931,6 @@ nsAString
 aStr
 )
 ;
-virtual
 void
 IncrIndentation
 (
@@ -1948,7 +1939,6 @@ nsIAtom
 aName
 )
 ;
-virtual
 void
 DecrIndentation
 (
@@ -2362,6 +2352,12 @@ output
 string
 PRPackedBool
 mMayIgnoreLineBreakSequence
+;
+PRPackedBool
+mBodyOnly
+;
+PRInt32
+mInBody
 ;
 /
 /
