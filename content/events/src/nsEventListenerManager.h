@@ -1411,6 +1411,16 @@ UnmarkGrayJSListeners
 (
 )
 ;
+nsISupports
+*
+GetTarget
+(
+)
+{
+return
+mTarget
+;
+}
 protected
 :
 nsresult

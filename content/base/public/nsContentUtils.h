@@ -6093,6 +6093,14 @@ bool
 aCreateIfNotFound
 )
 ;
+static
+void
+UnmarkGrayJSListenersInCCGenerationDocuments
+(
+PRUint32
+aGeneration
+)
+;
 /
 *
 *
