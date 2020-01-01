@@ -579,6 +579,8 @@ isGeneralReg
 )
 )
 return
+uint32
+(
 alloc
 .
 toGeneralReg
@@ -592,6 +594,7 @@ reg
 .
 code
 (
+)
 )
 =
 =
@@ -611,6 +614,8 @@ isFloatReg
 )
 )
 return
+uint32
+(
 alloc
 .
 toFloatReg
@@ -624,6 +629,7 @@ reg
 .
 code
 (
+)
 )
 =
 =

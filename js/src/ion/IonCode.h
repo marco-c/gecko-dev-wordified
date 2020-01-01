@@ -469,7 +469,7 @@ class
 ExecutablePool
 ;
 }
-class
+struct
 JSScript
 ;
 namespace
