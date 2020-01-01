@@ -696,6 +696,11 @@ PRBool
 aDocumentIsEmpty
 )
 ;
+NS_IMETHOD
+DocumentModified
+(
+)
+;
 /
 /
 nsTextEditRules

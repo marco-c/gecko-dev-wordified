@@ -686,6 +686,11 @@ nsresult
 aResult
 )
 ;
+NS_IMETHOD
+DocumentModified
+(
+)
+;
 /
 /
 nsIHTMLEditRules
@@ -2461,6 +2466,11 @@ nsIDOMNode
 aNode
 PRInt8
 aRelativeChange
+)
+;
+void
+DocumentModifiedWorker
+(
 )
 ;
 /

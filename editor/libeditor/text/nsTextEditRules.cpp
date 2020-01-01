@@ -7867,3 +7867,15 @@ return
 res
 ;
 }
+NS_IMETHODIMP
+nsTextEditRules
+:
+:
+DocumentModified
+(
+)
+{
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+}
