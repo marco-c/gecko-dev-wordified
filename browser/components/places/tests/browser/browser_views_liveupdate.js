@@ -2691,6 +2691,7 @@ nodeForTreeIndex
 (
 aElementOrTreeIndex
 )
+true
 )
 ;
 return
