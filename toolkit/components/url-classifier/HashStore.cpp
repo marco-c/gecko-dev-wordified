@@ -838,6 +838,9 @@ numAddCompletes
 -
 byte
 Completions
++
+uint32
+addChunk
 /
 /
 0
@@ -849,6 +852,14 @@ numSubCompletes
 -
 byte
 Completions
++
+uint32
+addChunk
+/
+/
++
+uint32
+subChunk
 /
 /
 16
