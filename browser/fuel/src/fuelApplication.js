@@ -4404,6 +4404,9 @@ Ci
 fuelIApplication
 Ci
 .
+extIApplication
+Ci
+.
 nsIObserver
 Ci
 .
@@ -4425,6 +4428,9 @@ interfaces
 Ci
 .
 fuelIApplication
+Ci
+.
+extIApplication
 Ci
 .
 nsIObserver
@@ -4476,7 +4482,10 @@ __proto__
 __proto__
 .
 observe
+.
+call
 (
+this
 aSubject
 aTopic
 aData
