@@ -5377,6 +5377,15 @@ Freeze
 =
 0
 ;
+PRBool
+IsFrozen
+(
+)
+{
+return
+mFrozen
+;
+}
 /
 *
 *
