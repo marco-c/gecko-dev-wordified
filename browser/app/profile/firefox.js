@@ -7151,11 +7151,9 @@ when
 pages
 require
 plugins
-the
-user
-has
-not
-installed
+that
+are
+blocked
 or
 are
 outdated
@@ -7164,7 +7162,7 @@ pref
 "
 plugins
 .
-hide_infobar_for_missing_plugin
+hide_infobar_for_blocked_plugin
 "
 false
 )
