@@ -661,7 +661,7 @@ ready
 _syncStartup
 :
 function
-PasswordStore__syncStartup
+PasswordEngine__syncStartup
 (
 )
 {
@@ -697,7 +697,7 @@ cb
 _syncFinish
 :
 function
-PasswordStore__syncFinish
+PasswordEngine__syncFinish
 (
 )
 {
