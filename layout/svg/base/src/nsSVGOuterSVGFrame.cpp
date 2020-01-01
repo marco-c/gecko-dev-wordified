@@ -1321,6 +1321,11 @@ nsIFrame
 aPrevInFlow
 )
 {
+AddStateBits
+(
+NS_STATE_IS_OUTER_SVG
+)
+;
 nsresult
 rv
 =
@@ -1471,11 +1476,6 @@ UnsuspendRedraw
 is
 in
 DidReflow
-AddStateBits
-(
-NS_STATE_IS_OUTER_SVG
-)
-;
 return
 rv
 ;
