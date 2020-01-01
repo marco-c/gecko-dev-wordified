@@ -888,9 +888,6 @@ down
 with
 active
 entries
-.
-\
-n
 "
 )
 ;
@@ -983,8 +980,6 @@ cache
 leaking
 entries
 ?
-\
-n
 "
 )
 ;
@@ -1005,8 +1000,6 @@ cache
 leaking
 entries
 ?
-\
-n
 "
 )
 ;
@@ -1025,8 +1018,6 @@ cache
 leaking
 entries
 ?
-\
-n
 "
 )
 ;
