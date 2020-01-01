@@ -1660,15 +1660,6 @@ mDropdownFrame
 dropdown
 list
 frame
-nsIFrame
-*
-mTextFrame
-;
-/
-/
-display
-area
-frame
 nsIListControlFrame
 *
 mListControlFrame
