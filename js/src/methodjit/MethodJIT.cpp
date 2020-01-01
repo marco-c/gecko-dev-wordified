@@ -5279,7 +5279,7 @@ Initialize
 (
 )
 {
-execAlloc
+execAlloc_
 =
 JSC
 :
@@ -5294,7 +5294,7 @@ create
 if
 (
 !
-execAlloc
+execAlloc_
 )
 return
 false
@@ -5302,7 +5302,7 @@ false
 TrampolineCompiler
 tc
 (
-execAlloc
+execAlloc_
 &
 trampolines
 )
@@ -5318,7 +5318,7 @@ compile
 )
 {
 delete
-execAlloc
+execAlloc_
 ;
 return
 false
@@ -5378,7 +5378,7 @@ trampolines
 ;
 js_delete
 (
-execAlloc
+execAlloc_
 )
 ;
 #

@@ -17569,7 +17569,7 @@ js_delete
 here
 because
 the
-constructor
+destructor
 is
 private
 .
@@ -17988,7 +17988,7 @@ js_delete
 here
 because
 the
-constructor
+destructor
 is
 private
 .
