@@ -4048,9 +4048,8 @@ aRemovalRoot
 control
 -
 >
-SetForm
+ClearForm
 (
-nsnull
 PR_TRUE
 PR_TRUE
 )
@@ -11052,9 +11051,8 @@ i
 ]
 -
 >
-SetForm
+ClearForm
 (
-nsnull
 PR_FALSE
 PR_TRUE
 )
@@ -11094,9 +11092,8 @@ i
 ]
 -
 >
-SetForm
+ClearForm
 (
-nsnull
 PR_FALSE
 PR_TRUE
 )

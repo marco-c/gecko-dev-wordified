@@ -3232,10 +3232,6 @@ form
 ;
 NS_ASSERTION
 (
-!
-form
-|
-|
 formElement
 "
 nsGenericHTMLElement
@@ -3253,8 +3249,6 @@ formControl
 SetForm
 (
 formElement
-PR_TRUE
-PR_FALSE
 )
 ;
 }
