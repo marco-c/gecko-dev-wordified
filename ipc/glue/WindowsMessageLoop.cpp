@@ -1862,6 +1862,12 @@ case
 WM_SETICON
 :
 case
+WM_STYLECHANGING
+:
+case
+WM_STYLECHANGED
+:
+case
 WM_SYNCPAINT
 :
 /
