@@ -999,6 +999,10 @@ nsString
 valStr
 )
 )
+.
+get
+(
+)
 ;
 nsRefPtr
 <

@@ -19727,6 +19727,10 @@ BufferFromString
 (
 aString
 )
+.
+get
+(
+)
 ;
 if
 (
