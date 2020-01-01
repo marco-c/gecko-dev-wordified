@@ -4818,7 +4818,7 @@ aResponseType
 nsXMLHttpRequest
 :
 :
-ResponseType
+ResponseTypeEnum
 responseType
 ;
 if
@@ -5027,7 +5027,7 @@ aRv
 {
 SetResponseType
 (
-ResponseType
+ResponseTypeEnum
 (
 aType
 )
@@ -5044,7 +5044,7 @@ SetResponseType
 nsXMLHttpRequest
 :
 :
-ResponseType
+ResponseTypeEnum
 aResponseType
 ErrorResult
 &
@@ -5837,7 +5837,7 @@ aStatus
 *
 aStatus
 =
-GetStatus
+Status
 (
 )
 ;
@@ -5849,7 +5849,7 @@ uint32_t
 nsXMLHttpRequest
 :
 :
-GetStatus
+Status
 (
 )
 {
@@ -17698,7 +17698,7 @@ aTimeout
 *
 aTimeout
 =
-GetTimeout
+Timeout
 (
 )
 ;
@@ -17961,7 +17961,7 @@ aState
 *
 aState
 =
-GetReadyState
+ReadyState
 (
 )
 ;
@@ -17973,7 +17973,7 @@ uint16_t
 nsXMLHttpRequest
 :
 :
-GetReadyState
+ReadyState
 (
 )
 {
@@ -18106,7 +18106,7 @@ _retval
 *
 _retval
 =
-GetMultipart
+Multipart
 (
 )
 ;
@@ -18118,7 +18118,7 @@ bool
 nsXMLHttpRequest
 :
 :
-GetMultipart
+Multipart
 (
 )
 {
@@ -18247,7 +18247,7 @@ _retval
 *
 _retval
 =
-GetMozBackgroundRequest
+MozBackgroundRequest
 (
 )
 ;
@@ -18259,7 +18259,7 @@ bool
 nsXMLHttpRequest
 :
 :
-GetMozBackgroundRequest
+MozBackgroundRequest
 (
 )
 {
@@ -18426,7 +18426,7 @@ _retval
 *
 _retval
 =
-GetWithCredentials
+WithCredentials
 (
 )
 ;
@@ -18438,7 +18438,7 @@ bool
 nsXMLHttpRequest
 :
 :
-GetWithCredentials
+WithCredentials
 (
 )
 {
@@ -20577,7 +20577,7 @@ nsXMLHttpRequestUpload
 nsXMLHttpRequest
 :
 :
-GetUpload
+Upload
 (
 )
 {
@@ -20618,7 +20618,7 @@ nsXMLHttpRequestUpload
 >
 upload
 =
-GetUpload
+Upload
 (
 )
 ;
@@ -20637,7 +20637,7 @@ bool
 nsXMLHttpRequest
 :
 :
-GetMozAnon
+MozAnon
 (
 )
 {
@@ -20659,7 +20659,7 @@ aAnon
 *
 aAnon
 =
-GetMozAnon
+MozAnon
 (
 )
 ;
@@ -20671,7 +20671,7 @@ bool
 nsXMLHttpRequest
 :
 :
-GetMozSystem
+MozSystem
 (
 )
 {
@@ -20695,7 +20695,7 @@ aSystem
 *
 aSystem
 =
-GetMozSystem
+MozSystem
 (
 )
 ;

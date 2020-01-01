@@ -641,7 +641,7 @@ aString
 ;
 }
 uint32_t
-GetLength
+Length
 (
 )
 {

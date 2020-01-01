@@ -2823,7 +2823,7 @@ mReadyState
 xhr
 -
 >
-GetReadyState
+ReadyState
 (
 )
 ;
