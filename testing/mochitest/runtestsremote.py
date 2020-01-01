@@ -4513,11 +4513,7 @@ retVal
 =
 1
         
-if
-retVal
-=
-=
-0
+else
 :
             
 #
@@ -4543,13 +4539,24 @@ tests
 actually
 passed
             
-retVal
+overallResult
 =
 mochitest
 .
 printLog
 (
 )
+            
+if
+retVal
+=
+=
+0
+:
+                
+retVal
+=
+overallResult
     
 else
 :
