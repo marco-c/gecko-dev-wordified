@@ -905,7 +905,7 @@ addScript
 (
 ss
 .
-_getScriptLabel
+getScriptLabel
 (
 loc
 url
