@@ -402,6 +402,7 @@ arena
 SECAlgorithmID
 *
 dest
+const
 SECAlgorithmID
 *
 src
@@ -429,6 +430,7 @@ extern
 SECOidTag
 SECOID_GetAlgorithmTag
 (
+const
 SECAlgorithmID
 *
 aid

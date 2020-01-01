@@ -105,6 +105,7 @@ h
 SECOidTag
 SECOID_GetAlgorithmTag
 (
+const
 SECAlgorithmID
 *
 id
@@ -583,6 +584,7 @@ arena
 SECAlgorithmID
 *
 to
+const
 SECAlgorithmID
 *
 from

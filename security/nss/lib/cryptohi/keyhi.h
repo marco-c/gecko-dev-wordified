@@ -549,6 +549,7 @@ SECKEYPublicKey
 *
 SECKEY_DecodeDERPublicKey
 (
+const
 SECItem
 *
 pubkder
@@ -578,6 +579,7 @@ SECKEYPublicKey
 *
 SECKEY_ConvertAndDecodePublicKey
 (
+const
 char
 *
 pubkstr
@@ -685,6 +687,7 @@ CERTSubjectPublicKeyInfo
 *
 SECKEY_DecodeDERSubjectPublicKeyInfo
 (
+const
 SECItem
 *
 spkider
@@ -718,6 +721,7 @@ CERTSubjectPublicKeyInfo
 *
 SECKEY_ConvertAndDecodeSubjectPublicKeyInfo
 (
+const
 char
 *
 spkistr
@@ -752,6 +756,7 @@ SECKEYPublicKey
 *
 SECKEY_ExtractPublicKey
 (
+const
 CERTSubjectPublicKeyInfo
 *
 )
@@ -1040,6 +1045,7 @@ poolp
 SECKEYPrivateKeyInfo
 *
 to
+const
 SECKEYPrivateKeyInfo
 *
 from
@@ -1138,6 +1144,7 @@ poolp
 SECKEYEncryptedPrivateKeyInfo
 *
 to
+const
 SECKEYEncryptedPrivateKeyInfo
 *
 from
@@ -1162,6 +1169,7 @@ keys
 KeyType
 SECKEY_GetPrivateKeyType
 (
+const
 SECKEYPrivateKey
 *
 privKey
@@ -1170,6 +1178,7 @@ privKey
 KeyType
 SECKEY_GetPublicKeyType
 (
+const
 SECKEYPublicKey
 *
 pubKey
@@ -1201,6 +1210,7 @@ SECKEYPublicKey
 *
 SECKEY_ImportDERPublicKey
 (
+const
 SECItem
 *
 derKey
