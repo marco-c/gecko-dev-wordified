@@ -511,7 +511,7 @@ HAS_GETTER_OBJECT
 ;
 GetterSetterWriteBarrierPost
 (
-runtime
+runtimeFromMainThread
 (
 )
 &
@@ -544,7 +544,7 @@ HAS_SETTER_OBJECT
 ;
 GetterSetterWriteBarrierPost
 (
-runtime
+runtimeFromMainThread
 (
 )
 &
@@ -654,7 +654,7 @@ rawGetter
 )
 GetterSetterWriteBarrierPost
 (
-runtime
+runtimeFromMainThread
 (
 )
 &
@@ -681,7 +681,7 @@ rawSetter
 )
 GetterSetterWriteBarrierPost
 (
-runtime
+runtimeFromMainThread
 (
 )
 &
@@ -761,7 +761,7 @@ getterObj
 ;
 GetterSetterWriteBarrierPost
 (
-runtime
+runtimeFromMainThread
 (
 )
 &
@@ -777,7 +777,7 @@ rawGetter
 )
 GetterSetterWriteBarrierPostRemove
 (
-runtime
+runtimeFromMainThread
 (
 )
 &
@@ -806,7 +806,7 @@ setterObj
 ;
 GetterSetterWriteBarrierPost
 (
-runtime
+runtimeFromMainThread
 (
 )
 &
@@ -822,7 +822,7 @@ rawSetter
 )
 GetterSetterWriteBarrierPostRemove
 (
-runtime
+runtimeFromMainThread
 (
 )
 &
@@ -2279,7 +2279,7 @@ shape
 shape
 -
 >
-runtime
+runtimeFromAnyThread
 (
 )
 -
@@ -2498,7 +2498,7 @@ base
 base
 -
 >
-runtime
+runtimeFromAnyThread
 (
 )
 -

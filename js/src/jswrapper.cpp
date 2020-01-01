@@ -1119,7 +1119,7 @@ toObject
 (
 )
 .
-runtime
+runtimeFromMainThread
 (
 )
 &

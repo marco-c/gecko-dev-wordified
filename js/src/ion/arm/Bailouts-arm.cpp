@@ -862,7 +862,9 @@ compartment
 )
 -
 >
-rt
+runtimeFromMainThread
+(
+)
 ;
 IonCode
 *

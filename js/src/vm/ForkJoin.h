@@ -3561,7 +3561,7 @@ false
 endif
 }
 bool
-InSequentialOrExclusiveParallelSection
+InExclusiveParallelSection
 (
 )
 ;

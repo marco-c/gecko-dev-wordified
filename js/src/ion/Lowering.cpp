@@ -18199,13 +18199,12 @@ safepoint
 .
 return
 !
-gen
+GetIonContext
+(
+)
 -
 >
-compartment
--
->
-rt
+runtime
 -
 >
 spsProfiler

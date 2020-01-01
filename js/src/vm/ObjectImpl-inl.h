@@ -1068,8 +1068,14 @@ const
 {
 JS_ASSERT
 (
-InSequentialOrExclusiveParallelSection
+CurrentThreadCanAccessZone
 (
+shape_
+-
+>
+zone
+(
+)
 )
 )
 ;
@@ -1132,7 +1138,9 @@ MOZ_ASSERT
 zone
 -
 >
-rt
+runtimeFromMainThread
+(
+)
 -
 >
 isHeapMajorCollecting
@@ -1281,7 +1289,7 @@ pprivate
 #
 ifdef
 JSGC_GENERATIONAL
-runtime
+runtimeFromAnyThread
 (
 )
 -
@@ -1370,7 +1378,7 @@ obj
 obj
 -
 >
-runtime
+runtimeFromMainThread
 (
 )
 -
@@ -1408,7 +1416,9 @@ MOZ_ASSERT
 zone
 -
 >
-rt
+runtimeFromMainThread
+(
+)
 -
 >
 isHeapMajorCollecting
@@ -1498,7 +1508,7 @@ return
 obj
 -
 >
-runtime
+runtimeFromAnyThread
 (
 )
 -
@@ -1547,7 +1557,7 @@ JSGC_GENERATIONAL
 obj
 -
 >
-runtime
+runtimeFromAnyThread
 (
 )
 -
@@ -1596,7 +1606,7 @@ JSGC_GENERATIONAL
 obj
 -
 >
-runtime
+runtimeFromAnyThread
 (
 )
 -

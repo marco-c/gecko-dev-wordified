@@ -1710,7 +1710,7 @@ JSRuntime
 *
 rt
 =
-runtime
+runtimeFromAnyThread
 (
 )
 ;
@@ -1823,7 +1823,7 @@ JSRuntime
 *
 rt
 =
-runtime
+runtimeFromAnyThread
 (
 )
 ;

@@ -460,7 +460,7 @@ isMarkable
 )
 &
 &
-runtime
+runtimeFromAnyThread
 (
 value
 )
@@ -518,7 +518,7 @@ value
 isMarkable
 (
 )
-runtime
+runtimeFromMainThread
 (
 value
 )
@@ -903,7 +903,9 @@ value
 zone
 -
 >
-rt
+runtimeFromMainThread
+(
+)
 -
 >
 atomsCompartment
@@ -940,7 +942,9 @@ post
 zone
 -
 >
-rt
+runtimeFromAnyThread
+(
+)
 )
 ;
 }
@@ -971,7 +975,7 @@ isMarkable
 (
 )
 )
-runtime
+runtimeFromMainThread
 (
 value
 )
@@ -1187,7 +1191,7 @@ isMarkable
 )
 relocate
 (
-runtime
+runtimeFromMainThread
 (
 value
 )
@@ -1254,7 +1258,7 @@ JSRuntime
 *
 rt
 =
-runtime
+runtimeFromMainThread
 (
 value
 )
@@ -1347,7 +1351,7 @@ JSRuntime
 *
 rt
 =
-runtime
+runtimeFromMainThread
 (
 value
 )
@@ -1399,7 +1403,7 @@ isMarkable
 )
 )
 ;
-runtime
+runtimeFromMainThread
 (
 value
 )
@@ -1808,7 +1812,9 @@ post
 zone
 -
 >
-rt
+runtimeFromAnyThread
+(
+)
 obj
 kind
 slot
@@ -1842,7 +1848,7 @@ writeBarrierPost
 obj
 -
 >
-runtime
+runtimeFromAnyThread
 (
 )
 obj

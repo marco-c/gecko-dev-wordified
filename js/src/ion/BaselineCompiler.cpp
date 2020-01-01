@@ -2708,12 +2708,9 @@ void
 cx
 -
 >
-compartment
+runtime
 (
 )
--
->
-rt
 -
 >
 interrupt

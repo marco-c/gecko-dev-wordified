@@ -1857,13 +1857,12 @@ void
 *
 )
 &
-gen
+GetIonContext
+(
+)
 -
 >
-compartment
--
->
-rt
+runtime
 -
 >
 interrupt

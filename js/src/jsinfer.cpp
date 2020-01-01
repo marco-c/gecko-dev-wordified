@@ -44431,7 +44431,9 @@ gcstats
 AutoPhase
 ap
 (
-rt
+runtimeFromMainThread
+(
+)
 -
 >
 gcStats
@@ -46476,12 +46478,12 @@ JSRuntime
 *
 rt
 =
-zone
-(
-)
+fop
 -
 >
-rt
+runtime
+(
+)
 ;
 /
 *

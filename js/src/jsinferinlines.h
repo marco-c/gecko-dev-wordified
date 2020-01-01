@@ -10551,7 +10551,7 @@ type
 type
 -
 >
-runtime
+runtimeFromAnyThread
 (
 )
 -
@@ -10721,7 +10721,7 @@ newScript
 fun
 -
 >
-runtime
+runtimeFromAnyThread
 (
 )
 -

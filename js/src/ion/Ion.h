@@ -1134,6 +1134,9 @@ temp
 ;
 IonContext
 (
+JSRuntime
+*
+rt
 JSCompartment
 *
 comp
