@@ -25510,6 +25510,13 @@ jsval
 vp
 )
 {
+JSAutoResolveFlags
+rf
+(
+cx
+JSRESOLVE_QUALIFIED
+)
+;
 if
 (
 obj
