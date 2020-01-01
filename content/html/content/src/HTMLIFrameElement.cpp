@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsIDOMSVGDocument
-.
-h
-"
-#
-include
-"
 nsMappedAttributes
 .
 h
