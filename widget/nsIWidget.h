@@ -6304,7 +6304,6 @@ aOpaqueRegion
 )
 {
 }
-;
 /
 *
 *
