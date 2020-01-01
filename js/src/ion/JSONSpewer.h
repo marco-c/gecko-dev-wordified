@@ -687,6 +687,14 @@ def
 )
 ;
 void
+spewMResumePoint
+(
+MResumePoint
+*
+rp
+)
+;
+void
 spewMIR
 (
 MIRGraph
