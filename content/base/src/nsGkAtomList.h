@@ -3744,13 +3744,6 @@ isempty
 )
 GK_ATOM
 (
-isindex
-"
-isindex
-"
-)
-GK_ATOM
-(
 ismap
 "
 ismap
