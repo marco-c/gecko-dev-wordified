@@ -2139,6 +2139,7 @@ AdjustView
 {
 if
 (
+(
 mPopupState
 =
 =
@@ -2149,6 +2150,10 @@ mPopupState
 =
 =
 ePopupOpenAndVisible
+)
+&
+&
+mGeneratedChildren
 )
 {
 /
