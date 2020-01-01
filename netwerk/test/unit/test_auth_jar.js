@@ -107,17 +107,6 @@ run_test
 (
 )
 {
-/
-/
-Set
-up
-a
-profile
-.
-do_get_profile
-(
-)
-;
 var
 secMan
 =
