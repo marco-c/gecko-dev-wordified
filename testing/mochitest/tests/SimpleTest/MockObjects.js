@@ -324,9 +324,9 @@ aOuter
 null
 )
 throw
-Components
+SpecialPowers
 .
-results
+Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;
