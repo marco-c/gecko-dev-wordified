@@ -11396,7 +11396,7 @@ releaseRegisters
 (
 )
 ;
-AvmAssert
+NanoAssert
 (
 _allocator
 .
@@ -11622,7 +11622,7 @@ any
 forward
 edges
 .
-AvmAssert
+NanoAssert
 (
 _allocator
 .

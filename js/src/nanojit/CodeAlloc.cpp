@@ -1288,7 +1288,7 @@ size
 )
 )
 ;
-AvmAssert
+NanoAssert
 (
 !
 blk
