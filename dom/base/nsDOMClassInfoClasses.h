@@ -1774,10 +1774,6 @@ MozCSSKeyframesRule
 )
 DOMCI_CLASS
 (
-CSSPageRule
-)
-DOMCI_CLASS
-(
 MediaQueryList
 )
 DOMCI_CLASS
