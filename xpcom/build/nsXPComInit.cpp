@@ -3964,10 +3964,6 @@ NS_LogTerm
 (
 )
 ;
-profiler_shutdown
-(
-)
-;
 return
 NS_OK
 ;
