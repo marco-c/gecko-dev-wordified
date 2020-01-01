@@ -2890,10 +2890,8 @@ length
 if
 (
 aSourceBufferLen
-=
-=
--
-1
+<
+0
 )
 {
 aSourceBufferLen
@@ -2927,7 +2925,10 @@ len
 /
 if
 (
+PRUint32
+(
 aSourceBufferLen
+)
 >
 =
 (
