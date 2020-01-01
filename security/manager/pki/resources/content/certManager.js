@@ -4287,7 +4287,7 @@ bundle
 GetStringFromName
 (
 "
-importWebSiteCertPrompt
+importServerCertPrompt
 "
 )
 nsIFilePicker
