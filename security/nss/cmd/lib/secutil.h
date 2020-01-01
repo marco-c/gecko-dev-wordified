@@ -2407,7 +2407,6 @@ out
 CERTName
 *
 name
-const
 char
 *
 msg
@@ -2425,7 +2424,6 @@ out
 CERTRDN
 *
 rdn
-const
 char
 *
 msg
