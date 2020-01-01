@@ -15,7 +15,10 @@ h
 /
 /
 for
-js_IsInternalFunctionObject
+js
+:
+:
+IsInternalFunctionObject
 BEGIN_TEST
 (
 testLookup_bug522590
@@ -205,7 +208,10 @@ funobj
 CHECK
 (
 !
-js_IsInternalFunctionObject
+js
+:
+:
+IsInternalFunctionObject
 (
 funobj
 )
