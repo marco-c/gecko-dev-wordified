@@ -6042,7 +6042,7 @@ ourShell
 ourDoc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -6053,7 +6053,7 @@ otherShell
 otherDoc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

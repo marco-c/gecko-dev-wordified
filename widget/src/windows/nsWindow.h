@@ -2003,6 +2003,15 @@ CanTakeFocus
 PRBool
 UpdateNonClientMargins
 (
+PRInt32
+aSizeMode
+=
+-
+1
+PRBool
+aRefreshWindow
+=
+PR_TRUE
 )
 ;
 #
@@ -2882,6 +2891,9 @@ mUnicodeWidget
 PRPackedBool
 mPainting
 ;
+PRPackedBool
+mExitToNonClientArea
+;
 PRUint32
 mBlurSuppressLevel
 ;
@@ -2915,6 +2927,9 @@ mDisplayPanFeedback
 ;
 PRPackedBool
 mHideChrome
+;
+nsSizeMode
+mOldSizeMode
 ;
 WindowHook
 mWindowHook
@@ -3050,7 +3065,10 @@ s
 resize
 border
 PRInt32
-mResizeMargin
+mHorResizeMargin
+;
+PRInt32
+mVertResizeMargin
 ;
 /
 /

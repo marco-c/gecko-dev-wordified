@@ -5028,6 +5028,13 @@ onmouseover
 )
 GK_ATOM
 (
+onMozMouseHittest
+"
+onMozMouseHittest
+"
+)
+GK_ATOM
+(
 onmouseup
 "
 onmouseup
@@ -5136,6 +5143,13 @@ GK_ATOM
 onpopupshown
 "
 onpopupshown
+"
+)
+GK_ATOM
+(
+onreadystatechange
+"
+onreadystatechange
 "
 )
 GK_ATOM
