@@ -563,6 +563,7 @@ INT_TO_JSVAL
 AUTOMOUNTER_DISABLE
 )
 callback
+nullptr
 )
 ;
 }
