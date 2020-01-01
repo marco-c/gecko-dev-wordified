@@ -1227,13 +1227,13 @@ nsIFilePicker
 :
 modeOpen
 )
-mAllowURLs
-(
-PR_FALSE
-)
 mSelectedType
 (
 0
+)
+mAllowURLs
+(
+PR_FALSE
 )
 {
 }
