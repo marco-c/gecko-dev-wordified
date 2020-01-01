@@ -2579,17 +2579,6 @@ JSBool
 res
 )
 ;
-bool
-CloseIteratorFromIon
-(
-JSContext
-*
-cx
-JSObject
-*
-obj
-)
-;
 /
 /
 Allocation

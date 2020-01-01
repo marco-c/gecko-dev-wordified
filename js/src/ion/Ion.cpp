@@ -1607,13 +1607,6 @@ runtime
 >
 ionJSContext
 )
-savedEnumerators_
-(
-cx
--
->
-enumerators
-)
 {
 fp
 -
