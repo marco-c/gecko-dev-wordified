@@ -13644,7 +13644,7 @@ let
 prompt
 =
 new
-Promt
+Prompt
 (
 {
 window
