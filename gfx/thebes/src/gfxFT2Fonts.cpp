@@ -1622,7 +1622,7 @@ family
 )
 familyArray
 .
-AppendString
+AppendElement
 (
 NS_ConvertUTF8toUTF16
 (
