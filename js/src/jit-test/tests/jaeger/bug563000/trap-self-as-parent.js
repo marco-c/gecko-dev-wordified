@@ -17,6 +17,11 @@ x
 notset
 "
 ;
+dis
+(
+myparent
+)
+;
 function
 myparent
 (
@@ -39,7 +44,7 @@ myparent
 trap
 (
 myparent
-50
+58
 "
 success
 (

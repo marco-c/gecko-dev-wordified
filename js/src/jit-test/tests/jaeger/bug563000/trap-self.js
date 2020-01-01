@@ -27,14 +27,14 @@ main
 The
 JSOP_STOP
 in
-main
+a
 .
 *
 /
 trap
 (
 main
-25
+29
 "
 success
 (

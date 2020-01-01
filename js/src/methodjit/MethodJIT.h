@@ -3155,6 +3155,17 @@ check
 address
 *
 /
+void
+*
+argsCheckEntry
+;
+/
+*
+arguments
+check
+address
+*
+/
 /
 *
 *

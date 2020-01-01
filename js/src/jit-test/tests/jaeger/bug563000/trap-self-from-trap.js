@@ -23,6 +23,11 @@ doNothing
 )
 {
 }
+dis
+(
+myparent
+)
+;
 function
 myparent
 (
@@ -51,7 +56,7 @@ true
 trap
 (
 myparent
-24
+30
 "
 success
 (
@@ -89,7 +94,7 @@ false
 trap
 (
 myparent
-35
+43
 "
 myparent
 (
