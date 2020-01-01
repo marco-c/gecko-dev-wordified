@@ -3541,8 +3541,6 @@ eCSSKeyword__moz_alias
 NS_STYLE_CURSOR_ALIAS
 eCSSKeyword__moz_context_menu
 NS_STYLE_CURSOR_CONTEXT_MENU
-eCSSKeyword__moz_cell
-NS_STYLE_CURSOR_CELL
 /
 /
 -
