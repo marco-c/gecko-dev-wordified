@@ -2675,7 +2675,7 @@ true
 /
 /
 Specify
-emptySearch
+emptyRestriction
 =
 0
 so
