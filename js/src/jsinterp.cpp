@@ -5733,7 +5733,19 @@ thisp
 =
 &
 js_CallClass
+|
+|
+OBJ_GET_CLASS
+(
+cx
+thisp
 )
+=
+=
+&
+js_BlockClass
+)
+{
 return
 js_ComputeGlobalThis
 (
@@ -5742,6 +5754,7 @@ lazy
 argv
 )
 ;
+}
 if
 (
 thisp
