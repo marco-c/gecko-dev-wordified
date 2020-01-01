@@ -13086,7 +13086,7 @@ ConnectToInner
 nsIScriptGlobalObject
 *
 aNewInner
-void
+JSObject
 *
 aOuterGlobal
 )
@@ -13112,16 +13112,6 @@ GetGlobalJSObject
 ;
 #
 endif
-JSObject
-*
-outerGlobal
-=
-(
-JSObject
-*
-)
-aOuterGlobal
-;
 /
 /
 Now
@@ -13178,7 +13168,7 @@ changed
 JS_SetGlobalObject
 (
 mContext
-outerGlobal
+aOuterGlobal
 )
 ;
 NS_ASSERTION
@@ -13186,7 +13176,7 @@ NS_ASSERTION
 JS_GetPrototype
 (
 mContext
-outerGlobal
+aOuterGlobal
 )
 =
 =
