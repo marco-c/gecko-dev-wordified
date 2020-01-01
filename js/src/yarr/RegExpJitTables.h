@@ -1,3 +1,9 @@
+#
+ifndef
+yarr_RegExpJitTables_h
+#
+define
+yarr_RegExpJitTables_h
 static
 const
 char
@@ -131877,3 +131883,10 @@ return
 characterClass
 ;
 }
+#
+endif
+/
+*
+yarr_RegExpJitTables_h
+*
+/

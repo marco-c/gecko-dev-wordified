@@ -316,10 +316,10 @@ DAMAGE
 /
 #
 ifndef
-Yarr_h
+yarr_Yarr_h
 #
 define
-Yarr_h
+yarr_Yarr_h
 #
 include
 <
@@ -508,5 +508,7 @@ Yarr
 #
 endif
 /
+*
+yarr_Yarr_h
+*
 /
-Yarr_h

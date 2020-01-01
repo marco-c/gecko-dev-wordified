@@ -291,10 +291,10 @@ DAMAGE
 /
 #
 ifndef
-YarrInterpreter_h
+yarr_YarrInterpreter_h
 #
 define
-YarrInterpreter_h
+yarr_YarrInterpreter_h
 #
 include
 "
@@ -1799,5 +1799,7 @@ Yarr
 #
 endif
 /
+*
+yarr_YarrInterpreter_h
+*
 /
-YarrInterpreter_h

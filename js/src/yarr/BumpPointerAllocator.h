@@ -319,10 +319,10 @@ BLOCK
 /
 #
 ifndef
-BumpPointerAllocator_h
+yarr_BumpPointerAllocator_h
 #
 define
-BumpPointerAllocator_h
+yarr_BumpPointerAllocator_h
 #
 include
 "
@@ -1854,5 +1854,7 @@ BumpPointerAllocator
 #
 endif
 /
+*
+yarr_BumpPointerAllocator_h
+*
 /
-BumpPointerAllocator_h

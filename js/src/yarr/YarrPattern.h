@@ -311,10 +311,10 @@ DAMAGE
 /
 #
 ifndef
-YarrPattern_h
+yarr_YarrPattern_h
 #
 define
-YarrPattern_h
+yarr_YarrPattern_h
 #
 include
 "
@@ -1932,5 +1932,7 @@ Yarr
 #
 endif
 /
+*
+yarr_YarrPattern_h
+*
 /
-YarrPattern_h

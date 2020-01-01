@@ -290,10 +290,10 @@ DAMAGE
 /
 #
 ifndef
-YarrParser_h
+yarr_YarrParser_h
 #
 define
-YarrParser_h
+yarr_YarrParser_h
 #
 include
 "
@@ -4412,5 +4412,7 @@ Yarr
 #
 endif
 /
+*
+yarr_YarrParser_h
+*
 /
-YarrParser_h

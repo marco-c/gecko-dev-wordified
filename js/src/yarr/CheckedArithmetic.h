@@ -290,10 +290,10 @@ DAMAGE
 /
 #
 ifndef
-CheckedArithmetic_h
+yarr_CheckedArithmetic_h
 #
 define
-CheckedArithmetic_h
+yarr_CheckedArithmetic_h
 #
 include
 "
@@ -4954,3 +4954,8 @@ RecordOverflow
 ;
 #
 endif
+/
+*
+yarr_CheckedArithmetic_h
+*
+/

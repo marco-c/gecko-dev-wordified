@@ -323,10 +323,10 @@ BLOCK
 /
 #
 ifndef
-OSAllocator_h
+yarr_OSAllocator_h
 #
 define
-OSAllocator_h
+yarr_OSAllocator_h
 #
 include
 <
@@ -893,5 +893,7 @@ OSAllocator
 #
 endif
 /
+*
+yarr_OSAllocator_h
+*
 /
-OSAllocator_h

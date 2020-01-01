@@ -323,10 +323,10 @@ BLOCK
 /
 #
 ifndef
-PageBlock_h
+yarr_PageBlock_h
 #
 define
-PageBlock_h
+yarr_PageBlock_h
 #
 include
 "
@@ -636,5 +636,7 @@ isPowerOfTwo
 #
 endif
 /
+*
+yarr_PageBlock_h
+*
 /
-PageBlock_h

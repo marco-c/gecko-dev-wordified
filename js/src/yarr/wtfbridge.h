@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jswtfbridge_h__
+yarr_wtfbridge_h
 #
 define
-jswtfbridge_h__
+yarr_wtfbridge_h
 /
 *
 *
@@ -1659,3 +1659,8 @@ define
 JS_EXPORT_PRIVATE
 #
 endif
+/
+*
+yarr_wtfbridge_h
+*
+/

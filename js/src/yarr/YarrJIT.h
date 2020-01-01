@@ -290,10 +290,10 @@ DAMAGE
 /
 #
 ifndef
-YarrJIT_h
+yarr_YarrJIT_h
 #
 define
-YarrJIT_h
+yarr_YarrJIT_h
 #
 include
 "
@@ -1153,5 +1153,7 @@ endif
 #
 endif
 /
+*
+yarr_YarrJIT_h
+*
 /
-YarrJIT_h

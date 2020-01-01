@@ -319,10 +319,10 @@ BLOCK
 /
 #
 ifndef
-PageAllocation_h
+yarr_PageAllocation_h
 #
 define
-PageAllocation_h
+yarr_PageAllocation_h
 #
 include
 "
@@ -861,5 +861,7 @@ PageAllocation
 #
 endif
 /
+*
+yarr_PageAllocation_h
+*
 /
-PageAllocation_h

@@ -290,10 +290,10 @@ DAMAGE
 /
 #
 ifndef
-YarrCanonicalizeUCS2_H
+yarr_YarrCanonicalizeUCS2_h
 #
 define
-YarrCanonicalizeUCS2_H
+yarr_YarrCanonicalizeUCS2_h
 #
 include
 "
@@ -1086,3 +1086,8 @@ JSC
 Yarr
 #
 endif
+/
+*
+yarr_YarrCanonicalizeUCS2_h
+*
+/

@@ -363,10 +363,10 @@ BLOCK
 /
 #
 ifndef
-WTF_ASCIICType_h
+yarr_ASCIICType_h
 #
 define
-WTF_ASCIICType_h
+yarr_ASCIICType_h
 #
 include
 "
@@ -3061,3 +3061,8 @@ toASCIIUpper
 ;
 #
 endif
+/
+*
+yarr_ASCIICType_h
+*
+/

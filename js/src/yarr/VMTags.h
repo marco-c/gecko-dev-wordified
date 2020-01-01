@@ -290,10 +290,10 @@ DAMAGE
 /
 #
 ifndef
-VMTags_h
+yarr_VMTags_h
 #
 define
-VMTags_h
+yarr_VMTags_h
 /
 /
 On
@@ -619,5 +619,7 @@ DARWIN
 #
 endif
 /
+*
+yarr_VMTags_h
+*
 /
-VMTags_h
