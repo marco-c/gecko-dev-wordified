@@ -9369,7 +9369,7 @@ stream
 -
 deflate
 "
-false
+true
 )
 ;
 /
