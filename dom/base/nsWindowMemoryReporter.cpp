@@ -923,6 +923,9 @@ aWindow
 }
 if
 (
+addonManager
+&
+&
 location
 )
 {
