@@ -115,6 +115,13 @@ function
 let
 sourceGroup
 =
+createGroupItem
+(
+)
+;
+let
+targetGroup
+=
 cw
 .
 GroupItems
@@ -123,13 +130,6 @@ groupItems
 [
 0
 ]
-;
-let
-targetGroup
-=
-createGroupItem
-(
-)
 ;
 sourceGroup
 .
