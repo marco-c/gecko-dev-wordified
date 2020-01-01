@@ -260,9 +260,6 @@ class
 nsFrameLoader
 ;
 class
-nsIDOMElement
-;
-class
 nsIURI
 ;
 class
@@ -293,6 +290,9 @@ dom
 {
 class
 ClonedMessageData
+;
+class
+Element
 ;
 struct
 StructuredCloneData
@@ -358,11 +358,12 @@ TabParent
 (
 )
 ;
-nsIDOMElement
+Element
 *
 GetOwnerElement
 (
 )
+const
 {
 return
 mFrameElement
@@ -371,7 +372,7 @@ mFrameElement
 void
 SetOwnerElement
 (
-nsIDOMElement
+Element
 *
 aElement
 )
@@ -1514,7 +1515,7 @@ bool
 aAllowed
 )
 ;
-nsIDOMElement
+Element
 *
 mFrameElement
 ;

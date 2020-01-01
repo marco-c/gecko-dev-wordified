@@ -204,6 +204,9 @@ devicesensors
 1
 "
 class
+nsIDocument
+;
+class
 nsIDOMWindow
 ;
 namespace
@@ -335,10 +338,9 @@ aNear
 void
 FireDOMOrientationEvent
 (
-class
-nsIDOMDocument
+nsIDocument
 *
-domDoc
+doc
 mozilla
 :
 :
@@ -359,10 +361,9 @@ gamma
 void
 FireDOMMotionEvent
 (
-class
-nsIDOMDocument
+nsIDocument
 *
-domDoc
+doc
 mozilla
 :
 :

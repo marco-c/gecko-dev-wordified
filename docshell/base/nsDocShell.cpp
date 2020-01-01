@@ -50877,7 +50877,7 @@ it
 /
 nsCOMPtr
 <
-nsIDOMElement
+Element
 >
 requestingElement
 ;

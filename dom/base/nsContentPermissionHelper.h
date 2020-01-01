@@ -88,13 +88,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -124,6 +117,9 @@ namespace
 dom
 {
 class
+Element
+;
+class
 ContentPermissionRequestParent
 :
 public
@@ -141,7 +137,7 @@ const
 nsACString
 &
 access
-nsIDOMElement
+Element
 *
 element
 const
@@ -167,7 +163,7 @@ mPrincipal
 ;
 nsCOMPtr
 <
-nsIDOMElement
+Element
 >
 mElement
 ;

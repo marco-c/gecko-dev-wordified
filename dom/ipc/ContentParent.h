@@ -631,7 +631,7 @@ const
 TabContext
 &
 aContext
-nsIDOMElement
+Element
 *
 aFrameElement
 )
@@ -1165,7 +1165,7 @@ hal
 ProcessPriority
 GetInitialProcessPriority
 (
-nsIDOMElement
+Element
 *
 aFrameElement
 )
@@ -1323,7 +1323,7 @@ first
 void
 MaybeTakeCPUWakeLock
 (
-nsIDOMElement
+Element
 *
 aFrameElement
 )

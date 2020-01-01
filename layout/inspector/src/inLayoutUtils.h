@@ -100,6 +100,9 @@ __inLayoutUtils_h__
 define
 __inLayoutUtils_h__
 class
+nsIDocument
+;
+class
 nsIDOMDocument
 ;
 class
@@ -193,8 +196,9 @@ nsIDOMNode
 *
 GetContainerFor
 (
-nsIDOMDocument
-*
+const
+nsIDocument
+&
 aDoc
 )
 ;

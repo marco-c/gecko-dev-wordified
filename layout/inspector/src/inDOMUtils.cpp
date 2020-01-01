@@ -753,7 +753,7 @@ anonymous
 content
 nsCOMPtr
 <
-nsIDOMDocument
+nsIDocument
 >
 doc
 (
@@ -781,6 +781,7 @@ inLayoutUtils
 :
 GetContainerFor
 (
+*
 doc
 )
 ;
