@@ -470,17 +470,6 @@ gecko
 .
 gfx
 .
-IntPoint
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-gfx
-.
 LayerController
 ;
 import

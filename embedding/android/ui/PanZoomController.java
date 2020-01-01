@@ -472,17 +472,6 @@ gecko
 .
 gfx
 .
-IntPoint
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-gfx
-.
 IntRect
 ;
 import
