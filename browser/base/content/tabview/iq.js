@@ -4408,9 +4408,7 @@ self
 =
 this
 ;
-Utils
-.
-timeout
+setTimeout
 (
 function
 (
