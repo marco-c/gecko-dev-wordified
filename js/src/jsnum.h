@@ -326,7 +326,10 @@ JSString
 *
 js_NumberToString
 (
-JSContext
+js
+:
+:
+ThreadSafeContext
 *
 cx
 double
@@ -346,9 +349,9 @@ JSFlatString
 *
 Int32ToString
 (
-JSContext
+ThreadSafeContext
 *
-cx
+tcx
 int32_t
 i
 )
