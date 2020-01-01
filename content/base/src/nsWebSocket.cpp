@@ -1206,7 +1206,7 @@ if
 mReadyState
 =
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CONNECTING
@@ -1214,7 +1214,7 @@ CONNECTING
 {
 SetReadyState
 (
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CLOSED
@@ -1245,7 +1245,7 @@ NS_OK
 }
 SetReadyState
 (
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CLOSING
@@ -1258,7 +1258,7 @@ mDisconnected
 {
 SetReadyState
 (
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CLOSED
@@ -1367,7 +1367,7 @@ if
 (
 mReadyState
 <
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 OPEN
@@ -1850,7 +1850,7 @@ if
 mReadyState
 =
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 OPEN
@@ -1927,7 +1927,7 @@ NS_ASSERTION
 mReadyState
 =
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CLOSING
@@ -2057,7 +2057,7 @@ UpdateURI
 ;
 SetReadyState
 (
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 OPEN
@@ -2119,7 +2119,7 @@ NS_BASE_STREAM_CLOSED
 mReadyState
 >
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CLOSING
@@ -2192,7 +2192,7 @@ event
 }
 SetReadyState
 (
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CLOSED
@@ -2807,7 +2807,7 @@ CLOSE_ABNORMAL
 )
 mReadyState
 (
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CONNECTING
@@ -2966,7 +2966,7 @@ mChannel
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 DOMCI_DATA
 (
-MozWebSocket
+WebSocket
 nsWebSocket
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
@@ -2975,7 +2975,7 @@ nsWebSocket
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIMozWebSocket
+nsIWebSocket
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -2995,7 +2995,7 @@ nsIRequest
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
-MozWebSocket
+WebSocket
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
@@ -5265,7 +5265,7 @@ NS_ABORT_IF_FALSE
 aNewReadyState
 =
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 OPEN
@@ -5276,7 +5276,7 @@ OPEN
 aNewReadyState
 =
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CLOSING
@@ -5287,7 +5287,7 @@ CLOSING
 aNewReadyState
 =
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CLOSED
@@ -5303,7 +5303,7 @@ if
 aNewReadyState
 =
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 OPEN
@@ -5314,7 +5314,7 @@ NS_ABORT_IF_FALSE
 mReadyState
 =
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CONNECTING
@@ -5374,7 +5374,7 @@ if
 aNewReadyState
 =
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CLOSING
@@ -5386,7 +5386,7 @@ NS_ABORT_IF_FALSE
 mReadyState
 =
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CONNECTING
@@ -5397,7 +5397,7 @@ CONNECTING
 mReadyState
 =
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 OPEN
@@ -5421,7 +5421,7 @@ if
 aNewReadyState
 =
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CLOSED
@@ -6191,7 +6191,7 @@ mReadyState
 )
 {
 case
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CONNECTING
@@ -6264,13 +6264,13 @@ true
 break
 ;
 case
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 OPEN
 :
 case
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CLOSING
@@ -6335,7 +6335,7 @@ true
 break
 ;
 case
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CLOSED
@@ -6787,7 +6787,7 @@ rv
 nsWebSocket
 :
 :
-nsIMozWebSocket
+nsIWebSocket
 methods
 :
 /
@@ -7325,7 +7325,7 @@ if
 mReadyState
 =
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CONNECTING
@@ -7388,7 +7388,7 @@ if
 mReadyState
 =
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CLOSING
@@ -7397,7 +7397,7 @@ CLOSING
 mReadyState
 =
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CLOSED
@@ -7412,7 +7412,7 @@ NS_ASSERTION
 mReadyState
 =
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 OPEN
@@ -8392,7 +8392,7 @@ if
 mReadyState
 =
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CLOSING
@@ -8401,7 +8401,7 @@ CLOSING
 mReadyState
 =
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CLOSED
@@ -8416,7 +8416,7 @@ if
 mReadyState
 =
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 CONNECTING
@@ -8462,7 +8462,7 @@ NS_OK
 mReadyState
 =
 =
-nsIMozWebSocket
+nsIWebSocket
 :
 :
 OPEN

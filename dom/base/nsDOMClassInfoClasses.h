@@ -2078,7 +2078,7 @@ DesktopNotificationCenter
 WebSocket
 DOMCI_CLASS
 (
-MozWebSocket
+WebSocket
 )
 DOMCI_CLASS
 (
