@@ -576,6 +576,11 @@ TabChild
 (
 )
 ;
+bool
+destroyWidget
+(
+)
+;
 nsresult
 Init
 (
@@ -595,12 +600,6 @@ const
 MagicWindowHandle
 &
 parentWidget
-)
-;
-virtual
-bool
-RecvdestroyWidget
-(
 )
 ;
 virtual

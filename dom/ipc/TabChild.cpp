@@ -1282,7 +1282,7 @@ bool
 TabChild
 :
 :
-RecvdestroyWidget
+destroyWidget
 (
 )
 {
@@ -1320,6 +1320,10 @@ TabChild
 (
 )
 {
+destroyWidget
+(
+)
+;
 nsCOMPtr
 <
 nsIWebBrowser
@@ -1345,14 +1349,6 @@ nsnull
 )
 ;
 }
-/
-/
-TODObsmedberg
-:
-destroy
-the
-window
-!
 }
 bool
 TabChild

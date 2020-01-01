@@ -510,7 +510,7 @@ TabParent
 class
 ContentProcessParent
 :
-private
+public
 PContentProcessParent
 public
 base
