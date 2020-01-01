@@ -1534,6 +1534,13 @@ Forward
 mLinkRule
 )
 ;
+ruleWalker
+-
+>
+SetHaveRelevantLink
+(
+)
+;
 }
 else
 if
@@ -1554,6 +1561,13 @@ ruleWalker
 Forward
 (
 mVisitedRule
+)
+;
+ruleWalker
+-
+>
+SetHaveRelevantLink
+(
 )
 ;
 }
