@@ -35521,6 +35521,15 @@ ResetRootElementAndEventTarget
 (
 )
 {
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 /
 /
 Need

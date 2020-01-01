@@ -1714,6 +1714,15 @@ nsIDocument
 aDocument
 )
 {
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 nsIContent
 *
 cur
