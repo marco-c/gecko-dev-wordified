@@ -346,7 +346,7 @@ an
 instance
 of
 *
-OpenWindowEventDetail
+nsIOpenWindowEventDetail
 .
 *
 *
