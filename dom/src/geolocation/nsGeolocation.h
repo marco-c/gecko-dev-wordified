@@ -376,6 +376,12 @@ SetTimeoutTimer
 (
 )
 ;
+nsIPrincipal
+*
+GetPrincipal
+(
+)
+;
 ~
 nsGeolocationRequest
 (
@@ -606,6 +612,9 @@ etc
 nsresult
 StartDevice
 (
+nsIPrincipal
+*
+aPrincipal
 bool
 aRequestPrivate
 )
