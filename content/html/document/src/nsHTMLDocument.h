@@ -2119,12 +2119,6 @@ mContentEditableCount
 EditingState
 mEditingState
 ;
-PRPackedBool
-mScriptsEnabled
-;
-PRPackedBool
-mPluginsEnabled
-;
 nsresult
 DoClipboardSecurityCheck
 (

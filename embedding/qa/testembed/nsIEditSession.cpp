@@ -1389,7 +1389,6 @@ editingSession
 TearDownEditorOnWindow
 (
 domWindow
-PR_FALSE
 )
 ;
 RvTestResult
