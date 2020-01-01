@@ -765,7 +765,7 @@ NS_BLOCK_LIST_COUNT
 (
 NS_CONTAINER_LIST_COUNT_INCL_OC
 +
-4
+5
 )
 /
 *
@@ -2585,6 +2585,13 @@ NS_INTRINSIC_WIDTH_UNKNOWN
 mPrefWidth
 (
 NS_INTRINSIC_WIDTH_UNKNOWN
+)
+mAbsoluteContainer
+(
+nsGkAtoms
+:
+:
+absoluteList
 )
 {
 #
@@ -5230,6 +5237,11 @@ nsBlockReflowState
 friend
 class
 nsBlockInFlowLineIterator
+;
+private
+:
+nsAbsoluteContainingBlock
+mAbsoluteContainer
 ;
 #
 ifdef

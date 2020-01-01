@@ -4399,6 +4399,17 @@ nsGkAtoms
 :
 :
 inlineFrame
+|
+|
+fType
+=
+=
+/
+/
+nsGkAtoms
+:
+:
+positionedInlineFrame
 )
 but
 we
