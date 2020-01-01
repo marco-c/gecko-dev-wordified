@@ -1925,16 +1925,9 @@ context
 -
 sep
 -
-properties
+viewsource
 "
-(
 shouldShow
-|
-|
-this
-.
-isContentSelected
-)
 )
 ;
 /
