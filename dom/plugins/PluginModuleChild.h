@@ -873,6 +873,15 @@ NPError
 rv
 )
 ;
+virtual
+bool
+AnswerNP_Shutdown
+(
+NPError
+*
+rv
+)
+;
 public
 :
 PluginModuleChild

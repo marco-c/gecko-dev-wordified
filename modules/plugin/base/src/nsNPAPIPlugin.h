@@ -671,6 +671,12 @@ callbacks
 PluginLibrary
 *
 aLibrary
+/
+*
+assume
+ownership
+*
+/
 )
 ;
 virtual

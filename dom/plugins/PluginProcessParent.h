@@ -662,7 +662,7 @@ PluginProcessParent
 *
 *
 *
-Asynchronously
+Synchronously
 launch
 the
 plugin
