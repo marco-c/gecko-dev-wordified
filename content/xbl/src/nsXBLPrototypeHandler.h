@@ -991,15 +991,6 @@ NS_HANDLER_ALLOW_UNTRUSTED
 ;
 }
 void
-Traverse
-(
-nsCycleCollectionTraversalCallback
-&
-cb
-)
-const
-;
-void
 Trace
 (
 TraceCallback
@@ -1546,10 +1537,7 @@ void
 *
 mCachedHandler
 ;
-nsCOMPtr
-<
-nsIScriptGlobalObject
->
+nsWeakPtr
 mGlobalForCachedHandler
 ;
 /
