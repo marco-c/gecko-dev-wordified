@@ -3745,8 +3745,6 @@ if
 bottomLayer
 .
 mImage
-.
-mRequest
 )
 {
 nsCOMPtr
@@ -3758,8 +3756,6 @@ container
 bottomLayer
 .
 mImage
-.
-mRequest
 -
 >
 GetImage
@@ -3921,8 +3917,6 @@ BottomLayer
 )
 .
 mImage
-.
-mRequest
 &
 &
 bg

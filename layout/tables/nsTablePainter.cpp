@@ -1644,8 +1644,6 @@ i
 ]
 .
 mImage
-.
-mRequest
 )
 return
 PR_TRUE
