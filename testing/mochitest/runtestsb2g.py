@@ -877,6 +877,27 @@ prefs
 interpolation
 )
         
+for
+pref
+in
+prefs
+:
+            
+prefs
+[
+pref
+]
+=
+Preferences
+.
+cast
+(
+prefs
+[
+pref
+]
+)
+        
 self
 .
 profile
