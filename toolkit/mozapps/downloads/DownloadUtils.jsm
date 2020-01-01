@@ -269,6 +269,8 @@ Components
 .
 utils
 ;
+this
+.
 __defineGetter__
 (
 "
@@ -308,6 +310,8 @@ PluralForm
 }
 )
 ;
+this
+.
 __defineGetter__
 (
 "
@@ -500,6 +504,8 @@ bundle
 upon
 first
 use
+.
+this
 .
 __defineGetter__
 (

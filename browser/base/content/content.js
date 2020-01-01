@@ -129,6 +129,8 @@ causes
 docshells
 to
 leak
+this
+.
 __defineGetter__
 (
 "

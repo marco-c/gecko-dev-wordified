@@ -105,6 +105,8 @@ causes
 docShells
 to
 leak
+this
+.
 __defineGetter__
 (
 "

@@ -1710,6 +1710,8 @@ aLine
 )
 ;
 }
+this
+.
 __defineGetter__
 (
 "
@@ -1751,6 +1753,8 @@ FileUtils
 }
 )
 ;
+this
+.
 __defineGetter__
 (
 "
@@ -1792,6 +1796,8 @@ NetUtil
 }
 )
 ;
+this
+.
 __defineGetter__
 (
 "

@@ -1480,6 +1480,8 @@ array
 .
 *
 /
+this
+.
 __defineGetter__
 (
 "
@@ -1536,6 +1538,8 @@ undefined
 .
 *
 /
+this
+.
 __defineGetter__
 (
 "
@@ -1587,6 +1591,8 @@ exist
 .
 *
 /
+this
+.
 __defineGetter__
 (
 "
@@ -1667,6 +1673,8 @@ exist
 .
 *
 /
+this
+.
 __defineGetter__
 (
 "
@@ -1711,6 +1719,8 @@ page
 .
 *
 /
+this
+.
 __defineGetter__
 (
 "
@@ -1748,6 +1758,8 @@ page
 .
 *
 /
+this
+.
 __defineGetter__
 (
 "
