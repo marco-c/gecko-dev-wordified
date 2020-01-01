@@ -6656,8 +6656,6 @@ stroke
 dasharray
 stroke_dasharray
 StrokeDasharray
-0
-|
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 SVG
 mStrokeDasharray
