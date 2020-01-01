@@ -3896,6 +3896,10 @@ gcGrayRootsData
 (
 NULL
 )
+scriptPCCounters
+(
+NULL
+)
 NaNValue
 (
 UndefinedValue
@@ -3919,6 +3923,10 @@ emptyString
 NULL
 )
 debugMode
+(
+false
+)
+profilingScripts
 (
 false
 )
