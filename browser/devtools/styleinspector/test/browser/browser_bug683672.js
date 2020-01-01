@@ -140,6 +140,17 @@ tabLoaded
 (
 )
 {
+browser
+.
+removeEventListener
+(
+"
+load
+"
+tabLoaded
+true
+)
+;
 ok
 (
 window
