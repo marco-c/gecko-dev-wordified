@@ -13078,6 +13078,17 @@ op
 JSOP_TABLESWITCH
 )
 ;
+JS_ASSERT
+(
+SN_TYPE
+(
+sn
+)
+=
+=
+SRC_SWITCH
+)
+;
 /
 /
 Pop
