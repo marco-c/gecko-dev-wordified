@@ -3482,10 +3482,6 @@ mBackgroundColor
 =
 mView
 .
-getLayerClient
-(
-)
-.
 getCheckerboardColor
 (
 )
@@ -3691,10 +3687,6 @@ layer
 if
 (
 mView
-.
-getLayerClient
-(
-)
 .
 checkerboardShouldShowChecks
 (
