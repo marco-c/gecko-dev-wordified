@@ -659,9 +659,6 @@ transaction
 ScreenOrientation
 orientation
 ;
-nsIntRect
-clientBounds
-;
 if
 (
 TabChild
@@ -712,6 +709,9 @@ orientation
 )
 ;
 }
+nsIntRect
+clientBounds
+;
 mWidget
 -
 >
@@ -719,6 +719,16 @@ GetClientBounds
 (
 clientBounds
 )
+;
+clientBounds
+.
+x
+=
+clientBounds
+.
+y
+=
+0
 ;
 ShadowLayerForwarder
 :

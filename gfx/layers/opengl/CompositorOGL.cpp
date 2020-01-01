@@ -5450,12 +5450,8 @@ rect
 =
 gfxRect
 (
-intRect
-.
-x
-intRect
-.
-y
+0
+0
 intRect
 .
 width
