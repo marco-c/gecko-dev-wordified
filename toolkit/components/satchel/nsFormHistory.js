@@ -2441,6 +2441,14 @@ e
 {
 this
 .
+dbConnection
+.
+rollbackTransaction
+(
+)
+;
+this
+.
 log
 (
 "
