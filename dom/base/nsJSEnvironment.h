@@ -742,7 +742,7 @@ virtual
 nsresult
 CompileFunction
 (
-void
+JSObject
 *
 aTarget
 const

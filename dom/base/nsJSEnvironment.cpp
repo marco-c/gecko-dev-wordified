@@ -10467,7 +10467,7 @@ nsJSContext
 :
 CompileFunction
 (
-void
+JSObject
 *
 aTarget
 const
@@ -10681,10 +10681,6 @@ JSObject
 *
 target
 =
-(
-JSObject
-*
-)
 aTarget
 ;
 JSAutoRequest
@@ -10718,10 +10714,13 @@ get
 )
 aArgCount
 aArgArray
-(
+static_cast
+<
+const
 jschar
 *
-)
+>
+(
 PromiseFlatString
 (
 aBody
@@ -10729,6 +10728,7 @@ aBody
 .
 get
 (
+)
 )
 aBody
 .
