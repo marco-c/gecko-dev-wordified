@@ -1464,11 +1464,7 @@ and
 queryinterface
 *
 /
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_CLASS
-(
-nsFrameSelection
-)
+NS_DECL_ISUPPORTS
 /
 *
 *
@@ -3937,6 +3933,12 @@ nsFrameSelection
 (
 )
 ;
+virtual
+~
+nsFrameSelection
+(
+)
+;
 void
 StartBatchChanges
 (
@@ -4298,10 +4300,8 @@ say
 collapsed
 etc
 ?
-nsRefPtr
-<
 nsTypedSelection
->
+*
 mDomSelections
 [
 nsISelectionController
