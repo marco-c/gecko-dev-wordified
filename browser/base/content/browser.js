@@ -23261,12 +23261,6 @@ updateMarkState
 (
 )
 ;
-SocialShare
-.
-update
-(
-)
-;
 }
 TabsInTitlebar
 .
@@ -26402,12 +26396,6 @@ updateStarState
 SocialMark
 .
 updateMarkState
-(
-)
-;
-SocialShare
-.
-update
 (
 )
 ;
