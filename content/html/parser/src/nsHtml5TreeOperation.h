@@ -436,6 +436,7 @@ pop
 ops
 eTreeOpScriptEnd
 eTreeOpDoneAddingChildren
+eTreeOpDoneCreatingElement
 eTreeOpUpdateStyleSheet
 eTreeOpProcessBase
 eTreeOpStartLayout
