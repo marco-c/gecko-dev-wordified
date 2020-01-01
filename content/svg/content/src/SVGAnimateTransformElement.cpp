@@ -232,14 +232,13 @@ aTriedToWrap
 /
 nsISupports
 methods
-NS_IMPL_ISUPPORTS_INHERITED4
+NS_IMPL_ISUPPORTS_INHERITED3
 (
 SVGAnimateTransformElement
 SVGAnimationElement
 nsIDOMNode
 nsIDOMElement
 nsIDOMSVGElement
-nsIDOMSVGAnimationElement
 )
 /
 /
