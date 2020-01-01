@@ -461,7 +461,7 @@ PACKAGE_STRING
 libtheora
 1
 .
-0beta3
+0
 "
 /
 *
@@ -502,7 +502,7 @@ PACKAGE_VERSION
 "
 1
 .
-0beta3
+0
 "
 /
 *
@@ -534,6 +534,13 @@ support
 from
 the
 build
+*
+/
+/
+*
+#
+undef
+THEORA_DISABLE_ENCODE
 *
 /
 /
@@ -579,5 +586,5 @@ VERSION
 "
 1
 .
-0beta3
+0
 "
