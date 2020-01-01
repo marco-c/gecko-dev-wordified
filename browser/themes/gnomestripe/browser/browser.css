@@ -9028,7 +9028,8 @@ important
 ;
 padding
 :
-0px
+0
+2px
 ;
 margin
 -
@@ -9078,7 +9079,7 @@ margin
 -
 start
 :
-4px
+1px
 ;
 -
 moz
@@ -9087,7 +9088,7 @@ margin
 -
 end
 :
-3px
+4px
 ;
 list
 -
@@ -9884,15 +9885,6 @@ close
 -
 button
 {
--
-moz
--
-margin
--
-end
-:
-6px
-;
 padding
 :
 0px
