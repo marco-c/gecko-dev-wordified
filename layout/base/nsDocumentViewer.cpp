@@ -3784,6 +3784,11 @@ parent_doc
 SetSubDocumentFor
 (
 content
+-
+>
+AsElement
+(
+)
 mDocument
 )
 ;

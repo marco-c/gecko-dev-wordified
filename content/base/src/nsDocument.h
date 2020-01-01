@@ -3330,7 +3330,7 @@ virtual
 nsresult
 SetSubDocumentFor
 (
-nsIContent
+Element
 *
 aContent
 nsIDocument
@@ -3350,7 +3350,7 @@ aContent
 const
 ;
 virtual
-nsIContent
+Element
 *
 FindContentForSubDocument
 (
