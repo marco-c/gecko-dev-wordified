@@ -1132,7 +1132,7 @@ aftercustomization
 function
 toolboxChanged
 (
-aEvent
+aType
 )
 {
 gToolboxChanged
@@ -1151,7 +1151,7 @@ gToolbox
 .
 customizeChange
 (
-aEvent
+aType
 )
 ;
 dispatchCustomizationEvent
@@ -4532,6 +4532,11 @@ aProp
 )
 ;
 }
+)
+;
+toolboxChanged
+(
+aProp
 )
 ;
 return
