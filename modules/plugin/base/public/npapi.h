@@ -1386,6 +1386,12 @@ defined
 (
 __x86_64__
 )
+|
+|
+defined
+(
+__LP64__
+)
 typedef
 unsigned
 int
@@ -1465,6 +1471,12 @@ __amd64__
 defined
 (
 __x86_64__
+)
+|
+|
+defined
+(
+__LP64__
 )
 typedef
 int
