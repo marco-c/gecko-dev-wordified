@@ -4212,7 +4212,7 @@ __aeabi_idivmod
 idivmod
 returns
 the
-qoutient
+quotient
 in
 r0
 and
@@ -4221,6 +4221,17 @@ remainder
 in
 r1
 .
+if
+(
+!
+mir
+-
+>
+isTruncated
+(
+)
+)
+{
 masm
 .
 ma_cmp
@@ -4252,6 +4263,7 @@ snapshot
 return
 false
 ;
+}
 return
 true
 ;
