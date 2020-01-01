@@ -310,10 +310,9 @@ aContent
 aDoc
 )
 {
-mFlags
-|
+mType
 =
-eTextLeafAccessible
+eTextLeafType
 ;
 }
 TextLeafAccessible

@@ -422,9 +422,9 @@ AsRoot
 )
 {
 return
-mFlags
-&
-eRootAccessible
+IsRoot
+(
+)
 ?
 static_cast
 <

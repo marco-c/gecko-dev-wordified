@@ -535,10 +535,9 @@ aRootContent
 aPresShell
 )
 {
-mFlags
-|
+mType
 =
-eRootAccessible
+eRootType
 ;
 }
 RootAccessible

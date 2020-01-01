@@ -368,10 +368,9 @@ aContent
 aDoc
 )
 {
-mFlags
-|
+mType
 =
-eImageMapAccessible
+eImageMapType
 ;
 }
 /

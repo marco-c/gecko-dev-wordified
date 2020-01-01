@@ -255,7 +255,7 @@ if
 (
 mRoleMapEntry
 )
-mFlags
+mGenericTypes
 |
 =
 mRoleMapEntry

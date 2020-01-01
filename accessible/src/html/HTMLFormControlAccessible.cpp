@@ -3720,10 +3720,9 @@ aContent
 aDoc
 )
 {
-mFlags
-|
+mType
 =
-eHTMLFileInputAccessible
+eHTMLFileInputType
 ;
 }
 role

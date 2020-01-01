@@ -2801,10 +2801,10 @@ xpcAccessibleTable
 this
 )
 {
-mFlags
+mGenericTypes
 |
 =
-eTableAccessible
+eTable
 ;
 }
 /

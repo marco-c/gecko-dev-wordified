@@ -1550,7 +1550,7 @@ return
 a11y
 :
 :
-ePlugin
+ePluginType
 ;
 }
 #

@@ -159,10 +159,9 @@ mStateFlags
 =
 eHasNumericValue
 ;
-mFlags
-|
+mType
 =
-eProgressAccessible
+eProgressType
 ;
 }
 NS_DECL_ISUPPORTS_INHERITED

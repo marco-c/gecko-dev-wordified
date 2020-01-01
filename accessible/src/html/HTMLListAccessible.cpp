@@ -576,10 +576,9 @@ mBullet
 nullptr
 )
 {
-mFlags
-|
+mType
 =
-eHTMLListItemAccessible
+eHTMLLiType
 ;
 nsBlockFrame
 *

@@ -222,10 +222,9 @@ nullptr
 nullptr
 )
 {
-mFlags
-|
+mType
 =
-eApplicationAccessible
+eApplicationType
 ;
 mAppInfo
 =

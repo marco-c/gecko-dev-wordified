@@ -2708,9 +2708,9 @@ AsHyperText
 )
 {
 return
-mFlags
-&
-eHyperTextAccessible
+IsHyperText
+(
+)
 ?
 static_cast
 <

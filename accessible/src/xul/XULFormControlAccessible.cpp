@@ -451,10 +451,10 @@ ContainsMenu
 (
 )
 )
-mFlags
+mGenericTypes
 |
 =
-eMenuButtonAccessible
+eMenuButton
 ;
 }
 /

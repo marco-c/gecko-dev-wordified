@@ -966,10 +966,10 @@ aContent
 aDoc
 )
 {
-mFlags
+mGenericTypes
 |
 =
-eMenuButtonAccessible
+eMenuButton
 ;
 }
 /

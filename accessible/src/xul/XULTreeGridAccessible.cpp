@@ -370,10 +370,10 @@ xpcAccessibleTable
 this
 )
 {
-mFlags
+mGenericTypes
 |
 =
-eTableAccessible
+eTable
 ;
 }
 /
@@ -2032,10 +2032,10 @@ aTreeView
 aRow
 )
 {
-mFlags
+mGenericTypes
 |
 =
-eTableRowAccessible
+eTableRow
 ;
 mAccessibleCache
 .

@@ -455,7 +455,7 @@ AsImageMap
 )
 {
 return
-IsImageMapAccessible
+IsImageMap
 (
 )
 ?

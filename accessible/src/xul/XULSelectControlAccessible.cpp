@@ -392,10 +392,10 @@ aContent
 aDoc
 )
 {
-mFlags
+mGenericTypes
 |
 =
-eSelectAccessible
+eSelect
 ;
 mSelectControl
 =
