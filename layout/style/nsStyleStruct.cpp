@@ -14804,8 +14804,7 @@ mType
 =
 eStyleContentType_Image
 "
-Trying
-to
+Tryingto
 do
 image
 tracking
