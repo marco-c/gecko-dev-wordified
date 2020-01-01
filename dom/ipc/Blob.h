@@ -954,6 +954,8 @@ nsString
 aContentType
 uint64_t
 aLength
+uint64_t
+aLastModifiedDate
 )
 ;
 /
