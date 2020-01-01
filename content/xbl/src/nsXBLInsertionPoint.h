@@ -527,10 +527,8 @@ NS_DECL_CYCLE_COLLECTION_NATIVE_CLASS
 (
 nsXBLInsertionPoint
 )
-already_AddRefed
-<
 nsIContent
->
+*
 GetInsertionParent
 (
 )
@@ -567,10 +565,8 @@ mDefaultContent
 aDefaultContent
 ;
 }
-already_AddRefed
-<
 nsIContent
->
+*
 GetDefaultContent
 (
 )
@@ -588,10 +584,8 @@ mDefaultContentTemplate
 aDefaultContent
 ;
 }
-already_AddRefed
-<
 nsIContent
->
+*
 GetDefaultContentTemplate
 (
 )
@@ -660,10 +654,8 @@ Count
 )
 ;
 }
-already_AddRefed
-<
 nsIContent
->
+*
 ChildAt
 (
 PRUint32
