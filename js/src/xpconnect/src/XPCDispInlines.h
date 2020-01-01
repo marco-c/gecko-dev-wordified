@@ -914,7 +914,14 @@ nsnull
 )
 mTypeInfo
 (
+reinterpret_cast
+<
+ITypeInfo
+*
+>
+(
 nsnull
+)
 )
 {
 }
