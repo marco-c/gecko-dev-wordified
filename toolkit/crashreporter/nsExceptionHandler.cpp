@@ -4003,6 +4003,9 @@ UnsetExceptionHandler
 (
 )
 {
+delete
+gExceptionHandler
+;
 /
 /
 do
@@ -4088,9 +4091,6 @@ gExceptionHandler
 )
 return
 NS_ERROR_NOT_INITIALIZED
-;
-delete
-gExceptionHandler
 ;
 gExceptionHandler
 =
