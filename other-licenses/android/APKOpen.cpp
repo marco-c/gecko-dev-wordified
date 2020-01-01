@@ -1541,7 +1541,7 @@ jbyteArray
 SHELL_WRAPPER2
 (
 notifyBatteryChange
-jfloat
+jdouble
 jboolean
 )
 ;
