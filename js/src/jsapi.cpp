@@ -18772,7 +18772,6 @@ divergence
 /
 if
 (
-!
 obj
 -
 >
