@@ -194,7 +194,7 @@ WindowIdentifier
 WindowIdentifier
 (
 const
-nsTArray
+InfallibleTArray
 <
 uint64_t
 >

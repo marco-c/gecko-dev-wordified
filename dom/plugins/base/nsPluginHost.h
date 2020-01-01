@@ -1621,7 +1621,7 @@ nsACString
 &
 domain
 const
-nsTArray
+InfallibleTArray
 <
 nsCString
 >
