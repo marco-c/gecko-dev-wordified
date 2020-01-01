@@ -560,7 +560,7 @@ with
 get
 set
 }
-ArrayCount
+DenseArrayCount
 (
 )
 .
@@ -1142,7 +1142,7 @@ array
 )
 -
 >
-getArrayCount
+getDenseArrayCount
 (
 )
 +
@@ -3478,7 +3478,7 @@ JSVAL_HOLE
 obj
 -
 >
-incArrayCountBy
+incDenseArrayCountBy
 (
 1
 )
@@ -3654,7 +3654,7 @@ JSVAL_HOLE
 obj
 -
 >
-decArrayCountBy
+decDenseArrayCountBy
 (
 1
 )
@@ -5644,7 +5644,7 @@ JSVAL_HOLE
 obj
 -
 >
-incArrayCountBy
+incDenseArrayCountBy
 (
 1
 )
@@ -6042,7 +6042,7 @@ u
 obj
 -
 >
-incArrayCountBy
+incDenseArrayCountBy
 (
 1
 )
@@ -6627,7 +6627,7 @@ JSVAL_HOLE
 obj
 -
 >
-decArrayCountBy
+decDenseArrayCountBy
 (
 1
 )
@@ -7201,7 +7201,7 @@ INT_TO_JSVAL
 obj
 -
 >
-getArrayCount
+getDenseArrayCount
 (
 )
 )
@@ -10302,7 +10302,7 @@ JS_ASSERT
 obj
 -
 >
-getArrayCount
+getDenseArrayCount
 (
 )
 >
@@ -10313,7 +10313,7 @@ valueCount
 obj
 -
 >
-decArrayCountBy
+decDenseArrayCountBy
 (
 valueCount
 )
@@ -10349,7 +10349,7 @@ SourceVectorAllValues
 obj
 -
 >
-incArrayCountBy
+incDenseArrayCountBy
 (
 count
 )
@@ -10401,7 +10401,7 @@ valueCount
 obj
 -
 >
-incArrayCountBy
+incDenseArrayCountBy
 (
 valueCount
 )
@@ -10718,6 +10718,16 @@ if
 vector
 )
 {
+JS_ASSERT
+(
+obj
+-
+>
+isDenseArray
+(
+)
+)
+;
 if
 (
 !
@@ -10811,7 +10821,7 @@ i
 obj
 -
 >
-setArrayCount
+setDenseArrayCount
 (
 count
 )
@@ -10819,14 +10829,25 @@ count
 }
 else
 {
+if
+(
 obj
 -
 >
-setArrayCount
+isDenseArray
+(
+)
+)
+{
+obj
+-
+>
+setDenseArrayCount
 (
 0
 )
 ;
+}
 }
 return
 JS_TRUE
@@ -14786,7 +14807,7 @@ JSVAL_HOLE
 obj
 -
 >
-incArrayCountBy
+incDenseArrayCountBy
 (
 1
 )
@@ -14924,7 +14945,7 @@ length
 obj
 -
 >
-incArrayCountBy
+incDenseArrayCountBy
 (
 1
 )
@@ -15601,7 +15622,7 @@ else
 obj
 -
 >
-decArrayCountBy
+decDenseArrayCountBy
 (
 1
 )
@@ -16647,7 +16668,7 @@ begin
 obj
 -
 >
-getArrayCount
+getDenseArrayCount
 (
 )
 !
@@ -16953,7 +16974,7 @@ JSVAL_HOLE
 obj
 -
 >
-incArrayCountBy
+incDenseArrayCountBy
 (
 1
 )
@@ -17198,7 +17219,7 @@ JSVAL_HOLE
 obj
 -
 >
-incArrayCountBy
+incDenseArrayCountBy
 (
 1
 )
@@ -17598,7 +17619,7 @@ getDenseArrayElements
 aobj
 -
 >
-getArrayCount
+getDenseArrayCount
 (
 )
 !
@@ -18259,7 +18280,7 @@ begin
 obj
 -
 >
-getArrayCount
+getDenseArrayCount
 (
 )
 !
@@ -20688,7 +20709,7 @@ setArrayLength
 obj
 -
 >
-setArrayCount
+setDenseArrayCount
 (
 0
 )
@@ -21293,7 +21314,7 @@ lu
 array
 -
 >
-getArrayCount
+getDenseArrayCount
 (
 )
 array
@@ -21802,7 +21823,7 @@ NULL
 obj
 -
 >
-setArrayCount
+setDenseArrayCount
 (
 capacity
 )

@@ -12547,7 +12547,7 @@ i
 obj
 -
 >
-incArrayCountBy
+incDenseArrayCountBy
 (
 1
 )
