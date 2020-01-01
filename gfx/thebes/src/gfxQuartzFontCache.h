@@ -1020,17 +1020,6 @@ return
 mObj
 ;
 }
-KeyTypePointer
-GetKeyPointer
-(
-)
-const
-{
-return
-&
-mObj
-;
-}
 PRBool
 KeyEquals
 (

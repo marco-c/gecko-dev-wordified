@@ -771,16 +771,6 @@ return
 mKey
 ;
 }
-KeyTypePointer
-GetKeyPointer
-(
-)
-const
-{
-return
-mKey
-;
-}
 PRBool
 KeyEquals
 (

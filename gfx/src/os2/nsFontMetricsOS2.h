@@ -956,11 +956,10 @@ aKey
 const
 {
 return
-GetKeyPointer
+GetKey
 (
 )
--
->
+.
 Equals
 (
 *
