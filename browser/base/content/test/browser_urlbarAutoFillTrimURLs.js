@@ -133,7 +133,9 @@ clearUserPref
 PREF_AUTOFILL
 )
 ;
-URLBarSetURI
+gURLBar
+.
+handleRevert
 (
 )
 ;
