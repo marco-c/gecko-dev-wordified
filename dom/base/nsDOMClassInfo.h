@@ -1306,12 +1306,6 @@ return
 id
 =
 =
-sTop_id
-|
-|
-id
-=
-=
 sParent_id
 |
 |
@@ -1515,10 +1509,6 @@ sDisableGlobalScopePollutionSupport
 ;
 public
 :
-static
-jsid
-sTop_id
-;
 static
 jsid
 sParent_id
