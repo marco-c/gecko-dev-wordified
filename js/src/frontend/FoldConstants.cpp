@@ -5131,7 +5131,13 @@ case
 TOK_STAR
 :
 case
-TOK_SHOP
+TOK_LSH
+:
+case
+TOK_RSH
+:
+case
+TOK_URSH
 :
 case
 TOK_DIVOP

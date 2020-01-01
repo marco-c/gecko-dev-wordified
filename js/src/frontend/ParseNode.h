@@ -1503,7 +1503,7 @@ TOK_GT
 *
 TOK_GE
 *
-TOK_SHOP
+TOK_LSH
 binary
 pn_left
 :
@@ -1517,11 +1517,9 @@ pn_right
 ADD
 expr
 *
-pn_op
-:
-JSOP_LSH
-JSOP_RSH
-JSOP_URSH
+TOK_RSH
+*
+TOK_URSH
 *
 TOK_PLUS
 binary
