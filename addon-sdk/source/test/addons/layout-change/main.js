@@ -819,6 +819,18 @@ hotkeys
 "
 )
 ;
+if
+(
+app
+.
+is
+(
+"
+Firefox
+"
+)
+)
+{
 assert
 .
 equal
@@ -847,6 +859,7 @@ clipboard
 "
 )
 ;
+}
 assert
 .
 equal
