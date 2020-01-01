@@ -1691,6 +1691,8 @@ nsStyleChangeList
 aChangeList
 nsChangeHint
 aMinChange
+PRBool
+aFireAccessibilityEvents
 )
 ;
 }
