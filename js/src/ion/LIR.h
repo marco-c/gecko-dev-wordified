@@ -2588,7 +2588,7 @@ gcthing
 TYPE
 PAYLOAD
 #
-endif
+else
 BOX
 /
 /
@@ -2602,6 +2602,8 @@ systems
 GPR
 gcthing
 )
+#
+endif
 }
 ;
 void
