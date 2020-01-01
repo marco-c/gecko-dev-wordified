@@ -9818,8 +9818,11 @@ JSFunction
 fun
 )
 {
+DebugOnly
+<
 jsbytecode
 *
+>
 nextpc
 =
 (
@@ -9896,8 +9899,11 @@ joinable
 )
 )
 ;
+DebugOnly
+<
 jsbytecode
 *
+>
 nextpc
 =
 (
