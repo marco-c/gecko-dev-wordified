@@ -837,6 +837,16 @@ nsACString
 aType
 )
 ;
+nsresult
+GetLastChildId
+(
+PRInt64
+aFolder
+PRInt64
+*
+aItemId
+)
+;
 /
 /
 remove
