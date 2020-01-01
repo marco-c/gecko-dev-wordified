@@ -4225,7 +4225,7 @@ endif
 }
 else
 {
-nsCAutoString
+nsAutoString
 targetFilename
 ;
 rv
@@ -4233,7 +4233,7 @@ rv
 mTargetFile
 -
 >
-GetNativeLeafName
+GetLeafName
 (
 targetFilename
 )
@@ -4258,7 +4258,7 @@ rv
 mTempFile
 -
 >
-MoveToNative
+MoveTo
 (
 nsnull
 targetFilename
