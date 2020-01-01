@@ -176,7 +176,7 @@ BACK
 /
 /
 CALL
-0
+NS_VK_SLEEP
 /
 /
 ENDCALL
