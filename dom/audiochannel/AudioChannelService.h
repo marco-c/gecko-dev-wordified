@@ -452,11 +452,6 @@ AudioChannelInternalType
 aType
 )
 ;
-bool
-HasMoreThanOneContentChannelHidden
-(
-)
-;
 const
 char
 *
@@ -551,6 +546,15 @@ AUDIO_CHANNEL_INT_LAST
 ;
 AudioChannelType
 mCurrentHigherChannel
+;
+nsTArray
+<
+uint64_t
+>
+mActiveContentChildIDs
+;
+bool
+mActiveContentChildIDsFrozen
 ;
 /
 /
