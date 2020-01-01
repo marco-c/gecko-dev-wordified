@@ -305,15 +305,6 @@ nsRefPtrHashtable
 .
 h
 "
-#
-include
-"
-mozilla
-/
-TimeStamp
-.
-h
-"
 /
 /
 interfaces
