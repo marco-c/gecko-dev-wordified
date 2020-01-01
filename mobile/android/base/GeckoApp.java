@@ -6561,7 +6561,9 @@ getWebAppIntent
 (
 url
 origin
-false
+"
+"
+null
 )
 ;
 if
