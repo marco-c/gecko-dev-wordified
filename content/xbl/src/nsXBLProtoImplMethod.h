@@ -461,9 +461,6 @@ virtual
 nsresult
 CompileMember
 (
-nsIScriptContext
-*
-aContext
 const
 nsCString
 &
@@ -497,9 +494,6 @@ MOZ_OVERRIDE
 nsresult
 Read
 (
-nsIScriptContext
-*
-aContext
 nsIObjectInputStream
 *
 aStream
@@ -509,9 +503,6 @@ virtual
 nsresult
 Write
 (
-nsIScriptContext
-*
-aContext
 nsIObjectOutputStream
 *
 aStream
@@ -707,9 +698,6 @@ Write
 nsresult
 Write
 (
-nsIScriptContext
-*
-aContext
 nsIObjectOutputStream
 *
 aStream

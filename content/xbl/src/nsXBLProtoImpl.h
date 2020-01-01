@@ -235,9 +235,6 @@ InitTargetObjects
 nsXBLPrototypeBinding
 *
 aBinding
-nsIScriptContext
-*
-aContext
 nsIContent
 *
 aBoundElement
@@ -452,9 +449,6 @@ nullptr
 nsresult
 Read
 (
-nsIScriptContext
-*
-aContext
 nsIObjectInputStream
 *
 aStream
@@ -469,9 +463,6 @@ aGlobal
 nsresult
 Write
 (
-nsIScriptContext
-*
-aContext
 nsIObjectOutputStream
 *
 aStream
