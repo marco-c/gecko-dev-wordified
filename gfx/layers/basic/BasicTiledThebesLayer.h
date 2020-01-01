@@ -448,6 +448,11 @@ public
 BasicTiledLayerBuffer
 (
 )
+:
+mLastPaintOpaque
+(
+false
+)
 {
 }
 void
