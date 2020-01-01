@@ -914,7 +914,9 @@ false
 ;
 Utils
 .
-activeWindow
+getCurrentWindow
+(
+)
 .
 gBrowser
 .
@@ -1158,7 +1160,9 @@ Mac
 Only
 Utils
 .
-activeWindow
+getCurrentWindow
+(
+)
 .
 document
 .
@@ -1215,7 +1219,9 @@ Mac
 Only
 Utils
 .
-activeWindow
+getCurrentWindow
+(
+)
 .
 document
 .
