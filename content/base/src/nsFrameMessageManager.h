@@ -785,7 +785,7 @@ nsAString
 aJSON
 )
 ;
-void
+nsresult
 SendAsyncMessageInternal
 (
 const

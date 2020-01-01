@@ -1257,6 +1257,12 @@ if
 mSyncCallback
 )
 {
+NS_ENSURE_TRUE
+(
+mCallbackData
+NS_ERROR_NOT_INITIALIZED
+)
+;
 nsString
 messageName
 ;
@@ -1562,7 +1568,7 @@ return
 NS_OK
 ;
 }
-void
+nsresult
 nsFrameMessageManager
 :
 :
@@ -1583,6 +1589,12 @@ if
 mAsyncCallback
 )
 {
+NS_ENSURE_TRUE
+(
+mCallbackData
+NS_ERROR_NOT_INITIALIZED
+)
+;
 mAsyncCallback
 (
 mCallbackData
@@ -1636,6 +1648,9 @@ aJSON
 )
 ;
 }
+return
+NS_OK
+;
 }
 NS_IMETHODIMP
 nsFrameMessageManager
