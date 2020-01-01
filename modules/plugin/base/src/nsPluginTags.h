@@ -467,6 +467,13 @@ h
 #
 include
 "
+nsCOMArray
+.
+h
+"
+#
+include
+"
 nsIPluginTag
 .
 h
@@ -907,9 +914,9 @@ listeners
 for
 this
 entry
-nsCOMPtr
+nsCOMArray
 <
-nsISupportsArray
+nsIPluginStreamInfo
 >
 mStreams
 ;
