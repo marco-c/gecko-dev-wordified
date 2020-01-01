@@ -1797,6 +1797,14 @@ widgetToolkit
 ;
 sandbox
 .
+isDebugBuild
+=
+gDebug
+.
+isDebugBuild
+;
+sandbox
+.
 xulRuntime
 =
 {
@@ -2546,6 +2554,7 @@ else
 throw
 "
 Error
+1
 in
 manifest
 file
@@ -2795,6 +2804,7 @@ runHttp
 throw
 "
 Error
+2
 in
 manifest
 file
@@ -2895,6 +2905,7 @@ EXPECTED_DEATH
 throw
 "
 Error
+3
 in
 manifest
 file
@@ -3058,6 +3069,7 @@ length
 throw
 "
 Error
+4
 in
 manifest
 file
@@ -3222,6 +3234,7 @@ else
 throw
 "
 Error
+5
 in
 manifest
 file
