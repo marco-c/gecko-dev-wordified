@@ -702,7 +702,6 @@ nscoord
 aIncrement
 )
 ;
-static
 void
 SetScrollbarEnabled
 (
