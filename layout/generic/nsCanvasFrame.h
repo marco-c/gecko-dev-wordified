@@ -570,6 +570,10 @@ mDoPaintFocus
 (
 PR_FALSE
 )
+mAddedScrollPositionListener
+(
+PR_FALSE
+)
 mAbsoluteContainer
 (
 nsGkAtoms
