@@ -129,13 +129,6 @@ Attributes
 .
 h
 "
-#
-define
-NS_OBSERVERSERVICE_CLASSNAME
-"
-Observer
-Service
-"
 /
 /
 {

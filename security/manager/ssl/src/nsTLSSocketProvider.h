@@ -106,17 +106,6 @@ h
 "
 #
 define
-NS_STARTTLSSOCKETPROVIDER_CLASSNAME
-"
-Mozilla
-STARTTLS
-Capable
-Socket
-Provider
-Component
-"
-#
-define
 NS_STARTTLSSOCKETPROVIDER_CID
 \
 {

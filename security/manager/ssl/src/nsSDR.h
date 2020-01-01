@@ -299,15 +299,6 @@ nsISecretDecoderRing
 =
 #
 define
-NS_SDR_CLASSNAME
-"
-PIPNSS
-Secret
-Decoder
-Ring
-"
-#
-define
 NS_SDR_CID
 \
 {

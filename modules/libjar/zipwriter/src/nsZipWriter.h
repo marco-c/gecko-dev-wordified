@@ -148,13 +148,6 @@ zipwriter
 "
 #
 define
-ZIPWRITER_CLASSNAME
-"
-Zip
-Writer
-"
-#
-define
 ZIPWRITER_CID
 {
 0x430d416c

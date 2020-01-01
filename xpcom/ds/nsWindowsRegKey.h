@@ -365,12 +365,6 @@ result
 #
 ifdef
 _IMPL_NS_COM
-#
-define
-NS_WINDOWSREGKEY_CLASSNAME
-"
-nsWindowsRegKey
-"
 /
 /
 a53bc624

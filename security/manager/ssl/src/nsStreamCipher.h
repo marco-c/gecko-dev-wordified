@@ -92,14 +92,6 @@ Attributes
 .
 h
 "
-#
-define
-NS_STREAMCIPHER_CLASSNAME
-"
-Stream
-Cipher
-Component
-"
 /
 *
 dbfcbe4a

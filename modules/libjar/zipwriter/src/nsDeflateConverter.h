@@ -101,13 +101,6 @@ h
 "
 #
 define
-DEFLATECONVERTER_CLASSNAME
-"
-Deflate
-converter
-"
-#
-define
 DEFLATECONVERTER_CID
 {
 0x461cd5dd

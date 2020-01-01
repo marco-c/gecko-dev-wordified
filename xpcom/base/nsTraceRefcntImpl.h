@@ -280,13 +280,6 @@ refcnt
 "
 #
 define
-NS_TRACE_REFCNT_CLASSNAME
-"
-nsTraceRefcnt
-Interface
-"
-#
-define
 NS_TRACE_REFCNT_CID
 \
 {

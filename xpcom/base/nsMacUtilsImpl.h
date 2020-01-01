@@ -196,15 +196,6 @@ AD5E
 C339175C0818
 #
 define
-NS_MACUTILSIMPL_CLASSNAME
-"
-Mac
-OS
-X
-Utilities
-"
-#
-define
 NS_MACUTILSIMPL_CID
 \
 {

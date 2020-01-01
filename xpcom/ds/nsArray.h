@@ -136,14 +136,6 @@ Attributes
 .
 h
 "
-#
-define
-NS_ARRAY_CLASSNAME
-\
-"
-nsIArray
-implementation
-"
 /
 /
 {

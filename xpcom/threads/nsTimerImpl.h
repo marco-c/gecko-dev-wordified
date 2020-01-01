@@ -190,12 +190,6 @@ DEBUG_TIMERS
 endif
 #
 define
-NS_TIMER_CLASSNAME
-"
-Timer
-"
-#
-define
 NS_TIMER_CID
 \
 {

@@ -104,16 +104,6 @@ nsISocketProvider
 .
 h
 "
-#
-define
-NS_SSLSOCKETPROVIDER_CLASSNAME
-"
-Mozilla
-SSL
-Socket
-Provider
-Component
-"
 /
 *
 217d014a

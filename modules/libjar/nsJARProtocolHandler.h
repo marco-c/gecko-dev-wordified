@@ -331,13 +331,6 @@ gJarHandler
 ;
 #
 define
-NS_JARPROTOCOLHANDLER_CLASSNAME
-\
-"
-nsJarProtocolHandler
-"
-#
-define
 NS_JARPROTOCOLHANDLER_CID
 \
 {

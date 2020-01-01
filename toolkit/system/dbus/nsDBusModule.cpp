@@ -155,15 +155,6 @@ h
 "
 #
 define
-NS_DBUS_NETWORK_LINK_SERVICE_CLASSNAME
-"
-DBus
-Network
-Link
-Status
-"
-#
-define
 NS_DBUS_NETWORK_LINK_SERVICE_CID
 \
 {

@@ -246,13 +246,6 @@ storagestream
 ;
 1
 "
-#
-define
-NS_STORAGESTREAM_CLASSNAME
-"
-Storage
-Stream
-"
 class
 nsSegmentedBuffer
 ;

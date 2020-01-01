@@ -124,12 +124,6 @@ h
 "
 #
 define
-NS_SYSTEMPRINCIPAL_CLASSNAME
-"
-systemprincipal
-"
-#
-define
 NS_SYSTEMPRINCIPAL_CID
 \
 {

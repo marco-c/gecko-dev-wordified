@@ -1246,12 +1246,6 @@ NS_VARIANT_CID
 }
 }
 #
-define
-NS_VARIANT_CLASSNAME
-"
-Variant
-"
-#
 endif
 /
 /

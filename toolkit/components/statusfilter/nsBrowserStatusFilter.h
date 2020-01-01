@@ -457,13 +457,6 @@ mDelayedProgress
 ;
 #
 define
-NS_BROWSERSTATUSFILTER_CLASSNAME
-\
-"
-nsBrowserStatusFilter
-"
-#
-define
 NS_BROWSERSTATUSFILTER_CONTRACTID
 \
 "

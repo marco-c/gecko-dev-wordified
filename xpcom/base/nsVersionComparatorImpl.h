@@ -132,9 +132,3 @@ NS_VERSIONCOMPARATOR_CID
 0xa8
 }
 }
-#
-define
-NS_VERSIONCOMPARATOR_CLASSNAME
-"
-nsVersionComparatorImpl
-"

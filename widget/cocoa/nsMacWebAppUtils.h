@@ -89,15 +89,6 @@ utils
 ;
 1
 "
-#
-define
-NS_MACWEBAPPUTILS_COMPONENT_CLASSNAME
-"
-Mac
-Web
-Application
-Utils
-"
 class
 nsMacWebAppUtils
 :

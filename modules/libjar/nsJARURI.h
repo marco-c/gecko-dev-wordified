@@ -185,13 +185,6 @@ fa7d9570a691
 }
 #
 define
-NS_JARURI_CLASSNAME
-\
-"
-nsJARURI
-"
-#
-define
 NS_JARURI_CID
 \
 {

@@ -353,13 +353,6 @@ notifier
 "
 #
 define
-NS_APPSTARTUPNOTIFIER_CLASSNAME
-"
-AppStartup
-Notifier
-"
-#
-define
 APPSTARTUP_CATEGORY
 "
 app
