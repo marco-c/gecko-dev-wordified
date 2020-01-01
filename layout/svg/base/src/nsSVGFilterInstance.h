@@ -643,7 +643,7 @@ cleared
 /
 /
 to
-transparent
+transprent
 black
 .
 already_AddRefed
