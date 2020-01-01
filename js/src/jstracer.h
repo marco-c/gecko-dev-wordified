@@ -2840,6 +2840,12 @@ JSContext
 cx
 )
 ;
+extern
+void
+js_ShutDownJIT
+(
+)
+;
 #
 endif
 /
