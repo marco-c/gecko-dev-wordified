@@ -1106,6 +1106,16 @@ loadListener
 (
 )
 {
+workerWindow
+.
+removeEventListener
+(
+"
+load
+"
+loadListener
+)
+;
 /
 /
 the
