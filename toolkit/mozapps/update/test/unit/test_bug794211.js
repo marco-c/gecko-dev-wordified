@@ -98,10 +98,6 @@ do_register_cleanup
 end_test
 )
 ;
-DEBUG_AUS_TEST
-=
-true
-;
 logTestInfo
 (
 "
