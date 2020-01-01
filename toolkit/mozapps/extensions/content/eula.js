@@ -486,12 +486,8 @@ eula
 "
 )
 .
-appendChild
-(
-document
-.
-createTextNode
-(
+value
+=
 window
 .
 arguments
@@ -500,7 +496,5 @@ arguments
 ]
 .
 text
-)
-)
 ;
 }
