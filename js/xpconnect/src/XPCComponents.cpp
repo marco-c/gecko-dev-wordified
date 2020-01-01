@@ -358,6 +358,10 @@ mozilla
 ;
 using
 namespace
+JS
+;
+using
+namespace
 js
 ;
 using
@@ -22052,7 +22056,7 @@ JS_DefinePropertyById
 aCx
 global
 id
-js
+JS
 :
 :
 ObjectValue

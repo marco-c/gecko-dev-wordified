@@ -124,6 +124,13 @@ h
 #
 include
 "
+NamespaceImports
+.
+h
+"
+#
+include
+"
 gc
 /
 Heap

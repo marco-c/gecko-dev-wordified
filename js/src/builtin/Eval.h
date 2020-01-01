@@ -128,6 +128,13 @@ jsbytecode
 .
 h
 "
+#
+include
+"
+NamespaceImports
+.
+h
+"
 namespace
 js
 {
