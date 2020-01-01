@@ -42,7 +42,7 @@ database
 with
 schema
 version
-11
+14
 *
 that
 was
@@ -935,7 +935,7 @@ run_test
 setPlacesDatabase
 (
 "
-places_v10_from_v11
+places_v10_from_v14
 .
 sqlite
 "
