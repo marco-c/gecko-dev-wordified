@@ -1895,6 +1895,10 @@ mURI
 =
 aURI
 ;
+mOriginalURI
+=
+aURI
+;
 return
 NS_OK
 ;
@@ -2204,10 +2208,6 @@ aURI
 aURI
 =
 mOriginalURI
-?
-mOriginalURI
-:
-mURI
 ;
 NS_ADDREF
 (
@@ -2230,6 +2230,11 @@ nsIURI
 aURI
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aURI
+)
+;
 mOriginalURI
 =
 aURI

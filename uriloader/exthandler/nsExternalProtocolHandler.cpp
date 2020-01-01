@@ -1001,7 +1001,7 @@ nsIURI
 aURI
 )
 {
-NS_IF_ADDREF
+NS_ADDREF
 (
 *
 aURI

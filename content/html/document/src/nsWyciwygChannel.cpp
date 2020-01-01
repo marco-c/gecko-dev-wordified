@@ -602,6 +602,10 @@ mURI
 =
 uri
 ;
+mOriginalURI
+=
+uri
+;
 return
 NS_OK
 ;
@@ -1265,6 +1269,9 @@ S
 NS_ASSERTION
 (
 mOriginalURI
+!
+=
+mURI
 "
 nsWyciwygChannel
 :
@@ -1284,12 +1291,8 @@ n
 aURI
 =
 mOriginalURI
-?
-mOriginalURI
-:
-mURI
 ;
-NS_IF_ADDREF
+NS_ADDREF
 (
 *
 aURI
@@ -1310,6 +1313,11 @@ nsIURI
 aURI
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aURI
+)
+;
 mOriginalURI
 =
 aURI
