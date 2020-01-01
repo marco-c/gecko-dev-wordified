@@ -2965,6 +2965,7 @@ shift
 )
 ;
 }
+;
 function
 test_reload
 (
