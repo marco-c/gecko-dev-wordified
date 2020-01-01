@@ -35948,6 +35948,10 @@ op
 {
 default
 :
+status
+=
+JSRS_ERROR
+;
 goto
 stop_recording
 ;
