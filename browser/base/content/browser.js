@@ -22570,8 +22570,14 @@ SetClickAndHoldHandlers
 #
 endif
 #
-ifndef
+ifdef
 MOZ_PLACES_BOOKMARKS
+initBookmarksToolbar
+(
+)
+;
+#
+else
 /
 /
 fix
