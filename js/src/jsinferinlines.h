@@ -1769,7 +1769,7 @@ co
 script
 -
 >
-hasMJITInfo
+hasJITInfo
 (
 )
 )
