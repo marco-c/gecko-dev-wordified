@@ -14207,7 +14207,7 @@ file
 ;
 /
 /
-even
+Even
 with
 NS_OK
 file
@@ -14218,6 +14218,7 @@ if
 nothing
 was
 selected
+.
 if
 (
 file
@@ -14277,6 +14278,16 @@ GetRandomValues
 length
 )
 ;
+if
+(
+!
+buf
+)
+{
+return
+true
+;
+}
 randomValues
 -
 >
