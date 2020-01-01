@@ -453,7 +453,7 @@ _restartCount
 _messageActions
 :
 function
-ev__messageActions
+pv__messageActions
 (
 aData
 )
@@ -901,6 +901,17 @@ aEvent
 {
 if
 (
+aEvent
+.
+target
+!
+=
+panels
+)
+return
+;
+if
+(
 panels
 .
 selectedPanel
@@ -928,7 +939,7 @@ false
 _delayedInit
 :
 function
-ev__delayedInit
+pv__delayedInit
 (
 )
 {
