@@ -2915,6 +2915,7 @@ t
 .
 if
 (
+!
 mCurrentTooltip
 -
 >
