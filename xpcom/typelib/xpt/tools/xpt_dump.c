@@ -457,7 +457,7 @@ h
 >
 #
 ifdef
-XP_OS2_EMX
+XP_OS2
 #
 include
 <
