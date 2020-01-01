@@ -2673,7 +2673,6 @@ glitz_buffer_t
 buffer
 ;
 static
-const
 glitz_pixel_format_t
 format
 =
@@ -3236,7 +3235,7 @@ grad
 >
 gradient
 .
-c1
+inner
 .
 x
 ;
@@ -3250,7 +3249,7 @@ grad
 >
 gradient
 .
-c1
+inner
 .
 y
 ;
@@ -3264,7 +3263,7 @@ grad
 >
 gradient
 .
-c1
+inner
 .
 radius
 ;
@@ -3278,7 +3277,7 @@ grad
 >
 gradient
 .
-c2
+outer
 .
 x
 ;
@@ -3292,7 +3291,7 @@ grad
 >
 gradient
 .
-c2
+outer
 .
 y
 ;
@@ -3306,7 +3305,7 @@ grad
 >
 gradient
 .
-c2
+outer
 .
 radius
 ;
@@ -4417,7 +4416,6 @@ CAIRO_OPERATOR_CLEAR
 :
 {
 static
-const
 glitz_color_t
 glitz_color
 =
@@ -4858,7 +4856,6 @@ n_traps
 )
 {
 static
-const
 glitz_color_t
 clear_black
 =
@@ -8591,7 +8588,6 @@ x2
 y2
 ;
 static
-const
 glitz_vertex_format_t
 format
 =

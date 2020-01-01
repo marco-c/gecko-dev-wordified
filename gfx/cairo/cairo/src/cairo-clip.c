@@ -405,10 +405,6 @@ cairo_surface_t
 target
 )
 {
-if
-(
-target
-)
 clip
 -
 >
@@ -418,14 +414,6 @@ _cairo_surface_get_clip_mode
 (
 target
 )
-;
-else
-clip
--
->
-mode
-=
-CAIRO_CLIP_MODE_MASK
 ;
 clip
 -

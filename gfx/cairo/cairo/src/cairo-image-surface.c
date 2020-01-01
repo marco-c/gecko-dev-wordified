@@ -4969,13 +4969,6 @@ surface
 height
 )
 ;
-/
-*
-Use
-_cairo_surface_composite
-directly
-*
-/
 cr
 =
 cairo_create

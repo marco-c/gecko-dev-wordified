@@ -630,7 +630,7 @@ typedef
 struct
 _cairo_bo_event_queue
 {
-cairo_skip_list_t
+skip_list_t
 intersection_queue
 ;
 cairo_bo_event_t
@@ -656,7 +656,7 @@ cairo_bo_event_queue_t
 This
 structure
 extends
-cairo_skip_list_t
+skip_list_t
 which
 must
 come
@@ -668,7 +668,7 @@ typedef
 struct
 _cairo_bo_sweep_line
 {
-cairo_skip_list_t
+skip_list_t
 active_edges
 ;
 cairo_bo_edge_t
@@ -4447,7 +4447,7 @@ queue
 .
 *
 /
-_cairo_skip_list_insert
+skip_list_insert
 (
 &
 queue
@@ -4487,7 +4487,7 @@ event
 >
 type
 )
-_cairo_skip_list_delete_given
+skip_list_delete_given
 (
 &
 queue
@@ -4645,7 +4645,7 @@ event_queue
 )
 )
 ;
-_cairo_skip_list_init
+skip_list_init
 (
 &
 event_queue
@@ -4955,7 +4955,7 @@ cairo_bo_event_queue_t
 event_queue
 )
 {
-_cairo_skip_list_fini
+skip_list_fini
 (
 &
 event_queue
@@ -5165,7 +5165,7 @@ cairo_bo_sweep_line_t
 sweep_line
 )
 {
-_cairo_skip_list_init
+skip_list_init
 (
 &
 sweep_line
@@ -5210,7 +5210,7 @@ cairo_bo_sweep_line_t
 sweep_line
 )
 {
-_cairo_skip_list_fini
+skip_list_fini
 (
 &
 sweep_line
@@ -5250,7 +5250,7 @@ next_of_prev
 ;
 sweep_line_elt
 =
-_cairo_skip_list_insert
+skip_list_insert
 (
 &
 sweep_line
@@ -5385,7 +5385,7 @@ left_next
 *
 right_prev
 ;
-_cairo_skip_list_delete_given
+skip_list_delete_given
 (
 &
 sweep_line
@@ -5928,7 +5928,7 @@ too
 .
 *
 /
-cairo_skip_list_t
+skip_list_t
 *
 queue
 =
@@ -10967,6 +10967,7 @@ random
 XX
 "
 ;
+static
 cairo_bo_edge_t
 random_edges
 [
