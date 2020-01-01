@@ -16392,7 +16392,7 @@ aContent1
 aContent2
 )
 return
-false
+nsnull
 ;
 nsIContent
 *
