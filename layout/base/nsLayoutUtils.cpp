@@ -939,6 +939,13 @@ mozilla
 :
 css
 ;
+typedef
+gfxPattern
+:
+:
+GraphicsFilter
+GraphicsFilter
+;
 /
 *
 *
@@ -18336,9 +18343,6 @@ GetRootFrame
 )
 ;
 }
-gfxPattern
-:
-:
 GraphicsFilter
 nsLayoutUtils
 :
@@ -18353,9 +18357,6 @@ aForFrame
 #
 ifdef
 MOZ_GFX_OPTIMIZE_MOBILE
-gfxPattern
-:
-:
 GraphicsFilter
 defaultFilter
 =
@@ -18366,9 +18367,6 @@ FILTER_NEAREST
 ;
 #
 else
-gfxPattern
-:
-:
 GraphicsFilter
 defaultFilter
 =
@@ -19647,9 +19645,6 @@ aRenderingContext
 imgIContainer
 *
 aImage
-gfxPattern
-:
-:
 GraphicsFilter
 aGraphicsFilter
 const
@@ -19801,9 +19796,6 @@ aRenderingContext
 gfxDrawable
 *
 aDrawable
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 const
@@ -20270,9 +20262,6 @@ aRenderingContext
 imgIContainer
 *
 aImage
-gfxPattern
-:
-:
 GraphicsFilter
 aGraphicsFilter
 const
@@ -20869,9 +20858,6 @@ aRenderingContext
 imgIContainer
 *
 aImage
-gfxPattern
-:
-:
 GraphicsFilter
 aGraphicsFilter
 const
