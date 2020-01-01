@@ -610,6 +610,14 @@ iie
 EnsureResolved
 (
 )
+|
+|
+iie
+-
+>
+GetBuiltinClassFlag
+(
+)
 )
 return
 NS_ERROR_FAILURE
