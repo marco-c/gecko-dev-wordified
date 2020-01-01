@@ -1665,6 +1665,14 @@ bkmkIds
 2
 ]
 ;
+/
+/
+Moving
+items
+between
+the
+same
+folder
 var
 txn3
 =
@@ -1684,14 +1692,6 @@ doTransaction
 (
 )
 ;
-/
-/
-Moving
-items
-between
-the
-same
-folder
 do_check_eq
 (
 observer
@@ -2039,7 +2039,7 @@ do_check_eq
 observer
 .
 _itemRemovedIndex
-1
+2
 )
 ;
 txn5
@@ -2061,7 +2061,7 @@ do_check_eq
 observer
 .
 _itemAddedIndex
-1
+2
 )
 ;
 /
