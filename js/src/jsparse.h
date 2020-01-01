@@ -8739,6 +8739,9 @@ recognizeDirectivePrologue
 JSParseNode
 *
 pn
+bool
+*
+isDirectivePrologueMember
 )
 ;
 enum

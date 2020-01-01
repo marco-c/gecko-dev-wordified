@@ -7462,6 +7462,10 @@ goto
 error
 ;
 }
+setOctalCharacterEscape
+(
+)
+;
 }
 if
 (
