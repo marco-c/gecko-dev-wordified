@@ -4060,6 +4060,16 @@ getAttribute
 label
 "
 )
+image
+:
+aTab
+.
+getAttribute
+(
+"
+image
+"
+)
 pos
 :
 aTab
