@@ -6535,7 +6535,7 @@ too
 high
 aNumber
 =
-PR_MIN
+NS_MIN
 (
 aNumber
 (
@@ -7969,7 +7969,7 @@ too
 high
 aNumber
 =
-PR_MIN
+NS_MIN
 (
 aNumber
 (
@@ -8410,7 +8410,7 @@ newSpanList
 .
 AppendElement
 (
-PR_MAX
+NS_MAX
 (
 (
 aRowIndex
@@ -9172,7 +9172,7 @@ region
 PRInt32
 minColumn
 =
-PR_MIN
+NS_MIN
 (
 startColIndex
 endColIndex
@@ -9181,7 +9181,7 @@ endColIndex
 PRInt32
 minRow
 =
-PR_MIN
+NS_MIN
 (
 startRowIndex
 endRowIndex
@@ -9190,7 +9190,7 @@ endRowIndex
 PRInt32
 maxColumn
 =
-PR_MAX
+NS_MAX
 (
 startColIndex
 endColIndex
@@ -9199,7 +9199,7 @@ endColIndex
 PRInt32
 maxRow
 =
-PR_MAX
+NS_MAX
 (
 startRowIndex
 endRowIndex
@@ -9396,7 +9396,7 @@ maxColumn
 col
 +
 =
-PR_MAX
+NS_MAX
 (
 actualColSpan
 1
@@ -9776,7 +9776,7 @@ colCount
 col
 +
 =
-PR_MAX
+NS_MAX
 (
 actualColSpan
 1
@@ -10190,7 +10190,7 @@ colCount
 col
 +
 =
-PR_MAX
+NS_MAX
 (
 actualColSpan
 1
@@ -10563,7 +10563,7 @@ rowCount
 row
 +
 =
-PR_MAX
+NS_MAX
 (
 actualRowSpan
 1
@@ -11910,7 +11910,7 @@ location
 colIndex
 +
 =
-PR_MAX
+NS_MAX
 (
 actualColSpan2
 1
@@ -12966,7 +12966,7 @@ colCount
 colIndex
 +
 =
-PR_MAX
+NS_MAX
 (
 actualColSpan2
 1
@@ -13125,7 +13125,7 @@ rows
 ?
 lastRowIndex
 =
-PR_MAX
+NS_MAX
 (
 0
 rowIndex
@@ -13236,7 +13236,7 @@ previous
 row
 lastRowIndex
 =
-PR_MAX
+NS_MAX
 (
 0
 rowIndex
@@ -13364,7 +13364,7 @@ previous
 row
 lastRowIndex
 =
-PR_MAX
+NS_MAX
 (
 0
 rowIndex
@@ -13406,7 +13406,7 @@ right
 boundary
 lastColIndex
 =
-PR_MIN
+NS_MIN
 (
 lastColIndex
 lastColInRow
@@ -13441,7 +13441,7 @@ previous
 value
 lastRowIndex
 =
-PR_MAX
+NS_MAX
 (
 0
 rowIndex
@@ -13507,7 +13507,7 @@ colCount
 colIndex
 +
 =
-PR_MAX
+NS_MAX
 (
 actualColSpan2
 1
@@ -15125,7 +15125,7 @@ colCount
 colIndex
 +
 =
-PR_MAX
+NS_MAX
 (
 actualColSpan
 1
@@ -15295,7 +15295,7 @@ colCount
 colIndex
 +
 =
-PR_MAX
+NS_MAX
 (
 actualColSpan
 1
@@ -15511,7 +15511,7 @@ rowCount
 rowIndex
 +
 =
-PR_MAX
+NS_MAX
 (
 actualRowSpan
 1
@@ -15681,7 +15681,7 @@ rowCount
 rowIndex
 +
 =
-PR_MAX
+NS_MAX
 (
 actualRowSpan
 1
@@ -20719,7 +20719,7 @@ aNumberOfColumns
 col
 +
 =
-PR_MAX
+NS_MAX
 (
 actualColSpan
 1
@@ -20905,7 +20905,7 @@ aNumberOfRows
 row
 +
 =
-PR_MAX
+NS_MAX
 (
 actualRowSpan
 1
