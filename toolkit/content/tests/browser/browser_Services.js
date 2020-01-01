@@ -532,4 +532,14 @@ Ci
 nsIFocusManager
 )
 ;
+checkService
+(
+"
+uriFixup
+"
+Ci
+.
+nsIURIFixup
+)
+;
 }
