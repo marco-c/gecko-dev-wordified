@@ -1016,6 +1016,9 @@ failed
 =
 true
 ;
+HRESULT
+hr
+;
 /
 /
 Off
@@ -1077,7 +1080,6 @@ it
 to
 D3D
 .
-HRESULT
 hr
 =
 d3d
