@@ -17178,6 +17178,16 @@ if
 mPerformance
 )
 {
+if
+(
+!
+mDoc
+)
+{
+return
+NS_OK
+;
+}
 nsRefPtr
 <
 nsDOMNavigationTiming
