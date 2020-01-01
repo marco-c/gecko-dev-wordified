@@ -2674,9 +2674,6 @@ Get
 the
 positioning
 offset
-nsresult
-res
-;
 PRInt32
 positioningOffset
 =
