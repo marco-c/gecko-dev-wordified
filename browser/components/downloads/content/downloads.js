@@ -8748,6 +8748,17 @@ localFile
 exists
 (
 )
+|
+|
+this
+.
+dataItem
+.
+partFile
+.
+exists
+(
+)
 ;
 }
 case
