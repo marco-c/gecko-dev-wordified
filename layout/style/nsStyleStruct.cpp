@@ -6102,6 +6102,10 @@ mAlignItems
 =
 NS_STYLE_ALIGN_ITEMS_INITIAL_VALUE
 ;
+mAlignSelf
+=
+NS_STYLE_ALIGN_SELF_AUTO
+;
 mFlexDirection
 =
 NS_STYLE_FLEX_DIRECTION_ROW
@@ -6302,6 +6306,14 @@ lines
 .
 if
 (
+mAlignSelf
+!
+=
+aOther
+.
+mAlignSelf
+|
+|
 mOrder
 !
 =
