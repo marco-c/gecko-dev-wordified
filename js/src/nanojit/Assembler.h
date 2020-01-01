@@ -1316,15 +1316,6 @@ e
 ;
 }
 void
-setCallTable
-(
-const
-CallInfo
-*
-functions
-)
-;
-void
 pageReset
 (
 )
