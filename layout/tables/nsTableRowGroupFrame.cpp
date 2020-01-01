@@ -831,7 +831,6 @@ tableFrame
 >
 GetStartRowIndex
 (
-*
 this
 )
 ;
@@ -1735,11 +1734,6 @@ aBuilder
 -
 >
 IsAtRootOfPseudoStackingContext
-(
-)
-|
-|
-IsScrolled
 (
 )
 ;
@@ -9953,7 +9947,6 @@ tableFrame
 >
 AppendRows
 (
-*
 this
 rowIndex
 rows
@@ -10319,7 +10312,6 @@ tableFrame
 >
 InsertRows
 (
-*
 this
 rows
 rowIndex

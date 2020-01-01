@@ -639,7 +639,7 @@ void
 InsertGroupCellMap
 (
 nsTableRowGroupFrame
-&
+*
 aNewRowGroup
 nsTableRowGroupFrame
 *
@@ -899,7 +899,7 @@ void
 InsertRows
 (
 nsTableRowGroupFrame
-&
+*
 aRowGroup
 nsTArray
 <
@@ -1738,7 +1738,7 @@ collapse
 nsCellMap
 (
 nsTableRowGroupFrame
-&
+*
 aRowGroupFrame
 PRBool
 aIsBC
