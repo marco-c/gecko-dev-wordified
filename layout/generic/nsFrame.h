@@ -1416,12 +1416,6 @@ PRInt8
 aOutSideLimit
 )
 ;
-PRBool
-GetMouseThrough
-(
-)
-const
-;
 /
 *
 *
