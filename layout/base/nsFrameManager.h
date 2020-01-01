@@ -1254,9 +1254,6 @@ nsresult
 )
 RemoveFrame
 (
-nsIFrame
-*
-aParentFrame
 nsIAtom
 *
 aListName

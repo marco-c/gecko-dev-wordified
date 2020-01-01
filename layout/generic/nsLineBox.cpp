@@ -2103,6 +2103,14 @@ GetNextSibling
 child
 -
 >
+SetNextSibling
+(
+nsnull
+)
+;
+child
+-
+>
 Destroy
 (
 )

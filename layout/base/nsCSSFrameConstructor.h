@@ -2093,14 +2093,6 @@ nsILayoutHistoryState
 aFrameState
 )
 ;
-nsresult
-RemoveMappingsForFrameSubtree
-(
-nsIFrame
-*
-aRemovedFrame
-)
-;
 /
 /
 GetInitialContainingBlock

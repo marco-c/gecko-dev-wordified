@@ -522,6 +522,11 @@ nsPopupFrameList
 aNext
 )
 ;
+~
+nsPopupFrameList
+(
+)
+;
 }
 ;
 class
