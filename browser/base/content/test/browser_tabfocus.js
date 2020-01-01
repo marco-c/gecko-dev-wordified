@@ -251,6 +251,17 @@ check
 true
 )
 ;
+executeSoon
+(
+_run_focus_tests
+)
+;
+}
+function
+_run_focus_tests
+(
+)
+{
 window
 .
 focus
