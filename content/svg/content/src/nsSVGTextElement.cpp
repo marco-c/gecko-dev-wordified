@@ -140,7 +140,7 @@ h
 #
 include
 "
-nsSVGTextPositioningElement
+SVGTextPositioningElement
 .
 h
 "
