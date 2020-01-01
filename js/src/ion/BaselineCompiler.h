@@ -318,6 +318,16 @@ JSOP_SETLOCAL
 \
 _
 (
+JSOP_GETARG
+)
+\
+_
+(
+JSOP_SETARG
+)
+\
+_
+(
 JSOP_RETURN
 )
 \
