@@ -435,7 +435,7 @@ h
 #
 include
 "
-cairo
+gfxPattern
 .
 h
 "
@@ -493,8 +493,10 @@ public
 nsSVGMaskFrame
 method
 :
-cairo_pattern_t
-*
+already_AddRefed
+<
+gfxPattern
+>
 ComputeMaskAlpha
 (
 nsSVGRenderState
