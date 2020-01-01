@@ -3007,13 +3007,12 @@ GetViewManager
 nsIView
 *
 rootView
-;
+=
 vm
 -
 >
 GetRootView
 (
-rootView
 )
 ;
 if

@@ -34,6 +34,8 @@ offset
 *
 -
 *
+/
+/
 *
 *
 *
@@ -8916,13 +8918,12 @@ vm
 nsIView
 *
 view
-;
+=
 vm
 -
 >
 GetRootView
 (
-view
 )
 ;
 if

@@ -11030,12 +11030,13 @@ if
 aIsPopup
 )
 {
+parentView
+=
 viewManager
 -
 >
 GetRootView
 (
-parentView
 )
 ;
 visibility

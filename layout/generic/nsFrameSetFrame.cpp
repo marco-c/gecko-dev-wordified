@@ -9948,13 +9948,12 @@ vm
 nsIView
 *
 root
-;
+=
 vm
 -
 >
 GetRootView
 (
-root
 )
 ;
 if

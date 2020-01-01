@@ -1828,14 +1828,11 @@ nsIView
 *
 aView
 =
-nsnull
-;
 mViewManager
 -
 >
 GetRootView
 (
-aView
 )
 ;
 if
