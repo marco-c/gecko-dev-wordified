@@ -24123,7 +24123,7 @@ mLineHeight
 .
 SetCoordValue
 (
-nscoord
+NSToCoordRound
 (
 float
 (
