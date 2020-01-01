@@ -1219,7 +1219,7 @@ IndexOf
 (
 aWindow
 )
-!
+=
 =
 NoIndex
 )
