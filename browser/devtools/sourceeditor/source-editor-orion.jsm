@@ -3734,7 +3734,6 @@ SE_undo
 (
 )
 {
-return
 this
 .
 _undoStack
@@ -3764,7 +3763,6 @@ SE_redo
 (
 )
 {
-return
 this
 .
 _undoStack
@@ -5317,6 +5315,8 @@ new
 HtmlGrammar
 (
 )
+.
+grammar
 )
 ;
 break
