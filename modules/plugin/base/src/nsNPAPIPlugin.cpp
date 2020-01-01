@@ -12352,7 +12352,7 @@ endif
 default
 :
 return
-NPERR_NO_ERROR
+NPERR_GENERIC_ERROR
 ;
 }
 }
