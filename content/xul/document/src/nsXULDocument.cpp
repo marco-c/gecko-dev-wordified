@@ -20479,12 +20479,6 @@ JSScript
 *
 newScriptObject
 =
-static_cast
-<
-JSScript
-*
->
-(
 nsXULPrototypeCache
 :
 :
@@ -20501,7 +20495,6 @@ aScriptProto
 mSrcURI
 &
 fetchedLang
-)
 )
 ;
 if

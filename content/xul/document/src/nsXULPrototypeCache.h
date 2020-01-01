@@ -763,7 +763,7 @@ nsXULPrototypeDocument
 aDocument
 )
 ;
-void
+JSScript
 *
 GetScript
 (
