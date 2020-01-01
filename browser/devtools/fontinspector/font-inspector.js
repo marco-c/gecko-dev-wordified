@@ -1447,6 +1447,11 @@ style
 <
 p
 contenteditable
+spellcheck
+=
+'
+false
+'
 >
 Abc
 <
@@ -1565,6 +1570,11 @@ style
 <
 p
 contenteditable
+spellcheck
+=
+'
+false
+'
 >
 Abc
 <
