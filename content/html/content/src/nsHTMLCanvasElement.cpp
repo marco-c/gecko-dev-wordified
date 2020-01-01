@@ -928,9 +928,6 @@ aFromParser
 {
 return
 new
-(
-aNodeInfo
-)
 nsHTMLCanvasElement
 (
 aNodeInfo

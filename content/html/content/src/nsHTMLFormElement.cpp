@@ -2664,9 +2664,6 @@ nsHTMLFormElement
 it
 =
 new
-(
-aNodeInfo
-)
 nsHTMLFormElement
 (
 aNodeInfo

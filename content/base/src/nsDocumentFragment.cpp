@@ -1232,9 +1232,6 @@ nsDocumentFragment
 it
 =
 new
-(
-nodeInfo
-)
 nsDocumentFragment
 (
 nodeInfo

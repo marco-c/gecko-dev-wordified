@@ -503,9 +503,6 @@ nsMathMLElement
 it
 =
 new
-(
-aNodeInfo
-)
 nsMathMLElement
 (
 aNodeInfo

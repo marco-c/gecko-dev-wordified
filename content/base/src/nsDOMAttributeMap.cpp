@@ -1222,9 +1222,6 @@ nsIDOMNode
 newAttr
 =
 new
-(
-aNodeInfo
-)
 nsDOMAttribute
 (
 aRemove
