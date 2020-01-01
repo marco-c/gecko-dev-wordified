@@ -256,7 +256,7 @@ void
 *
 gstreamerLib
 =
-nullptr
+NULL
 ;
 guint
 major
