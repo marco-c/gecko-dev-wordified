@@ -414,10 +414,6 @@ uint8_t
 *
 interlacebuf
 ;
-uint8_t
-*
-mImageData
-;
 qcms_profile
 *
 mInProfile

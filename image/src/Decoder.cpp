@@ -148,6 +148,14 @@ mImage
 (
 aImage
 )
+mImageData
+(
+nullptr
+)
+mColormap
+(
+nullptr
+)
 mDecodeFlags
 (
 0
