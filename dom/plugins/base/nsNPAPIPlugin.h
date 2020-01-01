@@ -806,15 +806,6 @@ aPluginTag
 )
 ;
 nsresult
-CreatePluginInstance
-(
-nsNPAPIPluginInstance
-*
-*
-aResult
-)
-;
-nsresult
 Shutdown
 (
 )
