@@ -44941,6 +44941,11 @@ ignoreMaxVersion
 =
 false
 ;
+let
+ignoreStrictCompat
+=
+false
+;
 if
 (
 !
@@ -44950,6 +44955,10 @@ checkCompatibility
 )
 {
 ignoreMaxVersion
+=
+true
+;
+ignoreStrictCompat
 =
 true
 ;
@@ -45026,6 +45035,7 @@ syncCompatibility
 null
 null
 ignoreMaxVersion
+ignoreStrictCompat
 )
 ;
 /
@@ -45165,6 +45175,7 @@ this
 .
 platformVersion
 ignoreMaxVersion
+ignoreStrictCompat
 )
 ;
 }
@@ -45301,6 +45312,7 @@ this
 .
 platformVersion
 ignoreMaxVersion
+ignoreStrictCompat
 compatOverrides
 )
 ;
