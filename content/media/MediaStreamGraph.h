@@ -5091,8 +5091,10 @@ Remove
 .
 *
 /
+already_AddRefed
+<
 MediaInputPort
-*
+>
 AllocateInputPort
 (
 MediaStream
