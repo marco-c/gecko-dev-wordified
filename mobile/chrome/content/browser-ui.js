@@ -6459,12 +6459,6 @@ case
 cmd_opensearch
 "
 :
-this
-.
-blurFocusedElement
-(
-)
-;
 BrowserSearch
 .
 toggle
