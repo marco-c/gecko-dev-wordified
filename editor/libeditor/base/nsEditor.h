@@ -598,6 +598,13 @@ nsPIDOMEventTarget
 .
 h
 "
+#
+include
+"
+nsStubMutationObserver
+.
+h
+"
 class
 nsIDOMCharacterData
 ;
@@ -750,6 +757,8 @@ public
 nsSupportsWeakReference
 public
 nsIPhonetic
+public
+nsStubMutationObserver
 {
 public
 :
@@ -1009,6 +1018,9 @@ NS_DECL_NSIEDITORIMESUPPORT
 /
 nsIPhonetic
 NS_DECL_NSIPHONETIC
+NS_DECL_NSIMUTATIONOBSERVER_CONTENTAPPENDED
+NS_DECL_NSIMUTATIONOBSERVER_CONTENTINSERTED
+NS_DECL_NSIMUTATIONOBSERVER_CONTENTREMOVED
 public
 :
 NS_IMETHOD
