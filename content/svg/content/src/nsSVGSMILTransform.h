@@ -811,6 +811,7 @@ TRANSFORM_SKEWY
 TRANSFORM_MATRIX
 }
 ;
+explicit
 nsSVGSMILTransform
 (
 TransformType
@@ -918,6 +919,7 @@ i
 ;
 }
 }
+explicit
 nsSVGSMILTransform
 (
 float

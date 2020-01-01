@@ -789,6 +789,7 @@ nsSMILCompositorKey
 *
 KeyTypePointer
 ;
+explicit
 nsSMILCompositor
 (
 KeyTypePointer

@@ -486,6 +486,7 @@ sSingleton
 )
 {
 }
+explicit
 nsSMILValue
 (
 const

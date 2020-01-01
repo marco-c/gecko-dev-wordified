@@ -613,6 +613,7 @@ kNotSet
 )
 {
 }
+explicit
 nsSMILRepeatCount
 (
 double
