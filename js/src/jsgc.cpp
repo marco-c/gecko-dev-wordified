@@ -22237,9 +22237,13 @@ AutoUnlockGC
 >
 unlockIf
 (
+!
+!
+(
 gckind
 &
 GC_LOCK_HELD
+)
 rt
 )
 ;
