@@ -20852,6 +20852,9 @@ removeIndex
 &
 &
 child
+&
+&
+child
 -
 >
 IsNodeOfType
