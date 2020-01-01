@@ -668,7 +668,7 @@ h
 #
 include
 "
-nsNSSIOLayer
+TransportSecurityInfo
 .
 h
 "
@@ -1243,6 +1243,15 @@ nssLoadingComponent
 nsNSSComponent
 Init
 )
+using
+namespace
+mozilla
+:
+:
+psm
+;
+namespace
+{
 /
 /
 Use
@@ -1459,7 +1468,7 @@ nsSSLStatus
 NS_NSS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nssEnsureOnChromeOnly
-nsNSSSocketInfo
+TransportSecurityInfo
 )
 typedef
 mozilla
@@ -1642,7 +1651,7 @@ NS_SSLSTATUS_CID
 ;
 NS_DEFINE_NAMED_CID
 (
-NS_NSSSOCKETINFO_CID
+TRANSPORTSECURITYINFO_CID
 )
 ;
 NS_DEFINE_NAMED_CID
@@ -1896,10 +1905,10 @@ nsSSLStatusConstructor
 }
 {
 &
-kNS_NSSSOCKETINFO_CID
+kTRANSPORTSECURITYINFO_CID
 false
 NULL
-nsNSSSocketInfoConstructor
+TransportSecurityInfoConstructor
 }
 {
 &
@@ -2374,6 +2383,11 @@ kNSSContracts
 kNSSCategories
 }
 ;
+}
+/
+/
+unnamed
+namespace
 NSMODULE_DEFN
 (
 NSS
