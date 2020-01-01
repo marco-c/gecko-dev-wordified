@@ -841,11 +841,6 @@ JSFunction
 DeclMarker
 (
 Object
-RegExpObject
-)
-DeclMarker
-(
-Object
 ScopeObject
 )
 DeclMarker
