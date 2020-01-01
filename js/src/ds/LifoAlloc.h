@@ -1513,10 +1513,6 @@ size_t
 n
 )
 {
-JS_OOM_POSSIBLY_FAIL
-(
-)
-;
 void
 *
 result
