@@ -27216,6 +27216,9 @@ NS_SMILEnabled
 |
 |
 mLoadedAsData
+|
+|
+mLoadedAsInteractiveData
 )
 return
 nsnull
