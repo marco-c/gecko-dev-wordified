@@ -598,6 +598,16 @@ addGCType
 js
 :
 :
+LazyScript
+'
+)
+;
+addGCType
+(
+'
+js
+:
+:
 ion
 :
 :
