@@ -529,11 +529,9 @@ js
 .
 gProfD
 =
-__LOCATION__
-.
-parent
-.
-parent
+do_get_cwd
+(
+)
 ;
 gProfD
 .
