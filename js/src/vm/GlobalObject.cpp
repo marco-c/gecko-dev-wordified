@@ -194,6 +194,15 @@ include
 "
 builtin
 /
+Object
+.
+h
+"
+#
+include
+"
+builtin
+/
 RegExp
 .
 h
@@ -1721,7 +1730,7 @@ js_NewFunction
 (
 cx
 ctor
-js_Object
+obj_construct
 1
 JSFunction
 :
