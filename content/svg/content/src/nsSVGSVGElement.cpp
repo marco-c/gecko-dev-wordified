@@ -2093,9 +2093,7 @@ NS_OK
 *
 aPixelUnitToMillimeterX
 =
-25
-.
-4f
+MM_PER_INCH_FLOAT
 /
 nsPresContext
 :
@@ -2217,9 +2215,7 @@ NS_OK
 *
 aScreenPixelToMillimeterX
 =
-25
-.
-4f
+MM_PER_INCH_FLOAT
 /
 nsPresContext
 :
