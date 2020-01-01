@@ -5379,10 +5379,11 @@ SyncFrameViewAfterReflow
 aPresContext
 aKidFrame
 view
-&
 aDesiredSize
 .
-mOverflowArea
+VisualOverflow
+(
+)
 aFlags
 )
 ;
@@ -5523,7 +5524,9 @@ Invalidate
 (
 aDesiredSize
 .
-mOverflowArea
+VisualOverflow
+(
+)
 )
 ;
 }
@@ -6136,7 +6139,7 @@ dirtyRect
 frame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;

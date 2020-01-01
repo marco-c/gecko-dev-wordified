@@ -3891,10 +3891,11 @@ this
 GetView
 (
 )
-&
 desiredSize
 .
-mOverflowArea
+VisualOverflow
+(
+)
 0
 )
 ;

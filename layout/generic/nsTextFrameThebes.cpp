@@ -44937,7 +44937,9 @@ Invalidate
 (
 aMetrics
 .
-mOverflowArea
+VisualOverflow
+(
+)
 )
 ;
 #

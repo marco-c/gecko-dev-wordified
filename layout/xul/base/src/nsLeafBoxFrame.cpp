@@ -2093,9 +2093,9 @@ SetBounds
 above
 aDesiredSize
 .
-mOverflowArea
+mOverflowAreas
 =
-GetOverflowRect
+GetOverflowAreas
 (
 )
 ;
