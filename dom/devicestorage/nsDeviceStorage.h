@@ -245,14 +245,6 @@ name
 "
 #
 define
-POST_ERROR_EVENT_ILLEGAL_TYPE
-"
-Illegal
-content
-type
-"
-#
-define
 POST_ERROR_EVENT_UNKNOWN
 "
 Unknown
