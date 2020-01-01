@@ -2981,7 +2981,7 @@ CanvasWindingRule
 &
 winding
 =
-CanvasWindingRuleValues
+CanvasWindingRule
 :
 :
 Nonzero

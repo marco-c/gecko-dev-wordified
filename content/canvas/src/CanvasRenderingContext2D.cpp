@@ -10089,7 +10089,7 @@ if
 winding
 =
 =
-CanvasWindingRuleValues
+CanvasWindingRule
 :
 :
 Evenodd

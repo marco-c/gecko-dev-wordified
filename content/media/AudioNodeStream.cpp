@@ -1069,14 +1069,10 @@ mNumberOfInputChannels
 =
 aNumberOfChannels
 ;
-mMixingMode
-.
 mChannelCountMode
 =
 aChannelCountMode
 ;
-mMixingMode
-.
 mChannelInterpretation
 =
 aChannelInterpretation
@@ -1470,8 +1466,6 @@ Length
 }
 switch
 (
-mMixingMode
-.
 mChannelCountMode
 )
 {
@@ -1719,8 +1713,6 @@ outputChannelCount
 {
 if
 (
-mMixingMode
-.
 mChannelInterpretation
 =
 =
@@ -1814,8 +1806,6 @@ outputChannelCount
 {
 if
 (
-mMixingMode
-.
 mChannelInterpretation
 =
 =

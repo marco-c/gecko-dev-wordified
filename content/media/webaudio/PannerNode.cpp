@@ -250,7 +250,7 @@ below
 .
 mPanningModel
 (
-PanningModelTypeValues
+PanningModelType
 :
 :
 HRTF
@@ -265,7 +265,7 @@ HRTFPanningFunction
 )
 mDistanceModel
 (
-DistanceModelTypeValues
+DistanceModelType
 :
 :
 Inverse
@@ -393,7 +393,7 @@ mPanningModel
 )
 {
 case
-PanningModelTypeValues
+PanningModelType
 :
 :
 Equalpower
@@ -409,7 +409,7 @@ EqualPowerPanningFunction
 break
 ;
 case
-PanningModelTypeValues
+PanningModelType
 :
 :
 HRTF
@@ -446,7 +446,7 @@ mDistanceModel
 )
 {
 case
-DistanceModelTypeValues
+DistanceModelType
 :
 :
 Inverse
@@ -462,7 +462,7 @@ InverseGainFunction
 break
 ;
 case
-DistanceModelTypeValues
+DistanceModelType
 :
 :
 Linear
@@ -478,7 +478,7 @@ LinearGainFunction
 break
 ;
 case
-DistanceModelTypeValues
+DistanceModelType
 :
 :
 Exponential
@@ -1036,14 +1036,14 @@ above
 .
 mPanningModel
 (
-PanningModelTypeValues
+PanningModelType
 :
 :
 HRTF
 )
 mDistanceModel
 (
-DistanceModelTypeValues
+DistanceModelType
 :
 :
 Inverse
