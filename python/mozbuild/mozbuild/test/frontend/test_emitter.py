@@ -1159,6 +1159,21 @@ LIBRARY_NAME
 lib_name
 '
             
+LIBS
+=
+[
+'
+fans
+.
+lib
+'
+'
+tans
+.
+lib
+'
+]
+            
 SIMPLE_PROGRAMS
 =
 [
