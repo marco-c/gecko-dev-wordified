@@ -1673,7 +1673,16 @@ void
 jsop_getarg
 (
 uint32
-index
+slot
+)
+;
+void
+jsop_setarg
+(
+uint32
+slot
+bool
+popped
 )
 ;
 void
