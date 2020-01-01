@@ -907,7 +907,7 @@ nsStringInputStream
 :
 Available
 (
-PRUint32
+PRUint64
 *
 aLength
 )

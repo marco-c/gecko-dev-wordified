@@ -486,7 +486,7 @@ for
 writing
 .
 virtual
-PRUint32
+PRUint64
 Available
 (
 )
@@ -1131,7 +1131,7 @@ Caps
 )
 ;
 \
-PRUint32
+PRUint64
 Available
 (
 )

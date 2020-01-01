@@ -835,7 +835,7 @@ ArchiveInputStream
 :
 Available
 (
-PRUint32
+PRUint64
 *
 _retval
 )

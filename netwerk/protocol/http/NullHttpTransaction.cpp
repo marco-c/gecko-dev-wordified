@@ -384,7 +384,7 @@ return
 mCaps
 ;
 }
-PRUint32
+PRUint64
 NullHttpTransaction
 :
 :

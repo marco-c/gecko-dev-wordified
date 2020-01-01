@@ -3314,7 +3314,7 @@ return
 mCaps
 ;
 }
-PRUint32
+PRUint64
 nsHttpTransaction
 :
 :
@@ -3322,7 +3322,7 @@ Available
 (
 )
 {
-PRUint32
+PRUint64
 size
 ;
 if

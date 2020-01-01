@@ -1246,7 +1246,7 @@ nsInputStreamTee
 :
 Available
 (
-PRUint32
+PRUint64
 *
 avail
 )

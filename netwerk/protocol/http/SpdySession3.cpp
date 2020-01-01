@@ -14480,7 +14480,7 @@ return
 0
 ;
 }
-PRUint32
+PRUint64
 SpdySession3
 :
 :
