@@ -1417,7 +1417,7 @@ if
 (
 0
 >
-PR_ATOMIC_DECREMENT
+PR_AtomicDecrement
 (
 &
 cv
@@ -1454,7 +1454,7 @@ if
 (
 0
 >
-PR_ATOMIC_DECREMENT
+PR_AtomicDecrement
 (
 &
 cv
@@ -2997,7 +2997,7 @@ array
 (
 void
 )
-PR_ATOMIC_INCREMENT
+PR_AtomicIncrement
 (
 &
 cvar
@@ -3195,7 +3195,7 @@ if
 (
 0
 >
-PR_ATOMIC_DECREMENT
+PR_AtomicDecrement
 (
 &
 cvar
