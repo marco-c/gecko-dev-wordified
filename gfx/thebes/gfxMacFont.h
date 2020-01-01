@@ -389,13 +389,6 @@ InitMetricsFromPlatform
 (
 )
 ;
-void
-InitMetricsFromATSMetrics
-(
-ATSFontRef
-aFontRef
-)
-;
 /
 /
 Get
