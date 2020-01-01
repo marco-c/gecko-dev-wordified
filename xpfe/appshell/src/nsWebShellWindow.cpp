@@ -2195,6 +2195,8 @@ eventWindow
 >
 SetPersistenceTimer
 (
+PAD_POSITION
+|
 PAD_SIZE
 |
 PAD_MISC
