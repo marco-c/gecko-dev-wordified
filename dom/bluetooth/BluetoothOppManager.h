@@ -867,13 +867,13 @@ called
 bool
 mWaitingForConfirmationFlag
 ;
-nsAutoPtr
+nsAutoArrayPtr
 <
 uint8_t
 >
 mBodySegment
 ;
-nsAutoPtr
+nsAutoArrayPtr
 <
 uint8_t
 >

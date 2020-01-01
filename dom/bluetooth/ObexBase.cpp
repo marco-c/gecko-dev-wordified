@@ -685,6 +685,11 @@ content
 )
 )
 ;
+delete
+[
+]
+content
+;
 ptr
 +
 =
