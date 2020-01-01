@@ -453,9 +453,7 @@ h
 #
 include
 <
-math
-.
-h
+cmath
 >
 #
 include
@@ -1158,6 +1156,9 @@ iOS
 SDK
 .
 return
+std
+:
+:
 isfinite
 (
 d
