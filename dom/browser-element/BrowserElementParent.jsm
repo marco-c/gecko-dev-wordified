@@ -1959,6 +1959,12 @@ _createEvent
 (
 evtName
 detail
+/
+*
+cancellable
+*
+/
+true
 )
 ;
 if
@@ -2043,6 +2049,8 @@ a
 custom
 context
 menu
+return
+!
 this
 .
 _frameElement
