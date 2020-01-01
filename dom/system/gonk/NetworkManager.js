@@ -5865,7 +5865,7 @@ if
 (
 file
 .
-IsDirectory
+exists
 (
 )
 )
