@@ -3966,7 +3966,7 @@ nsAccEvent
 nsIAccessibleEvent
 :
 :
-EVENT_DOM_DESTROY
+EVENT_HIDE
 accessible
 PR_FALSE
 )
@@ -4543,7 +4543,7 @@ nsAccEvent
 nsIAccessibleEvent
 :
 :
-EVENT_DOM_DESTROY
+EVENT_HIDE
 this
 PR_FALSE
 )
@@ -4588,7 +4588,7 @@ nsAccEvent
 nsIAccessibleEvent
 :
 :
-EVENT_DOM_CREATE
+EVENT_SHOW
 this
 PR_FALSE
 )

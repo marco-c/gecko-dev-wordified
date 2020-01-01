@@ -7016,7 +7016,7 @@ FireAccEvent
 nsIAccessibleEvent
 :
 :
-EVENT_ASYNCH_SHOW
+EVENT_SHOW
 aAccessible
 )
 ;
