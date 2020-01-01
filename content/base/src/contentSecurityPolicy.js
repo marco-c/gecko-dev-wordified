@@ -1284,6 +1284,13 @@ uri
 .
 asciiSpec
 ;
+if
+(
+aChannel
+.
+referrer
+)
+{
 let
 referrer
 =
@@ -1310,6 +1317,7 @@ referrer
 .
 asciiSpec
 ;
+}
 }
 /
 *
