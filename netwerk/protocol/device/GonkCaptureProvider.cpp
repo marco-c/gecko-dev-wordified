@@ -183,7 +183,7 @@ HAL_openCameraHardware_SGS2
 #
 include
 "
-camera
+gonk
 /
 CameraHardwareInterface
 .
@@ -241,7 +241,7 @@ HAL_openCameraHardware_MAGURO
 #
 include
 "
-camera
+gonk
 /
 CameraHardwareInterface
 .
@@ -280,7 +280,7 @@ CameraHardwareInterface_DEFAULT
 #
 include
 "
-camera
+gonk
 /
 CameraHardwareInterface
 .
