@@ -4820,7 +4820,7 @@ size_t
 bufSize
 )
 {
-jsint
+int32_t
 i
 ;
 char
@@ -5110,7 +5110,7 @@ base
 return
 NULL
 ;
-jsint
+int32_t
 i
 ;
 if

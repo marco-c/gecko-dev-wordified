@@ -2050,9 +2050,6 @@ DO_OP
 ;
 }
 }
-jsint
-len
-;
 if
 (
 *
@@ -2147,7 +2144,6 @@ BEGIN_CASE
 JSOP_GOTO
 )
 {
-jsint
 len
 =
 GET_JUMP_OFFSET
@@ -2194,7 +2190,6 @@ cond
 false
 )
 {
-jsint
 len
 =
 GET_JUMP_OFFSET
@@ -2242,7 +2237,6 @@ cond
 false
 )
 {
-jsint
 len
 =
 GET_JUMP_OFFSET
@@ -2290,7 +2284,6 @@ cond
 true
 )
 {
-jsint
 len
 =
 GET_JUMP_OFFSET
@@ -2344,7 +2337,6 @@ cond
 false
 )
 {
-jsint
 len
 =
 GET_JUMP_OFFSET
@@ -2392,7 +2384,6 @@ BEGIN_CASE
 JSOP_GOTOX
 )
 {
-jsint
 len
 =
 GET_JUMPX_OFFSET
@@ -2440,7 +2431,6 @@ cond
 false
 )
 {
-jsint
 len
 =
 GET_JUMPX_OFFSET
@@ -2488,7 +2478,6 @@ cond
 false
 )
 {
-jsint
 len
 =
 GET_JUMPX_OFFSET
@@ -2536,7 +2525,6 @@ cond
 true
 )
 {
-jsint
 len
 =
 GET_JUMPX_OFFSET
@@ -2590,7 +2578,6 @@ cond
 JS_FALSE
 )
 {
-jsint
 len
 =
 GET_JUMPX_OFFSET
@@ -2841,7 +2828,6 @@ regs
 pc
 ;
 \
-jsint
 len
 =
 GET_JUMP_OFFSET
@@ -2860,7 +2846,6 @@ len
 \
 }
 \
-jsint
 len
 =
 1
@@ -3236,6 +3221,8 @@ base
 bool
 ok
 =
+!
+!
 js_CloseIterator
 (
 cx
@@ -5349,7 +5336,7 @@ cond
 =
 cond
 OP
-true
+JS_TRUE
 ;
 \
 }
@@ -5427,7 +5414,7 @@ cond
 =
 cond
 OP
-true
+JS_TRUE
 ;
 \
 }
@@ -5988,7 +5975,7 @@ l
 r
 )
 OP
-true
+JS_TRUE
 ;
 \
 }
@@ -6265,7 +6252,6 @@ sp
 -
 -
 ;
-jsint
 len
 =
 GET_JUMP_OFFSET
@@ -6312,7 +6298,6 @@ sp
 -
 -
 ;
-jsint
 len
 =
 GET_JUMPX_OFFSET
@@ -9190,7 +9175,6 @@ PUSH_INT32
 tmp
 )
 ;
-jsint
 len
 =
 JSOP_INCNAME_LENGTH
@@ -9693,7 +9677,6 @@ cs
 nuses
 ;
 }
-jsint
 len
 =
 cs
@@ -9798,7 +9781,25 @@ incr2
 ;
 do_arg_incop
 :
+/
+/
+If
+we
+initialize
+in
+the
+declaration
+MSVC
+complains
+that
+the
+labels
+skip
+init
+.
 uint32
+slot
+;
 slot
 =
 GET_ARGNO
@@ -10089,7 +10090,6 @@ goto
 error
 ;
 }
-jsint
 len
 =
 JSOP_INCARG_LENGTH
@@ -10475,7 +10475,6 @@ goto
 error
 ;
 }
-jsint
 len
 =
 JSOP_INCGVAR_LENGTH
@@ -10757,6 +10756,7 @@ obj
 ;
 do_getprop_with_obj
 :
+{
 Value
 rval
 ;
@@ -11084,13 +11084,13 @@ op
 length
 )
 ;
-jsint
 len
 =
 JSOP_GETPROP_LENGTH
 +
 i
 ;
+}
 END_VARLEN_CASE
 BEGIN_CASE
 (
@@ -13609,9 +13609,13 @@ setString
 str
 )
 ;
+len
+=
+JSOP_GETELEM_LENGTH
+;
 DO_NEXT_OP
 (
-JSOP_GETELEM_LENGTH
+len
 )
 ;
 }
@@ -14509,6 +14513,9 @@ BEGIN_CASE
 JSOP_NEW
 )
 {
+Value
+lval
+;
 /
 *
 Get
@@ -16269,7 +16276,6 @@ PUSH_UNDEFINED
 (
 )
 ;
-jsint
 len
 =
 JSOP_NAME_LENGTH
@@ -16944,9 +16950,6 @@ END_CASE
 JSOP_TRUE
 )
 {
-jsint
-len
-;
 BEGIN_CASE
 (
 JSOP_TABLESWITCH
@@ -17175,9 +17178,6 @@ off
 END_VARLEN_CASE
 }
 {
-jsint
-len
-;
 BEGIN_CASE
 (
 JSOP_TABLESWITCHX
@@ -17406,9 +17406,6 @@ off
 END_VARLEN_CASE
 }
 {
-jsint
-len
-;
 BEGIN_CASE
 (
 JSOP_LOOKUPSWITCHX
@@ -22617,7 +22614,6 @@ sp
 rval
 ;
 }
-jsint
 len
 =
 js_CodeSpec
@@ -22650,7 +22646,6 @@ BEGIN_CASE
 JSOP_NEWARRAY
 )
 {
-jsint
 len
 =
 GET_UINT16
@@ -24661,7 +24656,6 @@ PUSH_INT32
 i
 )
 ;
-jsint
 len
 =
 GET_JUMP_OFFSET
@@ -24699,7 +24693,6 @@ main
 +
 JSOP_GOSUBX_LENGTH
 ;
-jsint
 len
 =
 GET_JUMPX_OFFSET
@@ -24850,7 +24843,6 @@ isInt32
 )
 )
 ;
-jsint
 len
 =
 rval
@@ -25149,7 +25141,6 @@ isPrimitive
 )
 )
 {
-jsint
 len
 =
 GET_JUMP_OFFSET
@@ -26438,7 +26429,6 @@ PUSH_HOLE
 (
 )
 ;
-jsint
 len
 =
 GET_JUMP_OFFSET
@@ -26590,7 +26580,6 @@ sp
 -
 -
 ;
-jsint
 len
 =
 GET_JUMP_OFFSET
