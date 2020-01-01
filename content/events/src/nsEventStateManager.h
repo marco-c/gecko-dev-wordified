@@ -2662,9 +2662,6 @@ PRUint32
 mRClickCount
 ;
 PRPackedBool
-mNormalLMouseEventInProcess
-;
-PRPackedBool
 m_haveShutdown
 ;
 /
@@ -2693,6 +2690,10 @@ mLastLineScrollConsumedY
 static
 PRInt32
 sUserInputEventDepth
+;
+static
+PRBool
+sNormalLMouseEventInProcess
 ;
 /
 /
