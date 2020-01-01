@@ -199,7 +199,6 @@ nsnull
 )
 {
 }
-;
 NodePointer
 (
 nsINode
