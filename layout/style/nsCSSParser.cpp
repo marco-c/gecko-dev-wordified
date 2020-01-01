@@ -3123,7 +3123,7 @@ aKeywordTable
 )
 ;
 PRBool
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 nsCSSValue
 &
@@ -9614,7 +9614,7 @@ eLength
 :
 rv
 =
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 expr
 -
@@ -9640,7 +9640,7 @@ eBoolInteger
 :
 rv
 =
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 expr
 -
@@ -9784,7 +9784,7 @@ don
 t
 bother
 with
-ParsePositiveVariant
+ParseNonNegativeVariant
 since
 we
 have
@@ -24208,7 +24208,7 @@ PRBool
 CSSParserImpl
 :
 :
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 nsCSSValue
 &
@@ -27562,7 +27562,7 @@ value
 if
 (
 !
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 dimenX
 VARIANT_HLP
@@ -27610,7 +27610,7 @@ eCSSUnit_Initial
 |
 |
 !
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 dimenY
 VARIANT_LP
@@ -27782,7 +27782,7 @@ side
 if
 (
 !
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 dimenX
 .
@@ -27840,7 +27840,7 @@ side
 if
 (
 !
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 dimenY
 .
@@ -29959,7 +29959,7 @@ case
 eCSSProperty__moz_column_rule_width
 :
 return
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 aValue
 VARIANT_HKL
@@ -29990,7 +29990,7 @@ bother
 with
 /
 /
-ParsePositiveVariant
+ParseNonNegativeVariant
 .
 If
 we
@@ -30048,7 +30048,7 @@ case
 eCSSProperty__moz_column_width
 :
 return
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 aValue
 VARIANT_AHL
@@ -30059,7 +30059,7 @@ case
 eCSSProperty__moz_column_gap
 :
 return
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 aValue
 VARIANT_HL
@@ -30120,7 +30120,7 @@ case
 eCSSProperty_box_flex
 :
 return
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 aValue
 VARIANT_HN
@@ -30159,7 +30159,7 @@ case
 eCSSProperty_box_ordinal_group
 :
 return
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 aValue
 VARIANT_HI
@@ -30474,7 +30474,7 @@ case
 eCSSProperty_stroke_width
 :
 return
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 aValue
 VARIANT_HLPN
@@ -30529,7 +30529,7 @@ case
 eCSSProperty_height
 :
 return
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 aValue
 VARIANT_AHLP
@@ -30540,7 +30540,7 @@ case
 eCSSProperty_width
 :
 return
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 aValue
 VARIANT_AHKLP
@@ -30554,7 +30554,7 @@ case
 eCSSProperty_force_broken_image_icon
 :
 return
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 aValue
 VARIANT_HI
@@ -30769,7 +30769,7 @@ case
 eCSSProperty_font_size
 :
 return
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 aValue
 VARIANT_HKLP
@@ -30887,7 +30887,7 @@ case
 eCSSProperty_line_height
 :
 return
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 aValue
 VARIANT_HLPN
@@ -31007,7 +31007,7 @@ case
 eCSSProperty_max_height
 :
 return
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 aValue
 VARIANT_HLPO
@@ -31018,7 +31018,7 @@ case
 eCSSProperty_max_width
 :
 return
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 aValue
 VARIANT_HKLPO
@@ -31032,7 +31032,7 @@ case
 eCSSProperty_min_height
 :
 return
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 aValue
 VARIANT_HLP
@@ -31043,7 +31043,7 @@ case
 eCSSProperty_min_width
 :
 return
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 aValue
 VARIANT_HKLP
@@ -31112,7 +31112,7 @@ case
 eCSSProperty_outline_width
 :
 return
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 aValue
 VARIANT_HKL
@@ -31189,7 +31189,7 @@ case
 eCSSProperty_padding_top
 :
 return
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 aValue
 VARIANT_HLP
@@ -35776,7 +35776,7 @@ percentage
 if
 (
 !
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 splitTop
 VARIANT_NUMBER
@@ -35793,7 +35793,7 @@ PR_FALSE
 if
 (
 !
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 splitRight
 VARIANT_NUMBER
@@ -35811,7 +35811,7 @@ splitTop
 if
 (
 !
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 splitBottom
 VARIANT_NUMBER
@@ -35829,7 +35829,7 @@ splitTop
 if
 (
 !
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 splitLeft
 VARIANT_NUMBER
@@ -35886,7 +35886,7 @@ required
 if
 (
 !
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 borderWidthTop
 VARIANT_LENGTH
@@ -35901,7 +35901,7 @@ PR_FALSE
 if
 (
 !
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 borderWidthRight
 VARIANT_LENGTH
@@ -35917,7 +35917,7 @@ borderWidthTop
 if
 (
 !
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 borderWidthBottom
 VARIANT_LENGTH
@@ -35933,7 +35933,7 @@ borderWidthTop
 if
 (
 !
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 borderWidthLeft
 VARIANT_LENGTH
@@ -36043,7 +36043,7 @@ xValue
 ;
 if
 (
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 xValue
 VARIANT_HL
@@ -36078,7 +36078,7 @@ yValue
 ;
 if
 (
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 yValue
 VARIANT_LENGTH
@@ -38987,7 +38987,7 @@ PR_TRUE
 if
 (
 !
-ParsePositiveVariant
+ParseNonNegativeVariant
 (
 lineHeight
 VARIANT_NUMBER
@@ -44715,7 +44715,7 @@ reject
 If
 we
 use
-ParsePositiveVariant
+ParseNonNegativeVariant
 we
 can
 '
