@@ -1579,8 +1579,9 @@ FoldConstants
 (
 cx
 pn
-&
 bce
+.
+parser
 )
 )
 goto
@@ -1591,8 +1592,9 @@ if
 !
 AnalyzeFunctions
 (
-&
 bce
+.
+parser
 )
 )
 goto
@@ -1659,6 +1661,9 @@ false
 endif
 bce
 .
+parser
+-
+>
 freeTree
 (
 pn
@@ -2067,8 +2072,9 @@ FunctionNode
 create
 (
 PNK_NAME
-&
 funbce
+.
+parser
 )
 ;
 if
@@ -2188,8 +2194,9 @@ i
 .
 maybeAtom
 i
-&
 funbce
+.
+parser
 )
 )
 {
@@ -2295,8 +2302,9 @@ FoldConstants
 (
 cx
 pn
-&
 funbce
+.
+parser
 )
 )
 {
@@ -2321,8 +2329,9 @@ if
 !
 AnalyzeFunctions
 (
-&
 funbce
+.
+parser
 )
 )
 {

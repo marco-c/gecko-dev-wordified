@@ -454,15 +454,6 @@ include
 "
 frontend
 /
-Parser
-.
-h
-"
-#
-include
-"
-frontend
-/
 TreeContext
 .
 h
@@ -598,9 +589,6 @@ JS_ReportErrorNumber
 tc
 -
 >
-parser
--
->
 context
 js_GetErrorMessage
 NULL
@@ -654,9 +642,6 @@ JS_BIT
 JS_ReportErrorNumber
 (
 tc
--
->
-parser
 -
 >
 context
@@ -1066,9 +1051,6 @@ blockObj
 nativeLookup
 (
 tc
--
->
-parser
 -
 >
 context

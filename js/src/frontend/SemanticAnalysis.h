@@ -443,7 +443,7 @@ namespace
 js
 {
 struct
-TreeContext
+Parser
 ;
 namespace
 frontend
@@ -486,9 +486,9 @@ accordingly
 bool
 AnalyzeFunctions
 (
-TreeContext
+Parser
 *
-tc
+parser
 )
 ;
 }

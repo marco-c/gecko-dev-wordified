@@ -1077,9 +1077,9 @@ pn2
 ParseNode
 *
 pn
-TreeContext
+Parser
 *
-tc
+parser
 )
 {
 double
@@ -1384,7 +1384,7 @@ pn1
 =
 pn
 )
-tc
+parser
 -
 >
 freeTree
@@ -1399,7 +1399,7 @@ pn2
 =
 pn
 )
-tc
+parser
 -
 >
 freeTree
@@ -1455,9 +1455,9 @@ cx
 ParseNode
 *
 pn
-TreeContext
+Parser
 *
-tc
+parser
 )
 {
 JS_ASSERT
@@ -1970,7 +1970,7 @@ pn2
 {
 pn1
 =
-tc
+parser
 -
 >
 freeTree
@@ -2293,7 +2293,7 @@ pn_next
 {
 pn1
 =
-tc
+parser
 -
 >
 freeTree
@@ -2761,9 +2761,9 @@ cx
 ParseNode
 *
 pn
-TreeContext
+Parser
 *
-tc
+parser
 bool
 inCond
 )
@@ -2803,6 +2803,15 @@ case
 PN_FUNC
 :
 {
+TreeContext
+*
+tc
+=
+parser
+-
+>
+tc
+;
 uint32_t
 oldflags
 =
@@ -2856,7 +2865,7 @@ pn
 -
 >
 pn_body
-tc
+parser
 )
 )
 return
@@ -3027,7 +3036,7 @@ FoldConstants
 (
 cx
 pn2
-tc
+parser
 cond
 )
 )
@@ -3093,7 +3102,7 @@ FoldConstants
 (
 cx
 pn1
-tc
+parser
 pn
 -
 >
@@ -3118,7 +3127,7 @@ FoldConstants
 (
 cx
 pn2
-tc
+parser
 pn
 -
 >
@@ -3151,7 +3160,7 @@ JSOP_TRUE
 )
 )
 {
-tc
+parser
 -
 >
 freeTree
@@ -3178,7 +3187,7 @@ FoldConstants
 (
 cx
 pn3
-tc
+parser
 )
 )
 return
@@ -3240,7 +3249,7 @@ FoldConstants
 (
 cx
 pn1
-tc
+parser
 inCond
 )
 )
@@ -3254,7 +3263,7 @@ FoldConstants
 (
 cx
 pn2
-tc
+parser
 inCond
 )
 )
@@ -3291,7 +3300,7 @@ FoldConstants
 (
 cx
 pn1
-tc
+parser
 pn
 -
 >
@@ -3311,7 +3320,7 @@ FoldConstants
 (
 cx
 pn2
-tc
+parser
 pn
 -
 >
@@ -3449,7 +3458,7 @@ FoldConstants
 (
 cx
 pn1
-tc
+parser
 pn
 -
 >
@@ -3575,7 +3584,7 @@ FoldConstants
 (
 cx
 pn1
-tc
+parser
 )
 )
 return
@@ -3601,7 +3610,7 @@ FoldConstants
 (
 cx
 pn1
-tc
+parser
 )
 )
 return
@@ -3808,6 +3817,9 @@ pn2
 &
 &
 (
+parser
+-
+>
 tc
 -
 >
@@ -3959,7 +3971,7 @@ makeEmpty
 )
 ;
 }
-tc
+parser
 -
 >
 freeTree
@@ -3977,7 +3989,7 @@ pn3
 =
 pn2
 )
-tc
+parser
 -
 >
 freeTree
@@ -4100,7 +4112,7 @@ pn2
 >
 pn_next
 ;
-tc
+parser
 -
 >
 freeTree
@@ -4165,7 +4177,7 @@ pn1
 >
 pn_next
 ;
-tc
+parser
 -
 >
 freeTree
@@ -4291,7 +4303,7 @@ become
 pn1
 )
 ;
-tc
+parser
 -
 >
 freeTree
@@ -4338,7 +4350,7 @@ PNK_OR
 )
 )
 {
-tc
+parser
 -
 >
 freeTree
@@ -4376,7 +4388,7 @@ PNK_AND
 )
 )
 ;
-tc
+parser
 -
 >
 freeTree
@@ -4805,7 +4817,7 @@ pn2
 ;
 pn2
 =
-tc
+parser
 -
 >
 freeTree
@@ -5100,7 +5112,7 @@ setArity
 PN_NULLARY
 )
 ;
-tc
+parser
 -
 >
 freeTree
@@ -5108,7 +5120,7 @@ freeTree
 pn1
 )
 ;
-tc
+parser
 -
 >
 freeTree
@@ -5295,7 +5307,7 @@ op
 pn1
 pn2
 pn
-tc
+parser
 )
 )
 return
@@ -5330,7 +5342,7 @@ op
 pn
 pn2
 pn
-tc
+parser
 )
 )
 return
@@ -5411,7 +5423,7 @@ getOp
 pn1
 pn2
 pn
-tc
+parser
 )
 )
 return
@@ -5625,7 +5637,7 @@ pn_dval
 =
 d
 ;
-tc
+parser
 -
 >
 freeTree
@@ -5721,7 +5733,7 @@ JSOP_TRUE
 )
 ;
 }
-tc
+parser
 -
 >
 freeTree
@@ -5792,7 +5804,7 @@ FoldXMLConstants
 (
 cx
 pn
-tc
+parser
 )
 )
 return
@@ -5852,9 +5864,6 @@ ObjectBox
 *
 xmlbox
 =
-tc
--
->
 parser
 -
 >
@@ -5907,7 +5916,7 @@ pn_objbox
 =
 xmlbox
 ;
-tc
+parser
 -
 >
 freeTree
@@ -6022,9 +6031,6 @@ okay
 .
 *
 /
-tc
--
->
 parser
 -
 >
