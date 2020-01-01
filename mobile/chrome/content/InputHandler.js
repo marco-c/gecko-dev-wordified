@@ -8725,6 +8725,7 @@ if
 (
 keyer
 )
+{
 keyer
 .
 dispatchKeyEvent
@@ -8732,6 +8733,19 @@ dispatchKeyEvent
 aEvent
 )
 ;
+aEvent
+.
+stopPropagation
+(
+)
+;
+aEvent
+.
+preventDefault
+(
+)
+;
+}
 }
 }
 /
