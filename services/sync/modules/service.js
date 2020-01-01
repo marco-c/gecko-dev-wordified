@@ -6217,14 +6217,10 @@ defaultKeyUri
 ;
 try
 {
-yield
 PubKeys
 .
 uploadKeypair
 (
-self
-.
-cb
 keys
 )
 ;
