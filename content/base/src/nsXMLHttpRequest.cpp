@@ -18669,6 +18669,16 @@ NS_ERROR_IN_PROGRESS
 return
 ;
 }
+LogMessage
+(
+"
+MultipartXHRWarning
+"
+GetOwner
+(
+)
+)
+;
 if
 (
 aMultipart
