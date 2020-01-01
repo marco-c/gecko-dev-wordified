@@ -3006,7 +3006,7 @@ GetBodyColor
 ruleWalker
 -
 >
-GetCurrentNode
+CurrentNode
 (
 )
 -
