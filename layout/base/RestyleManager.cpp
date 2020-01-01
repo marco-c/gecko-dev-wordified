@@ -13225,6 +13225,9 @@ nsStyleChangeList
 aChangeList
 nsChangeHint
 aHintsHandledByAncestors
+RestyleTracker
+&
+aRestyleTracker
 )
 :
 mPresContext
@@ -13313,6 +13316,10 @@ nsChangeHint
 (
 0
 )
+)
+mRestyleTracker
+(
+aRestyleTracker
 )
 {
 }
@@ -13425,6 +13432,12 @@ nsChangeHint
 (
 0
 )
+)
+mRestyleTracker
+(
+aParentRestyler
+.
+mRestyleTracker
 )
 {
 }
@@ -13541,6 +13554,12 @@ nsChangeHint
 (
 0
 )
+)
+mRestyleTracker
+(
+aParentRestyler
+.
+mRestyleTracker
 )
 {
 }
@@ -13796,9 +13815,6 @@ Restyle
 (
 nsRestyleHint
 aRestyleHint
-RestyleTracker
-&
-aRestyleTracker
 DesiredA11yNotifications
 aDesiredA11yNotifications
 nsTArray
@@ -14232,7 +14248,7 @@ restyleData
 ;
 if
 (
-aRestyleTracker
+mRestyleTracker
 .
 GetRestyleData
 (
@@ -14531,7 +14547,6 @@ providerRestyler
 Restyle
 (
 aRestyleHint
-aRestyleTracker
 aDesiredA11yNotifications
 aVisibleKidsOfHiddenElement
 aTreeMatchContext
@@ -16388,7 +16403,7 @@ undisplayedRestyleData
 ;
 if
 (
-aRestyleTracker
+mRestyleTracker
 .
 GetRestyleData
 (
@@ -18019,7 +18034,6 @@ oofRestyler
 Restyle
 (
 childRestyleHint
-aRestyleTracker
 kidsDesiredA11yNotification
 aVisibleKidsOfHiddenElement
 aTreeMatchContext
@@ -18074,7 +18088,6 @@ phRestyler
 Restyle
 (
 childRestyleHint
-aRestyleTracker
 kidsDesiredA11yNotification
 aVisibleKidsOfHiddenElement
 aTreeMatchContext
@@ -18109,7 +18122,6 @@ childRestyler
 Restyle
 (
 childRestyleHint
-aRestyleTracker
 kidsDesiredA11yNotification
 aVisibleKidsOfHiddenElement
 aTreeMatchContext
@@ -18608,6 +18620,7 @@ mPresContext
 frame
 aChangeList
 aMinChange
+aRestyleTracker
 )
 ;
 restyler
@@ -18619,7 +18632,6 @@ aRestyleDescendants
 eRestyle_Subtree
 :
 eRestyle_Self
-aRestyleTracker
 ElementRestyler
 :
 :

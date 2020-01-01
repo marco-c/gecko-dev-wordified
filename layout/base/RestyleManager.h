@@ -1720,6 +1720,9 @@ nsStyleChangeList
 aChangeList
 nsChangeHint
 aHintsHandledByAncestors
+RestyleTracker
+&
+aRestyleTracker
 )
 ;
 /
@@ -1954,9 +1957,6 @@ Restyle
 (
 nsRestyleHint
 aRestyleHint
-RestyleTracker
-&
-aRestyleTracker
 DesiredA11yNotifications
 aDesiredA11yNotifications
 nsTArray
@@ -2216,6 +2216,10 @@ mParentFrameHintsNotHandledForDescendants
 ;
 nsChangeHint
 mHintsNotHandledForDescendants
+;
+RestyleTracker
+&
+mRestyleTracker
 ;
 }
 ;
