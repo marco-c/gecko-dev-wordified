@@ -16038,6 +16038,10 @@ failures
 /
 array
 =
+(
+jsuword
+*
+)
 JS_realloc
 (
 cx
