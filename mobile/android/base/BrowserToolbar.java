@@ -1390,9 +1390,11 @@ lockLayoutParams
 .
 rightMargin
 ;
-GeckoApp
+SiteIdentityPopup
 .
-mSiteIdentityPopup
+getInstance
+(
+)
 .
 show
 (
