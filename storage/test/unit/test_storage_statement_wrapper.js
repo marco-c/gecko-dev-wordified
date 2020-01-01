@@ -1364,7 +1364,6 @@ setup
 ;
 /
 /
-Static
 function
 JSValStorageStatementBinder
 in
@@ -1376,7 +1375,7 @@ src
 /
 mozStorageStatementParams
 .
-h
+cpp
 tells
 us
 that

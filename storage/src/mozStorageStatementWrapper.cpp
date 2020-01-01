@@ -467,6 +467,13 @@ h
 #
 include
 "
+mozStoragePrivateHelpers
+.
+h
+"
+#
+include
+"
 mozStorageStatementWrapper
 .
 h
@@ -1324,7 +1331,7 @@ i
 if
 (
 !
-JSValStorageStatementBinder
+bindJSValue
 (
 aCtx
 mStatement
