@@ -630,6 +630,16 @@ MacroAssembler
 DataLabelPtr
 DataLabelPtr
 ;
+typedef
+JSC
+:
+:
+MacroAssembler
+:
+:
+DataLabel32
+DataLabel32
+;
 struct
 BranchPatch
 {
@@ -694,8 +704,8 @@ entry
 Label
 stubEntry
 ;
-DataLabelPtr
-shapeVal
+DataLabel32
+shape
 ;
 #
 if
