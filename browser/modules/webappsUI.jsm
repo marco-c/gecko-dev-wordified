@@ -696,6 +696,16 @@ getNext
 (
 )
 ;
+if
+(
+browserWin
+.
+closed
+)
+{
+continue
+;
+}
 let
 tabbrowser
 =
@@ -1166,7 +1176,6 @@ aData
 localDir
 (
 aManifest
-aZipPath
 )
 =
 >
@@ -1188,7 +1197,6 @@ install
 (
 aData
 aManifest
-aZipPath
 )
 ;
 if

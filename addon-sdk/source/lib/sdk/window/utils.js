@@ -1903,6 +1903,17 @@ addition
 of
 them
 .
+/
+/
+XXXbz
+should
+this
+be
+checking
+window
+.
+closed
+?
 if
 (
 options

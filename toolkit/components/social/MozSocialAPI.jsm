@@ -2165,7 +2165,10 @@ getNext
 ;
 if
 (
+!
 win
+.
+closed
 &
 &
 isWindowGoodForChats

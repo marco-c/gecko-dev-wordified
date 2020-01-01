@@ -147,6 +147,16 @@ getNext
 ;
 if
 (
+w
+.
+closed
+)
+{
+continue
+;
+}
+if
+(
 +
 +
 windowCount
