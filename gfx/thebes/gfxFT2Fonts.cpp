@@ -6066,11 +6066,6 @@ GetCache
 Lookup
 (
 aFontEntry
--
->
-Name
-(
-)
 aStyle
 )
 ;
