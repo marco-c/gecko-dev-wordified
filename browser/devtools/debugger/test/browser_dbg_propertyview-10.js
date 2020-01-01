@@ -470,7 +470,7 @@ value
 "
 )
 "
-Array
+InstallTrigger
 "
 "
 Should
@@ -509,10 +509,7 @@ value
 "
 )
 "
-[
-object
-Function
-]
+undefined
 "
 "
 Should
@@ -523,7 +520,7 @@ property
 value
 for
 |
-Array
+InstallTrigger
 |
 .
 "
