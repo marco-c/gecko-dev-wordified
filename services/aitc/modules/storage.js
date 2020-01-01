@@ -1792,7 +1792,7 @@ is
 not
 marked
 as
-hidden
+deleted
 remove
 from
 the
@@ -1813,7 +1813,7 @@ app
 is
 marked
 as
-hidden
+deleted
 but
 isn
 '
@@ -1837,7 +1837,7 @@ is
 not
 marked
 as
-hidden
+deleted
 and
 isn
 '
@@ -1971,7 +1971,7 @@ when
 the
 /
 /
-hidden
+deleted
 flag
 is
 no
@@ -2139,7 +2139,7 @@ if
 !
 app
 .
-hidden
+deleted
 )
 {
 delete
@@ -2156,7 +2156,7 @@ remote
 app
 that
 was
-hidden
+deleted
 but
 also
 isn
@@ -2171,7 +2171,7 @@ if
 (
 app
 .
-hidden
+deleted
 &
 &
 !
@@ -2303,7 +2303,7 @@ need
 the
 ID
 &
-hidden
+deleted
 flag
 .
 let
@@ -2333,7 +2333,7 @@ origin
 ]
 .
 id
-hidden
+deleted
 :
 true
 }

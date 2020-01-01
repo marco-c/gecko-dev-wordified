@@ -711,11 +711,11 @@ test_storage_uninstall
 Set
 app1
 as
-hidden
+deleted
 .
 fakeApp1
 .
-hidden
+deleted
 =
 true
 ;
