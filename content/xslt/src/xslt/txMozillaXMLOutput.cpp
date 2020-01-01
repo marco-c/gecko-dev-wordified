@@ -617,7 +617,7 @@ h
 #
 include
 "
-nsICSSLoader
+nsCSSLoader
 .
 h
 "

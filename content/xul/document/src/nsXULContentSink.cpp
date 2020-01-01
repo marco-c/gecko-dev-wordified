@@ -773,7 +773,7 @@ temporary
 #
 include
 "
-nsICSSLoader
+nsCSSLoader
 .
 h
 "

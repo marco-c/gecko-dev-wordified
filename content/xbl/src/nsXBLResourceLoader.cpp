@@ -523,7 +523,7 @@ h
 #
 include
 "
-nsICSSLoader
+nsCSSLoader
 .
 h
 "
@@ -776,7 +776,13 @@ doc
 )
 )
 ;
-nsICSSLoader
+mozilla
+:
+:
+css
+:
+:
+Loader
 *
 cssLoader
 =

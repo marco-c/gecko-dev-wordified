@@ -520,13 +520,6 @@ h
 #
 include
 "
-nsICSSStyleSheet
-.
-h
-"
-#
-include
-"
 nsNodeInfo
 .
 h
@@ -563,13 +556,6 @@ h
 include
 "
 nsNetUtil
-.
-h
-"
-#
-include
-"
-nsICSSLoader
 .
 h
 "

@@ -543,7 +543,7 @@ h
 #
 include
 "
-nsICSSLoader
+nsCSSLoader
 .
 h
 "
@@ -1661,7 +1661,13 @@ if
 isCSS
 )
 {
-nsICSSLoader
+mozilla
+:
+:
+css
+:
+:
+Loader
 *
 cssLoader
 =
