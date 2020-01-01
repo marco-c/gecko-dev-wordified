@@ -7788,9 +7788,11 @@ v
 ;
 JS_ASSERT
 (
-js_IsDenseArray
-(
 obj
+-
+>
+isDenseArray
+(
 )
 )
 ;
@@ -21721,9 +21723,11 @@ obj
 |
 |
 !
-js_IsDenseArray
-(
 obj
+-
+>
+isDenseArray
+(
 )
 )
 return
