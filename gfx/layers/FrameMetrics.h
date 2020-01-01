@@ -1319,10 +1319,7 @@ See
 bug
 775452
 .
-gfx
-:
-:
-Rect
+CSSRect
 mDisplayPort
 ;
 /
@@ -1400,10 +1397,7 @@ mDisplayPort
 apply
 here
 .
-gfx
-:
-:
-Rect
+CSSRect
 mCriticalDisplayPort
 ;
 /

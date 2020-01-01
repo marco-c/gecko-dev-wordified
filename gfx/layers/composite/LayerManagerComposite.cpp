@@ -2223,10 +2223,7 @@ float
 GetDisplayportCoverage
 (
 const
-gfx
-:
-:
-Rect
+CSSRect
 &
 aDisplayPort
 const

@@ -418,6 +418,11 @@ sfx
 "
 )
 ;
+template
+<
+class
+T
+>
 nsACString
 &
 AppendToString
@@ -432,7 +437,10 @@ mozilla
 gfx
 :
 :
-Rect
+RectTyped
+<
+T
+>
 &
 r
 const

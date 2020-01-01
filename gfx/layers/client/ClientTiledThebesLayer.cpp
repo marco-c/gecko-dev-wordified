@@ -370,6 +370,10 @@ GetFrameMetrics
 )
 .
 mCriticalDisplayPort
+.
+ToUnknownRect
+(
+)
 ;
 if
 (
