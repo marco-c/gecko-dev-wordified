@@ -912,6 +912,17 @@ mTextureFactoryIdentifier
 =
 aIdentifier
 ;
+mMultiProcess
+=
+aIdentifier
+.
+mParentProcessId
+!
+=
+XRE_GetProcessType
+(
+)
+;
 }
 ShadowLayerForwarder
 :

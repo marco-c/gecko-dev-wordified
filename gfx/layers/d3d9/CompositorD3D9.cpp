@@ -345,6 +345,14 @@ mParentBackend
 =
 LAYERS_D3D9
 ;
+ident
+.
+mParentProcessId
+=
+XRE_GetProcessType
+(
+)
+;
 return
 ident
 ;
