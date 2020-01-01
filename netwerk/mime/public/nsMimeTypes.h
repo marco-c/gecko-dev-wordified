@@ -1006,6 +1006,16 @@ xml
 "
 #
 define
+APPLICATION_MATHML_XML
+"
+application
+/
+mathml
++
+xml
+"
+#
+define
 APPLICATION_RDF_XML
 "
 application
