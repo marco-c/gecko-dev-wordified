@@ -485,6 +485,14 @@ getOriginalMode
 0
 ;
 virtual
+PRBool
+isFramesetOk
+(
+)
+=
+0
+;
+virtual
 PRInt32
 getForeignFlag
 (
