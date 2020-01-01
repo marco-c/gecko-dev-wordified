@@ -990,9 +990,6 @@ compiled
 bool
 compileScriptBegin
 (
-JSContext
-*
-cx
 const
 char
 *
@@ -1013,12 +1010,6 @@ compilation
 bool
 compileScriptEnd
 (
-JSContext
-*
-cx
-JSScript
-*
-script
 const
 char
 *
@@ -3040,9 +3031,6 @@ Probes
 :
 compileScriptBegin
 (
-JSContext
-*
-cx
 const
 char
 *
@@ -3088,12 +3076,6 @@ Probes
 :
 compileScriptEnd
 (
-JSContext
-*
-cx
-JSScript
-*
-script
 const
 char
 *

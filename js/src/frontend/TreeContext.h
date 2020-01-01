@@ -2262,9 +2262,6 @@ inline
 bool
 init
 (
-JSContext
-*
-cx
 )
 ;
 }
