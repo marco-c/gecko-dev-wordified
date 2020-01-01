@@ -8142,6 +8142,8 @@ dst
 )
 ;
 }
+namespace
+{
 /
 *
 *
@@ -8831,6 +8833,13 @@ dst
 ;
 }
 ;
+}
+/
+*
+anonymous
+namespace
+*
+/
 AssignmentOperator
 ASTSerializer
 :
