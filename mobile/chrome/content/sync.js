@@ -1085,13 +1085,6 @@ after
 notifying
 setTimeout
 (
-Weave
-.
-Utils
-.
-bind2
-(
-this
 function
 (
 )
@@ -1209,7 +1202,6 @@ label
 ;
 }
 }
-)
 0
 )
 ;
