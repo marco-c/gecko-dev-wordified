@@ -1521,6 +1521,15 @@ nsIntRect
 aRect
 )
 ;
+void
+UpdateRenderBounds
+(
+const
+nsIntRect
+&
+aRect
+)
+;
 /
 *
 *
@@ -2216,6 +2225,9 @@ nsAutoPtr
 FPSState
 >
 mFPS
+;
+nsIntRect
+mRenderBounds
 ;
 #
 ifdef
