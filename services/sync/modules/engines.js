@@ -3584,6 +3584,9 @@ appendDelta
 self
 .
 cb
+this
+.
+_snapshot
 serverDelta
 {
 maxVersion
