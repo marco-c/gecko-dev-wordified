@@ -2026,6 +2026,10 @@ mContainedDecoder
 >
 InitSharedDecoder
 (
+mImageData
+mImageDataLength
+mColormap
+mColormapSize
 )
 ;
 if
@@ -2571,6 +2575,10 @@ mContainedDecoder
 >
 InitSharedDecoder
 (
+mImageData
+mImageDataLength
+mColormap
+mColormapSize
 )
 ;
 /
