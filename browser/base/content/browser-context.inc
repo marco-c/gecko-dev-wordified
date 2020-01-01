@@ -2276,9 +2276,11 @@ oncommand
 "
 BrowserViewSourceOfDocument
 (
-content
+gContextMenu
 .
-document
+browser
+.
+contentDocument
 )
 ;
 "
