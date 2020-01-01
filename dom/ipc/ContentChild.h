@@ -625,6 +625,14 @@ PCrashReporterChild
 *
 AllocPCrashReporter
 (
+const
+NativeThreadId
+&
+id
+const
+PRUint32
+&
+processType
 )
 ;
 virtual
