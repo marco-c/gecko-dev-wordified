@@ -517,6 +517,14 @@ size_t
 pos
 )
 ;
+ValueOperand
+ToOutValue
+(
+LInstruction
+*
+ins
+)
+;
 /
 /
 This
