@@ -2163,6 +2163,12 @@ onTestNetLoad
 true
 )
 ;
+executeSoon
+(
+function
+(
+)
+{
 let
 group
 =
@@ -2312,6 +2318,9 @@ log
 is
 logged
 "
+)
+;
+}
 )
 ;
 testLiveFilteringForMessageTypes
