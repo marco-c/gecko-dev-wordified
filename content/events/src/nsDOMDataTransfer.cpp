@@ -528,6 +528,13 @@ nsIContent
 .
 h
 "
+#
+include
+"
+nsCRT
+.
+h
+"
 NS_IMPL_CYCLE_COLLECTION_2
 (
 nsDOMDataTransfer
@@ -1935,6 +1942,12 @@ nsContentUtils
 :
 :
 TrimWhitespace
+<
+nsCRT
+:
+:
+IsAsciiSpace
+>
 (
 aData
 PR_TRUE
