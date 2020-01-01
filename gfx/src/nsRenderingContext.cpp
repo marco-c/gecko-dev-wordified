@@ -2165,8 +2165,6 @@ X
 {
 r
 .
-size
-.
 width
 +
 =
@@ -2180,8 +2178,6 @@ if
 (
 r
 .
-size
-.
 width
 <
 0
@@ -2192,8 +2188,6 @@ return
 PR_FALSE
 ;
 r
-.
-pos
 .
 x
 =
@@ -2214,8 +2208,6 @@ CAIRO_COORD_MAX
 )
 {
 r
-.
-size
 .
 width
 =
@@ -2243,8 +2235,6 @@ Y
 {
 r
 .
-size
-.
 height
 +
 =
@@ -2271,8 +2261,6 @@ PR_FALSE
 ;
 r
 .
-pos
-.
 y
 =
 0
@@ -2292,8 +2280,6 @@ CAIRO_COORD_MAX
 )
 {
 r
-.
-size
 .
 height
 =

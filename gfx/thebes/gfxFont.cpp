@@ -23551,8 +23551,6 @@ metrics
 .
 mBoundingBox
 .
-pos
-.
 x
 =
 bboxLeft
@@ -23560,8 +23558,6 @@ bboxLeft
 metrics
 .
 mBoundingBox
-.
-size
 .
 width
 =
@@ -23594,8 +23590,6 @@ left
 metrics
 .
 mBoundingBox
-.
-pos
 .
 x
 -

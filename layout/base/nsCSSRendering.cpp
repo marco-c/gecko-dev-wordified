@@ -23602,8 +23602,6 @@ rect
 .
 rect
 .
-size
-.
 width
 +
 =
@@ -23738,8 +23736,6 @@ the
 rect
 .
 rect
-.
-size
 .
 width
 +
@@ -23884,8 +23880,6 @@ the
 line
 .
 rect
-.
-pos
 .
 y
 +
@@ -24140,8 +24134,6 @@ TopRight
 )
 ;
 rect
-.
-size
 .
 height
 -
@@ -24542,8 +24534,6 @@ area
 *
 /
 rect
-.
-pos
 .
 x
 +
@@ -25088,8 +25078,6 @@ descentLimit
 ;
 r
 .
-size
-.
 height
 =
 lineHeight
@@ -25277,8 +25265,6 @@ gap
 ;
 r
 .
-size
-.
 height
 =
 lineHeight
@@ -25334,8 +25320,6 @@ this
 time
 .
 r
-.
-size
 .
 height
 =
@@ -25519,8 +25503,6 @@ XXXXXX
 /
 r
 .
-size
-.
 height
 =
 lineHeight
@@ -25612,8 +25594,6 @@ same
 time
 .
 r
-.
-size
 .
 height
 =
@@ -25842,8 +25822,6 @@ value
 ;
 }
 r
-.
-pos
 .
 y
 =

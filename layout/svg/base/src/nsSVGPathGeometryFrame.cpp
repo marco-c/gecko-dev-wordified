@@ -2090,10 +2090,14 @@ GetUserStrokeExtent
 extent
 +
 =
+gfxPoint
+(
 extent
 .
-Size
-(
+width
+extent
+.
+height
 )
 /
 2

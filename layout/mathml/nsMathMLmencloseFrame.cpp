@@ -4737,7 +4737,9 @@ Center
 )
 rect
 .
-size
+Size
+(
+)
 )
 ;
 break
