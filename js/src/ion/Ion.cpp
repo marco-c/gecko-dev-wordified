@@ -5132,11 +5132,6 @@ alloc
 }
 }
 ;
-/
-*
-static
-*
-/
 bool
 TestCompiler
 (
