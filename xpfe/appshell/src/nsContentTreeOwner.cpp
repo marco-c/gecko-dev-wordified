@@ -5608,8 +5608,8 @@ get
 )
 ;
 }
-NS_STACK_CLASS
 class
+MOZ_STACK_CLASS
 NullJSContextPusher
 {
 public

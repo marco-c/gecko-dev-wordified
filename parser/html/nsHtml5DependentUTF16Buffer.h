@@ -77,7 +77,7 @@ nsHtml5OwningUTF16Buffer
 h
 "
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsHtml5DependentUTF16Buffer
 :
 public

@@ -713,7 +713,7 @@ scope
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 SQLiteMutexAutoLock
 {
 public
@@ -781,7 +781,7 @@ scope
 *
 /
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 SQLiteMutexAutoUnlock
 {
 public
