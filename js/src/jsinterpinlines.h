@@ -2558,7 +2558,6 @@ cx
 obj
 obj
 shape
-false
 strict
 &
 rref
