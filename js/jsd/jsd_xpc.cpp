@@ -2751,7 +2751,7 @@ script
 return
 PR_TRUE
 ;
-jsuint
+jsuword
 pc
 =
 JSD_GetPCForStackFrame
