@@ -55056,9 +55056,6 @@ nsIDOMWorkerPool
 _retval
 )
 {
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsIDOMThreadService
@@ -55072,10 +55069,10 @@ GetOrInitService
 (
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_TRUE
 (
-rv
-rv
+threadService
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 nsCOMPtr
@@ -55084,6 +55081,7 @@ nsIDOMWorkerPool
 >
 newPool
 ;
+nsresult
 rv
 =
 threadService
