@@ -1215,6 +1215,9 @@ InlineReflowState
 aState
 )
 ;
+nscoord
+mBaseline
+;
 }
 ;
 /
