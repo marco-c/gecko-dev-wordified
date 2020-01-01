@@ -497,13 +497,6 @@ h
 #
 include
 "
-nsIMenuBar
-.
-h
-"
-#
-include
-"
 nsIMouseListener
 .
 h
@@ -1107,7 +1100,7 @@ aTitle
 NS_IMETHOD
 SetMenuBar
 (
-nsIMenuBar
+void
 *
 aMenuBar
 )
