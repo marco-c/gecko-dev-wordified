@@ -2009,9 +2009,14 @@ aSizeMode
 -
 1
 PRBool
-aRefreshWindow
+aReflowWindow
 =
 PR_TRUE
+)
+;
+void
+ResetLayout
+(
 )
 ;
 #
