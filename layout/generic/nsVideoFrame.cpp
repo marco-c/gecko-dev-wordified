@@ -1323,11 +1323,9 @@ ImageLayer
 *
 >
 (
-aBuilder
--
->
-LayerBuilder
+GetLayerBuilderForManager
 (
+aManager
 )
 -
 >
