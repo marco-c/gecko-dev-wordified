@@ -1045,8 +1045,9 @@ list
 entry
 -
 >
-remove
+removeFrom
 (
+mList
 )
 ;
 mList
@@ -1371,8 +1372,9 @@ entry
 entry
 -
 >
-remove
+removeFrom
 (
+mList
 )
 ;
 mTable
@@ -1407,8 +1409,9 @@ entry
 entry
 -
 >
-remove
+removeFrom
 (
+mList
 )
 ;
 mTable
@@ -1528,8 +1531,12 @@ table
 aValue
 -
 >
-remove
+removeFrom
 (
+sPreflightCache
+-
+>
+mList
 )
 ;
 return

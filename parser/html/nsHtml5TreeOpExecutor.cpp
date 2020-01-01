@@ -502,8 +502,10 @@ Clear
 (
 )
 ;
-remove
+removeFrom
 (
+*
+gBackgroundFlushList
 )
 ;
 if
