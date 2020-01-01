@@ -1371,9 +1371,11 @@ OF
 deflate_state
 *
 s
+const
 ct_data
 *
 ltree
+const
 ct_data
 *
 dtree
@@ -10410,11 +10412,13 @@ compress_block
 (
 s
 (
+const
 ct_data
 *
 )
 static_ltree
 (
+const
 ct_data
 *
 )
@@ -10484,6 +10488,7 @@ compress_block
 (
 s
 (
+const
 ct_data
 *
 )
@@ -10492,6 +10497,7 @@ s
 >
 dyn_ltree
 (
+const
 ct_data
 *
 )
@@ -11324,6 +11330,7 @@ deflate_state
 *
 s
 ;
+const
 ct_data
 *
 ltree
@@ -11334,6 +11341,7 @@ literal
 tree
 *
 /
+const
 ct_data
 *
 dtree

@@ -18,7 +18,7 @@ C
 )
 1995
 -
-2012
+2013
 Mark
 Adler
 *
@@ -67,11 +67,11 @@ inflate
 .
 2
 .
-7
+8
 Copyright
 1995
 -
-2012
+2013
 Mark
 Adler
 "
@@ -701,8 +701,8 @@ extra
 21
 21
 16
+72
 78
-68
 }
 ;
 static
@@ -2149,7 +2149,6 @@ LENS
 &
 used
 >
-=
 ENOUGH_LENS
 )
 |
@@ -2163,7 +2162,6 @@ DISTS
 &
 used
 >
-=
 ENOUGH_DISTS
 )
 )
@@ -2675,7 +2673,6 @@ LENS
 &
 used
 >
-=
 ENOUGH_LENS
 )
 |
@@ -2689,7 +2686,6 @@ DISTS
 &
 used
 >
-=
 ENOUGH_DISTS
 )
 )

@@ -20,7 +20,7 @@ C
 )
 1995
 -
-2012
+2013
 Jean
 -
 loup
@@ -256,7 +256,7 @@ long
 ulg
 ;
 extern
-const
+z_const
 char
 *
 const
@@ -320,10 +320,6 @@ strm
 >
 msg
 =
-(
-char
-*
-)
 ERR_MSG
 (
 err
@@ -980,6 +976,7 @@ _WIN32
 )
 &
 &
+\
 (
 !
 defined

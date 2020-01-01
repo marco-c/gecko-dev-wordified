@@ -16,6 +16,7 @@ C
 -
 2008
 2010
+2013
 Mark
 Adler
 *
@@ -488,6 +489,7 @@ FAR
 *
 state
 ;
+z_const
 unsigned
 char
 FAR
@@ -503,6 +505,7 @@ strm
 next_in
 *
 /
+z_const
 unsigned
 char
 FAR
@@ -511,13 +514,13 @@ last
 ;
 /
 *
+have
+enough
+input
 while
 in
 <
 last
-enough
-input
-available
 *
 /
 unsigned

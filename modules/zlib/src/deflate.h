@@ -730,13 +730,9 @@ method
 ;
 /
 *
-STORED
-(
-for
-zip
+can
 only
-)
-or
+be
 DEFLATED
 *
 /

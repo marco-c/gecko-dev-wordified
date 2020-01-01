@@ -1915,6 +1915,7 @@ FAR
 *
 state
 ;
+z_const
 unsigned
 char
 FAR
