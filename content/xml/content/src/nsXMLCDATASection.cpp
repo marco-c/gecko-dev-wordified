@@ -432,13 +432,6 @@ h
 #
 include
 "
-nsIDOM3Text
-.
-h
-"
-#
-include
-"
 nsGenericDOMDataNode
 .
 h
@@ -468,7 +461,7 @@ class
 nsXMLCDATASection
 :
 public
-nsGenericTextNode
+nsGenericDOMDataNode
 public
 nsIDOMCDATASection
 {
@@ -676,7 +669,7 @@ nsINodeInfo
 aNodeInfo
 )
 :
-nsGenericTextNode
+nsGenericDOMDataNode
 (
 aNodeInfo
 )
@@ -713,15 +706,6 @@ nsIDOMNode
 nsIDOMCharacterData
 nsIDOMText
 nsIDOMCDATASection
-)
-NS_INTERFACE_MAP_ENTRY_TEAROFF
-(
-nsIDOM3Text
-new
-nsText3Tearoff
-(
-this
-)
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (

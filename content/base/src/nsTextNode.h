@@ -453,13 +453,6 @@ h
 #
 include
 "
-nsIDOM3Text
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -523,7 +516,7 @@ class
 nsTextNode
 :
 public
-nsGenericTextNode
+nsGenericDOMDataNode
 public
 nsIDOMText
 {
