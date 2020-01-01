@@ -197,9 +197,9 @@ Value
 >
 mResult
 ;
-nsRefPtr
+nsCOMPtr
 <
-DOMError
+nsISupports
 >
 mError
 ;
@@ -318,7 +318,7 @@ return
 mResult
 ;
 }
-DOMError
+nsISupports
 *
 GetError
 (
@@ -383,6 +383,14 @@ void
 FireError
 (
 nsresult
+aError
+)
+;
+void
+FireDetailedError
+(
+nsISupports
+*
 aError
 )
 ;

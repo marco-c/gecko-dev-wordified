@@ -9214,6 +9214,9 @@ fireSuccess
 "
 fireDone
 "
+"
+fireDetailedError
+"
 ]
 ;
 for
