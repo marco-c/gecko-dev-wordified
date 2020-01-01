@@ -1182,12 +1182,6 @@ aAllowRetaining
 nsnull
 )
 ;
-gfxASurface
-*
-GetThebesSurface
-(
-)
-;
 NS_IMETHOD
 ReparentNativeWidget
 (
