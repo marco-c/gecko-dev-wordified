@@ -10593,7 +10593,7 @@ cx
 obj
 index
 rval
-false
+strict
 )
 ;
 Rooted
@@ -10619,7 +10619,7 @@ cx
 obj
 propname
 rval
-false
+strict
 )
 ;
 }
@@ -10928,11 +10928,8 @@ compartment
 wrap
 (
 cx
+&
 v
-.
-address
-(
-)
 )
 )
 return
@@ -11107,6 +11104,12 @@ getClass
 )
 )
 ;
+RootedValue
+v
+(
+cx
+)
+;
 for
 (
 ;
@@ -11119,7 +11122,6 @@ span
 n
 )
 {
-Value
 v
 =
 from
