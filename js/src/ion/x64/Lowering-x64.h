@@ -734,12 +734,12 @@ LIRGeneratorSpecific
 /
 /
 namespace
-js
+ion
 }
 /
 /
 namespace
-ion
+js
 #
 endif
 /

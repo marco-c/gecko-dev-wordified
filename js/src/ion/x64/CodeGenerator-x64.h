@@ -563,6 +563,14 @@ value
 )
 ;
 bool
+visitOsrValue
+(
+LOsrValue
+*
+value
+)
+;
+bool
 visitReturn
 (
 LReturn
@@ -667,10 +675,12 @@ CodeGeneratorSpecific
 }
 /
 /
+namespace
 ion
 }
 /
 /
+namespace
 js
 #
 endif

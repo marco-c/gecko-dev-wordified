@@ -505,6 +505,11 @@ Phi
 \
 _
 (
+OsrValue
+)
+\
+_
+(
 PrepareCall
 )
 \
@@ -611,6 +616,11 @@ TruncateToInt32
 _
 (
 Start
+)
+\
+_
+(
+OsrEntry
 )
 \
 _

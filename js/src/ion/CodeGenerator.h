@@ -578,6 +578,15 @@ lir
 ;
 virtual
 bool
+visitOsrEntry
+(
+LOsrEntry
+*
+lir
+)
+;
+virtual
+bool
 visitValueToInt32
 (
 LValueToInt32

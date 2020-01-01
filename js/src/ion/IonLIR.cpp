@@ -519,6 +519,14 @@ argumentSlotCount_
 (
 0
 )
+entrySnapshot_
+(
+NULL
+)
+osrBlock_
+(
+NULL
+)
 mir_
 (
 mir
