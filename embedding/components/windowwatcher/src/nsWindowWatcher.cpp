@@ -9345,17 +9345,6 @@ CHROME_LOCATIONBAR
 NS_CALCULATE_CHROME_FLAG_FOR
 (
 "
-directories
-"
-nsIWebBrowserChrome
-:
-:
-CHROME_PERSONAL_TOOLBAR
-)
-;
-NS_CALCULATE_CHROME_FLAG_FOR
-(
-"
 personalbar
 "
 nsIWebBrowserChrome

@@ -1547,12 +1547,6 @@ sStatusbar_id
 id
 =
 =
-sDirectories_id
-|
-|
-id
-=
-=
 sControllers_id
 |
 |
@@ -1751,10 +1745,6 @@ sStatusbar_id
 static
 jsval
 sDialogArguments_id
-;
-static
-jsval
-sDirectories_id
 ;
 static
 jsval
