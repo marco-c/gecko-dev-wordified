@@ -357,11 +357,6 @@ LayerManagerOGL
 )
 ;
 void
-CleanupResources
-(
-)
-;
-void
 Destroy
 (
 )
