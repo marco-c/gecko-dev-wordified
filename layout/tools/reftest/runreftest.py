@@ -106,8 +106,9 @@ sys
 .
 path
 .
-append
+insert
 (
+0
 SCRIPT_DIRECTORY
 )
 from
