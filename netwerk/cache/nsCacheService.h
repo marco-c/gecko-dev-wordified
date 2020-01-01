@@ -245,6 +245,9 @@ nsCacheServiceAutoLock
 class
 nsITimer
 ;
+class
+mozIStorageService
+;
 /
 *
 *
@@ -1804,6 +1807,12 @@ one
 .
 .
 .
+nsCOMPtr
+<
+mozIStorageService
+>
+mStorageService
+;
 nsCacheProfilePrefObserver
 *
 mObserver
