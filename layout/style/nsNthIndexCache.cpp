@@ -128,7 +128,11 @@ h
 #
 include
 "
-nsIContent
+mozilla
+/
+dom
+/
+Element
 .
 h
 "

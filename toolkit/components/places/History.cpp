@@ -342,6 +342,13 @@ nsTHashtable
 .
 h
 "
+#
+include
+"
+jsapi
+.
+h
+"
 /
 /
 Initial
