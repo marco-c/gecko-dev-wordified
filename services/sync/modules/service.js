@@ -6672,6 +6672,17 @@ _ignorePrefObserver
 =
 false
 ;
+/
+/
+Clear
+keys
+.
+CollectionKeys
+.
+clear
+(
+)
+;
 Svc
 .
 Prefs
