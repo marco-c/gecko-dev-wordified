@@ -936,10 +936,6 @@ extern
 C
 "
 NS_EXPORT
-__declspec
-(
-naked
-)
 nsresult
 NS_FROZENCALL
 NS_InvokeByIndex_P
@@ -958,11 +954,6 @@ params
 {
 __asm
 {
-push
-ebp
-mov
-ebp
-esp
 mov
 edx
 paramCount
@@ -1089,9 +1080,6 @@ stack
 mov
 esp
 ebp
-pop
-ebp
-ret
 }
 }
 #
