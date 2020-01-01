@@ -910,6 +910,13 @@ GOOGLE_BREAKPAD_PROCESSOR_MINIDUMP_H__
 #
 include
 <
+unistd
+.
+h
+>
+#
+include
+<
 map
 >
 #

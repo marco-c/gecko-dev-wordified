@@ -625,8 +625,8 @@ buffer
 "
 0x
 %
-llx
 "
+PRIx64
 number
 )
 ;
