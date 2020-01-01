@@ -1,6 +1,4 @@
-/
-*
-*
+#
 *
 *
 *
@@ -12,8 +10,7 @@ BLOCK
 *
 *
 *
-*
-*
+#
 Version
 :
 MPL
@@ -30,8 +27,8 @@ LGPL
 2
 .
 1
-*
-*
+#
+#
 The
 contents
 of
@@ -45,7 +42,7 @@ Mozilla
 Public
 License
 Version
-*
+#
 1
 .
 1
@@ -66,7 +63,7 @@ except
 in
 compliance
 with
-*
+#
 the
 License
 .
@@ -79,7 +76,7 @@ of
 the
 License
 at
-*
+#
 http
 :
 /
@@ -92,8 +89,8 @@ org
 /
 MPL
 /
-*
-*
+#
+#
 Software
 distributed
 under
@@ -108,7 +105,7 @@ AS
 IS
 "
 basis
-*
+#
 WITHOUT
 WARRANTY
 OF
@@ -122,7 +119,7 @@ implied
 See
 the
 License
-*
+#
 for
 the
 specific
@@ -133,11 +130,11 @@ and
 limitations
 under
 the
-*
+#
 License
 .
-*
-*
+#
+#
 The
 Original
 Code
@@ -146,8 +143,8 @@ Google
 Safe
 Browsing
 .
-*
-*
+#
+#
 The
 Initial
 Developer
@@ -159,7 +156,7 @@ is
 Google
 Inc
 .
-*
+#
 Portions
 created
 by
@@ -172,7 +169,7 @@ Copyright
 C
 )
 2006
-*
+#
 the
 Initial
 Developer
@@ -181,14 +178,14 @@ All
 Rights
 Reserved
 .
-*
-*
+#
+#
 Contributor
 (
 s
 )
 :
-*
+#
 Fritz
 Schneider
 <
@@ -201,8 +198,8 @@ com
 original
 author
 )
-*
-*
+#
+#
 Alternatively
 the
 contents
@@ -216,7 +213,7 @@ under
 the
 terms
 of
-*
+#
 either
 the
 GNU
@@ -234,7 +231,7 @@ GPL
 "
 )
 or
-*
+#
 the
 GNU
 Lesser
@@ -253,7 +250,7 @@ the
 LGPL
 "
 )
-*
+#
 in
 which
 case
@@ -268,7 +265,7 @@ LGPL
 are
 applicable
 instead
-*
+#
 of
 those
 above
@@ -286,7 +283,7 @@ of
 this
 file
 only
-*
+#
 under
 the
 terms
@@ -303,7 +300,7 @@ to
 allow
 others
 to
-*
+#
 use
 your
 version
@@ -318,7 +315,7 @@ the
 MPL
 indicate
 your
-*
+#
 decision
 by
 deleting
@@ -331,7 +328,7 @@ them
 with
 the
 notice
-*
+#
 and
 other
 provisions
@@ -348,7 +345,7 @@ you
 do
 not
 delete
-*
+#
 the
 provisions
 above
@@ -362,7 +359,7 @@ of
 this
 file
 under
-*
+#
 the
 terms
 of
@@ -377,9 +374,8 @@ or
 the
 LGPL
 .
-*
-*
-*
+#
+#
 *
 *
 *
@@ -391,9 +387,6 @@ BLOCK
 *
 *
 *
-*
-*
-/
 /
 /
 A
