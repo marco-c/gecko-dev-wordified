@@ -3336,6 +3336,13 @@ nsISupports
 aMessage
 )
 {
+NS_ENSURE_TRUE
+(
+!
+mActorDestroyed
+NS_ERROR_FAILURE
+)
+;
 nsCOMPtr
 <
 nsIDOMMozMmsMessage
@@ -3508,6 +3515,13 @@ nsISupports
 aMessage
 )
 {
+NS_ENSURE_TRUE
+(
+!
+mActorDestroyed
+NS_ERROR_FAILURE
+)
+;
 nsCOMPtr
 <
 nsIDOMMozMmsMessage
