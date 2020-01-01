@@ -1140,9 +1140,6 @@ false
 network
 :
 null
-lastKnownMcc
-:
-null
 cell
 :
 null
