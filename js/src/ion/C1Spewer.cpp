@@ -782,7 +782,7 @@ const
 char
 *
 pass
-RegisterAllocator
+LinearScanAllocator
 *
 regalloc
 )
@@ -1017,7 +1017,7 @@ fp
 MBasicBlock
 *
 block
-RegisterAllocator
+LinearScanAllocator
 *
 regalloc
 size_t
@@ -1233,6 +1233,7 @@ j
 +
 +
 )
+{
 fprintf
 (
 fp
@@ -1274,6 +1275,7 @@ pos
 )
 )
 ;
+}
 for
 (
 size_t
