@@ -483,13 +483,6 @@ IBMBIDI
 #
 include
 "
-nsIDOMHTMLBodyElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLHtmlElement
 .
 h

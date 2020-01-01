@@ -300,13 +300,6 @@ h
 #
 include
 "
-nsIDOMHTMLBodyElement
-.
-h
-"
-#
-include
-"
 nsFrameManager
 .
 h

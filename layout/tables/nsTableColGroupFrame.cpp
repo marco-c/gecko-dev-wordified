@@ -117,13 +117,6 @@ h
 #
 include
 "
-nsIDOMHTMLTableColElement
-.
-h
-"
-#
-include
-"
 nsStyleContext
 .
 h
