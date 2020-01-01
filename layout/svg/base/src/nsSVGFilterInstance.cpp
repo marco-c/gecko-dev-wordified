@@ -2524,10 +2524,10 @@ mFillPaint
 nsSVGUtils
 :
 :
-SetupCairoFill
+SetupCairoFillPaint
 (
-gfx
 mTargetFrame
+gfx
 )
 )
 |
@@ -2543,10 +2543,10 @@ mStrokePaint
 nsSVGUtils
 :
 :
-SetupCairoStroke
+SetupCairoStrokePaint
 (
-gfx
 mTargetFrame
+gfx
 )
 )
 )
