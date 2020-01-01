@@ -34910,6 +34910,14 @@ child
 >
 data
 ;
+if
+(
+get_window_for_gdk_window
+(
+childWindow
+)
+)
+{
 gdk_window_get_geometry
 (
 childWindow
@@ -34983,6 +34991,7 @@ retx
 rety
 )
 ;
+}
 }
 }
 }
