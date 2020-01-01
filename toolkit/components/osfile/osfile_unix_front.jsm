@@ -3244,7 +3244,6 @@ dest
 options
 )
 {
-let
 options
 =
 options
@@ -3485,7 +3484,6 @@ dest
 options
 )
 {
-let
 options
 =
 options
