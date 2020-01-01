@@ -123,6 +123,14 @@ getStates
 aAccOrElmOrID
 )
 ;
+var
+id
+=
+prettyName
+(
+aAccOrElmOrID
+)
+;
 is
 (
 state
@@ -136,7 +144,7 @@ bits
 for
 "
 +
-aAccOrElmOrID
+id
 +
 "
 !
@@ -161,7 +169,7 @@ bits
 for
 "
 +
-aAccOrElmOrID
+id
 +
 "
 !
@@ -189,7 +197,7 @@ in
 ID
 "
 +
-aAccOrElmOrID
+id
 +
 "
 !
@@ -217,7 +225,7 @@ in
 ID
 "
 +
-aAccOrElmOrID
+id
 +
 "
 !
@@ -242,7 +250,7 @@ Read
 only
 "
 +
-aAccOrElmOrID
+id
 +
 "
 cannot
@@ -268,7 +276,7 @@ STATE_READONLY
 Editable
 "
 +
-aAccOrElmOrID
+id
 +
 "
 cannot
@@ -301,7 +309,7 @@ or
 expanded
 "
 +
-aAccOrElmOrID
+id
 +
 "
 should
@@ -327,7 +335,7 @@ STATE_EXPANDED
 Collapsed
 "
 +
-aAccOrElmOrID
+id
 +
 "
 cannot
@@ -353,7 +361,7 @@ STATE_COLLAPSED
 Expanded
 "
 +
-aAccOrElmOrID
+id
 +
 "
 cannot
@@ -467,7 +475,7 @@ STATE_FOCUSABLE
 Disabled
 "
 +
-aAccOrElmOrID
+id
 +
 "
 must
