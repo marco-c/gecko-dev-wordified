@@ -439,7 +439,15 @@ prtypes
 .
 h
 "
+#
+include
+"
+gfxTypes
+.
+h
+"
 class
+THEBES_API
 gfxUnicodeProperties
 {
 public
