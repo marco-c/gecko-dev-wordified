@@ -920,6 +920,9 @@ OnLinkClickEvent
 class
 nsIScrollableFrame
 ;
+class
+nsDOMNavigationTiming
+;
 /
 *
 load
@@ -4585,6 +4588,11 @@ nsISHEntry
 aEntry
 )
 ;
+nsresult
+MaybeInitTiming
+(
+)
+;
 /
 /
 Event
@@ -5482,6 +5490,12 @@ static
 nsIURIFixup
 *
 sURIFixup
+;
+nsRefPtr
+<
+nsDOMNavigationTiming
+>
+mTiming
 ;
 #
 ifdef
