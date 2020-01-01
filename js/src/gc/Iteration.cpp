@@ -132,13 +132,6 @@ h
 #
 include
 "
-jsprf
-.
-h
-"
-#
-include
-"
 js
 /
 HashTable

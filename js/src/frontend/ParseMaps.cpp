@@ -118,13 +118,6 @@ h
 #
 include
 "
-jscompartment
-.
-h
-"
-#
-include
-"
 FullParseHandler
 .
 h
