@@ -2858,7 +2858,6 @@ case
 .
 if
 (
-!
 isAbsoluteURI
 (
 aURI
