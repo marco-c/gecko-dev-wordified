@@ -379,6 +379,10 @@ if
 page
 =
 =
+(
+char
+*
+)
 MAP_FAILED
 )
 {

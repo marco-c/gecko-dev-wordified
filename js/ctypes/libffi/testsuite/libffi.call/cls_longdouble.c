@@ -66,6 +66,12 @@ do
 run
 {
 xfail
+arm
+*
+-
+*
+-
+*
 strongarm
 *
 -
