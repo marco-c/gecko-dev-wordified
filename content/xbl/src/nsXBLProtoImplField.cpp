@@ -3197,7 +3197,6 @@ nsDependentString
 mFieldText
 mFieldTextLength
 )
-*
 wrappedNode
 options
 /
