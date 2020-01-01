@@ -1406,12 +1406,8 @@ mTokenizer
 ;
 mDocType
 =
-eHTML3_Quirks
+eHTML_Quirks
 ;
-/
-/
-why
-?
 mHasOpenRoot
 =
 PR_FALSE

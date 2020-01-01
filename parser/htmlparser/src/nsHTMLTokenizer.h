@@ -664,7 +664,7 @@ eDTDMode_quirks
 eParserDocType
 aDocType
 =
-eHTML3_Quirks
+eHTML_Quirks
 eParserCommands
 aCommand
 =
