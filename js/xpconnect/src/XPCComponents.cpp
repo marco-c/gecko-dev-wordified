@@ -281,6 +281,15 @@ nsPrincipal
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -17889,6 +17898,7 @@ addresses
 .
 class
 Identity
+MOZ_FINAL
 :
 public
 nsISupports

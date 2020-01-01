@@ -135,6 +135,15 @@ BindingUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 *
@@ -1193,6 +1202,7 @@ proto
 .
 class
 SharedScriptableHelperForJSIID
+MOZ_FINAL
 :
 public
 nsIXPCScriptable
