@@ -621,7 +621,7 @@ _observerService
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -631,7 +631,7 @@ observer
 service
 ;
 1
-'
+"
 ]
 .
 getService
