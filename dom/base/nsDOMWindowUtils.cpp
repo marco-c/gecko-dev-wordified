@@ -3271,9 +3271,9 @@ nsDOMWindowUtils
 :
 ElementFromPoint
 (
-PRInt32
+float
 aX
-PRInt32
+float
 aY
 PRBool
 aIgnoreRootScrollFrame

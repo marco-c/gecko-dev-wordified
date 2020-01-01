@@ -13799,9 +13799,9 @@ nsDocument
 :
 ElementFromPoint
 (
-PRInt32
+float
 aX
-PRInt32
+float
 aY
 nsIDOMElement
 *
@@ -13826,9 +13826,9 @@ nsDocument
 :
 ElementFromPointHelper
 (
-PRInt32
+float
 aX
-PRInt32
+float
 aY
 PRBool
 aIgnoreRootScrollFrame
