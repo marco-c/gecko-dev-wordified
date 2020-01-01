@@ -752,7 +752,7 @@ void
 Assembler
 :
 :
-TraceRelocations
+TraceJumpRelocations
 (
 JSTracer
 *
@@ -829,7 +829,7 @@ void
 Assembler
 :
 :
-copyRelocationTable
+copyJumpRelocationTable
 (
 uint8
 *
@@ -838,7 +838,7 @@ dest
 {
 if
 (
-relocations_
+jumpRelocations_
 .
 length
 (
@@ -847,12 +847,12 @@ length
 memcpy
 (
 dest
-relocations_
+jumpRelocations_
 .
 buffer
 (
 )
-relocations_
+jumpRelocations_
 .
 length
 (

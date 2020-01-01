@@ -489,7 +489,7 @@ src
 if
 (
 !
-relocations_
+jumpRelocations_
 .
 length
 (
@@ -499,6 +499,7 @@ length
 /
 /
 The
+jump
 relocation
 table
 starts
@@ -548,7 +549,7 @@ ll
 patch
 later
 .
-relocations_
+jumpRelocations_
 .
 writeFixedUint32
 (
@@ -556,7 +557,7 @@ writeFixedUint32
 )
 ;
 }
-relocations_
+jumpRelocations_
 .
 writeUnsigned
 (
@@ -567,7 +568,7 @@ offset
 )
 )
 ;
-relocations_
+jumpRelocations_
 .
 writeUnsigned
 (
@@ -716,12 +717,13 @@ into
 the
 /
 /
+jump
 relocation
 buffer
 .
 JS_ASSERT
 (
-relocations_
+jumpRelocations_
 .
 length
 (
@@ -739,7 +741,7 @@ uint32
 uint32
 *
 )
-relocations_
+jumpRelocations_
 .
 buffer
 (
@@ -1277,7 +1279,7 @@ void
 Assembler
 :
 :
-TraceRelocations
+TraceJumpRelocations
 (
 JSTracer
 *

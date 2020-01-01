@@ -5721,7 +5721,7 @@ SystemAllocPolicy
 jumps_
 ;
 CompactBufferWriter
-relocations_
+jumpRelocations_
 ;
 size_t
 dataBytesNeeded_
@@ -6029,7 +6029,7 @@ oom
 enoughMemory_
 |
 |
-relocations_
+jumpRelocations_
 .
 oom
 (
@@ -6064,7 +6064,7 @@ code
 )
 ;
 void
-copyRelocationTable
+copyJumpRelocationTable
 (
 uint8
 *
@@ -6159,13 +6159,14 @@ uncheckedSize
 Size
 of
 the
+jump
 relocation
 table
 in
 bytes
 .
 size_t
-relocationTableSize
+jumpRelocationTableSize
 (
 )
 const
@@ -6213,7 +6214,7 @@ dataSize
 (
 )
 +
-relocationTableSize
+jumpRelocationTableSize
 (
 )
 ;
@@ -9709,7 +9710,7 @@ public
 :
 static
 void
-TraceRelocations
+TraceJumpRelocations
 (
 JSTracer
 *

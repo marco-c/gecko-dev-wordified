@@ -1780,7 +1780,7 @@ extendedJumpTable_
 }
 static
 void
-TraceRelocations
+TraceJumpRelocations
 (
 JSTracer
 *
@@ -1910,6 +1910,15 @@ value
 dest
 .
 code
+(
+)
+)
+;
+writeDataRelocation
+(
+masm
+.
+currentOffset
 (
 )
 )
