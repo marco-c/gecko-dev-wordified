@@ -616,13 +616,6 @@ nsIPrefBranch2
 .
 h
 "
-#
-include
-"
-nsRegion
-.
-h
-"
 gfxPlatform
 *
 gPlatform
@@ -1179,13 +1172,6 @@ gPlatform
 )
 return
 NS_ERROR_OUT_OF_MEMORY
-;
-nsRegion
-:
-:
-MigrateToCurrentThread
-(
-)
 ;
 nsresult
 rv
