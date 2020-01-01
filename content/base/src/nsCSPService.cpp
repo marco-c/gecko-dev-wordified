@@ -1805,9 +1805,6 @@ stop
 it
 now
 .
-nsXPIDLString
-message
-;
 nsCAutoString
 newUriSpec
 ;

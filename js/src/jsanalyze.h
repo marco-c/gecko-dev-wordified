@@ -6671,16 +6671,6 @@ script
 length
 )
 ;
-JS_ASSERT
-(
-getCode
-(
-offset
-)
-.
-loop
-)
-;
 return
 getCode
 (

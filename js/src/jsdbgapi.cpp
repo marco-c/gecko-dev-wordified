@@ -4538,9 +4538,9 @@ cx
 return
 false
 ;
-JSObject
+Env
 *
-scobj
+env
 =
 JS_GetFrameScopeChain
 (
@@ -4551,7 +4551,7 @@ fpArg
 if
 (
 !
-scobj
+env
 )
 return
 false
@@ -4563,7 +4563,7 @@ AutoCompartment
 ac
 (
 cx
-scobj
+env
 )
 ;
 if
@@ -4588,10 +4588,10 @@ fpArg
 )
 ;
 return
-EvaluateInScope
+EvaluateInEnv
 (
 cx
-scobj
+env
 fp
 chars
 length

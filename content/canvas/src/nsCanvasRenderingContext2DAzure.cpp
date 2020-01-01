@@ -15303,8 +15303,6 @@ x
 +
 =
 xOffset
-*
-mAppUnitsPerDevPixel
 ;
 /
 /

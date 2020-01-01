@@ -1062,6 +1062,9 @@ C
 "
 {
 #
+define
+PIXMAN_DONT_DEFINE_STDINT
+#
 include
 "
 pixman
