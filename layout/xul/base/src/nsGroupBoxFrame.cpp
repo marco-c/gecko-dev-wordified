@@ -1033,15 +1033,6 @@ GetStyleBorder
 )
 ;
 const
-nsStylePadding
-*
-paddingStyleData
-=
-GetStylePadding
-(
-)
-;
-const
 nsMargin
 &
 border
@@ -1196,10 +1187,6 @@ aRenderingContext
 this
 aDirtyRect
 rect
-*
-borderStyleData
-*
-paddingStyleData
 PR_FALSE
 )
 ;
