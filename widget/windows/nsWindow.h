@@ -207,6 +207,13 @@ h
 #
 include
 "
+nsRegion
+.
+h
+"
+#
+include
+"
 mozilla
 /
 TimeStamp
@@ -307,6 +314,9 @@ nsIRollupListener
 ;
 class
 nsIFile
+;
+class
+nsIntRegion
 ;
 class
 imgIContainer

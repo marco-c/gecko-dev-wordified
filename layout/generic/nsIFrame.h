@@ -231,6 +231,13 @@ h
 #
 include
 "
+nsRegion
+.
+h
+"
+#
+include
+"
 nsStyleContext
 .
 h

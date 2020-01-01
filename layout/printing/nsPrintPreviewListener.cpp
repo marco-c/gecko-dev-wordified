@@ -233,6 +233,15 @@ NS_ADDREF_THIS
 /
 /
 ctor
+nsPrintPreviewListener
+:
+:
+~
+nsPrintPreviewListener
+(
+)
+{
+}
 /
 /
 -
