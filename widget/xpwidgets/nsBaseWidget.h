@@ -1958,7 +1958,7 @@ forget
 )
 ;
 }
-BasicLayerManager
+LayerManager
 *
 CreateBasicLayerManager
 (

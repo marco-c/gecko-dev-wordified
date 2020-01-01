@@ -8971,7 +8971,7 @@ return
 usedLayerManager
 ;
 }
-BasicLayerManager
+LayerManager
 *
 nsBaseWidget
 :
