@@ -749,8 +749,9 @@ aContext
 void
 Close
 (
-uint16_t
-stream
+DataChannel
+*
+aChannel
 )
 ;
 void
