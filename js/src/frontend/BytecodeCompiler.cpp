@@ -2572,11 +2572,7 @@ DefineArg
 .
 *
 /
-Vector
-<
-JSAtom
-*
->
+BindingNames
 names
 (
 cx
@@ -2630,6 +2626,8 @@ names
 [
 i
 ]
+.
+maybeAtom
 i
 &
 funbce
