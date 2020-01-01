@@ -586,6 +586,17 @@ Size
 (
 )
 ;
+case
+IonFrame_Osr
+:
+return
+IonOsrFrameLayout
+:
+:
+Size
+(
+)
+;
 default
 :
 JS_NOT_REACHED

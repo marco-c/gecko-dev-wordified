@@ -2815,9 +2815,10 @@ false
 bool
 ok
 =
-Interpret
+RunScript
 (
 cx
+newscript
 cx
 -
 >
