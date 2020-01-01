@@ -789,7 +789,7 @@ role
 nsIAccessibleRole
 :
 :
-ROLE_IMAGE
+ROLE_GRAPHIC
 )
 ;
 }
