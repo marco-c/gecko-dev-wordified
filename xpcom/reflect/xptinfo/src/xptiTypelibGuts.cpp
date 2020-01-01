@@ -455,6 +455,10 @@ xptiprivate
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 static
@@ -625,6 +629,16 @@ GetWorkingSet
 (
 )
 ;
+{
+MutexAutoLock
+lock
+(
+set
+-
+>
+mTableLock
+)
+;
 if
 (
 iface
@@ -668,6 +682,7 @@ iface
 iid
 )
 ;
+}
 if
 (
 r
