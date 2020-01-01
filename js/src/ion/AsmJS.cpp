@@ -37592,6 +37592,15 @@ compartment
 debugMode
 (
 )
+&
+&
+cx
+-
+>
+hasOption
+(
+JSOPTION_ASMJS
+)
 ;
 #
 else
