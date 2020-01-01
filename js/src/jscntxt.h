@@ -13413,6 +13413,16 @@ autoGCRooters
 down
 ;
 }
+/
+*
+Implemented
+in
+jsgc
+.
+cpp
+.
+*
+/
 inline
 void
 trace
