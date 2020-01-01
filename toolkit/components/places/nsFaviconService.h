@@ -598,16 +598,6 @@ definitions
 class
 mozIStorageStatementCallback
 ;
-/
-/
-forward
-definition
-for
-friend
-class
-class
-FaviconLoadListener
-;
 class
 nsFaviconService
 :
@@ -1283,10 +1273,6 @@ bool
 *
 aHasData
 )
-;
-friend
-class
-FaviconLoadListener
 ;
 /
 /
