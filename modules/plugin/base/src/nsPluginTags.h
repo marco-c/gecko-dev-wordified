@@ -900,9 +900,6 @@ must
 always
 be
 valid
-PRBool
-mDefaultPlugin
-;
 /
 /
 Array
@@ -932,8 +929,6 @@ const
 char
 *
 url
-PRBool
-aDefaultPlugin
 )
 ;
 ~
