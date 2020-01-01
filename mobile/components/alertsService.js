@@ -588,6 +588,7 @@ prototype
 classDescription
 :
 "
+Mobile
 Alerts
 Service
 "
@@ -598,6 +599,8 @@ mozilla
 .
 org
 /
+system
+-
 alerts
 -
 service
