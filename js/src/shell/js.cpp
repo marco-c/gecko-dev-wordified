@@ -19954,7 +19954,10 @@ v
 )
 -
 >
-isTypedArray
+is
+<
+TypedArrayObject
+>
 (
 )
 )

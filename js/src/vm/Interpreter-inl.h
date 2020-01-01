@@ -1688,7 +1688,10 @@ if
 obj
 -
 >
-isTypedArray
+is
+<
+TypedArrayObject
+>
 (
 )
 )
@@ -3955,7 +3958,10 @@ isNative
 objArg
 -
 >
-isTypedArray
+is
+<
+TypedArrayObject
+>
 (
 )
 )
@@ -4152,10 +4158,14 @@ isNative
 objArg
 -
 >
-isTypedArray
+is
+<
+TypedArrayObject
+>
 (
 )
 )
+{
 script
 -
 >
@@ -4173,6 +4183,7 @@ nonNativeGetElement
 =
 true
 ;
+}
 }
 }
 if

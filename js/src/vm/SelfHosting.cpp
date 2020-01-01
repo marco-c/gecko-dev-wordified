@@ -3046,7 +3046,10 @@ toObject
 (
 )
 .
-isTypedArray
+is
+<
+TypedArrayObject
+>
 (
 )
 )

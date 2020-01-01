@@ -7683,13 +7683,6 @@ ObjectImpl
 :
 isProxy
 ;
-inline
-bool
-isTypedArray
-(
-)
-const
-;
 /
 *
 Subtypes
