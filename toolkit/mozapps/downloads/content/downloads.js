@@ -3223,13 +3223,6 @@ dls
 getNext
 (
 )
-.
-QueryInterface
-(
-Ci
-.
-nsIDownload
-)
 ;
 if
 (
