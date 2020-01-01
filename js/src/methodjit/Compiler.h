@@ -2819,6 +2819,9 @@ bool
 inlining
 ;
 bool
+hasGlobalReallocation
+;
+bool
 oomInVector
 ;
 /
@@ -3371,6 +3374,11 @@ restoreAnalysisTypes
 (
 uint32
 stackDepth
+)
+;
+void
+watchGlobalReallocation
+(
 )
 ;
 JSValueType
@@ -3969,8 +3977,6 @@ jsop_getgname
 (
 uint32
 index
-JSValueType
-type
 )
 ;
 void
@@ -3993,6 +3999,8 @@ JSAtom
 atom
 bool
 usePropertyCache
+bool
+popGuaranteed
 )
 ;
 void

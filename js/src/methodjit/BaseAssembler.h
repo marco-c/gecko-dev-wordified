@@ -1732,10 +1732,15 @@ case
 .
 *
 /
+template
+<
+typename
+T
+>
 void
 moveInt32OrDouble
 (
-Address
+T
 address
 FPRegisterID
 fpreg

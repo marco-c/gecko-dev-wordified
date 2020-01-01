@@ -5917,6 +5917,16 @@ RegExp
 return
 NULL
 ;
+if
+(
+!
+cx
+-
+>
+typeInferenceEnabled
+(
+)
+)
 proto
 -
 >
