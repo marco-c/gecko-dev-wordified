@@ -10185,10 +10185,15 @@ if
 JS_HAS_GENERATORS
 {
 js_InitIteratorClasses
-EAGER_ATOM_AND_CLASP
+EAGER_CLASS_ATOM
 (
 Iterator
 )
+&
+PropertyIteratorObject
+:
+:
+class_
 }
 #
 endif
