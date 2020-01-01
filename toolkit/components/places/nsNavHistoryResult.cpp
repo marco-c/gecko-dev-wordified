@@ -2191,10 +2191,6 @@ Clear
 (
 )
 ;
-mResult
-=
-nullptr
-;
 }
 bool
 nsNavHistoryContainerResultNode
@@ -12324,10 +12320,6 @@ ClearChildren
 true
 )
 ;
-mResult
-=
-nullptr
-;
 }
 /
 *
@@ -19265,10 +19257,6 @@ ClearChildren
 (
 true
 )
-;
-mResult
-=
-nullptr
 ;
 }
 nsresult
