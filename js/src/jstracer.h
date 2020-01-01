@@ -2297,6 +2297,12 @@ globalTypeMap
 uint8
 *
 stackTypeMap
+nanojit
+:
+:
+GuardRecord
+*
+expectedInnerExit
 )
 ;
 ~
