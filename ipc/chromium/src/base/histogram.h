@@ -3316,6 +3316,17 @@ of
 samples
 private
 :
+void
+Accumulate
+(
+Sample
+value
+Count
+count
+size_t
+index
+)
+;
 /
 /
 Allow
