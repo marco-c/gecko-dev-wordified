@@ -11011,13 +11011,6 @@ placesCmd_open
 "
 )
 ;
-if
-(
-!
-placesController
-)
-return
-;
 function
 updatePlacesCommand
 (
@@ -11027,6 +11020,9 @@ aCommand
 goSetCommandEnabled
 (
 aCommand
+placesController
+&
+&
 placesController
 .
 isCommandEnabled
