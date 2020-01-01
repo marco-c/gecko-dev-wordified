@@ -1640,8 +1640,10 @@ IsSmoothScrollingEnabled
 if
 (
 mAsyncScroll
-&
-&
+)
+{
+if
+(
 mAsyncScroll
 -
 >
@@ -1680,6 +1682,7 @@ mFrameIndex
 1
 ]
 ;
+}
 }
 else
 {
