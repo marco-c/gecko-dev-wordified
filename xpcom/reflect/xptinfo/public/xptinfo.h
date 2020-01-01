@@ -1216,7 +1216,6 @@ GetResult
 const
 {
 return
-*
 result
 ;
 }

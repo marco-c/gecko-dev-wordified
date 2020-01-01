@@ -564,8 +564,7 @@ meth
 -
 >
 result
--
->
+.
 flags
 =
 0
@@ -574,8 +573,7 @@ meth
 -
 >
 result
--
->
+.
 type
 .
 prefix
@@ -632,8 +630,7 @@ meth
 -
 >
 result
--
->
+.
 flags
 =
 0
@@ -642,8 +639,7 @@ meth
 -
 >
 result
--
->
+.
 type
 .
 prefix
