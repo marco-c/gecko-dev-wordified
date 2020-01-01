@@ -145,6 +145,8 @@ execute_script
 "
 "
 return
+window
+.
 navigator
 .
 mozTelephony
@@ -153,6 +155,8 @@ mozTelephony
 undefined
 &
 &
+window
+.
 navigator
 .
 mozTelephony
@@ -181,6 +185,8 @@ incoming
 =
 null
 ;
+window
+.
 navigator
 .
 mozTelephony
@@ -197,6 +203,8 @@ e
 )
 {
     
+window
+.
 navigator
 .
 mozTelephony
@@ -287,6 +295,8 @@ wrappedJSObject
 .
 call
 =
+window
+.
 navigator
 .
 mozTelephony

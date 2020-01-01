@@ -145,6 +145,8 @@ execute_script
 "
 "
 return
+window
+.
 navigator
 .
 mozTelephony
@@ -153,6 +155,8 @@ mozTelephony
 undefined
 &
 &
+window
+.
 navigator
 .
 mozTelephony
@@ -183,6 +187,8 @@ incoming
 none
 "
 ;
+window
+.
 navigator
 .
 mozTelephony
@@ -271,6 +277,8 @@ execute_script
 "
 "
 "
+window
+.
 navigator
 .
 mozTelephony
