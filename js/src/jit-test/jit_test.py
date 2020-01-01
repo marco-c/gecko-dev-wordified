@@ -882,6 +882,29 @@ m
 '
 )
                     
+elif
+name
+=
+=
+'
+dump
+-
+bytecode
+'
+:
+                        
+test
+.
+jitflags
+.
+append
+(
+'
+-
+D
+'
+)
+                    
 else
 :
                         
