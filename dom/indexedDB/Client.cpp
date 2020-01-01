@@ -1143,8 +1143,10 @@ active
 ;
 nsTArray
 <
+nsRefPtr
+<
 IDBDatabase
-*
+>
 >
 databases
 (

@@ -1989,8 +1989,10 @@ WaitForDatabasesToComplete
 (
 nsTArray
 <
+nsRefPtr
+<
 IDBDatabase
-*
+>
 >
 &
 aDatabases
