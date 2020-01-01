@@ -773,7 +773,6 @@ create
 cx
 scope
 this
-this
 triedToWrap
 )
 ;
