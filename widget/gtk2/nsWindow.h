@@ -2741,15 +2741,6 @@ mLastSizeMode
 ;
 static
 bool
-sIsDraggingOutOf
-;
-/
-/
-drag
-in
-progress
-static
-bool
 DragInProgress
 (
 void
