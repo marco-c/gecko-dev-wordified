@@ -3469,6 +3469,8 @@ getBrowser
 )
 .
 contentDocument
+.
+wrappedJSObject
 ;
 doc
 .
