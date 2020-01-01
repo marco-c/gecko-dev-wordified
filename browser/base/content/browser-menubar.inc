@@ -4205,6 +4205,7 @@ label
 accesskey
 =
 "
+&
 webDeveloperMenu
 .
 accesskey
