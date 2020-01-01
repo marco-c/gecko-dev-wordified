@@ -14795,6 +14795,7 @@ if
 guard_jsdouble_is_int_and_int_fits_in_jsval
 (
 cx
+regs
 d
 i
 )
@@ -14857,6 +14858,7 @@ if
 guard_int_fits_in_jsval
 (
 cx
+regs
 i
 )
 )
@@ -14931,6 +14933,7 @@ if
 guard_uint_fits_in_jsval
 (
 cx
+regs
 u
 )
 )
@@ -15048,6 +15051,7 @@ if
 guard_jsval_is_int
 (
 cx
+regs
 v
 )
 )
@@ -15076,6 +15080,7 @@ if
 guard_jsval_is_double
 (
 cx
+regs
 v
 )
 )
@@ -15107,6 +15112,7 @@ if
 guard_jsval_is_null
 (
 cx
+regs
 regs
 .
 sp
@@ -15223,6 +15229,7 @@ if
 guard_jsval_is_int
 (
 cx
+regs
 v
 )
 )
@@ -15254,6 +15261,7 @@ if
 guard_jsval_is_null
 (
 cx
+regs
 regs
 .
 sp
@@ -15304,6 +15312,7 @@ if
 guard_jsval_is_int
 (
 cx
+regs
 v
 )
 )
@@ -15345,6 +15354,7 @@ if
 guard_jsval_is_null
 (
 cx
+regs
 regs
 .
 sp
@@ -15394,6 +15404,7 @@ if
 guard_jsval_is_null
 (
 cx
+regs
 v
 )
 )
@@ -15412,6 +15423,7 @@ if
 guard_jsval_is_boolean
 (
 cx
+regs
 v
 )
 )
@@ -15471,6 +15483,7 @@ if
 guard_jsval_is_primitive
 (
 cx
+regs
 v
 )
 )
@@ -15497,6 +15510,7 @@ if
 guard_obj_is_null
 (
 cx
+regs
 obj
 )
 )
@@ -15659,6 +15673,9 @@ new_number_in_rooted_value
 JSContext
 *
 cx
+JSFrameRegs
+&
+regs
 jsdouble
 d
 jsval
@@ -15674,6 +15691,7 @@ if
 guard_jsdouble_is_int_and_int_fits_in_jsval
 (
 cx
+regs
 d
 i
 )
@@ -15707,6 +15725,9 @@ DoIncDec
 JSContext
 *
 cx
+JSFrameRegs
+&
+regs
 const
 JSCodeSpec
 *
@@ -15738,6 +15759,7 @@ if
 guard_jsval_is_double
 (
 cx
+regs
 v
 )
 )
@@ -15756,6 +15778,7 @@ if
 guard_jsval_is_int
 (
 cx
+regs
 v
 )
 )
@@ -15793,6 +15816,7 @@ if
 guard_jsval_is_null
 (
 cx
+regs
 *
 vp
 )
@@ -15856,6 +15880,7 @@ JSVAL_TRUE
 new_number_in_rooted_value
 (
 cx
+regs
 d
 *
 vp
@@ -15907,6 +15932,7 @@ if
 new_number_in_rooted_value
 (
 cx
+regs
 d
 *
 vp2
@@ -20683,6 +20709,7 @@ if
 guard_boolean_is_true
 (
 cx
+regs
 cond
 )
 )
@@ -20722,6 +20749,7 @@ if
 guard_boolean_is_true
 (
 cx
+regs
 cond
 )
 )
@@ -20761,6 +20789,7 @@ if
 guard_boolean_is_true
 (
 cx
+regs
 cond
 )
 )
@@ -20806,6 +20835,7 @@ if
 guard_boolean_is_true
 (
 cx
+regs
 cond
 )
 )
@@ -20885,6 +20915,7 @@ if
 guard_boolean_is_true
 (
 cx
+regs
 cond
 )
 )
@@ -20924,6 +20955,7 @@ if
 guard_boolean_is_true
 (
 cx
+regs
 cond
 )
 )
@@ -20963,6 +20995,7 @@ if
 guard_boolean_is_true
 (
 cx
+regs
 cond
 )
 )
@@ -21008,6 +21041,7 @@ if
 guard_boolean_is_true
 (
 cx
+regs
 cond
 )
 )
@@ -23331,6 +23365,7 @@ if
 guard_both_jsvals_are_int
 (
 cx
+regs
 lval
 rval
 )
@@ -23375,6 +23410,7 @@ if
 guard_jsval_is_primitive
 (
 cx
+regs
 lval
 )
 )
@@ -23395,6 +23431,7 @@ if
 guard_jsval_is_primitive
 (
 cx
+regs
 rval
 )
 )
@@ -23414,6 +23451,7 @@ if
 guard_both_jsvals_are_string
 (
 cx
+regs
 lval
 rval
 )
@@ -26122,6 +26160,7 @@ JS_LIKELY
 guard_can_do_fast_inc_dec
 (
 cx
+regs
 v
 )
 )
@@ -26302,6 +26341,7 @@ if
 DoIncDec
 (
 cx
+regs
 cs
 &
 regs
@@ -26824,6 +26864,7 @@ JS_LIKELY
 guard_can_do_fast_inc_dec
 (
 cx
+regs
 rval
 )
 )
@@ -26865,6 +26906,7 @@ if
 DoIncDec
 (
 cx
+regs
 &
 js_CodeSpec
 [
@@ -27105,6 +27147,7 @@ JS_LIKELY
 guard_can_do_fast_inc_dec
 (
 cx
+regs
 rval
 )
 )
@@ -27151,6 +27194,7 @@ if
 DoIncDec
 (
 cx
+regs
 &
 js_CodeSpec
 [
