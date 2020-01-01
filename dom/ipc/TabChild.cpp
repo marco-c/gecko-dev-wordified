@@ -261,7 +261,7 @@ mozilla
 /
 layers
 /
-PLayerTransactionChild
+PLayersChild
 .
 h
 "
@@ -11724,7 +11724,7 @@ return
 false
 ;
 }
-PLayerTransactionChild
+PLayersChild
 *
 shadowManager
 =
@@ -11789,7 +11789,7 @@ shadowManager
 compositorChild
 -
 >
-SendPLayerTransactionConstructor
+SendPLayersConstructor
 (
 textureFactoryIdentifier
 .
@@ -11816,7 +11816,7 @@ shadowManager
 remoteFrame
 -
 >
-SendPLayerTransactionConstructor
+SendPLayersConstructor
 (
 )
 ;

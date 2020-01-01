@@ -109,7 +109,7 @@ mozilla
 /
 layers
 /
-PLayerTransaction
+PLayers
 .
 h
 "
@@ -130,7 +130,7 @@ after
 *
 layers
 /
-PLayerTransaction
+PLayers
 .
 h
 to

@@ -128,7 +128,7 @@ mozilla
 /
 layers
 /
-PLayerTransactionChild
+PLayersChild
 .
 h
 "
@@ -139,7 +139,7 @@ mozilla
 /
 layers
 /
-PLayerTransactionParent
+PLayersParent
 .
 h
 "
@@ -8525,7 +8525,7 @@ aSubtree
 ;
 if
 (
-PLayerTransactionChild
+PLayersChild
 *
 manager
 =

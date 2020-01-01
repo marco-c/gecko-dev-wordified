@@ -142,7 +142,7 @@ mozilla
 /
 layers
 /
-PLayerTransactionChild
+PLayersChild
 .
 h
 "
