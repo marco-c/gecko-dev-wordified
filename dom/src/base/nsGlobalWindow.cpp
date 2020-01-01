@@ -38876,6 +38876,14 @@ GetOuterWindow
 =
 =
 this
+&
+&
+callerInner
+-
+>
+IsInnerWindow
+(
+)
 )
 {
 return
