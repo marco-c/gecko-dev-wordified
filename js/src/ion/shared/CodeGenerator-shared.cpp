@@ -2155,7 +2155,6 @@ when
 it
 returns
 .
-uint32
 argumentPadding
 =
 (
