@@ -19107,10 +19107,9 @@ format
 ;
 if
 (
+JOF_MODE
 (
 format
-&
-JOF_MODEMASK
 )
 !
 =
