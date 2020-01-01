@@ -697,6 +697,15 @@ kCache32Count
 kDitherStride16
 =
 kCache16Count
+kCache32ClampLower
+=
+-
+1
+kCache32ClampUpper
+=
+kCache32Count
+*
+4
 }
 ;
 protected
