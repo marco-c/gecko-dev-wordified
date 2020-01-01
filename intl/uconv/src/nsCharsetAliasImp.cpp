@@ -1070,9 +1070,6 @@ name1
 Equals
 (
 name2
-nsCaseInsensitiveCStringComparator
-(
-)
 )
 ;
 }
