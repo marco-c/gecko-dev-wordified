@@ -81,9 +81,13 @@ mozilla
 .
 gecko
 .
-sync
+background
 .
-GlobalSession
+common
+.
+log
+.
+Logger
 ;
 import
 org
@@ -94,7 +98,7 @@ gecko
 .
 sync
 .
-Logger
+GlobalSession
 ;
 import
 org

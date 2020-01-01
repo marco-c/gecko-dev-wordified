@@ -94,7 +94,7 @@ gecko
 .
 background
 .
-BackgroundConstants
+BackgroundService
 ;
 import
 org
@@ -105,16 +105,7 @@ gecko
 .
 background
 .
-BackgroundService
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-sync
+common
 .
 GlobalConstants
 ;
@@ -125,7 +116,11 @@ mozilla
 .
 gecko
 .
-sync
+background
+.
+common
+.
+log
 .
 Logger
 ;
@@ -407,7 +402,7 @@ getSharedPreferences
 AnnouncementsConstants
 .
 PREFS_BRANCH
-BackgroundConstants
+GlobalConstants
 .
 SHARED_PREFERENCES_MODE
 )
@@ -764,7 +759,7 @@ getSharedPreferences
 AnnouncementsConstants
 .
 PREFS_BRANCH
-BackgroundConstants
+GlobalConstants
 .
 SHARED_PREFERENCES_MODE
 )
@@ -805,7 +800,7 @@ getSharedPreferences
 AnnouncementsConstants
 .
 PREFS_BRANCH
-BackgroundConstants
+GlobalConstants
 .
 SHARED_PREFERENCES_MODE
 )
@@ -1090,7 +1085,7 @@ Class
 .
 forName
 (
-BackgroundConstants
+GlobalConstants
 .
 GECKO_PREFERENCES_CLASS
 )
@@ -1102,7 +1097,7 @@ geckoPreferences
 .
 getMethod
 (
-BackgroundConstants
+GlobalConstants
 .
 GECKO_BROADCAST_METHOD
 Context
@@ -1136,7 +1131,7 @@ LOG_TAG
 Class
 "
 +
-BackgroundConstants
+GlobalConstants
 .
 GECKO_PREFERENCES_CLASS
 +
@@ -1165,7 +1160,7 @@ LOG_TAG
 Method
 "
 +
-BackgroundConstants
+GlobalConstants
 .
 GECKO_PREFERENCES_CLASS
 +
@@ -1173,7 +1168,7 @@ GECKO_PREFERENCES_CLASS
 /
 "
 +
-BackgroundConstants
+GlobalConstants
 .
 GECKO_BROADCAST_METHOD
 +
@@ -1204,7 +1199,7 @@ exception
 invoking
 "
 +
-BackgroundConstants
+GlobalConstants
 .
 GECKO_BROADCAST_METHOD
 +
@@ -1231,7 +1226,7 @@ exception
 invoking
 "
 +
-BackgroundConstants
+GlobalConstants
 .
 GECKO_BROADCAST_METHOD
 +
@@ -1258,7 +1253,7 @@ exception
 invoking
 "
 +
-BackgroundConstants
+GlobalConstants
 .
 GECKO_BROADCAST_METHOD
 +
@@ -1468,7 +1463,7 @@ getSharedPreferences
 AnnouncementsConstants
 .
 PREFS_BRANCH
-BackgroundConstants
+GlobalConstants
 .
 SHARED_PREFERENCES_MODE
 )

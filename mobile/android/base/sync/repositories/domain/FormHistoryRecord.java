@@ -76,9 +76,13 @@ mozilla
 .
 gecko
 .
-sync
+background
 .
-ExtendedJSONObject
+common
+.
+log
+.
+Logger
 ;
 import
 org
@@ -89,7 +93,7 @@ gecko
 .
 sync
 .
-Logger
+ExtendedJSONObject
 ;
 import
 org

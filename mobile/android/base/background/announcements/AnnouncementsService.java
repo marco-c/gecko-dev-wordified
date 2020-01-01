@@ -111,7 +111,7 @@ gecko
 .
 background
 .
-BackgroundConstants
+BackgroundService
 ;
 import
 org
@@ -122,7 +122,9 @@ gecko
 .
 background
 .
-BackgroundService
+common
+.
+GlobalConstants
 ;
 import
 org
@@ -131,7 +133,11 @@ mozilla
 .
 gecko
 .
-sync
+background
+.
+common
+.
+log
 .
 Logger
 ;
@@ -938,7 +944,7 @@ getSharedPreferences
 AnnouncementsConstants
 .
 PREFS_BRANCH
-BackgroundConstants
+GlobalConstants
 .
 SHARED_PREFERENCES_MODE
 )

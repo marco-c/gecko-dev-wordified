@@ -109,9 +109,13 @@ mozilla
 .
 gecko
 .
-sync
+background
 .
-SyncConstants
+common
+.
+log
+.
+Logger
 ;
 import
 org
@@ -122,7 +126,7 @@ gecko
 .
 sync
 .
-Logger
+SyncConstants
 ;
 import
 ch
