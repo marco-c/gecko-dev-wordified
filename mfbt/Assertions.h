@@ -725,8 +725,7 @@ static_assert
 (
 cond
 )
-#
-cond
+reason
 )
 #
 endif
@@ -760,8 +759,7 @@ static_assert
 (
 cond
 )
-#
-cond
+reason
 )
 #
 endif
@@ -795,8 +793,7 @@ static_assert
 (
 cond
 )
-#
-cond
+reason
 )
 #
 endif
