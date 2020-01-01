@@ -487,6 +487,13 @@ mozIThirdPartyUtil
 .
 h
 "
+#
+include
+"
+nsWeakReference
+.
+h
+"
 namespace
 mozilla
 {
@@ -502,6 +509,8 @@ public
 nsICookieService
 public
 nsIObserver
+public
+nsSupportsWeakReference
 {
 public
 :
