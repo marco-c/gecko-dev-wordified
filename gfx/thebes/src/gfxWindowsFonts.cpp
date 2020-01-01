@@ -9333,7 +9333,7 @@ i
 ;
 i
 <
-mItemLength
+mRangeLength
 ;
 i
 +
