@@ -12227,7 +12227,6 @@ nsIApplicationCacheAsyncCallback
 aCallback
 )
 {
-{
 nsresult
 rv
 ;
