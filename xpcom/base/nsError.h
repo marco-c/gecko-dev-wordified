@@ -718,7 +718,7 @@ defined
 _M_X64
 )
 /
-/
+*
 need
 underlying
 type
@@ -731,6 +731,8 @@ compiler
 Bug
 794734
 )
+*
+/
 :
 uint32_t
 #
