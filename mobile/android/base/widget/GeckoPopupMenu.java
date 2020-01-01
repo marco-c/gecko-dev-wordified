@@ -527,13 +527,6 @@ int
 menuRes
 )
 {
-if
-(
-menuRes
->
-0
-)
-{
 mMenuInflater
 .
 inflate
@@ -542,7 +535,6 @@ menuRes
 mMenu
 )
 ;
-}
 mMenuPanel
 .
 addView
