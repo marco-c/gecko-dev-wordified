@@ -1188,7 +1188,7 @@ tabTitle
 0
 ]
 .
-innerHTML
+textContent
 ;
 }
 /
