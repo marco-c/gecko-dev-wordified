@@ -9441,6 +9441,17 @@ currentVelocityY
 PRBool
 isSmoothScroll
 =
+(
+aMode
+=
+=
+nsIScrollableFrame
+:
+:
+SMOOTH
+)
+&
+&
 IsSmoothScrollingEnabled
 (
 )
