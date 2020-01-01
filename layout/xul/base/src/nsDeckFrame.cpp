@@ -1068,15 +1068,8 @@ return
 /
 /
 redraw
-nsBoxLayoutState
-state
+InvalidateOverflowRect
 (
-aPresContext
-)
-;
-Redraw
-(
-state
 )
 ;
 /
