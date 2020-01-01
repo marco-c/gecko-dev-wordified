@@ -2750,6 +2750,14 @@ nsIContent
 aContent
 )
 ;
+void
+RestyleForAnimation
+(
+nsIContent
+*
+aContent
+)
+;
 /
 *
 *
