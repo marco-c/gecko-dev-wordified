@@ -16956,6 +16956,7 @@ JSBool
 strict
 >
 void
+JS_FASTCALL
 ic
 :
 :
