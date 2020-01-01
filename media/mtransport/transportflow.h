@@ -178,13 +178,6 @@ m_cpp_utils
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 /
 /
 A

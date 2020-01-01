@@ -134,13 +134,6 @@ nsSocketTransportService2
 h
 "
 #
-include
-"
-nsThreadUtils
-.
-h
-"
-#
 ifdef
 XP_WIN
 #

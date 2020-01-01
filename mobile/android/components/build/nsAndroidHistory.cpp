@@ -59,13 +59,6 @@ MPL
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 nsAndroidHistory
 .
 h

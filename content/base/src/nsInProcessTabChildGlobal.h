@@ -200,7 +200,7 @@ h
 #
 include
 "
-nsIRunnable
+nsThreadUtils
 .
 h
 "

@@ -122,13 +122,6 @@ nsSocketTransport2
 .
 h
 "
-#
-include
-"
-nsThreadUtils
-.
-h
-"
 using
 mozilla
 :

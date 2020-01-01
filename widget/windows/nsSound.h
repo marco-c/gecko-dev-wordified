@@ -114,13 +114,10 @@ h
 #
 include
 "
-nsCOMPtr
+nsThreadUtils
 .
 h
 "
-class
-nsIThread
-;
 class
 nsSound
 :

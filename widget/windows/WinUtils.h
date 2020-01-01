@@ -158,7 +158,7 @@ h
 #
 include
 "
-nsIRunnable
+nsThreadUtils
 .
 h
 "
@@ -222,9 +222,6 @@ KeyPair
 ;
 struct
 nsIntRect
-;
-class
-nsIThread
 ;
 namespace
 mozilla

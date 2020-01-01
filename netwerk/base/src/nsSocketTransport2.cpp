@@ -213,13 +213,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h

@@ -136,13 +136,6 @@ Tickler
 h
 "
 #
-include
-"
-nsThreadUtils
-.
-h
-"
-#
 ifdef
 MOZ_USE_WIFI_TICKLER
 #

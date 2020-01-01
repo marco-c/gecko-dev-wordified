@@ -200,6 +200,13 @@ h
 #
 include
 "
+nsThreadUtils
+.
+h
+"
+#
+include
+"
 nsURIHashKey
 .
 h

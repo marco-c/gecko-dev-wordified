@@ -142,6 +142,13 @@ h
 #
 include
 "
+nsThreadUtils
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
