@@ -27720,7 +27720,6 @@ onLinkIconAvailable
 :
 function
 (
-aBrowser
 aIconURL
 )
 {
