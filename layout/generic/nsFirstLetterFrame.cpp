@@ -426,10 +426,6 @@ ResolveStyleForNonElement
 parentStyleContext
 )
 ;
-if
-(
-newSC
-)
 SetStyleContextWithoutNotification
 (
 newSC
@@ -2093,11 +2089,6 @@ ResolveStyleForNonElement
 parentSC
 )
 ;
-if
-(
-newSC
-)
-{
 continuation
 -
 >
@@ -2106,7 +2097,6 @@ SetStyleContext
 newSC
 )
 ;
-}
 }
 /
 /
@@ -2474,11 +2464,6 @@ ResolveStyleForNonElement
 mStyleContext
 )
 ;
-if
-(
-sc
-)
-{
 kid
 -
 >
@@ -2487,7 +2472,6 @@ SetStyleContext
 sc
 )
 ;
-}
 }
 }
 }

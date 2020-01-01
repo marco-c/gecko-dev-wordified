@@ -2670,11 +2670,6 @@ docElement
 nullptr
 )
 ;
-if
-(
-rootStyle
-)
-{
 rootStyleFont
 =
 rootStyle
@@ -2684,7 +2679,6 @@ StyleFont
 (
 )
 ;
-}
 }
 rootFontSize
 =
