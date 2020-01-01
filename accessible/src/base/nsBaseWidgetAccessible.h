@@ -760,13 +760,12 @@ node
 .
 *
 /
-already_AddRefed
-<
 nsAccessible
->
+*
 GetActionAccessible
 (
 )
+const
 ;
 /
 *

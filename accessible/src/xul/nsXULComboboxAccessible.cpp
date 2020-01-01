@@ -1076,10 +1076,8 @@ if
 focusedOptionNode
 )
 {
-nsRefPtr
-<
 nsAccessible
->
+*
 focusedOption
 =
 GetAccService

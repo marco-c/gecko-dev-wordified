@@ -3454,10 +3454,8 @@ iNode
 =
 NULL
 ;
-nsRefPtr
-<
 nsAccessible
->
+*
 acc
 =
 GetAccService

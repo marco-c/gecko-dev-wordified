@@ -1547,10 +1547,8 @@ accessible
 .
 *
 /
-already_AddRefed
-<
 nsAccessible
->
+*
 GetFocusedOptionAccessible
 (
 )

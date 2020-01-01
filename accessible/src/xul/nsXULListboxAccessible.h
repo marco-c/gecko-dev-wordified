@@ -910,10 +910,8 @@ listitem
 .
 *
 /
-already_AddRefed
-<
 nsAccessible
->
+*
 GetListAccessible
 (
 )
