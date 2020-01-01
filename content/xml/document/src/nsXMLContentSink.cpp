@@ -724,11 +724,6 @@ nsXMLContentSink
 (
 )
 {
-NS_IF_RELEASE
-(
-mDocElement
-)
-;
 if
 (
 mText
@@ -872,7 +867,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
 (
 mCurrentHead
 )
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE_RAWPTR
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
 (
 mDocElement
 )
@@ -5041,11 +5036,6 @@ mDocElement
 =
 aContent
 ;
-NS_ADDREF
-(
-mDocElement
-)
-;
 nsresult
 rv
 =
@@ -7637,10 +7627,9 @@ dummy
 ;
 }
 }
-NS_IF_RELEASE
-(
 mDocElement
-)
+=
+nullptr
 ;
 /
 /
