@@ -987,7 +987,7 @@ getDef
 )
 ;
 Label
-ifFalse
+ifTrue
 ;
 masm
 .
@@ -1009,7 +1009,7 @@ movl
 (
 Imm32
 (
-0
+1
 )
 ToRegister
 (
@@ -1028,7 +1028,7 @@ condition
 (
 )
 &
-ifFalse
+ifTrue
 )
 ;
 masm
@@ -1037,7 +1037,7 @@ movl
 (
 Imm32
 (
-1
+0
 )
 ToRegister
 (
@@ -1050,7 +1050,7 @@ masm
 bind
 (
 &
-ifFalse
+ifTrue
 )
 ;
 return

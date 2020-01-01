@@ -4241,6 +4241,16 @@ return
 cond_
 ;
 }
+TypePolicy
+*
+typePolicy
+(
+)
+{
+return
+this
+;
+}
 private
 :
 void
