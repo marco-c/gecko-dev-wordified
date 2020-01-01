@@ -2349,12 +2349,14 @@ width
 width
 ;
 /
-/
+*
 Avoid
 BadValue
 errors
 in
 XtSetValues
+*
+/
 if
 (
 height
