@@ -1246,17 +1246,11 @@ thread
 nsresult
 IceGatheringCompleted_m
 (
-NrIceCtx
-*
-aCtx
 )
 ;
 nsresult
 IceCompleted_m
 (
-NrIceCtx
-*
-aCtx
 )
 ;
 /
