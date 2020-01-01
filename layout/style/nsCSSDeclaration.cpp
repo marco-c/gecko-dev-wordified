@@ -7558,7 +7558,7 @@ data
 >
 ValueListStorageFor
 (
-eCSSProperty__moz_background_clip
+eCSSProperty_background_clip
 )
 ;
 const
@@ -7572,7 +7572,7 @@ data
 >
 ValueListStorageFor
 (
-eCSSProperty__moz_background_origin
+eCSSProperty_background_origin
 )
 ;
 const
@@ -7943,7 +7943,7 @@ PRUnichar
 ;
 AppendCSSValueToString
 (
-eCSSProperty__moz_background_clip
+eCSSProperty_background_clip
 clip
 -
 >

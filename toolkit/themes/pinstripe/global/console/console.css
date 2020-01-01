@@ -1446,14 +1446,13 @@ background
 :
 toolbarbuttonBackground
 ;
--
-moz
--
 background
 -
 origin
 :
 border
+-
+box
 ;
 }
 #

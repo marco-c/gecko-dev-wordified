@@ -23470,7 +23470,7 @@ Appearance
 )
 COMPUTED_STYLE_MAP_ENTRY
 (
-_moz_background_clip
+background_clip
 BackgroundClip
 )
 COMPUTED_STYLE_MAP_ENTRY
@@ -23480,7 +23480,7 @@ BackgroundInlinePolicy
 )
 COMPUTED_STYLE_MAP_ENTRY
 (
-_moz_background_origin
+background_origin
 BackgroundOrigin
 )
 COMPUTED_STYLE_MAP_ENTRY
