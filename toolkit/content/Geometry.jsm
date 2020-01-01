@@ -1523,7 +1523,7 @@ forceOnline
 {
 #
 ifdef
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
 gIOService
 .
 offline
