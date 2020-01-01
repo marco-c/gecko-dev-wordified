@@ -1691,6 +1691,17 @@ nsTreeSelection
 delete
 mFirstRange
 ;
+if
+(
+mSelectTimer
+)
+mSelectTimer
+-
+>
+Cancel
+(
+)
+;
 }
 /
 /
