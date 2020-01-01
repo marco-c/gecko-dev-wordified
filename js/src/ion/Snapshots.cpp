@@ -2092,13 +2092,6 @@ fun
 SNAPSHOT_MAX_NARGS
 )
 ;
-JS_ASSERT
-(
-exprStack
-<
-SNAPSHOT_MAX_STACK
-)
-;
 uint32_t
 formalArgs
 =
