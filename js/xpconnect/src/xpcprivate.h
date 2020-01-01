@@ -17244,10 +17244,6 @@ aNewParent
 nsISupports
 *
 aCOMObj
-XPCWrappedNative
-*
-*
-aWrapper
 )
 ;
 bool

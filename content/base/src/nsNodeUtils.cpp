@@ -3247,12 +3247,6 @@ if
 xpc
 )
 {
-nsCOMPtr
-<
-nsIXPConnectJSObjectHolder
->
-oldWrapper
-;
 rv
 =
 xpc
@@ -3264,10 +3258,6 @@ aCx
 wrapper
 aNewScope
 aNode
-getter_AddRefs
-(
-oldWrapper
-)
 )
 ;
 if
