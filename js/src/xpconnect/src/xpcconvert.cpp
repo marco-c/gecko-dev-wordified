@@ -4234,9 +4234,6 @@ lost
 "
 )
 ;
-return
-JS_FALSE
-;
 }
 #
 endif
