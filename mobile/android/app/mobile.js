@@ -3068,6 +3068,16 @@ true
 pref
 (
 "
+dom
+.
+disable_window_showModalDialog
+"
+true
+)
+;
+pref
+(
+"
 keyword
 .
 enabled
