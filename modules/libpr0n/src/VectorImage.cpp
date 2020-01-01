@@ -580,9 +580,6 @@ mozilla
 namespace
 imagelib
 {
-#
-ifdef
-MOZ_ENABLE_LIBXUL
 /
 /
 Helper
@@ -873,11 +870,6 @@ me
 .
 }
 ;
-#
-endif
-/
-/
-MOZ_ENABLE_LIBXUL
 /
 /
 Helper
@@ -5293,9 +5285,6 @@ IsAnimated
 (
 )
 ;
-#
-ifdef
-MOZ_ENABLE_LIBXUL
 /
 /
 Start
@@ -5315,11 +5304,6 @@ mSVGDocumentWrapper
 this
 )
 ;
-#
-endif
-/
-/
-MOZ_ENABLE_LIBXUL
 /
 /
 Tell
