@@ -1059,6 +1059,16 @@ true
 for
 noautohide
 panels
+PRPackedBool
+mIsDragPopup
+;
+/
+/
+true
+for
+drag
+feedback
+panels
 }
 ;
 #

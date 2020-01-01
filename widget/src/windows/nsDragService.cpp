@@ -2361,10 +2361,6 @@ mDragAction
 =
 aActionType
 ;
-mDoingDrag
-=
-PR_TRUE
-;
 mSentLocalDropEvent
 =
 PR_FALSE
@@ -2374,6 +2370,10 @@ PR_FALSE
 Start
 dragging
 StartDragSession
+(
+)
+;
+OpenDragPopup
 (
 )
 ;
