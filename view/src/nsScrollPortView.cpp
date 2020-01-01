@@ -4314,10 +4314,12 @@ nsScrollPortView
 *
 self
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsScrollPortView
 *
+>
+(
 anInstance
 )
 ;

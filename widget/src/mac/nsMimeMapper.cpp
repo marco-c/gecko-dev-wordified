@@ -2125,10 +2125,12 @@ empty
 .
 exportBuffer
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 char
 *
+>
+(
 nsMemory
 :
 :

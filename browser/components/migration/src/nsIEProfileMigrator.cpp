@@ -1725,10 +1725,12 @@ aRegKey
 ReadIntValue
 (
 aRegValueName
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 PRUint32
 *
+>
+(
 &
 prefIntValue
 )

@@ -2392,10 +2392,12 @@ nsExpirationTracker
 *
 tracker
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsExpirationTracker
 *
+>
+(
 aThis
 )
 ;

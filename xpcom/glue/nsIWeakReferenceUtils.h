@@ -543,11 +543,13 @@ NS_GET_TEMPLATE_IID
 (
 DestinationType
 )
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 void
 *
 *
+>
+(
 aDestination
 )
 )

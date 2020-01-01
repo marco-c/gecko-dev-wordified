@@ -744,10 +744,12 @@ nsInputStreamTee
 *
 tee
 =
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 nsInputStreamTee
 *
+>
+(
 closure
 )
 ;

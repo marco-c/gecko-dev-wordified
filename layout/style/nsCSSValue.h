@@ -3098,10 +3098,12 @@ aBuffer
 )
 {
 return
-NS_STATIC_CAST
-(
+static_cast
+<
 PRUnichar
 *
+>
+(
 aBuffer
 -
 >

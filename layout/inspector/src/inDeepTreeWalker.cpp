@@ -842,10 +842,12 @@ i
 )
 {
 delete
-NS_STATIC_CAST
-(
+static_cast
+<
 DeepTreeStackItem
 *
+>
+(
 mStack
 [
 i

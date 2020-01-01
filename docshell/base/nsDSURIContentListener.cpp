@@ -1375,10 +1375,12 @@ domWindow
 =
 do_GetInterface
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIDocShell
 *
+>
+(
 mDocShell
 )
 )

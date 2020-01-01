@@ -844,11 +844,13 @@ Element
 &
 element
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 const
 Element
 &
+>
+(
 aElement
 )
 ;

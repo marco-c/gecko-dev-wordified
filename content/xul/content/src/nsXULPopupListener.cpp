@@ -3507,10 +3507,12 @@ NS_ERROR_OUT_OF_MEMORY
 *
 aListener
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIDOMMouseListener
 *
+>
+(
 pl
 )
 ;

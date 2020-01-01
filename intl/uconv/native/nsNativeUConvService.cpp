@@ -1860,10 +1860,12 @@ nsISupports
 >
 ucl
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIUnicodeDecoder
 *
+>
+(
 adaptor
 )
 )

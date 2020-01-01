@@ -4527,10 +4527,12 @@ nsTreeSelection
 *
 self
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsTreeSelection
 *
+>
+(
 aClosure
 )
 ;

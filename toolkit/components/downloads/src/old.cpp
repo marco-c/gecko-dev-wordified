@@ -106,10 +106,12 @@ nsDownload
 *
 internalDownload
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsDownload
 *
+>
+(
 mCurrDownloads
 .
 Get

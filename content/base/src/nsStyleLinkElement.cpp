@@ -707,11 +707,13 @@ node
 CallQueryInterface
 (
 this
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIDOMNode
 *
 *
+>
+(
 getter_AddRefs
 (
 node

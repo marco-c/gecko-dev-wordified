@@ -2506,10 +2506,12 @@ nsBrowserStatusFilter
 *
 self
 =
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 nsBrowserStatusFilter
 *
+>
+(
 aClosure
 )
 ;

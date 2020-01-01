@@ -670,10 +670,12 @@ txStepPattern
 *
 step
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 txStepPattern
 *
+>
+(
 aInPattern
 )
 ;

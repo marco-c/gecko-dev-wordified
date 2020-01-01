@@ -798,11 +798,13 @@ jsstring
 JS_NewUCStringCopyN
 (
 cx
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 const
 jschar
 *
+>
+(
 stringReturned
 .
 get

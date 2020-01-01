@@ -1033,10 +1033,12 @@ nsProfileLock
 *
 lock
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsProfileLock
 *
+>
+(
 mPidLockList
 .
 next

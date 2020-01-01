@@ -935,10 +935,12 @@ nsXBLPrototypeHandler
 *
 handler
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsXBLPrototypeHandler
 *
+>
+(
 mProtoHandlers
 [
 i

@@ -5776,10 +5776,12 @@ i
 {
 item
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsXPITriggerItem
 *
+>
+(
 mTriggers
 -
 >

@@ -2553,10 +2553,12 @@ PRTime
 *
 outTime
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 PRTime
 *
+>
+(
 aResult
 )
 ;

@@ -5307,10 +5307,12 @@ nsTextEditRules
 *
 textEditRules
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsTextEditRules
 *
+>
+(
 p
 )
 ;

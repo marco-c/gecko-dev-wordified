@@ -1369,10 +1369,12 @@ progress
 >
 AddProgressListener
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIWebProgressListener
 *
+>
+(
 this
 )
 nsIWebProgress

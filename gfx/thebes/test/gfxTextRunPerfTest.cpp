@@ -840,11 +840,13 @@ fontGroup
 >
 MakeTextRun
 (
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 const
 PRUint8
 *
+>
+(
 test
 -
 >

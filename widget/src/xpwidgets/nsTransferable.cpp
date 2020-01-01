@@ -1845,10 +1845,12 @@ outStr
 >
 Write
 (
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 char
 *
+>
+(
 buff
 )
 aDataLen

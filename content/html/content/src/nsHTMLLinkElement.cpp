@@ -1603,10 +1603,12 @@ nsContentUtils
 DispatchTrustedEvent
 (
 aDoc
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIContent
 *
+>
+(
 this
 )
 aEventName

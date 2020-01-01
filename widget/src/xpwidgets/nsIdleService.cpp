@@ -850,10 +850,12 @@ void
 aClosure
 )
 {
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIdleService
 *
+>
+(
 aClosure
 )
 -

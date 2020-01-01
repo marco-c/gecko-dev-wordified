@@ -884,10 +884,12 @@ nsIWindowCreator
 >
 windowCreator
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIWindowCreator
 *
+>
+(
 creatorCallback
 )
 )

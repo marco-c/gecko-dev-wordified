@@ -595,10 +595,12 @@ siblings
 #
 define
 DEAD_END_ACCESSIBLE
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIAccessible
 *
+>
+(
 (
 void
 *

@@ -4819,10 +4819,12 @@ mMenuListener
 >
 MenuSelected
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 nsMenuEvent
 &
+>
+(
 *
 aEvent
 )

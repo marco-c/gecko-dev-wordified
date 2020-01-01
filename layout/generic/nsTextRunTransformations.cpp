@@ -1154,11 +1154,13 @@ features
 NS_ConvertASCIItoUTF16
 unicodeString
 (
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 const
 char
 *
+>
+(
 aString
 )
 aLength

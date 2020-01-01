@@ -916,10 +916,12 @@ nsHTMLContainerFrame
 *
 f
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsHTMLContainerFrame
 *
+>
+(
 mFrame
 )
 ;

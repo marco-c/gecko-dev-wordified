@@ -7247,10 +7247,12 @@ inputStr
 UniChar
 *
 )
-NS_CONST_CAST
-(
+const_cast
+<
 PRUnichar
 *
+>
+(
 iter
 .
 get

@@ -643,10 +643,12 @@ nsDocShellTreeOwner
 *
 tree
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsDocShellTreeOwner
 *
+>
+(
 treeOwner
 )
 ;

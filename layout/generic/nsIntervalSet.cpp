@@ -619,10 +619,12 @@ Interval
 *
 newInterval
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 Interval
 *
+>
+(
 (
 *
 mAlloc

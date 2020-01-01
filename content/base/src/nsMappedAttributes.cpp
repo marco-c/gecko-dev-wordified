@@ -766,10 +766,12 @@ if
 newAttrs
 )
 {
-NS_STATIC_CAST
-(
+static_cast
+<
 nsMappedAttributes
 *
+>
+(
 newAttrs
 )
 -

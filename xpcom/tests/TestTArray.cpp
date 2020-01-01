@@ -1239,10 +1239,12 @@ ary
 .
 AppendElements
 (
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 ElementType
 *
+>
+(
 0
 )
 0

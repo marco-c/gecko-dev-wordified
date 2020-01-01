@@ -1179,10 +1179,12 @@ length
 UniStrftime
 (
 locObj
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 UniChar
 *
+>
+(
 buffer
 )
 NSDATETIME_FORMAT_BUFFER_LEN

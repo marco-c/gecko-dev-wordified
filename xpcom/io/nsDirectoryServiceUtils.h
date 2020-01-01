@@ -529,11 +529,13 @@ NS_GET_IID
 (
 nsIFile
 )
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 void
 *
 *
+>
+(
 result
 )
 )

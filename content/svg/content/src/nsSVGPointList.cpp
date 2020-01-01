@@ -1803,9 +1803,11 @@ if
 index
 >
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 PRUint32
+>
+(
 mPoints
 .
 Count
@@ -2017,9 +2019,11 @@ if
 index
 >
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 PRUint32
+>
+(
 mPoints
 .
 Count

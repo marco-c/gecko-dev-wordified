@@ -1447,10 +1447,12 @@ nsIEventQueue
 *
 mainThreadQ
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIEventQueue
 *
+>
+(
 p
 )
 ;

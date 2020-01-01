@@ -1654,10 +1654,12 @@ BITMAPINFOHEADER
 *
 imageHeader
 =
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 BITMAPINFOHEADER
 *
+>
+(
 inImage
 -
 >

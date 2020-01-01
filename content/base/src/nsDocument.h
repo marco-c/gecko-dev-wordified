@@ -1115,10 +1115,12 @@ ll
 be
 OK
 .
-NS_CONST_CAST
-(
+const_cast
+<
 nsUint32ToContentHashEntry
 &
+>
+(
 toCopy
 )
 .

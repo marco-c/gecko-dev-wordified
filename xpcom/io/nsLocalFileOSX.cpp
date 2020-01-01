@@ -6804,10 +6804,12 @@ nsLocalFile
 *
 inLF
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsLocalFile
 *
+>
+(
 (
 nsILocalFileMac
 *

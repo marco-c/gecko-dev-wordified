@@ -7618,9 +7618,11 @@ segments
 90deg
 mNumSegs
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 int
+>
+(
 ceil
 (
 fabs

@@ -1089,10 +1089,12 @@ rv
 *
 result
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIViewSourceChannel
 *
+>
+(
 channel
 )
 ;

@@ -3099,11 +3099,13 @@ outStream
 >
 Write
 (
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 const
 char
 *
+>
+(
 pOutBuf
 )
 cbOutBuf

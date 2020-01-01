@@ -996,10 +996,12 @@ nsIMutableArray
 *
 propertyArray
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIMutableArray
 *
+>
+(
 userArg
 )
 ;

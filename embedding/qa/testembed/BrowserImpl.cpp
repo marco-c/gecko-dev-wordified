@@ -3291,10 +3291,12 @@ GetBrowserFrameNativeWnd
 *
 aSiteWindow
 =
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 void
 *
+>
+(
 w
 )
 ;

@@ -849,10 +849,12 @@ GetProxiedIID
 *
 aInstancePtr
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsISupports
 *
+>
+(
 mXPTCStub
 )
 ;

@@ -1191,10 +1191,12 @@ char
 *
 p
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 char
 *
+>
+(
 memchr
 (
 buf

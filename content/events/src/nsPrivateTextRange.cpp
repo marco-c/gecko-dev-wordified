@@ -626,9 +626,11 @@ aLength
 *
 aLength
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 PRUint16
+>
+(
 mList
 .
 Length

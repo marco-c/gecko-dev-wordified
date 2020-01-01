@@ -6588,10 +6588,12 @@ change
 this
 too
 .
-NS_STATIC_CAST
-(
+static_cast
+<
 nsFormSubmission
 *
+>
+(
 *
 aFormSubmission
 )

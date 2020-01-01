@@ -1051,10 +1051,12 @@ nsIXPCSecurityManager
 >
 secman
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIXPCSecurityManager
 *
+>
+(
 new
 AutoConfigSecMan
 (

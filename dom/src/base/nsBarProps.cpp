@@ -1157,10 +1157,12 @@ nsISupports
 *
 supwin
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIScriptGlobalObject
 *
+>
+(
 aWindow
 )
 ;

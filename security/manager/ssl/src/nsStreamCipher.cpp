@@ -584,10 +584,12 @@ PK11SymKey
 *
 symkey
 =
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 PK11SymKey
 *
+>
+(
 keyObj
 )
 ;

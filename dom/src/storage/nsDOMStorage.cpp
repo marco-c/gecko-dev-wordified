@@ -3692,10 +3692,12 @@ nsDOMStorage
 *
 newstorage
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsDOMStorage
 *
+>
+(
 userArg
 )
 ;

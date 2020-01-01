@@ -814,10 +814,12 @@ nsXBMDecoder
 *
 decoder
 =
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 nsXBMDecoder
 *
+>
+(
 aClosure
 )
 ;

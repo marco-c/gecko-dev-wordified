@@ -1025,10 +1025,12 @@ nsKeyEvent
 *
 keyEvent
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsKeyEvent
 *
+>
+(
 mEvent
 )
 ;

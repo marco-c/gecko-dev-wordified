@@ -1968,11 +1968,13 @@ str
 ToNewUnicode
 (
 *
-NS_STATIC_CAST
-(
+static_cast
+<
 const
 nsString
 *
+>
+(
 he
 -
 >

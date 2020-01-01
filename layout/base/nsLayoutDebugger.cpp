@@ -965,10 +965,12 @@ nsDisplayClip
 *
 c
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsDisplayClip
 *
+>
+(
 i
 )
 ;

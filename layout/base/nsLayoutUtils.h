@@ -1822,10 +1822,12 @@ aView
 )
 {
 return
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIFrame
 *
+>
+(
 aView
 -
 >

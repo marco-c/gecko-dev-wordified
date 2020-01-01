@@ -4298,10 +4298,12 @@ nsIFile
 *
 dup
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIFile
 *
+>
+(
 aDirs
 [
 i

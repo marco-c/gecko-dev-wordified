@@ -2601,9 +2601,11 @@ aData
 CGContextRef
 context
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 CGContextRef
+>
+(
 aData
 )
 ;

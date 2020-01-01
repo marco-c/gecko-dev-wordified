@@ -1437,10 +1437,12 @@ notifyOnOpen
 *
 webProgressListener
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIWebProgressListener
 *
+>
+(
 this
 )
 ;

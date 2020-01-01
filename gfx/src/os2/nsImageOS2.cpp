@@ -7146,10 +7146,12 @@ nsImageOS2
 *
 destImg
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsImageOS2
 *
+>
+(
 aDstImage
 )
 ;

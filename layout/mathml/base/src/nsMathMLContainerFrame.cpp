@@ -7456,10 +7456,12 @@ aStatus
 nsAutoSpaceManager
 autoSpaceManager
 (
-NS_CONST_CAST
-(
+const_cast
+<
 nsHTMLReflowState
 &
+>
+(
 aReflowState
 )
 )

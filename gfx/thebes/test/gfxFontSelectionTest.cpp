@@ -1805,10 +1805,12 @@ gfxTextRunWordCache
 :
 MakeTextRun
 (
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 PRUint8
 *
+>
+(
 test
 -
 >

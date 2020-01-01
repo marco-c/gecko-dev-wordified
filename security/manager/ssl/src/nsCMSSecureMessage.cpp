@@ -789,10 +789,12 @@ CERT_FindUserCertByUsage
 CERT_GetDefaultCertDB
 (
 )
-NS_CONST_CAST
-(
+const_cast
+<
 char
 *
+>
+(
 nickname
 .
 get

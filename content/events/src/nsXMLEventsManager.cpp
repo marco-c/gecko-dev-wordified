@@ -1566,10 +1566,12 @@ nsIContent
 >
 content
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIContent
 *
+>
+(
 aData
 )
 ;

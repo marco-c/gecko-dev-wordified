@@ -2531,10 +2531,12 @@ o
 >
 Observe
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 nsITimer
 *
+>
+(
 this
 )
 NS_TIMER_CALLBACK_TOPIC

@@ -673,10 +673,12 @@ kTreeColumnImplCID
 )
 foundInterface
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsITreeColumn
 *
+>
+(
 this
 )
 ;

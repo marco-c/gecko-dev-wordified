@@ -4211,10 +4211,12 @@ nsImageBeOS
 *
 dest
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsImageBeOS
 *
+>
+(
 aDstImage
 )
 ;

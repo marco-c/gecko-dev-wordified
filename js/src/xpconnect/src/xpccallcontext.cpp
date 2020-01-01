@@ -2571,13 +2571,15 @@ member
 ;
 mName
 =
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 XPCDispInterface
 :
 :
 Member
 *
+>
+(
 member
 )
 -

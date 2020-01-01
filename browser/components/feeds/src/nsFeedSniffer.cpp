@@ -2695,10 +2695,12 @@ nsCString
 *
 decodedData
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsCString
 *
+>
+(
 closure
 )
 ;

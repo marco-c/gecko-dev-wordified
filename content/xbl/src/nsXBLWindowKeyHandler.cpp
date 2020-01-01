@@ -1655,10 +1655,12 @@ nsIControllers
 *
 controllers
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIControllers
 *
+>
+(
 aData
 )
 ;

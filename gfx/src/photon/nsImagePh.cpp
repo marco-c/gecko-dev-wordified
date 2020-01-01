@@ -4047,10 +4047,12 @@ nsImagePh
 *
 dest
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsImagePh
 *
+>
+(
 aDstImage
 )
 ;

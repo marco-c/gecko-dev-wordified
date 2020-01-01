@@ -1041,10 +1041,12 @@ aRegion
 SetTo
 (
 *
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIRegion
 *
+>
+(
 mClipRegion
 )
 )

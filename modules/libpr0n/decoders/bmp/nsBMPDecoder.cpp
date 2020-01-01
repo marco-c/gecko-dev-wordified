@@ -864,10 +864,12 @@ nsBMPDecoder
 *
 decoder
 =
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 nsBMPDecoder
 *
+>
+(
 aClosure
 )
 ;

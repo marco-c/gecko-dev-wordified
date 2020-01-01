@@ -16403,10 +16403,12 @@ bi
 .
 head
 CBM_INIT
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 BYTE
 *
+>
+(
 aImageData
 )
 (

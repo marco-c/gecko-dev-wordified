@@ -2839,10 +2839,12 @@ nsIAtom
 *
 tag
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIContent
 *
+>
+(
 aNode
 )
 -

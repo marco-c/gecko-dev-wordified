@@ -710,10 +710,12 @@ nsISupports
 *
 result
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIXPCTestNoisy
 *
+>
+(
 this
 )
 ;

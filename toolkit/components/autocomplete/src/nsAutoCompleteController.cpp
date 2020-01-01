@@ -5365,10 +5365,12 @@ StartSearch
 mSearchString
 searchParam
 result
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIAutoCompleteObserver
 *
+>
+(
 this
 )
 )

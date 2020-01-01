@@ -2875,13 +2875,15 @@ void
 userData
 )
 {
-NS_STATIC_CAST
-(
+static_cast
+<
 nsTArray
 <
 nsString
 >
 *
+>
+(
 userData
 )
 -

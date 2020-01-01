@@ -531,10 +531,12 @@ base
 )
 ?
 \
-NS_STATIC_CAST
-(
+static_cast
+<
 nsSVGSVGElement
 *
+>
+(
 base
 .
 get

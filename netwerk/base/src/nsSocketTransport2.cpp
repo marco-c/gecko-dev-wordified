@@ -8664,10 +8664,12 @@ param
 {
 mDNSRecord
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIDNSRecord
 *
+>
+(
 param
 )
 ;

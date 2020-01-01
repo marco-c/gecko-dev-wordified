@@ -691,10 +691,12 @@ PRUnichar
 *
 cp
 =
-NS_CONST_CAST
-(
+const_cast
+<
 PRUnichar
 *
+>
+(
 aSource
 )
 ;

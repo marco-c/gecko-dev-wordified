@@ -3916,10 +3916,12 @@ nsEventDispatcher
 :
 Dispatch
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIDocument
 *
+>
+(
 this
 )
 nsnull

@@ -8237,10 +8237,12 @@ NPSetWindowCallbackStruct
 *
 ws
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 NPSetWindowCallbackStruct
 *
+>
+(
 window
 -
 >

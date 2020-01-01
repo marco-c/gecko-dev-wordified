@@ -633,11 +633,13 @@ PRUnichar
 *
 fs
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 PRUnichar
 *
 *
+>
+(
 nsMemory
 :
 :

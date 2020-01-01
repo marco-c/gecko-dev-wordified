@@ -5010,10 +5010,12 @@ nsPrintSettings
 *
 ps
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsPrintSettings
 *
+>
+(
 aPS
 )
 ;

@@ -925,10 +925,12 @@ our
 dtor
 .
 delete
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 char
 *
+>
+(
 sCachedComputedDOMStyle
 )
 ;

@@ -1738,9 +1738,11 @@ dwFlags
 lpTime
 format
 ?
-NS_CONST_CAST
-(
+const_cast
+<
 LPCWSTR
+>
+(
 NS_ConvertASCIItoUTF16
 (
 format
@@ -1800,9 +1802,11 @@ dwFlags
 lpDate
 format
 ?
-NS_CONST_CAST
-(
+const_cast
+<
 LPCWSTR
+>
+(
 NS_ConvertASCIItoUTF16
 (
 format

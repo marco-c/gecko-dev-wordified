@@ -8356,11 +8356,13 @@ char
 *
 ret
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 char
 *
 *
+>
+(
 NS_Alloc
 (
 *

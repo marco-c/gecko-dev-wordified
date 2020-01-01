@@ -6286,10 +6286,12 @@ TimerParams
 *
 params
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 TimerParams
 *
+>
+(
 aClosure
 )
 ;

@@ -1260,10 +1260,12 @@ mUpdateTimer
 >
 InitWithCallback
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 nsITimerCallback
 *
+>
+(
 this
 )
 kUpdateTimerDelay

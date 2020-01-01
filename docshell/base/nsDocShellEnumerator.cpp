@@ -561,10 +561,12 @@ nsIDocShellTreeItem
 *
 thisItem
 =
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 nsIDocShellTreeItem
 *
+>
+(
 mItemArray
 -
 >
