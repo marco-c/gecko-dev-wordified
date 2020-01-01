@@ -569,13 +569,6 @@ h
 #
 include
 "
-nsIDOM3Document
-.
-h
-"
-#
-include
-"
 nsIDOMNSDocument
 .
 h

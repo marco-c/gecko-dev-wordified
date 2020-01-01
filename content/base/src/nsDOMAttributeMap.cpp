@@ -468,7 +468,7 @@ h
 #
 include
 "
-nsIDOM3Document
+nsIDOMDocument
 .
 h
 "
@@ -1714,7 +1714,7 @@ iAttribute
 {
 nsCOMPtr
 <
-nsIDOM3Document
+nsIDOMDocument
 >
 domDoc
 =

@@ -514,13 +514,6 @@ h
 #
 include
 "
-nsIDOM3Document
-.
-h
-"
-#
-include
-"
 nsIDOMDocumentView
 .
 h
@@ -2918,8 +2911,6 @@ nsIDOMDocumentTraversal
 public
 nsIDOMDocumentXBL
 public
-nsIDOM3Document
-public
 nsSupportsWeakReference
 public
 nsIDOMEventTarget
@@ -4577,10 +4568,6 @@ NS_DECL_NSIDOMNODE
 /
 nsIDOMDocument
 NS_DECL_NSIDOMDOCUMENT
-/
-/
-nsIDOM3Document
-NS_DECL_NSIDOM3DOCUMENT
 /
 /
 nsIDOMXMLDocument
@@ -6956,13 +6943,6 @@ NS_INTERFACE_TABLE_ENTRY_AMBIGUOUS
 (
 _class
 nsIDOMNode
-nsDocument
-)
-\
-NS_INTERFACE_TABLE_ENTRY_AMBIGUOUS
-(
-_class
-nsIDOM3Document
 nsDocument
 )
 #
