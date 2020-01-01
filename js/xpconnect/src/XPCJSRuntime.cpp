@@ -1864,13 +1864,6 @@ current
 =
 NULL
 ;
-/
-/
-init
-to
-shut
-GCC
-up
 NS_ASSERTION
 (
 map
