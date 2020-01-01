@@ -758,7 +758,8 @@ nsPrintSettingsWin
 :
 SetDeviceName
 (
-char
+const
+PRUnichar
 *
 aDeviceName
 )
@@ -801,7 +802,7 @@ nsPrintSettingsWin
 :
 GetDeviceName
 (
-char
+PRUnichar
 *
 *
 aDeviceName
@@ -848,7 +849,8 @@ nsPrintSettingsWin
 :
 SetDriverName
 (
-char
+const
+PRUnichar
 *
 aDriverName
 )
@@ -891,7 +893,7 @@ nsPrintSettingsWin
 :
 GetDriverName
 (
-char
+PRUnichar
 *
 *
 aDriverName
@@ -927,10 +929,10 @@ nsPrintSettingsWin
 :
 CopyDevMode
 (
-DEVMODE
+DEVMODEW
 *
 aInDevMode
-DEVMODE
+DEVMODEW
 *
 &
 aOutDevMode
@@ -956,7 +958,7 @@ dmDriverExtra
 aOutDevMode
 =
 (
-LPDEVMODE
+LPDEVMODEW
 )
 :
 :
@@ -1002,7 +1004,7 @@ nsPrintSettingsWin
 :
 GetDevMode
 (
-DEVMODE
+DEVMODEW
 *
 *
 aDevMode
@@ -1044,7 +1046,7 @@ nsPrintSettingsWin
 :
 SetDevMode
 (
-DEVMODE
+DEVMODEW
 *
 aDevMode
 )

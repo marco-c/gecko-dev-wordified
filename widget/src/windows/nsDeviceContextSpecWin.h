@@ -565,7 +565,7 @@ aIsPrintPreview
 void
 GetDriverName
 (
-char
+PRUnichar
 *
 &
 aDriverName
@@ -580,7 +580,7 @@ mDriverName
 void
 GetDeviceName
 (
-char
+PRUnichar
 *
 &
 aDeviceName
@@ -648,7 +648,7 @@ UnlockGlobalHandle
 void
 GetDevMode
 (
-LPDEVMODE
+LPDEVMODEW
 &
 aDevMode
 )
@@ -678,7 +678,7 @@ SetPrintSettingsFromDevMode
 nsIPrintSettings
 *
 aPrintSettings
-LPDEVMODE
+LPDEVMODEW
 aDevMode
 )
 ;
@@ -687,7 +687,8 @@ protected
 void
 SetDeviceName
 (
-char
+const
+PRUnichar
 *
 aDeviceName
 )
@@ -695,7 +696,8 @@ aDeviceName
 void
 SetDriverName
 (
-char
+const
+PRUnichar
 *
 aDriverName
 )
@@ -703,7 +705,7 @@ aDriverName
 void
 SetDevMode
 (
-LPDEVMODE
+LPDEVMODEW
 aDevMode
 )
 ;
@@ -718,15 +720,15 @@ nsDeviceContextSpecWin
 (
 )
 ;
-char
+PRUnichar
 *
 mDriverName
 ;
-char
+PRUnichar
 *
 mDeviceName
 ;
-LPDEVMODE
+LPDEVMODEW
 mDevMode
 ;
 nsCOMPtr
