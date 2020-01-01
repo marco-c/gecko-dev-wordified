@@ -417,6 +417,13 @@ DrawTarget
 aTarget
 )
 ;
+virtual
+cairo_scaled_font_t
+*
+GetCairoScaledFont
+(
+)
+;
 protected
 :
 friend
@@ -454,12 +461,6 @@ aSize
 cairo_font_face_t
 *
 CairoFontFace
-(
-)
-;
-cairo_scaled_font_t
-*
-CairoScaledFont
 (
 )
 ;
