@@ -17462,12 +17462,43 @@ defaultValues
 *
 templateValues
 )
+def
+typeNeedsCx
+(
+type
+)
+:
+    
+return
+(
+type
+is
+not
+None
+and
+            
+(
+type
+.
+isCallback
+(
+)
+or
+type
+.
+isAny
+(
+)
+or
+type
+.
+isObject
+(
+)
+)
+)
 #
 Returns
-a
-tuple
-consisting
-of
 a
 CGThing
 containing
@@ -17476,27 +17507,19 @@ type
 of
 the
 return
-#
 value
-and
-a
-boolean
-signalling
-whether
-we
-need
-to
-pass
-a
-JSContext
-as
-the
+or
+None
 #
-first
-argument
-of
-the
-call
+if
+there
+is
+no
+need
+for
+a
+return
+value
 .
 def
 getRetvalDeclarationForType
@@ -17527,7 +17550,6 @@ declare
         
 return
 None
-False
     
 if
 returnType
@@ -17587,7 +17609,6 @@ post
         
 return
 result
-False
     
 if
 returnType
@@ -17604,7 +17625,6 @@ CGGeneric
 nsString
 "
 )
-False
     
 if
 returnType
@@ -17649,7 +17669,6 @@ identifier
 .
 name
 )
-False
     
 if
 returnType
@@ -17723,7 +17742,6 @@ post
         
 return
 result
-False
     
 if
 returnType
@@ -17761,20 +17779,13 @@ JSObject
 *
 "
 )
-False
     
 if
 returnType
 .
-tag
+isAny
 (
 )
-is
-IDLType
-.
-Tags
-.
-any
 :
         
 return
@@ -17787,7 +17798,6 @@ JS
 Value
 "
 )
-False
     
 if
 returnType
@@ -17805,7 +17815,6 @@ JSObject
 *
 "
 )
-True
     
 if
 returnType
@@ -17853,19 +17862,16 @@ argument
 here
 .
         
-(
 result
-needsCx
-)
 =
 getRetvalDeclarationForType
 (
 returnType
 .
 inner
-                                                        
+                                             
 descriptorProvider
-                                                        
+                                             
 resultAlreadyAddRefed
 )
         
@@ -17911,7 +17917,6 @@ post
         
 return
 result
-needsCx
     
 raise
 TypeError
@@ -18221,45 +18226,46 @@ descriptorProvider
 extendedAttributes
 )
         
-(
 result
-needsCx
-)
 =
 getRetvalDeclarationForType
 (
 returnType
-                                                        
+                                             
 descriptorProvider
-                                                        
+                                             
 resultAlreadyAddRefed
 )
         
-if
-not
-needsCx
-:
-            
 needsCx
 =
-reduce
 (
-lambda
-b
-a
-:
-b
+typeNeedsCx
+(
+returnType
+)
 or
+                   
+any
+(
+typeNeedsCx
+(
 a
 .
 type
-.
-isObject
-(
 )
+for
+a
+in
 arguments
-                             
-False
+)
+or
+                   
+'
+implicitJSContext
+'
+in
+extendedAttributes
 )
         
 if
@@ -18270,15 +18276,7 @@ cx
 in
 argsPre
 and
-(
 needsCx
-or
-'
-implicitJSContext
-'
-in
-extendedAttributes
-)
 :
             
 args
@@ -20491,15 +20489,44 @@ distinguishing
 index
 %
 d
+.
+Types
+are
+%
+s
+and
+%
+s
 "
 )
 %
+                                        
 (
 argCount
-                                                         
 idx
-                                                         
+                                         
 distinguishingIndex
+                                         
+str
+(
+possibleSignatures
+[
+sigIdx
+]
+[
+1
+]
+[
+idx
+]
+.
+type
+)
+                                         
+str
+(
+firstSigType
+)
 )
 )
             
@@ -28880,15 +28907,33 @@ split
 '
 )
             
-declare
+className
 =
-CGClassForwardDeclare
-(
 components
 [
 -
 1
 ]
+            
+#
+JSObject
+is
+a
+struct
+not
+a
+class
+            
+declare
+=
+CGClassForwardDeclare
+(
+className
+className
+is
+"
+JSObject
+"
 )
             
 if
@@ -29410,6 +29455,35 @@ h
 mozilla
 /
 Preferences
+.
+h
+'
+                          
+#
+Have
+to
+include
+nsDOMQS
+.
+h
+to
+get
+fast
+arg
+unwrapping
+                          
+#
+for
+old
+-
+binding
+things
+with
+castability
+.
+                          
+'
+nsDOMQS
 .
 h
 '
