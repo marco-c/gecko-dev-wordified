@@ -581,7 +581,7 @@ S_OK
 ;
 }
 return
-CAccessibleAction
+ia2AccessibleAction
 :
 :
 QueryInterface
