@@ -96,7 +96,7 @@ mozilla
 .
 gecko
 .
-ui
+gfx
 ;
 import
 org
