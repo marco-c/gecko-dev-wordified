@@ -2818,9 +2818,6 @@ aPos
 =
 aMovement
 ;
-case
-1
-:
 /
 /
 falling
@@ -2833,6 +2830,9 @@ resized
 in
 both
 cases
+case
+1
+:
 *
 aSize
 +
@@ -2841,13 +2841,6 @@ aResizerDirection
 *
 aMovement
 ;
-if
-(
-*
-aSize
-<
-1
-)
 /
 /
 use
@@ -2861,6 +2854,13 @@ the
 element
 could
 disappear
+if
+(
+*
+aSize
+<
+1
+)
 *
 aSize
 =
