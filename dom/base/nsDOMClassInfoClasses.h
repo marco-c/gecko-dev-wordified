@@ -1962,14 +1962,6 @@ DOMCI_CLASS
 (
 MathMLElement
 )
-DOMCI_CLASS
-(
-Worker
-)
-DOMCI_CLASS
-(
-ChromeWorker
-)
 /
 /
 WebGL
