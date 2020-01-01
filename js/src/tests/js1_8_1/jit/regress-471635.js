@@ -781,7 +781,7 @@ this
 .
 tracemonkey
 .
-profiler
+adaptive
 )
 {
 recorderStarted
