@@ -8122,6 +8122,7 @@ return
 PR_TRUE
 ;
 }
+}
 /
 /
 Some
@@ -8186,7 +8187,7 @@ Otherwise
 the
 focus
 rect
-will
+might
 overlap
 the
 control
@@ -8224,7 +8225,6 @@ right
 return
 PR_TRUE
 ;
-}
 }
 }
 PRInt32
