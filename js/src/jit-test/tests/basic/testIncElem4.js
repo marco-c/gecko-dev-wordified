@@ -48,6 +48,15 @@ y
 x
 ]
 ;
+/
+/
+:
+FIXME
+:
+bug
+672076
+/
+/
 assertEq
 (
 counter
