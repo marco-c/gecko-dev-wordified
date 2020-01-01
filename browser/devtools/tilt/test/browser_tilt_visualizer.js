@@ -162,6 +162,12 @@ true
 }
 )
 ;
+visualizer
+.
+init
+(
+)
+;
 ok
 (
 webGLError
