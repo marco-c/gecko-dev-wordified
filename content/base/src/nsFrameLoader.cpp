@@ -735,6 +735,9 @@ Destroy
 )
 ;
 }
+return
+NS_OK
+;
 }
 nsRefPtr
 <
