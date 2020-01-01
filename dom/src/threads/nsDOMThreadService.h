@@ -1006,7 +1006,7 @@ nsDOMWorkerPool
 .
 nsRefPtrHashtable
 <
-nsISupportsHashKey
+nsVoidPtrHashKey
 nsDOMWorkerPool
 >
 mPools
