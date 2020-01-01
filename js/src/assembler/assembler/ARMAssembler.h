@@ -9432,14 +9432,6 @@ AL
 ;
 ASSERT
 (
-cc
->
-=
-0
-)
-;
-ASSERT
-(
 (
 cc
 &
