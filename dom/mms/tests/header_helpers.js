@@ -321,7 +321,6 @@ do_throw
 (
 "
 expect
-decoded
 value
 :
 '
