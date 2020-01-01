@@ -86275,6 +86275,16 @@ fp
 -
 >
 fun
+|
+|
+(
+fp
+-
+>
+flags
+&
+JSFRAME_EVAL
+)
 )
 {
 ci
