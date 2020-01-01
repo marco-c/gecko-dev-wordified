@@ -762,9 +762,6 @@ typeConst
 bool
 dataConst
 ;
-bool
-dataWrite
-;
 }
 name
 ;
