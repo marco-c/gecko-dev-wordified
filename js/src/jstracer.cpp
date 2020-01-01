@@ -54863,11 +54863,6 @@ builtin
 args
 )
 ;
-if
-(
-!
-constructing
-)
 rval_ins
 =
 res_ins
@@ -55001,12 +54996,6 @@ argc
 res_ins
 )
 ;
-if
-(
-!
-constructing
-)
-{
 /
 *
 *
@@ -55046,7 +55035,6 @@ pendingTraceableNative
 =
 known
 ;
-}
 return
 JSRS_CONTINUE
 ;
@@ -57243,7 +57231,7 @@ mode
 JSOP_NEW
 )
 ?
-0
+JSTN_CONSTRUCTOR
 :
 JSTN_UNBOX_AFTER
 )
