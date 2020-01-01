@@ -2096,6 +2096,18 @@ mStatusTracker
 ;
 }
 }
+nsresult
+OnImageDataCompleteCore
+(
+nsIRequest
+*
+aRequest
+nsISupports
+*
+nsresult
+aStatus
+)
+;
 struct
 Anim
 {
@@ -3338,7 +3350,7 @@ mRequest
 ;
 }
 ;
-void
+nsresult
 FinishedSomeDecoding
 (
 eShutdownIntent
