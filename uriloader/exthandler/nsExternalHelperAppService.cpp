@@ -3026,7 +3026,7 @@ GetComplexValue
 NS_PREF_DOWNLOAD_DIR
 NS_GET_IID
 (
-nsIFile
+nsILocalFile
 )
 getter_AddRefs
 (
