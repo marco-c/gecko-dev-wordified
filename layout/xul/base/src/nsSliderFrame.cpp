@@ -535,6 +535,13 @@ h
 #
 include
 "
+nsEventListenerManager
+.
+h
+"
+#
+include
+"
 nsIDOMEventTarget
 .
 h
@@ -5705,9 +5712,13 @@ FirstChild
 ;
 if
 (
+!
 thumbFrame
 )
 {
+return
+;
+}
 thumbFrame
 -
 >
@@ -5716,7 +5727,7 @@ GetContent
 )
 -
 >
-AddEventListener
+AddSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -5729,7 +5740,6 @@ false
 false
 )
 ;
-}
 }
 void
 nsSliderFrame
@@ -5778,7 +5788,7 @@ GetContent
 )
 -
 >
-RemoveEventListener
+RemoveSystemEventListener
 (
 NS_LITERAL_STRING
 (
