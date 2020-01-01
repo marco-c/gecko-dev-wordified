@@ -1723,6 +1723,9 @@ aHintsHandledByAncestors
 RestyleTracker
 &
 aRestyleTracker
+TreeMatchContext
+&
+aTreeMatchContext
 nsTArray
 <
 nsIContent
@@ -1939,9 +1942,6 @@ Restyle
 (
 nsRestyleHint
 aRestyleHint
-TreeMatchContext
-&
-aTreeMatchContext
 )
 ;
 /
@@ -2209,6 +2209,10 @@ mHintsNotHandledForDescendants
 RestyleTracker
 &
 mRestyleTracker
+;
+TreeMatchContext
+&
+mTreeMatchContext
 ;
 const
 DesiredA11yNotifications

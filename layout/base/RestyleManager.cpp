@@ -13228,6 +13228,9 @@ aHintsHandledByAncestors
 RestyleTracker
 &
 aRestyleTracker
+TreeMatchContext
+&
+aTreeMatchContext
 nsTArray
 <
 nsIContent
@@ -13327,6 +13330,10 @@ nsChangeHint
 mRestyleTracker
 (
 aRestyleTracker
+)
+mTreeMatchContext
+(
+aTreeMatchContext
 )
 mDesiredA11yNotifications
 (
@@ -13461,6 +13468,12 @@ mRestyleTracker
 aParentRestyler
 .
 mRestyleTracker
+)
+mTreeMatchContext
+(
+aParentRestyler
+.
+mTreeMatchContext
 )
 mDesiredA11yNotifications
 (
@@ -13603,6 +13616,12 @@ mRestyleTracker
 aParentRestyler
 .
 mRestyleTracker
+)
+mTreeMatchContext
+(
+aParentRestyler
+.
+mTreeMatchContext
 )
 mDesiredA11yNotifications
 (
@@ -13878,9 +13897,6 @@ Restyle
 (
 nsRestyleHint
 aRestyleHint
-TreeMatchContext
-&
-aTreeMatchContext
 )
 {
 /
@@ -14601,7 +14617,6 @@ providerRestyler
 Restyle
 (
 aRestyleHint
-aTreeMatchContext
 )
 ;
 assumeDifferenceHint
@@ -15460,7 +15475,7 @@ ProbePseudoElementStyle
 element
 pseudoType
 parentContext
-aTreeMatchContext
+mTreeMatchContext
 )
 ;
 if
@@ -15606,7 +15621,7 @@ TreeMatchContext
 AutoFlexItemStyleFixupSkipper
 flexFixupSkipper
 (
-aTreeMatchContext
+mTreeMatchContext
 element
 -
 >
@@ -15624,7 +15639,7 @@ ResolveStyleFor
 (
 element
 parentContext
-aTreeMatchContext
+mTreeMatchContext
 )
 ;
 }
@@ -16252,7 +16267,7 @@ AutoAncestorPusher
 pushAncestor
 (
 undisplayed
-aTreeMatchContext
+mTreeMatchContext
 undisplayedParent
 ?
 undisplayedParent
@@ -16421,7 +16436,7 @@ AutoAncestorPusher
 insertionPointPusher
 (
 pushInsertionPoint
-aTreeMatchContext
+mTreeMatchContext
 parent
 &
 &
@@ -16513,7 +16528,7 @@ AsElement
 (
 )
 newContext
-aTreeMatchContext
+mTreeMatchContext
 )
 ;
 }
@@ -17562,7 +17577,7 @@ lists
 IsDone
 (
 )
-aTreeMatchContext
+mTreeMatchContext
 mContent
 &
 &
@@ -17774,7 +17789,7 @@ AutoAncestorPusher
 insertionPointPusher
 (
 pushInsertionPoint
-aTreeMatchContext
+mTreeMatchContext
 parent
 &
 &
@@ -18076,7 +18091,6 @@ oofRestyler
 Restyle
 (
 childRestyleHint
-aTreeMatchContext
 )
 ;
 }
@@ -18128,7 +18142,6 @@ phRestyler
 Restyle
 (
 childRestyleHint
-aTreeMatchContext
 )
 ;
 }
@@ -18160,7 +18173,6 @@ childRestyler
 Restyle
 (
 childRestyleHint
-aTreeMatchContext
 )
 ;
 }
@@ -18657,6 +18669,7 @@ frame
 aChangeList
 aMinChange
 aRestyleTracker
+treeMatchContext
 visibleKidsOfHiddenElement
 )
 ;
@@ -18669,7 +18682,6 @@ aRestyleDescendants
 eRestyle_Subtree
 :
 eRestyle_Self
-treeMatchContext
 )
 ;
 if
