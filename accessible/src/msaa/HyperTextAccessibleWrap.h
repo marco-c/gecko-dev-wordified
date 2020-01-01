@@ -125,13 +125,6 @@ h
 #
 include
 "
-CAccessibleText
-.
-h
-"
-#
-include
-"
 CAccessibleEditableText
 .
 h

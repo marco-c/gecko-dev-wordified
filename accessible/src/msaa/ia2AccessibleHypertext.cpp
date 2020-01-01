@@ -221,7 +221,7 @@ E_NOINTERFACE
 ;
 }
 return
-CAccessibleText
+ia2AccessibleText
 :
 :
 QueryInterface

@@ -125,7 +125,7 @@ h
 #
 include
 "
-CAccessibleText
+ia2AccessibleText
 .
 h
 "
@@ -140,7 +140,7 @@ class
 ia2AccessibleHypertext
 :
 public
-CAccessibleText
+ia2AccessibleText
 public
 IAccessibleHypertext
 {
@@ -163,7 +163,7 @@ void
 IAccessibleText
 FORWARD_IACCESSIBLETEXT
 (
-CAccessibleText
+ia2AccessibleText
 )
 /
 /
