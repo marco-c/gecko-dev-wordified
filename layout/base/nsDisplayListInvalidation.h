@@ -196,9 +196,7 @@ removed
 .
 *
 /
-const
-nsRect
-&
+nsRegion
 ComputeInvalidationRegion
 (
 )
