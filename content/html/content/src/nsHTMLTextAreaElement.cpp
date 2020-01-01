@@ -5833,12 +5833,12 @@ params
 ]
 =
 {
-strTextLength
+strMaxLength
 .
 get
 (
 )
-strMaxLength
+strTextLength
 .
 get
 (
@@ -5857,7 +5857,7 @@ nsContentUtils
 :
 eDOM_PROPERTIES
 "
-ElementSuffersFromBeingTooLong
+FormValidationTextTooLong
 "
 params
 2
@@ -5890,7 +5890,7 @@ nsContentUtils
 :
 eDOM_PROPERTIES
 "
-TextElementSuffersFromBeingMissing
+FormValidationValueMissing
 "
 message
 )

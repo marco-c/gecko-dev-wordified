@@ -20715,12 +20715,12 @@ params
 ]
 =
 {
-strTextLength
+strMaxLength
 .
 get
 (
 )
-strMaxLength
+strTextLength
 .
 get
 (
@@ -20739,7 +20739,7 @@ nsContentUtils
 :
 eDOM_PROPERTIES
 "
-ElementSuffersFromBeingTooLong
+FormValidationTextTooLong
 "
 params
 2
@@ -20776,7 +20776,7 @@ key
 Assign
 (
 "
-FileElementSuffersFromBeingMissing
+FormValidationFileMissing
 "
 )
 ;
@@ -20790,7 +20790,7 @@ key
 Assign
 (
 "
-CheckboxElementSuffersFromBeingMissing
+FormValidationCheckboxMissing
 "
 )
 ;
@@ -20804,7 +20804,7 @@ key
 Assign
 (
 "
-RadioElementSuffersFromBeingMissing
+FormValidationRadioMissing
 "
 )
 ;
@@ -20817,7 +20817,7 @@ key
 Assign
 (
 "
-TextElementSuffersFromBeingMissing
+FormValidationValueMissing
 "
 )
 ;
@@ -20871,7 +20871,7 @@ key
 AssignLiteral
 (
 "
-ElementSuffersFromInvalidEmail
+FormValidationInvalidEmail
 "
 )
 ;
@@ -20890,7 +20890,7 @@ key
 AssignLiteral
 (
 "
-ElementSuffersFromInvalidURL
+FormValidationInvalidURL
 "
 )
 ;
@@ -20968,7 +20968,7 @@ nsContentUtils
 :
 eDOM_PROPERTIES
 "
-ElementSuffersFromPatternMismatch
+FormValidationPatternMismatch
 "
 message
 )
@@ -21003,7 +21003,7 @@ nsContentUtils
 :
 eDOM_PROPERTIES
 "
-ElementSuffersFromPatternMismatchWithTitle
+FormValidationPatternMismatchWithTitle
 "
 params
 1
