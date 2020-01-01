@@ -1526,6 +1526,16 @@ nsGkAtoms
 :
 :
 multiple
+#
+ifdef
+MOZ_MEDIA
+&
+nsGkAtoms
+:
+:
+muted
+#
+endif
 &
 nsGkAtoms
 :
