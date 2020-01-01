@@ -1378,7 +1378,7 @@ nsNSSCertificateFakeTransport
 GetUsagesArray
 (
 PRBool
-ignoreOcsp
+localOnly
 PRUint32
 *
 _verified
@@ -1438,7 +1438,7 @@ nsNSSCertificateFakeTransport
 GetUsagesString
 (
 PRBool
-ignoreOcsp
+localOnly
 PRUint32
 *
 _verified
