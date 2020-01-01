@@ -19086,8 +19086,7 @@ pf
 (
 JSContext
 *
-JSObject
-*
+HandleObject
 MutableHandleValue
 )
 ;
@@ -19562,8 +19561,7 @@ pf
 (
 JSContext
 *
-JSObject
-*
+HandleObject
 )
 ;
 static

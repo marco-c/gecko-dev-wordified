@@ -375,8 +375,7 @@ props
 void
 init
 (
-JSObject
-*
+RawObject
 obj
 unsigned
 flags
@@ -437,8 +436,7 @@ trace
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 ;
@@ -449,8 +447,7 @@ finalize
 FreeOp
 *
 fop
-JSObject
-*
+RawObject
 obj
 )
 ;
@@ -812,8 +809,7 @@ CloseIterator
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 iterObj
 )
 ;
@@ -823,8 +819,10 @@ UnwindIteratorForException
 JSContext
 *
 cx
-JSObject
-*
+js
+:
+:
+HandleObject
 obj
 )
 ;
@@ -834,8 +832,7 @@ UnwindIteratorForUncatchableException
 JSContext
 *
 cx
-JSObject
-*
+RawObject
 obj
 )
 ;
@@ -978,8 +975,10 @@ js_IteratorNext
 JSContext
 *
 cx
-JSObject
-*
+js
+:
+:
+HandleObject
 iterobj
 js
 :
