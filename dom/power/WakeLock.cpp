@@ -535,7 +535,7 @@ AddSystemEventListener
 NS_LITERAL_STRING
 (
 "
-mozvisibilitychange
+visibilitychange
 "
 )
 this
@@ -682,7 +682,7 @@ RemoveSystemEventListener
 NS_LITERAL_STRING
 (
 "
-mozvisibilitychange
+visibilitychange
 "
 )
 this
@@ -840,7 +840,7 @@ type
 EqualsLiteral
 (
 "
-mozvisibilitychange
+visibilitychange
 "
 )
 )

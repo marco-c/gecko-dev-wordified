@@ -1906,7 +1906,7 @@ forward
 /
 Listen
 to
-mozvisibilitychange
+visibilitychange
 on
 the
 iframe
@@ -1931,7 +1931,7 @@ _window
 addEventListener
 (
 '
-mozvisibilitychange
+visibilitychange
 '
 this
 .

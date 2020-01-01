@@ -1170,7 +1170,7 @@ AddSystemEventListener
 NS_LITERAL_STRING
 (
 "
-mozvisibilitychange
+visibilitychange
 "
 )
 this
