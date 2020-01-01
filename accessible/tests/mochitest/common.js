@@ -373,6 +373,13 @@ nsIAccessibleRole
 ROLE_DOCUMENT
 ;
 const
+ROLE_FLAT_EQUATION
+=
+nsIAccessibleRole
+.
+ROLE_FLAT_EQUATION
+;
+const
 ROLE_LABEL
 =
 nsIAccessibleRole
