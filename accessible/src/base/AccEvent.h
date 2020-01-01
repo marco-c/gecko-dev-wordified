@@ -351,16 +351,6 @@ events
 eCoalesceSelectionChange
 /
 /
-eCoalesceStateChange
-:
-coalesce
-state
-change
-events
-.
-eCoalesceStateChange
-/
-/
 eRemoveDupes
 :
 For
@@ -650,7 +640,7 @@ nsIAccessibleEvent
 EVENT_STATE_CHANGE
 aAccessible
 aIsFromUserInput
-eCoalesceStateChange
+eAllowDupes
 )
 mState
 (
@@ -681,7 +671,7 @@ nsIAccessibleEvent
 EVENT_STATE_CHANGE
 aAccessible
 eAutoDetect
-eCoalesceStateChange
+eAllowDupes
 )
 mState
 (
@@ -778,10 +768,6 @@ mState
 ;
 bool
 mIsEnabled
-;
-friend
-class
-NotificationController
 ;
 }
 ;
