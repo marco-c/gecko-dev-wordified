@@ -4153,9 +4153,8 @@ return
 true
 ;
 }
-static
 JSBool
-num_toString
+js_num_toString
 (
 JSContext
 *
@@ -5865,7 +5864,7 @@ endif
 JS_FN
 (
 js_toString_str
-num_toString
+js_num_toString
 1
 0
 )
