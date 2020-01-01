@@ -1635,11 +1635,8 @@ Fragment
 *
 f
 =
-NJ_NEW
-(
-gc
+new
 Fragment
-)
 (
 ip
 )

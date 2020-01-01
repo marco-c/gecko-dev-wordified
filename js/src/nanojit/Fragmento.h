@@ -936,12 +936,6 @@ differently
 /
 class
 Fragment
-:
-public
-avmplus
-:
-:
-GCFinalizedObject
 {
 public
 :
