@@ -7913,9 +7913,8 @@ aName
 =
 NS_strdup
 (
-JS_GET_CLASS
+JS_GetClass
 (
-aCx
 JSVAL_TO_OBJECT
 (
 aObject

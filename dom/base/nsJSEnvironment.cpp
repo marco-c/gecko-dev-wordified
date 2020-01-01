@@ -12946,9 +12946,8 @@ JSClass
 *
 c
 =
-JS_GET_CLASS
+JS_GetClass
 (
-mContext
 global
 )
 ;

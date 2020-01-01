@@ -18972,9 +18972,8 @@ proto
 )
 &
 &
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 :
 :
 JS_GetPrototype
@@ -21125,9 +21124,8 @@ obj
 {
 if
 (
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 proto
 )
 =
@@ -21347,9 +21345,8 @@ o
 {
 if
 (
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 proto
 )
 =
@@ -22114,9 +22111,8 @@ char
 *
 name
 =
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 JSVAL_TO_OBJECT
 (
 *
@@ -24674,9 +24670,8 @@ JSClass
 *
 dom_class
 =
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 dom_obj
 )
 ;
@@ -26977,9 +26972,8 @@ proto
 xpc_proto_proto
 |
 |
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 xpc_proto_proto
 )
 =
@@ -41684,7 +41678,6 @@ vp
 :
 JS_GetClass
 (
-cx
 JSVAL_TO_OBJECT
 (
 JS_CALLEE
@@ -41791,9 +41784,8 @@ while
 obj
 &
 &
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 !
@@ -45406,9 +45398,8 @@ if
 pi_proto
 &
 &
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 pi_proto
 )
 !

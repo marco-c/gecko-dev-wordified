@@ -3480,9 +3480,8 @@ obj
 {
 JS_ASSERT
 (
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 =
@@ -4269,12 +4268,8 @@ obj
 {
 JS_ASSERT
 (
-JS_GET_CLASS
+JS_GetClass
 (
-trc
--
->
-context
 obj
 )
 =
@@ -4374,9 +4369,8 @@ obj
 {
 JS_ASSERT
 (
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 =
