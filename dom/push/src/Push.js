@@ -687,7 +687,7 @@ register
 "
 )
 ;
-var
+let
 req
 =
 this
@@ -812,7 +812,7 @@ aPushEndpoint
 "
 )
 ;
-var
+let
 req
 =
 this
@@ -878,7 +878,7 @@ registrations
 "
 )
 ;
-var
+let
 req
 =
 this
