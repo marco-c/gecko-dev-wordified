@@ -577,6 +577,10 @@ mName
 (
 aName
 )
+mHasStyles
+(
+PR_FALSE
+)
 {
 }
 nsTArray
@@ -590,6 +594,9 @@ mVariations
 ;
 nsString
 mName
+;
+PRBool
+mHasStyles
 ;
 }
 ;
