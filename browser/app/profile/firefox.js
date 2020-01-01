@@ -12675,7 +12675,7 @@ false
 /
 Enable
 the
-Workspace
+Scratchpad
 tool
 .
 pref
@@ -12683,7 +12683,7 @@ pref
 "
 devtools
 .
-workspace
+scratchpad
 .
 enabled
 "

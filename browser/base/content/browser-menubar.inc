@@ -4366,7 +4366,7 @@ menuitem
 id
 =
 "
-menu_workspace
+menu_scratchpad
 "
 hidden
 =
@@ -4377,7 +4377,7 @@ label
 =
 "
 &
-workspace
+scratchpad
 .
 label
 ;
@@ -4386,7 +4386,7 @@ accesskey
 =
 "
 &
-workspace
+scratchpad
 .
 accesskey
 ;
@@ -4394,14 +4394,14 @@ accesskey
 key
 =
 "
-key_workspace
+key_scratchpad
 "
 command
 =
 "
 Tools
 :
-Workspace
+Scratchpad
 "
 /
 >

@@ -50,13 +50,13 @@ zero
 Reference
 to
 the
-Workspace
+Scratchpad
 chrome
 window
 object
 .
 let
-gWorkspaceWindow
+gScratchpadWindow
 ;
 function
 test
@@ -105,15 +105,15 @@ callee
 true
 )
 ;
-gWorkspaceWindow
+gScratchpadWindow
 =
-Workspace
+Scratchpad
 .
-openWorkspace
+openScratchpad
 (
 )
 ;
-gWorkspaceWindow
+gScratchpadWindow
 .
 addEventListener
 (
@@ -150,7 +150,7 @@ print
 (
 )
 in
-Workspace
+Scratchpad
 "
 ;
 }
@@ -159,7 +159,7 @@ runTests
 (
 )
 {
-gWorkspaceWindow
+gScratchpadWindow
 .
 removeEventListener
 (
@@ -173,11 +173,11 @@ false
 )
 ;
 let
-ws
+sp
 =
-gWorkspaceWindow
+gScratchpadWindow
 .
-Workspace
+Scratchpad
 ;
 content
 .
@@ -189,7 +189,7 @@ foobarBug636725
 ;
 ok
 (
-ws
+sp
 .
 textbox
 "
@@ -198,7 +198,7 @@ exists
 "
 )
 ;
-ws
+sp
 .
 textbox
 .
@@ -215,7 +215,7 @@ foobarBug636725
 let
 exec
 =
-ws
+sp
 .
 execute
 (
@@ -227,7 +227,7 @@ exec
 [
 0
 ]
-ws
+sp
 .
 textbox
 .
@@ -269,7 +269,7 @@ correct
 ;
 is
 (
-ws
+sp
 .
 textbox
 .
@@ -313,7 +313,7 @@ foobarBug636725
 "
 )
 ;
-ws
+sp
 .
 print
 (
@@ -340,7 +340,7 @@ foobarBug636725
 ;
 is
 (
-ws
+sp
 .
 textbox
 .
@@ -375,7 +375,7 @@ textbox
 ;
 is
 (
-ws
+sp
 .
 selectedText
 "
@@ -397,7 +397,7 @@ correct
 ;
 is
 (
-ws
+sp
 .
 textbox
 .
@@ -412,7 +412,7 @@ correct
 ;
 is
 (
-ws
+sp
 .
 textbox
 .
@@ -437,7 +437,7 @@ print
 (
 )
 .
-ws
+sp
 .
 textbox
 .
@@ -467,7 +467,7 @@ b
 ;
 "
 ;
-ws
+sp
 .
 selectRange
 (
@@ -477,7 +477,7 @@ selectRange
 ;
 is
 (
-ws
+sp
 .
 textbox
 .
@@ -492,7 +492,7 @@ is
 ;
 is
 (
-ws
+sp
 .
 textbox
 .
@@ -505,7 +505,7 @@ is
 "
 )
 ;
-ws
+sp
 .
 selectRange
 (
@@ -515,7 +515,7 @@ selectRange
 ;
 is
 (
-ws
+sp
 .
 textbox
 .
@@ -530,7 +530,7 @@ is
 ;
 is
 (
-ws
+sp
 .
 textbox
 .
@@ -545,7 +545,7 @@ is
 ;
 exec
 =
-ws
+sp
 .
 execute
 (
@@ -602,7 +602,7 @@ correct
 ;
 is
 (
-ws
+sp
 .
 textbox
 .
@@ -665,7 +665,7 @@ range
 "
 )
 ;
-ws
+sp
 .
 textbox
 .
@@ -695,7 +695,7 @@ b
 ;
 "
 ;
-ws
+sp
 .
 selectRange
 (
@@ -703,7 +703,7 @@ selectRange
 22
 )
 ;
-ws
+sp
 .
 print
 (
@@ -733,7 +733,7 @@ range
 ;
 is
 (
-ws
+sp
 .
 textbox
 .
@@ -790,7 +790,7 @@ textbox
 ;
 is
 (
-ws
+sp
 .
 selectedText
 "
@@ -812,7 +812,7 @@ correct
 ;
 is
 (
-ws
+sp
 .
 textbox
 .
@@ -827,7 +827,7 @@ correct
 ;
 is
 (
-ws
+sp
 .
 textbox
 .
@@ -840,7 +840,7 @@ correct
 "
 )
 ;
-ws
+sp
 .
 deselect
 (
@@ -849,7 +849,7 @@ deselect
 ok
 (
 !
-ws
+sp
 .
 selectedText
 "
@@ -861,12 +861,12 @@ empty
 ;
 is
 (
-ws
+sp
 .
 textbox
 .
 selectionStart
-ws
+sp
 .
 textbox
 .
@@ -879,13 +879,13 @@ works
 "
 )
 ;
-gWorkspaceWindow
+gScratchpadWindow
 .
 close
 (
 )
 ;
-gWorkspaceWindow
+gScratchpadWindow
 =
 null
 ;
