@@ -700,6 +700,11 @@ OsrScopeChain
 \
 _
 (
+RegExp
+)
+\
+_
+(
 ImplicitThis
 )
 \

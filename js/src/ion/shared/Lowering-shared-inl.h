@@ -1287,6 +1287,16 @@ MDefinition
 mir
 )
 {
+JS_ASSERT
+(
+lir
+-
+>
+isCall
+(
+)
+)
+;
 uint32
 vreg
 =

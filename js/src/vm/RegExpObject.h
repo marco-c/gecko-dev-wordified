@@ -2884,7 +2884,6 @@ JS_FRIEND_API
 JSObject
 *
 )
-JS_FASTCALL
 js_CloneRegExpObject
 (
 JSContext
