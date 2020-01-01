@@ -1110,6 +1110,7 @@ suppressHandlers
 }
 class
 nsAnonDivObserver
+MOZ_FINAL
 :
 public
 nsStubMutationObserver
@@ -1144,6 +1145,7 @@ mTextEditorState
 ;
 class
 nsTextInputSelectionImpl
+MOZ_FINAL
 :
 public
 nsSupportsWeakReference

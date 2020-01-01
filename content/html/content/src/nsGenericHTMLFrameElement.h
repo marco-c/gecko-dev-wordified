@@ -408,6 +408,7 @@ appropriate
 /
 class
 TitleChangedListener
+MOZ_FINAL
 :
 public
 nsIDOMEventListener

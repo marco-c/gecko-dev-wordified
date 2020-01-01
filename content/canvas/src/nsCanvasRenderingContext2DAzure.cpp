@@ -1402,6 +1402,13 @@ mStops
 Type
 mType
 ;
+virtual
+~
+nsCanvasGradientAzure
+(
+)
+{
+}
 }
 ;
 class
@@ -1600,6 +1607,7 @@ NS_CANVASPATTERNAZURE_PRIVATE_IID
 }
 class
 nsCanvasPatternAzure
+MOZ_FINAL
 :
 public
 nsIDOMCanvasPattern

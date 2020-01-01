@@ -1053,6 +1053,7 @@ mReferencedElement
 ;
 class
 EventListener
+MOZ_FINAL
 :
 public
 nsIDOMEventListener

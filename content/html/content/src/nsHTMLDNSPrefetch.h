@@ -848,6 +848,7 @@ public
 :
 class
 nsListener
+MOZ_FINAL
 :
 public
 nsIDNSListener
@@ -887,6 +888,7 @@ nsListener
 ;
 class
 nsDeferrals
+MOZ_FINAL
 :
 public
 nsIWebProgressListener
