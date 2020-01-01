@@ -684,6 +684,14 @@ public
 static
 final
 int
+ACTIVITY_START
+=
+17
+;
+public
+static
+final
+int
 IME_COMPOSITION_END
 =
 0
