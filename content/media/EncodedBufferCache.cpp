@@ -150,10 +150,10 @@ uint8_t
 aBuf
 )
 {
-ReentrantMonitorAutoEnter
-mon
+MutexAutoLock
+lock
 (
-mReentrantMonitor
+mMutex
 )
 ;
 mDataSize
@@ -329,10 +329,10 @@ nsAString
 aContentType
 )
 {
-ReentrantMonitorAutoEnter
-mon
+MutexAutoLock
+lock
 (
-mReentrantMonitor
+mMutex
 )
 ;
 nsCOMPtr

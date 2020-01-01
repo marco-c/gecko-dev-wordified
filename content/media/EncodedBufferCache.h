@@ -130,7 +130,7 @@ include
 "
 mozilla
 /
-ReentrantMonitor
+Mutex
 .
 h
 "
@@ -219,14 +219,14 @@ mFD
 (
 nullptr
 )
-mReentrantMonitor
+mMutex
 (
 "
 EncodedBufferCache
 .
 Data
 .
-Monitor
+Mutex
 "
 )
 mDataSize
@@ -381,8 +381,9 @@ the
 same
 time
 .
-ReentrantMonitor
-mReentrantMonitor
+Mutex
+mMutex
+;
 ;
 /
 /
