@@ -7915,6 +7915,9 @@ mDocument
 {
 MOZ_ASSERT
 (
+aTerminated
+|
+|
 mDocument
 -
 >
