@@ -670,7 +670,7 @@ count
 for
 (
 unsigned
-int
+char
 i
 =
 0
@@ -772,7 +772,7 @@ count
 for
 (
 unsigned
-int
+char
 i
 =
 0

@@ -301,7 +301,15 @@ DAMAGE
 #
 include
 "
-precompile
+client
+/
+windows
+/
+tests
+/
+crash_generation_app
+/
+abstract_class
 .
 h
 "

@@ -1159,9 +1159,6 @@ release
 (
 )
 {
-bool
-last
-=
 link_
 .
 depart

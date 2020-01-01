@@ -335,6 +335,11 @@ DwarfLineToModule
 .
 #
 include
+<
+vector
+>
+#
+include
 "
 breakpad_googletest_includes
 .
@@ -349,6 +354,12 @@ dwarf_line_to_module
 .
 h
 "
+using
+std
+:
+:
+vector
+;
 using
 google_breakpad
 :
@@ -369,7 +380,7 @@ Module
 ;
 TEST
 (
-Simple
+SimpleModule
 One
 )
 {
@@ -540,7 +551,7 @@ number
 }
 TEST
 (
-Simple
+SimpleModule
 Many
 )
 {
@@ -1742,7 +1753,7 @@ directory
 .
 TEST
 (
-Errors
+ModuleErrors
 DirectoryZero
 )
 {
@@ -1876,7 +1887,7 @@ however
 .
 TEST
 (
-Errors
+ModuleErrors
 BadFileNumber
 )
 {
@@ -1997,7 +2008,7 @@ unit
 .
 TEST
 (
-Errors
+ModuleErrors
 BadDirectoryNumber
 )
 {
@@ -2140,7 +2151,7 @@ lines
 .
 TEST
 (
-Errors
+ModuleErrors
 EmptyLine
 )
 {
@@ -2236,7 +2247,7 @@ space
 .
 TEST
 (
-Errors
+ModuleErrors
 BigLine
 )
 {

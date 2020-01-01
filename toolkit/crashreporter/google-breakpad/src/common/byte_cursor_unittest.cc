@@ -355,6 +355,13 @@ h
 #
 include
 "
+breakpad_googletest_includes
+.
+h
+"
+#
+include
+"
 common
 /
 byte_cursor
@@ -364,7 +371,9 @@ h
 #
 include
 "
-breakpad_googletest_includes
+common
+/
+using_std_string
 .
 h
 "
@@ -379,12 +388,6 @@ google_breakpad
 :
 :
 ByteCursor
-;
-using
-std
-:
-:
-string
 ;
 TEST
 (

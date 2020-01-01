@@ -956,7 +956,7 @@ aligned
 /
 address
 .
-size_t
+uint64
 skew
 =
 section_base_
@@ -982,7 +982,7 @@ address
 to
 buffer
 .
-off_t
+uint64
 offset
 =
 skew
@@ -1002,7 +1002,7 @@ the
 next
 boundary
 .
-size_t
+uint64
 aligned
 =
 (
