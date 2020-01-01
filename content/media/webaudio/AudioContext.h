@@ -340,6 +340,9 @@ CreateDelay
 (
 float
 aMaxDelayTime
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
