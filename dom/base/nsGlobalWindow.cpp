@@ -5643,6 +5643,10 @@ mWindowID
 )
 ;
 }
+-
+-
+gRefCnt
+;
 #
 ifdef
 DEBUG
