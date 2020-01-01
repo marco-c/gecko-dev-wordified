@@ -969,7 +969,6 @@ gDebugger
 ;
 ok
 (
-!
 testVar
 .
 expanded
@@ -979,11 +978,10 @@ the
 testVar
 title
 div
-shouldn
-'
-t
+should
 expand
 it
+again
 .
 "
 )
@@ -1314,7 +1312,6 @@ gDebugger
 ;
 ok
 (
-!
 testVar
 .
 get
@@ -1333,11 +1330,10 @@ child
 property
 title
 div
-shouldn
-'
-t
+should
 expand
 it
+again
 .
 "
 )

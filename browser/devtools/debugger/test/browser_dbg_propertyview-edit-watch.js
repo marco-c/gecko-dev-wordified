@@ -616,7 +616,7 @@ this
 "
 )
 .
-_isShown
+_isContentVisible
 true
 "
 Should
@@ -780,7 +780,7 @@ ermahgerd
 "
 )
 .
-_isShown
+_isContentVisible
 true
 "
 Should
@@ -944,7 +944,7 @@ aArg
 "
 )
 .
-_isShown
+_isContentVisible
 true
 "
 Should
@@ -1073,7 +1073,7 @@ title
 "
 )
 .
-_isShown
+_isContentVisible
 true
 "
 Should
@@ -1257,7 +1257,7 @@ title
 "
 )
 .
-_isShown
+_isContentVisible
 true
 "
 Should
