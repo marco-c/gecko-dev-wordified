@@ -606,6 +606,17 @@ nsLookAndFeelTypeInt
 "
 ui
 .
+scrollbarsCanOverlapContent
+"
+eMetric_ScrollbarsCanOverlapContent
+PR_FALSE
+nsLookAndFeelTypeInt
+0
+}
+{
+"
+ui
+.
 menusCanOverlapOSBar
 "
 eMetric_MenusCanOverlapOSBar

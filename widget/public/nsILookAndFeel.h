@@ -1069,6 +1069,15 @@ menu
 task
 bar
 ?
+eMetric_ScrollbarsCanOverlapContent
+/
+/
+can
+scrollbars
+float
+above
+content
+?
 eMetric_SkipNavigatingDisabledMenuItem
 /
 /
