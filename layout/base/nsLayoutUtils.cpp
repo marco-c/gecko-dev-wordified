@@ -5041,6 +5041,7 @@ nsLayoutUtils
 :
 GetScrollableFrameFor
 (
+const
 nsIFrame
 *
 aScrolledFrame

@@ -2175,6 +2175,7 @@ nsIScrollableFrame
 *
 GetScrollableFrameFor
 (
+const
 nsIFrame
 *
 aScrolledFrame
