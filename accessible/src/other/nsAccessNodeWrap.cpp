@@ -569,11 +569,4 @@ ShutdownAccessibility
 (
 )
 {
-nsAccessNode
-:
-:
-ShutdownXPAccessibility
-(
-)
-;
 }

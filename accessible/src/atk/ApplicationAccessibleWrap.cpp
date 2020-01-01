@@ -2353,10 +2353,7 @@ nullptr
 ;
 }
 return
-nsAccessNode
-:
-:
-GetApplicationAccessible
+ApplicationAcc
 (
 )
 -
