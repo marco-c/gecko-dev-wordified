@@ -3968,6 +3968,13 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 }
+result
+-
+>
+mIsEmpty
+=
+mIsEmpty
+;
 NS_ADDREF
 (
 *
