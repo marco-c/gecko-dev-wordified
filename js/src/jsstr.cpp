@@ -2619,7 +2619,7 @@ newlength
 length
 )
 {
-JS_ReportOutOfMemory
+js_ReportAllocationOverflow
 (
 cx
 )
@@ -2646,7 +2646,7 @@ jschar
 )
 )
 {
-JS_ReportOutOfMemory
+js_ReportAllocationOverflow
 (
 cx
 )
@@ -7713,7 +7713,7 @@ fp
 fp
 -
 >
-pc
+regs
 ;
 fp
 =
@@ -7761,6 +7761,9 @@ JS_ASSERT
 fp
 -
 >
+regs
+-
+>
 pc
 =
 =
@@ -7769,6 +7772,9 @@ JSOP_CALL
 |
 *
 fp
+-
+>
+regs
 -
 >
 pc
@@ -7785,6 +7791,9 @@ js_CodeSpec
 fp
 -
 >
+regs
+-
+>
 pc
 ]
 .
@@ -7797,6 +7806,9 @@ length
 switch
 (
 fp
+-
+>
+regs
 -
 >
 pc
@@ -13088,7 +13100,7 @@ jschar
 )
 )
 {
-JS_ReportOutOfMemory
+js_ReportAllocationOverflow
 (
 cx
 )
@@ -15276,7 +15288,7 @@ length
 JSSTRING_LENGTH_MASK
 )
 {
-JS_ReportOutOfMemory
+js_ReportAllocationOverflow
 (
 cx
 )

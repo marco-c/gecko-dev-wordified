@@ -2090,7 +2090,7 @@ if
 overflow
 )
 {
-JS_ReportOutOfMemory
+js_ReportAllocationOverflow
 (
 cx
 )
@@ -2358,7 +2358,7 @@ if
 fp
 -
 >
-pc
+regs
 )
 elem
 -
@@ -2373,6 +2373,9 @@ fp
 >
 script
 fp
+-
+>
+regs
 -
 >
 pc
@@ -5092,7 +5095,7 @@ fp
 fp
 -
 >
-pc
+regs
 )
 ?
 js_PCToLineNumber
@@ -5103,6 +5106,9 @@ fp
 >
 script
 fp
+-
+>
+regs
 -
 >
 pc

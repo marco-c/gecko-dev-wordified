@@ -2424,7 +2424,7 @@ jsval
 )
 )
 {
-JS_ReportOutOfMemory
+js_ReportAllocationOverflow
 (
 cx
 )
@@ -10990,7 +10990,7 @@ jsval
 )
 )
 {
-JS_ReportOutOfMemory
+js_ReportAllocationOverflow
 (
 cx
 )
@@ -11758,7 +11758,7 @@ jsval
 )
 )
 {
-JS_ReportOutOfMemory
+js_ReportAllocationOverflow
 (
 cx
 )
