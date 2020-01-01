@@ -477,7 +477,6 @@ jsdbgapi
 .
 h
 "
-JS_BEGIN_EXTERN_C
 /
 *
 *
@@ -3122,7 +3121,6 @@ JSBool
 hasMagic
 )
 ;
-JS_END_EXTERN_C
 #
 endif
 /
