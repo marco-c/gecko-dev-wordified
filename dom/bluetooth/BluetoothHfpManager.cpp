@@ -251,7 +251,7 @@ audio
 .
 volume
 .
-master
+bt_sco
 "
 #
 define

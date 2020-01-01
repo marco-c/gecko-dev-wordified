@@ -610,6 +610,14 @@ aRunnable
 )
 ;
 virtual
+bool
+IsConnected
+(
+uint16_t
+aProfileId
+)
+;
+virtual
 void
 Disconnect
 (
