@@ -669,8 +669,7 @@ aVal
 private
 :
 typedef
-unsigned
-long
+PRUword
 PtrBits
 ;
 /
@@ -1059,8 +1058,7 @@ PR_FALSE
 private
 :
 typedef
-unsigned
-long
+PRUword
 PtrBits
 ;
 /
