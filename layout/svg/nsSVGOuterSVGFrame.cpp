@@ -2159,7 +2159,7 @@ viewElement
 >
 mViewBox
 .
-IsExplicitlySet
+HasRect
 (
 )
 )
@@ -2185,7 +2185,7 @@ content
 >
 mViewBox
 .
-IsExplicitlySet
+HasRect
 (
 )
 )
@@ -5297,7 +5297,7 @@ if
 content
 -
 >
-HasViewBox
+HasViewBoxRect
 (
 )
 )

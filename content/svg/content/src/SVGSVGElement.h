@@ -901,7 +901,7 @@ positive
 *
 /
 bool
-HasViewBox
+HasViewBoxRect
 (
 )
 const
@@ -961,7 +961,7 @@ call
 this
 method
 if
-HasViewBox
+HasViewBoxRect
 (
 )
 returns
@@ -982,7 +982,7 @@ HasViewBoxOrSyntheticViewBox
 const
 {
 return
-HasViewBox
+HasViewBoxRect
 (
 )
 |

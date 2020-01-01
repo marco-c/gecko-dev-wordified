@@ -2065,7 +2065,7 @@ if
 (
 mViewBox
 .
-IsExplicitlySet
+HasRect
 (
 )
 )
