@@ -6612,7 +6612,7 @@ or
 *
 a
 naming
-callaback
+callback
 .
 *
 *
@@ -6827,7 +6827,7 @@ to
 a
 traceable
 thing
-storted
+stored
 in
 a
 *
