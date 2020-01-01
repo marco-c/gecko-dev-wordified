@@ -3459,6 +3459,9 @@ defined
 (
 XP_MACOSX
 )
+#
+ifndef
+__LP64__
 short
 appRefNum
 =
@@ -3471,6 +3474,8 @@ CurResFile
 short
 pluginRefNum
 ;
+#
+endif
 nsCOMPtr
 <
 nsILocalFile
@@ -3496,6 +3501,9 @@ pluginFile
 pluginPath
 )
 ;
+#
+ifndef
+__LP64__
 pluginRefNum
 =
 pluginFile
@@ -3504,6 +3512,8 @@ OpenPluginResource
 (
 )
 ;
+#
+endif
 nsNPAPIPlugin
 *
 plugin
@@ -3516,6 +3526,9 @@ aLibrary
 nsnull
 )
 ;
+#
+ifndef
+__LP64__
 :
 :
 UseResFile
@@ -3523,6 +3536,8 @@ UseResFile
 appRefNum
 )
 ;
+#
+endif
 if
 (
 !
@@ -3568,6 +3583,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
+#
+ifndef
+__LP64__
 plugin
 -
 >
@@ -3576,6 +3594,8 @@ SetPluginRefNum
 pluginRefNum
 )
 ;
+#
+endif
 #
 endif
 #
@@ -11947,14 +11967,6 @@ if
 inst
 )
 {
-int
-dModelValue
-=
-(
-int
-)
-result
-;
 inst
 -
 >
@@ -11963,7 +11975,10 @@ SetDrawingModel
 (
 NPDrawingModel
 )
-dModelValue
+NS_PTR_TO_INT32
+(
+result
+)
 )
 ;
 return

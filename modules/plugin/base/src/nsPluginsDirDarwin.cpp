@@ -2259,6 +2259,9 @@ return
 ret
 ;
 }
+#
+ifndef
+__LP64__
 static
 char
 *
@@ -2517,6 +2520,8 @@ mRefNum
 ;
 }
 ;
+#
+endif
 /
 *
 *
@@ -2587,6 +2592,9 @@ get
 plugin
 info
 .
+#
+ifndef
+__LP64__
 /
 /
 Try
@@ -2611,6 +2619,8 @@ ResourceOpened
 (
 )
 ;
+#
+endif
 /
 /
 Try
@@ -2786,6 +2796,9 @@ name
 )
 ;
 }
+#
+ifndef
+__LP64__
 if
 (
 !
@@ -2821,6 +2834,8 @@ GetPluginString
 )
 ;
 }
+#
+endif
 /
 /
 Get
@@ -2881,6 +2896,9 @@ description
 )
 ;
 }
+#
+ifndef
+__LP64__
 if
 (
 !
@@ -2916,6 +2934,8 @@ GetPluginString
 )
 ;
 }
+#
+endif
 /
 /
 Get
@@ -3304,6 +3324,9 @@ infoStrings
 ;
 }
 }
+#
+ifndef
+__LP64__
 /
 /
 Try
@@ -3452,6 +3475,8 @@ infoStrings
 ;
 }
 }
+#
+endif
 /
 /
 Fill

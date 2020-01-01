@@ -525,7 +525,7 @@ gestaltSystemVersion
 .
 )
 static
-long
+PRInt32
 OSXVersion
 (
 )
