@@ -1840,6 +1840,7 @@ nsWidgetAtoms
 :
 :
 curpos
+0
 )
 ;
 aState
@@ -1854,6 +1855,7 @@ nsWidgetAtoms
 :
 :
 maxpos
+100
 )
 ;
 }
@@ -1919,6 +1921,7 @@ nsWidgetAtoms
 :
 :
 curpos
+0
 )
 ;
 PRInt32
@@ -1931,6 +1934,7 @@ nsWidgetAtoms
 :
 :
 maxpos
+100
 )
 ;
 if

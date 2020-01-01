@@ -866,6 +866,7 @@ nsWidgetAtoms
 :
 :
 value
+0
 )
 ;
 }
@@ -892,13 +893,6 @@ readonly
 )
 ;
 }
-/
-/
-These
-are
-used
-by
-nsNativeThemeGtk
 nsIPresShell
 *
 GetPresShell
@@ -917,6 +911,8 @@ aFrame
 nsIAtom
 *
 aAtom
+PRInt32
+defaultValue
 )
 ;
 PRBool
