@@ -872,7 +872,7 @@ aPopup
 *
 This
 method
-positioned
+positions
 an
 arrowbox
 on
@@ -896,7 +896,7 @@ element
 *
 This
 method
-called
+calls
 element
 .
 getBoundingClientRect
@@ -911,7 +911,7 @@ be
 expensive
 do
 not
-called
+call
 it
 too
 many
