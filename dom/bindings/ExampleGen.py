@@ -281,8 +281,7 @@ args
 #
 Load
 the
-parsing
-results
+configuration
     
 f
 =
@@ -298,7 +297,7 @@ rb
 '
 )
     
-parserData
+config
 =
 cPickle
 .
@@ -311,21 +310,6 @@ f
 .
 close
 (
-)
-    
-#
-Create
-the
-configuration
-data
-.
-    
-config
-=
-Configuration
-(
-configFile
-parserData
 )
     
 #
