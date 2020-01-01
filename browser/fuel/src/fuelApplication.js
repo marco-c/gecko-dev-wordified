@@ -1661,7 +1661,7 @@ originalTarget
 instanceof
 Ci
 .
-nsIDOMHTMLDocument
+nsIDOMDocument
 )
 )
 return
