@@ -2776,6 +2776,8 @@ size_t
 )
 charsHeapSize
 (
+JSUsableSizeFun
+usf
 )
 ;
 /
