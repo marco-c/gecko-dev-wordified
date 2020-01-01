@@ -3892,6 +3892,9 @@ false
 }
 #
 endif
+bool
+gcValidate
+;
 JSGCCallback
 gcCallback
 ;
