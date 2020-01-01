@@ -299,7 +299,7 @@ IonBailoutIterator
 IonBailoutIterator
 (
 const
-IonActivationIterator
+JitActivationIterator
 &
 activations
 BailoutStack
@@ -386,7 +386,7 @@ IonBailoutIterator
 IonBailoutIterator
 (
 const
-IonActivationIterator
+JitActivationIterator
 &
 activations
 InvalidationBailoutStack

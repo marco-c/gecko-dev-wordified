@@ -255,7 +255,7 @@ asStackFrame
 )
 -
 >
-runningInIon
+runningInJit
 (
 )
 )
@@ -973,7 +973,7 @@ if
 !
 iter_
 .
-isIon
+isJit
 (
 )
 )
@@ -1154,7 +1154,7 @@ if
 !
 iter_
 .
-isIon
+isJit
 (
 )
 )

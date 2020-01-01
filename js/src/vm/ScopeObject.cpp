@@ -7127,11 +7127,6 @@ frame_
 evalPrevScopeChain
 (
 cx
--
->
-runtime
-(
-)
 )
 )
 {
@@ -7240,11 +7235,6 @@ frame_
 evalPrevScopeChain
 (
 cx
--
->
-runtime
-(
-)
 )
 )
 ;
@@ -13382,11 +13372,6 @@ AllFramesIter
 i
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 !
@@ -13425,7 +13410,7 @@ if
 (
 i
 .
-isIonOptimizedJS
+isIon
 (
 )
 )

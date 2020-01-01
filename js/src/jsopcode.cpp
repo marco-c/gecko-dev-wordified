@@ -8966,16 +8966,16 @@ back
 if
 iter
 .
-isIonOptimizedJS
+isIon
 (
 )
 since
 the
 stack
 snapshot
-*
 may
 be
+*
 for
 the
 previous
@@ -8992,7 +8992,7 @@ if
 (
 iter
 .
-isIonOptimizedJS
+isIon
 (
 )
 )

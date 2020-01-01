@@ -18764,11 +18764,6 @@ AllFramesIter
 i
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 !
@@ -18863,8 +18858,10 @@ a
 StackFrame
 when
 it
+'
+s
 *
-beginsIonActivation
+runningInJit
 (
 see
 ScriptFrameIter
@@ -18880,7 +18877,7 @@ if
 (
 i
 .
-isIonOptimizedJS
+isIon
 (
 )
 )

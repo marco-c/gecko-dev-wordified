@@ -34441,7 +34441,7 @@ done
 !
 i
 .
-isIon
+isJit
 (
 )
 &
@@ -34521,7 +34521,7 @@ if
 (
 i
 .
-isIon
+isJit
 (
 )
 )
@@ -34529,7 +34529,8 @@ fprintf
 (
 stderr
 "
-IonFrame
+JIT
+frame
 \
 n
 "
@@ -34698,7 +34699,7 @@ if
 !
 i
 .
-isIon
+isJit
 (
 )
 )
@@ -34736,7 +34737,7 @@ if
 !
 i
 .
-isIon
+isJit
 (
 )
 )
@@ -34804,7 +34805,7 @@ if
 !
 i
 .
-isIon
+isJit
 (
 )
 &
@@ -34849,7 +34850,7 @@ if
 !
 i
 .
-isIon
+isJit
 (
 )
 &
@@ -34878,7 +34879,7 @@ if
 !
 i
 .
-isIon
+isJit
 (
 )
 &
@@ -35077,7 +35078,7 @@ depth
 (
 i
 .
-isIon
+isJit
 (
 )
 ?
