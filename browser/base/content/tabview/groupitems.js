@@ -4575,7 +4575,7 @@ addSubscriber
 (
 this
 "
-beforeclose
+close
 "
 function
 (
@@ -4585,7 +4585,7 @@ self
 .
 remove
 (
-el
+item
 )
 ;
 }
@@ -4956,7 +4956,7 @@ removeSubscriber
 (
 this
 "
-beforeclose
+close
 "
 )
 ;
