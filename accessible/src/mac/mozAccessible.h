@@ -1000,6 +1000,12 @@ void
 )
 valueDidChange
 ;
+-
+(
+void
+)
+selectedTextDidChange
+;
 #
 pragma
 mark
