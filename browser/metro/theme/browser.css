@@ -331,8 +331,6 @@ not
 (
 [
 tabsonly
-=
-true
 ]
 )
 {
@@ -733,10 +731,6 @@ scrollbutton
 up
 [
 disabled
-=
-"
-true
-"
 ]
 {
 -
@@ -889,10 +883,6 @@ scrollbutton
 down
 [
 disabled
-=
-"
-true
-"
 ]
 {
 -
@@ -961,8 +951,6 @@ not
 (
 [
 tabsonly
-=
-true
 ]
 )
 documenttab
@@ -1004,8 +992,6 @@ not
 (
 [
 tabsonly
-=
-true
 ]
 )
 .
@@ -1212,8 +1198,6 @@ repeat
 documenttab
 [
 selected
-=
-true
 ]
 .
 documenttab
@@ -1360,8 +1344,6 @@ none
 tray
 [
 tabsonly
-=
-true
 ]
 {
 transform
@@ -1375,8 +1357,6 @@ important
 tray
 [
 tabsonly
-=
-true
 ]
 #
 tabs
@@ -1395,8 +1375,6 @@ metro_spacing_small
 tray
 [
 tabsonly
-=
-true
 ]
 #
 tabs
@@ -1439,8 +1417,6 @@ margin
 tray
 [
 tabsonly
-=
-true
 ]
 #
 tabs
@@ -1465,8 +1441,6 @@ bottom
 tray
 [
 tabsonly
-=
-true
 ]
 documenttab
 {
@@ -1485,8 +1459,6 @@ tab_compression
 tray
 [
 tabsonly
-=
-true
 ]
 documenttab
 :
@@ -1508,8 +1480,6 @@ start
 tray
 [
 tabsonly
-=
-true
 ]
 documenttab
 :
@@ -1531,8 +1501,6 @@ end
 tray
 [
 tabsonly
-=
-true
 ]
 .
 documenttab
@@ -1542,8 +1510,6 @@ thumbnail
 tray
 [
 tabsonly
-=
-true
 ]
 .
 documenttab
@@ -1553,8 +1519,6 @@ selection
 tray
 [
 tabsonly
-=
-true
 ]
 .
 documenttab
@@ -1570,8 +1534,6 @@ collapse
 tray
 [
 tabsonly
-=
-true
 ]
 .
 documenttab
@@ -1613,8 +1575,6 @@ tab_spacing
 tray
 [
 tabsonly
-=
-true
 ]
 .
 documenttab
@@ -1644,8 +1604,6 @@ metro_spacing_snormal
 tray
 [
 tabsonly
-=
-true
 ]
 .
 documenttab
@@ -1688,8 +1646,6 @@ tab_inner_width
 tray
 [
 tabsonly
-=
-true
 ]
 .
 documenttab
@@ -1744,8 +1700,6 @@ index
 tray
 [
 tabsonly
-=
-true
 ]
 documenttab
 [
@@ -1838,8 +1792,6 @@ repeat
 tray
 [
 tabsonly
-=
-true
 ]
 documenttab
 [
@@ -1930,8 +1882,6 @@ none
 tray
 [
 tabsonly
-=
-true
 ]
 documenttab
 [
@@ -2469,10 +2419,6 @@ back
 button
 [
 disabled
-=
-"
-true
-"
 ]
 {
 -
@@ -2659,10 +2605,6 @@ forward
 button
 [
 disabled
-=
-"
-true
-"
 ]
 {
 opacity
@@ -2807,10 +2749,6 @@ forward
 button
 [
 forwarddisabled
-=
-"
-true
-"
 ]
 +
 #
@@ -2864,10 +2802,6 @@ forward
 button
 [
 forwarddisabled
-=
-"
-true
-"
 ]
 +
 #
@@ -3404,8 +3338,6 @@ snapped
 tray
 [
 tabsonly
-=
-true
 ]
 #
 toolbar
@@ -3440,8 +3372,6 @@ snapped
 tray
 [
 tabsonly
-=
-true
 ]
 #
 toolbar
@@ -3473,8 +3403,6 @@ snapped
 tray
 [
 tabsonly
-=
-true
 ]
 #
 toolbar
@@ -3792,10 +3720,6 @@ appbar
 toolbarbutton
 [
 disabled
-=
-"
-true
-"
 ]
 {
 visibility
@@ -4308,10 +4232,6 @@ pin
 button
 [
 checked
-=
-"
-true
-"
 ]
 {
 -
@@ -4392,10 +4312,6 @@ star
 button
 [
 checked
-=
-"
-true
-"
 ]
 {
 -
@@ -5486,10 +5402,6 @@ close
 button
 [
 disabled
-=
-"
-true
-"
 ]
 {
 -
@@ -5771,10 +5683,6 @@ commands
 richlistitem
 [
 disabled
-=
-"
-true
-"
 ]
 {
 display
@@ -6358,10 +6266,6 @@ important
 scroller
 [
 panning
-=
-"
-true
-"
 ]
 {
 opacity
