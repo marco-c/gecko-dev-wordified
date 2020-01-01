@@ -10776,7 +10776,7 @@ frame
 construction
 item
 .
-nsresult
+void
 ConstructBlock
 (
 nsFrameConstructorState
