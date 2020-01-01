@@ -882,13 +882,6 @@ mWidth
 nscoord
 mHeight
 ;
-nsRefPtrHashtable
-<
-nsISupportsHashKey
-gfxASurface
->
-mWidgetSurfaceCache
-;
 nsRefPtr
 <
 gfxASurface

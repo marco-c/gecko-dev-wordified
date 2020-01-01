@@ -909,12 +909,6 @@ mPrintingScale
 .
 0f
 ;
-mWidgetSurfaceCache
-.
-Init
-(
-)
-;
 #
 if
 defined
@@ -1865,6 +1859,10 @@ mWidget
 aWidget
 ;
 SetDPI
+(
+)
+;
+CommonInit
 (
 )
 ;
