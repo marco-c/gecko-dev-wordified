@@ -114,6 +114,13 @@ nsCOMPtr
 h
 "
 #
+include
+"
+nsXULAlerts
+.
+h
+"
+#
 ifdef
 XP_WIN
 typedef
@@ -209,6 +216,9 @@ bool
 ShouldShowAlert
 (
 )
+;
+nsXULAlerts
+mXULAlerts
 ;
 }
 ;

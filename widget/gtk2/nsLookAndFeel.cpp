@@ -2607,6 +2607,15 @@ NS_ERROR_NOT_IMPLEMENTED
 break
 ;
 case
+eIntID_AlertNotificationOrigin
+:
+aResult
+=
+NS_ALERT_TOP
+;
+break
+;
+case
 eIntID_IMERawInputUnderlineStyle
 :
 case
