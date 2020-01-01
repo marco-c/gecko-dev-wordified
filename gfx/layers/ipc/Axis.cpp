@@ -224,7 +224,7 @@ FLING_FRICTION
 =
 0
 .
-013f
+007f
 ;
 /
 *
@@ -256,7 +256,7 @@ VELOCITY_THRESHOLD
 =
 0
 .
-1f
+14f
 ;
 /
 *
@@ -451,7 +451,7 @@ Axis
 :
 UpdateWithTouchAtDevicePoint
 (
-int32_t
+PRInt32
 aPos
 const
 TimeDuration
@@ -666,7 +666,7 @@ Axis
 :
 StartTouch
 (
-int32_t
+PRInt32
 aPos
 )
 {
@@ -683,7 +683,7 @@ mLockPanning
 false
 ;
 }
-int32_t
+PRInt32
 Axis
 :
 :
@@ -716,7 +716,7 @@ mAcceleration
 )
 )
 ;
-int32_t
+PRInt32
 displacement
 =
 NS_lround
@@ -1095,7 +1095,7 @@ return
 OVERSCROLL_NONE
 ;
 }
-int32_t
+PRInt32
 Axis
 :
 :
@@ -1174,7 +1174,7 @@ Axis
 :
 DisplacementWillOverscroll
 (
-int32_t
+PRInt32
 aDisplacement
 )
 {
@@ -1288,13 +1288,13 @@ return
 OVERSCROLL_NONE
 ;
 }
-int32_t
+PRInt32
 Axis
 :
 :
 DisplacementWillOverscrollAmount
 (
-int32_t
+PRInt32
 aDisplacement
 )
 {
@@ -1386,11 +1386,11 @@ ScaleWillOverscroll
 (
 float
 aScale
-int32_t
+PRInt32
 aFocus
 )
 {
-int32_t
+PRInt32
 originAfterScale
 =
 NS_lround
@@ -1489,7 +1489,7 @@ return
 OVERSCROLL_NONE
 ;
 }
-int32_t
+PRInt32
 Axis
 :
 :
@@ -1497,11 +1497,11 @@ ScaleWillOverscrollAmount
 (
 float
 aScale
-int32_t
+PRInt32
 aFocus
 )
 {
-int32_t
+PRInt32
 originAfterScale
 =
 NS_lround
@@ -1600,7 +1600,7 @@ return
 mVelocity
 ;
 }
-int32_t
+PRInt32
 Axis
 :
 :
@@ -1618,7 +1618,7 @@ GetViewportLength
 )
 ;
 }
-int32_t
+PRInt32
 Axis
 :
 :
@@ -1636,7 +1636,7 @@ GetPageLength
 )
 ;
 }
-int32_t
+PRInt32
 Axis
 :
 :
@@ -1663,7 +1663,7 @@ origin
 )
 ;
 }
-int32_t
+PRInt32
 Axis
 :
 :
@@ -1733,7 +1733,7 @@ scaledViewport
 )
 ;
 }
-int32_t
+PRInt32
 Axis
 :
 :
@@ -1763,7 +1763,7 @@ pageRect
 )
 ;
 }
-int32_t
+PRInt32
 Axis
 :
 :
@@ -1908,7 +1908,7 @@ aAsyncPanZoomController
 )
 {
 }
-int32_t
+PRInt32
 AxisX
 :
 :
@@ -1926,7 +1926,7 @@ aPoint
 x
 ;
 }
-int32_t
+PRInt32
 AxisX
 :
 :
@@ -1950,7 +1950,7 @@ width
 )
 ;
 }
-int32_t
+PRInt32
 AxisX
 :
 :
@@ -1990,7 +1990,7 @@ aAsyncPanZoomController
 )
 {
 }
-int32_t
+PRInt32
 AxisY
 :
 :
@@ -2008,7 +2008,7 @@ aPoint
 y
 ;
 }
-int32_t
+PRInt32
 AxisY
 :
 :
@@ -2032,7 +2032,7 @@ height
 )
 ;
 }
-int32_t
+PRInt32
 AxisY
 :
 :
