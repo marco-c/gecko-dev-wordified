@@ -1372,6 +1372,9 @@ AssociateDocument
 nsIDOMDocument
 *
 aDocument
+nsIApplicationCache
+*
+aApplicationCache
 )
 ;
 nsresult
