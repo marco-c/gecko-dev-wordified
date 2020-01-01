@@ -1535,6 +1535,13 @@ os2
 h
 >
 #
+include
+"
+gfxOS2Surface
+.
+h
+"
+#
 endif
 #
 ifdef
@@ -9536,7 +9543,7 @@ GetPSFromRC
 (
 nsRenderingContext
 &
-aRC
+aRenderingContext
 )
 {
 nsRefPtr
