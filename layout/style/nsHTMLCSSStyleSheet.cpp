@@ -972,11 +972,6 @@ aData
 >
 mContent
 ;
-if
-(
-content
-)
-{
 /
 /
 just
@@ -1052,7 +1047,6 @@ endif
 /
 /
 MOZ_SMIL
-}
 return
 NS_OK
 ;
