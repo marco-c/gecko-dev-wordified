@@ -23307,7 +23307,7 @@ aContext
 )
 mArgv
 (
-argv
+nsnull
 )
 mArgc
 (
@@ -23348,6 +23348,11 @@ etc
 is
 safe
 .
+if
+(
+argc
+)
+{
 mArgv
 =
 (
@@ -23377,6 +23382,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 return
 ;
+}
 }
 /
 /
