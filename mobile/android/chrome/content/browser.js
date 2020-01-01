@@ -11481,9 +11481,6 @@ toString
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -11501,10 +11498,12 @@ aOptions
 title
 icon
 :
+resolveGeckoUri
+(
 aOptions
 .
 icon
-}
+)
 }
 )
 ;
@@ -11542,9 +11541,6 @@ id
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -11555,7 +11551,6 @@ Remove
 id
 :
 id
-}
 }
 )
 ;
