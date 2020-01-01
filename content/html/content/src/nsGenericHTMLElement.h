@@ -1009,6 +1009,11 @@ PRUint8
 optional_argc
 )
 ;
+nsresult
+MozRequestFullScreen
+(
+)
+;
 /
 /
 Declare
