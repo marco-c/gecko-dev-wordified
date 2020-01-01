@@ -7707,7 +7707,7 @@ pop
 (
 )
 ;
-MBinaryBitInstruction
+MBinaryBitwiseInstruction
 *
 ins
 ;

@@ -2059,7 +2059,7 @@ ins
 ;
 }
 void
-MBinaryBitInstruction
+MBinaryBitwiseInstruction
 :
 :
 infer

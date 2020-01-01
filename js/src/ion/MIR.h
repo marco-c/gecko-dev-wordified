@@ -4036,7 +4036,7 @@ def
 }
 ;
 class
-MBinaryBitInstruction
+MBinaryBitwiseInstruction
 :
 public
 MBinaryInstruction
@@ -4045,7 +4045,7 @@ BitwisePolicy
 {
 protected
 :
-MBinaryBitInstruction
+MBinaryBitwiseInstruction
 (
 MDefinition
 *
@@ -4106,7 +4106,7 @@ class
 MBitAnd
 :
 public
-MBinaryBitInstruction
+MBinaryBitwiseInstruction
 {
 MBitAnd
 (
@@ -4118,7 +4118,7 @@ MDefinition
 right
 )
 :
-MBinaryBitInstruction
+MBinaryBitwiseInstruction
 (
 left
 right
@@ -4151,7 +4151,7 @@ class
 MBitOr
 :
 public
-MBinaryBitInstruction
+MBinaryBitwiseInstruction
 {
 MBitOr
 (
@@ -4163,7 +4163,7 @@ MDefinition
 right
 )
 :
-MBinaryBitInstruction
+MBinaryBitwiseInstruction
 (
 left
 right
@@ -4196,7 +4196,7 @@ class
 MBitXor
 :
 public
-MBinaryBitInstruction
+MBinaryBitwiseInstruction
 {
 MBitXor
 (
@@ -4208,7 +4208,7 @@ MDefinition
 right
 )
 :
-MBinaryBitInstruction
+MBinaryBitwiseInstruction
 (
 left
 right
