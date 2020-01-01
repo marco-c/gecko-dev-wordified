@@ -3727,11 +3727,12 @@ setClassName
 AppConstants
 .
 ANDROID_PACKAGE_NAME
-AppConstants
-.
-ANDROID_PACKAGE_NAME
-+
 "
+org
+.
+mozilla
+.
+gecko
 .
 WebApps
 WebApp
