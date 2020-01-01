@@ -688,6 +688,8 @@ pre
 table
 |
 ul
+|
+select
 )
 /
 i
