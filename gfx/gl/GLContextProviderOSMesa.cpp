@@ -1431,10 +1431,6 @@ true
 bool
 MakeCurrentImpl
 (
-bool
-aForce
-=
-false
 )
 {
 bool

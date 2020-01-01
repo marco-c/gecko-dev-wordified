@@ -2794,12 +2794,6 @@ get
 context
 )
 ;
-profile
-.
-moveProfilesToAppInstallLocation
-(
-)
-;
 setupPluginEnvironment
 (
 (
