@@ -2214,10 +2214,6 @@ const
 nsSVGPreserveAspectRatio
 &
 aPreserveAspectRatio
-PRBool
-aIgnoreAlign
-=
-PR_FALSE
 )
 ;
 /

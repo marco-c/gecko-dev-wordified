@@ -4038,7 +4038,6 @@ height
 GetPreserveAspectRatio
 (
 )
-PR_TRUE
 )
 ;
 gfxPoint
