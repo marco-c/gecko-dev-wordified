@@ -36682,7 +36682,6 @@ top
 &
 my
 <
-=
 (
 winRect
 .
@@ -36708,7 +36707,6 @@ if
 (
 my
 <
-=
 winRect
 .
 bottom
@@ -36741,7 +36739,6 @@ left
 &
 mx
 <
-=
 (
 winRect
 .
@@ -36759,7 +36756,6 @@ if
 (
 mx
 <
-=
 winRect
 .
 right
