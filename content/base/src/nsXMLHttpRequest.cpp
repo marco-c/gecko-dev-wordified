@@ -22139,10 +22139,11 @@ change
 the
 iface
 ?
-LL_L2UI
-(
 *
 aPosition
+=
+uint32_t
+(
 mCurProgress
 )
 ;
@@ -22178,10 +22179,11 @@ change
 the
 iface
 ?
-LL_L2UI
-(
 *
 aTotalSize
+=
+uint32_t
+(
 mMaxProgress
 )
 ;
