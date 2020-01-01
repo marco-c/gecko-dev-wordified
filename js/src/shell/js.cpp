@@ -886,10 +886,10 @@ gExitCode
 =
 0
 ;
-JSBool
+bool
 gQuitting
 =
-JS_FALSE
+false
 ;
 bool
 gGotError
@@ -932,25 +932,25 @@ NULL
 #
 endif
 static
-JSBool
+bool
 reportWarnings
 =
-JS_TRUE
+true
 ;
 static
-JSBool
+bool
 compileOnly
 =
-JS_FALSE
+false
 ;
 #
 ifdef
 DEBUG
 static
-JSBool
+bool
 OOM_printAllocationCount
 =
-JS_FALSE
+false
 ;
 #
 endif
@@ -1102,10 +1102,10 @@ JSContext
 aCx
 jsval
 v
-JSBool
+bool
 aThrow
 =
-JS_FALSE
+false
 )
 :
 cx
@@ -1165,7 +1165,7 @@ mStr
 )
 ;
 }
-JSBool
+bool
 threw
 (
 )
@@ -1243,7 +1243,7 @@ JSString
 *
 mStr
 ;
-JSBool
+bool
 mThrow
 ;
 JSAutoByteString
@@ -1266,10 +1266,10 @@ JSContext
 cx
 jsid
 id
-JSBool
+bool
 aThrow
 =
-JS_FALSE
+false
 )
 :
 ToStringHelper
@@ -1864,7 +1864,7 @@ if
 gCanceled
 )
 return
-JS_TRUE
+true
 ;
 JS_ClearPendingException
 (
@@ -1872,7 +1872,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 static
@@ -2078,7 +2078,7 @@ bool
 forceTTY
 )
 {
-JSBool
+bool
 ok
 hitEOF
 ;
@@ -2466,7 +2466,7 @@ lineno
 ;
 hitEOF
 =
-JS_FALSE
+false
 ;
 buffer
 =
@@ -2641,7 +2641,7 @@ cleanup
 }
 hitEOF
 =
-JS_TRUE
+true
 ;
 break
 ;
@@ -2843,7 +2843,7 @@ gTimeoutInterval
 {
 hitEOF
 =
-JS_TRUE
+true
 ;
 break
 ;
@@ -2855,7 +2855,7 @@ while
 JS_BufferIsCompilableUnit
 (
 cx
-JS_TRUE
+true
 obj
 buffer
 len
@@ -3679,7 +3679,7 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -3708,7 +3708,7 @@ char
 *
 names
 ;
-JSBool
+bool
 found
 ;
 optset
@@ -3758,7 +3758,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 argv
 [
@@ -3783,7 +3783,7 @@ if
 opt
 )
 return
-JS_FALSE
+false
 ;
 flag
 =
@@ -3803,7 +3803,7 @@ if
 flag
 )
 return
-JS_FALSE
+false
 ;
 optset
 |
@@ -3825,7 +3825,7 @@ NULL
 ;
 found
 =
-JS_FALSE
+false
 ;
 for
 (
@@ -3860,7 +3860,7 @@ optset
 {
 found
 =
-JS_TRUE
+true
 ;
 names
 =
@@ -3922,7 +3922,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 str
@@ -3944,7 +3944,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 *
 vp
@@ -3955,7 +3955,7 @@ str
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -3989,7 +3989,7 @@ if
 thisobj
 )
 return
-JS_FALSE
+false
 ;
 jsval
 *
@@ -4061,7 +4061,7 @@ if
 filename
 )
 return
-JS_FALSE
+false
 ;
 errno
 =
@@ -5989,7 +5989,7 @@ bufsize
 buflength
 gotlength
 ;
-JSBool
+bool
 sawNewline
 ;
 JSString
@@ -6026,11 +6026,11 @@ if
 buf
 )
 return
-JS_FALSE
+false
 ;
 sawNewline
 =
-JS_FALSE
+false
 ;
 while
 (
@@ -6095,7 +6095,7 @@ buflength
 ;
 sawNewline
 =
-JS_TRUE
+true
 ;
 break
 ;
@@ -6176,7 +6176,7 @@ buf
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 buf
@@ -6224,7 +6224,7 @@ buf
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -6265,7 +6265,7 @@ buf
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 buf
@@ -6320,7 +6320,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 *
 vp
@@ -6331,7 +6331,7 @@ str
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -6393,7 +6393,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 bytes
 =
@@ -6409,7 +6409,7 @@ if
 bytes
 )
 return
-JS_FALSE
+false
 ;
 fputs
 (
@@ -6437,7 +6437,7 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -6552,7 +6552,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 bytes
 =
@@ -6568,7 +6568,7 @@ if
 bytes
 )
 return
-JS_FALSE
+false
 ;
 fprintf
 (
@@ -6618,7 +6618,7 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -6716,7 +6716,7 @@ gExitCode
 ;
 gQuitting
 =
-JS_TRUE
+true
 ;
 #
 ifdef
@@ -6739,7 +6739,7 @@ gWorkerThreadPool
 #
 endif
 return
-JS_FALSE
+false
 ;
 }
 static
@@ -6897,7 +6897,7 @@ assertEq
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 jsval
@@ -6932,7 +6932,7 @@ same
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -7018,7 +7018,7 @@ if
 bytes2
 )
 return
-JS_FALSE
+false
 ;
 JS_ReportErrorNumber
 (
@@ -7037,7 +7037,7 @@ ptr
 ;
 }
 return
-JS_FALSE
+false
 ;
 }
 JS_SET_RVAL
@@ -7048,7 +7048,7 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -7144,7 +7144,7 @@ JSSMSG_ASSERT_JIT_FAILED
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -7158,7 +7158,7 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -7389,7 +7389,7 @@ setDebug
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 /
@@ -7452,9 +7452,11 @@ lifted
 .
 *
 /
-JSBool
+bool
 ok
 =
+!
+!
 JS_SetDebugMode
 (
 cx
@@ -7603,7 +7605,7 @@ if
 script
 )
 return
-JS_FALSE
+false
 ;
 intarg
 +
@@ -7631,7 +7633,7 @@ ip
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -7658,7 +7660,7 @@ PC
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -7669,7 +7671,7 @@ scriptp
 script
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -7856,7 +7858,7 @@ JSSMSG_TRAP_USAGE
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 argc
@@ -7880,7 +7882,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 argv
 [
@@ -7907,7 +7909,7 @@ i
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -7932,7 +7934,7 @@ JSSMSG_TRAP_USAGE
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JS_SET_RVAL
@@ -8001,7 +8003,7 @@ i
 )
 )
 return
-JS_FALSE
+false
 ;
 JS_ClearTrap
 (
@@ -8025,7 +8027,7 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -8105,7 +8107,7 @@ setDebuggerHandler
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 str
@@ -8129,7 +8131,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 JS_SetDebuggerHandler
 (
@@ -8149,7 +8151,7 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -8190,7 +8192,7 @@ setThrowHook
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 str
@@ -8214,7 +8216,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 JS_SetThrowHook
 (
@@ -8234,7 +8236,7 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -8284,7 +8286,7 @@ JSSMSG_LINE2PC_USAGE
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 script
@@ -8345,7 +8347,7 @@ if
 script
 )
 return
-JS_FALSE
+false
 ;
 lineArg
 +
@@ -8371,7 +8373,7 @@ lineno
 )
 )
 return
-JS_FALSE
+false
 ;
 pc
 =
@@ -8388,7 +8390,7 @@ if
 pc
 )
 return
-JS_FALSE
+false
 ;
 *
 vp
@@ -8404,7 +8406,7 @@ code
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -8450,7 +8452,7 @@ i
 )
 )
 return
-JS_FALSE
+false
 ;
 lineno
 =
@@ -8472,7 +8474,7 @@ if
 lineno
 )
 return
-JS_FALSE
+false
 ;
 *
 vp
@@ -8483,7 +8485,7 @@ lineno
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 #
@@ -9514,7 +9516,7 @@ init
 )
 )
 return
-JS_FALSE
+false
 ;
 jsval
 *
@@ -9591,7 +9593,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 JS_SET_RVAL
 (
@@ -9604,7 +9606,7 @@ str
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JS_STATIC_ASSERT
@@ -9684,7 +9686,7 @@ hasTrynotes
 )
 )
 return
-JS_TRUE
+true
 ;
 tn
 =
@@ -9799,7 +9801,7 @@ tnlimit
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -10787,7 +10789,7 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSObject
@@ -10806,7 +10808,7 @@ if
 thisobj
 )
 return
-JS_FALSE
+false
 ;
 JSString
 *
@@ -10829,7 +10831,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 JSAutoByteString
 filename
@@ -10844,7 +10846,7 @@ if
 filename
 )
 return
-JS_FALSE
+false
 ;
 uint32_t
 oldopts
@@ -11013,7 +11015,7 @@ pc
 *
 end
 ;
-JSBool
+bool
 ok
 ;
 static
@@ -11053,7 +11055,7 @@ sep
 ;
 ok
 =
-JS_TRUE
+true
 ;
 jsval
 *
@@ -11100,7 +11102,7 @@ if
 script
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -11120,7 +11122,7 @@ JSSMSG_FILE_SCRIPTS_ONLY
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 file
@@ -11159,7 +11161,7 @@ errno
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 pc
@@ -11196,7 +11198,7 @@ init
 {
 ok
 =
-JS_FALSE
+false
 ;
 goto
 bail
@@ -11272,7 +11274,7 @@ filename
 ;
 ok
 =
-JS_FALSE
+false
 ;
 goto
 bail
@@ -11404,7 +11406,7 @@ filename
 ;
 ok
 =
-JS_FALSE
+false
 ;
 goto
 bail
@@ -11447,7 +11449,7 @@ script
 -
 >
 code
-JS_TRUE
+true
 &
 sprinter
 )
@@ -11460,7 +11462,7 @@ len
 {
 ok
 =
-JS_FALSE
+false
 ;
 goto
 bail
@@ -11538,7 +11540,7 @@ FILE
 *
 dumpFile
 ;
-JSBool
+bool
 ok
 ;
 const
@@ -11596,7 +11598,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 JS_ARGV
 (
@@ -11624,7 +11626,7 @@ str
 )
 )
 return
-JS_FALSE
+false
 ;
 fileName
 =
@@ -11815,7 +11817,7 @@ depth
 )
 )
 return
-JS_FALSE
+false
 ;
 maxDepth
 =
@@ -11933,7 +11935,7 @@ errno
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -12015,9 +12017,10 @@ badTraceArg
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
+static
 JSBool
 DumpObject
 (
@@ -12057,7 +12060,7 @@ arg0
 )
 )
 return
-JS_FALSE
+false
 ;
 js_DumpObject
 (
@@ -12072,7 +12075,7 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 #
@@ -12113,6 +12116,7 @@ here
 .
 *
 /
+static
 JSBool
 DumpStack
 (
@@ -12683,7 +12687,7 @@ const
 char
 *
 format
-JSBool
+bool
 fromJS
 jsval
 *
@@ -12743,7 +12747,7 @@ re
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -12760,7 +12764,7 @@ im
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 va_arg
@@ -12816,7 +12820,7 @@ vp
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -12833,7 +12837,7 @@ vp
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 *
@@ -12857,7 +12861,7 @@ ZZ_formatter
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -12874,10 +12878,10 @@ jsval
 vp
 )
 {
-JSBool
+bool
 b
 =
-JS_FALSE
+false
 ;
 jschar
 c
@@ -12940,7 +12944,7 @@ v
 =
 JSVAL_VOID
 ;
-JSBool
+bool
 ok
 ;
 if
@@ -12956,7 +12960,7 @@ ZZ_formatter
 )
 )
 return
-JS_FALSE
+false
 ;
 ok
 =
@@ -13019,7 +13023,7 @@ if
 ok
 )
 return
-JS_FALSE
+false
 ;
 fprintf
 (
@@ -13221,7 +13225,7 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 #
@@ -13297,7 +13301,7 @@ vp
 JSVAL_VOID
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -13430,7 +13434,7 @@ clone
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 jsval
@@ -13498,7 +13502,7 @@ obj
 )
 )
 return
-JS_FALSE
+false
 ;
 argv
 [
@@ -13569,7 +13573,7 @@ if
 fun
 )
 return
-JS_FALSE
+false
 ;
 funobj
 =
@@ -13647,7 +13651,7 @@ go
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -13673,7 +13677,7 @@ parent
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -13708,7 +13712,7 @@ if
 clone
 )
 return
-JS_FALSE
+false
 ;
 *
 vp
@@ -13719,7 +13723,7 @@ clone
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -13744,7 +13748,7 @@ aobj
 *
 pdobj
 ;
-JSBool
+bool
 ok
 ;
 JSPropertyDescArray
@@ -13779,7 +13783,7 @@ vobj
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -13793,7 +13797,7 @@ vp
 JSVAL_VOID
 ;
 return
-JS_TRUE
+true
 ;
 }
 aobj
@@ -13811,7 +13815,7 @@ if
 aobj
 )
 return
-JS_FALSE
+false
 ;
 *
 vp
@@ -13823,6 +13827,8 @@ aobj
 ;
 ok
 =
+!
+!
 JS_GetPropertyDescArray
 (
 cx
@@ -13837,7 +13843,7 @@ if
 ok
 )
 return
-JS_FALSE
+false
 ;
 pd
 =
@@ -13884,7 +13890,7 @@ pdobj
 {
 ok
 =
-JS_FALSE
+false
 ;
 break
 ;
@@ -13915,6 +13921,8 @@ pdobj
 ;
 ok
 =
+!
+!
 JS_SetElement
 (
 cx
@@ -14084,7 +14092,7 @@ if
 script
 )
 return
-JS_FALSE
+false
 ;
 *
 vp
@@ -14098,7 +14106,7 @@ script
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -14140,7 +14148,7 @@ i
 )
 )
 return
-JS_FALSE
+false
 ;
 return
 JS_NewNumberValue
@@ -14177,7 +14185,7 @@ JSVAL_TRUE
 JSVAL_FALSE
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -14310,7 +14318,7 @@ mode
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -14449,7 +14457,7 @@ parameter
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JS_SET_RVAL
@@ -14493,7 +14501,7 @@ error
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 #
@@ -14519,10 +14527,10 @@ typedef
 struct
 ComplexObject
 {
-JSBool
+bool
 isInner
 ;
-JSBool
+bool
 frozen
 ;
 JSObject
@@ -14568,7 +14576,7 @@ v
 )
 )
 return
-JS_FALSE
+false
 ;
 JS_ValueToBoolean
 (
@@ -14631,7 +14639,7 @@ v
 )
 )
 return
-JS_FALSE
+false
 ;
 JS_ValueToBoolean
 (
@@ -14669,7 +14677,7 @@ resolved
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -14682,7 +14690,7 @@ objp
 obj
 ;
 return
-JS_TRUE
+true
 ;
 }
 }
@@ -14692,7 +14700,7 @@ objp
 NULL
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -15275,7 +15283,7 @@ evalInFrame
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 uint32_t
@@ -15423,14 +15431,13 @@ frame
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
-JSBool
+bool
 saved
 =
-JS_FALSE
-;
+false
 ;
 if
 (
@@ -15465,11 +15472,13 @@ if
 chars
 )
 return
-JS_FALSE
+false
 ;
-JSBool
+bool
 ok
 =
+!
+!
 JS_EvaluateUCInStackFrame
 (
 cx
@@ -15582,7 +15591,7 @@ expected
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -16476,7 +16485,7 @@ t_secs
 )
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -16514,7 +16523,7 @@ interval
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 t_ticks
@@ -17499,7 +17508,7 @@ value
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 gTimeoutInterval
@@ -17532,11 +17541,11 @@ watchdog
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -17587,7 +17596,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 double
@@ -17612,7 +17621,7 @@ t
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 vp
@@ -17701,7 +17710,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 static
@@ -17738,7 +17747,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 jsval
@@ -17774,7 +17783,7 @@ parents
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -17849,7 +17858,7 @@ parent
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 #
@@ -18189,7 +18198,7 @@ s
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 jsval
@@ -18244,7 +18253,7 @@ typeName
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 static
@@ -18282,7 +18291,7 @@ if
 fakeGlobal
 )
 return
-JS_FALSE
+false
 ;
 JSString
 *
@@ -18391,7 +18400,7 @@ s
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 jsval
@@ -18446,7 +18455,7 @@ typeName
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSString
@@ -18539,7 +18548,7 @@ init
 )
 )
 return
-JS_FALSE
+false
 ;
 ParseNode
 *
@@ -18558,7 +18567,7 @@ if
 pn
 )
 return
-JS_FALSE
+false
 ;
 #
 ifdef
@@ -18578,7 +18587,7 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 struct
@@ -18688,7 +18697,7 @@ if
 argc
 )
 return
-JS_FALSE
+false
 ;
 str
 =
@@ -18711,7 +18720,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 JSAutoByteString
 filename
@@ -18726,7 +18735,7 @@ if
 filename
 )
 return
-JS_FALSE
+false
 ;
 /
 *
@@ -18809,7 +18818,7 @@ if
 pathname
 )
 return
-JS_FALSE
+false
 ;
 pnGuard
 .
@@ -18851,7 +18860,7 @@ if
 opt
 )
 return
-JS_FALSE
+false
 ;
 JSBool
 match
@@ -18871,7 +18880,7 @@ match
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -18896,7 +18905,7 @@ pathname
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 vp
@@ -18907,7 +18916,7 @@ obj
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 }
@@ -18925,7 +18934,7 @@ pathname
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 vp
@@ -18936,9 +18945,10 @@ str
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
+static
 JSBool
 Wrap
 (
@@ -19051,6 +19061,7 @@ return
 true
 ;
 }
+static
 JSBool
 Serialize
 (
@@ -19187,6 +19198,7 @@ return
 true
 ;
 }
+static
 JSBool
 Deserialize
 (
@@ -19401,6 +19413,7 @@ CompartmentKind
 compartment
 )
 ;
+static
 JSBool
 NewGlobal
 (
@@ -19470,10 +19483,10 @@ vp
 JSBool
 equalSame
 =
-JS_FALSE
+false
 equalNew
 =
-JS_FALSE
+false
 ;
 if
 (
@@ -19795,7 +19808,7 @@ ARGS_LENGTH_MAX
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -22814,7 +22827,7 @@ if
 its_noisy
 )
 return
-JS_TRUE
+true
 ;
 IdStringifier
 idString
@@ -22867,7 +22880,7 @@ getBytes
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -22892,7 +22905,7 @@ if
 its_noisy
 )
 return
-JS_TRUE
+true
 ;
 IdStringifier
 idString
@@ -22945,7 +22958,7 @@ getBytes
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -22970,7 +22983,7 @@ if
 its_noisy
 )
 return
-JS_TRUE
+true
 ;
 IdStringifier
 idString
@@ -23023,7 +23036,7 @@ getBytes
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -23109,7 +23122,7 @@ id
 )
 )
 return
-JS_TRUE
+true
 ;
 if
 (
@@ -23161,7 +23174,7 @@ its_enum_fail
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 /
@@ -23248,7 +23261,7 @@ if
 iterator
 )
 return
-JS_FALSE
+false
 ;
 *
 statep
@@ -23291,7 +23304,7 @@ failed
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 iterator
@@ -23317,7 +23330,7 @@ idp
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -23363,7 +23376,7 @@ break
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -23463,7 +23476,7 @@ detecting
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -23675,7 +23688,7 @@ JSVAL_VOID
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -23708,7 +23721,7 @@ obj
 its_class
 )
 return
-JS_TRUE
+true
 ;
 jsval
 *
@@ -23735,7 +23748,7 @@ val
 vp
 ;
 return
-JS_TRUE
+true
 ;
 }
 val
@@ -23755,7 +23768,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -23772,7 +23785,7 @@ delete
 val
 ;
 return
-JS_FALSE
+false
 ;
 }
 JS_SetPrivate
@@ -23792,7 +23805,7 @@ val
 vp
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -24732,7 +24745,7 @@ if
 fun
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -24743,7 +24756,7 @@ fun
 atom
 )
 return
-JS_TRUE
+true
 ;
 nargc
 =
@@ -24783,7 +24796,7 @@ if
 nargv
 )
 return
-JS_FALSE
+false
 ;
 memset
 (
@@ -25046,7 +25059,7 @@ obj
 #
 else
 return
-JS_TRUE
+true
 ;
 #
 endif
@@ -25089,7 +25102,7 @@ resolved
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -25102,7 +25115,7 @@ objp
 obj
 ;
 return
-JS_TRUE
+true
 ;
 }
 #
@@ -25170,7 +25183,7 @@ char
 *
 name
 ;
-JSBool
+bool
 ok
 found
 ;
@@ -25187,7 +25200,7 @@ id
 )
 )
 return
-JS_TRUE
+true
 ;
 path
 =
@@ -25204,7 +25217,7 @@ if
 path
 )
 return
-JS_TRUE
+true
 ;
 path
 =
@@ -25220,7 +25233,7 @@ if
 path
 )
 return
-JS_FALSE
+false
 ;
 JSAutoByteString
 name
@@ -25238,11 +25251,11 @@ if
 name
 )
 return
-JS_FALSE
+false
 ;
 ok
 =
-JS_TRUE
+true
 ;
 for
 (
@@ -25313,7 +25326,7 @@ cx
 ;
 ok
 =
-JS_FALSE
+false
 ;
 break
 ;
@@ -25411,7 +25424,7 @@ ok
 #
 else
 return
-JS_TRUE
+true
 ;
 #
 endif
@@ -25495,7 +25508,7 @@ idstr
 (
 cx
 id
-JS_TRUE
+true
 )
 ;
 if
@@ -25507,7 +25520,7 @@ threw
 )
 )
 return
-JS_FALSE
+false
 ;
 ToStringHelper
 valstr
@@ -25515,7 +25528,7 @@ valstr
 cx
 *
 vp
-JS_TRUE
+true
 )
 ;
 if
@@ -25527,7 +25540,7 @@ threw
 )
 )
 return
-JS_FALSE
+false
 ;
 #
 if
@@ -25579,7 +25592,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 rv
@@ -25724,7 +25737,7 @@ getBytes
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 *
@@ -25751,7 +25764,7 @@ SOLARIS
 *
 /
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -25766,7 +25779,7 @@ obj
 )
 {
 static
-JSBool
+bool
 reflected
 ;
 char
@@ -25782,7 +25795,7 @@ JSString
 *
 valstr
 ;
-JSBool
+bool
 ok
 ;
 if
@@ -25790,7 +25803,7 @@ if
 reflected
 )
 return
-JS_TRUE
+true
 ;
 for
 (
@@ -25856,21 +25869,11 @@ cx
 value
 )
 ;
-if
-(
-!
+ok
+=
 valstr
-)
-{
-ok
-=
-JS_FALSE
-;
-}
-else
-{
-ok
-=
+&
+&
 JS_DefineProperty
 (
 cx
@@ -25885,7 +25888,6 @@ NULL
 JSPROP_ENUMERATE
 )
 ;
-}
 value
 [
 -
@@ -25902,15 +25904,15 @@ if
 ok
 )
 return
-JS_FALSE
+false
 ;
 }
 reflected
 =
-JS_TRUE
+true
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -25950,14 +25952,14 @@ flags
 JSRESOLVE_ASSIGNING
 )
 return
-JS_TRUE
+true
 ;
 IdStringifier
 idstr
 (
 cx
 id
-JS_TRUE
+true
 )
 ;
 if
@@ -25969,7 +25971,7 @@ threw
 )
 )
 return
-JS_FALSE
+false
 ;
 name
 =
@@ -26005,7 +26007,7 @@ if
 valstr
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -26026,7 +26028,7 @@ JSPROP_ENUMERATE
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 *
@@ -26036,7 +26038,7 @@ obj
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -27955,7 +27957,7 @@ endif
 #
 ifdef
 JSDEBUGGER_C_UI
-JSBool
+bool
 jsdbc
 ;
 #
