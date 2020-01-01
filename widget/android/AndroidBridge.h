@@ -546,6 +546,9 @@ hal
 class
 BatteryInformation
 ;
+class
+NetworkInformation
+;
 }
 /
 /
@@ -1990,6 +1993,17 @@ IsTablet
 (
 )
 ;
+void
+GetCurrentNetworkInformation
+(
+hal
+:
+:
+NetworkInformation
+*
+aNetworkInfo
+)
+;
 protected
 :
 static
@@ -2267,6 +2281,9 @@ jGetNextMessageinList
 ;
 jmethodID
 jClearMessageList
+;
+jmethodID
+jGetCurrentNetworkInformation
 ;
 /
 /
