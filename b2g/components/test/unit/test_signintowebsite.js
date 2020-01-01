@@ -1125,6 +1125,17 @@ com
 forceAuthentication
 :
 true
+issuer
+:
+"
+https
+:
+/
+/
+foo
+.
+com
+"
 someThing
 :
 {
