@@ -4314,6 +4314,13 @@ mouseup
 )
 GK_ATOM
 (
+mozaudiochannel
+"
+mozaudiochannel
+"
+)
+GK_ATOM
+(
 mozasyncpanzoom
 "
 mozasyncpanzoom
