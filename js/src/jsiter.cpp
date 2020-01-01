@@ -1930,9 +1930,7 @@ vp
 pobj
 -
 >
-getDenseArrayElements
-(
-)
+dslots
 ;
 for
 (
@@ -3217,7 +3215,6 @@ obj
 js_NewGCObject
 (
 cx
-FINALIZE_OBJECT0
 )
 ;
 if
@@ -3233,13 +3230,14 @@ obj
 >
 init
 (
-cx
 &
 js_IteratorClass
 NULL
 NULL
-NULL
-false
+NullValue
+(
+)
+cx
 )
 ;
 obj
