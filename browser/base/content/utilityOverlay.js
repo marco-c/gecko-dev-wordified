@@ -3491,10 +3491,8 @@ advancedTab
 ;
 }
 return
-win
 ;
 }
-return
 openDialog
 (
 "
@@ -3528,7 +3526,6 @@ openAdvancedPreferences
 tabID
 )
 {
-return
 openPreferences
 (
 "
