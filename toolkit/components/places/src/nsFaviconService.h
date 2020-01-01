@@ -539,6 +539,9 @@ FaviconStatementId
 DB_GET_ICON_INFO_WITH_PAGE
 =
 0
+DB_INSERT_ICON
+=
+1
 }
 ;
 }
@@ -990,6 +993,15 @@ return
 GetStatement
 (
 mDBGetIconInfoWithPage
+)
+;
+case
+DB_INSERT_ICON
+:
+return
+GetStatement
+(
+mDBInsertIcon
 )
 ;
 }
