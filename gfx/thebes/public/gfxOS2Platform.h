@@ -431,6 +431,9 @@ gfxPlatform
 h
 "
 class
+gfxFontconfigUtils
+;
+class
 THEBES_API
 gfxOS2Platform
 :
@@ -503,6 +506,11 @@ aListOfFonts
 )
 ;
 nsresult
+UpdateFontList
+(
+)
+;
+nsresult
 ResolveFontName
 (
 const
@@ -532,6 +540,13 @@ gfxFontStyle
 *
 aStyle
 )
+;
+protected
+:
+static
+gfxFontconfigUtils
+*
+sFontconfigUtils
 ;
 private
 :
