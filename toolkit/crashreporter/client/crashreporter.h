@@ -346,6 +346,12 @@ ST_ERROR_CREATEDUMPDIR
 "
 ErrorCreateDumpDir
 "
+#
+define
+ST_ERROR_ENDOFLIFE
+"
+ErrorEndOfLife
+"
 /
 /
 =
