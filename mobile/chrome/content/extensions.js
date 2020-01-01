@@ -7213,6 +7213,17 @@ showRestart
 mode
 )
 ;
+if
+(
+aAddon
+.
+type
+!
+=
+"
+locale
+"
+)
 this
 .
 _showInstallCompleteAlert
