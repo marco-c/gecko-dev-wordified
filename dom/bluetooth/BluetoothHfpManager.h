@@ -366,6 +366,9 @@ mCurrentCallState
 bool
 mReceiveVgsFlag
 ;
+nsString
+mDevicePath
+;
 nsAutoPtr
 <
 BluetoothRilListener
