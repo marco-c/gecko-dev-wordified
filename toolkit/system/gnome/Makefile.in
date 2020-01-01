@@ -450,6 +450,10 @@ intl
 \
 widget
 \
+thebes
+\
+cairo
+\
 (
 NULL
 )
