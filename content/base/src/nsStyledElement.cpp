@@ -667,7 +667,7 @@ nsIContent
 methods
 nsIAtom
 *
-nsStyledElement
+nsStyledElementNotElementCSSInlineStyle
 :
 :
 GetClassAttributeName
@@ -684,7 +684,7 @@ _class
 }
 nsIAtom
 *
-nsStyledElement
+nsStyledElementNotElementCSSInlineStyle
 :
 :
 GetIDAttributeName
@@ -701,7 +701,7 @@ id
 }
 nsIAtom
 *
-nsStyledElement
+nsStyledElementNotElementCSSInlineStyle
 :
 :
 DoGetID
@@ -711,8 +711,9 @@ const
 {
 NS_ASSERTION
 (
-HasID
+HasFlag
 (
+NODE_HAS_ID
 )
 "
 Unexpected
@@ -751,9 +752,10 @@ chance
 to
 /
 /
-ClearHasID
-(
-)
+clear
+the
+NODE_HAS_ID
+flag
 .
 const
 nsAttrValue
@@ -786,7 +788,7 @@ nsnull
 const
 nsAttrValue
 *
-nsStyledElement
+nsStyledElementNotElementCSSInlineStyle
 :
 :
 DoGetClasses
@@ -819,7 +821,7 @@ _class
 ;
 }
 PRBool
-nsStyledElement
+nsStyledElementNotElementCSSInlineStyle
 :
 :
 ParseAttribute
@@ -857,8 +859,9 @@ nsGkAtoms
 style
 )
 {
-SetMayHaveStyle
+SetFlags
 (
+NODE_MAY_HAVE_STYLE
 )
 ;
 ParseStyleAttribute
@@ -954,8 +957,9 @@ IsEmpty
 )
 )
 {
-ClearHasID
+UnsetFlags
 (
+NODE_HAS_ID
 )
 ;
 return
@@ -969,8 +973,9 @@ ParseAtom
 aValue
 )
 ;
-SetHasID
+SetFlags
 (
+NODE_HAS_ID
 )
 ;
 AddToIdTable
@@ -1001,7 +1006,7 @@ aResult
 ;
 }
 nsresult
-nsStyledElement
+nsStyledElementNotElementCSSInlineStyle
 :
 :
 UnsetAttr
@@ -1065,7 +1070,7 @@ aNotify
 ;
 }
 nsresult
-nsStyledElement
+nsStyledElementNotElementCSSInlineStyle
 :
 :
 AfterSetAttr
@@ -1154,8 +1159,9 @@ keep
 this
 flag
 .
-ClearHasID
+UnsetFlags
 (
+NODE_HAS_ID
 )
 ;
 }
@@ -1173,7 +1179,7 @@ aNotify
 ;
 }
 NS_IMETHODIMP
-nsStyledElement
+nsStyledElementNotElementCSSInlineStyle
 :
 :
 SetInlineStyleRule
@@ -1188,8 +1194,9 @@ PRBool
 aNotify
 )
 {
-SetMayHaveStyle
+SetFlags
 (
+NODE_MAY_HAVE_STYLE
 )
 ;
 PRBool
@@ -1440,7 +1447,7 @@ css
 :
 StyleRule
 *
-nsStyledElement
+nsStyledElementNotElementCSSInlineStyle
 :
 :
 GetInlineStyleRule
@@ -1450,8 +1457,9 @@ GetInlineStyleRule
 if
 (
 !
-MayHaveStyle
+HasFlag
 (
+NODE_MAY_HAVE_STYLE
 )
 )
 {
@@ -1507,7 +1515,7 @@ nsnull
 ;
 }
 nsresult
-nsStyledElement
+nsStyledElementNotElementCSSInlineStyle
 :
 :
 BindToTree
@@ -1550,8 +1558,9 @@ if
 aDocument
 &
 &
-HasID
+HasFlag
 (
+NODE_HAS_ID
 )
 &
 &
@@ -1619,7 +1628,7 @@ NS_OK
 ;
 }
 void
-nsStyledElement
+nsStyledElementNotElementCSSInlineStyle
 :
 :
 UnbindFromTree
@@ -1716,7 +1725,7 @@ and
 helpers
 nsIDOMCSSStyleDeclaration
 *
-nsStyledElement
+nsStyledElementNotElementCSSInlineStyle
 :
 :
 GetStyle
@@ -1824,8 +1833,9 @@ endif
 MOZ_SMIL
 )
 ;
-SetMayHaveStyle
+SetFlags
 (
+NODE_MAY_HAVE_STYLE
 )
 ;
 }
@@ -1842,7 +1852,7 @@ mStyle
 ;
 }
 nsresult
-nsStyledElement
+nsStyledElementNotElementCSSInlineStyle
 :
 :
 ReparseStyleAttribute
@@ -1854,8 +1864,9 @@ aForceInDataDoc
 if
 (
 !
-MayHaveStyle
+HasFlag
 (
+NODE_MAY_HAVE_STYLE
 )
 )
 {
@@ -1969,7 +1980,7 @@ NS_OK
 ;
 }
 void
-nsStyledElement
+nsStyledElementNotElementCSSInlineStyle
 :
 :
 ParseStyleAttribute

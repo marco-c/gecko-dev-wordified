@@ -609,7 +609,7 @@ SVGAnimatedPreserveAspectRatio
 ;
 }
 typedef
-nsStyledElement
+nsStyledElementNotElementCSSInlineStyle
 nsSVGElementBase
 ;
 class
