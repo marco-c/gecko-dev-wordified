@@ -2827,10 +2827,6 @@ set
 during
 painting
 static
-WinRenderMode
-sRenderMode
-;
-static
 nsAutoPtr
 <
 PRUint8
