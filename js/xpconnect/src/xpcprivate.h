@@ -24810,6 +24810,10 @@ extern
 bool
 gDesiredDebugMode
 ;
+extern
+JSClass
+SafeJSContextGlobalClass
+;
 JSObject
 *
 NewOutObject

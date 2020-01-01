@@ -850,9 +850,11 @@ obj
 )
 ;
 }
-static
 JSClass
-global_class
+xpc
+:
+:
+SafeJSContextGlobalClass
 =
 {
 "
@@ -1055,7 +1057,7 @@ CreateGlobalObject
 (
 mSafeJSContext
 &
-global_class
+SafeJSContextGlobalClass
 principal
 options
 )
