@@ -12967,7 +12967,7 @@ base
 JSSLOT_FREE
 (
 &
-js_BlockClass
+BlockClass
 )
 ;
 for
@@ -31983,7 +31983,7 @@ PNX_NONCONST
 gc
 :
 :
-FinalizeKind
+AllocKind
 kind
 =
 GuessObjectGCKind
@@ -32000,7 +32000,7 @@ NewBuiltinClassInstance
 (
 cx
 &
-js_ObjectClass
+ObjectClass
 kind
 )
 ;
@@ -46646,7 +46646,7 @@ compileAndGo
 gc
 :
 :
-FinalizeKind
+AllocKind
 kind
 =
 GuessObjectGCKind
@@ -46664,7 +46664,7 @@ NewBuiltinClassInstance
 (
 cx
 &
-js_ObjectClass
+ObjectClass
 kind
 )
 ;

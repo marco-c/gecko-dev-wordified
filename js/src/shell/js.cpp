@@ -8803,7 +8803,7 @@ clasp
 Jsvalify
 (
 &
-js_ScriptClass
+ScriptClass
 )
 )
 {
@@ -8829,7 +8829,7 @@ clasp
 Jsvalify
 (
 &
-js_GeneratorClass
+GeneratorClass
 )
 )
 {
@@ -9161,7 +9161,7 @@ v
 Jsvalify
 (
 &
-js_FunctionClass
+FunctionClass
 )
 |
 |
@@ -9178,7 +9178,7 @@ v
 Jsvalify
 (
 &
-js_ScriptClass
+ScriptClass
 )
 )
 )
@@ -23214,7 +23214,7 @@ ifdef
 JS_METHODJIT
 static
 void
-SumJitDataSizeCallabck
+SumJitDataSizeCallback
 (
 JSContext
 *
@@ -23274,6 +23274,7 @@ script
 >
 jitDataSize
 (
+NULL
 )
 ;
 }
@@ -23310,7 +23311,7 @@ gc
 FINALIZE_TYPE_OBJECT
 &
 n
-SumJitDataSizeCallabck
+SumJitDataSizeCallback
 )
 ;
 JS_SET_RVAL
@@ -28825,6 +28826,11 @@ n
 message
 )
 ;
+fflush
+(
+gErrFile
+)
+;
 return
 ;
 }
@@ -29271,6 +29277,11 @@ gErrFile
 ;
 out
 :
+fflush
+(
+gErrFile
+)
+;
 if
 (
 !
@@ -30214,10 +30225,6 @@ HPUX
 |
 defined
 OSF1
-|
-|
-defined
-IRIX
 {
 char
 *

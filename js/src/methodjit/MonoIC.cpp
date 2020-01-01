@@ -5892,7 +5892,7 @@ ic
 .
 funObjReg
 &
-js_FunctionClass
+FunctionClass
 )
 ;
 /
@@ -10206,6 +10206,10 @@ cs
 .
 executableAddress
 (
+)
+(
+unsigned
+long
 )
 masm
 .

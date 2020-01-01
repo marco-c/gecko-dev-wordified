@@ -4065,6 +4065,15 @@ trc
 size_t
 scriptDataSize
 (
+size_t
+(
+*
+mus
+)
+(
+void
+*
+)
 )
 ;
 jsbytecode
@@ -4321,7 +4330,7 @@ ReleaseScriptCode
 (
 cx
 script
-CONSTRUCT
+true
 )
 ;
 if
@@ -4338,7 +4347,7 @@ ReleaseScriptCode
 (
 cx
 script
-NO_CONSTRUCT
+false
 )
 ;
 }
