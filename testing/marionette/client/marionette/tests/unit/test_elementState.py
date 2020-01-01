@@ -494,6 +494,22 @@ l
 ]
 )
     
+'
+'
+'
+Switched
+on
+in
+Bug
+896043
+to
+be
+turned
+on
+in
+Bug
+896046
+    
 def
 test_isDisplayed
 (
@@ -582,3 +598,7 @@ false
 l
 ]
 )
+    
+'
+'
+'
