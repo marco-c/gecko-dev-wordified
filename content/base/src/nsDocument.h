@@ -7271,6 +7271,13 @@ CheckFrameOptions
 nsresult
 InitCSP
 (
+nsIChannel
+*
+aChannel
+nsIContentSecurityPolicy
+*
+*
+aCSP
 )
 ;
 /
