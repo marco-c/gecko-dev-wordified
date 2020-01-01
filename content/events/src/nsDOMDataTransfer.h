@@ -1040,6 +1040,9 @@ nsIPrincipal
 *
 GetCurrentPrincipal
 (
+nsresult
+*
+rv
 )
 ;
 /
