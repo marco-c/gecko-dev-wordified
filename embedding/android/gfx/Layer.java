@@ -435,15 +435,11 @@ gecko
 gfx
 ;
 import
-org
+android
 .
-mozilla
+graphics
 .
-gecko
-.
-gfx
-.
-FloatPoint
+PointF
 ;
 import
 javax
@@ -462,7 +458,7 @@ class
 Layer
 {
 public
-FloatPoint
+PointF
 origin
 ;
 public
@@ -473,7 +469,7 @@ Layer
 origin
 =
 new
-FloatPoint
+PointF
 (
 0
 .

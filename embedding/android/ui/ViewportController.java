@@ -435,15 +435,11 @@ gecko
 ui
 ;
 import
-org
+android
 .
-mozilla
+graphics
 .
-gecko
-.
-gfx
-.
-FloatPoint
+PointF
 ;
 import
 org
@@ -675,7 +671,7 @@ FloatRect
 rect
 )
 {
-FloatPoint
+PointF
 center
 =
 rect
