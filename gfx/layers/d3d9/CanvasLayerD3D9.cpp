@@ -840,6 +840,13 @@ r
 pBits
 ;
 }
+mGLContext
+-
+>
+MakeCurrent
+(
+)
+;
 /
 /
 We
