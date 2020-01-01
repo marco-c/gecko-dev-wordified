@@ -1752,9 +1752,6 @@ invoker
 ;
 if
 (
-true
-|
-|
 gA11yEventDumpToConsole
 )
 dump
