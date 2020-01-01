@@ -78,6 +78,13 @@ string
 h
 >
 #
+include
+<
+stdint
+.
+h
+>
+#
 if
 defined
 (
@@ -328,7 +335,7 @@ result
 .
 numA
 =
-PR_INT32_MAX
+INT32_MAX
 ;
 result
 .

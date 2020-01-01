@@ -92,6 +92,11 @@ nscore
 .
 h
 "
+#
+include
+<
+limits
+>
 /
 *
 *
@@ -1136,7 +1141,7 @@ aData
 may
 pass
 *
-PR_UINT32_MAX
+UINT32_MAX
 if
 aData
 is
@@ -1252,7 +1257,7 @@ nullptr
 uint32_t
 aDataLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 uint32_t
 aFlags
 =
@@ -1595,7 +1600,7 @@ some
 value
 other
 than
-PR_UINT32_MAX
+UINT32_MAX
 *
 the
 caller
@@ -1653,7 +1658,7 @@ internal
 buffer
 to
 or
-PR_UINT32_MAX
+UINT32_MAX
 if
 no
 resizing
@@ -1879,7 +1884,7 @@ string
 (
 pass
 *
-PR_UINT32_MAX
+UINT32_MAX
 to
 copy
 until
@@ -1969,7 +1974,7 @@ aData
 uint32_t
 aDataLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 /
@@ -2031,7 +2036,7 @@ be
 overwritten
 (
 pass
-PR_UINT32_MAX
+UINT32_MAX
 to
 cause
 *
@@ -2070,7 +2075,7 @@ at
 aCutOffset
 (
 pass
-PR_UINT32_MAX
+UINT32_MAX
 to
 overwrite
 until
@@ -2117,7 +2122,7 @@ string
 (
 pass
 *
-PR_UINT32_MAX
+UINT32_MAX
 to
 copy
 until
@@ -2211,7 +2216,7 @@ aData
 uint32_t
 aDataLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 /
@@ -2377,7 +2382,7 @@ to
 append
 (
 pass
-PR_UINT32_MAX
+UINT32_MAX
 to
 *
 append
@@ -2463,14 +2468,14 @@ aData
 uint32_t
 aDataLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 return
 NS_StringSetDataRange
 (
 aStr
-PR_UINT32_MAX
+UINT32_MAX
 0
 aData
 aDataLength
@@ -2536,7 +2541,7 @@ to
 append
 (
 pass
-PR_UINT32_MAX
+UINT32_MAX
 to
 *
 append
@@ -2624,7 +2629,7 @@ aData
 uint32_t
 aDataLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 return
@@ -3234,7 +3239,7 @@ aData
 may
 pass
 *
-PR_UINT32_MAX
+UINT32_MAX
 if
 aData
 is
@@ -3350,7 +3355,7 @@ nullptr
 uint32_t
 aDataLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 uint32_t
 aFlags
 =
@@ -3693,7 +3698,7 @@ some
 value
 other
 than
-PR_UINT32_MAX
+UINT32_MAX
 *
 the
 caller
@@ -3751,7 +3756,7 @@ internal
 buffer
 to
 or
-PR_UINT32_MAX
+UINT32_MAX
 if
 no
 resizing
@@ -3977,7 +3982,7 @@ string
 (
 pass
 *
-PR_UINT32_MAX
+UINT32_MAX
 to
 copy
 until
@@ -4067,7 +4072,7 @@ aData
 uint32_t
 aDataLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 /
@@ -4129,7 +4134,7 @@ be
 overwritten
 (
 pass
-PR_UINT32_MAX
+UINT32_MAX
 to
 cause
 *
@@ -4168,7 +4173,7 @@ at
 aCutOffset
 (
 pass
-PR_UINT32_MAX
+UINT32_MAX
 to
 overwrite
 until
@@ -4215,7 +4220,7 @@ string
 (
 pass
 *
-PR_UINT32_MAX
+UINT32_MAX
 to
 copy
 until
@@ -4309,7 +4314,7 @@ aData
 uint32_t
 aDataLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 /
@@ -4475,7 +4480,7 @@ to
 append
 (
 pass
-PR_UINT32_MAX
+UINT32_MAX
 to
 *
 append
@@ -4561,14 +4566,14 @@ aData
 uint32_t
 aDataLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 return
 NS_CStringSetDataRange
 (
 aStr
-PR_UINT32_MAX
+UINT32_MAX
 0
 aData
 aDataLength
@@ -4634,7 +4639,7 @@ to
 append
 (
 pass
-PR_UINT32_MAX
+UINT32_MAX
 to
 *
 append
@@ -4722,7 +4727,7 @@ aData
 uint32_t
 aDataLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 return
