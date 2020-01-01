@@ -432,6 +432,10 @@ as
 outfile
 :
     
+#
+for
+Win32
+    
 data
 =
 data
@@ -443,6 +447,24 @@ __imp__free
 '
 '
 __imp__frex
+'
+)
+    
+#
+for
+Win64
+    
+data
+=
+data
+.
+replace
+(
+'
+__imp_free
+'
+'
+__imp_frex
 '
 )
     
