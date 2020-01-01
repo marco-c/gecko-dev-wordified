@@ -349,6 +349,13 @@ h
 #
 include
 <
+errno
+.
+h
+>
+#
+include
+<
 ctype
 .
 h
