@@ -456,7 +456,7 @@ ifndef
 _mozStorageSQLFunctions_h_
 #
 define
-_mozStorageUnicodeFunctions_h_
+_mozStorageSQLFunctions_h_
 #
 include
 "
