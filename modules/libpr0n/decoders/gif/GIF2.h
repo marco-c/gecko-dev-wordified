@@ -444,10 +444,6 @@ MAX_LZW_BITS
 /
 #
 define
-MINIMUM_DELAY_TIME
-100
-#
-define
 MAX_COLORS
 256
 #
