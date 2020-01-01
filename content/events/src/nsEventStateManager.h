@@ -299,6 +299,13 @@ mozilla
 TimeDuration
 TimeDuration
 ;
+typedef
+mozilla
+:
+:
+LayoutDeviceIntPoint
+LayoutDeviceIntPoint
+;
 nsEventStateManager
 (
 )
@@ -1138,7 +1145,7 @@ aTarget
 )
 ;
 static
-nsIntPoint
+LayoutDeviceIntPoint
 GetChildProcessOffset
 (
 nsFrameLoader
@@ -1167,7 +1174,7 @@ void
 MapEventCoordinatesForChildProcess
 (
 const
-nsIntPoint
+LayoutDeviceIntPoint
 &
 aOffset
 nsEvent
