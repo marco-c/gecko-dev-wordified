@@ -9394,6 +9394,11 @@ mode
 mode
 .
 mode
+&
+&
+mode
+.
+mode
 !
 =
 =
@@ -9410,10 +9415,13 @@ ThrowError
 (
 JSMSG_WRONG_VALUE
 "
-par
+parallel
+execution
 "
 "
-seq
+sequential
+was
+forced
 "
 )
 ;
