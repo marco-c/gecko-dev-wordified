@@ -452,6 +452,13 @@ h
 #
 include
 "
+nsIEventTarget
+.
+h
+"
+#
+include
+"
 m_cpp_utils
 .
 h
@@ -723,9 +730,9 @@ NR_ASYNC_WAIT_WRITE
 ;
 nsCOMPtr
 <
-nsISocketTransportService
+nsIEventTarget
 >
-stservice_
+ststhread_
 ;
 }
 ;
