@@ -3616,7 +3616,7 @@ unused
 JSTRACE_FUNCTION
 /
 *
-GCX_PRIVATE
+GCX_FUNCTION
 (
 unused
 )
