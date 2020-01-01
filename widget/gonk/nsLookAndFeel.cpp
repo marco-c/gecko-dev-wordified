@@ -1511,7 +1511,7 @@ AssignLiteral
 "
 \
 "
-Feura
+Droid
 Sans
 \
 "
