@@ -1642,6 +1642,7 @@ obj
 ;
 }
 static
+inline
 bool
 instanceIsListObject
 (
@@ -1680,6 +1681,7 @@ sInterfaceClass
 ;
 }
 static
+inline
 ListType
 *
 getListObject
