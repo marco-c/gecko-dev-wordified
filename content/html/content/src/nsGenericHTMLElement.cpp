@@ -14135,7 +14135,7 @@ if
 none
 of
 these
-coniditions
+conditions
 are
 /
 /
