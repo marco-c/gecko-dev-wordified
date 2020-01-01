@@ -6430,10 +6430,6 @@ lifo_
 ionContext_
 (
 cx
-cx
--
->
-compartment
 &
 alloc_
 )

@@ -3927,6 +3927,10 @@ GetPrincipal
 (
 )
 )
+JS
+:
+:
+SystemZone
 )
 ;
 if
