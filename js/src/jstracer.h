@@ -961,6 +961,9 @@ JSFrameRegs
 *
 entryRegs
 ;
+unsigned
+callDepth
+;
 JSAtom
 *
 *
