@@ -589,6 +589,33 @@ self
 path
 )
         
+cmd
+=
+js_cmd_prefix
++
+Test
+.
+prefix_command
+(
+dir
+)
+        
+if
+self
+.
+debugMode
+:
+            
+cmd
++
+=
+[
+'
+-
+d
+'
+]
+        
 #
 There
 is
@@ -607,16 +634,9 @@ with
 '
 .
         
-return
-js_cmd_prefix
+cmd
 +
-Test
-.
-prefix_command
-(
-dir
-)
-+
+=
 [
 '
 -
@@ -631,6 +651,9 @@ self
 .
 path
 ]
+        
+return
+cmd
     
 def
 run
@@ -711,6 +734,7 @@ enable
 expect
 random
 slow
+debugMode
 )
 :
         
@@ -791,6 +815,24 @@ test
 may
 run
 slowly
+        
+self
+.
+debugMode
+=
+debugMode
+#
+bool
+:
+True
+=
+>
+must
+be
+run
+in
+debug
+mode
     
 def
 __str__
@@ -857,6 +899,19 @@ ans
 =
 '
 slow
+'
+        
+if
+self
+.
+debugMode
+:
+            
+ans
++
+=
+'
+debugMode
 '
         
 return
