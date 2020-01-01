@@ -2729,8 +2729,6 @@ var
 assertions
 =
 {
-/
-/
 "
 tableData
 "
@@ -2742,12 +2740,6 @@ phish
 -
 simple
 ;
-"
-"
-tableData
-"
-:
-"
 "
 }
 ;
@@ -3412,6 +3404,9 @@ testSubPartiallyMatches2
 testSubsDifferentChunks
 testSubsDifferentChunksSameHostId
 testExpireLists
+testDuplicateAddChunks
+testExpireWholeSub
+testPreventWholeSub
 ]
 )
 ;
