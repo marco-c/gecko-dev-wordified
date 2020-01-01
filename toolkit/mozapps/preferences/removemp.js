@@ -1,5 +1,4 @@
-/
-/
+#
 -
 *
 -
@@ -11,7 +10,7 @@ tab
 -
 width
 :
-2
+4
 ;
 indent
 -
@@ -27,12 +26,11 @@ basic
 -
 offset
 :
-2
+4
 -
 *
 -
-/
-*
+#
 This
 Source
 Code
@@ -46,7 +44,7 @@ of
 the
 Mozilla
 Public
-*
+#
 License
 v
 .
@@ -65,7 +63,7 @@ not
 distributed
 with
 this
-*
+#
 file
 You
 can
@@ -87,8 +85,6 @@ MPL
 0
 /
 .
-*
-/
 var
 gRemovePasswordDialog
 =
