@@ -617,6 +617,10 @@ nsIPercentHeightObserver
 {
 public
 :
+NS_DECLARE_FRAME_ACCESSOR
+(
+nsTableCellFrame
+)
 NS_DECL_QUERYFRAME
 /
 /
