@@ -9782,7 +9782,7 @@ callError
 ;
 options
 .
-error
+errorMsg
 =
 RIL_CALL_FAILCAUSE_TO_GECKO_CALL_ERROR
 [
@@ -19507,7 +19507,7 @@ ERROR_GENERIC_FAILURE
 {
 message
 .
-error
+errorMsg
 =
 RIL_ERROR_TO_GECKO_ERROR
 [
@@ -19519,7 +19519,7 @@ else
 {
 message
 .
-error
+errorMsg
 =
 RIL_DATACALL_FAILCAUSE_TO_GECKO_DATACALL_ERROR
 [
@@ -23208,7 +23208,7 @@ envelopeId
 options
 .
 envelopeId
-error
+errorMsg
 :
 options
 .
@@ -27162,7 +27162,7 @@ callError
 ;
 options
 .
-error
+errorMsg
 =
 RIL_CALL_FAILCAUSE_TO_GECKO_CALL_ERROR
 [
@@ -29216,7 +29216,7 @@ rilRequestError
 {
 options
 .
-error
+errorMsg
 =
 RIL_ERROR_TO_GECKO_ERROR
 [
@@ -29603,7 +29603,7 @@ rilRequestError
 {
 options
 .
-error
+errorMsg
 =
 RIL_ERROR_TO_GECKO_ERROR
 [
@@ -29652,7 +29652,7 @@ rilRequestError
 {
 options
 .
-error
+errorMsg
 =
 RIL_ERROR_TO_GECKO_ERROR
 [
@@ -29701,7 +29701,7 @@ rilRequestError
 {
 options
 .
-error
+errorMsg
 =
 RIL_ERROR_TO_GECKO_ERROR
 [

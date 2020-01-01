@@ -10632,7 +10632,7 @@ switch
 (
 message
 .
-error
+errorMsg
 )
 {
 case
@@ -13335,7 +13335,7 @@ callIndex
 :
 -
 1
-error
+errorMsg
 :
 RIL
 .
