@@ -1515,7 +1515,6 @@ DFAKE_MUTEX
 (
 locked_methods_
 )
-;
 }
 ;
 /

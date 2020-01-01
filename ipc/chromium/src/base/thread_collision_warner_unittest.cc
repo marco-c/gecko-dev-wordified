@@ -149,6 +149,7 @@ base
 AsserterBase
 >
 obj
+;
 /
 /
 In
@@ -734,7 +735,6 @@ DFAKE_MUTEX
 (
 push_pop_
 )
-;
 DISALLOW_COPY_AND_ASSIGN
 (
 NonThreadSafeQueue
@@ -983,7 +983,6 @@ DFAKE_MUTEX
 (
 push_pop_
 )
-;
 DISALLOW_COPY_AND_ASSIGN
 (
 NonThreadSafeQueue
@@ -1232,7 +1231,6 @@ DFAKE_MUTEX
 (
 push_pop_
 )
-;
 DISALLOW_COPY_AND_ASSIGN
 (
 NonThreadSafeQueue
@@ -1545,7 +1543,6 @@ DFAKE_MUTEX
 (
 push_pop_
 )
-;
 DISALLOW_COPY_AND_ASSIGN
 (
 NonThreadSafeQueue
