@@ -41666,8 +41666,6 @@ ThrowMethodFailedWithDetails
 <
 %
 s
-%
-s
 >
 (
 cx
@@ -41680,6 +41678,8 @@ s
 %
 s
 "
+%
+s
 )
 ;
 '
@@ -41695,8 +41695,6 @@ descriptor
 .
 workers
 )
-                            
-jsImplemented
                             
 self
 .
@@ -41715,6 +41713,8 @@ idlNode
 identifier
 .
 name
+                            
+jsImplemented
 )
 )
     
