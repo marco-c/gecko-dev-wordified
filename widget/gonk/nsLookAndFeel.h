@@ -234,6 +234,12 @@ GetPasswordMaskDelayImpl
 (
 )
 ;
+virtual
+PRUnichar
+GetPasswordCharacterImpl
+(
+)
+;
 protected
 :
 virtual
