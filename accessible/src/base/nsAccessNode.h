@@ -829,7 +829,12 @@ PRBool
 IsDefunct
 (
 )
+{
+return
+!
+mContent
 ;
+}
 /
 *
 *
