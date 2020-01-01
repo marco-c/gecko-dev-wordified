@@ -527,7 +527,7 @@ TEST_URI
 )
 {
 let
-visidId
+visitId
 =
 history
 .
