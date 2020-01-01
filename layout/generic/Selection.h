@@ -318,6 +318,17 @@ GetPresShell
 )
 const
 ;
+nsFrameSelection
+*
+GetFrameSelection
+(
+)
+const
+{
+return
+mFrameSelection
+;
+}
 /
 /
 Returns
