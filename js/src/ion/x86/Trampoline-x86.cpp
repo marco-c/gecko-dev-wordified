@@ -3522,7 +3522,7 @@ IonFrame_Rectifier
 /
 /
 Construct
-IonFrameData
+IonJSFrameLayout
 .
 masm
 .

@@ -2468,7 +2468,7 @@ DTRAddr
 sp
 DtrOffImm
 (
-IonFrameData
+IonJSFrameLayout
 :
 :
 offsetOfCalleeToken
@@ -2631,7 +2631,7 @@ Imm32
 (
 sizeof
 (
-IonFrameData
+IonJSFrameLayout
 )
 )
 r3
@@ -2743,7 +2743,7 @@ IonFrame_Rectifier
 /
 /
 Construct
-IonFrameData
+IonJSFrameLayout
 .
 masm
 .

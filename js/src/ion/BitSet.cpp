@@ -548,8 +548,7 @@ temp
 bits_
 =
 (
-unsigned
-long
+uint32
 *
 )
 alloc
@@ -1030,8 +1029,7 @@ i
 +
 )
 {
-unsigned
-long
+uint32
 old
 =
 bits_

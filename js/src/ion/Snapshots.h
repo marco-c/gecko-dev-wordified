@@ -1842,7 +1842,7 @@ MAX_BUFFER_SIZE
 ;
 }
 size_t
-length
+size
 (
 )
 const
