@@ -1792,11 +1792,7 @@ InputContext
 GetInputContext
 (
 )
-{
-return
-mInputContext
 ;
-}
 /
 /
 nsWindow
