@@ -9006,7 +9006,6 @@ LInsp
 i
 Reservation
 *
-resv
 Register
 r
 )
