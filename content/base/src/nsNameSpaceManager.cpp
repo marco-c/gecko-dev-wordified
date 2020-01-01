@@ -1044,7 +1044,7 @@ mURIArray
 static
 NameSpaceManagerImpl
 *
-gNameSpaceManager
+sNameSpaceManager
 =
 nsnull
 ;
@@ -1857,7 +1857,7 @@ aInstancePtrResult
 if
 (
 !
-gNameSpaceManager
+sNameSpaceManager
 )
 {
 nsCOMPtr
@@ -1898,7 +1898,7 @@ manager
 .
 swap
 (
-gNameSpaceManager
+sNameSpaceManager
 )
 ;
 }
@@ -1907,11 +1907,11 @@ gNameSpaceManager
 *
 aInstancePtrResult
 =
-gNameSpaceManager
+sNameSpaceManager
 ;
 NS_ENSURE_TRUE
 (
-gNameSpaceManager
+sNameSpaceManager
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
@@ -1932,7 +1932,7 @@ NS_NameSpaceManagerShutdown
 {
 NS_IF_RELEASE
 (
-gNameSpaceManager
+sNameSpaceManager
 )
 ;
 }
