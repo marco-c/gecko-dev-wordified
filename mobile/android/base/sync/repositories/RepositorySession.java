@@ -1519,7 +1519,7 @@ try
 {
 storeWorkQueue
 .
-shutdown
+shutdownNow
 (
 )
 ;
