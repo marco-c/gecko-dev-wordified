@@ -16477,6 +16477,9 @@ refresher
 SetupRefreshURIFromHeader
 (
 mDocumentURI
+NodePrincipal
+(
+)
 NS_ConvertUTF16toUTF8
 (
 aData
