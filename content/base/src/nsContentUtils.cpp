@@ -29682,15 +29682,6 @@ if
 (
 !
 target
-&
-&
-!
-target
--
->
-OwnerDoc
-(
-)
 )
 {
 return
