@@ -530,13 +530,6 @@ h
 #
 include
 "
-mozStorageEvents
-.
-h
-"
-#
-include
-"
 mozStorageStatementParams
 .
 h
