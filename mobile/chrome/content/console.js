@@ -1430,7 +1430,7 @@ row
 .
 collapsed
 =
-false
+true
 ;
 this
 .
