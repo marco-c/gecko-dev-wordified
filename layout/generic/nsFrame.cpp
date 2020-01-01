@@ -41423,9 +41423,13 @@ parentReflowState
 .
 SetComputedWidth
 (
+NS_MAX
+(
 parentSize
 .
 width
+0
+)
 )
 ;
 if
@@ -41441,9 +41445,13 @@ parentReflowState
 .
 SetComputedHeight
 (
+NS_MAX
+(
 parentSize
 .
 height
+0
+)
 )
 ;
 parentReflowState
