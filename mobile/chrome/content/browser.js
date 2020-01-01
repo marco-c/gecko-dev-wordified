@@ -5218,6 +5218,14 @@ state
 if
 (
 tab
+=
+=
+this
+.
+_selectedTab
+&
+&
+tab
 .
 isLoading
 (
