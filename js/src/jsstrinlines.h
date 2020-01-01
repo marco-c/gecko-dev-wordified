@@ -2684,14 +2684,9 @@ JSExternalString
 *
 str
 =
-(
-JSExternalString
-*
-)
 js_NewGCExternalString
 (
 cx
-type
 )
 ;
 if
