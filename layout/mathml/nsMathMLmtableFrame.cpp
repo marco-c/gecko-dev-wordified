@@ -3879,6 +3879,8 @@ rowCount
 aRowIndex
 ;
 }
+else
+{
 /
 /
 aRowIndex
@@ -3899,6 +3901,7 @@ index
 -
 aRowIndex
 ;
+}
 /
 /
 if
