@@ -2208,6 +2208,8 @@ file
 .
 QueryInterface
 (
+Ci
+.
 nsILocalFile
 )
 ;
