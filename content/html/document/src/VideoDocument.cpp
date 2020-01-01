@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsIDocShellTreeItem
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

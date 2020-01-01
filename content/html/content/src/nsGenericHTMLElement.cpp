@@ -391,13 +391,6 @@ h
 #
 include
 "
-nsIDocShellTreeItem
-.
-h
-"
-#
-include
-"
 nsINameSpaceManager
 .
 h

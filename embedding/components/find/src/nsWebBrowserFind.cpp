@@ -185,13 +185,6 @@ h
 #
 include
 "
-nsIDocShellTreeItem
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h

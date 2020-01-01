@@ -148,7 +148,7 @@ class
 nsIFrame
 ;
 class
-nsIDocShellTreeItem
+nsIDocShell
 ;
 class
 nsITreeColumn
@@ -1126,8 +1126,6 @@ aNode
 Return
 document
 shell
-tree
-item
 for
 the
 given
@@ -1139,9 +1137,9 @@ node
 static
 already_AddRefed
 <
-nsIDocShellTreeItem
+nsIDocShell
 >
-GetDocShellTreeItemFor
+GetDocShellFor
 (
 nsINode
 *

@@ -425,13 +425,6 @@ limits
 #
 include
 "
-nsIDocShellTreeItem
-.
-h
-"
-#
-include
-"
 nsIAsyncVerifyRedirectCallback
 .
 h

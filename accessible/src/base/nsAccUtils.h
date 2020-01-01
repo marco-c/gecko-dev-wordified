@@ -155,13 +155,6 @@ h
 #
 include
 "
-nsIDocShellTreeItem
-.
-h
-"
-#
-include
-"
 nsIPersistentProperties2
 .
 h
