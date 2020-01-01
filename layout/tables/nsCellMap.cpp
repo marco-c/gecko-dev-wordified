@@ -1922,7 +1922,16 @@ map
 =
 GetMapFor
 (
+(
+nsTableRowGroupFrame
+*
+)
 rgFrame
+-
+>
+GetFirstInFlow
+(
+)
 map
 )
 ;
