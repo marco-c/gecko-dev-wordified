@@ -122,11 +122,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-ValidityState
+nsDOMValidityState
 .
 h
 "
@@ -229,13 +225,7 @@ mValidity
 mValidity
 =
 new
-mozilla
-:
-:
-dom
-:
-:
-ValidityState
+nsDOMValidityState
 (
 this
 )
