@@ -276,7 +276,7 @@ apps
 "
 :
 "
-allow
+prompt
 "
 }
 ;
