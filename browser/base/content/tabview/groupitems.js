@@ -2011,6 +2011,7 @@ zIndex
 ;
 }
 else
+{
 /
 /
 Calling
@@ -2026,18 +2027,7 @@ snap
 immediately
 )
 ;
-if
-(
-container
-)
-this
-.
-setBounds
-(
-rectToBe
-immediately
-)
-;
+}
 if
 (
 !
