@@ -5889,7 +5889,7 @@ isConstant
 |
 |
 (
-lhs
+rhs
 -
 >
 defUseCount
@@ -5900,14 +5900,13 @@ defUseCount
 1
 &
 &
-rhs
+lhs
 -
 >
 defUseCount
 (
 )
-!
-=
+>
 1
 )
 )
