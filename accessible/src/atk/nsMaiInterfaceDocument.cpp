@@ -453,7 +453,7 @@ BLOCK
 #
 include
 "
-nsMaiInterfaceDocument
+InterfaceInitFuncs
 .
 h
 "
@@ -468,6 +468,13 @@ h
 include
 "
 nsDocAccessible
+.
+h
+"
+#
+include
+"
+nsMai
 .
 h
 "
@@ -583,8 +590,11 @@ Interface
 ;
 if
 (
+NS_UNLIKELY
+(
 !
 aIface
+)
 )
 return
 ;

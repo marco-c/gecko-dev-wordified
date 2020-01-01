@@ -466,13 +466,6 @@ nsApplicationAccessibleWrap
 .
 h
 "
-#
-include
-"
-nsMaiInterfaceText
-.
-h
-"
 /
 *
 For
