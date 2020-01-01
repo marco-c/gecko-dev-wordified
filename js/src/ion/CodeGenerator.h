@@ -1022,6 +1022,14 @@ ool
 )
 ;
 bool
+visitToIdV
+(
+LToIdV
+*
+lir
+)
+;
+bool
 visitLoadElementV
 (
 LLoadElementV

@@ -555,6 +555,11 @@ TypeOf
 \
 _
 (
+ToId
+)
+\
+_
+(
 BitAnd
 )
 \

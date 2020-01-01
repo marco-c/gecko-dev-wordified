@@ -975,6 +975,14 @@ ins
 )
 ;
 bool
+visitToId
+(
+MToId
+*
+ins
+)
+;
+bool
 visitBitNot
 (
 MBitNot
