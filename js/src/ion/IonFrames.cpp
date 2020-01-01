@@ -2580,6 +2580,16 @@ isBaselineJS
 )
 )
 {
+if
+(
+cx
+-
+>
+isExceptionPending
+(
+)
+)
+{
 HandleException
 (
 cx
@@ -2602,6 +2612,7 @@ RESUME_CATCH
 )
 return
 ;
+}
 if
 (
 cx

@@ -1001,6 +1001,10 @@ bool
 calledIntoIon
 =
 false
+Register
+scratch
+=
+ScratchRegister
 )
 {
 /
@@ -1070,7 +1074,7 @@ masm
 .
 pop
 (
-ScratchRegister
+scratch
 )
 ;
 masm
@@ -1081,15 +1085,15 @@ Imm32
 (
 FRAMESIZE_SHIFT
 )
-ScratchRegister
-ScratchRegister
+scratch
+scratch
 )
 ;
 masm
 .
 ma_add
 (
-ScratchRegister
+scratch
 BaselineStackReg
 )
 ;
@@ -1144,7 +1148,7 @@ masm
 .
 pop
 (
-ScratchRegister
+scratch
 )
 ;
 }

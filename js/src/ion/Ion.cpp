@@ -699,6 +699,10 @@ invalidator_
 (
 NULL
 )
+debugTrapHandler_
+(
+NULL
+)
 functionWrappers_
 (
 NULL
