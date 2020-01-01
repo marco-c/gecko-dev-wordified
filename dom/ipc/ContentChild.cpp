@@ -1466,9 +1466,6 @@ getLibraryMapping
 while
 (
 info
-&
-&
-info
 -
 >
 name
