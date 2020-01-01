@@ -425,7 +425,6 @@ js
 :
 FindClassObject
 *
-FindClassPrototype
 and
 spec
 language
@@ -436,9 +435,9 @@ of
 "
 the
 original
-*
 Array
 prototype
+*
 object
 "
 or
@@ -454,10 +453,10 @@ Array
 )
 "
 referring
-*
 to
 the
 original
+*
 Array
 constructor
 .
@@ -469,10 +468,10 @@ the
 (
 writable
 and
-*
 even
 deletable
 )
+*
 Object
 Array
 &
@@ -488,10 +487,10 @@ won
 t
 be
 used
-*
 again
 if
 its
+*
 property
 is
 deleted
