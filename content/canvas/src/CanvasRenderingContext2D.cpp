@@ -9668,14 +9668,6 @@ CanvasRenderingContext2D
 :
 EnsureUserSpacePath
 (
-bool
-aCommitTransform
-/
-*
-=
-true
-*
-/
 )
 {
 FillRule
@@ -9737,9 +9729,6 @@ nullptr
 }
 if
 (
-aCommitTransform
-&
-&
 mPath
 &
 &
@@ -15595,7 +15584,6 @@ false
 }
 EnsureUserSpacePath
 (
-false
 )
 ;
 if
@@ -15676,7 +15664,6 @@ false
 }
 EnsureUserSpacePath
 (
-false
 )
 ;
 if
