@@ -4482,6 +4482,7 @@ only
 /
 return
 !
+memcmp
 (
 data
 (
