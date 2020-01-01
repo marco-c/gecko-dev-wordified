@@ -2386,6 +2386,17 @@ nsCOMPtr
 <
 mozIStorageStatement
 >
+mDBIsPageVisited
+;
+/
+/
+used
+by
+IsURIStringVisited
+nsCOMPtr
+<
+mozIStorageStatement
+>
 mDBUpdatePageVisitStats
 ;
 /
