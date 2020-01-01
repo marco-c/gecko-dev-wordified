@@ -68,6 +68,13 @@ gfx
 import
 android
 .
+os
+.
+Handler
+;
+import
+android
+.
 view
 .
 KeyEvent
@@ -94,6 +101,13 @@ public
 interface
 InputConnectionHandler
 {
+Handler
+getHandler
+(
+Handler
+defHandler
+)
+;
 InputConnection
 onCreateInputConnection
 (
