@@ -62,6 +62,17 @@ org
 mozilla
 .
 gecko
+.
+widget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+R
 ;
 import
 android

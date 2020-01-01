@@ -264,6 +264,7 @@ thumbnails
 .
 *
 /
+public
 final
 class
 ThumbnailHelper
