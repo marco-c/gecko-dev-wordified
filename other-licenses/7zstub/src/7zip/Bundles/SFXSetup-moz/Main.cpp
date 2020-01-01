@@ -735,6 +735,12 @@ dwmapi
 .
 dll
 "
+L
+"
+cryptbase
+.
+dll
+"
 }
 ;
 WCHAR
