@@ -8740,7 +8740,7 @@ scroll
 offset
 .
 let
-dx
+offsetX
 =
 Math
 .
@@ -8761,7 +8761,7 @@ _stopAtSidebar
 0
 &
 &
-dx
+offsetX
 >
 0
 )
@@ -8775,7 +8775,7 @@ _stopAtSidebar
 0
 &
 &
-dx
+offsetX
 <
 0
 )
@@ -8783,7 +8783,7 @@ dx
 {
 if
 (
-dx
+offsetX
 !
 =
 Math
