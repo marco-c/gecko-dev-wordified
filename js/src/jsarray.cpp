@@ -3625,7 +3625,15 @@ JS_ARRAY_HOLE
 )
 ;
 return
-JS_TRUE
+js_SuppressDeletedIndexProperties
+(
+cx
+obj
+idx
+idx
++
+1
+)
 ;
 }
 }
