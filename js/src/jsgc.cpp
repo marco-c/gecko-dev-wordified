@@ -25418,6 +25418,9 @@ edgeptr
 +
 size
 ;
+if
+(
+!
 trc
 -
 >
@@ -25426,6 +25429,8 @@ nodemap
 init
 (
 )
+)
+return
 ;
 /
 *

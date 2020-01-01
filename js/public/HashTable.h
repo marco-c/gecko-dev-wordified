@@ -2929,6 +2929,7 @@ mutationCount
 )
 {
 }
+MOZ_WARN_UNUSED_RESULT
 bool
 init
 (
