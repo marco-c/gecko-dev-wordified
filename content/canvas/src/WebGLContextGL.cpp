@@ -15852,7 +15852,7 @@ compiler
 &
 s
 1
-EShOptSimple
+EShOptNone
 debugFlags
 )
 )
