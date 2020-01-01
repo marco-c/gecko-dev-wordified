@@ -551,14 +551,6 @@ nsAString
 _retval
 )
 ;
-nsresult
-LoadUriInternal
-(
-nsIURI
-*
-aURL
-)
-;
 /
 /
 method
