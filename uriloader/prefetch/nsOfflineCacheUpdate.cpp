@@ -683,13 +683,6 @@ h
 #
 endif
 static
-nsOfflineCacheUpdateService
-*
-gOfflineCacheUpdateService
-=
-nsnull
-;
-static
 const
 PRUint32
 kRescheduleLimit
@@ -10247,7 +10240,7 @@ cached
 .
 for
 (
-PRUint32
+PRInt32
 i
 =
 0
@@ -11699,7 +11692,7 @@ rv
 ;
 for
 (
-PRUint32
+PRInt32
 i
 =
 0
