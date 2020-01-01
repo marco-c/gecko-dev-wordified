@@ -9902,10 +9902,6 @@ column
 hit
 now
 .
-if
-(
-aCol
-)
 *
 aCol
 =
