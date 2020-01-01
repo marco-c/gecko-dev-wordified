@@ -296,6 +296,16 @@ return
 mDestination
 ;
 }
+float
+SampleRate
+(
+)
+const
+{
+return
+mSampleRate
+;
+}
 AudioListener
 *
 Listener
@@ -394,6 +404,9 @@ nsRefPtr
 AudioListener
 >
 mListener
+;
+float
+mSampleRate
 ;
 }
 ;
