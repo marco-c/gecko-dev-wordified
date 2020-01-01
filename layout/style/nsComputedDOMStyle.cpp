@@ -2163,6 +2163,12 @@ GetQueryablePropertyMap
 .
 if
 (
+prop
+!
+=
+eCSSProperty_UNKNOWN
+&
+&
 nsCSSProps
 :
 :
