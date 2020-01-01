@@ -1086,7 +1086,10 @@ rv
 NS_NewURI
 (
 aURI
+nsDependentString
+(
 lpTemp
+)
 )
 ;
 /
