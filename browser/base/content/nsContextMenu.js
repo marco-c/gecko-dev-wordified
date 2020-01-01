@@ -3164,8 +3164,6 @@ shouldDisplay
 =
 false
 ;
-return
-;
 }
 /
 /
