@@ -1161,6 +1161,11 @@ OnCloseChannel
 (
 )
 ;
+void
+PostErrorNotifyTask
+(
+)
+;
 /
 /
 Return
