@@ -639,6 +639,10 @@ return
 NS_OK
 ;
 }
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsWindowDataSource
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_0
 (
 nsWindowDataSource

@@ -468,6 +468,10 @@ mParent
 ;
 }
 }
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsGenericDOMDataNode
+)
 NS_IMPL_CYCLE_COLLECTION_TRACE_WRAPPERCACHE
 (
 nsGenericDOMDataNode
@@ -3751,8 +3755,12 @@ id
 406684
 )
 .
+nsContentUtils
+:
+:
 ReleaseWrapper
 (
+this
 this
 )
 ;

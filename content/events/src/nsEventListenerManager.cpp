@@ -1039,6 +1039,10 @@ aFlags
 ;
 }
 }
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsEventListenerManager
+)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 (
 nsEventListenerManager

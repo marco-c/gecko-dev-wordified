@@ -278,6 +278,10 @@ mPromise
 /
 /
 Promise
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+Promise
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 Promise

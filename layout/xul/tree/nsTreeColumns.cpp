@@ -300,6 +300,10 @@ nullptr
 ;
 }
 }
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsTreeColumn
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsTreeColumn

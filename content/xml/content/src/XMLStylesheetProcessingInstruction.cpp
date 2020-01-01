@@ -154,6 +154,10 @@ NS_IMPL_RELEASE_INHERITED
 XMLStylesheetProcessingInstruction
 ProcessingInstruction
 )
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+XMLStylesheetProcessingInstruction
+)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 XMLStylesheetProcessingInstruction

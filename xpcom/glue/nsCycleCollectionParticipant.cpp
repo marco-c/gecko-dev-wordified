@@ -182,11 +182,11 @@ aScriptThing
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsXPCOMCycleCollectionParticipant
 :
 :
-RootImpl
+Root
 (
 void
 *
@@ -215,11 +215,11 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsXPCOMCycleCollectionParticipant
 :
 :
-UnrootImpl
+Unroot
 (
 void
 *
@@ -286,7 +286,7 @@ void
 nsXPCOMCycleCollectionParticipant
 :
 :
-TraceImpl
+Trace
 (
 void
 *

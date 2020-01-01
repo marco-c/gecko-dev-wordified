@@ -661,6 +661,10 @@ nsISupports
 -
 -
 -
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+EventSource
+)
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_BEGIN
 (
 EventSource

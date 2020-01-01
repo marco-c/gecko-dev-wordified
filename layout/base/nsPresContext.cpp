@@ -1893,6 +1893,10 @@ CancelDidPaintTimer
 ;
 }
 }
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsPresContext
+)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 (
 nsPresContext

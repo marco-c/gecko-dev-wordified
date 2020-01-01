@@ -2956,6 +2956,10 @@ nsCharsetMenu
 [
 implementation
 ]
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsCharsetMenu
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_0
 (
 nsCharsetMenu

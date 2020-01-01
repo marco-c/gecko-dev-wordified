@@ -2991,6 +2991,10 @@ nsTimeout
 )
 ;
 }
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsTimeout
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_0
 (
 nsTimeout
@@ -9587,6 +9591,10 @@ aFlags
 )
 ;
 }
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsGlobalWindow
+)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INTERNAL
 (
 nsGlobalWindow
@@ -64435,6 +64443,10 @@ endif
 /
 nsGlobalChromeWindow
 implementation
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsGlobalChromeWindow
+)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 nsGlobalChromeWindow
