@@ -799,12 +799,8 @@ default
 Screen
 of
 the
+default
 display
-passed
-to
-'
-Draw
-'
 and
 can
 be
