@@ -531,7 +531,7 @@ dblClick
 const
 kDoubleClickThreshold
 =
-200
+300
 ;
 /
 /

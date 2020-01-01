@@ -83,7 +83,7 @@ element
 const
 kTapOverlayTimeout
 =
-200
+300
 ;
 let
 Cc
@@ -3717,7 +3717,7 @@ once
 (
 500
 +
-200
+kTapOverlayTimeout
 function
 (
 )
