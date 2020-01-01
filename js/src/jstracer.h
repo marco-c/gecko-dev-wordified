@@ -1697,7 +1697,6 @@ endif
 ifdef
 USE_TRACE_TYPE_ENUM
 typedef
-enum
 JSTraceType_
 JSTraceType
 ;
