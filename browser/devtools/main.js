@@ -1018,7 +1018,15 @@ inspectorStrings
 )
 key
 :
-null
+l10n
+(
+"
+inspector
+.
+commandkey
+"
+inspectorStrings
+)
 ordinal
 :
 2
