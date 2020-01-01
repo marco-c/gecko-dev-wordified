@@ -662,6 +662,11 @@ GetFocusOffset
 (
 )
 ;
+bool
+IsCollapsed
+(
+)
+;
 /
 /
 Get
