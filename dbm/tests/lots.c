@@ -27,7 +27,7 @@ basic
 -
 offset
 :
-2
+4
 -
 *
 -
@@ -1133,7 +1133,7 @@ database
 /
 *
 seq
-throught
+through
 the
 whole
 database
@@ -1185,7 +1185,6 @@ R_NEXT
 )
 )
 )
-;
 ;
 /
 *

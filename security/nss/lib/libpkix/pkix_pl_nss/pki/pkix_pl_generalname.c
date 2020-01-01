@@ -1286,9 +1286,6 @@ utf8String
 =
 NULL
 ;
-PKIX_UInt32
-utf8Length
-;
 PKIX_ENTER
 (
 GENERALNAME

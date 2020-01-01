@@ -557,7 +557,7 @@ section
 struct
 SECKEYRSAPublicKeyStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -589,7 +589,7 @@ structures
 struct
 SECKEYPQGParamsStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -691,7 +691,7 @@ PKCS
 struct
 SECKEYDHParamsStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -721,7 +721,7 @@ SECKEYDHParams
 struct
 SECKEYDHPublicKeyStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1315,7 +1315,7 @@ struct
 PRCList
 list
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1341,7 +1341,7 @@ struct
 PRCList
 list
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

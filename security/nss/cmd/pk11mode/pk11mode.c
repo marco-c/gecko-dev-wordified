@@ -54,7 +54,14 @@ NONFIPS
 mode
 :
 pk11mode
-nonFIPS
+-
+n
+*
+usage
+:
+pk11mode
+-
+h
 *
 *
 *
@@ -33313,7 +33320,6 @@ hClientKey
 =
 CK_INVALID_HANDLE
 )
-;
 (
 void
 )
@@ -35252,7 +35258,6 @@ path
 Database
 path
 location
-)
 \
 n
 "
@@ -35271,7 +35276,6 @@ prefix
 >
 DataBase
 prefix
-)
 \
 n
 "

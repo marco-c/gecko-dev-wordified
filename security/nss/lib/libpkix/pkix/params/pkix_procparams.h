@@ -509,6 +509,9 @@ PKIX_ResourceLimits
 *
 resourceLimits
 ;
+PKIX_Boolean
+useAIAForCertFetching
+;
 }
 ;
 /

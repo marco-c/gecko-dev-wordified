@@ -608,7 +608,7 @@ void
 struct
 SECMODModuleStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -3260,7 +3260,7 @@ PK11MergeLogNode
 *
 tail
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

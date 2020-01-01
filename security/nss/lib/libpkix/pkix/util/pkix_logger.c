@@ -2327,11 +2327,6 @@ secondLogger
 =
 NULL
 ;
-PKIX_UInt32
-i
-=
-0
-;
 PKIX_ENTER
 (
 LOGGER

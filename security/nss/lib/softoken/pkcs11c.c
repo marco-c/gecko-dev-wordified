@@ -1189,7 +1189,7 @@ the
 parity
 bits
 and
-depricate
+deprecate
 the
 key
 *

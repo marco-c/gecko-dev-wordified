@@ -503,7 +503,7 @@ PR_CALLBACK
 PKCS12UnicodeConvertFunction
 )
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem

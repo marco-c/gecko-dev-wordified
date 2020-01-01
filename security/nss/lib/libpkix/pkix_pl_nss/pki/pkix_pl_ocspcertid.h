@@ -432,9 +432,6 @@ CERTOCSPCertID
 *
 certID
 ;
-PRBool
-certIDWasConsumed
-;
 }
 ;
 /

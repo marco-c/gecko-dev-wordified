@@ -690,7 +690,7 @@ SECOidData
 *
 bagTypeTag
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -756,7 +756,7 @@ used
 locally
 *
 /
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

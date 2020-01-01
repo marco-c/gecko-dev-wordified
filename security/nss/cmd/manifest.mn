@@ -476,6 +476,8 @@ strsclnt
 \
 symkeyutil
 \
+tests
+\
 tstclnt
 \
 vfychain

@@ -2786,6 +2786,9 @@ return
 rv
 ;
 }
+#
+ifdef
+NSS_ENABLE_ECC
 /
 *
 Generate
@@ -3198,6 +3201,13 @@ return
 privKeyBytes
 ;
 }
+#
+endif
+/
+*
+NSS_ENABLE_ECC
+*
+/
 /
 *
 Generates

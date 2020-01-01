@@ -664,7 +664,7 @@ algid
 *
 Deprecated
 PBE
-fucntions
+functions
 .
 Use
 the

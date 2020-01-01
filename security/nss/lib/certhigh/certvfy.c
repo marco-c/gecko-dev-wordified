@@ -4991,9 +4991,6 @@ PR_FALSE
 SECStatus
 rv
 ;
-SECComparison
-rvCompare
-;
 SECStatus
 rvFinal
 =

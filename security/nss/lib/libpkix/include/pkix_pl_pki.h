@@ -16577,8 +16577,6 @@ cid
 PKIX_PL_Date
 *
 validity
-PKIX_Boolean
-addServiceLocator
 PKIX_PL_Cert
 *
 signerCert

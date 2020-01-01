@@ -643,7 +643,7 @@ keys
 struct
 SEC_PKCS12BaggageStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -693,7 +693,7 @@ expansion
 struct
 SEC_PKCS12PVKAdditionalDataStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -742,7 +742,7 @@ keys
 struct
 SEC_PKCS12PVKSupportingDataStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -795,7 +795,7 @@ currently
 struct
 SEC_PKCS12ESPVKItemStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -900,7 +900,7 @@ stored
 struct
 SEC_PKCS12SafeBagStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -974,7 +974,7 @@ stored
 struct
 SEC_PKCS12SafeContentsStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1030,7 +1030,7 @@ thumbprint
 struct
 SEC_PKCS12PrivateKeyStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1118,7 +1118,7 @@ structures
 struct
 SEC_PKCS12PrivateKeyBagStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1157,7 +1157,7 @@ certificates
 struct
 SEC_PKCS12CertAndCRLStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1240,7 +1240,7 @@ certificate
 struct
 SEC_PKCS12X509CertCRLStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1292,7 +1292,7 @@ certificate
 struct
 SEC_PKCS12SDSICertStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1320,7 +1320,7 @@ crls
 struct
 SEC_PKCS12CertAndCRLBagStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1360,7 +1360,7 @@ structure
 struct
 SEC_PKCS12SecretAdditionalStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1410,7 +1410,7 @@ secret
 struct
 SEC_PKCS12SecretStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1431,7 +1431,7 @@ uniSecretName
 struct
 SEC_PKCS12SecretItemStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1463,7 +1463,7 @@ secrets
 struct
 SEC_PKCS12SecretBagStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1504,7 +1504,7 @@ unit
 struct
 SEC_PKCS12PFXItemStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1549,7 +1549,7 @@ swapUnicode
 struct
 SEC_PKCS12BaggageItemStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1581,7 +1581,7 @@ keys
 struct
 SEC_PKCS12Baggage_OLDStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1616,7 +1616,7 @@ keys
 struct
 SEC_PKCS12AuthenticatedSafeStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;

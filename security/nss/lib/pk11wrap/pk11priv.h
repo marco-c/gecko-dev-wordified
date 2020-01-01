@@ -843,7 +843,7 @@ CK_OBJECT_HANDLE
 id
 CK_ATTRIBUTE_TYPE
 type
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -867,7 +867,7 @@ char
 *
 PK11_MakeString
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 char
@@ -2092,7 +2092,7 @@ type
 CK_RV
 PK11_GetAttributes
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 PK11SlotInfo
@@ -2135,21 +2135,6 @@ void
 void
 *
 arg
-)
-;
-CERTCertificate
-*
-PK11_FindCertFromDERCertItem
-(
-PK11SlotInfo
-*
-slot
-SECItem
-*
-derCert
-void
-*
-wincx
 )
 ;
 SECStatus
@@ -2457,7 +2442,7 @@ hashAlg
 Functions
 which
 are
-depricated
+deprecated
 .
 .
 .

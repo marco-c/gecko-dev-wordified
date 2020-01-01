@@ -4760,6 +4760,7 @@ CERTCertificate
 cert
 CK_OBJECT_HANDLE
 key
+const
 char
 *
 nickname
@@ -4972,14 +4973,6 @@ cc
 -
 >
 certStore
-&
-lockTrace
-&
-unlockTrace
-)
-;
-nssCertificateStore_Check
-(
 &
 lockTrace
 &
@@ -6387,6 +6380,7 @@ PK11_ImportCertForKey
 CERTCertificate
 *
 cert
+const
 char
 *
 nickname
@@ -10617,10 +10611,11 @@ collection
 ;
 instances
 =
-nssToken_FindCertificates
+nssToken_FindObjects
 (
 tok
 NULL
+CKO_CERTIFICATE
 tokenOnly
 0
 &

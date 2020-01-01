@@ -612,7 +612,7 @@ are
 going
 to
 be
-depricated
+deprecated
 in
 NSS
 4
