@@ -1453,12 +1453,13 @@ _registerManifest
 }
 /
 /
-call
+Call
 the
 DOMRequestIpcHelper
 .
 observe
 method
+.
 this
 .
 __proto__
