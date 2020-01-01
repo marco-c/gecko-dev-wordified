@@ -2604,6 +2604,10 @@ static
 PRInt32
 sIMECaretHeight
 ;
+static
+PRBool
+sIsInEndSession
+;
 nsSize
 mLastSize
 ;
