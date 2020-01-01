@@ -5411,6 +5411,8 @@ PRInt32
 aOldStart
 PRInt32
 aOldEnd
+PivotMoveReason
+aReason
 )
 {
 nsRefPtr
@@ -5426,6 +5428,7 @@ this
 aOldAccessible
 aOldStart
 aOldEnd
+aReason
 )
 ;
 nsEventShell

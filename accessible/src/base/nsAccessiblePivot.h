@@ -299,6 +299,8 @@ PRInt32
 aOldStart
 PRInt32
 aOldEnd
+PivotMoveReason
+aReason
 )
 ;
 /
@@ -422,6 +424,8 @@ MovePivotInternal
 Accessible
 *
 aPosition
+PivotMoveReason
+aReason
 )
 ;
 /

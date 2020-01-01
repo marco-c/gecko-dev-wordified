@@ -816,6 +816,10 @@ NotifyOfPivotChange
 secondPosition
 oldStart
 oldEnd
+nsIAccessiblePivot
+:
+:
+REASON_NONE
 )
 ;
 return
@@ -1070,6 +1074,10 @@ NotifyOfPivotChange
 oldPosition
 oldStart
 oldEnd
+nsIAccessiblePivot
+:
+:
+REASON_TEXT
 )
 ;
 return
@@ -1201,6 +1209,10 @@ aResult
 MovePivotInternal
 (
 accessible
+nsIAccessiblePivot
+:
+:
+REASON_NEXT
 )
 ;
 return
@@ -1328,6 +1340,10 @@ aResult
 MovePivotInternal
 (
 accessible
+nsIAccessiblePivot
+:
+:
+REASON_PREV
 )
 ;
 return
@@ -1407,6 +1423,10 @@ aResult
 MovePivotInternal
 (
 accessible
+nsIAccessiblePivot
+:
+:
+REASON_FIRST
 )
 ;
 return
@@ -1546,6 +1566,10 @@ aResult
 MovePivotInternal
 (
 accessible
+nsAccessiblePivot
+:
+:
+REASON_LAST
 )
 ;
 return
@@ -1893,6 +1917,10 @@ aResult
 MovePivotInternal
 (
 match
+nsIAccessiblePivot
+:
+:
+REASON_POINT
 )
 ;
 return
@@ -2053,6 +2081,8 @@ MovePivotInternal
 Accessible
 *
 aPosition
+PivotMoveReason
+aReason
 )
 {
 nsRefPtr
@@ -2092,6 +2122,7 @@ NotifyOfPivotChange
 oldPosition
 oldStart
 oldEnd
+aReason
 )
 ;
 }
@@ -2693,6 +2724,8 @@ PRInt32
 aOldStart
 PRInt32
 aOldEnd
+PRInt16
+aReason
 )
 {
 if
@@ -2760,6 +2793,7 @@ this
 aOldPosition
 aOldStart
 aOldEnd
+aReason
 )
 ;
 }
