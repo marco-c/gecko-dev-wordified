@@ -4388,6 +4388,17 @@ BaseIndex
 address
 )
 ;
+Condition
+testInt32
+(
+Condition
+cond
+const
+Address
+&
+address
+)
+;
 template
 <
 typename
