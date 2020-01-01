@@ -6648,8 +6648,12 @@ bool
 PluginInstanceParent
 :
 :
-AnswerPluginGotFocus
+AnswerPluginFocusChange
 (
+const
+bool
+&
+gotFocus
 )
 {
 PLUGIN_LOG_DEBUG
@@ -6734,6 +6738,10 @@ SendMessage
 (
 mPluginHWND
 gOOPPPluginFocusEvent
+gotFocus
+?
+1
+:
 0
 0
 )
@@ -6749,7 +6757,7 @@ NS_NOTREACHED
 PluginInstanceParent
 :
 :
-AnswerPluginGotFocus
+AnswerPluginFocusChange
 not
 implemented
 !
