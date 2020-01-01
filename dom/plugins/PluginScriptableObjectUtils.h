@@ -1577,6 +1577,15 @@ mozilla
 *
 /
 #
+include
+"
+PluginScriptableObjectUtils
+-
+inl
+.
+h
+"
+#
 endif
 /
 *
