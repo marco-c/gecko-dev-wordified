@@ -272,6 +272,8 @@ function
 (
 )
 {
+try
+{
 this
 .
 tab
@@ -289,6 +291,16 @@ paintIt
 false
 )
 ;
+}
+catch
+(
+e
+)
+{
+/
+/
+ignore
+}
 }
 paint
 :
