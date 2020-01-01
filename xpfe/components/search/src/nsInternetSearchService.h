@@ -438,7 +438,7 @@ h
 #
 include
 "
-nsString
+nsStringAPI
 .
 h
 "
@@ -987,14 +987,6 @@ PRBool
 isSearchCategoryEngineURI
 (
 nsIRDFResource
-*
-aResource
-)
-;
-PRBool
-isSearchCategoryEngineBasenameURI
-(
-nsIRDFNode
 *
 aResource
 )

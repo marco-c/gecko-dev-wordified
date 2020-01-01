@@ -431,7 +431,7 @@ localsearchdb___h_____
 #
 include
 "
-nsISupportsArray
+nsIMutableArray
 .
 h
 "
@@ -452,7 +452,7 @@ h
 #
 include
 "
-nsString
+nsStringAPI
 .
 h
 "
@@ -687,7 +687,7 @@ parseFindURL
 nsIRDFResource
 *
 u
-nsISupportsArray
+nsIMutableArray
 *
 array
 )
