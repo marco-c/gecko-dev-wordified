@@ -71,13 +71,6 @@ inl
 .
 h
 "
-#
-include
-"
-nsAccUtils
-.
-h
-"
 namespace
 mozilla
 {

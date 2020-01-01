@@ -149,6 +149,13 @@ h
 #
 include
 "
+nsIPersistentProperties2
+.
+h
+"
+#
+include
+"
 nsComponentManagerUtils
 .
 h

@@ -249,6 +249,13 @@ h
 #
 include
 "
+nsIPersistentProperties2
+.
+h
+"
+#
+include
+"
 nsIPlaintextEditor
 .
 h

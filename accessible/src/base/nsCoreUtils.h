@@ -109,13 +109,6 @@ h
 #
 include
 "
-nsIBoxObject
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h
@@ -143,6 +136,9 @@ h
 "
 class
 nsRange
+;
+class
+nsIBoxObject
 ;
 class
 nsIFrame
