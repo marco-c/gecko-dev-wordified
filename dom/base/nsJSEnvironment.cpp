@@ -17869,6 +17869,7 @@ id
 if
 (
 (
+(
 optbit
 &
 (
@@ -17886,6 +17887,13 @@ optbit
 <
 =
 JSOPTION_WERROR
+)
+|
+|
+optbit
+=
+=
+JSOPTION_RELIMIT
 )
 *
 vp
