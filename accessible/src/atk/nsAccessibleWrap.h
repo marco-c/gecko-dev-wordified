@@ -773,7 +773,6 @@ roles
 .
 *
 /
-inline
 static
 PRUint32
 AtkRoleFor
