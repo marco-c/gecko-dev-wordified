@@ -397,10 +397,8 @@ queue
 .
 *
 /
-nsRefPtr
-<
 DocAccessible
->
+*
 mDocument
 ;
 /
