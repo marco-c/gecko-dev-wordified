@@ -184,7 +184,7 @@ MediaBuffer
 *
 aBuffer
 SurfaceDescriptor
-*
+&
 aDescriptor
 )
 ;
