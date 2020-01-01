@@ -8508,6 +8508,10 @@ ChildCount
 ;
 nscolor
 rowColor
+=
+0
+;
+nscolor
 prevRowColor
 ;
 for
