@@ -403,7 +403,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 #
 define
@@ -494,7 +494,7 @@ mImageOffset
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

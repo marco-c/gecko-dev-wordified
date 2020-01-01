@@ -595,7 +595,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 class
 Image
@@ -604,7 +604,7 @@ Image
 /
 /
 namespace
-imagelib
+image
 }
 /
 /
@@ -1501,7 +1501,7 @@ nsRefPtr
 mozilla
 :
 :
-imagelib
+image
 :
 :
 Image

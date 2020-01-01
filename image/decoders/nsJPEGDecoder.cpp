@@ -602,7 +602,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 #
 if
@@ -6384,7 +6384,7 @@ NotifyDone
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

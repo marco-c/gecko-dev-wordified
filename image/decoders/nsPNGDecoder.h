@@ -489,7 +489,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 class
 RasterImage
@@ -884,7 +884,7 @@ pngSignatureBytes
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

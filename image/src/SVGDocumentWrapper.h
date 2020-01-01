@@ -545,7 +545,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 class
 SVGDocumentWrapper
@@ -1234,7 +1234,7 @@ mRegisteredForXPCOMShutdown
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

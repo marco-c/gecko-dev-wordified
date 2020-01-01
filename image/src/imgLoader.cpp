@@ -814,7 +814,7 @@ namespace
 mozilla
 :
 :
-imagelib
+image
 ;
 #
 if

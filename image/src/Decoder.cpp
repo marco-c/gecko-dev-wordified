@@ -454,7 +454,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 Decoder
 :
@@ -1967,7 +1967,7 @@ bug
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

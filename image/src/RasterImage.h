@@ -1316,7 +1316,7 @@ ImageContainer
 ;
 }
 namespace
-imagelib
+image
 {
 class
 imgDecodeWorker
@@ -4288,7 +4288,7 @@ mContainer
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

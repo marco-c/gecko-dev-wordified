@@ -455,7 +455,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 class
 Decoder
@@ -1475,7 +1475,7 @@ mIsAnimated
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

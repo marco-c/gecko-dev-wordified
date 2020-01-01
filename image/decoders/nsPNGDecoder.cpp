@@ -550,7 +550,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 #
 ifdef
@@ -5629,7 +5629,7 @@ IMAGE_DECODE_SPEED_PNG
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

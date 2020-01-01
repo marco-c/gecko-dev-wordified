@@ -771,7 +771,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 /
 *
@@ -7855,7 +7855,7 @@ IMAGE_DECODE_SPEED_GIF
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

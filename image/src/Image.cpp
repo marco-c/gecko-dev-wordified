@@ -433,7 +433,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 /
 /
@@ -1184,7 +1184,7 @@ false
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

@@ -475,7 +475,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 class
 RasterImage
@@ -817,7 +817,7 @@ mGIFStruct
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

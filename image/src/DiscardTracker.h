@@ -447,7 +447,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 class
 RasterImage
@@ -748,7 +748,7 @@ aClosure
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

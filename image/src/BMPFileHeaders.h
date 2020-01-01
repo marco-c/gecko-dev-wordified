@@ -403,7 +403,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 struct
 BMPFILEHEADER
@@ -745,7 +745,7 @@ blueRightShift
 /
 /
 namespace
-imagelib
+image
 }
 /
 /

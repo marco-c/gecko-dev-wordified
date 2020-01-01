@@ -468,7 +468,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 class
 RasterImage
@@ -929,7 +929,7 @@ iconStateFinished
 /
 /
 namespace
-imagelib
+image
 }
 /
 /
