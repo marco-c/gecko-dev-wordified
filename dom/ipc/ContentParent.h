@@ -664,6 +664,12 @@ TestShellParent
 aTestShell
 )
 ;
+TestShellParent
+*
+GetTestShellSingleton
+(
+)
+;
 void
 ReportChildAlreadyBlocked
 (
