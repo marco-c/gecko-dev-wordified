@@ -1464,7 +1464,19 @@ type
 =
 =
 MIRType_String
+|
+|
+in
+-
+>
+type
+(
 )
+=
+=
+MIRType_Undefined
+)
+{
 in
 =
 boxAt
@@ -1473,6 +1485,7 @@ def
 in
 )
 ;
+}
 switch
 (
 type
