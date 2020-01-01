@@ -2156,7 +2156,7 @@ pathname
 Chop
 off
 trailing
-seperators
+separators
 .
 *
 /
