@@ -1324,6 +1324,14 @@ nsIDOMDOMStringMap
 aDataset
 )
 ;
+already_AddRefed
+<
+nsDOMStringMap
+>
+Dataset
+(
+)
+;
 /
 /
 Callback

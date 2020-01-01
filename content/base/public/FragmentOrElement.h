@@ -271,7 +271,7 @@ class
 nsIDocument
 ;
 class
-nsIDOMDOMStringMap
+nsDOMStringMap
 ;
 class
 nsIDOMNamedNodeMap
@@ -1721,7 +1721,7 @@ nsGenericHTMLElement
 GetDataset
 *
 /
-nsIDOMDOMStringMap
+nsDOMStringMap
 *
 mDataset
 ;
