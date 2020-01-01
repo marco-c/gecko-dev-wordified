@@ -439,18 +439,6 @@ test_default
 (
 )
 {
-let
-search
-=
-Services
-.
-search
-;
-/
-/
-Cause
-service
-initialization
 do_register_cleanup
 (
 function
@@ -511,6 +499,8 @@ engine
 "
 )
 ;
+Services
+.
 search
 .
 addEngine
