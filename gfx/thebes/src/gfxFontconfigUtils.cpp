@@ -4540,6 +4540,10 @@ IndexOfIgnoreCase
 (
 fontname
 )
+!
+=
+-
+1
 )
 aAborted
 =
