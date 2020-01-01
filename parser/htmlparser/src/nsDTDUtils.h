@@ -201,13 +201,6 @@ h
 #
 include
 "
-nsFixedSizeAllocator
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h
@@ -1572,7 +1565,7 @@ eHTMLTags
 aTag
 )
 ;
-nsFixedSizeAllocator
+nsDummyAllocator
 &
 GetArenaPool
 (
@@ -1584,7 +1577,7 @@ mArenaPool
 }
 protected
 :
-nsFixedSizeAllocator
+nsDummyAllocator
 mArenaPool
 ;
 #
@@ -1821,7 +1814,7 @@ aTokenAllocator
 0
 )
 ;
-nsFixedSizeAllocator
+nsDummyAllocator
 &
 GetArenaPool
 (
@@ -1874,7 +1867,7 @@ endif
 endif
 protected
 :
-nsFixedSizeAllocator
+nsDummyAllocator
 mNodePool
 ;
 }
@@ -2530,7 +2523,7 @@ nsDequeFunctor
 {
 protected
 :
-nsFixedSizeAllocator
+nsDummyAllocator
 &
 mArenaPool
 ;
@@ -2538,7 +2531,7 @@ public
 :
 CTokenDeallocator
 (
-nsFixedSizeAllocator
+nsDummyAllocator
 &
 aArenaPool
 )

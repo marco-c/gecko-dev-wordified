@@ -268,7 +268,7 @@ mRefCnt
 void
 Release
 (
-nsFixedSizeAllocator
+nsDummyAllocator
 &
 aPool
 )
@@ -382,7 +382,7 @@ return
 new
 #
 else
-nsFixedSizeAllocator
+nsDummyAllocator
 &
 pool
 =
@@ -437,7 +437,7 @@ Destroy
 nsCParserNode
 *
 aNode
-nsFixedSizeAllocator
+nsDummyAllocator
 &
 aPool
 )
@@ -463,11 +463,6 @@ aPool
 Free
 (
 aNode
-sizeof
-(
-*
-aNode
-)
 )
 ;
 #
@@ -1350,7 +1345,7 @@ return
 new
 #
 else
-nsFixedSizeAllocator
+nsDummyAllocator
 &
 pool
 =

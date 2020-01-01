@@ -683,7 +683,6 @@ CStartToken
 public
 CHTMLToken
 {
-CTOKEN_IMPL_SIZEOF
 public
 :
 CStartToken
@@ -916,7 +915,6 @@ CEndToken
 public
 CHTMLToken
 {
-CTOKEN_IMPL_SIZEOF
 public
 :
 CEndToken
@@ -1059,7 +1057,6 @@ CCommentToken
 public
 CHTMLToken
 {
-CTOKEN_IMPL_SIZEOF
 public
 :
 CCommentToken
@@ -1205,7 +1202,6 @@ CEntityToken
 public
 CHTMLToken
 {
-CTOKEN_IMPL_SIZEOF
 public
 :
 CEntityToken
@@ -1357,7 +1353,6 @@ CWhitespaceToken
 public
 CHTMLToken
 {
-CTOKEN_IMPL_SIZEOF
 public
 :
 CWhitespaceToken
@@ -1456,7 +1451,6 @@ CTextToken
 public
 CHTMLToken
 {
-CTOKEN_IMPL_SIZEOF
 public
 :
 CTextToken
@@ -1641,7 +1635,6 @@ CCDATASectionToken
 public
 CHTMLToken
 {
-CTOKEN_IMPL_SIZEOF
 public
 :
 CCDATASectionToken
@@ -1745,7 +1738,6 @@ CMarkupDeclToken
 public
 CHTMLToken
 {
-CTOKEN_IMPL_SIZEOF
 public
 :
 CMarkupDeclToken
@@ -1857,7 +1849,6 @@ CAttributeToken
 public
 CHTMLToken
 {
-CTOKEN_IMPL_SIZEOF
 public
 :
 CAttributeToken
@@ -2051,7 +2042,6 @@ CNewlineToken
 public
 CHTMLToken
 {
-CTOKEN_IMPL_SIZEOF
 public
 :
 CNewlineToken
@@ -2151,7 +2141,6 @@ CInstructionToken
 public
 CHTMLToken
 {
-CTOKEN_IMPL_SIZEOF
 public
 :
 CInstructionToken
@@ -2243,7 +2232,6 @@ CDoctypeDeclToken
 public
 CHTMLToken
 {
-CTOKEN_IMPL_SIZEOF
 public
 :
 CDoctypeDeclToken
