@@ -574,7 +574,7 @@ active
 s
 +
 =
-strlen
+VMPI_strlen
 (
 s
 )
@@ -601,7 +601,7 @@ gpn
 r
 )
 ;
-sprintf
+VMPI_sprintf
 (
 s
 "
