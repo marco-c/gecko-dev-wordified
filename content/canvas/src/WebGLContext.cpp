@@ -380,6 +380,17 @@ include
 "
 mozilla
 /
+dom
+/
+ImageData
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ProcessPriorityManager
 .
 h
