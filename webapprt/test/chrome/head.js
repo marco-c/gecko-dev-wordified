@@ -287,8 +287,6 @@ src
 WebappRT
 .
 launchURI
-.
-spec
 )
 ;
 }
