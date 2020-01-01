@@ -467,7 +467,7 @@ const
 Rect
 &
 aRect
-int8_t
+int32_t
 aStride
 float
 aSigma
