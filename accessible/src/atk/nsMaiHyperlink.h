@@ -506,15 +506,6 @@ MaiHyperlink
 (
 )
 ;
-NS_IMETHOD
-GetUniqueID
-(
-void
-*
-*
-aUniqueID
-)
-;
 public
 :
 AtkHyperlink
@@ -537,10 +528,8 @@ mHyperlink
 }
 protected
 :
-nsCOMPtr
-<
 nsIAccessibleHyperLink
->
+*
 mHyperlink
 ;
 AtkHyperlink
