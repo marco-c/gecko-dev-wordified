@@ -819,10 +819,6 @@ requestDepth
 )
 #
 endif
-waiveGCQuota
-(
-false
-)
 tempLifoAlloc
 (
 TEMP_LIFO_ALLOC_PRIMARY_CHUNK_SIZE
@@ -9284,7 +9280,7 @@ waitBackgroundSweepOrAllocEnd
 endif
 gcChunkPool
 .
-expire
+expireAndFree
 (
 this
 true
