@@ -3899,9 +3899,8 @@ cx
 JSObject
 *
 obj
-JSAtom
-*
-atom
+jsid
+id
 js
 :
 :

@@ -1744,13 +1744,11 @@ str
 return
 JS_FALSE
 ;
-fputs
+JS_FileEscapedString
 (
-JS_GetStringBytes
-(
-str
-)
 stdout
+str
+0
 )
 ;
 fflush

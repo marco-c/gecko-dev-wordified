@@ -4303,7 +4303,7 @@ AtomEntryToKey
 entry
 )
 ;
-js_FileEscapedString
+FileEscapedString
 (
 fp
 key

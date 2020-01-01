@@ -2774,7 +2774,7 @@ buf
 50
 ]
 ;
-js_PutEscapedString
+PutEscapedString
 (
 buf
 sizeof

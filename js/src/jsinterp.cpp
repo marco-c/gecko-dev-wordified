@@ -11104,7 +11104,7 @@ JS_ClearPendingException
 cx
 )
 ;
-js_FileEscapedString
+FileEscapedString
 (
 logfp
 str
