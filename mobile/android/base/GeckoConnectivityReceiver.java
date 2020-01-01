@@ -99,6 +99,13 @@ gecko
 import
 android
 .
+util
+.
+Log
+;
+import
+android
+.
 app
 .
 Activity
