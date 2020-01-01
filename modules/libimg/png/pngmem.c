@@ -21,8 +21,8 @@ libpng
 .
 0
 [
-January
-3
+February
+25
 2010
 ]
 *
@@ -1283,7 +1283,6 @@ Note
 "
 O
 "
-and
 "
 M
 "
@@ -1438,9 +1437,8 @@ Note
 "
 O
 "
-and
 "
-M
+m
 "
 *
 /

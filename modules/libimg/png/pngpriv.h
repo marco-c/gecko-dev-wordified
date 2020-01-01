@@ -18,10 +18,10 @@ version
 .
 4
 .
-0
+1
 -
-January
-3
+February
+25
 2010
 *
 For
@@ -4068,6 +4068,7 @@ PNG_READ_PACKSWAP_SUPPORTED
 )
 |
 |
+\
 defined
 (
 PNG_WRITE_PACKSWAP_SUPPORTED
