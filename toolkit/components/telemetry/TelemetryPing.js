@@ -517,6 +517,8 @@ heap
 MEMORY_JS_GC_HEAP
 "
 "
+redundant
+/
 js
 -
 main
@@ -524,8 +526,6 @@ main
 runtime
 -
 compartments
--
-count
 /
 system
 "
@@ -534,6 +534,8 @@ system
 MEMORY_JS_COMPARTMENTS_SYSTEM
 "
 "
+redundant
+/
 js
 -
 main
@@ -541,8 +543,6 @@ main
 runtime
 -
 compartments
--
-count
 /
 user
 "
@@ -566,6 +566,8 @@ peak
 MEMORY_JS_MAIN_RUNTIME_TEMPORARY_PEAK
 "
 "
+redundant
+/
 resident
 -
 fast
