@@ -4731,7 +4731,7 @@ cx
 cx
 -
 >
-interpState
+tracerState
 -
 >
 builtinStatus
@@ -5823,7 +5823,7 @@ trace
 const
 members
 of
-InterpState
+TracerState
 .
 *
 /

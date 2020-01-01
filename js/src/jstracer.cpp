@@ -15520,7 +15520,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 sp
 )
 ACC_OTHER
@@ -15549,7 +15549,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 rp
 )
 ACC_OTHER
@@ -15578,7 +15578,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 cx
 )
 ACC_OTHER
@@ -15607,7 +15607,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 eos
 )
 ACC_OTHER
@@ -15636,7 +15636,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 eor
 )
 ACC_OTHER
@@ -15981,7 +15981,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 outermostTreeExitGuard
 )
 ACC_OTHER
@@ -17197,7 +17197,7 @@ is
 the
 offset
 from
-InterpState
+TracerState
 :
 :
 stackBase
@@ -17223,7 +17223,7 @@ offset
 *
 relative
 to
-InterpState
+TracerState
 :
 :
 sp
@@ -17412,7 +17412,7 @@ Return
 the
 offset
 from
-InterpState
+TracerState
 :
 sp
 for
@@ -19911,7 +19911,7 @@ static
 int32
 StackDepthFromCallStack
 (
-InterpState
+TracerState
 *
 state
 uint32
@@ -20112,14 +20112,14 @@ double
 result
 )
 {
-InterpState
+TracerState
 *
 state
 =
 cx
 -
 >
-interpState
+tracerState
 ;
 FrameInfo
 *
@@ -21089,14 +21089,14 @@ getClass
 js_CallClass
 )
 ;
-InterpState
+TracerState
 *
 state
 =
 cx
 -
 >
-interpState
+tracerState
 ;
 #
 ifdef
@@ -28964,7 +28964,7 @@ if
 cx
 -
 >
-interpState
+tracerState
 )
 /
 /
@@ -29031,7 +29031,7 @@ cl
 )
 -
 >
-interpState
+tracerState
 )
 return
 true
@@ -29082,7 +29082,7 @@ cl
 )
 -
 >
-interpState
+tracerState
 )
 return
 true
@@ -34413,7 +34413,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 sp
 )
 ACC_OTHER
@@ -34445,7 +34445,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 rp
 )
 ACC_OTHER
@@ -34968,7 +34968,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 lastTreeExitGuard
 )
 ACC_OTHER
@@ -35092,7 +35092,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 lastTreeCallGuard
 )
 ACC_OTHER
@@ -35113,7 +35113,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 lastTreeCallGuard
 )
 ACC_OTHER
@@ -35142,7 +35142,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 rp
 )
 ACC_OTHER
@@ -35193,7 +35193,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 rpAtLastTreeCall
 )
 ACC_OTHER
@@ -35235,7 +35235,7 @@ updating
 outermostTreeExit
 so
 that
-InterpState
+TracerState
 always
 contains
 the
@@ -35259,7 +35259,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 outermostTreeExitGuard
 )
 ACC_OTHER
@@ -35725,7 +35725,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 sp
 )
 ACC_OTHER
@@ -35746,7 +35746,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 rp
 )
 ACC_OTHER
@@ -39331,7 +39331,7 @@ static
 void
 SynthesizeSlowNativeFrame
 (
-InterpState
+TracerState
 &
 state
 JSContext
@@ -44856,10 +44856,10 @@ DeepBail
 *
 /
 JS_ALWAYS_INLINE
-InterpState
+TracerState
 :
 :
-InterpState
+TracerState
 (
 JSContext
 *
@@ -45019,12 +45019,12 @@ prev
 cx
 -
 >
-interpState
+tracerState
 ;
 cx
 -
 >
-interpState
+tracerState
 =
 this
 ;
@@ -45163,11 +45163,11 @@ FrameInfo
 endif
 }
 JS_ALWAYS_INLINE
-InterpState
+TracerState
 :
 :
 ~
-InterpState
+TracerState
 (
 )
 {
@@ -45180,7 +45180,7 @@ nativeVp
 cx
 -
 >
-interpState
+tracerState
 =
 prev
 ;
@@ -45219,7 +45219,7 @@ cx
 Fragment
 *
 f
-InterpState
+TracerState
 &
 state
 )
@@ -45247,7 +45247,7 @@ FASTCALL
 func
 )
 (
-InterpState
+TracerState
 *
 )
 ;
@@ -45664,7 +45664,7 @@ LeaveTree
 TraceMonitor
 *
 tm
-InterpState
+TracerState
 &
 VMSideExit
 *
@@ -45833,7 +45833,7 @@ state
 .
 *
 /
-InterpState
+TracerState
 state
 (
 cx
@@ -46205,7 +46205,7 @@ LeaveTree
 TraceMonitor
 *
 tm
-InterpState
+TracerState
 &
 state
 VMSideExit
@@ -54307,7 +54307,7 @@ tm
 tracecx
 -
 >
-interpState
+tracerState
 tracecx
 -
 >
@@ -54321,14 +54321,14 @@ bailExit
 =
 NULL
 ;
-InterpState
+TracerState
 *
 state
 =
 tracecx
 -
 >
-interpState
+tracerState
 ;
 state
 -
@@ -73810,7 +73810,7 @@ int
 )
 offsetof
 (
-InterpState
+TracerState
 builtinStatus
 )
 ACC_OTHER
@@ -73961,7 +73961,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 nativeVp
 )
 ACC_OTHER
@@ -73982,7 +73982,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 nativeVpLen
 )
 ACC_OTHER
@@ -74185,7 +74185,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 nativeVp
 )
 ACC_OTHER
@@ -74272,7 +74272,7 @@ int
 )
 offsetof
 (
-InterpState
+TracerState
 builtinStatus
 )
 ACC_OTHER
@@ -74558,7 +74558,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 nativeVp
 )
 ACC_OTHER
@@ -77323,7 +77323,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 nativeVpLen
 )
 ACC_OTHER
@@ -77341,7 +77341,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 nativeVp
 )
 ACC_OTHER
@@ -80861,7 +80861,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 callstackBase
 )
 ACC_OTHER
@@ -81016,7 +81016,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 stackBase
 )
 ACC_OTHER
@@ -81809,7 +81809,7 @@ return
 cx
 -
 >
-interpState
+tracerState
 -
 >
 builtinStatus
@@ -82332,7 +82332,7 @@ return
 cx
 -
 >
-interpState
+tracerState
 -
 >
 builtinStatus
@@ -82506,7 +82506,7 @@ return
 cx
 -
 >
-interpState
+tracerState
 -
 >
 builtinStatus
@@ -82922,7 +82922,7 @@ return
 cx
 -
 >
-interpState
+tracerState
 -
 >
 builtinStatus
@@ -84504,7 +84504,7 @@ return
 cx
 -
 >
-interpState
+tracerState
 -
 >
 builtinStatus
@@ -84593,7 +84593,7 @@ return
 cx
 -
 >
-interpState
+tracerState
 -
 >
 builtinStatus
@@ -84865,7 +84865,7 @@ return
 cx
 -
 >
-interpState
+tracerState
 -
 >
 builtinStatus
@@ -84962,7 +84962,7 @@ return
 cx
 -
 >
-interpState
+tracerState
 -
 >
 builtinStatus
@@ -90094,7 +90094,7 @@ int
 )
 offsetof
 (
-InterpState
+TracerState
 builtinStatus
 )
 ACC_OTHER
@@ -97914,7 +97914,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 builtinStatus
 )
 ACC_OTHER

@@ -1001,7 +1001,7 @@ struct
 TreeFragment
 ;
 struct
-InterpState
+TracerState
 ;
 template
 <
@@ -1215,7 +1215,7 @@ execution
 *
 /
 struct
-InterpState
+TracerState
 {
 JSContext
 *
@@ -1410,7 +1410,7 @@ innermost
 uint64
 startTime
 ;
-InterpState
+TracerState
 *
 prev
 ;
@@ -1498,7 +1498,7 @@ jsval
 *
 nativeVp
 ;
-InterpState
+TracerState
 (
 JSContext
 *
@@ -1519,7 +1519,7 @@ innermostNestedGuardp
 )
 ;
 ~
-InterpState
+TracerState
 (
 )
 ;
@@ -1564,7 +1564,7 @@ Thus
 on
 trace
 |
-InterpState
+TracerState
 :
 :
 eos
@@ -8471,9 +8471,9 @@ builds
 js
 :
 :
-InterpState
+TracerState
 *
-interpState
+tracerState
 ;
 js
 :

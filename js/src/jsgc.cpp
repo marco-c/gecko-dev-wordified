@@ -16439,14 +16439,14 @@ acx
 #
 ifdef
 JS_TRACER
-InterpState
+TracerState
 *
 state
 =
 acx
 -
 >
-interpState
+tracerState
 ;
 while
 (

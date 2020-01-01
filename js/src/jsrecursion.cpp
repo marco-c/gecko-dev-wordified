@@ -916,7 +916,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 sp
 )
 ACC_OTHER
@@ -969,7 +969,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 rp
 )
 ACC_OTHER
@@ -2487,7 +2487,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 sor
 )
 ACC_OTHER
@@ -5960,7 +5960,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 sp
 )
 ACC_OTHER
@@ -6009,7 +6009,7 @@ lirbuf
 state
 offsetof
 (
-InterpState
+TracerState
 rp
 )
 ACC_OTHER
