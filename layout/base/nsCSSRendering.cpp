@@ -26708,10 +26708,10 @@ thickness
 nscoord
 appUnitsPerPixel
 =
-nsPresContext
-:
-:
-AppUnitsPerCSSPixel
+aPresContext
+-
+>
+AppUnitsPerDevPixel
 (
 )
 ;
