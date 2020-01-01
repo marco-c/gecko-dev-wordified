@@ -6140,10 +6140,9 @@ DisplaySelectionOverlay
 nsDisplayListBuilder
 *
 aBuilder
-const
-nsDisplayListSet
-&
-aLists
+nsDisplayList
+*
+aList
 PRUint16
 aContentType
 )
@@ -6420,11 +6419,7 @@ next
 ;
 }
 return
-aLists
-.
-Content
-(
-)
+aList
 -
 >
 AppendNewToTop

@@ -9141,6 +9141,10 @@ DisplaySelectionOverlay
 (
 aBuilder
 aLists
+.
+Content
+(
+)
 nsISelectionDisplay
 :
 :

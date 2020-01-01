@@ -1247,6 +1247,10 @@ DisplaySelectionOverlay
 (
 aBuilder
 aLists
+.
+Content
+(
+)
 )
 ;
 }
