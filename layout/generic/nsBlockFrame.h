@@ -2792,8 +2792,9 @@ virtual
 nsresult
 AddFrames
 (
-nsIFrame
-*
+const
+nsFrameList
+&
 aFrameList
 nsIFrame
 *
