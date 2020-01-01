@@ -1154,9 +1154,6 @@ visibility
 hidden
 ;
 }
-%
-ifdef
-MOZ_PLACES_BOOKMARKS
 toolbarpaletteitem
 [
 place
@@ -1177,8 +1174,6 @@ display
 none
 ;
 }
-%
-endif
 /
 *
 :
@@ -12324,9 +12319,6 @@ gif
 )
 ;
 }
-%
-ifdef
-MOZ_PLACES_BOOKMARKS
 /
 *
 Personal
@@ -12612,5 +12604,3 @@ colors
 000000
 ;
 }
-%
-endif
