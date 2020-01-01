@@ -1052,6 +1052,13 @@ i
 ]
 )
 ;
+timer
+-
+>
+ReleaseCallback
+(
+)
+;
 RemoveTimerInternal
 (
 timer
