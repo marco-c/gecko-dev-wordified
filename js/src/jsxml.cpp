@@ -25857,14 +25857,6 @@ targetprop
 ;
 if
 (
-!
-nameobj
-)
-goto
-bad
-;
-if
-(
 OBJ_GET_CLASS
 (
 cx
