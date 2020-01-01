@@ -856,7 +856,7 @@ ContentParent
 *
 >
 *
-gAppContentParents
+sAppContentParents
 ;
 static
 nsTArray
@@ -865,7 +865,7 @@ ContentParent
 *
 >
 *
-gNonAppContentParents
+sNonAppContentParents
 ;
 static
 nsTArray
@@ -874,7 +874,7 @@ ContentParent
 *
 >
 *
-gPrivateContent
+sPrivateContent
 ;
 static
 void
