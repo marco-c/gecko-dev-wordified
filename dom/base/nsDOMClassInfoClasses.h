@@ -1322,10 +1322,6 @@ DOMCI_CLASS
 (
 XMLHttpProgressEvent
 )
-DOMCI_CLASS
-(
-XMLHttpRequest
-)
 /
 /
 Server
@@ -1580,10 +1576,6 @@ LocalMediaStream
 )
 #
 endif
-DOMCI_CLASS
-(
-XMLHttpRequestUpload
-)
 /
 /
 DOM

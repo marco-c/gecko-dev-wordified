@@ -2156,11 +2156,6 @@ DisconnectFromOwner
 /
 /
 /
-DOMCI_DATA
-(
-XMLHttpRequestUpload
-nsXMLHttpRequestUpload
-)
 NS_INTERFACE_MAP_BEGIN
 (
 nsXMLHttpRequestUpload
@@ -2168,10 +2163,6 @@ nsXMLHttpRequestUpload
 NS_INTERFACE_MAP_ENTRY
 (
 nsIXMLHttpRequestUpload
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-XMLHttpRequestUpload
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
@@ -3355,11 +3346,6 @@ NS_IMPL_CYCLE_COLLECTION_TRACE_JSVAL_MEMBER_CALLBACK
 mResultJSON
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_END
-DOMCI_DATA
-(
-XMLHttpRequest
-nsXMLHttpRequest
-)
 /
 /
 QueryInterface
@@ -3409,10 +3395,6 @@ nsIJSNativeInitializer
 NS_INTERFACE_MAP_ENTRY
 (
 nsITimerCallback
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-XMLHttpRequest
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
