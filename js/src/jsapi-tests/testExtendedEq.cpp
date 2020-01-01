@@ -13,7 +13,7 @@ tab
 -
 width
 :
-4
+8
 ;
 indent
 -
@@ -39,7 +39,7 @@ vim
 set
 ts
 =
-4
+8
 sw
 =
 4
