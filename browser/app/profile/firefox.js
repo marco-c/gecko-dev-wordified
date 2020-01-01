@@ -13395,6 +13395,10 @@ toolbarSpec
 '
 [
 "
+paintflashing
+toggle
+"
+"
 tilt
 toggle
 "
