@@ -7644,9 +7644,6 @@ mServiceObject
 =
 NULL
 ;
-delete
-aEntry
-;
 return
 PL_DHASH_NEXT
 ;
@@ -10494,9 +10491,6 @@ swap
 dyingServiceObject
 )
 ;
-delete
-f
-;
 }
 return
 NS_OK
@@ -11255,11 +11249,6 @@ mModule
 module
 )
 {
-MOZ_COUNT_CTOR
-(
-nsFactoryEntry
-)
-;
 }
 nsFactoryEntry
 :
@@ -11288,11 +11277,6 @@ mFactory
 factory
 )
 {
-MOZ_COUNT_CTOR
-(
-nsFactoryEntry
-)
-;
 mozilla
 :
 :
@@ -11376,11 +11360,6 @@ delete
 mCIDEntry
 ;
 }
-MOZ_COUNT_DTOR
-(
-nsFactoryEntry
-)
-;
 }
 already_AddRefed
 <
