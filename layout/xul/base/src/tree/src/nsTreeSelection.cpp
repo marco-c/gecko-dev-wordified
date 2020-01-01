@@ -4500,8 +4500,10 @@ void
 aClosure
 )
 {
+nsRefPtr
+<
 nsTreeSelection
-*
+>
 self
 =
 static_cast
