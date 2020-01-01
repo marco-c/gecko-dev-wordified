@@ -34232,6 +34232,13 @@ nsnull
 ;
 }
 else
+if
+(
+this
+=
+=
+aProgress
+)
 {
 rv
 =
@@ -34239,7 +34246,6 @@ MaybeInitTiming
 (
 )
 ;
-}
 if
 (
 mTiming
@@ -34257,6 +34263,7 @@ mLoadType
 )
 )
 ;
+}
 }
 nsCOMPtr
 <
