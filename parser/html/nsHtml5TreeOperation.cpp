@@ -128,6 +128,13 @@ h
 #
 include
 "
+nsDocElementCreatedNotificationRunner
+.
+h
+"
+#
+include
+"
 nsNodeUtils
 .
 h
