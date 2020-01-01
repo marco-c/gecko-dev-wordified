@@ -17513,6 +17513,14 @@ MComponentData
 (
 gArgc
 gArgv
+"
+"
+new
+MApplicationService
+(
+"
+"
+)
 )
 )
 ;
