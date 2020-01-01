@@ -6,8 +6,6 @@
 Mode
 :
 C
-+
-+
 ;
 tab
 -
@@ -934,6 +932,11 @@ thing
 JS_ASSERT
 (
 thing
+-
+>
+asFreeCell
+(
+)
 -
 >
 isAligned
