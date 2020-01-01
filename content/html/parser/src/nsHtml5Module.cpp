@@ -472,6 +472,9 @@ nsHtml5Module
 .
 h
 "
+/
+/
+static
 PRBool
 nsHtml5Module
 :
