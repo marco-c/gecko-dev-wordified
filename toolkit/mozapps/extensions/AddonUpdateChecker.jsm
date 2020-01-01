@@ -362,6 +362,7 @@ this
 CertUtils
 "
 function
+certUtilsLazyGetter
 (
 )
 {
@@ -451,6 +452,7 @@ __defineGetter__
 (
 aName
 function
+logFuncGetter
 (
 )
 {
@@ -3236,6 +3238,7 @@ addEventListener
 load
 "
 function
+loadEventListener
 (
 event
 )
@@ -3259,6 +3262,7 @@ addEventListener
 error
 "
 function
+errorEventListener
 (
 event
 )

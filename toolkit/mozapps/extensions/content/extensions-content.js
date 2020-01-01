@@ -272,6 +272,7 @@ idl
 enabled
 :
 function
+createInstallTrigger_enabled
 (
 )
 {
@@ -316,6 +317,7 @@ idl
 updateEnabled
 :
 function
+createInstallTrigger_updateEnabled
 (
 )
 {
@@ -340,6 +342,7 @@ idl
 install
 :
 function
+createInstallTrigger_install
 (
 aArgs
 aCallback
@@ -722,6 +725,7 @@ idl
 startSoftwareUpdate
 :
 function
+createInstallTrigger_startSoftwareUpdate
 (
 aUrl
 aFlags
@@ -789,6 +793,7 @@ idl
 installChrome
 :
 function
+createInstallTrigger_installChrome
 (
 aType
 aUrl
@@ -857,6 +862,7 @@ object
 resolveURL
 :
 function
+createInstallTrigger_resolveURL
 (
 aUrl
 )
@@ -906,6 +912,7 @@ bug
 checkLoadURIFromScript
 :
 function
+createInstallTrigger_checkLoadURIFromScript
 (
 aUri
 )
@@ -1260,6 +1267,7 @@ addMessageListener
 (
 MSG_JAR_FLUSH
 function
+jar_flushMessageListener
 (
 msg
 )
@@ -1371,6 +1379,7 @@ addEventListener
 unload
 "
 function
+unloadEventListener
 (
 )
 {
@@ -1404,7 +1413,7 @@ prototype
 handleEvent
 :
 function
-handleEvent
+ITM_handleEvent
 (
 aEvent
 )
@@ -1428,6 +1437,7 @@ __defineGetter__
 InstallTrigger
 "
 function
+installTriggerGetter
 (
 )
 {
@@ -1603,6 +1613,7 @@ callback
 addCallback
 :
 function
+ITM_addCallback
 (
 aCallback
 aUrls
@@ -1755,6 +1766,7 @@ ID
 receiveMessage
 :
 function
+ITM_receiveMessage
 (
 aMessage
 )

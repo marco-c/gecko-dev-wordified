@@ -443,6 +443,7 @@ _completeCount
 show
 :
 function
+gChecking_show
 (
 )
 {
@@ -479,6 +480,7 @@ AddonManager
 getAllAddons
 (
 function
+gChecking_getAllAddons
 (
 aAddons
 )
@@ -509,6 +511,7 @@ aAddons
 filter
 (
 function
+gChecking_filterAddons
 (
 aAddon
 )
@@ -663,6 +666,7 @@ repopulateCache
 (
 ids
 function
+gChecking_repopulateCache
 (
 )
 {
@@ -671,6 +675,7 @@ AddonManagerPrivate
 updateAddonRepositoryData
 (
 function
+gChecking_updateAddonRepositoryData
 (
 )
 {
@@ -750,6 +755,7 @@ UPDATE_WHEN_NEW_APP_INSTALLED
 onUpdateAvailable
 :
 function
+gChecking_onUpdateAvailable
 (
 aAddon
 aInstall
@@ -795,6 +801,7 @@ aInstall
 onUpdateFinished
 :
 function
+gChecking_onUpdateFinished
 (
 aAddon
 aError
@@ -849,6 +856,7 @@ addons
 sort
 (
 function
+sortAddons
 (
 a
 b
@@ -1090,6 +1098,7 @@ select
 show
 :
 function
+gSelect_show
 (
 )
 {
@@ -1103,6 +1112,7 @@ updateButtons
 updateButtons
 :
 function
+gSelect_updateButtons
 (
 )
 {
@@ -1177,6 +1187,7 @@ true
 next
 :
 function
+gSelect_next
 (
 )
 {
@@ -1189,6 +1200,7 @@ gConfirm
 done
 :
 function
+gSelect_done
 (
 )
 {
@@ -1213,6 +1225,7 @@ confirm
 show
 :
 function
+gConfirm_show
 (
 )
 {
@@ -1477,6 +1490,7 @@ false
 back
 :
 function
+gConfirm_back
 (
 )
 {
@@ -1489,6 +1503,7 @@ gSelect
 next
 :
 function
+gConfirm_next
 (
 )
 {
@@ -1501,6 +1516,7 @@ gUpdate
 done
 :
 function
+gConfirm_done
 (
 )
 {
@@ -1581,6 +1597,7 @@ _errorCount
 show
 :
 function
+gUpdate_show
 (
 )
 {
@@ -1686,6 +1703,7 @@ _completeCount
 checkComplete
 :
 function
+gUpdate_checkComplete
 (
 )
 {
@@ -1738,6 +1756,7 @@ close
 onDownloadStarted
 :
 function
+gUpdate_onDownloadStarted
 (
 aInstall
 )
@@ -1752,6 +1771,7 @@ _waitingCount
 onDownloadFailed
 :
 function
+gUpdate_onDownloadFailed
 (
 aInstall
 )
@@ -1778,6 +1798,7 @@ checkComplete
 onInstallFailed
 :
 function
+gUpdate_onInstallFailed
 (
 aInstall
 )
@@ -1804,6 +1825,7 @@ checkComplete
 onInstallEnded
 :
 function
+gUpdate_onInstallEnded
 (
 aInstall
 )
@@ -1835,6 +1857,7 @@ errors
 show
 :
 function
+gErrors_show
 (
 )
 {
@@ -1850,6 +1873,7 @@ true
 done
 :
 function
+gErrors_done
 (
 )
 {
@@ -1870,6 +1894,7 @@ addEventListener
 load
 "
 function
+loadEventListener
 (
 )
 {
@@ -1904,6 +1929,7 @@ addEventListener
 unload
 "
 function
+unloadEventListener
 (
 )
 {

@@ -1068,6 +1068,7 @@ aManifest
 some
 (
 function
+hasType_matchEntryType
 (
 aEntry
 )

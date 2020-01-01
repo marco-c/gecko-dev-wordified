@@ -11462,6 +11462,7 @@ executeAsync
 handleResult
 :
 function
+getAllIcons_handleResult
 (
 aResults
 )
@@ -11578,6 +11579,7 @@ asyncErrorLogger
 handleCompletion
 :
 function
+getAllIcons_handleCompletion
 (
 aReason
 )

@@ -195,6 +195,7 @@ __defineGetter__
 (
 aName
 function
+logFuncGetter
 (
 )
 {
@@ -623,6 +624,7 @@ __defineGetter__
 gRDF
 "
 function
+gRDFGetter
 (
 )
 {
@@ -958,6 +960,7 @@ null
 handleResult
 :
 function
+AsyncAddonListCallback_handleResult
 (
 aResults
 )
@@ -997,6 +1000,7 @@ makeAddonFromRowAsync
 (
 row
 function
+handleResult_makeAddonFromRowAsync
 (
 aAddon
 )
@@ -1097,6 +1101,7 @@ asyncErrorLogger
 handleCompletion
 :
 function
+AsyncAddonListCallback_handleCompletion
 (
 aReason
 )
@@ -5643,6 +5648,7 @@ __defineGetter__
 connection
 "
 function
+connectionGetter
 (
 )
 {
@@ -5666,6 +5672,7 @@ connection
 asyncClose
 (
 function
+shutdown_asyncClose
 (
 )
 {
@@ -7358,6 +7365,7 @@ executeAsync
 handleResult
 :
 function
+readLocaleStrings_handleResult
 (
 aResults
 )
@@ -7434,6 +7442,7 @@ asyncErrorLogger
 handleCompletion
 :
 function
+readLocaleStrings_handleCompletion
 (
 aReason
 )
@@ -7487,6 +7496,7 @@ executeAsync
 handleResult
 :
 function
+readDefaultLocale_handleResult
 (
 aResults
 )
@@ -7522,6 +7532,7 @@ asyncErrorLogger
 handleCompletion
 :
 function
+readDefaultLocale_handleCompletion
 (
 aReason
 )
@@ -7615,6 +7626,7 @@ executeAsync
 handleResult
 :
 function
+readLocales_handleResult
 (
 aResults
 )
@@ -7689,6 +7701,7 @@ asyncErrorLogger
 handleCompletion
 :
 function
+readLocales_handleCompletion
 (
 aReason
 )
@@ -7788,6 +7801,7 @@ executeAsync
 handleResult
 :
 function
+readTargetApplications_handleResult
 (
 aResults
 )
@@ -7829,6 +7843,7 @@ asyncErrorLogger
 handleCompletion
 :
 function
+readTargetApplications_handleCompletion
 (
 aReason
 )
@@ -7889,6 +7904,7 @@ executeAsync
 handleResult
 :
 function
+readTargetPlatforms_handleResult
 (
 aResults
 )
@@ -7937,6 +7953,7 @@ asyncErrorLogger
 handleCompletion
 :
 function
+readTargetPlatforms_handleCompletion
 (
 aReason
 )
@@ -8652,6 +8669,7 @@ new
 AsyncAddonListCallback
 (
 function
+getAddonInLocation_executeAsync
 (
 aAddons
 )
@@ -8830,6 +8848,7 @@ new
 AsyncAddonListCallback
 (
 function
+getVisibleAddonForID_executeAsync
 (
 aAddons
 )
@@ -9728,6 +9747,7 @@ new
 AsyncAddonListCallback
 (
 function
+getAddonBySyncGUID_executeAsync
 (
 aAddons
 )

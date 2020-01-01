@@ -2061,6 +2061,7 @@ null
 observe
 :
 function
+Blocklist_observe
 (
 aSubject
 aTopic
@@ -2199,6 +2200,7 @@ nsIBlocklistService
 isAddonBlocklisted
 :
 function
+Blocklist_isAddonBlocklisted
 (
 id
 version
@@ -2234,6 +2236,7 @@ nsIBlocklistService
 getAddonBlocklistState
 :
 function
+Blocklist_getAddonBlocklistState
 (
 id
 version
@@ -2404,6 +2407,7 @@ nsIBlocklistService
 _getAddonBlocklistState
 :
 function
+Blocklist_getAddonBlocklistStateCall
 (
 id
 version
@@ -2523,6 +2527,7 @@ nsIBlocklistService
 getAddonBlocklistURL
 :
 function
+Blocklist_getAddonBlocklistURL
 (
 id
 version
@@ -2590,6 +2595,7 @@ blockID
 _createBlocklistURL
 :
 function
+Blocklist_createBlocklistURL
 (
 id
 )
@@ -2628,6 +2634,7 @@ url
 notify
 :
 function
+Blocklist_notify
 (
 aTimer
 )
@@ -3493,6 +3500,7 @@ addEventListener
 error
 "
 function
+errorEventListener
 (
 event
 )
@@ -3516,6 +3524,7 @@ addEventListener
 load
 "
 function
+loadEventListener
 (
 event
 )
@@ -3580,6 +3589,7 @@ _loadBlocklist
 onXMLLoad
 :
 function
+Blocklist_onXMLLoad
 (
 aEvent
 )
@@ -3799,6 +3809,7 @@ oldPluginEntries
 onXMLError
 :
 function
+Blocklist_onXMLError
 (
 aEvent
 )
@@ -3968,6 +3979,7 @@ exist
 _loadBlocklist
 :
 function
+Blocklist_loadBlocklist
 (
 )
 {
@@ -4632,6 +4644,7 @@ blocklist
 _loadBlocklistFromFile
 :
 function
+Blocklist_loadBlocklistFromFile
 (
 file
 )
@@ -4994,6 +5007,7 @@ close
 _processItemNodes
 :
 function
+Blocklist_processItemNodes
 (
 itemNodes
 prefix
@@ -5078,6 +5092,7 @@ result
 _handleEmItemNode
 :
 function
+Blocklist_handleEmItemNode
 (
 blocklistElement
 result
@@ -5254,6 +5269,7 @@ blockID
 _handlePluginItemNode
 :
 function
+Blocklist_handlePluginItemNode
 (
 blocklistElement
 result
@@ -5524,6 +5540,7 @@ nsIBlocklistService
 getPluginBlocklistState
 :
 function
+Blocklist_getPluginBlocklistState
 (
 plugin
 appVersion
@@ -5666,6 +5683,7 @@ nsIBlocklistService
 _getPluginBlocklistState
 :
 function
+Blocklist_getPluginBlocklistState
 (
 plugin
 pluginEntries
@@ -5906,6 +5924,7 @@ nsIBlocklistService
 getPluginBlocklistURL
 :
 function
+Blocklist_getPluginBlocklistURL
 (
 plugin
 )
@@ -6040,6 +6059,7 @@ blockID
 _blocklistUpdated
 :
 function
+Blocklist_blocklistUpdated
 (
 oldAddonEntries
 oldPluginEntries
@@ -6056,10 +6076,9 @@ self
 =
 this
 ;
-AddonManager
-.
-getAddonsByTypes
-(
+const
+types
+=
 [
 "
 extension
@@ -6074,7 +6093,13 @@ locale
 dictionary
 "
 ]
+AddonManager
+.
+getAddonsByTypes
+(
+types
 function
+blocklistUpdated_getAddonsByTypes
 (
 addons
 )
@@ -6908,6 +6933,7 @@ let
 applyBlocklistChanges
 =
 function
+blocklistUpdated_applyBlocklistChanges
 (
 )
 {
@@ -7509,6 +7535,7 @@ version
 includesItem
 :
 function
+BlocklistItemData_includesItem
 (
 version
 appVersion
@@ -7715,6 +7742,7 @@ smaller
 matchesRange
 :
 function
+BlocklistItemData_matchesRange
 (
 version
 minVersion
@@ -7830,6 +7858,7 @@ given
 matchesTargetRange
 :
 function
+BlocklistItemData_matchesTargetRange
 (
 appID
 appVersion
@@ -7971,6 +8000,7 @@ null
 getBlocklistAppVersions
 :
 function
+BlocklistItemData_getBlocklistAppVersions
 (
 targetAppElement
 )
@@ -8181,6 +8211,7 @@ null
 getBlocklistVersionRange
 :
 function
+BlocklistItemData_getBlocklistVersionRange
 (
 versionRangeElement
 )

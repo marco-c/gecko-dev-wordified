@@ -310,6 +310,7 @@ false
 init
 :
 function
+gUpdateWizard_init
 (
 )
 {
@@ -425,6 +426,7 @@ versioninfo
 onWizardFinish
 :
 function
+gUpdateWizard_onWizardFinish
 (
 )
 {
@@ -450,6 +452,7 @@ shouldAutoCheck
 _setUpButton
 :
 function
+gUpdateWizard_setUpButton
 (
 aButtonID
 aButtonKey
@@ -535,6 +538,7 @@ aDisabled
 setButtonLabels
 :
 function
+gUpdateWizard_setButtonLabels
 (
 aBackButton
 aBackButtonIsDisabled
@@ -666,6 +670,7 @@ errorItems
 checkForErrors
 :
 function
+gUpdateWizard_checkForErrors
 (
 aElementIDToShow
 )
@@ -695,6 +700,7 @@ false
 onWizardClose
 :
 function
+gUpdateWizard_onWizardClose
 (
 aEvent
 )
@@ -710,6 +716,7 @@ onWizardCancel
 onWizardCancel
 :
 function
+gUpdateWizard_onWizardCancel
 (
 )
 {
@@ -790,6 +797,7 @@ gOfflinePage
 onPageAdvanced
 :
 function
+gOfflinePage_onPageAdvanced
 (
 )
 {
@@ -808,6 +816,7 @@ true
 toggleOffline
 :
 function
+gOfflinePage_toggleOffline
 (
 )
 {
@@ -849,6 +858,7 @@ _totalCount
 onPageShow
 :
 function
+gVersionInfoPage_onPageShow
 (
 )
 {
@@ -909,6 +919,7 @@ AddonManager
 getAllAddons
 (
 function
+gVersionInfoPage_getAllAddons
 (
 aAddons
 )
@@ -922,6 +933,7 @@ aAddons
 filter
 (
 function
+gVersionInfoPage_filterAddons
 (
 a
 )
@@ -1003,6 +1015,7 @@ repopulateCache
 (
 ids
 function
+gVersionInfoPage_repolulateCache
 (
 )
 {
@@ -1011,6 +1024,7 @@ AddonManagerPrivate
 updateAddonRepositoryData
 (
 function
+gVersionInfoPage_updateAddonRepoData
 (
 )
 {
@@ -1064,6 +1078,7 @@ UPDATE_WHEN_NEW_APP_INSTALLED
 onAllUpdatesFinished
 :
 function
+gVersionInfoPage_onAllUpdatesFinished
 (
 )
 {
@@ -1100,6 +1115,7 @@ addons
 filter
 (
 function
+onAllUpdatesFinished_filterAddons
 (
 a
 )
@@ -1307,6 +1323,7 @@ UpdateListener
 onUpdateFinished
 :
 function
+gVersionInfoPage_onUpdateFinished
 (
 aAddon
 status
@@ -1515,6 +1532,7 @@ gMismatchPage
 onPageShow
 :
 function
+gMismatchPage_onPageShow
 (
 )
 {
@@ -1628,6 +1646,7 @@ _completeCount
 onPageShow
 :
 function
+gUpdatePage_onPageShow
 (
 )
 {
@@ -1733,6 +1752,7 @@ UPDATE_WHEN_NEW_APP_INSTALLED
 onAllUpdatesFinished
 :
 function
+gUpdatePage_onAllUpdatesFinished
 (
 )
 {
@@ -1861,6 +1881,7 @@ UpdateListener
 onUpdateAvailable
 :
 function
+gUpdatePage_onUpdateAvailable
 (
 aAddon
 aInstall
@@ -1879,6 +1900,7 @@ aInstall
 onUpdateFinished
 :
 function
+gUpdatePage_onUpdateFinished
 (
 aAddon
 status
@@ -2031,6 +2053,7 @@ gFoundPage
 onPageShow
 :
 function
+gFoundPage_onPageShow
 (
 )
 {
@@ -2218,6 +2241,7 @@ false
 toggleXPInstallEnable
 :
 function
+gFoundPage_toggleXPInstallEnable
 (
 aEvent
 )
@@ -2284,6 +2308,7 @@ updateNextButton
 updateNextButton
 :
 function
+gFoundPage_updateNextButton
 (
 )
 {
@@ -2445,6 +2470,7 @@ false
 onPageShow
 :
 function
+gInstallingPage_onPageShow
 (
 )
 {
@@ -2553,6 +2579,7 @@ startNextInstall
 startNextInstall
 :
 function
+gInstallingPage_startNextInstall
 (
 )
 {
@@ -2685,6 +2712,7 @@ install
 cancelInstalls
 :
 function
+gInstallingPage_cancelInstalls
 (
 )
 {
@@ -2799,6 +2827,7 @@ InstallListener
 onDownloadStarted
 :
 function
+gInstallingPage_onDownloadStarted
 (
 aInstall
 )
@@ -2854,6 +2883,7 @@ label
 onDownloadProgress
 :
 function
+gInstallingPage_onDownloadProgress
 (
 aInstall
 )
@@ -2893,6 +2923,7 @@ maxProgress
 onDownloadEnded
 :
 function
+gInstallingPage_onDownloadEnded
 (
 aInstall
 )
@@ -2901,6 +2932,7 @@ aInstall
 onDownloadFailed
 :
 function
+gInstallingPage_onDownloadFailed
 (
 aInstall
 )
@@ -2924,6 +2956,7 @@ startNextInstall
 onInstallStarted
 :
 function
+gInstallingPage_onInstallStarted
 (
 aInstall
 )
@@ -2979,6 +3012,7 @@ label
 onInstallEnded
 :
 function
+gInstallingPage_onInstallEnded
 (
 aInstall
 aAddon
@@ -3018,6 +3052,7 @@ startNextInstall
 onInstallFailed
 :
 function
+gInstallingPage_onInstallFailed
 (
 aInstall
 )
@@ -3047,6 +3082,7 @@ gInstallErrorsPage
 onPageShow
 :
 function
+gInstallErrorsPage_onPageShow
 (
 )
 {
@@ -3110,6 +3146,7 @@ gAdminDisabledPage
 onPageShow
 :
 function
+gAdminDisabledPage_onPageShow
 (
 )
 {
@@ -3188,6 +3225,7 @@ gFinishedPage
 onPageShow
 :
 function
+gFinishedPage_onPageShow
 (
 )
 {
@@ -3303,6 +3341,7 @@ gNoUpdatesPage
 onPageShow
 :
 function
+gNoUpdatesPage_onPageLoad
 (
 aEvent
 )

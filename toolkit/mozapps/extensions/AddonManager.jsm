@@ -418,6 +418,7 @@ this
 CertUtils
 "
 function
+certUtilsLazyGetter
 (
 )
 {
@@ -545,6 +546,7 @@ __defineGetter__
 (
 aName
 function
+logFuncGetter
 (
 )
 {
@@ -1307,6 +1309,7 @@ string
 toString
 :
 function
+AddonAuthor_toString
 (
 )
 {
@@ -1543,6 +1546,7 @@ string
 toString
 :
 function
+AddonScreenshot_toString
 (
 )
 {
@@ -2105,6 +2109,7 @@ __defineGetter__
 name
 "
 function
+nameGetter
 (
 )
 {
@@ -2290,6 +2295,7 @@ create
 getOwnPropertyDescriptor
 :
 function
+typesProxy_getOwnPropertyDescriptor
 (
 aName
 )
@@ -2334,6 +2340,7 @@ true
 getPropertyDescriptor
 :
 function
+typesProxy_getPropertyDescriptor
 (
 aName
 )
@@ -2350,6 +2357,7 @@ aName
 getOwnPropertyNames
 :
 function
+typesProxy_getOwnPropertyNames
 (
 )
 {
@@ -2367,6 +2375,7 @@ types
 getPropertyNames
 :
 function
+typesProxy_getPropertyNames
 (
 )
 {
@@ -2381,6 +2390,7 @@ getOwnPropertyNames
 delete
 :
 function
+typesProxy_delete
 (
 aName
 )
@@ -2399,6 +2409,7 @@ false
 defineProperty
 :
 function
+typesProxy_defineProperty
 (
 aName
 aProperty
@@ -2415,6 +2426,7 @@ properties
 fix
 :
 function
+typesProxy_fix
 (
 )
 {
@@ -2445,6 +2457,7 @@ defined
 enumerate
 :
 function
+typesProxy_enumerate
 (
 )
 {
@@ -3373,6 +3386,7 @@ typeListeners
 safeCall
 (
 function
+listenerSafeCall
 (
 )
 {
@@ -3573,6 +3587,7 @@ providers
 filter
 (
 function
+filterProvider
 (
 p
 )
@@ -3642,6 +3657,7 @@ typeListeners
 safeCall
 (
 function
+listenerSafeCall
 (
 )
 {
@@ -4943,6 +4959,7 @@ w
 /
 g
 function
+parameterReplace
 (
 aMatch
 aParam
@@ -5724,6 +5741,7 @@ url
 onUpdateCheckComplete
 :
 function
+BUC_onUpdateCheckComplete
 (
 aUpdates
 )
@@ -5818,6 +5836,7 @@ update
 .
 updateURL
 function
+BUC_getInstallForURL
 (
 aInstall
 )
@@ -5830,6 +5849,7 @@ addListener
 onDownloadEnded
 :
 function
+BUC_onDownloadEnded
 (
 aInstall
 )
@@ -5932,6 +5952,7 @@ cancel
 onInstallEnded
 :
 function
+BUC_onInstallEnded
 (
 aInstall
 )
@@ -5961,6 +5982,7 @@ version
 onInstallCancelled
 :
 function
+BUC_onInstallCancelled
 (
 aInstall
 )
@@ -6423,6 +6445,7 @@ aType
 filter
 (
 function
+filterItem
 (
 aItem
 )
@@ -7417,6 +7440,7 @@ updateAddonRepositoryData
 nextObject
 :
 function
+updateAddonRepositoryData_nextObject
 (
 aCaller
 aProvider
@@ -7443,6 +7467,7 @@ aCaller
 noMoreObjects
 :
 function
+updateAddonRepositoryData_noMoreObjects
 (
 aCaller
 )
@@ -7970,6 +7995,7 @@ aIcons
 aVersion
 aLoadGroup
 function
+getInstallForURL_safeCall
 (
 aInstall
 )
@@ -8188,6 +8214,7 @@ getInstallForFile
 nextObject
 :
 function
+getInstallForFile_nextObject
 (
 aCaller
 aProvider
@@ -8202,6 +8229,7 @@ getInstallForFile
 null
 aFile
 function
+getInstallForFile_safeCall
 (
 aInstall
 )
@@ -8230,6 +8258,7 @@ callNext
 noMoreObjects
 :
 function
+getInstallForFile_noMoreObjects
 (
 aCaller
 )
@@ -8415,6 +8444,7 @@ getInstallsByTypes
 nextObject
 :
 function
+getInstallsByTypes_nextObject
 (
 aCaller
 aProvider
@@ -8429,6 +8459,7 @@ getInstallsByTypes
 null
 aTypes
 function
+getInstallsByTypes_safeCall
 (
 aProviderInstalls
 )
@@ -8455,6 +8486,7 @@ callNext
 noMoreObjects
 :
 function
+getInstallsByTypes_noMoreObjects
 (
 aCaller
 )
@@ -9459,6 +9491,7 @@ installListeners
 some
 (
 function
+addInstallListener_matchListener
 (
 i
 )
@@ -9751,6 +9784,7 @@ getAddonByID
 nextObject
 :
 function
+getAddonByID_nextObject
 (
 aCaller
 aProvider
@@ -9765,6 +9799,7 @@ getAddonByID
 null
 aID
 function
+getAddonByID_safeCall
 (
 aAddon
 )
@@ -9793,6 +9828,7 @@ callNext
 noMoreObjects
 :
 function
+getAddonByID_noMoreObjects
 (
 aCaller
 )
@@ -9969,6 +10005,7 @@ getAddonBySyncGUID
 nextObject
 :
 function
+getAddonBySyncGUID_nextObject
 (
 aCaller
 aProvider
@@ -9983,6 +10020,7 @@ getAddonBySyncGUID
 null
 aGUID
 function
+getAddonBySyncGUID_safeCall
 (
 aAddon
 )
@@ -10015,6 +10053,7 @@ callNext
 noMoreObjects
 :
 function
+getAddonBySyncGUID_noMoreObjects
 (
 aCaller
 )
@@ -10179,6 +10218,7 @@ null
 nextObject
 :
 function
+getAddonsByIDs_nextObject
 (
 aCaller
 aID
@@ -10190,6 +10230,7 @@ getAddonByID
 (
 aID
 function
+getAddonsByIDs_getAddonByID
 (
 aAddon
 )
@@ -10214,6 +10255,7 @@ callNext
 noMoreObjects
 :
 function
+getAddonsByIDs_noMoreObjects
 (
 aCaller
 )
@@ -10394,6 +10436,7 @@ getAddonsByTypes
 nextObject
 :
 function
+getAddonsByTypes_nextObject
 (
 aCaller
 aProvider
@@ -10408,6 +10451,7 @@ getAddonsByTypes
 null
 aTypes
 function
+getAddonsByTypes_concatAddons
 (
 aProviderAddons
 )
@@ -10434,6 +10478,7 @@ callNext
 noMoreObjects
 :
 function
+getAddonsByTypes_noMoreObjects
 (
 aCaller
 )
@@ -10715,6 +10760,7 @@ getAddonsWithOperationsByTypes
 nextObject
 :
 function
+getAddonsWithOperationsByTypes_nextObject
 (
 aCaller
 aProvider
@@ -10729,6 +10775,7 @@ getAddonsWithOperationsByTypes
 null
 aTypes
 function
+getAddonsWithOperationsByTypes_concatAddons
 (
 aProviderAddons
 )
@@ -10755,6 +10802,7 @@ callNext
 noMoreObjects
 :
 function
+getAddonsWithOperationsByTypes_noMoreObjects
 (
 caller
 )
@@ -10847,6 +10895,7 @@ managerListeners
 some
 (
 function
+addManagerListener_matchListener
 (
 i
 )
@@ -11056,6 +11105,7 @@ addonListeners
 some
 (
 function
+addAddonListener_matchListener
 (
 i
 )
@@ -11265,6 +11315,7 @@ typeListeners
 some
 (
 function
+addTypeListener_matchListener
 (
 i
 )

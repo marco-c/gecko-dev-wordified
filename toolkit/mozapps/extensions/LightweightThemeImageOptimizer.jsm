@@ -628,6 +628,7 @@ read
 (
 aURI
 function
+crop_readImageFile
 (
 aInputStream
 aContentType
@@ -730,6 +731,7 @@ asyncFetch
 (
 aURI
 function
+read_asyncFetch
 (
 aInputStream
 aStatus
@@ -814,6 +816,7 @@ asyncCopy
 aInputStream
 fos
 function
+write_asyncCopy
 (
 aResult
 )
