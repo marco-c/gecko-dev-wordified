@@ -5310,9 +5310,9 @@ frameURL
 =
 doc
 .
-location
+documentURIObject
 .
-href
+spec
 ;
 var
 referrer
@@ -5321,7 +5321,6 @@ doc
 .
 referrer
 ;
-return
 openNewTabWith
 (
 frameURL
@@ -5399,9 +5398,9 @@ frameURL
 =
 doc
 .
-location
+documentURIObject
 .
-href
+spec
 ;
 var
 referrer
@@ -5410,7 +5409,6 @@ doc
 .
 referrer
 ;
-return
 openNewWindowWith
 (
 frameURL
@@ -5460,9 +5458,9 @@ frameURL
 =
 doc
 .
-location
+documentURIObject
 .
-href
+spec
 ;
 urlSecurityCheck
 (
