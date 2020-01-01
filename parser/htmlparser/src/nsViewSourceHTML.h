@@ -628,6 +628,17 @@ aEnable
 private
 :
 nsresult
+HandleToken
+(
+CToken
+*
+aToken
+nsIParser
+*
+aParser
+)
+;
+nsresult
 WriteTag
 (
 PRInt32

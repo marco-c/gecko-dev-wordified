@@ -669,7 +669,7 @@ eParserCommands
 aCommand
 =
 eViewNormal
-PRUint16
+PRUint32
 aFlags
 =
 0

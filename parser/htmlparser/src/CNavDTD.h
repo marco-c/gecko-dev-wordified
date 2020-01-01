@@ -2093,6 +2093,17 @@ aCount
 )
 const
 ;
+nsresult
+HandleToken
+(
+CToken
+*
+aToken
+nsIParser
+*
+aParser
+)
+;
 /
 *
 *
@@ -2389,9 +2400,6 @@ aType
 nsIParser
 *
 aParser
-nsIContentSink
-*
-aSink
 )
 ;
 nsresult

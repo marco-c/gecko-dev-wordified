@@ -13089,7 +13089,6 @@ DidBuildModel
 (
 anErrorCode
 this
-mSink
 )
 sinkResult
 =
@@ -18217,8 +18216,6 @@ BuildModel
 (
 this
 theTokenizer
-nsnull
-mSink
 )
 ;
 MOZ_TIMER_STOP

@@ -1558,7 +1558,7 @@ always
 )
 *
 /
-nsresult
+NS_IMETHODIMP
 CViewSourceHTML
 :
 :
@@ -2020,12 +2020,6 @@ aParser
 nsITokenizer
 *
 aTokenizer
-nsITokenObserver
-*
-anObserver
-nsIContentSink
-*
-aSink
 )
 {
 nsresult
@@ -3182,9 +3176,6 @@ anErrorCode
 nsIParser
 *
 aParser
-nsIContentSink
-*
-aSink
 )
 {
 nsresult
@@ -3665,7 +3656,10 @@ contain
 child
 *
 /
+NS_IMETHODIMP_
+(
 PRBool
+)
 CViewSourceHTML
 :
 :
@@ -3737,7 +3731,10 @@ other
 tags
 *
 /
+NS_IMETHODIMP_
+(
 PRBool
+)
 CViewSourceHTML
 :
 :
@@ -4959,7 +4956,7 @@ an
 error
 *
 /
-NS_IMETHODIMP
+nsresult
 CViewSourceHTML
 :
 :

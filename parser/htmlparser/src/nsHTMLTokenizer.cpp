@@ -800,13 +800,10 @@ eParserDocType
 aDocType
 eParserCommands
 aCommand
-PRUint16
+PRUint32
 aFlags
 )
 :
-nsITokenizer
-(
-)
 mTokenDeque
 (
 0
