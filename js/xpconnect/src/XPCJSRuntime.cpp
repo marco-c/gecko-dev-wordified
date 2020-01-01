@@ -12719,7 +12719,7 @@ Accumulate
 Telemetry
 :
 :
-GC_REASON_2
+GC_REASON
 sample
 )
 ;
