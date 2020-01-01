@@ -1866,11 +1866,6 @@ true
 ;
 }
 }
-if
-(
-presShell
-)
-{
 nsIFrame
 *
 rootFrame
@@ -2080,7 +2075,6 @@ nsLayoutUtils
 PAINT_EXISTING_TRANSACTION
 )
 ;
-}
 }
 }
 }
@@ -4879,6 +4873,8 @@ gcreason
 :
 :
 DOM_UTILS
+nsGCNormal
+true
 )
 ;
 nsJSContext
