@@ -648,6 +648,7 @@ PNK_BREAK
 PNK_CONTINUE
 PNK_IN
 PNK_VAR
+PNK_CONST
 PNK_WITH
 PNK_RETURN
 PNK_NEW
@@ -1454,6 +1455,7 @@ or
 PNK_ASSIGN
 nodes
 *
+PNK_CONST
 each
 name
 node
@@ -5053,6 +5055,8 @@ PNX_POPVAR
 /
 *
 PNK_VAR
+or
+PNK_CONST
 last
 result
 needs
@@ -6962,15 +6966,16 @@ may
 be
 a
 Definition
-instead
-of
+as
+well
+as
 a
 ParseNode
 .
 The
 pn_defn
-*
 bit
+*
 is
 set
 for
@@ -7371,6 +7376,8 @@ into
 its
 parent
 PNK_VAR
+/
+PNK_CONST
 list
 ;
 *
