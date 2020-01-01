@@ -1072,7 +1072,7 @@ COMPILE_ASSERT
 LastMsgIndex
 <
 =
-64
+65536
 need_to_update_IPC_MESSAGE_MACRO
 )
 ;
