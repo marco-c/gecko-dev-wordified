@@ -2854,10 +2854,6 @@ highlightBox
 )
 highlightBox
 .
-get
-(
-)
-.
 style
 .
 display
