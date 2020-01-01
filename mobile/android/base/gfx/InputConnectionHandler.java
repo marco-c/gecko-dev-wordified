@@ -148,9 +148,4 @@ KeyEvent
 event
 )
 ;
-boolean
-isIMEEnabled
-(
-)
-;
 }
