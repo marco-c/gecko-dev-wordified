@@ -498,13 +498,6 @@ h
 #
 include
 "
-nsSVGMatrix
-.
-h
-"
-#
-include
-"
 nsTextFragment
 .
 h
@@ -1611,9 +1604,9 @@ the
 real
 CanvasTM
 .
-nsCOMPtr
+nsAutoPtr
 <
-nsIDOMSVGMatrix
+gfxMatrix
 >
 mOverrideCanvasTM
 ;

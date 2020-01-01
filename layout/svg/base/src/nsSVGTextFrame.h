@@ -836,9 +836,9 @@ nsSVGGlyphFrame
 aFrame
 )
 ;
-nsCOMPtr
+nsAutoPtr
 <
-nsIDOMSVGMatrix
+gfxMatrix
 >
 mCanvasTM
 ;

@@ -616,9 +616,9 @@ GetCanvasTM
 (
 )
 ;
-nsCOMPtr
+nsAutoPtr
 <
-nsIDOMSVGMatrix
+gfxMatrix
 >
 mCanvasTM
 ;

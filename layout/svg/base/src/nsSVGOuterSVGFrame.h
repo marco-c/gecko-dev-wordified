@@ -1155,9 +1155,9 @@ mForeignObjectHash
 PRUint32
 mRedrawSuspendCount
 ;
-nsCOMPtr
+nsAutoPtr
 <
-nsIDOMSVGMatrix
+gfxMatrix
 >
 mCanvasTM
 ;

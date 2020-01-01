@@ -438,13 +438,6 @@ __NS_SVGPATTERNFRAME_H__
 #
 include
 "
-nsIDOMSVGMatrix
-.
-h
-"
-#
-include
-"
 nsSVGPaintServerFrame
 .
 h
@@ -483,6 +476,9 @@ mozilla
 {
 class
 SVGAnimatedPreserveAspectRatio
+;
+class
+SVGAnimatedTransformList
 ;
 }
 /
@@ -757,7 +753,10 @@ mContent
 )
 ;
 }
-nsIDOMSVGAnimatedTransformList
+mozilla
+:
+:
+SVGAnimatedTransformList
 *
 GetPatternTransformList
 (
@@ -989,9 +988,9 @@ nsSVGGeometryFrame
 *
 mSource
 ;
-nsCOMPtr
+nsAutoPtr
 <
-nsIDOMSVGMatrix
+gfxMatrix
 >
 mCTM
 ;

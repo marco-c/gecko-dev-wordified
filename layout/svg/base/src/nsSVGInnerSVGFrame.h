@@ -676,9 +676,9 @@ NotifyViewportChange
 ;
 protected
 :
-nsCOMPtr
+nsAutoPtr
 <
-nsIDOMSVGMatrix
+gfxMatrix
 >
 mCanvasTM
 ;

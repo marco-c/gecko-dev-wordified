@@ -463,13 +463,6 @@ h
 #
 include
 "
-nsIDOMSVGMatrix
-.
-h
-"
-#
-include
-"
 nsRegion
 .
 h
@@ -1012,9 +1005,9 @@ height
 0
 ;
 }
-nsCOMPtr
+nsAutoPtr
 <
-nsIDOMSVGMatrix
+gfxMatrix
 >
 mCanvasTM
 ;
