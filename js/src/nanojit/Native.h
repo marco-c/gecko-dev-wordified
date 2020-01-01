@@ -570,12 +570,6 @@ formatRegisters
 _allocator
 outline
 _thisfrag
--
->
-lirbuf
--
->
-names
 )
 ;
 \

@@ -583,7 +583,7 @@ regs
 char
 *
 s
-LirNameMap
+Fragment
 *
 )
 ;

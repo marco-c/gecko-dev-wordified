@@ -26848,10 +26848,13 @@ slot
 ;
 do_int_fast_incop
 :
-rval
-=
+prim_copy
+(
+cx
 *
 vp
+rval
+)
 ;
 if
 (
