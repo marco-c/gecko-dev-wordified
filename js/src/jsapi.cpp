@@ -4596,6 +4596,10 @@ dtoaState
 (
 NULL
 )
+activeCompilations
+(
+0
+)
 trustedPrincipals_
 (
 NULL
@@ -30401,15 +30405,6 @@ NULL
 NULL
 )
 ;
-if
-(
-parser
-.
-init
-(
-)
-)
-{
 older
 =
 JS_SetErrorReporter
@@ -30486,7 +30481,6 @@ cx
 older
 )
 ;
-}
 }
 js_free
 (
