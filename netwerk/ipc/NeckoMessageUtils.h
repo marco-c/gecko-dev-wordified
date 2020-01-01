@@ -827,9 +827,14 @@ NSID_LENGTH
 nsCID
 cid
 ;
+#
+ifdef
+DEBUG
 nsresult
 rv
 =
+#
+endif
 classInfo
 -
 >
