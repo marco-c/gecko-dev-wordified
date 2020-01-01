@@ -13711,7 +13711,7 @@ fromLength
 JSContext
 *
 cx
-int32_t
+uint32_t
 nelements
 )
 {
@@ -20886,15 +20886,6 @@ nelements
 )
 \
 {
-\
-MOZ_ASSERT
-(
-nelements
-<
-=
-INT32_MAX
-)
-;
 \
 return
 TypedArrayTemplate
