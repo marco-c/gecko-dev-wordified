@@ -4929,10 +4929,9 @@ else
 {
 switch
 (
-disp
--
->
-mDisplay
+GetDisplay
+(
+)
 )
 {
 case
@@ -7757,7 +7756,7 @@ if
 mStyleDisplay
 -
 >
-IsOriginalDisplayInlineOutside
+IsOriginalDisplayInlineOutsideStyle
 (
 )
 )
@@ -8198,7 +8197,7 @@ if
 mStyleDisplay
 -
 >
-IsOriginalDisplayInlineOutside
+IsOriginalDisplayInlineOutsideStyle
 (
 )
 )
@@ -8355,7 +8354,7 @@ if
 mStyleDisplay
 -
 >
-IsOriginalDisplayInlineOutside
+IsOriginalDisplayInlineOutsideStyle
 (
 )
 )

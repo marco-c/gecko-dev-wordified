@@ -9313,6 +9313,9 @@ aDisplay
 Element
 *
 aElement
+nsIFrame
+*
+aParentFrame
 nsStyleContext
 *
 aStyleContext
