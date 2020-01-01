@@ -10099,7 +10099,13 @@ current
 JSOP_CALL
 |
 |
+static_cast
+<
+unsigned
+>
+(
 formalIndex
+)
 >
 =
 GET_ARGC

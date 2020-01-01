@@ -3542,10 +3542,6 @@ IonContext
 icx
 (
 cx_
-cx_
--
->
-compartment
 NULL
 )
 ;

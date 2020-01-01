@@ -249,6 +249,13 @@ cond
 JSOpToCondition
 (
 op
+/
+*
+signed
+=
+*
+/
+true
 )
 ;
 masm
