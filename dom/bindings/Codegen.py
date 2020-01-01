@@ -27636,6 +27636,10 @@ and
 not
 isClamp
         
+declArgs
+=
+None
+        
 if
 isMember
 =
@@ -27643,9 +27647,6 @@ isMember
 "
 Dictionary
 "
-or
-not
-isMember
 :
             
 declType
@@ -27693,10 +27694,10 @@ NullValue
         
 elif
 isMember
-!
+=
 =
 "
-Variadic
+Sequence
 "
 :
             
@@ -27729,6 +27730,15 @@ issues
 else
 :
             
+if
+isMember
+=
+=
+"
+Variadic
+"
+:
+                
 #
 Variadic
 arguments
@@ -27738,7 +27748,7 @@ by
 being
 in
 argv
-            
+                
 declType
 =
 "
@@ -27746,6 +27756,34 @@ JS
 :
 :
 Value
+"
+            
+else
+:
+                
+assert
+not
+isMember
+                
+declType
+=
+"
+JS
+:
+:
+Rooted
+<
+JS
+:
+:
+Value
+>
+"
+                
+declArgs
+=
+"
+cx
 "
             
 templateBody
@@ -27799,6 +27837,10 @@ declType
 dealWithOptional
 =
 isOptional
+                                        
+declArgs
+=
+declArgs
 )
     
 if
@@ -35754,6 +35796,9 @@ wrapTypeIntoCurrentCompartment
 (
 type
 value
+isMember
+=
+True
 )
 :
     
@@ -35820,6 +35865,32 @@ nullable
 (
 )
         
+if
+isMember
+:
+            
+value
+=
+"
+&
+"
++
+value
+        
+else
+:
+            
+value
+=
+value
++
+"
+.
+address
+(
+)
+"
+        
 return
 CGGeneric
 (
@@ -35830,7 +35901,6 @@ if
 JS_WrapValue
 (
 cx
-&
 %
 s
 )
@@ -36326,6 +36396,9 @@ wrapArgIntoCurrentCompartment
 (
 arg
 value
+isMember
+=
+True
 )
 :
     
@@ -36383,6 +36456,7 @@ arg
 .
 type
 value
+isMember
 )
     
 if
@@ -37363,6 +37437,9 @@ wrapArgIntoCurrentCompartment
 (
 arg
 argname
+isMember
+=
+False
 )
                 
 for
@@ -71132,7 +71209,6 @@ doGetArgType
 self
 type
 optional
-variadic
 isMember
 )
 :
@@ -71174,6 +71250,23 @@ Nullable
 as
 needed
 .
+        
+isMember
+can
+be
+false
+or
+one
+of
+the
+strings
+"
+Sequence
+"
+or
+"
+Variadic
+"
         
 "
 "
@@ -71241,8 +71334,9 @@ getArgType
 (
 elementType
 False
-False
-True
+"
+Sequence
+"
 )
 [
 0
@@ -71758,16 +71852,35 @@ for
 now
             
 if
-optional
-and
-not
-variadic
+isMember
 :
                 
 declType
 =
 "
-LazyRootedValue
+JS
+:
+:
+Value
+"
+            
+elif
+optional
+:
+                
+declType
+=
+"
+JS
+:
+:
+Rooted
+<
+JS
+:
+:
+Value
+>
 "
             
 else
@@ -71779,7 +71892,13 @@ declType
 JS
 :
 :
+Handle
+<
+JS
+:
+:
 Value
+>
 "
             
 return
@@ -71926,7 +72045,6 @@ getArgType
 self
 type
 optional
-variadic
 isMember
 )
 :
@@ -71958,6 +72076,18 @@ const
 ref
 .
         
+isMember
+can
+be
+False
+"
+Sequence
+"
+or
+"
+Variadic
+"
+        
 "
 "
 "
@@ -71974,11 +72104,8 @@ doGetArgType
 (
 type
 optional
-variadic
                                                         
 isMember
-or
-variadic
 )
         
 decl
@@ -72013,7 +72140,12 @@ ref
 True
         
 if
-variadic
+isMember
+=
+=
+"
+Variadic
+"
 :
             
 arrayType
@@ -72140,10 +72272,14 @@ arg
 .
 defaultValue
                                       
+"
+Variadic
+"
+if
 arg
 .
 variadic
-                                      
+else
 False
 )
         
