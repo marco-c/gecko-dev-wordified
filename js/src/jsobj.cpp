@@ -21202,7 +21202,7 @@ ED_OK
 obj
 -
 >
-setDenseElement
+setDenseElementMaybeConvertDouble
 (
 index
 value

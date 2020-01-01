@@ -519,6 +519,14 @@ lir
 )
 ;
 bool
+visitConvertElementsToDoubles
+(
+LConvertElementsToDoubles
+*
+lir
+)
+;
+bool
 visitTypeBarrier
 (
 LTypeBarrier

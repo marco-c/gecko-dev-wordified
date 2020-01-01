@@ -1048,6 +1048,14 @@ ins
 )
 ;
 bool
+visitConvertElementsToDoubles
+(
+MConvertElementsToDoubles
+*
+ins
+)
+;
+bool
 visitLoadSlot
 (
 MLoadSlot
