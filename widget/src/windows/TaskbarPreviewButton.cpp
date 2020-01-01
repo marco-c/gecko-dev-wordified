@@ -985,7 +985,7 @@ dwFlags
 &
 THBF_HIDDEN
 )
-=
+!
 =
 THBF_HIDDEN
 ;
