@@ -1760,9 +1760,6 @@ endif
 PRBool
 GetToken
 (
-nsresult
-&
-aErrorCode
 PRBool
 aSkipWS
 )
@@ -1770,9 +1767,6 @@ aSkipWS
 PRBool
 GetURLToken
 (
-nsresult
-&
-aErrorCode
 )
 ;
 void
@@ -1822,9 +1816,6 @@ state
 PRBool
 ExpectSymbol
 (
-nsresult
-&
-aErrorCode
 PRUnichar
 aSymbol
 PRBool
@@ -1834,26 +1825,17 @@ aSkipWS
 PRBool
 ExpectEndProperty
 (
-nsresult
-&
-aErrorCode
 )
 ;
 nsSubstring
 *
 NextIdent
 (
-nsresult
-&
-aErrorCode
 )
 ;
 void
 SkipUntil
 (
-nsresult
-&
-aErrorCode
 PRUnichar
 aStopSymbol
 )
@@ -1861,25 +1843,16 @@ aStopSymbol
 void
 SkipRuleSet
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 SkipAtRule
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 SkipDeclaration
 (
-nsresult
-&
-aErrorCode
 PRBool
 aCheckForBraces
 )
@@ -1887,9 +1860,6 @@ aCheckForBraces
 PRBool
 GetNonCloseParenToken
 (
-nsresult
-&
-aErrorCode
 PRBool
 aSkipWS
 )
@@ -1911,9 +1881,6 @@ void
 PRBool
 ParseRuleSet
 (
-nsresult
-&
-aErrorCode
 RuleAppendFunc
 aAppendFunc
 void
@@ -1924,9 +1891,6 @@ aProcessData
 PRBool
 ParseAtRule
 (
-nsresult
-&
-aErrorCode
 RuleAppendFunc
 aAppendFunc
 void
@@ -1937,9 +1901,6 @@ aProcessData
 PRBool
 ParseCharsetRule
 (
-nsresult
-&
-aErrorCode
 RuleAppendFunc
 aAppendFunc
 void
@@ -1950,9 +1911,6 @@ aProcessData
 PRBool
 ParseImportRule
 (
-nsresult
-&
-aErrorCode
 RuleAppendFunc
 aAppendFunc
 void
@@ -1963,9 +1921,6 @@ aProcessData
 PRBool
 GatherURL
 (
-nsresult
-&
-aErrorCode
 nsString
 &
 aURL
@@ -1988,9 +1943,6 @@ false
 PRBool
 GatherMedia
 (
-nsresult
-&
-aErrorCode
 nsMediaList
 *
 aMedia
@@ -2001,9 +1953,6 @@ aStopSymbol
 PRBool
 ParseMediaQueryExpression
 (
-nsresult
-&
-aErrorCode
 nsMediaQuery
 *
 aQuery
@@ -2012,9 +1961,6 @@ aQuery
 PRBool
 ProcessImport
 (
-nsresult
-&
-aErrorCode
 const
 nsString
 &
@@ -2032,9 +1978,6 @@ aProcessData
 PRBool
 ParseGroupRule
 (
-nsresult
-&
-aErrorCode
 nsICSSGroupRule
 *
 aRule
@@ -2048,9 +1991,6 @@ aProcessData
 PRBool
 ParseMediaRule
 (
-nsresult
-&
-aErrorCode
 RuleAppendFunc
 aAppendFunc
 void
@@ -2061,9 +2001,6 @@ aProcessData
 PRBool
 ParseMozDocumentRule
 (
-nsresult
-&
-aErrorCode
 RuleAppendFunc
 aAppendFunc
 void
@@ -2074,9 +2011,6 @@ aProcessData
 PRBool
 ParseNameSpaceRule
 (
-nsresult
-&
-aErrorCode
 RuleAppendFunc
 aAppendFunc
 void
@@ -2087,9 +2021,6 @@ aProcessData
 PRBool
 ProcessNameSpace
 (
-nsresult
-&
-aErrorCode
 const
 nsString
 &
@@ -2108,9 +2039,6 @@ aProcessData
 PRBool
 ParseFontFaceRule
 (
-nsresult
-&
-aErrorCode
 RuleAppendFunc
 aAppendFunc
 void
@@ -2121,9 +2049,6 @@ aProcessData
 PRBool
 ParseFontDescriptor
 (
-nsresult
-&
-aErrorCode
 nsCSSFontFaceRule
 *
 aRule
@@ -2132,9 +2057,6 @@ aRule
 PRBool
 ParseFontDescriptorValue
 (
-nsresult
-&
-aErrorCode
 nsCSSFontDesc
 aDescID
 nsCSSValue
@@ -2145,9 +2067,6 @@ aValue
 PRBool
 ParsePageRule
 (
-nsresult
-&
-aErrorCode
 RuleAppendFunc
 aAppendFunc
 void
@@ -2173,6 +2092,8 @@ token
 that
 cannot
 be
+/
+/
 part
 of
 a
@@ -2242,9 +2163,6 @@ aDataMask
 nsCSSSelector
 &
 aSelector
-nsresult
-&
-aErrorCode
 )
 ;
 nsSelectorParsingStatus
@@ -2256,9 +2174,6 @@ aDataMask
 nsCSSSelector
 &
 aSelector
-nsresult
-&
-aErrorCode
 )
 ;
 nsSelectorParsingStatus
@@ -2270,9 +2185,6 @@ aDataMask
 nsCSSSelector
 &
 aSelector
-nsresult
-&
-aErrorCode
 PRBool
 aIsNegated
 )
@@ -2286,9 +2198,6 @@ aDataMask
 nsCSSSelector
 &
 aSelector
-nsresult
-&
-aErrorCode
 )
 ;
 nsSelectorParsingStatus
@@ -2300,9 +2209,6 @@ aDataMask
 nsCSSSelector
 &
 aSelector
-nsresult
-&
-aErrorCode
 PRBool
 aIsNegated
 )
@@ -2316,9 +2222,6 @@ aSelector
 nsIAtom
 *
 aPseudo
-nsresult
-&
-aErrorCode
 )
 ;
 nsSelectorParsingStatus
@@ -2330,9 +2233,6 @@ aSelector
 nsIAtom
 *
 aPseudo
-nsresult
-&
-aErrorCode
 )
 ;
 nsSelectorParsingStatus
@@ -2344,17 +2244,11 @@ aDataMask
 nsCSSSelector
 &
 aSelector
-nsresult
-&
-aErrorCode
 )
 ;
 nsSelectorParsingStatus
 ParseSelector
 (
-nsresult
-&
-aErrorCode
 nsCSSSelector
 &
 aSelectorResult
@@ -2394,9 +2288,6 @@ EOF
 PRBool
 ParseSelectorList
 (
-nsresult
-&
-aErrorCode
 nsCSSSelectorList
 *
 &
@@ -2408,9 +2299,6 @@ aTerminateAtBrace
 PRBool
 ParseSelectorGroup
 (
-nsresult
-&
-aErrorCode
 nsCSSSelectorList
 *
 &
@@ -2421,9 +2309,6 @@ nsCSSDeclaration
 *
 ParseDeclarationBlock
 (
-nsresult
-&
-aErrorCode
 PRBool
 aCheckForBraces
 )
@@ -2431,9 +2316,6 @@ aCheckForBraces
 PRBool
 ParseDeclaration
 (
-nsresult
-&
-aErrorCode
 nsCSSDeclaration
 *
 aDeclaration
@@ -2574,9 +2456,6 @@ aChanged
 PRBool
 ParseProperty
 (
-nsresult
-&
-aErrorCode
 nsCSSProperty
 aPropID
 )
@@ -2584,9 +2463,6 @@ aPropID
 PRBool
 ParseSingleValueProperty
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -2600,9 +2476,6 @@ MOZ_XUL
 PRBool
 ParseTreePseudoElement
 (
-nsresult
-&
-aErrorCode
 nsCSSSelector
 &
 aSelector
@@ -2628,9 +2501,6 @@ routines
 PRBool
 ParseAzimuth
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -2639,41 +2509,26 @@ aValue
 PRBool
 ParseBackground
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseBackgroundPosition
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseBackgroundPositionValues
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseBorderColor
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseBorderColors
 (
-nsresult
-&
-aErrorCode
 nsCSSValueList
 *
 *
@@ -2685,25 +2540,16 @@ aProperty
 PRBool
 ParseBorderImage
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseBorderSpacing
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseBorderSide
 (
-nsresult
-&
-aErrorCode
 const
 nsCSSProperty
 aPropIDs
@@ -2716,9 +2562,6 @@ aSetAllSides
 PRBool
 ParseDirectionalBorderSide
 (
-nsresult
-&
-aErrorCode
 const
 nsCSSProperty
 aPropIDs
@@ -2731,33 +2574,21 @@ aSourceType
 PRBool
 ParseBorderStyle
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseBorderWidth
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseBorderRadius
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseOutlineRadius
 (
-nsresult
-&
-aErrorCode
 )
 ;
 /
@@ -2781,9 +2612,6 @@ ParseRect
 nsCSSRect
 &
 aRect
-nsresult
-&
-aErrorCode
 nsCSSProperty
 aPropID
 )
@@ -2794,25 +2622,16 @@ DoParseRect
 nsCSSRect
 &
 aRect
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseContent
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseCounterData
 (
-nsresult
-&
-aErrorCode
 nsCSSValuePairList
 *
 *
@@ -2824,33 +2643,21 @@ aPropID
 PRBool
 ParseCue
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseCursor
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseFont
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseFontWeight
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -2859,9 +2666,6 @@ aValue
 PRBool
 ParseOneFamily
 (
-nsresult
-&
-aErrorCode
 nsAString
 &
 aValue
@@ -2870,9 +2674,6 @@ aValue
 PRBool
 ParseFamily
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -2881,9 +2682,6 @@ aValue
 PRBool
 ParseFontSrc
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -2892,9 +2690,6 @@ aValue
 PRBool
 ParseFontSrcFormat
 (
-nsresult
-&
-aErrorCode
 nsTArray
 <
 nsCSSValue
@@ -2906,9 +2701,6 @@ values
 PRBool
 ParseFontRanges
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -2917,25 +2709,16 @@ aValue
 PRBool
 ParseListStyle
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseMargin
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseMarks
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -2944,57 +2727,36 @@ aValue
 PRBool
 ParseOutline
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseOverflow
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParsePadding
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParsePause
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseQuotes
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseSize
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseTextDecoration
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -3004,9 +2766,6 @@ nsCSSValueList
 *
 ParseCSSShadowList
 (
-nsresult
-&
-aErrorCode
 PRBool
 aUsesSpread
 )
@@ -3014,17 +2773,11 @@ aUsesSpread
 PRBool
 ParseTextShadow
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseBoxShadow
 (
-nsresult
-&
-aErrorCode
 )
 ;
 #
@@ -3033,9 +2786,6 @@ MOZ_SVG
 PRBool
 ParsePaint
 (
-nsresult
-&
-aErrorCode
 nsCSSValuePair
 *
 aResult
@@ -3046,17 +2796,11 @@ aPropID
 PRBool
 ParseDasharray
 (
-nsresult
-&
-aErrorCode
 )
 ;
 PRBool
 ParseMarker
 (
-nsresult
-&
-aErrorCode
 )
 ;
 #
@@ -3081,9 +2825,6 @@ aValue
 PRBool
 ParseBoxProperties
 (
-nsresult
-&
-aErrorCode
 nsCSSRect
 &
 aResult
@@ -3097,9 +2838,6 @@ aPropIDs
 PRBool
 ParseDirectionalBoxProperty
 (
-nsresult
-&
-aErrorCode
 nsCSSProperty
 aProperty
 PRInt32
@@ -3109,9 +2847,6 @@ aSourceType
 PRInt32
 ParseChoice
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 aValues
 [
@@ -3128,9 +2863,6 @@ aNumIDs
 PRBool
 ParseColor
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -3139,9 +2871,6 @@ aValue
 PRBool
 ParseColorComponent
 (
-nsresult
-&
-aErrorCode
 PRUint8
 &
 aComponent
@@ -3164,10 +2893,10 @@ opening
 '
 (
 '
+/
+/
 up
 through
-/
-/
 and
 including
 the
@@ -3177,9 +2906,6 @@ char
 PRBool
 ParseHSLColor
 (
-nsresult
-&
-aErrorCode
 nscolor
 &
 aColor
@@ -3201,15 +2927,14 @@ a
 '
 )
 '
+/
+/
 after
 the
 opacity
 PRBool
 ParseColorOpacity
 (
-nsresult
-&
-aErrorCode
 PRUint8
 &
 aOpacity
@@ -3218,9 +2943,6 @@ aOpacity
 PRBool
 ParseEnum
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -3234,9 +2956,6 @@ aKeywordTable
 PRBool
 ParseVariant
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -3252,9 +2971,6 @@ aKeywordTable
 PRBool
 ParsePositiveVariant
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -3270,9 +2986,6 @@ aKeywordTable
 PRBool
 ParseCounter
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -3281,9 +2994,6 @@ aValue
 PRBool
 ParseAttr
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -3292,9 +3002,6 @@ aValue
 PRBool
 ParseURL
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -3303,9 +3010,6 @@ aValue
 PRBool
 TranslateDimension
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -3402,7 +3106,12 @@ false
 it
 may
 set
-aErrorCode
+the
+low
+-
+level
+error
+code
 depending
 on
 the
@@ -3435,9 +3144,6 @@ aPrefix
 PRInt32
 *
 aNameSpaceID
-nsresult
-&
-aErrorCode
 )
 ;
 /
@@ -3827,7 +3533,11 @@ prefix
 /
 should
 set
-aErrorCode
+the
+low
+-
+level
+error
 to
 NS_ERROR_DOM_NAMESPACE_ERR
 PRPackedBool
@@ -4941,11 +4651,6 @@ principal
 #
 endif
 nsresult
-errorCode
-=
-NS_OK
-;
-nsresult
 result
 =
 InitScanner
@@ -5120,7 +4825,6 @@ if
 !
 GetToken
 (
-errorCode
 PR_TRUE
 )
 )
@@ -5164,7 +4868,6 @@ mType
 {
 ParseAtRule
 (
-errorCode
 AppendRuleToSheet
 this
 )
@@ -5180,7 +4883,6 @@ if
 (
 ParseRuleSet
 (
-errorCode
 AppendRuleToSheet
 this
 )
@@ -5200,6 +4902,14 @@ mUnsafeRulesEnabled
 =
 PR_FALSE
 ;
+/
+/
+XXX
+check
+for
+low
+level
+errors
 return
 NS_OK
 ;
@@ -5389,11 +5099,6 @@ mSection
 =
 eCSSSection_General
 ;
-nsresult
-errorCode
-=
-NS_OK
-;
 /
 /
 In
@@ -5424,7 +5129,6 @@ mNavQuirkMode
 &
 GetToken
 (
-errorCode
 PR_TRUE
 )
 )
@@ -5466,7 +5170,6 @@ declaration
 =
 ParseDeclarationBlock
 (
-errorCode
 haveBraces
 )
 ;
@@ -5541,6 +5244,14 @@ ReleaseScanner
 (
 )
 ;
+/
+/
+XXX
+check
+for
+low
+level
+errors
 return
 NS_OK
 ;
@@ -5641,11 +5352,6 @@ mSection
 =
 eCSSSection_General
 ;
-nsresult
-errorCode
-=
-NS_OK
-;
 if
 (
 aClearOldDecl
@@ -5724,7 +5430,6 @@ if
 !
 ParseDeclaration
 (
-errorCode
 aDeclaration
 PR_FALSE
 aClearOldDecl
@@ -5732,37 +5437,19 @@ aChanged
 )
 )
 {
-NS_ASSERTION
-(
-errorCode
-!
-=
-nsresult
-(
--
-1
-)
-"
--
-1
-is
-no
-longer
-used
-for
-EOF
-"
-)
-;
 rv
 =
-errorCode
+mScanner
+.
+GetLowLevelError
+(
+)
 ;
 if
 (
 NS_FAILED
 (
-errorCode
+rv
 )
 )
 break
@@ -5772,36 +5459,17 @@ if
 !
 SkipDeclaration
 (
-errorCode
 PR_FALSE
 )
 )
 {
-NS_ASSERTION
-(
-errorCode
-!
-=
-nsresult
-(
--
-1
-)
-"
--
-1
-is
-no
-longer
-used
-for
-EOF
-"
-)
-;
 rv
 =
-errorCode
+mScanner
+.
+GetLowLevelError
+(
+)
 ;
 break
 ;
@@ -5925,11 +5593,6 @@ rejecting
 invalid
 rules
 .
-nsresult
-errorCode
-=
-NS_OK
-;
 nsCSSToken
 *
 tk
@@ -5950,7 +5613,6 @@ if
 !
 GetToken
 (
-errorCode
 PR_TRUE
 )
 )
@@ -5979,7 +5641,6 @@ mType
 {
 ParseAtRule
 (
-errorCode
 AppendRuleToArray
 &
 aResult
@@ -5994,7 +5655,6 @@ UngetToken
 ;
 ParseRuleSet
 (
-errorCode
 AppendRuleToArray
 &
 aResult
@@ -6009,6 +5669,15 @@ ReleaseScanner
 (
 )
 ;
+/
+/
+XXX
+check
+for
+low
+-
+level
+errors
 return
 NS_OK
 ;
@@ -6121,11 +5790,6 @@ mSection
 =
 eCSSSection_General
 ;
-nsresult
-errorCode
-=
-NS_OK
-;
 if
 (
 eCSSProperty_UNKNOWN
@@ -6219,7 +5883,6 @@ parsedOK
 =
 ParseProperty
 (
-errorCode
 aPropID
 )
 ;
@@ -6231,7 +5894,6 @@ parsedOK
 !
 GetToken
 (
-errorCode
 PR_TRUE
 )
 )
@@ -6315,31 +5977,13 @@ ClearTempData
 aPropID
 )
 ;
-NS_ASSERTION
-(
-errorCode
-!
-=
-nsresult
-(
--
-1
-)
-"
--
-1
-is
-no
-longer
-used
-for
-EOF
-"
-)
-;
 result
 =
-errorCode
+mScanner
+.
+GetLowLevelError
+(
+)
 ;
 }
 CLEAR_ERROR
@@ -6662,7 +6306,6 @@ if
 !
 GatherMedia
 (
-rv
 aMediaList
 PRUnichar
 (
@@ -6704,6 +6347,14 @@ OUTPUT_ERROR
 ;
 }
 }
+rv
+=
+mScanner
+.
+GetLowLevelError
+(
+)
+;
 CLEAR_ERROR
 (
 )
@@ -6784,8 +6435,15 @@ colorParsed
 =
 ParseColor
 (
-rv
 value
+)
+;
+rv
+=
+mScanner
+.
+GetLowLevelError
+(
 )
 ;
 OUTPUT_ERROR
@@ -6803,6 +6461,13 @@ colorParsed
 )
 {
 return
+NS_FAILED
+(
+rv
+)
+?
+rv
+:
 NS_ERROR_FAILURE
 ;
 }
@@ -7088,10 +6753,17 @@ success
 =
 ParseSelectorList
 (
-rv
 *
 aSelectorList
 PR_FALSE
+)
+;
+rv
+=
+mScanner
+.
+GetLowLevelError
+(
 )
 ;
 OUTPUT_ERROR
@@ -7237,9 +6909,6 @@ CSSParserImpl
 :
 GetToken
 (
-nsresult
-&
-aErrorCode
 PRBool
 aSkipWS
 )
@@ -7263,7 +6932,6 @@ mScanner
 .
 Next
 (
-aErrorCode
 mToken
 )
 )
@@ -7308,9 +6976,6 @@ CSSParserImpl
 :
 GetURLToken
 (
-nsresult
-&
-aErrorCode
 )
 {
 for
@@ -7344,7 +7009,6 @@ mScanner
 .
 NextURL
 (
-aErrorCode
 mToken
 )
 )
@@ -7407,9 +7071,6 @@ CSSParserImpl
 :
 ExpectSymbol
 (
-nsresult
-&
-aErrorCode
 PRUnichar
 aSymbol
 PRBool
@@ -7421,7 +7082,6 @@ if
 !
 GetToken
 (
-aErrorCode
 aSkipWS
 )
 )
@@ -7563,9 +7223,6 @@ CSSParserImpl
 :
 ExpectEndProperty
 (
-nsresult
-&
-aErrorCode
 )
 {
 if
@@ -7573,7 +7230,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -7697,9 +7353,6 @@ CSSParserImpl
 :
 NextIdent
 (
-nsresult
-&
-aErrorCode
 )
 {
 /
@@ -7713,7 +7366,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -7753,9 +7405,6 @@ CSSParserImpl
 :
 SkipAtRule
 (
-nsresult
-&
-aErrorCode
 )
 {
 for
@@ -7769,7 +7418,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -7825,7 +7473,6 @@ symbol
 {
 SkipUntil
 (
-aErrorCode
 '
 }
 '
@@ -7847,7 +7494,6 @@ symbol
 {
 SkipUntil
 (
-aErrorCode
 '
 )
 '
@@ -7867,7 +7513,6 @@ symbol
 {
 SkipUntil
 (
-aErrorCode
 '
 ]
 '
@@ -7886,9 +7531,6 @@ CSSParserImpl
 :
 ParseAtRule
 (
-nsresult
-&
-aErrorCode
 RuleAppendFunc
 aAppendFunc
 void
@@ -7924,7 +7566,6 @@ if
 (
 ParseCharsetRule
 (
-aErrorCode
 aAppendFunc
 aData
 )
@@ -7971,7 +7612,6 @@ if
 (
 ParseImportRule
 (
-aErrorCode
 aAppendFunc
 aData
 )
@@ -8012,7 +7652,6 @@ if
 (
 ParseNameSpaceRule
 (
-aErrorCode
 aAppendFunc
 aData
 )
@@ -8045,7 +7684,6 @@ if
 (
 ParseMediaRule
 (
-aErrorCode
 aAppendFunc
 aData
 )
@@ -8081,7 +7719,6 @@ if
 (
 ParseMozDocumentRule
 (
-aErrorCode
 aAppendFunc
 aData
 )
@@ -8116,7 +7753,6 @@ if
 (
 ParseFontFaceRule
 (
-aErrorCode
 aAppendFunc
 aData
 )
@@ -8149,7 +7785,6 @@ if
 (
 ParsePageRule
 (
-aErrorCode
 aAppendFunc
 aData
 )
@@ -8200,7 +7835,6 @@ section
 return
 SkipAtRule
 (
-aErrorCode
 )
 ;
 }
@@ -8210,9 +7844,6 @@ CSSParserImpl
 :
 ParseCharsetRule
 (
-nsresult
-&
-aErrorCode
 RuleAppendFunc
 aAppendFunc
 void
@@ -8225,7 +7856,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -8270,7 +7900,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 ;
 '
@@ -8322,9 +7951,6 @@ CSSParserImpl
 :
 GatherURL
 (
-nsresult
-&
-aErrorCode
 nsString
 &
 aURL
@@ -8335,7 +7961,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -8389,7 +8014,6 @@ url
 &
 ExpectSymbol
 (
-aErrorCode
 '
 (
 '
@@ -8399,7 +8023,6 @@ PR_FALSE
 &
 GetURLToken
 (
-aErrorCode
 )
 &
 &
@@ -8431,7 +8054,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 )
 '
@@ -8468,9 +8090,6 @@ CSSParserImpl
 :
 GatherMedia
 (
-nsresult
-&
-aErrorCode
 nsMediaList
 *
 aMedia
@@ -8523,7 +8142,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -8686,9 +8304,12 @@ if
 queryHolder
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 return
 PR_FALSE
@@ -8752,9 +8373,12 @@ rv
 )
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 rv
+)
 ;
 return
 PR_FALSE
@@ -8778,7 +8402,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 (
 '
@@ -8839,7 +8462,6 @@ if
 !
 ParseMediaQueryExpression
 (
-aErrorCode
 query
 )
 )
@@ -8881,7 +8503,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -9021,7 +8642,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -9193,7 +8813,6 @@ if
 !
 ParseMediaQueryExpression
 (
-aErrorCode
 query
 )
 )
@@ -9236,9 +8855,6 @@ CSSParserImpl
 :
 ParseMediaQueryExpression
 (
-nsresult
-&
-aErrorCode
 nsMediaQuery
 *
 aQuery
@@ -9249,7 +8865,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 (
 '
@@ -9271,7 +8886,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -9302,7 +8916,6 @@ PEMQExpectedFeatureName
 ;
 SkipUntil
 (
-aErrorCode
 '
 )
 '
@@ -9329,13 +8942,15 @@ if
 expr
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 SkipUntil
 (
-aErrorCode
 '
 )
 '
@@ -9566,7 +9181,6 @@ PEMQExpectedFeatureName
 ;
 SkipUntil
 (
-aErrorCode
 '
 )
 '
@@ -9588,7 +9202,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -9647,7 +9260,6 @@ PEMQExpectedFeatureNameEnd
 ;
 SkipUntil
 (
-aErrorCode
 '
 )
 '
@@ -9754,7 +9366,6 @@ rv
 =
 ParsePositiveVariant
 (
-aErrorCode
 expr
 -
 >
@@ -9781,7 +9392,6 @@ rv
 =
 ParsePositiveVariant
 (
-aErrorCode
 expr
 -
 >
@@ -9887,13 +9497,15 @@ if
 a
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 SkipUntil
 (
-aErrorCode
 '
 )
 '
@@ -9965,7 +9577,6 @@ rv
 =
 ParseVariant
 (
-aErrorCode
 a
 -
 >
@@ -9995,7 +9606,6 @@ GetIntValue
 &
 ExpectSymbol
 (
-aErrorCode
 '
 /
 '
@@ -10005,7 +9615,6 @@ PR_TRUE
 &
 ParseVariant
 (
-aErrorCode
 a
 -
 >
@@ -10045,7 +9654,6 @@ rv
 =
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 &
@@ -10194,7 +9802,6 @@ rv
 =
 ParseVariant
 (
-aErrorCode
 expr
 -
 >
@@ -10227,7 +9834,6 @@ PR_FALSE
 return
 ExpectSymbol
 (
-aErrorCode
 '
 )
 '
@@ -10261,9 +9867,6 @@ CSSParserImpl
 :
 ParseImportRule
 (
-nsresult
-&
-aErrorCode
 RuleAppendFunc
 aAppendFunc
 void
@@ -10288,9 +9891,12 @@ if
 media
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 return
 PR_FALSE
@@ -10304,7 +9910,6 @@ if
 !
 GatherURL
 (
-aErrorCode
 url
 )
 )
@@ -10323,7 +9928,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 ;
 '
@@ -10336,7 +9940,6 @@ if
 !
 GatherMedia
 (
-aErrorCode
 media
 '
 ;
@@ -10347,7 +9950,6 @@ media
 !
 ExpectSymbol
 (
-aErrorCode
 '
 ;
 '
@@ -10430,7 +10032,6 @@ nonempty
 }
 ProcessImport
 (
-aErrorCode
 url
 media
 aAppendFunc
@@ -10447,9 +10048,6 @@ CSSParserImpl
 :
 ProcessImport
 (
-nsresult
-&
-aErrorCode
 const
 nsString
 &
@@ -10470,7 +10068,8 @@ nsICSSImportRule
 >
 rule
 ;
-aErrorCode
+nsresult
+rv
 =
 NS_NewCSSImportRule
 (
@@ -10486,10 +10085,17 @@ if
 (
 NS_FAILED
 (
-aErrorCode
+rv
 )
 )
 {
+mScanner
+.
+SetLowLevelError
+(
+rv
+)
+;
 return
 PR_FALSE
 ;
@@ -10522,7 +10128,7 @@ pass
 a
 charset
 !
-aErrorCode
+rv
 =
 NS_NewURI
 (
@@ -10539,7 +10145,7 @@ if
 (
 NS_FAILED
 (
-aErrorCode
+rv
 )
 )
 {
@@ -10560,6 +10166,13 @@ easier
 web
 page
 debugging
+mScanner
+.
+SetLowLevelError
+(
+rv
+)
+;
 return
 PR_FALSE
 ;
@@ -10603,9 +10216,6 @@ CSSParserImpl
 :
 ParseGroupRule
 (
-nsresult
-&
-aErrorCode
 nsICSSGroupRule
 *
 aRule
@@ -10633,7 +10243,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 {
 '
@@ -10663,9 +10272,12 @@ aRule
 )
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 return
 PR_FALSE
@@ -10699,7 +10311,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -10747,7 +10358,6 @@ mType
 {
 SkipAtRule
 (
-aErrorCode
 )
 ;
 /
@@ -10766,7 +10376,6 @@ UngetToken
 ;
 ParseRuleSet
 (
-aErrorCode
 AppendRuleToSheet
 this
 )
@@ -10781,7 +10390,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 }
 '
@@ -10836,9 +10444,6 @@ CSSParserImpl
 :
 ParseMediaRule
 (
-nsresult
-&
-aErrorCode
 RuleAppendFunc
 aAppendFunc
 void
@@ -10863,9 +10468,12 @@ if
 media
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 return
 PR_FALSE
@@ -10875,7 +10483,6 @@ if
 (
 GatherMedia
 (
-aErrorCode
 media
 '
 {
@@ -10935,7 +10542,6 @@ rule
 &
 ParseGroupRule
 (
-aErrorCode
 rule
 aAppendFunc
 aData
@@ -11015,9 +10621,6 @@ CSSParserImpl
 :
 ParseMozDocumentRule
 (
-nsresult
-&
-aErrorCode
 RuleAppendFunc
 aAppendFunc
 void
@@ -11052,7 +10655,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 |
@@ -11140,9 +10742,12 @@ if
 cur
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 delete
 urls
@@ -11243,7 +10848,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 (
 '
@@ -11254,7 +10858,6 @@ PR_FALSE
 !
 GetURLToken
 (
-aErrorCode
 )
 |
 |
@@ -11293,7 +10896,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 )
 '
@@ -11368,7 +10970,6 @@ while
 (
 ExpectSymbol
 (
-aErrorCode
 '
 '
 PR_TRUE
@@ -11393,9 +10994,12 @@ if
 rule
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 delete
 urls
@@ -11415,7 +11019,6 @@ urls
 return
 ParseGroupRule
 (
-aErrorCode
 rule
 aAppendFunc
 aData
@@ -11446,9 +11049,6 @@ CSSParserImpl
 :
 ParseNameSpaceRule
 (
-nsresult
-&
-aErrorCode
 RuleAppendFunc
 aAppendFunc
 void
@@ -11461,7 +11061,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -11516,7 +11115,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -11551,7 +11149,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 ;
 '
@@ -11561,7 +11158,6 @@ PR_TRUE
 {
 ProcessNameSpace
 (
-aErrorCode
 prefix
 url
 aAppendFunc
@@ -11604,7 +11200,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 (
 '
@@ -11616,7 +11211,6 @@ if
 (
 GetURLToken
 (
-aErrorCode
 )
 )
 {
@@ -11652,7 +11246,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 )
 '
@@ -11664,7 +11257,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 ;
 '
@@ -11674,7 +11266,6 @@ PR_TRUE
 {
 ProcessNameSpace
 (
-aErrorCode
 prefix
 url
 aAppendFunc
@@ -11705,9 +11296,6 @@ CSSParserImpl
 :
 ProcessNameSpace
 (
-nsresult
-&
-aErrorCode
 const
 nsString
 &
@@ -11862,9 +11450,6 @@ CSSParserImpl
 :
 ParseFontFaceRule
 (
-nsresult
-&
-aErrorCode
 RuleAppendFunc
 aAppendFunc
 void
@@ -11877,7 +11462,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 {
 '
@@ -11905,9 +11489,12 @@ if
 rule
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 return
 PR_FALSE
@@ -11924,7 +11511,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -11983,7 +11569,6 @@ if
 !
 ParseFontDescriptor
 (
-aErrorCode
 rule
 )
 )
@@ -12002,7 +11587,6 @@ if
 !
 SkipDeclaration
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -12015,7 +11599,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 }
 '
@@ -12133,9 +11716,6 @@ CSSParserImpl
 :
 ParseFontDescriptor
 (
-nsresult
-&
-aErrorCode
 nsCSSFontFaceRule
 *
 aRule
@@ -12172,7 +11752,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 :
 '
@@ -12233,7 +11812,6 @@ vendors
 extensions
 SkipDeclaration
 (
-aErrorCode
 PR_TRUE
 )
 ;
@@ -12274,7 +11852,6 @@ if
 !
 ParseFontDescriptorValue
 (
-aErrorCode
 descID
 value
 )
@@ -12310,7 +11887,6 @@ if
 !
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 return
@@ -12335,9 +11911,6 @@ CSSParserImpl
 :
 ParsePageRule
 (
-nsresult
-&
-aErrorCode
 RuleAppendFunc
 aAppendFunc
 void
@@ -12361,9 +11934,6 @@ CSSParserImpl
 :
 SkipUntil
 (
-nsresult
-&
-aErrorCode
 PRUnichar
 aStopSymbol
 )
@@ -12386,7 +11956,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -12437,7 +12006,6 @@ symbol
 {
 SkipUntil
 (
-aErrorCode
 '
 }
 '
@@ -12457,7 +12025,6 @@ symbol
 {
 SkipUntil
 (
-aErrorCode
 '
 ]
 '
@@ -12477,7 +12044,6 @@ symbol
 {
 SkipUntil
 (
-aErrorCode
 '
 )
 '
@@ -12493,9 +12059,6 @@ CSSParserImpl
 :
 GetNonCloseParenToken
 (
-nsresult
-&
-aErrorCode
 PRBool
 aSkipWS
 )
@@ -12505,7 +12068,6 @@ if
 !
 GetToken
 (
-aErrorCode
 aSkipWS
 )
 )
@@ -12550,9 +12112,6 @@ CSSParserImpl
 :
 SkipDeclaration
 (
-nsresult
-&
-aErrorCode
 PRBool
 aCheckForBraces
 )
@@ -12575,7 +12134,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -12662,7 +12220,6 @@ symbol
 {
 SkipUntil
 (
-aErrorCode
 '
 }
 '
@@ -12682,7 +12239,6 @@ symbol
 {
 SkipUntil
 (
-aErrorCode
 '
 )
 '
@@ -12702,7 +12258,6 @@ symbol
 {
 SkipUntil
 (
-aErrorCode
 '
 ]
 '
@@ -12721,9 +12276,6 @@ CSSParserImpl
 :
 SkipRuleSet
 (
-nsresult
-&
-aErrorCode
 )
 {
 nsCSSToken
@@ -12744,7 +12296,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -12788,7 +12339,6 @@ symbol
 {
 SkipUntil
 (
-aErrorCode
 '
 }
 '
@@ -12809,7 +12359,6 @@ symbol
 {
 SkipUntil
 (
-aErrorCode
 '
 )
 '
@@ -12829,7 +12378,6 @@ symbol
 {
 SkipUntil
 (
-aErrorCode
 '
 ]
 '
@@ -12961,9 +12509,6 @@ CSSParserImpl
 :
 ParseRuleSet
 (
-nsresult
-&
-aErrorCode
 RuleAppendFunc
 aAppendFunc
 void
@@ -13002,7 +12547,6 @@ if
 !
 ParseSelectorList
 (
-aErrorCode
 slist
 PR_TRUE
 )
@@ -13019,7 +12563,6 @@ OUTPUT_ERROR
 ;
 SkipRuleSet
 (
-aErrorCode
 )
 ;
 return
@@ -13056,7 +12599,6 @@ declaration
 =
 ParseDeclarationBlock
 (
-aErrorCode
 PR_TRUE
 )
 ;
@@ -13154,9 +12696,12 @@ if
 rule
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 delete
 slist
@@ -13192,9 +12737,6 @@ CSSParserImpl
 :
 ParseSelectorList
 (
-nsresult
-&
-aErrorCode
 nsCSSSelectorList
 *
 &
@@ -13214,7 +12756,6 @@ if
 !
 ParseSelectorGroup
 (
-aErrorCode
 list
 )
 )
@@ -13297,7 +12838,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -13361,7 +12901,6 @@ if
 !
 ParseSelectorGroup
 (
-aErrorCode
 newList
 )
 )
@@ -13614,9 +13153,6 @@ CSSParserImpl
 :
 ParseSelectorGroup
 (
-nsresult
-&
-aErrorCode
 nsCSSSelectorList
 *
 &
@@ -13676,9 +13212,12 @@ if
 newSelector
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 return
 PR_FALSE
@@ -13689,7 +13228,6 @@ parsingStatus
 =
 ParseSelector
 (
-aErrorCode
 *
 newSelector
 )
@@ -13755,9 +13293,12 @@ nsnull
 list
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 return
 PR_FALSE
@@ -13918,9 +13459,12 @@ if
 empty
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 return
 PR_FALSE
@@ -13998,9 +13542,12 @@ if
 pseudoTagSelector
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 return
 PR_FALSE
@@ -14221,7 +13768,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_FALSE
 )
 )
@@ -14261,7 +13807,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -14561,9 +14106,6 @@ aDataMask
 nsCSSSelector
 &
 aSelector
-nsresult
-&
-aErrorCode
 )
 {
 NS_ASSERTION
@@ -14631,9 +14173,6 @@ aDataMask
 nsCSSSelector
 &
 aSelector
-nsresult
-&
-aErrorCode
 )
 {
 if
@@ -14641,7 +14180,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_FALSE
 )
 )
@@ -14749,9 +14287,6 @@ aDataMask
 nsCSSSelector
 &
 aSelector
-nsresult
-&
-aErrorCode
 PRBool
 aIsNegated
 )
@@ -14783,7 +14318,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 |
 '
@@ -14816,7 +14350,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_FALSE
 )
 )
@@ -14964,7 +14497,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_FALSE
 )
 )
@@ -15018,7 +14550,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 |
 '
@@ -15046,7 +14577,6 @@ GetNamespaceIdForPrefix
 buffer
 &
 nameSpaceID
-aErrorCode
 )
 )
 {
@@ -15066,7 +14596,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_FALSE
 )
 )
@@ -15230,7 +14759,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_FALSE
 )
 )
@@ -15294,7 +14822,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_FALSE
 )
 )
@@ -15411,7 +14938,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_FALSE
 )
 )
@@ -15530,9 +15056,6 @@ aDataMask
 nsCSSSelector
 &
 aSelector
-nsresult
-&
-aErrorCode
 )
 {
 if
@@ -15540,7 +15063,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -15590,7 +15112,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 |
 '
@@ -15603,7 +15124,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_FALSE
 )
 )
@@ -15692,7 +15212,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_FALSE
 )
 )
@@ -15780,7 +15299,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 |
 '
@@ -15801,7 +15319,6 @@ GetNamespaceIdForPrefix
 attr
 &
 nameSpaceID
-aErrorCode
 )
 )
 {
@@ -15814,7 +15331,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_FALSE
 )
 )
@@ -15905,7 +15421,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -16152,7 +15667,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -16205,7 +15719,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -16634,9 +16147,6 @@ aDataMask
 nsCSSSelector
 &
 aSelector
-nsresult
-&
-aErrorCode
 PRBool
 aIsNegated
 )
@@ -16646,7 +16156,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_FALSE
 )
 )
@@ -16704,7 +16213,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_FALSE
 )
 )
@@ -17309,7 +16817,6 @@ ParseNegatedSimpleSelector
 (
 aDataMask
 aSelector
-aErrorCode
 )
 ;
 if
@@ -17358,7 +16865,6 @@ ParsePseudoClassWithIdentArg
 (
 aSelector
 pseudo
-aErrorCode
 )
 ;
 if
@@ -17393,7 +16899,6 @@ ParsePseudoClassWithNthPairArg
 (
 aSelector
 pseudo
-aErrorCode
 )
 ;
 if
@@ -17673,7 +17178,6 @@ if
 !
 ParseTreePseudoElement
 (
-aErrorCode
 aSelector
 )
 )
@@ -17707,7 +17211,6 @@ if
 (
 GetToken
 (
-aErrorCode
 PR_FALSE
 )
 )
@@ -17957,9 +17460,6 @@ aDataMask
 nsCSSSelector
 &
 aSelector
-nsresult
-&
-aErrorCode
 )
 {
 /
@@ -17976,7 +17476,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 (
 '
@@ -17998,7 +17497,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -18104,9 +17602,12 @@ if
 newSel
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 return
 eSelectorParsingStatus_Error
@@ -18166,7 +17667,6 @@ ParseIDSelector
 aDataMask
 *
 newSel
-aErrorCode
 )
 ;
 }
@@ -18194,7 +17694,6 @@ ParseClassSelector
 aDataMask
 *
 newSel
-aErrorCode
 )
 ;
 }
@@ -18222,7 +17721,6 @@ ParsePseudoSelector
 aDataMask
 *
 newSel
-aErrorCode
 PR_TRUE
 )
 ;
@@ -18251,7 +17749,6 @@ ParseAttributeSelector
 aDataMask
 *
 newSel
-aErrorCode
 )
 ;
 }
@@ -18276,7 +17773,6 @@ ParseTypeOrUniversalSelector
 aDataMask
 *
 newSel
-aErrorCode
 PR_TRUE
 )
 ;
@@ -18308,7 +17804,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 )
 '
@@ -18363,9 +17858,6 @@ aSelector
 nsIAtom
 *
 aPseudo
-nsresult
-&
-aErrorCode
 )
 {
 /
@@ -18382,7 +17874,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 (
 '
@@ -18404,7 +17895,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -18500,7 +17990,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 )
 '
@@ -18548,9 +18037,6 @@ aSelector
 nsIAtom
 *
 aPseudo
-nsresult
-&
-aErrorCode
 )
 {
 PRInt32
@@ -18583,7 +18069,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 (
 '
@@ -18639,7 +18124,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -19164,7 +18648,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -19299,7 +18782,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -19375,7 +18857,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -19480,9 +18961,6 @@ CSSParserImpl
 :
 ParseSelector
 (
-nsresult
-&
-aErrorCode
 nsCSSSelector
 &
 aSelector
@@ -19493,7 +18971,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -19519,7 +18996,6 @@ ParseTypeOrUniversalSelector
 (
 dataMask
 aSelector
-aErrorCode
 PR_FALSE
 )
 ;
@@ -19561,7 +19037,6 @@ ParseIDSelector
 (
 dataMask
 aSelector
-aErrorCode
 )
 ;
 }
@@ -19588,7 +19063,6 @@ ParseClassSelector
 (
 dataMask
 aSelector
-aErrorCode
 )
 ;
 }
@@ -19615,7 +19089,6 @@ ParsePseudoSelector
 (
 dataMask
 aSelector
-aErrorCode
 PR_FALSE
 )
 ;
@@ -19643,7 +19116,6 @@ ParseAttributeSelector
 (
 dataMask
 aSelector
-aErrorCode
 )
 ;
 }
@@ -19683,7 +19155,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_FALSE
 )
 )
@@ -19722,9 +19193,6 @@ CSSParserImpl
 :
 ParseDeclarationBlock
 (
-nsresult
-&
-aErrorCode
 PRBool
 aCheckForBraces
 )
@@ -19739,7 +19207,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 {
 '
@@ -19795,7 +19262,6 @@ if
 !
 ParseDeclaration
 (
-aErrorCode
 declaration
 aCheckForBraces
 PR_TRUE
@@ -19809,7 +19275,6 @@ if
 !
 SkipDeclaration
 (
-aErrorCode
 aCheckForBraces
 )
 )
@@ -19826,7 +19291,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 }
 '
@@ -19917,9 +19381,6 @@ CSSParserImpl
 :
 ParseColor
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -19930,7 +19391,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -20204,7 +19664,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 (
 '
@@ -20221,7 +19680,6 @@ t
 fail
 ParseColorComponent
 (
-aErrorCode
 r
 type
 '
@@ -20231,7 +19689,6 @@ type
 &
 ParseColorComponent
 (
-aErrorCode
 g
 type
 '
@@ -20241,7 +19698,6 @@ type
 &
 ParseColorComponent
 (
-aErrorCode
 b
 type
 '
@@ -20329,7 +19785,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 (
 '
@@ -20346,7 +19801,6 @@ t
 fail
 ParseColorComponent
 (
-aErrorCode
 r
 type
 '
@@ -20356,7 +19810,6 @@ type
 &
 ParseColorComponent
 (
-aErrorCode
 g
 type
 '
@@ -20366,7 +19819,6 @@ type
 &
 ParseColorComponent
 (
-aErrorCode
 b
 type
 '
@@ -20376,7 +19828,6 @@ type
 &
 ParseColorOpacity
 (
-aErrorCode
 a
 )
 )
@@ -20452,7 +19903,6 @@ if
 (
 ParseHSLColor
 (
-aErrorCode
 rgba
 '
 )
@@ -20547,7 +19997,6 @@ if
 (
 ParseHSLColor
 (
-aErrorCode
 rgba
 '
 '
@@ -20556,7 +20005,6 @@ rgba
 &
 ParseColorOpacity
 (
-aErrorCode
 a
 )
 )
@@ -21049,9 +20497,6 @@ CSSParserImpl
 :
 ParseColorComponent
 (
-nsresult
-&
-aErrorCode
 PRUint8
 &
 aComponent
@@ -21067,7 +20512,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -21275,7 +20719,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 aStop
 PR_TRUE
 )
@@ -21365,9 +20808,6 @@ CSSParserImpl
 :
 ParseHSLColor
 (
-nsresult
-&
-aErrorCode
 nscolor
 &
 aColor
@@ -21385,7 +20825,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 (
 '
@@ -21423,7 +20862,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -21493,7 +20931,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 '
 PR_TRUE
@@ -21519,7 +20956,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -21595,7 +21031,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 '
 PR_TRUE
@@ -21621,7 +21056,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -21696,7 +21130,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 aStop
 PR_TRUE
 )
@@ -21760,9 +21193,6 @@ CSSParserImpl
 :
 ParseColorOpacity
 (
-nsresult
-&
-aErrorCode
 PRUint8
 &
 aOpacity
@@ -21773,7 +21203,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -21896,7 +21325,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 )
 '
@@ -21930,9 +21358,6 @@ CSSParserImpl
 :
 ParseTreePseudoElement
 (
-nsresult
-&
-aErrorCode
 nsCSSSelector
 &
 aSelector
@@ -21942,7 +21367,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 (
 '
@@ -21955,7 +21379,6 @@ while
 !
 ExpectSymbol
 (
-aErrorCode
 '
 )
 '
@@ -21968,7 +21391,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -22128,9 +21550,6 @@ CSSParserImpl
 :
 ParseDeclaration
 (
-nsresult
-&
-aErrorCode
 nsCSSDeclaration
 *
 aDeclaration
@@ -22175,7 +21594,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -22229,7 +21647,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 :
 '
@@ -22410,7 +21827,6 @@ if
 !
 ParseProperty
 (
-aErrorCode
 propID
 )
 )
@@ -22499,7 +21915,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -22565,7 +21980,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -22699,7 +22113,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -23681,9 +23094,6 @@ CSSParserImpl
 :
 ParseEnum
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -23700,7 +23110,6 @@ ident
 =
 NextIdent
 (
-aErrorCode
 )
 ;
 if
@@ -24009,9 +23418,6 @@ CSSParserImpl
 :
 TranslateDimension
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -24301,9 +23707,6 @@ CSSParserImpl
 :
 ParsePositiveVariant
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -24320,7 +23723,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 aValue
 aVariantMask
 aKeywordTable
@@ -24456,9 +23858,6 @@ CSSParserImpl
 :
 ParseVariant
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -24507,7 +23906,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -24887,7 +24285,6 @@ if
 (
 TranslateDimension
 (
-aErrorCode
 aValue
 aVariantMask
 tk
@@ -25254,7 +24651,6 @@ if
 (
 ParseURL
 (
-aErrorCode
 aValue
 )
 )
@@ -25460,7 +24856,6 @@ if
 (
 ParseColor
 (
-aErrorCode
 aValue
 )
 )
@@ -25640,7 +25035,6 @@ counters
 return
 ParseCounter
 (
-aErrorCode
 aValue
 )
 ;
@@ -25686,7 +25080,6 @@ attr
 return
 ParseAttr
 (
-aErrorCode
 aValue
 )
 ;
@@ -25705,9 +25098,6 @@ CSSParserImpl
 :
 ParseCounter
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -25738,7 +25128,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 (
 '
@@ -25753,7 +25142,6 @@ if
 !
 GetNonCloseParenToken
 (
-aErrorCode
 PR_TRUE
 )
 |
@@ -25768,7 +25156,6 @@ mType
 {
 SkipUntil
 (
-aErrorCode
 '
 )
 '
@@ -25811,9 +25198,12 @@ if
 val
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 return
 PR_FALSE
@@ -25854,7 +25244,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 '
 PR_TRUE
@@ -25865,7 +25254,6 @@ PR_TRUE
 (
 GetNonCloseParenToken
 (
-aErrorCode
 PR_TRUE
 )
 &
@@ -25881,7 +25269,6 @@ mType
 {
 SkipUntil
 (
-aErrorCode
 '
 )
 '
@@ -25922,7 +25309,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 '
 PR_TRUE
@@ -25937,7 +25323,6 @@ success
 =
 GetNonCloseParenToken
 (
-aErrorCode
 PR_TRUE
 )
 &
@@ -26012,7 +25397,6 @@ success
 {
 SkipUntil
 (
-aErrorCode
 '
 )
 '
@@ -26054,7 +25438,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 )
 '
@@ -26064,7 +25447,6 @@ PR_TRUE
 {
 SkipUntil
 (
-aErrorCode
 '
 )
 '
@@ -26092,9 +25474,6 @@ CSSParserImpl
 :
 ParseAttr
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -26104,7 +25483,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 (
 '
@@ -26116,7 +25494,6 @@ if
 (
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -26152,7 +25529,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 |
 '
@@ -26174,7 +25550,6 @@ GetNamespaceIdForPrefix
 holdIdent
 &
 nameSpaceID
-aErrorCode
 )
 )
 {
@@ -26207,7 +25582,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_FALSE
 )
 )
@@ -26376,7 +25750,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_FALSE
 )
 )
@@ -26472,7 +25845,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 )
 '
@@ -26504,9 +25876,6 @@ CSSParserImpl
 :
 ParseURL
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -26547,7 +25916,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 (
 '
@@ -26562,7 +25930,6 @@ if
 !
 GetURLToken
 (
-aErrorCode
 )
 )
 return
@@ -26610,7 +25977,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 )
 '
@@ -26678,9 +26044,12 @@ buffer
 )
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 return
 PR_FALSE
@@ -26721,9 +26090,12 @@ urlVal
 )
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 return
 PR_FALSE
@@ -26746,9 +26118,6 @@ CSSParserImpl
 :
 ParseChoice
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 aValues
 [
@@ -26846,7 +26215,6 @@ if
 (
 ParseSingleValueProperty
 (
-aErrorCode
 aValues
 [
 index
@@ -27264,9 +26632,6 @@ CSSParserImpl
 :
 ParseBoxProperties
 (
-nsresult
-&
-aErrorCode
 nsCSSRect
 &
 aResult
@@ -27318,7 +26683,6 @@ if
 !
 ParseSingleValueProperty
 (
-aErrorCode
 result
 .
 *
@@ -27362,7 +26726,6 @@ PR_FALSE
 =
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 )
@@ -27557,9 +26920,6 @@ CSSParserImpl
 :
 ParseDirectionalBoxProperty
 (
-nsresult
-&
-aErrorCode
 nsCSSProperty
 aProperty
 PRInt32
@@ -27609,7 +26969,6 @@ if
 !
 ParseSingleValueProperty
 (
-aErrorCode
 value
 subprops
 [
@@ -27621,7 +26980,6 @@ subprops
 !
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 return
@@ -27661,10 +27019,6 @@ subprops
 typeVal
 )
 ;
-aErrorCode
-=
-NS_OK
-;
 return
 PR_TRUE
 ;
@@ -27675,9 +27029,6 @@ CSSParserImpl
 :
 ParseProperty
 (
-nsresult
-&
-aErrorCode
 nsCSSProperty
 aPropID
 )
@@ -27713,7 +27064,6 @@ eCSSProperty_background
 return
 ParseBackground
 (
-aErrorCode
 )
 ;
 case
@@ -27722,7 +27072,6 @@ eCSSProperty_background_position
 return
 ParseBackgroundPosition
 (
-aErrorCode
 )
 ;
 case
@@ -27731,7 +27080,6 @@ eCSSProperty_border
 return
 ParseBorderSide
 (
-aErrorCode
 kBorderTopIDs
 PR_TRUE
 )
@@ -27742,7 +27090,6 @@ eCSSProperty_border_color
 return
 ParseBorderColor
 (
-aErrorCode
 )
 ;
 case
@@ -27751,7 +27098,6 @@ eCSSProperty_border_spacing
 return
 ParseBorderSpacing
 (
-aErrorCode
 )
 ;
 case
@@ -27760,7 +27106,6 @@ eCSSProperty_border_style
 return
 ParseBorderStyle
 (
-aErrorCode
 )
 ;
 case
@@ -27769,7 +27114,6 @@ eCSSProperty_border_bottom
 return
 ParseBorderSide
 (
-aErrorCode
 kBorderBottomIDs
 PR_FALSE
 )
@@ -27780,7 +27124,6 @@ eCSSProperty_border_end
 return
 ParseDirectionalBorderSide
 (
-aErrorCode
 kBorderEndIDs
 NS_BOXPROP_SOURCE_LOGICAL
 )
@@ -27791,7 +27134,6 @@ eCSSProperty_border_left
 return
 ParseDirectionalBorderSide
 (
-aErrorCode
 kBorderLeftIDs
 NS_BOXPROP_SOURCE_PHYSICAL
 )
@@ -27802,7 +27144,6 @@ eCSSProperty_border_right
 return
 ParseDirectionalBorderSide
 (
-aErrorCode
 kBorderRightIDs
 NS_BOXPROP_SOURCE_PHYSICAL
 )
@@ -27813,7 +27154,6 @@ eCSSProperty_border_start
 return
 ParseDirectionalBorderSide
 (
-aErrorCode
 kBorderStartIDs
 NS_BOXPROP_SOURCE_LOGICAL
 )
@@ -27824,7 +27164,6 @@ eCSSProperty_border_top
 return
 ParseBorderSide
 (
-aErrorCode
 kBorderTopIDs
 PR_FALSE
 )
@@ -27835,7 +27174,6 @@ eCSSProperty_border_bottom_colors
 return
 ParseBorderColors
 (
-aErrorCode
 &
 mTempData
 .
@@ -27853,7 +27191,6 @@ eCSSProperty_border_left_colors
 return
 ParseBorderColors
 (
-aErrorCode
 &
 mTempData
 .
@@ -27871,7 +27208,6 @@ eCSSProperty_border_right_colors
 return
 ParseBorderColors
 (
-aErrorCode
 &
 mTempData
 .
@@ -27889,7 +27225,6 @@ eCSSProperty_border_top_colors
 return
 ParseBorderColors
 (
-aErrorCode
 &
 mTempData
 .
@@ -27907,7 +27242,6 @@ eCSSProperty_border_image
 return
 ParseBorderImage
 (
-aErrorCode
 )
 ;
 case
@@ -27916,7 +27250,6 @@ eCSSProperty_border_width
 return
 ParseBorderWidth
 (
-aErrorCode
 )
 ;
 case
@@ -27925,7 +27258,6 @@ eCSSProperty_border_end_color
 return
 ParseDirectionalBoxProperty
 (
-aErrorCode
 eCSSProperty_border_end_color
 NS_BOXPROP_SOURCE_LOGICAL
 )
@@ -27936,7 +27268,6 @@ eCSSProperty_border_left_color
 return
 ParseDirectionalBoxProperty
 (
-aErrorCode
 eCSSProperty_border_left_color
 NS_BOXPROP_SOURCE_PHYSICAL
 )
@@ -27947,7 +27278,6 @@ eCSSProperty_border_right_color
 return
 ParseDirectionalBoxProperty
 (
-aErrorCode
 eCSSProperty_border_right_color
 NS_BOXPROP_SOURCE_PHYSICAL
 )
@@ -27958,7 +27288,6 @@ eCSSProperty_border_start_color
 return
 ParseDirectionalBoxProperty
 (
-aErrorCode
 eCSSProperty_border_start_color
 NS_BOXPROP_SOURCE_LOGICAL
 )
@@ -27969,7 +27298,6 @@ eCSSProperty_border_end_width
 return
 ParseDirectionalBoxProperty
 (
-aErrorCode
 eCSSProperty_border_end_width
 NS_BOXPROP_SOURCE_LOGICAL
 )
@@ -27980,7 +27308,6 @@ eCSSProperty_border_left_width
 return
 ParseDirectionalBoxProperty
 (
-aErrorCode
 eCSSProperty_border_left_width
 NS_BOXPROP_SOURCE_PHYSICAL
 )
@@ -27991,7 +27318,6 @@ eCSSProperty_border_right_width
 return
 ParseDirectionalBoxProperty
 (
-aErrorCode
 eCSSProperty_border_right_width
 NS_BOXPROP_SOURCE_PHYSICAL
 )
@@ -28002,7 +27328,6 @@ eCSSProperty_border_start_width
 return
 ParseDirectionalBoxProperty
 (
-aErrorCode
 eCSSProperty_border_start_width
 NS_BOXPROP_SOURCE_LOGICAL
 )
@@ -28013,7 +27338,6 @@ eCSSProperty_border_end_style
 return
 ParseDirectionalBoxProperty
 (
-aErrorCode
 eCSSProperty_border_end_style
 NS_BOXPROP_SOURCE_LOGICAL
 )
@@ -28024,7 +27348,6 @@ eCSSProperty_border_left_style
 return
 ParseDirectionalBoxProperty
 (
-aErrorCode
 eCSSProperty_border_left_style
 NS_BOXPROP_SOURCE_PHYSICAL
 )
@@ -28035,7 +27358,6 @@ eCSSProperty_border_right_style
 return
 ParseDirectionalBoxProperty
 (
-aErrorCode
 eCSSProperty_border_right_style
 NS_BOXPROP_SOURCE_PHYSICAL
 )
@@ -28046,7 +27368,6 @@ eCSSProperty_border_start_style
 return
 ParseDirectionalBoxProperty
 (
-aErrorCode
 eCSSProperty_border_start_style
 NS_BOXPROP_SOURCE_LOGICAL
 )
@@ -28057,7 +27378,6 @@ eCSSProperty__moz_border_radius
 return
 ParseBorderRadius
 (
-aErrorCode
 )
 ;
 case
@@ -28066,7 +27386,6 @@ eCSSProperty__moz_outline_radius
 return
 ParseOutlineRadius
 (
-aErrorCode
 )
 ;
 case
@@ -28080,7 +27399,6 @@ mTempData
 mDisplay
 .
 mClip
-aErrorCode
 eCSSProperty_clip
 )
 ;
@@ -28090,7 +27408,6 @@ eCSSProperty__moz_column_rule
 return
 ParseBorderSide
 (
-aErrorCode
 kColumnRuleIDs
 PR_FALSE
 )
@@ -28101,7 +27418,6 @@ eCSSProperty_content
 return
 ParseContent
 (
-aErrorCode
 )
 ;
 case
@@ -28110,7 +27426,6 @@ eCSSProperty_counter_increment
 return
 ParseCounterData
 (
-aErrorCode
 &
 mTempData
 .
@@ -28126,7 +27441,6 @@ eCSSProperty_counter_reset
 return
 ParseCounterData
 (
-aErrorCode
 &
 mTempData
 .
@@ -28142,7 +27456,6 @@ eCSSProperty_cue
 return
 ParseCue
 (
-aErrorCode
 )
 ;
 case
@@ -28151,7 +27464,6 @@ eCSSProperty_cursor
 return
 ParseCursor
 (
-aErrorCode
 )
 ;
 case
@@ -28160,7 +27472,6 @@ eCSSProperty_font
 return
 ParseFont
 (
-aErrorCode
 )
 ;
 case
@@ -28174,7 +27485,6 @@ mTempData
 mList
 .
 mImageRegion
-aErrorCode
 eCSSProperty_image_region
 )
 ;
@@ -28184,7 +27494,6 @@ eCSSProperty_list_style
 return
 ParseListStyle
 (
-aErrorCode
 )
 ;
 case
@@ -28193,7 +27502,6 @@ eCSSProperty_margin
 return
 ParseMargin
 (
-aErrorCode
 )
 ;
 case
@@ -28202,7 +27510,6 @@ eCSSProperty_margin_end
 return
 ParseDirectionalBoxProperty
 (
-aErrorCode
 eCSSProperty_margin_end
 NS_BOXPROP_SOURCE_LOGICAL
 )
@@ -28213,7 +27520,6 @@ eCSSProperty_margin_left
 return
 ParseDirectionalBoxProperty
 (
-aErrorCode
 eCSSProperty_margin_left
 NS_BOXPROP_SOURCE_PHYSICAL
 )
@@ -28224,7 +27530,6 @@ eCSSProperty_margin_right
 return
 ParseDirectionalBoxProperty
 (
-aErrorCode
 eCSSProperty_margin_right
 NS_BOXPROP_SOURCE_PHYSICAL
 )
@@ -28235,7 +27540,6 @@ eCSSProperty_margin_start
 return
 ParseDirectionalBoxProperty
 (
-aErrorCode
 eCSSProperty_margin_start
 NS_BOXPROP_SOURCE_LOGICAL
 )
@@ -28246,7 +27550,6 @@ eCSSProperty_outline
 return
 ParseOutline
 (
-aErrorCode
 )
 ;
 case
@@ -28255,7 +27558,6 @@ eCSSProperty_overflow
 return
 ParseOverflow
 (
-aErrorCode
 )
 ;
 case
@@ -28264,7 +27566,6 @@ eCSSProperty_padding
 return
 ParsePadding
 (
-aErrorCode
 )
 ;
 case
@@ -28273,7 +27574,6 @@ eCSSProperty_padding_end
 return
 ParseDirectionalBoxProperty
 (
-aErrorCode
 eCSSProperty_padding_end
 NS_BOXPROP_SOURCE_LOGICAL
 )
@@ -28284,7 +27584,6 @@ eCSSProperty_padding_left
 return
 ParseDirectionalBoxProperty
 (
-aErrorCode
 eCSSProperty_padding_left
 NS_BOXPROP_SOURCE_PHYSICAL
 )
@@ -28295,7 +27594,6 @@ eCSSProperty_padding_right
 return
 ParseDirectionalBoxProperty
 (
-aErrorCode
 eCSSProperty_padding_right
 NS_BOXPROP_SOURCE_PHYSICAL
 )
@@ -28306,7 +27604,6 @@ eCSSProperty_padding_start
 return
 ParseDirectionalBoxProperty
 (
-aErrorCode
 eCSSProperty_padding_start
 NS_BOXPROP_SOURCE_LOGICAL
 )
@@ -28317,7 +27614,6 @@ eCSSProperty_pause
 return
 ParsePause
 (
-aErrorCode
 )
 ;
 case
@@ -28326,7 +27622,6 @@ eCSSProperty_quotes
 return
 ParseQuotes
 (
-aErrorCode
 )
 ;
 case
@@ -28335,7 +27630,6 @@ eCSSProperty_size
 return
 ParseSize
 (
-aErrorCode
 )
 ;
 case
@@ -28344,7 +27638,6 @@ eCSSProperty_text_shadow
 return
 ParseTextShadow
 (
-aErrorCode
 )
 ;
 case
@@ -28353,7 +27646,6 @@ eCSSProperty_box_shadow
 return
 ParseBoxShadow
 (
-aErrorCode
 )
 ;
 #
@@ -28365,7 +27657,6 @@ eCSSProperty_fill
 return
 ParsePaint
 (
-aErrorCode
 &
 mTempData
 .
@@ -28381,7 +27672,6 @@ eCSSProperty_stroke
 return
 ParsePaint
 (
-aErrorCode
 &
 mTempData
 .
@@ -28397,7 +27687,6 @@ eCSSProperty_stroke_dasharray
 return
 ParseDasharray
 (
-aErrorCode
 )
 ;
 case
@@ -28406,7 +27695,6 @@ eCSSProperty_marker
 return
 ParseMarker
 (
-aErrorCode
 )
 ;
 #
@@ -28576,7 +27864,6 @@ if
 (
 ParseSingleValueProperty
 (
-aErrorCode
 value
 aPropID
 )
@@ -28586,7 +27873,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -28595,10 +27881,6 @@ AppendValue
 aPropID
 value
 )
-;
-aErrorCode
-=
-NS_OK
 ;
 return
 PR_TRUE
@@ -28681,9 +27963,6 @@ CSSParserImpl
 :
 ParseSingleValueProperty
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -29003,7 +28282,6 @@ eCSSProperty_appearance
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -29018,7 +28296,6 @@ eCSSProperty_azimuth
 return
 ParseAzimuth
 (
-aErrorCode
 aValue
 )
 ;
@@ -29028,7 +28305,6 @@ eCSSProperty_background_attachment
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -29043,7 +28319,6 @@ eCSSProperty__moz_background_clip
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -29058,7 +28333,6 @@ eCSSProperty_background_color
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HCK
 nsCSSProps
@@ -29073,7 +28347,6 @@ eCSSProperty_background_image
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HUO
 nsnull
@@ -29085,7 +28358,6 @@ eCSSProperty__moz_background_inline_policy
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -29100,7 +28372,6 @@ eCSSProperty__moz_background_origin
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -29115,7 +28386,6 @@ eCSSProperty_background_repeat
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -29130,7 +28400,6 @@ eCSSProperty_binding
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HUO
 nsnull
@@ -29142,7 +28411,6 @@ eCSSProperty_border_collapse
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -29195,7 +28463,6 @@ eCSSProperty__moz_column_rule_color
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HCK
 nsCSSProps
@@ -29248,7 +28515,6 @@ eCSSProperty__moz_column_rule_style
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HOK
 nsCSSProps
@@ -29301,7 +28567,6 @@ eCSSProperty__moz_column_rule_width
 return
 ParsePositiveVariant
 (
-aErrorCode
 aValue
 VARIANT_HKL
 nsCSSProps
@@ -29325,7 +28590,6 @@ eCSSProperty__moz_border_radius_bottomLeft
 return
 ParsePositiveVariant
 (
-aErrorCode
 aValue
 VARIANT_HLP
 nsnull
@@ -29337,7 +28601,6 @@ eCSSProperty__moz_column_count
 return
 ParsePositiveVariant
 (
-aErrorCode
 aValue
 VARIANT_AHI
 nsnull
@@ -29349,7 +28612,6 @@ eCSSProperty__moz_column_width
 return
 ParsePositiveVariant
 (
-aErrorCode
 aValue
 VARIANT_AHL
 nsnull
@@ -29361,7 +28623,6 @@ eCSSProperty__moz_column_gap
 return
 ParsePositiveVariant
 (
-aErrorCode
 aValue
 VARIANT_HL
 |
@@ -29384,7 +28645,6 @@ eCSSProperty__moz_outline_radius_bottomLeft
 return
 ParsePositiveVariant
 (
-aErrorCode
 aValue
 VARIANT_HLP
 nsnull
@@ -29405,7 +28665,6 @@ eCSSProperty_right
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_AHLP
 nsnull
@@ -29417,7 +28676,6 @@ eCSSProperty_box_align
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -29432,7 +28690,6 @@ eCSSProperty_box_direction
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -29447,7 +28704,6 @@ eCSSProperty_box_flex
 return
 ParsePositiveVariant
 (
-aErrorCode
 aValue
 VARIANT_HN
 nsnull
@@ -29459,7 +28715,6 @@ eCSSProperty_box_orient
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -29474,7 +28729,6 @@ eCSSProperty_box_pack
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -29489,7 +28743,6 @@ eCSSProperty_box_ordinal_group
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HI
 nsnull
@@ -29504,7 +28757,6 @@ eCSSProperty_clip_path
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HUO
 nsnull
@@ -29516,7 +28768,6 @@ eCSSProperty_clip_rule
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -29534,7 +28785,6 @@ eCSSProperty_color_interpolation_filters
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_AHK
 nsCSSProps
@@ -29549,7 +28799,6 @@ eCSSProperty_dominant_baseline
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_AHK
 nsCSSProps
@@ -29564,7 +28813,6 @@ eCSSProperty_fill_opacity
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HN
 nsnull
@@ -29576,7 +28824,6 @@ eCSSProperty_fill_rule
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -29591,7 +28838,6 @@ eCSSProperty_filter
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HUO
 nsnull
@@ -29603,7 +28849,6 @@ eCSSProperty_flood_color
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HC
 nsnull
@@ -29615,7 +28860,6 @@ eCSSProperty_flood_opacity
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HN
 nsnull
@@ -29627,7 +28871,6 @@ eCSSProperty_lighting_color
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HC
 nsnull
@@ -29645,7 +28888,6 @@ eCSSProperty_marker_start
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HUO
 nsnull
@@ -29657,7 +28899,6 @@ eCSSProperty_mask
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HUO
 nsnull
@@ -29669,7 +28910,6 @@ eCSSProperty_pointer_events
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HOK
 nsCSSProps
@@ -29684,7 +28924,6 @@ eCSSProperty_shape_rendering
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_AHK
 nsCSSProps
@@ -29699,7 +28938,6 @@ eCSSProperty_stop_color
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HC
 nsnull
@@ -29711,7 +28949,6 @@ eCSSProperty_stop_opacity
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HN
 nsnull
@@ -29723,7 +28960,6 @@ eCSSProperty_stroke_dashoffset
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HLPN
 nsnull
@@ -29735,7 +28971,6 @@ eCSSProperty_stroke_linecap
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -29750,7 +28985,6 @@ eCSSProperty_stroke_linejoin
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -29765,7 +28999,6 @@ eCSSProperty_stroke_miterlimit
 return
 ParsePositiveVariant
 (
-aErrorCode
 aValue
 VARIANT_HN
 nsnull
@@ -29777,7 +29010,6 @@ eCSSProperty_stroke_opacity
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HN
 nsnull
@@ -29789,7 +29021,6 @@ eCSSProperty_stroke_width
 return
 ParsePositiveVariant
 (
-aErrorCode
 aValue
 VARIANT_HLPN
 nsnull
@@ -29801,7 +29032,6 @@ eCSSProperty_text_anchor
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -29816,7 +29046,6 @@ eCSSProperty_text_rendering
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_AHK
 nsCSSProps
@@ -29833,7 +29062,6 @@ eCSSProperty_box_sizing
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -29848,7 +29076,6 @@ eCSSProperty_height
 return
 ParsePositiveVariant
 (
-aErrorCode
 aValue
 VARIANT_AHLP
 nsnull
@@ -29860,7 +29087,6 @@ eCSSProperty_width
 return
 ParsePositiveVariant
 (
-aErrorCode
 aValue
 VARIANT_AHKLP
 nsCSSProps
@@ -29875,7 +29101,6 @@ eCSSProperty_force_broken_image_icon
 return
 ParsePositiveVariant
 (
-aErrorCode
 aValue
 VARIANT_HI
 nsnull
@@ -29887,7 +29112,6 @@ eCSSProperty_caption_side
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -29902,7 +29126,6 @@ eCSSProperty_clear
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HOK
 nsCSSProps
@@ -29917,7 +29140,6 @@ eCSSProperty_color
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HC
 nsnull
@@ -29932,7 +29154,6 @@ eCSSProperty_cue_before
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HUO
 nsnull
@@ -29944,7 +29165,6 @@ eCSSProperty_direction
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -29960,7 +29180,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HOK
 nsCSSProps
@@ -30030,7 +29249,6 @@ eCSSProperty_elevation
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 |
@@ -30047,7 +29265,6 @@ eCSSProperty_empty_cells
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -30062,7 +29279,6 @@ eCSSProperty_float
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HOK
 nsCSSProps
@@ -30077,7 +29293,6 @@ eCSSProperty_float_edge
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -30092,7 +29307,6 @@ eCSSProperty_font_family
 return
 ParseFamily
 (
-aErrorCode
 aValue
 )
 ;
@@ -30102,7 +29316,6 @@ eCSSProperty_font_size
 return
 ParsePositiveVariant
 (
-aErrorCode
 aValue
 VARIANT_HKLP
 |
@@ -30119,7 +29332,6 @@ eCSSProperty_font_size_adjust
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HON
 |
@@ -30133,7 +29345,6 @@ eCSSProperty_font_stretch
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HMK
 |
@@ -30150,7 +29361,6 @@ eCSSProperty_font_style
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HMK
 |
@@ -30167,7 +29377,6 @@ eCSSProperty_font_variant
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HMK
 |
@@ -30184,7 +29393,6 @@ eCSSProperty_font_weight
 return
 ParseFontWeight
 (
-aErrorCode
 aValue
 )
 ;
@@ -30194,7 +29402,6 @@ eCSSProperty_ime_mode
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_AHK
 |
@@ -30214,7 +29421,6 @@ eCSSProperty_word_spacing
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HL
 |
@@ -30228,7 +29434,6 @@ eCSSProperty_line_height
 return
 ParsePositiveVariant
 (
-aErrorCode
 aValue
 VARIANT_HLPN
 |
@@ -30244,7 +29449,6 @@ eCSSProperty_list_style_image
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HUO
 nsnull
@@ -30256,7 +29460,6 @@ eCSSProperty_list_style_position
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -30271,7 +29474,6 @@ eCSSProperty_list_style_type
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HOK
 nsCSSProps
@@ -30321,7 +29523,6 @@ eCSSProperty_margin_top
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_AHLP
 nsnull
@@ -30333,7 +29534,6 @@ eCSSProperty_marker_offset
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_AHL
 nsnull
@@ -30345,7 +29545,6 @@ eCSSProperty_marks
 return
 ParseMarks
 (
-aErrorCode
 aValue
 )
 ;
@@ -30355,7 +29554,6 @@ eCSSProperty_max_height
 return
 ParsePositiveVariant
 (
-aErrorCode
 aValue
 VARIANT_HLPO
 nsnull
@@ -30367,7 +29565,6 @@ eCSSProperty_max_width
 return
 ParsePositiveVariant
 (
-aErrorCode
 aValue
 VARIANT_HKLPO
 nsCSSProps
@@ -30382,7 +29579,6 @@ eCSSProperty_min_height
 return
 ParsePositiveVariant
 (
-aErrorCode
 aValue
 VARIANT_HLP
 nsnull
@@ -30394,7 +29590,6 @@ eCSSProperty_min_width
 return
 ParsePositiveVariant
 (
-aErrorCode
 aValue
 VARIANT_HKLP
 nsCSSProps
@@ -30409,7 +29604,6 @@ eCSSProperty_opacity
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HN
 nsnull
@@ -30424,7 +29618,6 @@ eCSSProperty_widows
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HI
 nsnull
@@ -30436,7 +29629,6 @@ eCSSProperty_outline_color
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HCK
 nsCSSProps
@@ -30451,7 +29643,6 @@ eCSSProperty_outline_style
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HOK
 |
@@ -30468,7 +29659,6 @@ eCSSProperty_outline_width
 return
 ParsePositiveVariant
 (
-aErrorCode
 aValue
 VARIANT_HKL
 nsCSSProps
@@ -30483,7 +29673,6 @@ eCSSProperty_outline_offset
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HL
 nsnull
@@ -30498,7 +29687,6 @@ eCSSProperty_overflow_y
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_AHK
 nsCSSProps
@@ -30548,7 +29736,6 @@ eCSSProperty_padding_top
 return
 ParsePositiveVariant
 (
-aErrorCode
 aValue
 VARIANT_HLP
 nsnull
@@ -30560,7 +29747,6 @@ eCSSProperty_page
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_AUTO
 |
@@ -30577,7 +29763,6 @@ eCSSProperty_page_break_before
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_AHK
 nsCSSProps
@@ -30592,7 +29777,6 @@ eCSSProperty_page_break_inside
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_AHK
 nsCSSProps
@@ -30610,7 +29794,6 @@ eCSSProperty_pause_before
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HTP
 nsnull
@@ -30622,7 +29805,6 @@ eCSSProperty_pitch
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HKF
 nsCSSProps
@@ -30637,7 +29819,6 @@ eCSSProperty_pitch_range
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HN
 nsnull
@@ -30649,7 +29830,6 @@ eCSSProperty_position
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -30664,7 +29844,6 @@ eCSSProperty_richness
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HN
 nsnull
@@ -30751,7 +29930,6 @@ PR_FALSE
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HI
 nsnull
@@ -30765,7 +29943,6 @@ eCSSProperty_speak
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HMK
 |
@@ -30782,7 +29959,6 @@ eCSSProperty_speak_header
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -30797,7 +29973,6 @@ eCSSProperty_speak_numeral
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -30812,7 +29987,6 @@ eCSSProperty_speak_punctuation
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HOK
 nsCSSProps
@@ -30827,7 +30001,6 @@ eCSSProperty_speech_rate
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HN
 |
@@ -30844,7 +30017,6 @@ eCSSProperty_stack_sizing
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -30859,7 +30031,6 @@ eCSSProperty_stress
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HN
 nsnull
@@ -30871,7 +30042,6 @@ eCSSProperty_table_layout
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_AHK
 nsCSSProps
@@ -30910,7 +30080,6 @@ string
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 /
@@ -30931,7 +30100,6 @@ eCSSProperty_text_decoration
 return
 ParseTextDecoration
 (
-aErrorCode
 aValue
 )
 ;
@@ -30941,7 +30109,6 @@ eCSSProperty_text_indent
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HLP
 nsnull
@@ -30953,7 +30120,6 @@ eCSSProperty_text_transform
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HOK
 nsCSSProps
@@ -30968,7 +30134,6 @@ eCSSProperty_unicode_bidi
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HMK
 nsCSSProps
@@ -30983,7 +30148,6 @@ eCSSProperty_user_focus
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HMK
 |
@@ -31000,7 +30164,6 @@ eCSSProperty_user_input
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_AHK
 |
@@ -31017,7 +30180,6 @@ eCSSProperty_user_modify
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -31032,7 +30194,6 @@ eCSSProperty_user_select
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_AHK
 |
@@ -31049,7 +30210,6 @@ eCSSProperty_vertical_align
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HKLP
 nsCSSProps
@@ -31064,7 +30224,6 @@ eCSSProperty_visibility
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 nsCSSProps
@@ -31079,7 +30238,6 @@ eCSSProperty_voice_family
 return
 ParseFamily
 (
-aErrorCode
 aValue
 )
 ;
@@ -31089,7 +30247,6 @@ eCSSProperty_volume
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HPN
 |
@@ -31106,7 +30263,6 @@ eCSSProperty_white_space
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HMK
 nsCSSProps
@@ -31121,7 +30277,6 @@ eCSSProperty_word_wrap
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HMK
 nsCSSProps
@@ -31136,7 +30291,6 @@ eCSSProperty_z_index
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_AHI
 nsnull
@@ -31305,9 +30459,6 @@ CSSParserImpl
 :
 ParseFontDescriptorValue
 (
-nsresult
-&
-aErrorCode
 nsCSSFontDesc
 aDescID
 nsCSSValue
@@ -31355,7 +30506,6 @@ if
 !
 ParseFamily
 (
-aErrorCode
 aValue
 )
 |
@@ -31469,7 +30619,6 @@ VARIANT_SYSFONT
 return
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_KEYWORD
 |
@@ -31487,7 +30636,6 @@ return
 (
 ParseFontWeight
 (
-aErrorCode
 aValue
 )
 &
@@ -31560,7 +30708,6 @@ return
 (
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_KEYWORD
 |
@@ -31629,7 +30776,6 @@ eCSSFontDesc_Src
 return
 ParseFontSrc
 (
-aErrorCode
 aValue
 )
 ;
@@ -31639,7 +30785,6 @@ eCSSFontDesc_UnicodeRange
 return
 ParseFontRanges
 (
-aErrorCode
 aValue
 )
 ;
@@ -31736,9 +30881,6 @@ CSSParserImpl
 :
 ParseAzimuth
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -31748,7 +30890,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HK
 |
@@ -31812,7 +30953,6 @@ if
 (
 ParseEnum
 (
-aErrorCode
 modifier
 nsCSSProps
 :
@@ -32013,9 +31153,6 @@ CSSParserImpl
 :
 ParseBackground
 (
-nsresult
-&
-aErrorCode
 )
 {
 nsAutoParseCompoundProperty
@@ -32292,7 +31429,6 @@ while
 (
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -32422,7 +31558,6 @@ PR_TRUE
 ;
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 ;
@@ -32617,7 +31752,6 @@ if
 !
 ParseSingleValueProperty
 (
-aErrorCode
 mTempData
 .
 mColor
@@ -32676,7 +31810,6 @@ if
 !
 ParseSingleValueProperty
 (
-aErrorCode
 mTempData
 .
 mColor
@@ -32735,7 +31868,6 @@ if
 !
 ParseSingleValueProperty
 (
-aErrorCode
 mTempData
 .
 mColor
@@ -32794,7 +31926,6 @@ if
 !
 ParseBackgroundPositionValues
 (
-aErrorCode
 )
 )
 {
@@ -32821,7 +31952,6 @@ if
 !
 ParseSingleValueProperty
 (
-aErrorCode
 mTempData
 .
 mColor
@@ -32874,7 +32004,6 @@ if
 !
 ParseSingleValueProperty
 (
-aErrorCode
 mTempData
 .
 mColor
@@ -32921,7 +32050,6 @@ if
 !
 ParseBackgroundPositionValues
 (
-aErrorCode
 )
 )
 {
@@ -32948,7 +32076,6 @@ if
 !
 ParseSingleValueProperty
 (
-aErrorCode
 mTempData
 .
 mColor
@@ -32967,7 +32094,6 @@ PR_FALSE
 return
 ExpectEndProperty
 (
-aErrorCode
 )
 &
 &
@@ -32994,9 +32120,6 @@ CSSParserImpl
 :
 ParseBackgroundPosition
 (
-nsresult
-&
-aErrorCode
 )
 {
 if
@@ -33004,14 +32127,12 @@ if
 !
 ParseBackgroundPositionValues
 (
-aErrorCode
 )
 |
 |
 !
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 return
@@ -33034,9 +32155,6 @@ CSSParserImpl
 :
 ParseBackgroundPositionValues
 (
-nsresult
-&
-aErrorCode
 )
 {
 /
@@ -33075,7 +32193,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 xValue
 VARIANT_HLP
 nsnull
@@ -33148,7 +32265,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 yValue
 VARIANT_LP
 nsnull
@@ -33169,7 +32285,6 @@ if
 (
 ParseEnum
 (
-aErrorCode
 yValue
 nsCSSProps
 :
@@ -33374,7 +32489,6 @@ if
 (
 ParseEnum
 (
-aErrorCode
 xValue
 nsCSSProps
 :
@@ -33401,7 +32515,6 @@ if
 (
 ParseEnum
 (
-aErrorCode
 xValue
 nsCSSProps
 :
@@ -33473,7 +32586,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 yValue
 VARIANT_LP
 nsnull
@@ -33710,9 +32822,6 @@ CSSParserImpl
 :
 ParseBorderColor
 (
-nsresult
-&
-aErrorCode
 )
 {
 static
@@ -33751,7 +32860,6 @@ kBorderColorSources
 return
 ParseBoxProperties
 (
-aErrorCode
 mTempData
 .
 mMargin
@@ -33767,16 +32875,12 @@ CSSParserImpl
 :
 ParseBorderImage
 (
-nsresult
-&
-aErrorCode
 )
 {
 if
 (
 ParseVariant
 (
-aErrorCode
 mTempData
 .
 mMargin
@@ -33868,9 +32972,12 @@ if
 arr
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 return
 PR_FALSE
@@ -34018,7 +33125,6 @@ if
 !
 ParseVariant
 (
-aErrorCode
 url
 VARIANT_URL
 nsnull
@@ -34049,7 +33155,6 @@ if
 !
 ParsePositiveVariant
 (
-aErrorCode
 splitTop
 VARIANT_NUMBER
 |
@@ -34067,7 +33172,6 @@ if
 !
 ParsePositiveVariant
 (
-aErrorCode
 splitRight
 VARIANT_NUMBER
 |
@@ -34086,7 +33190,6 @@ if
 !
 ParsePositiveVariant
 (
-aErrorCode
 splitBottom
 VARIANT_NUMBER
 |
@@ -34105,7 +33208,6 @@ if
 !
 ParsePositiveVariant
 (
-aErrorCode
 splitLeft
 VARIANT_NUMBER
 |
@@ -34138,7 +33240,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 /
 '
@@ -34164,7 +33265,6 @@ if
 !
 ParsePositiveVariant
 (
-aErrorCode
 borderWidthTop
 VARIANT_LENGTH
 nsnull
@@ -34180,7 +33280,6 @@ if
 !
 ParsePositiveVariant
 (
-aErrorCode
 borderWidthRight
 VARIANT_LENGTH
 nsnull
@@ -34197,7 +33296,6 @@ if
 !
 ParsePositiveVariant
 (
-aErrorCode
 borderWidthBottom
 VARIANT_LENGTH
 nsnull
@@ -34214,7 +33312,6 @@ if
 !
 ParsePositiveVariant
 (
-aErrorCode
 borderWidthLeft
 VARIANT_LENGTH
 nsnull
@@ -34257,7 +33354,6 @@ if
 (
 ParseEnum
 (
-aErrorCode
 horizontalKeyword
 nsCSSProps
 :
@@ -34268,7 +33364,6 @@ kBorderImageKTable
 {
 ParseEnum
 (
-aErrorCode
 verticalKeyword
 nsCSSProps
 :
@@ -34282,7 +33377,6 @@ if
 !
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -34319,9 +33413,6 @@ CSSParserImpl
 :
 ParseBorderSpacing
 (
-nsresult
-&
-aErrorCode
 )
 {
 nsCSSValue
@@ -34331,7 +33422,6 @@ if
 (
 ParsePositiveVariant
 (
-aErrorCode
 xValue
 VARIANT_HL
 nsnull
@@ -34367,7 +33457,6 @@ if
 (
 ParsePositiveVariant
 (
-aErrorCode
 yValue
 VARIANT_LENGTH
 nsnull
@@ -34384,7 +33473,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -34452,7 +33540,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -34489,9 +33576,6 @@ CSSParserImpl
 :
 ParseBorderSide
 (
-nsresult
-&
-aErrorCode
 const
 nsCSSProperty
 aPropIDs
@@ -34518,7 +33602,6 @@ found
 =
 ParseChoice
 (
-aErrorCode
 values
 aPropIDs
 numProps
@@ -34539,7 +33622,6 @@ PR_FALSE
 =
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 )
@@ -34805,9 +33887,6 @@ CSSParserImpl
 :
 ParseDirectionalBorderSide
 (
-nsresult
-&
-aErrorCode
 const
 nsCSSProperty
 aPropIDs
@@ -34834,7 +33913,6 @@ found
 =
 ParseChoice
 (
-aErrorCode
 values
 aPropIDs
 numProps
@@ -34855,7 +33933,6 @@ PR_FALSE
 =
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 )
@@ -35059,9 +34136,6 @@ CSSParserImpl
 :
 ParseBorderStyle
 (
-nsresult
-&
-aErrorCode
 )
 {
 static
@@ -35100,7 +34174,6 @@ kBorderStyleSources
 return
 ParseBoxProperties
 (
-aErrorCode
 mTempData
 .
 mMargin
@@ -35116,9 +34189,6 @@ CSSParserImpl
 :
 ParseBorderWidth
 (
-nsresult
-&
-aErrorCode
 )
 {
 static
@@ -35157,7 +34227,6 @@ kBorderWidthSources
 return
 ParseBoxProperties
 (
-aErrorCode
 mTempData
 .
 mMargin
@@ -35173,15 +34242,11 @@ CSSParserImpl
 :
 ParseBorderRadius
 (
-nsresult
-&
-aErrorCode
 )
 {
 return
 ParseBoxProperties
 (
-aErrorCode
 mTempData
 .
 mMargin
@@ -35197,15 +34262,11 @@ CSSParserImpl
 :
 ParseOutlineRadius
 (
-nsresult
-&
-aErrorCode
 )
 {
 return
 ParseBoxProperties
 (
-aErrorCode
 mTempData
 .
 mMargin
@@ -35221,9 +34282,6 @@ CSSParserImpl
 :
 ParseBorderColors
 (
-nsresult
-&
-aErrorCode
 nsCSSValueList
 *
 *
@@ -35239,7 +34297,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 value
 VARIANT_HCK
 |
@@ -35272,9 +34329,12 @@ if
 list
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 return
 PR_FALSE
@@ -35296,7 +34356,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -35311,10 +34370,6 @@ aProperty
 aResult
 =
 listHead
-;
-aErrorCode
-=
-NS_OK
 ;
 return
 PR_TRUE
@@ -35351,7 +34406,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 value
 VARIANT_HCK
 |
@@ -35392,9 +34446,12 @@ mValue
 value
 ;
 else
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 }
 else
@@ -35418,9 +34475,6 @@ ParseRect
 nsCSSRect
 &
 aRect
-nsresult
-&
-aErrorCode
 nsCSSProperty
 aPropID
 )
@@ -35439,7 +34493,6 @@ result
 DoParseRect
 (
 rect
-aErrorCode
 )
 )
 &
@@ -35475,9 +34528,6 @@ DoParseRect
 nsCSSRect
 &
 aRect
-nsresult
-&
-aErrorCode
 )
 {
 if
@@ -35485,7 +34535,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -35529,7 +34578,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -35556,7 +34604,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -35583,7 +34630,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -35643,7 +34689,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 (
 '
@@ -35665,7 +34710,6 @@ if
 !
 ParseVariant
 (
-aErrorCode
 aRect
 .
 *
@@ -35704,7 +34748,6 @@ between
 elements
 ExpectSymbol
 (
-aErrorCode
 '
 '
 PR_TRUE
@@ -35717,7 +34760,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 )
 '
@@ -35733,7 +34775,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -35774,9 +34815,6 @@ CSSParserImpl
 :
 ParseContent
 (
-nsresult
-&
-aErrorCode
 )
 {
 /
@@ -35800,7 +34838,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 value
 VARIANT_CONTENT
 |
@@ -35839,9 +34876,12 @@ nsnull
 list
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 return
 PR_FALSE
@@ -35866,7 +34906,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -35884,10 +34923,6 @@ mContent
 mContent
 =
 listHead
-;
-aErrorCode
-=
-NS_OK
 ;
 return
 PR_TRUE
@@ -35980,7 +35015,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 value
 VARIANT_CONTENT
 nsCSSProps
@@ -36060,9 +35094,12 @@ value
 }
 else
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 }
 }
@@ -36100,9 +35137,6 @@ CSSParserImpl
 :
 ParseCounterData
 (
-nsresult
-&
-aErrorCode
 nsCSSValuePairList
 *
 *
@@ -36117,7 +35151,6 @@ ident
 =
 NextIdent
 (
-aErrorCode
 )
 ;
 if
@@ -36209,7 +35242,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -36228,9 +35260,12 @@ if
 dataHead
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 return
 PR_FALSE
@@ -36303,7 +35338,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 |
@@ -36337,9 +35371,12 @@ if
 data
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 break
 ;
@@ -36369,7 +35406,6 @@ if
 (
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -36415,7 +35451,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -36430,10 +35465,6 @@ aPropID
 aResult
 =
 dataHead
-;
-aErrorCode
-=
-NS_OK
 ;
 return
 PR_TRUE
@@ -36453,9 +35484,6 @@ CSSParserImpl
 :
 ParseCue
 (
-nsresult
-&
-aErrorCode
 )
 {
 nsCSSValue
@@ -36465,7 +35493,6 @@ if
 (
 ParseSingleValueProperty
 (
-aErrorCode
 before
 eCSSProperty_cue_before
 )
@@ -36500,7 +35527,6 @@ if
 (
 ParseSingleValueProperty
 (
-aErrorCode
 after
 eCSSProperty_cue_after
 )
@@ -36510,7 +35536,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -36539,7 +35564,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -36570,9 +35594,6 @@ CSSParserImpl
 :
 ParseCursor
 (
-nsresult
-&
-aErrorCode
 )
 {
 nsCSSValueList
@@ -36619,9 +35640,12 @@ if
 cur
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 break
 ;
@@ -36631,7 +35655,6 @@ if
 !
 ParseVariant
 (
-aErrorCode
 cur
 -
 >
@@ -36676,7 +35699,6 @@ if
 !
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -36719,10 +35741,6 @@ mUserInterface
 mCursor
 =
 list
-;
-aErrorCode
-=
-NS_OK
 ;
 return
 PR_TRUE
@@ -36769,9 +35787,12 @@ if
 val
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 break
 ;
@@ -36821,7 +35842,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 val
 -
 >
@@ -36851,7 +35871,6 @@ if
 !
 ParseVariant
 (
-aErrorCode
 val
 -
 >
@@ -36873,7 +35892,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 '
 PR_TRUE
@@ -36916,9 +35934,6 @@ CSSParserImpl
 :
 ParseFont
 (
-nsresult
-&
-aErrorCode
 )
 {
 static
@@ -36941,7 +35956,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 family
 VARIANT_HK
 nsCSSProps
@@ -36955,7 +35969,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -37146,7 +36159,6 @@ found
 =
 ParseChoice
 (
-aErrorCode
 values
 fontIDs
 numProps
@@ -37301,7 +36313,6 @@ if
 !
 ParseVariant
 (
-aErrorCode
 size
 VARIANT_KEYWORD
 |
@@ -37334,7 +36345,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 /
 '
@@ -37347,7 +36357,6 @@ if
 !
 ParsePositiveVariant
 (
-aErrorCode
 lineHeight
 VARIANT_NUMBER
 |
@@ -37390,7 +36399,6 @@ if
 (
 ParseFamily
 (
-aErrorCode
 family
 )
 )
@@ -37423,7 +36431,6 @@ GetUnit
 &
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -37514,9 +36521,6 @@ CSSParserImpl
 :
 ParseFontWeight
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -37526,7 +36530,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HMKI
 |
@@ -37623,9 +36626,6 @@ CSSParserImpl
 :
 ParseOneFamily
 (
-nsresult
-&
-aErrorCode
 nsAString
 &
 aFamily
@@ -37636,7 +36636,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -37682,7 +36681,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_FALSE
 )
 )
@@ -37745,7 +36743,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -37872,9 +36869,6 @@ CSSParserImpl
 :
 ParseFamily
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -37885,7 +36879,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -37994,7 +36987,6 @@ if
 !
 ParseOneFamily
 (
-aErrorCode
 family
 )
 )
@@ -38006,7 +36998,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 '
 PR_TRUE
@@ -38125,9 +37116,6 @@ CSSParserImpl
 :
 ParseFontSrc
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -38169,7 +37157,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -38202,7 +37189,6 @@ if
 !
 ParseURL
 (
-aErrorCode
 cur
 )
 )
@@ -38221,7 +37207,6 @@ if
 !
 ParseFontSrcFormat
 (
-aErrorCode
 values
 )
 )
@@ -38320,7 +37305,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 (
 '
@@ -38335,7 +37319,6 @@ if
 !
 ParseOneFamily
 (
-aErrorCode
 family
 )
 )
@@ -38347,7 +37330,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 )
 '
@@ -38446,7 +37428,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 '
 PR_TRUE
@@ -38539,9 +37520,6 @@ CSSParserImpl
 :
 ParseFontSrcFormat
 (
-nsresult
-&
-aErrorCode
 nsTArray
 <
 nsCSSValue
@@ -38555,7 +37533,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -38603,7 +37580,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 (
 '
@@ -38620,7 +37596,6 @@ if
 !
 GetToken
 (
-aErrorCode
 PR_TRUE
 )
 )
@@ -38660,7 +37635,6 @@ while
 (
 ExpectSymbol
 (
-aErrorCode
 '
 '
 PR_TRUE
@@ -38670,7 +37644,6 @@ PR_TRUE
 return
 ExpectSymbol
 (
-aErrorCode
 '
 )
 '
@@ -38697,9 +37670,6 @@ CSSParserImpl
 :
 ParseFontRanges
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -38724,9 +37694,6 @@ CSSParserImpl
 :
 ParseListStyle
 (
-nsresult
-&
-aErrorCode
 )
 {
 const
@@ -38762,7 +37729,6 @@ found
 =
 ParseChoice
 (
-aErrorCode
 values
 listStyleIDs
 numProps
@@ -38783,7 +37749,6 @@ PR_FALSE
 =
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 )
@@ -38905,9 +37870,6 @@ CSSParserImpl
 :
 ParseMargin
 (
-nsresult
-&
-aErrorCode
 )
 {
 static
@@ -38960,7 +37922,6 @@ kMarginSources
 return
 ParseBoxProperties
 (
-aErrorCode
 mTempData
 .
 mMargin
@@ -38976,9 +37937,6 @@ CSSParserImpl
 :
 ParseMarks
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -38988,7 +37946,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HOK
 nsCSSProps
@@ -39017,7 +37974,6 @@ PR_FALSE
 =
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -39028,7 +37984,6 @@ if
 (
 ParseEnum
 (
-aErrorCode
 second
 nsCSSProps
 :
@@ -39078,9 +38033,6 @@ CSSParserImpl
 :
 ParseOutline
 (
-nsresult
-&
-aErrorCode
 )
 {
 const
@@ -39113,7 +38065,6 @@ found
 =
 ParseChoice
 (
-aErrorCode
 values
 kOutlineIDs
 numProps
@@ -39134,7 +38085,6 @@ PR_FALSE
 =
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 )
@@ -39277,9 +38227,6 @@ CSSParserImpl
 :
 ParseOverflow
 (
-nsresult
-&
-aErrorCode
 )
 {
 nsCSSValue
@@ -39290,7 +38237,6 @@ if
 !
 ParseVariant
 (
-aErrorCode
 overflow
 VARIANT_AHK
 nsCSSProps
@@ -39303,7 +38249,6 @@ kOverflowKTable
 !
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 return
@@ -39396,10 +38341,6 @@ eCSSProperty_overflow_y
 overflowY
 )
 ;
-aErrorCode
-=
-NS_OK
-;
 return
 PR_TRUE
 ;
@@ -39410,9 +38351,6 @@ CSSParserImpl
 :
 ParsePadding
 (
-nsresult
-&
-aErrorCode
 )
 {
 static
@@ -39465,7 +38403,6 @@ kPaddingSources
 return
 ParseBoxProperties
 (
-aErrorCode
 mTempData
 .
 mMargin
@@ -39481,9 +38418,6 @@ CSSParserImpl
 :
 ParsePause
 (
-nsresult
-&
-aErrorCode
 )
 {
 nsCSSValue
@@ -39493,7 +38427,6 @@ if
 (
 ParseSingleValueProperty
 (
-aErrorCode
 before
 eCSSProperty_pause_before
 )
@@ -39528,7 +38461,6 @@ if
 (
 ParseSingleValueProperty
 (
-aErrorCode
 after
 eCSSProperty_pause_after
 )
@@ -39538,7 +38470,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -39567,7 +38498,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -39598,9 +38528,6 @@ CSSParserImpl
 :
 ParseQuotes
 (
-nsresult
-&
-aErrorCode
 )
 {
 nsCSSValue
@@ -39610,7 +38537,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 open
 VARIANT_HOS
 nsnull
@@ -39652,9 +38578,12 @@ nsnull
 quotes
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 return
 PR_FALSE
@@ -39684,7 +38613,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 quotes
 -
 >
@@ -39698,7 +38626,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -39717,10 +38644,6 @@ mQuotes
 =
 quotesHead
 ;
-aErrorCode
-=
-NS_OK
-;
 return
 PR_TRUE
 ;
@@ -39735,7 +38658,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 open
 VARIANT_STRING
 nsnull
@@ -39777,9 +38699,12 @@ open
 continue
 ;
 }
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 }
 }
@@ -39797,7 +38722,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -39847,9 +38771,6 @@ CSSParserImpl
 :
 ParseSize
 (
-nsresult
-&
-aErrorCode
 )
 {
 nsCSSValue
@@ -39859,7 +38780,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 width
 VARIANT_AHKL
 nsCSSProps
@@ -39885,7 +38805,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 height
 VARIANT_LENGTH
 nsnull
@@ -39896,7 +38815,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -39940,7 +38858,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -39977,9 +38894,6 @@ CSSParserImpl
 :
 ParseTextDecoration
 (
-nsresult
-&
-aErrorCode
 nsCSSValue
 &
 aValue
@@ -39989,7 +38903,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 aValue
 VARIANT_HOK
 nsCSSProps
@@ -40051,7 +38964,6 @@ if
 (
 ParseEnum
 (
-aErrorCode
 keyword
 nsCSSProps
 :
@@ -40100,9 +39012,6 @@ CSSParserImpl
 :
 ParseCSSShadowList
 (
-nsresult
-&
-aErrorCode
 PRBool
 aUsesSpread
 )
@@ -40232,9 +39141,12 @@ if
 cur
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 break
 ;
@@ -40244,7 +39156,6 @@ if
 !
 ParseVariant
 (
-aErrorCode
 cur
 -
 >
@@ -40330,9 +39241,12 @@ if
 val
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 break
 ;
@@ -40449,7 +39363,6 @@ if
 !
 ParseVariant
 (
-aErrorCode
 val
 -
 >
@@ -40492,7 +39405,6 @@ if
 !
 ParseVariant
 (
-aErrorCode
 val
 -
 >
@@ -40568,7 +39480,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 val
 -
 >
@@ -40614,7 +39525,6 @@ errors
 )
 ParseVariant
 (
-aErrorCode
 val
 -
 >
@@ -40643,7 +39553,6 @@ errors
 )
 ParseVariant
 (
-aErrorCode
 val
 -
 >
@@ -40668,7 +39577,6 @@ if
 (
 ExpectSymbol
 (
-aErrorCode
 '
 '
 PR_TRUE
@@ -40690,7 +39598,6 @@ if
 !
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -40760,10 +39667,6 @@ sharing
 of
 code
 .
-aErrorCode
-=
-NS_OK
-;
 return
 list
 ;
@@ -40800,9 +39703,6 @@ CSSParserImpl
 :
 ParseTextShadow
 (
-nsresult
-&
-aErrorCode
 )
 {
 nsCSSValueList
@@ -40811,7 +39711,6 @@ list
 =
 ParseCSSShadowList
 (
-aErrorCode
 PR_FALSE
 )
 ;
@@ -40848,9 +39747,6 @@ CSSParserImpl
 :
 ParseBoxShadow
 (
-nsresult
-&
-aErrorCode
 )
 {
 nsCSSValueList
@@ -40859,7 +39755,6 @@ list
 =
 ParseCSSShadowList
 (
-aErrorCode
 PR_TRUE
 )
 ;
@@ -40903,9 +39798,6 @@ aPrefix
 PRInt32
 *
 aNameSpaceID
-nsresult
-&
-aErrorCode
 )
 {
 NS_PRECONDITION
@@ -40922,23 +39814,6 @@ have
 a
 prefix
 here
-"
-)
-;
-NS_PRECONDITION
-(
-NS_SUCCEEDED
-(
-aErrorCode
-)
-"
-Why
-did
-we
-even
-get
-called
-?
 "
 )
 ;
@@ -41048,12 +39923,13 @@ if
 (
 mUnresolvablePrefixException
 )
-{
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_DOM_NAMESPACE_ERR
+)
 ;
-}
 return
 PR_FALSE
 ;
@@ -41137,9 +40013,6 @@ CSSParserImpl
 :
 ParsePaint
 (
-nsresult
-&
-aErrorCode
 nsCSSValuePair
 *
 aResult
@@ -41152,7 +40025,6 @@ if
 !
 ParseVariant
 (
-aErrorCode
 aResult
 -
 >
@@ -41188,7 +40060,6 @@ if
 !
 ParseVariant
 (
-aErrorCode
 aResult
 -
 >
@@ -41233,7 +40104,6 @@ if
 !
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 return
@@ -41256,9 +40126,6 @@ CSSParserImpl
 :
 ParseDasharray
 (
-nsresult
-&
-aErrorCode
 )
 {
 nsCSSValue
@@ -41268,7 +40135,6 @@ if
 (
 ParseVariant
 (
-aErrorCode
 value
 VARIANT_HLPN
 |
@@ -41296,9 +40162,12 @@ if
 list
 )
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 return
 PR_FALSE
@@ -41321,7 +40190,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -41339,10 +40207,6 @@ mSVG
 mStrokeDasharray
 =
 listHead
-;
-aErrorCode
-=
-NS_OK
 ;
 return
 PR_TRUE
@@ -41386,7 +40250,6 @@ if
 !
 ExpectSymbol
 (
-aErrorCode
 '
 '
 PR_TRUE
@@ -41399,7 +40262,6 @@ if
 !
 ParseVariant
 (
-aErrorCode
 value
 VARIANT_LENGTH
 |
@@ -41439,9 +40301,12 @@ value
 ;
 else
 {
-aErrorCode
-=
+mScanner
+.
+SetLowLevelError
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 break
 ;
@@ -41461,9 +40326,6 @@ CSSParserImpl
 :
 ParseMarker
 (
-nsresult
-&
-aErrorCode
 )
 {
 nsCSSValue
@@ -41473,7 +40335,6 @@ if
 (
 ParseSingleValueProperty
 (
-aErrorCode
 marker
 eCSSProperty_marker_end
 )
@@ -41483,7 +40344,6 @@ if
 (
 ExpectEndProperty
 (
-aErrorCode
 )
 )
 {
@@ -41504,10 +40364,6 @@ AppendValue
 eCSSProperty_marker_start
 marker
 )
-;
-aErrorCode
-=
-NS_OK
 ;
 return
 PR_TRUE
