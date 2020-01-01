@@ -12272,7 +12272,7 @@ ContextAllocPolicy
 JSContext
 *
 const
-cx
+cx_
 ;
 public
 :
@@ -12283,7 +12283,7 @@ JSContext
 cx
 )
 :
-cx
+cx_
 (
 cx
 )
@@ -12297,7 +12297,7 @@ context
 const
 {
 return
-cx
+cx_
 ;
 }
 void
@@ -12309,7 +12309,7 @@ bytes
 )
 {
 return
-cx
+cx_
 -
 >
 malloc_
@@ -12327,7 +12327,7 @@ bytes
 )
 {
 return
-cx
+cx_
 -
 >
 calloc_
@@ -12350,7 +12350,7 @@ bytes
 )
 {
 return
-cx
+cx_
 -
 >
 realloc_
@@ -12383,7 +12383,7 @@ const
 {
 js_ReportAllocationOverflow
 (
-cx
+cx_
 )
 ;
 }
