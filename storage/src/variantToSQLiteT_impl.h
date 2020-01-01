@@ -252,7 +252,7 @@ aValue
 Allow
 to
 return
-NULL
+nullptr
 not
 wrapped
 to

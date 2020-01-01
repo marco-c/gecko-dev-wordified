@@ -992,7 +992,7 @@ either
 *
 _objp
 =
-NULL
+nullptr
 ;
 return
 NS_OK

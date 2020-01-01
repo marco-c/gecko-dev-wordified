@@ -450,7 +450,7 @@ WEBAPPS
 )
 SQLITE_TELEMETRY
 (
-NULL
+nullptr
 OTHER
 )
 }
@@ -861,7 +861,7 @@ base
 .
 pMethods
 =
-NULL
+nullptr
 ;
 p
 -
@@ -2135,7 +2135,7 @@ Histograms
 *
 h
 =
-NULL
+nullptr
 ;
 /
 /
@@ -2625,7 +2625,7 @@ methods
 without
 checking
 for
-NULL
+nullptr
 first
 /
 /
@@ -2646,8 +2646,7 @@ to
 call
 /
 /
-NULL
-pointers
+nullptrs
 though
 .
 MOZ_ASSERT
@@ -3402,7 +3401,7 @@ vfs
 =
 sqlite3_vfs_find
 (
-NULL
+nullptr
 )
 ;
 expected_vfs
@@ -3431,7 +3430,7 @@ expected_vfs
 )
 {
 return
-NULL
+nullptr
 ;
 }
 sqlite3_vfs

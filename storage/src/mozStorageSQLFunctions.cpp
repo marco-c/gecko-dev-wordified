@@ -1036,7 +1036,7 @@ get
 )
 will
 return
-NULL
+nullptr
 !
 *
 *
@@ -2420,8 +2420,8 @@ p
 -
 >
 xFunc
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }

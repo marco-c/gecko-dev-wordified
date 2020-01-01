@@ -3249,7 +3249,7 @@ memory
 &
 mDBConn
 mFlags
-NULL
+nullptr
 )
 ;
 if
@@ -3370,7 +3370,7 @@ get
 &
 mDBConn
 mFlags
-NULL
+nullptr
 )
 ;
 if
@@ -3524,7 +3524,7 @@ get
 &
 mDBConn
 mFlags
-NULL
+nullptr
 )
 ;
 if
@@ -4738,7 +4738,7 @@ sqlite3_stmt
 *
 stmt
 =
-NULL
+nullptr
 ;
 while
 (
@@ -4832,7 +4832,7 @@ above
 ;
 mDBConn
 =
-NULL
+nullptr
 ;
 return
 convertResultCode
@@ -5276,7 +5276,7 @@ get
 -
 1
 _stmt
-NULL
+nullptr
 )
 )
 =
@@ -5486,7 +5486,7 @@ and
 set
 _stmt
 to
-NULL
+nullptr
 .
 /
 /
@@ -5527,7 +5527,7 @@ SQLITE_OK
 _stmt
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -5577,9 +5577,9 @@ sqlite3_exec
 (
 mDBConn
 aSqlString
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 ;
 /
@@ -7977,7 +7977,7 @@ mFunctions
 Get
 (
 aFunctionName
-NULL
+nullptr
 )
 NS_ERROR_FAILURE
 )
@@ -8002,8 +8002,8 @@ aNumArguments
 SQLITE_ANY
 aFunction
 basicFunctionHelper
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -8097,7 +8097,7 @@ mFunctions
 Get
 (
 aFunctionName
-NULL
+nullptr
 )
 NS_ERROR_FAILURE
 )
@@ -8171,7 +8171,7 @@ get
 aNumArguments
 SQLITE_ANY
 aFunction
-NULL
+nullptr
 aggregateFunctionStepHelper
 aggregateFunctionFinalHelper
 )
@@ -8249,7 +8249,7 @@ mFunctions
 Get
 (
 aFunctionName
-NULL
+nullptr
 )
 NS_ERROR_FAILURE
 )
@@ -8272,10 +8272,10 @@ get
 )
 0
 SQLITE_ANY
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -8434,8 +8434,8 @@ sqlite3_progress_handler
 (
 mDBConn
 0
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 return
@@ -8575,7 +8575,7 @@ get
 (
 )
 :
-NULL
+nullptr
 SQLITE_FCNTL_CHUNK_SIZE
 &
 aChunkSize

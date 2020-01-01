@@ -3006,7 +3006,7 @@ sqliteMemRoundup
 sqliteMemInit
 &
 sqliteMemShutdown
-NULL
+nullptr
 }
 ;
 }
@@ -3955,7 +3955,7 @@ just
 fall
 through
 with
-NULL
+nullptr
 storageFile
 this
 will
@@ -4649,7 +4649,7 @@ Just
 fall
 through
 with
-NULL
+nullptr
 storageFile
 this
 will

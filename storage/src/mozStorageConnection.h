@@ -987,7 +987,7 @@ mDBConn
 is
 set
 to
-NULL
+nullptr
 in
 this
 method

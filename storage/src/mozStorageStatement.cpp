@@ -673,7 +673,7 @@ StorageBaseStatementInternal
 )
 mDBStatement
 (
-NULL
+nullptr
 )
 mColumnNames
 (
@@ -1832,7 +1832,7 @@ NS_ASSERTION
 mDBStatement
 !
 =
-NULL
+nullptr
 "
 We
 have
@@ -2285,7 +2285,7 @@ mDBStatement
 ;
 mDBStatement
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2560,7 +2560,7 @@ if
 name
 =
 =
-NULL
+nullptr
 )
 {
 /

@@ -521,7 +521,7 @@ this
 method
 would
 return
-NULL
+nullptr
 as
 a
 result
@@ -625,7 +625,7 @@ mStatement
 ;
 mStatement
 =
-NULL
+nullptr
 ;
 }
 }

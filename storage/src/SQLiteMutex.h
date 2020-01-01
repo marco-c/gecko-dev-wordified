@@ -247,7 +247,7 @@ eMutex
 )
 mMutex
 (
-NULL
+nullptr
 )
 {
 }

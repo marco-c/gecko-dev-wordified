@@ -197,7 +197,7 @@ kStorageCIDs
 &
 kMOZ_STORAGE_SERVICE_CID
 false
-NULL
+nullptr
 mozilla
 :
 :
@@ -210,7 +210,7 @@ ServiceConstructor
 &
 kVACUUMMANAGER_CID
 false
-NULL
+nullptr
 mozilla
 :
 :
@@ -220,7 +220,7 @@ storage
 VacuumManagerConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -249,7 +249,7 @@ VACUUMMANAGER_CONTRACTID
 kVACUUMMANAGER_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -281,7 +281,7 @@ Manager
 VACUUMMANAGER_CONTRACTID
 }
 {
-NULL
+nullptr
 }
 }
 ;

@@ -406,8 +406,8 @@ Connection
 (
 aDB
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 /
