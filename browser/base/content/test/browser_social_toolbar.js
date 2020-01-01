@@ -1002,10 +1002,10 @@ menuitems
 is
 minimum
 plus
-one
+three
 ambient
 notification
-menuitem
+menuitems
 .
 "
 )
