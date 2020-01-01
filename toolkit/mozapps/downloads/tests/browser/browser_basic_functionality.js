@@ -1685,6 +1685,12 @@ t
 win
 )
 ;
+win
+.
+close
+(
+)
+;
 finish
 (
 )
