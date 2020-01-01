@@ -168,7 +168,8 @@ ion
 /
 Distance
 from
-esp
+stack
+top
 to
 the
 top
@@ -1365,7 +1366,8 @@ offset
 /
 objectOffset
 from
-esp
+stack
+top
 excluding
 the
 return
@@ -1558,7 +1560,7 @@ loadValue
 (
 Address
 (
-esp
+BaselineStackReg
 STUB_FRAME_SIZE
 +
 objectOffset
