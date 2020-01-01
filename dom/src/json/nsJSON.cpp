@@ -7321,7 +7321,15 @@ str
 JS_NewUCStringCopyN
 (
 mCx
+reinterpret_cast
+<
+const
+jschar
+*
+>
+(
 aBuf
+)
 aLength
 )
 ;
