@@ -10660,6 +10660,15 @@ _prevHierarchy
 i
 ]
 ;
+if
+(
+!
+prevScope
+)
+{
+continue
+;
+}
 for
 (
 let
@@ -10683,9 +10692,6 @@ v
 let
 prevVar
 =
-prevScope
-&
-&
 prevScope
 .
 children
