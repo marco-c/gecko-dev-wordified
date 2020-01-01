@@ -20185,6 +20185,9 @@ per_window_layout
 false
 )
 ;
+#
+ifdef
+NS_ENABLE_TSF
 /
 /
 Enable
@@ -20244,6 +20247,8 @@ on_layout_change_interval
 100
 )
 ;
+#
+endif
 /
 /
 See
