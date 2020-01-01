@@ -476,9 +476,9 @@ class
 SmsRequest
 :
 public
-nsIDOMMozSmsRequest
-public
 nsDOMEventTargetHelper
+public
+nsIDOMMozSmsRequest
 {
 public
 :

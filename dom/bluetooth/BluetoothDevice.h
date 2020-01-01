@@ -95,9 +95,9 @@ class
 BluetoothDevice
 :
 public
-nsIDOMBluetoothDevice
-public
 nsDOMEventTargetHelper
+public
+nsIDOMBluetoothDevice
 {
 public
 :

@@ -153,9 +153,9 @@ class
 BluetoothAdapter
 :
 public
-nsIDOMBluetoothAdapter
-public
 nsDOMEventTargetHelper
+public
+nsIDOMBluetoothAdapter
 {
 public
 :
