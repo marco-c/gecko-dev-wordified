@@ -3115,7 +3115,7 @@ PRTraceUnLockHandles
 )
 )
 ;
-PR_Lock
+PR_Unlock
 (
 traceLock
 )
