@@ -631,6 +631,7 @@ safePoint
 ;
 /
 *
+*
 For
 type
 inference
@@ -644,6 +645,18 @@ its
 effects
 monitored
 dynamically
+.
+*
+This
+is
+limited
+to
+property
+/
+name
+sets
+and
+calls
 .
 *
 /
