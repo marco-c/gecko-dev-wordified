@@ -17101,6 +17101,16 @@ EqualsLiteral
 wyciwyg
 "
 )
+|
+|
+scheme
+.
+EqualsLiteral
+(
+"
+javascript
+"
+)
 )
 {
 *
