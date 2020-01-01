@@ -1382,6 +1382,13 @@ IsEmpty
 )
 ;
 }
+virtual
+nscoord
+GetBaseline
+(
+)
+const
+;
 /
 *
 *

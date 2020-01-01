@@ -814,6 +814,13 @@ PullOverflowsFromPrevInFlow
 (
 )
 ;
+virtual
+nscoord
+GetBaseline
+(
+)
+const
+;
 /
 *
 *

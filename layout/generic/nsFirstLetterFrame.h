@@ -662,6 +662,13 @@ CanContinueTextRun
 )
 const
 ;
+virtual
+nscoord
+GetBaseline
+(
+)
+const
+;
 /
 /
 override

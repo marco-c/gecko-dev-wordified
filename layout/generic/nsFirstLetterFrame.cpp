@@ -2654,3 +2654,16 @@ sc
 }
 }
 }
+nscoord
+nsFirstLetterFrame
+:
+:
+GetBaseline
+(
+)
+const
+{
+return
+mBaseline
+;
+}
