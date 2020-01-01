@@ -5081,6 +5081,8 @@ mInst
 ;
 #
 else
+MAIN_THREAD_JNI_REF_GUARD
+;
 (
 *
 pluginFunctions
