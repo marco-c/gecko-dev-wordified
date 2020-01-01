@@ -6653,14 +6653,12 @@ cx
 &
 &
 !
+IsIncrementalGCInProgress
+(
 cx
 -
 >
-compartment
--
->
-needsBarrier
-(
+runtime
 )
 )
 {
