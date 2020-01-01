@@ -26331,8 +26331,7 @@ x
 unicode
 "
 "
-Deja
-Vu
+DejaVu
 Serif
 FreeSerif
 Times
@@ -26400,8 +26399,7 @@ x
 unicode
 "
 "
-Deja
-Vu
+DejaVu
 Sans
 FreeSans
 Arial
@@ -26431,8 +26429,7 @@ x
 unicode
 "
 "
-Deja
-Vu
+DejaVu
 Sans
 Mono
 "
@@ -26454,8 +26451,7 @@ x
 unicode
 "
 "
-Deja
-Vu
+DejaVu
 Sans
 Mono
 FreeMono
@@ -26510,8 +26506,7 @@ x
 unicode
 "
 "
-Deja
-Vu
+DejaVu
 Serif
 FreeSerif
 Junicode
@@ -26582,8 +26577,7 @@ x
 unicode
 "
 "
-Deja
-Vu
+DejaVu
 Serif
 FreeSerif
 Times
