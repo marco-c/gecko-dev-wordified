@@ -812,6 +812,15 @@ aNewRange
 )
 const
 ;
+NS_IMETHOD
+GetUsedFontFaces
+(
+nsIDOMFontFaceList
+*
+*
+aResult
+)
+;
 /
 /
 nsIMutationObserver
