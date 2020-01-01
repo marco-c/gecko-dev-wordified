@@ -32216,8 +32216,6 @@ JSScopeProperty
 )
 prop
 ;
-do_native_get
-:
 NATIVE_GET
 (
 cx
@@ -43639,8 +43637,6 @@ L_JSOP_DEFXMLNS
 :
 #
 endif
-L_JSOP_UNUSED218
-:
 #
 endif
 /
