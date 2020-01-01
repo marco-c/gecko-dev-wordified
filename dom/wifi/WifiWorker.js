@@ -10518,7 +10518,7 @@ else
 {
 WifiManager
 .
-disconnect
+reassociate
 (
 function
 (
