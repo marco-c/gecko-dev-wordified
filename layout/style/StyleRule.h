@@ -1346,9 +1346,6 @@ aClass
 void
 AddPseudoClass
 (
-nsIAtom
-*
-aPseudoClass
 nsCSSPseudoClasses
 :
 :
@@ -1359,9 +1356,6 @@ aType
 void
 AddPseudoClass
 (
-nsIAtom
-*
-aPseudoClass
 nsCSSPseudoClasses
 :
 :
@@ -1376,9 +1370,6 @@ aString
 void
 AddPseudoClass
 (
-nsIAtom
-*
-aPseudoClass
 nsCSSPseudoClasses
 :
 :
@@ -1399,9 +1390,6 @@ aSelectorList
 void
 AddPseudoClass
 (
-nsIAtom
-*
-aPseudoClass
 nsCSSPseudoClasses
 :
 :
