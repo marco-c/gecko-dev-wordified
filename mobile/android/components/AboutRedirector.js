@@ -277,7 +277,7 @@ xhtml
 "
 privileged
 :
-true
+false
 hide
 :
 true
@@ -302,7 +302,7 @@ xhtml
 "
 privileged
 :
-true
+false
 hide
 :
 true
@@ -327,7 +327,7 @@ xhtml
 "
 privileged
 :
-true
+false
 }
 apps
 :
