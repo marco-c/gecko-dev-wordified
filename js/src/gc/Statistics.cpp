@@ -208,6 +208,13 @@ h
 #
 include
 "
+jscntxtinlines
+.
+h
+"
+#
+include
+"
 gc
 /
 Barrier
