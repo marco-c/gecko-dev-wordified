@@ -768,13 +768,13 @@ are
 stored
 in
 twips
-nsIntMargin
+nsMargin
 mMargin
 ;
-nsIntMargin
+nsMargin
 mEdge
 ;
-nsIntMargin
+nsMargin
 mUnwriteableMargin
 ;
 PRInt32

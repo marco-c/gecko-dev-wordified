@@ -11600,7 +11600,7 @@ nsIWidget
 *
 widget
 ;
-nsIntRect
+nsRect
 caretRect
 =
 caretAccessible

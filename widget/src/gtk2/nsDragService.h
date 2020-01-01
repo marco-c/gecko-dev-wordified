@@ -945,7 +945,7 @@ aXOffset
 PRInt32
 aYOffset
 const
-nsIntRect
+nsRect
 &
 dragRect
 )

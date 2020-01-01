@@ -1425,7 +1425,7 @@ ReflowCallbackCanceled
 ;
 protected
 :
-nsIntSize
+nsSize
 GetMargin
 (
 )
@@ -4944,7 +4944,7 @@ nsnull
 }
 }
 }
-nsIntSize
+nsSize
 nsSubDocumentFrame
 :
 :
@@ -4952,7 +4952,7 @@ GetMargin
 (
 )
 {
-nsIntSize
+nsSize
 result
 (
 -
@@ -5596,12 +5596,11 @@ document
 can
 use
 it
-nsIntSize
+nsSize
 margin
-(
+=
 GetMargin
 (
-)
 )
 ;
 docShell

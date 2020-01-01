@@ -5379,7 +5379,7 @@ imgFrame
 return
 NS_ERROR_FAILURE
 ;
-nsIntRect
+nsRect
 imgFrameRect
 ;
 imgFrame

@@ -8570,7 +8570,7 @@ in
 absolute
 screen
 coords
-nsIntRect
+nsRect
 orgRectPixels
 =
 aBoundingFrame

@@ -4667,7 +4667,7 @@ nsAString
 &
 aStr
 const
-nsIntRect
+nsRect
 &
 aRect
 )
@@ -4891,7 +4891,7 @@ char
 *
 aStr
 const
-nsIntRect
+nsRect
 &
 aRect
 )
@@ -5000,7 +5000,7 @@ nsAString
 &
 aStr
 const
-nsIntRect
+nsRect
 &
 aRect
 )
@@ -5932,7 +5932,7 @@ groupbox
 is
 arbitrary
 )
-nsIntRect
+nsRect
 rect
 ;
 /

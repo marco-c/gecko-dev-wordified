@@ -1761,7 +1761,7 @@ return
 mViewToWidgetOffset
 ;
 }
-nsIntRect
+nsRect
 CalcWidgetBounds
 (
 nsWindowType

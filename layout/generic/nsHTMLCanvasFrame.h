@@ -556,7 +556,7 @@ s
 image
 *
 /
-nsIntSize
+nsSize
 GetCanvasSize
 (
 )

@@ -8326,7 +8326,7 @@ CreateAutoHideTimer
 (
 )
 ;
-nsIntRect
+nsRect
 widgetDot
 (
 0
@@ -8335,7 +8335,7 @@ widgetDot
 1
 )
 ;
-nsIntRect
+nsRect
 screenDot
 ;
 widget

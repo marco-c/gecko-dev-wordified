@@ -1129,7 +1129,7 @@ CSS
 XUL
 /
 RDF
-nsIntRect
+nsRect
 r
 (
 0
