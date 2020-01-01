@@ -10002,10 +10002,10 @@ actually
 in
 a
 compartment
+that
+is
 being
-GC
-'
-d
+marked
 *
 -
 it
@@ -10048,7 +10048,7 @@ compartment
 )
 -
 >
-isCollecting
+isGCMarking
 (
 )
 )

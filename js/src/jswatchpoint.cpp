@@ -996,6 +996,14 @@ if
 c
 -
 >
+isGCMarking
+(
+)
+&
+&
+c
+-
+>
 watchpointMap
 )
 mutated

@@ -911,6 +911,15 @@ rt
 )
 ;
 static
+void
+resetArrayBufferList
+(
+JSRuntime
+*
+rt
+)
+;
+static
 bool
 stealContents
 (
