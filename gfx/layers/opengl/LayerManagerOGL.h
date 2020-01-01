@@ -1070,6 +1070,16 @@ CreateImageContainer
 (
 )
 ;
+virtual
+LayersBackend
+GetBackendType
+(
+)
+{
+return
+LAYERS_OPENGL
+;
+}
 /
 *
 *
