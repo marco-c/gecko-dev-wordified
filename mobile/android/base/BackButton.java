@@ -165,6 +165,10 @@ ShapedButton
 {
 private
 Path
+mPath
+;
+private
+Path
 mBorderPath
 ;
 private

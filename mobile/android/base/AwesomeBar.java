@@ -963,11 +963,11 @@ setPrivateMode
 true
 )
 ;
-TabsButton
+ShapedButton
 mTabs
 =
 (
-TabsButton
+ShapedButton
 )
 findViewById
 (
