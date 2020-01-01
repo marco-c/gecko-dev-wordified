@@ -4965,6 +4965,15 @@ data
 ;
 inline
 void
+setPrivateUnbarriered
+(
+void
+*
+data
+)
+;
+inline
+void
 initPrivate
 (
 void

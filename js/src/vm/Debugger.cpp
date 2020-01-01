@@ -22227,7 +22227,7 @@ referent
 obj
 -
 >
-setPrivate
+setPrivateUnbarriered
 (
 referent
 )
@@ -26550,7 +26550,7 @@ referent
 obj
 -
 >
-setPrivate
+setPrivateUnbarriered
 (
 referent
 )
