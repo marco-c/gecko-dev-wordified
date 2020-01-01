@@ -921,7 +921,7 @@ Policy
 union
 SecurityLevel
 {
-PRInt32
+PRWord
 level
 ;
 char

@@ -18051,7 +18051,7 @@ NS_ASSERTION
 (
 sizeof
 (
-long
+PRWord
 )
 =
 =
@@ -18061,7 +18061,7 @@ void
 *
 )
 "
-long
+PRWord
 and
 void
 *
@@ -18072,12 +18072,18 @@ on
 this
 platform
 .
+"
+"
 This
 may
 cause
 a
 security
 failure
+with
+the
+SecurityLevel
+union
 .
 "
 )
