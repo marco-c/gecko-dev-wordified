@@ -1130,6 +1130,10 @@ outline
 %
 p
 "
+(
+void
+*
+)
 _nIns
 )
 ;
