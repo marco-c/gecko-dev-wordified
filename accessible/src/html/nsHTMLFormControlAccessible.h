@@ -450,7 +450,7 @@ h
 #
 include
 "
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 .
 h
 "
@@ -569,7 +569,7 @@ class
 nsHTMLButtonAccessible
 :
 public
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 {
 public
 :
@@ -648,7 +648,7 @@ class
 nsHTML4ButtonAccessible
 :
 public
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 {
 public
 :
@@ -741,7 +741,7 @@ class
 nsHTMLTextFieldAccessible
 :
 public
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 {
 public
 :

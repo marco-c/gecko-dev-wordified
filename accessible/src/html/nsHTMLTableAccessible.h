@@ -457,7 +457,7 @@ class
 nsHTMLTableCellAccessible
 :
 public
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 {
 public
 :

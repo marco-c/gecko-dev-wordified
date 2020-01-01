@@ -443,7 +443,7 @@ _nsDocAccessible_H_
 #
 include
 "
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 .
 h
 "
@@ -551,7 +551,7 @@ class
 nsDocAccessible
 :
 public
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 public
 nsIAccessibleDocument
 public

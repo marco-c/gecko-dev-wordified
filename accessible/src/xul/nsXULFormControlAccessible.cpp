@@ -3419,7 +3419,7 @@ nsIWeakReference
 aShell
 )
 :
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 (
 aNode
 aShell
@@ -3445,7 +3445,7 @@ CheckForEditor
 )
 ;
 return
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 :
 :
 Init
@@ -3480,7 +3480,7 @@ nsnull
 ;
 }
 return
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 :
 :
 Shutdown
@@ -3711,7 +3711,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 =
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 :
 :
 GetState

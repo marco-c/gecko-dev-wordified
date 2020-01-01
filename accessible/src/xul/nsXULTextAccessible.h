@@ -465,7 +465,7 @@ h
 #
 include
 "
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 .
 h
 "
@@ -476,7 +476,7 @@ class
 nsXULTextAccessible
 :
 public
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 {
 public
 :

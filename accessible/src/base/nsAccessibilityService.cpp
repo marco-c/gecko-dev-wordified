@@ -510,7 +510,7 @@ h
 #
 include
 "
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 .
 h
 "
@@ -3398,7 +3398,7 @@ else
 aAccessible
 =
 new
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 (
 node
 weakShell

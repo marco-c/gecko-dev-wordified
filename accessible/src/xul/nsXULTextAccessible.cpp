@@ -514,7 +514,7 @@ nsIWeakReference
 aShell
 )
 :
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 (
 aDomNode
 aShell
@@ -649,7 +649,7 @@ aExtraState
 nsresult
 rv
 =
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 :
 :
 GetState

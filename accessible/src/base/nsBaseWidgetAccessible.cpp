@@ -476,7 +476,7 @@ h
 #
 include
 "
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 .
 h
 "
@@ -757,7 +757,7 @@ nsIWeakReference
 aShell
 )
 :
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 (
 aNode
 aShell
@@ -779,7 +779,7 @@ PR_FALSE
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsLinkableAccessible
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 )
 NS_IMETHODIMP
 nsLinkableAccessible
@@ -849,7 +849,7 @@ aExtraState
 nsresult
 rv
 =
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 :
 :
 GetState
@@ -1800,7 +1800,7 @@ CacheActionContent
 )
 ;
 return
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 :
 :
 Init
@@ -1821,7 +1821,7 @@ mActionContent
 nsnull
 ;
 return
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 :
 :
 Shutdown

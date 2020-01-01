@@ -2784,7 +2784,7 @@ nsIWeakReference
 aShell
 )
 :
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 (
 aDOMNode
 aShell
@@ -3305,7 +3305,7 @@ down
 nsresult
 rv
 =
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 :
 :
 GetAttributesInternal

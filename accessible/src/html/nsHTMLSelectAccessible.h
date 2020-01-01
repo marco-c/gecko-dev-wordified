@@ -1034,7 +1034,7 @@ class
 nsHTMLSelectOptionAccessible
 :
 public
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 {
 public
 :

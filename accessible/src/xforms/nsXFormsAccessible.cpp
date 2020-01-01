@@ -575,7 +575,7 @@ nsIWeakReference
 aShell
 )
 :
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 (
 aNode
 aShell
@@ -1179,7 +1179,7 @@ rv
 ;
 rv
 =
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 :
 :
 GetState
@@ -1413,7 +1413,7 @@ aAttributes
 nsresult
 rv
 =
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 :
 :
 GetAttributesInternal

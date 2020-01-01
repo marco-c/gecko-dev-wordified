@@ -874,7 +874,7 @@ nsIWeakReference
 aShell
 )
 :
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 (
 aDOMNode
 aShell
@@ -3189,7 +3189,7 @@ AddEventListeners
 nsresult
 rv
 =
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 :
 :
 Init
@@ -3444,7 +3444,7 @@ mDocument
 nsnull
 ;
 return
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 :
 :
 Shutdown
