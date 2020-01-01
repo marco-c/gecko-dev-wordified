@@ -2665,6 +2665,8 @@ _ts
 .
 getTagsForURI
 (
+Utils
+.
 makeURI
 (
 node
@@ -3003,6 +3005,8 @@ title
 let
 URI
 =
+Utils
+.
 makeURI
 (
 command
@@ -3105,6 +3109,8 @@ microsummary
 let
 genURI
 =
+Utils
+.
 makeURI
 (
 command
@@ -3262,6 +3268,8 @@ command
 data
 .
 title
+Utils
+.
 makeURI
 (
 command
@@ -3270,6 +3278,8 @@ data
 .
 siteURI
 )
+Utils
+.
 makeURI
 (
 command
@@ -3764,6 +3774,8 @@ _bms
 changeBookmarkURI
 (
 itemId
+Utils
+.
 makeURI
 (
 command
@@ -3943,6 +3955,8 @@ generatorURI
 let
 micsumURI
 =
+Utils
+.
 makeURI
 (
 this
@@ -3958,6 +3972,8 @@ itemId
 let
 genURI
 =
+Utils
+.
 makeURI
 (
 command
@@ -4005,6 +4021,8 @@ _ls
 setSiteURI
 (
 itemId
+Utils
+.
 makeURI
 (
 command
@@ -4029,6 +4047,8 @@ _ls
 setFeedURI
 (
 itemId
+Utils
+.
 makeURI
 (
 command
@@ -4457,6 +4477,8 @@ _browserHist
 .
 addPageWithDetails
 (
+Utils
+.
 makeURI
 (
 command
@@ -4481,6 +4503,8 @@ _hsvc
 .
 setPageDetails
 (
+Utils
+.
 makeURI
 (
 command
