@@ -8793,7 +8793,7 @@ incl
 exclgroups
 *
 /
-kNone
+kSpecial
 kNone
 kNone
 /
