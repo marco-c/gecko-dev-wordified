@@ -5389,7 +5389,7 @@ NULL
 ;
 mTextureState
 =
-Initialized
+Allocated
 ;
 mSize
 =

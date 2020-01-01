@@ -1876,7 +1876,7 @@ to
 initialize
 it
 .
-Initialized
+Allocated
 /
 /
 Texture
