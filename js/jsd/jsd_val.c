@@ -1433,7 +1433,7 @@ string
 if
 (
 !
-JS_AddNamedRoot
+JS_AddNamedStringRoot
 (
 cx
 &
@@ -1712,7 +1712,7 @@ dumbContext
 ;
 ok
 =
-JS_AddNamedRoot
+JS_AddNamedValueRoot
 (
 jsdc
 -
@@ -1838,7 +1838,7 @@ jsdc
 dumbContext
 )
 ;
-JS_RemoveRoot
+JS_RemoveValueRoot
 (
 jsdc
 -
@@ -2513,7 +2513,7 @@ JS_BeginRequest
 cx
 )
 ;
-JS_RemoveRoot
+JS_RemoveStringRoot
 (
 cx
 &

@@ -11834,7 +11834,7 @@ NS_IF_ADDREF
 m_args
 )
 ;
-JS_AddNamedRoot
+JS_AddNamedObjectRoot
 (
 args
 -
@@ -11875,7 +11875,7 @@ m_args
 m_cx
 )
 ;
-JS_RemoveRoot
+JS_RemoveObjectRoot
 (
 m_args
 -

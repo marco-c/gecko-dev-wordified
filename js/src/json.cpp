@@ -2302,7 +2302,7 @@ obj
 scx
 &
 outputValue
-true
+false
 )
 )
 {
@@ -4184,7 +4184,7 @@ arr
 if
 (
 !
-js_AddRoot
+JS_AddNamedObjectRoot
 (
 cx
 &

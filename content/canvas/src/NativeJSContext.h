@@ -344,7 +344,8 @@ PR_FALSE
 PRBool
 AddGCRoot
 (
-void
+JSObject
+*
 *
 aPtr
 const
@@ -356,7 +357,8 @@ aName
 void
 ReleaseGCRoot
 (
-void
+JSObject
+*
 *
 aPtr
 )
@@ -1179,16 +1181,6 @@ argc
 jsval
 *
 argv
-;
-static
-nsIJSRuntimeService
-*
-sJSRuntimeService
-;
-static
-JSRuntime
-*
-sJSScriptRuntime
 ;
 public
 :

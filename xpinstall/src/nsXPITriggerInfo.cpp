@@ -1298,7 +1298,7 @@ JS_BeginRequest
 mCx
 )
 ;
-JS_RemoveRoot
+JS_RemoveValueRoot
 (
 mCx
 &
@@ -1430,7 +1430,7 @@ JS_BeginRequest
 mCx
 )
 ;
-JS_AddRoot
+JS_AddValueRoot
 (
 mCx
 &
@@ -1457,7 +1457,7 @@ JS_BeginRequest
 cx
 )
 ;
-JS_RemoveRoot
+JS_RemoveValueRoot
 (
 cx
 &
@@ -1980,7 +1980,7 @@ event
 cx
 )
 ;
-JS_AddNamedRoot
+JS_AddNamedValueRoot
 (
 event
 -
