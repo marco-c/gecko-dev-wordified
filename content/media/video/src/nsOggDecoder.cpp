@@ -2274,6 +2274,9 @@ thread
 void
 LoadOggHeaders
 (
+nsChannelReader
+*
+aReader
 )
 ;
 /
@@ -6156,6 +6159,7 @@ Exit
 ;
 LoadOggHeaders
 (
+reader
 )
 ;
 mon
@@ -7782,6 +7786,9 @@ nsOggDecodeStateMachine
 :
 LoadOggHeaders
 (
+nsChannelReader
+*
+aReader
 )
 {
 LOG
@@ -7800,12 +7807,7 @@ mPlayer
 =
 oggplay_open_with_reader
 (
-mDecoder
--
->
-GetReader
-(
-)
+aReader
 )
 ;
 if
