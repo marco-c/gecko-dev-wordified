@@ -452,7 +452,7 @@ BLOCK
 #
 include
 "
-IonLIR
+LIR
 .
 h
 "

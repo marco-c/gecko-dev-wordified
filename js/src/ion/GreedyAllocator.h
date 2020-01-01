@@ -472,7 +472,7 @@ h
 #
 include
 "
-IonLIR
+LIR
 .
 h
 "
