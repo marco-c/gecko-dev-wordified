@@ -3980,6 +3980,11 @@ NS_OK
 Already
 shutdown
 }
+if
+(
+mEventQueue
+)
+{
 mEventQueue
 -
 >
@@ -3991,6 +3996,7 @@ mEventQueue
 =
 nsnull
 ;
+}
 nsCOMPtr
 <
 nsIDocShellTreeItem
