@@ -1642,13 +1642,6 @@ break
 ;
 }
 }
-return
-this
-.
-_checkCustomizationComplete
-(
-)
-;
 }
 _customizationsApplied
 :
