@@ -3479,6 +3479,12 @@ object_data_id
 "
 )
 ;
+NS_ENSURE_TRUE
+(
+stmt
+NS_ERROR_FAILURE
+)
+;
 mozStorageStatementScoper
 scoper
 (
