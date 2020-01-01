@@ -2987,6 +2987,7 @@ get
 "
 IDispatch
 "
+PR_FALSE
 )
 ;
 goto
