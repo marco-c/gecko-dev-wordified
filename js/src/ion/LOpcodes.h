@@ -910,6 +910,16 @@ ArrayPopShiftT
 \
 _
 (
+ArrayPushV
+)
+\
+_
+(
+ArrayPushT
+)
+\
+_
+(
 StoreElementHoleV
 )
 \
