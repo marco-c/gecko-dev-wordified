@@ -3519,15 +3519,15 @@ GetStyleDisplay
 )
 ;
 nsRect
-absPosClipRect
+clipRect
 ;
 if
 (
-GetAbsPosClipRect
+GetClipPropClipRect
 (
 disp
 &
-absPosClipRect
+clipRect
 GetSize
 (
 )
@@ -3567,7 +3567,7 @@ r
 IntersectRect
 (
 aDamageRect
-absPosClipRect
+clipRect
 -
 nsPoint
 (
