@@ -4237,7 +4237,7 @@ GLContext
 :
 ForceRGBA
 )
-mOffscreenActualSizeSize
+mOffscreenActualSize
 mTemporaryEGLImageTexture
 )
 ;
