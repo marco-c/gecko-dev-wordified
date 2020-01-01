@@ -1610,6 +1610,7 @@ these
 *
 /
 TraceNativeStorage
+*
 storage
 ;
 /
