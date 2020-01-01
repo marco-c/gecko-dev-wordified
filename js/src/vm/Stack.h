@@ -9200,6 +9200,9 @@ ComputeThis
 bool
 computeThis
 (
+JSContext
+*
+cx
 )
 const
 ;
