@@ -15939,11 +15939,9 @@ isInterpreted
 fun
 -
 >
-u
-.
-i
-.
 script
+(
+)
 -
 >
 compileAndGo
