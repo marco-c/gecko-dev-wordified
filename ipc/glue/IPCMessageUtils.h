@@ -644,7 +644,7 @@ build
 namespace
 base
 {
-class
+struct
 FileDescriptor
 {
 }
