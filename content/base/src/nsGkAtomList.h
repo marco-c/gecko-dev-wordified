@@ -6333,6 +6333,13 @@ titlebar
 )
 GK_ATOM
 (
+titlebarcolor
+"
+titlebarcolor
+"
+)
+GK_ATOM
+(
 titletip
 "
 titletip
