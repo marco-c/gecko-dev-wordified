@@ -466,7 +466,11 @@ endif
 #
 include
 "
-nsHTMLImageElement
+mozilla
+/
+dom
+/
+HTMLImageElement
 .
 h
 "
@@ -28184,7 +28188,7 @@ nsLayoutUtils
 :
 SurfaceFromElement
 (
-nsHTMLImageElement
+HTMLImageElement
 *
 aElement
 uint32_t
