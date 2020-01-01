@@ -320,6 +320,9 @@ End
 .
 *
 /
+var
+gNewTab
+;
 function
 test
 (

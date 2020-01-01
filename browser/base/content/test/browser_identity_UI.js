@@ -458,6 +458,7 @@ gCurrentTestIndex
 =
 -
 1
+gTestDesc
 ;
 /
 /
