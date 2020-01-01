@@ -6975,6 +6975,9 @@ asmJSMachExceptionHandler
 ;
 #
 endif
+size_t
+sizeOfNonHeapAsmJSArrays_
+;
 #
 ifdef
 JS_THREADSAFE
