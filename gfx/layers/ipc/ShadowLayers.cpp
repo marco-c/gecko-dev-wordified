@@ -1144,10 +1144,6 @@ const
 nsIntRegion
 &
 aFrontValidRegion
-float
-aXResolution
-float
-aYResolution
 const
 nsIntRect
 &
@@ -1201,8 +1197,6 @@ aThebes
 )
 buffer
 aFrontValidRegion
-aXResolution
-aYResolution
 )
 )
 ;
