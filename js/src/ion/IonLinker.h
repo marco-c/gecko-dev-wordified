@@ -218,15 +218,6 @@ AssertCanGC
 (
 )
 ;
-gc
-:
-:
-AutoSuppressGC
-suppressGC
-(
-cx
-)
-;
 if
 (
 masm
