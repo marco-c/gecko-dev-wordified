@@ -3476,7 +3476,7 @@ char
 aPrefName
 nsTArray
 <
-nsAutoString
+nsString
 >
 &
 aFontList
