@@ -35891,7 +35891,6 @@ return
 ;
 if
 (
-!
 this
 .
 _showValidationMessage
@@ -36254,12 +36253,12 @@ value
 }
 )
 ;
+}
 aCallback
 (
 suggestions
 )
 ;
-}
 }
 ;
 this
