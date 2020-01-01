@@ -1447,14 +1447,6 @@ window
 ;
 virtual
 nsresult
-NotifyPainted
-(
-NPP
-instance
-)
-;
-virtual
-nsresult
 GetSurface
 (
 NPP
