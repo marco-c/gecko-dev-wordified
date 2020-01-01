@@ -8319,15 +8319,6 @@ eltPosForeign
 =
 currentPtr
 ;
-nsHtml5StackNode
-*
-node
-=
-stack
-[
-currentPtr
-]
-;
 }
 else
 {

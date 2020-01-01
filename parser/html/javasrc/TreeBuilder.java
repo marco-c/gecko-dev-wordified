@@ -17801,6 +17801,11 @@ eltPosForeign
 =
 currentPtr
 ;
+/
+/
+[
+NOCPP
+[
 StackNode
 <
 T
@@ -17870,6 +17875,11 @@ u201D
 )
 ;
 }
+/
+/
+]
+NOCPP
+]
 }
 else
 {
