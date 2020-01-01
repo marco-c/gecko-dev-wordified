@@ -40488,6 +40488,17 @@ if
 haveChanged
 )
 {
+if
+(
+gPreventMouseEvents
+)
+{
+*
+aStatus
+=
+nsEventStatus_eConsumeNoDefault
+;
+}
 return
 NS_OK
 ;

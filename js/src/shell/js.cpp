@@ -2213,12 +2213,6 @@ JSContext
 cx
 )
 {
-JS_SetNativeStackQuota
-(
-cx
-gMaxStackSize
-)
-;
 JS_SetOperationCallback
 (
 cx
@@ -33078,6 +33072,12 @@ JS_SetRuntimeSecurityCallbacks
 rt
 &
 securityCallbacks
+)
+;
+JS_SetNativeStackQuota
+(
+rt
+gMaxStackSize
 )
 ;
 if

@@ -33062,7 +33062,7 @@ filters
 .
 html
 #
-feDiffuseLighting
+feDiffuseLightingElement
 static
 const
 PRInt8

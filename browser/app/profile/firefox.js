@@ -14071,7 +14071,7 @@ url
 "
 about
 :
-blank
+newtab
 "
 )
 ;
@@ -14102,7 +14102,7 @@ newtabpage
 .
 enabled
 "
-false
+true
 )
 ;
 /

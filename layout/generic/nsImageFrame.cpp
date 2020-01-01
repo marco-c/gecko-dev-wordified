@@ -8090,9 +8090,6 @@ nsDisplayImage
 :
 GetContainer
 (
-LayerManager
-*
-aManager
 )
 {
 nsRefPtr
@@ -8109,7 +8106,6 @@ mImage
 >
 GetImageContainer
 (
-aManager
 getter_AddRefs
 (
 container

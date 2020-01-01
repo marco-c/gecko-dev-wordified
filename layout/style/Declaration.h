@@ -1802,6 +1802,14 @@ aValue
 )
 ;
 }
+size_t
+SizeOfIncludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+const
+;
 private
 :
 nsAutoTArray

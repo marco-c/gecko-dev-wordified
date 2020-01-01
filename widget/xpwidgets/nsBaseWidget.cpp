@@ -8106,6 +8106,8 @@ mCompositorChild
 =
 nsnull
 ;
+return
+;
 }
 lf
 -

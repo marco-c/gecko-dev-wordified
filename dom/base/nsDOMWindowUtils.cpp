@@ -4310,6 +4310,8 @@ gcreason
 :
 :
 DOM_UTILS
+nsGCNormal
+true
 )
 ;
 nsJSContext

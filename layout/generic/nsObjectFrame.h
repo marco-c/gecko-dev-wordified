@@ -1103,11 +1103,6 @@ ImageContainer
 >
 GetImageContainer
 (
-LayerManager
-*
-aManager
-=
-nsnull
 )
 ;
 /

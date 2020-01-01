@@ -1588,9 +1588,6 @@ ImageContainer
 >
 CanOptimizeImageLayer
 (
-LayerManager
-*
-aManager
 )
 ;
 /
@@ -6725,9 +6722,6 @@ ThebesLayerData
 :
 CanOptimizeImageLayer
 (
-LayerManager
-*
-aManager
 )
 {
 if
@@ -6756,7 +6750,6 @@ mImage
 >
 GetContainer
 (
-aManager
 )
 ;
 }
@@ -6821,7 +6814,6 @@ data
 >
 CanOptimizeImageLayer
 (
-mManager
 )
 ;
 if

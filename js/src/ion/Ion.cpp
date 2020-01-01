@@ -1648,7 +1648,10 @@ ionStackLimit
 cx
 -
 >
-stackLimit
+runtime
+-
+>
+nativeStackLimit
 ;
 }
 IonActivation

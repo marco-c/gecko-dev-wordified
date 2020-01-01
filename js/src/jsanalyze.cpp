@@ -1169,11 +1169,9 @@ script
 >
 getFunction
 (
-js_GetIndexFromBytecode
+GET_UINT32_INDEX
 (
-script
 pc
-0
 )
 )
 ;
