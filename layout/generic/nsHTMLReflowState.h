@@ -2540,14 +2540,6 @@ frame
 }
 mFlags
 ;
-#
-ifdef
-IBMBIDI
-nscoord
-mRightEdge
-;
-#
-endif
 /
 /
 Note
