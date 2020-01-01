@@ -355,6 +355,13 @@ csisolatinarabic
 "
 iso88596
 "
+"
+iso_8859
+-
+6
+:
+1987
+"
 ]
 ;
 function

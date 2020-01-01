@@ -522,6 +522,13 @@ csisolatincyrillic
 "
 iso88595
 "
+"
+iso_8859
+-
+5
+:
+1988
+"
 ]
 ;
 function

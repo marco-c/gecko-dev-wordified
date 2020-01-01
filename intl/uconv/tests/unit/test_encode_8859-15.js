@@ -512,6 +512,12 @@ iso_8859
 "
 iso885915
 "
+"
+csisolatin9
+"
+"
+l9
+"
 ]
 ;
 function

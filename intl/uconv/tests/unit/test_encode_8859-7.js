@@ -527,6 +527,13 @@ csisolatingreek
 "
 iso88597
 "
+"
+iso_8859
+-
+7
+:
+1987
+"
 ]
 ;
 function

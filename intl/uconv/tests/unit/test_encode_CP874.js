@@ -495,6 +495,11 @@ windows
 "
 ibm874
 "
+"
+dos
+-
+874
+"
 ]
 ;
 function
