@@ -3804,6 +3804,13 @@ boolean
 aIsRTL
 )
 {
+synchronized
+(
+getLock
+(
+)
+)
+{
 ImmutableViewportMetrics
 newMetrics
 =
@@ -3822,6 +3829,7 @@ newMetrics
 false
 )
 ;
+}
 }
 /
 *
