@@ -865,6 +865,7 @@ details
 *
 /
 class
+MOZ_STACK_CLASS
 CallReceiver
 {
 protected
@@ -1765,6 +1766,7 @@ details
 *
 /
 class
+MOZ_STACK_CLASS
 CallArgs
 :
 public

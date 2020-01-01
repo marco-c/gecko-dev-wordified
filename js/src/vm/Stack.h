@@ -1700,6 +1700,7 @@ happen
 *
 /
 class
+MOZ_STACK_CLASS
 CallArgsList
 :
 public
