@@ -1997,7 +1997,7 @@ browser
 .
 download
 .
-defaultFolder
+dir
 "
 _OPM
 (
