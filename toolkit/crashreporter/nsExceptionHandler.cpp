@@ -9296,16 +9296,7 @@ CreatePairedMinidumps
 ProcessHandle
 childPid
 ThreadId
-/
-*
-unused
-:
-FIXME
-/
-bug
-555309
-*
-/
+childBlamedThread
 nsAString
 *
 pairGUID
@@ -9504,6 +9495,7 @@ ExceptionHandler
 WriteMinidumpForChild
 (
 childPid
+childBlamedThread
 gExceptionHandler
 -
 >
