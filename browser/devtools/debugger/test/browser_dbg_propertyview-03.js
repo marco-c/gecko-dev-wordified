@@ -1209,7 +1209,6 @@ function
 {
 closeDebuggerAndFinish
 (
-gTab
 )
 ;
 }

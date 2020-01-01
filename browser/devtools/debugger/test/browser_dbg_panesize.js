@@ -75,9 +75,6 @@ DebuggerUI
 .
 getDebugger
 (
-gBrowser
-.
-selectedTab
 )
 "
 Shouldn
@@ -141,9 +138,6 @@ DebuggerUI
 .
 getDebugger
 (
-gBrowser
-.
-selectedTab
 )
 pane
 "

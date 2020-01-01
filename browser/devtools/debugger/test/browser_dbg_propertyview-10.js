@@ -744,7 +744,6 @@ frames
 ;
 closeDebuggerAndFinish
 (
-gTab
 )
 ;
 }

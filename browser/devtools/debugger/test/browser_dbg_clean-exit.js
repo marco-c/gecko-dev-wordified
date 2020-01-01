@@ -168,7 +168,6 @@ statement
 ;
 closeDebuggerAndFinish
 (
-gTab
 )
 ;
 }

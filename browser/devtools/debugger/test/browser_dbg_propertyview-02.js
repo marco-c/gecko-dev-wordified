@@ -801,7 +801,6 @@ function
 {
 closeDebuggerAndFinish
 (
-gTab
 )
 ;
 }

@@ -350,7 +350,6 @@ again
 ;
 closeDebuggerAndFinish
 (
-gTab
 )
 ;
 }

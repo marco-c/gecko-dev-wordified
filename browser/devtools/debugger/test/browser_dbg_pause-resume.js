@@ -445,7 +445,6 @@ running
 ;
 closeDebuggerAndFinish
 (
-gTab
 )
 ;
 }
