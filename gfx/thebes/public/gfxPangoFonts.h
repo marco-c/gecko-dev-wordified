@@ -1011,6 +1011,8 @@ gchar
 aUTF8Text
 PRUint32
 aUTF8Length
+PRUint32
+aUTF8HeaderLength
 PRBool
 aTake8BitPath
 )
@@ -1082,6 +1084,8 @@ gchar
 aUTF8
 PRUint32
 aUTF8Length
+PRUint32
+aUTF8HeaderLength
 )
 ;
 #
