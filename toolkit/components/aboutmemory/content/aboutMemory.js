@@ -472,7 +472,7 @@ memory
 verbose
 "
 ;
-var
+let
 gAddedObserver
 =
 false
@@ -1329,7 +1329,7 @@ onLoad
 (
 )
 {
-var
+let
 os
 =
 Cc
@@ -1447,7 +1447,7 @@ if
 gAddedObserver
 )
 {
-var
+let
 os
 =
 Cc
@@ -1514,7 +1514,7 @@ forceGC
 (
 )
 ;
-var
+let
 os
 =
 Cc
@@ -1584,7 +1584,7 @@ cycleCollect
 (
 )
 ;
-var
+let
 os
 =
 Cc
@@ -1676,7 +1676,7 @@ runSoon
 f
 )
 {
-var
+let
 tm
 =
 Cc
@@ -1725,7 +1725,7 @@ sendHeapMinNotificationsInner
 (
 )
 {
-var
+let
 os
 =
 Cc
@@ -1787,7 +1787,7 @@ update
 )
 ;
 }
-var
+let
 j
 =
 0
@@ -2214,7 +2214,7 @@ is
 /
 allocated
 .
-var
+let
 reportersByProcess
 =
 {
@@ -2231,7 +2231,7 @@ aAmount
 aUnsafeDesc
 )
 {
-var
+let
 process
 =
 aProcess
@@ -2247,7 +2247,7 @@ Main
 :
 aProcess
 ;
-var
+let
 r
 =
 new
@@ -2278,7 +2278,7 @@ process
 }
 ;
 }
-var
+let
 reporters
 =
 reportersByProcess
@@ -2286,7 +2286,7 @@ reportersByProcess
 process
 ]
 ;
-var
+let
 reporter
 =
 reporters
@@ -2355,7 +2355,7 @@ multi
 -
 reporters
 .
-var
+let
 e
 =
 aMgr
@@ -2373,7 +2373,7 @@ hasMoreElements
 )
 )
 {
-var
+let
 rOrig
 =
 e
@@ -2447,7 +2447,7 @@ e
 ;
 }
 }
-var
+let
 e
 =
 aMgr
@@ -2465,7 +2465,7 @@ hasMoreElements
 )
 )
 {
-var
+let
 mrOrig
 =
 e
@@ -2565,7 +2565,7 @@ aP
 aText
 )
 {
-var
+let
 e
 =
 document
@@ -2594,7 +2594,7 @@ aTagName
 aClassName
 )
 {
-var
+let
 e
 =
 document
@@ -2636,7 +2636,7 @@ aClassName
 aText
 )
 {
-var
+let
 e
 =
 appendElement
@@ -2705,7 +2705,7 @@ due
 to
 ChildMemoryListener
 .
-var
+let
 oldContent
 =
 document
@@ -2717,7 +2717,7 @@ content
 "
 )
 ;
-var
+let
 content
 =
 oldContent
@@ -2756,7 +2756,7 @@ verbose
 '
 )
 ;
-var
+let
 mgr
 =
 Cc
@@ -2803,7 +2803,7 @@ the
 Main
 process
 .
-var
+let
 reportersByProcess
 =
 getReportersByProcess
@@ -2811,7 +2811,7 @@ getReportersByProcess
 mgr
 )
 ;
-var
+let
 hasMozMallocUsableSize
 =
 mgr
@@ -2835,7 +2835,7 @@ hasMozMallocUsableSize
 ;
 for
 (
-var
+let
 process
 in
 reportersByProcess
@@ -2986,7 +2986,7 @@ aText
 aId
 )
 {
-var
+let
 b
 =
 appendElementWithText
@@ -3084,7 +3084,7 @@ usage
 "
 )
 ;
-var
+let
 div1
 =
 appendElement
@@ -3095,15 +3095,12 @@ div
 "
 )
 ;
-var
-a
-;
 if
 (
 gVerbose
 )
 {
-var
+let
 a
 =
 appendElementWithText
@@ -3134,7 +3131,7 @@ memory
 }
 else
 {
-var
+let
 a
 =
 appendElementWithText
@@ -3165,7 +3162,7 @@ verbose
 "
 ;
 }
-var
+let
 div2
 =
 appendElement
@@ -3176,6 +3173,7 @@ div
 "
 )
 ;
+let
 a
 =
 appendElementWithText
@@ -3203,7 +3201,7 @@ about
 support
 "
 ;
-var
+let
 legendText1
 =
 "
@@ -3241,7 +3239,7 @@ children
 .
 "
 ;
-var
+let
 legendText2
 =
 "
@@ -3482,7 +3480,7 @@ aUnsafeName
 {
 for
 (
-var
+let
 i
 =
 0
@@ -3713,14 +3711,14 @@ happens
 /
 bail
 .
-var
+let
 foundReporter
 =
 false
 ;
 for
 (
-var
+let
 unsafePath
 in
 aReporters
@@ -3768,7 +3766,7 @@ return
 null
 ;
 }
-var
+let
 t
 =
 new
@@ -3781,7 +3779,7 @@ falseRoot
 ;
 for
 (
-var
+let
 unsafePath
 in
 aReporters
@@ -3801,7 +3799,7 @@ by
 the
 unsafePath
 .
-var
+let
 r
 =
 aReporters
@@ -3870,7 +3868,7 @@ UNITS_BYTES
 "
 )
 ;
-var
+let
 unsafeNames
 =
 r
@@ -3884,14 +3882,14 @@ split
 '
 )
 ;
-var
+let
 u
 =
 t
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -3907,7 +3905,7 @@ i
 +
 )
 {
-var
+let
 unsafeName
 =
 unsafeNames
@@ -3915,7 +3913,7 @@ unsafeNames
 i
 ]
 ;
-var
+let
 uMatch
 =
 u
@@ -3937,7 +3935,7 @@ uMatch
 }
 else
 {
-var
+let
 v
 =
 new
@@ -4198,14 +4196,14 @@ node
 "
 )
 ;
-var
+let
 childrenBytes
 =
 0
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -4341,14 +4339,14 @@ baz
 '
 .
 )
-var
+let
 slashCount
 =
 0
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -4486,13 +4484,13 @@ aReporters
 {
 for
 (
-var
+let
 unsafePath
 in
 aReporters
 )
 {
-var
+let
 r
 =
 aReporters
@@ -4605,7 +4603,7 @@ getKnownHeapUsedBytes
 aT
 )
 {
-var
+let
 n
 =
 0
@@ -4670,7 +4668,7 @@ else
 {
 for
 (
-var
+let
 i
 =
 0
@@ -4755,7 +4753,7 @@ Measurements
 "
 list
 .
-var
+let
 heapAllocatedReporter
 =
 aReporters
@@ -4781,14 +4779,14 @@ reporter
 "
 )
 ;
-var
+let
 heapAllocatedBytes
 =
 heapAllocatedReporter
 .
 _amount
 ;
-var
+let
 heapUnclassifiedT
 =
 new
@@ -4801,7 +4799,7 @@ unclassified
 "
 )
 ;
-var
+let
 hasKnownHeapAllocated
 =
 heapAllocatedBytes
@@ -5137,7 +5135,7 @@ true
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -5181,9 +5179,11 @@ the
 last
 one
 .
+let
+i
+;
 for
 (
-var
 i
 =
 0
@@ -5244,12 +5244,12 @@ an
 aggregate
 node
 .
-var
+let
 i0
 =
 i
 ;
-var
+let
 nAgg
 =
 aT
@@ -5267,7 +5267,7 @@ an
 aggregate
 node
 .
-var
+let
 aggT
 =
 new
@@ -5285,7 +5285,7 @@ tiny
 "
 )
 ;
-var
+let
 aggBytes
 =
 0
@@ -5540,7 +5540,7 @@ each
 new
 process
 .
-var
+let
 gUnsafePathsWithInvalidValuesForThisProcess
 =
 [
@@ -5824,7 +5824,7 @@ length
 0
 )
 {
-var
+let
 div
 =
 appendElement
@@ -5867,7 +5867,7 @@ n
 "
 )
 ;
-var
+let
 ul
 =
 appendElement
@@ -5880,7 +5880,7 @@ ul
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -6106,7 +6106,7 @@ this
 in
 later
 .
-var
+let
 warningsDiv
 =
 appendElement
@@ -6120,7 +6120,7 @@ accuracyWarning
 "
 )
 ;
-var
+let
 explicitTree
 =
 buildTree
@@ -6131,7 +6131,7 @@ explicit
 '
 )
 ;
-var
+let
 hasKnownHeapAllocated
 =
 fixUpExplicitTree
@@ -6181,7 +6181,7 @@ function
 t
 )
 {
-var
+let
 tree
 =
 buildTree
@@ -6567,7 +6567,7 @@ aN
 aExtra
 )
 {
-var
+let
 neg
 =
 false
@@ -6590,7 +6590,7 @@ aN
 aN
 ;
 }
-var
+let
 s
 =
 [
@@ -6601,7 +6601,7 @@ while
 true
 )
 {
-var
+let
 k
 =
 aN
@@ -6764,7 +6764,7 @@ formatBytes
 aBytes
 )
 {
-var
+let
 unit
 =
 gVerbose
@@ -6777,7 +6777,7 @@ B
 MB
 "
 ;
-var
+let
 s
 ;
 if
@@ -6796,7 +6796,7 @@ unit
 }
 else
 {
-var
+let
 mbytes
 =
 (
@@ -6814,7 +6814,7 @@ toFixed
 2
 )
 ;
-var
+let
 a
 =
 String
@@ -6997,13 +6997,13 @@ aN
 aC
 )
 {
-var
+let
 padding
 =
 "
 "
 ;
-var
+let
 n2
 =
 aN
@@ -7014,7 +7014,7 @@ length
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -7254,7 +7254,7 @@ aIsInvalid
 aNMerged
 )
 {
-var
+let
 text
 =
 "
@@ -7378,7 +7378,7 @@ aKidsState
 )
 ;
 }
-var
+let
 nameSpan
 =
 appendElementWithText
@@ -7415,7 +7415,7 @@ if
 aIsUnknown
 )
 {
-var
+let
 noteSpan
 =
 appendElementWithText
@@ -7460,7 +7460,7 @@ if
 aIsInvalid
 )
 {
-var
+let
 noteSpan
 =
 appendElementWithText
@@ -7513,7 +7513,7 @@ if
 aNMerged
 )
 {
-var
+let
 noteSpan
 =
 appendElementWithText
@@ -7661,7 +7661,7 @@ their
 original
 state
 .
-var
+let
 gTogglesBySafeTreeId
 =
 {
@@ -7815,7 +7815,7 @@ the
 outer
 span
 .
-var
+let
 outerSpan
 =
 aEvent
@@ -7849,7 +7849,7 @@ and
 '
 separators
 .
-var
+let
 plusSpan
 =
 outerSpan
@@ -7859,7 +7859,7 @@ childNodes
 2
 ]
 ;
-var
+let
 minusSpan
 =
 outerSpan
@@ -7921,7 +7921,7 @@ node
 s
 children
 .
-var
+let
 subTreeSpan
 =
 outerSpan
@@ -7960,7 +7960,7 @@ tree
 was
 toggled
 .
-var
+let
 safeTreeId
 =
 outerSpan
@@ -8074,7 +8074,7 @@ the
 '
 separator
 .
-var
+let
 plusSpan
 =
 aElement
@@ -8084,7 +8084,7 @@ childNodes
 2
 ]
 ;
-var
+let
 minusSpan
 =
 aElement
@@ -8217,14 +8217,14 @@ aT
 aProcess
 )
 {
-var
+let
 treeBytes
 =
 aT
 .
 _amount
 ;
-var
+let
 rootStringLength
 =
 aT
@@ -8235,7 +8235,7 @@ toString
 .
 length
 ;
-var
+let
 isExplicitTree
 =
 aT
@@ -8411,7 +8411,7 @@ aN
 {
 for
 (
-var
+let
 i
 =
 0
@@ -8434,7 +8434,7 @@ aC
 ;
 }
 }
-var
+let
 unsafePath
 =
 aUnsafePrePath
@@ -8462,7 +8462,7 @@ update
 aIndentGuide
 accordingly
 .
-var
+let
 tString
 =
 aT
@@ -8471,13 +8471,13 @@ toString
 (
 )
 ;
-var
+let
 extraIndentArray
 =
 [
 ]
 ;
-var
+let
 extraIndentLength
 =
 Math
@@ -8521,7 +8521,7 @@ _depth
 extraIndentLength
 ;
 }
-var
+let
 indentText
 =
 aBaseIndentText
@@ -8564,13 +8564,13 @@ same
 /
 time
 .
-var
+let
 percText
 =
 "
 "
 ;
-var
+let
 tIsInvalid
 =
 false
@@ -8597,7 +8597,7 @@ percText
 }
 else
 {
-var
+let
 perc
 =
 (
@@ -8712,10 +8712,10 @@ is
 clicked
 on
 .
-var
+let
 d
 ;
-var
+let
 hasKids
 =
 aT
@@ -8726,8 +8726,11 @@ length
 >
 0
 ;
-var
+let
 kidsState
+;
+let
+showSubtrees
 ;
 if
 (
@@ -8763,7 +8766,7 @@ sub
 -
 tree
 .
-var
+let
 safeTreeId
 =
 makeSafe
@@ -8777,7 +8780,6 @@ aProcess
 unsafePath
 )
 ;
-var
 showSubtrees
 =
 !
@@ -8911,7 +8913,7 @@ non
 -
 heap
 .
-var
+let
 kind
 =
 isExplicitTree
@@ -9044,7 +9046,7 @@ hidden
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -9109,7 +9111,7 @@ the
 base
 indent
 .
-var
+let
 baseIndentArray
 =
 [
@@ -9124,9 +9126,11 @@ length
 0
 )
 {
+let
+j
+;
 for
 (
-var
 j
 =
 0
@@ -9208,7 +9212,7 @@ _depth
 )
 ;
 }
-var
+let
 baseIndentText
 =
 baseIndentArray
@@ -9260,7 +9264,7 @@ _unsafeName
 ]
 )
 ;
-var
+let
 pre
 =
 appendElement
@@ -9474,7 +9478,7 @@ function
 (
 )
 {
-var
+let
 n
 =
 this
@@ -9669,7 +9673,7 @@ other
 ]
 )
 ;
-var
+let
 pre
 =
 appendElement
@@ -9723,12 +9727,12 @@ format
 things
 nicely
 .
-var
+let
 maxStringLength
 =
 0
 ;
-var
+let
 otherReporters
 =
 [
@@ -9736,13 +9740,13 @@ otherReporters
 ;
 for
 (
-var
+let
 unsafePath
 in
 aReportersByProcess
 )
 {
-var
+let
 r
 =
 aReportersByProcess
@@ -9807,7 +9811,7 @@ dup
 d
 OTHER
 reporters
-var
+let
 o
 =
 new
@@ -9878,7 +9882,7 @@ yet
 printed
 values
 .
-var
+let
 text
 =
 "
@@ -9886,7 +9890,7 @@ text
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -9902,7 +9906,7 @@ i
 +
 )
 {
-var
+let
 o
 =
 otherReporters
@@ -9910,7 +9914,7 @@ otherReporters
 i
 ]
 ;
-var
+let
 oIsInvalid
 =
 o
@@ -10057,7 +10061,7 @@ debug
 x
 )
 {
-var
+let
 content
 =
 document
