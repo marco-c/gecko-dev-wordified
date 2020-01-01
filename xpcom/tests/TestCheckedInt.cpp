@@ -988,7 +988,7 @@ T
 >
 :
 :
-max
+max_value
 (
 )
 )
@@ -1005,7 +1005,7 @@ T
 >
 :
 :
-min
+min_value
 (
 )
 )
@@ -1013,11 +1013,11 @@ min
 /
 /
 check
-min
+min_value
 (
 )
 and
-max
+max_value
 (
 )
 since
@@ -3118,7 +3118,7 @@ T
 >
 :
 :
-max
+max_value
 (
 )
 )
@@ -3141,7 +3141,7 @@ U
 >
 :
 :
-max
+max_value
 (
 )
 )
@@ -3198,7 +3198,7 @@ U
 >
 :
 :
-min
+min_value
 (
 )
 )
