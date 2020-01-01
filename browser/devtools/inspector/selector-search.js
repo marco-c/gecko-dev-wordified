@@ -1475,7 +1475,8 @@ this
 .
 _searchResults
 =
-null
+[
+]
 ;
 this
 .
@@ -1680,6 +1681,10 @@ this
 _searchResults
 =
 queryList
+|
+|
+[
+]
 ;
 if
 (
