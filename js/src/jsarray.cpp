@@ -20921,14 +20921,6 @@ proto
 )
 )
 ;
-JS_ASSERT
-(
-JS_ON_TRACE
-(
-cx
-)
-)
-;
 JSObject
 *
 obj
@@ -21076,7 +21068,7 @@ OBJECT
 JSObject
 *
 FASTCALL
-js_NewUninitializedArray
+js_NewArrayWithSlots
 (
 JSContext
 *
@@ -21088,14 +21080,6 @@ uint32
 len
 )
 {
-JS_ASSERT
-(
-JS_ON_TRACE
-(
-cx
-)
-)
-;
 JSObject
 *
 obj
@@ -21150,7 +21134,7 @@ JS_DEFINE_CALLINFO_3
 (
 extern
 OBJECT
-js_NewUninitializedArray
+js_NewArrayWithSlots
 CONTEXT
 OBJECT
 UINT32
