@@ -2849,12 +2849,6 @@ Clear
 (
 )
 ;
-mUniformTextures
-.
-Clear
-(
-)
-;
 mBound2DTextures
 .
 Clear
