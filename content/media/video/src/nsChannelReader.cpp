@@ -965,6 +965,13 @@ aDecoder
 nsIURI
 *
 aURI
+nsIChannel
+*
+aChannel
+nsIStreamListener
+*
+*
+aStreamListener
 )
 {
 mCurrentPosition
@@ -978,6 +985,8 @@ Open
 (
 aDecoder
 aURI
+aChannel
+aStreamListener
 )
 ;
 }

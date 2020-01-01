@@ -588,16 +588,5 @@ aNullParent
 PR_TRUE
 )
 ;
-protected
-:
-virtual
-nsresult
-InitializeDecoder
-(
-nsAString
-&
-aChosenMediaResource
-)
-;
 }
 ;
