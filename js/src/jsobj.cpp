@@ -3207,13 +3207,7 @@ chars
 jschar
 *
 )
-cx
--
->
-runtime
--
->
-malloc
+js_malloc
 (
 (
 (
