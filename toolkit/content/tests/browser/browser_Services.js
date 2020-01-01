@@ -593,6 +593,14 @@ Ci
 nsIPromptService
 )
 ;
+if
+(
+"
+nsIBrowserSearchService
+"
+in
+Ci
+)
 checkService
 (
 "

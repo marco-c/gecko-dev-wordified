@@ -706,6 +706,9 @@ nsIPromptService
 "
 )
 ;
+#
+ifdef
+MOZ_TOOLKIT_SEARCH
 XPCOMUtils
 .
 defineLazyServiceGetter
@@ -732,6 +735,8 @@ nsIBrowserSearchService
 "
 )
 ;
+#
+endif
 XPCOMUtils
 .
 defineLazyServiceGetter
