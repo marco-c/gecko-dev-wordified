@@ -17745,6 +17745,10 @@ len
 {
 nsCAutoString
 info
+;
+info
+.
+SetLength
 (
 len
 )
@@ -17881,6 +17885,10 @@ len
 ;
 nsCAutoString
 translatedSrc
+;
+translatedSrc
+.
+SetLength
 (
 len
 )
