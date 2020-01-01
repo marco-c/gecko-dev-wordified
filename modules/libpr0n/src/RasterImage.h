@@ -1268,11 +1268,6 @@ nsIntRect
 aRect
 )
 ;
-PRUint32
-GetDataSize
-(
-)
-;
 /
 /
 Raster
@@ -3139,15 +3134,6 @@ mInDecoder
 :
 1
 ;
-PRPackedBool
-mError
-:
-1
-;
-/
-/
-Error
-handling
 /
 /
 Whether

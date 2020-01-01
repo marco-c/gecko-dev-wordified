@@ -1667,13 +1667,13 @@ GetRequest
 (
 )
 ;
-RasterImage
+Image
 *
 image
 =
 static_cast
 <
-RasterImage
+Image
 *
 >
 (
