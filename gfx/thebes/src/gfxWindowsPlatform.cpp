@@ -2035,7 +2035,7 @@ fonts
 )
 )
 ;
-nsDependentString
+nsAutoString
 resPath
 ;
 resDir
