@@ -930,6 +930,9 @@ mTokenizer
 /
 /
 weak
+PRInt32
+mTabSize
+;
 PRPackedBool
 mSyntaxHighlight
 ;
