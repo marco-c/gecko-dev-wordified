@@ -556,9 +556,6 @@ nscoord
 aClearance
 PRBool
 aIsAdjacentWithTop
-nsMargin
-&
-aComputedOffsets
 nsLineBox
 *
 aLine
@@ -585,10 +582,6 @@ aForceFit
 nsLineBox
 *
 aLine
-const
-nsMargin
-&
-aComputedOffsets
 nsCollapsingMargin
 &
 aBottomMarginResult

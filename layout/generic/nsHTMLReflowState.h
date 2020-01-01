@@ -3368,6 +3368,9 @@ nscoord
 aContainingBlockWidth
 nscoord
 aContainingBlockHeight
+nsPresContext
+*
+aPresContext
 )
 ;
 /
