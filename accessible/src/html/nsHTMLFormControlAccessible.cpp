@@ -1700,9 +1700,6 @@ nsAString
 aName
 )
 {
-nsresult
-rv
-=
 nsAccessible
 :
 :
