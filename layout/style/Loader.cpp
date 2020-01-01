@@ -3220,14 +3220,6 @@ all
 done
 .
 }
-NS_IMPL_ADDREF
-(
-Loader
-)
-NS_IMPL_RELEASE
-(
-Loader
-)
 void
 Loader
 :
