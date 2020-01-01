@@ -786,7 +786,7 @@ aCharSet
 PRBool
 aIsCopying
 PRBool
-aIsWholeDocument
+aRewriteEncodingDeclaration
 )
 {
 /
@@ -895,7 +895,7 @@ aFlags
 aWrapColumn
 aCharSet
 aIsCopying
-aIsWholeDocument
+aRewriteEncodingDeclaration
 )
 ;
 NS_ENSURE_SUCCESS
@@ -904,9 +904,9 @@ rv
 rv
 )
 ;
-mIsWholeDocument
+mRewriteEncodingDeclaration
 =
-aIsWholeDocument
+aRewriteEncodingDeclaration
 ;
 mIsCopying
 =
@@ -2837,7 +2837,7 @@ tempURI
 }
 if
 (
-mIsWholeDocument
+mRewriteEncodingDeclaration
 &
 &
 aTagName
@@ -3259,7 +3259,7 @@ GetNameSpaceID
 kNameSpaceID_XHTML
 &
 &
-mIsWholeDocument
+mRewriteEncodingDeclaration
 &
 &
 name

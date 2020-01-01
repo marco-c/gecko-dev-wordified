@@ -584,7 +584,7 @@ aCharSet
 PRBool
 aIsCopying
 PRBool
-aIsWholeDocument
+aRewriteEncodingDeclaration
 )
 ;
 NS_IMETHOD

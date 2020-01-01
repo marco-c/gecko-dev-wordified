@@ -4604,7 +4604,7 @@ rv
 }
 }
 PRBool
-isWholeDocument
+rewriteEncodingDeclaration
 =
 !
 (
@@ -4615,6 +4615,14 @@ mRange
 |
 |
 mNode
+)
+&
+&
+!
+(
+mFlags
+&
+OutputDontRewriteEncodingDeclaration
 )
 ;
 mSerializer
@@ -4630,7 +4638,7 @@ get
 (
 )
 mIsCopying
-isWholeDocument
+rewriteEncodingDeclaration
 )
 ;
 if

@@ -790,7 +790,7 @@ aCharSet
 PRBool
 aIsCopying
 PRBool
-aIsWholeDocument
+aRewriteEncodingDeclaration
 )
 {
 mCharset

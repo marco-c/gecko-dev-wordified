@@ -1416,7 +1416,7 @@ tempURI
 }
 if
 (
-mIsWholeDocument
+mRewriteEncodingDeclaration
 &
 &
 aTagName
