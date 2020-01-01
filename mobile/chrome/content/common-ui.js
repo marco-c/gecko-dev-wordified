@@ -5285,14 +5285,6 @@ hidden
 !
 aVal
 ;
-this
-.
-_container
-.
-contentHasChanged
-(
-)
-;
 if
 (
 aVal

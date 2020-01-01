@@ -3500,7 +3500,7 @@ addEventListener
 "
 TabRemove
 "
-this
+BrowserUI
 true
 )
 ;
