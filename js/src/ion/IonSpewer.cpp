@@ -676,7 +676,7 @@ JS_ASSERT
 this
 -
 >
-function
+graph
 )
 ;
 /
