@@ -676,11 +676,11 @@ mSuspendCount
 )
 mReopenOnError
 (
-PR_FALSE
+false
 )
 mIgnoreClose
 (
-PR_FALSE
+false
 )
 mCacheStream
 (
@@ -700,7 +700,7 @@ mCacheSuspendCount
 )
 mIgnoreResume
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1679,7 +1679,7 @@ mDecoder
 >
 SetInfinite
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1770,7 +1770,7 @@ lied
 .
 acceptsRanges
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1937,7 +1937,7 @@ mDecoder
 >
 SetInfinite
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2006,7 +2006,7 @@ cc
 >
 SetCacheAsFile
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2033,11 +2033,11 @@ Now
 }
 mReopenOnError
 =
-PR_FALSE
+false
 ;
 mIgnoreClose
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2092,7 +2092,7 @@ Suspend
 ;
 mIgnoreResume
 =
-PR_FALSE
+false
 ;
 }
 /
@@ -2129,7 +2129,7 @@ mDecoder
 >
 Progress
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -2408,7 +2408,7 @@ rv
 CacheClientSeek
 (
 mOffset
-PR_FALSE
+false
 )
 ;
 if
@@ -2498,7 +2498,7 @@ mLoadInBackground
 {
 mLoadInBackground
 =
-PR_FALSE
+false
 ;
 nsLoadFlags
 loadFlags
@@ -3184,7 +3184,7 @@ NodePrincipal
 (
 )
 mChannel
-PR_FALSE
+false
 &
 rv
 )
@@ -3373,7 +3373,7 @@ Range
 "
 )
 rangeString
-PR_FALSE
+false
 )
 ;
 /
@@ -4149,7 +4149,7 @@ it
 .
 mIgnoreClose
 =
-PR_TRUE
+true
 ;
 CloseChannel
 (
@@ -4365,7 +4365,7 @@ it
 .
 mReopenOnError
 =
-PR_TRUE
+true
 ;
 PossiblyResume
 (
@@ -4502,7 +4502,7 @@ channel
 CacheClientSeek
 (
 mOffset
-PR_FALSE
+false
 )
 ;
 }
@@ -5020,7 +5020,7 @@ mCacheSuspendCount
 }
 Suspend
 (
-PR_FALSE
+false
 )
 ;
 mDecoder
@@ -5342,14 +5342,14 @@ Suspend
 ;
 mIgnoreResume
 =
-PR_FALSE
+false
 ;
 }
 else
 {
 mIgnoreResume
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5379,7 +5379,7 @@ else
 {
 mIgnoreResume
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -5604,7 +5604,7 @@ here
 *
 aIsReliable
 =
-PR_TRUE
+true
 ;
 return
 100
@@ -7095,7 +7095,7 @@ once
 ;
 mLoadInBackground
 =
-PR_TRUE
+true
 ;
 if
 (

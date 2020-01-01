@@ -728,19 +728,19 @@ mFrameBufferLength
 )
 mPinnedForSeek
 (
-PR_FALSE
+false
 )
 mSizeChanged
 (
-PR_FALSE
+false
 )
 mImageContainerSizeChanged
 (
-PR_FALSE
+false
 )
 mShuttingDown
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -795,7 +795,7 @@ mElement
 aElement
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -915,7 +915,7 @@ mImageContainerSizeChanged
 ;
 mImageContainerSizeChanged
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -936,7 +936,7 @@ mRGBHeight
 ;
 mSizeChanged
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1072,7 +1072,7 @@ decoder
 >
 Progress
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1349,7 +1349,7 @@ mElement
 >
 FireTimeUpdate
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1408,7 +1408,7 @@ height
 ;
 mSizeChanged
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -1492,7 +1492,7 @@ newFrameSize
 {
 mImageContainerSizeChanged
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1553,7 +1553,7 @@ return
 }
 mPinnedForSeek
 =
-PR_TRUE
+true
 ;
 stream
 -
@@ -1594,7 +1594,7 @@ return
 }
 mPinnedForSeek
 =
-PR_FALSE
+false
 ;
 stream
 -
@@ -1634,7 +1634,7 @@ mPlaybackRateReliable
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRInt64
@@ -1716,7 +1716,7 @@ to
 buffer
 .
 return
-PR_FALSE
+false
 ;
 }
 /

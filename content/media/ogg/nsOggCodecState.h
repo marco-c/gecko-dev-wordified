@@ -1039,7 +1039,7 @@ header
 packet
 .
 Returns
-PR_TRUE
+true
 when
 last
 header
@@ -1060,7 +1060,7 @@ return
 (
 mDoneReadingHeaders
 =
-PR_TRUE
+true
 )
 ;
 }
@@ -1128,7 +1128,7 @@ Init
 /
 /
 Returns
-PR_TRUE
+true
 when
 this
 bitstream
@@ -1177,11 +1177,11 @@ Deactivate
 {
 mActive
 =
-PR_FALSE
+false
 ;
 mDoneReadingHeaders
 =
-PR_TRUE
+true
 ;
 Reset
 (
@@ -1203,7 +1203,7 @@ Reset
 /
 /
 Returns
-PR_TRUE
+true
 if
 the
 nsOggCodecState
@@ -1579,7 +1579,7 @@ mActive
 ;
 /
 /
-PR_TRUE
+True
 when
 all
 headers
@@ -1622,7 +1622,7 @@ should
 be
 /
 /
-PR_FALSE
+false
 .
 nsOggCodecState
 (
@@ -2563,7 +2563,7 @@ true
 /
 /
 Return
-PR_TRUE
+true
 if
 the
 given
@@ -2935,7 +2935,7 @@ index
 packet
 .
 Returns
-PR_FALSE
+false
 on
 failure
 .

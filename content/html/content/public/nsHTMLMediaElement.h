@@ -2336,7 +2336,7 @@ GetDocumentLoadGroup
 *
 *
 Returns
-PR_TRUE
+true
 if
 the
 media
@@ -2458,7 +2458,7 @@ event
 If
 aPeriodic
 is
-PR_TRUE
+true
 the
 event
 will
@@ -4363,7 +4363,7 @@ mAudioStream
 ;
 /
 /
-PR_TRUE
+True
 if
 MozAudioAvailable
 events
@@ -4693,7 +4693,7 @@ mPlayingBeforeSeek
 ;
 /
 /
-PR_TRUE
+True
 iff
 this
 element
@@ -4709,7 +4709,7 @@ mPausedForInactiveDocument
 ;
 /
 /
-PR_TRUE
+True
 if
 we
 '
@@ -4735,7 +4735,7 @@ mWaitingFired
 ;
 /
 /
-PR_TRUE
+True
 if
 we
 '
@@ -4754,7 +4754,7 @@ mIsRunningLoadMethod
 ;
 /
 /
-PR_TRUE
+True
 if
 we
 '
@@ -4773,7 +4773,7 @@ mIsLoadingFromSourceChildren
 ;
 /
 /
-PR_TRUE
+True
 if
 we
 '
@@ -4807,7 +4807,7 @@ mDelayingLoadEvent
 ;
 /
 /
-PR_TRUE
+True
 when
 we
 '
@@ -4838,7 +4838,7 @@ mIsRunningSelectResource
 ;
 /
 /
-PR_TRUE
+True
 if
 we
 suspended
@@ -4872,7 +4872,7 @@ mSuspendedAfterFirstFrame
 ;
 /
 /
-PR_TRUE
+True
 if
 we
 are
@@ -4909,7 +4909,7 @@ mAllowSuspendAfterFirstFrame
 ;
 /
 /
-PR_TRUE
+True
 if
 we
 '
@@ -4940,7 +4940,7 @@ mHasPlayedOrSeeked
 ;
 /
 /
-PR_TRUE
+True
 if
 we
 '
@@ -4983,7 +4983,7 @@ mHasSelfReference
 ;
 /
 /
-PR_TRUE
+True
 if
 we
 '
@@ -5005,7 +5005,7 @@ mShuttingDown
 ;
 /
 /
-PR_TRUE
+True
 if
 we
 '
@@ -5030,7 +5030,7 @@ none
 media
 .
 When
-PR_TRUE
+true
 the
 resource
 we
@@ -5061,7 +5061,7 @@ mLoadIsSuspended
 ;
 /
 /
-PR_TRUE
+True
 if
 a
 same

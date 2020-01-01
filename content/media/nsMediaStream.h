@@ -727,7 +727,7 @@ mAccumulatedBytes
 ;
 mIsStarted
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -749,7 +749,7 @@ aNow
 ;
 mIsStarted
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -775,7 +775,7 @@ mLastStartTime
 ;
 mIsStarted
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -2625,7 +2625,7 @@ aURI
 )
 mLoadInBackground
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -2785,7 +2785,7 @@ mURI
 ;
 /
 /
-PR_TRUE
+True
 if
 MoveLoadsToBackground
 (
@@ -3207,7 +3207,7 @@ GetCurrentPrincipal
 /
 /
 Return
-PR_TRUE
+true
 if
 the
 stream
@@ -3781,7 +3781,7 @@ mCacheSuspendCount
 ;
 /
 /
-PR_TRUE
+True
 if
 we
 couldn

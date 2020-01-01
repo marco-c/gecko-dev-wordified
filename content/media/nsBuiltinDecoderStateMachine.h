@@ -2057,7 +2057,7 @@ protected
 /
 /
 Returns
-PR_TRUE
+true
 if
 we
 '
@@ -2093,7 +2093,7 @@ const
 /
 /
 Returns
-PR_TRUE
+true
 if
 we
 '
@@ -2216,7 +2216,7 @@ const
 /
 /
 Returns
-PR_TRUE
+true
 when
 there
 '
@@ -2245,7 +2245,7 @@ const
 /
 /
 Returns
-PR_TRUE
+true
 if
 we
 recently
@@ -3151,7 +3151,7 @@ StartDecoding
 /
 /
 Returns
-PR_TRUE
+true
 if
 we
 '
@@ -3608,7 +3608,7 @@ mRunAgain
 /
 /
 Returns
-PR_TRUE
+true
 if
 we
 '
@@ -4684,7 +4684,7 @@ mDecodeStartTime
 ;
 /
 /
-PR_TRUE
+True
 if
 the
 media
@@ -4714,7 +4714,7 @@ mSeekable
 ;
 /
 /
-PR_TRUE
+True
 if
 an
 event
@@ -4741,7 +4741,7 @@ It
 is
 set
 to
-PR_FALSE
+false
 when
 /
 /
@@ -4788,7 +4788,7 @@ mPositionChangeQueued
 ;
 /
 /
-PR_TRUE
+True
 if
 the
 audio
@@ -4863,7 +4863,7 @@ mAudioCompleted
 ;
 /
 /
-PR_TRUE
+True
 if
 mDuration
 has
@@ -4896,7 +4896,7 @@ mGotDurationFromMetaData
 ;
 /
 /
-PR_FALSE
+False
 while
 decode
 thread
@@ -4923,7 +4923,7 @@ mStopDecodeThread
 ;
 /
 /
-PR_TRUE
+True
 when
 the
 decode
@@ -4992,7 +4992,7 @@ mDecodeThreadIdle
 ;
 /
 /
-PR_FALSE
+False
 while
 audio
 thread
@@ -5022,7 +5022,7 @@ mStopAudioThread
 If
 this
 is
-PR_TRUE
+true
 while
 we
 '
@@ -5095,7 +5095,7 @@ mQuickBuffering
 ;
 /
 /
-PR_TRUE
+True
 if
 the
 shared
@@ -5116,7 +5116,7 @@ mIsRunning
 ;
 /
 /
-PR_TRUE
+True
 if
 we
 should
@@ -5141,7 +5141,7 @@ mRunAgain
 ;
 /
 /
-PR_TRUE
+True
 if
 we
 '
@@ -5220,7 +5220,7 @@ mDispatchedRunEvent
 ;
 /
 /
-PR_TRUE
+True
 if
 the
 decode
@@ -5257,7 +5257,7 @@ mDecodeThreadWaiting
 ;
 /
 /
-true
+True
 is
 we
 are

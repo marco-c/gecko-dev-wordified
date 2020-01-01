@@ -423,7 +423,7 @@ nsRawReader
 (
 this
 )
-PR_TRUE
+true
 )
 ;
 }

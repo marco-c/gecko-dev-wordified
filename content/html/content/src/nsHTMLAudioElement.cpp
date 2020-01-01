@@ -940,7 +940,7 @@ NS_LITERAL_STRING
 auto
 "
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -1043,7 +1043,7 @@ nsGkAtoms
 :
 src
 str
-PR_TRUE
+true
 )
 ;
 if
@@ -1665,7 +1665,7 @@ Accept
 "
 )
 value
-PR_FALSE
+false
 )
 ;
 }

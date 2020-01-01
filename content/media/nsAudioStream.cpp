@@ -800,7 +800,7 @@ mFormat
 ;
 /
 /
-PR_TRUE
+True
 if
 this
 audio
@@ -813,7 +813,7 @@ mPaused
 ;
 /
 /
-PR_TRUE
+True
 if
 this
 stream
@@ -941,7 +941,7 @@ mBytesPerFrame
 ;
 /
 /
-PR_TRUE
+True
 if
 this
 audio
@@ -1849,11 +1849,11 @@ FORMAT_S16_LE
 )
 mPaused
 (
-PR_FALSE
+false
 )
 mInError
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1931,7 +1931,7 @@ nsnull
 ;
 mInError
 =
-PR_TRUE
+true
 ;
 PR_LOG
 (
@@ -1987,7 +1987,7 @@ nsnull
 ;
 mInError
 =
-PR_TRUE
+true
 ;
 PR_LOG
 (
@@ -2009,7 +2009,7 @@ NS_ERROR_FAILURE
 }
 mInError
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2048,7 +2048,7 @@ nsnull
 ;
 mInError
 =
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -2487,7 +2487,7 @@ error
 ;
 mInError
 =
-PR_TRUE
+true
 ;
 return
 NS_ERROR_FAILURE
@@ -2645,7 +2645,7 @@ error
 ;
 mInError
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -2737,7 +2737,7 @@ error
 ;
 mInError
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2757,7 +2757,7 @@ return
 ;
 mPaused
 =
-PR_TRUE
+true
 ;
 sa_stream_pause
 (
@@ -2788,7 +2788,7 @@ return
 ;
 mPaused
 =
-PR_FALSE
+false
 ;
 sa_stream_resume
 (
@@ -3033,7 +3033,7 @@ mBytesPerFrame
 )
 mPaused
 (
-PR_FALSE
+false
 )
 {
 }
@@ -3378,7 +3378,7 @@ Pause
 {
 mPaused
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3397,7 +3397,7 @@ new
 AudioPauseEvent
 (
 mAudioChild
-PR_TRUE
+true
 )
 ;
 NS_DispatchToMainThread
@@ -3416,7 +3416,7 @@ Resume
 {
 mPaused
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3435,7 +3435,7 @@ new
 AudioPauseEvent
 (
 mAudioChild
-PR_FALSE
+false
 )
 ;
 NS_DispatchToMainThread

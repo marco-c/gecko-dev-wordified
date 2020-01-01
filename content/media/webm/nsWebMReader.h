@@ -1287,7 +1287,7 @@ audio
 queue
 .
 Returns
-PR_TRUE
+true
 when
 there
 '
@@ -1298,7 +1298,7 @@ to
 decode
 /
 /
-PR_FALSE
+false
 if
 the
 audio

@@ -1109,7 +1109,7 @@ Accept
 "
 )
 value
-PR_FALSE
+false
 )
 ;
 }

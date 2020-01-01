@@ -987,7 +987,7 @@ GetPositionInFrames
 /
 /
 Returns
-PR_TRUE
+true
 when
 the
 audio

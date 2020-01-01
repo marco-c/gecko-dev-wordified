@@ -942,7 +942,7 @@ AddObserver
 (
 gMediaCacheFlusher
 NS_PRIVATE_BROWSING_SWITCH_TOPIC
-PR_TRUE
+true
 )
 ;
 }
@@ -1002,14 +1002,14 @@ mFDCurrentPos
 )
 mUpdateQueued
 (
-PR_FALSE
+false
 )
 #
 ifdef
 DEBUG
 mInUpdate
 (
-PR_FALSE
+false
 )
 #
 endif
@@ -5356,12 +5356,12 @@ mStreamBlock
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -7472,14 +7472,14 @@ mReentrantMonitor
 ;
 mUpdateQueued
 =
-PR_FALSE
+false
 ;
 #
 ifdef
 DEBUG
 mInUpdate
 =
-PR_TRUE
+true
 ;
 #
 endif
@@ -9020,7 +9020,7 @@ stream
 ;
 enableReading
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -9070,7 +9070,7 @@ stream
 ;
 enableReading
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -9151,7 +9151,7 @@ stream
 ;
 enableReading
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -9218,7 +9218,7 @@ stream
 ;
 enableReading
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -9272,7 +9272,7 @@ stream
 ;
 enableReading
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -9319,7 +9319,7 @@ stream
 ;
 enableReading
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -9504,7 +9504,7 @@ well
 .
 enableReading
 =
-PR_FALSE
+false
 ;
 LOG
 (
@@ -9695,7 +9695,7 @@ ifdef
 DEBUG
 mInUpdate
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -9913,7 +9913,7 @@ stream
 >
 mCacheSuspended
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -9951,7 +9951,7 @@ stream
 >
 mCacheSuspended
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -9989,7 +9989,7 @@ stream
 >
 mCacheSuspended
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -10155,7 +10155,7 @@ return
 ;
 mUpdateQueued
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -12470,7 +12470,7 @@ nullprincipal
 ;
 mUsingNullPrincipal
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -12723,7 +12723,7 @@ flag
 .
 mMetadataInPartialBlockBuffer
 =
-PR_FALSE
+false
 ;
 }
 memcpy
@@ -13408,7 +13408,7 @@ return
 ;
 mClosed
 =
-PR_TRUE
+true
 ;
 gMediaCache
 -
@@ -13669,7 +13669,7 @@ mStreamLength
 0
 )
 return
-PR_FALSE
+false
 ;
 return
 GetCachedDataEndInternal
@@ -13995,7 +13995,7 @@ startBlockIndex
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 if
@@ -14695,7 +14695,7 @@ MODE_METADATA
 {
 mMetadataInPartialBlockBuffer
 =
-PR_TRUE
+true
 ;
 }
 gMediaCache
@@ -15361,7 +15361,7 @@ this
 ;
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -15476,7 +15476,7 @@ clone
 .
 mCacheSuspended
 =
-PR_TRUE
+true
 ;
 for
 (

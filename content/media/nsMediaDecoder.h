@@ -779,11 +779,11 @@ decoder
 /
 /
 Return
-PR_TRUE
+true
 on
 successful
 initialisation
-PR_FALSE
+false
 /
 /
 on
@@ -1291,7 +1291,7 @@ thread
 safely
 .
 Return
-PR_TRUE
+true
 if
 we
 are
@@ -1316,7 +1316,7 @@ const
 /
 /
 Return
-PR_TRUE
+true
 if
 the
 decoder
@@ -2245,7 +2245,7 @@ aSeekable
 /
 /
 Return
-PR_TRUE
+true
 if
 seeking
 is
@@ -2354,7 +2354,7 @@ specification
 .
 aTimer
 is
-PR_TRUE
+true
 /
 /
 if
@@ -2754,7 +2754,7 @@ calls
 When
 aForceBuffering
 is
-PR_TRUE
+true
 /
 /
 we
@@ -3086,7 +3086,7 @@ aBuffered
 /
 /
 Returns
-PR_TRUE
+true
 if
 we
 can
@@ -3598,7 +3598,7 @@ mFrameBufferLength
 ;
 /
 /
-PR_TRUE
+True
 when
 our
 media
@@ -3623,7 +3623,7 @@ mPinnedForSeek
 /
 Set
 to
-PR_TRUE
+true
 when
 the
 video
@@ -3680,7 +3680,7 @@ mSizeChanged
 /
 Set
 to
-PR_TRUE
+true
 in
 SetVideoData
 (

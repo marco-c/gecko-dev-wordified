@@ -1287,7 +1287,7 @@ aCachedDataOnly
 /
 /
 is
-PR_TRUE
+true
 this
 can
 safely
@@ -1627,7 +1627,7 @@ aRanges
 If
 aExact
 is
-PR_TRUE
+true
 we
 only
 return
@@ -1668,7 +1668,7 @@ Otherwise
 when
 aExact
 is
-PR_FALSE
+false
 /
 /
 we
@@ -1913,7 +1913,7 @@ returning
 /
 /
 Returns
-PR_TRUE
+true
 if
 reading
 headers

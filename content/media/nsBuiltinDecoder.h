@@ -2441,7 +2441,7 @@ const
 /
 /
 Returns
-PR_TRUE
+true
 if
 the
 current
@@ -2666,7 +2666,7 @@ aSeekable
 /
 /
 Returns
-PR_TRUE
+true
 if
 the
 media
@@ -3249,7 +3249,7 @@ thread
 safely
 .
 Return
-PR_TRUE
+true
 if
 we
 are
@@ -3272,7 +3272,7 @@ const
 /
 /
 Return
-PR_TRUE
+true
 if
 the
 decoder
@@ -3374,7 +3374,7 @@ aSeekable
 /
 /
 Return
-PR_TRUE
+true
 if
 seeking
 is
@@ -5302,7 +5302,7 @@ mIgnoreProgressData
 ;
 /
 /
-PR_TRUE
+True
 if
 the
 stream

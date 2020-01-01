@@ -578,18 +578,18 @@ STEREO_MODE_MONO
 )
 mHasAudio
 (
-PR_FALSE
+false
 )
 mHasVideo
 (
-PR_FALSE
+false
 )
 {
 }
 /
 /
 Returns
-PR_TRUE
+true
 if
 it
 '
@@ -733,7 +733,7 @@ mStereoMode
 ;
 /
 /
-PR_TRUE
+True
 if
 we
 have
@@ -747,7 +747,7 @@ mHasAudio
 ;
 /
 /
-PR_TRUE
+True
 if
 we
 have
@@ -1490,7 +1490,7 @@ mImage
 /
 /
 When
-PR_TRUE
+true
 denotes
 that
 this
@@ -1555,11 +1555,11 @@ aTimecode
 )
 mDuplicate
 (
-PR_TRUE
+true
 )
 mKeyframe
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -1623,7 +1623,7 @@ aTimecode
 )
 mDuplicate
 (
-PR_FALSE
+false
 )
 mKeyframe
 (
@@ -2026,7 +2026,7 @@ x
 }
 mEndOfStream
 =
-PR_FALSE
+false
 ;
 }
 bool
@@ -2055,7 +2055,7 @@ mEndOfStream
 /
 /
 Returns
-PR_TRUE
+true
 if
 the
 media
@@ -2142,7 +2142,7 @@ mReentrantMonitor
 ;
 mEndOfStream
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -2240,7 +2240,7 @@ mReentrantMonitor
 ;
 /
 /
-PR_TRUE
+True
 when
 we
 '
@@ -2426,7 +2426,7 @@ in
 mAudioQueue
 .
 Returns
-PR_TRUE
+true
 when
 there
 '
@@ -2437,7 +2437,7 @@ to
 decode
 /
 /
-PR_FALSE
+false
 if
 the
 audio
@@ -2502,7 +2502,7 @@ keyframes
 and
 aKeyframeSkip
 is
-PR_TRUE
+true
 )
 but
 will
