@@ -1267,7 +1267,7 @@ getElementById
 elementID
 )
 .
-innerHTML
+textContent
 =
 "
 "
@@ -1278,7 +1278,7 @@ clear
 it
 .
 var
-gUnescapeHTML
+utils
 =
 Components
 .
@@ -1289,9 +1289,7 @@ mozilla
 .
 org
 /
-feed
--
-unescapehtml
+parserutils
 ;
 1
 "
@@ -1303,7 +1301,7 @@ Components
 .
 interfaces
 .
-nsIScriptableUnescapeHTML
+nsIParserUtils
 )
 ;
 var
@@ -1319,11 +1317,12 @@ elementID
 var
 fragment
 =
-gUnescapeHTML
+utils
 .
 parseFragment
 (
 htmlstr
+0
 false
 null
 context
