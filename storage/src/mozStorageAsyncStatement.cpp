@@ -1787,7 +1787,7 @@ AsyncStatement
 (
 )
 {
-internalAsyncFinalize
+destructorAsyncFinalize
 (
 )
 ;
