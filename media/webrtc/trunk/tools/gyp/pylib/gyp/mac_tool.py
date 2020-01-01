@@ -323,7 +323,7 @@ O_NOCTTY
 os
 .
 O_CREAT
-0o666
+0666
 )
     
 fcntl

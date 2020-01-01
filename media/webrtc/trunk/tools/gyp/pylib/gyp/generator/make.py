@@ -2100,6 +2100,14 @@ abspath
 srcdir
 )
 )
+os_sep
+:
+=
+%
+(
+os_sep
+)
+s
 #
 The
 name
@@ -5728,6 +5736,11 @@ _
 '
 string
 )
+os_sep
+=
+os
+.
+sep
 srcdir_prefix
 =
 '
@@ -18665,6 +18678,15 @@ srcdir
 .
 '
   
+global
+os_sep
+  
+os_sep
+=
+os
+.
+sep
+  
 makefile_name
 =
 '
@@ -18732,8 +18754,11 @@ srcdir_prefix
 (
 srcdir
 )
-/
 '
++
+os
+.
+sep
   
 flock_command
 =
@@ -18793,6 +18818,14 @@ srcdir
 '
 :
 srcdir
+      
+'
+os_sep
+'
+:
+os
+.
+sep
     
 }
   
