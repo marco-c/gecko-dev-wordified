@@ -485,7 +485,12 @@ hostName
 {
 if
 (
-gQtNetworkManager
+nsQtNetworkManager
+:
+:
+get
+(
+)
 -
 >
 openConnection
@@ -518,7 +523,12 @@ ShouldDialOnNetworkError
 {
 if
 (
-gQtNetworkManager
+nsQtNetworkManager
+:
+:
+get
+(
+)
 -
 >
 isOnline
