@@ -73,6 +73,20 @@ self
 )
 :
         
+#
+clear
+any
+previous
+data
+        
+self
+.
+marionette
+.
+get_logs
+(
+)
+        
 self
 .
 marionette
@@ -152,6 +166,20 @@ test_that_we_can_clear_the_logs
 self
 )
 :
+        
+#
+clear
+any
+previous
+data
+        
+self
+.
+marionette
+.
+get_logs
+(
+)
         
 self
 .
@@ -260,6 +288,20 @@ test_log_script
 self
 )
 :
+        
+#
+clear
+any
+previous
+data
+        
+self
+.
+marionette
+.
+get_logs
+(
+)
         
 self
 .
