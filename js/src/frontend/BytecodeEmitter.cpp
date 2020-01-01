@@ -44005,7 +44005,16 @@ case
 TOK_NE
 :
 case
-TOK_RELOP
+TOK_LT
+:
+case
+TOK_LE
+:
+case
+TOK_GT
+:
+case
+TOK_GE
 :
 case
 TOK_IN

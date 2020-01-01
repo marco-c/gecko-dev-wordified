@@ -1483,7 +1483,7 @@ TOK_STRICTEQ
 *
 TOK_STRICTNE
 *
-TOK_RELOP
+TOK_LT
 binary
 pn_left
 :
@@ -1497,12 +1497,11 @@ pn_right
 SH
 expr
 *
-pn_op
-:
-JSOP_LT
-JSOP_LE
-JSOP_GT
-JSOP_GE
+TOK_LE
+*
+TOK_GT
+*
+TOK_GE
 *
 TOK_SHOP
 binary
