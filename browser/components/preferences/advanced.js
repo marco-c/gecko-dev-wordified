@@ -576,13 +576,11 @@ if
 preference
 .
 value
-=
+!
 =
 =
 null
 )
-return
-;
 advancedPrefs
 .
 selectedIndex
