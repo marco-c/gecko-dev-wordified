@@ -4574,7 +4574,7 @@ nsGlyphTableList
 *
 gGlyphTableList
 =
-nsnull
+nullptr
 ;
 static
 bool
@@ -4924,7 +4924,7 @@ glyphTable
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsGlyphTable
@@ -5700,7 +5700,7 @@ gGlyphTableList
 ;
 gGlyphTableList
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -5949,7 +5949,7 @@ font
 EnumerateFamilies
 (
 MathFontEnumCallback
-nsnull
+nullptr
 )
 ;
 return
@@ -6274,7 +6274,7 @@ nsBoundingMetrics
 ;
 mGlyphTable
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -8226,7 +8226,7 @@ PRUnichar
 *
 p_name
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -13655,7 +13655,7 @@ last
 >
 mSibling
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -13886,7 +13886,7 @@ behind
 .
 mSibling
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE

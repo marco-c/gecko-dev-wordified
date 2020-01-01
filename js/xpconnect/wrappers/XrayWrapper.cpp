@@ -893,7 +893,7 @@ Not
 found
 .
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -965,7 +965,7 @@ isSandbox
 ?
 consumerGlobal
 :
-nsnull
+nullptr
 )
 ;
 }
@@ -1085,7 +1085,7 @@ JS_NewObjectWithGivenProto
 cx
 &
 ExpandoObjectClass
-nsnull
+nullptr
 target
 )
 ;
@@ -1095,7 +1095,7 @@ if
 expandoObject
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -1313,7 +1313,7 @@ target
 )
 )
 return
-nsnull
+nullptr
 ;
 JSObject
 *
@@ -1447,7 +1447,7 @@ isSandbox
 ?
 consumerGlobal
 :
-nsnull
+nullptr
 )
 ;
 }
@@ -1489,7 +1489,7 @@ dst
 )
 =
 =
-nsnull
+nullptr
 )
 ;
 JSObject
@@ -1602,7 +1602,7 @@ JS_NewObjectWithGivenProto
 cx
 &
 HolderClass
-nsnull
+nullptr
 parent
 )
 ;
@@ -1612,7 +1612,7 @@ if
 holder
 )
 return
-nsnull
+nullptr
 ;
 JSObject
 *
@@ -2303,7 +2303,7 @@ if
 createHolder
 )
 return
-nsnull
+nullptr
 ;
 return
 createHolderObject
@@ -2573,7 +2573,7 @@ if
 createHolder
 )
 return
-nsnull
+nullptr
 ;
 return
 createHolderObject
@@ -3414,7 +3414,7 @@ ccx
 JS_CALLER
 cx
 wnObject
-nsnull
+nullptr
 id
 )
 ;
@@ -4130,7 +4130,7 @@ WrapNativeToJSVal
 cx
 scope
 uri
-nsnull
+nullptr
 &
 NS_GET_IID
 (
@@ -4138,7 +4138,7 @@ nsIURI
 )
 true
 vp
-nsnull
+nullptr
 )
 ;
 if
@@ -4563,7 +4563,7 @@ node
 NodePrincipal
 (
 )
-nsnull
+nullptr
 &
 NS_GET_IID
 (
@@ -4575,7 +4575,7 @@ vp
 address
 (
 )
-nsnull
+nullptr
 )
 ;
 if
@@ -6432,8 +6432,8 @@ obj
 JS_NewObjectWithGivenProto
 (
 cx
-nsnull
-nsnull
+nullptr
+nullptr
 JS_GetGlobalForObject
 (
 cx
@@ -6447,7 +6447,7 @@ if
 obj
 )
 return
-nsnull
+nullptr
 ;
 js
 :
@@ -6858,8 +6858,8 @@ obj
 JS_NewObjectWithGivenProto
 (
 cx
-nsnull
-nsnull
+nullptr
+nullptr
 JS_GetGlobalForObject
 (
 cx
@@ -6873,7 +6873,7 @@ if
 obj
 )
 return
-nsnull
+nullptr
 ;
 js
 :
@@ -8362,7 +8362,7 @@ obj
 ?
 wrapper
 :
-nsnull
+nullptr
 ;
 return
 JS_WrapPropertyDescriptor
@@ -9596,7 +9596,7 @@ ccx
 JS_CALLER
 cx
 wrapper
-nsnull
+nullptr
 JSID_VOID
 argc
 vp
@@ -9765,7 +9765,7 @@ ccx
 JS_CALLER
 cx
 wrapper
-nsnull
+nullptr
 JSID_VOID
 argc
 argv

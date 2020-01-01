@@ -475,7 +475,7 @@ nsISupports
 *
 param
 =
-nsnull
+nullptr
 )
 :
 mTransport
@@ -1606,7 +1606,7 @@ mCallback
 ;
 mCallback
 =
-nsnull
+nullptr
 ;
 mCallbackFlags
 =
@@ -2058,7 +2058,7 @@ PRFileDesc
 *
 fd
 =
-nsnull
+nullptr
 ;
 {
 MutexAutoLock
@@ -3083,7 +3083,7 @@ mCallback
 ;
 mCallback
 =
-nsnull
+nullptr
 ;
 mCallbackFlags
 =
@@ -3272,7 +3272,7 @@ PRFileDesc
 *
 fd
 =
-nsnull
+nullptr
 ;
 {
 MutexAutoLock
@@ -4102,7 +4102,7 @@ nsSocketTransport
 :
 mTypes
 (
-nsnull
+nullptr
 )
 mTypeCount
 (
@@ -4162,7 +4162,7 @@ mLock
 )
 mFD
 (
-nsnull
+nullptr
 )
 mFDref
 (
@@ -4376,7 +4376,7 @@ char
 *
 proxyType
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4468,7 +4468,7 @@ unknown
 )
 proxyType
 =
-nsnull
+nullptr
 ;
 }
 SOCKET_LOG
@@ -4543,7 +4543,7 @@ typeCount
 proxyType
 !
 =
-nsnull
+nullptr
 )
 ;
 if
@@ -5514,7 +5514,7 @@ PostEvent
 (
 MSG_DNS_LOOKUP_COMPLETE
 NS_OK
-nsnull
+nullptr
 )
 ;
 }
@@ -5601,7 +5601,7 @@ SocketHost
 )
 dnsFlags
 this
-nsnull
+nullptr
 getter_AddRefs
 (
 mDNSRequest
@@ -5720,7 +5720,7 @@ else
 {
 fd
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -5775,7 +5775,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 mProxyHost
 .
@@ -6315,7 +6315,7 @@ proxy
 stuff
 proxyHost
 =
-nsnull
+nullptr
 ;
 proxyPort
 =
@@ -8555,7 +8555,7 @@ if
 mFDconnected
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -8630,7 +8630,7 @@ mFD
 ;
 mFD
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -9294,7 +9294,7 @@ ourselves
 .
 OnSocketDetached
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -10165,7 +10165,7 @@ secCtrl
 >
 SetNotificationCallbacks
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -11286,7 +11286,7 @@ PRFileDesc
 *
 fd
 =
-nsnull
+nullptr
 ;
 {
 MutexAutoLock
@@ -12138,7 +12138,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -12159,7 +12159,7 @@ aContractID
 *
 aContractID
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -12180,7 +12180,7 @@ aClassDescription
 *
 aClassDescription
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -12201,7 +12201,7 @@ aClassID
 *
 aClassID
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

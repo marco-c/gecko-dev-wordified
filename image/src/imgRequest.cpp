@@ -487,7 +487,7 @@ imgRequest
 :
 mValidator
 (
-nsnull
+nullptr
 )
 mImageSniffers
 (
@@ -729,7 +729,7 @@ mStatusTracker
 new
 imgStatusTracker
 (
-nsnull
+nullptr
 )
 ;
 mURI
@@ -907,7 +907,7 @@ return
 mCacheEntry
 !
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -1503,7 +1503,7 @@ entry
 /
 mCacheEntry
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -1637,7 +1637,7 @@ mPrevChannelSink
 ;
 mPrevChannelSink
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1889,7 +1889,7 @@ mURI
 }
 mCacheEntry
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -2116,7 +2116,7 @@ mObservers
 SafeElementAt
 (
 0
-nsnull
+nullptr
 )
 !
 =
@@ -3941,7 +3941,7 @@ uri
 -
 content
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -4557,7 +4557,7 @@ mStatusTracker
 new
 imgStatusTracker
 (
-nsnull
+nullptr
 )
 ;
 mGotData
@@ -5139,7 +5139,7 @@ mRequest
 {
 mRequest
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -5182,11 +5182,11 @@ mPrevChannelSink
 ;
 mPrevChannelSink
 =
-nsnull
+nullptr
 ;
 mChannel
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -5568,7 +5568,7 @@ status
 }
 mTimedChannel
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -6943,7 +6943,7 @@ imageAsStream
 OnStartRequest
 (
 aRequest
-nsnull
+nullptr
 )
 ;
 }
@@ -7361,7 +7361,7 @@ i
 >
 GetMIMETypeFromContent
 (
-nsnull
+nullptr
 (
 const
 PRUint8
@@ -7617,11 +7617,11 @@ rv
 {
 mRedirectCallback
 =
-nsnull
+nullptr
 ;
 mNewRedirectChannel
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -7692,11 +7692,11 @@ result
 ;
 mRedirectCallback
 =
-nsnull
+nullptr
 ;
 mNewRedirectChannel
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -7715,7 +7715,7 @@ mChannel
 ;
 mNewRedirectChannel
 =
-nsnull
+nullptr
 ;
 #
 if
@@ -7846,7 +7846,7 @@ rv
 ;
 mRedirectCallback
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -7862,7 +7862,7 @@ NS_OK
 ;
 mRedirectCallback
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

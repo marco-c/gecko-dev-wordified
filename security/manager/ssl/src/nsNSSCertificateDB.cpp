@@ -573,7 +573,7 @@ NS_OK
 *
 _rvCert
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -606,7 +606,7 @@ keyItem
 =
 {
 siBuffer
-nsnull
+nullptr
 0
 }
 ;
@@ -627,7 +627,7 @@ slotID
 *
 _cert
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -646,7 +646,7 @@ dummy
 =
 NSSBase64_DecodeBuffer
 (
-nsnull
+nullptr
 &
 keyItem
 aDBkey
@@ -914,7 +914,7 @@ if
 nssCert
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -1298,10 +1298,10 @@ if
 collectArgs
 =
 =
-nsnull
+nullptr
 )
 return
-nsnull
+nullptr
 ;
 collectArgs
 -
@@ -1340,7 +1340,7 @@ sec_rv
 SECSuccess
 )
 return
-nsnull
+nullptr
 ;
 return
 collectArgs
@@ -2032,7 +2032,7 @@ CERT_NewTempCertificate
 certdb
 &
 der
-nsnull
+nullptr
 false
 true
 )
@@ -2052,7 +2052,7 @@ der
 .
 data
 =
-nsnull
+nullptr
 ;
 der
 .
@@ -2432,7 +2432,7 @@ CERT_NewTempCertificate
 certdb
 &
 der
-nsnull
+nullptr
 false
 true
 )
@@ -2451,7 +2451,7 @@ der
 .
 data
 =
-nsnull
+nullptr
 ;
 der
 .
@@ -3337,7 +3337,7 @@ CERTCertificateList
 *
 certChain
 =
-nsnull
+nullptr
 ;
 CERTCertificateListCleaner
 chainCleaner
@@ -3611,7 +3611,7 @@ SECItem
 *
 rawCerts
 =
-nsnull
+nullptr
 ;
 int
 numcerts
@@ -3626,7 +3626,7 @@ char
 *
 serverNickname
 =
-nsnull
+nullptr
 ;
 PRArenaPool
 *
@@ -4372,7 +4372,7 @@ CERTCertificateList
 *
 certChain
 =
-nsnull
+nullptr
 ;
 CERTCertificateListCleaner
 chainCleaner
@@ -4728,7 +4728,7 @@ prompt
 >
 Alert
 (
-nsnull
+nullptr
 tmpMessage
 .
 get
@@ -6162,7 +6162,7 @@ PRFileDesc
 *
 fd
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -6583,25 +6583,25 @@ PRUnichar
 *
 nn
 =
-nsnull
+nullptr
 ;
 PRUnichar
 *
 url
 =
-nsnull
+nullptr
 ;
 char
 *
 serviceURL
 =
-nsnull
+nullptr
 ;
 char
 *
 nickname
 =
-nsnull
+nullptr
 ;
 PRUint32
 i
@@ -6884,7 +6884,7 @@ PK11_TraverseSlotCerts
 :
 GetOCSPResponders
 respondersArray
-nsnull
+nullptr
 )
 ;
 if
@@ -7491,7 +7491,7 @@ nsNSSCertificate
 *
 nssCert
 =
-nsnull
+nullptr
 ;
 char
 *
@@ -7572,7 +7572,7 @@ if
 nssCert
 =
 =
-nsnull
+nullptr
 )
 {
 rv
@@ -7690,7 +7690,7 @@ nsNSSCertificate
 *
 nssCert
 =
-nsnull
+nullptr
 ;
 char
 *
@@ -7771,7 +7771,7 @@ if
 nssCert
 =
 =
-nsnull
+nullptr
 )
 {
 rv
@@ -7901,7 +7901,7 @@ certlist
 PK11_FindCertsFromEmailAddress
 (
 aEmailAddress
-nsnull
+nullptr
 )
 ;
 if
@@ -8023,8 +8023,8 @@ certUsageEmailRecipient
 PR_Now
 (
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 =
 =
@@ -8074,7 +8074,7 @@ GetRawPointerForNSS
 (
 )
 cvout
-nsnull
+nullptr
 )
 =
 =
@@ -8407,7 +8407,7 @@ CERT_GetDefaultCertDB
 )
 &
 secitem_cert
-nsnull
+nullptr
 false
 true
 )
@@ -8564,7 +8564,7 @@ temp_un
 ;
 temp_un
 =
-nsnull
+nullptr
 ;
 }
 nsCAutoString
@@ -8599,7 +8599,7 @@ temp_ca
 ;
 temp_ca
 =
-nsnull
+nullptr
 ;
 }
 nsAutoString
@@ -8670,7 +8670,7 @@ temp_nn
 ;
 temp_nn
 =
-nsnull
+nullptr
 ;
 }
 nickname
@@ -8868,7 +8868,7 @@ CERTCertificate
 *
 dummycert
 =
-nsnull
+nullptr
 ;
 CERTCertificateCleaner
 dummycertCleaner
@@ -9237,7 +9237,7 @@ CERT_NewTempCertificate
 certdb
 &
 der
-nsnull
+nullptr
 false
 true
 )
@@ -9256,7 +9256,7 @@ der
 .
 data
 =
-nsnull
+nullptr
 ;
 der
 .

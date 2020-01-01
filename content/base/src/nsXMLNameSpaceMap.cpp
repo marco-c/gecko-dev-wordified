@@ -244,7 +244,7 @@ nsXMLNameSpaceMap
 NS_ENSURE_TRUE
 (
 map
-nsnull
+nullptr
 )
 ;
 if
@@ -301,7 +301,7 @@ map
 ;
 map
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -550,7 +550,7 @@ prefix
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void

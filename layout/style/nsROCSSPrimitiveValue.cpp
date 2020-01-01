@@ -1834,7 +1834,7 @@ CSS_RECT
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_DOM_INVALID_ACCESS_ERR
@@ -1893,7 +1893,7 @@ CSS_RGBCOLOR
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_DOM_INVALID_ACCESS_ERR
@@ -2529,7 +2529,7 @@ mValue
 .
 mString
 =
-nsnull
+nullptr
 ;
 break
 ;

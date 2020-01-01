@@ -228,7 +228,7 @@ nsCMSMessage
 {
 m_cmsMsg
 =
-nsnull
+nullptr
 ;
 }
 nsCMSMessage
@@ -327,7 +327,7 @@ VerifySignature
 return
 CommonVerifySignature
 (
-nsnull
+nullptr
 0
 )
 ;
@@ -351,7 +351,7 @@ isAlreadyShutDown
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -359,7 +359,7 @@ if
 m_cmsMsg
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -370,7 +370,7 @@ m_cmsMsg
 )
 )
 return
-nsnull
+nullptr
 ;
 NSSCMSContentInfo
 *
@@ -388,7 +388,7 @@ if
 cinfo
 )
 return
-nsnull
+nullptr
 ;
 NSSCMSSignedData
 *
@@ -409,7 +409,7 @@ if
 sigd
 )
 return
-nsnull
+nullptr
 ;
 PR_ASSERT
 (
@@ -836,7 +836,7 @@ si
 certList
 !
 =
-nsnull
+nullptr
 ?
 "
 yes
@@ -852,7 +852,7 @@ no
 *
 scert
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -976,13 +976,13 @@ NSSCMSContentInfo
 *
 cinfo
 =
-nsnull
+nullptr
 ;
 NSSCMSSignedData
 *
 sigd
 =
-nsnull
+nullptr
 ;
 NSSCMSSignerInfo
 *
@@ -1936,7 +1936,7 @@ return
 CommonAsyncVerifySignature
 (
 aListener
-nsnull
+nullptr
 0
 )
 ;
@@ -2062,7 +2062,7 @@ job
 >
 digest_data
 =
-nsnull
+nullptr
 ;
 }
 job
@@ -2125,11 +2125,11 @@ nsZeroTerminatedCertArray
 :
 mCerts
 (
-nsnull
+nullptr
 )
 mPoolp
 (
-nsnull
+nullptr
 )
 mSize
 (
@@ -2345,7 +2345,7 @@ mCerts
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -2428,7 +2428,7 @@ isAlreadyShutDown
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -2438,7 +2438,7 @@ i
 mSize
 )
 return
-nsnull
+nullptr
 ;
 return
 CERT_DupCertificate
@@ -2467,7 +2467,7 @@ isAlreadyShutDown
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 mCerts
@@ -2746,7 +2746,7 @@ if
 m_cmsMsg
 =
 =
-nsnull
+nullptr
 )
 {
 PR_LOG
@@ -2795,7 +2795,7 @@ keySize
 )
 =
 =
-nsnull
+nullptr
 )
 {
 PR_LOG
@@ -2886,7 +2886,7 @@ NSS_CMSContentInfo_SetContent_Data
 (
 m_cmsMsg
 cinfo
-nsnull
+nullptr
 false
 )
 !
@@ -2975,7 +2975,7 @@ rc
 )
 =
 =
-nsnull
+nullptr
 )
 {
 PR_LOG
@@ -3062,7 +3062,7 @@ m_cmsMsg
 ;
 m_cmsMsg
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -3133,11 +3133,11 @@ CERTCertificate
 *
 scert
 =
-nsnull
+nullptr
 *
 ecert
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -3431,7 +3431,7 @@ NSS_CMSContentInfo_SetContent_Data
 (
 m_cmsMsg
 cinfo
-nsnull
+nullptr
 true
 )
 !
@@ -3955,7 +3955,7 @@ m_cmsMsg
 ;
 m_cmsMsg
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -3976,7 +3976,7 @@ nsCMSDecoder
 :
 m_dcx
 (
-nsnull
+nullptr
 )
 {
 }
@@ -4050,7 +4050,7 @@ m_dcx
 ;
 m_dcx
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4300,7 +4300,7 @@ m_dcx
 ;
 m_dcx
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4387,7 +4387,7 @@ nsCMSEncoder
 :
 m_ecx
 (
-nsnull
+nullptr
 )
 {
 }
@@ -4562,7 +4562,7 @@ if
 m_ecx
 =
 =
-nsnull
+nullptr
 )
 {
 PR_LOG
@@ -4793,7 +4793,7 @@ NS_ERROR_FAILURE
 }
 m_ecx
 =
-nsnull
+nullptr
 ;
 return
 rv

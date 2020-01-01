@@ -308,7 +308,7 @@ qcms_profile
 *
 profile
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -454,7 +454,7 @@ true
 ;
 mImageData
 =
-nsnull
+nullptr
 ;
 mBytesToSkip
 =
@@ -494,7 +494,7 @@ this
 ;
 mSegment
 =
-nsnull
+nullptr
 ;
 mSegmentLen
 =
@@ -502,7 +502,7 @@ mSegmentLen
 ;
 mBackBuffer
 =
-nsnull
+nullptr
 ;
 mBackBufferLen
 =
@@ -514,11 +514,11 @@ mBackBufferUnreadLen
 ;
 mInProfile
 =
-nsnull
+nullptr
 ;
 mTransform
 =
-nsnull
+nullptr
 ;
 mCMSMode
 =
@@ -567,7 +567,7 @@ mInfo
 .
 src
 =
-nsnull
+nullptr
 ;
 jpeg_destroy_decompress
 (
@@ -1013,7 +1013,7 @@ this
 >
 Write
 (
-nsnull
+nullptr
 0
 )
 ;
@@ -1467,7 +1467,7 @@ mInfo
 )
 !
 =
-nsnull
+nullptr
 )
 {
 PRUint32

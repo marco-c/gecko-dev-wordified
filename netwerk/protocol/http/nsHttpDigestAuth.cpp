@@ -1964,7 +1964,7 @@ if
 http_channel
 !
 =
-nsnull
+nullptr
 )
 {
 nsIInputStream

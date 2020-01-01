@@ -717,7 +717,7 @@ nsPoint
 ctor
 mLastCaretFrame
 (
-nsnull
+nullptr
 )
 mLastContentOffset
 (
@@ -779,7 +779,7 @@ static
 RangeData
 sEmptyData
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -1047,7 +1047,7 @@ mTimer
 }
 mContent
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1120,7 +1120,7 @@ GetPrimaryFrameFor
 mContent
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -1132,7 +1132,7 @@ NS_OK
 ;
 mContent
 =
-nsnull
+nullptr
 ;
 nsPoint
 pt
@@ -2510,7 +2510,7 @@ mDomSelections
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
@@ -2843,7 +2843,7 @@ nsIView
 *
 view
 =
-nsnull
+nullptr
 ;
 caretFrame
 -
@@ -4012,7 +4012,7 @@ GetTag
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -4051,7 +4051,7 @@ aNode
 aChildOffset
 )
 return
-nsnull
+nullptr
 ;
 nsIContent
 *
@@ -4085,7 +4085,7 @@ parent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -4104,7 +4104,7 @@ if
 aDomNode
 )
 return
-nsnull
+nullptr
 ;
 nsINode
 *
@@ -4171,7 +4171,7 @@ GetParent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -4815,7 +4815,7 @@ true
 mLimiter
 !
 =
-nsnull
+nullptr
 true
 aVisualMovement
 )
@@ -5688,7 +5688,7 @@ GetShell
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -6131,8 +6131,8 @@ levels
 .
 SetData
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 0
 )
@@ -6287,7 +6287,7 @@ rv
 )
 newFrame
 =
-nsnull
+nullptr
 ;
 PRUint8
 baseLevel
@@ -6370,7 +6370,7 @@ brFrame
 {
 currentFrame
 =
-nsnull
+nullptr
 ;
 currentLevel
 =
@@ -6398,7 +6398,7 @@ brFrame
 {
 newFrame
 =
-nsnull
+nullptr
 ;
 newLevel
 =
@@ -6686,7 +6686,7 @@ NS_OK
 }
 mMaintainRange
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -7089,7 +7089,7 @@ nsIFrame
 *
 clickInFrame
 =
-nsnull
+nullptr
 ;
 PRInt32
 OffsetNotUsed
@@ -7478,7 +7478,7 @@ aContinueSelection
 {
 mMaintainRange
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7492,7 +7492,7 @@ aNewFocus
 {
 mAncestorLimiter
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -7845,7 +7845,7 @@ false
 mLimiter
 !
 =
-nsnull
+nullptr
 false
 false
 )
@@ -7890,7 +7890,7 @@ false
 mLimiter
 !
 =
-nsnull
+nullptr
 false
 false
 )
@@ -8127,15 +8127,15 @@ false
 ;
 mStartSelectedCell
 =
-nsnull
+nullptr
 ;
 mEndSelectedCell
 =
-nsnull
+nullptr
 ;
 mAppendStartSelectedCell
 =
-nsnull
+nullptr
 ;
 mHint
 =
@@ -8576,7 +8576,7 @@ event
 (
 false
 0
-nsnull
+nullptr
 nsMouseEvent
 :
 :
@@ -8887,13 +8887,13 @@ aContent
 mShell
 )
 return
-nsnull
+nullptr
 ;
 SelectionDetails
 *
 details
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -9041,7 +9041,7 @@ index
 0
 )
 return
-nsnull
+nullptr
 ;
 return
 mDomSelections
@@ -9326,7 +9326,7 @@ aReturnOffset
 mShell
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -9335,7 +9335,7 @@ aOffset
 0
 )
 return
-nsnull
+nullptr
 ;
 *
 aReturnOffset
@@ -9470,7 +9470,7 @@ if
 childNode
 )
 return
-nsnull
+nullptr
 ;
 theNode
 =
@@ -9672,7 +9672,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 *
 aReturnOffset
@@ -9759,7 +9759,7 @@ if
 returnFrame
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -10657,7 +10657,7 @@ const
 NS_ENSURE_TRUE
 (
 mShell
-nsnull
+nullptr
 )
 ;
 nsITableCellLayout
@@ -10694,7 +10694,7 @@ const
 NS_ENSURE_TRUE
 (
 mShell
-nsnull
+nullptr
 )
 ;
 nsITableLayout
@@ -10774,7 +10774,7 @@ aRange
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_PRECONDITION
@@ -11506,7 +11506,7 @@ selection
 block
 mStartSelectedCell
 =
-nsnull
+nullptr
 ;
 mDomSelections
 [
@@ -11633,7 +11633,7 @@ mouse
 down
 mUnselectCellOnMouseUp
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -11966,11 +11966,11 @@ false
 ;
 mStartSelectedCell
 =
-nsnull
+nullptr
 ;
 mEndSelectedCell
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -12089,7 +12089,7 @@ selection
 block
 mStartSelectedCell
 =
-nsnull
+nullptr
 ;
 mDomSelections
 [
@@ -12251,11 +12251,11 @@ false
 ;
 mStartSelectedCell
 =
-nsnull
+nullptr
 ;
 mEndSelectedCell
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -12426,7 +12426,7 @@ nsINode
 *
 previousCellParent
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -12675,15 +12675,15 @@ the
 cell
 mStartSelectedCell
 =
-nsnull
+nullptr
 ;
 mEndSelectedCell
 =
-nsnull
+nullptr
 ;
 mAppendStartSelectedCell
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -12795,7 +12795,7 @@ mAppendStartSelectedCell
 )
 mAppendStartSelectedCell
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -12823,7 +12823,7 @@ range
 }
 mUnselectCellOnMouseUp
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -14563,7 +14563,7 @@ if
 aRange
 )
 return
-nsnull
+nullptr
 ;
 nsINode
 *
@@ -14582,7 +14582,7 @@ if
 startParent
 )
 return
-nsnull
+nullptr
 ;
 PRInt32
 offset
@@ -14612,7 +14612,7 @@ if
 childContent
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -14634,7 +14634,7 @@ childContent
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 childContent
@@ -14669,7 +14669,7 @@ index
 ]
 )
 return
-nsnull
+nullptr
 ;
 nsRange
 *
@@ -14696,7 +14696,7 @@ firstRange
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -14742,7 +14742,7 @@ index
 ]
 )
 return
-nsnull
+nullptr
 ;
 nsRange
 *
@@ -14787,7 +14787,7 @@ range
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -14896,7 +14896,7 @@ aContent1
 aContent2
 )
 return
-nsnull
+nullptr
 ;
 nsIContent
 *
@@ -14953,7 +14953,7 @@ tableNode2
 ?
 tableNode1
 :
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -14976,7 +14976,7 @@ aCell
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 for
@@ -15034,7 +15034,7 @@ parent
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -16575,13 +16575,13 @@ i
 >
 Clear
 (
-nsnull
+nullptr
 )
 ;
 }
 mShell
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -16626,7 +16626,7 @@ Selection
 :
 mCachedOffsetForFrame
 (
-nsnull
+nullptr
 )
 mDirection
 (
@@ -16657,7 +16657,7 @@ aList
 )
 mCachedOffsetForFrame
 (
-nsnull
+nullptr
 )
 mDirection
 (
@@ -16739,7 +16739,7 @@ Stop
 ;
 mAutoScrollTimer
 =
-nsnull
+nullptr
 ;
 }
 mScrollEvent
@@ -16758,7 +16758,7 @@ mCachedOffsetForFrame
 ;
 mCachedOffsetForFrame
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -16986,7 +16986,7 @@ aAnchorNode
 *
 aAnchorNode
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -17007,7 +17007,7 @@ if
 mAnchorFocusRange
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -17106,7 +17106,7 @@ aFocusNode
 *
 aFocusNode
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -17127,7 +17127,7 @@ if
 mAnchorFocusRange
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -17218,7 +17218,7 @@ all
 {
 mAnchorFocusRange
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -19746,7 +19746,7 @@ aResultCount
 *
 aResults
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -23214,7 +23214,7 @@ mCachedOffsetForFrame
 >
 mLastCaretFrame
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -23456,7 +23456,7 @@ aRange
 NS_ENSURE_TRUE
 (
 aRange
-nsnull
+nullptr
 )
 ;
 for
@@ -23500,7 +23500,7 @@ i
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -28260,7 +28260,7 @@ if
 mFrameSelection
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -28270,7 +28270,7 @@ do
 NS_ENSURE_TRUE
 (
 aRect
-nsnull
+nullptr
 )
 ;
 aRect
@@ -28321,7 +28321,7 @@ break
 default
 :
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -28365,7 +28365,7 @@ if
 anchorFrame
 )
 return
-nsnull
+nullptr
 ;
 nsRect
 focusRect
@@ -28390,7 +28390,7 @@ if
 focusFrame
 )
 return
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -28470,7 +28470,7 @@ if
 mFrameSelection
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -28480,7 +28480,7 @@ do
 NS_ENSURE_TRUE
 (
 aRect
-nsnull
+nullptr
 )
 ;
 aRect
@@ -28498,7 +28498,7 @@ nsINode
 *
 node
 =
-nsnull
+nullptr
 ;
 PRInt32
 nodeOffset
@@ -28509,7 +28509,7 @@ nsIFrame
 *
 frame
 =
-nsnull
+nullptr
 ;
 switch
 (
@@ -28559,7 +28559,7 @@ break
 default
 :
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -28568,7 +28568,7 @@ if
 node
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -28588,7 +28588,7 @@ content
 get
 (
 )
-nsnull
+nullptr
 )
 ;
 PRInt32
@@ -28621,7 +28621,7 @@ if
 frame
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -28675,7 +28675,7 @@ nsIFrame
 *
 childFrame
 =
-nsnull
+nullptr
 ;
 frameOffset
 =
@@ -28710,7 +28710,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -28718,7 +28718,7 @@ if
 childFrame
 )
 return
-nsnull
+nullptr
 ;
 frame
 =
@@ -28755,7 +28755,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -30723,7 +30723,7 @@ GetPrimaryFrameForFocusNode
 (
 &
 focusFrame
-nsnull
+nullptr
 false
 )
 ;
@@ -31311,7 +31311,7 @@ nsAutoCopyListener
 :
 sInstance
 =
-nsnull
+nullptr
 ;
 NS_IMPL_ISUPPORTS1
 (

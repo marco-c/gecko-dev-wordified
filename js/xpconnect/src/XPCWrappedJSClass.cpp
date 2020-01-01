@@ -719,7 +719,7 @@ nsXPCWrappedJSClass
 *
 clazz
 =
-nsnull
+nullptr
 ;
 XPCJSRuntime
 *
@@ -887,7 +887,7 @@ clazz
 sets
 clazz
 to
-nsnull
+nullptr
 }
 }
 }
@@ -929,7 +929,7 @@ aInfo
 )
 mName
 (
-nsnull
+nullptr
 )
 mIID
 (
@@ -937,7 +937,7 @@ aIID
 )
 mDescriptors
 (
-nsnull
+nullptr
 )
 {
 NS_ADDREF
@@ -1015,7 +1015,7 @@ methodCount
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 (
@@ -1120,7 +1120,7 @@ mDescriptors
 ;
 mDescriptors
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -1349,7 +1349,7 @@ jsobj
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1406,7 +1406,7 @@ jsobj
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -1451,7 +1451,7 @@ fun
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -1601,7 +1601,7 @@ if
 info
 )
 return
-nsnull
+nullptr
 ;
 bool
 canScript
@@ -1642,7 +1642,7 @@ isBuiltin
 isBuiltin
 )
 return
-nsnull
+nullptr
 ;
 }
 id
@@ -2017,7 +2017,7 @@ success
 ?
 retObj
 :
-nsnull
+nullptr
 ;
 }
 /
@@ -3109,7 +3109,7 @@ WrappedJSIdentity
 *
 singleton
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3324,7 +3324,7 @@ Peek
 )
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -3355,7 +3355,7 @@ IsValid
 )
 )
 return
-nsnull
+nullptr
 ;
 JSAutoEnterCompartment
 ac
@@ -3372,7 +3372,7 @@ obj
 )
 )
 return
-nsnull
+nullptr
 ;
 XPCWrappedNativeScope
 *
@@ -3427,7 +3427,7 @@ cx
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 class
@@ -3841,7 +3841,7 @@ IsValid
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 return
 NS_NOINTERFACE
@@ -3899,7 +3899,7 @@ nsWrapperCache
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 return
 NS_NOINTERFACE
@@ -3939,7 +3939,7 @@ IsValid
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 return
 NS_NOINTERFACE
@@ -4043,7 +4043,7 @@ aIID
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 return
 NS_NOINTERFACE
@@ -4121,7 +4121,7 @@ mRoot
 .
 if
 (
-nsnull
+nullptr
 !
 =
 (
@@ -4174,7 +4174,7 @@ inherits
 .
 if
 (
-nsnull
+nullptr
 !
 =
 (
@@ -4428,7 +4428,7 @@ check
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 nsXPConnect
 *
@@ -4781,7 +4781,7 @@ GetNewOrUsed
 ccx
 jsobj
 aIID
-nsnull
+nullptr
 &
 wrapper
 )
@@ -4867,7 +4867,7 @@ do
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 return
 NS_NOINTERFACE
@@ -5441,8 +5441,8 @@ JSErrorToXPCException
 (
 ccx
 message
-nsnull
-nsnull
+nullptr
+nullptr
 report
 getter_AddRefs
 (
@@ -6219,7 +6219,7 @@ xpcc
 >
 SetException
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -6342,7 +6342,7 @@ Get
 >
 SetPendingException
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -6524,8 +6524,8 @@ reportable
 JS_DescribeScriptedCaller
 (
 cx
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -6916,7 +6916,7 @@ XPC_CONSOLE_CONTRACTID
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 consoleService
@@ -6966,7 +6966,7 @@ errorData
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 scriptError
@@ -6999,7 +6999,7 @@ XPC_SCRIPT_ERROR_CONTRACTID
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 scriptError
@@ -7165,7 +7165,7 @@ sourceName
 get
 (
 )
-nsnull
+nullptr
 lineNumber
 0
 0
@@ -7191,14 +7191,14 @@ rv
 )
 scriptError
 =
-nsnull
+nullptr
 ;
 }
 }
 }
 if
 (
-nsnull
+nullptr
 !
 =
 scriptError
@@ -7327,13 +7327,13 @@ jsval
 *
 sp
 =
-nsnull
+nullptr
 ;
 jsval
 *
 argv
 =
-nsnull
+nullptr
 ;
 uint8_t
 i
@@ -7638,7 +7638,7 @@ xpcc
 >
 SetException
 (
-nsnull
+nullptr
 )
 ;
 XPCJSRuntime
@@ -7651,7 +7651,7 @@ Get
 >
 SetPendingException
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -8118,7 +8118,7 @@ nsIID
 *
 newWrapperIID
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -8208,12 +8208,12 @@ NativeInterface2JSObject
 ccx
 &
 v
-nsnull
+nullptr
 helper
 newWrapperIID
-nsnull
+nullptr
 false
-nsnull
+nullptr
 )
 ;
 if
@@ -8778,7 +8778,7 @@ datum_type
 &
 param_iid
 array_count
-nsnull
+nullptr
 )
 )
 goto
@@ -8814,7 +8814,7 @@ pv
 val
 datum_type
 array_count
-nsnull
+nullptr
 )
 )
 goto
@@ -8842,7 +8842,7 @@ val
 type
 &
 param_iid
-nsnull
+nullptr
 )
 )
 goto
@@ -9079,7 +9079,7 @@ pp
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 (
@@ -9210,7 +9210,7 @@ void
 p
 )
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -9429,7 +9429,7 @@ char
 *
 sz
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -9439,7 +9439,7 @@ nsXPCException
 NameAndFormatForNSResult
 (
 code
-nsnull
+nullptr
 &
 msg
 )
@@ -9473,13 +9473,13 @@ GetInterfaceName
 (
 )
 name
-nsnull
+nullptr
 getter_AddRefs
 (
 e
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 xpcc
@@ -9581,7 +9581,7 @@ Get
 >
 SetPendingException
 (
-nsnull
+nullptr
 )
 ;
 /
@@ -9926,7 +9926,7 @@ IsDipper
 )
 &
 param_iid
-nsnull
+nullptr
 )
 )
 break
@@ -10255,7 +10255,7 @@ array_count
 datum_type
 &
 param_iid
-nsnull
+nullptr
 )
 )
 break
@@ -10288,7 +10288,7 @@ val
 val
 array_count
 datum_type
-nsnull
+nullptr
 )
 )
 break
@@ -10315,7 +10315,7 @@ type
 true
 &
 param_iid
-nsnull
+nullptr
 )
 )
 break
@@ -10458,7 +10458,7 @@ pp
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 (
@@ -10578,7 +10578,7 @@ void
 p
 )
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -10654,8 +10654,8 @@ return
 JS_NewObject
 (
 cx
-nsnull
-nsnull
+nullptr
+nullptr
 JS_GetGlobalForObject
 (
 cx

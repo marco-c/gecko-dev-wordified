@@ -3929,7 +3929,7 @@ JS_NewObjectWithGivenProto
 cx
 &
 ExpandoClass
-nsnull
+nullptr
 js
 :
 :
@@ -5506,14 +5506,14 @@ desc
 >
 setter
 =
-nsnull
+nullptr
 ;
 desc
 -
 >
 getter
 =
-nsnull
+nullptr
 ;
 return
 true

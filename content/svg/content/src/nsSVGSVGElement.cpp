@@ -745,7 +745,7 @@ nsIDOMSVGZoomAndPan
 SVG_ZOOMANDPAN_MAGNIFY
 }
 {
-nsnull
+nullptr
 0
 }
 }
@@ -1047,7 +1047,7 @@ aNodeInfo
 )
 mCoordCtx
 (
-nsnull
+nullptr
 )
 mViewportWidth
 (
@@ -1212,7 +1212,7 @@ const
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -3339,7 +3339,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -3724,7 +3724,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -3835,7 +3835,7 @@ IsSingular
 (
 )
 ?
-nsnull
+nullptr
 :
 new
 DOMSVGMatrix
@@ -3895,7 +3895,7 @@ IsSingular
 (
 )
 ?
-nsnull
+nullptr
 :
 new
 DOMSVGMatrix
@@ -3954,7 +3954,7 @@ rv
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -4736,7 +4736,7 @@ GetTimedDocumentRoot
 invalid
 structure
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -5994,7 +5994,7 @@ nsSMILAnimationController
 *
 smilController
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6132,7 +6132,7 @@ on
 .
 mTimedDocumentRoot
 =
-nsnull
+nullptr
 ;
 mStartAnimationOnBindToTree
 =
@@ -6223,7 +6223,7 @@ mTimedDocumentRoot
 >
 SetParent
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -7169,7 +7169,7 @@ GetAnimatedLengthValues
 x
 &
 y
-nsnull
+nullptr
 )
 ;
 if
@@ -7755,7 +7755,7 @@ valPtr
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -8351,7 +8351,7 @@ valPtr
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -8415,7 +8415,7 @@ void
 (
 aValue
 )
-nsnull
+nullptr
 true
 )
 ;

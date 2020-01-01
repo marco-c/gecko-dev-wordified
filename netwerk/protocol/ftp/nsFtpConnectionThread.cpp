@@ -710,7 +710,7 @@ in
 .
 OnTransportStatus
 (
-nsnull
+nullptr
 NS_NET_STATUS_BEGIN_FTP_TRANSACTION
 0
 0
@@ -1503,7 +1503,7 @@ nsFtpControlConnection
 *
 connection
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -1748,12 +1748,12 @@ mControlConnection
 >
 WaitData
 (
-nsnull
+nullptr
 )
 ;
 mControlConnection
 =
-nsnull
+nullptr
 ;
 }
 LOG
@@ -1891,7 +1891,7 @@ rv
 ;
 mControlConnection
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -4841,7 +4841,7 @@ prompter
 >
 Alert
 (
-nsnull
+nullptr
 formattedString
 .
 get
@@ -6159,7 +6159,7 @@ Doom
 ;
 mCacheEntry
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -6498,7 +6498,7 @@ Doom
 ;
 mCacheEntry
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -7944,11 +7944,11 @@ NS_ERROR_ABORT
 ;
 mDataTransport
 =
-nsnull
+nullptr
 ;
 mDataStream
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -8122,7 +8122,7 @@ sts
 >
 CreateTransport
 (
-nsnull
+nullptr
 0
 host
 port
@@ -8428,7 +8428,7 @@ copier
 AsyncCopy
 (
 this
-nsnull
+nullptr
 )
 ;
 if
@@ -9166,7 +9166,7 @@ StreamListener
 (
 )
 out
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -10133,7 +10133,7 @@ mControlConnection
 >
 WaitData
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -10297,7 +10297,7 @@ NS_BINDING_ABORTED
 }
 mControlConnection
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -10463,7 +10463,7 @@ prompter
 >
 Alert
 (
-nsnull
+nullptr
 NS_ConvertASCIItoUTF16
 (
 mResponseMsg
@@ -10519,7 +10519,7 @@ problem
 ?
 OnTransportStatus
 (
-nsnull
+nullptr
 NS_NET_STATUS_END_FTP_TRANSACTION
 0
 0
@@ -12013,7 +12013,7 @@ mChannel
 >
 OnTransportStatus
 (
-nsnull
+nullptr
 status
 progress
 mFileSize
@@ -12409,7 +12409,7 @@ status
 {
 mUploadRequest
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -12775,7 +12775,7 @@ NS_ERROR_ABORT
 ;
 mUploadRequest
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -12800,12 +12800,12 @@ NS_ERROR_ABORT
 ;
 mDataTransport
 =
-nsnull
+nullptr
 ;
 }
 mDataStream
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -12823,7 +12823,7 @@ Doom
 ;
 mCacheEntry
 =
-nsnull
+nullptr
 ;
 return
 nsBaseContentStream
