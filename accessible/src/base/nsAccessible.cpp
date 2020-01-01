@@ -3060,14 +3060,6 @@ aFirstChild
 =
 nsnull
 ;
-if
-(
-gIsCacheDisabled
-)
-InvalidateChildren
-(
-)
-;
 PRInt32
 childCount
 =
