@@ -434,6 +434,16 @@ returning
 MIRType_None
 otherwise
 .
+if
+(
+!
+hasBaselineScript
+(
+)
+)
+return
+MIRType_None
+;
 const
 ICEntry
 &
