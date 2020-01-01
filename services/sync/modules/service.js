@@ -3816,6 +3816,8 @@ i
 +
 )
 {
+/
+/
 this
 .
 _log
@@ -3867,6 +3869,8 @@ resetScore
 )
 ;
 }
+/
+/
 this
 .
 _log
