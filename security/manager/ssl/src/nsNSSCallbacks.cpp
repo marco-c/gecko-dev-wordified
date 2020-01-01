@@ -1514,10 +1514,9 @@ AddRef
 (
 )
 {
-NS_AtomicIncrementRefcnt
-(
++
++
 mRefCount
-)
 ;
 }
 void
@@ -1531,10 +1530,9 @@ Release
 int32_t
 newRefCount
 =
-NS_AtomicDecrementRefcnt
-(
+-
+-
 mRefCount
-)
 ;
 if
 (
@@ -2749,7 +2747,7 @@ mLoader
 ;
 }
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsHTTPListener
 nsIStreamLoaderObserver

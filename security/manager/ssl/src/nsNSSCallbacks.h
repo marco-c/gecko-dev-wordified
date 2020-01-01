@@ -273,7 +273,7 @@ nsHTTPListener
 (
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSISTREAMLOADEROBSERVER
 nsCOMPtr
 <
@@ -429,7 +429,10 @@ nsNSSHttpRequestSession
 {
 protected
 :
-int32_t
+mozilla
+:
+:
+ThreadSafeAutoRefCnt
 mRefCount
 ;
 public
