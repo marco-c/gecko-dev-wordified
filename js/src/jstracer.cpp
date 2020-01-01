@@ -10409,7 +10409,10 @@ lir
 >
 insImmPtr
 (
-&
+(
+void
+*
+)
 js_ObjectOps
 .
 newObjectMap
