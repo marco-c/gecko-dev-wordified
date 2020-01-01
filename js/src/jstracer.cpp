@@ -4957,6 +4957,15 @@ constvalq
 &
 isPromote
 (
+args
+[
+1
+]
+)
+&
+&
+isPromote
+(
 s0
 )
 )
