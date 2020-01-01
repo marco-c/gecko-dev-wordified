@@ -620,16 +620,6 @@ rv
 mWebShellSvc
 -
 >
-SetRendering
-(
-PR_FALSE
-)
-;
-rv
-=
-mWebShellSvc
--
->
 StopDocumentLoad
 (
 )
