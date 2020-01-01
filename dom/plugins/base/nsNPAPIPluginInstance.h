@@ -1243,7 +1243,7 @@ cache
 this
 NPAPI
 plugin
-nsresult
+void
 SetCached
 (
 bool
