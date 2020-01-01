@@ -122,13 +122,6 @@ nsIDOMHTMLIFrameElement
 .
 h
 "
-#
-include
-"
-nsIDOMGetSVGDocument
-.
-h
-"
 namespace
 mozilla
 {
@@ -143,8 +136,6 @@ public
 nsGenericHTMLFrameElement
 public
 nsIDOMHTMLIFrameElement
-public
-nsIDOMGetSVGDocument
 {
 public
 :
@@ -192,10 +183,6 @@ NS_FORWARD_NSIDOMHTMLELEMENT_TO_GENERIC
 /
 nsIDOMHTMLIFrameElement
 NS_DECL_NSIDOMHTMLIFRAMEELEMENT
-/
-/
-nsIDOMGetSVGDocument
-NS_DECL_NSIDOMGETSVGDOCUMENT
 /
 /
 nsIContent
