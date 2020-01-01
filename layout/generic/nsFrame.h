@@ -3978,6 +3978,7 @@ static
 PRBool
 ApplyPaginatedOverflowClipping
 (
+const
 nsIFrame
 *
 aFrame
