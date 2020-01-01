@@ -15816,6 +15816,10 @@ nsIFrameMessageManager
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
+nsISyncMessageSender
+)
+DOM_CLASSINFO_MAP_ENTRY
+(
 nsIContentFrameMessageManager
 )
 DOM_CLASSINFO_MAP_END
