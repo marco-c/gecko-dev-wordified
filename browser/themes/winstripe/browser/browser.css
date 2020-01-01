@@ -1193,8 +1193,6 @@ appearance
 none
 ;
 background
--
-image
 :
 -
 moz
@@ -1356,8 +1354,10 @@ window
 inactive
 {
 background
+-
+image
 :
-transparent
+none
 ;
 border
 -
