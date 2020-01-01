@@ -1311,6 +1311,8 @@ text
 "
 )
 NS_EVENT_FLAG_BUBBLE
+|
+NS_EVENT_FLAG_SYSTEM_EVENT
 )
 ;
 elmP
@@ -1326,6 +1328,8 @@ compositionstart
 "
 )
 NS_EVENT_FLAG_BUBBLE
+|
+NS_EVENT_FLAG_SYSTEM_EVENT
 )
 ;
 elmP
@@ -1341,6 +1345,8 @@ compositionend
 "
 )
 NS_EVENT_FLAG_BUBBLE
+|
+NS_EVENT_FLAG_SYSTEM_EVENT
 )
 ;
 return
@@ -1653,6 +1659,8 @@ text
 "
 )
 NS_EVENT_FLAG_BUBBLE
+|
+NS_EVENT_FLAG_SYSTEM_EVENT
 )
 ;
 elmP
@@ -1668,6 +1676,8 @@ compositionstart
 "
 )
 NS_EVENT_FLAG_BUBBLE
+|
+NS_EVENT_FLAG_SYSTEM_EVENT
 )
 ;
 elmP
@@ -1683,6 +1693,8 @@ compositionend
 "
 )
 NS_EVENT_FLAG_BUBBLE
+|
+NS_EVENT_FLAG_SYSTEM_EVENT
 )
 ;
 }
