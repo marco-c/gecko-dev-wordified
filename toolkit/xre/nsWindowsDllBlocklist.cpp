@@ -1536,7 +1536,13 @@ AddHook
 "
 LdrLoadDll
 "
+reinterpret_cast
+<
+intptr_t
+>
+(
 patched_LdrLoadDll
+)
 (
 void
 *
