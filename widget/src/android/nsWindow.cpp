@@ -5589,16 +5589,6 @@ context
 "
 )
 ;
-sGLContext
--
->
-fClear
-(
-LOCAL_GL_COLOR_BUFFER_BIT
-|
-LOCAL_GL_DEPTH_BUFFER_BIT
-)
-;
 DrawTo
 (
 nsnull
