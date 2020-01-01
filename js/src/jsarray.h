@@ -1024,10 +1024,6 @@ js
 Value
 *
 vector
-bool
-holey
-=
-false
 )
 ;
 /
