@@ -20215,6 +20215,17 @@ nsIFrame
 aNewInnerFrame
 )
 {
+*
+(
+(
+void
+*
+)
+0
+)
+=
+1
+;
 nsresult
 rv
 =
