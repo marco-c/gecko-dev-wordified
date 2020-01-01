@@ -10468,6 +10468,7 @@ gcIncrementalState
 NO_INCREMENTAL
 &
 &
+(
 comp
 -
 >
@@ -10477,6 +10478,15 @@ comp
 -
 >
 gcTriggerBytes
+|
+|
+comp
+-
+>
+isTooMuchMalloc
+(
+)
+)
 ;
 for
 (
@@ -20233,13 +20243,6 @@ runtime
 gcNumber
 +
 +
-;
-runtime
--
->
-resetGCMallocBytes
-(
-)
 ;
 /
 *
