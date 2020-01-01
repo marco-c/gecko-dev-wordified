@@ -3281,9 +3281,7 @@ exists
 let
 stream
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -3304,9 +3302,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFileInputStream
 )
@@ -3368,7 +3364,9 @@ e
 17
 =
 JavascriptException
-sendError
+sandbox
+.
+asyncComplete
 (
 e
 .
@@ -3382,9 +3380,6 @@ e
 .
 message
 17
-e
-.
-stack
 )
 ;
 }
