@@ -26719,6 +26719,13 @@ aFontMetrics
 underlineSize
 )
 ;
+gfxFloat
+descentLimit
+=
+aFontMetrics
+.
+maxDescent
+;
 switch
 (
 aType
@@ -27005,6 +27012,7 @@ aFontMetrics
 underlineOffset
 NS_STYLE_TEXT_DECORATION_UNDERLINE
 style
+descentLimit
 )
 ;
 }
@@ -31256,6 +31264,13 @@ AppUnitsToGfxUnits
 mAscent
 )
 ;
+gfxFloat
+descentLimit
+=
+metrics
+.
+maxDescent
+;
 SelectionDetails
 *
 details
@@ -31399,6 +31414,7 @@ ascent
 underlineOffset
 NS_STYLE_TEXT_DECORATION_UNDERLINE
 style
+descentLimit
 )
 ;
 aRect
