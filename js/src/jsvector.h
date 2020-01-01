@@ -454,6 +454,13 @@ new
 #
 include
 "
+jsutil
+.
+h
+"
+#
+include
+"
 jsbit
 .
 h
