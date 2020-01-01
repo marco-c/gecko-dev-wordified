@@ -10601,7 +10601,7 @@ script
 ;
 if
 (
-callScope
+environment
 (
 )
 )
@@ -10609,7 +10609,7 @@ MarkObject
 (
 trc
 *
-callScope
+environment
 (
 )
 "
@@ -14675,7 +14675,7 @@ NULL
 fun
 -
 >
-setCallScope
+setEnvironment
 (
 parent
 )
@@ -14976,7 +14976,7 @@ isInterpreted
 clone
 -
 >
-setCallScope
+setEnvironment
 (
 parent
 )

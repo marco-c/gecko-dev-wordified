@@ -5667,7 +5667,7 @@ t0
 JSFunction
 :
 :
-offsetOfCallScope
+offsetOfEnvironment
 (
 )
 )
@@ -43091,7 +43091,7 @@ objReg
 JSFunction
 :
 :
-offsetOfCallScope
+offsetOfEnvironment
 (
 )
 )

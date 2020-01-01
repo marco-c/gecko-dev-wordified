@@ -3437,12 +3437,9 @@ initCallFrame
 JSContext
 *
 cx
-JSObject
+JSFunction
 &
 callee
-JSFunction
-*
-fun
 JSScript
 *
 script

@@ -483,7 +483,7 @@ JSObject
 JSFunction
 :
 :
-callScope
+environment
 (
 )
 const
@@ -500,7 +500,7 @@ u
 .
 i
 .
-scope
+env
 ;
 }
 inline
@@ -508,7 +508,7 @@ void
 JSFunction
 :
 :
-setCallScope
+setEnvironment
 (
 JSObject
 *
@@ -526,7 +526,7 @@ u
 .
 i
 .
-scope
+env
 =
 obj
 ;
@@ -2349,7 +2349,7 @@ NULL
 fun
 -
 >
-setCallScope
+setEnvironment
 (
 parent
 )
@@ -2491,7 +2491,7 @@ fun
 fun
 -
 >
-callScope
+environment
 (
 )
 fun
