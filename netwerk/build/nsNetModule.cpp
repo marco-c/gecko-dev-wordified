@@ -2434,13 +2434,6 @@ defined
 (
 XP_WIN
 )
-&
-&
-!
-defined
-(
-WINCE
-)
 #
 include
 "
@@ -5400,13 +5393,6 @@ if
 defined
 (
 XP_WIN
-)
-&
-&
-!
-defined
-(
-WINCE
 )
 {
 NS_NETWORK_LINK_SERVICE_CLASSNAME
