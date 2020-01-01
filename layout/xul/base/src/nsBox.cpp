@@ -1233,14 +1233,10 @@ NS_FRAME_NO_MOVE_FRAME
 )
 SetSize
 (
-nsSize
+aRect
+.
+Size
 (
-aRect
-.
-width
-aRect
-.
-height
 )
 )
 ;

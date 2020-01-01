@@ -5787,14 +5787,10 @@ height
 FinishAndStoreOverflow
 (
 overflow
-nsSize
+groupRect
+.
+Size
 (
-groupRect
-.
-width
-groupRect
-.
-height
 )
 )
 ;

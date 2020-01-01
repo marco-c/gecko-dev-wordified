@@ -2790,14 +2790,10 @@ height
 )
 size
 =
-nsSize
+mSubRect
+.
+Size
 (
-mSubRect
-.
-width
-mSubRect
-.
-height
 )
 ;
 else
