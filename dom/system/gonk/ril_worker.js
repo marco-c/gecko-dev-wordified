@@ -56977,7 +56977,7 @@ available
 ;
 this
 .
-getPNN
+readPNN
 (
 )
 ;
@@ -60286,10 +60286,10 @@ SIM
 .
 *
 /
-getPNN
+readPNN
 :
 function
-getPNN
+readPNN
 (
 )
 {
