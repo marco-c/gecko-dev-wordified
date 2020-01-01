@@ -1139,10 +1139,7 @@ in
 layer
 coordinates
 .
-gfx
-:
-:
-Point
+gfxPoint
 metricsScrollOffset
 =
 aMetrics
