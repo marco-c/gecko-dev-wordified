@@ -120,6 +120,10 @@ defined
 (
 __GNUC__
 )
+#
+define
+MOZ_IS_GCC
+1
 /
 *
 *
@@ -229,6 +233,12 @@ build
 "
 #
 endif
+#
+else
+#
+define
+MOZ_IS_GCC
+0
 #
 endif
 #
