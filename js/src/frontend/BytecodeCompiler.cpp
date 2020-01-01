@@ -1939,7 +1939,7 @@ FunctionNode
 :
 create
 (
-PNK_NAME
+PNK_FUNCTION
 &
 parser
 )
@@ -1956,6 +1956,13 @@ fn
 -
 >
 pn_body
+=
+NULL
+;
+fn
+-
+>
+pn_funbox
 =
 NULL
 ;
