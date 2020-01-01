@@ -1582,6 +1582,13 @@ JSOp
 op
 )
 ;
+bool
+jsop_arginc
+(
+JSOp
+op
+)
+;
 private
 :
 JSAtom
