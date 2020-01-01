@@ -602,15 +602,6 @@ aThing
 )
 ;
 void
-MaybeTraverseGlobals
-(
-nsCycleCollectionNoteRootCallback
-&
-aCb
-)
-const
-;
-void
 TraverseNativeRoots
 (
 nsCycleCollectionNoteRootCallback
