@@ -513,10 +513,7 @@ rv
 =
 GetTextFromRelationID
 (
-nsAccessibilityAtoms
-:
-:
-labelledby
+eAria_labelledby
 name
 )
 ;
@@ -547,10 +544,7 @@ rv
 =
 GetTextFromRelationID
 (
-nsAccessibilityAtoms
-:
-:
-describedby
+eAria_describedby
 description
 )
 ;
