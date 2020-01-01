@@ -969,6 +969,12 @@ mContext
 if
 (
 !
+GeckoApp
+.
+sIsUsingCustomProfile
+&
+&
+!
 profileMigrator
 .
 isProfileMoved
