@@ -4150,7 +4150,6 @@ AppendInt
 COOKIES_SCHEMA_VERSION
 )
 ;
-nsresult
 rv
 =
 mDBConn
