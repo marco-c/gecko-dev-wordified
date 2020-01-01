@@ -24,7 +24,7 @@ libpng
 31
 [
 August
-21
+19
 2008
 ]
 *
@@ -252,8 +252,6 @@ png_debug
 "
 in
 png_write_info_before_PLTE
-\
-n
 "
 )
 ;
@@ -710,8 +708,6 @@ png_debug
 writing
 extra
 chunks
-\
-n
 "
 )
 ;
@@ -908,8 +904,6 @@ png_debug
 "
 in
 png_write_info
-\
-n
 "
 )
 ;
@@ -1530,8 +1524,6 @@ d
 type
 %
 d
-\
-n
 "
 i
 info_ptr
@@ -1931,8 +1923,6 @@ png_debug
 writing
 extra
 chunks
-\
-n
 "
 )
 ;
@@ -2143,8 +2133,6 @@ png_debug
 "
 in
 png_write_end
-\
-n
 "
 )
 ;
@@ -2353,8 +2341,6 @@ d
 type
 %
 d
-\
-n
 "
 i
 info_ptr
@@ -2713,8 +2699,6 @@ png_debug
 writing
 extra
 chunks
-\
-n
 "
 )
 ;
@@ -3024,8 +3008,6 @@ png_debug
 "
 in
 png_convert_from_struct_tm
-\
-n
 "
 )
 ;
@@ -3137,8 +3119,6 @@ png_debug
 "
 in
 png_convert_from_time_t
-\
-n
 "
 )
 ;
@@ -3276,8 +3256,6 @@ png_debug
 "
 in
 png_create_write_struct
-\
-n
 "
 )
 ;
@@ -4382,8 +4360,6 @@ png_debug
 "
 in
 png_write_init_3
-\
-n
 "
 )
 ;
@@ -4670,8 +4646,6 @@ png_debug
 "
 in
 png_write_rows
-\
-n
 "
 )
 ;
@@ -4803,8 +4777,6 @@ png_debug
 "
 in
 png_write_image
-\
-n
 "
 )
 ;
@@ -4958,8 +4930,6 @@ pass
 %
 d
 )
-\
-n
 "
 png_ptr
 -
@@ -5683,8 +5653,6 @@ color_type
 =
 %
 d
-\
-n
 "
 png_ptr
 -
@@ -5705,8 +5673,6 @@ width
 =
 %
 lu
-\
-n
 "
 png_ptr
 -
@@ -5727,8 +5693,6 @@ channels
 =
 %
 d
-\
-n
 "
 png_ptr
 -
@@ -5749,8 +5713,6 @@ bit_depth
 =
 %
 d
-\
-n
 "
 png_ptr
 -
@@ -5771,8 +5733,6 @@ pixel_depth
 =
 %
 d
-\
-n
 "
 png_ptr
 -
@@ -5793,8 +5753,6 @@ rowbytes
 =
 %
 lu
-\
-n
 "
 png_ptr
 -
@@ -6191,8 +6149,6 @@ png_debug
 "
 in
 png_set_flush
-\
-n
 "
 )
 ;
@@ -6248,8 +6204,6 @@ png_debug
 "
 in
 png_write_flush
-\
-n
 "
 )
 ;
@@ -6616,8 +6570,6 @@ png_debug
 "
 in
 png_destroy_write_struct
-\
-n
 "
 )
 ;
@@ -6913,8 +6865,6 @@ png_debug
 "
 in
 png_write_destroy
-\
-n
 "
 )
 ;
@@ -7242,8 +7192,6 @@ png_debug
 "
 in
 png_set_filter
-\
-n
 "
 )
 ;
@@ -8049,8 +7997,6 @@ png_debug
 "
 in
 png_set_filter_heuristics
-\
-n
 "
 )
 ;
@@ -8772,8 +8718,6 @@ png_debug
 "
 in
 png_set_compression_level
-\
-n
 "
 )
 ;
@@ -8818,8 +8762,6 @@ png_debug
 "
 in
 png_set_compression_mem_level
-\
-n
 "
 )
 ;
@@ -8864,8 +8806,6 @@ png_debug
 "
 in
 png_set_compression_strategy
-\
-n
 "
 )
 ;
@@ -9034,8 +8974,6 @@ png_debug
 "
 in
 png_set_compression_method
-\
-n
 "
 )
 ;
@@ -9135,8 +9073,6 @@ png_debug
 "
 in
 png_set_write_user_transform_fn
-\
-n
 "
 )
 ;
@@ -9429,16 +9365,7 @@ PNG_WRITE_FILLER_SUPPORTED
 )
 /
 *
-Get
-rid
-of
-filler
-(
-OR
-ALPHA
-)
-bytes
-pack
+Pack
 XRGB
 /
 RGBX
@@ -9457,21 +9384,27 @@ channels
 3
 channels
 )
-.
-The
-second
-parameter
-is
-not
-used
-.
 *
 /
 if
 (
 transforms
 &
-PNG_TRANSFORM_STRIP_FILLER
+PNG_TRANSFORM_STRIP_FILLER_AFTER
+)
+png_set_filler
+(
+png_ptr
+0
+PNG_FILLER_AFTER
+)
+;
+else
+if
+(
+transforms
+&
+PNG_TRANSFORM_STRIP_FILLER_BEFORE
 )
 png_set_filler
 (
@@ -9734,8 +9667,6 @@ png_debug
 "
 in
 png_write_frame_head
-\
-n
 "
 )
 ;
@@ -9865,8 +9796,6 @@ png_debug
 "
 in
 png_write_frame_tail
-\
-n
 "
 )
 ;

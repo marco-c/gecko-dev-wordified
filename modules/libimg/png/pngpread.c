@@ -21,10 +21,10 @@ libpng
 .
 2
 .
-30
+32
 [
-August
-13
+September
+18
 2008
 ]
 *
@@ -8072,6 +8072,8 @@ png_ptr
 zstream
 .
 avail_out
++
+1
 )
 )
 ;

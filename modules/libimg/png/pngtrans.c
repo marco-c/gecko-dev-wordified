@@ -157,8 +157,6 @@ png_debug
 "
 in
 png_set_bgr
-\
-n
 "
 )
 ;
@@ -218,8 +216,6 @@ png_debug
 "
 in
 png_set_swap
-\
-n
 "
 )
 ;
@@ -287,8 +283,6 @@ png_debug
 "
 in
 png_set_packing
-\
-n
 "
 )
 ;
@@ -365,8 +359,6 @@ png_debug
 "
 in
 png_set_packswap
-\
-n
 "
 )
 ;
@@ -427,8 +419,6 @@ png_debug
 "
 in
 png_set_shift
-\
-n
 "
 )
 ;
@@ -488,8 +478,6 @@ png_debug
 in
 png_set_interlace
 handling
-\
-n
 "
 )
 ;
@@ -619,8 +607,6 @@ png_debug
 "
 in
 png_set_filler
-\
-n
 "
 )
 ;
@@ -843,8 +829,6 @@ png_debug
 "
 in
 png_set_add_alpha
-\
-n
 "
 )
 ;
@@ -904,8 +888,6 @@ png_debug
 "
 in
 png_set_swap_alpha
-\
-n
 "
 )
 ;
@@ -956,8 +938,6 @@ png_debug
 "
 in
 png_set_invert_alpha
-\
-n
 "
 )
 ;
@@ -1007,8 +987,6 @@ png_debug
 "
 in
 png_set_invert_mono
-\
-n
 "
 )
 ;
@@ -1058,8 +1036,6 @@ png_debug
 "
 in
 png_do_invert
-\
-n
 "
 )
 ;
@@ -1399,8 +1375,6 @@ png_debug
 "
 in
 png_do_swap
-\
-n
 "
 )
 ;
@@ -2348,8 +2322,6 @@ png_debug
 "
 in
 png_do_packswap
-\
-n
 "
 )
 ;
@@ -2534,8 +2506,6 @@ png_debug
 "
 in
 png_do_strip_filler
-\
-n
 "
 )
 ;
@@ -3500,8 +3470,6 @@ png_debug
 "
 in
 png_do_bgr
-\
-n
 "
 )
 ;
@@ -3951,8 +3919,6 @@ png_debug
 "
 in
 png_set_user_transform_info
-\
-n
 "
 )
 ;

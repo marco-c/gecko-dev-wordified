@@ -245,8 +245,6 @@ png_debug
 "
 in
 png_create_read_struct
-\
-n
 "
 )
 ;
@@ -1505,8 +1503,6 @@ png_debug
 "
 in
 png_read_init_3
-\
-n
 "
 )
 ;
@@ -1955,8 +1951,6 @@ png_debug
 "
 in
 png_read_info
-\
-n
 "
 )
 ;
@@ -3240,8 +3234,6 @@ png_debug
 Reading
 frame
 head
-\
-n
 "
 )
 ;
@@ -3641,8 +3633,6 @@ png_debug
 "
 in
 png_read_update_info
-\
-n
 "
 )
 ;
@@ -3765,8 +3755,6 @@ png_debug
 "
 in
 png_start_read_image
-\
-n
 "
 )
 ;
@@ -3901,8 +3889,6 @@ pass
 %
 d
 )
-\
-n
 "
 png_ptr
 -
@@ -5815,8 +5801,6 @@ png_debug
 "
 in
 png_read_rows
-\
-n
 "
 )
 ;
@@ -6157,8 +6141,6 @@ png_debug
 "
 in
 png_read_image
-\
-n
 "
 )
 ;
@@ -6361,8 +6343,6 @@ png_debug
 "
 in
 png_read_end
-\
-n
 "
 )
 ;
@@ -7450,8 +7430,6 @@ png_debug
 "
 in
 png_destroy_read_struct
-\
-n
 "
 )
 ;
@@ -7758,8 +7736,6 @@ png_debug
 "
 in
 png_read_destroy
-\
-n
 "
 )
 ;

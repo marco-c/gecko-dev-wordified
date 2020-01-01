@@ -562,8 +562,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 png_get_x_pixels_per_meter
@@ -658,8 +656,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 png_get_y_pixels_per_meter
@@ -754,8 +750,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 png_get_pixels_per_meter
@@ -865,8 +859,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 png_get_aspect_ratio
@@ -991,8 +983,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 png_get_x_offset_microns
@@ -1087,8 +1077,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 png_get_y_offset_microns
@@ -1183,8 +1171,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 png_get_x_offset_microns
@@ -1279,8 +1265,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 png_get_y_offset_microns
@@ -1556,8 +1540,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 pHYs
@@ -1873,8 +1855,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 bKGD
@@ -1982,8 +1962,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 cHRM
@@ -2218,8 +2196,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 cHRM
@@ -2423,8 +2399,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 gAMA
@@ -2511,8 +2485,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 gAMA
@@ -2601,8 +2573,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 sRGB
@@ -2711,8 +2681,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 iCCP
@@ -2920,8 +2888,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 hIST
@@ -3028,8 +2994,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 IHDR
@@ -3388,8 +3352,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 oFFs
@@ -3549,8 +3511,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 pCAL
@@ -3872,8 +3832,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 pHYs
@@ -4013,8 +3971,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 PLTE
@@ -4045,8 +4001,6 @@ num_palette
 =
 %
 d
-\
-n
 "
 *
 num_palette
@@ -4122,8 +4076,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 sBIT
@@ -4208,8 +4160,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 (
 png_ptr
@@ -4360,8 +4310,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 tIME
@@ -4456,8 +4404,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 tRNS
@@ -4632,8 +4578,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 acTL
@@ -4722,8 +4666,6 @@ in
 png_get_num_frames
 (
 )
-\
-n
 "
 )
 ;
@@ -4772,8 +4714,6 @@ in
 png_get_num_plays
 (
 )
-\
-n
 "
 )
 ;
@@ -4847,8 +4787,6 @@ in
 s
 retrieval
 function
-\
-n
 "
 "
 fcTL
@@ -5021,8 +4959,6 @@ in
 png_get_next_frame_width
 (
 )
-\
-n
 "
 )
 ;
@@ -5071,8 +5007,6 @@ in
 png_get_next_frame_height
 (
 )
-\
-n
 "
 )
 ;
@@ -5121,8 +5055,6 @@ in
 png_get_next_frame_x_offset
 (
 )
-\
-n
 "
 )
 ;
@@ -5171,8 +5103,6 @@ in
 png_get_next_frame_y_offset
 (
 )
-\
-n
 "
 )
 ;
@@ -5221,8 +5151,6 @@ in
 png_get_next_frame_delay_num
 (
 )
-\
-n
 "
 )
 ;
@@ -5271,8 +5199,6 @@ in
 png_get_next_frame_delay_den
 (
 )
-\
-n
 "
 )
 ;
@@ -5321,8 +5247,6 @@ in
 png_get_next_frame_dispose_op
 (
 )
-\
-n
 "
 )
 ;
@@ -5371,8 +5295,6 @@ in
 png_get_next_frame_blend_op
 (
 )
-\
-n
 "
 )
 ;
@@ -5421,8 +5343,6 @@ in
 png_first_frame_is_hidden
 (
 )
-\
-n
 "
 )
 ;

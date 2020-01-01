@@ -23,10 +23,10 @@ libpng
 .
 2
 .
-30
+34
 [
-August
-13
+December
+18
 2008
 ]
 *
@@ -756,6 +756,7 @@ break
 ;
 }
 }
+}
 if
 (
 png_ptr
@@ -788,7 +789,6 @@ warning_message
 offset
 )
 ;
-}
 else
 png_default_warning
 (

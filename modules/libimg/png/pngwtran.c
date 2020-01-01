@@ -144,8 +144,6 @@ png_debug
 "
 in
 png_do_write_transformations
-\
-n
 "
 )
 ;
@@ -716,8 +714,6 @@ png_debug
 "
 in
 png_do_pack
-\
-n
 "
 )
 ;
@@ -1323,8 +1319,6 @@ png_debug
 "
 in
 png_do_shift
-\
-n
 "
 )
 ;
@@ -2128,8 +2122,6 @@ png_debug
 "
 in
 png_do_write_swap_alpha
-\
-n
 "
 )
 ;
@@ -2738,8 +2730,6 @@ png_debug
 "
 in
 png_do_write_invert_alpha
-\
-n
 "
 )
 ;
@@ -3384,8 +3374,6 @@ png_debug
 "
 in
 png_do_write_intrapixel
-\
-n
 "
 )
 ;
