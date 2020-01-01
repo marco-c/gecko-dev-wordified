@@ -1232,6 +1232,14 @@ olState
 >
 mOLStateStack
 ;
+PRBool
+HasNoChildren
+(
+nsIContent
+*
+aContent
+)
+;
 }
 ;
 nsresult
