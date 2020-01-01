@@ -209,7 +209,7 @@ public
 class
 RemoteTabs
 extends
-Activity
+GeckoActivity
 implements
 ExpandableListView
 .

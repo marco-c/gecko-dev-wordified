@@ -779,7 +779,7 @@ public
 class
 AwesomeBar
 extends
-Activity
+GeckoActivity
 implements
 GeckoEventListener
 {
