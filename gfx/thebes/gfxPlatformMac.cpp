@@ -378,7 +378,7 @@ ReadAntiAliasingThreshold
 )
 ;
 uint32_t
-canvasMask
+backendMask
 =
 (
 1
@@ -401,15 +401,9 @@ BACKEND_SKIA
 BACKEND_COREGRAPHICS
 )
 ;
-uint32_t
-contentMask
-=
-0
-;
-InitBackendPrefs
+InitCanvasBackend
 (
-canvasMask
-contentMask
+backendMask
 )
 ;
 }
