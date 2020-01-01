@@ -50358,7 +50358,7 @@ size
 if
 (
 !
-ParseVariant
+ParseNonNegativeVariant
 (
 size
 VARIANT_KEYWORD
