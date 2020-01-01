@@ -682,10 +682,8 @@ margin
 :
 1em
 0
-0
 .
 2em
-0
 ;
 border
 -
@@ -768,7 +766,7 @@ text
 -
 indent
 :
-0px
+0
 ;
 }
 .
@@ -783,9 +781,6 @@ ul
 {
 margin
 :
-0
-0
-0
 0
 ;
 list
@@ -892,11 +887,6 @@ solid
 #
 ddd
 ;
-/
-*
-grey
-*
-/
 padding
 :
 6px
@@ -917,12 +907,6 @@ color
 #
 eee
 ;
-/
-*
-light
-grey
-*
-/
 font
 -
 weight
@@ -953,8 +937,6 @@ transparent
 ;
 border
 :
-0px
-solid
-transparent
+none
 ;
 }

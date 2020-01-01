@@ -521,6 +521,7 @@ rect
 32px
 0px
 )
+;
 }
 radio
 [
@@ -555,6 +556,7 @@ rect
 64px
 0px
 )
+;
 }
 /
 *
@@ -1327,7 +1329,6 @@ tabpanels
 padding
 :
 18px
-10px
 10px
 10px
 ;
