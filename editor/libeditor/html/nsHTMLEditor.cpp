@@ -27772,10 +27772,12 @@ prevSibOfRightNode
 ;
 result
 =
-GetPriorHTMLSibling
-(
 rightTextNode
-address_of
+-
+>
+GetPreviousSibling
+(
+getter_AddRefs
 (
 prevSibOfRightNode
 )
