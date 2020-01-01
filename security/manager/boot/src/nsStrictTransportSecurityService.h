@@ -961,6 +961,12 @@ aSourceURI
 char
 *
 aHeader
+uint64_t
+*
+aMaxAge
+bool
+*
+aIncludeSubdomains
 )
 ;
 const
@@ -1040,6 +1046,9 @@ nsTHashtable
 nsSTSHostEntry
 >
 mPrivateModeHostTable
+;
+bool
+mUsePreloadList
 ;
 }
 ;
