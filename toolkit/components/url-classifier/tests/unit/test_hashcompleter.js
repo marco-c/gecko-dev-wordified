@@ -1250,7 +1250,7 @@ do_test_pending
 server
 =
 new
-nsHttpServer
+HttpServer
 (
 )
 ;

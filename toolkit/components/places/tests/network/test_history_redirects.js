@@ -157,7 +157,7 @@ const
 HTTPSVR
 =
 new
-nsHttpServer
+HttpServer
 (
 )
 ;

@@ -974,7 +974,7 @@ false
 httpserver
 =
 new
-nsHttpServer
+HttpServer
 (
 )
 ;

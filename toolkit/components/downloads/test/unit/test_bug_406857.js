@@ -129,7 +129,7 @@ var
 httpserv
 =
 new
-nsHttpServer
+HttpServer
 (
 )
 ;

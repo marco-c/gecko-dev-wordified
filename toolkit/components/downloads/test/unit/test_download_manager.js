@@ -520,7 +520,7 @@ run_test
 httpserv
 =
 new
-nsHttpServer
+HttpServer
 (
 )
 ;
