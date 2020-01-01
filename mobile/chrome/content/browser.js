@@ -5004,6 +5004,8 @@ re
 -
 enabled
 plugins
+try
+{
 gPrefService
 .
 clearUserPref
@@ -5015,6 +5017,13 @@ disabledFlash
 "
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 var
 phs
 =
