@@ -483,13 +483,6 @@ h
 #
 include
 "
-nsCommonWidget
-.
-h
-"
-#
-include
-"
 nsAppShell
 .
 h
