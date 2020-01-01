@@ -6414,6 +6414,9 @@ gDialogWasExtended
 =
 PR_TRUE
 ;
+return
+TRUE
+;
 }
 return
 0L
@@ -9624,6 +9627,9 @@ dialog
 gDialogWasExtended
 =
 PR_TRUE
+;
+return
+TRUE
 ;
 }
 return
