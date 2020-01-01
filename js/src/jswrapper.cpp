@@ -7237,7 +7237,7 @@ CompartmentFilter
 targetFilter
 )
 {
-AutoTransplantGC
+AutoMaybeTouchDeadCompartments
 agc
 (
 cx

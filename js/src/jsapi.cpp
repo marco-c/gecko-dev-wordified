@@ -4273,7 +4273,7 @@ gcExactScanningEnabled
 (
 true
 )
-gcInTransplant
+gcManipulatingDeadCompartments
 (
 false
 )
@@ -7934,7 +7934,7 @@ target
 )
 )
 ;
-AutoTransplantGC
+AutoMaybeTouchDeadCompartments
 agc
 (
 cx
@@ -8514,7 +8514,7 @@ cx
 targetwrapperArg
 )
 ;
-AutoTransplantGC
+AutoMaybeTouchDeadCompartments
 agc
 (
 cx
