@@ -2251,7 +2251,7 @@ pool
 "
 script_analyze
 "
-4096
+256
 8
 )
 ;

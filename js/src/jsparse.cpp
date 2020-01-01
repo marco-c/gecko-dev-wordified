@@ -6258,7 +6258,7 @@ codePool
 "
 code
 "
-4096
+1024
 sizeof
 (
 jsbytecode
@@ -6272,7 +6272,7 @@ notePool
 "
 note
 "
-4096
+1024
 sizeof
 (
 jssrcnote
@@ -11774,7 +11774,7 @@ codePool
 "
 code
 "
-4096
+1024
 sizeof
 (
 jsbytecode
@@ -11788,7 +11788,7 @@ notePool
 "
 note
 "
-4096
+1024
 sizeof
 (
 jssrcnote
