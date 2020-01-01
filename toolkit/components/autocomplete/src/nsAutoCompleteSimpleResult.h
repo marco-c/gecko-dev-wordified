@@ -478,6 +478,10 @@ with
 value
 /
 comment
+/
+image
+/
+style
 contents
 .
 /
@@ -501,7 +505,7 @@ ourselves
 /
 /
 Having
-two
+four
 arrays
 of
 string
@@ -516,6 +520,12 @@ mValues
 ;
 nsStringArray
 mComments
+;
+nsStringArray
+mImages
+;
+nsStringArray
+mStyles
 ;
 nsString
 mSearchString
