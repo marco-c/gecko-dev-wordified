@@ -200,6 +200,15 @@ mozilla
 com
 >
 *
+Marco
+Bonardo
+<
+mak77
+bonardo
+.
+net
+>
+*
 *
 Alternatively
 the
@@ -630,7 +639,7 @@ aDate
 )
 {
 var
-placeID
+visitId
 =
 hs
 .
@@ -662,7 +671,7 @@ redirect
 )
 ;
 return
-placeID
+visitId
 ;
 }
 function
@@ -802,7 +811,7 @@ header
 const
 TEST_REPEAT_COUNT
 =
-10
+6
 ;
 /
 /
@@ -1041,8 +1050,10 @@ true
 report
 )
 ;
-runNextTest
+setTimeout
 (
+runNextTest
+0
 )
 ;
 }
@@ -1059,8 +1070,10 @@ test
 kick
 off
 tests
-runNextTest
+setTimeout
 (
+runNextTest
+0
 )
 ;
 }
@@ -1077,6 +1090,7 @@ length
 >
 0
 )
+{
 ptests
 .
 shift
@@ -1087,6 +1101,7 @@ run
 (
 )
 ;
+}
 else
 finish
 (
