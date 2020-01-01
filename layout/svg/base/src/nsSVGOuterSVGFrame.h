@@ -799,6 +799,10 @@ const
 void
 Paint
 (
+const
+nsDisplayListBuilder
+*
+aBuilder
 nsIRenderingContext
 &
 aRenderingContext
