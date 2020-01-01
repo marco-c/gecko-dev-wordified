@@ -1150,6 +1150,7 @@ AbortReason
 AbortReason_Alloc
 AbortReason_Inlining
 AbortReason_Disable
+AbortReason_Error
 AbortReason_NoAbort
 }
 ;

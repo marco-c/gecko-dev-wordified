@@ -3108,8 +3108,7 @@ i
 const
 ;
 inline
-TypeObject
-*
+bool
 getTypeOrSingleObject
 (
 JSContext
@@ -3117,6 +3116,10 @@ JSContext
 cx
 unsigned
 i
+TypeObject
+*
+*
+obj
 )
 const
 ;

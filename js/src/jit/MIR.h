@@ -37582,7 +37582,7 @@ MDefinition
 obj
 )
 ;
-MIRType
+bool
 DenseNativeElementType
 (
 JSContext
@@ -37591,6 +37591,9 @@ cx
 MDefinition
 *
 obj
+MIRType
+*
+result
 )
 ;
 bool
@@ -37616,8 +37619,9 @@ StackTypeSet
 observed
 bool
 updateObserved
-=
-true
+bool
+*
+result
 )
 ;
 bool
@@ -37638,6 +37642,9 @@ types
 StackTypeSet
 *
 observed
+bool
+*
+result
 )
 ;
 bool
@@ -37652,9 +37659,12 @@ obj
 PropertyName
 *
 name
+bool
+*
+result
 )
 ;
-void
+bool
 AddObjectsForPropertyRead
 (
 JSContext
@@ -37696,8 +37706,9 @@ MDefinition
 pvalue
 bool
 canModify
-=
-true
+bool
+*
+result
 )
 ;
 }
