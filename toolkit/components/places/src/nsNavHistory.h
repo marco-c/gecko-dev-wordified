@@ -705,13 +705,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h
