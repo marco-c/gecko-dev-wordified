@@ -1665,10 +1665,6 @@ toolbardecoration
 "
 )
 ;
-display
-:
-inline
-;
 }
 toolbarspring
 {
@@ -1706,10 +1702,6 @@ box
 flex
 :
 1000
-;
-display
-:
-inline
 ;
 }
 toolbarpaletteitem
@@ -4509,13 +4501,6 @@ label
 *
 *
 /
-spacer
-{
-display
-:
-inline
-;
-}
 description
 {
 -
