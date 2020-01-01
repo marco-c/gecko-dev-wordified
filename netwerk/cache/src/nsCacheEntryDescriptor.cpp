@@ -1733,6 +1733,9 @@ if
 (
 mAccessGranted
 &
+nsICache
+:
+:
 ACCESS_WRITE
 )
 )
