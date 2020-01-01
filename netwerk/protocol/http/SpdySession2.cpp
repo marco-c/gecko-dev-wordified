@@ -479,6 +479,16 @@ SpdySendingChunkSize
 (
 )
 ;
+if
+(
+!
+aHttpTransaction
+-
+>
+IsNullTransaction
+(
+)
+)
 AddStream
 (
 aHttpTransaction
