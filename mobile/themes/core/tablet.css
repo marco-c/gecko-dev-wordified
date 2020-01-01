@@ -318,7 +318,11 @@ border
 -
 radius
 :
-border_radius_tiny
+border_radius_xsmall
+;
+border
+:
+0px
 ;
 }
 .
@@ -457,7 +461,7 @@ margin
 -
 start
 :
-150px
+146px
 ;
 padding
 -
@@ -675,13 +679,13 @@ font
 -
 size
 :
-font_xtiny
+font_xxtiny
 !
 important
 ;
 padding
 :
-padding_small
+padding_snormal
 ;
 margin
 :
