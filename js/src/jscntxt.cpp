@@ -6171,6 +6171,9 @@ rt
 gcTriggerReason
 )
 ;
+#
+ifdef
+JS_ION
 /
 *
 *
@@ -6199,6 +6202,8 @@ AttachFinishedCompilations
 cx
 )
 ;
+#
+endif
 /
 *
 *

@@ -5510,6 +5510,9 @@ THROW
 )
 ;
 }
+#
+ifdef
+JS_ION
 void
 JS_FASTCALL
 stubs
@@ -5805,6 +5808,8 @@ false
 )
 ;
 }
+#
+endif
 void
 JS_FASTCALL
 stubs

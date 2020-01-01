@@ -279,6 +279,9 @@ inl
 h
 "
 #
+ifdef
+JS_ION
+#
 include
 "
 ion
@@ -287,6 +290,8 @@ IonMacroAssembler
 .
 h
 "
+#
+endif
 using
 namespace
 js
@@ -3845,6 +3850,9 @@ fptr
 )
 ;
 }
+#
+ifdef
+JS_ION
 bool
 generateIonStub
 (
@@ -6159,6 +6167,8 @@ return
 true
 ;
 }
+#
+endif
 bool
 generateFullCallStub
 (
@@ -9409,6 +9419,9 @@ disable
 (
 )
 ;
+#
+ifdef
+JS_ION
 /
 /
 If
@@ -9506,6 +9519,8 @@ NULL
 )
 ;
 }
+#
+endif
 return
 NULL
 ;

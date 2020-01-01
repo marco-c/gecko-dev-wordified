@@ -8802,6 +8802,9 @@ pcc
 cx
 )
 ;
+#
+ifdef
+JS_ION
 ion
 :
 :
@@ -8826,6 +8829,8 @@ cx
 NULL
 )
 ;
+#
+endif
 JSAutoResolveFlags
 rf
 (
