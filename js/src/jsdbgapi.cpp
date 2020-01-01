@@ -12208,10 +12208,7 @@ cx
 vp
 BOOLEAN_TO_JSVAL
 (
-Probes
-:
-:
-startProfiling
+JS_StartProfiling
 (
 )
 )
@@ -12235,6 +12232,10 @@ jsval
 vp
 )
 {
+JS_StopProfiling
+(
+)
+;
 JS_SET_RVAL
 (
 cx
