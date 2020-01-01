@@ -164,9 +164,11 @@ ttf
 )
 format
 (
+"
 truetype
 -
 aat
+"
 )
 url
 (
@@ -176,7 +178,9 @@ ttf
 )
 format
 (
+"
 opentype
+"
 )
 ;
 }
