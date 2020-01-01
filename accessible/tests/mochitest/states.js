@@ -803,6 +803,11 @@ aTestName
 Primary
 test
 .
+if
+(
+aState
+)
+{
 isState
 (
 state
@@ -824,6 +829,7 @@ id
 "
 )
 ;
+}
 if
 (
 aExtraState
