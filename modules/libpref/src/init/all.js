@@ -3230,6 +3230,7 @@ backends
 "
 "
 direct2d
+cairo
 "
 )
 ;
