@@ -1086,7 +1086,7 @@ read
 (
 )
 ;
-argv
+formals
 (
 )
 [
@@ -1217,7 +1217,7 @@ read
 (
 )
 ;
-argv
+formals
 (
 )
 [
@@ -1719,7 +1719,7 @@ callerArgc
 callerFrame
 -
 >
-numActualArgs
+nactual
 (
 )
 ;
@@ -1900,7 +1900,7 @@ callerFrame
 fp
 -
 >
-argv
+formals
 (
 )
 [
@@ -2503,7 +2503,7 @@ callee
 fp
 -
 >
-argv
+formals
 (
 )
 [

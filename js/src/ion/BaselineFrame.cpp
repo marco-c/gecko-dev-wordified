@@ -250,6 +250,18 @@ numFormalArgs
 )
 )
 ;
+JS_ASSERT
+(
+actuals
+(
+)
+=
+=
+formals
+(
+)
+)
+;
 gc
 :
 :
@@ -257,7 +269,7 @@ MarkValueRootRange
 (
 trc
 numArgs
-argv
+actuals
 (
 )
 "
@@ -480,7 +492,7 @@ vec
 begin
 (
 )
-argv
+formals
 (
 )
 nformals
