@@ -547,6 +547,10 @@ nsBaseWidget
 public
 nsSupportsWeakReference
 {
+typedef
+nsBaseWidget
+Base
+;
 /
 /
 The
@@ -650,6 +654,11 @@ PRBool
 aForceUseIWidgetParent
 =
 PR_FALSE
+)
+;
+NS_IMETHOD
+Destroy
+(
 )
 ;
 NS_IMETHOD
