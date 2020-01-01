@@ -33928,6 +33928,10 @@ const
 nsAString
 &
 aOrigin
+const
+jsval
+&
+aTransfer
 JSContext
 *
 aCx
@@ -33939,6 +33943,7 @@ PostMessageMoz
 (
 aMessage
 aOrigin
+aTransfer
 aCx
 )
 NS_ERROR_NOT_INITIALIZED
@@ -34643,6 +34648,7 @@ write
 (
 aCx
 aMessage
+aTransfer
 &
 kPostMessageCallbacks
 &
