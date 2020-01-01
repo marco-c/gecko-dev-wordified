@@ -1346,7 +1346,7 @@ hideChrome
 )
 ;
 }
-isTabCandyDisplayed
+isTabCandyVisible
 :
 function
 (
@@ -2692,7 +2692,7 @@ if
 (
 this
 .
-isTabCandyDisplayed
+isTabCandyVisible
 (
 )
 )
@@ -5799,7 +5799,7 @@ isAnimating
 !
 Page
 .
-isTabCandyDisplayed
+isTabCandyVisible
 (
 )
 )
