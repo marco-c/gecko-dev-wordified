@@ -1531,14 +1531,6 @@ input
 bool
 entered
 ;
-#
-ifdef
-DEBUG
-bool
-wasSane
-;
-#
-endif
 public
 :
 AutoCompartment

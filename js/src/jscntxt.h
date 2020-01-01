@@ -11194,6 +11194,11 @@ resetCompartment
 (
 )
 ;
+void
+wrapPendingException
+(
+)
+;
 /
 *
 '
