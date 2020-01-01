@@ -5734,7 +5734,7 @@ if
 cx
 -
 >
-jitEnabled
+traceJitEnabled
 )
 return
 NULL

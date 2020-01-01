@@ -2984,7 +2984,7 @@ cl
 )
 -
 >
-jitEnabled
+traceJitEnabled
 =
 false
 ;
