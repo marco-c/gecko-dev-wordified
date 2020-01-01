@@ -661,10 +661,7 @@ cancelSubmit
 ;
 protected
 :
-nsCOMPtr
-<
-nsIDOMWindow
->
+nsWeakPtr
 mWindow
 ;
 nsCOMPtr
