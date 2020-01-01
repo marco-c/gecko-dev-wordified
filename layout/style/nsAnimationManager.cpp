@@ -5975,7 +5975,7 @@ void
 nsAnimationManager
 :
 :
-DispatchEvents
+DoDispatchEvents
 (
 )
 {
