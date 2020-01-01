@@ -424,6 +424,9 @@ class
 nsStyleContext
 ;
 class
+nsIAtom
+;
+class
 nsIContent
 ;
 class
@@ -472,6 +475,9 @@ GetRuleNodeForContent
 nsIContent
 *
 aContent
+nsIAtom
+*
+aPseudo
 nsStyleContext
 *
 *
