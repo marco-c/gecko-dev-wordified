@@ -10624,7 +10624,7 @@ Devtools
 menuitems
 and
 listeners
-gDevTools
+gDevToolsBrowser
 .
 registerBrowserWindow
 (
@@ -10981,7 +10981,7 @@ _loadHandled
 )
 return
 ;
-gDevTools
+gDevToolsBrowser
 .
 forgetBrowserWindow
 (
@@ -49767,7 +49767,7 @@ defineLazyModuleGetter
 (
 this
 "
-DevToolsXULCommands
+gDevToolsBrowser
 "
 "
 resource
