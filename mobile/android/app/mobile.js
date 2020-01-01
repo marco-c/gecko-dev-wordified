@@ -5679,6 +5679,16 @@ click_to_play
 true
 )
 ;
+pref
+(
+"
+plugins
+.
+use_placeholder
+"
+1
+)
+;
 /
 /
 process
