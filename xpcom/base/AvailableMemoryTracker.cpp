@@ -2036,7 +2036,7 @@ low
 memory
 -
 events
--
+/
 virtual
 "
 )
@@ -2500,7 +2500,7 @@ low
 memory
 -
 events
--
+/
 physical
 "
 )

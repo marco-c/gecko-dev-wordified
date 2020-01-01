@@ -7707,7 +7707,7 @@ XPConnectJSSystemCompartmentCount
 js
 -
 compartments
--
+/
 system
 "
 KIND_OTHER
@@ -7781,7 +7781,7 @@ XPConnectJSUserCompartmentCount
 js
 -
 compartments
--
+/
 user
 "
 KIND_OTHER
