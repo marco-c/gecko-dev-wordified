@@ -16150,19 +16150,6 @@ set
 <
 ProtocolType
 >
-        
-self
-.
-visited
-=
-set
-(
-)
-#
-set
-<
-ProtocolType
->
     
 def
 findFriends
@@ -16178,9 +16165,11 @@ mytype
 =
 ptype
         
+toplevel
+=
 self
 .
-walkUpTheProtocolTree
+findToplevel
 (
 ptype
 )
@@ -16189,7 +16178,7 @@ self
 .
 walkDownTheProtocolTree
 (
-ptype
+toplevel
 )
         
 return
@@ -16210,7 +16199,7 @@ _iterProtocolTreeHelper
 .
     
 def
-walkUpTheProtocolTree
+findToplevel
 (
 self
 ptype
@@ -16218,34 +16207,24 @@ ptype
 :
         
 if
-not
 ptype
 .
-isManaged
+isToplevel
 (
 )
 :
             
 return
+ptype
         
-mtype
-=
+return
+self
+.
+findToplevel
+(
 ptype
 .
 manager
-        
-self
-.
-visit
-(
-mtype
-)
-        
-self
-.
-walkUpTheProtocolTree
-(
-mtype
 )
     
 def
@@ -16257,15 +16236,32 @@ ptype
 :
         
 if
-not
 ptype
+!
+=
+self
 .
-isManager
-(
-)
+mytype
 :
             
-return
+#
+don
+'
+t
+want
+to
+|
+friend
+|
+ourself
+!
+            
+self
+.
+visit
+(
+ptype
+)
         
 for
 mtype
@@ -16277,13 +16273,6 @@ manages
             
 self
 .
-visit
-(
-mtype
-)
-            
-self
-.
 walkDownTheProtocolTree
 (
 mtype
@@ -16297,24 +16286,16 @@ ptype
 )
 :
         
-if
-ptype
-in
-self
-.
+#
+|
+vtype
+|
+is
+the
+type
+currently
+being
 visited
-:
-            
-return
-        
-self
-.
-visited
-.
-add
-(
-ptype
-)
         
 savedptype
 =
