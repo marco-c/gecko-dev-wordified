@@ -10859,6 +10859,14 @@ displayRegistry
 id
 ]
 ;
+delete
+this
+.
+uriRegistry
+[
+uri
+]
+;
 }
 /
 *
