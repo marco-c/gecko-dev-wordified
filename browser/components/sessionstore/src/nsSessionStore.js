@@ -5216,6 +5216,8 @@ remove
 selection
 tabbrowser
 .
+tabContainer
+.
 addEventListener
 (
 "
@@ -5227,6 +5229,8 @@ true
 ;
 tabbrowser
 .
+tabContainer
+.
 addEventListener
 (
 "
@@ -5237,6 +5241,8 @@ true
 )
 ;
 tabbrowser
+.
+tabContainer
 .
 addEventListener
 (
@@ -5434,6 +5440,8 @@ gBrowser
 ;
 tabbrowser
 .
+tabContainer
+.
 removeEventListener
 (
 "
@@ -5445,6 +5453,8 @@ true
 ;
 tabbrowser
 .
+tabContainer
+.
 removeEventListener
 (
 "
@@ -5455,6 +5465,8 @@ true
 )
 ;
 tabbrowser
+.
+tabContainer
 .
 removeEventListener
 (
