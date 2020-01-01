@@ -3479,12 +3479,6 @@ run
 (
 )
 {
-mAwesomeTabs
-.
-refreshBookmarks
-(
-)
-;
 Toast
 .
 makeText
