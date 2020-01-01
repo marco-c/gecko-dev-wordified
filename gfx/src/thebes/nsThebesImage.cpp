@@ -3131,6 +3131,13 @@ defined
 (
 XP_WIN
 )
+&
+&
+!
+defined
+(
+XP_OS2
+)
 /
 /
 See
@@ -3234,6 +3241,12 @@ if
 defined
 (
 XP_WIN
+)
+|
+|
+defined
+(
+XP_OS2
 )
 /
 /
