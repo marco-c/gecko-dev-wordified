@@ -5448,7 +5448,7 @@ global
 |
 |
 !
-TextEncoderBinding_workers
+TextEncoderBinding
 :
 :
 GetConstructorObject
