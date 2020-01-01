@@ -159,7 +159,7 @@ h
 #
 include
 "
-nsIStyleSheet
+nsCSSStyleSheet
 .
 h
 "
@@ -246,11 +246,12 @@ aInstancePtr
 /
 nsIDOMLinkStyle
 NS_DECL_NSIDOMLINKSTYLE
-nsIStyleSheet
+nsCSSStyleSheet
 *
 GetSheet
 (
 )
+const
 {
 return
 mStyleSheet
@@ -262,7 +263,7 @@ nsIStyleSheetLinkingElement
 NS_IMETHOD
 SetStyleSheet
 (
-nsIStyleSheet
+nsCSSStyleSheet
 *
 aStyleSheet
 )
@@ -615,9 +616,9 @@ bool
 aForceUpdate
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIStyleSheet
+nsCSSStyleSheet
 >
 mStyleSheet
 ;

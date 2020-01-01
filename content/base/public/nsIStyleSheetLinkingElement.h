@@ -136,6 +136,9 @@ class
 nsIStyleSheet
 ;
 class
+nsCSSStyleSheet
+;
+class
 nsIStyleSheetLinkingElement
 :
 public
@@ -189,7 +192,7 @@ element
 NS_IMETHOD
 SetStyleSheet
 (
-nsIStyleSheet
+nsCSSStyleSheet
 *
 aStyleSheet
 )

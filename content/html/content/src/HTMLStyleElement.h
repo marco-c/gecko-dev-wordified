@@ -349,9 +349,6 @@ SetDisabled
 (
 bool
 aDisabled
-ErrorResult
-&
-aError
 )
 ;
 void
