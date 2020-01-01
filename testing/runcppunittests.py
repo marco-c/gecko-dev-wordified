@@ -81,6 +81,7 @@ mozprocess
 mozinfo
 mozlog
 mozcrash
+mozfile
 from
 contextlib
 import
@@ -94,30 +95,6 @@ getLogger
 '
 cppunittests
 '
-)
-contextmanager
-def
-TemporaryDirectory
-(
-)
-:
-    
-tempdir
-=
-tempfile
-.
-mkdtemp
-(
-)
-    
-yield
-tempdir
-    
-shutil
-.
-rmtree
-(
-tempdir
 )
 class
 CPPUnitTests
@@ -287,6 +264,8 @@ basename
 )
         
 with
+mozfile
+.
 TemporaryDirectory
 (
 )

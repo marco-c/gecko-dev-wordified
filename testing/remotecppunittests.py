@@ -1275,7 +1275,7 @@ getvalue
 )
         
 with
-cppunittests
+mozfile
 .
 TemporaryDirectory
 (
