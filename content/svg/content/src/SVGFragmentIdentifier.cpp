@@ -125,7 +125,7 @@ h
 #
 include
 "
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 .
 h
 "
@@ -1076,7 +1076,7 @@ transform
 )
 )
 {
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 transforms
 ;
 if

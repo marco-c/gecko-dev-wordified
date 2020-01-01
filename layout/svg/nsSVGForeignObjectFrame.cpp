@@ -1348,7 +1348,7 @@ nsSVGElement
 mContent
 )
 ;
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 *
 transformList
 =

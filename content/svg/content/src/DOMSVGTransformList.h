@@ -230,7 +230,7 @@ the
 architecture
 comment
 in
-DOMSVGAnimatedTransformList
+SVGAnimatedTransformList
 .
 h
 .
@@ -261,7 +261,10 @@ DOMSVGTransformList
 )
 DOMSVGTransformList
 (
-DOMSVGAnimatedTransformList
+dom
+:
+:
+SVGAnimatedTransformList
 *
 aAList
 const
@@ -1045,7 +1048,10 @@ mItems
 ;
 nsRefPtr
 <
-DOMSVGAnimatedTransformList
+dom
+:
+:
+SVGAnimatedTransformList
 >
 mAList
 ;

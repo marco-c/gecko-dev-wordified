@@ -142,7 +142,7 @@ h
 #
 include
 "
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 .
 h
 "
@@ -1037,7 +1037,7 @@ nsSVGElement
 mContent
 )
 ;
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 *
 transformList
 =
