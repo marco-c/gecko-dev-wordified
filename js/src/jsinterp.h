@@ -997,6 +997,9 @@ regs
 int
 next
 ;
+bool
+ok
+;
 }
 ;
 /
