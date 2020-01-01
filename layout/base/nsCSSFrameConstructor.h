@@ -347,13 +347,6 @@ update
 )
 ;
 }
-struct
-RestyleData
-;
-friend
-struct
-RestyleData
-;
 /
 /
 get
