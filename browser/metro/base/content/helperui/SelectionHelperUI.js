@@ -1797,7 +1797,7 @@ addEventListener
 click
 "
 this
-true
+false
 )
 ;
 window
@@ -1808,7 +1808,7 @@ addEventListener
 dblclick
 "
 this
-true
+false
 )
 ;
 /
@@ -2016,7 +2016,7 @@ removeEventListener
 click
 "
 this
-true
+false
 )
 ;
 window
@@ -2027,7 +2027,7 @@ removeEventListener
 dblclick
 "
 this
-true
+false
 )
 ;
 window
