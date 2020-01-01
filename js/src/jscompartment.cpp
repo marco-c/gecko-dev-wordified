@@ -3045,6 +3045,12 @@ purge
 (
 )
 ;
+dtoaCache
+.
+purge
+(
+)
+;
 /
 *
 Destroy
