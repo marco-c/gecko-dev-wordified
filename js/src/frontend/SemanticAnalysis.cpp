@@ -1212,6 +1212,8 @@ sc
 -
 >
 inFunction
+(
+)
 isDirectEval
 )
 ;

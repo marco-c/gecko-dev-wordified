@@ -1173,6 +1173,8 @@ sc
 -
 >
 inFunction
+(
+)
 )
 return
 false
