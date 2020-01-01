@@ -7350,7 +7350,7 @@ multiSelect
 nsAccUtils
 :
 :
-GetMultiSelectFor
+GetMultiSelectableContainer
 (
 targetNode
 )
