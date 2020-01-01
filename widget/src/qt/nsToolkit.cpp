@@ -681,6 +681,11 @@ nsToolkit
 (
 )
 {
+MOZ_COUNT_CTOR
+(
+nsToolkit
+)
+;
 }
 /
 /
@@ -843,6 +848,11 @@ nsToolkit
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsToolkit
+)
+;
 /
 /
 Remove

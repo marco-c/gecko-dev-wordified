@@ -477,6 +477,11 @@ nsToolkit
 (
 )
 {
+MOZ_COUNT_CTOR
+(
+nsToolkit
+)
+;
 }
 nsToolkit
 :
@@ -486,6 +491,11 @@ nsToolkit
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsToolkit
+)
+;
 PR_SetThreadPrivate
 (
 gToolkitTLSIndex
