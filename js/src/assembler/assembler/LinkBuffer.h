@@ -618,10 +618,15 @@ m_size
 (
 size
 )
+#
+ifndef
+NDEBUG
 m_completed
 (
 false
 )
+#
+endif
 {
 }
 ~
