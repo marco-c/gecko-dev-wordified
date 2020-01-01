@@ -5589,12 +5589,6 @@ nsWeakPtr
 >
 mPrivacyObservers
 ;
-nsTObserverArray
-<
-nsWeakPtr
->
-mReflowObservers
-;
 int32_t
 mParentCharsetSource
 ;
