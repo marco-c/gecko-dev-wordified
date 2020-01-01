@@ -2157,17 +2157,6 @@ this
 "
 BadCertHandler
 "
-"
-mozilla
-.
-org
-/
-io
--
-util
-;
-1
-"
 function
 (
 )
