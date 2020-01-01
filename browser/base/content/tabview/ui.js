@@ -2749,7 +2749,7 @@ self
 =
 this
 ;
-Tabs
+AllTabs
 .
 onClose
 (
@@ -3127,7 +3127,7 @@ false
 }
 )
 ;
-Tabs
+AllTabs
 .
 onMove
 (
@@ -3193,7 +3193,7 @@ activeGroup
 }
 )
 ;
-Tabs
+AllTabs
 .
 onSelect
 (

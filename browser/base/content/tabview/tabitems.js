@@ -4680,7 +4680,7 @@ thread
 in
 response
 to
-Tabs
+AllTabs
 .
 onFocus
 (
@@ -5379,7 +5379,7 @@ opened
 create
 the
 TabItem
-Tabs
+AllTabs
 .
 onOpen
 (
@@ -5460,7 +5460,7 @@ data
 if
 necessary
 .
-Tabs
+AllTabs
 .
 onChange
 (
@@ -5527,7 +5527,7 @@ is
 closed
 unlink
 .
-Tabs
+AllTabs
 .
 onClose
 (
@@ -5594,9 +5594,9 @@ create
 the
 link
 .
-Tabs
+AllTabs
 .
-allTabs
+tabs
 .
 forEach
 (

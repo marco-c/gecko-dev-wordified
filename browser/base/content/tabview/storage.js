@@ -795,9 +795,9 @@ this
 /
 ___
 Tabs
-Tabs
+AllTabs
 .
-allTabs
+tabs
 .
 forEach
 (
