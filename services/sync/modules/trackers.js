@@ -720,12 +720,6 @@ loadChangedIDs
 (
 )
 ;
-this
-.
-enable
-(
-)
-;
 }
 /
 *
