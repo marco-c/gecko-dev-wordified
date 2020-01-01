@@ -23138,6 +23138,11 @@ FindImgControlData
 )
 SIMPLE_INT_CREATE
 (
+NS_FORM_INPUT_EMAIL
+NS_NewTextControlFrame
+)
+SIMPLE_INT_CREATE
+(
 NS_FORM_INPUT_SEARCH
 NS_NewTextControlFrame
 )
