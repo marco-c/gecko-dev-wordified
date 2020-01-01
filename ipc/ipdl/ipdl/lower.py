@@ -5309,12 +5309,11 @@ NL
 )
         
 #
-constructor
-/
-destructor
-interface
-for
+message
+handlers
+the
 subclass
+has
 to
 impl
         
@@ -5401,6 +5400,18 @@ pure
 =
 True
                 
+actordecl
+=
+cxx
+.
+Decl
+(
+objtype
+'
+__a
+'
+)
+                
 if
 md
 .
@@ -5421,18 +5432,6 @@ objtype
                 
 else
 :
-                    
-actordecl
-=
-cxx
-.
-Decl
-(
-objtype
-'
-__a
-'
-)
                     
 meth
 .
@@ -5462,17 +5461,6 @@ self
 receivesMessage
 (
 md
-)
-and
-not
-md
-.
-decl
-.
-type
-.
-isCtor
-(
 )
 :
                 
@@ -5529,6 +5517,16 @@ decl
 .
 type
 .
+isCtor
+(
+)
+or
+md
+.
+decl
+.
+type
+.
 isDtor
 (
 )
@@ -5545,6 +5543,12 @@ notification
 #
 of
 "
+RecvCtor
+(
+)
+"
+or
+"
 RecvDtor
 (
 )
@@ -5552,12 +5556,12 @@ RecvDtor
 if
 they
 override
+                    
+#
 this
 do
 -
 nothing
-                    
-#
 virtual
 method
                     
@@ -5751,17 +5755,6 @@ Whitespace
 .
 NL
 )
-        
-#
-TODO
-manager
-param
-to
-constructor
-when
-protocol
-is
-managed
         
 cls
 .
@@ -11061,6 +11054,25 @@ __a
 )
 )
                 
+#
+call
+the
+concrete
+class
+'
+s
+"
+factory
+"
+method
+to
+                
+#
+instantiate
+a
+concrete
+actor
+                
 block
 .
 addstmt
@@ -11340,32 +11352,14 @@ C
 +
 handler
 hook
-for
-messages
-other
-than
-ctors
             
-if
-not
-md
-.
-decl
-.
-type
-.
-isCtor
-(
-)
-:
-                
 callimpl
 =
 cxx
 .
 ExprCall
 (
-                    
+                
 cxx
 .
 ExprVar
@@ -11381,8 +11375,18 @@ progname
 [
 ]
 )
-                
+            
 if
+md
+.
+decl
+.
+type
+.
+isCtor
+(
+)
+or
 md
 .
 decl
@@ -11393,7 +11397,7 @@ isDtor
 (
 )
 :
-                    
+                
 callimpl
 .
 args
@@ -11402,7 +11406,7 @@ args
 [
 objvar
 ]
-                
+            
 callimpl
 .
 args
@@ -11426,7 +11430,7 @@ _cxx
 .
 params
 ]
-                
+            
 callimpl
 .
 args
@@ -11446,7 +11450,7 @@ r
 name
 )
 )
-                                   
+                               
 for
 r
 in
@@ -11456,7 +11460,7 @@ _cxx
 .
 returns
 ]
-                
+            
 errhandle
 =
 cxx
@@ -11467,7 +11471,7 @@ cxx
 .
 ExprCall
 (
-                        
+                
 cxx
 .
 ExprVar
@@ -11481,7 +11485,7 @@ callimpl
 ]
 )
 )
-                
+            
 errhandle
 .
 ifb
@@ -11492,7 +11496,7 @@ cxx
 .
 StmtReturn
 (
-                        
+                
 cxx
 .
 ExprVar
@@ -11503,7 +11507,7 @@ MsgValueError
 )
 )
 )
-                
+            
 block
 .
 addstmt
