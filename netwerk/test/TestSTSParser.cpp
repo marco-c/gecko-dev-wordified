@@ -452,7 +452,6 @@ define
 EXPECT_SUCCESS
 (
 rv
-msg
 .
 .
 .
@@ -471,9 +470,6 @@ rv
 \
 fail
 (
-msg
-#
-#
 __VA_ARGS__
 )
 ;
@@ -490,7 +486,6 @@ define
 EXPECT_FAILURE
 (
 rv
-msg
 .
 .
 .
@@ -509,9 +504,6 @@ rv
 \
 fail
 (
-msg
-#
-#
 __VA_ARGS__
 )
 ;
@@ -529,7 +521,6 @@ REQUIRE_EQUAL
 (
 a
 b
-msg
 .
 .
 .
@@ -548,9 +539,6 @@ b
 \
 fail
 (
-msg
-#
-#
 __VA_ARGS__
 )
 ;
