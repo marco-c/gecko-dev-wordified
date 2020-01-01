@@ -6251,9 +6251,6 @@ pc
 (
 )
 {
-AutoAssertNoGC
-nogc
-;
 if
 (
 regs

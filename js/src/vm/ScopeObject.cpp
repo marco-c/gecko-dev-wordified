@@ -4231,9 +4231,6 @@ AbstractFramePtr
 frame
 )
 {
-AutoAssertNoGC
-nogc
-;
 StaticBlockObject
 &
 block
@@ -6519,9 +6516,6 @@ settle
 (
 )
 {
-AutoAssertNoGC
-nogc
-;
 /
 *
 *
@@ -8526,9 +8520,6 @@ shape
 )
 return
 false
-;
-AutoAssertNoGC
-nogc
 ;
 unsigned
 i

@@ -5185,9 +5185,6 @@ Interpret
 .
 *
 /
-AutoAssertNoGC
-nogc
-;
 for
 (
 TryNoteIter

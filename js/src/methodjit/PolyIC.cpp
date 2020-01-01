@@ -742,9 +742,6 @@ op
 #
 ifdef
 JS_METHODJIT_SPEW
-AutoAssertNoGC
-nogc
-;
 JaegerSpew
 (
 JSpew_PICs
@@ -5152,9 +5149,6 @@ testForGet
 (
 )
 {
-AutoAssertNoGC
-nogc
-;
 if
 (
 !
@@ -7479,9 +7473,6 @@ Jump
 shapeMismatches
 )
 {
-AutoAssertNoGC
-nogc
-;
 /
 *
 *
@@ -8442,9 +8433,6 @@ Jump
 shapeMismatches
 )
 {
-AutoAssertNoGC
-nogc
-;
 /
 *
 *
@@ -15721,9 +15709,6 @@ message
 #
 ifdef
 JS_METHODJIT_SPEW
-AutoAssertNoGC
-nogc
-;
 JaegerSpew
 (
 JSpew_PICs
@@ -15807,9 +15792,6 @@ VMFrame
 f
 )
 {
-AutoAssertNoGC
-nogc
-;
 JSContext
 *
 cx

@@ -651,9 +651,6 @@ RawShape
 shape
 )
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 inDictionary
@@ -791,9 +788,6 @@ Shape
 shape
 )
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 !
