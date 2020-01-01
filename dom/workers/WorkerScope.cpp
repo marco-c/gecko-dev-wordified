@@ -5437,7 +5437,7 @@ global
 |
 |
 !
-TextDecoderBinding_workers
+TextDecoderBinding
 :
 :
 GetConstructorObject
