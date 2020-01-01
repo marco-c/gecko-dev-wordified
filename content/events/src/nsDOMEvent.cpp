@@ -234,6 +234,13 @@ h
 #
 include
 "
+nsJSEnvironment
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h
@@ -495,6 +502,13 @@ PR_Now
 InitPresContextData
 (
 aPresContext
+)
+;
+nsJSContext
+:
+:
+LikelyShortLivingObjectCreated
+(
 )
 ;
 }
