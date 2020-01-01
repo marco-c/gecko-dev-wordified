@@ -40482,6 +40482,14 @@ fp
 argc
 )
 ;
+if
+(
+!
+from
+)
+return
+false
+;
 /
 *
 use
