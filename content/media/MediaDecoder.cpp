@@ -5355,7 +5355,7 @@ int64_t
 aBytes
 )
 {
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 mDecoderStateMachine
 )
@@ -6493,7 +6493,7 @@ int64_t
 aDuration
 )
 {
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 GetStateMachine
 (
@@ -6866,7 +6866,7 @@ int64_t
 aTime
 )
 {
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 GetStateMachine
 (

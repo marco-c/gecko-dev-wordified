@@ -663,7 +663,7 @@ thread
 "
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 aAudioReader
 )
@@ -736,7 +736,7 @@ thread
 "
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 aVideoReader
 )
@@ -3108,7 +3108,7 @@ switch
 access
 point
 .
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 0
 <
@@ -3116,7 +3116,7 @@ NS_ENSURE_TRUE
 mSwitchCount
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 (
 uint32_t
@@ -3186,7 +3186,7 @@ GetRepIdxForVideoSubsegmentLoad
 switchIdx
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 0
 <
@@ -3194,7 +3194,7 @@ NS_ENSURE_TRUE
 toReaderIdx
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 (
 uint32_t
@@ -3223,7 +3223,7 @@ mVideoReaders
 toReaderIdx
 ]
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 fromReader
 !
@@ -3372,7 +3372,7 @@ mVideoReaders
 toReaderIdx
 ]
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 (
 uint32_t
@@ -3386,7 +3386,7 @@ Length
 )
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 fromReader
 !

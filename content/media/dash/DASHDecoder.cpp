@@ -1727,7 +1727,7 @@ DASHDecoder
 ReadMPDBuffer
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 event
 )
@@ -5299,7 +5299,7 @@ Shutdown
 (
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 mShuttingDown
 )
@@ -5329,7 +5329,7 @@ Shutdown
 (
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 rv
 )

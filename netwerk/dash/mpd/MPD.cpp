@@ -568,7 +568,7 @@ Period
 aPeriod
 )
 {
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 aPeriod
 )
@@ -672,7 +672,7 @@ const
 aUrl
 )
 {
-NS_ENSURE_FALSE
+NS_ENSURE_FALSE_VOID
 (
 aUrl
 .

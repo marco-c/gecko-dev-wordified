@@ -3075,7 +3075,7 @@ domchannel
 )
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 rv
 )
