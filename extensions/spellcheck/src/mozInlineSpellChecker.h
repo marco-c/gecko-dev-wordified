@@ -158,7 +158,7 @@ h
 #
 include
 "
-nsIEditor
+nsEditor
 .
 h
 "
@@ -232,7 +232,10 @@ aSpellChecker
 nsresult
 InitForEditorChange
 (
-PRInt32
+nsEditor
+:
+:
+OperationID
 aAction
 nsIDOMNode
 *
