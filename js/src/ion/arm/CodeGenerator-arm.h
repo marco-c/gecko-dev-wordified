@@ -1188,14 +1188,6 @@ load
 )
 ;
 bool
-visitWriteBarrierT
-(
-LWriteBarrierT
-*
-barrier
-)
-;
-bool
 visitLoadElementT
 (
 LLoadElementT

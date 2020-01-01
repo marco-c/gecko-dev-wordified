@@ -974,7 +974,7 @@ true
 }
 virtual
 bool
-propertyWriteNeedsBarrier
+elementWriteNeedsBarrier
 (
 JSScript
 *
@@ -982,8 +982,6 @@ script
 jsbytecode
 *
 pc
-jsid
-id
 )
 {
 return
@@ -1637,7 +1635,7 @@ pc
 )
 ;
 bool
-propertyWriteNeedsBarrier
+elementWriteNeedsBarrier
 (
 JSScript
 *
@@ -1645,8 +1643,6 @@ script
 jsbytecode
 *
 pc
-jsid
-id
 )
 ;
 MIRType

@@ -872,6 +872,13 @@ r8
 static
 const
 Register
+PreBarrierReg
+=
+r1
+;
+static
+const
+Register
 InvalidReg
 =
 {

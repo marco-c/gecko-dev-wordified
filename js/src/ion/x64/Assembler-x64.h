@@ -1072,6 +1072,13 @@ ArgReg5
 ;
 #
 endif
+static
+const
+Register
+PreBarrierReg
+=
+rdx
+;
 /
 /
 GCC
