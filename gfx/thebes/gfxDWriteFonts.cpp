@@ -3630,7 +3630,13 @@ mFontFace
 >
 TryGetFontTable
 (
-NS_SWAP32
+mozilla
+:
+:
+NativeEndian
+:
+:
+swapToBigEndian
 (
 aTag
 )

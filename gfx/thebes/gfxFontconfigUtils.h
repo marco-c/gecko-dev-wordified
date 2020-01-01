@@ -133,6 +133,17 @@ h
 "
 #
 include
+"
+prbit
+.
+h
+"
+/
+/
+for
+PR_ROTATE_LEFT32
+#
+include
 <
 fontconfig
 /

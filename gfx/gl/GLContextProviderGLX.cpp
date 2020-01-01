@@ -209,6 +209,17 @@ h
 #
 include
 "
+prbit
+.
+h
+"
+/
+/
+for
+PR_FLOOR_LOG2
+#
+include
+"
 GLContextProvider
 .
 h
