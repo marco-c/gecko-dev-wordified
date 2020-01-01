@@ -2184,6 +2184,15 @@ return
 mCanBeMetered
 ;
 }
+short
+ScreenOrientation
+(
+)
+{
+return
+mScreenOrientation
+;
+}
 protected
 :
 int
@@ -2285,6 +2294,9 @@ mBandwidth
 ;
 bool
 mCanBeMetered
+;
+short
+mScreenOrientation
 ;
 void
 ReadIntArray
@@ -2504,6 +2516,10 @@ static
 jfieldID
 jCanBeMeteredField
 ;
+static
+jfieldID
+jScreenOrientationField
+;
 public
 :
 enum
@@ -2577,6 +2593,9 @@ NETWORK_CHANGED
 PROXIMITY_EVENT
 =
 23
+SCREENORIENTATION_CHANGED
+=
+24
 dummy_java_enum_list_end
 }
 ;
