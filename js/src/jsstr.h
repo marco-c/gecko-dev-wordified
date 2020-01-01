@@ -3706,13 +3706,10 @@ jschar
 c
 )
 {
-uint32
+unsigned
 w
 =
-uint32
-(
 c
-)
 ;
 if
 (
