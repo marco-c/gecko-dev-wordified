@@ -4322,7 +4322,7 @@ jsop_newinit
 (
 )
 ;
-void
+bool
 jsop_regexp
 (
 )
