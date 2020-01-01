@@ -1269,7 +1269,7 @@ __init__
 (
 self
 loc
-protocolFile
+protocolName
 )
 :
         
@@ -1285,7 +1285,14 @@ self
 .
 file
 =
-protocolFile
+"
+%
+s
+.
+ipdl
+"
+%
+protocolName
 class
 UsingStmt
 (
