@@ -509,13 +509,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsGfxCIID
 .
 h
@@ -4077,9 +4070,6 @@ TopLeft
 .
 ToAppUnits
 (
-mContext
--
->
 AppUnitsPerDevPixel
 (
 )
@@ -4630,9 +4620,6 @@ mRootView
 PRInt32
 p2a
 =
-mContext
--
->
 AppUnitsPerDevPixel
 (
 )
@@ -6063,9 +6050,6 @@ view
 PRInt32
 p2a
 =
-mContext
--
->
 AppUnitsPerDevPixel
 (
 )
@@ -9923,9 +9907,6 @@ rect
 .
 ToOutsidePixels
 (
-mContext
--
->
 AppUnitsPerDevPixel
 (
 )
@@ -11252,9 +11233,6 @@ pt
 PRInt32
 p2a
 =
-mContext
--
->
 AppUnitsPerDevPixel
 (
 )
