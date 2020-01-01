@@ -4663,12 +4663,6 @@ opcode
 o
 ;
 }
-#
-if
-defined
-(
-_DEBUG
-)
 /
 /
 isLInsXYZ
@@ -4811,8 +4805,6 @@ isLInsI64
 )
 const
 ;
-#
-endif
 bool
 isQuad
 (
