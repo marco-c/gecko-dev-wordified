@@ -498,6 +498,7 @@ mDistributionAnalyser
 .
 Reset
 (
+mIsPreferredLanguage
 )
 ;
 /
@@ -701,7 +702,6 @@ mDistributionAnalyser
 .
 GetConfidence
 (
-mIsPreferredLanguage
 )
 ;
 return

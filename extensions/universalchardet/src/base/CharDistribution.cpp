@@ -475,10 +475,6 @@ SURE_NO
 0
 .
 01f
-#
-define
-MINIMUM_DATA_THRESHOLD
-4
 /
 /
 return
@@ -493,8 +489,7 @@ CharDistributionAnalysis
 :
 GetConfidence
 (
-PRBool
-aIsPreferredLanguage
+void
 )
 {
 /
@@ -537,14 +532,10 @@ mTotalChars
 0
 |
 |
-!
-aIsPreferredLanguage
-&
-&
 mFreqChars
 <
 =
-MINIMUM_DATA_THRESHOLD
+mDataThreshold
 )
 return
 SURE_NO
