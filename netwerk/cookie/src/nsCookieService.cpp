@@ -867,8 +867,6 @@ cookies
 from
 older
 browsers
-/
-/
 static
 const
 char
