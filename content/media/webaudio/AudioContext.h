@@ -338,7 +338,7 @@ DelayNode
 >
 CreateDelay
 (
-float
+double
 aMaxDelayTime
 ErrorResult
 &

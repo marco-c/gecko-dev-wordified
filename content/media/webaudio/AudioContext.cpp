@@ -570,7 +570,7 @@ AudioContext
 :
 CreateDelay
 (
-float
+double
 aMaxDelayTime
 ErrorResult
 &
@@ -583,14 +583,12 @@ aMaxDelayTime
 >
 0
 .
-f
 &
 &
 aMaxDelayTime
 <
 3
 .
-f
 )
 {
 nsRefPtr

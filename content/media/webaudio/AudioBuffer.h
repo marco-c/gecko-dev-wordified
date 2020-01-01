@@ -298,7 +298,7 @@ return
 mLength
 ;
 }
-float
+double
 Duration
 (
 )
@@ -307,7 +307,13 @@ const
 return
 mLength
 /
+static_cast
+<
+double
+>
+(
 mSampleRate
+)
 ;
 }
 uint32_t
