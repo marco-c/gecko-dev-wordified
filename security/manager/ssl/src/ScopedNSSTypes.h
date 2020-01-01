@@ -126,11 +126,6 @@ Scoped
 .
 h
 "
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -172,13 +167,6 @@ include
 sechash
 .
 h
-"
-}
-/
-/
-extern
-"
-C
 "
 /
 /

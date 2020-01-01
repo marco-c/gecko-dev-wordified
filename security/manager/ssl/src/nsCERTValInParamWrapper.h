@@ -265,7 +265,7 @@ object
 *
 must
 use
-nsRefPtr
+RefPtr
 <
 nsCERTValInParamWrapper
 >

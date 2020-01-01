@@ -7728,9 +7728,6 @@ extensions
 [
 i
 ]
-!
-=
-nullptr
 ;
 i
 +
@@ -7828,9 +7825,6 @@ while
 (
 *
 policyInfos
-!
-=
-NULL
 )
 {
 policyInfo

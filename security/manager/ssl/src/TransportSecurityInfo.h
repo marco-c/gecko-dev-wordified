@@ -116,6 +116,15 @@ h
 #
 include
 "
+mozilla
+/
+RefPtr
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestor
 .
 h
@@ -516,7 +525,10 @@ SSL
 Status
 *
 /
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 nsSSLStatus
 >

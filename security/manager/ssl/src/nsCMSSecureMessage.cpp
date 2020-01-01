@@ -96,13 +96,6 @@ MPL
 #
 include
 "
-nsMemory
-.
-h
-"
-#
-include
-"
 nsXPIDLString
 .
 h
@@ -855,7 +848,7 @@ cmsMsg
 =
 NSS_CMSMessage_Create
 (
-NULL
+nullptr
 )
 ;
 if
@@ -1999,7 +1992,7 @@ char
 )
 data
 dataLen
-NULL
+nullptr
 )
 ;
 if
@@ -2134,7 +2127,7 @@ PL_Base64Decode
 (
 data
 len
-NULL
+nullptr
 )
 ;
 if

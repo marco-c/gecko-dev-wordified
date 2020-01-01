@@ -1581,7 +1581,7 @@ char
 )
 token
 tokenLen
-NULL
+nullptr
 )
 ;
 if
@@ -3694,7 +3694,7 @@ msg
 >
 target
 =
-NULL
+nullptr
 ;
 }
 /
