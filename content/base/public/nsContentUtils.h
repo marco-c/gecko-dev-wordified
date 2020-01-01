@@ -7958,6 +7958,16 @@ been
 AddRefed
 .
 *
+return
+false
+on
+out
+of
+memory
+true
+otherwise
+.
+*
 /
 static
 PRBool
