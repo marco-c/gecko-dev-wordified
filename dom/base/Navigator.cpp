@@ -458,12 +458,6 @@ MOZ_B2G_RIL
 #
 include
 "
-mozilla
-/
-dom
-/
-telephony
-/
 Telephony
 .
 h
