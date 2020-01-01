@@ -3125,7 +3125,7 @@ decoder
 >
 active
 =
-1
+0
 ;
 decoder
 -
