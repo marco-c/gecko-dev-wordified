@@ -2266,7 +2266,6 @@ mIfReq
 -
 >
 )
-;
 \
 NS_FORWARD_
 #
@@ -2277,7 +2276,6 @@ mRealPtr
 -
 >
 )
-;
 \
 private
 :
