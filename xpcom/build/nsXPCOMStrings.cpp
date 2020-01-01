@@ -1158,8 +1158,6 @@ aCutLength
 Substring
 (
 aData
-aData
-+
 aDataLength
 )
 )
@@ -1984,8 +1982,6 @@ aCutLength
 Substring
 (
 aData
-aData
-+
 aDataLength
 )
 )

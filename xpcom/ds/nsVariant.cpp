@@ -6176,8 +6176,6 @@ LossyCopyUTF16toASCII
 Substring
 (
 str
-str
-+
 1
 )
 _retval
@@ -6492,8 +6490,6 @@ CopyUTF16toUTF8
 Substring
 (
 str
-str
-+
 1
 )
 _retval

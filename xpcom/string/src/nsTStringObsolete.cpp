@@ -2654,8 +2654,6 @@ AssignWithConversion
 Substring
 (
 aData
-aData
-+
 aLength
 )
 )
@@ -2738,8 +2736,6 @@ AppendWithConversion
 Substring
 (
 aData
-aData
-+
 aLength
 )
 )

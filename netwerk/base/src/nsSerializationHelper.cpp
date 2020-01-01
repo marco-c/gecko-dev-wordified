@@ -810,8 +810,6 @@ stream
 Substring
 (
 buf
-buf
-+
 size
 )
 )

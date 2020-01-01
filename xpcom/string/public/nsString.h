@@ -733,8 +733,6 @@ LossyAppendUTF16toASCII
 Substring
 (
 aString
-aString
-+
 aLength
 )
 *
@@ -814,8 +812,6 @@ AppendASCIItoUTF16
 Substring
 (
 aCString
-aCString
-+
 aLength
 )
 *
@@ -915,8 +911,6 @@ AppendUTF16toUTF8
 Substring
 (
 aString
-aString
-+
 aLength
 )
 *
@@ -996,8 +990,6 @@ AppendUTF8toUTF16
 Substring
 (
 aCString
-aCString
-+
 aLength
 )
 *

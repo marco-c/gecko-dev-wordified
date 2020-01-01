@@ -1249,8 +1249,6 @@ AppendASCIItoUTF16
 Substring
 (
 m1b
-m1b
-+
 mState
 .
 mLength
@@ -1339,10 +1337,6 @@ Substring
 m1b
 +
 aOffset
-m1b
-+
-aOffset
-+
 aLength
 )
 aString
