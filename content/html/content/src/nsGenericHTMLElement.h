@@ -7041,7 +7041,6 @@ be
 handled
 from
 PreHandleEvent
-virtual
 bool
 IsElementDisabledForEvents
 (

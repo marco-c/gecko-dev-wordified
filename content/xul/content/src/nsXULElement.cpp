@@ -7430,6 +7430,12 @@ mCanHandle
 =
 false
 ;
+aVisitor
+.
+mAutomaticChromeDispatch
+=
+false
+;
 /
 /
 XXX
