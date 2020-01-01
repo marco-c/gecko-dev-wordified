@@ -13425,7 +13425,6 @@ ReadLine
 0
 0
 0
-0
 )
 JS_FS
 (
@@ -13466,7 +13465,6 @@ GC
 0
 0
 0
-0
 )
 JS_FN
 (
@@ -13474,7 +13472,6 @@ JS_FN
 countHeap
 "
 CountHeap
-0
 0
 0
 0
@@ -13490,7 +13487,6 @@ gczeal
 GCZeal
 1
 1
-0
 0
 )
 #
@@ -13541,7 +13537,6 @@ JS_FN
 stackQuota
 "
 StackQuota
-0
 0
 0
 0
@@ -13605,7 +13600,6 @@ JS_FN
 dumpHeap
 "
 DumpHeap
-0
 0
 0
 0
@@ -13681,7 +13675,6 @@ BuildDate
 0
 0
 0
-0
 )
 JS_FS
 (
@@ -13701,7 +13694,6 @@ intern
 Intern
 1
 1
-0
 0
 )
 JS_FS
@@ -13733,7 +13725,6 @@ GetPDA
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -13744,7 +13735,6 @@ GetSLX
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -13754,7 +13744,6 @@ toint32
 ToInt32
 1
 1
-0
 0
 )
 JS_FS

@@ -3557,7 +3557,6 @@ str_escape
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -3565,7 +3564,6 @@ js_unescape_str
 str_unescape
 1
 1
-0
 0
 )
 #
@@ -3578,7 +3576,6 @@ str_uneval
 1
 1
 0
-0
 )
 #
 endif
@@ -3589,7 +3586,6 @@ str_decodeURI
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -3597,7 +3593,6 @@ js_encodeURI_str
 str_encodeURI
 1
 1
-0
 0
 )
 JS_FN
@@ -3607,7 +3602,6 @@ str_decodeURI_Component
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -3615,7 +3609,6 @@ js_encodeURIComponent_str
 str_encodeURI_Component
 1
 1
-0
 0
 )
 JS_FS_END
@@ -8194,11 +8187,22 @@ jsval
 vp
 )
 {
+JSTempValueRooter
+tvr
+;
 MatchData
 mdata
 ;
 JSBool
 ok
+;
+JS_PUSH_SINGLE_TEMP_ROOT
+(
+cx
+JSVAL_NULL
+&
+tvr
+)
 ;
 mdata
 .
@@ -8221,17 +8225,11 @@ mdata
 arrayval
 =
 &
-vp
-[
-4
-]
-;
-*
-mdata
+tvr
 .
-arrayval
-=
-JSVAL_NULL
+u
+.
+value
 ;
 ok
 =
@@ -8269,6 +8267,13 @@ vp
 mdata
 .
 arrayval
+;
+JS_POP_TEMP_ROOT
+(
+cx
+&
+tvr
+)
 ;
 return
 ok
@@ -14014,7 +14019,6 @@ str_quote
 0
 0
 GENERIC_PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14023,7 +14027,6 @@ str_toSource
 0
 0
 JSFUN_THISP_STRING
-0
 )
 #
 endif
@@ -14043,7 +14046,6 @@ str_toString
 0
 0
 JSFUN_THISP_STRING
-0
 )
 JS_FN
 (
@@ -14052,7 +14054,6 @@ str_toString
 0
 0
 JSFUN_THISP_STRING
-0
 )
 JS_FN
 (
@@ -14063,7 +14064,6 @@ str_substring
 0
 2
 GENERIC_PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14074,7 +14074,6 @@ str_toLowerCase
 0
 0
 GENERIC_PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14085,7 +14084,6 @@ str_toUpperCase
 0
 0
 GENERIC_PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14096,7 +14094,6 @@ str_charAt
 1
 1
 GENERIC_PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14107,7 +14104,6 @@ str_charCodeAt
 1
 1
 GENERIC_PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14118,7 +14114,6 @@ str_indexOf
 1
 1
 GENERIC_PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14129,7 +14124,6 @@ str_lastIndexOf
 1
 1
 GENERIC_PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14140,7 +14134,6 @@ str_toLocaleLowerCase
 0
 0
 GENERIC_PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14151,7 +14144,6 @@ str_toLocaleUpperCase
 0
 0
 GENERIC_PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14162,7 +14154,6 @@ str_localeCompare
 1
 1
 GENERIC_PRIMITIVE
-0
 )
 /
 *
@@ -14190,7 +14181,6 @@ str_match
 1
 1
 GENERIC_PRIMITIVE
-2
 )
 JS_FN
 (
@@ -14201,7 +14191,6 @@ str_search
 1
 1
 GENERIC_PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14212,7 +14201,6 @@ str_replace
 2
 2
 GENERIC_PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14223,7 +14211,6 @@ str_split
 0
 2
 GENERIC_PRIMITIVE
-0
 )
 #
 if
@@ -14237,7 +14224,6 @@ str_substr
 0
 2
 GENERIC_PRIMITIVE
-0
 )
 #
 endif
@@ -14260,7 +14246,6 @@ str_concat
 0
 1
 GENERIC_PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14271,7 +14256,6 @@ str_slice
 1
 2
 GENERIC_PRIMITIVE
-0
 )
 /
 *
@@ -14293,7 +14277,6 @@ str_bold
 0
 0
 PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14304,7 +14287,6 @@ str_italics
 0
 0
 PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14315,7 +14297,6 @@ str_fixed
 0
 0
 PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14326,7 +14307,6 @@ str_fontsize
 1
 1
 PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14337,7 +14317,6 @@ str_fontcolor
 1
 1
 PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14348,7 +14327,6 @@ str_link
 1
 1
 PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14359,7 +14337,6 @@ str_anchor
 1
 1
 PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14370,7 +14347,6 @@ str_strike
 0
 0
 PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14381,7 +14357,6 @@ str_small
 0
 0
 PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14392,7 +14367,6 @@ str_big
 0
 0
 PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14403,7 +14377,6 @@ str_blink
 0
 0
 PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14414,7 +14387,6 @@ str_sup
 0
 0
 PRIMITIVE
-0
 )
 JS_FN
 (
@@ -14425,7 +14397,6 @@ str_sub
 0
 0
 PRIMITIVE
-0
 )
 #
 endif
@@ -14733,7 +14704,6 @@ fromCharCode
 str_fromCharCode
 0
 1
-0
 0
 )
 JS_FS_END

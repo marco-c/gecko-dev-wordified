@@ -1083,7 +1083,6 @@ num_isNaN
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -1091,7 +1090,6 @@ js_isFinite_str
 num_isFinite
 1
 1
-0
 0
 )
 JS_FN
@@ -1101,7 +1099,6 @@ num_parseFloat
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -1109,7 +1106,6 @@ js_parseInt_str
 num_parseInt
 1
 2
-0
 0
 )
 JS_FS_END
@@ -2892,7 +2888,6 @@ num_toSource
 0
 0
 JSFUN_THISP_NUMBER
-0
 )
 #
 endif
@@ -2903,7 +2898,6 @@ num_toString
 0
 0
 JSFUN_THISP_NUMBER
-0
 )
 JS_FN
 (
@@ -2912,7 +2906,6 @@ num_toLocaleString
 0
 0
 JSFUN_THISP_NUMBER
-0
 )
 JS_FN
 (
@@ -2921,7 +2914,6 @@ num_valueOf
 0
 0
 JSFUN_THISP_NUMBER
-0
 )
 JS_FN
 (
@@ -2932,7 +2924,6 @@ num_toFixed
 1
 1
 JSFUN_THISP_NUMBER
-0
 )
 JS_FN
 (
@@ -2943,7 +2934,6 @@ num_toExponential
 1
 1
 JSFUN_THISP_NUMBER
-0
 )
 JS_FN
 (
@@ -2954,7 +2944,6 @@ num_toPrecision
 1
 1
 JSFUN_THISP_NUMBER
-0
 )
 JS_FS_END
 }

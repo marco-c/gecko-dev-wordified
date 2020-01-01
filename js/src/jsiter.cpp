@@ -1848,7 +1848,6 @@ iterator_self
 0
 0
 JSPROP_ROPERM
-0
 )
 JS_FN
 (
@@ -1857,7 +1856,6 @@ iterator_next
 0
 0
 JSPROP_ROPERM
-0
 )
 JS_FS_END
 }
@@ -5998,7 +5996,6 @@ iterator_self
 0
 0
 JSPROP_ROPERM
-0
 )
 JS_FN
 (
@@ -6007,7 +6004,6 @@ generator_next
 0
 0
 JSPROP_ROPERM
-0
 )
 JS_FN
 (
@@ -6016,7 +6012,6 @@ generator_send
 1
 1
 JSPROP_ROPERM
-0
 )
 JS_FN
 (
@@ -6025,7 +6020,6 @@ generator_throw
 1
 1
 JSPROP_ROPERM
-0
 )
 JS_FN
 (
@@ -6034,7 +6028,6 @@ generator_close
 0
 0
 JSPROP_ROPERM
-0
 )
 JS_FS_END
 }
