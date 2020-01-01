@@ -927,7 +927,7 @@ inspector
 .
 highlighter
 .
-on
+off
 (
 "
 locked
