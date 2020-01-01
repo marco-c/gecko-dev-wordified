@@ -6572,7 +6572,7 @@ GetExtantDocument
 )
 )
 ;
-NS_ASSERTION
+NS_WARN_IF_FALSE
 (
 doc
 "
@@ -6588,6 +6588,9 @@ late
 ;
 if
 (
+doc
+&
+&
 doc
 =
 =
