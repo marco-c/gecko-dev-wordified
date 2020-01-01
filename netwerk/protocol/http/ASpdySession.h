@@ -284,6 +284,13 @@ kSendingChunkSize
 =
 4096
 ;
+const
+static
+uint32_t
+kTCPSendBufferSize
+=
+131072
+;
 }
 ;
 /
