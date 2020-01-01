@@ -559,6 +559,15 @@ debug_dir_index
 )
 ;
 }
+SymbolData
+symbol_data
+=
+cfi
+?
+ALL_SYMBOL_DATA
+:
+NO_CFI
+;
 if
 (
 !
@@ -566,7 +575,7 @@ WriteSymbolFile
 (
 binary
 debug_dirs
-cfi
+symbol_data
 std
 :
 :
