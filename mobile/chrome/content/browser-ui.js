@@ -2952,6 +2952,9 @@ ensureContentProcess
 ;
 #
 endif
+#
+ifdef
+MOZ_SERVICES_SYNC
 /
 /
 Init
@@ -2964,6 +2967,8 @@ init
 (
 )
 ;
+#
+endif
 }
 )
 ;
@@ -14701,6 +14706,9 @@ cmd_history
 }
 )
 ;
+#
+ifdef
+MOZ_SERVICES_SYNC
 XPCOMUtils
 .
 defineLazyGetter
@@ -14730,6 +14738,8 @@ cmd_remoteTabs
 }
 )
 ;
+#
+endif
 XPCOMUtils
 .
 defineLazyGetter
