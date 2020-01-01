@@ -2443,6 +2443,19 @@ containerOpen
 =
 true
 ;
+/
+/
+child
+count
+(
+add
+1
+for
+pre
+-
+existing
+item
+)
 do_check_eq
 (
 rootNode
@@ -2451,6 +2464,8 @@ childCount
 bookmarkData
 .
 length
++
+1
 )
 ;
 for
@@ -2458,7 +2473,7 @@ for
 var
 i
 =
-0
+1
 ;
 i
 <
@@ -2486,6 +2501,8 @@ dump
 bookmarkData
 [
 i
+-
+1
 ]
 .
 uri
@@ -2513,6 +2530,8 @@ do_check_true
 bookmarkData
 [
 i
+-
+1
 ]
 .
 uri
@@ -2536,6 +2555,8 @@ title
 bookmarkData
 [
 i
+-
+1
 ]
 .
 title
