@@ -2632,17 +2632,6 @@ by
 the
 browser
 class
-nsIWindowlessPluginInstancePeer
-;
-/
-/
-subclass
-of
-nsIPluginInstancePeer
-for
-windowless
-plugins
-class
 nsIPluginTagInfo
 ;
 /
