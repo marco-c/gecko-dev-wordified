@@ -1921,6 +1921,9 @@ nsCSSSelectorList
 aSelectorList
 )
 ;
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 already_AddRefed
 <
 nsCSSKeyframeRule
@@ -1968,6 +1971,8 @@ float
 aSelectorList
 )
 ;
+#
+endif
 protected
 :
 class
@@ -2615,6 +2620,9 @@ void
 aProcessData
 )
 ;
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 PRBool
 ParseKeyframesRule
 (
@@ -2644,6 +2652,8 @@ float
 aSelectorList
 )
 ;
+#
+endif
 enum
 nsSelectorParsingStatus
 {
@@ -3548,11 +3558,16 @@ ParseTransition
 (
 )
 ;
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 PRBool
 ParseAnimation
 (
 )
 ;
+#
+endif
 #
 ifdef
 MOZ_SVG
@@ -7743,6 +7758,9 @@ return
 NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 already_AddRefed
 <
 nsCSSKeyframeRule
@@ -7949,6 +7967,8 @@ return
 success
 ;
 }
+#
+endif
 /
 /
 -
@@ -9382,6 +9402,9 @@ newSection
 =
 eCSSSection_General
 ;
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 }
 else
 if
@@ -9413,6 +9436,8 @@ newSection
 =
 eCSSSection_General
 ;
+#
+endif
 }
 else
 {
@@ -13509,6 +13534,9 @@ return
 PR_FALSE
 ;
 }
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 PRBool
 CSSParserImpl
 :
@@ -13959,6 +13987,8 @@ PR_TRUE
 }
 }
 }
+#
+endif
 void
 CSSParserImpl
 :
@@ -32086,6 +32116,9 @@ ParseTransition
 (
 )
 ;
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 case
 eCSSProperty_animation
 :
@@ -32094,6 +32127,8 @@ ParseAnimation
 (
 )
 ;
+#
+endif
 case
 eCSSProperty_transition_property
 :
@@ -48632,6 +48667,9 @@ return
 PR_TRUE
 ;
 }
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 PRBool
 CSSParserImpl
 :
@@ -48992,6 +49030,8 @@ return
 PR_TRUE
 ;
 }
+#
+endif
 PRBool
 CSSParserImpl
 :
@@ -50840,6 +50880,9 @@ aSelectorList
 )
 ;
 }
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 already_AddRefed
 <
 nsCSSKeyframeRule
@@ -50922,3 +50965,5 @@ aSelectorList
 )
 ;
 }
+#
+endif

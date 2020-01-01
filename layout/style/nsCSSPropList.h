@@ -3044,6 +3044,9 @@ eStyleAnimType_None
 )
 #
 endif
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 CSS_PROP_SHORTHAND
 (
 -
@@ -3341,6 +3344,8 @@ kTransitionTimingFunctionKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
+#
+endif
 CSS_PROP_BACKENDONLY
 (
 azimuth

@@ -4831,6 +4831,9 @@ onafterscriptexecute
 onafterscriptexecute
 "
 )
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 GK_ATOM
 (
 onanimationend
@@ -4852,6 +4855,8 @@ onanimationstart
 onanimationstart
 "
 )
+#
+endif
 GK_ATOM
 (
 onbeforecopy
@@ -13450,6 +13455,9 @@ endif
 Content
 property
 names
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 GK_ATOM
 (
 animationsProperty
@@ -13483,6 +13491,8 @@ AnimationsOfAfterProperty
 /
 FrameAnimations
 *
+#
+endif
 GK_ATOM
 (
 transitionsProperty

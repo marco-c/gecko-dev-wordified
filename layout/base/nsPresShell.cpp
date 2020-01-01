@@ -674,12 +674,17 @@ bugs
 31816
 )
 #
+ifdef
+MOZ_CSS_ANIMATIONS
+#
 include
 "
 nsAnimationManager
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -28101,6 +28106,9 @@ ProcessPendingRestyles
 )
 ;
 }
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 /
 /
 Dispatch
@@ -28139,6 +28147,8 @@ DispatchEvents
 )
 ;
 }
+#
+endif
 /
 /
 Process
@@ -29904,6 +29914,9 @@ RebuildUserFontSet
 (
 )
 ;
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 mPresContext
 -
 >
@@ -29916,6 +29929,8 @@ KeyframesListIsDirty
 (
 )
 ;
+#
+endif
 }
 Element
 *

@@ -2403,6 +2403,9 @@ Keyword
 Enum
 value
 tables
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 static
 const
 PRInt32
@@ -2438,6 +2441,8 @@ kAnimationTimingFunctionKTable
 [
 ]
 ;
+#
+endif
 static
 const
 PRInt32

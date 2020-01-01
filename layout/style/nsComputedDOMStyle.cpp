@@ -19597,6 +19597,9 @@ return
 valueList
 ;
 }
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 nsIDOMCSSValue
 *
 nsComputedDOMStyle
@@ -20581,6 +20584,8 @@ return
 valueList
 ;
 }
+#
+endif
 #
 define
 COMPUTED_STYLE_MAP_ENTRY
@@ -21739,6 +21744,9 @@ styles
 *
 *
 /
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 COMPUTED_STYLE_MAP_ENTRY
 (
 animation_delay
@@ -21779,6 +21787,8 @@ COMPUTED_STYLE_MAP_ENTRY
 animation_timing_function
 AnimationTimingFunction
 )
+#
+endif
 COMPUTED_STYLE_MAP_ENTRY
 (
 appearance

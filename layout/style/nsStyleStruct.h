@@ -9023,6 +9023,9 @@ is
 eCSSProperty_UNKNOWN
 }
 ;
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 struct
 nsAnimation
 {
@@ -9290,6 +9293,8 @@ means
 infinite
 }
 ;
+#
+endif
 struct
 nsStyleDisplay
 {
@@ -9733,6 +9738,9 @@ mTransitionDurationCount
 mTransitionDelayCount
 mTransitionPropertyCount
 ;
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 nsAutoTArray
 <
 nsAnimation
@@ -9779,6 +9787,8 @@ mAnimationFillModeCount
 mAnimationPlayStateCount
 mAnimationIterationCountCount
 ;
+#
+endif
 PRBool
 IsBlockInside
 (

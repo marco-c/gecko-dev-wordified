@@ -16173,6 +16173,9 @@ nsGkAtoms
 transitionsProperty
 )
 ;
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 DeleteProperty
 (
 nsGkAtoms
@@ -16197,6 +16200,8 @@ nsGkAtoms
 animationsProperty
 )
 ;
+#
+endif
 }
 /
 /

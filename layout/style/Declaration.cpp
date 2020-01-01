@@ -5102,6 +5102,9 @@ Truncate
 break
 ;
 }
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 case
 eCSSProperty_animation
 :
@@ -5471,6 +5474,8 @@ break
 break
 ;
 }
+#
+endif
 case
 eCSSProperty_marker
 :

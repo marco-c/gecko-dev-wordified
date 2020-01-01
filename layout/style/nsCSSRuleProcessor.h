@@ -528,9 +528,14 @@ CascadeEnumData
 struct
 TreeMatchContext
 ;
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 class
 nsCSSKeyframesRule
 ;
+#
+endif
 /
 *
 *
@@ -1010,6 +1015,9 @@ nsFontFaceRuleContainer
 aArray
 )
 ;
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 PRBool
 AppendKeyframesRules
 (
@@ -1025,6 +1033,8 @@ nsCSSKeyframesRule
 aArray
 )
 ;
+#
+endif
 #
 ifdef
 DEBUG
