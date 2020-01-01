@@ -4980,6 +4980,9 @@ const
 BaseShape
 &
 base
+JSObject
+*
+proto
 HeapPtrShape
 *
 lastp
@@ -5378,6 +5381,9 @@ cx
 JSObject
 *
 obj
+JSObject
+*
+proto
 HeapPtrShape
 *
 listp
@@ -5395,6 +5401,9 @@ BaseShape
 :
 Flag
 flag
+JSObject
+*
+proto
 HeapPtrShape
 *
 listp
@@ -8250,8 +8259,11 @@ JSObject
 *
 parent
 ;
-size_t
+uint32
 nfixed
+;
+uint32
+baseFlags
 ;
 Lookup
 (
@@ -8264,8 +8276,10 @@ proto
 JSObject
 *
 parent
-size_t
+uint32
 nfixed
+uint32
+baseFlags
 )
 :
 clasp
@@ -8283,6 +8297,10 @@ parent
 nfixed
 (
 nfixed
+)
+baseFlags
+(
+baseFlags
 )
 {
 }
