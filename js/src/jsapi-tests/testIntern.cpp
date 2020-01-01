@@ -131,7 +131,10 @@ JSAtom
 *
 atom
 =
-js_Atomize
+js
+:
+:
+Atomize
 (
 cx
 someChars

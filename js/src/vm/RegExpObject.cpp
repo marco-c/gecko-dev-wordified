@@ -1663,7 +1663,7 @@ RootedAtom
 source
 (
 cx
-js_AtomizeChars
+AtomizeChars
 (
 cx
 chars

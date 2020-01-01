@@ -900,7 +900,7 @@ JSAtom
 *
 atom
 =
-js_AtomizeString
+AtomizeString
 (
 cx
 source

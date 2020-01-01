@@ -7612,7 +7612,7 @@ NULL
 }
 localName
 =
-js_AtomizeChars
+AtomizeChars
 (
 parser
 -
@@ -18221,7 +18221,7 @@ NULL
 }
 atomizedName
 =
-js_AtomizeString
+AtomizeString
 (
 cx
 name
@@ -34756,7 +34756,7 @@ JSAtom
 *
 atom
 =
-js_AtomizeString
+AtomizeString
 (
 cx
 JSVAL_TO_STRING
@@ -48956,7 +48956,7 @@ JSAtom
 *
 atomName
 =
-js_AtomizeString
+AtomizeString
 (
 cx
 name

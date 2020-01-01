@@ -388,7 +388,7 @@ JSONParser
 PropertyName
 )
 ?
-js_AtomizeChars
+AtomizeChars
 (
 cx
 start

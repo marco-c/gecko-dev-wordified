@@ -5189,7 +5189,7 @@ JSString
 *
 str
 =
-js_AtomizeString
+AtomizeString
 (
 cx
 v
