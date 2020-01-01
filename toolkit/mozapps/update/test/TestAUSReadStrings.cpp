@@ -563,6 +563,8 @@ h
 #
 include
 "
+updater
+/
 resource
 .
 h
@@ -570,6 +572,8 @@ h
 #
 include
 "
+updater
+/
 progressui
 .
 h
@@ -577,6 +581,8 @@ h
 #
 include
 "
+updater
+/
 readstrings
 .
 h
@@ -584,6 +590,8 @@ h
 #
 include
 "
+updater
+/
 errors
 .
 h
