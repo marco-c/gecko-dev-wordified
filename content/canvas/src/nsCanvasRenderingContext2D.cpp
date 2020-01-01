@@ -1300,7 +1300,6 @@ colorstr
 )
 nsnull
 0
-PR_TRUE
 &
 color
 )
@@ -2539,7 +2538,6 @@ ParseColorString
 str
 nsnull
 0
-PR_TRUE
 &
 color
 )
@@ -12223,7 +12221,6 @@ aBGColor
 )
 nsnull
 0
-PR_TRUE
 &
 bgColor
 )

@@ -456,14 +456,9 @@ nsSize
 .
 h
 "
-#
-ifdef
-MOZ_CAIRO_GFX
 class
 gfxContext
 ;
-#
-endif
 class
 nsRenderingContextImpl
 :
