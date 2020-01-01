@@ -2339,11 +2339,10 @@ pret
 script
 -
 >
-nmap
-[
+jit
 -
-1
-]
+>
+invoke
 ;
 return
 true
