@@ -108,7 +108,7 @@ const
 FILE_SIMPLE_MAR
 =
 "
-simple
+simple_no_pib
 .
 mar
 "

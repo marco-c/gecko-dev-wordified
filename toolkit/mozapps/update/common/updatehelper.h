@@ -432,7 +432,7 @@ path
 DWORD
 LaunchServiceSoftwareUpdateCommand
 (
-DWORD
+int
 argc
 LPCWSTR
 *
@@ -471,6 +471,11 @@ LPCWSTR
 filename
 DWORD
 maxSeconds
+)
+;
+BOOL
+DoesFallbackKeyExist
+(
 )
 ;
 #
