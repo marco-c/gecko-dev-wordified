@@ -1649,8 +1649,6 @@ eCSSProperty_font_size
 case
 eCSSProperty_font_size_adjust
 :
-/
-/
 case
 eCSSProperty_font_stretch
 :
@@ -1660,8 +1658,6 @@ eCSSProperty_font_style
 case
 eCSSProperty_font_variant
 :
-/
-/
 case
 eCSSProperty_font_weight
 :
