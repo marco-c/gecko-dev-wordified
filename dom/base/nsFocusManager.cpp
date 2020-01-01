@@ -8713,7 +8713,7 @@ doc
 >
 FlushPendingNotifications
 (
-Flush_Frames
+Flush_Layout
 )
 ;
 nsIPresShell
