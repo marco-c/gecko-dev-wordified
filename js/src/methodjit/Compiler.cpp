@@ -27660,7 +27660,7 @@ typeInferenceEnabled
 return
 ;
 }
-size_t
+uint32_t
 *
 addr
 =
