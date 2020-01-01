@@ -3628,10 +3628,17 @@ center
 ;
 padding
 :
+0
+.
+5mm
 1mm
 ;
 /
 *
+half
+core
+spacing
+&
 core
 spacing
 *
