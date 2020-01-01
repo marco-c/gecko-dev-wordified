@@ -11504,8 +11504,6 @@ node
 .
 mozGetFileNameArray
 (
-{
-}
 )
 }
 ;

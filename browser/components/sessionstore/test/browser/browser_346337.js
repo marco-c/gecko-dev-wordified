@@ -894,8 +894,6 @@ node
 .
 mozGetFileNameArray
 (
-{
-}
 )
 ;
 return
