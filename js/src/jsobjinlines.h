@@ -1890,9 +1890,11 @@ funobj
 ;
 JS_ASSERT
 (
-FUN_NULL_CLOSURE
-(
 fun
+-
+>
+isNullClosure
+(
 )
 )
 ;
@@ -4256,11 +4258,13 @@ isFunction
 ;
 JS_ASSERT
 (
-FUN_FLAT_CLOSURE
-(
 getFunctionPrivate
 (
 )
+-
+>
+isFlatClosure
+(
 )
 )
 ;
@@ -4767,7 +4771,7 @@ decl
 ;
 }
 inline
-JSLinearString
+JSAtom
 *
 JSObject
 :
@@ -4813,7 +4817,7 @@ toString
 )
 -
 >
-asLinear
+asAtom
 (
 )
 :
@@ -4857,7 +4861,7 @@ JSObject
 :
 setQNameLocalName
 (
-JSLinearString
+JSAtom
 *
 name
 )

@@ -2015,6 +2015,15 @@ getVMAllocatorsReserveSize
 )
 const
 ;
+JS_FRIEND_API
+(
+size_t
+)
+getTraceMonitorSize
+(
+)
+const
+;
 }
 ;
 namespace

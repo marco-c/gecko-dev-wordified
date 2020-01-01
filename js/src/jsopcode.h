@@ -4869,7 +4869,7 @@ op
 )
 {
 /
-/
+*
 JSOP_YIELD
 is
 considered
@@ -4882,6 +4882,8 @@ instruction
 like
 JSOP_CALL
 .
+*
+/
 return
 op
 !

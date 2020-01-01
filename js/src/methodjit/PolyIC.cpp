@@ -4483,10 +4483,11 @@ if
 funobj
 !
 =
-GET_FUNCTION_PRIVATE
-(
-cx
 funobj
+-
+>
+getFunctionPrivate
+(
 )
 )
 return

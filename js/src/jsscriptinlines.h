@@ -984,9 +984,11 @@ funobj
 ;
 JS_ASSERT
 (
-FUN_INTERPRETED
-(
 fun
+-
+>
+isInterpreted
+(
 )
 )
 ;
