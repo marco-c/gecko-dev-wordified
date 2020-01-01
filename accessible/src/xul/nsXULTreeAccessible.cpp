@@ -3837,7 +3837,7 @@ for
 PRInt32
 colIdx
 =
-startCol
+aStartCol
 ;
 colIdx
 <
