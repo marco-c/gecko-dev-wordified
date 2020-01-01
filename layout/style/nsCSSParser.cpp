@@ -8961,6 +8961,10 @@ mToken
 mType
 )
 {
+UngetToken
+(
+)
+;
 REPORT_UNEXPECTED_TOKEN
 (
 PECharsetRuleNotString
