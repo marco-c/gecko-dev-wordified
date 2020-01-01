@@ -155,8 +155,23 @@ import
 sys
 import
 tempfile
-import
+try
+:
+    
+from
 urllib2
+import
+urlopen
+except
+ImportError
+:
+    
+from
+urllib
+.
+request
+import
+urlopen
 from
 optparse
 import
@@ -349,8 +364,6 @@ path
             
 req
 =
-urllib2
-.
 urlopen
 (
 url
