@@ -66,14 +66,7 @@ h
 #
 include
 "
-nsICacheSession
-.
-h
-"
-#
-include
-"
-nsICacheService
+nsICacheEntry
 .
 h
 "
@@ -2626,7 +2619,7 @@ cache
 entry
 nsCOMPtr
 <
-nsICacheEntryInfo
+nsICacheEntry
 >
 entryInfo
 =

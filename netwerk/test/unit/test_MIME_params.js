@@ -43,13 +43,6 @@ id
 609667
 *
 /
-const
-Cr
-=
-Components
-.
-results
-;
 var
 BS
 =

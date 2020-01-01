@@ -215,13 +215,6 @@ h
 #
 include
 "
-nsICacheEntryDescriptor
-.
-h
-"
-#
-include
-"
 nsSerializationHelper
 .
 h

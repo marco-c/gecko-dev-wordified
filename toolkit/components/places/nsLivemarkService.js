@@ -6771,7 +6771,7 @@ QueryInterface
 (
 Ci
 .
-nsICacheEntryInfo
+nsICacheEntry
 )
 ;
 if
@@ -6781,7 +6781,7 @@ entryInfo
 {
 /
 /
-nsICacheEntryInfo
+nsICacheEntry
 returns
 value
 as

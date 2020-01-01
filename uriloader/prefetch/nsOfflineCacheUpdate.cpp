@@ -258,7 +258,7 @@ h
 #
 include
 "
-nsICacheEntryDescriptor
+nsICacheEntry
 .
 h
 "
@@ -7705,7 +7705,7 @@ cacheToken
 {
 nsCOMPtr
 <
-nsICacheEntryDescriptor
+nsICacheEntry
 >
 cacheDescriptor
 (
@@ -7963,7 +7963,7 @@ cacheToken
 {
 nsCOMPtr
 <
-nsICacheEntryDescriptor
+nsICacheEntry
 >
 cacheDescriptor
 (

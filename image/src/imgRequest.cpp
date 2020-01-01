@@ -220,7 +220,7 @@ h
 #
 include
 "
-nsICacheVisitor
+nsICacheEntry
 .
 h
 "
@@ -1979,7 +1979,7 @@ cacheToken
 {
 nsCOMPtr
 <
-nsICacheEntryInfo
+nsICacheEntry
 >
 entryDesc
 (

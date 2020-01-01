@@ -748,7 +748,7 @@ const
 nsACString
 &
 key
-nsILoadContext
+nsILoadContextInfo
 *
 loadContext
 nsIApplicationCache
@@ -1012,7 +1012,7 @@ const
 nsACString
 &
 clientID
-nsILoadContext
+nsILoadContextInfo
 *
 loadContext
 )
