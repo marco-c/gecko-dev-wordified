@@ -21154,13 +21154,6 @@ mObjectFrame
 return
 nsnull
 ;
-NPDrawingModel
-drawingModel
-=
-GetDrawingModel
-(
-)
-;
 NPEventModel
 eventModel
 =
@@ -21390,6 +21383,13 @@ set
 the
 port
 coordinates
+NPDrawingModel
+drawingModel
+=
+GetDrawingModel
+(
+)
+;
 if
 (
 drawingModel
