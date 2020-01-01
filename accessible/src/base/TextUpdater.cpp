@@ -793,7 +793,7 @@ skipEnd
 +
 ;
 }
-PRInt32
+PRUint32
 strLen1
 =
 oldLen
@@ -802,7 +802,7 @@ aSkipStart
 -
 skipEnd
 ;
-PRInt32
+PRUint32
 strLen2
 =
 newLen
@@ -1435,7 +1435,7 @@ rowIdx
 *
 colLen
 ;
-PRInt32
+PRUint32
 dist
 =
 row
