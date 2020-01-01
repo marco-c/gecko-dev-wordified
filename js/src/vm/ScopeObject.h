@@ -1873,6 +1873,7 @@ needsClone
 (
 )
 ;
+static
 Shape
 *
 addVar
@@ -1880,7 +1881,13 @@ addVar
 JSContext
 *
 cx
-jsid
+Handle
+<
+StaticBlockObject
+*
+>
+block
+HandleId
 id
 int
 index
@@ -2039,8 +2046,11 @@ CloneStaticBlockObject
 JSContext
 *
 cx
+Handle
+<
 StaticBlockObject
-&
+*
+>
 srcBlock
 const
 AutoObjectVector

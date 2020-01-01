@@ -1780,9 +1780,6 @@ spp
 )
 ;
 }
-#
-ifdef
-DEBUG
 Shape
 *
 js
@@ -1793,9 +1790,6 @@ ObjectImpl
 :
 nativeLookupNoAllocation
 (
-JSContext
-*
-cx
 jsid
 id
 )
@@ -1813,7 +1807,6 @@ Shape
 :
 searchNoAllocation
 (
-cx
 lastProperty
 (
 )
@@ -1821,8 +1814,6 @@ id
 )
 ;
 }
-#
-endif
 void
 js
 :

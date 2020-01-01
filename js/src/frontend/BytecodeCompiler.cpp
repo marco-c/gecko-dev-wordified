@@ -1664,12 +1664,13 @@ NULL
 if
 (
 !
-script
--
->
+JSScript
+:
+:
 fullyInitFromEmitter
 (
 cx
+script
 &
 bce
 )

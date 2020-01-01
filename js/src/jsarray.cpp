@@ -22661,12 +22661,9 @@ entry
 ;
 if
 (
-!
 obj
 )
-return
-NULL
-;
+{
 /
 *
 Fixup
@@ -22717,6 +22714,7 @@ NULL
 return
 obj
 ;
+}
 }
 Rooted
 <

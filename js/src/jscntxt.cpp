@@ -1907,6 +1907,10 @@ cursor
 if
 (
 object
+.
+get
+(
+)
 =
 =
 cursor
@@ -1916,6 +1920,10 @@ object
 &
 &
 id
+.
+get
+(
+)
 =
 =
 cursor

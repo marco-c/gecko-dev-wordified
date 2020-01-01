@@ -1841,8 +1841,7 @@ CloneInterpretedFunction
 JSContext
 *
 cx
-JSFunction
-*
+HandleFunction
 fun
 )
 ;
