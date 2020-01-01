@@ -1750,6 +1750,15 @@ required
 )
 ACCESSIBILITY_ATOM
 (
+aria_secret
+"
+aria
+-
+secret
+"
+)
+ACCESSIBILITY_ATOM
+(
 aria_selected
 "
 aria
