@@ -2831,6 +2831,9 @@ TestAPZCTreeManager
 (
 )
 ;
+gfx3DMatrix
+matrix
+;
 /
 /
 No
@@ -2864,6 +2867,8 @@ ScreenPoint
 20
 20
 )
+matrix
+matrix
 )
 ;
 AsyncPanZoomController
@@ -2928,6 +2933,8 @@ ScreenPoint
 15
 15
 )
+matrix
+matrix
 )
 ;
 EXPECT_EQ
@@ -3038,6 +3045,8 @@ ScreenPoint
 15
 15
 )
+matrix
+matrix
 )
 ;
 EXPECT_EQ
@@ -3098,6 +3107,8 @@ ScreenPoint
 15
 15
 )
+matrix
+matrix
 )
 ;
 EXPECT_EQ
@@ -3161,6 +3172,8 @@ ScreenPoint
 15
 15
 )
+matrix
+matrix
 )
 ;
 EXPECT_EQ
@@ -3225,6 +3238,8 @@ ScreenPoint
 90
 90
 )
+matrix
+matrix
 )
 ;
 EXPECT_EQ
@@ -3280,6 +3295,8 @@ ScreenPoint
 1000
 10
 )
+matrix
+matrix
 )
 ;
 EXPECT_EQ
@@ -3305,6 +3322,8 @@ ScreenPoint
 1000
 10
 )
+matrix
+matrix
 )
 ;
 EXPECT_EQ
@@ -3369,6 +3388,8 @@ ScreenPoint
 50
 50
 )
+matrix
+matrix
 )
 ;
 /
@@ -3438,6 +3459,8 @@ ScreenPoint
 2
 2
 )
+matrix
+matrix
 )
 ;
 EXPECT_EQ
@@ -3549,6 +3572,8 @@ ScreenPoint
 2
 2
 )
+matrix
+matrix
 )
 ;
 EXPECT_EQ
@@ -3724,6 +3749,8 @@ ScreenPoint
 1
 45
 )
+matrix
+matrix
 )
 ;
 EXPECT_EQ
