@@ -208,6 +208,13 @@ h
 #
 include
 "
+nsIController
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h

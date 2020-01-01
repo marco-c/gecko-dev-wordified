@@ -367,6 +367,13 @@ nsTextNode
 .
 h
 "
+#
+include
+"
+nsIController
+.
+h
+"
 using
 namespace
 mozilla

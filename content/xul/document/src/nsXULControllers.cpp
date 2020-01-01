@@ -145,6 +145,13 @@ nsDOMClassInfoID
 .
 h
 "
+#
+include
+"
+nsIController
+.
+h
+"
 /
 /
 -
