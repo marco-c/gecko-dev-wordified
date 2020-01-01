@@ -7869,9 +7869,6 @@ JS_ASSERT
 (
 addr
 &
-Cell
-:
-:
 CellMask
 )
 )
@@ -8316,9 +8313,6 @@ JS_ASSERT
 (
 addr
 &
-Cell
-:
-:
 CellMask
 )
 )

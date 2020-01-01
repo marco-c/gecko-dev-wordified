@@ -791,6 +791,14 @@ DebugScopes
 struct
 JSCompartment
 :
+private
+JS
+:
+:
+shadow
+:
+:
+Compartment
 public
 js
 :
@@ -1054,9 +1062,6 @@ gcStoreBuffer
 endif
 private
 :
-bool
-needsBarrier_
-;
 bool
 ionUsingBarriers_
 ;

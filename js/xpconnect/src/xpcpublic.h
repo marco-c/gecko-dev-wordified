@@ -901,7 +901,7 @@ thing
 )
 {
 return
-js
+JS
 :
 :
 GCThingIsMarkedGray
