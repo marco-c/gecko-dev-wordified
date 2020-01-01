@@ -9690,6 +9690,9 @@ mChildPerspective
 reset
 ]
 coord
+PRUint8
+mBackfaceVisibility
+;
 nsAutoTArray
 <
 nsTransition
