@@ -706,13 +706,6 @@ h
 #
 include
 "
-nsIDOM3Node
-.
-h
-"
-#
-include
-"
 nsCSSStyleSheet
 .
 h

@@ -455,13 +455,6 @@ h
 #
 include
 "
-nsIDOM3Node
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -520,7 +513,7 @@ private
 :
 nsCOMPtr
 <
-nsIDOM3Node
+nsIDOMNode
 >
 mNode
 ;

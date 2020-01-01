@@ -626,13 +626,6 @@ h
 #
 include
 "
-nsIDOM3Node
-.
-h
-"
-#
-include
-"
 nsIIOService
 .
 h
