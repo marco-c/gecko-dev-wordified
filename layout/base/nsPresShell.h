@@ -1993,8 +1993,6 @@ nsIntRegion
 &
 aIntDirtyRegion
 bool
-aPaintDefaultBackground
-bool
 aWillSendDidPaint
 )
 ;
