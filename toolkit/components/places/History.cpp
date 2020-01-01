@@ -11289,7 +11289,7 @@ cpc
 SendSetURITitle
 (
 aURI
-nsDependentString
+nsString
 (
 aTitle
 )
