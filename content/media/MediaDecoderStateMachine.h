@@ -4875,7 +4875,7 @@ non
 -
 null
 .
-nsRefPtr
+nsAutoPtr
 <
 AudioStream
 >

@@ -5262,7 +5262,7 @@ directly
 from
 JS
 .
-nsRefPtr
+nsAutoPtr
 <
 AudioStream
 >

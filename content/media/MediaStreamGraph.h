@@ -3331,7 +3331,7 @@ blocking
 MediaTime
 mBlockedAudioTime
 ;
-nsRefPtr
+nsAutoPtr
 <
 AudioStream
 >
