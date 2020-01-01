@@ -194,6 +194,16 @@ moz
 box
 ;
 }
+:
+root
+{
+text
+-
+rendering
+:
+optimizeLegibility
+;
+}
 /
 *
 hide
