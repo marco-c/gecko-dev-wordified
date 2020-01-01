@@ -3745,7 +3745,7 @@ startBackgroundShrink
 Must
 be
 called
-with
+without
 the
 GC
 lock
@@ -3763,7 +3763,7 @@ waitBackgroundSweepEnd
 Must
 be
 called
-with
+without
 the
 GC
 lock

@@ -3183,7 +3183,7 @@ protected
 HeapPtrBaseShape
 base_
 ;
-HeapId
+EncapsulatedId
 propid_
 ;
 JS_ENUM_HEADER
@@ -5160,7 +5160,7 @@ LINEAR_SEARCHES_SHIFT
 ;
 }
 const
-HeapId
+EncapsulatedId
 &
 propid
 (
@@ -5188,7 +5188,7 @@ return
 propid_
 ;
 }
-HeapId
+EncapsulatedId
 &
 propidRef
 (

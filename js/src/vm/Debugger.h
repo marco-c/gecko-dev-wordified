@@ -458,7 +458,7 @@ HashMap
 <
 StackFrame
 *
-HeapPtrObject
+RelocatablePtrObject
 DefaultHasher
 <
 StackFrame
@@ -490,8 +490,8 @@ instances
 typedef
 WeakMap
 <
-HeapPtrScript
-HeapPtrObject
+EncapsulatedPtrScript
+RelocatablePtrObject
 >
 ScriptWeakMap
 ;
@@ -517,8 +517,8 @@ instances
 typedef
 WeakMap
 <
-HeapPtrObject
-HeapPtrObject
+EncapsulatedPtrObject
+RelocatablePtrObject
 >
 ObjectWeakMap
 ;

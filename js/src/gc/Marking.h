@@ -452,7 +452,7 @@ base
 JSTracer
 *
 trc
-HeapPtr
+EncapsulatedPtr
 <
 type
 >
@@ -588,7 +588,7 @@ base
 #
 Marked
 (
-HeapPtr
+EncapsulatedPtr
 <
 type
 >
@@ -1400,7 +1400,7 @@ Mark
 JSTracer
 *
 trc
-HeapValue
+EncapsulatedValue
 *
 v
 const
@@ -1424,10 +1424,7 @@ Mark
 JSTracer
 *
 trc
-HeapPtr
-<
-JSObject
->
+EncapsulatedPtrObject
 *
 o
 const
@@ -1451,10 +1448,7 @@ Mark
 JSTracer
 *
 trc
-HeapPtr
-<
-JSScript
->
+EncapsulatedPtrScript
 *
 o
 const
@@ -1550,7 +1544,7 @@ inline
 bool
 IsMarked
 (
-HeapPtrObject
+EncapsulatedPtrObject
 *
 objp
 )
@@ -1566,7 +1560,7 @@ inline
 bool
 IsMarked
 (
-HeapPtrScript
+EncapsulatedPtrScript
 *
 scriptp
 )

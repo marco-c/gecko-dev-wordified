@@ -19325,7 +19325,7 @@ up
 obj
 -
 >
-setPrivate
+setPrivateGCThing
 (
 copy
 )
@@ -45063,7 +45063,7 @@ NULL
 obj
 -
 >
-setPrivate
+setPrivateGCThing
 (
 xml
 )
@@ -45611,7 +45611,7 @@ NULL
 xmlProto
 -
 >
-setPrivate
+setPrivateGCThing
 (
 xml
 )
