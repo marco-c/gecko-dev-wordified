@@ -7467,11 +7467,13 @@ NS_OK
 *
 *
 *
-Processes
-a
-mouse
-pressed
+Sets
+the
 event
+listener
+for
+a
+widget
 *
 *
 *
@@ -7495,7 +7497,7 @@ mEventListener
 nsnull
 "
 Null
-mouse
+event
 listener
 "
 )
