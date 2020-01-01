@@ -1067,7 +1067,6 @@ space
 /
 class
 Assembler
-MMGC_SUBCLASS_DECL
 {
 friend
 class
