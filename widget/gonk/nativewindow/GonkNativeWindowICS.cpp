@@ -151,13 +151,6 @@ h
 #
 include
 "
-GonkCameraHwMgr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers
