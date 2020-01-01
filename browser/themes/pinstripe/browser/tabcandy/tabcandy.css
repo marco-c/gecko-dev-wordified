@@ -232,6 +232,7 @@ rgba
 0
 0
 2px
+;
 cursor
 :
 pointer
@@ -1241,7 +1242,7 @@ border
 top
 :
 2px
-solid
+dashed
 rgba
 (
 0
@@ -1249,7 +1250,7 @@ rgba
 0
 0
 .
-13
+15
 )
 ;
 border
@@ -1257,7 +1258,7 @@ border
 left
 :
 2px
-solid
+dashed
 rgba
 (
 0
@@ -1265,7 +1266,7 @@ rgba
 0
 0
 .
-13
+15
 )
 ;
 }
