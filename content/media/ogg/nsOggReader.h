@@ -186,10 +186,6 @@ VideoUtils
 .
 h
 "
-using
-namespace
-mozilla
-;
 class
 nsMediaDecoder
 ;

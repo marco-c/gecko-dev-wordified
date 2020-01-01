@@ -115,10 +115,6 @@ nsBuiltinDecoderReader
 .
 h
 "
-using
-namespace
-mozilla
-;
 class
 nsMediaDecoder
 ;

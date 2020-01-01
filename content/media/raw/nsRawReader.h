@@ -258,6 +258,9 @@ private
 bool
 ReadFromResource
 (
+mozilla
+:
+:
 MediaResource
 *
 aResource
