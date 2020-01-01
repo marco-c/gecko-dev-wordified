@@ -1820,7 +1820,7 @@ width
 ;
 }
 static
-JS_INLINE
+JS_ALWAYS_INLINE
 jsbytecode
 *
 WriteCompactIndex
@@ -1884,7 +1884,7 @@ pc
 ;
 }
 static
-JS_INLINE
+JS_ALWAYS_INLINE
 jsbytecode
 *
 ReadCompactIndex
@@ -2578,7 +2578,7 @@ cu
 *
 /
 static
-JS_INLINE
+JS_ALWAYS_INLINE
 uintN
 upcase
 (
@@ -2675,7 +2675,7 @@ cu
 ;
 }
 static
-JS_INLINE
+JS_ALWAYS_INLINE
 uintN
 downcase
 (
@@ -14193,7 +14193,7 @@ x
 #
 endif
 static
-JS_INLINE
+JS_ALWAYS_INLINE
 REMatchState
 *
 FlatNIMatcher
@@ -16649,7 +16649,7 @@ op
 *
 /
 static
-JS_INLINE
+JS_ALWAYS_INLINE
 REMatchState
 *
 SimpleMatch
@@ -18225,7 +18225,7 @@ NULL
 ;
 }
 static
-JS_INLINE
+JS_ALWAYS_INLINE
 REMatchState
 *
 ExecuteREBytecode
