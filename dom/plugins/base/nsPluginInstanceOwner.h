@@ -1852,7 +1852,7 @@ UseAsyncRendering
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 nsIntRect
 GetVisibleRect
 (
@@ -1989,7 +1989,7 @@ value
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 void
 SendSize
 (
