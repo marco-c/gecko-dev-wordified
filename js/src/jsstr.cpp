@@ -12764,6 +12764,8 @@ res
 }
 }
 ;
+namespace
+{
 struct
 ReplaceData
 {
@@ -13010,6 +13012,13 @@ DoMatch
 /
 }
 ;
+}
+/
+*
+anonymous
+namespace
+*
+/
 static
 bool
 ReplaceRegExp
