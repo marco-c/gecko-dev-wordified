@@ -2045,6 +2045,13 @@ mIsFixedPosition
 (
 false
 )
+mMargins
+(
+0
+0
+0
+0
+)
 mDebugColorIndex
 (
 0
