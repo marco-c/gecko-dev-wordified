@@ -10197,6 +10197,7 @@ continue
 IDRefsIterator
 iter
 (
+this
 aRelProvider
 -
 >
@@ -10483,6 +10484,7 @@ continue
 IDRefsIterator
 iter
 (
+this
 aRelProvider
 -
 >

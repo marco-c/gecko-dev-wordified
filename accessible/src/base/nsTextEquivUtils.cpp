@@ -760,6 +760,12 @@ nsnull
 IDRefsIterator
 iter
 (
+aAccessible
+-
+>
+Document
+(
+)
 content
 aIDRefsAttr
 )

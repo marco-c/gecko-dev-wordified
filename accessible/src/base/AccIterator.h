@@ -1403,6 +1403,9 @@ public
 :
 IDRefsIterator
 (
+nsDocAccessible
+*
+aDoc
 nsIContent
 *
 aContent
@@ -1512,6 +1515,10 @@ mIDs
 nsIContent
 *
 mContent
+;
+nsDocAccessible
+*
+mDoc
 ;
 nsAString
 :
