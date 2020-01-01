@@ -437,10 +437,10 @@ fd
 return
 false
 ;
-MD5_CTX
+MD5Context
 md5
 ;
-MD5_Init
+MD5Init
 (
 &
 md5
@@ -513,7 +513,7 @@ buffer_size
 )
 )
 {
-MD5_Update
+MD5Update
 (
 &
 md5
@@ -527,7 +527,7 @@ close
 fd
 )
 ;
-MD5_Final
+MD5Final
 (
 identifier
 &
