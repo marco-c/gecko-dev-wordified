@@ -1812,6 +1812,14 @@ be
 created
 .
 *
+*
+aDocument
+must
+not
+be
+null
+.
+*
 /
 virtual
 nsresult
