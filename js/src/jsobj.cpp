@@ -10771,7 +10771,6 @@ JSPROP_ENUMERATE
 JSPROP_GETTER
 |
 JSPROP_SHARED
-NULL
 )
 ;
 }
@@ -10959,7 +10958,6 @@ JSPROP_ENUMERATE
 JSPROP_SETTER
 |
 JSPROP_SHARED
-NULL
 )
 ;
 }
@@ -17259,7 +17257,6 @@ JSPROP_READONLY
 JSPROP_PERMANENT
 :
 0
-NULL
 )
 ;
 if
@@ -21244,10 +21241,6 @@ JSPropertyOp
 setter
 uintN
 attrs
-JSProperty
-*
-*
-propp
 )
 {
 return
@@ -21262,7 +21255,7 @@ setter
 attrs
 0
 0
-propp
+NULL
 )
 ;
 }
@@ -32358,7 +32351,6 @@ proto
 JS_PropertyStub
 JS_PropertyStub
 attrs
-NULL
 )
 )
 {
@@ -32422,7 +32414,6 @@ ctor
 CheckCtorGetAccess
 CheckCtorSetAccess
 0
-NULL
 )
 ;
 }

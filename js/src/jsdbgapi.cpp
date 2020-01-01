@@ -4906,7 +4906,7 @@ set
 if
 (
 !
-js_DefineProperty
+js_DefineNativeProperty
 (
 cx
 obj
@@ -4915,6 +4915,8 @@ JSVAL_VOID
 NULL
 NULL
 JSPROP_ENUMERATE
+0
+0
 &
 prop
 )
