@@ -1994,6 +1994,12 @@ Determinant
 )
 const
 ;
+void
+NudgeToIntegers
+(
+void
+)
+;
 private
 :
 gfxFloat
