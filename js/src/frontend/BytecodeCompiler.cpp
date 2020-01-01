@@ -1249,6 +1249,9 @@ callerFrame
 JSPrincipals
 *
 principals
+JSPrincipals
+*
+originPrincipals
 uint32
 tcflags
 const
@@ -1368,6 +1371,7 @@ parser
 (
 cx
 principals
+originPrincipals
 callerFrame
 )
 ;
@@ -2615,6 +2619,9 @@ fun
 JSPrincipals
 *
 principals
+JSPrincipals
+*
+originPrincipals
 Bindings
 *
 bindings
@@ -2639,6 +2646,7 @@ parser
 (
 cx
 principals
+originPrincipals
 )
 ;
 if
