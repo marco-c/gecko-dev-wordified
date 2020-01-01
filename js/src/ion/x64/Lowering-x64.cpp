@@ -521,6 +521,8 @@ LUse
 :
 Policy
 policy
+bool
+useAtStart
 )
 {
 JS_ASSERT
@@ -562,6 +564,7 @@ virtualRegister
 (
 )
 policy
+useAtStart
 )
 )
 ;

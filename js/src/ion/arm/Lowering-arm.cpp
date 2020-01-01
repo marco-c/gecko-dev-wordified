@@ -521,6 +521,8 @@ LUse
 :
 Policy
 policy
+bool
+useAtStart
 )
 {
 JS_ASSERT
@@ -562,6 +564,7 @@ id
 (
 )
 policy
+useAtStart
 )
 )
 ;
@@ -580,6 +583,7 @@ VirtualRegisterOfPayload
 mir
 )
 policy
+useAtStart
 )
 )
 ;

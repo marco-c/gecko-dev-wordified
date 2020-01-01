@@ -3808,7 +3808,6 @@ dbuf
 }
 JSString
 *
-JS_FASTCALL
 js_IntToString
 (
 JSContext
@@ -7542,7 +7541,6 @@ s
 }
 JSString
 *
-JS_FASTCALL
 js_NumberToString
 (
 JSContext

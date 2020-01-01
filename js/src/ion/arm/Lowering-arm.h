@@ -555,6 +555,10 @@ LUse
 :
 :
 REGISTER
+bool
+useAtStart
+=
+false
 )
 ;
 void
