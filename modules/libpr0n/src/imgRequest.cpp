@@ -1260,6 +1260,10 @@ mIsInCache
 (
 PR_FALSE
 )
+mWindowId
+(
+0
+)
 {
 }
 imgRequest
@@ -6479,6 +6483,14 @@ forget
 )
 ;
 }
+mImage
+-
+>
+SetWindowID
+(
+mWindowId
+)
+;
 imageType
 =
 mImage
