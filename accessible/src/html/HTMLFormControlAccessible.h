@@ -158,7 +158,7 @@ class
 HTMLCheckboxAccessible
 :
 public
-nsLeafAccessible
+LeafAccessible
 {
 public
 :

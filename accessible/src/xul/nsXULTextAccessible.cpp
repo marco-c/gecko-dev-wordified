@@ -120,14 +120,14 @@ h
 #
 include
 "
-nsAccUtils
+BaseAccessibles
 .
 h
 "
 #
 include
 "
-nsBaseWidgetAccessible
+nsAccUtils
 .
 h
 "
@@ -787,7 +787,7 @@ DocAccessible
 aDoc
 )
 :
-nsLeafAccessible
+LeafAccessible
 (
 aContent
 aDoc
@@ -803,7 +803,7 @@ NativeState
 )
 {
 return
-nsLeafAccessible
+LeafAccessible
 :
 :
 NativeState

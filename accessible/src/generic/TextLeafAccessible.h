@@ -102,7 +102,7 @@ mozilla_a11y_TextLeafAccessible_h__
 #
 include
 "
-nsBaseWidgetAccessible
+BaseAccessibles
 .
 h
 "
@@ -129,7 +129,7 @@ class
 TextLeafAccessible
 :
 public
-nsLinkableAccessible
+LinkableAccessible
 {
 public
 :

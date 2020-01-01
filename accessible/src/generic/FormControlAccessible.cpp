@@ -431,7 +431,7 @@ ProgressMeterAccessible
 <
 Max
 >
-nsLeafAccessible
+LeafAccessible
 )
 template
 <
@@ -444,7 +444,7 @@ ProgressMeterAccessible
 <
 Max
 >
-nsLeafAccessible
+LeafAccessible
 )
 template
 <
@@ -457,7 +457,7 @@ ProgressMeterAccessible
 <
 Max
 >
-nsLeafAccessible
+LeafAccessible
 nsIAccessibleValue
 )
 /
@@ -585,7 +585,7 @@ NativeState
 PRUint64
 state
 =
-nsLeafAccessible
+LeafAccessible
 :
 :
 NativeState
@@ -858,7 +858,7 @@ nsString
 aValue
 )
 {
-nsLeafAccessible
+LeafAccessible
 :
 :
 Value
@@ -997,7 +997,7 @@ aMaximumValue
 nsresult
 rv
 =
-nsLeafAccessible
+LeafAccessible
 :
 :
 GetMaximumValue
@@ -1085,7 +1085,7 @@ aMinimumValue
 nsresult
 rv
 =
-nsLeafAccessible
+LeafAccessible
 :
 :
 GetMinimumValue
@@ -1134,7 +1134,7 @@ aMinimumIncrement
 nsresult
 rv
 =
-nsLeafAccessible
+LeafAccessible
 :
 :
 GetMinimumIncrement
@@ -1183,7 +1183,7 @@ aCurrentValue
 nsresult
 rv
 =
-nsLeafAccessible
+LeafAccessible
 :
 :
 GetCurrentValue
@@ -1493,7 +1493,7 @@ DocAccessible
 aDoc
 )
 :
-nsLeafAccessible
+LeafAccessible
 (
 aContent
 aDoc

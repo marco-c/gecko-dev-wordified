@@ -175,7 +175,7 @@ Don
 t
 inherit
 from
-nsLeafAccessible
+LeafAccessible
 -
 it
 doesn
@@ -343,7 +343,7 @@ class
 XULCheckboxAccessible
 :
 public
-nsLeafAccessible
+LeafAccessible
 {
 public
 :
@@ -432,7 +432,7 @@ class
 XULDropmarkerAccessible
 :
 public
-nsLeafAccessible
+LeafAccessible
 {
 public
 :
@@ -897,7 +897,7 @@ class
 XULToolbarSeparatorAccessible
 :
 public
-nsLeafAccessible
+LeafAccessible
 {
 public
 :

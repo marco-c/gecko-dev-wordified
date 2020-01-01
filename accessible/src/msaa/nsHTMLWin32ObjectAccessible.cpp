@@ -849,7 +849,7 @@ void
 aHwnd
 )
 :
-nsLeafAccessible
+LeafAccessible
 (
 nsnull
 nsnull

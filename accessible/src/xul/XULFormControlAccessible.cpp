@@ -1977,7 +1977,7 @@ DocAccessible
 aDoc
 )
 :
-nsLeafAccessible
+LeafAccessible
 (
 aContent
 aDoc
@@ -2432,7 +2432,7 @@ DocAccessible
 aDoc
 )
 :
-nsLeafAccessible
+LeafAccessible
 (
 aContent
 aDoc
@@ -2626,7 +2626,7 @@ class
 PRUint64
 state
 =
-nsLeafAccessible
+LeafAccessible
 :
 :
 NativeState
@@ -3376,7 +3376,7 @@ NativeState
 PRUint64
 state
 =
-nsLeafAccessible
+LeafAccessible
 :
 :
 NativeState
@@ -5080,7 +5080,7 @@ DocAccessible
 aDoc
 )
 :
-nsLeafAccessible
+LeafAccessible
 (
 aContent
 aDoc

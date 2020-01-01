@@ -102,7 +102,7 @@ mozilla_a11y_ImageAccessible_h__
 #
 include
 "
-nsBaseWidgetAccessible
+BaseAccessibles
 .
 h
 "
@@ -147,7 +147,7 @@ class
 ImageAccessible
 :
 public
-nsLinkableAccessible
+LinkableAccessible
 public
 nsIAccessibleImage
 {

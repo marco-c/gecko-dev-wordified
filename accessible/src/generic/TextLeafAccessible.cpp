@@ -304,7 +304,7 @@ DocAccessible
 aDoc
 )
 :
-nsLinkableAccessible
+LinkableAccessible
 (
 aContent
 aDoc

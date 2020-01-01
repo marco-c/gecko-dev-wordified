@@ -108,13 +108,6 @@ ordered
 #
 include
 "
-nsBaseWidgetAccessible
-.
-h
-"
-#
-include
-"
 nsXULMenuAccessible
 .
 h
