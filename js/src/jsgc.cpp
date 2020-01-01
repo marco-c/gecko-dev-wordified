@@ -19597,6 +19597,8 @@ BeginMarkPhase
 JSRuntime
 *
 rt
+bool
+isIncremental
 )
 {
 int64_t
@@ -19672,10 +19674,7 @@ started
 /
 if
 (
-rt
--
->
-gcIsIncremental
+isIncremental
 )
 {
 for
@@ -19868,10 +19867,7 @@ code
 /
 if
 (
-rt
--
->
-gcIsIncremental
+isIncremental
 )
 {
 for
@@ -20433,6 +20429,8 @@ EndMarkPhase
 JSRuntime
 *
 rt
+bool
+isIncremental
 )
 {
 {
@@ -20475,10 +20473,7 @@ ifdef
 DEBUG
 if
 (
-rt
--
->
-gcIsIncremental
+isIncremental
 )
 ValidateIncrementalMarking
 (
@@ -24313,10 +24308,8 @@ Unlimited
 }
 #
 endif
-rt
--
->
-gcIsIncremental
+bool
+isIncremental
 =
 rt
 -
@@ -24387,6 +24380,7 @@ MARK_ROOTS
 BeginMarkPhase
 (
 rt
+isIncremental
 )
 ;
 PushZealSelectedObjects
@@ -24570,6 +24564,7 @@ break
 EndMarkPhase
 (
 rt
+isIncremental
 )
 ;
 rt
