@@ -485,7 +485,7 @@ h
 #
 include
 "
-Function
+CTypes
 .
 h
 "
@@ -493,13 +493,6 @@ h
 include
 "
 nsServiceManagerUtils
-.
-h
-"
-#
-include
-"
-nsString
 .
 h
 "
