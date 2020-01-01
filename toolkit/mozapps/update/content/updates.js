@@ -4531,7 +4531,7 @@ getService
 (
 CoI
 .
-nsIApplicationUpdateService2
+nsIApplicationUpdateService
 )
 ;
 /

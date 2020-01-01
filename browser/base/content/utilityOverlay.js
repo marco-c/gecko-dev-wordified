@@ -3531,7 +3531,7 @@ Components
 .
 interfaces
 .
-nsIApplicationUpdateService2
+nsIApplicationUpdateService
 )
 ;
 var
