@@ -1520,8 +1520,8 @@ aRect
 the
 area
 in
-device
-pixels
+app
+units
 that
 needs
 to
@@ -1534,8 +1534,8 @@ return
 the
 rect
 in
-device
-pixels
+app
+units
 that
 should
 be
