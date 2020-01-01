@@ -4233,6 +4233,12 @@ arrow
 ;
 scope
 .
+showDescriptorTooltip
+=
+false
+;
+scope
+.
 allowNameInput
 =
 true
