@@ -5237,7 +5237,6 @@ ok
 js_Interpret
 (
 cx
-NULL
 )
 ;
 cx

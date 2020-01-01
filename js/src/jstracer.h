@@ -465,6 +465,13 @@ h
 #
 include
 "
+jsinterp
+.
+h
+"
+#
+include
+"
 nanojit
 /
 nanojit
