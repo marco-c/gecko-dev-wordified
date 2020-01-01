@@ -378,8 +378,6 @@ aCallback
 let
 tab
 =
-window
-.
 gBrowser
 .
 addTab
@@ -432,8 +430,6 @@ function
 (
 )
 {
-window
-.
 gBrowser
 .
 removeTab
