@@ -1039,6 +1039,12 @@ Reset
 (
 )
 ;
+vpx_codec_destroy
+(
+&
+mVP8
+)
+;
 vorbis_block_clear
 (
 &
