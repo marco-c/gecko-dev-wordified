@@ -576,6 +576,13 @@ nsIStrictTransportSecurityService
 .
 h
 "
+#
+include
+"
+nsISpeculativeConnect
+.
+h
+"
 class
 nsHttpConnectionInfo
 ;
@@ -771,6 +778,8 @@ public
 nsIObserver
 public
 nsSupportsWeakReference
+public
+nsISpeculativeConnect
 {
 public
 :
@@ -779,6 +788,7 @@ NS_DECL_NSIPROTOCOLHANDLER
 NS_DECL_NSIPROXIEDPROTOCOLHANDLER
 NS_DECL_NSIHTTPPROTOCOLHANDLER
 NS_DECL_NSIOBSERVER
+NS_DECL_NSISPECULATIVECONNECT
 nsHttpHandler
 (
 )
@@ -2559,6 +2569,8 @@ public
 nsIHttpProtocolHandler
 public
 nsSupportsWeakReference
+public
+nsISpeculativeConnect
 {
 public
 :
@@ -2598,6 +2610,12 @@ gHttpHandler
 >
 )
 NS_FORWARD_NSIHTTPPROTOCOLHANDLER
+(
+gHttpHandler
+-
+>
+)
+NS_FORWARD_NSISPECULATIVECONNECT
 (
 gHttpHandler
 -
