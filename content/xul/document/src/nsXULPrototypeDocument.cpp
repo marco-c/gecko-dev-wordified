@@ -4111,6 +4111,7 @@ cx
 gSharedGlobalClass
 origin
 principal
+false
 &
 newGlob
 &

@@ -2075,6 +2075,7 @@ cx
 gSharedGlobalClass
 origin
 principal
+false
 &
 mJSObject
 &
