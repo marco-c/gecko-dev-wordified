@@ -1648,16 +1648,6 @@ return
 0
 ;
 }
-onLinkIconAvailable
-:
-function
-(
-)
-{
-return
-0
-;
-}
 }
 ;
 iframe

@@ -585,13 +585,6 @@ function
 )
 {
 }
-onLinkIconAvailable
-:
-function
-(
-)
-{
-}
 onProgressChange64
 :
 function
