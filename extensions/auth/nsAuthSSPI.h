@@ -448,6 +448,13 @@ SECURITY_WIN32
 #
 include
 <
+ntsecapi
+.
+h
+>
+#
+include
+<
 security
 .
 h
