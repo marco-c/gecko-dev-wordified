@@ -1164,6 +1164,11 @@ CreateTable
 (
 )
 ;
+void
+CloseDB
+(
+)
+;
 nsresult
 Read
 (
