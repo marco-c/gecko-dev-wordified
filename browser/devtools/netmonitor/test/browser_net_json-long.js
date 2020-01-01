@@ -33,7 +33,9 @@ zero
 *
 Tests
 if
-JSONP
+very
+long
+JSON
 responses
 are
 handled
@@ -666,9 +668,14 @@ getAttribute
 value
 "
 )
+L10N
+.
+getStr
+(
 "
-JSON
+jsonScopeName
 "
+)
 "
 The
 json
