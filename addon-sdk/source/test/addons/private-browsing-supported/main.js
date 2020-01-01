@@ -150,6 +150,16 @@ private
 browsing
 '
 )
+require
+(
+'
+.
+/
+test
+-
+sidebar
+'
+)
 isGlobalPBSupported
 ?
 require
