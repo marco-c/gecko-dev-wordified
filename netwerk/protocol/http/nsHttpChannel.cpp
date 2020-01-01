@@ -6377,6 +6377,18 @@ rv
 return
 rv
 ;
+/
+/
+InitOfflineCacheEntry
+may
+have
+closed
+mOfflineCacheEntry
+if
+(
+mOfflineCacheEntry
+)
+{
 rv
 =
 InstallOfflineCacheListener
@@ -6393,6 +6405,7 @@ rv
 return
 rv
 ;
+}
 }
 else
 if
