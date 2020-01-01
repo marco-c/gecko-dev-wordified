@@ -856,6 +856,11 @@ ApplyForAdmission
 (
 )
 ;
+nsresult
+StartWebsocketData
+(
+)
+;
 PRUint16
 ResultToCloseCode
 (
@@ -1321,6 +1326,9 @@ PRInt32
 kLingeringCloseThreshold
 =
 50
+;
+PRUint32
+mMaxConcurrentConnections
 ;
 PRUint32
 mRecvdHttpOnStartRequest
