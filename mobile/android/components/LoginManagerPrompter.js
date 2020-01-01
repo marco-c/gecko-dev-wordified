@@ -1016,9 +1016,9 @@ let
 options
 =
 {
-persistence
+persistWhileVisible
 :
-1
+true
 timeout
 :
 Date
@@ -1027,7 +1027,7 @@ now
 (
 )
 +
-20000
+10000
 }
 aNativeWindow
 .
