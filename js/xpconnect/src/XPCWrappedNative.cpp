@@ -2048,7 +2048,6 @@ CreateGlobalObject
 ccx
 clasp
 principal
-false
 )
 ;
 if

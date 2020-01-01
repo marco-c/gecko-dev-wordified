@@ -6851,8 +6851,6 @@ clasp
 nsIPrincipal
 *
 principal
-bool
-wantXrays
 )
 {
 /
@@ -6953,7 +6951,6 @@ xpc
 :
 CompartmentPrivate
 (
-wantXrays
 )
 )
 ;

@@ -27090,13 +27090,11 @@ DOMExpandoMap
 ;
 CompartmentPrivate
 (
-bool
-wantXrays
 )
 :
 wantXrays
 (
-wantXrays
+false
 )
 universalXPConnectEnabled
 (
