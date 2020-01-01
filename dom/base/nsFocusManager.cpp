@@ -8487,6 +8487,10 @@ nsnull
 nsnull
 )
 ;
+if
+(
+mActiveWindow
+)
 nsIMEStateManager
 :
 :
