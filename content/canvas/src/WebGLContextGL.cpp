@@ -956,7 +956,7 @@ API
 /
 /
 *
-nsIWebGLFloatArray
+nsICanvasFloatArray
 createFloatArray
 (
 )
@@ -969,7 +969,7 @@ WebGLContext
 :
 CreateFloatArray
 (
-nsIWebGLFloatArray
+nsICanvasFloatArray
 *
 *
 retval
@@ -1089,7 +1089,7 @@ NS_OK
 }
 /
 *
-nsIWebGLByteArray
+nsICanvasByteArray
 createByteArray
 (
 )
@@ -1102,7 +1102,7 @@ WebGLContext
 :
 CreateByteArray
 (
-nsIWebGLByteArray
+nsICanvasByteArray
 *
 *
 retval
@@ -1222,7 +1222,7 @@ NS_OK
 }
 /
 *
-nsIWebGLUnsignedByteArray
+nsICanvasUnsignedByteArray
 createUnsignedByteArray
 (
 )
@@ -1235,7 +1235,7 @@ WebGLContext
 :
 CreateUnsignedByteArray
 (
-nsIWebGLUnsignedByteArray
+nsICanvasUnsignedByteArray
 *
 *
 retval
@@ -1355,7 +1355,7 @@ NS_OK
 }
 /
 *
-nsIWebGLShortArray
+nsICanvasShortArray
 createShortArray
 (
 )
@@ -1368,7 +1368,7 @@ WebGLContext
 :
 CreateShortArray
 (
-nsIWebGLShortArray
+nsICanvasShortArray
 *
 *
 retval
@@ -1488,7 +1488,7 @@ NS_OK
 }
 /
 *
-nsIWebGLUnsignedShortArray
+nsICanvasUnsignedShortArray
 createUnsignedShortArray
 (
 )
@@ -1501,7 +1501,7 @@ WebGLContext
 :
 CreateUnsignedShortArray
 (
-nsIWebGLUnsignedShortArray
+nsICanvasUnsignedShortArray
 *
 *
 retval
@@ -1621,8 +1621,8 @@ NS_OK
 }
 /
 *
-nsIWebGLUnsignedByteArray
-createUnsignedByteArray
+nsICanvasUnsignedIntArray
+createUnsignedIntArray
 (
 )
 ;
@@ -1634,7 +1634,7 @@ WebGLContext
 :
 CreateIntArray
 (
-nsIWebGLIntArray
+nsICanvasIntArray
 *
 *
 retval
@@ -1754,8 +1754,8 @@ NS_OK
 }
 /
 *
-nsIWebGLUnsignedByteArray
-createUnsignedByteArray
+nsICanvasUnsignedIntArray
+createUnsignedIntArray
 (
 )
 ;
@@ -1767,7 +1767,7 @@ WebGLContext
 :
 CreateUnsignedIntArray
 (
-nsIWebGLUnsignedIntArray
+nsICanvasUnsignedIntArray
 *
 *
 retval
@@ -2972,7 +2972,7 @@ BufferData
 (
 GLenum
 target
-nsIWebGLArray
+nsICanvasArray
 *
 na
 GLenum
@@ -3132,7 +3132,7 @@ GLenum
 target
 GLuint
 offset
-nsIWebGLArray
+nsICanvasArray
 *
 na
 )
@@ -8845,7 +8845,7 @@ NS_OK
 }
 /
 *
-nsIWebGLArray
+nsICanvasArray
 getTexParameterfv
 (
 in
@@ -8868,7 +8868,7 @@ GLenum
 target
 GLenum
 pname
-nsIWebGLArray
+nsICanvasArray
 *
 *
 retval
@@ -9051,7 +9051,7 @@ NS_OK
 }
 /
 *
-nsIWebGLArray
+nsICanvasArray
 getTexParameteriv
 (
 in
@@ -9074,7 +9074,7 @@ GLenum
 target
 GLenum
 pname
-nsIWebGLArray
+nsICanvasArray
 *
 *
 retval
@@ -9467,7 +9467,7 @@ NS_OK
 }
 /
 *
-nsIWebGLArray
+nsICanvasArray
 getUniformfv
 (
 in
@@ -9491,7 +9491,7 @@ nsIWebGLProgram
 program
 GLint
 location
-nsIWebGLArray
+nsICanvasArray
 *
 *
 retval
@@ -9538,7 +9538,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 /
 *
-nsIWebGLArray
+nsICanvasArray
 getUniformiv
 (
 in
@@ -9562,7 +9562,7 @@ nsIWebGLProgram
 program
 GLint
 location
-nsIWebGLArray
+nsICanvasArray
 *
 *
 retval
@@ -9850,7 +9850,7 @@ GLuint
 index
 GLenum
 pname
-nsIWebGLArray
+nsICanvasArray
 *
 *
 retval
@@ -10038,7 +10038,7 @@ GLuint
 index
 GLenum
 pname
-nsIWebGLArray
+nsICanvasArray
 *
 *
 retval
@@ -12002,7 +12002,7 @@ name
 (
 GLint
 idx
-nsIWebGLArray
+nsICanvasArray
 *
 v
 )
@@ -12467,7 +12467,7 @@ name
 (
 GLuint
 idx
-nsIWebGLArray
+nsICanvasArray
 *
 v
 )
@@ -12928,7 +12928,7 @@ GLint
 location
 GLboolean
 transpose
-nsIWebGLArray
+nsICanvasArray
 *
 value
 )
@@ -13983,7 +13983,7 @@ NS_OK
 }
 /
 *
-nsIWebGLIntArray
+nsICanvasIntArray
 getShaderiv
 (
 in
@@ -14007,7 +14007,7 @@ nsIWebGLShader
 shader
 GLenum
 pname
-nsIWebGLIntArray
+nsICanvasIntArray
 *
 *
 retval
