@@ -13228,6 +13228,13 @@ aHintsHandledByAncestors
 RestyleTracker
 &
 aRestyleTracker
+nsTArray
+<
+nsIContent
+*
+>
+&
+aVisibleKidsOfHiddenElement
 )
 :
 mPresContext
@@ -13332,6 +13339,10 @@ mDesiredA11yNotifications
 mOurA11yNotification
 (
 eDontNotify
+)
+mVisibleKidsOfHiddenElement
+(
+aVisibleKidsOfHiddenElement
 )
 {
 }
@@ -13464,6 +13475,12 @@ mDesiredA11yNotifications
 mOurA11yNotification
 (
 eDontNotify
+)
+mVisibleKidsOfHiddenElement
+(
+aParentRestyler
+.
+mVisibleKidsOfHiddenElement
 )
 {
 }
@@ -13600,6 +13617,12 @@ mDesiredA11yNotifications
 mOurA11yNotification
 (
 eDontNotify
+)
+mVisibleKidsOfHiddenElement
+(
+aParentRestyler
+.
+mVisibleKidsOfHiddenElement
 )
 {
 }
@@ -13855,13 +13878,6 @@ Restyle
 (
 nsRestyleHint
 aRestyleHint
-nsTArray
-<
-nsIContent
-*
->
-&
-aVisibleKidsOfHiddenElement
 TreeMatchContext
 &
 aTreeMatchContext
@@ -14585,7 +14601,6 @@ providerRestyler
 Restyle
 (
 aRestyleHint
-aVisibleKidsOfHiddenElement
 aTreeMatchContext
 )
 ;
@@ -17499,7 +17514,7 @@ was
 /
 hidden
 .
-aVisibleKidsOfHiddenElement
+mVisibleKidsOfHiddenElement
 .
 AppendElement
 (
@@ -18061,7 +18076,6 @@ oofRestyler
 Restyle
 (
 childRestyleHint
-aVisibleKidsOfHiddenElement
 aTreeMatchContext
 )
 ;
@@ -18114,7 +18128,6 @@ phRestyler
 Restyle
 (
 childRestyleHint
-aVisibleKidsOfHiddenElement
 aTreeMatchContext
 )
 ;
@@ -18147,7 +18160,6 @@ childRestyler
 Restyle
 (
 childRestyleHint
-aVisibleKidsOfHiddenElement
 aTreeMatchContext
 )
 ;
@@ -18329,7 +18341,7 @@ shown
 uint32_t
 visibleContentCount
 =
-aVisibleKidsOfHiddenElement
+mVisibleKidsOfHiddenElement
 .
 Length
 (
@@ -18355,7 +18367,7 @@ nsIContent
 *
 childContent
 =
-aVisibleKidsOfHiddenElement
+mVisibleKidsOfHiddenElement
 [
 idx
 ]
@@ -18382,7 +18394,7 @@ GetNextSibling
 )
 ;
 }
-aVisibleKidsOfHiddenElement
+mVisibleKidsOfHiddenElement
 .
 Clear
 (
@@ -18645,6 +18657,7 @@ frame
 aChangeList
 aMinChange
 aRestyleTracker
+visibleKidsOfHiddenElement
 )
 ;
 restyler
@@ -18656,7 +18669,6 @@ aRestyleDescendants
 eRestyle_Subtree
 :
 eRestyle_Self
-visibleKidsOfHiddenElement
 treeMatchContext
 )
 ;
