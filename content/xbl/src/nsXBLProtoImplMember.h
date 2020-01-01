@@ -500,6 +500,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
@@ -695,8 +702,12 @@ Free
 mName
 )
 ;
-delete
+NS_CONTENT_DELETE_LIST_MEMBER
+(
+nsXBLProtoImplMember
+this
 mNext
+)
 ;
 }
 nsXBLProtoImplMember

@@ -460,6 +460,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
@@ -615,8 +622,12 @@ MOZ_COUNT_DTOR
 nsXBLResource
 )
 ;
-delete
+NS_CONTENT_DELETE_LIST_MEMBER
+(
+nsXBLResource
+this
 mNext
+)
 ;
 }
 }

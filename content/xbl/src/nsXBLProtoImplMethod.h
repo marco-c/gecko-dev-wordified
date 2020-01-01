@@ -537,8 +537,12 @@ Free
 mName
 )
 ;
-delete
+NS_CONTENT_DELETE_LIST_MEMBER
+(
+nsXBLParameter
+this
 mNext
+)
 ;
 }
 }
