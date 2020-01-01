@@ -1457,6 +1457,10 @@ JS_LeaveCrossCompartmentCall
 call
 )
 ;
+call
+=
+NULL
+;
 if
 (
 string
