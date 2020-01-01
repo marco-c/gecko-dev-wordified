@@ -822,6 +822,16 @@ js_with_str
 with
 "
 ;
+const
+char
+js_yield_str
+[
+]
+=
+"
+yield
+"
+;
 /
 *
 *
