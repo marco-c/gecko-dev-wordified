@@ -3941,13 +3941,9 @@ attrs
 JSPROP_GETTER
 )
 {
-JS_ReportErrorNumber
+js_ReportGetterOnlyAssignment
 (
 cx
-js_GetErrorMessage
-NULL
-JSMSG_GETTER_ONLY
-NULL
 )
 ;
 return
