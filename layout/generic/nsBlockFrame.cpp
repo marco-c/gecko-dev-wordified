@@ -545,13 +545,6 @@ h
 #
 include
 "
-nsBlockBandData
-.
-h
-"
-#
-include
-"
 nsBulletFrame
 .
 h
@@ -685,7 +678,7 @@ h
 #
 include
 "
-nsSpaceManager
+nsFloatManager
 .
 h
 "

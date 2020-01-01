@@ -484,13 +484,6 @@ h
 #
 include
 "
-nsSpaceManager
-.
-h
-"
-#
-include
-"
 nsLineLayout
 .
 h

@@ -839,13 +839,6 @@ h
 #
 include
 "
-nsSpaceManager
-.
-h
-"
-#
-include
-"
 nsHTMLParts
 .
 h
