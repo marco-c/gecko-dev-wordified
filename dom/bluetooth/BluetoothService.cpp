@@ -977,7 +977,7 @@ IsEnabledInternal
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Bluetooth
@@ -1020,7 +1020,7 @@ StartInternal
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Bluetooth
@@ -1054,7 +1054,7 @@ StopInternal
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Bluetooth
@@ -1182,7 +1182,7 @@ false
 0
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed
@@ -1223,7 +1223,7 @@ ackTask
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed
@@ -1296,7 +1296,7 @@ isBoolean
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Setting
@@ -1374,7 +1374,7 @@ nsAString
 aName
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Unable
@@ -1556,7 +1556,7 @@ BluetoothDBusService
 ;
 #
 endif
-NS_WARNING
+BT_WARNING
 (
 "
 No
@@ -1622,7 +1622,7 @@ false
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed
@@ -1671,7 +1671,7 @@ false
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed
@@ -1753,7 +1753,7 @@ MOZSETTINGS_CHANGED_ID
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Can
@@ -1794,7 +1794,7 @@ MOZ_ASSERT
 aHandler
 )
 ;
-BT_LOG
+BT_LOGD
 (
 "
 [
@@ -1886,7 +1886,7 @@ MOZ_ASSERT
 aHandler
 )
 ;
-BT_LOG
+BT_LOGD
 (
 "
 [
@@ -2004,7 +2004,7 @@ aNodeName
 }
 else
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Node
@@ -2262,7 +2262,7 @@ path
 )
 )
 ;
-NS_WARNING
+BT_WARNING
 (
 msg
 .
@@ -2754,7 +2754,7 @@ mEnabled
 aEnabled
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Bluetooth
@@ -3882,7 +3882,7 @@ if
 gInShutdown
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 BluetoothService
@@ -4125,7 +4125,7 @@ obj
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed
@@ -4142,7 +4142,7 @@ message
 return
 ;
 }
-BT_LOG
+BT_LOGD
 (
 "
 [
@@ -4450,7 +4450,7 @@ name
 )
 )
 ;
-NS_WARNING
+BT_WARNING
 (
 warningMsg
 .

@@ -327,7 +327,7 @@ BluetoothValue
 TArrayOfBluetoothNamedValue
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Not
@@ -408,7 +408,7 @@ if
 sc
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Cannot
@@ -484,7 +484,7 @@ rv
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Cannot
@@ -706,7 +706,7 @@ name
 )
 )
 ;
-NS_WARNING
+BT_WARNING
 (
 warningMsg
 .
@@ -1038,7 +1038,7 @@ BluetoothSignal
 aData
 )
 {
-BT_LOG
+BT_LOGD
 (
 "
 [
@@ -1183,7 +1183,7 @@ name
 )
 )
 ;
-NS_WARNING
+BT_WARNING
 (
 warningMsg
 .

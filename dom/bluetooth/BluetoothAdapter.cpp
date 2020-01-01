@@ -422,7 +422,7 @@ BluetoothValue
 TArrayOfBluetoothNamedValue
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Not
@@ -522,7 +522,7 @@ BluetoothValue
 TArrayOfBluetoothNamedValue
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Not
@@ -603,7 +603,7 @@ if
 sc
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Cannot
@@ -655,7 +655,7 @@ if
 JsDevices
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Cannot
@@ -794,7 +794,7 @@ BluetoothValue
 Tbool
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Not
@@ -1456,7 +1456,7 @@ address
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Cannot
@@ -1599,7 +1599,7 @@ address
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Cannot
@@ -1654,7 +1654,7 @@ name
 )
 )
 ;
-NS_WARNING
+BT_WARNING
 (
 warningMsg
 .
@@ -1739,7 +1739,7 @@ BluetoothNamedValue
 >
 arr
 ;
-BT_LOG
+BT_LOGD
 (
 "
 [
@@ -2246,7 +2246,7 @@ name
 )
 )
 ;
-NS_WARNING
+BT_WARNING
 (
 warningMsg
 .
@@ -2394,7 +2394,7 @@ rv
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Start
@@ -2522,7 +2522,7 @@ if
 mJsDeviceAddresses
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Devices
@@ -2593,7 +2593,7 @@ if
 mJsUuids
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 UUIDs
@@ -3266,7 +3266,7 @@ rv
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Pair
@@ -3463,7 +3463,7 @@ results
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 SetPinCode
@@ -3603,7 +3603,7 @@ results
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 SetPasskeyInternal
@@ -3744,7 +3744,7 @@ results
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 SetPairingConfirmation
@@ -4189,7 +4189,7 @@ if
 actor
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Can

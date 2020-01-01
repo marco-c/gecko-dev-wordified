@@ -639,7 +639,7 @@ Needs
 error
 handling
 here
-NS_WARNING
+BT_WARNING
 (
 "
 Failed
@@ -702,7 +702,7 @@ task
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed
@@ -1457,7 +1457,7 @@ if
 mSocket
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 mSocket
@@ -1509,7 +1509,7 @@ CHANNEL_OPUSH
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 [
@@ -1570,7 +1570,7 @@ CHANNEL_OPUSH_L2CAP
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 [
@@ -2119,7 +2119,7 @@ than
 abort
 -
 request
-NS_WARNING
+BT_WARNING
 (
 "
 BluetoothOPPManager
@@ -2700,7 +2700,7 @@ rv
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Can
@@ -2742,7 +2742,7 @@ rv
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Can
@@ -2841,7 +2841,7 @@ uint64_t
 UINT32_MAX
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 The
@@ -2885,7 +2885,7 @@ rv
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Can
@@ -4237,7 +4237,7 @@ ObexResponseCode
 BadRequest
 )
 ;
-NS_WARNING
+BT_WARNING
 (
 "
 Unsupported
@@ -4256,7 +4256,7 @@ ObexResponseCode
 NotImplemented
 )
 ;
-NS_WARNING
+BT_WARNING
 (
 "
 Unrecognized
@@ -4508,7 +4508,7 @@ str
 failed
 "
 ;
-NS_WARNING
+BT_WARNING
 (
 str
 .
@@ -4870,7 +4870,7 @@ rv
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Can
@@ -4924,7 +4924,7 @@ rv
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Cannot
@@ -4944,7 +4944,7 @@ SendDisconnectRequest
 }
 else
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Unhandled
@@ -5373,7 +5373,7 @@ aFileBodyLength
 packetLeftSpace
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Not
@@ -6493,7 +6493,7 @@ parameters
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed
@@ -6685,7 +6685,7 @@ parameters
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed
@@ -6849,7 +6849,7 @@ parameters
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed
@@ -7015,7 +7015,7 @@ parameters
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed

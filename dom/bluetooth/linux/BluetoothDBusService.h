@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothdbuseventservice_h__
+mozilla_dom_bluetooth_bluetoothdbusservice_h__
 #
 define
-mozilla_dom_bluetooth_bluetoothdbuseventservice_h__
+mozilla_dom_bluetooth_bluetoothdbusservice_h__
 #
 include
 "
