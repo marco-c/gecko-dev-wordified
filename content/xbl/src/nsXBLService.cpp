@@ -4735,10 +4735,8 @@ if
 baseBindingURI
 )
 {
-nsCOMPtr
-<
 nsIContent
->
+*
 child
 =
 protoBinding
