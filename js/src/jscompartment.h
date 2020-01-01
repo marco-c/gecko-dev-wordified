@@ -1897,11 +1897,16 @@ wrap
 JSContext
 *
 cx
+JS
+:
+:
+MutableHandle
+<
 js
 :
 :
 PropertyDescriptor
-*
+>
 desc
 )
 ;

@@ -491,8 +491,13 @@ Handle
 jsid
 >
 id
+JS
+:
+:
+MutableHandle
+<
 JSPropertyDescriptor
-*
+>
 desc
 unsigned
 flags

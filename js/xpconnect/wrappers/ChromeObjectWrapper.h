@@ -255,11 +255,16 @@ Handle
 jsid
 >
 id
+JS
+:
+:
+MutableHandle
+<
 js
 :
 :
 PropertyDescriptor
-*
+>
 desc
 unsigned
 flags

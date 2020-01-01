@@ -1465,9 +1465,10 @@ it
 void
 initFromPropertyDescriptor
 (
-const
+Handle
+<
 PropertyDescriptor
-&
+>
 desc
 )
 ;
@@ -2258,9 +2259,10 @@ propDesc
 void
 initFromPropertyDescriptor
 (
-const
+Handle
+<
 PropertyDescriptor
-&
+>
 desc
 )
 {
