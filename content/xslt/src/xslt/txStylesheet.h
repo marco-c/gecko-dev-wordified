@@ -1077,9 +1077,12 @@ sorted
 in
 acending
 order
-nsTPtrArray
+nsTArray
+<
+nsAutoPtr
 <
 txStripSpaceTest
+>
 >
 mStripSpaceTests
 ;
