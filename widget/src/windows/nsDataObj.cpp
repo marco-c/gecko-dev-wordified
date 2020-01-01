@@ -545,9 +545,9 @@ h
 #
 include
 "
-IENUMFE
+IEnumFE
 .
-H
+h
 "
 #
 include
