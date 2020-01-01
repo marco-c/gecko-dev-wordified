@@ -1636,7 +1636,7 @@ User
 guide
 to
 memory
-memangement
+management
 within
 SpiderMonkey
 :
