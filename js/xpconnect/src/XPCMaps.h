@@ -537,11 +537,6 @@ mallocSizeOf
 size_t
 n
 =
-0
-;
-n
-+
-=
 mallocSizeOf
 (
 this
@@ -552,7 +547,7 @@ n
 =
 mTable
 .
-sizeOfIncludingThis
+sizeOfExcludingThis
 (
 mallocSizeOf
 )
