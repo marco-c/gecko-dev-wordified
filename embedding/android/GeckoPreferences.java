@@ -516,7 +516,7 @@ private
 static
 final
 String
-LOG_FILE_NAME
+LOGTAG
 =
 "
 GeckoPreferences
@@ -1269,7 +1269,7 @@ Log
 .
 e
 (
-LOG_FILE_NAME
+LOGTAG
 "
 Problem
 parsing
@@ -1442,7 +1442,7 @@ Log
 .
 e
 (
-LOG_FILE_NAME
+LOGTAG
 "
 JSON
 exception
@@ -1466,7 +1466,7 @@ Log
 .
 e
 (
-LOG_FILE_NAME
+LOGTAG
 "
 invalid
 preference

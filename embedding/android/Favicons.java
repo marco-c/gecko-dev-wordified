@@ -588,10 +588,10 @@ private
 static
 final
 String
-LOG_NAME
+LOGTAG
 =
 "
-Favicons
+GeckoFavicons
 "
 ;
 private
@@ -701,7 +701,7 @@ Log
 .
 d
 (
-LOG_NAME
+LOGTAG
 "
 Creating
 DatabaseHelper
@@ -722,7 +722,7 @@ Log
 .
 d
 (
-LOG_NAME
+LOGTAG
 "
 Creating
 database
@@ -796,7 +796,7 @@ Log
 .
 w
 (
-LOG_NAME
+LOGTAG
 "
 Upgrading
 favicon
@@ -865,7 +865,7 @@ Log
 .
 d
 (
-LOG_NAME
+LOGTAG
 "
 Calling
 getFaviconUrlForPageUrl
@@ -985,7 +985,7 @@ Log
 .
 d
 (
-LOG_NAME
+LOGTAG
 "
 Calling
 setFaviconUrlForPageUrl
@@ -1052,7 +1052,7 @@ Log
 .
 d
 (
-LOG_NAME
+LOGTAG
 "
 Creating
 Favicons
@@ -1089,7 +1089,7 @@ Log
 .
 d
 (
-LOG_NAME
+LOGTAG
 "
 Calling
 loadFavicon
@@ -1179,7 +1179,7 @@ Log
 .
 d
 (
-LOG_NAME
+LOGTAG
 "
 Closing
 Favicons
@@ -1244,7 +1244,7 @@ Log
 .
 d
 (
-LOG_NAME
+LOGTAG
 "
 Creating
 LoadFaviconTask
@@ -1282,7 +1282,7 @@ Log
 .
 d
 (
-LOG_NAME
+LOGTAG
 "
 Loading
 favicon
@@ -1426,7 +1426,7 @@ Log
 .
 d
 (
-LOG_NAME
+LOGTAG
 "
 Loaded
 favicon
@@ -1542,7 +1542,7 @@ Log
 .
 d
 (
-LOG_NAME
+LOGTAG
 "
 Saving
 favicon
@@ -1588,7 +1588,7 @@ Log
 .
 d
 (
-LOG_NAME
+LOGTAG
 "
 Saving
 favicon
@@ -1628,7 +1628,7 @@ Log
 .
 d
 (
-LOG_NAME
+LOGTAG
 "
 Downloading
 favicon
@@ -1694,7 +1694,7 @@ Log
 .
 d
 (
-LOG_NAME
+LOGTAG
 "
 Error
 downloading
@@ -1718,7 +1718,7 @@ Log
 .
 d
 (
-LOG_NAME
+LOGTAG
 "
 Downloaded
 favicon
@@ -1792,7 +1792,7 @@ Log
 .
 d
 (
-LOG_NAME
+LOGTAG
 "
 The
 provided
@@ -1909,7 +1909,7 @@ Log
 .
 d
 (
-LOG_NAME
+LOGTAG
 "
 The
 provided
@@ -1932,7 +1932,7 @@ Log
 .
 d
 (
-LOG_NAME
+LOGTAG
 "
 Favicon
 URL
@@ -2046,7 +2046,7 @@ Log
 .
 d
 (
-LOG_NAME
+LOGTAG
 "
 LoadFaviconTask
 finished
