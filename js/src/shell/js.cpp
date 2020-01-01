@@ -9027,7 +9027,7 @@ vp
 ;
 }
 static
-unsigned
+jsrefcount
 finalizeCount
 =
 0

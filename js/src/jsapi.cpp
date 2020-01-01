@@ -5745,7 +5745,7 @@ endif
 }
 JS_PUBLIC_API
 (
-unsigned
+jsrefcount
 )
 JS_SuspendRequest
 (
@@ -5776,7 +5776,7 @@ onOwnerThread
 )
 )
 ;
-unsigned
+jsrefcount
 saveDepth
 =
 rt
@@ -5831,7 +5831,7 @@ JS_ResumeRequest
 JSContext
 *
 cx
-unsigned
+jsrefcount
 saveDepth
 )
 {
@@ -24916,7 +24916,7 @@ ifdef
 JS_THREADSAFE
 JS_PUBLIC_API
 (
-unsigned
+jsrefcount
 )
 JS_HoldPrincipals
 (
@@ -24941,7 +24941,7 @@ refcount
 }
 JS_PUBLIC_API
 (
-unsigned
+jsrefcount
 )
 JS_DropPrincipals
 (
@@ -24953,7 +24953,7 @@ JSPrincipals
 principals
 )
 {
-unsigned
+jsrefcount
 rc
 =
 JS_ATOMIC_DECREMENT
