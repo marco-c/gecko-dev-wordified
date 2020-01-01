@@ -653,6 +653,10 @@ mRow
 =
 nsnull
 ;
+mImageData
+=
+nsnull
+;
 mCurPos
 =
 mPos
