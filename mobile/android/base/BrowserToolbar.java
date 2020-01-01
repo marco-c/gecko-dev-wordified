@@ -3076,6 +3076,15 @@ updateTitle
 break
 ;
 case
+RESTORED
+:
+/
+/
+TabCount
+fixup
+after
+OOM
+case
 SELECTED
 :
 updateTabCount
