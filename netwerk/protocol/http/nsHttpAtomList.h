@@ -588,15 +588,6 @@ Allow
 )
 HTTP_ATOM
 (
-Alternate_Protocol
-"
-Alternate
--
-Protocol
-"
-)
-HTTP_ATOM
-(
 Authentication
 "
 Authentication

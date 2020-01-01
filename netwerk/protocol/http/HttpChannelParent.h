@@ -677,10 +677,6 @@ const
 nsCString
 &
 appCacheClientID
-const
-bool
-&
-allowSpdy
 )
 ;
 virtual
