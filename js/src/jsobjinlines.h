@@ -1116,6 +1116,7 @@ js_SetPropertyHelper
 (
 cx
 this
+this
 shape
 .
 id
