@@ -665,6 +665,8 @@ c
 )
 |
 |
+:
+:
 alpha
 (
 c
@@ -2848,6 +2850,8 @@ i
 ;
 if
 (
+:
+:
 alphanumeric
 (
 start
@@ -2898,6 +2902,8 @@ i
 }
 if
 (
+:
+:
 alphanumeric
 (
 end
@@ -2968,6 +2974,8 @@ if
 case_insensitive
 &
 &
+:
+:
 alpha
 (
 val
@@ -3096,6 +3104,8 @@ matched
 |
 =
 (
+:
+:
 upper
 (
 str
@@ -3105,6 +3115,8 @@ x
 )
 =
 =
+:
+:
 upper
 (
 expr
@@ -3235,6 +3247,8 @@ case_insensitive
 {
 if
 (
+:
+:
 upper
 (
 str
@@ -3244,6 +3258,8 @@ x
 )
 !
 =
+:
+:
 upper
 (
 expr
@@ -3356,6 +3372,8 @@ T
 )
 )
 return
+:
+:
 _shexp_match
 (
 str
@@ -3604,6 +3622,8 @@ return
 default
 :
 return
+:
+:
 ns_WildCardMatch
 (
 str
