@@ -26196,7 +26196,7 @@ serif
 tr
 "
 "
-Times
+serif
 "
 )
 ;
@@ -26214,7 +26214,9 @@ serif
 tr
 "
 "
-Helvetica
+sans
+-
+serif
 "
 )
 ;
@@ -26230,7 +26232,7 @@ monospace
 tr
 "
 "
-Courier
+monospace
 "
 )
 ;
@@ -26308,7 +26310,7 @@ central
 euro
 "
 "
-Times
+serif
 "
 )
 ;
@@ -26330,7 +26332,9 @@ central
 euro
 "
 "
-Helvetica
+sans
+-
+serif
 "
 )
 ;
@@ -26350,7 +26354,7 @@ central
 euro
 "
 "
-Courier
+monospace
 "
 )
 ;
@@ -26426,7 +26430,7 @@ x
 unicode
 "
 "
-Times
+serif
 "
 )
 ;
@@ -26446,7 +26450,9 @@ x
 unicode
 "
 "
-Helvetica
+sans
+-
+serif
 "
 )
 ;
@@ -26464,7 +26470,7 @@ x
 unicode
 "
 "
-Courier
+monospace
 "
 )
 ;
@@ -26484,7 +26490,7 @@ user
 def
 "
 "
-Times
+serif
 "
 )
 ;
@@ -26506,7 +26512,9 @@ user
 def
 "
 "
-Helvetica
+sans
+-
+serif
 "
 )
 ;
@@ -26526,7 +26534,7 @@ user
 def
 "
 "
-Courier
+monospace
 "
 )
 ;
@@ -26544,7 +26552,7 @@ x
 western
 "
 "
-Times
+serif
 "
 )
 ;
@@ -26564,7 +26572,9 @@ x
 western
 "
 "
-Helvetica
+sans
+-
+serif
 "
 )
 ;
@@ -26582,7 +26592,7 @@ x
 western
 "
 "
-Courier
+monospace
 "
 )
 ;
