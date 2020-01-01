@@ -2089,18 +2089,6 @@ if
 argc
 <
 7
-|
-|
-(
-argc
->
-7
-&
-&
-argc
-<
-9
-)
 )
 return
 xpc_qsThrow
@@ -2122,7 +2110,7 @@ vp
 int32
 intargs
 [
-8
+9
 ]
 ;
 /
