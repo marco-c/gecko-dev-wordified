@@ -4866,6 +4866,10 @@ cancel
 (
 )
             
+if
+stdout
+:
+                
 self
 .
 parse_output
