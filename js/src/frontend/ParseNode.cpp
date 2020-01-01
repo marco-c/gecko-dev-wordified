@@ -2664,6 +2664,14 @@ function
 (
 )
 pc
+Directives
+(
+/
+*
+strict
+=
+*
+/
 opn
 -
 >
@@ -2671,6 +2679,7 @@ pn_funbox
 -
 >
 strict
+)
 )
 )
 ;
