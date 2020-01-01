@@ -1509,7 +1509,27 @@ except
 KeyboardInterrupt
 :
         
-pass
+print
+(
+'
+TEST
+-
+UNEXPECTED_FAIL
+|
+trace
+-
+test
+.
+py
+|
+%
+s
+'
+%
+test
+.
+path
+)
     
 if
 pb
