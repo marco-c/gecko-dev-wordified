@@ -532,7 +532,7 @@ nsFrameLoader
 public
 nsIFrameLoader
 {
-public
+protected
 :
 nsFrameLoader
 (
@@ -580,6 +580,8 @@ PR_FALSE
 endif
 {
 }
+public
+:
 ~
 nsFrameLoader
 (
@@ -597,6 +599,16 @@ Destroy
 )
 ;
 }
+static
+nsFrameLoader
+*
+Create
+(
+nsIContent
+*
+aOwner
+)
+;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
