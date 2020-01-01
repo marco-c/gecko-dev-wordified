@@ -51396,7 +51396,7 @@ telemetry
 .
 optout
 .
-message
+message2
 "
 [
 brandShortName
