@@ -798,9 +798,15 @@ UpdateSecurityState
 nsIRequest
 *
 aRequest
+PRBool
+withNewLocation
+PRBool
+withUpdateStatus
+PRBool
+withUpdateTooltip
 )
 ;
-void
+PRBool
 UpdateMyFlags
 (
 PRBool
@@ -832,6 +838,8 @@ aRequest
 nsISupports
 *
 info
+PRBool
+withNewLocation
 )
 ;
 void
