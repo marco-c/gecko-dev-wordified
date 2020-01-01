@@ -448,7 +448,7 @@ us
 #
 include
 "
-nsICanvasRenderingContextGL
+nsICanvasRenderingContextWebGL
 .
 h
 "
@@ -462,6 +462,20 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
+glwrap
+.
+h
+"
+#
+include
+"
 nsGLPbuffer
 .
 h
@@ -469,7 +483,7 @@ h
 #
 include
 "
-nsCanvasRenderingContextGL
+WebGLContext
 .
 h
 "
@@ -480,6 +494,10 @@ gfxContext
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 if
 defined
@@ -1049,7 +1067,7 @@ nsGLPbufferGLX
 :
 Init
 (
-nsCanvasRenderingContextGLPrivate
+WebGLContext
 *
 priv
 )
@@ -1081,8 +1099,6 @@ so
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -1097,7 +1113,6 @@ so
 .
 1
 "
-)
 )
 ;
 return
@@ -1116,8 +1131,6 @@ Init
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -1129,7 +1142,6 @@ Init
 )
 failed
 "
-)
 )
 ;
 return
@@ -1173,8 +1185,6 @@ mDisplay
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -1182,7 +1192,6 @@ Canvas
 XOpenDisplay
 failed
 "
-)
 )
 ;
 return
@@ -1229,8 +1238,6 @@ NULL
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -1239,7 +1246,6 @@ GLX_SGIX_pbuffer
 not
 supported
 "
-)
 )
 ;
 return
@@ -1276,8 +1282,6 @@ NULL
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -1288,7 +1292,6 @@ supported
 by
 server
 "
-)
 )
 ;
 return
@@ -1472,8 +1475,6 @@ configs
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -1482,7 +1483,6 @@ No
 GLXFBConfig
 found
 "
-)
 )
 ;
 return
@@ -1576,8 +1576,6 @@ so
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -1595,7 +1593,6 @@ so
 .
 1
 "
-)
 )
 ;
 return
@@ -1633,8 +1630,6 @@ TRY_NATIVE_GL
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -1643,7 +1638,6 @@ GLWrap
 init
 failed
 "
-)
 )
 ;
 return
@@ -1756,10 +1750,8 @@ Destroy
 ;
 mThebesSurface
 =
-CanvasGLThebes
-:
-:
-CreateImageSurface
+new
+gfxImageSurface
 (
 gfxIntSize
 (
@@ -2089,8 +2081,8 @@ fReadPixels
 0
 mWidth
 mHeight
-GL_BGRA
-GL_UNSIGNED_INT_8_8_8_8_REV
+LOCAL_GL_BGRA
+LOCAL_GL_UNSIGNED_INT_8_8_8_8_REV
 mThebesSurface
 -
 >
