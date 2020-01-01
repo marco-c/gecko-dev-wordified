@@ -733,10 +733,6 @@ aInstance
 nsIPluginStreamListener
 *
 aListener
-PRInt32
-requestCount
-=
-1
 )
 ;
 nsresult
