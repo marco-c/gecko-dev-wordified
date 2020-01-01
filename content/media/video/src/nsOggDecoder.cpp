@@ -8838,6 +8838,10 @@ mStepDecodeThread
 nsnull
 ;
 }
+StopPlayback
+(
+)
+;
 /
 /
 Remove
