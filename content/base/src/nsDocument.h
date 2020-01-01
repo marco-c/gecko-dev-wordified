@@ -958,6 +958,13 @@ imgIRequest
 h
 "
 #
+include
+"
+nsIDOMDOMImplementation
+.
+h
+"
+#
 define
 XML_DECLARATION_BITS_DECLARATION_EXISTS
 (
@@ -7117,6 +7124,12 @@ nsCOMArray
 imgIRequest
 >
 mPreloadingImages
+;
+nsCOMPtr
+<
+nsIDOMDOMImplementation
+>
+mDOMImplementation
 ;
 #
 ifdef
