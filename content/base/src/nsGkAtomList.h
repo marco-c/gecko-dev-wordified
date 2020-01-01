@@ -3596,6 +3596,13 @@ noautofocus
 )
 GK_ATOM
 (
+keepcurrentinview
+"
+keepcurrentinview
+"
+)
+GK_ATOM
+(
 key
 "
 key
