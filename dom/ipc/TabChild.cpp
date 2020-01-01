@@ -4936,6 +4936,7 @@ nsIWidget
 :
 CreatePuppetWidget
 (
+this
 )
 ;
 if
