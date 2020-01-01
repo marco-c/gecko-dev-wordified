@@ -120,13 +120,6 @@ nsHTMLTags
 .
 h
 "
-#
-include
-"
-nsIElementObserver
-.
-h
-"
 class
 nsIParser
 ;

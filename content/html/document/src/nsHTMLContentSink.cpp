@@ -575,13 +575,6 @@ h
 #
 include
 "
-nsIElementObserver
-.
-h
-"
-#
-include
-"
 nsNodeInfoManager
 .
 h
