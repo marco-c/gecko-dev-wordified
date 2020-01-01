@@ -15515,6 +15515,8 @@ getViewportMetrics
 (
 )
 ;
+/
+*
 if
 (
 FloatUtils
@@ -15609,6 +15611,8 @@ SCREENSHOT_UPDATE
 }
 else
 {
+*
+/
 GeckoAppShell
 .
 screenshotWholePage
@@ -15616,6 +15620,8 @@ screenshotWholePage
 tab
 )
 ;
+/
+/
 }
 }
 void
