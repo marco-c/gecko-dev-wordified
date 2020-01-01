@@ -1329,6 +1329,10 @@ numSlices_
 (
 numSlices
 )
+rendezvousEnd_
+(
+NULL
+)
 allocators_
 (
 cx
@@ -1598,6 +1602,10 @@ ForkJoinShared
 (
 )
 {
+if
+(
+rendezvousEnd_
+)
 PR_DestroyCondVar
 (
 rendezvousEnd_
