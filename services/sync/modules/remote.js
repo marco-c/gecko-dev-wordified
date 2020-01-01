@@ -619,6 +619,16 @@ _request
 =
 request
 ;
+this
+.
+location
+=
+Components
+.
+stack
+.
+caller
+;
 }
 RequestException
 .
