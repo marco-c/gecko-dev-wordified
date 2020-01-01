@@ -887,6 +887,7 @@ LoadBindingDocumentInfo
 nsnull
 nsnull
 bindingURI
+nsnull
 PR_TRUE
 getter_AddRefs
 (
@@ -949,6 +950,7 @@ LoadBindingDocumentInfo
 nsnull
 nsnull
 bindingURI
+nsnull
 PR_TRUE
 getter_AddRefs
 (
