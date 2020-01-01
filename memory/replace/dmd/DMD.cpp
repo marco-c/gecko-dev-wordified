@@ -14862,6 +14862,15 @@ ClearReports
 (
 )
 {
+if
+(
+!
+gIsDMDRunning
+)
+{
+return
+;
+}
 /
 /
 Unreport
