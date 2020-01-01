@@ -908,7 +908,7 @@ if
 mCallState
 =
 =
-CREATEOFFER
+CREATEOFFERSUCCESS
 )
 |
 |
@@ -916,7 +916,7 @@ CREATEOFFER
 mCallState
 =
 =
-CREATEANSWER
+CREATEANSWERSUCCESS
 )
 )
 {
@@ -1119,7 +1119,7 @@ mCallState
 )
 {
 case
-CREATEOFFER
+CREATEOFFERSUCCESS
 :
 mObserver
 -
@@ -1136,7 +1136,7 @@ c_str
 break
 ;
 case
-CREATEANSWER
+CREATEANSWERSUCCESS
 :
 mObserver
 -
@@ -1189,7 +1189,7 @@ c_str
 break
 ;
 case
-SETLOCALDESC
+SETLOCALDESCSUCCESS
 :
 /
 /
@@ -1274,7 +1274,7 @@ OnSetLocalDescriptionSuccess
 break
 ;
 case
-SETREMOTEDESC
+SETREMOTEDESCSUCCESS
 :
 /
 /
@@ -7244,7 +7244,7 @@ event
 )
 {
 case
-SETLOCALDESC
+SETLOCALDESCSUCCESS
 :
 case
 UPDATELOCALDESC
@@ -7261,7 +7261,7 @@ getSDP
 break
 ;
 case
-SETREMOTEDESC
+SETREMOTEDESCSUCCESS
 :
 case
 ADDICECANDIDATE
