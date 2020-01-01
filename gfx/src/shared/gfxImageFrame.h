@@ -578,5 +578,8 @@ mOffset
 PRInt32
 mDisposalMethod
 ;
+PRInt8
+mBlendMethod
+;
 }
 ;
