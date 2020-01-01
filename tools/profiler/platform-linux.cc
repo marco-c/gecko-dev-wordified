@@ -1492,7 +1492,7 @@ LOG
 (
 "
 Sampler
-Started
+started
 "
 )
 ;
@@ -1885,7 +1885,7 @@ void
 context
 )
 {
-mozilla_sampler_start
+SAMPLER_START
 (
 PROFILE_DEFAULT_ENTRY
 PROFILE_DEFAULT_INTERVAL

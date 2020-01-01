@@ -4260,6 +4260,12 @@ if
 (
 !
 found_debug_info_section
+&
+&
+symbol_data
+!
+=
+ONLY_CFI
 )
 {
 fprintf
