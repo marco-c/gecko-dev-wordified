@@ -13,7 +13,7 @@ tab
 -
 width
 :
-2
+8
 ;
 indent
 -
@@ -29,7 +29,7 @@ basic
 -
 offset
 :
-4
+2
 -
 *
 -
@@ -348,6 +348,10 @@ mNonSessionExpireType
 (
 aExpireType
 )
+mNonSessionExpireTime
+(
+aExpireTime
+)
 {
 }
 int64_t
@@ -370,6 +374,9 @@ mNonSessionPermission
 ;
 uint32_t
 mNonSessionExpireType
+;
+uint32_t
+mNonSessionExpireTime
 ;
 }
 ;
