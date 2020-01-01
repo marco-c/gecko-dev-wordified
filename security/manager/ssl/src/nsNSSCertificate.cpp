@@ -1063,6 +1063,10 @@ mCertType
 (
 CERT_TYPE_NOT_YET_INITIALIZED
 )
+mCachedEVStatus
+(
+ev_status_unknown
+)
 {
 nsNSSShutDownPreventionLock
 locker
@@ -1105,6 +1109,10 @@ PR_FALSE
 mCertType
 (
 CERT_TYPE_NOT_YET_INITIALIZED
+)
+mCachedEVStatus
+(
+ev_status_unknown
 )
 {
 }
