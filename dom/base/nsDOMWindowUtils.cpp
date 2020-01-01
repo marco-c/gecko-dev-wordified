@@ -10724,12 +10724,13 @@ nsTArray
 float
 >
 frameTimes
-=
+;
 mgr
 -
 >
 StopFrameTimeRecording
 (
+frameTimes
 )
 ;
 *
