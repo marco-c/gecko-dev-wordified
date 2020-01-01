@@ -25687,7 +25687,7 @@ nsGlobalWindow
 :
 SetTimeout
 (
-PRBool
+PRInt32
 *
 _retval
 )
@@ -25706,7 +25706,7 @@ nsGlobalWindow
 :
 SetInterval
 (
-PRBool
+PRInt32
 *
 _retval
 )
