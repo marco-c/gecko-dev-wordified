@@ -2865,7 +2865,7 @@ accessible
 action
 *
 /
-nsresult
+void
 DoCommand
 (
 nsIContent
