@@ -582,7 +582,7 @@ struct
 comes
 out
 to
-70
+93
 bits
 .
 struct
@@ -625,10 +625,8 @@ check
 slow
 path
 .
-uint16
+uint32
 typeCheckOffset
-:
-9
 ;
 /
 /

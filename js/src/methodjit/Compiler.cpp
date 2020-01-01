@@ -2893,7 +2893,7 @@ get
 .
 typeCheckOffset
 =
-uint16
+uint32
 (
 -
 distance
