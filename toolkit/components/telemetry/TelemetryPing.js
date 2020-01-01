@@ -738,6 +738,15 @@ hls
 key
 ]
 ;
+if
+(
+!
+hgram
+.
+static
+)
+continue
+;
 let
 r
 =
@@ -1420,6 +1429,9 @@ _histograms
 :
 {
 }
+_initialized
+:
+false
 _prevValues
 :
 {

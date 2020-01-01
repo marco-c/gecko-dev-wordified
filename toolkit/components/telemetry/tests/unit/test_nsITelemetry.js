@@ -259,6 +259,13 @@ gh
 max
 max
 )
+do_check_false
+(
+gh
+.
+static
+)
+;
 /
 /
 Check
@@ -613,6 +620,13 @@ s
 .
 max
 10000
+)
+;
+do_check_true
+(
+s
+.
+static
 )
 ;
 }
