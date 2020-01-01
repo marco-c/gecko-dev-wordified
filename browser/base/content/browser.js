@@ -22887,6 +22887,7 @@ CustomizeToolbar
 chrome
 titlebar
 toolbar
+location
 resizable
 dependent
 "
