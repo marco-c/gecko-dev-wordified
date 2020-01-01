@@ -1009,6 +1009,15 @@ CSS_PROPERTY_PARSE_VALUE
 <
 9
 )
+#
+define
+CSS_PROPERTY_PARSE_VALUE_LIST
+(
+4
+<
+<
+9
+)
 /
 /
 See
