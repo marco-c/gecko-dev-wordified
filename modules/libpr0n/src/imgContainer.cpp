@@ -1086,10 +1086,6 @@ mLockCount
 (
 0
 )
-mStatusTracker
-(
-this
-)
 mDecoder
 (
 nsnull
@@ -1118,10 +1114,6 @@ mDecodeOnDraw
 PR_FALSE
 )
 mMultipart
-(
-PR_FALSE
-)
-mInitialized
 (
 PR_FALSE
 )
