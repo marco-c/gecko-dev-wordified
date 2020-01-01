@@ -3489,9 +3489,6 @@ NewNameNode
 JSContext
 *
 cx
-JSTokenStream
-*
-ts
 JSAtom
 *
 atom
@@ -7602,13 +7599,6 @@ compiler
 -
 >
 context
-TS
-(
-tc
--
->
-compiler
-)
 pn
 -
 >
@@ -8863,13 +8853,6 @@ compiler
 -
 >
 context
-TS
-(
-tc
--
->
-compiler
-)
 atom
 tc
 )
@@ -16934,7 +16917,6 @@ rhs
 NewNameNode
 (
 cx
-ts
 cx
 -
 >
@@ -20244,13 +20226,6 @@ pnu
 NewNameNode
 (
 cx
-TS
-(
-tc
--
->
-compiler
-)
 atom
 tc
 )
@@ -20471,13 +20446,6 @@ pn2
 NewNameNode
 (
 cx
-TS
-(
-tc
--
->
-compiler
-)
 atom
 tc
 )
@@ -26965,9 +26933,6 @@ JSParseNode
 *
 NewBindingNode
 (
-JSTokenStream
-*
-ts
 JSAtom
 *
 atom
@@ -27259,7 +27224,6 @@ compiler
 -
 >
 context
-ts
 atom
 tc
 )
@@ -30427,7 +30391,6 @@ pn1
 NewNameNode
 (
 cx
-ts
 pn2
 -
 >
@@ -31818,7 +31781,6 @@ pn3
 =
 NewBindingNode
 (
-ts
 label
 tc
 true
@@ -35433,7 +35395,6 @@ pn2
 =
 NewBindingNode
 (
-ts
 atom
 tc
 let
@@ -39857,13 +39818,6 @@ compiler
 -
 >
 context
-TS
-(
-tc
--
->
-compiler
-)
 dn
 -
 >
@@ -40857,7 +40811,6 @@ pn3
 =
 NewBindingNode
 (
-ts
 atom
 tc
 true
@@ -42744,7 +42697,6 @@ pn2
 NewNameNode
 (
 cx
-ts
 NULL
 tc
 )
@@ -44399,7 +44351,6 @@ pn2
 NewNameNode
 (
 cx
-ts
 NULL
 tc
 )
@@ -49398,7 +49349,6 @@ pn3
 NewNameNode
 (
 cx
-ts
 CURRENT_TOKEN
 (
 ts
@@ -50339,7 +50289,6 @@ pn
 NewNameNode
 (
 cx
-ts
 CURRENT_TOKEN
 (
 ts
