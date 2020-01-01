@@ -3148,6 +3148,7 @@ nonchar
 &
 &
 (
+(
 !
 state
 &
@@ -3155,8 +3156,10 @@ state
 c
 <
 0xBE
+)
 |
 |
+(
 state
 =
 =
@@ -3167,8 +3170,10 @@ c
 !
 =
 0xBF
+)
 |
 |
+(
 state
 =
 =
@@ -3182,6 +3187,7 @@ state
 0x0F
 &
 c
+)
 )
 )
 )
@@ -3201,6 +3207,7 @@ c
 )
 |
 |
+(
 overlong
 &
 &
@@ -3208,8 +3215,10 @@ c
 <
 =
 olupper
+)
 |
 |
+(
 surrogate
 &
 &
@@ -3217,13 +3226,16 @@ slower
 <
 =
 c
+)
 |
 |
+(
 nonchar
 &
 &
 !
 state
+)
 )
 return
 PR_FALSE
