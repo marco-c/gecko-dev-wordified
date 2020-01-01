@@ -728,7 +728,7 @@ f
 testShortArray
 :
 f_is
-testLongLongArray
+testDoubleArray
 :
 f_is
 testStringArray
