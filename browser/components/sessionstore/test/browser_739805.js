@@ -27,11 +27,6 @@ zero
 /
 *
 /
-const
-TAB_STATE_NEEDS_RESTORE
-=
-1
-;
 let
 tabState
 =
