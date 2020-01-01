@@ -121,7 +121,11 @@ h
 #
 include
 "
-nsSVGSVGElement
+mozilla
+/
+dom
+/
+SVGSVGElement
 .
 h
 "
@@ -7334,7 +7338,7 @@ ErrorCode
 )
 ;
 }
-nsSVGSVGElement
+SVGSVGElement
 *
 nsSVGElement
 :
@@ -7346,7 +7350,7 @@ ErrorResult
 rv
 )
 {
-nsSVGSVGElement
+SVGSVGElement
 *
 ownerSVGElement
 =
@@ -8501,7 +8505,7 @@ the
 attribute
 value
 in
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 /
@@ -10292,7 +10296,7 @@ return
 aAttr
 ;
 }
-nsSVGSVGElement
+SVGSVGElement
 *
 nsSVGElement
 :
@@ -10363,7 +10367,7 @@ svg
 return
 static_cast
 <
-nsSVGSVGElement
+SVGSVGElement
 *
 >
 (
@@ -10859,7 +10863,7 @@ attribs
 "
 )
 ;
-nsSVGSVGElement
+SVGSVGElement
 *
 ctx
 =

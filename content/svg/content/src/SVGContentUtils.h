@@ -160,9 +160,6 @@ nsSVGElement
 class
 nsSVGLength2
 ;
-class
-nsSVGSVGElement
-;
 namespace
 mozilla
 {
@@ -177,6 +174,9 @@ dom
 {
 class
 Element
+;
+class
+SVGSVGElement
 ;
 }
 /
@@ -354,7 +354,13 @@ nsIContent
 *
 /
 static
-nsSVGSVGElement
+mozilla
+:
+:
+dom
+:
+:
+SVGSVGElement
 *
 GetOuterSVGElement
 (

@@ -119,7 +119,11 @@ h
 #
 include
 "
-nsSVGSVGElement
+mozilla
+/
+dom
+/
+SVGSVGElement
 .
 h
 "
@@ -1278,7 +1282,10 @@ if
 aElement
 )
 {
-nsSVGSVGElement
+dom
+:
+:
+SVGSVGElement
 *
 viewportElement
 =

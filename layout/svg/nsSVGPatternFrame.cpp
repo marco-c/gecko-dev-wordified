@@ -227,6 +227,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 /
 /
 -
@@ -4046,7 +4053,7 @@ aTarget
 gfxMatrix
 tCTM
 ;
-nsSVGSVGElement
+SVGSVGElement
 *
 ctx
 =

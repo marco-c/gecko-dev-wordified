@@ -107,7 +107,11 @@ h
 #
 include
 "
-nsSVGSVGElement
+mozilla
+/
+dom
+/
+SVGSVGElement
 .
 h
 "
@@ -2613,7 +2617,7 @@ AnimationNeedsResample
 /
 As
 with
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 SetCurrentTime
@@ -2762,7 +2766,7 @@ GetTimeContainer
 (
 )
 {
-nsSVGSVGElement
+SVGSVGElement
 *
 element
 =

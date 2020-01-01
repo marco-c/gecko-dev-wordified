@@ -1889,7 +1889,7 @@ nsSVGMarkerElement
 :
 SetParentCoordCtxProvider
 (
-nsSVGSVGElement
+SVGSVGElement
 *
 aContext
 )

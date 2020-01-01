@@ -160,6 +160,13 @@ nsSVGPathGeometryFrame
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 nsIFrame
 *
 NS_NewSVGMarkerFrame
@@ -1299,7 +1306,7 @@ nsSVGMarkerFrame
 :
 SetParentCoordCtxProvider
 (
-nsSVGSVGElement
+SVGSVGElement
 *
 aContext
 )
@@ -1437,7 +1444,7 @@ mMarkedFrame
 =
 aMarkedFrame
 ;
-nsSVGSVGElement
+SVGSVGElement
 *
 ctx
 =

@@ -261,7 +261,11 @@ h
 #
 include
 "
-nsSVGSVGElement
+mozilla
+/
+dom
+/
+SVGSVGElement
 .
 h
 "
@@ -401,7 +405,7 @@ int32_t
 aResult
 )
 {
-nsSVGSVGElement
+SVGSVGElement
 *
 rootElem
 =
@@ -787,7 +791,7 @@ reentrant
 "
 )
 ;
-nsSVGSVGElement
+SVGSVGElement
 *
 svgElem
 =
@@ -1074,7 +1078,7 @@ ResetAnimation
 (
 )
 {
-nsSVGSVGElement
+SVGSVGElement
 *
 svgElem
 =
@@ -1632,7 +1636,7 @@ s
 root
 SVG
 node
-nsSVGSVGElement
+SVGSVGElement
 *
 svgElem
 =
@@ -2378,7 +2382,7 @@ Flush_Layout
 ;
 }
 }
-nsSVGSVGElement
+SVGSVGElement
 *
 SVGDocumentWrapper
 :
@@ -2468,7 +2472,7 @@ nullptr
 return
 static_cast
 <
-nsSVGSVGElement
+SVGSVGElement
 *
 >
 (
