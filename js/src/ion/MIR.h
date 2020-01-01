@@ -34349,6 +34349,10 @@ MDefinition
 *
 *
 pvalue
+bool
+canModify
+=
+true
 )
 ;
 }
