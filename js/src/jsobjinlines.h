@@ -1262,8 +1262,7 @@ obj
 js
 :
 :
-Shape
-*
+HandleShape
 shape
 unsigned
 attrs

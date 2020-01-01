@@ -4865,7 +4865,7 @@ JSContext
 cx
 HandleObject
 obj
-RawShape
+HandleShape
 shape
 unsigned
 attrs
