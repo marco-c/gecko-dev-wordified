@@ -527,7 +527,7 @@ Library
 (
 )
 ;
-PRBool
+bool
 IsOpen
 (
 )
