@@ -182,7 +182,7 @@ SCM_NOTHING
 ;
 extern
 ShutdownChecksMode
-ShutdownChecks
+gShutdownChecks
 ;
 void
 PoisonWrite

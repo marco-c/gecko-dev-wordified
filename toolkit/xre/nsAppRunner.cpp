@@ -18746,7 +18746,7 @@ namespace
 mozilla
 {
 ShutdownChecksMode
-ShutdownChecks
+gShutdownChecks
 =
 SCM_NOTHING
 ;
@@ -18811,7 +18811,7 @@ too
 #
 ifdef
 DEBUG
-ShutdownChecks
+gShutdownChecks
 =
 SCM_CRASH
 ;
@@ -18853,14 +18853,14 @@ default
 0
 )
 {
-ShutdownChecks
+gShutdownChecks
 =
 SCM_RECORD
 ;
 }
 else
 {
-ShutdownChecks
+gShutdownChecks
 =
 SCM_NOTHING
 ;
@@ -18925,7 +18925,7 @@ crash
 0
 )
 {
-ShutdownChecks
+gShutdownChecks
 =
 SCM_CRASH
 ;
@@ -18945,7 +18945,7 @@ record
 0
 )
 {
-ShutdownChecks
+gShutdownChecks
 =
 SCM_RECORD
 ;
@@ -18965,7 +18965,7 @@ nothing
 0
 )
 {
-ShutdownChecks
+gShutdownChecks
 =
 SCM_NOTHING
 ;

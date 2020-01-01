@@ -5059,7 +5059,7 @@ anyOpen
 ;
 if
 (
-ShutdownChecks
+gShutdownChecks
 =
 =
 SCM_CRASH
