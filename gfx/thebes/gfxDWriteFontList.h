@@ -800,6 +800,10 @@ mWeight
 =
 weight
 ;
+mIsCJK
+=
+UNINITIALIZED_VALUE
+;
 }
 /
 *
@@ -933,6 +937,10 @@ mIsLocalUserFont
 =
 PR_TRUE
 ;
+mIsCJK
+=
+UNINITIALIZED_VALUE
+;
 }
 /
 *
@@ -1038,6 +1046,10 @@ mIsUserFont
 =
 PR_TRUE
 ;
+mIsCJK
+=
+UNINITIALIZED_VALUE
+;
 }
 virtual
 ~
@@ -1067,6 +1079,11 @@ aBuffer
 ;
 nsresult
 ReadCMAP
+(
+)
+;
+PRBool
+IsCJKFont
 (
 )
 ;
@@ -1160,6 +1177,9 @@ mFontFile
 ;
 DWRITE_FONT_FACE_TYPE
 mFaceType
+;
+PRBool
+mIsCJK
 ;
 }
 ;
