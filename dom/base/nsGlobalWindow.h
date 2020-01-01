@@ -5582,12 +5582,6 @@ mScreen
 ;
 nsRefPtr
 <
-nsHistory
->
-mHistory
-;
-nsRefPtr
-<
 nsDOMWindowList
 >
 mFrames
@@ -5759,6 +5753,12 @@ nsRefPtr
 nsLocation
 >
 mLocation
+;
+nsRefPtr
+<
+nsHistory
+>
+mHistory
 ;
 /
 /
