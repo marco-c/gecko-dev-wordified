@@ -1097,6 +1097,14 @@ nsIContent
 aContent
 )
 ;
+PRBool
+GetAccessKeyLabelPrefix
+(
+nsAString
+&
+aPrefix
+)
+;
 nsresult
 SetCursor
 (
