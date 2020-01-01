@@ -54055,11 +54055,13 @@ GetRollupWidget
 (
 )
 ;
-NS_ENSURE_TRUE
+if
 (
+!
 rollupWidget
-false
 )
+return
+false
 ;
 inMsg
 =
