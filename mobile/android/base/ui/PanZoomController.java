@@ -786,7 +786,7 @@ units
 of
 inches
 .
-private
+public
 static
 final
 float
