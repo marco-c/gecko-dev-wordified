@@ -558,8 +558,7 @@ eSVGContainer
 )
 ;
 }
-virtual
-void
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -576,6 +575,9 @@ aLists
 )
 MOZ_OVERRIDE
 {
+return
+NS_OK
+;
 }
 virtual
 bool
@@ -755,8 +757,7 @@ aPrevInFlow
 )
 MOZ_OVERRIDE
 ;
-virtual
-void
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder

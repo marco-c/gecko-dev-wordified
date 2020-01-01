@@ -2655,8 +2655,7 @@ did
 .
 *
 /
-virtual
-void
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -2671,7 +2670,6 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
 ;
 /
 /
@@ -2895,7 +2893,7 @@ list
 .
 *
 /
-void
+nsresult
 BuildDisplayListForNonBlockChildren
 (
 nsDisplayListBuilder
@@ -2938,7 +2936,7 @@ classes
 .
 *
 /
-void
+nsresult
 BuildDisplayListForInline
 (
 nsDisplayListBuilder
@@ -2967,6 +2965,9 @@ aDirtyRect
 aLists
 DISPLAY_CHILD_INLINE
 )
+;
+return
+NS_OK
 ;
 }
 /

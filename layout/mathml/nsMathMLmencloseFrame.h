@@ -336,8 +336,7 @@ aIndex
 )
 const
 ;
-virtual
-void
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -500,7 +499,7 @@ of
 frame
 to
 display
-void
+nsresult
 DisplayNotation
 (
 nsDisplayListBuilder

@@ -787,7 +787,7 @@ endif
 -
 -
 -
-void
+NS_IMETHODIMP
 nsGfxCheckboxControlFrame
 :
 :
@@ -849,6 +849,7 @@ aBuilder
 )
 )
 return
+NS_OK
 ;
 /
 /
@@ -871,6 +872,7 @@ IsThemed
 )
 )
 return
+NS_OK
 ;
 /
 /
@@ -920,6 +922,9 @@ nsDisplayItem
 TYPE_CHECKED_CHECKBOX
 )
 )
+;
+return
+NS_OK
 ;
 }
 /

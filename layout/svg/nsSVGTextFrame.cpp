@@ -574,7 +574,7 @@ nsGkAtoms
 svgTextFrame
 ;
 }
-void
+NS_IMETHODIMP
 nsSVGTextFrame
 :
 :
@@ -598,6 +598,7 @@ UpdateGlyphPositioning
 true
 )
 ;
+return
 nsSVGTextFrameBase
 :
 :

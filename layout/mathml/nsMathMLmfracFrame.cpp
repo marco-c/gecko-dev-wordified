@@ -806,7 +806,7 @@ return
 lineThickness
 ;
 }
-void
+NS_IMETHODIMP
 nsMathMLmfracFrame
 :
 :
@@ -845,6 +845,9 @@ the
 numerator
 and
 denominator
+nsresult
+rv
+=
 nsMathMLContainerFrame
 :
 :
@@ -853,6 +856,12 @@ BuildDisplayList
 aBuilder
 aDirtyRect
 aLists
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 /
@@ -879,6 +888,8 @@ if
 mIsBevelled
 )
 {
+rv
+=
 DisplaySlash
 (
 aBuilder
@@ -891,6 +902,8 @@ aLists
 }
 else
 {
+rv
+=
 DisplayBar
 (
 aBuilder
@@ -900,6 +913,9 @@ aLists
 )
 ;
 }
+return
+rv
+;
 }
 /
 *
@@ -3740,7 +3756,7 @@ Fill
 )
 ;
 }
-void
+nsresult
 nsMathMLmfracFrame
 :
 :
@@ -3787,7 +3803,9 @@ IsEmpty
 )
 )
 return
+NS_OK
 ;
+return
 aLists
 .
 Content

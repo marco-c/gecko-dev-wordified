@@ -488,8 +488,7 @@ aDesiredSize
 )
 MOZ_OVERRIDE
 ;
-virtual
-void
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -623,7 +622,7 @@ aWidthOnly
 Display
 a
 slash
-void
+nsresult
 DisplaySlash
 (
 nsDisplayListBuilder

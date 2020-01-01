@@ -1642,7 +1642,7 @@ return
 NS_OK
 ;
 }
-void
+NS_METHOD
 nsTableOuterFrame
 :
 :
@@ -1727,6 +1727,7 @@ aLists
 )
 ;
 return
+NS_OK
 ;
 }
 nsDisplayListCollection
@@ -1801,8 +1802,11 @@ MoveTo
 aLists
 )
 ;
+return
+NS_OK
+;
 }
-void
+nsresult
 nsTableOuterFrame
 :
 :
@@ -1892,6 +1896,9 @@ GetNextSibling
 )
 ;
 }
+return
+NS_OK
+;
 }
 nsIFrame
 *

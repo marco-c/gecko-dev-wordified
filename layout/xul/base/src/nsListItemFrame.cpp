@@ -243,7 +243,7 @@ return
 size
 ;
 }
-void
+NS_IMETHODIMP
 nsListItemFrame
 :
 :
@@ -293,8 +293,10 @@ eCaseMatters
 )
 )
 return
+NS_OK
 ;
 }
+return
 nsGridRowLeafFrame
 :
 :

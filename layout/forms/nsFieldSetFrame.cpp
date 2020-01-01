@@ -395,8 +395,7 @@ nsReflowStatus
 aStatus
 )
 ;
-virtual
-void
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -411,7 +410,6 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
 ;
 void
 PaintBorderBackground
@@ -957,7 +955,7 @@ GetBackgroundPaintFlags
 )
 ;
 }
-void
+NS_IMETHODIMP
 nsFieldSetFrame
 :
 :
@@ -1350,6 +1348,9 @@ MoveTo
 (
 aLists
 )
+;
+return
+NS_OK
 ;
 }
 void

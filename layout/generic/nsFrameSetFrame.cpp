@@ -880,8 +880,7 @@ Cursor
 aCursor
 )
 ;
-virtual
-void
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -896,7 +895,6 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow
@@ -1238,8 +1236,7 @@ MOZ_OVERRIDE
 ;
 #
 endif
-virtual
-void
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -1254,7 +1251,6 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow
@@ -5077,7 +5073,7 @@ return
 NS_OK
 ;
 }
-void
+NS_IMETHODIMP
 nsHTMLFramesetFrame
 :
 :
@@ -5137,6 +5133,9 @@ this
 )
 ;
 }
+return
+NS_OK
+;
 }
 void
 nsHTMLFramesetFrame
@@ -9732,7 +9731,7 @@ ToReferenceFrame
 )
 ;
 }
-void
+NS_IMETHODIMP
 nsHTMLFramesetBorderFrame
 :
 :
@@ -9770,6 +9769,9 @@ aBuilder
 this
 )
 )
+;
+return
+NS_OK
 ;
 }
 void
@@ -10995,7 +10997,7 @@ aFlags
 }
 #
 endif
-void
+NS_IMETHODIMP
 nsHTMLFramesetBlankFrame
 :
 :
@@ -11033,5 +11035,8 @@ aBuilder
 this
 )
 )
+;
+return
+NS_OK
 ;
 }

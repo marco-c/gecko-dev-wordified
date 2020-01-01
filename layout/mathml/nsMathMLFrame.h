@@ -1935,7 +1935,7 @@ overbars
 .
 *
 /
-void
+nsresult
 DisplayBar
 (
 nsDisplayListBuilder

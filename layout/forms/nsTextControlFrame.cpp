@@ -8406,7 +8406,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-void
+NS_IMETHODIMP
 nsTextControlFrame
 :
 :
@@ -8602,6 +8602,9 @@ GetNextSibling
 )
 ;
 }
+return
+NS_OK
+;
 }
 NS_IMETHODIMP
 nsTextControlFrame

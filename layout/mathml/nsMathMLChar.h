@@ -534,7 +534,7 @@ Release
 )
 ;
 }
-void
+nsresult
 Display
 (
 nsDisplayListBuilder

@@ -1637,7 +1637,7 @@ UpdateCanvasBackground
 )
 ;
 virtual
-void
+nsresult
 AddCanvasBackgroundColorItem
 (
 nsDisplayListBuilder
@@ -1660,7 +1660,7 @@ aFlags
 )
 ;
 virtual
-void
+nsresult
 AddPrintPreviewBackgroundItem
 (
 nsDisplayListBuilder

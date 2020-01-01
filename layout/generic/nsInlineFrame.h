@@ -283,8 +283,7 @@ aContext
 /
 nsIFrame
 overrides
-virtual
-void
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder
