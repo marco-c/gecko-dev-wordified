@@ -14411,10 +14411,6 @@ changed
 styles
 somewhere
 .
-{
-nsAutoScriptBlocker
-scriptBlocker
-;
 mFrameConstructor
 -
 >
@@ -14422,7 +14418,6 @@ ProcessPendingRestyles
 (
 )
 ;
-}
 /
 /
 And
@@ -15174,10 +15169,6 @@ is
 up
 to
 date
-{
-nsAutoScriptBlocker
-scriptBlocker
-;
 mFrameConstructor
 -
 >
@@ -15185,7 +15176,6 @@ ProcessPendingRestyles
 (
 )
 ;
-}
 if
 (
 !
@@ -26841,9 +26831,6 @@ FlushUserFontSet
 (
 )
 ;
-nsAutoScriptBlocker
-scriptBlocker
-;
 mFrameConstructor
 -
 >
@@ -27003,9 +26990,6 @@ if
 mIsDestroying
 )
 {
-nsAutoScriptBlocker
-scriptBlocker
-;
 mFrameConstructor
 -
 >
