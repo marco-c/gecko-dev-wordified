@@ -3450,7 +3450,7 @@ CheckSameOriginURI
 (
 errorURI
 codebase
-PR_TRUE
+PR_FALSE
 )
 )
 ;
