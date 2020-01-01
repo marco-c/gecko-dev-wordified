@@ -1264,6 +1264,8 @@ nsIDocument
 *
 *
 aInstancePtrResult
+bool
+aLoadedAsData
 )
 {
 nsHTMLDocument
@@ -1314,6 +1316,14 @@ doc
 aInstancePtrResult
 =
 doc
+;
+doc
+-
+>
+SetLoadedAsData
+(
+aLoadedAsData
+)
 ;
 return
 rv

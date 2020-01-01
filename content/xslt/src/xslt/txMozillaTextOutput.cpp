@@ -538,6 +538,8 @@ createResultDocument
 nsIDOMDocument
 *
 aSourceDocument
+bool
+aLoadedAsData
 )
 {
 /
@@ -648,6 +650,7 @@ getter_AddRefs
 (
 mDocument
 )
+aLoadedAsData
 )
 ;
 NS_ENSURE_SUCCESS

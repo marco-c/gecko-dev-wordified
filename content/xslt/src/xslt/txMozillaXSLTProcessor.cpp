@@ -363,6 +363,8 @@ aSourceDocument
 nsITransformObserver
 *
 aObserver
+bool
+aDocumentIsData
 )
 :
 mEs
@@ -376,6 +378,10 @@ aSourceDocument
 mObserver
 (
 aObserver
+)
+mDocumentIsData
+(
+aDocumentIsData
 )
 {
 }
@@ -397,6 +403,9 @@ nsCOMPtr
 nsITransformObserver
 >
 mObserver
+;
+bool
+mDocumentIsData
 ;
 }
 ;
@@ -511,6 +520,7 @@ EmptyString
 )
 kNameSpaceID_None
 mSourceDocument
+mDocumentIsData
 )
 ;
 if
@@ -561,6 +571,7 @@ handler
 createResultDocument
 (
 mSourceDocument
+mDocumentIsData
 )
 ;
 if
@@ -690,6 +701,7 @@ createResultDocument
 aName
 aNsID
 mSourceDocument
+mDocumentIsData
 )
 ;
 if
@@ -740,6 +752,7 @@ handler
 createResultDocument
 (
 mSourceDocument
+mDocumentIsData
 )
 ;
 if
@@ -2171,6 +2184,7 @@ mProcessor
 TransformToDoc
 (
 nullptr
+false
 )
 ;
 return
@@ -2590,6 +2604,7 @@ return
 TransformToDoc
 (
 aResult
+true
 )
 ;
 }
@@ -2603,6 +2618,8 @@ nsIDOMDocument
 *
 *
 aResult
+bool
+aCreateDataDocument
 )
 {
 nsAutoPtr
@@ -2678,6 +2695,20 @@ to
 add
 error
 observers
+/
+/
+If
+aResult
+is
+non
+-
+null
+we
+'
+re
+a
+data
+document
 txToDocHandlerFactory
 handlerFactory
 (
@@ -2685,6 +2716,7 @@ handlerFactory
 es
 sourceDOMDocument
 mObserver
+aCreateDataDocument
 )
 ;
 es

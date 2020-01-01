@@ -479,6 +479,8 @@ nsIDOMDocument
 *
 *
 aResult
+bool
+aCreateDataDocument
 )
 ;
 bool
