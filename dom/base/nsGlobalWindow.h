@@ -2511,6 +2511,12 @@ GetTargetForEventTargetChain
 )
 {
 return
+IsInnerWindow
+(
+)
+?
+this
+:
 static_cast
 <
 nsPIDOMEventTarget
