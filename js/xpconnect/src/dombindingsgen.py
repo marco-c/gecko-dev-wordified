@@ -6717,6 +6717,7 @@ Wrapper
 :
 :
 DefineDOMInterface
+nullptr
 )
 ;
 \
