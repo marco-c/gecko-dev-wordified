@@ -9410,6 +9410,7 @@ script
 else
 PurgeScriptFragments
 (
+&
 JS_TRACE_MONITOR
 (
 cx
