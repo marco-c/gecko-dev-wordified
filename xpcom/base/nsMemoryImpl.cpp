@@ -1200,7 +1200,7 @@ more
 than
 once
 every
-100ms
+1000ms
 to
 avoid
 being
@@ -1214,7 +1214,7 @@ now
 sLastFlushTime
 )
 >
-100
+1000
 )
 {
 sFlushEvent
