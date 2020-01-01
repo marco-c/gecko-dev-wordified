@@ -1045,7 +1045,7 @@ requests
 *
 /
 void
-FlushPreserveAspectRatioOverride
+FlushImageTransformInvalidation
 (
 )
 ;

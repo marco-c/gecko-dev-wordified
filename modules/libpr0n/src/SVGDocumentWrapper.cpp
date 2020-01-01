@@ -1142,7 +1142,7 @@ void
 SVGDocumentWrapper
 :
 :
-FlushPreserveAspectRatioOverride
+FlushImageTransformInvalidation
 (
 )
 {
@@ -1181,7 +1181,7 @@ PR_TRUE
 svgElem
 -
 >
-FlushPreserveAspectRatioOverride
+FlushImageTransformInvalidation
 (
 )
 ;
