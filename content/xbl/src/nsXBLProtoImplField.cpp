@@ -583,7 +583,6 @@ readOnly
 .
 Assign
 (
-*
 aReadOnly
 )
 ;
