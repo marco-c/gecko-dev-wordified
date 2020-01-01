@@ -131,13 +131,6 @@ view
 .
 View
 ;
-import
-android
-.
-view
-.
-ViewGroup
-;
 /
 *
 *

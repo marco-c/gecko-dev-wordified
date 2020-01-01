@@ -133,13 +133,6 @@ android
 .
 view
 .
-Gravity
-;
-import
-android
-.
-view
-.
 LayoutInflater
 ;
 import

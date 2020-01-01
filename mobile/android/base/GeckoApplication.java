@@ -70,13 +70,6 @@ app
 .
 Application
 ;
-import
-java
-.
-util
-.
-ArrayList
-;
 public
 class
 GeckoApplication

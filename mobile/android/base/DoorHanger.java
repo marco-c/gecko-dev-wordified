@@ -120,13 +120,6 @@ JSONObject
 import
 android
 .
-content
-.
-Context
-;
-import
-android
-.
 text
 .
 SpannableString

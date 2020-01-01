@@ -307,15 +307,6 @@ android
 .
 widget
 .
-TabHost
-.
-TabContentFactory
-;
-import
-android
-.
-widget
-.
 TextView
 ;
 import

@@ -112,15 +112,6 @@ android
 .
 graphics
 .
-PorterDuff
-.
-Mode
-;
-import
-android
-.
-graphics
-.
 Shader
 ;
 import
