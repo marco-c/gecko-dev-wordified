@@ -1949,9 +1949,8 @@ mHasStyleAttribute
 element
 -
 >
-SetFlags
+SetMayHaveStyle
 (
-NODE_MAY_HAVE_STYLE
 )
 ;
 }
@@ -11397,9 +11396,8 @@ GetInlineStyleRule
 if
 (
 !
-HasFlag
+MayHaveStyle
 (
-NODE_MAY_HAVE_STYLE
 )
 )
 {
