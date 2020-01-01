@@ -727,6 +727,15 @@ function
 (
 )
 {
+if
+(
+prefSvc
+.
+prefHasUserValue
+(
+LAST_URL_PREF
+)
+)
 prefSvc
 .
 clearUserPref

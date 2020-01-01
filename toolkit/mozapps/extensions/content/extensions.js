@@ -16611,6 +16611,15 @@ LightweightThemeManager
 .
 currentTheme
 ;
+if
+(
+gPref
+.
+prefHasUserValue
+(
+PREF_LWTHEME_TO_SELECT
+)
+)
 gPref
 .
 clearUserPref
