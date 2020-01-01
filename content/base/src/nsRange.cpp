@@ -3934,7 +3934,7 @@ mDetails
 aContent
 -
 >
-GetParent
+GetNodeParent
 (
 )
 |
@@ -4085,7 +4085,7 @@ RegisterCommonAncestor
 mStartParent
 -
 >
-GetParent
+GetNodeParent
 (
 )
 )
@@ -4373,7 +4373,7 @@ get
 newEndNode
 -
 >
-GetParent
+GetNodeParent
 (
 )
 |
@@ -4382,7 +4382,7 @@ GetParent
 newStartNode
 -
 >
-GetParent
+GetNodeParent
 (
 )
 )
