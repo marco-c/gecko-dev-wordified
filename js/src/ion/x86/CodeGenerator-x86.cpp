@@ -1016,7 +1016,7 @@ masm
 .
 freeStack
 (
-frameDepth_
+frameStaticSize_
 )
 ;
 masm
