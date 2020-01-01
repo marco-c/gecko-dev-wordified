@@ -819,14 +819,14 @@ the
 rationale
 for
 using
-nsTArray
+FallibleTArray
 <
 SVGTransform
 >
 *
 instead
 of
-nsTArray
+FallibleTArray
 <
 SVGTransform
 1
@@ -834,7 +834,7 @@ SVGTransform
 .
 *
 /
-nsTArray
+FallibleTArray
 <
 SVGTransform
 >

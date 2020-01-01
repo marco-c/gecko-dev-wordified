@@ -877,14 +877,14 @@ the
 rationale
 for
 using
-nsTArray
+FallibleTArray
 <
 SVGPoint
 >
 instead
 *
 of
-nsTArray
+FallibleTArray
 <
 SVGPoint
 1
@@ -892,7 +892,7 @@ SVGPoint
 .
 *
 /
-nsTArray
+FallibleTArray
 <
 SVGPoint
 >
