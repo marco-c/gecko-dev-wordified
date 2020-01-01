@@ -2467,7 +2467,6 @@ gets
 reset
 .
 void
-FASTCALL
 become
 (
 List
@@ -2529,7 +2528,6 @@ capacity
 ;
 }
 uint32_t
-FASTCALL
 add
 (
 T
@@ -2618,7 +2616,6 @@ index
 ;
 }
 void
-FASTCALL
 set
 (
 uint32_t
@@ -2748,7 +2745,6 @@ len
 ;
 }
 int
-FASTCALL
 indexOf
 (
 T
@@ -2790,7 +2786,6 @@ return
 ;
 }
 int
-FASTCALL
 lastIndexOf
 (
 T
@@ -2851,7 +2846,6 @@ len
 ;
 }
 T
-FASTCALL
 removeLast
 (
 )
@@ -2921,7 +2915,6 @@ index
 ;
 }
 void
-FASTCALL
 ensureCapacity
 (
 uint32_t
@@ -2992,7 +2985,6 @@ cap
 }
 }
 void
-FASTCALL
 insert
 (
 uint32_t
@@ -3061,7 +3053,6 @@ count
 ;
 }
 T
-FASTCALL
 removeAt
 (
 uint32_t
@@ -3127,7 +3118,6 @@ old
 private
 :
 void
-FASTCALL
 grow
 (
 )
@@ -3355,7 +3345,6 @@ value
 ;
 }
 void
-FASTCALL
 wb
 (
 uint32_t
@@ -3443,7 +3432,6 @@ value
 )
 ;
 void
-FASTCALL
 wbzm
 (
 uint32_t
@@ -3532,7 +3520,6 @@ T
 ;
 }
 void
-FASTCALL
 zero_range
 (
 uint32_t
