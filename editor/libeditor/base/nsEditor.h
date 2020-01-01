@@ -4657,12 +4657,6 @@ nsISelectionController
 PRInt32
 mUpdateCount
 ;
-nsIViewManager
-:
-:
-UpdateViewBatch
-mBatch
-;
 /
 /
 Spellchecking
