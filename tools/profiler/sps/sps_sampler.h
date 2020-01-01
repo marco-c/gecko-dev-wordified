@@ -510,7 +510,6 @@ SAMPLER_INIT
 mozilla_sampler_init
 (
 )
-;
 #
 define
 SAMPLER_DEINIT
@@ -519,7 +518,6 @@ SAMPLER_DEINIT
 mozilla_sampler_deinit
 (
 )
-;
 #
 define
 SAMPLER_START
@@ -532,7 +530,6 @@ mozilla_sampler_start
 entries
 interval
 )
-;
 #
 define
 SAMPLER_STOP
@@ -541,7 +538,6 @@ SAMPLER_STOP
 mozilla_sampler_stop
 (
 )
-;
 #
 define
 SAMPLER_IS_ACTIVE
@@ -550,7 +546,6 @@ SAMPLER_IS_ACTIVE
 mozilla_sampler_is_active
 (
 )
-;
 #
 define
 SAMPLER_RESPONSIVENESS
@@ -577,7 +572,6 @@ SAMPLER_SAVE
 mozilla_sampler_save
 (
 )
-;
 #
 define
 SAMPLER_GET_PROFILE
@@ -586,7 +580,6 @@ SAMPLER_GET_PROFILE
 mozilla_sampler_get_profile
 (
 )
-;
 #
 define
 SAMPLE_LABEL
@@ -608,7 +601,6 @@ name_space
 "
 info
 )
-;
 #
 define
 SAMPLE_MARKER
@@ -619,7 +611,6 @@ mozilla_sampler_add_marker
 (
 info
 )
-;
 /
 *
 we
