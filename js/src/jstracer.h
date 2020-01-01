@@ -1647,6 +1647,7 @@ jsval
 *
 p
 )
+const
 ;
 nanojit
 :
@@ -2497,6 +2498,18 @@ expectedInnerExit
 TraceRecorder
 (
 )
+;
+uint8
+TraceRecorder
+:
+:
+determineSlotType
+(
+jsval
+*
+vp
+)
+const
 ;
 nanojit
 :
