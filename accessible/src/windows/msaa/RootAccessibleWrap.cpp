@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsEventListenerManager
 .
 h

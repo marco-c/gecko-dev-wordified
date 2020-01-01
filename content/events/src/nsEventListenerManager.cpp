@@ -5364,7 +5364,7 @@ aListener
 nsIDOMEvent
 *
 aDOMEvent
-nsIDOMEventTarget
+EventTarget
 *
 aCurrentTarget
 nsCxPusher
@@ -5529,7 +5529,7 @@ nsIDOMEvent
 *
 *
 aDOMEvent
-nsIDOMEventTarget
+EventTarget
 *
 aCurrentTarget
 nsEventStatus
@@ -6608,7 +6608,7 @@ aList
 {
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 =

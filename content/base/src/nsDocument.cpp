@@ -40539,7 +40539,7 @@ listeners
 .
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 piTarget
 =
@@ -42462,7 +42462,7 @@ nsDocument
 :
 DispatchPageTransition
 (
-nsIDOMEventTarget
+EventTarget
 *
 aDispatchTarget
 const
@@ -42609,7 +42609,7 @@ OnPageShow
 (
 bool
 aPersisted
-nsIDOMEventTarget
+EventTarget
 *
 aDispatchStartTarget
 )
@@ -42802,7 +42802,7 @@ UpdateVisibilityState
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 =
@@ -42886,7 +42886,7 @@ OnPageHide
 (
 bool
 aPersisted
-nsIDOMEventTarget
+EventTarget
 *
 aDispatchStartTarget
 )
@@ -43082,7 +43082,7 @@ event
 .
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 =

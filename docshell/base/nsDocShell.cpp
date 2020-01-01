@@ -11074,6 +11074,17 @@ mChromeEventHandler
 =
 aChromeEventHandler
 ;
+nsCOMPtr
+<
+EventTarget
+>
+handler
+=
+do_QueryInterface
+(
+aChromeEventHandler
+)
+;
 if
 (
 mScriptGlobal
@@ -11084,7 +11095,7 @@ mScriptGlobal
 >
 SetChromeEventHandler
 (
-aChromeEventHandler
+handler
 )
 ;
 }

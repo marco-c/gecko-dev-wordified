@@ -7644,7 +7644,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 =
@@ -10217,7 +10217,7 @@ key
 listeners
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 =

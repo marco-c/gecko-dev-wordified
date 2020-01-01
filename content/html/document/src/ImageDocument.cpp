@@ -549,7 +549,7 @@ OnPageShow
 (
 bool
 aPersisted
-nsIDOMEventTarget
+EventTarget
 *
 aDispatchStartTarget
 )
@@ -1413,7 +1413,7 @@ content
 .
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 =
@@ -1569,7 +1569,7 @@ window
 .
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 ;
@@ -1838,7 +1838,7 @@ OnPageShow
 (
 bool
 aPersisted
-nsIDOMEventTarget
+EventTarget
 *
 aDispatchStartTarget
 )
