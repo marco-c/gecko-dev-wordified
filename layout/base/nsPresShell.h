@@ -3099,12 +3099,6 @@ nsCaret
 >
 mOriginalCaret
 ;
-nsCOMPtr
-<
-nsIDragService
->
-mDragService
-;
 #
 ifdef
 DEBUG
