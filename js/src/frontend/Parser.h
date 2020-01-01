@@ -3042,6 +3042,16 @@ switchStatement
 )
 ;
 Node
+continueStatement
+(
+)
+;
+Node
+breakStatement
+(
+)
+;
+Node
 withStatement
 (
 )
