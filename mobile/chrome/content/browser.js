@@ -11132,7 +11132,7 @@ length
 {
 container
 .
-hidden
+collapsed
 =
 true
 ;
@@ -11214,7 +11214,7 @@ this
 .
 parentNode
 .
-hidden
+collapsed
 =
 true
 ;
@@ -11275,7 +11275,7 @@ button
 }
 container
 .
-hidden
+collapsed
 =
 false
 ;
