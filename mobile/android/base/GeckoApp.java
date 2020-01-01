@@ -16520,9 +16520,6 @@ aResolution
 {
 aX
 =
-(
-int
-)
 Math
 .
 round
@@ -16534,9 +16531,6 @@ aResolution
 ;
 aY
 =
-(
-int
-)
 Math
 .
 round
@@ -16548,9 +16542,6 @@ aResolution
 ;
 aWidth
 =
-(
-int
-)
 Math
 .
 round
@@ -16562,9 +16553,6 @@ aResolution
 ;
 aHeight
 =
-(
-int
-)
 Math
 .
 round
@@ -16687,9 +16675,6 @@ x
 =
 mOriginalX
 =
-(
-int
-)
 Math
 .
 round
@@ -16703,9 +16688,6 @@ y
 =
 mOriginalY
 =
-(
-int
-)
 Math
 .
 round
@@ -16719,9 +16701,6 @@ width
 =
 mOriginalWidth
 =
-(
-int
-)
 Math
 .
 round
@@ -16735,9 +16714,6 @@ height
 =
 mOriginalHeight
 =
-(
-int
-)
 Math
 .
 round
@@ -16888,9 +16864,6 @@ mOriginalResolution
 ;
 width
 =
-(
-int
-)
 Math
 .
 round
@@ -16902,9 +16875,6 @@ mOriginalWidth
 ;
 height
 =
-(
-int
-)
 Math
 .
 round
@@ -16958,9 +16928,6 @@ offset
 new
 Point
 (
-(
-int
-)
 Math
 .
 round
@@ -16972,9 +16939,6 @@ x
 targetOrigin
 .
 x
-)
-(
-int
 )
 Math
 .

@@ -738,9 +738,6 @@ height
 int
 width
 =
-(
-int
-)
 Math
 .
 round
@@ -755,9 +752,6 @@ width
 int
 height
 =
-(
-int
-)
 Math
 .
 round

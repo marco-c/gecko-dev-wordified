@@ -2972,11 +2972,6 @@ URL
 ;
 b
 =
-(
-byte
-[
-]
-)
 cursor
 .
 getBlob

@@ -2185,9 +2185,6 @@ mFrameTimings
 mCurrentFrame
 ]
 =
-(
-int
-)
 frameElapsedTime
 ;
 mCurrentFrame

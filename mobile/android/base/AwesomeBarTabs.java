@@ -3165,9 +3165,6 @@ bytes
 ;
 drawable
 =
-(
-Drawable
-)
 Drawable
 .
 createFromStream

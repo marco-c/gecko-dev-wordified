@@ -1215,9 +1215,6 @@ Color
 .
 argb
 (
-(
-int
-)
 Math
 .
 round

@@ -689,9 +689,6 @@ return
 new
 IntSize
 (
-(
-int
-)
 Math
 .
 round
@@ -699,9 +696,6 @@ round
 width
 *
 factor
-)
-(
-int
 )
 Math
 .
