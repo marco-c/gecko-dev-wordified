@@ -4220,8 +4220,6 @@ PRInt64
 aStartTime
 PRInt64
 aEndTime
-PRInt64
-aCurrentTime
 )
 {
 MonitorAutoEnter
