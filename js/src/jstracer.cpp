@@ -19629,9 +19629,7 @@ cx
 )
 -
 >
-gcFreeLists
-.
-doubles
+doubleFreeList
 )
 {
 #
