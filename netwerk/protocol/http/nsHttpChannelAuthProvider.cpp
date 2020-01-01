@@ -4156,12 +4156,6 @@ Identity
 )
 )
 {
-if
-(
-!
-identFromURI
-)
-{
 LOG
 (
 (
@@ -4230,7 +4224,6 @@ Clear
 (
 )
 ;
-}
 }
 else
 if
