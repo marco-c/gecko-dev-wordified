@@ -2826,6 +2826,9 @@ aboutURL
 iconURL
 "
 "
+icon64URL
+"
+"
 skinnable
 "
 ]
