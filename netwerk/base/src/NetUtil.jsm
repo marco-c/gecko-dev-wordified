@@ -436,7 +436,6 @@ BLOCK
 *
 *
 *
-*
 Necko
 utilities
 *
@@ -455,7 +454,7 @@ Components
 .
 classes
 ;
-var
+const
 NetUtil
 =
 {
