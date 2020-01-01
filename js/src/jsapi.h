@@ -13027,8 +13027,10 @@ JS_EnumerateStandardClasses
 JSContext
 *
 cx
-JSObject
-*
+JS
+:
+:
+HandleObject
 obj
 )
 ;

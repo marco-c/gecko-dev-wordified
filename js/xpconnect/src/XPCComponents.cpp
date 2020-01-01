@@ -17424,7 +17424,7 @@ sandbox_enumerate
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
 )
 {
