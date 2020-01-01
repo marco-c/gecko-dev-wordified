@@ -4921,7 +4921,8 @@ _retval
 *
 _retval
 =
-0
+-
+1
 ;
 return
 NS_OK
