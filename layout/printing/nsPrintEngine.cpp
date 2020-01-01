@@ -16991,6 +16991,11 @@ GetPageSequenceFrame
 (
 )
 ;
+NS_ENSURE_STATE
+(
+pageSequence
+)
+;
 pageSequence
 -
 >
