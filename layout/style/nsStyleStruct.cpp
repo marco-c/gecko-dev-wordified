@@ -3251,6 +3251,10 @@ mBoxOrdinal
 =
 1
 ;
+mStretchStack
+=
+PR_TRUE
+;
 }
 nsStyleXUL
 :

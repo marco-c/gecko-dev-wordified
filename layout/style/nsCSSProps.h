@@ -1407,6 +1407,13 @@ kSpeechRateKTable
 static
 const
 PRInt32
+kStackSizingKTable
+[
+]
+;
+static
+const
+PRInt32
 kTableLayoutKTable
 [
 ]

@@ -952,6 +952,15 @@ nsIDOMCSSValue
 aValue
 )
 ;
+nsresult
+GetStackSizing
+(
+nsIDOMCSSValue
+*
+*
+aValue
+)
+;
 /
 *
 Font

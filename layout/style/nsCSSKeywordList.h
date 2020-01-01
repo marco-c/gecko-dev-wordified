@@ -3041,6 +3041,15 @@ stretch
 )
 CSS_KEY
 (
+stretch
+-
+to
+-
+fit
+stretch_to_fit
+)
+CSS_KEY
+(
 sub
 sub
 )
