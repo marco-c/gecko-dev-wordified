@@ -995,6 +995,15 @@ mCoalesceSpdy
 ;
 }
 bool
+UseAlternateProtocol
+(
+)
+{
+return
+mUseAlternateProtocol
+;
+}
+bool
 PromptTempRedirect
 (
 )
@@ -2040,6 +2049,7 @@ Try
 to
 use
 SPDY
+features
 instead
 of
 HTTP
@@ -2054,6 +2064,9 @@ mEnableSpdy
 ;
 bool
 mCoalesceSpdy
+;
+bool
+mUseAlternateProtocol
 ;
 }
 ;
