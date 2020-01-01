@@ -2466,16 +2466,6 @@ js
 :
 NewObjectCache
 ;
-#
-ifdef
-DEBUG
-void
-checkShapeConsistency
-(
-)
-;
-#
-endif
 /
 *
 Make
