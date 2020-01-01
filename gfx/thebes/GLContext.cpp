@@ -5032,7 +5032,7 @@ return
 mUpdateSurface
 ;
 }
-PRBool
+void
 BasicTextureImage
 :
 :
@@ -5155,14 +5155,6 @@ mTextureInited
 =
 PR_TRUE
 ;
-return
-PR_TRUE
-;
-/
-/
-mTexture
-is
-bound
 }
 already_AddRefed
 <

@@ -768,6 +768,8 @@ BGRXLayerProgramType
 RGBARectLayerProgramType
 ColorLayerProgramType
 YCbCrLayerProgramType
+ComponentAlphaPass1ProgramType
+ComponentAlphaPass2ProgramType
 Copy2DProgramType
 Copy2DRectProgramType
 NumProgramTypes
@@ -1148,17 +1150,6 @@ if
 *
 necessary
 .
-Return
-PR_TRUE
-iff
-this
-'
-s
-texture
-is
-already
-bound
-.
 *
 *
 BeginUpdate
@@ -1179,7 +1170,7 @@ EndUpdate
 *
 /
 virtual
-PRBool
+void
 EndUpdate
 (
 )
@@ -1799,7 +1790,7 @@ aRegion
 )
 ;
 virtual
-PRBool
+void
 EndUpdate
 (
 )
