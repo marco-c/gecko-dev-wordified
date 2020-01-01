@@ -3742,7 +3742,6 @@ SetMediaDuration
 int64_t
 aDuration
 )
-MOZ_FINAL
 MOZ_OVERRIDE
 ;
 /
