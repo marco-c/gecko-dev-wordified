@@ -181,6 +181,15 @@ h
 #
 include
 "
+ion
+/
+ExecutionModeInlines
+.
+h
+"
+#
+include
+"
 jsscriptinlines
 .
 h
@@ -2116,6 +2125,8 @@ generateArgumentsRectifier
 JSContext
 *
 cx
+ExecutionMode
+mode
 )
 {
 /
@@ -2577,10 +2588,9 @@ movq
 Operand
 (
 rax
-offsetof
+OffsetOfIonInJSScript
 (
-JSScript
-ion
+mode
 )
 )
 rax

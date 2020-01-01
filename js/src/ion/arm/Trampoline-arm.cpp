@@ -178,6 +178,15 @@ VMFunctions
 .
 h
 "
+#
+include
+"
+ion
+/
+ExecutionModeInlines
+.
+h
+"
 using
 namespace
 js
@@ -2144,6 +2153,8 @@ generateArgumentsRectifier
 JSContext
 *
 cx
+ExecutionMode
+mode
 )
 {
 MacroAssembler
@@ -2658,10 +2669,9 @@ DTRAddr
 r3
 DtrOffImm
 (
-offsetof
+OffsetOfIonInJSScript
 (
-JSScript
-ion
+mode
 )
 )
 )
