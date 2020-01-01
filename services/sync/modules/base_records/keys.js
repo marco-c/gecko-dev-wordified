@@ -1072,14 +1072,10 @@ yield
 let
 ret
 =
-yield
 this
 .
 get
 (
-self
-.
-cb
 this
 .
 defaultKeyUri
