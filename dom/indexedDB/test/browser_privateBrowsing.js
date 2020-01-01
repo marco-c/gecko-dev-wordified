@@ -308,13 +308,9 @@ database
 is
 (
 exception
-IDBDatabaseException
-.
-NOT_ALLOWED_ERR
-.
-toString
-(
-)
+"
+InvalidStateError
+"
 "
 Correct
 exception

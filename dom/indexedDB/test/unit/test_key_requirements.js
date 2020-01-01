@@ -1049,9 +1049,9 @@ onerror
 new
 ExpectError
 (
-IDBDatabaseException
-.
-CONSTRAINT_ERR
+"
+ConstraintError
+"
 )
 ;
 request

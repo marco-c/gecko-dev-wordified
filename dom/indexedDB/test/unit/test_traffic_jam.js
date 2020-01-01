@@ -528,9 +528,9 @@ onerror
 new
 ExpectError
 (
-IDBDatabaseException
-.
-VERSION_ERR
+"
+VersionError
+"
 )
 ;
 event

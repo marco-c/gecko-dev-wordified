@@ -43,17 +43,6 @@ testSteps
 )
 {
 const
-CONSTRAINT_ERR
-=
-Components
-.
-interfaces
-.
-nsIIDBDatabaseException
-.
-CONSTRAINT_ERR
-;
-const
 name
 =
 this
