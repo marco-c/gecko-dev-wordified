@@ -31002,7 +31002,8 @@ MInstanceOf
 MDefinition
 *
 obj
-RawObject
+JSObject
+*
 proto
 )
 :
@@ -31035,7 +31036,8 @@ return
 this
 ;
 }
-RawObject
+JSObject
+*
 prototypeObject
 (
 )

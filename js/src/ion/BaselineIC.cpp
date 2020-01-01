@@ -11135,7 +11135,8 @@ NewArray
 "
 )
 ;
-RawObject
+JSObject
+*
 obj
 =
 NewInitArray
@@ -11292,7 +11293,8 @@ NewObject
 "
 )
 ;
-RawObject
+JSObject
+*
 obj
 =
 NewInitObject

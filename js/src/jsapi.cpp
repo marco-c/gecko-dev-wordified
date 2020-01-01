@@ -17482,7 +17482,8 @@ JSClass
 )
 JS_GetClass
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -17665,7 +17666,8 @@ void
 )
 JS_GetPrivate
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -17697,7 +17699,8 @@ void
 )
 JS_SetPrivate
 (
-RawObject
+JSObject
+*
 obj
 void
 *
@@ -17902,7 +17905,8 @@ JSObject
 )
 JS_GetParent
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -25323,7 +25327,8 @@ prop_iter_finalize
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -25406,7 +25411,8 @@ prop_iter_trace
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -26232,7 +26238,8 @@ jsval
 )
 JS_GetReservedSlot
 (
-RawObject
+JSObject
+*
 obj
 uint32_t
 index
@@ -26254,7 +26261,8 @@ void
 )
 JS_SetReservedSlot
 (
-RawObject
+JSObject
+*
 obj
 uint32_t
 index
@@ -27357,7 +27365,8 @@ JS_ObjectIsFunction
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -27379,7 +27388,8 @@ JS_ObjectIsCallable
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 obj
 )
 {

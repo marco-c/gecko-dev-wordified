@@ -941,7 +941,8 @@ calleeTypes
 return
 NULL
 ;
-RawObject
+JSObject
+*
 obj
 =
 calleeTypes
@@ -53662,7 +53663,8 @@ resultTypeSet
 (
 )
 ;
-RawObject
+JSObject
+*
 rhsObject
 =
 rhsTypes
@@ -53757,7 +53759,8 @@ classPrototype
 false
 )
 ;
-RawObject
+JSObject
+*
 protoObject
 =
 protoTypes

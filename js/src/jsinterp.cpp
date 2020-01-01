@@ -3862,7 +3862,8 @@ global
 #
 ifdef
 DEBUG
-RawObject
+JSObject
+*
 s
 =
 scopeChain

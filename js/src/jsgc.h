@@ -3822,7 +3822,8 @@ extern
 void
 DelayCrossCompartmentGrayMarking
 (
-RawObject
+JSObject
+*
 src
 )
 ;
@@ -3830,7 +3831,8 @@ extern
 void
 NotifyGCNukeWrapper
 (
-RawObject
+JSObject
+*
 o
 )
 ;
@@ -3838,9 +3840,11 @@ extern
 unsigned
 NotifyGCPreSwap
 (
-RawObject
+JSObject
+*
 a
-RawObject
+JSObject
+*
 b
 )
 ;
@@ -3848,9 +3852,11 @@ extern
 void
 NotifyGCPostSwap
 (
-RawObject
+JSObject
+*
 a
-RawObject
+JSObject
+*
 b
 unsigned
 preResult

@@ -11034,7 +11034,8 @@ length
 i
 )
 {
-RawObject
+JSObject
+*
 obj
 =
 objects

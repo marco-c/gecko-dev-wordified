@@ -1571,7 +1571,8 @@ deletedBits
 numDeletedWords
 )
 ;
-RawObject
+JSObject
+*
 obj
 =
 JSObject
@@ -3975,7 +3976,8 @@ finalize
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -4013,7 +4015,8 @@ trace
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 {

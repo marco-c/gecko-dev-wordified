@@ -305,7 +305,8 @@ NewDenseEmptyArray
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 proto
 =
 NULL
@@ -349,7 +350,8 @@ JSContext
 cx
 uint32_t
 length
-RawObject
+JSObject
+*
 proto
 =
 NULL
@@ -406,7 +408,8 @@ JSContext
 cx
 uint32_t
 length
-RawObject
+JSObject
+*
 proto
 =
 NULL
@@ -449,7 +452,8 @@ HandleObject
 src
 uint32_t
 elementOffset
-RawObject
+JSObject
+*
 proto
 =
 NULL
@@ -486,7 +490,8 @@ const
 Value
 *
 values
-RawObject
+JSObject
+*
 proto
 =
 NULL

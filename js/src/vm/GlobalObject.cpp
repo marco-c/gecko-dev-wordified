@@ -1292,7 +1292,8 @@ cx
 )
 ;
 {
-RawObject
+JSObject
+*
 functionProto_
 =
 NewObjectWithGivenProto
@@ -1349,7 +1350,8 @@ one
 *
 /
 {
-RawObject
+JSObject
+*
 proto
 =
 NewFunction
@@ -2331,7 +2333,8 @@ eval
 )
 )
 ;
-RawObject
+JSObject
+*
 evalobj
 =
 DefineFunction
@@ -3659,7 +3662,8 @@ GlobalDebuggees_finalize
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 {

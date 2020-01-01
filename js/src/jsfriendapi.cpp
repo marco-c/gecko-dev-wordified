@@ -395,7 +395,8 @@ JS_FindCompilationScope
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 objArg
 )
 {
@@ -507,7 +508,8 @@ JSFunction
 )
 JS_GetObjectFunction
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -1969,7 +1971,8 @@ js
 :
 IsScopeObject
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -1992,7 +1995,8 @@ js
 :
 GetObjectParentMaybeScope
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -2015,7 +2019,8 @@ js
 :
 GetGlobalForObjectCrossCompartment
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -2038,7 +2043,8 @@ js
 :
 NotifyAnimationActivity
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -2066,7 +2072,8 @@ js
 :
 GetObjectSlotSpan
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -2088,7 +2095,8 @@ js
 :
 IsObjectInContextCompartment
 (
-RawObject
+JSObject
+*
 obj
 const
 JSContext
@@ -2719,7 +2727,8 @@ js
 :
 GetFunctionNativeReserved
 (
-RawObject
+JSObject
+*
 fun
 size_t
 which
@@ -2764,7 +2773,8 @@ js
 :
 SetFunctionNativeReserved
 (
-RawObject
+JSObject
+*
 fun
 size_t
 which
@@ -2813,7 +2823,8 @@ js
 :
 SetReservedSlotWithBarrier
 (
-RawObject
+JSObject
+*
 obj
 size_t
 slot

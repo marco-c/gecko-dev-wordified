@@ -1310,7 +1310,8 @@ FinalizeOp
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 ;

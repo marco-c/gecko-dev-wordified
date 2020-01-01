@@ -2201,7 +2201,8 @@ WeakMap_mark
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -2232,7 +2233,8 @@ WeakMap_finalize
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 {

@@ -1582,7 +1582,8 @@ isObject
 {
 DebugOnly
 <
-RawObject
+JSObject
+*
 >
 obj
 =

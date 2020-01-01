@@ -7805,7 +7805,8 @@ static
 void
 SetUTCTime
 (
-RawObject
+JSObject
+*
 obj
 double
 t
@@ -7938,7 +7939,8 @@ FillLocalTimeSlots
 DateTimeInfo
 *
 dtInfo
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -8733,7 +8735,8 @@ GetCachedLocalTime
 DateTimeInfo
 *
 dtInfo
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -8926,7 +8929,8 @@ thisv
 )
 )
 ;
-RawObject
+JSObject
+*
 thisObj
 =
 &
@@ -9091,7 +9095,8 @@ thisv
 )
 )
 ;
-RawObject
+JSObject
+*
 thisObj
 =
 &
@@ -9308,7 +9313,8 @@ thisv
 )
 )
 ;
-RawObject
+JSObject
+*
 thisObj
 =
 &
@@ -9514,7 +9520,8 @@ thisv
 )
 )
 ;
-RawObject
+JSObject
+*
 thisObj
 =
 &
@@ -9731,7 +9738,8 @@ thisv
 )
 )
 ;
-RawObject
+JSObject
+*
 thisObj
 =
 &
@@ -9948,7 +9956,8 @@ thisv
 )
 )
 ;
-RawObject
+JSObject
+*
 thisObj
 =
 &
@@ -10165,7 +10174,8 @@ thisv
 )
 )
 ;
-RawObject
+JSObject
+*
 thisObj
 =
 &
@@ -10393,7 +10403,8 @@ thisv
 )
 )
 ;
-RawObject
+JSObject
+*
 thisObj
 =
 &
@@ -10621,7 +10632,8 @@ thisv
 )
 )
 ;
-RawObject
+JSObject
+*
 thisObj
 =
 &
@@ -18835,7 +18847,8 @@ thisv
 )
 )
 ;
-RawObject
+JSObject
+*
 thisObj
 =
 &
@@ -19747,7 +19760,8 @@ d
 msec_time
 ;
 }
-RawObject
+JSObject
+*
 obj
 =
 js_NewDateObjectMsec
@@ -20070,7 +20084,8 @@ double
 msec_time
 )
 {
-RawObject
+JSObject
+*
 obj
 =
 NewBuiltinClassInstance
@@ -20168,7 +20183,8 @@ JSBool
 )
 js_DateIsValid
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -20206,7 +20222,8 @@ js_DateGetYear
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -20275,7 +20292,8 @@ js_DateGetMonth
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -20329,7 +20347,8 @@ js_DateGetDate
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -20383,7 +20402,8 @@ js_DateGetHours
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -20437,7 +20457,8 @@ js_DateGetMinutes
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -20488,7 +20509,8 @@ int
 )
 js_DateGetSeconds
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -20545,7 +20567,8 @@ double
 )
 js_DateGetMsecSinceEpoch
 (
-RawObject
+JSObject
+*
 obj
 )
 {

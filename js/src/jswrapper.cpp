@@ -324,7 +324,8 @@ Wrapper
 :
 wrapperHandler
 (
-RawObject
+JSObject
+*
 wrapper
 )
 {
@@ -359,7 +360,8 @@ Wrapper
 :
 wrappedObject
 (
-RawObject
+JSObject
+*
 wrapper
 )
 {
@@ -486,7 +488,8 @@ js
 :
 CheckedUnwrap
 (
-RawObject
+JSObject
+*
 obj
 bool
 stopAtOuter
@@ -537,7 +540,8 @@ js
 :
 UnwrapOneChecked
 (
-RawObject
+JSObject
+*
 obj
 bool
 stopAtOuter
@@ -616,7 +620,8 @@ js
 :
 IsCrossCompartmentWrapper
 (
-RawObject
+JSObject
+*
 wrapper
 )
 {
@@ -4736,7 +4741,8 @@ js
 :
 IsDeadProxyObject
 (
-RawObject
+JSObject
+*
 obj
 )
 {

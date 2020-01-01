@@ -2396,7 +2396,8 @@ rt
 const
 ;
 inline
-RawObject
+JSObject
+*
 scopeChain
 (
 )

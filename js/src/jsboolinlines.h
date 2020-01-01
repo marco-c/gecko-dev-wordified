@@ -230,11 +230,13 @@ inline
 bool
 EmulatesUndefined
 (
-RawObject
+JSObject
+*
 obj
 )
 {
-RawObject
+JSObject
+*
 actual
 =
 MOZ_LIKELY

@@ -1118,7 +1118,8 @@ regexp_trace
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 {

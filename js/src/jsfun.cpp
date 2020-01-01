@@ -1807,7 +1807,8 @@ itself
 .
 *
 /
-RawObject
+JSObject
+*
 objProto
 =
 obj
@@ -3640,7 +3641,8 @@ fun_trace
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -8255,7 +8257,8 @@ toObject
 )
 )
 ;
-RawObject
+JSObject
+*
 boundFunction
 =
 js_fun_bind
@@ -11513,12 +11516,14 @@ or
 lookup
 hook
 .
-RawObject
+JSObject
+*
 obj
 =
 const_cast
 <
-RawObject
+JSObject
+*
 >
 (
 this

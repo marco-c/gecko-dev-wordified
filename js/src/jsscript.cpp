@@ -4348,7 +4348,8 @@ mode
 XDR_ENCODE
 )
 {
-RawObject
+JSObject
+*
 obj
 =
 *
@@ -12541,7 +12542,8 @@ scripts
 .
 *
 /
-RawObject
+JSObject
+*
 enclosing
 =
 enclosingStaticScope
@@ -14939,7 +14941,8 @@ i
 +
 )
 {
-RawObject
+JSObject
+*
 clone
 =
 CloneScriptRegExpObject
@@ -16964,7 +16967,8 @@ js
 Debugger
 *
 dbg
-RawObject
+JSObject
+*
 handler
 )
 {

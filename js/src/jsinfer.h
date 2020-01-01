@@ -987,7 +987,8 @@ data
 ;
 }
 inline
-RawObject
+JSObject
+*
 singleObject
 (
 )
@@ -1221,7 +1222,8 @@ inline
 Type
 ObjectType
 (
-RawObject
+JSObject
+*
 obj
 )
 ;
@@ -3048,7 +3050,8 @@ i
 const
 ;
 inline
-RawObject
+JSObject
+*
 getSingleObject
 (
 unsigned
@@ -3995,7 +3998,8 @@ NULL
 .
 *
 /
-RawObject
+JSObject
+*
 getSingleton
 (
 )
@@ -4608,7 +4612,8 @@ NULL
 .
 *
 /
-RawObject
+JSObject
+*
 getSingleton
 (
 JSContext
@@ -6459,7 +6464,8 @@ singleton
 =
 =
 (
-RawObject
+JSObject
+*
 )
 LAZY_SINGLETON
 ;

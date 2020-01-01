@@ -1513,7 +1513,8 @@ finalize
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 ;
@@ -1524,7 +1525,8 @@ trace
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 ;

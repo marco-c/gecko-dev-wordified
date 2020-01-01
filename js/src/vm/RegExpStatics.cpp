@@ -219,7 +219,8 @@ resc_finalize
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -257,7 +258,8 @@ resc_trace
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 {

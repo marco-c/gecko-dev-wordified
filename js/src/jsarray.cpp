@@ -18700,7 +18700,8 @@ JSContext
 cx
 uint32_t
 length
-RawObject
+JSObject
+*
 protoArg
 NewObjectKind
 newKind
@@ -19143,7 +19144,8 @@ NewDenseEmptyArray
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 proto
 /
 *
@@ -19187,7 +19189,8 @@ JSContext
 cx
 uint32_t
 length
-RawObject
+JSObject
+*
 proto
 /
 *
@@ -19231,7 +19234,8 @@ JSContext
 cx
 uint32_t
 length
-RawObject
+JSObject
+*
 proto
 /
 *
@@ -19297,7 +19301,8 @@ f
 cx
 length
 (
-RawObject
+JSObject
+*
 )
 f
 .
@@ -19336,7 +19341,8 @@ HandleObject
 src
 uint32_t
 elementOffset
-RawObject
+JSObject
+*
 proto
 /
 *
@@ -19463,7 +19469,8 @@ const
 Value
 *
 values
-RawObject
+JSObject
+*
 proto
 /
 *

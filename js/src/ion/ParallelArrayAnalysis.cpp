@@ -4888,7 +4888,8 @@ i
 +
 )
 {
-RawObject
+JSObject
+*
 obj
 =
 calleeTypes

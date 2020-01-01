@@ -1563,10 +1563,8 @@ latter
 .
 *
 /
-js
-:
-:
-RawObject
+JSObject
+*
 gcIncomingGrayPointers
 ;
 /

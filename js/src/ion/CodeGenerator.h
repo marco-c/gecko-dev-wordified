@@ -1639,7 +1639,8 @@ emitInstanceOf
 LInstruction
 *
 ins
-RawObject
+JSObject
+*
 prototypeObject
 )
 ;

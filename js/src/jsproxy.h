@@ -2141,7 +2141,8 @@ inline
 bool
 IsObjectProxy
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -2159,7 +2160,8 @@ inline
 bool
 IsFunctionProxy
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -2177,7 +2179,8 @@ inline
 bool
 IsProxy
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -2319,7 +2322,8 @@ BaseProxyHandler
 *
 GetProxyHandler
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -2353,7 +2357,8 @@ Value
 &
 GetProxyPrivate
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -2378,7 +2383,8 @@ JSObject
 *
 GetProxyTargetObject
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -2407,7 +2413,8 @@ Value
 &
 GetProxyExtra
 (
-RawObject
+JSObject
+*
 obj
 size_t
 n
@@ -2435,7 +2442,8 @@ inline
 void
 SetProxyHandler
 (
-RawObject
+JSObject
+*
 obj
 BaseProxyHandler
 *
@@ -2465,7 +2473,8 @@ inline
 void
 SetProxyExtra
 (
-RawObject
+JSObject
+*
 obj
 size_t
 n

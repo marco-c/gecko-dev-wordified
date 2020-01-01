@@ -519,7 +519,8 @@ vec
 vec
 )
 ;
-RawObject
+JSObject
+*
 aobj
 =
 NewDenseCopiedArray
@@ -1269,7 +1270,8 @@ Snapshot
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 pobj_
 unsigned
 flags
@@ -2700,7 +2702,8 @@ shape
 return
 NULL
 ;
-RawObject
+JSObject
+*
 obj
 =
 JSObject
@@ -3035,9 +3038,11 @@ NativeIterator
 :
 init
 (
-RawObject
+JSObject
+*
 obj
-RawObject
+JSObject
+*
 iterObj
 unsigned
 flags
@@ -3395,7 +3400,8 @@ cache
 .
 *
 /
-RawObject
+JSObject
+*
 pobj
 =
 obj
@@ -3718,7 +3724,8 @@ UpdateNativeIterator
 NativeIterator
 *
 ni
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -3977,7 +3984,8 @@ address
 return
 false
 ;
-RawObject
+JSObject
+*
 resultObj
 =
 ToObject
@@ -4055,7 +4063,8 @@ ext
 iteratorObject
 )
 {
-RawObject
+JSObject
+*
 iterobj
 =
 op
@@ -4366,7 +4375,8 @@ active
 *
 /
 {
-RawObject
+JSObject
+*
 pobj
 =
 obj
@@ -5502,7 +5512,8 @@ trace
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -5541,7 +5552,8 @@ finalize
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -6763,7 +6775,8 @@ UnwindIteratorForUncatchableException
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -8674,7 +8687,8 @@ generator_finalize
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -9068,7 +9082,8 @@ generator_trace
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -9342,7 +9357,8 @@ cx
 )
 ;
 {
-RawObject
+JSObject
+*
 proto
 =
 global

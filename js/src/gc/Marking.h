@@ -1397,7 +1397,8 @@ MarkCrossCompartmentObjectUnbarriered
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 src
 JSObject
 *
@@ -1415,7 +1416,8 @@ MarkCrossCompartmentScriptUnbarriered
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 src
 JSScript
 *
@@ -1475,7 +1477,8 @@ MarkCrossCompartmentSlot
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 src
 HeapSlot
 *

@@ -401,7 +401,8 @@ obj_trace
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 ;
@@ -983,7 +984,8 @@ bytes
 void
 addView
 (
-RawObject
+JSObject
+*
 view
 )
 ;
@@ -1132,7 +1134,8 @@ releaseAsmJSArrayBuffer
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 ;
@@ -1786,7 +1789,8 @@ static
 void
 neuter
 (
-RawObject
+JSObject
+*
 tarray
 )
 ;
