@@ -1530,6 +1530,11 @@ mPostedReflowCallback
 :
 1
 ;
+PRPackedBool
+mMayHaveDirtyFixedChildren
+:
+1
+;
 }
 ;
 /
