@@ -231,6 +231,12 @@ void
 *
 orig_func
 ;
+bool
+successful
+=
+false
+;
+{
 WindowsDllInterceptor
 TestIntercept
 ;
@@ -241,8 +247,8 @@ Init
 dll
 )
 ;
-if
-(
+successful
+=
 TestIntercept
 .
 AddHook
@@ -252,6 +258,11 @@ func
 &
 orig_func
 )
+;
+}
+if
+(
+successful
 )
 {
 printf
