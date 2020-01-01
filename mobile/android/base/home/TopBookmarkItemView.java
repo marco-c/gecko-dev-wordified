@@ -1168,7 +1168,7 @@ R
 .
 dimen
 .
-abouthome_topsite_pinsize
+top_bookmark_pinsize
 )
 ;
 /
@@ -1263,7 +1263,7 @@ R
 .
 color
 .
-abouthome_topsite_pin
+top_bookmark_pin
 )
 )
 ;

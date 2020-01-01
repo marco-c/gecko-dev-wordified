@@ -1378,7 +1378,7 @@ R
 .
 drawable
 .
-abouthome_thumbnail_add
+top_bookmark_add
 )
 ;
 }
