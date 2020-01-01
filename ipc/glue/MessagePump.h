@@ -124,6 +124,15 @@ nsITimer
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -135,6 +144,7 @@ MessagePump
 ;
 class
 DoWorkRunnable
+MOZ_FINAL
 :
 public
 nsIRunnable
