@@ -1132,6 +1132,13 @@ nsIAccessibleEvent
 :
 :
 EVENT_INTERNAL_LOAD
+EVENT_OBJECT_REORDER
+/
+/
+nsIAccessibleEvent
+:
+:
+EVENT_REORDER
 kEVENT_LAST_ENTRY
 /
 /
