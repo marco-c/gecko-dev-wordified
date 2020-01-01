@@ -3000,7 +3000,13 @@ JSObject
 *
 >
 global
+JS
+:
+:
+Handle
+<
 jsid
+>
 id
 bool
 *
