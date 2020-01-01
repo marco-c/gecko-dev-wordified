@@ -217,11 +217,7 @@ gre
 /
 modules
 /
-services
-/
-healthreport
-/
-healthreporter
+HealthReport
 .
 jsm
 "
