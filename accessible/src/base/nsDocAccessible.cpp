@@ -8338,6 +8338,10 @@ else
 {
 NS_ASSERTION
 (
+!
+changeAccessible
+|
+|
 changeAccessible
 =
 =
