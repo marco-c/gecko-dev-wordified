@@ -569,8 +569,12 @@ aCommand
 )
 ;
 void
-NotifySettings
+NotifyStatusChanged
 (
+const
+nsAString
+&
+aType
 )
 ;
 void
