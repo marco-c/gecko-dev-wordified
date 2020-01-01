@@ -948,6 +948,12 @@ height
 )
 ;
 static
+void
+ForceIsFirstPaint
+(
+)
+;
+static
 float
 ComputeRenderIntegrity
 (
