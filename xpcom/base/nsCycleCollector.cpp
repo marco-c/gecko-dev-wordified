@@ -5498,9 +5498,6 @@ collector
 /
 /
 class
-AsyncFreeSnowWhite
-;
-class
 nsCycleCollector
 {
 friend
@@ -12281,10 +12278,6 @@ aAsyncSnowWhiteFreeing
 :
 aMaxCount
 )
-mCollector
-(
-aCollector
-)
 mRemoveChildlessNodes
 (
 aRemoveChildlessNodes
@@ -12505,10 +12498,6 @@ aEntry
 }
 private
 :
-nsCycleCollector
-*
-mCollector
-;
 bool
 mRemoveChildlessNodes
 ;
