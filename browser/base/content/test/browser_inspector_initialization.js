@@ -611,7 +611,6 @@ InspectorUI
 .
 closeInspectorUI
 (
-true
 )
 ;
 }

@@ -1377,6 +1377,12 @@ length
 "
 )
 ;
+InspectorUI
+.
+closeInspectorUI
+(
+)
+;
 gBrowser
 .
 removeCurrentTab
