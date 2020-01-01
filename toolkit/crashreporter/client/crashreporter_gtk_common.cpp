@@ -645,6 +645,9 @@ string
 gAuth
 ;
 string
+gCACertificateFile
+;
+string
 gSendURL
 ;
 string
@@ -1394,6 +1397,7 @@ upload_file_minidump
 "
 gHttpProxy
 gAuth
+gCACertificateFile
 &
 response
 &
