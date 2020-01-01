@@ -3128,9 +3128,15 @@ aCanvasFrame
 void
 DoContentStateChanged
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
-aContent
+aElement
 PRInt32
 aStateMask
 )
