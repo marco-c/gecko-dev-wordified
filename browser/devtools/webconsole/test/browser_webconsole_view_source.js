@@ -73,7 +73,6 @@ webconsole
 /
 test
 /
-/
 test
 -
 error
