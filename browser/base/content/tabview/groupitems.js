@@ -4156,6 +4156,13 @@ hide
 ;
 this
 .
+droppable
+(
+false
+)
+;
+this
+.
 _createUndoButton
 (
 )
@@ -4495,6 +4502,13 @@ this
 undoContainer
 =
 null
+;
+this
+.
+droppable
+(
+true
+)
 ;
 iQ
 (
