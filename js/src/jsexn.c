@@ -2396,9 +2396,8 @@ valueCount
 values
 )
 ;
-OBJ_SET_SLOT
+STOBJ_SET_SLOT
 (
-cx
 exnObject
 JSSLOT_PRIVATE
 PRIVATE_TO_JSVAL
@@ -4838,9 +4837,8 @@ obj
 &
 js_ErrorClass
 )
-OBJ_SET_SLOT
+STOBJ_SET_SLOT
 (
-cx
 obj
 JSSLOT_PRIVATE
 JSVAL_VOID
@@ -6633,9 +6631,8 @@ data
 .
 *
 /
-OBJ_SET_SLOT
+STOBJ_SET_SLOT
 (
-cx
 protos
 [
 i

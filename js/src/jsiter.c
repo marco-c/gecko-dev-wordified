@@ -1554,9 +1554,8 @@ ok
 return
 JS_FALSE
 ;
-OBJ_SET_SLOT
+STOBJ_SET_SLOT
 (
-cx
 obj
 JSSLOT_ITER_STATE
 state
