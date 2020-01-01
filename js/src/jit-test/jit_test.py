@@ -738,6 +738,27 @@ d
 '
 )
                     
+elif
+name
+=
+=
+'
+mjit
+'
+:
+                        
+test
+.
+jitflags
+.
+append
+(
+'
+-
+m
+'
+)
+                    
 else
 :
                         

@@ -243,11 +243,9 @@ v2
 )
 )
 ;
-CHECK
+CHECK_EQUAL
 (
 emptyTrapCallCount
-=
-=
 0
 )
 ;
@@ -440,11 +438,9 @@ addr
 )
 )
 ;
-CHECK
+CHECK_EQUAL
 (
 emptyTrapCallCount
-=
-=
 11
 )
 ;

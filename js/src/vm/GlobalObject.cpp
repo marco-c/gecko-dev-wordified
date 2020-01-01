@@ -474,6 +474,13 @@ h
 #
 include
 "
+jsmath
+.
+h
+"
+#
+include
+"
 json
 .
 h
