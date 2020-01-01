@@ -399,8 +399,8 @@ nsPluginInstanceOwner
 aOwner
 )
 ;
-nsresult
-IsPluginEnabledForType
+bool
+PluginExistsForType
 (
 const
 char

@@ -1382,15 +1382,12 @@ if
 pluginHost
 &
 &
-NS_SUCCEEDED
-(
 pluginHost
 -
 >
-IsPluginEnabledForType
+PluginExistsForType
 (
 aContentType
-)
 )
 )
 {
