@@ -3801,6 +3801,10 @@ BEGIN_CASE
 (
 JSOP_GETPROP
 )
+BEGIN_CASE
+(
+JSOP_GETXPROP
+)
 jsop_getprop_slow
 (
 )
