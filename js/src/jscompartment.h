@@ -2961,6 +2961,17 @@ target
 )
 ;
 inline
+AutoCompartment
+(
+JSContext
+*
+cx
+JSCompartment
+*
+target
+)
+;
+inline
 ~
 AutoCompartment
 (
