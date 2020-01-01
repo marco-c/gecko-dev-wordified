@@ -5483,7 +5483,7 @@ sizeof
 "
 !
 /
-mozsqlite3
+libmozsqlite3
 .
 so
 "
@@ -5498,7 +5498,7 @@ file
 s
 !
 /
-mozsqlite3
+libmozsqlite3
 .
 so
 "
