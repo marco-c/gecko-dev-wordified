@@ -7896,9 +7896,14 @@ if
 npobj
 )
 {
+#
+ifdef
+DEBUG
 int32_t
 refCnt
 =
+#
+endif
 PR_AtomicIncrement
 (
 (
