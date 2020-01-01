@@ -5772,7 +5772,7 @@ disp
 const
 ;
 inline
-int32_t
+AccSet
 accSet
 (
 )
@@ -9418,7 +9418,7 @@ disp
 ;
 }
 }
-int32_t
+AccSet
 LIns
 :
 :
