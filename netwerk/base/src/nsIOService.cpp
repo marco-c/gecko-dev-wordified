@@ -1842,6 +1842,9 @@ gIOService
 =
 this
 ;
+#
+ifdef
+MOZ_IPC
 /
 /
 go
@@ -1863,6 +1866,8 @@ XRE_GetProcessType
 =
 GeckoProcessType_Default
 )
+#
+endif
 mNetworkLinkService
 =
 do_GetService
