@@ -26760,7 +26760,6 @@ first
 if
 JS_HAS_BLOCK_SCOPE
 bool
-forInLet
 popScope
 ;
 JSStmtInfo
@@ -26995,13 +26994,6 @@ PNX_FORINVAR
 #
 if
 JS_HAS_BLOCK_SCOPE
-forInLet
-=
-let
-&
-&
-forInVar
-;
 popScope
 =
 (
