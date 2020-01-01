@@ -2061,7 +2061,10 @@ offset
 ;
 if
 (
-aType
+parentWidget
+&
+&
+Type
 =
 =
 eWindowType_popup
