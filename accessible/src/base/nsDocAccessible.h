@@ -598,6 +598,14 @@ aValue
 )
 ;
 NS_IMETHOD
+GetDescription
+(
+nsAString
+&
+aDescription
+)
+;
+NS_IMETHOD
 GetState
 (
 PRUint32
