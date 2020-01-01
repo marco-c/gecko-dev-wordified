@@ -547,15 +547,6 @@ Accept
 )
 HTTP_ATOM
 (
-Accept_Charset
-"
-Accept
--
-Charset
-"
-)
-HTTP_ATOM
-(
 Accept_Encoding
 "
 Accept
