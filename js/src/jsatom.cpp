@@ -1197,6 +1197,14 @@ Undefined
 objectUndefinedAtom
 *
 /
+"
+of
+"
+/
+*
+ofAtom
+*
+/
 js_proto_str
 /
 *
