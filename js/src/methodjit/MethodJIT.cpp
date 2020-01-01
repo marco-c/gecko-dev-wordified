@@ -7051,6 +7051,11 @@ fp
 )
 )
 ;
+if
+(
+ok
+)
+{
 /
 *
 The
@@ -7076,6 +7081,7 @@ markReturnValue
 (
 )
 ;
+}
 /
 *
 See
