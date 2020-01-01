@@ -1286,12 +1286,13 @@ nsAString
 aName
 )
 {
+aName
+=
 mNodeInfo
 -
 >
-GetQualifiedName
+QualifiedName
 (
-aName
 )
 ;
 return
