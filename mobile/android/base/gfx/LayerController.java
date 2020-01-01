@@ -474,17 +474,6 @@ mozilla
 .
 gecko
 .
-gfx
-.
-LayerClient
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 ui
 .
 PanZoomController
@@ -829,7 +818,7 @@ listener
 *
 /
 private
-LayerClient
+GeckoLayerClient
 mLayerClient
 ;
 /
@@ -1085,7 +1074,7 @@ public
 void
 setLayerClient
 (
-LayerClient
+GeckoLayerClient
 layerClient
 )
 {
@@ -1930,7 +1919,8 @@ is
 owned
 by
 the
-LayerClient
+layer
+client
 so
 no
 need
