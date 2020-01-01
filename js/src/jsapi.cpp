@@ -15945,6 +15945,7 @@ JS_IsExternalString
 (
 JSContext
 *
+cx
 JSString
 *
 str
