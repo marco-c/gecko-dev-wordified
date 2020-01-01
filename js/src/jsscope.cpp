@@ -2395,7 +2395,7 @@ if
 nbase
 )
 return
-false
+NULL
 ;
 StackShape
 child
