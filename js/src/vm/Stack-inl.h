@@ -4501,7 +4501,7 @@ entry
 FrameRegs
 &
 regs
-int
+jsbytecode
 *
 const
 switchMask
