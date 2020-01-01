@@ -183,7 +183,7 @@ menu
 ;
 }
 .
-left
+previous
 -
 arrow
 {
@@ -220,7 +220,7 @@ menu
 ;
 }
 .
-left
+previous
 -
 arrow
 :
@@ -267,7 +267,7 @@ menu
 ;
 }
 .
-right
+next
 -
 arrow
 {
@@ -304,7 +304,7 @@ menu
 ;
 }
 .
-right
+next
 -
 arrow
 :
