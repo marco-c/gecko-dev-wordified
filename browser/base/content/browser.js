@@ -50455,12 +50455,6 @@ function
 (
 )
 {
-if
-(
-this
-.
-_updateFeedTimeout
-)
 clearTimeout
 (
 this
@@ -50801,12 +50795,6 @@ of
 each
 other
 .
-if
-(
-this
-.
-_updateFeedTimeout
-)
 clearTimeout
 (
 this
