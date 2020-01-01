@@ -443,10 +443,6 @@ Storage
 )
 DOMCI_CLASS
 (
-OfflineResourceList
-)
-DOMCI_CLASS
-(
 Blob
 )
 DOMCI_CLASS
