@@ -835,6 +835,9 @@ JSContext
 cx
 JSObject
 *
+outerObj
+JSObject
+*
 wrappedObj
 JSBool
 *
@@ -2137,7 +2140,9 @@ JSObject
 wrapper
 )
 {
-wrapper
+JSObject
+*
+innerObj
 =
 UnwrapGeneric
 (
@@ -2153,7 +2158,7 @@ wrapper
 if
 (
 !
-wrapper
+innerObj
 )
 {
 return
@@ -2170,6 +2175,7 @@ CanAccessWrapper
 (
 cx
 wrapper
+innerObj
 nsnull
 )
 ;
@@ -2186,13 +2192,12 @@ JS_ClearPendingException
 cx
 )
 ;
-wrapper
-=
+return
 nsnull
 ;
 }
 return
-wrapper
+innerObj
 ;
 }
 inline
@@ -2240,6 +2245,7 @@ XPCCrossOriginWrapper
 CanAccessWrapper
 (
 cx
+nsnull
 wrapper
 nsnull
 )
