@@ -8,14 +8,7 @@ h
 #
 import
 "
-nsIAccessibleText
-.
-h
-"
-#
-import
-"
-nsIAccessibleEditableText
+nsHyperTextAccessible
 .
 h
 "
@@ -50,7 +43,7 @@ type
 for
 convenience
 .
-nsIAccessibleText
+nsHyperTextAccessible
 *
 mGeckoTextAccessible
 ;
