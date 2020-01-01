@@ -261,13 +261,6 @@ destroy
 ;
 abstract
 public
-TabContentFactory
-getFactory
-(
-)
-;
-abstract
-public
 boolean
 onBackPressed
 (
@@ -284,6 +277,13 @@ View
 view
 ContextMenuInfo
 menuInfo
+)
+;
+abstract
+public
+View
+getView
+(
 )
 ;
 protected
