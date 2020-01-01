@@ -29089,6 +29089,13 @@ that
 constructor
 object
 .
+JSAutoCompartment
+ac
+(
+cx
+class_obj
+)
+;
 rv
 =
 DefineInterfaceConstants
