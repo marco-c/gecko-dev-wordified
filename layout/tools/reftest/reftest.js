@@ -2712,6 +2712,9 @@ StartTests
 (
 )
 {
+var
+uri
+;
 #
 if
 BOOTSTRAP
