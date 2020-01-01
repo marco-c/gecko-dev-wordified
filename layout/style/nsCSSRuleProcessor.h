@@ -658,6 +658,15 @@ FreeSystemMetrics
 (
 )
 ;
+static
+PRBool
+HasSystemMetric
+(
+nsIAtom
+*
+aMetric
+)
+;
 /
 *
 *
