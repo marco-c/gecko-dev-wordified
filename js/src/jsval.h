@@ -1558,6 +1558,17 @@ object
 slot
 *
 /
+JS_HASH_KEY_EMPTY
+/
+*
+see
+class
+js
+:
+:
+HashableValue
+*
+/
 JS_GENERIC_MAGIC
 /
 *
