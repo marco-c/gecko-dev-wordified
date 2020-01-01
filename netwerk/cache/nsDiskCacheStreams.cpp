@@ -4267,9 +4267,6 @@ rv
 return
 rv
 ;
-#
-if
-0
 PRInt64
 dataSize
 =
@@ -4295,6 +4292,9 @@ Disabled
 for
 now
 .
+#
+if
+0
 if
 (
 dataSize

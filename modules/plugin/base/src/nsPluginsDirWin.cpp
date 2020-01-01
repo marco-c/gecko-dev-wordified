@@ -2314,9 +2314,16 @@ info
 .
 fFullPath
 =
-ToNewUnicode
+PL_strdup
+(
+NS_ConvertUTF16toUTF8
 (
 fullPath
+)
+.
+get
+(
+)
 )
 ;
 info
@@ -2467,7 +2474,7 @@ info
 .
 fFullPath
 )
-NS_Free
+PL_strfree
 (
 info
 .
