@@ -4882,7 +4882,7 @@ aDomain
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 "
@@ -4898,7 +4898,7 @@ pattern
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 1
 Ci
@@ -4910,7 +4910,7 @@ DOWNLOAD_DOWNLOADING
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 2
 Ci
@@ -4922,7 +4922,7 @@ DOWNLOAD_PAUSED
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 3
 Ci
@@ -5417,7 +5417,7 @@ aDomain
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 "
