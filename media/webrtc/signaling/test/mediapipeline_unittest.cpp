@@ -851,6 +851,7 @@ audio_
 GetStream
 (
 )
+1
 audio_conduit_
 audio_flow_
 NULL
@@ -1075,6 +1076,7 @@ audio_
 GetStream
 (
 )
+1
 static_cast
 <
 mozilla

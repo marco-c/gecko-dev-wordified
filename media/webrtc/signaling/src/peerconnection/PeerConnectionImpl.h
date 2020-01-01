@@ -674,8 +674,6 @@ mRole
 nsresult
 CreateRemoteSourceStreamInfo
 (
-uint32_t
-aHint
 nsRefPtr
 <
 RemoteSourceStreamInfo
