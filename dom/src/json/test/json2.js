@@ -458,10 +458,10 @@ if
 !
 this
 .
-crockfordJSON
+JSON
 )
 {
-crockfordJSON
+JSON
 =
 function
 (
