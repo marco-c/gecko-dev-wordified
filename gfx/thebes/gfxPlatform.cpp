@@ -946,6 +946,7 @@ NS_OK
 }
 class
 OrientationSyncPrefsObserver
+MOZ_FINAL
 :
 public
 nsIObserver
