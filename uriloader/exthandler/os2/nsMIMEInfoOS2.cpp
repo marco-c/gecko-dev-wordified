@@ -1328,7 +1328,7 @@ uri
 =
 do_CreateInstance
 (
-kStandardURLCID
+NS_STANDARDURL_CONTRACTID
 &
 rv
 )

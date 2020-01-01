@@ -727,13 +727,6 @@ pippki
 .
 properties
 "
-static
-NS_DEFINE_CID
-(
-kCStringBundleServiceCID
-NS_STRINGBUNDLESERVICE_CID
-)
-;
 EmbedCertificates
 :
 :
@@ -827,7 +820,7 @@ service
 =
 do_GetService
 (
-kCStringBundleServiceCID
+NS_STRINGBUNDLE_CONTRACTID
 &
 rv
 )

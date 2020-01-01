@@ -512,13 +512,6 @@ NS_IMPL_THREADSAFE_ISUPPORTS1
 nsSecurityWarningDialogs
 nsISecurityWarningDialogs
 )
-static
-NS_DEFINE_CID
-(
-kCStringBundleServiceCID
-NS_STRINGBUNDLESERVICE_CID
-)
-;
 #
 define
 STRING_BUNDLE_URL
@@ -630,7 +623,7 @@ service
 =
 do_GetService
 (
-kCStringBundleServiceCID
+NS_STRINGBUNDLE_CONTRACTID
 &
 rv
 )

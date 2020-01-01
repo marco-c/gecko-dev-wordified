@@ -3060,12 +3060,6 @@ hostNameU
 hostName
 )
 ;
-NS_DEFINE_CID
-(
-StringBundleServiceCID
-NS_STRINGBUNDLESERVICE_CID
-)
-;
 nsCOMPtr
 <
 nsIStringBundleService
@@ -3074,7 +3068,7 @@ service
 =
 do_GetService
 (
-StringBundleServiceCID
+NS_STRINGBUNDLE_CONTRACTID
 &
 rv
 )

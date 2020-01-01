@@ -716,13 +716,6 @@ nsEmbedCID
 .
 h
 "
-static
-NS_DEFINE_IID
-(
-kStringBundleServiceCID
-NS_STRINGBUNDLESERVICE_CID
-)
-;
 #
 define
 PREF_XPINSTALL_ENABLED
@@ -2889,7 +2882,7 @@ bundleSvc
 =
 do_GetService
 (
-kStringBundleServiceCID
+NS_STRINGBUNDLE_CONTRACTID
 )
 ;
 if

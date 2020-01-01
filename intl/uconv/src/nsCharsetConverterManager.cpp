@@ -561,7 +561,7 @@ h
 /
 just
 for
-CIDs
+CONTRACTIDs
 #
 include
 "
@@ -581,20 +581,6 @@ h
 "
 #
 endif
-static
-NS_DEFINE_CID
-(
-kStringBundleServiceCID
-NS_STRINGBUNDLESERVICE_CID
-)
-;
-static
-NS_DEFINE_CID
-(
-kCharsetAliasCID
-NS_CHARSETALIAS_CID
-)
-;
 /
 /
 Pattern
@@ -817,7 +803,7 @@ sbServ
 =
 do_GetService
 (
-kStringBundleServiceCID
+NS_STRINGBUNDLE_CONTRACTID
 &
 rv
 )
@@ -2078,7 +2064,7 @@ csAlias
 (
 do_GetService
 (
-kCharsetAliasCID
+NS_CHARSETALIAS_CONTRACTID
 )
 )
 ;
