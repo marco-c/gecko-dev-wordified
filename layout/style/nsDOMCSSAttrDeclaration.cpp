@@ -845,6 +845,11 @@ nsNodeUtils
 AttributeWillChange
 (
 mContent
+-
+>
+AsElement
+(
+)
 kNameSpaceID_None
 nsGkAtoms
 :
