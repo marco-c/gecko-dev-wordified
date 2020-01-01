@@ -9708,10 +9708,13 @@ HasSystemOnlyWrapper
 )
 )
 ;
-JSObject
-*
+JS
+:
+:
+RootedObject
 newwrapper
-=
+(
+aCx
 xpc
 :
 :
@@ -9722,6 +9725,7 @@ WrapSOWObject
 (
 aCx
 newobj
+)
 )
 ;
 if
