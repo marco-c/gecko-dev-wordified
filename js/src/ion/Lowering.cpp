@@ -6542,6 +6542,11 @@ lir
 =
 new
 LNotV
+(
+tempFloat
+(
+)
+)
 ;
 if
 (
@@ -6560,14 +6565,7 @@ return
 false
 ;
 return
-defineVMReturn
-(
-lir
-ins
-)
-&
-&
-assignSafepoint
+define
 (
 lir
 ins
