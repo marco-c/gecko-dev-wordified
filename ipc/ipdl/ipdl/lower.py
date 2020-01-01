@@ -5189,6 +5189,28 @@ Whitespace
 NL
 )
         
+dispatches
+=
+p
+.
+decl
+.
+type
+.
+isToplevel
+(
+)
+and
+p
+.
+decl
+.
+type
+.
+isManager
+(
+)
+        
 #
 FIXME
 /
@@ -5205,15 +5227,7 @@ AsyncChannel
 if
 0
 and
-p
-.
-decl
-.
-type
-.
-isToplevel
-(
-)
+dispatches
 :
             
 addDispatcher
@@ -5290,15 +5304,7 @@ SyncChannel
 if
 0
 and
-p
-.
-decl
-.
-type
-.
-isToplevel
-(
-)
+dispatches
 :
                 
 addDispatcher
@@ -5368,15 +5374,7 @@ talksRpc
 :
                 
 if
-p
-.
-decl
-.
-type
-.
-isToplevel
-(
-)
+dispatches
 :
                     
 addDispatcher
@@ -6037,6 +6035,16 @@ decl
 type
 .
 isToplevel
+(
+)
+and
+p
+.
+decl
+.
+type
+.
+isManager
 (
 )
 :

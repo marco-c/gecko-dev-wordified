@@ -105,10 +105,7 @@ class
 TabParent
 :
 private
-IFrameEmbeddingProtocol
-:
-:
-Parent
+IFrameEmbeddingProtocolParent
 {
 public
 :
@@ -154,9 +151,6 @@ LaunchSubprocess
 ;
 TabProcessParent
 mSubprocess
-;
-IFrameEmbeddingProtocolParent
-mParent
 ;
 mozilla
 :
