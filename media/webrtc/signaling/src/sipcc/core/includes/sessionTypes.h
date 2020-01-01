@@ -279,6 +279,9 @@ int
 cause
 ;
 string_t
+reason_text
+;
+string_t
 sdp
 ;
 unsigned

@@ -1859,9 +1859,12 @@ fname
 if
 (
 data
-!
-=
-NULL
+&
+&
+data
+-
+>
+status
 )
 {
 CCAPP_DEBUG
