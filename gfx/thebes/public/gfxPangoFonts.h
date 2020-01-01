@@ -709,14 +709,6 @@ return
 mAdjustedSize
 ;
 }
-PRUint32
-GetGlyph
-(
-const
-PRUint32
-aChar
-)
-;
 virtual
 nsString
 GetUniqueName
@@ -1060,9 +1052,6 @@ SetGlyphs
 gfxTextRun
 *
 aTextRun
-gfxPangoFont
-*
-aFont
 const
 gchar
 *
