@@ -623,6 +623,8 @@ char
 aCharSet
 PRBool
 aIsCopying
+PRBool
+aIsWholeDocument
 )
 ;
 NS_IMETHOD
