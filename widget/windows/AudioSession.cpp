@@ -424,12 +424,6 @@ BLOCK
 *
 /
 #
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
-#
 include
 <
 windows
@@ -2366,8 +2360,3 @@ widget
 /
 namespace
 mozilla
-#
-endif
-/
-/
-MOZ_NTDDI_LONGHORN

@@ -423,12 +423,6 @@ BLOCK
 *
 *
 /
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
 namespace
 mozilla
 {
@@ -539,11 +533,3 @@ widget
 /
 namespace
 mozilla
-#
-endif
-/
-/
-MOZ_WINSK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
