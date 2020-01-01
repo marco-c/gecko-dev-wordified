@@ -60,15 +60,6 @@ Splendid
 Test
 "
 ;
-const
-description
-=
-"
-My
-Test
-Database
-"
-;
 /
 /
 Open
@@ -88,7 +79,6 @@ open
 (
 name
 1
-description
 )
 ;
 /
@@ -386,7 +376,6 @@ open
 (
 name
 2
-description
 )
 ;
 request
@@ -701,7 +690,6 @@ open
 (
 name
 2
-description
 )
 ;
 request
@@ -779,7 +767,6 @@ open
 (
 name
 3
-description
 )
 ;
 request

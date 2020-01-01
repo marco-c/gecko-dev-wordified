@@ -70,15 +70,6 @@ Test
 "
 ;
 const
-description
-=
-"
-My
-Test
-Database
-"
-;
-const
 objectStoreName
 =
 "
@@ -94,7 +85,6 @@ open
 (
 name
 1
-description
 )
 ;
 request
@@ -281,7 +271,6 @@ open
 (
 name
 2
-description
 )
 ;
 request
@@ -610,7 +599,6 @@ open
 (
 name
 3
-description
 )
 ;
 request

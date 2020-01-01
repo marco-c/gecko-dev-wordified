@@ -61,15 +61,6 @@ Test
 "
 ;
 const
-description
-=
-"
-My
-Test
-Database
-"
-;
-const
 START_DATA
 =
 "
@@ -240,7 +231,6 @@ name
 i
 +
 1
-description
 )
 ;
 request

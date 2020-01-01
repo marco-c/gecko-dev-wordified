@@ -61,15 +61,6 @@ Test
 "
 ;
 const
-description
-=
-"
-My
-Test
-Database
-"
-;
-const
 entryCount
 =
 1000
@@ -83,7 +74,6 @@ open
 (
 name
 1
-description
 )
 ;
 request

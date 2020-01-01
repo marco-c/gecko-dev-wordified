@@ -61,15 +61,6 @@ Test
 "
 ;
 const
-description
-=
-"
-My
-Test
-Database
-"
-;
-const
 objectStores
 =
 [
@@ -90,7 +81,6 @@ open
 (
 name
 1
-description
 )
 ;
 request

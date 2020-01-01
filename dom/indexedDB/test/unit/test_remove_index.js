@@ -70,15 +70,6 @@ Test
 "
 ;
 const
-description
-=
-"
-My
-Test
-Database
-"
-;
-const
 indexName
 =
 "
@@ -96,7 +87,6 @@ open
 (
 name
 1
-description
 )
 ;
 request
