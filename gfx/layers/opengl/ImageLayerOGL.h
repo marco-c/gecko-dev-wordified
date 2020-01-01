@@ -835,6 +835,9 @@ CairoOGLBackendData
 :
 mLayerProgram
 (
+gl
+:
+:
 RGBALayerProgramType
 )
 {
@@ -842,6 +845,9 @@ RGBALayerProgramType
 GLTexture
 mTexture
 ;
+gl
+:
+:
 ShaderProgramType
 mLayerProgram
 ;
