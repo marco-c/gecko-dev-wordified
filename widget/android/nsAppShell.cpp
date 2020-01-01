@@ -3724,6 +3724,7 @@ mQueuedDrawEvent
 }
 if
 (
+!
 mAllowCoalescingNextDraw
 )
 {
