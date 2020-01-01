@@ -69,6 +69,9 @@ marionette_test
 import
 MarionetteTestCase
 CommonTestCase
+expectedFailure
+skip
+SkipTest
 from
 emulator
 import
