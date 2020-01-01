@@ -664,7 +664,9 @@ internal
 DTX
 but
 we
-dont
+don
+'
+t
 use
 it
 for
@@ -1483,11 +1485,14 @@ NULL
 {
 WebRtcOpus_EncoderFree
 (
-(
+reinterpret_cast
+<
 OpusEncInst
 *
-)
+>
+(
 ptr_inst
+)
 )
 ;
 }

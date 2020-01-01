@@ -129,7 +129,7 @@ public
 AudioDeviceUtilityWindows
 (
 const
-WebRtc_Word32
+int32_t
 id
 )
 ;
@@ -139,7 +139,7 @@ AudioDeviceUtilityWindows
 )
 ;
 virtual
-WebRtc_Word32
+int32_t
 Init
 (
 )
@@ -159,7 +159,7 @@ CriticalSectionWrapper
 &
 _critSect
 ;
-WebRtc_Word32
+int32_t
 _id
 ;
 AudioDeviceModule

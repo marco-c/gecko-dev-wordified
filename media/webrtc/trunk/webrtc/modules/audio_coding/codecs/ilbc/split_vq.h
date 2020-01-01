@@ -383,7 +383,7 @@ quantization
 void
 WebRtcIlbcfix_SplitVq
 (
-WebRtc_Word16
+int16_t
 *
 qX
 /
@@ -398,7 +398,7 @@ in
 Q13
 *
 /
-WebRtc_Word16
+int16_t
 *
 index
 /
@@ -419,7 +419,7 @@ the
 split
 *
 /
-WebRtc_Word16
+int16_t
 *
 X
 /
@@ -433,7 +433,7 @@ to
 quantize
 *
 /
-WebRtc_Word16
+int16_t
 *
 CB
 /
@@ -448,7 +448,7 @@ in
 Q13
 *
 /
-WebRtc_Word16
+int16_t
 *
 dim
 /
@@ -464,7 +464,7 @@ and
 qX
 *
 /
-WebRtc_Word16
+int16_t
 *
 cbsize
 /

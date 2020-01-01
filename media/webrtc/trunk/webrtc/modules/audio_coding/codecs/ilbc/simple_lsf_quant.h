@@ -387,7 +387,7 @@ LPCencode
 void
 WebRtcIlbcfix_SimpleLsfQ
 (
-WebRtc_Word16
+int16_t
 *
 lsfdeq
 /
@@ -405,7 +405,7 @@ FILTERORDER
 Q13
 *
 /
-WebRtc_Word16
+int16_t
 *
 index
 /
@@ -417,7 +417,7 @@ quantization
 index
 *
 /
-WebRtc_Word16
+int16_t
 *
 lsf
 /
@@ -439,7 +439,7 @@ FILTERORDER
 Q13
 *
 /
-WebRtc_Word16
+int16_t
 lpc_n
 /
 *

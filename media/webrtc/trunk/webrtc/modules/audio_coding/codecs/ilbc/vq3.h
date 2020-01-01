@@ -390,7 +390,7 @@ MSE
 void
 WebRtcIlbcfix_Vq3
 (
-WebRtc_Word16
+int16_t
 *
 Xq
 /
@@ -406,7 +406,7 @@ Q13
 )
 *
 /
-WebRtc_Word16
+int16_t
 *
 index
 /
@@ -419,7 +419,7 @@ quantization
 index
 *
 /
-WebRtc_Word16
+int16_t
 *
 CB
 /
@@ -436,7 +436,7 @@ Q13
 )
 *
 /
-WebRtc_Word16
+int16_t
 *
 X
 /
@@ -453,7 +453,7 @@ Q13
 )
 *
 /
-WebRtc_Word16
+int16_t
 n_cb
 /
 *

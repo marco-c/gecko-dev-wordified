@@ -477,7 +477,7 @@ start
 SeqNo
 from
 arguments
-WebRtc_UWord32
+uint32_t
 TSdiff
 =
 atoi
@@ -494,12 +494,12 @@ timeStamp
 (
 )
 ;
-WebRtc_UWord16
+uint16_t
 SNdiff
 =
 0
 ;
-WebRtc_UWord32
+uint32_t
 ATdiff
 =
 0

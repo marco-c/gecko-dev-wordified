@@ -340,28 +340,28 @@ RXX_BUFFER_LEN
 10
 static
 const
-WebRtc_Word16
+int16_t
 kMsecSpeechInner
 =
 520
 ;
 static
 const
-WebRtc_Word16
+int16_t
 kMsecSpeechOuter
 =
 340
 ;
 static
 const
-WebRtc_Word16
+int16_t
 kNormalVadThreshold
 =
 400
 ;
 static
 const
-WebRtc_Word16
+int16_t
 kAlphaShortTerm
 =
 6
@@ -378,7 +378,7 @@ kAlphaShortTerm
 0156
 static
 const
-WebRtc_Word16
+int16_t
 kAlphaLongTerm
 =
 10
@@ -402,14 +402,14 @@ Configurable
 parameters
 /
 variables
-WebRtc_UWord32
+uint32_t
 fs
 ;
 /
 /
 Sampling
 frequency
-WebRtc_Word16
+int16_t
 compressionGaindB
 ;
 /
@@ -419,7 +419,7 @@ gain
 level
 in
 dB
-WebRtc_Word16
+int16_t
 targetLevelDbfs
 ;
 /
@@ -436,7 +436,7 @@ default
 -
 3
 )
-WebRtc_Word16
+int16_t
 agcMode
 ;
 /
@@ -451,7 +451,7 @@ adaptDig
 /
 fixedDig
 )
-WebRtc_UWord8
+uint8_t
 limiterEnable
 ;
 /
@@ -477,10 +477,10 @@ usedConfig
 /
 General
 variables
-WebRtc_Word16
+int16_t
 initFlag
 ;
-WebRtc_Word16
+int16_t
 lastError
 ;
 /
@@ -520,7 +520,7 @@ round
 ^
 7
 )
-WebRtc_Word32
+int32_t
 analogTargetLevel
 ;
 /
@@ -533,7 +533,7 @@ RXX_BUFFER_LEN
 -
 22
 dBfs
-WebRtc_Word32
+int32_t
 startUpperLimit
 ;
 /
@@ -546,7 +546,7 @@ RXX_BUFFER_LEN
 -
 21
 dBfs
-WebRtc_Word32
+int32_t
 startLowerLimit
 ;
 /
@@ -559,7 +559,7 @@ RXX_BUFFER_LEN
 -
 23
 dBfs
-WebRtc_Word32
+int32_t
 upperPrimaryLimit
 ;
 /
@@ -572,7 +572,7 @@ RXX_BUFFER_LEN
 -
 20
 dBfs
-WebRtc_Word32
+int32_t
 lowerPrimaryLimit
 ;
 /
@@ -585,7 +585,7 @@ RXX_BUFFER_LEN
 -
 24
 dBfs
-WebRtc_Word32
+int32_t
 upperSecondaryLimit
 ;
 /
@@ -598,7 +598,7 @@ RXX_BUFFER_LEN
 -
 17
 dBfs
-WebRtc_Word32
+int32_t
 lowerSecondaryLimit
 ;
 /
@@ -611,7 +611,7 @@ RXX_BUFFER_LEN
 -
 27
 dBfs
-WebRtc_UWord16
+uint16_t
 targetIdx
 ;
 /
@@ -625,7 +625,7 @@ level
 #
 ifdef
 MIC_LEVEL_FEEDBACK
-WebRtc_UWord16
+uint16_t
 targetIdxOffset
 ;
 /
@@ -638,7 +638,7 @@ level
 compensation
 #
 endif
-WebRtc_Word16
+int16_t
 analogTarget
 ;
 /
@@ -655,7 +655,7 @@ Analog
 AGC
 specific
 variables
-WebRtc_Word32
+int32_t
 filterState
 [
 8
@@ -668,7 +668,7 @@ downsampling
 wb
 to
 nb
-WebRtc_Word32
+int32_t
 upperLimit
 ;
 /
@@ -678,7 +678,7 @@ limit
 for
 mic
 energy
-WebRtc_Word32
+int32_t
 lowerLimit
 ;
 /
@@ -688,7 +688,7 @@ limit
 for
 mic
 energy
-WebRtc_Word32
+int32_t
 Rxx160w32
 ;
 /
@@ -698,7 +698,7 @@ energy
 for
 one
 frame
-WebRtc_Word32
+int32_t
 Rxx16_LPw32
 ;
 /
@@ -708,7 +708,7 @@ pass
 filtered
 subframe
 energies
-WebRtc_Word32
+int32_t
 Rxx160_LPw32
 ;
 /
@@ -718,7 +718,7 @@ pass
 filtered
 frame
 energies
-WebRtc_Word32
+int32_t
 Rxx16_LPw32Max
 ;
 /
@@ -729,7 +729,7 @@ of
 largest
 energy
 subframe
-WebRtc_Word32
+int32_t
 Rxx16_vectorw32
 [
 RXX_BUFFER_LEN
@@ -741,7 +741,7 @@ Array
 with
 subframe
 energies
-WebRtc_Word32
+int32_t
 Rxx16w32_array
 [
 2
@@ -757,7 +757,7 @@ values
 of
 microphone
 signal
-WebRtc_Word32
+int32_t
 env
 [
 2
@@ -772,7 +772,7 @@ Envelope
 values
 of
 subframes
-WebRtc_Word16
+int16_t
 Rxx16pos
 ;
 /
@@ -782,7 +782,7 @@ position
 in
 the
 Rxx16_vectorw32
-WebRtc_Word16
+int16_t
 envSum
 ;
 /
@@ -792,7 +792,7 @@ scaled
 envelope
 in
 subframes
-WebRtc_Word16
+int16_t
 vadThreshold
 ;
 /
@@ -801,7 +801,7 @@ Threshold
 for
 VAD
 decision
-WebRtc_Word16
+int16_t
 inActive
 ;
 /
@@ -810,7 +810,7 @@ Inactive
 time
 in
 milliseconds
-WebRtc_Word16
+int16_t
 msTooLow
 ;
 /
@@ -823,7 +823,7 @@ a
 too
 low
 level
-WebRtc_Word16
+int16_t
 msTooHigh
 ;
 /
@@ -836,7 +836,7 @@ a
 too
 high
 level
-WebRtc_Word16
+int16_t
 changeToSlowMode
 ;
 /
@@ -850,7 +850,7 @@ some
 time
 at
 target
-WebRtc_Word16
+int16_t
 firstCall
 ;
 /
@@ -862,7 +862,7 @@ the
 process
 -
 function
-WebRtc_Word16
+int16_t
 msZero
 ;
 /
@@ -871,7 +871,7 @@ Milliseconds
 of
 zero
 input
-WebRtc_Word16
+int16_t
 msecSpeechOuterChange
 ;
 /
@@ -883,7 +883,7 @@ speech
 between
 volume
 changes
-WebRtc_Word16
+int16_t
 msecSpeechInnerChange
 ;
 /
@@ -895,7 +895,7 @@ speech
 between
 volume
 changes
-WebRtc_Word16
+int16_t
 activeSpeech
 ;
 /
@@ -904,7 +904,7 @@ Milliseconds
 of
 active
 speech
-WebRtc_Word16
+int16_t
 muteGuardMs
 ;
 /
@@ -914,7 +914,7 @@ to
 prevent
 mute
 action
-WebRtc_Word16
+int16_t
 inQueue
 ;
 /
@@ -928,7 +928,7 @@ indicator
 Microphone
 level
 variables
-WebRtc_Word32
+int32_t
 micRef
 ;
 /
@@ -941,7 +941,7 @@ level
 for
 virtual
 mic
-WebRtc_UWord16
+uint16_t
 gainTableIdx
 ;
 /
@@ -952,7 +952,7 @@ in
 virtual
 gain
 table
-WebRtc_Word32
+int32_t
 micGainIdx
 ;
 /
@@ -965,7 +965,7 @@ level
 to
 increase
 slowly
-WebRtc_Word32
+int32_t
 micVol
 ;
 /
@@ -974,7 +974,7 @@ Remember
 volume
 between
 frames
-WebRtc_Word32
+int32_t
 maxLevel
 ;
 /
@@ -986,7 +986,7 @@ level
 incl
 dig
 gain
-WebRtc_Word32
+int32_t
 maxAnalog
 ;
 /
@@ -996,7 +996,7 @@ possible
 analog
 volume
 level
-WebRtc_Word32
+int32_t
 maxInit
 ;
 /
@@ -1007,7 +1007,7 @@ of
 "
 max
 "
-WebRtc_Word32
+int32_t
 minLevel
 ;
 /
@@ -1016,7 +1016,7 @@ Minimum
 possible
 volume
 level
-WebRtc_Word32
+int32_t
 minOutput
 ;
 /
@@ -1025,7 +1025,7 @@ Minimum
 output
 volume
 level
-WebRtc_Word32
+int32_t
 zeroCtrlMax
 ;
 /
@@ -1041,7 +1041,7 @@ t
 amp
 low
 input
-WebRtc_Word16
+int16_t
 scale
 ;
 /
@@ -1055,10 +1055,10 @@ levels
 #
 ifdef
 MIC_LEVEL_FEEDBACK
-WebRtc_Word16
+int16_t
 numBlocksMicLvlSat
 ;
-WebRtc_UWord8
+uint8_t
 micLvlSat
 ;
 #
@@ -1087,12 +1087,12 @@ FILE
 *
 agcLog
 ;
-WebRtc_Word32
+int32_t
 fcount
 ;
 #
 endif
-WebRtc_Word16
+int16_t
 lowLevelSignal
 ;
 }

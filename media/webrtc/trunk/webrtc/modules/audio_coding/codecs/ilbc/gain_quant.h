@@ -389,7 +389,7 @@ residual
 -
 *
 /
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_GainQuant
 (
 /
@@ -402,7 +402,7 @@ gain
 value
 *
 /
-WebRtc_Word16
+int16_t
 gain
 /
 *
@@ -414,7 +414,7 @@ value
 Q14
 *
 /
-WebRtc_Word16
+int16_t
 maxIn
 /
 *
@@ -428,7 +428,7 @@ value
 Q14
 *
 /
-WebRtc_Word16
+int16_t
 stage
 /
 *
@@ -442,7 +442,7 @@ the
 search
 *
 /
-WebRtc_Word16
+int16_t
 *
 index
 /

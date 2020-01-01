@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -110,6 +112,8 @@ h
 #
 include
 "
+webrtc
+/
 engine_configurations
 .
 h
@@ -120,6 +124,8 @@ VIDEOCODEC_I420
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -144,6 +150,8 @@ VIDEOCODEC_VP8
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -163,6 +171,8 @@ endif
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -178,6 +188,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -496,6 +508,13 @@ numberOfSimulcastStreams
 settings
 -
 >
+qpMax
+=
+56
+;
+settings
+-
+>
 codecSpecific
 .
 VP8
@@ -558,6 +577,17 @@ VP8
 frameDroppingOn
 =
 true
+;
+settings
+-
+>
+codecSpecific
+.
+VP8
+.
+keyFrameInterval
+=
+3000
 ;
 return
 true

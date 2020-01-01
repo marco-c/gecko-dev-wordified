@@ -227,7 +227,7 @@ void
 SetRenderTime
 (
 const
-WebRtc_Word64
+int64_t
 renderTimeMs
 )
 {
@@ -250,9 +250,9 @@ size
 void
 SetEncodedSize
 (
-WebRtc_UWord32
+uint32_t
 width
-WebRtc_UWord32
+uint32_t
 height
 )
 {
@@ -314,7 +314,7 @@ buffer
 *
 /
 const
-WebRtc_UWord8
+uint8_t
 *
 Buffer
 (
@@ -334,7 +334,7 @@ frame
 length
 *
 /
-WebRtc_UWord32
+uint32_t
 Length
 (
 )
@@ -356,7 +356,7 @@ timestamp
 )
 *
 /
-WebRtc_UWord32
+uint32_t
 TimeStamp
 (
 )
@@ -377,7 +377,7 @@ in
 milliseconds
 *
 /
-WebRtc_Word64
+int64_t
 RenderTimeMs
 (
 )
@@ -475,7 +475,7 @@ encoded
 payload
 *
 /
-WebRtc_UWord8
+uint8_t
 PayloadType
 (
 )
@@ -545,7 +545,7 @@ FragmentationHeader
 )
 const
 ;
-WebRtc_Word32
+int32_t
 Store
 (
 VCMFrameStorageCallback
@@ -662,11 +662,11 @@ minimumSize
 .
 *
 /
-WebRtc_Word32
+int32_t
 VerifyAndAllocate
 (
 const
-WebRtc_UWord32
+uint32_t
 minimumSize
 )
 ;
@@ -684,10 +684,10 @@ RTPVideoHeader
 header
 )
 ;
-WebRtc_Word64
+int64_t
 _renderTimeMs
 ;
-WebRtc_UWord8
+uint8_t
 _payloadType
 ;
 bool

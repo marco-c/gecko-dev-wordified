@@ -275,7 +275,7 @@ descriptor
 payload_data_
 =
 new
-WebRtc_UWord8
+uint8_t
 [
 payload_size_
 ]
@@ -283,7 +283,7 @@ payload_size_
 buffer_
 =
 new
-WebRtc_UWord8
+uint8_t
 [
 buffer_size_
 ]

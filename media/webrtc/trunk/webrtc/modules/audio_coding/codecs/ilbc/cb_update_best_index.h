@@ -246,7 +246,7 @@ h
 void
 WebRtcIlbcfix_CbUpdateBestIndex
 (
-WebRtc_Word32
+int32_t
 CritNew
 /
 *
@@ -259,7 +259,7 @@ best
 Criteria
 *
 /
-WebRtc_Word16
+int16_t
 CritNewSh
 /
 *
@@ -273,7 +273,7 @@ above
 Criteria
 *
 /
-WebRtc_Word16
+int16_t
 IndexNew
 /
 *
@@ -286,7 +286,7 @@ new
 Criteria
 *
 /
-WebRtc_Word32
+int32_t
 cDotNew
 /
 *
@@ -300,7 +300,7 @@ new
 index
 *
 /
-WebRtc_Word16
+int16_t
 invEnergyNew
 /
 *
@@ -313,7 +313,7 @@ new
 index
 *
 /
-WebRtc_Word16
+int16_t
 energyShiftNew
 /
 *
@@ -327,7 +327,7 @@ new
 index
 *
 /
-WebRtc_Word32
+int32_t
 *
 CritMax
 /
@@ -345,7 +345,7 @@ far
 )
 *
 /
-WebRtc_Word16
+int16_t
 *
 shTotMax
 /
@@ -361,7 +361,7 @@ maximum
 criteria
 *
 /
-WebRtc_Word16
+int16_t
 *
 bestIndex
 /
@@ -379,7 +379,7 @@ maximum
 criteria
 *
 /
-WebRtc_Word16
+int16_t
 *
 bestGain
 )

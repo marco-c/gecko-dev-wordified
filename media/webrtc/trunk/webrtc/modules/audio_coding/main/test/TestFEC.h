@@ -185,7 +185,7 @@ several
 sampling
 frequency
 .
-WebRtc_Word16
+int16_t
 RegisterSendCodec
 (
 char
@@ -193,7 +193,7 @@ side
 char
 *
 codecName
-WebRtc_Word32
+int32_t
 sampFreqHz
 =
 -
@@ -208,7 +208,7 @@ Run
 void
 OpenOutFile
 (
-WebRtc_Word16
+int16_t
 testNumber
 )
 ;
@@ -217,7 +217,7 @@ DisplaySendReceiveCodec
 (
 )
 ;
-WebRtc_Word32
+int32_t
 SetVAD
 (
 bool
@@ -246,7 +246,7 @@ _inFileA
 PCMFile
 _outFileB
 ;
-WebRtc_Word16
+int16_t
 _testCntr
 ;
 int

@@ -104,7 +104,7 @@ webrtc
 struct
 VCMTimestampDataTuple
 {
-WebRtc_UWord32
+uint32_t
 timestamp
 ;
 void
@@ -137,7 +137,7 @@ map
 VCMTimestampMap
 (
 const
-WebRtc_Word32
+int32_t
 length
 =
 10
@@ -162,10 +162,10 @@ Reset
 (
 )
 ;
-WebRtc_Word32
+int32_t
 Add
 (
-WebRtc_UWord32
+uint32_t
 timestamp
 void
 *
@@ -176,7 +176,7 @@ void
 *
 Pop
 (
-WebRtc_UWord32
+uint32_t
 timestamp
 )
 ;
@@ -192,13 +192,13 @@ VCMTimestampDataTuple
 *
 _map
 ;
-WebRtc_Word32
+int32_t
 _nextAddIx
 ;
-WebRtc_Word32
+int32_t
 _nextPopIx
 ;
-WebRtc_Word32
+int32_t
 _length
 ;
 }

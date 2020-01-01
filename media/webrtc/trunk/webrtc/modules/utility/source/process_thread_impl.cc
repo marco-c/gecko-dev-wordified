@@ -225,7 +225,7 @@ __FUNCTION__
 )
 ;
 }
-WebRtc_Word32
+int32_t
 ProcessThreadImpl
 :
 :
@@ -268,7 +268,7 @@ unsigned
 int
 id
 ;
-WebRtc_Word32
+int32_t
 retVal
 =
 _thread
@@ -303,7 +303,7 @@ return
 1
 ;
 }
-WebRtc_Word32
+int32_t
 ProcessThreadImpl
 :
 :
@@ -389,7 +389,7 @@ return
 0
 ;
 }
-WebRtc_Word32
+int32_t
 ProcessThreadImpl
 :
 :
@@ -429,7 +429,7 @@ First
 ;
 for
 (
-WebRtc_UWord32
+uint32_t
 i
 =
 0
@@ -558,7 +558,7 @@ return
 0
 ;
 }
-WebRtc_Word32
+int32_t
 ProcessThreadImpl
 :
 :
@@ -588,7 +588,7 @@ First
 ;
 for
 (
-WebRtc_UWord32
+uint32_t
 i
 =
 0
@@ -734,7 +734,7 @@ than
 100
 ms
 .
-WebRtc_Word32
+int32_t
 minTimeToNext
 =
 100
@@ -758,7 +758,7 @@ First
 ;
 for
 (
-WebRtc_UWord32
+uint32_t
 i
 =
 0
@@ -779,7 +779,7 @@ i
 +
 )
 {
-WebRtc_Word32
+int32_t
 timeToNext
 =
 static_cast
@@ -848,6 +848,12 @@ return
 true
 ;
 }
+CriticalSectionScoped
+lock
+(
+_critSectModules
+)
+;
 if
 (
 !
@@ -878,7 +884,7 @@ First
 ;
 for
 (
-WebRtc_UWord32
+uint32_t
 i
 =
 0
@@ -899,7 +905,7 @@ i
 +
 )
 {
-WebRtc_Word32
+int32_t
 timeToNext
 =
 static_cast

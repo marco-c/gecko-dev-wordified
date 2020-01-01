@@ -109,10 +109,10 @@ dsp_helpfunctions
 .
 h
 "
-WebRtc_Word16
+int16_t
 WebRtcNetEQ_CalcFsMult
 (
-WebRtc_UWord16
+uint16_t
 fsHz
 )
 {
@@ -166,14 +166,14 @@ int
 WebRtcNetEQ_DownSampleTo4kHz
 (
 const
-WebRtc_Word16
+int16_t
 *
 in
 int
 inLen
-WebRtc_UWord16
+uint16_t
 inFsHz
-WebRtc_Word16
+int16_t
 *
 out
 int
@@ -182,7 +182,7 @@ int
 compensateDelay
 )
 {
-WebRtc_Word16
+int16_t
 *
 B
 ;
@@ -192,7 +192,7 @@ filter
 coefficients
 *
 /
-WebRtc_Word16
+int16_t
 Blen
 ;
 /
@@ -202,7 +202,7 @@ of
 coefficients
 *
 /
-WebRtc_Word16
+int16_t
 filterDelay
 ;
 /
@@ -213,7 +213,7 @@ in
 samples
 *
 /
-WebRtc_Word16
+int16_t
 factor
 ;
 /
@@ -297,7 +297,7 @@ factor
 B
 =
 (
-WebRtc_Word16
+int16_t
 *
 )
 WebRtcNetEQ_kDownsample8kHzTbl
@@ -329,7 +329,7 @@ factor
 B
 =
 (
-WebRtc_Word16
+int16_t
 *
 )
 WebRtcNetEQ_kDownsample16kHzTbl
@@ -363,7 +363,7 @@ factor
 B
 =
 (
-WebRtc_Word16
+int16_t
 *
 )
 WebRtcNetEQ_kDownsample32kHzTbl
@@ -397,7 +397,7 @@ factor
 B
 =
 (
-WebRtc_Word16
+int16_t
 *
 )
 WebRtcNetEQ_kDownsample48kHzTbl
@@ -454,7 +454,7 @@ ok
 WebRtcSpl_DownsampleFast
 (
 (
-WebRtc_Word16
+int16_t
 *
 )
 &
@@ -465,7 +465,7 @@ Blen
 1
 ]
 (
-WebRtc_Word16
+int16_t
 )
 (
 inLen
@@ -486,7 +486,7 @@ samples
 /
 out
 (
-WebRtc_Word16
+int16_t
 )
 outLen
 /

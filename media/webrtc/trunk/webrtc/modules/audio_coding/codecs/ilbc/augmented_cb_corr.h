@@ -387,7 +387,7 @@ codebooks
 void
 WebRtcIlbcfix_AugmentedCbCorr
 (
-WebRtc_Word16
+int16_t
 *
 target
 /
@@ -399,7 +399,7 @@ Target
 vector
 *
 /
-WebRtc_Word16
+int16_t
 *
 buffer
 /
@@ -411,7 +411,7 @@ Memory
 buffer
 *
 /
-WebRtc_Word16
+int16_t
 *
 interpSamples
 /
@@ -425,7 +425,7 @@ interpolated
 samples
 *
 /
-WebRtc_Word32
+int32_t
 *
 crossDot
 /
@@ -445,7 +445,7 @@ Augmented
 vector
 *
 /
-WebRtc_Word16
+int16_t
 low
 /
 *
@@ -462,7 +462,7 @@ typically
 )
 *
 /
-WebRtc_Word16
+int16_t
 high
 /
 *
@@ -478,7 +478,7 @@ typically
 39
 *
 /
-WebRtc_Word16
+int16_t
 scale
 )
 ;

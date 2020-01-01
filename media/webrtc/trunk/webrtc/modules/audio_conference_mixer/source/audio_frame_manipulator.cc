@@ -522,7 +522,7 @@ i
 =
 static_cast
 <
-WebRtc_Word16
+int16_t
 >
 (
 rampArray
@@ -593,7 +593,7 @@ i
 =
 static_cast
 <
-WebRtc_Word16
+int16_t
 >
 (
 rampArray

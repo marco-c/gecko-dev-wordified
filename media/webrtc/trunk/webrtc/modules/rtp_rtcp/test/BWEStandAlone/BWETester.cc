@@ -834,7 +834,7 @@ isMaster
 =
 false
 ;
-WebRtc_UWord16
+uint16_t
 port
 ;
 std

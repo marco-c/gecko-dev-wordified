@@ -128,7 +128,7 @@ public
 :
 AndroidSurfaceViewChannel
 (
-WebRtc_UWord32
+uint32_t
 streamId
 JavaVM
 *
@@ -145,10 +145,10 @@ AndroidSurfaceViewChannel
 (
 )
 ;
-WebRtc_Word32
+int32_t
 Init
 (
-WebRtc_Word32
+int32_t
 zOrder
 const
 float
@@ -169,11 +169,11 @@ bottom
 Implement
 VideoRenderCallback
 virtual
-WebRtc_Word32
+int32_t
 RenderFrame
 (
 const
-WebRtc_UWord32
+uint32_t
 streamId
 I420VideoFrame
 &
@@ -195,7 +195,7 @@ jniEnv
 ;
 private
 :
-WebRtc_UWord32
+uint32_t
 _id
 ;
 CriticalSectionWrapper
@@ -252,7 +252,7 @@ public
 AndroidSurfaceViewRenderer
 (
 const
-WebRtc_Word32
+int32_t
 id
 const
 VideoRenderType
@@ -270,7 +270,7 @@ AndroidSurfaceViewRenderer
 (
 )
 ;
-WebRtc_Word32
+int32_t
 Init
 (
 )
@@ -280,9 +280,9 @@ AndroidStream
 *
 CreateAndroidRenderChannel
 (
-WebRtc_Word32
+int32_t
 streamId
-WebRtc_Word32
+int32_t
 zOrder
 const
 float

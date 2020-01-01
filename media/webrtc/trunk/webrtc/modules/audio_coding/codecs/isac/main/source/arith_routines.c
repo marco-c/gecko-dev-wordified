@@ -138,7 +138,7 @@ bitstream
 *
 /
 {
-WebRtc_UWord8
+uint8_t
 *
 stream_ptr
 ;
@@ -277,7 +277,7 @@ stream_ptr
 +
 =
 (
-WebRtc_UWord8
+uint8_t
 )
 (
 streamdata
@@ -378,7 +378,7 @@ stream_ptr
 +
 =
 (
-WebRtc_UWord8
+uint8_t
 )
 (
 streamdata
@@ -396,7 +396,7 @@ stream_ptr
 +
 =
 (
-WebRtc_UWord8
+uint8_t
 )
 (
 (

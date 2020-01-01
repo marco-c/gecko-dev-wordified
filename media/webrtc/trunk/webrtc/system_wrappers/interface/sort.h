@@ -208,13 +208,13 @@ success
 on
 failure
 .
-WebRtc_Word32
+int32_t
 Sort
 (
 void
 *
 data
-WebRtc_UWord32
+uint32_t
 num_of_elements
 Type
 data_type
@@ -386,7 +386,7 @@ failure
 .
 /
 /
-WebRtc_Word32
+int32_t
 KeySort
 (
 void
@@ -395,9 +395,9 @@ data
 void
 *
 key
-WebRtc_UWord32
+uint32_t
 num_of_elements
-WebRtc_UWord32
+uint32_t
 size_of_element
 Type
 key_type

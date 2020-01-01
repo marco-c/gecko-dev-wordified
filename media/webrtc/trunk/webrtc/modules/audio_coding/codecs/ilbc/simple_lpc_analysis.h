@@ -387,7 +387,7 @@ LPCencode
 void
 WebRtcIlbcfix_SimpleLpcAnalysis
 (
-WebRtc_Word16
+int16_t
 *
 lsf
 /
@@ -399,7 +399,7 @@ lsf
 coefficients
 *
 /
-WebRtc_Word16
+int16_t
 *
 data
 /

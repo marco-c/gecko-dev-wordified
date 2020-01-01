@@ -411,7 +411,7 @@ encoder
 void
 WebRtcIlbcfix_LpcEncode
 (
-WebRtc_Word16
+int16_t
 *
 syntdenum
 /
@@ -430,7 +430,7 @@ after
 encoding
 *
 /
-WebRtc_Word16
+int16_t
 *
 weightdenum
 /
@@ -449,7 +449,7 @@ after
 encoding
 *
 /
-WebRtc_Word16
+int16_t
 *
 lsf_index
 /
@@ -462,7 +462,7 @@ quantization
 index
 *
 /
-WebRtc_Word16
+int16_t
 *
 data
 /
@@ -502,7 +502,7 @@ Stack
 based
 *
 /
-WebRtc_Word16
+int16_t
 lsf
 [
 LPC_FILTERORDER
@@ -510,7 +510,7 @@ LPC_FILTERORDER
 LPC_N_MAX
 ]
 ;
-WebRtc_Word16
+int16_t
 lsfdeq
 [
 LPC_FILTERORDER

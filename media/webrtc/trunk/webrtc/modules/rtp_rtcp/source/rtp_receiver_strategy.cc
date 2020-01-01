@@ -113,6 +113,14 @@ RTPReceiverStrategy
 :
 RTPReceiverStrategy
 (
+RtpData
+*
+data_callback
+)
+:
+data_callback_
+(
+data_callback
 )
 {
 memset

@@ -388,7 +388,7 @@ coefficients
 void
 WebRtcIlbcfix_Lsp2Lsf
 (
-WebRtc_Word16
+int16_t
 *
 lsp
 /
@@ -409,7 +409,7 @@ in
 Q15
 *
 /
-WebRtc_Word16
+int16_t
 *
 lsf
 /
@@ -444,7 +444,7 @@ i
 )
 *
 /
-WebRtc_Word16
+int16_t
 m
 /
 *
@@ -458,11 +458,11 @@ coefficients
 /
 )
 {
-WebRtc_Word16
+int16_t
 i
 k
 ;
-WebRtc_Word16
+int16_t
 diff
 ;
 /
@@ -479,7 +479,7 @@ Q15
 )
 *
 /
-WebRtc_Word16
+int16_t
 freq
 ;
 /
@@ -496,7 +496,7 @@ Q16
 )
 *
 /
-WebRtc_Word16
+int16_t
 *
 lspPtr
 *
@@ -504,7 +504,7 @@ lsfPtr
 *
 cosTblPtr
 ;
-WebRtc_Word16
+int16_t
 tmp
 ;
 /
@@ -576,7 +576,7 @@ lsf
 cosTblPtr
 =
 (
-WebRtc_Word16
+int16_t
 *
 )
 &
@@ -633,7 +633,7 @@ while
 (
 (
 (
-WebRtc_Word32
+int32_t
 )
 (
 *
@@ -750,7 +750,7 @@ Q16
 tmp
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -772,7 +772,7 @@ Q16
 freq
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_LSHIFT_W16
 (
@@ -799,12 +799,12 @@ lsfPtr
 )
 =
 (
-WebRtc_Word16
+int16_t
 )
 (
 (
 (
-WebRtc_Word32
+int32_t
 )
 freq
 *

@@ -193,7 +193,7 @@ negative
 value
 upon
 error
-WebRtc_Word32
+int32_t
 Initialize
 (
 int
@@ -264,7 +264,7 @@ negative
 value
 upon
 error
-WebRtc_Word32
+int32_t
 Release
 (
 )
@@ -293,7 +293,7 @@ for
 motion
 magnitude
 typedef
-WebRtc_Word32
+int32_t
 (
 VPMContentAnalysis
 :
@@ -307,7 +307,7 @@ TemporalDiffMetricFunc
 TemporalDiffMetricFunc
 TemporalDiffMetric
 ;
-WebRtc_Word32
+int32_t
 TemporalDiffMetric_C
 (
 )
@@ -326,7 +326,7 @@ magnitude
 and
 size
 )
-WebRtc_Word32
+int32_t
 ComputeMotionMetrics
 (
 )
@@ -354,7 +354,7 @@ errors
 2x2
 )
 typedef
-WebRtc_Word32
+int32_t
 (
 VPMContentAnalysis
 :
@@ -368,7 +368,7 @@ ComputeSpatialMetricsFunc
 ComputeSpatialMetricsFunc
 ComputeSpatialMetrics
 ;
-WebRtc_Word32
+int32_t
 ComputeSpatialMetrics_C
 (
 )
@@ -379,12 +379,12 @@ defined
 (
 WEBRTC_ARCH_X86_FAMILY
 )
-WebRtc_Word32
+int32_t
 ComputeSpatialMetrics_SSE2
 (
 )
 ;
-WebRtc_Word32
+int32_t
 TemporalDiffMetric_SSE2
 (
 )
@@ -392,11 +392,11 @@ TemporalDiffMetric_SSE2
 #
 endif
 const
-WebRtc_UWord8
+uint8_t
 *
 _origFrame
 ;
-WebRtc_UWord8
+uint8_t
 *
 _prevFrame
 ;

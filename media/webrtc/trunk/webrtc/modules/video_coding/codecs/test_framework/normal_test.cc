@@ -239,7 +239,7 @@ std
 :
 string
 description
-WebRtc_UWord32
+uint32_t
 bitRate
 unsigned
 int

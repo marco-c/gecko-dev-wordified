@@ -107,7 +107,7 @@ fft
 h
 "
 const
-WebRtc_Word16
+int16_t
 kSortTabFft
 [
 240
@@ -365,7 +365,7 @@ Q14
 *
 /
 const
-WebRtc_Word16
+int16_t
 kCosTabFfftQ14
 [
 240
@@ -748,22 +748,22 @@ Uses
 WEBRTC_SPL_MUL_16_16_RSFT
 *
 /
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_FftRadix16Fastest
 (
-WebRtc_Word16
+int16_t
 RexQx
 [
 ]
-WebRtc_Word16
+int16_t
 ImxQx
 [
 ]
-WebRtc_Word16
+int16_t
 iSign
 )
 {
-WebRtc_Word16
+int16_t
 dd
 ee
 ff
@@ -771,7 +771,7 @@ gg
 hh
 ii
 ;
-WebRtc_Word16
+int16_t
 k0
 k1
 k2
@@ -779,11 +779,11 @@ k3
 k4
 kk
 ;
-WebRtc_Word16
+int16_t
 tmp116
 tmp216
 ;
-WebRtc_Word16
+int16_t
 ccc1Q14
 ccc2Q14
 ccc3Q14
@@ -791,12 +791,12 @@ sss1Q14
 sss2Q14
 sss3Q14
 ;
-WebRtc_Word16
+int16_t
 sss60Q14
 ccc72Q14
 sss72Q14
 ;
-WebRtc_Word16
+int16_t
 aaQx
 ajQx
 akQx
@@ -805,7 +805,7 @@ ajpQx
 akmQx
 akpQx
 ;
-WebRtc_Word16
+int16_t
 bbQx
 bjQx
 bkQx
@@ -814,7 +814,7 @@ bjpQx
 bkmQx
 bkpQx
 ;
-WebRtc_Word16
+int16_t
 ReDATAQx
 [
 240
@@ -1302,7 +1302,7 @@ k1
 ]
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -1312,7 +1312,7 @@ akpQx
 )
 -
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -1355,7 +1355,7 @@ k2
 ]
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -1365,7 +1365,7 @@ ajpQx
 )
 -
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -1380,7 +1380,7 @@ k3
 ]
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -1390,7 +1390,7 @@ akmQx
 )
 -
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -1405,7 +1405,7 @@ k1
 ]
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -1415,7 +1415,7 @@ akpQx
 )
 +
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -1430,7 +1430,7 @@ k2
 ]
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -1440,7 +1440,7 @@ ajpQx
 )
 +
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -1455,7 +1455,7 @@ k3
 ]
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -1465,7 +1465,7 @@ akmQx
 )
 +
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -1686,7 +1686,7 @@ k2
 ajQx
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -1708,7 +1708,7 @@ Qx
 bjQx
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -1952,7 +1952,7 @@ ee
 ff
 +
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16
 (
@@ -2029,7 +2029,7 @@ kk
 ]
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2049,7 +2049,7 @@ Qx
 =
 Qx
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2064,7 +2064,7 @@ kk
 ]
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2084,7 +2084,7 @@ Qx
 =
 Qx
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2405,7 +2405,7 @@ bjpQx
 akQx
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2415,7 +2415,7 @@ akpQx
 )
 +
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2429,7 +2429,7 @@ aaQx
 bkQx
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2439,7 +2439,7 @@ bkpQx
 )
 +
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2453,7 +2453,7 @@ bbQx
 ajQx
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2463,7 +2463,7 @@ akmQx
 )
 +
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2475,7 +2475,7 @@ ajmQx
 bjQx
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2485,7 +2485,7 @@ bkmQx
 )
 +
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2550,7 +2550,7 @@ ajQx
 akQx
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2560,7 +2560,7 @@ akpQx
 )
 +
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2574,7 +2574,7 @@ aaQx
 bkQx
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2584,7 +2584,7 @@ bkpQx
 )
 +
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2598,7 +2598,7 @@ bbQx
 ajQx
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2608,7 +2608,7 @@ akmQx
 )
 -
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2620,7 +2620,7 @@ ajmQx
 bjQx
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2630,7 +2630,7 @@ bkmQx
 )
 -
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2827,7 +2827,7 @@ dd
 12
 +
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16
 (
@@ -2929,7 +2929,7 @@ kk
 ]
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2939,7 +2939,7 @@ akQx
 )
 -
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2954,7 +2954,7 @@ kk
 ]
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (
@@ -2964,7 +2964,7 @@ akQx
 )
 +
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16_RSFT
 (

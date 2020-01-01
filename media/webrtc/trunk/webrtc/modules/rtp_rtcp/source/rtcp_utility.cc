@@ -132,7 +132,7 @@ RTCPParserV2
 RTCPParserV2
 (
 const
-WebRtc_UWord8
+uint8_t
 *
 rtcpData
 size_t
@@ -1462,11 +1462,11 @@ RTCPUtility
 RTCPParseCommonHeader
 (
 const
-WebRtc_UWord8
+uint8_t
 *
 ptrDataBegin
 const
-WebRtc_UWord8
+uint8_t
 *
 ptrDataEnd
 RTCPCommonHeader
@@ -3426,7 +3426,7 @@ return
 false
 ;
 }
-WebRtc_UWord32
+uint32_t
 SSRC
 =
 *
@@ -3555,7 +3555,7 @@ _ptrRTCPBlockEnd
 )
 {
 const
-WebRtc_UWord8
+uint8_t
 tag
 =
 *
@@ -3614,7 +3614,7 @@ _ptrRTCPBlockEnd
 )
 {
 const
-WebRtc_UWord8
+uint8_t
 len
 =
 *
@@ -3664,7 +3664,7 @@ return
 false
 ;
 }
-WebRtc_UWord8
+uint8_t
 i
 =
 0
@@ -3682,7 +3682,7 @@ i
 )
 {
 const
-WebRtc_UWord8
+uint8_t
 c
 =
 _ptrRTCPData
@@ -4710,7 +4710,7 @@ return
 false
 ;
 }
-WebRtc_UWord8
+uint8_t
 blockType
 =
 *
@@ -4718,7 +4718,7 @@ _ptrRTCPData
 +
 +
 ;
-WebRtc_UWord8
+uint8_t
 typeSpecific
 =
 *
@@ -4726,7 +4726,7 @@ _ptrRTCPData
 +
 +
 ;
-WebRtc_UWord16
+uint16_t
 blockLength
 =
 *
@@ -6088,7 +6088,7 @@ _ptrRTCPData
 Skip
 RTCP
 header
-WebRtc_UWord32
+uint32_t
 senderSSRC
 =
 *
@@ -6129,7 +6129,7 @@ _ptrRTCPData
 +
 +
 ;
-WebRtc_UWord32
+uint32_t
 mediaSSRC
 =
 *
@@ -6977,7 +6977,7 @@ _packetType
 =
 kRtcpPsfbRpsiCode
 ;
-WebRtc_UWord8
+uint8_t
 paddingBits
 =
 *
@@ -7015,7 +7015,7 @@ RPSI
 .
 NumberOfValidBits
 =
-WebRtc_UWord16
+uint16_t
 (
 length
 -
@@ -7340,7 +7340,7 @@ _ptrRTCPData
 +
 ;
 const
-WebRtc_UWord8
+uint8_t
 brExp
 =
 (
@@ -7355,7 +7355,7 @@ _ptrRTCPData
 &
 0x3F
 ;
-WebRtc_UWord32
+uint32_t
 brMantissa
 =
 (
@@ -7664,7 +7664,7 @@ _ptrRTCPData
 +
 +
 ;
-WebRtc_UWord8
+uint8_t
 mxtbrExp
 =
 (
@@ -7679,7 +7679,7 @@ _ptrRTCPData
 &
 0x3F
 ;
-WebRtc_UWord32
+uint32_t
 mxtbrMantissa
 =
 (
@@ -7722,7 +7722,7 @@ _ptrRTCPData
 &
 0x7F
 ;
-WebRtc_UWord32
+uint32_t
 measuredOH
 =
 (
@@ -7902,7 +7902,7 @@ _ptrRTCPData
 +
 +
 ;
-WebRtc_UWord8
+uint8_t
 mxtbrExp
 =
 (
@@ -7917,7 +7917,7 @@ _ptrRTCPData
 &
 0x3F
 ;
-WebRtc_UWord32
+uint32_t
 mxtbrMantissa
 =
 (
@@ -7960,7 +7960,7 @@ _ptrRTCPData
 &
 0x7F
 ;
-WebRtc_UWord32
+uint32_t
 measuredOH
 =
 (
@@ -8257,7 +8257,7 @@ _packetType
 =
 kRtcpPsfbSliItemCode
 ;
-WebRtc_UWord32
+uint32_t
 buffer
 ;
 buffer
@@ -8306,7 +8306,7 @@ SLIItem
 .
 FirstMB
 =
-WebRtc_UWord16
+uint16_t
 (
 (
 buffer
@@ -8324,7 +8324,7 @@ SLIItem
 .
 NumberOfMB
 =
-WebRtc_UWord16
+uint16_t
 (
 (
 buffer
@@ -8342,7 +8342,7 @@ SLIItem
 .
 PictureId
 =
-WebRtc_UWord8
+uint8_t
 (
 buffer
 &
@@ -8559,7 +8559,7 @@ _ptrRTCPData
 Skip
 RTCP
 header
-WebRtc_UWord32
+uint32_t
 senderSSRC
 =
 *
@@ -8600,7 +8600,7 @@ _ptrRTCPData
 +
 +
 ;
-WebRtc_UWord32
+uint32_t
 name
 =
 *
@@ -8771,7 +8771,7 @@ APP
 Size
 =
 (
-WebRtc_UWord16
+uint16_t
 )
 length
 ;
@@ -8793,7 +8793,7 @@ RTCPPacketIterator
 :
 RTCPPacketIterator
 (
-WebRtc_UWord8
+uint8_t
 *
 rtcpData
 size_t

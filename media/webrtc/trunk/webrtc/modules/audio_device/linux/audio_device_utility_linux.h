@@ -122,7 +122,7 @@ public
 AudioDeviceUtilityLinux
 (
 const
-WebRtc_Word32
+int32_t
 id
 )
 ;
@@ -132,7 +132,7 @@ AudioDeviceUtilityLinux
 )
 ;
 virtual
-WebRtc_Word32
+int32_t
 Init
 (
 )
@@ -143,7 +143,7 @@ CriticalSectionWrapper
 &
 _critSect
 ;
-WebRtc_Word32
+int32_t
 _id
 ;
 }

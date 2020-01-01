@@ -176,7 +176,7 @@ VideoCaptureModule
 Create
 (
 const
-WebRtc_Word32
+int32_t
 id
 const
 char
@@ -232,7 +232,7 @@ VideoCaptureModule
 Create
 (
 const
-WebRtc_Word32
+int32_t
 id
 VideoCaptureExternal
 *
@@ -249,7 +249,7 @@ DeviceInfo
 CreateDeviceInfo
 (
 const
-WebRtc_Word32
+int32_t
 id
 )
 ;
@@ -257,7 +257,7 @@ id
 ifdef
 WEBRTC_ANDROID
 static
-WebRtc_Word32
+int32_t
 SetAndroidObjects
 (
 void

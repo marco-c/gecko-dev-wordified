@@ -275,7 +275,7 @@ this
 -
 -
 ;
-WebRtc_Word32
+int32_t
 ref_count
 =
 GetCount

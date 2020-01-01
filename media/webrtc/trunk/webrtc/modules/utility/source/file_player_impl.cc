@@ -105,13 +105,6 @@ WEBRTC_MODULE_UTILITY_VIDEO
 #
 include
 "
-cpu_wrapper
-.
-h
-"
-#
-include
-"
 frame_scaler
 .
 h
@@ -186,7 +179,7 @@ FilePlayer
 :
 CreateFilePlayer
 (
-WebRtc_UWord32
+uint32_t
 instanceID
 FileFormats
 fileFormat
@@ -301,7 +294,7 @@ FilePlayerImpl
 FilePlayerImpl
 (
 const
-WebRtc_UWord32
+uint32_t
 instanceID
 const
 FileFormats
@@ -381,7 +374,7 @@ _fileModule
 )
 ;
 }
-WebRtc_Word32
+int32_t
 FilePlayerImpl
 :
 :
@@ -501,7 +494,7 @@ plfreq
 ;
 }
 }
-WebRtc_Word32
+int32_t
 FilePlayerImpl
 :
 :
@@ -521,7 +514,7 @@ return
 0
 ;
 }
-WebRtc_Word32
+int32_t
 FilePlayerImpl
 :
 :
@@ -625,7 +618,7 @@ pull
 10
 ms
 .
-WebRtc_UWord32
+uint32_t
 lengthInBytes
 =
 sizeof
@@ -642,7 +635,7 @@ _fileModule
 PlayoutAudioData
 (
 (
-WebRtc_Word8
+int8_t
 *
 )
 unresampledAudioFrame
@@ -697,7 +690,7 @@ unresampledAudioFrame
 samples_per_channel_
 =
 (
-WebRtc_UWord16
+uint16_t
 )
 lengthInBytes
 >
@@ -754,13 +747,13 @@ proportionally
 less
 often
 .
-WebRtc_Word16
+int16_t
 encodedBuffer
 [
 MAX_AUDIO_BUFFER_IN_SAMPLES
 ]
 ;
-WebRtc_UWord32
+uint32_t
 encodedLengthInBytes
 =
 0
@@ -779,7 +772,7 @@ _numberOf10MsInDecoder
 =
 0
 ;
-WebRtc_UWord32
+uint32_t
 bytesFromFile
 =
 sizeof
@@ -794,7 +787,7 @@ _fileModule
 PlayoutAudioData
 (
 (
-WebRtc_Word8
+int8_t
 *
 )
 encodedBuffer
@@ -832,7 +825,7 @@ Decode
 unresampledAudioFrame
 frequencyInHz
 (
-WebRtc_Word8
+int8_t
 *
 )
 encodedBuffer
@@ -909,7 +902,7 @@ outLen
 *
 sizeof
 (
-WebRtc_Word16
+int16_t
 )
 )
 ;
@@ -968,7 +961,7 @@ i
 ]
 =
 (
-WebRtc_Word16
+int16_t
 )
 (
 outBuffer
@@ -990,7 +983,7 @@ return
 0
 ;
 }
-WebRtc_Word32
+int32_t
 FilePlayerImpl
 :
 :
@@ -1010,7 +1003,7 @@ callback
 )
 ;
 }
-WebRtc_Word32
+int32_t
 FilePlayerImpl
 :
 :
@@ -1072,7 +1065,7 @@ return
 1
 ;
 }
-WebRtc_Word32
+int32_t
 FilePlayerImpl
 :
 :
@@ -1084,13 +1077,13 @@ char
 fileName
 bool
 loop
-WebRtc_UWord32
+uint32_t
 startPosition
 float
 volumeScaling
-WebRtc_UWord32
+uint32_t
 notification
-WebRtc_UWord32
+uint32_t
 stopPosition
 const
 CodecInst
@@ -1465,7 +1458,7 @@ return
 0
 ;
 }
-WebRtc_Word32
+int32_t
 FilePlayerImpl
 :
 :
@@ -1474,13 +1467,13 @@ StartPlayingFile
 InStream
 &
 sourceStream
-WebRtc_UWord32
+uint32_t
 startPosition
 float
 volumeScaling
-WebRtc_UWord32
+uint32_t
 notification
-WebRtc_UWord32
+uint32_t
 stopPosition
 const
 CodecInst
@@ -1835,7 +1828,7 @@ return
 0
 ;
 }
-WebRtc_Word32
+int32_t
 FilePlayerImpl
 :
 :
@@ -1887,13 +1880,13 @@ IsPlaying
 )
 ;
 }
-WebRtc_Word32
+int32_t
 FilePlayerImpl
 :
 :
 GetPlayoutPosition
 (
-WebRtc_UWord32
+uint32_t
 &
 durationMs
 )
@@ -1907,7 +1900,7 @@ durationMs
 )
 ;
 }
-WebRtc_Word32
+int32_t
 FilePlayerImpl
 :
 :
@@ -2048,7 +2041,7 @@ VideoFilePlayerImpl
 :
 VideoFilePlayerImpl
 (
-WebRtc_UWord32
+uint32_t
 instanceID
 FileFormats
 fileFormat
@@ -2156,7 +2149,7 @@ delete
 _encodedData
 ;
 }
-WebRtc_Word32
+int32_t
 VideoFilePlayerImpl
 :
 :
@@ -2284,7 +2277,7 @@ return
 0
 ;
 }
-WebRtc_Word32
+int32_t
 VideoFilePlayerImpl
 :
 :
@@ -2317,7 +2310,7 @@ StopPlayingFile
 )
 ;
 }
-WebRtc_Word32
+int32_t
 VideoFilePlayerImpl
 :
 :
@@ -2326,9 +2319,9 @@ GetVideoFromFile
 I420VideoFrame
 &
 videoFrame
-WebRtc_UWord32
+uint32_t
 outWidth
-WebRtc_UWord32
+uint32_t
 outHeight
 )
 {
@@ -2338,7 +2331,7 @@ lock
 _critSec
 )
 ;
-WebRtc_Word32
+int32_t
 retVal
 =
 GetVideoFromFile
@@ -2385,7 +2378,7 @@ return
 retVal
 ;
 }
-WebRtc_Word32
+int32_t
 VideoFilePlayerImpl
 :
 :
@@ -2433,7 +2426,7 @@ return
 1
 ;
 }
-WebRtc_Word32
+int32_t
 retVal
 =
 0
@@ -2617,7 +2610,7 @@ _encodedData
 )
 ;
 }
-WebRtc_Word64
+int64_t
 renderTimeMs
 =
 TickTime
@@ -2678,7 +2671,7 @@ return
 retVal
 ;
 }
-WebRtc_Word32
+int32_t
 VideoFilePlayerImpl
 :
 :
@@ -2724,7 +2717,7 @@ return
 0
 ;
 }
-WebRtc_Word32
+int32_t
 VideoFilePlayerImpl
 :
 :
@@ -2798,7 +2791,7 @@ Get
 next
 video
 frame
-WebRtc_UWord32
+uint32_t
 encodedBufferLengthInBytes
 =
 _encodedData
@@ -2813,7 +2806,7 @@ PlayoutAVIVideoData
 (
 reinterpret_cast
 <
-WebRtc_Word8
+int8_t
 *
 >
 (
@@ -2966,7 +2959,7 @@ this
 every
 second
 .
-WebRtc_UWord32
+uint32_t
 rest
 =
 1000
@@ -2987,7 +2980,7 @@ _frameLengthMS
 }
 }
 }
-WebRtc_Word64
+int64_t
 timeToNextFrame
 ;
 if
@@ -3079,14 +3072,14 @@ return
 return
 static_cast
 <
-WebRtc_Word32
+int32_t
 >
 (
 timeToNextFrame
 )
 ;
 }
-WebRtc_Word32
+int32_t
 VideoFilePlayerImpl
 :
 :
@@ -3137,7 +3130,7 @@ return
 1
 ;
 }
-WebRtc_Word32
+int32_t
 useNumberOfCores
 =
 1
@@ -3215,7 +3208,7 @@ a
 file
 .
 const
-WebRtc_UWord32
+uint32_t
 KReadBufferSize
 =
 3

@@ -384,7 +384,7 @@ vectors
 void
 WebRtcIlbcfix_Interpolate
 (
-WebRtc_Word16
+int16_t
 *
 out
 /
@@ -396,7 +396,7 @@ output
 vector
 *
 /
-WebRtc_Word16
+int16_t
 *
 in1
 /
@@ -409,7 +409,7 @@ input
 vector
 *
 /
-WebRtc_Word16
+int16_t
 *
 in2
 /
@@ -422,7 +422,7 @@ input
 vector
 *
 /
-WebRtc_Word16
+int16_t
 coef
 /
 *
@@ -435,7 +435,7 @@ in
 Q14
 *
 /
-WebRtc_Word16
+int16_t
 length
 )
 /
@@ -454,7 +454,7 @@ vectors
 int
 i
 ;
-WebRtc_Word16
+int16_t
 invcoef
 ;
 /
@@ -529,7 +529,7 @@ i
 ]
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_RSHIFT_W32
 (

@@ -383,7 +383,7 @@ instance
 -
 *
 /
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_InitEncode
 (
 /
@@ -411,7 +411,7 @@ Encoder
 instance
 *
 /
-WebRtc_Word16
+int16_t
 mode
 )
 {

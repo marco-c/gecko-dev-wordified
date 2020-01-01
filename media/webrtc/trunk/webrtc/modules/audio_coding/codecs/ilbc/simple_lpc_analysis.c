@@ -409,7 +409,7 @@ LPCencode
 void
 WebRtcIlbcfix_SimpleLpcAnalysis
 (
-WebRtc_Word16
+int16_t
 *
 lsf
 /
@@ -421,7 +421,7 @@ lsf
 coefficients
 *
 /
-WebRtc_Word16
+int16_t
 *
 data
 /
@@ -459,10 +459,10 @@ k
 int
 scale
 ;
-WebRtc_Word16
+int16_t
 is
 ;
-WebRtc_Word16
+int16_t
 stability
 ;
 /
@@ -471,7 +471,7 @@ Stack
 based
 *
 /
-WebRtc_Word16
+int16_t
 A
 [
 LPC_FILTERORDER
@@ -479,7 +479,7 @@ LPC_FILTERORDER
 1
 ]
 ;
-WebRtc_Word32
+int32_t
 R
 [
 LPC_FILTERORDER
@@ -487,13 +487,13 @@ LPC_FILTERORDER
 1
 ]
 ;
-WebRtc_Word16
+int16_t
 windowedData
 [
 BLOCKL_MAX
 ]
 ;
-WebRtc_Word16
+int16_t
 rc
 [
 LPC_FILTERORDER
@@ -782,7 +782,7 @@ WebRtcIlbcfix_BwExpand
 A
 A
 (
-WebRtc_Word16
+int16_t
 *
 )
 WebRtcIlbcfix_kLpcChirpSyntDenum

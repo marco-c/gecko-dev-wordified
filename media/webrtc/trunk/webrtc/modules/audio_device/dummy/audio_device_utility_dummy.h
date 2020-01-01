@@ -122,7 +122,7 @@ public
 AudioDeviceUtilityDummy
 (
 const
-WebRtc_Word32
+int32_t
 id
 )
 {
@@ -134,7 +134,7 @@ AudioDeviceUtilityDummy
 {
 }
 virtual
-WebRtc_Word32
+int32_t
 Init
 (
 )

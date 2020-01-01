@@ -419,11 +419,11 @@ Module
 methods
 .
 virtual
-WebRtc_Word32
+int32_t
 ChangeUniqueId
 (
 const
-WebRtc_Word32
+int32_t
 id
 )
 ;

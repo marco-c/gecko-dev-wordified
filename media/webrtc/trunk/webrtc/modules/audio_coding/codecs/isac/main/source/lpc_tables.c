@@ -119,7 +119,7 @@ indicator
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQKltModelCdf
 [
 4
@@ -144,7 +144,7 @@ indicator
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsac_kQKltModelCdfPtr
 [
@@ -168,7 +168,7 @@ indicator
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQKltModelInitIndex
 [
 1
@@ -339,7 +339,7 @@ index
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQKltMaxIndGain
 [
 12
@@ -361,7 +361,7 @@ WebRtcIsac_kQKltMaxIndGain
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQKltMaxIndShape
 [
 108
@@ -485,7 +485,7 @@ offset
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQKltOffsetGain
 [
 12
@@ -507,7 +507,7 @@ WebRtcIsac_kQKltOffsetGain
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQKltOffsetShape
 [
 108
@@ -635,7 +635,7 @@ coefficients
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQKltInitIndexGain
 [
 12
@@ -657,7 +657,7 @@ WebRtcIsac_kQKltInitIndexGain
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQKltInitIndexShape
 [
 108
@@ -4210,7 +4210,7 @@ indices
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQKltCdfGain
 [
 404
@@ -4624,7 +4624,7 @@ WebRtcIsac_kQKltCdfGain
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQKltCdfShape
 [
 686
@@ -5331,7 +5331,7 @@ indices
 *
 /
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsac_kQKltCdfPtrGain
 [
@@ -5402,7 +5402,7 @@ WebRtcIsac_kQKltCdfGain
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsac_kQKltCdfPtrShape
 [

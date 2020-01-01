@@ -358,7 +358,7 @@ arr_time
 float
 time
 ;
-WebRtc_UWord32
+uint32_t
 ix
 ;
 }
@@ -494,10 +494,10 @@ kRtpDumpHeaderSize
 +
 2
 ;
-WebRtc_UWord16
+uint16_t
 len
 ;
-WebRtc_UWord32
+uint32_t
 *
 offset
 ;
@@ -1121,7 +1121,7 @@ Npack
 len
 =
 (
-WebRtc_UWord16
+uint16_t
 )
 fread
 (
@@ -1161,7 +1161,7 @@ ntohs
 *
 (
 (
-WebRtc_UWord16
+uint16_t
 *
 )
 (
@@ -1240,7 +1240,7 @@ Npack
 len
 =
 (
-WebRtc_UWord16
+uint16_t
 )
 fread
 (
@@ -1311,7 +1311,7 @@ ntohs
 *
 (
 (
-WebRtc_UWord16
+uint16_t
 *
 )
 packet_ptr
@@ -1399,7 +1399,7 @@ ix
 offset
 =
 (
-WebRtc_UWord32
+uint32_t
 *
 )
 (
@@ -1427,7 +1427,7 @@ offset
 htonl
 (
 (
-WebRtc_UWord32
+uint32_t
 )
 time_vec
 [
@@ -1446,7 +1446,7 @@ offset
 htonl
 (
 (
-WebRtc_UWord32
+uint32_t
 )
 0
 )
@@ -1494,7 +1494,7 @@ ntohs
 *
 (
 (
-WebRtc_UWord16
+uint16_t
 *
 )
 temp_packet
@@ -1509,7 +1509,7 @@ ntohs
 *
 (
 (
-WebRtc_UWord16
+uint16_t
 *
 )
 temp_packet

@@ -160,7 +160,11 @@ crit
 ;
 friend
 class
-ConditionVariableWindows
+ConditionVariableEventWin
+;
+friend
+class
+ConditionVariableNativeWin
 ;
 }
 ;

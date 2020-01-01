@@ -125,7 +125,7 @@ h
 int
 WebRtcNetEQ_RTPPayloadInfo
 (
-WebRtc_Word16
+int16_t
 *
 pw16_Datagram
 int
@@ -196,7 +196,7 @@ i_IPver
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 (
 pw16_Datagram
@@ -224,7 +224,7 @@ i_P
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 (
 pw16_Datagram
@@ -253,7 +253,7 @@ i_X
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 (
 pw16_Datagram
@@ -281,7 +281,7 @@ i_CC
 =
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 (
 pw16_Datagram
@@ -351,11 +351,11 @@ timeStamp
 (
 (
 (
-WebRtc_UWord32
+uint32_t
 )
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_Datagram
 [
@@ -369,7 +369,7 @@ pw16_Datagram
 )
 |
 (
-WebRtc_UWord16
+uint16_t
 )
 (
 pw16_Datagram
@@ -393,7 +393,7 @@ ssrc
 (
 (
 (
-WebRtc_UWord32
+uint32_t
 )
 pw16_Datagram
 [
@@ -408,7 +408,7 @@ pw16_Datagram
 (
 (
 (
-WebRtc_UWord32
+uint32_t
 )
 pw16_Datagram
 [
@@ -442,7 +442,7 @@ Find
 out
 how
 many
-WebRtc_Word32
+int32_t
 it
 consists
 of
@@ -513,7 +513,7 @@ i_padlength
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_Datagram
 [
@@ -580,7 +580,7 @@ i_IPver
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 (
 pw16_Datagram
@@ -609,7 +609,7 @@ i_P
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 (
 pw16_Datagram
@@ -638,7 +638,7 @@ i_X
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 (
 pw16_Datagram
@@ -665,7 +665,7 @@ bit
 i_CC
 =
 (
-WebRtc_UWord16
+uint16_t
 )
 (
 pw16_Datagram
@@ -719,7 +719,7 @@ seqNumber
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_Datagram
 [
@@ -737,7 +737,7 @@ pw16_Datagram
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 (
 pw16_Datagram
@@ -771,7 +771,7 @@ timeStamp
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_Datagram
 [
@@ -790,7 +790,7 @@ pw16_Datagram
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_Datagram
 [
@@ -809,7 +809,7 @@ pw16_Datagram
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_Datagram
 [
@@ -828,7 +828,7 @@ pw16_Datagram
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_Datagram
 [
@@ -858,7 +858,7 @@ ssrc
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_Datagram
 [
@@ -877,7 +877,7 @@ pw16_Datagram
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_Datagram
 [
@@ -896,7 +896,7 @@ pw16_Datagram
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_Datagram
 [
@@ -915,7 +915,7 @@ pw16_Datagram
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_Datagram
 [
@@ -955,7 +955,7 @@ Find
 out
 how
 many
-WebRtc_Word32
+int32_t
 it
 consists
 of
@@ -969,7 +969,7 @@ i_extlength
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_Datagram
 [
@@ -991,7 +991,7 @@ i_CC
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 (
 pw16_Datagram
@@ -1097,7 +1097,7 @@ i_padlength
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_Datagram
 [
@@ -1241,7 +1241,7 @@ i_No_Of_Payloads
 )
 {
 const
-WebRtc_Word16
+int16_t
 *
 pw16_data
 =
@@ -1261,7 +1261,7 @@ the
 data
 *
 /
-WebRtc_UWord16
+uint16_t
 uw16_offsetTimeStamp
 =
 65535
@@ -1353,7 +1353,7 @@ payloadType
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_data
 [
@@ -1443,7 +1443,7 @@ i_discardedBlockLength
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_data
 [
@@ -1529,7 +1529,7 @@ uw16_secondPayload
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_data
 [
@@ -1556,7 +1556,7 @@ payloadType
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_data
 [
@@ -1577,7 +1577,7 @@ uw16_offsetTimeStamp
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_data
 [
@@ -1596,7 +1596,7 @@ pw16_data
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_data
 [
@@ -1616,7 +1616,7 @@ i_blockLength
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_data
 [
@@ -1701,7 +1701,7 @@ payloadType
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_data
 [
@@ -1788,7 +1788,7 @@ i_discardedBlockLength
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_data
 [
@@ -1807,7 +1807,7 @@ pw16_data
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_data
 [
@@ -1897,7 +1897,7 @@ uw16_secondPayload
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_data
 [
@@ -1919,7 +1919,7 @@ payloadType
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_data
 [
@@ -1936,7 +1936,7 @@ uw16_offsetTimeStamp
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_data
 [
@@ -1955,7 +1955,7 @@ pw16_data
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_data
 [
@@ -1976,7 +1976,7 @@ i_blockLength
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_data
 [
@@ -1995,7 +1995,7 @@ pw16_data
 (
 (
 (
-WebRtc_UWord16
+uint16_t
 )
 pw16_data
 [

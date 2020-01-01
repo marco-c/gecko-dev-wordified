@@ -383,7 +383,7 @@ function
 void
 WebRtcIlbcfix_EncodeImpl
 (
-WebRtc_UWord16
+uint16_t
 *
 bytes
 /
@@ -398,7 +398,7 @@ iLBC
 *
 /
 const
-WebRtc_Word16
+int16_t
 *
 block
 /

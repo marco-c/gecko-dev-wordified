@@ -261,7 +261,7 @@ h
 void
 WebRtcIlbcfix_Poly2Lsf
 (
-WebRtc_Word16
+int16_t
 *
 lsf
 /
@@ -276,7 +276,7 @@ Q13
 )
 *
 /
-WebRtc_Word16
+int16_t
 *
 a
 /
@@ -293,7 +293,7 @@ Q12
 /
 )
 {
-WebRtc_Word16
+int16_t
 lsp
 [
 10
@@ -304,7 +304,7 @@ WebRtcIlbcfix_Poly2Lsp
 a
 lsp
 (
-WebRtc_Word16
+int16_t
 *
 )
 WebRtcIlbcfix_kLspMean

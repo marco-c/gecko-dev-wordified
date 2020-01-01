@@ -389,7 +389,7 @@ easier
 void
 WebRtcIlbcfix_IndexConvEnc
 (
-WebRtc_Word16
+int16_t
 *
 index
 /

@@ -160,7 +160,7 @@ int
 ExternalRecordingInsertData
 (
 const
-WebRtc_Word16
+int16_t
 speechData10ms
 [
 ]
@@ -176,7 +176,7 @@ virtual
 int
 ExternalPlayoutGetData
 (
-WebRtc_Word16
+int16_t
 speechData10ms
 [
 ]
@@ -232,9 +232,14 @@ VoEExternalMediaImpl
 ;
 private
 :
+#
+ifdef
+WEBRTC_VOE_EXTERNAL_REC_AND_PLAYOUT
 int
 playout_delay_ms_
 ;
+#
+endif
 voe
 :
 :

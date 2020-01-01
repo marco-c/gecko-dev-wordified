@@ -565,7 +565,7 @@ tmp
 void
 WebRtcIlbcfix_GetLspPoly
 (
-WebRtc_Word16
+int16_t
 *
 lsp
 /
@@ -578,7 +578,7 @@ in
 Q15
 *
 /
-WebRtc_Word32
+int32_t
 *
 f
 )

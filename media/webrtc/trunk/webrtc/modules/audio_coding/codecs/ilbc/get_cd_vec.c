@@ -395,7 +395,7 @@ index
 void
 WebRtcIlbcfix_GetCbVec
 (
-WebRtc_Word16
+int16_t
 *
 cbvec
 /
@@ -408,7 +408,7 @@ codebook
 vector
 *
 /
-WebRtc_Word16
+int16_t
 *
 mem
 /
@@ -420,7 +420,7 @@ Codebook
 buffer
 *
 /
-WebRtc_Word16
+int16_t
 index
 /
 *
@@ -431,7 +431,7 @@ Codebook
 index
 *
 /
-WebRtc_Word16
+int16_t
 lMem
 /
 *
@@ -444,7 +444,7 @@ codebook
 buffer
 *
 /
-WebRtc_Word16
+int16_t
 cbveclen
 /
 *
@@ -458,11 +458,11 @@ length
 /
 )
 {
-WebRtc_Word16
+int16_t
 k
 base_size
 ;
-WebRtc_Word16
+int16_t
 lag
 ;
 /
@@ -471,7 +471,7 @@ Stack
 based
 *
 /
-WebRtc_Word16
+int16_t
 tempbuff2
 [
 SUBL
@@ -586,7 +586,7 @@ lag
 k
 =
 (
-WebRtc_Word16
+int16_t
 )
 WEBRTC_SPL_MUL_16_16
 (
@@ -636,7 +636,7 @@ filtering
 /
 else
 {
-WebRtc_Word16
+int16_t
 memIndTest
 ;
 /
@@ -726,7 +726,7 @@ memIndTest
 ]
 cbvec
 (
-WebRtc_Word16
+int16_t
 *
 )
 WebRtcIlbcfix_kCbFiltersRev
@@ -786,13 +786,13 @@ memIndTest
 ]
 tempbuff2
 (
-WebRtc_Word16
+int16_t
 *
 )
 WebRtcIlbcfix_kCbFiltersRev
 CB_FILTERLEN
 (
-WebRtc_Word16
+int16_t
 )
 (
 cbveclen

@@ -111,7 +111,7 @@ ChannelManager
 ChannelManager
 (
 const
-WebRtc_UWord32
+uint32_t
 instanceId
 )
 :
@@ -146,7 +146,7 @@ ChannelManager
 :
 CreateChannel
 (
-WebRtc_Word32
+int32_t
 &
 channelId
 )
@@ -161,14 +161,14 @@ channelId
 )
 ;
 }
-WebRtc_Word32
+int32_t
 ChannelManager
 :
 :
 DestroyChannel
 (
 const
-WebRtc_Word32
+int32_t
 channelId
 )
 {
@@ -209,7 +209,7 @@ return
 0
 ;
 }
-WebRtc_Word32
+int32_t
 ChannelManager
 :
 :
@@ -227,7 +227,7 @@ NumOfItems
 )
 ;
 }
-WebRtc_Word32
+int32_t
 ChannelManager
 :
 :
@@ -252,7 +252,7 @@ ChannelManager
 :
 NewItem
 (
-WebRtc_Word32
+int32_t
 itemID
 )
 {
@@ -328,7 +328,7 @@ ChannelManager
 GetChannel
 (
 const
-WebRtc_Word32
+int32_t
 channelId
 )
 const
@@ -372,10 +372,10 @@ ChannelManager
 :
 GetChannelIds
 (
-WebRtc_Word32
+int32_t
 *
 channelsArray
-WebRtc_Word32
+int32_t
 &
 numOfChannels
 )
@@ -494,7 +494,7 @@ ScopedChannel
 ChannelManager
 &
 chManager
-WebRtc_Word32
+int32_t
 channelId
 )
 :

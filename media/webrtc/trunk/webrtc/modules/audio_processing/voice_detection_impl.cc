@@ -305,7 +305,7 @@ samples_per_split_channel
 160
 )
 ;
-WebRtc_Word16
+int16_t
 *
 mixed_data
 =

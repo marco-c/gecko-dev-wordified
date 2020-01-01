@@ -666,15 +666,6 @@ timestamp
 )
 ;
 int
-GetEncodedFrame
-(
-const
-I420VideoFrame
-&
-input_image
-)
-;
-int
 GetEncodedPartitions
 (
 const

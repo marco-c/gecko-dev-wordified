@@ -148,6 +148,8 @@ pl_type
 VideoEncoder
 *
 encoder
+bool
+internal_source
 )
 =
 0

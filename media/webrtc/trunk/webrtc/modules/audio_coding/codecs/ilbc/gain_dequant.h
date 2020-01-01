@@ -390,7 +390,7 @@ residual
 -
 *
 /
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_GainDequant
 (
 /
@@ -406,7 +406,7 @@ Q14
 )
 *
 /
-WebRtc_Word16
+int16_t
 index
 /
 *
@@ -417,7 +417,7 @@ quantization
 index
 *
 /
-WebRtc_Word16
+int16_t
 maxIn
 /
 *
@@ -433,7 +433,7 @@ Q14
 )
 *
 /
-WebRtc_Word16
+int16_t
 stage
 /
 *

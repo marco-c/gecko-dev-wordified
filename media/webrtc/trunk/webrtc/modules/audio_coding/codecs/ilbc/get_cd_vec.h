@@ -239,7 +239,7 @@ WEBRTC_MODULES_AUDIO_CODING_CODECS_ILBC_MAIN_SOURCE_GET_CD_VEC_H_
 void
 WebRtcIlbcfix_GetCbVec
 (
-WebRtc_Word16
+int16_t
 *
 cbvec
 /
@@ -252,7 +252,7 @@ codebook
 vector
 *
 /
-WebRtc_Word16
+int16_t
 *
 mem
 /
@@ -264,7 +264,7 @@ Codebook
 buffer
 *
 /
-WebRtc_Word16
+int16_t
 index
 /
 *
@@ -275,7 +275,7 @@ Codebook
 index
 *
 /
-WebRtc_Word16
+int16_t
 lMem
 /
 *
@@ -288,7 +288,7 @@ codebook
 buffer
 *
 /
-WebRtc_Word16
+int16_t
 cbveclen
 /
 *

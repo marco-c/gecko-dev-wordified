@@ -180,7 +180,7 @@ VoiceEngineImpl
 *
 s
 =
-reinterpret_cast
+static_cast
 <
 VoiceEngineImpl
 *
