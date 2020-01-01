@@ -440,10 +440,10 @@ BLOCK
 /
 #
 ifndef
-__nanojit_NativeARM__
+__nanojit_NativeArm__
 #
 define
-__nanojit_NativeARM__
+__nanojit_NativeArm__
 #
 ifdef
 PERFM
@@ -11119,4 +11119,4 @@ while
 endif
 /
 /
-__nanojit_NativeARM__
+__nanojit_NativeThumb__
