@@ -755,6 +755,8 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
+eListControl
+|
 eSelect
 kNoReqStates
 eARIAMultiSelectable
