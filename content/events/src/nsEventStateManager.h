@@ -516,6 +516,13 @@ nsIFrame
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsIScrollableView
 ;
@@ -600,7 +607,7 @@ nsEventStateManager
 (
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIOBSERVER
 NS_IMETHOD
 Init
@@ -1020,6 +1027,11 @@ sUserInputEventDepth
 0
 ;
 }
+NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
+(
+nsEventStateManager
+nsIEventStateManager
+)
 protected
 :
 /
