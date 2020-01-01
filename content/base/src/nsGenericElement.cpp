@@ -10130,6 +10130,11 @@ MOZ_SMIL
 else
 if
 (
+NS_SMILEnabled
+(
+)
+&
+&
 PL_strcasecmp
 (
 f
