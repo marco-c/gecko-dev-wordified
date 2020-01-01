@@ -3414,15 +3414,12 @@ arguments
 .
 masm
 .
-ma_push
+pushCalleeToken
 (
 r1
+mode
 )
 ;
-/
-/
-calleeToken
-.
 masm
 .
 ma_push
