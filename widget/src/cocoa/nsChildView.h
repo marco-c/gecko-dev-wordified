@@ -2888,13 +2888,6 @@ nsTransparencyMode
 aMode
 )
 ;
-NS_IMETHOD
-SetWindowShadowStyle
-(
-PRInt32
-aStyle
-)
-;
 /
 /
 Mac
