@@ -2140,6 +2140,8 @@ WPARAM
 wParam
 LPARAM
 lParam
+HWND
+aWnd
 )
 {
 MSG
@@ -2162,6 +2164,12 @@ msg
 lParam
 =
 lParam
+;
+msg
+.
+hwnd
+=
+aWnd
 ;
 return
 msg

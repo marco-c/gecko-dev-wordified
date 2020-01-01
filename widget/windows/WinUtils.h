@@ -1433,6 +1433,8 @@ WPARAM
 wParam
 LPARAM
 lParam
+HWND
+aWnd
 )
 ;
 /
