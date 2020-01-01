@@ -11500,10 +11500,6 @@ opportunity
 /
 JS_ATOMIC_CLEAR_MASK
 (
-(
-jsword
-*
-)
 &
 JS_THREAD_DATA
 (

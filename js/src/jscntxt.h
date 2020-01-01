@@ -7255,14 +7255,8 @@ ordering
 /
 JS_ATOMIC_SET_MASK
 (
-(
-jsword
-*
-)
-(
 &
 interruptFlags
-)
 INTERRUPT_OPERATION_CALLBACK
 )
 ;
