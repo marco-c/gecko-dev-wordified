@@ -67974,6 +67974,14 @@ all
 the
 callback
 interfaces
+.
+Again
+skip
+        
+#
+worker
+callbacks
+.
         
 cgthings
 .
@@ -67988,6 +67996,12 @@ for
 x
 in
 callbackDescriptors
+if
+                         
+not
+x
+.
+workers
 ]
 )
         
