@@ -1587,6 +1587,13 @@ defined
 (
 CHROMIUM_MOZILLA_BUILD
 )
+&
+&
+!
+defined
+(
+OS_MACOSX
+)
 protected
 :
 #

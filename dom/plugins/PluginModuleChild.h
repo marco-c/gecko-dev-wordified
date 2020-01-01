@@ -992,7 +992,7 @@ the
 plugin
 #
 ifdef
-OS_LINUX
+OS_POSIX
 NP_PLUGINUNIXINIT
 mInitializeFunc
 ;

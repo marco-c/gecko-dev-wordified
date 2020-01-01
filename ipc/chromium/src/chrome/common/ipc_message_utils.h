@@ -1490,6 +1490,13 @@ if
 (
 defined
 (
+OS_MACOSX
+)
+|
+|
+(
+defined
+(
 CHROMIUM_MOZILLA_BUILD
 )
 &
@@ -1503,6 +1510,7 @@ OS_LINUX
 defined
 (
 ARCH_CPU_64_BITS
+)
 )
 )
 /
@@ -1619,7 +1627,12 @@ p
 }
 ;
 #
-else
+elif
+!
+defined
+(
+OS_MACOSX
+)
 /
 /
 .
