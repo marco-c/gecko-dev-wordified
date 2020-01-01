@@ -3349,6 +3349,7 @@ JS_ASSERT
 (
 nslots
 >
+=
 2
 )
 ;
