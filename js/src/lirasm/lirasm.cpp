@@ -659,7 +659,6 @@ getTops
 (
 LIns
 *
-guard
 int
 &
 spTop
@@ -2703,10 +2702,8 @@ dump_srecords
 (
 ostream
 &
-out
 Fragment
 *
-frag
 )
 {
 /
@@ -3415,11 +3412,6 @@ exit
 1
 )
 ;
-exit
-(
-1
-)
-;
 }
 void
 FragmentAssembler
@@ -3876,8 +3868,6 @@ mParent
 mAlloc
 )
 CallInfo
-(
-)
 ;
 mCallInfos
 .
@@ -4391,6 +4381,10 @@ type
 from
 opcode
 .
+ty
+=
+0
+;
 if
 (
 mOpcode
@@ -4576,8 +4570,6 @@ mParent
 mAlloc
 )
 GuardRecord
-(
-)
 ;
 memset
 (
@@ -7021,11 +7013,8 @@ void
 f_N_IQF
 (
 int32_t
-a
 uint64_t
-b
 double
-c
 )
 {
 return
@@ -9588,9 +9577,14 @@ mLir
 insImm
 (
 -
+(
+(
+int32_t
+)
 rnd
 (
 99
+)
 )
 -
 2
@@ -13059,7 +13053,7 @@ case
 RT_FLOAT
 :
 {
-float
+double
 res
 =
 i
