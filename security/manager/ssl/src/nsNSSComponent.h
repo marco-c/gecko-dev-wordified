@@ -193,13 +193,6 @@ nsWeakReference
 h
 "
 #
-include
-"
-nsIScriptSecurityManager
-.
-h
-"
-#
 ifndef
 MOZ_DISABLE_CRYPTOLEGACY
 #
@@ -1576,12 +1569,6 @@ DoProfileChangeNetRestore
 ;
 Mutex
 mutex
-;
-nsCOMPtr
-<
-nsIScriptSecurityManager
->
-mScriptSecurityManager
 ;
 nsCOMPtr
 <
