@@ -558,6 +558,8 @@ PRUint32
 aRunStart
 PRUint32
 aRunLength
+PRInt32
+aRunScript
 )
 ;
 SCRIPT_CACHE
