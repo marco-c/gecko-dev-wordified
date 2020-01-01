@@ -2601,7 +2601,7 @@ JSVAL_VOID
 ;
 if
 (
-JS_ObjectIsCallable
+JS_ObjectIsFunction
 (
 ctx
 object
@@ -2755,7 +2755,7 @@ funval
 ;
 NS_ENSURE_STATE
 (
-JS_ObjectIsCallable
+JS_ObjectIsFunction
 (
 ctx
 funobject
