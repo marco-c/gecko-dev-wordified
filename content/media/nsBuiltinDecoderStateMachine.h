@@ -980,6 +980,13 @@ mozilla
 VideoSegment
 VideoSegment
 ;
+typedef
+mozilla
+:
+:
+MediaDecoderOwner
+MediaDecoderOwner
+;
 nsBuiltinDecoderStateMachine
 (
 nsBuiltinDecoder
@@ -1293,7 +1300,7 @@ mAudioThread
 )
 ;
 }
-nsBuiltinDecoder
+MediaDecoderOwner
 :
 :
 NextFrameStatus

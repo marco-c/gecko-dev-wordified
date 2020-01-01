@@ -672,6 +672,13 @@ nsOggCodecState
 {
 public
 :
+typedef
+mozilla
+:
+:
+MetadataTags
+MetadataTags
+;
 /
 /
 Ogg

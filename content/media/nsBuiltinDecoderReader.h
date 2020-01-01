@@ -2051,6 +2051,13 @@ mozilla
 AudioDataValue
 AudioDataValue
 ;
+typedef
+mozilla
+:
+:
+MetadataTags
+MetadataTags
+;
 nsBuiltinDecoderReader
 (
 nsBuiltinDecoder
