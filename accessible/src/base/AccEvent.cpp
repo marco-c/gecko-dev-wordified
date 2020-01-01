@@ -2742,15 +2742,13 @@ aTarget
 nsINode
 *
 aTargetNode
-EIsFromUserInput
-aIsFromUserInput
 )
 :
 AccEvent
 (
 aEventType
 aTarget
-aIsFromUserInput
+eAutoDetect
 eCoalesceFromSameSubtree
 )
 {
@@ -2933,8 +2931,6 @@ aTarget
 nsINode
 *
 aTargetNode
-EIsFromUserInput
-aIsFromUserInput
 )
 :
 AccMutationEvent
@@ -2947,7 +2943,6 @@ nsIAccessibleEvent
 EVENT_HIDE
 aTarget
 aTargetNode
-aIsFromUserInput
 )
 {
 mParent
@@ -3152,8 +3147,6 @@ aTarget
 nsINode
 *
 aTargetNode
-EIsFromUserInput
-aIsFromUserInput
 )
 :
 AccMutationEvent
@@ -3166,7 +3159,6 @@ nsIAccessibleEvent
 EVENT_SHOW
 aTarget
 aTargetNode
-aIsFromUserInput
 )
 {
 }
