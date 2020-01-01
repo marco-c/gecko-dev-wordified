@@ -759,7 +759,6 @@ p
 endif
 #
 if
-(
 defined
 _WIN32
 &
@@ -767,11 +766,6 @@ _WIN32
 !
 defined
 WINCE
-)
-|
-|
-defined
-SUNOS4
 #
 define
 fd_acos
