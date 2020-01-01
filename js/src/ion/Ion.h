@@ -742,7 +742,7 @@ inlined
 Default
 :
 10
-000
+240
 uint32
 usesBeforeInlining
 ;
@@ -808,7 +808,7 @@ usesBeforeCompile
 )
 usesBeforeInlining
 (
-10000
+10240
 )
 {
 }
