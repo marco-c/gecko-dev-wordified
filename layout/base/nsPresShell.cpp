@@ -16595,6 +16595,7 @@ aForward
 :
 -
 1
+NS_VMREFRESH_SMOOTHSCROLL
 )
 ;
 }
@@ -16670,6 +16671,7 @@ aForward
 :
 -
 2
+NS_VMREFRESH_SMOOTHSCROLL
 )
 ;
 #
@@ -16686,6 +16688,7 @@ aForward
 :
 -
 1
+NS_VMREFRESH_SMOOTHSCROLL
 )
 ;
 #
@@ -16811,6 +16814,7 @@ aLeft
 :
 1
 0
+NS_VMREFRESH_SMOOTHSCROLL
 )
 ;
 /

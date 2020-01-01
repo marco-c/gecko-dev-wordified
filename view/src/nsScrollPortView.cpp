@@ -1569,7 +1569,11 @@ if
 (
 aUpdateFlags
 &
+(
 NS_VMREFRESH_DEFERRED
+|
+NS_VMREFRESH_SMOOTHSCROLL
+)
 )
 )
 {
