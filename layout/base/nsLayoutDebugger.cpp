@@ -965,9 +965,6 @@ default
 break
 ;
 }
-nscolor
-color
-;
 fprintf
 (
 aOutput
@@ -1052,8 +1049,6 @@ i
 IsUniform
 (
 aBuilder
-&
-color
 )
 ?
 "
