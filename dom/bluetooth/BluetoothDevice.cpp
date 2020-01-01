@@ -158,13 +158,6 @@ h
 #
 include
 "
-BluetoothServiceUuid
-.
-h
-"
-#
-include
-"
 nsIDOMDOMRequest
 .
 h

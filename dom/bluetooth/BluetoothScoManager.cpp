@@ -144,13 +144,6 @@ h
 #
 include
 "
-BluetoothServiceUuid
-.
-h
-"
-#
-include
-"
 BluetoothUtils
 .
 h
