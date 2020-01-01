@@ -1203,7 +1203,9 @@ execute
 JSContext
 *
 cx
-StableCharPtr
+const
+jschar
+*
 chars
 size_t
 length
@@ -1237,7 +1239,9 @@ executeMatchOnly
 JSContext
 *
 cx
-StableCharPtr
+const
+jschar
+*
 chars
 size_t
 length
@@ -2079,7 +2083,9 @@ cx
 RegExpStatics
 *
 res
-StableCharPtr
+const
+jschar
+*
 chars
 size_t
 length
@@ -2101,7 +2107,9 @@ createNoStatics
 JSContext
 *
 cx
-StableCharPtr
+const
+jschar
+*
 chars
 size_t
 length

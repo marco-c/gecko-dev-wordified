@@ -2614,7 +2614,9 @@ const
 CompileOptions
 &
 options
-StableCharPtr
+const
+jschar
+*
 base
 size_t
 length

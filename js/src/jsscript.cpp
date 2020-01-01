@@ -7821,7 +7821,9 @@ setSourceCopy
 JSContext
 *
 cx
-StableCharPtr
+const
+jschar
+*
 src
 uint32_t
 length
@@ -7880,10 +7882,6 @@ tok
 chars
 =
 src
-.
-get
-(
-)
 ;
 cx
 -
@@ -7925,10 +7923,6 @@ data
 .
 source
 src
-.
-get
-(
-)
 length_
 )
 ;

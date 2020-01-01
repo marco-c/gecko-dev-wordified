@@ -25219,6 +25219,10 @@ env
 frame
 options
 chars
+.
+get
+(
+)
 length
 /
 *

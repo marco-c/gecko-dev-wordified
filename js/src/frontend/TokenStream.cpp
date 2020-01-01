@@ -715,7 +715,9 @@ const
 CompileOptions
 &
 options
-StableCharPtr
+const
+jschar
+*
 base
 size_t
 length
@@ -745,10 +747,6 @@ flags
 linebase
 (
 base
-.
-get
-(
-)
 )
 prevLinebase
 (
@@ -757,10 +755,6 @@ NULL
 userbuf
 (
 base
-.
-get
-(
-)
 length
 )
 filename
@@ -865,10 +859,6 @@ options
 .
 lineno
 base
-.
-get
-(
-)
 length
 &
 listenerTSData

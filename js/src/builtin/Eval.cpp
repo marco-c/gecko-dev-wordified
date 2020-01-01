@@ -2163,6 +2163,10 @@ scopeobj
 caller
 options
 chars
+.
+get
+(
+)
 length
 stableStr
 staticLevel
