@@ -725,12 +725,12 @@ vp
 ;
 nsAutoPtr
 <
-RilMessage
+RilRawData
 >
 rm
 (
 new
-RilMessage
+RilRawData
 (
 )
 )
@@ -947,10 +947,10 @@ if
 (
 size
 >
-RilMessage
+RilRawData
 :
 :
-DATA_SIZE
+MAX_DATA_SIZE
 )
 {
 JS_ReportError
@@ -988,7 +988,7 @@ data
 size
 )
 ;
-RilMessage
+RilRawData
 *
 tosend
 =
@@ -1000,7 +1000,7 @@ forget
 ;
 JS_ALWAYS_TRUE
 (
-SendRilMessage
+SendRilRawData
 (
 &
 tosend
@@ -1114,7 +1114,7 @@ public
 :
 DispatchRILEvent
 (
-RilMessage
+RilRawData
 *
 aMessage
 )
@@ -1138,7 +1138,7 @@ private
 :
 nsAutoPtr
 <
-RilMessage
+RilRawData
 >
 mMessage
 ;
@@ -1163,7 +1163,7 @@ virtual
 void
 MessageReceived
 (
-RilMessage
+RilRawData
 *
 aMessage
 )
