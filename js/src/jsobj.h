@@ -5823,7 +5823,7 @@ types
 :
 TypeObject
 *
-gctype
+typeFromGC
 (
 )
 const

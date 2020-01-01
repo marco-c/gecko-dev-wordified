@@ -9431,7 +9431,7 @@ ImmPtr
 templateObject
 -
 >
-gctype
+type
 (
 )
 )
