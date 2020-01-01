@@ -7705,16 +7705,10 @@ props
 createRequest
 "
 "
-createCursor
-"
-"
 fireError
 "
 "
 fireSuccess
-"
-"
-fireDone
 "
 ]
 ;
