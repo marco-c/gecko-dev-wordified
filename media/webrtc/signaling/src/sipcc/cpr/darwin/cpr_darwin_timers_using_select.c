@@ -2282,11 +2282,11 @@ n
 __FUNCTION__
 )
 ;
-#
-endif
 return
 CPR_SUCCESS
 ;
+#
+endif
 }
 /
 *
