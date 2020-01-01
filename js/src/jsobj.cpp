@@ -20283,7 +20283,9 @@ cx
 js_NewFunction
 (
 cx
-NULL
+NullPtr
+(
+)
 constructor
 nargs
 JSFUN_CONSTRUCTOR

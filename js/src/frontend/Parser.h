@@ -2381,8 +2381,7 @@ newFunction
 ParseContext
 *
 pc
-JSAtom
-*
+HandleAtom
 atom
 FunctionSyntaxKind
 kind

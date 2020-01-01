@@ -7067,8 +7067,7 @@ newFunction
 ParseContext
 *
 pc
-JSAtom
-*
+HandleAtom
 atom
 FunctionSyntaxKind
 kind
@@ -7237,7 +7236,9 @@ fun
 js_NewFunction
 (
 context
-NULL
+NullPtr
+(
+)
 NULL
 0
 flags
@@ -34330,7 +34331,9 @@ atom
 =
 *
 /
-NULL
+NullPtr
+(
+)
 Expression
 )
 )
