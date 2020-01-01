@@ -817,11 +817,12 @@ hasSpecialEquality
 (
 )
 )
-cx
--
->
-markTypeObjectFlags
+types
+:
+:
+MarkTypeObjectFlags
 (
+cx
 type
 types
 :

@@ -7233,7 +7233,7 @@ options
 .
 methodjit_always
 "
-true
+false
 )
 ;
 pref

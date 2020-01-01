@@ -7785,11 +7785,12 @@ setObject
 fun
 )
 ;
-cx
--
->
-addTypePropertyId
+types
+:
+:
+AddTypePropertyId
 (
+cx
 globalObj
 -
 >

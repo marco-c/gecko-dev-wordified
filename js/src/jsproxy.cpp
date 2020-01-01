@@ -7576,11 +7576,9 @@ proxies
 .
 *
 /
-cx
--
->
-markTypeObjectUnknownProperties
+MarkTypeObjectUnknownProperties
 (
+cx
 obj
 -
 >

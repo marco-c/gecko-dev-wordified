@@ -4683,7 +4683,6 @@ typeMonitorOverflow
 JSContext
 *
 cx
-const
 jsbytecode
 *
 pc
@@ -4696,7 +4695,6 @@ typeMonitorString
 JSContext
 *
 cx
-const
 jsbytecode
 *
 pc
@@ -4709,7 +4707,6 @@ typeMonitorUnknown
 JSContext
 *
 cx
-const
 jsbytecode
 *
 pc
@@ -4775,7 +4772,6 @@ typeMonitorAssign
 JSContext
 *
 cx
-const
 jsbytecode
 *
 pc
