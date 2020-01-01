@@ -12956,7 +12956,7 @@ JS_ReportErrorNumber
 cx
 js_GetErrorMessage
 NULL
-JSMSG_BAD_GETTER_OR_SETTER
+JSMSG_BAD_GET_SET_FIELD
 js_getter_str
 )
 ;
@@ -13052,7 +13052,7 @@ JS_ReportErrorNumber
 cx
 js_GetErrorMessage
 NULL
-JSMSG_BAD_GETTER_OR_SETTER
+JSMSG_BAD_GET_SET_FIELD
 js_setter_str
 )
 ;
