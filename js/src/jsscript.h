@@ -4480,11 +4480,7 @@ unsigned
 id
 (
 )
-{
-return
-id_
 ;
-}
 #
 else
 unsigned
