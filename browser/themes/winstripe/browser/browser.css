@@ -10536,12 +10536,8 @@ Bookmarks
 toolbar
 *
 /
-.
-toolbar
--
-drop
--
-indicator
+#
+PlacesToolbarDropIndicator
 {
 list
 -

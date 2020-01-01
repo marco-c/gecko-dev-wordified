@@ -9387,6 +9387,12 @@ n
 )
 ;
 }
+PlacesToolbarHelper
+.
+updateState
+(
+)
+;
 /
 /
 bookmark
@@ -23068,6 +23074,12 @@ updateEditUIVisibility
 #
 endif
 }
+PlacesToolbarHelper
+.
+updateState
+(
+)
+;
 UpdateUrlbarSearchSplitterState
 (
 )

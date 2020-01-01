@@ -2215,7 +2215,7 @@ document
 getElementById
 (
 "
-bookmarksBarContent
+PlacesToolbarItems
 "
 )
 ;
@@ -2274,7 +2274,7 @@ if
 !
 child
 .
-node
+_placesNode
 )
 {
 staticNodes
@@ -2288,7 +2288,7 @@ if
 (
 child
 .
-node
+_placesNode
 .
 itemId
 =
@@ -2299,7 +2299,7 @@ return
 [
 child
 .
-node
+_placesNode
 i
 -
 staticNodes
@@ -2336,7 +2336,7 @@ nodeIsFolder
 (
 child
 .
-node
+_placesNode
 )
 )
 {
@@ -2517,7 +2517,7 @@ if
 !
 child
 .
-node
+_placesNode
 )
 {
 staticNodes
@@ -2531,7 +2531,7 @@ if
 (
 child
 .
-node
+_placesNode
 .
 itemId
 =
@@ -2542,7 +2542,7 @@ return
 [
 child
 .
-node
+_placesNode
 i
 -
 staticNodes
@@ -2579,7 +2579,7 @@ nodeIsFolder
 (
 child
 .
-node
+_placesNode
 )
 )
 {

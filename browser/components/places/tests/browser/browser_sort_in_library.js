@@ -562,7 +562,7 @@ by
 *
 placeContent
 .
-getResult
+result
 to
 the
 expected
@@ -1161,9 +1161,7 @@ res
 =
 aTree
 .
-getResult
-(
-)
+result
 ;
 isnot
 (
@@ -1175,9 +1173,7 @@ check
 :
 placeContent
 .
-getResult
-(
-)
+result
 should
 not
 return
