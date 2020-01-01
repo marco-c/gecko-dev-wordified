@@ -5191,7 +5191,7 @@ exception
 .
 *
 /
-JSBool
+bool
 hadOutOfMemory
 ;
 /
@@ -7707,7 +7707,7 @@ definition
 .
 *
 /
-JSBool
+bool
 throwing
 ;
 /
