@@ -2009,6 +2009,9 @@ PRBool
 isIDispatch
 =
 Interface
+&
+&
+Interface
 -
 >
 GetIID
@@ -2202,6 +2205,9 @@ wrapper
 {
 if
 (
+Interface
+&
+&
 !
 wrapper
 -
@@ -2398,6 +2404,9 @@ class
 JSBool
 isClassInfo
 =
+Interface
+&
+&
 Interface
 -
 >
@@ -2826,6 +2835,9 @@ wrapper
 {
 if
 (
+Interface
+&
+&
 !
 wrapper
 -
@@ -3109,6 +3121,9 @@ NS_ERROR_FAILURE
 }
 if
 (
+Interface
+&
+&
 !
 wrapper
 -
@@ -3958,6 +3973,9 @@ rv
 ;
 if
 (
+Interface
+&
+&
 !
 wrapper
 -

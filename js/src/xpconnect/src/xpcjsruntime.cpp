@@ -452,6 +452,13 @@ xpcprivate
 .
 h
 "
+#
+include
+"
+dom_quickstubs
+.
+h
+"
 /
 *
 *
@@ -3448,6 +3455,10 @@ DetachedWrappedNativeProtoMarker
 nsnull
 )
 ;
+DOM_MarkInterfaces
+(
+)
+;
 /
 /
 Mark
@@ -5163,6 +5174,10 @@ JSContext
 cx
 )
 {
+DOM_ClearInterfaces
+(
+)
+;
 if
 (
 mDetachedWrappedNativeProtoMap
@@ -6083,6 +6098,10 @@ JSDHashEntryStub
 ;
 #
 endif
+DOM_InitInterfaces
+(
+)
+;
 /
 /
 these

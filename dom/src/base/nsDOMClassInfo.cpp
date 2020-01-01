@@ -8074,7 +8074,7 @@ nsISupports
 native
 const
 nsIID
-&
+*
 aIID
 jsval
 *
@@ -8278,6 +8278,7 @@ JS_GetGlobalObject
 cx
 )
 exception
+&
 NS_GET_IID
 (
 nsIException
@@ -18316,10 +18317,6 @@ WrapNative
 cx
 obj
 result
-NS_GET_IID
-(
-nsISupports
-)
 &
 v
 getter_AddRefs
@@ -19411,6 +19408,7 @@ GetGlobalJSObject
 (
 )
 frame
+&
 NS_GET_IID
 (
 nsIDOMWindow
@@ -20270,6 +20268,7 @@ WrapNative
 cx
 obj
 location
+&
 NS_GET_IID
 (
 nsIDOMLocation
@@ -21784,10 +21783,6 @@ WrapNative
 cx
 obj
 native
-NS_GET_IID
-(
-nsISupports
-)
 rval
 getter_AddRefs
 (
@@ -24247,6 +24242,7 @@ WrapNative
 cx
 obj
 constructor
+&
 NS_GET_IID
 (
 nsIDOMDOMConstructor
@@ -24641,6 +24637,7 @@ WrapNative
 cx
 obj
 constructor
+&
 NS_GET_IID
 (
 nsIDOMDOMConstructor
@@ -25859,6 +25856,7 @@ WrapNative
 cx
 obj
 constructor
+&
 NS_GET_IID
 (
 nsIDOMDOMConstructor
@@ -26138,10 +26136,6 @@ WrapNative
 cx
 scope
 native
-NS_GET_IID
-(
-nsISupports
-)
 &
 prop_val
 getter_AddRefs
@@ -27900,6 +27894,7 @@ WrapNative
 cx
 wrapperObj
 child_win
+&
 NS_GET_IID
 (
 nsIDOMWindowInternal
@@ -28623,6 +28618,7 @@ WrapNative
 cx
 scope
 location
+&
 NS_GET_IID
 (
 nsIDOMLocation
@@ -28931,6 +28927,7 @@ WrapNative
 cx
 obj
 navigator
+&
 NS_GET_IID
 (
 nsIDOMNavigator
@@ -29049,6 +29046,7 @@ WrapNative
 cx
 obj
 document
+&
 NS_GET_IID
 (
 nsIDOMDocument
@@ -32558,10 +32556,6 @@ WrapNative
 cx
 globalObj
 native_parent
-NS_GET_IID
-(
-nsISupports
-)
 &
 v
 getter_AddRefs
@@ -32960,6 +32954,7 @@ WrapNative
 cx
 obj
 uri
+&
 NS_GET_IID
 (
 nsIURI
@@ -33031,6 +33026,7 @@ node
 NodePrincipal
 (
 )
+&
 NS_GET_IID
 (
 nsIPrincipal
@@ -36657,10 +36653,6 @@ WrapNative
 cx
 obj
 array_item
-NS_GET_IID
-(
-nsISupports
-)
 vp
 )
 ;
@@ -36802,10 +36794,6 @@ WrapNative
 cx
 globalObj
 native_parent
-NS_GET_IID
-(
-nsISupports
-)
 &
 v
 getter_AddRefs
@@ -37314,10 +37302,6 @@ WrapNative
 cx
 obj
 item
-NS_GET_IID
-(
-nsISupports
-)
 vp
 )
 ;
@@ -37890,10 +37874,6 @@ WrapNative
 cx
 globalObj
 native_parent
-NS_GET_IID
-(
-nsISupports
-)
 &
 v
 getter_AddRefs
@@ -38481,6 +38461,7 @@ WrapNative
 cx
 obj
 location
+&
 NS_GET_IID
 (
 nsIDOMLocation
@@ -38698,6 +38679,7 @@ WrapNative
 cx
 obj
 uri
+&
 NS_GET_IID
 (
 nsIURI
@@ -38874,6 +38856,7 @@ WrapNative
 cx
 obj
 location
+&
 NS_GET_IID
 (
 nsIDOMLocation
@@ -39232,6 +39215,7 @@ WrapNative
 cx
 obj
 win
+&
 NS_GET_IID
 (
 nsIDOMWindow
@@ -39888,6 +39872,7 @@ WrapNative
 cx
 obj
 retval
+&
 NS_GET_IID
 (
 nsIDOMDocument
@@ -40318,10 +40303,6 @@ cx
 obj
 *
 nodeList
-NS_GET_IID
-(
-nsISupports
-)
 &
 collection
 getter_AddRefs
@@ -40839,10 +40820,6 @@ WrapNative
 cx
 obj
 result
-NS_GET_IID
-(
-nsISupports
-)
 vp
 )
 ;
@@ -42252,10 +42229,6 @@ WrapNative
 cx
 obj
 tags
-NS_GET_IID
-(
-nsISupports
-)
 &
 v
 getter_AddRefs
@@ -43210,10 +43183,6 @@ WrapNative
 cx
 obj
 result
-NS_GET_IID
-(
-nsISupports
-)
 vp
 )
 ;
@@ -43908,10 +43877,6 @@ WrapNative
 cx
 obj
 result
-NS_GET_IID
-(
-nsISupports
-)
 vp
 )
 ;
@@ -43978,10 +43943,6 @@ WrapNative
 cx
 obj
 control
-NS_GET_IID
-(
-nsISupports
-)
 vp
 )
 ;
@@ -44448,6 +44409,7 @@ WrapNative
 cx
 obj
 node
+&
 NS_GET_IID
 (
 nsIDOMNode
