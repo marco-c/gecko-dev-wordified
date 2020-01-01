@@ -5028,6 +5028,11 @@ height
 "
 300
 "
+mozallowfullscreen
+:
+"
+true
+"
 }
 )
 )
