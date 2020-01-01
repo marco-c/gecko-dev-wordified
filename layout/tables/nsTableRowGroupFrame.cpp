@@ -5806,7 +5806,7 @@ movedFrame
 rowFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -6128,7 +6128,7 @@ aYTotalOffset
 0
 )
 {
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -6267,7 +6267,7 @@ y
 aKidFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -6290,7 +6290,7 @@ aKidFrame
 aKidFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;

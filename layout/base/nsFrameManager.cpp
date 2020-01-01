@@ -3309,7 +3309,7 @@ positioning
 aOldFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;

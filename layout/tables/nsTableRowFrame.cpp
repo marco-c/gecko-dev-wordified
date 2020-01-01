@@ -5811,7 +5811,7 @@ x
 kidFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -6215,7 +6215,7 @@ position
 kidFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -6257,7 +6257,7 @@ position
 kidFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -7308,7 +7308,7 @@ invalidate
 our
 old
 position
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -8216,7 +8216,7 @@ area
 cellFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;

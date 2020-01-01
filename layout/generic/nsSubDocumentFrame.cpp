@@ -4851,7 +4851,7 @@ eTreeChange
 NS_FRAME_IS_DIRTY
 )
 ;
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -4891,7 +4891,7 @@ NS_FRAME_IS_DIRTY
 other
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;

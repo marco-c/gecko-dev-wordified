@@ -744,7 +744,7 @@ GetRootFrame
 )
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -787,7 +787,7 @@ GetRootFrame
 )
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;

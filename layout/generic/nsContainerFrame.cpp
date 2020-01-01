@@ -4650,7 +4650,7 @@ aY
 aKidFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -7263,7 +7263,7 @@ aDeletingEmptyFrames
 aNextInFlow
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
