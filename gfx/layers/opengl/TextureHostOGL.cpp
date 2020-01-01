@@ -4261,7 +4261,7 @@ is
 not
 enough
 as
-DeprecatedImageHostBuffered
+ImageHostBuffered
 :
 :
 SwapTextures

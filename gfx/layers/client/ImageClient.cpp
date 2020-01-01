@@ -237,7 +237,7 @@ BUFFER_IMAGE_SINGLE
 result
 =
 new
-DeprecatedImageClientSingle
+ImageClientSingle
 (
 aForwarder
 aFlags
@@ -252,7 +252,7 @@ BUFFER_IMAGE_BUFFERED
 result
 =
 new
-DeprecatedImageClientSingle
+ImageClientSingle
 (
 aForwarder
 aFlags
@@ -383,10 +383,10 @@ aRect
 )
 ;
 }
-DeprecatedImageClientSingle
+ImageClientSingle
 :
 :
-DeprecatedImageClientSingle
+ImageClientSingle
 (
 CompositableForwarder
 *
@@ -415,7 +415,7 @@ aFlags
 ;
 }
 bool
-DeprecatedImageClientSingle
+ImageClientSingle
 :
 :
 EnsureDeprecatedTextureClient
@@ -477,7 +477,7 @@ mDeprecatedTextureClient
 ;
 }
 bool
-DeprecatedImageClientSingle
+ImageClientSingle
 :
 :
 UpdateImage
@@ -569,7 +569,7 @@ if
 ycbcr
 -
 >
-AsDeprecatedSharedPlanarYCbCrImage
+AsSharedPlanarYCbCrImage
 (
 )
 )
@@ -589,7 +589,7 @@ if
 ycbcr
 -
 >
-AsDeprecatedSharedPlanarYCbCrImage
+AsSharedPlanarYCbCrImage
 (
 )
 -
@@ -823,7 +823,7 @@ if
 !
 static_cast
 <
-DeprecatedSharedRGBImage
+SharedRGBImage
 *
 >
 (
@@ -1179,7 +1179,7 @@ true
 ;
 }
 void
-DeprecatedImageClientSingle
+ImageClientSingle
 :
 :
 Updated
@@ -1381,7 +1381,7 @@ PLANAR_YCBCR
 img
 =
 new
-DeprecatedSharedPlanarYCbCrImage
+SharedPlanarYCbCrImage
 (
 GetForwarder
 (
@@ -1401,7 +1401,7 @@ SHARED_RGB
 img
 =
 new
-DeprecatedSharedRGBImage
+SharedRGBImage
 (
 GetForwarder
 (

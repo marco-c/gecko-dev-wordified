@@ -2392,7 +2392,7 @@ mozilla
 layers
 :
 :
-DeprecatedSharedRGBImage
+SharedRGBImage
 >
 rgbImage
 ;
@@ -2415,7 +2415,7 @@ mozilla
 layers
 :
 :
-DeprecatedSharedRGBImage
+SharedRGBImage
 :
 :
 Create

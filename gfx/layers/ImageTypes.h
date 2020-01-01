@@ -188,7 +188,7 @@ SHARED_RGB
 format
 creates
 a
-DeprecatedSharedRGBImage
+SharedRGBImage
 which
 stores
 RGB
