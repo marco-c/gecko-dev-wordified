@@ -108,13 +108,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsDocShellEditorData
 .
 h

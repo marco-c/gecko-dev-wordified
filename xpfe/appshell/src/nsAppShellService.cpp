@@ -103,13 +103,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsIComponentManager
 .
 h
@@ -202,13 +195,6 @@ h
 include
 "
 nsWebShellWindow
-.
-h
-"
-#
-include
-"
-nsIEnumerator
 .
 h
 "

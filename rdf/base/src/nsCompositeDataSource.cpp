@@ -267,13 +267,6 @@ h
 #
 include
 "
-nsIEnumerator
-.
-h
-"
-#
-include
-"
 nsIRDFCompositeDataSource
 .
 h

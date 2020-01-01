@@ -306,13 +306,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsIMutableArray
 .
 h

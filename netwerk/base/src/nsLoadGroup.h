@@ -193,9 +193,6 @@ TimeStamp
 h
 "
 class
-nsISupportsArray
-;
-class
 nsILoadGroupConnectionInfo
 ;
 class

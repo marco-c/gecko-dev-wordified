@@ -206,13 +206,6 @@ h
 #
 include
 "
-nsIEnumerator
-.
-h
-"
-#
-include
-"
 nsIRDFService
 .
 h

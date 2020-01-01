@@ -124,7 +124,7 @@ h
 #
 include
 "
-nsIEnumerator
+nsISimpleEnumerator
 .
 h
 "

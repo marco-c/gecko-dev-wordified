@@ -123,13 +123,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h

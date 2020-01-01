@@ -135,13 +135,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsNSSHelper
 .
 h

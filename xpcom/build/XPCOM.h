@@ -409,13 +409,6 @@ h
 #
 include
 "
-nsIEnumerator
-.
-h
-"
-#
-include
-"
 nsIEnvironment
 .
 h
@@ -634,13 +627,6 @@ h
 include
 "
 nsIStorageStream
-.
-h
-"
-#
-include
-"
-nsISupportsArray
 .
 h
 "

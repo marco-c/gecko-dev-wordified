@@ -318,13 +318,6 @@ h
 #
 include
 "
-nsIEnumerator
-.
-h
-"
-#
-include
-"
 nsIWebNavigation
 .
 h

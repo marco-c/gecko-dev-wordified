@@ -69,13 +69,6 @@ inIDOMUtils
 .
 h
 "
-#
-include
-"
-nsISupportsArray
-.
-h
-"
 class
 nsRuleNode
 ;

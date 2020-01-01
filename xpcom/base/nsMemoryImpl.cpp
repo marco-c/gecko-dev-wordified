@@ -138,7 +138,7 @@ h
 #
 include
 "
-nsISupportsArray
+nsISimpleEnumerator
 .
 h
 "

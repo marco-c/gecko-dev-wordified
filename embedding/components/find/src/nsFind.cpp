@@ -116,13 +116,6 @@ h
 #
 include
 "
-nsIEnumerator
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h

@@ -150,7 +150,7 @@ h
 #
 include
 "
-nsIEnumerator
+nsISupportsArray
 .
 h
 "

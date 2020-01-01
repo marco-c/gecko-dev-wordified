@@ -94,7 +94,7 @@ MPL
 #
 include
 "
-nsIEnumerator
+nsISimpleEnumerator
 .
 h
 "
