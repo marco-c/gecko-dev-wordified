@@ -163,7 +163,7 @@ worker
 ;
 }
 function
-newUint8WithOutgoingIndexWorker
+newUint8SupportOutgoingIndexWorker
 (
 )
 {
@@ -8153,7 +8153,7 @@ test_stk_event_download_location_status
 let
 worker
 =
-newUint8WithOutgoingIndexWorker
+newUint8SupportOutgoingIndexWorker
 (
 )
 ;
@@ -8624,14 +8624,14 @@ response
 add_test
 (
 function
-test_stk_event_download_location_status
+test_stk_terminal_response
 (
 )
 {
 let
 worker
 =
-newUint8WithOutgoingIndexWorker
+newUint8SupportOutgoingIndexWorker
 (
 )
 ;
