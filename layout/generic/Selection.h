@@ -1480,6 +1480,9 @@ Selection
 *
 mDomSelection
 ;
+SelectionType
+mType
+;
 }
 ;
 #
