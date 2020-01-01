@@ -2334,6 +2334,15 @@ return
 mMetaState
 ;
 }
+int
+DomKeyLocation
+(
+)
+{
+return
+mDomKeyLocation
+;
+}
 bool
 IsAltPressed
 (
@@ -2561,6 +2570,9 @@ mFlags
 mMetaState
 ;
 int
+mDomKeyLocation
+;
+int
 mKeyCode
 mUnicodeChar
 ;
@@ -2765,6 +2777,10 @@ jKeyCodeField
 static
 jfieldID
 jMetaStateField
+;
+static
+jfieldID
+jDomKeyLocationField
 ;
 static
 jfieldID
