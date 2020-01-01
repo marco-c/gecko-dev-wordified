@@ -634,12 +634,6 @@ cx
 JSRegExpStatics
 *
 statics
-js
-:
-:
-AutoStringRooter
-*
-tvr
 )
 ;
 /

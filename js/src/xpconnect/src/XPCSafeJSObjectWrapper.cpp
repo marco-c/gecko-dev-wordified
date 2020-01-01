@@ -3566,8 +3566,6 @@ js_RestoreRegExpStatics
 cx
 &
 statics
-&
-tvr
 )
 ;
 nsIScriptSecurityManager

@@ -7503,6 +7503,9 @@ aScope
 nsISupports
 *
 aCOMObj
+nsWrapperCache
+*
+aCache
 const
 nsIID
 *
@@ -7535,7 +7538,7 @@ aHolder
 aCOMObj
 aIID
 nsnull
-nsnull
+aCache
 aScope
 aAllowWrapping
 OBJ_IS_NOT_GLOBAL
@@ -7701,6 +7704,7 @@ NativeInterface2JSObject
 lccx
 aScope
 aCOMObj
+nsnull
 &
 aIID
 PR_FALSE
@@ -7752,6 +7756,9 @@ aScope
 nsISupports
 *
 aCOMObj
+nsWrapperCache
+*
+aCache
 const
 nsIID
 *
@@ -7816,6 +7823,7 @@ NativeInterface2JSObject
 lccx
 aScope
 aCOMObj
+aCache
 aIID
 aAllowWrapping
 aVal
