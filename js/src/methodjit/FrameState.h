@@ -5510,7 +5510,7 @@ inline
 void
 unpinKilledReg
 (
-RegisterID
+AnyRegisterID
 reg
 )
 ;
