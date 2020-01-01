@@ -1482,6 +1482,9 @@ thread
 "
 )
 ;
+#
+ifdef
+MOZ_DASH
 LOG
 (
 PR_LOG_DEBUG
@@ -1541,6 +1544,8 @@ mEnd
 )
 )
 ;
+#
+endif
 nestegg_io
 io
 ;
