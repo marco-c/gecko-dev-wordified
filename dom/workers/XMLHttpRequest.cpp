@@ -7489,6 +7489,13 @@ cx
 )
 )
 {
+aRv
+.
+Throw
+(
+NS_ERROR_FAILURE
+)
+;
 return
 ;
 }
