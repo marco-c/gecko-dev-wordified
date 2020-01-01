@@ -143,6 +143,13 @@ TimeStamp
 .
 h
 "
+#
+include
+"
+nsArenaMemoryStats
+.
+h
+"
 /
 /
 This
@@ -247,6 +254,9 @@ aMallocSizeOf
 nsMallocSizeOfFun
 mMallocSizeOf
 ;
+nsArenaMemoryStats
+mArenaStats
+;
 size_t
 mDOMElementNodes
 ;
@@ -266,7 +276,7 @@ size_t
 mStyleSheets
 ;
 size_t
-mLayoutArenas
+mLayoutPresShell
 ;
 size_t
 mLayoutStyleSets
