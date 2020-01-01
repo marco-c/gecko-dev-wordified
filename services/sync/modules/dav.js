@@ -3155,6 +3155,7 @@ DAVLocks
 default
 '
 ]
+;
 this
 .
 _log
@@ -3503,6 +3504,7 @@ this
 __authFailed
 =
 newValue
+;
 }
 /
 /
@@ -3536,6 +3538,7 @@ equals
 (
 v
 )
+;
 }
 )
 )
