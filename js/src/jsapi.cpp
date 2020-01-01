@@ -18251,7 +18251,7 @@ vp
 )
 ;
 return
-js_CreateThis
+CreateThis
 (
 cx
 Valueify
@@ -26433,7 +26433,7 @@ flags
 )
 ;
 return
-js_NewFunction
+NewFunction
 (
 cx
 NullPtr
@@ -26540,7 +26540,7 @@ flags
 )
 ;
 return
-js_NewFunction
+NewFunction
 (
 cx
 NullPtr
@@ -27433,7 +27433,7 @@ JSFunction
 *
 fun
 =
-js_DefineFunction
+DefineFunction
 (
 cx
 ctor
@@ -27617,7 +27617,7 @@ is
 achieved
 by
 passing
-js_DefineFunction
+DefineFunction
 a
 NULL
 JSNative
@@ -27656,7 +27656,7 @@ RootedFunction
 fun
 (
 cx
-js_DefineFunction
+DefineFunction
 (
 cx
 obj
@@ -27677,6 +27677,7 @@ JSFunction
 :
 :
 ExtendedFinalizeKind
+SingletonObject
 )
 )
 ;
@@ -27687,15 +27688,6 @@ fun
 )
 return
 JS_FALSE
-;
-JSFunction
-:
-:
-setSingletonType
-(
-cx
-fun
-)
 ;
 fun
 -
@@ -27795,7 +27787,7 @@ JSFunction
 *
 fun
 =
-js_DefineFunction
+DefineFunction
 (
 cx
 obj
@@ -27950,7 +27942,7 @@ atom
 )
 ;
 return
-js_DefineFunction
+DefineFunction
 (
 cx
 obj
@@ -28068,7 +28060,7 @@ atom
 )
 ;
 return
-js_DefineFunction
+DefineFunction
 (
 cx
 obj
@@ -28151,7 +28143,7 @@ obj
 )
 ;
 return
-js_DefineFunction
+DefineFunction
 (
 cx
 obj
@@ -29899,7 +29891,7 @@ RootedFunction
 fun
 (
 cx
-js_NewFunction
+NewFunction
 (
 cx
 NullPtr

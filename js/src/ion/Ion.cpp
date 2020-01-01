@@ -1822,6 +1822,10 @@ sizeof
 (
 IonCode
 )
+gc
+:
+:
+DefaultHeap
 )
 ;
 if
@@ -8362,7 +8366,7 @@ RootedObject
 obj
 (
 cx
-js_CreateThisForFunction
+CreateThisForFunction
 (
 cx
 callee

@@ -2341,7 +2341,7 @@ JSObject
 *
 obj
 =
-js_CreateThisForFunction
+CreateThisForFunction
 (
 cx
 callee

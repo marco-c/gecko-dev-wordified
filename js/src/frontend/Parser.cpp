@@ -7420,7 +7420,7 @@ INTERPRETED
 ;
 fun
 =
-js_NewFunction
+NewFunction
 (
 context
 NullPtr
@@ -7431,6 +7431,11 @@ NULL
 flags
 parent
 atom
+JSFunction
+:
+:
+FinalizeKind
+MaybeSingletonObject
 )
 ;
 if

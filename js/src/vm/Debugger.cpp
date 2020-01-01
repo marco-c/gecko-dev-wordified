@@ -23936,7 +23936,7 @@ cx
 ;
 getobj
 =
-js_NewFunction
+NewFunction
 (
 cx
 NullPtr

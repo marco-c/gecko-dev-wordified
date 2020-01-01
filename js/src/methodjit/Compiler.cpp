@@ -52779,7 +52779,7 @@ NULL
 /
 /
 call
-js_CreateThisFromFunctionWithProto
+CreateThisFromFunctionWithProto
 (
 .
 .
@@ -53023,7 +53023,7 @@ JSObject
 *
 templateObject
 =
-js_CreateThisForFunctionWithProto
+CreateThisForFunctionWithProto
 (
 cx
 fun

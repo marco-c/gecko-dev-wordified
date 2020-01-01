@@ -5846,7 +5846,7 @@ RootedObject
 scriptedLength
 (
 cx
-js_NewFunction
+NewFunction
 (
 cx
 NullPtr
@@ -5872,7 +5872,7 @@ RootedObject
 scriptedShape
 (
 cx
-js_NewFunction
+NewFunction
 (
 cx
 NullPtr

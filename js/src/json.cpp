@@ -6270,6 +6270,7 @@ cx
 JSONClass
 NULL
 global
+SingletonObject
 )
 )
 ;
@@ -6277,17 +6278,6 @@ if
 (
 !
 JSON
-|
-|
-!
-JSObject
-:
-:
-setSingletonType
-(
-cx
-JSON
-)
 )
 return
 NULL

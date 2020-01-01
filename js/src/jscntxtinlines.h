@@ -783,6 +783,14 @@ JSContext
 cx
 EntryIndex
 entry_
+js
+:
+:
+gc
+:
+:
+InitialHeap
+heap
 )
 {
 JS_ASSERT
@@ -825,6 +833,7 @@ entry
 -
 >
 kind
+heap
 )
 ;
 if

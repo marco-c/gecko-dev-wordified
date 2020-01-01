@@ -1040,7 +1040,7 @@ RootedFunction
 valueOf
 (
 cx
-js_NewFunction
+NewFunction
 (
 cx
 NullPtr

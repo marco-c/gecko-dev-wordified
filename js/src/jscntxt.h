@@ -1785,6 +1785,14 @@ JSContext
 cx
 EntryIndex
 entry
+js
+:
+:
+gc
+:
+:
+InitialHeap
+heap
 )
 ;
 /

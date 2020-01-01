@@ -293,6 +293,10 @@ RawObject
 proto
 =
 NULL
+NewObjectKind
+newKind
+=
+GenericObject
 )
 ;
 /
@@ -333,6 +337,10 @@ RawObject
 proto
 =
 NULL
+NewObjectKind
+newKind
+=
+GenericObject
 )
 ;
 /
@@ -386,6 +394,10 @@ RawObject
 proto
 =
 NULL
+NewObjectKind
+newKind
+=
+GenericObject
 )
 ;
 /
@@ -462,6 +474,10 @@ RawObject
 proto
 =
 NULL
+NewObjectKind
+newKind
+=
+GenericObject
 )
 ;
 /

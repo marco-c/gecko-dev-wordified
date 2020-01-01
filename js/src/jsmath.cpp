@@ -4162,6 +4162,7 @@ cx
 MathClass
 NULL
 obj
+SingletonObject
 )
 )
 ;
@@ -4169,17 +4170,6 @@ if
 (
 !
 Math
-|
-|
-!
-JSObject
-:
-:
-setSingletonType
-(
-cx
-Math
-)
 )
 return
 NULL

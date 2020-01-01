@@ -4852,7 +4852,7 @@ JSObject
 *
 obj
 =
-js_CreateThisForFunctionWithProto
+CreateThisForFunctionWithProto
 (
 cx
 callee
@@ -6278,7 +6278,7 @@ JSObject
 *
 obj
 =
-js_CreateThisForFunctionWithProto
+CreateThisForFunctionWithProto
 (
 cx
 callee
@@ -6675,7 +6675,7 @@ JSObject
 *
 obj
 =
-js_CreateThisForFunction
+CreateThisForFunction
 (
 cx
 callee
