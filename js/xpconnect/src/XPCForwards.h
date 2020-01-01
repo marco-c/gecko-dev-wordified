@@ -205,9 +205,6 @@ class
 XPCWrappedNativeProtoMap
 ;
 class
-WrappedNative2WrapperMap
-;
-class
 JSObject2JSObjectMap
 ;
 class
