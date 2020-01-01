@@ -39928,11 +39928,6 @@ qnargv
 0
 ]
 =
-vp
-[
-2
-]
-=
 OBJECT_TO_JSVAL
 (
 ns
