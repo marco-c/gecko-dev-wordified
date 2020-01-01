@@ -520,6 +520,10 @@ nupvars
 (
 0
 )
+hasExtensibleParents
+(
+false
+)
 {
 }
 inline
@@ -687,7 +691,6 @@ this
 bindings
 ;
 }
-const
 Shape
 *
 Bindings

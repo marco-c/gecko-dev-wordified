@@ -1992,7 +1992,10 @@ AboveOrEqual
 reg2
 Imm32
 (
-UNIT_STRING_LIMIT
+JSAtom
+:
+:
+UNIT_STATIC_LIMIT
 )
 )
 ;
@@ -2044,10 +2047,10 @@ addPtr
 (
 ImmPtr
 (
-JSString
+JSAtom
 :
 :
-unitStringTable
+unitStaticTable
 )
 reg2
 )

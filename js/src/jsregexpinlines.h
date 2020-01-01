@@ -463,6 +463,13 @@ h
 #
 include
 "
+jsstrinlines
+.
+h
+"
+#
+include
+"
 assembler
 /
 wtf

@@ -8450,10 +8450,7 @@ atom
 )
 {
 return
-ATOM_TO_STRING
-(
 atom
-)
 ;
 }
 extern
@@ -12111,13 +12108,10 @@ nbytes
 +
 =
 (
-ATOM_TO_STRING
-(
 atom
-)
 -
 >
-flatLength
+length
 (
 )
 +
