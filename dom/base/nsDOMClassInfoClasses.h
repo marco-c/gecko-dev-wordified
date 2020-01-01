@@ -231,14 +231,6 @@ DeviceRotationRate
 /
 /
 HTML
-classes
-DOMCI_CLASS
-(
-HTMLDocument
-)
-/
-/
-HTML
 element
 classes
 DOMCI_CLASS
