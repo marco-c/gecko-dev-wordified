@@ -3578,6 +3578,15 @@ gExceptionHandler
 !
 =
 nsnull
+&
+&
+!
+gExceptionHandler
+-
+>
+IsOutOfProcess
+(
+)
 ;
 }
 bool
