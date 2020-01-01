@@ -364,6 +364,10 @@ FragmentOrElement
 (
 aNodeInfo
 )
+mHost
+(
+nullptr
+)
 {
 NS_ABORT_IF_FALSE
 (

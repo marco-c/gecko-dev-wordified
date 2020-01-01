@@ -954,6 +954,15 @@ TableSection
 HTML_TAG
 (
 "
+template
+"
+"
+Template
+"
+)
+HTML_TAG
+(
+"
 title
 "
 "
