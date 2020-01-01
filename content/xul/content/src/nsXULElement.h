@@ -2999,14 +2999,6 @@ aNullParent
 )
 ;
 virtual
-void
-SetNativeAnonymous
-(
-PRBool
-aAnonymous
-)
-;
-virtual
 nsresult
 RemoveChildAt
 (

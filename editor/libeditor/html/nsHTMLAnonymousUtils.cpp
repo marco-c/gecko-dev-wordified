@@ -1121,7 +1121,6 @@ newContent
 >
 SetNativeAnonymous
 (
-PR_TRUE
 )
 ;
 res

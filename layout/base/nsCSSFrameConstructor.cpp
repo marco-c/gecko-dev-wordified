@@ -12796,7 +12796,6 @@ content
 >
 SetNativeAnonymous
 (
-PR_TRUE
 )
 ;
 /
@@ -13175,7 +13174,6 @@ content
 >
 SetNativeAnonymous
 (
-PR_TRUE
 )
 ;
 /
@@ -14216,7 +14214,6 @@ textContent
 >
 SetNativeAnonymous
 (
-PR_TRUE
 )
 ;
 /
@@ -35264,7 +35261,6 @@ content
 >
 SetNativeAnonymous
 (
-PR_TRUE
 )
 ;
 nsIContent
