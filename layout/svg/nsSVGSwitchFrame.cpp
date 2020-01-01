@@ -602,7 +602,7 @@ NS_SVGDisplayListPaintingEnabled
 (
 mState
 &
-NS_STATE_SVG_NONDISPLAY_CHILD
+NS_FRAME_IS_NONDISPLAY
 )
 "
 If
@@ -699,7 +699,7 @@ NS_SVGDisplayListHitTestingEnabled
 (
 mState
 &
-NS_STATE_SVG_NONDISPLAY_CHILD
+NS_FRAME_IS_NONDISPLAY
 )
 "
 If
@@ -860,7 +860,7 @@ GetStateBits
 (
 )
 &
-NS_STATE_SVG_NONDISPLAY_CHILD
+NS_FRAME_IS_NONDISPLAY
 )
 "
 ReflowSVG
@@ -1051,7 +1051,7 @@ GetStateBits
 (
 )
 &
-NS_STATE_SVG_NONDISPLAY_CHILD
+NS_FRAME_IS_NONDISPLAY
 )
 "
 Check
