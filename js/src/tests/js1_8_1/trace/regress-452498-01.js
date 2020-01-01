@@ -4546,8 +4546,6 @@ actual
 timejit
 <
 timenonjit
-/
-2
 ;
 print
 (
