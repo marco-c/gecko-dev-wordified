@@ -25697,10 +25697,6 @@ MNewArray
 (
 count
 templateObject
-MNewArray
-:
-:
-NewArray_Allocating
 )
 ;
 current
