@@ -848,13 +848,13 @@ upper_
 =
 =
 JSVAL_INT_MAX
-int32
+int32_t
 lower_
 ;
 bool
 lower_infinite_
 ;
-int32
+int32_t
 upper_
 ;
 bool
@@ -1224,7 +1224,7 @@ const
 Range
 *
 lhs
-int32
+int32_t
 c
 )
 ;
@@ -1237,7 +1237,7 @@ const
 Range
 *
 lhs
-int32
+int32_t
 c
 )
 ;
@@ -1357,7 +1357,7 @@ isUpperInfinite
 ;
 }
 inline
-int32
+int32_t
 lower
 (
 )
@@ -1368,7 +1368,7 @@ lower_
 ;
 }
 inline
-int32
+int32_t
 upper
 (
 )
@@ -1421,7 +1421,7 @@ else
 lower_
 =
 (
-int32
+int32_t
 )
 x
 ;
@@ -1474,7 +1474,7 @@ else
 upper_
 =
 (
-int32
+int32_t
 )
 x
 ;

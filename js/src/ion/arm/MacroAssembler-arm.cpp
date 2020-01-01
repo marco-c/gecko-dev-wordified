@@ -583,7 +583,7 @@ ma_mov
 Imm32
 (
 (
-int32
+int32_t
 )
 dest
 .
@@ -1317,7 +1317,7 @@ as_movw
 (
 dest
 (
-uint16
+uint16_t
 )
 imm
 .
@@ -1389,7 +1389,7 @@ as_movw
 (
 dest
 (
-uint16
+uint16_t
 )
 ~
 imm
@@ -2196,7 +2196,7 @@ Instruction
 i
 )
 {
-int32
+int32_t
 imm
 =
 imm_
@@ -4715,7 +4715,7 @@ Register
 dest
 Register
 hold
-int32
+int32_t
 shift
 )
 {
@@ -4962,7 +4962,7 @@ gets
 over
 C
 .
-int32
+int32_t
 mask
 =
 (
@@ -7644,11 +7644,11 @@ an
 /
 absolute
 address
-uint32
+uint32_t
 trg
 =
 (
-uint32
+uint32_t
 )
 target
 ;
@@ -9072,7 +9072,7 @@ Register
 base
 Register
 index
-int32
+int32_t
 shift
 Condition
 cc
@@ -9113,14 +9113,14 @@ const
 Register
 &
 scratch
-uint32
+uint32_t
 *
 offset
 )
 {
 DebugOnly
 <
-uint32
+uint32_t
 >
 initialDepth
 =
@@ -9128,7 +9128,7 @@ framePushed
 (
 )
 ;
-uint32
+uint32_t
 descriptor
 =
 MakeFrameDescriptor
@@ -9156,7 +9156,7 @@ enterNoPool
 ;
 DebugOnly
 <
-uint32
+uint32_t
 >
 offsetBeforePush
 =
@@ -9223,7 +9223,7 @@ ma_nop
 (
 )
 ;
-uint32
+uint32_t
 pseudoReturnOffset
 =
 currentOffset
@@ -9283,7 +9283,7 @@ fakeReturnAddr
 {
 DebugOnly
 <
-uint32
+uint32_t
 >
 initialDepth
 =
@@ -9291,7 +9291,7 @@ framePushed
 (
 )
 ;
-uint32
+uint32_t
 descriptor
 =
 MakeFrameDescriptor
@@ -9322,7 +9322,7 @@ Push
 Imm32
 (
 (
-uint32
+uint32_t
 )
 fakeReturnAddr
 )
@@ -9347,7 +9347,7 @@ IonCode
 target
 )
 {
-uint32
+uint32_t
 descriptor
 =
 MakeFrameDescriptor
@@ -9561,7 +9561,7 @@ MacroAssemblerARMCompat
 :
 reserveStack
 (
-uint32
+uint32_t
 amount
 )
 {
@@ -9590,7 +9590,7 @@ MacroAssemblerARMCompat
 :
 freeStack
 (
-uint32
+uint32_t
 amount
 )
 {
@@ -9991,7 +9991,7 @@ src
 .
 base
 ;
-uint32
+uint32_t
 scale
 =
 Imm32
@@ -10652,7 +10652,7 @@ src
 .
 base
 ;
-uint32
+uint32_t
 scale
 =
 Imm32
@@ -10909,7 +10909,7 @@ src
 .
 index
 ;
-uint32
+uint32_t
 scale
 =
 Imm32
@@ -10924,7 +10924,7 @@ scale
 .
 value
 ;
-int32
+int32_t
 offset
 =
 src
@@ -11054,7 +11054,7 @@ src
 .
 index
 ;
-uint32
+uint32_t
 scale
 =
 Imm32
@@ -11069,7 +11069,7 @@ scale
 .
 value
 ;
-int32
+int32_t
 offset
 =
 src
@@ -11233,7 +11233,7 @@ dest
 .
 base
 ;
-uint32
+uint32_t
 scale
 =
 Imm32
@@ -11621,7 +11621,7 @@ dest
 .
 base
 ;
-uint32
+uint32_t
 scale
 =
 Imm32
@@ -12072,7 +12072,7 @@ const
 Register
 &
 reg
-uint32
+uint32_t
 arg
 )
 {
@@ -14420,7 +14420,7 @@ const
 FloatRegister
 &
 dest
-int32
+int32_t
 shift
 )
 {
@@ -15176,7 +15176,7 @@ Register
 base
 Register
 index
-int32
+int32_t
 shift
 )
 {
@@ -16143,7 +16143,7 @@ Register
 base
 Register
 index
-int32
+int32_t
 shift
 )
 {
@@ -16278,7 +16278,7 @@ Register
 base
 Register
 index
-int32
+int32_t
 shift
 )
 {
@@ -16470,7 +16470,7 @@ Register
 base
 Register
 index
-int32
+int32_t
 shift
 )
 {
@@ -16632,13 +16632,13 @@ linkExitFrame
 (
 )
 {
-uint8
+uint8_t
 *
 dest
 =
 (
 (
-uint8
+uint8_t
 *
 )
 GetIonContext
@@ -17044,7 +17044,7 @@ ma_mov
 Imm32
 (
 (
-uint32
+uint32_t
 )
 dest
 )
@@ -17076,7 +17076,7 @@ MacroAssemblerARMCompat
 :
 setupABICall
 (
-uint32
+uint32_t
 args
 )
 {
@@ -17127,7 +17127,7 @@ MacroAssemblerARMCompat
 :
 setupAlignedABICall
 (
-uint32
+uint32_t
 args
 )
 {
@@ -17147,7 +17147,7 @@ MacroAssemblerARMCompat
 :
 setupUnalignedABICall
 (
-uint32
+uint32_t
 args
 const
 Register
@@ -17213,7 +17213,7 @@ from
 MoveOperand
 to
 ;
-uint32
+uint32_t
 increment
 =
 1
@@ -17358,7 +17358,7 @@ destReg
 }
 else
 {
-uint32
+uint32_t
 disp
 =
 GetArgStackDisp
@@ -17504,7 +17504,7 @@ JS_ASSERT
 inCall_
 )
 ;
-uint32
+uint32_t
 stackAdjust
 =
 (

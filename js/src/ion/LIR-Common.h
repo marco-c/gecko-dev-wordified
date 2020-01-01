@@ -641,7 +641,7 @@ LInstructionHelper
 0
 >
 {
-int32
+int32_t
 i32_
 ;
 public
@@ -653,7 +653,7 @@ Integer
 ;
 LInteger
 (
-int32
+int32_t
 i32
 )
 :
@@ -663,7 +663,7 @@ i32
 )
 {
 }
-int32
+int32_t
 getValue
 (
 )
@@ -2076,7 +2076,7 @@ LInstructionHelper
 0
 >
 {
-uint32
+uint32_t
 argslot_
 ;
 /
@@ -2098,7 +2098,7 @@ StackArgT
 ;
 LStackArgT
 (
-uint32
+uint32_t
 argslot
 const
 LAllocation
@@ -2137,7 +2137,7 @@ toPassArg
 )
 ;
 }
-uint32
+uint32_t
 argslot
 (
 )
@@ -2192,7 +2192,7 @@ BOX_PIECES
 0
 >
 {
-uint32
+uint32_t
 argslot_
 ;
 /
@@ -2214,7 +2214,7 @@ StackArgV
 ;
 LStackArgV
 (
-uint32
+uint32_t
 argslot
 )
 :
@@ -2224,7 +2224,7 @@ argslot
 )
 {
 }
-uint32
+uint32_t
 argslot
 (
 )
@@ -2290,14 +2290,14 @@ function
 without
 arguments
 .
-uint32
+uint32_t
 argslot_
 ;
 public
 :
 LJSCallInstructionHelper
 (
-uint32
+uint32_t
 argslot
 )
 :
@@ -2307,7 +2307,7 @@ argslot
 )
 {
 }
-uint32
+uint32_t
 argslot
 (
 )
@@ -2422,7 +2422,7 @@ include
 this
 |
 .
-uint32
+uint32_t
 numStackArgs
 (
 )
@@ -2476,7 +2476,7 @@ include
 this
 |
 .
-uint32
+uint32_t
 numActualArgs
 (
 )
@@ -2548,7 +2548,7 @@ const
 LAllocation
 &
 func
-uint32
+uint32_t
 argslot
 const
 LDefinition
@@ -2676,7 +2676,7 @@ const
 LAllocation
 &
 func
-uint32
+uint32_t
 argslot
 const
 LDefinition
@@ -2769,7 +2769,7 @@ CallNative
 ;
 LCallNative
 (
-uint32
+uint32_t
 argslot
 const
 LDefinition
@@ -2945,7 +2945,7 @@ CallDOMNative
 ;
 LCallDOMNative
 (
-uint32
+uint32_t
 argslot
 const
 LDefinition
@@ -3152,7 +3152,7 @@ const
 LAllocation
 &
 func
-uint32
+uint32_t
 argslot
 )
 :
@@ -7679,7 +7679,7 @@ protected
 Label
 label_
 ;
-uint32
+uint32_t
 frameDepth_
 ;
 public
@@ -7702,7 +7702,7 @@ frameDepth_
 void
 setFrameDepth
 (
-uint32
+uint32_t
 depth
 )
 {
@@ -7711,7 +7711,7 @@ frameDepth_
 depth
 ;
 }
-uint32
+uint32_t
 getFrameDepth
 (
 )
@@ -13969,7 +13969,7 @@ LPhi
 public
 LInstruction
 {
-uint32
+uint32_t
 numInputs_
 ;
 LAllocation

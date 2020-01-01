@@ -169,7 +169,7 @@ inlineNativeCall
 (
 JSNative
 native
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -597,7 +597,7 @@ IonBuilder
 :
 discardCallArgs
 (
-uint32
+uint32_t
 argc
 MDefinitionVector
 &
@@ -624,7 +624,7 @@ false
 ;
 for
 (
-int32
+int32_t
 i
 =
 argc
@@ -729,7 +729,7 @@ IonBuilder
 :
 discardCall
 (
-uint32
+uint32_t
 argc
 MDefinitionVector
 &
@@ -859,9 +859,9 @@ IonBuilder
 :
 getInlineArgTypeSet
 (
-uint32
+uint32_t
 argc
-uint32
+uint32_t
 arg
 )
 {
@@ -898,9 +898,9 @@ IonBuilder
 :
 getInlineArgType
 (
-uint32
+uint32_t
 argc
-uint32
+uint32_t
 arg
 )
 {
@@ -943,7 +943,7 @@ MMathFunction
 :
 Function
 function
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -1078,7 +1078,7 @@ IonBuilder
 :
 inlineArray
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -1507,7 +1507,7 @@ MArrayPopShift
 :
 Mode
 mode
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -1808,7 +1808,7 @@ IonBuilder
 :
 inlineArrayPush
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2000,7 +2000,7 @@ IonBuilder
 :
 inlineArrayConcat
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2561,7 +2561,7 @@ IonBuilder
 :
 inlineMathAbs
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2687,7 +2687,7 @@ IonBuilder
 :
 inlineMathFloor
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2857,7 +2857,7 @@ IonBuilder
 :
 inlineMathRound
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -3034,7 +3034,7 @@ IonBuilder
 :
 inlineMathSqrt
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -3154,7 +3154,7 @@ IonBuilder
 :
 inlineMathPow
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -3906,7 +3906,7 @@ IonBuilder
 :
 inlineMathRandom
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -3989,7 +3989,7 @@ inlineMathMinMax
 (
 bool
 max
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -4189,7 +4189,7 @@ IonBuilder
 :
 inlineStringObject
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -4351,7 +4351,7 @@ IonBuilder
 :
 inlineStrCharCodeAt
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -4525,7 +4525,7 @@ IonBuilder
 :
 inlineStrFromCharCode
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -4650,7 +4650,7 @@ IonBuilder
 :
 inlineStrCharAt
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -4864,7 +4864,7 @@ IonBuilder
 :
 inlineRegExpTest
 (
-uint32
+uint32_t
 argc
 bool
 constructing

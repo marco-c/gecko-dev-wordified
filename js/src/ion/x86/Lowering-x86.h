@@ -243,7 +243,7 @@ lowerUntypedPhiInput
 MPhi
 *
 phi
-uint32
+uint32_t
 inputPosition
 LBlock
 *

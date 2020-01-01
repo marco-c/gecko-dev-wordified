@@ -833,7 +833,7 @@ id
 (
 )
 :
-int32
+int32_t
 (
 nextId
 +
@@ -1188,7 +1188,7 @@ predecessors
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1259,7 +1259,7 @@ successors
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1481,7 +1481,7 @@ n
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0

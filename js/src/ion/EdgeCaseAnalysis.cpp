@@ -206,7 +206,7 @@ NeedNegativeZeroCheck
 under
 analyzeEdgeCasesBackward
 .
-uint32
+uint32_t
 nextId
 =
 1

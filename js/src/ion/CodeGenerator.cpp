@@ -2407,7 +2407,7 @@ frameSize
 )
 )
 ;
-uint32
+uint32_t
 osiCallPointOffset
 ;
 if
@@ -3246,7 +3246,7 @@ type
 (
 )
 ;
-uint32
+uint32_t
 argslot
 =
 lir
@@ -3256,7 +3256,7 @@ argslot
 (
 )
 ;
-int32
+int32_t
 stack_offset
 =
 StackOffsetOfPassedArg
@@ -3365,7 +3365,7 @@ lir
 0
 )
 ;
-uint32
+uint32_t
 argslot
 =
 lir
@@ -3375,7 +3375,7 @@ argslot
 (
 )
 ;
-int32
+int32_t
 stack_offset
 =
 StackOffsetOfPassedArg
@@ -3600,7 +3600,7 @@ slots
 )
 )
 ;
-int32
+int32_t
 offset
 =
 store
@@ -4071,7 +4071,7 @@ getTempReg
 ;
 DebugOnly
 <
-uint32
+uint32_t
 >
 initialStack
 =
@@ -4268,7 +4268,7 @@ native
 exit
 frame
 .
-uint32
+uint32_t
 safepointOffset
 ;
 if
@@ -4697,7 +4697,7 @@ getArgVp
 ;
 DebugOnly
 <
-uint32
+uint32_t
 >
 initialStack
 =
@@ -5021,7 +5021,7 @@ native
 exit
 frame
 .
-uint32
+uint32_t
 safepointOffset
 ;
 if
@@ -5420,7 +5420,7 @@ JSContext
 *
 JSFunction
 *
-uint32
+uint32_t
 Value
 *
 Value
@@ -5451,9 +5451,9 @@ LInstruction
 call
 Register
 calleereg
-uint32
+uint32_t
 argc
-uint32
+uint32_t
 unusedStack
 )
 {
@@ -5659,7 +5659,7 @@ getNargsReg
 )
 )
 ;
-uint32
+uint32_t
 unusedStack
 =
 StackOffsetOfPassedArg
@@ -5951,7 +5951,7 @@ Construct
 the
 IonFramePrefix
 .
-uint32
+uint32_t
 descriptor
 =
 MakeFrameDescriptor
@@ -6204,7 +6204,7 @@ bind
 makeCall
 )
 ;
-uint32
+uint32_t
 callOffset
 =
 masm
@@ -6390,7 +6390,7 @@ getTempObject
 )
 )
 ;
-uint32
+uint32_t
 unusedStack
 =
 StackOffsetOfPassedArg
@@ -6761,7 +6761,7 @@ Construct
 the
 IonFramePrefix
 .
-uint32
+uint32_t
 descriptor
 =
 MakeFrameDescriptor
@@ -6815,7 +6815,7 @@ function
 in
 objreg
 .
-uint32
+uint32_t
 callOffset
 =
 masm
@@ -7038,7 +7038,7 @@ JSContext
 *
 JSObject
 *
-uint32
+uint32_t
 Value
 *
 Value
@@ -7114,7 +7114,7 @@ ToRegister
 callee
 )
 ;
-uint32
+uint32_t
 callargslot
 =
 call
@@ -7124,7 +7124,7 @@ argslot
 (
 )
 ;
-uint32
+uint32_t
 unusedStack
 =
 StackOffsetOfPassedArg
@@ -8614,7 +8614,7 @@ the
 paths
 above
 .
-uint32
+uint32_t
 callOffset
 =
 masm
@@ -8806,7 +8806,7 @@ generatePrologue
 .
 static
 const
-uint32
+uint32_t
 EntryTempMask
 =
 Registers
@@ -8974,7 +8974,7 @@ scopeChainSlot
 ;
 static
 const
-uint32
+uint32_t
 START_SLOT
 =
 1
@@ -8984,7 +8984,7 @@ mismatched
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 START_SLOT
@@ -9083,7 +9083,7 @@ an
 actual
 ScratchReg
 .
-int32
+int32_t
 offset
 =
 ArgToStackOffset
@@ -10044,7 +10044,7 @@ caller
 (
 )
 ;
-uint32
+uint32_t
 offset
 =
 resume
@@ -10179,10 +10179,10 @@ masm
 Sprinter
 printer
 ;
-uint32
+uint32_t
 instructionBytes
 ;
-uint32
+uint32_t
 spillBytes
 ;
 /
@@ -10202,11 +10202,11 @@ last
 instruction
 processed
 .
-uint32
+uint32_t
 *
 last
 ;
-uint32
+uint32_t
 lastLength
 ;
 public
@@ -10839,7 +10839,7 @@ NewInitArrayFn
 (
 JSContext
 *
-uint32
+uint32_t
 types
 :
 :
@@ -11208,7 +11208,7 @@ templateObject
 (
 )
 ;
-uint32
+uint32_t
 count
 =
 lir
@@ -16489,7 +16489,7 @@ isConstant
 /
 /
 Use
-uint32_t
+uint32
 so
 that
 the
@@ -16703,7 +16703,7 @@ LBoundsCheckRange
 lir
 )
 {
-int32
+int32_t
 min
 =
 lir
@@ -16718,7 +16718,7 @@ minimum
 (
 )
 ;
-int32
+int32_t
 max
 =
 lir
@@ -16770,11 +16770,11 @@ isConstant
 )
 )
 {
-int32
+int32_t
 nmin
 nmax
 ;
-int32
+int32_t
 index
 =
 ToInt32
@@ -16966,7 +16966,7 @@ snapshot
 return
 false
 ;
-int32
+int32_t
 diff
 ;
 if
@@ -17185,7 +17185,7 @@ LBoundsCheckLower
 lir
 )
 {
-int32
+int32_t
 min
 =
 lir
@@ -22081,7 +22081,7 @@ isConstant
 )
 )
 {
-int32
+int32_t
 i
 =
 index
@@ -22436,7 +22436,7 @@ executionMode
 )
 )
 ;
-uint32
+uint32_t
 scriptFrameSize
 =
 frameClass_
@@ -30435,7 +30435,7 @@ getValueReg
 ;
 DebugOnly
 <
-uint32
+uint32_t
 >
 initialStack
 =
@@ -30535,7 +30535,7 @@ StackPointer
 ObjectReg
 )
 ;
-uint32
+uint32_t
 safepointOffset
 ;
 if
@@ -30837,7 +30837,7 @@ getValueReg
 ;
 DebugOnly
 <
-uint32
+uint32_t
 >
 initialStack
 =
@@ -30946,7 +30946,7 @@ StackPointer
 ObjectReg
 )
 ;
-uint32
+uint32_t
 safepointOffset
 ;
 if

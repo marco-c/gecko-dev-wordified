@@ -141,7 +141,7 @@ SafepointWriter
 :
 init
 (
-uint32
+uint32_t
 slotCount
 )
 {
@@ -167,7 +167,7 @@ return
 true
 ;
 }
-uint32
+uint32_t
 SafepointWriter
 :
 :
@@ -196,7 +196,7 @@ length
 )
 ;
 return
-uint32
+uint32_t
 (
 stream_
 .
@@ -212,7 +212,7 @@ SafepointWriter
 :
 writeOsiCallPointOffset
 (
-uint32
+uint32_t
 osiCallPointOffset
 )
 {
@@ -231,7 +231,7 @@ WriteRegisterMask
 CompactBufferWriter
 &
 stream
-uint32
+uint32_t
 bits
 )
 {
@@ -508,9 +508,9 @@ set
 CompactBufferWriter
 &
 stream
-uint32
+uint32_t
 nslots
-uint32
+uint32_t
 *
 slots
 )
@@ -524,7 +524,7 @@ clear
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -600,7 +600,7 @@ rawLength
 (
 )
 ;
-uint32
+uint32_t
 *
 words
 =
@@ -667,7 +667,7 @@ ifdef
 DEBUG
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -749,7 +749,7 @@ ifdef
 DEBUG
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -951,7 +951,7 @@ nentries
 :
 /
 /
-uint16
+uint16_t
 :
 tttp
 ppXX
@@ -1037,14 +1037,14 @@ Part_Arg
 ;
 static
 const
-uint32
+uint32_t
 PART_KIND_BITS
 =
 3
 ;
 static
 const
-uint32
+uint32_t
 PART_KIND_MASK
 =
 (
@@ -1058,14 +1058,14 @@ PART_KIND_BITS
 ;
 static
 const
-uint32
+uint32_t
 PART_INFO_BITS
 =
 5
 ;
 static
 const
-uint32
+uint32_t
 PART_INFO_MASK
 =
 (
@@ -1079,7 +1079,7 @@ PART_INFO_BITS
 ;
 static
 const
-uint32
+uint32_t
 MAX_INFO_VALUE
 =
 (
@@ -1093,7 +1093,7 @@ PART_INFO_BITS
 ;
 static
 const
-uint32
+uint32_t
 TYPE_KIND_SHIFT
 =
 16
@@ -1102,7 +1102,7 @@ PART_KIND_BITS
 ;
 static
 const
-uint32
+uint32_t
 PAYLOAD_KIND_SHIFT
 =
 TYPE_KIND_SHIFT
@@ -1111,7 +1111,7 @@ PART_KIND_BITS
 ;
 static
 const
-uint32
+uint32_t
 TYPE_INFO_SHIFT
 =
 PAYLOAD_KIND_SHIFT
@@ -1120,7 +1120,7 @@ PART_INFO_BITS
 ;
 static
 const
-uint32
+uint32_t
 PAYLOAD_INFO_SHIFT
 =
 TYPE_INFO_SHIFT
@@ -1237,7 +1237,7 @@ const
 LAllocation
 &
 a
-uint32
+uint32_t
 *
 out
 )
@@ -1358,7 +1358,7 @@ IonSpew_Safepoints
 {
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1532,7 +1532,7 @@ to
 move
 structures
 .
-uint32
+uint32_t
 partials
 =
 safepoint
@@ -1611,7 +1611,7 @@ partials
 continue
 ;
 }
-uint16
+uint16_t
 header
 =
 0
@@ -1646,7 +1646,7 @@ payload
 PAYLOAD_KIND_SHIFT
 )
 ;
-uint32
+uint32_t
 typeVal
 ;
 bool
@@ -1688,7 +1688,7 @@ MAX_INFO_VALUE
 TYPE_INFO_SHIFT
 )
 ;
-uint32
+uint32_t
 payloadVal
 ;
 bool
@@ -1732,7 +1732,7 @@ PAYLOAD_INFO_SHIFT
 ;
 stream_
 .
-writeFixedUint16
+writeFixedUint16_t
 (
 header
 )
@@ -1782,7 +1782,7 @@ LSafepoint
 safepoint
 )
 {
-uint32
+uint32_t
 safepointOffset
 =
 startEntry
@@ -1867,7 +1867,7 @@ at
 %
 d
 "
-uint32
+uint32_t
 (
 stream_
 .
@@ -2012,7 +2012,7 @@ advanceFromGcRegs
 )
 ;
 }
-uint32
+uint32_t
 SafepointReader
 :
 :
@@ -2098,7 +2098,7 @@ SafepointReader
 :
 getSlotFromBitmap
 (
-uint32
+uint32_t
 *
 slot
 )
@@ -2184,7 +2184,7 @@ the
 slot
 chunk
 .
-uint32
+uint32_t
 bit
 ;
 JS_FLOOR_LOG2
@@ -2237,7 +2237,7 @@ currentSlotChunkNumber_
 *
 sizeof
 (
-uint32
+uint32_t
 )
 *
 8
@@ -2257,7 +2257,7 @@ SafepointReader
 :
 getGcSlot
 (
-uint32
+uint32_t
 *
 slot
 )
@@ -2314,7 +2314,7 @@ SafepointReader
 :
 getValueSlot
 (
-uint32
+uint32_t
 *
 slot
 )
@@ -2375,7 +2375,7 @@ CompactBufferReader
 stream
 NunboxPartKind
 kind
-uint32
+uint32_t
 info
 )
 {
@@ -2470,7 +2470,7 @@ header
 =
 stream_
 .
-readFixedUint16
+readFixedUint16_t
 (
 )
 ;
@@ -2508,7 +2508,7 @@ PAYLOAD_KIND_SHIFT
 PART_KIND_MASK
 )
 ;
-uint32
+uint32_t
 typeInfo
 =
 (
@@ -2520,7 +2520,7 @@ TYPE_INFO_SHIFT
 &
 PART_INFO_MASK
 ;
-uint32
+uint32_t
 payloadInfo
 =
 (

@@ -285,7 +285,7 @@ at
 }
 Requirement
 (
-uint32
+uint32_t
 vreg
 CodePosition
 at
@@ -342,7 +342,7 @@ return
 allocation_
 ;
 }
-uint32
+uint32_t
 virtualRegister
 (
 )
@@ -926,10 +926,10 @@ ranges_
 LAllocation
 alloc_
 ;
-uint32
+uint32_t
 vreg_
 ;
-uint32
+uint32_t
 index_
 ;
 Requirement
@@ -951,9 +951,9 @@ public
 :
 LiveInterval
 (
-uint32
+uint32_t
 vreg
-uint32
+uint32_t
 index
 )
 :
@@ -977,7 +977,7 @@ size_t
 }
 LiveInterval
 (
-uint32
+uint32_t
 index
 )
 :
@@ -1266,7 +1266,7 @@ vreg_
 UINT32_MAX
 ;
 }
-uint32
+uint32_t
 vreg
 (
 )
@@ -1283,7 +1283,7 @@ return
 vreg_
 ;
 }
-uint32
+uint32_t
 index
 (
 )
@@ -1296,7 +1296,7 @@ index_
 void
 setIndex
 (
-uint32
+uint32_t
 index
 )
 {
@@ -1566,7 +1566,7 @@ structures
 class
 VirtualRegister
 {
-uint32
+uint32_t
 id_
 ;
 LBlock
@@ -1611,7 +1611,7 @@ public
 bool
 init
 (
-uint32
+uint32_t
 id
 LBlock
 *
@@ -1679,7 +1679,7 @@ initial
 )
 ;
 }
-uint32
+uint32_t
 id
 (
 )
@@ -2025,7 +2025,7 @@ VREG
 *
 vregs_
 ;
-uint32
+uint32_t
 numVregs_
 ;
 public
@@ -2050,7 +2050,7 @@ init
 MIRGenerator
 *
 gen
-uint32
+uint32_t
 numVregs
 )
 {
@@ -2212,7 +2212,7 @@ virtualRegister
 ]
 ;
 }
-uint32
+uint32_t
 numVirtualRegisters
 (
 )

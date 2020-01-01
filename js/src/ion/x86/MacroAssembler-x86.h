@@ -192,13 +192,13 @@ nested
 bool
 inCall_
 ;
-uint32
+uint32_t
 args_
 ;
-uint32
+uint32_t
 passedArgs_
 ;
-uint32
+uint32_t
 stackForCall_
 ;
 bool
@@ -290,7 +290,7 @@ offset
 void
 setupABICall
 (
-uint32
+uint32_t
 args
 )
 ;
@@ -2958,7 +2958,7 @@ interface
 void
 reserveStack
 (
-uint32
+uint32_t
 amount
 )
 {
@@ -2984,7 +2984,7 @@ amount
 void
 freeStack
 (
-uint32
+uint32_t
 amount
 )
 {
@@ -3618,7 +3618,7 @@ const
 Register
 &
 reg
-uint32
+uint32_t
 arg
 )
 {
@@ -5326,7 +5326,7 @@ call
 void
 setupAlignedABICall
 (
-uint32
+uint32_t
 args
 )
 ;
@@ -5357,7 +5357,7 @@ register
 void
 setupUnalignedABICall
 (
-uint32
+uint32_t
 args
 const
 Register

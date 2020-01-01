@@ -188,10 +188,10 @@ EFFECTIVE_ADDRESS
 Kind
 kind_
 ;
-uint32
+uint32_t
 code_
 ;
-int32
+int32_t
 disp_
 ;
 public
@@ -264,7 +264,7 @@ const
 Register
 &
 reg
-int32
+int32_t
 disp
 AddressKind
 addrKind
@@ -460,7 +460,7 @@ code_
 )
 ;
 }
-int32
+int32_t
 disp
 (
 )

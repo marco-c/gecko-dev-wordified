@@ -161,10 +161,10 @@ LSafepoint
 ;
 static
 const
-uint32
+uint32_t
 INVALID_SAFEPOINT_OFFSET
 =
-uint32
+uint32_t
 (
 -
 1
@@ -185,7 +185,7 @@ public
 bool
 init
 (
-uint32
+uint32_t
 slotCount
 )
 ;
@@ -205,7 +205,7 @@ these
 functions
 appear
 .
-uint32
+uint32_t
 startEntry
 (
 )
@@ -213,7 +213,7 @@ startEntry
 void
 writeOsiCallPointOffset
 (
-uint32
+uint32_t
 osiPointOffset
 )
 ;
@@ -284,7 +284,7 @@ length
 ;
 }
 const
-uint8
+uint8_t
 *
 buffer
 (
@@ -307,16 +307,16 @@ SafepointReader
 CompactBufferReader
 stream_
 ;
-uint32
+uint32_t
 frameSlots_
 ;
-uint32
+uint32_t
 currentSlotChunk_
 ;
-uint32
+uint32_t
 currentSlotChunkNumber_
 ;
-uint32
+uint32_t
 osiCallPointOffset_
 ;
 GeneralRegisterSet
@@ -328,7 +328,7 @@ valueSpills_
 GeneralRegisterSet
 allSpills_
 ;
-uint32
+uint32_t
 nunboxSlotsRemaining_
 ;
 private
@@ -351,7 +351,7 @@ advanceFromValueSlots
 bool
 getSlotFromBitmap
 (
-uint32
+uint32_t
 *
 slot
 )
@@ -382,7 +382,7 @@ SafepointIndex
 si
 )
 ;
-uint32
+uint32_t
 osiCallPointOffset
 (
 )
@@ -422,7 +422,7 @@ return
 allSpills_
 ;
 }
-uint32
+uint32_t
 osiReturnPointOffset
 (
 )
@@ -448,7 +448,7 @@ slots
 bool
 getGcSlot
 (
-uint32
+uint32_t
 *
 slot
 )
@@ -474,7 +474,7 @@ slots
 bool
 getValueSlot
 (
-uint32
+uint32_t
 *
 slot
 )

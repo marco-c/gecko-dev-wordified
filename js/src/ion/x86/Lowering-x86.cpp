@@ -353,7 +353,7 @@ MInstruction
 mir
 )
 {
-uint32
+uint32_t
 index
 ;
 if
@@ -422,7 +422,7 @@ type
 MIRType_Double
 )
 {
-uint32
+uint32_t
 index
 ;
 if
@@ -662,7 +662,7 @@ defineBox
 (
 )
 .
-uint32
+uint32_t
 vreg
 =
 getVirtualRegister
@@ -1541,7 +1541,7 @@ lirIndex
 VREG_DATA_OFFSET
 )
 ;
-uint32
+uint32_t
 typeVreg
 =
 getVirtualRegister
@@ -1566,7 +1566,7 @@ setVirtualRegister
 typeVreg
 )
 ;
-uint32
+uint32_t
 payloadVreg
 =
 getVirtualRegister
@@ -1648,7 +1648,7 @@ lowerUntypedPhiInput
 MPhi
 *
 phi
-uint32
+uint32_t
 inputPosition
 LBlock
 *

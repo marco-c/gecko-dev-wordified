@@ -195,7 +195,7 @@ offsets
 .
 static
 const
-uint32
+uint32_t
 MAX_BUFFER_SIZE
 =
 (
@@ -220,14 +220,14 @@ slots
 .
 static
 const
-uint32
+uint32_t
 SNAPSHOT_MAX_NARGS
 =
 127
 ;
 static
 const
-uint32
+uint32_t
 SNAPSHOT_MAX_STACK
 =
 127
@@ -249,7 +249,7 @@ Cell
 {
 protected
 :
-uint8
+uint8_t
 *
 code_
 ;
@@ -260,7 +260,7 @@ ExecutablePool
 *
 pool_
 ;
-uint32
+uint32_t
 bufferSize_
 ;
 /
@@ -269,7 +269,7 @@ Total
 buffer
 size
 .
-uint32
+uint32_t
 insnSize_
 ;
 /
@@ -278,7 +278,7 @@ Instruction
 stream
 size
 .
-uint32
+uint32_t
 dataSize_
 ;
 /
@@ -292,7 +292,7 @@ only
 data
 area
 .
-uint32
+uint32_t
 jumpRelocTableBytes_
 ;
 /
@@ -304,7 +304,7 @@ jump
 relocation
 table
 .
-uint32
+uint32_t
 dataRelocTableBytes_
 ;
 /
@@ -355,10 +355,10 @@ NULL
 }
 IonCode
 (
-uint8
+uint8_t
 *
 code
-uint32
+uint32_t
 bufferSize
 JSC
 :
@@ -402,7 +402,7 @@ false
 )
 {
 }
-uint32
+uint32_t
 dataOffset
 (
 )
@@ -412,7 +412,7 @@ return
 insnSize_
 ;
 }
-uint32
+uint32_t
 jumpRelocTableOffset
 (
 )
@@ -426,7 +426,7 @@ dataOffset
 dataSize_
 ;
 }
-uint32
+uint32_t
 dataRelocTableOffset
 (
 )
@@ -442,7 +442,7 @@ jumpRelocTableBytes_
 }
 public
 :
-uint8
+uint8_t
 *
 raw
 (
@@ -575,7 +575,7 @@ IonCode
 *
 FromExecutable
 (
-uint8
+uint8_t
 *
 buffer
 )
@@ -631,7 +631,7 @@ code_
 )
 ;
 }
-uint8
+uint8_t
 *
 jumpRelocTable
 (
@@ -697,10 +697,10 @@ New
 JSContext
 *
 cx
-uint8
+uint8_t
 *
 code
-uint32
+uint32_t
 bufferSize
 JSC
 :
@@ -835,7 +835,7 @@ raw
 or
 0
 .
-uint32
+uint32_t
 osrEntryOffset_
 ;
 /
@@ -859,7 +859,7 @@ invalidation
 thunk
 )
 .
-uint32
+uint32_t
 invalidateEpilogueOffset_
 ;
 /
@@ -902,7 +902,7 @@ if
 we
 want
 .
-uint32
+uint32_t
 invalidateEpilogueDataOffset_
 ;
 /
@@ -935,10 +935,10 @@ its
 snapshot
 buffer
 .
-uint32
+uint32_t
 snapshots_
 ;
-uint32
+uint32_t
 snapshotsSize_
 ;
 /
@@ -951,10 +951,10 @@ to
 snapshot
 offsets
 .
-uint32
+uint32_t
 bailoutTable_
 ;
-uint32
+uint32_t
 bailoutEntries_
 ;
 /
@@ -967,10 +967,10 @@ stored
 in
 snapshots
 .
-uint32
+uint32_t
 constantTable_
 ;
-uint32
+uint32_t
 constantEntries_
 ;
 /
@@ -987,10 +987,10 @@ patch
 -
 delta
 .
-uint32
+uint32_t
 safepointIndexOffset_
 ;
-uint32
+uint32_t
 safepointIndexEntries_
 ;
 /
@@ -1010,7 +1010,7 @@ the
 /
 stack
 .
-uint32
+uint32_t
 frameSlots_
 ;
 /
@@ -1040,7 +1040,7 @@ a
 valid
 IonJSFrameLayout
 .
-uint32
+uint32_t
 frameSize_
 ;
 /
@@ -1053,10 +1053,10 @@ displacement
 to
 snapshot
 .
-uint32
+uint32_t
 osiIndexOffset_
 ;
-uint32
+uint32_t
 osiIndexEntries_
 ;
 /
@@ -1070,10 +1070,10 @@ the
 compiled
 code
 .
-uint32
+uint32_t
 cacheList_
 ;
-uint32
+uint32_t
 cacheEntries_
 ;
 /
@@ -1086,10 +1086,10 @@ pre
 -
 barriers
 .
-uint32
+uint32_t
 prebarrierList_
 ;
-uint32
+uint32_t
 prebarrierEntries_
 ;
 /
@@ -1105,10 +1105,10 @@ table
 in
 bytes
 .
-uint32
+uint32_t
 safepointsStart_
 ;
-uint32
+uint32_t
 safepointsSize_
 ;
 /
@@ -1122,10 +1122,10 @@ JSScript
 '
 s
 .
-uint32
+uint32_t
 scriptList_
 ;
-uint32
+uint32_t
 scriptEntries_
 ;
 /
@@ -1165,7 +1165,7 @@ non
 IM
 compileable
 function
-uint32
+uint32_t
 slowCallCount
 ;
 SnapshotOffset
@@ -1182,7 +1182,7 @@ SnapshotOffset
 (
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -1207,7 +1207,7 @@ HeapValue
 (
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -1256,7 +1256,7 @@ SafepointIndex
 (
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -1305,7 +1305,7 @@ OsiIndex
 (
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -1330,7 +1330,7 @@ IonCache
 (
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -1355,7 +1355,7 @@ CodeOffsetLabel
 (
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -1384,7 +1384,7 @@ JSScript
 reinterpret_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -1440,9 +1440,9 @@ New
 JSContext
 *
 cx
-uint32
+uint32_t
 frameLocals
-uint32
+uint32_t
 frameSize
 size_t
 snapshotsSize
@@ -1592,7 +1592,7 @@ osrPc_
 void
 setOsrEntryOffset
 (
-uint32
+uint32_t
 offset
 )
 {
@@ -1607,7 +1607,7 @@ osrEntryOffset_
 offset
 ;
 }
-uint32
+uint32_t
 osrEntryOffset
 (
 )
@@ -1620,7 +1620,7 @@ osrEntryOffset_
 bool
 containsCodeAddress
 (
-uint8
+uint8_t
 *
 addr
 )
@@ -1665,7 +1665,7 @@ instructionsSize
 bool
 containsReturnAddress
 (
-uint8
+uint8_t
 *
 addr
 )
@@ -1739,7 +1739,7 @@ instructionsSize
 void
 setInvalidationEpilogueOffset
 (
-uint32
+uint32_t
 offset
 )
 {
@@ -1754,7 +1754,7 @@ invalidateEpilogueOffset_
 offset
 ;
 }
-uint32
+uint32_t
 invalidateEpilogueOffset
 (
 )
@@ -1772,7 +1772,7 @@ invalidateEpilogueOffset_
 void
 setInvalidationEpilogueDataOffset
 (
-uint32
+uint32_t
 offset
 )
 {
@@ -1787,7 +1787,7 @@ invalidateEpilogueDataOffset_
 offset
 ;
 }
-uint32
+uint32_t
 invalidateEpilogueDataOffset
 (
 )
@@ -1823,7 +1823,7 @@ bailoutExpected_
 ;
 }
 const
-uint8
+uint8_t
 *
 snapshots
 (
@@ -1834,7 +1834,7 @@ return
 reinterpret_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -1855,7 +1855,7 @@ snapshotsSize_
 ;
 }
 const
-uint8
+uint8_t
 *
 safepoints
 (
@@ -1866,7 +1866,7 @@ return
 reinterpret_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (
@@ -1972,7 +1972,7 @@ return
 constantEntries_
 ;
 }
-uint32
+uint32_t
 frameSlots
 (
 )
@@ -1982,7 +1982,7 @@ return
 frameSlots_
 ;
 }
-uint32
+uint32_t
 frameSize
 (
 )
@@ -1995,7 +1995,7 @@ frameSize_
 SnapshotOffset
 bailoutToSnapshot
 (
-uint32
+uint32_t
 bailoutId
 )
 {
@@ -2020,7 +2020,7 @@ SafepointIndex
 *
 getSafepointIndex
 (
-uint32
+uint32_t
 disp
 )
 const
@@ -2030,7 +2030,7 @@ SafepointIndex
 *
 getSafepointIndex
 (
-uint8
+uint8_t
 *
 retAddr
 )
@@ -2065,7 +2065,7 @@ OsiIndex
 *
 getOsiIndex
 (
-uint32
+uint32_t
 disp
 )
 const
@@ -2075,7 +2075,7 @@ OsiIndex
 *
 getOsiIndex
 (
-uint8
+uint8_t
 *
 retAddr
 )
@@ -2335,7 +2335,7 @@ IonBlockCounts
 {
 private
 :
-uint32
+uint32_t
 id_
 ;
 /
@@ -2358,7 +2358,7 @@ was
 generated
 from
 .
-uint32
+uint32_t
 offset_
 ;
 /
@@ -2370,10 +2370,10 @@ of
 this
 block
 .
-uint32
+uint32_t
 numSuccessors_
 ;
-uint32
+uint32_t
 *
 successors_
 ;
@@ -2385,7 +2385,7 @@ for
 this
 block
 .
-uint64
+uint64_t
 hitCount_
 ;
 /
@@ -2429,10 +2429,10 @@ instruction
 implementing
 code
 .
-uint32
+uint32_t
 instructionBytes_
 ;
-uint32
+uint32_t
 spillBytes_
 ;
 public
@@ -2440,11 +2440,11 @@ public
 bool
 init
 (
-uint32
+uint32_t
 id
-uint32
+uint32_t
 offset
-uint32
+uint32_t
 numSuccessors
 )
 {
@@ -2468,7 +2468,7 @@ numSuccessors
 successors_
 =
 (
-uint32
+uint32_t
 *
 )
 js_calloc
@@ -2477,7 +2477,7 @@ numSuccessors
 *
 sizeof
 (
-uint32
+uint32_t
 )
 )
 ;
@@ -2518,7 +2518,7 @@ code_
 )
 ;
 }
-uint32
+uint32_t
 id
 (
 )
@@ -2528,7 +2528,7 @@ return
 id_
 ;
 }
-uint32
+uint32_t
 offset
 (
 )
@@ -2553,7 +2553,7 @@ setSuccessor
 (
 size_t
 i
-uint32
+uint32_t
 id
 )
 {
@@ -2572,7 +2572,7 @@ i
 id
 ;
 }
-uint32
+uint32_t
 successor
 (
 size_t
@@ -2594,7 +2594,7 @@ i
 ]
 ;
 }
-uint64
+uint64_t
 *
 addressOfHitCount
 (
@@ -2605,7 +2605,7 @@ return
 hitCount_
 ;
 }
-uint64
+uint64_t
 hitCount
 (
 )
@@ -2674,7 +2674,7 @@ code_
 void
 setInstructionBytes
 (
-uint32
+uint32_t
 bytes
 )
 {
@@ -2683,7 +2683,7 @@ instructionBytes_
 bytes
 ;
 }
-uint32
+uint32_t
 instructionBytes
 (
 )
@@ -2696,7 +2696,7 @@ instructionBytes_
 void
 setSpillBytes
 (
-uint32
+uint32_t
 bytes
 )
 {
@@ -2705,7 +2705,7 @@ spillBytes_
 bytes
 ;
 }
-uint32
+uint32_t
 spillBytes
 (
 )

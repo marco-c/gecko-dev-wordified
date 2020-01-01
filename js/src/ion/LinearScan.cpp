@@ -4047,7 +4047,7 @@ firstSafepoint
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -4779,7 +4779,7 @@ the
 base
 slot
 .
-uint32
+uint32_t
 payloadSlot
 =
 payload
@@ -4789,7 +4789,7 @@ canonicalSpillSlot
 (
 )
 ;
-uint32
+uint32_t
 slot
 =
 BaseOfNunboxSlot
@@ -6187,7 +6187,7 @@ start
 )
 ]
 ;
-uint32
+uint32_t
 loopDepthAtDef
 =
 reg
@@ -6207,7 +6207,7 @@ loopDepth
 (
 )
 ;
-uint32
+uint32_t
 loopDepthAtSpill
 =
 other
@@ -6334,7 +6334,7 @@ other
 }
 #
 endif
-uint32
+uint32_t
 LinearScanAllocator
 :
 :
@@ -6737,7 +6737,7 @@ canonicalSpill
 )
 ;
 }
-uint32
+uint32_t
 stackSlot
 ;
 #
@@ -8208,7 +8208,7 @@ largest
 value
 for
 (
-uint32
+uint32_t
 i
 =
 0

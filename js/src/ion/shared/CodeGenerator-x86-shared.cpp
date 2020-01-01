@@ -224,7 +224,7 @@ copy
 IonCode
 *
 code
-uint8
+uint8_t
 *
 buffer
 )
@@ -305,7 +305,7 @@ label
 (
 )
 ;
-uint32
+uint32_t
 offset
 =
 caseheader
@@ -1935,7 +1935,7 @@ operator
 MacroAssembler
 &
 masm
-uint8
+uint8_t
 *
 code
 )
@@ -2014,7 +2014,7 @@ operator
 MacroAssembler
 &
 masm
-uint8
+uint8_t
 *
 code
 )
@@ -4039,7 +4039,7 @@ on
 0
 .
 0
-int32
+int32_t
 constant
 =
 ToInt32
@@ -4230,7 +4230,7 @@ is
 power
 of
 2
-int32
+int32_t
 shift
 ;
 JS_FLOOR_LOG2
@@ -5037,7 +5037,7 @@ getOperand
 )
 )
 ;
-int32
+int32_t
 shift
 =
 ins
@@ -6690,7 +6690,7 @@ is
 out
 of
 range
-int32
+int32_t
 cases
 =
 mir

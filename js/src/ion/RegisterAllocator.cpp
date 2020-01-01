@@ -421,7 +421,7 @@ k
 +
 )
 {
-uint32
+uint32_t
 vreg
 =
 phi
@@ -589,7 +589,7 @@ k
 +
 )
 {
-uint32
+uint32_t
 vreg
 =
 ins
@@ -1194,7 +1194,7 @@ next
 )
 )
 {
-uint32
+uint32_t
 vreg
 =
 info
@@ -1343,7 +1343,7 @@ block
 LInstruction
 *
 ins
-uint32
+uint32_t
 vreg
 LAllocation
 alloc
@@ -2178,7 +2178,7 @@ j
 +
 )
 {
-uint32
+uint32_t
 newvreg
 =
 info
@@ -2337,7 +2337,7 @@ addPredecessor
 LBlock
 *
 block
-uint32
+uint32_t
 vreg
 LAllocation
 alloc
@@ -3108,7 +3108,7 @@ next
 )
 )
 {
-uint32
+uint32_t
 vreg
 =
 info
@@ -3550,7 +3550,7 @@ RegisterAllocator
 :
 getInputMoveGroup
 (
-uint32
+uint32_t
 ins
 )
 {
@@ -3658,7 +3658,7 @@ RegisterAllocator
 :
 getMoveGroupAfter
 (
-uint32
+uint32_t
 ins
 )
 {

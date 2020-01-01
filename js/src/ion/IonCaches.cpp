@@ -3334,7 +3334,7 @@ aligned
 ?
 DebugOnly
 <
-uint32
+uint32_t
 >
 initialStack
 =
@@ -6935,7 +6935,7 @@ aligned
 .
 DebugOnly
 <
-uint32
+uint32_t
 >
 initialStack
 =

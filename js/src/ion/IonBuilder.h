@@ -248,7 +248,7 @@ in
 the
 cfgStack
 .
-uint32
+uint32_t
 cfgEntry
 ;
 /
@@ -265,7 +265,7 @@ continuepc
 ;
 ControlFlowInfo
 (
-uint32
+uint32_t
 cfgEntry
 jsbytecode
 *
@@ -711,7 +711,7 @@ into
 a
 block
 .
-uint32
+uint32_t
 currentBlock
 ;
 }
@@ -773,7 +773,7 @@ into
 a
 block
 .
-uint32
+uint32_t
 currentBlock
 ;
 }
@@ -923,7 +923,7 @@ size_t
 inliningDepth
 =
 0
-uint32
+uint32_t
 loopDepth
 =
 0
@@ -985,7 +985,7 @@ JSOp
 op
 )
 ;
-uint32
+uint32_t
 readIndex
 (
 jsbytecode
@@ -1039,7 +1039,7 @@ JSFunction
 *
 getSingleCallTarget
 (
-uint32
+uint32_t
 argc
 jsbytecode
 *
@@ -1049,7 +1049,7 @@ pc
 unsigned
 getPolyCallTargets
 (
-uint32
+uint32_t
 argc
 jsbytecode
 *
@@ -1309,7 +1309,7 @@ addBlock
 MBasicBlock
 *
 block
-uint32
+uint32_t
 loopDepth
 )
 ;
@@ -1335,7 +1335,7 @@ predecessor
 jsbytecode
 *
 pc
-uint32
+uint32_t
 loopDepth
 )
 ;
@@ -1785,7 +1785,7 @@ makeCall
 (
 HandleFunction
 target
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -1830,7 +1830,7 @@ JSObject
 *
 getNewArrayTemplateObject
 (
-uint32
+uint32_t
 count
 )
 ;
@@ -2085,7 +2085,7 @@ jsop_neg
 bool
 jsop_defvar
 (
-uint32
+uint32_t
 index
 )
 ;
@@ -2097,21 +2097,21 @@ jsop_notearg
 bool
 jsop_funcall
 (
-uint32
+uint32_t
 argc
 )
 ;
 bool
 jsop_funapply
 (
-uint32
+uint32_t
 argc
 )
 ;
 bool
 jsop_call
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2285,7 +2285,7 @@ name
 bool
 jsop_newarray
 (
-uint32
+uint32_t
 count
 )
 ;
@@ -2340,7 +2340,7 @@ fun
 bool
 jsop_deflocalfun
 (
-uint32
+uint32_t
 local
 JSFunction
 *
@@ -2365,7 +2365,7 @@ jsop_toid
 bool
 jsop_iter
 (
-uint8
+uint8_t
 flags
 )
 ;
@@ -2435,7 +2435,7 @@ helpers
 bool
 discardCallArgs
 (
-uint32
+uint32_t
 argc
 MDefinitionVector
 &
@@ -2448,7 +2448,7 @@ bb
 bool
 discardCall
 (
-uint32
+uint32_t
 argc
 MDefinitionVector
 &
@@ -2479,18 +2479,18 @@ StackTypeSet
 *
 getInlineArgTypeSet
 (
-uint32
+uint32_t
 argc
-uint32
+uint32_t
 arg
 )
 ;
 MIRType
 getInlineArgType
 (
-uint32
+uint32_t
 argc
-uint32
+uint32_t
 arg
 )
 ;
@@ -2502,7 +2502,7 @@ natives
 InliningStatus
 inlineArray
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2516,7 +2516,7 @@ MArrayPopShift
 :
 Mode
 mode
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2525,7 +2525,7 @@ constructing
 InliningStatus
 inlineArrayPush
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2534,7 +2534,7 @@ constructing
 InliningStatus
 inlineArrayConcat
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2548,7 +2548,7 @@ natives
 InliningStatus
 inlineMathAbs
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2557,7 +2557,7 @@ constructing
 InliningStatus
 inlineMathFloor
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2566,7 +2566,7 @@ constructing
 InliningStatus
 inlineMathRound
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2575,7 +2575,7 @@ constructing
 InliningStatus
 inlineMathSqrt
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2586,7 +2586,7 @@ inlineMathMinMax
 (
 bool
 max
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2595,7 +2595,7 @@ constructing
 InliningStatus
 inlineMathPow
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2604,7 +2604,7 @@ constructing
 InliningStatus
 inlineMathRandom
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2618,7 +2618,7 @@ MMathFunction
 :
 Function
 function
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2632,7 +2632,7 @@ natives
 InliningStatus
 inlineStringObject
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2641,7 +2641,7 @@ constructing
 InliningStatus
 inlineStrCharCodeAt
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2650,7 +2650,7 @@ constructing
 InliningStatus
 inlineStrFromCharCode
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2659,7 +2659,7 @@ constructing
 InliningStatus
 inlineStrCharAt
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2673,7 +2673,7 @@ natives
 InliningStatus
 inlineRegExpTest
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2684,7 +2684,7 @@ inlineNativeCall
 (
 JSNative
 native
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2695,7 +2695,7 @@ jsop_call_inline
 (
 HandleFunction
 callee
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2722,7 +2722,7 @@ inlineScriptedCall
 AutoObjectVector
 &
 targets
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2746,7 +2746,7 @@ makeInliningDecision
 AutoObjectVector
 &
 targets
-uint32
+uint32_t
 argc
 )
 ;
@@ -2756,7 +2756,7 @@ makeCallHelper
 (
 HandleFunction
 target
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -2767,7 +2767,7 @@ makeCallBarrier
 (
 HandleFunction
 target
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -3046,7 +3046,7 @@ MBasicBlock
 *
 current
 ;
-uint32
+uint32_t
 loopDepth_
 ;
 /

@@ -148,7 +148,7 @@ AssemblerX86Shared
 :
 copyJumpRelocationTable
 (
-uint8
+uint8_t
 *
 dest
 )
@@ -183,7 +183,7 @@ AssemblerX86Shared
 :
 copyDataRelocationTable
 (
-uint8
+uint8_t
 *
 dest
 )
@@ -219,7 +219,7 @@ TraceDataRelocations
 JSTracer
 *
 trc
-uint8
+uint8_t
 *
 buffer
 CompactBufferReader
@@ -500,7 +500,7 @@ IonCode
 FromExecutable
 (
 (
-uint8
+uint8_t
 *
 )
 rp
@@ -529,7 +529,7 @@ IonCode
 FromExecutable
 (
 (
-uint8
+uint8_t
 *
 )
 rp
@@ -598,7 +598,7 @@ processDeferredData
 IonCode
 *
 code
-uint8
+uint8_t
 *
 data
 )

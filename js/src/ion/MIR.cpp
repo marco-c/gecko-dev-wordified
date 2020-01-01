@@ -739,7 +739,7 @@ MDefinition
 Op_Ursh
 :
 {
-uint32
+uint32_t
 unsignedLhs
 =
 (
@@ -755,7 +755,7 @@ ret
 .
 setNumber
 (
-uint32
+uint32_t
 (
 unsignedLhs
 >
@@ -1034,7 +1034,7 @@ i
 +
 )
 {
-uint32
+uint32_t
 valueNumber
 =
 getOperand
@@ -1730,7 +1730,7 @@ inline
 bool
 IsPowerOfTwo
 (
-uint32
+uint32_t
 n
 )
 {
@@ -2166,7 +2166,7 @@ MParameter
 :
 New
 (
-int32
+int32_t
 index
 const
 types
@@ -2516,9 +2516,9 @@ New
 MDefinition
 *
 ins
-int32
+int32_t
 low
-int32
+int32_t
 high
 )
 {
@@ -2564,7 +2564,7 @@ MPhi
 :
 New
 (
-uint32
+uint32_t
 slot
 )
 {
@@ -2806,7 +2806,7 @@ ins
 )
 ;
 }
-uint32
+uint32_t
 MPrepareCall
 :
 :
@@ -7908,7 +7908,7 @@ value
 (
 )
 ;
-uint32
+uint32_t
 ret
 =
 ToInt32

@@ -334,7 +334,7 @@ FrameSizeClass
 :
 FromDepth
 (
-uint32
+uint32_t
 frameDepth
 )
 {
@@ -362,7 +362,7 @@ FrameSizeClass
 )
 ;
 }
-uint32
+uint32_t
 FrameSizeClass
 :
 :
@@ -910,7 +910,7 @@ input
 )
 )
 ;
-int32
+int32_t
 offset
 =
 load
@@ -1060,7 +1060,7 @@ input
 )
 )
 ;
-int32
+int32_t
 offset
 =
 load
@@ -1356,7 +1356,7 @@ slots
 )
 )
 ;
-int32
+int32_t
 offset
 =
 store

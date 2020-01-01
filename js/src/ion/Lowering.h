@@ -256,7 +256,7 @@ call
 argument
 vectors
 .
-uint32
+uint32_t
 argslots_
 ;
 /
@@ -268,7 +268,7 @@ for
 framesizeclass
 determination
 .
-uint32
+uint32_t
 maxargslots_
 ;
 public
@@ -403,7 +403,7 @@ call
 void
 allocateArguments
 (
-uint32
+uint32_t
 argc
 )
 ;
@@ -439,14 +439,14 @@ indexed
 from
 0
 .
-uint32
+uint32_t
 getArgumentSlot
 (
-uint32
+uint32_t
 argnum
 )
 ;
-uint32
+uint32_t
 getArgumentSlotForCall
 (
 )
@@ -468,7 +468,7 @@ call
 void
 freeArguments
 (
-uint32
+uint32_t
 argc
 )
 ;

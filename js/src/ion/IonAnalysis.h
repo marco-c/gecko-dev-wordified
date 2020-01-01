@@ -271,7 +271,7 @@ MDefinition
 *
 term
 ;
-int32
+int32_t
 constant
 ;
 SimpleLinearSum
@@ -279,7 +279,7 @@ SimpleLinearSum
 MDefinition
 *
 term
-int32
+int32_t
 constant
 )
 :
@@ -330,7 +330,7 @@ MDefinition
 *
 term
 ;
-int32
+int32_t
 scale
 ;
 LinearTerm
@@ -338,7 +338,7 @@ LinearTerm
 MDefinition
 *
 term
-int32
+int32_t
 scale
 )
 :
@@ -444,7 +444,7 @@ i
 bool
 multiply
 (
-int32
+int32_t
 scale
 )
 ;
@@ -463,18 +463,18 @@ add
 MDefinition
 *
 term
-int32
+int32_t
 scale
 )
 ;
 bool
 add
 (
-int32
+int32_t
 constant
 )
 ;
-int32
+int32_t
 constant
 (
 )
@@ -532,7 +532,7 @@ IonAllocPolicy
 >
 terms_
 ;
-int32
+int32_t
 constant_
 ;
 }

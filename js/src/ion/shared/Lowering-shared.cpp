@@ -336,7 +336,7 @@ getPhi
 lirIndex
 )
 ;
-uint32
+uint32_t
 vreg
 =
 getVirtualRegister
@@ -403,7 +403,7 @@ lowerTypedPhiInput
 MPhi
 *
 phi
-uint32
+uint32_t
 inputPosition
 LBlock
 *

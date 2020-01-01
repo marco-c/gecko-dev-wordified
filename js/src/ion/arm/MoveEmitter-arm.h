@@ -170,7 +170,7 @@ stack
 push
 value
 .
-uint32
+uint32_t
 pushedAtStart_
 ;
 /
@@ -214,13 +214,13 @@ that
 particular
 spill
 .
-int32
+int32_t
 pushedAtCycle_
 ;
-int32
+int32_t
 pushedAtSpill_
 ;
-int32
+int32_t
 pushedAtDoubleSpill_
 ;
 /

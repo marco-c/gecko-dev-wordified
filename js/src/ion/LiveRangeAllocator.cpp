@@ -2642,7 +2642,7 @@ LDefinition
 PASSTHROUGH
 )
 {
-uint32
+uint32_t
 reg
 =
 def
@@ -3379,7 +3379,7 @@ positionInPhiSuccessor
 )
 )
 ;
-uint32
+uint32_t
 reg
 =
 use

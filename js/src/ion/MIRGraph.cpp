@@ -777,7 +777,7 @@ stackPosition_
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1138,7 +1138,7 @@ numOperands
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1292,7 +1292,7 @@ MBasicBlock
 :
 getSlot
 (
-uint32
+uint32_t
 index
 )
 {
@@ -1316,7 +1316,7 @@ MBasicBlock
 :
 initSlot
 (
-uint32
+uint32_t
 slot
 MDefinition
 *
@@ -1470,7 +1470,7 @@ resumePoint
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1543,7 +1543,7 @@ MBasicBlock
 :
 setSlot
 (
-uint32
+uint32_t
 slot
 MDefinition
 *
@@ -1564,7 +1564,7 @@ MBasicBlock
 :
 setVariable
 (
-uint32
+uint32_t
 index
 )
 {
@@ -1597,7 +1597,7 @@ MBasicBlock
 :
 setArg
 (
-uint32
+uint32_t
 arg
 )
 {
@@ -1618,7 +1618,7 @@ MBasicBlock
 :
 setLocal
 (
-uint32
+uint32_t
 local
 )
 {
@@ -1639,7 +1639,7 @@ MBasicBlock
 :
 setSlot
 (
-uint32
+uint32_t
 slot
 )
 {
@@ -1655,7 +1655,7 @@ MBasicBlock
 :
 rewriteSlot
 (
-uint32
+uint32_t
 slot
 MDefinition
 *
@@ -1675,7 +1675,7 @@ MBasicBlock
 :
 rewriteAtDepth
 (
-int32
+int32_t
 depth
 MDefinition
 *
@@ -1750,7 +1750,7 @@ MBasicBlock
 :
 pushVariable
 (
-uint32
+uint32_t
 slot
 )
 {
@@ -1769,7 +1769,7 @@ MBasicBlock
 :
 pushArg
 (
-uint32
+uint32_t
 arg
 )
 {
@@ -1790,7 +1790,7 @@ MBasicBlock
 :
 pushLocal
 (
-uint32
+uint32_t
 local
 )
 {
@@ -1811,7 +1811,7 @@ MBasicBlock
 :
 pushSlot
 (
-uint32
+uint32_t
 slot
 )
 {
@@ -1902,7 +1902,7 @@ MBasicBlock
 :
 pick
 (
-int32
+int32_t
 depth
 )
 {
@@ -1985,11 +1985,11 @@ MBasicBlock
 :
 swapAt
 (
-int32
+int32_t
 depth
 )
 {
-uint32
+uint32_t
 lhsDepth
 =
 stackPosition_
@@ -1998,7 +1998,7 @@ depth
 -
 1
 ;
-uint32
+uint32_t
 rhsDepth
 =
 stackPosition_
@@ -2039,7 +2039,7 @@ MBasicBlock
 :
 peek
 (
-int32
+int32_t
 depth
 )
 {
@@ -2854,7 +2854,7 @@ stackPosition_
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -3261,7 +3261,7 @@ MBasicBlock
 other
 )
 {
-uint32
+uint32_t
 high
 =
 domIndex
@@ -3272,7 +3272,7 @@ numDominated
 (
 )
 ;
-uint32
+uint32_t
 low
 =
 domIndex
@@ -3391,7 +3391,7 @@ entry
 .
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -4088,7 +4088,7 @@ n
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0

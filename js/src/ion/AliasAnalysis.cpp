@@ -181,7 +181,7 @@ AliasSetIterator
 {
 private
 :
-uint32
+uint32_t
 flags
 ;
 unsigned
@@ -620,7 +620,7 @@ to
 denote
 failure
 .
-uint32
+uint32_t
 newId
 =
 1

@@ -428,7 +428,7 @@ Default
 :
 10
 240
-uint32
+uint32_t
 usesBeforeCompile
 ;
 /
@@ -459,7 +459,7 @@ disabled
 Default
 :
 40
-uint32
+uint32_t
 usesBeforeCompileNoJaeger
 ;
 /
@@ -487,7 +487,7 @@ Default
 :
 10
 240
-uint32
+uint32_t
 usesBeforeInlining
 ;
 /
@@ -511,7 +511,7 @@ Default
 :
 4
 096
-uint32
+uint32_t
 maxStackArgs
 ;
 /
@@ -528,7 +528,7 @@ depth
 Default
 :
 3
-uint32
+uint32_t
 maxInlineDepth
 ;
 /
@@ -581,7 +581,7 @@ in
 Default
 :
 100
-uint32
+uint32_t
 smallFunctionMaxBytecodeLength
 ;
 /
@@ -634,7 +634,7 @@ Default
 usesBeforeInlining
 /
 4
-uint32
+uint32_t
 smallFunctionUsesBeforeInlining
 ;
 /
@@ -659,7 +659,7 @@ site
 Default
 :
 4
-uint32
+uint32_t
 polyInlineMax
 ;
 /
@@ -682,7 +682,7 @@ site
 Default
 :
 800
-uint32
+uint32_t
 inlineMaxTotalBytecodeLength
 ;
 /
@@ -714,7 +714,7 @@ functions
 Default
 :
 128
-uint32
+uint32_t
 inlineUseCountRatio
 ;
 /
@@ -771,7 +771,7 @@ IonMonkey
 default
 512
 )
-uint32
+uint32_t
 slowCallLimit
 ;
 /
@@ -836,7 +836,7 @@ fastpath
 Default
 :
 5
-uint32
+uint32_t
 slowCallIncUseCount
 ;
 void

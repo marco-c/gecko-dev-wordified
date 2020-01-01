@@ -169,7 +169,7 @@ refactor
 class
 IonCommonFrameLayout
 {
-uint8
+uint8_t
 *
 returnAddress_
 ;
@@ -288,7 +288,7 @@ FRAMESIZE_SHIFT
 type
 ;
 }
-uint8
+uint8_t
 *
 returnAddress
 (
@@ -517,7 +517,7 @@ uintptr_t
 *
 slotRef
 (
-uint32
+uint32_t
 slot
 )
 {
@@ -528,7 +528,7 @@ uintptr_t
 )
 (
 (
-uint8
+uint8_t
 *
 )
 this
@@ -841,7 +841,7 @@ public
 IonCommonFrameLayout
 {
 inline
-uint8
+uint8_t
 *
 top
 (
@@ -850,7 +850,7 @@ top
 return
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -903,13 +903,13 @@ footer
 (
 )
 {
-uint8
+uint8_t
 *
 sp
 =
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -978,7 +978,7 @@ generateVMWrapper
 function
 .
 inline
-uint8
+uint8_t
 *
 argBase
 (
@@ -2006,13 +2006,13 @@ IonScript
 *
 ionScript_
 ;
-uint8
+uint8_t
 *
 osiPointReturnAddress_
 ;
 public
 :
-uint8
+uint8_t
 *
 sp
 (
@@ -2021,7 +2021,7 @@ const
 {
 return
 (
-uint8
+uint8_t
 *
 )
 this
@@ -2066,7 +2066,7 @@ return
 ionScript_
 ;
 }
-uint8
+uint8_t
 *
 osiPointReturnAddress
 (

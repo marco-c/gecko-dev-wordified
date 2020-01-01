@@ -120,7 +120,7 @@ ion
 {
 static
 inline
-int32
+int32_t
 ToInt32
 (
 const

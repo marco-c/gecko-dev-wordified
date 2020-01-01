@@ -569,7 +569,7 @@ code
 }
 static
 inline
-int32
+int32_t
 ToStackIndex
 (
 LAllocation
@@ -646,7 +646,7 @@ snapshot
 MResumePoint
 *
 resumePoint
-uint32
+uint32_t
 *
 startIndex
 )
@@ -688,7 +688,7 @@ startIndex
 ;
 for
 (
-uint32
+uint32_t
 slotno
 =
 0
@@ -707,7 +707,7 @@ slotno
 +
 )
 {
-uint32
+uint32_t
 i
 =
 slotno
@@ -998,7 +998,7 @@ toInt32
 }
 else
 {
-uint32
+uint32_t
 index
 ;
 if
@@ -1037,7 +1037,7 @@ case
 MIRType_Magic
 :
 {
-uint32
+uint32_t
 index
 ;
 if
@@ -1282,7 +1282,7 @@ INVALID_SNAPSHOT_OFFSET
 return
 true
 ;
-uint32
+uint32_t
 frameCount
 =
 snapshot
@@ -1401,7 +1401,7 @@ init
 return
 false
 ;
-uint32
+uint32_t
 startIndex
 =
 0
@@ -1497,7 +1497,7 @@ pc
 (
 )
 ;
-uint32
+uint32_t
 exprStack
 =
 mir
@@ -1612,27 +1612,27 @@ instruction
 (
 )
 ;
-uint32
+uint32_t
 pcOpcode
 =
 0
 ;
-uint32
+uint32_t
 lirOpcode
 =
 0
 ;
-uint32
+uint32_t
 lirId
 =
 0
 ;
-uint32
+uint32_t
 mirOpcode
 =
 0
 ;
-uint32
+uint32_t
 mirId
 =
 0
@@ -2039,7 +2039,7 @@ CodeGeneratorShared
 :
 markSafepointAt
 (
-uint32
+uint32_t
 offset
 LInstruction
 *
@@ -2068,7 +2068,7 @@ displacement
 =
 sizeof
 (
-uint32
+uint32_t
 )
 )
 ;
@@ -2264,7 +2264,7 @@ patchWrite_NearCallSize
 )
 )
 {
-int32
+int32_t
 paddingSize
 =
 Assembler
@@ -2287,7 +2287,7 @@ lastOsiPointOffset_
 ;
 for
 (
-int32
+int32_t
 i
 =
 0
@@ -2344,7 +2344,7 @@ markOsiPoint
 LOsiPoint
 *
 ins
-uint32
+uint32_t
 *
 callPointOffset
 )
@@ -2656,7 +2656,7 @@ another
 LIR
 instruction
 .
-uint32
+uint32_t
 callOffset
 ;
 if
