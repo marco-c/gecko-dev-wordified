@@ -15812,7 +15812,7 @@ cnt
 )
 \
 return
-ErrorInvalidOperation
+ErrorInvalidValue
 (
 #
 name
