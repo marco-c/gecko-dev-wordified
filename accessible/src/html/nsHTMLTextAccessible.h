@@ -195,12 +195,6 @@ NativeRole
 (
 )
 ;
-virtual
-PRUint64
-NativeState
-(
-)
-;
 }
 ;
 /
