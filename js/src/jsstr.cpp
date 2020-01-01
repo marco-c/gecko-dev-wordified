@@ -4666,9 +4666,8 @@ methods
 .
 *
 /
-static
 JSBool
-str_substring
+js_str_substring
 (
 JSContext
 *
@@ -13899,7 +13898,7 @@ JS_FN
 "
 substring
 "
-str_substring
+js_str_substring
 0
 2
 GENERIC_PRIMITIVE
