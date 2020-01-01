@@ -163,6 +163,17 @@ h
 "
 #
 endif
+/
+/
+For
+PRUnichar
+#
+include
+"
+prtypes
+.
+h
+"
 #
 include
 NEW_H

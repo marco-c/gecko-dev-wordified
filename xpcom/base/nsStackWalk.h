@@ -139,13 +139,6 @@ StandardInteger
 h
 >
 #
-include
-"
-prtypes
-.
-h
-"
-#
 ifdef
 __cplusplus
 extern
