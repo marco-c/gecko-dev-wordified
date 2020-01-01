@@ -8252,6 +8252,14 @@ aMimeType
 .
 EqualsLiteral
 (
+TEXT_CACHE_MANIFEST
+)
+|
+|
+aMimeType
+.
+EqualsLiteral
+(
 TEXT_CSS
 )
 |

@@ -2973,6 +2973,14 @@ contentType
 .
 EqualsLiteral
 (
+TEXT_CACHE_MANIFEST
+)
+|
+|
+contentType
+.
+EqualsLiteral
+(
 APPLICATION_JAVASCRIPT
 )
 |

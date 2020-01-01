@@ -1158,6 +1158,16 @@ stream
 "
 #
 define
+TEXT_CACHE_MANIFEST
+"
+text
+/
+cache
+-
+manifest
+"
+#
+define
 VIDEO_MPEG
 "
 video
