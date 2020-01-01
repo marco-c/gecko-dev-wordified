@@ -4653,7 +4653,7 @@ undef
 DEF_KIND_STR
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -7401,7 +7401,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid

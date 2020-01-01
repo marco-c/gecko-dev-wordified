@@ -1330,7 +1330,7 @@ op
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unrecognized
@@ -1407,7 +1407,7 @@ JSOP_STRICTNE
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unrecognized
@@ -1740,7 +1740,7 @@ ThisSlot
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Bad

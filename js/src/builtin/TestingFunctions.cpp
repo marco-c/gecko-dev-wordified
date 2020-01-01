@@ -2796,7 +2796,7 @@ sweep
 "
 ;
 else
-JS_NOT_REACHED
+MOZ_NOT_REACHED
 (
 "
 Unobserveable

@@ -2592,9 +2592,6 @@ NYI
 "
 )
 ;
-return
-false
-;
 }
 template
 <
@@ -2790,9 +2787,6 @@ NYI
 "
 )
 ;
-return
-false
-;
 }
 bool
 SparseElementsHeader
@@ -2844,9 +2838,6 @@ MOZ_NOT_REACHED
 NYI
 "
 )
-;
-return
-false
 ;
 }
 bool
@@ -3793,7 +3784,7 @@ isProxy
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NYI
@@ -4111,7 +4102,7 @@ return
 true
 ;
 }
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NYI
@@ -4400,7 +4391,7 @@ desc
 )
 ;
 }
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 bad
@@ -4489,7 +4480,7 @@ isProxy
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NYI
@@ -4761,7 +4752,7 @@ this
 !
 *
 /
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NYI
@@ -4784,7 +4775,7 @@ while
 false
 )
 ;
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 buggy
@@ -4868,7 +4859,7 @@ isProxy
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NYI
@@ -5136,7 +5127,7 @@ this
 !
 *
 /
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NYI
@@ -5159,7 +5150,7 @@ while
 false
 )
 ;
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 buggy
@@ -5231,7 +5222,7 @@ isProxy
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NYI
@@ -5316,7 +5307,7 @@ while
 false
 )
 ;
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 buggy
@@ -5646,9 +5637,6 @@ kind
 "
 )
 ;
-return
-false
-;
 }
 bool
 SparseElementsHeader
@@ -5705,9 +5693,6 @@ NYI
 "
 )
 ;
-return
-false
-;
 }
 bool
 DenseElementsHeader
@@ -5763,9 +5748,6 @@ MOZ_NOT_REACHED
 NYI
 "
 )
-;
-return
-false
 ;
 }
 template
@@ -6195,7 +6177,7 @@ isProxy
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NYI
@@ -6424,7 +6406,7 @@ args
 )
 ;
 }
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NYI
@@ -6492,7 +6474,7 @@ while
 false
 )
 ;
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 buggy

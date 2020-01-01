@@ -3238,7 +3238,7 @@ i
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -4229,7 +4229,7 @@ curPC
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -4496,7 +4496,7 @@ curPC
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid

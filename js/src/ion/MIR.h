@@ -16089,7 +16089,7 @@ getIdentity
 (
 )
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 not
@@ -16281,7 +16281,7 @@ getIdentity
 (
 )
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 not
@@ -27184,7 +27184,7 @@ i
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Bad

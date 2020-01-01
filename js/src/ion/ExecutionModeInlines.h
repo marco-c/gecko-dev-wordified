@@ -163,7 +163,7 @@ hasParallelIonScript
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 No
@@ -218,7 +218,7 @@ maybeParallelIonScript
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 No
@@ -279,7 +279,7 @@ ionScript
 return
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 No
@@ -327,7 +327,7 @@ offsetOfParallelIonScript
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 No
@@ -378,7 +378,7 @@ canParallelIonCompile
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 No
@@ -465,7 +465,7 @@ isParallelIonCompilingOffThread
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 No
@@ -518,7 +518,7 @@ isParallelIonCompilingOffThread
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 No
@@ -577,7 +577,7 @@ CompilerOutput
 ParallelIon
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 No

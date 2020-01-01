@@ -3688,7 +3688,7 @@ uint32_t
 frameClass
 )
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 x64
@@ -4357,7 +4357,7 @@ VMFunction
 :
 DoubleByRef
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NYI
@@ -4498,7 +4498,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unknown

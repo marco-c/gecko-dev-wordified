@@ -258,10 +258,8 @@ define
 ASSERT_NOT_REACHED
 (
 )
-MOZ_CRASH
+MOZ_ASSUME_NOT_REACHED
 (
-"
-"
 )
 #
 define

@@ -1329,7 +1329,7 @@ SWITCH_REASON
 )
 default
 :
-JS_NOT_REACHED
+MOZ_NOT_REACHED
 (
 "
 bad
@@ -1337,11 +1337,6 @@ GC
 reason
 "
 )
-;
-return
-"
-?
-"
 ;
 #
 undef

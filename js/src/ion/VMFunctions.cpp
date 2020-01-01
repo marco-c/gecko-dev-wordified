@@ -3868,7 +3868,7 @@ false
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -4736,7 +4736,7 @@ false
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -4916,7 +4916,7 @@ false
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid

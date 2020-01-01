@@ -1354,7 +1354,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unhandled
@@ -1662,7 +1662,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected

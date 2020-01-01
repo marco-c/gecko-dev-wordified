@@ -223,7 +223,7 @@ size_t
 index
 )
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 no
@@ -255,7 +255,7 @@ index
 )
 const
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 no

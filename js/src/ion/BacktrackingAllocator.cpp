@@ -8793,7 +8793,7 @@ break
 endif
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Bad
@@ -11114,7 +11114,7 @@ appear
 in
 UsePositionIterator
 .
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Bad

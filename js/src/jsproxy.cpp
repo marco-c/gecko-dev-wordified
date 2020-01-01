@@ -1966,7 +1966,7 @@ CallArgs
 args
 )
 {
-JS_NOT_REACHED
+MOZ_NOT_REACHED
 (
 "
 callable
@@ -1977,9 +1977,6 @@ call
 trap
 "
 )
-;
-return
-false
 ;
 }
 bool
@@ -1999,7 +1996,7 @@ CallArgs
 args
 )
 {
-JS_NOT_REACHED
+MOZ_NOT_REACHED
 (
 "
 callable
@@ -2010,9 +2007,6 @@ construct
 trap
 "
 )
-;
-return
-false
 ;
 }
 const
@@ -2061,7 +2055,7 @@ unsigned
 indent
 )
 {
-JS_NOT_REACHED
+MOZ_NOT_REACHED
 (
 "
 callable
@@ -2072,9 +2066,6 @@ fun_toString
 trap
 "
 )
-;
-return
-NULL
 ;
 }
 bool
@@ -2093,7 +2084,7 @@ RegExpGuard
 g
 )
 {
-JS_NOT_REACHED
+MOZ_NOT_REACHED
 (
 "
 This
@@ -2105,9 +2096,6 @@ wrapped
 regexp
 "
 )
-;
-return
-false
 ;
 }
 bool

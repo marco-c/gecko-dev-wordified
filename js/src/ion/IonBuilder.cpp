@@ -7632,7 +7632,7 @@ an
 error
 later
 .
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unknown
@@ -7691,7 +7691,7 @@ closing
 the
 loop
 .
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 we
@@ -9035,7 +9035,7 @@ the
 loop
 header
 .
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 JSOP_LOOPHEAD
@@ -9999,7 +9999,7 @@ state
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unknown
@@ -14261,7 +14261,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -14724,7 +14724,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unexpected
@@ -14908,7 +14908,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 JSOP_LOOPHEAD
@@ -20406,7 +20406,7 @@ break
 }
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unexpected
@@ -20528,7 +20528,7 @@ def
 =
 NULL
 ;
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unknown
@@ -20971,7 +20971,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unexpected
@@ -21304,7 +21304,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unexpected
@@ -41341,7 +41341,7 @@ types
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Bad
@@ -45147,7 +45147,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unknown
@@ -45455,7 +45455,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unknown

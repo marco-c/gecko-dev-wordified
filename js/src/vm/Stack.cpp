@@ -4589,7 +4589,7 @@ state_
 case
 DONE
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -4717,7 +4717,7 @@ popJitFrame
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -4788,7 +4788,7 @@ break
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -4918,7 +4918,7 @@ compartment
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -5014,7 +5014,7 @@ break
 #
 endif
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -5121,7 +5121,7 @@ break
 #
 endif
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -5220,7 +5220,7 @@ break
 #
 endif
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -5289,7 +5289,7 @@ isFunctionFrame
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -5342,7 +5342,7 @@ return
 false
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -5438,7 +5438,7 @@ isConstructing
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -5519,7 +5519,7 @@ interpFrame
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -5850,7 +5850,7 @@ endif
 break
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -5952,7 +5952,7 @@ break
 #
 endif
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -6027,7 +6027,7 @@ break
 #
 endif
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -6132,7 +6132,7 @@ break
 #
 endif
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -6224,7 +6224,7 @@ break
 #
 endif
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -6317,7 +6317,7 @@ scopeChain
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -6465,7 +6465,7 @@ break
 #
 endif
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -6557,7 +6557,7 @@ argsObj
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -6706,7 +6706,7 @@ thisValue
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -6790,7 +6790,7 @@ returnValue
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -6882,7 +6882,7 @@ v
 return
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -7033,7 +7033,7 @@ base
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -7172,7 +7172,7 @@ index
 ]
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -7390,7 +7390,7 @@ hasPushedSPSFrame
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid

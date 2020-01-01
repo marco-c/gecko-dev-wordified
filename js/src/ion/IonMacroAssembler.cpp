@@ -2364,7 +2364,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -2715,7 +2715,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -7482,7 +7482,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 No
@@ -7586,7 +7586,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 No
@@ -7687,7 +7687,7 @@ return
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 No
@@ -7753,7 +7753,7 @@ return
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 No
@@ -8535,7 +8535,7 @@ VMFunction
 :
 RootNone
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Handle
@@ -8639,7 +8639,7 @@ VMFunction
 :
 RootNone
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Handle

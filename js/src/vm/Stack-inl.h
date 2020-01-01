@@ -2205,7 +2205,7 @@ maybeHookData
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -2264,7 +2264,7 @@ data
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -2317,7 +2317,7 @@ returnValue
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -2377,7 +2377,7 @@ rval
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -2430,7 +2430,7 @@ scopeChain
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -2488,7 +2488,7 @@ scope
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -2541,7 +2541,7 @@ callObj
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -2597,7 +2597,7 @@ cx
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -2671,7 +2671,7 @@ numActualArgs
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -2723,7 +2723,7 @@ numFormalArgs
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -2783,7 +2783,7 @@ checkAliasing
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -2843,7 +2843,7 @@ checkAliasing
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -2903,7 +2903,7 @@ checkAliasing
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -2963,7 +2963,7 @@ checkAliasing
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -3051,7 +3051,7 @@ maybeBlockChain
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -3103,7 +3103,7 @@ hasCallObj
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -3245,7 +3245,7 @@ isFunctionFrame
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -3297,7 +3297,7 @@ isGlobalFrame
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -3349,7 +3349,7 @@ isEvalFrame
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -3422,7 +3422,7 @@ isDebuggerFrame
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -3478,7 +3478,7 @@ script
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -3531,7 +3531,7 @@ fun
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -3584,7 +3584,7 @@ maybeFun
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -3638,7 +3638,7 @@ callee
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -3690,7 +3690,7 @@ calleev
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -3742,7 +3742,7 @@ isNonEvalFunctionFrame
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -3794,7 +3794,7 @@ isNonStrictDirectEvalFrame
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -3846,7 +3846,7 @@ isStrictEvalFrame
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -3899,7 +3899,7 @@ argv
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -3951,7 +3951,7 @@ hasArgsObj
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -4004,7 +4004,7 @@ argsObj
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -4063,7 +4063,7 @@ argsobj
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -4120,7 +4120,7 @@ vec
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -4172,7 +4172,7 @@ prevUpToDate
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -4226,7 +4226,7 @@ setPrevUpToDate
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -4279,7 +4279,7 @@ thisValue
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -4338,7 +4338,7 @@ cx
 ;
 #
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -4379,7 +4379,7 @@ cx
 )
 ;
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid

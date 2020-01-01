@@ -2451,7 +2451,7 @@ AsmJSParallelTask
 asmData
 )
 {
-JS_NOT_REACHED
+MOZ_NOT_REACHED
 (
 "
 Off
@@ -2466,9 +2466,6 @@ THREADSAFE
 builds
 "
 )
-;
-return
-false
 ;
 }
 bool
@@ -2488,7 +2485,7 @@ IonBuilder
 builder
 )
 {
-JS_NOT_REACHED
+MOZ_NOT_REACHED
 (
 "
 Off
@@ -2503,9 +2500,6 @@ THREADSAFE
 builds
 "
 )
-;
-return
-false
 ;
 }
 void

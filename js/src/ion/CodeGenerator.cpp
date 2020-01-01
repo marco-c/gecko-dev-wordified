@@ -4147,7 +4147,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 No
@@ -4413,7 +4413,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 No
@@ -23983,7 +23983,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unknown
@@ -24387,7 +24387,7 @@ lir
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -25480,7 +25480,7 @@ lir
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -25593,7 +25593,7 @@ lir
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -25607,7 +25607,7 @@ false
 ;
 }
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -28199,7 +28199,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 No
@@ -28525,7 +28525,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 No
@@ -40614,7 +40614,7 @@ cache
 }
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Bad
@@ -43097,7 +43097,7 @@ default
 break
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unexpected
@@ -48955,7 +48955,7 @@ true
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 invalid

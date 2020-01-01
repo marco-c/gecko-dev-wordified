@@ -6701,7 +6701,7 @@ InliningStatus_Error
 continue
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Element
@@ -7133,7 +7133,7 @@ return
 InliningStatus_Inlined
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -8343,7 +8343,7 @@ callInfo
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unknown

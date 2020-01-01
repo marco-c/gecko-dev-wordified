@@ -5960,7 +5960,7 @@ HandleType
 v
 )
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Bad
@@ -5999,7 +5999,7 @@ MutableHandleType
 v
 )
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Bad

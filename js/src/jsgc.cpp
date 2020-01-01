@@ -2990,7 +2990,7 @@ budget
 endif
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -4605,7 +4605,7 @@ i
 return
 i
 ;
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 No
@@ -14059,7 +14059,7 @@ break
 case
 SHUTDOWN
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 No
@@ -21663,7 +21663,7 @@ obj
 next
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 object
@@ -25751,7 +25751,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid

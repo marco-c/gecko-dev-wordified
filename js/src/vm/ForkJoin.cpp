@@ -527,7 +527,7 @@ runtime
 (
 )
 {
-JS_NOT_REACHED
+MOZ_NOT_REACHED
 (
 "
 Not
@@ -545,7 +545,7 @@ check
 (
 )
 {
-JS_NOT_REACHED
+MOZ_NOT_REACHED
 (
 "
 Not
@@ -553,9 +553,6 @@ THREADSAFE
 build
 "
 )
-;
-return
-true
 ;
 }
 void
@@ -574,7 +571,7 @@ Reason
 reason
 )
 {
-JS_NOT_REACHED
+MOZ_NOT_REACHED
 (
 "
 Not
@@ -606,7 +603,7 @@ Reason
 reason
 )
 {
-JS_NOT_REACHED
+MOZ_NOT_REACHED
 (
 "
 Not
@@ -635,7 +632,7 @@ jsbytecode
 currentPc
 )
 {
-JS_NOT_REACHED
+MOZ_NOT_REACHED
 (
 "
 Not
@@ -659,7 +656,7 @@ jsbytecode
 pc
 )
 {
-JS_NOT_REACHED
+MOZ_NOT_REACHED
 (
 "
 Not
@@ -4024,7 +4021,7 @@ break
 case
 NumForkJoinModes
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid

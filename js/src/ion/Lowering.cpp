@@ -5775,7 +5775,7 @@ comp
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unrecognized
@@ -9722,7 +9722,7 @@ handle
 them
 yet
 .
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unexpected
@@ -9958,7 +9958,7 @@ false
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unexpected
@@ -10115,7 +10115,7 @@ handle
 them
 yet
 .
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unexpected
@@ -10169,7 +10169,7 @@ MIRType_Undefined
 case
 MIRType_Boolean
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NYI
@@ -10272,7 +10272,7 @@ effectful
 see
 ToPrimitive
 )
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unexpected
@@ -10909,7 +10909,7 @@ MIRType_Undefined
 case
 MIRType_Null
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 typed
@@ -12538,7 +12538,7 @@ ins
 }
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -13017,7 +13017,7 @@ MIRType_Undefined
 case
 MIRType_Null
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 typed
@@ -13730,7 +13730,7 @@ MIRType_Undefined
 case
 MIRType_Null
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 typed
@@ -14358,7 +14358,7 @@ ins
 }
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unexpected
@@ -18169,7 +18169,7 @@ ReturnReg
 )
 ;
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected

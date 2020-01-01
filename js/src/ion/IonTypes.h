@@ -385,7 +385,7 @@ Bailout_CachedShapeGuard
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -566,7 +566,7 @@ MIRType_Value
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unexpected
@@ -800,7 +800,7 @@ ForkJoinSlice
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unknown

@@ -948,7 +948,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NYI
@@ -2821,7 +2821,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unexpected
@@ -9334,7 +9334,7 @@ MIRType_Value
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 No
@@ -11996,7 +11996,7 @@ true
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -12106,7 +12106,7 @@ should
 handle
 this
 .
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Wrong
@@ -12119,7 +12119,7 @@ false
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -12229,7 +12229,7 @@ should
 handle
 this
 .
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Wrong
@@ -12242,7 +12242,7 @@ false
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -12544,7 +12544,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -12694,7 +12694,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected

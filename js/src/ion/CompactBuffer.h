@@ -326,7 +326,7 @@ return
 val
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unreachable
