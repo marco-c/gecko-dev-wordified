@@ -1160,9 +1160,6 @@ RegisterID
 objReg
 ;
 RegisterID
-idReg
-;
-RegisterID
 typeReg
 ;
 bool
