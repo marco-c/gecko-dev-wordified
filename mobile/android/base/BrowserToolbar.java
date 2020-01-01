@@ -6451,6 +6451,17 @@ isPrivate
 )
 )
 ;
+mTabs
+.
+setPrivateMode
+(
+tab
+.
+isPrivate
+(
+)
+)
+;
 mTitle
 .
 setPrivateMode
