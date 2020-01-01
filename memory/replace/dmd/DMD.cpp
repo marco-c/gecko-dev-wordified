@@ -2826,7 +2826,7 @@ Fetch
 )
 ;
 bool
-blockIntercepts
+BlockIntercepts
 (
 )
 {
@@ -2843,7 +2843,7 @@ true
 ;
 }
 bool
-unblockIntercepts
+UnblockIntercepts
 (
 )
 {
@@ -2859,7 +2859,7 @@ false
 ;
 }
 bool
-interceptsAreBlocked
+InterceptsAreBlocked
 (
 )
 const
@@ -3013,7 +3013,7 @@ aT
 mT
 -
 >
-blockIntercepts
+BlockIntercepts
 (
 )
 ;
@@ -3028,7 +3028,7 @@ MOZ_ASSERT
 mT
 -
 >
-interceptsAreBlocked
+InterceptsAreBlocked
 (
 )
 )
@@ -3036,7 +3036,7 @@ interceptsAreBlocked
 mT
 -
 >
-unblockIntercepts
+UnblockIntercepts
 (
 )
 ;
@@ -5138,7 +5138,7 @@ MOZ_ASSERT
 aT
 -
 >
-interceptsAreBlocked
+InterceptsAreBlocked
 (
 )
 )
@@ -7280,7 +7280,7 @@ if
 t
 -
 >
-interceptsAreBlocked
+InterceptsAreBlocked
 (
 )
 )
@@ -7416,7 +7416,7 @@ if
 t
 -
 >
-interceptsAreBlocked
+InterceptsAreBlocked
 (
 )
 )
@@ -7510,7 +7510,7 @@ if
 t
 -
 >
-interceptsAreBlocked
+InterceptsAreBlocked
 (
 )
 )
@@ -7783,7 +7783,7 @@ if
 t
 -
 >
-interceptsAreBlocked
+InterceptsAreBlocked
 (
 )
 )
@@ -7871,7 +7871,7 @@ if
 t
 -
 >
-interceptsAreBlocked
+InterceptsAreBlocked
 (
 )
 )
