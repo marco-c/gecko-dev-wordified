@@ -695,6 +695,18 @@ parentId
 "
 )
 ;
+String
+title
+=
+params
+.
+getString
+(
+"
+title
+"
+)
+;
 Tab
 tab
 =
@@ -705,6 +717,7 @@ id
 url
 external
 parentId
+title
 )
 ;
 tabs
