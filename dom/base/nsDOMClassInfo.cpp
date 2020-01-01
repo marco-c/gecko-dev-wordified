@@ -2425,7 +2425,7 @@ h
 #
 include
 "
-nsHTMLLegendElement
+HTMLLegendElement
 .
 h
 "
@@ -31381,11 +31381,11 @@ for
 backward
 compatibility
 .
-nsHTMLLegendElement
+HTMLLegendElement
 *
 legend
 =
-nsHTMLLegendElement
+HTMLLegendElement
 :
 :
 FromContent
