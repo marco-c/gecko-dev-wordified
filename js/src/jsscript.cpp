@@ -10982,9 +10982,9 @@ JSContext
 *
 cx
 )
-{
+:
 callbacks
-=
+(
 JS_GetRuntimeSecurityCallbacks
 (
 cx
@@ -10992,7 +10992,12 @@ cx
 >
 runtime
 )
-;
+)
+temp
+(
+NULL
+)
+{
 if
 (
 callbacks

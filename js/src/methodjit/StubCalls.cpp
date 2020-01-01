@@ -6535,12 +6535,6 @@ varobj
 cx
 )
 ;
-uint32
-old
-;
-bool
-doSet
-;
 /
 *
 *
@@ -6746,6 +6740,7 @@ bug
 .
 *
 /
+bool
 doSet
 =
 false
