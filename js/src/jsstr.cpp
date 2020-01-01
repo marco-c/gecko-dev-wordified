@@ -21955,7 +21955,7 @@ str1
 JSString
 *
 str2
-bool
+JSBool
 *
 result
 )
