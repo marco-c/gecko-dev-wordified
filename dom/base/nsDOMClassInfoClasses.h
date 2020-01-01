@@ -504,10 +504,6 @@ SVGFEConvolveMatrixElement
 )
 DOMCI_CLASS
 (
-SVGFEDisplacementMapElement
-)
-DOMCI_CLASS
-(
 SVGFEMorphologyElement
 )
 DOMCI_CLASS
