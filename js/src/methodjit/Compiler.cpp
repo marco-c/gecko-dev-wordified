@@ -1825,6 +1825,12 @@ OPS
 *
 *
 /
+frame
+.
+assertValidRegisterState
+(
+)
+;
 }
 done
 :
