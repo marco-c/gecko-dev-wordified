@@ -15801,6 +15801,10 @@ if
 aScriptGlobalObject
 )
 {
+mScriptObject
+=
+nsnull
+;
 mHasHadScriptHandlingObject
 =
 PR_TRUE
