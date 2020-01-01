@@ -182,6 +182,9 @@ set
 [
     
 '
+*
+*
+/
 crashreporter
 *
 .
