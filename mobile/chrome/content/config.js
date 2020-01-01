@@ -1472,7 +1472,7 @@ height
 =
 window
 .
-outerHeight
+innerHeight
 -
 textbox
 .
