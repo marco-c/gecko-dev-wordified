@@ -19,11 +19,11 @@ libpng
 .
 5
 .
-7
+13
 [
-December
-15
-2011
+September
+27
+2012
 ]
 *
 Copyright
@@ -32,7 +32,7 @@ c
 )
 1998
 -
-2011
+2012
 Glenn
 Randers
 -
@@ -385,7 +385,7 @@ NULL
 png_struct
 dummy_struct
 ;
-memset
+png_memset
 (
 &
 dummy_struct
@@ -545,7 +545,7 @@ NULL
 png_struct
 dummy_struct
 ;
-memset
+png_memset
 (
 &
 dummy_struct
