@@ -4625,15 +4625,6 @@ dormantNext
 =
 NULL
 ;
-gen
--
->
-frame
-.
-xmlNamespace
-=
-NULL
-;
 /
 *
 JSOP_GENERATOR
