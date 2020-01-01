@@ -945,8 +945,12 @@ size
 )
 ;
 void
-Move
+UpdateDimensions
 (
+const
+nsRect
+&
+rect
 const
 nsIntSize
 &

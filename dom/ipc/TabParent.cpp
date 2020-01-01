@@ -1340,8 +1340,12 @@ void
 TabParent
 :
 :
-Move
+UpdateDimensions
 (
+const
+nsRect
+&
+rect
 const
 nsIntSize
 &
@@ -1351,8 +1355,9 @@ size
 unused
 <
 <
-SendMove
+SendUpdateDimensions
 (
+rect
 size
 )
 ;
