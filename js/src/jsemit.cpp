@@ -25166,6 +25166,14 @@ cg
 }
 if
 (
+cg
+-
+>
+inFunction
+(
+)
+&
+&
 JOF_OPTYPE
 (
 pn
