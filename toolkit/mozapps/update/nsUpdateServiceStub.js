@@ -37,7 +37,6 @@ offset
 /
 /
 *
-#
 This
 Source
 Code
@@ -51,7 +50,7 @@ of
 the
 Mozilla
 Public
-#
+*
 License
 v
 .
@@ -70,7 +69,7 @@ not
 distributed
 with
 this
-#
+*
 file
 You
 can
@@ -169,7 +168,7 @@ UpdRootD
 /
 *
 *
-#
+*
 Gets
 the
 specified
@@ -182,7 +181,7 @@ under
 the
 update
 root
-#
+*
 directory
 without
 creating
@@ -194,10 +193,10 @@ doesn
 t
 exist
 .
-#
+*
 param
 pathArray
-#
+*
 An
 array
 of
@@ -208,13 +207,13 @@ locate
 beneath
 the
 directory
-#
+*
 specified
 by
 |
 key
 |
-#
+*
 return
 nsIFile
 object
