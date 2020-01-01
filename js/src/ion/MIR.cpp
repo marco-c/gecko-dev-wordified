@@ -4770,10 +4770,9 @@ isInt32
 INT32_MIN
 )
 )
-setCanBeNegativeZero
-(
+canBeNegativeOverflow_
+=
 false
-)
 ;
 /
 /
@@ -4822,10 +4821,9 @@ isInt32
 1
 )
 )
-setCanBeNegativeZero
-(
+canBeNegativeOverflow_
+=
 false
-)
 ;
 /
 /
