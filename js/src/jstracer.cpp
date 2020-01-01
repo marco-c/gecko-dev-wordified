@@ -32340,6 +32340,14 @@ regs
 >
 pc
 ;
+fp
+-
+>
+flags
+|
+=
+JSFRAME_IMACRO_START
+;
 regs
 -
 >
@@ -33671,8 +33679,8 @@ false
 /
 CMP_STRICT
 is
-only
 set
+only
 for
 JSOP_STRICTEQ
 and
@@ -33889,6 +33897,7 @@ negate
 ;
 }
 else
+{
 if
 (
 !
@@ -33904,7 +33913,6 @@ JSVAL_IS_STRING
 r
 )
 )
-{
 ABORT_TRACE
 (
 "
@@ -33917,9 +33925,6 @@ string
 "
 )
 ;
-}
-else
-{
 LIns
 *
 args
@@ -34188,7 +34193,7 @@ have
 small
 forward
 *
-branched
+branches
 .
 Failing
 that
