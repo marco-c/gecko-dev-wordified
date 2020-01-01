@@ -790,6 +790,11 @@ LoadElementT
 \
 _
 (
+LoadElementHole
+)
+\
+_
+(
 StoreElementV
 )
 \
