@@ -7164,16 +7164,7 @@ return
 ;
 #
 if
-defined
-(
 __i386__
-)
-|
-|
-defined
-(
-__i386
-)
 /
 *
 *
@@ -10348,7 +10339,7 @@ vp
 return
 false
 ;
-JSAutoTempValueRooter
+AutoValueRooter
 array
 (
 cx
@@ -25766,7 +25757,7 @@ atomState
 .
 toSourceAtom
 ;
-JSAutoTempValueRooter
+AutoValueRooter
 tvr
 (
 cx
