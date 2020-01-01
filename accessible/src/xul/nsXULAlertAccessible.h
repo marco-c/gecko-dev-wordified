@@ -492,6 +492,14 @@ PRUint32
 aExtraState
 )
 ;
+NS_IMETHOD
+GetName
+(
+nsAString
+&
+aName
+)
+;
 }
 ;
 #
