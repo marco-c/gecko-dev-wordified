@@ -161,7 +161,7 @@ the
 dom
 :
 :
-Element
+EventTarget
 interface
 #
 define
