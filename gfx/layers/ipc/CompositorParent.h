@@ -567,6 +567,11 @@ return
 this
 ;
 }
+void
+Destroy
+(
+)
+;
 protected
 :
 virtual
@@ -605,6 +610,9 @@ nsRefPtr
 LayerManager
 >
 mLayerManager
+;
+bool
+mStopped
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
