@@ -491,12 +491,7 @@ formats
 .
 STORAGE_VERSION
 :
-storage_version
-DEFAULT_SERVER
-:
-"
-server_url
-"
+2
 UPDATED_DEV_URL
 :
 "
