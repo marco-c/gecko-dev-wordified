@@ -1491,7 +1491,7 @@ if
 none
 *
 /
-bool
+void
 BindToDocument
 (
 Accessible

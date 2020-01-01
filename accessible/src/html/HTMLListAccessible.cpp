@@ -613,9 +613,6 @@ mContent
 mDoc
 )
 ;
-if
-(
-!
 Document
 (
 )
@@ -626,10 +623,6 @@ BindToDocument
 mBullet
 nullptr
 )
-)
-mBullet
-=
-nullptr
 ;
 }
 }
@@ -985,8 +978,6 @@ mContent
 mDoc
 )
 ;
-if
-(
 document
 -
 >
@@ -995,15 +986,13 @@ BindToDocument
 mBullet
 nullptr
 )
-)
-{
+;
 InsertChildAt
 (
 0
 mBullet
 )
 ;
-}
 }
 else
 {

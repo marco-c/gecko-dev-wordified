@@ -154,13 +154,6 @@ h
 #
 include
 "
-TreeWalker
-.
-h
-"
-#
-include
-"
 nsContentList
 .
 h

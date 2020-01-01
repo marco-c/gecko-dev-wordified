@@ -3529,8 +3529,6 @@ key
 treeItem
 )
 ;
-if
-(
 Document
 (
 )
@@ -3541,16 +3539,9 @@ BindToDocument
 treeItem
 nullptr
 )
-)
+;
 return
 treeItem
-;
-mAccessibleCache
-.
-Remove
-(
-key
-)
 ;
 }
 return

@@ -503,8 +503,6 @@ mContent
 mDoc
 )
 ;
-if
-(
 mDoc
 -
 >
@@ -513,8 +511,7 @@ BindToDocument
 mValueTextLeaf
 nullptr
 )
-)
-{
+;
 nsAutoString
 text
 ;
@@ -533,13 +530,6 @@ SetText
 (
 text
 )
-;
-return
-;
-}
-mValueTextLeaf
-=
-nullptr
 ;
 }
 }

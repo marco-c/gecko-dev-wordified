@@ -3113,9 +3113,6 @@ put
 into
 cache
 .
-if
-(
-!
 Document
 (
 )
@@ -3126,8 +3123,6 @@ BindToDocument
 mListAccessible
 nullptr
 )
-)
-return
 ;
 }
 if

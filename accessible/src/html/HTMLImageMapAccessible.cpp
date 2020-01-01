@@ -1107,9 +1107,6 @@ areaContent
 mDoc
 )
 ;
-if
-(
-!
 mDoc
 -
 >
@@ -1124,8 +1121,6 @@ GetRoleMap
 areaContent
 )
 )
-)
-break
 ;
 if
 (
