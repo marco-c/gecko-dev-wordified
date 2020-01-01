@@ -2250,7 +2250,7 @@ result
 )
 result
 =
-GetNextSibling
+GetPrevSibling
 (
 result
 )
