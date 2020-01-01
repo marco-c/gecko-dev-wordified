@@ -949,7 +949,6 @@ mTileLayer
 performUpdates
 (
 null
-null
 )
 ;
 }
