@@ -8423,7 +8423,7 @@ JS
 :
 CompartmentStats
 &
-compartmentStats
+cStats
 const
 char
 (
@@ -8453,7 +8453,7 @@ nsCString
 *
 >
 (
-compartmentStats
+cStats
 .
 name
 )
@@ -8898,7 +8898,7 @@ JS
 :
 CompartmentStats
 &
-stats
+cStats
 const
 nsACString
 &
@@ -8921,7 +8921,7 @@ ReportGCHeapBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 gc
 -
@@ -8934,7 +8934,7 @@ headers
 )
 &
 gcTotal
-stats
+cStats
 .
 gcHeapArenaHeaders
 "
@@ -8974,7 +8974,7 @@ ReportGCHeapBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 gc
 -
@@ -8987,7 +8987,7 @@ padding
 )
 &
 gcTotal
-stats
+cStats
 .
 gcHeapArenaPadding
 "
@@ -9036,7 +9036,7 @@ ReportGCHeapBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 gc
 -
@@ -9049,7 +9049,7 @@ unused
 )
 &
 gcTotal
-stats
+cStats
 .
 gcHeapArenaUnused
 "
@@ -9090,7 +9090,7 @@ ReportGCHeapBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 gc
 -
@@ -9105,7 +9105,7 @@ function
 )
 &
 gcTotal
-stats
+cStats
 .
 gcHeapObjectsNonFunction
 "
@@ -9139,7 +9139,7 @@ ReportGCHeapBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 gc
 -
@@ -9152,7 +9152,7 @@ function
 )
 &
 gcTotal
-stats
+cStats
 .
 gcHeapObjectsFunction
 "
@@ -9184,7 +9184,7 @@ ReportGCHeapBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 gc
 -
@@ -9195,7 +9195,7 @@ strings
 )
 &
 gcTotal
-stats
+cStats
 .
 gcHeapStrings
 "
@@ -9279,7 +9279,7 @@ ReportGCHeapBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 gc
 -
@@ -9290,7 +9290,7 @@ scripts
 )
 &
 gcTotal
-stats
+cStats
 .
 gcHeapScripts
 "
@@ -9352,7 +9352,7 @@ ReportGCHeapBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 gc
 -
@@ -9365,7 +9365,7 @@ tree
 )
 &
 gcTotal
-stats
+cStats
 .
 gcHeapShapesTree
 "
@@ -9402,7 +9402,7 @@ ReportGCHeapBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 gc
 -
@@ -9415,7 +9415,7 @@ dict
 )
 &
 gcTotal
-stats
+cStats
 .
 gcHeapShapesDict
 "
@@ -9451,7 +9451,7 @@ ReportGCHeapBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 gc
 -
@@ -9464,7 +9464,7 @@ base
 )
 &
 gcTotal
-stats
+cStats
 .
 gcHeapShapesBase
 "
@@ -9499,7 +9499,7 @@ ReportGCHeapBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 gc
 -
@@ -9512,7 +9512,7 @@ objects
 )
 &
 gcTotal
-stats
+cStats
 .
 gcHeapTypeObjects
 "
@@ -9545,7 +9545,7 @@ ReportGCHeapBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 gc
 -
@@ -9556,7 +9556,7 @@ xml
 )
 &
 gcTotal
-stats
+cStats
 .
 gcHeapXML
 "
@@ -9589,7 +9589,7 @@ ReportMemoryBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 object
 -
@@ -9600,7 +9600,7 @@ nsIMemoryReporter
 :
 :
 KIND_HEAP
-stats
+cStats
 .
 objectSlots
 "
@@ -9680,7 +9680,7 @@ ReportMemoryBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 object
 -
@@ -9691,7 +9691,7 @@ nsIMemoryReporter
 :
 :
 KIND_HEAP
-stats
+cStats
 .
 objectElements
 "
@@ -9726,7 +9726,7 @@ ReportMemoryBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 string
 -
@@ -9737,7 +9737,7 @@ nsIMemoryReporter
 :
 :
 KIND_HEAP
-stats
+cStats
 .
 stringChars
 "
@@ -9816,7 +9816,7 @@ ReportMemoryBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 shapes
 -
@@ -9831,7 +9831,7 @@ nsIMemoryReporter
 :
 :
 KIND_HEAP
-stats
+cStats
 .
 shapesExtraTreeTables
 "
@@ -9867,7 +9867,7 @@ ReportMemoryBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 shapes
 -
@@ -9882,7 +9882,7 @@ nsIMemoryReporter
 :
 :
 KIND_HEAP
-stats
+cStats
 .
 shapesExtraDictTables
 "
@@ -9917,7 +9917,7 @@ ReportMemoryBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 shapes
 -
@@ -9934,7 +9934,7 @@ nsIMemoryReporter
 :
 :
 KIND_HEAP
-stats
+cStats
 .
 shapesExtraTreeShapeKids
 "
@@ -9970,7 +9970,7 @@ ReportMemoryBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 shapes
 -
@@ -9985,7 +9985,7 @@ nsIMemoryReporter
 :
 :
 KIND_HEAP
-stats
+cStats
 .
 shapesCompartmentTables
 "
@@ -10016,7 +10016,7 @@ ReportMemoryBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 script
 -
@@ -10027,7 +10027,7 @@ nsIMemoryReporter
 :
 :
 KIND_HEAP
-stats
+cStats
 .
 scriptData
 "
@@ -10058,7 +10058,7 @@ ReportMemoryBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 mjit
 -
@@ -10069,7 +10069,7 @@ nsIMemoryReporter
 :
 :
 KIND_NONHEAP
-stats
+cStats
 .
 mjitCode
 "
@@ -10098,7 +10098,7 @@ ReportMemoryBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 mjit
 -
@@ -10109,7 +10109,7 @@ nsIMemoryReporter
 :
 :
 KIND_HEAP
-stats
+cStats
 .
 mjitData
 "
@@ -10149,7 +10149,7 @@ ReportMemoryBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 type
 -
@@ -10164,7 +10164,7 @@ nsIMemoryReporter
 :
 :
 KIND_HEAP
-stats
+cStats
 .
 typeInferenceSizes
 .
@@ -10198,7 +10198,7 @@ ReportMemoryBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 type
 -
@@ -10213,7 +10213,7 @@ nsIMemoryReporter
 :
 :
 KIND_HEAP
-stats
+cStats
 .
 typeInferenceSizes
 .
@@ -10247,7 +10247,7 @@ ReportMemoryBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 type
 -
@@ -10260,7 +10260,7 @@ nsIMemoryReporter
 :
 :
 KIND_HEAP
-stats
+cStats
 .
 typeInferenceSizes
 .
@@ -10287,7 +10287,7 @@ ReportMemoryBytes0
 MakeMemoryReporterPath
 (
 pathPrefix
-stats
+cStats
 "
 analysis
 -
@@ -10298,7 +10298,7 @@ nsIMemoryReporter
 :
 :
 KIND_HEAP
-stats
+cStats
 .
 typeInferenceSizes
 .
@@ -10339,9 +10339,9 @@ const
 JS
 :
 :
-IterateData
+RuntimeStats
 &
-data
+rtStats
 const
 nsACString
 &
@@ -10368,7 +10368,7 @@ index
 ;
 index
 <
-data
+rtStats
 .
 compartmentStatsVector
 .
@@ -10386,7 +10386,7 @@ gcTotal
 =
 ReportCompartmentStats
 (
-data
+rtStats
 .
 compartmentStatsVector
 [
@@ -10416,7 +10416,7 @@ nsIMemoryReporter
 :
 :
 KIND_HEAP
-data
+rtStats
 .
 runtimeObject
 "
@@ -10450,7 +10450,7 @@ nsIMemoryReporter
 :
 :
 KIND_HEAP
-data
+rtStats
 .
 runtimeAtomsTable
 "
@@ -10482,7 +10482,7 @@ nsIMemoryReporter
 :
 :
 KIND_HEAP
-data
+rtStats
 .
 runtimeContexts
 "
@@ -10521,7 +10521,7 @@ nsIMemoryReporter
 :
 :
 KIND_HEAP
-data
+rtStats
 .
 runtimeNormal
 "
@@ -10573,7 +10573,7 @@ nsIMemoryReporter
 :
 :
 KIND_HEAP
-data
+rtStats
 .
 runtimeTemporary
 "
@@ -10618,7 +10618,7 @@ nsIMemoryReporter
 :
 :
 KIND_NONHEAP
-data
+rtStats
 .
 runtimeRegexpCode
 "
@@ -10656,7 +10656,7 @@ nsIMemoryReporter
 :
 :
 KIND_NONHEAP
-data
+rtStats
 .
 runtimeStackCommitted
 "
@@ -10718,7 +10718,7 @@ unused
 )
 &
 gcTotal
-data
+rtStats
 .
 gcHeapChunkDirtyUnused
 "
@@ -10803,7 +10803,7 @@ unused
 )
 &
 gcTotal
-data
+rtStats
 .
 gcHeapChunkCleanUnused
 "
@@ -10879,11 +10879,11 @@ decommitted
 )
 &
 gcTotal
-data
+rtStats
 .
 gcHeapChunkCleanDecommitted
 +
-data
+rtStats
 .
 gcHeapChunkDirtyDecommitted
 "
@@ -10932,7 +10932,7 @@ admin
 )
 &
 gcTotal
-data
+rtStats
 .
 gcHeapChunkAdmin
 "
@@ -10986,7 +10986,7 @@ It
 /
 should
 equal
-data
+rtStats
 .
 gcHeapChunkTotal
 .
@@ -10995,7 +10995,7 @@ JS_ASSERT
 gcTotal
 =
 =
-data
+rtStats
 .
 gcHeapChunkTotal
 )
@@ -11118,8 +11118,8 @@ idea
 JS
 :
 :
-IterateData
-data
+RuntimeStats
+rtStats
 (
 xpc
 :
@@ -11141,7 +11141,7 @@ if
 JS
 :
 :
-CollectCompartmentStatsForRuntime
+CollectRuntimeStats
 (
 xpcrt
 -
@@ -11150,7 +11150,7 @@ GetJSRuntime
 (
 )
 &
-data
+rtStats
 )
 )
 return
@@ -11210,7 +11210,7 @@ above
 .
 ReportJSRuntimeStats
 (
-data
+rtStats
 pathPrefix
 callback
 closure
@@ -11264,7 +11264,7 @@ nsIMemoryReporter
 :
 :
 KIND_OTHER
-data
+rtStats
 .
 gcHeapChunkDirtyUnused
 "
@@ -11330,7 +11330,7 @@ nsIMemoryReporter
 :
 :
 KIND_OTHER
-data
+rtStats
 .
 gcHeapChunkCleanUnused
 "
@@ -11392,11 +11392,11 @@ nsIMemoryReporter
 :
 :
 KIND_OTHER
-data
+rtStats
 .
 gcHeapChunkCleanDecommitted
 +
-data
+rtStats
 .
 gcHeapChunkDirtyDecommitted
 "
@@ -11456,7 +11456,7 @@ nsIMemoryReporter
 :
 :
 KIND_OTHER
-data
+rtStats
 .
 gcHeapArenaUnused
 "
@@ -11530,7 +11530,7 @@ nsIMemoryReporter
 :
 :
 KIND_OTHER
-data
+rtStats
 .
 gcHeapUnusedPercentage
 "
@@ -11635,7 +11635,7 @@ nsIMemoryReporter
 :
 :
 KIND_OTHER
-data
+rtStats
 .
 totalObjects
 "
@@ -11709,7 +11709,7 @@ nsIMemoryReporter
 :
 :
 KIND_OTHER
-data
+rtStats
 .
 totalShapes
 "
@@ -11828,7 +11828,7 @@ nsIMemoryReporter
 :
 :
 KIND_OTHER
-data
+rtStats
 .
 totalScripts
 "
@@ -11887,7 +11887,7 @@ nsIMemoryReporter
 :
 :
 KIND_OTHER
-data
+rtStats
 .
 totalStrings
 "
@@ -11949,7 +11949,7 @@ nsIMemoryReporter
 :
 :
 KIND_OTHER
-data
+rtStats
 .
 totalMjit
 "
@@ -12008,7 +12008,7 @@ nsIMemoryReporter
 :
 :
 KIND_OTHER
-data
+rtStats
 .
 totalTypeInference
 "
@@ -12093,7 +12093,7 @@ nsIMemoryReporter
 :
 :
 KIND_OTHER
-data
+rtStats
 .
 totalAnalysisTemp
 "
