@@ -451,6 +451,13 @@ BLOCK
 #
 include
 <
+stdlib
+.
+h
+>
+#
+include
+<
 string
 .
 h
@@ -686,7 +693,7 @@ Header
 *
 >
 (
-NS_Alloc
+malloc
 (
 sizeof
 (
@@ -815,7 +822,7 @@ Header
 *
 >
 (
-NS_Alloc
+malloc
 (
 sizeof
 (
@@ -880,7 +887,7 @@ Header
 *
 >
 (
-NS_Realloc
+realloc
 (
 mHdr
 size
@@ -1029,7 +1036,7 @@ length
 elemSize
 )
 ;
-NS_Free
+free
 (
 mHdr
 )
@@ -1065,7 +1072,7 @@ elements
 "
 )
 ;
-NS_Free
+free
 (
 mHdr
 )
@@ -1094,7 +1101,7 @@ void
 *
 ptr
 =
-NS_Realloc
+realloc
 (
 mHdr
 size
@@ -1929,7 +1936,7 @@ Header
 *
 >
 (
-NS_Alloc
+malloc
 (
 size
 )
