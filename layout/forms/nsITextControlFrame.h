@@ -459,6 +459,14 @@ NS_DECL_QUERYFRAME_TARGET
 (
 nsITextControlFrame
 )
+enum
+SelectionDirection
+{
+eNone
+eForward
+eBackward
+}
+;
 NS_IMETHOD
 GetEditor
 (
@@ -537,6 +545,10 @@ PRInt32
 aSelectionStart
 PRInt32
 aSelectionEnd
+SelectionDirection
+aDirection
+=
+eNone
 )
 =
 0
@@ -550,6 +562,11 @@ aSelectionStart
 PRInt32
 *
 aSelectionEnd
+SelectionDirection
+*
+aDirection
+=
+nsnull
 )
 =
 0
