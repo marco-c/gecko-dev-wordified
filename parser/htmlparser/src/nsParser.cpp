@@ -12446,6 +12446,9 @@ if
 (
 !
 aXMLMode
+&
+&
+theCount
 )
 {
 /
