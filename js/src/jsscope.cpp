@@ -7641,9 +7641,13 @@ JS_ASSERT
 object
 -
 >
-canHaveMethodBarrier
+getClass
 (
 )
+=
+=
+&
+js_ObjectClass
 )
 ;
 JS_ASSERT

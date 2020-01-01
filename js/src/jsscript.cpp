@@ -4024,15 +4024,7 @@ flags
 }
 #
 ifdef
-DEBUG
-if
-(
-rt
--
->
-functionMeterFilename
-)
-{
+JS_FUNCTION_METERING
 size_t
 len
 =
@@ -4091,7 +4083,6 @@ len
 0
 '
 ;
-}
 #
 endif
 return
