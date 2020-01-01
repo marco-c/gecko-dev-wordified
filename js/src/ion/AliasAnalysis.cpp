@@ -180,6 +180,12 @@ js
 :
 ion
 ;
+using
+mozilla
+:
+:
+Array
+;
 /
 /
 Iterates
@@ -793,7 +799,7 @@ analyze
 (
 )
 {
-FixedArityList
+Array
 <
 MDefinitionVector
 AliasSet

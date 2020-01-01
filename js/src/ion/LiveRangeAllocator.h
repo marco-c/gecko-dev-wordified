@@ -119,6 +119,15 @@ include
 "
 mozilla
 /
+Array
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h
@@ -2895,7 +2904,10 @@ VREG
 >
 vregs
 ;
-FixedArityList
+mozilla
+:
+:
+Array
 <
 LiveInterval
 *

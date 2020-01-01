@@ -117,6 +117,15 @@ ion_BacktrackingAllocator_h
 #
 include
 "
+mozilla
+/
+Array
+.
+h
+"
+#
+include
+"
 ion
 /
 LiveRangeAllocator
@@ -959,7 +968,10 @@ false
 }
 }
 ;
-FixedArityList
+mozilla
+:
+:
+Array
 <
 PhysicalRegister
 AnyRegister
