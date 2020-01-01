@@ -773,8 +773,6 @@ weave
 :
 service
 :
-verify
--
 login
 :
 start
@@ -789,8 +787,6 @@ weave
 :
 service
 :
-verify
--
 login
 :
 error
@@ -805,8 +801,6 @@ weave
 :
 service
 :
-verify
--
 login
 :
 finish
@@ -1712,6 +1706,16 @@ case
 Weave
 .
 LOGIN_FAILED_LOGIN_REJECTED
+:
+case
+Weave
+.
+LOGIN_FAILED_NO_USERNAME
+:
+case
+Weave
+.
+LOGIN_FAILED_NO_PASSWORD
 :
 feedback
 =
