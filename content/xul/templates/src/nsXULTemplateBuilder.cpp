@@ -888,6 +888,13 @@ nsXULTemplateQueryProcessorStorage
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 /
 /
 -
@@ -6883,9 +6890,9 @@ AttributeChanged
 nsIDocument
 *
 aDocument
-nsIContent
+Element
 *
-aContent
+aElement
 PRInt32
 aNameSpaceID
 nsIAtom
@@ -6897,7 +6904,7 @@ aModType
 {
 if
 (
-aContent
+aElement
 =
 =
 mRoot

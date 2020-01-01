@@ -586,6 +586,14 @@ h
 "
 #
 endif
+namespace
+dom
+=
+mozilla
+:
+:
+dom
+;
 /
 /
 /
@@ -3473,9 +3481,12 @@ AttributeChanged
 nsIDocument
 *
 aDocument
-nsIContent
+dom
+:
+:
+Element
 *
-aContent
+aElement
 PRInt32
 aNameSpaceID
 nsIAtom
@@ -3538,7 +3549,7 @@ content
 (
 do_QueryInterface
 (
-aContent
+aElement
 )
 )
 ;
@@ -3550,7 +3561,7 @@ el
 (
 do_QueryInterface
 (
-aContent
+aElement
 )
 )
 ;

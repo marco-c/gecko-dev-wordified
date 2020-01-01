@@ -499,6 +499,13 @@ nsThreadUtils
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 /
 *
 *
@@ -1921,9 +1928,9 @@ AttributeChanged
 nsIDocument
 *
 aDocument
-nsIContent
+Element
 *
-aContent
+aElement
 PRInt32
 aNameSpaceID
 nsIAtom
@@ -1947,7 +1954,7 @@ aAttribute
 mAttrName
 &
 &
-aContent
+aElement
 =
 =
 mGrandparent
