@@ -204,10 +204,9 @@ const
 nsAString
 &
 aMessage
-int32_t
-aRequestId
-uint64_t
-aProcessId
+nsISmsRequest
+*
+aRequest
 )
 {
 NS_ERROR

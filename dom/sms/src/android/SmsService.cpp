@@ -230,10 +230,9 @@ const
 nsAString
 &
 aMessage
-int32_t
-aRequestId
-uint64_t
-aProcessId
+nsISmsRequest
+*
+aRequest
 )
 {
 if
@@ -263,8 +262,7 @@ SendMessage
 (
 aNumber
 aMessage
-aRequestId
-aProcessId
+aRequest
 )
 ;
 return

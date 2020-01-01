@@ -157,11 +157,6 @@ GetSmsChild
 (
 )
 ;
-static
-PSmsChild
-*
-sSmsChild
-;
 }
 ;
 }
