@@ -155,6 +155,13 @@ head
 >
 <
 body
+onload
+=
+"
+Inject
+(
+)
+"
 >
 <
 pre
@@ -199,7 +206,7 @@ test
 (
 )
 {
-ok
+is
 (
 (
 "
@@ -208,8 +215,6 @@ display
 )
 .
 innerHTML
-=
-=
 "
 All
 good
@@ -2954,12 +2959,6 @@ test
 )
 ;
 }
-setTimeout
-(
-Inject
-100
-)
-;
 SimpleTest
 .
 waitForExplicitFinish
