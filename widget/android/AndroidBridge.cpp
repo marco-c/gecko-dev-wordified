@@ -15018,8 +15018,10 @@ NS_RGB
 255
 )
 ;
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 presShell
 =
 presContext
