@@ -29874,6 +29874,9 @@ funbox
 >
 bindings
 ;
+#
+ifdef
+JS_ION
 /
 /
 Do
@@ -29951,6 +29954,8 @@ script
 return
 false
 ;
+#
+endif
 BytecodeEmitter
 bce2
 (

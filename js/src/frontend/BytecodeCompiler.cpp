@@ -2803,6 +2803,9 @@ fn
 pn_body
 ;
 }
+#
+ifdef
+JS_ION
 /
 *
 *
@@ -2860,6 +2863,8 @@ script
 return
 false
 ;
+#
+endif
 if
 (
 !
