@@ -23922,6 +23922,13 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsNavHistoryResult
 )
+tmp
+-
+>
+StopObserving
+(
+)
+;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
 mRootNode
