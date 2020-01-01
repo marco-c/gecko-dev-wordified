@@ -6755,7 +6755,7 @@ setProperty
 EnumerateStub
 ResolveStub
 ConvertStub
-NULL
+proxy_Finalize
 /
 *
 finalize
@@ -6832,7 +6832,7 @@ NULL
 thisObject
 *
 /
-proxy_Finalize
+NULL
 /
 *
 clear
@@ -6887,7 +6887,7 @@ setProperty
 EnumerateStub
 ResolveStub
 ConvertStub
-NULL
+proxy_Finalize
 /
 *
 finalize
@@ -6989,7 +6989,7 @@ NULL
 thisObject
 *
 /
-proxy_Finalize
+NULL
 /
 *
 clear
