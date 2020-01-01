@@ -900,7 +900,7 @@ can
 be
 blocked
 .
-nsAutoPtr
+nsRefPtr
 <
 ProcessedMediaStream
 >
