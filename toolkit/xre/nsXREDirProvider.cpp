@@ -820,6 +820,11 @@ aAppProvider
 {
 NS_ENSURE_ARG
 (
+aXULAppDir
+)
+;
+NS_ENSURE_ARG
+(
 aGREDir
 )
 ;
