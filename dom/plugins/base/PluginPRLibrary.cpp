@@ -110,6 +110,13 @@ PluginPRLibrary
 .
 h
 "
+#
+include
+"
+nsNPAPIPluginInstance
+.
+h
+"
 /
 /
 Some

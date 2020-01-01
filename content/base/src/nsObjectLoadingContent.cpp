@@ -255,6 +255,13 @@ h
 #
 include
 "
+nsPluginInstanceOwner
+.
+h
+"
+#
+include
+"
 nsJSNPRuntime
 .
 h

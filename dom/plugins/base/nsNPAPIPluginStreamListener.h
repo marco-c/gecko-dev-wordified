@@ -165,13 +165,6 @@ h
 #
 include
 "
-nsNPAPIPluginInstance
-.
-h
-"
-#
-include
-"
 nsIAsyncVerifyRedirectCallback
 .
 h
@@ -194,6 +187,12 @@ nsPluginStreamListenerPeer
 ;
 class
 nsNPAPIPluginStreamListener
+;
+class
+nsNPAPIPluginInstance
+;
+class
+nsIChannel
 ;
 class
 nsNPAPIStreamWrapper

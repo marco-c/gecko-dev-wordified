@@ -146,14 +146,14 @@ h
 #
 include
 "
-nsNPAPIPluginInstance
+nsITimer
 .
 h
 "
 #
 include
 "
-nsITimer
+nsStringGlue
 .
 h
 "
@@ -165,6 +165,9 @@ PRLibrary
 ;
 struct
 nsPluginInfo
+;
+class
+nsNPAPIPlugin
 ;
 /
 /

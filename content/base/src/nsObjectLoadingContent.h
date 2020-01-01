@@ -203,13 +203,6 @@ h
 #
 include
 "
-nsPluginInstanceOwner
-.
-h
-"
-#
-include
-"
 nsIThreadInternal
 .
 h
@@ -245,6 +238,9 @@ nsFrameLoader
 ;
 class
 nsXULElement
+;
+class
+nsPluginInstanceOwner
 ;
 class
 nsObjectLoadingContent

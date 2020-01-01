@@ -953,6 +953,13 @@ h
 #
 include
 "
+nsNPAPIPluginInstance
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
