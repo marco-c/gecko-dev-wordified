@@ -19605,7 +19605,7 @@ height
 unit
 =
 =
-eStyleUnit_Null
+eStyleUnit_None
 |
 |
 /
@@ -19793,7 +19793,7 @@ GetUnit
 )
 !
 =
-eStyleUnit_Null
+eStyleUnit_None
 )
 {
 nscoord

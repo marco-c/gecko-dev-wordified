@@ -13393,7 +13393,7 @@ break
 ;
 }
 case
-eStyleUnit_Null
+eStyleUnit_None
 :
 aValue
 -
