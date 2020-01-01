@@ -1112,6 +1112,7 @@ _globalDontDemote
 ;
 public
 :
+JS_REQUIRES_STACK
 void
 markGlobalSlotUndemotable
 (
@@ -1122,6 +1123,7 @@ unsigned
 slot
 )
 ;
+JS_REQUIRES_STACK
 bool
 isGlobalSlotUndemotable
 (
@@ -1133,6 +1135,7 @@ slot
 )
 const
 ;
+JS_REQUIRES_STACK
 void
 markStackSlotUndemotable
 (
@@ -1143,6 +1146,7 @@ unsigned
 slot
 )
 ;
+JS_REQUIRES_STACK
 bool
 isStackSlotUndemotable
 (
@@ -2252,6 +2256,7 @@ LIns
 i
 )
 ;
+JS_REQUIRES_STACK
 nanojit
 :
 :
@@ -2313,6 +2318,7 @@ LIns
 f
 )
 ;
+JS_REQUIRES_STACK
 nanojit
 :
 :
@@ -2325,6 +2331,7 @@ jsval
 v
 )
 ;
+JS_REQUIRES_STACK
 bool
 call_imacro
 (
