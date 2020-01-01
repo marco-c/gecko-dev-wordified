@@ -36546,12 +36546,9 @@ flags
 aEvtGrp
 )
 ;
-return
-NS_OK
-;
 }
 return
-NS_ERROR_FAILURE
+NS_OK
 ;
 }
 NS_IMETHODIMP
