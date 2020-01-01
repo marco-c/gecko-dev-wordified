@@ -4389,7 +4389,7 @@ i
 >
 isop
 (
-LIR_ialloc
+LIR_alloc
 )
 )
 {
@@ -5371,7 +5371,7 @@ p
 >
 isop
 (
-LIR_ialloc
+LIR_alloc
 )
 )
 {

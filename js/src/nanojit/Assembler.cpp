@@ -1269,7 +1269,7 @@ i
 >
 isop
 (
-LIR_ialloc
+LIR_alloc
 )
 ;
 }
@@ -1637,7 +1637,7 @@ ins
 >
 isop
 (
-LIR_ialloc
+LIR_alloc
 )
 )
 {
@@ -2230,7 +2230,7 @@ i
 >
 isop
 (
-LIR_ialloc
+LIR_alloc
 )
 )
 {
@@ -2277,7 +2277,7 @@ i
 >
 isop
 (
-LIR_ialloc
+LIR_alloc
 )
 )
 {
@@ -6528,7 +6528,7 @@ stack
 space
 .
 case
-LIR_ialloc
+LIR_alloc
 :
 {
 countlir_alloc
@@ -9396,7 +9396,7 @@ l
 >
 isop
 (
-LIR_ialloc
+LIR_alloc
 )
 ?
 (

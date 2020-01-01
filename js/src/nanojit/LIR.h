@@ -845,6 +845,13 @@ PTR_SIZE
 LIR_uge
 LIR_quge
 )
+LIR_alloc
+=
+PTR_SIZE
+(
+LIR_ialloc
+LIR_qalloc
+)
 }
 ;
 #
@@ -3178,7 +3185,7 @@ Used
 for
 LIR_int
 and
-LIR_ialloc
+LIR_alloc
 .
 class
 LInsI
@@ -5062,7 +5069,7 @@ NanoAssert
 (
 isop
 (
-LIR_ialloc
+LIR_alloc
 )
 )
 ;
