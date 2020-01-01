@@ -669,6 +669,8 @@ bool
 aImpactedByFloats
 bool
 aIsTopOfPage
+PRUint8
+aDirection
 )
 ;
 void

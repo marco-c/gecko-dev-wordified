@@ -1291,6 +1291,8 @@ bool
 aImpactedByFloats
 bool
 aIsTopOfPage
+PRUint8
+aDirection
 )
 {
 NS_ASSERTION
@@ -1667,13 +1669,7 @@ psd
 >
 mDirection
 =
-mBlockReflowState
--
->
-mStyleVisibility
--
->
-mDirection
+aDirection
 ;
 psd
 -
