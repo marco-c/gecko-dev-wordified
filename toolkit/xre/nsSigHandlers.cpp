@@ -1053,6 +1053,11 @@ n
 "
 )
 ;
+_exit
+(
+signum
+)
+;
 }
 #
 endif
