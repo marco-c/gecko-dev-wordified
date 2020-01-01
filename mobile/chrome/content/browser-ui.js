@@ -3097,6 +3097,12 @@ this
 true
 )
 ;
+#
+if
+MOZ_PLATFORM_MAEMO
+=
+=
+6
 Elements
 .
 browsers
@@ -3110,6 +3116,8 @@ this
 true
 )
 ;
+#
+endif
 /
 /
 listen
