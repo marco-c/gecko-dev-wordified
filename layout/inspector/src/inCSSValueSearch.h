@@ -448,6 +448,13 @@ h
 #
 include
 "
+nsCSSProps
+.
+h
+"
+#
+include
+"
 nsIInspectorCSSUtils
 .
 h
