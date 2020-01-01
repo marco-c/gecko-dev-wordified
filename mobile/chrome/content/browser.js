@@ -8227,6 +8227,7 @@ margin
 /
 *
 *
+*
 Find
 an
 appropriate
@@ -8239,6 +8240,13 @@ if
 it
 exists
 .
+*
+return
+Rect
+in
+viewport
+coordinates
+*
 *
 /
 _getZoomRectForElement
@@ -8408,6 +8416,8 @@ zoom
 rectangle
 for
 point
+that
+is
 specified
 in
 browser
@@ -8415,7 +8425,7 @@ coordinates
 .
 *
 return
-Point
+Rect
 in
 viewport
 coordinates
@@ -8657,6 +8667,7 @@ bv
 .
 beginOffscreenOperation
 (
+rect
 )
 ;
 /
