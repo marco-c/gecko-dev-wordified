@@ -10395,6 +10395,7 @@ next
 window
 that
 is
+enabled
 visible
 and
 not
@@ -10417,6 +10418,15 @@ hwndBelow
 &
 &
 (
+!
+:
+:
+IsWindowEnabled
+(
+hwndBelow
+)
+|
+|
 !
 :
 :
