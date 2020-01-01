@@ -1256,7 +1256,7 @@ PIndexedDBDatabaseParent
 IndexedDBParent
 :
 :
-AllocPIndexedDBDatabase
+AllocPIndexedDBDatabaseParent
 (
 const
 nsString
@@ -1279,7 +1279,7 @@ bool
 IndexedDBParent
 :
 :
-DeallocPIndexedDBDatabase
+DeallocPIndexedDBDatabaseParent
 (
 PIndexedDBDatabaseParent
 *
@@ -1298,7 +1298,7 @@ PIndexedDBDeleteDatabaseRequestParent
 IndexedDBParent
 :
 :
-AllocPIndexedDBDeleteDatabaseRequest
+AllocPIndexedDBDeleteDatabaseRequestParent
 (
 const
 nsString
@@ -1318,7 +1318,7 @@ bool
 IndexedDBParent
 :
 :
-DeallocPIndexedDBDeleteDatabaseRequest
+DeallocPIndexedDBDeleteDatabaseRequestParent
 (
 PIndexedDBDeleteDatabaseRequestParent
 *
@@ -3296,7 +3296,7 @@ PIndexedDBTransactionParent
 IndexedDBDatabaseParent
 :
 :
-AllocPIndexedDBTransaction
+AllocPIndexedDBTransactionParent
 (
 const
 TransactionParams
@@ -3330,7 +3330,7 @@ bool
 IndexedDBDatabaseParent
 :
 :
-DeallocPIndexedDBTransaction
+DeallocPIndexedDBTransactionParent
 (
 PIndexedDBTransactionParent
 *
@@ -4242,7 +4242,7 @@ PIndexedDBObjectStoreParent
 IndexedDBTransactionParent
 :
 :
-AllocPIndexedDBObjectStore
+AllocPIndexedDBObjectStoreParent
 (
 const
 ObjectStoreConstructorParams
@@ -4261,7 +4261,7 @@ bool
 IndexedDBTransactionParent
 :
 :
-DeallocPIndexedDBObjectStore
+DeallocPIndexedDBObjectStoreParent
 (
 PIndexedDBObjectStoreParent
 *
@@ -4879,7 +4879,7 @@ PIndexedDBObjectStoreParent
 IndexedDBVersionChangeTransactionParent
 :
 :
-AllocPIndexedDBObjectStore
+AllocPIndexedDBObjectStoreParent
 (
 const
 ObjectStoreConstructorParams
@@ -4927,7 +4927,7 @@ return
 IndexedDBTransactionParent
 :
 :
-AllocPIndexedDBObjectStore
+AllocPIndexedDBObjectStoreParent
 (
 aParams
 )
@@ -5381,7 +5381,7 @@ PIndexedDBRequestParent
 IndexedDBCursorParent
 :
 :
-AllocPIndexedDBRequest
+AllocPIndexedDBRequestParent
 (
 const
 CursorRequestParams
@@ -5411,7 +5411,7 @@ bool
 IndexedDBCursorParent
 :
 :
-DeallocPIndexedDBRequest
+DeallocPIndexedDBRequestParent
 (
 PIndexedDBRequestParent
 *
@@ -6219,7 +6219,7 @@ PIndexedDBRequestParent
 IndexedDBObjectStoreParent
 :
 :
-AllocPIndexedDBRequest
+AllocPIndexedDBRequestParent
 (
 const
 ObjectStoreRequestParams
@@ -6244,7 +6244,7 @@ bool
 IndexedDBObjectStoreParent
 :
 :
-DeallocPIndexedDBRequest
+DeallocPIndexedDBRequestParent
 (
 PIndexedDBRequestParent
 *
@@ -6263,7 +6263,7 @@ PIndexedDBIndexParent
 IndexedDBObjectStoreParent
 :
 :
-AllocPIndexedDBIndex
+AllocPIndexedDBIndexParent
 (
 const
 IndexConstructorParams
@@ -6282,7 +6282,7 @@ bool
 IndexedDBObjectStoreParent
 :
 :
-DeallocPIndexedDBIndex
+DeallocPIndexedDBIndexParent
 (
 PIndexedDBIndexParent
 *
@@ -6301,7 +6301,7 @@ PIndexedDBCursorParent
 IndexedDBObjectStoreParent
 :
 :
-AllocPIndexedDBCursor
+AllocPIndexedDBCursorParent
 (
 const
 ObjectStoreCursorConstructorParams
@@ -6329,7 +6329,7 @@ bool
 IndexedDBObjectStoreParent
 :
 :
-DeallocPIndexedDBCursor
+DeallocPIndexedDBCursorParent
 (
 PIndexedDBCursorParent
 *
@@ -7485,7 +7485,7 @@ PIndexedDBRequestParent
 IndexedDBIndexParent
 :
 :
-AllocPIndexedDBRequest
+AllocPIndexedDBRequestParent
 (
 const
 IndexRequestParams
@@ -7510,7 +7510,7 @@ bool
 IndexedDBIndexParent
 :
 :
-DeallocPIndexedDBRequest
+DeallocPIndexedDBRequestParent
 (
 PIndexedDBRequestParent
 *
@@ -7529,7 +7529,7 @@ PIndexedDBCursorParent
 IndexedDBIndexParent
 :
 :
-AllocPIndexedDBCursor
+AllocPIndexedDBCursorParent
 (
 const
 IndexCursorConstructorParams
@@ -7557,7 +7557,7 @@ bool
 IndexedDBIndexParent
 :
 :
-DeallocPIndexedDBCursor
+DeallocPIndexedDBCursorParent
 (
 PIndexedDBCursorParent
 *

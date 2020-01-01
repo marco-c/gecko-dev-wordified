@@ -185,7 +185,7 @@ PSpeechSynthesisRequestChild
 SpeechSynthesisChild
 :
 :
-AllocPSpeechSynthesisRequest
+AllocPSpeechSynthesisRequestChild
 (
 const
 nsString
@@ -233,7 +233,7 @@ bool
 SpeechSynthesisChild
 :
 :
-DeallocPSpeechSynthesisRequest
+DeallocPSpeechSynthesisRequestChild
 (
 PSpeechSynthesisRequestChild
 *

@@ -470,7 +470,7 @@ PSmsRequestChild
 SmsChild
 :
 :
-AllocPSmsRequest
+AllocPSmsRequestChild
 (
 const
 IPCSmsRequest
@@ -498,7 +498,7 @@ bool
 SmsChild
 :
 :
-DeallocPSmsRequest
+DeallocPSmsRequestChild
 (
 PSmsRequestChild
 *
@@ -517,7 +517,7 @@ PMobileMessageCursorChild
 SmsChild
 :
 :
-AllocPMobileMessageCursor
+AllocPMobileMessageCursorChild
 (
 const
 IPCMobileMessageCursor
@@ -545,7 +545,7 @@ bool
 SmsChild
 :
 :
-DeallocPMobileMessageCursor
+DeallocPMobileMessageCursorChild
 (
 PMobileMessageCursorChild
 *

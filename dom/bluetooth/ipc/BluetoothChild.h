@@ -477,7 +477,7 @@ MOZ_OVERRIDE
 virtual
 PBluetoothRequestChild
 *
-AllocPBluetoothRequest
+AllocPBluetoothRequestChild
 (
 const
 Request
@@ -488,7 +488,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPBluetoothRequest
+DeallocPBluetoothRequestChild
 (
 PBluetoothRequestChild
 *

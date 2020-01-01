@@ -289,7 +289,7 @@ MOZ_OVERRIDE
 virtual
 PSmsRequestChild
 *
-AllocPSmsRequest
+AllocPSmsRequestChild
 (
 const
 IPCSmsRequest
@@ -300,7 +300,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPSmsRequest
+DeallocPSmsRequestChild
 (
 PSmsRequestChild
 *
@@ -311,7 +311,7 @@ MOZ_OVERRIDE
 virtual
 PMobileMessageCursorChild
 *
-AllocPMobileMessageCursor
+AllocPMobileMessageCursorChild
 (
 const
 IPCMobileMessageCursor
@@ -322,7 +322,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPMobileMessageCursor
+DeallocPMobileMessageCursorChild
 (
 PMobileMessageCursorChild
 *

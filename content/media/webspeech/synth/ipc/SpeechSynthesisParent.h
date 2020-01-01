@@ -150,7 +150,7 @@ SpeechSynthesisParent
 ;
 PSpeechSynthesisRequestParent
 *
-AllocPSpeechSynthesisRequest
+AllocPSpeechSynthesisRequestParent
 (
 const
 nsString
@@ -179,7 +179,7 @@ aPitch
 )
 ;
 bool
-DeallocPSpeechSynthesisRequest
+DeallocPSpeechSynthesisRequestParent
 (
 PSpeechSynthesisRequestParent
 *

@@ -4100,7 +4100,7 @@ PPluginIdentifierParent
 PluginModuleParent
 :
 :
-AllocPPluginIdentifier
+AllocPPluginIdentifierParent
 (
 const
 nsCString
@@ -4234,7 +4234,7 @@ bool
 PluginModuleParent
 :
 :
-DeallocPPluginIdentifier
+DeallocPPluginIdentifierParent
 (
 PPluginIdentifierParent
 *
@@ -4253,7 +4253,7 @@ PPluginInstanceParent
 PluginModuleParent
 :
 :
-AllocPPluginInstance
+AllocPPluginInstanceParent
 (
 const
 nsCString
@@ -4299,7 +4299,7 @@ bool
 PluginModuleParent
 :
 :
-DeallocPPluginInstance
+DeallocPPluginInstanceParent
 (
 PPluginInstanceParent
 *
@@ -7558,7 +7558,7 @@ PCrashReporterParent
 PluginModuleParent
 :
 :
-AllocPCrashReporter
+AllocPCrashReporterParent
 (
 mozilla
 :
@@ -7595,7 +7595,7 @@ bool
 PluginModuleParent
 :
 :
-DeallocPCrashReporter
+DeallocPCrashReporterParent
 (
 PCrashReporterParent
 *

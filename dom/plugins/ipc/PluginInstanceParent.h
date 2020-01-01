@@ -337,7 +337,7 @@ MOZ_OVERRIDE
 virtual
 PPluginScriptableObjectParent
 *
-AllocPPluginScriptableObject
+AllocPPluginScriptableObjectParent
 (
 )
 ;
@@ -353,7 +353,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPPluginScriptableObject
+DeallocPPluginScriptableObjectParent
 (
 PPluginScriptableObjectParent
 *
@@ -363,7 +363,7 @@ aObject
 virtual
 PBrowserStreamParent
 *
-AllocPBrowserStream
+AllocPBrowserStreamParent
 (
 const
 nsCString
@@ -402,7 +402,7 @@ stype
 ;
 virtual
 bool
-DeallocPBrowserStream
+DeallocPBrowserStreamParent
 (
 PBrowserStreamParent
 *
@@ -412,7 +412,7 @@ stream
 virtual
 PPluginStreamParent
 *
-AllocPPluginStream
+AllocPPluginStreamParent
 (
 const
 nsCString
@@ -429,7 +429,7 @@ result
 ;
 virtual
 bool
-DeallocPPluginStream
+DeallocPPluginStreamParent
 (
 PPluginStreamParent
 *
@@ -627,7 +627,7 @@ result
 virtual
 PStreamNotifyParent
 *
-AllocPStreamNotify
+AllocPStreamNotifyParent
 (
 const
 nsCString
@@ -689,7 +689,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPStreamNotify
+DeallocPStreamNotifyParent
 (
 PStreamNotifyParent
 *
@@ -730,7 +730,7 @@ prevSurface
 virtual
 PPluginSurfaceParent
 *
-AllocPPluginSurface
+AllocPPluginSurfaceParent
 (
 const
 WindowsSharedMemoryHandle
@@ -748,7 +748,7 @@ transparent
 ;
 virtual
 bool
-DeallocPPluginSurface
+DeallocPPluginSurfaceParent
 (
 PPluginSurfaceParent
 *
@@ -1289,14 +1289,14 @@ GetImageContainer
 virtual
 PPluginBackgroundDestroyerParent
 *
-AllocPPluginBackgroundDestroyer
+AllocPPluginBackgroundDestroyerParent
 (
 )
 MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPPluginBackgroundDestroyer
+DeallocPPluginBackgroundDestroyerParent
 (
 PPluginBackgroundDestroyerParent
 *

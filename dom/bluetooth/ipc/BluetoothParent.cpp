@@ -1541,7 +1541,7 @@ PBluetoothRequestParent
 BluetoothParent
 :
 :
-AllocPBluetoothRequest
+AllocPBluetoothRequestParent
 (
 const
 Request
@@ -1566,7 +1566,7 @@ bool
 BluetoothParent
 :
 :
-DeallocPBluetoothRequest
+DeallocPBluetoothRequestParent
 (
 PBluetoothRequestParent
 *

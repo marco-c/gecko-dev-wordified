@@ -510,7 +510,7 @@ rv
 virtual
 PPluginIdentifierChild
 *
-AllocPPluginIdentifier
+AllocPPluginIdentifierChild
 (
 const
 nsCString
@@ -549,7 +549,7 @@ aTemporary
 ;
 virtual
 bool
-DeallocPPluginIdentifier
+DeallocPPluginIdentifierChild
 (
 PPluginIdentifierChild
 *
@@ -559,7 +559,7 @@ aActor
 virtual
 PPluginInstanceChild
 *
-AllocPPluginInstance
+AllocPPluginInstanceChild
 (
 const
 nsCString
@@ -590,7 +590,7 @@ rv
 ;
 virtual
 bool
-DeallocPPluginInstance
+DeallocPPluginInstanceChild
 (
 PPluginInstanceChild
 *
@@ -719,7 +719,7 @@ aSeconds
 virtual
 PCrashReporterChild
 *
-AllocPCrashReporter
+AllocPCrashReporterChild
 (
 mozilla
 :
@@ -737,7 +737,7 @@ processType
 ;
 virtual
 bool
-DeallocPCrashReporter
+DeallocPCrashReporterChild
 (
 PCrashReporterChild
 *

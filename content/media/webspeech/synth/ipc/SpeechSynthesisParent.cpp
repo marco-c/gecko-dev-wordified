@@ -146,7 +146,7 @@ PSpeechSynthesisRequestParent
 SpeechSynthesisParent
 :
 :
-AllocPSpeechSynthesisRequest
+AllocPSpeechSynthesisRequestParent
 (
 const
 nsString
@@ -205,7 +205,7 @@ bool
 SpeechSynthesisParent
 :
 :
-DeallocPSpeechSynthesisRequest
+DeallocPSpeechSynthesisRequestParent
 (
 PSpeechSynthesisRequestParent
 *

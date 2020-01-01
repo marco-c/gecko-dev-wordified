@@ -2013,7 +2013,7 @@ PMemoryReportRequestChild
 ContentChild
 :
 :
-AllocPMemoryReportRequest
+AllocPMemoryReportRequestChild
 (
 )
 {
@@ -2584,7 +2584,7 @@ bool
 ContentChild
 :
 :
-DeallocPMemoryReportRequest
+DeallocPMemoryReportRequestChild
 (
 PMemoryReportRequestChild
 *
@@ -2712,7 +2712,7 @@ PCompositorChild
 ContentChild
 :
 :
-AllocPCompositor
+AllocPCompositorChild
 (
 mozilla
 :
@@ -2746,7 +2746,7 @@ PImageBridgeChild
 ContentChild
 :
 :
-AllocPImageBridge
+AllocPImageBridgeChild
 (
 mozilla
 :
@@ -2868,7 +2868,7 @@ PJavaScriptChild
 ContentChild
 :
 :
-AllocPJavaScript
+AllocPJavaScriptChild
 (
 )
 {
@@ -2968,7 +2968,7 @@ bool
 ContentChild
 :
 :
-DeallocPJavaScript
+DeallocPJavaScriptChild
 (
 PJavaScriptChild
 *
@@ -2987,7 +2987,7 @@ PBrowserChild
 ContentChild
 :
 :
-AllocPBrowser
+AllocPBrowserChild
 (
 const
 IPCTabContext
@@ -3070,7 +3070,7 @@ here
 is
 released
 in
-DeallocPBrowser
+DeallocPBrowserChild
 .
 return
 child
@@ -3108,7 +3108,7 @@ chromeFlags
 This
 runs
 after
-AllocPBrowser
+AllocPBrowserChild
 (
 )
 returns
@@ -3233,7 +3233,7 @@ bool
 ContentChild
 :
 :
-DeallocPBrowser
+DeallocPBrowserChild
 (
 PBrowserChild
 *
@@ -3267,7 +3267,7 @@ PBlobChild
 ContentChild
 :
 :
-AllocPBlob
+AllocPBlobChild
 (
 const
 BlobConstructorParams
@@ -3289,7 +3289,7 @@ bool
 ContentChild
 :
 :
-DeallocPBlob
+DeallocPBlobChild
 (
 PBlobChild
 *
@@ -3829,7 +3829,7 @@ PCrashReporterChild
 ContentChild
 :
 :
-AllocPCrashReporter
+AllocPCrashReporterChild
 (
 const
 mozilla
@@ -3868,7 +3868,7 @@ bool
 ContentChild
 :
 :
-DeallocPCrashReporter
+DeallocPCrashReporterChild
 (
 PCrashReporterChild
 *
@@ -3887,7 +3887,7 @@ PHalChild
 ContentChild
 :
 :
-AllocPHal
+AllocPHalChild
 (
 )
 {
@@ -3901,7 +3901,7 @@ bool
 ContentChild
 :
 :
-DeallocPHal
+DeallocPHalChild
 (
 PHalChild
 *
@@ -3920,7 +3920,7 @@ PIndexedDBChild
 ContentChild
 :
 :
-AllocPIndexedDB
+AllocPIndexedDBChild
 (
 )
 {
@@ -3943,7 +3943,7 @@ bool
 ContentChild
 :
 :
-DeallocPIndexedDB
+DeallocPIndexedDBChild
 (
 PIndexedDBChild
 *
@@ -3962,7 +3962,7 @@ PTestShellChild
 ContentChild
 :
 :
-AllocPTestShell
+AllocPTestShellChild
 (
 )
 {
@@ -3977,7 +3977,7 @@ bool
 ContentChild
 :
 :
-DeallocPTestShell
+DeallocPTestShellChild
 (
 PTestShellChild
 *
@@ -4069,7 +4069,7 @@ PDeviceStorageRequestChild
 ContentChild
 :
 :
-AllocPDeviceStorageRequest
+AllocPDeviceStorageRequestChild
 (
 const
 DeviceStorageParams
@@ -4088,7 +4088,7 @@ bool
 ContentChild
 :
 :
-DeallocPDeviceStorageRequest
+DeallocPDeviceStorageRequestChild
 (
 PDeviceStorageRequestChild
 *
@@ -4107,7 +4107,7 @@ PNeckoChild
 ContentChild
 :
 :
-AllocPNecko
+AllocPNeckoChild
 (
 )
 {
@@ -4122,7 +4122,7 @@ bool
 ContentChild
 :
 :
-DeallocPNecko
+DeallocPNeckoChild
 (
 PNeckoChild
 *
@@ -4141,7 +4141,7 @@ PExternalHelperAppChild
 ContentChild
 :
 :
-AllocPExternalHelperApp
+AllocPExternalHelperAppChild
 (
 const
 OptionalURIParams
@@ -4193,7 +4193,7 @@ bool
 ContentChild
 :
 :
-DeallocPExternalHelperApp
+DeallocPExternalHelperAppChild
 (
 PExternalHelperAppChild
 *
@@ -4229,7 +4229,7 @@ PSmsChild
 ContentChild
 :
 :
-AllocPSms
+AllocPSmsChild
 (
 )
 {
@@ -4244,7 +4244,7 @@ bool
 ContentChild
 :
 :
-DeallocPSms
+DeallocPSmsChild
 (
 PSmsChild
 *
@@ -4263,7 +4263,7 @@ PStorageChild
 ContentChild
 :
 :
-AllocPStorage
+AllocPStorageChild
 (
 )
 {
@@ -4289,7 +4289,7 @@ bool
 ContentChild
 :
 :
-DeallocPStorage
+DeallocPStorageChild
 (
 PStorageChild
 *
@@ -4325,7 +4325,7 @@ PBluetoothChild
 ContentChild
 :
 :
-AllocPBluetooth
+AllocPBluetoothChild
 (
 )
 {
@@ -4368,7 +4368,7 @@ bool
 ContentChild
 :
 :
-DeallocPBluetooth
+DeallocPBluetoothChild
 (
 PBluetoothChild
 *
@@ -4408,7 +4408,7 @@ PSpeechSynthesisChild
 ContentChild
 :
 :
-AllocPSpeechSynthesis
+AllocPSpeechSynthesisChild
 (
 )
 {
@@ -4440,7 +4440,7 @@ bool
 ContentChild
 :
 :
-DeallocPSpeechSynthesis
+DeallocPSpeechSynthesisChild
 (
 PSpeechSynthesisChild
 *

@@ -1059,7 +1059,7 @@ PIndexedDBDatabaseChild
 IndexedDBChild
 :
 :
-AllocPIndexedDBDatabase
+AllocPIndexedDBDatabaseChild
 (
 const
 nsString
@@ -1084,7 +1084,7 @@ bool
 IndexedDBChild
 :
 :
-DeallocPIndexedDBDatabase
+DeallocPIndexedDBDatabaseChild
 (
 PIndexedDBDatabaseChild
 *
@@ -1103,7 +1103,7 @@ PIndexedDBDeleteDatabaseRequestChild
 IndexedDBChild
 :
 :
-AllocPIndexedDBDeleteDatabaseRequest
+AllocPIndexedDBDeleteDatabaseRequestChild
 (
 const
 nsString
@@ -1131,7 +1131,7 @@ bool
 IndexedDBChild
 :
 :
-DeallocPIndexedDBDeleteDatabaseRequest
+DeallocPIndexedDBDeleteDatabaseRequestChild
 (
 PIndexedDBDeleteDatabaseRequestChild
 *
@@ -2684,7 +2684,7 @@ PIndexedDBTransactionChild
 IndexedDBDatabaseChild
 :
 :
-AllocPIndexedDBTransaction
+AllocPIndexedDBTransactionChild
 (
 const
 TransactionParams
@@ -2718,7 +2718,7 @@ bool
 IndexedDBDatabaseChild
 :
 :
-DeallocPIndexedDBTransaction
+DeallocPIndexedDBTransactionChild
 (
 PIndexedDBTransactionChild
 *
@@ -3329,7 +3329,7 @@ PIndexedDBObjectStoreChild
 IndexedDBTransactionChild
 :
 :
-AllocPIndexedDBObjectStore
+AllocPIndexedDBObjectStoreChild
 (
 const
 ObjectStoreConstructorParams
@@ -3358,7 +3358,7 @@ bool
 IndexedDBTransactionChild
 :
 :
-DeallocPIndexedDBObjectStore
+DeallocPIndexedDBObjectStoreChild
 (
 PIndexedDBObjectStoreChild
 *
@@ -3976,7 +3976,7 @@ PIndexedDBRequestChild
 IndexedDBObjectStoreChild
 :
 :
-AllocPIndexedDBRequest
+AllocPIndexedDBRequestChild
 (
 const
 ObjectStoreRequestParams
@@ -4004,7 +4004,7 @@ bool
 IndexedDBObjectStoreChild
 :
 :
-DeallocPIndexedDBRequest
+DeallocPIndexedDBRequestChild
 (
 PIndexedDBRequestChild
 *
@@ -4023,7 +4023,7 @@ PIndexedDBIndexChild
 IndexedDBObjectStoreChild
 :
 :
-AllocPIndexedDBIndex
+AllocPIndexedDBIndexChild
 (
 const
 IndexConstructorParams
@@ -4051,7 +4051,7 @@ bool
 IndexedDBObjectStoreChild
 :
 :
-DeallocPIndexedDBIndex
+DeallocPIndexedDBIndexChild
 (
 PIndexedDBIndexChild
 *
@@ -4070,7 +4070,7 @@ PIndexedDBCursorChild
 IndexedDBObjectStoreChild
 :
 :
-AllocPIndexedDBCursor
+AllocPIndexedDBCursorChild
 (
 const
 ObjectStoreCursorConstructorParams
@@ -4089,7 +4089,7 @@ bool
 IndexedDBObjectStoreChild
 :
 :
-DeallocPIndexedDBCursor
+DeallocPIndexedDBCursorChild
 (
 PIndexedDBCursorChild
 *
@@ -4752,7 +4752,7 @@ PIndexedDBRequestChild
 IndexedDBIndexChild
 :
 :
-AllocPIndexedDBRequest
+AllocPIndexedDBRequestChild
 (
 const
 IndexRequestParams
@@ -4780,7 +4780,7 @@ bool
 IndexedDBIndexChild
 :
 :
-DeallocPIndexedDBRequest
+DeallocPIndexedDBRequestChild
 (
 PIndexedDBRequestChild
 *
@@ -4799,7 +4799,7 @@ PIndexedDBCursorChild
 IndexedDBIndexChild
 :
 :
-AllocPIndexedDBCursor
+AllocPIndexedDBCursorChild
 (
 const
 IndexCursorConstructorParams
@@ -4818,7 +4818,7 @@ bool
 IndexedDBIndexChild
 :
 :
-DeallocPIndexedDBCursor
+DeallocPIndexedDBCursorChild
 (
 PIndexedDBCursorChild
 *
@@ -5182,7 +5182,7 @@ PIndexedDBRequestChild
 IndexedDBCursorChild
 :
 :
-AllocPIndexedDBRequest
+AllocPIndexedDBRequestChild
 (
 const
 CursorRequestParams
@@ -5210,7 +5210,7 @@ bool
 IndexedDBCursorChild
 :
 :
-DeallocPIndexedDBRequest
+DeallocPIndexedDBRequestChild
 (
 PIndexedDBRequestChild
 *

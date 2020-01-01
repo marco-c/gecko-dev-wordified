@@ -459,7 +459,7 @@ MOZ_OVERRIDE
 virtual
 PIndexedDBDatabaseChild
 *
-AllocPIndexedDBDatabase
+AllocPIndexedDBDatabaseChild
 (
 const
 nsString
@@ -474,7 +474,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPIndexedDBDatabase
+DeallocPIndexedDBDatabaseChild
 (
 PIndexedDBDatabaseChild
 *
@@ -485,7 +485,7 @@ MOZ_OVERRIDE
 virtual
 PIndexedDBDeleteDatabaseRequestChild
 *
-AllocPIndexedDBDeleteDatabaseRequest
+AllocPIndexedDBDeleteDatabaseRequestChild
 (
 const
 nsString
@@ -496,7 +496,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPIndexedDBDeleteDatabaseRequest
+DeallocPIndexedDBDeleteDatabaseRequestChild
 (
 PIndexedDBDeleteDatabaseRequestChild
 *
@@ -853,7 +853,7 @@ MOZ_OVERRIDE
 virtual
 PIndexedDBTransactionChild
 *
-AllocPIndexedDBTransaction
+AllocPIndexedDBTransactionChild
 (
 const
 TransactionParams
@@ -864,7 +864,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPIndexedDBTransaction
+DeallocPIndexedDBTransactionChild
 (
 PIndexedDBTransactionChild
 *
@@ -1125,7 +1125,7 @@ MOZ_OVERRIDE
 virtual
 PIndexedDBObjectStoreChild
 *
-AllocPIndexedDBObjectStore
+AllocPIndexedDBObjectStoreChild
 (
 const
 ObjectStoreConstructorParams
@@ -1136,7 +1136,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPIndexedDBObjectStore
+DeallocPIndexedDBObjectStoreChild
 (
 PIndexedDBObjectStoreChild
 *
@@ -1365,7 +1365,7 @@ MOZ_OVERRIDE
 virtual
 PIndexedDBRequestChild
 *
-AllocPIndexedDBRequest
+AllocPIndexedDBRequestChild
 (
 const
 ObjectStoreRequestParams
@@ -1376,7 +1376,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPIndexedDBRequest
+DeallocPIndexedDBRequestChild
 (
 PIndexedDBRequestChild
 *
@@ -1387,7 +1387,7 @@ MOZ_OVERRIDE
 virtual
 PIndexedDBIndexChild
 *
-AllocPIndexedDBIndex
+AllocPIndexedDBIndexChild
 (
 const
 IndexConstructorParams
@@ -1398,7 +1398,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPIndexedDBIndex
+DeallocPIndexedDBIndexChild
 (
 PIndexedDBIndexChild
 *
@@ -1409,7 +1409,7 @@ MOZ_OVERRIDE
 virtual
 PIndexedDBCursorChild
 *
-AllocPIndexedDBCursor
+AllocPIndexedDBCursorChild
 (
 const
 ObjectStoreCursorConstructorParams
@@ -1420,7 +1420,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPIndexedDBCursor
+DeallocPIndexedDBCursorChild
 (
 PIndexedDBCursorChild
 *
@@ -1649,7 +1649,7 @@ MOZ_OVERRIDE
 virtual
 PIndexedDBRequestChild
 *
-AllocPIndexedDBRequest
+AllocPIndexedDBRequestChild
 (
 const
 IndexRequestParams
@@ -1660,7 +1660,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPIndexedDBRequest
+DeallocPIndexedDBRequestChild
 (
 PIndexedDBRequestChild
 *
@@ -1671,7 +1671,7 @@ MOZ_OVERRIDE
 virtual
 PIndexedDBCursorChild
 *
-AllocPIndexedDBCursor
+AllocPIndexedDBCursorChild
 (
 const
 IndexCursorConstructorParams
@@ -1682,7 +1682,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPIndexedDBCursor
+DeallocPIndexedDBCursorChild
 (
 PIndexedDBCursorChild
 *
@@ -1924,7 +1924,7 @@ MOZ_OVERRIDE
 virtual
 PIndexedDBRequestChild
 *
-AllocPIndexedDBRequest
+AllocPIndexedDBRequestChild
 (
 const
 CursorRequestParams
@@ -1935,7 +1935,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPIndexedDBRequest
+DeallocPIndexedDBRequestChild
 (
 PIndexedDBRequestChild
 *
