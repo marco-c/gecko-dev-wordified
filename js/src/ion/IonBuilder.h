@@ -2427,6 +2427,15 @@ constructing
 )
 ;
 InliningStatus
+inlineMathRandom
+(
+uint32
+argc
+bool
+constructing
+)
+;
+InliningStatus
 inlineMathFunction
 (
 MMathFunction

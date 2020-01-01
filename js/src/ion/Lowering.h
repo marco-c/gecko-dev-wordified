@@ -800,6 +800,14 @@ ins
 )
 ;
 bool
+visitRandom
+(
+MRandom
+*
+ins
+)
+;
+bool
 visitMathFunction
 (
 MMathFunction

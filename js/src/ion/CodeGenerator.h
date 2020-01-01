@@ -812,6 +812,14 @@ lir
 )
 ;
 bool
+visitRandom
+(
+LRandom
+*
+lir
+)
+;
+bool
 visitMathFunctionD
 (
 LMathFunctionD
