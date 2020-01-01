@@ -10640,7 +10640,7 @@ synthesizeMouse
 (
 down
 splitterHitWidth
-3
+0
 {
 type
 :
@@ -10703,7 +10703,7 @@ synthesizeMouse
 (
 move
 offsetX
-3
+0
 {
 type
 :
@@ -10748,7 +10748,7 @@ synthesizeMouse
 (
 move
 offsetX
-3
+0
 {
 type
 :
@@ -10764,7 +10764,7 @@ synthesizeMouse
 (
 up
 offsetX
-3
+0
 {
 type
 :

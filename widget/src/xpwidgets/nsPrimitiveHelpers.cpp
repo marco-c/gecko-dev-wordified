@@ -1087,11 +1087,6 @@ aDataBuff
 )
 return
 ;
-*
-aDataBuff
-=
-nsnull
-;
 if
 (
 strcmp
