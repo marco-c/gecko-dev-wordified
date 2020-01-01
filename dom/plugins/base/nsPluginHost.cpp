@@ -19468,9 +19468,6 @@ NewEmbeddedPluginStreamListener
 nsIURI
 *
 aURI
-nsObjectLoadingContent
-*
-aContent
 nsNPAPIPluginInstance
 *
 aInstance
@@ -19511,7 +19508,6 @@ InitializeEmbedded
 (
 aURI
 aInstance
-aContent
 )
 ;
 if

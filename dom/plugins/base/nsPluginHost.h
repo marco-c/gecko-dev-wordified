@@ -1088,9 +1088,6 @@ NewEmbeddedPluginStreamListener
 nsIURI
 *
 aURL
-nsObjectLoadingContent
-*
-aContent
 nsNPAPIPluginInstance
 *
 aInstance
