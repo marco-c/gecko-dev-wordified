@@ -2473,9 +2473,7 @@ HandleId
 id
 unsigned
 flags
-JSObject
-*
-*
+MutableHandleObject
 objp
 )
 {
@@ -2585,10 +2583,12 @@ return
 JS_FALSE
 ;
 }
-*
 objp
-=
+.
+set
+(
 obj
+)
 ;
 }
 return

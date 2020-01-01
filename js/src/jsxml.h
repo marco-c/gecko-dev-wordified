@@ -1406,9 +1406,10 @@ js
 Value
 &
 nameval
-JSObject
-*
-*
+js
+:
+:
+MutableHandleObject
 objp
 jsid
 *

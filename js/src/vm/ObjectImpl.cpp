@@ -3423,11 +3423,8 @@ cx
 robj
 id
 resolveFlags
+&
 obj2
-.
-address
-(
-)
 )
 )
 return

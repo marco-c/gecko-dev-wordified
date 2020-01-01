@@ -15634,9 +15634,11 @@ isRegExp
 )
 )
 ;
-JSObject
-*
+RootedObject
 proto
+(
+cx
+)
 ;
 if
 (

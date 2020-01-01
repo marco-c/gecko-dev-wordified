@@ -3534,9 +3534,13 @@ NativeIterators
 .
 *
 /
-JSObject
-*
+RootedObject
 obj2
+(
+context
+(
+)
+)
 ;
 JSProperty
 *

@@ -2484,9 +2484,7 @@ HandleObject
 obj
 HandleId
 id
-JSObject
-*
-*
+MutableHandleObject
 objp
 JSProperty
 *
@@ -2526,9 +2524,7 @@ HandleObject
 obj
 HandlePropertyName
 name
-JSObject
-*
-*
+MutableHandleObject
 objp
 JSProperty
 *
@@ -2571,9 +2567,7 @@ HandleObject
 obj
 uint32_t
 index
-JSObject
-*
-*
+MutableHandleObject
 objp
 JSProperty
 *
@@ -2626,9 +2620,7 @@ HandleObject
 obj
 HandleSpecialId
 sid
-JSObject
-*
-*
+MutableHandleObject
 objp
 JSProperty
 *

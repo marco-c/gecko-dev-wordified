@@ -3335,9 +3335,11 @@ hook
 "
 )
 ;
-JSObject
-*
+RootedObject
 holder
+(
+cx
+)
 ;
 JSProperty
 *
@@ -4770,8 +4772,7 @@ JSContext
 *
 cx
 ;
-JSObject
-*
+RootedObject
 obj
 ;
 RootedPropertyName
@@ -4820,8 +4821,7 @@ JSOP_GETPROP
 or
 JSOP_NAME
 .
-JSObject
-*
+RootedObject
 holder
 ;
 JSProperty
@@ -4884,6 +4884,7 @@ cx
 )
 obj
 (
+cx
 obj
 )
 name
@@ -4901,7 +4902,7 @@ f
 )
 holder
 (
-NULL
+cx
 )
 prop
 (
