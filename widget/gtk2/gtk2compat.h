@@ -1041,5 +1041,7 @@ __cplusplus
 #
 endif
 /
-/
+*
 _GTK2_COMPAT_H_
+*
+/
