@@ -1046,10 +1046,8 @@ owner
 =
 me
 )
-{
 return
 ;
-}
 if
 (
 -
