@@ -708,7 +708,6 @@ gamepad
 new
 nsDOMGamepad
 (
-nullptr
 NS_ConvertUTF8toUTF16
 (
 nsDependentCString
@@ -2307,20 +2306,6 @@ SetHasSeenGamepadInput
 true
 )
 ;
-nsCOMPtr
-<
-nsISupports
->
-window
-=
-nsGlobalWindow
-:
-:
-ToSupports
-(
-aWindow
-)
-;
 nsRefPtr
 <
 nsDOMGamepad
@@ -2335,7 +2320,6 @@ aIndex
 >
 Clone
 (
-window
 )
 ;
 aWindow
