@@ -360,16 +360,6 @@ jsm
 "
 )
 ;
-OS
-.
-Unix
-.
-File
-.
-_init
-(
-)
-;
 }
 function
 test_open_close
