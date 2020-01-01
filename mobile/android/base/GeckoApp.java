@@ -15394,6 +15394,12 @@ return
 if
 (
 mLayerView
+!
+=
+null
+&
+&
+mLayerView
 .
 isFullScreen
 (
