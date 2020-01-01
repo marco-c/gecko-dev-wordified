@@ -651,7 +651,10 @@ GetNodeInfo
 const
 nsAString
 &
-aQualifiedName
+aName
+nsIAtom
+*
+aPrefix
 const
 nsAString
 &
