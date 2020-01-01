@@ -905,6 +905,13 @@ uses
 )
 ;
 void
+linkExitForBranch
+(
+Jump
+j
+)
+;
+void
 linkExitDirect
 (
 Jump
