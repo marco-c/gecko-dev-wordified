@@ -372,6 +372,17 @@ mNext
 aNext
 ;
 }
+const
+PRUnichar
+*
+GetName
+(
+)
+{
+return
+mName
+;
+}
 virtual
 nsresult
 InstallMember
