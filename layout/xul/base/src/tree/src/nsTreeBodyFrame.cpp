@@ -9071,6 +9071,7 @@ level
 ;
 if
 (
+(
 isRTL
 &
 &
@@ -9079,8 +9080,10 @@ aX
 currX
 +
 remainingWidth
+)
 |
 |
+(
 !
 isRTL
 &
@@ -9088,6 +9091,7 @@ isRTL
 aX
 <
 currX
+)
 )
 {
 /
