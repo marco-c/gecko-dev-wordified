@@ -575,13 +575,9 @@ nothing
 /
 #
 endif
-USING_INDEXEDDB_NAMESPACE
-using
+namespace
 mozilla
-:
-:
-MutexAutoLock
-;
+{
 LazyIdleThread
 :
 :
@@ -2865,3 +2861,8 @@ return
 NS_OK
 ;
 }
+}
+/
+/
+namespace
+mozilla

@@ -655,13 +655,6 @@ h
 #
 include
 "
-LazyIdleThread
-.
-h
-"
-#
-include
-"
 nsIScriptSecurityManager
 .
 h
