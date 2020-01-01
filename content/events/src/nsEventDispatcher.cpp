@@ -2735,13 +2735,16 @@ event
 target
 chain
 .
-aTarget
+target
 =
+do_QueryInterface
+(
 win
 -
 >
 GetChromeEventHandler
 (
+)
 )
 ;
 }
