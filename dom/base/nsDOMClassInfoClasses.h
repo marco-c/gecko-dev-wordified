@@ -1436,6 +1436,14 @@ FileReader
 )
 DOMCI_CLASS
 (
+ArchiveReader
+)
+DOMCI_CLASS
+(
+ArchiveRequest
+)
+DOMCI_CLASS
+(
 MozURLProperty
 )
 DOMCI_CLASS
