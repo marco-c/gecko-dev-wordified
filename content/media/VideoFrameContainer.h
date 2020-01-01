@@ -331,6 +331,10 @@ mImageSizeChanged
 (
 false
 )
+mNeedInvalidation
+(
+true
+)
 {
 NS_ASSERTION
 (
@@ -756,6 +760,9 @@ ImageLayer
 .
 bool
 mImageSizeChanged
+;
+bool
+mNeedInvalidation
 ;
 }
 ;
