@@ -202,6 +202,15 @@ setColor
 0xFFFF0000
 )
 ;
+mPaint
+.
+setStrokeWidth
+(
+0
+.
+0f
+)
+;
 }
 public
 void
