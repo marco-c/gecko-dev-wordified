@@ -877,6 +877,15 @@ aCurrentInner
 ;
 virtual
 nsresult
+SetOuterObject
+(
+void
+*
+aOuterObject
+)
+;
+virtual
+nsresult
 InitOuterWindow
 (
 )
