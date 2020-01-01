@@ -443,7 +443,7 @@ data
 {
 dataEl
 .
-innerHTML
+textContent
 =
 JSON
 .
