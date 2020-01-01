@@ -18468,6 +18468,16 @@ sLoadingInProgress
 =
 PR_FALSE
 ;
+if
+(
+nsContentUtils
+:
+:
+XPConnect
+(
+)
+)
+{
 nsContentUtils
 :
 :
@@ -18480,6 +18490,7 @@ GarbageCollect
 (
 )
 ;
+}
 }
 /
 /
