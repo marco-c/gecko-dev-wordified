@@ -6,6 +6,8 @@ Copyright
 c
 )
 2008
+-
+2009
 Mozilla
 Foundation
 *
@@ -4737,7 +4739,7 @@ largeop
 ALL_NO_PREFIX
 )
 ;
-UNICODE
+UNI_CODE
 =
 new
 nsHtml5AttributeName
@@ -4748,7 +4750,7 @@ SAME_LOCAL
 nsHtml5Atoms
 :
 :
-unicode
+unicode_
 )
 ALL_NO_PREFIX
 )
@@ -12409,7 +12411,7 @@ ATTRIBUTE_NAMES
 214
 ]
 =
-UNICODE
+UNI_CODE
 ;
 ATTRIBUTE_NAMES
 [
@@ -15665,7 +15667,7 @@ delete
 LARGEOP
 ;
 delete
-UNICODE
+UNI_CODE
 ;
 delete
 TARGETX

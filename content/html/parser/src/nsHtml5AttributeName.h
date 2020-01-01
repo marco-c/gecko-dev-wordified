@@ -6,6 +6,8 @@ Copyright
 c
 )
 2008
+-
+2009
 Mozilla
 Foundation
 *
@@ -1650,7 +1652,7 @@ LARGEOP
 static
 nsHtml5AttributeName
 *
-UNICODE
+UNI_CODE
 ;
 static
 nsHtml5AttributeName
@@ -5535,7 +5537,7 @@ nsHtml5AttributeName
 nsHtml5AttributeName
 :
 :
-UNICODE
+UNI_CODE
 =
 nsnull
 ;
