@@ -516,6 +516,7 @@ eDOMClassInfo_MouseScrollEvent_id
 eDOMClassInfo_DragEvent_id
 eDOMClassInfo_KeyboardEvent_id
 eDOMClassInfo_PopupBlockedEvent_id
+eDOMClassInfo_OrientationEvent_id
 /
 /
 HTML

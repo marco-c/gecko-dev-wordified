@@ -11028,6 +11028,17 @@ onMozPressTapGesture
 )
 /
 /
+orientation
+support
+GK_ATOM
+(
+onMozOrientation
+"
+onMozOrientation
+"
+)
+/
+/
 -
 -
 -
