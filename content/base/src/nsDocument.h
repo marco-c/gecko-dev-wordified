@@ -4481,6 +4481,14 @@ EndLoad
 ;
 virtual
 void
+SetReadyStateInternal
+(
+ReadyState
+rs
+)
+;
+virtual
+void
 ContentStatesChanged
 (
 nsIContent
@@ -7067,6 +7075,9 @@ nsCOMPtr
 nsIRequest
 >
 mOnloadBlocker
+;
+ReadyState
+mReadyState
 ;
 /
 /

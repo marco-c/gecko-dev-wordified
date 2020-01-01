@@ -3507,6 +3507,17 @@ mSynchronousDOMContentLoaded
 =
 PR_FALSE
 ;
+nsDocument
+:
+:
+SetReadyStateInternal
+(
+nsIDocument
+:
+:
+READYSTATE_COMPLETE
+)
+;
 /
 /
 Generate
