@@ -13573,6 +13573,9 @@ one
 if
 (
 isIMETransaction
+&
+&
+mIMETextNode
 )
 {
 PRUint32
