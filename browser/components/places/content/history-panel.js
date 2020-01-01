@@ -695,6 +695,11 @@ alwaysHideElements
 "
 placesContext_new
 :
+bookmark
+"
+"
+placesContext_new
+:
 folder
 "
 "
