@@ -21780,11 +21780,6 @@ decoder
 "
 )
 ;
-MOZ_ASSERT
-(
-mDecodeRequest
-)
-;
 /
 /
 The
@@ -21888,10 +21883,15 @@ NeedsNewFrame
 )
 |
 |
+(
+mDecodeRequest
+&
+&
 mDecodeRequest
 -
 >
 mAllocatedNewFrame
+)
 )
 {
 return
