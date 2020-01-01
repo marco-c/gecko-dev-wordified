@@ -3465,9 +3465,6 @@ return
 ;
 }
 }
-#
-ifdef
-MOZ_DUMP_IMAGES
 void
 gfxASurface
 :
@@ -4567,5 +4564,3 @@ nullptr
 return
 ;
 }
-#
-endif
