@@ -616,6 +616,11 @@ ActorDestroyReason
 why
 )
 {
+if
+(
+mProxy
+)
+{
 mProxy
 -
 >
@@ -623,6 +628,7 @@ OnParentDestroyed
 (
 )
 ;
+}
 }
 }
 /
