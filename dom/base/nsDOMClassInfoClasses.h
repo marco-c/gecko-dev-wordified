@@ -1896,6 +1896,10 @@ DOMCI_CLASS
 (
 MozSmsCursor
 )
+DOMCI_CLASS
+(
+MozConnection
+)
 /
 /
 font
