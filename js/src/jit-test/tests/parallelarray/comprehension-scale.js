@@ -151,7 +151,7 @@ d
 .
 partition
 (
-H
+W
 )
 ;
 assertEqParallelArray
