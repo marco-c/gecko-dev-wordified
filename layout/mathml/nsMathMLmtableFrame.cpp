@@ -1372,7 +1372,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZrowalign
+_moz_math_rowalign_
 )
 )
 {
@@ -1410,8 +1410,7 @@ attr
 set
 our
 special
--
-moz
+_moz
 attribute
 on
 the
@@ -1429,7 +1428,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZrowalign
+_moz_math_rowalign_
 nsDependentString
 (
 attr
@@ -1558,7 +1557,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZrowline
+_moz_math_rowline_
 )
 )
 {
@@ -1586,8 +1585,7 @@ attr
 set
 our
 special
--
-moz
+_moz
 attribute
 on
 the
@@ -1605,7 +1603,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZrowline
+_moz_math_rowline_
 nsDependentString
 (
 attr
@@ -1742,7 +1740,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZcolumnalign
+_moz_math_columnalign_
 )
 )
 {
@@ -1811,8 +1809,7 @@ attr
 set
 our
 special
--
-moz
+_moz
 attribute
 without
 notifying
@@ -1827,7 +1824,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZcolumnalign
+_moz_math_columnalign_
 nsDependentString
 (
 attr
@@ -1953,7 +1950,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZcolumnline
+_moz_math_columnline_
 )
 )
 {
@@ -1981,8 +1978,7 @@ attr
 set
 our
 special
--
-moz
+_moz
 attribute
 without
 notifying
@@ -1997,7 +1993,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZcolumnline
+_moz_math_columnline_
 nsDependentString
 (
 attr
@@ -3401,7 +3397,7 @@ MOZrowAtom
 nsGkAtoms
 :
 :
-MOZrowalign
+_moz_math_rowalign_
 ;
 else
 if
@@ -3419,7 +3415,7 @@ MOZrowAtom
 nsGkAtoms
 :
 :
-MOZrowline
+_moz_math_rowline_
 ;
 else
 if
@@ -3437,7 +3433,7 @@ MOZcolAtom
 nsGkAtoms
 :
 :
-MOZcolumnalign
+_moz_math_columnalign_
 ;
 else
 if
@@ -3455,7 +3451,7 @@ MOZcolAtom
 nsGkAtoms
 :
 :
-MOZcolumnline
+_moz_math_columnline_
 ;
 if
 (
@@ -3490,8 +3486,7 @@ aAttribute
 /
 unset
 any
--
-moz
+_moz
 attribute
 that
 we
@@ -4973,8 +4968,7 @@ rowalign_
 /
 unset
 any
--
-moz
+_moz
 attribute
 that
 we
@@ -4995,7 +4989,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZrowalign
+_moz_math_rowalign_
 PR_FALSE
 )
 ;
@@ -5061,8 +5055,7 @@ aAttribute
 Clear
 any
 internal
--
-moz
+_moz
 attribute
 that
 we
@@ -5145,7 +5138,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZcolumnalign
+_moz_math_columnalign_
 PR_FALSE
 )
 ;
@@ -5583,8 +5576,7 @@ columnalign_
 /
 unset
 any
--
-moz
+_moz
 attribute
 that
 we
@@ -5605,7 +5597,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZcolumnalign
+_moz_math_columnalign_
 PR_FALSE
 )
 ;

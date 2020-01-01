@@ -679,7 +679,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZfontstyle
+_moz_math_fontstyle_
 style
 )
 |
@@ -2540,8 +2540,7 @@ attribute
 /
 set
 the
--
-moz
+_moz
 -
 math
 -
@@ -2576,7 +2575,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZfontstyle
+_moz_math_fontstyle_
 )
 )
 {
@@ -2589,7 +2588,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZfontstyle
+_moz_math_fontstyle_
 PR_FALSE
 )
 ;
@@ -2611,7 +2610,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZfontstyle
+_moz_math_fontstyle_
 fontstyle
 eCaseMatters
 )
@@ -2626,7 +2625,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZfontstyle
+_moz_math_fontstyle_
 fontstyle
 PR_FALSE
 )
