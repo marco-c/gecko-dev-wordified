@@ -12523,7 +12523,7 @@ null
 }
 browser
 .
-loadURI
+loadURIWithFlags
 (
 aURI
 .
