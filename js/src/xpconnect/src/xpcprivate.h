@@ -17863,6 +17863,9 @@ NativeInterface2JSObject
 XPCCallContext
 &
 ccx
+jsval
+*
+d
 nsIXPConnectJSObjectHolder
 *
 *
