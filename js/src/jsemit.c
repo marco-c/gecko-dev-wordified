@@ -13588,9 +13588,10 @@ c
 /
 fun
 =
-GET_FUNCTION_PRIVATE
 (
-cx
+JSFunction
+*
+)
 pn
 -
 >
@@ -13598,7 +13599,6 @@ pn_funpob
 -
 >
 object
-)
 ;
 if
 (
@@ -25361,9 +25361,10 @@ break
 endif
 fun
 =
-GET_FUNCTION_PRIVATE
 (
-cx
+JSFunction
+*
+)
 pn
 -
 >
@@ -25371,7 +25372,6 @@ pn_funpob
 -
 >
 object
-)
 ;
 if
 (

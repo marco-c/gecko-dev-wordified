@@ -1983,6 +1983,7 @@ js_NamespaceClass
 base
 NULL
 NULL
+0
 )
 ;
 if
@@ -3429,6 +3430,7 @@ js_QNameClass
 base
 NULL
 NULL
+0
 )
 ;
 if
@@ -3567,6 +3569,7 @@ cx
 js_AttributeNameClass
 NULL
 NULL
+0
 )
 ;
 if
@@ -4229,6 +4232,7 @@ js_NamespaceClass
 base
 NULL
 NULL
+0
 )
 ;
 if
@@ -4936,6 +4940,7 @@ n
 clasp
 NULL
 NULL
+0
 )
 ;
 if
@@ -45598,6 +45603,7 @@ cx
 js_XMLClass
 NULL
 NULL
+0
 )
 ;
 if
@@ -46325,10 +46331,10 @@ if
 js_SetClassPrototype
 (
 cx
+FUN_OBJECT
+(
 fun
--
->
-object
+)
 proto
 JSPROP_READONLY
 |
@@ -47936,6 +47942,7 @@ cx
 js_AnyNameClass
 NULL
 NULL
+0
 )
 ;
 if
@@ -49577,6 +49584,7 @@ cx
 js_XMLFilterClass
 NULL
 NULL
+0
 )
 ;
 if

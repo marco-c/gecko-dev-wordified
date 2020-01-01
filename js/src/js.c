@@ -5103,12 +5103,6 @@ string
 "
 JSTRACE_STRING
 }
-{
-"
-function
-"
-JSTRACE_FUNCTION
-}
 #
 if
 JS_HAS_XML_SUPPORT
