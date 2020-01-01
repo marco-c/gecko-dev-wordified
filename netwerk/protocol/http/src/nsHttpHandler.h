@@ -928,15 +928,6 @@ return
 mEnablePersistentHttpsCaching
 ;
 }
-PRBool
-PromptTempRedirect
-(
-)
-{
-return
-mPromptTempRedirect
-;
-}
 nsHttpAuthCache
 *
 AuthCache
@@ -1835,9 +1826,6 @@ be
 rebuilt
 PRPackedBool
 mUseCache
-;
-PRPackedBool
-mPromptTempRedirect
 ;
 /
 /
