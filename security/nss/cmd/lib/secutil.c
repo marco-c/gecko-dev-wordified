@@ -24621,6 +24621,7 @@ sd
 0
 sizeof
 (
+*
 sd
 )
 )
@@ -24676,19 +24677,6 @@ bit
 string
 *
 /
-if
-(
-!
-sd
--
->
-signatureAlgorithm
-.
-parameters
-.
-data
-)
-{
 rv
 =
 SECOID_SetAlgorithmID
@@ -24710,7 +24698,6 @@ rv
 goto
 loser
 ;
-}
 return
 rv
 ;
