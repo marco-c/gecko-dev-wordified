@@ -1635,7 +1635,7 @@ window
 ;
 virtual
 nsresult
-GetImage
+GetImageContainer
 (
 NPP
 instance
@@ -1647,17 +1647,8 @@ layers
 :
 ImageContainer
 *
+*
 aContainer
-mozilla
-:
-:
-layers
-:
-:
-Image
-*
-*
-aImage
 )
 ;
 virtual
