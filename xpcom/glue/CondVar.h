@@ -525,7 +525,7 @@ lock
 *
 param
 aLock
-An
+A
 Mutex
 to
 associate
