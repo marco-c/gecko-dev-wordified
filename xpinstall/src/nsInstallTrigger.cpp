@@ -1326,6 +1326,10 @@ AllowInstall
 referringURI
 )
 ;
+if
+(
+referringURI
+)
 referringURI
 -
 >
