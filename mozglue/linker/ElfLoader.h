@@ -385,6 +385,9 @@ LibHandle
 namespace
 mozilla
 {
+namespace
+detail
+{
 template
 <
 >
@@ -393,6 +396,7 @@ void
 RefCounted
 <
 LibHandle
+NonAtomicRefCount
 >
 :
 :
@@ -407,6 +411,7 @@ inline
 RefCounted
 <
 LibHandle
+NonAtomicRefCount
 >
 :
 :
@@ -424,6 +429,13 @@ refCnt
 )
 ;
 }
+}
+/
+*
+namespace
+detail
+*
+/
 }
 /
 *
@@ -1182,6 +1194,9 @@ destructor
 namespace
 mozilla
 {
+namespace
+detail
+{
 template
 <
 >
@@ -1190,6 +1205,7 @@ void
 RefCounted
 <
 LibHandle
+NonAtomicRefCount
 >
 :
 :
@@ -1267,6 +1283,13 @@ this
 }
 }
 }
+}
+/
+*
+namespace
+detail
+*
+/
 }
 /
 *
