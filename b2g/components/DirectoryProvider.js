@@ -200,6 +200,9 @@ webappsDir
 "
 PrefD
 "
+"
+indexedDBPDir
+"
 ]
 ;
 if
