@@ -3545,15 +3545,6 @@ mChromeEventHandler
 strong
 nsCOMPtr
 <
-nsIDOMDocument
->
-mDocument
-;
-/
-/
-strong
-nsCOMPtr
-<
 nsIDocument
 >
 mDoc
@@ -3561,9 +3552,6 @@ mDoc
 /
 /
 strong
-for
-fast
-access
 /
 /
 Cache
