@@ -1808,6 +1808,10 @@ runtime
 >
 triggerOperationCallback
 (
+JSRuntime
+:
+:
+TriggerCallbackMainThread
 )
 ;
 }

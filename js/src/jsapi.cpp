@@ -31728,6 +31728,10 @@ rt
 >
 triggerOperationCallback
 (
+JSRuntime
+:
+:
+TriggerCallbackAnyThread
 )
 ;
 }

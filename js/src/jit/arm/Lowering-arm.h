@@ -645,14 +645,6 @@ ins
 )
 ;
 bool
-visitInterruptCheck
-(
-MInterruptCheck
-*
-ins
-)
-;
-bool
 visitStoreTypedArrayElementStatic
 (
 MStoreTypedArrayElementStatic

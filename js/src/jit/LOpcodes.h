@@ -1228,6 +1228,11 @@ InterruptCheck
 \
 _
 (
+InterruptCheckImplicit
+)
+\
+_
+(
 FunctionBoundary
 )
 \
