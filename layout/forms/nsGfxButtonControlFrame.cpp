@@ -162,13 +162,6 @@ nsTextNode
 .
 h
 "
-const
-nscoord
-kSuggestedNotSet
-=
--
-1
-;
 nsGfxButtonControlFrame
 :
 :

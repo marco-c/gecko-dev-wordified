@@ -442,13 +442,6 @@ prlog
 .
 h
 "
-static
-NS_DEFINE_CID
-(
-kAppShellCID
-NS_APPSHELL_CID
-)
-;
 #
 ifdef
 XP_MACOSX

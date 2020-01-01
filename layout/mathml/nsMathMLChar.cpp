@@ -327,17 +327,6 @@ NOISY_SEARCH
 -
 static
 const
-PRUnichar
-kSpaceCh
-=
-PRUnichar
-(
-'
-'
-)
-;
-static
-const
 nsGlyphCode
 kNullGlyph
 =
