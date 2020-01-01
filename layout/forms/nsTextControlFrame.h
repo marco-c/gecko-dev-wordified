@@ -872,7 +872,7 @@ aElements
 ;
 virtual
 void
-GetAnonymousContent
+AppendAnonymousContentTo
 (
 nsBaseContentList
 &

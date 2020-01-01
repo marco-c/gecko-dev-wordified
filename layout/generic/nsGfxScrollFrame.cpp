@@ -948,7 +948,7 @@ void
 nsHTMLScrollFrame
 :
 :
-GetAnonymousContent
+AppendAnonymousContentTo
 (
 nsBaseContentList
 &
@@ -957,7 +957,7 @@ aElements
 {
 mInner
 .
-GetAnonymousContent
+AppendAnonymousContentTo
 (
 aElements
 )
@@ -6697,7 +6697,7 @@ void
 nsXULScrollFrame
 :
 :
-GetAnonymousContent
+AppendAnonymousContentTo
 (
 nsBaseContentList
 &
@@ -6706,7 +6706,7 @@ aElements
 {
 mInner
 .
-GetAnonymousContent
+AppendAnonymousContentTo
 (
 aElements
 )
@@ -14547,7 +14547,7 @@ void
 nsGfxScrollFrameInner
 :
 :
-GetAnonymousContent
+AppendAnonymousContentTo
 (
 nsBaseContentList
 &

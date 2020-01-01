@@ -1007,7 +1007,7 @@ void
 nsVideoFrame
 :
 :
-GetAnonymousContent
+AppendAnonymousContentTo
 (
 nsBaseContentList
 &
