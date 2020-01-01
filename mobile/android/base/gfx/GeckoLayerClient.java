@@ -1015,12 +1015,6 @@ initPrefs
 (
 )
 ;
-PluginLayer
-.
-initPrefs
-(
-)
-;
 }
 public
 void
