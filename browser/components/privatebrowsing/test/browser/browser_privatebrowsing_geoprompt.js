@@ -114,8 +114,6 @@ test
 /
 browser
 /
-perwindow
-/
 browser_privatebrowsing_geoprompt_page
 .
 html

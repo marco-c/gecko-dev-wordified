@@ -117,8 +117,6 @@ test
 /
 browser
 /
-perwindow
-/
 title
 .
 sjs

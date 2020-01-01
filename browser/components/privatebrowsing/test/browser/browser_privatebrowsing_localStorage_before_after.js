@@ -194,8 +194,6 @@ test
 /
 browser
 /
-perwindow
-/
 '
 ;
 function

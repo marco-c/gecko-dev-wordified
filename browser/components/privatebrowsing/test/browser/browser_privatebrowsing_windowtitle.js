@@ -113,8 +113,6 @@ test
 /
 browser
 /
-perwindow
-/
 browser_privatebrowsing_windowtitle_page
 .
 html
