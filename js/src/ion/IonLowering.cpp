@@ -2212,9 +2212,6 @@ in
 the
 block
 .
-current
--
->
 add
 (
 new
