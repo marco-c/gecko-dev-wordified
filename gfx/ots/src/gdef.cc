@@ -1052,7 +1052,7 @@ unsigned
 (
 2
 )
-*
++
 2
 *
 caret_count
