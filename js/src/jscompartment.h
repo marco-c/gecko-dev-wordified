@@ -3574,6 +3574,7 @@ cx
 JSCompartment
 *
 newCompartment
+JS_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 PreserveCompartment
@@ -3581,6 +3582,8 @@ PreserveCompartment
 cx
 )
 {
+JS_GUARD_OBJECT_NOTIFIER_INIT
+;
 cx
 -
 >
@@ -3597,6 +3600,7 @@ cx
 JSObject
 *
 target
+JS_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 PreserveCompartment
@@ -3604,6 +3608,8 @@ PreserveCompartment
 cx
 )
 {
+JS_GUARD_OBJECT_NOTIFIER_INIT
+;
 cx
 -
 >
@@ -3617,6 +3623,7 @@ getCompartment
 )
 ;
 }
+JS_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
