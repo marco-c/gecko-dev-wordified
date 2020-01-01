@@ -16050,7 +16050,7 @@ pnleft
 >
 isKind
 (
-PNK_FUNCTION
+PNK_FUNCTIONNS
 )
 )
 return
