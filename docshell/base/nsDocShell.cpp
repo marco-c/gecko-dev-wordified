@@ -5051,6 +5051,12 @@ p
 =
 %
 ld
+[
+id
+=
+%
+ld
+]
 \
 n
 "
@@ -5060,6 +5066,7 @@ void
 )
 this
 gNumberOfDocShells
+mHistoryID
 )
 ;
 }
@@ -5192,6 +5199,12 @@ p
 =
 %
 ld
+[
+id
+=
+%
+ld
+]
 \
 n
 "
@@ -5201,6 +5214,7 @@ void
 )
 this
 gNumberOfDocShells
+mHistoryID
 )
 ;
 }
