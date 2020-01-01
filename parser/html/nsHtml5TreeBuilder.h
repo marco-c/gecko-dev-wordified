@@ -1206,13 +1206,8 @@ form
 )
 ;
 void
-appendVoidElementToCurrent
+appendVoidFormToCurrent
 (
-PRInt32
-ns
-nsIAtom
-*
-name
 nsHtml5HtmlAttributes
 *
 attributes
