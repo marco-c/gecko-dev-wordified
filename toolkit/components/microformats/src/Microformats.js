@@ -5713,6 +5713,18 @@ substr
 )
 ;
 }
+if
+(
+in_mfnode
+.
+ownerDocument
+.
+getElementById
+(
+includeId
+)
+)
+{
 includes
 [
 i
@@ -5741,6 +5753,7 @@ i
 ]
 )
 ;
+}
 }
 }
 else
@@ -5810,6 +5823,11 @@ i
 ]
 )
 ;
+if
+(
+headerNode
+)
+{
 tempNode
 .
 innerHTML
@@ -5833,6 +5851,7 @@ appendChild
 tempNode
 )
 ;
+}
 }
 }
 }
