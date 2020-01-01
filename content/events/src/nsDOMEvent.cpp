@@ -4484,6 +4484,10 @@ oldAnimationEvent
 -
 >
 elapsedTime
+oldAnimationEvent
+-
+>
+pseudoElement
 )
 ;
 NS_ENSURE_TRUE
