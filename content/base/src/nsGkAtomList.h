@@ -15725,6 +15725,13 @@ input
 )
 GK_ATOM
 (
+grammar
+"
+grammar
+"
+)
+GK_ATOM
+(
 gridcell
 "
 gridcell
@@ -15920,6 +15927,13 @@ GK_ATOM
 setsize
 "
 setsize
+"
+)
+GK_ATOM
+(
+spelling
+"
+spelling
 "
 )
 GK_ATOM
