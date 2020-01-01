@@ -885,6 +885,15 @@ readstack
 (
 void
 *
+char
+*
+prefix
+=
+NULL
+int
+index
+=
+0
 )
 ;
 void
