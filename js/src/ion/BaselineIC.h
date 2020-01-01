@@ -5405,6 +5405,9 @@ false
 void
 unlinkStub
 (
+Zone
+*
+zone
 ICStub
 *
 prev
@@ -5416,6 +5419,9 @@ stub
 void
 unlinkStubsWithKind
 (
+JSContext
+*
+cx
 ICStub
 :
 :
@@ -7580,6 +7586,9 @@ val
 void
 resetMonitorStubChain
 (
+Zone
+*
+zone
 )
 ;
 /

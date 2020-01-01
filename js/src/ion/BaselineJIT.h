@@ -965,6 +965,9 @@ script
 void
 purgeOptimizedStubs
 (
+Zone
+*
+zone
 )
 ;
 static

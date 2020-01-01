@@ -3437,6 +3437,9 @@ BaselineScript
 :
 purgeOptimizedStubs
 (
+Zone
+*
+zone
 )
 {
 IonSpew
@@ -3583,6 +3586,7 @@ toFallbackStub
 >
 unlinkStub
 (
+zone
 prev
 stub
 )
@@ -3664,6 +3668,7 @@ lastMonStub
 >
 resetMonitorStubChain
 (
+zone
 )
 ;
 }
@@ -3689,6 +3694,7 @@ toTypeMonitor_Fallback
 >
 resetMonitorStubChain
 (
+zone
 )
 ;
 }
@@ -3880,6 +3886,12 @@ baseline
 >
 purgeOptimizedStubs
 (
+script
+-
+>
+zone
+(
+)
 )
 ;
 /
