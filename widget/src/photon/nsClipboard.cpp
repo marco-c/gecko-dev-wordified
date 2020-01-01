@@ -1211,7 +1211,8 @@ rv
 rv
 =
 mPrivacyHandler
-.
+-
+>
 PrepareDataForClipboard
 (
 aTransferable
