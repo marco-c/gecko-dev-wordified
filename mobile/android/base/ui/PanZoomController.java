@@ -2151,6 +2151,12 @@ thread
 .
 *
 /
+SuppressWarnings
+(
+"
+fallthrough
+"
+)
 public
 void
 abortAnimation
@@ -2556,6 +2562,12 @@ return
 false
 ;
 }
+SuppressWarnings
+(
+"
+fallthrough
+"
+)
 private
 boolean
 onTouchMove
