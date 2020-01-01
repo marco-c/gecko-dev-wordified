@@ -3145,6 +3145,17 @@ NO_ACCESS
 JSPropertyDescriptor
 desc
 ;
+memset
+(
+&
+desc
+0
+sizeof
+(
+desc
+)
+)
+;
 if
 (
 !
