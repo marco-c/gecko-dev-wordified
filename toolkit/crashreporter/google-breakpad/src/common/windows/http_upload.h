@@ -825,7 +825,7 @@ of
 filename
 .
 static
-void
+bool
 GetFileContents
 (
 const
