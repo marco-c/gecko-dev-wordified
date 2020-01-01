@@ -6923,7 +6923,7 @@ _onNewGlobal
 ;
 this
 .
-activeThread
+debuggerClient
 .
 addListener
 (
@@ -7008,7 +7008,7 @@ _onNewGlobal
 ;
 this
 .
-activeThread
+debuggerClient
 .
 removeListener
 (
@@ -7503,7 +7503,7 @@ sources
 +
 aResponse
 .
-error
+message
 )
 ;
 return
@@ -7951,7 +7951,7 @@ n
 +
 aResponse
 .
-error
+message
 )
 ;
 return
@@ -7963,6 +7963,9 @@ aSource
 url
 "
 "
+aResponse
+.
+error
 )
 ;
 }

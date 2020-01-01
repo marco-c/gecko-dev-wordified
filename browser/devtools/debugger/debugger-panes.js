@@ -11118,8 +11118,17 @@ DVGS__onFetchSourceFinished
 (
 aLocation
 aContents
+aError
 )
 {
+if
+(
+aError
+)
+{
+return
+;
+}
 /
 /
 Remember
