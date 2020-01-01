@@ -588,6 +588,11 @@ nsIFrame
 :
 :
 eMathML
+|
+nsIFrame
+:
+:
+eExcludesIgnorableWhitespace
 )
 )
 ;
@@ -865,6 +870,11 @@ nsIFrame
 :
 :
 eMathML
+|
+nsIFrame
+:
+:
+eExcludesIgnorableWhitespace
 )
 )
 ;
@@ -1125,6 +1135,11 @@ nsIFrame
 :
 :
 eMathML
+|
+nsIFrame
+:
+:
+eExcludesIgnorableWhitespace
 )
 )
 ;
@@ -1313,6 +1328,11 @@ nsIFrame
 :
 :
 eMathML
+|
+nsIFrame
+:
+:
+eExcludesIgnorableWhitespace
 )
 )
 ;
