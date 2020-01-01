@@ -3695,6 +3695,7 @@ buffer
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -6729,6 +6730,7 @@ buffer
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -7015,6 +7017,7 @@ buffer
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -7270,6 +7273,7 @@ buffer
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -7878,6 +7882,7 @@ buffer
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -8215,6 +8220,7 @@ buffer
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -9832,6 +9838,7 @@ buffer
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -11496,6 +11503,7 @@ buffer
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -12466,6 +12474,7 @@ buffer
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -13765,6 +13774,7 @@ buffer
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -17314,9 +17324,6 @@ attachGetProp
 VMFrame
 &
 f
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -17339,6 +17346,14 @@ isString
 (
 )
 )
+;
+JSContext
+*
+cx
+=
+f
+.
+cx
 ;
 GetPropertyHelper
 <
@@ -18139,6 +18154,7 @@ buffer
 .
 finalize
 (
+f
 )
 ;
 #
@@ -18784,9 +18800,9 @@ GetElementIC
 :
 attachArguments
 (
-JSContext
-*
-cx
+VMFrame
+&
+f
 JSObject
 *
 obj
@@ -18801,6 +18817,14 @@ Value
 vp
 )
 {
+JSContext
+*
+cx
+=
+f
+.
+cx
+;
 if
 (
 !
@@ -19885,9 +19909,9 @@ GetElementIC
 :
 attachTypedArray
 (
-JSContext
-*
-cx
+VMFrame
+&
+f
 JSObject
 *
 obj
@@ -19902,6 +19926,14 @@ Value
 vp
 )
 {
+JSContext
+*
+cx
+=
+f
+.
+cx
+;
 if
 (
 !
@@ -20521,9 +20553,6 @@ update
 VMFrame
 &
 f
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -20615,7 +20644,6 @@ return
 attachGetProp
 (
 f
-cx
 obj
 v
 id
@@ -20748,6 +20776,8 @@ enabled
 if
 (
 !
+f
+.
 cx
 -
 >
@@ -20764,7 +20794,7 @@ obj
 return
 attachTypedArray
 (
-cx
+f
 obj
 v
 id
@@ -20776,6 +20806,8 @@ endif
 return
 disable
 (
+f
+.
 cx
 "
 unhandled
@@ -21017,7 +21049,6 @@ ic
 update
 (
 f
-cx
 thisObj
 idval
 id
@@ -21474,7 +21505,6 @@ ic
 update
 (
 f
-cx
 obj
 idval
 id
@@ -21765,9 +21795,9 @@ SetElementIC
 :
 attachHoleStub
 (
-JSContext
-*
-cx
+VMFrame
+&
+f
 JSObject
 *
 obj
@@ -21775,6 +21805,14 @@ int32
 keyval
 )
 {
+JSContext
+*
+cx
+=
+f
+.
+cx
+;
 if
 (
 keyval
@@ -22463,6 +22501,7 @@ buffer
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -22546,9 +22585,9 @@ SetElementIC
 :
 attachTypedArray
 (
-JSContext
-*
-cx
+VMFrame
+&
+f
 JSObject
 *
 obj
@@ -22576,6 +22615,14 @@ inlineClaspGuardPatched
 ;
 Assembler
 masm
+;
+JSContext
+*
+cx
+=
+f
+.
+cx
 ;
 /
 /
@@ -23162,9 +23209,9 @@ SetElementIC
 :
 update
 (
-JSContext
-*
-cx
+VMFrame
+&
+f
 const
 Value
 &
@@ -23187,6 +23234,8 @@ isObject
 return
 disable
 (
+f
+.
 cx
 "
 primitive
@@ -23206,6 +23255,8 @@ isInt32
 return
 disable
 (
+f
+.
 cx
 "
 non
@@ -23247,7 +23298,7 @@ isDenseArray
 return
 attachHoleStub
 (
-cx
+f
 obj
 key
 )
@@ -23275,6 +23326,8 @@ GetElementIC
 if
 (
 !
+f
+.
 cx
 -
 >
@@ -23291,7 +23344,7 @@ obj
 return
 attachTypedArray
 (
-cx
+f
 obj
 key
 )
@@ -23301,6 +23354,8 @@ endif
 return
 disable
 (
+f
+.
 cx
 "
 unsupported
@@ -23360,7 +23415,7 @@ ic
 >
 update
 (
-cx
+f
 f
 .
 regs

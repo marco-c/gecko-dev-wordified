@@ -5427,6 +5427,17 @@ JSOPTION_
 /
 public
 :
+int32
+reportGranularity
+;
+/
+*
+see
+jsprobes
+.
+h
+*
+/
 /
 *
 Locale

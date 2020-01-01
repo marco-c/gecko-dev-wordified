@@ -2017,6 +2017,7 @@ linker
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -3837,6 +3838,7 @@ buffer
 .
 finalize
 (
+f
 )
 ;
 /
@@ -6153,6 +6155,7 @@ linker
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -6771,6 +6774,7 @@ linker
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -8165,6 +8169,7 @@ linker
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -10189,6 +10194,7 @@ linker
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
