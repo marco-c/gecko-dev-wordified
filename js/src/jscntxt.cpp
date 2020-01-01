@@ -7494,6 +7494,11 @@ message
 JSErrorReport
 *
 reportp
+JSErrorCallback
+callback
+void
+*
+userRef
 )
 {
 /
@@ -7558,6 +7563,18 @@ reportp
 ;
 if
 (
+(
+!
+callback
+|
+|
+callback
+=
+=
+js_GetErrorMessage
+)
+&
+&
 reportp
 -
 >
@@ -7652,6 +7669,8 @@ js_ErrorToException
 cx
 message
 reportp
+callback
+userRef
 )
 )
 {
@@ -8576,6 +8595,8 @@ cx
 message
 &
 report
+NULL
+NULL
 )
 ;
 js_free
@@ -9829,6 +9850,8 @@ cx
 message
 &
 report
+callback
+userRef
 )
 ;
 if
