@@ -6802,6 +6802,8 @@ if
 cx
 )
 {
+cx
+=
 nsContentUtils
 :
 :
@@ -6812,8 +6814,6 @@ ThreadJSContextStack
 >
 GetSafeJSContext
 (
-&
-cx
 )
 ;
 }
@@ -12929,7 +12929,7 @@ obj
 JSContext
 *
 cx
-;
+=
 nsContentUtils
 :
 :
@@ -12940,8 +12940,6 @@ ThreadJSContextStack
 >
 GetSafeJSContext
 (
-&
-cx
 )
 ;
 JSAutoRequest
@@ -31893,13 +31891,13 @@ if
 cxStack
 )
 {
+cx
+=
 cxStack
 -
 >
 GetSafeJSContext
 (
-&
-cx
 )
 ;
 }
