@@ -529,7 +529,7 @@ msg
 2048
 ]
 ;
-vsnprintf
+_vsnprintf
 (
 msg
 sizeof
