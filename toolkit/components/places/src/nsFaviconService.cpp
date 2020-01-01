@@ -4858,15 +4858,11 @@ aSpec
 ;
 }
 }
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS4
 (
 FaviconLoadListener
-nsIStreamListener
-/
-/
-is
-a
 nsIRequestObserver
+nsIStreamListener
 nsIInterfaceRequestor
 nsIChannelEventSink
 )
