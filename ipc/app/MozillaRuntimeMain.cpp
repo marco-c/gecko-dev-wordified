@@ -683,6 +683,13 @@ GeckoProcessType_Plugin
 mozilla
 :
 :
+SanitizeEnvironmentVariables
+(
+)
+;
+mozilla
+:
+:
 NS_SetDllDirectory
 (
 L
