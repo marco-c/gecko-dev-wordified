@@ -68379,7 +68379,7 @@ if
 !
 aItems
 .
-IsStartInline
+IsEndInline
 (
 )
 )
@@ -68429,7 +68429,7 @@ aPrevSibling
 !
 aItems
 .
-IsEndInline
+IsStartInline
 (
 )
 )
