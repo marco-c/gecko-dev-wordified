@@ -646,7 +646,7 @@ mInvalidatedRect
 *
 *
 *
-Software
+Destination
 surface
 used
 for
@@ -659,8 +659,8 @@ operation
 .
 This
 is
-created
 *
+created
 on
 BeginDrawing
 (
@@ -678,9 +678,9 @@ EndDrawing
 /
 nsRefPtr
 <
-gfxImageSurface
+gfxASurface
 >
-mSoftwareSurface
+mDestinationSurface
 ;
 /
 *
