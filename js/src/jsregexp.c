@@ -22847,9 +22847,11 @@ string
 /
 obj
 =
-js_NewSlowArrayObject
+js_NewArrayObject
 (
 cx
+0
+NULL
 )
 ;
 if
