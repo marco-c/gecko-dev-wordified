@@ -27138,6 +27138,15 @@ JSObject
 obj
 )
 ;
+CompartmentPrivate
+*
+EnsureCompartmentPrivate
+(
+JSCompartment
+*
+c
+)
+;
 inline
 CompartmentPrivate
 *
