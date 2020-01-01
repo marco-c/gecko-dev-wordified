@@ -1665,6 +1665,19 @@ cv
 mProperty
 )
 ;
+if
+(
+prop
+-
+>
+GetUnit
+(
+)
+=
+=
+eCSSUnit_Null
+)
+{
 #
 ifdef
 DEBUG
@@ -1704,6 +1717,7 @@ value
 "
 )
 ;
+}
 }
 }
 }
