@@ -322,6 +322,10 @@ principals
 (
 NULL
 )
+global_
+(
+NULL
+)
 needsBarrier_
 (
 false
