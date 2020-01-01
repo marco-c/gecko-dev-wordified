@@ -62,6 +62,8 @@ org
 mozilla
 .
 gecko
+.
+util
 ;
 import
 android
@@ -105,6 +107,7 @@ util
 .
 Hashtable
 ;
+public
 class
 INISection
 {
