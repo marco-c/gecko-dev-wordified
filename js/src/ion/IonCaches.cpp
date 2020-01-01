@@ -2457,7 +2457,9 @@ cacheIndex
 JSObject
 *
 obj
+const
 Value
+&
 value
 )
 {
@@ -2498,6 +2500,11 @@ cache
 atom
 (
 )
+;
+Value
+v
+=
+value
 ;
 /
 /
@@ -2630,7 +2637,7 @@ ATOM_TO_JSID
 atom
 )
 &
-value
+v
 cache
 .
 strict

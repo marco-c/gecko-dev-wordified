@@ -2907,7 +2907,9 @@ obj
 JSAtom
 *
 atom
+const
 Value
+&
 value
 )
 ;

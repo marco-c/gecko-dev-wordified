@@ -13749,7 +13749,9 @@ JSObject
 *
 JSAtom
 *
+const
 Value
+&
 )
 ;
 if
@@ -13987,7 +13989,9 @@ JSContext
 size_t
 JSObject
 *
+const
 Value
+&
 )
 ;
 static
