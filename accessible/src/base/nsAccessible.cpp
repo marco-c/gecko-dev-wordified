@@ -11030,7 +11030,9 @@ nsIAtom
 aTagName
 nsIAtom
 *
-aAttr
+aRelationAttr
+PRUint32
+aRelationNameSpaceID
 PRUint32
 aAncestorLevelsToSearch
 )
@@ -11374,9 +11376,9 @@ FindDescendantPointingToID
 &
 controlID
 content
-aAttr
+aRelationAttr
+aRelationNameSpaceID
 nsnull
-kNameSpaceID_None
 aTagName
 )
 ;
@@ -11392,9 +11394,9 @@ FindDescendantPointingToID
 &
 controlID
 aForNode
-aAttr
+aRelationAttr
+aRelationNameSpaceID
 prevSearched
-kNameSpaceID_None
 aTagName
 )
 ;
@@ -11411,7 +11413,7 @@ labelContent
 /
 Pass
 in
-aForAttrib
+aRelationAttr
 =
 =
 nsnull
@@ -11438,12 +11440,12 @@ nsIContent
 aLookContent
 nsIAtom
 *
-aForAttrib
+aRelationAttr
+PRUint32
+aRelationNameSpaceID
 nsIContent
 *
 aExcludeContent
-PRUint32
-aForAttribNameSpace
 nsIAtom
 *
 aTagType
@@ -11468,7 +11470,7 @@ aTagType
 {
 if
 (
-aForAttrib
+aRelationAttr
 )
 {
 /
@@ -11479,7 +11481,7 @@ ID
 in
 the
 attribute
-aForAttrib
+aRelationAttr
 which
 can
 be
@@ -11495,8 +11497,8 @@ aLookContent
 >
 GetAttr
 (
-aForAttribNameSpace
-aForAttrib
+aRelationNameSpaceID
+aRelationAttr
 idList
 )
 )
@@ -11683,13 +11685,12 @@ FindDescendantPointingToID
 (
 aId
 child
-aForAttrib
+aRelationAttr
+aRelationNameSpaceID
 aExcludeContent
-aForAttribNameSpace
 aTagType
 )
 ;
-}
 if
 (
 labelContent
@@ -11698,6 +11699,7 @@ labelContent
 return
 labelContent
 ;
+}
 }
 }
 return
@@ -15628,6 +15630,8 @@ nsIAtom
 *
 aRelationAttr
 PRUint32
+aRelationNameSpaceID
+PRUint32
 aAncestorLevelsToSearch
 )
 {
@@ -15662,6 +15666,7 @@ FindNeighbourPointingToNode
 content
 nsnull
 aRelationAttr
+aRelationNameSpaceID
 aAncestorLevelsToSearch
 )
 ;
@@ -15892,6 +15897,7 @@ nsAccessibilityAtoms
 :
 :
 labelledby
+kNameSpaceID_WAIProperties
 kAncestorLevelsToSearch
 )
 ;
@@ -16020,6 +16026,7 @@ nsAccessibilityAtoms
 :
 :
 describedby
+kNameSpaceID_WAIProperties
 kAncestorLevelsToSearch
 )
 ;
@@ -16119,6 +16126,7 @@ nsAccessibilityAtoms
 :
 :
 owns
+kNameSpaceID_WAIProperties
 )
 ;
 break
@@ -16139,6 +16147,7 @@ nsAccessibilityAtoms
 :
 :
 controls
+kNameSpaceID_WAIProperties
 )
 ;
 break
@@ -16205,6 +16214,7 @@ nsAccessibilityAtoms
 :
 :
 flowto
+kNameSpaceID_WAIProperties
 )
 ;
 break
