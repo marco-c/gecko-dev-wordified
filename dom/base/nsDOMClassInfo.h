@@ -2102,7 +2102,7 @@ vp
 )
 ;
 static
-void
+JSBool
 InvalidateGlobalScopePolluter
 (
 JSContext

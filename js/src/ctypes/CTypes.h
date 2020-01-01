@@ -3494,6 +3494,9 @@ JSObject
 *
 GetProtoFromType
 (
+JSContext
+*
+cx
 JSObject
 *
 obj

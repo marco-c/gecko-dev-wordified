@@ -6028,11 +6028,22 @@ toObject
 JSObject
 *
 proto
-=
+;
+  
+if
+(
+!
 JS_GetPrototype
 (
+cx
 instance
+&
+proto
 )
+)
+    
+return
+false
 ;
   
 while
@@ -6062,12 +6073,20 @@ true
     
 }
     
-proto
-=
+if
+(
+!
 JS_GetPrototype
 (
+cx
+proto
+&
 proto
 )
+)
+      
+return
+false
 ;
   
 }
