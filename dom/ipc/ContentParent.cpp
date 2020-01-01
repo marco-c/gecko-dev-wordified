@@ -2223,6 +2223,8 @@ CreateTab
 (
 PRUint32
 aChromeFlags
+bool
+aIsBrowserFrame
 )
 {
 return
@@ -2235,6 +2237,7 @@ TabParent
 SendPBrowserConstructor
 (
 aChromeFlags
+aIsBrowserFrame
 )
 )
 ;
@@ -4156,6 +4159,10 @@ const
 PRUint32
 &
 aChromeFlags
+const
+bool
+&
+aIsBrowserFrame
 )
 {
 TabParent

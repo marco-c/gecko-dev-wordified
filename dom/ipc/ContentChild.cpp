@@ -1948,6 +1948,10 @@ const
 PRUint32
 &
 aChromeFlags
+const
+bool
+&
+aIsBrowserFrame
 )
 {
 nsRefPtr
@@ -1960,6 +1964,7 @@ new
 TabChild
 (
 aChromeFlags
+aIsBrowserFrame
 )
 ;
 return
