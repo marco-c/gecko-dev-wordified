@@ -538,12 +538,17 @@ CCAPI_CreateOffer
 (
 cc_call_handle_t
 handle
+const
+cc_media_constraints_t
+*
+constraints
 )
 {
 return
 CC_CallFeature_CreateOffer
 (
 handle
+constraints
 )
 ;
 }
@@ -552,6 +557,10 @@ CCAPI_CreateAnswer
 (
 cc_call_handle_t
 handle
+const
+cc_media_constraints_t
+*
+constraints
 cc_string_t
 offersdp
 )
@@ -560,6 +569,7 @@ return
 CC_CallFeature_CreateAnswer
 (
 handle
+constraints
 offersdp
 )
 ;
