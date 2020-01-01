@@ -11270,7 +11270,7 @@ nsSizeMode_Fullscreen
 :
 mode
 =
-SW_RESTORE
+SW_SHOW
 ;
 break
 ;
