@@ -501,9 +501,6 @@ nsDeviceContextSpecX
 )
 ;
 NS_DECL_ISUPPORTS
-#
-ifdef
-MOZ_CAIRO_GFX
 NS_IMETHOD
 GetSurfaceForPrinter
 (
@@ -543,8 +540,6 @@ EndPage
 (
 )
 ;
-#
-endif
 /
 *
 *
