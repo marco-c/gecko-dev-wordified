@@ -1963,10 +1963,6 @@ const
 nsString
 &
 aTitle
-const
-nsString
-&
-aUserTitle
 PRBool
 aHidden
 PRBool
@@ -2356,6 +2352,14 @@ aDBConn
 ;
 nsresult
 MigrateV3Up
+(
+mozIStorageConnection
+*
+aDBConn
+)
+;
+nsresult
+MigrateV6Up
 (
 mozIStorageConnection
 *
@@ -2902,8 +2906,6 @@ SetPageTitleInternal
 nsIURI
 *
 aURI
-PRBool
-aIsUserTitle
 const
 nsAString
 &

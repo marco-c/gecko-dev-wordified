@@ -1441,11 +1441,6 @@ com
 ;
 /
 /
-XXXTest
-nsIBrowserHistory
-impl
-/
-/
 query
 for
 the

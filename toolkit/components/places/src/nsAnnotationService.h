@@ -837,6 +837,16 @@ const
 int
 kAnnoIndex_Type
 ;
+static
+const
+int
+kAnnoIndex_DateAdded
+;
+static
+const
+int
+kAnnoIndex_LastModified
+;
 nsresult
 HasAnnotationInternal
 (
