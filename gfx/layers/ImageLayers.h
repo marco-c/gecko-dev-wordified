@@ -4115,6 +4115,11 @@ gfxRect
 nsnull
 )
 ;
+ComputeEffectiveTransformForMaskLayer
+(
+aTransformToSurface
+)
+;
 }
 protected
 :
