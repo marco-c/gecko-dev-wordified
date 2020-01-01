@@ -432,8 +432,7 @@ if
 clasp
 =
 =
-&
-FunctionClass
+FunctionClassPtr
 )
 return
 JSFunction
@@ -925,8 +924,7 @@ if
 clasp
 =
 =
-&
-FunctionClass
+FunctionClassPtr
 )
 nslots
 =

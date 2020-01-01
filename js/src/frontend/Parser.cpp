@@ -13578,11 +13578,13 @@ funbox
 object
 -
 >
-toFunction
+as
+<
+JSFunction
+>
 (
 )
--
->
+.
 initLazyScript
 (
 lazy

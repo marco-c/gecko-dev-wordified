@@ -26848,6 +26848,7 @@ i
 const
 {
 return
+&
 getFunctionConstant
 (
 i
@@ -26862,7 +26863,10 @@ toObject
 (
 )
 .
-toFunction
+as
+<
+JSFunction
+>
 (
 )
 ;

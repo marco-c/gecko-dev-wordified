@@ -2850,6 +2850,7 @@ JSFunction
 *
 target
 =
+&
 func
 -
 >
@@ -2858,7 +2859,10 @@ getBoundFunctionTarget
 )
 -
 >
-toFunction
+as
+<
+JSFunction
+>
 (
 )
 ;
@@ -2891,6 +2895,7 @@ isBoundFunction
 )
 target
 =
+&
 target
 -
 >
@@ -2899,7 +2904,10 @@ getBoundFunctionTarget
 )
 -
 >
-toFunction
+as
+<
+JSFunction
+>
 (
 )
 ;

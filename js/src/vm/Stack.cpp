@@ -6248,9 +6248,13 @@ JSFunction
 *
 fun
 =
+&
 callee
 .
-toFunction
+as
+<
+JSFunction
+>
 (
 )
 ;

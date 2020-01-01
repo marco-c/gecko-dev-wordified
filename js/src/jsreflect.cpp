@@ -1270,7 +1270,10 @@ toObject
 (
 )
 .
-isFunction
+is
+<
+JSFunction
+>
 (
 )
 )

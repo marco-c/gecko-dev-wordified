@@ -3133,7 +3133,10 @@ if
 callee
 -
 >
-isFunction
+is
+<
+JSFunction
+>
 (
 )
 )
@@ -3142,10 +3145,14 @@ JSFunction
 *
 fun
 =
+&
 callee
 -
 >
-toFunction
+as
+<
+JSFunction
+>
 (
 )
 ;

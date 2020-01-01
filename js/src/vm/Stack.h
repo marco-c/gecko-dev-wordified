@@ -5442,7 +5442,6 @@ isFunctionFrame
 )
 ;
 return
-*
 calleev
 (
 )
@@ -5451,7 +5450,10 @@ toObject
 (
 )
 .
-toFunction
+as
+<
+JSFunction
+>
 (
 )
 ;
