@@ -133,6 +133,13 @@ h
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 jsprvtd
 .
 h
@@ -158,13 +165,6 @@ AutoSuppressGC
 include
 "
 jsgc
-.
-h
-"
-#
-include
-"
-jsgcinlines
 .
 h
 "
