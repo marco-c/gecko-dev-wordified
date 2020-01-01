@@ -436,12 +436,10 @@ modified
 ;
 collection
 .
-wbos
-[
-id
-]
-=
+insertWBO
+(
 wbo
+)
 ;
 }
 let
