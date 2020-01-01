@@ -238,11 +238,6 @@ bool
 aIsActive
 )
 ;
-bool
-Listen
-(
-)
-;
 private
 :
 BluetoothHfpManager
