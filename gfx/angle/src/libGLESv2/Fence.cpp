@@ -299,10 +299,10 @@ D3DGETDATA_FLUSH
 ;
 if
 (
+checkDeviceLost
+(
 result
-=
-=
-D3DERR_DEVICELOST
+)
 )
 {
 return
@@ -495,10 +495,10 @@ NULL
 ;
 if
 (
+checkDeviceLost
+(
 result
-=
-=
-D3DERR_DEVICELOST
+)
 )
 {
 params

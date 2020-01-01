@@ -158,6 +158,12 @@ getContext
 (
 )
 ;
+Context
+*
+getNonLostContext
+(
+)
+;
 egl
 :
 :
@@ -171,6 +177,13 @@ IDirect3DDevice9
 *
 getDevice
 (
+)
+;
+bool
+checkDeviceLost
+(
+HRESULT
+errorCode
 )
 ;
 }
