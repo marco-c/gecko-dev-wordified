@@ -4740,10 +4740,14 @@ to
 seek
 to
 %
-lldms
+fs
 "
 mDecoder
 aTarget
+/
+1000000
+.
+0
 )
 )
 ;
