@@ -8974,7 +8974,7 @@ cairo_surface_pattern_t
 mask
 )
 {
-cairo_rectangle_int16_t
+cairo_rectangle_int_t
 extents
 ;
 cairo_quartz_surface_t
