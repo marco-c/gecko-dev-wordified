@@ -6903,7 +6903,7 @@ mem
 .
 min_discard_timeout_ms
 "
-20000
+10000
 )
 ;
 /
