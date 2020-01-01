@@ -135,6 +135,15 @@ nsString
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_SAXATTRIBUTES_CONTRACTID
 "
@@ -213,6 +222,7 @@ value
 ;
 class
 nsSAXAttributes
+MOZ_FINAL
 :
 public
 nsISAXMutableAttributes

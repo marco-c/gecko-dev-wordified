@@ -158,6 +158,15 @@ Preferences
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -519,6 +528,7 @@ aChannel
 }
 class
 nsHtml5ParserThreadTerminator
+MOZ_FINAL
 :
 public
 nsIObserver

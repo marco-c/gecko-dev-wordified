@@ -69,6 +69,15 @@ nsIAtom
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 *
 *
@@ -109,6 +118,7 @@ nsIAtom
 /
 class
 nsHtml5Atom
+MOZ_FINAL
 :
 public
 nsIAtom
