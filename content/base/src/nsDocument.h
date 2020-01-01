@@ -5161,15 +5161,6 @@ nsIAtom
 aId
 )
 ;
-nsIdentifierMapEntry
-*
-GetElementByIdInternal
-(
-nsIAtom
-*
-aID
-)
-;
 void
 DispatchContentLoadedEvents
 (
