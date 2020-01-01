@@ -2570,7 +2570,7 @@ n
 "
 /
 *
-JSFrameReg
+FpReg
 *
 /
 /
@@ -4521,13 +4521,6 @@ jitLength
 ;
 #
 endif
-script
--
->
-npics
-=
-0
-;
 #
 if
 defined
@@ -4571,6 +4564,13 @@ script
 )
 ;
 }
+script
+-
+>
+npics
+=
+0
+;
 #
 endif
 }
