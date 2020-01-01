@@ -335,14 +335,10 @@ __init__
 (
 self
 message
-location
+locations
 warning
 =
 False
-extraLocations
-=
-[
-]
 )
 :
         
@@ -354,19 +350,7 @@ message
         
 self
 .
-location
-=
-location
-        
-self
-.
-warning
-=
-warning
-        
-self
-.
-extraLocations
+locations
 =
 [
 str
@@ -376,8 +360,14 @@ loc
 for
 loc
 in
-extraLocations
+locations
 ]
+        
+self
+.
+warning
+=
+warning
     
 def
 __str__
@@ -386,49 +376,11 @@ self
 )
 :
         
-extraLocationsStr
-=
-(
-            
-"
-"
-if
-len
-(
-self
-.
-extraLocations
-)
-=
-=
-0
-else
-            
-"
-\
-n
-"
-+
-"
-\
-n
-"
-.
-join
-(
-self
-.
-extraLocations
-)
-)
-        
 return
 "
 %
 s
 :
-%
-s
 %
 s
 %
@@ -457,18 +409,30 @@ message
 "
 "
 if
+len
+(
 self
 .
-location
+locations
+)
+!
+=
+0
 else
 "
 "
                                  
+"
+\
+n
+"
+.
+join
+(
 self
 .
-location
-                                 
-extraLocationsStr
+locations
+)
 )
 class
 Location
@@ -835,6 +799,11 @@ self
 msg
 =
 text
++
+"
+\
+n
+"
     
 def
 __eq__
@@ -1503,8 +1472,8 @@ self
 )
 conflictdesc
 )
-"
-"
+[
+]
 )
     
 def
@@ -1756,7 +1725,9 @@ are
 reserved
 "
                               
+[
 location
+]
 )
         
 if
@@ -1819,7 +1790,9 @@ s
 name
 )
                               
+[
 location
+]
 )
         
 self
@@ -2152,9 +2125,12 @@ s
 self
 .
 identifier
+                              
+[
 self
 .
 location
+]
 )
         
 obj
@@ -2836,13 +2812,10 @@ identifier
 name
 )
                                       
+[
 self
 .
 location
-                                      
-extraLocations
-=
-[
 self
 .
 parent
@@ -2899,13 +2872,10 @@ identifier
 name
 )
                                   
+[
 self
 .
 location
-                                  
-extraLocations
-=
-[
 self
 .
 parent
@@ -2967,13 +2937,10 @@ identifier
 .
 name
                               
+[
 self
 .
 location
-                              
-extraLocations
-=
-[
 cycleInGraph
 .
 location
@@ -3326,13 +3293,10 @@ name
 self
 )
                             
+[
 additionalMember
 .
 location
-                            
-extraLocations
-=
-[
 member
 .
 location
@@ -3563,9 +3527,11 @@ s
 self
 )
                                    
+[
 self
 .
 location
+]
 )
             
 specialMembersSeen
@@ -3846,9 +3812,11 @@ on
 interfaces
 "
                                   
+[
 self
 .
 location
+]
 )
             
 elif
@@ -3879,9 +3847,11 @@ are
 incompatible
 "
                                       
+[
 self
 .
 location
+]
 )
                 
 self
@@ -3919,9 +3889,11 @@ are
 incompatible
 "
                                       
+[
 self
 .
 location
+]
 )
                 
 args
@@ -4553,13 +4525,10 @@ identifier
 .
 name
                                   
+[
 oldParent
 .
 location
-                                  
-extraLocations
-=
-[
 self
 .
 parent
@@ -4732,11 +4701,13 @@ identifier
 .
 name
                                   
+[
 self
 .
 identifier
 .
 location
+]
 )
             
 inheritedMembers
@@ -4818,13 +4789,10 @@ identifier
 name
 )
                                       
+[
 member
 .
 location
-                                      
-extraLocations
-=
-[
 inheritedMember
 .
 location
@@ -4920,7 +4888,10 @@ strings
 name
 .
 name
+                              
+[
 location
+]
 )
         
 IDLObjectWithIdentifier
@@ -5629,9 +5600,11 @@ TreatNonCallableAsNull
 %
 self
                               
+[
 self
 .
 location
+]
 )
         
 return
@@ -5828,9 +5801,12 @@ s
 self
 .
 name
+                              
+[
 self
 .
 location
+]
 )
         
 assert
@@ -6417,9 +6393,11 @@ a
 member
 type
 "
+[
 self
 .
 location
+]
 )
         
 self
@@ -7226,12 +7204,10 @@ a
 union
 "
                                       
+[
 nullableType
 .
 location
-                                      
-extraLocation
-=
 self
 .
 flatMemberTypes
@@ -7240,6 +7216,7 @@ i
 ]
 .
 location
+]
 )
                 
 self
@@ -7396,14 +7373,17 @@ str
 u
 )
                                       
+[
+self
+.
+location
 t
 .
 location
-extraLocation
-=
 u
 .
 location
+]
 )
         
 return
@@ -7567,7 +7547,9 @@ sequence
 type
 "
                               
+[
 location
+]
 )
         
 if
@@ -7592,7 +7574,9 @@ dictionary
 type
 "
                               
+[
 location
+]
 )
         
 IDLType
@@ -11242,8 +11226,6 @@ isInteger
             
 if
 not
-self
-.
 type
 .
 isInteger
@@ -11274,7 +11256,9 @@ self
 type
 type
 )
+[
 location
+]
 )
             
 #
@@ -11362,7 +11346,9 @@ self
 value
 type
 )
+[
 location
+]
 )
         
 else
@@ -11459,7 +11445,9 @@ s
 %
 type
                               
+[
 location
+]
 )
         
 nullValue
@@ -11740,9 +11728,11 @@ dictionary
 type
 "
                               
+[
 self
 .
 location
+]
 )
         
 self
@@ -11918,9 +11908,11 @@ inherit
 '
 "
                               
+[
 self
 .
 location
+]
 )
     
 def
@@ -12030,9 +12022,11 @@ dictionary
 type
 "
                               
+[
 self
 .
 location
+]
 )
         
 if
@@ -12059,9 +12053,11 @@ sequence
 type
 "
                               
+[
 self
 .
 location
+]
 )
         
 if
@@ -12142,9 +12138,14 @@ dictionary
 "
 type
 "
+[
 self
 .
 location
+f
+.
+location
+]
 )
                 
 if
@@ -12205,9 +12206,14 @@ sequence
 "
 type
 "
+[
 self
 .
 location
+f
+.
+location
+]
 )
     
 def
@@ -13373,9 +13379,11 @@ last
 argument
 "
                                   
+[
 variadicArgument
 .
 location
+]
 )
             
 #
@@ -13421,9 +13429,11 @@ optional
 arguments
 "
                                   
+[
 argument
 .
 location
+]
 )
             
 #
@@ -13475,9 +13485,11 @@ default
 values
 "
                                   
+[
 argument
 .
 location
+]
 )
             
 inOptionalArguments
@@ -13883,9 +13895,11 @@ method1
 .
 identifier
                               
+[
 method
 .
 location
+]
 )
         
 if
@@ -13927,9 +13941,11 @@ method1
 .
 identifier
                               
+[
 method
 .
 location
+]
 )
         
 #
@@ -14452,13 +14468,10 @@ idx
 distinguishingIndex
 )
                             
+[
 self
 .
 location
-                            
-extraLocations
-=
-[
 location
 ]
 )
@@ -14737,17 +14750,6 @@ name
 )
                           
 locations
-[
-0
-]
-                          
-extraLocations
-=
-locations
-[
-1
-:
-]
 )
 class
 IDLImplementsStatement
@@ -14898,11 +14900,13 @@ an
 interface
 "
                               
+[
 self
 .
 implementor
 .
 location
+]
 )
         
 if
@@ -14934,11 +14938,13 @@ callback
 interface
 "
                               
+[
 self
 .
 implementor
 .
 location
+]
 )
         
 if
@@ -14971,11 +14977,13 @@ an
 interface
 "
                               
+[
 self
 .
 implementee
 .
 location
+]
 )
         
 if
@@ -15007,11 +15015,13 @@ callback
 interface
 "
                               
+[
 self
 .
 implementee
 .
 location
+]
 )
         
 implementor
@@ -15181,6 +15191,7 @@ integer
 literal
 "
                               
+[
 Location
 (
 lexer
@@ -15188,7 +15199,7 @@ lexer
 self
 .
 lexer
-                                       
+                                        
 lineno
 =
 self
@@ -15196,7 +15207,7 @@ self
 lexer
 .
 lineno
-                                       
+                                        
 lexpos
 =
 self
@@ -15204,13 +15215,14 @@ self
 lexer
 .
 lexpos
-                                       
+                                        
 filename
 =
 self
 .
 _filename
 )
+]
 )
         
 return
@@ -16026,6 +16038,7 @@ Unrecognized
 Input
 "
                
+[
 Location
 (
 lexer
@@ -16033,7 +16046,7 @@ lexer
 self
 .
 lexer
-                        
+                         
 lineno
 =
 self
@@ -16041,7 +16054,7 @@ self
 lexer
 .
 lineno
-                        
+                         
 lexpos
 =
 self
@@ -16049,13 +16062,14 @@ self
 lexer
 .
 lexpos
-                        
+                         
 filename
 =
 self
 .
 filename
 )
+]
 )
     
 def
@@ -17952,7 +17966,9 @@ out
 of
 range
 "
+[
 location
+]
 )
         
 p
@@ -18400,6 +18416,7 @@ not
 allowed
 "
                               
+[
 self
 .
 getLocation
@@ -18407,6 +18424,7 @@ getLocation
 p
 1
 )
+]
 )
         
 static
@@ -18596,6 +18614,7 @@ and
 creator
 "
                                   
+[
 self
 .
 getLocation
@@ -18603,6 +18622,7 @@ getLocation
 p
 1
 )
+]
 )
         
 (
@@ -18673,6 +18693,7 @@ deleter
 "
 )
                                   
+[
 self
 .
 getLocation
@@ -18680,6 +18701,7 @@ getLocation
 p
 2
 )
+]
 )
             
 argType
@@ -18770,12 +18792,14 @@ deleter
 "
 )
                                   
+[
 arguments
 [
 0
 ]
 .
 location
+]
 )
             
 if
@@ -18835,12 +18859,14 @@ variadic
 "
 )
                                    
+[
 arguments
 [
 0
 ]
 .
 location
+]
 )
         
 if
@@ -18867,6 +18893,7 @@ return
 type
 "
                                   
+[
 self
 .
 getLocation
@@ -18874,6 +18901,7 @@ getLocation
 p
 2
 )
+]
 )
         
 if
@@ -18918,6 +18946,7 @@ creator
 "
 )
                                   
+[
 self
 .
 getLocation
@@ -18925,6 +18954,7 @@ getLocation
 p
 2
 )
+]
 )
             
 argType
@@ -19015,12 +19045,14 @@ creator
 "
 )
                                   
+[
 arguments
 [
 0
 ]
 .
 location
+]
 )
             
 if
@@ -19079,13 +19111,15 @@ else
 variadic
 "
 )
-                                   
+                                  
+[
 arguments
 [
 0
 ]
 .
 location
+]
 )
             
 if
@@ -19144,13 +19178,15 @@ else
 variadic
 "
 )
-                                   
+                                  
+[
 arguments
 [
 1
 ]
 .
 location
+]
 )
         
 if
@@ -19179,6 +19215,7 @@ of
 arguments
 "
                                   
+[
 self
 .
 getLocation
@@ -19186,6 +19223,7 @@ getLocation
 p
 2
 )
+]
 )
             
 if
@@ -19209,6 +19247,7 @@ return
 type
 "
                                   
+[
 self
 .
 getLocation
@@ -19216,6 +19255,7 @@ getLocation
 p
 2
 )
+]
 )
         
 inOptionalArguments
@@ -19258,9 +19298,11 @@ be
 variadic
 "
                                   
+[
 variadicArgument
 .
 location
+]
 )
             
 #
@@ -19310,9 +19352,11 @@ optional
 argument
 "
                                   
+[
 argument
 .
 location
+]
 )
             
 inOptionalArguments
@@ -19386,6 +19430,7 @@ special
 methods
 "
                                   
+[
 self
 .
 getLocation
@@ -19393,6 +19438,7 @@ getLocation
 p
 2
 )
+]
 )
             
 location
@@ -20266,6 +20312,7 @@ value
 .
 "
                               
+[
 self
 .
 getLocation
@@ -20273,6 +20320,7 @@ getLocation
 p
 6
 )
+]
 )
         
 if
@@ -20297,6 +20345,7 @@ optional
 .
 "
                                   
+[
 self
 .
 getLocation
@@ -20304,6 +20353,7 @@ getLocation
 p
 2
 )
+]
 )
             
 optional
@@ -22861,7 +22911,8 @@ braces
 or
 both
 "
-None
+[
+]
 )
         
 else
@@ -22874,6 +22925,7 @@ WebIDLError
 invalid
 syntax
 "
+[
 Location
 (
 self
@@ -22889,6 +22941,7 @@ self
 .
 _filename
 )
+]
 )
     
 def
