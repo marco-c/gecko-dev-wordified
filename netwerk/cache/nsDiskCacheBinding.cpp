@@ -1186,6 +1186,10 @@ mStreamIO
 (
 nsnull
 )
+mDeactivateEvent
+(
+nsnull
+)
 {
 NS_ASSERTION
 (
