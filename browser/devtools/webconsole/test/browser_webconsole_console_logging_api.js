@@ -222,6 +222,7 @@ log
 )
 ;
 yield
+undefined
 ;
 subtestGen
 (
@@ -231,6 +232,7 @@ info
 )
 ;
 yield
+undefined
 ;
 subtestGen
 (
@@ -240,6 +242,7 @@ warn
 )
 ;
 yield
+undefined
 ;
 subtestGen
 (
@@ -249,6 +252,7 @@ error
 )
 ;
 yield
+undefined
 ;
 subtestGen
 (
@@ -262,6 +266,7 @@ debug
 bug
 616742
 yield
+undefined
 ;
 testDriver
 =
@@ -274,6 +279,7 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }
 function
@@ -421,6 +427,7 @@ nextTest
 )
 ;
 yield
+undefined
 ;
 hud
 .
@@ -542,6 +549,7 @@ nextTest
 )
 ;
 yield
+undefined
 ;
 hud
 .
@@ -626,6 +634,7 @@ nextTest
 )
 ;
 yield
+undefined
 ;
 hud
 .
@@ -729,6 +738,7 @@ nextTest
 )
 ;
 yield
+undefined
 ;
 testDriver
 .
@@ -737,6 +747,7 @@ next
 )
 ;
 yield
+undefined
 ;
 }
 function

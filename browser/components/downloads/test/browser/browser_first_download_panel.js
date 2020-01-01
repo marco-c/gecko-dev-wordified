@@ -157,6 +157,7 @@ window
 )
 )
 yield
+undefined
 ;
 /
 /
@@ -211,6 +212,7 @@ start
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -341,6 +343,7 @@ window
 )
 )
 yield
+undefined
 ;
 }
 }

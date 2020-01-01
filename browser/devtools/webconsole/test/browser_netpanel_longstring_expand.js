@@ -944,6 +944,7 @@ next
 }
 ;
 yield
+undefined
 ;
 info
 (
@@ -1223,6 +1224,7 @@ defaultView
 )
 ;
 yield
+undefined
 ;
 clickable
 =
@@ -1355,6 +1357,7 @@ defaultView
 )
 ;
 yield
+undefined
 ;
 imgNode
 =
@@ -1468,6 +1471,7 @@ defaultView
 )
 ;
 yield
+undefined
 ;
 is
 (
@@ -1660,6 +1664,7 @@ next
 }
 ;
 yield
+undefined
 ;
 checkIsVisible
 (
@@ -1749,6 +1754,7 @@ defaultView
 )
 ;
 yield
+undefined
 ;
 webConsoleClient
 .
@@ -1809,5 +1815,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

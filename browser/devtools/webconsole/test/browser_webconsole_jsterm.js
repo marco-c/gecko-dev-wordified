@@ -403,6 +403,7 @@ worked
 )
 ;
 yield
+undefined
 ;
 jsterm
 .
@@ -459,6 +460,7 @@ worked
 )
 ;
 yield
+undefined
 ;
 jsterm
 .
@@ -533,6 +535,7 @@ worked
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -606,6 +609,7 @@ nextTest
 )
 ;
 yield
+undefined
 ;
 jsterm
 .
@@ -663,6 +667,7 @@ worked
 )
 ;
 yield
+undefined
 ;
 jsterm
 .
@@ -718,6 +723,7 @@ worked
 )
 ;
 yield
+undefined
 ;
 jsterm
 .
@@ -980,6 +986,7 @@ nextTest
 )
 ;
 yield
+undefined
 ;
 jsterm
 .
@@ -1029,6 +1036,7 @@ pprint
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -1073,6 +1081,7 @@ true
 )
 ;
 yield
+undefined
 ;
 jsterm
 .
@@ -1114,6 +1123,7 @@ true
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -1181,6 +1191,7 @@ XrayWrapper
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -1232,6 +1243,7 @@ window
 )
 ;
 yield
+undefined
 ;
 jsterm
 .
@@ -1264,6 +1276,7 @@ window
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -1319,6 +1332,7 @@ hi
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -1391,6 +1405,7 @@ source
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -1434,6 +1449,7 @@ null
 )
 ;
 yield
+undefined
 ;
 jsterm
 =
@@ -1447,5 +1463,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }
