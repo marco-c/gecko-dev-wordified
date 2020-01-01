@@ -15558,10 +15558,6 @@ GetOrMakeFont
 fe
 &
 mStyle
-mFontNeedsBold
-[
-i
-]
 )
 ;
 /
