@@ -521,12 +521,6 @@ PathBuilder
 aBuilder
 )
 ;
-private
-:
-friend
-class
-DrawTargetD2D
-;
 void
 CopyGlyphsToSink
 (
