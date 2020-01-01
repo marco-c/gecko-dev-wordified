@@ -23157,7 +23157,15 @@ comp
 return
 comp
 (
+(
+PRUnichar
+*
+)
 aChars1
+(
+PRUnichar
+*
+)
 aChars2
 aNumChars1
 )
