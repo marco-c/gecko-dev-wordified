@@ -613,11 +613,6 @@ accesses
 nsSimpleNestedURI
 (
 )
-:
-nsSimpleURI
-(
-nsnull
-)
 {
 }
 /
