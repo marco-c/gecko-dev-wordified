@@ -4046,8 +4046,10 @@ certerror
 /
 /
 Inherit
-OS
 locale
+from
+the
+OS
 pref
 (
 "
