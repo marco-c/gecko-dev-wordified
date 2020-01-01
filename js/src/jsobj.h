@@ -4347,6 +4347,7 @@ JSContext
 cx
 )
 ;
+const
 js
 :
 :
@@ -4364,6 +4365,7 @@ TypeObject
 typeFromGC
 (
 )
+const
 {
 /
 *

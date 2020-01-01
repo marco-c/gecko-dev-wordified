@@ -1867,7 +1867,7 @@ JSObject
 *
 obj
 =
-ValueToObjectOrPrototype
+ValueToObject
 (
 cx
 lval

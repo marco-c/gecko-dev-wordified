@@ -1275,6 +1275,17 @@ h
 #
 include
 "
+vm
+/
+StringBuffer
+-
+inl
+.
+h
+"
+#
+include
+"
 ds
 /
 Sort
@@ -7651,7 +7662,7 @@ getDenseArrayInitializedLength
 (
 )
 ;
-MarkSlotRange
+MarkArraySlots
 (
 trc
 initLength
