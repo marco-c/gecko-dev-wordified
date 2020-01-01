@@ -4921,7 +4921,9 @@ processPID
 self
 .
 appPath
-None
+self
+.
+debuggerInfo
 )
     
 def
