@@ -477,6 +477,13 @@ nsCRT
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsIDocument
 ;
@@ -564,6 +571,11 @@ aChannel
 /
 nsISupports
 NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED_NO_UNLINK
+(
+nsXMLContentSink
+nsContentSink
+)
 NS_DECL_NSIEXPATSINK
 /
 /

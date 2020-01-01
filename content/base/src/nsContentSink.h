@@ -580,6 +580,13 @@ nsTimer
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsIDocument
 ;
@@ -825,7 +832,12 @@ nsStubDocumentObserver
 public
 nsITimerCallback
 {
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
+(
+nsContentSink
+nsIScriptLoaderObserver
+)
 NS_DECL_NSISCRIPTLOADEROBSERVER
 /
 /
