@@ -824,6 +824,8 @@ PRBool
 aSelected
 nsSpread
 aSpread
+SelectionType
+aType
 )
 {
 if
@@ -861,6 +863,7 @@ aPresContext
 aRange
 aSelected
 aSpread
+aType
 )
 ;
 /

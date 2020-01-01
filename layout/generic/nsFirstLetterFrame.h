@@ -674,6 +674,8 @@ PRBool
 aSelected
 nsSpread
 aSpread
+SelectionType
+aType
 )
 ;
 /

@@ -28354,6 +28354,7 @@ aPresContext
 nsnull
 aFlags
 eSpreadDown
+mType
 )
 ;
 #
@@ -28490,6 +28491,7 @@ aPresContext
 nsnull
 aFlags
 eSpreadDown
+mType
 )
 ;
 nsRect
@@ -28586,6 +28588,7 @@ aPresContext
 nsnull
 aFlags
 eSpreadDown
+mType
 )
 ;
 }
@@ -28947,6 +28950,7 @@ aPresContext
 aRange
 aFlags
 eSpreadDown
+mType
 )
 ;
 /
@@ -29112,6 +29116,7 @@ aPresContext
 aRange
 aFlags
 eSpreadDown
+mType
 )
 ;
 /

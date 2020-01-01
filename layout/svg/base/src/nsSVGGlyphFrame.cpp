@@ -1882,6 +1882,8 @@ PRBool
 aSelected
 nsSpread
 aSpread
+SelectionType
+aType
 )
 {
 #
@@ -1929,8 +1931,20 @@ aPresContext
 aRange
 aSelected
 aSpread
+aType
 )
 ;
+if
+(
+aType
+=
+=
+nsISelectionController
+:
+:
+SELECTION_NORMAL
+)
+{
 /
 /
 check
@@ -1956,6 +1970,7 @@ selectable
 return
 NS_OK
 ;
+}
 if
 (
 aSelected

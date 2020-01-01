@@ -25696,6 +25696,8 @@ PRBool
 aSelected
 nsSpread
 aSpread
+SelectionType
+aType
 )
 {
 /
@@ -25714,6 +25716,17 @@ NS_OK
 ;
 *
 /
+if
+(
+aType
+=
+=
+nsISelectionController
+:
+:
+SELECTION_NORMAL
+)
+{
 /
 /
 check
@@ -25739,6 +25752,7 @@ selectable
 return
 NS_OK
 ;
+}
 /
 *
 if
@@ -25874,6 +25888,7 @@ aPresContext
 aRange
 aSelected
 aSpread
+aType
 )
 ;
 }

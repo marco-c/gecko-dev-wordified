@@ -2474,6 +2474,8 @@ PRBool
 aSelected
 nsSpread
 aSpread
+SelectionType
+aType
 )
 {
 nsresult
@@ -2488,6 +2490,7 @@ aPresContext
 aRange
 aSelected
 aSpread
+aType
 )
 ;
 if
@@ -2510,6 +2513,7 @@ aPresContext
 aRange
 aSelected
 aSpread
+aType
 )
 ;
 return
