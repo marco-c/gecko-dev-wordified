@@ -2141,12 +2141,12 @@ before
 the
 shift
 .
-LBitOp
+LBitOpI
 *
 LAnd
 =
 new
-LBitOp
+LBitOpI
 (
 JSOP_BITAND
 )

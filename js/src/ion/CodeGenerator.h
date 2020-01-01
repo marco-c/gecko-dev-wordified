@@ -1182,6 +1182,14 @@ lir
 )
 ;
 bool
+visitBitOpV
+(
+LBitOpV
+*
+lir
+)
+;
+bool
 visitCheckOverRecursed
 (
 LCheckOverRecursed
