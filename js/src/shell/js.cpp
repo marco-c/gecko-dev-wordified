@@ -755,6 +755,13 @@ h
 #
 include
 "
+jsinterpinlines
+.
+h
+"
+#
+include
+"
 jsobjinlines
 .
 h
@@ -6384,7 +6391,7 @@ fp
 )
 -
 >
-getScript
+script
 (
 )
 -
@@ -7934,12 +7941,12 @@ fun
 gen
 -
 >
-getFloatingFrame
+floatingFrame
 (
 )
 -
 >
-getFunction
+fun
 (
 )
 ;
@@ -8122,7 +8129,7 @@ NULL
 )
 -
 >
-getScript
+script
 (
 )
 ;
@@ -8307,7 +8314,7 @@ str
 caller
 -
 >
-getScript
+script
 (
 )
 -
@@ -8316,7 +8323,7 @@ filename
 caller
 -
 >
-getScript
+script
 (
 )
 -
@@ -8810,7 +8817,7 @@ NULL
 )
 -
 >
-getScript
+script
 (
 )
 ;
@@ -17525,7 +17532,7 @@ srclen
 fp
 -
 >
-getScript
+script
 (
 )
 -
@@ -17537,7 +17544,7 @@ cx
 fp
 -
 >
-getScript
+script
 (
 )
 fp
@@ -17741,7 +17748,9 @@ fp
 )
 -
 >
-down
+prev
+(
+)
 )
 break
 ;
@@ -17760,11 +17769,10 @@ fp
 if
 (
 !
-fp
--
->
-hasScript
+JS_IsScriptFrame
 (
+cx
+fp
 )
 )
 {
@@ -17825,7 +17833,7 @@ length
 fp
 -
 >
-getScript
+script
 (
 )
 -
@@ -17837,7 +17845,7 @@ cx
 fp
 -
 >
-getScript
+script
 (
 )
 fi
@@ -21535,7 +21543,7 @@ fp
 fp
 -
 >
-getScript
+script
 (
 )
 -
@@ -21554,7 +21562,7 @@ cx
 fp
 -
 >
-getScript
+script
 (
 )
 -

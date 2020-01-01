@@ -984,7 +984,9 @@ fp
 )
 -
 >
-ncode
+nativeReturnAddress
+(
+)
 )
 )
 {
@@ -997,7 +999,6 @@ append
 (
 findPatch
 (
-&
 i
 .
 fp
@@ -1005,7 +1006,9 @@ fp
 )
 -
 >
-ncode
+addressOfNativeReturnAddress
+(
+)
 )
 )
 )
@@ -1169,13 +1172,14 @@ script
 firstFrame
 -
 >
-getFunction
+fun
 (
 )
+&
 firstFrame
 -
 >
-getScopeChain
+scopeChain
 (
 )
 )

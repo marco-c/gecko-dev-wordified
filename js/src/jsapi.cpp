@@ -801,6 +801,13 @@ h
 #
 include
 "
+jsinterpinlines
+.
+h
+"
+#
+include
+"
 jsobjinlines
 .
 h
@@ -10164,11 +10171,10 @@ fp
 )
 -
 >
-getScopeChain
+scopeChain
 (
 )
--
->
+.
 getGlobal
 (
 )
@@ -27159,6 +27165,7 @@ pushInvokeArgs
 (
 cx
 argc
+&
 args
 )
 )
@@ -27561,7 +27568,9 @@ fp
 fp
 -
 >
-down
+prev
+(
+)
 ;
 return
 fp

@@ -1465,7 +1465,7 @@ private
 :
 LazilyConstructed
 <
-FrameGuard
+DummyFrameGuard
 >
 frame
 ;

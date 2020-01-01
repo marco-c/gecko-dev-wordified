@@ -850,9 +850,6 @@ JSObject
 *
 fastGuardedNative
 ;
-Value
-constantThis
-;
 uint32
 argc
 :
@@ -929,12 +926,12 @@ funGuard
 uint32
 hotCallOffset
 :
-16
+8
 ;
 uint32
 joinPointOffset
 :
-16
+8
 ;
 /
 *
@@ -949,7 +946,7 @@ call
 uint32
 oolCallOffset
 :
-16
+8
 ;
 /
 *
@@ -970,7 +967,7 @@ calls
 uint32
 oolJumpOffset
 :
-16
+8
 ;
 /
 *
@@ -989,7 +986,7 @@ at
 uint32
 hotPathOffset
 :
-16
+8
 ;
 /
 *
@@ -1006,7 +1003,7 @@ paths
 uint32
 slowJoinOffset
 :
-16
+9
 ;
 RegisterID
 funObjReg
@@ -1017,11 +1014,6 @@ RegisterID
 funPtrReg
 :
 5
-;
-bool
-isConstantThis
-:
-1
 ;
 bool
 hit

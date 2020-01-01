@@ -881,7 +881,9 @@ if
 fp
 -
 >
-down
+prev
+(
+)
 )
 {
 if
@@ -894,7 +896,9 @@ cx
 fp
 -
 >
-down
+prev
+(
+)
 (
 XPCJSStackFrame
 *

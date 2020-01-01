@@ -3057,7 +3057,7 @@ JSTracer
 *
 trc
 JSObject
-*
+&
 obj
 const
 char
@@ -3065,11 +3065,6 @@ char
 name
 )
 {
-JS_ASSERT
-(
-obj
-)
-;
 JS_SET_TRACING_NAME
 (
 trc
@@ -3079,6 +3074,7 @@ name
 Mark
 (
 trc
+&
 obj
 JSTRACE_OBJECT
 )

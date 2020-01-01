@@ -792,12 +792,6 @@ argc
 (
 argc
 )
-constantThis
-(
-UndefinedValue
-(
-)
-)
 {
 }
 /
@@ -859,12 +853,6 @@ funPtrReg
 ;
 uint32
 frameDepth
-;
-bool
-isConstantThis
-;
-Value
-constantThis
 ;
 }
 ;

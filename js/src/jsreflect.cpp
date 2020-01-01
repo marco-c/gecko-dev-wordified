@@ -13634,6 +13634,7 @@ if
 js_GetClassPrototype
 (
 cx
+&
 cx
 -
 >
@@ -13642,7 +13643,7 @@ fp
 )
 -
 >
-getScopeChain
+scopeChain
 (
 )
 JSProto_RegExp
