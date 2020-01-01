@@ -2354,7 +2354,7 @@ status
 ;
 status
 =
-_cairo_matrix_compute_scale_factors
+_cairo_matrix_compute_basis_scale_factors
 (
 m
 &
@@ -2579,7 +2579,7 @@ FAIL
 ;
 status
 =
-_cairo_matrix_compute_scale_factors
+_cairo_matrix_compute_basis_scale_factors
 (
 &
 font
@@ -3786,7 +3786,7 @@ CAIRO_INT_STATUS_UNSUPPORTED
 }
 status
 =
-_cairo_matrix_compute_scale_factors
+_cairo_matrix_compute_basis_scale_factors
 (
 &
 font

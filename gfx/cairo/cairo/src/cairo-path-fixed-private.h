@@ -344,6 +344,17 @@ CAIRO_PATH_FIXED_PRIVATE_H
 #
 define
 CAIRO_PATH_FIXED_PRIVATE_H
+#
+include
+"
+cairo
+-
+types
+-
+private
+.
+h
+"
 enum
 cairo_path_op
 {
