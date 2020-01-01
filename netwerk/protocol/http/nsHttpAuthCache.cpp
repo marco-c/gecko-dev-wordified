@@ -2031,6 +2031,9 @@ domainLen
 =
 domain
 ?
+nsCRT
+:
+:
 strlen
 (
 domain
@@ -2043,6 +2046,9 @@ userLen
 =
 user
 ?
+nsCRT
+:
+:
 strlen
 (
 user
@@ -2055,6 +2061,9 @@ passLen
 =
 pass
 ?
+nsCRT
+:
+:
 strlen
 (
 pass
@@ -2582,6 +2591,9 @@ strncmp
 (
 aPath
 curpath
+nsCRT
+:
+:
 strlen
 (
 curpath
@@ -2622,6 +2634,9 @@ newAuthPath
 int
 newpathLen
 =
+nsCRT
+:
+:
 strlen
 (
 aPath
@@ -2754,6 +2769,9 @@ realmLen
 =
 realm
 ?
+nsCRT
+:
+:
 strlen
 (
 realm
@@ -2766,6 +2784,9 @@ credsLen
 =
 creds
 ?
+nsCRT
+:
+:
 strlen
 (
 creds
@@ -2778,6 +2799,9 @@ challLen
 =
 chall
 ?
+nsCRT
+:
+:
 strlen
 (
 chall
@@ -3480,6 +3504,9 @@ strncmp
 (
 path
 entryPath
+nsCRT
+:
+:
 strlen
 (
 entryPath

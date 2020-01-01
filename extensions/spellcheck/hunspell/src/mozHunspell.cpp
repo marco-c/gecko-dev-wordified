@@ -2787,6 +2787,9 @@ outLength
 PRInt32
 inLength
 =
+nsCRT
+:
+:
 strlen
 (
 aStr
@@ -3168,6 +3171,9 @@ utf16
 PRInt32
 inLength
 =
+nsCRT
+:
+:
 strlen
 (
 wlst

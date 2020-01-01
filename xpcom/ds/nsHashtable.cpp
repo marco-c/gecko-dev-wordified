@@ -3783,6 +3783,9 @@ PRUint32
 )
 mStrLen
 =
+nsCRT
+:
+:
 strlen
 (
 str

@@ -671,6 +671,9 @@ buf
 PRInt32
 ulen
 =
+nsCRT
+:
+:
 strlen
 (
 text
