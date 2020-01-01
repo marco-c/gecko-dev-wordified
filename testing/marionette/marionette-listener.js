@@ -3978,6 +3978,12 @@ dump
 loggingInfo
 )
 ;
+/
+*
+Disabled
+per
+bug
+888303
 marionetteLogObj
 .
 log
@@ -4017,6 +4023,8 @@ clearLogs
 (
 )
 ;
+*
+/
 let
 domWindowUtils
 =
@@ -4191,6 +4199,12 @@ dump
 loggingInfo
 )
 ;
+/
+*
+Disabled
+per
+bug
+888303
 marionetteLogObj
 .
 log
@@ -4230,6 +4244,8 @@ clearLogs
 (
 )
 ;
+*
+/
 detail
 =
 detail
