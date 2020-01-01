@@ -493,9 +493,6 @@ index
 *
 /
 #
-ifndef
-XP_MAC
-#
 include
 <
 libIDL
@@ -504,17 +501,6 @@ IDL
 .
 h
 >
-#
-else
-#
-include
-<
-IDL
-.
-h
->
-#
-endif
 #
 include
 <
