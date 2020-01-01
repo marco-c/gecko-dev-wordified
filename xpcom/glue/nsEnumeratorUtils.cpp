@@ -607,10 +607,12 @@ return
 1
 ;
 }
-NS_IMPL_QUERY_INTERFACE1
+NS_IMPL_QUERY_INTERFACE3
 (
 EmptyEnumeratorImpl
 nsISimpleEnumerator
+nsIUTF8StringEnumerator
+nsIStringEnumerator
 )
 /
 /
