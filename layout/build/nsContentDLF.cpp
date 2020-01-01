@@ -2106,6 +2106,10 @@ nsGkAtoms
 html
 0
 kNameSpaceID_XHTML
+nsIDOMNode
+:
+:
+ELEMENT_NODE
 )
 ;
 nsCOMPtr
@@ -2143,6 +2147,10 @@ nsGkAtoms
 head
 0
 kNameSpaceID_XHTML
+nsIDOMNode
+:
+:
+ELEMENT_NODE
 )
 ;
 nsCOMPtr
@@ -2180,6 +2188,10 @@ nsGkAtoms
 body
 0
 kNameSpaceID_XHTML
+nsIDOMNode
+:
+:
+ELEMENT_NODE
 )
 ;
 nsCOMPtr

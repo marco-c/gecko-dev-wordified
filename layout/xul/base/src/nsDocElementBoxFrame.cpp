@@ -932,6 +932,10 @@ nsGkAtoms
 popupgroup
 nsnull
 kNameSpaceID_XUL
+nsIDOMNode
+:
+:
+ELEMENT_NODE
 )
 ;
 NS_ENSURE_TRUE
@@ -1001,6 +1005,10 @@ nsGkAtoms
 tooltip
 nsnull
 kNameSpaceID_XUL
+nsIDOMNode
+:
+:
+ELEMENT_NODE
 )
 ;
 NS_ENSURE_TRUE

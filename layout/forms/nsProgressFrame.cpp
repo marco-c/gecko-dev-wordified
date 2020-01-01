@@ -737,6 +737,10 @@ nsGkAtoms
 div
 nsnull
 kNameSpaceID_XHTML
+nsIDOMNode
+:
+:
+ELEMENT_NODE
 )
 ;
 NS_ENSURE_TRUE

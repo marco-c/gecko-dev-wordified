@@ -576,9 +576,6 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-nsIAtom
-*
-aName
 const
 nsAString
 &
@@ -724,12 +721,6 @@ GetClassInfo
 ;
 protected
 :
-nsCOMPtr
-<
-nsIAtom
->
-mName
-;
 nsString
 mPublicId
 ;

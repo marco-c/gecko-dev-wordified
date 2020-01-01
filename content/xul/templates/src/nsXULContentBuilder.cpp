@@ -8557,6 +8557,10 @@ GetNodeInfo
 aTag
 nsnull
 aNameSpaceID
+nsIDOMNode
+:
+:
+ELEMENT_NODE
 )
 ;
 rv

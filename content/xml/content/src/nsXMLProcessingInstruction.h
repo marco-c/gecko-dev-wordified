@@ -483,10 +483,6 @@ aNodeInfo
 const
 nsAString
 &
-aTarget
-const
-nsAString
-&
 aData
 )
 ;
@@ -711,9 +707,6 @@ nsAString
 &
 aValue
 )
-;
-nsString
-mTarget
 ;
 }
 ;

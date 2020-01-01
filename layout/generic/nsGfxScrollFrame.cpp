@@ -15382,6 +15382,10 @@ nsGkAtoms
 scrollbar
 nsnull
 kNameSpaceID_XUL
+nsIDOMNode
+:
+:
+ELEMENT_NODE
 )
 ;
 NS_ENSURE_TRUE
@@ -15570,6 +15574,10 @@ nsGkAtoms
 resizer
 nsnull
 kNameSpaceID_XUL
+nsIDOMNode
+:
+:
+ELEMENT_NODE
 )
 ;
 NS_ENSURE_TRUE
@@ -15806,6 +15814,10 @@ nsGkAtoms
 scrollcorner
 nsnull
 kNameSpaceID_XUL
+nsIDOMNode
+:
+:
+ELEMENT_NODE
 )
 ;
 NS_TrustedNewXULElement
