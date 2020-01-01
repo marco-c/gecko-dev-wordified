@@ -466,6 +466,7 @@ aCanStoreInRuleTree
 )
 ;
 }
+static
 float
 ProcessTranslatePart
 (
