@@ -9616,7 +9616,7 @@ sessionstore
 .
 interval
 "
-10000
+15000
 )
 ;
 /
