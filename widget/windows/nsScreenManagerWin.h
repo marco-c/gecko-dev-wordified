@@ -594,8 +594,7 @@ nsIScreen
 *
 CreateNewScreenObject
 (
-void
-*
+HMONITOR
 inScreen
 )
 ;
