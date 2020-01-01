@@ -916,7 +916,7 @@ const
 jschar
 *
 chars
-size_t
+uint32
 length
 const
 Value
