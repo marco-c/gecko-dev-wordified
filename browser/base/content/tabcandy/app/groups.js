@@ -2852,7 +2852,7 @@ Saves
 this
 group
 to
-persistant
+persistent
 storage
 .
 save
@@ -10174,7 +10174,7 @@ saving
 Groups
 state
 to
-persistant
+persistent
 storage
 .
 getStorageData
@@ -10811,7 +10811,7 @@ groupStorageSanity
 /
 /
 Given
-persistant
+persistent
 storage
 data
 for

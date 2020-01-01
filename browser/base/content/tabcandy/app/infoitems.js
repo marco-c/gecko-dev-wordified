@@ -1170,7 +1170,7 @@ Saves
 this
 item
 to
-persistant
+persistent
 storage
 .
 save
