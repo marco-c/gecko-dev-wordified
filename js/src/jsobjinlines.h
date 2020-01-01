@@ -6310,7 +6310,7 @@ if
 cx
 -
 >
-running
+hasfp
 (
 )
 )

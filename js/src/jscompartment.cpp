@@ -1351,7 +1351,7 @@ if
 cx
 -
 >
-running
+hasfp
 (
 )
 )

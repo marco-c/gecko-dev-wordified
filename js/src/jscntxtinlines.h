@@ -591,7 +591,7 @@ if
 cx
 -
 >
-running
+hasfp
 (
 )
 )
@@ -790,7 +790,7 @@ check
 cx
 -
 >
-running
+hasfp
 (
 )
 ?

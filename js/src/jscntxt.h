@@ -6124,7 +6124,7 @@ functions
 *
 /
 bool
-running
+hasfp
 (
 )
 const
@@ -6132,7 +6132,7 @@ const
 return
 stack
 .
-running
+hasfp
 (
 )
 ;
@@ -6473,7 +6473,7 @@ return
 !
 stack
 .
-running
+hasfp
 (
 )
 &
@@ -6774,7 +6774,7 @@ if
 (
 stack
 .
-running
+hasfp
 (
 )
 )

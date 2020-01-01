@@ -8476,7 +8476,7 @@ pc
 cx
 -
 >
-running
+hasfp
 (
 )
 ?
@@ -8962,7 +8962,7 @@ if
 (
 stack
 .
-running
+hasfp
 (
 )
 )

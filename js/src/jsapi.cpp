@@ -8823,7 +8823,7 @@ if
 cx
 -
 >
-running
+hasfp
 (
 )
 )
@@ -24110,7 +24110,7 @@ if
 cx
 -
 >
-running
+hasfp
 (
 )
 )
@@ -29721,7 +29721,7 @@ cx
 cx
 -
 >
-running
+hasfp
 (
 )
 )
@@ -29847,7 +29847,7 @@ JS_ASSERT
 cx
 -
 >
-running
+hasfp
 (
 )
 )
