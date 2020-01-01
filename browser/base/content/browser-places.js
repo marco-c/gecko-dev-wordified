@@ -3136,12 +3136,11 @@ aTitle
 var
 linkURI
 =
-IO
-.
-newURI
+makeURI
 (
 aURL
 )
+;
 var
 itemId
 =
