@@ -381,7 +381,13 @@ private
 JS
 :
 :
+Heap
+<
+JS
+:
+:
 Value
+>
 mData
 ;
 nsString

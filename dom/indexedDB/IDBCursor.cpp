@@ -2547,7 +2547,6 @@ mKey
 ToJSVal
 (
 aCx
-&
 mCachedKey
 )
 ;
@@ -2690,7 +2689,6 @@ key
 ToJSVal
 (
 aCx
-&
 mCachedPrimaryKey
 )
 ;
@@ -3529,11 +3527,8 @@ objectKey
 ToJSVal
 (
 aCx
+&
 keyVal
-.
-address
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3957,11 +3952,8 @@ objectKey
 ToJSVal
 (
 aCx
+&
 key
-.
-address
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS

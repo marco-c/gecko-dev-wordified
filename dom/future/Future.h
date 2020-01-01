@@ -576,7 +576,13 @@ mRejectCallbacks
 JS
 :
 :
+Heap
+<
+JS
+:
+:
 Value
+>
 mResult
 ;
 FutureState

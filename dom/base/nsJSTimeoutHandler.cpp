@@ -436,7 +436,13 @@ nsTArray
 JS
 :
 :
+Heap
+<
+JS
+:
+:
 Value
+>
 >
 mArgs
 ;
@@ -1722,7 +1728,13 @@ FallibleTArray
 JS
 :
 :
+Heap
+<
+JS
+:
+:
 Value
+>
 >
 args
 ;
