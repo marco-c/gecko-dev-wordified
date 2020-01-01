@@ -11869,7 +11869,7 @@ jsid
 id
 bool
 *
-result
+isKnownConstant
 )
 {
 /
@@ -11997,7 +11997,7 @@ with
 undefined
 .
 *
-result
+isKnownConstant
 =
 false
 ;
@@ -12160,7 +12160,7 @@ true
 ;
 }
 *
-result
+isKnownConstant
 =
 true
 ;
@@ -12808,7 +12808,7 @@ constant
 value
 .
 bool
-result
+isKnownConstant
 ;
 if
 (
@@ -12819,7 +12819,7 @@ cx
 globalObj
 id
 &
-result
+isKnownConstant
 )
 )
 return
@@ -12827,7 +12827,7 @@ false
 ;
 if
 (
-result
+isKnownConstant
 )
 return
 pushConstant
