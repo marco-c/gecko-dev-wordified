@@ -13288,10 +13288,10 @@ lineColSubs
 [
 aActivityObject
 .
-columnNumber
+lineNumber
 aActivityObject
 .
-lineNumber
+columnNumber
 ]
 ;
 var
