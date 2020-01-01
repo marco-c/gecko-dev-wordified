@@ -558,6 +558,17 @@ nsTArray
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
 const
 PRUint32
 kUnknownIndex

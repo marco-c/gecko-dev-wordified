@@ -502,6 +502,13 @@ nsIPrivateDOMEvent
 .
 h
 "
+#
+include
+"
+nsIDocument
+.
+h
+"
 class
 AlertServiceObserver
 ;

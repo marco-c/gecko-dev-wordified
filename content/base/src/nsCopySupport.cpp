@@ -710,6 +710,17 @@ nsContentCID
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
 nsresult
 NS_NewDomSelection
 (

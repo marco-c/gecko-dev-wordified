@@ -500,6 +500,17 @@ nsEventStates
 h
 "
 #
+include
+"
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
+#
 define
 ACTIVE
 "
