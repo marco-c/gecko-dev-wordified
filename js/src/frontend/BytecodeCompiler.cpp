@@ -478,6 +478,15 @@ h
 #
 include
 "
+frontend
+/
+SemanticAnalysis
+.
+h
+"
+#
+include
+"
 vm
 /
 GlobalObject
@@ -2003,9 +2012,7 @@ out
 if
 (
 !
-parser
-.
-analyzeFunctions
+AnalyzeFunctions
 (
 &
 bce
@@ -3062,9 +3069,7 @@ else
 if
 (
 !
-parser
-.
-analyzeFunctions
+AnalyzeFunctions
 (
 &
 funbce
