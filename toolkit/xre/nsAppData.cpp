@@ -552,6 +552,16 @@ Zero
 (
 )
 ;
+this
+-
+>
+size
+=
+aAppData
+-
+>
+size
+;
 SetAllocatedString
 (
 this
