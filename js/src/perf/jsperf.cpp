@@ -183,8 +183,7 @@ GetPM
 JSContext
 *
 cx
-JSObject
-*
+JSHandleObject
 obj
 const
 char
@@ -1060,8 +1059,7 @@ GetPM
 JSContext
 *
 cx
-JSObject
-*
+JSHandleObject
 obj
 const
 char
@@ -1200,8 +1198,7 @@ RegisterPerfMeasurement
 JSContext
 *
 cx
-JSObject
-*
+JSRawObject
 global
 )
 {
@@ -1220,7 +1217,7 @@ JS_InitClass
 (
 cx
 global
-0
+NULL
 /
 *
 parent

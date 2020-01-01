@@ -354,9 +354,7 @@ Wrapper
 *
 wrapperHandler
 (
-const
-JSObject
-*
+RawObject
 wrapper
 )
 ;
@@ -365,9 +363,7 @@ JSObject
 *
 wrappedObject
 (
-const
-JSObject
-*
+RawObject
 wrapper
 )
 ;
@@ -2528,9 +2524,7 @@ inline
 bool
 IsWrapper
 (
-const
-JSObject
-*
+RawObject
 obj
 )
 {
@@ -2739,9 +2733,7 @@ bool
 )
 IsCrossCompartmentWrapper
 (
-const
-JSObject
-*
+RawObject
 obj
 )
 ;

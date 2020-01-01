@@ -79,6 +79,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 js
 /
 Vector

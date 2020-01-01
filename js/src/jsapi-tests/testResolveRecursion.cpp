@@ -377,10 +377,9 @@ t
 bool
 doResolve
 (
-JSObject
-*
+JSHandleObject
 obj
-jsid
+JSHandleId
 id
 unsigned
 flags

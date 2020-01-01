@@ -8993,10 +8993,10 @@ base
 return
 false
 ;
-JSObject
-*
+RootedObject
 proto
-=
+(
+cx
 NewObjectWithGivenProto
 (
 cx
@@ -9004,6 +9004,7 @@ cx
 SetIteratorClass
 base
 global
+)
 )
 ;
 if

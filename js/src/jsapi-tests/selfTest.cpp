@@ -120,7 +120,10 @@ BEGIN_TEST
 selfTest_NaNsAreSame
 )
 {
-jsvalRoot
+JS
+:
+:
+RootedValue
 v1
 (
 cx
@@ -139,7 +142,7 @@ EVAL
 "
 v1
 .
-addr
+address
 (
 )
 )
@@ -167,7 +170,7 @@ no
 "
 v2
 .
-addr
+address
 (
 )
 )

@@ -1784,7 +1784,7 @@ if
 js_InitArrayClass
 (
 cx
-this
+self
 )
 )
 return
@@ -1848,7 +1848,7 @@ if
 js_InitBooleanClass
 (
 cx
-this
+self
 )
 )
 return
@@ -1912,7 +1912,7 @@ if
 js_InitNumberClass
 (
 cx
-this
+self
 )
 )
 return
@@ -1976,7 +1976,7 @@ if
 js_InitStringClass
 (
 cx
-this
+self
 )
 )
 return
@@ -2040,7 +2040,7 @@ if
 js_InitRegExpClass
 (
 cx
-this
+self
 )
 )
 return
@@ -2104,7 +2104,7 @@ if
 js_InitTypedArrayClasses
 (
 cx
-this
+self
 )
 )
 return
@@ -2178,7 +2178,7 @@ if
 js_InitExceptionClasses
 (
 cx
-this
+self
 )
 )
 return
@@ -2449,7 +2449,7 @@ if
 js_InitTypedArrayClasses
 (
 cx
-this
+self
 )
 )
 return
@@ -3093,7 +3093,14 @@ js
 :
 GetObjectClass
 (
+const_cast
+<
+JSObject
+*
+>
+(
 this
+)
 )
 -
 >

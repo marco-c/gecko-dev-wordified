@@ -3310,8 +3310,7 @@ ReportUsageError
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 callee
 const
 char

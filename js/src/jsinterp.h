@@ -1229,8 +1229,7 @@ ExecuteKernel
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 JSObject
 &
@@ -1271,8 +1270,7 @@ Execute
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 JSObject
 &

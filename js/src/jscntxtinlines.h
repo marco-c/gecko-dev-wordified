@@ -968,10 +968,17 @@ scope
 JS_ObjectToInnerObject
 (
 cx
+HandleObject
+:
+:
+fromMarkedLocation
+(
+&
 cx
 -
 >
 globalObject
+)
 )
 ;
 if

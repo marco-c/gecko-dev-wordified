@@ -172,11 +172,26 @@ i
 bool
 tryScript
 (
+JS
+:
+:
+HandleObject
+global
 JSScript
 *
-script
+scriptArg
 )
 {
+JS
+:
+:
+RootedScript
+script
+(
+cx
+scriptArg
+)
+;
 CHECK
 (
 script
@@ -297,6 +312,7 @@ bug438633_CompileScript
 return
 tryScript
 (
+global
 JS_CompileScript
 (
 cx
@@ -323,6 +339,7 @@ bug438633_CompileScript_empty
 return
 tryScript
 (
+global
 JS_CompileScript
 (
 cx
@@ -350,6 +367,7 @@ bug438633_CompileScriptForPrincipals
 return
 tryScript
 (
+global
 JS_CompileScriptForPrincipals
 (
 cx
@@ -377,6 +395,7 @@ bug438633_JS_CompileUCScript
 return
 tryScript
 (
+global
 JS_CompileUCScript
 (
 cx
@@ -403,6 +422,7 @@ bug438633_JS_CompileUCScript_empty
 return
 tryScript
 (
+global
 JS_CompileUCScript
 (
 cx
@@ -429,6 +449,7 @@ bug438633_JS_CompileUCScriptForPrincipals
 return
 tryScript
 (
+global
 JS_CompileUCScriptForPrincipals
 (
 cx
@@ -518,6 +539,7 @@ remove
 return
 tryScript
 (
+global
 script
 )
 ;
@@ -582,6 +604,7 @@ remove
 return
 tryScript
 (
+global
 script
 )
 ;
@@ -643,6 +666,7 @@ EOF
 return
 tryScript
 (
+global
 JS_CompileUTF8FileHandle
 (
 cx
@@ -688,6 +712,7 @@ bug438633_JS_CompileFileHandle_empty
 return
 tryScript
 (
+global
 JS_CompileUTF8FileHandle
 (
 cx
@@ -759,6 +784,7 @@ EOF
 return
 tryScript
 (
+global
 JS_CompileUTF8FileHandleForPrincipals
 (
 cx
