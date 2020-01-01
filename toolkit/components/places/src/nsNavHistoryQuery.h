@@ -1136,7 +1136,7 @@ nsNavHistory
 cpp
 :
 :
-GetSimpleBookmarksQuery
+GetSimpleBookmarksQueryFolder
 function
 if
 applicable
