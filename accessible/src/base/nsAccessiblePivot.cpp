@@ -3044,6 +3044,9 @@ GetContent
 ;
 if
 (
+content
+&
+&
 nsAccUtils
 :
 :
