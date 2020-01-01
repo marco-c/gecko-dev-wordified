@@ -603,6 +603,7 @@ TabSetRecord_addTab
 (
 title
 urlHistory
+lastUsed
 )
 {
 if
@@ -638,6 +639,9 @@ title
 urlHistory
 :
 urlHistory
+lastUsed
+:
+lastUsed
 }
 )
 ;
