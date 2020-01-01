@@ -102,13 +102,6 @@ mozilla_dom_SVGImageElement_h
 #
 include
 "
-nsIDOMSVGImageElement
-.
-h
-"
-#
-include
-"
 nsIDOMSVGURIReference
 .
 h
@@ -184,7 +177,7 @@ SVGImageElement
 public
 SVGImageElementBase
 public
-nsIDOMSVGImageElement
+nsIDOMSVGElement
 public
 nsIDOMSVGURIReference
 public
@@ -256,7 +249,6 @@ public
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGIMAGEELEMENT
 NS_DECL_NSIDOMSVGURIREFERENCE
 /
 /
@@ -408,13 +400,6 @@ IsImageSrcSetDisabled
 (
 )
 const
-;
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
 ;
 virtual
 nsIDOMNode
