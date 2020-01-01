@@ -423,6 +423,9 @@ methodName
 '
 runTest
 '
+*
+*
+kwargs
 )
 :
         
@@ -438,6 +441,9 @@ __init__
 (
 self
 methodName
+*
+*
+kwargs
 )
     
 def
