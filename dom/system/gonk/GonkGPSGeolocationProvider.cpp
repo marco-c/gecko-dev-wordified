@@ -2671,11 +2671,6 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
-(
-mInitThread
-)
-;
 if
 (
 !
