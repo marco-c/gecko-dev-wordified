@@ -1031,6 +1031,7 @@ GetBaseline
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 *

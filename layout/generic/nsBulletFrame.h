@@ -483,6 +483,7 @@ GetBaseline
 (
 )
 const
+MOZ_OVERRIDE
 ;
 float
 GetFontSizeInflation
