@@ -80,14 +80,14 @@ thread
 /
 #
 ifndef
-__nsStrictTransportSecurityService_h__
+__nsSiteSecurityService_h__
 #
 define
-__nsStrictTransportSecurityService_h__
+__nsSiteSecurityService_h__
 #
 include
 "
-nsIStrictTransportSecurityService
+nsISiteSecurityService
 .
 h
 "
@@ -162,7 +162,7 @@ c42a465138a1
 }
 #
 define
-NS_STRICT_TRANSPORT_SECURITY_CID
+NS_SITE_SECURITY_SERVICE_CID
 \
 {
 0x16955eee
@@ -262,7 +262,7 @@ NS_STRICT_TRANSPORT_SECURITY_CID
 /
 /
 /
-nsSTSHostEntry
+nsSSSHostEntry
 -
 similar
 to
@@ -293,7 +293,7 @@ permissions
 /
 /
 Each
-nsSTSHostEntry
+nsSSSHostEntry
 contains
 :
 /
@@ -363,7 +363,7 @@ The
 existence
 of
 the
-nsSTSHostEntry
+nsSSSHostEntry
 implies
 STS
 state
@@ -473,7 +473,7 @@ subdomains
 flag
 in
 the
-nsSTSHostEntry
+nsSSSHostEntry
 means
 both
 that
@@ -574,7 +574,7 @@ be
 shadowed
 .
 class
-nsSTSHostEntry
+nsSSSHostEntry
 :
 public
 PLDHashEntryHdr
@@ -582,7 +582,7 @@ PLDHashEntryHdr
 public
 :
 explicit
-nsSTSHostEntry
+nsSSSHostEntry
 (
 const
 char
@@ -591,10 +591,10 @@ aHost
 )
 ;
 explicit
-nsSTSHostEntry
+nsSSSHostEntry
 (
 const
-nsSTSHostEntry
+nsSSSHostEntry
 &
 toCopy
 )
@@ -895,10 +895,10 @@ class
 nsSTSPreload
 ;
 class
-nsStrictTransportSecurityService
+nsSiteSecurityService
 :
 public
-nsIStrictTransportSecurityService
+nsISiteSecurityService
 public
 nsIObserver
 {
@@ -906,8 +906,8 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIOBSERVER
-NS_DECL_NSISTRICTTRANSPORTSECURITYSERVICE
-nsStrictTransportSecurityService
+NS_DECL_NSISITESECURITYSERVICE
+nsSiteSecurityService
 (
 )
 ;
@@ -918,7 +918,7 @@ Init
 ;
 virtual
 ~
-nsStrictTransportSecurityService
+nsSiteSecurityService
 (
 )
 ;
@@ -1055,7 +1055,7 @@ mObserverService
 ;
 nsTHashtable
 <
-nsSTSHostEntry
+nsSSSHostEntry
 >
 mPrivateModeHostTable
 ;
@@ -1068,4 +1068,4 @@ mUsePreloadList
 endif
 /
 /
-__nsStrictTransportSecurityService_h__
+__nsSiteSecurityService_h__

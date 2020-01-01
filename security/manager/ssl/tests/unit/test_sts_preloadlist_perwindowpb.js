@@ -71,7 +71,7 @@ use
 HSTS
 .
 var
-gSTSService
+gSSService
 =
 Cc
 [
@@ -80,7 +80,7 @@ mozilla
 .
 org
 /
-stsservice
+ssservice
 ;
 1
 "
@@ -90,7 +90,7 @@ getService
 (
 Ci
 .
-nsIStrictTransportSecurityService
+nsISiteSecurityService
 )
 ;
 function
@@ -145,7 +145,7 @@ Observer
 ;
 /
 /
-nsIStrictTransportSecurityService
+nsISiteSecurityService
 .
 removeStsState
 removes
@@ -438,7 +438,7 @@ sts
 host
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -469,7 +469,7 @@ sts
 host
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -511,7 +511,7 @@ false
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -544,7 +544,7 @@ true
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -576,7 +576,7 @@ set
 )
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -610,7 +610,7 @@ set
 )
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -652,7 +652,7 @@ set
 )
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -688,7 +688,7 @@ break
 anything
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -753,7 +753,7 @@ null
 null
 )
 ;
-gSTSService
+gSSService
 .
 processStsHeader
 (
@@ -770,7 +770,7 @@ age
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -787,7 +787,7 @@ org
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -832,7 +832,7 @@ site
 s
 sts
 status
-gSTSService
+gSSService
 .
 processStsHeader
 (
@@ -849,7 +849,7 @@ age
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -880,7 +880,7 @@ for
 that
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -959,7 +959,7 @@ null
 null
 )
 ;
-gSTSService
+gSSService
 .
 processStsHeader
 (
@@ -976,7 +976,7 @@ age
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -993,7 +993,7 @@ org
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1036,7 +1036,7 @@ null
 null
 )
 ;
-gSTSService
+gSSService
 .
 processStsHeader
 (
@@ -1187,7 +1187,7 @@ sts
 host
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1204,7 +1204,7 @@ org
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1223,7 +1223,7 @@ org
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1242,7 +1242,7 @@ org
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1261,7 +1261,7 @@ org
 )
 )
 ;
-gSTSService
+gSSService
 .
 processStsHeader
 (
@@ -1361,7 +1361,7 @@ sts
 host
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1380,7 +1380,7 @@ org
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1399,7 +1399,7 @@ org
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1478,7 +1478,7 @@ includeSubdomains
 set
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1495,7 +1495,7 @@ IS_PRIVATE
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1542,7 +1542,7 @@ null
 null
 )
 ;
-gSTSService
+gSSService
 .
 processStsHeader
 (
@@ -1559,7 +1559,7 @@ IS_PRIVATE
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1576,7 +1576,7 @@ IS_PRIVATE
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1604,7 +1604,7 @@ adding
 it
 back
 in
-gSTSService
+gSSService
 .
 processStsHeader
 (
@@ -1621,7 +1621,7 @@ IS_PRIVATE
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1645,7 +1645,7 @@ this
 time
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1674,7 +1674,7 @@ pokey
 .
 .
 .
-gSTSService
+gSSService
 .
 processStsHeader
 (
@@ -1691,7 +1691,7 @@ IS_PRIVATE
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1708,7 +1708,7 @@ IS_PRIVATE
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1859,7 +1859,7 @@ list
 )
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1898,7 +1898,7 @@ null
 null
 )
 ;
-gSTSService
+gSSService
 .
 processStsHeader
 (
@@ -1922,7 +1922,7 @@ function
 {
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1991,7 +1991,7 @@ browsing
 service
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -2020,7 +2020,7 @@ includeSubdomains
 set
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -2076,7 +2076,7 @@ status
 .
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (

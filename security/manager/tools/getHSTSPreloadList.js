@@ -675,7 +675,7 @@ n
 "
 /
 *
-nsStrictTransportSecurityService
+nsSiteSecurityService
 .
 cpp
 you
@@ -1191,7 +1191,7 @@ hosts
 ;
 }
 var
-gSTSService
+gSSService
 =
 Cc
 [
@@ -1200,7 +1200,7 @@ mozilla
 .
 org
 /
-stsservice
+ssservice
 ;
 1
 "
@@ -1210,7 +1210,7 @@ getService
 (
 Ci
 .
-nsIStrictTransportSecurityService
+nsISiteSecurityService
 )
 ;
 function
@@ -1277,7 +1277,7 @@ null
 null
 )
 ;
-gSTSService
+gSSService
 .
 processStsHeader
 (
