@@ -4327,6 +4327,9 @@ syncAccount
 true
 )
 ;
+#
+ifdef
+MOZ_PLATFORM_MAEMO
 pref
 (
 "
@@ -4341,6 +4344,8 @@ opaque
 "
 )
 ;
+#
+endif
 /
 /
 URL
@@ -5025,7 +5030,7 @@ plugin
 .
 disable
 "
-true
+false
 )
 ;
 pref
