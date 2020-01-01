@@ -1950,14 +1950,6 @@ ReleaseGlobals
 (
 )
 ;
-NS_IF_RELEASE
-(
-nsRuleNode
-:
-:
-gLangService
-)
-;
 nsTextFragment
 :
 :
