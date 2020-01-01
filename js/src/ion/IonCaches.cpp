@@ -701,10 +701,12 @@ getProto
 (
 )
 ;
-JS_ASSERT
+if
 (
+!
 pobj
 )
+return
 ;
 while
 (
