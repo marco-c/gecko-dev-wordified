@@ -478,6 +478,13 @@ h
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 nsTraceRefcnt
 .
 h

@@ -465,6 +465,13 @@ h
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 mozilla
 /
 jsipc
@@ -2521,9 +2528,6 @@ proto
 )
 )
 {
-JS
-:
-:
 AutoIdArray
 ids
 (
@@ -2579,9 +2583,6 @@ nsString
 strIds
 ;
 {
-JS
-:
-:
 AutoIdArray
 ids
 (
@@ -3342,9 +3343,6 @@ jsargs
 return
 false
 ;
-JS
-:
-:
 AutoArrayRooter
 tvr
 (
@@ -3508,9 +3506,6 @@ jsargs
 return
 false
 ;
-JS
-:
-:
 AutoArrayRooter
 tvr
 (

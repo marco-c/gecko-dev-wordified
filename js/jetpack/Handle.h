@@ -493,6 +493,13 @@ h
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h
@@ -855,7 +862,7 @@ obj
 return
 NULL
 ;
-JS
+js
 :
 :
 AutoObjectRooter
@@ -1015,7 +1022,7 @@ mObj
 NULL
 )
 ;
-JS
+js
 :
 :
 AutoObjectRooter
@@ -1090,7 +1097,7 @@ hasOnInvalidate
 hasOnInvalidate
 )
 {
-JS
+js
 :
 :
 AutoValueRooter

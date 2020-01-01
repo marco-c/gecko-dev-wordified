@@ -707,6 +707,13 @@ h
 #
 include
 "
+jsdate
+.
+h
+"
+#
+include
+"
 prenv
 .
 h
@@ -4047,7 +4054,7 @@ JSObject
 *
 date
 =
-JS_NewDateObjectMsec
+js_NewDateObjectMsec
 (
 cx
 timestamp

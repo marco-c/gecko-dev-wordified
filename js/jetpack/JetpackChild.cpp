@@ -442,6 +442,13 @@ h
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 jswrapper
 .
 h
@@ -1737,7 +1744,7 @@ i
 =
 JSVAL_VOID
 ;
-JS
+js
 :
 :
 AutoArrayRooter
@@ -2791,7 +2798,7 @@ chars
 return
 JS_FALSE
 ;
-JS
+js
 :
 :
 AutoValueRooter
@@ -2869,7 +2876,7 @@ sReportingError
 =
 true
 ;
-JS
+js
 :
 :
 AutoObjectRooter

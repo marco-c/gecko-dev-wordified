@@ -973,12 +973,10 @@ bool
 foldConstants
 )
 :
-js
-:
-:
 AutoGCRooter
 (
 cx
+PARSER
 )
 context
 (
