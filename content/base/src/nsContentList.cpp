@@ -720,7 +720,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 NodeList
@@ -2195,7 +2195,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 HTMLCollection

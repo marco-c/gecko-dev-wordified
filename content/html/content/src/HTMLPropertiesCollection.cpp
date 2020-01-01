@@ -570,7 +570,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 HTMLPropertiesCollection
@@ -2030,7 +2030,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 PropertyNodeList

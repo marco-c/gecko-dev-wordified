@@ -3247,7 +3247,7 @@ n
                 
 "
 namespace
-binding
+oldproxybindings
 {
 \
 n
@@ -5634,7 +5634,7 @@ n
                 
 "
 namespace
-binding
+oldproxybindings
 {
 \
 n
@@ -6468,6 +6468,12 @@ append
 (
 "
 {
+mozilla
+:
+:
+dom
+:
+:
 s_length_id
 length_getter
 %

@@ -224,7 +224,7 @@ namespace
 dom
 {
 namespace
-binding
+oldproxybindings
 {
 enum
 {

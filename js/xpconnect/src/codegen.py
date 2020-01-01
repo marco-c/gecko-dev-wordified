@@ -2734,6 +2734,23 @@ ref
 '
 :
             
+if
+isStringType
+(
+type
+)
+:
+                
+return
+'
+(
+nsAString
+&
+)
+'
++
+name
+            
 return
 name
         

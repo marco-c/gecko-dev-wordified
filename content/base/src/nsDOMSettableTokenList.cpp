@@ -222,7 +222,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 DOMSettableTokenList

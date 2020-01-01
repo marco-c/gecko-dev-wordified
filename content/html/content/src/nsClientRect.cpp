@@ -449,7 +449,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 ClientRectList

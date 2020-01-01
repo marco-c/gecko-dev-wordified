@@ -1168,6 +1168,7 @@ WorkerPrivate
 >
 (
 aObj
+eRegularDOMObject
 )
 ;
 if
@@ -1220,6 +1221,7 @@ WorkerPrivate
 >
 (
 aObj
+eRegularDOMObject
 )
 ;
 if
@@ -1510,6 +1512,7 @@ NULL
 Trace
 }
 {
+{
 prototypes
 :
 :
@@ -1532,11 +1535,12 @@ id
 :
 _ID_Count
 }
--
-1
 false
 &
 sNativePropertyHooks
+}
+-
+1
 }
 ;
 JSPropertySpec
@@ -1869,6 +1873,7 @@ WorkerPrivate
 >
 (
 aObj
+eRegularDOMObject
 )
 ;
 }
@@ -1947,6 +1952,7 @@ WorkerPrivate
 >
 (
 aObj
+eRegularDOMObject
 )
 ;
 if
@@ -1999,6 +2005,7 @@ WorkerPrivate
 >
 (
 aObj
+eRegularDOMObject
 )
 ;
 if
@@ -2097,6 +2104,7 @@ NULL
 Trace
 }
 {
+{
 prototypes
 :
 :
@@ -2119,11 +2127,12 @@ id
 :
 _ID_Count
 }
--
-1
 false
 &
 sNativePropertyHooks
+}
+-
+1
 }
 ;
 WorkerPrivate
@@ -2182,6 +2191,7 @@ WorkerPrivate
 >
 (
 aObj
+eRegularDOMObject
 )
 ;
 }

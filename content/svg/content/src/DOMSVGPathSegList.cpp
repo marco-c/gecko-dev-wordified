@@ -482,7 +482,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 SVGPathSegList

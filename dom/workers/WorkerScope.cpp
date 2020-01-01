@@ -3773,6 +3773,7 @@ DedicatedWorkerGlobalScope
 >
 (
 aObj
+eRegularDOMObject
 )
 ;
 }
@@ -3922,6 +3923,7 @@ DedicatedWorkerGlobalScope
 >
 (
 aObj
+eRegularDOMObject
 )
 ;
 if
@@ -3979,6 +3981,7 @@ DedicatedWorkerGlobalScope
 >
 (
 aObj
+eRegularDOMObject
 )
 ;
 if
@@ -4208,6 +4211,7 @@ NULL
 Trace
 }
 {
+{
 prototypes
 :
 :
@@ -4230,11 +4234,12 @@ id
 :
 _ID_Count
 }
--
-1
 false
 &
 sNativePropertyHooks
+}
+-
+1
 }
 ;
 JSPropertySpec
@@ -4385,6 +4390,7 @@ DedicatedWorkerGlobalScope
 >
 (
 aObj
+eRegularDOMObject
 )
 ;
 }

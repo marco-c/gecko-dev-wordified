@@ -2388,7 +2388,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 instanceIsProxy
@@ -3010,7 +3010,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 instanceIsProxy

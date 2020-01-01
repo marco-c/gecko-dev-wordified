@@ -253,7 +253,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 PaintRequestList

@@ -553,7 +553,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 SVGPointList

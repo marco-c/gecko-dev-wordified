@@ -4173,9 +4173,6 @@ mozilla
 dom
 :
 :
-binding
-:
-:
 DefineInterface
 aDefineDOMInterface
 )

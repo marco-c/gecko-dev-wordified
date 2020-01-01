@@ -661,7 +661,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 NodeList

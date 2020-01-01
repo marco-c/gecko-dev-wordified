@@ -10383,7 +10383,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 HTMLOptionsCollection
