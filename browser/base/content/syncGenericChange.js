@@ -864,7 +864,7 @@ _str
 "
 new
 .
-synckey
+synckey2
 .
 introText
 "
