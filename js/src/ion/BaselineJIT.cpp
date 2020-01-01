@@ -283,9 +283,6 @@ NULL
 fallbackStubSpace_
 (
 )
-optimizedStubSpace_
-(
-)
 prologueOffset_
 (
 prologueOffset
@@ -3441,7 +3438,7 @@ BaselineScript
 :
 adoptFallbackStubs
 (
-ICStubSpace
+FallbackICStubSpace
 *
 stubSpace
 )
@@ -4502,12 +4499,6 @@ next
 }
 #
 endif
-optimizedStubSpace_
-.
-free
-(
-)
-;
 }
 void
 ion
@@ -4726,7 +4717,7 @@ size_t
 data
 size_t
 *
-stubs
+fallbackStubs
 )
 {
 *
@@ -4735,7 +4726,7 @@ data
 0
 ;
 *
-stubs
+fallbackStubs
 =
 0
 ;
@@ -4758,7 +4749,7 @@ sizeOfIncludingThis
 (
 mallocSizeOf
 data
-stubs
+fallbackStubs
 )
 ;
 }
