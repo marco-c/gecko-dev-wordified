@@ -694,14 +694,6 @@ mai_atk_object_get_type
 void
 )
 ;
-nsresult
-CheckMaiAtkObject
-(
-AtkObject
-*
-aAtkObj
-)
-;
 nsAccessibleWrap
 *
 GetAccessibleWrap

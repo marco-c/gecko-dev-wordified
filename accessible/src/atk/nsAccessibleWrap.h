@@ -670,6 +670,16 @@ GetAtkObject
 void
 )
 ;
+static
+AtkObject
+*
+GetAtkObject
+(
+nsIAccessible
+*
+acc
+)
+;
 PRBool
 IsValidObject
 (
