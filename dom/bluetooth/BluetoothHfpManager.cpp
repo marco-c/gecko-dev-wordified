@@ -2114,7 +2114,7 @@ true
 true
 )
 ;
-mSocketStatus
+mPrevSocketStatus
 =
 mSocket
 -
@@ -2418,12 +2418,6 @@ manager
 new
 BluetoothHfpManager
 (
-)
-;
-NS_ENSURE_TRUE
-(
-manager
-nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -6003,7 +5997,7 @@ return
 false
 ;
 }
-mSocketStatus
+mPrevSocketStatus
 =
 mSocket
 -
@@ -6094,7 +6088,7 @@ aValue
 {
 if
 (
-mSocketStatus
+mPrevSocketStatus
 !
 =
 SocketConnectionStatus
@@ -7896,7 +7890,7 @@ GetAddress
 mDevicePath
 )
 ;
-mSocketStatus
+mPrevSocketStatus
 =
 mSocket
 -
@@ -8040,7 +8034,7 @@ app
 .
 if
 (
-mSocketStatus
+mPrevSocketStatus
 =
 =
 SocketConnectionStatus
@@ -8061,7 +8055,7 @@ NotifySettings
 else
 if
 (
-mSocketStatus
+mPrevSocketStatus
 =
 =
 SocketConnectionStatus
