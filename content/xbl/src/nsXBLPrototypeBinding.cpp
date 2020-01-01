@@ -2908,9 +2908,9 @@ nsXBLPrototypeBinding
 :
 InstallImplementation
 (
-nsIContent
+nsXBLBinding
 *
-aBoundElement
+aBinding
 )
 {
 if
@@ -2924,7 +2924,7 @@ mImplementation
 InstallImplementation
 (
 this
-aBoundElement
+aBinding
 )
 ;
 return

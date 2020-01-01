@@ -899,9 +899,9 @@ aImpl
 nsresult
 InstallImplementation
 (
-nsIContent
+nsXBLBinding
 *
-aBoundElement
+aBinding
 )
 ;
 bool

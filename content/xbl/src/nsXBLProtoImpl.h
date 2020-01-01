@@ -127,6 +127,13 @@ nsXBLProtoImplField
 .
 h
 "
+#
+include
+"
+nsXBLBinding
+.
+h
+"
 class
 nsIXPConnectJSObjectHolder
 ;
@@ -216,10 +223,10 @@ InstallImplementation
 (
 nsXBLPrototypeBinding
 *
-aBinding
-nsIContent
+aPrototypeBinding
+nsXBLBinding
 *
-aBoundElement
+aBinding
 )
 ;
 nsresult
