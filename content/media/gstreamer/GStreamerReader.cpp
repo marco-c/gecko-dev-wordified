@@ -2196,6 +2196,17 @@ duration
 )
 ;
 }
+else
+{
+mDecoder
+-
+>
+SetMediaSeekable
+(
+false
+)
+;
+}
 int
 n_video
 =
