@@ -517,7 +517,7 @@ utility
 function
 for
 calling
-TileLayer
+Layer
 .
 beginTransaction
 with
@@ -532,8 +532,8 @@ public
 void
 beginTransaction
 (
-TileLayer
-aTileLayer
+Layer
+aLayer
 )
 {
 if
@@ -561,7 +561,7 @@ view
 null
 )
 {
-aTileLayer
+aLayer
 .
 beginTransaction
 (
@@ -572,7 +572,7 @@ return
 ;
 }
 }
-aTileLayer
+aLayer
 .
 beginTransaction
 (
@@ -589,11 +589,11 @@ public
 void
 endTransaction
 (
-TileLayer
-aTileLayer
+Layer
+aLayer
 )
 {
-aTileLayer
+aLayer
 .
 endTransaction
 (
