@@ -868,13 +868,6 @@ aBoxLayoutState
 ;
 virtual
 PRBool
-GetMouseThrough
-(
-)
-const
-;
-virtual
-PRBool
 ComputesOwnOverflowArea
 (
 )
@@ -1805,11 +1798,6 @@ height
 #
 endif
 void
-UpdateMouseThrough
-(
-)
-;
-void
 CacheAttributes
 (
 )
@@ -1836,9 +1824,6 @@ mHalign
 ;
 Valignment
 mValign
-;
-eMouseThrough
-mMouseThrough
 ;
 #
 ifdef
