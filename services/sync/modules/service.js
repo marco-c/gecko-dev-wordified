@@ -12724,7 +12724,7 @@ if
 (
 engine
 .
-_testDecrypt
+canDecrypt
 (
 )
 )

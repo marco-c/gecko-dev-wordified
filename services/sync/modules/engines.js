@@ -6014,10 +6014,10 @@ e
 ;
 }
 }
-_testDecrypt
+canDecrypt
 :
 function
-_testDecrypt
+canDecrypt
 (
 )
 {
@@ -6085,6 +6085,11 @@ full
 =
 true
 ;
+let
+self
+=
+this
+;
 test
 .
 recordHandler
@@ -6106,7 +6111,7 @@ get
 WeaveCryptoID
 "
 )
-this
+self
 .
 cryptoMetaURL
 )
