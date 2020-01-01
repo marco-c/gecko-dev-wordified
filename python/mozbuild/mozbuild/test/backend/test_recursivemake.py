@@ -499,11 +499,6 @@ foo
 '
             
 '
-ifndef
-INCLUDED_RULES_MK
-'
-            
-'
 include
 (
 topsrcdir
@@ -511,13 +506,9 @@ topsrcdir
 /
 config
 /
-rules
+recurse
 .
 mk
-'
-            
-'
-endif
 '
         
 ]
@@ -624,7 +615,7 @@ len
 (
 lines
 )
-11
+9
 )
         
 self
