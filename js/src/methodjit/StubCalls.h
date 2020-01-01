@@ -552,15 +552,6 @@ JSAtom
 atom
 )
 ;
-void
-JS_FASTCALL
-EndInit
-(
-VMFrame
-&
-f
-)
-;
 JSString
 *
 JS_FASTCALL

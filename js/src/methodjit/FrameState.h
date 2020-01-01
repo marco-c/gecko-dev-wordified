@@ -1604,10 +1604,12 @@ contents
 of
 the
 register
+.
 *
-though
-it
-may
+The
+compiler
+should
+NOT
 explicitly
 free
 it
