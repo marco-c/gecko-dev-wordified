@@ -7152,6 +7152,7 @@ reset
 ]
 coord
 percent
+calc
 auto
 nsStyleCoord
 mMinHeight
@@ -7163,6 +7164,7 @@ reset
 ]
 coord
 percent
+calc
 nsStyleCoord
 mMaxHeight
 ;
@@ -7173,6 +7175,7 @@ reset
 ]
 coord
 percent
+calc
 none
 PRUint8
 mBoxSizing
@@ -7324,12 +7327,9 @@ item
 )
 aCoord
 .
-GetUnit
+HasPercent
 (
 )
-=
-=
-eStyleUnit_Percent
 ;
 }
 }

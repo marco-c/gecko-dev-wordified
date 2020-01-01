@@ -1210,8 +1210,8 @@ be
 {
 0
 0
-mWidth
-mHeight
+width
+height
 }
 .
 nsRect

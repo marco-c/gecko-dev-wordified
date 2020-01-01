@@ -32305,6 +32305,8 @@ ParseNonNegativeVariant
 (
 aValue
 VARIANT_AHLP
+|
+VARIANT_CALC
 nsnull
 )
 ;
@@ -32823,6 +32825,8 @@ ParseNonNegativeVariant
 (
 aValue
 VARIANT_HLPO
+|
+VARIANT_CALC
 nsnull
 )
 ;
@@ -32848,6 +32852,8 @@ ParseNonNegativeVariant
 (
 aValue
 VARIANT_HLP
+|
+VARIANT_CALC
 nsnull
 )
 ;
