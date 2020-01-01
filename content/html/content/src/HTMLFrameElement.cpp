@@ -96,6 +96,10 @@ MPL
 #
 include
 "
+mozilla
+/
+dom
+/
 HTMLFrameElement
 .
 h
@@ -108,6 +112,15 @@ mozilla
 dom
 /
 HTMLFrameElementBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+Util
 .
 h
 "
