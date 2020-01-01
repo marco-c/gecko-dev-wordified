@@ -4006,7 +4006,7 @@ caller
 '
 s
 compartment
-JS
+js
 :
 :
 AutoPreserveCompartment

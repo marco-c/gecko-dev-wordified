@@ -471,6 +471,15 @@ MacroAssembler
 .
 h
 "
+#
+include
+"
+vm
+/
+Stack
+.
+h
+"
 namespace
 js
 {

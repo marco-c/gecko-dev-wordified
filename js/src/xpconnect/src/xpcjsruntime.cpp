@@ -960,7 +960,7 @@ IsSubjectToFinalization
 )
 )
 {
-JS
+js
 :
 :
 AutoSwitchCompartment

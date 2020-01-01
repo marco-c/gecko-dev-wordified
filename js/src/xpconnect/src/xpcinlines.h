@@ -1046,11 +1046,12 @@ state
 ;
 NS_ABORT_IF_FALSE
 (
-scope
--
->
-compartment
+js
+:
+:
+GetObjectCompartment
 (
+scope
 )
 =
 =

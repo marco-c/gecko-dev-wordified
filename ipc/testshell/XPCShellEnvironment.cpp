@@ -462,6 +462,13 @@ h
 #
 include
 "
+jsdbgapi
+.
+h
+"
+#
+include
+"
 jsprf
 .
 h

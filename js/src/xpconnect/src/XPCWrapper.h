@@ -698,11 +698,12 @@ wrapper
 )
 {
 return
-wrapper
--
->
-isWrapper
+js
+:
+:
+IsWrapper
 (
+wrapper
 )
 ;
 }
