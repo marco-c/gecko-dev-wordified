@@ -6952,6 +6952,11 @@ _terminate
 (
 )
 {
+closeAllChatWindows
+(
+this
+)
+;
 if
 (
 this
