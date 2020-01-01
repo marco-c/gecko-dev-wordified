@@ -1116,6 +1116,12 @@ OnIMESelectionChange
 void
 )
 ;
+LayerManager
+*
+GetLayerManager
+(
+)
+;
 gfxASurface
 *
 GetThebesSurface
