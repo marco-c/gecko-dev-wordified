@@ -1494,6 +1494,14 @@ mpeg
 "
 #
 define
+VIDEO_MP4
+"
+video
+/
+mp4
+"
+#
+define
 VIDEO_RAW
 "
 video
