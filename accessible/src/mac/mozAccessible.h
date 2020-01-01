@@ -598,7 +598,13 @@ accessible
 .
 *
 /
-PRUint32
+mozilla
+:
+:
+a11y
+:
+:
+role
 mRole
 ;
 }
