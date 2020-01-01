@@ -11486,11 +11486,11 @@ stdnm
 .
 clasp
 )
-&
-&
 #
 if
 JS_HAS_XML_SUPPORT
+&
+&
 (
 (
 stdnm
