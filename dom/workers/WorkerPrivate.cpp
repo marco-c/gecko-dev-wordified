@@ -7015,6 +7015,7 @@ nsPrintfCString
 "
 zone
 (
+0x
 %
 p
 )
@@ -7140,6 +7141,7 @@ nsPrintfCString
 "
 zone
 (
+0x
 %
 p
 )
