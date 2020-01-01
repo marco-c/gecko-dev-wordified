@@ -612,8 +612,6 @@ this
 _store
 .
 size
-(
-)
 )
 {
 return
@@ -908,8 +906,6 @@ this
 _store
 .
 size
-(
-)
 )
 {
 this
