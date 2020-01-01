@@ -1010,7 +1010,7 @@ conversion
 .
 *
 param
-aInherited
+aCanStoreInRuleTree
 Set
 to
 false
@@ -1020,10 +1020,10 @@ result
 cannot
 be
 cached
+*
 in
 the
 rule
-*
 tree
 otherwise
 untouched
@@ -1048,7 +1048,7 @@ nsPresContext
 aPresContext
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 ;
 /

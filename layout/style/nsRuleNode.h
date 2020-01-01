@@ -3348,7 +3348,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3376,7 +3376,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3404,7 +3404,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3432,7 +3432,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3460,7 +3460,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3488,7 +3488,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3516,7 +3516,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3544,7 +3544,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3572,7 +3572,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3600,7 +3600,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3628,7 +3628,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3656,7 +3656,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3684,7 +3684,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3712,7 +3712,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3740,7 +3740,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3768,7 +3768,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3796,7 +3796,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3824,7 +3824,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3852,7 +3852,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3880,7 +3880,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3908,7 +3908,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 #
@@ -3939,7 +3939,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 NS_HIDDEN_
@@ -3967,7 +3967,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 ;
 #
@@ -4026,7 +4026,7 @@ PRBool
 aAtRoot
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 ;
 static
@@ -4061,7 +4061,7 @@ PRBool
 aStartStruct
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 ;
 static
@@ -4118,7 +4118,7 @@ nsCSSRect
 aValueRect
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 ;
 inline
@@ -4897,7 +4897,7 @@ nsPresContext
 aPresContext
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 ;
 /
