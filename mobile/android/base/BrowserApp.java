@@ -2779,6 +2779,16 @@ CURRENT_TAB
 }
 )
 ;
+mAboutHomeContent
+.
+setOnInterceptTouchListener
+(
+new
+ContentTouchListener
+(
+)
+)
+;
 }
 else
 {
