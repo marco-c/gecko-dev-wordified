@@ -6895,6 +6895,10 @@ int
 length
 )
 ;
+#
+define
+PK11_CipherFinal
+PK11_DigestFinal
 SECStatus
 PK11_SaveContext
 (

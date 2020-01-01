@@ -512,7 +512,7 @@ object
 *
 *
 "
-key
+cx
 "
 the
 object
@@ -898,7 +898,7 @@ sign
 *
 *
 "
-pk
+privKey
 "
 the
 private

@@ -16537,6 +16537,12 @@ algorithm
 )
 ;
 }
+/
+*
+fall
+through
+*
+/
 case
 SEC_OID_PKCS12_V1_KEY_BAG_ID
 :

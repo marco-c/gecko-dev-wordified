@@ -194,9 +194,6 @@ PR_Now
 )
 *
 /
-#
-define
-XXX
 static
 PRBool
 policyWasSet

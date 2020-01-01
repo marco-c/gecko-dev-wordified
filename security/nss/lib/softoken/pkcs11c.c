@@ -20353,6 +20353,12 @@ checkWeak
 =
 PR_TRUE
 ;
+/
+*
+fall
+through
+*
+/
 case
 CKM_RC2_KEY_GEN
 :
@@ -20450,6 +20456,12 @@ faultyPBE3DES
 =
 PR_TRUE
 ;
+/
+*
+fall
+through
+*
+/
 case
 CKM_NETSCAPE_PBE_SHA1_TRIPLE_DES_CBC
 :
