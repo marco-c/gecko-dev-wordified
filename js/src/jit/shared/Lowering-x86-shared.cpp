@@ -462,9 +462,6 @@ useRegisterAtStart
 (
 input
 )
-temp
-(
-)
 )
 ;
 return
