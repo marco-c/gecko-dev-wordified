@@ -528,6 +528,11 @@ useType
 MInstruction
 *
 mir
+LUse
+:
+:
+Policy
+policy
 )
 ;
 LUse
@@ -548,6 +553,7 @@ LUse
 :
 :
 Policy
+policy
 )
 ;
 LUse

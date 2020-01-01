@@ -870,6 +870,10 @@ setOperand
 useType
 (
 inner
+LUse
+:
+:
+ANY
 )
 )
 ;
@@ -936,6 +940,10 @@ setOperand
 useType
 (
 inner
+LUse
+:
+:
+ANY
 )
 )
 ;
@@ -1724,7 +1732,7 @@ ins
 LUse
 :
 :
-ANY
+KEEPALIVE
 )
 ;
 }
@@ -1736,6 +1744,10 @@ type
 useType
 (
 ins
+LUse
+:
+:
+KEEPALIVE
 )
 ;
 *
@@ -1747,7 +1759,7 @@ ins
 LUse
 :
 :
-ANY
+KEEPALIVE
 )
 ;
 }

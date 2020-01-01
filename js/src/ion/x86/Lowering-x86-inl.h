@@ -624,6 +624,11 @@ useType
 MInstruction
 *
 mir
+LUse
+:
+:
+Policy
+policy
 )
 {
 JS_ASSERT
@@ -660,10 +665,7 @@ id
 )
 +
 VREG_TYPE_OFFSET
-LUse
-:
-:
-ANY
+policy
 )
 ;
 }
