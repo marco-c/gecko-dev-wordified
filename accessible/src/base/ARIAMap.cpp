@@ -1505,7 +1505,7 @@ eSelect
 |
 eTable
 kNoReqStates
-eARIAReadonly
+eARIAReadonlyOrEditable
 eARIAMultiSelectable
 eFocusableUntilDisabled
 }
