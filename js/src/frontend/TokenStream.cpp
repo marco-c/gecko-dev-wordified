@@ -3857,9 +3857,9 @@ cx
 TokenStream
 *
 ts
-TreeContext
+SharedContext
 *
-tc
+sc
 ParseNode
 *
 pn
@@ -3875,7 +3875,7 @@ JS_ASSERT
 ts
 |
 |
-tc
+sc
 )
 ;
 JS_ASSERT
@@ -3927,11 +3927,11 @@ isStrictMode
 |
 |
 (
-tc
+sc
 &
 &
 (
-tc
+sc
 -
 >
 flags

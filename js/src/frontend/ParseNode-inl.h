@@ -1297,9 +1297,9 @@ NameNode
 :
 initCommon
 (
-TreeContext
+SharedContext
 *
-tc
+sc
 )
 {
 pn_expr
@@ -1316,13 +1316,13 @@ pn_dflags
 =
 (
 !
-tc
+sc
 -
 >
 topStmt
 |
 |
-tc
+sc
 -
 >
 topStmt
@@ -1340,7 +1340,7 @@ PND_BLOCKCHILD
 ;
 pn_blockid
 =
-tc
+sc
 -
 >
 blockid

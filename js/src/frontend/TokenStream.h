@@ -5871,7 +5871,7 @@ is
 *
 in
 the
-TreeContext
+ShareContext
 structure
 for
 that
@@ -5914,7 +5914,7 @@ TSF_STRICT_MODE_CODE
 flag
 instead
 of
-tc
+sc
 '
 s
 would
@@ -5937,7 +5937,7 @@ to
 those
 of
 the
-tc
+sc
 relevant
 to
 the
@@ -5955,9 +5955,9 @@ cx
 TokenStream
 *
 ts
-TreeContext
+SharedContext
 *
-tc
+sc
 ParseNode
 *
 pn

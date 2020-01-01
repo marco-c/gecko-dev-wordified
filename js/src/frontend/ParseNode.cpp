@@ -3200,7 +3200,7 @@ gets
 a
 /
 /
-TreeContext
+SharedContext
 passed
 in
 separately
@@ -3209,7 +3209,7 @@ in
 this
 case
 |
-tc
+sc
 |
 may
 not
@@ -3221,6 +3221,9 @@ parser
 -
 >
 tc
+-
+>
+sc
 |
 .
 NameNode
@@ -3238,9 +3241,9 @@ atom
 Parser
 *
 parser
-TreeContext
+SharedContext
 *
-tc
+sc
 )
 {
 ParseNode
@@ -3280,7 +3283,7 @@ pn
 >
 initCommon
 (
-tc
+sc
 )
 ;
 }
@@ -3427,6 +3430,9 @@ tc
 JS_CHECK_RECURSION
 (
 tc
+-
+>
+sc
 -
 >
 context

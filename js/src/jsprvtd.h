@@ -978,6 +978,9 @@ ParseNode
 struct
 Parser
 ;
+struct
+SharedContext
+;
 class
 TokenStream
 ;
