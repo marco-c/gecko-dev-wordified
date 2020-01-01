@@ -1672,6 +1672,16 @@ pref
 "
 extensions
 .
+hideUpdateButton
+"
+true
+)
+;
+pref
+(
+"
+extensions
+.
 update
 .
 url
