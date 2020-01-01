@@ -8298,6 +8298,10 @@ cx
 ;
 private
 :
+friend
+class
+Nursery
+;
 /
 *
 *
