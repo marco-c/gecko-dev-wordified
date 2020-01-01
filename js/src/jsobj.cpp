@@ -13281,7 +13281,10 @@ JS_ASSERT
 a
 -
 >
-isArrayBuffer
+is
+<
+ArrayBufferObject
+>
 (
 )
 &
@@ -13290,7 +13293,10 @@ isArrayBuffer
 b
 -
 >
-isArrayBuffer
+is
+<
+ArrayBufferObject
+>
 (
 )
 )
@@ -35395,7 +35401,10 @@ sizes
 >
 elementsAsmJSNonHeap
 =
-asArrayBuffer
+as
+<
+ArrayBufferObject
+>
 (
 )
 .

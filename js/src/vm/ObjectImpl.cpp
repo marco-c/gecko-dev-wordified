@@ -3504,7 +3504,10 @@ obj
 hasClass
 (
 &
-ArrayBufferClass
+ArrayBufferObject
+:
+:
+class_
 )
 )
 ;

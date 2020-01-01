@@ -10280,7 +10280,10 @@ EAGER_CLASS_ATOM
 ArrayBuffer
 )
 &
-ArrayBufferClass
+ArrayBufferObject
+:
+:
+class_
 }
 {
 js_InitTypedArrayClasses
