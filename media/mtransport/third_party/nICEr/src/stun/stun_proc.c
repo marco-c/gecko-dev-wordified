@@ -683,8 +683,17 @@ method
 :
 %
 03x
+expected
+%
+03x
 "
 msg
+-
+>
+header
+.
+type
+req
 -
 >
 header
