@@ -4931,6 +4931,8 @@ Sprinter
 sp
 )
 ;
+#
+endif
 void
 js_DumpPCCounts
 (
@@ -4985,8 +4987,6 @@ ionCounts
 )
 ;
 }
-#
-endif
 #
 endif
 #
