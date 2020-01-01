@@ -730,7 +730,7 @@ symbolizer_result
 StackFrameSymbolizer
 :
 :
-INTERRUPT
+kInterrupt
 )
 {
 BPLOG
@@ -1202,7 +1202,7 @@ symbolizer_result
 StackFrameSymbolizer
 :
 :
-NO_ERROR
+kNoError
 )
 {
 /

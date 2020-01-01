@@ -691,12 +691,6 @@ using
 google_breakpad
 :
 :
-UniqueString
-;
-using
-google_breakpad
-:
-:
 scoped_ptr
 ;
 /
@@ -1914,9 +1908,7 @@ std
 :
 vector
 <
-const
-UniqueString
-*
+string
 >
 *
 register_names
@@ -2076,9 +2068,7 @@ std
 :
 vector
 <
-const
-UniqueString
-*
+string
 >
 register_names
 ;

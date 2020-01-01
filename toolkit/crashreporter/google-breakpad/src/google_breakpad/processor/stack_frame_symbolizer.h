@@ -442,7 +442,7 @@ within
 symbol
 file
 .
-NO_ERROR
+kNoError
 /
 /
 This
@@ -474,7 +474,7 @@ to
 load
 symbol
 .
-ERROR
+kError
 /
 /
 This
@@ -494,7 +494,7 @@ retried
 in
 future
 .
-INTERRUPT
+kInterrupt
 }
 ;
 StackFrameSymbolizer
