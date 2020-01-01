@@ -60,11 +60,11 @@ tmp
 PageThumbs
 ;
 let
-PageThumbsCache
+PageThumbsStorage
 =
 tmp
 .
-PageThumbsCache
+PageThumbsStorage
 ;
 registerCleanupFunction
 (
