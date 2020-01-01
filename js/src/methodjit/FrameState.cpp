@@ -951,7 +951,7 @@ RegisterID
 FrameState
 :
 :
-evictSomething
+evictSomeReg
 (
 uint32
 mask
@@ -2974,7 +2974,7 @@ RegisterID
 FrameState
 :
 :
-copyData
+copyDataIntoReg
 (
 FrameEntry
 *
@@ -4660,7 +4660,7 @@ isCopied
 (
 )
 )
-forgetRegs
+forgetAllRegs
 (
 localFe
 )
@@ -4668,7 +4668,7 @@ localFe
 }
 else
 {
-forgetRegs
+forgetAllRegs
 (
 localFe
 )
