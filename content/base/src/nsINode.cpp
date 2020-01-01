@@ -14534,9 +14534,9 @@ AllowXBLScope
 js
 :
 :
-GetContextCompartment
+GetObjectCompartment
 (
-aCx
+obj
 )
 )
 )
