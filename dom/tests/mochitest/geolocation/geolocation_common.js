@@ -743,7 +743,7 @@ chromeWin
 .
 getNotificationBox
 (
-notifyWindow
+chromeWin
 )
 ;
 return
