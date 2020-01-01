@@ -762,13 +762,13 @@ false
 FINALIZE_TYPE_OBJECT
 *
 /
-true
+false
 /
 *
 FINALIZE_SHORT_STRING
 *
 /
-true
+false
 /
 *
 FINALIZE_STRING
