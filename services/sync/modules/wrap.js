@@ -706,6 +706,7 @@ function
 Weave_notify
 (
 name
+payload
 method
 /
 *
@@ -725,6 +726,11 @@ savedName
 name
 ;
 let
+savedPayload
+=
+payload
+;
+let
 savedMethod
 =
 method
@@ -741,7 +747,7 @@ slice
 call
 (
 arguments
-2
+3
 )
 ;
 return
@@ -804,8 +810,7 @@ savedName
 :
 start
 "
-"
-"
+savedPayload
 )
 ;
 this
@@ -824,8 +829,7 @@ global
 :
 start
 "
-"
-"
+savedPayload
 )
 ;
 args
@@ -879,8 +883,7 @@ savedName
 :
 success
 "
-"
-"
+savedPayload
 )
 ;
 this
@@ -899,8 +902,7 @@ global
 :
 success
 "
-"
-"
+savedPayload
 )
 ;
 }
@@ -926,8 +928,7 @@ savedName
 :
 error
 "
-"
-"
+savedPayload
 )
 ;
 this
@@ -946,8 +947,7 @@ global
 :
 error
 "
-"
-"
+savedPayload
 )
 ;
 if

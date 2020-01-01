@@ -2459,6 +2459,8 @@ _notify
 "
 sync
 "
+"
+"
 this
 .
 _catchAll
@@ -4453,6 +4455,8 @@ verify
 -
 passphrase
 "
+"
+"
 this
 .
 _verifyPassphrase
@@ -4972,6 +4976,8 @@ verify
 -
 login
 "
+"
+"
 this
 .
 _verifyLogin
@@ -5117,6 +5123,8 @@ _notify
 (
 "
 login
+"
+"
 "
 this
 .
@@ -5271,6 +5279,8 @@ _notify
 (
 "
 login
+"
+"
 "
 this
 .
@@ -5475,6 +5485,8 @@ _notify
 (
 "
 initialize
+"
+"
 "
 this
 .
@@ -6022,6 +6034,8 @@ server
 -
 lock
 "
+"
+"
 this
 .
 _resetLock
@@ -6118,6 +6132,8 @@ _notify
 server
 -
 wipe
+"
+"
 "
 this
 .
@@ -6259,6 +6275,8 @@ _notify
 "
 sync
 "
+"
+"
 this
 .
 _catchAll
@@ -6357,6 +6375,8 @@ name
 engine
 :
 sync
+"
+"
 "
 this
 .
@@ -6589,6 +6609,8 @@ name
 engine
 :
 sync
+"
+"
 "
 this
 .
@@ -6999,6 +7021,8 @@ reset
 -
 server
 "
+"
+"
 this
 .
 _lock
@@ -7103,6 +7127,8 @@ _notify
 reset
 -
 client
+"
+"
 "
 this
 .
@@ -7490,6 +7516,8 @@ self
 _notify
 (
 messageName
+"
+"
 self
 .
 _lock
