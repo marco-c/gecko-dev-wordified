@@ -1624,6 +1624,9 @@ aScale
 /
 Scale
 by
+the
+inverse
+of
 aScale
 converting
 coordinates
@@ -1631,10 +1634,10 @@ to
 integers
 so
 that
+/
+/
 the
 result
-/
-/
 contains
 the
 same
@@ -1646,7 +1649,7 @@ unrounded
 result
 nsRect
 &
-ScaleRoundPreservingCenters
+ScaleRoundPreservingCentersInverse
 (
 float
 aScale
