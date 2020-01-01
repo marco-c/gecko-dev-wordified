@@ -16640,7 +16640,7 @@ JS_ASSERT
 cx
 -
 >
-runningJittedCode
+executingTrace
 )
 ;
 /

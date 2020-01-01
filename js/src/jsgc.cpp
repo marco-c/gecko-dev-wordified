@@ -11809,7 +11809,7 @@ doGC
 cx
 -
 >
-runningJittedCode
+executingTrace
 )
 {
 /
@@ -12248,7 +12248,7 @@ doGC
 cx
 -
 >
-runningJittedCode
+executingTrace
 )
 goto
 fail
@@ -12894,7 +12894,7 @@ if
 cx
 -
 >
-runningJittedCode
+executingTrace
 )
 JS_ReportOutOfMemory
 (
