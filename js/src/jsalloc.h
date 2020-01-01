@@ -432,7 +432,7 @@ TempAllocPolicy
 JSContext
 *
 const
-cx
+cx_
 ;
 /
 *
@@ -478,7 +478,7 @@ JSContext
 cx
 )
 :
-cx
+cx_
 (
 cx
 )
@@ -492,7 +492,7 @@ context
 const
 {
 return
-cx
+cx_
 ;
 }
 void

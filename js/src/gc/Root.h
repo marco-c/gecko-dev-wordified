@@ -6903,7 +6903,7 @@ next
 (
 NULL
 )
-ptr
+ptr_
 (
 ptr
 )
@@ -6925,7 +6925,7 @@ void
 *
 )
 &
-ptr
+ptr_
 ;
 }
 public
@@ -6944,7 +6944,7 @@ gc
 :
 Cell
 *
-ptr
+ptr_
 ;
 }
 ;

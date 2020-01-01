@@ -430,12 +430,12 @@ void
 setHasPrototype
 (
 bool
-hasPrototype
+aHasPrototype
 )
 {
 mHasPrototype
 =
-hasPrototype
+aHasPrototype
 ;
 }
 public

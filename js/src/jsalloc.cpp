@@ -142,7 +142,7 @@ nbytes
 )
 {
 return
-cx
+cx_
 -
 >
 runtime
@@ -152,7 +152,7 @@ onOutOfMemory
 (
 p
 nbytes
-cx
+cx_
 )
 ;
 }
@@ -167,7 +167,7 @@ const
 {
 js_ReportAllocationOverflow
 (
-cx
+cx_
 )
 ;
 }

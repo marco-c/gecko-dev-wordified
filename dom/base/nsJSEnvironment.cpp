@@ -17755,7 +17755,7 @@ if
 (
 aDesc
 .
-isCompartment
+isCompartment_
 )
 {
 +
