@@ -2479,6 +2479,16 @@ PRBool
 aClosedByStartTag
 )
 ;
+nsresult
+CloseResidualStyleTags
+(
+const
+eHTMLTags
+aTag
+PRBool
+aClosedByStartTag
+)
+;
 /
 *
 *
