@@ -914,10 +914,6 @@ mCairoFontFace
 (
 nsnull
 )
-mCairoScaledFont
-(
-nsnull
-)
 mMetrics
 (
 nsnull
@@ -1115,12 +1111,12 @@ mCairoFontFace
 }
 if
 (
-mCairoScaledFont
+mScaledFont
 )
 {
 cairo_scaled_font_destroy
 (
-mCairoScaledFont
+mScaledFont
 )
 ;
 }
@@ -3527,7 +3523,7 @@ CairoScaledFont
 if
 (
 !
-mCairoScaledFont
+mScaledFont
 )
 {
 cairo_matrix_t
@@ -3633,7 +3629,7 @@ mAntialiasOption
 )
 ;
 }
-mCairoScaledFont
+mScaledFont
 =
 cairo_scaled_font_create
 (
@@ -3654,7 +3650,7 @@ fontOptions
 ;
 cairo_dwrite_scaled_font_allow_manual_show_glyphs
 (
-mCairoScaledFont
+mScaledFont
 mAllowManualShowGlyphs
 )
 ;
@@ -3677,7 +3673,7 @@ get
 ;
 cairo_dwrite_scaled_font_set_force_GDI_classic
 (
-mCairoScaledFont
+mScaledFont
 GetForceGDIClassic
 (
 )
@@ -3696,7 +3692,7 @@ mAdjustedSize
 |
 cairo_scaled_font_status
 (
-mCairoScaledFont
+mScaledFont
 )
 =
 =
@@ -3711,7 +3707,7 @@ font
 )
 ;
 return
-mCairoScaledFont
+mScaledFont
 ;
 }
 gfxFont

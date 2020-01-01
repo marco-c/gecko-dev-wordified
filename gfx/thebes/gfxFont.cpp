@@ -6798,8 +6798,15 @@ gfxFontStyle
 aFontStyle
 AntialiasOption
 anAAOption
+cairo_scaled_font_t
+*
+aScaledFont
 )
 :
+mScaledFont
+(
+aScaledFont
+)
 mFontEntry
 (
 aFontEntry

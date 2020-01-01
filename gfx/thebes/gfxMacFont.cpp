@@ -565,10 +565,6 @@ mFontFace
 (
 nsnull
 )
-mScaledFont
-(
-nsnull
-)
 {
 mApplySyntheticBold
 =
