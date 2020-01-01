@@ -12192,7 +12192,7 @@ js
 /
 jssrcnote
 *
-js_GetSrcNoteCached
+js_GetSrcNote
 (
 JSContext
 *
