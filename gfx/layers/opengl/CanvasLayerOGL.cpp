@@ -1525,7 +1525,7 @@ mTexture
 )
 ;
 }
-ColorTextureLayerProgram
+ShaderProgramOGL
 *
 program
 =
@@ -1698,7 +1698,7 @@ program
 mOGLManager
 -
 >
-GetColorTextureLayerProgram
+GetProgram
 (
 mLayerProgram
 )
@@ -2252,14 +2252,14 @@ MakeCurrent
 (
 )
 ;
-ColorTextureLayerProgram
+ShaderProgramOGL
 *
 program
 =
 mOGLManager
 -
 >
-GetColorTextureLayerProgram
+GetProgram
 (
 mTexImage
 -
