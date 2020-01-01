@@ -498,7 +498,7 @@ op
 forwarding
 methods
 for
-funamental
+fundamental
 *
 traps
 .
