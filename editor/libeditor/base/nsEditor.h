@@ -181,7 +181,7 @@ h
 #
 include
 "
-nsITransactionManager
+nsTransactionManager
 .
 h
 "
@@ -4744,9 +4744,9 @@ nsIInlineSpellChecker
 >
 mInlineSpellChecker
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsITransactionManager
+nsTransactionManager
 >
 mTxnMgr
 ;
