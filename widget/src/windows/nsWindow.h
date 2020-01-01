@@ -1303,12 +1303,6 @@ PRUint32
 aTime
 )
 ;
-virtual
-PRBool
-HasPendingInputEvent
-(
-)
-;
 /
 /
 Note
