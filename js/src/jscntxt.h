@@ -4473,6 +4473,9 @@ gcHelperThread
 #
 ifdef
 JS_THREADSAFE
+#
+ifdef
+JS_ION
 js
 :
 :
@@ -4480,6 +4483,8 @@ WorkerThreadState
 *
 workerThreadState
 ;
+#
+endif
 js
 :
 :
