@@ -3220,7 +3220,7 @@ helper
 NS_ENSURE_TRUE
 (
 ril
-NS_ERROR_UNEXPECTED
+false
 )
 ;
 ril
