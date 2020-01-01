@@ -2549,6 +2549,7 @@ mShadowLayersManager
 >
 ShadowLayersUpdated
 (
+this
 isFirstPaint
 )
 ;
