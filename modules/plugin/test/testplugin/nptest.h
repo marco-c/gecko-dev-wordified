@@ -351,6 +351,13 @@ npruntime
 .
 h
 "
+#
+include
+"
+prtypes
+.
+h
+"
 typedef
 enum
 {
