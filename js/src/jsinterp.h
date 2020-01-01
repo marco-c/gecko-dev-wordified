@@ -3766,6 +3766,8 @@ JSContext
 cx
 uintN
 argc
+JSBool
+clampReturn
 jsval
 *
 vp

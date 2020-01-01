@@ -2409,6 +2409,8 @@ JSFunction
 fun
 uintN
 argc
+bool
+constructing
 )
 ;
 bool
