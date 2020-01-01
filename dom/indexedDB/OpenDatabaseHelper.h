@@ -522,6 +522,10 @@ mResultCode
 (
 NS_OK
 )
+mLoadDBMetadata
+(
+false
+)
 {
 NS_ASSERTION
 (
@@ -784,7 +788,7 @@ params
 .
 nsTArray
 <
-nsAutoPtr
+nsRefPtr
 <
 ObjectStoreInfo
 >
@@ -893,6 +897,15 @@ nsRefPtr
 FileManager
 >
 mFileManager
+;
+nsRefPtr
+<
+DatabaseInfo
+>
+mDBInfo
+;
+bool
+mLoadDBMetadata
 ;
 }
 ;
