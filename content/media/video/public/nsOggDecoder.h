@@ -2438,9 +2438,13 @@ nsOggDecoder
 (
 )
 ;
+virtual
 PRBool
 Init
 (
+nsHTMLMediaElement
+*
+aElement
 )
 ;
 /

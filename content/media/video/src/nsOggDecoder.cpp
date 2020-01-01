@@ -7736,6 +7736,9 @@ nsOggDecoder
 :
 Init
 (
+nsHTMLMediaElement
+*
+aElement
 )
 {
 mMonitor
@@ -7761,6 +7764,7 @@ nsMediaDecoder
 :
 Init
 (
+aElement
 )
 ;
 }

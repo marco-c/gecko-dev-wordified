@@ -1273,13 +1273,6 @@ mDecoder
 mDecoder
 -
 >
-ElementUnavailable
-(
-)
-;
-mDecoder
--
->
 Shutdown
 (
 )
@@ -4277,6 +4270,7 @@ mDecoder
 >
 Init
 (
+this
 )
 )
 {
@@ -4317,6 +4311,7 @@ mDecoder
 >
 Init
 (
+this
 )
 )
 {
@@ -4378,14 +4373,6 @@ nsIDOMHTMLMediaElement
 :
 :
 NETWORK_LOADING
-;
-mDecoder
--
->
-ElementAvailable
-(
-this
-)
 ;
 return
 mDecoder
