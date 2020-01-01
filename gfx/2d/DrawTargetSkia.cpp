@@ -3806,7 +3806,7 @@ SurfaceFormat
 aFormat
 )
 {
-GrPlatformRenderTargetDesc
+GrBackendRenderTargetDesc
 targetDescriptor
 ;
 targetDescriptor
@@ -3836,6 +3836,12 @@ aFormat
 ;
 targetDescriptor
 .
+fOrigin
+=
+kBottomLeft_GrSurfaceOrigin
+;
+targetDescriptor
+.
 fSampleCnt
 =
 0
@@ -3855,7 +3861,7 @@ target
 aGrContext
 -
 >
-createPlatformRenderTarget
+wrapBackendRenderTarget
 (
 targetDescriptor
 )
