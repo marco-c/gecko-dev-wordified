@@ -1608,7 +1608,7 @@ download
 -
 started
 "
-false
+true
 )
 ;
 let
@@ -5151,6 +5151,17 @@ equals
 Ci
 .
 nsIAddonInstallListener
+)
+&
+&
+!
+aIID
+.
+equals
+(
+Ci
+.
+nsISupportsWeakReference
 )
 &
 &
