@@ -2198,7 +2198,9 @@ finish
 onSyncFinish
 )
 ;
-Records
+Service
+.
+recordManager
 .
 clearCache
 (
