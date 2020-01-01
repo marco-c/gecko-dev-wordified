@@ -1569,6 +1569,13 @@ transitionStmts
 =
 [
 ]
+        
+self
+.
+startStates
+=
+[
+]
     
 def
 addOuterNamespace
@@ -2095,6 +2102,9 @@ __init__
 self
 loc
 name
+start
+=
+False
 )
 :
         
@@ -2111,6 +2121,12 @@ self
 name
 =
 name
+        
+self
+.
+start
+=
+start
     
 def
 __eq__
@@ -2121,11 +2137,13 @@ o
 :
         
 return
+(
 isinstance
 (
 o
 State
 )
+                
 and
 o
 .
@@ -2135,6 +2153,17 @@ name
 self
 .
 name
+                
+and
+o
+.
+start
+=
+=
+self
+.
+start
+)
     
 def
 __hash__
@@ -2181,6 +2210,10 @@ return
 State
 %
 r
+start
+=
+%
+s
 >
 '
 %
@@ -2188,6 +2221,9 @@ r
 self
 .
 name
+self
+.
+start
 )
     
 def
@@ -2202,6 +2238,10 @@ return
 State
 %
 s
+start
+=
+%
+s
 >
 '
 %
@@ -2209,6 +2249,9 @@ s
 self
 .
 name
+self
+.
+start
 )
 class
 Param

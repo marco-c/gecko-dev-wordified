@@ -3346,6 +3346,18 @@ Transitions
     
 p
 [
+3
+]
+.
+start
+=
+p
+[
+1
+]
+    
+p
+[
 0
 ]
 =
@@ -3384,7 +3396,27 @@ START
 "
 "
     
-pass
+p
+[
+0
+]
+=
+(
+len
+(
+p
+)
+=
+=
+2
+)
+#
+True
+iff
+'
+start
+'
+specified
 def
 p_Transitions
 (
