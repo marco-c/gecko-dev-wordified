@@ -1411,7 +1411,7 @@ fun
 JSObject
 *
 JS_FASTCALL
-LambdaForInit
+LambdaJoinableForInit
 (
 VMFrame
 &
@@ -1424,7 +1424,7 @@ fun
 JSObject
 *
 JS_FASTCALL
-LambdaForSet
+LambdaJoinableForSet
 (
 VMFrame
 &

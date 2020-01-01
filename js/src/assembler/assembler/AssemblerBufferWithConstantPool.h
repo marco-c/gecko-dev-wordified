@@ -1127,6 +1127,8 @@ ExecutablePool
 *
 *
 poolp
+CodeKind
+kind
 )
 {
 flushConstantPool
@@ -1142,6 +1144,7 @@ executableAllocAndCopy
 (
 allocator
 poolp
+kind
 )
 ;
 }
