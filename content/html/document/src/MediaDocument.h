@@ -579,11 +579,6 @@ nsAString
 aStylesheet
 )
 ;
-void
-InsertMediaFragmentScript
-(
-)
-;
 /
 /
 |
