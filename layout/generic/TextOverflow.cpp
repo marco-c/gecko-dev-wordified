@@ -785,6 +785,16 @@ aFrameType
 NS_PRECONDITION
 (
 !
+nsLayoutUtils
+:
+:
+GetAsBlock
+(
+aFrame
+)
+|
+|
+!
 aFrame
 -
 >
