@@ -1208,9 +1208,6 @@ skipFirstLine
 JSBool
 ok
 ;
-jsval
-result
-;
 if
 (
 skipFirstLine
@@ -1416,8 +1413,7 @@ js_buffer
 length
 filename
 0
-&
-result
+nsnull
 )
 ;
 JS_EndRequest
