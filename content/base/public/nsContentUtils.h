@@ -2242,14 +2242,6 @@ nsAString
 aValue
 )
 ;
-template
-<
-PRBool
-IsWhitespace
-(
-PRUnichar
-)
->
 static
 const
 nsDependentSubstring
