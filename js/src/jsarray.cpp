@@ -8819,7 +8819,7 @@ return
 false
 ;
 }
-setSlot
+initSlot
 (
 next
 elems

@@ -4058,6 +4058,14 @@ interruptCounter
 0
 )
 #
+else
+threadData
+(
+thisFromCtor
+(
+)
+)
+#
 endif
 trustedPrincipals_
 (

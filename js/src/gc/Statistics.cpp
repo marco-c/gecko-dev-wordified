@@ -1127,6 +1127,17 @@ runtime
 (
 rt
 )
+triggerReason
+(
+PUBLIC_API
+)
+/
+/
+dummy
+reason
+to
+satisfy
+makeTable
 {
 char
 *
