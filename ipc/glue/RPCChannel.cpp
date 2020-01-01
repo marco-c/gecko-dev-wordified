@@ -331,6 +331,10 @@ dtors
 "
 )
 ;
+Clear
+(
+)
+;
 }
 void
 RPCChannel
