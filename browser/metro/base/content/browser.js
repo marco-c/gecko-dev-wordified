@@ -668,6 +668,12 @@ init
 (
 )
 ;
+APZCObserver
+.
+init
+(
+)
+;
 /
 /
 Init
@@ -2007,6 +2013,12 @@ shutdown
 (
 )
 {
+APZCObserver
+.
+shutdown
+(
+)
+;
 BrowserUI
 .
 uninit
