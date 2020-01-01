@@ -864,6 +864,14 @@ lir
 )
 ;
 bool
+visitCompareV
+(
+LCompareV
+*
+lir
+)
+;
+bool
 visitConcat
 (
 LConcat

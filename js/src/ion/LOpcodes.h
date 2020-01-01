@@ -605,6 +605,11 @@ CompareD
 \
 _
 (
+CompareV
+)
+\
+_
+(
 CompareAndBranch
 )
 \
