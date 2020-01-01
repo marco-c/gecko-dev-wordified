@@ -373,6 +373,9 @@ interface
 *
 /
 #
+ifndef
+CAIRO_DISABLE_FONTCONFIG
+#
 include
 <
 fontconfig
@@ -381,6 +384,8 @@ fontconfig
 .
 h
 >
+#
+endif
 #
 include
 <
@@ -392,6 +397,9 @@ h
 include
 FT_FREETYPE_H
 CAIRO_BEGIN_DECLS
+#
+ifndef
+CAIRO_DISABLE_FONTCONFIG
 cairo_public
 cairo_font_face_t
 *
@@ -415,6 +423,8 @@ FcPattern
 pattern
 )
 ;
+#
+endif
 cairo_public
 cairo_font_face_t
 *
