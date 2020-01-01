@@ -562,7 +562,6 @@ object
 define
 NS_DECL_FRAMEARENA_HELPERS
 \
-NS_MUST_OVERRIDE
 void
 *
 operator
@@ -572,10 +571,10 @@ size_t
 nsIPresShell
 *
 )
+MOZ_MUST_OVERRIDE
 ;
 \
 virtual
-NS_MUST_OVERRIDE
 nsQueryFrame
 :
 :
@@ -583,6 +582,7 @@ FrameIID
 GetFrameId
 (
 )
+MOZ_MUST_OVERRIDE
 ;
 #
 define

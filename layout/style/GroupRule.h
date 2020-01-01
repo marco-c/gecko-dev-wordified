@@ -399,8 +399,6 @@ aKey
 =
 0
 ;
-NS_MUST_OVERRIDE
-size_t
 /
 /
 non
@@ -414,6 +412,7 @@ only
 called
 by
 subclasses
+size_t
 SizeOfExcludingThis
 (
 nsMallocSizeOfFun
