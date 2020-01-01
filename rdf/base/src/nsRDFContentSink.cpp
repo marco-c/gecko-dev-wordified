@@ -2502,6 +2502,8 @@ i
 nsIRDFResource
 *
 resource
+=
+nsnull
 ;
 RDFContentSinkState
 state
