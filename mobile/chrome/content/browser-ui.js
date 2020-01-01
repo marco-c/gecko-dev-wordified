@@ -3935,6 +3935,12 @@ init
 (
 )
 ;
+WebappsUI
+.
+init
+(
+)
+;
 /
 /
 If
