@@ -342,7 +342,7 @@ changes
 *
 /
 virtual
-nsIntRect
+nsIntRegion
 ComputeDifferences
 (
 Layer
