@@ -1948,6 +1948,16 @@ aIndex
 const
 ;
 virtual
+nsIContent
+*
+const
+*
+GetChildArray
+(
+)
+const
+;
+virtual
 PRInt32
 IndexOf
 (
