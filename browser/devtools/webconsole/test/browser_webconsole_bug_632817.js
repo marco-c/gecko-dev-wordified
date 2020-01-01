@@ -233,13 +233,6 @@ aRequest
 lastRequest
 =
 aRequest
-.
-log
-.
-entries
-[
-0
-]
 ;
 if
 (
