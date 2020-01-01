@@ -726,7 +726,7 @@ aFlags
 )
 ;
 virtual
-gfxRect
+SVGBBox
 GetBBoxContribution
 (
 const

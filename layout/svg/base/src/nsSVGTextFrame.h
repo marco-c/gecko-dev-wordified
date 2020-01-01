@@ -671,7 +671,7 @@ UpdateBounds
 )
 ;
 virtual
-gfxRect
+SVGBBox
 GetBBoxContribution
 (
 const
