@@ -985,8 +985,17 @@ return
 existingLocationObject
 ;
 }
-else
+if
+(
+glLocation
+<
+0
+)
 {
+return
+nsnull
+;
+}
 nsRefPtr
 <
 WebGLUniformLocation
@@ -1016,7 +1025,6 @@ forget
 (
 )
 ;
-}
 }
 /
 /
