@@ -2091,7 +2091,7 @@ _reportDeprecatedMethod
 createLivemark
 :
 function
-LS_createLivemark
+DEPRECATED_LS_createLivemark
 (
 aParentId
 aTitle
