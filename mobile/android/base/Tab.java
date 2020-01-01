@@ -672,8 +672,13 @@ onDestroy
 )
 {
 mDoorHangers
-.
-clear
+=
+new
+HashMap
+<
+String
+DoorHanger
+>
 (
 )
 ;
