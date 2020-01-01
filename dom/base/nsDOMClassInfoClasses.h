@@ -1780,6 +1780,10 @@ DOMCI_CLASS
 (
 FileReader
 )
+DOMCI_CLASS
+(
+MozURLProperty
+)
 /
 /
 DOM
