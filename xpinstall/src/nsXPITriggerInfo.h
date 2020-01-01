@@ -454,7 +454,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -770,10 +770,6 @@ mItems
 .
 AppendElement
 (
-(
-void
-*
-)
 aItem
 )
 ;
@@ -787,10 +783,6 @@ aIndex
 )
 {
 return
-(
-nsXPITriggerItem
-*
-)
 mItems
 .
 ElementAt
@@ -817,7 +809,7 @@ Size
 return
 mItems
 .
-Count
+Length
 (
 )
 ;
@@ -848,7 +840,11 @@ aPrinc
 }
 private
 :
-nsVoidArray
+nsTArray
+<
+nsXPITriggerItem
+*
+>
 mItems
 ;
 JSContext
