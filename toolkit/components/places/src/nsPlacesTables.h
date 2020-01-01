@@ -541,6 +541,11 @@ NULL
 "
 \
 "
+last_visit_date
+INTEGER
+"
+\
+"
 )
 "
 \
@@ -585,6 +590,7 @@ favicon_id
 \
 "
 frecency
+last_visit_date
 "
 #
 define
