@@ -2316,13 +2316,13 @@ chrome
 :
 /
 /
-mozapps
+browser
 /
 skin
 /
 places
 /
-tagContainerIcon
+tag
 .
 png
 "
@@ -16420,6 +16420,11 @@ true
 "
 ]
 {
+color
+:
+#
+000
+;
 z
 -
 index
