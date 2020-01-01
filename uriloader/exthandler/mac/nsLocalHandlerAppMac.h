@@ -471,6 +471,14 @@ nsIInterfaceRequestor
 aWindowContext
 )
 ;
+NS_IMETHOD
+GetName
+(
+nsAString
+&
+aName
+)
+;
 }
 ;
 #
