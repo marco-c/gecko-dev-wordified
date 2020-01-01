@@ -22712,6 +22712,10 @@ Forget
 (
 )
 ;
+mHaveFiredTitleChange
+=
+PR_TRUE
+;
 nsAutoString
 title
 ;
