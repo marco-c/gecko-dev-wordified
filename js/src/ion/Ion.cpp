@@ -8037,6 +8037,12 @@ cx
 -
 >
 methodJitEnabled
+|
+|
+IsBaselineEnabled
+(
+cx
+)
 )
 {
 /
