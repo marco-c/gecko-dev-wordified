@@ -1448,9 +1448,13 @@ getTypeName
 )
 const
 {
-assert
+if
 (
+!
 typeName
+)
+abort
+(
 )
 ;
 return
