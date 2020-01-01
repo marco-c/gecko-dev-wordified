@@ -10393,6 +10393,10 @@ getKnownType
 JSVAL_TYPE_OBJECT
 )
 {
+prepareStubCall
+(
+)
+;
 VoidPtrStubUInt32
 stub
 =
