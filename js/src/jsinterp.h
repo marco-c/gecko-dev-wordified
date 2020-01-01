@@ -1859,11 +1859,12 @@ PCMETER
 (
 x
 )
-/
-*
-nothing
-*
-/
+(
+(
+void
+)
+0
+)
 #
 endif
 }
