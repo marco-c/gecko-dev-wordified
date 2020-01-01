@@ -2574,6 +2574,12 @@ height
 0
 }
 ;
+ws
+.
+beginUpdateBatch
+(
+)
+;
 this
 .
 _canvasBrowser
@@ -2729,6 +2735,12 @@ event
 )
 ;
 }
+ws
+.
+endUpdateBatch
+(
+)
+;
 }
 supportsCommand
 :
