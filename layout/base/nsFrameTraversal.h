@@ -431,6 +431,13 @@ NSFRAMETRAVERSAL_H
 #
 include
 "
+nsIEnumerator
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
@@ -445,7 +452,7 @@ h
 nsresult
 NS_NewFrameTraversal
 (
-nsIFrameEnumerator
+nsIBidirectionalEnumerator
 *
 *
 aEnumerator
@@ -496,7 +503,7 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 NewFrameTraversal
 (
-nsIFrameEnumerator
+nsIBidirectionalEnumerator
 *
 *
 aEnumerator
