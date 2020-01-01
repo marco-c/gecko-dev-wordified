@@ -416,6 +416,13 @@ nsIObserverService
 .
 h
 "
+#
+include
+"
+GeneratedEvents
+.
+h
+"
 using
 namespace
 mozilla
