@@ -556,7 +556,7 @@ JSONException
 ;
 public
 class
-AutoCompletePopup
+FormAssistPopup
 extends
 ListView
 {
@@ -589,7 +589,7 @@ String
 LOGTAG
 =
 "
-AutoCompletePopup
+FormAssistPopup
 "
 ;
 private
@@ -610,7 +610,7 @@ private
 static
 final
 int
-AUTOCOMPLETE_MIN_WIDTH_IN_DPI
+POPUP_MIN_WIDTH_IN_DPI
 =
 200
 ;
@@ -618,12 +618,12 @@ private
 static
 final
 int
-AUTOCOMPLETE_ROW_HEIGHT_IN_DPI
+POPUP_ROW_HEIGHT_IN_DPI
 =
 32
 ;
 public
-AutoCompletePopup
+FormAssistPopup
 (
 Context
 context
@@ -1076,7 +1076,7 @@ sMinWidth
 int
 )
 (
-AUTOCOMPLETE_MIN_WIDTH_IN_DPI
+POPUP_MIN_WIDTH_IN_DPI
 *
 metrics
 .
@@ -1089,7 +1089,7 @@ sRowHeight
 int
 )
 (
-AUTOCOMPLETE_ROW_HEIGHT_IN_DPI
+POPUP_ROW_HEIGHT_IN_DPI
 *
 metrics
 .

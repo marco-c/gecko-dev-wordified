@@ -1091,7 +1091,7 @@ run
 {
 GeckoApp
 .
-mAutoCompletePopup
+mFormAssistPopup
 .
 hide
 (

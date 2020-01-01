@@ -1144,8 +1144,8 @@ mDoorHangerPopup
 ;
 public
 static
-AutoCompletePopup
-mAutoCompletePopup
+FormAssistPopup
+mFormAssistPopup
 ;
 public
 Favicons
@@ -7054,7 +7054,7 @@ run
 (
 )
 {
-mAutoCompletePopup
+mFormAssistPopup
 .
 hide
 (
@@ -7142,7 +7142,7 @@ isFullscreenMode
 (
 )
 )
-mAutoCompletePopup
+mFormAssistPopup
 .
 show
 (
@@ -8025,7 +8025,7 @@ run
 (
 )
 {
-mAutoCompletePopup
+mFormAssistPopup
 .
 hide
 (
@@ -12165,10 +12165,10 @@ DoorHangerPopup
 this
 )
 ;
-mAutoCompletePopup
+mFormAssistPopup
 =
 (
-AutoCompletePopup
+FormAssistPopup
 )
 findViewById
 (
@@ -12176,7 +12176,7 @@ R
 .
 id
 .
-autocomplete_popup
+form_assist_popup
 )
 ;
 Log
@@ -15480,7 +15480,7 @@ newConfig
 .
 orientation
 ;
-mAutoCompletePopup
+mFormAssistPopup
 .
 hide
 (
