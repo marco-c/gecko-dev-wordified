@@ -12061,8 +12061,8 @@ LRE
 {
 0
 0
-txFnStartElementIgnore
-txFnEndElementIgnore
+txFnStartEmbed
+txFnEndEmbed
 }
 /
 /
