@@ -2442,6 +2442,7 @@ we
 have
 video
 .
+virtual
 VideoData
 *
 FindStartTime
