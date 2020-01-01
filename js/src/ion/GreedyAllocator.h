@@ -1996,7 +1996,7 @@ id
 <
 graph
 .
-numBlocks
+numBlockIds
 (
 )
 )
