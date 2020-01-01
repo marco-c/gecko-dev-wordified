@@ -177,6 +177,13 @@ nsIWeakReferenceUtils
 .
 h
 "
+#
+include
+"
+nsIContent
+.
+h
+"
 namespace
 mozilla
 {
