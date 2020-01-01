@@ -1255,7 +1255,7 @@ frame
 .
 *
 /
-public
+private
 boolean
 mScrollingDisabled
 ;
