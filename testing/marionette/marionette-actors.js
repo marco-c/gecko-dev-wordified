@@ -3838,12 +3838,6 @@ timeout
 }
 )
 ;
-this
-.
-sendOk
-(
-)
-;
 }
 }
 /
