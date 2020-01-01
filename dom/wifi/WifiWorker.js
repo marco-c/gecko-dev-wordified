@@ -496,7 +496,7 @@ jsm
 const
 DEBUG
 =
-false
+true
 ;
 /
 /
