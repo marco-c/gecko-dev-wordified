@@ -8852,10 +8852,6 @@ mComputedMargin
 left
 =
 availMarginSpace
--
-mComputedMargin
-.
-right
 ;
 }
 }
@@ -8878,10 +8874,6 @@ mComputedMargin
 right
 =
 availMarginSpace
--
-mComputedMargin
-.
-left
 ;
 }
 }
