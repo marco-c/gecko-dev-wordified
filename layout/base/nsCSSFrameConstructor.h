@@ -3161,7 +3161,7 @@ aParentFrameIn
 )
 ;
 nsresult
-GetParentFrame
+CreateRequiredPseudoFrames
 (
 PRInt32
 aNameSpaceID
