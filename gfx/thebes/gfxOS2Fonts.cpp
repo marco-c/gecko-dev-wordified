@@ -6077,7 +6077,12 @@ aTextRun
 AddGlyphRun
 (
 font0
+gfxTextRange
+:
+:
+kFontGroup
 0
+PR_FALSE
 )
 ;
 /
@@ -6699,7 +6704,12 @@ aTextRun
 AddGlyphRun
 (
 font
+gfxTextRange
+:
+:
+kFontGroup
 utf16Offset
+PR_FALSE
 )
 ;
 PRInt32
