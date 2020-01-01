@@ -1361,7 +1361,7 @@ history
 menupopup
 *
 /
-onPoupShowing
+onPopupShowing
 :
 function
 PHM_onPopupShowing
