@@ -1805,7 +1805,7 @@ scopeChain
 void
 check
 (
-TaggedFramePtr
+AbstractFramePtr
 frame
 )
 {

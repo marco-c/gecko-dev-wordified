@@ -1583,7 +1583,7 @@ createForFunction
 JSContext
 *
 cx
-TaggedFramePtr
+AbstractFramePtr
 frame
 )
 ;
@@ -2576,7 +2576,7 @@ StaticBlockObject
 *
 >
 block
-TaggedFramePtr
+AbstractFramePtr
 frame
 )
 ;
@@ -2663,7 +2663,7 @@ locals
 void
 copyUnaliasedValues
 (
-TaggedFramePtr
+AbstractFramePtr
 frame
 )
 ;
@@ -2955,7 +2955,7 @@ StrictEvalScope
 ;
 private
 :
-TaggedFramePtr
+AbstractFramePtr
 frame_
 ;
 RootedObject
@@ -3064,7 +3064,7 @@ scope
 explicit
 ScopeIter
 (
-TaggedFramePtr
+AbstractFramePtr
 frame
 JSContext
 *
@@ -3149,7 +3149,7 @@ const
 ScopeIter
 &
 si
-TaggedFramePtr
+AbstractFramePtr
 frame
 JSContext
 *
@@ -3176,7 +3176,7 @@ scope
 /
 ScopeIter
 (
-TaggedFramePtr
+AbstractFramePtr
 frame
 ScopeObject
 &
@@ -3244,7 +3244,7 @@ operator
 (
 )
 ;
-TaggedFramePtr
+AbstractFramePtr
 frame
 (
 )
@@ -3333,7 +3333,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 class
 ScopeIterKey
 {
-TaggedFramePtr
+AbstractFramePtr
 frame_
 ;
 JSObject
@@ -3406,7 +3406,7 @@ type_
 )
 {
 }
-TaggedFramePtr
+AbstractFramePtr
 frame
 (
 )
@@ -3814,7 +3814,7 @@ GetDebugScopeForFrame
 JSContext
 *
 cx
-TaggedFramePtr
+AbstractFramePtr
 frame
 )
 ;
@@ -4142,7 +4142,7 @@ HashMap
 <
 ScopeObject
 *
-TaggedFramePtr
+AbstractFramePtr
 DefaultHasher
 <
 ScopeObject
@@ -4272,7 +4272,7 @@ cx
 )
 ;
 static
-TaggedFramePtr
+AbstractFramePtr
 hasLiveFrame
 (
 ScopeObject
@@ -4312,7 +4312,7 @@ static
 void
 onPopCall
 (
-TaggedFramePtr
+AbstractFramePtr
 frame
 JSContext
 *
@@ -4326,7 +4326,7 @@ onPopBlock
 JSContext
 *
 cx
-TaggedFramePtr
+AbstractFramePtr
 frame
 )
 ;
@@ -4334,7 +4334,7 @@ static
 void
 onPopWith
 (
-TaggedFramePtr
+AbstractFramePtr
 frame
 )
 ;
@@ -4342,7 +4342,7 @@ static
 void
 onPopStrictEvalScope
 (
-TaggedFramePtr
+AbstractFramePtr
 frame
 )
 ;
@@ -4350,9 +4350,9 @@ static
 void
 onGeneratorFrameChange
 (
-TaggedFramePtr
+AbstractFramePtr
 from
-TaggedFramePtr
+AbstractFramePtr
 to
 JSContext
 *

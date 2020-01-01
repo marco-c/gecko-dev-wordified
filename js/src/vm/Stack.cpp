@@ -11297,11 +11297,11 @@ return
 false
 ;
 }
-TaggedFramePtr
+AbstractFramePtr
 StackIter
 :
 :
-taggedFramePtr
+abstractFramePtr
 (
 )
 const
@@ -11334,7 +11334,7 @@ interpFrame
 )
 ;
 return
-TaggedFramePtr
+AbstractFramePtr
 (
 interpFrame
 (
@@ -11356,7 +11356,7 @@ state
 )
 ;
 return
-TaggedFramePtr
+AbstractFramePtr
 (
 )
 ;
@@ -13071,11 +13071,11 @@ SCRIPTED
 DONE
 ;
 }
-TaggedFramePtr
+AbstractFramePtr
 AllFramesIter
 :
 :
-taggedFramePtr
+abstractFramePtr
 (
 )
 const
@@ -13089,7 +13089,7 @@ case
 SCRIPTED
 :
 return
-TaggedFramePtr
+AbstractFramePtr
 (
 interpFrame
 (
@@ -13116,7 +13116,7 @@ state
 )
 ;
 return
-TaggedFramePtr
+AbstractFramePtr
 (
 )
 ;

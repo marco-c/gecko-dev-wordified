@@ -210,7 +210,7 @@ void
 CopyStackFrameArguments
 (
 const
-TaggedFramePtr
+AbstractFramePtr
 frame
 HeapValue
 *
@@ -379,7 +379,7 @@ ArgumentsObject
 :
 MaybeForwardToCallObject
 (
-TaggedFramePtr
+AbstractFramePtr
 frame
 JSObject
 *
@@ -472,12 +472,12 @@ JS_FORWARD_TO_CALL_OBJECT
 struct
 CopyFrameArgs
 {
-TaggedFramePtr
+AbstractFramePtr
 frame_
 ;
 CopyFrameArgs
 (
-TaggedFramePtr
+AbstractFramePtr
 frame
 )
 :
@@ -597,7 +597,7 @@ CopyStackFrameArguments
 (
 iter_
 .
-taggedFramePtr
+abstractFramePtr
 (
 )
 dstBase
@@ -750,7 +750,7 @@ MaybeForwardToCallObject
 (
 iter_
 .
-taggedFramePtr
+abstractFramePtr
 (
 )
 obj
@@ -1173,7 +1173,7 @@ createExpected
 JSContext
 *
 cx
-TaggedFramePtr
+AbstractFramePtr
 frame
 )
 {
@@ -1325,7 +1325,7 @@ createUnexpected
 JSContext
 *
 cx
-TaggedFramePtr
+AbstractFramePtr
 frame
 )
 {

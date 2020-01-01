@@ -1582,7 +1582,7 @@ createForFunction
 JSContext
 *
 cx
-TaggedFramePtr
+AbstractFramePtr
 frame
 )
 {
@@ -3799,7 +3799,7 @@ StaticBlockObject
 *
 >
 block
-TaggedFramePtr
+AbstractFramePtr
 frame
 )
 {
@@ -4178,7 +4178,7 @@ ClonedBlockObject
 :
 copyUnaliasedValues
 (
-TaggedFramePtr
+AbstractFramePtr
 frame
 )
 {
@@ -5833,7 +5833,7 @@ ScopeIter
 :
 ScopeIter
 (
-TaggedFramePtr
+AbstractFramePtr
 frame
 JSContext
 *
@@ -5886,7 +5886,7 @@ const
 ScopeIter
 &
 si
-TaggedFramePtr
+AbstractFramePtr
 frame
 JSContext
 *
@@ -5933,7 +5933,7 @@ ScopeIter
 :
 ScopeIter
 (
-TaggedFramePtr
+AbstractFramePtr
 frame
 ScopeObject
 &
@@ -6322,7 +6322,7 @@ enclosingScope
 }
 frame_
 =
-TaggedFramePtr
+AbstractFramePtr
 (
 )
 ;
@@ -6415,7 +6415,7 @@ enclosingScope
 ;
 frame_
 =
-TaggedFramePtr
+AbstractFramePtr
 (
 )
 ;
@@ -6818,7 +6818,7 @@ else
 {
 frame_
 =
-TaggedFramePtr
+AbstractFramePtr
 (
 )
 ;
@@ -6861,7 +6861,7 @@ environment
 ;
 frame_
 =
-TaggedFramePtr
+AbstractFramePtr
 (
 )
 ;
@@ -6902,7 +6902,7 @@ scopeChain
 ;
 frame_
 =
-TaggedFramePtr
+AbstractFramePtr
 (
 )
 ;
@@ -7112,7 +7112,7 @@ isDebuggerFrame
 ;
 frame_
 =
-TaggedFramePtr
+AbstractFramePtr
 (
 )
 ;
@@ -7826,7 +7826,7 @@ scope
 scope
 )
 ;
-TaggedFramePtr
+AbstractFramePtr
 maybeframe
 =
 DebugScopes
@@ -8916,7 +8916,7 @@ needsArgsObj
 return
 true
 ;
-TaggedFramePtr
+AbstractFramePtr
 maybeframe
 =
 DebugScopes
@@ -10753,7 +10753,7 @@ front
 .
 key
 ;
-TaggedFramePtr
+AbstractFramePtr
 frame
 =
 e
@@ -11550,7 +11550,7 @@ DebugScopes
 :
 onPopCall
 (
-TaggedFramePtr
+AbstractFramePtr
 frame
 JSContext
 *
@@ -12125,7 +12125,7 @@ onPopBlock
 JSContext
 *
 cx
-TaggedFramePtr
+AbstractFramePtr
 frame
 )
 {
@@ -12291,7 +12291,7 @@ DebugScopes
 :
 onPopWith
 (
-TaggedFramePtr
+AbstractFramePtr
 frame
 )
 {
@@ -12339,7 +12339,7 @@ DebugScopes
 :
 onPopStrictEvalScope
 (
-TaggedFramePtr
+AbstractFramePtr
 frame
 )
 {
@@ -12423,9 +12423,9 @@ DebugScopes
 :
 onGeneratorFrameChange
 (
-TaggedFramePtr
+AbstractFramePtr
 from
-TaggedFramePtr
+AbstractFramePtr
 to
 JSContext
 *
@@ -13023,12 +13023,12 @@ isIon
 )
 continue
 ;
-TaggedFramePtr
+AbstractFramePtr
 frame
 =
 i
 .
-taggedFramePtr
+abstractFramePtr
 (
 )
 ;
@@ -13184,7 +13184,7 @@ return
 true
 ;
 }
-TaggedFramePtr
+AbstractFramePtr
 DebugScopes
 :
 :
@@ -13214,7 +13214,7 @@ if
 scopes
 )
 return
-TaggedFramePtr
+AbstractFramePtr
 (
 )
 ;
@@ -13238,7 +13238,7 @@ scope
 )
 )
 {
-TaggedFramePtr
+AbstractFramePtr
 frame
 =
 p
@@ -13384,7 +13384,7 @@ frame
 ;
 }
 return
-TaggedFramePtr
+AbstractFramePtr
 (
 )
 ;
@@ -14198,7 +14198,7 @@ asScope
 ;
 if
 (
-TaggedFramePtr
+AbstractFramePtr
 frame
 =
 DebugScopes
@@ -14411,7 +14411,7 @@ GetDebugScopeForFrame
 JSContext
 *
 cx
-TaggedFramePtr
+AbstractFramePtr
 frame
 )
 {
