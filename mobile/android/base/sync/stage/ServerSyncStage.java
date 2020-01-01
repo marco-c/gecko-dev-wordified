@@ -642,6 +642,14 @@ subclasses
 *
 *
 return
+true
+if
+this
+stage
+should
+be
+executed
+.
 *
 throws
 MetaGlobalException

@@ -918,7 +918,7 @@ epoch
 .
 *
 param
-string
+key
 *
 return
 A

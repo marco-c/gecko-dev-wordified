@@ -1225,6 +1225,16 @@ jsonRecord
 *
 return
 *
+A
+CryptoRecord
+that
+encapsulates
+the
+provided
+record
+.
+*
+*
 throws
 NonObjectJSONException
 *
