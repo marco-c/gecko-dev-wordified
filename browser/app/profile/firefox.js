@@ -8283,7 +8283,7 @@ frecency
 .
 linkVisitBonus
 "
-120
+100
 )
 ;
 pref
@@ -8295,7 +8295,7 @@ frecency
 .
 typedVisitBonus
 "
-200
+500
 )
 ;
 pref
@@ -8307,7 +8307,7 @@ frecency
 .
 bookmarkVisitBonus
 "
-140
+150
 )
 ;
 pref
