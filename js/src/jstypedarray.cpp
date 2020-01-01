@@ -912,7 +912,7 @@ obj
 {
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 &
@@ -4208,7 +4208,7 @@ obj
 {
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 slowClass
