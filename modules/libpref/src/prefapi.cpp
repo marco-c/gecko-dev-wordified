@@ -847,12 +847,6 @@ NULL
 ;
 static
 PRBool
-gCallbacksEnabled
-=
-PR_TRUE
-;
-static
-PRBool
 gIsAnyPrefLocked
 =
 PR_FALSE
@@ -3358,10 +3352,6 @@ PL_DHASH_REMOVE
 )
 ;
 }
-if
-(
-gCallbacksEnabled
-)
 pref_DoCallback
 (
 pref_name
@@ -3509,10 +3499,6 @@ nextOp
 PL_DHASH_REMOVE
 ;
 }
-if
-(
-gCallbacksEnabled
-)
 pref_DoCallback
 (
 pref
@@ -3621,10 +3607,6 @@ gIsAnyPrefLocked
 =
 PR_TRUE
 ;
-if
-(
-gCallbacksEnabled
-)
 pref_DoCallback
 (
 key
@@ -3651,10 +3633,6 @@ flags
 ~
 PREF_LOCKED
 ;
-if
-(
-gCallbacksEnabled
-)
 pref_DoCallback
 (
 key
@@ -4356,11 +4334,6 @@ gDirty
 =
 PR_TRUE
 ;
-if
-(
-gCallbacksEnabled
-)
-{
 nsresult
 rv2
 =
@@ -4380,7 +4353,6 @@ rv
 =
 rv2
 ;
-}
 }
 return
 rv
