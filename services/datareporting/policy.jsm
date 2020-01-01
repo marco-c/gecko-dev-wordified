@@ -2245,6 +2245,7 @@ _inProgressSubmissionRequest
 null
 ;
 }
+;
 DataReportingPolicy
 .
 prototype
