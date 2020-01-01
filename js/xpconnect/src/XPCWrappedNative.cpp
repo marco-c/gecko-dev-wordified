@@ -10563,7 +10563,7 @@ a
 natural
 death
 .
-SetExpandoChain
+SetWNExpandoChain
 (
 newobj
 nullptr

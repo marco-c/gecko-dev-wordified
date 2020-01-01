@@ -2613,7 +2613,7 @@ obj
 }
 inline
 void
-SetExpandoChain
+SetWNExpandoChain
 (
 JSObject
 *
@@ -2648,7 +2648,7 @@ chain
 inline
 JSObject
 *
-GetExpandoChain
+GetWNExpandoChain
 (
 JSObject
 *
