@@ -2680,12 +2680,8 @@ argv
 .
 set
 (
-js
-:
-:
-ObjectTag
+OBJECT_TO_JSVAL
 (
-*
 param
 )
 )

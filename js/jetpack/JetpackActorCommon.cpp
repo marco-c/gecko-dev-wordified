@@ -2816,7 +2816,7 @@ NULL
 ;
 rval
 .
-jsval_set
+set
 (
 JSVAL_VOID
 )
