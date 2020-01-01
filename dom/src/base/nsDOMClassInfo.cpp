@@ -2243,12 +2243,6 @@ nsIDOMHTMLUListElement
 h
 "
 #
-if
-defined
-(
-MOZ_MEDIA
-)
-#
 include
 "
 nsIDOMHTMLMediaError
@@ -2276,8 +2270,6 @@ nsIDOMHTMLAudioElement
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -5865,12 +5857,6 @@ CSSFontFaceStyleDecl
 nsCSSStyleDeclSH
 ARRAY_SCRIPTABLE_FLAGS
 )
-#
-if
-defined
-(
-MOZ_MEDIA
-)
 NS_DEFINE_CLASSINFO_DATA
 (
 HTMLVideoElement
@@ -5895,8 +5881,6 @@ HTMLAudioElement
 nsHTMLElementSH
 ELEMENT_SCRIPTABLE_FLAGS
 )
-#
-endif
 NS_DEFINE_CLASSINFO_DATA
 (
 ProgressEvent
@@ -13775,12 +13759,6 @@ DOM_CLASSINFO_MAP_ENTRY
 nsIDOMCSSStyleDeclaration
 )
 DOM_CLASSINFO_MAP_END
-#
-if
-defined
-(
-MOZ_MEDIA
-)
 DOM_CLASSINFO_MAP_BEGIN
 (
 HTMLVideoElement
@@ -13825,8 +13803,6 @@ nsIDOMHTMLAudioElement
 )
 DOM_CLASSINFO_GENERIC_HTML_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END
-#
-endif
 DOM_CLASSINFO_MAP_BEGIN
 (
 ProgressEvent
@@ -21731,7 +21707,7 @@ rv
 )
 {
 return
-NS_ERROR_NOT_INITIALIZED
+rv
 ;
 }
 }
