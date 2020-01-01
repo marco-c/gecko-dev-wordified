@@ -1026,6 +1026,14 @@ PRInt32
 aVertical
 )
 ;
+NS_IMETHOD
+BeginMoveDrag
+(
+nsMouseEvent
+*
+aEvent
+)
+;
 virtual
 nsresult
 ActivateNativeMenuItemAt
