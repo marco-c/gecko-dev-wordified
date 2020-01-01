@@ -719,6 +719,8 @@ MAYBE_CALL_SLOT
 =
 2
 ;
+public
+:
 static
 const
 uint32_t
@@ -733,6 +735,8 @@ PACKED_BITS_COUNT
 =
 1
 ;
+protected
+:
 template
 <
 typename
@@ -1542,6 +1546,19 @@ return
 getFixedSlotOffset
 (
 DATA_SLOT
+)
+;
+}
+static
+size_t
+getInitialLengthSlotOffset
+(
+)
+{
+return
+getFixedSlotOffset
+(
+INITIAL_LENGTH_SLOT
 )
 ;
 }
