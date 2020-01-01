@@ -6456,7 +6456,7 @@ if
 p
 -
 >
-isUsed
+isExtant
 (
 )
 )
@@ -6652,7 +6652,7 @@ if
 arg
 -
 >
-isUsed
+isExtant
 (
 )
 &
@@ -7462,7 +7462,7 @@ arm_vfp
 ins
 -
 >
-isUsed
+isExtant
 (
 )
 )

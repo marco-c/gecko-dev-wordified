@@ -20672,7 +20672,7 @@ if
 ins
 -
 >
-isUsed
+isExtant
 (
 )
 &
@@ -20710,7 +20710,7 @@ if
 ins
 -
 >
-isUsed
+isExtant
 (
 )
 |
@@ -20809,7 +20809,7 @@ if
 ins
 -
 >
-isUsed
+isExtant
 (
 )
 &
