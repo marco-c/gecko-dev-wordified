@@ -1748,8 +1748,8 @@ results
 NS_ERROR_ABORT
 )
 {
-_dump
-(
+msg
+=
 "
 TEST
 -
@@ -1768,7 +1768,6 @@ js
 "
 +
 e
-)
 ;
 if
 (
@@ -1779,6 +1778,8 @@ stack
 {
 _dump
 (
+msg
++
 "
 -
 See
@@ -1802,6 +1803,8 @@ else
 {
 _dump
 (
+msg
++
 "
 \
 n
