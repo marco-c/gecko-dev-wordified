@@ -2901,13 +2901,6 @@ mBufferSize
 ;
 viewportMetrics
 .
-setViewportOffset
-(
-viewportOffset
-)
-;
-viewportMetrics
-.
 setViewport
 (
 viewportMetrics
