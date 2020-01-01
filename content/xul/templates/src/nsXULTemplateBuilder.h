@@ -956,6 +956,16 @@ be
 implemented
 by
 subclasses
+void
+RunnableRebuild
+(
+)
+{
+Rebuild
+(
+)
+;
+}
 /
 *
 *
