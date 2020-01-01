@@ -4042,10 +4042,6 @@ GetSessionStorageForURI
 nsIURI
 *
 aURI
-const
-nsSubstring
-&
-aDocumentURI
 PRBool
 create
 nsIDOMStorage
