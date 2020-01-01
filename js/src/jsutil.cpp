@@ -1812,6 +1812,9 @@ site
 pc
 =
 =
+(
+uint32
+)
 pc
 )
 {
@@ -1924,6 +1927,9 @@ site
 pc
 =
 =
+(
+uint32
+)
 pc
 )
 goto
@@ -2129,6 +2135,9 @@ site
 >
 pc
 =
+(
+uint32
+)
 pc
 ;
 site
