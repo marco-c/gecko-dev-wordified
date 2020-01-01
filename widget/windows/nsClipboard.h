@@ -150,6 +150,8 @@ nsClipboard
 :
 public
 nsBaseClipboard
+public
+nsIObserver
 {
 public
 :
@@ -163,6 +165,11 @@ nsClipboard
 (
 )
 ;
+NS_DECL_ISUPPORTS_INHERITED
+/
+/
+nsIObserver
+NS_DECL_NSIOBSERVER
 /
 /
 nsIClipboard
