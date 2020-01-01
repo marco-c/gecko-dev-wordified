@@ -1626,6 +1626,15 @@ LIns
 cond
 )
 ;
+\
+void
+asm_div_mod
+(
+LIns
+*
+cond
+)
+;
 #
 define
 swapptrs
