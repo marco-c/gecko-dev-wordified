@@ -24509,6 +24509,10 @@ nsGenericElement
 )
 NS_INTERFACE_MAP_ENTRY
 (
+Element
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsIContent
 )
 NS_INTERFACE_MAP_ENTRY
