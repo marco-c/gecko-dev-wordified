@@ -755,6 +755,9 @@ frame
 nsChangeHint_UpdateOpacityLayer
 =
 0x100
+nsChangeHint_UpdateTransformLayer
+=
+0x200
 /
 /
 change
@@ -780,7 +783,7 @@ above
 .
 nsChangeHint_ReconstructFrame
 =
-0x200
+0x400
 }
 ;
 /

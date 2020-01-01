@@ -3313,6 +3313,8 @@ nsChangeHint
 (
 NS_STYLE_HINT_FRAMECHANGE
 |
+nsChangeHint_UpdateTransformLayer
+|
 nsChangeHint_UpdateOpacityLayer
 )
 ;
