@@ -363,6 +363,12 @@ tracking
 has
 already
 ended
+bool
+mCachedShutdownTime
+;
+PRUint32
+mLastShutdownTime
+;
 #
 if
 defined
