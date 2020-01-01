@@ -731,6 +731,11 @@ emitStackCheck
 (
 )
 ;
+bool
+emitUseCountIncrement
+(
+)
+;
 void
 storeValue
 (
