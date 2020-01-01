@@ -102,6 +102,15 @@ NS_SMILSETANIMATIONFUNCTION_H_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsSMILAnimationFunction
 .
 h
@@ -335,6 +344,7 @@ aParseResult
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 /
 *

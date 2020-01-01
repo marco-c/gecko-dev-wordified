@@ -104,6 +104,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -236,6 +245,7 @@ nsAttrValue
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -243,6 +253,7 @@ GetAttributeMappingFunction
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -256,6 +267,7 @@ nsIAtom
 aAttribute
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -278,6 +290,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
+MOZ_OVERRIDE
 {
 return
 static_cast

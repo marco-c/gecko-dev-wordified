@@ -64,6 +64,15 @@ define
 CanvasRenderingContext2D_h
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 vector
 >
@@ -2198,6 +2207,7 @@ width
 int32_t
 height
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InitializeWithSurface
@@ -2213,6 +2223,7 @@ width
 int32_t
 height
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Render
@@ -2230,6 +2241,7 @@ aFlags
 =
 RenderFlagPremultAlpha
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetInputStream
@@ -2247,6 +2259,7 @@ nsIInputStream
 *
 aStream
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetThebesSurface
@@ -2256,6 +2269,7 @@ gfxASurface
 *
 surface
 )
+MOZ_OVERRIDE
 ;
 mozilla
 :
@@ -2273,6 +2287,7 @@ SourceSurface
 GetSurfaceSnapshot
 (
 )
+MOZ_OVERRIDE
 {
 EnsureTarget
 (
@@ -2293,11 +2308,13 @@ SetIsOpaque
 bool
 isOpaque
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reset
 (
 )
+MOZ_OVERRIDE
 ;
 already_AddRefed
 <
@@ -2315,6 +2332,7 @@ LayerManager
 *
 aManager
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -2324,11 +2342,13 @@ LayerManager
 *
 aManager
 )
+MOZ_OVERRIDE
 ;
 void
 MarkContextClean
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetIsIPC
@@ -2336,6 +2356,7 @@ SetIsIPC
 bool
 isIPC
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -2369,6 +2390,7 @@ gfxRect
 &
 r
 )
+MOZ_OVERRIDE
 {
 Redraw
 (

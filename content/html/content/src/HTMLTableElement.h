@@ -102,6 +102,15 @@ mozilla_dom_HTMLTableElement_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsGenericHTMLElement
 .
 h
@@ -882,6 +891,7 @@ nsAttrValue
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -889,6 +899,7 @@ GetAttributeMappingFunction
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -902,6 +913,7 @@ nsIAtom
 aAttribute
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -916,6 +928,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -923,6 +936,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -944,6 +958,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -958,6 +973,7 @@ aNullParent
 =
 true
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -990,6 +1006,7 @@ aValue
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1021,6 +1038,7 @@ aValue
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (

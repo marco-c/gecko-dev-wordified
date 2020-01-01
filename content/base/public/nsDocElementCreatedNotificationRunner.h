@@ -102,6 +102,15 @@ nsDocElementCreatedNotificationRunner_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -157,6 +166,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 nsContentSink
 :

@@ -102,6 +102,15 @@ mozilla_dom_HTMLMapElement_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsGenericHTMLElement
 .
 h
@@ -188,6 +197,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED_NO_UNLINK
 (
@@ -200,6 +210,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
+MOZ_OVERRIDE
 {
 return
 this

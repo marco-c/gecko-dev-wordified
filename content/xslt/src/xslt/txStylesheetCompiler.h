@@ -102,6 +102,15 @@ TRANSFRMX_TXSTYLESHEETCOMPILER_H
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 txStack
 .
 h
@@ -594,6 +603,7 @@ int32_t
 &
 aID
 )
+MOZ_OVERRIDE
 ;
 nsresult
 resolveFunctionCall
@@ -608,11 +618,13 @@ FunctionCall
 *
 aFunction
 )
+MOZ_OVERRIDE
 ;
 bool
 caseInsensitiveNameTests
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -649,6 +661,7 @@ SetErrorOffset
 uint32_t
 aOffset
 )
+MOZ_OVERRIDE
 ;
 static
 void

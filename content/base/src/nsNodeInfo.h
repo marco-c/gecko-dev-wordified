@@ -160,6 +160,15 @@ nsNodeInfo_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsINodeInfo
 .
 h
@@ -242,6 +251,7 @@ nsAString
 aNamespaceURI
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /

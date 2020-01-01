@@ -102,6 +102,15 @@ NS_SMILANIMATIONCONTROLLER_H_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -426,6 +435,7 @@ Pause
 uint32_t
 aType
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -434,6 +444,7 @@ Resume
 uint32_t
 aType
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSMILTime
@@ -441,6 +452,7 @@ GetParentTime
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -452,6 +464,7 @@ nsrefcnt
 AddRef
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -460,6 +473,7 @@ nsrefcnt
 Release
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -471,6 +485,7 @@ mozilla
 TimeStamp
 aTime
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -911,6 +926,7 @@ void
 DoSample
 (
 )
+MOZ_OVERRIDE
 ;
 void
 DoSample
@@ -1084,6 +1100,7 @@ nsSMILTimeContainer
 &
 aChild
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1093,6 +1110,7 @@ nsSMILTimeContainer
 &
 aChild
 )
+MOZ_OVERRIDE
 ;
 void
 FlagDocumentNeedsFlush

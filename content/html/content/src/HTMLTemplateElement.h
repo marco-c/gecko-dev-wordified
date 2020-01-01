@@ -102,6 +102,15 @@ mozilla_dom_HTMLTemplateElement_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLElement
 .
 h
@@ -189,6 +198,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -196,6 +206,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
+MOZ_OVERRIDE
 {
 return
 this

@@ -385,6 +385,7 @@ nsIDOMNode
 *
 aQueryNode
 )
+MOZ_OVERRIDE
 {
 *
 aQueryNode
@@ -549,6 +550,7 @@ void
 ClearCachedResults
 (
 )
+MOZ_OVERRIDE
 {
 mCachedResults
 =
@@ -560,6 +562,7 @@ nsXULTemplateQueryProcessorRDF
 Processor
 (
 )
+MOZ_OVERRIDE
 {
 return
 mProcessor
@@ -570,6 +573,7 @@ nsIAtom
 GetMemberVariable
 (
 )
+MOZ_OVERRIDE
 {
 return
 mMemberVariable

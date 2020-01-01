@@ -102,6 +102,15 @@ TX_XSLT_PATTERNS_H
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 txExpr
 .
 h
@@ -706,6 +715,7 @@ Type
 getType
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -959,6 +969,7 @@ Type
 getType
 (
 )
+MOZ_OVERRIDE
 ;
 txNodeTest
 *

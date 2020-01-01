@@ -102,6 +102,15 @@ nsHTMLFormElement_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -282,6 +291,7 @@ GetElementCount
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -293,6 +303,7 @@ nsIFormControl
 *
 aControl
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -303,6 +314,7 @@ GetDefaultSubmitElement
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -318,6 +330,7 @@ nsIDOMHTMLInputElement
 *
 aRadio
 )
+MOZ_OVERRIDE
 ;
 nsIDOMHTMLInputElement
 *
@@ -328,6 +341,7 @@ nsAString
 &
 aName
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetNextRadioButton
@@ -347,6 +361,7 @@ nsIDOMHTMLInputElement
 *
 aRadioOut
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WalkRadioGroup
@@ -361,6 +376,7 @@ aVisitor
 bool
 aFlushContent
 )
+MOZ_OVERRIDE
 ;
 void
 AddToRadioGroup
@@ -373,6 +389,7 @@ nsIFormControl
 *
 aRadio
 )
+MOZ_OVERRIDE
 ;
 void
 RemoveFromRadioGroup
@@ -385,6 +402,7 @@ nsIFormControl
 *
 aRadio
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
@@ -396,6 +414,7 @@ nsAString
 aName
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -409,6 +428,7 @@ nsIFormControl
 *
 aRadio
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -420,6 +440,7 @@ nsAString
 aName
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -432,6 +453,7 @@ aName
 bool
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsEventStates
@@ -439,6 +461,7 @@ IntrinsicState
 (
 )
 const
+MOZ_OVERRIDE
 ;
 /
 /
@@ -460,6 +483,7 @@ nsAttrValue
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -469,6 +493,7 @@ nsEventChainPreVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -478,6 +503,7 @@ nsEventChainPostVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -487,6 +513,7 @@ nsEventChainPostVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -504,6 +531,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -518,6 +546,7 @@ aNullParent
 =
 true
 )
+MOZ_OVERRIDE
 ;
 nsresult
 SetAttr
@@ -565,6 +594,7 @@ aValue
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -582,6 +612,7 @@ aValue
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -628,6 +659,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED_NO_UNLINK
 (
@@ -1337,6 +1369,21 @@ CheckValidFormSubmission
 (
 )
 ;
+/
+/
+XXXdholbert
+This
+should
+be
+MOZ_OVERRIDE
+or
+maybe
+dropped
+(
+see
+bug
+877510
+)
 virtual
 nsXPCClassInfo
 *
@@ -1350,6 +1397,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -1542,6 +1590,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 static_cast
 <
@@ -1610,6 +1659,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 mForm
 -

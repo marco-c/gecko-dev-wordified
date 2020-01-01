@@ -102,6 +102,15 @@ mozilla_dom_ImageDocument_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 imgINotificationObserver
 .
 h
@@ -163,6 +172,7 @@ nsresult
 Init
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -195,6 +205,7 @@ aSink
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -204,12 +215,14 @@ nsIScriptGlobalObject
 *
 aScriptGlobalObject
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 Destroy
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -221,6 +234,7 @@ EventTarget
 *
 aDispatchStartTarget
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_NSIIMAGEDOCUMENT
 NS_DECL_IMGINOTIFICATIONOBSERVER
@@ -234,6 +248,7 @@ nsIDOMEvent
 *
 aEvent
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (

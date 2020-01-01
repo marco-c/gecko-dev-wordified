@@ -137,6 +137,15 @@ FragmentOrElement_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsAttrAndChildArray
 .
 h
@@ -387,6 +396,7 @@ nsIContent
 *
 aContent
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIContent
@@ -396,6 +406,7 @@ Item
 uint32_t
 aIndex
 )
+MOZ_OVERRIDE
 ;
 void
 DropReference
@@ -413,6 +424,7 @@ nsINode
 GetParentObject
 (
 )
+MOZ_OVERRIDE
 {
 return
 mNode
@@ -753,6 +765,7 @@ GetChildCount
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIContent
@@ -763,6 +776,7 @@ uint32_t
 aIndex
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIContent
@@ -776,6 +790,7 @@ uint32_t
 aChildCount
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -801,6 +816,7 @@ aIndex
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -811,6 +827,7 @@ aIndex
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -820,6 +837,7 @@ nsAString
 &
 aTextContent
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -836,6 +854,7 @@ ErrorResult
 &
 aError
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -852,6 +871,7 @@ GetChildren
 uint32_t
 aFilter
 )
+MOZ_OVERRIDE
 ;
 virtual
 const
@@ -860,6 +880,7 @@ nsTextFragment
 GetText
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
@@ -867,6 +888,7 @@ TextLength
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -881,6 +903,7 @@ aLength
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -935,12 +958,14 @@ aLength
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 TextIsOnlyWhitespace
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -950,6 +975,7 @@ nsAString
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIContent
@@ -958,6 +984,7 @@ GetBindingParent
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -969,18 +996,21 @@ nsIURI
 aURI
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
 DestroyContent
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 SaveSubtreeState
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 const
@@ -990,6 +1020,7 @@ DoGetClasses
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WalkContentStyleRules
@@ -998,6 +1029,7 @@ nsRuleWalker
 *
 aRuleWalker
 )
+MOZ_OVERRIDE
 ;
 nsIHTMLCollection
 *
@@ -1079,6 +1111,7 @@ bool
 OwnedOnlyByTheDOMTree
 (
 )
+MOZ_OVERRIDE
 {
 uint32_t
 rc
@@ -1122,6 +1155,7 @@ bool
 IsPurple
 (
 )
+MOZ_OVERRIDE
 {
 return
 mRefCnt
@@ -1136,6 +1170,7 @@ void
 RemovePurple
 (
 )
+MOZ_OVERRIDE
 {
 mRefCnt
 .
@@ -1706,6 +1741,7 @@ nsSlots
 CreateSlots
 (
 )
+MOZ_OVERRIDE
 ;
 nsDOMSlots
 *

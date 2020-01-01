@@ -65,6 +65,15 @@ nsHostObjectURI_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -206,6 +215,7 @@ nsIURI
 *
 aClone
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -220,6 +230,7 @@ bool
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -242,6 +253,7 @@ unused
 *
 /
 )
+MOZ_OVERRIDE
 {
 return
 new

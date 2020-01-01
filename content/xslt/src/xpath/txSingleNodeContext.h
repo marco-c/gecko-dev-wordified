@@ -102,6 +102,15 @@ __TX_XPATH_SINGLENODE_CONTEXT
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 txIXPathContext
 .
 h
@@ -159,6 +168,7 @@ txAExprResult
 &
 aResult
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -193,6 +203,7 @@ txXPathNode
 &
 aNode
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -222,6 +233,7 @@ void
 getPrivateContext
 (
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -250,6 +262,7 @@ txResultRecycler
 recycler
 (
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -283,6 +296,7 @@ aMsg
 nsresult
 aRes
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -349,6 +363,7 @@ txXPathNode
 getContextNode
 (
 )
+MOZ_OVERRIDE
 {
 return
 mNode
@@ -358,6 +373,7 @@ uint32_t
 size
 (
 )
+MOZ_OVERRIDE
 {
 return
 1
@@ -367,6 +383,7 @@ uint32_t
 position
 (
 )
+MOZ_OVERRIDE
 {
 return
 1

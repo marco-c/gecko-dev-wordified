@@ -122,6 +122,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -415,6 +424,7 @@ void
 DisconnectFromOwner
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /

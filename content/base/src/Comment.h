@@ -102,6 +102,15 @@ mozilla_dom_Comment_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDOMComment
 .
 h
@@ -258,6 +267,7 @@ bool
 aCloneText
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -265,6 +275,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -284,6 +295,7 @@ int32_t
 aIndent
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -304,6 +316,7 @@ aDumpAll
 true
 )
 const
+MOZ_OVERRIDE
 {
 return
 ;

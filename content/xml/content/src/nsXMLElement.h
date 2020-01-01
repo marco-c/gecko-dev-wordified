@@ -102,6 +102,15 @@ nsXMLElement_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDOMElement
 .
 h
@@ -188,6 +197,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsXPCClassInfo
@@ -195,6 +205,7 @@ nsXPCClassInfo
 GetClassInfo
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -202,6 +213,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -219,6 +231,7 @@ GetIDAttributeName
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -227,6 +240,7 @@ DoGetID
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -244,6 +258,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -254,6 +269,7 @@ aDeep
 bool
 aNullParent
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -267,6 +283,7 @@ aAttribute
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -285,6 +302,7 @@ nsAttrValue
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -298,6 +316,7 @@ nsINodeInfo
 *
 aOldNodeInfo
 )
+MOZ_OVERRIDE
 ;
 protected
 :

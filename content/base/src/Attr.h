@@ -116,6 +116,15 @@ mozilla_dom_Attr_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIAttribute
 .
 h
@@ -253,6 +262,7 @@ nsAString
 &
 aTextContent
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -266,6 +276,7 @@ ErrorResult
 &
 aError
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -275,6 +286,7 @@ nsAString
 &
 aNodeValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -288,6 +300,7 @@ ErrorResult
 &
 aError
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -302,6 +315,7 @@ nsEventChainPreVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -314,6 +328,7 @@ nsDOMAttributeMap
 *
 aMap
 )
+MOZ_OVERRIDE
 ;
 nsIContent
 *
@@ -321,6 +336,7 @@ GetContent
 (
 )
 const
+MOZ_OVERRIDE
 ;
 nsresult
 SetOwnerDocument
@@ -329,6 +345,7 @@ nsIDocument
 *
 aDocument
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -342,6 +359,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
@@ -349,6 +367,7 @@ GetChildCount
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIContent
@@ -359,6 +378,7 @@ uint32_t
 aIndex
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIContent
@@ -372,6 +392,7 @@ uint32_t
 aChildCount
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -397,6 +418,7 @@ aIndex
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -407,6 +429,7 @@ aIndex
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -421,6 +444,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -431,6 +455,7 @@ GetBaseURI
 (
 )
 const
+MOZ_OVERRIDE
 ;
 static
 void

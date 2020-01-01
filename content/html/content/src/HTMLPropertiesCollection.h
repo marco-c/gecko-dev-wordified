@@ -123,6 +123,15 @@ HTMLPropertiesCollection_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsDOMLists
 .
 h
@@ -349,6 +358,7 @@ nsINode
 GetParentObject
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 JSObject
@@ -369,6 +379,7 @@ ErrorResult
 &
 error
 )
+MOZ_OVERRIDE
 ;
 PropertyNodeList
 *
@@ -436,6 +447,7 @@ nsString
 &
 aNames
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_NSIDOMHTMLCOLLECTION
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -718,6 +730,7 @@ Item
 uint32_t
 aIndex
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
@@ -742,6 +755,7 @@ nsIContent
 *
 aContent
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsINode
@@ -749,6 +763,7 @@ nsINode
 GetParentObject
 (
 )
+MOZ_OVERRIDE
 ;
 void
 AppendElement
