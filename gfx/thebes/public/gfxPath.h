@@ -428,13 +428,6 @@ gfxTypes
 .
 h
 "
-#
-include
-"
-nsISupportsImpl
-.
-h
-"
 class
 gfxContext
 ;
@@ -474,7 +467,7 @@ class
 THEBES_API
 gfxPath
 {
-NS_INLINE_DECL_REFCOUNTING
+THEBES_INLINE_DECL_REFCOUNTING
 (
 gfxPath
 )

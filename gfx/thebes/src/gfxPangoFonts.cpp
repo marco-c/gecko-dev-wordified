@@ -6044,7 +6044,7 @@ gfxFcPangoFontSet
 {
 public
 :
-NS_INLINE_DECL_REFCOUNTING
+THEBES_INLINE_DECL_REFCOUNTING
 (
 gfxFcPangoFontSet
 )

@@ -444,13 +444,6 @@ gfxRect
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 typedef
 struct
 _cairo_surface

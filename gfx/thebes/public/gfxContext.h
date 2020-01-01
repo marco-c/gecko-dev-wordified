@@ -495,13 +495,6 @@ gfxPath
 .
 h
 "
-#
-include
-"
-nsISupportsImpl
-.
-h
-"
 typedef
 struct
 _cairo
@@ -637,7 +630,7 @@ class
 THEBES_API
 gfxContext
 {
-NS_INLINE_DECL_REFCOUNTING
+THEBES_INLINE_DECL_REFCOUNTING
 (
 gfxContext
 )

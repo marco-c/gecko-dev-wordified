@@ -475,13 +475,6 @@ nsContentUtils
 .
 h
 "
-#
-include
-"
-nsISupportsImpl
-.
-h
-"
 const
 double
 radPerDegree

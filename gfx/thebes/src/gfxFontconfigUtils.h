@@ -474,13 +474,6 @@ h
 "
 #
 include
-"
-nsISupportsImpl
-.
-h
-"
-#
-include
 <
 fontconfig
 /
@@ -666,7 +659,7 @@ nsString
 {
 public
 :
-NS_INLINE_DECL_REFCOUNTING
+THEBES_INLINE_DECL_REFCOUNTING
 (
 gfxFontNameList
 )
