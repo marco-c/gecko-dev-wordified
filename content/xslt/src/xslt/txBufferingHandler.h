@@ -485,6 +485,10 @@ txResultBuffer
 {
 public
 :
+txResultBuffer
+(
+)
+;
 ~
 txResultBuffer
 (
@@ -576,6 +580,12 @@ txAXMLEventHandler
 {
 public
 :
+txBufferingHandler
+(
+)
+;
+virtual
+~
 txBufferingHandler
 (
 )
