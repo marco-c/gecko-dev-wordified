@@ -3283,7 +3283,7 @@ GetClassList
 ;
 nsDOMAttributeMap
 *
-GetAttributes
+Attributes
 (
 )
 {
