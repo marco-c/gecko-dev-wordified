@@ -1237,7 +1237,7 @@ preference
 .
 value
 /
-1000
+1024
 ;
 }
 /
@@ -1305,7 +1305,7 @@ intValue
 :
 intValue
 *
-1000
+1024
 ;
 }
 /
