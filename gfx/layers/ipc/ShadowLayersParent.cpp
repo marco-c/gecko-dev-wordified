@@ -1887,6 +1887,14 @@ AsContainer
 (
 )
 ;
+mLayerManager
+-
+>
+SetRoot
+(
+mRoot
+)
+;
 break
 ;
 }
@@ -2512,6 +2520,13 @@ PlatformSyncBeforeReplyUpdate
 (
 )
 ;
+if
+(
+Frame
+(
+)
+)
+{
 Frame
 (
 )
@@ -2521,6 +2536,7 @@ ShadowLayersUpdated
 (
 )
 ;
+}
 return
 true
 ;
