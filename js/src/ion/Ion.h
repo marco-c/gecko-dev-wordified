@@ -766,6 +766,12 @@ TempAllocator
 *
 temp
 ;
+private
+:
+IonContext
+*
+prev_
+;
 }
 ;
 extern
