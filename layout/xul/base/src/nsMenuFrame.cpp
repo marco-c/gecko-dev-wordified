@@ -365,6 +365,15 @@ LookAndFeel
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -1150,6 +1159,7 @@ GetParent
 }
 class
 nsASyncMenuInitialization
+MOZ_FINAL
 :
 public
 nsIReflowCallback
