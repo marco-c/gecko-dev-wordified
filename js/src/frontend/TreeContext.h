@@ -2219,6 +2219,8 @@ SharedContext
 sc
 unsigned
 staticLevel
+uint32_t
+bodyid
 )
 ;
 inline
