@@ -763,7 +763,7 @@ animations
 .
 *
 /
-AUTOSCROLL
+AUTONAV
 /
 *
 We
@@ -771,7 +771,7 @@ are
 scrolling
 using
 an
-AutoscrollRunnable
+AutonavRunnable
 animation
 .
 This
@@ -2595,7 +2595,7 @@ case
 FLING
 :
 case
-AUTOSCROLL
+AUTONAV
 :
 case
 BOUNCE
@@ -2708,7 +2708,7 @@ case
 FLING
 :
 case
-AUTOSCROLL
+AUTONAV
 :
 case
 BOUNCE
@@ -2961,7 +2961,7 @@ case
 FLING
 :
 case
-AUTOSCROLL
+AUTONAV
 :
 case
 BOUNCE
@@ -3467,7 +3467,7 @@ to
 set
 up
 an
-AUTOSCROLL
+AUTONAV
 animation
 to
 keep
@@ -3560,7 +3560,7 @@ mState
 =
 PanZoomState
 .
-AUTOSCROLL
+AUTONAV
 )
 {
 bounce
@@ -3601,13 +3601,13 @@ setState
 (
 PanZoomState
 .
-AUTOSCROLL
+AUTONAV
 )
 ;
 startAnimationTimer
 (
 new
-AutoscrollRunnable
+AutonavRunnable
 (
 )
 )
@@ -3620,7 +3620,7 @@ mState
 =
 PanZoomState
 .
-AUTOSCROLL
+AUTONAV
 )
 {
 mX
@@ -4952,7 +4952,7 @@ true
 }
 private
 class
-AutoscrollRunnable
+AutonavRunnable
 extends
 AnimationRunnable
 {
@@ -4970,7 +4970,7 @@ mState
 =
 PanZoomState
 .
-AUTOSCROLL
+AUTONAV
 )
 {
 finishAnimation
