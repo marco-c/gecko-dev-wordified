@@ -14016,6 +14016,13 @@ aProp
 }
 )
 ;
+if
+(
+manifest
+.
+appcache_path
+)
+{
 this
 .
 queuedDownload
@@ -14038,6 +14045,7 @@ aProfileDir
 offlineCacheObserver
 :
 aOfflineCacheObserver
+}
 }
 /
 /
