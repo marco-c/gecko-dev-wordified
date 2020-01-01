@@ -54757,6 +54757,9 @@ equalUri
 ;
 if
 (
+shAvailable
+&
+&
 mCurrentURI
 &
 &
