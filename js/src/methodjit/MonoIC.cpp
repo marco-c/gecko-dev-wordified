@@ -5596,6 +5596,7 @@ NotEqual
 ic
 .
 funObjReg
+t0
 &
 FunctionClass
 )

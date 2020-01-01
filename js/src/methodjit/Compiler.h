@@ -1207,7 +1207,7 @@ MaybeJump
 typeGuard
 ;
 Jump
-claspGuard
+shapeGuard
 ;
 }
 ;
@@ -1242,7 +1242,7 @@ Jump
 capacityGuard
 ;
 Jump
-claspGuard
+shapeGuard
 ;
 Jump
 holeGuard
@@ -2415,6 +2415,10 @@ JSObject
 CompilerAllocPolicy
 >
 rootedObjects
+;
+Shape
+*
+denseArrayShape
 ;
 StubCompiler
 stubcc

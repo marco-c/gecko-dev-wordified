@@ -21692,8 +21692,6 @@ obj
 init
 (
 cx
-&
-WithClass
 type
 parent
 priv
@@ -21868,8 +21866,6 @@ blockObj
 init
 (
 cx
-&
-BlockClass
 &
 emptyTypeObject
 NULL

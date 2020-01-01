@@ -2970,7 +2970,14 @@ js
 :
 EmptyShape
 *
-emptyArgumentsShape
+emptyStrictArgumentsShape
+;
+js
+:
+:
+EmptyShape
+*
+emptyNormalArgumentsShape
 ;
 js
 :

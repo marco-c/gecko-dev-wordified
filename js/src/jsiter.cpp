@@ -2934,8 +2934,6 @@ init
 (
 cx
 &
-IteratorClass
-&
 types
 :
 :

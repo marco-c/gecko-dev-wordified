@@ -3274,6 +3274,12 @@ ACCSET_OBJ_CLASP
 :
 ok
 =
+false
+;
+/
+/
+ok
+=
 OK_OBJ_FIELD
 (
 LIR_ldp

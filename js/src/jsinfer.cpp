@@ -38866,7 +38866,9 @@ cx
 endif
 if
 (
-clasp
+getClass
+(
+)
 -
 >
 ext
@@ -39131,7 +39133,9 @@ OBJECT_FLAG_UNKNOWN_MASK
 endif
 if
 (
-clasp
+getClass
+(
+)
 -
 >
 ext

@@ -1710,7 +1710,7 @@ path
 to
 the
 inline
-clasp
+shape
 guard
 .
 This
@@ -1745,7 +1745,7 @@ slow
 path
 .
 unsigned
-inlineClaspGuard
+inlineShapeGuard
 :
 8
 ;
@@ -1809,7 +1809,7 @@ specifies
 whether
 the
 inline
-clasp
+shape
 guard
 /
 /
@@ -1851,7 +1851,7 @@ type
 guard
 and
 the
-clasp
+shape
 guard
 is
 just
@@ -1862,7 +1862,7 @@ unconditional
 jump
 .
 bool
-inlineClaspGuardPatched
+inlineShapeGuardPatched
 :
 1
 ;
@@ -2192,14 +2192,14 @@ inlineTypeGuardPatched
 ;
 }
 bool
-shouldPatchUnconditionalClaspGuard
+shouldPatchUnconditionalShapeGuard
 (
 )
 {
 /
 /
 The
-clasp
+shape
 guard
 is
 only
@@ -2237,7 +2237,7 @@ JSVAL_TYPE_INT32
 )
 return
 !
-inlineClaspGuardPatched
+inlineShapeGuardPatched
 ;
 return
 false
@@ -2259,7 +2259,7 @@ inlineTypeGuardPatched
 =
 false
 ;
-inlineClaspGuardPatched
+inlineShapeGuardPatched
 =
 false
 ;
@@ -2499,11 +2499,11 @@ path
 to
 the
 inline
-clasp
+shape
 guard
 .
 unsigned
-inlineClaspGuard
+inlineShapeGuard
 :
 6
 ;
@@ -2512,7 +2512,7 @@ inlineClaspGuard
 True
 if
 the
-clasp
+shape
 guard
 has
 been
@@ -2522,7 +2522,7 @@ false
 otherwise
 .
 bool
-inlineClaspGuardPatched
+inlineShapeGuardPatched
 :
 1
 ;
@@ -2717,7 +2717,7 @@ execPool
 =
 NULL
 ;
-inlineClaspGuardPatched
+inlineShapeGuardPatched
 =
 false
 ;
