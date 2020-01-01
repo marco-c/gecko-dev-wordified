@@ -3419,7 +3419,7 @@ char
 (
 info
 .
-scriptSource_
+scriptSource
 -
 >
 filename
@@ -3631,7 +3631,7 @@ char
 (
 info
 .
-scriptSource_
+scriptSource
 -
 >
 filename
