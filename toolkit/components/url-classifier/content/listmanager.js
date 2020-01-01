@@ -2077,11 +2077,13 @@ consult
 *
 param
 key
-String
-Key
-for
-table
+Principal
+being
+used
+to
 lookup
+the
+database
 *
 param
 callback
