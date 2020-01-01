@@ -5613,15 +5613,6 @@ idstr
 *
 valstr
 ;
-if
-(
-flags
-&
-JSRESOLVE_ASSIGNING
-)
-return
-true
-;
 jsval
 idval
 ;
