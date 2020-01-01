@@ -3602,11 +3602,8 @@ obj
 "
 key
 "
+&
 key
-.
-address
-(
-)
 )
 |
 |
@@ -3677,11 +3674,8 @@ obj
 "
 value
 "
+&
 value
-.
-address
-(
-)
 )
 |
 |

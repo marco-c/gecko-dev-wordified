@@ -703,11 +703,8 @@ aCx
 obj
 keyPathChars
 keyPathLen
+&
 intermediate
-.
-address
-(
-)
 )
 ;
 NS_ENSURE_TRUE

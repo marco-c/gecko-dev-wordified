@@ -345,11 +345,8 @@ aGlobal
 "
 ctypes
 "
+&
 ctypes
-.
-address
-(
-)
 )
 )
 {

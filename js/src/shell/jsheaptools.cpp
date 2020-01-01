@@ -3680,11 +3680,8 @@ JS_GetProperty
 context
 result
 pathName
+&
 v
-.
-address
-(
-)
 )
 )
 return
