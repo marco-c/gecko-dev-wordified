@@ -149,10 +149,6 @@ DOMCI_CLASS
 (
 Element
 )
-DOMCI_CLASS
-(
-Attr
-)
 /
 /
 Event
