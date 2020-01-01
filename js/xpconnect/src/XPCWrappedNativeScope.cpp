@@ -659,8 +659,10 @@ is
 being
 reused
 (
-JS_ClearScope
+JS_SetAllNonReservedSlotsToUndefined
 has
+/
+/
 been
 called
 )
@@ -669,8 +671,6 @@ NOTE
 :
 We
 are
-/
-/
 only
 called
 by

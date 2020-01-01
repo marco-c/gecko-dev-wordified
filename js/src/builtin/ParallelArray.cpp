@@ -4603,10 +4603,6 @@ NULL
 /
 /
 thisObject
-NULL
-/
-/
-clear
 }
 }
 ;

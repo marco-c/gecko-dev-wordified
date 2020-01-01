@@ -10903,7 +10903,7 @@ rt
 gJSPrincipals
 )
 ;
-JS_ClearScope
+JS_SetAllNonReservedSlotsToUndefined
 (
 cx
 glob

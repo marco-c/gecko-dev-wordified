@@ -32599,18 +32599,6 @@ getPrivate
 }
 }
 static
-void
-xml_clear
-(
-JSContext
-*
-cx
-HandleObject
-obj
-)
-{
-}
-static
 JSBool
 HasSimpleContent
 (
@@ -33689,7 +33677,6 @@ NULL
 thisObject
 *
 /
-xml_clear
 }
 }
 ;

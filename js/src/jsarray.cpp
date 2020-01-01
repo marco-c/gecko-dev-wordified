@@ -7197,12 +7197,6 @@ NULL
 thisObject
 *
 /
-NULL
-/
-*
-clear
-*
-/
 }
 }
 ;

@@ -17029,12 +17029,6 @@ NULL
 thisObject
 *
 /
-NULL
-/
-*
-clear
-*
-/
 }
 }
 ;
@@ -18096,13 +18090,6 @@ NULL
 /
 *
 thisObject
-*
-/
-\
-NULL
-/
-*
-clear
 *
 /
 \
