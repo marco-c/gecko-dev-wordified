@@ -7980,7 +7980,7 @@ services
 -
 crypto
 /
-WeaveCrypto
+threaded
 .
 js
 "
@@ -7992,7 +7992,7 @@ cryptoSvc
 new
 ns
 .
-WeaveCrypto
+ThreadedCrypto
 (
 )
 ;
