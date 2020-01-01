@@ -8278,12 +8278,15 @@ nsIAtom
 *
 langGroupAtom
 =
-presContext
+mStyleContext
 -
 >
-GetLangGroup
+GetStyleVisibility
 (
 )
+-
+>
+mLangGroup
 ;
 if
 (
