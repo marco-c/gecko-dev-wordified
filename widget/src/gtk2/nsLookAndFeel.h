@@ -625,6 +625,14 @@ float
 sCaretRatio
 ;
 static
+nscolor
+sEntryText
+;
+static
+nscolor
+sEntryBackground
+;
+static
 void
 InitLookAndFeel
 (
