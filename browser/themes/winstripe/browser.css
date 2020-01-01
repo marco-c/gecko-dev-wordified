@@ -4700,6 +4700,16 @@ end
 bookmark
 -
 item
+:
+not
+(
+#
+bookmarks
+-
+menu
+-
+button
+)
 >
 .
 toolbarbutton
