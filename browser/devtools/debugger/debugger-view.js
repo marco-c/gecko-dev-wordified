@@ -2856,6 +2856,8 @@ line
 if
 (
 token
+.
+length
 )
 {
 let
@@ -2978,6 +2980,17 @@ _getSearchboxInfo
 2
 ]
 ;
+if
+(
+!
+token
+.
+length
+)
+{
+return
+;
+}
 let
 editor
 =
