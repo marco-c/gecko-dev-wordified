@@ -1600,6 +1600,11 @@ s1
 <
 tolerance_squared
 )
+{
+depth
+-
+-
+;
 return
 _cairo_spline_add_point
 (
@@ -1611,6 +1616,7 @@ s1
 a
 )
 ;
+}
 _de_casteljau
 (
 s1
@@ -1634,9 +1640,15 @@ unlikely
 status
 )
 )
+{
+depth
+-
+-
+;
 return
 status
 ;
+}
 status
 =
 _cairo_spline_decompose_into
