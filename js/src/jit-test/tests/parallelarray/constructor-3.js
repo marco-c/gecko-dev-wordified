@@ -82,10 +82,7 @@ p
 toString
 (
 )
-bracket
-(
 e
-)
 )
 ;
 }

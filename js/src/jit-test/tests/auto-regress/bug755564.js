@@ -1,15 +1,5 @@
 /
 /
-|
-jit
--
-test
-|
-error
-:
-Error
-/
-/
 Binary
 :
 cache
