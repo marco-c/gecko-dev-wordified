@@ -40,11 +40,8 @@ g
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -80,7 +77,6 @@ return
 3
 )
 ;
-}
 }
 ;
 g

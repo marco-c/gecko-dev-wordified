@@ -72,11 +72,8 @@ arr
 ;
 dbg
 .
-hooks
+onEnterFrame
 =
-{
-enterFrame
-:
 function
 (
 frame
@@ -159,7 +156,6 @@ j
 frame
 )
 ;
-}
 }
 ;
 g

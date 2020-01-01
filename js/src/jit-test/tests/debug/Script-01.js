@@ -89,11 +89,8 @@ scripts
 ;
 debug
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -152,7 +149,6 @@ arguments
 .
 script
 ;
-}
 }
 ;
 global

@@ -74,11 +74,8 @@ kscript
 ;
 dbg
 .
-hooks
+onNewScript
 =
-{
-newScript
-:
 function
 (
 script
@@ -93,8 +90,11 @@ getChildScripts
 )
 ;
 }
-debuggerHandler
-:
+;
+dbg
+.
+onDebuggerStatement
+=
 function
 (
 frame
@@ -108,7 +108,6 @@ callee
 .
 script
 ;
-}
 }
 ;
 g

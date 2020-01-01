@@ -29,11 +29,8 @@ g
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 stack
@@ -46,7 +43,6 @@ return
 1234
 }
 ;
-}
 }
 ;
 assertEq

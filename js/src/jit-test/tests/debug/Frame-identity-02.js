@@ -78,11 +78,8 @@ null
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -123,7 +120,6 @@ debuggeeGlobal
 i
 }
 ;
-}
 }
 ;
 }

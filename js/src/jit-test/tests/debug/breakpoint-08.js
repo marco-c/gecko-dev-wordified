@@ -139,11 +139,8 @@ bphits
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -241,7 +238,6 @@ hits
 +
 +
 ;
-}
 }
 ;
 for

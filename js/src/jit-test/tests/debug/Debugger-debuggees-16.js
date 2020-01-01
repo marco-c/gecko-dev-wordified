@@ -92,16 +92,12 @@ g1
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 )
 {
-}
 }
 ;
 /

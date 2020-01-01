@@ -64,11 +64,8 @@ log
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -166,7 +163,6 @@ log
 A
 '
 ;
-}
 }
 ;
 function

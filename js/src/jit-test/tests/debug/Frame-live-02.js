@@ -94,11 +94,8 @@ debuggeeGlobal
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -139,7 +136,6 @@ live
 true
 )
 ;
-}
 }
 ;
 finalCheck

@@ -35,11 +35,8 @@ s
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -60,7 +57,6 @@ return
 .
 script
 ;
-}
 }
 ;
 g

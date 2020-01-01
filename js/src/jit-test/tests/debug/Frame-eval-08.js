@@ -47,11 +47,8 @@ testfn
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -83,7 +80,6 @@ test
 .
 return
 ;
-}
 }
 ;
 g

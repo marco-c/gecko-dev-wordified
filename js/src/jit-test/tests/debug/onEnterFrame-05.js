@@ -10,9 +10,7 @@ recursion
 caused
 by
 making
-hooks
-.
-enterFrame
+onEnterFrame
 a
 wrapper
 of
@@ -77,15 +75,11 @@ g
 ;
 dbg
 .
-hooks
+onEnterFrame
 =
-{
-enterFrame
-:
 g
 .
 f
-}
 ;
 /
 /

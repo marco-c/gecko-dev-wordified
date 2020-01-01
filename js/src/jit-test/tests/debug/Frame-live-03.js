@@ -47,11 +47,8 @@ Debugger
 g
 )
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -139,7 +136,6 @@ f
 =
 frame
 ;
-}
 }
 ;
 g

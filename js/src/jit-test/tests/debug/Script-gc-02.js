@@ -36,11 +36,8 @@ arr
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -55,7 +52,6 @@ frame
 script
 )
 ;
-}
 }
 ;
 g

@@ -48,11 +48,8 @@ hits
 ;
 dbg
 .
-hooks
+onNewScript
 =
-{
-newScript
-:
 function
 (
 s
@@ -92,7 +89,6 @@ hits
 +
 +
 ;
-}
 }
 ;
 dbg

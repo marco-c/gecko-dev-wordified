@@ -8,9 +8,7 @@ test
 debug
 /
 /
-hooks
-.
-throw
+onExceptionUnwind
 assigning
 to
 argv
@@ -84,13 +82,9 @@ Debugger
 parent
 )
 .
-hooks
+onExceptionUnwind
 =
-{
-throw
-:
 f
-}
 ;
 "
 )

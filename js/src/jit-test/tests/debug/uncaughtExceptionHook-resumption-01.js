@@ -43,11 +43,8 @@ rv
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 )
@@ -55,7 +52,6 @@ function
 throw
 15
 ;
-}
 }
 ;
 dbg

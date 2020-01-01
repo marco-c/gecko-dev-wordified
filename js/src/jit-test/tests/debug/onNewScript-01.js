@@ -39,11 +39,8 @@ hits
 ;
 dbg
 .
-hooks
+onNewScript
 =
-{
-newScript
-:
 function
 (
 s
@@ -54,7 +51,7 @@ s
 Exceptions
 thrown
 from
-newScript
+onNewScript
 are
 swept
 under
@@ -109,7 +106,6 @@ hits
 +
 +
 ;
-}
 }
 ;
 dbg

@@ -43,11 +43,8 @@ snapshot
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -129,7 +126,6 @@ else
 return
 null
 ;
-}
 }
 ;
 g

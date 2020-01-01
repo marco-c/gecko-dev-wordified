@@ -69,11 +69,8 @@ debuggeeGlobal
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -131,7 +128,6 @@ what
 return
 resume
 ;
-}
 }
 }
 ;

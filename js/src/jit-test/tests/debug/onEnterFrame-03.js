@@ -66,11 +66,8 @@ log
 ;
 dbg
 .
-hooks
+onEnterFrame
 =
-{
-enterFrame
-:
 function
 (
 frame
@@ -134,7 +131,6 @@ log
 )
 '
 ;
-}
 }
 }
 ;

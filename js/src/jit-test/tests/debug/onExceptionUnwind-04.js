@@ -1,8 +1,6 @@
 /
 /
-hooks
-.
-throw
+onExceptionUnwind
 is
 not
 called
@@ -44,11 +42,8 @@ log
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -82,8 +77,11 @@ message
 ;
 }
 }
-throw
-:
+;
+dbg
+.
+onExceptionUnwind
+=
 function
 (
 frame
@@ -98,7 +96,6 @@ log
 BAD
 '
 ;
-}
 }
 ;
 g

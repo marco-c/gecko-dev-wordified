@@ -40,11 +40,8 @@ log
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 )
@@ -65,7 +62,6 @@ fail
 "
 )
 ;
-}
 }
 ;
 dbg

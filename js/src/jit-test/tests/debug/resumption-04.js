@@ -52,11 +52,8 @@ debuggeeGlobal
 "
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 )
@@ -70,7 +67,6 @@ return
 '
 }
 ;
-}
 }
 ;
 "

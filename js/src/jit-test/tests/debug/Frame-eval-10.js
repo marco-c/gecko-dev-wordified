@@ -42,11 +42,8 @@ hits
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -80,7 +77,6 @@ else
 return
 null
 ;
-}
 }
 ;
 assertEq

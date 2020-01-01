@@ -113,11 +113,8 @@ bp
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -194,7 +191,6 @@ obj
 ;
 }
 }
-}
 ;
 g
 .
@@ -212,12 +208,11 @@ Dx
 "
 )
 ;
-delete
 dbg
 .
-hooks
-.
-debuggerHandler
+onDebuggerStatement
+=
+null
 ;
 for
 (

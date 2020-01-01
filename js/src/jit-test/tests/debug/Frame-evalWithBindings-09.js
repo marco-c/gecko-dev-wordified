@@ -46,11 +46,8 @@ hits
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -116,8 +113,11 @@ hits
 +
 ;
 }
-throw
-:
+;
+dbg
+.
+onExceptionUnwind
+=
 function
 (
 frame
@@ -246,7 +246,6 @@ hits
 +
 +
 ;
-}
 }
 ;
 g

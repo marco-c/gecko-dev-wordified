@@ -36,11 +36,8 @@ arr
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -63,7 +60,6 @@ eval
 return
 )
 ;
-}
 }
 ;
 g

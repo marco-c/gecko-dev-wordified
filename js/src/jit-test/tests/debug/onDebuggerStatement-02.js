@@ -38,11 +38,8 @@ g
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 stack
@@ -52,7 +49,6 @@ hit
 =
 true
 ;
-}
 }
 ;
 debugger

@@ -43,11 +43,8 @@ false
 ;
 dbg
 .
-hooks
+onExceptionUnwind
 =
-{
-throw
-:
 function
 (
 frame
@@ -56,9 +53,7 @@ exc
 {
 /
 /
-hooks
-.
-throw
+onExceptionUnwind
 is
 called
 multiple
@@ -145,7 +140,6 @@ hit
 =
 true
 ;
-}
 }
 }
 ;
