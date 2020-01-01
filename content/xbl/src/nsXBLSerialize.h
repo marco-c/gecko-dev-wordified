@@ -529,9 +529,6 @@ kNameSpaceID_LastBuiltin
 nsresult
 XBL_SerializeFunction
 (
-nsIScriptContext
-*
-aContext
 nsIObjectOutputStream
 *
 aStream
@@ -549,9 +546,6 @@ aFunctionObject
 nsresult
 XBL_DeserializeFunction
 (
-nsIScriptContext
-*
-aContext
 nsIObjectInputStream
 *
 aStream
