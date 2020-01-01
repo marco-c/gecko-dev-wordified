@@ -6728,6 +6728,7 @@ findRegFor2
 allow
 lhs
 ra
+allow
 rhs
 rb
 )
