@@ -468,6 +468,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsIDTD
+.
+h
+"
 /
 *
 *
@@ -602,7 +609,8 @@ nsILoadSaveContentSink
 NS_IMETHOD
 WillBuildModel
 (
-void
+nsDTDMode
+aDTDMode
 )
 ;
 NS_IMETHOD

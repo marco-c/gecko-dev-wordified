@@ -508,6 +508,13 @@ nsXULElement
 .
 h
 "
+#
+include
+"
+nsIDTD
+.
+h
+"
 class
 nsIDocument
 ;
@@ -567,7 +574,8 @@ NS_OK
 NS_IMETHOD
 WillBuildModel
 (
-void
+nsDTDMode
+aDTDMode
 )
 ;
 NS_IMETHOD

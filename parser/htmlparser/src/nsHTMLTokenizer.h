@@ -657,7 +657,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSITOKENIZER
 nsHTMLTokenizer
 (
-PRInt32
+nsDTDMode
 aParseMode
 =
 eDTDMode_quirks

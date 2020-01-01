@@ -668,6 +668,7 @@ nsSAXXMLReader
 :
 WillBuildModel
 (
+nsDTDMode
 )
 {
 if

@@ -893,6 +893,13 @@ nsIScriptError
 .
 h
 "
+#
+include
+"
+nsIDTD
+.
+h
+"
 /
 /
 /
@@ -1278,7 +1285,8 @@ void
 NS_IMETHOD
 WillBuildModel
 (
-void
+nsDTDMode
+aDTDMode
 )
 ;
 NS_IMETHOD
@@ -3724,7 +3732,7 @@ RDFContentSinkImpl
 :
 WillBuildModel
 (
-void
+nsDTDMode
 )
 {
 if

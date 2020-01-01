@@ -794,7 +794,7 @@ nsHTMLTokenizer
 :
 nsHTMLTokenizer
 (
-PRInt32
+nsDTDMode
 aParseMode
 eParserDocType
 aDocType

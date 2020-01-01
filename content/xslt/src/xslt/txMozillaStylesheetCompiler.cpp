@@ -801,16 +801,6 @@ NS_OK
 ;
 }
 NS_IMETHOD
-WillBuildModel
-(
-void
-)
-{
-return
-NS_OK
-;
-}
-NS_IMETHOD
 DidBuildModel
 (
 )
