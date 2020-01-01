@@ -22438,6 +22438,13 @@ if
 (
 !
 pc
+|
+|
+!
+JS_ON_TRACE
+(
+cx
+)
 )
 {
 JSStackFrame
@@ -22522,6 +22529,13 @@ fp
 -
 >
 imacpc
+;
+}
+else
+{
+pc
+=
+NULL
 ;
 }
 }
