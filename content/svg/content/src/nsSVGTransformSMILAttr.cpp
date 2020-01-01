@@ -1403,7 +1403,7 @@ return
 /
 Success
 !
-Initialize
+Populate
 our
 outparam
 with
@@ -1411,8 +1411,11 @@ parsed
 value
 .
 aResult
-=
+.
+Swap
+(
 val
+)
 ;
 }
 inline
