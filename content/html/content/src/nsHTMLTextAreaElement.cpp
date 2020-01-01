@@ -4585,7 +4585,7 @@ unused
 {
 ContentChanged
 (
-aContainer
+aFirstNewContent
 )
 ;
 }
