@@ -3689,14 +3689,11 @@ gKeyStringBundle
 >
 GetStringFromName
 (
-PromiseFlatString
-(
 NS_LITERAL_STRING
 (
 "
 MODIFIER_SEPARATOR
 "
-)
 )
 .
 get
