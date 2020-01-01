@@ -27824,6 +27824,8 @@ script
 -
 >
 strict
+script
+pc
 )
 )
 return
