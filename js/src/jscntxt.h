@@ -3601,6 +3601,12 @@ wrapObjectCallback
 JSPreWrapCallback
 preWrapObjectCallback
 ;
+js
+:
+:
+PreserveWrapperCallback
+preserveWrapperCallback
+;
 /
 *
 *

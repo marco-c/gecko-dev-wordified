@@ -4060,6 +4060,10 @@ preWrapObjectCallback
 (
 NULL
 )
+preserveWrapperCallback
+(
+NULL
+)
 inOOMReport
 (
 0
