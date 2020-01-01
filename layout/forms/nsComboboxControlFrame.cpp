@@ -3866,7 +3866,7 @@ nsPoint
 nsComboboxControlFrame
 :
 :
-GetCSSTransformTranslate
+GetCSSTransformTranslation
 (
 )
 {
