@@ -98,6 +98,12 @@ FedoraBootstrapper
 from
 mozboot
 .
+gentoo
+import
+GentooBootstrapper
+from
+mozboot
+.
 mint
 import
 MintBootstrapper
@@ -276,6 +282,21 @@ Fedora
 cls
 =
 FedoraBootstrapper
+            
+elif
+distro
+=
+=
+'
+Gentoo
+Base
+System
+'
+:
+                
+cls
+=
+GentooBootstrapper
             
 elif
 distro

@@ -248,6 +248,14 @@ py
 '
 mozboot
 /
+gentoo
+.
+py
+'
+    
+'
+mozboot
+/
 mint
 .
 py
