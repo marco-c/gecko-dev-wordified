@@ -362,10 +362,6 @@ Value
 rval
 )
 {
-AssertCanGC
-(
-)
-;
 RootedFunction
 fun
 (

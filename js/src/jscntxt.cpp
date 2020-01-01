@@ -2795,10 +2795,6 @@ void
 userRef
 )
 {
-AssertCanGC
-(
-)
-;
 /
 *
 *

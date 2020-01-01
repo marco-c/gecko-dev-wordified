@@ -2098,10 +2098,6 @@ Sprinter
 sp
 )
 {
-AssertCanGC
-(
-)
-;
 RootedScript
 script
 (
@@ -2907,10 +2903,6 @@ JSAutoByteString
 bytes
 )
 {
-AssertCanGC
-(
-)
-;
 if
 (
 JSVAL_IS_STRING
@@ -3439,10 +3431,6 @@ Sprinter
 sp
 )
 {
-AssertCanGC
-(
-)
-;
 JSOp
 op
 =
@@ -9386,10 +9374,6 @@ char
 res
 )
 {
-AssertCanGC
-(
-)
-;
 JS_ASSERT
 (
 spindex
@@ -9659,10 +9643,6 @@ int
 skipStackHits
 )
 {
-AssertCanGC
-(
-)
-;
 RootedString
 fallback
 (
@@ -10244,10 +10224,6 @@ HandleValue
 v
 )
 {
-AssertCanGC
-(
-)
-;
 {
 char
 *

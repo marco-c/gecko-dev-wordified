@@ -556,10 +556,6 @@ IonCode
 code
 )
 {
-AssertCanGC
-(
-)
-;
 Linker
 linker
 (
@@ -13176,10 +13172,6 @@ HandleShape
 shape
 )
 {
-AssertCanGC
-(
-)
-;
 MacroAssembler
 masm
 (

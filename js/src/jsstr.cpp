@@ -7562,10 +7562,6 @@ Value
 vp
 )
 {
-AssertCanGC
-(
-)
-;
 CallArgs
 args
 =
@@ -7887,10 +7883,6 @@ Value
 vp
 )
 {
-AssertCanGC
-(
-)
-;
 CallArgs
 args
 =
@@ -8668,10 +8660,6 @@ Value
 vp
 )
 {
-AssertCanGC
-(
-)
-;
 CallArgs
 args
 =
@@ -9012,10 +9000,6 @@ Value
 vp
 )
 {
-AssertCanGC
-(
-)
-;
 CallArgs
 args
 =
@@ -19091,10 +19075,6 @@ result
 )
 const
 {
-AssertCanGC
-(
-)
-;
 const
 jschar
 *
@@ -24907,10 +24887,6 @@ size_t
 lengthp
 )
 {
-AssertCanGC
-(
-)
-;
 size_t
 nchars
 ;
@@ -25044,10 +25020,6 @@ size_t
 lengthp
 )
 {
-AssertCanGC
-(
-)
-;
 size_t
 nchars
 ;

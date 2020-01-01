@@ -1451,10 +1451,6 @@ uint32_t
 nactual
 )
 {
-AssertCanGC
-(
-)
-;
 JSContext
 *
 cx
@@ -2126,10 +2122,6 @@ uint32_t
 argc
 )
 {
-AssertCanGC
-(
-)
-;
 JSContext
 *
 cx
@@ -4920,10 +4912,6 @@ VMFrame
 f
 )
 {
-AssertCanGC
-(
-)
-;
 Probes
 :
 :
@@ -5167,10 +5155,6 @@ void
 edge_
 )
 {
-AssertCanGC
-(
-)
-;
 DebugOnly
 <
 CrossChunkEdge
