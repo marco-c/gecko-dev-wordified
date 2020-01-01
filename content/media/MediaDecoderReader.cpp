@@ -2478,6 +2478,10 @@ mDecoder
 (
 aDecoder
 )
+mIgnoreAudioOutputFormat
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
