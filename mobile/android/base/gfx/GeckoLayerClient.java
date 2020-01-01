@@ -839,13 +839,6 @@ LayerRenderer
 view
 )
 ;
-view
-.
-setLayerRenderer
-(
-mLayerRenderer
-)
-;
 }
 /
 *
