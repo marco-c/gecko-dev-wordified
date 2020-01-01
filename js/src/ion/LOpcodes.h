@@ -726,7 +726,7 @@ StoreSlotT
 \
 _
 (
-GuardShape
+GuardShapeOrType
 )
 \
 _

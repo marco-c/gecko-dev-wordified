@@ -1227,7 +1227,7 @@ s
 shape
 .
 class
-LGuardShape
+LGuardShapeOrType
 :
 public
 LInstructionHelper
@@ -1241,10 +1241,10 @@ public
 :
 LIR_HEADER
 (
-GuardShape
+GuardShapeOrType
 )
 ;
-LGuardShape
+LGuardShapeOrType
 (
 const
 LAllocation
@@ -1270,7 +1270,7 @@ temp
 ;
 }
 const
-MGuardShape
+MGuardShapeOrType
 *
 mir
 (
@@ -1281,7 +1281,7 @@ return
 mir_
 -
 >
-toGuardShape
+toGuardShapeOrType
 (
 )
 ;
