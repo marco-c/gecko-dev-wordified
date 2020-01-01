@@ -681,6 +681,10 @@ RenewSurface
 ;
 #
 endif
+Composite
+(
+)
+;
 /
 /
 if
