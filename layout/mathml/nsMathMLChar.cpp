@@ -15440,15 +15440,6 @@ aCtx
 mFrame
 mVisibleRect
 rect
-*
-border
-*
-mFrame
--
->
-GetStyleOutline
-(
-)
 styleContext
 )
 ;
