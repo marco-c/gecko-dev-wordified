@@ -1156,6 +1156,14 @@ npevent
 )
 ;
 void
+SharedSurfaceSetOrigin
+(
+NPRemoteEvent
+&
+npremoteevent
+)
+;
+void
 SharedSurfaceRelease
 (
 )
@@ -1173,6 +1181,9 @@ mPluginPort
 ;
 nsIntRect
 mSharedSize
+;
+nsIntPoint
+mPluginPosOrigin
 ;
 #
 endif
