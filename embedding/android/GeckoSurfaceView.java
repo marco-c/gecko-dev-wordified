@@ -900,7 +900,7 @@ getResources
 )
 ;
 File
-filesDir
+watchDir
 =
 new
 File
@@ -909,13 +909,13 @@ GeckoApp
 .
 sGREDir
 "
-files
+components
 "
 )
 ;
 if
 (
-filesDir
+watchDir
 .
 exists
 (
