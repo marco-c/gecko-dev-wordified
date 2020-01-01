@@ -108,6 +108,11 @@ include
 <
 vector
 >
+#
+include
+<
+iostream
+>
 namespace
 mozilla
 {
