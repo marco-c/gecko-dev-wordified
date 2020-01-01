@@ -1413,13 +1413,9 @@ loop
 header
 down
 to
-their
-corresponding
-/
-/
-in
+this
 successor
-blocks
+block
 .
 void
 inheritPhis
