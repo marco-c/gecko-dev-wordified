@@ -1623,12 +1623,12 @@ beginTransaction
 if
 (
 mMode
-=
+!
 =
 nsIIDBTransaction
 :
 :
-READ_WRITE
+READ_ONLY
 )
 {
 beginTransaction
@@ -4964,7 +4964,7 @@ NS_NAMED_LITERAL_CSTRING
 (
 release
 "
-END
+COMMIT
 TRANSACTION
 "
 )
