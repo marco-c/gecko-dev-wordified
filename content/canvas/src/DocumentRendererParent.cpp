@@ -166,7 +166,7 @@ gfxImageSurface
 (
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 >
 (
