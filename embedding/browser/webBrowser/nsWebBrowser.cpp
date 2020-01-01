@@ -577,13 +577,6 @@ h
 #
 include
 "
-nsIGlobalHistory
-.
-h
-"
-#
-include
-"
 nsIDocShellHistory
 .
 h

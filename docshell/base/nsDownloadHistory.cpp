@@ -466,13 +466,6 @@ h
 #
 include
 "
-nsIGlobalHistory
-.
-h
-"
-#
-include
-"
 nsIGlobalHistory2
 .
 h
