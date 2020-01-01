@@ -15661,10 +15661,6 @@ end
 (
 buf
 )
-core
-(
-core
-)
 {
 }
 LabelMap
