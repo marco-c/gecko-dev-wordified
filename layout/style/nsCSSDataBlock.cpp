@@ -451,7 +451,7 @@ aValue
 .
 GetImageValue
 (
-nsnull
+nullptr
 )
 ;
 if
