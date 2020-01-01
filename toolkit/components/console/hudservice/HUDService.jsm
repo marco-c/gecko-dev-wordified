@@ -22746,7 +22746,12 @@ aInputValue
 let
 obj
 =
+XPCNativeWrapper
+.
+unwrap
+(
 aScope
+)
 ;
 /
 /
