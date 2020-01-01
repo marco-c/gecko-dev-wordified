@@ -2883,7 +2883,7 @@ ntokens
 1
 current
 +
-2
+3
 lookahead
 rounded
 to
@@ -3853,9 +3853,9 @@ lookahead
 JS_ASSERT
 (
 lookahead
+<
 =
-=
-1
+2
 )
 ;
 return
@@ -3943,9 +3943,9 @@ lookahead
 JS_ASSERT
 (
 lookahead
+<
 =
-=
-1
+2
 )
 ;
 return
