@@ -1604,9 +1604,6 @@ namespace
 js
 *
 /
-#
-if
-ENABLE_ASSEMBLER
 namespace
 JSC
 {
@@ -1620,8 +1617,6 @@ namespace
 JSC
 *
 /
-#
-endif
 namespace
 WTF
 {

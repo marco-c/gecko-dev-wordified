@@ -844,9 +844,6 @@ unused
 =
 0
 ;
-#
-if
-ENABLE_ASSEMBLER
 if
 (
 execAlloc_
@@ -884,8 +881,6 @@ regexp
 code
 *
 /
-#
-endif
 *
 regexpCode
 =
@@ -982,9 +977,6 @@ jitHardening
 =
 enabled
 ;
-#
-if
-ENABLE_ASSEMBLER
 if
 (
 execAlloc_
@@ -997,12 +989,7 @@ setRandomize
 enabled
 )
 ;
-#
-endif
 }
-#
-if
-ENABLE_ASSEMBLER
 JSC
 :
 :
@@ -1080,8 +1067,6 @@ return
 execAlloc_
 ;
 }
-#
-endif
 WTF
 :
 :
