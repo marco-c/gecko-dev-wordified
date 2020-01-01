@@ -8412,6 +8412,16 @@ yieldpc
 =
 =
 JSOP_YIELD
+|
+|
+JSOp
+(
+*
+yieldpc
+)
+=
+=
+JSOP_TRAP
 )
 ;
 script
