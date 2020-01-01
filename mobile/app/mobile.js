@@ -4142,7 +4142,7 @@ zoom
 .
 pageFitGranularity
 "
-9
+5
 )
 ;
 /
@@ -4158,7 +4158,11 @@ less
 than
 1
 /
-9
+5
+(
+20
+%
+)
 pref
 (
 "
