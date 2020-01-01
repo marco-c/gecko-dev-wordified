@@ -1080,6 +1080,8 @@ PRUnichar
 *
 str
 PRUint32
+offset
+PRUint32
 len
 )
 ;
