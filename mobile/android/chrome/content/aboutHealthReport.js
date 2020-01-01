@@ -964,7 +964,7 @@ Show
 resource
 :
 "
-preferences_datareporting
+preferences_vendor
 "
 }
 )
