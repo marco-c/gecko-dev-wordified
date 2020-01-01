@@ -940,6 +940,14 @@ getParent
 )
 )
 ;
+if
+(
+!
+expando
+)
+return
+NULL
+;
 holder
 -
 >
