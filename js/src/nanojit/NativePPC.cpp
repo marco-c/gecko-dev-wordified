@@ -4389,7 +4389,7 @@ i
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -5371,7 +5371,7 @@ p
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -8164,7 +8164,7 @@ if
 op
 =
 =
-LIR_param
+LIR_iparam
 )
 {
 if

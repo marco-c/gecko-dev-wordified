@@ -5034,7 +5034,7 @@ line
 break
 ;
 case
-LIR_param
+LIR_iparam
 :
 need
 (
@@ -5069,7 +5069,7 @@ toks
 break
 ;
 case
-LIR_alloc
+LIR_ialloc
 :
 need
 (

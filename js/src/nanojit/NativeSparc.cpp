@@ -2263,7 +2263,7 @@ i
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -2548,7 +2548,7 @@ base
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -2778,7 +2778,7 @@ base
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -3137,7 +3137,7 @@ base
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -3186,7 +3186,7 @@ base
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -4671,7 +4671,7 @@ LIR_add
 op
 =
 =
-LIR_addp
+LIR_iaddp
 )
 &
 &
@@ -4680,7 +4680,7 @@ lhs
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 &
 &
@@ -4842,7 +4842,7 @@ LIR_add
 op
 =
 =
-LIR_addp
+LIR_iaddp
 )
 ADDCC
 (
@@ -5004,7 +5004,7 @@ LIR_add
 op
 =
 =
-LIR_addp
+LIR_iaddp
 )
 {
 ADDCC

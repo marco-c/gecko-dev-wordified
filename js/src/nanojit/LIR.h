@@ -2860,7 +2860,7 @@ ins
 /
 Used
 for
-LIR_param
+LIR_iparam
 .
 class
 LInsP
@@ -2911,7 +2911,7 @@ Used
 for
 LIR_int
 and
-LIR_alloc
+LIR_ialloc
 .
 class
 LInsI
@@ -4136,7 +4136,7 @@ lastWord
 .
 opcode
 =
-LIR_param
+LIR_iparam
 ;
 NanoAssert
 (
@@ -4385,7 +4385,7 @@ NanoAssert
 (
 isop
 (
-LIR_param
+LIR_iparam
 )
 )
 ;
@@ -4409,7 +4409,7 @@ NanoAssert
 (
 isop
 (
-LIR_param
+LIR_iparam
 )
 )
 ;
@@ -4551,7 +4551,7 @@ NanoAssert
 (
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 ;

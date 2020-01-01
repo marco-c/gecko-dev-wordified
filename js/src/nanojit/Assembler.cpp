@@ -1768,7 +1768,7 @@ i
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 ;
 }
@@ -2699,7 +2699,7 @@ ins
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -3296,7 +3296,7 @@ i
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -3343,7 +3343,7 @@ i
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -3941,7 +3941,7 @@ opcode
 )
 =
 =
-LIR_param
+LIR_iparam
 |
 |
 i
@@ -5316,14 +5316,10 @@ ReverseLister
 pp_init
 =
 NULL
-;
-ReverseLister
 *
 pp_after_sf1
 =
 NULL
-;
-ReverseLister
 *
 pp_after_sf2
 =
@@ -8005,7 +8001,7 @@ stack
 space
 .
 case
-LIR_alloc
+LIR_ialloc
 :
 {
 countlir_alloc
@@ -8178,7 +8174,7 @@ break
 #
 endif
 case
-LIR_param
+LIR_iparam
 :
 {
 countlir_param
@@ -8354,7 +8350,7 @@ case
 LIR_add
 :
 case
-LIR_addp
+LIR_iaddp
 :
 case
 LIR_sub
@@ -10526,7 +10522,7 @@ l
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 ?
 (
