@@ -550,6 +550,14 @@ mozilla_sampler_add_marker
 (
 info
 )
+#
+define
+SAMPLER_PRINT_LOCATION
+(
+)
+mozilla_sampler_print_location
+(
+)
 /
 *
 we
@@ -1341,6 +1349,11 @@ mozilla_sampler_get_features
 ;
 void
 mozilla_sampler_init
+(
+)
+;
+void
+mozilla_sampler_print_location
 (
 )
 ;
