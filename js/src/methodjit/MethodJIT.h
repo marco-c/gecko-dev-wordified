@@ -3094,6 +3094,8 @@ cx
 JSScript
 *
 script
+bool
+normal
 )
 ;
 /

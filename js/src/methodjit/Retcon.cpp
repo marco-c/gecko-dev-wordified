@@ -4299,6 +4299,14 @@ ReleaseScriptCode
 (
 cx
 script
+true
+)
+;
+ReleaseScriptCode
+(
+cx
+script
+false
 )
 ;
 if

@@ -11165,6 +11165,17 @@ ReleaseScriptCode
 (
 cx
 script
+true
+)
+;
+mjit
+:
+:
+ReleaseScriptCode
+(
+cx
+script
+false
 )
 ;
 #

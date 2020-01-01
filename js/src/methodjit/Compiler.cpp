@@ -2470,6 +2470,7 @@ ReleaseScriptCode
 (
 cx
 outerScript
+true
 )
 ;
 return
@@ -2535,6 +2536,7 @@ ReleaseScriptCode
 (
 cx
 outerScript
+true
 )
 ;
 return
