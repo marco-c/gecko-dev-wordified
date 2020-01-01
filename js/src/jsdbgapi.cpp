@@ -990,6 +990,9 @@ iter
 =
 NULL
 ;
+#
+ifdef
+JS_THREADSAFE
 jsword
 currentThreadId
 =
@@ -1003,6 +1006,8 @@ js_CurrentThreadId
 )
 )
 ;
+#
+endif
 typedef
 HashSet
 <
@@ -1053,6 +1058,9 @@ iter
 )
 )
 {
+#
+ifdef
+JS_THREADSAFE
 if
 (
 JS_GetContextThread
@@ -1065,6 +1073,8 @@ currentThreadId
 )
 continue
 ;
+#
+endif
 for
 (
 AllFramesIter
