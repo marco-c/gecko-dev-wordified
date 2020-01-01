@@ -5056,6 +5056,12 @@ passphrase
 =
 newphrase
 ;
+this
+.
+persistLogin
+(
+)
+;
 /
 *
 Login
