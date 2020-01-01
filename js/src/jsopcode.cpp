@@ -11296,7 +11296,6 @@ jp
 ;
 JSOp
 op
-saveop
 ;
 const
 JSCodeSpec
@@ -11507,10 +11506,6 @@ LOAD_OP_DATA
 (
 pc
 )
-;
-saveop
-=
-op
 ;
 switch
 (
