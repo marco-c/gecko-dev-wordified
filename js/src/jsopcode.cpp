@@ -33235,13 +33235,13 @@ pc
 ;
 JS_ASSERT
 (
-pc
->
-=
 script
 -
 >
-main
+code
+<
+=
+pc
 &
 &
 pc
@@ -33884,7 +33884,7 @@ JS_ASSERT
 script
 -
 >
-main
+code
 <
 =
 pc
