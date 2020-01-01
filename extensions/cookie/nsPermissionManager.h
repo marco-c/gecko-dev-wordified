@@ -1102,6 +1102,10 @@ uint32_t
 aExpireType
 int64_t
 aExpireTime
+uint32_t
+aAppId
+bool
+aIsInBrowserElement
 )
 ;
 nsCOMPtr
