@@ -544,7 +544,7 @@ obj
 )
 ;
 static
-bool
+JSBool
 AddFunction
 (
 JSContext

@@ -489,7 +489,7 @@ the
 global
 object
 .
-bool
+JSBool
 Init
 (
 JSContext
