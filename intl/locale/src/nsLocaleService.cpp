@@ -1056,6 +1056,7 @@ return
 Get
 system
 configuration
+const
 char
 *
 lang
@@ -1141,18 +1142,10 @@ IsEmpty
 {
 lang
 =
-static_cast
-<
-const
-char
-*
->
-(
 gconfLocaleString
 .
 get
 (
-)
 )
 ;
 /
