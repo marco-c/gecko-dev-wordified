@@ -4148,10 +4148,8 @@ if
 onError
 )
 {
-AutoAtomicIncrement
-incr
-(
-&
++
++
 cx
 -
 >
@@ -4159,7 +4157,6 @@ runtime
 -
 >
 inOOMReport
-)
 ;
 onError
 (
@@ -4168,6 +4165,16 @@ msg
 &
 report
 )
+;
+-
+-
+cx
+-
+>
+runtime
+-
+>
+inOOMReport
 ;
 }
 }
