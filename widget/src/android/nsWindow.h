@@ -1128,6 +1128,14 @@ GetThebesSurface
 (
 )
 ;
+NS_IMETHOD
+ReparentNativeWidget
+(
+nsIWidget
+*
+aNewParent
+)
+;
 protected
 :
 void

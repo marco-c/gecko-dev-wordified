@@ -1322,6 +1322,14 @@ AreBoundsSane
 void
 )
 ;
+NS_IMETHOD
+ReparentNativeWidget
+(
+nsIWidget
+*
+aNewParent
+)
+;
 protected
 :
 nsCOMPtr
