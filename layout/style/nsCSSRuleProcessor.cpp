@@ -6213,10 +6213,6 @@ mRuleWalker
 (
 aRuleWalker
 )
-mScopedRoot
-(
-nsnull
-)
 mPreviousSiblingData
 (
 nsnull
