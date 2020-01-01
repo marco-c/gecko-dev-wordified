@@ -1891,10 +1891,15 @@ DOMCI_CLASS
 (
 LockedFile
 )
+#
+ifdef
+MOZ_SYS_MSG
 DOMCI_CLASS
 (
 MozActivity
 )
+#
+endif
 DOMCI_CLASS
 (
 MozTimeManager
