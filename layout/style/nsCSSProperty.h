@@ -585,8 +585,7 @@ eCSSType_Value
 eCSSType_Rect
 eCSSType_ValuePair
 eCSSType_ValueList
-eCSSType_CounterData
-eCSSType_Quotes
+eCSSType_ValuePairList
 }
 ;
 #

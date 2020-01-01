@@ -685,10 +685,10 @@ protected
 nsCSSValueList
 mInheritList
 ;
-nsCSSQuotes
+nsCSSValuePairList
 mInheritQuotes
 ;
-nsCSSCounterData
+nsCSSValuePairList
 mNoneCounter
 ;
 }
@@ -708,7 +708,7 @@ eCSSUnit_None
 ;
 mNoneCounter
 .
-mCounter
+mXValue
 =
 none
 ;
@@ -726,7 +726,7 @@ inherit
 ;
 mInheritQuotes
 .
-mOpen
+mXValue
 =
 inherit
 ;
