@@ -852,6 +852,13 @@ gfxRect
 .
 h
 "
+#
+include
+"
+ImageLayers
+.
+h
+"
 /
 /
 sizes
@@ -920,10 +927,6 @@ PRUint8
 -
 1
 )
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
