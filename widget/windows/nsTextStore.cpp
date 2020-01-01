@@ -375,16 +375,6 @@ endif
 #
 ifdef
 PR_LOGGING
-#
-define
-IS_SEARCH
-static_cast
-<
-InputScope
->
-(
-50
-)
 /
 *
 *
