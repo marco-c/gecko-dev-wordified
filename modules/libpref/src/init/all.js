@@ -669,9 +669,12 @@ disk
 .
 capacity
 "
-51200
+256000
 )
 ;
+/
+/
+250MB
 #
 else
 pref
