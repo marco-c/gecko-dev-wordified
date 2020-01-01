@@ -501,13 +501,6 @@ h
 #
 include
 "
-jsproxy
-.
-h
-"
-#
-include
-"
 jsscope
 .
 h
@@ -572,13 +565,6 @@ h
 include
 "
 jsstr
-.
-h
-"
-#
-include
-"
-jsfuninlines
 .
 h
 "
