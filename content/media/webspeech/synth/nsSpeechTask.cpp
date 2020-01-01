@@ -391,10 +391,11 @@ mStarted
 /
 /
 nsSpeechTask
-NS_IMPL_CYCLE_COLLECTION_1
+NS_IMPL_CYCLE_COLLECTION_2
 (
 nsSpeechTask
 mSpeechSynthesis
+mUtterance
 )
 ;
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
