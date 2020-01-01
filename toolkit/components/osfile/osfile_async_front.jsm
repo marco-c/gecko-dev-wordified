@@ -861,11 +861,7 @@ osfile_async_worker
 .
 js
 "
-DEBUG
-?
 LOG
-:
-null
 )
 ;
 let
