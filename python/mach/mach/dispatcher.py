@@ -1147,6 +1147,18 @@ in
 sorted_cats
 :
             
+if
+not
+r
+.
+commands_by_category
+[
+category
+]
+:
+                
+continue
+            
 title
 description
 _priority
