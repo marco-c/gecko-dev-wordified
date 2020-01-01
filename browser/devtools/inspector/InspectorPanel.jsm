@@ -1726,7 +1726,7 @@ devtools
 /
 cssruleview
 .
-xul
+xhtml
 "
 "
 ruleview
@@ -1756,9 +1756,9 @@ content
 /
 devtools
 /
-csshtmltree
+computedview
 .
-xul
+xhtml
 "
 "
 computedview

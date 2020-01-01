@@ -5282,7 +5282,7 @@ expander
 setAttribute
 (
 "
-expanded
+open
 "
 "
 "
@@ -5336,7 +5336,7 @@ expander
 removeAttribute
 (
 "
-expanded
+open
 "
 )
 ;
@@ -5470,6 +5470,8 @@ classList
 add
 (
 "
+theme
+-
 selected
 "
 )
@@ -5494,6 +5496,8 @@ classList
 add
 (
 "
+theme
+-
 selected
 "
 )
@@ -5513,6 +5517,8 @@ classList
 remove
 (
 "
+theme
+-
 selected
 "
 )
@@ -5537,6 +5543,8 @@ classList
 remove
 (
 "
+theme
+-
 selected
 "
 )

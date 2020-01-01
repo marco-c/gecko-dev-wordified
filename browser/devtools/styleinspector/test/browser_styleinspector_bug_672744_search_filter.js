@@ -421,7 +421,9 @@ querySelector
 (
 "
 .
-searchfield
+devtools
+-
+searchinput
 "
 )
 ;
