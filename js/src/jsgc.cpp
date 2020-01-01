@@ -7211,9 +7211,10 @@ top
 ;
 while
 (
+!
 frames
 .
-more
+done
 (
 )
 )
