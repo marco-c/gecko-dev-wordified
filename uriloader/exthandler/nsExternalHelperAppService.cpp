@@ -8184,9 +8184,6 @@ aURI
 nsCAutoString
 scheme
 ;
-(
-void
-)
 aURI
 -
 >
