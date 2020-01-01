@@ -687,7 +687,7 @@ bool
 mReceiveVgsFlag
 ;
 bool
-mBLDNProcessed
+mDialingRequestProcessed
 ;
 bool
 mIsHandsfree
