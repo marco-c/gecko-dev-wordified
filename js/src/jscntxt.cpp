@@ -13391,7 +13391,7 @@ opportunity
 .
 *
 /
-JS_ATOMIC_UNSET_MASK
+JS_ATOMIC_CLEAR_MASK
 (
 &
 cx

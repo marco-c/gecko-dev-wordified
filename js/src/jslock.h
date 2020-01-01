@@ -2484,7 +2484,7 @@ swap
 /
 extern
 void
-js_AtomicUnsetMask
+js_AtomicClearMask
 (
 jsword
 *
@@ -2507,12 +2507,12 @@ mask
 )
 #
 define
-JS_ATOMIC_UNSET_MASK
+JS_ATOMIC_CLEAR_MASK
 (
 w
 mask
 )
-js_AtomicUnsetMask
+js_AtomicClearMask
 (
 w
 mask
@@ -2571,7 +2571,7 @@ mask
 )
 #
 define
-JS_ATOMIC_UNSET_MASK
+JS_ATOMIC_CLEAR_MASK
 (
 w
 mask
