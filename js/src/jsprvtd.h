@@ -931,6 +931,17 @@ typedef
 JS
 :
 :
+MutableHandle
+<
+JSAtom
+*
+>
+MutableHandleAtom
+;
+typedef
+JS
+:
+:
 Rooted
 <
 Shape
