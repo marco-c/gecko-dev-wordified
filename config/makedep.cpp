@@ -488,17 +488,6 @@ bSimple
 =
 FALSE
 ;
-/
-/
-freopen
-won
-'
-t
-work
-on
-stdout
-in
-win16
 FILE
 *
 pAltFile
