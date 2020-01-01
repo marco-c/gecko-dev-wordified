@@ -39065,7 +39065,6 @@ NoCompilerRunning
 ;
 if
 (
-!
 isCompiling
 &
 &
