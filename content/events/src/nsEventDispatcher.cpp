@@ -3889,7 +3889,7 @@ SetTrusted
 nsContentUtils
 :
 :
-IsCallerChrome
+ThreadsafeIsCallerChrome
 (
 )
 )
