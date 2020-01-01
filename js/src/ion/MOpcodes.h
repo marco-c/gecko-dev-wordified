@@ -687,6 +687,11 @@ _
 (
 StoreElement
 )
+\
+_
+(
+LoadProperty
+)
 /
 /
 Forward

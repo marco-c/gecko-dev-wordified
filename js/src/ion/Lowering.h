@@ -1138,6 +1138,14 @@ MGuardClass
 ins
 )
 ;
+bool
+visitLoadProperty
+(
+MLoadProperty
+*
+ins
+)
+;
 }
 ;
 }

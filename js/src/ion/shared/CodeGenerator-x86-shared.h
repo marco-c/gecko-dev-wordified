@@ -1063,6 +1063,15 @@ LGuardClass
 guard
 )
 ;
+virtual
+bool
+visitLoadPropertyGeneric
+(
+LLoadPropertyGeneric
+*
+ins
+)
+;
 /
 /
 Out
