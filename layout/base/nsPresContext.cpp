@@ -9969,7 +9969,7 @@ GetArrayValue
 (
 )
 ;
-PRUint32
+size_t
 i
 numSrc
 =
