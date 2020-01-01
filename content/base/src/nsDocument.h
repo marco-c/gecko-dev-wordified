@@ -4268,6 +4268,15 @@ nsINode
 aOther
 )
 ;
+virtual
+void
+GetTextContent
+(
+nsAString
+&
+aTextContent
+)
+;
 /
 /
 nsIRadioGroupContainer
