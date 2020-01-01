@@ -1398,7 +1398,7 @@ bug
 391848
 and
 bug
-415252
+415426
 .
 return
 dhwEnumerateLoadedModules
