@@ -117,13 +117,6 @@ h
 #
 include
 "
-nsIDocShellTreeItem
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h
