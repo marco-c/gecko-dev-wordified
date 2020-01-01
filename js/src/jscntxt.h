@@ -4508,6 +4508,11 @@ cx
 )
 ;
 void
+finishSelfHosting
+(
+)
+;
+void
 markSelfHostingGlobal
 (
 JSTracer
