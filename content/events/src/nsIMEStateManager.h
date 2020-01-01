@@ -807,6 +807,15 @@ aContent
 )
 ;
 static
+bool
+IsEditableIMEState
+(
+nsIWidget
+*
+aWidget
+)
+;
+static
 nsIContent
 *
 sContent
