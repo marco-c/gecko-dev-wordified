@@ -507,6 +507,15 @@ Carbon
 .
 h
 >
+#
+import
+<
+Cocoa
+/
+Cocoa
+.
+h
+>
 class
 nsMenuItemIconX
 :
@@ -526,6 +535,9 @@ aMenu
 nsIContent
 *
 aContent
+NSMenuItem
+*
+aNativeMenuItem
 )
 ;
 private
@@ -695,6 +707,10 @@ mLoadedIcon
 ;
 PRPackedBool
 mSetIcon
+;
+NSMenuItem
+*
+mNativeMenuItem
 ;
 }
 ;
