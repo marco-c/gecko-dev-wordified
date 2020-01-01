@@ -1914,6 +1914,9 @@ aName
 return
 engine
 ;
+return
+null
+;
 }
 _cloneEngine
 :
