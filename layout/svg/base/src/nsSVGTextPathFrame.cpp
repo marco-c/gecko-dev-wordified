@@ -968,6 +968,10 @@ nsSVGElement
 *
 mContent
 )
+nsSVGUtils
+:
+:
+X
 )
 ;
 if

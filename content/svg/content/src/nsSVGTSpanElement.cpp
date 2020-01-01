@@ -975,6 +975,10 @@ getter_AddRefs
 lengthList
 )
 this
+nsSVGUtils
+:
+:
+X
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1048,6 +1052,10 @@ getter_AddRefs
 lengthList
 )
 this
+nsSVGUtils
+:
+:
+Y
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1121,6 +1129,10 @@ getter_AddRefs
 lengthList
 )
 this
+nsSVGUtils
+:
+:
+X
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1194,6 +1206,10 @@ getter_AddRefs
 lengthList
 )
 this
+nsSVGUtils
+:
+:
+Y
 )
 ;
 NS_ENSURE_SUCCESS
