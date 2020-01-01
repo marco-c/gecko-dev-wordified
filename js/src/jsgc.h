@@ -3209,15 +3209,6 @@ cx
 ;
 extern
 void
-ShrinkGCBuffers
-(
-JSRuntime
-*
-rt
-)
-;
-extern
-void
 ReleaseAllJITCode
 (
 FreeOp

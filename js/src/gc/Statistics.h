@@ -158,6 +158,15 @@ jsutil
 .
 h
 "
+#
+include
+"
+js
+/
+GCAPI
+.
+h
+"
 struct
 JSCompartment
 ;

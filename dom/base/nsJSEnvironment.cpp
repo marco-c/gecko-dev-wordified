@@ -953,7 +953,7 @@ PRTime
 sCCLockedOutTime
 ;
 static
-js
+JS
 :
 :
 GCSliceCallback
@@ -1393,7 +1393,7 @@ nsJSContext
 :
 GarbageCollectNow
 (
-js
+JS
 :
 :
 gcreason
@@ -7004,7 +7004,7 @@ mGCOnDestruction
 {
 PokeGC
 (
-js
+JS
 :
 :
 gcreason
@@ -13900,7 +13900,7 @@ GarbageCollectNow
 (
 static_cast
 <
-js
+JS
 :
 :
 gcreason
@@ -13927,7 +13927,7 @@ nsJSContext
 :
 GarbageCollectNow
 (
-js
+JS
 :
 :
 gcreason
@@ -14107,7 +14107,7 @@ Do
 another
 slice
 .
-js
+JS
 :
 :
 PrepareForIncrementalGC
@@ -14118,7 +14118,7 @@ nsJSRuntime
 sRuntime
 )
 ;
-js
+JS
 :
 :
 IncrementalGC
@@ -14196,7 +14196,7 @@ sCompartmentGCCount
 NS_MAX_COMPARTMENT_GC_COUNT
 )
 {
-js
+JS
 :
 :
 PrepareForFullGC
@@ -14254,7 +14254,7 @@ GetNativeGlobal
 )
 )
 {
-js
+JS
 :
 :
 SkipCompartmentForGC
@@ -14280,7 +14280,7 @@ false
 }
 if
 (
-js
+JS
 :
 :
 IsGCScheduled
@@ -14300,7 +14300,7 @@ aIncremental
 IncrementalGC
 )
 {
-js
+JS
 :
 :
 IncrementalGC
@@ -14316,7 +14316,7 @@ aSliceMillis
 }
 else
 {
-js
+JS
 :
 :
 GCForReason
@@ -14359,7 +14359,7 @@ mActive
 false
 ;
 }
-js
+JS
 :
 :
 PrepareForFullGC
@@ -14378,7 +14378,7 @@ aIncremental
 IncrementalGC
 )
 {
-js
+JS
 :
 :
 IncrementalGC
@@ -14394,7 +14394,7 @@ aSliceMillis
 }
 else
 {
-js
+JS
 :
 :
 GCForReason
@@ -14433,7 +14433,10 @@ KillShrinkGCBuffersTimer
 (
 )
 ;
-JS_ShrinkGCBuffers
+JS
+:
+:
+ShrinkGCBuffers
 (
 nsJSRuntime
 :
@@ -14568,7 +14571,7 @@ global
 {
 if
 (
-js
+JS
 :
 :
 GCThingIsMarkedGray
@@ -14791,7 +14794,7 @@ so
 finish
 it
 .
-js
+JS
 :
 :
 PrepareForIncrementalGC
@@ -14802,7 +14805,7 @@ nsJSRuntime
 sRuntime
 )
 ;
-js
+JS
 :
 :
 FinishIncrementalGC
@@ -14811,7 +14814,7 @@ nsJSRuntime
 :
 :
 sRuntime
-js
+JS
 :
 :
 gcreason
@@ -15222,7 +15225,7 @@ sCCollectedWaitingForGC
 {
 PokeGC
 (
-js
+JS
 :
 :
 gcreason
@@ -16063,7 +16066,7 @@ nsJSContext
 :
 GarbageCollectNow
 (
-js
+JS
 :
 :
 gcreason
@@ -16123,7 +16126,7 @@ GarbageCollectNow
 (
 static_cast
 <
-js
+JS
 :
 :
 gcreason
@@ -16736,7 +16739,7 @@ false
 ;
 PokeGC
 (
-js
+JS
 :
 :
 gcreason
@@ -16755,7 +16758,7 @@ nsJSContext
 :
 PokeGC
 (
-js
+JS
 :
 :
 gcreason
@@ -17181,7 +17184,7 @@ nsJSContext
 :
 GC
 (
-js
+JS
 :
 :
 gcreason
@@ -17333,13 +17336,13 @@ DOMGCSliceCallback
 JSRuntime
 *
 aRt
-js
+JS
 :
 :
 GCProgress
 aProgress
 const
-js
+JS
 :
 :
 GCDescription
@@ -17368,7 +17371,7 @@ if
 aProgress
 =
 =
-js
+JS
 :
 :
 GC_CYCLE_END
@@ -17535,7 +17538,7 @@ if
 aProgress
 =
 =
-js
+JS
 :
 :
 GC_CYCLE_BEGIN
@@ -17559,7 +17562,7 @@ if
 aProgress
 =
 =
-js
+JS
 :
 :
 GC_CYCLE_END
@@ -17590,7 +17593,7 @@ if
 aProgress
 =
 =
-js
+JS
 :
 :
 GC_SLICE_END
@@ -17645,7 +17648,7 @@ if
 aProgress
 =
 =
-js
+JS
 :
 :
 GC_CYCLE_END
@@ -17725,7 +17728,7 @@ timer
 sFullGCTimer
 )
 ;
-js
+JS
 :
 :
 gcreason
@@ -17734,7 +17737,7 @@ gcreason
 Reason
 reason
 =
-js
+JS
 :
 :
 gcreason
@@ -19485,7 +19488,7 @@ bad
 ;
 sPrevGCSliceCallback
 =
-js
+JS
 :
 :
 SetGCSliceCallback
