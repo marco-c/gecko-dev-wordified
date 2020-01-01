@@ -848,7 +848,7 @@ above
 #
 ifdef
 DEBUG
-PRPtrdiff
+ptrdiff_t
 diff
 =
 reinterpret_cast

@@ -630,7 +630,7 @@ return
 PLDHashNumber
 )
 (
-PRPtrdiff
+ptrdiff_t
 )
 key
 >

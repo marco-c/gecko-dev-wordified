@@ -3961,7 +3961,7 @@ Elements
 \
 (
 (
-PRPtrdiff
+ptrdiff_t
 )
 arr
 .
@@ -3970,7 +3970,7 @@ Elements
 )
 -
 (
-PRPtrdiff
+ptrdiff_t
 )
 &
 arr
