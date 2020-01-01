@@ -481,7 +481,7 @@ range
 [
 start
 end
-)
+]
 *
 /
 inline
@@ -511,6 +511,7 @@ start
 &
 ptr
 <
+=
 end
 ;
 }

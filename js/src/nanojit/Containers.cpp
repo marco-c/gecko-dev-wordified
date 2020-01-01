@@ -465,6 +465,9 @@ nanojit
 .
 h
 "
+#
+ifdef
+FEATURE_NANOJIT
 namespace
 nanojit
 {
@@ -789,3 +792,8 @@ bits2
 ;
 }
 }
+#
+endif
+/
+/
+FEATURE_NANOJIT

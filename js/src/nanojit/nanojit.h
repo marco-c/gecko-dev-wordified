@@ -466,13 +466,6 @@ define
 __nanojit_h__
 #
 include
-<
-stddef
-.
-h
->
-#
-include
 "
 avmplus
 .
@@ -730,13 +723,6 @@ avmplus
 :
 AvmCore
 AvmCore
-;
-typedef
-avmplus
-:
-:
-OSDep
-OSDep
 ;
 const
 uint32_t

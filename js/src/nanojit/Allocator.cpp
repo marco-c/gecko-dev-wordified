@@ -465,6 +465,9 @@ nanojit
 .
 h
 "
+#
+ifdef
+FEATURE_NANOJIT
 namespace
 nanojit
 {
@@ -707,3 +710,8 @@ chunkbytes
 ;
 }
 }
+#
+endif
+/
+/
+FEATURE_NANOJIT
