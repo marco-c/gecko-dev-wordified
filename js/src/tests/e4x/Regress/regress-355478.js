@@ -150,10 +150,10 @@ expect
 '
 TypeError
 :
-<
-x
-/
->
+(
+intermediate
+value
+)
 .
 hasOwnProperty
 is

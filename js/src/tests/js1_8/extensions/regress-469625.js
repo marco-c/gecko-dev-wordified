@@ -365,8 +365,10 @@ expect
 '
 TypeError
 :
-[
-]
+(
+intermediate
+value
+)
 .
 __proto__
 is

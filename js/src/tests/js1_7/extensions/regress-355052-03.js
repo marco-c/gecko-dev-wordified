@@ -397,7 +397,8 @@ expect
 /
 TypeError
 :
-NaN
+.
++
 is
 not
 a
