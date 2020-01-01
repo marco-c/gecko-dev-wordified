@@ -10419,7 +10419,9 @@ error
 ;
 if
 (
-mCanvasElement
+HTMLCanvasElement
+(
+)
 -
 >
 IsWriteOnly
@@ -11056,7 +11058,9 @@ CanvasUtils
 :
 DoDrawImageSecurityCheck
 (
-mCanvasElement
+HTMLCanvasElement
+(
+)
 res
 .
 mPrincipal
@@ -15684,7 +15688,9 @@ NS_ERROR_FAILURE
 ;
 if
 (
-mCanvasElement
+HTMLCanvasElement
+(
+)
 -
 >
 IsWriteOnly
