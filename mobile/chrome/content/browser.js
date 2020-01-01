@@ -21775,6 +21775,12 @@ doc
 subject
 .
 ownerDocument
+.
+defaultView
+.
+top
+.
+document
 ;
 if
 (
