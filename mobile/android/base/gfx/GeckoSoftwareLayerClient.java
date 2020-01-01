@@ -1517,7 +1517,7 @@ oom
 {
 Log
 .
-e
+w
 (
 LOGTAG
 "
