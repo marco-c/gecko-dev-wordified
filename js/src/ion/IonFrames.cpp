@@ -1478,10 +1478,6 @@ uint32_t
 localSlot
 )
 {
-AssertCanGC
-(
-)
-;
 SnapshotIterator
 si
 =
@@ -1611,10 +1607,6 @@ InlineFrameIterator
 frame
 )
 {
-AssertCanGC
-(
-)
-;
 RootedScript
 script
 (
@@ -1813,10 +1805,6 @@ ResumeFromException
 rfe
 )
 {
-AssertCanGC
-(
-)
-;
 JSContext
 *
 cx

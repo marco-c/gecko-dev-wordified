@@ -1110,10 +1110,6 @@ JSFunction
 target
 )
 {
-AssertCanGC
-(
-)
-;
 if
 (
 !
@@ -5252,10 +5248,6 @@ JSOp
 op
 )
 {
-AssertCanGC
-(
-)
-;
 /
 /
 Don
@@ -18420,10 +18412,6 @@ CallInfo
 callInfo
 )
 {
-AssertCanGC
-(
-)
-;
 JS_ASSERT
 (
 target
@@ -19964,10 +19952,6 @@ AutoObjectVector
 targets
 )
 {
-AssertCanGC
-(
-)
-;
 /
 /
 For
@@ -27335,10 +27319,6 @@ bool
 constructing
 )
 {
-AssertCanGC
-(
-)
-;
 /
 /
 Acquire
@@ -45060,10 +45040,6 @@ UnaryTypes
 unaryTypes
 )
 {
-AssertCanGC
-(
-)
-;
 JS_ASSERT
 (
 *

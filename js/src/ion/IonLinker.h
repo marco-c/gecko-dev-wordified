@@ -221,10 +221,6 @@ IonCompartment
 comp
 )
 {
-AssertCanGC
-(
-)
-;
 gc
 :
 :

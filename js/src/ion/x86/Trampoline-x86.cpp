@@ -3486,10 +3486,6 @@ VMFunction
 f
 )
 {
-AssertCanGC
-(
-)
-;
 typedef
 MoveResolver
 :

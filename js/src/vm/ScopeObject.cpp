@@ -1494,10 +1494,6 @@ HandleFunction
 callee
 )
 {
-AssertCanGC
-(
-)
-;
 RootedObject
 scopeChain
 (
@@ -1603,10 +1599,6 @@ AbstractFramePtr
 frame
 )
 {
-AssertCanGC
-(
-)
-;
 JS_ASSERT
 (
 frame
@@ -1732,10 +1724,6 @@ AbstractFramePtr
 frame
 )
 {
-AssertCanGC
-(
-)
-;
 JS_ASSERT
 (
 frame
@@ -8939,10 +8927,6 @@ ArgumentsObject
 maybeArgsObj
 )
 {
-AssertCanGC
-(
-)
-;
 *
 maybeArgsObj
 =

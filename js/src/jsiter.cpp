@@ -9815,10 +9815,6 @@ Value
 arg
 )
 {
-AssertCanGC
-(
-)
-;
 if
 (
 gen
