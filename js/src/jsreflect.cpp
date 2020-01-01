@@ -8216,7 +8216,7 @@ uint32_t
 >
 lineno
 ;
-RawValue
+Value
 unrootedAtomContents
 (
 JSAtom

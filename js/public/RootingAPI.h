@@ -2411,13 +2411,6 @@ typedef
 jsid
 RawId
 ;
-typedef
-JS
-:
-:
-Value
-RawValue
-;
 /
 *
 *
