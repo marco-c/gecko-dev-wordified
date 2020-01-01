@@ -9629,6 +9629,18 @@ root
 return
 ;
 }
+if
+(
+!
+participant
+-
+>
+CanSkipThis
+(
+root
+)
+)
+{
 AddNode
 (
 root
@@ -9636,6 +9648,7 @@ participant
 langID
 )
 ;
+}
 }
 NS_IMETHODIMP_
 (
