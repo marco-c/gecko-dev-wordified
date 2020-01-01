@@ -728,6 +728,13 @@ finishActivity
 }
 )
 ;
+GeckoApp
+.
+registerOnTabsChangedListener
+(
+this
+)
+;
 Tabs
 .
 getInstance
@@ -736,13 +743,6 @@ getInstance
 .
 refreshThumbnails
 (
-)
-;
-GeckoApp
-.
-registerOnTabsChangedListener
-(
-this
 )
 ;
 onTabsChanged
