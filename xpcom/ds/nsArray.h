@@ -457,6 +457,13 @@ nsCOMPtr
 h
 "
 #
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
+#
 define
 NS_ARRAY_CLASSNAME
 \
@@ -567,7 +574,11 @@ aBaseArray
 )
 {
 }
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS
+(
+nsArray
+)
 NS_DECL_NSIARRAY
 NS_DECL_NSIMUTABLEARRAY
 private
