@@ -2110,10 +2110,12 @@ obj
 /
 if
 (
-cx
+obj
 -
 >
 compartment
+(
+)
 -
 >
 anynameObject
@@ -2121,10 +2123,12 @@ anynameObject
 =
 obj
 )
-cx
+obj
 -
 >
 compartment
+(
+)
 -
 >
 anynameObject
