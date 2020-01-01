@@ -9889,7 +9889,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 0
 nullptr
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Custom
 )
 CSS_PROP_SVGRESET
 (
