@@ -3812,7 +3812,7 @@ JSGC_USE_EXACT_ROOTING
 )
 )
 namespace
-js
+JS
 {
 /
 *
@@ -4152,6 +4152,9 @@ value
 JS_ASSERT
 (
 !
+js
+:
+:
 RootMethods
 <
 JSStableString
