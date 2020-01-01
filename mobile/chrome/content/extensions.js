@@ -1726,6 +1726,9 @@ _delayedInit
 false
 )
 ;
+#
+ifdef
+ANDROID
 /
 /
 Hide
@@ -1779,6 +1782,8 @@ onCancel
 ADDONS_NOTIFICATION_NAME
 )
 ;
+#
+endif
 }
 _delayedInit
 :
