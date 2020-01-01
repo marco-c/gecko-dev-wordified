@@ -2590,8 +2590,6 @@ aFlags
 (
 eCONTENT
 |
-eSVG
-|
 eANIMATION
 )
 )
