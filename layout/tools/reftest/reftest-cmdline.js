@@ -939,7 +939,7 @@ pagethumbnails
 .
 capturing_disabled
 "
-false
+true
 )
 ;
 var
