@@ -12974,7 +12974,10 @@ res
 ;
 nsCOMPtr
 <
-nsINode
+dom
+:
+:
+Element
 >
 element
 =
@@ -12999,11 +13002,6 @@ or
 selected
 table
 element
--
->
-AsElement
-(
-)
 -
 >
 GetAttr
@@ -13054,11 +13052,6 @@ done
 if
 (
 element
--
->
-AsElement
-(
-)
 -
 >
 IsHTML
