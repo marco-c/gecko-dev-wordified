@@ -4522,13 +4522,7 @@ happened
 ;
 memcpy
 (
-js
-:
-:
-ArrayBuffer
-:
-:
-getDataOffset
+JS_GetArrayBufferData
 (
 abuf
 )
