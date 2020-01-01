@@ -455,9 +455,11 @@ document
 let
 tree
 =
-PO
+organizer
 .
-_content
+ContentTree
+.
+view
 ;
 let
 selection
