@@ -245,6 +245,13 @@ eCSSUnit_Inch
 for
 dpi
 )
+/
+/
+eCSSUnit_Pixel
+(
+for
+dppx
+)
 or
 /
 /
