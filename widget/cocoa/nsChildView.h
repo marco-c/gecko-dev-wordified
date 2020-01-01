@@ -3262,6 +3262,8 @@ PaintWindow
 (
 nsIntRegion
 aRegion
+bool
+aIsAlternate
 )
 ;
 #
