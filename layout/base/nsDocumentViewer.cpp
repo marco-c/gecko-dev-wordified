@@ -5480,8 +5480,10 @@ document
 .
 .
 .
+nsCOMPtr
+<
 nsPIDOMWindow
-*
+>
 window
 =
 mDocument
@@ -5789,6 +5791,14 @@ readystate
 "
 )
 ;
+nsCOMPtr
+<
+nsIDocument
+>
+d
+=
+mDocument
+;
 mDocument
 -
 >
@@ -5806,7 +5816,7 @@ nsDOMNavigationTiming
 >
 timing
 (
-mDocument
+d
 -
 >
 GetNavigationTiming
