@@ -2345,7 +2345,7 @@ GetCrossorigin
 is
 OK
 void
-SetCrossorigin
+SetCrossOrigin
 (
 const
 nsAString
