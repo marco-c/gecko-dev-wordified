@@ -330,6 +330,12 @@ toolbox
 =
 toolbox
 ;
+this
+.
+isReady
+=
+false
+;
 /
 /
 Make
@@ -451,6 +457,12 @@ this
 _disableJSClicked
 false
 )
+;
+this
+.
+isReady
+=
+true
 ;
 this
 .
