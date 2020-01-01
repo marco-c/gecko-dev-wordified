@@ -515,6 +515,13 @@ h
 #
 include
 "
+gfxUtils
+.
+h
+"
+#
+include
+"
 CanvasUtils
 .
 h
