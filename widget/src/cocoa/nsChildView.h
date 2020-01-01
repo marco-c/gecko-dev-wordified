@@ -1178,6 +1178,9 @@ mPendingDirtyRects
 BOOL
 mPendingFullDisplay
 ;
+BOOL
+mPendingDisplay
+;
 /
 /
 Holds
