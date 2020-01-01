@@ -7610,7 +7610,7 @@ r
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 lvalue
@@ -7620,7 +7620,7 @@ l
 |
 |
 !
-ValueToNumber
+ToNumber
 (
 cx
 rvalue
@@ -7628,11 +7628,9 @@ rvalue
 r
 )
 )
-{
 return
 false
 ;
-}
 *
 result
 =
@@ -9422,7 +9420,7 @@ d
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 *
@@ -9477,7 +9475,7 @@ d
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 *
@@ -19571,7 +19569,7 @@ r
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 lval
@@ -19580,9 +19578,8 @@ l
 )
 |
 |
-\
 !
-ValueToNumber
+ToNumber
 (
 cx
 rval
@@ -19590,13 +19587,10 @@ rval
 r
 )
 )
-{
 \
 goto
 error
 ;
-\
-}
 \
 cond
 =
@@ -20304,7 +20298,7 @@ r
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 lval
@@ -20314,7 +20308,7 @@ l
 |
 |
 !
-ValueToNumber
+ToNumber
 (
 cx
 rval
@@ -20373,7 +20367,7 @@ d2
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 regs
@@ -20390,7 +20384,7 @@ d1
 |
 \
 !
-ValueToNumber
+ToNumber
 (
 cx
 regs
@@ -20483,7 +20477,7 @@ d2
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 regs
@@ -20499,7 +20493,7 @@ d1
 |
 |
 !
-ValueToNumber
+ToNumber
 (
 cx
 regs
@@ -20513,11 +20507,9 @@ sp
 d2
 )
 )
-{
 goto
 error
 ;
-}
 regs
 .
 sp
@@ -20775,7 +20767,7 @@ d2
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 regs
@@ -20791,7 +20783,7 @@ d1
 |
 |
 !
-ValueToNumber
+ToNumber
 (
 cx
 regs
@@ -20805,11 +20797,9 @@ sp
 d2
 )
 )
-{
 goto
 error
 ;
-}
 regs
 .
 sp
@@ -21070,7 +21060,7 @@ d
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 regs
@@ -21118,7 +21108,7 @@ JSOP_POS
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 &
