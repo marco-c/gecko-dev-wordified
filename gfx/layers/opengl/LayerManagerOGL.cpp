@@ -4793,6 +4793,15 @@ Render
 (
 )
 {
+printf_stderr
+(
+"
+render
+\
+n
+"
+)
+;
 SAMPLE_LABEL
 (
 "
