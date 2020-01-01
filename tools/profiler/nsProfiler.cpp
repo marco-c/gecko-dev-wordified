@@ -534,11 +534,17 @@ aFeatureCount
 #
 ifdef
 MOZ_INSTRUMENT_EVENT_LOOP
+bool
+printToConsole
+=
+false
+;
 mozilla
 :
 :
 InitEventTracing
 (
+printToConsole
 )
 ;
 #
