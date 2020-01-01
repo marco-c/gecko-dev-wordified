@@ -3661,12 +3661,16 @@ or
 not
 dictionary
             
-if
+unrolled
+=
 t
 .
 unroll
 (
 )
+            
+if
+unrolled
 .
 isUnion
 (
@@ -3698,11 +3702,7 @@ h
 )
             
 elif
-t
-.
-unroll
-(
-)
+unrolled
 .
 isInterface
 (
@@ -3710,11 +3710,7 @@ isInterface
 :
                 
 if
-t
-.
-unroll
-(
-)
+unrolled
 .
 isSpiderMonkeyInterface
 (
@@ -3775,11 +3771,7 @@ p
 .
 getDescriptor
 (
-t
-.
-unroll
-(
-)
+unrolled
 .
 inner
 .
@@ -3818,11 +3810,7 @@ interface
 )
             
 elif
-t
-.
-unroll
-(
-)
+unrolled
 .
 isDictionary
 (
@@ -3837,22 +3825,14 @@ self
 .
 getDeclarationFilename
 (
-t
-.
-unroll
-(
-)
+unrolled
 .
 inner
 )
 )
             
 elif
-t
-.
-unroll
-(
-)
+unrolled
 .
 isCallback
 (
@@ -3883,6 +3863,42 @@ unroll
 (
 )
 )
+)
+            
+elif
+unrolled
+.
+isFloat
+(
+)
+and
+not
+unrolled
+.
+isUnrestricted
+(
+)
+:
+                
+#
+Restricted
+floats
+are
+tested
+for
+finiteness
+                
+bindingHeaders
+.
+add
+(
+"
+mozilla
+/
+FloatingPoint
+.
+h
+"
 )
         
 callForEachType
