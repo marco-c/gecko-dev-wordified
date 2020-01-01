@@ -926,6 +926,7 @@ eDOMClassInfo_Storage_id
 eDOMClassInfo_StorageList_id
 eDOMClassInfo_StorageItem_id
 eDOMClassInfo_StorageEvent_id
+eDOMClassInfo_StorageEventObsolete_id
 /
 /
 DOMParser
