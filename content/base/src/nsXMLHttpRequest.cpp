@@ -13656,6 +13656,9 @@ GetRequestBody
 ArrayBuffer
 *
 aArrayBuffer
+JSContext
+*
+aCx
 nsIInputStream
 *
 *
@@ -14049,6 +14052,7 @@ GetRequestBody
 (
 &
 buf
+aCx
 aResult
 aContentType
 aCharset
@@ -14272,6 +14276,7 @@ GetRequestBody
 value
 .
 mArrayBuffer
+aCx
 aResult
 aContentType
 aCharset
