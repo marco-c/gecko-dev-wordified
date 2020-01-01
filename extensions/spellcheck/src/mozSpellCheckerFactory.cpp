@@ -995,6 +995,7 @@ name
 /
 /
 static
+const
 nsModuleComponentInfo
 components
 [

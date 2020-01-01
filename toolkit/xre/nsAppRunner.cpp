@@ -5040,6 +5040,7 @@ APPINFO_CID
 }
 }
 static
+const
 nsModuleComponentInfo
 kComponents
 [

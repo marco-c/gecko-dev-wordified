@@ -1351,6 +1351,7 @@ nsAuthSASL
 -
 -
 static
+const
 nsModuleComponentInfo
 components
 [

@@ -419,6 +419,7 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 nsZipWriter
 )
 static
+const
 nsModuleComponentInfo
 components
 [

@@ -1633,6 +1633,7 @@ components
 we
 register
 static
+const
 nsModuleComponentInfo
 info
 [
