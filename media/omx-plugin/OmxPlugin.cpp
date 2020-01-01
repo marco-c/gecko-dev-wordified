@@ -803,6 +803,9 @@ size_t
 aSize
 bool
 aKeyFrame
+BufferCallback
+*
+aBufferCallback
 )
 ;
 bool
@@ -948,6 +951,9 @@ VideoFrame
 aFrame
 int64_t
 aSeekTimeUs
+BufferCallback
+*
+aBufferCallback
 )
 ;
 bool
@@ -4068,6 +4074,9 @@ size_t
 aSize
 bool
 aKeyFrame
+BufferCallback
+*
+aBufferCallback
 )
 {
 switch
@@ -4297,6 +4306,9 @@ VideoFrame
 aFrame
 int64_t
 aSeekTimeUs
+BufferCallback
+*
+aBufferCallback
 )
 {
 MOZ_ASSERT
@@ -4527,6 +4539,7 @@ timeUs
 data
 length
 keyFrame
+aBufferCallback
 )
 )
 {
@@ -4579,6 +4592,7 @@ ReadVideo
 (
 aFrame
 aSeekTimeUs
+aBufferCallback
 )
 ;
 }
@@ -5108,6 +5122,9 @@ VideoFrame
 aFrame
 int64_t
 aSeekTimeUs
+BufferCallback
+*
+aBufferCallback
 )
 {
 return
@@ -5121,6 +5138,7 @@ ReadVideo
 (
 aFrame
 aSeekTimeUs
+aBufferCallback
 )
 ;
 }
