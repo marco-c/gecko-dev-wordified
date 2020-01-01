@@ -989,13 +989,7 @@ GetPreventDefault
 (
 )
 const
-{
-return
-DefaultPrevented
-(
-)
 ;
-}
 protected
 :
 /
