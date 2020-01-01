@@ -2792,6 +2792,7 @@ TextureImage
 :
 NoFlags
 )
+MOZ_OVERRIDE
 ;
 /
 /
