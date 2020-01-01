@@ -2365,7 +2365,7 @@ buffer
 nsresult
 rv
 =
-CopyFontTable
+GetFontTable
 (
 TTAG_cmap
 buffer
@@ -2471,7 +2471,7 @@ nsresult
 FT2FontEntry
 :
 :
-CopyFontTable
+GetFontTable
 (
 uint32_t
 aTableTag

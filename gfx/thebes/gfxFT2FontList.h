@@ -388,9 +388,8 @@ ReadCMAP
 (
 )
 ;
-virtual
 nsresult
-CopyFontTable
+GetFontTable
 (
 uint32_t
 aTableTag
@@ -401,7 +400,6 @@ uint8_t
 &
 aBuffer
 )
-MOZ_OVERRIDE
 ;
 /
 /
