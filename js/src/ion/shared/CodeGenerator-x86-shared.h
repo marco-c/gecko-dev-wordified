@@ -747,6 +747,15 @@ LMathD
 math
 )
 ;
+virtual
+bool
+visitTableSwitch
+(
+LTableSwitch
+*
+ins
+)
+;
 }
 ;
 }
