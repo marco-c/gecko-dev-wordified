@@ -60,7 +60,7 @@ setuptools
 import
 setup
 find_packages
-version
+PACKAGE_VERSION
 =
 '
 0
@@ -161,7 +161,7 @@ mozinfo
       
 version
 =
-version
+PACKAGE_VERSION
       
 description
 =

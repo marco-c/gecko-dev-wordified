@@ -1,4 +1,13 @@
 #
+!
+/
+usr
+/
+bin
+/
+env
+python
+#
 This
 Source
 Code
