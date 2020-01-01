@@ -1125,9 +1125,6 @@ SideExit
 exit
 ;
 bool
-recompileFlag
-;
-bool
 isGlobal
 (
 jsval
@@ -1287,6 +1284,9 @@ v
 uint8
 &
 type
+bool
+&
+recompile
 )
 ;
 bool
