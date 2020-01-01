@@ -2205,6 +2205,13 @@ mPrefWidth
 (
 NS_INTRINSIC_WIDTH_UNKNOWN
 )
+mAbsoluteContainer
+(
+nsGkAtoms
+:
+:
+absoluteList
+)
 {
 #
 ifdef
