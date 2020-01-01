@@ -17455,9 +17455,6 @@ return
 true
 ;
 }
-#
-if
-JS_HAS_PERL_SUBSTR
 static
 JSBool
 str_substr
@@ -17723,13 +17720,6 @@ return
 true
 ;
 }
-#
-endif
-/
-*
-JS_HAS_PERL_SUBSTR
-*
-/
 /
 *
 *
@@ -19468,9 +19458,6 @@ str_split
 2
 JSFUN_GENERIC_NATIVE
 )
-#
-if
-JS_HAS_PERL_SUBSTR
 JS_FN
 (
 "
@@ -19480,8 +19467,6 @@ str_substr
 2
 JSFUN_GENERIC_NATIVE
 )
-#
-endif
 /
 *
 Python
