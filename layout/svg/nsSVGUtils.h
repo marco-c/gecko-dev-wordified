@@ -3110,6 +3110,15 @@ nsIFrame
 aFrame
 )
 ;
+static
+bool
+AnyOuterSVGIsCallingReflowSVG
+(
+nsIFrame
+*
+aFrame
+)
+;
 /
 *
 *
