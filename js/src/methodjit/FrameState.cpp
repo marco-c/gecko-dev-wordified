@@ -1361,11 +1361,11 @@ reg
 =
 popped
 ?
-alloc
+allocReg
 (
 )
 :
-alloc
+allocReg
 (
 fe
 RematInfo
@@ -1490,11 +1490,11 @@ reg
 =
 popped
 ?
-alloc
+allocReg
 (
 )
 :
-alloc
+allocReg
 (
 fe
 RematInfo
@@ -4677,7 +4677,7 @@ else
 RegisterID
 newReg
 =
-alloc
+allocReg
 (
 )
 ;
@@ -4701,7 +4701,7 @@ reg
 RegisterID
 reg
 =
-alloc
+allocReg
 (
 )
 ;
@@ -4923,7 +4923,7 @@ else
 {
 reg
 =
-alloc
+allocReg
 (
 )
 ;
@@ -4974,7 +4974,7 @@ isCopied
 {
 reg
 =
-alloc
+allocReg
 (
 )
 ;
@@ -5091,7 +5091,7 @@ inMemory
 ;
 reg
 =
-alloc
+allocReg
 (
 )
 ;

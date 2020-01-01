@@ -2530,13 +2530,7 @@ private
 :
 inline
 RegisterID
-alloc
-(
-)
-;
-inline
-RegisterID
-alloc
+allocReg
 (
 FrameEntry
 *
