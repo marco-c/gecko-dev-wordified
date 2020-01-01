@@ -1276,9 +1276,6 @@ AndroidGeckoEvent
 ae
 )
 ;
-PRUint32
-mSpecialKeyTracking
-;
 }
 ;
 #
