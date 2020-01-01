@@ -12,6 +12,17 @@ eager
 allow
 -
 oom
+if
+(
+typeof
+oomAfterAllocations
+=
+=
+'
+function
+'
+)
+{
 x
 =
 [
@@ -53,3 +64,4 @@ oomAfterAllocations
 ;
 }
 )
+}
