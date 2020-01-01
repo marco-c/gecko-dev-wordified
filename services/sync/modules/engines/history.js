@@ -1805,6 +1805,14 @@ let
 updatePlacesCallback
 =
 {
+handleResult
+:
+function
+handleResult
+(
+)
+{
+}
 handleError
 :
 function
