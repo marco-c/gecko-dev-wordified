@@ -570,7 +570,7 @@ h
 #
 include
 "
-nsIMenuFrame
+nsMenuFrame
 .
 h
 "
@@ -2295,7 +2295,7 @@ isTopLevel
 =
 PR_FALSE
 ;
-nsIMenuFrame
+nsMenuFrame
 *
 menuFrame
 =

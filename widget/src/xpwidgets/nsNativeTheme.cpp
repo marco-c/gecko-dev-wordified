@@ -556,7 +556,7 @@ h
 #
 include
 "
-nsIMenuFrame
+nsMenuFrame
 .
 h
 "
@@ -3113,7 +3113,7 @@ nsIFrame
 aFrame
 )
 {
-nsIMenuFrame
+nsMenuFrame
 *
 menuFrame
 =

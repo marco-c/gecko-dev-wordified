@@ -1410,7 +1410,7 @@ nsMenuFrame
 )
 NS_QUERYFRAME_ENTRY
 (
-nsIMenuFrame
+nsMenuFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (

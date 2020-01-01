@@ -581,7 +581,7 @@ h
 #
 include
 "
-nsIMenuFrame
+nsMenuFrame
 .
 h
 "
@@ -1168,7 +1168,7 @@ isTopLevel
 PR_FALSE
 )
 ;
-nsIMenuFrame
+nsMenuFrame
 *
 menuFrame
 =
@@ -6398,7 +6398,7 @@ isHover
 =
 PR_FALSE
 ;
-nsIMenuFrame
+nsMenuFrame
 *
 menuFrame
 =
@@ -16568,7 +16568,7 @@ isContainer
 =
 PR_FALSE
 ;
-nsIMenuFrame
+nsMenuFrame
 *
 menuFrame
 =
