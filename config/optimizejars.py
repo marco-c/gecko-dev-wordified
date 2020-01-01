@@ -393,6 +393,7 @@ sys
 os
 subprocess
 struct
+re
 local_file_header
 =
 [
@@ -2785,6 +2786,20 @@ exit
 (
 1
 )
+jar_regex
+=
+re
+.
+compile
+(
+"
+\
+\
+.
+jar
+?
+"
+)
 def
 optimize
 (
@@ -2811,14 +2826,12 @@ ls
         
 if
 not
-jarfile
+re
 .
-endswith
+search
 (
-"
-.
-jar
-"
+jar_regex
+jarfile
 )
 :
             
@@ -2932,14 +2945,12 @@ ls
         
 if
 not
-jarfile
+re
 .
-endswith
+search
 (
-"
-.
-jar
-"
+jar_regex
+jarfile
 )
 :
             
