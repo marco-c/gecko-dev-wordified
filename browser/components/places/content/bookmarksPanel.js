@@ -457,7 +457,7 @@ window
 .
 top
 .
-PlacesUtils
+PlacesUIUtils
 .
 allBookmarksFolderId
 ;

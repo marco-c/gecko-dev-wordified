@@ -900,7 +900,7 @@ nodeIsURI
 node
 )
 )
-PlacesUtils
+PlacesUIUtils
 .
 showMinimalAddBookmarkUI
 (

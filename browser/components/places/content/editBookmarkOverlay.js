@@ -1386,7 +1386,7 @@ _initTextField
 "
 descriptionField
 "
-PlacesUtils
+PlacesUIUtils
 .
 getItemDescription
 (
@@ -2654,7 +2654,7 @@ this
 .
 _microsummaries
 =
-PlacesUtils
+PlacesUIUtils
 .
 microsummaries
 .
@@ -2839,7 +2839,7 @@ microsummary
 ;
 if
 (
-PlacesUtils
+PlacesUIUtils
 .
 microsummaries
 .
@@ -3495,7 +3495,7 @@ length
 var
 tagTxn
 =
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -3507,7 +3507,7 @@ _uri
 tagsToAdd
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -3529,7 +3529,7 @@ length
 var
 untagTxn
 =
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -3541,7 +3541,7 @@ _uri
 tagsToRemove
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -3627,7 +3627,7 @@ txns
 const
 ptm
 =
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 ;
@@ -3673,7 +3673,7 @@ newTitle
 {
 if
 (
-PlacesUtils
+PlacesUIUtils
 .
 microsummaries
 .
@@ -3841,7 +3841,7 @@ newMicrosummary
 null
 &
 &
-PlacesUtils
+PlacesUIUtils
 .
 microsummaries
 .
@@ -3862,7 +3862,7 @@ null
 &
 &
 !
-PlacesUtils
+PlacesUIUtils
 .
 microsummaries
 .
@@ -3954,7 +3954,7 @@ _itemId
 var
 txn
 =
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -3966,7 +3966,7 @@ _itemId
 description
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -3991,7 +3991,7 @@ try
 {
 uri
 =
-PlacesUtils
+PlacesUIUtils
 .
 createFixedURI
 (
@@ -4032,7 +4032,7 @@ uri
 var
 txn
 =
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -4044,7 +4044,7 @@ _itemId
 uri
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -4096,7 +4096,7 @@ _itemId
 var
 txn
 =
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -4108,7 +4108,7 @@ _itemId
 keyword
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -4133,7 +4133,7 @@ try
 {
 uri
 =
-PlacesUtils
+PlacesUIUtils
 .
 createFixedURI
 (
@@ -4186,7 +4186,7 @@ uri
 var
 txn
 =
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -4198,7 +4198,7 @@ _itemId
 uri
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -4225,7 +4225,7 @@ try
 {
 uri
 =
-PlacesUtils
+PlacesUIUtils
 .
 createFixedURI
 (
@@ -4280,7 +4280,7 @@ uri
 var
 txn
 =
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -4292,7 +4292,7 @@ _itemId
 uri
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -4327,7 +4327,7 @@ checked
 var
 txn
 =
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -4339,7 +4339,7 @@ _itemId
 loadInSidebarChecked
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -4510,7 +4510,7 @@ window
 .
 top
 .
-PlacesUtils
+PlacesUIUtils
 .
 allBookmarksFolderId
 ;
@@ -4952,7 +4952,7 @@ container
 var
 txn
 =
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
@@ -4966,7 +4966,7 @@ container
 1
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
