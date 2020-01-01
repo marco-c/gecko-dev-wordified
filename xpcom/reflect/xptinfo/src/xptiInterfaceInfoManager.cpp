@@ -104,6 +104,15 @@ xptiInterfaceInfoManager
 #
 include
 "
+mozilla
+/
+XPTInterfaceInfoManager
+.
+h
+"
+#
+include
+"
 xptiprivate
 .
 h
@@ -165,11 +174,11 @@ mozilla
 ;
 NS_IMPL_THREADSAFE_ISUPPORTS1
 (
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 nsIInterfaceInfoManager
 )
 static
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 *
 gInterfaceInfoManager
 =
@@ -191,7 +200,7 @@ NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 XPTMallocSizeOf
 )
 size_t
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 SizeOfIncludingThis
@@ -272,7 +281,7 @@ n
 /
 static
 int64_t
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 GetXPTIWorkingSetSize
@@ -311,7 +320,7 @@ n
 }
 NS_MEMORY_REPORTER_IMPLEMENT
 (
-xptiWorkingSet
+XPTInterfaceInfoManager
 "
 explicit
 /
@@ -323,7 +332,7 @@ set
 "
 KIND_HEAP
 UNITS_BYTES
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 GetXPTIWorkingSetSize
@@ -341,9 +350,9 @@ system
 /
 /
 static
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 *
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 GetSingleton
@@ -359,7 +368,7 @@ gInterfaceInfoManager
 gInterfaceInfoManager
 =
 new
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 (
 )
 ;
@@ -374,7 +383,7 @@ gInterfaceInfoManager
 ;
 }
 void
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 FreeInterfaceInfoManager
@@ -387,10 +396,10 @@ gInterfaceInfoManager
 )
 ;
 }
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 (
 )
 :
@@ -400,7 +409,7 @@ mWorkingSet
 mResolveLock
 (
 "
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 .
 mResolveLock
 "
@@ -411,16 +420,16 @@ NS_RegisterMemoryReporter
 new
 NS_MEMORY_REPORTER_NAME
 (
-xptiWorkingSet
+XPTInterfaceInfoManager
 )
 )
 ;
 }
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 ~
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 (
 )
 {
@@ -457,7 +466,7 @@ gCallCount
 endif
 }
 void
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 RegisterBuffer
@@ -542,7 +551,7 @@ state
 ;
 }
 void
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 RegisterXPTHeader
@@ -680,7 +689,7 @@ typelib
 ;
 }
 void
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 VerifyAndAddEntryIfNew
@@ -1122,7 +1131,7 @@ NS_OK
 }
 xptiInterfaceEntry
 *
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 GetInterfaceEntryForIID
@@ -1166,7 +1175,7 @@ iid
 *
 /
 NS_IMETHODIMP
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 GetInfoForIID
@@ -1242,7 +1251,7 @@ name
 *
 /
 NS_IMETHODIMP
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 GetInfoForName
@@ -1317,7 +1326,7 @@ name
 *
 /
 NS_IMETHODIMP
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 GetIIDForName
@@ -1409,7 +1418,7 @@ iid
 *
 /
 NS_IMETHODIMP
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 GetNameForIID
@@ -1557,7 +1566,7 @@ enumerateInterfaces
 *
 /
 NS_IMETHODIMP
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 EnumerateInterfaces
@@ -1797,7 +1806,7 @@ prefix
 *
 /
 NS_IMETHODIMP
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 EnumerateInterfacesWhoseNamesStartWith
@@ -1885,7 +1894,7 @@ autoRegisterInterfaces
 *
 /
 NS_IMETHODIMP
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 AutoRegisterInterfaces

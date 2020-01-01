@@ -316,6 +316,15 @@ h
 #
 include
 "
+mozilla
+/
+XPTInterfaceInfoManager
+.
+h
+"
+#
+include
+"
 nsIConsoleService
 .
 h
@@ -3840,7 +3849,7 @@ rv
 )
 )
 {
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 GetSingleton

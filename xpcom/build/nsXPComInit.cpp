@@ -364,6 +364,15 @@ h
 #
 include
 "
+mozilla
+/
+XPTInterfaceInfoManager
+.
+h
+"
+#
+include
+"
 nsTimerImpl
 .
 h
@@ -774,6 +783,10 @@ GeckoProfiler
 h
 "
 using
+namespace
+mozilla
+;
+using
 base
 :
 :
@@ -1179,7 +1192,7 @@ nsIInterfaceInfoManager
 >
 iim
 (
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 GetSingleton
@@ -2511,7 +2524,7 @@ happen
 (
 void
 )
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 GetSingleton
@@ -3780,7 +3793,7 @@ again
 -
 bad
 mojo
-xptiInterfaceInfoManager
+XPTInterfaceInfoManager
 :
 :
 FreeInterfaceInfoManager
