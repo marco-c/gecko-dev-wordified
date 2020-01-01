@@ -1185,7 +1185,10 @@ WideCharToMultiByte
 *
 *
 /
+NS_GFX_
+(
 nsresult
+)
 WideCharToMultiByte
 (
 int
@@ -1429,7 +1432,10 @@ MultiByteToWideChar
 *
 *
 /
+NS_GFX_
+(
 nsresult
+)
 MultiByteToWideChar
 (
 int
