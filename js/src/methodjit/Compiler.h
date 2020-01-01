@@ -1044,6 +1044,10 @@ op
 (
 op
 )
+canCallHook
+(
+false
+)
 {
 }
 Label
@@ -1063,6 +1067,9 @@ paramAddr
 ;
 JSOp
 op
+;
+bool
+canCallHook
 ;
 void
 copyTo
@@ -1130,6 +1137,12 @@ locationOf
 (
 slowPathCall
 )
+;
+to
+.
+canCallHook
+=
+canCallHook
 ;
 to
 .
@@ -3222,6 +3235,10 @@ testUndefined
 false
 bool
 testReturn
+=
+false
+bool
+force
 =
 false
 )
