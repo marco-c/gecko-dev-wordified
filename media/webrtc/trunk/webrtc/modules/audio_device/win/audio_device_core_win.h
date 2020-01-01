@@ -1604,11 +1604,6 @@ IMMDevice
 ppDevice
 )
 ;
-void
-_Get44kHzDrift
-(
-)
-;
 /
 /
 Converts
@@ -1834,12 +1829,6 @@ _readSamples
 ;
 uint32_t
 _sndCardRecDelay
-;
-float
-_sampleDriftAt48kHz
-;
-float
-_driftAccumulator
 ;
 uint16_t
 _recChannelsPrioList

@@ -12862,7 +12862,7 @@ EXPECT_TRUE
 sampleRate
 =
 =
-44000
+44100
 )
 |
 |
@@ -12903,7 +12903,7 @@ EXPECT_TRUE
 sampleRate
 =
 =
-44000
+44100
 )
 |
 |
@@ -13019,7 +13019,7 @@ EXPECT_TRUE
 sampleRate
 =
 =
-44000
+44100
 )
 |
 |
@@ -13060,7 +13060,7 @@ EXPECT_TRUE
 sampleRate
 =
 =
-44000
+44100
 )
 |
 |
