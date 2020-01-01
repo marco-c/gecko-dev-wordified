@@ -3311,6 +3311,12 @@ function
 (
 )
 {
+this
+.
+_destroying
+=
+true
+;
 let
 tabs
 =
@@ -3368,7 +3374,6 @@ tabs
 [
 i
 ]
-true
 )
 ;
 let
@@ -3563,7 +3568,6 @@ removeTab
 function
 (
 tab
-dontSplice
 )
 {
 let
@@ -3647,7 +3651,9 @@ closes
 if
 (
 !
-dontSplice
+this
+.
+_destroying
 )
 this
 .
@@ -4698,10 +4704,8 @@ aData
 =
 CACHE_EXPIRATION_TIME_PREF_NAME
 )
-{
 break
 ;
-}
 if
 (
 aData
