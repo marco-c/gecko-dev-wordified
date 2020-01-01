@@ -558,6 +558,13 @@ pldhash
 .
 h
 "
+#
+include
+"
+prclist
+.
+h
+"
 struct
 nsRequestInfo
 ;
@@ -1516,6 +1523,9 @@ mRequestInfoHash
 ;
 PRInt64
 mCompletedTotalProgress
+;
+PRCList
+mStatusInfoList
 ;
 /
 *
