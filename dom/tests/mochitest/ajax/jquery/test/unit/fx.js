@@ -668,7 +668,7 @@ test
 2
 expect
 (
-3
+2
 )
 ;
 stop
