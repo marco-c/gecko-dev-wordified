@@ -4063,7 +4063,7 @@ aMaximumValue
 =
 value
 .
-ToFloat
+ToDouble
 (
 &
 result
@@ -4256,7 +4256,7 @@ value
 =
 attrValue
 .
-ToFloat
+ToDouble
 (
 &
 error
