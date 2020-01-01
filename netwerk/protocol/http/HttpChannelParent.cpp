@@ -1388,7 +1388,7 @@ RequestHeaderTuples
 &
 requestHeaders
 const
-nsHttpAtom
+nsCString
 &
 requestMethod
 const
@@ -1727,14 +1727,7 @@ httpChan
 >
 SetRequestMethod
 (
-nsDependentCString
-(
 requestMethod
-.
-get
-(
-)
-)
 )
 ;
 nsCOMPtr
