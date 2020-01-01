@@ -164,13 +164,6 @@ nsIDOMHTMLEmbedElement
 .
 h
 "
-#
-include
-"
-nsIDOMGetSVGDocument
-.
-h
-"
 namespace
 mozilla
 {
@@ -188,8 +181,6 @@ public
 nsIDOMHTMLAppletElement
 public
 nsIDOMHTMLEmbedElement
-public
-nsIDOMGetSVGDocument
 {
 public
 :
@@ -310,10 +301,6 @@ aType
 )
 MOZ_OVERRIDE
 ;
-/
-/
-nsIDOMGetSVGDocument
-NS_DECL_NSIDOMGETSVGDOCUMENT
 virtual
 nsresult
 BindToTree
