@@ -4720,15 +4720,13 @@ bug
 comment
 18
 .
-nsTArray
+nsAutoTArray
 <
 nsIURI
 *
+6
 >
 uris
-(
-6
-)
 ;
 return
 GetBinding
