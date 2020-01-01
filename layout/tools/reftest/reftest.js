@@ -7248,7 +7248,7 @@ nsIFocusManager
 ;
 fm
 .
-activeWindow
+focusedWindow
 =
 gContainingWindow
 ;
