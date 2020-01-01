@@ -1927,7 +1927,7 @@ class
 Compressor
 {
 /
-/
+*
 Number
 of
 bytes
@@ -1942,6 +1942,8 @@ compressMore
 )
 call
 .
+*
+/
 static
 const
 size_t
@@ -2035,7 +2037,7 @@ init
 )
 ;
 /
-/
+*
 Compress
 some
 of
@@ -2051,13 +2053,15 @@ be
 called
 again
 .
+*
+/
 bool
 compressMore
 (
 )
 ;
 /
-/
+*
 Finalize
 compression
 .
@@ -2069,6 +2073,8 @@ the
 compressed
 input
 .
+*
+/
 size_t
 finish
 (
