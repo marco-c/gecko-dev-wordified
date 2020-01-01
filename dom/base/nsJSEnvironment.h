@@ -968,9 +968,6 @@ JSContext
 mContext
 ;
 bool
-mActive
-;
-bool
 mIsInitialized
 ;
 bool
