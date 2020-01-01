@@ -654,6 +654,9 @@ anyway
 .
 if
 (
+(
+PRUint64
+)
 capacity
 *
 elemSize
