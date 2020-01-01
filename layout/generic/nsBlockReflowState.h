@@ -792,6 +792,8 @@ aLineLayout
 nsPlaceholderFrame
 *
 aPlaceholderFrame
+nscoord
+aAvailableWidth
 nsReflowStatus
 &
 aReflowStatus
@@ -808,6 +810,8 @@ nsPlaceholderFrame
 aPlaceholderFrame
 PRBool
 aInitialReflow
+nscoord
+aAvailableWidth
 nsReflowStatus
 &
 aReflowStatus
