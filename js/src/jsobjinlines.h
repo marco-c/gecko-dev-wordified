@@ -6912,7 +6912,10 @@ kind
 *
 As
 for
-js_GetGCObjectKind
+gc
+:
+:
+GetGCObjectKind
 where
 numSlots
 is
