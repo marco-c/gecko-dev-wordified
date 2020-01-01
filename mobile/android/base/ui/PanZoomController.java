@@ -4245,7 +4245,7 @@ STOPPED_THRESHOLD
 ;
 }
 PointF
-getDisplacement
+resetDisplacement
 (
 )
 {
@@ -4287,7 +4287,7 @@ displace
 PointF
 displacement
 =
-getDisplacement
+resetDisplacement
 (
 )
 ;
