@@ -3137,7 +3137,7 @@ doc
 NULL
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIPresShell
 >
