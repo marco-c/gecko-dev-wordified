@@ -1000,6 +1000,11 @@ some
 other
 reasons
 NEXT_FRAME_UNAVAILABLE
+/
+/
+Sentinel
+value
+NEXT_FRAME_UNINITIALIZED
 }
 ;
 /
