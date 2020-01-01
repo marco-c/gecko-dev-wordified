@@ -905,6 +905,14 @@ return
 mHasTextureFromPixmap
 ;
 }
+PRBool
+SupportsTextureFromPixmap
+(
+gfxASurface
+*
+aSurface
+)
+;
 private
 :
 PRBool
