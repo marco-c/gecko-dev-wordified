@@ -189,6 +189,13 @@ h
 #
 include
 "
+KeyboardLayout
+.
+h
+"
+#
+include
+"
 GfxInfo
 .
 h
@@ -1591,6 +1598,13 @@ nsWidgetWindowsModuleDtor
 (
 )
 {
+KeyboardLayout
+:
+:
+Shutdown
+(
+)
+;
 MouseScrollHandler
 :
 :

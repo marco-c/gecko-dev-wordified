@@ -2419,13 +2419,6 @@ LPARAM
 lParam
 )
 ;
-BOOL
-OnInputLangChange
-(
-HKL
-aHKL
-)
-;
 bool
 OnPaint
 (
