@@ -848,7 +848,9 @@ on
 destruction
 .
 *
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 *
 class
 nsAutoRefTraits
@@ -3091,7 +3093,9 @@ declared
 .
 *
 *
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 *
 class
 nsAutoRefTraits
@@ -3476,7 +3480,9 @@ use
 :
 *
 *
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 *
 class
 nsAutoRefTraits
@@ -3515,7 +3521,9 @@ ptr
 ;
 *
 *
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 *
 class
 nsAutoRefTraits
