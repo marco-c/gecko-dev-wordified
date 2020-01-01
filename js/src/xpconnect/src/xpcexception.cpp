@@ -470,6 +470,13 @@ nsNetError
 .
 h
 "
+#
+include
+"
+mozStorage
+.
+h
+"
 /
 *
 *
