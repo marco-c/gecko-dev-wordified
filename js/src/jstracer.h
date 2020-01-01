@@ -224,6 +224,7 @@ brendan
 mozilla
 .
 org
+>
 *
 *
 Contributor
@@ -231,6 +232,15 @@ Contributor
 s
 )
 :
+*
+Andreas
+Gal
+<
+gal
+mozilla
+.
+com
+>
 *
 *
 Alternatively
@@ -765,6 +775,7 @@ jsbytecode
 entryPC
 (
 )
+const
 {
 return
 entryState

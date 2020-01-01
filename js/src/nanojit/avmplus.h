@@ -202,9 +202,9 @@ Andreas
 Gal
 <
 gal
-uci
+mozilla
 .
-edu
+com
 >
 *
 *
