@@ -637,7 +637,7 @@ const
 int32_t
 numFrames
 =
-NS_lround
+ceil
 (
 mMaxDelay
 *
