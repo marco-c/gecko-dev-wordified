@@ -163,7 +163,7 @@ SVGAnimationElement
 *
 *
 Class
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 *
 *
 This
@@ -196,7 +196,7 @@ class
 -
 see
 *
-DOMSVGAnimatedTransformList
+SVGAnimatedTransformList
 for
 the
 heavier
@@ -248,7 +248,7 @@ the
 comment
 in
 *
-DOMSVGAnimatedTransformList
+SVGAnimatedTransformList
 :
 :
 InternalBaseValListWillChangeTo
@@ -271,7 +271,7 @@ that
 *
 /
 class
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 {
 /
 /
@@ -295,7 +295,7 @@ DOMSVGTransformList
 ;
 public
 :
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 (
 )
 :
@@ -336,7 +336,7 @@ the
 comment
 in
 *
-DOMSVGAnimatedTransformList
+SVGAnimatedTransformList
 :
 :
 InternalBaseValListWillChangeTo
@@ -557,7 +557,7 @@ public
 :
 SMILAnimatedTransformList
 (
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 *
 aVal
 nsSVGElement
@@ -695,7 +695,7 @@ die
 during
 that
 .
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 *
 mVal
 ;
