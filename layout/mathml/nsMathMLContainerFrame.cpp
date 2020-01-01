@@ -8802,9 +8802,16 @@ aDesiredSize
 .
 width
 =
+std
+:
+:
+max
+(
+0
 mBoundingMetrics
 .
 width
+)
 ;
 aDesiredSize
 .
