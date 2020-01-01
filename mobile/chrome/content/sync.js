@@ -1408,6 +1408,10 @@ _elements
 account
 .
 value
+.
+trim
+(
+)
 password
 :
 this
@@ -1417,6 +1421,10 @@ _elements
 password
 .
 value
+.
+trim
+(
+)
 synckey
 :
 Weave
@@ -1432,6 +1440,10 @@ _elements
 synckey
 .
 value
+.
+trim
+(
+)
 )
 serverURL
 :
@@ -1446,6 +1458,10 @@ _elements
 customserver
 .
 value
+.
+trim
+(
+)
 )
 }
 ;
