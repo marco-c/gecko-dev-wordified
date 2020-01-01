@@ -629,6 +629,8 @@ jschar
 *
 formatJSON
 (
+uint64_t
+timestamp
 )
 ;
 private
@@ -852,6 +854,8 @@ formatData
 StatisticsSerializer
 &
 ss
+uint64_t
+timestamp
 )
 ;
 double
