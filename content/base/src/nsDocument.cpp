@@ -43741,6 +43741,15 @@ IsFullScreenApiEnabled
 |
 |
 !
+nsContentUtils
+:
+:
+IsRequestFullScreenAllowed
+(
+)
+|
+|
+!
 IsFullScreenDoc
 (
 )
