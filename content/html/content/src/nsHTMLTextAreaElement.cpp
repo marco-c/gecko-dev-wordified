@@ -4950,6 +4950,16 @@ IsTooLong
 (
 )
 {
+if
+(
+!
+mValueChanged
+)
+{
+return
+PR_FALSE
+;
+}
 PRInt32
 maxLength
 =
