@@ -1013,6 +1013,7 @@ MOZ_DELETE
 ;
 class
 IdentityCryptoService
+MOZ_FINAL
 :
 public
 nsIIdentityCryptoService
