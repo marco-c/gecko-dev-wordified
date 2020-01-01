@@ -102,7 +102,11 @@ mozilla_dom_SVGAnimationElement_h
 #
 include
 "
-DOMSVGTests
+mozilla
+/
+dom
+/
+SVGTests
 .
 h
 "
@@ -150,7 +154,7 @@ SVGAnimationElement
 public
 SVGAnimationElementBase
 public
-DOMSVGTests
+SVGTests
 public
 nsISMILAnimationElement
 {

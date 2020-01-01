@@ -116,13 +116,6 @@ h
 #
 include
 "
-DOMSVGTests
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h
@@ -1047,7 +1040,7 @@ continue
 }
 nsCOMPtr
 <
-DOMSVGTests
+SVGTests
 >
 tests
 (
@@ -1069,7 +1062,7 @@ tests
 >
 PassesConditionalProcessingTests
 (
-DOMSVGTests
+SVGTests
 :
 :
 kIgnoreSystemLanguage
@@ -1201,7 +1194,7 @@ continue
 }
 nsCOMPtr
 <
-DOMSVGTests
+SVGTests
 >
 tests
 (

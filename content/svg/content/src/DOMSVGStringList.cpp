@@ -103,7 +103,11 @@ h
 #
 include
 "
-DOMSVGTests
+mozilla
+/
+dom
+/
+SVGTests
 .
 h
 "
@@ -921,7 +925,10 @@ mIsConditionalProcessingAttribute
 {
 nsCOMPtr
 <
-DOMSVGTests
+dom
+:
+:
+SVGTests
 >
 tests
 =

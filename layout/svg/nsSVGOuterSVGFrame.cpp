@@ -121,13 +121,6 @@ order
 #
 include
 "
-DOMSVGTests
-.
-h
-"
-#
-include
-"
 gfxMatrix
 .
 h

@@ -839,7 +839,11 @@ h
 #
 include
 "
-DOMSVGTests
+mozilla
+/
+dom
+/
+SVGTests
 .
 h
 "
@@ -30331,7 +30335,7 @@ sOuterSVGData
 }
 nsCOMPtr
 <
-DOMSVGTests
+SVGTests
 >
 tests
 (
