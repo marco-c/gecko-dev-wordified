@@ -456,6 +456,13 @@ nsDOMEvent
 .
 h
 "
+#
+include
+"
+nsInterfaceHashtable
+.
+h
+"
 class
 nsDOMDataContainerEvent
 :
