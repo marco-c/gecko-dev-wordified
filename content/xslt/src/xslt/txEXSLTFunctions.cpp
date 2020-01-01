@@ -3429,7 +3429,7 @@ rv
 rv
 )
 ;
-PRInt32
+PRUint32
 tailIndex
 ;
 /
@@ -3709,6 +3709,9 @@ if
 tailIndex
 !
 =
+(
+PRUint32
+)
 string
 .
 Length
