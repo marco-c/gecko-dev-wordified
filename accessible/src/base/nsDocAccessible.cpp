@@ -6744,6 +6744,7 @@ aNewIndexInContainer
 {
 if
 (
+(
 !
 mIsContentLoaded
 |
@@ -6751,9 +6752,8 @@ mIsContentLoaded
 !
 mDocument
 )
-{
-if
-(
+&
+&
 mAccessNodeCache
 .
 Count
@@ -6777,7 +6777,6 @@ InvalidateChildren
 (
 )
 ;
-}
 return
 ;
 }
