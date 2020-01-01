@@ -5308,7 +5308,7 @@ key
 =
 "
 &
-quitApplicationCmdMac
+quitApplicationCmdUnix
 .
 key
 ;
