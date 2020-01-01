@@ -2907,7 +2907,7 @@ PR_TRUE
 gint
 response
 =
-gtk_dialog_run
+RunDialog
 (
 GTK_DIALOG
 (

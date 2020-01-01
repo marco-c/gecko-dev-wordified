@@ -1206,7 +1206,7 @@ FALSE
 gint
 diag_response
 =
-gtk_dialog_run
+RunDialog
 (
 GTK_DIALOG
 (
