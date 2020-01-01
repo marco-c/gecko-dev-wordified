@@ -2312,8 +2312,6 @@ MarkAtomState
 JSTracer
 *
 trc
-bool
-markAll
 )
 ;
 extern
