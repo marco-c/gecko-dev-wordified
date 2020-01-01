@@ -17009,6 +17009,7 @@ mPresContext
 >
 MinFontSize
 (
+nsnull
 )
 )
 {
@@ -17078,6 +17079,7 @@ pc
 >
 MinFontSize
 (
+nsnull
 )
 :
 0

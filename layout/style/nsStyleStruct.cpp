@@ -1109,6 +1109,18 @@ nsPresContext
 *
 aPresContext
 )
+/
+/
+passing
+nsnull
+to
+GetDefaultFont
+make
+it
+use
+the
+doc
+language
 :
 mFont
 (
@@ -1120,6 +1132,7 @@ aPresContext
 GetDefaultFont
 (
 kPresContext_DefaultVariableFont_ID
+nsnull
 )
 )
 )
