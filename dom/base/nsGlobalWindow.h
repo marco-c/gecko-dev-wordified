@@ -4977,6 +4977,11 @@ UpdateParentTarget
 (
 )
 ;
+PRBool
+GetIsTabModalPromptAllowed
+(
+)
+;
 /
 /
 When
