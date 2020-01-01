@@ -5293,6 +5293,16 @@ mTagName
 '
 r
 '
+|
+|
+entry
+.
+mTagName
+=
+=
+'
+t
+'
 )
 {
 stream
