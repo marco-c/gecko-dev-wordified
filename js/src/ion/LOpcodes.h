@@ -895,12 +895,7 @@ CallSetElement
 \
 _
 (
-CallSetPropertyV
-)
-\
-_
-(
-CallSetPropertyT
+CallSetProperty
 )
 \
 _
