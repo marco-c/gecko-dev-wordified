@@ -945,10 +945,8 @@ sans
 *
 /
 jsbytecode
-program
-[
-1
-]
+*
+bytecode
 ;
 /
 *
