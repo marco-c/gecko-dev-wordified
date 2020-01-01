@@ -2926,7 +2926,7 @@ arrayType
 )
 ;
 InliningStatus
-inlineForceSequentialOrInParallelSection
+inlineShouldForceSequentialOrInParallelSection
 (
 CallInfo
 &
