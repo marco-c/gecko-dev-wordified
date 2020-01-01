@@ -1761,10 +1761,10 @@ private
 Shmem
 mShSurface
 ;
-size_t
+uint16_t
 mShWidth
 ;
-size_t
+uint16_t
 mShHeight
 ;
 CGColorSpaceRef
