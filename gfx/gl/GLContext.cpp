@@ -5199,9 +5199,6 @@ WantsSmallTiles
 (
 )
 {
-#
-ifdef
-MOZ_WIDGET_ANDROID
 /
 /
 We
@@ -5300,13 +5297,6 @@ this
 return
 false
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 /
 /
