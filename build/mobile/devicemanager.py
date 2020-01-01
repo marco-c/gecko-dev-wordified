@@ -420,6 +420,8 @@ import
 socket
 import
 os
+import
+re
 class
 FileError
 (
