@@ -1277,7 +1277,7 @@ const
 boolean
 gRTCPMUX
 =
-FALSE
+TRUE
 ;
 static
 boolean
