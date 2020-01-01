@@ -910,10 +910,6 @@ SVGMaskElement
 )
 DOMCI_CLASS
 (
-SVGRectElement
-)
-DOMCI_CLASS
-(
 SVGScriptElement
 )
 DOMCI_CLASS

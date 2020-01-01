@@ -109,13 +109,6 @@ h
 #
 include
 "
-nsIDOMSVGRectElement
-.
-h
-"
-#
-include
-"
 nsSVGLength2
 .
 h
@@ -151,7 +144,7 @@ MOZ_FINAL
 public
 SVGRectElementBase
 public
-nsIDOMSVGRectElement
+nsIDOMSVGElement
 {
 protected
 :
@@ -207,7 +200,6 @@ public
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGRECTELEMENT
 /
 /
 xxx
@@ -265,13 +257,6 @@ nsINode
 aResult
 )
 const
-;
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
 ;
 virtual
 nsIDOMNode
