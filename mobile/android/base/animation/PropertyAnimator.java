@@ -291,7 +291,7 @@ mUseHardwareLayer
 public
 PropertyAnimator
 (
-int
+long
 duration
 )
 {
@@ -308,7 +308,7 @@ DecelerateInterpolator
 public
 PropertyAnimator
 (
-int
+long
 duration
 Interpolator
 interpolator
