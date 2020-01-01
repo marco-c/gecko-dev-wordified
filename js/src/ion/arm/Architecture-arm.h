@@ -270,6 +270,13 @@ NUNBOX32_PAYLOAD_OFFSET
 =
 0
 ;
+static
+const
+uint32_t
+ShadowStackSpace
+=
+0
+;
 /
 /
 /
