@@ -829,17 +829,6 @@ deque
 .
 struct
 Page
-;
-friend
-struct
-Page
-;
-/
-/
-VC6
-!
-struct
-Page
 {
 struct
 Page
