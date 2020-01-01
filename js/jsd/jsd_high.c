@@ -652,7 +652,7 @@ global_class
 "
 JSDGlobal
 "
-0
+JSCLASS_GLOBAL_FLAGS
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
