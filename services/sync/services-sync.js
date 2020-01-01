@@ -383,7 +383,7 @@ service
 main
 "
 "
-Trace
+Debug
 "
 )
 ;

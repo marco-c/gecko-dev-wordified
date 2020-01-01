@@ -3495,7 +3495,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Network
@@ -3537,7 +3537,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Private
@@ -3816,8 +3816,6 @@ i
 +
 )
 {
-/
-/
 this
 .
 _log
@@ -3869,8 +3867,6 @@ resetScore
 )
 ;
 }
-/
-/
 this
 .
 _log
@@ -6403,7 +6399,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Fetching
@@ -9445,7 +9441,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Uploading
