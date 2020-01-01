@@ -2088,15 +2088,6 @@ load_settings
 args
 )
         
-conf
-=
-BuildConfig
-(
-self
-.
-settings
-)
-        
 stripped
 =
 {
@@ -2828,6 +2819,31 @@ path
 "
 "
         
+#
+Settings
+are
+disabled
+until
+integration
+with
+command
+providers
+is
+        
+#
+worked
+out
+.
+        
+self
+.
+settings
+=
+None
+        
+return
+False
+        
 for
 provider
 in
@@ -3067,6 +3083,7 @@ exit
 '
 )
         
+#
 global_group
 .
 add_argument
@@ -3081,7 +3098,8 @@ dest
 '
 settings_file
 '
-            
+        
+#
 metavar
 =
 '
