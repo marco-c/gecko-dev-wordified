@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsIDOMXULElement
+nsXULElement
 .
 h
 "
@@ -18188,8 +18188,8 @@ CanvasRenderingContext2D
 :
 AsyncDrawXULElement
 (
-nsIDOMXULElement
-*
+nsXULElement
+&
 elem
 double
 x
@@ -18345,6 +18345,7 @@ loaderOwner
 =
 do_QueryInterface
 (
+&
 elem
 )
 ;
