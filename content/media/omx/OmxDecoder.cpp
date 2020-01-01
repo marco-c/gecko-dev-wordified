@@ -222,6 +222,13 @@ h
 #
 include
 "
+GonkNativeWindowClient
+.
+h
+"
+#
+include
+"
 OmxDecoder
 .
 h
@@ -1177,6 +1184,14 @@ GonkNativeWindow
 (
 )
 ;
+mNativeWindowClient
+=
+new
+GonkNativeWindowClient
+(
+mNativeWindow
+)
+;
 /
 /
 OMXClient
@@ -1371,7 +1386,7 @@ decoder
 videoTrack
 nullptr
 flags
-mNativeWindow
+mNativeWindowClient
 )
 ;
 if
