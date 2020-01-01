@@ -375,7 +375,10 @@ onInstallStarted
 onInstallEnded
 "
 ]
+callback_soon
+(
 check_test_1
+)
 )
 ;
 /
@@ -647,7 +650,10 @@ onInstallStarted
 onInstallEnded
 "
 ]
+callback_soon
+(
 check_test_3
+)
 )
 ;
 /
@@ -1121,7 +1127,10 @@ onInstallStarted
 onInstallEnded
 "
 ]
+callback_soon
+(
 check_test_6
+)
 )
 ;
 /
@@ -1427,7 +1436,10 @@ onInstallStarted
 onInstallEnded
 "
 ]
+callback_soon
+(
 finish_test_7
+)
 )
 ;
 /
@@ -1735,6 +1747,8 @@ AddonManager
 .
 getAllInstalls
 (
+callback_soon
+(
 function
 (
 aInstalls
@@ -1779,6 +1793,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 aAddon
@@ -1818,8 +1834,10 @@ end_test
 ;
 }
 )
+)
 ;
 }
+)
 )
 ;
 }

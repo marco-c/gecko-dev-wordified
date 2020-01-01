@@ -135,8 +135,9 @@ list
 .
 length
 ;
-run_test_1
+do_execute_soon
 (
+run_test_1
 )
 ;
 }
@@ -255,6 +256,8 @@ AddonManager
 getAddonsByTypes
 (
 null
+callback_soon
+(
 function
 (
 addons
@@ -268,15 +271,12 @@ addons
 length
 )
 ;
-shutdownManager
-(
-)
-;
 do_test_finished
 (
 )
 ;
 }
+)
 )
 ;
 }

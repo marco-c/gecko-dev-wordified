@@ -677,6 +677,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 a1
@@ -703,6 +705,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 a1
@@ -766,8 +770,10 @@ run_test_2
 ;
 }
 )
+)
 ;
 }
+)
 )
 ;
 }
@@ -829,6 +835,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 a1
@@ -974,6 +982,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 a1
@@ -1001,6 +1011,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 a1
@@ -1096,8 +1108,9 @@ org
 )
 )
 ;
-do_test_finished
+do_execute_soon
 (
+do_test_finished
 )
 ;
 }
@@ -1105,11 +1118,14 @@ do_test_finished
 ;
 }
 )
-;
-}
 )
 ;
 }
+)
+)
+;
+}
+)
 )
 ;
 }
