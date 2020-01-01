@@ -42999,11 +42999,13 @@ really
 if
 (
 !
+(
 entry
 instanceof
 Ci
 .
 nsILocalFile
+)
 )
 continue
 ;
