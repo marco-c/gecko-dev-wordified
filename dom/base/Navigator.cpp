@@ -8113,7 +8113,7 @@ nsIDOMNavigatorSystemMessages
 #
 ifdef
 MOZ_SYS_MSG
-NS_IMETHODIMP
+nsresult
 Navigator
 :
 :
