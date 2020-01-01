@@ -15567,7 +15567,7 @@ block
 )
 -
 >
-remove
+discard
 (
 oldarg
 )
