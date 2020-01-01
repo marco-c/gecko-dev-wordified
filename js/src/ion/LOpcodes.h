@@ -655,11 +655,6 @@ TestVAndBranch
 \
 _
 (
-InlineFunctionGuard
-)
-\
-_
-(
 PolyInlineDispatch
 )
 \

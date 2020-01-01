@@ -500,11 +500,6 @@ Test
 \
 _
 (
-InlineFunctionGuard
-)
-\
-_
-(
 PolyInlineDispatch
 )
 \

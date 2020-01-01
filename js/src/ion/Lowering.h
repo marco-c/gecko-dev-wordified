@@ -999,14 +999,6 @@ test
 )
 ;
 bool
-visitInlineFunctionGuard
-(
-MInlineFunctionGuard
-*
-test
-)
-;
-bool
 visitPolyInlineDispatch
 (
 MPolyInlineDispatch
