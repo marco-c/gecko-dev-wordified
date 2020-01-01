@@ -3363,9 +3363,9 @@ IUI
 .
 nodeChanged
 (
-this
-.
-registrationObject
+"
+treepanel
+"
 )
 ;
 /
