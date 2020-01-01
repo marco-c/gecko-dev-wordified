@@ -5880,6 +5880,10 @@ nsInlineFrame
 :
 GetSkipSides
 (
+const
+nsHTMLReflowState
+*
+aReflowState
 )
 const
 {

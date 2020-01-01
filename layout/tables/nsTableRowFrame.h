@@ -1411,6 +1411,12 @@ virtual
 int
 GetSkipSides
 (
+const
+nsHTMLReflowState
+*
+aReflowState
+=
+nullptr
 )
 const
 MOZ_OVERRIDE

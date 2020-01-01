@@ -2204,6 +2204,10 @@ nsTableColGroupFrame
 :
 GetSkipSides
 (
+const
+nsHTMLReflowState
+*
+aReflowState
 )
 const
 {
