@@ -1462,6 +1462,14 @@ EditorInfo
 outAttrs
 )
 {
+if
+(
+!
+mIMEFocus
+)
+return
+null
+;
 outAttrs
 .
 inputType
@@ -1753,6 +1761,9 @@ IME
 stuff
 GeckoInputConnection
 inputConnection
+;
+boolean
+mIMEFocus
 ;
 int
 mIMEState
