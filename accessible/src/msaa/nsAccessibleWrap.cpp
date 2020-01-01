@@ -10560,10 +10560,7 @@ nsAccessNode
 >
 accessNode
 =
-nsAccUtils
-:
-:
-QueryAccessNode
+do_QueryObject
 (
 aAccessible
 )

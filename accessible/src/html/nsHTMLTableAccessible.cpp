@@ -8885,10 +8885,7 @@ nsAccessNode
 >
 docAccessNode
 =
-nsAccUtils
-:
-:
-QueryAccessNode
+do_QueryObject
 (
 docAccessible
 )

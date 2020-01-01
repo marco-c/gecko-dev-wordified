@@ -907,10 +907,7 @@ nsAccessible
 >
 innerAcc
 (
-nsAccUtils
-:
-:
-QueryAccessible
+do_QueryObject
 (
 innerAccessible
 )

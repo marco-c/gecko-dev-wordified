@@ -3901,10 +3901,7 @@ nsAccessible
 >
 acc
 =
-nsAccUtils
-:
-:
-QueryAccessible
+do_QueryObject
 (
 aAccessible
 )
@@ -5928,10 +5925,7 @@ nsAccessible
 >
 acc
 =
-nsAccUtils
-:
-:
-QueryAccessible
+do_QueryObject
 (
 row
 )

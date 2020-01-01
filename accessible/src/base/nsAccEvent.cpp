@@ -1733,10 +1733,7 @@ nsXULTreeAccessible
 >
 treeAcc
 =
-nsAccUtils
-:
-:
-QueryAccessibleTree
+do_QueryObject
 (
 accessible
 )

@@ -1897,10 +1897,7 @@ nsDocAccessible
 >
 docAcc
 =
-nsAccUtils
-:
-:
-QueryAccessibleDocument
+do_QueryObject
 (
 accessible
 )
@@ -13378,10 +13375,7 @@ nsDocAccessible
 >
 docAcc
 =
-nsAccUtils
-:
-:
-QueryAccessibleDocument
+do_QueryObject
 (
 accessibleDoc
 )
