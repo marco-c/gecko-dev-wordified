@@ -5920,8 +5920,6 @@ cx
 JSSecurityCallbacks
 *
 callbacks
-;
-callbacks
 =
 JS_GetSecurityCallbacks
 (
