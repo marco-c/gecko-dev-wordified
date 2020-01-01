@@ -651,6 +651,8 @@ SyncChannel
 (
 )
 ;
+NS_OVERRIDE
+virtual
 bool
 Send
 (
@@ -687,6 +689,7 @@ for
 reply
 |
 )
+virtual
 bool
 Send
 (
