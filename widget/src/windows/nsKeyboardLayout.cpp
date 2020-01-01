@@ -480,10 +480,10 @@ WINCE
 struct
 DeadKeyEntry
 {
-PRUint16
+PRUnichar
 BaseChar
 ;
-PRUint16
+PRUnichar
 CompositeChar
 ;
 }
@@ -633,10 +633,10 @@ DeadKeyEntry
 )
 ;
 }
-PRUint16
+PRUnichar
 GetCompositeChar
 (
-PRUint16
+PRUnichar
 aBaseChar
 )
 const
@@ -644,7 +644,7 @@ const
 }
 ;
 inline
-PRUint16
+PRUnichar
 VirtualKey
 :
 :
@@ -652,7 +652,7 @@ GetCompositeChar
 (
 PRUint8
 aShiftState
-PRUint16
+PRUnichar
 aBaseChar
 )
 const
@@ -769,7 +769,7 @@ SetNormalChars
 PRUint8
 aShiftState
 const
-PRUint16
+PRUnichar
 *
 aChars
 PRUint32
@@ -899,7 +899,7 @@ SetDeadChar
 (
 PRUint8
 aShiftState
-PRUint16
+PRUnichar
 aDeadChar
 )
 {
@@ -954,7 +954,7 @@ GetUniChars
 (
 PRUint8
 aShiftState
-PRUint16
+PRUnichar
 *
 aUniChars
 PRUint8
@@ -988,7 +988,7 @@ eCtrl
 )
 )
 {
-PRUint16
+PRUnichar
 unshiftedChars
 [
 5
@@ -1137,7 +1137,7 @@ numOfChars
 *
 sizeof
 (
-PRUint16
+PRUnichar
 )
 )
 =
@@ -1202,7 +1202,7 @@ numOfUnshiftedChars
 *
 sizeof
 (
-PRUint16
+PRUnichar
 )
 )
 ;
@@ -1225,7 +1225,7 @@ GetNativeUniChars
 (
 PRUint8
 aShiftState
-PRUint16
+PRUnichar
 *
 aUniChars
 )
@@ -1641,7 +1641,7 @@ else
 PRUint8
 finalShiftState
 ;
-PRUint16
+PRUnichar
 uniChars
 [
 5
@@ -1698,7 +1698,7 @@ valid
 composite
 character
 .
-PRUint16
+PRUnichar
 compositeChar
 =
 (
@@ -1820,7 +1820,7 @@ numOfBaseChars
 *
 sizeof
 (
-PRUint16
+PRUnichar
 )
 )
 ;
@@ -1872,7 +1872,7 @@ numOfBaseChars
 *
 sizeof
 (
-PRUint16
+PRUnichar
 )
 )
 ;
@@ -1900,7 +1900,7 @@ KeyboardLayout
 :
 GetUniChars
 (
-PRUint16
+PRUnichar
 *
 aUniChars
 PRUint8
@@ -1931,7 +1931,7 @@ chars
 *
 sizeof
 (
-PRUint16
+PRUnichar
 )
 )
 ;
@@ -1963,7 +1963,7 @@ PRUint8
 aVirtualKey
 PRUint8
 aShiftStates
-PRUint16
+PRUnichar
 *
 aUniChars
 PRUint32
@@ -1994,7 +1994,7 @@ return
 PRUint8
 finalShiftState
 ;
-PRUint16
+PRUnichar
 uniChars
 [
 5
@@ -2033,7 +2033,7 @@ chars
 *
 sizeof
 (
-PRUint16
+PRUnichar
 )
 )
 ;
@@ -2247,7 +2247,7 @@ index
 "
 )
 ;
-PRUint16
+PRUnichar
 uniChars
 [
 5
@@ -2312,7 +2312,7 @@ its
 character
 representation
 .
-PRUint16
+PRUnichar
 deadChar
 [
 2
@@ -3902,7 +3902,7 @@ rv
 ;
 do
 {
-PRUint16
+PRUnichar
 dummyChars
 [
 5
@@ -4084,9 +4084,9 @@ KeyboardLayout
 :
 AddDeadKeyEntry
 (
-PRUint16
+PRUnichar
 aBaseChar
-PRUint16
+PRUnichar
 aCompositeChar
 DeadKeyEntry
 *
@@ -4366,7 +4366,7 @@ a
 second
 character
 .
-PRUint16
+PRUnichar
 compositeChars
 [
 5
@@ -4462,7 +4462,7 @@ the
 base
 character
 .
-PRUint16
+PRUnichar
 baseChars
 [
 5
@@ -4623,13 +4623,13 @@ return
 entries
 ;
 }
-PRUint16
+PRUnichar
 DeadKeyTable
 :
 :
 GetCompositeChar
 (
-PRUint16
+PRUnichar
 aBaseChar
 )
 const
