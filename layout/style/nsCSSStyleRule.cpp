@@ -3734,7 +3734,13 @@ PRUnichar
 nsAutoString
 prefix
 ;
+(
+isPseudoElement
+?
 mLowercaseTag
+:
+mCasedTag
+)
 -
 >
 ToString
