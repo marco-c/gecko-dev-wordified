@@ -1209,14 +1209,8 @@ comp1_6
 comp1_3
 :
 "
-0px
-"
-/
-/
 0
-acts
-like
-0px
+"
 comp2_3
 :
 "
@@ -1275,7 +1269,7 @@ new
 AnimTestcasePaced
 (
 "
-0
+0px
 ;
 2px
 ;
@@ -1287,12 +1281,6 @@ comp0
 "
 0px
 "
-/
-/
-0
-acts
-like
-0px
 comp1_6
 :
 "
