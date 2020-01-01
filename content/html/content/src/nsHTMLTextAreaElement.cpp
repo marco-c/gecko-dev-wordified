@@ -739,7 +739,7 @@ h
 #
 include
 "
-nsConstraintValidation
+nsIConstraintValidation
 .
 h
 "
@@ -782,7 +782,7 @@ nsIDOMNSEditableElement
 public
 nsStubMutationObserver
 public
-nsConstraintValidation
+nsIConstraintValidation
 {
 public
 :
@@ -1334,7 +1334,7 @@ GetClassInfo
 ;
 /
 /
-nsConstraintValidation
+nsIConstraintValidation
 PRBool
 IsTooLong
 (
@@ -1852,7 +1852,7 @@ nsIDOMNSHTMLTextAreaElement
 nsITextControlElement
 nsIDOMNSEditableElement
 nsIMutationObserver
-nsConstraintValidation
+nsIConstraintValidation
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
 (
@@ -1872,8 +1872,8 @@ nsHTMLTextAreaElement
 )
 /
 /
-nsConstraintValidation
-NS_IMPL_NSCONSTRAINTVALIDATION_EXCEPT_SETCUSTOMVALIDITY
+nsIConstraintValidation
+NS_IMPL_NSICONSTRAINTVALIDATION_EXCEPT_SETCUSTOMVALIDITY
 (
 nsHTMLTextAreaElement
 )
@@ -5148,7 +5148,7 @@ disabled
 }
 /
 /
-nsConstraintValidation
+nsIConstraintValidation
 NS_IMETHODIMP
 nsHTMLTextAreaElement
 :
@@ -5161,7 +5161,7 @@ nsAString
 aError
 )
 {
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 SetCustomValidity
@@ -5511,7 +5511,7 @@ default
 :
 rv
 =
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 GetValidationMessage

@@ -614,7 +614,7 @@ h
 #
 include
 "
-nsConstraintValidation
+nsIConstraintValidation
 .
 h
 "
@@ -702,7 +702,7 @@ nsGenericHTMLFormElement
 public
 nsIDOMHTMLButtonElement
 public
-nsConstraintValidation
+nsIConstraintValidation
 {
 public
 :
@@ -954,7 +954,7 @@ GetClassInfo
 ;
 /
 /
-nsConstraintValidation
+nsIConstraintValidation
 PRBool
 IsBarredFromConstraintValidation
 (
@@ -1106,7 +1106,7 @@ NS_HTML_CONTENT_INTERFACE_TABLE2
 (
 nsHTMLButtonElement
 nsIDOMHTMLButtonElement
-nsConstraintValidation
+nsIConstraintValidation
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
 (
@@ -1119,8 +1119,8 @@ HTMLButtonElement
 )
 /
 /
-nsConstraintValidation
-NS_IMPL_NSCONSTRAINTVALIDATION_EXCEPT_SETCUSTOMVALIDITY
+nsIConstraintValidation
+NS_IMPL_NSICONSTRAINTVALIDATION_EXCEPT_SETCUSTOMVALIDITY
 (
 nsHTMLButtonElement
 )
@@ -3583,7 +3583,7 @@ NS_EVENT_STATE_OPTIONAL
 }
 /
 /
-nsConstraintValidation
+nsIConstraintValidation
 NS_IMETHODIMP
 nsHTMLButtonElement
 :
@@ -3596,7 +3596,7 @@ nsAString
 aError
 )
 {
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 SetCustomValidity

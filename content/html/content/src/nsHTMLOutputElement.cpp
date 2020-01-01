@@ -472,7 +472,7 @@ h
 #
 include
 "
-nsConstraintValidation
+nsIConstraintValidation
 .
 h
 "
@@ -486,7 +486,7 @@ nsIDOMHTMLOutputElement
 public
 nsStubMutationObserver
 public
-nsConstraintValidation
+nsIConstraintValidation
 {
 public
 :
@@ -630,7 +630,7 @@ DescendantsChanged
 ;
 /
 /
-nsConstraintValidation
+nsIConstraintValidation
 PRBool
 IsBarredFromConstraintValidation
 (
@@ -760,7 +760,7 @@ NS_HTML_CONTENT_INTERFACE_TABLE3
 nsHTMLOutputElement
 nsIDOMHTMLOutputElement
 nsIMutationObserver
-nsConstraintValidation
+nsIConstraintValidation
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
 (
@@ -783,8 +783,8 @@ name
 )
 /
 /
-nsConstraintValidation
-NS_IMPL_NSCONSTRAINTVALIDATION
+nsIConstraintValidation
+NS_IMPL_NSICONSTRAINTVALIDATION
 (
 nsHTMLOutputElement
 )

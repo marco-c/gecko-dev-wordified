@@ -448,7 +448,7 @@ h
 #
 include
 "
-nsConstraintValidation
+nsIConstraintValidation
 .
 h
 "
@@ -464,13 +464,13 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMVALIDITYSTATE
 friend
 class
-nsConstraintValidation
+nsIConstraintValidation
 ;
 protected
 :
 nsDOMValidityState
 (
-nsConstraintValidation
+nsIConstraintValidation
 *
 aConstraintValidation
 )
@@ -485,7 +485,7 @@ should
 be
 called
 by
-nsConstraintValidation
+nsIConstraintValidation
 *
 to
 set
@@ -542,7 +542,7 @@ inline
 PRBool
 GetValidityState
 (
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 ValidityStateType
@@ -579,7 +579,7 @@ when
 being
 destroyed
 .
-nsConstraintValidation
+nsIConstraintValidation
 *
 mConstraintValidation
 ;

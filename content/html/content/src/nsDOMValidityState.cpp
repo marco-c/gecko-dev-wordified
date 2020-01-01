@@ -482,7 +482,7 @@ nsDOMValidityState
 :
 nsDOMValidityState
 (
-nsConstraintValidation
+nsIConstraintValidation
 *
 aConstraintValidation
 )
@@ -509,7 +509,7 @@ aValueMissing
 =
 GetValidityState
 (
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 VALIDITY_STATE_VALUE_MISSING
@@ -535,7 +535,7 @@ aTypeMismatch
 =
 GetValidityState
 (
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 VALIDITY_STATE_TYPE_MISMATCH
@@ -561,7 +561,7 @@ aPatternMismatch
 =
 GetValidityState
 (
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 VALIDITY_STATE_PATTERN_MISMATCH
@@ -587,7 +587,7 @@ aTooLong
 =
 GetValidityState
 (
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 VALIDITY_STATE_TOO_LONG
@@ -613,7 +613,7 @@ aRangeUnderflow
 =
 GetValidityState
 (
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 VALIDITY_STATE_RANGE_UNDERFLOW
@@ -639,7 +639,7 @@ aRangeOverflow
 =
 GetValidityState
 (
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 VALIDITY_STATE_RANGE_OVERFLOW
@@ -665,7 +665,7 @@ aStepMismatch
 =
 GetValidityState
 (
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 VALIDITY_STATE_STEP_MISMATCH
@@ -691,7 +691,7 @@ aCustomError
 =
 GetValidityState
 (
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 VALIDITY_STATE_CUSTOM_ERROR

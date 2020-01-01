@@ -474,7 +474,7 @@ h
 #
 include
 "
-nsConstraintValidation
+nsIConstraintValidation
 .
 h
 "
@@ -486,7 +486,7 @@ nsGenericHTMLFormElement
 public
 nsIDOMHTMLFieldSetElement
 public
-nsConstraintValidation
+nsIConstraintValidation
 {
 public
 :
@@ -592,7 +592,7 @@ GetClassInfo
 ;
 /
 /
-nsConstraintValidation
+nsIConstraintValidation
 PRBool
 IsBarredFromConstraintValidation
 (
@@ -673,7 +673,7 @@ NS_HTML_CONTENT_INTERFACE_TABLE2
 (
 nsHTMLFieldSetElement
 nsIDOMHTMLFieldSetElement
-nsConstraintValidation
+nsIConstraintValidation
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
 (
@@ -689,8 +689,8 @@ HTMLFieldSetElement
 nsIDOMHTMLFieldSetElement
 /
 /
-nsConstraintValidation
-NS_IMPL_NSCONSTRAINTVALIDATION
+nsIConstraintValidation
+NS_IMPL_NSICONSTRAINTVALIDATION
 (
 nsHTMLFieldSetElement
 )

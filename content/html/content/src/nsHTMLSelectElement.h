@@ -546,7 +546,7 @@ h
 #
 include
 "
-nsConstraintValidation
+nsIConstraintValidation
 .
 h
 "
@@ -1409,7 +1409,7 @@ nsIDOMHTMLSelectElement
 public
 nsISelectElement
 public
-nsConstraintValidation
+nsIConstraintValidation
 {
 public
 :

@@ -435,7 +435,7 @@ BLOCK
 #
 include
 "
-nsConstraintValidation
+nsIConstraintValidation
 .
 h
 "
@@ -467,10 +467,10 @@ nsDOMValidityState
 .
 h
 "
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
-nsConstraintValidation
+nsIConstraintValidation
 (
 )
 :
@@ -484,11 +484,11 @@ nsnull
 )
 {
 }
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 ~
-nsConstraintValidation
+nsIConstraintValidation
 (
 )
 {
@@ -507,7 +507,7 @@ Disconnect
 }
 }
 nsresult
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 GetValidity
@@ -546,7 +546,7 @@ NS_OK
 ;
 }
 nsresult
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 GetValidationMessage
@@ -706,7 +706,7 @@ NS_OK
 ;
 }
 nsresult
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 CheckValidity
@@ -796,7 +796,7 @@ PR_TRUE
 ;
 }
 void
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 SetCustomValidity
@@ -827,7 +827,7 @@ IsEmpty
 ;
 }
 PRBool
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 IsCandidateForConstraintValidation
@@ -904,7 +904,7 @@ do_QueryInterface
 (
 const_cast
 <
-nsConstraintValidation
+nsIConstraintValidation
 *
 >
 (

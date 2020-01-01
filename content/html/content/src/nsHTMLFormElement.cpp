@@ -692,7 +692,7 @@ h
 #
 include
 "
-nsConstraintValidation
+nsIConstraintValidation
 .
 h
 "
@@ -8629,7 +8629,7 @@ continue
 }
 nsCOMPtr
 <
-nsConstraintValidation
+nsIConstraintValidation
 >
 cvElmt
 =
