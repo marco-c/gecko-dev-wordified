@@ -2471,7 +2471,12 @@ triple
 ToObject
 (
 aCx
-nullptr
+JS
+:
+:
+NullPtr
+(
+)
 aValue
 )
 )
