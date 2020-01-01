@@ -983,7 +983,7 @@ String
 "
 )
 ;
-jGetHandlersForProtocol
+jGetHandlersForURL
 =
 (
 jmethodID
@@ -995,7 +995,7 @@ GetStaticMethodID
 (
 jGeckoAppShellClass
 "
-getHandlersForProtocol
+getHandlersForURL
 "
 "
 (
@@ -2724,12 +2724,12 @@ PRBool
 AndroidBridge
 :
 :
-GetHandlersForProtocol
+GetHandlersForURL
 (
 const
 char
 *
-aScheme
+aURL
 nsIMutableArray
 *
 aHandlersArray
@@ -2749,7 +2749,7 @@ jniFrame
 NS_ConvertUTF8toUTF16
 wScheme
 (
-aScheme
+aURL
 )
 ;
 jstring
@@ -2808,7 +2808,7 @@ mJNIEnv
 CallStaticObjectMethod
 (
 mGeckoAppShellClass
-jGetHandlersForProtocol
+jGetHandlersForURL
 jstrScheme
 jstrAction
 )
