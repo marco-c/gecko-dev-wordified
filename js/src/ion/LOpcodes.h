@@ -595,7 +595,7 @@ TestVAndBranch
 \
 _
 (
-CompareI
+Compare
 )
 \
 _
@@ -605,7 +605,7 @@ CompareD
 \
 _
 (
-CompareIAndBranch
+CompareAndBranch
 )
 \
 _

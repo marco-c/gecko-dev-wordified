@@ -5467,11 +5467,14 @@ op
 void
 infer
 (
+JSContext
+*
+cx
 const
 TypeOracle
 :
 :
-Binary
+BinaryTypes
 &
 b
 )
@@ -5515,9 +5518,9 @@ const
 if
 (
 specialization_
->
 =
-MIRType_Object
+=
+MIRType_None
 )
 return
 AliasSet
