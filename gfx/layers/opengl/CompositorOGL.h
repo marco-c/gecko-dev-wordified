@@ -204,7 +204,7 @@ aSurfaceHeight
 -
 1
 bool
-aIsRenderingToEGLSurface
+aUseExternalSurfaceSize
 =
 false
 )
@@ -960,9 +960,9 @@ mHasBGRA
 When
 rendering
 to
-an
+some
 EGL
-surface
+surfaces
 (
 e
 .
@@ -997,7 +997,7 @@ widget
 *
 /
 bool
-mIsRenderingToEGLSurface
+mUseExternalSurfaceSize
 ;
 /
 *
