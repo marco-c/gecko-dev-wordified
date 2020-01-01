@@ -5163,10 +5163,10 @@ while
 true
 )
 {
-PRUint32
+uint32_t
 read
 ;
-PRUint32
+uint32_t
 written
 ;
 rv
@@ -5565,7 +5565,7 @@ false
 continue
 ;
 }
-PRInt32
+int32_t
 lastSlash
 =
 path

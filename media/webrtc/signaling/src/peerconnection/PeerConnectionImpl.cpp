@@ -495,7 +495,7 @@ nsDOMMediaStream
 *
 stream
 ;
-PRUint32
+uint32_t
 hint
 ;
 switch
@@ -1137,7 +1137,7 @@ mozilla
 :
 TrackTicks
 aTrackOffset
-PRUint32
+uint32_t
 aTrackEvents
 const
 mozilla
@@ -1517,7 +1517,7 @@ PeerConnectionImpl
 :
 MakeMediaStream
 (
-PRUint32
+uint32_t
 aHint
 nsIDOMMediaStream
 *
@@ -1686,7 +1686,7 @@ PeerConnectionImpl
 :
 CreateRemoteSourceStreamInfo
 (
-PRUint32
+uint32_t
 aHint
 RemoteSourceStreamInfo
 *
@@ -2769,7 +2769,7 @@ PeerConnectionImpl
 :
 CreateFakeMediaStream
 (
-PRUint32
+uint32_t
 aHint
 nsIDOMMediaStream
 *
@@ -2982,11 +2982,11 @@ PeerConnectionImpl
 :
 ConnectDataConnection
 (
-PRUint16
+uint16_t
 aLocalport
-PRUint16
+uint16_t
 aRemoteport
-PRUint16
+uint16_t
 aNumstreams
 )
 {
@@ -3131,13 +3131,13 @@ const
 nsACString
 &
 aLabel
-PRUint16
+uint16_t
 aType
 bool
 outOfOrderAllowed
-PRUint16
+uint16_t
 aMaxTime
-PRUint16
+uint16_t
 aMaxNum
 nsIDOMDataChannel
 *
@@ -3670,7 +3670,7 @@ PeerConnectionImpl
 :
 SetLocalDescription
 (
-PRInt32
+int32_t
 aAction
 const
 char
@@ -3713,7 +3713,7 @@ PeerConnectionImpl
 :
 SetRemoteDescription
 (
-PRInt32
+int32_t
 action
 const
 char
@@ -3826,7 +3826,7 @@ on
 nsDOMMediaStream
 expectation
 settings
-PRUint32
+uint32_t
 hints
 =
 stream
@@ -4260,7 +4260,7 @@ GetMediaStream
 stream
 )
 {
-PRUint32
+uint32_t
 hints
 =
 stream
@@ -4765,7 +4765,7 @@ PeerConnectionImpl
 :
 GetReadyState
 (
-PRUint32
+uint32_t
 *
 aState
 )
@@ -4790,7 +4790,7 @@ PeerConnectionImpl
 :
 GetSipccState
 (
-PRUint32
+uint32_t
 *
 aState
 )
@@ -4835,7 +4835,7 @@ PeerConnectionImpl
 :
 GetIceState
 (
-PRUint32
+uint32_t
 *
 aState
 )
@@ -5032,7 +5032,7 @@ com
 Lock
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5063,7 +5063,7 @@ Detach
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

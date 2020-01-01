@@ -5068,7 +5068,7 @@ vcm_media_payload_type_t
 payload
 )
 {
-PRUint32
+uint32_t
 hints
 =
 0
@@ -14459,7 +14459,7 @@ std
 :
 vector
 <
-PRUint16
+uint16_t
 >
 srtp_ciphers
 ;

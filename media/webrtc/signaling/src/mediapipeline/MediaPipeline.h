@@ -1106,7 +1106,7 @@ TrackRate
 rate
 TrackTicks
 offset
-PRUint32
+uint32_t
 events
 const
 MediaSegment
@@ -1504,7 +1504,7 @@ TrackRate
 rate
 TrackTicks
 offset
-PRUint32
+uint32_t
 events
 const
 MediaSegment
