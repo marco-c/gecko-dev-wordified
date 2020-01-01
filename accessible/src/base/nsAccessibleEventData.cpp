@@ -3529,6 +3529,9 @@ mIsInserted
 aIsInserted
 )
 {
+#
+ifdef
+XP_WIN
 nsCOMPtr
 <
 nsIAccessibleText
@@ -3580,6 +3583,8 @@ mModifiedText
 )
 ;
 }
+#
+endif
 }
 NS_IMETHODIMP
 nsAccTextChangeEvent
