@@ -251,6 +251,11 @@ String
 .
 h
 "
+ForwardDeclareJS
+(
+Object
+)
+;
 namespace
 JS
 {
@@ -9053,7 +9058,8 @@ strict
 js
 :
 :
-MutableHandleValue
+Value
+*
 vp
 )
 ;
@@ -9140,7 +9146,8 @@ HandleObject
 obj
 HandleId
 id
-MutableHandleValue
+Value
+*
 vp
 )
 ;
@@ -9154,7 +9161,8 @@ const
 PropertyDescriptor
 *
 desc
-MutableHandleValue
+Value
+*
 vp
 )
 ;
