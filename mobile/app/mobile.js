@@ -4145,7 +4145,7 @@ methodjit
 .
 chrome
 "
-false
+true
 )
 ;
 pref
