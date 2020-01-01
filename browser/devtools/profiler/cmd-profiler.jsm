@@ -517,7 +517,7 @@ gcli
 lookup
 (
 "
-profilerAlradyFinished
+profilerAlreadyFinished
 "
 )
 ;
