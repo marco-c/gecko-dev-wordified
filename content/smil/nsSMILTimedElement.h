@@ -690,7 +690,7 @@ otherwise
 .
 *
 /
-PRBool
+nsresult
 BeginElementAt
 (
 double
@@ -791,7 +791,7 @@ otherwise
 .
 *
 /
-PRBool
+nsresult
 EndElementAt
 (
 double
