@@ -1231,7 +1231,7 @@ interfaces
 nsIDOMWindowUtils
 )
 .
-screenPixelsPerCSSPixel
+fullZoom
 ;
 /
 /

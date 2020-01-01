@@ -4858,7 +4858,7 @@ Ci
 nsIDOMWindowUtils
 )
 .
-screenPixelsPerCSSPixel
+fullZoom
 ;
 }
 /
