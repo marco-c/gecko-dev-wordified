@@ -536,7 +536,6 @@ data
 )
 ;
 }
-;
 #
 define
 ok
