@@ -1616,8 +1616,14 @@ aFactory
 nsPIDOMWindow
 *
 aOwner
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aScriptOwner
 JSContext
 *

@@ -95,8 +95,14 @@ uint32_t
 aWidth
 uint32_t
 aHeight
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aData
 )
 ;

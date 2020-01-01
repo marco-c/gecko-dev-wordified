@@ -223,8 +223,14 @@ DefineOSFileConstants
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 global
 )
 ;

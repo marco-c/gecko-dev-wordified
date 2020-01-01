@@ -147,8 +147,14 @@ InitClasses
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aGlobal
 )
 ;

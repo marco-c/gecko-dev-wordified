@@ -842,8 +842,14 @@ Send
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aGlobal
 JS
 :
