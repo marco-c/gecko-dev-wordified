@@ -226,7 +226,7 @@ return
 mReadyState
 ;
 }
-nsIDOMDOMError
+DOMError
 *
 GetError
 (
@@ -495,9 +495,9 @@ mProgressEventWasDelayed
 bool
 mTimerIsActive
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMDOMError
+DOMError
 >
 mError
 ;

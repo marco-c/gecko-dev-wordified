@@ -1113,7 +1113,7 @@ nsDOMFileReader
 :
 GetError
 (
-nsIDOMDOMError
+nsISupports
 *
 *
 aError
