@@ -1029,7 +1029,7 @@ cx
 sc
 -
 >
-GetWindowProxy
+GetNativeGlobal
 (
 )
 )

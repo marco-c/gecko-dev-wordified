@@ -400,7 +400,7 @@ cx
 scriptContext
 -
 >
-GetWindowProxy
+GetNativeGlobal
 (
 )
 )
