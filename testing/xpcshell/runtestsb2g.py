@@ -175,7 +175,11 @@ device
 .
 mkDir
 (
-DEVICE_TEST_ROOT
+self
+.
+options
+.
+remoteTestRoot
 )
         
 XPCShellRemote
@@ -215,7 +219,11 @@ device
 .
 removeDir
 (
-DEVICE_TEST_ROOT
+self
+.
+options
+.
+remoteTestRoot
 )
     
 #
@@ -1151,6 +1159,15 @@ None
         
 defaults
 [
+"
+remoteTestRoot
+"
+]
+=
+DEVICE_TEST_ROOT
+        
+defaults
+[
 '
 dm_trans
 '
@@ -1583,7 +1600,9 @@ deviceRoot
 '
 ]
 =
-DEVICE_TEST_ROOT
+options
+.
+remoteTestRoot
     
 dm
 =
@@ -1596,6 +1615,13 @@ DeviceManagerADB
 kwargs
 )
     
+if
+not
+options
+.
+remoteTestRoot
+:
+        
 options
 .
 remoteTestRoot
