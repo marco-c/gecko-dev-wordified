@@ -927,13 +927,6 @@ h
 #
 include
 "
-CanvasImageCache
-.
-h
-"
-#
-include
-"
 nsHyphenationManager
 .
 h
@@ -1658,13 +1651,6 @@ Shutdown
 (
 )
 {
-CanvasImageCache
-:
-:
-Shutdown
-(
-)
-;
 nsFrameScriptExecutor
 :
 :

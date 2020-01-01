@@ -608,12 +608,6 @@ gfxIntSize
 aSize
 )
 ;
-static
-void
-Shutdown
-(
-)
-;
 }
 ;
 }
