@@ -1897,7 +1897,6 @@ addSourceData
 .
 *
 /
-virtual
 nsresult
 SourceDataComplete
 (
@@ -1922,7 +1921,6 @@ add
 .
 *
 /
-virtual
 nsresult
 NewSourceData
 (
@@ -2030,7 +2028,6 @@ allocations
 .
 *
 /
-virtual
 nsresult
 SetSourceSizeHint
 (
