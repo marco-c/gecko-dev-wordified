@@ -1867,8 +1867,6 @@ ptrLogFont
 nsFont
 *
 aFont
-PRBool
-aIsWide
 )
 const
 {

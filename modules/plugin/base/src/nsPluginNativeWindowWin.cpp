@@ -583,6 +583,7 @@ NS_TRY_SAFE_CALL
 #
 define
 NS_PLUGIN_WINDOW_PROPERTY_ASSOCIATION
+L
 "
 MozillaPluginWindowPropertyAssociation
 "
@@ -1120,7 +1121,7 @@ nsPluginNativeWindowWin
 )
 :
 :
-GetProp
+GetPropW
 (
 hWnd
 NS_PLUGIN_WINDOW_PROPERTY_ASSOCIATION
@@ -2923,7 +2924,7 @@ nsPluginNativeWindowWin
 )
 :
 :
-GetProp
+GetPropW
 (
 hWnd
 NS_PLUGIN_WINDOW_PROPERTY_ASSOCIATION
@@ -2960,7 +2961,7 @@ if
 !
 :
 :
-SetProp
+SetPropW
 (
 hWnd
 NS_PLUGIN_WINDOW_PROPERTY_ASSOCIATION
@@ -3017,7 +3018,7 @@ hWnd
 )
 :
 :
-RemoveProp
+RemovePropW
 (
 hWnd
 NS_PLUGIN_WINDOW_PROPERTY_ASSOCIATION

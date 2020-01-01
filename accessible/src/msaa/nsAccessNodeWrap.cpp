@@ -4307,8 +4307,9 @@ gmUserLib
 =
 :
 :
-LoadLibrary
+LoadLibraryW
 (
+L
 "
 USER32
 .

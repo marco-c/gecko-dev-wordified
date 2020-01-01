@@ -794,11 +794,11 @@ mLetter
 .
 *
 /
-nsCString
+nsString
 mDrives
 ;
 const
-char
+PRUnichar
 *
 mLetter
 ;
@@ -16931,7 +16931,7 @@ NS_ERROR_OUT_OF_MEMORY
 if
 (
 !
-GetLogicalDriveStrings
+GetLogicalDriveStringsW
 (
 length
 mDrives
@@ -17078,10 +17078,10 @@ return
 NS_OK
 ;
 }
-NS_ConvertASCIItoUTF16
+nsString
 drive
 (
-mLetter
+mDrives
 )
 ;
 mLetter
