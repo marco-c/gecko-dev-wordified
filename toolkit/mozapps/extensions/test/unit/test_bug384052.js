@@ -417,6 +417,11 @@ XPCShell
 "
 1
 "
+"
+1
+.
+9
+"
 )
 ;
 startupEM
@@ -653,6 +658,14 @@ null
 item
 .
 TYPE_EXTENSION
+"
+xpcshell
+tests
+.
+mozilla
+.
+org
+"
 )
 ;
 gExpectedURL

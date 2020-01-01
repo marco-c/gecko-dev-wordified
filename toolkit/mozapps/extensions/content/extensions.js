@@ -6703,6 +6703,8 @@ iconURL
 "
 "
 type
+"
+"
 )
 ;
 items
