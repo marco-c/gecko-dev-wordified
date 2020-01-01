@@ -3567,7 +3567,7 @@ inline
 void
 removeFromDictionary
 (
-JSObject
+ObjectImpl
 *
 obj
 )

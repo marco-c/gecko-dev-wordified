@@ -2176,7 +2176,7 @@ Shape
 :
 removeFromDictionary
 (
-JSObject
+ObjectImpl
 *
 obj
 )
