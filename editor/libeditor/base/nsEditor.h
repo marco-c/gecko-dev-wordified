@@ -412,9 +412,6 @@ class
 nsIEditActionListener
 ;
 class
-nsIEditorObserver
-;
-class
 nsIInlineSpellChecker
 ;
 class
@@ -5071,11 +5068,9 @@ actions
 on
 the
 doc
-nsCOMArray
-<
-nsIEditorObserver
->
-mEditorObservers
+EditActionListener
+*
+mEditActionListener
 ;
 /
 /

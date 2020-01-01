@@ -261,7 +261,7 @@ h
 #
 include
 "
-nsIEditorObserver
+EditActionListener
 .
 h
 "
@@ -2863,7 +2863,7 @@ nsISelectionListener
 public
 nsIDOMEventListener
 public
-nsIEditorObserver
+EditActionListener
 public
 nsSupportsWeakReference
 {
@@ -2975,7 +2975,12 @@ aSetValueChanged
 NS_DECL_ISUPPORTS
 NS_DECL_NSISELECTIONLISTENER
 NS_DECL_NSIDOMEVENTLISTENER
-NS_DECL_NSIEDITOROBSERVER
+virtual
+void
+EditAction
+(
+)
+;
 protected
 :
 nsresult
@@ -3205,11 +3210,10 @@ nsTextInputListener
 )
 {
 }
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS3
 (
 nsTextInputListener
 nsISelectionListener
-nsIEditorObserver
 nsISupportsWeakReference
 nsIDOMEventListener
 )
@@ -3966,11 +3970,7 @@ return
 NS_OK
 ;
 }
-/
-/
-BEGIN
-nsIEditorObserver
-NS_IMETHODIMP
+void
 nsTextInputListener
 :
 :
@@ -4170,7 +4170,6 @@ IsAlive
 )
 {
 return
-NS_OK
 ;
 }
 /
@@ -4242,14 +4241,7 @@ true
 )
 ;
 }
-return
-NS_OK
-;
 }
-/
-/
-END
-nsIEditorObserver
 nsresult
 nsTextInputListener
 :
@@ -6877,7 +6869,7 @@ mTextListener
 newEditor
 -
 >
-AddEditorObserver
+SetEditorObserver
 (
 mTextListener
 )
@@ -6989,7 +6981,6 @@ mEditor
 >
 RemoveEditorObserver
 (
-mTextListener
 )
 ;
 mEditor
