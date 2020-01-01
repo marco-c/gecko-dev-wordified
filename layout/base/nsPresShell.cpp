@@ -32001,6 +32001,7 @@ NS_ASSERTION
 (
 rootPresContext
 =
+=
 mPresContext
 -
 >
