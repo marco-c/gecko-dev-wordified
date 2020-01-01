@@ -2433,6 +2433,10 @@ aRuleNode
 nsRuleNode
 *
 aVisitedRuleNode
+PRBool
+aIsLink
+PRBool
+aIsVisitedLink
 nsIAtom
 *
 aPseudoTag
