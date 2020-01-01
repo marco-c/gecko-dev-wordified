@@ -708,6 +708,8 @@ aURI
 nsIFrame
 *
 aFrame
+PRBool
+aReferenceImage
 )
 :
 mElement
@@ -766,6 +768,8 @@ GetContent
 (
 )
 aURI
+PR_TRUE
+aReferenceImage
 )
 ;
 StartListening
@@ -1911,6 +1915,8 @@ aURI
 nsIFrame
 *
 aFrame
+PRBool
+aReferenceImage
 )
 {
 return
@@ -1919,6 +1925,7 @@ nsSVGFilterProperty
 (
 aURI
 aFrame
+aReferenceImage
 )
 ;
 }
@@ -1933,6 +1940,8 @@ aURI
 nsIFrame
 *
 aFrame
+PRBool
+aReferenceImage
 )
 {
 return
@@ -1941,6 +1950,7 @@ nsSVGMarkerProperty
 (
 aURI
 aFrame
+aReferenceImage
 )
 ;
 }
@@ -1955,6 +1965,8 @@ aURI
 nsIFrame
 *
 aFrame
+PRBool
+aReferenceImage
 )
 {
 return
@@ -1963,6 +1975,7 @@ nsSVGTextPathProperty
 (
 aURI
 aFrame
+aReferenceImage
 )
 ;
 }
@@ -1977,6 +1990,8 @@ aURI
 nsIFrame
 *
 aFrame
+PRBool
+aReferenceImage
 )
 {
 return
@@ -1985,6 +2000,7 @@ nsSVGPaintingProperty
 (
 aURI
 aFrame
+aReferenceImage
 )
 ;
 }
@@ -2014,6 +2030,7 @@ nsIURI
 *
 nsIFrame
 *
+PRBool
 )
 )
 {
@@ -2066,6 +2083,7 @@ aCreate
 (
 aURI
 aFrame
+PR_FALSE
 )
 ;
 if
@@ -2234,6 +2252,7 @@ nsIURI
 *
 nsIFrame
 *
+PRBool
 )
 )
 {
@@ -2328,12 +2347,26 @@ if
 prop
 )
 {
+PRBool
+watchImage
+=
+aProperty
+=
+=
+nsSVGEffects
+:
+:
+BackgroundImageProperty
+(
+)
+;
 prop
 =
 aCreate
 (
 aURI
 aFrame
+watchImage
 )
 ;
 hashtable
