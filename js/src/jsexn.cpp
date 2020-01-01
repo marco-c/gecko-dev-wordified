@@ -2671,6 +2671,10 @@ filename
 )
 MarkScriptFilename
 (
+trc
+-
+>
+runtime
 elem
 .
 filename
