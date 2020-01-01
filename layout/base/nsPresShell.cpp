@@ -40469,6 +40469,14 @@ continue
 nsTouchEvent
 newEvent
 (
+NS_IS_TRUSTED_EVENT
+(
+touchEvent
+)
+?
+true
+:
+false
 touchEvent
 )
 ;
