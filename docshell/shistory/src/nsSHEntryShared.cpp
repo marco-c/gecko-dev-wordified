@@ -140,6 +140,15 @@ prprf
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 dom
 =
@@ -203,6 +212,7 @@ HistoryTrackerBase
 ;
 class
 HistoryTracker
+MOZ_FINAL
 :
 public
 HistoryTrackerBase

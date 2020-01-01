@@ -116,6 +116,15 @@ nsIDownloadHistory
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_DOWNLOADHISTORY_CID
 \
@@ -136,6 +145,7 @@ NS_DOWNLOADHISTORY_CID
 }
 class
 nsDownloadHistory
+MOZ_FINAL
 :
 public
 nsIDownloadHistory

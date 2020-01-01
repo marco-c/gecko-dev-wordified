@@ -129,6 +129,15 @@ nsString
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 Interfaces
@@ -173,6 +182,7 @@ nsSHEntryShared
 ;
 class
 nsSHEntry
+MOZ_FINAL
 :
 public
 nsISHEntry

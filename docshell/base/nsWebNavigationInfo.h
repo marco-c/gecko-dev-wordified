@@ -134,6 +134,15 @@ nsStringFwd
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 Class
@@ -161,6 +170,7 @@ NS_WEBNAVIGATION_INFO_CID
 }
 class
 nsWebNavigationInfo
+MOZ_FINAL
 :
 public
 nsIWebNavigationInfo

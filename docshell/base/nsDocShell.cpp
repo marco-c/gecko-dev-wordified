@@ -642,6 +642,15 @@ AutoRestore
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 /
 /
 we
@@ -2822,6 +2831,7 @@ host2
 }
 class
 nsPingListener
+MOZ_FINAL
 :
 public
 nsIStreamListener
@@ -47674,6 +47684,7 @@ another
 .
 class
 nsCopyFaviconCallback
+MOZ_FINAL
 :
 public
 nsIFaviconDataCallback
