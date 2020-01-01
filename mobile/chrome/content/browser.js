@@ -4834,7 +4834,9 @@ messageManager
 addMessageListener
 (
 "
-FennecViewportMetadata
+Browser
+:
+ViewportMetadata
 "
 this
 )
@@ -10717,7 +10719,9 @@ name
 {
 case
 "
-FennecViewportMetadata
+Browser
+:
+ViewportMetadata
 "
 :
 let
