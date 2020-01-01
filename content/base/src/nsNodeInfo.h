@@ -520,16 +520,6 @@ nsNodeInfo
 /
 nsINodeInfo
 virtual
-void
-GetLocalName
-(
-nsAString
-&
-aLocalName
-)
-const
-;
-virtual
 nsresult
 GetNamespaceURI
 (

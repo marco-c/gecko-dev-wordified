@@ -2321,7 +2321,7 @@ NodeInfo
 nodeInfo
 -
 >
-GetLocalName
+GetName
 (
 aLocalName
 )

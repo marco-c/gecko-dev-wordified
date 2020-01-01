@@ -5687,7 +5687,7 @@ NodeInfo
 )
 -
 >
-GetLocalName
+GetName
 (
 tagLocalName
 )
@@ -6215,7 +6215,7 @@ NodeInfo
 )
 -
 >
-GetLocalName
+GetName
 (
 tagLocalName
 )

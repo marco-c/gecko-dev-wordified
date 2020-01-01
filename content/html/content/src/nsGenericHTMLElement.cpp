@@ -1114,7 +1114,7 @@ name
 aNodeInfo
 -
 >
-GetLocalName
+GetName
 (
 name
 )
