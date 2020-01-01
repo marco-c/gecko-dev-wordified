@@ -462,7 +462,7 @@ DataType
 {
 Type_Void
 Type_Bool
-Type_JSBool
+Type_Int32
 Type_Object
 Type_Value
 }
@@ -1513,7 +1513,7 @@ template
 struct
 OutParamToDataType
 <
-JSBool
+int
 *
 >
 {
@@ -1522,7 +1522,7 @@ const
 DataType
 result
 =
-Type_JSBool
+Type_Int32
 ;
 }
 ;

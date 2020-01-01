@@ -7441,9 +7441,9 @@ const
 if
 (
 specialization_
->
 =
-MIRType_Object
+=
+MIRType_None
 )
 return
 AliasSet

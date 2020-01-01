@@ -555,7 +555,12 @@ StackArg
 \
 _
 (
-BitNot
+BitNotI
+)
+\
+_
+(
+BitNotV
 )
 \
 _

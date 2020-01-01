@@ -5192,7 +5192,7 @@ outReg
 break
 ;
 case
-Type_JSBool
+Type_Int32
 :
 outReg
 =
@@ -5208,7 +5208,7 @@ reserveStack
 (
 sizeof
 (
-JSBool
+int
 )
 )
 ;
@@ -5658,7 +5658,7 @@ Value
 break
 ;
 case
-Type_JSBool
+Type_Int32
 :
 masm
 .
@@ -5678,7 +5678,7 @@ freeStack
 (
 sizeof
 (
-JSBool
+int32
 )
 )
 ;

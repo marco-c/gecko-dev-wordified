@@ -1056,6 +1056,14 @@ ins
 )
 ;
 bool
+visitBitNotV
+(
+LBitNotV
+*
+lir
+)
+;
+bool
 visitCheckOverRecursed
 (
 LCheckOverRecursed

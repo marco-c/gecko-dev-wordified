@@ -15861,7 +15861,7 @@ i
 if
 (
 !
-ToInt32
+BitNot
 (
 cx
 regs
@@ -15877,11 +15877,6 @@ i
 )
 goto
 error
-;
-i
-=
-~
-i
 ;
 regs
 .
