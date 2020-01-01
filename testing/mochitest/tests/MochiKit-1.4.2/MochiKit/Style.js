@@ -3390,8 +3390,6 @@ tableCell
 if
 (
 /
-Gecko
-|
 Opera
 /
 .
