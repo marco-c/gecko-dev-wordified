@@ -198,6 +198,8 @@ const
 nsSubstring
 &
 aDocumentURI
+bool
+aPrivate
 )
 =
 0
@@ -213,6 +215,8 @@ const
 nsSubstring
 &
 aDocumentURI
+bool
+aPrivate
 )
 =
 0
