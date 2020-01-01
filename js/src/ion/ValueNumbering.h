@@ -325,6 +325,15 @@ bool
 useValueNumbers
 )
 ;
+MControlInstruction
+*
+simplifyControlInstruction
+(
+MControlInstruction
+*
+def
+)
+;
 bool
 eliminateRedundancies
 (
