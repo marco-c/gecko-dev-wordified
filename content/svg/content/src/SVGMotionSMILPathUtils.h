@@ -561,6 +561,7 @@ public
 :
 PathGenerator
 (
+const
 nsSVGElement
 *
 aSVGElement
@@ -771,6 +772,7 @@ aYVal
 /
 Member
 data
+const
 nsSVGElement
 *
 mSVGElement
@@ -780,9 +782,8 @@ mSVGElement
 context
 for
 converting
-out
-of
-relative
+to
+user
 units
 gfxContext
 mGfxContext
