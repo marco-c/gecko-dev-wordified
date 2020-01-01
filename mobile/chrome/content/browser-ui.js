@@ -2929,14 +2929,6 @@ contentHelper
 top
 =
 windowH
--
-contentHelper
-.
-getBoundingClientRect
-(
-)
-.
-height
 ;
 }
 init
