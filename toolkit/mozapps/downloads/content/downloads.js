@@ -7851,11 +7851,6 @@ Start
 building
 the
 list
-and
-select
-the
-first
-item
 stepListBuilder
 (
 1
