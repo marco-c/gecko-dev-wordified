@@ -10818,7 +10818,7 @@ counterparts
 in
 nsTextBoxFrame
 and
-nsAreaFrame
+nsXULLabelFrame
 nsresult
 nsBoxFrame
 :

@@ -8545,7 +8545,7 @@ here
 /
 Also
 see
-nsAreaFrame
+nsXULLabelFrame
 nsBoxFrame
 and
 nsTextBoxFrame

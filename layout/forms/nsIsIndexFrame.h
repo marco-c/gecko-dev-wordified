@@ -431,7 +431,7 @@ nsIsIndexFrame_h___
 #
 include
 "
-nsAreaFrame
+nsBlockFrame
 .
 h
 "
@@ -485,7 +485,7 @@ class
 nsIsIndexFrame
 :
 public
-nsAreaFrame
+nsBlockFrame
 public
 nsIAnonymousContentCreator
 public

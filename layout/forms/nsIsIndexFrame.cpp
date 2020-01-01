@@ -742,7 +742,7 @@ nsStyleContext
 aContext
 )
 :
-nsAreaFrame
+nsBlockFrame
 (
 aContext
 )
@@ -839,7 +839,7 @@ DestroyAnonymousContent
 mPostHr
 )
 ;
-nsAreaFrame
+nsBlockFrame
 :
 :
 Destroy
@@ -859,7 +859,7 @@ need
 to
 override
 BuildDisplayList
-nsAreaFrame
+nsBlockFrame
 will
 honour
 /
@@ -1706,7 +1706,7 @@ NS_OK
 ;
 }
 return
-nsAreaFrame
+nsBlockFrame
 :
 :
 QueryInterface
@@ -1757,7 +1757,7 @@ is
 happily
 handled
 by
-nsAreaFrame
+nsBlockFrame
 result
 =
 GetPrefWidth
@@ -1825,7 +1825,7 @@ else
 {
 rv
 =
-nsAreaFrame
+nsBlockFrame
 :
 :
 AttributeChanged

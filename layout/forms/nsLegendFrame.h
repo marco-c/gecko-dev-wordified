@@ -431,7 +431,7 @@ nsLegendFrame_h___
 #
 include
 "
-nsAreaFrame
+nsBlockFrame
 .
 h
 "
@@ -490,7 +490,7 @@ class
 nsLegendFrame
 :
 public
-nsAreaFrame
+nsBlockFrame
 {
 public
 :
@@ -501,7 +501,7 @@ nsStyleContext
 aContext
 )
 :
-nsAreaFrame
+nsBlockFrame
 (
 aContext
 )

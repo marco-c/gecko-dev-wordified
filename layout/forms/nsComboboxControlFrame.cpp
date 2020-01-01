@@ -2256,7 +2256,7 @@ nsStyleContext
 aContext
 )
 :
-nsAreaFrame
+nsBlockFrame
 (
 aContext
 )
@@ -2687,7 +2687,7 @@ NS_OK
 ;
 }
 return
-nsAreaFrame
+nsBlockFrame
 :
 :
 QueryInterface
@@ -5281,7 +5281,7 @@ buttonWidth
 nsresult
 rv
 =
-nsAreaFrame
+nsBlockFrame
 :
 :
 Reflow
@@ -7238,7 +7238,7 @@ mUserInput
 NS_STYLE_USER_INPUT_DISABLED
 )
 return
-nsAreaFrame
+nsBlockFrame
 :
 :
 HandleEvent
@@ -8799,7 +8799,7 @@ DestroyAnonymousContent
 mButtonContent
 )
 ;
-nsAreaFrame
+nsBlockFrame
 :
 :
 Destroy
@@ -8840,7 +8840,7 @@ FirstChild
 ;
 }
 return
-nsAreaFrame
+nsBlockFrame
 :
 :
 GetFirstChild
@@ -8891,7 +8891,7 @@ else
 {
 rv
 =
-nsAreaFrame
+nsBlockFrame
 :
 :
 SetInitialChildList
@@ -9070,7 +9070,7 @@ NS_BLOCK_LIST_COUNT
 )
 {
 return
-nsAreaFrame
+nsBlockFrame
 :
 :
 GetAdditionalChildListName
@@ -9651,7 +9651,7 @@ layers
 nsresult
 rv
 =
-nsAreaFrame
+nsBlockFrame
 :
 :
 BuildDisplayList

@@ -742,7 +742,7 @@ nsStyleContext
 aContext
 )
 :
-nsAreaFrame
+nsBlockFrame
 (
 aContext
 )
@@ -798,7 +798,7 @@ aPrevInFlow
 nsresult
 rv
 =
-nsAreaFrame
+nsBlockFrame
 :
 :
 Init
@@ -970,7 +970,7 @@ ForgetFrame
 (
 )
 ;
-nsAreaFrame
+nsBlockFrame
 :
 :
 Destroy
@@ -1553,7 +1553,7 @@ NS_OK
 ;
 }
 return
-nsAreaFrame
+nsBlockFrame
 :
 :
 QueryInterface
@@ -2543,7 +2543,7 @@ all
 our
 reflow
 return
-nsAreaFrame
+nsBlockFrame
 :
 :
 Reflow
@@ -2571,7 +2571,7 @@ nsIFrame
 aChildList
 )
 {
-nsAreaFrame
+nsBlockFrame
 :
 :
 SetInitialChildList
@@ -2999,7 +2999,7 @@ SYNC_BUTTON
 }
 }
 return
-nsAreaFrame
+nsBlockFrame
 :
 :
 AttributeChanged
@@ -3317,7 +3317,7 @@ tempList
 nsresult
 rv
 =
-nsAreaFrame
+nsBlockFrame
 :
 :
 BuildDisplayList
