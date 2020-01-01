@@ -38445,7 +38445,6 @@ JSVAL_VOID
 ?
 DOUBLE_TO_JSVAL
 (
-&
 cx
 -
 >
@@ -38523,7 +38522,6 @@ JSVAL_VOID
 ?
 DOUBLE_TO_JSVAL
 (
-&
 cx
 -
 >
