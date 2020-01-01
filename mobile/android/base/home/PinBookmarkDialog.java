@@ -311,7 +311,7 @@ private
 static
 final
 int
-SEARCH_LOADER_ID
+LOADER_ID_SEARCH
 =
 0
 ;
@@ -327,7 +327,7 @@ private
 static
 final
 int
-FAVICONS_LOADER_ID
+LOADER_ID_FAVICONS
 =
 1
 ;
@@ -830,7 +830,7 @@ getLoaderManager
 .
 initLoader
 (
-SEARCH_LOADER_ID
+LOADER_ID_SEARCH
 null
 mLoaderCallbacks
 )
@@ -898,7 +898,7 @@ restart
 getLoaderManager
 (
 )
-SEARCH_LOADER_ID
+LOADER_ID_SEARCH
 mLoaderCallbacks
 mSearchTerm
 )
@@ -1048,7 +1048,7 @@ id
 )
 {
 case
-SEARCH_LOADER_ID
+LOADER_ID_SEARCH
 :
 return
 SearchLoader
@@ -1062,7 +1062,7 @@ args
 )
 ;
 case
-FAVICONS_LOADER_ID
+LOADER_ID_FAVICONS
 :
 return
 FaviconsLoader
@@ -1110,7 +1110,7 @@ loaderId
 )
 {
 case
-SEARCH_LOADER_ID
+LOADER_ID_SEARCH
 :
 mAdapter
 .
@@ -1126,7 +1126,7 @@ restartFromCursor
 getLoaderManager
 (
 )
-FAVICONS_LOADER_ID
+LOADER_ID_FAVICONS
 mLoaderCallbacks
 c
 )
@@ -1134,7 +1134,7 @@ c
 break
 ;
 case
-FAVICONS_LOADER_ID
+LOADER_ID_FAVICONS
 :
 /
 /
@@ -1187,7 +1187,7 @@ loaderId
 )
 {
 case
-SEARCH_LOADER_ID
+LOADER_ID_SEARCH
 :
 mAdapter
 .
@@ -1199,7 +1199,7 @@ null
 break
 ;
 case
-FAVICONS_LOADER_ID
+LOADER_ID_FAVICONS
 :
 /
 /
