@@ -452,6 +452,13 @@ xpcprivate
 .
 h
 "
+#
+include
+"
+dom_quickstubs
+.
+h
+"
 /
 *
 *
@@ -3586,6 +3593,10 @@ DetachedWrappedNativeProtoMarker
 nsnull
 )
 ;
+DOM_MarkInterfaces
+(
+)
+;
 /
 /
 Mark
@@ -5966,6 +5977,10 @@ XPCConvert
 :
 :
 RemoveXPCOMUCStringFinalizer
+(
+)
+;
+DOM_ClearInterfaces
 (
 )
 ;
