@@ -3302,12 +3302,7 @@ const
 int32_t
 kInitialPoolSize
 =
-1024
-*
-sizeof
-(
-nsTimerEvent
-)
+4096
 ;
 sAllocator
 -
