@@ -2011,6 +2011,9 @@ NS_LITERAL_STRING
 resource
 :
 /
+/
+gre
+/
 res
 /
 EditorOverride
