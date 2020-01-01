@@ -6602,6 +6602,9 @@ mIsRadial
 bool
 mIsRepeating
 ;
+bool
+mIsToCorner
+;
 /
 /
 line
@@ -6662,6 +6665,14 @@ mIsRepeating
 aOther
 .
 mIsRepeating
+|
+|
+mIsToCorner
+!
+=
+aOther
+.
+mIsToCorner
 |
 |
 mBgPos

@@ -1211,6 +1211,9 @@ shape
 bool
 mRepeating
 ;
+bool
+mToCorner
+;
 nsStyleCoord
 mBgPosX
 ;

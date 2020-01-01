@@ -5413,6 +5413,15 @@ mSize
 =
 NS_STYLE_GRADIENT_SIZE_FARTHEST_CORNER
 ;
+aResult
+.
+mToCorner
+=
+gradient
+-
+>
+mIsToCorner
+;
 }
 /
 /
