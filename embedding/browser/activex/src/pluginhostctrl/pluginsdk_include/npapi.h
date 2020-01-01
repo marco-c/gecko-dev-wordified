@@ -2038,10 +2038,6 @@ NPVERS_HAS_LIVECONNECT
 9
 #
 define
-NPVERS_WIN16_HAS_LIVECONNECT
-9
-#
-define
 NPVERS_68K_HAS_LIVECONNECT
 11
 #
@@ -2203,30 +2199,6 @@ Prototypes
 *
 /
 #
-if
-defined
-(
-_WINDOWS
-)
-&
-&
-!
-defined
-(
-WIN32
-)
-#
-define
-NP_LOADDS
-_loadds
-#
-else
-#
-define
-NP_LOADDS
-#
-endif
-#
 ifdef
 __cplusplus
 extern
@@ -2285,7 +2257,6 @@ void
 )
 ;
 NPError
-NP_LOADDS
 NPP_New
 (
 NPMIMEType
@@ -2312,7 +2283,6 @@ saved
 )
 ;
 NPError
-NP_LOADDS
 NPP_Destroy
 (
 NPP
@@ -2324,7 +2294,6 @@ save
 )
 ;
 NPError
-NP_LOADDS
 NPP_SetWindow
 (
 NPP
@@ -2335,7 +2304,6 @@ window
 )
 ;
 NPError
-NP_LOADDS
 NPP_NewStream
 (
 NPP
@@ -2353,7 +2321,6 @@ stype
 )
 ;
 NPError
-NP_LOADDS
 NPP_DestroyStream
 (
 NPP
@@ -2366,7 +2333,6 @@ reason
 )
 ;
 int32
-NP_LOADDS
 NPP_WriteReady
 (
 NPP
@@ -2377,7 +2343,6 @@ stream
 )
 ;
 int32
-NP_LOADDS
 NPP_Write
 (
 NPP
@@ -2395,7 +2360,6 @@ buffer
 )
 ;
 void
-NP_LOADDS
 NPP_StreamAsFile
 (
 NPP
@@ -2410,7 +2374,6 @@ fname
 )
 ;
 void
-NP_LOADDS
 NPP_Print
 (
 NPP
@@ -2431,7 +2394,6 @@ event
 )
 ;
 void
-NP_LOADDS
 NPP_URLNotify
 (
 NPP
@@ -2448,7 +2410,6 @@ notifyData
 )
 ;
 jref
-NP_LOADDS
 NPP_GetJavaClass
 (
 void

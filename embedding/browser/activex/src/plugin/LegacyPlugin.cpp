@@ -5036,7 +5036,6 @@ here
 /
 /
 NPError
-NP_LOADDS
 NPP_New
 (
 NPMIMEType
@@ -5326,7 +5325,6 @@ resources
 /
 /
 NPError
-NP_LOADDS
 NPP_Destroy
 (
 NPP
@@ -5702,7 +5700,6 @@ case
 /
 /
 NPError
-NP_LOADDS
 NPP_SetWindow
 (
 NPP
@@ -6078,7 +6075,6 @@ case
 /
 /
 NPError
-NP_LOADDS
 NPP_NewStream
 (
 NPP
@@ -6190,7 +6186,6 @@ NPAsFile
 /
 /
 void
-NP_LOADDS
 NPP_StreamAsFile
 (
 NPP
@@ -6528,7 +6523,6 @@ call
 /
 /
 int32_t
-NP_LOADDS
 NPP_WriteReady
 (
 NPP
@@ -6558,7 +6552,6 @@ data
 /
 /
 int32_t
-NP_LOADDS
 NPP_Write
 (
 NPP
@@ -6627,7 +6620,6 @@ it
 /
 /
 NPError
-NP_LOADDS
 NPP_DestroyStream
 (
 NPP
@@ -6713,7 +6705,6 @@ continued
 /
 /
 void
-NP_LOADDS
 NPP_Print
 (
 NPP
@@ -7191,7 +7182,6 @@ url
 }
 }
 NPError
-NP_LOADDS
 NPP_GetValue
 (
 NPP
@@ -7230,7 +7220,6 @@ rv
 ;
 }
 NPError
-NP_LOADDS
 NPP_SetValue
 (
 NPP
