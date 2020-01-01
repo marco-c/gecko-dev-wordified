@@ -432,13 +432,6 @@ h
 #
 include
 "
-nsCoord
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h
@@ -675,7 +668,7 @@ constructor
 code
 *
 /
-nscoord
+PRInt32
 marginWidth
 =
 NS_INCHES_TO_TWIPS
@@ -5168,7 +5161,7 @@ nsPrintSettings
 :
 SetMarginInTwips
 (
-nsMargin
+nsIntMargin
 &
 aMargin
 )
@@ -5187,7 +5180,7 @@ nsPrintSettings
 :
 SetEdgeInTwips
 (
-nsMargin
+nsIntMargin
 &
 aEdge
 )
@@ -5246,7 +5239,7 @@ nsPrintSettings
 :
 SetUnwriteableMarginInTwips
 (
-nsMargin
+nsIntMargin
 &
 aUnwriteableMargin
 )
@@ -5408,7 +5401,7 @@ nsPrintSettings
 :
 GetMarginInTwips
 (
-nsMargin
+nsIntMargin
 &
 aMargin
 )
@@ -5427,7 +5420,7 @@ nsPrintSettings
 :
 GetEdgeInTwips
 (
-nsMargin
+nsIntMargin
 &
 aEdge
 )
@@ -5446,7 +5439,7 @@ nsPrintSettings
 :
 GetUnwriteableMarginInTwips
 (
-nsMargin
+nsIntMargin
 &
 aUnwriteableMargin
 )

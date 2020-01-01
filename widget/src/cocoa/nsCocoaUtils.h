@@ -1006,7 +1006,7 @@ NSRect
 GeckoRectToCocoaRect
 (
 const
-nsRect
+nsIntRect
 &
 geckoRect
 )
@@ -1025,7 +1025,7 @@ does
 .
 .
 static
-nsRect
+nsIntRect
 CocoaRectToGeckoRect
 (
 const

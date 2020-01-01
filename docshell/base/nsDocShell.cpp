@@ -32404,7 +32404,7 @@ if
 widget
 )
 {
-nsRect
+nsIntRect
 bounds
 (
 0
@@ -34373,7 +34373,7 @@ rootViewParent
 =
 nsnull
 ;
-nsRect
+nsIntRect
 newBounds
 (
 0
@@ -34720,7 +34720,7 @@ previous
 content
 viewer
 size
-nsRect
+nsIntRect
 oldBounds
 (
 0
@@ -38489,7 +38489,7 @@ widget
 NS_ERROR_FAILURE
 )
 ;
-nsRect
+nsIntRect
 bounds
 (
 x

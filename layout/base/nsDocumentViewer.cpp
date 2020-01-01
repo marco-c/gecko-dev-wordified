@@ -2159,7 +2159,7 @@ nsISupports
 *
 aState
 const
-nsRect
+nsIntRect
 &
 aBounds
 PRBool
@@ -3793,7 +3793,7 @@ nsIWidget
 *
 aParentWidget
 const
-nsRect
+nsIntRect
 &
 aBounds
 )
@@ -4037,7 +4037,7 @@ Initialize
 our
 view
 manager
-nsRect
+nsIntRect
 bounds
 ;
 mWindow
@@ -4663,7 +4663,7 @@ nsISupports
 *
 aState
 const
-nsRect
+nsIntRect
 &
 aBounds
 PRBool
@@ -7448,7 +7448,7 @@ container
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-nsRect
+nsIntRect
 bounds
 ;
 mWindow
@@ -10130,7 +10130,7 @@ DocumentViewerImpl
 :
 GetBounds
 (
-nsRect
+nsIntRect
 &
 aResult
 )
@@ -10467,7 +10467,7 @@ DocumentViewerImpl
 SetBounds
 (
 const
-nsRect
+nsIntRect
 &
 aBounds
 )
@@ -11181,7 +11181,7 @@ return
 rv
 ;
 }
-nsRect
+nsIntRect
 tbounds
 ;
 mParentWidget
@@ -23809,7 +23809,7 @@ what
 is
 being
 viewed
-nsRect
+nsIntRect
 bounds
 ;
 mWindow
