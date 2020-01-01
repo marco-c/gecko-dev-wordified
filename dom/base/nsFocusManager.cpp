@@ -13173,12 +13173,8 @@ startContent
 startContent
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 {
@@ -13233,12 +13229,8 @@ endContent
 endContent
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 {
