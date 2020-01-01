@@ -1982,7 +1982,6 @@ toGCThing
 )
 )
 ;
-else
 return
 true
 ;
