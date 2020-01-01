@@ -226,6 +226,7 @@ by
 a
 light
 sensor
+eHalLightMode_Count
 }
 ;
 enum
@@ -256,6 +257,7 @@ eHalLightFlash_Hardware
 hardware
 assisted
 flashing
+eHalLightFlash_Count
 }
 ;
 class
@@ -323,6 +325,7 @@ WAKE_LOCK_NO_CHANGE
 WAKE_LOCK_ADD_ONE
 =
 1
+NUM_WAKE_LOCK
 }
 ;
 }
@@ -439,7 +442,7 @@ mozilla
 hal
 :
 :
-eHalLightMode_Sensor
+eHalLightMode_Count
 >
 {
 }
@@ -492,7 +495,7 @@ mozilla
 hal
 :
 :
-eHalLightFlash_Hardware
+eHalLightFlash_Count
 >
 {
 }
@@ -544,7 +547,7 @@ mozilla
 hal
 :
 :
-WAKE_LOCK_ADD_ONE
+NUM_WAKE_LOCK
 >
 {
 }
