@@ -6371,6 +6371,16 @@ i
 ]
 .
 folderId
+&
+&
+menupopup
+.
+childNodes
+[
+i
+]
+.
+folderId
 =
 =
 aFolderId

@@ -820,6 +820,7 @@ null
 "
 )
 ;
+var
 visitId
 =
 add_visit
