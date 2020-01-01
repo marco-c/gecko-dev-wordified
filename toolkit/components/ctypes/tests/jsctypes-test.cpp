@@ -2413,3 +2413,15 @@ return
 result
 ;
 }
+RECT
+data_rect
+=
+{
+-
+1
+-
+2
+3
+4
+}
+;
