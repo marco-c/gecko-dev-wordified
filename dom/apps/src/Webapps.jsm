@@ -9565,6 +9565,14 @@ aData
 .
 event
 =
+app
+.
+downloadAvailable
+?
+"
+downloadavailable
+"
+:
 "
 downloadapplied
 "
