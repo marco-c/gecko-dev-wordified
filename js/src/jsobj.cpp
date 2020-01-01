@@ -5659,7 +5659,10 @@ script
 {
 /
 *
-NewScriptFromEmitter
+JSScript
+:
+:
+initFromEmitter
 has
 already
 called
