@@ -2642,6 +2642,11 @@ mDiscardTrackerNode
 ;
 }
 }
+/
+*
+static
+*
+/
 void
 RasterImage
 :
