@@ -1168,7 +1168,7 @@ aCompMgr
 .
 QueryInterface
 (
-Cinterfaces
+Ci
 .
 nsIComponentRegistrar
 )
