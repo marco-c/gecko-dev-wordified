@@ -4066,7 +4066,7 @@ TraceRecorder
 :
 findFrame
 (
-void
+jsval
 *
 p
 )
@@ -4227,7 +4227,7 @@ TraceRecorder
 :
 onFrame
 (
-void
+jsval
 *
 p
 )
@@ -4272,7 +4272,7 @@ TraceRecorder
 :
 isGlobal
 (
-void
+jsval
 *
 p
 )
@@ -4544,7 +4544,7 @@ TraceRecorder
 :
 nativeFrameOffset
 (
-void
+jsval
 *
 p
 )
@@ -5807,7 +5807,7 @@ TraceRecorder
 :
 set
 (
-void
+jsval
 *
 p
 LIns
@@ -5862,7 +5862,7 @@ TraceRecorder
 :
 get
 (
-void
+jsval
 *
 p
 )
