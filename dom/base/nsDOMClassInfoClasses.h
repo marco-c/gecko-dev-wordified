@@ -1693,14 +1693,6 @@ WebGLShader
 )
 DOMCI_CLASS
 (
-WebGLFramebuffer
-)
-DOMCI_CLASS
-(
-WebGLRenderbuffer
-)
-DOMCI_CLASS
-(
 WebGLActiveInfo
 )
 DOMCI_CLASS
