@@ -1542,6 +1542,9 @@ Numbers
 bigger
 then
 3999
+and
+negative
+numbers
 can
 '
 t
@@ -1551,7 +1554,10 @@ in
 roman
 if
 (
+PRUint32
+(
 aNumber
+)
 >
 =
 4000
