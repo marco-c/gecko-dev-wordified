@@ -18074,7 +18074,10 @@ set
 funtc
 .
 staticLevel
+uint16
+(
 slot
+)
 )
 ;
 rhs
@@ -20564,7 +20567,10 @@ tc
 -
 >
 staticLevel
+uint16
+(
 n
+)
 )
 ;
 pn

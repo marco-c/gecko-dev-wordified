@@ -828,7 +828,10 @@ isFree
 )
 ;
 return
+uint16
+(
 value
+)
 ;
 }
 void
