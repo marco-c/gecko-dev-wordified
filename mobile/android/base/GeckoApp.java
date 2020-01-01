@@ -17391,6 +17391,16 @@ mLayerClient
 ;
 }
 public
+LayerView
+getLayerView
+(
+)
+{
+return
+mLayerView
+;
+}
+public
 AbsoluteLayout
 getPluginContainer
 (
