@@ -52,7 +52,7 @@ g
 ;
 g
 .
-evaluateNonCompileAndGo
+evaluate
 (
 "
 function
@@ -112,6 +112,11 @@ startLine
 \
 n
 "
+{
+compileAndGo
+:
+false
+}
 )
 ;
 var
