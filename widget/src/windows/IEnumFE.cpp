@@ -879,8 +879,6 @@ aNumFetched
 aNumFetched
 =
 idx
--
-1
 ;
 return
 S_OK
