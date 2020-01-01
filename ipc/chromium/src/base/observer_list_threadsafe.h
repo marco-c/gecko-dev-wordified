@@ -111,6 +111,9 @@ task
 .
 h
 "
+namespace
+base
+{
 /
 /
 /
@@ -1633,6 +1636,11 @@ ObserverListThreadSafe
 ;
 }
 ;
+}
+/
+/
+namespace
+base
 #
 endif
 /

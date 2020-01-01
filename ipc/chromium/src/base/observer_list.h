@@ -100,6 +100,9 @@ find
 ;
 #
 endif
+namespace
+base
+{
 /
 /
 /
@@ -1136,6 +1139,11 @@ ObserverList
 ;
 }
 ;
+}
+/
+/
+namespace
+base
 #
 define
 FOR_EACH_OBSERVER
@@ -1148,6 +1156,9 @@ func
 do
 {
 \
+base
+:
+:
 ObserverList
 <
 ObserverType
