@@ -832,13 +832,6 @@ h
 #
 include
 "
-nsIDOMStorageWindow
-.
-h
-"
-#
-include
-"
 nsIDOMStorageEvent
 .
 h
@@ -2040,8 +2033,6 @@ nsIScriptObjectPrincipal
 public
 nsIDOMEventTarget
 public
-nsIDOMStorageWindow
-public
 nsIDOMStorageIndexedDB
 public
 nsSupportsWeakReference
@@ -2603,8 +2594,8 @@ aEventName
 ;
 /
 /
-nsIDOMStorageWindow
-NS_DECL_NSIDOMSTORAGEWINDOW
+nsIDOMStorageIndexedDB
+NS_DECL_NSIDOMSTORAGEINDEXEDDB
 /
 /
 nsIInterfaceRequestor
