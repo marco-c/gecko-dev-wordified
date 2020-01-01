@@ -435,7 +435,10 @@ npp
 JSContext
 *
 cx
-jsval
+JS
+:
+:
+Value
 val
 NPVariant
 *

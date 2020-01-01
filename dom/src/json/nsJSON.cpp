@@ -1258,7 +1258,10 @@ to
 fail
 *
 /
-jsval
+JS
+:
+:
+Value
 toJSON
 ;
 if
@@ -2096,7 +2099,10 @@ str
 JSContext
 *
 cx
-jsval
+JS
+:
+:
+Value
 *
 result
 )
@@ -2630,7 +2636,10 @@ str
 JSContext
 *
 cx
-jsval
+JS
+:
+:
+Value
 *
 result
 )
@@ -2777,7 +2786,10 @@ nsJSONListener
 JSContext
 *
 cx
-jsval
+JS
+:
+:
+Value
 *
 rootVal
 bool

@@ -7751,7 +7751,10 @@ rval
 below
 )
 .
-jsval
+JS
+:
+:
+Value
 vec
 [
 ]
@@ -7778,7 +7781,10 @@ vec
 vec
 )
 ;
-jsval
+JS
+:
+:
+Value
 *
 rval
 =
