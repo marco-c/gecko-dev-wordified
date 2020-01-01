@@ -1923,9 +1923,6 @@ nsAString
 aTarget
 )
 {
-if
-(
-!
 GetAttr
 (
 kNameSpaceID_None
@@ -1934,6 +1931,14 @@ nsGkAtoms
 :
 target
 aTarget
+)
+;
+if
+(
+aTarget
+.
+IsEmpty
+(
 )
 )
 {
