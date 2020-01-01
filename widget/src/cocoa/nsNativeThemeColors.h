@@ -441,6 +441,7 @@ ColorName
 headerStartGrey
 headerEndGrey
 headerBorderGrey
+toolbarTopBorderGrey
 }
 ;
 static
@@ -496,6 +497,18 @@ grey
 /
 separator
 line
+{
+0xC0
+0xE2
+}
+/
+/
+top
+separator
+line
+of
+a
+toolbar
 }
 ;
 static
