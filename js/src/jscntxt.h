@@ -3750,10 +3750,7 @@ js
 Value
 positiveInfinityValue
 ;
-js
-:
-:
-PropertyName
+JSAtom
 *
 emptyString
 ;

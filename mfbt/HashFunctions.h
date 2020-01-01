@@ -349,15 +349,6 @@ StandardInteger
 h
 "
 #
-include
-"
-mozilla
-/
-Types
-.
-h
-"
-#
 ifdef
 __cplusplus
 namespace

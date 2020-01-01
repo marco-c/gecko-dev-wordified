@@ -389,7 +389,6 @@ two
 behaviors
 :
 *
-*
 -
 if
 |
@@ -443,6 +442,7 @@ by
 the
 class
 .
+*
 *
 *
 Extension
@@ -521,9 +521,6 @@ GuardObjects
 .
 h
 "
-namespace
-mozilla
-{
 /
 *
 *
@@ -1131,9 +1128,6 @@ struct
 name
 :
 public
-mozilla
-:
-:
 Scoped
 <
 Traits
@@ -1145,9 +1139,6 @@ Type
 {
 \
 typedef
-mozilla
-:
-:
 Scoped
 <
 Traits
@@ -1513,13 +1504,6 @@ SCOPED_TEMPLATE
 ScopedDeleteArray
 ScopedDeleteArrayTraits
 )
-}
-/
-*
-namespace
-mozilla
-*
-/
 #
 endif
 /
