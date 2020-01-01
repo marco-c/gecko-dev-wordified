@@ -5942,7 +5942,6 @@ hasType
 type
 )
 )
-{
 script
 -
 >
@@ -5956,18 +5955,6 @@ addTypeBarrier
 cx
 pc
 target
-type
-)
-;
-return
-;
-}
-target
--
->
-addType
-(
-cx
 type
 )
 ;
