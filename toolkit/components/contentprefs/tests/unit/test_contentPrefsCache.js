@@ -53,7 +53,7 @@ getService
 (
 Ci
 .
-nsIContentPrefService_MOZILLA_2_0
+nsIContentPrefService
 )
 ;
 function

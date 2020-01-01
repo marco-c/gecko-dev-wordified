@@ -1369,9 +1369,6 @@ Ci
 nsIContentPrefService
 Ci
 .
-nsIContentPrefService_MOZILLA_2_0
-Ci
-.
 nsIFrameMessageListener
 ]
 )
