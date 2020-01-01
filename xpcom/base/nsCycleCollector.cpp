@@ -5798,8 +5798,7 @@ sCollector
 -
 >
 mGraph
--
->
+.
 mRootCount
 >
 0
@@ -5883,7 +5882,6 @@ w
 WriteGraph
 (
 stream
-*
 sCollector
 -
 >
@@ -6155,8 +6153,7 @@ sCollector
 -
 >
 mGraph
--
->
+.
 mNodes
 )
 ;
@@ -11103,9 +11100,6 @@ nsCycleCollector
 :
 MaybeDrawGraphs
 (
-GCGraph
-&
-graph
 )
 {
 if
