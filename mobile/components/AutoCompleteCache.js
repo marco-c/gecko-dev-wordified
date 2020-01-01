@@ -470,7 +470,7 @@ jsm
 const
 PERMS_FILE
 =
-0644
+0600
 ;
 const
 PERMS_DIRECTORY
