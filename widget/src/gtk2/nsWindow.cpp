@@ -1768,6 +1768,9 @@ ResetIdleTimeOut
 ;
 }
 }
+#
+ifdef
+MOZ_HAVE_SHMIMAGE
 /
 /
 If
@@ -1822,6 +1825,8 @@ UseClientSideRendering
 gShmAvailable
 ;
 }
+#
+endif
 /
 /
 this
