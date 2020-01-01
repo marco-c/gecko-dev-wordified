@@ -8656,6 +8656,16 @@ function
 (
 )
 {
+this
+.
+doc
+.
+defaultView
+.
+focus
+(
+)
+;
 let
 editorNodes
 =
