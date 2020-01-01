@@ -3899,9 +3899,9 @@ or
 almost
 visible
 .
-nsTArray
+nsTHashtable
 <
-nsCOMPtr
+nsRefPtrHashKey
 <
 nsIImageLoadingContent
 >
