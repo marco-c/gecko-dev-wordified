@@ -2954,7 +2954,7 @@ getLoadedTestURL
 {
 TestRunner
 .
-log
+error
 (
 "
 TEST
