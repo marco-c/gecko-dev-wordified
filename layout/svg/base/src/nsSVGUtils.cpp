@@ -4112,9 +4112,6 @@ nsnull
 gfxRect
 bounds
 =
-nsSVGUtils
-:
-:
 GetCanvasTM
 (
 innerSvgParent
@@ -4278,9 +4275,6 @@ nsSVGOuterSVGFrame
 *
 outerSVGFrame
 =
-nsSVGUtils
-:
-:
 GetOuterSVGFrame
 (
 aFrame
@@ -4355,9 +4349,6 @@ nsSVGOuterSVGFrame
 *
 outerSVGFrame
 =
-nsSVGUtils
-:
-:
 GetOuterSVGFrame
 (
 frame
@@ -5803,9 +5794,6 @@ frames
 with
 transformation
 matrices
-nsSVGUtils
-:
-:
 NotifyChildrenOfSVGChange
 (
 kid
@@ -8527,9 +8515,6 @@ else
 {
 x
 =
-nsSVGUtils
-:
-:
 UserSpace
 (
 aFrame
@@ -8542,9 +8527,6 @@ aXYWH
 ;
 y
 =
-nsSVGUtils
-:
-:
 UserSpace
 (
 aFrame
@@ -8557,9 +8539,6 @@ aXYWH
 ;
 width
 =
-nsSVGUtils
-:
-:
 UserSpace
 (
 aFrame
@@ -8572,9 +8551,6 @@ aXYWH
 ;
 height
 =
-nsSVGUtils
-:
-:
 UserSpace
 (
 aFrame
