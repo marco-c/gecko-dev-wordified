@@ -563,9 +563,6 @@ nsplugindefs
 h
 "
 #
-undef
-DARWIN
-#
 import
 <
 Carbon
@@ -753,9 +750,6 @@ mCurKeyEvent
 PRBool
 mKeyDownHandled
 ;
-BOOL
-mIgnoreDoCommand
-;
 /
 /
 While
@@ -797,6 +791,17 @@ eventually
 .
 BOOL
 mKeyPressSent
+;
+/
+/
+Valid
+when
+mKeyPressSent
+is
+true
+.
+PRBool
+mKeyPressHandled
 ;
 /
 /
