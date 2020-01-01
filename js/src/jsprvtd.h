@@ -876,9 +876,6 @@ Parser
 struct
 Compiler
 ;
-class
-RegExp
-;
 }
 }
 #
@@ -1015,6 +1012,11 @@ typedef
 struct
 JSPrinter
 JSPrinter
+;
+typedef
+struct
+JSRegExp
+JSRegExp
 ;
 typedef
 struct

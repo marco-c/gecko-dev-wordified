@@ -3601,10 +3601,7 @@ JSContext
 *
 cx
 ;
-js
-:
-:
-RegExpStatics
+JSRegExpStatics
 statics
 ;
 js
