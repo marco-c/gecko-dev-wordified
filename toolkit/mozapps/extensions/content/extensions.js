@@ -8667,7 +8667,7 @@ document
 getElementById
 (
 "
-viewGroup
+topBar
 "
 )
 .
