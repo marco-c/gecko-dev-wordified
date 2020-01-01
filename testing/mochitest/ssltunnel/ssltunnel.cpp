@@ -1463,14 +1463,6 @@ PR_SecondsToInterval
 2
 )
 ;
-PRIntervalTime
-short_timeout
-=
-PR_MillisecondsToInterval
-(
-250
-)
-;
 AutoFD
 other_sock
 (
@@ -2848,8 +2840,11 @@ return
 NULL
 ;
 return
+PL_strdup
+(
 "
 "
+)
 ;
 }
 server_info_t
