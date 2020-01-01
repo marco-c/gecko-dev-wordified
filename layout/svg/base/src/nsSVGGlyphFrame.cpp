@@ -6139,16 +6139,10 @@ opacity
 )
 ;
 }
-*
-aStrokePattern
-=
-nsnull
-;
 strokePattern
 .
-swap
+forget
 (
-*
 aStrokePattern
 )
 ;
