@@ -8914,7 +8914,7 @@ origI
 TextRange
 r
 (
-i
+origI
 i
 +
 1
