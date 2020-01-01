@@ -691,6 +691,7 @@ function
 openChange
 (
 type
+duringSetup
 )
 {
 /
@@ -793,6 +794,7 @@ changeXUL
 "
 changeOpt
 type
+duringSetup
 )
 ;
 }
@@ -826,6 +828,7 @@ resetPassphrase
 :
 function
 (
+duringSetup
 )
 {
 if
@@ -845,6 +848,7 @@ openChange
 "
 ResetPassphrase
 "
+duringSetup
 )
 ;
 }

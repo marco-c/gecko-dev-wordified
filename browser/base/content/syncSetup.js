@@ -1454,6 +1454,7 @@ gSyncUtils
 .
 resetPassphrase
 (
+true
 )
 ;
 }
