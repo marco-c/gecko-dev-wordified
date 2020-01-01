@@ -183,6 +183,9 @@ newtab
 url
 "
 ;
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 const
 TOPIC
 =
@@ -196,6 +199,8 @@ transition
 complete
 "
 ;
+#
+endif
 function
 getNewTabPageURL
 (
@@ -278,6 +283,9 @@ update
 false
 )
 ;
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 Services
 .
 obs
@@ -289,6 +297,8 @@ TOPIC
 false
 )
 ;
+#
+endif
 addEventListener
 (
 "
@@ -317,6 +327,9 @@ PREF
 update
 )
 ;
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 Services
 .
 obs
@@ -327,6 +340,8 @@ update
 TOPIC
 )
 ;
+#
+endif
 }
 )
 ;
