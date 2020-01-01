@@ -128,6 +128,10 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
 LayerManagerComposite
 .
 h
@@ -167,7 +171,7 @@ class
 ContainerLayerComposite
 :
 public
-ShadowContainerLayer
+ContainerLayer
 public
 LayerComposite
 {
@@ -368,7 +372,7 @@ class
 RefLayerComposite
 :
 public
-ShadowRefLayer
+RefLayer
 public
 LayerComposite
 {
