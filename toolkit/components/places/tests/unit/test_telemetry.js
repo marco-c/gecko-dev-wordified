@@ -494,6 +494,17 @@ _telemetry
 (
 )
 ;
+waitForAsyncUpdates
+(
+continue_test
+)
+;
+}
+function
+continue_test
+(
+)
+{
 /
 /
 Test
