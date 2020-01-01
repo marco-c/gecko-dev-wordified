@@ -7066,6 +7066,9 @@ Register
 output
 Label
 *
+truncateFail
+Label
+*
 fail
 IntConversionBehavior
 behavior
@@ -7139,6 +7142,9 @@ handleStringEntry
 Label
 *
 handleStringRejoin
+Label
+*
+truncateDoubleSlow
 Register
 stringReg
 FloatRegister
@@ -7171,6 +7177,7 @@ behavior
 convertValueToInt
 (
 value
+NULL
 NULL
 NULL
 NULL
@@ -7303,6 +7310,7 @@ convertValueToInt
 (
 value
 input
+NULL
 NULL
 NULL
 InvalidReg
@@ -7468,6 +7476,9 @@ handleStringEntry
 Label
 *
 handleStringRejoin
+Label
+*
+truncateDoubleSlow
 Register
 stringReg
 FloatRegister
@@ -7485,6 +7496,7 @@ value
 input
 handleStringEntry
 handleStringRejoin
+truncateDoubleSlow
 stringReg
 temp
 output
@@ -7514,6 +7526,7 @@ convertValueToInt
 (
 value
 input
+NULL
 NULL
 NULL
 InvalidReg
@@ -7653,6 +7666,9 @@ handleStringEntry
 Label
 *
 handleStringRejoin
+Label
+*
+truncateDoubleSlow
 Register
 stringReg
 FloatRegister
@@ -7670,6 +7686,7 @@ value
 input
 handleStringEntry
 handleStringRejoin
+truncateDoubleSlow
 stringReg
 temp
 output
@@ -7699,6 +7716,7 @@ convertValueToInt
 (
 value
 input
+NULL
 NULL
 NULL
 InvalidReg
