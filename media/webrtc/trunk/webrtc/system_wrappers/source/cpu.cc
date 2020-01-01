@@ -128,6 +128,12 @@ defined
 (
 WEBRTC_ANDROID
 )
+|
+|
+defined
+(
+WEBRTC_BSD
+)
 /
 /
 Not
@@ -198,6 +204,12 @@ elif
 defined
 (
 WEBRTC_ANDROID
+)
+|
+|
+defined
+(
+WEBRTC_BSD
 )
 return
 0
