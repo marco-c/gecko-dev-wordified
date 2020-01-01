@@ -3500,7 +3500,7 @@ this
 server
 =
 new
-nsHttpServer
+HttpServer
 (
 )
 ;
@@ -3589,7 +3589,7 @@ server
 null
 /
 /
-nsHttpServer
+HttpServer
 .
 users
 :
@@ -5302,7 +5302,7 @@ is
 invoked
 by
 the
-nsHttpServer
+HttpServer
 .
 this
 is
@@ -5315,7 +5315,7 @@ SyncServer
 handler
 is
 the
-nsHttpServer
+HttpServer
 '
 s
 handler

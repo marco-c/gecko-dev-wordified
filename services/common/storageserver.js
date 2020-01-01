@@ -87,19 +87,6 @@ purposes
 .
 *
 /
-/
-/
-TODO
-enable
-once
-build
-infra
-supports
-testing
-modules
-.
-/
-*
 const
 {
 classes
@@ -152,8 +139,6 @@ js
 "
 )
 ;
-*
-/
 Cu
 .
 import
@@ -5186,7 +5171,7 @@ this
 server
 =
 new
-nsHttpServer
+HttpServer
 (
 )
 ;

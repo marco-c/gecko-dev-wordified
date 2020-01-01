@@ -61,19 +61,6 @@ use
 strict
 "
 ;
-/
-/
-TODO
-enable
-once
-build
-infra
-supports
-test
-modules
-.
-/
-*
 const
 {
 classes
@@ -120,8 +107,6 @@ js
 "
 )
 ;
-*
-/
 Cu
 .
 import
@@ -789,7 +774,7 @@ this
 server
 =
 new
-nsHttpServer
+HttpServer
 (
 )
 ;

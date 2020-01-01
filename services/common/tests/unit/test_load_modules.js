@@ -127,19 +127,6 @@ resource
 )
 ;
 }
-/
-/
-TODO
-enable
-once
-build
-infra
-supports
-testing
-modules
-.
-/
-*
 for
 each
 (
@@ -181,6 +168,4 @@ resource
 )
 ;
 }
-*
-/
 }
