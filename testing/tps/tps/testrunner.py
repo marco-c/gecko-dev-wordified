@@ -1050,7 +1050,7 @@ self
 .
 resultfile
 '
-a
+w
 '
 )
     
