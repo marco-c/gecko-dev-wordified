@@ -338,10 +338,10 @@ localeString
 ;
 NS_ENSURE_TRUE
 (
+NS_SUCCEEDED
+(
 res
-=
-=
-noErr
+)
 &
 &
 !
