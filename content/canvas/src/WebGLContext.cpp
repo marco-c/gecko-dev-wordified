@@ -1979,7 +1979,7 @@ status
 nsIGfxInfo
 :
 :
-FEATURE_BLOCKED_DRIVER_VERSION
+FEATURE_BLOCKED
 |
 |
 status
@@ -1988,7 +1988,7 @@ status
 nsIGfxInfo
 :
 :
-FEATURE_BLOCKED_DEVICE
+FEATURE_NOT_AVAILABLE
 )
 {
 useOpenGL
@@ -2024,7 +2024,7 @@ status
 nsIGfxInfo
 :
 :
-FEATURE_BLOCKED_DRIVER_VERSION
+FEATURE_BLOCKED
 |
 |
 status
@@ -2033,7 +2033,7 @@ status
 nsIGfxInfo
 :
 :
-FEATURE_BLOCKED_DEVICE
+FEATURE_NOT_AVAILABLE
 )
 {
 useANGLE
