@@ -1183,14 +1183,11 @@ nsAttrValue
 aEmptyOrOldValue
 )
 ;
-virtual
 void
 DidChangeInteger
 (
 PRUint8
 aAttrEnum
-bool
-aDoSetAttr
 )
 ;
 virtual
