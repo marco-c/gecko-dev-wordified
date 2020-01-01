@@ -36842,6 +36842,9 @@ layout
 ;
 if
 (
+isXULNS
+&
+&
 aTag
 =
 =
@@ -37030,6 +37033,9 @@ layout
 ;
 if
 (
+isXULNS
+&
+&
 aTag
 =
 =
