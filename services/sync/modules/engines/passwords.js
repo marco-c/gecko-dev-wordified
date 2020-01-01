@@ -705,6 +705,11 @@ __proto__
 Store
 .
 prototype
+name
+:
+"
+passwords
+"
 _logName
 :
 "
@@ -1556,6 +1561,11 @@ _logName
 :
 "
 PasswordTracker
+"
+name
+:
+"
+passwords
 "
 file
 :

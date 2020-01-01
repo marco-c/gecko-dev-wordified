@@ -1112,6 +1112,11 @@ __proto__
 Store
 .
 prototype
+name
+:
+"
+tabs
+"
 _logName
 :
 "
@@ -2619,6 +2624,11 @@ __proto__
 Tracker
 .
 prototype
+name
+:
+"
+tabs
+"
 _logName
 :
 "

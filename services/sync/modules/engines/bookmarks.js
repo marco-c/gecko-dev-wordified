@@ -887,6 +887,11 @@ __proto__
 Store
 .
 prototype
+name
+:
+"
+bookmarks
+"
 _logName
 :
 "
@@ -5200,6 +5205,11 @@ __proto__
 Tracker
 .
 prototype
+name
+:
+"
+bookmarks
+"
 _logName
 :
 "
