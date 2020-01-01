@@ -5852,6 +5852,17 @@ JSContext
 *
 cx
 ;
+JSAutoRequest
+ar
+(
+nsContentUtils
+:
+:
+GetSafeJSContext
+(
+)
+)
+;
 while
 (
 (

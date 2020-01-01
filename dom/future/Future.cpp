@@ -1287,6 +1287,17 @@ Clear
 (
 )
 ;
+JSAutoRequest
+ar
+(
+nsContentUtils
+:
+:
+GetSafeJSContext
+(
+)
+)
+;
 Optional
 <
 JS

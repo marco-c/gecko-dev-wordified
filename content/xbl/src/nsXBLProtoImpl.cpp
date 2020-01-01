@@ -536,6 +536,17 @@ nsIXPConnectJSObjectHolder
 >
 holder
 ;
+JSAutoRequest
+ar
+(
+context
+-
+>
+GetNativeContext
+(
+)
+)
+;
 JS
 :
 :

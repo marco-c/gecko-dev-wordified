@@ -3194,6 +3194,12 @@ GetSafeJSContext
 )
 )
 ;
+AutoPushJSContext
+ctx
+(
+cxToUse
+)
+;
 JS
 :
 :
@@ -3206,12 +3212,6 @@ objectsArray
 (
 cxToUse
 aObjectsArray
-)
-;
-AutoPushJSContext
-ctx
-(
-cxToUse
 )
 ;
 if

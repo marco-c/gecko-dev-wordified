@@ -8091,6 +8091,12 @@ JSObject
 aScopeObject_
 )
 {
+JSAutoRequest
+ar
+(
+mContext
+)
+;
 JS
 :
 :
