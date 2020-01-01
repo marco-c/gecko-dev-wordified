@@ -7792,6 +7792,14 @@ jsbytecode
 pc
 )
 ;
+bool
+UseNewTypeForClone
+(
+JSFunction
+*
+fun
+)
+;
 /
 *
 *

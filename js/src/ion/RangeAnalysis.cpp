@@ -134,6 +134,13 @@ h
 #
 include
 "
+jsanalyze
+.
+h
+"
+#
+include
+"
 vm
 /
 NumericConversions

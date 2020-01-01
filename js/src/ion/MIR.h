@@ -168,13 +168,6 @@ h
 #
 include
 "
-jsinferinlines
-.
-h
-"
-#
-include
-"
 ion
 /
 TypePolicy
@@ -265,6 +258,9 @@ h
 namespace
 js
 {
+class
+StringObject
+;
 namespace
 ion
 {
