@@ -2752,13 +2752,11 @@ viewCSS
 ;
 if
 (
-NS_FAILED
-(
-res
-)
+!
+viewCSS
 )
 return
-res
+NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
