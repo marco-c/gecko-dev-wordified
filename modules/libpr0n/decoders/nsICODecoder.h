@@ -543,12 +543,6 @@ nsICODecoder
 ;
 virtual
 void
-InitInternal
-(
-)
-;
-virtual
-void
 WriteInternal
 (
 const
