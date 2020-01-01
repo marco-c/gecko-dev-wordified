@@ -647,15 +647,8 @@ MessageLoop
 *
 ioLoop
 =
-BrowserProcessSubThread
-:
-:
-GetMessageLoop
+XRE_GetIOMessageLoop
 (
-BrowserProcessSubThread
-:
-:
-IO
 )
 ;
 if
