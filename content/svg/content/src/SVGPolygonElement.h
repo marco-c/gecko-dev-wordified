@@ -106,13 +106,6 @@ nsSVGPolyElement
 .
 h
 "
-#
-include
-"
-nsIDOMSVGPolygonElement
-.
-h
-"
 nsresult
 NS_NewSVGPolygonElement
 (
@@ -144,7 +137,7 @@ MOZ_FINAL
 public
 SVGPolygonElementBase
 public
-nsIDOMSVGPolygonElement
+nsIDOMSVGElement
 {
 protected
 :
@@ -200,7 +193,6 @@ public
 interfaces
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGPOLYGONELEMENT
 /
 /
 xxx
@@ -258,13 +250,6 @@ nsINode
 aResult
 )
 const
-;
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
 ;
 virtual
 nsIDOMNode

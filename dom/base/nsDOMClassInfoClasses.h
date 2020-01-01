@@ -910,10 +910,6 @@ SVGMaskElement
 )
 DOMCI_CLASS
 (
-SVGPolygonElement
-)
-DOMCI_CLASS
-(
 SVGPolylineElement
 )
 DOMCI_CLASS
