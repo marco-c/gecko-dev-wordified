@@ -478,7 +478,7 @@ using
 mozilla
 :
 :
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 ;
 static
 const
@@ -600,9 +600,9 @@ nsWebMTimeDataOffset
 >
 &
 aMapping
-Monitor
+ReentrantMonitor
 &
-aMonitor
+aReentrantMonitor
 )
 {
 static
@@ -1173,10 +1173,10 @@ nsWebMTimeDataOffset
 entries
 .
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
-aMonitor
+aReentrantMonitor
 )
 ;
 PRUint32
@@ -1369,10 +1369,10 @@ PRInt64
 aStartTimeOffsetNS
 )
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
-mMonitor
+mReentrantMonitor
 )
 ;
 /
@@ -1932,7 +1932,7 @@ aBuffer
 )
 aLength
 mTimeMapping
-mMonitor
+mReentrantMonitor
 )
 ;
 /

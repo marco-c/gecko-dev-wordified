@@ -447,7 +447,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -487,8 +487,8 @@ typedef
 mozilla
 :
 :
-Monitor
-Monitor
+ReentrantMonitor
+ReentrantMonitor
 ;
 public
 :
@@ -771,8 +771,8 @@ protected
 GeckoProcessType
 mProcessType
 ;
-Monitor
-mMonitor
+ReentrantMonitor
+mReentrantMonitor
 ;
 bool
 mLaunched

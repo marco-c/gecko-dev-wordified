@@ -1165,10 +1165,10 @@ nsIWifiListener
 currentListeners
 ;
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
-mMonitor
+mReentrantMonitor
 )
 ;
 for
@@ -1490,10 +1490,10 @@ n
 )
 )
 ;
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
-mMonitor
+mReentrantMonitor
 )
 ;
 mon

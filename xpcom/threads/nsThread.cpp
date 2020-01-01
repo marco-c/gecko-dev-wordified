@@ -450,7 +450,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -1339,7 +1339,7 @@ locking
 .
 return
 ;
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
 mMon
@@ -1404,7 +1404,7 @@ Run
 (
 )
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
 mMon
@@ -1442,7 +1442,7 @@ PR_FALSE
 )
 {
 }
-Monitor
+ReentrantMonitor
 mMon
 ;
 PRBool

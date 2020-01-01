@@ -1799,7 +1799,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -2520,8 +2520,8 @@ typedef
 mozilla
 :
 :
-Monitor
-Monitor
+ReentrantMonitor
+ReentrantMonitor
 ;
 /
 /
@@ -3176,14 +3176,14 @@ to
 /
 state
 .
-Monitor
+ReentrantMonitor
 &
-GetMonitor
+GetReentrantMonitor
 (
 )
 {
 return
-mMonitor
+mReentrantMonitor
 ;
 }
 /
@@ -4329,7 +4329,7 @@ thread
 .
 Synchronised
 using
-mMonitor
+mReentrantMonitor
 .
 If
 the
@@ -4533,7 +4533,7 @@ mStream
 ;
 /
 /
-Monitor
+ReentrantMonitor
 for
 detecting
 when
@@ -4564,8 +4564,8 @@ next
 state
 change
 .
-Monitor
-mMonitor
+ReentrantMonitor
+mReentrantMonitor
 ;
 /
 /
@@ -4586,7 +4586,7 @@ the
 /
 /
 monitor
-mMonitor
+mReentrantMonitor
 .
 This
 monitor

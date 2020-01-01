@@ -436,7 +436,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -527,8 +527,8 @@ typedef
 mozilla
 :
 :
-Monitor
-Monitor
+ReentrantMonitor
+ReentrantMonitor
 ;
 public
 :
@@ -749,8 +749,8 @@ AsyncWait
 .
 *
 /
-Monitor
-mMonitor
+ReentrantMonitor
+mReentrantMonitor
 ;
 }
 ;

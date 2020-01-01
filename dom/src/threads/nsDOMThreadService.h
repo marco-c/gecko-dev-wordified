@@ -488,7 +488,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -1037,7 +1037,7 @@ mPools
 ;
 /
 /
-mMonitor
+mReentrantMonitor
 protects
 all
 access
@@ -1051,8 +1051,8 @@ mCreationsInProgress
 mozilla
 :
 :
-Monitor
-mMonitor
+ReentrantMonitor
+mReentrantMonitor
 ;
 /
 /
@@ -1088,7 +1088,7 @@ protected
 with
 /
 /
-mMonitor
+mReentrantMonitor
 .
 nsTArray
 <
@@ -1119,7 +1119,7 @@ suspended
 Always
 protected
 with
-mMonitor
+mReentrantMonitor
 .
 nsTArray
 <
@@ -1133,7 +1133,7 @@ mSuspendedWorkers
 Always
 protected
 with
-mMonitor
+mReentrantMonitor
 .
 nsDataHashtable
 <

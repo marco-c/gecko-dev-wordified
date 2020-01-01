@@ -475,7 +475,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -486,7 +486,7 @@ using
 mozilla
 :
 :
-Monitor
+ReentrantMonitor
 ;
 /
 /
@@ -720,7 +720,7 @@ returning
 Acquires
 /
 /
-aMonitor
+aReentrantMonitor
 before
 using
 aMapping
@@ -741,9 +741,9 @@ nsWebMTimeDataOffset
 >
 &
 aMapping
-Monitor
+ReentrantMonitor
 &
-aMonitor
+aReentrantMonitor
 )
 ;
 bool
@@ -1600,7 +1600,7 @@ nsWebMBufferedState
 (
 )
 :
-mMonitor
+mReentrantMonitor
 (
 "
 nsWebMBufferedState
@@ -1664,8 +1664,8 @@ the
 mTimeMapping
 array
 .
-Monitor
-mMonitor
+ReentrantMonitor
+mReentrantMonitor
 ;
 /
 /

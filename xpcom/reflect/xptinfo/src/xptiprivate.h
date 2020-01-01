@@ -584,7 +584,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -1546,8 +1546,8 @@ mInfo
 mozilla
 :
 :
-Monitor
-mTableMonitor
+ReentrantMonitor
+mTableReentrantMonitor
 ;
 nsDataHashtable
 <
@@ -3532,8 +3532,8 @@ typedef
 mozilla
 :
 :
-Monitor
-Monitor
+ReentrantMonitor
+ReentrantMonitor
 ;
 typedef
 mozilla

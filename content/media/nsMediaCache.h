@@ -482,7 +482,7 @@ namespace
 mozilla
 {
 class
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 ;
 }
 /
@@ -2275,8 +2275,8 @@ typedef
 mozilla
 :
 :
-MonitorAutoEnter
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
+ReentrantMonitorAutoEnter
 ;
 public
 :
@@ -4311,10 +4311,10 @@ only
 .
 /
 /
-aMonitor
+aReentrantMonitor
 is
 the
-nsAutoMonitor
+nsAutoReentrantMonitor
 wrapper
 holding
 the
@@ -4347,9 +4347,9 @@ stream
 void
 CloseInternal
 (
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 &
-aMonitor
+aReentrantMonitor
 )
 ;
 /

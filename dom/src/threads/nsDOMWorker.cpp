@@ -12672,13 +12672,13 @@ if
 wakeUp
 )
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
 mPool
 -
 >
-GetMonitor
+GetReentrantMonitor
 (
 )
 )

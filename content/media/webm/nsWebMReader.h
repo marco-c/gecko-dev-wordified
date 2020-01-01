@@ -1051,10 +1051,10 @@ HasAudio
 mozilla
 :
 :
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
-mMonitor
+mReentrantMonitor
 )
 ;
 return
@@ -1070,10 +1070,10 @@ HasVideo
 mozilla
 :
 :
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
-mMonitor
+mReentrantMonitor
 )
 ;
 return

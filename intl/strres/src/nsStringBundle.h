@@ -433,7 +433,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -583,8 +583,8 @@ mOverrideStrings
 mozilla
 :
 :
-Monitor
-mMonitor
+ReentrantMonitor
+mReentrantMonitor
 ;
 PRPackedBool
 mAttemptedLoad

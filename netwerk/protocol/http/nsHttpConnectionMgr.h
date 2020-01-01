@@ -469,7 +469,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -1925,7 +1925,7 @@ any
 thread
 (
 use
-mMonitor
+mReentrantMonitor
 )
 /
 /
@@ -2008,8 +2008,8 @@ mRef
 mozilla
 :
 :
-Monitor
-mMonitor
+ReentrantMonitor
+mReentrantMonitor
 ;
 nsCOMPtr
 <

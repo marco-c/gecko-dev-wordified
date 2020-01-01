@@ -495,7 +495,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -1045,7 +1045,7 @@ mContractIDs
 mozilla
 :
 :
-Monitor
+ReentrantMonitor
 mMon
 ;
 static

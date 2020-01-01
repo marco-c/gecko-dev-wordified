@@ -630,13 +630,13 @@ GetWorkingSet
 )
 ;
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 monitor
 (
 set
 -
 >
-mTableMonitor
+mTableReentrantMonitor
 )
 ;
 if

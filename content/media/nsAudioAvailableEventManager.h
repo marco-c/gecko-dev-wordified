@@ -869,7 +869,7 @@ mPendingEvents
 ;
 /
 /
-Monitor
+ReentrantMonitor
 for
 shared
 access
@@ -877,11 +877,13 @@ to
 mPendingEvents
 queue
 or
+/
+/
 buffer
 length
 .
-Monitor
-mMonitor
+ReentrantMonitor
+mReentrantMonitor
 ;
 }
 ;
