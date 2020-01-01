@@ -1338,8 +1338,6 @@ aElement
 nsRuleWalker
 *
 aRuleWalker
-PRBool
-aForStyling
 )
 :
 RuleProcessorData
@@ -1347,7 +1345,7 @@ RuleProcessorData
 aPresContext
 aElement
 aRuleWalker
-aForStyling
+PR_TRUE
 )
 {
 NS_PRECONDITION
