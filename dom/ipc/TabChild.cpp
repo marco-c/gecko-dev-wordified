@@ -2711,14 +2711,11 @@ mLastMetrics
 .
 mDevPixelsPerCSSPixel
 =
-CSSToLayoutDeviceScale
-(
 mWidget
 -
 >
 GetDefaultScale
 (
-)
 )
 ;
 /

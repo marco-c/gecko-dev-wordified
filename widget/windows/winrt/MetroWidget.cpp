@@ -6987,7 +6987,7 @@ CSSIntPoint
 aCSSPoint
 )
 {
-double
+CSSToLayoutDeviceScale
 scale
 =
 GetDefaultScale
@@ -7002,6 +7002,8 @@ int32_t
 NS_round
 (
 scale
+.
+scale
 *
 aCSSPoint
 .
@@ -7012,6 +7014,8 @@ int32_t
 (
 NS_round
 (
+scale
+.
 scale
 *
 aCSSPoint

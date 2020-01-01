@@ -7828,6 +7828,8 @@ mParentWidget
 GetDefaultScale
 (
 )
+.
+scale
 :
 1
 .

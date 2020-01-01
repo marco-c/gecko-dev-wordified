@@ -182,6 +182,13 @@ RefPtr
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 /
 /
 forward
@@ -3562,7 +3569,10 @@ setting
 .
 *
 /
-double
+mozilla
+:
+:
+CSSToLayoutDeviceScale
 GetDefaultScale
 (
 )
