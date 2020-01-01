@@ -494,7 +494,7 @@ h
 #
 include
 "
-nsAutoJSObjectHolder
+nsAutoJSValHolder
 .
 h
 "
@@ -1024,7 +1024,7 @@ const
 nsCString
 &
 aFilename
-nsAutoJSObjectHolder
+nsAutoJSValHolder
 &
 aScriptObj
 )
@@ -1037,7 +1037,7 @@ mScriptText
 nsCString
 mFilename
 ;
-nsAutoJSObjectHolder
+nsAutoJSValHolder
 &
 mScriptObj
 ;
@@ -1138,7 +1138,7 @@ nsIChannel
 >
 channel
 ;
-nsAutoJSObjectHolder
+nsAutoJSValHolder
 scriptObj
 ;
 }

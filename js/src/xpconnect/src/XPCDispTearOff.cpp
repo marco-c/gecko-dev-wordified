@@ -2945,6 +2945,7 @@ getter_AddRefs
 e
 )
 nsnull
+nsnull
 )
 ;
 xpcc

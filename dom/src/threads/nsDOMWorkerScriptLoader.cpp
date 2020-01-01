@@ -3928,7 +3928,7 @@ const
 nsCString
 &
 aFilename
-nsAutoJSObjectHolder
+nsAutoJSValHolder
 &
 aScriptObj
 )
