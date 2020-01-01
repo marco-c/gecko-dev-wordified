@@ -501,6 +501,10 @@ Service
 :
 getSingleton
 )
+NS_GENERIC_FACTORY_CONSTRUCTOR
+(
+StatementWrapper
+)
 }
 /
 /
@@ -511,10 +515,6 @@ storage
 /
 namespace
 mozilla
-NS_GENERIC_FACTORY_CONSTRUCTOR
-(
-mozStorageStatementWrapper
-)
 static
 const
 nsModuleComponentInfo
@@ -551,7 +551,13 @@ Wrapper
 "
 MOZ_STORAGE_STATEMENT_WRAPPER_CID
 MOZ_STORAGE_STATEMENT_WRAPPER_CONTRACTID
-mozStorageStatementWrapperConstructor
+mozilla
+:
+:
+storage
+:
+:
+StatementWrapperConstructor
 }
 }
 ;
