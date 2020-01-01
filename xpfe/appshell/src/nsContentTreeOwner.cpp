@@ -5715,13 +5715,13 @@ if
 mService
 )
 {
-#
-ifdef
-DEBUG
 JSContext
 *
 cx
 ;
+#
+ifdef
+DEBUG
 nsresult
 rv
 =
