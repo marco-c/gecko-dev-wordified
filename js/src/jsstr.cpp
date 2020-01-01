@@ -26477,6 +26477,13 @@ Value
 v
 )
 {
+JS_CHECK_RECURSION
+(
+cx
+return
+NULL
+)
+;
 if
 (
 v
