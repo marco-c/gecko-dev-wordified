@@ -1663,6 +1663,11 @@ aCallbacks
 \
 {
 \
+if
+(
+fwdObject
+)
+\
 (
 fwdObject
 )
