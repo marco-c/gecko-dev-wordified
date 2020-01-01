@@ -171,7 +171,7 @@ GetAmpleVideoFrames
 )
 {
 return
-1
+3
 ;
 }
 }
