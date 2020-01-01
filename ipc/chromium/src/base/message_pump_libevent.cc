@@ -1328,12 +1328,6 @@ fd
 ;
 }
 }
-#
-if
-defined
-(
-CHROMIUM_MOZILLA_BUILD
-)
 MessagePumpLibevent
 :
 :
@@ -1736,14 +1730,6 @@ sig
 )
 ;
 }
-#
-endif
-/
-/
-defined
-(
-CHROMIUM_MOZILLA_BUILD
-)
 /
 /
 Reentrant

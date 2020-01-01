@@ -1251,12 +1251,6 @@ ptr
 value
 ;
 }
-#
-if
-defined
-(
-CHROMIUM_MOZILLA_BUILD
-)
 inline
 Atomic64
 Acquire_CompareAndSwap
@@ -1324,8 +1318,6 @@ return
 x
 ;
 }
-#
-endif
 inline
 void
 Acquire_Store

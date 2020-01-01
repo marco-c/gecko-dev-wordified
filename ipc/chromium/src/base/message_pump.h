@@ -953,12 +953,6 @@ ScheduleWork
 =
 0
 ;
-#
-if
-defined
-(
-CHROMIUM_MOZILLA_BUILD
-)
 /
 /
 This
@@ -1046,14 +1040,6 @@ ScheduleWork
 ;
 }
 ;
-#
-endif
-/
-/
-defined
-(
-CHROMIUM_MOZILLA_BUILD
-)
 /
 /
 Schedule

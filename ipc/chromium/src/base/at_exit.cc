@@ -388,9 +388,6 @@ param_
 ;
 }
 }
-#
-ifdef
-CHROMIUM_MOZILLA_BUILD
 /
 /
 static
@@ -408,8 +405,6 @@ return
 g_top_manager
 ;
 }
-#
-endif
 }
 /
 /

@@ -156,12 +156,6 @@ namespace
 base
 {
 #
-if
-defined
-(
-CHROMIUM_MOZILLA_BUILD
-)
-#
 define
 DVLOG
 (
@@ -191,8 +185,6 @@ typedef
 AutoLock
 AutoLock
 ;
-#
-endif
 /
 /
 Static
