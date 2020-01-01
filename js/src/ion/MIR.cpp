@@ -2448,6 +2448,9 @@ MCall
 :
 New
 (
+JSFunction
+*
+target
 size_t
 argc
 size_t
@@ -2463,8 +2466,9 @@ ins
 new
 MCall
 (
-construct
+target
 bytecodeArgc
+construct
 )
 ;
 if

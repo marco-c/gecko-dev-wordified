@@ -14658,6 +14658,14 @@ rt
 trc
 )
 ;
+ion
+:
+:
+MarkIonCompilerRoots
+(
+trc
+)
+;
 #
 endif
 for

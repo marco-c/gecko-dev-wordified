@@ -470,6 +470,15 @@ IonMacroAssembler
 .
 h
 "
+#
+include
+"
+gc
+/
+Root
+.
+h
+"
 using
 namespace
 js
@@ -2756,8 +2765,7 @@ const
 Register
 &
 result
-JSObject
-*
+HandleObject
 templateObject
 Label
 *

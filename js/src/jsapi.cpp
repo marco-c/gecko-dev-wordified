@@ -4459,6 +4459,10 @@ ionActivation
 (
 NULL
 )
+ionCompilerRootList
+(
+NULL
+)
 ionReturnOverride_
 (
 MagicValue
