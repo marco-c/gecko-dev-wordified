@@ -595,7 +595,14 @@ addTab
 aUrl
 )
 ;
+let
+browser
+=
 tab
+.
+linkedBrowser
+;
+browser
 .
 addEventListener
 (
@@ -607,7 +614,7 @@ onLoad
 (
 )
 {
-tab
+browser
 .
 removeEventListener
 (
