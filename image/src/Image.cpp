@@ -117,18 +117,11 @@ Image
 imgStatusTracker
 *
 aStatusTracker
-nsIURI
-*
-aURI
 )
 :
 mInnerWindowId
 (
 0
-)
-mURI
-(
-aURI
 )
 mAnimationConsumers
 (
@@ -177,6 +170,7 @@ new
 imgStatusTracker
 (
 this
+nullptr
 )
 ;
 }
