@@ -2768,10 +2768,14 @@ pred
 {
 if
 (
-!
-hasHeader
+predecessors_
+.
+length
 (
 )
+=
+=
+0
 )
 return
 inherit
