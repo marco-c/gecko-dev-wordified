@@ -196,6 +196,8 @@ iframe1
 .
 getScreenshot
 (
+1000
+1000
 )
 ;
 domRequest

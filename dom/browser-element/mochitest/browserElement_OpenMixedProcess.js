@@ -564,6 +564,8 @@ iframe
 .
 getScreenshot
 (
+1000
+1000
 )
 .
 onsuccess
@@ -664,6 +666,8 @@ popup
 .
 getScreenshot
 (
+1000
+1000
 )
 .
 onsuccess
