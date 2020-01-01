@@ -717,10 +717,6 @@ runtimeStackCommitted
 (
 0
 )
-runtimeGCMarker
-(
-0
-)
 gcHeapChunkTotal
 (
 0
@@ -827,9 +823,6 @@ runtimeRegexpCode
 ;
 size_t
 runtimeStackCommitted
-;
-size_t
-runtimeGCMarker
 ;
 size_t
 gcHeapChunkTotal
