@@ -3048,8 +3048,7 @@ shift
 d
 ;
 }
-NIns
-*
+Branches
 Assembler
 :
 :
@@ -3168,7 +3167,10 @@ CR7
 )
 ;
 return
+Branches
+(
 patch
+)
 ;
 }
 NIns

@@ -8331,8 +8331,7 @@ t
 )
 ;
 }
-NIns
-*
+Branches
 Assembler
 :
 :
@@ -8383,11 +8382,14 @@ condop
 )
 {
 return
+Branches
+(
 asm_branchd
 (
 branchOnFalse
 cond
 targ
+)
 )
 ;
 }
@@ -8755,7 +8757,10 @@ cond
 )
 ;
 return
+Branches
+(
 at
+)
 ;
 }
 NIns

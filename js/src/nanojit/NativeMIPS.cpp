@@ -10924,8 +10924,7 @@ return
 patch
 ;
 }
-NIns
-*
+Branches
 Assembler
 :
 :
@@ -11030,6 +11029,8 @@ ra
 )
 ;
 return
+Branches
+(
 asm_bxx
 (
 branchOnFalse
@@ -11037,6 +11038,7 @@ condop
 ra
 rb
 targ
+)
 )
 ;
 }

@@ -5021,8 +5021,7 @@ LIns
 )
 ;
 \
-NIns
-*
+Branches
 asm_branch_helper
 (
 bool
@@ -5033,8 +5032,7 @@ NIns
 )
 ;
 \
-NIns
-*
+Branches
 asm_branchi_helper
 (
 bool
@@ -5045,8 +5043,7 @@ NIns
 )
 ;
 \
-NIns
-*
+Branches
 asm_branchd_helper
 (
 bool
