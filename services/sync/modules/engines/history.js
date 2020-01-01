@@ -944,12 +944,13 @@ _stmts
 query
 ]
 =
-this
-.
-_db
+Utils
 .
 createStatement
 (
+this
+.
+_db
 query
 )
 ;
