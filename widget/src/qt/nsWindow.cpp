@@ -855,6 +855,10 @@ QtOpenGL
 QGLWidget
 >
 #
+define
+GLdouble_defined
+1
+#
 include
 "
 Layers
