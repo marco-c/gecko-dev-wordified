@@ -14342,7 +14342,10 @@ leftOver
 ret
 +
 =
-PDU_ALPHABET_7BIT_DEFAULT
+PDU_NL_LOCKING_SHIFT_TABLES
+[
+0
+]
 [
 septet
 ]
@@ -14390,7 +14393,10 @@ shift
 ret
 +
 =
-PDU_ALPHABET_7BIT_DEFAULT
+PDU_NL_LOCKING_SHIFT_TABLES
+[
+0
+]
 [
 leftOver
 ]
@@ -14482,7 +14488,10 @@ length
 {
 septet
 =
-PDU_ALPHABET_7BIT_DEFAULT
+PDU_NL_LOCKING_SHIFT_TABLES
+[
+0
+]
 .
 indexOf
 (
