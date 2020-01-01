@@ -547,6 +547,15 @@ include
 "
 vm
 /
+NumericConversions
+.
+h
+"
+#
+include
+"
+vm
+/
 String
 .
 h
@@ -12335,7 +12344,7 @@ toDouble
 )
 ;
 return
-js_DoubleToECMAInt32
+ToInt32
 (
 vp
 -
