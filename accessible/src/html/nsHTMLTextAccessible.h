@@ -826,13 +826,6 @@ PRUint32
 aLength
 )
 ;
-virtual
-nsAccessible
-*
-GetParent
-(
-)
-;
 protected
 :
 /

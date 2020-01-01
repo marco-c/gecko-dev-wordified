@@ -2182,7 +2182,7 @@ rv
 accService
 -
 >
-GetAttachedAccessibleFor
+GetAccessibleFor
 (
 node
 -

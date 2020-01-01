@@ -895,13 +895,6 @@ aExtraState
 )
 ;
 virtual
-nsAccessible
-*
-GetParent
-(
-)
-;
-virtual
 void
 InvalidateChildren
 (

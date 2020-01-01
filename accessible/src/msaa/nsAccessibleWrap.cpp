@@ -10281,7 +10281,7 @@ newAccessible
 accessible
 -
 >
-GetParent
+GetCachedParent
 (
 )
 ;

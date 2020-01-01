@@ -775,13 +775,6 @@ nsRoleMapEntry
 aRoleMapEntry
 )
 ;
-virtual
-nsAccessible
-*
-GetParent
-(
-)
-;
 #
 ifdef
 DEBUG_ACCDOCMGR

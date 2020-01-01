@@ -926,13 +926,6 @@ PRUint32
 aExtraState
 )
 ;
-virtual
-nsAccessible
-*
-GetParent
-(
-)
-;
 /
 /
 nsXULTreeGridCellAccessible
