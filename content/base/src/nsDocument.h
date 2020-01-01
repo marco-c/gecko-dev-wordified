@@ -619,6 +619,13 @@ h
 #
 include
 "
+nsIDOMNodeSelector
+.
+h
+"
+#
+include
+"
 nsIPrincipal
 .
 h
@@ -2467,6 +2474,8 @@ nsIScriptObjectPrincipal
 public
 nsIRadioGroupContainer
 public
+nsIDOMNodeSelector
+public
 nsStubMutationObserver
 {
 public
@@ -4118,6 +4127,10 @@ NS_DECL_NSIDOM3EVENTTARGET
 /
 nsIDOMNSEventTarget
 NS_DECL_NSIDOMNSEVENTTARGET
+/
+/
+nsIDOMNodeSelector
+NS_DECL_NSIDOMNODESELECTOR
 /
 /
 nsIMutationObserver
