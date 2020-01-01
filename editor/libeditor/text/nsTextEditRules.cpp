@@ -930,7 +930,7 @@ selection
 )
 )
 ;
-NS_ASSERTION
+NS_WARN_IF_FALSE
 (
 selection
 "
