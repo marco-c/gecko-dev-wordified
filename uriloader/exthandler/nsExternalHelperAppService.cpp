@@ -2659,6 +2659,12 @@ jpg
 "
 }
 {
+IMAGE_SVG_XML
+"
+svg
+"
+}
+{
 TEXT_HTML
 "
 html
@@ -3262,13 +3268,7 @@ Image
 "
 }
 {
-"
-image
-/
-svg
-+
-xml
-"
+IMAGE_SVG_XML
 "
 svg
 "
