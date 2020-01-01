@@ -8764,7 +8764,6 @@ of
 the
 canvas
 to
-half
 the
 WebGL
 MAX_TEXTURE_SIZE

@@ -286,9 +286,14 @@ vertices
 =
 presenter
 .
-_meshData
+_meshStacks
+[
+0
+]
 .
 vertices
+.
+components
 ;
 for
 (
