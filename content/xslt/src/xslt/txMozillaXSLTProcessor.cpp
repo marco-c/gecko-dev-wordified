@@ -3071,6 +3071,9 @@ mOutputHandlerFactory
 &
 handlerFactory
 ;
+nsresult
+rv
+=
 es
 .
 init
@@ -3089,7 +3092,14 @@ of
 XML
 source
 document
-nsresult
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
+{
 rv
 =
 txXSLTProcessor
@@ -3100,6 +3110,7 @@ execute
 es
 )
 ;
+}
 nsresult
 endRv
 =
@@ -3361,6 +3372,8 @@ mOutputHandlerFactory
 &
 handlerFactory
 ;
+rv
+=
 es
 .
 init
@@ -3379,6 +3392,14 @@ of
 XML
 source
 document
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
+{
 rv
 =
 txXSLTProcessor
@@ -3389,6 +3410,7 @@ execute
 es
 )
 ;
+}
 /
 /
 XXX
