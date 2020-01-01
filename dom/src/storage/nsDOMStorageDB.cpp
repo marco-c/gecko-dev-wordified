@@ -1751,6 +1751,9 @@ nsAString
 aOwner
 PRInt32
 aQuota
+PRInt32
+*
+aNewUsage
 )
 {
 mozStorageStatementScoper
@@ -2232,6 +2235,11 @@ mCachedUsage
 usage
 ;
 }
+*
+aNewUsage
+=
+usage
+;
 return
 NS_OK
 ;
