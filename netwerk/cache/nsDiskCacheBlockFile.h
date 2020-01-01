@@ -668,6 +668,10 @@ mBlockSize
 (
 0
 )
+mBitMapWords
+(
+0
+)
 mFileSize
 (
 0
@@ -700,6 +704,8 @@ nsILocalFile
 blockFile
 PRUint32
 blockSize
+PRUint32
+bitMapSize
 )
 ;
 nsresult
@@ -855,6 +861,9 @@ map
 blocks
 PRUint32
 mBlockSize
+;
+PRUint32
+mBitMapWords
 ;
 PRInt32
 mFileSize
