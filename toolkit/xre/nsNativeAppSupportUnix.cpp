@@ -1523,6 +1523,7 @@ memory_low_ind
 {
 if
 (
+!
 ourState
 -
 >
