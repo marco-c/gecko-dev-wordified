@@ -496,7 +496,7 @@ int
 =
 sizeof
 (
-JSUword
+uintptr_t
 )
 )
 ;
@@ -521,7 +521,7 @@ long
 =
 sizeof
 (
-JSUword
+uintptr_t
 )
 )
 ;

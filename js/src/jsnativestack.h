@@ -465,7 +465,7 @@ GetNativeStackBaseImpl
 )
 ;
 inline
-jsuword
+uintptr_t
 *
 GetNativeStackBase
 (
@@ -483,7 +483,7 @@ JS_ASSERT
 (
 reinterpret_cast
 <
-jsuword
+uintptr_t
 >
 (
 stackBase
@@ -502,7 +502,7 @@ void
 return
 static_cast
 <
-jsuword
+uintptr_t
 *
 >
 (

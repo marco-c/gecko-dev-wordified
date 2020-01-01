@@ -7650,7 +7650,7 @@ collision
 define
 SHAPE_COLLISION
 (
-jsuword
+uintptr_t
 (
 1
 )
@@ -7747,7 +7747,7 @@ Shape
 )
 \
 (
-jsuword
+uintptr_t
 (
 shape
 )
@@ -7762,7 +7762,7 @@ SHAPE_HAD_COLLISION
 shape
 )
 (
-jsuword
+uintptr_t
 (
 shape
 )
@@ -7798,7 +7798,7 @@ Shape
 *
 )
 (
-jsuword
+uintptr_t
 (
 shape
 )
@@ -7829,7 +7829,7 @@ Shape
 *
 )
 (
-jsuword
+uintptr_t
 (
 shape
 )

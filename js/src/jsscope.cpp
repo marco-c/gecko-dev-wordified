@@ -1460,7 +1460,7 @@ sizeLog2
 #
 ifdef
 DEBUG
-jsuword
+uintptr_t
 collision_flag
 =
 SHAPE_COLLISION
@@ -1527,7 +1527,7 @@ DEBUG
 collision_flag
 &
 =
-jsuword
+uintptr_t
 (
 *
 spp
@@ -1659,7 +1659,7 @@ DEBUG
 collision_flag
 &
 =
-jsuword
+uintptr_t
 (
 *
 spp
@@ -8430,7 +8430,7 @@ hash
 )
 ^
 (
-jsuword
+uintptr_t
 (
 base
 -
@@ -8451,7 +8451,7 @@ hash
 )
 ^
 (
-jsuword
+uintptr_t
 (
 base
 -
@@ -8471,7 +8471,7 @@ hash
 4
 )
 ^
-jsuword
+uintptr_t
 (
 base
 -
@@ -8487,7 +8487,7 @@ hash
 4
 )
 ^
-jsuword
+uintptr_t
 (
 base
 -
@@ -9260,7 +9260,7 @@ lookup
 JSDHashNumber
 hash
 =
-jsuword
+uintptr_t
 (
 lookup
 .
@@ -9279,7 +9279,7 @@ hash
 )
 ^
 (
-jsuword
+uintptr_t
 (
 lookup
 .
@@ -9299,7 +9299,7 @@ hash
 )
 ^
 (
-jsuword
+uintptr_t
 (
 lookup
 .

@@ -1527,10 +1527,10 @@ Value
 *
 )
 (
+uintptr_t
 (
-jsuword
-)
 this
+)
 +
 sizeof
 (

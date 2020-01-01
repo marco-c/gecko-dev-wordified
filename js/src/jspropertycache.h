@@ -1391,7 +1391,7 @@ private
 :
 static
 inline
-jsuword
+uintptr_t
 hash
 (
 jsbytecode
@@ -1407,7 +1407,7 @@ return
 (
 (
 (
-jsuword
+uintptr_t
 (
 pc
 )
@@ -1416,14 +1416,14 @@ pc
 SIZE_LOG2
 )
 ^
-jsuword
+uintptr_t
 (
 pc
 )
 ^
 (
 (
-jsuword
+uintptr_t
 )
 kshape
 >

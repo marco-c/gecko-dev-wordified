@@ -1610,7 +1610,7 @@ JSDScript
 *
 jsdscript
 ;
-jsuword
+uintptr_t
 pc
 ;
 JSD_ExecutionHookProc
@@ -1685,7 +1685,7 @@ JSDScript
 *
 jsdscript
 ;
-jsuword
+uintptr_t
 pc
 ;
 JSStackFrame
@@ -2858,7 +2858,7 @@ callerdata
 )
 ;
 extern
-jsuword
+uintptr_t
 jsd_GetClosestPC
 (
 JSDContext
@@ -2881,7 +2881,7 @@ jsdc
 JSDScript
 *
 jsdscript
-jsuword
+uintptr_t
 pc
 )
 ;
@@ -2906,7 +2906,7 @@ uintN
 *
 *
 lines
-jsuword
+uintptr_t
 *
 *
 pcs
@@ -2987,7 +2987,7 @@ jsdc
 JSDScript
 *
 jsdscript
-jsuword
+uintptr_t
 pc
 JSD_ExecutionHookProc
 hook
@@ -3006,7 +3006,7 @@ jsdc
 JSDScript
 *
 jsdscript
-jsuword
+uintptr_t
 pc
 )
 ;
@@ -3945,7 +3945,7 @@ jsdframe
 )
 ;
 extern
-jsuword
+uintptr_t
 jsd_GetPCForStackFrame
 (
 JSDContext
@@ -6727,7 +6727,7 @@ jsdc
 JSDScript
 *
 jsdscript
-jsuword
+uintptr_t
 pc
 )
 ;

@@ -486,14 +486,6 @@ typedef
 JSUintn
 uintN
 ;
-typedef
-JSUword
-jsuword
-;
-typedef
-JSWord
-jsword
-;
 #
 endif
 /

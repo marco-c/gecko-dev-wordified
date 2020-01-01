@@ -8300,11 +8300,7 @@ JS_STACK_GROWTH_DIRECTION
 0
 stackLimit
 (
-(
-jsuword
-)
--
-1
+UINTPTR_MAX
 )
 #
 else

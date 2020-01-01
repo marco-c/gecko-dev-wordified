@@ -34408,10 +34408,10 @@ Cell
 *
 >
 (
+uintptr_t
 (
-jsuword
-)
 key
+)
 &
 ~
 1

@@ -1224,7 +1224,7 @@ thread
 .
 *
 /
-jsuword
+uintptr_t
 *
 nativeStackBase
 ;
@@ -2312,11 +2312,11 @@ JSGCMode
 gcMode
 ;
 volatile
-jsuword
+uintptr_t
 gcBarrierFailed
 ;
 volatile
-jsuword
+uintptr_t
 gcIsNeeded
 ;
 js
@@ -5290,7 +5290,7 @@ recursion
 .
 *
 /
-jsuword
+uintptr_t
 stackLimit
 ;
 /

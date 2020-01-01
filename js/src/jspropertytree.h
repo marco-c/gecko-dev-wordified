@@ -550,7 +550,7 @@ TAG
 1
 }
 ;
-jsuword
+uintptr_t
 w
 ;
 public
@@ -629,7 +629,7 @@ Shape
 w
 &
 ~
-jsuword
+uintptr_t
 (
 TAG
 )
@@ -657,7 +657,7 @@ JS_ASSERT
 (
 reinterpret_cast
 <
-jsuword
+uintptr_t
 >
 (
 shape
@@ -674,7 +674,7 @@ w
 =
 reinterpret_cast
 <
-jsuword
+uintptr_t
 >
 (
 shape
@@ -724,7 +724,7 @@ KidsHash
 w
 &
 ~
-jsuword
+uintptr_t
 (
 TAG
 )
@@ -749,7 +749,7 @@ JS_ASSERT
 (
 reinterpret_cast
 <
-jsuword
+uintptr_t
 >
 (
 hash
@@ -766,7 +766,7 @@ w
 =
 reinterpret_cast
 <
-jsuword
+uintptr_t
 >
 (
 hash

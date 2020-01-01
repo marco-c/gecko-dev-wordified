@@ -2672,7 +2672,7 @@ itself
 #
 ifdef
 DEBUG
-jsword
+intptr_t
 cxThread
 ;
 /

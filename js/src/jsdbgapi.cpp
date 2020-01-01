@@ -2635,7 +2635,7 @@ hasLocalNames
 extern
 JS_PUBLIC_API
 (
-jsuword
+uintptr_t
 *
 )
 JS_GetFunctionLocalNameArray
@@ -2716,7 +2716,7 @@ mark
 (
 )
 ;
-jsuword
+uintptr_t
 *
 names
 =
@@ -2729,7 +2729,7 @@ tempLifoAlloc
 .
 newArray
 <
-jsuword
+uintptr_t
 >
 (
 localNames
@@ -2770,7 +2770,7 @@ length
 *
 sizeof
 (
-jsuword
+uintptr_t
 )
 )
 ;
@@ -2786,7 +2786,7 @@ JSAtom
 )
 JS_LocalNameToAtom
 (
-jsuword
+uintptr_t
 w
 )
 {

@@ -705,7 +705,7 @@ printf
 0llx
 "
 (
-JSUword
+uintptr_t
 )
 thisVal
 )

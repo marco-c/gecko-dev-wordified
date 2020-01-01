@@ -2866,7 +2866,7 @@ jsdscript
 lineExtent
 ;
 }
-jsuword
+uintptr_t
 jsd_GetClosestPC
 (
 JSDContext
@@ -2879,7 +2879,7 @@ uintN
 line
 )
 {
-jsuword
+uintptr_t
 pc
 ;
 JSCrossCompartmentCall
@@ -2956,7 +2956,7 @@ return
 pc
 =
 (
-jsuword
+uintptr_t
 )
 JS_LineNumberToPC
 (
@@ -2989,7 +2989,7 @@ jsdc
 JSDScript
 *
 jsdscript
-jsuword
+uintptr_t
 pc
 )
 {
@@ -3148,7 +3148,7 @@ uintN
 *
 *
 retLines
-jsuword
+uintptr_t
 *
 *
 retPCs
@@ -4037,7 +4037,7 @@ jsdc
 JSDScript
 *
 jsdscript
-jsuword
+uintptr_t
 pc
 )
 {
@@ -4339,7 +4339,7 @@ pc
 =
 =
 (
-jsuword
+uintptr_t
 )
 pc
 )
@@ -4446,7 +4446,7 @@ jsdlw_UserCodeAtPC
 jsdc
 jsdscript
 (
-jsuword
+uintptr_t
 )
 pc
 )
@@ -4477,7 +4477,7 @@ jsdc
 JSDScript
 *
 jsdscript
-jsuword
+uintptr_t
 pc
 JSD_ExecutionHookProc
 hook
@@ -4735,7 +4735,7 @@ jsdc
 JSDScript
 *
 jsdscript
-jsuword
+uintptr_t
 pc
 )
 {

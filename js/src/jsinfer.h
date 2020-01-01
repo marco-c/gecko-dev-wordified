@@ -629,12 +629,12 @@ objects
 class
 Type
 {
-jsuword
+uintptr_t
 data
 ;
 Type
 (
-jsuword
+uintptr_t
 data
 )
 :
@@ -646,7 +646,7 @@ data
 }
 public
 :
-jsuword
+uintptr_t
 raw
 (
 )
@@ -685,7 +685,7 @@ JSVAL_TYPE_OBJECT
 ;
 return
 (
-jsuword
+uintptr_t
 )
 type
 =
@@ -7651,7 +7651,7 @@ TypeSet
 *
 )
 (
-jsuword
+uintptr_t
 (
 this
 )

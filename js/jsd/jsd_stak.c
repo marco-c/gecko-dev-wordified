@@ -510,7 +510,7 @@ jsdthreadstate
 JSScript
 *
 script
-jsuword
+uintptr_t
 pc
 JSStackFrame
 *
@@ -830,11 +830,11 @@ cx
 fp
 )
 ;
-jsuword
+uintptr_t
 pc
 =
 (
-jsuword
+uintptr_t
 )
 JS_GetFramePC
 (
@@ -1472,7 +1472,7 @@ return
 jsdscript
 ;
 }
-jsuword
+uintptr_t
 jsd_GetPCForStackFrame
 (
 JSDContext
@@ -1486,7 +1486,7 @@ JSDStackFrameInfo
 jsdframe
 )
 {
-jsuword
+uintptr_t
 pc
 =
 0
