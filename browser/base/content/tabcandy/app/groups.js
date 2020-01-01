@@ -4029,6 +4029,14 @@ Tabs
 }
 )
 ;
+self
+.
+newTabGroup
+.
+locked
+=
+true
+;
 }
 1000
 )
