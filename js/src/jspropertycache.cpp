@@ -2363,6 +2363,12 @@ op
 =
 =
 JSOP_INSTANCEOF
+|
+|
+op
+=
+=
+JSOP_BEGIN
 )
 return
 cx
