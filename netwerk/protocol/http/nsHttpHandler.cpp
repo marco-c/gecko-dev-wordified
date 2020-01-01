@@ -1571,7 +1571,7 @@ mPipelineReadTimeout
 (
 PR_MillisecondsToInterval
 (
-10000
+30000
 )
 )
 mRedirectionLimit
@@ -7138,6 +7138,16 @@ rv
 )
 )
 {
+if
+(
+!
+val
+)
+mPipelineReadTimeout
+=
+0
+;
+else
 mPipelineReadTimeout
 =
 PR_MillisecondsToInterval
