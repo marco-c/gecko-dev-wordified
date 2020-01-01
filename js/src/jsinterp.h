@@ -1571,11 +1571,11 @@ ES5
 .
 The
 given
-CallStack
+CallStackSegment
 must
 contain
-this
 *
+this
 stack
 frame
 .
@@ -1588,9 +1588,9 @@ varobj
 js
 :
 :
-CallStack
+CallStackSegment
 *
-cs
+css
 )
 const
 ;

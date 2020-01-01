@@ -5986,7 +5986,7 @@ requires
 knowing
 the
 *
-CallStack
+CallStackSegment
 of
 |
 down
@@ -6005,8 +6005,8 @@ fp
 the
 callstack
 is
-simply
 *
+simply
 the
 context
 '
@@ -6017,6 +6017,7 @@ so
 we
 can
 use
+*
 |
 down
 -
@@ -6027,7 +6028,6 @@ cx
 )
 |
 .
-*
 When
 |
 down
@@ -6044,11 +6044,11 @@ to
 do
 a
 slow
+*
 linear
 search
 .
 Luckily
-*
 this
 only
 happens
@@ -6056,6 +6056,7 @@ with
 indirect
 eval
 and
+*
 JS_EvaluateInStackFrame
 .
 *
@@ -6088,7 +6089,7 @@ varobj
 cx
 -
 >
-containingCallStack
+containingSegment
 (
 down
 )
@@ -26076,7 +26077,7 @@ cx
 cx
 -
 >
-activeCallStack
+activeSegment
 (
 )
 -
@@ -26093,7 +26094,7 @@ varobj
 cx
 -
 >
-activeCallStack
+activeSegment
 (
 )
 -
@@ -34487,7 +34488,7 @@ cx
 cx
 -
 >
-activeCallStack
+activeSegment
 (
 )
 -
@@ -34504,7 +34505,7 @@ varobj
 cx
 -
 >
-activeCallStack
+activeSegment
 (
 )
 -
@@ -34655,7 +34656,7 @@ cx
 cx
 -
 >
-activeCallStack
+activeSegment
 (
 )
 -
@@ -34672,7 +34673,7 @@ obj
 cx
 -
 >
-activeCallStack
+activeSegment
 (
 )
 -
