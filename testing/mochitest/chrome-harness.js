@@ -779,9 +779,6 @@ aDir
 /
 "
 ;
-var
-singleTestPath
-;
 if
 (
 aTestPath
@@ -833,6 +830,7 @@ pathToCheck
 }
 else
 {
+var
 singleTestPath
 =
 basePath
@@ -859,10 +857,7 @@ singleTestPath
 true
 ;
 return
-[
 singleObject
-singleTestPath
-]
 ;
 }
 }
@@ -893,8 +888,7 @@ pathToCheck
 else
 {
 return
-[
-]
+null
 ;
 }
 }
@@ -913,10 +907,7 @@ true
 )
 ;
 return
-[
 links
-null
-]
 ;
 }
 /
@@ -1517,9 +1508,6 @@ nsIFileURL
 .
 file
 ;
-var
-singleTestPath
-;
 if
 (
 testPath
@@ -1573,8 +1561,7 @@ exists
 )
 )
 return
-[
-]
+null
 ;
 if
 (
@@ -1621,10 +1608,7 @@ singlePath
 true
 ;
 return
-[
 links
-null
-]
 ;
 /
 /
@@ -1643,8 +1627,7 @@ test
 .
 .
 return
-[
-]
+null
 ;
 }
 /
@@ -1683,10 +1666,7 @@ true
 )
 ;
 return
-[
 links
-null
-]
 ;
 }
 /
@@ -3010,9 +2990,6 @@ srvScope
 )
 ;
 var
-singleTestPath
-;
-var
 links
 ;
 if
@@ -3025,10 +3002,7 @@ baseurl
 JARFile
 )
 {
-[
 links
-singleTestPath
-]
 =
 getMochitestJarListing
 (
@@ -3044,10 +3018,7 @@ testRoot
 }
 else
 {
-[
 links
-singleTestPath
-]
 =
 getFileListing
 (
@@ -3063,9 +3034,6 @@ srvScope
 ;
 }
 return
-[
 links
-singleTestPath
-]
 ;
 }
