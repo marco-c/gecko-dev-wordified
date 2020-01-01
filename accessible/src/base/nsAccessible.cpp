@@ -1572,7 +1572,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 return
-nsAccessNode
+nsAccessNodeWrap
 :
 :
 QueryInterface
