@@ -13826,10 +13826,6 @@ declaration
 .
 if
 (
-!
-parser
-|
-|
 NS_FAILED
 (
 parser

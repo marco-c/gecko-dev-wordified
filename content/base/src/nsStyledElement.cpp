@@ -2132,11 +2132,6 @@ cssParser
 cssLoader
 )
 ;
-if
-(
-cssParser
-)
-{
 nsCOMPtr
 <
 nsIURI
@@ -2193,7 +2188,6 @@ aValue
 ;
 return
 ;
-}
 }
 }
 }
