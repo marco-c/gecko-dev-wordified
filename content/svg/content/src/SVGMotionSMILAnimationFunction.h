@@ -795,7 +795,7 @@ aNumValues
 NS_OVERRIDE
 virtual
 PRBool
-TreatSingleValueAsStatic
+IsToAnimation
 (
 )
 const
