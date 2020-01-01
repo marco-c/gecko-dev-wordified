@@ -954,6 +954,8 @@ Ci
 nsIIOService
 )
 ;
+try
+{
 var
 faviconURI
 =
@@ -966,6 +968,17 @@ null
 null
 )
 ;
+}
+catch
+(
+e
+)
+{
+faviconURI
+=
+null
+;
+}
 var
 fis
 =
@@ -995,6 +1008,10 @@ nsIFaviconService
 ;
 if
 (
+!
+faviconURI
+|
+|
 faviconURI
 .
 schemeIs
