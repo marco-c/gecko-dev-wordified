@@ -72,6 +72,12 @@ Debugger
 ;
 dbg
 .
+uncaughtExceptionHook
+=
+testExceptionHook
+;
+dbg
+.
 addDebuggee
 (
 g
@@ -149,6 +155,9 @@ xpcInspector
 .
 exitNestedEventLoop
 (
+"
+test
+"
 )
 ;
 }
@@ -159,6 +168,9 @@ xpcInspector
 .
 enterNestedEventLoop
 (
+"
+test
+"
 )
 ;
 }
