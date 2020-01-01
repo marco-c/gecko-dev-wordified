@@ -49,6 +49,8 @@ BASE_THREAD_COLLISION_WARNER_H_
 include
 <
 memory
+.
+h
 >
 #
 include
