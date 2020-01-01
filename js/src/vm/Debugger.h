@@ -2501,7 +2501,7 @@ compileAndGoGlobal
 )
 ;
 static
-bool
+void
 slowPathOnNewGlobalObject
 (
 JSContext
@@ -3106,7 +3106,7 @@ compileAndGoGlobal
 ;
 static
 inline
-bool
+void
 onNewGlobalObject
 (
 JSContext
@@ -5010,7 +5010,7 @@ compileAndGoGlobal
 )
 ;
 }
-bool
+void
 Debugger
 :
 :
@@ -5029,6 +5029,7 @@ global
 {
 if
 (
+!
 JS_CLIST_IS_EMPTY
 (
 &
@@ -5043,10 +5044,6 @@ runtime
 onNewGlobalObjectWatchers
 )
 )
-return
-true
-;
-return
 Debugger
 :
 :

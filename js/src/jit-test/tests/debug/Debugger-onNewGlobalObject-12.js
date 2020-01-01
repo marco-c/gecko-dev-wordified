@@ -149,11 +149,14 @@ count
 =
 0
 ;
-assertThrowsValue
+assertEq
 (
+typeof
 newGlobal
+(
+)
 '
-fit
+object
 '
 )
 ;
