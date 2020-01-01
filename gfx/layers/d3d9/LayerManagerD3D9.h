@@ -967,7 +967,7 @@ CallbackData
 ;
 }
 ;
-bool
+void
 EndTransaction
 (
 DrawThebesLayerCallback
