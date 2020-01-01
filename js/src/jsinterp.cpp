@@ -31398,7 +31398,7 @@ recorder
 )
 RECORD
 (
-after_JSOP_CALL
+EnterFrame
 )
 ;
 inlineCallCount

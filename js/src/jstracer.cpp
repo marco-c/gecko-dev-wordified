@@ -15098,7 +15098,7 @@ bool
 TraceRecorder
 :
 :
-record_after_JSOP_CALL
+record_EnterFrame
 (
 )
 {
