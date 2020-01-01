@@ -3504,6 +3504,16 @@ xmm
 [
 disp32
 ]
+X64_inclmRAX
+=
+0x00FF000000000002LL
+/
+/
+incl
+(
+%
+rax
+)
 X64_jmpx
 =
 0xC524ff4000000004LL
