@@ -9534,6 +9534,12 @@ nextID
 _inited
 :
 false
+_activeGroup
+:
+null
+_activeOrphanTab
+:
+null
 /
 /
 -
