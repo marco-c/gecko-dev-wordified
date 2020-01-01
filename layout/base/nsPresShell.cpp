@@ -33751,6 +33751,13 @@ NS_IS_FOCUS_EVENT
 (
 aEvent
 )
+&
+&
+!
+NS_IS_PLUGIN_EVENT
+(
+aEvent
+)
 ;
 /
 /
@@ -34411,6 +34418,12 @@ aEvent
 |
 |
 NS_IS_CONTEXT_MENU_KEY
+(
+aEvent
+)
+|
+|
+NS_IS_PLUGIN_EVENT
 (
 aEvent
 )

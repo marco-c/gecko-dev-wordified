@@ -8025,6 +8025,12 @@ NS_IS_IME_EVENT
 (
 aEvent
 )
+|
+|
+NS_IS_PLUGIN_EVENT
+(
+aEvent
+)
 )
 {
 gLastUserEventTime
@@ -8129,6 +8135,13 @@ aEvent
 &
 !
 NS_IS_QUERY_CONTENT_EVENT
+(
+aEvent
+)
+&
+&
+!
+NS_IS_PLUGIN_EVENT
 (
 aEvent
 )
