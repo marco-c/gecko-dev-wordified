@@ -10026,6 +10026,8 @@ JSObject
 obj
 )
 {
+/
+/
 JS_ASSERT
 (
 global
