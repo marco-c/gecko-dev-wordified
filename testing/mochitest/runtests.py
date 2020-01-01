@@ -7028,6 +7028,23 @@ immersiveMode
       
 options
 .
+browserArgs
+.
+extend
+(
+(
+'
+-
+firefoxpath
+'
+options
+.
+app
+)
+)
+      
+options
+.
 app
 =
 self
