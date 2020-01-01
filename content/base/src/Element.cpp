@@ -8966,10 +8966,12 @@ flags
 event
 .
 mFlags
-|
-=
+.
+Union
+(
 *
 aExtraEventFlags
+)
 ;
 }
 return
