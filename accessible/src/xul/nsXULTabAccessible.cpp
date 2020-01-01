@@ -1320,9 +1320,9 @@ nsCOMPtr
 <
 nsIDOMNode
 >
-domNode
-(
 DOMNode
+(
+GetDOMNode
 (
 )
 )
@@ -1338,7 +1338,7 @@ tabsElm
 >
 GetRelatedElement
 (
-domNode
+DOMNode
 getter_AddRefs
 (
 tabpanelNode
@@ -2124,9 +2124,9 @@ nsCOMPtr
 <
 nsIDOMNode
 >
-domNode
-(
 DOMNode
+(
+GetDOMNode
 (
 )
 )
@@ -2142,7 +2142,7 @@ tabpanelsElm
 >
 GetRelatedElement
 (
-domNode
+DOMNode
 getter_AddRefs
 (
 tabNode
