@@ -467,9 +467,6 @@ style
 "
 font
 :
--
-moz
--
 initial
 "
 )
