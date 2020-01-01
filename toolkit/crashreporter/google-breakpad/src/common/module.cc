@@ -2076,7 +2076,7 @@ assert
 !
 expr
 .
-invalid
+isExprInvalid
 (
 )
 )
