@@ -2354,12 +2354,10 @@ JS_INITIAL_NSLOTS
 *
 /
 inline
-const
 js
 :
 :
 Value
-&
 getSlotMT
 (
 JSContext

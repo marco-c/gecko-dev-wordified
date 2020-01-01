@@ -494,12 +494,10 @@ jsscopeinlines
 h
 "
 inline
-const
 js
 :
 :
 Value
-&
 JSObject
 :
 :
