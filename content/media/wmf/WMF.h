@@ -530,6 +530,17 @@ IMFSourceReader
 aSourceReader
 )
 ;
+HRESULT
+MFCreateAttributes
+(
+IMFAttributes
+*
+*
+ppMFAttributes
+UINT32
+cInitialSize
+)
+;
 }
 /
 /
