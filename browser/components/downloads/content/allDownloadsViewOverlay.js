@@ -8606,13 +8606,6 @@ function
 )
 {
 }
-nodeReplaced
-:
-function
-(
-)
-{
-}
 nodeHistoryDetailsChanged
 :
 function
