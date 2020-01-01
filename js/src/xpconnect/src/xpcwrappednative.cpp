@@ -718,7 +718,7 @@ XPCWrappedNative
 )
 :
 :
-RootAndUnlinkJSObjects
+Unlink
 (
 void
 *
