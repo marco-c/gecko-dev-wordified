@@ -1475,7 +1475,7 @@ set
 to
 0
 void
-GetMargin
+GetChildMargin
 (
 nsPresContext
 *

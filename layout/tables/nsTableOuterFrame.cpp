@@ -2773,7 +2773,7 @@ void
 nsTableOuterFrame
 :
 :
-GetMargin
+GetChildMargin
 (
 nsPresContext
 *
@@ -5903,7 +5903,7 @@ else
 nsMargin
 margin
 ;
-GetMargin
+GetChildMargin
 (
 aPresContext
 aOuterRS
