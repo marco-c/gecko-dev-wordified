@@ -8508,7 +8508,6 @@ EnumAllThreadWindowProc
 (
 LPARAM
 )
-&
 aCallback
 )
 ;
