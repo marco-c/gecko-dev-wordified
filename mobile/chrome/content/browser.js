@@ -999,6 +999,8 @@ ws
 .
 updateSize
 (
+w
+h
 )
 ;
 }
