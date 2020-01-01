@@ -1566,6 +1566,8 @@ virtual
 void
 Resume
 (
+PRBool
+aForceBuffering
 )
 ;
 /

@@ -1438,6 +1438,12 @@ PRInt64
 aTime
 )
 ;
+virtual
+void
+StartBuffering
+(
+)
+;
 /
 /
 Load
