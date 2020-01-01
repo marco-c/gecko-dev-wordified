@@ -2578,11 +2578,10 @@ UINT64_MAX
 ;
 if
 (
-LL_NE
-(
 size
+!
+=
 minus1
-)
 )
 {
 int32_t
