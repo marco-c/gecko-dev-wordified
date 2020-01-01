@@ -449,15 +449,6 @@ ccapi
 h
 "
 /
-/
-RAMC
--
-start
-#
-define
-CCSIP_SDP_BUF_SIZE
-SDP_MAX_LEN
-/
 *
 SDP
 bitmask
@@ -727,7 +718,7 @@ UserAgent
 define
 SIPSDP_ORIGIN_USERNAME
 "
-Cisco
+Mozilla
 -
 SIPUA
 "
