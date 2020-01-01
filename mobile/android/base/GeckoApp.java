@@ -8722,11 +8722,9 @@ default
 .
 equals
 (
-GeckoAppInfo
+AppConstants
 .
-getUpdateChannel
-(
-)
+MOZ_UPDATE_CHANNEL
 )
 )
 {
