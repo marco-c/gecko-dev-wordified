@@ -959,14 +959,14 @@ effects
 *
 /
 static
-nsIntRect
+nsRect
 AdjustInvalidAreaForSVGEffects
 (
 nsIFrame
 *
 aFrame
 const
-nsIntRect
+nsRect
 &
 aInvalidRect
 )

@@ -6102,8 +6102,14 @@ Size
 objFrame
 -
 >
-InvalidateFrame
+Invalidate
 (
+objFrame
+-
+>
+GetContentRectRelativeToSelf
+(
+)
 )
 ;
 return

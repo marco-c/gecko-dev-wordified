@@ -3250,7 +3250,7 @@ frame
 frame
 -
 >
-InvalidateFrame
+InvalidateOverflowRect
 (
 )
 ;

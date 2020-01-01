@@ -1291,7 +1291,7 @@ f
 f
 -
 >
-InvalidateFrame
+InvalidateOverflowRect
 (
 )
 ;

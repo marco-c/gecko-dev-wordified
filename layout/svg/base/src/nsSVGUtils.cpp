@@ -4696,9 +4696,10 @@ aFrame
 )
 -
 >
-InvalidateSVG
+InvalidateWithFlags
 (
 invalidArea
+aFlags
 )
 ;
 }

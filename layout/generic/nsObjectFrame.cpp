@@ -2438,8 +2438,11 @@ GetNearestWidget
 )
 )
 {
-InvalidateFrame
+Invalidate
 (
+GetContentRectRelativeToSelf
+(
+)
 )
 ;
 }
@@ -9154,6 +9157,7 @@ aManager
 GetLeafLayerFor
 (
 aBuilder
+aManager
 aItem
 )
 )
