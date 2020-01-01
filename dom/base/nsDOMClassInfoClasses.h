@@ -245,10 +245,6 @@ DOMCI_CLASS
 (
 CompositionEvent
 )
-DOMCI_CLASS
-(
-PopupBlockedEvent
-)
 #
 define
 MOZ_GENERATED_EVENT_LIST
