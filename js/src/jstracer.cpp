@@ -6227,7 +6227,7 @@ oprnd1
 >
 isop
 (
-LIR_call
+LIR_pcall
 )
 &
 &
@@ -6325,7 +6325,7 @@ oprnd1
 >
 isop
 (
-LIR_call
+LIR_pcall
 )
 &
 &
