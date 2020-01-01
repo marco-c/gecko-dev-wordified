@@ -854,10 +854,6 @@ mHeight
 =
 0
 ;
-mDeviceContextSpec
-=
-nsnull
-;
 mWidgetSurfaceCache
 .
 Init
@@ -2781,12 +2777,9 @@ NS_ENSURE_ARG_POINTER
 aDevice
 )
 ;
-NS_ADDREF
-(
 mDeviceContextSpec
 =
 aDevice
-)
 ;
 nsresult
 rv

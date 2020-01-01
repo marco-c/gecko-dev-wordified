@@ -1008,8 +1008,10 @@ gfxASurface
 >
 mPrintingSurface
 ;
+nsCOMPtr
+<
 nsIDeviceContextSpec
-*
+>
 mDeviceContextSpec
 ;
 }
