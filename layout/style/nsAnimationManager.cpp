@@ -2328,12 +2328,11 @@ nsIFrame
 *
 frame
 =
-nsLayoutUtils
-:
-:
-GetStyleFrame
-(
 mElement
+-
+>
+GetPrimaryFrame
+(
 )
 ;
 if
