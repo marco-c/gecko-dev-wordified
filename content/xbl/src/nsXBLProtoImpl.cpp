@@ -1244,6 +1244,14 @@ v
 cx
 )
 ;
+{
+JSAutoCompartment
+ac
+(
+cx
+global
+)
+;
 /
 /
 Make
@@ -1299,6 +1307,7 @@ global
 defineOnGlobal
 )
 ;
+}
 rv
 =
 nsContentUtils
