@@ -1925,7 +1925,6 @@ lParam
 ;
 }
 static
-inline
 bool
 WindowIsMozillaWindow
 (
@@ -3413,7 +3412,6 @@ false
 ;
 }
 }
-inline
 void
 SyncChannel
 :
@@ -3539,7 +3537,6 @@ Not
 windows
 #
 else
-inline
 void
 SyncChannel
 :
