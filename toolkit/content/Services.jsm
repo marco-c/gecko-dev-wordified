@@ -546,7 +546,7 @@ defineLazyServiceGetter
 (
 Services
 "
-pm
+perms
 "
 "
 mozilla
