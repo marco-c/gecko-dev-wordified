@@ -1158,6 +1158,10 @@ SVGAnimateTransformElement
 )
 DOMCI_CLASS
 (
+SVGAnimateMotionElement
+)
+DOMCI_CLASS
+(
 SVGSetElement
 )
 #
