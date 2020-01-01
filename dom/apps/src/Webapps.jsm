@@ -6726,6 +6726,11 @@ origin
 app
 .
 origin
+installOrigin
+:
+app
+.
+installOrigin
 downloadSize
 :
 app
