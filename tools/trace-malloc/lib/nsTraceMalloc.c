@@ -5574,6 +5574,9 @@ void
 pc
 void
 *
+sp
+void
+*
 closure
 )
 {
