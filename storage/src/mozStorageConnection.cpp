@@ -1620,6 +1620,12 @@ Connection
 sharedAsyncExecutionMutex
 "
 )
+threadOpenedOn
+(
+do_GetCurrentThread
+(
+)
+)
 mDBConn
 (
 nsnull
