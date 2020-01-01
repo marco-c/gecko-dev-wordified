@@ -3906,7 +3906,10 @@ ensureSpace
 20
 )
 ;
+DebugOnly
+<
 int
+>
 initFlushCount
 =
 flushCount
