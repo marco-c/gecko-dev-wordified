@@ -8589,8 +8589,11 @@ this
 .
 _selectContainer
 .
-height
+style
+.
+maxHeight
 =
+(
 window
 .
 innerHeight
@@ -8598,6 +8601,11 @@ innerHeight
 1
 .
 8
+)
++
+"
+px
+"
 ;
 let
 rootNode
