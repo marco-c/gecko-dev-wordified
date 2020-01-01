@@ -1064,7 +1064,7 @@ seconds
 const
 TIMEOUT_SECONDS
 =
-15
+30
 ;
 const
 MAX_LOOP_COUNT
