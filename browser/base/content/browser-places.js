@@ -2460,12 +2460,9 @@ url
 =
 aTipElement
 .
-getAttribute
-(
-"
-url
-"
-)
+node
+.
+uri
 ;
 if
 (
