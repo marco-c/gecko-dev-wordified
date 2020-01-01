@@ -608,6 +608,15 @@ ins
 isEffectful
 (
 )
+&
+&
+!
+ins
+-
+>
+neverHoist
+(
+)
 ;
 }
 }
