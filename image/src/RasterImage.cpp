@@ -19431,10 +19431,12 @@ to
 /
 Furthermore
 if
-this
-is
-a
-redecode
+we
+have
+all
+of
+the
+data
 we
 don
 '
@@ -19477,7 +19479,7 @@ if
 image
 -
 >
-mHasBeenDecoded
+mHasSourceData
 )
 {
 image
