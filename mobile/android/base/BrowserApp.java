@@ -404,6 +404,14 @@ private
 boolean
 mAboutHomeShowing
 ;
+private
+static
+final
+int
+ADDON_MENU_OFFSET
+=
+1000
+;
 static
 Vector
 <
@@ -2055,6 +2063,8 @@ getInt
 id
 "
 )
++
+ADDON_MENU_OFFSET
 ;
 String
 iconRes
@@ -2147,6 +2157,8 @@ getInt
 id
 "
 )
++
+ADDON_MENU_OFFSET
 ;
 mMainHandler
 .
