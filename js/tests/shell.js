@@ -533,6 +533,12 @@ var
 gTestPath
 ;
 var
+gTestsuite
+;
+var
+gTestsubsuite
+;
+var
 gDelayTestDriverEnd
 =
 false
@@ -3358,6 +3364,9 @@ return
 deriv
 ;
 }
+return
+0
+;
 }
 function
 compareSource
