@@ -2063,7 +2063,11 @@ notifyObj2
 anchorID
 =
 "
-urlbar
+addons
+-
+notification
+-
+icon
 "
 ;
 /
@@ -3454,6 +3458,11 @@ uri
 callback
 )
 {
+if
+(
+callback
+)
+{
 gBrowser
 .
 addEventListener
@@ -3507,6 +3516,7 @@ callback
 true
 )
 ;
+}
 gBrowser
 .
 loadURI
