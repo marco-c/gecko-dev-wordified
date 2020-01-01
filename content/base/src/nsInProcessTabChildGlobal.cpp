@@ -1686,17 +1686,6 @@ cx
 JSVERSION_LATEST
 )
 ;
-JS_SetGCParameterForThread
-(
-cx
-JSGC_MAX_CODE_CACHE_BYTES
-1
-*
-1024
-*
-1024
-)
-;
 JSAutoRequest
 ar
 (
