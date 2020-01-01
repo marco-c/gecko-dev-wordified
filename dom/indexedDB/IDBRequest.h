@@ -582,7 +582,7 @@ Reset
 (
 )
 ;
-void
+nsresult
 SetDone
 (
 AsyncConnectionHelper
@@ -670,12 +670,6 @@ nsRefPtr
 IDBTransaction
 >
 mTransaction
-;
-nsRefPtr
-<
-AsyncConnectionHelper
->
-mHelper
 ;
 nsRefPtr
 <
