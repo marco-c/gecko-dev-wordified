@@ -241,21 +241,7 @@ h
 '
     
 '
-base
-/
-basictypes
-.
-h
-'
-    
-'
 prtime
-.
-h
-'
-    
-'
-nscore
 .
 h
 '
