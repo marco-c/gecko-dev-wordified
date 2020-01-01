@@ -464,15 +464,6 @@ are
 opened
 :
 *
-0
-opens
-such
-links
-in
-the
-default
-window
-*
 1
 opens
 such
