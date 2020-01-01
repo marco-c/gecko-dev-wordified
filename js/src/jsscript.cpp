@@ -1158,7 +1158,7 @@ nbase
 BaseShape
 :
 :
-lookup
+getUnowned
 (
 cx
 base

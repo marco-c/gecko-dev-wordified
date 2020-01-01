@@ -765,7 +765,7 @@ lastBinding
 EmptyShape
 :
 :
-lookupInitialShape
+getInitialShape
 (
 cx
 &
