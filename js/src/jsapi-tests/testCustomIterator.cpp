@@ -195,6 +195,11 @@ obj
 JS_NewObjectForConstructor
 (
 cx
+Jsvalify
+(
+&
+HasCustomIterClass
+)
 vp
 )
 ;

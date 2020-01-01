@@ -9281,6 +9281,12 @@ js_CreateThis
 JSContext
 *
 cx
+js
+:
+:
+Class
+*
+clasp
 JSObject
 *
 callee
