@@ -16071,6 +16071,10 @@ PRBool
 aFocused
 )
 {
+aFocused
+=
+PR_FALSE
+;
 switch
 (
 aWidgetType
