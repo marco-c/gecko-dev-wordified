@@ -7415,6 +7415,9 @@ toTransplant
 cx
 )
 ;
+if
+(
+!
 toTransplant
 .
 reserve
@@ -7425,6 +7428,9 @@ length
 (
 )
 )
+)
+return
+NULL
 ;
 for
 (
@@ -7500,7 +7506,7 @@ it
 .
 toTransplant
 .
-append
+infallibleAppend
 (
 wp
 -
@@ -8191,6 +8197,9 @@ toTransplant
 cx
 )
 ;
+if
+(
+!
 toTransplant
 .
 reserve
@@ -8201,6 +8210,9 @@ length
 (
 )
 )
+)
+return
+NULL
 ;
 for
 (
@@ -8276,7 +8288,7 @@ it
 .
 toTransplant
 .
-append
+infallibleAppend
 (
 wp
 -

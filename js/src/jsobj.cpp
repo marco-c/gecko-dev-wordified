@@ -11986,16 +11986,13 @@ str
 return
 false
 ;
-JS_ALWAYS_TRUE
-(
 vals
 .
-append
+infallibleAppend
 (
 StringValue
 (
 str
-)
 )
 )
 ;

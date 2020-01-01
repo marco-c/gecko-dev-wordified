@@ -601,16 +601,13 @@ in
 matchPairs
 *
 /
-JS_ALWAYS_TRUE
-(
 dst
 .
 matchPairs
 .
-append
+infallibleAppend
 (
 matchPairs
-)
 )
 ;
 dst
