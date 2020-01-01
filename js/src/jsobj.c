@@ -6030,7 +6030,6 @@ js_strchr_limit
 (
 vchars
 '
-(
 '
 vchars
 +
@@ -6042,6 +6041,10 @@ if
 vchars
 )
 {
+vchars
++
++
+;
 vlength
 -
 =
