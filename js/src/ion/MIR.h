@@ -3747,6 +3747,14 @@ jsbytecode
 pc
 )
 ;
+void
+printOpcode
+(
+FILE
+*
+fp
+)
+;
 size_t
 numOperands
 (
