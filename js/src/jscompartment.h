@@ -439,6 +439,13 @@ h
 #
 include
 "
+jsmath
+.
+h
+"
+#
+include
+"
 jsobj
 .
 h
