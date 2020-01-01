@@ -1232,8 +1232,6 @@ width
 42em
 ;
 }
-menupopup
->
 menu
 [
 _moz
@@ -1244,8 +1242,6 @@ menuactive
 true
 "
 ]
-menupopup
->
 menuitem
 [
 _moz
