@@ -440,13 +440,6 @@ nsICSSPseudoComparator_h___
 #
 define
 nsICSSPseudoComparator_h___
-#
-include
-"
-nsQueryFrame
-.
-h
-"
 class
 nsIAtom
 ;
@@ -458,10 +451,6 @@ nsICSSPseudoComparator
 {
 public
 :
-NS_DECL_QUERYFRAME_TARGET
-(
-nsICSSPseudoComparator
-)
 virtual
 PRBool
 PseudoMatches

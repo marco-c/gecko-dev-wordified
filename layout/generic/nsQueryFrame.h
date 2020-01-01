@@ -610,7 +610,6 @@ nsHTMLFramesetBorderFrame_id
 nsHTMLFramesetFrame_id
 nsHTMLScrollFrame_id
 nsIAnonymousContentCreator_id
-nsICSSPseudoComparator_id
 nsIComboboxControlFrame_id
 nsIFormControlFrame_id
 nsIFrame_id
