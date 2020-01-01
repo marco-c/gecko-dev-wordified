@@ -662,7 +662,7 @@ StopListening
 (
 )
 ;
-float
+double
 GetLevel
 (
 )
@@ -890,7 +890,7 @@ gchar
 *
 mTrackedDevice
 ;
-float
+double
 mLevel
 ;
 bool
@@ -2085,10 +2085,10 @@ Percentage
 )
 )
 )
-/
-100
+*
+0
 .
-f
+01
 ;
 switch
 (
@@ -2153,7 +2153,7 @@ break
 ;
 }
 }
-float
+double
 UPowerClient
 :
 :
