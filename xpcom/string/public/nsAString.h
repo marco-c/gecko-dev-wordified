@@ -680,6 +680,11 @@ nsCStringComparator
 {
 public
 :
+nsCaseInsensitiveCStringComparator
+(
+)
+{
+}
 typedef
 char
 char_type
