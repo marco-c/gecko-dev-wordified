@@ -2863,10 +2863,15 @@ MOZ_XUL
 #
 ifndef
 MOZ_NO_INSPECTOR_APIS
+#
+ifdef
+MOZ_XUL
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 inDOMView
 )
+#
+endif
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 inDeepTreeWalker
@@ -4575,6 +4580,9 @@ MOZ_XUL
 #
 ifndef
 MOZ_NO_INSPECTOR_APIS
+#
+ifdef
+MOZ_XUL
 {
 "
 DOM
@@ -4596,6 +4604,8 @@ view
 "
 inDOMViewConstructor
 }
+#
+endif
 {
 "
 Deep
