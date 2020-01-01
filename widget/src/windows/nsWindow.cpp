@@ -41502,6 +41502,9 @@ HDC
 aDC
 )
 {
+#
+ifdef
+CAIRO_HAS_DDRAW_SURFACE
 if
 (
 gRenderMode
@@ -41516,6 +41519,8 @@ OnPaintImageDDraw16
 )
 ;
 }
+#
+endif
 PRBool
 result
 =
@@ -44031,6 +44036,9 @@ return
 result
 ;
 }
+#
+ifdef
+CAIRO_HAS_DDRAW_SURFACE
 /
 /
 Windows
@@ -45228,6 +45236,8 @@ return
 result
 ;
 }
+#
+endif
 /
 /
 -
