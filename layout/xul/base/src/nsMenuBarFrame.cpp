@@ -1138,6 +1138,10 @@ InstallKeyboardNavigator
 }
 else
 {
+mActiveByKeyboard
+=
+PR_FALSE
+;
 RemoveKeyboardNavigator
 (
 )
