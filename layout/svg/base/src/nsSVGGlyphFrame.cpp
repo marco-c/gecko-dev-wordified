@@ -2939,7 +2939,7 @@ DrawCharacters
 iter
 gfx
 drawMode
-strokePattern
+nullptr
 )
 ;
 }
@@ -4098,9 +4098,9 @@ gfxContext
 aContext
 DrawMode
 aDrawMode
-gfxPattern
+gfxTextObjectPaint
 *
-aStrokePattern
+aObjectPaint
 )
 {
 if
@@ -4154,7 +4154,7 @@ GetLength
 )
 nullptr
 nullptr
-aStrokePattern
+aObjectPaint
 )
 ;
 return
@@ -4214,7 +4214,7 @@ ClusterLength
 )
 nullptr
 nullptr
-aStrokePattern
+aObjectPaint
 )
 ;
 }
