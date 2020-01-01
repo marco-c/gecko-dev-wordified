@@ -3262,9 +3262,6 @@ mozapptype
 appType
 )
 ;
-unused
-<
-<
 browser
 -
 >
