@@ -888,6 +888,15 @@ nsReflowStatus
 aStatus
 )
 ;
+virtual
+nscoord
+GetIntrinsicWidth
+(
+nsIRenderingContext
+*
+aRenderingContext
+)
+;
 NS_IMETHOD
 Place
 (
