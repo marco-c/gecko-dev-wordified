@@ -1109,6 +1109,12 @@ aStatus
 )
 ;
 virtual
+PRBool
+HonorPrintBackgroundSettings
+(
+)
+;
+virtual
 ~
 nsBoxFrame
 (
