@@ -138,6 +138,13 @@ h
 #
 include
 "
+nsAccUtils
+.
+h
+"
+#
+include
+"
 nsCoreUtils
 .
 h

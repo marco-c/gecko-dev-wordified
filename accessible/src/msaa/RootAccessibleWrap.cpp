@@ -110,6 +110,13 @@ h
 #
 include
 "
+nsCoreUtils
+.
+h
+"
+#
+include
+"
 nsWinUtils
 .
 h
