@@ -3872,6 +3872,8 @@ eCSSKeyword_condensed
 NS_STYLE_FONT_STRETCH_CONDENSED
 eCSSKeyword_semi_condensed
 NS_STYLE_FONT_STRETCH_SEMI_CONDENSED
+eCSSKeyword_normal
+NS_STYLE_FONT_STRETCH_NORMAL
 eCSSKeyword_semi_expanded
 NS_STYLE_FONT_STRETCH_SEMI_EXPANDED
 eCSSKeyword_expanded
@@ -3935,6 +3937,8 @@ kFontWeightKTable
 ]
 =
 {
+eCSSKeyword_normal
+NS_STYLE_FONT_WEIGHT_NORMAL
 eCSSKeyword_bold
 NS_STYLE_FONT_WEIGHT_BOLD
 eCSSKeyword_bolder
