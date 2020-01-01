@@ -589,6 +589,12 @@ const
 nsIntPoint
 &
 aOffset
+float
+aOpacity
+const
+gfx3DMatrix
+&
+aMatrix
 )
 ;
 protected
@@ -775,6 +781,12 @@ const
 nsIntPoint
 &
 aOffset
+float
+aOpacity
+const
+gfx3DMatrix
+&
+aMatrix
 )
 ;
 private

@@ -1428,6 +1428,12 @@ const
 nsIntPoint
 &
 aOffset
+float
+aOpacity
+const
+gfx3DMatrix
+&
+aMatrix
 )
 {
 mOGLManager
@@ -1617,6 +1623,8 @@ SetLayerTransform
 GetEffectiveTransform
 (
 )
+*
+aMatrix
 )
 ;
 program
@@ -1627,6 +1635,8 @@ SetLayerOpacity
 GetOpacity
 (
 )
+*
+aOpacity
 )
 ;
 program
@@ -1998,6 +2008,12 @@ const
 nsIntPoint
 &
 aOffset
+float
+aOpacity
+const
+gfx3DMatrix
+&
+aMatrix
 )
 {
 mOGLManager
@@ -2092,6 +2108,8 @@ program
 SetLayerTransform
 (
 mTransform
+*
+aMatrix
 )
 ;
 program
@@ -2102,6 +2120,8 @@ SetLayerOpacity
 GetOpacity
 (
 )
+*
+aOpacity
 )
 ;
 program
