@@ -573,6 +573,13 @@ h
 #
 include
 "
+Statistics
+.
+h
+"
+#
+include
+"
 nsIDOMDocument
 .
 h
@@ -11418,6 +11425,13 @@ return
 NS_ERROR_FAILURE
 ;
 }
+statistics
+:
+:
+A11yInitialized
+(
+)
+;
 nsAccessibilityService
 :
 :
