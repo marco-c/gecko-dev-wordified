@@ -708,8 +708,6 @@ index
 _func
 (
 cx
-#
-#
 __VA_ARGS__
 )
 ;
