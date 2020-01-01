@@ -1744,6 +1744,15 @@ aMallocSizeOf
 )
 const
 ;
+virtual
+void
+AddInvalidateHiddenPresShellObserver
+(
+nsRefreshDriver
+*
+aDriver
+)
+;
 /
 /
 This
