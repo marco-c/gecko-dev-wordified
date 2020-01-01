@@ -10207,6 +10207,10 @@ cs
 executableAddress
 (
 )
+(
+unsigned
+long
+)
 masm
 .
 size
