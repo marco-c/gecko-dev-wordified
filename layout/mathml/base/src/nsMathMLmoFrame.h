@@ -716,6 +716,11 @@ mMinSize
 float
 mMaxSize
 ;
+PRBool
+UseMathMLChar
+(
+)
+;
 /
 /
 overload
