@@ -6329,6 +6329,7 @@ vp
 ;
 if
 (
+!
 IsConstructing
 (
 vp
