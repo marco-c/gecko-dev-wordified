@@ -536,6 +536,9 @@ RebuildTextRun
 nsTransformedTextRun
 *
 aTextRun
+gfxContext
+*
+aRefContext
 )
 =
 0
@@ -583,6 +586,9 @@ RebuildTextRun
 nsTransformedTextRun
 *
 aTextRun
+gfxContext
+*
+aRefContext
 )
 ;
 }
@@ -730,6 +736,9 @@ RebuildTextRun
 nsTransformedTextRun
 *
 aTextRun
+gfxContext
+*
+aRefContext
 )
 ;
 protected
