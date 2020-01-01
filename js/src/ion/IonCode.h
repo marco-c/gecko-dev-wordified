@@ -1791,6 +1791,9 @@ const
 IonFrameInfo
 *
 hf
+MacroAssembler
+&
+masm
 )
 ;
 void
