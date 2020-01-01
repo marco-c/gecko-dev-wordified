@@ -3570,11 +3570,6 @@ TimeStamp
 aCurrentFrame
 )
 {
-bool
-wantNextFrame
-=
-false
-;
 Layer
 *
 root
@@ -3605,8 +3600,8 @@ zoom
 /
 transforms
 .
+bool
 wantNextFrame
-|
 =
 SampleAnimations
 (
