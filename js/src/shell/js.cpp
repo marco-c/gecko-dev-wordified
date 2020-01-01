@@ -29776,7 +29776,7 @@ rt
 =
 JS_NewRuntime
 (
-64L
+128L
 *
 1024L
 *
@@ -29826,17 +29826,6 @@ JSGC_MAX_CODE_CACHE_BYTES
 1024
 *
 1024
-)
-;
-JS_SetGCParameter
-(
-rt
-JSGC_MAX_BYTES
-512L
-*
-1024L
-*
-1024L
 )
 ;
 result
