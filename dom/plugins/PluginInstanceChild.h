@@ -1638,9 +1638,6 @@ mWinlessPopupSurrogateHWND
 nsIntPoint
 mPluginSize
 ;
-nsIntPoint
-mPluginOffset
-;
 WNDPROC
 mWinlessThrottleOldWndProc
 ;
@@ -2339,6 +2336,12 @@ buffer
 is
 not
 accessible
+/
+/
+in
+plugin
+coordinates
+.
 nsIntRect
 mAccumulatedInvalidRect
 ;
@@ -2562,6 +2565,12 @@ surface
 and
 syncing
 data
+/
+/
+in
+plugin
+coordinates
+.
 nsIntRect
 mSurfaceDifferenceRect
 ;
