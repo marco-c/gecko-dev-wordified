@@ -84,6 +84,8 @@ does
 not
 exist
 .
+stmt
+=
 DBConn
 (
 )
@@ -96,6 +98,12 @@ frecency
 from
 moz_places
 "
+)
+;
+stmt
+.
+finalize
+(
 )
 ;
 /
