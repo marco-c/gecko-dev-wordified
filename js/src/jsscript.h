@@ -7022,7 +7022,7 @@ struct
 SourceCompressionToken
 {
 friend
-class
+struct
 ScriptSource
 ;
 friend
