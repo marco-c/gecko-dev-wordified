@@ -1089,7 +1089,7 @@ void
 SetSelectedLocale
 (
 const
-nsACString
+nsAString
 &
 )
 ;
