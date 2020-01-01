@@ -1387,14 +1387,6 @@ imm
 ;
 \
 void
-BL
-(
-NIns
-*
-)
-;
-\
-void
 JMP_far
 (
 NIns
