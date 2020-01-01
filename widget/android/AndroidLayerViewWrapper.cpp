@@ -774,6 +774,17 @@ mJObj
 jProvideEGLSurfaceMethod
 )
 ;
+if
+(
+jniFrame
+.
+CheckForException
+(
+)
+)
+return
+NULL
+;
 return
 reinterpret_cast
 <
