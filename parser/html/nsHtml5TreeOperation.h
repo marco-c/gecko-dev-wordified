@@ -134,6 +134,7 @@ ops
 eTreeOpMarkAsBroken
 eTreeOpRunScript
 eTreeOpRunScriptAsyncDefer
+eTreeOpPreventScriptExecution
 eTreeOpDoneAddingChildren
 eTreeOpDoneCreatingElement
 eTreeOpFlushPendingAppendNotifications
