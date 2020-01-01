@@ -7141,6 +7141,9 @@ mapping
 size
 )
 ;
+int
+result
+=
 ftruncate
 (
 fd
@@ -7155,6 +7158,14 @@ fd
 )
 ;
 return
+result
+=
+=
+-
+1
+?
+1
+:
 0
 ;
 }
