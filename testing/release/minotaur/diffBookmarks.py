@@ -368,6 +368,9 @@ from
 logAppender
 import
 LogAppender
+stderrCatcher
+import
+sys
 #
 The
 Main
@@ -392,6 +395,19 @@ lw
 LogAppender
 (
 log
+)
+  
+#
+Redirect
+stderr
+  
+sys
+.
+stderr
+=
+stderrCatcher
+(
+lw
 )
   
 #

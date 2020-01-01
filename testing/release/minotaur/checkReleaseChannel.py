@@ -318,6 +318,9 @@ from
 logAppender
 import
 LogAppender
+stderrCatcher
+import
+sys
 aus2link
 =
 re
@@ -451,6 +454,15 @@ lf
 LogAppender
 (
 log
+)
+  
+sys
+.
+stderr
+=
+stderrCatcher
+(
+lf
 )
   
 rf
