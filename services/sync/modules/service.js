@@ -3754,10 +3754,10 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
-idle
+Idle
 time
 hit
 trying
