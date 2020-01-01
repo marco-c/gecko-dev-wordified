@@ -852,9 +852,9 @@ JSContext
 *
 cx
 ;
-JSStackFrame
+JSObject
 *
-global
+globalObj
 ;
 Tracker
 tracker
@@ -1601,13 +1601,6 @@ TraceRecorder
 JSContext
 *
 getContext
-(
-)
-const
-;
-JSStackFrame
-*
-getGlobalFrame
 (
 )
 const
