@@ -84,13 +84,6 @@ sin
 )
 )
 ;
-}
-catch
-(
-e
-)
-{
-}
 function
 :
 :
@@ -129,6 +122,13 @@ function
 }
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 reportCompare
 (
 0
