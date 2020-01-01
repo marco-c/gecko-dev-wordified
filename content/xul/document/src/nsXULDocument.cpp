@@ -2398,6 +2398,7 @@ nsCCUncollectableMarker
 :
 InGeneration
 (
+cb
 tmp
 -
 >

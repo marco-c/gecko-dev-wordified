@@ -718,6 +718,7 @@ nsCCUncollectableMarker
 :
 InGeneration
 (
+cb
 currentDoc
 -
 >

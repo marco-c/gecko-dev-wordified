@@ -1753,6 +1753,7 @@ nsCCUncollectableMarker
 :
 InGeneration
 (
+cb
 tmp
 -
 >

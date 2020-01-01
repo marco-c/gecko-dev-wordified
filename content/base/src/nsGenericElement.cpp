@@ -21978,6 +21978,7 @@ nsCCUncollectableMarker
 :
 InGeneration
 (
+cb
 currentDoc
 -
 >
