@@ -1124,6 +1124,10 @@ GLContextOSMesa
 (
 )
 {
+MarkDestroyed
+(
+)
+;
 if
 (
 mContext

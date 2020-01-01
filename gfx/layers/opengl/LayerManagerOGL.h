@@ -1885,6 +1885,17 @@ endif
 /
 /
 MOZ_LAYERS_HAVE_LOG
+const
+nsIntSize
+&
+GetWigetSize
+(
+)
+{
+return
+mWidgetSize
+;
+}
 private
 :
 /
