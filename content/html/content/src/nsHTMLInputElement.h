@@ -520,6 +520,13 @@ for
 ShouldShowInvalidUI
 (
 )
+#
+include
+"
+nsIFile
+.
+h
+"
 /
 /
 /
@@ -827,9 +834,6 @@ PRBool
 mInPrivateBrowsing
 ;
 }
-;
-class
-nsIRadioVisitor
 ;
 class
 nsHTMLInputElement
