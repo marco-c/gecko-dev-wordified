@@ -9915,8 +9915,10 @@ ReparentWrapper
 JSContext
 *
 aCx
-JSObject
-*
+JS
+:
+:
+HandleObject
 aObj
 )
 ;
