@@ -17531,7 +17531,12 @@ CanvasImageCache
 :
 Lookup
 (
-imgElt
+content
+-
+>
+AsElement
+(
+)
 mCanvasElement
 &
 imgSize
@@ -17748,7 +17753,12 @@ CanvasImageCache
 :
 NotifyDrawImage
 (
-imgElt
+content
+-
+>
+AsElement
+(
+)
 mCanvasElement
 res
 .
