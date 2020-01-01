@@ -3099,7 +3099,7 @@ GetType
 nsGkAtoms
 :
 :
-positionedInlineFrame
+inlineFrame
 )
 /
 /

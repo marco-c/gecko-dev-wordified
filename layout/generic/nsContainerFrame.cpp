@@ -2161,6 +2161,14 @@ kExcessOverflowContainersList
 )
 ;
 }
+nsSplittableFrame
+:
+:
+GetChildLists
+(
+aLists
+)
+;
 }
 /
 /
