@@ -14308,10 +14308,8 @@ if
 topWindow
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-!
-mDocShell
 "
 DialogsAreBlocked
 (
@@ -41274,11 +41272,6 @@ GetWidgetListener
 (
 )
 ;
-if
-(
-listener
-)
-{
 nsCOMPtr
 <
 nsIXULWindow
@@ -41311,7 +41304,6 @@ do_GetInterface
 req
 )
 ;
-}
 }
 if
 (
