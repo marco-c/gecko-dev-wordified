@@ -593,7 +593,7 @@ is
 (
 gWatch
 .
-_container
+widget
 .
 _parent
 .
@@ -633,7 +633,7 @@ is
 (
 gWatch
 .
-_container
+widget
 .
 _parent
 .
@@ -768,7 +768,7 @@ is
 (
 gWatch
 .
-_container
+widget
 .
 _parent
 .
@@ -808,7 +808,7 @@ is
 (
 gWatch
 .
-_container
+widget
 .
 _parent
 .
@@ -1657,7 +1657,7 @@ is
 (
 gWatch
 .
-_container
+widget
 .
 _parent
 .
@@ -1701,7 +1701,7 @@ is
 (
 gWatch
 .
-_container
+widget
 .
 _parent
 .

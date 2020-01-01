@@ -212,7 +212,7 @@ empty
 ;
 vs
 .
-_container
+widget
 .
 removeEventListener
 (

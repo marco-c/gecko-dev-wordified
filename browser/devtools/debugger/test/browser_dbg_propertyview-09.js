@@ -264,7 +264,7 @@ DebuggerView
 .
 StackFrames
 .
-_container
+widget
 .
 _list
 globalScope
@@ -733,7 +733,7 @@ DebuggerView
 .
 StackFrames
 .
-_container
+widget
 .
 _list
 ;

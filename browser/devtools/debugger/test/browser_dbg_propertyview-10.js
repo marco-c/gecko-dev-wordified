@@ -274,7 +274,7 @@ DebuggerView
 .
 StackFrames
 .
-_container
+widget
 .
 _list
 scopes
@@ -798,7 +798,7 @@ DebuggerView
 .
 StackFrames
 .
-_container
+widget
 .
 _list
 ;

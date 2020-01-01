@@ -510,7 +510,7 @@ gBreakpointsParent
 =
 gSources
 .
-_container
+widget
 .
 _parent
 ;
@@ -518,7 +518,7 @@ gBreakpointsList
 =
 gSources
 .
-_container
+widget
 .
 _list
 ;
