@@ -688,6 +688,12 @@ nsIEventTarget
 >
 mTarget
 ;
+nsCOMPtr
+<
+nsISupports
+>
+mCopierCtx
+;
 PRLock
 *
 mLock
@@ -703,6 +709,12 @@ mStatus
 ;
 PRPackedBool
 mIsPending
+;
+PRPackedBool
+mCloseSource
+;
+PRPackedBool
+mCloseSink
 ;
 }
 ;
