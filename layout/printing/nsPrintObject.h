@@ -480,6 +480,13 @@ nsIDocument
 .
 h
 "
+#
+include
+"
+nsIWidget
+.
+h
+"
 class
 nsPresContext
 ;
@@ -700,6 +707,12 @@ nsCOMPtr
 nsIViewManager
 >
 mViewManager
+;
+nsCOMPtr
+<
+nsIWidget
+>
+mWindow
 ;
 nsCOMPtr
 <
