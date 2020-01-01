@@ -892,6 +892,12 @@ execute
 (
 )
 ;
+stmt
+.
+finalize
+(
+)
+;
 return
 id
 +
@@ -1042,6 +1048,12 @@ reset
 )
 ;
 }
+stmt
+.
+finalize
+(
+)
+;
 }
 /
 /
