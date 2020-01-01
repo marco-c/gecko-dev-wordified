@@ -343,6 +343,10 @@ nsIPrefLocalizedString
 )
 .
 data
+.
+toLowerCase
+(
+)
 ;
 }
 catch
@@ -353,7 +357,7 @@ e
 gExpectedCharset
 =
 "
-ISO
+iso
 -
 8859
 -
