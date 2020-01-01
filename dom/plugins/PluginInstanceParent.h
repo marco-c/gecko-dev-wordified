@@ -697,7 +697,7 @@ virtual
 bool
 AnswerNPN_GetValue_NPNVnetscapeWindow
 (
-intptr_t
+NativeWindowHandle
 *
 value
 NPError
