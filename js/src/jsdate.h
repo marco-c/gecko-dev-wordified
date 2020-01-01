@@ -501,7 +501,7 @@ ES5
 /
 inline
 double
-TIMECLIP
+TimeClip
 (
 double
 time
