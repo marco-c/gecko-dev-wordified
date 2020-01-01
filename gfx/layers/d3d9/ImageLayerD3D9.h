@@ -658,6 +658,12 @@ LayerManagerD3D9
 aManager
 )
 ;
+~
+PlanarYCbCrImageD3D9
+(
+)
+{
+}
 virtual
 void
 SetData
