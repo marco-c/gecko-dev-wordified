@@ -35761,6 +35761,8 @@ aFrameList
 nsIFrame
 *
 aPrevSibling
+PRBool
+aIsRecursiveCall
 )
 {
 NS_PRECONDITION
@@ -35867,6 +35869,9 @@ GetFirstChild
 (
 nsnull
 )
+|
+|
+aIsRecursiveCall
 "
 aParentFrame
 has
@@ -35912,6 +35917,9 @@ GetNextContinuation
 (
 )
 )
+|
+|
+aIsRecursiveCall
 "
 aParentFrame
 is
@@ -36429,6 +36437,7 @@ GetParent
 )
 ibSiblings
 aParentFrame
+PR_TRUE
 )
 ;
 }
@@ -36442,7 +36451,7 @@ Insert
 the
 frames
 after
-out
+our
 aPrevSibling
 return
 aState

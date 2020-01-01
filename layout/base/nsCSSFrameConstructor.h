@@ -3044,6 +3044,10 @@ aFrameList
 nsIFrame
 *
 aPrevSibling
+PRBool
+aIsRecursiveCall
+=
+PR_FALSE
 )
 ;
 /
