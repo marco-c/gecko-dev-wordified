@@ -6245,10 +6245,8 @@ image
 ;
 if
 (
+!
 iconUrl
-=
-=
-null
 )
 iconUrl
 =
