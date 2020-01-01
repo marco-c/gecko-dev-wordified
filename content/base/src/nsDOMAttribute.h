@@ -494,13 +494,6 @@ h
 #
 include
 "
-nsIDOM3Attr
-.
-h
-"
-#
-include
-"
 nsDOMAttributeMap
 .
 h
@@ -546,7 +539,7 @@ object
 that
 implements
 nsIDOMAttr
-nsIDOM3Attr
+and
 nsIDOMNode
 class
 nsDOMAttribute
@@ -555,8 +548,6 @@ public
 nsIAttribute
 public
 nsIDOMAttr
-public
-nsIDOM3Attr
 public
 nsStubMutationObserver
 {
@@ -597,11 +588,6 @@ NS_DECL_NSIDOMNODE
 nsIDOMAttr
 interface
 NS_DECL_NSIDOMATTR
-/
-/
-nsIDOM3Attr
-interface
-NS_DECL_NSIDOM3ATTR
 virtual
 nsresult
 PreHandleEvent
