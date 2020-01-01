@@ -628,6 +628,7 @@ mTransform
 /
 /
 helpers
+virtual
 nsresult
 Match
 (

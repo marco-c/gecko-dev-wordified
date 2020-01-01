@@ -1206,11 +1206,6 @@ the
 /
 specs
 .
-nsresult
-rv
-=
-NS_OK
-;
 /
 /
 parse
@@ -1230,6 +1225,7 @@ parser
 xforms
 )
 ;
+nsresult
 rv
 =
 parser
