@@ -1451,10 +1451,7 @@ char
 *
 commandString
 =
-nsCRT
-:
-:
-strdup
+NS_strdup
 (
 aCommand
 )
