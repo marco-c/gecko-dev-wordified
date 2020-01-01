@@ -3094,12 +3094,6 @@ l10n
 =
 JSPropertyProvider
 =
-NetworkHelper
-=
-NetUtil
-=
-activityDistributor
-=
 null
 ;
 }
