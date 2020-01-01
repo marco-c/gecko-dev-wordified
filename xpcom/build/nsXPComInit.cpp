@@ -747,6 +747,13 @@ VisualEventTracer
 .
 h
 "
+#
+include
+"
+sampler
+.
+h
+"
 using
 base
 :
@@ -1631,6 +1638,10 @@ nsIDirectoryServiceProvider
 appFileLocationProvider
 )
 {
+SAMPLER_INIT
+(
+)
+;
 nsresult
 rv
 =

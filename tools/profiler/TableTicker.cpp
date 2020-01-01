@@ -6577,6 +6577,12 @@ mozilla_sampler_init
 {
 if
 (
+stack_key_initialized
+)
+return
+;
+if
+(
 !
 tlsStack
 .
