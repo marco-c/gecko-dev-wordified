@@ -520,7 +520,7 @@ nsIIDBFactory
 typedef
 nsTArray
 <
-nsRefPtr
+nsAutoPtr
 <
 ObjectStoreInfo
 >
@@ -664,7 +664,7 @@ aObjectStores
 ;
 static
 nsresult
-SetDatabaseMetadata
+UpdateDatabaseMetadata
 (
 DatabaseInfo
 *

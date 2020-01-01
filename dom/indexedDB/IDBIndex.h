@@ -578,6 +578,16 @@ return
 mMultiEntry
 ;
 }
+bool
+IsAutoIncrement
+(
+)
+const
+{
+return
+mAutoIncrement
+;
+}
 const
 nsString
 &
@@ -633,6 +643,9 @@ mUnique
 ;
 bool
 mMultiEntry
+;
+bool
+mAutoIncrement
 ;
 }
 ;
