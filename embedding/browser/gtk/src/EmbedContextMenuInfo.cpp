@@ -1604,16 +1604,6 @@ NS_FORM_LABEL
 break
 ;
 case
-NS_FORM_OPTION
-:
-break
-;
-case
-NS_FORM_OPTGROUP
-:
-break
-;
-case
 NS_FORM_LEGEND
 :
 break
