@@ -3972,7 +3972,7 @@ statistics
   
 MAX_LEAK_COUNT
 =
-120
+121
   
 def
 __init__
@@ -4301,6 +4301,7 @@ totalWindows
 +
 totalDocShells
 <
+=
 self
 .
 MAX_LEAK_COUNT
