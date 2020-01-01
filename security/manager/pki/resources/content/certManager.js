@@ -3050,7 +3050,7 @@ bundle
 GetStringFromName
 (
 "
-chooseP12RestoreFileDialog
+chooseP12RestoreFileDialog2
 "
 )
 nsIFilePicker
