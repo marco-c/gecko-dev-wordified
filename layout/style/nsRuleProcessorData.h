@@ -1219,9 +1219,7 @@ mNthIndices
 /
 /
 mContentState
-mLinkState
-mIsLink
-are
+is
 initialized
 lazily
 .
