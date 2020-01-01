@@ -124,10 +124,6 @@ gPane
 .
 panelWin
 ;
-expectUncaughtException
-(
-)
-;
 testNormalReturn
 (
 )
