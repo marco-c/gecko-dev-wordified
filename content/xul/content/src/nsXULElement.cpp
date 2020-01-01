@@ -14663,6 +14663,12 @@ mChildren
 i
 ]
 nsXULPrototypeNode
+"
+mChildren
+[
+i
+]
+"
 )
 }
 }
