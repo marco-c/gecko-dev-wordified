@@ -1746,9 +1746,6 @@ typeMap
 unsigned
 nStackTypes
 ;
-uint32
-globalShape
-;
 SlotList
 *
 globalSlots
@@ -1847,8 +1844,6 @@ nanojit
 Fragment
 *
 _fragment
-uint32
-_globalShape
 SlotList
 *
 _globalSlots
@@ -1877,10 +1872,6 @@ maxCallDepth
 nStackTypes
 (
 0
-)
-globalShape
-(
-_globalShape
 )
 globalSlots
 (
@@ -3916,10 +3907,7 @@ nanojit
 Fragmento
 *
 fragmento
-nanojit
-:
-:
-Fragment
+VMFragment
 *
 peer_root
 )
