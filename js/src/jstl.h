@@ -2233,8 +2233,7 @@ LazilyConstructed
 {
 union
 {
-void
-*
+uint64
 align
 ;
 char
