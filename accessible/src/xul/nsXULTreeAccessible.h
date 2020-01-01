@@ -961,6 +961,15 @@ void
 aUniqueID
 )
 ;
+/
+/
+nsAccessNode
+virtual
+PRBool
+IsDefunct
+(
+)
+;
 protected
 :
 PRBool
