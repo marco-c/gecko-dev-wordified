@@ -3599,6 +3599,14 @@ nsIFrame
 :
 eSVGGeometry
 )
+|
+|
+aFrame
+-
+>
+IsSVGText
+(
+)
 )
 {
 /
