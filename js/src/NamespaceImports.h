@@ -320,6 +320,12 @@ using
 JS
 :
 :
+Float32Value
+;
+using
+JS
+:
+:
 Int32Value
 ;
 using
