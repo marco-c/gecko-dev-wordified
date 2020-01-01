@@ -972,8 +972,13 @@ delay_den
 ;
 /
 *
+delay
 in
 seconds
+is
+delay_num
+/
+delay_den
 *
 /
 png_byte
@@ -1065,7 +1070,7 @@ delay_den
 /
 /
 so
-sais
+says
 the
 APNG
 spec
@@ -2352,6 +2357,9 @@ be
 the
 default
 ?
+#
+ifndef
+PNG_NO_READ_iCCP
 /
 /
 First
@@ -2514,6 +2522,11 @@ profile
 ;
 }
 }
+#
+endif
+#
+ifndef
+PNG_NO_READ_sRGB
 /
 /
 Check
@@ -2577,6 +2590,8 @@ fileIntent
 ;
 }
 }
+#
+endif
 /
 /
 Check
@@ -2655,6 +2670,9 @@ primaries
 }
 }
 ;
+#
+ifndef
+PNG_NO_READ_cHRM
 if
 (
 png_get_valid
@@ -2742,6 +2760,8 @@ Y
 0
 ;
 }
+#
+endif
 double
 gammaOfFile
 ;

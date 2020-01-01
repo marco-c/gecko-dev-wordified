@@ -25,8 +25,8 @@ libpng
 .
 22
 [
-October
-13
+November
+6
 2007
 ]
 *
