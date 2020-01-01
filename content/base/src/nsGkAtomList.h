@@ -14354,13 +14354,6 @@ DisplayPort
 _displayport
 "
 )
-GK_ATOM
-(
-CriticalDisplayPort
-"
-_critical_displayport
-"
-)
 /
 /
 Names
