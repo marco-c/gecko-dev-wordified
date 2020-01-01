@@ -1158,7 +1158,7 @@ win
 .
 PlacesUtils
 .
-showAddBookmarkUI
+showMinimalAddBookmarkUI
 (
 uri
 aTitle
