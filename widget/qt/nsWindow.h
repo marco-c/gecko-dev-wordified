@@ -1181,6 +1181,14 @@ GetInputContext
 (
 )
 ;
+NS_IMETHOD_
+(
+bool
+)
+HasGLContext
+(
+)
+;
 /
 /
 /

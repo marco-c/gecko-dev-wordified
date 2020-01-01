@@ -588,11 +588,11 @@ mEGLLibrary
 (
 nsnull
 )
-mHasRobustness
+mIsANGLE
 (
 false
 )
-mIsANGLE
+mHasRobustness
 (
 false
 )
