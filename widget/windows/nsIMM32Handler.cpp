@@ -2992,8 +2992,9 @@ lParam
 aWindow
 -
 >
-ResetInputState
+NotifyIME
 (
+REQUEST_TO_COMMIT_COMPOSITION
 )
 ;
 NS_ASSERTION
