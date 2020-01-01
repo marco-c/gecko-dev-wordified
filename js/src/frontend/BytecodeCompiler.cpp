@@ -560,10 +560,6 @@ NULL
 ScriptSourceHolder
 ssh
 (
-cx
--
->
-runtime
 ss
 )
 ;
@@ -1651,10 +1647,6 @@ false
 ScriptSourceHolder
 ssh
 (
-cx
--
->
-runtime
 ss
 )
 ;

@@ -4492,9 +4492,6 @@ NULL
 endif
 sourceCompressorThread
 (
-thisFromCtor
-(
-)
 )
 #
 endif

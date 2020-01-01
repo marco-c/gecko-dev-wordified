@@ -6941,9 +6941,6 @@ refs
 void
 decref
 (
-JSRuntime
-*
-rt
 )
 {
 JS_ASSERT
@@ -6965,7 +6962,6 @@ refs
 )
 destroy
 (
-rt
 )
 ;
 }
@@ -7165,9 +7161,6 @@ private
 void
 destroy
 (
-JSRuntime
-*
-rt
 )
 ;
 bool
@@ -7216,10 +7209,6 @@ nbytes
 class
 ScriptSourceHolder
 {
-JSRuntime
-*
-rt
-;
 ScriptSource
 *
 ss
@@ -7228,18 +7217,11 @@ public
 :
 ScriptSourceHolder
 (
-JSRuntime
-*
-rt
 ScriptSource
 *
 ss
 )
 :
-rt
-(
-rt
-)
 ss
 (
 ss
@@ -7263,7 +7245,6 @@ ss
 >
 decref
 (
-rt
 )
 ;
 }
@@ -7590,9 +7571,6 @@ public
 explicit
 SourceCompressorThread
 (
-JSRuntime
-*
-rt
 )
 :
 state
