@@ -9474,7 +9474,6 @@ aOperator
 OP_OVER
 &
 &
-!
 IsPatternSupportedByD2D
 (
 aPattern
@@ -13070,6 +13069,7 @@ aAlpha
 {
 if
 (
+!
 IsPatternSupportedByD2D
 (
 aPattern

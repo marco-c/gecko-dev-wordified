@@ -624,7 +624,7 @@ PATTERN_RADIAL_GRADIENT
 )
 {
 return
-false
+true
 ;
 }
 const
@@ -655,7 +655,7 @@ mRadius1
 )
 {
 return
-true
+false
 ;
 }
 Point
@@ -709,11 +709,11 @@ the
 circle
 .
 return
-true
+false
 ;
 }
 return
-false
+true
 ;
 }
 /
