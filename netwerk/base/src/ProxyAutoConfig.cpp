@@ -4519,7 +4519,7 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-js
+JS
 :
 :
 RootedString
@@ -4537,7 +4537,7 @@ get
 )
 )
 ;
-js
+JS
 :
 :
 RootedString
@@ -4563,7 +4563,7 @@ uriString
 hostString
 )
 {
-js
+JS
 :
 :
 RootedValue
@@ -4576,7 +4576,7 @@ uriString
 )
 )
 ;
-js
+JS
 :
 :
 RootedValue

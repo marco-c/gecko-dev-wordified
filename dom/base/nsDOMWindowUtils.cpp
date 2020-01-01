@@ -10487,7 +10487,7 @@ return
 NS_ERROR_XPC_BAD_CONVERT_JS
 ;
 }
-js
+JS
 :
 :
 Rooted

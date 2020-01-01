@@ -1371,7 +1371,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-js
+JS
 :
 :
 RootedString
@@ -1444,7 +1444,7 @@ ErrorCode
 )
 ;
 }
-js
+JS
 :
 :
 RootedString
