@@ -3283,7 +3283,7 @@ urlbar
 .
 autoFill
 "
-true
+false
 )
 ;
 /
