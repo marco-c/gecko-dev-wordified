@@ -282,7 +282,7 @@ nsAccessible
 *
 mRoot
 ;
-PRInt32
+PRUint32
 mRootChildIdx
 ;
 nsTArray

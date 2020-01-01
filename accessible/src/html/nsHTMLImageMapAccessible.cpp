@@ -657,7 +657,7 @@ AnchorCount
 )
 {
 return
-GetChildCount
+ChildCount
 (
 )
 ;

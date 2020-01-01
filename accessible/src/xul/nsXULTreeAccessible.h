@@ -178,12 +178,6 @@ using
 nsAccessible
 :
 :
-GetChildCount
-;
-using
-nsAccessible
-:
-:
 GetChildAt
 ;
 nsXULTreeAccessible
@@ -270,10 +264,11 @@ aIndex
 )
 ;
 virtual
-PRInt32
-GetChildCount
+PRUint32
+ChildCount
 (
 )
+const
 ;
 /
 /

@@ -936,7 +936,7 @@ abbrText
 ;
 if
 (
-GetChildCount
+ChildCount
 (
 )
 =
@@ -8318,7 +8318,7 @@ cell
 cell
 -
 >
-GetChildCount
+ChildCount
 (
 )
 =
@@ -8699,7 +8699,7 @@ tables
 PRUint32
 childCount
 =
-GetChildCount
+ChildCount
 (
 )
 ;

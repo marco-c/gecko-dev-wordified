@@ -306,12 +306,6 @@ using
 nsAccessible
 :
 :
-GetChildCount
-;
-using
-nsAccessible
-:
-:
 GetChildAt
 ;
 nsXULTreeGridRowAccessible
@@ -409,10 +403,11 @@ aIndex
 )
 ;
 virtual
-PRInt32
-GetChildCount
+PRUint32
+ChildCount
 (
 )
+const
 ;
 /
 /

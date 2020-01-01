@@ -515,7 +515,7 @@ GetLinkCount
 )
 {
 return
-GetEmbeddedChildCount
+EmbeddedChildCount
 (
 )
 ;
@@ -1290,7 +1290,7 @@ CharacterCount
 return
 GetChildOffset
 (
-GetChildCount
+ChildCount
 (
 )
 )
