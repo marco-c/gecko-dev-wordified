@@ -11076,7 +11076,7 @@ pluginEvent
 lParam
 =
 (
-uint32
+LPARAM
 )
 &
 winpos
