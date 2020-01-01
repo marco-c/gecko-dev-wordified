@@ -190,7 +190,7 @@ activeThread
 addOneTimeListener
 (
 "
-scriptsadded
+framesadded
 "
 function
 (
