@@ -2350,6 +2350,25 @@ quals
 )
 :
         
+assert
+isinstance
+(
+baseid
+str
+)
+        
+for
+qual
+in
+quals
+:
+assert
+isinstance
+(
+qual
+str
+)
+        
 self
 .
 loc
