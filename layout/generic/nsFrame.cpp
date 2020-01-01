@@ -10807,14 +10807,6 @@ GetList
 aIndex
 )
 ;
-opacity
--
->
-UpdateBounds
-(
-aBuilder
-)
-;
 newList
 .
 AppendToTop
