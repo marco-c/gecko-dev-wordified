@@ -17721,6 +17721,10 @@ tree
 #
 endif
 }
+/
+/
+nsAccessible
+public
 PRBool
 nsAccessible
 :
