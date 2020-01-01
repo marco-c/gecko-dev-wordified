@@ -792,7 +792,7 @@ NSAccessibilityUnknownRole
 /
 ROLE_CHARACTER
 .
-unusued
+unused
 on
 OS
 X
