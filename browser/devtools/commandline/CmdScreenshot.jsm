@@ -273,9 +273,6 @@ type
 "
 boolean
 "
-defaultValue
-:
-false
 description
 :
 gcli

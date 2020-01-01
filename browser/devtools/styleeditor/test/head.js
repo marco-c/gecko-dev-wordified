@@ -141,7 +141,7 @@ testDir
 +
 "
 /
-helper
+helpers
 .
 js
 "
