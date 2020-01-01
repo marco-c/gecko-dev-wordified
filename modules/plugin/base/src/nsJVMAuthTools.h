@@ -431,10 +431,10 @@ BLOCK
 /
 #
 ifndef
-nsJVMAuthTools_h___
+nsJVMAuthTools_h_
 #
 define
-nsJVMAuthTools_h___
+nsJVMAuthTools_h_
 #
 include
 "
@@ -517,4 +517,4 @@ void
 endif
 /
 /
-nsJVMAuthTools_h___
+nsJVMAuthTools_h_

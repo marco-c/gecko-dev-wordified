@@ -423,10 +423,10 @@ BLOCK
 /
 #
 ifndef
-nsPluginManifestLineReader_h__
+nsPluginManifestLineReader_h_
 #
 define
-nsPluginManifestLineReader_h__
+nsPluginManifestLineReader_h_
 #
 include
 "
@@ -629,6 +629,7 @@ lastDelimiter
 ;
 }
 else
+{
 *
 mNext
 =
@@ -637,6 +638,7 @@ mNext
 0
 '
 ;
+}
 for
 (
 +
@@ -651,6 +653,7 @@ mLimit
 +
 mNext
 )
+{
 if
 (
 !
@@ -662,6 +665,7 @@ mNext
 )
 break
 ;
+}
 return
 PR_TRUE
 ;

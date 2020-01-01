@@ -423,10 +423,10 @@ BLOCK
 /
 #
 ifndef
-nsJSNPRuntime_h__
+nsJSNPRuntime_h_
 #
 define
-nsJSNPRuntime_h__
+nsJSNPRuntime_h_
 #
 include
 "
@@ -770,4 +770,4 @@ variant
 endif
 /
 /
-nsJSNPRuntime_h__
+nsJSNPRuntime_h_
