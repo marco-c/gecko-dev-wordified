@@ -2726,9 +2726,7 @@ currentTimeMillis
 int
 id
 =
-GeckoAppShell
-.
-saveMessageInSentbox
+saveSentMessage
 (
 number
 message
