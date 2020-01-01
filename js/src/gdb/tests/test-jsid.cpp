@@ -13,7 +13,7 @@ jsid
 simple
 )
 {
-js
+JS
 :
 :
 Rooted
@@ -33,7 +33,7 @@ moon
 )
 )
 ;
-js
+JS
 :
 :
 Rooted
@@ -51,7 +51,7 @@ string
 )
 )
 ;
-js
+JS
 :
 :
 Rooted
@@ -81,7 +81,7 @@ void_id
 =
 JSID_VOID
 ;
-js
+JS
 :
 :
 Rooted
@@ -205,7 +205,7 @@ jsid
 handles
 )
 {
-js
+JS
 :
 :
 Rooted
@@ -225,7 +225,7 @@ shovel
 )
 )
 ;
-js
+JS
 :
 :
 Rooted
@@ -243,7 +243,7 @@ string
 )
 )
 ;
-js
+JS
 :
 :
 Rooted

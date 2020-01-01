@@ -3169,9 +3169,6 @@ JSProtoKey
 key
 )
 {
-js
-:
-:
 RootedObject
 proto
 (
@@ -5341,9 +5338,6 @@ JSProtoKey
 key
 )
 {
-js
-:
-:
 RootedObject
 proto
 (

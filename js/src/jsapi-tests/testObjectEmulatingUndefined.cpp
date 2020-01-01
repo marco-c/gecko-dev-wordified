@@ -152,7 +152,7 @@ NULL
 )
 )
 ;
-js
+JS
 :
 :
 RootedValue
@@ -342,7 +342,7 @@ NULL
 )
 )
 ;
-js
+JS
 :
 :
 RootedValue

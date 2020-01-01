@@ -1673,7 +1673,7 @@ return
 str
 ;
 }
-js
+JS
 :
 :
 Rooted

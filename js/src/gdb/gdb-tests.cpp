@@ -423,9 +423,6 @@ object
 .
 *
 /
-js
-:
-:
 RootedObject
 global
 (

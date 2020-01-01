@@ -120,7 +120,7 @@ BEGIN_TEST
 testDefineProperty_bug564344
 )
 {
-js
+JS
 :
 :
 RootedValue
@@ -182,7 +182,7 @@ address
 )
 )
 ;
-js
+JS
 :
 :
 RootedObject

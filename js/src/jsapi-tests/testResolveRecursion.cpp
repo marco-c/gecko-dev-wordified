@@ -282,7 +282,7 @@ hook
 .
 *
 /
-js
+JS
 :
 :
 RootedValue
@@ -446,7 +446,7 @@ CHECK
 str
 )
 ;
-js
+JS
 :
 :
 RootedValue

@@ -82,7 +82,7 @@ pretty
 -
 printer
 for
-js
+JS
 :
 :
 Rooted
@@ -135,7 +135,7 @@ test
 ensures
 that
 the
-js
+JS
 :
 :
 Rooted

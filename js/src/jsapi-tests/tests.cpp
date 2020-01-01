@@ -184,7 +184,7 @@ JS_BeginRequest
 cx
 )
 ;
-js
+JS
 :
 :
 RootedObject
@@ -237,7 +237,7 @@ int
 lineno
 )
 {
-js
+JS
 :
 :
 RootedValue

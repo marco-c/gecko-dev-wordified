@@ -755,7 +755,7 @@ JSBool
 strict
 )
 {
-js
+JS
 :
 :
 RootedId
@@ -899,7 +899,7 @@ JSBool
 strict
 )
 {
-js
+JS
 :
 :
 RootedId
@@ -1036,7 +1036,7 @@ unsigned
 attrsp
 )
 {
-js
+JS
 :
 :
 RootedId
@@ -1157,7 +1157,7 @@ unsigned
 attrsp
 )
 {
-js
+JS
 :
 :
 RootedId
@@ -1445,7 +1445,7 @@ MutableHandleValue
 vp
 )
 {
-js
+JS
 :
 :
 RootedId
@@ -1558,7 +1558,7 @@ bool
 strict
 )
 {
-js
+JS
 :
 :
 RootedId
@@ -1682,7 +1682,7 @@ bool
 strict
 )
 {
-js
+JS
 :
 :
 RootedId
@@ -1819,7 +1819,7 @@ bool
 strict
 )
 {
-js
+JS
 :
 :
 RootedId
@@ -2224,7 +2224,7 @@ canRemoveLastProperty
 )
 )
 ;
-js
+JS
 :
 :
 RootedObject
@@ -5266,7 +5266,7 @@ hasLazyType
 )
 )
 {
-js
+JS
 :
 :
 RootedObject
@@ -7527,7 +7527,7 @@ unsigned
 flags
 )
 {
-js
+JS
 :
 :
 RootedObject
@@ -8207,7 +8207,7 @@ MutableHandleShape
 propp
 )
 {
-js
+JS
 :
 :
 RootedId
@@ -8398,7 +8398,7 @@ JSPROP_ENUMERATE
 /
 )
 {
-js
+JS
 :
 :
 RootedId
@@ -8577,7 +8577,7 @@ JSPROP_ENUMERATE
 /
 )
 {
-js
+JS
 :
 :
 RootedId
@@ -8713,7 +8713,7 @@ MutableHandleShape
 propp
 )
 {
-js
+JS
 :
 :
 RootedId
@@ -8801,7 +8801,7 @@ index
 vp
 )
 ;
-js
+JS
 :
 :
 RootedId
@@ -9035,7 +9035,7 @@ here
 .
 *
 /
-js
+JS
 :
 :
 RootedId
@@ -9061,7 +9061,7 @@ id
 return
 false
 ;
-js
+JS
 :
 :
 RootedObject
@@ -9164,7 +9164,7 @@ MutableHandleValue
 vp
 )
 {
-js
+JS
 :
 :
 RootedId
@@ -9287,7 +9287,7 @@ unsigned
 attrsp
 )
 {
-js
+JS
 :
 :
 RootedId
@@ -9340,7 +9340,7 @@ unsigned
 attrsp
 )
 {
-js
+JS
 :
 :
 RootedId
@@ -9406,7 +9406,7 @@ unsigned
 attrsp
 )
 {
-js
+JS
 :
 :
 RootedId
@@ -12574,9 +12574,6 @@ isObject
 return
 false
 ;
-js
-:
-:
 RootedObject
 obj
 (

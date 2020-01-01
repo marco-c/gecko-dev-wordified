@@ -1249,7 +1249,7 @@ lineno
 JSBool
 same
 ;
-js
+JS
 :
 :
 RootedValue
@@ -1449,7 +1449,7 @@ gcoff
 cx
 )
 ;
-js
+JS
 :
 :
 RootedValue
