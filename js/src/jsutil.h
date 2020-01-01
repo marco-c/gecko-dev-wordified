@@ -239,9 +239,6 @@ len
 )
 ;
 }
-#
-ifdef
-__cplusplus
 namespace
 js
 {
@@ -1611,13 +1608,6 @@ endif
 *
 namespace
 js
-*
-/
-#
-endif
-/
-*
-__cplusplus
 *
 /
 /

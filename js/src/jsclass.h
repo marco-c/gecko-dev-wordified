@@ -191,9 +191,6 @@ jsprvtd
 .
 h
 "
-#
-ifdef
-__cplusplus
 namespace
 js
 {
@@ -2462,13 +2459,6 @@ id
 *
 namespace
 js
-*
-/
-#
-endif
-/
-*
-__cplusplus
 *
 /
 #
