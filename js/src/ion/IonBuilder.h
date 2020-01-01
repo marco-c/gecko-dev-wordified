@@ -1970,6 +1970,11 @@ uint32
 count
 )
 ;
+bool
+jsop_this
+(
+)
+;
 /
 *
 Inlining
