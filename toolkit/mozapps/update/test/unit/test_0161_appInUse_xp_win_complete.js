@@ -1188,6 +1188,10 @@ do_register_cleanup
 cleanupUpdaterTest
 )
 ;
+adjustGeneralPaths
+(
+)
+;
 gBackgroundUpdate
 =
 true

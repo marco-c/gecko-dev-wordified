@@ -72,6 +72,8 @@ TEST_ID
 =
 "
 0114
+-
+PCC
 "
 ;
 /
@@ -131,6 +133,10 @@ IS_MAR_CHECKS_ENABLED
 return
 ;
 }
+adjustGeneralPaths
+(
+)
+;
 /
 /
 Setup

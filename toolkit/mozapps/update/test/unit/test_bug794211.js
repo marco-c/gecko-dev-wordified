@@ -67,6 +67,13 @@ Bug
 )
 *
 /
+const
+TEST_ID
+=
+"
+bug794211
+"
+;
 /
 /
 Needs
@@ -96,6 +103,10 @@ do_test_pending
 do_register_cleanup
 (
 end_test
+)
+;
+adjustGeneralPaths
+(
 )
 ;
 logTestInfo

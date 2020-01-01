@@ -1478,6 +1478,10 @@ do_register_cleanup
 cleanupUpdaterTest
 )
 ;
+adjustGeneralPaths
+(
+)
+;
 setupUpdaterTest
 (
 MAR_PARTIAL_FILE

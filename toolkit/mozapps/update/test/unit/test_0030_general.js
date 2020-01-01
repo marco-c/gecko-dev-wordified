@@ -66,6 +66,13 @@ Tests
 *
 /
 const
+TEST_ID
+=
+"
+0030
+"
+;
+const
 INC_CONTRACT_ID
 =
 "
@@ -190,6 +197,10 @@ do_test_pending
 do_register_cleanup
 (
 end_test
+)
+;
+adjustGeneralPaths
+(
 )
 ;
 Services

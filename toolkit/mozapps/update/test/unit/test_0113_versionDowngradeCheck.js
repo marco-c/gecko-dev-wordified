@@ -71,6 +71,8 @@ TEST_ID
 =
 "
 0113
+-
+VDC
 "
 ;
 /
@@ -141,6 +143,10 @@ file
 do_register_cleanup
 (
 cleanupUpdaterTest
+)
+;
+adjustGeneralPaths
+(
 )
 ;
 setupUpdaterTest

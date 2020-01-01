@@ -1232,6 +1232,10 @@ do_register_cleanup
 cleanupUpdaterTest
 )
 ;
+adjustGeneralPaths
+(
+)
+;
 setupUpdaterTest
 (
 MAR_COMPLETE_FILE

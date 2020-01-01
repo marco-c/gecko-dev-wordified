@@ -97,6 +97,13 @@ tested
 /
 2152398918
 2152398861
+const
+TEST_ID
+=
+"
+0050
+"
+;
 var
 gNextRunFunc
 ;
@@ -118,6 +125,10 @@ do_test_pending
 do_register_cleanup
 (
 end_test
+)
+;
+adjustGeneralPaths
+(
 )
 ;
 removeUpdateDirsAndFiles

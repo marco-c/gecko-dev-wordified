@@ -1419,6 +1419,10 @@ do_register_cleanup
 cleanupUpdaterTest
 )
 ;
+adjustGeneralPaths
+(
+)
+;
 setupUpdaterTest
 (
 MAR_IN_USE_WIN_FILE

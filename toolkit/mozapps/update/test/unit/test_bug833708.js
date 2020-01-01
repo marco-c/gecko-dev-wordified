@@ -76,6 +76,13 @@ jsm
 )
 ;
 const
+TEST_ID
+=
+"
+bug794211
+"
+;
+const
 KEY_UPDATE_ARCHIVE_DIR
 =
 "
@@ -183,6 +190,10 @@ end_test
 DEBUG_AUS_TEST
 =
 true
+;
+adjustGeneralPaths
+(
+)
 ;
 removeUpdateDirsAndFiles
 (
