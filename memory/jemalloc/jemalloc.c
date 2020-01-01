@@ -7334,7 +7334,7 @@ static
 bool
 opt_pagefile
 =
-true
+false
 ;
 #
 endif
