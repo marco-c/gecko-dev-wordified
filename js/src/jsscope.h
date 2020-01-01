@@ -6431,6 +6431,7 @@ Lookup
 getLookup
 (
 )
+const
 ;
 static
 inline
