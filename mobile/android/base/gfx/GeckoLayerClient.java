@@ -2762,9 +2762,11 @@ ourZoom
 =
 mLayerController
 .
-getZoomFactor
+getViewportMetrics
 (
 )
+.
+zoomFactor
 ;
 mLayerController
 .
