@@ -10537,6 +10537,9 @@ case
 LIR_sts
 :
 case
+LIR_st32f
+:
+case
 LIR_eq
 :
 case
