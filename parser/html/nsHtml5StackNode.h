@@ -465,6 +465,11 @@ isFosterParenting
 (
 )
 ;
+PRBool
+isHtmlIntegrationPoint
+(
+)
+;
 nsHtml5StackNode
 (
 PRInt32
@@ -571,6 +576,8 @@ prepareMathFlags
 (
 PRInt32
 flags
+PRBool
+markAsIntegrationPoint
 )
 ;
 public
