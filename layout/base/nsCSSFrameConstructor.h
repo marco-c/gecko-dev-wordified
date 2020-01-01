@@ -2770,6 +2770,8 @@ aStyleDisplay
 nsFrameItems
 &
 aFrameItems
+PRBool
+aHasPseudoParent
 )
 ;
 /
@@ -3377,6 +3379,8 @@ aAddedToFrameList
 nsFrameItems
 &
 aFrameItems
+PRBool
+aHasPseudoParent
 )
 ;
 /
