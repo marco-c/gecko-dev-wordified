@@ -1777,15 +1777,6 @@ return
 mClipSubdocument
 ;
 }
-bool
-ShouldClampScrollPosition
-(
-)
-{
-return
-mClampScrollPosition
-;
-}
 private
 :
 bool
@@ -2104,11 +2095,6 @@ mRemoteFrame
 ;
 bool
 mClipSubdocument
-:
-1
-;
-bool
-mClampScrollPosition
 :
 1
 ;
