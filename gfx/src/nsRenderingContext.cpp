@@ -871,7 +871,7 @@ nsRenderingContext
 :
 Init
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 gfxASurface
@@ -896,7 +896,7 @@ nsRenderingContext
 :
 Init
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 gfxContext

@@ -481,7 +481,7 @@ class
 nsRenderingContext
 ;
 class
-nsIDeviceContext
+nsDeviceContext
 ;
 class
 nsIFrame
@@ -865,7 +865,7 @@ pixels
 NS_IMETHOD
 GetWidgetBorder
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame
@@ -963,7 +963,7 @@ virtual
 PRBool
 GetWidgetPadding
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame
@@ -1068,7 +1068,7 @@ virtual
 PRBool
 GetWidgetOverflow
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame

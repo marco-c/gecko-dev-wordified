@@ -468,13 +468,10 @@ class
 nsIAtom
 ;
 class
-nsIDeviceContext
+nsDeviceContext
 ;
 class
 nsRenderingContext
-;
-class
-nsThebesDeviceContext
 ;
 struct
 nsBoundingMetrics
@@ -717,7 +714,7 @@ initialized
 *
 *
 see
-nsIDeviceContext
+nsDeviceContext
 #
 GetMetricsFor
 (
@@ -734,7 +731,7 @@ aFont
 nsIAtom
 *
 aLanguage
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 gfxUserFontSet
@@ -1568,7 +1565,7 @@ nsIAtom
 >
 mLanguage
 ;
-nsThebesDeviceContext
+nsDeviceContext
 *
 mDeviceContext
 ;

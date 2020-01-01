@@ -2124,6 +2124,8 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
 mDocument
 )
 ;
+/
+/
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_RAWPTR
 (
 mDeviceContext
@@ -2131,9 +2133,8 @@ mDeviceContext
 ;
 /
 /
-worth
-bothering
-?
+not
+xpcom
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_RAWPTR
 (
 mEventManager

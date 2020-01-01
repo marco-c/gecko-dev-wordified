@@ -439,7 +439,7 @@ h
 #
 include
 "
-nsIDeviceContext
+nsDeviceContext
 .
 h
 "
@@ -807,7 +807,7 @@ NSAppUnitsToFloatPixels
 rect
 .
 x
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSPixel
@@ -833,7 +833,7 @@ NSAppUnitsToFloatPixels
 rect
 .
 y
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSPixel
@@ -859,7 +859,7 @@ NSAppUnitsToFloatPixels
 rect
 .
 width
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSPixel
@@ -885,7 +885,7 @@ NSAppUnitsToFloatPixels
 rect
 .
 height
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSPixel

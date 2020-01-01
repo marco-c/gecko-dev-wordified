@@ -513,7 +513,7 @@ errors
 /
 /
 *
-nsIDeviceContext
+nsIDeviceContextSpec
 .
 h
 defines
