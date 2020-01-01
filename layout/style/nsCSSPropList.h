@@ -5238,8 +5238,14 @@ Font
 mSizeAdjust
 eCSSType_Value
 nsnull
-CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+offsetof
+(
+nsStyleFont
+mFont
+.
+sizeAdjust
+)
+eStyleAnimType_float
 )
 CSS_PROP_FONT
 (
