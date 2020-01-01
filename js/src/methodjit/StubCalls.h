@@ -647,6 +647,15 @@ f
 ;
 void
 JS_FASTCALL
+CallElem
+(
+VMFrame
+&
+f
+)
+;
+void
+JS_FASTCALL
 SetElem
 (
 VMFrame
