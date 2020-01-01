@@ -2981,7 +2981,7 @@ addEventListener
 mousedown
 "
 this
-true
+false
 )
 ;
 this
