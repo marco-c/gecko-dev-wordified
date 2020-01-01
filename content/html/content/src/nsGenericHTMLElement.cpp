@@ -5880,6 +5880,8 @@ eInherit
 {
 SetEditableFlag
 (
+!
+!
 value
 )
 ;
@@ -10140,6 +10142,8 @@ eInherit
 {
 SetEditableFlag
 (
+!
+!
 value
 )
 ;

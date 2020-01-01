@@ -3364,6 +3364,9 @@ aFlag
 )
 {
 return
+!
+!
+(
 GetFlags
 (
 )
@@ -3373,6 +3376,7 @@ aFlag
 <
 <
 XUL_ELEMENT_LAZY_STATE_OFFSET
+)
 )
 ;
 }

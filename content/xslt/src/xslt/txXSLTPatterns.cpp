@@ -2770,7 +2770,7 @@ nodes
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+MB_FALSE
 )
 ;
 PRBool
@@ -2877,7 +2877,7 @@ newNodes
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+MB_FALSE
 )
 ;
 PRUint32
