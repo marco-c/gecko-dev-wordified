@@ -1227,6 +1227,17 @@ aWhiteDT
 )
 ;
 virtual
+bool
+SupportsAzureContent
+(
+)
+const
+{
+return
+true
+;
+}
+virtual
 TextureInfo
 GetTextureInfo
 (
