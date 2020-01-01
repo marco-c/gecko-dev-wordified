@@ -6202,6 +6202,13 @@ ping
 )
 GK_ATOM
 (
+pinned
+"
+pinned
+"
+)
+GK_ATOM
+(
 placeholder
 "
 placeholder
