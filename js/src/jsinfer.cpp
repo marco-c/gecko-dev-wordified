@@ -23106,13 +23106,7 @@ case
 JSOP_NAME
 :
 case
-JSOP_INTRINSICNAME
-:
-case
 JSOP_CALLNAME
-:
-case
-JSOP_CALLINTRINSIC
 :
 {
 TypeSet
@@ -23156,12 +23150,6 @@ op
 =
 =
 JSOP_CALLNAME
-|
-|
-op
-=
-=
-JSOP_CALLINTRINSIC
 )
 pushed
 [

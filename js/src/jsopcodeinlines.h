@@ -90,12 +90,6 @@ MPL
 *
 /
 #
-ifndef
-jsopcodeinlines_h__
-#
-define
-jsopcodeinlines_h__
-#
 include
 "
 jsautooplen
@@ -787,10 +781,3 @@ lineno
 }
 ;
 }
-#
-endif
-/
-*
-jsopcodeinlines_h__
-*
-/

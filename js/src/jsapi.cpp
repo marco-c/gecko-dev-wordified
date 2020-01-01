@@ -27874,10 +27874,6 @@ hasRunOption
 JSOPTION_NO_SCRIPT_RVAL
 )
 )
-allowIntrinsicsCalls
-(
-false
-)
 {
 }
 JSScript
