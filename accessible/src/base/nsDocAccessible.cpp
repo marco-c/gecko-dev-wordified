@@ -9252,6 +9252,7 @@ domNode
 gLastFocusedNode
 &
 &
+(
 eventType
 =
 =
@@ -9268,6 +9269,7 @@ nsIAccessibleEvent
 :
 :
 EVENT_ASYNCH_SHOW
+)
 )
 {
 /
