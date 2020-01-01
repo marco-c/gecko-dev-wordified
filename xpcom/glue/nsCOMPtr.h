@@ -2205,7 +2205,6 @@ do
 here
 }
 NS_COM_GLUE
-NS_CONSTRUCTOR_FASTCALL
 ~
 nsCOMPtr_base
 (
