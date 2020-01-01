@@ -34258,14 +34258,14 @@ return
 true
 ;
 }
-if
+JS_ASSERT
 (
 JSVAL_IS_STRING
 (
 v
 )
 )
-{
+;
 set
 (
 &
@@ -34311,10 +34311,6 @@ JSSTRING_LENGTH_MASK
 ;
 return
 true
-;
-}
-return
-false
 ;
 }
 bool
