@@ -565,6 +565,9 @@ aBoundNode
 nsIURI
 *
 aBindingDocURI
+PRBool
+*
+aDidInstall
 )
 const
 ;
