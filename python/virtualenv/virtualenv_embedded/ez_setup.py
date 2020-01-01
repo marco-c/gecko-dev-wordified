@@ -1236,18 +1236,8 @@ except
 pkg_resources
 .
 VersionConflict
-:
-        
 e
-=
-sys
-.
-exc_info
-(
-)
-[
-1
-]
+:
         
 if
 was_imported
@@ -2201,7 +2191,6 @@ else
 :
             
 print
-(
 "
 Setuptools
 version
@@ -2215,10 +2204,8 @@ been
 installed
 .
 "
-)
             
 print
-(
 '
 (
 Run
@@ -2237,7 +2224,6 @@ upgrade
 .
 )
 '
-)
 def
 update_md5
 (
