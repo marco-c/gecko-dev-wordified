@@ -6496,10 +6496,12 @@ take
 ;
 return
 (
-ret
-=
-=
 EMPTY_STRING
+.
+equals
+(
+ret
+)
 ?
 null
 :
