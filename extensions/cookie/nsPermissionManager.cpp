@@ -1233,10 +1233,15 @@ mLargestID
 (
 0
 )
+#
+ifdef
+MOZ_IPC
 mUpdateChildProcess
 (
 PR_FALSE
 )
+#
+endif
 {
 }
 nsPermissionManager
