@@ -373,6 +373,13 @@ function
 )
 {
 }
+setSha256Hash
+:
+function
+(
+)
+{
+}
 }
 ;
 /
