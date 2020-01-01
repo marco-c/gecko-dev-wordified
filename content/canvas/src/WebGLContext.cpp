@@ -4422,10 +4422,6 @@ nsIDOMWebGLRenderingContext
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIDOMWebGLRenderingContext_MOZILLA_2_0_BRANCH
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsICanvasRenderingContextInternal
 )
 NS_INTERFACE_MAP_ENTRY
