@@ -4129,6 +4129,7 @@ nsDocAccessible
 GetFrame
 (
 )
+const
 {
 nsCOMPtr
 <

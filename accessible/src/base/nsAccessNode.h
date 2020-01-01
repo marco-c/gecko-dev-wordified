@@ -897,6 +897,7 @@ nsIFrame
 GetFrame
 (
 )
+const
 ;
 /
 *

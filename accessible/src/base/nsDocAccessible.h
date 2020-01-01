@@ -738,6 +738,7 @@ nsIFrame
 GetFrame
 (
 )
+const
 ;
 virtual
 PRBool

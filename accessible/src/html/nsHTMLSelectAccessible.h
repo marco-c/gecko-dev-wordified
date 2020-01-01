@@ -1387,6 +1387,7 @@ nsIFrame
 GetFrame
 (
 )
+const
 ;
 virtual
 bool
