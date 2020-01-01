@@ -3658,7 +3658,6 @@ family
 name
 static
 PLDHashOperator
-PR_CALLBACK
 FindFullName
 (
 nsStringHashKey

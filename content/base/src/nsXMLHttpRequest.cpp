@@ -5116,7 +5116,6 @@ Clear
 static
 *
 /
-PR_CALLBACK
 PLDHashOperator
 nsAccessControlLRUCache
 :
