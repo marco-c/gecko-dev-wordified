@@ -1246,7 +1246,14 @@ mDeviceInstance
 ;
 }
 }
-}
+if
+(
+SUCCEEDED
+(
+hr
+)
+)
+{
 mDeviceInstance
 -
 >
@@ -1255,6 +1262,8 @@ IASetPrimitiveTopology
 D3D10_PRIMITIVE_TOPOLOGY_LINESTRIP
 )
 ;
+}
+}
 }
 return
 mDeviceInstance

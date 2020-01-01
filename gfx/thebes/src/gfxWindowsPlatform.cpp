@@ -1080,6 +1080,17 @@ return
 ;
 #
 else
+if
+(
+!
+cairo_d2d_has_support
+(
+)
+)
+{
+return
+;
+}
 #
 ifdef
 CAIRO_HAS_DWRITE_FONT
