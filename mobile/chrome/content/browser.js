@@ -8947,6 +8947,7 @@ BrowserUI
 .
 popPopup
 (
+this
 )
 ;
 }
@@ -12461,6 +12462,7 @@ BrowserUI
 .
 popPopup
 (
+this
 )
 ;
 BrowserUI
