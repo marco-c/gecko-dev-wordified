@@ -10103,6 +10103,12 @@ scope
 >
 GetWrappedNativeProtoMap
 (
+proto
+-
+>
+ClassIsMainThreadOnly
+(
+)
 )
 ;
 XPCLock
