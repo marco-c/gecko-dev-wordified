@@ -550,7 +550,9 @@ XP_MACOSX
 #
 include
 <
-CFBundle
+CoreFoundation
+/
+CoreFoundation
 .
 h
 >

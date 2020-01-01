@@ -1253,14 +1253,9 @@ XP_MACOSX
 #
 include
 <
-Processes
-.
-h
->
-#
-include
-<
-Events
+Carbon
+/
+Carbon
 .
 h
 >

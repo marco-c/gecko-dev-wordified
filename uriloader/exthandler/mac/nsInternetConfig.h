@@ -431,7 +431,9 @@ __NS_INTERNETCONFIG_H__
 #
 include
 <
-InternetConfig
+Carbon
+/
+Carbon
 .
 h
 >
