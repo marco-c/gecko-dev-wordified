@@ -3845,6 +3845,10 @@ mRandomStatement
 =
 nsnull
 ;
+mGetPageSizeStatement
+=
+nsnull
+;
 mConnection
 =
 nsnull
@@ -18012,7 +18016,7 @@ sqlite
 PRUint32
 pageSize
 =
-mGetTableIdStatement
+mGetPageSizeStatement
 -
 >
 AsInt32
