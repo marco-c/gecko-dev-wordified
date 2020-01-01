@@ -2070,6 +2070,9 @@ versions
 #
 ifdef
 __cplusplus
+class
+nsCycleCollectionParticipant
+;
 XPCOM_API
 (
 bool
@@ -2099,9 +2102,12 @@ nsPurpleBufferEntry
 )
 NS_CycleCollectorSuspect2
 (
-nsISupports
+void
 *
 n
+nsCycleCollectionParticipant
+*
+p
 )
 ;
 XPCOM_API
