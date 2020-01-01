@@ -2282,7 +2282,7 @@ text
 plain
 "
 :
-aContentType
+null
 target
 :
 fileURL
