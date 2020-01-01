@@ -4278,7 +4278,7 @@ nativeFont
 GetAdjustedSize
 (
 )
-GetCairoScaledFont
+CairoScaledFont
 (
 )
 )
