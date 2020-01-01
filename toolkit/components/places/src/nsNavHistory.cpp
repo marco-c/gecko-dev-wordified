@@ -50420,6 +50420,7 @@ mDBInvalidFrecencies
 mDBOldFrecencies
 mDBCurrentQuery
 mDBAutoCompleteQuery
+mDBAutoCompleteTypedQuery
 mDBAutoCompleteHistoryQuery
 mDBAutoCompleteStarQuery
 mDBAutoCompleteTagsQuery
