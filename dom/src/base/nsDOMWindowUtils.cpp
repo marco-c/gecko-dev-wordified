@@ -2277,8 +2277,12 @@ NS_IMETHODIMP
 nsDOMWindowUtils
 :
 :
-ForceNativeMenuReload
+ForceUpdateNativeMenuAt
 (
+const
+nsAString
+&
+indexString
 )
 {
 PRBool
@@ -2347,8 +2351,9 @@ return
 widget
 -
 >
-ForceNativeMenuReload
+ForceUpdateNativeMenuAt
 (
+indexString
 )
 ;
 }

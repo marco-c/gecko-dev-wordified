@@ -2960,8 +2960,12 @@ indexString
 )
 ;
 NS_IMETHOD
-ForceNativeMenuReload
+ForceUpdateNativeMenuAt
 (
+const
+nsAString
+&
+indexString
 )
 ;
 NS_IMETHOD
