@@ -16315,6 +16315,13 @@ IonRuntime
 *
 irt
 =
+(
+ictx
+!
+=
+NULL
+)
+?
 ictx
 -
 >
@@ -16324,6 +16331,8 @@ runtime
 ionRuntime
 (
 )
+:
+NULL
 ;
 if
 (
