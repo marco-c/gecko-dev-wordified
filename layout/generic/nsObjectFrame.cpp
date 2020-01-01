@@ -20332,6 +20332,14 @@ nsGkAtoms
 data
 data
 )
+&
+&
+!
+data
+.
+IsEmpty
+(
+)
 )
 {
 mNumCachedAttrs
