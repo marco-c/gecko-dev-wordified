@@ -618,7 +618,9 @@ NULL
 endif
 propertyTree
 (
-this
+thisForCtor
+(
+)
 )
 debugMode
 (
