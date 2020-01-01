@@ -523,6 +523,13 @@ Qt
 :
 Key_Tab
 }
+{
+NS_VK_TAB
+Qt
+:
+:
+Key_Backtab
+}
 /
 /
 {
