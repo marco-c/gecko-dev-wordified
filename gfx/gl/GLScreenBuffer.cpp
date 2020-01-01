@@ -348,6 +348,7 @@ caps
 .
 preserve
 )
+gl
 nullptr
 )
 ;
@@ -1721,6 +1722,7 @@ SurfaceStream
 CreateForType
 (
 streamType
+mGL
 mStream
 )
 ;
