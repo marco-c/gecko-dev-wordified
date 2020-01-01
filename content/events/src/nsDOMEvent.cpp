@@ -4165,6 +4165,16 @@ customizedByUserPrefs
 wheelEvent
 -
 >
+isMomentum
+=
+oldWheelEvent
+-
+>
+isMomentum
+;
+wheelEvent
+-
+>
 isPixelOnlyDevice
 =
 oldWheelEvent
