@@ -110,7 +110,7 @@ class
 nsDisplayListBuilder
 ;
 class
-nsDisplayBackground
+nsDisplayBackgroundImage
 ;
 /
 *
@@ -407,7 +407,7 @@ public
 :
 nsDisplayBackgroundGeometry
 (
-nsDisplayBackground
+nsDisplayBackgroundImage
 *
 aItem
 nsDisplayListBuilder
