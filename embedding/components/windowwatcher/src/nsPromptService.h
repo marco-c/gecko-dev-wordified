@@ -515,13 +515,6 @@ h
 #
 include
 "
-nsINonBlockingAlertService
-.
-h
-"
-#
-include
-"
 nsIWindowWatcher
 .
 h
@@ -546,8 +539,6 @@ public
 nsIPromptService2
 public
 nsPIPromptService
-public
-nsINonBlockingAlertService
 {
 public
 :
@@ -569,7 +560,6 @@ Init
 NS_DECL_NSIPROMPTSERVICE
 NS_DECL_NSIPROMPTSERVICE2
 NS_DECL_NSPIPROMPTSERVICE
-NS_DECL_NSINONBLOCKINGALERTSERVICE
 NS_DECL_ISUPPORTS
 private
 :
