@@ -1704,6 +1704,17 @@ else
 /
 Unix
 #
+include
+<
+limits
+.
+h
+>
+/
+/
+for
+PATH_MAX
+#
 define
 XPCOM_DLL
 "
