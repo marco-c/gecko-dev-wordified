@@ -482,6 +482,13 @@ SVGAnimatedPreserveAspectRatio
 .
 h
 "
+#
+include
+"
+gfxMatrix
+.
+h
+"
 class
 nsSVGOrientType
 {
@@ -1089,9 +1096,9 @@ nsSVGSVGElement
 *
 mCoordCtx
 ;
-nsCOMPtr
+nsAutoPtr
 <
-nsIDOMSVGMatrix
+gfxMatrix
 >
 mViewBoxToViewportTransform
 ;

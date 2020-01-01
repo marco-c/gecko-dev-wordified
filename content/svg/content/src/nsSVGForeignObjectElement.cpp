@@ -454,13 +454,6 @@ nsSVGForeignObjectElement
 .
 h
 "
-#
-include
-"
-nsSVGMatrix
-.
-h
-"
 nsSVGElement
 :
 :
