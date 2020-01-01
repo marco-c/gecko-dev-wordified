@@ -1396,7 +1396,6 @@ function
 Trench_rectOverlaps
 (
 rect
-edge
 assumeConstantSize
 keepProportional
 )
