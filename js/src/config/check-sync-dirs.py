@@ -668,6 +668,7 @@ cmp
 (
 relative_name
 original_name
+False
 )
 )
 :
