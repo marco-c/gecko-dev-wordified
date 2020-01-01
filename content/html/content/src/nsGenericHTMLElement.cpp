@@ -630,7 +630,7 @@ h
 #
 include
 "
-nsHTMLFieldSetElement
+HTMLFieldSetElement
 .
 h
 "
@@ -16420,11 +16420,11 @@ GetParent
 )
 )
 {
-nsHTMLFieldSetElement
+HTMLFieldSetElement
 *
 fieldset
 =
-nsHTMLFieldSetElement
+HTMLFieldSetElement
 :
 :
 FromContent

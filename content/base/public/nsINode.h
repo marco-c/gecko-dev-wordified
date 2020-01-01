@@ -2015,7 +2015,7 @@ mOptions
 /
 /
 -
-nsHTMLFieldSetElement
+HTMLFieldSetElement
 :
 mElements
 mDependentElements
