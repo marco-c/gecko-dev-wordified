@@ -10152,6 +10152,13 @@ ngvars
 cg
 -
 >
+regexpList
+.
+length
++
+cg
+-
+>
 sharpSlots
 (
 )
