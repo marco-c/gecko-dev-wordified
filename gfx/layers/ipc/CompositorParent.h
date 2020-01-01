@@ -516,12 +516,12 @@ CompositorParent
 )
 ;
 bool
-AnswerInit
+RecvInit
 (
 )
 ;
 bool
-AnswerStop
+RecvStop
 (
 )
 ;
@@ -591,8 +591,10 @@ Composite
 (
 )
 ;
+nsRefPtr
+<
 LayerManager
-*
+>
 mLayerManager
 ;
 DISALLOW_EVIL_CONSTRUCTORS
