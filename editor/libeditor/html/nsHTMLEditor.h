@@ -3123,6 +3123,14 @@ nsIDOMNode
 aNode
 )
 ;
+bool
+IsNodeInActiveEditor
+(
+nsINode
+*
+aNode
+)
+;
 /
 /
 key
