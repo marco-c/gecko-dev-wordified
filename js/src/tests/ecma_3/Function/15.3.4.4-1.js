@@ -1129,6 +1129,18 @@ addThis
 (
 )
 ;
+if
+(
+typeof
+newGlobal
+=
+=
+=
+"
+function
+"
+)
+{
 /
 *
 *
@@ -1197,6 +1209,7 @@ addThis
 (
 )
 ;
+}
 /
 /
 -
