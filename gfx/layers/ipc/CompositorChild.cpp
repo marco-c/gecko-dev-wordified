@@ -492,8 +492,6 @@ uint64_t
 aId
 TextureFactoryIdentifier
 *
-bool
-*
 )
 {
 return
