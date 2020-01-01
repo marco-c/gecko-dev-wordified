@@ -113,13 +113,6 @@ imgStatusTracker
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 namespace
 mozilla
 {
