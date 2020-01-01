@@ -120,11 +120,9 @@ j
 assertEq
 (
 s
-.
-get
-(
+[
 j
-)
+]
 .
 shape
 .

@@ -273,15 +273,6 @@ prototype
 bind
 ;
 var
-std_Function_apply
-=
-Function
-.
-prototype
-.
-apply
-;
-var
 std_Math_floor
 =
 Math

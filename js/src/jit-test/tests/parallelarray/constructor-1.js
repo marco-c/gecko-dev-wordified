@@ -3,9 +3,7 @@ load
 libdir
 +
 "
-parallelarray
--
-helpers
+eqArrayHelper
 .
 js
 "
@@ -40,7 +38,7 @@ ParallelArray
 a
 )
 ;
-assertEqParallelArrayArray
+assertEqArray
 (
 p
 a
@@ -66,7 +64,7 @@ a
 /
 No
 sharing
-assertEqParallelArrayArray
+assertEqArray
 (
 p
 a2
