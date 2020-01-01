@@ -1747,7 +1747,7 @@ transform
 ctx
 -
 >
-SetMatrix
+Multiply
 (
 GetImageTransform
 (
