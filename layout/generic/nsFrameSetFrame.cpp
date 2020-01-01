@@ -2060,14 +2060,7 @@ AttributeWillChange
 frame
 -
 >
-GetContent
-(
-)
--
->
-AsElement
-(
-)
+mContent
 kNameSpaceID_None
 nsGkAtoms
 :

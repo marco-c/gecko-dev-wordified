@@ -859,9 +859,9 @@ nsNodeUtils
 :
 AttributeWillChange
 (
-Element
+nsIContent
 *
-aElement
+aContent
 PRInt32
 aNameSpaceID
 nsIAtom
@@ -875,7 +875,7 @@ nsIDocument
 *
 doc
 =
-aElement
+aContent
 -
 >
 GetOwnerDoc
@@ -885,10 +885,10 @@ GetOwnerDoc
 IMPL_MUTATION_NOTIFICATION
 (
 AttributeWillChange
-aElement
+aContent
 (
 doc
-aElement
+aContent
 aNameSpaceID
 aAttribute
 aModType

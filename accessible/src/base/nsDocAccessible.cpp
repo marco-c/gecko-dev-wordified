@@ -5539,12 +5539,9 @@ AttributeWillChange
 nsIDocument
 *
 aDocument
-dom
-:
-:
-Element
+nsIContent
 *
-aElement
+aContent
 PRInt32
 aNameSpaceID
 nsIAtom

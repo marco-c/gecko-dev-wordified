@@ -29425,9 +29425,9 @@ AttributeWillChange
 nsIDocument
 *
 aDocument
-Element
+nsIContent
 *
-aElement
+aContent
 PRInt32
 aNameSpaceID
 nsIAtom
@@ -29443,7 +29443,7 @@ NS_PRECONDITION
 mIsDocumentGone
 "
 Unexpected
-AttributeWillChange
+AttributeChanged
 "
 )
 ;
@@ -29510,7 +29510,7 @@ mFrameConstructor
 >
 AttributeWillChange
 (
-aElement
+aContent
 aNameSpaceID
 aAttribute
 aModType
