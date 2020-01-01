@@ -4432,6 +4432,12 @@ mPkcs11
 ;
 nsCOMPtr
 <
+nsIDOMStorage2
+>
+mLocalStorage
+;
+nsCOMPtr
+<
 nsISupports
 >
 mInnerWindowHolders

@@ -6349,14 +6349,11 @@ newDocShell
 >
 AddSessionStorage
 (
-NS_ConvertUTF16toUTF8
-(
 piStorage
 -
 >
 Domain
 (
-)
 )
 storage
 )

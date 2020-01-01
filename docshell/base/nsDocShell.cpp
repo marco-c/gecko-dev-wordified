@@ -10217,13 +10217,9 @@ NS_ERROR_FAILURE
 pistorage
 -
 >
-Init
+InitAsSessionStorage
 (
-NS_ConvertUTF8toUTF16
-(
-currentDomain
-)
-PR_FALSE
+aURI
 )
 ;
 if
