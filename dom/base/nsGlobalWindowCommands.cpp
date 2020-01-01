@@ -447,7 +447,9 @@ h
 #
 include
 "
-nsContentUtils
+mozilla
+/
+Preferences
 .
 h
 "
@@ -556,6 +558,10 @@ nsIClipboardDragDropHookList
 .
 h
 "
+using
+namespace
+mozilla
+;
 const
 char
 *
@@ -1551,10 +1557,10 @@ caretOn
 {
 caretOn
 =
-nsContentUtils
+Preferences
 :
 :
-GetBoolPref
+GetBool
 (
 "
 accessibility
