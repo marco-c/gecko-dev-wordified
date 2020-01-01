@@ -3928,6 +3928,8 @@ aState
 nsHTMLReflowMetrics
 &
 aMetrics
+nscoord
+aLineTop
 )
 ;
 /
