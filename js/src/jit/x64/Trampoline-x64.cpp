@@ -4018,6 +4018,13 @@ cxreg
 =
 IntArgReg0
 ;
+regs
+.
+take
+(
+cxreg
+)
+;
 /
 /
 Stack
