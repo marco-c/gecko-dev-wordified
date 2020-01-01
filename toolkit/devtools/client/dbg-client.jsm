@@ -11439,6 +11439,14 @@ return
 ;
 }
 let
+{
+contentType
+source
+}
+=
+aResponse
+;
+let
 longString
 =
 this
@@ -11449,8 +11457,6 @@ activeThread
 .
 threadLongString
 (
-aResponse
-.
 source
 )
 ;
@@ -11490,6 +11496,9 @@ source
 aResponse
 .
 substring
+contentType
+:
+contentType
 }
 )
 ;
