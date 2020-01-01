@@ -536,6 +536,17 @@ aClosure
 protected
 :
 void
+FireNeedsCalibration
+(
+nsIDOMDocument
+*
+domdoc
+nsIDOMEventTarget
+*
+target
+)
+;
+void
 FireDOMOrientationEvent
 (
 class
