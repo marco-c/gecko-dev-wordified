@@ -131,6 +131,15 @@ h
 #
 include
 "
+js
+/
+CharacterEncoding
+.
+h
+"
+#
+include
+"
 nsUnicharUtils
 .
 h
