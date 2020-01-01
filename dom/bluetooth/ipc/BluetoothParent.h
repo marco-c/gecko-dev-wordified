@@ -953,6 +953,15 @@ SendFileRequest
 aRequest
 )
 ;
+bool
+DoRequest
+(
+const
+StopSendingFileRequest
+&
+aRequest
+)
+;
 }
 ;
 END_BLUETOOTH_NAMESPACE
