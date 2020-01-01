@@ -701,10 +701,12 @@ keyHash
 =
 0
 ;
+assignT
+(
 t
-=
 T
 (
+)
 )
 ;
 }
@@ -730,10 +732,12 @@ keyHash
 =
 1
 ;
+assignT
+(
 t
-=
 T
 (
+)
 )
 ;
 }
