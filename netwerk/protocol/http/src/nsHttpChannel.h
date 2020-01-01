@@ -1187,6 +1187,8 @@ nsIChannel
 *
 PRBool
 preserveMethod
+PRBool
+transferCacheKey
 )
 ;
 /
