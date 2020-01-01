@@ -114,6 +114,7 @@ if
 !
 shouldRunServiceTest
 (
+true
 )
 )
 {
