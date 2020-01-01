@@ -1163,6 +1163,14 @@ child
 or
 parent
 ?
+CancelableTask
+*
+mChannelErrorTask
+;
+/
+/
+NotifyMaybeChannelError
+runnable
 }
 ;
 }
