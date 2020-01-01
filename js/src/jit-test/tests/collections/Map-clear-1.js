@@ -42,8 +42,6 @@ assertEq
 m
 .
 size
-(
-)
 0
 )
 ;

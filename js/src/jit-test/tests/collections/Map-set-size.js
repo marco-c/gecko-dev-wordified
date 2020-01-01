@@ -45,8 +45,6 @@ assertEq
 m
 .
 size
-(
-)
 1
 )
 ;
@@ -65,8 +63,6 @@ assertEq
 m
 .
 size
-(
-)
 1
 )
 ;
@@ -85,8 +81,6 @@ assertEq
 m
 .
 size
-(
-)
 1
 )
 ;
@@ -105,8 +99,6 @@ assertEq
 m
 .
 size
-(
-)
 2
 )
 ;
@@ -125,8 +117,6 @@ assertEq
 m
 .
 size
-(
-)
 2
 )
 ;

@@ -88,8 +88,6 @@ assertEq
 set
 .
 size
-(
-)
 6
 )
 ;

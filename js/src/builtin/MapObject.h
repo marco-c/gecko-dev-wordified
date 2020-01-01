@@ -530,6 +530,12 @@ class_
 private
 :
 static
+JSPropertySpec
+properties
+[
+]
+;
+static
 JSFunctionSpec
 methods
 [
@@ -813,6 +819,12 @@ class_
 ;
 private
 :
+static
+JSPropertySpec
+properties
+[
+]
+;
 static
 JSFunctionSpec
 methods

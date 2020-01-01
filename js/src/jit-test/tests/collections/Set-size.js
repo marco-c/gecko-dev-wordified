@@ -46,8 +46,6 @@ assertEq
 s1
 .
 size
-(
-)
 30
 )
 ;
@@ -56,8 +54,6 @@ assertEq
 s2
 .
 size
-(
-)
 0
 )
 ;

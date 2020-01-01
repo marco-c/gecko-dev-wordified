@@ -31,8 +31,6 @@ testing
 )
 .
 size
-(
-)
 2
 )
 ;
@@ -103,8 +101,6 @@ assertEq
 s
 .
 size
-(
-)
 5
 )
 ;

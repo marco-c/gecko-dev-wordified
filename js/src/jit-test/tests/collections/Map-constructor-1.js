@@ -17,8 +17,6 @@ Map
 )
 .
 size
-(
-)
 0
 )
 ;
@@ -30,8 +28,6 @@ Map
 )
 .
 size
-(
-)
 0
 )
 ;
@@ -43,8 +39,6 @@ undefined
 )
 .
 size
-(
-)
 0
 )
 ;
@@ -57,8 +51,6 @@ undefined
 )
 .
 size
-(
-)
 0
 )
 ;

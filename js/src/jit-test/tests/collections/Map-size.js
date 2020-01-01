@@ -34,8 +34,6 @@ assertEq
 m1
 .
 size
-(
-)
 1
 )
 ;
@@ -44,8 +42,6 @@ assertEq
 m2
 .
 size
-(
-)
 0
 )
 ;

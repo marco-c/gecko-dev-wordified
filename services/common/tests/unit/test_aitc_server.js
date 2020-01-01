@@ -970,8 +970,6 @@ do_check_eq
 allowed
 .
 size
-(
-)
 3
 )
 ;

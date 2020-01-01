@@ -116,8 +116,6 @@ assertEq
 map
 .
 size
-(
-)
 6
 )
 ;

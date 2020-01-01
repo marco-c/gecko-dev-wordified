@@ -43,8 +43,6 @@ assertEq
 set
 .
 size
-(
-)
 arr
 .
 length
