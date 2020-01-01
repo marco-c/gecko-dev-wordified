@@ -9036,11 +9036,6 @@ errorNumber
 ;
 private
 :
-bool
-maybeNoteGenerator
-(
-)
-;
 /
 *
 *
