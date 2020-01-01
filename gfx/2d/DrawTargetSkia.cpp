@@ -3795,8 +3795,10 @@ InitWithFBO
 unsigned
 int
 aFBOID
+SkRefPtr
+<
 GrContext
-*
+>
 aGrContext
 const
 IntSize
@@ -3806,6 +3808,10 @@ SurfaceFormat
 aFormat
 )
 {
+mGrContext
+=
+aGrContext
+;
 GrPlatformRenderTargetDesc
 targetDescriptor
 ;
@@ -3870,7 +3876,11 @@ device
 new
 SkGpuDevice
 (
-aGrContext
+mGrContext
+.
+get
+(
+)
 target
 .
 get

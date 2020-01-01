@@ -2233,8 +2233,10 @@ CreateSkiaDrawTargetForFBO
 unsigned
 int
 aFBOID
+SkRefPtr
+<
 GrContext
-*
+>
 aGrContext
 const
 IntSize
