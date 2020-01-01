@@ -159,7 +159,7 @@ h
 elif
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 #
 include
@@ -1382,7 +1382,7 @@ gfxPlatformMac
 elif
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 gPlatform
 =

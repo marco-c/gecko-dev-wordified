@@ -95,7 +95,7 @@ MPL
 /
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 #
 include
 <
@@ -292,7 +292,7 @@ h
 "
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 #
 include
 "
@@ -1632,7 +1632,7 @@ xGetProcAddress
 {
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 mUseTextureFromPixmap
 =
 gfxPlatformGtk
