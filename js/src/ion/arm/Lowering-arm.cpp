@@ -560,7 +560,7 @@ LUse
 mir
 -
 >
-id
+virtualRegister
 (
 )
 policy
@@ -1986,7 +1986,7 @@ LUse
 operand
 -
 >
-id
+virtualRegister
 (
 )
 +
