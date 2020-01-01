@@ -929,8 +929,14 @@ GetInterface
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
 JSObject
-&
+*
+>
 aIID
 ErrorResult
 &
