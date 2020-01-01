@@ -2633,12 +2633,7 @@ Exit
 OrientationObserver
 :
 :
-GetInstance
-(
-)
--
->
-DisableAutoOrientation
+ShutDown
 (
 )
 ;
