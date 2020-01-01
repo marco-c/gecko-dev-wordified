@@ -628,11 +628,13 @@ MediaProfiles
 *
 mMediaProfiles
 ;
+nsRefPtr
+<
 android
 :
 :
 GonkRecorder
-*
+>
 mRecorder
 ;
 /

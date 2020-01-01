@@ -525,7 +525,7 @@ false
 )
 ;
 virtual
-void
+int
 startCameraRecording
 (
 )
