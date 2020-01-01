@@ -259,7 +259,12 @@ name
 "
 )
 .
-textContent
+getAttribute
+(
+"
+value
+"
+)
 "
 something
 "
