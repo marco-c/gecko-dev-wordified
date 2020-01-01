@@ -6299,9 +6299,6 @@ v
 ;
 if
 (
-vp
-&
-&
 !
 JS_InstanceOf
 (
@@ -6310,8 +6307,12 @@ obj
 &
 js_DateClass
 vp
+?
+vp
 +
 2
+:
+NULL
 )
 )
 return
