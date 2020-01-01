@@ -2252,7 +2252,7 @@ popped
 )
 frame
 .
-pushNumber
+pushInt32
 (
 data
 )
