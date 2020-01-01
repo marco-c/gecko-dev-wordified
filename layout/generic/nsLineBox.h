@@ -3038,6 +3038,10 @@ adjacent
 to
 this
 line
+and
+non
+-
+empty
 .
 PRUint32
 mHasBullet
