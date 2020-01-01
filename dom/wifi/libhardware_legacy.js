@@ -256,7 +256,7 @@ ctypes
 default_abi
 ctypes
 .
-int
+void_t
 )
 /
 /
