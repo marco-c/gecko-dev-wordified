@@ -1018,7 +1018,7 @@ Contenteditable
 should
 disregard
 mousedowns
-outwith
+outside
 it
 if
 (
