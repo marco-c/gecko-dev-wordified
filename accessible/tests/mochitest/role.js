@@ -195,6 +195,13 @@ nsIAccessibleRole
 ROLE_IMAGE_MAP
 ;
 const
+ROLE_INDICATOR
+=
+nsIAccessibleRole
+.
+ROLE_INDICATOR
+;
+const
 ROLE_INTERNAL_FRAME
 =
 nsIAccessibleRole
@@ -277,6 +284,13 @@ ROLE_ROW
 nsIAccessibleRole
 .
 ROLE_ROW
+;
+const
+ROLE_SCROLLBAR
+=
+nsIAccessibleRole
+.
+ROLE_SCROLLBAR
 ;
 const
 ROLE_SECTION
