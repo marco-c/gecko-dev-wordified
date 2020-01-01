@@ -5143,6 +5143,15 @@ caretRect
 )
 )
 ;
+this
+.
+_updateSuggestionsFor
+(
+this
+.
+_currentElement
+)
+;
 /
 /
 Prevent
