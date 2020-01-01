@@ -784,7 +784,7 @@ true
 )
 gvnIsOptimistic
 (
-false
+true
 )
 licm
 (
