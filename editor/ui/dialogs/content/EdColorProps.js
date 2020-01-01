@@ -521,7 +521,7 @@ prefs
 ?
 ?
 ?
-const
+var
 defaultTextColor
 =
 "
@@ -529,7 +529,7 @@ defaultTextColor
 000000
 "
 ;
-const
+var
 defaultLinkColor
 =
 "
@@ -537,7 +537,7 @@ defaultLinkColor
 000099
 "
 ;
-const
+var
 defaultActiveColor
 =
 "
@@ -545,7 +545,7 @@ defaultActiveColor
 000099
 "
 ;
-const
+var
 defaultVisitedColor
 =
 "
@@ -553,7 +553,7 @@ defaultVisitedColor
 990099
 "
 ;
-const
+var
 defaultBackgroundColor
 =
 "
