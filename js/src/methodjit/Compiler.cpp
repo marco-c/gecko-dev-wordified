@@ -28125,6 +28125,14 @@ cx
 typeInferenceEnabled
 (
 )
+|
+|
+outerScript
+-
+>
+hasIonScript
+(
+)
 )
 return
 ;
