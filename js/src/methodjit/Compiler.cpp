@@ -23518,6 +23518,8 @@ BindName
 }
 else
 {
+stubcc
+.
 masm
 .
 move
