@@ -111,6 +111,8 @@ MPL
 #
 include
 "
+vm
+/
 Probes
 -
 inl

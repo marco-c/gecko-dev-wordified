@@ -117,6 +117,8 @@ vm_ScopeObject_inl_h
 #
 include
 "
+vm
+/
 ScopeObject
 .
 h

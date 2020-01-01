@@ -96,6 +96,8 @@ MPL
 #
 include
 "
+perf
+/
 jsperf
 .
 h

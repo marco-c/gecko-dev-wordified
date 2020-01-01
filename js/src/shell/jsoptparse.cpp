@@ -111,6 +111,8 @@ MPL
 #
 include
 "
+shell
+/
 jsoptparse
 .
 h
