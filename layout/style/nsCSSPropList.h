@@ -4501,11 +4501,6 @@ nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
 )
-/
-/
-XXX
-bug
-3935
 CSS_PROP_SHORTHAND
 (
 -
@@ -6885,11 +6880,6 @@ mOpacity
 )
 eStyleAnimType_float
 )
-/
-/
-XXX
-bug
-3935
 CSS_PROP_DISPLAY
 (
 -
