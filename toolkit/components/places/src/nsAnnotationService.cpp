@@ -1426,6 +1426,12 @@ expiration
 INTEGER
 DEFAULT
 0
+"
+"
+type
+INTEGER
+DEFAULT
+0
 )
 "
 )
