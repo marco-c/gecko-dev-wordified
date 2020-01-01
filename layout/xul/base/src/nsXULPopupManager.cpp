@@ -10328,6 +10328,13 @@ GetDocument
 )
 )
 ;
+if
+(
+!
+domDoc
+)
+return
+;
 for
 (
 nsCOMPtr
