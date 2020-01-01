@@ -1820,6 +1820,12 @@ defined
 (
 ANDROID
 )
+|
+|
+defined
+(
+XP_MACOSX
+)
 #
 define
 HAVE_JEMALLOC_STATS

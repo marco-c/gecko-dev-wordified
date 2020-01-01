@@ -632,7 +632,7 @@ allocated
 /
 *
 Bytes
-allocted
+allocated
 (
 in
 use

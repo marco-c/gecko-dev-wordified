@@ -1107,6 +1107,12 @@ defined
 (
 HAVE_VALLOC
 )
+|
+|
+defined
+(
+HAVE_JEMALLOC_VALLOC
+)
 MOZALLOC_EXPORT
 void
 *
