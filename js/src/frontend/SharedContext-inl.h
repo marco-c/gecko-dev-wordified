@@ -168,7 +168,7 @@ scopeChain_
 cx
 scopeChain
 )
-cxFlags
+anyCxFlags
 (
 )
 strictModeState

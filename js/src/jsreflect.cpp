@@ -17744,7 +17744,7 @@ pn
 pn_funbox
 -
 >
-funIsGenerator
+isGenerator
 (
 )
 ;
