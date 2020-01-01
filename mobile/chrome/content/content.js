@@ -9650,6 +9650,9 @@ Browser
 CaptureEvents
 "
 {
+type
+:
+null
 messageId
 :
 json
