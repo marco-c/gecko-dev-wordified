@@ -6266,6 +6266,14 @@ char
 filename
 )
 {
+if
+(
+!
+filename
+)
+return
+NULL
+;
 JSCompartment
 *
 comp
@@ -6534,6 +6542,11 @@ char
 filename
 )
 {
+JS_ASSERT
+(
+filename
+)
+;
 ScriptFilenameEntry
 *
 sfe
