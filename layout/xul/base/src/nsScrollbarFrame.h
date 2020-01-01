@@ -411,6 +411,15 @@ return
 true
 ;
 }
+NS_IMETHOD
+GetMargin
+(
+nsMargin
+&
+aMargin
+)
+MOZ_OVERRIDE
+;
 private
 :
 nsCOMPtr
