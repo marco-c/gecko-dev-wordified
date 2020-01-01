@@ -144,7 +144,7 @@ h
 "
 BEGIN_FMRADIO_NAMESPACE
 class
-ReplyRunnable
+FMRadioReplyRunnable
 ;
 class
 FMRadioRequestChild
@@ -157,7 +157,7 @@ public
 :
 FMRadioRequestChild
 (
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -182,7 +182,7 @@ private
 :
 nsRefPtr
 <
-ReplyRunnable
+FMRadioReplyRunnable
 >
 mReplyRunnable
 ;

@@ -150,7 +150,7 @@ MOZ_FINAL
 public
 PFMRadioRequestParent
 public
-ReplyRunnable
+FMRadioReplyRunnable
 {
 public
 :

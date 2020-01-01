@@ -285,7 +285,7 @@ FMRadioRequest
 MOZ_FINAL
 :
 public
-ReplyRunnable
+FMRadioReplyRunnable
 public
 DOMRequest
 {

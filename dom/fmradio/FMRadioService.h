@@ -185,14 +185,14 @@ h
 "
 BEGIN_FMRADIO_NAMESPACE
 class
-ReplyRunnable
+FMRadioReplyRunnable
 :
 public
 nsRunnable
 {
 public
 :
-ReplyRunnable
+FMRadioReplyRunnable
 (
 )
 :
@@ -206,7 +206,7 @@ SuccessResponse
 }
 virtual
 ~
-ReplyRunnable
+FMRadioReplyRunnable
 (
 )
 {
@@ -382,7 +382,7 @@ Enable
 with
 a
 *
-ReplyRunnable
+FMRadioReplyRunnable
 object
 .
 *
@@ -412,7 +412,7 @@ Enable
 )
 with
 a
-ReplyRunnable
+FMRadioReplyRunnable
 object
 .
 *
@@ -447,7 +447,7 @@ enabled
 )
 Dispatch
 the
-ReplyRunnable
+FMRadioReplyRunnable
 object
 created
 in
@@ -476,7 +476,7 @@ Child
 )
 Dispatch
 the
-ReplyRunnable
+FMRadioReplyRunnable
 object
 created
 in
@@ -938,7 +938,7 @@ Enable
 (
 double
 aFrequency
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -949,7 +949,7 @@ virtual
 void
 Disable
 (
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -962,7 +962,7 @@ SetFrequency
 (
 double
 aFrequency
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -981,7 +981,7 @@ hal
 :
 FMRadioSeekDirection
 aDirection
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -992,7 +992,7 @@ virtual
 void
 CancelSeek
 (
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -1185,7 +1185,7 @@ Enable
 (
 double
 aFrequency
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -1195,7 +1195,7 @@ virtual
 void
 Disable
 (
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -1207,7 +1207,7 @@ SetFrequency
 (
 double
 aFrequency
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -1225,7 +1225,7 @@ hal
 :
 FMRadioSeekDirection
 aDirection
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -1235,7 +1235,7 @@ virtual
 void
 CancelSeek
 (
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -1363,7 +1363,7 @@ mChannelWidthInKHz
 ;
 nsRefPtr
 <
-ReplyRunnable
+FMRadioReplyRunnable
 >
 mPendingRequest
 ;
