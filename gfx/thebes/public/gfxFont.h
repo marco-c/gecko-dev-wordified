@@ -10992,6 +10992,14 @@ GetUnderlineOffset
 {
 if
 (
+mStyle
+.
+size
+!
+=
+0
+&
+&
 mUnderlineOffset
 =
 =
