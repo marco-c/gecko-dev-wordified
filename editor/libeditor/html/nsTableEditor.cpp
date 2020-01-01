@@ -892,7 +892,7 @@ table
 selection
 class
 NS_STACK_CLASS
-nsSelectionBatcher
+nsSelectionBatcherForTable
 {
 private
 :
@@ -904,7 +904,7 @@ mSelection
 ;
 public
 :
-nsSelectionBatcher
+nsSelectionBatcherForTable
 (
 nsISelection
 *
@@ -941,7 +941,7 @@ StartBatchChanges
 }
 virtual
 ~
-nsSelectionBatcher
+nsSelectionBatcherForTable
 (
 )
 {
@@ -9513,7 +9513,7 @@ selection
 changes
 are
 finished
-nsSelectionBatcher
+nsSelectionBatcherForTable
 selectionBatcher
 (
 selection
@@ -10056,7 +10056,7 @@ selection
 changes
 are
 finished
-nsSelectionBatcher
+nsSelectionBatcherForTable
 selectionBatcher
 (
 selection
@@ -10486,7 +10486,7 @@ selection
 changes
 are
 finished
-nsSelectionBatcher
+nsSelectionBatcherForTable
 selectionBatcher
 (
 selection
@@ -10859,7 +10859,7 @@ selection
 changes
 are
 finished
-nsSelectionBatcher
+nsSelectionBatcherForTable
 selectionBatcher
 (
 selection
