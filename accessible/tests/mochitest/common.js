@@ -893,11 +893,13 @@ when
 document
 is
 loaded
+and
+focused
 .
 Preferable
+*
 to
 mochitests
-*
 '
 addLoadEvent
 '
@@ -909,8 +911,8 @@ ensures
 state
 of
 the
-document
 *
+document
 accessible
 is
 not
@@ -992,7 +994,9 @@ call
 )
 ;
 }
-addLoadEvent
+SimpleTest
+.
+waitForFocus
 (
 waitForDocLoad
 )
