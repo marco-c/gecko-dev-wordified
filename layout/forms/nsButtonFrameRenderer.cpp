@@ -159,14 +159,14 @@ h
 #
 include
 "
-nsThemeConstants
+nsEventStates
 .
 h
 "
 #
 include
 "
-nsEventStates
+nsFrame
 .
 h
 "
