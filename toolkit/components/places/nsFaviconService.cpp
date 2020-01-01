@@ -267,6 +267,15 @@ bonardo
 net
 >
 *
+Richard
+Newman
+<
+rnewman
+mozilla
+.
+com
+>
+*
 *
 Alternatively
 the
@@ -1196,8 +1205,6 @@ NS_LITERAL_CSTRING
 (
 "
 INSERT
-OR
-REPLACE
 INTO
 moz_favicons
 (
