@@ -185,7 +185,7 @@ LOG_TAG
 BrowserDataAccessor
 "
 ;
-private
+protected
 final
 RepoUtils
 .
