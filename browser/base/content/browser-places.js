@@ -1070,6 +1070,9 @@ location
 "
 loadInSidebar
 "
+"
+keyword
+"
 ]
 }
 )
