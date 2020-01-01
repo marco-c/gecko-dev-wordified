@@ -204,6 +204,16 @@ void
 )
 DOMCI_DATA
 (
+WebGLExtensionCompressedTextureATC
+void
+)
+DOMCI_DATA
+(
+WebGLExtensionCompressedTexturePVRTC
+void
+)
+DOMCI_DATA
+(
 WebGLExtensionDepthTexture
 void
 )
