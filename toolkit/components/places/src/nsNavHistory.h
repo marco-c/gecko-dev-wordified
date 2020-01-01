@@ -4669,7 +4669,7 @@ mTagsFolder
 PRBool
 mInPrivateBrowsing
 ;
-PRBool
+PRUint16
 mDatabaseStatus
 ;
 }
