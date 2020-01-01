@@ -8330,6 +8330,12 @@ Manager
 dhcp
 :
 false
+httpProxyHost
+:
+null
+httpProxyPort
+:
+null
 }
 ;
 /
