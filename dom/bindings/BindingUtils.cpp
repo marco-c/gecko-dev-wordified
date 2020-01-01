@@ -124,7 +124,6 @@ mozilla
 namespace
 dom
 {
-static
 bool
 DefineConstants
 (
