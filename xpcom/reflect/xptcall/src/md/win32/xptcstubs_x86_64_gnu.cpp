@@ -432,18 +432,6 @@ xptiprivate
 .
 h
 "
-#
-include
-"
-.
-.
-/
-unix
-/
-xptc_gcc_x86_unix
-.
-h
-"
 /
 *
 *
@@ -1501,6 +1489,7 @@ n
 "
 .
 intel_syntax
+noprefix
 \
 n
 "
@@ -1825,7 +1814,7 @@ rcx
 /
 "
 call
-_PrepareAndDispatch
+PrepareAndDispatch
 \
 n
 "
@@ -1928,6 +1917,7 @@ asm
 "
 .
 intel_syntax
+noprefix
 \
 n
 "
@@ -1972,9 +1962,6 @@ n
 "
 .
 globl
-"
-SYMBOL_UNDERSCORE
-"
 _ZN14nsXPTCStubBase5Stub
 "
 #
@@ -1989,9 +1976,6 @@ n
 "
 .
 def
-"
-SYMBOL_UNDERSCORE
-"
 _ZN14nsXPTCStubBase5Stub
 "
 #
@@ -2039,7 +2023,6 @@ endef
 n
 "
 \
-SYMBOL_UNDERSCORE
 "
 _ZN14nsXPTCStubBase5Stub
 "
@@ -2069,9 +2052,6 @@ n
 "
 .
 globl
-"
-SYMBOL_UNDERSCORE
-"
 _ZN14nsXPTCStubBase6Stub
 "
 #
@@ -2086,9 +2066,6 @@ n
 "
 .
 def
-"
-SYMBOL_UNDERSCORE
-"
 _ZN14nsXPTCStubBase6Stub
 "
 #
@@ -2136,7 +2113,6 @@ endef
 n
 "
 \
-SYMBOL_UNDERSCORE
 "
 _ZN14nsXPTCStubBase6Stub
 "
@@ -2166,9 +2142,6 @@ n
 "
 .
 globl
-"
-SYMBOL_UNDERSCORE
-"
 _ZN14nsXPTCStubBase7Stub
 "
 #
@@ -2183,9 +2156,6 @@ n
 "
 .
 def
-"
-SYMBOL_UNDERSCORE
-"
 _ZN14nsXPTCStubBase7Stub
 "
 #
@@ -2233,7 +2203,6 @@ endef
 n
 "
 \
-SYMBOL_UNDERSCORE
 "
 _ZN14nsXPTCStubBase7Stub
 "
