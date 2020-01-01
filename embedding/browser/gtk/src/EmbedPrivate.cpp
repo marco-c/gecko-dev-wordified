@@ -2414,10 +2414,11 @@ char
 aURI
 )
 {
-CopyUTF8toUTF16
+mURI
+.
+Assign
 (
 aURI
-mURI
 )
 ;
 }
@@ -2465,7 +2466,10 @@ mNavigation
 >
 LoadURI
 (
+NS_ConvertUTF8toUTF16
+(
 mURI
+)
 .
 get
 (

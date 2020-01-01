@@ -955,7 +955,7 @@ the
 currently
 loaded
 uri
-nsString
+nsCString
 mURI
 ;
 /
