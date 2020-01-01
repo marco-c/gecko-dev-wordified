@@ -7873,8 +7873,17 @@ png_ptr
 0
 )
 )
+{
+png_ptr
+-
+>
+num_trans
+=
+0
+;
 return
 ;
+}
 png_set_tRNS
 (
 png_ptr
