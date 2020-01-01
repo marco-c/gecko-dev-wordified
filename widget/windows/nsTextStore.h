@@ -1419,6 +1419,11 @@ RecordCompositionUpdateAction
 (
 )
 ;
+HRESULT
+RecordCompositionEndAction
+(
+)
+;
 /
 /
 FlushPendingActions
