@@ -2940,6 +2940,9 @@ aURI
 PRInt64
 *
 aVisitID
+PRTime
+*
+aTime
 PRInt64
 *
 aSessionID
