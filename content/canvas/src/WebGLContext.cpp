@@ -3654,6 +3654,13 @@ surf
 )
 ;
 }
+surf
+-
+>
+MarkDirty
+(
+)
+;
 nsRefPtr
 <
 gfxPattern
