@@ -1003,7 +1003,7 @@ if
 (
 iid
 .
-Equals
+equals
 (
 Components
 .
@@ -1015,7 +1015,7 @@ nsITimerCallback
 |
 iid
 .
-Equals
+equals
 (
 Components
 .
@@ -1591,6 +1591,7 @@ use
 .
 *
 /
+var
 _fakeIdleService
 =
 {
