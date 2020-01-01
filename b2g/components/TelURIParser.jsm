@@ -121,6 +121,8 @@ txt
 let
 subscriber
 =
+decodeURIComponent
+(
 uri
 .
 slice
@@ -134,6 +136,7 @@ scheme
 )
 .
 length
+)
 )
 ;
 if
@@ -175,6 +178,8 @@ let
 visualSeparator
 =
 [
+'
+'
 '
 -
 '
