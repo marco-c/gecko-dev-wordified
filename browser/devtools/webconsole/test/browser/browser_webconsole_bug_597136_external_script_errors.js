@@ -230,10 +230,6 @@ button
 "
 )
 ;
-expectUncaughtException
-(
-)
-;
 EventUtils
 .
 sendMouseEvent

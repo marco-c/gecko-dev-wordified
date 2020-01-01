@@ -497,10 +497,6 @@ test
 (
 )
 {
-expectUncaughtException
-(
-)
-;
 addTab
 (
 TEST_DUPLICATE_ERROR_URI
@@ -558,10 +554,6 @@ console
 registerListener
 (
 consoleObserver
-)
-;
-expectUncaughtException
-(
 )
 ;
 content
