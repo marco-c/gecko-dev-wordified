@@ -742,8 +742,9 @@ v
 GeckoEvent
 e
 =
-new
 GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Doorhanger

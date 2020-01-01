@@ -740,8 +740,9 @@ GeckoAppShell
 .
 sendEventToGecko
 (
-new
 GeckoEvent
+.
+createBroadcastEvent
 (
 MESSAGE_SCROLL
 json

@@ -1203,8 +1203,9 @@ GeckoAppShell
 .
 sendEventToGecko
 (
-new
 GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Tab
@@ -1548,8 +1549,9 @@ GeckoAppShell
 .
 sendEventToGecko
 (
-new
 GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Tab

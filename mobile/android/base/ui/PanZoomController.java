@@ -5759,8 +5759,9 @@ GeckoAppShell
 .
 sendEventToGecko
 (
-new
 GeckoEvent
+.
+createBroadcastEvent
 (
 event
 json
@@ -5876,8 +5877,9 @@ cancelTouch
 GeckoEvent
 e
 =
-new
 GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Gesture

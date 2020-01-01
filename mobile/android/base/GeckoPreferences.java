@@ -844,8 +844,9 @@ mPreferencesList
 GeckoEvent
 event
 =
-new
 GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Preferences
@@ -1639,8 +1640,9 @@ toString
 GeckoEvent
 event
 =
-new
 GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Preferences
@@ -1929,8 +1931,9 @@ toString
 GeckoEvent
 event
 =
-new
 GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Preferences
@@ -2641,8 +2644,9 @@ value
 GeckoEvent
 event
 =
-new
 GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Preferences

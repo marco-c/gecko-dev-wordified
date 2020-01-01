@@ -2169,8 +2169,9 @@ false
 GeckoEvent
 e
 =
-new
 GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Session
@@ -2212,8 +2213,9 @@ false
 GeckoEvent
 e
 =
-new
 GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Session
@@ -2244,8 +2246,9 @@ doStop
 GeckoEvent
 e
 =
-new
 GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Session
@@ -2314,8 +2317,9 @@ false
 GeckoEvent
 e
 =
-new
 GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Session
