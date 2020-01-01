@@ -228,6 +228,15 @@ dual
 drawtarget
 *
 /
+SURFACE_RECORDING
+/
+*
+Surface
+used
+for
+recording
+*
+/
 }
 ;
 enum
@@ -250,6 +259,7 @@ BACKEND_COREGRAPHICS
 BACKEND_COREGRAPHICS_ACCELERATED
 BACKEND_CAIRO
 BACKEND_SKIA
+BACKEND_RECORDING
 }
 ;
 enum
