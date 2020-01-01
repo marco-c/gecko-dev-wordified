@@ -3118,12 +3118,12 @@ wrapper
 "
 )
 ;
-XPCNativeScriptableSharedJSClass
+XPCWrappedNativeJSClass
 *
 clasp
 =
 (
-XPCNativeScriptableSharedJSClass
+XPCWrappedNativeJSClass
 *
 )
 js
