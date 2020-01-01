@@ -1376,9 +1376,13 @@ AddObserver
 (
 this
 "
-SystemMessageManager
-:
-HandleMessageDone
+handle
+-
+system
+-
+messages
+-
+done
 "
 /
 *
