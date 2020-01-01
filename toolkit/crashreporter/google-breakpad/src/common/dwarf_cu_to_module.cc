@@ -6236,7 +6236,7 @@ end
 )
 &
 &
-current
+next_transition
 >
 =
 (
@@ -6292,7 +6292,7 @@ end
 )
 &
 &
-current
+next_transition
 >
 =
 line_it
