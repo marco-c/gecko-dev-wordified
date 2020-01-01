@@ -427,6 +427,10 @@ DeprecatedCanvasClient2D
 ;
 friend
 class
+CanvasClient2D
+;
+friend
+class
 DeprecatedCanvasClientSurfaceStream
 ;
 }
