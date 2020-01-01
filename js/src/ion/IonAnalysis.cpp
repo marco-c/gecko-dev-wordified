@@ -861,7 +861,7 @@ inst
 block
 -
 >
-removeAt
+discardAt
 (
 inst
 )
@@ -1324,7 +1324,7 @@ iter
 block
 -
 >
-removePhiAt
+discardPhiAt
 (
 iter
 )
@@ -2297,7 +2297,7 @@ iter
 block
 -
 >
-removeAt
+discardAt
 (
 iter
 )
@@ -4446,7 +4446,7 @@ phi
 block
 -
 >
-removePhiAt
+discardPhiAt
 (
 phi
 )

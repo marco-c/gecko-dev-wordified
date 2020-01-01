@@ -1638,7 +1638,7 @@ iter
 block
 -
 >
-removeDefAt
+discardDefAt
 (
 iter
 )
@@ -2518,7 +2518,7 @@ iter
 block
 -
 >
-removeDefAt
+discardDefAt
 (
 iter
 )
@@ -2669,7 +2669,7 @@ block
 )
 -
 >
-removeDefAt
+discardDefAt
 (
 iter
 )
