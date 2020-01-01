@@ -819,6 +819,13 @@ h
 #
 include
 "
+nsInt64
+.
+h
+"
+#
+include
+"
 nsTime
 .
 h

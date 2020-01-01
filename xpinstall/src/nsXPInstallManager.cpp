@@ -432,6 +432,13 @@ h
 #
 include
 "
+nsInt64
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h

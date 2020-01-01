@@ -1137,10 +1137,8 @@ rv
 return
 rv
 ;
-PRInt64
+nsInt64
 absPos
-=
-0
 ;
 switch
 (
@@ -1395,14 +1393,14 @@ mOldOffset
 =
 mBufferStartOffset
 +
-PRInt64
+nsInt64
 (
 mCursor
 )
 )
 ;
 const
-PRInt64
+nsInt64
 minus1
 =
 -
@@ -1520,7 +1518,7 @@ nsnull
 return
 NS_BASE_STREAM_CLOSED
 ;
-PRInt64
+nsInt64
 result64
 =
 mBufferStartOffset

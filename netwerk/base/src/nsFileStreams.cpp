@@ -547,6 +547,13 @@ h
 #
 include
 "
+nsInt64
+.
+h
+"
+#
+include
+"
 nsIFile
 .
 h
@@ -812,7 +819,7 @@ nsnull
 return
 NS_BASE_STREAM_CLOSED
 ;
-PRInt64
+nsInt64
 cnt
 =
 PR_Seek64
@@ -830,7 +837,7 @@ if
 cnt
 =
 =
-PRInt64
+nsInt64
 (
 -
 1
@@ -881,7 +888,7 @@ nsnull
 return
 NS_BASE_STREAM_CLOSED
 ;
-PRInt64
+nsInt64
 cnt
 =
 PR_Seek64
@@ -896,7 +903,7 @@ if
 cnt
 =
 =
-PRInt64
+nsInt64
 (
 -
 1

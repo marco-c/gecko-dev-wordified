@@ -496,6 +496,13 @@ h
 #
 include
 "
+nsInt64
+.
+h
+"
+#
+include
+"
 nsIExternalHelperAppService
 .
 h
@@ -2188,10 +2195,10 @@ mTempFileIsExecutable
 PRTime
 mTimeDownloadStarted
 ;
-PRInt64
+nsInt64
 mContentLength
 ;
-PRInt64
+nsInt64
 mProgress
 ;
 /

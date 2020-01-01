@@ -512,6 +512,13 @@ h
 #
 include
 "
+nsInt64
+.
+h
+"
+#
+include
+"
 nsIIPCSerializable
 .
 h
@@ -2132,7 +2139,7 @@ mStatus
 nsresult
 rv
 ;
-PRInt64
+nsInt64
 ret64
 =
 0

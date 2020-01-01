@@ -621,6 +621,13 @@ h
 #
 include
 "
+nsInt64
+.
+h
+"
+#
+include
+"
 nsQuickSort
 .
 h

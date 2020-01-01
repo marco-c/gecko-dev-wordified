@@ -619,6 +619,13 @@ h
 #
 include
 "
+nsInt64
+.
+h
+"
+#
+include
+"
 nsNodeUtils
 .
 h

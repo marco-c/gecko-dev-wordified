@@ -438,6 +438,13 @@ h
 #
 include
 "
+nsInt64
+.
+h
+"
+#
+include
+"
 plstr
 .
 h
@@ -5402,7 +5409,7 @@ mByteRangeEnd
 -
 mByteRangeStart
 +
-PRInt64
+nsInt64
 (
 1
 )

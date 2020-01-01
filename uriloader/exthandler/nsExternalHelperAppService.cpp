@@ -10864,6 +10864,8 @@ Get
 content
 length
 mContentLength
+.
+mValue
 =
 GetContentLengthAsInt64
 (
