@@ -15328,7 +15328,10 @@ i
 ]
 -
 >
-asRegExp
+as
+<
+RegExpObject
+>
 (
 )
 )

@@ -11398,7 +11398,10 @@ return
 obj
 -
 >
-isRegExp
+is
+<
+RegExpObject
+>
 (
 )
 ;

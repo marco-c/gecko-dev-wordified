@@ -13204,7 +13204,10 @@ JS_ASSERT
 a
 -
 >
-isRegExp
+is
+<
+RegExpObject
+>
 (
 )
 &
@@ -13213,7 +13216,10 @@ isRegExp
 b
 -
 >
-isRegExp
+is
+<
+RegExpObject
+>
 (
 )
 )

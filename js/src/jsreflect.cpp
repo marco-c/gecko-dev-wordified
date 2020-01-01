@@ -15303,7 +15303,10 @@ re1
 re1
 -
 >
-isRegExp
+is
+<
+RegExpObject
+>
 (
 )
 )

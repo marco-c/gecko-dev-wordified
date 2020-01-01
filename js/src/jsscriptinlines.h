@@ -769,7 +769,13 @@ JS_ASSERT
 obj
 -
 >
-isRegExp
+is
+<
+js
+:
+:
+RegExpObject
+>
 (
 )
 )

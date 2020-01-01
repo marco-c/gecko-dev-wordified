@@ -3345,7 +3345,10 @@ if
 obj
 -
 >
-isRegExp
+is
+<
+RegExpObject
+>
 (
 )
 )
@@ -3357,7 +3360,10 @@ source
 obj
 -
 >
-asRegExp
+as
+<
+RegExpObject
+>
 (
 )
 .

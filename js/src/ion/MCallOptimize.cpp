@@ -6114,7 +6114,10 @@ clasp
 !
 =
 &
-RegExpClass
+RegExpObject
+:
+:
+class_
 )
 return
 InliningStatus_NotInlined
