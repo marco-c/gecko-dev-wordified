@@ -11671,7 +11671,7 @@ start
 check
 sessionstore
 .
-bak
+js
 exists
 "
 )
@@ -11704,7 +11704,7 @@ profileDir
 "
 sessionstore
 .
-bak
+js
 "
 )
 .
@@ -11733,7 +11733,7 @@ finish
 check
 sessionstore
 .
-bak
+js
 exists
 "
 )
