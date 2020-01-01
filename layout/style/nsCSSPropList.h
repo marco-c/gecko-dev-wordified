@@ -3149,7 +3149,7 @@ ltr
 source
 border_left_color_ltr_source
 X
-0
+CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderLeftColorLTRSource
 eCSSType_Value
@@ -3168,7 +3168,7 @@ rtl
 source
 border_left_color_rtl_source
 X
-0
+CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderLeftColorRTLSource
 eCSSType_Value
@@ -3250,7 +3250,7 @@ ltr
 source
 border_left_style_ltr_source
 X
-0
+CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderLeftStyleLTRSource
 eCSSType_Value
@@ -3269,7 +3269,7 @@ rtl
 source
 border_left_style_rtl_source
 X
-0
+CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderLeftStyleRTLSource
 eCSSType_Value
@@ -3323,7 +3323,7 @@ ltr
 source
 border_left_width_ltr_source
 X
-0
+CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderLeftWidthLTRSource
 eCSSType_Value
@@ -3342,7 +3342,7 @@ rtl
 source
 border_left_width_rtl_source
 X
-0
+CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderLeftWidthRTLSource
 eCSSType_Value
@@ -3405,7 +3405,7 @@ ltr
 source
 border_right_color_ltr_source
 X
-0
+CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderRightColorLTRSource
 eCSSType_Value
@@ -3424,7 +3424,7 @@ rtl
 source
 border_right_color_rtl_source
 X
-0
+CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderRightColorRTLSource
 eCSSType_Value
@@ -3506,7 +3506,7 @@ ltr
 source
 border_right_style_ltr_source
 X
-0
+CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderRightStyleLTRSource
 eCSSType_Value
@@ -3525,7 +3525,7 @@ rtl
 source
 border_right_style_rtl_source
 X
-0
+CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderRightStyleRTLSource
 eCSSType_Value
@@ -3579,7 +3579,7 @@ ltr
 source
 border_right_width_ltr_source
 X
-0
+CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderRightWidthLTRSource
 eCSSType_Value
@@ -3598,7 +3598,7 @@ rtl
 source
 border_right_width_rtl_source
 X
-0
+CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderRightWidthRTLSource
 eCSSType_Value
@@ -4588,7 +4588,7 @@ ltr
 source
 margin_left_ltr_source
 X
-0
+CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mMarginLeftLTRSource
 eCSSType_Value
@@ -4605,7 +4605,7 @@ rtl
 source
 margin_left_rtl_source
 X
-0
+CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mMarginLeftRTLSource
 eCSSType_Value
@@ -4653,7 +4653,7 @@ ltr
 source
 margin_right_ltr_source
 X
-0
+CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mMarginRightLTRSource
 eCSSType_Value
@@ -4670,7 +4670,7 @@ rtl
 source
 margin_right_rtl_source
 X
-0
+CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mMarginRightRTLSource
 eCSSType_Value
@@ -5014,7 +5014,7 @@ ltr
 source
 padding_left_ltr_source
 X
-0
+CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mPaddingLeftLTRSource
 eCSSType_Value
@@ -5031,7 +5031,7 @@ rtl
 source
 padding_left_rtl_source
 X
-0
+CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mPaddingLeftRTLSource
 eCSSType_Value
@@ -5079,7 +5079,7 @@ ltr
 source
 padding_right_ltr_source
 X
-0
+CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mPaddingRightLTRSource
 eCSSType_Value
@@ -5096,7 +5096,7 @@ rtl
 source
 padding_right_rtl_source
 X
-0
+CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mPaddingRightRTLSource
 eCSSType_Value
