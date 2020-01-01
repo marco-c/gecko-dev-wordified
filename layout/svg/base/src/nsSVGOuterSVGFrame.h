@@ -1151,6 +1151,14 @@ mFullZoom
 PRPackedBool
 mViewportInitialized
 ;
+#
+ifdef
+XP_MACOSX
+PRPackedBool
+mEnableBitmapFallback
+;
+#
+endif
 }
 ;
 #
