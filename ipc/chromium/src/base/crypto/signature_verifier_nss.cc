@@ -322,7 +322,7 @@ public_key
 PORT_FreeArena
 (
 arena
-true
+PR_TRUE
 )
 ;
 return
@@ -388,7 +388,7 @@ public_key
 PORT_FreeArena
 (
 arena
-true
+PR_TRUE
 )
 ;
 /
@@ -557,7 +557,7 @@ vfy_context_
 VFY_DestroyContext
 (
 vfy_context_
-true
+PR_TRUE
 )
 ;
 vfy_context_

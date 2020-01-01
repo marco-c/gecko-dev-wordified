@@ -954,7 +954,7 @@ argv
 *
 *
 Return
-true
+PR_TRUE
 iff
 |
 NS_TraceMallocStartup

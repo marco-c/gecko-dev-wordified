@@ -2245,7 +2245,7 @@ rv
 }
 mOutputStreamIsOpen
 =
-false
+PR_FALSE
 ;
 }
 /

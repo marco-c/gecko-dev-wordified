@@ -7072,7 +7072,7 @@ Modern
 libssl
 always
 passes
-true
+PR_TRUE
 for
 checkSig
 and
@@ -7112,7 +7112,7 @@ call
 this
 function
 with
-true
+PR_TRUE
 for
 isServer
 /

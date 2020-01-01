@@ -906,7 +906,7 @@ hmac_ctx
 PK11_DestroyContext
 (
 hmac_ctx
-true
+PR_TRUE
 )
 ;
 if

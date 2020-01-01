@@ -417,7 +417,7 @@ aPresContext
 nsIFrame
 *
 aStart
-int32_t
+PRInt32
 aType
 bool
 aVisual

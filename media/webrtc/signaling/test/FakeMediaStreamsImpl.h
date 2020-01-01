@@ -106,7 +106,7 @@ aCurrentTime
 {
 PR_ASSERT
 (
-false
+PR_FALSE
 )
 ;
 *

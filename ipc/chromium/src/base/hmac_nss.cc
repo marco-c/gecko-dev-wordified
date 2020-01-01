@@ -142,7 +142,7 @@ context
 PK11_DestroyContext
 (
 context
-true
+PR_TRUE
 )
 ;
 }
