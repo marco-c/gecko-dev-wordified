@@ -1194,6 +1194,17 @@ Thumbnail
 thumbnails
 )
 {
+if
+(
+thumbnails
+=
+=
+null
+)
+{
+return
+;
+}
 /
 /
 If
