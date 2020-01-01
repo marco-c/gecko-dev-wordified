@@ -1282,6 +1282,12 @@ _addTabActionHandlers
 /
 ___
 Storage
+GroupItems
+.
+init
+(
+)
+;
 var
 groupItemsData
 =

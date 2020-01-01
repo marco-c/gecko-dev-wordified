@@ -5361,7 +5361,7 @@ first
 "
 window
 .
-Tabs
+AllTabs
 )
 ;
 var
