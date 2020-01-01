@@ -122,7 +122,7 @@ h
 #
 include
 "
-SVGTransform
+nsSVGTransform
 .
 h
 "
@@ -161,7 +161,7 @@ namespace
 mozilla
 {
 void
-SVGTransform
+nsSVGTransform
 :
 :
 GetValueAsString
@@ -643,7 +643,7 @@ buf
 ;
 }
 void
-SVGTransform
+nsSVGTransform
 :
 :
 SetMatrix
@@ -707,7 +707,7 @@ f
 ;
 }
 void
-SVGTransform
+nsSVGTransform
 :
 :
 SetTranslate
@@ -760,7 +760,7 @@ f
 ;
 }
 void
-SVGTransform
+nsSVGTransform
 :
 :
 SetScale
@@ -813,7 +813,7 @@ f
 ;
 }
 void
-SVGTransform
+nsSVGTransform
 :
 :
 SetRotate
@@ -883,7 +883,7 @@ aCy
 ;
 }
 nsresult
-SVGTransform
+nsSVGTransform
 :
 :
 SetSkewX
@@ -945,7 +945,7 @@ NS_OK
 ;
 }
 nsresult
-SVGTransform
+nsSVGTransform
 :
 :
 SetSkewY
@@ -1012,7 +1012,7 @@ SVGTransformSMILData
 SVGTransformSMILData
 (
 const
-SVGTransform
+nsSVGTransform
 &
 aTransform
 )
@@ -1344,7 +1344,7 @@ break
 ;
 }
 }
-SVGTransform
+nsSVGTransform
 SVGTransformSMILData
 :
 :
@@ -1353,7 +1353,7 @@ ToSVGTransform
 )
 const
 {
-SVGTransform
+nsSVGTransform
 result
 ;
 switch

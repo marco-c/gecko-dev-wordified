@@ -103,14 +103,14 @@ h
 #
 include
 "
-SVGTransform
+SVGTransformList
 .
 h
 "
 #
 include
 "
-SVGTransformList
+nsSVGTransform
 .
 h
 "
@@ -2681,7 +2681,7 @@ nsSMILValue
 aValue
 FallibleTArray
 <
-SVGTransform
+nsSVGTransform
 >
 &
 aTransforms
