@@ -62,6 +62,8 @@ widgets
 require
 (
 '
+sdk
+/
 widget
 '
 )
@@ -72,6 +74,8 @@ pageMod
 require
 (
 '
+sdk
+/
 page
 -
 mod
@@ -84,6 +88,8 @@ data
 require
 (
 '
+sdk
+/
 self
 '
 )
@@ -96,6 +102,8 @@ panels
 require
 (
 '
+sdk
+/
 panel
 '
 )
@@ -106,6 +114,8 @@ simpleStorage
 require
 (
 '
+sdk
+/
 simple
 -
 storage
@@ -118,6 +128,8 @@ notifications
 require
 (
 "
+sdk
+/
 notifications
 "
 )
@@ -1274,6 +1286,8 @@ message
 require
 (
 '
+sdk
+/
 tabs
 '
 )

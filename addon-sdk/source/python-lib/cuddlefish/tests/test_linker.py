@@ -439,6 +439,8 @@ assertReqIs
 main
 "
 "
+sdk
+/
 panel
 "
 "

@@ -67,6 +67,10 @@ xulApp
 require
 (
 "
+sdk
+/
+system
+/
 xul
 -
 app
@@ -81,6 +85,8 @@ PageMod
 require
 (
 "
+sdk
+/
 page
 -
 mod
@@ -93,6 +99,8 @@ tabs
 require
 (
 "
+sdk
+/
 tabs
 "
 )

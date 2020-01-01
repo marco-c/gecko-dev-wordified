@@ -62,6 +62,8 @@ panel
 require
 (
 "
+sdk
+/
 panel
 "
 )

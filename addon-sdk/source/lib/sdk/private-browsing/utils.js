@@ -744,6 +744,8 @@ setMode
 require
 (
 "
+sdk
+/
 private
 -
 browsing
@@ -752,9 +754,14 @@ browsing
 .
 activate
 and
+'
++
+'
 require
 (
 "
+sdk
+/
 private
 -
 browsing
@@ -765,7 +772,7 @@ deactivate
 '
 +
 '
-is
+are
 deprecated
 .
 '

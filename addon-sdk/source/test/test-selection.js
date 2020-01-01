@@ -1178,11 +1178,7 @@ none
 ;
 Cu
 .
-forceGC
-(
-)
-;
-setTimeout
+schedulePreciseGC
 (
 function
 (
@@ -1252,8 +1248,8 @@ display
 "
 ;
 }
-0
 )
+;
 return
 promise
 ;

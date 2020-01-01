@@ -248,6 +248,8 @@ using
 require
 (
 "
+sdk
+/
 tabs
 "
 )
@@ -434,6 +436,8 @@ using
 require
 (
 "
+sdk
+/
 private
 -
 browsing

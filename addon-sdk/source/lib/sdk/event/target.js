@@ -148,6 +148,7 @@ core
 const
 {
 method
+chain
 }
 =
 require
@@ -401,9 +402,12 @@ data
 /
 on
 :
+chain
+(
 method
 (
 on
+)
 )
 /
 *
@@ -462,9 +466,12 @@ event
 /
 once
 :
+chain
+(
 method
 (
 once
+)
 )
 /
 *
@@ -583,6 +590,9 @@ type
 listener
 )
 ;
+return
+this
+;
 }
 off
 :
@@ -598,6 +608,10 @@ this
 type
 listener
 )
+;
+return
+this
+;
 }
 }
 )

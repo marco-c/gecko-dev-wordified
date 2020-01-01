@@ -62,6 +62,8 @@ self
 require
 (
 "
+sdk
+/
 self
 "
 )
