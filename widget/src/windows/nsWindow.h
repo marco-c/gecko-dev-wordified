@@ -2814,6 +2814,11 @@ SetThemeRegion
 (
 )
 ;
+void
+StopFlashing
+(
+)
+;
 private
 :
 #
