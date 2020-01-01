@@ -8622,7 +8622,7 @@ Int64QueryGetter
 getter
 )
 {
-int64_t
+PRTime
 value
 ;
 DebugOnly
@@ -8683,7 +8683,13 @@ appendMe
 .
 AppendInt
 (
+static_cast
+<
+int64_t
+>
+(
 value
+)
 )
 ;
 aString

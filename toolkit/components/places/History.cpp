@@ -5570,10 +5570,17 @@ stmt
 GetInt64
 (
 2
+reinterpret_cast
+<
+int64_t
+*
+>
+(
 &
 _place
 .
 visitTime
+)
 )
 ;
 NS_ENSURE_SUCCESS
