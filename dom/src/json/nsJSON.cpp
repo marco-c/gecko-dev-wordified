@@ -1923,7 +1923,7 @@ aStream
 :
 mStream
 (
-nsnull
+aStream
 )
 mBuffer
 (
