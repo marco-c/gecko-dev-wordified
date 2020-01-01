@@ -512,6 +512,13 @@ manifest
 fullLaunchPath
 (
 )
+origin
+:
+aTarget
+.
+app
+.
+origin
 shortcutType
 :
 "
