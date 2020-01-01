@@ -442,6 +442,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 css
 /
 Rule
@@ -503,6 +512,7 @@ css
 {
 class
 NameSpaceRule
+MOZ_FINAL
 :
 public
 Rule
