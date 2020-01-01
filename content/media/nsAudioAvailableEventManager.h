@@ -503,6 +503,11 @@ nsBuiltinDecoder
 aDecoder
 )
 ;
+~
+nsAudioAvailableEventManager
+(
+)
+;
 /
 /
 Initialize
