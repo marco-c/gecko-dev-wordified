@@ -16579,13 +16579,9 @@ ENSURE_MUTABLE
 (
 )
 ;
-NS_PRECONDITION
+NS_ENSURE_ARG_POINTER
 (
 file
-"
-null
-pointer
-"
 )
 ;
 nsresult
