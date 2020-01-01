@@ -1932,7 +1932,7 @@ black
 mBlackSurface
 -
 >
-GetImageSurface
+GetAsImageSurface
 (
 )
 ;
@@ -1945,7 +1945,7 @@ white
 mWhiteSurface
 -
 >
-GetImageSurface
+GetAsImageSurface
 (
 )
 ;

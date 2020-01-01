@@ -983,7 +983,7 @@ gfxImageSurface
 gfxWindowsSurface
 :
 :
-GetImageSurface
+GetAsImageSurface
 (
 )
 {

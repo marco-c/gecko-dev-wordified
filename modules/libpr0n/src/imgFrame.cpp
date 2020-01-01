@@ -1553,7 +1553,7 @@ mImageSurface
 mWinSurface
 -
 >
-GetImageSurface
+GetAsImageSurface
 (
 )
 ;

@@ -880,6 +880,15 @@ gfxRect
 aRect
 )
 ;
+virtual
+already_AddRefed
+<
+gfxImageSurface
+>
+GetAsImageSurface
+(
+)
+;
 protected
 :
 gfxImageSurface

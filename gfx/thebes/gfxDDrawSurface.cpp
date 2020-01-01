@@ -622,7 +622,7 @@ gfxImageSurface
 gfxDDrawSurface
 :
 :
-GetImageSurface
+GetAsImageSurface
 (
 )
 {

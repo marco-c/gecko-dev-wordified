@@ -536,7 +536,7 @@ gfxImageSurface
 gfxQuartzImageSurface
 :
 :
-GetImageSurface
+GetAsImageSurface
 (
 )
 {

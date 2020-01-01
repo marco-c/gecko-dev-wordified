@@ -640,7 +640,7 @@ gfxImageSurface
 gfxQPainterSurface
 :
 :
-GetImageSurface
+GetAsImageSurface
 (
 )
 {

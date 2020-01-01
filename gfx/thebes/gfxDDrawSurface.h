@@ -514,10 +514,7 @@ already_AddRefed
 <
 gfxImageSurface
 >
-gfxDDrawSurface
-:
-:
-GetImageSurface
+GetAsImageSurface
 (
 )
 ;
