@@ -177,6 +177,10 @@ mOperatingSystem
 (
 DRIVER_OS_UNKNOWN
 )
+mOperatingSystemVersion
+(
+0
+)
 mAdapterVendor
 (
 GfxDriverInfo
@@ -269,6 +273,10 @@ mOperatingSystem
 (
 os
 )
+mOperatingSystemVersion
+(
+0
+)
 mAdapterVendor
 (
 vendor
@@ -323,6 +331,12 @@ mOperatingSystem
 aOrig
 .
 mOperatingSystem
+)
+mOperatingSystemVersion
+(
+aOrig
+.
+mOperatingSystemVersion
 )
 mAdapterVendor
 (
