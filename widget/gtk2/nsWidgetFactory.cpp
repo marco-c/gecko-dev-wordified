@@ -690,17 +690,6 @@ picker
 if
 (
 allowPlatformPicker
-&
-&
-gtk_check_version
-(
-2
-6
-3
-)
-=
-=
-NULL
 )
 {
 picker
