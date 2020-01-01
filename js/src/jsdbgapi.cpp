@@ -5308,12 +5308,10 @@ obj
 &
 &
 !
-obj
--
->
-checkAccess
+CheckAccess
 (
 cx
+obj
 propid
 JSACC_WATCH
 &

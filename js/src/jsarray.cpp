@@ -5524,7 +5524,6 @@ js_SetAttributes
 js_DeleteProperty
 js_DefaultValue
 js_Enumerate
-js_CheckAccess
 array_typeOf
 js_TraceObject
 NULL
@@ -6898,7 +6897,6 @@ array_setAttributes
 array_deleteProperty
 js_DefaultValue
 js_Enumerate
-js_CheckAccess
 array_typeOf
 array_trace
 NULL

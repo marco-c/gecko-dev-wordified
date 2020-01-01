@@ -6081,7 +6081,6 @@ proxy_SetAttributes
 proxy_DeleteProperty
 js_DefaultValue
 js_Enumerate
-js_CheckAccess
 proxy_TypeOf_obj
 proxy_TraceObject
 NULL
@@ -6561,7 +6560,6 @@ proxy_SetAttributes
 proxy_DeleteProperty
 js_DefaultValue
 js_Enumerate
-js_CheckAccess
 proxy_TypeOf_fun
 proxy_TraceObject
 NULL

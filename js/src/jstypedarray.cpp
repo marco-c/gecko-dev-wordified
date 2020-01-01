@@ -7574,8 +7574,6 @@ _typedArray
 :
 obj_enumerate
 \
-js_CheckAccess
-\
 _typedArray
 :
 :
