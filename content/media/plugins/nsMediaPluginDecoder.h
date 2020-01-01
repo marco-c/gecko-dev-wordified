@@ -174,7 +174,7 @@ NS_OK
 ;
 }
 virtual
-nsMediaDecoder
+nsBuiltinDecoder
 *
 Clone
 (

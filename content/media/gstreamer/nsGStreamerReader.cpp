@@ -3802,6 +3802,8 @@ duration
 ;
 }
 }
+/
+*
 if
 (
 mDecoder
@@ -3823,7 +3825,7 @@ duration
 )
 {
 /
-*
+/
 We
 decoded
 more
@@ -3837,8 +3839,6 @@ could
 be
 estimated
 )
-*
-/
 LOG
 (
 PR_LOG_DEBUG
@@ -3859,6 +3859,8 @@ mDecoder
 mDuration
 ;
 }
+*
+/
 return
 duration
 ;

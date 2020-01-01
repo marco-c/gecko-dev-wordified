@@ -1789,7 +1789,7 @@ must
 not
 acquire
 any
-nsMediaDecoder
+nsBuiltinDecoder
 locks
 or
 MediaResource

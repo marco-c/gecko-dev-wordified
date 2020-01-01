@@ -1237,6 +1237,13 @@ h
 #
 include
 "
+nsBuiltinDecoder
+.
+h
+"
+#
+include
+"
 nsWrapperCacheInlines
 .
 h
@@ -36855,7 +36862,7 @@ ifdef
 MOZ_MEDIA_PLUGINS
 if
 (
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 IsMediaPluginsEnabled

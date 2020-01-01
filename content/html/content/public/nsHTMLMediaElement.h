@@ -279,6 +279,9 @@ class
 MediaResource
 ;
 }
+class
+nsBuiltinDecoder
+;
 #
 ifdef
 MOZ_DASH
@@ -1463,7 +1466,7 @@ virtual
 void
 UpdateReadyStateForData
 (
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 NextFrameStatus
@@ -2997,7 +3000,7 @@ decoder
 /
 already_AddRefed
 <
-nsMediaDecoder
+nsBuiltinDecoder
 >
 CreateDecoder
 (
@@ -3038,7 +3041,7 @@ set
 nsresult
 InitializeDecoderAsClone
 (
-nsMediaDecoder
+nsBuiltinDecoder
 *
 aOriginal
 )
@@ -3120,7 +3123,7 @@ InitializeDecoderAsClone
 nsresult
 FinishDecoderSetup
 (
-nsMediaDecoder
+nsBuiltinDecoder
 *
 aDecoder
 MediaResource
@@ -3130,7 +3133,7 @@ nsIStreamListener
 *
 *
 aListener
-nsMediaDecoder
+nsBuiltinDecoder
 *
 aCloneDonor
 )
@@ -4214,7 +4217,7 @@ null
 .
 nsRefPtr
 <
-nsMediaDecoder
+nsBuiltinDecoder
 >
 mDecoder
 ;

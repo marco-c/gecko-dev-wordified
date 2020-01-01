@@ -145,7 +145,7 @@ nsBuiltinDecoder
 )
 {
 }
-nsMediaDecoder
+nsBuiltinDecoder
 *
 nsMediaOmxDecoder
 :

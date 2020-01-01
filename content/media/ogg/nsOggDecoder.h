@@ -138,7 +138,7 @@ nsBuiltinDecoder
 public
 :
 virtual
-nsMediaDecoder
+nsBuiltinDecoder
 *
 Clone
 (

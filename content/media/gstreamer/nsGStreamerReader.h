@@ -116,7 +116,7 @@ nsBuiltinDecoderReader
 h
 "
 class
-nsMediaDecoder
+nsBuiltinDecoder
 ;
 class
 nsTimeRanges

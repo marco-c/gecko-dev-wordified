@@ -156,7 +156,7 @@ nsMediaOmxDecoder
 )
 ;
 virtual
-nsMediaDecoder
+nsBuiltinDecoder
 *
 Clone
 (

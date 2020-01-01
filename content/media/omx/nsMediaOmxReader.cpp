@@ -725,7 +725,7 @@ decoded
 =
 0
 ;
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 AutoNotifyDecoded

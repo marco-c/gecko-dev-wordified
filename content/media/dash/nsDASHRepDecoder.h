@@ -331,7 +331,7 @@ return
 nullptr
 .
 virtual
-nsMediaDecoder
+nsBuiltinDecoder
 *
 Clone
 (
@@ -508,7 +508,7 @@ nsIStreamListener
 aListener
 =
 nullptr
-nsMediaDecoder
+nsBuiltinDecoder
 *
 aCloneDonor
 =

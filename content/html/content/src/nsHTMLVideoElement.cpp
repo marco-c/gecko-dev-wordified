@@ -268,6 +268,13 @@ nsMediaError
 .
 h
 "
+#
+include
+"
+nsBuiltinDecoder
+.
+h
+"
 using
 namespace
 mozilla

@@ -585,7 +585,7 @@ nullptr
 )
 mOpusEnabled
 (
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 IsOpusEnabled
@@ -4900,7 +4900,7 @@ decoded
 =
 0
 ;
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 AutoNotifyDecoded

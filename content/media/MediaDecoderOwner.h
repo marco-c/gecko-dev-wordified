@@ -121,7 +121,7 @@ MediaDecoderOwner_h_
 #
 include
 "
-nsMediaDecoder
+nsBuiltinDecoder
 .
 h
 "
@@ -984,7 +984,7 @@ virtual
 void
 UpdateReadyStateForData
 (
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 NextFrameStatus
