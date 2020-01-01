@@ -3272,6 +3272,12 @@ className
 dbg
 -
 breakpoint
+devtools
+-
+monospace
+"
++
+"
 side
 -
 menu
@@ -9821,6 +9827,9 @@ dbg
 expression
 -
 input
+devtools
+-
+monospace
 "
 ;
 inputNode
@@ -14364,6 +14373,9 @@ results
 line
 -
 number
+devtools
+-
+monospace
 "
 ;
 lineNumberNode
@@ -14389,6 +14401,12 @@ list
 widget
 -
 item
+devtools
+-
+monospace
+"
++
+"
 dbg
 -
 results

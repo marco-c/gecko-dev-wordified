@@ -627,6 +627,9 @@ devtools
 autocomplete
 -
 popup
+devtools
+-
+monospace
 "
 +
 theme
