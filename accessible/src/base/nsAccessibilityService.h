@@ -2565,6 +2565,12 @@ note
 /
 /
 ROLE_NOTE
+"
+figure
+"
+/
+/
+ROLE_FIGURE
 }
 ;
 /

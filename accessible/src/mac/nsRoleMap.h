@@ -1217,6 +1217,10 @@ NSAccessibilityGroupRole
 /
 /
 ROLE_NOTE
+NSAccessibilityGroupRole
+/
+/
+ROLE_FIGURE
 "
 ROLE_LAST_ENTRY
 "

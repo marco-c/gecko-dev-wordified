@@ -216,6 +216,13 @@ nsIAccessibleRole
 ROLE_ENTRY
 ;
 const
+ROLE_FIGURE
+=
+nsIAccessibleRole
+.
+ROLE_FIGURE
+;
+const
 ROLE_FOOTER
 =
 nsIAccessibleRole

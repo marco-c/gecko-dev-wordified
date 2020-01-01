@@ -1497,6 +1497,14 @@ nsIAccessibleRole
 :
 ROLE_NOTE
 123
+ATK_ROLE_PANEL
+/
+/
+nsIAccessibleRole
+:
+:
+ROLE_FIGURE
+124
 kROLE_ATK_LAST_ENTRY
 /
 /
