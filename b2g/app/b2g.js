@@ -6725,7 +6725,7 @@ gonk
 .
 notifyLowMemUnderMB
 "
-10
+14
 )
 ;
 /
