@@ -584,6 +584,16 @@ GetPropertyCache
 \
 _
 (
+GetPropertyPolymorphic
+)
+\
+_
+(
+SetPropertyPolymorphic
+)
+\
+_
+(
 GetElementCache
 )
 \
