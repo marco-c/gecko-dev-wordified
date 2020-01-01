@@ -610,6 +610,11 @@ Sqrt
 \
 _
 (
+MathFunction
+)
+\
+_
+(
 Add
 )
 \

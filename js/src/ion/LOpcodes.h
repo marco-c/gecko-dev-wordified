@@ -690,6 +690,11 @@ SqrtD
 \
 _
 (
+MathFunctionD
+)
+\
+_
+(
 NotI
 )
 \

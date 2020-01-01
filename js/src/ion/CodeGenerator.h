@@ -1044,6 +1044,14 @@ lir
 )
 ;
 bool
+visitMathFunctionD
+(
+LMathFunctionD
+*
+ins
+)
+;
+bool
 visitBinaryV
 (
 LBinaryV

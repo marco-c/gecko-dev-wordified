@@ -1087,6 +1087,14 @@ ins
 )
 ;
 bool
+visitMathFunction
+(
+MMathFunction
+*
+ins
+)
+;
+bool
 visitAdd
 (
 MAdd
