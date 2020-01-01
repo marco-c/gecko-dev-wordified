@@ -789,6 +789,11 @@ nsIFrame
 :
 :
 eBidiInlineContainer
+|
+nsIFrame
+:
+:
+eLineParticipant
 )
 )
 ;

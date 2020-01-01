@@ -1957,6 +1957,11 @@ nsIFrame
 :
 :
 eReplaced
+|
+nsIFrame
+:
+:
+eLineParticipant
 )
 )
 ;

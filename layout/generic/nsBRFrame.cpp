@@ -714,6 +714,11 @@ nsIFrame
 :
 :
 eReplaced
+|
+nsIFrame
+:
+:
+eLineParticipant
 )
 )
 ;
