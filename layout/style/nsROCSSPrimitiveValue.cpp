@@ -2060,7 +2060,7 @@ nullptr
 }
 already_AddRefed
 <
-nsIDOMRect
+nsDOMCSSRect
 >
 nsROCSSPrimitiveValue
 :
