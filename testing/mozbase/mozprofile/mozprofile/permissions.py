@@ -75,9 +75,6 @@ MultiplePrimaryLocationsError
 '
            
 '
-DEFAULT_PORTS
-'
-'
 DuplicateLocationError
 '
 '
@@ -149,7 +146,7 @@ py
 in
 #
 l28
-DEFAULT_PORTS
+_DEFAULT_PORTS
 =
 {
 '
@@ -159,7 +156,7 @@ http
 '
 8888
 '
-                  
+                   
 '
 https
 '
@@ -167,7 +164,7 @@ https
 '
 4443
 '
-                  
+                   
 '
 ws
 '
@@ -175,7 +172,7 @@ ws
 '
 4443
 '
-                  
+                   
 '
 wss
 '
@@ -1313,7 +1310,7 @@ netloc
                 
 port
 =
-DEFAULT_PORTS
+_DEFAULT_PORTS
 .
 get
 (
@@ -2164,11 +2161,7 @@ in
         
 proxy
 =
-DEFAULT_PORTS
-.
-copy
-(
-)
+_DEFAULT_PORTS
         
 #
 We

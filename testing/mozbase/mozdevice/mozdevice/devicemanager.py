@@ -62,8 +62,6 @@ socket
 import
 os
 import
-posixpath
-import
 re
 import
 struct
@@ -1863,22 +1861,16 @@ bar
 "
 "
         
-filename
+dirParts
 =
-posixpath
-.
-normpath
-(
 filename
-)
-        
-containing
-=
-posixpath
 .
-dirname
+rsplit
 (
-filename
+'
+/
+'
+1
 )
         
 if
@@ -1887,7 +1879,10 @@ self
 .
 dirExists
 (
-containing
+dirParts
+[
+0
+]
 )
 :
             
@@ -1905,19 +1900,25 @@ split
 name
 =
 "
-/
 "
             
 for
 part
 in
 parts
-[
 :
+                
+if
+part
+is
+parts
+[
 -
 1
 ]
 :
+                    
+break
                 
 if
 part
@@ -1928,14 +1929,13 @@ part
 :
                     
 name
++
 =
-posixpath
-.
-join
-(
-name
+'
+/
+'
++
 part
-)
                     
 self
 .
@@ -2001,16 +2001,15 @@ Return
 whether
 filepath
 exists
+and
+is
+a
+file
 on
 the
 device
 file
 system
-        
-regardless
-of
-file
-type
 .
         
 "

@@ -62,7 +62,7 @@ PACKAGE_VERSION
 '
 0
 .
-8
+6
 '
 #
 dependencies
@@ -198,7 +198,7 @@ tools
 /
 Projects
 /
-Mozbase
+MozBase
 '
       
 license

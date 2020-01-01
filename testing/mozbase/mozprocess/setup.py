@@ -230,7 +230,7 @@ tools
 /
 Projects
 /
-Mozbase
+MozBase
 '
       
 license

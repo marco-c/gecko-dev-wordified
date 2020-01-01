@@ -249,14 +249,7 @@ version
 "
 "
 "
-import
-mozinfo
 from
 mozinfo
 import
 *
-__all__
-=
-mozinfo
-.
-__all__
