@@ -2071,7 +2071,7 @@ max
 -
 height
 :
-touch_button_large
+touch_button_small
 ;
 }
 toolbarbutton
@@ -2080,7 +2080,7 @@ min
 -
 width
 :
-touch_button_xlarge
+touch_button_small
 !
 important
 ;
@@ -2095,7 +2095,7 @@ min
 -
 height
 :
-touch_button_xlarge
+touch_button_small
 !
 important
 ;
