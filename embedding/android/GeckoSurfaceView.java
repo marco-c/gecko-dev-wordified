@@ -1351,6 +1351,15 @@ mProgressDialog
 null
 ;
 }
+if
+(
+buffer
+!
+=
+mSoftwareBuffer
+)
+return
+;
 Canvas
 c
 =
