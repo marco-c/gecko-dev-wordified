@@ -3030,7 +3030,7 @@ getCharPref
 "
 ril
 .
-data
+mms
 .
 mmsproxy
 "
@@ -3116,7 +3116,7 @@ getCharPref
 "
 ril
 .
-data
+mms
 .
 mmsproxy
 "
