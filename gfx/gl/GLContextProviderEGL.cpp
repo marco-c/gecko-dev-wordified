@@ -9212,6 +9212,8 @@ GLContextProviderEGL
 :
 GetGlobalContext
 (
+const
+ContextFlags
 )
 {
 static
