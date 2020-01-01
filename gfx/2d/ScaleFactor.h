@@ -99,6 +99,15 @@ MOZILLA_GFX_SCALEFACTOR_H_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 gfxPoint
 .
 h
@@ -245,6 +254,7 @@ ScaleFactor
 float
 scale
 ;
+MOZ_CONSTEXPR
 ScaleFactor
 (
 )
@@ -257,6 +267,7 @@ scale
 )
 {
 }
+MOZ_CONSTEXPR
 ScaleFactor
 (
 const
@@ -278,6 +289,7 @@ scale
 {
 }
 explicit
+MOZ_CONSTEXPR
 ScaleFactor
 (
 float

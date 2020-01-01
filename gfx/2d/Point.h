@@ -553,6 +553,7 @@ units
 >
 Super
 ;
+MOZ_CONSTEXPR
 IntSizeTyped
 (
 )
@@ -562,6 +563,7 @@ Super
 )
 {
 }
+MOZ_CONSTEXPR
 IntSizeTyped
 (
 int32_t
