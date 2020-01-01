@@ -1474,6 +1474,14 @@ UnblockParser
 (
 )
 ;
+NS_IMETHOD_
+(
+void
+)
+ContinueInterruptedParsingAsync
+(
+)
+;
 NS_IMETHOD
 Terminate
 (

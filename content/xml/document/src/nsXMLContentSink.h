@@ -667,6 +667,12 @@ IsScriptExecuting
 (
 )
 ;
+virtual
+void
+ContinueInterruptedParsingAsync
+(
+)
+;
 /
 /
 nsITransformObserver
@@ -727,6 +733,11 @@ aIsAlternate
 ;
 protected
 :
+void
+ContinueInterruptedParsingIfEnabled
+(
+)
+;
 /
 /
 Start
