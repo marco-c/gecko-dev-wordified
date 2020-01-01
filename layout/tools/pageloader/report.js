@@ -1230,7 +1230,7 @@ str
 ;
 }
 function
-strPadFixed0
+strPadFixed
 (
 n
 len

@@ -1201,7 +1201,7 @@ contentPageloader
 setTimeout
 (
 plLoadPage
-0
+250
 )
 ;
 }
@@ -1484,7 +1484,7 @@ pageIndex
 setTimeout
 (
 plLoadPage
-0
+250
 )
 ;
 }
@@ -1647,7 +1647,7 @@ time
 setTimeout
 (
 plNextPage
-0
+250
 )
 ;
 }
@@ -1944,7 +1944,7 @@ cycle
 setTimeout
 (
 plLoadPage
-0
+250
 )
 ;
 return
