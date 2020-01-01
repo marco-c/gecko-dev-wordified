@@ -281,6 +281,10 @@ no
 -
 remote
 '
+'
+-
+marionette
+'
 ]
             
 kp_kwargs
