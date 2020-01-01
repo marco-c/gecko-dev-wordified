@@ -894,9 +894,6 @@ Preferences
 and
 Text
 "
-_currentTab
-:
-null
 run
 :
 function
@@ -975,7 +972,7 @@ Check
 whether
 the
 Preferences
-pan
+pane
 title
 is
 Preferences
@@ -2193,15 +2190,6 @@ should
 be
 closed
 "
-)
-;
-Browser
-.
-closeTab
-(
-gCurrentTest
-.
-_currentTab
 )
 ;
 runNextTest

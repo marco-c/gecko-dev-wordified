@@ -825,7 +825,7 @@ Browser
 .
 closeTab
 (
-this
+gCurrentTest
 .
 _currentTab
 )
