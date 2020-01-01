@@ -29708,8 +29708,9 @@ NS_STATE_SVG_NONDISPLAY_CHILD
 /
 /
 Normally
-this
-flag
+these
+dirty
+flags
 would
 be
 cleared
@@ -29719,11 +29720,11 @@ ReflowSVG
 )
 but
 that
+/
+/
 doesn
 '
 t
-/
-/
 get
 called
 for
