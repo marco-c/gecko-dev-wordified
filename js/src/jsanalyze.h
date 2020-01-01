@@ -2986,6 +2986,10 @@ JSContext
 cx
 jsid
 id
+bool
+localName
+=
+false
 )
 ;
 /
@@ -3068,6 +3072,8 @@ Variable
 *
 &
 var
+bool
+localName
 )
 ;
 #
