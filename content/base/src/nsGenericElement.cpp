@@ -26541,6 +26541,10 @@ node
 if
 (
 !
+currentDoc
+|
+|
+!
 foundBlack
 )
 {
@@ -26579,6 +26583,13 @@ AppendElement
 root
 )
 ;
+}
+if
+(
+!
+foundBlack
+)
+{
 return
 false
 ;
