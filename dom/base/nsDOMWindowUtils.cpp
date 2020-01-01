@@ -11307,6 +11307,16 @@ return
 NS_ERROR_DOM_SECURITY_ERR
 ;
 }
+if
+(
+!
+aFile
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 NS_ADDREF
 (
 *
