@@ -1331,7 +1331,7 @@ EDirection
 aSelect
 )
 ;
-NS_IMETHOD
+nsresult
 InsertBR
 (
 nsCOMPtr
