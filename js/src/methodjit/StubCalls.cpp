@@ -4492,15 +4492,10 @@ script
 )
 -
 >
-ensureRanBytecode
-(
-cx
-)
-)
-THROW
+hasAnalysis
 (
 )
-;
+)
 f
 .
 script
