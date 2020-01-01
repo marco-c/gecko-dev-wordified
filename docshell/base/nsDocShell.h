@@ -5298,9 +5298,6 @@ mUseGlobalHistory
 bool
 mInPrivateBrowsing
 ;
-bool
-mDeviceSizeIsPageSize
-;
 /
 /
 This
