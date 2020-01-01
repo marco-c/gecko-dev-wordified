@@ -2092,7 +2092,7 @@ MAX
 size_t
 limit
 =
-JS_MIN
+Min
 (
 counts
 .

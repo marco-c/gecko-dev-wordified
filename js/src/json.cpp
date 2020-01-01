@@ -4460,7 +4460,7 @@ isDenseArray
 )
 len
 =
-JS_MIN
+Min
 (
 len
 replacer
@@ -4950,9 +4950,11 @@ d
 ;
 d
 =
-JS_MIN
+Min
 (
 10
+.
+0
 d
 )
 ;
@@ -5038,9 +5040,12 @@ str
 size_t
 len
 =
-JS_MIN
+Min
+(
+size_t
 (
 10
+)
 space
 .
 toString

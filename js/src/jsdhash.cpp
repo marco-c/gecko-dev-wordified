@@ -1576,7 +1576,7 @@ float
 (
 JS_DHASH_MIN_SIZE
 -
-JS_MAX
+Max
 (
 JS_DHASH_MIN_SIZE
 /
@@ -1663,12 +1663,12 @@ size
 *
 maxAlpha
 -
-JS_MAX
+Max
 (
 size
 /
 256
-1
+1U
 )
 )
 /

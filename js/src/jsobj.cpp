@@ -23809,7 +23809,7 @@ oldcap
 uint32_t
 actualCapacity
 =
-JS_MAX
+Max
 (
 newcap
 nextsize

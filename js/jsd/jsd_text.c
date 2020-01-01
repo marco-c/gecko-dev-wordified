@@ -2398,11 +2398,15 @@ jsdsrc
 int
 bytes
 =
-JS_MIN
 (
 remaining
+<
 UNICODE_TRUNCATE_BUF_SIZE
 )
+?
+remaining
+:
+UNICODE_TRUNCATE_BUF_SIZE
 ;
 int
 i

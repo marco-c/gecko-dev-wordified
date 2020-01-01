@@ -45389,7 +45389,7 @@ do
 {
 xdelta
 =
-JS_MIN
+Min
 (
 delta
 SN_XDELTA_MASK
@@ -47010,7 +47010,7 @@ break
 ;
 delta
 =
-JS_MIN
+Min
 (
 offset
 SN_XDELTA_MASK

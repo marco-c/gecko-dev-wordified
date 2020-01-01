@@ -600,7 +600,7 @@ result
 size_t
 n
 =
-JS_MIN
+Min
 (
 l1
 l2

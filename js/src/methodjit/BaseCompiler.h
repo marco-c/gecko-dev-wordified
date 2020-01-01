@@ -528,7 +528,7 @@ size2
 uintptr_t
 lowest
 =
-JS_MIN
+Min
 (
 uintptr_t
 (
@@ -543,7 +543,7 @@ start2
 uintptr_t
 highest
 =
-JS_MAX
+Max
 (
 end1
 end2
