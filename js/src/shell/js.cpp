@@ -27951,8 +27951,6 @@ its_get_customNative
 JSStrictPropertyOp
 )
 its_set_customNative
-JSPROP_READONLY
-|
 JSPROP_NATIVE_ACCESSORS
 )
 )
