@@ -2306,13 +2306,9 @@ the
 UI
 thread
 .
-GeckoAppShell
+ThreadUtils
 .
-getMainHandler
-(
-)
-.
-post
+postToUiThread
 (
 new
 Runnable

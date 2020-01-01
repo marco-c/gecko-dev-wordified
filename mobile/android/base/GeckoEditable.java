@@ -1890,11 +1890,11 @@ mIcRunHandler
 =
 mIcPostHandler
 =
-GeckoApp
+ThreadUtils
 .
-mAppContext
-.
-mMainHandler
+getUiHandler
+(
+)
 ;
 }
 private
