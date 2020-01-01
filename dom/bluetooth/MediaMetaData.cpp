@@ -277,8 +277,17 @@ obj
 JS
 :
 :
+Rooted
+<
+JS
+:
+:
 Value
+>
 value
+(
+aCx
+)
 ;
 NS_ENSURE_STATE
 (
