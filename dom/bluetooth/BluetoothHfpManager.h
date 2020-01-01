@@ -360,9 +360,6 @@ mCurrentVgs
 int
 mCurrentCallIndex
 ;
-int
-mCurrentCallState
-;
 bool
 mReceiveVgsFlag
 ;
@@ -378,6 +375,12 @@ ipc
 :
 SocketConnectionStatus
 mSocketStatus
+;
+nsTArray
+<
+int
+>
+mCurrentCallStateArray
 ;
 nsAutoPtr
 <
