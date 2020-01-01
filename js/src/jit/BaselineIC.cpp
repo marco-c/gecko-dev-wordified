@@ -29610,7 +29610,7 @@ idxReg
 ;
 regs
 .
-takeUnchecked
+take
 (
 scratchReg
 )
@@ -29818,6 +29818,13 @@ regs
 add
 (
 tempReg
+)
+;
+regs
+.
+add
+(
+argData
 )
 ;
 ValueOperand
@@ -31423,9 +31430,6 @@ addUpdateStubForValue
 cx
 script
 obj
-JS
-:
-:
 JSID_VOIDHANDLE
 rhs
 )
@@ -31539,9 +31543,6 @@ addUpdateStubForValue
 cx
 script
 obj
-JS
-:
-:
 JSID_VOIDHANDLE
 rhs
 )
