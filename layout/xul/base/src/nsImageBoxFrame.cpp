@@ -2882,6 +2882,18 @@ h
 )
 )
 ;
+if
+(
+!
+(
+GetStateBits
+(
+)
+&
+NS_FRAME_FIRST_REFLOW
+)
+)
+{
 AddStateBits
 (
 NS_FRAME_IS_DIRTY
@@ -2906,6 +2918,7 @@ nsIPresShell
 eStyleChange
 )
 ;
+}
 return
 NS_OK
 ;
