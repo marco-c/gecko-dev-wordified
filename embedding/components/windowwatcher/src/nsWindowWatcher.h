@@ -221,7 +221,7 @@ nsPromptService
 struct
 JSContext
 ;
-struct
+class
 JSObject
 ;
 struct

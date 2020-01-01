@@ -5885,7 +5885,7 @@ TypeSet
 target
 HandleObject
 singleton
-jsid
+HandleId
 singletonId
 )
 ;

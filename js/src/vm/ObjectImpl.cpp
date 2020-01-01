@@ -1792,8 +1792,8 @@ nativeLookup
 JSContext
 *
 cx
-jsid
-idArg
+HandleId
+id
 )
 {
 AssertCanGC
@@ -1811,13 +1811,6 @@ Shape
 *
 *
 spp
-;
-RootedId
-id
-(
-cx
-idArg
-)
 ;
 return
 Shape

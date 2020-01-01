@@ -7484,7 +7484,7 @@ nativeLookup
 JSContext
 *
 cx
-jsid
+HandleId
 id
 )
 ;

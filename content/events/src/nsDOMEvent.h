@@ -178,7 +178,7 @@ nsPresContext
 struct
 JSContext
 ;
-struct
+class
 JSObject
 ;
 class

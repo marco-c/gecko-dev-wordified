@@ -155,7 +155,7 @@ nsIDOMWindow
 class
 nsPerformance
 ;
-struct
+class
 JSObject
 ;
 struct

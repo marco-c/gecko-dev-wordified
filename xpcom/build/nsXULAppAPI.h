@@ -2473,7 +2473,7 @@ void
 aCallback
 )
 )
-struct
+class
 JSObject
 ;
 XRE_API
