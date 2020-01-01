@@ -8141,6 +8141,7 @@ aTransparencyState
 =
 nsnull
 )
+const
 {
 return
 IsThemed
@@ -8168,7 +8169,21 @@ aTransparencyState
 =
 nsnull
 )
+const
 {
+nsIFrame
+*
+mutable_this
+=
+const_cast
+<
+nsIFrame
+*
+>
+(
+this
+)
+;
 if
 (
 !
@@ -8212,7 +8227,7 @@ theme
 ThemeSupportsWidget
 (
 pc
-this
+mutable_this
 aDisp
 -
 >
@@ -8235,7 +8250,7 @@ theme
 >
 GetWidgetTransparency
 (
-this
+mutable_this
 aDisp
 -
 >
