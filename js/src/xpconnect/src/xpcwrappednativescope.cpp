@@ -1488,7 +1488,7 @@ JS_ConvertStub
 /
 convert
 ;
-JS_FinalizeStub
+nsnull
 /
 /
 finalize

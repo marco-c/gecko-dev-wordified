@@ -831,7 +831,7 @@ JS_PropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-JS_FinalizeStub
+NULL
 JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
@@ -14582,7 +14582,7 @@ JS_PropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-JS_FinalizeStub
+NULL
 with_getObjectOps
 0
 0
@@ -16489,7 +16489,7 @@ block_setProperty
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-JS_FinalizeStub
+NULL
 NULL
 NULL
 NULL

@@ -7822,7 +7822,7 @@ JS_PropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 js_TryValueOf
-JS_FinalizeStub
+NULL
 slowarray_getObjectOps
 NULL
 NULL
