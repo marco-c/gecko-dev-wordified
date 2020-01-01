@@ -1941,7 +1941,7 @@ build_nsresult_param
 build_attr_param
 (
 a
-get
+getter
 =
 True
 )
@@ -2012,7 +2012,7 @@ build_nsresult_param
 build_attr_param
 (
 a
-set
+setter
 =
 True
 )
