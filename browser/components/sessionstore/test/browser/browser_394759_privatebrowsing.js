@@ -744,8 +744,9 @@ pass
 MAX_PASS
 )
 {
-throw
+ok
 (
+false
 "
 Timed
 out

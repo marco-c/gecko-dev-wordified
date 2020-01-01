@@ -1297,8 +1297,9 @@ containerOpen
 =
 false
 ;
-throw
+ok
 (
+false
 "
 Unable
 to
