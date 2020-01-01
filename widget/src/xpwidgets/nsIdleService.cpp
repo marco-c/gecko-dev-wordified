@@ -1568,3 +1568,17 @@ Cancel
 ;
 }
 }
+void
+nsIdleService
+:
+:
+IdleTimeWasModified
+(
+)
+{
+StartTimer
+(
+0
+)
+;
+}
