@@ -5333,7 +5333,7 @@ size_t
 debuggeesSet
 size_t
 *
-baselineOptimizedStubs
+baselineStubsOptimized
 )
 {
 *
@@ -5415,7 +5415,7 @@ mallocSizeOf
 ifdef
 JS_ION
 *
-baselineOptimizedStubs
+baselineStubsOptimized
 =
 ionCompartment
 (
@@ -5441,7 +5441,7 @@ mallocSizeOf
 #
 else
 *
-baselineOptimizedStubs
+baselineStubsOptimized
 =
 0
 ;

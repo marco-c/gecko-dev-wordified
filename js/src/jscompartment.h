@@ -1243,7 +1243,7 @@ size_t
 debuggeesSet
 size_t
 *
-baselineOptimizedStubs
+baselineStubsOptimized
 )
 ;
 /
