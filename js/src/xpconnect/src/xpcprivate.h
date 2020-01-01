@@ -16346,6 +16346,9 @@ NewOutObject
 JSContext
 *
 cx
+JSObject
+*
+scope
 )
 ;
 JSBool
