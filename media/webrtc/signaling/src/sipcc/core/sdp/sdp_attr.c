@@ -33773,7 +33773,7 @@ param
 .
 nack
 >
-SDP_RTCP_FB_NACK_UNSPECIFIED
+SDP_RTCP_FB_NACK_BASIC
 &
 &
 attr_p
@@ -34770,7 +34770,7 @@ param
 .
 nack
 =
-SDP_RTCP_FB_NACK_UNSPECIFIED
+SDP_RTCP_FB_NACK_BASIC
 ;
 break
 ;
