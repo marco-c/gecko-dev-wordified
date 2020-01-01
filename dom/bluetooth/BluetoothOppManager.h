@@ -646,7 +646,7 @@ Init
 (
 )
 ;
-nsresult
+void
 HandleShutdown
 (
 )
