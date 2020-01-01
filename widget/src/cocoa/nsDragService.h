@@ -451,6 +451,12 @@ Cocoa
 .
 h
 >
+extern
+NSString
+*
+const
+kWildcardPboardType
+;
 class
 nsILocalFile
 ;
