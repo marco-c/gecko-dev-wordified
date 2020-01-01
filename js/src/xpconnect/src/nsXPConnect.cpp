@@ -576,13 +576,6 @@ h
 #
 include
 "
-jstypedarray
-.
-h
-"
-#
-include
-"
 XrayWrapper
 .
 h
