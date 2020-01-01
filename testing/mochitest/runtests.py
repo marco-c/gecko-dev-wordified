@@ -7593,6 +7593,9 @@ profilePath
 extensions
 "
 "
+staged
+"
+"
 mochikit
 mozilla
 .

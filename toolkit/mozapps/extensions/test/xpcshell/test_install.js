@@ -1264,6 +1264,13 @@ size
 ADDON1_SIZE
 )
 ;
+do_check_false
+(
+a1
+.
+foreignInstall
+)
+;
 do_check_eq
 (
 a1
@@ -2777,6 +2784,13 @@ test_install2_2
 .
 xpi
 "
+)
+;
+do_check_false
+(
+a2
+.
+foreignInstall
 )
 ;
 do_check_eq
