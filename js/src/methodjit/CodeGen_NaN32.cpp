@@ -606,7 +606,7 @@ if
 !
 v
 .
-isNullOrUndefined
+isUndefined
 (
 )
 )
