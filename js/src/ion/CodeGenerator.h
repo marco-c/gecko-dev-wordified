@@ -689,9 +689,9 @@ lir
 )
 ;
 bool
-visitCreateThisWithTemplate
+visitCreateThisVM
 (
-LCreateThisWithTemplate
+LCreateThisVM
 *
 lir
 )

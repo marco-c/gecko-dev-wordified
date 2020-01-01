@@ -1859,7 +1859,7 @@ fast
 path
 .
 class
-LCreateThisWithTemplate
+LCreateThis
 :
 public
 LInstructionHelper
@@ -1873,14 +1873,14 @@ public
 :
 LIR_HEADER
 (
-CreateThisWithTemplate
+CreateThis
 )
-LCreateThisWithTemplate
+LCreateThis
 (
 )
 {
 }
-MCreateThisWithTemplate
+MCreateThis
 *
 mir
 (
@@ -1891,7 +1891,7 @@ return
 mir_
 -
 >
-toCreateThisWithTemplate
+toCreateThis
 (
 )
 ;
@@ -1919,7 +1919,7 @@ no
 templateObject
 .
 class
-LCreateThis
+LCreateThisVM
 :
 public
 LCallInstructionHelper
@@ -1933,9 +1933,9 @@ public
 :
 LIR_HEADER
 (
-CreateThis
+CreateThisVM
 )
-LCreateThis
+LCreateThisVM
 (
 const
 LAllocation
