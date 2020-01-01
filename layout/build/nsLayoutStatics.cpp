@@ -1610,6 +1610,13 @@ Init
 (
 )
 ;
+nsSVGUtils
+:
+:
+Init
+(
+)
+;
 return
 NS_OK
 ;
