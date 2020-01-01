@@ -1547,14 +1547,14 @@ mBytes
 }
 ;
 class
-IdToString
+IdStringifier
 :
 public
 ToString
 {
 public
 :
-IdToString
+IdStringifier
 (
 JSContext
 *
@@ -29720,7 +29720,7 @@ its_noisy
 return
 JS_TRUE
 ;
-IdToString
+IdStringifier
 idString
 (
 cx
@@ -29799,7 +29799,7 @@ its_noisy
 return
 JS_TRUE
 ;
-IdToString
+IdStringifier
 idString
 (
 cx
@@ -29878,7 +29878,7 @@ its_noisy
 return
 JS_TRUE
 ;
-IdToString
+IdStringifier
 idString
 (
 cx
@@ -29951,7 +29951,7 @@ jsval
 vp
 )
 {
-IdToString
+IdStringifier
 idString
 (
 cx
@@ -30299,7 +30299,7 @@ if
 its_noisy
 )
 {
-IdToString
+IdStringifier
 idString
 (
 cx
@@ -31984,7 +31984,7 @@ SOLARIS
 int
 rv
 ;
-IdToString
+IdStringifier
 idstr
 (
 cx
@@ -32453,7 +32453,7 @@ JSRESOLVE_ASSIGNING
 return
 JS_TRUE
 ;
-IdToString
+IdStringifier
 idstr
 (
 cx
