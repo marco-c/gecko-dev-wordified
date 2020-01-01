@@ -654,9 +654,9 @@ rounded
 to
 the
 nearest
-microsecond
+millisecond
 .
-double
+float
 BytesToTime
 (
 PRInt64
@@ -706,7 +706,7 @@ stereo
 PRInt64
 TimeToBytes
 (
-double
+float
 aTime
 )
 const

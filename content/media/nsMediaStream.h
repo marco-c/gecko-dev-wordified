@@ -859,10 +859,7 @@ return
 0
 ;
 return
-static_cast
-<
 double
->
 (
 mAccumulatedBytes
 )
@@ -932,10 +929,7 @@ return
 0
 ;
 return
-static_cast
-<
 double
->
 (
 mAccumulatedBytes
 )

@@ -951,7 +951,7 @@ Return
 the
 position
 in
-microseconds
+milliseconds
 of
 the
 sample

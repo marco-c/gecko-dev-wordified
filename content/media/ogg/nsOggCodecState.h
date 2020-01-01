@@ -1416,7 +1416,7 @@ the
 maximum
 number
 of
-microseconds
+milliseconds
 which
 a
 keyframe
@@ -1470,6 +1470,16 @@ mSetup
 th_dec_ctx
 *
 mCtx
+;
+/
+/
+Frame
+duration
+in
+ms
+.
+PRUint32
+mFrameDuration
 ;
 float
 mPixelAspectRatio
@@ -1701,7 +1711,7 @@ mOffset
 Presentation
 time
 in
-usecs
+ms
 .
 PRInt64
 mTime
@@ -2169,7 +2179,7 @@ in
 this
 stream
 in
-usecs
+ms
 .
 const
 PRInt64
@@ -2187,7 +2197,7 @@ in
 this
 stream
 in
-usecs
+ms
 .
 const
 PRInt64

@@ -1998,7 +1998,7 @@ is
 in
 units
 of
-microseconds
+milliseconds
 .
 virtual
 PRInt64
@@ -2068,13 +2068,6 @@ obtained
 before
 calling
 this
-.
-/
-/
-aDuration
-is
-in
-microseconds
 .
 virtual
 void
@@ -2852,7 +2845,7 @@ resource
 in
 units
 of
-seconds
+milliseconds
 .
 /
 /
@@ -2890,7 +2883,7 @@ virtual
 void
 SetDuration
 (
-double
+PRInt64
 aDuration
 )
 ;

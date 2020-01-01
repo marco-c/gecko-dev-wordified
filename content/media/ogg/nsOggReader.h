@@ -841,7 +841,7 @@ target
 (
 aTarget
 in
-usecs
+ms
 )
 lies
 not
@@ -858,7 +858,7 @@ position
 (
 aCurrentTime
 in
-usecs
+ms
 )
 .
 PRBool
@@ -1111,7 +1111,7 @@ mTimeEnd
 /
 /
 in
-usecs
+ms
 .
 }
 ;
@@ -1120,7 +1120,7 @@ usecs
 Seeks
 to
 aTarget
-usecs
+ms
 in
 the
 buffered
@@ -1216,7 +1216,7 @@ Seeks
 to
 before
 aTarget
-usecs
+ms
 in
 media
 using
@@ -1617,7 +1617,7 @@ end
 time
 before
 aTarget
-usecs
+ms
 on
 both
 the
@@ -1664,7 +1664,7 @@ is
 the
 number
 of
-usecs
+ms
 of
 leniency
 we
@@ -1692,7 +1692,7 @@ aTime
 aFuzz
 aTime
 )
-usecs
+ms
 .
 nsresult
 SeekBisection
@@ -1826,7 +1826,7 @@ to
 seek
 to
 aTarget
-usecs
+ms
 given
 the
 known
