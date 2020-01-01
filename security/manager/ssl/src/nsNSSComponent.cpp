@@ -10078,6 +10078,10 @@ UnloadLoadableRoots
 (
 )
 ;
+CleanupIdentityInfo
+(
+)
+;
 PR_LOG
 (
 gPIPNSSLog
@@ -10164,10 +10168,6 @@ n
 )
 ;
 }
-CleanupIdentityInfo
-(
-)
-;
 }
 return
 rv
