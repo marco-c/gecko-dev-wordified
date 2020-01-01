@@ -8863,7 +8863,7 @@ Phonebook
 *
 *
 params
-type
+contactType
 *
 "
 ADN
@@ -8888,7 +8888,7 @@ type
 =
 options
 .
-type
+contactType
 ;
 switch
 (
