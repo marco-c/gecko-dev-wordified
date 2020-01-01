@@ -738,7 +738,7 @@ nsTableRowFrame
 )
 {
 }
-NS_IMETHODIMP
+void
 nsTableRowFrame
 :
 :
@@ -755,9 +755,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsresult
-rv
-;
 /
 /
 Let
@@ -767,8 +764,6 @@ class
 do
 its
 initialization
-rv
-=
 nsContainerFrame
 :
 :
@@ -832,9 +827,6 @@ GetRowIndex
 )
 ;
 }
-return
-rv
-;
 }
 /
 *

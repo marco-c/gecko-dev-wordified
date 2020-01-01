@@ -512,7 +512,7 @@ false
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsMathMLmactionFrame
 :
 :
@@ -574,7 +574,6 @@ class
 do
 the
 rest
-return
 nsMathMLContainerFrame
 :
 :

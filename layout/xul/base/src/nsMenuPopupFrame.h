@@ -1084,7 +1084,8 @@ AttachedDismissalListener
 /
 Overridden
 methods
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -2820,7 +2821,7 @@ is
 initially
 hidden
 .
-nsresult
+void
 CreatePopupView
 (
 )

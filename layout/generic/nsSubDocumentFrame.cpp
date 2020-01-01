@@ -685,7 +685,7 @@ nsView
 aView
 )
 ;
-NS_IMETHODIMP
+void
 nsSubDocumentFrame
 :
 :
@@ -741,9 +741,6 @@ false
 true
 ;
 }
-nsresult
-rv
-=
 nsLeafFrame
 :
 :
@@ -753,16 +750,6 @@ aContent
 aParent
 aPrevInFlow
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
-rv
 ;
 /
 /
@@ -1122,9 +1109,6 @@ AsyncFrameInit
 this
 )
 )
-;
-return
-NS_OK
 ;
 }
 inline

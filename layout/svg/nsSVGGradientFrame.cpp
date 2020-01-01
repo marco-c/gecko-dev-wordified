@@ -2858,7 +2858,7 @@ Gradients
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 nsSVGLinearGradientFrame
 :
 :
@@ -2897,7 +2897,6 @@ linearGradient
 "
 )
 ;
-return
 nsSVGLinearGradientFrameBase
 :
 :
@@ -3676,7 +3675,7 @@ Gradients
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 nsSVGRadialGradientFrame
 :
 :
@@ -3715,7 +3714,6 @@ radialGradient
 "
 )
 ;
-return
 nsSVGRadialGradientFrameBase
 :
 :

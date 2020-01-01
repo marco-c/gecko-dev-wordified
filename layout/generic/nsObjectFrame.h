@@ -280,7 +280,8 @@ NS_DECL_QUERYFRAME_TARGET
 (
 nsObjectFrame
 )
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -293,6 +294,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord

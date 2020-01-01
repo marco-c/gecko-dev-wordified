@@ -284,7 +284,7 @@ nsSVGTextPathFrame
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 nsSVGTextPathFrame
 :
 :
@@ -383,7 +383,6 @@ textPath
 "
 )
 ;
-return
 nsSVGTextPathFrameBase
 :
 :

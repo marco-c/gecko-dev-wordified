@@ -17643,7 +17643,7 @@ nsSVGTextFrame2
 /
 nsIFrame
 methods
-NS_IMETHODIMP
+void
 nsSVGTextFrame2
 :
 :
@@ -17682,9 +17682,6 @@ text
 "
 )
 ;
-nsresult
-rv
-=
 nsSVGTextFrame2Base
 :
 :
@@ -17723,9 +17720,6 @@ StartObserving
 (
 this
 )
-;
-return
-rv
 ;
 }
 void

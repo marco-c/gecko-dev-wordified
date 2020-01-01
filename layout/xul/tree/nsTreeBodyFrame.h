@@ -802,7 +802,8 @@ our
 pres
 context
 .
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent

@@ -525,7 +525,7 @@ NS_IMPL_FRAMEARENA_HELPERS
 (
 nsHTMLCanvasFrame
 )
-NS_IMETHODIMP
+void
 nsHTMLCanvasFrame
 :
 :
@@ -542,9 +542,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsresult
-rv
-=
 nsSplittableFrame
 :
 :
@@ -605,9 +602,6 @@ nsChangeHint
 0
 )
 )
-;
-return
-rv
 ;
 }
 nsHTMLCanvasFrame

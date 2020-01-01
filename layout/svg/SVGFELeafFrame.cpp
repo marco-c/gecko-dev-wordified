@@ -209,7 +209,8 @@ NS_DECL_FRAMEARENA_HELPERS
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -222,6 +223,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -415,7 +417,7 @@ this
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 SVGFELeafFrame
 :
 :
@@ -467,7 +469,6 @@ interfaces
 "
 )
 ;
-return
 SVGFELeafFrameBase
 :
 :

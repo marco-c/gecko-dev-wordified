@@ -191,7 +191,7 @@ NS_IMPL_FRAMEARENA_HELPERS
 (
 nsPopupSetFrame
 )
-NS_IMETHODIMP
+void
 nsPopupSetFrame
 :
 :
@@ -208,9 +208,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsresult
-rv
-=
 nsBoxFrame
 :
 :
@@ -278,9 +275,6 @@ this
 )
 ;
 }
-return
-rv
-;
 }
 nsIAtom
 *

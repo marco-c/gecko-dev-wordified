@@ -209,7 +209,7 @@ NS_QUERYFRAME_TAIL_INHERITING
 (
 nsBoxFrame
 )
-NS_IMETHODIMP
+void
 nsScrollbarFrame
 :
 :
@@ -226,9 +226,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsresult
-rv
-=
 nsBoxFrame
 :
 :
@@ -300,9 +297,6 @@ mState
 |
 =
 NS_FRAME_REFLOW_ROOT
-;
-return
-rv
 ;
 }
 NS_IMETHODIMP

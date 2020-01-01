@@ -365,7 +365,7 @@ nsMathMLmrootFrame
 )
 {
 }
-NS_IMETHODIMP
+void
 nsMathMLmrootFrame
 :
 :
@@ -382,9 +382,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsresult
-rv
-=
 nsMathMLContainerFrame
 :
 :
@@ -472,9 +469,6 @@ mStyleContext
 mSqrChar
 true
 )
-;
-return
-rv
 ;
 }
 NS_IMETHODIMP

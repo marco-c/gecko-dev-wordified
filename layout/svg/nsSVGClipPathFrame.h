@@ -309,7 +309,8 @@ int32_t
 aModType
 )
 ;
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -322,6 +323,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 /
 *

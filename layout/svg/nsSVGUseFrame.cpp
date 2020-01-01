@@ -196,7 +196,8 @@ NS_DECL_FRAMEARENA_HELPERS
 nsIFrame
 interface
 :
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -209,6 +210,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -630,7 +632,7 @@ nsSVGUseFrameBase
 nsIFrame
 methods
 :
-NS_IMETHODIMP
+void
 nsSVGUseFrame
 :
 :
@@ -686,7 +688,6 @@ HasValidDimensions
 (
 )
 ;
-return
 nsSVGUseFrameBase
 :
 :

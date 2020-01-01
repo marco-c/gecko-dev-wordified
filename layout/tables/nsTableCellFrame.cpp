@@ -399,7 +399,7 @@ return
 nullptr
 ;
 }
-NS_IMETHODIMP
+void
 nsTableCellFrame
 :
 :
@@ -425,9 +425,6 @@ class
 do
 its
 initialization
-nsresult
-rv
-=
 nsContainerFrame
 :
 :
@@ -491,9 +488,6 @@ colIndex
 )
 ;
 }
-return
-rv
-;
 }
 /
 /

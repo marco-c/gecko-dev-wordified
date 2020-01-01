@@ -193,7 +193,8 @@ nsStyleContext
 aContext
 )
 ;
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -206,6 +207,7 @@ nsIFrame
 *
 asPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

@@ -308,7 +308,8 @@ aContext
 /
 /
 nsIFrame
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent

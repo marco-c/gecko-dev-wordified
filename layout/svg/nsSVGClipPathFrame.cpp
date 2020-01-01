@@ -1716,7 +1716,7 @@ aModType
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsSVGClipPathFrame
 :
 :
@@ -1761,7 +1761,6 @@ AddStateBits
 NS_STATE_SVG_CLIPPATH_CHILD
 )
 ;
-return
 nsSVGClipPathFrameBase
 :
 :

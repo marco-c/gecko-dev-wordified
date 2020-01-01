@@ -990,7 +990,8 @@ NS_DECL_FRAMEARENA_HELPERS
 /
 /
 nsIFrame
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -1003,6 +1004,7 @@ nsIFrame
 *
 asPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetInitialChildList

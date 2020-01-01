@@ -366,7 +366,7 @@ methods
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 nsSVGTextFrame
 :
 :
@@ -405,7 +405,6 @@ text
 "
 )
 ;
-return
 nsSVGTextFrameBase
 :
 :

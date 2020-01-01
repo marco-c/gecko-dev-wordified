@@ -976,7 +976,7 @@ aDestructRoot
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsImageBoxFrame
 :
 :
@@ -1046,9 +1046,6 @@ mSuppressStyleCheck
 =
 true
 ;
-nsresult
-rv
-=
 nsLeafBoxFrame
 :
 :
@@ -1070,9 +1067,6 @@ UpdateLoadFlags
 UpdateImage
 (
 )
-;
-return
-rv
 ;
 }
 void

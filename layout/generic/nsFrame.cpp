@@ -2861,7 +2861,7 @@ return
 isInline
 ;
 }
-NS_IMETHODIMP
+void
 nsFrame
 :
 :
@@ -3247,9 +3247,6 @@ InitBoxMetrics
 (
 false
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

@@ -25766,7 +25766,7 @@ endif
 -
 -
 -
-NS_IMETHODIMP
+void
 nsTextFrame
 :
 :
@@ -25925,7 +25925,6 @@ zeroed
 out
 at
 init
-return
 nsFrame
 :
 :
@@ -26181,7 +26180,8 @@ nsStyleContext
 aContext
 )
 ;
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -26194,6 +26194,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -26499,7 +26500,7 @@ mPrevContinuation
 ;
 }
 ;
-NS_IMETHODIMP
+void
 nsContinuingTextFrame
 :
 :
@@ -26540,9 +26541,6 @@ Init
 !
 !
 !
-nsresult
-rv
-=
 nsFrame
 :
 :
@@ -27078,9 +27076,6 @@ endif
 /
 /
 IBMBIDI
-return
-rv
-;
 }
 void
 nsContinuingTextFrame

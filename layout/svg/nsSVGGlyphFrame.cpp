@@ -2201,7 +2201,7 @@ NotifyGlyphMetricsChange
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsSVGGlyphFrame
 :
 :
@@ -2309,7 +2309,6 @@ endif
 DEBUG
 *
 /
-return
 nsSVGGlyphFrameBase
 :
 :

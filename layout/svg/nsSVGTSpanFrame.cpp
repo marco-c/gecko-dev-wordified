@@ -418,7 +418,7 @@ methods
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 nsSVGTSpanFrame
 :
 :
@@ -611,7 +611,6 @@ altGlyph
 )
 ;
 }
-return
 nsSVGTSpanFrameBase
 :
 :

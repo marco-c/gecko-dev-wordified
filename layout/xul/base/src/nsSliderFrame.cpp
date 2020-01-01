@@ -459,7 +459,7 @@ nsSliderFrame
 )
 {
 }
-NS_IMETHODIMP
+void
 nsSliderFrame
 :
 :
@@ -476,9 +476,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsresult
-rv
-=
 nsBoxFrame
 :
 :
@@ -540,9 +537,6 @@ GetCurrentPosition
 (
 aContent
 )
-;
-return
-rv
 ;
 }
 NS_IMETHODIMP

@@ -233,7 +233,8 @@ ViewportFrame
 useful
 for
 debugging
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent

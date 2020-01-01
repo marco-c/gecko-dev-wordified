@@ -223,7 +223,7 @@ NS_IMPL_FRAMEARENA_HELPERS
 (
 ViewportFrame
 )
-NS_IMETHODIMP
+void
 ViewportFrame
 :
 :
@@ -240,9 +240,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsresult
-rv
-=
 Super
 :
 :
@@ -290,9 +287,6 @@ NS_FRAME_IN_POPUP
 )
 ;
 }
-return
-rv
-;
 }
 NS_IMETHODIMP
 ViewportFrame

@@ -972,7 +972,7 @@ nsIFrame
 /
 /
 /
-NS_IMETHODIMP
+void
 nsListBoxBodyFrame
 :
 :
@@ -989,9 +989,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsresult
-rv
-=
 nsBoxFrame
 :
 :
@@ -1000,12 +997,6 @@ Init
 aContent
 aParent
 aPrevInFlow
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 nsIScrollableFrame
@@ -1089,9 +1080,6 @@ fm
 MaxHeight
 (
 )
-;
-return
-rv
 ;
 }
 void

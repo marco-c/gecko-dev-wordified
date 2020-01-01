@@ -272,7 +272,7 @@ nsSVGGFrame
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 nsSVGGFrame
 :
 :
@@ -316,7 +316,6 @@ n
 "
 )
 ;
-return
 nsSVGGFrameBase
 :
 :

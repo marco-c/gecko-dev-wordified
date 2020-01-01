@@ -1079,7 +1079,8 @@ NS_DECL_FRAMEARENA_HELPERS
 /
 nsIFrame
 :
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -1092,6 +1093,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

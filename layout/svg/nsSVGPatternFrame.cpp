@@ -804,7 +804,7 @@ aModType
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 nsSVGPatternFrame
 :
 :
@@ -843,7 +843,6 @@ pattern
 "
 )
 ;
-return
 nsSVGPatternFrameBase
 :
 :
