@@ -80,6 +80,7 @@ devicemanager
 import
 DeviceManager
 FileError
+DMError
 NetworkTools
 _pop_last_line
 import
@@ -148,15 +149,6 @@ DeviceManagerSUT
 DeviceManager
 )
 :
-    
-host
-=
-'
-'
-    
-port
-=
-0
     
 debug
 =
@@ -417,7 +409,7 @@ verstring
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -809,6 +801,7 @@ cmd
 "
 "
 "
+        
 Some
 commands
 need
@@ -821,13 +814,13 @@ they
 are
 sent
 :
-            
+          
 *
 rebt
-            
+          
 *
 uninst
-            
+          
 *
 quit
         
@@ -899,7 +892,7 @@ return
 False
     
 def
-sendCmds
+_sendCmds
 (
 self
 cmdlist
@@ -914,8 +907,7 @@ None
 "
 "
         
-a
-wrapper
+Wrapper
 for
 _doCmds
 that
@@ -926,8 +918,12 @@ self
 .
 retrylimit
 iterations
-.
         
+"
+"
+"
+        
+#
 this
 allows
 us
@@ -946,6 +942,7 @@ to
 make
 it
         
+#
 easier
 for
 debugging
@@ -954,6 +951,7 @@ the
 future
 .
         
+#
 note
 that
 since
@@ -970,6 +968,7 @@ be
 retried
 if
         
+#
 one
 fails
 .
@@ -989,6 +988,7 @@ don
 t
 want
         
+#
 to
 accidentally
 send
@@ -1002,10 +1002,6 @@ during
 data
 transmission
 .
-        
-"
-"
-"
         
 retries
 =
@@ -1185,7 +1181,7 @@ retrylimit
 )
     
 def
-runCmds
+_runCmds
 (
 self
 cmdlist
@@ -1199,9 +1195,9 @@ None
 "
 "
         
-similar
+Similar
 to
-sendCmds
+_sendCmds
 but
 just
 returns
@@ -1217,25 +1213,6 @@ writing
 to
 a
 file
-.
-this
-is
-normally
-what
-you
-want
-to
-call
-to
-send
-a
-set
-        
-of
-commands
-to
-the
-agent
         
 "
 "
@@ -1251,7 +1228,7 @@ StringIO
         
 self
 .
-sendCmds
+_sendCmds
 (
 cmdlist
 outputfile
@@ -2408,25 +2385,74 @@ False
 "
 "
         
-external
-function
-:
-executes
+Executes
 shell
 command
 on
 device
+.
+        
+cmd
+-
+Command
+string
+to
+execute
+        
+outputfile
+-
+File
+to
+store
+output
+        
+env
+-
+Environment
+to
+pass
+to
+exec
+command
+        
+cwd
+-
+Directory
+to
+execute
+command
+from
+        
+timeout
+-
+specified
+in
+seconds
+defaults
+to
+'
+default_timeout
+'
+        
+root
+-
+Specifies
+whether
+command
+requires
+root
+privileges
         
 returns
 :
-         
+          
 success
 :
-<
-return
+Return
 code
->
-         
+from
+command
+          
 failure
 :
 None
@@ -2460,7 +2486,7 @@ s
 (
 self
 .
-formatEnvString
+_formatEnvString
 (
 env
 )
@@ -2588,7 +2614,7 @@ cwd
                 
 self
 .
-sendCmds
+_sendCmds
 (
 [
 {
@@ -2630,7 +2656,7 @@ haveExecSu
                     
 self
 .
-sendCmds
+_sendCmds
 (
 [
 {
@@ -2711,7 +2737,7 @@ future
                     
 self
 .
-sendCmds
+_sendCmds
 (
 [
 {
@@ -2842,8 +2868,16 @@ destname
 "
 "
         
-external
-function
+Copies
+localname
+from
+the
+host
+to
+destname
+on
+the
+device
         
 returns
 :
@@ -3090,7 +3124,7 @@ retVal
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -3237,7 +3271,7 @@ localHash
 =
 self
 .
-getLocalHash
+_getLocalHash
 (
 localname
 )
@@ -3355,8 +3389,15 @@ name
 "
 "
         
-external
-function
+Creates
+a
+single
+directory
+on
+the
+device
+file
+system
         
 returns
 :
@@ -3398,7 +3439,7 @@ retVal
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -3439,7 +3480,7 @@ remoteDir
 "
 "
         
-push
+Push
 localDir
 from
 host
@@ -3448,9 +3489,6 @@ remoteDir
 on
 the
 device
-        
-external
-function
         
 returns
 :
@@ -3663,8 +3701,20 @@ dirname
 "
 "
         
-external
-function
+Checks
+if
+dirname
+exists
+and
+is
+a
+directory
+        
+on
+the
+device
+file
+system
         
 returns
 :
@@ -3720,7 +3770,7 @@ data
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -3817,8 +3867,20 @@ filepath
 "
 "
         
-external
-function
+Checks
+if
+filepath
+exists
+and
+is
+a
+file
+on
+        
+the
+device
+file
+system
         
 returns
 :
@@ -3908,19 +3970,12 @@ rootdir
 "
 "
         
-list
+Lists
 files
 on
 the
 device
-requires
-cd
-to
-directory
-first
-        
-external
-function
+rootdir
         
 returns
 :
@@ -3944,8 +3999,7 @@ file2
           
 failure
 :
-[
-]
+None
         
 "
 "
@@ -3987,7 +4041,7 @@ data
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -4096,8 +4150,11 @@ filename
 "
 "
         
-external
-function
+Removes
+filename
+from
+the
+device
         
 returns
 :
@@ -4107,25 +4164,6 @@ success
 output
 of
 telnet
-i
-.
-e
-.
-"
-removing
-file
-:
-/
-mnt
-/
-sdcard
-/
-tests
-/
-test
-.
-txt
-"
           
 failure
 :
@@ -4162,7 +4200,7 @@ retVal
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -4201,7 +4239,7 @@ remoteDir
 "
 "
         
-does
+Does
 a
 recursive
 delete
@@ -4216,9 +4254,6 @@ rm
 Rf
 remoteDir
         
-external
-function
-        
 returns
 :
           
@@ -4227,25 +4262,6 @@ success
 output
 of
 telnet
-i
-.
-e
-.
-"
-removing
-file
-:
-/
-mnt
-/
-sdcard
-/
-tests
-/
-test
-.
-txt
-"
           
 failure
 :
@@ -4262,7 +4278,7 @@ retVal
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -4300,8 +4316,13 @@ self
 "
 "
         
-external
-function
+Lists
+the
+running
+processes
+on
+the
+device
         
 returns
 :
@@ -4329,7 +4350,7 @@ data
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -4474,9 +4495,6 @@ False
 "
 "
         
-external
-function
-        
 DEPRECATED
 :
 Use
@@ -4611,7 +4629,7 @@ try
             
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -4737,9 +4755,6 @@ False
 "
 "
 "
-        
-external
-function
         
 DEPRECATED
 :
@@ -4886,7 +4901,7 @@ s
 (
 self
 .
-formatEnvString
+_formatEnvString
 (
 env
 )
@@ -4926,8 +4941,23 @@ False
 "
 "
         
-external
-function
+Kills
+the
+process
+named
+appname
+.
+        
+If
+forceKill
+is
+True
+process
+is
+killed
+regardless
+of
+state
         
 returns
 :
@@ -4968,7 +4998,7 @@ try
             
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -5006,16 +5036,38 @@ self
 "
 "
         
-external
-function
+Gets
+the
+temporary
+directory
+we
+are
+using
+on
+this
+device
+        
+base
+on
+our
+device
+root
+ensuring
+also
+that
+it
+exists
+.
         
 returns
 :
           
 success
 :
-tmpdir
-string
+path
+for
+temporary
+directory
           
 failure
 :
@@ -5032,7 +5084,7 @@ data
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -5073,8 +5125,11 @@ remoteFile
 "
 "
         
-external
-function
+Returns
+the
+contents
+of
+remoteFile
         
 returns
 :
@@ -5082,6 +5137,7 @@ returns
 success
 :
 filecontents
+string
           
 failure
 :
@@ -5098,7 +5154,7 @@ data
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -5136,6 +5192,7 @@ remoteFile
 "
 "
 "
+        
 Returns
 contents
 of
@@ -5147,87 +5204,6 @@ pull
 "
 command
 .
-        
-The
-"
-pull
-"
-command
-is
-different
-from
-other
-commands
-in
-that
-DeviceManager
-        
-has
-to
-read
-a
-certain
-number
-of
-bytes
-instead
-of
-just
-reading
-to
-the
-        
-next
-prompt
-.
-This
-is
-more
-robust
-than
-the
-"
-cat
-"
-command
-which
-will
-be
-        
-confused
-if
-the
-prompt
-string
-exists
-within
-the
-file
-being
-catted
-.
-        
-However
-it
-means
-we
-can
-'
-t
-use
-the
-response
--
-handling
-logic
-in
-sendCMD
-(
-)
-.
-        
-external
-function
         
 returns
 :
@@ -5246,6 +5222,89 @@ None
 "
 "
 "
+        
+#
+The
+"
+pull
+"
+command
+is
+different
+from
+other
+commands
+in
+that
+DeviceManager
+        
+#
+has
+to
+read
+a
+certain
+number
+of
+bytes
+instead
+of
+just
+reading
+to
+the
+        
+#
+next
+prompt
+.
+This
+is
+more
+robust
+than
+the
+"
+cat
+"
+command
+which
+will
+be
+        
+#
+confused
+if
+the
+prompt
+string
+exists
+within
+the
+file
+being
+catted
+.
+        
+#
+However
+it
+means
+we
+can
+'
+t
+use
+the
+response
+-
+handling
+logic
+in
+sendCMD
+(
+)
+.
         
 def
 err
@@ -5676,7 +5735,7 @@ below
             
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -6032,7 +6091,7 @@ localFile
 "
 "
         
-copy
+Copy
 file
 from
 device
@@ -6045,17 +6104,14 @@ host
 localFile
 )
         
-external
-function
-        
 returns
 :
           
 success
 :
-output
+contents
 of
-pullfile
+file
 string
           
 failure
@@ -6193,7 +6249,7 @@ True
 "
 "
         
-copy
+Copy
 directory
 structure
 from
@@ -6206,45 +6262,6 @@ host
 (
 localDir
 )
-        
-external
-function
-        
-checkDir
-exists
-so
-that
-we
-don
-'
-t
-create
-local
-directories
-if
-the
-        
-remote
-directory
-doesn
-'
-t
-exist
-but
-also
-so
-that
-we
-don
-'
-t
-call
-isDir
-        
-twice
-when
-recursing
-.
         
 returns
 :
@@ -6584,8 +6601,15 @@ remotePath
 "
 "
         
-external
-function
+Checks
+if
+remotePath
+is
+a
+directory
+on
+the
+device
         
 returns
 :
@@ -6598,19 +6622,6 @@ failure
 :
 False
         
-Throws
-a
-FileError
-exception
-when
-null
-(
-invalid
-dir
-/
-filename
-)
-        
 "
 "
 "
@@ -6622,7 +6633,7 @@ data
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -6736,22 +6747,18 @@ localFile
 "
 "
         
-true
-/
-false
-check
+Checks
 if
 the
-two
-files
-have
+remoteFile
+has
 the
 same
 md5
-sum
-        
-external
-function
+hash
+as
+the
+localFile
         
 returns
 :
@@ -6772,7 +6779,7 @@ remoteHash
 =
 self
 .
-getRemoteHash
+_getRemoteHash
 (
 remoteFile
 )
@@ -6781,7 +6788,7 @@ localHash
 =
 self
 .
-getLocalHash
+_getLocalHash
 (
 localFile
 )
@@ -6814,7 +6821,7 @@ return
 False
     
 def
-getRemoteHash
+_getRemoteHash
 (
 self
 filename
@@ -6825,17 +6832,16 @@ filename
 "
 "
         
-return
+Return
 the
 md5
 sum
 of
 a
-remote
 file
-        
-internal
-function
+on
+the
+device
         
 returns
 :
@@ -6863,7 +6869,7 @@ data
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -7041,9 +7047,6 @@ reftest
 /
 mochitest
         
-external
-function
-        
 returns
 :
           
@@ -7084,7 +7087,7 @@ data
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -7166,6 +7169,47 @@ packageName
 )
 :
         
+"
+"
+"
+        
+Returns
+the
+app
+root
+directory
+        
+E
+.
+g
+/
+tests
+/
+fennec
+or
+/
+tests
+/
+firefox
+        
+returns
+:
+          
+success
+:
+path
+for
+app
+root
+          
+failure
+:
+None
+        
+"
+"
+"
+        
 try
 :
             
@@ -7173,7 +7217,7 @@ data
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -7218,8 +7262,29 @@ None
 "
 "
         
-external
-function
+Unzips
+a
+remote
+bundle
+to
+a
+remote
+location
+        
+If
+dest_dir
+is
+not
+specified
+the
+bundle
+is
+extracted
+        
+in
+the
+same
+directory
         
 returns
 :
@@ -7316,7 +7381,7 @@ data
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -7367,8 +7432,9 @@ port
 "
 "
         
-external
-function
+Reboots
+the
+device
         
 returns
 :
@@ -7474,7 +7540,7 @@ port
                 
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -7497,7 +7563,6 @@ len
 data
 )
 )
-                                                
 '
 data
 '
@@ -7519,7 +7584,7 @@ port
 =
 self
 .
-getCallbackIpAndPort
+_getCallbackIpAndPort
 (
 ipAddr
 port
@@ -7565,7 +7630,7 @@ status
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -7697,11 +7762,11 @@ device
 in
 milliseconds
 (
-SUTAgent
-1
-.
-11
-+
+NOT
+supported
+on
+all
+implementations
 )
           
 systime
@@ -7716,17 +7781,6 @@ screen
 -
 screen
 resolution
-          
-rotation
--
-rotation
-of
-the
-device
-(
-in
-degrees
-)
           
 memory
 -
@@ -7797,8 +7851,7 @@ name
           
 failure
 :
-{
-}
+None
         
 "
 "
@@ -7890,7 +7943,7 @@ data
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -8093,14 +8146,13 @@ None
 "
         
 Installs
-the
+an
 application
 onto
 the
 device
         
-Application
-bundle
+appBundlePath
 -
 path
 to
@@ -8111,7 +8163,7 @@ on
 the
 device
         
-Destination
+destPath
 -
 destination
 directory
@@ -8120,25 +8172,11 @@ where
 application
 should
 be
-                                    
 installed
 to
 (
 optional
 )
-        
-Returns
-None
-for
-success
-or
-output
-if
-known
-failure
-        
-external
-function
         
 returns
 :
@@ -8183,7 +8221,7 @@ data
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -8264,6 +8302,214 @@ return
 None
     
 def
+uninstallApp
+(
+self
+appName
+installPath
+=
+None
+)
+:
+        
+"
+"
+"
+        
+Uninstalls
+the
+named
+application
+from
+device
+and
+DOES
+NOT
+cause
+a
+reboot
+        
+appName
+-
+the
+name
+of
+the
+application
+(
+e
+.
+g
+org
+.
+mozilla
+.
+fennec
+)
+        
+installPath
+-
+the
+path
+to
+where
+the
+application
+was
+installed
+(
+optional
+)
+        
+returns
+:
+          
+success
+:
+None
+          
+failure
+:
+DMError
+exception
+thrown
+        
+"
+"
+"
+        
+cmd
+=
+'
+uninstall
+'
++
+appName
+        
+if
+installPath
+:
+            
+cmd
++
+=
+'
+'
++
+installPath
+        
+try
+:
+            
+data
+=
+self
+.
+_runCmds
+(
+[
+{
+'
+cmd
+'
+:
+cmd
+}
+]
+)
+        
+except
+AgentError
+err
+:
+            
+raise
+DMError
+(
+"
+Remote
+Device
+Error
+:
+Error
+uninstalling
+all
+%
+s
+"
+%
+appName
+)
+        
+status
+=
+data
+.
+split
+(
+'
+\
+n
+'
+)
+[
+0
+]
+.
+strip
+(
+)
+        
+if
+self
+.
+debug
+>
+3
+:
+            
+print
+"
+uninstallApp
+:
+'
+%
+s
+'
+"
+%
+status
+        
+if
+status
+=
+=
+'
+Success
+'
+:
+            
+return
+        
+raise
+DMError
+(
+"
+Remote
+Device
+Error
+:
+uninstall
+failed
+for
+%
+s
+"
+%
+appName
+)
+    
+def
 uninstallAppAndReboot
 (
 self
@@ -8288,15 +8534,26 @@ and
 causes
 a
 reboot
-.
         
-Takes
-an
-optional
-argument
+appName
+-
+the
+name
 of
-installation
-path
+the
+application
+(
+e
+.
+g
+org
+.
+mozilla
+.
+fennec
+)
+        
+installPath
 -
 the
 path
@@ -8304,56 +8561,24 @@ to
 where
 the
 application
-        
 was
 installed
-.
-        
-Returns
-True
-but
-it
-doesn
-'
-t
-mean
-anything
-other
-than
-the
-command
-was
-sent
-        
-the
-reboot
-happens
-and
-we
-don
-'
-t
-know
-if
-this
-succeeds
-or
-not
-.
-        
-external
-function
+(
+optional
+)
         
 returns
 :
           
 success
 :
-True
+None
           
 failure
 :
-None
+DMError
+exception
+thrown
         
 "
 "
@@ -8386,7 +8611,7 @@ data
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -8403,8 +8628,23 @@ except
 AgentError
 :
             
-return
-None
+raise
+DMError
+(
+"
+Remote
+Device
+Error
+:
+uninstall
+failed
+for
+%
+s
+"
+%
+appName
+)
         
 if
 (
@@ -8428,7 +8668,6 @@ data
 )
         
 return
-True
     
 def
 updateApp
@@ -8462,8 +8701,7 @@ the
 device
 .
         
-Application
-bundle
+appBundlePath
 -
 path
 to
@@ -8474,10 +8712,7 @@ on
 the
 device
         
-Process
-name
-of
-application
+processName
 -
 used
 to
@@ -8488,11 +8723,13 @@ if
 the
 applicaiton
 is
-                                                                    
 currently
 running
+(
+optional
+)
         
-Destination
+destPath
 -
 Destination
 directory
@@ -8502,7 +8739,6 @@ the
 application
 should
 be
-                                    
 installed
 (
 optional
@@ -8526,7 +8762,7 @@ the
 device
 has
 updated
-                          
+                 
 properly
 -
 defaults
@@ -8553,7 +8789,7 @@ device
 has
 updated
 properly
-                      
+               
 defaults
 to
 30000
@@ -8567,17 +8803,6 @@ it
 finds
 a
 conflict
-        
-Returns
-True
-if
-succeeds
-False
-if
-not
-        
-external
-function
         
 returns
 :
@@ -8679,7 +8904,7 @@ port
 =
 self
 .
-getCallbackIpAndPort
+_getCallbackIpAndPort
 (
 ipAddr
 port
@@ -8751,7 +8976,7 @@ status
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -8828,16 +9053,14 @@ self
 "
 "
         
-return
-the
-current
-time
-on
-the
+Returns
 device
-        
-external
-function
+time
+in
+milliseconds
+since
+the
+epoch
         
 returns
 :
@@ -8863,7 +9086,7 @@ data
 =
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -8893,7 +9116,7 @@ strip
 )
     
 def
-getCallbackIpAndPort
+_getCallbackIpAndPort
 (
 self
 aIp
@@ -9010,7 +9233,7 @@ ip
 port
     
 def
-formatEnvString
+_formatEnvString
 (
 self
 env
@@ -9213,10 +9436,13 @@ a
 tegra
 ATM
         
+return
+:
+          
 success
 :
 True
-        
+          
 failure
 :
 False
@@ -9557,7 +9783,7 @@ try
             
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -9593,7 +9819,7 @@ width
             
 self
 .
-runCmds
+_runCmds
 (
 [
 {
@@ -9642,6 +9868,9 @@ chmodDir
 (
 self
 remoteDir
+*
+*
+kwargs
 )
 :
         
@@ -9649,8 +9878,13 @@ remoteDir
 "
 "
         
-external
-function
+Recursively
+changes
+file
+permissions
+in
+a
+directory
         
 returns
 :
@@ -9672,7 +9906,7 @@ try
             
 self
 .
-runCmds
+_runCmds
 (
 [
 {
