@@ -2494,16 +2494,8 @@ belongs
 to
 .
 *
-return
-whether
-an
-image
-load
-was
-attempted
-*
 /
-bool
+void
 LoadImage
 (
 nsIDocument
