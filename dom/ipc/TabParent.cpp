@@ -4399,6 +4399,15 @@ TabParent
 :
 AllocPRenderFrame
 (
+LayersBackend
+*
+aBackend
+int32_t
+*
+aMaxTextureSize
+uint64_t
+*
+aLayersId
 )
 {
 nsRefPtr
@@ -4416,6 +4425,9 @@ new
 RenderFrameParent
 (
 frameLoader
+aBackend
+aMaxTextureSize
+aLayersId
 )
 ;
 }

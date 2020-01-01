@@ -478,11 +478,14 @@ AllocPLayers
 const
 LayersBackend
 &
-aBackend
+aBackendHint
 const
 uint64_t
 &
 aId
+LayersBackend
+*
+aBackend
 int
 *
 aMaxTextureSize
