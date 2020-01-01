@@ -2301,9 +2301,6 @@ nsIFrame
 :
 GetOrdinal
 (
-nsBoxLayoutState
-&
-aState
 )
 {
 uint32_t

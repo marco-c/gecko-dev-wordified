@@ -20171,9 +20171,6 @@ nsBoxFrame
 uint32_t
 GetOrdinal
 (
-nsBoxLayoutState
-&
-aBoxLayoutState
 )
 ;
 virtual
