@@ -4616,6 +4616,16 @@ PreDestroy
 has
 been
 called
+PRPackedBool
+mDidPostCreate
+;
+/
+/
+whether
+PostCreate
+has
+been
+called
 /
 /
 various
