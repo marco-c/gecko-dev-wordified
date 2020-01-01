@@ -63,16 +63,6 @@ import
 re
 import
 subprocess
-import
-pymake
-.
-parser
-from
-pymake
-.
-data
-import
-Makefile
 from
 mach
 .
