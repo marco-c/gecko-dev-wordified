@@ -3246,6 +3246,7 @@ nsGkAtoms
 range
 ranges
 RangeHashTableDtor
+true
 )
 ;
 }
