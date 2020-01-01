@@ -2759,7 +2759,6 @@ bounds
 ;
 layerItems
 =
-&
 aLayers
 -
 >
