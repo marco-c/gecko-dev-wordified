@@ -418,8 +418,6 @@ import
 win32pipe
 import
 msvcrt
-import
-config
 def
 GenerateFirefoxCommandLine
 (
