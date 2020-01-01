@@ -414,6 +414,7 @@ mIsNVIDIA
 mIsFGLRX
 mIsNouveau
 mIsIntel
+mIsOldSwrast
 ;
 bool
 mHasTextureFromPixmap
