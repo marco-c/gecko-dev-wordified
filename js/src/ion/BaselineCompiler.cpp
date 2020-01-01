@@ -1704,6 +1704,8 @@ cx
 runtime
 -
 >
+mainThread
+.
 ionStackLimit
 ;
 masm

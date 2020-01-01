@@ -7741,6 +7741,9 @@ length_
 cached
 =
 js_NewString
+<
+CanGC
+>
 (
 cx
 decompressed
@@ -7817,6 +7820,9 @@ source
 endif
 return
 js_NewStringCopyN
+<
+CanGC
+>
 (
 cx
 chars
