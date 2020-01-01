@@ -8954,12 +8954,15 @@ uniqueURI
 ;
 GeckoAppShell
 .
-installWebApp
+createShortcut
 (
 name
 launchPath
 uniqueURI
 iconURL
+"
+webapp
+"
 )
 ;
 }
