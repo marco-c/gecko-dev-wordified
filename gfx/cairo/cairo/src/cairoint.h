@@ -4387,6 +4387,11 @@ r
 #
 if
 DISABLE_SOME_FLOATING_POINT
+|
+|
+__STDC_VERSION__
+<
+199901L
 cairo_private
 int
 _cairo_lround
