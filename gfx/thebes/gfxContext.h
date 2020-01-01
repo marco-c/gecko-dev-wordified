@@ -4062,6 +4062,12 @@ gfxPattern
 >
 pattern
 ;
+nsRefPtr
+<
+gfxASurface
+>
+sourceSurfCairo
+;
 mozilla
 :
 :
