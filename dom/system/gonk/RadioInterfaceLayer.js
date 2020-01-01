@@ -9266,7 +9266,7 @@ _sendMobileConnectionMessage
 "
 RIL
 :
-UssdReceived
+USSDReceived
 "
 ussd
 )
