@@ -16830,9 +16830,7 @@ compartment
 )
 -
 >
-crossCompartmentWrappers
-.
-lookup
+lookupWrapper
 (
 key
 )
