@@ -5240,7 +5240,7 @@ sizeOfIncludingThis
 (
 JSMallocSizeOfFun
 mallocSizeOf
-js
+JS
 :
 :
 RuntimeSizes
