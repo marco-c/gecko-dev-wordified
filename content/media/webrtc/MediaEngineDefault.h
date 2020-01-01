@@ -166,15 +166,6 @@ interface
 .
 *
 /
-enum
-DefaultEngineState
-{
-kAllocated
-kStarted
-kStopped
-kReleased
-}
-;
 class
 MediaEngineDefaultVideoSource
 :
@@ -277,7 +268,7 @@ ImageContainer
 >
 mImageContainer
 ;
-DefaultEngineState
+MediaEngineState
 mState
 ;
 SourceMediaStream
@@ -392,7 +383,7 @@ nsITimer
 >
 mTimer
 ;
-DefaultEngineState
+MediaEngineState
 mState
 ;
 SourceMediaStream

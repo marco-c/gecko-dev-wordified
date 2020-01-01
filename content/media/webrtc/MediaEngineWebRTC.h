@@ -345,15 +345,6 @@ interface
 .
 *
 /
-enum
-WebRTCEngineState
-{
-kAllocated
-kStarted
-kStopped
-kReleased
-}
-;
 class
 MediaEngineWebRTCVideoSource
 :
@@ -688,7 +679,7 @@ mHeight
 TrackID
 mTrackID
 ;
-WebRTCEngineState
+MediaEngineState
 mState
 ;
 mozilla
@@ -1010,7 +1001,7 @@ mTrackID
 bool
 mInitDone
 ;
-WebRTCEngineState
+MediaEngineState
 mState
 ;
 nsString
