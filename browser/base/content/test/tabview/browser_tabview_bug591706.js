@@ -523,7 +523,7 @@ firstTabItem
 =
 firstTab
 .
-tabItem
+_tabViewTabItem
 ;
 let
 currentGroup
@@ -710,7 +710,7 @@ secondTabItem
 =
 secondTab
 .
-tabItem
+_tabViewTabItem
 ;
 ok
 (

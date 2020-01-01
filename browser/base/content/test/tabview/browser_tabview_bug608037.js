@@ -763,7 +763,7 @@ undoCloseTab
 ;
 tabTwo
 .
-tabItem
+_tabViewTabItem
 .
 addSubscriber
 (
@@ -777,7 +777,7 @@ function
 {
 tabTwo
 .
-tabItem
+_tabViewTabItem
 .
 removeSubscriber
 (

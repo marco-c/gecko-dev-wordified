@@ -566,7 +566,7 @@ tab1Item
 =
 tab1
 .
-tabItem
+_tabViewTabItem
 ;
 ok
 (

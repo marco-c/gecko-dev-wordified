@@ -563,7 +563,7 @@ testTabItem
 =
 testTab
 .
-tabItem
+_tabViewTabItem
 ;
 if
 (
@@ -879,12 +879,12 @@ remove
 (
 testTab
 .
-tabItem
+_tabViewTabItem
 )
 ;
 testTab
 .
-tabItem
+_tabViewTabItem
 .
 close
 (
