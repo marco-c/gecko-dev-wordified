@@ -2064,6 +2064,10 @@ mPrevSibling
 (
 nullptr
 )
+mNeedsPaint
+(
+false
+)
 {
 }
 /
@@ -9672,6 +9676,15 @@ return
 false
 ;
 }
+bool
+NeedsPaint
+(
+)
+{
+return
+true
+;
+}
 /
 *
 *
@@ -10045,6 +10058,9 @@ mNextSibling
 nsIWidget
 *
 mPrevSibling
+;
+bool
+mNeedsPaint
 ;
 }
 ;
