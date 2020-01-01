@@ -1425,7 +1425,7 @@ bool
 showWarningBox
 )
 ;
-nsresult
+void
 ShutdownNSS
 (
 )
@@ -1584,14 +1584,6 @@ profile
 startup
 )
 :
-void
-DoProfileApproveChange
-(
-nsISupports
-*
-aSubject
-)
-;
 void
 DoProfileChangeNetTeardown
 (
