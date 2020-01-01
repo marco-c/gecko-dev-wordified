@@ -131,6 +131,13 @@ jsopcodeinlines
 .
 h
 "
+#
+include
+"
+jsobjinlines
+.
+h
+"
 using
 namespace
 js
