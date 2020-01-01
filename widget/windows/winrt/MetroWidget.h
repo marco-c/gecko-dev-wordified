@@ -747,6 +747,11 @@ GetDPI
 (
 )
 ;
+void
+ChangedDPI
+(
+)
+;
 virtual
 bool
 IsVisible
