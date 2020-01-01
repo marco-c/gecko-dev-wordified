@@ -2974,6 +2974,8 @@ strlen
 (
 prefix
 )
++
+1
 )
 ;
 if
