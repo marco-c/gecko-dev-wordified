@@ -3769,8 +3769,10 @@ win
 NS_OK
 )
 ;
+nsCOMPtr
+<
 nsIDOMDocument
-*
+>
 domDoc
 =
 win
