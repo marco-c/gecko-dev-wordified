@@ -5983,14 +5983,12 @@ local
 false
 )
 ;
+forgetAllRegs
+(
 getLocal
 (
 n
 )
--
->
-resetSynced
-(
 )
 ;
 return
