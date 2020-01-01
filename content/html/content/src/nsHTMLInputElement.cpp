@@ -6241,6 +6241,7 @@ value
 if
 needed
 .
+return
 formControlFrame
 -
 >
@@ -6259,9 +6260,6 @@ nsGkAtoms
 value
 aValue
 )
-;
-return
-NS_OK
 ;
 }
 SetValueChanged
