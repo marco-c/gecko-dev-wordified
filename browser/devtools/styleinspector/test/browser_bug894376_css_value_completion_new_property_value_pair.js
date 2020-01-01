@@ -401,14 +401,12 @@ node
 ;
 inspector
 .
-sidebar
-.
 once
 (
 "
-ruleview
+inspector
 -
-ready
+updated
 "
 testCompletion
 )
