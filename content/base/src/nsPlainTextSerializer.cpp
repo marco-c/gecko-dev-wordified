@@ -3367,9 +3367,6 @@ presence
 of
 a
 "
--
-moz
--
 pre
 -
 wrap
