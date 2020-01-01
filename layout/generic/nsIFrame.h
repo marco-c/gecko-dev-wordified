@@ -17464,6 +17464,8 @@ nsIFrame
 *
 mParent
 ;
+private
+:
 nsIFrame
 *
 mNextSibling
@@ -17476,6 +17478,8 @@ linked
 list
 of
 frames
+protected
+:
 nsFrameState
 mState
 ;
