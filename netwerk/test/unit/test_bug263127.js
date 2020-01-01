@@ -187,7 +187,8 @@ server
 .
 start
 (
-4444
+-
+1
 )
 ;
 /
@@ -230,7 +231,15 @@ http
 /
 localhost
 :
-4444
+"
++
+server
+.
+identity
+.
+primaryPort
++
+"
 /
 "
 null
