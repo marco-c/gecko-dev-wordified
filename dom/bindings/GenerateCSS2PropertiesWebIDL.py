@@ -107,12 +107,14 @@ extendedAttrs
 .
 append
 (
-"
+'
 Pref
 =
+"
 %
 s
 "
+'
 %
 pref
 )
