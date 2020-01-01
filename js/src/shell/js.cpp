@@ -14273,8 +14273,7 @@ if
 JS_ValueToId
 (
 cx
-*
-vp
+id
 &
 asId
 )
