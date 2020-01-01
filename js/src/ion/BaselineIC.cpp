@@ -16353,10 +16353,13 @@ getProperty
 if
 (
 !
-GetPropertyGenericMaybeCallXML
+JSObject
+:
+:
+getGeneric
 (
 cx
-op
+obj
 obj
 id
 res
