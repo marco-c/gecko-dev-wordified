@@ -822,6 +822,7 @@ space
 /
 class
 nsGeoPositionCoords
+MOZ_FINAL
 :
 public
 nsIDOMGeoPositionCoords
@@ -848,13 +849,13 @@ double
 aSpeed
 )
 ;
-private
-:
 ~
 nsGeoPositionCoords
 (
 )
 ;
+private
+:
 const
 double
 mLat

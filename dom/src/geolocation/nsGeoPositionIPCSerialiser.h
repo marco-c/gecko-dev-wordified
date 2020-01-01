@@ -429,7 +429,7 @@ nsIDOMGeoPositionAddress
 GeoPositionAddress
 ;
 typedef
-nsIDOMGeoPositionCoords
+nsGeoPositionCoords
 *
 GeoPositionCoords
 ;
@@ -1407,10 +1407,16 @@ coords
 GeoPositionCoords
 simpleCoords
 =
+static_cast
+<
+GeoPositionCoords
+>
+(
 coords
 .
 get
 (
+)
 )
 ;
 WriteParam
