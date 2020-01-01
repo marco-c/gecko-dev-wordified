@@ -1885,7 +1885,6 @@ sms
 .
 enabled
 "
-false
 )
 ;
 SpecialPowers
