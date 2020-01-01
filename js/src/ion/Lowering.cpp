@@ -1696,7 +1696,7 @@ freeArguments
 call
 -
 >
-argc
+numStackArgs
 (
 )
 )
