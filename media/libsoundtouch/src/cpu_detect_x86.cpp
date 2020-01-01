@@ -648,6 +648,12 @@ defined
 (
 __GNUC__
 )
+&
+&
+defined
+(
+HAVE_CPUID_H
+)
 /
 /
 gcc
