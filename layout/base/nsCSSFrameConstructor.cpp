@@ -1148,7 +1148,7 @@ MOZ_SVG
 #
 include
 "
-nsSVGUtils
+nsSVGEffects
 .
 h
 "
@@ -61554,7 +61554,7 @@ hint
 nsChangeHint_UpdateEffects
 )
 {
-nsSVGUtils
+nsSVGEffects
 :
 :
 UpdateEffects
