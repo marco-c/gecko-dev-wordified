@@ -1794,7 +1794,7 @@ nsnull
 *
 persistant
 =
-PR_TRUE
+PR_FALSE
 ;
 nsCOMPtr
 <
