@@ -1135,6 +1135,12 @@ rev
         
 self
 .
+root
+=
+root
+        
+self
+.
 cleanroot
 =
 cleanroot
@@ -1211,7 +1217,7 @@ self
 .
 repo
 .
-path
+root
     
 def
 GetCleanRoot
