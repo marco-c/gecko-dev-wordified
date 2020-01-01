@@ -773,9 +773,6 @@ void
 javaVM
 void
 *
-env
-void
-*
 context
 )
 {
@@ -799,7 +796,6 @@ AudioDeviceAndroidJni
 SetAndroidAudioDeviceObjects
 (
 javaVM
-env
 context
 )
 ;

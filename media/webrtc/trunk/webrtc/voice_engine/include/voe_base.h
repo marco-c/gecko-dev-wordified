@@ -609,9 +609,6 @@ void
 javaVM
 void
 *
-env
-void
-*
 context
 )
 ;
