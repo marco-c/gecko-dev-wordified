@@ -3557,6 +3557,19 @@ sunos5
 solaris
 '
 )
+\
+                
+or
+sys
+.
+platform
+.
+startswith
+(
+'
+freebsd
+'
+)
 :
             
 for
@@ -5111,23 +5124,14 @@ shiretoko
 ]
         
 if
-(
-sys
-.
-platform
-=
-=
-'
-linux2
-'
-)
-or
-(
 sys
 .
 platform
 in
 (
+'
+linux2
+'
 '
 sunos5
 '
@@ -5135,6 +5139,18 @@ sunos5
 solaris
 '
 )
+\
+                
+or
+sys
+.
+platform
+.
+startswith
+(
+'
+freebsd
+'
 )
 :
             
