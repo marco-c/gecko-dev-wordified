@@ -1543,7 +1543,7 @@ EatWhiteSpace
 (
 )
 ;
-void
+PRBool
 ParseAndAppendEscape
 (
 nsString
