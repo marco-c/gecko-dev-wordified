@@ -459,7 +459,7 @@ h
 #
 include
 "
-gfxPlatformQt
+gfxQtPlatform
 .
 h
 "
@@ -701,7 +701,7 @@ pointSizeF
 *
 float
 (
-gfxPlatformQt
+gfxQtPlatform
 :
 :
 DPI
