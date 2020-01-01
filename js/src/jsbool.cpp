@@ -1147,7 +1147,7 @@ runtime
 >
 atomState
 .
-trueAtom
+true_
 :
 cx
 -
@@ -1157,7 +1157,7 @@ runtime
 >
 atomState
 .
-falseAtom
+false_
 ;
 }
 namespace
