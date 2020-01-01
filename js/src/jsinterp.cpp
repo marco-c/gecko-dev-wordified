@@ -30978,6 +30978,9 @@ rval2set
 {
 op2
 =
+(
+JSOp
+)
 regs
 .
 pc
