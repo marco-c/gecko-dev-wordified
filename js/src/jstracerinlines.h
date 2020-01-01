@@ -3432,7 +3432,7 @@ cx
 >
 binary0
 (
-LIR_eq
+LIR_ugt
 &
 obj
 &

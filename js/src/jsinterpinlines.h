@@ -2689,10 +2689,9 @@ r
 r
 =
 obj
-?
-false
-:
-true
+!
+=
+NULL
 ;
 }
 #
