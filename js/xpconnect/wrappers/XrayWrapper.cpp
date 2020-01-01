@@ -508,6 +508,9 @@ ExpandoObjectFinalize
 bool
 ExpandoObjectMatchesConsumer
 (
+JSContext
+*
+cx
 JSObject
 *
 expandoObject
@@ -705,6 +708,9 @@ JSObject
 *
 LookupExpandoObject
 (
+JSContext
+*
+cx
 JSObject
 *
 target
@@ -748,6 +754,7 @@ if
 (
 ExpandoObjectMatchesConsumer
 (
+cx
 head
 origin
 exclusiveGlobal
@@ -790,6 +797,9 @@ JSObject
 *
 LookupExpandoObject
 (
+JSContext
+*
+cx
 JSObject
 *
 target
@@ -834,6 +844,7 @@ Sandbox
 return
 LookupExpandoObject
 (
+cx
 target
 ObjectPrincipal
 (
@@ -894,6 +905,7 @@ MOZ_ASSERT
 !
 LookupExpandoObject
 (
+cx
 target
 origin
 exclusiveGlobal
@@ -1134,6 +1146,7 @@ expandoObject
 =
 LookupExpandoObject
 (
+cx
 target
 wrapper
 )
@@ -4797,6 +4810,7 @@ expando
 =
 LookupExpandoObject
 (
+cx
 target
 wrapper
 )
@@ -5351,6 +5365,7 @@ expando
 =
 LookupExpandoObject
 (
+cx
 target
 wrapper
 )
@@ -5485,6 +5500,7 @@ expando
 =
 LookupExpandoObject
 (
+cx
 target
 wrapper
 )
