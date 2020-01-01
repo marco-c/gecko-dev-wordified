@@ -2383,6 +2383,10 @@ SDP_MAX_RCMD_NALU_SIZE_FLAG
 define
 SDP_DEINT_BUF_CAP_FLAG
 0x8
+#
+define
+SDP_FMTP_UNUSED
+0xFFFF
 typedef
 struct
 sdp_fmtp
