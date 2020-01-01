@@ -3950,6 +3950,11 @@ JS
 :
 SystemZone
 )
+.
+setInvisibleToDebugger
+(
+true
+)
 ;
 JS
 :
