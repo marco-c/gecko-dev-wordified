@@ -16519,11 +16519,16 @@ PRInt64
 aCurrentTime
 )
 {
+#
+ifdef
+PR_LOGGING
 PRUint32
 initialCookieCount
 =
 mCookieCount
 ;
+#
+endif
 mHostTable
 .
 EnumerateEntries
