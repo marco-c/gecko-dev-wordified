@@ -2328,9 +2328,6 @@ SystemAllocPolicy
 >
 RecordAttemptMap
 ;
-class
-Oracle
-;
 /
 *
 *
@@ -2801,10 +2798,6 @@ assembler
 FrameInfoCache
 *
 frameCache
-;
-Oracle
-*
-oracle
 ;
 TraceRecorder
 *
