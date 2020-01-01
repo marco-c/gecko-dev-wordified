@@ -7806,11 +7806,11 @@ mProgress
 (
 0
 )
-mRequest
+mDataBuffer
 (
 nsnull
 )
-mDataBuffer
+mRequest
 (
 nsnull
 )
@@ -7982,7 +7982,7 @@ Override
 ;
 for
 (
-int
+PRUint32
 i
 =
 0
