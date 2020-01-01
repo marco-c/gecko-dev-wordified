@@ -12291,6 +12291,15 @@ op
 =
 =
 JSOP_LOOPHEAD
+&
+&
+analysis
+-
+>
+getLoop
+(
+PC
+)
 )
 {
 frame
