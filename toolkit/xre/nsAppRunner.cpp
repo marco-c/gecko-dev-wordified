@@ -1119,6 +1119,9 @@ XP_BEOS
 ifdef
 XP_WIN
 #
+ifndef
+WINCE
+#
 include
 <
 process
@@ -1132,6 +1135,8 @@ shlobj
 .
 h
 >
+#
+endif
 #
 include
 "
@@ -14671,6 +14676,9 @@ PR_SetEnv
 }
 #
 endif
+#
+ifndef
+WINCE
 /
 /
 Unbuffer
@@ -14686,6 +14694,8 @@ stdout
 0
 )
 ;
+#
+endif
 #
 if
 defined

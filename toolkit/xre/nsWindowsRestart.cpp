@@ -1954,6 +1954,9 @@ cl
 BOOL
 ok
 ;
+#
+ifndef
+WINCE
 if
 (
 needElevation
@@ -2024,6 +2027,8 @@ return
 ok
 ;
 }
+#
+endif
 cl
 =
 MakeCommandLine
