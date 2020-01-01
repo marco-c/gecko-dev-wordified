@@ -746,6 +746,14 @@ lir
 )
 ;
 bool
+visitLambdaForSingleton
+(
+LLambdaForSingleton
+*
+lir
+)
+;
+bool
 visitPointer
 (
 LPointer
