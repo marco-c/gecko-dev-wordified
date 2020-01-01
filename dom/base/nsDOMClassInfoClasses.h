@@ -1357,10 +1357,6 @@ DOMCI_CLASS
 (
 StorageItem
 )
-DOMCI_CLASS
-(
-StorageEvent
-)
 /
 /
 DOMParser
