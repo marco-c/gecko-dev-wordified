@@ -10495,6 +10495,19 @@ caps
 =
 NS_HTTP_ALLOW_PIPELINING
 ;
+#
+ifdef
+MOZ_IPC
+if
+(
+!
+IsNeckoChild
+(
+)
+)
+#
+endif
+{
 /
 /
 HACK
@@ -10545,6 +10558,7 @@ provider
 )
 )
 ;
+}
 }
 }
 rv
