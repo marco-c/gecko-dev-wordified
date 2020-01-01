@@ -13997,7 +13997,7 @@ popn
 ;
 frame
 .
-pushSyncedType
+pushSynced
 (
 JSVAL_TYPE_BOOLEAN
 )
