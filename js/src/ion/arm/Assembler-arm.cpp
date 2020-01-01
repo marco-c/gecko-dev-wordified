@@ -3404,9 +3404,12 @@ offset
 gc
 :
 :
-MarkGCThing
+MarkThingOrValueRoot
 (
 trc
+(
+uintptr_t
+)
 ptr
 "
 immgcptr
@@ -3481,9 +3484,12 @@ offset
 gc
 :
 :
-MarkGCThing
+MarkThingOrValueRoot
 (
 trc
+(
+uintptr_t
+)
 ptr
 "
 immgcptr
