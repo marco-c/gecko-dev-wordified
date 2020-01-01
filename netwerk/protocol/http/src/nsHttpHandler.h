@@ -1780,7 +1780,7 @@ mVendorSub
 nsXPIDLCString
 mVendorComment
 ;
-nsCString
+nsXPIDLCString
 mProduct
 ;
 nsXPIDLCString
