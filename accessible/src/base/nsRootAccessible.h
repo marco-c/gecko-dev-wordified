@@ -592,14 +592,9 @@ GetState
 PRUint32
 *
 aState
-)
-;
-NS_IMETHOD
-GetExtState
-(
 PRUint32
 *
-aExtState
+aExtraState
 )
 ;
 NS_IMETHOD

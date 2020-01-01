@@ -652,6 +652,9 @@ GetState
 PRUint32
 *
 aState
+PRUint32
+*
+aExtraState
 )
 {
 nsAccessible
@@ -660,6 +663,7 @@ nsAccessible
 GetState
 (
 aState
+aExtraState
 )
 ;
 *
