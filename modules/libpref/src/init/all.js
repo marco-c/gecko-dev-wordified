@@ -11175,7 +11175,7 @@ thirdparty
 .
 sessionOnly
 "
-true
+false
 )
 ;
 pref
