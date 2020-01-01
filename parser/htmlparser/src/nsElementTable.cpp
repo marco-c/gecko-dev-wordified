@@ -10623,9 +10623,9 @@ endrootnodes
 *
 /
 &
-gInHead
+gRootTags
 &
-gInHead
+gRootTags
 /
 *
 autoclose
@@ -10645,6 +10645,8 @@ incl
 exclgroups
 *
 /
+kAllTags
+-
 kHeadContent
 kCDATA
 kNone
@@ -10667,8 +10669,7 @@ kids
 skip
 *
 /
-&
-gInHead
+0
 0
 eHTMLTag_unknown
 /
