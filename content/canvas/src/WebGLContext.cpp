@@ -1668,12 +1668,16 @@ NS_OK
 WebGLContextAttributes
 attributes
 ;
+NS_ENSURE_TRUE
+(
 attributes
 .
 Init
 (
 aCx
 aOptions
+)
+NS_ERROR_UNEXPECTED
 )
 ;
 WebGLContextOptions
