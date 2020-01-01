@@ -178,7 +178,11 @@ include
 "
 jit
 /
-IonCompartment
+arm
+/
+MacroAssembler
+-
+arm
 .
 h
 "
@@ -187,11 +191,7 @@ include
 "
 jit
 /
-arm
-/
-MacroAssembler
--
-arm
+IonCompartment
 .
 h
 "

@@ -150,14 +150,14 @@ h
 #
 include
 "
-jsworkers
+jsprf
 .
 h
 "
 #
 include
 "
-jsprf
+jsworkers
 .
 h
 "

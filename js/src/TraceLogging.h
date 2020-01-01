@@ -117,14 +117,14 @@ TraceLogging_h
 #
 include
 <
-stdio
+stdint
 .
 h
 >
 #
 include
 <
-stdint
+stdio
 .
 h
 >

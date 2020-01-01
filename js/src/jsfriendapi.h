@@ -131,14 +131,14 @@ endif
 #
 include
 "
-jsclass
+jsbytecode
 .
 h
 "
 #
 include
 "
-jsbytecode
+jsclass
 .
 h
 "

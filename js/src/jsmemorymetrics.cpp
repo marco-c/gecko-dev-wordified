@@ -211,7 +211,7 @@ include
 "
 vm
 /
-WrapperObject
+String
 .
 h
 "
@@ -220,7 +220,7 @@ include
 "
 vm
 /
-String
+WrapperObject
 .
 h
 "

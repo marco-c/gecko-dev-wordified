@@ -201,6 +201,13 @@ h
 #
 include
 "
+jsinferinlines
+.
+h
+"
+#
+include
+"
 jit
 /
 BaselineFrame
@@ -228,13 +235,6 @@ vm
 StringObject
 -
 inl
-.
-h
-"
-#
-include
-"
-jsinferinlines
 .
 h
 "

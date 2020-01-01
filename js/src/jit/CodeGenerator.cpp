@@ -120,13 +120,6 @@ h
 #
 include
 "
-jslibmath
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions
@@ -157,6 +150,13 @@ include
 mozilla
 /
 Util
+.
+h
+"
+#
+include
+"
+jslibmath
 .
 h
 "
