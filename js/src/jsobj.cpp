@@ -31762,10 +31762,6 @@ an
 *
 object
 with
-an
-uncacheable
-prototype
-or
 a
 non
 -
@@ -31773,12 +31769,12 @@ native
 object
 is
 found
-*
 prototype
 lookups
 will
 not
 be
+*
 cached
 across
 these
@@ -31810,7 +31806,7 @@ if
 oldproto
 -
 >
-setUncacheableProto
+protoShapeChange
 (
 cx
 )
