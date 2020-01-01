@@ -16230,6 +16230,9 @@ Bug
 Bug
 #
 362835
+Bug
+#
+363508
 *
 *
 *
@@ -31277,6 +31280,14 @@ focus
 )
 ;
 }
+}
+if
+(
+e
+.
+preventDefault
+)
+{
 e
 .
 preventDefault
