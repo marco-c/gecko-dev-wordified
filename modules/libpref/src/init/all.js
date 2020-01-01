@@ -13291,7 +13291,7 @@ of
 means
 use
 the
-minimum
+maxium
 of
 96
 and
