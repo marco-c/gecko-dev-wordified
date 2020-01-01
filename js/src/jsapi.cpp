@@ -3748,6 +3748,14 @@ suppressGC
 (
 0
 )
+gcKeepAtoms
+(
+0
+)
+activeCompilations
+(
+0
+)
 {
 }
 PerThreadData
@@ -3943,10 +3951,6 @@ NULL
 gcUserAvailableChunkListHead
 (
 NULL
-)
-gcKeepAtoms
-(
-0
 )
 gcBytes
 (
@@ -4435,10 +4439,6 @@ endif
 mathCache_
 (
 NULL
-)
-activeCompilations
-(
-0
 )
 trustedPrincipals_
 (
