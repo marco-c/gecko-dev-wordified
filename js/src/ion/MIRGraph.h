@@ -506,6 +506,9 @@ class
 MStart
 ;
 class
+MDefinitionIterator
+;
+class
 MIRGraph
 {
 Vector
@@ -1577,6 +1580,14 @@ MInstructionIterator
 iter
 )
 ;
+MDefinitionIterator
+removeDefAt
+(
+MDefinitionIterator
+&
+iter
+)
+;
 /
 /
 /
@@ -2392,6 +2403,10 @@ numDominated_
 class
 MDefinitionIterator
 {
+friend
+class
+MBasicBlock
+;
 private
 :
 MBasicBlock
