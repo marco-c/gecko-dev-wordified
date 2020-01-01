@@ -4924,6 +4924,10 @@ NS_PARSER_FLAG_PARSER_ENABLED
 |
 NS_PARSER_FLAG_CAN_TOKENIZE
 ;
+mProcessingNetworkData
+=
+PR_FALSE
+;
 }
 void
 nsParser
@@ -14201,7 +14205,8 @@ bug
 .
 if
 (
-IsScriptExecuting
+!
+IsOkToProcessNetworkData
 (
 )
 )
@@ -14336,6 +14341,10 @@ mStreamListenerState
 =
 eOnStop
 ;
+mProcessingNetworkData
+=
+PR_TRUE
+;
 if
 (
 mSink
@@ -14363,6 +14372,10 @@ Ref
 .
 bug
 57999
+mProcessingNetworkData
+=
+PR_FALSE
+;
 if
 (
 result
@@ -14635,8 +14648,7 @@ nsnull
 ;
 NS_ASSERTION
 (
-!
-IsScriptExecuting
+IsOkToProcessNetworkData
 (
 )
 "
@@ -21930,8 +21942,7 @@ whitespace
 data
 if
 (
-!
-IsScriptExecuting
+IsOkToProcessNetworkData
 (
 )
 &
@@ -21950,6 +21961,10 @@ FirstNonWhitespacePosition
 0
 )
 {
+mProcessingNetworkData
+=
+PR_TRUE
+;
 if
 (
 mSink
@@ -21968,6 +21983,10 @@ rv
 ResumeParse
 (
 )
+;
+mProcessingNetworkData
+=
+PR_FALSE
 ;
 }
 }
@@ -22119,8 +22138,7 @@ Finish
 ;
 if
 (
-!
-IsScriptExecuting
+IsOkToProcessNetworkData
 (
 )
 &
@@ -22131,6 +22149,10 @@ rv
 )
 )
 {
+mProcessingNetworkData
+=
+PR_TRUE
+;
 if
 (
 mSink
@@ -22151,6 +22173,10 @@ ResumeParse
 PR_TRUE
 PR_TRUE
 )
+;
+mProcessingNetworkData
+=
+PR_FALSE
 ;
 }
 /
