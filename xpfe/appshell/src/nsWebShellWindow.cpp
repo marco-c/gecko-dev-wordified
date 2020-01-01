@@ -3128,9 +3128,6 @@ aDOMDoc
 nsIWidget
 *
 aParentWindow
-nsIDocShell
-*
-aDocShell
 )
 {
 /
@@ -3292,7 +3289,6 @@ MenuConstruct
 fake
 aParentWindow
 menubarNode
-aDocShell
 )
 ;
 }
@@ -3871,15 +3867,12 @@ if
 (
 menubarDOMDoc
 )
-{
 LoadNativeMenus
 (
 menubarDOMDoc
 mWindow
-mDocShell
 )
 ;
-}
 #
 endif
 /
