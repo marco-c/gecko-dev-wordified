@@ -583,6 +583,9 @@ mListener
 nsCString
 mCategory
 ;
+bool
+mObserversRemoved
+;
 }
 ;
 /

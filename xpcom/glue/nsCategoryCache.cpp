@@ -461,6 +461,10 @@ mCategory
 (
 aCategory
 )
+mObserversRemoved
+(
+false
+)
 {
 if
 (
@@ -786,6 +790,16 @@ RemoveObservers
 (
 )
 {
+if
+(
+mObserversRemoved
+)
+return
+;
+mObserversRemoved
+=
+true
+;
 nsCOMPtr
 <
 nsIObserverService
