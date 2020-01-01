@@ -4152,6 +4152,12 @@ ready
 "
 )
 {
+worker2
+.
+terminate
+(
+)
+;
 cbnext
 (
 )
