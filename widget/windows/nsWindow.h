@@ -746,12 +746,6 @@ widget
 WindowHook
 WindowHook
 ;
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_WIN7
 typedef
 mozilla
 :
@@ -762,8 +756,6 @@ widget
 TaskbarWindowPreview
 TaskbarWindowPreview
 ;
-#
-endif
 public
 :
 nsWindow
@@ -1859,12 +1851,6 @@ bool
 aAssociate
 )
 ;
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_WIN7
 bool
 HasTaskbarIconBeenCreated
 (
@@ -1969,8 +1955,6 @@ preview
 )
 ;
 }
-#
-endif
 NS_IMETHOD
 ReparentNativeWidget
 (
@@ -2727,12 +2711,6 @@ LPARAM
 lParam
 )
 ;
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_WIN7
 bool
 OnTouch
 (
@@ -2742,8 +2720,6 @@ LPARAM
 lParam
 )
 ;
-#
-endif
 bool
 OnHotKey
 (
@@ -3617,12 +3593,6 @@ management
 nsWinGesture
 mGesture
 ;
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_WIN7
 /
 /
 Weak
@@ -3667,8 +3637,6 @@ taskbar
 bool
 mHasTaskbarIconBeenCreated
 ;
-#
-endif
 /
 /
 The

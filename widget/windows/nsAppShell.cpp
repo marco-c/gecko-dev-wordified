@@ -587,12 +587,6 @@ static
 UINT
 sMsgId
 ;
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_WIN7
 static
 UINT
 sTaskbarButtonCreatedMsg
@@ -614,8 +608,6 @@ return
 sTaskbarButtonCreatedMsg
 ;
 }
-#
-endif
 namespace
 mozilla
 {
@@ -1066,12 +1058,6 @@ RegisterWindowMessageW
 kAppShellEventId
 )
 ;
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_WIN7
 sTaskbarButtonCreatedMsg
 =
 :
@@ -1095,8 +1081,6 @@ message
 "
 )
 ;
-#
-endif
 WNDCLASSW
 wc
 ;
