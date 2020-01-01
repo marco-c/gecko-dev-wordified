@@ -13324,7 +13324,7 @@ record_JSOP_GETPROP
 )
 {
 return
-getpropfromval
+getprop
 (
 stackval
 (
@@ -14681,7 +14681,7 @@ bool
 TraceRecorder
 :
 :
-getpropfromval
+getprop
 (
 jsval
 &
@@ -18088,7 +18088,7 @@ record_JSOP_GETARGPROP
 )
 {
 return
-getpropfromval
+getprop
 (
 argval
 (
@@ -18118,7 +18118,7 @@ record_JSOP_GETVARPROP
 )
 {
 return
-getpropfromval
+getprop
 (
 varval
 (
