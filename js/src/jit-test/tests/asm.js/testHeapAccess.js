@@ -3348,11 +3348,11 @@ USE_ASM
 +
 "
 var
-identity
+id
 =
 foreign
 .
-identity
+id
 ;
 var
 doubles
@@ -3375,7 +3375,8 @@ doubles
 0
 ]
 =
-identity
++
+id
 (
 2
 .
@@ -3396,7 +3397,7 @@ g
 )
 this
 {
-identity
+id
 :
 function
 (
