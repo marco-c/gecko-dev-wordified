@@ -2563,7 +2563,7 @@ isAppUpdated
 )
 this
 .
-onUpdate
+onAppUpdated
 (
 )
 ;
