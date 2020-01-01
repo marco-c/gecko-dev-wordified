@@ -171,12 +171,6 @@ uint32_t
 aNumberOfOutputChannels
 )
 ;
-virtual
-~
-ScriptProcessorNode
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 IMPL_EVENT_HANDLER
 (

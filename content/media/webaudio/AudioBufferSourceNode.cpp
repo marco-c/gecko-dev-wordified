@@ -2449,8 +2449,6 @@ AudioBufferSourceNode
 (
 )
 {
-/
-/
 if
 (
 Context
@@ -2469,10 +2467,6 @@ this
 )
 ;
 }
-DestroyMediaStream
-(
-)
-;
 }
 JSObject
 *
