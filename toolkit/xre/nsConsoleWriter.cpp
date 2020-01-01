@@ -326,9 +326,9 @@ csrv
 GetMessageArray
 (
 &
-messages
-&
 mcount
+&
+messages
 )
 ;
 if
