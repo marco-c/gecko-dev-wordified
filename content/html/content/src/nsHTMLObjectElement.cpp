@@ -549,10 +549,10 @@ nsHTMLObjectElement
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 =
-PR_FALSE
+0
 )
 ;
 virtual
@@ -882,7 +882,7 @@ nsHTMLObjectElement
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 :

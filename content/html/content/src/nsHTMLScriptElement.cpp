@@ -1971,7 +1971,7 @@ nsHTMLScriptElement
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 ;
@@ -2172,7 +2172,7 @@ nsHTMLScriptElement
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 :

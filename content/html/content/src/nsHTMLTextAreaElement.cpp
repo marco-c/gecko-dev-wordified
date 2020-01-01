@@ -775,10 +775,10 @@ nsHTMLTextAreaElement
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 =
-PR_FALSE
+0
 )
 ;
 /
@@ -1619,7 +1619,7 @@ nsHTMLTextAreaElement
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 :

@@ -1137,7 +1137,7 @@ contentCreatorCallback
 (
 nsINodeInfo
 *
-PRBool
+PRUint32
 aFromParser
 )
 ;
@@ -1148,7 +1148,7 @@ NS_NewHTMLNOTUSEDElement
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 {
@@ -3379,7 +3379,7 @@ aResult
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 {
@@ -3483,7 +3483,7 @@ aNodeType
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 {

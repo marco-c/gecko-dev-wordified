@@ -1085,7 +1085,7 @@ nsHTMLSelectElement
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 :

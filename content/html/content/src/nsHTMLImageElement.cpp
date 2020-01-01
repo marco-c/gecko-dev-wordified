@@ -1011,7 +1011,7 @@ NS_NewHTMLImageElement
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 {

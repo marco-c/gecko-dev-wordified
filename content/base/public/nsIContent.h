@@ -4831,7 +4831,7 @@ then
 add
 a
 *
-boolean
+PRUint32
 aFromParser
 to
 the
@@ -4848,7 +4848,9 @@ have
 the
 parser
 pass
-true
+the
+appropriate
+flags
 .
 See
 nsHTMLInputElement
