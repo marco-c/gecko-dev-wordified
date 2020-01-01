@@ -968,12 +968,6 @@ margin
 0
 3px
 ;
-background
--
-color
-:
-transparent
-;
 border
 :
 1px
@@ -993,7 +987,13 @@ border
 -
 radius
 :
-20px
+2px
+;
+background
+-
+color
+:
+transparent
 ;
 background
 -
