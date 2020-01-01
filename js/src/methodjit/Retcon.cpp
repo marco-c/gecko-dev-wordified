@@ -1731,7 +1731,6 @@ next
 >
 prevpc
 (
-NULL
 )
 :
 f
