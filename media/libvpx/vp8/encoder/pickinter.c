@@ -836,6 +836,8 @@ get_prediction_error
 (
 be
 b
+IF_RTCD
+(
 &
 rtcd
 -
@@ -844,6 +846,7 @@ common
 -
 >
 variance
+)
 )
 ;
 this_rd
