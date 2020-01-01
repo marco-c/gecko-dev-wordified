@@ -330,7 +330,7 @@ NS_DECL_NSIDOCUMENTOBSERVER
 /
 nsAccessNode
 virtual
-bool
+void
 Init
 (
 )

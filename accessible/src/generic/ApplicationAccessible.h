@@ -398,7 +398,7 @@ NS_DECL_NSIACCESSIBLEAPPLICATION
 /
 nsAccessNode
 virtual
-bool
+void
 Init
 (
 )

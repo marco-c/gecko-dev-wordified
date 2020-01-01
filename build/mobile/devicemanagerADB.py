@@ -5689,6 +5689,33 @@ the
 information
   
 #
+#
+#
+Note
+that
+uptimemillis
+is
+NOT
+supported
+as
+there
+is
+no
+way
+to
+get
+this
+  
+#
+#
+#
+data
+from
+the
+shell
+.
+  
+#
 returns
 :
   

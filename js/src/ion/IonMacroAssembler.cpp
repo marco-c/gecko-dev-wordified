@@ -2998,7 +2998,7 @@ object
 size_t
 nslots
 =
-JS_MIN
+Min
 (
 templateObject
 -

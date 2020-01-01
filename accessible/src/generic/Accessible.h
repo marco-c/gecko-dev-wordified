@@ -725,7 +725,7 @@ accessible
 *
 /
 virtual
-bool
+void
 Init
 (
 )

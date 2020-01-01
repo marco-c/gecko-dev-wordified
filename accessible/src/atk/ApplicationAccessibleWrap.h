@@ -166,7 +166,7 @@ ApplicationAccessibleWrap
 /
 nsAccessNode
 virtual
-bool
+void
 Init
 (
 )

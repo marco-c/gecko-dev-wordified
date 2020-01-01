@@ -5063,12 +5063,7 @@ positioned
 bool
 isPositioned
 =
-aStyleContext
--
->
-GetStyleDisplay
-(
-)
+aFrame
 -
 >
 IsPositioned

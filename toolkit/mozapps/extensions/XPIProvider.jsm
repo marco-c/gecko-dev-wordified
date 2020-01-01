@@ -13204,7 +13204,7 @@ its
 uninstall
 method
 let
-oldVersion
+newVersion
 =
 aManifests
 [
@@ -13219,7 +13219,7 @@ id
 version
 ;
 let
-newVersion
+oldVersion
 =
 oldBootstrap
 .
@@ -13234,8 +13234,8 @@ vc
 .
 compare
 (
-newVersion
 oldVersion
+newVersion
 )
 <
 0

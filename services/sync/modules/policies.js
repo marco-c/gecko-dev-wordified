@@ -1755,6 +1755,15 @@ setup
 complete
 "
 :
+Services
+.
+prefs
+.
+savePrefFile
+(
+null
+)
+;
 Svc
 .
 Idle

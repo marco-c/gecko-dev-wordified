@@ -742,10 +742,7 @@ mSink
 OnTransportStatus
 (
 nullptr
-nsITransport
-:
-:
-STATUS_WRITING
+NS_NET_STATUS_WRITING
 progress
 mLen
 )

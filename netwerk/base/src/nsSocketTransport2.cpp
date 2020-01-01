@@ -2346,10 +2346,7 @@ mTransport
 >
 SendStatus
 (
-nsISocketTransport
-:
-:
-STATUS_RECEIVING_FROM
+NS_NET_STATUS_RECEIVING_FROM
 )
 ;
 return
@@ -3551,10 +3548,7 @@ mTransport
 >
 SendStatus
 (
-nsISocketTransport
-:
-:
-STATUS_SENDING_TO
+NS_NET_STATUS_SENDING_TO
 )
 ;
 return
@@ -5255,7 +5249,7 @@ status
 )
 {
 case
-STATUS_SENDING_TO
+NS_NET_STATUS_SENDING_TO
 :
 progress
 =
@@ -5268,7 +5262,7 @@ ByteCount
 break
 ;
 case
-STATUS_RECEIVING_FROM
+NS_NET_STATUS_RECEIVING_FROM
 :
 progress
 =
@@ -5586,7 +5580,7 @@ RESOLVE_DISABLE_IPV6
 ;
 SendStatus
 (
-STATUS_RESOLVING
+NS_NET_STATUS_RESOLVING_HOST
 )
 ;
 rv
@@ -7069,7 +7063,7 @@ TIMEOUT_CONNECT
 ;
 SendStatus
 (
-STATUS_CONNECTING_TO
+NS_NET_STATUS_CONNECTING_TO
 )
 ;
 #
@@ -8524,7 +8518,7 @@ true
 }
 SendStatus
 (
-STATUS_CONNECTED_TO
+NS_NET_STATUS_CONNECTED_TO
 )
 ;
 }
@@ -8934,7 +8928,7 @@ resolved
 anything
 SendStatus
 (
-STATUS_RESOLVED
+NS_NET_STATUS_RESOLVED_HOST
 )
 ;
 SOCKET_LOG

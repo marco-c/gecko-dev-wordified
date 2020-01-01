@@ -479,11 +479,6 @@ if
 mOutOfFlowFrame
 -
 >
-GetStyleDisplay
-(
-)
--
->
 IsFloating
 (
 )
@@ -593,11 +588,6 @@ list
 if
 (
 mOutOfFlowFrame
--
->
-GetStyleDisplay
-(
-)
 -
 >
 IsFloating

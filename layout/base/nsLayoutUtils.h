@@ -9053,13 +9053,11 @@ nsStyleContext
 *
 aStyleContext
 const
-nsStyleText
-*
-aStyleText
-const
 nsStyleFont
 *
 aStyleFont
+nscoord
+aLetterSpacing
 )
 ;
 /

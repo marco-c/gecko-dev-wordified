@@ -1360,7 +1360,7 @@ NS_OK
 nsAccessNode
 public
 methods
-bool
+void
 ApplicationAccessible
 :
 :
@@ -1386,9 +1386,6 @@ info
 1
 "
 )
-;
-return
-true
 ;
 }
 void

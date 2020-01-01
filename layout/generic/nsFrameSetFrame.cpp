@@ -9601,7 +9601,7 @@ NS_ASSERTION
 disp
 -
 >
-IsAbsolutelyPositioned
+IsAbsolutelyPositionedStyle
 (
 )
 &
@@ -9610,7 +9610,7 @@ IsAbsolutelyPositioned
 disp
 -
 >
-IsFloating
+IsFloatingStyle
 (
 )
 "

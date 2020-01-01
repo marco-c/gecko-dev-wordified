@@ -8415,10 +8415,7 @@ mTransaction
 OnTransportStatus
 (
 mSocketTransport
-nsISocketTransport
-:
-:
-STATUS_WAITING_FOR
+NS_NET_STATUS_WAITING_FOR
 LL_ZERO
 )
 ;

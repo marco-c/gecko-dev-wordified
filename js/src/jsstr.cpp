@@ -19794,7 +19794,7 @@ code
 if
 (
 !
-ValueToUint16
+ToUint16
 (
 cx
 args
@@ -19919,7 +19919,7 @@ code
 if
 (
 !
-ValueToUint16
+ToUint16
 (
 cx
 args
