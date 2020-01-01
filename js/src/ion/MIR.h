@@ -1012,7 +1012,7 @@ chain
 .
 MInstruction
 *
-owner_
+ins_
 ;
 /
 /
@@ -1054,7 +1054,7 @@ next_
 (
 next
 )
-owner_
+ins_
 (
 owner
 )
@@ -1079,7 +1079,7 @@ next_
 =
 next
 ;
-owner_
+ins_
 =
 owner
 ;
@@ -1125,13 +1125,13 @@ index
 }
 MInstruction
 *
-owner
+ins
 (
 )
 const
 {
 return
-owner_
+ins_
 ;
 }
 uint32
@@ -2023,7 +2023,8 @@ next
 MUse
 *
 operator
-*
+-
+>
 (
 )
 const
