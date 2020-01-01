@@ -1091,7 +1091,6 @@ Assembler
 :
 savedRegs
 [
-NumSavedRegs
 ]
 =
 {
