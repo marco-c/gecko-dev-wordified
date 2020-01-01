@@ -2034,6 +2034,11 @@ Clear
 (
 )
 ;
+nsresult
+InitializeRootNode
+(
+)
+;
 void
 FinishedRestoringSelection
 (
