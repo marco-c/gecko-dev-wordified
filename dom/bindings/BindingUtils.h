@@ -2366,7 +2366,7 @@ template
 <
 template
 <
-class
+typename
 >
 class
 SmartPtr
@@ -2557,7 +2557,7 @@ template
 <
 template
 <
-class
+typename
 >
 class
 SmartPtr
@@ -2945,7 +2945,7 @@ class
 T
 template
 <
-class
+typename
 >
 class
 SmartPtr
