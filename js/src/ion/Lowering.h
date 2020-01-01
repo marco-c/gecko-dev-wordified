@@ -887,6 +887,14 @@ ins
 )
 ;
 bool
+visitNewSlots
+(
+MNewSlots
+*
+ins
+)
+;
+bool
 visitNewArray
 (
 MNewArray
