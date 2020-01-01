@@ -1143,26 +1143,12 @@ on
 Windows
 .
     
-options
-.
-js_shell
 test_args
 =
-os
-.
-path
-.
-abspath
-(
 args
 [
-0
-]
-)
-args
-[
-1
 :
+1
 ]
     
 if
@@ -1948,8 +1934,22 @@ append
 new_test
 )
     
-shell_args
+prefix
 =
+[
+os
+.
+path
+.
+abspath
+(
+args
+[
+0
+]
+)
+]
++
 shlex
 .
 split
@@ -1958,6 +1958,31 @@ options
 .
 shell_args
 )
+    
+prefix
++
+=
+[
+'
+-
+f
+'
+os
+.
+path
+.
+join
+(
+jittests
+.
+LIB_DIR
+'
+prolog
+.
+js
+'
+)
+]
     
 if
 options
@@ -2036,10 +2061,7 @@ tc
 .
 command
 (
-options
-.
-js_shell
-shell_args
+prefix
 )
         
 subprocess
@@ -2081,7 +2103,7 @@ jittests
 run_tests_parallel
 (
 job_list
-shell_args
+prefix
 options
 )
         
@@ -2095,7 +2117,7 @@ jittests
 run_tests
 (
 job_list
-shell_args
+prefix
 options
 )
         
@@ -2123,9 +2145,10 @@ path
 .
 exists
 (
-options
-.
-js_shell
+prefix
+[
+0
+]
 )
 :
             
@@ -2151,9 +2174,10 @@ s
 '
 "
 %
-options
-.
-js_shell
+prefix
+[
+0
+]
             
 sys
 .
