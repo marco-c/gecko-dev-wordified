@@ -9178,6 +9178,11 @@ operation
 simply
 return
 .
+mRequestedIndex
+=
+-
+1
+;
 return
 NS_OK
 ;
