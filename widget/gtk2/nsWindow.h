@@ -1543,15 +1543,6 @@ OnDragLeave
 void
 )
 ;
-void
-OnDragEnter
-(
-nscoord
-aX
-nscoord
-aY
-)
-;
 private
 :
 void
@@ -1695,7 +1686,7 @@ void
 )
 ;
 void
-CheckNeedDragLeaveEnter
+CheckNeedDragLeave
 (
 nsWindow
 *
