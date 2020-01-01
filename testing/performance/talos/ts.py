@@ -527,6 +527,8 @@ ffprocess
 import
 ffprofile
 import
+ffinfo
+import
 config
 #
 Regular
@@ -1063,6 +1065,17 @@ terminated
 ffprofile
 .
 InitializeNewProfile
+(
+config
+[
+2
+]
+profile_dir
+)
+    
+ffinfo
+.
+GetMetricsFromBrowser
 (
 config
 [

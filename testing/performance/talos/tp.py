@@ -567,6 +567,8 @@ ffprocess
 import
 ffprofile
 import
+ffinfo
+import
 config
 if
 config
@@ -1052,6 +1054,17 @@ terminated
 ffprofile
 .
 InitializeNewProfile
+(
+pconfig
+[
+2
+]
+profile_dir
+)
+    
+ffinfo
+.
+GetMetricsFromBrowser
 (
 pconfig
 [
