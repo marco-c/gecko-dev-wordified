@@ -42,8 +42,7 @@ of
 the
 implementation
 of
-the
-compression
+this
 library
 and
 is

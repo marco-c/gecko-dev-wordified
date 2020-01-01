@@ -21,8 +21,7 @@ c
 /
 local
 const
-unsigned
-long
+crc_table_t
 FAR
 crc_table
 [
