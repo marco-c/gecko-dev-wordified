@@ -1198,6 +1198,9 @@ TypedArray
 SINGLETON_TYPE_BYTE_LENGTH
 )
 return
+SingletonObject
+;
+return
 types
 :
 :
@@ -1209,9 +1212,6 @@ pc
 &
 DataViewClass
 )
-;
-return
-GenericObject
 ;
 }
 inline
