@@ -14362,6 +14362,8 @@ s
 ;
 }
 testLongNumToString
+.
+expected
 =
 '
 1000000000000000000000000000
