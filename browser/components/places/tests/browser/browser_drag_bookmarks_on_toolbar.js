@@ -1655,6 +1655,9 @@ function
 /
 /
 XXX
+bug
+496266
+:
 this
 test
 causes
@@ -1666,10 +1669,10 @@ the
 bookmark
 which
 in
+/
+/
 turn
 causes
-/
-/
 a
 history
 visit
@@ -1682,10 +1685,10 @@ page
 which
 messes
 up
+/
+/
 subsequent
 tests
-/
-/
 so
 disable
 it
