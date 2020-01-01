@@ -331,11 +331,7 @@ waitForExplicitFinish
 (
 )
 ;
-Services
-.
-prefs
-.
-setCharPref
+setManifestPref
 (
 "
 social
@@ -344,12 +340,7 @@ manifest
 .
 good
 "
-JSON
-.
-stringify
-(
 manifest
-)
 )
 ;
 Services
