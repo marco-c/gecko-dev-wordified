@@ -731,7 +731,7 @@ mozilla
 .
 org
 /
-browser
+mobile
 /
 sessionstore
 ;
