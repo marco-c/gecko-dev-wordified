@@ -663,9 +663,6 @@ public
 :
 PlanarYCbCrImageD3D9
 (
-LayerManagerD3D9
-*
-aManager
 )
 ;
 ~
@@ -722,6 +719,9 @@ thread
 void
 AllocateTextures
 (
+IDirect3DDevice9
+*
+aDevice
 )
 ;
 /
