@@ -18004,7 +18004,7 @@ formed
 )
 PRInt32
 i
-last
+lastRunIndex
 =
 mGlyphRuns
 .
@@ -18018,7 +18018,7 @@ for
 (
 i
 =
-last
+lastRunIndex
 ;
 i
 >
@@ -18082,7 +18082,7 @@ if
 (
 i
 <
-last
+lastRunIndex
 &
 &
 run
@@ -18105,7 +18105,7 @@ mCharacterOffset
 i
 =
 =
-last
+lastRunIndex
 &
 &
 run
@@ -18123,6 +18123,10 @@ RemoveElementAt
 (
 i
 )
+;
+-
+-
+lastRunIndex
 ;
 }
 }
