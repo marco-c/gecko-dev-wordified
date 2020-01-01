@@ -2622,7 +2622,7 @@ urlbar
 .
 doubleClickSelectsAll
 "
-false
+true
 )
 ;
 pref
