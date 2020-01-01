@@ -36466,7 +36466,8 @@ feature_data
 TRUE
 )
 ;
-break
+return
+sm_rc
 ;
 case
 CC_FEATURE_END_CALL
