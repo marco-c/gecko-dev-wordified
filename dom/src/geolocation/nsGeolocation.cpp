@@ -1082,6 +1082,11 @@ PositionError
 /
 /
 /
+DOMCI_DATA
+(
+GeoPositionError
+PositionError
+)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 PositionError
