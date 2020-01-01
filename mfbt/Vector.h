@@ -138,6 +138,15 @@ include
 "
 mozilla
 /
+Alignment
+.
+h
+"
+#
+include
+"
+mozilla
+/
 AllocPolicy
 .
 h
@@ -232,6 +241,10 @@ Util
 .
 h
 "
+/
+/
+for
+PointerRangeSize
 #
 include
 <

@@ -136,9 +136,7 @@ include
 "
 mozilla
 /
-gfx
-/
-2D
+Alignment
 .
 h
 "
@@ -147,7 +145,9 @@ include
 "
 mozilla
 /
-Util
+gfx
+/
+2D
 .
 h
 "
