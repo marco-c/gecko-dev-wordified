@@ -1593,6 +1593,9 @@ nsIdleServiceGTKConstructor
 }
 #
 endif
+{
+NULL
+}
 }
 ;
 static
@@ -1971,6 +1974,9 @@ kNS_IDLE_SERVICE_CID
 }
 #
 endif
+{
+NULL
+}
 }
 ;
 static
