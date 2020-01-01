@@ -749,9 +749,6 @@ AddOpenGLCrashReportAnnotations
 (
 )
 ;
-bool
-mSetCrashReportAnnotations
-;
 nsString
 mRendererIDsString
 ;
