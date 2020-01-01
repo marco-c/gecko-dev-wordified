@@ -1547,7 +1547,7 @@ Services
 .
 prefs
 .
-getIntPref
+getCharPref
 (
 "
 ril
@@ -6679,7 +6679,7 @@ Services
 .
 prefs
 .
-setIntPref
+setCharPref
 (
 "
 ril
