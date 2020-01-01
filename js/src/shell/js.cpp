@@ -19937,7 +19937,7 @@ cx
 runtime
 -
 >
-relaxRootChecks
+gcRelaxRootChecks
 =
 true
 ;

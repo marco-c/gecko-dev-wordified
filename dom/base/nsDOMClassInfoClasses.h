@@ -1799,13 +1799,6 @@ DOMCI_CLASS
 (
 DesktopNotificationCenter
 )
-/
-/
-WebSocket
-DOMCI_CLASS
-(
-WebSocket
-)
 DOMCI_CLASS
 (
 IDBFactory
