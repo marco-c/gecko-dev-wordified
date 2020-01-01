@@ -4023,7 +4023,7 @@ getIntPref
 "
 ui
 .
-dragThreshold
+dragThresholdX
 "
 )
 /
