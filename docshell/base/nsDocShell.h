@@ -4258,6 +4258,11 @@ mDocShell
 ;
 }
 ;
+bool
+JustStartedNetworkLoad
+(
+)
+;
 /
 /
 hash
