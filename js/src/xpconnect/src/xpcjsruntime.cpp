@@ -5376,7 +5376,10 @@ mJSRuntime
 &
 &
 !
+JS_GetGlobalDebugHooks
+(
 mJSRuntime
+)
 -
 >
 debuggerHandler
