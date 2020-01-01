@@ -545,6 +545,8 @@ tabs
 .
 push
 (
+Utils
+.
 deepCopy
 (
 tabs
