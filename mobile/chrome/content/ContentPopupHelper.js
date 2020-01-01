@@ -1815,12 +1815,6 @@ AnimatedZoomBegin
 :
 popup
 .
-left
-=
-0
-;
-popup
-.
 style
 .
 visibility
@@ -1854,12 +1848,6 @@ case
 MozBeforeResize
 "
 :
-popup
-.
-left
-=
-0
-;
 popup
 .
 style
