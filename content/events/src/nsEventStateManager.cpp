@@ -1282,6 +1282,12 @@ nsIFrame
 aTargetFrame
 )
 ;
+TimeStamp
+nsEventStateManager
+:
+:
+sHandlingInputStart
+;
 static
 inline
 PRBool
