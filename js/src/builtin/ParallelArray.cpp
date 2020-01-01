@@ -543,10 +543,9 @@ if
 JSObject
 :
 :
-setProperty
+defineProperty
 (
 cx
-obj
 obj
 cx
 -
@@ -556,9 +555,7 @@ names
 )
 .
 buffer
-&
 undef
-true
 )
 )
 return
@@ -570,10 +567,9 @@ if
 JSObject
 :
 :
-setProperty
+defineProperty
 (
 cx
-obj
 obj
 cx
 -
@@ -583,9 +579,7 @@ names
 )
 .
 offset
-&
 zero
-true
 )
 )
 return
@@ -597,10 +591,9 @@ if
 JSObject
 :
 :
-setProperty
+defineProperty
 (
 cx
-obj
 obj
 cx
 -
@@ -610,9 +603,7 @@ names
 )
 .
 shape
-&
 undef
-true
 )
 )
 return
@@ -624,10 +615,9 @@ if
 JSObject
 :
 :
-setProperty
+defineProperty
 (
 cx
-obj
 obj
 cx
 -
@@ -637,9 +627,7 @@ names
 )
 .
 get
-&
 undef
-true
 )
 )
 return
