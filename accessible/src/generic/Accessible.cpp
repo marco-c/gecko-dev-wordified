@@ -17388,7 +17388,7 @@ if
 parent
 -
 >
-IsDocumentNode
+IsDoc
 (
 )
 )
