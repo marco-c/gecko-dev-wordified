@@ -534,7 +534,7 @@ GeckoApp
 .
 mAppContext
 .
-loadUrlInNewTab
+loadUrlInTab
 (
 mUrl
 )
