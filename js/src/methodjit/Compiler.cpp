@@ -653,6 +653,14 @@ ContextAllocPolicy
 cx
 )
 )
+stubcc
+(
+cx
+*
+this
+frame
+script
+)
 {
 }
 #
