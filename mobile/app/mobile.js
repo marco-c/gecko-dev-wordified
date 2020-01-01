@@ -460,16 +460,6 @@ cursor
 false
 )
 ;
-pref
-(
-"
-general
-.
-smoothScroll
-"
-false
-)
-;
 /
 *
 cache
