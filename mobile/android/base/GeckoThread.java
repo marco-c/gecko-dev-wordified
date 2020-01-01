@@ -536,9 +536,6 @@ mUri
 String
 mTitle
 ;
-boolean
-mRestoreSession
-;
 GeckoThread
 (
 Intent
@@ -547,8 +544,6 @@ String
 uri
 String
 title
-boolean
-restoreSession
 )
 {
 mIntent
@@ -562,10 +557,6 @@ uri
 mTitle
 =
 title
-;
-mRestoreSession
-=
-restoreSession
 ;
 }
 public
@@ -923,7 +914,6 @@ args
 "
 )
 mUri
-mRestoreSession
 )
 ;
 }
