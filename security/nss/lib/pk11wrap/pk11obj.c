@@ -2115,7 +2115,11 @@ ulValueLen
 ;
 while
 (
+(
 len
+>
+1
+)
 &
 &
 (

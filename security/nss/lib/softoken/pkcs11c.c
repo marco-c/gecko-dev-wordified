@@ -13987,8 +13987,6 @@ outlen
 )
 ;
 }
-terminate
-:
 sftk_TerminateOp
 (
 session
@@ -16450,8 +16448,6 @@ crv
 CKR_SIGNATURE_INVALID
 ;
 }
-terminate
-:
 sftk_TerminateOp
 (
 session

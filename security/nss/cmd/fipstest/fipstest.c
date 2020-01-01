@@ -424,7 +424,7 @@ h
 #
 include
 "
-nss
+nssutil
 .
 h
 "
@@ -452,7 +452,7 @@ h
 #
 include
 "
-keythi
+secoid
 .
 h
 "
@@ -13638,7 +13638,7 @@ SEC_OID_SECG_EC_SECT131R2
 }
 ;
 static
-SECKEYECParams
+SECItem
 *
 getECParams
 (
@@ -13648,7 +13648,7 @@ char
 curve
 )
 {
-SECKEYECParams
+SECItem
 *
 ecparams
 ;
@@ -14175,7 +14175,7 @@ char
 *
 dst
 ;
-SECKEYECParams
+SECItem
 *
 encodedparams
 ;
@@ -14889,7 +14889,7 @@ char
 *
 dst
 ;
-SECKEYECParams
+SECItem
 *
 encodedparams
 ;
@@ -15743,7 +15743,7 @@ char
 *
 dst
 ;
-SECKEYECParams
+SECItem
 *
 encodedparams
 ;
@@ -16741,7 +16741,7 @@ char
 *
 dst
 ;
-SECKEYECParams
+SECItem
 *
 encodedparams
 ;
@@ -29304,7 +29304,7 @@ NULL
 }
 if
 (
-dsaKey
+dsakey
 )
 {
 PORT_FreeArena
@@ -34092,11 +34092,6 @@ exit
 (
 -
 1
-)
-;
-NSS_NoDB_Init
-(
-NULL
 )
 ;
 /

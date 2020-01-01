@@ -506,9 +506,6 @@ res
 =
 MP_OKAY
 ;
-int
-i
-;
 GFMethod
 *
 meth
