@@ -846,6 +846,10 @@ mDevice
 (
 aDevice
 )
+mHasAlpha
+(
+true
+)
 {
 }
 ~
@@ -892,6 +896,9 @@ mSRView
 ;
 gfxIntSize
 mSize
+;
+bool
+mHasAlpha
 ;
 }
 ;
