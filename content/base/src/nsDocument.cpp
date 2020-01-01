@@ -31885,7 +31885,7 @@ mPresShell
 mPresShell
 -
 >
-DidInitialReflow
+DidInitialize
 (
 )
 )

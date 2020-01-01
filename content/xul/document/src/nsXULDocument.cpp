@@ -11794,7 +11794,7 @@ rv
 shell
 -
 >
-InitialReflow
+Initialize
 (
 r
 .
@@ -23416,7 +23416,7 @@ shell
 shell
 -
 >
-DidInitialReflow
+DidInitialize
 (
 )
 ;

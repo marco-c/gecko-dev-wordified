@@ -1608,7 +1608,7 @@ shell
 shell
 -
 >
-DidInitialReflow
+DidInitialize
 (
 )
 )
@@ -1634,7 +1634,7 @@ rv
 shell
 -
 >
-InitialReflow
+Initialize
 (
 visibleArea
 .

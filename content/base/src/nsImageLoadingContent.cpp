@@ -1495,7 +1495,7 @@ have
 to
 test
 !
-DidInitialReflow
+DidInitialize
 |
 |
 IsPaintingSuppressed
@@ -1606,7 +1606,7 @@ IsVisible
 shell
 -
 >
-DidInitialReflow
+DidInitialize
 (
 )
 |
