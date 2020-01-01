@@ -454,14 +454,12 @@ nsIDOMWindow
 aDOMWindow
 )
 ;
-NS_IMETHOD
-GetWindowDOMElement
-(
 nsIDOMElement
 *
-*
-aDOMElement
+GetWindowDOMElement
+(
 )
+const
 ;
 /
 /
