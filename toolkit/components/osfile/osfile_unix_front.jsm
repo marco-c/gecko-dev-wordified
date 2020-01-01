@@ -634,7 +634,8 @@ file
 *
 param
 {
-ArrayBuffer
+C
+pointer
 }
 buffer
 A
@@ -800,7 +801,8 @@ file
 *
 param
 {
-ArrayBuffer
+C
+pointer
 }
 buffer
 A
