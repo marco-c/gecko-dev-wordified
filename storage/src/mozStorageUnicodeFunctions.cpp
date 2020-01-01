@@ -1471,6 +1471,8 @@ null
 ;
 PRUnichar
 E
+=
+0
 ;
 if
 (
