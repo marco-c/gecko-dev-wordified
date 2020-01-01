@@ -1024,6 +1024,9 @@ if
 (
 !
 mCanceled
+&
+&
+mCallback
 )
 (
 void
