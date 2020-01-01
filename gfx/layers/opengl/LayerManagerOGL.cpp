@@ -776,6 +776,13 @@ mRoot
 nullptr
 ;
 }
+mWidget
+-
+>
+CleanupWindowEffects
+(
+)
+;
 if
 (
 !
@@ -4535,6 +4542,13 @@ a
 custom
 background
 .
+mWidget
+-
+>
+PrepareWindowEffects
+(
+)
+;
 mWidget
 -
 >
