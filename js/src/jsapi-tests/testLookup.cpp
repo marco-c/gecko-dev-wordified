@@ -153,7 +153,7 @@ method
 bearing
 objects
 .
-JS
+js
 :
 :
 RootedValue
@@ -256,7 +256,7 @@ address
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -281,7 +281,7 @@ internal
 function
 object
 .
-JS
+js
 :
 :
 RootedValue
@@ -394,7 +394,7 @@ all
 =
 true
 .
-JS
+js
 :
 :
 RootedValue
@@ -545,7 +545,7 @@ BEGIN_TEST
 testLookup_bug570195
 )
 {
-JS
+js
 :
 :
 RootedObject
@@ -586,7 +586,7 @@ NULL
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue

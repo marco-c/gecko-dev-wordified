@@ -846,7 +846,7 @@ f
 n
 "
 ;
-JS
+js
 :
 :
 RootedObject
@@ -964,7 +964,7 @@ isObject
 return
 NULL
 ;
-JS
+js
 :
 :
 RootedObject
@@ -1169,7 +1169,7 @@ isObject
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -1355,7 +1355,7 @@ script
 /
 /
 execute
-JS
+js
 :
 :
 RootedValue
@@ -1424,7 +1424,7 @@ address
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue

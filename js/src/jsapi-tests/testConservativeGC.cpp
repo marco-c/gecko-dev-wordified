@@ -94,7 +94,7 @@ testConservativeGC
 #
 ifndef
 JSGC_USE_EXACT_ROOTING
-JS
+js
 :
 :
 RootedValue
@@ -156,7 +156,7 @@ JSObject
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -244,7 +244,7 @@ isObject
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -303,7 +303,7 @@ tmp
 )
 )
 ;
-JS
+js
 :
 :
 RootedString

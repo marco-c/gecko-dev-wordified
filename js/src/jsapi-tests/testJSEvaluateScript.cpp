@@ -62,7 +62,7 @@ BEGIN_TEST
 testJSEvaluateScript
 )
 {
-JS
+js
 :
 :
 RootedObject

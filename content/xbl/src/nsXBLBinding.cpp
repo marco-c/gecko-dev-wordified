@@ -1505,7 +1505,7 @@ cx
 callee
 )
 ;
-JS
+js
 :
 :
 Rooted
@@ -1787,7 +1787,7 @@ thisv
 )
 )
 ;
-JS
+js
 :
 :
 Rooted
@@ -1811,7 +1811,7 @@ installed
 =
 false
 ;
-JS
+js
 :
 :
 Rooted
@@ -1834,7 +1834,7 @@ toObject
 )
 )
 ;
-JS
+js
 :
 :
 Rooted
@@ -1888,7 +1888,7 @@ return
 true
 ;
 }
-JS
+js
 :
 :
 Rooted
@@ -2020,7 +2020,7 @@ thisv
 )
 )
 ;
-JS
+js
 :
 :
 Rooted
@@ -2044,7 +2044,7 @@ installed
 =
 false
 ;
-JS
+js
 :
 :
 Rooted
@@ -2067,7 +2067,7 @@ toObject
 )
 )
 ;
-JS
+js
 :
 :
 Rooted
@@ -2101,7 +2101,7 @@ return
 false
 ;
 }
-JS
+js
 :
 :
 Rooted
@@ -2372,7 +2372,7 @@ object
 when
 invoked
 .
-JS
+js
 :
 :
 Rooted
@@ -2390,7 +2390,7 @@ obj
 )
 )
 ;
-JS
+js
 :
 :
 Rooted
@@ -2469,7 +2469,7 @@ id
 )
 )
 ;
-JS
+js
 :
 :
 Rooted

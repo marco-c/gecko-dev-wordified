@@ -276,7 +276,7 @@ vp
 jsval
 r
 ;
-JS
+js
 :
 :
 RootedObject
@@ -483,7 +483,7 @@ psize
 10
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -710,7 +710,7 @@ cx
 )
 ;
 {
-JS
+js
 :
 :
 RootedValue
@@ -868,7 +868,7 @@ cx
 )
 ;
 {
-JS
+js
 :
 :
 RootedValue
@@ -964,7 +964,7 @@ cx
 )
 ;
 {
-JS
+js
 :
 :
 RootedValue
@@ -1259,7 +1259,7 @@ cx
 )
 ;
 {
-JS
+js
 :
 :
 RootedValue
@@ -1459,7 +1459,7 @@ t
 overflow
 *
 /
-JS
+js
 :
 :
 RootedValue
@@ -1593,7 +1593,7 @@ cx
 )
 ;
 {
-JS
+js
 :
 :
 RootedValue
@@ -1781,7 +1781,7 @@ check
 out
 *
 /
-JS
+js
 :
 :
 RootedValue
@@ -1902,7 +1902,7 @@ of
 js
 *
 /
-JS
+js
 :
 :
 RootedValue
@@ -1996,7 +1996,7 @@ final
 exit
 *
 /
-JS
+js
 :
 :
 RootedValue
@@ -2127,7 +2127,7 @@ false
 )
 ;
 {
-JS
+js
 :
 :
 RootedValue

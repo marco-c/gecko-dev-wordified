@@ -207,7 +207,7 @@ cx
 target
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -250,7 +250,7 @@ JSObject
 objArg
 )
 {
-JS
+js
 :
 :
 RootedObject
@@ -290,7 +290,7 @@ unsigned
 flags
 )
 {
-JS
+js
 :
 :
 RootedObject
@@ -300,7 +300,7 @@ cx
 scopeArg
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -343,7 +343,7 @@ unsigned
 flags
 )
 {
-JS
+js
 :
 :
 RootedObject
@@ -353,7 +353,7 @@ cx
 objArg
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -363,7 +363,7 @@ cx
 protoArg
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -402,7 +402,7 @@ BEGIN_TEST
 testBug604087
 )
 {
-JS
+js
 :
 :
 RootedObject
@@ -434,7 +434,7 @@ singleton
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -451,7 +451,7 @@ NULL
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -468,7 +468,7 @@ NULL
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -485,7 +485,7 @@ NULL
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -521,7 +521,7 @@ Int32Value
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -557,7 +557,7 @@ Int32Value
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -599,7 +599,7 @@ c4wrapper
 =
 NULL
 ;
-JS
+js
 :
 :
 RootedObject

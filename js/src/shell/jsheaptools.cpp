@@ -3631,9 +3631,6 @@ pathName
 .
 *
 /
-JS
-:
-:
 RootedValue
 valRoot
 (

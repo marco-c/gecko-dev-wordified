@@ -139,7 +139,7 @@ x
 v
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -273,7 +273,7 @@ o
 o
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -406,7 +406,7 @@ y
 y
 )
 ;
-JS
+js
 :
 :
 RootedObject

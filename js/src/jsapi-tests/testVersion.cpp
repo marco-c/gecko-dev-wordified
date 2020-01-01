@@ -281,7 +281,7 @@ captured
 =
 JSVERSION_UNKNOWN
 ;
-JS
+js
 :
 :
 RootedObject
@@ -411,7 +411,7 @@ size_t
 length
 )
 {
-JS
+js
 :
 :
 RootedObject
@@ -664,7 +664,7 @@ version
 jsval
 rval
 ;
-JS
+js
 :
 :
 RootedObject

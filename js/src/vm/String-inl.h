@@ -998,7 +998,7 @@ size_t
 length
 )
 {
-JS
+js
 :
 :
 Rooted

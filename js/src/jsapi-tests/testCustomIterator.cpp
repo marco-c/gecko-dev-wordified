@@ -135,7 +135,7 @@ JSBool
 keysonly
 )
 {
-JS
+js
 :
 :
 RootedObject

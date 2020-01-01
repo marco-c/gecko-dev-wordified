@@ -522,7 +522,7 @@ JSObject
 *
 targetObject
 =
-nsnull
+nullptr
 ;
 JSObject
 *
@@ -533,7 +533,7 @@ JSVAL_IS_PRIMITIVE
 aValue
 )
 ?
-nsnull
+nullptr
 :
 JSVAL_TO_OBJECT
 (
@@ -887,9 +887,9 @@ dummy
 JS_NewObject
 (
 aCx
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -926,8 +926,8 @@ OBJECT_TO_JSVAL
 (
 dummy
 )
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -958,8 +958,8 @@ IDBObjectStore
 :
 :
 sDummyPropJSClass
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -996,8 +996,8 @@ OBJECT_TO_JSVAL
 (
 dummy
 )
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -1593,7 +1593,7 @@ aKey
 )
 const
 {
-PRUint32
+uint32_t
 len
 =
 mStrings
@@ -1616,7 +1616,7 @@ Unset
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1644,8 +1644,8 @@ i
 &
 value
 DoNotCreateProperties
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -1772,13 +1772,13 @@ mStrings
 ]
 aOutVal
 DoNotCreateProperties
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
 const
-PRUint32
+uint32_t
 len
 =
 mStrings
@@ -1787,7 +1787,7 @@ Length
 (
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -1798,7 +1798,7 @@ JS_NewArrayObject
 (
 aCx
 len
-nsnull
+nullptr
 )
 )
 ;
@@ -1820,7 +1820,7 @@ value
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1848,8 +1848,8 @@ i
 &
 value
 DoNotCreateProperties
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -2141,7 +2141,7 @@ easier
 :
 -
 )
-PRUint32
+uint32_t
 len
 =
 mStrings
@@ -2152,7 +2152,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2380,7 +2380,7 @@ IsArray
 )
 )
 {
-PRUint32
+uint32_t
 len
 =
 mStrings
@@ -2397,7 +2397,7 @@ JS_NewArrayObject
 (
 aCx
 len
-nsnull
+nullptr
 )
 ;
 if
@@ -2423,7 +2423,7 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

@@ -170,9 +170,6 @@ by
 this
 allocator
 .
-JS
-:
-:
 CompilerRootNode
 *
 rootList_
@@ -292,9 +289,6 @@ return
 lifoAlloc_
 ;
 }
-JS
-:
-:
 CompilerRootNode
 *
 &

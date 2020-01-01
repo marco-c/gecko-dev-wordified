@@ -4793,7 +4793,7 @@ mPrincipal
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject

@@ -216,7 +216,7 @@ testGetPropertyDefault_bug594060
 /
 Check
 JS_GetPropertyDefault
-JS
+js
 :
 :
 RootedObject
@@ -314,7 +314,7 @@ v2
 /
 Check
 JS_GetPropertyByIdDefault
-JS
+js
 :
 :
 RootedObject

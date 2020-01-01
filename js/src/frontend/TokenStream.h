@@ -5334,7 +5334,7 @@ token
 buffer
 *
 /
-JS
+js
 :
 :
 SkipRoot
@@ -5431,13 +5431,13 @@ first
 line
 *
 /
-JS
+js
 :
 :
 SkipRoot
 linebaseRoot
 ;
-JS
+js
 :
 :
 SkipRoot
@@ -5453,7 +5453,7 @@ input
 buffer
 *
 /
-JS
+js
 :
 :
 SkipRoot

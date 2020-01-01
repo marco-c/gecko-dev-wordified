@@ -7680,7 +7680,7 @@ principal
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -8684,7 +8684,7 @@ mContext
 aScopeObject
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -9183,7 +9183,7 @@ setSourcePolicy
 sp
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -10126,7 +10126,7 @@ aURL
 aLineNo
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -10420,7 +10420,7 @@ NS_ERROR_FAILURE
 ;
 }
 }
-JS
+js
 :
 :
 RootedObject

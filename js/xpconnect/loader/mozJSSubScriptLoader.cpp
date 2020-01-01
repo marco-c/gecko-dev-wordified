@@ -794,7 +794,7 @@ CompileOptions
 LAZY_SOURCE
 )
 ;
-JS
+js
 :
 :
 RootedObject
