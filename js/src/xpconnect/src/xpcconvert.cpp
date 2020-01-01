@@ -4290,6 +4290,7 @@ cx
 s
 )
 )
+)
 {
 return
 JS_FALSE
