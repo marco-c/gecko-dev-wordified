@@ -1107,11 +1107,6 @@ Source
 endif
 HTML_TAG
 (
-spacer
-Shared
-)
-HTML_TAG
-(
 span
 Span
 )

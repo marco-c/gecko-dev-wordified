@@ -798,10 +798,6 @@ HTMLSelectElement
 )
 DOMCI_CLASS
 (
-HTMLSpacerElement
-)
-DOMCI_CLASS
-(
 HTMLSpanElement
 )
 DOMCI_CLASS
