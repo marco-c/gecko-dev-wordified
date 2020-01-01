@@ -217,7 +217,7 @@ upgrade
 *
 /
 void
-RunCommandsForEachInstallAndUpgrade
+RunCommandsForEachUpgrade
 (
 )
 {
@@ -494,10 +494,6 @@ SvcInstall
 action
 )
 ;
-RunCommandsForEachInstallAndUpgrade
-(
-)
-;
 if
 (
 !
@@ -627,7 +623,7 @@ SvcInstall
 UpgradeSvc
 )
 ;
-RunCommandsForEachInstallAndUpgrade
+RunCommandsForEachUpgrade
 (
 )
 ;
