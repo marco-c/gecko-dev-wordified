@@ -3302,7 +3302,6 @@ editable
 node
 *
 /
-virtual
 bool
 IsEditable
 (

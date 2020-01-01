@@ -4981,6 +4981,11 @@ UpdateTypeMismatchValidityState
 )
 ;
 }
+UpdateEditableState
+(
+aNotify
+)
+;
 UpdateState
 (
 aNotify
