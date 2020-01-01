@@ -4030,6 +4030,16 @@ namespaceURI
 xulNS
 |
 |
+aNode
+.
+nodeType
+=
+=
+Node
+.
+DOCUMENT_NODE
+|
+|
 this
 .
 isTargetAFormControl
