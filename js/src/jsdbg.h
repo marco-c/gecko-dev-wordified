@@ -3619,9 +3619,9 @@ JS_ASSERT_IF
 kind
 =
 =
-NewNonHeldScript
-&
-&
+NewHeldScript
+|
+|
 script
 -
 >
