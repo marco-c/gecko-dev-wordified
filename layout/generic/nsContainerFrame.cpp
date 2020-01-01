@@ -3790,7 +3790,13 @@ type
 "
 )
 ;
-PRUint8
+mozilla
+:
+:
+css
+:
+:
+Side
 startSide
 endSide
 ;

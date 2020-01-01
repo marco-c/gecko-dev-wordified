@@ -7376,7 +7376,13 @@ const
 nsStyleCorners
 &
 aCorners
-PRUint8
+mozilla
+:
+:
+css
+:
+:
+Side
 aSide
 )
 ;
