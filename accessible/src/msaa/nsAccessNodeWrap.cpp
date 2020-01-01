@@ -646,7 +646,7 @@ gIsIA2Disabled
 =
 PR_FALSE
 ;
-nsIAccessibleTextChangeEvent
+nsAccTextChangeEvent
 *
 nsAccessNodeWrap
 :

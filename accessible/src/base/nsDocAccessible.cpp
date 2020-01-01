@@ -9940,13 +9940,11 @@ has
 accessible
 children
 .
-nsCOMPtr
-<
 nsAccReorderEvent
->
+*
 reorderEvent
 =
-do_QueryInterface
+downcast_accEvent
 (
 aEvent
 )
