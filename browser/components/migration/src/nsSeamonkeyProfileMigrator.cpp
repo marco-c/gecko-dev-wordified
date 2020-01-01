@@ -2380,15 +2380,6 @@ MAKESAMETYPEPREFTRANSFORM
 "
 security
 .
-enable_ssl2
-"
-Bool
-)
-MAKESAMETYPEPREFTRANSFORM
-(
-"
-security
-.
 enable_ssl3
 "
 Bool
