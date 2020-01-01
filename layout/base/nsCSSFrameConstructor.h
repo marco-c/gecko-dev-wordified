@@ -8197,7 +8197,8 @@ SECTION
 protected
 :
 static
-nsresult
+nsIFrame
+*
 CreatePlaceholderFrameFor
 (
 nsIPresShell
@@ -8220,10 +8221,6 @@ nsIFrame
 aPrevInFlow
 nsFrameState
 aTypeBit
-nsIFrame
-*
-*
-aPlaceholderFrame
 )
 ;
 private
