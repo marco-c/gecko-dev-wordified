@@ -1881,7 +1881,7 @@ in
 JS
 .
 See
-nsWindowSH
+nsCommonWindowSH
 :
 :
 GlobalResolve
