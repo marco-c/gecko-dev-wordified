@@ -1507,6 +1507,8 @@ fnObj
 JSObject
 *
 thisObj
+jsval
+errVal
 )
 ;
 static
@@ -23708,6 +23710,7 @@ baseObj
 result
 fnObj
 thisObj
+errVal
 )
 ;
 }
@@ -34666,6 +34669,8 @@ fnObj
 JSObject
 *
 thisObj
+jsval
+errVal
 )
 {
 JS_ASSERT
@@ -34799,6 +34804,7 @@ cx
 typeObj
 fnObj
 thisObj
+errVal
 data
 )
 ;
@@ -36833,6 +36839,8 @@ fnObj
 JSObject
 *
 thisObj
+jsval
+errVal
 PRFuncPtr
 *
 fnptr
