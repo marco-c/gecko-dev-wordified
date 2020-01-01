@@ -1003,8 +1003,7 @@ protected
 IDBKeyRange
 (
 )
-{
-}
+;
 Key
 mLower
 ;
