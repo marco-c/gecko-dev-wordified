@@ -22122,6 +22122,13 @@ native
 )
 ;
 }
+else
+{
+rv
+=
+NS_ERROR_NOT_AVAILABLE
+;
+}
 }
 }
 else
