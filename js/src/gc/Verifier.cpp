@@ -3609,7 +3609,6 @@ gcMarker
 .
 start
 (
-rt
 )
 ;
 for

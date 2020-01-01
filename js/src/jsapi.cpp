@@ -4144,6 +4144,10 @@ gcNumArenasFreeCommitted
 (
 0
 )
+gcMarker
+(
+this
+)
 gcVerifyPreData
 (
 NULL
