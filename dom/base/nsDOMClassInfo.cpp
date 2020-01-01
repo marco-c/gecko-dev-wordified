@@ -34114,16 +34114,12 @@ nsGlobalNameStruct
 *
 name_struct
 =
-nullptr
-;
 nameSpaceManager
 -
 >
 LookupNavigatorName
 (
 name
-&
-name_struct
 )
 ;
 if
