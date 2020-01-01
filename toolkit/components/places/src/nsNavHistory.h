@@ -2666,6 +2666,12 @@ mDBVisitToVisitResult
 kGetInfoIndex_
 *
 results
+mozIStorageStatement
+*
+GetDBBookmarkToUrlResult
+(
+)
+;
 nsCOMPtr
 <
 mozIStorageStatement
