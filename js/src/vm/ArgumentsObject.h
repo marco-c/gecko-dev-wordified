@@ -511,6 +511,9 @@ ic
 struct
 PICInfo
 ;
+struct
+GetElementIC
+;
 /
 *
 Aargh
@@ -1236,6 +1239,16 @@ class
 :
 :
 GetPropCompiler
+;
+friend
+class
+mjit
+:
+:
+ic
+:
+:
+GetElementIC
 ;
 #
 endif
