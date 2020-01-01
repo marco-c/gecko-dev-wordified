@@ -329,6 +329,9 @@ mScreenHeight
 int
 mMaxLayerCount
 ;
+bool
+mColorFill
+;
 }
 ;
 }
