@@ -1854,8 +1854,14 @@ return
 NS_OK
 ;
 }
+aType
+.
+Truncate
+(
+)
+;
 return
-NS_ERROR_FAILURE
+NS_OK
 ;
 }
 static
