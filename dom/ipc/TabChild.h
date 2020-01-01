@@ -1013,6 +1013,16 @@ event
 ;
 virtual
 bool
+RecvRealTouchMoveEvent
+(
+const
+nsTouchEvent
+&
+event
+)
+;
+virtual
+bool
 RecvKeyEvent
 (
 const
