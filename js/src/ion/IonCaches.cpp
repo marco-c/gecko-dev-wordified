@@ -8730,6 +8730,15 @@ obj
 isExtensible
 (
 )
+|
+|
+!
+shape
+-
+>
+writable
+(
+)
 )
 return
 false
