@@ -436,6 +436,12 @@ aSVGElement
 )
 {
 }
+virtual
+~
+DOMAnimatedNumber
+(
+)
+;
 nsSVGNumber2
 *
 mVal

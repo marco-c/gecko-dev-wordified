@@ -343,6 +343,12 @@ aSVGElement
 )
 {
 }
+virtual
+~
+DOMAnimatedBoolean
+(
+)
+;
 nsSVGBoolean
 *
 mVal

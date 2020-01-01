@@ -515,6 +515,12 @@ aIndex
 )
 {
 }
+virtual
+~
+DOMAnimatedInteger
+(
+)
+;
 nsSVGIntegerPair
 *
 mVal

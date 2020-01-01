@@ -429,6 +429,12 @@ aSVGElement
 )
 {
 }
+virtual
+~
+DOMAnimatedInteger
+(
+)
+;
 nsSVGInteger
 *
 mVal

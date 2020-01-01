@@ -386,6 +386,12 @@ aSVGElement
 )
 {
 }
+virtual
+~
+DOMAnimatedEnum
+(
+)
+;
 nsSVGEnum
 *
 mVal
