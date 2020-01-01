@@ -18174,6 +18174,9 @@ parent
 is
 hung
 .
+Currently
+disabled
+.
 pref
 (
 "
@@ -18185,7 +18188,7 @@ plugins
 .
 parentTimeoutSecs
 "
-15
+0
 )
 ;
 /
