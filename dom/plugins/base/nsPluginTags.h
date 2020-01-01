@@ -285,14 +285,6 @@ nsPluginTag
 )
 ;
 void
-SetHost
-(
-nsPluginHost
-*
-aHost
-)
-;
-void
 TryUnloadPlugin
 (
 bool
@@ -384,10 +376,6 @@ nsRefPtr
 nsPluginTag
 >
 mNext
-;
-nsPluginHost
-*
-mPluginHost
 ;
 nsCString
 mName
