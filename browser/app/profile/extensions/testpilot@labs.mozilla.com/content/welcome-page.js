@@ -479,7 +479,7 @@ testpilot
 .
 welcomePage
 .
-iconExplanation
+iconExplanation2
 "
 }
 {
@@ -501,7 +501,7 @@ testpilot
 .
 welcomePage
 .
-moreIconExplanation
+moreIconExplanation2
 "
 }
 {
@@ -521,7 +521,7 @@ testpilot
 .
 welcomePage
 .
-notificationInfo
+notificationInfo2
 "
 }
 {

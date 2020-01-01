@@ -3278,7 +3278,7 @@ QueryInterface
 (
 Ci
 .
-nsIPrefBranch
+nsIPrefBranch2
 )
 ;
 let

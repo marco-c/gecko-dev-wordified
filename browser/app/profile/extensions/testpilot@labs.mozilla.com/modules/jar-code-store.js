@@ -710,7 +710,13 @@ init
 (
 jarFile
 0x01
+parseInt
+(
+"
 0444
+"
+8
+)
 0
 )
 ;
@@ -1097,7 +1103,13 @@ jarFile
 0x08
 |
 0x20
+parseInt
+(
+"
 0600
+"
+8
+)
 0
 )
 ;
