@@ -1482,6 +1482,13 @@ Noise
 {
 public
 :
+virtual
+~
+Noise
+(
+)
+{
+}
 /
 /
 produce
