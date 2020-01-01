@@ -440,6 +440,8 @@ const
 *
 const
 kPStaticModules
+[
+]
 ;
 #
 endif
