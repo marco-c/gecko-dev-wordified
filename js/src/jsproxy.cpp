@@ -3192,8 +3192,11 @@ GetProxyTargetObject
 proxy
 )
 ;
-PropertyDescriptor
+AutoPropertyDescriptorRooter
 desc
+(
+cx
+)
 ;
 if
 (

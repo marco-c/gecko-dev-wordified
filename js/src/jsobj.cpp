@@ -6236,8 +6236,11 @@ setUndefined
 (
 )
 ;
-PropertyDescriptor
+AutoPropertyDescriptorRooter
 desc
+(
+cx
+)
 ;
 if
 (
@@ -6480,8 +6483,11 @@ setUndefined
 (
 )
 ;
-PropertyDescriptor
+AutoPropertyDescriptorRooter
 desc
+(
+cx
+)
 ;
 if
 (
