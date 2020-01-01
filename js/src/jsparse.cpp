@@ -6473,7 +6473,10 @@ stdout
 endif
 script
 =
-js_NewScriptFromCG
+JSScript
+:
+:
+NewScriptFromCG
 (
 cx
 &
@@ -16917,13 +16920,11 @@ bug
 /
 if
 (
-(
 funtc
 -
 >
-flags
-&
-TCF_FUN_CALLS_EVAL
+callsEval
+(
 )
 |
 |
