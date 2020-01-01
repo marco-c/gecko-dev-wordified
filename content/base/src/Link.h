@@ -520,7 +520,6 @@ Link
 (
 )
 ;
-virtual
 nsLinkState
 GetLinkState
 (
@@ -780,7 +779,6 @@ not
 .
 *
 /
-virtual
 void
 ResetLinkState
 (
