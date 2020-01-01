@@ -102,6 +102,13 @@ mozilla_dom_SVGPatternElement_h
 #
 include
 "
+nsIDOMSVGUnitTypes
+.
+h
+"
+#
+include
+"
 nsSVGEnum
 .
 h
@@ -186,6 +193,8 @@ public
 SVGPatternElementBase
 public
 nsIDOMSVGElement
+public
+nsIDOMSVGUnitTypes
 {
 friend
 class

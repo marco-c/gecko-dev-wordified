@@ -102,6 +102,13 @@ __NS_SVGGRADIENTELEMENT_H__
 #
 include
 "
+nsIDOMSVGUnitTypes
+.
+h
+"
+#
+include
+"
 nsSVGElement
 .
 h
@@ -269,6 +276,8 @@ SVGGradientElement
 :
 public
 SVGGradientElementBase
+public
+nsIDOMSVGUnitTypes
 {
 friend
 class

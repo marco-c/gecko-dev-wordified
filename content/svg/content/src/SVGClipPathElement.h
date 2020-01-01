@@ -102,6 +102,13 @@ mozilla_dom_SVGClipPathElement_h
 #
 include
 "
+nsIDOMSVGUnitTypes
+.
+h
+"
+#
+include
+"
 nsSVGEnum
 .
 h
@@ -152,6 +159,8 @@ public
 SVGClipPathElementBase
 public
 nsIDOMSVGElement
+public
+nsIDOMSVGUnitTypes
 {
 friend
 class

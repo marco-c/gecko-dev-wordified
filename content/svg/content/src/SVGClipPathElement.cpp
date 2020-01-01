@@ -268,13 +268,14 @@ SVG_UNIT_TYPE_USERSPACEONUSE
 /
 nsISupports
 methods
-NS_IMPL_ISUPPORTS_INHERITED3
+NS_IMPL_ISUPPORTS_INHERITED4
 (
 SVGClipPathElement
 SVGClipPathElementBase
 nsIDOMNode
 nsIDOMElement
 nsIDOMSVGElement
+nsIDOMSVGUnitTypes
 )
 /
 /
