@@ -15762,7 +15762,7 @@ vp
 ifdef
 JS_METHODJIT
 void
-FASTCALL
+JS_FASTCALL
 mjit
 :
 :
