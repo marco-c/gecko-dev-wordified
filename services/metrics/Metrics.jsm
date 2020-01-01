@@ -76,6 +76,12 @@ Metrics
 ;
 const
 {
+classes
+:
+Cc
+interfaces
+:
+Ci
 utils
 :
 Cu
