@@ -2102,15 +2102,6 @@ return
 mZ
 ;
 }
-double
-Distance
-(
-)
-{
-return
-mDistance
-;
-}
 const
 nsIntRect
 &
@@ -2346,9 +2337,6 @@ double
 mX
 mY
 mZ
-;
-double
-mDistance
 ;
 int
 mPointerIndex
@@ -2648,7 +2636,7 @@ VISITED
 NETWORK_CHANGED
 =
 22
-PROXIMITY_EVENT
+UNUSED3_EVENT
 =
 23
 ACTIVITY_RESUMING
