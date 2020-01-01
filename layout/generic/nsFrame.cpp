@@ -34250,6 +34250,9 @@ mAmount
 case
 eSelectCharacter
 :
+case
+eSelectCluster
+:
 {
 PRBool
 eatingNonRenderableWS
@@ -34315,6 +34318,13 @@ PeekOffsetCharacter
 movingInFrameDirection
 &
 offset
+aPos
+-
+>
+mAmount
+=
+=
+eSelectCluster
 )
 ;
 if
@@ -36380,6 +36390,8 @@ aForward
 PRInt32
 *
 aOffset
+PRBool
+aRespectClusters
 )
 {
 NS_ASSERTION
