@@ -2660,6 +2660,8 @@ String
 aClassName
 String
 aAction
+String
+aTitle
 )
 {
 Intent
@@ -2690,6 +2692,16 @@ Intent
 .
 EXTRA_TEXT
 aUriSpec
+)
+;
+intent
+.
+putExtra
+(
+Intent
+.
+EXTRA_SUBJECT
+aTitle
 )
 ;
 if

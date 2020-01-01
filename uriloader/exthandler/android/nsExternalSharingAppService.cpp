@@ -540,6 +540,7 @@ mime
 emptyString
 emptyString
 sendAction
+title
 )
 ?
 NS_OK
