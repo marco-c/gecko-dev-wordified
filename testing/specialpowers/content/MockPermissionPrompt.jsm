@@ -277,7 +277,8 @@ nsIFactory
 )
 }
 ;
-var
+this
+.
 MockPermissionPrompt
 =
 {
