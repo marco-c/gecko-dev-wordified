@@ -60434,6 +60434,7 @@ vp
 v_ins
 addr_ins
 0
+ACC_OTHER
 )
 ;
 return
@@ -65637,6 +65638,7 @@ sizeof
 (
 Value
 )
+ACC_OTHER
 )
 ;
 }
@@ -65697,6 +65699,7 @@ sizeof
 (
 Value
 )
+ACC_OTHER
 )
 ;
 }
@@ -66764,14 +66767,13 @@ nanojit
 LIns
 *
 v_ins
-nanojit
-:
-:
 LIns
 *
 dstaddr_ins
 ptrdiff_t
 offset
+AccSet
+accSet
 )
 {
 if
@@ -66814,7 +66816,7 @@ dstaddr_ins
 offset
 +
 sTagOffset
-ACC_OTHER
+accSet
 )
 ;
 lir
@@ -66827,7 +66829,7 @@ dstaddr_ins
 offset
 +
 sPayloadOffset
-ACC_OTHER
+accSet
 )
 ;
 }
@@ -66841,7 +66843,7 @@ insStore
 v_ins
 dstaddr_ins
 offset
-ACC_OTHER
+accSet
 )
 ;
 }
@@ -66870,7 +66872,7 @@ dstaddr_ins
 offset
 +
 sTagOffset
-ACC_OTHER
+accSet
 )
 ;
 lir
@@ -66883,7 +66885,7 @@ dstaddr_ins
 offset
 +
 sPayloadOffset
-ACC_OTHER
+accSet
 )
 ;
 }
@@ -66932,6 +66934,7 @@ v
 v_ins
 boxed_ins
 0
+ACC_OTHER
 )
 ;
 return
@@ -68865,6 +68868,7 @@ sizeof
 (
 Value
 )
+ACC_OTHER
 )
 ;
 }
@@ -69021,6 +69025,7 @@ sizeof
 (
 Value
 )
+ACC_OTHER
 )
 ;
 }
@@ -70792,6 +70797,7 @@ offsetof
 JSStackFrame
 rval
 )
+ACC_OTHER
 )
 ;
 return
@@ -76703,6 +76709,7 @@ funobj
 )
 invokevp_ins
 0
+ACC_OTHER
 )
 ;
 /
@@ -77195,6 +77202,7 @@ sizeof
 (
 Value
 )
+ACC_OTHER
 )
 ;
 /
@@ -77241,6 +77249,7 @@ sizeof
 (
 Value
 )
+ACC_OTHER
 )
 ;
 /
@@ -81556,6 +81565,7 @@ sizeof
 (
 Value
 )
+ACC_OTHER
 )
 ;
 return

@@ -8939,6 +8939,11 @@ LIns
 dstaddr_ins
 ptrdiff_t
 offset
+nanojit
+:
+:
+AccSet
+accSet
 )
 ;
 JS_REQUIRES_STACK
