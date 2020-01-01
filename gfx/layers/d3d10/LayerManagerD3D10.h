@@ -399,6 +399,7 @@ threadsafe
 .
 *
 *
+\
 return
 True
 is
@@ -420,11 +421,6 @@ bool
 force
 =
 false
-HRESULT
-*
-aHresultPtr
-=
-nullptr
 )
 ;
 /
