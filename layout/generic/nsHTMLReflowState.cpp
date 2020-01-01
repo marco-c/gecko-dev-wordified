@@ -734,6 +734,10 @@ mReflowDepth
 (
 0
 )
+mBlockDelta
+(
+0
+)
 {
 NS_PRECONDITION
 (
@@ -986,6 +990,10 @@ mFlags
 aParentReflowState
 .
 mFlags
+)
+mBlockDelta
+(
+0
 )
 {
 NS_PRECONDITION
