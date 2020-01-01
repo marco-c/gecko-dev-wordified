@@ -3478,7 +3478,7 @@ defined
 (
 XP_WIN
 )
-nsCAutoString
+nsAutoString
 filePath
 ;
 rv
@@ -3486,7 +3486,7 @@ rv
 lockFile
 -
 >
-GetNativePath
+GetPath
 (
 filePath
 )
@@ -3503,7 +3503,7 @@ rv
 ;
 mLockFileHandle
 =
-CreateFile
+CreateFileW
 (
 filePath
 .
