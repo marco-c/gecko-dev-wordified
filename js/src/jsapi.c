@@ -25582,8 +25582,8 @@ js_NewFunction
 cx
 NULL
 NULL
+nargs
 0
-JSFUN_INTERPRETED
 obj
 funAtom
 )
@@ -25596,6 +25596,11 @@ fun
 goto
 out
 ;
+if
+(
+nargs
+)
+{
 for
 (
 i
@@ -25647,12 +25652,25 @@ out
 if
 (
 !
-js_AddLocal
+js_AddHiddenProperty
 (
 cx
 fun
+-
+>
+object
+ATOM_TO_JSID
+(
 argAtom
-JSLOCAL_ARG
+)
+js_GetArgument
+js_SetArgument
+SPROP_INVALID_SLOT
+JSPROP_PERMANENT
+|
+JSPROP_SHARED
+SPROP_HAS_SHORTID
+i
 )
 )
 {
@@ -25663,6 +25681,7 @@ NULL
 goto
 out
 ;
+}
 }
 }
 ok
@@ -25812,7 +25831,6 @@ JS_NEW_PRINTER
 (
 cx
 name
-NULL
 indent
 &
 ~
@@ -25900,7 +25918,6 @@ cx
 "
 JS_DecompileFunction
 "
-fun
 indent
 &
 ~
@@ -25926,6 +25943,7 @@ if
 js_DecompileFunction
 (
 jp
+fun
 )
 )
 str
@@ -25987,7 +26005,6 @@ cx
 "
 JS_DecompileFunctionBody
 "
-fun
 indent
 &
 ~
@@ -26013,6 +26030,7 @@ if
 js_DecompileFunctionBody
 (
 jp
+fun
 )
 )
 str
