@@ -616,9 +616,14 @@ WillDoomEntriesIfExpired
 {
 return
 (
+0
+!
+=
+(
 mInfo
 &
 eDoomEntriesIfExpiredMask
+)
 )
 ;
 }
