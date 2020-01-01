@@ -1969,6 +1969,14 @@ sa_sigaction
 =
 fpehandler
 ;
+sigemptyset
+(
+&
+sa
+.
+sa_mask
+)
+;
 sigaction
 (
 SIGFPE
