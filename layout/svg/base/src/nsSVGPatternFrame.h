@@ -572,10 +572,6 @@ nsSVGGeometryFrame
 aSource
 float
 aGraphicOpacity
-void
-*
-*
-aClosure
 )
 ;
 /

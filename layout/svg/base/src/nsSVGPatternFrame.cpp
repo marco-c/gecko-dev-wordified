@@ -5579,17 +5579,8 @@ nsSVGGeometryFrame
 aSource
 float
 aGraphicOpacity
-void
-*
-*
-aClosure
 )
 {
-*
-aClosure
-=
-nsnull
-;
 if
 (
 aGraphicOpacity

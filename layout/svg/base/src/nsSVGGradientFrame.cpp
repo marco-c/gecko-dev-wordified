@@ -2343,17 +2343,8 @@ nsSVGGeometryFrame
 aSource
 float
 aGraphicOpacity
-void
-*
-*
-aClosure
 )
 {
-*
-aClosure
-=
-nsnull
-;
 PRUint32
 nStops
 =
