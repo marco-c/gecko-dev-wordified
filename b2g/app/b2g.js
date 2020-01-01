@@ -4816,3 +4816,15 @@ enabled
 true
 )
 ;
+pref
+(
+"
+media
+.
+volume
+.
+steps
+"
+10
+)
+;
