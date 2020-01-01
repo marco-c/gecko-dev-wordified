@@ -781,6 +781,13 @@ acInputField
 .
 form
 ;
+if
+(
+!
+acForm
+)
+return
+;
 /
 /
 If
