@@ -4499,13 +4499,16 @@ p
 else
 {
 nonpct_pref_total
-+
 =
+NSCoordSaturatingAdd
+(
+nonpct_pref_total
 colFrame
 -
 >
 GetPrefCoord
 (
+)
 )
 ;
 }
