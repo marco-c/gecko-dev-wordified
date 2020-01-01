@@ -31,14 +31,9 @@ addTab
 (
 )
 ;
-let
-newBrowser
-=
 gBrowser
 .
 selectedBrowser
-;
-newBrowser
 .
 addEventListener
 (
@@ -49,7 +44,9 @@ function
 (
 )
 {
-newBrowser
+gBrowser
+.
+selectedBrowser
 .
 removeEventListener
 (
@@ -65,7 +62,7 @@ true
 let
 doc
 =
-newBrowser
+gBrowser
 .
 contentDocument
 ;
@@ -365,10 +362,10 @@ finish
 true
 )
 ;
-newBrowser
+content
 .
-loadURI
-(
+location
+=
 "
 data
 :
@@ -377,6 +374,5 @@ text
 html
 test
 "
-)
 ;
 }
