@@ -675,7 +675,7 @@ addObserver
 this
 .
 observer
-false
+true
 )
 ;
 this
@@ -816,7 +816,7 @@ xpcom
 -
 shutdown
 "
-false
+true
 )
 ;
 }
