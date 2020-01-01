@@ -27602,9 +27602,10 @@ JS_TRUE
 #
 ifdef
 JS_TRACER
+static
 jsint
 FASTCALL
-js_Regexp_p_test
+Regexp_p_test
 (
 JSContext
 *
@@ -27740,6 +27741,7 @@ below
 /
 JS_DEFINE_CALLINFO_3
 (
+static
 INT32
 Regexp_p_test
 CONTEXT
@@ -27759,7 +27761,7 @@ regexp_test_trcinfo
 {
 regexp_test
 &
-ci_Regexp_p_test
+Regexp_p_test_ci
 "
 TC
 "

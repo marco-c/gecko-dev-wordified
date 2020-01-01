@@ -2532,7 +2532,7 @@ callInfo
 =
 =
 &
-ci_i2f
+i2f_ci
 )
 return
 true
@@ -2626,7 +2626,7 @@ callInfo
 =
 =
 &
-ci_u2f
+u2f_ci
 )
 return
 true
@@ -3473,7 +3473,7 @@ return
 quadCall
 (
 &
-ci_fneg
+fneg_ci
 &
 s0
 )
@@ -3489,7 +3489,7 @@ return
 quadCall
 (
 &
-ci_i2f
+i2f_ci
 &
 s0
 )
@@ -3505,7 +3505,7 @@ return
 quadCall
 (
 &
-ci_u2f
+u2f_ci
 &
 s0
 )
@@ -3579,13 +3579,13 @@ fmap
 =
 {
 &
-ci_fadd
+fadd_ci
 &
-ci_fsub
+fsub_ci
 &
-ci_fmul
+fmul_ci
 &
-ci_fdiv
+fdiv_ci
 }
 ;
 args
@@ -3639,15 +3639,15 @@ fmap
 =
 {
 &
-ci_fcmpeq
+fcmpeq_ci
 &
-ci_fcmplt
+fcmplt_ci
 &
-ci_fcmpgt
+fcmpgt_ci
 &
-ci_fcmple
+fcmple_ci
 &
-ci_fcmpge
+fcmpge_ci
 }
 ;
 args
@@ -4786,7 +4786,7 @@ ci
 =
 =
 &
-ci_DoubleToUint32
+js_DoubleToUint32_ci
 )
 {
 if
@@ -4842,7 +4842,7 @@ ci
 =
 =
 &
-ci_DoubleToInt32
+js_DoubleToInt32_ci
 )
 {
 if
@@ -5028,7 +5028,7 @@ callInfo
 =
 =
 &
-ci_UnboxDouble
+js_UnboxDouble_ci
 )
 {
 LIns
@@ -5052,7 +5052,7 @@ out
 insCall
 (
 &
-ci_UnboxInt32
+js_UnboxInt32_ci
 args2
 )
 ;
@@ -5076,7 +5076,7 @@ callInfo
 =
 =
 &
-ci_StringToNumber
+js_StringToNumber_ci
 )
 {
 /
@@ -5130,7 +5130,7 @@ out
 insCall
 (
 &
-ci_StringToInt32
+js_StringToInt32_ci
 args2
 )
 ;
@@ -5143,7 +5143,7 @@ ci
 =
 =
 &
-ci_BoxDouble
+js_BoxDouble_ci
 )
 {
 JS_ASSERT
@@ -5193,7 +5193,7 @@ out
 insCall
 (
 &
-ci_BoxInt32
+js_BoxInt32_ci
 args2
 )
 ;
@@ -5217,7 +5217,7 @@ callInfo
 =
 =
 &
-ci_UnboxDouble
+js_UnboxDouble_ci
 )
 return
 callArgN
@@ -16202,7 +16202,7 @@ lir
 insCall
 (
 &
-ci_CallTree
+js_CallTree_ci
 args
 )
 ;
@@ -25889,7 +25889,7 @@ lir
 insCall
 (
 &
-ci_DoubleToInt32
+js_DoubleToInt32_ci
 &
 f
 )
@@ -26488,7 +26488,7 @@ lir
 insCall
 (
 &
-ci_EqualStrings
+js_EqualStrings_ci
 args
 )
 )
@@ -27547,7 +27547,7 @@ lir
 insCall
 (
 &
-ci_EqualStrings
+js_EqualStrings_ci
 args
 )
 )
@@ -27561,7 +27561,7 @@ lir
 insCall
 (
 &
-ci_CompareStrings
+js_CompareStrings_ci
 args
 )
 ;
@@ -27723,7 +27723,7 @@ lir
 insCall
 (
 &
-ci_StringToNumber
+js_StringToNumber_ci
 args
 )
 ;
@@ -27817,7 +27817,7 @@ lir
 insCall
 (
 &
-ci_BooleanToNumber
+js_BooleanToNumber_ci
 args
 )
 ;
@@ -27919,7 +27919,7 @@ lir
 insCall
 (
 &
-ci_StringToNumber
+js_StringToNumber_ci
 args
 )
 ;
@@ -27953,7 +27953,7 @@ lir
 insCall
 (
 &
-ci_BooleanToNumber
+js_BooleanToNumber_ci
 args
 )
 ;
@@ -28928,7 +28928,7 @@ lir
 insCall
 (
 &
-ci_StringToNumber
+js_StringToNumber_ci
 args
 )
 ;
@@ -28967,7 +28967,7 @@ lir
 insCall
 (
 &
-ci_StringToNumber
+js_StringToNumber_ci
 args
 )
 ;
@@ -29013,10 +29013,10 @@ op
 LIR_ush
 ?
 &
-ci_DoubleToUint32
+js_DoubleToUint32_ci
 :
 &
-ci_DoubleToInt32
+js_DoubleToInt32_ci
 args
 )
 ;
@@ -31120,7 +31120,7 @@ lir
 insCall
 (
 &
-ci_BoxDouble
+js_BoxDouble_ci
 args
 )
 ;
@@ -31309,7 +31309,7 @@ lir
 insCall
 (
 &
-ci_UnboxDouble
+js_UnboxDouble_ci
 args
 )
 ;
@@ -33515,7 +33515,7 @@ lir
 insCall
 (
 &
-ci_Arguments
+js_Arguments_ci
 args
 )
 ;
@@ -33918,7 +33918,7 @@ lir
 insCall
 (
 &
-ci_NumberToString
+js_NumberToString_ci
 args2
 )
 ;
@@ -33943,7 +33943,7 @@ lir
 insCall
 (
 &
-ci_ObjectToString
+js_ObjectToString_ci
 args2
 )
 ;
@@ -33991,7 +33991,7 @@ lir
 insCall
 (
 &
-ci_ConcatStrings
+js_ConcatStrings_ci
 args
 )
 ;
@@ -34223,7 +34223,7 @@ lir
 insCall
 (
 &
-ci_imod
+js_imod_ci
 args
 )
 ;
@@ -34282,7 +34282,7 @@ lir
 insCall
 (
 &
-ci_dmod
+js_dmod_ci
 args
 )
 ;
@@ -35095,7 +35095,7 @@ lir
 insCall
 (
 &
-ci_FastNewObject
+js_FastNewObject_ci
 args
 )
 ;
@@ -35353,7 +35353,7 @@ callInfo
 =
 =
 &
-ci_Arguments
+js_Arguments_ci
 )
 {
 JS_ASSERT
@@ -35716,7 +35716,7 @@ callInfo
 !
 =
 &
-ci_Array_1str
+js_Array_1str_ci
 )
 ABORT_TRACE
 (
@@ -35905,7 +35905,7 @@ JSFastNative
 )
 js_Array
 &
-ci_FastNewArray
+js_FastNewArray_ci
 "
 pC
 "
@@ -35921,7 +35921,7 @@ JSFastNative
 )
 js_Array
 &
-ci_Array_1int
+js_Array_1int_ci
 "
 pC
 "
@@ -35938,7 +35938,7 @@ JSFastNative
 )
 js_Array
 &
-ci_Array_2obj
+js_Array_2obj_ci
 "
 pC
 "
@@ -35955,7 +35955,7 @@ JSFastNative
 )
 js_Array
 &
-ci_Array_3num
+js_Array_3num_ci
 "
 pC
 "
@@ -35972,7 +35972,7 @@ JSFastNative
 )
 js_Object
 &
-ci_FastNewObject
+js_FastNewObject_ci
 "
 fC
 "
@@ -35988,7 +35988,7 @@ JSFastNative
 )
 js_Date
 &
-ci_FastNewDate
+js_FastNewDate_ci
 "
 pC
 "
@@ -36737,7 +36737,7 @@ builtin
 =
 =
 &
-ci_String_p_charCodeAt
+js_String_p_charCodeAt_ci
 )
 {
 JSString
@@ -37353,7 +37353,7 @@ lir
 insCall
 (
 &
-ci_TypeOfBoolean
+js_TypeOfBoolean_ci
 args
 )
 ;
@@ -37376,7 +37376,7 @@ lir
 insCall
 (
 &
-ci_TypeOfObject
+js_TypeOfObject_ci
 args
 )
 ;
@@ -38130,7 +38130,7 @@ lir
 insCall
 (
 &
-ci_AddProperty
+js_AddProperty_ci
 args
 )
 ;
@@ -38493,7 +38493,7 @@ lir
 insCall
 (
 &
-ci_String_getelem
+js_String_getelem_ci
 args
 )
 ;
@@ -38723,7 +38723,7 @@ lir
 insCall
 (
 &
-ci_Any_getprop
+js_Any_getprop_ci
 args
 )
 ;
@@ -38927,7 +38927,7 @@ lir
 insCall
 (
 &
-ci_Any_getelem
+js_Any_getelem_ci
 args
 )
 ;
@@ -39236,7 +39236,7 @@ lir
 insCall
 (
 &
-ci_Any_setprop
+js_Any_setprop_ci
 args
 )
 ;
@@ -39322,7 +39322,7 @@ lir
 insCall
 (
 &
-ci_Array_dense_setelem
+js_Array_dense_setelem_ci
 args
 )
 ;
@@ -39380,7 +39380,7 @@ lir
 insCall
 (
 &
-ci_Any_setelem
+js_Any_setelem_ci
 args
 )
 ;
@@ -41125,7 +41125,7 @@ lir
 insCall
 (
 &
-ci_CallGetter
+js_CallGetter_ci
 args
 )
 ;
@@ -42585,7 +42585,7 @@ false
 ci
 =
 &
-ci_FastNewArray
+js_FastNewArray_ci
 ;
 }
 else
@@ -42637,7 +42637,7 @@ v_obj
 ci
 =
 &
-ci_FastNewObject
+js_FastNewObject_ci
 ;
 }
 LIns
@@ -42811,7 +42811,7 @@ callInfo
 =
 =
 &
-ci_FastNewArray
+js_FastNewArray_ci
 )
 ;
 LIns
@@ -42841,7 +42841,7 @@ lir
 insCall
 (
 &
-ci_Array_1str
+js_Array_1str_ci
 args
 )
 ;
@@ -43246,7 +43246,7 @@ lir
 insCall
 (
 &
-ci_FastValueToIterator
+js_FastValueToIterator_ci
 args
 )
 ;
@@ -43343,7 +43343,7 @@ lir
 insCall
 (
 &
-ci_FastCallIteratorNext
+js_FastCallIteratorNext_ci
 args
 )
 ;
@@ -43513,7 +43513,7 @@ lir
 insCall
 (
 &
-ci_CloseIterator
+js_CloseIterator_ci
 args
 )
 ;
@@ -44437,7 +44437,7 @@ lir
 insCall
 (
 &
-ci_HasNamedProperty
+js_HasNamedProperty_ci
 args
 )
 ;

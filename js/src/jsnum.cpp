@@ -906,9 +906,10 @@ vp
 #
 ifdef
 JS_TRACER
+static
 jsdouble
 FASTCALL
-js_ParseFloat
+ParseFloat
 (
 JSContext
 *
@@ -1242,9 +1243,10 @@ vp
 #
 ifdef
 JS_TRACER
+static
 jsdouble
 FASTCALL
-js_ParseInt
+ParseInt
 (
 JSContext
 *
@@ -1307,9 +1309,10 @@ return
 d
 ;
 }
+static
 jsdouble
 FASTCALL
-js_ParseIntDouble
+ParseIntDouble
 (
 jsdouble
 d
@@ -1400,6 +1403,7 @@ ifdef
 JS_TRACER
 JS_DEFINE_CALLINFO_2
 (
+static
 DOUBLE
 ParseInt
 CONTEXT
@@ -1409,6 +1413,7 @@ STRING
 )
 JS_DEFINE_CALLINFO_1
 (
+static
 DOUBLE
 ParseIntDouble
 DOUBLE
@@ -1417,6 +1422,7 @@ DOUBLE
 )
 JS_DEFINE_CALLINFO_2
 (
+static
 DOUBLE
 ParseFloat
 CONTEXT
@@ -1435,7 +1441,10 @@ num_parseInt_trcinfo
 {
 num_parseInt
 &
-ci_ParseInt
+_JS_CALLINFO
+(
+ParseInt
+)
 "
 C
 "
@@ -1449,7 +1458,10 @@ JSTN_MORE
 {
 num_parseInt
 &
-ci_ParseIntDouble
+_JS_CALLINFO
+(
+ParseIntDouble
+)
 "
 "
 "
@@ -1470,7 +1482,10 @@ num_parseFloat_trcinfo
 {
 num_parseFloat
 &
-ci_ParseFloat
+_JS_CALLINFO
+(
+ParseFloat
+)
 "
 C
 "
@@ -3581,6 +3596,7 @@ ifdef
 JS_TRACER
 JS_DEFINE_CALLINFO_3
 (
+static
 STRING
 NumberToStringWithBase
 CONTEXT
@@ -3591,8 +3607,9 @@ INT32
 )
 JS_DEFINE_CALLINFO_2
 (
+extern
 STRING
-NumberToString
+js_NumberToString
 CONTEXT
 DOUBLE
 1
@@ -3609,7 +3626,7 @@ num_toString_trcinfo
 {
 num_toString
 &
-ci_NumberToStringWithBase
+NumberToStringWithBase_ci
 "
 DC
 "
@@ -3623,7 +3640,7 @@ JSTN_MORE
 {
 num_toString
 &
-ci_NumberToString
+js_NumberToString_ci
 "
 DC
 "
@@ -4843,10 +4860,11 @@ return
 numStr
 ;
 }
+static
 JSString
 *
 JS_FASTCALL
-js_NumberToStringWithBase
+NumberToStringWithBase
 (
 JSContext
 *
@@ -4922,7 +4940,7 @@ d
 )
 {
 return
-js_NumberToStringWithBase
+NumberToStringWithBase
 (
 cx
 d
