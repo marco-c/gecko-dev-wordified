@@ -20160,12 +20160,6 @@ rr
 int
 d
 bool
-/
-*
-pop
-*
-/
-bool
 quad
 )
 {

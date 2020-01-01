@@ -4615,7 +4615,6 @@ asm_spill
 (
 rr
 d
-false
 true
 )
 ;
@@ -11116,16 +11115,9 @@ rr
 int
 d
 bool
-pop
-bool
 quad
 )
 {
-USE
-(
-pop
-)
-;
 USE
 (
 quad
@@ -11188,10 +11180,6 @@ d
 =
 %
 d
-pop
-=
-%
-d
 quad
 =
 %
@@ -11200,7 +11188,6 @@ d
 "
 rr
 d
-pop
 quad
 )
 ;
