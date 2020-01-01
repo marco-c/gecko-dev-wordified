@@ -6262,7 +6262,7 @@ browserBundle
 GetStringFromName
 (
 "
-telemetryYesButtonLabel
+telemetryYesButtonLabel2
 "
 )
 accessKey
