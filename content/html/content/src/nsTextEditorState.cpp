@@ -9124,6 +9124,16 @@ PR_TRUE
 )
 ;
 }
+#
+ifdef
+DEBUG
+if
+(
+IsSingleLineTextControl
+(
+)
+)
+{
 NS_ASSERTION
 (
 mEditorInitialized
@@ -9154,6 +9164,9 @@ initialized
 "
 )
 ;
+}
+#
+endif
 nsAutoString
 currentValue
 ;
