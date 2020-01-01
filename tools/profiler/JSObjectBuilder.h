@@ -374,7 +374,7 @@ JSString
 *
 string
 =
-JS_NewStringCopyN
+JS_InternStringN
 (
 mCx
 value
