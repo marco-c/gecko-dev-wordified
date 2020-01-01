@@ -4470,9 +4470,9 @@ nsnull
 return
 NS_ERROR_FAILURE
 ;
-JSObject
+JSScript
 *
-scriptObj
+script
 =
 nsnull
 ;
@@ -4569,7 +4569,7 @@ cache
 cachePath
 cx
 &
-scriptObj
+script
 )
 ;
 if
@@ -4656,7 +4656,7 @@ PR_TRUE
 if
 (
 !
-scriptObj
+script
 )
 {
 /
@@ -5002,7 +5002,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-scriptObj
+script
 =
 JS_CompileScriptForPrincipalsVersion
 (
@@ -5088,7 +5088,7 @@ return
 NS_ERROR_FILE_NOT_FOUND
 ;
 }
-scriptObj
+script
 =
 JS_CompileFileHandleForPrincipalsVersion
 (
@@ -5305,7 +5305,7 @@ len
 0
 '
 ;
-scriptObj
+script
 =
 JS_CompileScriptForPrincipalsVersion
 (
@@ -5356,7 +5356,7 @@ oldopts
 if
 (
 !
-scriptObj
+script
 &
 &
 exception
@@ -5378,7 +5378,7 @@ cx
 if
 (
 !
-scriptObj
+script
 )
 {
 #
@@ -5461,7 +5461,7 @@ WriteCachedScript
 cache
 cachePath
 cx
-scriptObj
+script
 )
 ;
 /
@@ -5564,7 +5564,7 @@ JS_ExecuteScriptVersion
 (
 cx
 global
-scriptObj
+script
 NULL
 JSVERSION_LATEST
 )

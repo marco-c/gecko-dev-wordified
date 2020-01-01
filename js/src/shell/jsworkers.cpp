@@ -5572,9 +5572,9 @@ filename
 return
 fail
 ;
-JSObject
+JSScript
 *
-scriptObj
+script
 =
 JS_CompileFile
 (
@@ -5595,7 +5595,7 @@ ptr
 if
 (
 !
-scriptObj
+script
 )
 return
 fail
@@ -5618,7 +5618,7 @@ child
 getGlobal
 (
 )
-scriptObj
+script
 Jsvalify
 (
 rval

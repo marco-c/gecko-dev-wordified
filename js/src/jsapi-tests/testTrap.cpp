@@ -189,9 +189,9 @@ n
 /
 /
 compile
-JSObject
+JSScript
 *
-scriptObj
+script
 =
 JS_CompileScript
 (
@@ -208,7 +208,7 @@ __FILE__
 ;
 CHECK
 (
-scriptObj
+script
 )
 ;
 /
@@ -226,7 +226,7 @@ JS_ExecuteScript
 (
 cx
 global
-scriptObj
+script
 v2
 .
 addr
@@ -324,15 +324,6 @@ JSString
 trapClosure
 ;
 {
-JSScript
-*
-script
-=
-JS_GetScriptFromObject
-(
-scriptObj
-)
-;
 jsbytecode
 *
 line2
@@ -429,7 +420,7 @@ JS_ExecuteScript
 (
 cx
 global
-scriptObj
+script
 v2
 .
 addr

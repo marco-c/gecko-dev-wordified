@@ -303,7 +303,7 @@ EvalScriptVersion16
 )
 ;
 }
-JSObject
+JSScript
 *
 fakeScript
 (
@@ -464,9 +464,9 @@ checkNewScriptNoXML
 (
 )
 {
-JSObject
+JSScript
 *
-scriptObj
+script
 =
 fakeScript
 (
@@ -477,7 +477,7 @@ fakeScript
 ;
 CHECK
 (
-scriptObj
+script
 )
 ;
 CHECK
@@ -485,10 +485,7 @@ CHECK
 !
 hasXML
 (
-JS_GetScriptFromObject
-(
-scriptObj
-)
+script
 -
 >
 getVersion
@@ -1088,7 +1085,7 @@ checkNewScriptNoXML
 ;
 "
 ;
-JSObject
+JSScript
 *
 toActivate
 =
@@ -1112,10 +1109,7 @@ CHECK
 (
 hasXML
 (
-JS_GetScriptFromObject
-(
 toActivate
-)
 )
 )
 ;

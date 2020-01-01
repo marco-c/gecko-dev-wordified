@@ -1808,9 +1808,9 @@ JSString
 *
 str
 ;
-JSObject
+JSScript
 *
-scriptObj
+script
 ;
 jsval
 result
@@ -1951,7 +1951,7 @@ return
 JS_FALSE
 ;
 }
-scriptObj
+script
 =
 JS_CompileFileHandleForPrincipals
 (
@@ -1982,7 +1982,7 @@ file
 if
 (
 !
-scriptObj
+script
 )
 return
 JS_FALSE
@@ -2006,7 +2006,7 @@ JS_ExecuteScript
 (
 cx
 obj
-scriptObj
+script
 &
 result
 )
@@ -3192,9 +3192,9 @@ pusher
 env
 )
 ;
-JSObject
+JSScript
 *
-scriptObj
+script
 ;
 jsval
 result
@@ -3421,9 +3421,9 @@ compartment
 return
 ;
 }
-JSObject
+JSScript
 *
-scriptObj
+script
 =
 JS_CompileFileHandleForPrincipals
 (
@@ -3441,7 +3441,7 @@ GetPrincipal
 ;
 if
 (
-scriptObj
+script
 &
 &
 !
@@ -3459,7 +3459,7 @@ JS_ExecuteScript
 (
 cx
 obj
-scriptObj
+script
 &
 result
 )
@@ -3681,7 +3681,7 @@ JS_ClearPendingException
 cx
 )
 ;
-scriptObj
+script
 =
 JS_CompileScriptForPrincipals
 (
@@ -3706,7 +3706,7 @@ startline
 ;
 if
 (
-scriptObj
+script
 )
 {
 JSErrorReporter
@@ -3729,7 +3729,7 @@ JS_ExecuteScript
 (
 cx
 obj
-scriptObj
+script
 &
 result
 )
@@ -5944,9 +5944,9 @@ return
 false
 ;
 }
-JSObject
+JSScript
 *
-scriptObj
+script
 =
 JS_CompileUCScriptForPrincipals
 (
@@ -5974,7 +5974,7 @@ typein
 if
 (
 !
-scriptObj
+script
 )
 {
 return
@@ -6012,7 +6012,7 @@ JS_ExecuteScript
 (
 mCx
 global
-scriptObj
+script
 &
 result
 )

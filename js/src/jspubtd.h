@@ -1042,6 +1042,11 @@ JSCrossCompartmentCall
 ;
 typedef
 struct
+JSScript
+JSScript
+;
+typedef
+struct
 JSStructuredCloneWriter
 JSStructuredCloneWriter
 ;
