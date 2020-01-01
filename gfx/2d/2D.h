@@ -3248,6 +3248,10 @@ mTransformDirty
 (
 false
 )
+mPermitSubpixelAA
+(
+false
+)
 {
 }
 virtual
