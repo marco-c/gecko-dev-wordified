@@ -167,7 +167,8 @@ for
 notifications
 *
 /
-notification
+.
+messageImage
 [
 type
 =
@@ -175,8 +176,6 @@ type
 info
 "
 ]
-.
-messageImage
 {
 list
 -
@@ -208,7 +207,8 @@ menu
 )
 ;
 }
-notification
+.
+messageImage
 [
 type
 =
@@ -216,8 +216,6 @@ type
 warning
 "
 ]
-.
-messageImage
 {
 list
 -
@@ -249,7 +247,8 @@ menu
 )
 ;
 }
-notification
+.
+messageImage
 [
 type
 =
@@ -257,8 +256,6 @@ type
 critical
 "
 ]
-.
-messageImage
 {
 list
 -
