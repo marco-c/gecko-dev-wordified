@@ -614,6 +614,12 @@ char
 *
 name
 )
+:
+BlockingResourceBase
+(
+name
+eMutex
+)
 {
 mLock
 =
@@ -638,13 +644,6 @@ mozilla
 :
 Mutex
 "
-)
-;
-Init
-(
-mLock
-name
-eMutex
 )
 ;
 }
@@ -812,7 +811,9 @@ AssertNotCurrentThreadOwns
 {
 /
 /
-TODO
+FIXME
+bug
+476536
 }
 #
 endif
