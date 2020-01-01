@@ -2030,6 +2030,7 @@ FT_Library
 ft_library
 ;
 static
+inline
 void
 free_ft_library
 (

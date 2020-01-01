@@ -2479,12 +2479,7 @@ compose
 *
 /
 setup_masks_arabic
-true
-/
-*
-zero_width_attached_marks
-*
-/
+HB_OT_SHAPE_ZERO_WIDTH_MARKS_BY_UNICODE
 true
 /
 *

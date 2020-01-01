@@ -1363,6 +1363,7 @@ char
 static_shaper_list
 ;
 static
+inline
 void
 free_static_shaper_list
 (

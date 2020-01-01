@@ -1316,12 +1316,7 @@ NULL
 setup_masks
 *
 /
-true
-/
-*
-zero_width_attached_marks
-*
-/
+HB_OT_SHAPE_ZERO_WIDTH_MARKS_BY_UNICODE
 true
 /
 *
