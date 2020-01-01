@@ -948,11 +948,6 @@ dir_path
                 
 break
         
-if
-not
-topsrcdir
-:
-            
 #
 See
 if
@@ -971,7 +966,7 @@ inside
 an
 objdir
 .
-            
+        
 mozinfo_path
 =
 os
@@ -996,7 +991,7 @@ mozinfo
 json
 "
 )
-            
+        
 if
 os
 .
@@ -1007,7 +1002,7 @@ isfile
 mozinfo_path
 )
 :
-                
+            
 topsrcdir
 topobjdir
 mozconfig
