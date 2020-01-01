@@ -596,16 +596,6 @@ jsfriendapi
 .
 h
 "
-#
-include
-"
-jscntxt
-.
-h
-"
-/
-/
-AutoIdArray
 using
 namespace
 mozilla
@@ -21687,7 +21677,7 @@ obj
 return
 NS_ERROR_FAILURE
 ;
-js
+JS
 :
 :
 AutoIdArray
