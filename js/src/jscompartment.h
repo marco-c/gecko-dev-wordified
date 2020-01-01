@@ -3269,6 +3269,11 @@ Debug
 dbg
 )
 {
+JS_ASSERT
+(
+debugMode
+)
+;
 return
 debuggers
 .
