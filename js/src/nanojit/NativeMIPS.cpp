@@ -9695,7 +9695,7 @@ void
 Assembler
 :
 :
-asm_branch_xov
+asm_branch_ov
 (
 LOpcode
 op
@@ -9732,7 +9732,7 @@ target
 TAG
 (
 "
-asm_branch_xov
+asm_branch_ov
 (
 op
 =
