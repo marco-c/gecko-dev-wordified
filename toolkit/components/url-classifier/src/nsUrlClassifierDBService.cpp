@@ -7253,10 +7253,11 @@ mPendingLookups
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_THREADSAFE_ISUPPORTS2
 (
 nsUrlClassifierDBServiceWorker
 nsIUrlClassifierDBServiceWorker
+nsIUrlClassifierDBService
 )
 nsUrlClassifierDBServiceWorker
 :
