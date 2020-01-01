@@ -2707,13 +2707,15 @@ linked
 together
 )
 .
+const
 nsFrameList
+&
 frameList
 (
 parentAncestor
 -
 >
-GetFirstChild
+GetChildList
 (
 nsnull
 )

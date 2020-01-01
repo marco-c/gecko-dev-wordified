@@ -916,7 +916,9 @@ the
 correct
 splitter
 .
+const
 nsFrameList
+&
 frames
 (
 mFrame
@@ -927,7 +929,7 @@ GetParent
 )
 -
 >
-GetFirstChild
+GetChildList
 (
 nsnull
 )

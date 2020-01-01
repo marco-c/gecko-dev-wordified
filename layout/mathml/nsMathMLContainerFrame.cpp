@@ -9330,12 +9330,9 @@ nsIFrame
 *
 child
 =
-nsFrameList
-(
-GetFirstChild
+GetChildList
 (
 nsnull
-)
 )
 .
 FrameAt

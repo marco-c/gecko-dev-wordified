@@ -3417,13 +3417,15 @@ PresContext
 (
 )
 ;
+const
 nsFrameList
+&
 siblingList
 (
 mParentBox
 -
 >
-GetFirstChild
+GetChildList
 (
 nsnull
 )
@@ -4936,8 +4938,6 @@ CollapsedBefore
 {
 splitterSibling
 =
-nsFrameList
-(
 mOuter
 -
 >
@@ -4946,10 +4946,9 @@ GetParent
 )
 -
 >
-GetFirstChild
+GetChildList
 (
 nsnull
-)
 )
 .
 GetPrevSiblingFor

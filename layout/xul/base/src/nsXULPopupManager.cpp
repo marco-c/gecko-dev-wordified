@@ -12059,13 +12059,15 @@ immediateParent
 =
 aParent
 ;
+const
 nsFrameList
+&
 frames
 (
 immediateParent
 -
 >
-GetFirstChild
+GetChildList
 (
 nsnull
 )
