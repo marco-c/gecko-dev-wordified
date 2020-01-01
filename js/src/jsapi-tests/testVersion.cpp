@@ -525,6 +525,15 @@ CHECK
 toActivate
 )
 ;
+JSObject
+*
+scriptObject
+=
+JS_GetScriptObject
+(
+toActivate
+)
+;
 CHECK
 (
 hasXML
@@ -619,6 +628,11 @@ CheckNewScriptNoXML
 CHECK
 (
 f4
+)
+;
+CHECK
+(
+scriptObject
 )
 ;
 /
