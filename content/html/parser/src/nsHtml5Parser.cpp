@@ -1879,9 +1879,8 @@ nsIParserFilter
 aFilter
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-PR_TRUE
 "
 Attempt
 to
