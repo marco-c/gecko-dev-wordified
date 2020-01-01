@@ -44119,14 +44119,6 @@ retval
 new
 nsDOMTouchList
 (
-static_cast
-<
-nsIDocument
-*
->
-(
-this
-)
 )
 ;
 if
