@@ -677,6 +677,8 @@ found
 on
 a
 malware
+or
+phishing
 blacklist
 .
 *
@@ -703,6 +705,14 @@ NS_ERROR_GENERATE_FAILURE
 (
 NS_ERROR_MODULE_URILOADER
 30
+)
+#
+define
+NS_ERROR_PHISHING_URI
+NS_ERROR_GENERATE_FAILURE
+(
+NS_ERROR_MODULE_URILOADER
+31
 )
 #
 endif

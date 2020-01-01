@@ -7285,6 +7285,12 @@ aStatus
 NS_ERROR_MALWARE_URI
 |
 |
+aStatus
+=
+=
+NS_ERROR_PHISHING_URI
+|
+|
 NS_ERROR_GET_MODULE
 (
 aStatus
