@@ -8804,7 +8804,6 @@ nsAString
 aDisplayName
 )
 {
-*
 aDisplayName
 =
 mDisplayName
@@ -9103,7 +9102,7 @@ nsDownload
 :
 GetId
 (
-PRUint64
+PRUint32
 *
 aId
 )
