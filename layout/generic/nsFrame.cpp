@@ -3123,14 +3123,12 @@ imgIRequest
 *
 newImage
 =
-(
 i
 <
 newBG
 -
 >
 mImageCount
-)
 ?
 newBG
 -
@@ -3143,6 +3141,10 @@ i
 mImage
 .
 mRequest
+.
+get
+(
+)
 :
 nsnull
 ;
