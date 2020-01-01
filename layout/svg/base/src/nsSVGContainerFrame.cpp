@@ -429,6 +429,13 @@ h
 #
 include
 "
+nsSVGElement
+.
+h
+"
+#
+include
+"
 nsSVGUtils
 .
 h

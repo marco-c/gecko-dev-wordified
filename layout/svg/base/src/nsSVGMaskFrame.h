@@ -435,6 +435,13 @@ h
 #
 include
 "
+nsSVGUtils
+.
+h
+"
+#
+include
+"
 gfxPattern
 .
 h

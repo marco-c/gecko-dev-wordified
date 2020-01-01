@@ -438,6 +438,13 @@ h
 #
 include
 "
+nsSVGUtils
+.
+h
+"
+#
+include
+"
 SVGAnimatedLengthList
 .
 h

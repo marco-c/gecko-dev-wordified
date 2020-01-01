@@ -433,6 +433,12 @@ nsSVGContainerFrame
 h
 "
 class
+nsIDOMSVGPoint
+;
+class
+nsIDOMSVGRect
+;
+class
 nsISVGGlyphFragmentNode
 ;
 class

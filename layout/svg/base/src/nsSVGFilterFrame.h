@@ -440,6 +440,13 @@ nsSVGContainerFrame
 .
 h
 "
+#
+include
+"
+nsSVGUtils
+.
+h
+"
 class
 nsRenderingContext
 ;
