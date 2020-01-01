@@ -75,6 +75,16 @@ Zip
 .
 h
 "
+extern
+"
+C
+"
+void
+report_mapping
+(
+)
+{
+}
 /
 *
 *
