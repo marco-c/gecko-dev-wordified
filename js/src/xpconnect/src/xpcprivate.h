@@ -578,14 +578,14 @@ h
 #
 include
 "
-jsfriendapi
+jsgc
 .
 h
 "
 #
 include
 "
-jsgc
+jscompartment
 .
 h
 "
