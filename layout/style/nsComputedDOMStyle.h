@@ -2247,7 +2247,7 @@ aValue
 )
 ;
 nsresult
-GetStopColor
+GetFloodColor
 (
 nsIDOMCSSValue
 *
@@ -2256,7 +2256,16 @@ aValue
 )
 ;
 nsresult
-GetFloodColor
+GetLightingColor
+(
+nsIDOMCSSValue
+*
+*
+aValue
+)
+;
+nsresult
+GetStopColor
 (
 nsIDOMCSSValue
 *

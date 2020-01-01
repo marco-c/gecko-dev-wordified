@@ -716,6 +716,13 @@ sFEFloodMap
 [
 ]
 ;
+static
+const
+MappedAttributeEntry
+sLightingEffectsMap
+[
+]
+;
 /
 /
 nsIDOMNode

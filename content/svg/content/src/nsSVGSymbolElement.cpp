@@ -1321,6 +1321,7 @@ sFiltersMap
 sFontSpecificationMap
 sGradientStopMap
 sGraphicsMap
+sLightingEffectsMap
 sMarkersMap
 sTextContentElementsMap
 sViewportsMap

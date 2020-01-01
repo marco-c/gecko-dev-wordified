@@ -1006,6 +1006,7 @@ sFEFloodMap
 sFiltersMap
 sFontSpecificationMap
 sGradientStopMap
+sLightingEffectsMap
 sMarkersMap
 sTextContentElementsMap
 sViewportsMap

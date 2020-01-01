@@ -2852,6 +2852,9 @@ nsCSSValue
 mFloodOpacity
 ;
 nsCSSValue
+mLightingColor
+;
+nsCSSValue
 mMarkerEnd
 ;
 nsCSSValue

@@ -7799,6 +7799,14 @@ mFloodColor
 [
 reset
 ]
+nscolor
+mLightingColor
+;
+/
+/
+[
+reset
+]
 nsCOMPtr
 <
 nsIURI
