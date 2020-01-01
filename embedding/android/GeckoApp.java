@@ -4008,9 +4008,8 @@ unknown
 ;
 mDoorHangerPopup
 .
-updatePopupForTab
+updatePopup
 (
-tab
 )
 ;
 }
@@ -5983,9 +5982,8 @@ value
 ;
 mDoorHangerPopup
 .
-updatePopupForTab
+updatePopup
 (
-tab
 )
 ;
 }
@@ -6078,9 +6076,8 @@ onTabsChanged
 ;
 mDoorHangerPopup
 .
-updatePopupForTab
+updatePopup
 (
-tab
 )
 ;
 }
@@ -6180,9 +6177,8 @@ getCount
 ;
 mDoorHangerPopup
 .
-updatePopupForTab
+updatePopup
 (
-tab
 )
 ;
 }
@@ -6296,9 +6292,8 @@ isLoading
 ;
 mDoorHangerPopup
 .
-updatePopupForTab
+updatePopup
 (
-tab
 )
 ;
 }
