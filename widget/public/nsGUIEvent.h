@@ -5269,10 +5269,6 @@ nsTextEventReply
 (
 )
 :
-mCursorIsCollapsed
-(
-PR_FALSE
-)
 mReferenceWidget
 (
 nsnull
@@ -5281,9 +5277,6 @@ nsnull
 }
 nsIntRect
 mCursorPosition
-;
-PRBool
-mCursorIsCollapsed
 ;
 nsIWidget
 *
