@@ -15418,6 +15418,13 @@ FlushTextAndRelease
 (
 )
 ;
+mCurrentContext
+-
+>
+FlushTags
+(
+)
+;
 }
 if
 (
