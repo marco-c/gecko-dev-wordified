@@ -178,13 +178,6 @@ h
 "
 #
 include
-<
-malloc
-.
-h
->
-#
-include
 "
 gfxASurface
 .
@@ -281,7 +274,7 @@ nsRect
 &
 aRect
 const
-int32_t
+PRInt32
 p2a
 )
 {
@@ -440,7 +433,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 const
 nsRect
@@ -752,7 +745,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 const
 nsRect
@@ -911,7 +904,7 @@ qctm
 true
 )
 ;
-int32_t
+PRInt32
 p2a
 =
 aContext
@@ -1792,7 +1785,7 @@ nsDeviceContext
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 nsIntMargin
 *
@@ -1920,7 +1913,7 @@ nsDeviceContext
 *
 nsIFrame
 *
-uint8_t
+PRUint8
 aWidgetType
 nsIntMargin
 *
@@ -1989,7 +1982,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 nsIntSize
 *
@@ -2031,7 +2024,7 @@ style
 (
 )
 ;
-int32_t
+PRInt32
 p2a
 =
 aContext
@@ -2937,7 +2930,7 @@ WidgetStateChanged
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 nsIAtom
 *
@@ -3008,7 +3001,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 )
 {
@@ -3114,7 +3107,7 @@ nsNativeThemeQt
 :
 WidgetIsContainer
 (
-uint8_t
+PRUint8
 aWidgetType
 )
 {
@@ -3168,7 +3161,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 )
 {
@@ -3218,7 +3211,7 @@ nsNativeThemeQt
 :
 InitButtonStyle
 (
-uint8_t
+PRUint8
 aWidgetType
 nsIFrame
 *
@@ -3418,7 +3411,7 @@ nsNativeThemeQt
 :
 InitPlainStyle
 (
-uint8_t
+PRUint8
 aWidgetType
 nsIFrame
 *
@@ -3521,7 +3514,7 @@ nsNativeThemeQt
 :
 InitComboStyle
 (
-uint8_t
+PRUint8
 aWidgetType
 nsIFrame
 *
