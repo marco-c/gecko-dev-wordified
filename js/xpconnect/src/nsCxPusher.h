@@ -304,6 +304,15 @@ JSContext
 cx
 )
 ;
+mozilla
+:
+:
+Maybe
+<
+JSAutoRequest
+>
+mAutoRequest
+;
 nsCOMPtr
 <
 nsIScriptContext
