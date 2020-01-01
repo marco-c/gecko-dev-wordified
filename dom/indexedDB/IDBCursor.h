@@ -772,6 +772,17 @@ nsACString
 aContinueToQuery
 )
 ;
+nsresult
+ContinueInternal
+(
+const
+Key
+&
+aKey
+PRInt32
+aCount
+)
+;
 nsRefPtr
 <
 IDBRequest
