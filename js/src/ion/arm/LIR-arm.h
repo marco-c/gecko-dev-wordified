@@ -854,7 +854,7 @@ LDivI
 public
 LBinaryMath
 <
-3
+2
 >
 {
 public
@@ -882,10 +882,6 @@ const
 LDefinition
 &
 temp2
-const
-LDefinition
-&
-temp3
 )
 {
 setOperand
@@ -910,12 +906,6 @@ setTemp
 (
 1
 temp2
-)
-;
-setTemp
-(
-2
-temp3
 )
 ;
 }
