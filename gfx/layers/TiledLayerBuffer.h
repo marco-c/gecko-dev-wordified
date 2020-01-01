@@ -1283,6 +1283,14 @@ aTiledBuffer
 =
 0
 ;
+virtual
+void
+MemoryPressure
+(
+)
+=
+0
+;
 }
 ;
 /

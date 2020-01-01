@@ -337,6 +337,12 @@ LayerManager
 >
 mLayerManager
 ;
+nsCOMPtr
+<
+nsIObserver
+>
+mMemoryPressureObserver
+;
 /
 /
 When
