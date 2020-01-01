@@ -6216,11 +6216,6 @@ after
 doing
 this
 .
-if
-(
-et
-)
-{
 nsRestyleHint
 hint
 =
@@ -6253,7 +6248,6 @@ mElement
 hint
 )
 ;
-}
 return
 ;
 }
