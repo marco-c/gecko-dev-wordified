@@ -2514,6 +2514,13 @@ ext
 nsnull
 ;
 }
+bool
+IsExtensionSupported
+(
+WebGLExtensionID
+ei
+)
+;
 PRBool
 InitAndValidateGL
 (
