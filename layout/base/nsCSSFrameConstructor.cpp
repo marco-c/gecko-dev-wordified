@@ -21277,6 +21277,11 @@ SIMPLE_TAG_CREATE
 progress
 NS_NewProgressFrame
 )
+SIMPLE_TAG_CREATE
+(
+meter
+NS_NewMeterFrame
+)
 }
 ;
 return
