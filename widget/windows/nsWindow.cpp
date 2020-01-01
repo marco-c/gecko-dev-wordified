@@ -38096,7 +38096,7 @@ FALSE
 if
 (
 !
-nsIMM32Handler
+IMEHandler
 :
 :
 IsComposingOn
@@ -38394,7 +38394,7 @@ result
 if
 (
 !
-nsIMM32Handler
+IMEHandler
 :
 :
 IsComposingOn
@@ -46121,7 +46121,7 @@ MODIFIER_CONTROL
 }
 if
 (
-nsIMM32Handler
+IMEHandler
 :
 :
 IsComposingOn
@@ -49806,7 +49806,7 @@ endif
 NS_ENABLE_TSF
 if
 (
-nsIMM32Handler
+IMEHandler
 :
 :
 IsComposing
