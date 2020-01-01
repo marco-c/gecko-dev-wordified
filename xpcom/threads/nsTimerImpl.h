@@ -289,6 +289,10 @@ friend
 class
 TimerThread
 ;
+friend
+class
+TimerAdditionComparator
+;
 void
 Fire
 (
