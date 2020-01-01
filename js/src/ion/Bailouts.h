@@ -1507,8 +1507,7 @@ EnsureHasScopeObjects
 JSContext
 *
 cx
-StackFrame
-*
+AbstractFramePtr
 fp
 )
 ;
