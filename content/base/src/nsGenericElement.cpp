@@ -27813,6 +27813,11 @@ nsIFocusManager
 :
 :
 FLAG_BYMOUSE
+|
+nsIFocusManager
+:
+:
+FLAG_NOSCROLL
 )
 ;
 }
