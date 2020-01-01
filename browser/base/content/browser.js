@@ -30838,12 +30838,6 @@ state
 .
 aBrowser
 .
-_clickToPlayDoorhangerShown
-=
-false
-;
-aBrowser
-.
 _clickToPlayPluginsActivated
 =
 false
