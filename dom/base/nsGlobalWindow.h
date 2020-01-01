@@ -1550,8 +1550,6 @@ public
 nsITouchEventReceiver
 public
 nsIInlineEventHandlers
-public
-nsIWindowCrypto
 #
 ifdef
 MOZ_B2G
@@ -1785,10 +1783,6 @@ NS_DECL_NSITOUCHEVENTRECEIVER
 /
 nsIInlineEventHandlers
 NS_DECL_NSIINLINEEVENTHANDLERS
-/
-/
-nsIWindowCrypto
-NS_DECL_NSIWINDOWCRYPTO
 /
 /
 nsPIDOMWindow
