@@ -724,7 +724,7 @@ AppendElement
 4
 )
 ;
-int
+size_t
 count
 ;
 int
