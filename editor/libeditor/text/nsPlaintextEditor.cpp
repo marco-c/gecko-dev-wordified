@@ -3914,6 +3914,12 @@ node
 ;
 NS_ASSERTION
 (
+IsPasswordEditor
+(
+)
+|
+|
+(
 endNodeOffset
 =
 =
@@ -3926,6 +3932,7 @@ endNodeOffset
 =
 =
 0
+)
 "
 invalid
 end
