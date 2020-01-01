@@ -229,10 +229,6 @@ MIRGenerator
 *
 mir
 ;
-MIRGraph
-&
-graph
-;
 public
 :
 /
@@ -301,9 +297,6 @@ header
 MBasicBlock
 *
 footer
-MIRGraph
-&
-graph
 )
 ;
 /

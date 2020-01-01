@@ -305,7 +305,6 @@ backedge
 (
 )
 header
-graph
 )
 ;
 Loop
@@ -390,18 +389,11 @@ footer
 MBasicBlock
 *
 header
-MIRGraph
-&
-graph
 )
 :
 mir
 (
 mir
-)
-graph
-(
-graph
 )
 footer_
 (
