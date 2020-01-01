@@ -4429,11 +4429,9 @@ trapDrag
 true
 )
 ;
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 srcElement
-2
-2
 {
 type
 :
