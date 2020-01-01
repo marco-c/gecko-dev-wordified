@@ -223,6 +223,13 @@ NORMAL_FILE_TYPE
 0600
 )
 ;
+tmpf
+.
+remove
+(
+false
+)
+;
 f
 .
 copyTo
