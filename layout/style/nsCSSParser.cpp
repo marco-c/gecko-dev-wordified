@@ -42951,6 +42951,15 @@ mask
 "
 )
 ;
+bool
+oldUnitlessLengthQuirk
+=
+mUnitlessLengthQuirk
+;
+mUnitlessLengthQuirk
+=
+false
+;
 /
 /
 One
@@ -43048,6 +43057,10 @@ arr
 eCSSUnit_Calc
 )
 ;
+mUnitlessLengthQuirk
+=
+oldUnitlessLengthQuirk
+;
 return
 true
 ;
@@ -43063,6 +43076,10 @@ SkipUntil
 )
 '
 )
+;
+mUnitlessLengthQuirk
+=
+oldUnitlessLengthQuirk
 ;
 return
 false
