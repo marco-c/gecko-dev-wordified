@@ -2437,6 +2437,13 @@ should
 be
 cancelled
 ?
+if
+(
+aVisitor
+.
+mDOMEvent
+)
+{
 aVisitor
 .
 mDOMEvent
@@ -2446,6 +2453,7 @@ StopPropagation
 (
 )
 ;
+}
 }
 }
 }
