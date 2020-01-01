@@ -1539,13 +1539,6 @@ h
 #
 include
 "
-nsIContentViewer
-.
-h
-"
-#
-include
-"
 prdtoa
 .
 h
@@ -19753,6 +19746,9 @@ owns
 the
 object
 }
+nsresult
+rv
+=
 sHTMLFragmentParser
 -
 >
@@ -19774,7 +19770,7 @@ Reset
 )
 ;
 return
-NS_OK
+rv
 ;
 }
 /
