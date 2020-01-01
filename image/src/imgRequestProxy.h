@@ -107,7 +107,7 @@ h
 #
 include
 "
-imgIDecoderObserver
+imgINotificationObserver
 .
 h
 "
@@ -313,7 +313,7 @@ aLoadGroup
 nsIURI
 *
 aURI
-imgIDecoderObserver
+imgINotificationObserver
 *
 aObserver
 )
@@ -1122,7 +1122,7 @@ our
 first
 OnStopRequest
 .
-imgIDecoderObserver
+imgINotificationObserver
 *
 mListener
 ;

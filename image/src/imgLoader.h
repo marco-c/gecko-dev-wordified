@@ -215,7 +215,7 @@ class
 imgIRequest
 ;
 class
-imgIDecoderObserver
+imgINotificationObserver
 ;
 class
 nsILoadGroup
@@ -1395,7 +1395,7 @@ aReferrerURI
 nsILoadGroup
 *
 aLoadGroup
-imgIDecoderObserver
+imgINotificationObserver
 *
 aObserver
 nsISupports
@@ -1440,7 +1440,7 @@ aReferrerURI
 nsILoadGroup
 *
 aLoadGroup
-imgIDecoderObserver
+imgINotificationObserver
 *
 aObserver
 nsISupports
@@ -1474,7 +1474,7 @@ aRequest
 nsILoadGroup
 *
 aLoadGroup
-imgIDecoderObserver
+imgINotificationObserver
 *
 aObserver
 nsLoadFlags
