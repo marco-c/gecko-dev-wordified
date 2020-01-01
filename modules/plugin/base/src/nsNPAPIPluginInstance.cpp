@@ -5182,6 +5182,10 @@ NPDrawingModelQuickDraw
 endif
 #
 endif
+mRunning
+(
+NOT_STARTED
+)
 mWindowless
 (
 PR_FALSE
@@ -5193,10 +5197,6 @@ PR_FALSE
 mTransparent
 (
 PR_FALSE
-)
-mRunning
-(
-NOT_STARTED
 )
 mCached
 (
