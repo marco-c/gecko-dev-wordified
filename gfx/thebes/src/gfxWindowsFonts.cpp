@@ -11348,7 +11348,7 @@ mItemLength
 &
 NS_IS_HIGH_SURROGATE
 (
-ch
+nextCh
 )
 &
 &
