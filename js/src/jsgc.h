@@ -6463,6 +6463,13 @@ false
 }
 #
 endif
+}
+/
+*
+namespace
+gc
+*
+/
 static
 inline
 JSCompartment
@@ -6516,13 +6523,6 @@ obj
 )
 ;
 }
-}
-/
-*
-namespace
-gc
-*
-/
 void
 PurgeJITCaches
 (
