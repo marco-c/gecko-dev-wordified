@@ -466,9 +466,6 @@ nsIImage
 aImage
 )
 ;
-#
-ifdef
-MOZ_CAIRO_GFX
 static
 GdkPixbuf
 *
@@ -483,8 +480,6 @@ PRInt32
 aHeight
 )
 ;
-#
-endif
 private
 :
 ~
