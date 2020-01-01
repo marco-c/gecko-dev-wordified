@@ -3575,9 +3575,6 @@ testname
 }
 }
 {
-end
-:
-true
 testname
 :
 "
@@ -3704,6 +3701,9 @@ testname
 }
 }
 {
+end
+:
+true
 testname
 :
 "
