@@ -102,7 +102,7 @@ first
 #
 include
 "
-nsSVGTextFrame
+nsSVGTextFrame2
 .
 h
 "
@@ -282,7 +282,7 @@ h
 #
 include
 "
-nsSVGTextFrame2
+nsSVGTextFrame
 .
 h
 "
