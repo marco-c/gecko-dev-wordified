@@ -4383,8 +4383,8 @@ use
 lexical
 bindings
 above
-their
 *
+their
 scope
 only
 free
@@ -4395,7 +4395,7 @@ that
 have
 a
 correct
-JSSLOT_PARENT
+parent
 value
 *
 thanks

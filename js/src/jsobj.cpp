@@ -37087,14 +37087,6 @@ marked
 true
 ;
 }
-obj
--
->
-traceProtoAndParent
-(
-trc
-)
-;
 /
 *
 *
