@@ -151,9 +151,6 @@ omtc
 SurfaceStream
 :
 :
-OMTC
-:
-:
 OffMainThread
 )
 {
