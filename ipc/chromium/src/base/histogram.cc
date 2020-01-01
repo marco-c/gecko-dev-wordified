@@ -4083,6 +4083,9 @@ AccumulateWithExponentialStats
 value
 count
 index
+flags_
+&
+kExtendedStatisticsFlag
 )
 ;
 }
@@ -5676,6 +5679,8 @@ Count
 count
 size_t
 index
+bool
+computeExtendedStatistics
 )
 {
 Accumulate
@@ -5685,6 +5690,11 @@ count
 index
 )
 ;
+if
+(
+computeExtendedStatistics
+)
+{
 DCHECK_GE
 (
 value
@@ -5725,6 +5735,7 @@ value_log
 *
 value_log
 ;
+}
 }
 Count
 Histogram
