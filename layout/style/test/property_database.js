@@ -986,9 +986,6 @@ box
 ]
 }
 "
--
-moz
--
 background
 -
 size
@@ -998,7 +995,7 @@ size
 domProp
 :
 "
-MozBackgroundSize
+backgroundSize
 "
 inherited
 :
@@ -8173,9 +8170,6 @@ background
 origin
 "
 "
--
-moz
--
 background
 -
 size

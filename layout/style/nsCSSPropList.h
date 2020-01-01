@@ -3443,14 +3443,11 @@ eStyleAnimType_None
 )
 CSS_PROP_BACKGROUND
 (
--
-moz
--
 background
 -
 size
-_moz_background_size
-MozBackgroundSize
+background_size
+BackgroundSize
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 |
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS

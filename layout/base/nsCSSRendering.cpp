@@ -15774,14 +15774,6 @@ origin
 background
 -
 size
-(
--
-moz
--
-background
--
-size
-)
 *
 background
 -

@@ -31312,7 +31312,7 @@ aPropID
 )
 ;
 case
-eCSSProperty__moz_background_size
+eCSSProperty_background_size
 :
 return
 ParseBackgroundSize
@@ -32408,7 +32408,7 @@ case
 eCSSProperty_border_width
 :
 case
-eCSSProperty__moz_background_size
+eCSSProperty_background_size
 :
 case
 eCSSProperty__moz_border_radius
@@ -36216,7 +36216,7 @@ mTempData
 .
 SetPropertyBit
 (
-eCSSProperty__moz_background_size
+eCSSProperty_background_size
 )
 ;
 return
@@ -38473,7 +38473,7 @@ mTempData
 .
 SetPropertyBit
 (
-eCSSProperty__moz_background_size
+eCSSProperty_background_size
 )
 ;
 return
@@ -38590,7 +38590,7 @@ mTempData
 .
 SetPropertyBit
 (
-eCSSProperty__moz_background_size
+eCSSProperty_background_size
 )
 ;
 return
@@ -38617,9 +38617,6 @@ to
 lengths
 for
 the
--
-moz
--
 background
 -
 size

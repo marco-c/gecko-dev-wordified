@@ -6298,7 +6298,7 @@ eCSSProperty_background_attachment
 eCSSProperty_background_position
 eCSSProperty_background_clip
 eCSSProperty_background_origin
-eCSSProperty__moz_background_size
+eCSSProperty_background_size
 eCSSProperty_UNKNOWN
 }
 ;

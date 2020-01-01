@@ -1321,7 +1321,7 @@ eCSSUnit_Initial
 aProperty
 =
 =
-eCSSProperty__moz_background_size
+eCSSProperty_background_size
 &
 &
 pair
@@ -1433,9 +1433,6 @@ it
 '
 s
 a
--
-moz
--
 background
 -
 size
@@ -7586,7 +7583,7 @@ data
 >
 ValuePairListStorageFor
 (
-eCSSProperty__moz_background_size
+eCSSProperty_background_size
 )
 ;
 for
