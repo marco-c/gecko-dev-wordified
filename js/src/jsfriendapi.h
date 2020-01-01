@@ -5626,17 +5626,8 @@ ArrayBuffer
 for
 storage
 .
-byteOffset
-*
-must
-not
-exceed
-(
-signed
-)
-INT32_MAX
-.
 The
+*
 length
 value
 is
@@ -5646,7 +5637,6 @@ if
 -
 1
 is
-*
 passed
 enough
 elements
@@ -5654,6 +5644,7 @@ to
 use
 up
 the
+*
 remainder
 of
 the
@@ -5662,7 +5653,6 @@ array
 is
 used
 as
-*
 the
 default
 value
