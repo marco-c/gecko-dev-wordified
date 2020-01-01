@@ -28594,6 +28594,8 @@ initialScopeChain
 Shape
 *
 shape
+=
+NULL
 ;
 while
 (
