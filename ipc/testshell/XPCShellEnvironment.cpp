@@ -1462,19 +1462,8 @@ jsval
 vp
 )
 {
-unsigned
-i
-;
-JSString
-*
-str
-;
 jsval
 result
-;
-FILE
-*
-file
 ;
 JSObject
 *
@@ -1506,6 +1495,7 @@ vp
 ;
 for
 (
+unsigned
 i
 =
 0
@@ -1519,6 +1509,8 @@ i
 +
 )
 {
+JSString
+*
 str
 =
 JS_ValueToString
@@ -1563,6 +1555,8 @@ filename
 return
 JS_FALSE
 ;
+FILE
+*
 file
 =
 fopen

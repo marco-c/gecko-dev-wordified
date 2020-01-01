@@ -36067,9 +36067,6 @@ nsresult
 aStatus
 )
 {
-nsresult
-rv
-;
 if
 (
 (
@@ -36183,8 +36180,6 @@ aProgress
 wcwgChannel
 )
 {
-rv
-=
 MaybeInitTiming
 (
 )
@@ -36521,8 +36516,6 @@ new
 DOM
 here
 .
-rv
-=
 AddToSessionHistory
 (
 uri
@@ -36552,8 +36545,6 @@ of
 the
 previous
 page
-rv
-=
 PersistLayoutHistoryState
 (
 )
