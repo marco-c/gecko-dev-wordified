@@ -18870,8 +18870,10 @@ CurrentState
 .
 globalAlpha
 =
+=
 1
 .
+0f
 &
 &
 mThebes
