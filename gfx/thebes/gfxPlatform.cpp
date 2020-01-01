@@ -3488,6 +3488,9 @@ gfxPlatform
 :
 GetScaledFontForFont
 (
+DrawTarget
+*
+aTarget
 gfxFont
 *
 aFont
