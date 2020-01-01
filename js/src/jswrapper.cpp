@@ -2413,7 +2413,7 @@ JSObject
 wrapper
 )
 {
-MarkValue
+MarkSlot
 (
 trc
 &
@@ -4047,7 +4047,7 @@ if
 (
 obj
 )
-js_CloseIterator
+CloseIterator
 (
 cx
 obj
@@ -4328,7 +4328,7 @@ clear
 if
 (
 !
-js_CloseIterator
+CloseIterator
 (
 cx
 iterObj
@@ -5406,7 +5406,7 @@ JSObject
 wrapper
 )
 {
-MarkCrossCompartmentValue
+MarkCrossCompartmentSlot
 (
 trc
 &

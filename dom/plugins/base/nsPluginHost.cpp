@@ -6006,7 +6006,7 @@ nsresult
 nsPluginHost
 :
 :
-InstantiatePluginForChannel
+CreateListenerForChannel
 (
 nsIChannel
 *
@@ -6821,7 +6821,7 @@ bCanHandleInternally
 aContent
 -
 >
-SrcStreamLoadInitiated
+SrcStreamLoading
 (
 )
 )
@@ -7019,7 +7019,7 @@ bCanHandleInternally
 aContent
 -
 >
-SrcStreamLoadInitiated
+SrcStreamLoading
 (
 )
 )

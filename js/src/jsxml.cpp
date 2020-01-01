@@ -45918,7 +45918,7 @@ Value
 vp
 )
 {
-HeapValue
+HeapSlot
 &
 v
 =
@@ -46076,9 +46076,8 @@ v
 .
 set
 (
-compartment
-(
-)
+this
+FUNCTION_NS
 ObjectValue
 (
 *

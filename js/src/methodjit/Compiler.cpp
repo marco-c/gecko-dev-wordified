@@ -8134,11 +8134,6 @@ Imm32
 StackFrame
 :
 :
-OVERRIDE_ARGS
-|
-StackFrame
-:
-:
 UNDERFLOW_ARGS
 |
 StackFrame
@@ -45394,7 +45389,7 @@ hasSlot
 )
 )
 {
-HeapValue
+HeapSlot
 *
 value
 =
@@ -46288,7 +46283,7 @@ watchGlobalReallocation
 (
 )
 ;
-HeapValue
+HeapSlot
 *
 value
 =

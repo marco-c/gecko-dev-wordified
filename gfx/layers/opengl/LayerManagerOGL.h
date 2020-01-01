@@ -774,6 +774,10 @@ not
 bool
 Initialize
 (
+bool
+force
+=
+false
 )
 {
 return
@@ -782,6 +786,7 @@ Initialize
 CreateContext
 (
 )
+force
 )
 ;
 }
@@ -793,6 +798,10 @@ nsRefPtr
 GLContext
 >
 aContext
+bool
+force
+=
+false
 )
 ;
 /

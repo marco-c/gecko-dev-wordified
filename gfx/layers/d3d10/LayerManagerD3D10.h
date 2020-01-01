@@ -799,6 +799,10 @@ not
 bool
 Initialize
 (
+bool
+force
+=
+false
 )
 ;
 /

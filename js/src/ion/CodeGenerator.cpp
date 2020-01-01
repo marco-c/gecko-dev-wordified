@@ -10876,7 +10876,7 @@ FunctionInfo
 pf
 >
 (
-js_CloseIterator
+CloseIterator
 )
 ;
 const
@@ -13510,7 +13510,6 @@ return
 true
 ;
 }
-;
 ConstantOrRegister
 CodeGenerator
 :

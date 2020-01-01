@@ -2653,6 +2653,11 @@ Ignore
 documents
 without
 presshell
+and
+not
+having
+root
+frame
 .
 nsIPresShell
 *
@@ -2669,6 +2674,15 @@ if
 (
 !
 presShell
+|
+|
+!
+presShell
+-
+>
+GetRootFrame
+(
+)
 )
 return
 nsnull

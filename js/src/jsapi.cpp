@@ -4483,7 +4483,7 @@ debuggerList
 PodZero
 (
 &
-globalDebugHooks
+debugHooks
 )
 ;
 PodZero

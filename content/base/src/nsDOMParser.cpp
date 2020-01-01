@@ -758,6 +758,7 @@ ParseDocumentHTML
 (
 sourceBuffer
 document
+false
 )
 ;
 NS_ENSURE_SUCCESS

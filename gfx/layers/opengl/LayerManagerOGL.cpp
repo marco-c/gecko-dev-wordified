@@ -1031,6 +1031,8 @@ nsRefPtr
 GLContext
 >
 aContext
+bool
+force
 )
 {
 ScopedGfxFeatureReporter
@@ -1040,6 +1042,7 @@ reporter
 GL
 Layers
 "
+force
 )
 ;
 /

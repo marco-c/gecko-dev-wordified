@@ -7661,7 +7661,7 @@ getDenseArrayInitializedLength
 (
 )
 ;
-MarkValueRange
+MarkSlotRange
 (
 trc
 initLength
@@ -8505,7 +8505,7 @@ array
 .
 *
 /
-HeapValue
+HeapSlot
 *
 elems
 =
@@ -8591,6 +8591,13 @@ shape_
 =
 oldShape
 ;
+if
+(
+elements
+!
+=
+emptyObjectElements
+)
 cx
 -
 >

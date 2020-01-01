@@ -447,12 +447,6 @@ __JumpListBuilder_h__
 define
 __JumpListBuilder_h__
 #
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_WIN7
-#
 include
 <
 windows
@@ -813,14 +807,6 @@ widget
 /
 namespace
 mozilla
-#
-endif
-/
-/
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_WIN7
 #
 endif
 /
