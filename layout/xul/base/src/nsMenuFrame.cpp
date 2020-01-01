@@ -2479,7 +2479,13 @@ popupList
 ;
 }
 return
-nsnull
+nsBoxFrame
+:
+:
+GetAdditionalChildListName
+(
+aIndex
+)
 ;
 }
 void

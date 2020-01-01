@@ -11214,7 +11214,7 @@ since
 the
 code
 in
-nsPositionedInlineFrame
+nsInlineFrame
 :
 :
 Reflow

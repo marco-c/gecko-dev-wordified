@@ -17531,15 +17531,6 @@ nsGkAtoms
 :
 :
 inlineFrame
-|
-|
-frameType
-=
-=
-nsGkAtoms
-:
-:
-positionedInlineFrame
 )
 {
 /
