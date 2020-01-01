@@ -128,7 +128,7 @@ addEventListener
 "
 click
 "
-onContentClick
+this
 false
 true
 )
