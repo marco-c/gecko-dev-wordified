@@ -530,6 +530,7 @@ js
 UnwrapObject
 (
 wrapper
+true
 &
 flags
 )

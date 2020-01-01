@@ -1550,6 +1550,7 @@ vp
 toObject
 (
 )
+true
 &
 flags
 )

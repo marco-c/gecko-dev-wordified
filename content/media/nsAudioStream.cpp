@@ -1672,7 +1672,7 @@ Preferences
 GetBool
 (
 aPref
-true
+false
 )
 ;
 mozilla

@@ -4039,7 +4039,7 @@ bumpAlloc_
 (
 NULL
 )
-repCache_
+reCache_
 (
 NULL
 )
@@ -4663,7 +4663,7 @@ bumpAlloc_
 JS_ASSERT
 (
 !
-repCache_
+reCache_
 )
 ;
 #
