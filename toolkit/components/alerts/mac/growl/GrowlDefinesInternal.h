@@ -1943,6 +1943,15 @@ XSTR
 growlStyle
 "
 )
+#
+define
+GROWL_PATHEXTENSION_TICKET
+XSTR
+(
+"
+growlTicket
+"
+)
 /
 *
 -

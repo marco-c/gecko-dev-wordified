@@ -14,12 +14,8 @@ Growl
 /
 Created
 by
-Mac
--
-arena
-the
-Bored
-Zo
+Peter
+Hosey
 on
 Wed
 Jun
