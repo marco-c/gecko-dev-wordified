@@ -2305,6 +2305,15 @@ mTabs
 .
 length
 ;
+break
+;
+case
+FENNEC_ID
+:
+wait
+=
+10
+;
 }
 /
 /
