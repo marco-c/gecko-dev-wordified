@@ -5214,6 +5214,7 @@ jsval
 v
 )
 ;
+JS_REQUIRES_STACK
 nanojit
 :
 :
@@ -5434,6 +5435,7 @@ LOpcode
 op
 )
 ;
+JS_REQUIRES_STACK
 void
 guardShape
 (
