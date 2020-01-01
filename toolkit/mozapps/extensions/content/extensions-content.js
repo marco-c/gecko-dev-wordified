@@ -1660,7 +1660,12 @@ above
 var
 obj
 =
+XPCNativeWrapper
+.
+unwrap
+(
 this
+)
 ;
 while
 (
