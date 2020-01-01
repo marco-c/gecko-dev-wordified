@@ -107,13 +107,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 prprf
 .
 h
@@ -217,7 +210,7 @@ if
 mImageBuffer
 )
 {
-PR_Free
+moz_free
 (
 mImageBuffer
 )
@@ -761,7 +754,7 @@ mImageBuffer
 uint8_t
 *
 )
-PR_Malloc
+moz_malloc
 (
 mImageBufferSize
 )
@@ -2717,7 +2710,7 @@ mImageBuffer
 nullptr
 )
 {
-PR_Free
+moz_free
 (
 mImageBuffer
 )
@@ -3844,7 +3837,7 @@ newBuf
 uint8_t
 *
 )
-PR_Realloc
+moz_realloc
 (
 that
 -
@@ -3879,7 +3872,7 @@ from
 writing
 more
 )
-PR_Free
+moz_free
 (
 that
 -
