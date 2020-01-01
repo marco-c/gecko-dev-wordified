@@ -2121,9 +2121,6 @@ current
 current
 "
 )
-#
-ifdef
-MOZ_MEDIA
 GK_ATOM
 (
 currentloop
@@ -2131,8 +2128,6 @@ currentloop
 currentloop
 "
 )
-#
-endif
 GK_ATOM
 (
 cycler
