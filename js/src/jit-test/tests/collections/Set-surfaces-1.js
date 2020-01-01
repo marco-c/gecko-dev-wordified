@@ -66,7 +66,7 @@ assertEq
 Set
 .
 length
-0
+1
 )
 ;
 assertEq

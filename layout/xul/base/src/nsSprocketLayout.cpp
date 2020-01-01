@@ -518,13 +518,6 @@ nsBoxFrame
 .
 h
 "
-#
-include
-"
-nsBoxFrame
-.
-h
-"
 nsBoxLayout
 *
 nsSprocketLayout

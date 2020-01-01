@@ -539,7 +539,7 @@ GetAsSurface
 }
 ;
 struct
-CairoD3D9BackendData
+TextureD3D9BackendData
 :
 public
 ImageBackendData

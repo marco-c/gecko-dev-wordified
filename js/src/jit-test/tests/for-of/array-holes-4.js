@@ -6,9 +6,7 @@ of
 on
 an
 Array
-does
-not
-consult
+consults
 the
 prototype
 chain
@@ -25,7 +23,7 @@ m
 1
 :
 '
-FAIL
+peek
 '
 }
 ;
@@ -70,7 +68,9 @@ log
 [
 1
 ]
-undefined
+'
+peek
+'
 )
 ;
 assertEq
@@ -82,6 +82,7 @@ join
 )
 "
 0
+peek
 2
 3
 "

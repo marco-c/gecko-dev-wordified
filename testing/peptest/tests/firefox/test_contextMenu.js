@@ -768,11 +768,9 @@ window
 .
 document
 "
-appmenu
--
 toolbar
 -
-button
+menubar
 "
 )
 ;
@@ -787,7 +785,7 @@ pep
 performAction
 (
 '
-chrome_menu
+chrome_navigation
 '
 function
 (
@@ -804,7 +802,7 @@ bar
 keypress
 (
 '
-m
+n
 '
 )
 ;
@@ -873,7 +871,7 @@ i
 i
 )
 {
-page
+bar
 .
 keypress
 (

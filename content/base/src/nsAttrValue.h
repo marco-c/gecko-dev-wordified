@@ -2740,9 +2740,11 @@ nsAString
 aString
 )
 ;
-PRInt64
-SizeOf
+size_t
+SizeOfExcludingThis
 (
+nsMallocSizeOfFun
+aMallocSizeOf
 )
 const
 ;

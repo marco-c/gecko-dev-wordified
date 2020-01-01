@@ -3,9 +3,7 @@
 for
 -
 of
-does
-not
-consult
+consults
 Object
 .
 prototype
@@ -23,7 +21,7 @@ prototype
 ]
 =
 '
-FAIL
+peek
 '
 ;
 var
@@ -56,7 +54,9 @@ log
 [
 1
 ]
-undefined
+'
+peek
+'
 )
 ;
 assertEq
@@ -68,6 +68,7 @@ join
 )
 "
 0
+peek
 2
 3
 "

@@ -881,11 +881,10 @@ do
 \
 if
 (
++
++
 OOM_counter
-+
-+
 >
-=
 OOM_maxAllocations
 )
 {
