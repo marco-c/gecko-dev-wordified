@@ -1041,6 +1041,9 @@ aTextRun
 gfxTextRun
 *
 aNewRun
+gfxContext
+*
+aContext
 const
 nsTArray
 <
