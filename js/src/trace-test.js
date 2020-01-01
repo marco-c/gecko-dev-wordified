@@ -2149,6 +2149,11 @@ test
 testif
 )
 ;
+var
+globalinc
+=
+0
+;
 function
 testincops
 (
@@ -2245,6 +2250,9 @@ p
 +
 +
 )
+globalinc
++
++
 ;
 while
 (
@@ -2256,6 +2264,9 @@ p
 >
 0
 )
+-
+-
+globalinc
 ;
 for
 (
@@ -2277,6 +2288,9 @@ o
 .
 p
 )
++
++
+globalinc
 ;
 while
 (
@@ -2289,6 +2303,9 @@ p
 =
 0
 )
+globalinc
+-
+-
 ;
 +
 +
@@ -2385,6 +2402,7 @@ a
 [
 i
 ]
+globalinc
 ]
 .
 toString
@@ -2397,6 +2415,7 @@ testincops
 expected
 =
 "
+0
 0
 0
 "
