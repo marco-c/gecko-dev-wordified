@@ -1491,7 +1491,7 @@ define
 the
 constant
 .
-NSAccessibilityComboBoxRole
+NSAccessibilityUnknownRole
 /
 /
 roles
