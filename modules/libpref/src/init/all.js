@@ -8482,7 +8482,7 @@ baselinejit
 .
 chrome
 "
-false
+true
 )
 ;
 pref
