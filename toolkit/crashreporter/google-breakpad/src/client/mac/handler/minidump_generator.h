@@ -380,6 +380,16 @@ dynamic_images
 .
 h
 "
+#
+if
+MAC_OS_X_VERSION_MIN_REQUIRED
+<
+MAC_OS_X_VERSION_10_7
+#
+define
+HAS_PPC_SUPPORT
+#
+endif
 namespace
 google_breakpad
 {
@@ -947,6 +957,9 @@ implementations
 of
 these
 methods
+#
+ifdef
+HAS_PPC_SUPPORT
 bool
 WriteStackPPC
 (
@@ -1001,6 +1014,8 @@ breakpad_thread_state_data_t
 state
 )
 ;
+#
+endif
 bool
 WriteStackX86
 (
