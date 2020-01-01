@@ -981,10 +981,6 @@ mStream
 (
 aStream
 )
-mValid
-(
-true
-)
 {
 }
 void
@@ -1194,9 +1190,6 @@ nsRefPtr
 nsDOMMediaStream
 >
 mStream
-;
-bool
-mValid
 ;
 }
 ;
