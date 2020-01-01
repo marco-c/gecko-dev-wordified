@@ -160,7 +160,7 @@ h
 #
 include
 "
-AppProcessPermissions
+AppProcessChecker
 .
 h
 "
