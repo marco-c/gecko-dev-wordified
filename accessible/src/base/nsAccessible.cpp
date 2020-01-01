@@ -18118,14 +18118,6 @@ nsIDOMNode
 aStartNode
 )
 {
-nsIAccessibilityService
-*
-accService
-=
-GetAccService
-(
-)
-;
 nsCOMPtr
 <
 nsIAccessible
@@ -18152,7 +18144,9 @@ while
 currentNode
 )
 {
-accService
+GetAccService
+(
+)
 -
 >
 GetAccessibleInWeakShell
@@ -18165,11 +18159,6 @@ accessible
 )
 )
 ;
-/
-/
-AddRef
-'
-d
 if
 (
 accessible

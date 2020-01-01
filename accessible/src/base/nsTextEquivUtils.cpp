@@ -1070,6 +1070,8 @@ IsVisible
 ;
 nsresult
 rv
+=
+NS_ERROR_FAILURE
 ;
 PRBool
 goThroughDOMSubtree
@@ -1087,11 +1089,6 @@ nsIAccessible
 >
 accessible
 ;
-rv
-=
-nsAccessNode
-:
-:
 GetAccService
 (
 )
@@ -1109,12 +1106,6 @@ accessible
 ;
 if
 (
-NS_SUCCEEDED
-(
-rv
-)
-&
-&
 accessible
 )
 {

@@ -2197,9 +2197,6 @@ nsIAccessible
 >
 accessible
 ;
-nsAccessNode
-:
-:
 GetAccService
 (
 )
