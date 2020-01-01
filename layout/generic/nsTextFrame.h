@@ -1985,9 +1985,6 @@ edges
 bool
 MeasureCharClippedText
 (
-gfxContext
-*
-aCtx
 nscoord
 aLeftEdge
 nscoord
@@ -2058,9 +2055,6 @@ edges
 bool
 MeasureCharClippedText
 (
-gfxContext
-*
-aCtx
 PropertyProvider
 &
 aProvider
