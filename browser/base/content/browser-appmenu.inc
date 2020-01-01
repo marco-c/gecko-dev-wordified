@@ -2883,11 +2883,9 @@ document
 getElementById
 (
 '
-appmenu_toggleTabsOnTop
+appmenu_toggleToolbarsSeparator
 '
 )
-.
-previousSibling
 )
 ;
 "
@@ -2940,6 +2938,11 @@ menuseparator
 >
 <
 menuseparator
+id
+=
+"
+appmenu_toggleToolbarsSeparator
+"
 /
 >
 <
