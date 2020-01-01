@@ -6319,6 +6319,14 @@ identifier
 "
 NavigatorProperty
 "
+or
+                  
+identifier
+=
+=
+"
+OverrideBuiltins
+"
 )
 :
                 

@@ -1125,6 +1125,11 @@ aElement
 )
 ;
 bool
+HasIdElementExposedAsHTMLDocumentProperty
+(
+)
+;
+bool
 HasContentChangeCallback
 (
 )
@@ -6333,6 +6338,12 @@ void
 XPCOMShutdown
 (
 )
+;
+js
+:
+:
+ExpandoAndGeneration
+mExpandoAndGeneration
 ;
 protected
 :
