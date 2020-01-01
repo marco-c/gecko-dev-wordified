@@ -342,16 +342,6 @@ imgRequestProxy
 proxy
 )
 ;
-/
-/
-aNotify
-=
-=
-false
-still
-sends
-OnStopRequest
-.
 nsresult
 RemoveProxy
 (
@@ -360,8 +350,6 @@ imgRequestProxy
 proxy
 nsresult
 aStatus
-bool
-aNotify
 )
 ;
 void

@@ -1103,8 +1103,6 @@ imgRequestProxy
 proxy
 nsresult
 aStatus
-bool
-aNotify
 )
 {
 LOG_SCOPE_WITH_PARAM
@@ -1259,8 +1257,6 @@ EmulateRequestFinished
 (
 proxy
 aStatus
-!
-aNotify
 )
 ;
 if
