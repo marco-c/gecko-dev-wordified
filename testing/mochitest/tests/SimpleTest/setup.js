@@ -2293,7 +2293,7 @@ elems
 =
 document
 .
-getElementsClassName
+getElementsByClassName
 (
 "
 non
