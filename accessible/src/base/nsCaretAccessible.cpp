@@ -1219,7 +1219,7 @@ NS_OK
 /
 Get
 first
-nsIAccessibleText
+nnsIAccessibleText
 in
 parent
 chain

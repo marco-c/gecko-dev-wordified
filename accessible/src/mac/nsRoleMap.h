@@ -604,7 +604,7 @@ AXWebArea
 "
 /
 /
-ROLE_INTERNAL_FRAME
+ROLE_CLIENT
 NSAccessibilityMenuRole
 /
 /

@@ -1035,12 +1035,11 @@ window
 /
 ROLE_WINDOW
 "
-internal
-frame
+client
 "
 /
 /
-ROLE_INTERNAL_FRAME
+ROLE_CLIENT
 "
 menupopup
 "
