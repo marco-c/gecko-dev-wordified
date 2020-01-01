@@ -977,6 +977,7 @@ new
 AsyncPanZoomController
 (
 aLayersId
+this
 state
 -
 >

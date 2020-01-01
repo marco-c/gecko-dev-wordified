@@ -1715,6 +1715,9 @@ AsyncPanZoomController
 (
 uint64_t
 aLayersId
+APZCTreeManager
+*
+aTreeManager
 GeckoContentController
 *
 aGeckoContentController
@@ -1817,6 +1820,10 @@ false
 mDelayPanning
 (
 false
+)
+mTreeManager
+(
+aTreeManager
 )
 {
 MOZ_COUNT_CTOR
@@ -1970,6 +1977,10 @@ mLastChild
 nullptr
 ;
 mParent
+=
+nullptr
+;
+mTreeManager
 =
 nullptr
 ;
