@@ -891,8 +891,6 @@ true
 color
 :
 GrayText
-!
-important
 ;
 }
 /
@@ -997,6 +995,17 @@ repeat
 ;
 }
 checkbox
+:
+not
+(
+[
+disabled
+=
+"
+true
+"
+]
+)
 :
 hover
 {
