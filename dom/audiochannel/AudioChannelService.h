@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 AudioChannelCommon
 .
 h

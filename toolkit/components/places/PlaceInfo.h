@@ -79,6 +79,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h

@@ -117,6 +117,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 gfxASurface
 .
 h

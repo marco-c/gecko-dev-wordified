@@ -132,6 +132,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsIObserverService
 .
 h
