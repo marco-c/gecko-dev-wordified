@@ -1104,6 +1104,15 @@ return
 CUBEB_ERROR
 ;
 }
+SetThreadPriority
+(
+ctx
+-
+>
+thread
+THREAD_PRIORITY_TIME_CRITICAL
+)
+;
 InitializeCriticalSection
 (
 &
