@@ -780,6 +780,17 @@ return
 NS_StackWalk
 (
 ChromeStackWalker
+/
+*
+skipFrames
+*
+/
+0
+/
+*
+maxFrames
+*
+/
 0
 reinterpret_cast
 <

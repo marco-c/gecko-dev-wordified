@@ -722,6 +722,17 @@ rawStack
 NS_StackWalk
 (
 RecordStackWalker
+/
+*
+skipFrames
+*
+/
+0
+/
+*
+maxFrames
+*
+/
 0
 reinterpret_cast
 <
