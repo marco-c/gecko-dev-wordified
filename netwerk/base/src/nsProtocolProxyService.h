@@ -853,6 +853,8 @@ const
 nsCString
 &
 pacURI
+PRBool
+forceReload
 )
 ;
 /
