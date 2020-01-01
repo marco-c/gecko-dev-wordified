@@ -1659,6 +1659,8 @@ gfxFontconfigUtils
 FcWeightForBaseWeight
 (
 mWeight
+/
+100
 )
 ;
 if
