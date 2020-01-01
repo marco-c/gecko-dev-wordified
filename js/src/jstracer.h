@@ -10264,7 +10264,7 @@ tm
 ;
 extern
 void
-js_FlushJITCache
+js_ResetJIT
 (
 JSContext
 *

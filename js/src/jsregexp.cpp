@@ -22961,7 +22961,7 @@ tm
 ;
 }
 )
-js_FlushJITCache
+js_ResetJIT
 (
 cx
 )
