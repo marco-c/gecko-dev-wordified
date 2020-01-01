@@ -506,17 +506,7 @@ argv
 ]
 )
         
-sys
-.
-stdout
-.
-flush
-(
-)
-        
-os
-.
-kill
+flushkill
 (
 pid
 signal
@@ -560,9 +550,7 @@ strerror
         
 pass
     
-sys
-.
-exit
+flushexit
 (
 exitTimeout
 )
@@ -614,6 +602,10 @@ execvp
 (
 command
 args
+)
+            
+flushbuffers
+(
 )
         
 else
@@ -667,11 +659,66 @@ strerror
 elapsedtime
 )
         
+flushexit
+(
+exitOSError
+)
+def
+flushbuffers
+(
+)
+:
+        
+sys
+.
+stdout
+.
+flush
+(
+)
+        
+sys
+.
+stderr
+.
+flush
+(
+)
+def
+flushexit
+(
+rc
+)
+:
+        
+flushbuffers
+(
+)
+        
 sys
 .
 exit
 (
-exitOSError
+rc
+)
+def
+flushkill
+(
+pid
+sig
+)
+:
+        
+flushbuffers
+(
+)
+        
+os
+.
+kill
+(
+pid
+sig
 )
 signal
 .
@@ -832,9 +879,7 @@ status
 elapsedtime
 )
 	    
-sys
-.
-exit
+flushexit
 (
 exitSignal
 )
@@ -936,9 +981,7 @@ msg
 elapsedtime
 )
 	    
-sys
-.
-exit
+flushexit
 (
 rc
 )
@@ -966,9 +1009,7 @@ prefix
 elapsedtime
 )
 	    
-sys
-.
-exit
+flushexit
 (
 0
 )
@@ -976,17 +1017,13 @@ except
 KeyboardInterrupt
 :
 	
-os
-.
-kill
+flushkill
 (
 pid
 9
 )
 	
-sys
-.
-exit
+flushexit
 (
 exitInterrupt
 )
