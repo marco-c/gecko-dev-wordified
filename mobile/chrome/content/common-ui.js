@@ -724,7 +724,8 @@ iconURI
 .
 spec
 :
-null
+"
+"
 )
 ;
 list
