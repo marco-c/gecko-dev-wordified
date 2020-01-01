@@ -351,10 +351,10 @@ mozilla
 gl
 :
 :
-TextureImage
+GLContext
 :
 :
-TextureShareType
+SharedTextureShareType
 >
 {
 typedef
@@ -364,10 +364,10 @@ mozilla
 gl
 :
 :
-TextureImage
+GLContext
 :
 :
-TextureShareType
+SharedTextureShareType
 paramType
 ;
 static
