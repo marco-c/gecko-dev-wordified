@@ -115,6 +115,9 @@ selectedBrowser
 contentWindow
 )
 ;
+let
+initialActiveElement
+;
 is
 (
 id
@@ -145,6 +148,12 @@ function
 (
 )
 {
+initialActiveElement
+=
+document
+.
+activeElement
+;
 is
 (
 Tilt
@@ -267,9 +276,7 @@ is
 document
 .
 activeElement
-gBrowser
-.
-selectedBrowser
+initialActiveElement
 "
 The
 focus
@@ -281,7 +288,8 @@ given
 back
 to
 the
-selectedBrowser
+initial
+element
 .
 "
 )
