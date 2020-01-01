@@ -5507,6 +5507,13 @@ refs
 +
 +
 ;
+cachebitmap
+-
+>
+dirty
+=
+false
+;
 cairo_surface_set_user_data
 (
 nullSurf
