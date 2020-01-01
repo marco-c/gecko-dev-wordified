@@ -970,15 +970,6 @@ browsing
 is
 enabled
 "
-kSyncNotScheduled
-:
-"
-Not
-scheduled
-to
-do
-sync
-"
 kSyncBackoffNotMet
 :
 "
