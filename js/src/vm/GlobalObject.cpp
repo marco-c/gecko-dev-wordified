@@ -1626,9 +1626,10 @@ ES5
 .
 *
 /
-jsid
+RootedVarId
 id
-=
+(
+cx
 NameToId
 (
 cx
@@ -1640,6 +1641,7 @@ runtime
 atomState
 .
 evalAtom
+)
 )
 ;
 JSObject

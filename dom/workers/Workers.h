@@ -271,10 +271,9 @@ ResolveWorkerClasses
 JSContext
 *
 aCx
-JSObject
-*
+JSHandleObject
 aObj
-jsid
+JSHandleId
 aId
 unsigned
 aFlags

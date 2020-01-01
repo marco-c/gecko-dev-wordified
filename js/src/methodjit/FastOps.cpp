@@ -19658,10 +19658,10 @@ PC
 )
 )
 ;
-JSObject
-*
+RootedVarObject
 baseobj
-=
+(
+cx
 frame
 .
 extra
@@ -19670,6 +19670,7 @@ obj
 )
 .
 initObject
+)
 ;
 if
 (
@@ -19739,9 +19740,13 @@ LookupPropertyWithFlags
 (
 cx
 baseobj
+RootedVarId
+(
+cx
 NameToId
 (
 name
+)
 )
 JSRESOLVE_QUALIFIED
 &

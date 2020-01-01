@@ -5111,8 +5111,7 @@ get
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 receiver
 JSObject
 *
@@ -5135,8 +5134,7 @@ set
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 bool
 strict

@@ -303,10 +303,9 @@ document_resolve
 JSContext
 *
 cx
-JSObject
-*
+JSHandleObject
 obj
-jsid
+JSHandleId
 id
 unsigned
 flags
@@ -442,6 +441,10 @@ objp
 ok
 ?
 obj
+.
+value
+(
+)
 :
 NULL
 ;
