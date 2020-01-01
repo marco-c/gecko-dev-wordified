@@ -15097,7 +15097,6 @@ ISO
 windows
 -
 1256
-IBM864
 ISO
 -
 8859
