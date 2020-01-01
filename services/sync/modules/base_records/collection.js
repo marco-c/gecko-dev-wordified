@@ -433,9 +433,11 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
-util
+resource
 .
 js
 "
@@ -450,9 +452,11 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
-resource
+util
 .
 js
 "

@@ -642,7 +642,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 service
 .
