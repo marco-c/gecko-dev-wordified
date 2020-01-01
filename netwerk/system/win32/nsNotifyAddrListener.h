@@ -626,14 +626,14 @@ CheckAdaptersAddresses
 void
 )
 ;
-BOOL
+bool
 CheckIsGateway
 (
 PIP_ADAPTER_ADDRESSES
 aAdapter
 )
 ;
-BOOL
+bool
 CheckICSStatus
 (
 PWCHAR
@@ -651,9 +651,6 @@ nsCOMPtr
 nsIThread
 >
 mThread
-;
-OSVERSIONINFO
-mOSVerInfo
 ;
 HANDLE
 mShutdownEvent
