@@ -1662,11 +1662,8 @@ ntrynotes
 )
 ;
 extern
-JS_FRIEND_API
-(
 JSScript
 *
-)
 js_NewScriptFromCG
 (
 JSContext
@@ -1675,9 +1672,6 @@ cx
 JSCodeGenerator
 *
 cg
-JSFunction
-*
-fun
 )
 ;
 /
