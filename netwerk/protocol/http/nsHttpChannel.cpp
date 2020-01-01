@@ -29101,6 +29101,16 @@ NS_HTTP_REFRESH_DNS
 ;
 if
 (
+gHttpHandler
+-
+>
+CritialRequestPrioritization
+(
+)
+)
+{
+if
+(
 mLoadAsBlocking
 )
 mCaps
@@ -29117,6 +29127,7 @@ mCaps
 =
 NS_HTTP_LOAD_UNBLOCKED
 ;
+}
 /
 /
 Force
