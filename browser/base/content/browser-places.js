@@ -4250,6 +4250,8 @@ the
 open
 tabs
 confirm
+-
+dialog
 .
 if
 (
