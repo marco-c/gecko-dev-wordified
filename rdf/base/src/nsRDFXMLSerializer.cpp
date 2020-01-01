@@ -512,7 +512,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -4093,7 +4093,12 @@ the
 RDF
 :
 Description
-nsAutoVoidArray
+nsAutoTArray
+<
+nsIRDFResource
+*
+8
+>
 visited
 ;
 PRInt32
@@ -4265,7 +4270,7 @@ if
 (
 visited
 .
-IndexOf
+Contains
 (
 property
 .
@@ -4273,9 +4278,6 @@ get
 (
 )
 )
->
-=
-0
 )
 continue
 ;
@@ -4548,7 +4550,7 @@ if
 (
 visited
 .
-IndexOf
+Contains
 (
 property
 .
@@ -4556,9 +4558,6 @@ get
 (
 )
 )
->
-=
-0
 )
 continue
 ;
