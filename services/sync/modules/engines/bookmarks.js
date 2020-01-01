@@ -5280,6 +5280,7 @@ getFolderIdForItem
 itemId
 )
 )
+)
 return
 ;
 this
