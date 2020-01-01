@@ -248,6 +248,7 @@ pin
 tab
 whenAppTabIconAdded
 (
+groupItem
 function
 (
 )
@@ -294,7 +295,6 @@ finish
 )
 ;
 }
-win
 )
 ;
 win
