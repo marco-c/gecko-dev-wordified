@@ -720,9 +720,9 @@ window
 top
 docShell
 .
-setIsBrowser
-(
-)
+isBrowserFrame
+=
+true
 ;
 /
 /
