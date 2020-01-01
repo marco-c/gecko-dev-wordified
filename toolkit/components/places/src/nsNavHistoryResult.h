@@ -4373,6 +4373,13 @@ aIsTemporary
 PR_FALSE
 )
 ;
+PRBool
+EnsureItemPosition
+(
+PRUint32
+aIndex
+)
+;
 void
 MergeResults
 (
