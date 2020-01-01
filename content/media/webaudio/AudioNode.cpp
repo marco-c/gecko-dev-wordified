@@ -1040,6 +1040,18 @@ mOutputPort
 =
 aOutput
 ;
+if
+(
+SupportsMediaStreams
+(
+)
+&
+&
+aDestination
+.
+mStream
+)
+{
 /
 /
 Connect
@@ -1095,6 +1107,7 @@ MediaInputPort
 FLAG_BLOCK_OUTPUT
 )
 ;
+}
 }
 void
 AudioNode
