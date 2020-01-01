@@ -1458,8 +1458,6 @@ to
 specify
 X
 -
-Weave
--
 If
 -
 Unmodified
@@ -1493,8 +1491,6 @@ setHeader
 (
 "
 x
--
-weave
 -
 if
 -
