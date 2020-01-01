@@ -426,11 +426,6 @@ MathD
 \
 _
 (
-ModD
-)
-\
-_
-(
 BinaryV
 )
 \
