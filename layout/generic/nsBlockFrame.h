@@ -2694,6 +2694,8 @@ nsLineBox
 aLine
 nscolor
 aColor
+PRUint8
+aStyle
 gfxFloat
 aOffset
 gfxFloat
