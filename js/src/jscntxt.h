@@ -6402,15 +6402,7 @@ onlyfreevar
 \
 _
 (
-display
-)
-_
-(
 flat
-)
-_
-(
-setupvar
 )
 _
 (

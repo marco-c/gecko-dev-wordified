@@ -745,7 +745,7 @@ getter
 )
 =
 =
-GetFlatUpvar
+GetCallUpvar
 )
 return
 UPVAR
@@ -915,11 +915,11 @@ nupvars
 ;
 getter
 =
-GetFlatUpvar
+GetCallUpvar
 ;
 setter
 =
-SetFlatUpvar
+SetCallUpvar
 ;
 slot
 =
@@ -1465,7 +1465,7 @@ getter
 )
 =
 =
-GetFlatUpvar
+GetCallUpvar
 )
 {
 JS_ASSERT
@@ -1725,7 +1725,7 @@ getter
 )
 =
 =
-GetFlatUpvar
+GetCallUpvar
 )
 shape
 =

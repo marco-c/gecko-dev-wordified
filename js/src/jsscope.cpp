@@ -3218,13 +3218,13 @@ Otherwise
 we
 know
 that
-JSFunction
+Bindings
 :
 :
-addLocal
-*
+add
 (
 our
+*
 caller
 )
 won
@@ -3241,8 +3241,8 @@ to
 us
 .
 In
-*
 the
+*
 case
 of
 duplicate
@@ -3253,8 +3253,8 @@ one
 wins
 so
 while
-*
 we
+*
 must
 not
 overcount

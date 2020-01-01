@@ -19388,12 +19388,6 @@ break
 ;
 }
 case
-JSOP_GETUPVAR
-:
-case
-JSOP_CALLUPVAR
-:
-case
 JSOP_GETUPVAR_DBG
 :
 case

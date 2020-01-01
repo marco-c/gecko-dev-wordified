@@ -3429,7 +3429,6 @@ scopeChain
 )
 ;
 extern
-JS_REQUIRES_STACK
 JSObject
 *
 js_NewFlatClosure
@@ -3771,7 +3770,7 @@ vp
 ;
 extern
 JSBool
-GetFlatUpvar
+GetCallUpvar
 (
 JSContext
 *
@@ -3831,7 +3830,7 @@ vp
 ;
 extern
 JSBool
-SetFlatUpvar
+SetCallUpvar
 (
 JSContext
 *

@@ -1628,7 +1628,6 @@ success
 .
 *
 *
-*
 The
 parser
 builds
@@ -1645,7 +1644,11 @@ at
 runtime
 by
 calling
-addLocal
+an
+"
+add
+"
+method
 .
 All
 ARGUMENT
@@ -1653,8 +1656,8 @@ bindings
 must
 be
 added
-before
 *
+before
 before
 any
 VARIABLE
@@ -1664,9 +1667,9 @@ bindings
 which
 themselves
 must
+*
 be
 added
-*
 before
 all
 UPVAR
