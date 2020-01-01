@@ -1405,6 +1405,10 @@ aLayer
 Compositor
 *
 aCompositor
+AttachFlags
+aFlags
+=
+NO_FLAGS
 )
 MOZ_OVERRIDE
 ;

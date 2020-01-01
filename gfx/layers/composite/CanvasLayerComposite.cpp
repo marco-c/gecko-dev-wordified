@@ -726,6 +726,7 @@ mImageHost
 >
 Detach
 (
+this
 )
 ;
 }
