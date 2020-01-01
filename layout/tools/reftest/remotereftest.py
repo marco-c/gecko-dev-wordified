@@ -125,6 +125,7 @@ import
 devicemanager
 devicemanagerADB
 devicemanagerSUT
+devicemanager
 from
 remoteautomation
 import
@@ -4057,10 +4058,9 @@ reftest
 list
 "
     
-logcat
+retVal
 =
-[
-]
+0
     
 try
 :
@@ -4100,14 +4100,6 @@ manifest
 options
 cmdlineArgs
 )
-        
-logcat
-=
-dm
-.
-getLogcat
-(
-)
     
 except
 :
@@ -4127,14 +4119,8 @@ running
 reftests
 "
         
-reftest
-.
-stopWebServer
-(
-options
-)
-        
-return
+retVal
+=
 1
     
 reftest
@@ -4144,6 +4130,17 @@ stopWebServer
 options
 )
     
+try
+:
+        
+logcat
+=
+dm
+.
+getLogcat
+(
+)
+        
 print
 '
 '
@@ -4159,7 +4156,7 @@ logcat
 1
 ]
 )
-    
+        
 print
 dm
 .
@@ -4167,8 +4164,28 @@ getInfo
 (
 )
     
+except
+devicemanager
+.
+DMError
+:
+        
+print
+"
+WARNING
+:
+Error
+getting
+device
+information
+at
+end
+of
+test
+"
+    
 return
-0
+retVal
 if
 __name__
 =
