@@ -805,6 +805,9 @@ mLastFlushedPass
 PRPackedBool
 mGIFOpen
 ;
+PRPackedBool
+mFrameHasNoAlpha
+;
 gif_struct
 mGIFStruct
 ;

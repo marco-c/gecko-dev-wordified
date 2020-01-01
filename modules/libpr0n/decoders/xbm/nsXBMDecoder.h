@@ -638,6 +638,9 @@ X10
 flavor
 XBM
 ?
+PRPackedBool
+mHasNoAlpha
+;
 enum
 {
 RECV_HEADER

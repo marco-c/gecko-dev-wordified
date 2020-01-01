@@ -640,6 +640,9 @@ mChannels
 PRPackedBool
 mError
 ;
+PRPackedBool
+mFrameHasNoAlpha
+;
 }
 ;
 #
