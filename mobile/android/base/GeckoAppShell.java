@@ -3345,8 +3345,9 @@ getView
 ;
 mInputConnection
 =
-new
 GeckoInputConnection
+.
+create
 (
 v
 )
