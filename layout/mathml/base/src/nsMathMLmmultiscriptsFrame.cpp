@@ -715,7 +715,12 @@ isSubScript
 =
 PR_FALSE
 ;
-nsAutoVoidArray
+nsAutoTArray
+<
+nsIFrame
+*
+8
+>
 subScriptFrames
 ;
 nsIFrame
@@ -830,7 +835,7 @@ i
 =
 subScriptFrames
 .
-Count
+Length
 (
 )
 -
@@ -848,10 +853,6 @@ i
 {
 childFrame
 =
-(
-nsIFrame
-*
-)
 subScriptFrames
 [
 i

@@ -549,9 +549,6 @@ class
 nsIPresShell
 ;
 class
-nsVoidArray
-;
-class
 nsFrameManager
 ;
 class

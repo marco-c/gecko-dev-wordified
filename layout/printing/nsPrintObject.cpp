@@ -619,7 +619,7 @@ nsPrintObject
 {
 for
 (
-PRInt32
+PRUint32
 i
 =
 0
@@ -628,7 +628,7 @@ i
 <
 mKids
 .
-Count
+Length
 (
 )
 ;
@@ -641,10 +641,6 @@ nsPrintObject
 *
 po
 =
-(
-nsPrintObject
-*
-)
 mKids
 [
 i

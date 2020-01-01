@@ -720,7 +720,11 @@ mContent
 PrintObjectType
 mFrameType
 ;
-nsVoidArray
+nsTArray
+<
+nsPrintObject
+*
+>
 mKids
 ;
 nsPrintObject

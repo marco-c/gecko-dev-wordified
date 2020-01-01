@@ -503,7 +503,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -653,7 +653,11 @@ IN
 /
 OUT
 ]
-nsVoidArray
+nsTArray
+<
+PRUnichar
+*
+>
 &
 aOffset
 )
@@ -837,7 +841,11 @@ nsValueList
 nsString
 mData
 ;
-nsVoidArray
+nsTArray
+<
+PRUnichar
+*
+>
 mArray
 ;
 nsValueList
@@ -1072,7 +1080,7 @@ valueList
 >
 mArray
 .
-Count
+Length
 (
 )
 )
@@ -1112,7 +1120,7 @@ valueList
 >
 mArray
 .
-Count
+Length
 (
 )
 ;
@@ -1123,11 +1131,6 @@ aRowOrColIndex
 count
 )
 ?
-(
-PRUnichar
-*
-)
-(
 valueList
 -
 >
@@ -1135,13 +1138,7 @@ mArray
 [
 aRowOrColIndex
 ]
-)
 :
-(
-PRUnichar
-*
-)
-(
 valueList
 -
 >
@@ -1151,7 +1148,6 @@ count
 -
 1
 ]
-)
 ;
 }
 #

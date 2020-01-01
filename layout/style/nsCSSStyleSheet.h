@@ -528,7 +528,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -663,7 +663,12 @@ CreateNamespaceMap
 (
 )
 ;
-nsAutoVoidArray
+nsAutoTArray
+<
+nsICSSStyleSheet
+*
+8
+>
 mSheets
 ;
 nsCOMPtr
@@ -1565,7 +1570,12 @@ nsCSSStyleSheetInner
 *
 mInner
 ;
-nsAutoVoidArray
+nsAutoTArray
+<
+nsCSSRuleProcessor
+*
+8
+>
 *
 mRuleProcessors
 ;

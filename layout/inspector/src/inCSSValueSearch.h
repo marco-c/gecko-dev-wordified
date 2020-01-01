@@ -441,7 +441,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -505,7 +505,11 @@ nsIDOMDocument
 >
 mDocument
 ;
-nsVoidArray
+nsTArray
+<
+nsAutoString
+*
+>
 *
 mResults
 ;

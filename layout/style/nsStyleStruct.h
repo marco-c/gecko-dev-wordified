@@ -521,13 +521,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsStyleCoord
 .
 h

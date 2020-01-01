@@ -714,6 +714,13 @@ nsCSSProps
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 /
 *
 *
@@ -17668,7 +17675,12 @@ the
 desired
 generic
 font
-nsAutoVoidArray
+nsAutoTArray
+<
+nsStyleContext
+*
+8
+>
 contextPath
 ;
 contextPath
@@ -17861,7 +17873,7 @@ i
 =
 contextPath
 .
-Count
+Length
 (
 )
 -
@@ -17881,10 +17893,6 @@ nsStyleContext
 *
 context
 =
-(
-nsStyleContext
-*
-)
 contextPath
 [
 i

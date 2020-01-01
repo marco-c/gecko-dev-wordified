@@ -462,7 +462,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -919,8 +919,11 @@ the
 currently
 focused
 window
-nsVoidArray
+nsTArray
+<
+nsPrintObject
 *
+>
 mPrintDocList
 ;
 PRPackedBool

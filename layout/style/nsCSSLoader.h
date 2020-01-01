@@ -3275,7 +3275,12 @@ what
 the
 hell
 .
-nsAutoVoidArray
+nsAutoTArray
+<
+SheetLoadData
+*
+8
+>
 mParsingDatas
 ;
 /
