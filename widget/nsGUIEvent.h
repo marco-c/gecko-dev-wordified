@@ -7088,12 +7088,12 @@ case
 }
 return
 (
-Abs
+DeprecatedAbs
 (
 lineOrPageDeltaX
 )
 >
-Abs
+DeprecatedAbs
 (
 lineOrPageDeltaY
 )

@@ -3060,7 +3060,7 @@ calibration
 purposes
 aDuration
 =
-Abs
+DeprecatedAbs
 (
 aDuration
 )

@@ -4799,7 +4799,7 @@ rank
 =
 9
 -
-Abs
+DeprecatedAbs
 (
 aFontEntry
 -
@@ -18159,7 +18159,7 @@ sxHeight
 ;
 /
 /
-Abs
+DeprecatedAbs
 because
 of
 negative
@@ -18175,7 +18175,7 @@ aMetrics
 .
 xHeight
 =
-Abs
+DeprecatedAbs
 (
 aMetrics
 .

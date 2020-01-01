@@ -691,7 +691,7 @@ unsupported
 command
 count
 =
-Abs
+DeprecatedAbs
 (
 count
 )
@@ -1084,7 +1084,7 @@ unsupported
 command
 count
 =
-Abs
+DeprecatedAbs
 (
 count
 )

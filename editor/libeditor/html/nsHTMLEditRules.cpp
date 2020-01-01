@@ -13151,7 +13151,7 @@ min
 so
 eo
 )
-Abs
+DeprecatedAbs
 (
 eo
 -
@@ -30102,7 +30102,7 @@ j
 ;
 j
 <
-Abs
+DeprecatedAbs
 (
 relFontSize
 )

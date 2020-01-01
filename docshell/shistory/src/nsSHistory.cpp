@@ -6834,7 +6834,7 @@ min
 container
 .
 mDistance
-Abs
+DeprecatedAbs
 (
 i
 -
@@ -6884,7 +6884,7 @@ TransactionAndDistance
 container
 (
 trans
-Abs
+DeprecatedAbs
 (
 i
 -

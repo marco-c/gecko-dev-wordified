@@ -12230,7 +12230,7 @@ WidgetToScreenOffset
 ;
 if
 (
-Abs
+DeprecatedAbs
 (
 pt
 .
@@ -12244,7 +12244,7 @@ x
 pixelThresholdX
 |
 |
-Abs
+DeprecatedAbs
 (
 pt
 .
@@ -17467,7 +17467,7 @@ aEvent
 )
 &
 &
-Abs
+DeprecatedAbs
 (
 actualDevPixelScrollAmount
 .
@@ -17519,7 +17519,7 @@ aEvent
 )
 &
 &
-Abs
+DeprecatedAbs
 (
 actualDevPixelScrollAmount
 .
@@ -34146,7 +34146,7 @@ bool
 deltaXPreferred
 =
 (
-Abs
+DeprecatedAbs
 (
 aEvent
 -
@@ -34154,7 +34154,7 @@ aEvent
 deltaX
 )
 >
-Abs
+DeprecatedAbs
 (
 aEvent
 -
@@ -34163,7 +34163,7 @@ deltaY
 )
 &
 &
-Abs
+DeprecatedAbs
 (
 aEvent
 -
@@ -34171,7 +34171,7 @@ aEvent
 deltaX
 )
 >
-Abs
+DeprecatedAbs
 (
 aEvent
 -
@@ -34392,7 +34392,7 @@ index
 )
 ;
 return
-Abs
+DeprecatedAbs
 (
 mMultiplierX
 [
@@ -34435,7 +34435,7 @@ index
 )
 ;
 return
-Abs
+DeprecatedAbs
 (
 mMultiplierY
 [

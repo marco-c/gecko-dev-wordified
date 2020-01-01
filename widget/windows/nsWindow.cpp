@@ -24350,7 +24350,7 @@ kSystemDefaultScrollingSpeed
 int32_t
 absOriginDelta
 =
-Abs
+DeprecatedAbs
 (
 aOriginalDelta
 )
@@ -27108,7 +27108,7 @@ bool
 insideMovementThreshold
 =
 (
-Abs
+DeprecatedAbs
 (
 sLastMousePoint
 .
@@ -27132,7 +27132,7 @@ SM_CXDOUBLECLK
 &
 &
 (
-Abs
+DeprecatedAbs
 (
 sLastMousePoint
 .
@@ -42537,7 +42537,7 @@ mGesture
 UpdatePanFeedbackX
 (
 mWnd
-Abs
+DeprecatedAbs
 (
 RoundDown
 (
@@ -42554,7 +42554,7 @@ mGesture
 UpdatePanFeedbackY
 (
 mWnd
-Abs
+DeprecatedAbs
 (
 RoundDown
 (

@@ -189,7 +189,7 @@ using
 mozilla
 :
 :
-Abs
+DeprecatedAbs
 ;
 LoopState
 :
@@ -13709,7 +13709,7 @@ false
 int32_t
 rhs
 =
-Abs
+DeprecatedAbs
 (
 rhsmax
 )
@@ -13994,11 +13994,11 @@ nlhs
 =
 Max
 (
-Abs
+DeprecatedAbs
 (
 lhsmin
 )
-Abs
+DeprecatedAbs
 (
 lhsmax
 )
@@ -14009,11 +14009,11 @@ nrhs
 =
 Max
 (
-Abs
+DeprecatedAbs
 (
 rhsmin
 )
-Abs
+DeprecatedAbs
 (
 rhsmax
 )

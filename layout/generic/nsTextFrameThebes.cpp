@@ -37155,7 +37155,7 @@ app
 gfxFloat
 width
 =
-Abs
+DeprecatedAbs
 (
 advance
 )

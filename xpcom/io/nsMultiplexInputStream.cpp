@@ -212,7 +212,7 @@ using
 mozilla
 :
 :
-Abs
+DeprecatedAbs
 ;
 class
 nsMultiplexInputStream
@@ -2697,7 +2697,7 @@ stream
 .
 if
 (
-Abs
+DeprecatedAbs
 (
 remaining
 )
@@ -2738,7 +2738,7 @@ remaining
 else
 if
 (
-Abs
+DeprecatedAbs
 (
 remaining
 )
@@ -2816,7 +2816,7 @@ streamPos
 XPCOM_MIN
 (
 avail
-Abs
+DeprecatedAbs
 (
 remaining
 )
