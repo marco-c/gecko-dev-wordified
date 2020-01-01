@@ -22423,7 +22423,7 @@ int
 ]
 row
 =
-NamedCharacters
+NamedCharactersAccel
 .
 HILO_ACCEL
 [

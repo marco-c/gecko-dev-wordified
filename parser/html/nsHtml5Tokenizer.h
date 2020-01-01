@@ -353,6 +353,13 @@ h
 #
 include
 "
+nsHtml5NamedCharactersAccel
+.
+h
+"
+#
+include
+"
 nsHtml5Atoms
 .
 h

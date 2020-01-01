@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5NamedCharacters_h__
+nsHtml5NamedCharacters_h_
 #
 define
-nsHtml5NamedCharacters_h__
+nsHtml5NamedCharacters_h_
 #
 include
 "
@@ -80,15 +80,6 @@ PRUnichar
 WINDOWS_1252
 ;
 static
-const
-PRInt32
-*
-const
-HILO_ACCEL
-[
-]
-;
-static
 void
 initializeStatics
 (
@@ -106,4 +97,4 @@ releaseStatics
 endif
 /
 /
-nsHtml5NamedCharacters_h__
+nsHtml5NamedCharacters_h_
