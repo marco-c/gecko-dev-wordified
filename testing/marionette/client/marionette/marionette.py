@@ -546,16 +546,22 @@ None
 emulatorBinary
 =
 None
+emulator_res
+=
+'
+480x800
+'
+                 
 connectToRunningEmulator
 =
 False
-                 
 homedir
 =
 None
 baseurl
 =
 None
+                 
 noWindow
 =
 False
@@ -727,6 +733,10 @@ emulator
 emulatorBinary
 =
 emulatorBinary
+                                     
+res
+=
+emulator_res
 )
             
 self
